@@ -25,3 +25,206 @@
     padding-right: 0;
   }
 }
+
+// =============================================================================
+// danielvaughan.com tokens — ported from main site _bootstrap_customization.scss
+// =============================================================================
+
+$dv-primary:  #0869ff;
+$dv-navy:     #0d1b4b;
+$dv-body:     #323232;
+$dv-heading:  #343a40;
+$dv-bg-alt:   #f8f9fa;
+$dv-border:   #e9ecef;
+$dv-muted:    #888;
+$dv-font-headings: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// ----- Sticky navy navbar (replaces minimal-mistakes masthead) -----
+
+.dv-nav {
+  background: $dv-navy;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.dv-nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0.4rem 1.25rem;
+}
+.dv-nav__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #fff;
+  font-family: $dv-font-headings;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  &:hover { color: rgba(255,255,255,0.85); text-decoration: none; }
+}
+.dv-nav__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.35);
+  object-fit: cover;
+}
+.dv-nav__links {
+  display: flex;
+  gap: 0.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li a {
+    display: inline-block;
+    padding: 0.4rem 0.85rem;
+    color: rgba(255,255,255,0.75);
+    font-family: $dv-font-headings;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover { color: #fff; text-decoration: none; }
+  }
+}
+@media (max-width: 600px) {
+  .dv-nav__inner { flex-direction: column; gap: 0.5rem; padding: 0.6rem 1rem; }
+  .dv-nav__links { flex-wrap: wrap; justify-content: center; }
+}
+
+// ----- Home page intro band -----
+
+.dv-intro {
+  background: $dv-bg-alt;
+  border-bottom: 1px solid $dv-border;
+  padding: 2.5rem 0 2rem;
+  margin-bottom: 2rem;
+}
+.dv-intro__inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+.dv-intro h2 {
+  font-family: $dv-font-headings;
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: $dv-heading;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 3px solid $dv-primary;
+  display: inline-block;
+}
+.dv-intro p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: $dv-body;
+  margin: 0;
+  max-width: 60ch;
+}
+
+// ----- Footer -----
+
+.dv-footer {
+  border-top: 1px solid $dv-border;
+  background: #ffffff;
+  padding: 2.5rem 0;
+  margin-top: 3rem;
+  text-align: center;
+}
+.dv-footer__inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  font-family: $dv-font-headings;
+  font-size: 0.82rem;
+  color: $dv-muted;
+}
+
+// ----- Post page restyle (CSS overrides on minimal-mistakes selectors) -----
+
+.page__title {
+  font-family: $dv-font-headings;
+  font-weight: 700;
+  color: $dv-heading;
+  letter-spacing: -0.01em;
+}
+
+.page__content {
+  h2, h3, h4, h5, h6 {
+    font-family: $dv-font-headings;
+    color: $dv-heading;
+  }
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 700;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid $dv-primary;
+    display: inline-block;
+    margin-top: 2.5rem;
+  }
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: $dv-primary;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 2rem;
+  }
+  a { color: $dv-primary; }
+  a:hover { color: $dv-navy; }
+}
+
+// TOC sidebar
+.toc {
+  .nav__title {
+    background: $dv-navy;
+    color: #fff;
+    font-family: $dv-font-headings;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .toc__menu a {
+    font-family: $dv-font-headings;
+    font-size: 0.85em;
+  }
+  .toc__menu .active a {
+    background: #f0f4ff;
+    color: $dv-primary;
+    border-left: 3px solid $dv-primary;
+  }
+}
+
+// Author profile sidebar
+.author__name { font-family: $dv-font-headings; font-weight: 700; }
+.author__bio  { font-size: 0.9rem; }
+
+// Post meta (read time, tags, share)
+.page__meta,
+.page__taxonomy {
+  font-family: $dv-font-headings;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $dv-muted;
+}
+
+// ----- Home page post list restyle -----
+
+.archive__item-title {
+  font-family: $dv-font-headings;
+  font-weight: 700;
+  a { color: $dv-heading; }
+  a:hover { color: $dv-primary; text-decoration: none; }
+}
+.archive__item-excerpt {
+  font-size: 0.95rem;
+  color: #5a5a5a;
+}
