@@ -5,10 +5,6 @@ url: "https://codex.danielvaughan.com"
 baseurl: ""
 repository: "danielvaughan/codex-blog"
 
-# Theme
-remote_theme: mmistakes/minimal-mistakes@4.26.2
-minimal_mistakes_skin: "air"
-
 # Build
 permalink: /:year/:month/:day/:title/
 timezone: Europe/London
@@ -18,23 +14,22 @@ markdown: kramdown
 paginate: 10
 paginate_path: "/page:num/"
 
-# Search — disabled because the reskin removed the search trigger button
-# from the custom masthead. minimal-mistakes' JS would otherwise try to
-# initialise the search modal and fail to find expected elements.
-search: false
-
 # Mermaid (rendered via _includes/head/custom.html)
 mermaid:
   version: "10"
 
-# Plugins (also listed in Gemfile)
+# Plugins (jekyll-remote-theme is gone — minimal-mistakes is gone)
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
   - jekyll-include-cache
+
+# SCSS load paths so @import "main-site/..." resolves via the symlink
+sass:
+  load_paths:
+    - _sass
 
 # Author
 author:
@@ -47,26 +42,16 @@ author:
 
 # Defaults
 defaults:
-  # All posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: false
-      read_time: true
-      share: true
-      related: true
-      comments: false
-      toc: true
-      toc_sticky: true
-  # All hand-authored pages
+      layout: post
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      author_profile: false
+      layout: page
 
 # Include _pages so Jekyll picks them up
 include:
@@ -74,6 +59,7 @@ include:
 
 # Exclude
 exclude:
+  - _main-site
   - Gemfile
   - Gemfile.lock
   - vendor/
@@ -82,3 +68,4 @@ exclude:
   - README.md
   - "*.gem"
   - "*.gemspec"
+  - scripts/
