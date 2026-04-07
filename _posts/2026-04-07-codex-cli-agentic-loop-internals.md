@@ -1,14 +1,12 @@
 ---
 title: "How the Codex CLI Agentic Loop Works in Detail to the Code Level"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 159
 ---
 
 # How the Codex CLI Agentic Loop Works in Detail to the Code Level
 
-**Date:** 2026-04-07
-**Tags:** agentic-loop, internals, source-code, event-loop, tool-dispatch, approval-gates, sandbox, architecture, deep-dive
 
 ---
 
