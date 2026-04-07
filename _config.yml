@@ -22,6 +22,10 @@ paginate_path: "/page:num/"
 search: true
 search_full_content: true
 
+# Mermaid (rendered via _includes/head/custom.html)
+mermaid:
+  version: "10"
+
 # Plugins (also listed in Gemfile)
 plugins:
   - jekyll-remote-theme
