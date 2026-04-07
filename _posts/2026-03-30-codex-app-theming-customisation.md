@@ -5,6 +5,8 @@ nav_order: 126
 tags: [theming, appearance, codex-theme-v1, tui-theme, tmTheme, customisation, fonts, partner-themes, config-toml]
 ---
 
+![Sketchnote diagram for: Codex App Theming and Customisation: codex-theme-v1, Partner Themes, and the CLI /theme Command](/sketchnotes/articles/2026-03-30-codex-app-theming-customisation.png)
+
 # Codex App Theming and Customisation: codex-theme-v1, Partner Themes, and the CLI /theme Command
 
 

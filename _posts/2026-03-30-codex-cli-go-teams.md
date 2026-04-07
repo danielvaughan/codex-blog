@@ -5,6 +5,8 @@ nav_order: 104
 tags: [golang, go-teams, agents-md, cc-skills-golang, go-1-26, golangci-lint, testing, concurrency, ci-cd]
 ---
 
+![Sketchnote diagram for: Codex CLI for Go Teams: Skills, AGENTS.md and Go 1.26 Workflows](/sketchnotes/articles/2026-03-30-codex-cli-go-teams.png)
+
 # Codex CLI for Go Teams: Skills, AGENTS.md and Go 1.26 Workflows
 
 

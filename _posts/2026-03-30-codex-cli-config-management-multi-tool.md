@@ -4,6 +4,8 @@ date: 2026-03-30
 tags: [config-management, multi-tool, ruler, cc-switch, vsync, caliber, agents-md]
 ---
 
+![Sketchnote diagram for: Managing Codex CLI Configuration Across Multiple AI Tools](/sketchnotes/articles/2026-03-30-codex-cli-config-management-multi-tool.png)
+
 *Most teams don't just use Codex CLI. They use Codex alongside Claude Code, Cursor, Gemini CLI, or GitHub Copilot. This creates a configuration management problem: AGENTS.md, config.toml, MCP servers, and skills all need to stay in sync — or deliberately diverge — across tools. This article covers the patterns and tools that solve it.*
 
 ---

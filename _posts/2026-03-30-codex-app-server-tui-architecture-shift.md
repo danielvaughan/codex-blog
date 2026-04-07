@@ -5,6 +5,8 @@ nav_order: 122
 tags: [app-server, tui, v0.117.0, json-rpc, remote-sessions, architecture, websocket]
 ---
 
+![Sketchnote diagram for: Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions](/sketchnotes/articles/2026-03-30-codex-app-server-tui-architecture-shift.png)
+
 # Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions
 
 

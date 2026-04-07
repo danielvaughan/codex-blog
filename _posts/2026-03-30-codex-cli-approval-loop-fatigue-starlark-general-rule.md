@@ -5,6 +5,8 @@ tags: [execpolicy, starlark, rules-engine, approval-fatigue, multi-agent, sandbo
 description: "Why Codex's current prefix_rule-only rules engine causes approval loop fatigue in multi-agent sessions — and what the community is building to fix it."
 ---
 
+![Sketchnote diagram for: Codex CLI Approval Loop Fatigue: The prefix_rule Limitation and the Coming general_rule Fix](/sketchnotes/articles/2026-03-30-codex-cli-approval-loop-fatigue-starlark-general-rule.png)
+
 *Published: 2026-03-30. Sources: [github.com/openai/codex/issues/15214](https://github.com/openai/codex/issues/15214) · [developers.openai.com/codex/rules](https://developers.openai.com/codex/rules) · community gist by @vertti*
 
 ---

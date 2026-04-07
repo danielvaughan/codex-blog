@@ -5,6 +5,8 @@ nav_order: 101
 tags: [docker, codex-universal, sandboxing, containerisation, cloud-environments, danger-full-access, setup-scripts]
 ---
 
+![Sketchnote diagram for: Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal](/sketchnotes/articles/2026-03-30-codex-cli-docker-containerised-environments.png)
+
 # Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal
 
 

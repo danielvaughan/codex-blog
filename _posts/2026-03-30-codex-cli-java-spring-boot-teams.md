@@ -5,6 +5,8 @@ nav_order: 127
 tags: [java, spring-boot, maven, gradle, agents-md, sandbox, testcontainers, ci-cd]
 ---
 
+![Sketchnote diagram for: Codex CLI for Java and Spring Boot Teams: AGENTS.md, Maven Sandboxing, and Gradle Workflows](/sketchnotes/articles/2026-03-30-codex-cli-java-spring-boot-teams.png)
+
 # Codex CLI for Java and Spring Boot Teams: AGENTS.md, Maven Sandboxing, and Gradle Workflows
 
 
