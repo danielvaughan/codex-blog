@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <p class="post-meta text-muted">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+    </p>
+
+    {%- if page.tags and page.tags.size > 0 -%}
+    <div class="post-tags">
+      {%- for tag in page.tags -%}
+      <a href="{{ '/tags/#' | append: tag | slugify | relative_url }}" class="badge">{{ tag }}</a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+  </header>
+
+  <nav class="post-toc" aria-label="On this page" hidden>
+    <p class="post-toc-title">On this page</p>
+    <ul></ul>
+  </nav>
+
+  <section class="post-body">
+    {{ content }}
+  </section>
+</article>
