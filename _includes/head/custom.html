@@ -3,19 +3,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
 <script>
-  // Accessibility shims that minimal-mistakes' default layouts don't provide:
-  // - Promote <div id="main"> to a real main landmark for screen readers.
-  // - Label the table-of-contents nav.
-  // - Label the pagination nav.
+  // Inline TOC builder — populates nav.post-toc from .post-body h2 elements
   document.addEventListener('DOMContentLoaded', function () {
-    var main = document.getElementById('main');
-    if (main && !main.hasAttribute('role')) main.setAttribute('role', 'main');
-
-    var toc = document.querySelector('nav.toc');
-    if (toc && !toc.hasAttribute('aria-label')) toc.setAttribute('aria-label', 'On this page');
-
-    var pagination = document.querySelector('nav.pagination');
-    if (pagination && !pagination.hasAttribute('aria-label')) pagination.setAttribute('aria-label', 'Pagination');
+    var nav = document.querySelector('nav.post-toc');
+    if (!nav) return;
+    var ul = nav.querySelector('ul');
+    var headings = document.querySelectorAll('.post-body h2');
+    if (headings.length === 0) {
+      nav.setAttribute('hidden', '');
+      return;
+    }
+    headings.forEach(function (h) {
+      var id = h.id || h.textContent
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-')
+        .replace(/^-|-$/g, '');
+      h.id = id;
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#' + id;
+      a.textContent = h.textContent;
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+    nav.removeAttribute('hidden');
   });
 </script>
 
