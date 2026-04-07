@@ -147,7 +147,7 @@ It has been succeeded by `gpt-5.2-codex` (better native compaction) and `gpt-5.3
 
 ---
 
-## References
+## Citations
 
 - [GPT-5.1-Codex-Max System Card](https://openai.com/index/gpt-5-1-codex-max-system-card/) — safety mitigations, cybersecurity capability assessment
 - [SWE-Lancer Benchmark](https://openai.com/index/swe-lancer/) (OpenAI, Feb 2025) — 1,488 Upwork tasks, $1M valuation, arXiv:2502.12115

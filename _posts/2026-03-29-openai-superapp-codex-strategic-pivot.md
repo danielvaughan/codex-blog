@@ -100,7 +100,7 @@ This confirms the superapp is not just a product consolidation — it's a philos
 
 ---
 
-## Sources
+## Citations
 
 - [WSJ: OpenAI Memo on Superapp (March 19, 2026)](https://www.wsj.com/tech/openai-superapp-chatgpt-codex-atlas)
 - [Sources: Inside OpenAI's Super App Plan (April 3, 2026)](https://sources.news/p/openai-super-app-plan-codex)

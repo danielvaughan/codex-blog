@@ -566,7 +566,7 @@ sandbox_mode = "workspace-write"
 
 ---
 
-## Sources
+## Citations
 
 - [Models — Codex Developer Docs](https://developers.openai.com/codex/models)
 - [Configuration Reference — Codex Developer Docs](https://developers.openai.com/codex/config-reference)

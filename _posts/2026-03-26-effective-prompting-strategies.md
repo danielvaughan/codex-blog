@@ -228,7 +228,7 @@ This works because Codex performs better with well-structured, complete context.
 
 ---
 
-## Sources
+## Citations
 
 - [Best practices — Codex Developers](https://developers.openai.com/codex/learn/best-practices)
 - [Custom Prompts — Codex Developers](https://developers.openai.com/codex/custom-prompts)
