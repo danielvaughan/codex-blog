@@ -7,9 +7,7 @@ nav_order: 135
 
 # Codex CLI Network Security: requirements.toml Enforcement, Landlock, and Air-Gapped Deployments
 
-**Date:** 2026-03-31
 
-**Tags:** network-security, requirements-toml, domain-allowlist, landlock, air-gapped, azure, enterprise, config-toml, sandbox, audit-logging
 
 Enterprise teams deploying Codex CLI face two distinct network security challenges. The first is *operator enforcement*: ensuring that individual developers cannot weaken security policies set by the organisation. The second is *runtime isolation*: ensuring that the agent itself can only reach the network endpoints it genuinely needs. Codex addresses both through a layered architecture — `requirements.toml` for policy enforcement and the managed proxy plus OS-level sandbox primitives for runtime isolation — but the two layers are frequently confused. This article separates them clearly and shows how to configure each for regulated and air-gapped environments.
 

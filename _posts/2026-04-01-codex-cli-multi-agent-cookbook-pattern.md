@@ -7,8 +7,6 @@ nav_order: 142
 
 # From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern
 
-**Date:** 2026-04-01
-**Tags:** cookbook, agents-sdk, mcp-server, multi-agent, gated-handoffs, orchestration, enterprise-pipeline
 
 ---
 

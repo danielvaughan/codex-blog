@@ -3,12 +3,10 @@ title: "Migrating a Workflow from Claude Code to Codex CLI"
 layout: single
 date: 2026-03-26
 ---
-![Sketchnote: Migrating a Workflow from Claude Code to Codex CLI](../sketchnotes/articles/2026-03-26-migrating-claude-code-to-codex-cli.png)
+![Sketchnote: Migrating a Workflow from Claude Code to Codex CLI](/sketchnotes/articles/2026-03-26-migrating-claude-code-to-codex-cli.png)
 
 # Migrating a Workflow from Claude Code to Codex CLI
 
-**Date:** 2026-03-26
-**Tags:** migration, AGENTS.md, CLAUDE.md, skills, hooks, subagents, config.toml, workflow
 
 > Full replacement is rarely the right call. This guide covers what maps cleanly between Claude Code and Codex CLI, what requires re-engineering, and what simply has no equivalent — so you can migrate deliberately rather than in a rush.
 

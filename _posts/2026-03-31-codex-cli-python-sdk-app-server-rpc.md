@@ -7,8 +7,6 @@ nav_order: 129
 
 # Codex CLI Python SDK and v2 App-Server Filesystem RPCs
 
-**Date:** 2026-03-31
-**Tags:** python-sdk, app-server, json-rpc, filesystem-rpc, websocket, openai-codex-sdk, automation, programmatic-access
 
 The v0.115.0 release of Codex CLI introduced two major primitives for programmatic control: an experimental Python SDK and a set of v2 filesystem RPCs exposed through the app-server JSON-RPC protocol.[^1] Together they turn Codex CLI from an interactive TUI into a scriptable, embeddable agent runtime that can be orchestrated from Python pipelines, notebooks, or custom tooling.
 

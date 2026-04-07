@@ -3,12 +3,10 @@ title: "Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows
 layout: single
 date: 2026-03-27
 ---
-![Sketchnote: Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows](../sketchnotes/articles/2026-03-27-codex-cli-code-review-pr-integration.png)
+![Sketchnote: Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows](/sketchnotes/articles/2026-03-27-codex-cli-code-review-pr-integration.png)
 
 # Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows
 
-**Date:** 2026-03-27
-**Tags:** codex-cli, code-review, github, ci-cd, pre-commit, agents-md, automation
 
 Code review is where most AI coding tools stop short. Codex CLI closes the loop by providing automated review at every stage of the Git workflow: in the terminal before you commit, on pull requests via the GitHub cloud interface, and inside CI/CD pipelines through `openai/codex-action`. This article covers all three surfaces, the configuration knobs that make each useful, and how `AGENTS.md` ties your team's standards to every review automatically.
 

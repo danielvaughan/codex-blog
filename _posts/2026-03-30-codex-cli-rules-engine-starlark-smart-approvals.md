@@ -7,8 +7,6 @@ nav_order: 117
 
 # Codex CLI Rules Engine: Starlark Policies, Smart Approvals, and the Guardian Subagent
 
-**Date:** 2026-03-30
-**Tags:** rules, starlark, smart-approvals, guardian-subagent, prefix-rule, execpolicy, enterprise, security, approval-policy
 
 The approval-modes article in this collection covered the two-axis model of `approval_policy` and `sandbox_mode`. What it could only mention in passing was the **Rules Engine** underneath — a Starlark-based policy layer giving you surgical, per-command control over what Codex executes outside the sandbox. With the Smart Approvals guardian subagent reaching GA in March 2026, the rules system is now production-ready. This article covers the full stack: `.rules` file format, `prefix_rule()` semantics, the `execpolicy check` testing harness, and how Smart Approvals automates rule creation without removing human oversight.
 

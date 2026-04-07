@@ -3,12 +3,10 @@ title: "Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridg
 layout: single
 date: 2026-03-27
 ---
-![Sketchnote: Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas](../sketchnotes/articles/2026-03-27-claude-code-codex-mcp-in-practice.png)
+![Sketchnote: Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas](/sketchnotes/articles/2026-03-27-claude-code-codex-mcp-in-practice.png)
 
 # Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas
 
-**Date:** 2026-03-27
-**Tags:** mcp, claude-code, codex, integration, orchestration, session-management, community
 
 ---
 

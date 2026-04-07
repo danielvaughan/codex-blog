@@ -7,8 +7,6 @@ summary: "On March 26 2026, Codex's product lead @thsottiaux posted a 130K-view 
 
 # Codex Beyond Coding: Tibo's Toolkit Expansion Signal and What It Means
 
-**Date:** 2026-03-30
-**Tags:** `codex-cli`, `product-direction`, `toolkit-expansion`, `agentic-platform`, `thsottiaux`
 
 On March 26, 2026, Thibault Sottiaux (Head of Codex at OpenAI, @thsottiaux) posted a tweet that reached 129,800 views and 1,000+ reposts:
 

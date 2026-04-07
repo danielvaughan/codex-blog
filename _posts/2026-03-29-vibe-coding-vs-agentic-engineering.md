@@ -7,8 +7,6 @@ nav_order: 94
 
 # Vibe Coding vs Agentic Engineering: A Senior Developer's Framework
 
-**Date:** 2026-03-29
-**Tags:** vibe-coding, agentic-engineering, compound-engineering, career, opinion, codex-cli, architectural-ownership
 
 ---
 

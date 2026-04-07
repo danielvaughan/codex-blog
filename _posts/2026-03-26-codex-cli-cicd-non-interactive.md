@@ -5,7 +5,7 @@ date: 2026-03-26
 tags: [ci-cd, codex-exec, github-actions, non-interactive, automation]
 ---
 
-![Sketchnote: Codex CLI for CI/CD: codex exec, Non-Interactive Mode and Pipeline Integration](../sketchnotes/articles/2026-03-26-codex-cli-cicd-non-interactive.png)
+![Sketchnote: Codex CLI for CI/CD: codex exec, Non-Interactive Mode and Pipeline Integration](/sketchnotes/articles/2026-03-26-codex-cli-cicd-non-interactive.png)
 
 # Codex CLI for CI/CD: `codex exec`, Non-Interactive Mode and Pipeline Integration
 

@@ -2,7 +2,7 @@
 title: "Codex CLI vs Claude Code — Community Opinions & Comparison (2026)"
 layout: single
 ---
-![Sketchnote: Codex CLI vs Claude Code — Community Opinions & Comparison (2026)](../sketchnotes/articles/2026-03-26-codex-vs-claude-code-community-opinions.png)
+![Sketchnote: Codex CLI vs Claude Code — Community Opinions & Comparison (2026)](/sketchnotes/articles/2026-03-26-codex-vs-claude-code-community-opinions.png)
 **Source:** https://www.reddit.com/r/codex/comments/1rzp24f/is_it_just_me_or_is_claude_pretty_disappointing/
 **Additional sources:**
 
@@ -12,7 +12,6 @@ layout: single
 - https://smartscope.blog/en/generative-ai/chatgpt/codex-vs-claude-code-2026-benchmark/
 
 **Date saved:** 2026-03-26
-**Tags:** comparison, claude-code, community, reddit, benchmarks, usage-limits, workflow
 
 ---
 

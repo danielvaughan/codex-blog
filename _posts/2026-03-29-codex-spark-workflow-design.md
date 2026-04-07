@@ -11,8 +11,6 @@ substack_status: draft
 
 # Designing Workflows for Codex-Spark: When Inference Becomes Near-Instant
 
-**Date:** 2026-03-29
-**Tags:** codex-spark, gpt-5-3-codex-spark, real-time-coding, workflow-design, model-routing, context-management, interactive-refinement, human-in-the-loop
 
 At 65–70 tokens per second, a 400-token code response takes roughly 6 seconds — a noticeable pause. At 1,000 tokens per second on Cerebras' Wafer Scale Engine 3, the same response arrives in under 400 milliseconds.[^1] That is not a speed improvement; it is a category change. The latency floor drops below the human perception threshold for "waiting", and that unlocks workflows that simply do not exist at slower inference speeds.
 

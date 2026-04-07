@@ -7,8 +7,6 @@ nav_order: 96
 
 # Codex CLI for Jupyter Notebooks and Scientific Python
 
-**Date:** 2026-03-29
-**Tags:** jupyter, scientific-python, pandas, polars, notebook-workflows, agents-md, nbconvert, data-engineering
 
 Jupyter notebooks are the lingua franca of scientific Python, yet the `.ipynb` format is one of the environments where Codex CLI historically performs least reliably. The notebook file is JSON — cells nested inside a structured document — and Codex's default file-editing tools were designed for plain text.[^1] The result is a subtle impedance mismatch: Codex can *reason* about notebook code perfectly well, but writing back to `.ipynb` files is error-prone.
 

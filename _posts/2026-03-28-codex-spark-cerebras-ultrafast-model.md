@@ -5,12 +5,10 @@ tags: [codex-spark, gpt-5-3-codex-spark, cerebras, wafer-scale-engine, real-time
 description: "A deep dive into GPT-5.3-Codex-Spark — the first OpenAI model running on Cerebras Wafer Scale Engine 3, delivering 1,000+ tokens/s. Covers what the speed gain costs you, when to route tasks to Spark vs gpt-5.3-codex, and exactly which config.toml keys to remove when making the switch."
 substack_status: draft
 ---
-![Sketchnote: GPT-5.3-Codex-Spark: The Cerebras-Powered Ultra-Fast Coding Model](../sketchnotes/articles/2026-03-28-codex-spark-cerebras-ultrafast-model.png)
+![Sketchnote: GPT-5.3-Codex-Spark: The Cerebras-Powered Ultra-Fast Coding Model](/sketchnotes/articles/2026-03-28-codex-spark-cerebras-ultrafast-model.png)
 
 # GPT-5.3-Codex-Spark: The Cerebras-Powered Ultra-Fast Coding Model
 
-**Date:** 2026-03-28
-**Tags:** codex-spark, gpt-5-3-codex-spark, cerebras, wafer-scale-engine, real-time-coding, model-selection, latency, config-toml
 
 On 14 January 2026, OpenAI announced a multi-year partnership with Cerebras Systems[^1]. Four weeks later, on 12 February 2026, the first concrete output shipped: **GPT-5.3-Codex-Spark** (`gpt-5.3-codex-spark`), a distilled coding model running on Cerebras' Wafer Scale Engine 3 (WSE-3) hardware and the first OpenAI production model not hosted on Nvidia GPUs[^2].
 

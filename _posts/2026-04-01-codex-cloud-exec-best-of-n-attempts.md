@@ -7,8 +7,6 @@ nav_order: 147
 
 # Codex Cloud Exec Best-of-N: Running Multiple Solution Attempts and Picking the Winner
 
-**Date:** 2026-04-01
-**Tags:** codex-cloud, best-of-n, cloud-exec, attempts, diff-review, ci-cd, workflow-automation
 
 ---
 

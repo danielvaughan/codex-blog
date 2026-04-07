@@ -7,8 +7,6 @@ nav_order: 107
 
 # Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts
 
-**Date:** 2026-03-30
-**Tags:** hooks, hooks-engine, lifecycle-events, security-gates, audit-logging, PreToolUse, PostToolUse, SessionStart
 
 The Codex CLI Hooks Engine, introduced experimentally in v0.114.0[^1], gives developers a principled way to inject scripts into the agentic loop at defined lifecycle points. Before hooks, the only way to enforce policy was to fork the process and manually parse JSONL rollout files — a fragile approach that broke across releases. Hooks change this: they are a first-class, documented mechanism backed by a stable JSON protocol.
 

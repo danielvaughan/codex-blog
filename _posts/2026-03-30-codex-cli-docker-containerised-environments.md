@@ -7,8 +7,6 @@ nav_order: 101
 
 # Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal
 
-**Date:** 2026-03-30
-**Tags:** docker, codex-universal, sandboxing, containerisation, cloud-environments, danger-full-access, setup-scripts
 
 Docker and Codex CLI have a natural affinity: Docker solves the "it works on my machine" problem for human developers; Codex needs a reproducible, safe execution context that it can be given unrestricted access to without risking the host. The combination yields isolated, auditable, CI-compatible agentic workflows.
 

@@ -7,9 +7,7 @@ nav_order: 115
 
 # Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack
 
-**Date:** 2026-03-30
 
-**Tags:** mcp-server, model-context-protocol, agents-sdk, multi-agent, codex-reply, stdio-transport, tool-chaining, orchestration
 
 Most Codex CLI coverage focuses on Codex *consuming* MCP servers — wiring in filesystem tools, database connectors, or third-party APIs. Less attention goes to the inverse: running Codex itself as an MCP server so that *other* agents and tools can invoke it as a callable tool. This is the `codex mcp-server` mode, available since the early Rust rewrite builds and now polished to production quality in v0.117.0[^1]. It changes the mental model from "Codex as a terminal assistant" to "Codex as a composable intelligence component."
 

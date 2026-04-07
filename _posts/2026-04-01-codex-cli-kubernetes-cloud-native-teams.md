@@ -7,8 +7,6 @@ nav_order: 145
 
 # Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD
 
-**Date:** 2026-04-01
-**Tags:** kubernetes, helm, cloud-native, agents-md, agent-sandbox, kagent, sandbox, kubectl, crd, devops
 
 Kubernetes YAML is notoriously error-prone. Helm templates add Go template syntax on top. Operator development demands reconciliation loops, CRD schemas, and RBAC policies — all of which must be kept in sync. Codex CLI is well-suited to this domain precisely because it can generate manifests, run `kubectl apply --dry-run=server`, interpret the output, and iterate — all within a single agentic turn.
 

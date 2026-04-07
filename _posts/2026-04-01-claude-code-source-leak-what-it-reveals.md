@@ -2,10 +2,8 @@
 
 **Source:** [r/ClaudeCode discussion](https://www.reddit.com/r/ClaudeCode/comments/1s8ower/now_that_its_open_source_we_can_see_why_claude/) | [DEV Community analysis](https://dev.to/kolkov/we-reverse-engineered-12-versions-of-claude-code-then-it-leaked-its-own-source-code-pij) | [Axios](https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai) | [CNBC](https://www.cnbc.com/2026/03/31/anthropic-leak-claude-code-internal-source.html)
 **Author:** Community analysis (multiple contributors)
-**Published:** 2026-03-31
 **Date saved:** 2026-04-01
 **Content age:** Current — breaking news from March 31, 2026
-**Tags:** claude-code, anthropic, source-leak, architecture, engineering-practices, competitive-analysis
 
 ---
 

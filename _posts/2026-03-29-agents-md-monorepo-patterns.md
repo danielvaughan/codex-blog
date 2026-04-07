@@ -7,8 +7,6 @@ nav_order: 89
 
 # Advanced AGENTS.md Patterns for Monorepos
 
-**Date:** 2026-03-29
-**Tags:** agents-md, monorepo, override-hierarchy, service-scoped, fallback-filenames, enterprise, project_doc_fallback_filenames
 
 Monorepos concentrate a large surface area of code under a single Git root, and that concentration creates a fundamental tension for AI coding agents: a flat, single AGENTS.md in the repository root cannot simultaneously express the sharp, service-specific conventions that each team needs. A payment-service team requires PCI DSS-aware prompts; the UI components package needs component-library constraints; the data-pipeline group has its own test scaffolding rules. Loading everything into one file is the AGENTS.md bloat trap at industrial scale.[^1]
 

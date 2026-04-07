@@ -7,9 +7,7 @@ nav_order: 118
 
 # Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors
 
-**Date:** 2026-03-30
 
-**Tags:** plugins, plugin-system, skills, mcp-servers, app-connectors, marketplace, config-toml, v0.117.0
 
 Codex CLI v0.117.0 (released March 26, 2026) elevated plugins to a first-class workflow primitive.[^1] Where previously you might wire up an MCP server in `config.toml`, add a `SKILL.md` to a directory, and configure an app connector separately, plugins collapse all three into a single installable, shareable package. This article is a complete technical reference for building, distributing, and managing Codex plugins.
 

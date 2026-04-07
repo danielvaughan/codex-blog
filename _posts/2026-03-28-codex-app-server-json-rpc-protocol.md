@@ -4,12 +4,10 @@ date: 2026-03-28
 tags: [codex-cli, app-server, json-rpc, integration, architecture, experimental]
 layout: single
 ---
-![Sketchnote: The Codex App-Server: Building Custom Integrations with the JSON-RPC Protocol](../sketchnotes/articles/2026-03-28-codex-app-server-json-rpc-protocol.png)
+![Sketchnote: The Codex App-Server: Building Custom Integrations with the JSON-RPC Protocol](/sketchnotes/articles/2026-03-28-codex-app-server-json-rpc-protocol.png)
 
 # The Codex App-Server: Building Custom Integrations with the JSON-RPC Protocol
 
-**Date:** 2026-03-28
-**Tags:** codex-cli, app-server, json-rpc, integration, architecture, experimental
 
 Every surface where Codex runs — the web app, the macOS desktop app, the VS Code extension, the CLI itself — is powered by the same underlying harness.[^1] That harness is exposed as the **Codex App-Server**: a long-lived process running a bidirectional JSON-RPC 2.0 interface. If you want to embed Codex into your own tooling beyond the official surfaces, this is the protocol to understand.
 

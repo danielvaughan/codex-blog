@@ -7,8 +7,6 @@ nav_order: 122
 
 # Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions
 
-**Date:** 2026-03-30
-**Tags:** app-server, tui, v0.117.0, json-rpc, remote-sessions, architecture, websocket
 
 Codex CLI v0.117.0 (released March 26, 2026) quietly shipped what may be its most significant architectural change to date: the app-server-backed TUI is now enabled by default.[^1] This isn't just a cosmetic switch — it decouples the terminal interface from the agent loop entirely, opening the door to remote sessions, multi-client architectures, and a unified protocol surface across every Codex frontend.
 

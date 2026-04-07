@@ -7,8 +7,6 @@ nav_order: 154
 
 # Codex CLI on GitLab: Duo Agent Platform, CI/CD Pipelines, and MCP Integration
 
-**Date:** 7 April 2026
-**Tags:** gitlab, duo-agent-platform, ci-cd, mcp, codex-exec, code-quality, security-remediation, external-agents
 
 ---
 

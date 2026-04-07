@@ -7,8 +7,6 @@ nav_order: 128
 
 # Codex CLI Profiles: Advanced Configuration Switching for Multi-Workflow Development
 
-**Date:** 2026-03-31
-**Tags:** profiles, config-toml, feature-flags, configuration, multi-workflow, reasoning-effort, experimental
 
 Most Codex CLI users maintain a single `~/.codex/config.toml` and live with its trade-offs. A model that's fast enough for quick edits may be underpowered for a deep code review. A sandbox policy tuned for interactive work may be too permissive for a headless CI run. The profiles system — experimental as of early 2026 — is the answer to this context-switching problem, letting you define named configuration presets and switch between them with a single flag.[^1]
 

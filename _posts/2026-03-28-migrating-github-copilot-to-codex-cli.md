@@ -7,9 +7,7 @@ nav_order: 81
 
 # Migrating from GitHub Copilot to Codex CLI
 
-**Date:** 2026-03-28
 
-**Tags:** copilot-migration, agents-md, terminal-first, enterprise, hybrid-workflow, copilot-instructions, agentic-coding
 
 ---
 

@@ -7,8 +7,6 @@ nav_order: 105
 
 # GPT-5.4 mini in Codex CLI: Subagent Delegation, Model Routing and the Tiered Inference Architecture
 
-**Date:** 2026-03-30
-**Tags:** gpt-5.4-mini, gpt-5.4-nano, model-routing, subagents, tiered-inference, multi-agent, cost-optimisation
 
 OpenAI released GPT-5.4 mini and GPT-5.4 nano on 17 March 2026[^1], and they represent something more significant than two incremental model updates. They are, explicitly, the first models OpenAI has framed as purpose-built subagent models — designed to be orchestrated by a larger, more capable model rather than used as standalone all-purpose inferencing endpoints. For Codex CLI users, this arrival materially changes how you should think about multi-agent topologies, cost management, and the TOML configuration that governs them.
 

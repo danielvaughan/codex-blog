@@ -4,7 +4,7 @@ date: 2026-03-28
 tags: [mobile, ios, android, xcode, swift, mcp, agentic-coding]
 summary: "Xcode 26.3 makes Codex a first-class iOS development agent via MCP. Here's how to configure it — and how to structure Codex-driven workflows for iOS, Android, React Native, and cross-platform teams."
 ---
-![Sketchnote: Codex CLI for Mobile Teams: iOS, Android and Xcode 26.3](../sketchnotes/articles/2026-03-28-codex-cli-mobile-xcode-ios-android.png)
+![Sketchnote: Codex CLI for Mobile Teams: iOS, Android and Xcode 26.3](/sketchnotes/articles/2026-03-28-codex-cli-mobile-xcode-ios-android.png)
 
 # Codex CLI for Mobile Teams: iOS, Android and Xcode 26.3
 

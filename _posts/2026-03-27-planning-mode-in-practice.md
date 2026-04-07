@@ -4,12 +4,10 @@ date: 2026-03-27
 tags: [codex-cli, planning, workflow, configuration, best-practices]
 summary: "A decision framework for Codex CLI's plan mode: how the Plan→Execute workflow operates, when planning overhead pays off, when it is pure friction, and how PLANS.md extends it to multi-hour autonomous tasks."
 ---
-![Sketchnote: Planning Mode in Practice: When to Use It and When to Skip It](../sketchnotes/articles/2026-03-27-planning-mode-in-practice.png)
+![Sketchnote: Planning Mode in Practice: When to Use It and When to Skip It](/sketchnotes/articles/2026-03-27-planning-mode-in-practice.png)
 
 # Planning Mode in Practice: When to Use It and When to Skip It
 
-**Date:** 2026-03-27
-**Tags:** codex-cli, planning, workflow, configuration, best-practices
 
 Most developers activate planning mode once, see an agent propose a numbered list, and then leave it on permanently — or switch it off after a frustrating delay on a trivial task. Neither extreme is correct. Plan mode is a precision tool: invaluable when the problem is genuinely ambiguous, actively wasteful when the task is a single-file fix.
 

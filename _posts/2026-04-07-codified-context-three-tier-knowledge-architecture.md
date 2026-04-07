@@ -7,8 +7,6 @@ nav_order: 157
 
 # Codified Context: The Three-Tier Knowledge Architecture for AI Coding Agents
 
-**Date:** 2026-04-07
-**Tags:** codified-context, tiered-knowledge, agents-md, mcp, domain-experts, context-architecture, academic-paper
 
 ---
 

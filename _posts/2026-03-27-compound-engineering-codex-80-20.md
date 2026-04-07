@@ -5,7 +5,7 @@ date: 2026-03-27
 tags: [compound-engineering, multi-agent, review, planning, codex-cli, philosophy]
 layout: single
 ---
-![Sketchnote: Compound Engineering with Codex: The 80/20 Plan-Review Model](../sketchnotes/articles/2026-03-27-compound-engineering-codex-80-20.png)
+![Sketchnote: Compound Engineering with Codex: The 80/20 Plan-Review Model](/sketchnotes/articles/2026-03-27-compound-engineering-codex-80-20.png)
 
 *Based on: every.to/guides/compound-engineering · github.com/EveryInc/compound-engineering-plugin · notes/compound-engineering.md*
 

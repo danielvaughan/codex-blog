@@ -5,12 +5,10 @@ tags: [commit-attribution, git, co-authored-by, config-toml, enterprise, audit-t
 description: "How to configure Codex CLI's commit_attribution key to control how agent work is tagged in git history — from default trailers to custom labels to full opt-out — and why it matters for enterprise audit trails."
 substack_status: draft
 ---
-![Sketchnote: Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution](../sketchnotes/articles/2026-03-28-codex-cli-commit-attribution.png)
+![Sketchnote: Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution](/sketchnotes/articles/2026-03-28-codex-cli-commit-attribution.png)
 
 # Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution
 
-**Date:** 2026-03-28
-**Tags:** commit-attribution, git, co-authored-by, config-toml, enterprise, audit-trail, transparency
 
 When Codex writes code and you commit it, who gets credited? Until early 2026, the answer was: nobody notable. Your commits looked exactly like human-authored work, with no signal in the repository history that an AI agent had any involvement. PR #11617 changed that.[^1]
 

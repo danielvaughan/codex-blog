@@ -2,10 +2,8 @@
 
 **Source:** [r/ClaudeCode — "Now that it's open source, we can see why Claude Code is so good"](https://www.reddit.com/r/ClaudeCode/comments/1s8ower/now_that_its_open_source_we_can_see_why_claude/)
 **Author:** Community analysis
-**Published:** 2026-04-01
 **Date saved:** 2026-04-01
 **Content age:** Current
-**Tags:** claude-code, open-source, architecture, typescript, react-ink, vertical-integration, context-management, codex-cli
 
 ---
 

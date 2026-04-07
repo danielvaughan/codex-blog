@@ -2,12 +2,10 @@
 title: "Codex CLI for Frontend Development: React, TypeScript and Modern Toolchains"
 layout: single
 ---
-![Sketchnote: Codex CLI for Frontend Development: React, TypeScript and Modern Toolchains](../sketchnotes/articles/2026-03-27-codex-cli-frontend-react-typescript.png)
+![Sketchnote: Codex CLI for Frontend Development: React, TypeScript and Modern Toolchains](/sketchnotes/articles/2026-03-27-codex-cli-frontend-react-typescript.png)
 
 # Codex CLI for Frontend Development: React, TypeScript and Modern Toolchains
 
-**Date:** 2026-03-27
-**Tags:** codex-cli, react, typescript, frontend, nextjs, vitest, playwright, tailwind, vite
 
 ## Overview
 

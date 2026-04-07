@@ -2,12 +2,10 @@
 title: "Codex CLI + Figma MCP: Design-to-Code Workflows"
 layout: single
 ---
-![Sketchnote: Codex CLI + Figma MCP: Design-to-Code Workflows](../sketchnotes/articles/2026-03-27-codex-cli-figma-mcp-design-to-code.png)
+![Sketchnote: Codex CLI + Figma MCP: Design-to-Code Workflows](/sketchnotes/articles/2026-03-27-codex-cli-figma-mcp-design-to-code.png)
 
 # Codex CLI + Figma MCP: Design-to-Code Workflows
 
-**Date:** 2026-03-27
-**Tags:** `codex-cli`, `figma`, `mcp`, `design-to-code`, `code-connect`, `frontend`, `design-tokens`
 
 The handoff from designer to developer has always been an expensive boundary. Figma's Model Context Protocol server, launched in partnership with OpenAI in February 2026[^1], collapses that boundary by giving Codex direct, structured access to the Figma canvas — not pixel exports, not PDFs, but live component hierarchies, design tokens, and Code Connect mappings tied to your actual codebase.[^2]
 

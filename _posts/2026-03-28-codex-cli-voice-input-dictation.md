@@ -5,12 +5,10 @@ tags: [voice-input, voice-transcription, whisper, spokenly-mcp, hands-free, feat
 description: "How to use Codex CLI's native voice transcription (v0.105.0), configure the Spokenly MCP for agent-initiated Q&A, and build fully hands-free agentic coding workflows."
 substack_status: draft
 ---
-![Sketchnote: Voice Input in Codex CLI: Whisper-Backed Dictation and Hands-Free Agentic Workflows](../sketchnotes/articles/2026-03-28-codex-cli-voice-input-dictation.png)
+![Sketchnote: Voice Input in Codex CLI: Whisper-Backed Dictation and Hands-Free Agentic Workflows](/sketchnotes/articles/2026-03-28-codex-cli-voice-input-dictation.png)
 
 # Voice Input in Codex CLI: Whisper-Backed Dictation and Hands-Free Agentic Workflows
 
-**Date:** 2026-03-28
-**Tags:** voice-input, voice-transcription, whisper, spokenly-mcp, hands-free, features-table, dictation
 
 Codex CLI gained native voice transcription in v0.105.0 (February 26, 2026)[^1]. The mechanic is deceptively simple — hold the spacebar, speak, release — but the implementation layers an OpenAI Whisper transcription pipeline[^2] on top of the existing composer, and the broader ecosystem of MCP-based voice integrations extends the capability well beyond initial prompt input.
 

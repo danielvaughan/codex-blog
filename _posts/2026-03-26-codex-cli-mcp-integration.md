@@ -4,12 +4,10 @@ layout: single
 date: 2026-03-26
 ---
 
-![Sketchnote: Codex CLI MCP Integration: Connecting Agents to External Tools](../sketchnotes/articles/2026-03-26-codex-cli-mcp-integration.png)
+![Sketchnote: Codex CLI MCP Integration: Connecting Agents to External Tools](/sketchnotes/articles/2026-03-26-codex-cli-mcp-integration.png)
 
 # Codex CLI MCP Integration: Connecting Agents to External Tools
 
-**Date:** 2026-03-26
-**Tags:** mcp, model-context-protocol, config, integration, tools, enterprise
 
 ---
 

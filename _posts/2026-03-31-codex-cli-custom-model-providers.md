@@ -7,8 +7,6 @@ nav_order: 131
 
 # Codex CLI Custom Model Providers: Azure, Vercel, Local LLMs and Dynamic Bearer Tokens
 
-**Date:** 2026-03-31
-**Tags:** model-providers, azure, vercel, custom-provider, bearer-token, enterprise, config-toml, authentication, dynamic-refresh
 
 Codex CLI ships wired to OpenAI's hosted models, but the `[model_providers]` configuration table lets you point it at any OpenAI-compatible endpoint — Azure AI Foundry, the Vercel AI Gateway, a self-hosted Ollama instance, or any private inference cluster your organisation runs. This article documents the full provider config surface as of v0.117.0, covers practical setup for the most common alternatives, and tracks the enterprise authentication gap that the team is actively closing.
 

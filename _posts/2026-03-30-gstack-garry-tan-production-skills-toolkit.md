@@ -9,10 +9,8 @@ nav_order: 114
 
 **Source:** https://github.com/garrytan/gstack
 **Author:** Garry Tan (President & CEO, Y Combinator)
-**Published:** March 2026
 **Date saved:** 2026-03-30
 **Content age:** Current as of March 2026 — verify before relying on specifics
-**Tags:** skills, agentic-pod, production, reference-implementation, gstack
 
 ---
 

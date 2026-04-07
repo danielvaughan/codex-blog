@@ -7,8 +7,6 @@ layout: single
 
 # Spec-Driven Development with Codex: Writing Specifications Before Code
 
-**Date:** 2026-03-28
-**Tags:** codex-cli, spec-driven-development, planning, agents-md, best-practices, workflow
 
 Test-Driven Development (TDD) tells the agent *when it is done*. Spec-Driven Development (SDD) tells it *what to build in the first place*. The two approaches are not competing — they compose. But specs sit upstream of tests, and skipping them is the most common reason agentic workflows produce code that is technically correct but architecturally wrong.
 

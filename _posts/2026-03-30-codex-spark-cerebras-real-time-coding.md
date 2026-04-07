@@ -7,8 +7,6 @@ nav_order: 125
 
 # GPT-5.3-Codex-Spark: Cerebras-Powered Real-Time Coding at 1,000 Tokens/Second
 
-**Date:** 2026-03-30
-**Tags:** gpt-5.3-codex-spark, cerebras, real-time-coding, model-selection, wse-3, inference-hardware, research-preview
 
 ---
 

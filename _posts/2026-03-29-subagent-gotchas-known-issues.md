@@ -7,8 +7,6 @@ nav_order: 88
 
 # Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)
 
-**Date:** 2026-03-29
-**Tags:** subagents, multi-agent, debugging, known-issues, workarounds, spawn-agent, toml
 
 If you're building agentic pod workflows with Codex CLI subagents, here are the practical bugs and undocumented behaviours you'll hit — and how to work around them. Sourced from open GitHub issues as of March 2026.
 

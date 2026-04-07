@@ -7,8 +7,6 @@ nav_order: 104
 
 # Codex CLI for Go Teams: Skills, AGENTS.md and Go 1.26 Workflows
 
-**Date:** 2026-03-30
-**Tags:** golang, go-teams, agents-md, cc-skills-golang, go-1-26, golangci-lint, testing, concurrency, ci-cd
 
 Go's explicit error handling, strict formatting conventions, and idiomatic concurrency model make it both an ideal and a demanding language for agentic workflows. The agent needs to know your module path, your test tag conventions, your linter configuration, and the single-handling rule — none of which it can infer from the code alone. This article covers how to configure Codex CLI precisely for Go development: the `cc-skills-golang` skill library, a production-grade `AGENTS.md` template updated for Go 1.26[^1], and CI/CD patterns that keep generated code clean.
 

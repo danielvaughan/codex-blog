@@ -7,8 +7,6 @@ nav_order: 115
 
 # gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow
 
-**Date:** 2026-03-30
-**Tags:** gpt-5-codex, model-update, model-selection, gpt-5-codex-mini, chatgpt-login, model-consolidation
 
 In late March 2026, OpenAI shipped two new models — `gpt-5-codex` and `gpt-5-codex-mini` — announced by @thsottiaux. The naming is deliberate: these are not "gpt-5.4 Codex" variants but a distinct model tier with a simplified name, representing a consolidation of the Codex model line.
 

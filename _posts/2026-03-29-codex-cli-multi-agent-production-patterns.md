@@ -7,8 +7,6 @@ nav_order: 93
 
 # Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies
 
-**Date:** 2026-03-29
-**Tags:** multi-agent-v2, path-addressing, production-patterns, case-studies, orchestration, spawn-agents-on-csv, toml-config, otel
 
 Sub-agents reached general availability in Codex CLI v0.115.0 (16 March 2026)[^1] and gained readable path-based addressing in v0.117.0 (26 March 2026)[^2]. With the scaffolding now stable, production teams have started publishing their actual topologies. This article walks through three patterns — parallel feature development with wave-based phase gating, a continuous review-and-fix swarm for legacy codebases, and an event-driven incident response agent — with complete TOML configurations, cost models, OTel integration, and documented failure modes.
 

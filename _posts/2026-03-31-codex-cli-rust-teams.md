@@ -7,8 +7,6 @@ nav_order: 133
 
 # Codex CLI for Rust Teams: AGENTS.md, Cargo Workflows, and Workspace Patterns
 
-**Date:** 2026-03-31
-**Tags:** rust, cargo, agents-md, cargo-nextest, clippy, workspace, multi-agent, sandboxing, ci-cd, justfile
 
 ---
 

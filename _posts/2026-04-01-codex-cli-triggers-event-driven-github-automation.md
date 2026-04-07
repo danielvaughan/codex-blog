@@ -7,8 +7,6 @@ nav_order: 141
 
 # Codex CLI Triggers: Event-Driven GitHub Automation Beyond CI/CD
 
-**Date:** 2026-04-01
-**Tags:** `triggers`, `event-driven`, `github`, `automation`, `plugins`, `mcp`, `codex-action`, `enterprise`
 
 ---
 

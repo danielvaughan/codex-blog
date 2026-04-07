@@ -7,8 +7,6 @@ nav_order: 99
 
 # Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight
 
-**Date:** 2026-03-29
-**Tags:** steer-mode, mid-turn-steering, agent-interaction, fork, real-time-correction, v0-98-0
 
 ---
 

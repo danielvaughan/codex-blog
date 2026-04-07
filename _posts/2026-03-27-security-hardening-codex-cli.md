@@ -2,12 +2,10 @@
 title: "Security Hardening Your Codex CLI Setup"
 layout: single
 ---
-![Sketchnote: Security Hardening Your Codex CLI Setup](../sketchnotes/articles/2026-03-27-security-hardening-codex-cli.png)
+![Sketchnote: Security Hardening Your Codex CLI Setup](/sketchnotes/articles/2026-03-27-security-hardening-codex-cli.png)
 
 # Security Hardening Your Codex CLI Setup
 
-**Date:** 2026-03-27
-**Tags:** codex-cli, security, secrets, sandbox, audit, enterprise, regulated-environments
 
 Codex CLI gives agents broad reach into your filesystem, shell environment, and network. That power comes with real attack surface. This article covers the practical steps for hardening a Codex deployment: locking down what the agent can touch, preventing credential leakage, capturing a tamper-evident audit trail, and enforcing policy consistently across a team via `requirements.toml`. It assumes you are running Codex CLI v0.23.0 or later.[^1]
 

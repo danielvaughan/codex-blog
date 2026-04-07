@@ -7,8 +7,6 @@ nav_order: 127
 
 # Codex CLI for Java and Spring Boot Teams: AGENTS.md, Maven Sandboxing, and Gradle Workflows
 
-**Date:** 2026-03-30
-**Tags:** java, spring-boot, maven, gradle, agents-md, sandbox, testcontainers, ci-cd
 
 Java is one of the most-used languages in enterprise software, yet Codex CLI guidance skews heavily toward Python, TypeScript, and Go. This article fills that gap: AGENTS.md templates, the Maven Central proxy workaround that trips up every new Java team, Gradle's cleaner offline story, and workflow patterns for Spring Boot projects that need Testcontainers, Spotless, and package-by-feature architecture.
 

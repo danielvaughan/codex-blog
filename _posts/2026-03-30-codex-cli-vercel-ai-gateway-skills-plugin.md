@@ -7,8 +7,6 @@ nav_order: 102
 
 # Codex CLI and Vercel: AI Gateway, Skills and the Vercel Plugin Ecosystem
 
-**Date:** 2026-03-30
-**Tags:** vercel, ai-gateway, skills, vercel-plugin, model-routing, next-js, multi-provider
 
 Vercel's investment in AI coding agents reached critical mass in March 2026 with two distinct — but complementary — integration surfaces for Codex CLI teams: the **Vercel AI Gateway** (a unified proxy that routes your Codex requests through any supported model provider) and the **Vercel Plugin** (a knowledge-dense bundle of 38 skills, three specialist agents, and a set of slash commands for Vercel platform work).[^1][^2] This article covers both paths, when to reach for each, and how to wire them together in a production-grade `config.toml`.
 

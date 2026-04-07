@@ -7,8 +7,6 @@ nav_order: 80
 
 # Migrating from Cursor to Codex CLI
 
-**Date:** 2026-03-28
-**Tags:** cursor-migration, agents-md, hybrid-workflow, credit-model, tool-comparison
 
 Cursor's June 2025 pricing overhaul — replacing predictable 500-request plans with variable credit pools — sent a visible slice of its user base searching for alternatives.[^1] For developers already comfortable in the terminal, Codex CLI is the natural landing spot. But the migration isn't just a config translation; it's a paradigm shift from an IDE-augmentation model to a terminal-first agentic one. This guide covers both the mechanical steps and the conceptual adjustments.
 

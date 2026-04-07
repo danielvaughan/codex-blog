@@ -3,12 +3,10 @@ title: "The AGENTS.md Bloat Problem: When More Context Makes Agents Worse"
 layout: single
 date: 2026-03-27
 ---
-![Sketchnote: The AGENTS.md Bloat Problem: When More Context Makes Agents Worse](../sketchnotes/articles/2026-03-27-agents-md-bloat-problem.png)
+![Sketchnote: The AGENTS.md Bloat Problem: When More Context Makes Agents Worse](/sketchnotes/articles/2026-03-27-agents-md-bloat-problem.png)
 
 # The AGENTS.md Bloat Problem: When More Context Makes Agents Worse
 
-**Date:** 2026-03-27
-**Tags:** codex-cli, agents-md, context-management, performance, best-practices, anti-patterns
 
 > A rigorous 2026 study from ETH Zurich found that LLM-generated context files actively *reduce* agent task success rates, while human-written files offer a marginal 4% gain at a 19% cost premium. Meanwhile, Codex CLI silently truncates any AGENTS.md over 32 KiB without warning. The received wisdom — "write more in your AGENTS.md" — deserves serious scrutiny.
 

@@ -7,8 +7,6 @@ nav_order: 149
 
 # Codex Plugins: Skills, MCP Servers, and Building Distributable Agent Workflows
 
-**Date:** 2026-04-01
-**Tags:** `plugins`, `skills`, `mcp`, `plugin-json`, `marketplace`, `authoring`, `distribution`, `config-toml`
 
 ---
 

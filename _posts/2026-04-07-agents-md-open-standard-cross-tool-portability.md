@@ -7,8 +7,6 @@ nav_order: 154
 
 # AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance
 
-**Date:** 2026-04-07
-**Tags:** `agents-md`, `open-standard`, `agentic-ai-foundation`, `linux-foundation`, `cross-tool`, `portability`, `codex-cli`, `governance`
 
 ---
 

@@ -7,8 +7,6 @@ nav_order: 139
 
 # The V4A Diff Format: How Codex CLI's apply_patch Actually Edits Your Code
 
-**Date:** 2026-03-31
-**Tags:** `apply_patch`, `V4A`, `diff-format`, `internals`, `file-editing`, `agent-loop`, `SDK`, `codex-cli`
 
 ---
 

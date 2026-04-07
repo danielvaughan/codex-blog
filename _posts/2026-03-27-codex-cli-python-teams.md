@@ -3,12 +3,10 @@ title: "Codex CLI for Python Teams: Configuration, Conventions and Automation"
 layout: single
 parent: "Articles"
 ---
-![Sketchnote: Codex CLI for Python Teams: Configuration, Conventions and Automation](../sketchnotes/articles/2026-03-27-codex-cli-python-teams.png)
+![Sketchnote: Codex CLI for Python Teams: Configuration, Conventions and Automation](/sketchnotes/articles/2026-03-27-codex-cli-python-teams.png)
 
 # Codex CLI for Python Teams: Configuration, Conventions and Automation
 
-**Date:** 2026-03-27
-**Tags:** codex-cli, python, pytest, uv, ruff, AGENTS.md, hooks, ci-cd, astral
 
 ## Overview
 

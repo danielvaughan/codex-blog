@@ -4,7 +4,7 @@ date: 2026-03-28
 layout: single
 tags: [competitive-landscape, google-antigravity, kiro, claude-code, cursor, tool-comparison]
 ---
-![Sketchnote: The 2026 Agentic Coding Landscape: Codex, Claude Code, Antigravity and Kiro](../sketchnotes/articles/2026-03-28-agentic-coding-landscape-2026-antigravity-kiro.png)
+![Sketchnote: The 2026 Agentic Coding Landscape: Codex, Claude Code, Antigravity and Kiro](/sketchnotes/articles/2026-03-28-agentic-coding-landscape-2026-antigravity-kiro.png)
 
 *Published 2026-03-28. Research compiled from Lushbinary, Vibecoding.app, Google Developers Blog, Augment Code, and community reviews.*
 

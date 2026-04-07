@@ -7,8 +7,6 @@ nav_order: 144
 
 # The Codex IDE Extension: VS Code, JetBrains, and the Hybrid Cloud-Local Workflow
 
-**Date:** 2026-04-01
-**Tags:** `ide-extension`, `vs-code`, `jetbrains`, `cloud-delegation`, `config-toml`, `agent-modes`, `hybrid-workflow`
 
 ---
 

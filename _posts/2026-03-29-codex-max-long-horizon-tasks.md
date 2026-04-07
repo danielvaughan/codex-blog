@@ -7,8 +7,6 @@ nav_order: 92
 
 # GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions
 
-**Date:** 2026-03-29
-**Tags:** gpt-5-1-codex-max, compaction, long-horizon, xhigh-reasoning, swe-lancer, agentic-pod
 
 Most Codex tasks complete in minutes. But some tasks — a full microservice migration, a large-scale refactor across 50+ files, a days-long debugging session — run into context limits before they finish. GPT-5.1-Codex-Max was built specifically for these long-horizon scenarios.
 

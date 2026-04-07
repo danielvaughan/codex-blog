@@ -7,8 +7,6 @@ nav_order: 151
 
 # AI Slopageddon and the Open-Source Contribution Crisis: How Codex CLI's Invitation-Only Model Signals a New Era
 
-**Date:** 2026-04-01
-**Tags:** open-source, contribution-model, ai-slopageddon, community, codex-cli, governance
 
 In January 2026, three critical open-source projects took unprecedented defensive measures within weeks of each other. cURL shut down its bug bounty programme[^1]. tldraw began automatically closing all external pull requests[^2]. Ghostty implemented a zero-tolerance policy where submitting AI-generated code earns a permanent ban[^3]. The common trigger: a flood of low-quality, AI-generated contributions that overwhelmed maintainer capacity.
 

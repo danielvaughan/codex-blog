@@ -7,8 +7,6 @@ nav_order: 97
 
 # OpenAI's Superapp Pivot: What the ChatGPT + Codex + Atlas Merger Means for Practitioners
 
-**Date:** 2026-03-29
-**Tags:** strategic-context, superapp, chatgpt-codex-merger, atlas-browser, enterprise, competitive-landscape, fidji-simo
 
 On March 19, 2026, *The Wall Street Journal* published details from an internal OpenAI memo written by Fidji Simo (CEO of Applications) announcing a major strategic consolidation: OpenAI plans to merge **ChatGPT, Codex, and its Atlas browser** into a single desktop "superapp." This is the biggest signal yet about where Codex is heading — and it has concrete implications for how practitioners should think about their investment in Codex workflows.
 

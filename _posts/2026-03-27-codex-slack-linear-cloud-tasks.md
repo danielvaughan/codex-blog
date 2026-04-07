@@ -3,12 +3,10 @@ title: "Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Too
 layout: single
 parent: "Articles"
 ---
-![Sketchnote: Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools](../sketchnotes/articles/2026-03-27-codex-slack-linear-cloud-tasks.png)
+![Sketchnote: Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools](/sketchnotes/articles/2026-03-27-codex-slack-linear-cloud-tasks.png)
 
 # Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools
 
-**Date:** 2026-03-27
-**Tags:** codex-cloud, slack, linear, integrations, cloud-tasks, triage, mcp, enterprise
 
 When OpenAI shipped Codex to **General Availability** in early 2026[^1], the headline was a shift in *where* developers hand off work. Alongside the CLI and IDE extension, OpenAI launched native integrations with Slack and Linear, letting teams trigger autonomous cloud tasks without opening a terminal. This article covers the mechanics of both integrations, the underlying Cloud Environment model, the `codex cloud` CLI, and the enterprise admin controls you need before rolling this out at scale.
 

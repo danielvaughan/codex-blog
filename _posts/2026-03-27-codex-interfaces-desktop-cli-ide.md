@@ -3,12 +3,10 @@ title: "Desktop App vs CLI vs IDE Extension: Choosing Your Codex Interface"
 layout: single
 date: 2026-03-27
 ---
-![Sketchnote: Desktop App vs CLI vs IDE Extension: Choosing Your Codex Interface](../sketchnotes/articles/2026-03-27-codex-interfaces-desktop-cli-ide.png)
+![Sketchnote: Desktop App vs CLI vs IDE Extension: Choosing Your Codex Interface](/sketchnotes/articles/2026-03-27-codex-interfaces-desktop-cli-ide.png)
 
 # Desktop App vs CLI vs IDE Extension: Choosing Your Codex Interface
 
-**Date:** 2026-03-27
-**Tags:** codex-cli, desktop-app, ide-extension, workflow, tooling, decision-guide
 
 Codex ships as three distinct surfaces backed by the same intelligence: a terminal CLI, a desktop app, and an IDE extension. Each is a legitimate production tool — the question is not which is best in the abstract, but which fits your workflow, machine, and task type. This article works through that decision systematically.
 

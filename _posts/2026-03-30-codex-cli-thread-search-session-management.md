@@ -7,8 +7,6 @@ nav_order: 106
 
 # Codex CLI Thread Search and Session Management: Finding, Archiving and Replaying Work
 
-**Date:** 2026-03-30
-**Tags:** thread-search, session-management, archive, ephemeral, cross-session, productivity, jsonl, sqlite
 
 Codex CLI v0.117.0, released on 26 March 2026, promoted thread management from a hidden superpower to a first-class workflow.[^1] The headline features — searchable thread history with a sidebar shortcut, one-click archiving of all local threads, and synced settings between the desktop app and VS Code extension — sit on top of a robust persistence layer that most developers have never fully explored. This article maps that entire surface: storage internals, the CLI resume/fork commands, the app-server thread API, ephemeral sessions, and the third-party replay ecosystem.
 

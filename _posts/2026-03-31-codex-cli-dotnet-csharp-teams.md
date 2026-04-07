@@ -7,8 +7,6 @@ nav_order: 132
 
 # Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI
 
-**Date:** 2026-03-31
-**Tags:** dotnet, csharp, agents-md, nuget, azure-openai, skills, sandbox, ci-cd, multi-agent
 
 The .NET ecosystem has a richer Codex integration story than most developers realise. Between the official `dotnet/skills` catalogue published by the .NET platform team in March 2026[^1], the community `managedcode/dotnet-skills` CLI with 83+ skills[^2], and first-class Azure AI Foundry support[^3], a well-configured C# repo can get near-continuous autonomous quality improvements with minimal friction. This article covers the full stack: skill installation, production AGENTS.md templates, the NuGet sandbox pitfall that affects every first-time user, and multi-agent patterns for large solutions.
 

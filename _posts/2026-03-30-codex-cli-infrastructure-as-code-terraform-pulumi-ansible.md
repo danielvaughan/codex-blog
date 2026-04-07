@@ -7,8 +7,6 @@ nav_order: 100
 
 # Codex CLI for Infrastructure as Code: Terraform, Pulumi and Ansible Automation
 
-**Date:** 2026-03-30
-**Tags:** terraform, pulumi, ansible, iac, infrastructure-as-code, subagents, agents-md, security, ci-cd
 
 Infrastructure as Code occupies a peculiar place in the agentic coding landscape. The feedback loops are slower than application code, the blast radius of a mistake is larger, and the tooling — `terraform apply`, `pulumi up`, `ansible-playbook` — does real things to real infrastructure. That makes IaC a good domain for Codex CLI: the agent handles the tedious scaffolding and validation loops, while you stay in the approval seat for anything that mutates state.
 

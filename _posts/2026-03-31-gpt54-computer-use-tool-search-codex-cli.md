@@ -7,8 +7,6 @@ nav_order: 137
 
 # GPT-5.4 Computer Use and Tool Search in Codex CLI: Visual Debugging, Deferred Loading, and /fast Mode
 
-**Date:** 2026-03-31
-**Tags:** gpt-5.4, computer-use, tool-search, playwright-interactive, fast-mode, osworld, mcp, visual-debugging
 
 ---
 

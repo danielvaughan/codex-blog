@@ -9,7 +9,6 @@ published: 2026-03-26
 # Model Selection in Codex CLI: Current Models and When to Use Each
 
 **Research date:** 2026-03-26
-**Sources:** [developers.openai.com/codex/models](https://developers.openai.com/codex/models), [developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference), [developers.openai.com/codex/cli/reference](https://developers.openai.com/codex/cli/reference), [developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents), [developers.openai.com/api/docs/guides/reasoning](https://developers.openai.com/api/docs/guides/reasoning), [developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
 
 ---
 

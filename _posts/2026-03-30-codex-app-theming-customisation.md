@@ -7,9 +7,7 @@ nav_order: 126
 
 # Codex App Theming and Customisation: codex-theme-v1, Partner Themes, and the CLI /theme Command
 
-**Date:** 2026-03-30
 
-**Tags:** theming, appearance, codex-theme-v1, tui-theme, tmTheme, customisation, fonts, partner-themes, config-toml
 
 OpenAI shipped full appearance customisation for the Codex app in late March 2026, adding base theme selection, per-channel colour controls, font overrides, and a portable `codex-theme-v1` JSON format for sharing themes with your team.[^1] The Codex CLI gained its own theming path earlier in the year, routed through a live-preview `/theme` picker and `.tmTheme` files.[^2] The two surfaces are architecturally distinct but share nomenclature — this article maps both systems, explains the `codex-theme-v1` wire format, and shows how to keep your desktop app and terminal consistent.
 

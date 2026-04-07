@@ -7,8 +7,6 @@ nav_order: 149
 
 # Persistent Memory for Codex CLI: MCP Memory Servers, Cross-Session Context, and the Memory Layer Ecosystem
 
-**Date:** 6 April 2026
-**Tags:** `persistent-memory`, `mcp`, `cross-session`, `knowledge-graph`, `agentmemory`, `basic-memory`, `codebase-memory`, `memorix`, `memsearch`, `context-management`
 
 ---
 

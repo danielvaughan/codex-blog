@@ -7,8 +7,6 @@ nav_order: 116
 
 # Codex CLI and Neo4j: Use Cases and Best Practices
 
-**Date:** 2026-03-30
-**Tags:** neo4j, graph-database, knowledge-graph, rag, agentic-workflows, cloud-run, auradb
 
 ---
 

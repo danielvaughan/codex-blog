@@ -3,12 +3,10 @@ title: "Codex CLI in Practice: Real-World Benchmarks and What They Mean"
 layout: single
 ---
 
-![Sketchnote: Codex CLI in Practice: Real-World Benchmarks and What They Mean](../sketchnotes/articles/2026-03-26-codex-cli-benchmarks-real-world.png)
+![Sketchnote: Codex CLI in Practice: Real-World Benchmarks and What They Mean](/sketchnotes/articles/2026-03-26-codex-cli-benchmarks-real-world.png)
 
 # Codex CLI in Practice: Real-World Benchmarks and What They Mean
 
-**Date:** 2026-03-26
-**Tags:** benchmarks, SWE-bench, Terminal-Bench, performance, evaluation, models
 
 ---
 

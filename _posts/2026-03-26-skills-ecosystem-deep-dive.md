@@ -3,7 +3,7 @@ title: "Codex CLI Skills Ecosystem"
 layout: single
 ---
 
-![Sketchnote: Codex CLI Skills Ecosystem](../sketchnotes/articles/2026-03-26-skills-ecosystem-deep-dive.png)
+![Sketchnote: Codex CLI Skills Ecosystem](/sketchnotes/articles/2026-03-26-skills-ecosystem-deep-dive.png)
 
 *Researched 2026-03-26. Focus: where to find and install skills for Codex CLI.*
 

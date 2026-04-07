@@ -7,8 +7,6 @@ nav_order: 87
 
 # Codex CLI + GitHub Actions: The Complete Integration Guide
 
-**Date:** 2026-03-29
-**Tags:** github-actions, codex-action, ci-cd, matrix-builds, artifact-passing, structured-output, security
 
 The `openai/codex-action` GitHub Action lets you run the Codex CLI inside any GitHub Actions workflow — gating PRs on AI-driven code review, auto-fixing failing CI, or running repeatable agentic tasks on every push.[^1] This guide goes beyond the official quickstart: sandbox strategies, matrix parallelism, structured JSON output, Azure integration, cost attribution, and the full security model.
 

@@ -7,8 +7,6 @@ nav_order: 158
 
 # Learning Plan for Becoming a Codex CLI Expert
 
-**Date:** 2026-04-07
-**Tags:** learning-plan, expert-path, study-guide, onboarding, progressive-complexity
 
 ---
 

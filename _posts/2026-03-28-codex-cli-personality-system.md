@@ -5,12 +5,10 @@ tags: [personality, communication-style, friendly, pragmatic, agents-md, config-
 description: "A complete guide to Codex CLI's personality system — features.personality flag, /personality slash command, per-profile presets, interaction with AGENTS.md, and when to disable personalities entirely for CI bots."
 substack_status: draft
 ---
-![Sketchnote: Codex CLI Personality System: Customising Agent Communication Style](../sketchnotes/articles/2026-03-28-codex-cli-personality-system.png)
+![Sketchnote: Codex CLI Personality System: Customising Agent Communication Style](/sketchnotes/articles/2026-03-28-codex-cli-personality-system.png)
 
 # Codex CLI Personality System: Customising Agent Communication Style
 
-**Date:** 2026-03-28
-**Tags:** personality, communication-style, friendly, pragmatic, agents-md, config-toml, features
 
 Codex CLI's personality system lets you choose how the agent communicates — from terse and execution-focused to conversational and partner-like — without touching its underlying capabilities. It is a stable, opt-in-to-none feature built on the `features.personality` flag and configurable at every level of the config hierarchy, from global defaults to per-profile overrides to runtime `/personality` commands.
 

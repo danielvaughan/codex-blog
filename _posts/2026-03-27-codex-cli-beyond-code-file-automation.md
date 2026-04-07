@@ -3,12 +3,10 @@ title: "Beyond Code: Codex CLI for File Automation, Image Processing and Browser
 layout: single
 date: 2026-03-27
 ---
-![Sketchnote: Beyond Code: Codex CLI for File Automation, Image Processing and Browser Tasks](../sketchnotes/articles/2026-03-27-codex-cli-beyond-code-file-automation.png)
+![Sketchnote: Beyond Code: Codex CLI for File Automation, Image Processing and Browser Tasks](/sketchnotes/articles/2026-03-27-codex-cli-beyond-code-file-automation.png)
 
 # Beyond Code: Codex CLI for File Automation, Image Processing and Browser Tasks
 
-**Date:** 2026-03-27
-**Tags:** automation, codex-exec, image-processing, playwright, mcp, browser-automation, non-interactive
 
 ---
 

@@ -3,7 +3,7 @@ title: "The Codex TypeScript SDK: Embedding Agents in Your Own Tooling"
 date: 2026-03-28
 tags: [codex-cli, typescript, sdk, programmatic, cicd, orchestration]
 ---
-![Sketchnote: The Codex TypeScript SDK: Embedding Agents in Your Own Tooling](../sketchnotes/articles/2026-03-28-codex-typescript-sdk-embedding-agents.png)
+![Sketchnote: The Codex TypeScript SDK: Embedding Agents in Your Own Tooling](/sketchnotes/articles/2026-03-28-codex-typescript-sdk-embedding-agents.png)
 
 # The Codex TypeScript SDK: Embedding Agents in Your Own Tooling
 

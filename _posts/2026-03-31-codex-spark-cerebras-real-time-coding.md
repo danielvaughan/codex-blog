@@ -7,8 +7,6 @@ nav_order: 138
 
 # GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second
 
-**Date:** 2026-03-31
-**Tags:** codex-spark, cerebras, real-time, inference, websocket, wse-3, model-selection, latency
 
 ---
 

@@ -7,8 +7,6 @@ nav_order: 119
 
 # Securing Codex CLI: Domain Allowlists, Bearer Tokens, and Network Policy Enforcement
 
-**Date:** 2026-03-30
-**Tags:** network-security, domain-allowlist, bearer-token, socks5, sandbox, managed-proxy, approvals, enterprise
 
 Giving an AI agent internet access is a force multiplier — and a significant attack surface. Codex CLI's sandbox architecture treats network access as a privilege to be granted deliberately, not a default capability to be restricted after the fact. This article covers the full layered security model: from the managed proxy's domain allowlist and HTTP method filtering, through SOCKS5 proxy integration, to bearer-token authentication on remote app-server WebSocket connections introduced in v0.117.0.[^1]
 

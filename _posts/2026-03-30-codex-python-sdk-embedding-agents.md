@@ -7,8 +7,6 @@ nav_order: 120
 
 # The Codex Python SDK: Embedding Agents in Python Applications
 
-**Date:** 2026-03-30
-**Tags:** codex-cli, python, sdk, programmatic, async, streaming, app-server, automation
 
 ## Overview
 

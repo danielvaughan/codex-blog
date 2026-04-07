@@ -7,8 +7,6 @@ nav_order: 143
 
 # Codex CLI on Windows: Native Sandbox, WSL Integration, and the Elevated Security Model
 
-**Date:** 2026-04-01
-**Tags:** windows, wsl, sandbox, elevated-sandbox, appcontainer, security, installation, config-toml
 
 ---
 

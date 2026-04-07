@@ -7,8 +7,6 @@ nav_order: 150
 
 # Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD Credential Management
 
-**Date:** 2026-04-01
-**Tags:** authentication, oauth, device-code, api-key, credential-storage, ci-cd, keyring, security, config-toml
 
 ---
 

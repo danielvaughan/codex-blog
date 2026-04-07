@@ -5,12 +5,10 @@ layout: single
 tags: [symphony, agents, accountability, harness-engineering, opinion, codex-cli]
 summary: "Opinion: Symphony's 'proof of work' concept reframes autonomous agents from magic boxes into accountable actors. CI green, PR review feedback, and walkthrough artefacts before human review — and why your Codex CLI setup should demand the same."
 ---
-![Sketchnote: The Proof of Work Principle: Why Agents Need to Show Their Working](../sketchnotes/articles/2026-03-27-proof-of-work-principle-agents.png)
+![Sketchnote: The Proof of Work Principle: Why Agents Need to Show Their Working](/sketchnotes/articles/2026-03-27-proof-of-work-principle-agents.png)
 
 # The Proof of Work Principle: Why Agents Need to Show Their Working
 
-**Date:** 2026-03-27
-**Tags:** `symphony`, `agents`, `accountability`, `harness-engineering`, `opinion`, `codex-cli`
 
 There is a habit that developers have fallen into when working with autonomous coding agents: they read the diff, nod, and merge. The code arrived from somewhere — a Codex run, a background automation, an overnight agent session — and it looks plausible, the tests pass locally, and there is a deadline. So you ship it.
 

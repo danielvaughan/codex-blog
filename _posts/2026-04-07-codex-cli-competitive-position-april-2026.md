@@ -7,8 +7,6 @@ nav_order: 156
 
 # Codex CLI Competitive Position April 2026: The Road to Parity with Claude Code
 
-**Date:** 2026-04-07
-**Tags:** competitive-analysis, claude-code, cursor, market-position, adoption, strengths-weaknesses, trajectory
 
 ---
 

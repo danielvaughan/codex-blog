@@ -3,12 +3,10 @@ title: "Codex CLI Toolkit Expansion: Using Codex for Non-Code Daily Tasks"
 date: 2026-03-28
 tags: [codex-cli, plugins, productivity, non-coding, slack, figma, google-drive, gmail, notion, toolkit]
 ---
-![Sketchnote: Codex CLI Toolkit Expansion: Using Codex for Non-Code Daily Tasks](../sketchnotes/articles/2026-03-28-codex-cli-toolkit-expansion-non-code-tasks.png)
+![Sketchnote: Codex CLI Toolkit Expansion: Using Codex for Non-Code Daily Tasks](/sketchnotes/articles/2026-03-28-codex-cli-toolkit-expansion-non-code-tasks.png)
 
 # Codex CLI Toolkit Expansion: Using Codex for Non-Code Daily Tasks
 
-**Date:** 2026-03-28
-**Tags:** codex-cli, plugins, productivity, non-coding, slack, figma, google-drive, gmail, notion, toolkit
 
 On 26 March 2026, Tibo Sottiaux — a member of OpenAI's Codex team — posted a quiet but significant signal on X:
 

@@ -3,12 +3,10 @@ title: "Staying Engaged with Your Codebase in an Agentic World"
 layout: single
 date: 2026-03-27
 ---
-![Sketchnote: Staying Engaged with Your Codebase in an Agentic World](../sketchnotes/articles/2026-03-27-staying-engaged-codebase-agentic-world.png)
+![Sketchnote: Staying Engaged with Your Codebase in an Agentic World](/sketchnotes/articles/2026-03-27-staying-engaged-codebase-agentic-world.png)
 
 # Staying Engaged with Your Codebase in an Agentic World
 
-**Date:** 2026-03-27
-**Tags:** codex-cli, architecture, best-practices, opinion, workflow, agentic-engineering
 
 ---
 

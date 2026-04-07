@@ -3,12 +3,10 @@ title: "Codex CLI Approval Modes and Sandbox Security Model"
 layout: single
 ---
 
-![Sketchnote: Codex CLI Approval Modes and Sandbox Security Model](../sketchnotes/articles/2026-03-26-codex-cli-approval-modes-sandbox-security.png)
+![Sketchnote: Codex CLI Approval Modes and Sandbox Security Model](/sketchnotes/articles/2026-03-26-codex-cli-approval-modes-sandbox-security.png)
 
 # Codex CLI Approval Modes and Sandbox Security Model
 
-**Date:** 2026-03-26
-**Tags:** codex-cli, security, sandbox, approval-modes, configuration
 
 Codex CLI's safety model is built on two orthogonal controls: an **approval policy** (when the agent must pause and ask before acting) and a **sandbox mode** (what the OS actually permits). Understanding the difference — and how the two axes compose — is essential for deploying Codex in anything beyond casual local use. This article covers the current dual-axis model, platform-specific sandboxing implementations, granular configuration, and the experimental Smart Approvals feature introduced in v0.115.0.[^1]
 

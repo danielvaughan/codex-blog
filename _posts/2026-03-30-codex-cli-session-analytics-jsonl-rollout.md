@@ -7,8 +7,6 @@ nav_order: 103
 
 # Codex CLI Session Analytics: Mining the JSONL Rollout Format
 
-**Date:** 2026-03-30
-**Tags:** session-analytics, jsonl, rollout-format, ccusage, cost-analysis, observability
 
 Every Codex CLI session leaves a trail. Since September 2025, the CLI has written a complete JSONL transcript of every turn, tool call, approval decision, and token-count event to `~/.codex/sessions/`.[^1] Most developers ignore these files entirely. That's a mistake — they're the richest source of agent observability data you have, and an ecosystem of tools has grown up around them.
 

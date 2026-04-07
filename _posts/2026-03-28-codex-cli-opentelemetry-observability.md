@@ -4,7 +4,7 @@ date: 2026-03-28
 tags: [otel, opentelemetry, observability, metrics, tracing, config-toml, monitoring, enterprise]
 layout: single
 ---
-![Sketchnote: Codex CLI OpenTelemetry: Observability and Metrics in Production](../sketchnotes/articles/2026-03-28-codex-cli-opentelemetry-observability.png)
+![Sketchnote: Codex CLI OpenTelemetry: Observability and Metrics in Production](/sketchnotes/articles/2026-03-28-codex-cli-opentelemetry-observability.png)
 
 *Codex CLI ships built-in OpenTelemetry support for production observability — traces, logs, and metrics from every agent run, exportable to any OTLP-compatible backend.*
 

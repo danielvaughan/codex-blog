@@ -3,12 +3,10 @@ title: "Codex Sub-Agent Path Addressing: The Multi-Agent v2 Architecture"
 date: 2026-03-28
 tags: [codex-cli, multi-agent, subagents, architecture, orchestration, v0.117.0]
 ---
-![Sketchnote: Codex Sub-Agent Path Addressing: The Multi-Agent v2 Architecture](../sketchnotes/articles/2026-03-28-codex-subagent-path-addressing-multi-agent-v2.png)
+![Sketchnote: Codex Sub-Agent Path Addressing: The Multi-Agent v2 Architecture](/sketchnotes/articles/2026-03-28-codex-subagent-path-addressing-multi-agent-v2.png)
 
 # Codex Sub-Agent Path Addressing: The Multi-Agent v2 Architecture
 
-**Date:** 2026-03-28
-**Tags:** codex-cli, multi-agent, subagents, architecture, orchestration, v0.117.0
 
 Codex v0.117.0 replaced the original UUID-based sub-agent identification scheme with a hierarchical, path-like addressing system.[^1] The change is more than a cosmetic rename — it underpins a structured inter-agent messaging protocol, a formal agent-listing mechanism, and a team configuration layer that together constitute what the maintainers call "multi-agent v2". This article unpacks the architecture, walks through configuration, and shows where the new primitives change real orchestration patterns.
 

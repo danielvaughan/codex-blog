@@ -3,12 +3,10 @@ title: "Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based"
 layout: single
 date: 2026-03-27
 ---
-![Sketchnote: Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based](../sketchnotes/articles/2026-03-27-multi-agent-orchestration-patterns.png)
+![Sketchnote: Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based](/sketchnotes/articles/2026-03-27-multi-agent-orchestration-patterns.png)
 
 # Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based
 
-**Date:** 2026-03-27
-**Tags:** codex-cli, subagents, multi-agent, orchestration, parallel, sequential, wave, agentic
 
 > Codex CLI subagents became GA in March 2026. Now the real design question is: *which pattern to use?* Sequential gating for auditability, parallel swarms for throughput, or wave-based hybrids for complex feature tracks. This article covers all three, when to apply each, and how to configure them.
 

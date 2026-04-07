@@ -7,8 +7,6 @@ nav_order: 123
 
 # Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension
 
-**Date:** 2026-03-30
-**Tags:** code-review, /review, review_model, config-toml, profiles, codex-mcp-code-review, deep-review, uncommitted-changes, ci-cd, slash-commands
 
 The `/review` command is one of Codex CLI's most practical daily-use features, yet it receives surprisingly little attention compared to the agent orchestration machinery. This article covers the complete review surface: the four preset modes, how to pin a dedicated review model, the `deep-review` profile pattern for high-effort analysis, the known limitation around in-flight task queuing, and the community `codex-mcp-code-review` server that extends reviews into full autonomous fix-and-verify loops.
 

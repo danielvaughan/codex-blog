@@ -7,8 +7,6 @@ nav_order: 130
 
 # Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions
 
-**Date:** 2026-03-31
-**Tags:** context-compaction, token-management, long-sessions, config-toml, compact-prompt, fast-path, architecture, agentic-workflows
 
 Agentic coding sessions accumulate context fast. A non-trivial refactoring task — reading source files, running tests, writing patches, re-reading updated files — can saturate a 200k-token context window within a single working session.[^1] Codex CLI's context compaction system is the mechanism that keeps long sessions alive rather than crashing them into the context ceiling. Understanding its architecture, configuration knobs, and known failure modes is essential for anyone running Codex on tasks that span more than a few dozen file operations.
 

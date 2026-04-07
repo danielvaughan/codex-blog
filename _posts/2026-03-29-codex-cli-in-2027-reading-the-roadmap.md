@@ -7,8 +7,6 @@ nav_order: 98
 
 # Codex CLI in 2027: Reading the Roadmap
 
-**Date:** 2026-03-29
-**Tags:** roadmap-2027, codex-jobs, cloud-scheduling, model-progression, codex-rs, plugin-ecosystem, forward-looking
 
 ---
 
