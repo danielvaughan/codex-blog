@@ -40,6 +40,9 @@ $dv-muted:    #888;
 $dv-font-headings: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 // ----- Sticky navy navbar (replaces minimal-mistakes masthead) -----
+//
+// Sized to match danielvaughan.com's .profile-nav exactly: 720px container,
+// 16px brand, 12.8px uppercase nav links, ~46px tall.
 
 .dv-nav {
   background: $dv-navy;
@@ -52,49 +55,52 @@ $dv-font-headings: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1024px;
+  max-width: 720px;
   margin: 0 auto;
-  padding: 0.4rem 1.25rem;
+  padding: 6.4px 16px;
 }
 .dv-nav__brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 10px;
   color: #fff;
   font-family: $dv-font-headings;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 16px;
   text-decoration: none;
   &:hover { color: rgba(255,255,255,0.85); text-decoration: none; }
 }
 .dv-nav__avatar {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   border: 2px solid rgba(255,255,255,0.35);
   object-fit: cover;
 }
 .dv-nav__links {
   display: flex;
-  gap: 0.25rem;
+  gap: 0;
   list-style: none;
   margin: 0;
   padding: 0;
   li a {
-    display: inline-block;
-    padding: 0.4rem 0.85rem;
-    color: rgba(255,255,255,0.75);
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;            // larger touch target than 32px default
+    padding: 8px 12px;
+    color: rgba(255,255,255,0.85); // ↑ from 0.75 → ~13:1 contrast
     font-family: $dv-font-headings;
-    font-size: 0.8rem;
+    font-size: 12.8px;
     font-weight: 600;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-decoration: none;
+    border-radius: 3px;
     &:hover { color: #fff; text-decoration: none; }
   }
 }
 @media (max-width: 600px) {
-  .dv-nav__inner { flex-direction: column; gap: 0.5rem; padding: 0.6rem 1rem; }
+  .dv-nav__inner { flex-direction: column; gap: 6px; padding: 10px 16px; }
   .dv-nav__links { flex-wrap: wrap; justify-content: center; }
 }
 
@@ -130,21 +136,32 @@ $dv-font-headings: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "
 }
 
 // ----- Footer -----
+//
+// Matches danielvaughan.com's footer exactly: <footer class="py-5 border-top">
+// with a 720px container, system font, 16px / 24px line-height, left-aligned,
+// body text colour. Border colour matches the main site's #eceeef.
+//
+// Note: minimal-mistakes' `air` skin paints the outer .page__footer wrapper
+// teal (#0092ca). We give .dv-footer an explicit white background so the
+// teal never bleeds through if there's any padding mismatch.
 
 .dv-footer {
-  border-top: 1px solid $dv-border;
+  border-top: 1px solid #eceeef;
   background: #ffffff;
-  padding: 2.5rem 0;
+  padding: 48px 0;
   margin-top: 3rem;
-  text-align: center;
 }
 .dv-footer__inner {
-  max-width: 1024px;
+  max-width: 720px;
   margin: 0 auto;
-  padding: 0 1.25rem;
-  font-family: $dv-font-headings;
-  font-size: 0.82rem;
-  color: $dv-muted;
+  padding: 0 16px;
+}
+.dv-footer p {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323232;
+  margin: 0;
 }
 
 // ----- Post page restyle (CSS overrides on minimal-mistakes selectors) -----
@@ -194,11 +211,18 @@ $dv-font-headings: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "
   .toc__menu a {
     font-family: $dv-font-headings;
     font-size: 0.85em;
+    // Default state — dark navy on light grey for 13:1 contrast
+    color: #0d1b4b;
+  }
+  .toc__menu a:hover {
+    background: #f0f4ff;
+    color: #0d1b4b;
   }
   .toc__menu .active a {
-    background: #f0f4ff;
-    color: $dv-primary;
+    background: #e9efff;        // slightly darker so primary blue passes 4.5
+    color: #074fc0;             // darker shade of primary, 4.6:1 on #e9efff
     border-left: 3px solid $dv-primary;
+    font-weight: 700;
   }
 }
 
@@ -206,14 +230,14 @@ $dv-font-headings: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "
 .author__name { font-family: $dv-font-headings; font-weight: 700; }
 .author__bio  { font-size: 0.9rem; }
 
-// Post meta (read time, tags, share)
+// Post meta (read time, tags, share) — #5a5a5a passes 4.5:1 on #eee
 .page__meta,
 .page__taxonomy {
   font-family: $dv-font-headings;
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: $dv-muted;
+  color: #5a5a5a;
 }
 
 // ----- Home page post list restyle -----
@@ -228,3 +252,301 @@ $dv-font-headings: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "
   font-size: 0.95rem;
   color: #5a5a5a;
 }
+
+// =============================================================================
+// Reading rhythm — modern typography overrides
+// =============================================================================
+//
+// minimal-mistakes ships with a 22px html root at desktop widths, which makes
+// 1rem inflate everything. We use absolute px for body content sizing here so
+// the values are predictable: 17px body, 32px page title, 24px body h2,
+// content width capped at 760px (~70 chars per line).
+
+// Reading column on the post page. The author profile sidebar is hidden
+// (config: author_profile: false), so the article uses minimal-mistakes'
+// 9-column layout. The TOC sidebar still occupies ~3 columns on the right,
+// so the content max-width must stay narrower than the article container
+// to avoid overlap. 760px gives ~70 chars per line at 17px body text.
+.layout--single .page__content,
+.layout--single .page__title,
+.layout--single .page__meta,
+.layout--single .page__taxonomy,
+.layout--single .page__share,
+.layout--single .page__related {
+  max-width: 760px;
+}
+
+// Body paragraphs and list items
+.page__content {
+  font-size: 17px;
+  line-height: 1.7;
+
+  p, li, dl, dd {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+}
+
+// Page title — bigger than body h2, comfortable line-height
+.page__title {
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.5rem;
+}
+
+// Body section headings — smaller than the page title, clearer hierarchy
+.page__content {
+  h2 {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  h4 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+// Post meta (read time / date) — darker than MM default for AA contrast
+.page__meta {
+  font-size: 12px;
+  color: #5a5a5a;     // 4.74:1 on #eee, 7.04:1 on white
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+// Blockquote — clean left rule
+.page__content blockquote {
+  border-left: 4px solid $dv-primary;
+  background: #f8f9fa;
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  color: #4a4a4a;
+  font-style: normal;
+
+  p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+  }
+  p:last-child { margin-bottom: 0; }
+}
+
+// Code blocks — tighten spacing and font size
+.page__content {
+  pre, pre.highlight {
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 6px;
+  }
+
+  // Inline code only — `:not(pre) > code` excludes <code> inside <pre>,
+  // which is necessary because Rouge emits the <code> element WITHOUT a
+  // language- class, so a `code:not([class*="language-"])` selector wrongly
+  // matched it and styled the entire code block with the inline-code chip
+  // background.
+  :not(pre) > code {
+    font-size: 0.88em;
+    background: #f0f4f8;
+    color: #0d1b4b;
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+  }
+}
+
+// Tables — keep them inside the column, allow horizontal scroll if too wide
+.page__content table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  font-size: 14px;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+
+  th {
+    background: #f8f9fa;
+    color: $dv-heading;
+    font-family: $dv-font-headings;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  th, td {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #e9ecef;
+    line-height: 1.5;
+  }
+}
+
+// Sketchnote at top of articles — clean treatment
+.page__content > p:first-child > img:only-child {
+  display: block;
+  margin: 0 auto 2rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+// Tags rendered as small pill chips (inline list)
+.page__taxonomy {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+.page__taxonomy-item {
+  display: inline-block;
+  background: #f0f4ff;
+  color: $dv-primary;
+  padding: 0.25em 0.7em;
+  margin: 0.15em 0.25em 0.15em 0;
+  border-radius: 999px;
+  font-family: $dv-font-headings;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #d9e2ff;
+
+  &:hover {
+    background: $dv-primary;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+// =============================================================================
+// Home page polish
+// =============================================================================
+
+// Hide minimal-mistakes' page title h1 on the home page — the dv-intro band
+// has its own "About this blog" h2 that serves as the section heading.
+.layout--home .page__title {
+  display: none;
+}
+
+// "Recent Posts" label — minimal-mistakes' default is small and dull
+.archive h3.archive__subtitle {
+  font-family: $dv-font-headings;
+  font-size: 13px;
+  font-weight: 700;
+  color: #5a5a5a;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid $dv-border;
+  padding-bottom: 0.4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+// Post-list entries — tighter, cleaner
+.list__item {
+  margin-bottom: 1.75rem;
+}
+.archive__item-title {
+  font-size: 19px;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+}
+.archive__item-excerpt {
+  font-size: 14px;
+  margin-top: 0.4rem;
+  line-height: 1.6;
+}
+.list__item .page__meta {
+  font-size: 11px;
+}
+
+// =============================================================================
+// Accessibility — focus indicators, reduced motion, screen-reader utilities
+// =============================================================================
+
+// Focus-visible rings for keyboard users.
+//
+// minimal-mistakes' base CSS sets `outline: none` on several elements which
+// removes the default browser focus indicator. We restore an explicit ring
+// using :focus-visible (so mouse clicks don't draw the ring, only keyboard
+// focus does).
+:focus-visible {
+  outline: 2px solid $dv-primary;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+// Inverted ring for elements on the navy navbar
+.dv-nav :focus-visible {
+  outline-color: #fff;
+  outline-offset: 3px;
+}
+// Override MM's outline:none on common interactive elements so :focus-visible
+// gets a chance to apply. Some MM rules use higher specificity; this catches
+// the common ones.
+a, button, input, select, textarea, [tabindex] {
+  &:focus-visible {
+    outline: 2px solid $dv-primary;
+    outline-offset: 2px;
+  }
+}
+
+// Respect users who prefer reduced motion
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+// Screen-reader-only utility (for visually hidden labels)
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+// Skip-to-content link — visually hidden until focused
+.sr-only.sr-only-focusable:focus,
+.sr-only.sr-only-focusable:focus-visible {
+  position: fixed !important;
+  top: 8px !important;
+  left: 8px !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 10px 18px !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  clip: auto !important;
+  background: $dv-navy !important;
+  color: #fff !important;
+  font-family: $dv-font-headings !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+  z-index: 9999 !important;
+  outline: 2px solid #fff !important;
+  outline-offset: 2px !important;
+}
+
+// Make minimal-mistakes' #main div behave like a real <main> landmark via
+// CSS visibility (the role is added by inline JS in head/custom.html).
+[role="main"] { display: block; }

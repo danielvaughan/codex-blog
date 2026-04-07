@@ -2,6 +2,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
+<script>
+  // Accessibility shims that minimal-mistakes' default layouts don't provide:
+  // - Promote <div id="main"> to a real main landmark for screen readers.
+  // - Label the table-of-contents nav.
+  // - Label the pagination nav.
+  document.addEventListener('DOMContentLoaded', function () {
+    var main = document.getElementById('main');
+    if (main && !main.hasAttribute('role')) main.setAttribute('role', 'main');
+
+    var toc = document.querySelector('nav.toc');
+    if (toc && !toc.hasAttribute('aria-label')) toc.setAttribute('aria-label', 'On this page');
+
+    var pagination = document.querySelector('nav.pagination');
+    if (pagination && !pagination.hasAttribute('aria-label')) pagination.setAttribute('aria-label', 'Pagination');
+  });
+</script>
+
 {% if site.mermaid %}
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@{{ site.mermaid.version | default: 10 }}/dist/mermaid.esm.min.mjs';
