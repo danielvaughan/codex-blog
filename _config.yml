@@ -18,9 +18,10 @@ markdown: kramdown
 paginate: 10
 paginate_path: "/page:num/"
 
-# Search
-search: true
-search_full_content: true
+# Search — disabled because the reskin removed the search trigger button
+# from the custom masthead. minimal-mistakes' JS would otherwise try to
+# initialise the search modal and fail to find expected elements.
+search: false
 
 # Mermaid (rendered via _includes/head/custom.html)
 mermaid:
