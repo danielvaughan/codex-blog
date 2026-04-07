@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Web Search Integration and Knowledge-Augmented Agents"
-layout: single
 date: 2026-03-26
 tags: [web-search, mcp, knowledge, config, research, context7]
 ---

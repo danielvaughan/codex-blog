@@ -1,6 +1,5 @@
 ---
 title: "The Agentic Engineering Pod: Three Roles, One Shared Context Layer"
-layout: single
 date: 2026-03-26
 tags: agentic-pod, roles, context-architect, value-engineer, quality-engineer, three-person-rule, codex-cli
 ---

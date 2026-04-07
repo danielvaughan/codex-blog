@@ -1,6 +1,5 @@
 ---
 title: "How to Be a Codex CLI Forward Deployed Engineer"
-layout: single
 parent: "Articles"
 nav_order: 159
 ---

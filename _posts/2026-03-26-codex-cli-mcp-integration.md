@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI MCP Integration: Connecting Agents to External Tools"
-layout: single
 date: 2026-03-26
 ---
 

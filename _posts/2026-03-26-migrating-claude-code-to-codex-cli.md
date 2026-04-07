@@ -1,6 +1,5 @@
 ---
 title: "Migrating a Workflow from Claude Code to Codex CLI"
-layout: single
 date: 2026-03-26
 ---
 ![Sketchnote: Migrating a Workflow from Claude Code to Codex CLI](/sketchnotes/articles/2026-03-26-migrating-claude-code-to-codex-cli.png)

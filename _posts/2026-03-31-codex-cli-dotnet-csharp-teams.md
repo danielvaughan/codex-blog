@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI"
-layout: single
 parent: "Articles"
 nav_order: 132
 ---

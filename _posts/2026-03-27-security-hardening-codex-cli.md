@@ -1,6 +1,5 @@
 ---
 title: "Security Hardening Your Codex CLI Setup"
-layout: single
 ---
 ![Sketchnote: Security Hardening Your Codex CLI Setup](/sketchnotes/articles/2026-03-27-security-hardening-codex-cli.png)
 

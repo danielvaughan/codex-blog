@@ -1,6 +1,5 @@
 ---
 title: "Graphiti: Temporal Knowledge Graphs for Agent Memory — Should the Knowledge Flywheel Use It?"
-layout: single
 date: 2026-03-30
 tags: memory, knowledge-graph, neo4j, agents, graphiti
 ---

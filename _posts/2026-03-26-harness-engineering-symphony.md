@@ -1,6 +1,5 @@
 ---
 title: "From Harness Engineering to Symphony: The Autonomous Development Stack"
-layout: single
 date: 2026-03-26
 tags: [symphony, harness-engineering, agentic, workflow, architecture]
 ---

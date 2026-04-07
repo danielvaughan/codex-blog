@@ -1,6 +1,5 @@
 ---
 title: "Agentic Primitives Compared: Codex CLI vs Claude Code vs Gemini CLI"
-layout: single
 ---
 ![Sketchnote: Agentic Primitives Compared: Codex CLI vs Claude Code vs Gemini CLI](/sketchnotes/articles/2026-03-26-agentic-primitives-codex-claude-gemini.png)
 

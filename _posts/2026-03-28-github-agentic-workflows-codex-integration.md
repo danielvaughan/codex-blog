@@ -1,7 +1,6 @@
 ---
 title: "GitHub Agentic Workflows: Intent-Driven Repository Automation with Codex"
 date: 2026-03-28
-layout: single
 tags: [github-agentic-workflows, github-actions, intent-driven, repository-automation, codex-integration]
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI vs Competing Agentic Tools: Choosing the Right Tool"
-layout: single
 published: 2026-03-26
 ---
 

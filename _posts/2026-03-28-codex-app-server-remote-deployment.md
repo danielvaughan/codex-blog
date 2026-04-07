@@ -2,7 +2,6 @@
 title: "Codex App-Server Remote Deployment: WebSocket Transport, Bearer Auth and Health Checks"
 date: 2026-03-28
 tags: [app-server, websocket, bearer-token, remote-deployment, health-checks, json-rpc, production]
-layout: single
 ---
 ![Sketchnote: Codex App-Server Remote Deployment: WebSocket Transport, Bearer Auth and Health Checks](/sketchnotes/articles/2026-03-28-codex-app-server-remote-deployment.png)
 

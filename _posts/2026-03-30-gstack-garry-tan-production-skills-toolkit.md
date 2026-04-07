@@ -1,6 +1,5 @@
 ---
 title: "gstack: Garry Tan's Production Claude Code Skills Toolkit"
-layout: single
 parent: "Articles"
 nav_order: 114
 ---

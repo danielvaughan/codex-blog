@@ -1,6 +1,5 @@
 ---
 title: "Using Claude Code and Codex Together: The Multi-Tool Strategy"
-layout: single
 date: 2026-03-27
 ---
 ![Sketchnote: Using Claude Code and Codex Together: The Multi-Tool Strategy](/sketchnotes/articles/2026-03-27-using-claude-code-and-codex-together.png)

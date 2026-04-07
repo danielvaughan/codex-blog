@@ -2,7 +2,6 @@
 title: "Background Terminal: Running Dev Servers Alongside Codex"
 date: 2026-03-28
 tags: [codex-cli, experimental, background-terminal, dev-server, parallel-workflows]
-layout: single
 ---
 ![Sketchnote: Background Terminal: Running Dev Servers Alongside Codex](/sketchnotes/articles/2026-03-28-codex-background-terminal-dev-server-workflows.png)
 

@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition"
-layout: single
 parent: "Articles"
 nav_order: 152
 ---

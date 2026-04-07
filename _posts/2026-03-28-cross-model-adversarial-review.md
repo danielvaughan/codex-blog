@@ -1,6 +1,5 @@
 ---
 title: "Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots"
-layout: single
 date: 2026-03-28
 tags: [multi-agent, code-review, adversarial, cross-model, quality-gates]
 ---

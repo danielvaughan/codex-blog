@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Thread Search and Session Management: Finding, Archiving and Replaying Work"
-layout: single
 parent: "Articles"
 nav_order: 106
 ---

@@ -1,6 +1,5 @@
 ---
 title: "How the Codex CLI Agentic Loop Works in Detail to the Code Level"
-layout: single
 parent: "Articles"
 nav_order: 159
 ---

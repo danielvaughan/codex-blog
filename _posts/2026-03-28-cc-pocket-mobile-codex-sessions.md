@@ -1,7 +1,6 @@
 ---
 title: "CC Pocket: Managing Codex Sessions from Your Phone"
 date: 2026-03-28
-layout: single
 tags: [cc-pocket, mobile, ios, remote-sessions, batch-approval, agentic-pod]
 ---
 ![Sketchnote: CC Pocket: Managing Codex Sessions from Your Phone](/sketchnotes/articles/2026-03-28-cc-pocket-mobile-codex-sessions.png)

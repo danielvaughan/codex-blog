@@ -1,6 +1,5 @@
 ---
 title: "Model Selection in Codex CLI: Current Models and When to Use Each"
-layout: single
 published: 2026-03-26
 ---
 

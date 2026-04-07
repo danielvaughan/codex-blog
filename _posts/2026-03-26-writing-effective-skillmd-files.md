@@ -1,6 +1,5 @@
 ---
 title: "Writing Effective SKILL.md Files for Codex CLI"
-layout: single
 ---
 ![Sketchnote: Writing Effective SKILL.md Files for Codex CLI](/sketchnotes/articles/2026-03-26-writing-effective-skillmd-files.png)
 

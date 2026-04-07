@@ -1,6 +1,5 @@
 ---
 title: "Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based"
-layout: single
 date: 2026-03-27
 ---
 ![Sketchnote: Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based](/sketchnotes/articles/2026-03-27-multi-agent-orchestration-patterns.png)

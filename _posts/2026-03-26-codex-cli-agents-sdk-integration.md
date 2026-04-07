@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI as an MCP Server: Orchestrating Agents with the OpenAI Agents SDK"
-layout: single
 date: 2026-03-26
 tags: [agents-sdk, mcp, orchestration, multi-agent, agentic-pod]
 ---

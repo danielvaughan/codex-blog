@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD"
-layout: single
 parent: "Articles"
 nav_order: 145
 ---

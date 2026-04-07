@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies"
-layout: single
 parent: "Articles"
 nav_order: 93
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Debugging Codex Agent Failures: A Systematic Troubleshooting Guide"
 date: 2026-03-28
-layout: single
 tags: [debugging, troubleshooting, api-errors, context-rot, compaction, agent-failures]
 ---
 

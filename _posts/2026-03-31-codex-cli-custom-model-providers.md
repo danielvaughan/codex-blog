@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Custom Model Providers: Azure, Vercel, Local LLMs and Dynamic Bearer Tokens"
-layout: single
 parent: "Articles"
 nav_order: 131
 ---

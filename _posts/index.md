@@ -1,6 +1,5 @@
 ---
 title: "Articles"
-layout: single
 permalink: /articles/
 ---
 

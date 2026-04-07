@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal"
-layout: single
 parent: "Articles"
 nav_order: 101
 ---

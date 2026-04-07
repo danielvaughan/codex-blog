@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Session Analytics: Mining the JSONL Rollout Format"
-layout: single
 parent: "Articles"
 nav_order: 103
 ---

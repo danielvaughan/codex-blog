@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI in Regulated Environments: HIPAA, SOC 2, and Financial Services"
-layout: single
 parent: "Articles"
 nav_order: 85
 ---

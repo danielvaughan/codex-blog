@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI PreToolUse & PostToolUse Hooks: Production Patterns for Quality Gates and CI Enforcement"
-layout: single
 date: 2026-03-31
 tags: hooks, pretooluse, posttooluse, automation, ci, quality-gates, security, experimental
 ---

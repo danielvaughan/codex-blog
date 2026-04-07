@@ -1,6 +1,5 @@
 ---
 title: "From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern"
-layout: single
 parent: "Articles"
 nav_order: 142
 ---

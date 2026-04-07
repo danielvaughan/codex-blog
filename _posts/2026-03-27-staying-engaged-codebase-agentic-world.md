@@ -1,6 +1,5 @@
 ---
 title: "Staying Engaged with Your Codebase in an Agentic World"
-layout: single
 date: 2026-03-27
 ---
 ![Sketchnote: Staying Engaged with Your Codebase in an Agentic World](/sketchnotes/articles/2026-03-27-staying-engaged-codebase-agentic-world.png)

@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Competitive Position April 2026: The Road to Parity with Claude Code"
-layout: single
 parent: "Articles"
 nav_order: 156
 ---

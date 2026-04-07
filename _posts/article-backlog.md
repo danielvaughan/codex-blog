@@ -1,6 +1,5 @@
 ---
 title: "Article Backlog"
-layout: single
 ---
 
 # Codex CLI Article Backlog

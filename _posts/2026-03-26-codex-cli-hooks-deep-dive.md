@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Hooks Deep Dive: SessionStart, Stop and userpromptsubmit"
-layout: single
 date: 2026-03-26
 ---
 ![Sketchnote: Codex CLI Hooks Deep Dive](/sketchnotes/articles/2026-03-26-codex-cli-hooks-deep-dive.png)

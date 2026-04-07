@@ -1,6 +1,5 @@
 ---
 title: "Claude Code ↔ Codex CLI: Bidirectional MCP Integration"
-layout: single
 date: 2026-03-26
 ---
 ![Sketchnote: Claude Code to Codex Bidirectional MCP](/sketchnotes/articles/2026-03-26-claude-code-codex-bidirectional-mcp.png)

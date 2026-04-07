@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Approval Modes and Sandbox Security Model"
-layout: single
 ---
 
 ![Sketchnote: Codex CLI Approval Modes and Sandbox Security Model](/sketchnotes/articles/2026-03-26-codex-cli-approval-modes-sandbox-security.png)

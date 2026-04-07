@@ -2,7 +2,6 @@
 title: "Spec-Driven Development with Codex: Writing Specifications Before Code"
 date: 2026-03-28
 tags: [codex-cli, spec-driven-development, planning, agents-md, best-practices, workflow]
-layout: single
 ---
 
 # Spec-Driven Development with Codex: Writing Specifications Before Code

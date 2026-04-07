@@ -1,6 +1,5 @@
 ---
 title: "Automating the Cross-Model Review Loop: Three Levels from SKILL.md to Multi-AI Pipeline"
-layout: single
 parent: "Articles"
 nav_order: 155
 ---

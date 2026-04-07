@@ -2,7 +2,6 @@
 title: "Thread Search and Session Archiving in the Codex App"
 date: 2026-03-28
 tags: [thread-search, session-archiving, codex-app, vs-code-sync, sidebar-navigation]
-layout: single
 ---
 ![Sketchnote: Thread Search and Session Archiving in the Codex App](/sketchnotes/articles/2026-03-28-codex-app-thread-search-session-archiving.png)
 

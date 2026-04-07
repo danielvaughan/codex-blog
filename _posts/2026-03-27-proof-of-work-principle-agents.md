@@ -1,7 +1,6 @@
 ---
 title: "The Proof of Work Principle: Why Agents Need to Show Their Working"
 date: 2026-03-27
-layout: single
 tags: [symphony, agents, accountability, harness-engineering, opinion, codex-cli]
 summary: "Opinion: Symphony's 'proof of work' concept reframes autonomous agents from magic boxes into accountable actors. CI green, PR review feedback, and walkthrough artefacts before human review — and why your Codex CLI setup should demand the same."
 ---

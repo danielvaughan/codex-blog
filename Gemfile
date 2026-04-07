@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
-# GitHub Pages — pinned gem set used by github.io builds
-gem "github-pages", group: :jekyll_plugins
+# Use plain Jekyll for local dev (github-pages forces safe:true which blocks
+# symlinked _includes — the submodule symlinks work fine on GitHub Pages itself).
+gem "jekyll", "~> 3.10"
 
 # Required for `bundle exec jekyll serve` on Ruby 3+
 gem "webrick"
@@ -13,4 +14,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-paginate"
   gem "jekyll-include-cache"
+  gem "kramdown-parser-gfm"
 end

@@ -1,6 +1,5 @@
 ---
 title: "Context Window Management: Avoiding Compaction with Sub-Agent Delegation"
-layout: single
 date: 2026-03-27
 ---
 ![Sketchnote: Context Window Management: Avoiding Compaction with Sub-Agent Delegation](/sketchnotes/articles/2026-03-27-context-window-management-subagent-delegation.png)

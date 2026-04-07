@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows"
-layout: single
 date: 2026-03-27
 ---
 ![Sketchnote: Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows](/sketchnotes/articles/2026-03-27-codex-cli-code-review-pr-integration.png)

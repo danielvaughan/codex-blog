@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI in 2026: What's New, What's Changed and What's Coming"
-layout: single
 date: 2026-03-27
 description: "A comprehensive guide to every major Codex CLI change in 2026 — new models, hooks, subagents, Codex Spark, enterprise features, and what's still on the roadmap."
 tags: [codex-cli, changelog, models, subagents, hooks, enterprise]

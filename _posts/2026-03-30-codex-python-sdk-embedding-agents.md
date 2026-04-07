@@ -1,6 +1,5 @@
 ---
 title: "The Codex Python SDK: Embedding Agents in Python Applications"
-layout: single
 parent: "Articles"
 nav_order: 120
 ---

@@ -2,7 +2,6 @@
 title: "Codex CLI OpenTelemetry: Observability and Metrics in Production"
 date: 2026-03-28
 tags: [otel, opentelemetry, observability, metrics, tracing, config-toml, monitoring, enterprise]
-layout: single
 ---
 ![Sketchnote: Codex CLI OpenTelemetry: Observability and Metrics in Production](/sketchnotes/articles/2026-03-28-codex-cli-opentelemetry-observability.png)
 

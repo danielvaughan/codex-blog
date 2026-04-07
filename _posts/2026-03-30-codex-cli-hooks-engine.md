@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts"
-layout: single
 parent: "Articles"
 nav_order: 107
 ---

@@ -3,7 +3,6 @@ title: "Compound Engineering with Codex: The 80/20 Plan-Review Model"
 subtitle: "Invert the traditional development ratio — spend 80% on planning and review, 10% on execution, and 10% on compounding knowledge"
 date: 2026-03-27
 tags: [compound-engineering, multi-agent, review, planning, codex-cli, philosophy]
-layout: single
 ---
 ![Sketchnote: Compound Engineering with Codex: The 80/20 Plan-Review Model](/sketchnotes/articles/2026-03-27-compound-engineering-codex-80-20.png)
 

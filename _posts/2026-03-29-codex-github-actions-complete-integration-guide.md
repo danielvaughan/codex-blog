@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI + GitHub Actions: The Complete Integration Guide"
-layout: single
 parent: "Articles"
 nav_order: 87
 ---

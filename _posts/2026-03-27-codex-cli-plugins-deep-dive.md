@@ -1,7 +1,6 @@
 ---
 title: "Codex CLI Plugins: Packaging, Sharing and Installing Reusable Workflows"
 date: 2026-03-27
-layout: single
 tags: [plugins, skills, mcp, configuration, ecosystem]
 ---
 ![Sketchnote: Codex CLI Plugins: Packaging, Sharing and Installing Reusable Workflows](/sketchnotes/articles/2026-03-27-codex-cli-plugins-deep-dive.png)

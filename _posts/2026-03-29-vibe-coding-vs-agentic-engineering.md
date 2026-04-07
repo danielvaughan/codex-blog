@@ -1,6 +1,5 @@
 ---
 title: "Vibe Coding vs Agentic Engineering: A Senior Developer's Framework"
-layout: single
 parent: "Articles"
 nav_order: 94
 ---

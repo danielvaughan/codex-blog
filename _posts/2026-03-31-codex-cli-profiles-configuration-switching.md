@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Profiles: Advanced Configuration Switching for Multi-Workflow Development"
-layout: single
 parent: "Articles"
 nav_order: 128
 ---

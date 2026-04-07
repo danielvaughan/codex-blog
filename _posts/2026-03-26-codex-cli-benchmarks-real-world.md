@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI in Practice: Real-World Benchmarks and What They Mean"
-layout: single
 ---
 
 ![Sketchnote: Codex CLI in Practice: Real-World Benchmarks and What They Mean](/sketchnotes/articles/2026-03-26-codex-cli-benchmarks-real-world.png)

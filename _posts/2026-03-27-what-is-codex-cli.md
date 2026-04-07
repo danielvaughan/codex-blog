@@ -1,6 +1,5 @@
 ---
 title: "What Is Codex CLI? A Short History of AI-Assisted Coding"
-layout: single
 date: 2026-03-27
 description: "From the original OpenAI Codex model in 2021 to a terminal-native agentic coding tool in 2025: a concise history of how AI-assisted development reached its current form."
 tags: [codex-cli, history, github-copilot, aider, cursor, devin, agentic-coding, openai]

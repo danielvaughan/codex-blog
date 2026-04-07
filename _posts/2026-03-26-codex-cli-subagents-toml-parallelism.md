@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv"
-layout: single
 date: 2026-03-26
 ---
 ![Sketchnote: Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv](/sketchnotes/articles/2026-03-26-codex-cli-subagents-toml-parallelism.png)

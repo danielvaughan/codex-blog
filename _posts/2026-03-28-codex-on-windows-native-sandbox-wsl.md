@@ -1,6 +1,5 @@
 ---
 title: "Codex on Windows: Native Sandbox, WSL and the Microsoft Store Launch"
-layout: single
 parent: "Articles"
 nav_order: 57
 date: 2026-03-28

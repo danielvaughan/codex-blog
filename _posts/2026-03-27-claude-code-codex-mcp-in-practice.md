@@ -1,6 +1,5 @@
 ---
 title: "Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas"
-layout: single
 date: 2026-03-27
 ---
 ![Sketchnote: Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas](/sketchnotes/articles/2026-03-27-claude-code-codex-mcp-in-practice.png)

@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Rules Engine: Starlark Policies, Smart Approvals, and the Guardian Subagent"
-layout: single
 parent: "Articles"
 nav_order: 117
 ---

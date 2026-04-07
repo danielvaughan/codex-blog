@@ -1,6 +1,5 @@
 ---
 title: "Working with Images in Codex CLI: Attaching, Inspecting and Generating Visual Assets"
-layout: single
 parent: "Articles"
 nav_order: 61
 date: 2026-03-28

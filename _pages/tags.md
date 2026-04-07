@@ -1,11 +1,7 @@
 ---
 title: "Tags"
 permalink: /tags/
-layout: single
-author_profile: true
-toc: true
-toc_label: "Tags"
-toc_sticky: true
+layout: page
 ---
 
 {% assign tags_sorted = site.tags | sort %}

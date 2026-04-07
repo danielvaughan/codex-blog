@@ -1,6 +1,5 @@
 ---
 title: "Beyond Code: Codex CLI for File Automation, Image Processing and Browser Tasks"
-layout: single
 date: 2026-03-27
 ---
 ![Sketchnote: Beyond Code: Codex CLI for File Automation, Image Processing and Browser Tasks](/sketchnotes/articles/2026-03-27-codex-cli-beyond-code-file-automation.png)

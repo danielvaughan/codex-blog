@@ -1,6 +1,5 @@
 ---
 title: "AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks"
-layout: single
 date: 2026-03-26
 ---
 

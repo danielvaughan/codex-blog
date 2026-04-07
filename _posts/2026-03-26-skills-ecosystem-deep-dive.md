@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI Skills Ecosystem"
-layout: single
 ---
 
 ![Sketchnote: Codex CLI Skills Ecosystem](/sketchnotes/articles/2026-03-26-skills-ecosystem-deep-dive.png)

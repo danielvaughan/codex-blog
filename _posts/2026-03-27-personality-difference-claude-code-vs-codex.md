@@ -1,7 +1,6 @@
 ---
 title: "The Personality Difference: Claude Code as Explorer, Codex as Executor"
 date: 2026-03-27
-layout: single
 tags: [opinion, claude-code, codex-cli, comparison, workflow]
 excerpt: "Why asking 'which AI coding agent is better?' is the wrong question — and how understanding their personality differences will make you more effective with both."
 ---

@@ -1,6 +1,5 @@
 ---
 title: "OpenAI's Superapp Pivot: What the ChatGPT + Codex + Atlas Merger Means for Practitioners"
-layout: single
 parent: "Articles"
 nav_order: 97
 ---

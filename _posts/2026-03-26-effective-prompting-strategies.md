@@ -1,6 +1,5 @@
 ---
 title: "Effective Prompting Strategies for Codex CLI"
-layout: single
 date: 2026-03-26
 tags: [prompting, context, AGENTS.md, skills, workflow]
 ---

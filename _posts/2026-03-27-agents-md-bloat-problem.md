@@ -1,6 +1,5 @@
 ---
 title: "The AGENTS.md Bloat Problem: When More Context Makes Agents Worse"
-layout: single
 date: 2026-03-27
 ---
 ![Sketchnote: The AGENTS.md Bloat Problem: When More Context Makes Agents Worse](/sketchnotes/articles/2026-03-27-agents-md-bloat-problem.png)

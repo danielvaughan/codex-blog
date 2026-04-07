@@ -1,6 +1,5 @@
 ---
 title: "Building Custom Harnesses with the Codex Responses API: Phase, Compaction, and Conversation State"
-layout: single
 parent: "Articles"
 nav_order: 146
 ---
