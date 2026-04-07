@@ -1,6 +1,6 @@
 ---
 title: "Codex App Theming and Customisation: codex-theme-v1, Partner Themes, and the CLI /theme Command"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 126
 ---

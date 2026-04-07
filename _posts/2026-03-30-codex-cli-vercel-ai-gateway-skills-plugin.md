@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI and Vercel: AI Gateway, Skills and the Vercel Plugin Ecosystem"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 102
 ---

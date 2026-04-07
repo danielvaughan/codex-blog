@@ -1,6 +1,6 @@
 ---
 title: "Persistent Memory for Codex CLI: MCP Memory Servers, Cross-Session Context, and the Memory Layer Ecosystem"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 149
 ---

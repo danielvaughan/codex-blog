@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Triggers: Event-Driven GitHub Automation Beyond CI/CD"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 141
 ---

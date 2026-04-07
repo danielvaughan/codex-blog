@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI for Rust Teams: AGENTS.md, Cargo Workflows, and Workspace Patterns"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 133
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Designing Workflows for Codex-Spark: When Inference Becomes Near-Instant"
 date: 2026-03-29
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 95
 tags: [codex-spark, gpt-5-3-codex-spark, real-time-coding, workflow-design, model-routing, context-management, interactive-refinement, human-in-the-loop]

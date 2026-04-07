@@ -1,6 +1,6 @@
 ---
 title: "Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 122
 ---

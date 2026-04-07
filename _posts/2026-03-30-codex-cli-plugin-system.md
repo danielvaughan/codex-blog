@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 118
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Advanced AGENTS.md Patterns for Monorepos"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 89
 ---

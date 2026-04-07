@@ -1,6 +1,6 @@
 ---
 title: "The Codex CLI Credit Economy: Maximising Value Per Dollar"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 86
 ---

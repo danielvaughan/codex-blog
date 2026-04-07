@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 116
 ---

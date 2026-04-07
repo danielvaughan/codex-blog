@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI in 2027: Reading the Roadmap"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 98
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Migrating from Cursor to Codex CLI"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 80
 ---

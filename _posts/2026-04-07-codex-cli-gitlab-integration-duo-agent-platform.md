@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI on GitLab: Duo Agent Platform, CI/CD Pipelines, and MCP Integration"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 154
 ---

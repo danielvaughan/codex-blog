@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 139
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 136
 ---

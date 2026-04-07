@@ -1,6 +1,6 @@
 ---
 title: "Securing Codex CLI: Domain Allowlists, Bearer Tokens, and Network Policy Enforcement"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 119
 ---

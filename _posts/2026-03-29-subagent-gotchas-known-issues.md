@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 88
 ---

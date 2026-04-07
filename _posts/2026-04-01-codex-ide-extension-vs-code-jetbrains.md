@@ -1,6 +1,6 @@
 ---
 title: "The Codex IDE Extension: VS Code, JetBrains, and the Hybrid Cloud-Local Workflow"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 144
 ---

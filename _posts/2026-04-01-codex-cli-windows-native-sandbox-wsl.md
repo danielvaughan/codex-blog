@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI on Windows: Native Sandbox, WSL Integration, and the Elevated Security Model"
-layout: single
+layout: default
 parent: "Articles"
 nav_order: 143
 ---
