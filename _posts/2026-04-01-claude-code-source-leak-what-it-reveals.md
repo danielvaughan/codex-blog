@@ -9,6 +9,8 @@
 
 ---
 
+![Sketchnote: Claude Code Source Leak — What 163K Lines of TypeScript Reveal About Anthropic's Engineering](/sketchnotes/articles/2026-04-01-claude-code-source-leak-what-it-reveals.png)
+
 ## Summary
 
 On March 31, 2026, security researcher Chaofan Shou discovered that Anthropic's entire Claude Code CLI source code (v2.1.88, ~163,318 lines of TypeScript) was exposed via a sourcemap file bundled into the published npm package. The `.map` file referenced the full, unobfuscated TypeScript source hosted on Anthropic's R2 storage bucket. An Anthropic employee subsequently made the source available in the public domain. This is Anthropic's second major security lapse, coming days after accidentally revealing internal details about their Mythos project.

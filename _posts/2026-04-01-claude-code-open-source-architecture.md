@@ -9,6 +9,8 @@
 
 ---
 
+![Sketchnote: Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript](/sketchnotes/articles/2026-04-01-claude-code-open-source-architecture.png)
+
 ## Summary
 
 When Anthropic open-sourced Claude Code in late March 2026, the developer community finally got a clear look at the engineering behind one of the most capable agentic coding tools on the market. What they found was roughly 512,000 lines of TypeScript — a sprawling, vertically integrated system built on React and Ink for the terminal UI, running on the Bun runtime, and orchestrating more than 40 tool modules. The Reddit discussion that followed became one of the most technically substantive threads in r/ClaudeCode's history, with engineers dissecting everything from the context management strategy to the thinking-token optimisation that makes Claude Code's agent loop feel uncannily focused. This article distils those findings and draws out the implications for Codex CLI users and book readers.

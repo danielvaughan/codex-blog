@@ -5,6 +5,8 @@ nav_order: 124
 tags: [multi-agent, multi-agent-v2, path-addressing, spawn-agent, fork-context, assign-task, list-agents, send-message, spawn-agents-on-csv, fanout, config-toml, subagents, v0.117.0]
 ---
 
+![Sketchnote diagram for: Codex CLI Multi-Agent v2: Path-Based Addressing, Structured Messaging, and the v4 Agent API](/sketchnotes/articles/2026-03-30-codex-cli-multi-agent-v2-path-addressing-structured-messaging.png)
+
 # Codex CLI Multi-Agent v2: Path-Based Addressing, Structured Messaging, and the v4 Agent API
 
 

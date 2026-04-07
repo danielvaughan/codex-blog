@@ -9,6 +9,8 @@
 
 ---
 
+![Sketchnote: Reddit Sentiment Monitor: Codex CLI — March 30, 2026](/sketchnotes/articles/2026-03-30-reddit-codex-cli-sentiment-march-2026.png)
+
 ## Summary
 
 Weekly Reddit sentiment monitor for Codex CLI across r/OpenAI, r/MachineLearning, r/programming, r/devops, and r/ArtificialIntelligence. Overall community sentiment is **positive**, driven by strong release cadence (v0.117.0 shipped March 26), favourable pricing vs Claude Code, and growing open-source community. Key pain points are usage metering anomalies and App vs CLI feature gaps.
