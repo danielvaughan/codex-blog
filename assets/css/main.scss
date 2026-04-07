@@ -1,0 +1,27 @@
+---
+# Front matter required so Jekyll processes this file as SCSS
+---
+
+@charset "utf-8";
+
+// Skin selection — picks up _config.yml's minimal_mistakes_skin value
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+
+// Core theme
+@import "minimal-mistakes";
+
+// ----- Local overrides -----
+
+// Slightly more comfortable line-height for long-form reading
+.page__content p,
+.page__content li,
+.page__content dl {
+  line-height: 1.7;
+}
+
+// Wider max content width on large screens
+@include breakpoint($large) {
+  .page {
+    padding-right: 0;
+  }
+}
