@@ -5,6 +5,8 @@ nav_order: 139
 tags: [`apply_patch`, `V4A`, `diff-format`, `internals`, `file-editing`, `agent-loop`, `SDK`, `codex-cli`]
 ---
 
+![Sketchnote diagram for: The V4A Diff Format: How Codex CLI's apply_patch Actually Edits Your Code](/sketchnotes/articles/2026-03-31-codex-cli-apply-patch-v4a-diff-format.png)
+
 # The V4A Diff Format: How Codex CLI's apply_patch Actually Edits Your Code
 
 

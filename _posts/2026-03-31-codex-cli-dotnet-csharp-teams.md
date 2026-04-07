@@ -5,6 +5,8 @@ nav_order: 132
 tags: [dotnet, csharp, agents-md, nuget, azure-openai, skills, sandbox, ci-cd, multi-agent]
 ---
 
+![Sketchnote diagram for: Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI](/sketchnotes/articles/2026-03-31-codex-cli-dotnet-csharp-teams.png)
+
 # Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI
 
 

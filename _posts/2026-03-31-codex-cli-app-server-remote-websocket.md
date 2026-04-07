@@ -5,6 +5,8 @@ nav_order: 139
 tags: [app-server, websocket, remote-access, headless, json-rpc, deployment, authentication, tui]
 ---
 
+![Sketchnote diagram for: Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment](/sketchnotes/articles/2026-03-31-codex-cli-app-server-remote-websocket.png)
+
 # Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment
 
 

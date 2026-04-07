@@ -5,6 +5,8 @@ tags: [codex-cli, product-direction, toolkit-expansion, agentic-platform, thsott
 summary: "On March 26 2026, Codex's product lead @thsottiaux posted a 130K-view signal: Codex is about to expand its toolkit 'way way outside of coding'. This article decodes what that means, what evidence already exists, and how to prepare your agentic workflows."
 ---
 
+![Sketchnote diagram for: Codex Beyond Coding: Tibo's Toolkit Expansion Signal and What It Means](/sketchnotes/articles/2026-03-30-codex-toolkit-expansion-beyond-coding.png)
+
 # Codex Beyond Coding: Tibo's Toolkit Expansion Signal and What It Means
 
 
