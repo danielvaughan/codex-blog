@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include main-site/head.html -%}
+  <body>
+    {%- include dv-navbar.html -%}
+    <main id="main" role="main" class="py-5">
+      <div class="container page-content">
+        {{ content }}
+      </div>
+    </main>
+    {%- include dv-footer.html -%}
+  </body>
+</html>
