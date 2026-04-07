@@ -2,6 +2,7 @@
 title: "gstack: Garry Tan's Production Claude Code Skills Toolkit"
 parent: "Articles"
 nav_order: 114
+tags: [skills, agentic-pod, production, reference-implementation, gstack]
 ---
 
 # gstack: Garry Tan's Production Claude Code Skills Toolkit

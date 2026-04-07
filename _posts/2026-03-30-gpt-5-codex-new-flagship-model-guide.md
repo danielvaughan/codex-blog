@@ -2,6 +2,7 @@
 title: "gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow"
 parent: "Articles"
 nav_order: 115
+tags: [gpt-5-codex, model-update, model-selection, gpt-5-codex-mini, chatgpt-login, model-consolidation]
 ---
 
 # gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow

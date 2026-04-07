@@ -2,6 +2,7 @@
 title: "Codified Context: The Three-Tier Knowledge Architecture for AI Coding Agents"
 parent: "Articles"
 nav_order: 157
+tags: [codified-context, tiered-knowledge, agents-md, mcp, domain-experts, context-architecture, academic-paper]
 ---
 
 # Codified Context: The Three-Tier Knowledge Architecture for AI Coding Agents

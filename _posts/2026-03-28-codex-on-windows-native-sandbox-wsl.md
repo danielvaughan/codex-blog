@@ -6,7 +6,7 @@ date: 2026-03-28
 tags: [windows, sandbox, wsl, installation, configuration, platform]
 summary: "The Codex app landed on Windows on March 4, 2026. This article covers the three execution environments (elevated sandbox, unelevated sandbox, WSL), Windows-specific config.toml keys, required tooling, enterprise deployment, and the gotchas that will catch you first."
 ---
-![Sketchnote: Codex on Windows: Native Sandbox, WSL and the Microsoft Store Launch](/sketchnotes/articles/2026-03-28-codex-on-windows-native-sandbox-wsl.png)
+![Sketchnote diagram for: Codex on Windows: Native Sandbox, WSL and the Microsoft Store Launch](/sketchnotes/articles/2026-03-28-codex-on-windows-native-sandbox-wsl.png)
 
 # Codex on Windows: Native Sandbox, WSL and the Microsoft Store Launch
 

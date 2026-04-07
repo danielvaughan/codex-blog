@@ -3,7 +3,7 @@ title: "The Codex App-Server: Building Custom Integrations with the JSON-RPC Pro
 date: 2026-03-28
 tags: [codex-cli, app-server, json-rpc, integration, architecture, experimental]
 ---
-![Sketchnote: The Codex App-Server: Building Custom Integrations with the JSON-RPC Protocol](/sketchnotes/articles/2026-03-28-codex-app-server-json-rpc-protocol.png)
+![Sketchnote diagram for: The Codex App-Server: Building Custom Integrations with the JSON-RPC Protocol](/sketchnotes/articles/2026-03-28-codex-app-server-json-rpc-protocol.png)
 
 # The Codex App-Server: Building Custom Integrations with the JSON-RPC Protocol
 

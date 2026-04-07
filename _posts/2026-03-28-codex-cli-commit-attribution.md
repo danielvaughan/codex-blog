@@ -5,7 +5,7 @@ tags: [commit-attribution, git, co-authored-by, config-toml, enterprise, audit-t
 description: "How to configure Codex CLI's commit_attribution key to control how agent work is tagged in git history — from default trailers to custom labels to full opt-out — and why it matters for enterprise audit trails."
 substack_status: draft
 ---
-![Sketchnote: Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution](/sketchnotes/articles/2026-03-28-codex-cli-commit-attribution.png)
+![Sketchnote diagram for: Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution](/sketchnotes/articles/2026-03-28-codex-cli-commit-attribution.png)
 
 # Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution
 

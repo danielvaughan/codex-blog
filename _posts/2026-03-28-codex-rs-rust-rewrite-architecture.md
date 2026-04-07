@@ -5,7 +5,7 @@ tags: [codex-rs, rust-rewrite, architecture, ratatui, wire-protocol, sandboxing,
 description: "A deep dive into the codex-rs Cargo workspace: why OpenAI rewrote Codex CLI from TypeScript to Rust, how the ~70-crate workspace is structured, the JSON-RPC wire protocol, platform-specific sandboxing, and what it means for contributors and embedding teams."
 substack_status: draft
 ---
-![Sketchnote: The codex-rs Architecture: How OpenAI Rewrote Codex CLI in Rust](/sketchnotes/articles/2026-03-28-codex-rs-rust-rewrite-architecture.png)
+![Sketchnote diagram for: The codex-rs Architecture: How OpenAI Rewrote Codex CLI in Rust](/sketchnotes/articles/2026-03-28-codex-rs-rust-rewrite-architecture.png)
 
 # The codex-rs Architecture: How OpenAI Rewrote Codex CLI in Rust
 

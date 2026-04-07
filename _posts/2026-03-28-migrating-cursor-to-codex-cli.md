@@ -2,9 +2,10 @@
 title: "Migrating from Cursor to Codex CLI"
 parent: "Articles"
 nav_order: 80
+tags: [cursor-migration, agents-md, hybrid-workflow, credit-model, tool-comparison]
 ---
 
-![Sketchnote: Migrating from Cursor to Codex CLI](/sketchnotes/articles/2026-03-28-migrating-cursor-to-codex-cli.png)
+![Sketchnote diagram for: Migrating from Cursor to Codex CLI](/sketchnotes/articles/2026-03-28-migrating-cursor-to-codex-cli.png)
 
 
 # Migrating from Cursor to Codex CLI

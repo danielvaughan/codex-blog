@@ -2,6 +2,7 @@
 title: "Codex CLI Session Analytics: Mining the JSONL Rollout Format"
 parent: "Articles"
 nav_order: 103
+tags: [session-analytics, jsonl, rollout-format, ccusage, cost-analysis, observability]
 ---
 
 # Codex CLI Session Analytics: Mining the JSONL Rollout Format

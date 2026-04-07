@@ -1,9 +1,10 @@
 ---
 title: "Codex CLI vs Competing Agentic Tools: Choosing the Right Tool"
 published: 2026-03-26
+tags: [codex-cli, claude-code, github-copilot, cursor, aider, comparison, tooling, agents, decision-framework]
 ---
 
-![Sketchnote: Codex CLI vs Competing Agentic Tools: Choosing the Right Tool](/sketchnotes/articles/2026-03-26-codex-cli-vs-competing-agentic-tools.png)
+![Sketchnote diagram for: Codex CLI vs Competing Agentic Tools: Choosing the Right Tool](/sketchnotes/articles/2026-03-26-codex-cli-vs-competing-agentic-tools.png)
 
 # Codex CLI vs Competing Agentic Tools: Choosing the Right Tool
 

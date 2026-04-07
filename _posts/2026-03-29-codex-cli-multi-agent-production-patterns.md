@@ -2,9 +2,10 @@
 title: "Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies"
 parent: "Articles"
 nav_order: 93
+tags: [multi-agent-v2, path-addressing, production-patterns, case-studies, orchestration, spawn-agents-on-csv, toml-config, otel]
 ---
 
-![Sketchnote: Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies](/sketchnotes/articles/2026-03-29-codex-cli-multi-agent-production-patterns.png)
+![Sketchnote diagram for: Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies](/sketchnotes/articles/2026-03-29-codex-cli-multi-agent-production-patterns.png)
 
 
 # Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies

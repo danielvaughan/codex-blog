@@ -4,7 +4,7 @@ date: 2026-03-26
 tags: agentic-pod, roles, context-architect, value-engineer, quality-engineer, three-person-rule, codex-cli
 ---
 
-![Sketchnote](/sketchnotes/articles/2026-03-26-agentic-pod-roles-and-codex.png)
+![Sketchnote diagram for: The Agentic Engineering Pod: Three Roles, One Shared Context Layer](/sketchnotes/articles/2026-03-26-agentic-pod-roles-and-codex.png)
 
 ---
 

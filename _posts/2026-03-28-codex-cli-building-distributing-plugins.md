@@ -5,7 +5,7 @@ tags: [plugins, plugin-manifest, installed-by-default, plugin-distribution, comm
 description: "A technical guide to building, packaging, and distributing Codex CLI plugins. Covers the plugin.json manifest schema, directory structure, marketplace.json scoping, INSTALLED_BY_DEFAULT enterprise policy, the @plugin-creator scaffolding skill, and private plugin registry patterns."
 substack_status: draft
 ---
-![Sketchnote: Building and Distributing Codex CLI Plugins](/sketchnotes/articles/2026-03-28-codex-cli-building-distributing-plugins.png)
+![Sketchnote diagram for: Building and Distributing Codex CLI Plugins](/sketchnotes/articles/2026-03-28-codex-cli-building-distributing-plugins.png)
 
 # Building and Distributing Codex CLI Plugins
 

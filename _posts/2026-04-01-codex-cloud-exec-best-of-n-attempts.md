@@ -2,6 +2,7 @@
 title: "Codex Cloud Exec Best-of-N: Running Multiple Solution Attempts and Picking the Winner"
 parent: "Articles"
 nav_order: 147
+tags: [codex-cloud, best-of-n, cloud-exec, attempts, diff-review, ci-cd, workflow-automation]
 ---
 
 # Codex Cloud Exec Best-of-N: Running Multiple Solution Attempts and Picking the Winner

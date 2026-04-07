@@ -2,8 +2,9 @@
 title: "The Codex CLI Credit Economy: Maximising Value Per Dollar"
 parent: "Articles"
 nav_order: 86
+tags: [cost-management, token-efficiency, model-routing, credits, break-even-analysis, spark, subscription]
 ---
-![Sketchnote: The Codex CLI Credit Economy: Maximising Value Per Dollar](/sketchnotes/articles/2026-03-28-codex-cli-credit-economy.png)
+![Sketchnote diagram for: The Codex CLI Credit Economy: Maximising Value Per Dollar](/sketchnotes/articles/2026-03-28-codex-cli-credit-economy.png)
 
 # The Codex CLI Credit Economy: Maximising Value Per Dollar
 

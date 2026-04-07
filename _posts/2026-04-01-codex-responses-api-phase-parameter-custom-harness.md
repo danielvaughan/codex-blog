@@ -2,6 +2,7 @@
 title: "Building Custom Harnesses with the Codex Responses API: Phase, Compaction, and Conversation State"
 parent: "Articles"
 nav_order: 146
+tags: [`responses-api`, `phase-parameter`, `compaction`, `custom-harness`, `conversation-state`, `previous-response-id`, `gpt-5.3-codex`, `gpt-5.4`]
 ---
 
 # Building Custom Harnesses with the Codex Responses API: Phase, Compaction, and Conversation State

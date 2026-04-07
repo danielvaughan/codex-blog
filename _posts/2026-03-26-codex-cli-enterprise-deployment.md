@@ -1,9 +1,10 @@
 ---
 title: "Codex CLI Enterprise Deployment: Managed Policies and Team Configuration"
 date: 2026-03-26
+tags: [codex-cli, enterprise, configuration, managed-policies, security, team-config, deployment]
 ---
 
-![Sketchnote: Codex CLI Enterprise Deployment: Managed Policies and Team Configuration](/sketchnotes/articles/2026-03-26-codex-cli-enterprise-deployment.png)
+![Sketchnote diagram for: Codex CLI Enterprise Deployment: Managed Policies and Team Configuration](/sketchnotes/articles/2026-03-26-codex-cli-enterprise-deployment.png)
 
 # Codex CLI Enterprise Deployment: Managed Policies and Team Configuration
 

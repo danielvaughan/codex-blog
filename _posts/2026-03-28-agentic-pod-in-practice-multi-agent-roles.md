@@ -3,7 +3,7 @@ title: "The Agentic Pod in Practice: Running Multiple Agent Roles in Your Team"
 date: 2026-03-28
 tags: [codex-cli, multi-agent, subagents, orchestrator, planner, implementer, reviewer, validator, agentic-pod]
 ---
-![Sketchnote: The Agentic Pod in Practice: Running Multiple Agent Roles in Your Team](/sketchnotes/articles/2026-03-28-agentic-pod-in-practice-multi-agent-roles.png)
+![Sketchnote diagram for: The Agentic Pod in Practice: Running Multiple Agent Roles in Your Team](/sketchnotes/articles/2026-03-28-agentic-pod-in-practice-multi-agent-roles.png)
 
 # The Agentic Pod in Practice: Running Multiple Agent Roles in Your Team
 

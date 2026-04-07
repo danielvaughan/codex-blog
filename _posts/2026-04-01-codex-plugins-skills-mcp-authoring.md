@@ -2,6 +2,7 @@
 title: "Codex Plugins: Skills, MCP Servers, and Building Distributable Agent Workflows"
 parent: "Articles"
 nav_order: 149
+tags: [`plugins`, `skills`, `mcp`, `plugin-json`, `marketplace`, `authoring`, `distribution`, `config-toml`]
 ---
 
 # Codex Plugins: Skills, MCP Servers, and Building Distributable Agent Workflows

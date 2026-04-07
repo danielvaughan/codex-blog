@@ -5,7 +5,7 @@ tags: [codex-spark, gpt-5-3-codex-spark, cerebras, wafer-scale-engine, real-time
 description: "A deep dive into GPT-5.3-Codex-Spark — the first OpenAI model running on Cerebras Wafer Scale Engine 3, delivering 1,000+ tokens/s. Covers what the speed gain costs you, when to route tasks to Spark vs gpt-5.3-codex, and exactly which config.toml keys to remove when making the switch."
 substack_status: draft
 ---
-![Sketchnote: GPT-5.3-Codex-Spark: The Cerebras-Powered Ultra-Fast Coding Model](/sketchnotes/articles/2026-03-28-codex-spark-cerebras-ultrafast-model.png)
+![Sketchnote diagram for: GPT-5.3-Codex-Spark: The Cerebras-Powered Ultra-Fast Coding Model](/sketchnotes/articles/2026-03-28-codex-spark-cerebras-ultrafast-model.png)
 
 # GPT-5.3-Codex-Spark: The Cerebras-Powered Ultra-Fast Coding Model
 

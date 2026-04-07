@@ -2,6 +2,7 @@
 title: "How to Be a Codex CLI Forward Deployed Engineer"
 parent: "Articles"
 nav_order: 159
+tags: [forward-deployed-engineer, fde, enterprise, client-facing, career, prototyping, deployment]
 ---
 
 # How to Be a Codex CLI Forward Deployed Engineer

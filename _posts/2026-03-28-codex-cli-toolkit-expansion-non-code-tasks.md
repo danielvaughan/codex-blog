@@ -3,7 +3,7 @@ title: "Codex CLI Toolkit Expansion: Using Codex for Non-Code Daily Tasks"
 date: 2026-03-28
 tags: [codex-cli, plugins, productivity, non-coding, slack, figma, google-drive, gmail, notion, toolkit]
 ---
-![Sketchnote: Codex CLI Toolkit Expansion: Using Codex for Non-Code Daily Tasks](/sketchnotes/articles/2026-03-28-codex-cli-toolkit-expansion-non-code-tasks.png)
+![Sketchnote diagram for: Codex CLI Toolkit Expansion: Using Codex for Non-Code Daily Tasks](/sketchnotes/articles/2026-03-28-codex-cli-toolkit-expansion-non-code-tasks.png)
 
 # Codex CLI Toolkit Expansion: Using Codex for Non-Code Daily Tasks
 

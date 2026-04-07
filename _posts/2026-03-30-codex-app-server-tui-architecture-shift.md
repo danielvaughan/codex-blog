@@ -2,6 +2,7 @@
 title: "Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions"
 parent: "Articles"
 nav_order: 122
+tags: [app-server, tui, v0.117.0, json-rpc, remote-sessions, architecture, websocket]
 ---
 
 # Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions

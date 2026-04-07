@@ -2,6 +2,7 @@
 title: "Sourcegraph Amp: The Multi-Repo AI Orchestrator Codex CLI Doesn't Compete With (Yet)"
 parent: "Articles"
 nav_order: 160
+tags: [sourcegraph, amp, multi-repo, orchestration, threads, sub-agents, enterprise, code-search]
 ---
 
 # Sourcegraph Amp: The Multi-Repo AI Orchestrator Codex CLI Doesn't Compete With (Yet)

@@ -3,7 +3,7 @@ title: "Codex CLI Web Search Integration and Knowledge-Augmented Agents"
 date: 2026-03-26
 tags: [web-search, mcp, knowledge, config, research, context7]
 ---
-![Sketchnote: Codex CLI Web Search Integration and Knowledge-Augmented Agents](/sketchnotes/articles/2026-03-26-codex-cli-web-search-knowledge-agents.png)
+![Sketchnote diagram for: Codex CLI Web Search Integration and Knowledge-Augmented Agents](/sketchnotes/articles/2026-03-26-codex-cli-web-search-knowledge-agents.png)
 
 # Codex CLI Web Search Integration and Knowledge-Augmented Agents
 

@@ -2,6 +2,7 @@
 title: "Codex CLI on Windows: Native Sandbox, WSL Integration, and the Elevated Security Model"
 parent: "Articles"
 nav_order: 143
+tags: [windows, wsl, sandbox, elevated-sandbox, appcontainer, security, installation, config-toml]
 ---
 
 # Codex CLI on Windows: Native Sandbox, WSL Integration, and the Elevated Security Model

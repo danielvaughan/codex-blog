@@ -1,8 +1,9 @@
 ---
 title: "The AGENTS.md Bloat Problem: When More Context Makes Agents Worse"
 date: 2026-03-27
+tags: [codex-cli, agents-md, context-management, performance, best-practices, anti-patterns]
 ---
-![Sketchnote: The AGENTS.md Bloat Problem: When More Context Makes Agents Worse](/sketchnotes/articles/2026-03-27-agents-md-bloat-problem.png)
+![Sketchnote diagram for: The AGENTS.md Bloat Problem: When More Context Makes Agents Worse](/sketchnotes/articles/2026-03-27-agents-md-bloat-problem.png)
 
 # The AGENTS.md Bloat Problem: When More Context Makes Agents Worse
 

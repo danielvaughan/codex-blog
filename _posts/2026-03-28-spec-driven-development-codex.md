@@ -4,7 +4,7 @@ date: 2026-03-28
 tags: [codex-cli, spec-driven-development, planning, agents-md, best-practices, workflow]
 ---
 
-![Sketchnote: Spec-Driven Development with Codex: Writing Specifications Before Code](/sketchnotes/articles/2026-03-28-spec-driven-development-codex.png)
+![Sketchnote diagram for: Spec-Driven Development with Codex: Writing Specifications Before Code](/sketchnotes/articles/2026-03-28-spec-driven-development-codex.png)
 
 
 # Spec-Driven Development with Codex: Writing Specifications Before Code

@@ -2,6 +2,7 @@
 title: "Codex CLI for Infrastructure as Code: Terraform, Pulumi and Ansible Automation"
 parent: "Articles"
 nav_order: 100
+tags: [terraform, pulumi, ansible, iac, infrastructure-as-code, subagents, agents-md, security, ci-cd]
 ---
 
 # Codex CLI for Infrastructure as Code: Terraform, Pulumi and Ansible Automation

@@ -2,6 +2,7 @@
 title: "Codex CLI Profiles: Advanced Configuration Switching for Multi-Workflow Development"
 parent: "Articles"
 nav_order: 128
+tags: [profiles, config-toml, feature-flags, configuration, multi-workflow, reasoning-effort, experimental]
 ---
 
 # Codex CLI Profiles: Advanced Configuration Switching for Multi-Workflow Development

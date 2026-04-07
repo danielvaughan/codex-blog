@@ -1,7 +1,8 @@
 ---
 title: "Security Hardening Your Codex CLI Setup"
+tags: [codex-cli, security, secrets, sandbox, audit, enterprise, regulated-environments]
 ---
-![Sketchnote: Security Hardening Your Codex CLI Setup](/sketchnotes/articles/2026-03-27-security-hardening-codex-cli.png)
+![Sketchnote diagram for: Security Hardening Your Codex CLI Setup](/sketchnotes/articles/2026-03-27-security-hardening-codex-cli.png)
 
 # Security Hardening Your Codex CLI Setup
 

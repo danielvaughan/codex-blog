@@ -2,9 +2,10 @@
 title: "GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions"
 parent: "Articles"
 nav_order: 92
+tags: [gpt-5-1-codex-max, compaction, long-horizon, xhigh-reasoning, swe-lancer, agentic-pod]
 ---
 
-![Sketchnote: GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions](/sketchnotes/articles/2026-03-29-codex-max-long-horizon-tasks.png)
+![Sketchnote diagram for: GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions](/sketchnotes/articles/2026-03-29-codex-max-long-horizon-tasks.png)
 
 
 # GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions

@@ -1,8 +1,9 @@
 ---
 title: "The Codex CLI Skills Ecosystem: agentskills.io and Community Skills"
 date: 2026-03-27
+tags: [codex-cli, skills, agentskills, agent-skills, skill-md, skills-sh, ecosystem, community, cross-platform]
 ---
-![Sketchnote: The Codex CLI Skills Ecosystem: agentskills.io and Community Skills](/sketchnotes/articles/2026-03-27-codex-cli-skills-ecosystem.png)
+![Sketchnote diagram for: The Codex CLI Skills Ecosystem: agentskills.io and Community Skills](/sketchnotes/articles/2026-03-27-codex-cli-skills-ecosystem.png)
 
 # The Codex CLI Skills Ecosystem: agentskills.io and Community Skills
 

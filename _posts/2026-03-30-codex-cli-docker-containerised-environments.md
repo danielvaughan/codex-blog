@@ -2,6 +2,7 @@
 title: "Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal"
 parent: "Articles"
 nav_order: 101
+tags: [docker, codex-universal, sandboxing, containerisation, cloud-environments, danger-full-access, setup-scripts]
 ---
 
 # Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal

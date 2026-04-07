@@ -4,7 +4,7 @@ date: 2026-03-27
 tags: [symphony, orchestration, advanced, harness-engineering]
 excerpt: "Symphony's dual-purpose config+prompt file pattern: YAML front matter defines runtime orchestration settings, Markdown body becomes the Jinja prompt template. Agent policy as a versioned repo artifact."
 ---
-![Sketchnote: WORKFLOW.md: Version-Controlling Your Agent's Behaviour](/sketchnotes/articles/2026-03-27-workflow-md-version-controlling-agent-behaviour.png)
+![Sketchnote diagram for: WORKFLOW.md: Version-Controlling Your Agent's Behaviour](/sketchnotes/articles/2026-03-27-workflow-md-version-controlling-agent-behaviour.png)
 
 *Published 2026-03-27. Sources: [openai/symphony SPEC.md](https://github.com/openai/symphony/blob/main/SPEC.md), [Harness Engineering (OpenAI Blog)](https://openai.com/index/harness-engineering/), [Ry Walker Research on Symphony](https://rywalker.com/research/symphony)*
 

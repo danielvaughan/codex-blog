@@ -3,7 +3,7 @@ title: "Background Terminal: Running Dev Servers Alongside Codex"
 date: 2026-03-28
 tags: [codex-cli, experimental, background-terminal, dev-server, parallel-workflows]
 ---
-![Sketchnote: Background Terminal: Running Dev Servers Alongside Codex](/sketchnotes/articles/2026-03-28-codex-background-terminal-dev-server-workflows.png)
+![Sketchnote diagram for: Background Terminal: Running Dev Servers Alongside Codex](/sketchnotes/articles/2026-03-28-codex-background-terminal-dev-server-workflows.png)
 
 *The Background Terminal is one of those features that sounds minor but fundamentally changes how you work with Codex. Here's what it actually does and why it matters.*
 

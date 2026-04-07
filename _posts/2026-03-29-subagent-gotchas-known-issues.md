@@ -2,9 +2,10 @@
 title: "Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)"
 parent: "Articles"
 nav_order: 88
+tags: [subagents, multi-agent, debugging, known-issues, workarounds, spawn-agent, toml]
 ---
 
-![Sketchnote: Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)](/sketchnotes/articles/2026-03-29-subagent-gotchas-known-issues.png)
+![Sketchnote diagram for: Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)](/sketchnotes/articles/2026-03-29-subagent-gotchas-known-issues.png)
 
 
 # Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)

@@ -2,6 +2,7 @@
 title: "Codex CLI Competitive Position April 2026: The Road to Parity with Claude Code"
 parent: "Articles"
 nav_order: 156
+tags: [competitive-analysis, claude-code, cursor, market-position, adoption, strengths-weaknesses, trajectory]
 ---
 
 # Codex CLI Competitive Position April 2026: The Road to Parity with Claude Code

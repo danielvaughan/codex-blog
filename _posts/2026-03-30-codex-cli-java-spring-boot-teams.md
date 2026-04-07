@@ -2,6 +2,7 @@
 title: "Codex CLI for Java and Spring Boot Teams: AGENTS.md, Maven Sandboxing, and Gradle Workflows"
 parent: "Articles"
 nav_order: 127
+tags: [java, spring-boot, maven, gradle, agents-md, sandbox, testcontainers, ci-cd]
 ---
 
 # Codex CLI for Java and Spring Boot Teams: AGENTS.md, Maven Sandboxing, and Gradle Workflows

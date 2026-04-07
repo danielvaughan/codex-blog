@@ -2,6 +2,7 @@
 title: "Codex App Theming and Customisation: codex-theme-v1, Partner Themes, and the CLI /theme Command"
 parent: "Articles"
 nav_order: 126
+tags: [theming, appearance, codex-theme-v1, tui-theme, tmTheme, customisation, fonts, partner-themes, config-toml]
 ---
 
 # Codex App Theming and Customisation: codex-theme-v1, Partner Themes, and the CLI /theme Command

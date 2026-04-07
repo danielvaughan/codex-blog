@@ -2,6 +2,7 @@
 title: "Codex CLI Python SDK and v2 App-Server Filesystem RPCs"
 parent: "Articles"
 nav_order: 129
+tags: [python-sdk, app-server, json-rpc, filesystem-rpc, websocket, openai-codex-sdk, automation, programmatic-access]
 ---
 
 # Codex CLI Python SDK and v2 App-Server Filesystem RPCs

@@ -5,7 +5,7 @@ tags: [features-table, unified-exec, undo-command, tui-theme, shell-snapshot, co
 description: "A complete guide to Codex CLI's [features] table and [tui] configuration section — covering unified_exec, shell_snapshot, the /undo command, theme customisation, and profile-scoped overrides."
 substack_status: draft
 ---
-![Sketchnote: Codex CLI Feature Flags and TUI Tuning: The Hidden Configuration Layer](/sketchnotes/articles/2026-03-28-codex-cli-feature-flags-tui-tuning.png)
+![Sketchnote diagram for: Codex CLI Feature Flags and TUI Tuning: The Hidden Configuration Layer](/sketchnotes/articles/2026-03-28-codex-cli-feature-flags-tui-tuning.png)
 
 # Codex CLI Feature Flags and TUI Tuning: The Hidden Configuration Layer
 

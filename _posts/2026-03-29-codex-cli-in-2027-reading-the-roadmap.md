@@ -2,9 +2,10 @@
 title: "Codex CLI in 2027: Reading the Roadmap"
 parent: "Articles"
 nav_order: 98
+tags: [roadmap-2027, codex-jobs, cloud-scheduling, model-progression, codex-rs, plugin-ecosystem, forward-looking]
 ---
 
-![Sketchnote: Codex CLI in 2027: Reading the Roadmap](/sketchnotes/articles/2026-03-29-codex-cli-in-2027-reading-the-roadmap.png)
+![Sketchnote diagram for: Codex CLI in 2027: Reading the Roadmap](/sketchnotes/articles/2026-03-29-codex-cli-in-2027-reading-the-roadmap.png)
 
 
 # Codex CLI in 2027: Reading the Roadmap

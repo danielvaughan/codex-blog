@@ -2,6 +2,7 @@
 title: "Codex CLI as a Unix Pipeline Citizen: stdin, JSONL Streams, and Structured Output"
 parent: "Articles"
 nav_order: 148
+tags: [codex-exec, unix-pipeline, stdin, structured-output, jsonl, output-schema, automation, scripting]
 ---
 
 # Codex CLI as a Unix Pipeline Citizen: stdin, JSONL Streams, and Structured Output

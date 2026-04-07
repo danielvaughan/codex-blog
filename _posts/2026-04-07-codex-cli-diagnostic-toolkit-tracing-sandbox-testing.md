@@ -2,6 +2,7 @@
 title: "Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands"
 parent: "Articles"
 nav_order: 153
+tags: [diagnostics, tracing, sandbox-testing, debug-config, RUST_LOG, execpolicy, troubleshooting]
 ---
 
 # Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands

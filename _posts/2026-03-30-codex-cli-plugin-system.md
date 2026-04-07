@@ -2,6 +2,7 @@
 title: "Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors"
 parent: "Articles"
 nav_order: 118
+tags: [plugins, plugin-system, skills, mcp-servers, app-connectors, marketplace, config-toml, v0.117.0]
 ---
 
 # Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors

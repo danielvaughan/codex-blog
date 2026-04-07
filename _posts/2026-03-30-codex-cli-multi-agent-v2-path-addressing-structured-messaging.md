@@ -2,6 +2,7 @@
 title: "Codex CLI Multi-Agent v2: Path-Based Addressing, Structured Messaging, and the v4 Agent API"
 parent: "Articles"
 nav_order: 124
+tags: [multi-agent, multi-agent-v2, path-addressing, spawn-agent, fork-context, assign-task, list-agents, send-message, spawn-agents-on-csv, fanout, config-toml, subagents, v0.117.0]
 ---
 
 # Codex CLI Multi-Agent v2: Path-Based Addressing, Structured Messaging, and the v4 Agent API

@@ -2,6 +2,7 @@
 title: "Codex CLI Network Security: requirements.toml Enforcement, Landlock, and Air-Gapped Deployments"
 parent: "Articles"
 nav_order: 135
+tags: [network-security, requirements-toml, domain-allowlist, landlock, air-gapped, azure, enterprise, config-toml, sandbox, audit-logging]
 ---
 
 # Codex CLI Network Security: requirements.toml Enforcement, Landlock, and Air-Gapped Deployments

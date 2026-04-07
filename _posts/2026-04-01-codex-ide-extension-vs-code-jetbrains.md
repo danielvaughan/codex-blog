@@ -2,6 +2,7 @@
 title: "The Codex IDE Extension: VS Code, JetBrains, and the Hybrid Cloud-Local Workflow"
 parent: "Articles"
 nav_order: 144
+tags: [`ide-extension`, `vs-code`, `jetbrains`, `cloud-delegation`, `config-toml`, `agent-modes`, `hybrid-workflow`]
 ---
 
 # The Codex IDE Extension: VS Code, JetBrains, and the Hybrid Cloud-Local Workflow

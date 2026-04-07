@@ -2,6 +2,7 @@
 title: "Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension"
 parent: "Articles"
 nav_order: 123
+tags: [code-review, /review, review_model, config-toml, profiles, codex-mcp-code-review, deep-review, uncommitted-changes, ci-cd, slash-commands]
 ---
 
 # Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension

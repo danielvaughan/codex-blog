@@ -4,7 +4,7 @@ date: 2026-03-28
 tags: [multi-agent, code-review, adversarial, cross-model, quality-gates]
 ---
 
-![Sketchnote: Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots](/sketchnotes/articles/2026-03-28-cross-model-adversarial-review.png)
+![Sketchnote diagram for: Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots](/sketchnotes/articles/2026-03-28-cross-model-adversarial-review.png)
 
 
 *Published: 2026-03-28*

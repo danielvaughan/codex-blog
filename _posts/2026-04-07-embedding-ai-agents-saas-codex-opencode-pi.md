@@ -2,6 +2,7 @@
 title: "Embedding AI Agents in SaaS: Codex CLI vs OpenCode vs Pi for Multi-Tenant Harnesses"
 parent: "Articles"
 nav_order: 159
+tags: [saas-embedding, multi-tenant, opencode, pi, openclaw, harness, air-gap, sdk, session-management]
 ---
 
 # Embedding AI Agents in SaaS: Codex CLI vs OpenCode vs Pi for Multi-Tenant Harnesses

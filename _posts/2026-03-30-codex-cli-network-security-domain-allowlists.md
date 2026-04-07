@@ -2,6 +2,7 @@
 title: "Securing Codex CLI: Domain Allowlists, Bearer Tokens, and Network Policy Enforcement"
 parent: "Articles"
 nav_order: 119
+tags: [network-security, domain-allowlist, bearer-token, socks5, sandbox, managed-proxy, approvals, enterprise]
 ---
 
 # Securing Codex CLI: Domain Allowlists, Bearer Tokens, and Network Policy Enforcement

@@ -3,7 +3,7 @@ title: "Model Selection in Codex CLI: Current Models and When to Use Each"
 published: 2026-03-26
 ---
 
-![Sketchnote](/sketchnotes/articles/2026-03-26-codex-cli-model-selection.png)
+![Sketchnote diagram for: Model Selection in Codex CLI: Current Models and When to Use Each](/sketchnotes/articles/2026-03-26-codex-cli-model-selection.png)
 
 # Model Selection in Codex CLI: Current Models and When to Use Each
 

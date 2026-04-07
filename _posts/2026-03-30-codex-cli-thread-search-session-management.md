@@ -2,6 +2,7 @@
 title: "Codex CLI Thread Search and Session Management: Finding, Archiving and Replaying Work"
 parent: "Articles"
 nav_order: 106
+tags: [thread-search, session-management, archive, ephemeral, cross-session, productivity, jsonl, sqlite]
 ---
 
 # Codex CLI Thread Search and Session Management: Finding, Archiving and Replaying Work

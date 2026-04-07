@@ -2,6 +2,7 @@
 title: "Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts"
 parent: "Articles"
 nav_order: 107
+tags: [hooks, hooks-engine, lifecycle-events, security-gates, audit-logging, PreToolUse, PostToolUse, SessionStart]
 ---
 
 # Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts

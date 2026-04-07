@@ -1,7 +1,8 @@
 ---
 title: "Codex CLI vs Claude Code — Community Opinions & Comparison (2026)"
+tags: [comparison, claude-code, community, reddit, benchmarks, usage-limits, workflow]
 ---
-![Sketchnote: Codex CLI vs Claude Code — Community Opinions & Comparison (2026)](/sketchnotes/articles/2026-03-26-codex-vs-claude-code-community-opinions.png)
+![Sketchnote diagram for: Codex CLI vs Claude Code — Community Opinions & Comparison (2026)](/sketchnotes/articles/2026-03-26-codex-vs-claude-code-community-opinions.png)
 **Source:** https://www.reddit.com/r/codex/comments/1rzp24f/is_it_just_me_or_is_claude_pretty_disappointing/
 **Additional sources:**
 

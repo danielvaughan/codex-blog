@@ -3,7 +3,7 @@ title: "Codex Sub-Agent Path Addressing: The Multi-Agent v2 Architecture"
 date: 2026-03-28
 tags: [codex-cli, multi-agent, subagents, architecture, orchestration, v0.117.0]
 ---
-![Sketchnote: Codex Sub-Agent Path Addressing: The Multi-Agent v2 Architecture](/sketchnotes/articles/2026-03-28-codex-subagent-path-addressing-multi-agent-v2.png)
+![Sketchnote diagram for: Codex Sub-Agent Path Addressing: The Multi-Agent v2 Architecture](/sketchnotes/articles/2026-03-28-codex-subagent-path-addressing-multi-agent-v2.png)
 
 # Codex Sub-Agent Path Addressing: The Multi-Agent v2 Architecture
 

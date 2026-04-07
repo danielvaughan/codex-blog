@@ -3,7 +3,7 @@ title: "Codex App-Server Remote Deployment: WebSocket Transport, Bearer Auth and
 date: 2026-03-28
 tags: [app-server, websocket, bearer-token, remote-deployment, health-checks, json-rpc, production]
 ---
-![Sketchnote: Codex App-Server Remote Deployment: WebSocket Transport, Bearer Auth and Health Checks](/sketchnotes/articles/2026-03-28-codex-app-server-remote-deployment.png)
+![Sketchnote diagram for: Codex App-Server Remote Deployment: WebSocket Transport, Bearer Auth and Health Checks](/sketchnotes/articles/2026-03-28-codex-app-server-remote-deployment.png)
 
 *Published: 2026-03-28 · Sources: Codex app-server README, OpenAI Developer Docs, InfoQ — all verified current as of v0.117.0 (March 2026)*
 

@@ -4,7 +4,7 @@ date: 2026-03-28
 tags: [debugging, troubleshooting, api-errors, context-rot, compaction, agent-failures]
 ---
 
-![Sketchnote: Debugging Codex Agent Failures: A Systematic Troubleshooting Guide](/sketchnotes/articles/2026-03-28-debugging-codex-agent-failures.png)
+![Sketchnote diagram for: Debugging Codex Agent Failures: A Systematic Troubleshooting Guide](/sketchnotes/articles/2026-03-28-debugging-codex-agent-failures.png)
 
 
 # Debugging Codex Agent Failures: A Systematic Troubleshooting Guide

@@ -1,8 +1,9 @@
 ---
 title: "Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based"
 date: 2026-03-27
+tags: [codex-cli, subagents, multi-agent, orchestration, parallel, sequential, wave, agentic]
 ---
-![Sketchnote: Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based](/sketchnotes/articles/2026-03-27-multi-agent-orchestration-patterns.png)
+![Sketchnote diagram for: Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based](/sketchnotes/articles/2026-03-27-multi-agent-orchestration-patterns.png)
 
 # Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based
 

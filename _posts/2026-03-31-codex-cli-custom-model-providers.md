@@ -2,6 +2,7 @@
 title: "Codex CLI Custom Model Providers: Azure, Vercel, Local LLMs and Dynamic Bearer Tokens"
 parent: "Articles"
 nav_order: 131
+tags: [model-providers, azure, vercel, custom-provider, bearer-token, enterprise, config-toml, authentication, dynamic-refresh]
 ---
 
 # Codex CLI Custom Model Providers: Azure, Vercel, Local LLMs and Dynamic Bearer Tokens

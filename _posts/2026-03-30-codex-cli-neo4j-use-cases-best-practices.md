@@ -2,6 +2,7 @@
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
 parent: "Articles"
 nav_order: 116
+tags: [neo4j, graph-database, knowledge-graph, rag, agentic-workflows, cloud-run, auradb]
 ---
 
 # Codex CLI and Neo4j: Use Cases and Best Practices
