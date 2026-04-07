@@ -5,6 +5,8 @@ nav_order: 155
 tags: [cross-model-review, review-loop, automation, skill-md, stop-hook, multi-ai-pipeline, quality-gate, agentic-pod, codex-plugin-cc]
 ---
 
+![Sketchnote diagram for: Automating the Cross-Model Review Loop: Three Levels from SKILL.md to Multi-AI Pipeline](/sketchnotes/articles/2026-04-07-cross-model-review-loop-automation.png)
+
 # Automating the Cross-Model Review Loop: Three Levels from SKILL.md to Multi-AI Pipeline
 
 
