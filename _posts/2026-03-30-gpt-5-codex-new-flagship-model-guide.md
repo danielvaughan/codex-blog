@@ -1,6 +1,6 @@
 ---
 title: "gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 115
 ---

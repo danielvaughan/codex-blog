@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 130
 ---

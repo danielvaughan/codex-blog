@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Python SDK and v2 App-Server Filesystem RPCs"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 129
 ---

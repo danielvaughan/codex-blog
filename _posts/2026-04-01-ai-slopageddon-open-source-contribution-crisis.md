@@ -1,6 +1,6 @@
 ---
 title: "AI Slopageddon and the Open-Source Contribution Crisis: How Codex CLI's Invitation-Only Model Signals a New Era"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 151
 ---

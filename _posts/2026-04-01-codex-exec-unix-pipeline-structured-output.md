@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI as a Unix Pipeline Citizen: stdin, JSONL Streams, and Structured Output"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 148
 ---
