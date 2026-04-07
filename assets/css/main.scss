@@ -140,10 +140,23 @@ $dv-font-headings: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "
 // Matches danielvaughan.com's footer exactly: <footer class="py-5 border-top">
 // with a 720px container, system font, 16px / 24px line-height, left-aligned,
 // body text colour. Border colour matches the main site's #eceeef.
-//
-// Note: minimal-mistakes' `air` skin paints the outer .page__footer wrapper
-// teal (#0092ca). We give .dv-footer an explicit white background so the
-// teal never bleeds through if there's any padding mismatch.
+
+// minimal-mistakes' `air` skin paints the outer .page__footer wrapper TEAL
+// (#0092ca) and gives it horizontal padding, which makes our white footer
+// look like a card floating in a teal sea. Override the wrapper directly so
+// the entire footer band is one clean white stripe.
+.page__footer {
+  background: #ffffff !important;
+  padding: 0 !important;
+  margin-top: 0 !important;
+  color: inherit !important;
+  float: none !important;
+  width: 100% !important;
+}
+.page__footer-copyright,
+.page__footer-follow {
+  display: none !important;  // hide MM's default footer scaffolding
+}
 
 .dv-footer {
   border-top: 1px solid #eceeef;
@@ -262,18 +275,34 @@ $dv-font-headings: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "
 // the values are predictable: 17px body, 32px page title, 24px body h2,
 // content width capped at 760px (~70 chars per line).
 
-// Reading column on the post page. The author profile sidebar is hidden
-// (config: author_profile: false), so the article uses minimal-mistakes'
-// 9-column layout. The TOC sidebar still occupies ~3 columns on the right,
-// so the content max-width must stay narrower than the article container
-// to avoid overlap. 760px gives ~70 chars per line at 17px body text.
+// Reclaim the article column. minimal-mistakes' default `single` layout
+// floats `article.page` to the right and reserves a left margin for the
+// author profile sidebar. With `author_profile: false`, that left margin
+// becomes wasted whitespace. Override the float so the article uses the
+// full main width.
+.layout--single .page,
+.layout--single article.page {
+  float: none;
+  width: 100%;
+  clear: both;
+  padding-right: 0;
+}
+
+// The TOC sidebar still floats inside the article. Give it a fixed
+// right-side position so it doesn't fight with the content column.
+.layout--single .sidebar__right {
+  margin-left: auto;
+}
+
+// Reading column on the post page — wider now that the article uses the
+// full main width. 880px = ~80 chars/line at 17px, comfortable upper bound.
 .layout--single .page__content,
 .layout--single .page__title,
 .layout--single .page__meta,
 .layout--single .page__taxonomy,
 .layout--single .page__share,
 .layout--single .page__related {
-  max-width: 760px;
+  max-width: 880px;
 }
 
 // Body paragraphs and list items
