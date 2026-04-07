@@ -4,16 +4,17 @@
 
 @charset "utf-8";
 
-// Pull in the main site's full SCSS pipeline via the _main-site submodule.
-// These five imports are the EXACT five lines danielvaughan.github.io
-// uses in its own assets/main.scss — codex-blog inherits everything for
-// free: colours, Montserrat headings, .profile-nav, .content-section,
-// .book-card, .connect-btn, the entire visual language.
-@import "main-site/variables";
-@import "main-site/bootstrap/bootstrap";
-@import "main-site/syntax-highlighting";
-@import "main-site/bootstrap-4-jekyll/bootstrap-4-jekyll";
-@import "main-site/bootstrap_customization";
+// Pull in the main site's full SCSS pipeline. The _main-site/_sass
+// directory is added to sass.load_paths in _config.yml, so these are
+// the EXACT five imports danielvaughan.github.io uses in its own
+// assets/main.scss. codex-blog inherits everything for free: colours,
+// Montserrat headings, .profile-nav, .content-section, .book-card,
+// .connect-btn, the entire visual language.
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "syntax-highlighting";
+@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
+@import "bootstrap_customization";
 
 // codex-blog overrides on top of the main site's stack
 @import "codex-blog";

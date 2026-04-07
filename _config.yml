@@ -26,10 +26,14 @@ plugins:
   - jekyll-paginate
   - jekyll-include-cache
 
-# SCSS load paths so @import "main-site/..." resolves via the symlink
+# SCSS load paths. _main-site/_sass is inside the site source root (the
+# submodule lives at _main-site/), so safe-mode jekyll on GitHub Pages
+# accepts it. Imports resolve in order: codex-blog's own _sass/ first,
+# then the submodule's _sass/ for shared main-site styles.
 sass:
   load_paths:
     - _sass
+    - _main-site/_sass
 
 # Author
 author:

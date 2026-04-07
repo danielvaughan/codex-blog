@@ -1,18 +1,11 @@
 source "https://rubygems.org"
 
-# Use plain Jekyll for local dev (github-pages forces safe:true which blocks
-# symlinked _includes — the submodule symlinks work fine on GitHub Pages itself).
-gem "jekyll", "~> 3.10"
+# GitHub Pages — pinned gem set used by github.io builds. Locks Jekyll
+# version + plugin set and runs in safe mode (which is what production
+# GitHub Pages uses). We are safe-mode-compatible: no symlinks anywhere
+# in the source tree, sass load_paths only point to subdirectories within
+# the site source root.
+gem "github-pages", group: :jekyll_plugins
 
 # Required for `bundle exec jekyll serve` on Ruby 3+
 gem "webrick"
-
-# Plugins explicitly used in _config.yml
-group :jekyll_plugins do
-  gem "jekyll-seo-tag"
-  gem "jekyll-sitemap"
-  gem "jekyll-feed"
-  gem "jekyll-paginate"
-  gem "jekyll-include-cache"
-  gem "kramdown-parser-gfm"
-end
