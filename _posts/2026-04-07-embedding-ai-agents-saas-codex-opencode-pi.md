@@ -1,6 +1,5 @@
 ---
 title: "Embedding AI Agents in SaaS: Codex CLI vs OpenCode vs Pi for Multi-Tenant Harnesses"
-layout: single
 parent: "Articles"
 nav_order: 159
 ---
