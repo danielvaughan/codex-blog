@@ -5,6 +5,8 @@ nav_order: 103
 tags: [session-analytics, jsonl, rollout-format, ccusage, cost-analysis, observability]
 ---
 
+![Sketchnote diagram for: Codex CLI Session Analytics: Mining the JSONL Rollout Format](/sketchnotes/articles/2026-03-30-codex-cli-session-analytics-jsonl-rollout.png)
+
 # Codex CLI Session Analytics: Mining the JSONL Rollout Format
 
 

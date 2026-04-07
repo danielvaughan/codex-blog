@@ -5,6 +5,8 @@ nav_order: 120
 tags: [codex-cli, python, sdk, programmatic, async, streaming, app-server, automation]
 ---
 
+![Sketchnote diagram for: The Codex Python SDK: Embedding Agents in Python Applications](/sketchnotes/articles/2026-03-30-codex-python-sdk-embedding-agents.png)
+
 # The Codex Python SDK: Embedding Agents in Python Applications
 
 

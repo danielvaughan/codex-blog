@@ -5,6 +5,8 @@ nav_order: 118
 tags: [plugins, plugin-system, skills, mcp-servers, app-connectors, marketplace, config-toml, v0.117.0]
 ---
 
+![Sketchnote diagram for: Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors](/sketchnotes/articles/2026-03-30-codex-cli-plugin-system.png)
+
 # Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors
 
 

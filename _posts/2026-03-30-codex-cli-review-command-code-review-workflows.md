@@ -5,6 +5,8 @@ nav_order: 123
 tags: [code-review, /review, review_model, config-toml, profiles, codex-mcp-code-review, deep-review, uncommitted-changes, ci-cd, slash-commands]
 ---
 
+![Sketchnote diagram for: Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension](/sketchnotes/articles/2026-03-30-codex-cli-review-command-code-review-workflows.png)
+
 # Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension
 
 
