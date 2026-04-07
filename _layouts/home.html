@@ -1,20 +1,28 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  Visually-hidden h1 for screen readers and SEO. The intro band's h2 is the
+  visible primary heading; an h1 is required for proper document outline.
+{%- endcomment -%}
+<h1 class="sr-only">{{ page.title | default: site.title }}</h1>
+
+{%- if paginator.page == 1 -%}
 <section class="content-section bg-alt">
   <div class="container">
     <h2>About this blog</h2>
     <p>Notes on agentic software engineering, Codex CLI, and how AI is changing the way we build software. Published as I write them.</p>
   </div>
 </section>
+{%- endif -%}
 
 <section class="content-section bg-white">
   <div class="container">
     {%- for post in paginator.posts -%}
     <article class="book-card post-card">
-      <div class="book-title">
+      <h2 class="book-title">
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </div>
+      </h2>
       <div class="book-meta">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
       </div>

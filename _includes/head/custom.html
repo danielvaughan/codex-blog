@@ -3,8 +3,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
 <script>
-  // Inline TOC builder — populates nav.post-toc from .post-body h2 elements
   document.addEventListener('DOMContentLoaded', function () {
+    // 1) Hide body h1 that duplicates the page title.
+    //    Many source articles begin with a markdown `# Title` line which
+    //    becomes a second h1 inside .post-body, identical to the chrome's
+    //    page title h1. We hide it to keep one logical h1 per page.
+    var pageTitle = document.querySelector('.post-title');
+    if (pageTitle) {
+      var pageTitleText = pageTitle.textContent.trim();
+      document.querySelectorAll('.post-body h1').forEach(function (h) {
+        if (h.textContent.trim() === pageTitleText) {
+          h.style.display = 'none';
+        }
+      });
+    }
+
+    // 2) Inline TOC builder — populates nav.post-toc from .post-body h2 elements.
     var nav = document.querySelector('nav.post-toc');
     if (!nav) return;
     var ul = nav.querySelector('ul');
