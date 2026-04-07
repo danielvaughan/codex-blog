@@ -4,6 +4,9 @@ date: 2026-03-28
 tags: [github-agentic-workflows, github-actions, intent-driven, repository-automation, codex-integration]
 ---
 
+![Sketchnote: GitHub Agentic Workflows: Intent-Driven Repository Automation with Codex](/sketchnotes/articles/2026-03-28-github-agentic-workflows-codex-integration.png)
+
+
 # GitHub Agentic Workflows: Intent-Driven Repository Automation with Codex
 
 GitHub shipped **GitHub Agentic Workflows** in technical preview on February 13, 2026 — an open-source GitHub Next project that fundamentally changes how repository automation is authored. Instead of writing YAML pipelines, you describe what you want in plain Markdown, and a coding agent (Codex, Claude Code, or GitHub Copilot) figures out how to do it.

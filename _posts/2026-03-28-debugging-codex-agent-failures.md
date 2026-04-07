@@ -4,6 +4,9 @@ date: 2026-03-28
 tags: [debugging, troubleshooting, api-errors, context-rot, compaction, agent-failures]
 ---
 
+![Sketchnote: Debugging Codex Agent Failures: A Systematic Troubleshooting Guide](/sketchnotes/articles/2026-03-28-debugging-codex-agent-failures.png)
+
+
 # Debugging Codex Agent Failures: A Systematic Troubleshooting Guide
 
 Codex CLI agent failures cluster into a small number of recognisable patterns. Most failures are not random — they have consistent causes and systematic fixes. This guide covers the most common failure modes observed across community reports, with decision trees and preventive configuration patterns for each.

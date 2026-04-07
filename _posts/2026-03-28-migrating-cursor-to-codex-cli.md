@@ -4,6 +4,9 @@ parent: "Articles"
 nav_order: 80
 ---
 
+![Sketchnote: Migrating from Cursor to Codex CLI](/sketchnotes/articles/2026-03-28-migrating-cursor-to-codex-cli.png)
+
+
 # Migrating from Cursor to Codex CLI
 
 

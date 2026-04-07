@@ -5,6 +5,9 @@ tags: [evals, evaluation, long-horizon, LongCLI-Bench, codex-exec, testing]
 description: "How to evaluate whether your Codex agent actually did the right thing — from quick skill evals to 25-hour autonomous runs."
 ---
 
+![Sketchnote: Evaluating Codex Agents: Evals, Long-Horizon Benchmarks, and the 4-File Pattern](/sketchnotes/articles/2026-03-28-evaluating-codex-agents-evals-longhorizon.png)
+
+
 *Research compiled 2026-03-28. Sources: [OpenAI eval-skills guide](https://developers.openai.com/blog/eval-skills), [Run long horizon tasks with Codex](https://developers.openai.com/blog/run-long-horizon-tasks-with-codex) (Feb 23, 2026), [LongCLI-Bench](https://arxiv.org/abs/2602.14337) (Feb 2026).*
 
 ---
