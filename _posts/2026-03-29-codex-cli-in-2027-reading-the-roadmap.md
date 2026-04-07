@@ -4,6 +4,9 @@ parent: "Articles"
 nav_order: 98
 ---
 
+![Sketchnote: Codex CLI in 2027: Reading the Roadmap](/sketchnotes/articles/2026-03-29-codex-cli-in-2027-reading-the-roadmap.png)
+
+
 # Codex CLI in 2027: Reading the Roadmap
 
 

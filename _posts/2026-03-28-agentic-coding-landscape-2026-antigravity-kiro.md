@@ -122,7 +122,7 @@ Kiro is relevant primarily as a **competitive benchmark** and as a pattern sourc
 
 ---
 
-## Sources
+## Citations
 
 - [AI Coding Agents 2026: Full Comparison — Lushbinary](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/)
 - [Google Antigravity — Google Developers Blog](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/)

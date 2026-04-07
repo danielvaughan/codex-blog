@@ -158,7 +158,7 @@ Graphiti is a strong fit for the Knowledge Flywheel v2, but not a blocker for v2
 
 ---
 
-## Sources
+## Citations
 
 - [Graphiti README](https://raw.githubusercontent.com/getzep/graphiti/main/README.md)
 - [Graphiti Neo4j Configuration Docs](https://help.getzep.com/graphiti/configuration/neo-4-j-configuration)

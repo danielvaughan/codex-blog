@@ -4,6 +4,9 @@ parent: "Articles"
 nav_order: 92
 ---
 
+![Sketchnote: GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions](/sketchnotes/articles/2026-03-29-codex-max-long-horizon-tasks.png)
+
+
 # GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions
 
 
@@ -147,7 +150,7 @@ It has been succeeded by `gpt-5.2-codex` (better native compaction) and `gpt-5.3
 
 ---
 
-## References
+## Citations
 
 - [GPT-5.1-Codex-Max System Card](https://openai.com/index/gpt-5-1-codex-max-system-card/) — safety mitigations, cybersecurity capability assessment
 - [SWE-Lancer Benchmark](https://openai.com/index/swe-lancer/) (OpenAI, Feb 2025) — 1,488 Upwork tasks, $1M valuation, arXiv:2502.12115

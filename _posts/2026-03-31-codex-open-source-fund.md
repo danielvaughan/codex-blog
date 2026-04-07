@@ -84,7 +84,7 @@ Applications reviewed on a rolling basis — no fixed deadline. Applicants must 
 
 ---
 
-## References
+## Citations
 
 - [Codex for Open Source (developers.openai.com)](https://developers.openai.com/community/codex-for-oss)
 - [Codex Open Source Fund (openai.com)](https://openai.com/form/codex-open-source-fund/)

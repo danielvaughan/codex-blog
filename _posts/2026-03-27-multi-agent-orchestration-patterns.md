@@ -289,7 +289,7 @@ Combined with `spawn_agents_on_csv`, path-based addressing makes it possible to 
 
 ---
 
-## Sources
+## Citations
 
 - [OpenAI Codex Subagents Docs](https://developers.openai.com/codex/subagents) (2026)
 - [Codex Configuration Reference](https://developers.openai.com/codex/config-reference) (2026)

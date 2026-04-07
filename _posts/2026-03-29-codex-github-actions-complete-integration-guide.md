@@ -4,6 +4,9 @@ parent: "Articles"
 nav_order: 87
 ---
 
+![Sketchnote: Codex CLI + GitHub Actions: The Complete Integration Guide](/sketchnotes/articles/2026-03-29-codex-github-actions-complete-integration-guide.png)
+
+
 # Codex CLI + GitHub Actions: The Complete Integration Guide
 
 

@@ -55,7 +55,7 @@ Requirements: Node.js 18.18+, ChatGPT subscription or OpenAI API key.
 - Background latency — explicit model selection recommended to avoid expensive auto-selection
 - Review gate feedback loops can cause cost spikes
 
-## Sources
+## Citations
 
 - [GitHub: openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)
 - [SmartScope: What codex-plugin-cc Means](https://smartscope.blog/en/blog/codex-plugin-cc-openai-claude-code-2026/)

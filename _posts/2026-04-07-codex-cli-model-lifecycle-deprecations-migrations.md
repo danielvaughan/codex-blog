@@ -175,6 +175,18 @@ flowchart TD
 
 The question on many developers' minds — raised publicly by Simon Willison — is whether the Codex model line will merge entirely into the mainline GPT series.[^15] The introduction of `gpt-5-codex` and `gpt-5-codex-mini` as unified model identifiers in late March 2026 suggests the answer is yes.[^16]
 
+### Breaking: April 7 Model Picker Changes (ChatGPT Auth)
+
+On April 7, 2026, OpenAI announced significant model availability changes for **ChatGPT-authenticated** Codex users:
+
+- **Immediately (April 7):** The model picker stops displaying `gpt-5.2-codex`, `gpt-5.1-codex-mini`, `gpt-5.1-codex-max`, `gpt-5.1-codex`, `gpt-5.1`, and `gpt-5`
+- **April 14:** These models are **fully removed** for ChatGPT sign-in users
+- **Surviving models:** `gpt-5.4` (recommended default), `gpt-5.4-mini`, `gpt-5.3-codex`, and `gpt-5.3-codex-spark` (ChatGPT Pro only)
+
+API-key authenticated users can still access any API-supported model or configure a custom model provider. This effectively forces the migration to the GPT-5.4 generation for the majority of individual developers who authenticate via ChatGPT rather than API keys.
+
+**Action required:** If your team or CI/CD pipelines use ChatGPT authentication with any of the removed models, migrate to `gpt-5.4` (or `gpt-5.3-codex` for pure coding tasks) before April 14.
+
 ## Subagent Model Configuration for Multi-Agent Workflows
 
 Deprecations hit hardest in multi-agent configurations where different agents may reference different models. With the April 2026 changes, audit every agent TOML file in `.codex/agents/`:

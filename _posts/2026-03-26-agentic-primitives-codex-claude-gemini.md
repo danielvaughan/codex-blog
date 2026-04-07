@@ -1328,7 +1328,7 @@ Gemini's subagents are experimental, its hooks are more limited than Claude Code
 
 ---
 
-## Sources
+## Further Reading
 
 Research for this article was drawn from the following sources:
 

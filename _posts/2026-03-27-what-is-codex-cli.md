@@ -110,7 +110,7 @@ The chapters that follow assume you have that context. Now you can build on it.
 
 ---
 
-## Notes
+## Citations
 
 [^1]: Chen, M. et al., "Evaluating Large Language Models Trained on Code," arXiv:2107.03374, July 2021. https://arxiv.org/abs/2107.03374, accessed March 2026.
 [^2]: GitHub, "GitHub Copilot · Your AI pair programmer," technical preview announcement, 29 June 2021. https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/, accessed March 2026.

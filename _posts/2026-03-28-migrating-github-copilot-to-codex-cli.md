@@ -4,6 +4,9 @@ parent: "Articles"
 nav_order: 81
 ---
 
+![Sketchnote: Migrating from GitHub Copilot to Codex CLI](/sketchnotes/articles/2026-03-28-migrating-github-copilot-to-codex-cli.png)
+
+
 # Migrating from GitHub Copilot to Codex CLI
 
 
