@@ -5,6 +5,8 @@ nav_order: 156
 tags: [competitive-analysis, claude-code, cursor, market-position, adoption, strengths-weaknesses, trajectory]
 ---
 
+![Sketchnote diagram for: Codex CLI Competitive Position April 2026: The Road to Parity with Claude Code](/sketchnotes/articles/2026-04-07-codex-cli-competitive-position-april-2026.png)
+
 # Codex CLI Competitive Position April 2026: The Road to Parity with Claude Code
 
 

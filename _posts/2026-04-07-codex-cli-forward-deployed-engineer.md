@@ -5,6 +5,8 @@ nav_order: 159
 tags: [forward-deployed-engineer, fde, enterprise, client-facing, career, prototyping, deployment]
 ---
 
+![Sketchnote diagram for: How to Be a Codex CLI Forward Deployed Engineer](/sketchnotes/articles/2026-04-07-codex-cli-forward-deployed-engineer.png)
+
 # How to Be a Codex CLI Forward Deployed Engineer
 
 

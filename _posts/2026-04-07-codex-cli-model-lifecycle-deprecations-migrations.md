@@ -5,6 +5,8 @@ nav_order: 152
 tags: [model-lifecycle, deprecation, migration, gpt-5.4, gpt-5.3-codex, gpt-5.1-codex, config-toml, profiles, model-selection]
 ---
 
+![Sketchnote diagram for: Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition](/sketchnotes/articles/2026-04-07-codex-cli-model-lifecycle-deprecations-migrations.png)
+
 # Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition
 
 

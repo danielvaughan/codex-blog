@@ -5,6 +5,8 @@ nav_order: 146
 tags: [`responses-api`, `phase-parameter`, `compaction`, `custom-harness`, `conversation-state`, `previous-response-id`, `gpt-5.3-codex`, `gpt-5.4`]
 ---
 
+![Sketchnote diagram for: Building Custom Harnesses with the Codex Responses API: Phase, Compaction, and Conversation State](/sketchnotes/articles/2026-04-01-codex-responses-api-phase-parameter-custom-harness.png)
+
 # Building Custom Harnesses with the Codex Responses API: Phase, Compaction, and Conversation State
 
 
