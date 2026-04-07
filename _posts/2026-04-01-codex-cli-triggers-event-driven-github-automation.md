@@ -5,6 +5,8 @@ nav_order: 141
 tags: [`triggers`, `event-driven`, `github`, `automation`, `plugins`, `mcp`, `codex-action`, `enterprise`]
 ---
 
+![Sketchnote diagram for: Codex CLI Triggers: Event-Driven GitHub Automation Beyond CI/CD](/sketchnotes/articles/2026-04-01-codex-cli-triggers-event-driven-github-automation.png)
+
 # Codex CLI Triggers: Event-Driven GitHub Automation Beyond CI/CD
 
 

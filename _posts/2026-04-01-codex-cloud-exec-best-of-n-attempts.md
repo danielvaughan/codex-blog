@@ -5,6 +5,8 @@ nav_order: 147
 tags: [codex-cloud, best-of-n, cloud-exec, attempts, diff-review, ci-cd, workflow-automation]
 ---
 
+![Sketchnote diagram for: Codex Cloud Exec Best-of-N: Running Multiple Solution Attempts and Picking the Winner](/sketchnotes/articles/2026-04-01-codex-cloud-exec-best-of-n-attempts.png)
+
 # Codex Cloud Exec Best-of-N: Running Multiple Solution Attempts and Picking the Winner
 
 

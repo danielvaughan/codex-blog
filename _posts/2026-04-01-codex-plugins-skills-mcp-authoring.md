@@ -5,6 +5,8 @@ nav_order: 149
 tags: [`plugins`, `skills`, `mcp`, `plugin-json`, `marketplace`, `authoring`, `distribution`, `config-toml`]
 ---
 
+![Sketchnote diagram for: Codex Plugins: Skills, MCP Servers, and Building Distributable Agent Workflows](/sketchnotes/articles/2026-04-01-codex-plugins-skills-mcp-authoring.png)
+
 # Codex Plugins: Skills, MCP Servers, and Building Distributable Agent Workflows
 
 

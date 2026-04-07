@@ -5,6 +5,8 @@ nav_order: 144
 tags: [`ide-extension`, `vs-code`, `jetbrains`, `cloud-delegation`, `config-toml`, `agent-modes`, `hybrid-workflow`]
 ---
 
+![Sketchnote diagram for: The Codex IDE Extension: VS Code, JetBrains, and the Hybrid Cloud-Local Workflow](/sketchnotes/articles/2026-04-01-codex-ide-extension-vs-code-jetbrains.png)
+
 # The Codex IDE Extension: VS Code, JetBrains, and the Hybrid Cloud-Local Workflow
 
 
