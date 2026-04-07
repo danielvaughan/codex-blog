@@ -1,6 +1,6 @@
 ---
 title: "The V4A Diff Format: How Codex CLI's apply_patch Actually Edits Your Code"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 139
 ---

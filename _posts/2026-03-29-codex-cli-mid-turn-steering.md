@@ -1,6 +1,6 @@
 ---
 title: "Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 99
 ---

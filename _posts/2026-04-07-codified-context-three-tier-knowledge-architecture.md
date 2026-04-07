@@ -1,6 +1,6 @@
 ---
 title: "Codified Context: The Three-Tier Knowledge Architecture for AI Coding Agents"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 157
 ---

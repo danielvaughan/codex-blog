@@ -1,6 +1,6 @@
 ---
 title: "Learning Plan for Becoming a Codex CLI Expert"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 158
 ---

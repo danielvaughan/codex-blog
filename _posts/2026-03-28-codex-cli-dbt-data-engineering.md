@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI for dbt and Data Engineering Workflows"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 83
 ---

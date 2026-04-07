@@ -1,6 +1,6 @@
 ---
 title: "Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP"
-layout: default
+layout: single
 parent: "Articles"
 ---
 ![Sketchnote: Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP](../sketchnotes/articles/2026-03-27-skills-progressive-disclosure-vs-mcp.png)

@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD Credential Management"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 150
 ---

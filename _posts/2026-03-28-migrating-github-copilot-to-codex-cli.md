@@ -1,6 +1,6 @@
 ---
 title: "Migrating from GitHub Copilot to Codex CLI"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 81
 ---

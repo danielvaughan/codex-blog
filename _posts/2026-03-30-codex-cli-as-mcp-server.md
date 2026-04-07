@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 115
 ---

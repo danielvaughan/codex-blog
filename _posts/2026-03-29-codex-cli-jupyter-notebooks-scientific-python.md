@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI for Jupyter Notebooks and Scientific Python"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 96
 ---

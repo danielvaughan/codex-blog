@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI for Java and Spring Boot Teams: AGENTS.md, Maven Sandboxing, and Gradle Workflows"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 127
 ---

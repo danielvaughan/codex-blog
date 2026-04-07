@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI for Infrastructure as Code: Terraform, Pulumi and Ansible Automation"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 100
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Codex Cloud Exec Best-of-N: Running Multiple Solution Attempts and Picking the Winner"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 147
 ---

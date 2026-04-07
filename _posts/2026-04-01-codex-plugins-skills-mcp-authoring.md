@@ -1,6 +1,6 @@
 ---
 title: "Codex Plugins: Skills, MCP Servers, and Building Distributable Agent Workflows"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 149
 ---

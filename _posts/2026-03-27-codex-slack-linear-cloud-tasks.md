@@ -1,6 +1,6 @@
 ---
 title: "Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools"
-layout: default
+layout: single
 parent: "Articles"
 ---
 ![Sketchnote: Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools](../sketchnotes/articles/2026-03-27-codex-slack-linear-cloud-tasks.png)

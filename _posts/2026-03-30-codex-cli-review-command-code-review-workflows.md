@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 123
 ---

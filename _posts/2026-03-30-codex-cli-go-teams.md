@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI for Go Teams: Skills, AGENTS.md and Go 1.26 Workflows"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 104
 ---

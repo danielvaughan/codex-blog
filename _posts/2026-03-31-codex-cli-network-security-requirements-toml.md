@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Network Security: requirements.toml Enforcement, Landlock, and Air-Gapped Deployments"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 135
 ---

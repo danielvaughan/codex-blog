@@ -1,6 +1,6 @@
 ---
 title: "GPT-5.3-Codex-Spark: Cerebras-Powered Real-Time Coding at 1,000 Tokens/Second"
-layout: default
+layout: single
 parent: "Articles"
 nav_order: 125
 ---
