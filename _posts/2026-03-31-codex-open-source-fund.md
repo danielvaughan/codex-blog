@@ -5,6 +5,8 @@ tags: [open-source, oss-fund, chatgpt-pro, api-credits, codex-security, communit
 summary: "OpenAI's $1M initiative gives OSS maintainers six months of ChatGPT Pro with Codex, API credits (up to $25K), and conditional Codex Security access. Announced March 7, 2026. Tool-agnostic — OpenCode, Cline, and pi users can apply too."
 ---
 
+![Sketchnote diagram for: Codex Open Source Fund: Free ChatGPT Pro and API Credits for Maintainers](/sketchnotes/articles/2026-03-31-codex-open-source-fund.png)
+
 # Codex Open Source Fund: Free ChatGPT Pro and API Credits for Maintainers
 
 OpenAI announced the **Codex for Open Source** program on **March 7, 2026**, expanding its earlier $1M Codex Open Source Fund to provide direct support to OSS maintainers. The move positions OpenAI as a partner to the open-source ecosystem — and an explicit counter to Anthropic's developer-outreach strategy.

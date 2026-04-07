@@ -5,6 +5,8 @@ nav_order: 136
 tags: [realtime, voice, websocket, transcription, audio, pair-programming, config-toml, app-server, v0-116-0, v0-117-0]
 ---
 
+![Sketchnote: Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config](/sketchnotes/articles/2026-03-31-codex-cli-realtime-sessions-voice-transcription.png)
+
 # Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config
 
 

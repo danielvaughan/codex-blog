@@ -4,6 +4,8 @@ date: 2026-03-31
 tags: hooks, pretooluse, posttooluse, automation, ci, quality-gates, security, experimental
 ---
 
+![Sketchnote diagram for: Codex CLI PreToolUse & PostToolUse Hooks: Production Patterns for Quality Gates and CI Enforcement](/sketchnotes/articles/2026-03-31-codex-cli-pretooluse-posttooluse-hooks.png)
+
 # Codex CLI PreToolUse & PostToolUse Hooks: Production Patterns for Quality Gates and CI Enforcement
 
 
