@@ -859,16 +859,19 @@ SKETCH_DST="$CODEX_BLOG_DIR/sketchnotes/articles"
 mkdir -p "$POSTS_DST" "$SKETCH_DST"
 
 echo "==> Syncing articles ($ARTICLES_SRC -> $POSTS_DST)"
+# NOTE: --exclude must come BEFORE --include for the marker to be preserved
+# under macOS openrsync's --delete behaviour. First-match wins, so the marker
+# exclude needs to be evaluated before the *.md include.
 rsync -av --delete \
-  --include='*.md' \
   --exclude='SYNCED-DO-NOT-EDIT.md' \
+  --include='*.md' \
   --exclude='*' \
   "$ARTICLES_SRC/" "$POSTS_DST/"
 
 echo "==> Syncing sketchnotes ($SKETCH_SRC -> $SKETCH_DST)"
 rsync -av --delete \
-  --include='*.png' \
   --exclude='SYNCED-DO-NOT-EDIT.md' \
+  --include='*.png' \
   --exclude='*' \
   "$SKETCH_SRC/" "$SKETCH_DST/"
 
