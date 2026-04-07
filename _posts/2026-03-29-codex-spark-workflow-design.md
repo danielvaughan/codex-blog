@@ -8,6 +8,9 @@ description: "A practical guide to redesigning your Codex CLI workflows around G
 substack_status: draft
 ---
 
+![Sketchnote: Designing Workflows for Codex-Spark: When Inference Becomes Near-Instant](/sketchnotes/articles/2026-03-29-codex-spark-workflow-design.png)
+
+
 # Designing Workflows for Codex-Spark: When Inference Becomes Near-Instant
 
 

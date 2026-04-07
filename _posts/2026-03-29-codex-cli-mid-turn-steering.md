@@ -4,6 +4,9 @@ parent: "Articles"
 nav_order: 99
 ---
 
+![Sketchnote: Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight](/sketchnotes/articles/2026-03-29-codex-cli-mid-turn-steering.png)
+
+
 # Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight
 
 

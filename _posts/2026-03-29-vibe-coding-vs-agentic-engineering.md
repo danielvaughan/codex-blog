@@ -4,6 +4,9 @@ parent: "Articles"
 nav_order: 94
 ---
 
+![Sketchnote: Vibe Coding vs Agentic Engineering: A Senior Developer's Framework](/sketchnotes/articles/2026-03-29-vibe-coding-vs-agentic-engineering.png)
+
+
 # Vibe Coding vs Agentic Engineering: A Senior Developer's Framework
 
 

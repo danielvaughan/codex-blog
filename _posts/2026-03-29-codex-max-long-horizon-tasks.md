@@ -4,6 +4,9 @@ parent: "Articles"
 nav_order: 92
 ---
 
+![Sketchnote: GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions](/sketchnotes/articles/2026-03-29-codex-max-long-horizon-tasks.png)
+
+
 # GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions
 
 

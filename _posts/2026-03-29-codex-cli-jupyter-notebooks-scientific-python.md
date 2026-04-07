@@ -4,6 +4,9 @@ parent: "Articles"
 nav_order: 96
 ---
 
+![Sketchnote: Codex CLI for Jupyter Notebooks and Scientific Python](/sketchnotes/articles/2026-03-29-codex-cli-jupyter-notebooks-scientific-python.png)
+
+
 # Codex CLI for Jupyter Notebooks and Scientific Python
 
 
