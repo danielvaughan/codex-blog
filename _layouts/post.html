@@ -10,6 +10,11 @@ layout: default
         {{ page.date | date: "%B %-d, %Y" }}
       </time>
     </p>
+    {%- if page.last_modified_at and page.last_modified_at != page.date -%}
+    <p class="post-meta post-meta-updated">
+      Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time>
+    </p>
+    {%- endif -%}
 
     {%- if page.tags and page.tags.size > 0 -%}
     <div class="post-tags">
