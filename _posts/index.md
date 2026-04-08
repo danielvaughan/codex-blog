@@ -6,7 +6,7 @@ permalink: /articles/
 ## Article Ratings (updated 2026-04-08)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-08 · 191 articles rated · 191 total articles.
+Last rated: 2026-04-08 · 178 articles rated · 178 total articles.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|---------|
@@ -122,7 +122,6 @@ Last rated: 2026-04-08 · 191 articles rated · 191 total articles.
 | [Planning Mode in Practice](./2026-03-27-planning-mode-in-practice.md) | [view](https://codex.danielvaughan.com/2026/03/27/planning-mode-in-practice/) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI Automations & Scheduled Tasks](./2026-03-27-codex-cli-automations-scheduled-tasks.md) | [view](https://codex.danielvaughan.com/2026/03/27/codex-cli-automations-scheduled-tasks/) | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Background Terminal: Dev Servers + Codex](./2026-03-28-codex-background-terminal-dev-server-workflows.md) | [view](https://codex.danielvaughan.com/2026/03/28/codex-background-terminal-dev-server-workflows/) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
-| [Codex on Windows: Native Sandbox & WSL](./2026-03-28-codex-on-windows-native-sandbox-wsl.md) | [view](https://codex.danielvaughan.com/2026/03/28/codex-on-windows-native-sandbox-wsl/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Thread Management: Forking & Resuming](./2026-03-28-codex-cli-thread-management-fork-resume.md) | [view](https://codex.danielvaughan.com/2026/03/28/codex-cli-thread-management-fork-resume/) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Skills vs MCP: Progressive Disclosure](./2026-03-27-skills-progressive-disclosure-vs-mcp.md) | [view](https://codex.danielvaughan.com/2026/03/27/skills-progressive-disclosure-vs-mcp/) | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [The Agentic Pod in Practice](./2026-03-28-agentic-pod-in-practice-multi-agent-roles.md) | [view](https://codex.danielvaughan.com/2026/03/28/agentic-pod-in-practice-multi-agent-roles/) | ★★★★☆ | ★★★☆☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
@@ -143,7 +142,6 @@ Last rated: 2026-04-08 · 191 articles rated · 191 total articles.
 | [Codex CLI Session Analytics: JSONL Rollout](./2026-03-30-codex-cli-session-analytics-jsonl-rollout.md) | [view](https://codex.danielvaughan.com/2026/03/30/codex-cli-session-analytics-jsonl-rollout/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
 | [gpt-5-codex: New Flagship Model Guide](./2026-03-30-gpt-5-codex-new-flagship-model-guide.md) | [view](https://codex.danielvaughan.com/2026/03/30/gpt-5-codex-new-flagship-model-guide/) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [GPT-5.4 mini: Subagent Delegation & Tiered Inference](./2026-03-30-gpt54-mini-codex-subagent-delegation.md) | [view](https://codex.danielvaughan.com/2026/03/30/gpt54-mini-codex-subagent-delegation/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
-| [GPT-5.3-Codex-Spark: Real-Time Coding at 1000 tok/s](./2026-03-30-codex-spark-cerebras-real-time-coding.md) | [view](https://codex.danielvaughan.com/2026/03/30/codex-spark-cerebras-real-time-coding/) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI Context Compaction Architecture](./2026-03-31-codex-cli-context-compaction-architecture.md) | [view](https://codex.danielvaughan.com/2026/03/31/codex-cli-context-compaction-architecture/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
 | [Codex CLI Profiles: Configuration Switching](./2026-03-31-codex-cli-profiles-configuration-switching.md) | [view](https://codex.danielvaughan.com/2026/03/31/codex-cli-profiles-configuration-switching/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
 | [Codex CLI Python SDK & App-Server RPC](./2026-03-31-codex-cli-python-sdk-app-server-rpc.md) | [view](https://codex.danielvaughan.com/2026/03/31/codex-cli-python-sdk-app-server-rpc/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
@@ -153,17 +151,9 @@ Last rated: 2026-04-08 · 191 articles rated · 191 total articles.
 | [CI/CD: codex exec & Non-Interactive Mode](./2026-03-26-codex-cli-cicd-non-interactive.md) | [view](https://codex.danielvaughan.com/2026/03/26/codex-cli-cicd-non-interactive/) | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ |
 | [Enterprise Deployment](./2026-03-26-codex-cli-enterprise-deployment.md) | [view](https://codex.danielvaughan.com/2026/03/26/codex-cli-enterprise-deployment/) | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
 | [AGENTS.md Advanced Patterns](./2026-03-26-agents-md-advanced-patterns.md) | [view](https://codex.danielvaughan.com/2026/03/26/agents-md-advanced-patterns/) | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
-| [Skills Ecosystem Deep Dive](./2026-03-26-skills-ecosystem-deep-dive.md) | [view](https://codex.danielvaughan.com/2026/03/26/skills-ecosystem-deep-dive/) | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ |
-| [Codex CLI as MCP Server (Agents SDK)](./2026-03-26-codex-cli-agents-sdk-integration.md) | [view](https://codex.danielvaughan.com/2026/03/26/codex-cli-agents-sdk-integration/) | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | ★★★☆☆ |
-| [Desktop App vs CLI vs IDE Extension](./2026-03-27-codex-interfaces-desktop-cli-ide.md) | [view](https://codex.danielvaughan.com/2026/03/27/codex-interfaces-desktop-cli-ide/) | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | ★★★☆☆ |
-| [What Is Codex CLI? A Short History](./2026-03-27-what-is-codex-cli.md) | [view](https://codex.danielvaughan.com/2026/03/27/what-is-codex-cli/) | ★★★☆☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ |
 | [Beyond Code: File Automation & Browser Tasks](./2026-03-27-codex-cli-beyond-code-file-automation.md) | [view](https://codex.danielvaughan.com/2026/03/27/codex-cli-beyond-code-file-automation/) | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ |
 | [Codex Enterprise Admin Guide](./2026-03-27-codex-enterprise-admin-guide.md) | [view](https://codex.danielvaughan.com/2026/03/27/codex-enterprise-admin-guide/) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
-| [Codex CLI Toolkit Expansion: Non-Code Tasks](./2026-03-28-codex-cli-toolkit-expansion-non-code-tasks.md) | [view](https://codex.danielvaughan.com/2026/03/28/codex-cli-toolkit-expansion-non-code-tasks/) | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ |
-| [Claude Code ↔ Codex Bidirectional MCP](./2026-03-26-claude-code-codex-bidirectional-mcp.md) | [view](https://codex.danielvaughan.com/2026/03/26/claude-code-codex-bidirectional-mcp/) | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ |
-| [CC Pocket: Mobile Codex Sessions](./2026-03-28-cc-pocket-mobile-codex-sessions.md) | [view](https://codex.danielvaughan.com/2026/03/28/cc-pocket-mobile-codex-sessions/) | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ |
 | [App-Server Remote Deployment](./2026-03-28-codex-app-server-remote-deployment.md) | [view](https://codex.danielvaughan.com/2026/03/28/codex-app-server-remote-deployment/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
-| [Thread Search & Session Archiving (App)](./2026-03-28-codex-app-thread-search-session-archiving.md) | [view](https://codex.danielvaughan.com/2026/03/28/codex-app-thread-search-session-archiving/) | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | ★★★☆☆ |
 | [Building & Distributing Plugins](./2026-03-28-codex-cli-building-distributing-plugins.md) | [view](https://codex.danielvaughan.com/2026/03/28/codex-cli-building-distributing-plugins/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
 | [Commit Attribution](./2026-03-28-codex-cli-commit-attribution.md) | [view](https://codex.danielvaughan.com/2026/03/28/codex-cli-commit-attribution/) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Cost Management: Token Strategy & Quota Control](./2026-03-28-codex-cli-cost-management-token-strategy.md) | [view](https://codex.danielvaughan.com/2026/03/28/codex-cli-cost-management-token-strategy/) | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
@@ -193,15 +183,12 @@ Last rated: 2026-04-08 · 191 articles rated · 191 total articles.
 | [Code Review Workflows: /review & review_model](./2026-03-30-codex-cli-review-command-code-review-workflows.md) | [view](https://codex.danielvaughan.com/2026/03/30/codex-cli-review-command-code-review-workflows/) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Thread Search & Session Management (CLI)](./2026-03-30-codex-cli-thread-search-session-management.md) | [view](https://codex.danielvaughan.com/2026/03/30/codex-cli-thread-search-session-management/) | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
 | [Codex CLI + Vercel: AI Gateway & Skills](./2026-03-30-codex-cli-vercel-ai-gateway-skills-plugin.md) | [view](https://codex.danielvaughan.com/2026/03/30/codex-cli-vercel-ai-gateway-skills-plugin/) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
-| [Codex Beyond Coding: Tibo's Toolkit Expansion](./2026-03-30-codex-toolkit-expansion-beyond-coding.md) | [view](https://codex.danielvaughan.com/2026/03/30/codex-toolkit-expansion-beyond-coding/) | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ |
 | [Graphiti: Temporal Knowledge Graphs for Agent Memory](./2026-03-30-graphiti-agent-memory-store.md) | [view](https://codex.danielvaughan.com/2026/03/30/graphiti-agent-memory-store/) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI Custom Model Providers](./2026-03-31-codex-cli-custom-model-providers.md) | [view](https://codex.danielvaughan.com/2026/03/31/codex-cli-custom-model-providers/) | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
 | [Codex CLI for .NET & C# Teams](./2026-03-31-codex-cli-dotnet-csharp-teams.md) | [view](https://codex.danielvaughan.com/2026/03/31/codex-cli-dotnet-csharp-teams/) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
 | [Network Security: requirements.toml & Landlock](./2026-03-31-codex-cli-network-security-requirements-toml.md) | [view](https://codex.danielvaughan.com/2026/03/31/codex-cli-network-security-requirements-toml/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
 | [PreToolUse & PostToolUse Hooks: Production Patterns](./2026-03-31-codex-cli-pretooluse-posttooluse-hooks.md) | [view](https://codex.danielvaughan.com/2026/03/31/codex-cli-pretooluse-posttooluse-hooks/) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI for Rust Teams](./2026-03-31-codex-cli-rust-teams.md) | [view](https://codex.danielvaughan.com/2026/03/31/codex-cli-rust-teams/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
-| [Codex Open Source Fund](./2026-03-31-codex-open-source-fund.md) | [view](https://codex.danielvaughan.com/2026/03/31/codex-open-source-fund/) | ★★☆☆☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ |
-| [Model Selection](./2026-03-26-codex-cli-model-selection.md) | [view](https://codex.danielvaughan.com/2026/03/26/codex-cli-model-selection/) | ★★☆☆☆ | ★★★☆☆ | ★★★☆☆ | ★★☆☆☆ | ★★★☆☆ |
 
 ### Issues to fix
 
@@ -212,7 +199,4 @@ Last rated: 2026-04-08 · 191 articles rated · 191 total articles.
 | `codex-cli-cicd-non-interactive.md` | No citations |
 | `codex-cli-worktree-parallel-development.md` | No citations |
 | `agents-md-advanced-patterns.md` | No citations; sources claimed but not linked inline |
-| `skills-ecosystem-deep-dive.md` | No citations |
-| `claude-code-codex-bidirectional-mcp.md` | Stub -- 84 lines, no citations, no sketchnote |
-| `codex-cli-model-selection.md` | Very thin -- 143 lines |
 | 21 articles | Missing sketchnotes (only hooks and MCP have them) |
