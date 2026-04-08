@@ -59,8 +59,8 @@ indexnow_key: "02bc222b25212df6c50e4a0673715a15"
 # Leave empty until you've verified the site and received the code.
 # Example value format: "abc123XYZ..."  (no <meta> tag, just the content string)
 verification:
-  google: ""
-  bing: ""
+  google: "tw2uNLn12neV_2jbwtD-iwu54fBRgkSwdvE3LIZsX9k"
+  bing: "0D1B02687430025BFAB8A75BDA4FDA29"
   yandex: ""
 
 # Twitter card defaults (consumed by jekyll-seo-tag)
