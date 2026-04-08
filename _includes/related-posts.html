@@ -1,0 +1,51 @@
+{%- comment -%}
+  Related Posts — pure-Liquid tag-overlap scoring.
+
+  For the current `page`, iterates every post in site.posts, counts shared
+  tags, and emits an <aside> listing the top 5 most related posts. Each
+  entry in the intermediate list is a string of the form
+      "{score_padded}|{url}|{title}"
+  so that Liquid's lexical sort produces a useful ordering when reversed.
+
+  If the current page has no tags, or there are no related posts with any
+  overlap, this include emits an empty string (no aside).
+
+  Performance note: O(posts × tags) per page, ~187 posts × ~7 avg tags ~=
+  1300 checks per page, times ~187 post pages = ~243k checks per build.
+  Well under a second on Jekyll 3.
+{%- endcomment -%}
+
+{%- if page.tags and page.tags.size > 0 -%}
+  {%- assign related_entries = "" | split: "" -%}
+  {%- for other in site.posts -%}
+    {%- if other.url == page.url -%}{%- continue -%}{%- endif -%}
+    {%- assign score = 0 -%}
+    {%- for tag in other.tags -%}
+      {%- if page.tags contains tag -%}
+        {%- assign score = score | plus: 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if score > 0 -%}
+      {%- assign score_str = score | prepend: "00000" -%}
+      {%- assign score_padded = score_str | slice: -5, 5 -%}
+      {%- assign entry = score_padded | append: "|" | append: other.url | append: "|" | append: other.title -%}
+      {%- assign related_entries = related_entries | push: entry -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if related_entries.size > 0 -%}
+    {%- assign sorted = related_entries | sort | reverse -%}
+    {%- assign top = sorted | slice: 0, 5 -%}
+<aside class="related-posts" aria-label="Related articles">
+  <h2 class="related-posts__title">Related articles</h2>
+  <ul class="related-posts__list">
+    {%- for entry in top -%}
+      {%- assign parts = entry | split: "|" -%}
+      {%- assign rel_url = parts[1] -%}
+      {%- assign rel_title = parts[2] -%}
+    <li><a href="{{ rel_url | relative_url }}">{{ rel_title | escape }}</a></li>
+    {%- endfor -%}
+  </ul>
+</aside>
+  {%- endif -%}
+{%- endif -%}
