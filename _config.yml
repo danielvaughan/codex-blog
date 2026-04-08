@@ -39,10 +39,34 @@ sass:
 author:
   name: "Daniel Vaughan"
   bio: "Building expertise in agentic software engineering with Codex CLI"
+  twitter: "DanielVaughan"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/danielvaughan"
+
+# Logo (consumed by jekyll-seo-tag for Organization schema)
+logo: "/assets/images/daniel-vaughan-avatar.jpg"
+
+# Default social share image (consumed by jekyll-seo-tag as og:image fallback
+# when a post doesn't specify its own image). Must be 1200×630 for best results
+# across LinkedIn, X, Facebook, Slack, Discord, Mastodon.
+image: "/assets/images/og-default.png"
+
+# Twitter card defaults (consumed by jekyll-seo-tag)
+twitter:
+  username: "DanielVaughan"
+  card: "summary_large_image"
+
+# Other social profiles — consumed by jekyll-seo-tag for Person.sameAs
+# in the generated BlogPosting JSON-LD, and referenced by our custom
+# structured-data include for additional schema.
+social:
+  name: "Daniel Vaughan"
+  links:
+    - "https://www.linkedin.com/in/danielpvaughan"
+    - "https://github.com/danielvaughan"
+    - "https://twitter.com/DanielVaughan"
 
 # Book (promoted via _includes/book-widget.html)
 book:
