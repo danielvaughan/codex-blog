@@ -48,6 +48,12 @@ author:
 # Logo (consumed by jekyll-seo-tag for Organization schema)
 logo: "/assets/images/daniel-vaughan-avatar.jpg"
 
+# IndexNow API key — used by .github/workflows/indexnow.yml to ping the
+# IndexNow API on every push that touches _posts/. The key file is at
+# the site root (named {{key}}.txt with key as contents) so Bing and
+# Yandex can verify ownership.
+indexnow_key: "02bc222b25212df6c50e4a0673715a15"
+
 # Twitter card defaults (consumed by jekyll-seo-tag)
 twitter:
   username: "DanielVaughan"
