@@ -43,6 +43,23 @@
       ul.appendChild(li);
     });
     nav.removeAttribute('hidden');
+
+    // 3) Navbar toggler — replaces Bootstrap 4 JS collapse plugin. Tapping the
+    //    hamburger button toggles the `show` class on the matching target.
+    //    Bootstrap 4's .collapse.show { display: block; } (from the SCSS
+    //    pipeline) handles the visual state; we only handle the click.
+    var toggler = document.querySelector('.navbar-toggler');
+    if (toggler) {
+      var targetSel = toggler.getAttribute('data-target');
+      var target = targetSel ? document.querySelector(targetSel) : null;
+      if (target) {
+        toggler.addEventListener('click', function (e) {
+          e.preventDefault();
+          var isShown = target.classList.toggle('show');
+          toggler.setAttribute('aria-expanded', isShown ? 'true' : 'false');
+        });
+      }
+    }
   });
 </script>
 
