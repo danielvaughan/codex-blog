@@ -6,7 +6,7 @@ permalink: /articles/
 ## Article Ratings (updated 2026-03-31)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-03-31 · 137 articles rated · 159 total articles.
+Last rated: 2026-03-31 · 137 articles rated · 178 total articles.
 
 | Article | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|-------|----------|-------------|------------|---------|
@@ -164,6 +164,25 @@ Last rated: 2026-03-31 · 137 articles rated · 159 total articles.
 | [Persistent Memory for Codex CLI: MCP Memory Servers](./2026-04-06-codex-cli-persistent-memory-mcp-servers.md) | — | — | — | — | — |
 | [Codex CLI Diagnostic Toolkit: Tracing & Sandbox Testing](./2026-04-07-codex-cli-diagnostic-toolkit-tracing-sandbox-testing.md) | — | — | — | — | — |
 | [Codex CLI Model Lifecycle: Deprecations & Migrations](./2026-04-07-codex-cli-model-lifecycle-deprecations-migrations.md) | — | — | — | — | — |
+| [AGENTS.md as an Open Standard: Cross-Tool Portability](./2026-04-07-agents-md-open-standard-cross-tool-portability.md) | — | — | — | — | — |
+| [The 2026 CLI Agent SaaS Readiness Matrix](./2026-04-07-cli-agent-saas-readiness-matrix.md) | — | — | — | — | — |
+| [How the Codex CLI Agentic Loop Works in Detail](./2026-04-07-codex-cli-agentic-loop-internals.md) | — | — | — | — | — |
+| [Codex CLI Competitive Position April 2026](./2026-04-07-codex-cli-competitive-position-april-2026.md) | — | — | — | — | — |
+| [How to Be a Codex CLI Forward Deployed Engineer](./2026-04-07-codex-cli-forward-deployed-engineer.md) | — | — | — | — | — |
+| [Codex CLI on GitLab: Duo Agent Platform & CI/CD](./2026-04-07-codex-cli-gitlab-integration-duo-agent-platform.md) | — | — | — | — | — |
+| [Codified Context: Three-Tier Knowledge Architecture](./2026-04-07-codified-context-three-tier-knowledge-architecture.md) | — | — | — | — | — |
+| [Automating the Cross-Model Review Loop](./2026-04-07-cross-model-review-loop-automation.md) | — | — | — | — | — |
+| [Embedding AI Agents in SaaS: Codex vs OpenCode vs Pi](./2026-04-07-embedding-ai-agents-saas-codex-opencode-pi.md) | — | — | — | — | — |
+| [Goose by Block: MCP-Native Architecture](./2026-04-07-goose-mcp-native-architecture.md) | — | — | — | — | — |
+| [Learning Plan for Becoming a Codex CLI Expert](./2026-04-07-learning-plan-becoming-codex-cli-expert.md) | — | — | — | — | — |
+| [Sourcegraph Amp: The Multi-Repo AI Orchestrator](./2026-04-07-sourcegraph-amp-multi-repo-orchestrator.md) | — | — | — | — | — |
+| [Cline CLI 2.0: YOLO-Mode Automation Engine](./2026-04-08-cline-cli-yolo-mode-automation.md) | — | — | — | — | — |
+| [Codex CLI Approval Framework: Permissions & Rules](./2026-04-08-codex-cli-approval-framework.md) | — | — | — | — | — |
+| [Codex CLI JavaScript REPL: Stateful Scripting](./2026-04-08-codex-cli-javascript-repl-stateful-scripting.md) | — | — | — | — | — |
+| [Codex CLI Memory Internals: Pipelines & Sanitisation](./2026-04-08-codex-cli-memory-internals.md) | — | — | — | — | — |
+| [Codex CLI TUI Shortcuts & Slash Commands Reference](./2026-04-08-codex-cli-tui-shortcuts-slash-commands.md) | — | — | — | — | — |
+| [Inside the Codex Sandbox: Platform Implementation](./2026-04-08-codex-sandbox-platform-implementation.md) | — | — | — | — | — |
+| [Cross-Platform Agent Portability: One SKILL.md](./2026-04-08-cross-platform-agent-portability-skill-md.md) | — | — | — | — | — |
 
 ### Issues to fix
 
