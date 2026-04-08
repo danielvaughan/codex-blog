@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include book-widget.html placement="rail" %}
 <article class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
@@ -18,6 +19,8 @@ layout: default
     </div>
     {%- endif -%}
   </header>
+
+  {% include book-widget.html placement="inline" %}
 
   <nav class="post-toc" aria-label="On this page" hidden>
     <p class="post-toc-title">On this page</p>
