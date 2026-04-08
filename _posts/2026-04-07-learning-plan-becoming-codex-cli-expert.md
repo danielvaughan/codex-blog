@@ -12,9 +12,9 @@ tags: [learning-plan, expert-path, study-guide, onboarding, progressive-complexi
 
 ---
 
-Codex CLI has grown from a prototype terminal assistant into a full agentic coding platform — sub-agents, skills, MCP integrations, worktrees, cloud tasks, and an enterprise governance model[^1]. The surface area is large enough that a structured learning plan pays for itself quickly. This guide maps a four-phase path from first install to production-grade orchestration, with concrete exercises and milestones at each level.
+Codex CLI has grown from a prototype terminal assistant into a full agentic coding platform — sub-agents, skills, MCP integrations, worktrees, cloud tasks, and an enterprise governance model[^1]. The surface area is large enough that a structured learning plan pays for itself quickly. This guide maps a four-phase path from first install to production-grade orchestration, with concrete exercises and milestones at each level. The entire plan fits inside two weeks — most developers reach confident daily use within the first few days.
 
-## Phase 1 — Foundations (Week 1–2)
+## Phase 1 — Foundations (Day 1–2)
 
 The goal is a working installation, confident navigation of the TUI, and an intuitive feel for the approval model.
 
@@ -70,7 +70,7 @@ flowchart LR
 
 ---
 
-## Phase 2 — Configuration and Context (Week 3–4)
+## Phase 2 — Configuration and Context (Day 3–4)
 
 The goal is to make Codex consistently useful by giving it durable project knowledge and personalised defaults.
 
@@ -140,7 +140,7 @@ codex --ask-for-approval never "Summarise the current instructions."
 
 ---
 
-## Phase 3 — Intermediate Patterns (Week 5–8)
+## Phase 3 — Intermediate Patterns (Day 5–8)
 
 ### 3.1 MCP Integration
 
@@ -224,7 +224,7 @@ Switch mid-session with `/model` — no restart needed[^3].
 
 ---
 
-## Phase 4 — Advanced Orchestration (Week 9–12)
+## Phase 4 — Advanced Orchestration (Day 9–14)
 
 ### 4.1 Sub-Agents and Worktrees
 
