@@ -223,11 +223,15 @@
 // ---------- Pagination ----------
 .pagination {
   margin-top: 2rem;
-  .page-link {
-    color: $primary;
-  }
   .page-item.disabled .page-link {
     color: $gray-700;
+  }
+  // Hover/active: darken the pink fill so white text clears WCAG AA.
+  // Default $secondary (#F3969A) gives ~2.3:1 contrast with white — fails AA.
+  .page-link:hover,
+  .page-item.active .page-link {
+    background-color: darken($secondary, 30%);
+    border-color: darken($secondary, 30%);
   }
 }
 
