@@ -4,7 +4,26 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    // 1) Hide body h1 that duplicates the page title.
+    // 1) Navbar toggler — replaces Bootstrap 4 JS collapse plugin. Tapping the
+    //    hamburger button toggles the `show` class on the matching target.
+    //    Bootstrap 4's .collapse.show { display: block; } (from the SCSS
+    //    pipeline) handles the visual state; we only handle the click.
+    //    This block MUST run first — later blocks early-return on non-post
+    //    pages which would otherwise skip the navbar binding.
+    var toggler = document.querySelector('.navbar-toggler');
+    if (toggler) {
+      var targetSel = toggler.getAttribute('data-target');
+      var target = targetSel ? document.querySelector(targetSel) : null;
+      if (target) {
+        toggler.addEventListener('click', function (e) {
+          e.preventDefault();
+          var isShown = target.classList.toggle('show');
+          toggler.setAttribute('aria-expanded', isShown ? 'true' : 'false');
+        });
+      }
+    }
+
+    // 2) Hide body h1 that duplicates the page title.
     //    Many source articles begin with a markdown `# Title` line which
     //    becomes a second h1 inside .post-body, identical to the chrome's
     //    page title h1. We hide it to keep one logical h1 per page.
@@ -18,7 +37,7 @@
       });
     }
 
-    // 2) Inline TOC builder — populates nav.post-toc from .post-body h2 elements.
+    // 3) Inline TOC builder — populates nav.post-toc from .post-body h2 elements.
     var nav = document.querySelector('nav.post-toc');
     if (!nav) return;
     var ul = nav.querySelector('ul');
@@ -43,23 +62,6 @@
       ul.appendChild(li);
     });
     nav.removeAttribute('hidden');
-
-    // 3) Navbar toggler — replaces Bootstrap 4 JS collapse plugin. Tapping the
-    //    hamburger button toggles the `show` class on the matching target.
-    //    Bootstrap 4's .collapse.show { display: block; } (from the SCSS
-    //    pipeline) handles the visual state; we only handle the click.
-    var toggler = document.querySelector('.navbar-toggler');
-    if (toggler) {
-      var targetSel = toggler.getAttribute('data-target');
-      var target = targetSel ? document.querySelector(targetSel) : null;
-      if (target) {
-        toggler.addEventListener('click', function (e) {
-          e.preventDefault();
-          var isShown = target.classList.toggle('show');
-          toggler.setAttribute('aria-expanded', isShown ? 'true' : 'false');
-        });
-      }
-    }
   });
 </script>
 
