@@ -54,3 +54,5 @@ Allow: /
 
 # --- Discovery files ---
 Sitemap: https://codex.danielvaughan.com/sitemap.xml
+# IndexNow key location (referenced by IndexNow workflow; see .github/workflows/indexnow.yml)
+# See https://www.indexnow.org/ for details

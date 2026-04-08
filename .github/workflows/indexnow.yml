@@ -1,0 +1,102 @@
+name: IndexNow Ping
+
+# Fires on every push to main that touches _posts/. Computes the public URLs
+# of added/modified post files and submits them to the IndexNow API so
+# Bing (and indirectly ChatGPT search) re-crawl them within hours instead
+# of days. Google ignores IndexNow — that path still relies on sitemap.xml.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_posts/**'
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout with history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Read IndexNow key from _config.yml
+        id: key
+        run: |
+          KEY=$(python3 -c "
+          import re, sys
+          with open('_config.yml') as f:
+              content = f.read()
+          m = re.search(r'^indexnow_key:\s*\"?([a-fA-F0-9]+)\"?', content, re.MULTILINE)
+          print(m.group(1) if m else '', end='')
+          ")
+          if [ -z "$KEY" ]; then
+            echo "ERROR: indexnow_key not found in _config.yml"
+            exit 1
+          fi
+          echo "key=$KEY" >> "$GITHUB_OUTPUT"
+
+      - name: Compute changed post URLs
+        id: urls
+        run: |
+          set -euo pipefail
+          CHANGED=$(git diff-tree --name-only --diff-filter=AM -r HEAD^ HEAD -- _posts/ | grep -E '\.md$' || true)
+          if [ -z "$CHANGED" ]; then
+            echo "No post changes in this push; nothing to ping."
+            echo "count=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python3 - <<'PY' > /tmp/urls.json
+          import json, os, re, subprocess
+          out = subprocess.check_output(
+              ['git', 'diff-tree', '--name-only', '--diff-filter=AM', '-r', 'HEAD^', 'HEAD', '--', '_posts/'],
+              text=True,
+          ).strip()
+          urls = []
+          for path in out.splitlines():
+              if not path.endswith('.md'):
+                  continue
+              base = os.path.basename(path)[:-3]
+              m = re.match(r'^(\d{4})-(\d{2})-(\d{2})-(.+)$', base)
+              if not m:
+                  continue
+              y, mo, d, slug = m.groups()
+              urls.append(f'https://codex.danielvaughan.com/{y}/{mo}/{d}/{slug}/')
+          print(json.dumps(urls))
+          PY
+          cat /tmp/urls.json
+          COUNT=$(python3 -c "import json; print(len(json.load(open('/tmp/urls.json'))))")
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: POST to IndexNow
+        if: steps.urls.outputs.count != '0'
+        env:
+          INDEXNOW_KEY: ${{ steps.key.outputs.key }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY' > /tmp/payload.json
+          import json, os
+          key = os.environ['INDEXNOW_KEY']
+          urls = json.load(open('/tmp/urls.json'))
+          body = {
+              'host': 'codex.danielvaughan.com',
+              'key': key,
+              'keyLocation': f'https://codex.danielvaughan.com/{key}.txt',
+              'urlList': urls,
+          }
+          print(json.dumps(body))
+          PY
+          echo "Payload:"
+          cat /tmp/payload.json
+          RESPONSE=$(curl -sS -w '\nHTTP %{http_code}' \
+            -X POST \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            --data-binary @/tmp/payload.json \
+            https://api.indexnow.org/indexnow)
+          echo "Response: $RESPONSE"
+          CODE=$(echo "$RESPONSE" | tail -1 | awk '{print $2}')
+          case "$CODE" in
+            200|202|204) echo "IndexNow accepted the ping (HTTP $CODE)" ;;
+            *) echo "IndexNow rejected the ping (HTTP $CODE)"; exit 1 ;;
+          esac
