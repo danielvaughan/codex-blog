@@ -2,7 +2,7 @@
 title: "Codex CLI for Jupyter Notebooks and Scientific Python"
 parent: "Articles"
 nav_order: 96
-tags: [jupyter, scientific-python, pandas, polars, notebook-workflows, agents-md, nbconvert, data-engineering]
+tags: ["jupyter", "scientific-python", "pandas", "polars", "notebook-workflows", "agents-md", "nbconvert", "data-engineering"]
 ---
 
 ![Sketchnote diagram for: Codex CLI for Jupyter Notebooks and Scientific Python](/sketchnotes/articles/2026-03-29-codex-cli-jupyter-notebooks-scientific-python.png)

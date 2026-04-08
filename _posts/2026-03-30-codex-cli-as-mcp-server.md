@@ -2,7 +2,7 @@
 title: "Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack"
 parent: "Articles"
 nav_order: 115
-tags: [mcp-server, model-context-protocol, agents-sdk, multi-agent, codex-reply, stdio-transport, tool-chaining, orchestration]
+tags: ["mcp-server", "model-context-protocol", "agents-sdk", "multi-agent", "codex-reply", "stdio-transport", "tool-chaining", "orchestration"]
 ---
 
 ![Sketchnote diagram for: Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack](/sketchnotes/articles/2026-03-30-codex-cli-as-mcp-server.png)

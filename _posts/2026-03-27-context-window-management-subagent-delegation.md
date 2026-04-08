@@ -1,7 +1,7 @@
 ---
 title: "Context Window Management: Avoiding Compaction with Sub-Agent Delegation"
 date: 2026-03-27
-tags: [codex-cli, context-window, subagents, compaction, orchestration, performance, multi-agent]
+tags: ["codex-cli", "context-window", "subagents", "compaction", "orchestration", "performance", "multi-agent"]
 ---
 ![Sketchnote diagram for: Context Window Management: Avoiding Compaction with Sub-Agent Delegation](/sketchnotes/articles/2026-03-27-context-window-management-subagent-delegation.png)
 

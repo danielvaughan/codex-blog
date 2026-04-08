@@ -1,7 +1,7 @@
 ---
 title: "Claude Code ↔ Codex CLI: Bidirectional MCP Integration"
 date: 2026-03-26
-tags: [mcp, claude-code, codex, integration, orchestration]
+tags: ["mcp", "claude-code", "codex", "integration", "orchestration"]
 ---
 ![Sketchnote diagram for: Claude Code ↔ Codex CLI: Bidirectional MCP Integration](/sketchnotes/articles/2026-03-26-claude-code-codex-bidirectional-mcp.png)
 

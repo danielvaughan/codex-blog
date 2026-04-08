@@ -2,7 +2,7 @@
 title: "Codex CLI and Vercel: AI Gateway, Skills and the Vercel Plugin Ecosystem"
 parent: "Articles"
 nav_order: 102
-tags: [vercel, ai-gateway, skills, vercel-plugin, model-routing, next-js, multi-provider]
+tags: ["vercel", "ai-gateway", "skills", "vercel-plugin", "model-routing", "next-js", "multi-provider"]
 ---
 
 ![Sketchnote diagram for: Codex CLI and Vercel: AI Gateway, Skills and the Vercel Plugin Ecosystem](/sketchnotes/articles/2026-03-30-codex-cli-vercel-ai-gateway-skills-plugin.png)

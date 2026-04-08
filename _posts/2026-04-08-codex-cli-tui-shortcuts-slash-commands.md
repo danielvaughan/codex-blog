@@ -2,7 +2,7 @@
 title: "Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference"
 parent: "Articles"
 nav_order: 165
-tags: [tui, shortcuts, slash-commands, keyboard, reference, interactive, keybindings]
+tags: ["tui", "shortcuts", "slash-commands", "keyboard", "reference", "interactive", "keybindings"]
 ---
 
 # Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference

@@ -2,7 +2,7 @@
 title: "Learning Plan for Becoming a Codex CLI Expert"
 parent: "Articles"
 nav_order: 158
-tags: [learning-plan, expert-path, study-guide, onboarding, progressive-complexity, context-engineering]
+tags: ["learning-plan", "expert-path", "study-guide", "onboarding", "progressive-complexity", "context-engineering"]
 ---
 
 ![Sketchnote diagram for: Learning Plan for Becoming a Codex CLI Expert](/sketchnotes/articles/2026-04-07-learning-plan-becoming-codex-cli-expert.png)

@@ -2,7 +2,7 @@
 title: "Vibe Coding vs Agentic Engineering: A Senior Developer's Framework"
 parent: "Articles"
 nav_order: 94
-tags: [vibe-coding, agentic-engineering, compound-engineering, career, opinion, codex-cli, architectural-ownership]
+tags: ["vibe-coding", "agentic-engineering", "compound-engineering", "career", "opinion", "codex-cli", "architectural-ownership"]
 ---
 
 ![Sketchnote diagram for: Vibe Coding vs Agentic Engineering: A Senior Developer's Framework](/sketchnotes/articles/2026-03-29-vibe-coding-vs-agentic-engineering.png)

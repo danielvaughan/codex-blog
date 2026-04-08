@@ -2,7 +2,7 @@
 title: "Installing Codex CLI: Package Managers, Shell Completions and First-Run Setup"
 parent: "Articles"
 nav_order: 170
-tags: [installation, setup, shell-completions, first-run, onboarding, npm, homebrew, winget]
+tags: ["installation", "setup", "shell-completions", "first-run", "onboarding", "npm", "homebrew", "winget"]
 ---
 
 # Installing Codex CLI: Package Managers, Shell Completions and First-Run Setup

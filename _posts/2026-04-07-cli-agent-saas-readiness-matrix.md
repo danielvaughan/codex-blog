@@ -2,7 +2,7 @@
 title: "The 2026 CLI Agent SaaS Readiness Matrix: 11 Tools Compared for Production Embedding"
 parent: "Articles"
 nav_order: 161
-tags: [saas-readiness, comparison-matrix, production, embedding, evaluation-framework, sdk, cli-agents]
+tags: ["saas-readiness", "comparison-matrix", "production", "embedding", "evaluation-framework", "sdk", "cli-agents"]
 ---
 
 # The 2026 CLI Agent SaaS Readiness Matrix: 11 Tools Compared for Production Embedding

@@ -2,7 +2,7 @@
 title: "Codex CLI Profiles: Advanced Configuration Switching for Multi-Workflow Development"
 parent: "Articles"
 nav_order: 128
-tags: [profiles, config-toml, feature-flags, configuration, multi-workflow, reasoning-effort, experimental]
+tags: ["profiles", "config-toml", "feature-flags", "configuration", "multi-workflow", "reasoning-effort", "experimental"]
 ---
 
 ![Sketchnote diagram for: Codex CLI Profiles: Advanced Configuration Switching for Multi-Workflow Development](/sketchnotes/articles/2026-03-31-codex-cli-profiles-configuration-switching.png)

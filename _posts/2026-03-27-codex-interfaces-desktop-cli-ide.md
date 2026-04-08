@@ -1,7 +1,7 @@
 ---
 title: "Desktop App vs CLI vs IDE Extension: Choosing Your Codex Interface"
 date: 2026-03-27
-tags: [codex-cli, desktop-app, ide-extension, workflow, tooling, decision-guide]
+tags: ["codex-cli", "desktop-app", "ide-extension", "workflow", "tooling", "decision-guide"]
 ---
 ![Sketchnote diagram for: Desktop App vs CLI vs IDE Extension: Choosing Your Codex Interface](/sketchnotes/articles/2026-03-27-codex-interfaces-desktop-cli-ide.png)
 

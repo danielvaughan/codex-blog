@@ -2,7 +2,7 @@
 title: "Goose by Block: MCP-Native Architecture and What Codex CLI Can Learn"
 parent: "Articles"
 nav_order: 162
-tags: [goose, block, mcp-native, mid-air-loading, offline-fallback, stale-cache, infrastructure, apache-2, agentic-ai-foundation]
+tags: ["goose", "block", "mcp-native", "mid-air-loading", "offline-fallback", "stale-cache", "infrastructure", "apache-2", "agentic-ai-foundation"]
 ---
 
 # Goose by Block: MCP-Native Architecture and What Codex CLI Can Learn

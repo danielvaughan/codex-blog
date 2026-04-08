@@ -1,7 +1,7 @@
 ---
 title: "Migrating a Workflow from Claude Code to Codex CLI"
 date: 2026-03-26
-tags: [migration, AGENTS.md, CLAUDE.md, skills, hooks, subagents, config.toml, workflow]
+tags: ["migration", "AGENTS.md", "CLAUDE.md", "skills", "hooks", "subagents", "config.toml", "workflow"]
 ---
 ![Sketchnote diagram for: Migrating a Workflow from Claude Code to Codex CLI](/sketchnotes/articles/2026-03-26-migrating-claude-code-to-codex-cli.png)
 

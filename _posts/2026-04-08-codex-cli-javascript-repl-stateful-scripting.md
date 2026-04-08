@@ -2,7 +2,7 @@
 title: "The Codex CLI JavaScript REPL: Stateful Scripting Inside Your Agent Session"
 parent: "Articles"
 nav_order: 166
-tags: [javascript-repl, experimental, stateful, node-js, scripting, features, tool-execution]
+tags: ["javascript-repl", "experimental", "stateful", "node-js", "scripting", "features", "tool-execution"]
 ---
 
 # The Codex CLI JavaScript REPL: Stateful Scripting Inside Your Agent Session

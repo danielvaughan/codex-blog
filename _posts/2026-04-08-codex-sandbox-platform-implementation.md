@@ -2,7 +2,7 @@
 title: "Inside the Codex Sandbox: Platform-Specific Implementation on macOS, Linux and Windows"
 parent: "Articles"
 nav_order: 167
-tags: [sandbox, seatbelt, landlock, seccomp, windows-acl, platform-specific, security, os-level, implementation]
+tags: ["sandbox", "seatbelt", "landlock", "seccomp", "windows-acl", "platform-specific", "security", "os-level", "implementation"]
 ---
 
 # Inside the Codex Sandbox: Platform-Specific Implementation on macOS, Linux and Windows

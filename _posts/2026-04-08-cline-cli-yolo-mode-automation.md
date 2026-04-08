@@ -2,7 +2,7 @@
 title: "Cline CLI 2.0: The YOLO-Mode Automation Engine for CI/CD Pipelines"
 parent: "Articles"
 nav_order: 163
-tags: [cline, yolo-mode, ci-cd, automation, nd-json, non-interactive, parallel-agents, pipeline]
+tags: ["cline", "yolo-mode", "ci-cd", "automation", "nd-json", "non-interactive", "parallel-agents", "pipeline"]
 ---
 
 # Cline CLI 2.0: The YOLO-Mode Automation Engine for CI/CD Pipelines

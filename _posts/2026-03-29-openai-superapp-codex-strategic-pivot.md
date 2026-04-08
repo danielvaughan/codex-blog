@@ -2,7 +2,7 @@
 title: "OpenAI's Superapp Pivot: What the ChatGPT + Codex + Atlas Merger Means for Practitioners"
 parent: "Articles"
 nav_order: 97
-tags: [strategic-context, superapp, chatgpt-codex-merger, atlas-browser, enterprise, competitive-landscape, fidji-simo]
+tags: ["strategic-context", "superapp", "chatgpt-codex-merger", "atlas-browser", "enterprise", "competitive-landscape", "fidji-simo"]
 ---
 
 ![Sketchnote diagram for: OpenAI's Superapp Pivot: What the ChatGPT + Codex + Atlas Merger Means for Practitioners](/sketchnotes/articles/2026-03-29-openai-superapp-codex-strategic-pivot.png)

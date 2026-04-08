@@ -2,7 +2,7 @@
 title: "Codex CLI Approval Framework: Permission Profiles, Approval IDs and Runtime Rules"
 parent: "Articles"
 nav_order: 168
-tags: [approval-framework, permission-profiles, approval-ids, runtime-rules, guardian-subagent, smart-approvals, security]
+tags: ["approval-framework", "permission-profiles", "approval-ids", "runtime-rules", "guardian-subagent", "smart-approvals", "security"]
 ---
 
 # Codex CLI Approval Framework: Permission Profiles, Approval IDs and Runtime Rules

@@ -2,7 +2,7 @@
 title: "Codex CLI on GitLab: Duo Agent Platform, CI/CD Pipelines, and MCP Integration"
 parent: "Articles"
 nav_order: 154
-tags: [gitlab, duo-agent-platform, ci-cd, mcp, codex-exec, code-quality, security-remediation, external-agents]
+tags: ["gitlab", "duo-agent-platform", "ci-cd", "mcp", "codex-exec", "code-quality", "security-remediation", "external-agents"]
 ---
 
 ![Sketchnote diagram for: Codex CLI on GitLab: Duo Agent Platform, CI/CD Pipelines, and MCP Integration](/sketchnotes/articles/2026-04-07-codex-cli-gitlab-integration-duo-agent-platform.png)

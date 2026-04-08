@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Hooks Deep Dive: SessionStart, Stop and userpromptsubmit"
 date: 2026-03-26
-tags: [hooks, automation, session-lifecycle, experimental, configuration]
+tags: ["hooks", "automation", "session-lifecycle", "experimental", "configuration"]
 ---
 ![Sketchnote diagram for: Codex CLI Hooks Deep Dive: SessionStart, Stop and userpromptsubmit](/sketchnotes/articles/2026-03-26-codex-cli-hooks-deep-dive.png)
 

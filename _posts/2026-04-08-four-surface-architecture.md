@@ -2,7 +2,7 @@
 title: "The Four-Surface Architecture: CLI, Desktop, IDE Extension and Cloud as One System"
 parent: "Articles"
 nav_order: 171
-tags: [four-surfaces, architecture, mental-model, cli, desktop, ide, cloud, unified, cross-surface, app-server]
+tags: ["four-surfaces", "architecture", "mental-model", "cli", "desktop", "ide", "cloud", "unified", "cross-surface", "app-server"]
 ---
 
 # The Four-Surface Architecture: CLI, Desktop, IDE Extension and Cloud as One System

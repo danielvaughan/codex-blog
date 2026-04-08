@@ -2,7 +2,7 @@
 title: "GPT-5.3-Codex-Spark: Cerebras-Powered Real-Time Coding at 1,000 Tokens/Second"
 parent: "Articles"
 nav_order: 125
-tags: [gpt-5.3-codex-spark, cerebras, real-time-coding, model-selection, wse-3, inference-hardware, research-preview]
+tags: ["gpt-5.3-codex-spark", "cerebras", "real-time-coding", "model-selection", "wse-3", "inference-hardware", "research-preview"]
 ---
 
 ![Sketchnote diagram for: GPT-5.3-Codex-Spark: Cerebras-Powered Real-Time Coding at 1,000 Tokens/Second](/sketchnotes/articles/2026-03-30-codex-spark-cerebras-real-time-coding.png)

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv"
 date: 2026-03-26
-tags: [codex-cli, subagents, multi-agent, toml, parallelism, orchestration]
+tags: ["codex-cli", "subagents", "multi-agent", "toml", "parallelism", "orchestration"]
 ---
 ![Sketchnote diagram for: Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv](/sketchnotes/articles/2026-03-26-codex-cli-subagents-toml-parallelism.png)
 

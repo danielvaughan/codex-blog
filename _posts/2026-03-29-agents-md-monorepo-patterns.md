@@ -2,7 +2,7 @@
 title: "Advanced AGENTS.md Patterns for Monorepos"
 parent: "Articles"
 nav_order: 89
-tags: [agents-md, monorepo, override-hierarchy, service-scoped, fallback-filenames, enterprise, project_doc_fallback_filenames]
+tags: ["agents-md", "monorepo", "override-hierarchy", "service-scoped", "fallback-filenames", "enterprise", "project_doc_fallback_filenames"]
 ---
 
 ![Sketchnote diagram for: Advanced AGENTS.md Patterns for Monorepos](/sketchnotes/articles/2026-03-29-agents-md-monorepo-patterns.png)

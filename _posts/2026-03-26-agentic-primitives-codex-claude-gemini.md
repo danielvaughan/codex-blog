@@ -1,6 +1,6 @@
 ---
 title: "Agentic Primitives Compared: Codex CLI vs Claude Code vs Gemini CLI"
-tags: [comparison, hooks, skills, subagents, memory, mcp, permissions, primitives, claude-code, gemini-cli, codex, architecture]
+tags: ["comparison", "hooks", "skills", "subagents", "memory", "mcp", "permissions", "primitives", "claude-code", "gemini-cli", "codex", "architecture"]
 ---
 ![Sketchnote diagram for: Agentic Primitives Compared: Codex CLI vs Claude Code vs Gemini CLI](/sketchnotes/articles/2026-03-26-agentic-primitives-codex-claude-gemini.png)
 

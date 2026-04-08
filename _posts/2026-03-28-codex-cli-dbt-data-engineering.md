@@ -2,7 +2,7 @@
 title: "Codex CLI for dbt and Data Engineering Workflows"
 parent: "Articles"
 nav_order: 83
-tags: [dbt, data-engineering, sql, airflow, data-warehouse, mcp, agents-md, subagents]
+tags: ["dbt", "data-engineering", "sql", "airflow", "data-warehouse", "mcp", "agents-md", "subagents"]
 ---
 ![Sketchnote diagram for: Codex CLI for dbt and Data Engineering Workflows](/sketchnotes/articles/2026-03-28-codex-cli-dbt-data-engineering.png)
 
