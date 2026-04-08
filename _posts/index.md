@@ -3,10 +3,10 @@ title: "Articles"
 permalink: /articles/
 ---
 
-## Article Ratings (updated 2026-03-31)
+## Article Ratings (updated 2026-04-08)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-03-31 · 137 articles rated · 178 total articles.
+Last rated: 2026-04-08 · 191 articles rated · 191 total articles.
 
 | Article | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|-------|----------|-------------|------------|---------|
@@ -37,6 +37,15 @@ Last rated: 2026-03-31 · 137 articles rated · 178 total articles.
 | [Codex Security: AI Vulnerability Discovery](./2026-03-28-codex-security-vulnerability-discovery.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Migrating from Cursor to Codex CLI](./2026-03-28-migrating-cursor-to-codex-cli.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
 | [Migrating from GitHub Copilot to Codex CLI](./2026-03-28-migrating-github-copilot-to-codex-cli.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [AI Slopageddon and the Open-Source Contribution Crisis](./2026-04-01-ai-slopageddon-open-source-contribution-crisis.md) | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Claude Code Open-Sourced: Architecture Insights from 512K Lines](./2026-04-01-claude-code-open-source-architecture.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Claude Code Source Leak — What 163K Lines Reveal](./2026-04-01-claude-code-source-leak-what-it-reveals.md) | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Codex CLI Competitive Position April 2026](./2026-04-07-codex-cli-competitive-position-april-2026.md) | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Codified Context: Three-Tier Knowledge Architecture](./2026-04-07-codified-context-three-tier-knowledge-architecture.md) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Embedding AI Agents in SaaS: Codex vs OpenCode vs Pi](./2026-04-07-embedding-ai-agents-saas-codex-opencode-pi.md) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The 2026 CLI Agent SaaS Readiness Matrix](./2026-04-07-cli-agent-saas-readiness-matrix.md) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [Codex Security Agent: Vulnerability Scanning & Threat Modelling](./2026-03-31-codex-security-agent-vulnerability-scanning-threat-modelling.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [codex-plugin-cc: OpenAI Ships Codex Inside Claude Code](./2026-03-31-codex-plugin-cc-cross-model-bridge.md) | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Migrating Claude Code to Codex CLI](./2026-03-26-migrating-claude-code-to-codex-cli.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Subagents: TOML, Parallelism, spawn_agents_on_csv](./2026-03-26-codex-cli-subagents-toml-parallelism.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Agentic Primitives Compared](./2026-03-26-agentic-primitives-codex-claude-gemini.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
@@ -48,6 +57,51 @@ Last rated: 2026-03-31 · 137 articles rated · 178 total articles.
 | [WORKFLOW.md: Version-Controlling Agent Behaviour](./2026-03-27-workflow-md-version-controlling-agent-behaviour.md) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Codex CLI Plugins Deep Dive](./2026-03-27-codex-cli-plugins-deep-dive.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
 | [The App-Server JSON-RPC Protocol](./2026-03-28-codex-app-server-json-rpc-protocol.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Codex CLI Authentication: OAuth, Device Code, API Keys](./2026-04-01-codex-cli-authentication-flows-credential-management.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Codex CLI for Kubernetes and Cloud-Native Teams](./2026-04-01-codex-cli-kubernetes-cloud-native-teams.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Multi-Agent Workflows with the OpenAI Cookbook Pattern](./2026-04-01-codex-cli-multi-agent-cookbook-pattern.md) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Codex CLI Triggers: Event-Driven GitHub Automation](./2026-04-01-codex-cli-triggers-event-driven-github-automation.md) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Codex CLI on Windows: Native Sandbox & WSL](./2026-04-01-codex-cli-windows-native-sandbox-wsl.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Codex Cloud Exec Best-of-N Attempts](./2026-04-01-codex-cloud-exec-best-of-n-attempts.md) | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Codex CLI as a Unix Pipeline Citizen](./2026-04-01-codex-exec-unix-pipeline-structured-output.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [The Codex IDE Extension: VS Code & JetBrains](./2026-04-01-codex-ide-extension-vs-code-jetbrains.md) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex Plugins: Skills, MCP Servers, and Distributable Agent Workflows](./2026-04-01-codex-plugins-skills-mcp-authoring.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Building Custom Harnesses with the Codex Responses API](./2026-04-01-codex-responses-api-phase-parameter-custom-harness.md) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Persistent Memory for Codex CLI: MCP Memory Servers](./2026-04-06-codex-cli-persistent-memory-mcp-servers.md) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Codex CLI Diagnostic Toolkit: Tracing & Sandbox Testing](./2026-04-07-codex-cli-diagnostic-toolkit-tracing-sandbox-testing.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Codex CLI Model Lifecycle: Deprecations & Migrations](./2026-04-07-codex-cli-model-lifecycle-deprecations-migrations.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [AGENTS.md as an Open Standard: Cross-Tool Portability](./2026-04-07-agents-md-open-standard-cross-tool-portability.md) | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [How the Codex CLI Agentic Loop Works in Detail](./2026-04-07-codex-cli-agentic-loop-internals.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [How to Be a Codex CLI Forward Deployed Engineer](./2026-04-07-codex-cli-forward-deployed-engineer.md) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI on GitLab: Duo Agent Platform & CI/CD](./2026-04-07-codex-cli-gitlab-integration-duo-agent-platform.md) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Automating the Cross-Model Review Loop](./2026-04-07-cross-model-review-loop-automation.md) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Goose by Block: MCP-Native Architecture](./2026-04-07-goose-mcp-native-architecture.md) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Learning Plan for Becoming a Codex CLI Expert](./2026-04-07-learning-plan-becoming-codex-cli-expert.md) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Sourcegraph Amp: The Multi-Repo AI Orchestrator](./2026-04-07-sourcegraph-amp-multi-repo-orchestrator.md) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Cline CLI 2.0: YOLO-Mode Automation Engine](./2026-04-08-cline-cli-yolo-mode-automation.md) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Approval Framework: Permissions & Rules](./2026-04-08-codex-cli-approval-framework.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Codex CLI JavaScript REPL: Stateful Scripting](./2026-04-08-codex-cli-javascript-repl-stateful-scripting.md) | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Memory Internals: Pipelines & Sanitisation](./2026-04-08-codex-cli-memory-internals.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Codex CLI TUI Shortcuts & Slash Commands Reference](./2026-04-08-codex-cli-tui-shortcuts-slash-commands.md) | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Inside the Codex Sandbox: Platform Implementation](./2026-04-08-codex-sandbox-platform-implementation.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Cross-Platform Agent Portability: One SKILL.md](./2026-04-08-cross-platform-agent-portability-skill-md.md) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [The V4A Diff Format: How apply_patch Edits Your Code](./2026-03-31-codex-cli-apply-patch-v4a-diff-format.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [GPT-5.4 Computer Use, Tool Search & /fast Mode](./2026-03-31-gpt54-computer-use-tool-search-codex-cli.md) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Codex CLI App-Server: Remote WebSocket Deployment](./2026-03-31-codex-cli-app-server-remote-websocket.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [GPT-5.3-Codex-Spark: Cerebras Real-Time Coding (detailed)](./2026-03-31-codex-spark-cerebras-real-time-coding.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Bootstrapping AGENTS.md: Scaffolds & Chain Verification](./2026-04-08-bootstrapping-agents-md.md) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Configuration Reference: All Keys](./2026-04-08-codex-cli-configuration-reference.md) | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Codex CLI Token Costs and Billing Guide](./2026-04-08-codex-cli-token-costs-billing.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Codex Cloud Task Application: Slack to Diff Merge](./2026-04-08-codex-cloud-task-application.md) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Mastering the Codex Desktop App: Automations & Triggers](./2026-04-08-codex-desktop-automations.md) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [codex exec JSONL Reference: Every Event Type](./2026-04-08-codex-exec-jsonl-reference.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
+| [The Official Codex GitHub Action](./2026-04-08-codex-github-action.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Codex Plugin Discovery: @Mentions & Marketplace](./2026-04-08-codex-plugin-discovery.md) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Cross-Surface Session Sync: CLI, Desktop & Cloud](./2026-04-08-cross-surface-session-sync.md) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [The Four-Surface Architecture](./2026-04-08-four-surface-architecture.md) | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Installing Codex CLI: Setup & Shell Completions](./2026-04-08-installing-codex-cli.md) | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Plan Mode Mechanics: Enter vs Tab & Inline Editing](./2026-04-08-plan-mode-mechanics.md) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Tessl Skill Evaluation Framework](./2026-04-08-tessl-skill-evaluation-framework.md) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI vs Competing Agentic Tools](./2026-03-26-codex-cli-vs-competing-agentic-tools.md) | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Worktree-Based Parallel Development](./2026-03-26-codex-cli-worktree-parallel-development.md) | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Real-World Benchmarks](./2026-03-26-codex-cli-benchmarks-real-world.md) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
@@ -148,41 +202,6 @@ Last rated: 2026-03-31 · 137 articles rated · 178 total articles.
 | [Codex CLI for Rust Teams](./2026-03-31-codex-cli-rust-teams.md) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★☆ |
 | [Codex Open Source Fund](./2026-03-31-codex-open-source-fund.md) | ★★☆☆☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ |
 | [Model Selection](./2026-03-26-codex-cli-model-selection.md) | ★★☆☆☆ | ★★★☆☆ | ★★★☆☆ | ★★☆☆☆ | ★★★☆☆ |
-| [Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript](./2026-04-01-claude-code-open-source-architecture.md) | — | — | — | — | — |
-| [Claude Code Source Leak — What 163K Lines of TypeScript Reveal](./2026-04-01-claude-code-source-leak-what-it-reveals.md) | — | — | — | — | — |
-| [AI Slopageddon and the Open-Source Contribution Crisis](./2026-04-01-ai-slopageddon-open-source-contribution-crisis.md) | — | — | — | — | — |
-| [Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD](./2026-04-01-codex-cli-authentication-flows-credential-management.md) | — | — | — | — | — |
-| [Codex CLI for Kubernetes and Cloud-Native Teams](./2026-04-01-codex-cli-kubernetes-cloud-native-teams.md) | — | — | — | — | — |
-| [Multi-Agent Workflows with the OpenAI Cookbook Pattern](./2026-04-01-codex-cli-multi-agent-cookbook-pattern.md) | — | — | — | — | — |
-| [Codex CLI Triggers: Event-Driven GitHub Automation](./2026-04-01-codex-cli-triggers-event-driven-github-automation.md) | — | — | — | — | — |
-| [Codex CLI on Windows: Native Sandbox & WSL](./2026-04-01-codex-cli-windows-native-sandbox-wsl.md) | — | — | — | — | — |
-| [Codex Cloud Exec Best-of-N Attempts](./2026-04-01-codex-cloud-exec-best-of-n-attempts.md) | — | — | — | — | — |
-| [Codex CLI as a Unix Pipeline Citizen](./2026-04-01-codex-exec-unix-pipeline-structured-output.md) | — | — | — | — | — |
-| [The Codex IDE Extension: VS Code & JetBrains](./2026-04-01-codex-ide-extension-vs-code-jetbrains.md) | — | — | — | — | — |
-| [Codex Plugins: Skills, MCP Servers, and Distributable Agent Workflows](./2026-04-01-codex-plugins-skills-mcp-authoring.md) | — | — | — | — | — |
-| [Building Custom Harnesses with the Codex Responses API](./2026-04-01-codex-responses-api-phase-parameter-custom-harness.md) | — | — | — | — | — |
-| [Persistent Memory for Codex CLI: MCP Memory Servers](./2026-04-06-codex-cli-persistent-memory-mcp-servers.md) | — | — | — | — | — |
-| [Codex CLI Diagnostic Toolkit: Tracing & Sandbox Testing](./2026-04-07-codex-cli-diagnostic-toolkit-tracing-sandbox-testing.md) | — | — | — | — | — |
-| [Codex CLI Model Lifecycle: Deprecations & Migrations](./2026-04-07-codex-cli-model-lifecycle-deprecations-migrations.md) | — | — | — | — | — |
-| [AGENTS.md as an Open Standard: Cross-Tool Portability](./2026-04-07-agents-md-open-standard-cross-tool-portability.md) | — | — | — | — | — |
-| [The 2026 CLI Agent SaaS Readiness Matrix](./2026-04-07-cli-agent-saas-readiness-matrix.md) | — | — | — | — | — |
-| [How the Codex CLI Agentic Loop Works in Detail](./2026-04-07-codex-cli-agentic-loop-internals.md) | — | — | — | — | — |
-| [Codex CLI Competitive Position April 2026](./2026-04-07-codex-cli-competitive-position-april-2026.md) | — | — | — | — | — |
-| [How to Be a Codex CLI Forward Deployed Engineer](./2026-04-07-codex-cli-forward-deployed-engineer.md) | — | — | — | — | — |
-| [Codex CLI on GitLab: Duo Agent Platform & CI/CD](./2026-04-07-codex-cli-gitlab-integration-duo-agent-platform.md) | — | — | — | — | — |
-| [Codified Context: Three-Tier Knowledge Architecture](./2026-04-07-codified-context-three-tier-knowledge-architecture.md) | — | — | — | — | — |
-| [Automating the Cross-Model Review Loop](./2026-04-07-cross-model-review-loop-automation.md) | — | — | — | — | — |
-| [Embedding AI Agents in SaaS: Codex vs OpenCode vs Pi](./2026-04-07-embedding-ai-agents-saas-codex-opencode-pi.md) | — | — | — | — | — |
-| [Goose by Block: MCP-Native Architecture](./2026-04-07-goose-mcp-native-architecture.md) | — | — | — | — | — |
-| [Learning Plan for Becoming a Codex CLI Expert](./2026-04-07-learning-plan-becoming-codex-cli-expert.md) | — | — | — | — | — |
-| [Sourcegraph Amp: The Multi-Repo AI Orchestrator](./2026-04-07-sourcegraph-amp-multi-repo-orchestrator.md) | — | — | — | — | — |
-| [Cline CLI 2.0: YOLO-Mode Automation Engine](./2026-04-08-cline-cli-yolo-mode-automation.md) | — | — | — | — | — |
-| [Codex CLI Approval Framework: Permissions & Rules](./2026-04-08-codex-cli-approval-framework.md) | — | — | — | — | — |
-| [Codex CLI JavaScript REPL: Stateful Scripting](./2026-04-08-codex-cli-javascript-repl-stateful-scripting.md) | — | — | — | — | — |
-| [Codex CLI Memory Internals: Pipelines & Sanitisation](./2026-04-08-codex-cli-memory-internals.md) | — | — | — | — | — |
-| [Codex CLI TUI Shortcuts & Slash Commands Reference](./2026-04-08-codex-cli-tui-shortcuts-slash-commands.md) | — | — | — | — | — |
-| [Inside the Codex Sandbox: Platform Implementation](./2026-04-08-codex-sandbox-platform-implementation.md) | — | — | — | — | — |
-| [Cross-Platform Agent Portability: One SKILL.md](./2026-04-08-cross-platform-agent-portability-skill-md.md) | — | — | — | — | — |
 
 ### Issues to fix
 
