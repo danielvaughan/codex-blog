@@ -54,6 +54,15 @@ logo: "/assets/images/daniel-vaughan-avatar.jpg"
 # Yandex can verify ownership.
 indexnow_key: "02bc222b25212df6c50e4a0673715a15"
 
+# Search Console / Webmaster Tools verification. Each value is the
+# content of the verification meta tag provided by the respective tool.
+# Leave empty until you've verified the site and received the code.
+# Example value format: "abc123XYZ..."  (no <meta> tag, just the content string)
+verification:
+  google: ""
+  bing: ""
+  yandex: ""
+
 # Twitter card defaults (consumed by jekyll-seo-tag)
 twitter:
   username: "DanielVaughan"

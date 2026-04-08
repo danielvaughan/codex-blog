@@ -5,6 +5,15 @@
     <link rel="shortcut icon" type="image/ico" href="{{ '/favicon.ico' | relative_url }}"/>
     <meta name="author" content="Daniel Vaughan"/>
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+    {%- if site.verification.google and site.verification.google != "" -%}
+    <meta name="google-site-verification" content="{{ site.verification.google }}"/>
+    {%- endif -%}
+    {%- if site.verification.bing and site.verification.bing != "" -%}
+    <meta name="msvalidate.01" content="{{ site.verification.bing }}"/>
+    {%- endif -%}
+    {%- if site.verification.yandex and site.verification.yandex != "" -%}
+    <meta name="yandex-verification" content="{{ site.verification.yandex }}"/>
+    {%- endif -%}
     {%- include head/og-image.html -%}
     {%- seo -%}
     {%- include head/structured-data.html -%}
