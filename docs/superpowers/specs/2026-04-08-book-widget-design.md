@@ -17,7 +17,7 @@ Give visitors reading any article (or browsing the home page) on `codex.danielva
 
 ## User-visible behaviour
 
-### Desktop (≥1480px viewport width)
+### Desktop (≥1200px viewport width)
 
 A sticky "book rail" floats in the left viewport margin, outside the Bootstrap `.container` that holds the article. It sits ~90px from the top of the viewport (below the sticky navbar) and stays in place as the reader scrolls. The rail is 150px wide and contains, top to bottom:
 
@@ -29,7 +29,7 @@ A sticky "book rail" floats in the left viewport margin, outside the Bootstrap `
 
 Both the cover image and the CTA button link to the Leanpub page. The article's own width is unchanged — the rail lives in the existing left margin, so readers on the widest breakpoint see the same line length they get today.
 
-### Narrow desktop / tablet / mobile (<1480px viewport width)
+### Narrow desktop / tablet / mobile (<1200px viewport width)
 
 The floating rail is hidden (there is no free margin to float into). In its place, a horizontal inline card is rendered inside the article content, immediately after the post header (on articles) or immediately after the "About this blog" band (on the home page and paginated listings). The inline card uses the same colours but a horizontal layout: small cover on the left (~80px), title + subtitle + price + CTA on the right.
 
@@ -98,26 +98,22 @@ The full URL built inside the include:
 ### Desktop rail (`.book-rail`)
 
 ```scss
-// Custom breakpoint: the rail must fit entirely on screen AND not overlap
-// the article container. With a 1140px container, 150px rail, and 20px gap,
-// the minimum viewport where the rail's left edge is ≥ 0 is:
-//   (100vw - 1140) / 2 - 170 ≥ 0  →  100vw ≥ 1480px
-$book-rail-breakpoint: 1480px;
-
 .book-rail {
-  display: none;                             // hidden below custom breakpoint
-  @media (min-width: #{$book-rail-breakpoint}) {
+  display: none;                             // hidden below xl breakpoint
+  @include media-breakpoint-up(xl) {         // ≥1200px
     display: block;
     position: fixed;
     top: 90px;                               // below the sticky navbar
-    left: calc((100vw - 1140px) / 2 - 170px);
+    left: calc((100vw - 720px) / 2 - 170px);
     width: 150px;
     z-index: 10;
   }
 }
 ```
 
-The `calc()` math: `(100vw - 1140px) / 2` is the free margin on the left of Bootstrap's 1140px `xl` container. Subtracting 170px (150px rail + 20px gap) puts the rail's right edge 20px left of the container, and its left edge ≥ 0 whenever viewport ≥ 1480px. The media-query guard ensures the rail only appears at viewports wide enough for it to fit entirely on screen.
+The `calc()` math: the main site's override in `_main-site/_sass/_variables.scss` caps the `xl` container at **720px** (not Bootstrap's default 1140px). So `(100vw - 720px) / 2` is the free margin on the left of the container. Subtracting 170px (150px rail + 20px gap) puts the rail's right edge 20px left of the container.
+
+At viewport = 1200px (the `xl` breakpoint): free margin is `(1200 - 720) / 2 = 240px`. Rail left edge sits at `240 - 170 = 70px` from the viewport edge, leaving a generous 70px of breathing room between the rail and the viewport edge plus the 20px gap to the container. The rail always fits at `xl` and above.
 
 ### Mobile inline card (`.book-inline`)
 
@@ -133,7 +129,7 @@ The `calc()` math: `(100vw - 1140px) / 2` is the free margin on the left of Boot
   padding: 1rem;
   margin-bottom: 2rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  @media (min-width: #{$book-rail-breakpoint}) {
+  @include media-breakpoint-up(xl) {
     display: none;                           // hidden when the rail takes over
   }
 }
@@ -163,9 +159,9 @@ Both variants share:
 
 1. **SCSS build**: `bundle exec jekyll build` succeeds, the new `.book-rail` / `.book-inline` rules appear in `_site/assets/css/main.css`, and no existing selectors are broken.
 2. **Visual regression across breakpoints**: use Chrome DevTools MCP to visit the home page and a sample article at four widths:
-   - **1600px**: floating rail visible on the left, article unchanged
-   - **1479px** (just below breakpoint): floating rail hidden, inline card visible
-   - **1024px**: inline card visible at top of content
+   - **1440px**: floating rail visible on the left, article unchanged
+   - **1200px** (exactly at the `xl` breakpoint): floating rail visible, rail not overlapping the article container
+   - **1199px** (just below): floating rail hidden, inline card visible at top of content
    - **375px**: inline card visible, still readable, cover and CTA both tappable
 3. **Link correctness**: inspect the rendered HTML and confirm both CTAs resolve to
    `https://leanpub.com/codex-cli/?utm_source=codex-blog&utm_medium=rail&utm_campaign=book-widget`
@@ -178,7 +174,7 @@ Both variants share:
 
 ## Open implementation risks
 
-- **Rail only appears on ≥1480px viewports**: this is a significant chunk of laptops (1440×900 MacBook Airs, for example, don't quite qualify). That's a deliberate trade-off in exchange for keeping the article width unchanged — users on narrower screens still see the inline card at the top of the article, so the CTA is never hidden. If click analytics show poor desktop rail exposure, we can revisit by either (a) narrowing the rail to 120px (minimum viewport drops to ~1420px), or (b) tightening the gap to the container.
+- **Rail math depends on the container being 720px wide at `xl`**: the main-site overrides Bootstrap's container max-widths in `_main-site/_sass/_variables.scss` (`xl: 720px`). If that override is ever removed or changed, the `calc((100vw - 720px) / 2 - 170px)` positioning will be wrong — the rail would drift off-position. Mitigation: the implementation plan includes a verification step that checks the computed left offset in Chrome DevTools at 1200px viewport and confirms the rail sits ≥20px left of the container. A regression test of the container width would be ideal but is out of scope.
 - **Hotlink stability**: the Leanpub CDN URL (`d2sofvawe08yqg.cloudfront.net/codex-cli/s_hero`) is not a documented API and could change without notice. Mitigation: the URL lives in `_config.yml`, so a future swap (to a committed asset or a new hotlink) is a one-line change. If the URL breaks, we can self-host with a follow-up commit.
 - **Sticky navbar height changes**: the `top: 90px` offset assumes the current navbar height. If the navbar is ever restyled taller, the rail may crowd into it. Not a blocker — easy to adjust.
 
