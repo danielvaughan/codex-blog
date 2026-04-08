@@ -5,6 +5,8 @@ nav_order: 172
 tags: ["agents-md", "scaffold", "init", "override", "chain-verification", "templates", "bootstrapping", "monorepo"]
 ---
 
+![Sketchnote diagram for: Bootstrapping AGENTS.md: Scaffold Generation, Override Files and Chain Verification](/sketchnotes/articles/2026-04-08-bootstrapping-agents-md.png)
+
 # Bootstrapping AGENTS.md: Scaffold Generation, Override Files and Chain Verification
 
 

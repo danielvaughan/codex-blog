@@ -5,6 +5,8 @@ nav_order: 163
 tags: ["cline", "yolo-mode", "ci-cd", "automation", "nd-json", "non-interactive", "parallel-agents", "pipeline"]
 ---
 
+![Sketchnote diagram for: Cline CLI 2.0: The YOLO-Mode Automation Engine for CI/CD Pipelines](/sketchnotes/articles/2026-04-08-cline-cli-yolo-mode-automation.png)
+
 # Cline CLI 2.0: The YOLO-Mode Automation Engine for CI/CD Pipelines
 
 

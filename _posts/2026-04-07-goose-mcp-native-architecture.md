@@ -5,6 +5,8 @@ nav_order: 162
 tags: ["goose", "block", "mcp-native", "mid-air-loading", "offline-fallback", "stale-cache", "infrastructure", "apache-2", "agentic-ai-foundation"]
 ---
 
+![Sketchnote diagram for: Goose by Block: MCP-Native Architecture and What Codex CLI Can Learn](/sketchnotes/articles/2026-04-07-goose-mcp-native-architecture.png)
+
 # Goose by Block: MCP-Native Architecture and What Codex CLI Can Learn
 
 

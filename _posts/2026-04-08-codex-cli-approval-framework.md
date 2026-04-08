@@ -5,6 +5,8 @@ nav_order: 168
 tags: ["approval-framework", "permission-profiles", "approval-ids", "runtime-rules", "guardian-subagent", "smart-approvals", "security"]
 ---
 
+![Sketchnote diagram for: Codex CLI Approval Framework: Permission Profiles, Approval IDs and Runtime Rules](/sketchnotes/articles/2026-04-08-codex-cli-approval-framework.png)
+
 # Codex CLI Approval Framework: Permission Profiles, Approval IDs and Runtime Rules
 
 

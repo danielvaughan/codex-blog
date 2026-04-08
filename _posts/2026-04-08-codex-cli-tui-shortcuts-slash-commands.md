@@ -5,6 +5,8 @@ nav_order: 165
 tags: ["tui", "shortcuts", "slash-commands", "keyboard", "reference", "interactive", "keybindings"]
 ---
 
+![Sketchnote diagram for: Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference](/sketchnotes/articles/2026-04-08-codex-cli-tui-shortcuts-slash-commands.png)
+
 # Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference
 
 
