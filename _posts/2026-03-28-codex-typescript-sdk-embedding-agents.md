@@ -5,6 +5,7 @@ tags: [codex-cli, typescript, sdk, programmatic, cicd, orchestration]
 ---
 ![Sketchnote diagram for: The Codex TypeScript SDK: Embedding Agents in Your Own Tooling](/sketchnotes/articles/2026-03-28-codex-typescript-sdk-embedding-agents.png)
 
+
 # The Codex TypeScript SDK: Embedding Agents in Your Own Tooling
 
 *Published 2026-03-28. Sources: [developers.openai.com/codex/sdk](https://developers.openai.com/codex/sdk), [github.com/openai/codex/tree/main/sdk/typescript](https://github.com/openai/codex/tree/main/sdk/typescript), [npm @openai/codex-sdk](https://www.npmjs.com/package/@openai/codex-sdk), [DEV.to: kachurun](https://dev.to/kachurun/openai-codex-as-a-native-agent-in-your-typescript-nodejs-app-kii)*

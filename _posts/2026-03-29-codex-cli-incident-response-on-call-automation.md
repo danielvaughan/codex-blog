@@ -11,6 +11,7 @@ tags: [incident-response, pagerduty, datadog, on-call-automation, production-saf
 
 ---
 
+
 Incident response is one of the most compelling — and underexplored — use cases for Codex CLI. When your service is degraded at 3 a.m., the tools that help fastest are the ones already in your terminal. Codex CLI, connected to your observability stack via MCP, can move from "alert fired" to "patch proposed" without a human touching a keyboard.
 
 This article covers the patterns that make this work in practice: how to connect observability tools, how to wire webhooks for trigger-based invocation, and what guardrails to put in place when agents act on production systems.

@@ -6,6 +6,7 @@ summary: "Xcode 26.3 makes Codex a first-class iOS development agent via MCP. He
 ---
 ![Sketchnote diagram for: Codex CLI for Mobile Teams: iOS, Android and Xcode 26.3](/sketchnotes/articles/2026-03-28-codex-cli-mobile-xcode-ios-android.png)
 
+
 # Codex CLI for Mobile Teams: iOS, Android and Xcode 26.3
 
 On **February 3, 2026**, Apple released Xcode 26.3 — described by the iOS developer community as the biggest change to how iOS developers write code since SwiftUI replaced Interface Builder. The headline feature: **native Codex and Claude Code integration via MCP**. For mobile teams, this changes the Codex setup story completely.

@@ -2,7 +2,7 @@
 title: "Mastering the Codex Desktop App: Automations, Triggers and the Review Queue"
 parent: "Articles"
 nav_order: 187
-tags: ["desktop-app", "automations", "triggers", "review-queue", "worktrees", "parallel-threads", "power-features"]
+tags: ["cloud", "desktop-app", "automation"]
 ---
 
 # Mastering the Codex Desktop App: Automations, Triggers and the Review Queue

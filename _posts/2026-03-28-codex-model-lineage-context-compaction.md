@@ -6,6 +6,7 @@ summary: "How the GPT-5.x-Codex model family evolved to solve the context proble
 ---
 ![Sketchnote diagram for: Codex Model Lineage: The Context Compaction Breakthrough That Made Long-Horizon Agents Possible](/sketchnotes/articles/2026-03-28-codex-model-lineage-context-compaction.png)
 
+
 # Codex Model Lineage: The Context Compaction Breakthrough
 
 *Published: 2026-03-28 | Sources: [openai.com/index/introducing-gpt-5-2-codex](https://openai.com/index/introducing-gpt-5-2-codex/), [openai.com/index/introducing-gpt-5-3-codex](https://openai.com/index/introducing-gpt-5-3-codex/)*

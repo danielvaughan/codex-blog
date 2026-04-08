@@ -11,6 +11,7 @@ description: "Why Codex's current prefix_rule-only rules engine causes approval 
 
 ---
 
+
 ## The Problem
 
 In a busy Codex session, the approval dialog appears many times. Most of the time it's for commands that differ only in a trailing argument:

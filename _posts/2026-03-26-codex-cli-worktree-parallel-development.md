@@ -1,8 +1,10 @@
 ---
 title: "Worktree-Based Parallel Development with Codex CLI"
 date: 2026-03-26
+tags: ["workflow-patterns", "git-integration", "automation"]
 ---
 ![Sketchnote diagram for: Worktree-Based Parallel Development with Codex CLI](/sketchnotes/articles/2026-03-26-codex-cli-worktree-parallel-development.png)
+
 
 # Worktree-Based Parallel Development with Codex CLI
 

@@ -2,7 +2,7 @@
 title: "codex exec JSONL Reference: Every Event Type and the Complete Output Schema"
 parent: "Articles"
 nav_order: 185
-tags: ["codex-exec", "jsonl", "event-types", "output-schema", "reference", "ci-cd", "non-interactive", "structured-output"]
+tags: ["reference", "automation", "observability"]
 ---
 
 # codex exec JSONL Reference: Every Event Type and the Complete Output Schema

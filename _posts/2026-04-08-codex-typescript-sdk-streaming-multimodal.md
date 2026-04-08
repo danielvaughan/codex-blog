@@ -2,7 +2,7 @@
 title: "Codex TypeScript SDK: Streaming, Multimodal Inputs and Per-Thread Configuration"
 parent: "Articles"
 nav_order: 185
-tags: ["typescript-sdk", "streaming", "multimodal", "images", "per-thread-config", "output-schema", "advanced"]
+tags: ["ecosystem", "typescript-sdk"]
 ---
 
 # Codex TypeScript SDK: Streaming, Multimodal Inputs and Per-Thread Configuration

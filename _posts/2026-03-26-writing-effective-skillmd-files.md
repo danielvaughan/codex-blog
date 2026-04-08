@@ -1,7 +1,9 @@
 ---
 title: "Writing Effective SKILL.md Files for Codex CLI"
+tags: ["ecosystem", "skills", "agents-md"]
 ---
 ![Sketchnote diagram for: Writing Effective SKILL.md Files for Codex CLI](/sketchnotes/articles/2026-03-26-writing-effective-skillmd-files.png)
+
 
 # Writing Effective SKILL.md Files for Codex CLI
 

@@ -2,7 +2,7 @@
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
 parent: "Articles"
 nav_order: 116
-tags: ["neo4j", "graph-database", "knowledge-graph", "rag", "agentic-workflows", "cloud-run", "auradb"]
+tags: ["ecosystem", "third-party", "memory"]
 ---
 
 ![Sketchnote diagram for: Codex CLI and Neo4j: Use Cases and Best Practices](/sketchnotes/articles/2026-03-30-codex-cli-neo4j-use-cases-best-practices.png)

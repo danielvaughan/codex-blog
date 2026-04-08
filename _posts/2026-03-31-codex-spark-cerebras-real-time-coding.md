@@ -2,7 +2,7 @@
 title: "GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second"
 parent: "Articles"
 nav_order: 138
-tags: ["codex-spark", "cerebras", "real-time", "inference", "websocket", "wse-3", "model-selection", "latency"]
+tags: ["models", "codex-spark"]
 ---
 
 ![Sketchnote diagram for: GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second](/sketchnotes/articles/2026-03-31-codex-spark-cerebras-real-time-coding.png)

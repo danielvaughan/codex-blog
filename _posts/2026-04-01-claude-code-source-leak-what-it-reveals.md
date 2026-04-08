@@ -5,7 +5,7 @@
 **Published:** 2026-03-31
 **Date saved:** 2026-04-01
 **Content age:** Current — breaking news from March 31, 2026
-**Tags:** claude-code, anthropic, source-leak, architecture, engineering-practices, competitive-analysis
+**Tags:** `competitive-landscape`, `claude-code`, `agent-loop`
 
 ---
 

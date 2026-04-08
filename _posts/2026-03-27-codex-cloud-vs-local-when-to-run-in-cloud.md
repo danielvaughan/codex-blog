@@ -6,6 +6,7 @@ summary: "A practical decision guide covering codex cloud exec, environment prov
 ---
 ![Sketchnote diagram for: Codex Cloud vs Codex Local: When to Run in the Cloud](/sketchnotes/articles/2026-03-27-codex-cloud-vs-local-when-to-run-in-cloud.png)
 
+
 # Codex Cloud vs Codex Local: When to Run in the Cloud
 
 Codex ships as two distinct execution surfaces: a local CLI that runs code on your machine, and a cloud agent that provisions isolated containers in OpenAI's infrastructure. Most teams reach for the CLI by default, but the cloud mode has a fundamentally different execution contract — and understanding when to switch changes how you architect agentic workflows.

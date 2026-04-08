@@ -2,7 +2,7 @@
 title: "Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud"
 parent: "Articles"
 nav_order: 174
-tags: ["session-sync", "cross-surface", "resume", "fork", "thread-management", "desktop", "cli", "cloud", "app-server"]
+tags: ["cloud", "codex-cloud", "desktop-app", "ide-extension"]
 ---
 
 # Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud

@@ -1,7 +1,7 @@
 ---
 title: "Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP"
 parent: "Articles"
-tags: ["codex-cli", "skills", "mcp", "progressive-disclosure", "context-management", "architecture", "performance"]
+tags: ["architecture", "skills", "mcp"]
 ---
 ![Sketchnote diagram for: Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP](/sketchnotes/articles/2026-03-27-skills-progressive-disclosure-vs-mcp.png)
 

@@ -5,7 +5,7 @@
 **Published:** 2026-04-01
 **Date saved:** 2026-04-01
 **Content age:** Current
-**Tags:** claude-code, open-source, architecture, typescript, react-ink, vertical-integration, context-management, codex-cli
+**Tags:** `competitive-landscape`, `claude-code`, `agent-loop`
 
 ---
 

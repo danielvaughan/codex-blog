@@ -8,6 +8,7 @@ summary: "How TDD transforms agentic workflows: tests give Codex a verifiable go
 ![Sketchnote diagram for: Test-First Development with Codex: Using TDD as the Agent Feedback Loop](/sketchnotes/articles/2026-03-28-test-first-development-codex-tdd-feedback-loop.png)
 
 
+
 # Test-First Development with Codex: Using TDD as the Agent Feedback Loop
 
 The single biggest problem with autonomous agents is knowing when they're done. A human developer can feel when code "feels right." An agent cannot. But a failing test suite can — and that's the key insight behind using TDD as your primary Codex feedback mechanism.

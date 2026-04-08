@@ -2,7 +2,7 @@
 title: "Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight"
 parent: "Articles"
 nav_order: 99
-tags: ["steer-mode", "mid-turn-steering", "agent-interaction", "fork", "real-time-correction", "v0-98-0"]
+tags: ["workflow-patterns", "approval-modes", "planning"]
 ---
 
 ![Sketchnote diagram for: Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight](/sketchnotes/articles/2026-03-29-codex-cli-mid-turn-steering.png)

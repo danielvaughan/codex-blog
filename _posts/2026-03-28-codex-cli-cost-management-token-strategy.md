@@ -7,6 +7,7 @@ substack_status: draft
 ---
 ![Sketchnote diagram for: Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control](/sketchnotes/articles/2026-03-28-codex-cli-cost-management-token-strategy.png)
 
+
 # Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control
 
 *Published: 2026-03-28*

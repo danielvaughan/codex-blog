@@ -6,6 +6,7 @@ summary: "How to tune model_reasoning_effort and plan_mode_reasoning_effort for 
 ---
 ![Sketchnote diagram for: Reasoning Effort Tuning: Minimal to xhigh for Cost and Speed](/sketchnotes/articles/2026-03-27-reasoning-effort-tuning.png)
 
+
 # Reasoning Effort Tuning: Minimal to xhigh for Cost and Speed
 
 Codex CLI's reasoning engine has a single knob that dramatically affects cost, speed, and quality: `model_reasoning_effort`. Most developers leave it at the default (`medium`) and don't think about it again. That's the right call for interactive work — but it leaves significant cost savings and quality gains on the table for everything else.

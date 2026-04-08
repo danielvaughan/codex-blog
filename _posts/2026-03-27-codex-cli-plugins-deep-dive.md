@@ -5,6 +5,7 @@ tags: [plugins, skills, mcp, configuration, ecosystem]
 ---
 ![Sketchnote diagram for: Codex CLI Plugins: Packaging, Sharing and Installing Reusable Workflows](/sketchnotes/articles/2026-03-27-codex-cli-plugins-deep-dive.png)
 
+
 *Published 2026-03-27 · Feature shipped in Codex CLI v0.117.0, March 26, 2026*
 
 ---

@@ -2,7 +2,7 @@
 title: "Codex CLI Token Costs and Billing: A Practical Cost Calculator Guide"
 parent: "Articles"
 nav_order: 172
-tags: ["token-costs", "billing", "pricing", "cost-calculator", "chatgpt-plans", "api-billing", "worked-examples", "optimization"]
+tags: ["models", "cost-optimization"]
 ---
 
 ![Sketchnote diagram for: Codex CLI Token Costs and Billing: A Practical Cost Calculator Guide](/sketchnotes/articles/2026-04-08-codex-cli-token-costs-billing.png)

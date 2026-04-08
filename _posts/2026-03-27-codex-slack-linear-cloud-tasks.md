@@ -1,7 +1,7 @@
 ---
 title: "Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools"
 parent: "Articles"
-tags: ["codex-cloud", "slack", "linear", "integrations", "cloud-tasks", "triage", "mcp", "enterprise"]
+tags: ["ecosystem", "third-party", "codex-cloud", "automation"]
 ---
 ![Sketchnote diagram for: Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools](/sketchnotes/articles/2026-03-27-codex-slack-linear-cloud-tasks.png)
 

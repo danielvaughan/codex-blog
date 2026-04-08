@@ -8,6 +8,7 @@ tags: agentic-pod, roles, context-architect, value-engineer, quality-engineer, t
 
 ---
 
+
 ## The Problem
 
 Traditional software team structures were not designed for agentic delivery. They are built around specialisations: product managers own requirements, engineers write code, QA runs tests, DevOps manages pipelines. When agents can do most of that execution, you are not solving a staffing problem — you are running the wrong organisational model. Adding AI tools to an existing hierarchy is like bolting a jet engine onto a bicycle. The bicycle frame was not designed for that kind of force, and neither were the coordination patterns built around it.

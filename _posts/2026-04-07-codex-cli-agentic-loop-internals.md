@@ -2,7 +2,7 @@
 title: "How the Codex CLI Agentic Loop Works in Detail to the Code Level"
 parent: "Articles"
 nav_order: 159
-tags: ["agentic-loop", "internals", "source-code", "event-loop", "tool-dispatch", "approval-gates", "sandbox", "architecture", "deep-dive"]
+tags: ["architecture", "agent-loop", "codex-rs"]
 ---
 
 ![Sketchnote diagram for: How the Codex CLI Agentic Loop Works in Detail to the Code Level](/sketchnotes/articles/2026-04-07-codex-cli-agentic-loop-internals.png)

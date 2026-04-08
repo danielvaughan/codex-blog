@@ -5,7 +5,7 @@
 **Published:** 2026-03-30
 **Date saved:** 2026-03-30
 **Content age:** Current as of March 2026 — verify before relying on specifics
-**Tags:** codex-cli, reddit, sentiment, v0.117.0, release-notes, plugins, multi-agent, pricing, steer-mode, fork-command, claude-code-comparison
+**Tags:** `opinion`, `community-sentiment`
 
 ---
 

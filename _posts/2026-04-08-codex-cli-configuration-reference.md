@@ -2,7 +2,7 @@
 title: "Codex CLI Configuration Reference: Precedence, All Keys and Inline Overrides"
 parent: "Articles"
 nav_order: 172
-tags: ["config-reference", "precedence", "config-toml", "keys", "profiles", "inline-overrides", "environment-variables"]
+tags: ["reference", "config-toml"]
 ---
 
 ![Sketchnote diagram for: Codex CLI Configuration Reference: Precedence, All Keys and Inline Overrides](/sketchnotes/articles/2026-04-08-codex-cli-configuration-reference.png)

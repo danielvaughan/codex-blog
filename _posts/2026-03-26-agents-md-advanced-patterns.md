@@ -1,9 +1,11 @@
 ---
 title: "AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks"
 date: 2026-03-26
+tags: ["configuration", "agents-md", "config-toml"]
 ---
 
 ![Sketchnote diagram for: AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks](/sketchnotes/articles/2026-03-26-agents-md-advanced-patterns.png)
+
 
 
 > The basic three-tier hierarchy (`~/.codex/AGENTS.md` → repo root → subdirectory) is documented everywhere. This article covers what isn't: override files, fallback filenames, size limits, monorepo patterns, and debugging the active instruction chain.

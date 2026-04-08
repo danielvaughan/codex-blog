@@ -6,6 +6,7 @@ tags: [symphony, harness-engineering, agentic, workflow, architecture]
 
 ![Sketchnote diagram for: From Harness Engineering to Symphony: The Autonomous Development Stack](/sketchnotes/articles/2026-03-26-harness-engineering-symphony.png)
 
+
 *Published 2026-03-26. Sources: github.com/openai/symphony, openai.com/index/harness-engineering/, community research.*
 
 ---

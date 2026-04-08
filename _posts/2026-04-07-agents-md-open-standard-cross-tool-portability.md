@@ -2,7 +2,7 @@
 title: "AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance"
 parent: "Articles"
 nav_order: 154
-tags: ["agents-md", "open-standard", "agentic-ai-foundation", "linux-foundation", "cross-tool", "portability", "codex-cli", "governance"]
+tags: ["opinion", "agents-md", "open-source"]
 ---
 
 ![Sketchnote diagram for: AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance](/sketchnotes/articles/2026-04-07-agents-md-open-standard-cross-tool-portability.png)

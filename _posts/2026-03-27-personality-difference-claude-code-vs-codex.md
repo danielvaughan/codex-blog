@@ -6,6 +6,7 @@ excerpt: "Why asking 'which AI coding agent is better?' is the wrong question â€
 ---
 ![Sketchnote diagram for: The Personality Difference: Claude Code as Explorer, Codex as Executor](/sketchnotes/articles/2026-03-27-personality-difference-claude-code-vs-codex.png)
 
+
 *Published 2026-03-27. Sources: YouTube transcripts 97FYys-kj58 (weeks-long Claude Code vs Codex comparison), h-RT03B14SM (same prompts side-by-side build), 4qIRAtw4Ktg (Codex app first impressions). Daniel's perspective.*
 
 ---

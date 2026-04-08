@@ -1,7 +1,7 @@
 ---
 title: "Using Claude Code and Codex Together: The Multi-Tool Strategy"
 date: 2026-03-27
-tags: ["claude-code", "codex", "multi-agent", "workflow", "strategy", "integration"]
+tags: ["competitive-landscape", "claude-code", "mcp"]
 ---
 ![Sketchnote diagram for: Using Claude Code and Codex Together: The Multi-Tool Strategy](/sketchnotes/articles/2026-03-27-using-claude-code-and-codex-together.png)
 

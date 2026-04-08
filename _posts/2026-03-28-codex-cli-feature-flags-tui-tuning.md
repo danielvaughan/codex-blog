@@ -7,6 +7,7 @@ substack_status: draft
 ---
 ![Sketchnote diagram for: Codex CLI Feature Flags and TUI Tuning: The Hidden Configuration Layer](/sketchnotes/articles/2026-03-28-codex-cli-feature-flags-tui-tuning.png)
 
+
 # Codex CLI Feature Flags and TUI Tuning: The Hidden Configuration Layer
 
 *Published: 2026-03-28*

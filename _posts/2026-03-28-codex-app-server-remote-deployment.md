@@ -9,6 +9,7 @@ tags: [app-server, websocket, bearer-token, remote-deployment, health-checks, js
 
 ---
 
+
 The Codex app-server is the JSON-RPC layer that powers every Codex surface — the desktop app, the VS Code extension, Xcode 26.3, and the web runtime all speak the same protocol.[^1] Most teams run it locally over stdio, but v0.117.0 introduced a WebSocket transport that enables a genuinely different deployment topology: a single long-lived Codex process running on a remote host, shared across multiple clients or embedded in a container.
 
 This article covers what you need to know to deploy the app-server beyond your laptop — including transport flags, bearer-token authentication, health probe configuration, backpressure handling, and the security gotchas that will bite you if you skip the README.

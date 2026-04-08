@@ -2,7 +2,7 @@
 title: "Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal"
 parent: "Articles"
 nav_order: 101
-tags: ["docker", "codex-universal", "sandboxing", "containerisation", "cloud-environments", "danger-full-access", "setup-scripts"]
+tags: ["configuration", "docker", "sandbox"]
 ---
 
 ![Sketchnote diagram for: Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal](/sketchnotes/articles/2026-03-30-codex-cli-docker-containerised-environments.png)

@@ -2,7 +2,7 @@
 title: "Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software"
 parent: "Articles"
 nav_order: 184
-tags: ["tessl", "skill-evaluation", "agent-skills", "harbor", "task-evals", "codex-cli", "claude-code", "quality-assurance", "testing"]
+tags: ["ecosystem", "skills", "testing"]
 ---
 
 ![Sketchnote diagram for: Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software](/sketchnotes/articles/2026-04-08-tessl-skill-evaluation-framework.png)

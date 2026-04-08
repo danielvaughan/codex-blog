@@ -2,7 +2,7 @@
 title: "Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions"
 parent: "Articles"
 nav_order: 130
-tags: ["context-compaction", "token-management", "long-sessions", "config-toml", "compact-prompt", "fast-path", "architecture", "agentic-workflows"]
+tags: ["architecture", "context-management", "config-toml"]
 ---
 
 ![Sketchnote diagram for: Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions](/sketchnotes/articles/2026-03-31-codex-cli-context-compaction-architecture.png)

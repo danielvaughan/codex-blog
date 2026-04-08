@@ -6,6 +6,7 @@ summary: "Mid-thread forks, codex resume --last, compaction strategies, and the 
 ---
 ![Sketchnote diagram for: Codex CLI Thread Management: Forking, Resuming and Context Lifecycle](/sketchnotes/articles/2026-03-28-codex-cli-thread-management-fork-resume.png)
 
+
 # Codex CLI Thread Management: Forking, Resuming and Context Lifecycle
 
 A Codex session is a **thread** — a sequence of turns stored as a JSONL file with a UUID. Managing threads well is the difference between losing 45 minutes of agent work to a context overflow and confidently navigating multi-day, multi-branch agentic workflows.

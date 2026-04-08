@@ -6,6 +6,7 @@ tags: memory, knowledge-graph, neo4j, agents, graphiti
 
 ![Sketchnote diagram for: Graphiti: Temporal Knowledge Graphs for Agent Memory — Should the Knowledge Flywheel Use It?](/sketchnotes/articles/2026-03-30-graphiti-agent-memory-store.png)
 
+
 ## What Is Graphiti?
 
 Graphiti is an open-source Python library (Apache 2.0 licensed, maintained by Zep) for building and querying temporal knowledge graphs designed specifically for AI agent memory. Unlike flat vector stores or static RAG pipelines, Graphiti models facts as entities and relationships with explicit time-bounded validity windows — it knows not just *what* is true, but *when* it became true and when it was superseded. This makes it well-suited to any agent workflow where the world changes and agents need to reason about the current state without hallucinating stale facts.

@@ -2,7 +2,7 @@
 title: "Cross-Platform Agent Portability: One SKILL.md for Every Runtime"
 parent: "Articles"
 nav_order: 164
-tags: ["agentskills", "portability", "cross-platform", "skill-md", "agents-md", "convergence", "standards", "linux-foundation"]
+tags: ["ecosystem", "skills", "agents-md"]
 ---
 
 ![Sketchnote diagram for: Cross-Platform Agent Portability: One SKILL.md for Every Runtime](/sketchnotes/articles/2026-04-08-cross-platform-agent-portability-skill-md.png)

@@ -2,7 +2,7 @@
 title: "The Codex Python SDK: Embedding Agents in Python Applications"
 parent: "Articles"
 nav_order: 120
-tags: ["codex-cli", "python", "sdk", "programmatic", "async", "streaming", "app-server", "automation"]
+tags: ["ecosystem", "python-sdk"]
 ---
 
 ![Sketchnote diagram for: The Codex Python SDK: Embedding Agents in Python Applications](/sketchnotes/articles/2026-03-30-codex-python-sdk-embedding-agents.png)
