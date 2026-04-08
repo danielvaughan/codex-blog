@@ -7,6 +7,8 @@ layout: default
 {%- endcomment -%}
 <h1 class="sr-only">{{ page.title | default: site.title }}</h1>
 
+{% include book-widget.html placement="rail" %}
+
 {%- if paginator.page == 1 -%}
 <section class="content-section bg-alt">
   <div class="container">
@@ -18,6 +20,7 @@ layout: default
 
 <section class="content-section bg-white">
   <div class="container">
+    {% include book-widget.html placement="inline" %}
     {%- for post in paginator.posts -%}
     <article class="book-card post-card">
       <h2 class="book-title">
