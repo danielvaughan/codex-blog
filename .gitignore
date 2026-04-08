@@ -6,3 +6,4 @@ vendor/
 *.gem
 .DS_Store
 Gemfile.lock
+.superpowers/
