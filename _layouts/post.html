@@ -19,7 +19,7 @@ layout: default
     {%- if page.tags and page.tags.size > 0 -%}
     <div class="post-tags">
       {%- for tag in page.tags -%}
-      <a href="{{ '/tags/#' | append: tag | slugify | relative_url }}" class="badge">{{ tag }}</a>
+      <a href="{{ '/tags/' | relative_url }}#tag-{{ tag | slugify }}" class="badge">{{ tag }}</a>
       {%- endfor -%}
     </div>
     {%- endif -%}
