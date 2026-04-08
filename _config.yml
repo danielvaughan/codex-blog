@@ -50,7 +50,7 @@ book:
   subtitle: "Agentic Engineering from First Principles"
   price_text: "From $19 · pay what you want"
   cover_url: "https://d2sofvawe08yqg.cloudfront.net/codex-cli/s_hero"
-  leanpub_url: "https://leanpub.com/codex-cli/"
+  leanpub_url: "https://leanpub.com/codex-cli/c/CODEXSITE20"
 
 # Defaults
 defaults:
