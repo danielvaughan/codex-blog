@@ -1,0 +1,56 @@
+# robots.txt for codex.danielvaughan.com
+#
+# 2026 posture: allow all traditional crawlers (Google, Bing, DuckDuckGo),
+# explicitly allow AI answer-engine citation bots (so the blog is eligible
+# to be cited in ChatGPT search, Perplexity, Claude, Google AI Overviews,
+# Bing Copilot), and optionally block pure LLM training crawlers (currently
+# also allowed — change to Disallow: / to opt out of training ingestion).
+
+# --- Traditional crawlers (implicit allow) ---
+User-agent: *
+Allow: /
+
+# --- Answer engine / citation bots (2026) ---
+# These bots fetch pages to answer user queries and cite sources in-line.
+# Allowing them is the equivalent of opting into AI-era discovery.
+
+# OpenAI
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Anthropic
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Google's AI signal (Google AI Overviews / Gemini / Vertex AI)
+User-agent: Google-Extended
+Allow: /
+
+# --- LLM training bots ---
+# Currently allowed. To opt out of LLM training ingestion, change each of
+# the following `Allow: /` lines to `Disallow: /`.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# --- Discovery files ---
+Sitemap: https://codex.danielvaughan.com/sitemap.xml
