@@ -33,6 +33,19 @@ layout: default
   </nav>
 
   <section class="post-body">
-    {{ content }}
+    {%- comment -%}
+      Inject image loading hints:
+      - Sketchnote images (/sketchnotes/...) are the hero / LCP image: eager +
+        fetchpriority="high" so the browser prioritises them.
+      - Any other images get loading="lazy" as a sensible default.
+      - All images get decoding="async" for a small perf win.
+      Order matters — the sketchnote substitution runs first so its <img>
+      tags no longer match the second `<img src="` pattern.
+    {%- endcomment -%}
+    {%- assign post_content = content | replace: '<img src="/sketchnotes/', '<img loading="eager" fetchpriority="high" decoding="async" src="/sketchnotes/' -%}
+    {%- assign post_content = post_content | replace: '<img src="', '<img loading="lazy" decoding="async" src="' -%}
+    {{ post_content }}
   </section>
+
+  {% include related-posts.html %}
 </article>
