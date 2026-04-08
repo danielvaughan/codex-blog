@@ -1,0 +1,25 @@
+{%- comment -%}
+  Override jekyll-seo-tag's default og:image with the post's sketchnote when
+  one exists at /sketchnotes/articles/{slug}.png.
+
+  Placed BEFORE {% seo %} so these tags appear first in the document. The
+  Open Graph protocol allows multiple og:image tags (meaning "multiple images
+  available"), and all major parsers (Facebook, LinkedIn, Slack, Discord, X)
+  use the FIRST one they encounter. So our sketchnote-specific tag wins over
+  jekyll-seo-tag's fallback, without us having to disable jekyll-seo-tag's
+  image emission at all.
+
+  For posts without a sketchnote, this include is silent and the fallback
+  og:image from the `defaults:` block in _config.yml is the only source.
+  For non-post pages (home, tags) this include is silent for the same reason.
+{%- endcomment -%}
+{%- if page.layout == "post" -%}
+  {%- assign slug = page.path | remove_first: "_posts/" | remove: ".md" -%}
+  {%- assign sketchnote_path = "/sketchnotes/articles/" | append: slug | append: ".png" -%}
+  {%- assign sketchnote = site.static_files | where: "path", sketchnote_path | first -%}
+  {%- if sketchnote -%}
+<meta property="og:image" content="{{ sketchnote_path | absolute_url }}">
+<meta property="og:image:alt" content="Sketchnote diagram for: {{ page.title | escape }}">
+<meta name="twitter:image" content="{{ sketchnote_path | absolute_url }}">
+  {%- endif -%}
+{%- endif -%}
