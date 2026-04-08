@@ -48,11 +48,6 @@ author:
 # Logo (consumed by jekyll-seo-tag for Organization schema)
 logo: "/assets/images/daniel-vaughan-avatar.jpg"
 
-# Default social share image (consumed by jekyll-seo-tag as og:image fallback
-# when a post doesn't specify its own image). Must be 1200×630 for best results
-# across LinkedIn, X, Facebook, Slack, Discord, Mastodon.
-image: "/assets/images/og-default.png"
-
 # Twitter card defaults (consumed by jekyll-seo-tag)
 twitter:
   username: "DanielVaughan"
@@ -78,6 +73,15 @@ book:
 
 # Defaults
 defaults:
+  # Apply the OG fallback image to EVERY page so jekyll-seo-tag emits
+  # og:image, twitter:image, and upgrades twitter:card to summary_large_image.
+  # Individual posts can override by adding `image: /path/to/custom.png` in
+  # their front matter. The image file is at assets/images/og-default.png
+  # (created in the next task).
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/og-default.png"
   - scope:
       path: ""
       type: posts
