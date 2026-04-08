@@ -31,6 +31,7 @@ plugins:
 # accepts it. Imports resolve in order: codex-blog's own _sass/ first,
 # then the submodule's _sass/ for shared main-site styles.
 sass:
+  style: compressed
   load_paths:
     - _sass
     - _main-site/_sass
