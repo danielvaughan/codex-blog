@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI + Figma MCP: Design-to-Code Workflows"
-tags: ["codex-cli", "figma", "mcp", "design-to-code", "code-connect", "frontend", "design-tokens"]
+tags: [`codex-cli`, `figma`, `mcp`, `design-to-code`, `code-connect`, `frontend`, `design-tokens`]
 ---
 ![Sketchnote diagram for: Codex CLI + Figma MCP: Design-to-Code Workflows](/sketchnotes/articles/2026-03-27-codex-cli-figma-mcp-design-to-code.png)
 
