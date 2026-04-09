@@ -6,7 +6,7 @@ nav_order: 216
 tags: ["plugin", "skills", "hooks", "mcp", "enterprise-services", "project-specific", "packaging", "npm", "agents-md", "jira", "confluence", "datadog", "vault", "distribution", "testing"]
 ---
 
-![Sketchnote diagram for: Building a Codex CLI Plugin: Skills, Hooks, MCP Servers and Project-Specific Automation](/sketchnotes/articles/2026-04-09-building-codex-cli-plugin.png)
+![Sketchnote diagram for: Building a Codex CLI Plugin: Skills, Hooks, MCP Servers and Project-Specific Automation](/sketchnotes/articles/2026-04-09-building-codex-cli-plugin-skills-hooks-mcp.png)
 
 # Building a Codex CLI Plugin: Skills, Hooks, MCP Servers and Project-Specific Automation
 
