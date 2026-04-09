@@ -10,7 +10,7 @@ tags: ["skills", "minimalism", "prompt-vs-skill", "durability", "over-engineerin
 
 ---
 
-The skill ecosystem for AI coding agents has exploded. SkillsMP lists over 96,000 skills for Claude Code alone[^1]. OpenAI's own skills catalogue ships system-level skills like `skill-creator` and `skill-installer` bundled with every Codex CLI installation[^2]. Anthropic's Skill Creator V2 now offers scientific A/B evaluation with parallel test executions and percentage improvement scores[^3].
+The skill ecosystem for AI coding agents has exploded. OpenAI's skills catalogue ships system-level skills like `skill-creator` and `skill-installer` bundled with every Codex CLI installation[^1]. On the Claude Code side, SkillsMP lists over 96,000 community skills[^2]. Anthropic's Skill Creator V2 adds scientific A/B evaluation with parallel test executions and percentage improvement scores[^3].
 
 And yet the most productive pattern many senior developers have discovered is this: a 10-word prompt, saved as a one-line command, that just works.
 
@@ -18,7 +18,7 @@ This article explores the spectrum from throwaway prompt to production skill, of
 
 ## The Durability Problem
 
-AI tooling changes at a pace that makes six-month-old code feel archaeological. A skill written in January 2026 against Claude Code's commands system needed rewriting by March when Anthropic merged commands and skills into a unified architecture[^4]. A Codex CLI skill targeting the original single-agent model needed restructuring when multi-agent v2 arrived with TOML-defined subagents and path-based addressing[^5].
+AI tooling changes at a pace that makes six-month-old code feel archaeological. A Codex CLI skill targeting the original single-agent model needed restructuring when multi-agent v2 arrived with TOML-defined subagents and path-based addressing[^4]. Similarly, Codex CLI's own custom prompts feature was deprecated in favour of skills within months of its launch. On the Claude Code side, a skill written in January 2026 against the old commands system needed rewriting by March when Anthropic merged commands and skills into a unified architecture[^5].
 
 The implication is uncomfortable: **the more moving parts a skill has, the faster it rots**. A skill that shells out to specific CLI flags, references particular model names, or depends on a precise tool invocation chain becomes a maintenance liability the moment any upstream component shifts.
 
@@ -44,19 +44,21 @@ graph LR
 
 ### Tier 1: The Prompt
 
-A prompt typed directly into Codex CLI or Claude Code. Zero persistence, zero maintenance. If it works reliably, there is no reason to promote it further.
+A prompt typed directly into Codex CLI. Zero persistence, zero maintenance. If it works reliably, there is no reason to promote it further.
 
 **Example:** `codex "add error handling to all public methods in src/api/"`
 
 ### Tier 2: The Saved Command
 
-Both Codex CLI and Claude Code now support saving prompts as slash commands. In Claude Code, drop a markdown file into `.claude/skills/` or `~/.claude/skills/` and the filename becomes the `/command`[^6]. In Codex CLI, AGENTS.md files at any directory level can define reusable instruction blocks[^7].
+Codex CLI has built-in slash command support — type `/` in the composer to open a menu with roughly 30 commands for model switching, session management, permissions, and code review[^6]. For reusable prompts, Codex CLI originally supported custom prompts: markdown files in `~/.codex/prompts/` that became invocable as `/prompts:draftpr` with placeholder expansion (`$1` through `$9` for positional arguments)[^7]. Custom prompts are now deprecated in favour of skills, which offer the same invocability plus implicit discovery and repository-level sharing.
 
-The cost is one file. The benefit is repeatability and discoverability — other developers on the team can invoke `/lint-review` without knowing the underlying prompt.
+In Claude Code, the equivalent is dropping a markdown file into `.claude/skills/` where the filename becomes the `/command`[^8].
+
+The cost is one file. The benefit is repeatability and discoverability — other developers on the team can invoke the command without knowing the underlying prompt.
 
 ### Tier 3: The Structured Skill (SKILL.md)
 
-A SKILL.md file with YAML frontmatter (name and description), markdown instructions, and optional subdirectories for scripts, references, and assets[^8]. This is the format standardised across both Codex CLI and Claude Code since Anthropic open-sourced the Agent Skills specification in December 2025[^9].
+A SKILL.md file with YAML frontmatter (name and description), markdown instructions, and optional subdirectories for scripts, references, and assets[^9]. Codex CLI discovers skills automatically at startup and uses progressive disclosure to keep context usage low. The format is standardised across both Codex CLI and Claude Code since Anthropic open-sourced the Agent Skills specification in December 2025[^10].
 
 ```toml
 # Example: Codex CLI skill frontmatter (SKILL.md)
@@ -66,7 +68,7 @@ description: "Generate database migration files from schema changes"
 ---
 ```
 
-The progressive disclosure model means Codex loads only the metadata initially (~50–100 tokens per skill) and fetches the full instructions only when the skill is selected[^10]. This keeps the context window clean when you have dozens of installed skills.
+The progressive disclosure model means Codex loads only the metadata initially (~50–100 tokens per skill) and fetches the full instructions only when the skill is selected[^11]. This keeps the context window clean when you have dozens of installed skills.
 
 ### Tier 4: Skill With Scripts
 
@@ -74,9 +76,9 @@ Adding a `scripts/` directory to a skill introduces deterministic steps — shel
 
 ### Tier 5: Evaluated Pipeline
 
-Anthropic's Skill Creator V2 operates in four modes: Create, Eval, Improve, and Benchmark[^3]. The eval pipeline uses four composable sub-agents running in parallel — executor, grader, comparator, and analyser — with a 60/40 training/test split to prevent overfitting[^11]. It produces percentage improvement scores and interactive browser-based review dashboards.
+Anthropic's Skill Creator V2 operates in four modes: Create, Eval, Improve, and Benchmark[^3]. The eval pipeline uses four composable sub-agents running in parallel — executor, grader, comparator, and analyser — with a 60/40 training/test split to prevent overfitting[^13]. It produces percentage improvement scores and interactive browser-based review dashboards.
 
-This is rigorous. It is also expensive. A single evaluation cycle can cost $12–15 in token usage[^12].
+This is rigorous. It is also token-heavy. A single benchmark run consumes roughly 70,000–75,000 tokens per evaluation[^12], and the default configuration runs 10–20 parallel comparisons, so a full cycle can burn through a meaningful portion of a daily API budget.
 
 ## The Decision Framework
 
@@ -98,7 +100,7 @@ The key insight: **most automations should stop at Tier 2**. The jump from a sav
 
 ## AGENTS.md: The Constitution That Makes Skills Optional
 
-Codex CLI's AGENTS.md system provides a layering mechanism that often eliminates the need for standalone skills entirely[^7]. AGENTS.md files are discovered hierarchically — Codex walks from the project root down to the current working directory, loading each level's instructions[^13].
+Codex CLI's AGENTS.md system provides a layering mechanism that often eliminates the need for standalone skills entirely[^14]. AGENTS.md files are discovered hierarchically — Codex walks from the project root down to the current working directory, loading each level's instructions[^15].
 
 This creates natural tiers:
 
@@ -118,9 +120,9 @@ A skill that specifies exact file paths, line numbers, or implementation details
 
 ### Context Window Pollution
 
-Each skill adds approximately 50–100 tokens of metadata to the agent's initial context[^10]. When the full instructions are loaded, a verbose skill can consume thousands of tokens. With Codex CLI's 192,000-token context window[^14], this sounds manageable in isolation — but compound it across 30+ installed skills, subagent definitions, AGENTS.md files, and the actual codebase, and you are burning context on instructions rather than reasoning.
+Each skill adds approximately 50–100 tokens of metadata to the agent's initial context[^11]. When the full instructions are loaded, a verbose skill can consume thousands of tokens. With Codex CLI's 192,000-token context window[^16], this sounds manageable in isolation — but compound it across 30+ installed skills, subagent definitions, AGENTS.md files, and the actual codebase, and you are burning context on instructions rather than reasoning.
 
-A vague skill description like "helps with databases" will fire on irrelevant prompts and pollute the context further[^10].
+A vague skill description like "helps with databases" will fire on irrelevant prompts and pollute the context further[^11].
 
 ### Brittleness
 
@@ -150,13 +152,13 @@ Anthropic's Skill Creator V2 evaluation pipeline is genuinely useful in specific
 - **Unattended skills** running in CI/CD or scheduled tasks where silent failures are costly.
 - **Cross-team skills** where consistency across dozens of developers justifies the upfront investment.
 
-For a personal formatting helper or a project-specific refactoring command, spending $15 to learn it improved by 11.4% is vanity metrics territory[^12]. Save the tokens for actual work.
+For a personal formatting helper or a project-specific refactoring command, burning hundreds of thousands of tokens to learn it improved by 11.4 per cent is vanity metrics territory. Save the tokens for actual work.
 
 ## Practical Recommendations
 
 1. **Start with AGENTS.md.** Get the constitutional and specialist layers right before creating any skills. A well-written root AGENTS.md eliminates the need for half the skills you think you need.
 
-2. **Write descriptions, not instructions.** When you do create a SKILL.md, invest in a precise, keyword-rich description. Codex's progressive disclosure model means the description is all that is loaded initially — it determines whether the skill fires at all[^10].
+2. **Write descriptions, not instructions.** When you do create a SKILL.md, invest in a precise, keyword-rich description. Codex's progressive disclosure model means the description is all that is loaded initially — it determines whether the skill fires at all[^11].
 
 3. **Prefer Tier 2 over Tier 3.** A saved command with a good description is faster to create, easier to maintain, and often just as effective as a structured SKILL.md.
 
@@ -166,23 +168,25 @@ For a personal formatting helper or a project-specific refactoring command, spen
 
 ## Conclusion
 
-The skill ecosystem in 2026 is mature, standardised, and impressively powerful. But maturity brings the temptation to over-engineer. The developers getting the most value from Codex CLI and Claude Code are often the ones with the fewest skills — a tight AGENTS.md constitution, a handful of well-described saved commands, and the discipline to let a good prompt remain a prompt.
+The skill ecosystem in 2026 is mature, standardised, and impressively powerful. But maturity brings the temptation to over-engineer. The developers getting the most value from Codex CLI are often the ones with the fewest skills — a tight AGENTS.md constitution, a handful of well-described saved commands, and the discipline to let a good prompt remain a prompt.
 
 The 10-word prompt is not a sign of laziness. It is a sign that you understand what the agent is actually good at.
 
 ## Citations
 
-[^1]: [SkillsMP: 96,751+ Claude Code Skills Directory](https://medium.com/@julio.pessan.pessan/skillsmp-this-96-751-claude-code-skills-directory-7dec2eabc338) — Julio Pessan, Medium, 2026
-[^2]: [Skills Catalog for Codex](https://github.com/openai/skills) — OpenAI, GitHub, 2026
+[^1]: [Skills Catalog for Codex](https://github.com/openai/skills) — OpenAI, GitHub, 2026
+[^2]: [SkillsMP: 96,751+ Claude Code Skills Directory](https://medium.com/@julio.pessan.pessan/skillsmp-this-96-751-claude-code-skills-directory-7dec2eabc338) — Julio Pessan, Medium, 2026
 [^3]: [Anthropic Skill Creator Measures If Your Agent Skills Work](https://medium.com/ai-software-engineer/anthropic-new-skill-creator-measures-if-your-agent-skills-work-no-more-guesswork-840a108e505f) — Joe Njenga, Medium, March 2026
-[^4]: [Claude Code Merges Slash Commands Into Skills](https://medium.com/@joe.njenga/claude-code-merges-slash-commands-into-skills-dont-miss-your-update-8296f3989697) — Joe Njenga, Medium, 2026
-[^5]: [Codex CLI: The Definitive Technical Reference](https://blakecrosley.com/guides/codex) — Blake Crosley, 2026
-[^6]: [Extend Claude with Skills — Claude Code Docs](https://code.claude.com/docs/en/skills) — Anthropic, 2026
-[^7]: [Custom Instructions with AGENTS.md — Codex Developer Docs](https://developers.openai.com/codex/guides/agents-md) — OpenAI, 2026
-[^8]: [Agent Skills — Codex Developer Docs](https://developers.openai.com/codex/skills) — OpenAI, 2026
-[^9]: [CLAUDE.md, AGENTS.md, and Every AI Config File Explained](https://www.deployhq.com/blog/ai-coding-config-files-guide) — DeployHQ, 2026
-[^10]: [Codex CLI Agent Skills: 2026 Install and Usage Guide](https://itecsonline.com/post/codex-cli-agent-skills-guide-install-usage-cross-platform-resources-2026) — ITECS Online, 2026
-[^11]: [Anthropic Skill Creator 2.0 Update: Evals, Benchmarks, and Multi-Agent Testing](https://www.thetoolnerd.com/p/anthropic-skill-creator-20-update) — The Tool Nerd, 2026
-[^12]: ⚠️ Token cost estimates (~$12–15 per evaluation cycle) are based on community reports and vary significantly based on skill complexity and model choice.
-[^13]: [How to Set Up OpenAI Codex: AGENTS.md, MCP Servers, Skills](https://llmx.tech/blog/openai-codex-setup-agents-md-mcps-skills-definitive-guide/) — LLMx, 2026
-[^14]: [Context Management Strategies for OpenAI Codex](https://iceberglakehouse.com/posts/2026-03-context-openai-codex/) — Alex Merced, Lakehouse Blog, 2026
+[^4]: [Codex CLI: The Definitive Technical Reference](https://blakecrosley.com/guides/codex) — Blake Crosley, 2026
+[^5]: [Claude Code Merges Slash Commands Into Skills](https://medium.com/@joe.njenga/claude-code-merges-slash-commands-into-skills-dont-miss-your-update-8296f3989697) — Joe Njenga, Medium, 2026
+[^6]: [Slash Commands in Codex CLI](https://developers.openai.com/codex/cli/slash-commands) — OpenAI Developer Docs, 2026
+[^7]: [Custom Prompts — Codex Developer Docs](https://developers.openai.com/codex/custom-prompts) — OpenAI, 2026. Note: custom prompts are now deprecated in favour of skills.
+[^8]: [Extend Claude with Skills — Claude Code Docs](https://code.claude.com/docs/en/skills) — Anthropic, 2026
+[^9]: [Agent Skills — Codex Developer Docs](https://developers.openai.com/codex/skills) — OpenAI, 2026
+[^10]: [CLAUDE.md, AGENTS.md, and Every AI Config File Explained](https://www.deployhq.com/blog/ai-coding-config-files-guide) — DeployHQ, 2026
+[^11]: [Codex CLI Agent Skills: 2026 Install and Usage Guide](https://itecsonline.com/post/codex-cli-agent-skills-guide-install-usage-cross-platform-resources-2026) — ITECS Online, 2026
+[^12]: [Claude Code Skill Creator: How to Test and Benchmark Your Skills](https://www.nathanonn.com/claude-code-skill-creator-guide/) — Nathan Onn, 2026. Benchmark data shows ~74,000 tokens per evaluation run.
+[^13]: [Anthropic Skill Creator 2.0 Update: Evals, Benchmarks, and Multi-Agent Testing](https://www.thetoolnerd.com/p/anthropic-skill-creator-20-update) — The Tool Nerd, 2026
+[^14]: [Custom Instructions with AGENTS.md — Codex Developer Docs](https://developers.openai.com/codex/guides/agents-md) — OpenAI, 2026
+[^15]: [How to Set Up OpenAI Codex: AGENTS.md, MCP Servers, Skills](https://llmx.tech/blog/openai-codex-setup-agents-md-mcps-skills-definitive-guide/) — LLMx, 2026
+[^16]: [Context Management Strategies for OpenAI Codex](https://iceberglakehouse.com/posts/2026-03-context-openai-codex/) — Alex Merced, Lakehouse Blog, 2026
