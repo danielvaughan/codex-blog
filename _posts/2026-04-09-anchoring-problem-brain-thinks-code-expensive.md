@@ -39,11 +39,9 @@ The numbers are hard to argue with.
 
 Before AI coding tools, a moderately complex feature took 800-1,200 hours of development time across a team. At blended rates, that's $50,000-$150,000 per feature. Developers — and I've seen the data on this, and it matches my experience — only write code for about 52 minutes per day on average.[^2] The rest is meetings, context-switching, code review, debugging, and staring at a screen trying to remember what you were doing before Slack interrupted you.
 
-Now look at what's happened. GitHub Copilot users complete tasks 55% faster.[^3] Teams using AI-native workflows report 40-60% increases in feature velocity. Development costs for production systems are dropping from $200K-$500K to $50K-$100K. Timelines are compressing from 6-12 months to 3-6 weeks.
+Now look at what's happened. I run three or four Codex CLI agents in parallel and watch them produce a complete feature — tests, documentation, the lot — in the time it takes me to make a coffee. Not a toy feature. A real one, with edge cases handled and error paths tested. The cost at current API pricing? Fractions of a penny. One dollar buys 14 million tokens — roughly 10.77 million words of output.[^3]
 
-And those numbers are already out of date. They describe 2024-2025. In the last few months, I've seen Codex CLI and similar agents handle tasks that compress things further still.
-
-Here's the figure that stops me cold: 41% of all code written in 2025 was AI-generated — 256 billion lines.[^4] That share is heading toward 50% in high-adoption organisations by late 2026. The cost of generating thousands of lines of code at current API pricing? Fractions of a penny. One dollar buys 14 million tokens — roughly 10.77 million words of output.[^5]
+I won't cite the 2024 productivity studies here. I've written about this before: if your reference point is a 2024 Copilot study or an early-2025 benchmark, you're measuring a world that no longer exists.[^4] The capabilities have compounded. The shift from autocomplete to autonomous agents happened in months, not years. What matters is what I see on my screen today — and what I see is code that costs essentially nothing to produce.
 
 Code has undergone the same deflationary shock that hit music, photography, encyclopaedias, and long-distance phone calls. The marginal cost of production has collapsed toward zero. But my brain — and, I suspect, yours — hasn't updated the price tag.
 
@@ -225,11 +223,9 @@ It isn't. But my brain hasn't finished updating the price tag.
 
 [^2]: Cleveroad. "Software Development Time Estimation." [cleveroad.com](https://www.cleveroad.com/blog/software-development-time-estimation/)
 
-[^3]: GitHub. "Research: Quantifying GitHub Copilot's Impact on Developer Productivity and Happiness." [github.blog](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)
+[^3]: OpenAI API pricing, April 2026. One dollar buys approximately 14 million tokens at current rates for GPT-5.3-Codex output.
 
-[^4]: Index.dev. "Top 100 Developer Productivity Statistics." [index.dev](https://www.index.dev/blog/developer-productivity-statistics-with-ai-tools)
-
-[^5]: Stanford AI Index Report; referenced in multiple analyses of AI economics.
+[^4]: See "The Reference Point Problem" — a recurring theme in this article series. Studies based on 2024 Copilot-era data measure autocomplete productivity, not autonomous agent productivity. The capability gap between those eras is qualitative, not just quantitative.
 
 [^6]: StatsSignificant. "The Rise, Fall, and (Slight) Rise of DVDs." [statsignificant.com](https://www.statsignificant.com/p/the-rise-fall-and-slight-rise-of-b06)
 
