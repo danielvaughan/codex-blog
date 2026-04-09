@@ -5,6 +5,8 @@ nav_order: 172
 tags: ["workflow-patterns", "planning"]
 ---
 
+![Sketchnote diagram for: Plan Mode Mechanics: Enter vs Tab, Syntax Highlighting and Inline Editing](/sketchnotes/articles/plan-mode-mechanics.png)
+
 # Plan Mode Mechanics: Enter vs Tab, Syntax Highlighting and Inline Editing
 
 

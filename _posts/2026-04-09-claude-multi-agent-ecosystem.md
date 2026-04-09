@@ -4,6 +4,7 @@ parent: "Articles"
 nav_order: 192
 tags: ["claude-flow", "ruflo", "agent-teams", "anthropic", "queen-worker", "mailbox", "orchestration", "codex-comparison"]
 ---
+![Sketchnote diagram for: Claude Flow, Ruflo and Anthropic Agent Teams: The Claude Multi-Agent Ecosystem](/sketchnotes/articles/claude-multi-agent-ecosystem.png)
 
 # Claude Flow, Ruflo and Anthropic Agent Teams: The Claude Multi-Agent Ecosystem
 

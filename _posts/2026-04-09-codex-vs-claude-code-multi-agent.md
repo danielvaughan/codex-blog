@@ -4,6 +4,7 @@ parent: "Articles"
 nav_order: 194
 tags: ["codex-vs-claude", "subagents", "agent-teams", "protocol-gap", "benchmarks", "token-efficiency", "a2a", "mcp", "convergence"]
 ---
+![Sketchnote diagram for: Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Protocol Gap](/sketchnotes/articles/codex-vs-claude-code-multi-agent.png)
 
 # Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Protocol Gap
 

@@ -4,6 +4,7 @@ parent: "Articles"
 nav_order: 195
 tags: ["nanoclaw", "always-on", "scheduled-tasks", "persistent-agent", "telegram", "orchestration", "skills", "batch-operations", "morning-briefing", "automation"]
 ---
+![Sketchnote diagram for: NanoClaw and Codex CLI: Building an Always-On Agentic Assistant](/sketchnotes/articles/nanoclaw-codex-cli-always-on-agentic-assistant.png)
 
 # NanoClaw and Codex CLI: Building an Always-On Agentic Assistant
 

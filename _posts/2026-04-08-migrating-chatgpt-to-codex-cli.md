@@ -5,6 +5,8 @@ nav_order: 186
 tags: ["migration", "chatgpt", "chat-to-agent", "mindset-shift", "onboarding", "workflow-transition"]
 ---
 
+![Sketchnote diagram for: Migrating to Codex CLI from ChatGPT: From Chat to Agentic Workflows](/sketchnotes/articles/migrating-chatgpt-to-codex-cli.png)
+
 # Migrating to Codex CLI from ChatGPT: From Chat to Agentic Workflows
 
 

@@ -4,6 +4,7 @@ parent: "Articles"
 nav_order: 197
 tags: ["opencode", "codex-cli", "competitive-landscape", "multi-provider", "model-flexibility", "ollama", "byok", "vendor-lock-in", "open-source", "comparison"]
 ---
+![Sketchnote diagram for: OpenCode vs Codex CLI: The Open-Source Challenger With 75+ Model Providers](/sketchnotes/articles/opencode-vs-codex-cli.png)
 
 # OpenCode vs Codex CLI: The Open-Source Challenger With 75+ Model Providers
 
