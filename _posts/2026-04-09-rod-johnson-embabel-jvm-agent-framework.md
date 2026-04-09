@@ -23,7 +23,7 @@ toc_sticky: true
 
 I spent this evening watching Rod Johnson — the creator of the Spring Framework — demo his new AI agent framework, Embabel, at the [LJC Meet-up at Tessl](https://meetu.ps/e/PWvH5/lWVv/i) in London. The event, "Java and Gen AI: JVM Agents With Embabel," was hosted by the London Java Community at Tessl AI's offices on Pentonville Road. I walked in expecting a competent Java wrapper around LLM APIs. I walked out thinking the JVM agent ecosystem just got its most important project.
 
-![Rod Johnson presenting Embabel at the LJC Meet-up at Tessl, London, 9 April 2026](https://photos.app.goo.gl/NfLR7rvhdEZoN7b76)
+*Photo: [Rod Johnson presenting Embabel at the LJC Meet-up at Tessl, London, 9 April 2026](https://photos.app.goo.gl/NfLR7rvhdEZoN7b76)*
 
 This is a write-up of the talk, with additional context from my own research into the framework.
 
@@ -99,7 +99,7 @@ This is a direct challenge to the memory ecosystem that has grown up around tool
 
 Rod did not hold back on opinions, and the audience seemed to enjoy it.
 
-On **LangChain4J**: "I really think the default choice of putting prompts in annotations is a very, very bad design decision. I think they're literally the worst place you could possibly put prompts." Given that LangChain4J is the most widely used Java LLM library, this is not a diplomatic statement. Rod's view is that prompts are content, not code, and should be managed as content — versioned, A/B tested, evaluated.
+On **LangChain4J**: Rod questioned the design choice of putting prompts in annotations, arguing that prompts are content rather than code and should be managed accordingly — versioned, A/B tested, and evaluated separately from the codebase.
 
 On **specifications**: "I honestly think that specs are a waste of time. This space is moving so quickly that even an open source project struggles to keep up. Good luck with any spec initiative." He was referring to efforts to standardise agent protocols. Given how quickly MCP went from announcement to ubiquity, and how Agent2Agent is already challenging its assumptions, I think he has a point.
 
@@ -139,7 +139,7 @@ Rod Johnson reshaped how an entire generation of developers built Java applicati
 - **The playbook tool** gates tool access based on workflow state — "you must call describe before you can call create" — enforced at the framework level rather than through prompt instructions.
 - **Agentic RAG** replaces pipeline RAG (embed-chunk-retrieve-augment) with LLM-driven search. The agent gets tools to search across multiple backends (vector, text, graph) and can navigate chunks (request next/previous) to solve boundary problems.
 - **DICE (Domain-Integrated Context Engineering)** argues that enterprise agent memory should integrate with existing domain models rather than building greenfield vector stores.
-- Rod was critical of LangChain4J's design ("prompts in annotations is a very, very bad design decision"), sceptical of specification efforts ("specs are a waste of time"), and enthusiastic about smaller local models for tool calling.
+- Rod questioned LangChain4J's annotation-based prompt design, was sceptical of specification efforts ("specs are a waste of time"), and enthusiastic about smaller local models for tool calling.
 - **1.0 is targeted for May 2026**, with skills and sandbox support moving into core. Post-1.0: running independently of Spring.
 
 ---
