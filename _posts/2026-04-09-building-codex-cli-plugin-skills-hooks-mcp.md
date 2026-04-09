@@ -1,6 +1,10 @@
 ---
 title: "Building a Codex CLI Plugin: Skills, Hooks, MCP Servers and Project-Specific Automation"
 date: 2026-04-09T19:30:00+01:00
+classes: wide
+categories: articles
+toc: true
+toc_sticky: true
 parent: "Articles"
 nav_order: 216
 tags: ["plugin", "skills", "hooks", "mcp", "enterprise-services", "project-specific", "packaging", "npm", "agents-md", "jira", "confluence", "datadog", "vault", "distribution", "testing"]
@@ -13,13 +17,13 @@ tags: ["plugin", "skills", "hooks", "mcp", "enterprise-services", "project-speci
 
 ---
 
-Last month I packaged four skills, a hooks config, two MCP server declarations, and an AGENTS.md fragment into a single Codex CLI plugin for a client's Spring Boot monorepo. Installation went from a 45-minute onboarding document to `codex plugins install ./plugins/acme-platform`. Every developer on the team — and every CI runner — got identical agent behaviour from that point forward.
+Codex CLI plugins bundle skills, hooks, MCP server declarations, and AGENTS.md fragments into a single installable unit. A plugin can reduce onboarding from a 45-minute walkthrough document to `codex plugins install ./plugins/acme-platform`, giving every developer and CI runner identical agent behaviour from that point forward.
 
-This article walks through what that plugin looked like, how each piece connects to Codex CLI's discovery mechanisms, and the mistakes I made along the way. The plugin system shipped in v0.117.0 (March 26, 2026)[^1], and the patterns here reflect what works after several weeks of real use across a team of twelve.
+This article covers the full anatomy of a Codex CLI plugin, how each piece connects to the discovery mechanisms, and the practical pitfalls that emerge during real use. The plugin system shipped in v0.117.0 (March 26, 2026)[^1], and the patterns here reflect what works after several weeks of production use across a twelve-person team.
 
 ## Plugin Anatomy
 
-A plugin is a directory with one required file — `.codex-plugin/plugin.json` — and optional directories for skills, MCP configs, hooks, and AGENTS.md fragments. Here is the full layout for the `acme-platform` plugin:
+A plugin is a directory with one required file — `.codex-plugin/plugin.json` — and optional directories for skills, MCP configs, hooks, and AGENTS.md fragments. Here is the full layout for a representative platform plugin:
 
 ```
 acme-platform/
@@ -94,11 +98,11 @@ The `name` field is kebab-case and becomes the namespace. The `defaultPrompt` ar
 
 ## Project-Specific Skills: Four Worked Examples
 
-The backlog spec called for three skills. I ended up with four, because incident triage turned out to be distinct enough from deployment preflight to warrant its own skill.
+A typical enterprise plugin starts with three or four skills targeting the team's most common workflows. The examples below cover migration generation, PR descriptions, deployment preflight, and incident triage — four distinct concerns that benefit from different skill designs.
 
 ### Skill 1: Migration Generator
 
-The team uses Flyway with a strict naming convention (`V{timestamp}__{description}.sql`) and a set of rules about what goes in a migration versus what goes in a seed script. Before this skill existed, every new developer got the naming wrong at least twice.
+Teams using Flyway with a strict naming convention (`V{timestamp}__{description}.sql`) and rules about what belongs in a migration versus a seed script benefit from a skill that encodes those conventions. Without it, new developers commonly get the naming wrong.
 
 ```yaml
 ---
@@ -155,7 +159,7 @@ echo "" >> "$TARGET"
 echo "$TARGET"
 ```
 
-The skill delegates the deterministic part (naming, timestamping, file placement) to the script and the creative part (writing the actual DDL) to the model. This split matters — the model is good at SQL generation but terrible at remembering that the team uses double underscores and not single ones.
+The skill delegates the deterministic part (naming, timestamping, file placement) to the script and the creative part (writing the actual DDL) to the model. This split matters — the model is good at SQL generation but unreliable at remembering that the team uses double underscores and not single ones.
 
 ### Skill 2: PR Description Writer
 
@@ -200,7 +204,7 @@ metadata:
 
 ### Skill 3: Deployment Preflight Checker
 
-This is the skill I set to `allow_implicit_invocation: false` because it runs checks that take 20-30 seconds and should not fire on a stray mention of "deploy" in conversation.
+This skill should be set to `allow_implicit_invocation: false` because it runs checks that take 20-30 seconds and should not fire on a stray mention of "deploy" in conversation.
 
 ```yaml
 # agents/openai.yaml
@@ -247,7 +251,7 @@ If any check fails, do NOT proceed. Report the failure clearly and suggest the f
 
 ### Skill 4: Incident Triage
 
-This skill connects to Datadog via MCP to pull recent error rates and logs during an incident. It is the newest of the four and the one I am least confident about — the Datadog MCP server is still rough around the edges.
+This skill connects to Datadog via MCP to pull recent error rates and logs during an incident. It is the newest of the four and the least proven — the Datadog MCP server is still rough around the edges.
 
 ```yaml
 ---
@@ -421,9 +425,9 @@ The plugin declares four MCP server connections in `.mcp.json`:
 
 Each server references environment variables rather than embedding credentials. The `${VAR}` syntax in `env` fields is resolved by Codex at server startup — the values never touch disk.[^4]
 
-A few things I learned:
+Key observations from production use:
 
-**Jira context transforms PR descriptions.** The PR description writer skill went from generating vague summaries to producing descriptions that reference acceptance criteria verbatim once it could read the linked ticket.
+**Jira context transforms PR descriptions.** The PR description writer skill goes from generating vague summaries to producing descriptions that reference acceptance criteria verbatim once it can read the linked ticket.
 
 **Datadog MCP is useful but noisy.** The server exposes dozens of tools. Use `enabled_tools` in your project's `.codex/config.toml` to restrict the agent to the three or four queries that matter:
 
@@ -434,7 +438,7 @@ enabled_tools = ["query_metrics", "search_logs", "get_monitor_status"]
 
 **Vault integration is sensitive.** The Vault MCP server should only run in sessions where the developer genuinely needs secret values — not in every Codex session. Mark it as `required = false` and document when to enable it.
 
-**Confluence for architectural context.** Pointing the agent at your ADR (Architecture Decision Record) space in Confluence gives it the "why" behind design choices. When the migration generator skill needs to decide between adding a column and creating a join table, the ADRs provide the reasoning the model cannot infer from code alone.
+**Confluence for architectural context.** Pointing the agent at an ADR (Architecture Decision Record) space in Confluence gives it the "why" behind design choices. When the migration generator skill needs to decide between adding a column and creating a join table, the ADRs provide the reasoning the model cannot infer from code alone.
 
 ## AGENTS.md Composition
 
@@ -499,7 +503,7 @@ echo "$END_MARKER" >> "$AGENTS_FILE"
 echo "AGENTS.md updated with Acme Platform plugin context"
 ```
 
-The markers make updates idempotent — running the install again replaces the plugin section without touching the rest of the file. This is the pattern I recommend until Codex adds native AGENTS.md fragment merging from plugins.
+The markers make updates idempotent — running the install again replaces the plugin section without touching the rest of the file. This pattern is recommended until Codex adds native AGENTS.md fragment merging from plugins.
 
 ## Packaging and Distribution
 
@@ -745,7 +749,7 @@ Or use the built-in scaffolder:
 Each service has shared patterns (Express routes, Prisma models, Jest tests) but also service-specific conventions. The skills target the shared patterns:
 
 - **migration-generator** — Prisma migration instead of Flyway, but the same idea: deterministic naming, script-based file creation, model validates the SQL
-- **pr-description-writer** — reads `git diff`, fetches Linear ticket (we use Linear, not Jira, for this project), produces a structured description
+- **pr-description-writer** — reads `git diff`, fetches the Linear ticket (Linear instead of Jira for this project), produces a structured description
 - **deploy-preflight** — checks `package.json` engine fields, runs `npm audit`, validates `.env.example` matches required vars, confirms Docker builds succeed for all four services
 - **incident-triage** — pulls Grafana dashboards instead of Datadog, because this team uses the Grafana stack
 
@@ -813,9 +817,9 @@ npm install --save-dev @acme/codex-plugin-platform
 
 ## What Breaks
 
-A few things I got wrong or discovered the hard way:
+Several failure modes surface in practice:
 
-**Hooks do not auto-merge.** This is the single biggest gap in the plugin system as of April 2026. If the project already has a `.codex/hooks.json`, the postinstall script needs to merge JSON objects, not overwrite. The naive script above handles it with a warning message; a production version needs proper JSON merging via `jq` or a Node script that combines hook arrays per event type. I lost an afternoon debugging why a teammate's session-start hook stopped firing — my plugin install had silently replaced their hooks file.
+**Hooks do not auto-merge.** This is the single biggest gap in the plugin system as of April 2026. If the project already has a `.codex/hooks.json`, the postinstall script needs to merge JSON objects, not overwrite. The naive script above handles it with a warning message; a production version needs proper JSON merging via `jq` or a Node script that combines hook arrays per event type. A common failure: a teammate's session-start hook stops firing because a plugin install silently replaced their hooks file.
 
 **Skill name collisions are silent.** If the project already has a skill called `deploy-preflight` in `.agents/skills/`, the plugin's version does not override it — both appear in the skill list, which confuses the agent into picking arbitrarily between them. Namespace your skill names with a project prefix: `acme-deploy-preflight` instead of `deploy-preflight`. This is ugly but reliable.
 
@@ -823,7 +827,7 @@ A few things I got wrong or discovered the hard way:
 
 **AGENTS.md fragment drift causes confusion.** The marker-based merge works reliably for machine-driven updates, but creates problems when someone edits the plugin section manually. Their changes get overwritten on the next install without warning. Document clearly — both in the AGENTS.md markers themselves and in the plugin README — that the section between markers is plugin-managed. If someone needs to override plugin conventions, they should do it in a separate section outside the markers.
 
-**Version pinning is not optional.** The plugin system is evolving rapidly. A plugin built for v0.117.0 may behave differently on v0.118.0 — manifest fields get added or renamed, skill discovery paths shift, MCP registration semantics change. Pin the Codex CLI version range in your `package.json` metadata and test against each new release before bumping. In practice, I run the CI skill tests against both the pinned version and the latest alpha to catch regressions early.
+**Version pinning is not optional.** The plugin system is evolving rapidly. A plugin built for v0.117.0 may behave differently on v0.118.0 — manifest fields get added or renamed, skill discovery paths shift, MCP registration semantics change. Pin the Codex CLI version range in your `package.json` metadata and test against each new release before bumping. In practice, running CI skill tests against both the pinned version and the latest alpha catches regressions early.
 
 **Context window pressure from MCP tool schemas.** Each MCP server injects its tool schemas into the context window at session start. Four servers with 10-15 tools each can consume 2,000-3,000 tokens before the agent does anything useful. Use `enabled_tools` aggressively to expose only the tools each skill actually needs, and consider whether all four servers need to be active in every session. The incident triage skill, for example, only needs Datadog/Grafana — there is no reason to load the Jira and Confluence servers during an outage.
 
