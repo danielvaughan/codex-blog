@@ -6,6 +6,8 @@ nav_order: 204
 tags: ["pricing", "pay-as-you-go", "codex-only-seats", "token-billing", "cost-modelling", "multi-agent-costs", "business-plan", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex Pay-As-You-Go Pricing: Modelling Costs for Multi-Agent Workflows](/sketchnotes/articles/2026-04-09-codex-pay-as-you-go-pricing-multi-agent-cost-modelling.png)
+
 # Codex Pay-As-You-Go Pricing: Modelling Costs for Multi-Agent Workflows
 
 
