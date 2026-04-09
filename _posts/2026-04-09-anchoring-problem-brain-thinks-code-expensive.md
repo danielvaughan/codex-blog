@@ -11,6 +11,8 @@ tags:
   - nostalgia
 ---
 
+![Sketchnote diagram for: The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive](/sketchnotes/articles/2026-04-09-anchoring-problem-brain-thinks-code-expensive.png)
+
 # The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive
 
 Last month I was at a car boot sale in Surrey. Trestle tables covered in somebody else's past. And there, between a chipped Le Creuset pot and a stack of Beano annuals, sat a Psion Series 5. Clamshell open, screen intact, that keyboard I once thought was the pinnacle of miniaturised engineering. The sticker said £1.
