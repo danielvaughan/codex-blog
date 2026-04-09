@@ -19,7 +19,7 @@ tags: ["plugin", "skills", "hooks", "mcp", "enterprise-services", "project-speci
 
 Codex CLI plugins bundle skills, hooks, MCP server declarations, and AGENTS.md fragments into a single installable unit. A plugin can reduce onboarding from a 45-minute walkthrough document to `codex plugins install ./plugins/acme-platform`, giving every developer and CI runner identical agent behaviour from that point forward.
 
-This article covers the full anatomy of a Codex CLI plugin, how each piece connects to the discovery mechanisms, and the practical pitfalls that emerge during real use. The plugin system shipped in v0.117.0 (March 26, 2026)[^1], and the patterns here reflect what works after several weeks of production use.
+This article covers the full anatomy of a Codex CLI plugin, how each piece connects to the discovery mechanisms, and the practical pitfalls that emerge during real use. The plugin system shipped in v0.117.0 (March 26, 2026)[^1].
 
 ## Plugin Anatomy
 
