@@ -5,6 +5,8 @@ nav_order: 202
 tags: ["oreilly", "ken-kousen", "mainstream-adoption", "training", "curriculum", "live-event", "ecosystem"]
 ---
 
+![Sketchnote diagram for: Codex CLI Enters the O'Reilly Curriculum: What Ken Kousen's 5-Hour Course Tells Us About Mainstream Adoption](/sketchnotes/articles/2026-04-09-codex-cli-oreilly-mainstream-adoption.png)
+
 # Codex CLI Enters the O'Reilly Curriculum: What Ken Kousen's 5-Hour Course Tells Us About Mainstream Adoption
 
 

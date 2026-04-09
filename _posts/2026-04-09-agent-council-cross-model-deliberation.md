@@ -5,6 +5,8 @@ nav_order: 201
 tags: ["agent-council", "cross-model", "deliberation", "architecture-decisions", "multi-agent", "peer-review", "grounded-decisions"]
 ---
 
+![Sketchnote diagram for: Agent Council: Cross-Model Deliberation for Architecture Decisions](/sketchnotes/articles/2026-04-09-agent-council-cross-model-deliberation.png)
+
 # Agent Council: Cross-Model Deliberation for Architecture Decisions
 
 
