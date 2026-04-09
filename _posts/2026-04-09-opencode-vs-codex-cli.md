@@ -1,5 +1,6 @@
 ---
 title: "OpenCode vs Codex CLI: The Open-Source Challenger With 75+ Model Providers"
+date: 2026-04-09T06:11:00+01:00
 parent: "Articles"
 nav_order: 197
 tags: ["opencode", "codex-cli", "competitive-landscape", "multi-provider", "model-flexibility", "ollama", "byok", "vendor-lock-in", "open-source", "comparison"]

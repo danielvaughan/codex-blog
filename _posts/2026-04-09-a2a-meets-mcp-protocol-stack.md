@@ -1,5 +1,6 @@
 ---
 title: "A2A Meets MCP: The Multi-Agent Protocol Stack and What It Means for Codex"
+date: 2026-04-09T03:13:00+01:00
 parent: "Articles"
 nav_order: 195
 tags: ["a2a", "mcp", "protocol-stack", "linux-foundation", "interoperability", "multi-vendor", "agent-coordination", "standards", "aaif"]

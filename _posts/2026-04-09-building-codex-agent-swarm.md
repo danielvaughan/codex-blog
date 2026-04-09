@@ -1,5 +1,6 @@
 ---
 title: "Building a Codex Agent Swarm: From 6 Threads to 30 with External Orchestration"
+date: 2026-04-09T04:16:00+01:00
 parent: "Articles"
 nav_order: 196
 tags: ["agent-swarm", "scaling", "external-orchestration", "parallel", "worktree-isolation", "cost-management", "typescript-sdk"]

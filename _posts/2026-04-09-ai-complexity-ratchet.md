@@ -1,5 +1,6 @@
 ---
 title: "The AI Complexity Ratchet: Why Agentic Automation Drifts Into the Pit at 200 mph"
+date: 2026-04-09T09:19:00+01:00
 parent: "Articles"
 nav_order: 200
 tags: ["complexity-ratchet", "simplicity", "drift", "over-automation", "reversibility", "architectural-intent", "approval-modes", "review-loops", "codex-cli"]
