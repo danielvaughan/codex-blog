@@ -15,7 +15,7 @@ tags:
 
 # The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive
 
-Last month I was at a car boot sale in Surrey. Trestle tables covered in somebody else's past. And there, between a chipped Le Creuset pot and a stack of Beano annuals, sat a Psion Series 5. Clamshell open, screen intact, that keyboard I once thought was the pinnacle of miniaturised engineering. The sticker said £1.
+Last year I was at a car boot sale in Saffron Walden. Trestle tables covered in somebody else's past. And there, between a chipped Le Creuset pot and a stack of Beano annuals, sat a Psion Series 5. Clamshell open, screen intact, that keyboard I once thought was the pinnacle of miniaturised engineering. I asked how much. "A pound," she said.
 
 I picked it up. In 1997 this thing cost £500 — about £860 in today's money. I remember the reviews in *Personal Computer World*. I remember wanting one and not being able to justify the price. And here it was, in a cardboard box next to a pile of DVDs at 10p each, worth less than the petrol it took to drive it to the field.
 
