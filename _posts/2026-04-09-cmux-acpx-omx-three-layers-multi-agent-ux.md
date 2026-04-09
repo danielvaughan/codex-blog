@@ -6,6 +6,8 @@ nav_order: 201
 tags: ["cmux", "acpx", "omx", "multi-agent-ux", "visual-layer", "protocol-layer", "orchestration-layer", "parallel-agents", "notifications"]
 ---
 
+![Sketchnote diagram for: cmux, ACPX, and OMX: The Three Layers of Multi-Agent UX](/sketchnotes/articles/2026-04-09-cmux-acpx-omx-three-layers-multi-agent-ux.png)
+
 # cmux, ACPX, and OMX: The Three Layers of Multi-Agent UX
 
 

@@ -5,6 +5,8 @@ nav_order: 206
 tags: ["growth", "3-million-users", "usage-limits", "adoption", "altman", "ecosystem-maturity", "pricing", "pay-as-you-go"]
 ---
 
+![Sketchnote diagram for: Codex CLI 3 Million Users: Growth Trajectory and What the Usage Limit Reset Strategy Means](/sketchnotes/articles/2026-04-09-codex-3-million-users-growth-usage-limits.png)
+
 # Codex CLI 3 Million Users: Growth Trajectory and What the Usage Limit Reset Strategy Means
 
 

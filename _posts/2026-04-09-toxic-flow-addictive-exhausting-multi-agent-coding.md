@@ -15,6 +15,8 @@ toc: true
 toc_sticky: true
 ---
 
+![Sketchnote diagram for: Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding](/sketchnotes/articles/2026-04-09-toxic-flow-addictive-exhausting-multi-agent-coding.png)
+
 # Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding
 
 You know the feeling. Four agents are running. One is refactoring the API layer, another is writing tests, a third is updating documentation, and a fourth is linting the generated output. Your terminal is alive. Diffs are streaming. Approval prompts are stacking up. You're clicking, scanning, approving, context-switching, and somewhere beneath the adrenaline you notice: your jaw is clenched, your shoulders are at your ears, and you haven't blinked in ninety seconds.
