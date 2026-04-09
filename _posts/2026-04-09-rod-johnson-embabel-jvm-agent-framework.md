@@ -17,6 +17,8 @@ toc: true
 toc_sticky: true
 ---
 
+![Sketchnote diagram for: Rod Johnson Is Back — and He's Bringing Agent AI to the JVM](/sketchnotes/articles/2026-04-09-rod-johnson-embabel-jvm-agent-framework.png)
+
 # Rod Johnson Is Back — and He's Bringing Agent AI to the JVM
 
 I spent this evening watching Rod Johnson — the creator of the Spring Framework — demo his new AI agent framework, Embabel, at a London meetup. I walked in expecting a competent Java wrapper around LLM APIs. I walked out thinking the JVM agent ecosystem just got its most important project.
