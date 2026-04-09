@@ -5,6 +5,8 @@ nav_order: 187
 tags: ["cloud", "desktop-app", "automation"]
 ---
 
+![Sketchnote diagram for: Mastering the Codex Desktop App: Automations, Triggers and the Review Queue](/sketchnotes/articles/codex-desktop-automations.png)
+
 # Mastering the Codex Desktop App: Automations, Triggers and the Review Queue
 
 

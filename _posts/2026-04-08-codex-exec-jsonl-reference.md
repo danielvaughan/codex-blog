@@ -5,6 +5,8 @@ nav_order: 185
 tags: ["reference", "automation", "observability"]
 ---
 
+![Sketchnote diagram for: codex exec JSONL Reference: Every Event Type and the Complete Output Schema](/sketchnotes/articles/codex-exec-jsonl-reference.png)
+
 # codex exec JSONL Reference: Every Event Type and the Complete Output Schema
 
 

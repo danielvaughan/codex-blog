@@ -5,6 +5,8 @@ nav_order: 185
 tags: ["ecosystem", "typescript-sdk"]
 ---
 
+![Sketchnote diagram for: Codex TypeScript SDK: Streaming, Multimodal Inputs and Per-Thread Configuration](/sketchnotes/articles/codex-typescript-sdk-streaming-multimodal.png)
+
 # Codex TypeScript SDK: Streaming, Multimodal Inputs and Per-Thread Configuration
 
 
