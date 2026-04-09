@@ -13,16 +13,18 @@
 {%- endcomment -%}
 {%- assign placement = include.placement -%}
 {%- assign utm_url = site.book.leanpub_url | append: "?utm_source=codex-blog&utm_medium=" | append: placement | append: "&utm_campaign=book-widget" -%}
-<aside class="book-{{ placement }}" aria-label="Buy the book: {{ site.book.title | escape }}">
+<aside class="book-{{ placement }}" aria-label="The book: {{ site.book.title | escape }}">
   <a class="book-{{ placement }}__cover" href="{{ utm_url }}" tabindex="-1" rel="noopener" target="_blank">
     <img src="{{ site.book.cover_url }}" alt="Cover of the book {{ site.book.title | escape }} by {{ site.author.name | escape }}">
   </a>
   <div class="book-{{ placement }}__body">
     <p class="book-{{ placement }}__title">{{ site.book.title | escape }}</p>
     <p class="book-{{ placement }}__subtitle">{{ site.book.subtitle | escape }}</p>
+{%- if site.book.price_text and site.book.price_text != "" -%}
     <p class="book-{{ placement }}__price">{{ site.book.price_text | escape }}</p>
+{%- endif -%}
     <a class="book-{{ placement }}__cta" href="{{ utm_url }}" rel="noopener" target="_blank">
-      Buy on Leanpub <span aria-hidden="true">→</span>
+      View on Leanpub <span aria-hidden="true">→</span>
     </a>
   </div>
 </aside>
