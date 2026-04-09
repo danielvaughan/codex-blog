@@ -1,5 +1,6 @@
 ---
 title: "Codex Pay-As-You-Go Pricing: Modelling Costs for Multi-Agent Workflows"
+date: 2026-04-09T14:12:00+01:00
 parent: "Articles"
 nav_order: 204
 tags: ["pricing", "pay-as-you-go", "codex-only-seats", "token-billing", "cost-modelling", "multi-agent-costs", "business-plan", "enterprise"]
