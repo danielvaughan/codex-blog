@@ -23,7 +23,7 @@ toc_sticky: true
 
 I spent this evening watching Rod Johnson — the creator of the Spring Framework — demo his new AI agent framework, Embabel, at the [LJC Meet-up at Tessl](https://meetu.ps/e/PWvH5/lWVv/i) in London. The event, "Java and Gen AI: JVM Agents With Embabel," was hosted by the London Java Community at Tessl AI's offices on Pentonville Road. I walked in expecting a competent Java wrapper around LLM APIs. I walked out thinking the JVM agent ecosystem just got its most important project.
 
-![Rod Johnson presenting Embabel at the LJC Meet-up at Tessl, London, 9 April 2026](https://photos.app.goo.gl/H923VVtND1DHefhf9)
+![Rod Johnson presenting Embabel at the LJC Meet-up at Tessl, London, 9 April 2026](https://photos.app.goo.gl/NfLR7rvhdEZoN7b76)
 
 This is a write-up of the talk, with additional context from my own research into the framework.
 
