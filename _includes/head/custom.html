@@ -37,7 +37,45 @@
       });
     }
 
-    // 3) Inline TOC builder — populates nav.post-toc from .post-body h2 elements.
+    // 3) Wrap tables in a scrollable container so they stay full-width
+    //    while still allowing horizontal scroll on narrow viewports.
+    document.querySelectorAll('.post-body table').forEach(function (tbl) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'table-scroll';
+      tbl.parentNode.insertBefore(wrapper, tbl);
+      wrapper.appendChild(tbl);
+    });
+
+    // 4) Code blocks: inject language label + copy button.
+    document.querySelectorAll('.post-body div.highlighter-rouge').forEach(function (block) {
+      // Language label — extract from class e.g. "language-bash"
+      var langMatch = block.className.match(/language-(\S+)/);
+      if (langMatch) {
+        block.setAttribute('data-lang', langMatch[1]);
+      }
+
+      // Copy button
+      var btn = document.createElement('button');
+      btn.className = 'code-copy-btn';
+      btn.textContent = 'Copy';
+      btn.setAttribute('aria-label', 'Copy code to clipboard');
+      btn.addEventListener('click', function () {
+        var code = block.querySelector('pre');
+        if (!code) return;
+        navigator.clipboard.writeText(code.textContent.trim()).then(function () {
+          btn.textContent = 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(function () {
+            btn.textContent = 'Copy';
+            btn.classList.remove('copied');
+          }, 2000);
+        });
+      });
+      block.style.position = 'relative';
+      block.appendChild(btn);
+    });
+
+    // 5) Inline TOC builder — populates nav.post-toc from .post-body h2 elements.
     var nav = document.querySelector('nav.post-toc');
     if (!nav) return;
     var ul = nav.querySelector('ul');
@@ -79,7 +117,36 @@
       code.parentNode.parentNode.replaceChild(div, code.parentNode);
     });
 
-    mermaid.initialize({ startOnLoad: false, theme: 'default', securityLevel: 'loose' });
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: 'loose',
+      theme: 'base',
+      themeVariables: {
+        // Primary palette — matches $primary (#0869ff) and site grays
+        primaryColor: '#0869ff',
+        primaryTextColor: '#ffffff',
+        primaryBorderColor: '#0555cc',
+        // Secondary / tertiary nodes
+        secondaryColor: '#e8f0fe',
+        secondaryTextColor: '#343a40',
+        secondaryBorderColor: '#0869ff',
+        tertiaryColor: '#f8f9fa',
+        tertiaryTextColor: '#343a40',
+        tertiaryBorderColor: '#ced4da',
+        // Lines and labels — dark text so edge labels are readable
+        lineColor: '#5a5a5a',
+        textColor: '#343a40',
+        edgeLabelBackground: '#ffffff',
+        // Flowchart specifics
+        nodeBorder: '#0555cc',
+        mainBkg: '#0869ff',
+        clusterBkg: '#f0f5ff',
+        clusterBorder: '#a4c4f7',
+        // Fonts — match blog headings
+        fontFamily: 'Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+        fontSize: '14px',
+      }
+    });
     mermaid.run();
   });
 </script>
