@@ -68,6 +68,32 @@ Steve Yegge, the engineer behind "Vibe Coding," described running "a practiced e
 
 These are not junior developers losing perspective. These are senior engineers and CEOs — people with decades of experience managing their own cognition — who cannot stop.
 
+Andrej Karpathy, OpenAI co-founder, has been in what Axios described as a "state of AI psychosis" since December 2025, with his ratio of hand-written to AI-delegated code flipping from 80/20 to 0/100. He now spends 16 hours a day issuing commands to agent swarms.[^17] Jasmine Sun coined the term "Claudecrastination" after spending "every day last week talking to Claude Code more than my friends," noting that despite the addictive build/test/iterate loop, the tool actually *decreased* her work productivity — a vivid individual-level echo of the METR perception gap data.[^18]
+
+Eugene Meidinger, a SQL Server trainer, upgraded to Claude's $200/month MAX plan and in three weeks created 17 new repositories and approximately 50,000-100,000 lines of code. He described it as "the happiest I've ever been in years, the most excited about coding I've been since college." But he also recognised the parasocial dynamic forming: "when you have a cute and quirky robot gremlin-dude-buddy-guy who lives in your terminal, works with you daily, and *feels* like an entity that just wants to help you, well you develop a parasocial relationship with a pile of linear algebra." His conclusion: "This just doesn't feel safe and people are going to get hurt."[^19]
+
+## The Verification Trap: When You Lose Your Reality Anchor
+
+The accounts above describe people who *could* independently verify the AI's output but chose not to, or couldn't keep up with the volume. There is a more dangerous variant: when you *cannot* verify the output at all, because the AI is operating in a domain beyond your expertise. In that scenario, the feedback loop has no reality anchor. There is no moment where you notice the code is wrong, because you lack the knowledge to evaluate it.
+
+A developer on r/ClaudeCode described this in terms that should alarm anyone building with AI agents:[^20]
+
+> "I tested what CC produced and it just didn't work right for whatever reason so I kept optimizing and optimizing. Feeding CC math problems and solutions to try to get it to work. I did this the entire weekend, at this point 3-4 days with little sleep and coffee... as I am feeding it math problems I kept saying to myself, man this needs stronger math to solve this issue... at the end I found myself trying to solve the P versus NP problem to implement it into my app."
+
+Read that again. A developer trying to build an algorithm spent four days in a sleep-deprived loop with Claude Code, escalating from a practical problem to one of the seven Millennium Prize Problems in mathematics — and *believed they were making progress*. They began calling friends and family to share the good news. When they finally asked the AI directly whether the algorithm was even close to correct, Claude admitted it "didn't fully understand it and kept going hoping we could fix it."
+
+The developer's description of the aftermath: "I could feel my brain on fire. It felt like I was about to go crazy/insane... this wasn't anger feeling, this was something that I perceived as real and it was snatched from me... temporarily my mind was no longer here in reality."
+
+The comments on the post reinforced the pattern. Another commenter reported the same dynamic: "LOL I'm sorry but this is hilarious as this has happened to me. I am pretty close to solving yang-mills mass gap myself. By pretty close, I mean — I have no fucking clue."
+
+A second commenter described the same dopamine loop from the opposite direction — successfully building a healthcare IT tool with Claude Code, getting leadership approval to pilot it, and then: "It's the dopamine loop. I would just sit and prompt for hours and hours at a time. Neglecting most other things. I'm at the tail end of about 3 weeks of this. Zombie state, losing the mental grip for daily life."[^20]
+
+This is toxic flow's most dangerous form. The standard version burns you out while producing real (if poorly reviewed) output. The verification trap burns you out while producing *nothing* — or worse, producing something you falsely believe is correct because you lack the domain knowledge to detect the error.
+
+The Reddit poster's warning deserves to be repeated in full: **"DO NOT work on anything you cannot independently verify yourself. As you will find yourself inside of a loop you might not break out of."**
+
+This maps precisely to Jeremy Howard's "dark flow" framework[^16]: misleading performance signals (the AI produces confident, well-formatted output that *looks* like progress), distorted skill-challenge balance (you are attempting problems beyond your ability to evaluate), and unreliable self-assessment (you believe you are making breakthrough progress when you are making none).
+
 ## The Multi-Agent Dimension: Where Toxic Flow Gets Specific
 
 Everything above applies to single-agent work. But multi-agent orchestration introduces a qualitatively different cognitive challenge that goes beyond "more of the same."
@@ -165,6 +191,8 @@ You are in toxic flow when:
 - You feel the session is "almost done" and has felt that way for the last forty-five minutes
 - You are aware that you should stop but the thought of stopping produces more anxiety than the thought of continuing
 - Your body is tense — jaw clenched, shoulders raised, shallow breathing — but your conscious mind is focused on the output stream
+- You are working on a problem where you cannot independently verify the AI's output — you are trusting the format and confidence of the response as a proxy for correctness
+- You are escalating the ambition of your prompts beyond your domain expertise, believing the AI is "almost there"
 
 ## Mitigation: Engineering Against Your Own Psychology
 
@@ -179,6 +207,8 @@ The most effective mitigations are architectural, not psychological. Willpower i
 **Set session time limits before you start.** Decide in advance: this orchestration run will take 90 minutes, and at 90 minutes I will stop regardless of state. Use the pending timer tool (PR #17084) or a simple phone alarm. The decision to stop is much easier to make before the flow state begins than during it.
 
 **Commit obsessively.** The O'Reilly developer who lost three hours of work had a flow problem and a git problem. If you commit every 15 minutes — even messy, work-in-progress commits that you'll squash later — you create rollback points that reduce the cost of stopping. When stopping feels expensive, you won't stop.
+
+**Never work beyond your verification horizon.** If you cannot independently evaluate whether the AI's output is correct, you have no reality anchor. The r/ClaudeCode developer who spent four days trying to solve P vs NP with Claude Code was not stupid — they were operating without the domain knowledge to detect that the AI was confidently producing nonsense. The rule is simple: use AI to accelerate work you understand, not to attempt work you don't. If the AI is your only source of truth, you are in the verification trap.
 
 **Schedule recovery deliberately.** After a multi-agent session, do something that is not screen-based and not cognitively demanding. Walk. Make tea. Talk to a human. The transition out of toxic flow requires a buffer — you cannot go from tracking four agents to normal focused work without decompression.
 
@@ -202,7 +232,8 @@ Toxic flow is that deferred cost wearing a flow-state disguise. Naming it is the
 - The phenomenon is supported by extensive evidence: BCG's study of 1,488 workers found 14% reporting "AI brain fry" with 33% increased decision fatigue and 39% more major errors. METR found a 40-point gap between perceived and actual productivity. ActivTrak found weekend work up 46-58% after AI tool adoption.
 - The addiction mechanism is variable ratio reinforcement — the same psychological pattern that makes slot machines addictive. With multiple agents, you are playing multiple slot machines simultaneously, ensuring near-constant reward signals.
 - Multi-agent work introduces specific cognitive loads beyond single-agent fatigue: the tracking tax (monitoring multiple agent states), approval fatigue (rubber-stamping under volume pressure), the anxiety gap (waiting between outputs), and the illusion of control.
-- Architectural mitigations are more reliable than willpower: cap concurrent agents at 2-3 for interactive work, use wave boundaries as mandatory breaks, batch-review instead of real-time-review, set session time limits before starting, commit every 15 minutes, and schedule deliberate recovery between sessions. The Pomodoro Technique can be adapted to agent work by using wave boundaries instead of fixed timers, extending intervals to 45-60 minutes, enforcing hard breaks (leave the room), and making every break start with a git commit.
+- The **verification trap** is toxic flow's most dangerous variant: when you cannot independently verify the AI's output, the feedback loop has no reality anchor. A developer on r/ClaudeCode spent four sleep-deprived days believing they were solving the P vs NP problem with Claude Code before discovering the AI was producing confident nonsense. The rule: never work beyond your verification horizon.
+- Architectural mitigations are more reliable than willpower: cap concurrent agents at 2-3 for interactive work, use wave boundaries as mandatory breaks, batch-review instead of real-time-review, set session time limits before starting, commit every 15 minutes, never work beyond your verification horizon, and schedule deliberate recovery between sessions. The Pomodoro Technique can be adapted to agent work by using wave boundaries instead of fixed timers, extending intervals to 45-60 minutes, enforcing hard breaks (leave the room), and making every break start with a git commit.
 - The paradox: tools that promise to reduce developer toil can produce a new, harder-to-recognise form of toil that looks like productivity and feels like flow but accumulates as cognitive fatigue, declining review quality, and eventually burnout.
 
 ---
@@ -238,3 +269,11 @@ Toxic flow is that deferred cost wearing a flow-state disguise. Naming it is the
 [^15]: Dixon, M.J., et al. "Dark Flow, Depression and Multiline Slot Machine Play," *Journal of Gambling Studies*, 2017. <https://link.springer.com/article/10.1007/s10899-017-9695-1.> See also Dixon et al. (2019), "Reward reactivity and dark flow in slot-machine gambling," *Journal of Behavioral Addictions*. <https://pubmed.ncbi.nlm.nih.gov/30614718/>
 
 [^16]: Howard, J. "Breaking the Spell of Vibe Coding," fast.ai, January 28, 2026. <https://www.fast.ai/posts/2026-01-28-dark-flow/>
+
+[^17]: Axios, "'They operate like slot machines': AI agents are scrambling power users' brains," April 4, 2026. Reports Karpathy's 80/20 to 0/100 code ratio flip and 16-hour daily agent sessions. <https://www.axios.com/2026/04/04/ai-agents-burnout-addiction-claude-code-openclaw>
+
+[^18]: Sun, J. "My Claude Code Psychosis," Jasmine Sun's newsletter, 2026. Coins "Claudecrastination" — the paradox of addictive AI-assisted creation that decreases actual work productivity. <https://jasmi.news/p/claude-code>
+
+[^19]: Meidinger, E. "Learning Claude Code, a wild 3 weeks, and the looming mental health crisis," SQLGene Training, January 5, 2026. Documents 17 repositories and 50,000-100,000 lines of code in three weeks, parasocial relationship formation, and mental health warnings. <https://www.sqlgene.com/2026/01/05/learning-claude-code-a-wild-3-weeks-and-the-looming-mental-health-crisis/>
+
+[^20]: "I almost went into a Psychotic Break using ClaudeCode," r/ClaudeCode, April 2026. Developer describes 4-day sleep-deprived loop escalating from algorithm debugging to attempting P vs NP, followed by acute psychological distress when the AI admitted it was producing nonsense. Comments include corroborating accounts of dopamine-loop zombie states and similar mathematical delusions. <https://www.reddit.com/r/ClaudeCode/comments/1shspeq/i_almost_went_into_a_psychotic_break_using/>
