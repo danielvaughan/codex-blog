@@ -1,5 +1,6 @@
 ---
 title: "Running Gemma 4 as a Local Model in the Codex CLI Harness: A Complete Setup Guide"
+date: 2026-04-10T07:00:00+01:00
 parent: "Articles"
 nav_order: 230
 tags: ["local-models` `gemma-4` `llama-cpp` `ollama` `vllm` `config-toml` `tool-calling` `self-hosted` `privacy` `cost-control` `dell-pro-max` `gb10` `blackwell"]
