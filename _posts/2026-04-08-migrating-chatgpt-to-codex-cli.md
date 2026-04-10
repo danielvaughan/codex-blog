@@ -12,7 +12,7 @@ tags:
   - codex-cli
 ---
 
-![Sketchnote diagram for: Migrating to Codex CLI from ChatGPT: From Chat to Agentic Workflows](/sketchnotes/articles/migrating-chatgpt-to-codex-cli.png)
+![Sketchnote diagram for: Migrating to Codex CLI from ChatGPT: From Chat to Agentic Workflows](/sketchnotes/articles/2026-04-08-migrating-chatgpt-to-codex-cli.png)
 
 # Migrating to Codex CLI from ChatGPT: From Chat to Agentic Workflows
 

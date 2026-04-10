@@ -13,7 +13,7 @@ tags:
   - skill-md
   - agents-md
 ---
-![Sketchnote diagram for: Codex CLI Skills: When a 10-Word Prompt Beats a Production Artefact](/sketchnotes/articles/codex-cli-skills-prompt-beats-production-artefact.png)
+![Sketchnote diagram for: Codex CLI Skills: When a 10-Word Prompt Beats a Production Artefact](/sketchnotes/articles/2026-04-09-codex-cli-skills-prompt-beats-production-artefact.png)
 
 # Codex CLI Skills: When a 10-Word Prompt Beats a Production Artefact
 

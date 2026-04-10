@@ -13,7 +13,7 @@ tags:
   - a2a
   - mcp
 ---
-![Sketchnote diagram for: Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Protocol Gap](/sketchnotes/articles/codex-vs-claude-code-multi-agent.png)
+![Sketchnote diagram for: Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Protocol Gap](/sketchnotes/articles/2026-04-09-codex-vs-claude-code-multi-agent.png)
 
 # Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Protocol Gap
 

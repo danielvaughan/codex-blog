@@ -13,7 +13,7 @@ tags:
   - skills
   - batch-operations
 ---
-![Sketchnote diagram for: NanoClaw and Codex CLI: Building an Always-On Agentic Assistant](/sketchnotes/articles/nanoclaw-codex-cli-always-on-agentic-assistant.png)
+![Sketchnote diagram for: NanoClaw and Codex CLI: Building an Always-On Agentic Assistant](/sketchnotes/articles/2026-04-09-nanoclaw-codex-cli-always-on-agentic-assistant.png)
 
 # NanoClaw and Codex CLI: Building an Always-On Agentic Assistant
 

@@ -14,7 +14,7 @@ tags:
   - codex-cli
 ---
 
-![Sketchnote diagram for: Building a Codex Agent Swarm: From 6 Threads to 30 with External Orchestration](/sketchnotes/articles/building-codex-agent-swarm.png)
+![Sketchnote diagram for: Building a Codex Agent Swarm: From 6 Threads to 30 with External Orchestration](/sketchnotes/articles/2026-04-09-building-codex-agent-swarm.png)
 
 # Building a Codex Agent Swarm: From 6 Threads to 30 with External Orchestration
 

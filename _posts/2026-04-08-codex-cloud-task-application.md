@@ -10,7 +10,7 @@ tags:
   - codex-cli
 ---
 
-![Sketchnote diagram for: Codex Cloud Task Application: From Slack Dispatch to Reviewed Diff Merge](/sketchnotes/articles/codex-cloud-task-application.png)
+![Sketchnote diagram for: Codex Cloud Task Application: From Slack Dispatch to Reviewed Diff Merge](/sketchnotes/articles/2026-04-08-codex-cloud-task-application.png)
 
 # Codex Cloud Task Application: From Slack Dispatch to Reviewed Diff Merge
 

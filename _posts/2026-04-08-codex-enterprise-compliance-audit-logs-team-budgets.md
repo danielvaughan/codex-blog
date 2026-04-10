@@ -13,7 +13,7 @@ tags:
   - requirements-toml
 ---
 
-![Sketchnote diagram for: Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard](/sketchnotes/articles/codex-enterprise-compliance-audit-logs-team-budgets.png)
+![Sketchnote diagram for: Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard](/sketchnotes/articles/2026-04-08-codex-enterprise-compliance-audit-logs-team-budgets.png)
 
 # Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard
 

@@ -13,7 +13,7 @@ tags:
   - codex-cli
 ---
 
-![Sketchnote diagram for: Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics](/sketchnotes/articles/codex-cli-performance-optimization.png)
+![Sketchnote diagram for: Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics](/sketchnotes/articles/2026-04-08-codex-cli-performance-optimization.png)
 
 # Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics
 

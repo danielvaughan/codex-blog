@@ -14,7 +14,7 @@ tags:
   - standards
 ---
 
-![Sketchnote diagram for: A2A Meets MCP: The Multi-Agent Protocol Stack and What It Means for Codex](/sketchnotes/articles/a2a-meets-mcp-protocol-stack.png)
+![Sketchnote diagram for: A2A Meets MCP: The Multi-Agent Protocol Stack and What It Means for Codex](/sketchnotes/articles/2026-04-09-a2a-meets-mcp-protocol-stack.png)
 
 # A2A Meets MCP: The Multi-Agent Protocol Stack and What It Means for Codex
 

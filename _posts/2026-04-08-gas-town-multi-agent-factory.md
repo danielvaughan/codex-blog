@@ -13,7 +13,7 @@ tags:
   - claude-code
 ---
 
-![Sketchnote diagram for: Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI](/sketchnotes/articles/gas-town-multi-agent-factory.png)
+![Sketchnote diagram for: Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI](/sketchnotes/articles/2026-04-08-gas-town-multi-agent-factory.png)
 
 # Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI
 

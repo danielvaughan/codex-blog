@@ -13,7 +13,7 @@ tags:
   - byok
   - vendor-lock-in
 ---
-![Sketchnote diagram for: OpenCode vs Codex CLI: The Open-Source Challenger With 75+ Model Providers](/sketchnotes/articles/opencode-vs-codex-cli.png)
+![Sketchnote diagram for: OpenCode vs Codex CLI: The Open-Source Challenger With 75+ Model Providers](/sketchnotes/articles/2026-04-09-opencode-vs-codex-cli.png)
 
 # OpenCode vs Codex CLI: The Open-Source Challenger With 75+ Model Providers
 

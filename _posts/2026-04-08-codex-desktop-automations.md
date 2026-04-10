@@ -9,7 +9,7 @@ tags:
   - codex-cli
 ---
 
-![Sketchnote diagram for: Mastering the Codex Desktop App: Automations, Triggers and the Review Queue](/sketchnotes/articles/codex-desktop-automations.png)
+![Sketchnote diagram for: Mastering the Codex Desktop App: Automations, Triggers and the Review Queue](/sketchnotes/articles/2026-04-08-codex-desktop-automations.png)
 
 # Mastering the Codex Desktop App: Automations, Triggers and the Review Queue
 

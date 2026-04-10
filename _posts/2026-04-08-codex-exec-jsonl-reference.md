@@ -9,7 +9,7 @@ tags:
   - codex-cli
 ---
 
-![Sketchnote diagram for: codex exec JSONL Reference: Every Event Type and the Complete Output Schema](/sketchnotes/articles/codex-exec-jsonl-reference.png)
+![Sketchnote diagram for: codex exec JSONL Reference: Every Event Type and the Complete Output Schema](/sketchnotes/articles/2026-04-08-codex-exec-jsonl-reference.png)
 
 # codex exec JSONL Reference: Every Event Type and the Complete Output Schema
 

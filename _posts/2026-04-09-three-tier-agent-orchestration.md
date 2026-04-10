@@ -13,7 +13,7 @@ tags:
   - decision-framework
   - agent-tiers
 ---
-![Sketchnote diagram for: The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud](/sketchnotes/articles/three-tier-agent-orchestration.png)
+![Sketchnote diagram for: The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud](/sketchnotes/articles/2026-04-09-three-tier-agent-orchestration.png)
 
 # The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud
 

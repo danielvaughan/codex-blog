@@ -7,7 +7,7 @@ tags:
   - planning
 ---
 
-![Sketchnote diagram for: Plan Mode Mechanics: Enter vs Tab, Syntax Highlighting and Inline Editing](/sketchnotes/articles/plan-mode-mechanics.png)
+![Sketchnote diagram for: Plan Mode Mechanics: Enter vs Tab, Syntax Highlighting and Inline Editing](/sketchnotes/articles/2026-04-08-plan-mode-mechanics.png)
 
 # Plan Mode Mechanics: Enter vs Tab, Syntax Highlighting and Inline Editing
 

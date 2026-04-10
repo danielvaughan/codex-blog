@@ -9,7 +9,7 @@ tags:
   - ide-extension
 ---
 
-![Sketchnote diagram for: Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud](/sketchnotes/articles/cross-surface-session-sync.png)
+![Sketchnote diagram for: Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud](/sketchnotes/articles/2026-04-08-cross-surface-session-sync.png)
 
 # Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud
 

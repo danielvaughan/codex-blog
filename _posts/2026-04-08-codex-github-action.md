@@ -9,7 +9,7 @@ tags:
   - codex-cli
 ---
 
-![Sketchnote diagram for: The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs](/sketchnotes/articles/codex-github-action.png)
+![Sketchnote diagram for: The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs](/sketchnotes/articles/2026-04-08-codex-github-action.png)
 
 # The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs
 

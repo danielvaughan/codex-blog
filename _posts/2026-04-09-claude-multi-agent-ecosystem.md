@@ -13,7 +13,7 @@ tags:
   - orchestration
   - codex-comparison
 ---
-![Sketchnote diagram for: Claude Flow, Ruflo and Anthropic Agent Teams: The Claude Multi-Agent Ecosystem](/sketchnotes/articles/claude-multi-agent-ecosystem.png)
+![Sketchnote diagram for: Claude Flow, Ruflo and Anthropic Agent Teams: The Claude Multi-Agent Ecosystem](/sketchnotes/articles/2026-04-09-claude-multi-agent-ecosystem.png)
 
 # Claude Flow, Ruflo and Anthropic Agent Teams: The Claude Multi-Agent Ecosystem
 
