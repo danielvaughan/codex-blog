@@ -1,5 +1,6 @@
 ---
 title: "Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI"
+date: 2026-04-10T07:00:00+01:00
 parent: "Articles"
 nav_order: 217
 tags: ["platform-engineering", "kubecon", "whitney-lee", "viktor-farcic", "crossplane", "internal-developer-platform", "mcp", "agents-md", "guardrails", "convergence"]

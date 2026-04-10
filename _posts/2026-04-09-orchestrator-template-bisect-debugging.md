@@ -1,5 +1,6 @@
 ---
 title: "Orchestrator Template Internals: How OpenAI's Bisect PRs Reveal Multi-Agent v2 Debugging"
+date: 2026-04-09T11:30:00+01:00
 parent: "Articles"
 nav_order: 205
 tags: ["orchestrator-template", "bisect-debugging", "multi-agent-v2", "internals", "prompt-debugging", "subagents"]

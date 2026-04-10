@@ -1,5 +1,6 @@
 ---
 title: "AI-Assisted Coding Tool Comparison: What the freeCodeCamp 85-Minute Course Teaches Practitioners"
+date: 2026-04-09T10:30:00+01:00
 parent: "Articles"
 nav_order: 194
 tags: ["freecodecamp` `ai-assisted-coding` `tool-comparison` `copilot` `claude-code` `gemini-cli` `openclaw` `coderabbit` `discoverability"]

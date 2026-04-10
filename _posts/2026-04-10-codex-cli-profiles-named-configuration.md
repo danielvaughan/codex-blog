@@ -1,5 +1,6 @@
 ---
 title: "Profiles and Named Configuration: Running Multiple Codex Personas from One Machine"
+date: 2026-04-10T07:15:00+01:00
 parent: "Articles"
 nav_order: 220
 tags: ["profiles` `named-config` `enterprise` `ci-cd` `config-toml` `multi-persona` `team-config"]

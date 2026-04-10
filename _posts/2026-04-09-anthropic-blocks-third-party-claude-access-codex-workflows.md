@@ -1,5 +1,6 @@
 ---
 title: "Anthropic Blocks Third-Party Claude Access: What It Means for Multi-Tool Codex Workflows"
+date: 2026-04-09T09:00:00+01:00
 parent: "Articles"
 nav_order: 210
 tags: ["third-party-access", "openclaw", "anthropic-policy", "multi-tool", "cost-model", "subscription-pricing", "competitive-landscape"]

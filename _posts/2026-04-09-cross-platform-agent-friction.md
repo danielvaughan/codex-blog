@@ -1,5 +1,6 @@
 ---
 title: "Cross-Platform Agent Friction: The Five Pain Points Every CLI Tool Shares in April 2026"
+date: 2026-04-09T10:00:00+01:00
 parent: "Articles"
 nav_order: 212
 tags: ["cross-platform", "friction-points", "billing-opacity", "multi-agent-friction", "mcp-friction", "competitive-analysis", "agents-radar", "windows-parity"]
