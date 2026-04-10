@@ -13,6 +13,8 @@ tags:
   - devbox
   - minions
 ---
+![Sketchnote diagram for: Stripe's AI Agent Patterns: What Enterprise-Scale Agent Deployment Teaches Codex CLI Users](/sketchnotes/articles/2026-04-10-stripe-ai-agent-patterns-enterprise-codex-cli.png)
+
 
 # Stripe's AI Agent Patterns: What Enterprise-Scale Agent Deployment Teaches Codex CLI Users
 

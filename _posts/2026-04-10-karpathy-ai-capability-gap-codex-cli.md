@@ -13,6 +13,8 @@ tags:
   - verifiable-rewards
   - perception
 ---
+![Sketchnote diagram for: The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality](/sketchnotes/articles/2026-04-10-karpathy-ai-capability-gap-codex-cli.png)
+
 
 # The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality
 

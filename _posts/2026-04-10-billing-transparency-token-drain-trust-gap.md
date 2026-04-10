@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 236
 tags: ["billing", "token-drain", "usage-limits", "trust", "cost-transparency", "competitive", "claude-code", "codex-cli", "windsurf"]
 ---
+![Sketchnote diagram for: Billing Transparency Crisis: Token Drain, Usage Limits, and the Trust Gap Across AI Coding Tools](/sketchnotes/articles/2026-04-10-billing-transparency-token-drain-trust-gap.png)
+
 
 # Billing Transparency Crisis: Token Drain, Usage Limits, and the Trust Gap Across AI Coding Tools
 

@@ -13,6 +13,8 @@ tags:
   - team-config
   - codex-cli
 ---
+![Sketchnote diagram for: Profiles and Named Configuration: Running Multiple Codex Personas from One Machine](/sketchnotes/articles/2026-04-10-codex-cli-profiles-named-configuration.png)
+
 
 # Profiles and Named Configuration: Running Multiple Codex Personas from One Machine
 

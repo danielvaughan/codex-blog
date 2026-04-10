@@ -13,6 +13,8 @@ tags:
   - cole-medin
   - codex-cli
 ---
+![Sketchnote diagram for: The 5 Techniques of Top Agentic Engineers (Cole Medin's Framework Applied to Codex CLI)](/sketchnotes/articles/2026-04-10-five-techniques-agentic-engineers-codex-cli.png)
+
 
 # The 5 Techniques of Top Agentic Engineers (Cole Medin's Framework Applied to Codex CLI)
 

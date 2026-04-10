@@ -13,6 +13,8 @@ tags:
   - openclaw
   - coderabbit
 ---
+![Sketchnote diagram for: AI-Assisted Coding Tool Comparison: What the freeCodeCamp 85-Minute Course Teaches Practitioners](/sketchnotes/articles/2026-04-09-freecodecamp-ai-tools-course-codex-lessons.png)
+
 
 # AI-Assisted Coding Tool Comparison: What the freeCodeCamp 85-Minute Course Teaches Practitioners
 

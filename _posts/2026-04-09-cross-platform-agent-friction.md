@@ -13,6 +13,8 @@ tags:
   - agents-radar
   - windows-parity
 ---
+![Sketchnote diagram for: Cross-Platform Agent Friction: The Five Pain Points Every CLI Tool Shares in April 2026](/sketchnotes/articles/2026-04-09-cross-platform-agent-friction.png)
+
 
 # Cross-Platform Agent Friction: The Five Pain Points Every CLI Tool Shares in April 2026
 

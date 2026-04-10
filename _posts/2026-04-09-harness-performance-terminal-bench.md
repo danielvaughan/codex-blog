@@ -13,6 +13,8 @@ tags:
   - model-harness-gap
   - open-source
 ---
+![Sketchnote diagram for: Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice](/sketchnotes/articles/2026-04-09-harness-performance-terminal-bench.png)
+
 
 # Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice
 

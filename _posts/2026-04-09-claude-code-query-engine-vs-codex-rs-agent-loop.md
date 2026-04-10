@@ -12,6 +12,8 @@ tags:
   - tool-system
   - comparison
 ---
+![Sketchnote diagram for: Claude Code's query-engine.ts vs Codex CLI's codex-rs: Comparing Agent Loop Architectures](/sketchnotes/articles/2026-04-09-claude-code-query-engine-vs-codex-rs-agent-loop.png)
+
 
 # Claude Code's query-engine.ts vs Codex CLI's codex-rs: Comparing Agent Loop Architectures
 

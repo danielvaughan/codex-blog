@@ -12,6 +12,8 @@ tags:
   - subscription-pricing
   - competitive-landscape
 ---
+![Sketchnote diagram for: Anthropic Blocks Third-Party Claude Access: What It Means for Multi-Tool Codex Workflows](/sketchnotes/articles/2026-04-09-anthropic-blocks-third-party-claude-access-codex-workflows.png)
+
 
 # Anthropic Blocks Third-Party Claude Access: What It Means for Multi-Tool Codex Workflows
 

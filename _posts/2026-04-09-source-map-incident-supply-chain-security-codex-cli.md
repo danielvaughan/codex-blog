@@ -13,6 +13,8 @@ tags:
   - axios-attack
   - dependency-confusion
 ---
+![Sketchnote diagram for: The Source Map Incident: Lessons in Supply Chain Security for Codex CLI Plugin Authors](/sketchnotes/articles/2026-04-09-source-map-incident-supply-chain-security-codex-cli.png)
+
 
 # The Source Map Incident: Lessons in Supply Chain Security for Codex CLI Plugin Authors
 

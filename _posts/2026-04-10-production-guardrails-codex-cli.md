@@ -13,6 +13,8 @@ tags:
   - cross-model-review
   - cost-controls
 ---
+![Sketchnote diagram for: Production Guardrails for Codex CLI: What Must Be in Place Before Agents Touch Production Code](/sketchnotes/articles/2026-04-10-production-guardrails-codex-cli.png)
+
 
 # Production Guardrails for Codex CLI: What Must Be in Place Before Agents Touch Production Code
 

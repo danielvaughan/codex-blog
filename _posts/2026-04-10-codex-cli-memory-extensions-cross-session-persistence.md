@@ -11,6 +11,8 @@ tags:
   - pr-16276
   - codex-cli
 ---
+![Sketchnote diagram for: Codex CLI Memory Extensions: Cross-Session Persistence Lands in Main](/sketchnotes/articles/2026-04-10-codex-cli-memory-extensions-cross-session-persistence.png)
+
 
 # Codex CLI Memory Extensions: Cross-Session Persistence Lands in Main
 

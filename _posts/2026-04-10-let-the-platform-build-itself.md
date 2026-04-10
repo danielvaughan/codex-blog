@@ -13,6 +13,8 @@ tags:
   - argocd
   - idp
 ---
+![Sketchnote diagram for: Let the Platform Build Itself: AI-Constructed Developer Platforms and Codex CLI](/sketchnotes/articles/2026-04-10-let-the-platform-build-itself.png)
+
 
 # Let the Platform Build Itself: AI-Constructed Developer Platforms and Codex CLI
 

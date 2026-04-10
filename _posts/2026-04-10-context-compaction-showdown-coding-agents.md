@@ -13,6 +13,8 @@ tags:
   - event-store
   - compaction-threshold
 ---
+![Sketchnote diagram for: Context Compaction Showdown: How Codex CLI, Claude Code, and 5 Other Agents Handle Full Context Windows](/sketchnotes/articles/2026-04-10-context-compaction-showdown-coding-agents.png)
+
 
 # Context Compaction Showdown: How Codex CLI, Claude Code, and 5 Other Agents Handle Full Context Windows
 

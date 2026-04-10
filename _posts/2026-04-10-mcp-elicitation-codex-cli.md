@@ -13,6 +13,8 @@ tags:
   - enterprise
   - codex-cli
 ---
+![Sketchnote diagram for: MCP Server Elicitations in Codex CLI: Structured User Input, Auto-Approval, and Custom Server Patterns](/sketchnotes/articles/2026-04-10-mcp-elicitation-codex-cli.png)
+
 
 # MCP Server Elicitations in Codex CLI: Structured User Input, Auto-Approval, and Custom Server Patterns
 

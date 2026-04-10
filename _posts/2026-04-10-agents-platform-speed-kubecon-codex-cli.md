@@ -13,6 +13,8 @@ tags:
   - mcp
   - agents-md
 ---
+![Sketchnote diagram for: Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI](/sketchnotes/articles/2026-04-10-agents-platform-speed-kubecon-codex-cli.png)
+
 
 # Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI
 
