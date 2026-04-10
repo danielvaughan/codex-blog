@@ -2,7 +2,7 @@
 title: "GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second"
 parent: "Articles"
 nav_order: 138
-tags: ["models", "codex-spark"]
+tags: ["models", "codex-spark", "model-selection", "config-toml"]
 ---
 
 ![Sketchnote diagram for: GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second](/sketchnotes/articles/2026-03-31-codex-spark-cerebras-real-time-coding.png)
@@ -15,6 +15,26 @@ tags: ["models", "codex-spark"]
 GPT-5.3-Codex-Spark is OpenAI's first model purpose-built for real-time coding iteration, and the first production model served entirely on non-NVIDIA hardware. Released on 12 February 2026 as a research preview for ChatGPT Pro subscribers [^1], Spark trades reasoning depth for raw speed — delivering over 1,000 tokens per second on the Cerebras Wafer-Scale Engine 3 (WSE-3) [^2]. For Codex CLI users, it changes the economics of interactive workflows: rapid prototyping, single-file edits, and frontend iteration become near-instantaneous.
 
 This article covers the hardware underpinnings, the infrastructure optimisations OpenAI shipped alongside Spark, how to configure it in Codex CLI, benchmark realities, and practical patterns for integrating it into a multi-model workflow.
+
+## Model Characteristics at a Glance
+
+GPT-5.3-Codex-Spark is a distilled, smaller derivative of `gpt-5.3-codex` [^12]. It is not a faster version of the same model; it is a separate model checkpoint trained and quantised for the WSE-3 execution profile.
+
+| Property | GPT-5.3-Codex-Spark | GPT-5.3-Codex |
+|---|---|---|
+| Tokens per second | 1,000+ | 65–70 |
+| Context window | 128k | 400k+ |
+| Modality | Text-only | Text + images |
+| SWE-Bench Pro | ~56% | ~72% |
+| Reasoning fields | Not supported | Supported |
+| Research preview | ChatGPT Pro only | Generally available |
+
+The accuracy cost of distillation manifests in specific ways during interactive use [^4]:
+
+- Minimal, targeted edits rather than broad architectural rewrites
+- No automatic test execution unless explicitly prompted
+- "Fast hallucinations that look correct" — fabricated API method names, phantom parameters
+- Reduced reliability on structured output formatting
 
 ## The Cerebras WSE-3 and Why It Matters
 
@@ -84,15 +104,43 @@ model = "gpt-5.3-codex-spark"
 
 Or scope it to a project by placing `.codex/config.toml` in the repository root [^6].
 
+### Reasoning keys to remove
+
+Spark does not implement a chain-of-thought reasoning phase. Any reasoning-related keys in the config must be removed or commented out when switching to Spark [^13]:
+
+```toml
+# Remove ALL of these when switching to Spark:
+# model_reasoning_effort = "xhigh"
+# model_reasoning_summary = "detailed"
+# plan_mode_reasoning_effort = "high"
+```
+
+Leaving these keys in place does not cause a hard error — they are silently ignored. A config tuned for `gpt-5.3-codex` with reasoning set to `xhigh` will produce confusingly shallow output from Spark even though the session appears to run normally.
+
 ### Profile-based switching
 
 For teams that want Spark for rapid iteration but the full model for deep work, profiles provide clean switching [^6]:
 
 ```toml
+# ~/.codex/config.toml
+
+# Default profile — heavyweight tasks
+model = "gpt-5.3-codex"
+model_reasoning_effort = "high"
+approval_policy = "on-failure"
+sandbox_mode = "workspace-write"
+
+# Spark profile — interactive iteration
 [profiles.spark]
 model = "gpt-5.3-codex-spark"
-model_reasoning_effort = "low"
+model_verbosity = "high"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
 
+[profiles.spark.features]
+multi_agent = true
+
+# Deep profile — complex refactors
 [profiles.deep]
 model = "gpt-5.3-codex"
 model_reasoning_effort = "xhigh"
@@ -100,9 +148,22 @@ model_reasoning_effort = "xhigh"
 
 Launch with `codex --profile spark` for quick edits or `codex --profile deep` for complex refactors.
 
+### Fast mode vs. Spark
+
+Codex CLI also exposes `/fast on` for GPT-5.4, which delivers a 1.5x speed increase at 2x credit consumption [^14]. This is a different mechanism from Spark:
+
+- `/fast on` accelerates GPT-5.4 via preferential GPU routing — the same model, faster.
+- `gpt-5.3-codex-spark` is a distinct, smaller model on dedicated WSE-3 hardware.
+
+For truly interactive work (sub-second perceived latency), Spark wins. For tasks requiring GPT-5.4's reasoning depth at higher speed, `/fast on` is the appropriate lever.
+
 ### Access requirements
 
 Spark is currently available only to ChatGPT Pro subscribers ($200/month) [^1]. API access is rolling out to select design partners [^2]. Users on Plus or Team plans will see the model listed in `/model` but cannot use it — the CLI silently routes to the default model [^7]. Check actual model availability with `/status` rather than `/model` [^8].
+
+Because Spark runs on dedicated WSE-3 hardware, it has its own separate rate limit pool — usage does not count against the standard Codex quota. During periods of high demand, OpenAI may apply additional queuing. Broader access, expanded capabilities (larger models, longer context, multimodal input) are on the roadmap for later in 2026 [^15].
+
+**ChatGPT OAuth caveat:** accessing Codex via ChatGPT OAuth (device-code sign-in) rather than an API key and selecting `gpt-5.3-codex-spark` may return a provider error, as Spark's rate-limit pool is gated separately from the standard ChatGPT backend [^13].
 
 ## Benchmark Reality Check
 
@@ -144,6 +205,10 @@ flowchart TD
 - Single-file edits (CSS, React components, configuration)
 - Frontend iteration cycles
 - Interactive pair programming where latency matters more than depth
+- Codebase queries and exploration — "which file owns X?" style questions
+- Plan revision in an active planning session where the plan is already established
+
+A useful heuristic: if the result can be verified in under 30 seconds (visual check, quick test run), Spark is a good fit.
 
 **Stick with the full model for:**
 
@@ -151,6 +216,9 @@ flowchart TD
 - Security-critical code (authentication, encryption, validation)
 - Database migrations requiring stateful reasoning
 - Large codebase analysis beyond the 128k context window
+- Multi-file refactors touching 5+ files
+- Long planning sessions requiring 12+ reasoning steps
+- Structured output that must conform to a strict schema (Spark's reliability here is lower)
 
 ## Multi-Model Workflow: Spark as a Subagent
 
@@ -167,6 +235,38 @@ Keep changes minimal and focused.
 ```
 
 The primary agent (running GPT-5.4 or GPT-5.3-Codex) can then spawn this subagent for rapid tasks while retaining the full model's reasoning for architectural decisions.
+
+### Spark for live pairing
+
+Spark's latency profile matches human thinking speed. During active editing sessions where the model should feel like fast autocomplete rather than a batch job:
+
+```bash
+# Start a Spark session for current-file work
+codex --profile spark "Refactor this function to use early returns instead of nested conditionals"
+```
+
+### Hybrid task decomposition
+
+Breaking tasks explicitly before dispatching enables mixing models within a single workflow:
+
+```
+1. [SPARK] Add the new UserPreferences interface to types/user.ts
+2. [SPARK] Update the three component files that consume UserPreferences
+3. [CODEX] Write migration script to backfill the new preference column
+4. [CODEX] Review the full changeset for security implications
+```
+
+Steps 1 and 2 are single-file and easily verifiable — Spark finishes each in seconds. Steps 3 and 4 involve multi-file reasoning and correctness guarantees where the full model is warranted.
+
+## What the Speed Actually Unlocks
+
+The qualitative shift at 1,000 tokens per second is not merely "faster waiting." It changes the interaction model:
+
+- **Speculation becomes cheap.** At 65 tokens/second, trying five different approaches to a function signature is a five-minute commitment. At 1,000 tokens/second, it takes thirty seconds. Experimentation increases.
+- **Context stays warm.** The cognitive overhead of re-establishing context after a long wait largely disappears when responses arrive before the developer loses their train of thought.
+- **Shorter prompts work better.** Because iteration is fast, sending a rough prompt and correcting the output is often more efficient than crafting an exhaustive specification upfront.
+
+As Simon Willison observed: "When a model responds this fast you can stay in flow state and iterate with the model much more productively" [^16]. The tradeoff is that this flow state operates with a model at ~56% SWE-Bench Pro accuracy — adequate for interactive iteration, inadequate for unattended agentic tasks.
 
 ## API Pricing and Cost Considerations
 
@@ -211,3 +311,13 @@ The Cerebras partnership also signals OpenAI's strategic diversification away fr
 [^10]: Dominic Elm (@elmd_), "GPT-5.3-Codex-Spark is not GPT-5.3-Codex!," X/Twitter, February 2026. [https://x.com/elmd_/status/2023417837193240788](https://x.com/elmd_/status/2023417837193240788)
 
 [^11]: TypingMind, "Connect and use GPT-5.3 Codex Spark from OpenAI with API Key," 2026. [https://www.typingmind.com/guide/openai/gpt-5.3-codex-spark](https://www.typingmind.com/guide/openai/gpt-5.3-codex-spark)
+
+[^12]: Simon Willison, "Introducing GPT-5.3-Codex-Spark," February 2026. [https://simonwillison.net/2026/Feb/12/codex-spark/](https://simonwillison.net/2026/Feb/12/codex-spark/)
+
+[^13]: XAI Router, "GPT-5.3 Codex Spark: Faster, But You Should Not Reuse gpt-5.3-codex Config," 2026. [https://xairouter.com/en/blog/gpt-5-3-codex-spark/](https://xairouter.com/en/blog/gpt-5-3-codex-spark/)
+
+[^14]: OpenAI, "Speed – Codex," 2026. [https://developers.openai.com/codex/speed](https://developers.openai.com/codex/speed)
+
+[^15]: eWeek, "OpenAI Debuts GPT-5.3-Codex-Spark, a Near-Instant AI for Real-Time Coding," 2026. [https://www.eweek.com/news/openai-gpt-5-3-codex-spark-real-time-coding-cerebras/](https://www.eweek.com/news/openai-gpt-5-3-codex-spark-real-time-coding-cerebras/)
+
+[^16]: Simon Willison ibid. — flow state observation on sub-second model response times.
