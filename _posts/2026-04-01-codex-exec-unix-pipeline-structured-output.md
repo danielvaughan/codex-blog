@@ -349,9 +349,15 @@ The schema enforcement gap is significant for CI/CD — downstream tools need de
 ## Citations
 
 [^1]: [OpenAI Developer Docs — Non-interactive mode](https://developers.openai.com/codex/noninteractive)
+
 [^2]: [OpenAI Developer Docs — CLI Reference](https://developers.openai.com/codex/cli/reference)
+
 [^3]: [OpenAI Codex Changelog — prompt-plus-stdin, PR #15525](https://developers.openai.com/codex/changelog)
+
 [^4]: [Alex Fazio — Codex exec mode experiments: 81 flag/feature tests](https://gist.github.com/alexfazio/359c17d84cb6a5af12bac88fa1db9770)
+
 [^5]: [OpenAI Developer Docs — Structured model outputs](https://developers.openai.com/api/docs/guides/structured-outputs)
+
 [^6]: [NxCode — Claude Code vs Codex CLI 2026](https://www.nxcode.io/resources/news/claude-code-vs-codex-cli-terminal-coding-comparison-2026)
+
 [^7]: [GitHub Issue #10456 — OpenCode schema-constrained structured outputs feature request](https://github.com/anomalyco/opencode/issues/10456)

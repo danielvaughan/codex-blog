@@ -225,22 +225,22 @@ GPT-5.2 Thinking retires on 5 June 2026 [^7]. If you are still using it, now is 
 
 ## Citations
 
-[^1]: OpenAI. "Introducing GPT-5.4." openai.com, 5 March 2026. [https://openai.com/index/introducing-gpt-5-4/](https://openai.com/index/introducing-gpt-5-4/)
+[^1]: OpenAI. "Introducing GPT-5.4." openai.com, 5 March 2026. <https://openai.com/index/introducing-gpt-5-4/>
 
-[^2]: Digital Applied. "GPT-5.4: Computer Use, Tool Search, Benchmarks, Pricing." digitalapplied.com, March 2026. [https://www.digitalapplied.com/blog/gpt-5-4-computer-use-tool-search-benchmarks-pricing](https://www.digitalapplied.com/blog/gpt-5-4-computer-use-tool-search-benchmarks-pricing)
+[^2]: Digital Applied. "GPT-5.4: Computer Use, Tool Search, Benchmarks, Pricing." digitalapplied.com, March 2026. <https://www.digitalapplied.com/blog/gpt-5-4-computer-use-tool-search-benchmarks-pricing>
 
-[^3]: Alex Lavaee. "GPT-5.4: The Real Leap Isn't Coding." alexlavaee.me, March 2026. [https://alexlavaee.me/blog/gpt-5-4-the-real-leap-isnt-coding/](https://alexlavaee.me/blog/gpt-5-4-the-real-leap-isnt-coding/)
+[^3]: Alex Lavaee. "GPT-5.4: The Real Leap Isn't Coding." alexlavaee.me, March 2026. <https://alexlavaee.me/blog/gpt-5-4-the-real-leap-isnt-coding/>
 
-[^4]: Appius. "Playwright Interactive in GPT-5.4 e Codex." appius.it, March 2026. [https://www.appius.it/playwright-interactive-in-gpt-5-4-codex/](https://www.appius.it/playwright-interactive-in-gpt-5-4-codex/)
+[^4]: Appius. "Playwright Interactive in GPT-5.4 e Codex." appius.it, March 2026. <https://www.appius.it/playwright-interactive-in-gpt-5-4-codex/>
 
-[^5]: OpenAI Developers. "Using GPT-5.4." developers.openai.com, March 2026. [https://developers.openai.com/api/docs/guides/latest-model](https://developers.openai.com/api/docs/guides/latest-model)
+[^5]: OpenAI Developers. "Using GPT-5.4." developers.openai.com, March 2026. <https://developers.openai.com/api/docs/guides/latest-model>
 
-[^6]: GitHub Issue #14507. "Extend GPT-5.4-style tool search and deferred loading to all MCP server tools." github.com/openai/codex, 12 March 2026. [https://github.com/openai/codex/issues/14507](https://github.com/openai/codex/issues/14507)
+[^6]: GitHub Issue #14507. "Extend GPT-5.4-style tool search and deferred loading to all MCP server tools." github.com/openai/codex, 12 March 2026. <https://github.com/openai/codex/issues/14507>
 
-[^7]: OpenAI Developer Community. "GPT-5.4 deep dive: pricing, context limits, and tool search explained." community.openai.com, March 2026. [https://community.openai.com/t/gpt-5-4-deep-dive-pricing-context-limits-and-tool-search-explained/1375800](https://community.openai.com/t/gpt-5-4-deep-dive-pricing-context-limits-and-tool-search-explained/1375800)
+[^7]: OpenAI Developer Community. "GPT-5.4 deep dive: pricing, context limits, and tool search explained." community.openai.com, March 2026. <https://community.openai.com/t/gpt-5-4-deep-dive-pricing-context-limits-and-tool-search-explained/1375800>
 
-[^8]: OpenAI Developers. "GPT-5.4 mini Model." developers.openai.com, March 2026. [https://developers.openai.com/api/docs/models/gpt-5.4-mini](https://developers.openai.com/api/docs/models/gpt-5.4-mini)
+[^8]: OpenAI Developers. "GPT-5.4 mini Model." developers.openai.com, March 2026. <https://developers.openai.com/api/docs/models/gpt-5.4-mini>
 
-[^9]: Better Stack Community. "GPT-5.4: Features, benchmarks, and tradeoffs." betterstack.com, March 2026. [https://betterstack.com/community/guides/ai/gpt-54-overview/](https://betterstack.com/community/guides/ai/gpt-54-overview/)
+[^9]: Better Stack Community. "GPT-5.4: Features, benchmarks, and tradeoffs." betterstack.com, March 2026. <https://betterstack.com/community/guides/ai/gpt-54-overview/>
 
-[^10]: OpenAI Developers. "Codex Models." developers.openai.com, March 2026. [https://developers.openai.com/codex/models](https://developers.openai.com/codex/models)
+[^10]: OpenAI Developers. "Codex Models." developers.openai.com, March 2026. <https://developers.openai.com/codex/models>

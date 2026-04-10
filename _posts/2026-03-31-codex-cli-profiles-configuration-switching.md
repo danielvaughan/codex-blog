@@ -337,9 +337,15 @@ Enable `undo` globally. You won't regret it.
 ## Citations
 
 [^1]: OpenAI Developers. "Advanced Configuration – Codex." [developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced). Retrieved 2026-03-31.
+
 [^2]: OpenAI Developers. "Config Basics – Codex." [developers.openai.com/codex/config-basic](https://developers.openai.com/codex/config-basic). Retrieved 2026-03-31.
+
 [^3]: OpenAI Developers. "Sample Configuration – Codex." [developers.openai.com/codex/config-sample](https://developers.openai.com/codex/config-sample). Retrieved 2026-03-31.
+
 [^4]: OpenAI Developers. "Configuration Reference – Codex." [developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference). Retrieved 2026-03-31.
+
 [^5]: OpenAI Developers. "Features – Codex CLI." [developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features). Retrieved 2026-03-31.
+
 [^6]: OpenAI Developers. "Command Line Options – Codex CLI." [developers.openai.com/codex/cli/reference](https://developers.openai.com/codex/cli/reference). Retrieved 2026-03-31.
+
 [^7]: Codex CLI GitHub Releases. "openai/codex Releases." [github.com/openai/codex/releases](https://github.com/openai/codex/releases). Retrieved 2026-03-31.

@@ -194,13 +194,23 @@ The question is not whether you should replace Codex CLI subagents with Gas Town
 ## Citations
 
 [^1]: [Welcome to Gas Town — Steve Yegge, Medium](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
+
 [^2]: [Gas Town: What Kubernetes for AI Coding Agents Actually Looks Like — Cloud Native Now](https://cloudnativenow.com/features/gas-town-what-kubernetes-for-ai-coding-agents-actually-looks-like/)
+
 [^3]: [GasTown and the Two Kinds of Multi-Agent — Paddo.dev](https://paddo.dev/blog/gastown-two-kinds-of-multi-agent/)
+
 [^4]: [Gas Town Glossary — GitHub](https://github.com/gastownhall/gastown/blob/main/docs/glossary.md)
+
 [^5]: [A Day in Gas Town — DoltHub Blog](https://www.dolthub.com/blog/2026-01-15-a-day-in-gas-town/)
+
 [^6]: [Dolt Storage Architecture — Gas Town Documentation](https://gastown.dev/docs/design/dolt-storage/)
+
 [^7]: [Welcome to the Wasteland: A Thousand Gas Towns — Steve Yegge, Medium](https://steve-yegge.medium.com/welcome-to-the-wasteland-a-thousand-gas-towns-a5eb9bc8dc1f)
+
 [^8]: [Gas Town's Agent Patterns, Design Bottlenecks, and Vibecoding at Scale — Maggie Appleton](https://maggieappleton.com/gastown)
+
 [^9]: [Wrapping My Head Around Gas Town — Justin Abrahms](https://justin.abrah.ms/blog/2026-01-05-wrapping-my-head-around-gas-town.html)
+
 [^10]: [Subagents — Codex CLI Documentation](https://developers.openai.com/codex/subagents)
+
 [^11]: [Allow for >6 Subagents: Make MAX_THREADS Configurable — GitHub Issue #11965](https://github.com/openai/codex/issues/11965)

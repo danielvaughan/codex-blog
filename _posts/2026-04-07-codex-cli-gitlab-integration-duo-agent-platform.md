@@ -277,24 +277,24 @@ The GitLab integration requires more manual configuration than GitHub's first-pa
 
 ## Citations
 
-[^1]: GitLab Inc., "GitLab Announces the General Availability of GitLab Duo Agent Platform," 15 January 2026. [https://ir.gitlab.com/news/news-details/2026/GitLab-Announces-the-General-Availability-of-GitLab-Duo-Agent-Platform/default.aspx](https://ir.gitlab.com/news/news-details/2026/GitLab-Announces-the-General-Availability-of-GitLab-Duo-Agent-Platform/default.aspx)
+[^1]: GitLab Inc., "GitLab Announces the General Availability of GitLab Duo Agent Platform," 15 January 2026. <https://ir.gitlab.com/news/news-details/2026/GitLab-Announces-the-General-Availability-of-GitLab-Duo-Agent-Platform/default.aspx>
 
-[^2]: GitLab Docs, "External agents." [https://docs.gitlab.com/user/duo_agent_platform/agents/external/](https://docs.gitlab.com/user/duo_agent_platform/agents/external/)
+[^2]: GitLab Docs, "External agents." <https://docs.gitlab.com/user/duo_agent_platform/agents/external/>
 
-[^3]: GitLab Docs, "External agent configuration examples." [https://docs.gitlab.com/user/duo_agent_platform/agents/external_examples/](https://docs.gitlab.com/user/duo_agent_platform/agents/external_examples/)
+[^3]: GitLab Docs, "External agent configuration examples." <https://docs.gitlab.com/user/duo_agent_platform/agents/external_examples/>
 
-[^4]: GitLab Docs, "AI Catalog." [https://docs.gitlab.com/user/duo_agent_platform/ai_catalog/](https://docs.gitlab.com/user/duo_agent_platform/ai_catalog/)
+[^4]: GitLab Docs, "AI Catalog." <https://docs.gitlab.com/user/duo_agent_platform/ai_catalog/>
 
-[^5]: GitLab.org, "Product Requirements — Claude Code and OpenAI Codex CLI Integration for GitLab CI/CD (#557820)." [https://gitlab.com/gitlab-org/gitlab/-/issues/557820](https://gitlab.com/gitlab-org/gitlab/-/issues/557820)
+[^5]: GitLab.org, "Product Requirements — Claude Code and OpenAI Codex CLI Integration for GitLab CI/CD (#557820)." <https://gitlab.com/gitlab-org/gitlab/-/issues/557820>
 
-[^6]: OpenAI Cookbook, "Automating Code Quality and Security Fixes with Codex CLI on GitLab." [https://developers.openai.com/cookbook/examples/codex/secure_quality_gitlab](https://developers.openai.com/cookbook/examples/codex/secure_quality_gitlab)
+[^6]: OpenAI Cookbook, "Automating Code Quality and Security Fixes with Codex CLI on GitLab." <https://developers.openai.com/cookbook/examples/codex/secure_quality_gitlab>
 
-[^7]: OpenAI Developers, "Models." [https://developers.openai.com/api/docs/models](https://developers.openai.com/api/docs/models)
+[^7]: OpenAI Developers, "Models." <https://developers.openai.com/api/docs/models>
 
-[^8]: OpenAI Developers, "Codex CLI Features." [https://developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
+[^8]: OpenAI Developers, "Codex CLI Features." <https://developers.openai.com/codex/cli/features>
 
-[^9]: GitLab Docs, "GitLab MCP server." [https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/)
+[^9]: GitLab Docs, "GitLab MCP server." <https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/>
 
-[^10]: Composio, "How to integrate Gitlab MCP with Codex." [https://composio.dev/toolkits/gitlab/framework/codex](https://composio.dev/toolkits/gitlab/framework/codex)
+[^10]: Composio, "How to integrate Gitlab MCP with Codex." <https://composio.dev/toolkits/gitlab/framework/codex>
 
-[^11]: OpenAI Developers, "Codex Configuration Reference." [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
+[^11]: OpenAI Developers, "Codex Configuration Reference." <https://developers.openai.com/codex/config-reference>

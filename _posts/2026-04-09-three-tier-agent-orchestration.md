@@ -223,24 +223,24 @@ For now, understanding the three tiers gives you a practical framework for choos
 
 ## Citations
 
-[^1]: Osmani, A. (2026). "Orchestrating Coding Agents." O'Reilly CodeCon, March 2026. [https://talks.addy.ie/oreilly-codecon-march-2026/](https://talks.addy.ie/oreilly-codecon-march-2026/)
+[^1]: Osmani, A. (2026). "Orchestrating Coding Agents." O'Reilly CodeCon, March 2026. <https://talks.addy.ie/oreilly-codecon-march-2026/>
 
-[^2]: Osmani, A. (2026). "The Code Agent Orchestra — What Makes Multi-Agent Coding Work." AddyOsmani.com. [https://addyosmani.com/blog/code-agent-orchestra/](https://addyosmani.com/blog/code-agent-orchestra/)
+[^2]: Osmani, A. (2026). "The Code Agent Orchestra — What Makes Multi-Agent Coding Work." AddyOsmani.com. <https://addyosmani.com/blog/code-agent-orchestra/>
 
-[^3]: OpenAI. (2026). "Subagents – Codex CLI." OpenAI Developers. [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^3]: OpenAI. (2026). "Subagents – Codex CLI." OpenAI Developers. <https://developers.openai.com/codex/subagents>
 
-[^4]: Anthropic. (2026). "Orchestrate Teams of Claude Code Sessions." Claude Code Docs. [https://code.claude.com/docs/en/agent-teams](https://code.claude.com/docs/en/agent-teams)
+[^4]: Anthropic. (2026). "Orchestrate Teams of Claude Code Sessions." Claude Code Docs. <https://code.claude.com/docs/en/agent-teams>
 
-[^5]: Upsun Developer Center. (2026). "Git Worktrees for Parallel AI Coding Agents." [https://devcenter.upsun.com/posts/git-worktrees-for-parallel-ai-coding-agents/](https://devcenter.upsun.com/posts/git-worktrees-for-parallel-ai-coding-agents/)
+[^5]: Upsun Developer Center. (2026). "Git Worktrees for Parallel AI Coding Agents." <https://devcenter.upsun.com/posts/git-worktrees-for-parallel-ai-coding-agents/>
 
-[^6]: BSWEN. (2026). "What is Worktree Isolation in AI Agents?" [https://docs.bswen.com/blog/2026-03-18-ai-agent-worktree-isolation/](https://docs.bswen.com/blog/2026-03-18-ai-agent-worktree-isolation/)
+[^6]: BSWEN. (2026). "What is Worktree Isolation in AI Agents?" <https://docs.bswen.com/blog/2026-03-18-ai-agent-worktree-isolation/>
 
-[^7]: Yegge, S. (2026). "Welcome to Gas Town." Medium. [https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
+[^7]: Yegge, S. (2026). "Welcome to Gas Town." Medium. <https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04>
 
-[^8]: Yegge, S. (2026). "Gas Town: From Clown Show to v1.0." Medium. [https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec](https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec)
+[^8]: Yegge, S. (2026). "Gas Town: From Clown Show to v1.0." Medium. <https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec>
 
-[^9]: OpenAI. (2026). "Web – Codex Cloud Tasks." OpenAI Developers. [https://developers.openai.com/codex/cloud](https://developers.openai.com/codex/cloud)
+[^9]: OpenAI. (2026). "Web – Codex Cloud Tasks." OpenAI Developers. <https://developers.openai.com/codex/cloud>
 
-[^10]: OpenAI. (2026). "Use Codex with the Agents SDK." OpenAI Developers. [https://developers.openai.com/codex/guides/agents-sdk](https://developers.openai.com/codex/guides/agents-sdk)
+[^10]: OpenAI. (2026). "Use Codex with the Agents SDK." OpenAI Developers. <https://developers.openai.com/codex/guides/agents-sdk>
 
-[^11]: Yegge, S. (2026). "Welcome to the Wasteland: A Thousand Gas Towns." Medium. [https://steve-yegge.medium.com/welcome-to-the-wasteland-a-thousand-gas-towns-a5eb9bc8dc1f](https://steve-yegge.medium.com/welcome-to-the-wasteland-a-thousand-gas-towns-a5eb9bc8dc1f)
+[^11]: Yegge, S. (2026). "Welcome to the Wasteland: A Thousand Gas Towns." Medium. <https://steve-yegge.medium.com/welcome-to-the-wasteland-a-thousand-gas-towns-a5eb9bc8dc1f>

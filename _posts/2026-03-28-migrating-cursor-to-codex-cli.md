@@ -232,17 +232,33 @@ For teams on Cursor Pro, consider routing high-volume, repeatable tasks (documen
 ## Citations
 
 [^1]: Cursor pricing overhaul community reaction — [Cursor Pricing 2026: Hobby, Pro and Business plans compared](https://www.eesel.ai/blog/cursor-pricing)
+
 [^2]: Variable credit system details — [Cursor Pricing Explained 2026 | Vantage](https://www.vantage.sh/blog/cursor-pricing-explained)
+
+[^3]: Effective request count drop under new credit model — [Cursor Pricing Explained 2026 | Vantage](https://www.vantage.sh/blog/cursor-pricing-explained)
+
 [^4]: 4× token efficiency claim — [Claude Code vs Codex CLI 2026: Which Terminal AI Coding Agent Wins?](https://www.nxcode.io/resources/news/claude-code-vs-codex-cli-terminal-coding-comparison-2026)
+
 [^5]: Terminal-Bench 2.0 scores — [Codex vs Cursor (2026): Terminal Agent vs AI IDE](https://www.morphllm.com/comparisons/codex-vs-cursor)
+
 [^6]: Cursor model routing — [Claude Code vs Cursor vs OpenAI Codex: Which AI coding tool should you use in 2026?](https://medium.com/@writertripathi/claude-code-vs-cursor-vs-openai-codex-which-ai-coding-tool-should-you-use-in-2026-8f124e43c6fd)
+
 [^7]: `.cursorrules` deprecation — [fatih kadir akın on X](https://x.com/fkadev/status/1890439029121822772)
+
 [^8]: `.mdc` format and four activation modes — [The Complete Cursor Rules Guide (2026)](https://www.agentrulegen.com/guides/cursor-rules-guide)
+
 [^9]: 50-line `.mdc` recommendation — [Elie Steinbock on X](https://x.com/elie2222/status/1907070722960187745)
+
 [^10]: AGENTS.md Linux Foundation adoption — [AGENTS.md: Complete Guide to AI Coding Agent Config Files](https://vibecoding.app/blog/agents-md-guide)
+
 [^11]: 60,000+ repositories with AGENTS.md — [AGENTS.md: One File to Guide Them All](https://layer5.io/blog/ai/agentsmd-one-file-to-guide-them-all/)
+
 [^12]: Codex CLI AGENTS.md scope chain — [Custom instructions with AGENTS.md – Codex](https://developers.openai.com/codex/guides/agents-md)
+
 [^13]: 4-file durable memory pattern — [Evaluating Codex Agents: Evals, Long-Horizon Benchmarks, and the 4-File Pattern](/codex-resources/articles/2026-03-28-evaluating-codex-agents-evals-longhorizon/)
+
 [^14]: Codex IDE extension in Cursor — [IDE extension – Codex | OpenAI Developers](https://developers.openai.com/codex/ide)
+
 [^15]: Codex subagent parallelism — [Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv](/codex-resources/articles/2026-03-26-codex-cli-subagents-toml-parallelism/)
+
 [^16]: codex-rs open-source repository — [openai/codex on GitHub](https://github.com/openai/codex)

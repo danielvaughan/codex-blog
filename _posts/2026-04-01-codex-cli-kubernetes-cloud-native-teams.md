@@ -326,14 +326,25 @@ The `--output-schema` flag ensures structured, machine-parseable output for down
 ## Citations
 
 [^1]: [Custom instructions with AGENTS.md – Codex | OpenAI Developers](https://developers.openai.com/codex/guides/agents-md)
+
 [^2]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^3]: [Advanced Configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/config-advanced)
+
 [^4]: [Codex CLI Rules Engine documentation – Codex | OpenAI Developers](https://developers.openai.com/codex/cli/features)
+
 [^5]: [Kubernetes Operators: Building Custom Controllers with Kubebuilder](https://dasroot.net/posts/2026/03/kubernetes-operators-building-custom-controllers-kubebuilder/)
+
 [^6]: [Codex CLI Multi-Agent v2 – path-based addressing](https://developers.openai.com/codex/changelog)
+
 [^7]: [Running OpenAI's Codex on Kubernetes – Metoro](https://metoro.io/blog/openai-codex-kubernetes)
+
 [^8]: [codex-k8s/codexctl – Kubernetes-first CLI orchestrator](https://github.com/codex-k8s/codexctl)
+
 [^9]: [Running Agents on Kubernetes with Agent Sandbox – Kubernetes Blog](https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/)
+
 [^10]: [Kagent – Bringing Agentic AI to Cloud Native](https://kagent.dev/)
+
 [^11]: [GitHub Action – Codex | OpenAI Developers](https://developers.openai.com/codex/github-action)
+
 [^12]: [Codex CLI 0.118.0 Release Notes](https://github.com/openai/codex/releases/tag/rust-v0.118.0)

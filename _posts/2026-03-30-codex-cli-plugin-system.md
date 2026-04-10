@@ -659,19 +659,35 @@ The Codex plugin system turns the previous ad-hoc combination of `config.toml` M
 ## Citations
 
 [^1]: [Codex CLI v0.117.0 release notes — GitHub openai/codex](https://github.com/openai/codex/releases/tag/v0.117.0)
+
 [^2]: [Plugins — Codex Developer Documentation](https://developers.openai.com/codex/plugins)
+
 [^3]: [Codex Plugins System architecture — DeepWiki openai/codex](https://deepwiki.com/openai/codex/5.11-plugins-system)
+
 [^4]: [Adithyan — Codex plugins, visually explained](https://adithyan.io/blog/codex-plugins-visual-explainer)
+
 [^5]: [Build plugins — Codex Developer Documentation](https://developers.openai.com/codex/plugins/build)
+
 [^6]: [Model Context Protocol — Codex Developer Documentation](https://developers.openai.com/codex/mcp)
+
 [^7]: [Agent Skills — Codex Developer Documentation](https://developers.openai.com/codex/skills)
+
 [^8]: [OpenAI Codex Changelog — developers.openai.com](https://developers.openai.com/codex/changelog)
+
 [^9]: [Codex by OpenAI — Release Notes March 2026 (Releasebot)](https://releasebot.io/updates/openai/codex)
+
 [^10]: [gHacks — OpenAI Adds Codex Plugins to Automate Workflows](https://www.ghacks.net/2026/03/29/openai-adds-codex-plugins-to-automate-workflows-and-expand-beyond-coding/)
+
 [^11]: [PAS7 Studio — Codex Plugins, Explained](https://pas7.com.ua/blog/en/codex-plugins-explained-2026)
+
 [^12]: [Customization — Codex Developer Documentation](https://developers.openai.com/codex/concepts/customization)
+
 [^13]: [Codex Plugins — Neowin](https://www.neowin.net/news/openai-launches-codex-plugins-to-streamline-developer-workflows/)
+
 [^14]: [Skills as Progressive Disclosure — codex-resources](https://danielvaughan.github.io/codex-resources/articles/2026-03-27-skills-progressive-disclosure-vs-mcp/)
+
 [^15]: [Morph LLM — Claude Code Skills vs MCP vs Plugins: Complete Guide 2026](https://www.morphllm.com/claude-code-skills-mcp-plugins)
+
 [^16]: [Codex Plugins — Neowin](https://www.neowin.net/news/openai-launches-codex-plugins-to-streamline-developer-workflows/)
+
 [^17]: [Augment Code — OpenAI Codex CLI ships v0.116.0 with enterprise features](https://www.augmentcode.com/learn/openai-codex-cli-enterprise)

@@ -288,12 +288,21 @@ For these domains, use Codex CLI at Level 0 (read-only auditing) or Level 1 (sup
 ## Citations
 
 [^1]: [Agent Approvals & Security — Codex | OpenAI Developers](https://developers.openai.com/codex/agent-approvals-security)
+
 [^2]: [Sandboxing — Codex | OpenAI Developers](https://developers.openai.com/codex/concepts/sandboxing)
+
 [^3]: [Advanced Configuration — Codex | OpenAI Developers](https://developers.openai.com/codex/config-advanced)
+
 [^4]: [Hooks — Codex | OpenAI Developers](https://developers.openai.com/codex/hooks)
+
 [^5]: [Best Practices — Codex | OpenAI Developers](https://developers.openai.com/codex/learn/best-practices)
+
 [^6]: [Configuration Reference — Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^7]: [OpenAI Codex Observability & Monitoring with OpenTelemetry — SigNoz](https://signoz.io/docs/codex-monitoring/)
+
 [^8]: [Advanced Configuration — Codex | OpenAI Developers](https://developers.openai.com/codex/config-advanced)
+
 [^9]: [Codex Pricing — OpenAI Developers](https://developers.openai.com/codex/pricing)
+
 [^10]: [Best Practices — Codex | OpenAI Developers](https://developers.openai.com/codex/learn/best-practices)

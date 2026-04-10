@@ -269,7 +269,11 @@ Two distinct integration points serve different problems. The **Vercel AI Gatewa
 ## Citations
 
 [^1]: Vercel Docs — "OpenAI Codex" (AI Gateway configuration): <https://vercel.com/docs/agent-resources/coding-agents/openai-codex>
+
 [^2]: Vercel Changelog — "Vercel plugin now supported on OpenAI Codex and Codex CLI" (March 26, 2026): <https://vercel.com/changelog/vercel-plugin-openai-codex-and-codex-cli-support>
+
 [^3]: Vercel Docs — "Vercel Plugin for AI Coding Agents" (skills, agents, hooks): <https://vercel.com/docs/agent-resources/vercel-plugin>
+
 [^4]: vercel-labs/skills GitHub repository — skills package manager: <https://github.com/vercel-labs/skills>
+
 [^5]: Vercel Changelog — "Introducing the Vercel plugin for coding agents" (March 17, 2026 original launch): <https://vercel.com/changelog/introducing-vercel-plugin-for-coding-agents>

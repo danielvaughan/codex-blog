@@ -189,10 +189,16 @@ tool_output_token_limit = 8000
 
 ## Citations
 
-[^1]: Codex context window and agentic session scaling described in OpenAI Codex documentation — https://developers.openai.com/codex
-[^2]: Dual-trigger compaction architecture (pre-turn and mid-turn) documented in — https://wasnotwas.com/writing/context-compaction/
-[^3]: Two-path compaction architecture (OpenAI fast path vs local path) — https://wasnotwas.com/writing/context-compaction/
-[^4]: AES-encrypted server-side compaction, opaque blob architecture, and Claude Code comparison — https://tonylee.im/en/blog/codex-compaction-encrypted-summary-session-handover
-[^5]: Hard 90% compaction clamp introduced in v0.100.0, closed as intentional — https://github.com/openai/codex/issues/11805
-[^6]: v0.117.0 release: queue follow-ups during manual `/compact` (PR #15259) — https://github.com/openai/codex/releases/tag/v0.117.0
-[^7]: Compaction death spiral bug in v0.112 with xhigh reasoning effort — https://github.com/openai/codex/issues/14120
+[^1]: Codex context window and agentic session scaling described in OpenAI Codex documentation — <https://developers.openai.com/codex>
+
+[^2]: Dual-trigger compaction architecture (pre-turn and mid-turn) documented in — <https://wasnotwas.com/writing/context-compaction/>
+
+[^3]: Two-path compaction architecture (OpenAI fast path vs local path) — <https://wasnotwas.com/writing/context-compaction/>
+
+[^4]: AES-encrypted server-side compaction, opaque blob architecture, and Claude Code comparison — <https://tonylee.im/en/blog/codex-compaction-encrypted-summary-session-handover>
+
+[^5]: Hard 90% compaction clamp introduced in v0.100.0, closed as intentional — <https://github.com/openai/codex/issues/11805>
+
+[^6]: v0.117.0 release: queue follow-ups during manual `/compact` (PR #15259) — <https://github.com/openai/codex/releases/tag/v0.117.0>
+
+[^7]: Compaction death spiral bug in v0.112 with xhigh reasoning effort — <https://github.com/openai/codex/issues/14120>

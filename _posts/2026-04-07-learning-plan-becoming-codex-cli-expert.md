@@ -627,17 +627,31 @@ For competitive context at any phase: *Codex CLI Competitive Position April 2026
 ## Citations
 
 [^1]: [Codex CLI best practices — OpenAI Developers](https://developers.openai.com/codex/learn/best-practices)
+
 [^2]: [Best Practices for Claude Code — Anthropic](https://code.claude.com/docs/en/best-practices)
+
 [^3]: [Agentic Coding — MIT Missing Semester 2026](https://missing.csail.mit.edu/2026/agentic-coding/)
+
 [^4]: [Agentic Engineering: The Complete Guide — NxCode](https://www.nxcode.io/resources/news/agentic-engineering-complete-guide-vibe-coding-ai-agents-2026)
+
 [^5]: [Codex CLI changelog — v0.117.0 and v0.118.0](https://developers.openai.com/codex/changelog)
+
 [^6]: [Codex CLI features — model selection and gpt-5.4](https://developers.openai.com/codex/cli/features)
+
 [^7]: [Codex CLI command reference — approval modes](https://developers.openai.com/codex/cli/reference)
+
 [^8]: [Codex configuration reference](https://developers.openai.com/codex/config-reference)
+
 [^9]: [Custom instructions with AGENTS.md — OpenAI Developers](https://developers.openai.com/codex/guides/agents-md)
+
 [^10]: [Model Context Protocol — Codex | OpenAI Developers](https://developers.openai.com/codex/mcp)
+
 [^11]: [Agent Skills — Codex | OpenAI Developers](https://developers.openai.com/codex/skills)
+
 [^12]: [Hooks — Codex | OpenAI Developers](https://developers.openai.com/codex/hooks)
+
 [^13]: [Subagents — Codex | OpenAI Developers](https://developers.openai.com/codex/subagents)
+
 [^14]: [The Codex App Super Guide 2026 — Kingy AI](https://kingy.ai/ai/the-codex-app-super-guide-2026-from-hello-world-to-worktrees-skills-mcp-ci-and-enterprise-governance/)
+
 [^15]: [Agentic Coding Harnesses: Enterprise Guide — Big Hat Group](https://www.bighatgroup.com/blog/agentic-coding-harnesses-claude-code-codex-gemini-enterprise-guide/)

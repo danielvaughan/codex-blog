@@ -244,9 +244,15 @@ data-platform/
 ## Citations
 
 [^1]: [Custom instructions with AGENTS.md – Codex | OpenAI Developers](https://developers.openai.com/codex/guides/agents-md)
+
 [^2]: [Codex CLI: The Definitive Technical Reference – Blake Crosley](https://blakecrosley.com/guides/codex)
+
 [^3]: [Slash commands in Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/slash-commands)
+
 [^4]: [Shipyard | Codex CLI Cheatsheet: config, commands, AGENTS.md, + best practices](https://shipyard.build/blog/codex-cli-cheat-sheet/)
+
 [^5]: [Steering AI Agents in Monorepos with AGENTS.md – DEV Community](https://dev.to/datadog-frontend-dev/steering-ai-agents-in-monorepos-with-agentsmd-13g0)
+
 [^6]: [Scaling AI-Assisted Development: How Scaffolding Solved My Monorepo Chaos – Vuong Ngo](https://medium.com/@vuongngo/scaling-ai-assisted-development-how-scaffolding-solved-my-monorepo-chaos-4838fb3b4dd6)
+
 [^7]: [AGENTS.md – Open Standard for AI Agent Instructions](https://agents.md/)

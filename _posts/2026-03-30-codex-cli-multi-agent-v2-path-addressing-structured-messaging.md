@@ -556,11 +556,19 @@ Multi-agent v2 in Codex CLI v0.117.0 brings several practical improvements over 
 ## Citations
 
 [^1]: OpenAI, "Release 0.117.0 · openai/codex," GitHub, 26 March 2026. <https://github.com/openai/codex/releases/tag/rust-v0.117.0>
+
 [^2]: OpenAI, "Multi-agents – Codex," OpenAI Developers documentation. <https://developers.openai.com/codex/subagents>
+
 [^3]: OpenAI, "Changelog – Codex," OpenAI Developers. <https://developers.openai.com/codex/changelog>
+
 [^4]: OpenAI, "Configuration Reference – Codex," OpenAI Developers. <https://developers.openai.com/codex/config-reference>
+
 [^5]: OpenAI, "Features – Codex CLI," OpenAI Developers. <https://developers.openai.com/codex/cli/features>
+
 [^6]: FlowDevs, "Boost Your Workflow with Codex CLI Multi-Agent Capabilities," 2026. <https://www.flowdevs.io/blog/post/boost-your-workflow-with-codex-cli-multi-agent-capabilities>
+
 [^7]: GitHub Issue #12047, "Multi-agent TUI overhaul: named agents, per-agent config, async orchestration & @mention messaging." <https://github.com/openai/codex/issues/12047>
+
 [^8]: GitHub Issue #15250, "Custom subagents in .codex/agents are not accessible from tool-backed Codex sessions as docs imply." <https://github.com/openai/codex/issues/15250>
+
 [^9]: GitHub Issue #11701, "Subagent configuration and orchestration." <https://github.com/openai/codex/issues/11701>

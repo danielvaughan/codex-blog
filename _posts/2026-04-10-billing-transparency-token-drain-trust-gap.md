@@ -193,19 +193,35 @@ Until then, instrument your own usage. The tools exist. The logs are local. The 
 ## Citations
 
 [^1]: agents-radar community analysis, April 2026 — token drain complaint volumes across Claude Code (478 comments) and Codex (491 comments)
+
 [^2]: [Windsurf pricing overhaul announcement, March 2026](https://x.com/windsurf/status/2034393520937816340)
+
 [^3]: [OpenAI Community Forum — "Codex usage after the limit reset update, single prompt eats 7% of weekly limits"](https://community.openai.com/t/codex-usage-after-the-limit-reset-update-single-prompt-eats-7-of-weekly-limits-plus-tier/1365284)
+
 [^4]: [GitHub Issue #13186 — "Possible Codex usage metering anomaly on Plus"](https://github.com/openai/codex/issues/13186)
+
 [^5]: [Alexander Embiricos on X — Codex CLI v0.21 cache and usage counting fixes](https://x.com/embirico/status/1955344043740893617)
+
 [^6]: [MacRumors — "Claude Code Users Report Rapid Rate Limit Drain, Suspect Bug"](https://www.macrumors.com/2026/03/26/claude-code-users-rapid-rate-limit-drain-bug/)
+
 [^7]: [The Register — "Anthropic admits Claude Code quotas running out too fast"](https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/)
+
 [^8]: [DEV Community — "Windsurf's New Pricing Explained: Simpler AI Coding or Hidden Trade-Offs?"](https://dev.to/icornea/windsurfs-new-pricing-explained-simpler-ai-coding-or-hidden-trade-offs-f3g)
+
 [^9]: [OpenAI Codex Pricing — token-based billing update, April 2026](https://developers.openai.com/codex/pricing)
+
 [^10]: [Awesome Agents — AI Coding Tools Pricing, April 2026](https://awesomeagents.ai/pricing/ai-coding-tools-pricing/)
+
 [^11]: [Starmorph — "AI Token Throughput Tracking Tools: The Complete Guide for Developers (2026)"](https://blog.starmorph.com/blog/ai-token-throughput-tracking-tools)
+
 [^12]: [GitHub — ccusage: CLI tool for analysing Claude Code/Codex CLI usage from local JSONL files](https://github.com/ryoppippi/ccusage)
+
 [^13]: [GitHub — tokscale: CLI tool for tracking token usage across multiple AI coding tools](https://github.com/junhoyeo/tokscale)
+
 [^14]: [Codextime — Codex Usage Tracker & OpenAI Cost Analytics](https://codexti.me/)
+
 [^15]: [OpenAI Codex CLI — Slash Commands documentation](https://developers.openai.com/codex/cli/slash-commands)
+
 [^16]: [Google Blog — "Giving you more transparency and control over your Gemini API costs"](https://blog.google/innovation-and-ai/technology/developers-tools/more-control-over-gemini-api-costs/)
+
 [^17]: [Cosine Blog — "Pricing AI Coding Agents: Why Pay-Per-Token Won't Last"](https://cosine.sh/blog/ai-coding-agent-pricing-task-vs-token)

@@ -199,18 +199,33 @@ The events of March 31, 2026 demonstrated two distinct failure modes: accidental
 ## Citations
 
 [^1]: [Anthropic Accidentally Exposes Claude Code Source via npm Source Map File — InfoQ](https://www.infoq.com/news/2026/04/claude-code-source-leak/)
+
 [^2]: [Claude Code Source Leaked via npm Packaging Error — The Hacker News](https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html)
+
 [^3]: [Bun Bundling's Sourcemap Traps — Medium](https://medium.com/@Nexumo_/bun-bundlings-sourcemap-traps-acc302bd8809)
+
 [^4]: [Anthropic Employee Error Exposes Claude Code Source — InfoWorld](https://www.infoworld.com/article/4152856/anthropic-employee-error-exposes-claude-code-source.html)
+
 [^5]: [Anthropic's Claude Code Leak Reveals Autonomous Agent Tools and Unreleased Models — CryptoBriefing](https://cryptobriefing.com/claude-code-leak-vulnerabilities/)
+
 [^6]: [What the Claude Code Leak Tells Us About Supply Chain Security — Coder](https://coder.com/blog/what-the-claude-code-leak-tells-us-about-supply-chain-security)
+
 [^7]: [Mitigating the Axios npm Supply Chain Compromise — Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/)
+
 [^8]: [North Korea-Nexus Threat Actor Compromises Widely Used Axios NPM Package — Google Cloud Blog](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package)
+
 [^9]: [Axios npm Package Compromised: Supply Chain Attack Delivers Cross-Platform RAT — Snyk](https://snyk.io/blog/axios-npm-package-compromised-supply-chain-attack-delivers-cross-platform/)
+
 [^10]: [Axios Supply Chain Attack Chops Away at npm Trust — Malwarebytes](https://www.malwarebytes.com/blog/news/2026/03/axios-supply-chain-attack-chops-away-at-npm-trust)
+
 [^11]: [NPM Supply Chain Attacks: Hidden Risks for AI Agents — Oligo Security](https://www.oligo.security/blog/the-hidden-risks-of-the-npm-supply-chain-attacks-ai-agents)
+
 [^12]: [OpenAI Codex CLI Vulnerability: Command Injection — Check Point Research](https://research.checkpoint.com/2025/openai-codex-cli-command-injection-vulnerability/)
+
 [^13]: [Source Map Incorrectly Served in Production — oven-sh/bun#28001](https://github.com/oven-sh/bun/issues/28001)
+
 [^14]: [Bun Bundling's Sourcemap Traps — Medium](https://medium.com/@Nexumo_/bun-bundlings-sourcemap-traps-acc302bd8809)
+
 [^15]: [The Complete Guide to package.json Files Property — CopyProgramming](https://copyprogramming.com/howto/is-the-files-property-necessary-in-package-json)
+
 [^16]: [GitHub — openai/codex: Lightweight Coding Agent That Runs in Your Terminal](https://github.com/openai/codex)

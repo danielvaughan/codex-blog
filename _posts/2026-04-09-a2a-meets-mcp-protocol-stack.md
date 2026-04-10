@@ -206,15 +206,27 @@ Given that OpenAI contributed AGENTS.md as a founding AAIF project and sits on t
 ## Citations
 
 [^1]: [MCP vs A2A: The Complete Guide to AI Agent Protocols in 2026](https://dev.to/pockit_tools/mcp-vs-a2a-the-complete-guide-to-ai-agent-protocols-in-2026-30li) — DEV Community, 2026
+
 [^2]: [MCP vs A2A: The Complete Guide to AI Agent Protocols in 2026](https://pockit.tools/blog/mcp-vs-a2a-ai-agent-protocols-complete-guide/) — Pockit Blog, 2026
+
 [^3]: [MCP vs A2A Protocol: Differences Explained](https://toolradar.com/blog/mcp-vs-a2a) — Toolradar, 2026
+
 [^4]: [The 2026 MCP Roadmap](https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/) — Model Context Protocol Blog, 2026
+
 [^5]: [What Is Agent2Agent (A2A) Protocol?](https://www.ibm.com/think/topics/agent2agent-protocol) — IBM Think, 2026
+
 [^6]: [What's New in v1.0](https://a2a-protocol.org/latest/whats-new-v1/) — A2A Protocol, 2026
+
 [^7]: [A2A Protocol](https://a2a-protocol.org/latest/) — Official A2A documentation
+
 [^8]: [Linux Foundation Announces the Formation of the Agentic AI Foundation (AAIF)](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) — Linux Foundation, December 2025
+
 [^9]: [Google Cloud donates A2A to Linux Foundation](https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/) — Google Developers Blog, 2025
+
 [^10]: [Model Context Protocol – Codex](https://developers.openai.com/codex/mcp) — OpenAI Developers, 2026
+
 [^11]: [Subagents – Codex](https://developers.openai.com/codex/subagents) — OpenAI Developers, 2026
+
 [^12]: [Codex CLI MCP Server](https://github.com/tuannvm/codex-mcp-server) — GitHub
+
 [^13]: [Use Codex with the Agents SDK](https://developers.openai.com/codex/guides/agents-sdk) — OpenAI Developers, 2026

@@ -373,18 +373,32 @@ No single layer is sufficient — defence in depth means an attacker who circumv
 
 ## Citations
 
-[^1]: OpenAI Codex CLI — [https://github.com/openai/codex](https://github.com/openai/codex)
-[^2]: Check Point Research, "OpenAI Codex CLI Command Injection Vulnerability", December 2025 — [https://research.checkpoint.com/2025/openai-codex-cli-command-injection-vulnerability/](https://research.checkpoint.com/2025/openai-codex-cli-command-injection-vulnerability/)
-[^3]: CyberPress, "OpenAI Codex CLI Vulnerability Lets Attackers Execute Arbitrary Commands" — [https://cyberpress.org/openai-codex-cli-command-injection-vulnerability/](https://cyberpress.org/openai-codex-cli-command-injection-vulnerability/)
-[^4]: OpenAI, "Agent approvals & security" — [https://developers.openai.com/codex/agent-approvals-security](https://developers.openai.com/codex/agent-approvals-security)
-[^5]: SmartScope, "OpenAI Codex CLI Setup Guide" (Updated 2026-02) — [https://smartscope.blog/en/generative-ai/chatgpt/openai-codex-cli-comprehensive-guide/](https://smartscope.blog/en/generative-ai/chatgpt/openai-codex-cli-comprehensive-guide/)
-[^6]: OpenAI, "Agent approvals & security" — [https://developers.openai.com/codex/agent-approvals-security](https://developers.openai.com/codex/agent-approvals-security)
-[^7]: OpenAI, "Configuration Reference" — [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
-[^8]: OpenAI, "Advanced Configuration" — [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced)
-[^9]: OpenAI, "Codex CLI Features" — [https://developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
-[^10]: Blake Crosley, "Codex CLI: The Definitive Technical Reference" — [https://blakecrosley.com/guides/codex](https://blakecrosley.com/guides/codex)
-[^11]: GitHub Discussion #14626, `userpromptsubmit` hook — [https://github.com/openai/codex/discussions/2150](https://github.com/openai/codex/discussions/2150)
-[^12]: OpenAI, "Advanced Configuration" — [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced)
-[^13]: OpenAI, "Managed configuration" — [https://developers.openai.com/codex/enterprise/managed-configuration](https://developers.openai.com/codex/enterprise/managed-configuration)
-[^14]: OpenAI, "Admin Setup" — [https://developers.openai.com/codex/enterprise/admin-setup](https://developers.openai.com/codex/enterprise/admin-setup)
-[^15]: OpenAI, "Cloud environments" — [https://developers.openai.com/codex/cloud/environments](https://developers.openai.com/codex/cloud/environments)
+[^1]: OpenAI Codex CLI — <https://github.com/openai/codex>
+
+[^2]: Check Point Research, "OpenAI Codex CLI Command Injection Vulnerability", December 2025 — <https://research.checkpoint.com/2025/openai-codex-cli-command-injection-vulnerability/>
+
+[^3]: CyberPress, "OpenAI Codex CLI Vulnerability Lets Attackers Execute Arbitrary Commands" — <https://cyberpress.org/openai-codex-cli-command-injection-vulnerability/>
+
+[^4]: OpenAI, "Agent approvals & security" — <https://developers.openai.com/codex/agent-approvals-security>
+
+[^5]: SmartScope, "OpenAI Codex CLI Setup Guide" (Updated 2026-02) — <https://smartscope.blog/en/generative-ai/chatgpt/openai-codex-cli-comprehensive-guide/>
+
+[^6]: OpenAI, "Agent approvals & security" — <https://developers.openai.com/codex/agent-approvals-security>
+
+[^7]: OpenAI, "Configuration Reference" — <https://developers.openai.com/codex/config-reference>
+
+[^8]: OpenAI, "Advanced Configuration" — <https://developers.openai.com/codex/config-advanced>
+
+[^9]: OpenAI, "Codex CLI Features" — <https://developers.openai.com/codex/cli/features>
+
+[^10]: Blake Crosley, "Codex CLI: The Definitive Technical Reference" — <https://blakecrosley.com/guides/codex>
+
+[^11]: GitHub Discussion #14626, `userpromptsubmit` hook — <https://github.com/openai/codex/discussions/2150>
+
+[^12]: OpenAI, "Advanced Configuration" — <https://developers.openai.com/codex/config-advanced>
+
+[^13]: OpenAI, "Managed configuration" — <https://developers.openai.com/codex/enterprise/managed-configuration>
+
+[^14]: OpenAI, "Admin Setup" — <https://developers.openai.com/codex/enterprise/admin-setup>
+
+[^15]: OpenAI, "Cloud environments" — <https://developers.openai.com/codex/cloud/environments>

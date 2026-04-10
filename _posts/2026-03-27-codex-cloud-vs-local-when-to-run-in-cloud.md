@@ -266,44 +266,44 @@ The `codex cloud exec --attempts N` flag is particularly underused: submitting 3
 
 ## Citations
 
-[^1]: OpenAI, "CLI – Codex," developers.openai.com/codex/cli, accessed March 2026. https://developers.openai.com/codex/cli
+[^1]: OpenAI, "CLI – Codex," developers.openai.com/codex/cli, accessed March 2026. <https://developers.openai.com/codex/cli>
 
-[^2]: OpenAI, "Web – Codex," developers.openai.com/codex/cloud, accessed March 2026. https://developers.openai.com/codex/cloud
+[^2]: OpenAI, "Web – Codex," developers.openai.com/codex/cloud, accessed March 2026. <https://developers.openai.com/codex/cloud>
 
-[^3]: SmartScope, "OpenAI Codex CLI: Official Description & Setup Guide (Updated 2026-02)," smartscope.blog, February 2026. https://smartscope.blog/en/generative-ai/chatgpt/openai-codex-cli-comprehensive-guide/
+[^3]: SmartScope, "OpenAI Codex CLI: Official Description & Setup Guide (Updated 2026-02)," smartscope.blog, February 2026. <https://smartscope.blog/en/generative-ai/chatgpt/openai-codex-cli-comprehensive-guide/>
 
-[^4]: OpenAI, "Cloud environments – Codex web," developers.openai.com/codex/cloud/environments, accessed March 2026. https://developers.openai.com/codex/cloud/environments
+[^4]: OpenAI, "Cloud environments – Codex web," developers.openai.com/codex/cloud/environments, accessed March 2026. <https://developers.openai.com/codex/cloud/environments>
 
-[^5]: OpenAI, "Pricing – Codex," developers.openai.com/codex/pricing, accessed March 2026. https://developers.openai.com/codex/pricing
+[^5]: OpenAI, "Pricing – Codex," developers.openai.com/codex/pricing, accessed March 2026. <https://developers.openai.com/codex/pricing>
 
 [^6]: Ibid.
 
-[^7]: OpenAI Help Center, "Using Codex with your ChatGPT plan," help.openai.com, accessed March 2026. https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan
+[^7]: OpenAI Help Center, "Using Codex with your ChatGPT plan," help.openai.com, accessed March 2026. <https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan>
 
-[^8]: UI Bakery Blog, "OpenAI Codex Pricing (2026): API Cost, Credits & Usage Limits Explained," uibakery.io, 2026. https://uibakery.io/blog/openai-codex-pricing
+[^8]: UI Bakery Blog, "OpenAI Codex Pricing (2026): API Cost, Credits & Usage Limits Explained," uibakery.io, 2026. <https://uibakery.io/blog/openai-codex-pricing>
 
-[^9]: OpenAI, "Features – Codex CLI," developers.openai.com/codex/cli/features, accessed March 2026. https://developers.openai.com/codex/cli/features
+[^9]: OpenAI, "Features – Codex CLI," developers.openai.com/codex/cli/features, accessed March 2026. <https://developers.openai.com/codex/cli/features>
 
-[^10]: OpenAI, "Cloud environments – Codex web," developers.openai.com/codex/cloud/environments, accessed March 2026. https://developers.openai.com/codex/cloud/environments
+[^10]: OpenAI, "Cloud environments – Codex web," developers.openai.com/codex/cloud/environments, accessed March 2026. <https://developers.openai.com/codex/cloud/environments>
 
-[^11]: OpenAI, "openai/codex-universal," github.com/openai/codex-universal, accessed March 2026. https://github.com/openai/codex-universal
+[^11]: OpenAI, "openai/codex-universal," github.com/openai/codex-universal, accessed March 2026. <https://github.com/openai/codex-universal>
 
-[^12]: OpenAI, "Cloud environments – Codex web," developers.openai.com/codex/cloud/environments, accessed March 2026. https://developers.openai.com/codex/cloud/environments
+[^12]: OpenAI, "Cloud environments – Codex web," developers.openai.com/codex/cloud/environments, accessed March 2026. <https://developers.openai.com/codex/cloud/environments>
 
 [^13]: Ibid.
 
 [^14]: Ibid.
 
-[^15]: OpenAI, "Command line options – Codex CLI," developers.openai.com/codex/cli/reference, accessed March 2026. https://developers.openai.com/codex/cli/reference
+[^15]: OpenAI, "Command line options – Codex CLI," developers.openai.com/codex/cli/reference, accessed March 2026. <https://developers.openai.com/codex/cli/reference>
 
 [^16]: Ibid.
 
-[^17]: OpenAI, "Codex is now generally available," openai.com/index/codex-now-generally-available/, accessed March 2026. https://openai.com/index/codex-now-generally-available/
+[^17]: OpenAI, "Codex is now generally available," openai.com/index/codex-now-generally-available/, accessed March 2026. <https://openai.com/index/codex-now-generally-available/>
 
 [^18]: Ibid.
 
 [^19]: Ibid.
 
-[^20]: OpenAI, "Admin Setup – Codex," developers.openai.com/codex/enterprise/, accessed March 2026. https://developers.openai.com/codex/enterprise/
+[^20]: OpenAI, "Admin Setup – Codex," developers.openai.com/codex/enterprise/, accessed March 2026. <https://developers.openai.com/codex/enterprise/>
 
-[^21]: OpenAI, "Pricing – Codex," developers.openai.com/codex/pricing, accessed March 2026. https://developers.openai.com/codex/pricing
+[^21]: OpenAI, "Pricing – Codex," developers.openai.com/codex/pricing, accessed March 2026. <https://developers.openai.com/codex/pricing>

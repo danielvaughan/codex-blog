@@ -187,10 +187,17 @@ The Desktop app is not a replacement for the CLI — it is a complementary surfa
 ## Citations
 
 [^1]: [Introducing the Codex app — OpenAI](https://openai.com/index/introducing-the-codex-app/)
+
 [^2]: [The Codex app is now on Windows — OpenAI Developer Community](https://community.openai.com/t/the-codex-app-is-now-on-windows/1375704)
+
 [^3]: [Features — Codex app — OpenAI Developers](https://developers.openai.com/codex/app/features)
+
 [^4]: [Worktrees — Codex app — OpenAI Developers](https://developers.openai.com/codex/app/worktrees)
+
 [^5]: [Codex App Worktrees Explained — Verdent Guides](https://www.verdent.ai/guides/codex-app-worktrees-explained)
+
 [^6]: [Automations — Codex app — OpenAI Developers](https://developers.openai.com/codex/app/automations)
+
 [^7]: [Commands — Codex app — OpenAI Developers](https://developers.openai.com/codex/app/commands)
+
 [^8]: [Choose default reasoning level for Automations — OpenAI Developer Community](https://community.openai.com/t/choose-default-reasoning-level-for-automations/1374015)

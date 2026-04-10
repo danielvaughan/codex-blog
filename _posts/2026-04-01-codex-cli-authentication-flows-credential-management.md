@@ -341,16 +341,16 @@ flowchart TD
 
 ## Citations
 
-[^1]: OpenAI, "Authentication — Codex Developer Docs," 2026. [https://developers.openai.com/codex/auth](https://developers.openai.com/codex/auth)
+[^1]: OpenAI, "Authentication — Codex Developer Docs," 2026. <https://developers.openai.com/codex/auth>
 
-[^2]: Mintlify / OpenAI, "codex login — Codex CLI Reference," 2026. [https://www.mintlify.com/openai/codex/cli/login](https://www.mintlify.com/openai/codex/cli/login)
+[^2]: Mintlify / OpenAI, "codex login — Codex CLI Reference," 2026. <https://www.mintlify.com/openai/codex/cli/login>
 
-[^3]: OpenAI, "Enable Headless or Command-line Authentication for Codex CLI — GitHub Issue #3820," 2026. [https://github.com/openai/codex/issues/3820](https://github.com/openai/codex/issues/3820)
+[^3]: OpenAI, "Enable Headless or Command-line Authentication for Codex CLI — GitHub Issue #3820," 2026. <https://github.com/openai/codex/issues/3820>
 
-[^4]: OpenAI, "Changelog — Codex Developer Docs," 2026. [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
+[^4]: OpenAI, "Changelog — Codex Developer Docs," 2026. <https://developers.openai.com/codex/changelog>
 
-[^5]: OpenAI, "Maintain Codex account auth in CI/CD (advanced)," 2026. [https://developers.openai.com/codex/auth/ci-cd-auth](https://developers.openai.com/codex/auth/ci-cd-auth)
+[^5]: OpenAI, "Maintain Codex account auth in CI/CD (advanced)," 2026. <https://developers.openai.com/codex/auth/ci-cd-auth>
 
-[^6]: OpenAI, "Advanced Configuration — Codex Developer Docs," 2026. [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced)
+[^6]: OpenAI, "Advanced Configuration — Codex Developer Docs," 2026. <https://developers.openai.com/codex/config-advanced>
 
-[^7]: GitHub, "Support dynamic bearer token refresh for custom model providers — Issue #15189," February 2026. [https://github.com/openai/codex/issues/15189](https://github.com/openai/codex/issues/15189)
+[^7]: GitHub, "Support dynamic bearer token refresh for custom model providers — Issue #15189," February 2026. <https://github.com/openai/codex/issues/15189>

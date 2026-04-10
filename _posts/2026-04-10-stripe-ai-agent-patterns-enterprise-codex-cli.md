@@ -215,26 +215,26 @@ Every one of these patterns is available to individual Codex CLI users today. Th
 
 ## Citations
 
-[^1]: InfoQ, "Stripe Engineers Deploy Minions, Autonomous Agents Producing Thousands of Pull Requests Weekly," March 2026. [https://www.infoq.com/news/2026/03/stripe-autonomous-coding-agents/](https://www.infoq.com/news/2026/03/stripe-autonomous-coding-agents/)
+[^1]: InfoQ, "Stripe Engineers Deploy Minions, Autonomous Agents Producing Thousands of Pull Requests Weekly," March 2026. <https://www.infoq.com/news/2026/03/stripe-autonomous-coding-agents/>
 
-[^2]: Stripe Dev Blog, "Minions: Stripe's one-shot, end-to-end coding agents — Part 2," 2026. [https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2)
+[^2]: Stripe Dev Blog, "Minions: Stripe's one-shot, end-to-end coding agents — Part 2," 2026. <https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2>
 
-[^3]: Anup Jadhav, "Stripe's coding agents: the walls matter more than the model," 2026. [https://www.anup.io/stripes-coding-agents-the-walls-matter-more-than-the-model/](https://www.anup.io/stripes-coding-agents-the-walls-matter-more-than-the-model/)
+[^3]: Anup Jadhav, "Stripe's coding agents: the walls matter more than the model," 2026. <https://www.anup.io/stripes-coding-agents-the-walls-matter-more-than-the-model/>
 
-[^4]: OpenAI Developers, "Hooks — Codex CLI," 2026. [https://developers.openai.com/codex/hooks](https://developers.openai.com/codex/hooks)
+[^4]: OpenAI Developers, "Hooks — Codex CLI," 2026. <https://developers.openai.com/codex/hooks>
 
-[^5]: OpenAI Developers, "Subagents — Codex CLI," 2026. [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^5]: OpenAI Developers, "Subagents — Codex CLI," 2026. <https://developers.openai.com/codex/subagents>
 
-[^6]: OpenAI Developers, "Features — Codex CLI," 2026. [https://developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
+[^6]: OpenAI Developers, "Features — Codex CLI," 2026. <https://developers.openai.com/codex/cli/features>
 
-[^7]: Daniel Vaughan, "Worktree-Based Parallel Development with Codex CLI," March 2026. [https://codex.danielvaughan.com/2026/03/26/codex-cli-worktree-parallel-development/](https://codex.danielvaughan.com/2026/03/26/codex-cli-worktree-parallel-development/)
+[^7]: Daniel Vaughan, "Worktree-Based Parallel Development with Codex CLI," March 2026. <https://codex.danielvaughan.com/2026/03/26/codex-cli-worktree-parallel-development/>
 
-[^8]: Daniel Vaughan, "Codex CLI MCP Integration: Connecting Agents to External Tools," March 2026. [https://codex.danielvaughan.com/2026/03/26/codex-cli-mcp-integration/](https://codex.danielvaughan.com/2026/03/26/codex-cli-mcp-integration/)
+[^8]: Daniel Vaughan, "Codex CLI MCP Integration: Connecting Agents to External Tools," March 2026. <https://codex.danielvaughan.com/2026/03/26/codex-cli-mcp-integration/>
 
-[^9]: Daniel Vaughan, "AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks," March 2026. [https://codex.danielvaughan.com/2026/03/26/agents-md-advanced-patterns/](https://codex.danielvaughan.com/2026/03/26/agents-md-advanced-patterns/)
+[^9]: Daniel Vaughan, "AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks," March 2026. <https://codex.danielvaughan.com/2026/03/26/agents-md-advanced-patterns/>
 
-[^10]: Every.to, "Compound Engineering: How Every Codes With Agents," 2026. [https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents](https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents)
+[^10]: Every.to, "Compound Engineering: How Every Codes With Agents," 2026. <https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents>
 
-[^11]: Daniel Vaughan, "Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution," March 2026. [https://codex.danielvaughan.com/2026/03/28/codex-cli-commit-attribution/](https://codex.danielvaughan.com/2026/03/28/codex-cli-commit-attribution/)
+[^11]: Daniel Vaughan, "Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution," March 2026. <https://codex.danielvaughan.com/2026/03/28/codex-cli-commit-attribution/>
 
-[^12]: ByteByteGo, "How Stripe's Minions Ship 1,300 PRs a Week," 2026. [https://blog.bytebytego.com/p/how-stripes-minions-ship-1300-prs](https://blog.bytebytego.com/p/how-stripes-minions-ship-1300-prs)
+[^12]: ByteByteGo, "How Stripe's Minions Ship 1,300 PRs a Week," 2026. <https://blog.bytebytego.com/p/how-stripes-minions-ship-1300-prs>

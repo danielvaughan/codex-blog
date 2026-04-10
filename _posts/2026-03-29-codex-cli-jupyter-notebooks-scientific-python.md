@@ -236,10 +236,17 @@ The central insight: Codex is excellent at scientific Python when you treat it a
 ## Citations
 
 [^1]: OpenAI Community Forum, "Codex working with Jupyter notebook .ipynb files" — <https://community.openai.com/t/codex-working-with-jupyter-notebook-ipynb-files/1260513>
+
 [^2]: nbformat documentation, "The Jupyter Notebook Format" — <http://ipython.org/ipython-doc/3/notebook/nbformat.html>
+
 [^3]: OpenAI Community Forum, ibid. — multiple user reports of data loss when Codex edits markdown cells.
+
 [^4]: agentskills.so, "jupyter-notebook — Agent Skill by openai/skills" — <https://agentskills.so/skills/openai-skills-jupyter-notebook>
+
 [^5]: agentskills.so, jupyter-notebook skill, created February 1, 2026 — see skill metadata at the above URL.
+
 [^6]: Nerd Level Tech, "Mastering Python Data Analysis in 2026: From Pandas to Polars" — <https://nerdleveltech.com/mastering-python-data-analysis-in-2026-from-pandas-to-polars>
+
 [^7]: Max Woolf, "An AI agent coding skeptic tries AI agent coding, in excessive detail" (February 2026) — <https://minimaxir.com/2026/02/ai-agent-coding/>
+
 [^8]: OpenAI Cookbook, "Building Consistent Workflows with Codex CLI & Agents SDK" — <https://cookbook.openai.com/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk>

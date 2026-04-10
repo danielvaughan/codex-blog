@@ -218,10 +218,17 @@ Use live web search for step 2.
 ## Citations
 
 [^1]: [Features – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features) — web search modes, --search flag, yolo mode behaviour, transcript output
+
 [^2]: [Config basics – Codex | OpenAI Developers](https://developers.openai.com/codex/config-basic) — web_search TOML key, valid values, configuration file locations
+
 [^3]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference) — per-profile web_search override, full config schema
+
 [^5]: [feat: allowed_web_search_modes in requirements.toml · PR #10964 · openai/codex](https://github.com/openai/codex/pull/10964) — enterprise allowed_web_search_modes implementation
+
 [^6]: [Managed configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/enterprise/managed-configuration) — enterprise requirements.toml, MDM distribution, admin configuration
+
 [^7]: [tools.web_search cannot be disabled when using reasoning_effort=minimal · Issue #5002 · openai/codex](https://github.com/openai/codex/issues/5002) — known bug: web_search + minimal reasoning effort incompatibility
+
 [^8]: [Context7 MCP by Upstash | Smithery](https://smithery.ai/server/@upstash/context7-mcp) — Context7 MCP server, capabilities, 9000+ library index, resolve-library-id and query-docs tools
+
 [^9]: [Model Context Protocol – Codex | OpenAI Developers](https://developers.openai.com/codex/mcp) — MCP configuration, OpenAI Docs MCP, Codex MCP integration overview

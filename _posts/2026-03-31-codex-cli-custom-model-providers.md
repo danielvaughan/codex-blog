@@ -256,5 +256,7 @@ base_url = "..."
 ---
 
 [^1]: Source: [developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference) — verified 2026-03-31.
+
 [^2]: Source: PR [#16277](https://github.com/openai/codex/pull/16277) by bolinfest, merged 2026-03-30.
+
 [^3]: Source: GitHub Issue [#15189](https://github.com/openai/codex/issues/15189) — "Support dynamic bearer token refresh for custom model providers" — opened ~2026-03-17, open as of 2026-03-31.

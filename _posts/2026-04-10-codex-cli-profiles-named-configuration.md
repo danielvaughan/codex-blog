@@ -285,10 +285,17 @@ The feature remains experimental, but the underlying design — named overlays o
 ## Citations
 
 [^1]: [Command Line Options — Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/reference)
+
 [^2]: [Advanced Configuration — Codex | OpenAI Developers](https://developers.openai.com/codex/config-advanced)
+
 [^3]: [Sample Configuration — Codex | OpenAI Developers](https://developers.openai.com/codex/config-sample)
+
 [^4]: [Config Basics — Codex | OpenAI Developers](https://developers.openai.com/codex/config-basic)
+
 [^5]: [Non-Interactive Mode — Codex | OpenAI Developers](https://developers.openai.com/codex/noninteractive)
+
 [^6]: [Managed Configuration — Codex | OpenAI Developers](https://developers.openai.com/codex/enterprise/managed-configuration)
+
 [^7]: [Admin Setup — Codex | OpenAI Developers](https://developers.openai.com/codex/enterprise/admin-setup)
+
 [^8]: [Configuration Reference — Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)

@@ -219,10 +219,10 @@ The `--quick` flag skips peer review and runs only opinions plus chairman synthe
 
 ## Citations
 
-[^1]: yogirk, "agent-council: A skill that convenes a panel of CLI-based AI agents to deliberate on engineering problems," GitHub, 2026. [https://github.com/yogirk/agent-council](https://github.com/yogirk/agent-council)
+[^1]: yogirk, "agent-council: A skill that convenes a panel of CLI-based AI agents to deliberate on engineering problems," GitHub, 2026. <https://github.com/yogirk/agent-council>
 
-[^2]: Cross-model adversarial review patterns discussed in "What Is the OpenAI Codex Plugin for Claude Code? How Cross-Provider AI Review Works," MindStudio, 2026. [https://www.mindstudio.ai/blog/openai-codex-plugin-claude-code-cross-provider-review](https://www.mindstudio.ai/blog/openai-codex-plugin-claude-code-cross-provider-review)
+[^2]: Cross-model adversarial review patterns discussed in "What Is the OpenAI Codex Plugin for Claude Code? How Cross-Provider AI Review Works," MindStudio, 2026. <https://www.mindstudio.ai/blog/openai-codex-plugin-claude-code-cross-provider-review>
 
-[^3]: Andrej Karpathy, "llm-council: LLM Council works together to answer your hardest questions," GitHub, 2025. [https://github.com/karpathy/llm-council](https://github.com/karpathy/llm-council)
+[^3]: Andrej Karpathy, "llm-council: LLM Council works together to answer your hardest questions," GitHub, 2025. <https://github.com/karpathy/llm-council>
 
-[^4]: "Show HN: Multi-agent deliberation plugin for Claude Code," Hacker News discussion, 2026. [https://news.ycombinator.com/item?id=46737053](https://news.ycombinator.com/item?id=46737053)
+[^4]: "Show HN: Multi-agent deliberation plugin for Claude Code," Hacker News discussion, 2026. <https://news.ycombinator.com/item?id=46737053>

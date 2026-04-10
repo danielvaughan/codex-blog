@@ -215,26 +215,26 @@ For developers building on Codex, the V4A format is not an implementation detail
 
 ## Citations
 
-[^1]: OpenAI, "Apply Patch — OpenAI API," [https://developers.openai.com/api/docs/guides/tools-apply-patch](https://developers.openai.com/api/docs/guides/tools-apply-patch)
+[^1]: OpenAI, "Apply Patch — OpenAI API," <https://developers.openai.com/api/docs/guides/tools-apply-patch>
 
-[^2]: OpenAI, "GPT-4.1 Prompting Guide," [https://developers.openai.com/cookbook/examples/gpt4-1_prompting_guide](https://developers.openai.com/cookbook/examples/gpt4-1_prompting_guide)
+[^2]: OpenAI, "GPT-4.1 Prompting Guide," <https://developers.openai.com/cookbook/examples/gpt4-1_prompting_guide>
 
-[^3]: Fabian Hertwig, "Code Surgery: How AI Assistants Make Precise Edits to Your Files," [https://fabianhertwig.com/blog/coding-assistants-file-edits/](https://fabianhertwig.com/blog/coding-assistants-file-edits/)
+[^3]: Fabian Hertwig, "Code Surgery: How AI Assistants Make Precise Edits to Your Files," <https://fabianhertwig.com/blog/coding-assistants-file-edits/>
 
-[^4]: OpenAI, "Codex Prompting Guide," [https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide](https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide)
+[^4]: OpenAI, "Codex Prompting Guide," <https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide>
 
-[^5]: OpenAI, "codex-rs/core/prompt_with_apply_patch_instructions.md," GitHub, [https://github.com/openai/codex/blob/main/codex-rs/core/prompt_with_apply_patch_instructions.md](https://github.com/openai/codex/blob/main/codex-rs/core/prompt_with_apply_patch_instructions.md)
+[^5]: OpenAI, "codex-rs/core/prompt_with_apply_patch_instructions.md," GitHub, <https://github.com/openai/codex/blob/main/codex-rs/core/prompt_with_apply_patch_instructions.md>
 
-[^6]: PromptLayer, "How OpenAI Codex Works Behind-the-Scenes," [https://blog.promptlayer.com/how-openai-codex-works-behind-the-scenes-and-how-it-compares-to-claude-code/](https://blog.promptlayer.com/how-openai-codex-works-behind-the-scenes-and-how-it-compares-to-claude-code/)
+[^6]: PromptLayer, "How OpenAI Codex Works Behind-the-Scenes," <https://blog.promptlayer.com/how-openai-codex-works-behind-the-scenes-and-how-it-compares-to-claude-code/>
 
-[^7]: OpenAI, "openai/codex — Lightweight coding agent that runs in your terminal," GitHub, [https://github.com/openai/codex](https://github.com/openai/codex)
+[^7]: OpenAI, "openai/codex — Lightweight coding agent that runs in your terminal," GitHub, <https://github.com/openai/codex>
 
-[^8]: PyPI, "codex-apply-patch," [https://pypi.org/project/codex-apply-patch/](https://pypi.org/project/codex-apply-patch/)
+[^8]: PyPI, "codex-apply-patch," <https://pypi.org/project/codex-apply-patch/>
 
-[^9]: Warp, "Codex Models Now Available in Warp," [https://www.warp.dev/blog/codex-models-in-warp-apply-patch-and-prompting-changes](https://www.warp.dev/blog/codex-models-in-warp-apply-patch-and-prompting-changes)
+[^9]: Warp, "Codex Models Now Available in Warp," <https://www.warp.dev/blog/codex-models-in-warp-apply-patch-and-prompting-changes>
 
-[^10]: GitHub Issue #14046, "`apply_patch` broken for Azure-hosted GPT-4.1 since v0.80.0," [https://github.com/openai/codex/issues/14046](https://github.com/openai/codex/issues/14046)
+[^10]: GitHub Issue #14046, "`apply_patch` broken for Azure-hosted GPT-4.1 since v0.80.0," <https://github.com/openai/codex/issues/14046>
 
-[^11]: OpenAI, "CLI — Codex | OpenAI Developers," [https://developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
+[^11]: OpenAI, "CLI — Codex | OpenAI Developers," <https://developers.openai.com/codex/cli>
 
-[^12]: OpenAI, "Changelog — Codex | OpenAI Developers," [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
+[^12]: OpenAI, "Changelog — Codex | OpenAI Developers," <https://developers.openai.com/codex/changelog>

@@ -263,13 +263,23 @@ codex exec resume "$SESSION" "Fix all identified issues"
 ## Citations
 
 [^1]: [Codex App documentation](https://developers.openai.com/codex/app) — OpenAI Developers, 2026.
+
 [^2]: [App Server documentation](https://developers.openai.com/codex/app-server) — OpenAI Developers, 2026.
+
 [^3]: [Unlocking the Codex harness: how we built the App Server](https://openai.com/index/unlocking-the-codex-harness/) — OpenAI Blog, 2026.
+
 [^4]: [Session Resumption and Forking](https://deepwiki.com/openai/codex/4.4-session-resumption-and-forking) — DeepWiki, 2026.
+
 [^5]: [Codex CLI Features](https://developers.openai.com/codex/cli/features) — OpenAI Developers, 2026.
+
 [^6]: [Codex CLI Command Line Reference](https://developers.openai.com/codex/cli/reference) — OpenAI Developers, 2026.
+
 [^7]: [Slash commands in Codex CLI](https://developers.openai.com/codex/cli/slash-commands) — OpenAI Developers, 2026.
+
 [^8]: [Codex Changelog — v0.117.0](https://developers.openai.com/codex/changelog) — OpenAI Developers, March 2026.
+
 [^9]: [Background tasks keep spinning independently w/o way to kill them — Issue #8656](https://github.com/openai/codex/issues/8656) — GitHub, 2025.
+
 [^10]: [Desktop app stuck in cloud-only mode; local sessions ignored — Issue #10547](https://github.com/openai/codex/issues/10547) — GitHub, 2026.
+
 [^11]: [Codex can print a session ID but fail to persist resumable artefacts — Issue #15870](https://github.com/openai/codex/issues/15870) — GitHub, 2026.

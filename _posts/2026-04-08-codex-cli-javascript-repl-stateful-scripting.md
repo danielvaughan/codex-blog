@@ -200,12 +200,21 @@ The feature has evolved rapidly through 2025–2026 [^5][^8][^9]:
 ## Citations
 
 [^1]: [JavaScript REPL (js_repl) — Codex CLI Documentation](https://fossies.org/linux/codex-rust/docs/js_repl.md)
+
 [^2]: [Features — Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features)
+
 [^3]: [Codex CLI: The Definitive Technical Reference — Blake Crosley](https://blakecrosley.com/guides/codex)
+
 [^4]: [Add feature-gated freeform js_repl core runtime — PR #10674](https://github.com/openai/codex/pull/10674)
+
 [^5]: [Disable js_repl when Node is incompatible at startup — PR #12824](https://github.com/openai/codex/pull/12824)
+
 [^6]: [OpenAI Codex CLI Architecture and Multi-Runtime Agent Patterns — Zylos Research](https://zylos.ai/research/2026-03-26-openai-codex-cli-architecture-multi-runtime-patterns)
+
 [^7]: [openai/codex — GitHub Repository](https://github.com/openai/codex)
+
 [^8]: [Fix: js_repl reset hang by clearing exec tool calls — PR #11932](https://github.com/openai/codex/pull/11932)
+
 [^9]: [Codex by OpenAI — Release Notes April 2026](https://releasebot.io/updates/openai/codex)
+
 [^10]: [Changelog — Codex | OpenAI Developers](https://developers.openai.com/codex/changelog)

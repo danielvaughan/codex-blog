@@ -231,9 +231,15 @@ Running `codex cloud` without arguments opens a picker and **applies the most re
 ## Citations
 
 [^1]: OpenAI. "Codex is now generally available." [openai.com/index/codex-now-generally-available/](https://openai.com/index/codex-now-generally-available/)
+
 [^2]: OpenAI Developers. "Codex Cloud Environments." [developers.openai.com/codex/cloud/environments](https://developers.openai.com/codex/cloud/environments)
+
 [^3]: OpenAI Developers. "Cloud Environments — Container Management and Security." [developers.openai.com/codex/cloud/environments](https://developers.openai.com/codex/cloud/environments)
+
 [^4]: OpenAI. "openai/codex-universal — Universal base image." [github.com/openai/codex-universal](https://github.com/openai/codex-universal)
+
 [^5]: OpenAI Developers. "Use Codex in Slack." [developers.openai.com/codex/integrations/slack](https://developers.openai.com/codex/integrations/slack)
+
 [^6]: OpenAI Developers. "Use Codex in Linear." [developers.openai.com/codex/integrations/linear](https://developers.openai.com/codex/integrations/linear)
+
 [^7]: OpenAI Developers. "Codex CLI Changelog." [developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)

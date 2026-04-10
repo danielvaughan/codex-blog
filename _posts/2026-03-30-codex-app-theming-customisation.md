@@ -224,14 +224,24 @@ The `codex-theme-v1` format is designed to be portable. Practical sharing patter
 
 ## Citations
 
-[^1]: OpenAI, "Codex App 26.323 — theming, automations, thread search", Codex Changelog, March 2026. https://developers.openai.com/codex/changelog
-[^2]: OpenAI, "Features – Codex CLI: `/theme` picker and `tui.theme`", Codex Developer Documentation. https://developers.openai.com/codex/cli/features
-[^3]: OpenAI, "Settings – Codex app", Codex Developer Documentation. https://developers.openai.com/codex/app/settings
-[^4]: OpenAI, "OpenAI Upgrades Its Codex App With Customizable Themes", March 2026. https://www.eyerys.com/articles/news/openai-upgrades-its-codex-app-customizable-themes-and-automated-workflows
-[^5]: "OpenAI launches Codex app to bring its coding models, used to build OpenClaw, to more users", Fortune, February 2026. https://fortune.com/2026/02/02/openai-launches-codex-app-to-bring-coding-models-to-more-users-openclaw-ai-agents/
-[^6]: Dominik Kundel (@dkundel), `codex-theme-v1` JSON example, X (formerly Twitter), March 2026. https://x.com/dkundel/status/2032224113025302535
-[^7]: "Theme importer rejects custom codeThemeId values unless they match dropdown IDs", GitHub Issue #14766, openai/codex. https://github.com/openai/codex/issues/14766
-[^8]: OpenAI, "codex-rs Architecture: Ratatui TUI and TextMate syntax engine", Codex Developer Documentation. https://developers.openai.com/codex
-[^9]: "Enable voice transcription in Linux/WSL builds", GitHub Issue #12894, openai/codex (references v0.105.0 diff-view rendering regression). https://github.com/openai/codex/issues/12894
-[^10]: OpenAI, "Sample Configuration – Codex: profile-scoped `[tui]` overrides". https://developers.openai.com/codex/config-sample
+[^1]: OpenAI, "Codex App 26.323 — theming, automations, thread search", Codex Changelog, March 2026. <https://developers.openai.com/codex/changelog>
+
+[^2]: OpenAI, "Features – Codex CLI: `/theme` picker and `tui.theme`", Codex Developer Documentation. <https://developers.openai.com/codex/cli/features>
+
+[^3]: OpenAI, "Settings – Codex app", Codex Developer Documentation. <https://developers.openai.com/codex/app/settings>
+
+[^4]: OpenAI, "OpenAI Upgrades Its Codex App With Customizable Themes", March 2026. <https://www.eyerys.com/articles/news/openai-upgrades-its-codex-app-customizable-themes-and-automated-workflows>
+
+[^5]: "OpenAI launches Codex app to bring its coding models, used to build OpenClaw, to more users", Fortune, February 2026. <https://fortune.com/2026/02/02/openai-launches-codex-app-to-bring-coding-models-to-more-users-openclaw-ai-agents/>
+
+[^6]: Dominik Kundel (@dkundel), `codex-theme-v1` JSON example, X (formerly Twitter), March 2026. <https://x.com/dkundel/status/2032224113025302535>
+
+[^7]: "Theme importer rejects custom codeThemeId values unless they match dropdown IDs", GitHub Issue #14766, openai/codex. <https://github.com/openai/codex/issues/14766>
+
+[^8]: OpenAI, "codex-rs Architecture: Ratatui TUI and TextMate syntax engine", Codex Developer Documentation. <https://developers.openai.com/codex>
+
+[^9]: "Enable voice transcription in Linux/WSL builds", GitHub Issue #12894, openai/codex (references v0.105.0 diff-view rendering regression). <https://github.com/openai/codex/issues/12894>
+
+[^10]: OpenAI, "Sample Configuration – Codex: profile-scoped `[tui]` overrides". <https://developers.openai.com/codex/config-sample>
+
 [^11]: `codex-themes` community tool for generating matching terminal palette configs, GitHub: `ychampion/codex-themes`. ⚠️ Community project — verify current status before using in production.

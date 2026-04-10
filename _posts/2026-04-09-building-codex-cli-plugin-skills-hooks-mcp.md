@@ -906,16 +906,16 @@ Several failure modes surface in practice:
 
 ## Citations
 
-[^1]: Codex CLI v0.117.0 release — first-class plugin support with `plugin.json` manifest, marketplace system, and `INSTALLED_BY_DEFAULT` policy. [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
+[^1]: Codex CLI v0.117.0 release — first-class plugin support with `plugin.json` manifest, marketplace system, and `INSTALLED_BY_DEFAULT` policy. <https://developers.openai.com/codex/changelog>
 
-[^2]: Agent Skills specification — SKILL.md format, progressive disclosure model, skill discovery hierarchy. [https://agentskills.io/specification](https://agentskills.io/specification)
+[^2]: Agent Skills specification — SKILL.md format, progressive disclosure model, skill discovery hierarchy. <https://agentskills.io/specification>
 
-[^3]: Codex CLI hooks engine — `SessionStart`, `Stop`, `userpromptsubmit` events, exit-code protocol, synchronous execution. Introduced v0.114.0, expanded v0.116.0. [https://github.com/openai/codex/discussions/2150](https://github.com/openai/codex/discussions/2150)
+[^3]: Codex CLI hooks engine — `SessionStart`, `Stop`, `userpromptsubmit` events, exit-code protocol, synchronous execution. Introduced v0.114.0, expanded v0.116.0. <https://github.com/openai/codex/discussions/2150>
 
-[^4]: Codex CLI MCP configuration — `config.toml` format, environment variable resolution, `enabled_tools` restriction. [https://blakecrosley.com/guides/codex](https://blakecrosley.com/guides/codex)
+[^4]: Codex CLI MCP configuration — `config.toml` format, environment variable resolution, `enabled_tools` restriction. <https://blakecrosley.com/guides/codex>
 
-[^5]: Codex CLI AGENTS.md hierarchical loading — repo root, directory-level overrides, `AGENTS.override.md` for enterprise policy. [https://developers.openai.com/codex/agents-md](https://developers.openai.com/codex/agents-md)
+[^5]: Codex CLI AGENTS.md hierarchical loading — repo root, directory-level overrides, `AGENTS.override.md` for enterprise policy. <https://developers.openai.com/codex/agents-md>
 
-[^6]: Agent Skills specification — SKILL.md format, progressive disclosure model, skill discovery hierarchy. [https://developers.openai.com/codex/skills](https://developers.openai.com/codex/skills)
+[^6]: Agent Skills specification — SKILL.md format, progressive disclosure model, skill discovery hierarchy. <https://developers.openai.com/codex/skills>
 
-[^7]: Codex CLI hooks documentation — `SessionStart`, `PreToolUse`, `PostToolUse`, `UserPromptSubmit`, `Stop` events, exit-code protocol for denying operations. [https://developers.openai.com/codex/hooks](https://developers.openai.com/codex/hooks)
+[^7]: Codex CLI hooks documentation — `SessionStart`, `PreToolUse`, `PostToolUse`, `UserPromptSubmit`, `Stop` events, exit-code protocol for denying operations. <https://developers.openai.com/codex/hooks>

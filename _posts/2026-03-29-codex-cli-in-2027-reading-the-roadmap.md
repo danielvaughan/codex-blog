@@ -155,9 +155,15 @@ The underlying direction is coherent: Codex is becoming a cloud-native, always-o
 ## Citations
 
 [^1]: OpenAI, "Models – Codex," developers.openai.com/codex/models, accessed March 2026. <https://developers.openai.com/codex/models>
+
 [^2]: OpenAI, "Introducing GPT-5.2-Codex," openai.com/index/introducing-gpt-5-2-codex/, accessed March 2026. <https://openai.com/index/introducing-gpt-5-2-codex/>
+
 [^3]: IntuitionLabs, "OpenAI Codex App: A Guide to Multi-Agent AI Coding," intuitionlabs.ai, accessed March 2026. <https://intuitionlabs.ai/articles/openai-codex-app-ai-coding-agents>
+
 [^4]: OpenAI, "Introducing upgrades to Codex," openai.com/index/introducing-upgrades-to-codex/, accessed March 2026. <https://openai.com/index/introducing-upgrades-to-codex/>
+
 [^5]: InfoQ, "Another Rust Rewrite: OpenAI's Codex CLI Goes Native, Drops Node and TypeScript for Rust," infoq.com, accessed March 2026. <https://www.infoq.com/news/2025/06/codex-cli-rust-native-rewrite/>
+
 [^6]: Releasebot, "Codex by OpenAI – Release Notes – March 2026 Latest Updates," releasebot.io, accessed March 2026. <https://releasebot.io/updates/openai/codex>
+
 [^7]: Augment Code, "OpenAI Codex CLI ships v0.116.0 with enterprise features," augmentcode.com, accessed March 2026. <https://www.augmentcode.com/learn/openai-codex-cli-enterprise>

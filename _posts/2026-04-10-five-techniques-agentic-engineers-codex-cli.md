@@ -331,16 +331,16 @@ The result is a compound engineering workflow where every failure makes the syst
 
 ## Citations
 
-[^1]: Cole Medin, "5 Techniques Separating Top Agentic AI Engineers: Ship Faster with Fewer Mistakes", Geeky Gadgets, 2025. [https://www.geeky-gadgets.com/agentic-engineer-techniques/](https://www.geeky-gadgets.com/agentic-engineer-techniques/)
+[^1]: Cole Medin, "5 Techniques Separating Top Agentic AI Engineers: Ship Faster with Fewer Mistakes", Geeky Gadgets, 2025. <https://www.geeky-gadgets.com/agentic-engineer-techniques/>
 
-[^2]: OpenAI, "Custom instructions with AGENTS.md – Codex", OpenAI Developers, 2026. [https://developers.openai.com/codex/guides/agents-md](https://developers.openai.com/codex/guides/agents-md)
+[^2]: OpenAI, "Custom instructions with AGENTS.md – Codex", OpenAI Developers, 2026. <https://developers.openai.com/codex/guides/agents-md>
 
-[^3]: OpenAI, "Agent Skills – Codex", OpenAI Developers, 2026. [https://developers.openai.com/codex/skills](https://developers.openai.com/codex/skills)
+[^3]: OpenAI, "Agent Skills – Codex", OpenAI Developers, 2026. <https://developers.openai.com/codex/skills>
 
-[^4]: Cole Medin, "Advanced Claude Code Techniques: Agentic Engineering With Context Driven Development", AI Coding Summit 2026. [https://gitnation.com/contents/advanced-claude-code-techniques-agentic-engineering-with-context-driven-development-3256](https://gitnation.com/contents/advanced-claude-code-techniques-agentic-engineering-with-context-driven-development-3256)
+[^4]: Cole Medin, "Advanced Claude Code Techniques: Agentic Engineering With Context Driven Development", AI Coding Summit 2026. <https://gitnation.com/contents/advanced-claude-code-techniques-agentic-engineering-with-context-driven-development-3256>
 
-[^5]: OpenAI, "Subagents – Codex", OpenAI Developers, 2026. [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^5]: OpenAI, "Subagents – Codex", OpenAI Developers, 2026. <https://developers.openai.com/codex/subagents>
 
-[^6]: SmartScope, "Codex Plan Mode: Stop Code Drift with Plan→Execute (2026)", SmartScope Blog, 2026. [https://smartscope.blog/en/generative-ai/chatgpt/codex-plan-mode-complete-guide/](https://smartscope.blog/en/generative-ai/chatgpt/codex-plan-mode-complete-guide/)
+[^6]: SmartScope, "Codex Plan Mode: Stop Code Drift with Plan→Execute (2026)", SmartScope Blog, 2026. <https://smartscope.blog/en/generative-ai/chatgpt/codex-plan-mode-complete-guide/>
 
-[^7]: OpenAI, "Hooks – Codex", OpenAI Developers, 2026. [https://developers.openai.com/codex/hooks](https://developers.openai.com/codex/hooks)
+[^7]: OpenAI, "Hooks – Codex", OpenAI Developers, 2026. <https://developers.openai.com/codex/hooks>

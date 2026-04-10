@@ -127,6 +127,9 @@ The app-server TUI becoming default in v0.117.0 is not a feature. It is an archi
 ---
 
 [^1]: [Codex CLI v0.117.0 Changelog](https://developers.openai.com/codex/changelog) — March 26, 2026.
+
 [^2]: [Unlocking the Codex Harness: How We Built the App Server](https://openai.com/index/unlocking-the-codex-harness/) — OpenAI Blog.
+
 [^3]: [App Server Reference](https://developers.openai.com/codex/app-server) — OpenAI Developer Docs.
+
 [^4]: [App Server README](https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md) — openai/codex on GitHub.

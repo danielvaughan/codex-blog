@@ -368,30 +368,57 @@ The `[realtime]` TOML config block (merged 13 March 2026) provides the configura
 ## Citations
 
 [^1]: Pull Request #14556 "Add realtime transcription mode for websocket sessions" — github.com/openai/codex/pull/14556; Pull Request #14606 "Unify realtime v1/v2 session config" — github.com/openai/codex/pull/14606
+
 [^2]: OpenAI Realtime API documentation — developers.openai.com/api/docs/guides/realtime
+
 [^3]: PR #14606 description: "removes `realtime_conversation_v2` feature flag, consolidating its functionality into the new configuration structure" — github.com/openai/codex/pull/14606
+
 [^4]: Codex Configuration Reference — developers.openai.com/codex/config-reference
+
 [^5]: Releasebot Codex March 2026 release notes: v0.116.0 shipped with improved realtime defaults — releasebot.io/updates/openai/codex
+
 [^6]: PR #14606: "uses `session_type` internally with `#[serde(rename = \"type\")]` for both runtime and TOML structs" — github.com/openai/codex/pull/14606
+
 [^7]: OpenAI Codex Changelog — developers.openai.com/codex/changelog
+
 [^8]: Releasebot Codex v0.116.0 entry: "Realtime sessions now start with recent thread context" — releasebot.io/updates/openai/codex
+
 [^9]: OpenAI Codex Changelog v0.116.0: reduced self-interruption during audio playback — developers.openai.com/codex/changelog
+
 [^10]: OpenAI Codex Changelog v0.117.0: "fixed first-turn stall where WebSocket prewarm could delay turn/start; startup now times out and falls back cleanly" — developers.openai.com/codex/changelog
+
 [^11]: PR #14556: "for v2 sessions in transcription mode, the system emits `input_text` conversation items for user messages" — github.com/openai/codex/pull/14556
+
 [^12]: PR #14556: "WebSocket intent queries become parser-aware, preventing v2 transcription mode from forcing Quicksilver intent" — github.com/openai/codex/pull/14556
+
 [^13]: PR #14606 wired `experimental_realtime_ws_mode` enum to the `type` TOML key — github.com/openai/codex/pull/14606
+
 [^14]: OpenAI Codex Changelog v0.116.0: "App-server TUI supports device-code ChatGPT sign-in during onboarding and can refresh existing ChatGPT tokens" — developers.openai.com/codex/changelog
+
 [^15]: Codex App-Server documentation — developers.openai.com/codex/app-server
+
 [^16]: Codex App-Server documentation: JSON-RPC error `-32001` "Server overloaded; retry later" — developers.openai.com/codex/app-server
+
 [^17]: OpenAI Codex Changelog v0.117.0: "realtime transcript notification in v2" with handoff context preservation — developers.openai.com/codex/changelog
+
 [^18]: x-cmd blog, "Codex 0.105.0 Released: Voice Input Support" (Feb 26, 2026) — x-cmd.com/blog/260226/
+
 [^19]: GitHub PR #3381, "voice transcription by nornagon-openai" — github.com/openai/codex/pull/3381 (spacebar hold, sparkline meter, cpal/hound crates, Whisper upload)
+
 [^20]: Awesome Agents, "Codex 0.105.0 Ships Voice Input, Sleep Prevention, and a Complete Subagent Overhaul" — awesomeagents.ai/news/codex-0-105-voice-subagents-overhaul/
+
 [^21]: GitHub Issue #12827, "Voice transcription no-op" — developer Eric Traut: "This feature isn't currently supported on Linux" — github.com/openai/codex/issues/12827
+
 [^22]: GitHub Issue #12894, "Enable voice transcription in Linux/WSL builds" — github.com/openai/codex/issues/12894
+
 [^23]: OpenWhispr cross-platform voice dictation — github.com/OpenWhispr/openwhispr
+
 [^24]: Spokenly, "Voice Input for OpenAI Codex CLI via MCP" — spokenly.app/blog/voice-dictation-for-developers/codex
+
 [^25]: Codex CLI hooks documentation (PostTaskComplete, SessionStop) — developers.openai.com/codex/cli/hooks
+
 [^26]: Dev Genius, "Building A 'Voice' For My CLI Code Agent" (March 2026) — blog.devgenius.io/building-a-voice-for-my-cli-code-agent-5f2d15b5b89e
+
 [^27]: Spokenly MCP remote proxy pattern (localhost port forwarding) — spokenly.app/blog/voice-dictation-for-developers/codex
+
 [^28]: GitHub Issue #12902, "Voice transcription usage issue" — transcript echo loop risk — github.com/openai/codex/issues/12902

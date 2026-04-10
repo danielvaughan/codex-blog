@@ -291,16 +291,29 @@ The pattern that works at scale: **thin at the top, specific at the leaf**. The 
 ## Citations
 
 [^1]: [The AGENTS.md Bloat Problem – Codex Resources](https://danielvaughan.github.io/codex-resources/articles/2026-03-27-agents-md-bloat-problem/)
+
 [^2]: [Custom instructions with AGENTS.md – Codex CLI Docs](https://developers.openai.com/codex/guides/agents-md)
+
 [^3]: [AGENTS.md silently truncated – Issue #7138 · openai/codex](https://github.com/openai/codex/issues/7138)
+
 [^4]: [Configuration Reference – Codex CLI Docs](https://developers.openai.com/codex/config-reference)
+
 [^5]: [AGENTS.md Cross-Tool Unified Management Guide – SmartScope Blog](https://smartscope.blog/en/generative-ai/github-copilot/github-copilot-agents-md-guide/)
+
 [^6]: [Agent does not read AGENTS.override.md – Issue #11838 · openai/codex (closed March 16, 2026)](https://github.com/openai/codex/issues/11838)
+
 [^7]: [Best Practices – Codex CLI Docs](https://developers.openai.com/codex/learn/best-practices)
+
 [^8]: [Advanced Configuration – Codex CLI Docs](https://developers.openai.com/codex/config-advanced)
+
 [^9]: [AGENTS.md Advanced Patterns – Codex Resources](https://danielvaughan.github.io/codex-resources/articles/2026-03-26-agents-md-advanced-patterns/)
+
 [^10]: [Config Basics – Codex CLI Docs](https://developers.openai.com/codex/config-basic)
+
 [^11]: [Dynamically loading nested AGENTS.md – Issue #12115 · openai/codex (open Feb 18, 2026)](https://github.com/openai/codex/issues/12115)
+
 [^12]: [Feature: Add --agents flag for named AGENTS.md variants – Issue #10067 · openai/codex (open Jan 28, 2026)](https://github.com/openai/codex/issues/10067)
+
 [^13]: [AGENTS.md truncation warning indicator – PR #7139 · openai/codex](https://github.com/openai/codex/issues/7138)
+
 [^14]: [Codex CLI v0.117.0 Release Notes – openai/codex](https://github.com/openai/codex/releases)

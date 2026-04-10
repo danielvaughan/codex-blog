@@ -316,6 +316,9 @@ The Mac app's Automations feature and `codex exec` are complementary, not compet
 ## Citations
 
 [^1]: OpenAI, "Introducing the Codex App", February 2026. Mac app launched 2 February 2026, Windows app 4 March 2026. <https://openai.com/index/introducing-the-codex-app/>
+
 [^2]: OpenAI Developer Docs, "Automations – Codex app". Covers scheduling, worktree modes, sandbox settings, approval policies, and review inbox. <https://developers.openai.com/codex/app/automations>
+
 [^3]: OpenAI Developer Docs, "Non-interactive mode – Codex". Full reference for `codex exec` flags, JSONL output events, `--output-schema`, `CODEX_API_KEY`, and MCP required-server behaviour. <https://developers.openai.com/codex/noninteractive>
+
 [^4]: OpenAI Developer Docs, "Features – Codex CLI". `codex exec resume` and `--attempts` flag for cloud multi-attempt runs. <https://developers.openai.com/codex/cli/features>

@@ -263,11 +263,19 @@ Codex CLI remains the stronger choice for security-sensitive automation (OS-leve
 ## Citations
 
 [^1]: [Introducing Cline CLI 2.0: from sidebar to the terminal](https://cline.bot/blog/introducing-cline-cli-2-0) — Cline Blog, February 2026
+
 [^2]: [Cline GitHub Repository](https://github.com/cline/cline) — 58K+ stars, Apache 2.0 licence, 5M+ installs
+
 [^3]: [Cline CLI & My Undying Love of Cline Core](https://cline.bot/blog/cline-cli-my-undying-love-of-cline-core) — Cline Blog, architecture deep dive
+
 [^4]: [Cline gRPC Communication System](https://deepwiki.com/cline/cline/6.1-grpc-communication-system) — DeepWiki architectural analysis
+
 [^5]: [YOLO Mode Documentation](https://docs.cline.bot/features/yolo-mode) — Official Cline documentation
+
 [^6]: [CLI Headless Mode and CI/CD](https://deepwiki.com/cline/cline/12.4-cli-headless-mode-and-cicd) — DeepWiki technical reference
+
 [^7]: [Cline CLI Reference](https://docs.cline.bot/cline-cli/cli-reference) — Official CLI command reference
+
 [^8]: [Cline CLI Commands and Options](https://deepwiki.com/cline/cline/12.2-cli-commands-and-options) — DeepWiki, including CLINE_COMMAND_PERMISSIONS specification
+
 [^9]: [Codex CLI Non-interactive Mode](https://developers.openai.com/codex/noninteractive) — OpenAI Developers documentation

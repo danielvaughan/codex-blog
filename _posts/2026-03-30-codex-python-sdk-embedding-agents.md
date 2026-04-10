@@ -402,22 +402,41 @@ The Python SDK is still marked experimental in places, but it is stable enough f
 ## Citations
 
 [^1]: Codex Python SDK source — [github.com/openai/codex/tree/main/sdk/python](https://github.com/openai/codex/tree/main/sdk/python)
+
 [^2]: SDK version and Python requirements — [sdk/python/README.md](https://github.com/openai/codex/blob/main/sdk/python/README.md)
+
 [^3]: App-server architecture overview — [developers.openai.com/codex/app-server](https://developers.openai.com/codex/app-server)
+
 [^4]: Codex app-server README — [codex-rs/app-server/README.md](https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md)
+
 [^5]: Published PyPI package — [libraries.io/pypi/codex-app-server-sdk](https://libraries.io/pypi/codex-app-server-sdk)
+
 [^6]: `Codex` and `AsyncCodex` class reference — [sdk/python/docs/api-reference.md](https://github.com/openai/codex/blob/main/sdk/python/docs/api-reference.md)
+
 [^7]: Thread/Turn/Item model — [developers.openai.com/codex/app-server](https://developers.openai.com/codex/app-server)
+
 [^8]: `thread.run()` API — [sdk/python/docs/faq.md](https://github.com/openai/codex/blob/main/sdk/python/docs/faq.md)
+
 [^9]: `thread.turn()` API — [sdk/python/docs/faq.md](https://github.com/openai/codex/blob/main/sdk/python/docs/faq.md)
+
 [^10]: `final_response` behaviour — [sdk/python/docs/getting-started.md](https://github.com/openai/codex/blob/main/sdk/python/docs/getting-started.md)
+
 [^11]: Multi-turn conversation pattern — [sdk/python/examples/README.md](https://github.com/openai/codex/blob/main/sdk/python/examples/README.md)
+
 [^12]: `stream()` and `run()` exclusivity — [sdk/python/docs/api-reference.md](https://github.com/openai/codex/blob/main/sdk/python/docs/api-reference.md)
+
 [^13]: `AsyncCodex` lazy init — [sdk/python/docs/faq.md](https://github.com/openai/codex/blob/main/sdk/python/docs/faq.md)
+
 [^14]: Structured output and snake_case kwargs — [sdk/python/docs/faq.md](https://github.com/openai/codex/blob/main/sdk/python/docs/faq.md)
+
 [^15]: Exception hierarchy — [sdk/python/docs/api-reference.md](https://github.com/openai/codex/blob/main/sdk/python/docs/api-reference.md)
+
 [^16]: Error handling guidance — [sdk/python/docs/faq.md](https://github.com/openai/codex/blob/main/sdk/python/docs/faq.md)
+
 [^17]: Approval and sandbox policies — [developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
+
 [^18]: `stream()`/`run()` mutual exclusivity — [sdk/python/docs/api-reference.md](https://github.com/openai/codex/blob/main/sdk/python/docs/api-reference.md)
+
 [^19]: snake_case migration guide — [sdk/python/docs/faq.md](https://github.com/openai/codex/blob/main/sdk/python/docs/faq.md)
+
 [^20]: App-server as shared infrastructure — [developers.openai.com/codex/app-server](https://developers.openai.com/codex/app-server)

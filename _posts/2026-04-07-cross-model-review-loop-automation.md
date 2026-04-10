@@ -249,18 +249,18 @@ Start with Level 1 to validate that cross-model review catches real issues in yo
 
 ## Citations
 
-[^1]: SmartScope, "Automating the Claude Code × Codex Review Loop — Three Levels," March 2026. [https://smartscope.blog/en/blog/claude-code-codex-review-loop-automation-2026/](https://smartscope.blog/en/blog/claude-code-codex-review-loop-automation-2026/)
+[^1]: SmartScope, "Automating the Claude Code × Codex Review Loop — Three Levels," March 2026. <https://smartscope.blog/en/blog/claude-code-codex-review-loop-automation-2026/>
 
-[^2]: MindStudio, "What Is the OpenAI Codex Plugin for Claude Code? How Cross-Provider AI Review Works," 2026. [https://www.mindstudio.ai/blog/openai-codex-plugin-claude-code-cross-provider-review](https://www.mindstudio.ai/blog/openai-codex-plugin-claude-code-cross-provider-review)
+[^2]: MindStudio, "What Is the OpenAI Codex Plugin for Claude Code? How Cross-Provider AI Review Works," 2026. <https://www.mindstudio.ai/blog/openai-codex-plugin-claude-code-cross-provider-review>
 
-[^3]: OpenAI, "Agent approvals & security – Codex," 2026. [https://developers.openai.com/codex/agent-approvals-security](https://developers.openai.com/codex/agent-approvals-security)
+[^3]: OpenAI, "Agent approvals & security – Codex," 2026. <https://developers.openai.com/codex/agent-approvals-security>
 
-[^4]: OpenAI, "Introducing Codex Plugin for Claude Code," OpenAI Developer Community, March 2026. [https://community.openai.com/t/introducing-codex-plugin-for-claude-code/1378186](https://community.openai.com/t/introducing-codex-plugin-for-claude-code/1378186)
+[^4]: OpenAI, "Introducing Codex Plugin for Claude Code," OpenAI Developer Community, March 2026. <https://community.openai.com/t/introducing-codex-plugin-for-claude-code/1378186>
 
-[^5]: OpenAI, "Hooks – Codex," OpenAI Developers, 2026. [https://developers.openai.com/codex/hooks](https://developers.openai.com/codex/hooks)
+[^5]: OpenAI, "Hooks – Codex," OpenAI Developers, 2026. <https://developers.openai.com/codex/hooks>
 
-[^6]: OpenAI, "codex-plugin-cc," GitHub, March 2026. [https://github.com/openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)
+[^6]: OpenAI, "codex-plugin-cc," GitHub, March 2026. <https://github.com/openai/codex-plugin-cc>
 
-[^7]: Hamel Husain, "claude-review-loop," GitHub, 2026. [https://github.com/hamelsmu/claude-review-loop](https://github.com/hamelsmu/claude-review-loop)
+[^7]: Hamel Husain, "claude-review-loop," GitHub, 2026. <https://github.com/hamelsmu/claude-review-loop>
 
-[^8]: Z-M-Huang, "claude-codex: Multi-AI orchestration plugin," GitHub, 2026. [https://github.com/Z-M-Huang/claude-codex](https://github.com/Z-M-Huang/claude-codex)
+[^8]: Z-M-Huang, "claude-codex: Multi-AI orchestration plugin," GitHub, 2026. <https://github.com/Z-M-Huang/claude-codex>

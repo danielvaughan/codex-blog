@@ -196,20 +196,20 @@ The convergence point is multi-repo orchestration. When Codex CLI ships native c
 
 ## Citations
 
-[^1]: Sourcegraph Blog, "Why Sourcegraph and Amp Are Becoming Independent Companies," December 2025. [https://sourcegraph.com/blog/why-sourcegraph-and-amp-are-becoming-independent-companies](https://sourcegraph.com/blog/why-sourcegraph-and-amp-are-becoming-independent-companies)
+[^1]: Sourcegraph Blog, "Why Sourcegraph and Amp Are Becoming Independent Companies," December 2025. <https://sourcegraph.com/blog/why-sourcegraph-and-amp-are-becoming-independent-companies>
 
-[^2]: npm, "@sourcegraph/amp." [https://www.npmjs.com/package/@sourcegraph/amp](https://www.npmjs.com/package/@sourcegraph/amp)
+[^2]: npm, "@sourcegraph/amp." <https://www.npmjs.com/package/@sourcegraph/amp>
 
-[^3]: Amp, "Owner's Manual," 2026. [https://ampcode.com/manual](https://ampcode.com/manual)
+[^3]: Amp, "Owner's Manual," 2026. <https://ampcode.com/manual>
 
-[^4]: OpenAI Developers, "Codex CLI." [https://developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
+[^4]: OpenAI Developers, "Codex CLI." <https://developers.openai.com/codex/cli>
 
-[^5]: Amp, "Coding Agent Platform," 2026. [https://ampcode.com/](https://ampcode.com/)
+[^5]: Amp, "Coding Agent Platform," 2026. <https://ampcode.com/>
 
-[^6]: OpenAI Developers, "Codex Subagents." [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^6]: OpenAI Developers, "Codex Subagents." <https://developers.openai.com/codex/subagents>
 
-[^7]: OpenAI Developers, "Codex App Worktrees." [https://developers.openai.com/codex/app/worktrees](https://developers.openai.com/codex/app/worktrees)
+[^7]: OpenAI Developers, "Codex App Worktrees." <https://developers.openai.com/codex/app/worktrees>
 
-[^8]: GitHub, "Multi-repo support · Issue #11956 · openai/codex." [https://github.com/openai/codex/issues/11956](https://github.com/openai/codex/issues/11956)
+[^8]: GitHub, "Multi-repo support · Issue #11956 · openai/codex." <https://github.com/openai/codex/issues/11956>
 
 [^9]: agentskills.io, "Cross-Platform Agent Portability." ⚠️ No direct URL confirmed; based on community reports of AGENTS.md convergence across tools.

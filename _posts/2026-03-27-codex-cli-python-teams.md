@@ -328,11 +328,19 @@ The single most impactful change is step 3: an `AGENTS.md` that clearly states `
 ## Citations
 
 [^1]: [OpenAI to acquire Astral — openai.com, March 2026](https://openai.com/index/openai-to-acquire-astral/)
+
 [^2]: [uv documentation — astral.sh/uv](https://docs.astral.sh/uv/)
+
 [^3]: [Ruff documentation — astral.sh/ruff](https://docs.astral.sh/ruff/)
+
 [^4]: [Setting up testing with pytest and uv — pydevtools.com](https://pydevtools.com/handbook/tutorial/setting-up-testing-with-pytest-and-uv/)
+
 [^5]: [Custom instructions with AGENTS.md — OpenAI Developers](https://developers.openai.com/codex/guides/agents-md)
+
 [^6]: [Configuring Ruff — Astral Docs](https://docs.astral.sh/ruff/configuration/)
+
 [^7]: [Codex CLI Hooks Deep Dive — codex-resources, 2026-03-26](/codex-resources/articles/2026-03-26-codex-cli-hooks-deep-dive/)
+
 [^8]: [Claude Code Hooks for uv Projects — pydevtools.com](https://pydevtools.com/blog/claude-code-hooks-for-uv/)
+
 [^9]: [Astral to join OpenAI — astral.sh/blog/openai, March 2026](https://astral.sh/blog/openai)

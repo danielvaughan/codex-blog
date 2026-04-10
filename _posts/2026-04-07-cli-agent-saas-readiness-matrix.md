@@ -144,26 +144,26 @@ The Codex CLI SDK's architecture — wrapping the Rust binary with JSONL event e
 
 ## Citations
 
-[^1]: Kleinloog/VIA Research, "The Complete Landscape of CLI-Based AI Coding Agents," 2026. [https://www.kleinloog.ch/articles/the-5-ai-coding-agents-worth-embedding-in-your-saas/the-complete-landscape-of-cli-based-ai-coding-agents.pdf](https://www.kleinloog.ch/articles/the-5-ai-coding-agents-worth-embedding-in-your-saas/the-complete-landscape-of-cli-based-ai-coding-agents.pdf)
+[^1]: Kleinloog/VIA Research, "The Complete Landscape of CLI-Based AI Coding Agents," 2026. <https://www.kleinloog.ch/articles/the-5-ai-coding-agents-worth-embedding-in-your-saas/the-complete-landscape-of-cli-based-ai-coding-agents.pdf>
 
-[^2]: OpenCode documentation & GitHub repository. [https://github.com/opencode-ai/opencode](https://github.com/opencode-ai/opencode); Deep Dive: [https://sanj.dev/post/opencode-deep-dive-2026](https://sanj.dev/post/opencode-deep-dive-2026)
+[^2]: OpenCode documentation & GitHub repository. <https://github.com/opencode-ai/opencode>; Deep Dive: <https://sanj.dev/post/opencode-deep-dive-2026>
 
-[^3]: OpenAI Codex CLI SDK documentation. [https://www.npmjs.com/package/@openai/codex-sdk](https://www.npmjs.com/package/@openai/codex-sdk); Enterprise features: [https://www.augmentcode.com/learn/openai-codex-cli-enterprise](https://www.augmentcode.com/learn/openai-codex-cli-enterprise)
+[^3]: OpenAI Codex CLI SDK documentation. <https://www.npmjs.com/package/@openai/codex-sdk>; Enterprise features: <https://www.augmentcode.com/learn/openai-codex-cli-enterprise>
 
-[^4]: Anthropic Claude Agent SDK. [https://platform.claude.com/docs/en/agent-sdk/overview](https://platform.claude.com/docs/en/agent-sdk/overview); Python SDK: [https://github.com/anthropics/claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python)
+[^4]: Anthropic Claude Agent SDK. <https://platform.claude.com/docs/en/agent-sdk/overview>; Python SDK: <https://github.com/anthropics/claude-agent-sdk-python>
 
-[^5]: Aider documentation. [https://aider.chat/docs/](https://aider.chat/docs/); Comparison: [https://sanj.dev/post/comparing-ai-cli-coding-assistants](https://sanj.dev/post/comparing-ai-cli-coding-assistants)
+[^5]: Aider documentation. <https://aider.chat/docs/>; Comparison: <https://sanj.dev/post/comparing-ai-cli-coding-assistants>
 
-[^6]: Block Goose, Linux Foundation AAIF. [https://github.com/block/goose](https://github.com/block/goose); MCP history: [https://www.arcade.dev/blog/goose-the-open-source-agent-that-shaped-mcp](https://www.arcade.dev/blog/goose-the-open-source-agent-that-shaped-mcp)
+[^6]: Block Goose, Linux Foundation AAIF. <https://github.com/block/goose>; MCP history: <https://www.arcade.dev/blog/goose-the-open-source-agent-that-shaped-mcp>
 
-[^7]: Gemini CLI SDK. [https://deepwiki.com/google-gemini/gemini-cli/5.9-sdk-and-programmatic-api](https://deepwiki.com/google-gemini/gemini-cli/5.9-sdk-and-programmatic-api); Rust SDK: [https://docs.rs/gemini-cli-sdk/latest/gemini_cli_sdk/](https://docs.rs/gemini-cli-sdk/latest/gemini_cli_sdk/)
+[^7]: Gemini CLI SDK. <https://deepwiki.com/google-gemini/gemini-cli/5.9-sdk-and-programmatic-api>; Rust SDK: <https://docs.rs/gemini-cli-sdk/latest/gemini_cli_sdk/>
 
-[^8]: Sourcegraph Amp. [https://sourcegraph.com/amp](https://sourcegraph.com/amp); npm SDK: [https://www.npmjs.com/package/@sourcegraph/amp](https://www.npmjs.com/package/@sourcegraph/amp); Spring SDK: [https://spring-ai-community.github.io/agent-client/api/amp-cli-sdk.html](https://spring-ai-community.github.io/agent-client/api/amp-cli-sdk.html)
+[^8]: Sourcegraph Amp. <https://sourcegraph.com/amp>; npm SDK: <https://www.npmjs.com/package/@sourcegraph/amp>; Spring SDK: <https://spring-ai-community.github.io/agent-client/api/amp-cli-sdk.html>
 
-[^9]: Cline CLI 2.0. [https://cline.bot/blog/introducing-cline-cli-2-0](https://cline.bot/blog/introducing-cline-cli-2-0); Headless mode: [https://deepwiki.com/cline/cline/12.4-cli-headless-mode-and-cicd](https://deepwiki.com/cline/cline/12.4-cli-headless-mode-and-cicd)
+[^9]: Cline CLI 2.0. <https://cline.bot/blog/introducing-cline-cli-2-0>; Headless mode: <https://deepwiki.com/cline/cline/12.4-cli-headless-mode-and-cicd>
 
-[^10]: Cursor CLI agent modes. [https://cursor.com/changelog/cli-jan-16-2026](https://cursor.com/changelog/cli-jan-16-2026)
+[^10]: Cursor CLI agent modes. <https://cursor.com/changelog/cli-jan-16-2026>
 
-[^11]: GitHub Copilot SDK public preview. [https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/](https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/); Copilot SDK repo: [https://github.com/github/copilot-sdk](https://github.com/github/copilot-sdk)
+[^11]: GitHub Copilot SDK public preview. <https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/>; Copilot SDK repo: <https://github.com/github/copilot-sdk>
 
-[^12]: Pi / OpenClaw architecture. [https://docs.openclaw.ai/pi](https://docs.openclaw.ai/pi); Armin Ronacher on Pi: [https://lucumr.pocoo.org/2026/1/31/pi/](https://lucumr.pocoo.org/2026/1/31/pi/); Raspberry Pi deployment: [https://www.raspberrypi.com/news/turn-your-raspberry-pi-into-an-ai-agent-with-openclaw/](https://www.raspberrypi.com/news/turn-your-raspberry-pi-into-an-ai-agent-with-openclaw/)
+[^12]: Pi / OpenClaw architecture. <https://docs.openclaw.ai/pi>; Armin Ronacher on Pi: <https://lucumr.pocoo.org/2026/1/31/pi/>; Raspberry Pi deployment: <https://www.raspberrypi.com/news/turn-your-raspberry-pi-into-an-ai-agent-with-openclaw/>

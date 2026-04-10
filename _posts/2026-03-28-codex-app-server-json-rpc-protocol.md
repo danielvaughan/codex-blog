@@ -249,17 +249,30 @@ The App-Server carries explicit stability warnings: the WebSocket transport is e
 
 ## Citations
 
-[^1]: OpenAI, "App Server – Codex Developer Docs", https://developers.openai.com/codex/app-server
-[^2]: GitHub, openai/codex – codex-rs/app-server/README.md, https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md
-[^3]: OpenAI, "Codex Changelog", https://developers.openai.com/codex/changelog
-[^4]: GitHub, openai/codex – app-server README (Thread/Turn/Item model), https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md
-[^5]: OpenAI, "CLI Reference – Codex", https://developers.openai.com/codex/cli/reference
-[^6]: Releasebot.io, "Codex by OpenAI - Release Notes - March 2026", https://releasebot.io/updates/openai/codex
-[^7]: OpenAI, "CLI Reference – `--listen` flag", https://developers.openai.com/codex/cli/reference
-[^8]: GitHub, openai/codex – app-server README (WebSocket Auth), https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md
-[^9]: OpenAI, "App Server – Codex Developer Docs (Initialisation)", https://developers.openai.com/codex/app-server
-[^10]: OpenAI, "App Server – Codex Developer Docs (Event Notifications)", https://developers.openai.com/codex/app-server
-[^11]: OpenAI, "App Server – Codex Developer Docs (Approval Flow)", https://developers.openai.com/codex/app-server
-[^12]: Releasebot.io, "Codex by OpenAI – v2 filesystem RPCs", https://releasebot.io/updates/openai/codex
-[^13]: OpenAI, "CLI Reference – app-server generate-ts", https://developers.openai.com/codex/cli/reference
-[^14]: GitHub, openai/codex – app-server README (stability notes), https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md
+[^1]: OpenAI, "App Server – Codex Developer Docs", <https://developers.openai.com/codex/app-server>
+
+[^2]: GitHub, openai/codex – codex-rs/app-server/README.md, <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
+[^3]: OpenAI, "Codex Changelog", <https://developers.openai.com/codex/changelog>
+
+[^4]: GitHub, openai/codex – app-server README (Thread/Turn/Item model), <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
+[^5]: OpenAI, "CLI Reference – Codex", <https://developers.openai.com/codex/cli/reference>
+
+[^6]: Releasebot.io, "Codex by OpenAI - Release Notes - March 2026", <https://releasebot.io/updates/openai/codex>
+
+[^7]: OpenAI, "CLI Reference – `--listen` flag", <https://developers.openai.com/codex/cli/reference>
+
+[^8]: GitHub, openai/codex – app-server README (WebSocket Auth), <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
+[^9]: OpenAI, "App Server – Codex Developer Docs (Initialisation)", <https://developers.openai.com/codex/app-server>
+
+[^10]: OpenAI, "App Server – Codex Developer Docs (Event Notifications)", <https://developers.openai.com/codex/app-server>
+
+[^11]: OpenAI, "App Server – Codex Developer Docs (Approval Flow)", <https://developers.openai.com/codex/app-server>
+
+[^12]: Releasebot.io, "Codex by OpenAI – v2 filesystem RPCs", <https://releasebot.io/updates/openai/codex>
+
+[^13]: OpenAI, "CLI Reference – app-server generate-ts", <https://developers.openai.com/codex/cli/reference>
+
+[^14]: GitHub, openai/codex – app-server README (stability notes), <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>

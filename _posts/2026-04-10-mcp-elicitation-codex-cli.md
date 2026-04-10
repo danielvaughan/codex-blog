@@ -268,10 +268,17 @@ As of April 2026, Codex CLI's elicitation support is functional but evolving:
 ## Citations
 
 [^1]: [MCP Specification — Elicitation (Draft)](https://modelcontextprotocol.io/specification/draft/client/elicitation)
+
 [^2]: [MCP Specification — URL Mode Elicitation (2025-11-25)](https://modelcontextprotocol.io/specification/draft/client/elicitation#url-mode-elicitation-requests)
+
 [^3]: [WorkOS — MCP Elicitation: Request User Input at Runtime](https://workos.com/blog/mcp-elicitation)
+
 [^4]: [Codex CLI Configuration Reference — Approval Policy](https://developers.openai.com/codex/config-reference)
+
 [^5]: [Codex CLI Agent Approvals & Security](https://developers.openai.com/codex/agent-approvals-security)
+
 [^6]: [GitHub Issue #11816 — codex mcp-server hang on elicitation](https://github.com/openai/codex/issues/11816)
+
 [^7]: [GitHub Issue #13405 — Add form elicitation support for MCP servers](https://github.com/openai/codex/issues/13405)
+
 [^8]: [GitHub Issue #825 — Codex CLI MCP elicitation response format bug](https://github.com/slopus/happy/issues/825)

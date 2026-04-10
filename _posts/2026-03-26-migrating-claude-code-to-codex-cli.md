@@ -284,15 +284,27 @@ flowchart TD
 ## Citations
 
 [^1]: [Codex CLI vs Claude Code in 2026: Architecture Deep Dive](https://blakecrosley.com/blog/codex-vs-claude-code-2026) — Blake Crosley, 2026
+
 [^2]: [Codex CLI Features](https://developers.openai.com/codex/cli/features) — OpenAI Developer Documentation
+
 [^3]: [Claude Code CLI Migration Guide](https://jangwook.net/en/blog/en/claude-code-cli-migration-guide/) — Jangwook, 2026
+
 [^4]: [CLAUDE.md, AGENTS.md, and Every AI Config File Explained](https://www.deployhq.com/blog/ai-coding-config-files-guide) — DeployHQ Blog, 2026
+
 [^5]: [Custom instructions with AGENTS.md – Codex](https://developers.openai.com/codex/guides/agents-md) — OpenAI Developer Documentation
+
 [^6]: [Extend Claude with skills – Claude Code Docs](https://code.claude.com/docs/en/skills) — Anthropic, 2026
+
 [^7]: [Essential Claude Code Skills and Commands](https://batsov.com/articles/2026/03/11/essential-claude-code-skills-and-commands/) — Bozhidar Batsov, March 2026
+
 [^8]: [Create custom subagents – Claude Code Docs](https://code.claude.com/docs/en/sub-agents) — Anthropic, 2026
+
 [^9]: [Subagents – Codex](https://developers.openai.com/codex/subagents) — OpenAI Developer Documentation
+
 [^10]: [Codex CLI Cheatsheet: config, commands, AGENTS.md, + best practices](https://shipyard.build/blog/codex-cli-cheat-sheet/) — Shipyard, 2026
+
 [^11]: [Codex CLI Hooks Deep Dive](https://danielvaughan.github.io/codex-resources/articles/2026-03-26-codex-cli-hooks-deep-dive/) — Daniel Vaughan's Codex KB, 2026-03-26
+
 [^12]: [Configuration Reference – Codex](https://developers.openai.com/codex/config-reference) — OpenAI Developer Documentation
+
 [^13]: [Introducing upgrades to Codex](https://openai.com/index/introducing-upgrades-to-codex/) — OpenAI Blog, 2026

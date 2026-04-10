@@ -216,24 +216,24 @@ The paper's companion repository at [github.com/arisvas4/codified-context-infras
 
 ## Citations
 
-[^1]: Vasilopoulos, A. (2026). "Codified Context: Infrastructure for AI Agents in a Complex Codebase." arXiv:2602.20478v1. [https://arxiv.org/abs/2602.20478](https://arxiv.org/abs/2602.20478)
+[^1]: Vasilopoulos, A. (2026). "Codified Context: Infrastructure for AI Agents in a Complex Codebase." arXiv:2602.20478v1. <https://arxiv.org/abs/2602.20478>
 
-[^2]: OpenAI. "Codex CLI — AGENTS.md Guide." [https://developers.openai.com/codex/guides/agents-md](https://developers.openai.com/codex/guides/agents-md)
+[^2]: OpenAI. "Codex CLI — AGENTS.md Guide." <https://developers.openai.com/codex/guides/agents-md>
 
-[^3]: Linux Foundation Agentic AI Foundation. AGENTS.md open standard. Referenced in: "AGENTS.md: The Open Standard for Cross-Tool AI Agent Portability." [https://developers.openai.com/codex/guides/agents-md](https://developers.openai.com/codex/guides/agents-md)
+[^3]: Linux Foundation Agentic AI Foundation. AGENTS.md open standard. Referenced in: "AGENTS.md: The Open Standard for Cross-Tool AI Agent Portability." <https://developers.openai.com/codex/guides/agents-md>
 
-[^4]: Santos, R. et al. Referenced in Substack analysis: "Scaling your coding agent's context beyond a single AGENTS.md-file." [https://ursula8sciform.substack.com/p/scaling-your-coding-agents-context](https://ursula8sciform.substack.com/p/scaling-your-coding-agents-context)
+[^4]: Santos, R. et al. Referenced in Substack analysis: "Scaling your coding agent's context beyond a single AGENTS.md-file." <https://ursula8sciform.substack.com/p/scaling-your-coding-agents-context>
 
-[^5]: OpenAI. "Codex CLI — Subagents." [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^5]: OpenAI. "Codex CLI — Subagents." <https://developers.openai.com/codex/subagents>
 
-[^6]: Simon Willison. "Codex Subagents." 16 March 2026. [https://simonwillison.net/2026/Mar/16/codex-subagents/](https://simonwillison.net/2026/Mar/16/codex-subagents/)
+[^6]: Simon Willison. "Codex Subagents." 16 March 2026. <https://simonwillison.net/2026/Mar/16/codex-subagents/>
 
-[^7]: GitHub issue #14161 — `[[skills.config]]` in agent TOML ignored for sub-agents. [https://github.com/openai/codex/issues/14161](https://github.com/openai/codex/issues/14161)
+[^7]: GitHub issue #14161 — `[[skills.config]]` in agent TOML ignored for sub-agents. <https://github.com/openai/codex/issues/14161>
 
-[^8]: OpenAI. "Codex CLI — MCP Integration." [https://developers.openai.com/codex/mcp](https://developers.openai.com/codex/mcp)
+[^8]: OpenAI. "Codex CLI — MCP Integration." <https://developers.openai.com/codex/mcp>
 
-[^9]: Vasilopoulos, A. Codified Context Infrastructure — companion repository. [https://github.com/arisvas4/codified-context-infrastructure](https://github.com/arisvas4/codified-context-infrastructure)
+[^9]: Vasilopoulos, A. Codified Context Infrastructure — companion repository. <https://github.com/arisvas4/codified-context-infrastructure>
 
-[^10]: OpenAI. "Codex CLI — Models." [https://developers.openai.com/codex/models](https://developers.openai.com/codex/models)
+[^10]: OpenAI. "Codex CLI — Models." <https://developers.openai.com/codex/models>
 
-[^11]: GitHub Blog. "GPT-5.1-Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated." 3 April 2026. [https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated/](https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated/)
+[^11]: GitHub Blog. "GPT-5.1-Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated." 3 April 2026. <https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated/>

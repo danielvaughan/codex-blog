@@ -207,36 +207,36 @@ The 2026 agent harness landscape[^17] has moved beyond "can we embed an agent?" 
 
 ## Citations
 
-[^1]: Kleinloog, "The Complete Landscape of CLI-Based AI Coding Agents," Q2 2026. [https://www.kleinloog.ch/articles/the-5-ai-coding-agents-worth-embedding-in-your-saas/the-complete-landscape-of-cli-based-ai-coding-agents.pdf](https://www.kleinloog.ch/articles/the-5-ai-coding-agents-worth-embedding-in-your-saas/the-complete-landscape-of-cli-based-ai-coding-agents.pdf)
+[^1]: Kleinloog, "The Complete Landscape of CLI-Based AI Coding Agents," Q2 2026. <https://www.kleinloog.ch/articles/the-5-ai-coding-agents-worth-embedding-in-your-saas/the-complete-landscape-of-cli-based-ai-coding-agents.pdf>
 
-[^2]: OpenAI, "App Server – Codex CLI," OpenAI Developers, 2026. [https://developers.openai.com/codex/app-server](https://developers.openai.com/codex/app-server)
+[^2]: OpenAI, "App Server – Codex CLI," OpenAI Developers, 2026. <https://developers.openai.com/codex/app-server>
 
-[^3]: OpenCode, "Server Documentation," opencode.ai, 2026. [https://opencode.ai/docs/server/](https://opencode.ai/docs/server/)
+[^3]: OpenCode, "Server Documentation," opencode.ai, 2026. <https://opencode.ai/docs/server/>
 
-[^4]: DeepWiki, "Storage and Database – sst/opencode," 2026. [https://deepwiki.com/sst/opencode/2.9-storage-and-database](https://deepwiki.com/sst/opencode/2.9-storage-and-database)
+[^4]: DeepWiki, "Storage and Database – sst/opencode," 2026. <https://deepwiki.com/sst/opencode/2.9-storage-and-database>
 
-[^5]: OpenClaw, "Pi Integration Architecture," docs.openclaw.ai, 2026. [https://docs.openclaw.ai/pi](https://docs.openclaw.ai/pi)
+[^5]: OpenClaw, "Pi Integration Architecture," docs.openclaw.ai, 2026. <https://docs.openclaw.ai/pi>
 
-[^6]: InfoQ, "OpenAI Publishes Codex App Server Architecture for Unifying AI Agent Surfaces," February 2026. [https://www.infoq.com/news/2026/02/opanai-codex-app-server/](https://www.infoq.com/news/2026/02/opanai-codex-app-server/)
+[^6]: InfoQ, "OpenAI Publishes Codex App Server Architecture for Unifying AI Agent Surfaces," February 2026. <https://www.infoq.com/news/2026/02/opanai-codex-app-server/>
 
-[^7]: PyPI, "codex-sdk-python," 2026. [https://pypi.org/project/codex-sdk-python/](https://pypi.org/project/codex-sdk-python/)
+[^7]: PyPI, "codex-sdk-python," 2026. <https://pypi.org/project/codex-sdk-python/>
 
-[^8]: OpenCode, "SDK Documentation," opencode.ai, 2026. [https://opencode.ai/docs/sdk/](https://opencode.ai/docs/sdk/)
+[^8]: OpenCode, "SDK Documentation," opencode.ai, 2026. <https://opencode.ai/docs/sdk/>
 
-[^9]: BSWEN, "OpenCode CLI Features That Claude Code Doesn't Have: Forking, Reverting, and Session Copying," April 2026. [https://docs.bswen.com/blog/2026-04-04-opencode-session-features/](https://docs.bswen.com/blog/2026-04-04-opencode-session-features/)
+[^9]: BSWEN, "OpenCode CLI Features That Claude Code Doesn't Have: Forking, Reverting, and Session Copying," April 2026. <https://docs.bswen.com/blog/2026-04-04-opencode-session-features/>
 
-[^10]: Armin Ronacher, "Pi: The Minimal Agent Within OpenClaw," lucumr.pocoo.org, January 2026. [https://lucumr.pocoo.org/2026/1/31/pi/](https://lucumr.pocoo.org/2026/1/31/pi/)
+[^10]: Armin Ronacher, "Pi: The Minimal Agent Within OpenClaw," lucumr.pocoo.org, January 2026. <https://lucumr.pocoo.org/2026/1/31/pi/>
 
-[^11]: Raspberry Pi, "Turn your Raspberry Pi into an AI agent with OpenClaw," raspberrypi.com, 2026. [https://www.raspberrypi.com/news/turn-your-raspberry-pi-into-an-ai-agent-with-openclaw/](https://www.raspberrypi.com/news/turn-your-raspberry-pi-into-an-ai-agent-with-openclaw/)
+[^11]: Raspberry Pi, "Turn your Raspberry Pi into an AI agent with OpenClaw," raspberrypi.com, 2026. <https://www.raspberrypi.com/news/turn-your-raspberry-pi-into-an-ai-agent-with-openclaw/>
 
-[^12]: Pierce Freeman, "A deep dive on agent sandboxes," pierce.dev, 2026. [https://pierce.dev/notes/a-deep-dive-on-agent-sandboxes](https://pierce.dev/notes/a-deep-dive-on-agent-sandboxes)
+[^12]: Pierce Freeman, "A deep dive on agent sandboxes," pierce.dev, 2026. <https://pierce.dev/notes/a-deep-dive-on-agent-sandboxes>
 
-[^13]: nshkrdotcom, "OpenAI Codex SDK written in Elixir," GitHub, 2026. [https://github.com/nshkrdotcom/codex_sdk](https://github.com/nshkrdotcom/codex_sdk)
+[^13]: nshkrdotcom, "OpenAI Codex SDK written in Elixir," GitHub, 2026. <https://github.com/nshkrdotcom/codex_sdk>
 
-[^14]: Augment Code, "OpenAI Codex CLI ships v0.116.0 with enterprise features," March 2026. [https://www.augmentcode.com/learn/openai-codex-cli-enterprise](https://www.augmentcode.com/learn/openai-codex-cli-enterprise)
+[^14]: Augment Code, "OpenAI Codex CLI ships v0.116.0 with enterprise features," March 2026. <https://www.augmentcode.com/learn/openai-codex-cli-enterprise>
 
-[^15]: GitHub, "opencode-ai/opencode," April 2026. [https://github.com/opencode-ai/opencode](https://github.com/opencode-ai/opencode)
+[^15]: GitHub, "opencode-ai/opencode," April 2026. <https://github.com/opencode-ai/opencode>
 
-[^16]: OpenClaw Blog, "Beyond the Cloud: Running OpenClaw on Mac mini, Raspberry Pi, and Intel AI PCs," 2026. [https://openclaws.io/blog/openclaw-hardware-ecosystem-2026](https://openclaws.io/blog/openclaw-hardware-ecosystem-2026)
+[^16]: OpenClaw Blog, "Beyond the Cloud: Running OpenClaw on Mac mini, Raspberry Pi, and Intel AI PCs," 2026. <https://openclaws.io/blog/openclaw-hardware-ecosystem-2026>
 
-[^17]: Philipp Schmid, "The importance of Agent Harness in 2026," philschmid.de, 2026. [https://www.philschmid.de/agent-harness-2026](https://www.philschmid.de/agent-harness-2026)
+[^17]: Philipp Schmid, "The importance of Agent Harness in 2026," philschmid.de, 2026. <https://www.philschmid.de/agent-harness-2026>

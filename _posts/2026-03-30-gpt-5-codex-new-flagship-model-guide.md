@@ -165,4 +165,4 @@ If you're moving from earlier models:
 
 ---
 
-[^1]: Simon Willison, "Introducing GPT-5.4" (March 5, 2026) — https://simonwillison.net/2026/Mar/5/introducing-gpt54/
+[^1]: Simon Willison, "Introducing GPT-5.4" (March 5, 2026) — <https://simonwillison.net/2026/Mar/5/introducing-gpt54/>

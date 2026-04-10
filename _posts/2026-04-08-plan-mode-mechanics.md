@@ -151,9 +151,15 @@ The combination of plan-first design and mid-execution steering means you can ma
 ## Citations
 
 [^1]: [Codex Plan Mode: Stop Code Drift with Plan→Execute (2026) — SmartScope](https://smartscope.blog/en/generative-ai/chatgpt/codex-plan-mode-complete-guide/)
+
 [^2]: [Introducing Plan Mode: A Game Changer for Codex CLI Users — Oreate AI Blog](https://www.oreateai.com/blog/introducing-plan-mode-a-game-changer-for-codex-cli-users/4ed2f2870c77e991b6ceb72ce3a258c5)
+
 [^3]: [Codex CLI: The Definitive Technical Reference — Blake Crosley](https://blakecrosley.com/guides/codex)
+
 [^4]: [Features — Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features)
+
 [^5]: [feat(tui): syntax highlighting via syntect with theme picker — GitHub PR #11447](https://github.com/openai/codex/pull/11447)
+
 [^6]: [Codex CLI themes are genuinely unusable — GitHub Issue #12912](https://github.com/openai/codex/issues/12912)
+
 [^7]: [Slash commands in Codex CLI — OpenAI Developers](https://developers.openai.com/codex/cli/slash-commands)

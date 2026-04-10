@@ -851,12 +851,21 @@ The Knowledge Flywheel is the pattern worth investing in. Each agent run that ad
 ## Citations
 
 [^1]: [GraphRAG and Agentic Architecture with NeoConverse — Neo4j Blog](https://neo4j.com/blog/developer/graphrag-and-agentic-architecture-with-neoconverse/)
+
 [^2]: [Neo4j Aura Agent — Developer Guides](https://neo4j.com/developer/genai-ecosystem/aura-agent/)
+
 [^3]: [Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts](/codex-resources/articles/2026-03-30-codex-cli-hooks-engine/)
+
 [^4]: [Neo4j Driver Best Practices — Neo4j Developer Blog](https://neo4j.com/developer-blog/neo4j-driver-best-practices/)
+
 [^5]: [Introducing Neo4j's Native Vector Data Type — Neo4j Blog](https://neo4j.com/blog/developer/introducing-neo4j-native-vector-data-type/)
+
 [^6]: [Vector Indexes — Neo4j Cypher Manual](https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/)
+
 [^7]: [Agentic Knowledge Graph Construction — DeepLearning.AI](https://learn.deeplearning.ai/courses/agentic-knowledge-graph-construction/information)
+
 [^8]: [Changes in Neo4j 2025–2026 Series — Operations Manual](https://neo4j.com/docs/operations-manual/current/changes-2025-2026/)
+
 [^9]: [Query Tuning — Cypher Manual](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/query-tuning/)
+
 [^10]: [Advanced Connection Information — Neo4j JavaScript Driver Manual](https://neo4j.com/docs/javascript-manual/current/connect-advanced/)

@@ -241,17 +241,31 @@ Toggle in-session: **Shift+Tab** or `/plan`. Set a permanent default in `~/.code
 ## Citations
 
 [^1]: Codex CLI Collaboration Modes overview — SmartScope, "Codex Plan Mode: Stop Code Drift with Plan→Execute (2026)" <https://smartscope.blog/en/generative-ai/chatgpt/codex-plan-mode-complete-guide/>
+
 [^2]: Read-only constraint during planning phase — ibid.; GitHub Discussion #7355 "Plan / Spec Mode" <https://github.com/openai/codex/discussions/7355>
+
 [^3]: Shift+Tab and /plan activation — DeepakNess, "Plan Mode in Codex CLI is here" <https://deepakness.com/raw/plan-mode-in-codex-cli/>; SmartScope guide ibid.
+
 [^4]: Prompt-level-only safety constraint — SmartScope guide ibid.; GitHub Issue #11115 cited in search results
+
 [^5]: Plan mode on by default from v0.96+ — SmartScope guide ibid.
+
 [^6]: `plan_mode_reasoning_effort` key — Codex CLI Configuration Reference <https://developers.openai.com/codex/config-reference>
+
 [^7]: Valid values for `plan_mode_reasoning_effort` — Codex CLI Configuration Reference ibid.
+
 [^8]: `none` semantics and unset behaviour — ibid.
+
 [^9]: Official guidance: complex/ambiguous tasks — Codex CLI Best Practices <https://developers.openai.com/codex/learn/best-practices>
+
 [^10]: Challenge assumptions, concrete specification — Codex CLI Best Practices ibid.
+
 [^11]: "Not needed all the time" — Codex CLI Best Practices ibid.
+
 [^12]: PLANS.md for persistent multi-session planning — OpenAI Cookbook, "Using PLANS.md for multi-hour problem solving" <https://developers.openai.com/cookbook/articles/codex_exec_plans>
+
 [^13]: Mandatory ExecPlan sections — OpenAI Cookbook ibid.
+
 [^14]: Self-containment requirement — OpenAI Cookbook ibid.
+
 [^15]: Seven-hour single-session claim — OpenAI Cookbook ibid.

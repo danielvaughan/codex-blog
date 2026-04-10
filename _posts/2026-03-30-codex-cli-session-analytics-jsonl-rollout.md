@@ -246,19 +246,35 @@ A few rules of thumb from working with rollout data at scale:
 ## Citations
 
 [^1]: Token count events have been emitted since commit `0269096` on September 6, 2025 — [ccusage Codex guide, "Limitations" section](https://ccusage.com/guide/codex/)
+
 [^2]: Dual-layer persistence (JSONL + SQLite) — [DeepWiki: Codex Session Management and Persistence](https://deepwiki.com/openai/codex/3.3-session-management-and-persistence)
+
 [^3]: Rollout files as source of truth for resume and fork — [DeepWiki: Codex Session Management and Persistence](https://deepwiki.com/openai/codex/3.3-session-management-and-persistence)
+
 [^4]: SQLite/rollout not created on early transport failure — [GitHub Issue #15870: Codex can print a session ID but fail to persist](https://github.com/openai/codex/issues/15870)
+
 [^5]: `RolloutItem` variants and persistence policy — [DeepWiki: Codex Session Management and Persistence](https://deepwiki.com/openai/codex/3.3-session-management-and-persistence)
+
 [^6]: `token_count` cumulative counter schema — [ccusage Codex guide, "Data Processing" section](https://ccusage.com/guide/codex/)
+
 [^7]: Delta calculation for per-turn usage — [ccusage Codex guide](https://ccusage.com/guide/codex/)
+
 [^8]: Pre-September 2025 sessions lack `token_count`; early September builds missing `turn_context` — [ccusage Codex guide, "Limitations"](https://ccusage.com/guide/codex/)
+
 [^9]: `@ccusage/codex` package — [GitHub: ryoppippi/ccusage](https://github.com/ryoppippi/ccusage)
+
 [^10]: Model alias resolution and pricing formula — [ccusage Codex guide](https://ccusage.com/guide/codex/)
+
 [^11]: Cross-session prompt history recall added in v0.117.0 — [Codex CLI v0.117.0 release notes](https://github.com/openai/codex/releases) and [OpenAI Codex Changelog](https://developers.openai.com/codex/changelog)
+
 [^12]: `codex-replay` features and usage — [GitHub: zpdldhkdl/codex-replay](https://github.com/zpdldhkdl/codex-replay)
+
 [^13]: Agent Sessions macOS app — described in search results from [Codex CLI session history search](https://github.com/openai/codex/discussions/3827)
+
 [^14]: Codex History Viewer VS Code extension — [Visual Studio Marketplace: codex-history-viewer](https://marketplace.visualstudio.com/items?itemName=hiztam.codex-history-viewer)
+
 [^15]: Codex Session History MCP skill — [MCP Market: codex-session-history](https://mcpmarket.com/tools/skills/codex-session-history-manager)
+
 [^16]: `--ephemeral` flag — [OpenAI Codex non-interactive mode docs](https://developers.openai.com/codex/noninteractive)
+
 [^17]: Codex Session Format Check skill — [LobeHub: codex-session-format-check](https://lobehub.com/skills/jazzyalex-agent-sessions-codex-session-format-check)

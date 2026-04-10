@@ -301,9 +301,15 @@ Pair this with `codex exec` in a separate job for automated PR review:
 ## Citations
 
 [^1]: [How Codex is built – The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/how-codex-is-built) — OpenAI's Codex CLI is now 95.6% Rust following the codex-rs rewrite.
+
 [^2]: [codex/AGENTS.md at main · openai/codex](https://github.com/openai/codex/blob/main/AGENTS.md) — Official AGENTS.md from the Codex CLI repository, containing Rust-specific testing and formatting instructions.
+
 [^3]: [Features – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features) — Sandbox modes, approval policies, and shell tool behaviour in Codex CLI.
+
 [^4]: [Development Setup – Codex CLI](https://www.mintlify.com/openai/codex/contributing/setup) — Official contributing guide; specifies cargo-nextest and cargo-insta as recommended tools alongside just.
+
 [^5]: [cargo-nextest: A Next-Generation Rust Test Runner](https://nexte.st/) — nextest project homepage; documents process-per-test isolation, speed improvements, and JUnit output support.
+
 [^6]: [Codex CLI Multi-Agent v2 – openai/codex releases](https://github.com/openai/codex/releases) — Path-based sub-agent addressing and multi-agent TOML configuration introduced in v0.117.0.
+
 [^7]: [Codex CLI & Agent Skills Guide 2026](https://itecsonline.com/post/codex-cli-agent-skills-guide-install-usage-cross-platform-resources-2026) — Overview of the agent skills ecosystem, discovery paths, and the `cc-skills` collection.

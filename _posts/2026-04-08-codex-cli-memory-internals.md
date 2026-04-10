@@ -206,7 +206,11 @@ The memory pipeline exposes several tuning parameters through the Rust source[^1
 ## Citations
 
 [^1]: [Memory System — DeepWiki / openai/codex](https://deepwiki.com/openai/codex/3.9-memories-system) — Technical architecture documentation derived from the open-source Rust implementation
+
 [^2]: [Codex CLI: The Definitive Technical Reference — Blake Crosley](https://blakecrosley.com/guides/codex) — Comprehensive reference covering memory features by version
+
 [^3]: [OpenAI Codex CLI: Official Description & Setup Guide — SmartScope](https://smartscope.blog/en/generative-ai/chatgpt/openai-codex-cli-comprehensive-guide/) — Updated February 2026, covering secret sanitisation and memory management
+
 [^4]: [Memory & Project Docs — Codex CLI (Mintlify mirror)](https://www.mintlify.com/openai/codex/features/memory) — Official documentation mirror covering memory commands and AGENTS.md
+
 [^5]: [OpenAI Codex CLI Memory Deep Dive — Mervin Praison](https://mer.vin/2025/12/openai-codex-cli-memory-deep-dive/) — December 2025 deep dive covering AGENTS.md hierarchy and memory storage

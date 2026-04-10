@@ -140,13 +140,23 @@ For Codex CLI users, the message is straightforward: your workflow is resilient 
 ## Citations
 
 [^1]: [Anthropic cuts off the ability to use Claude subscriptions with OpenClaw and third-party AI agents](https://venturebeat.com/technology/anthropic-cuts-off-the-ability-to-use-claude-subscriptions-with-openclaw-and) — VentureBeat, April 2026
+
 [^2]: [Anthropic blocks OpenClaw from Claude subscriptions in cost crackdown](https://thenextweb.com/news/anthropic-openclaw-claude-subscription-ban-cost) — TNW, April 2026
+
 [^3]: [OpenClaw + Claude Code Costs 2026: API Key vs Pro $20 vs Max $200](https://www.shareuhack.com/en/posts/openclaw-claude-code-oauth-cost) — ShareUHack, April 2026
+
 [^4]: [A Deep Dive Into The Epic Rise Of OpenClaw](https://www.oax.org/2026/03/23/A-Deep-Dive-Into-The-Epic-Rise-of-OpenClaw.html) — OAX Foundation, March 2026
+
 [^5]: [Matt Kuda — OpenClaw agents and the cost of unlimited AI compute](https://www.youtube.com/watch?v=VfLSfMWn6cY) — YouTube, 2026
+
 [^6]: [OpenAI Codex CLI — GitHub repository](https://github.com/openai/codex) — Apache 2.0 licence
+
 [^7]: [Codex CLI releases — codex-rs Rust rewrite](https://github.com/openai/codex/releases) — GitHub, 2026
+
 [^8]: [Claude Code ranks last on Terminal-Bench](https://www.youtube.com/watch?v=Wvj1mTqyzsQ) — Theo, YouTube, 2026
+
 [^9]: [Third-party agents lose access as Anthropic tightens Claude usage rules](https://www.pymnts.com/artificial-intelligence-2/2026/third-party-agents-lose-access-as-anthropic-tightens-claude-usage-rules/) — PYMNTS, April 2026
+
 [^10]: [Codex CLI changelog — April 2026 model updates](https://github.com/openai/codex/blob/main/CHANGELOG.md) — GitHub
+
 [^11]: [Model Context Protocol — Codex CLI documentation](https://developers.openai.com/codex/mcp) — OpenAI Developers

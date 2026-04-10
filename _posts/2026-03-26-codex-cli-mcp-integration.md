@@ -217,14 +217,14 @@ The protocol is not the hard part. Deciding what the agent should be able to tou
 
 ## Citations
 
-[^1]: Model Context Protocol overview. [https://modelcontextprotocol.io](https://modelcontextprotocol.io)
+[^1]: Model Context Protocol overview. <https://modelcontextprotocol.io>
 
-[^2]: Codex CLI MCP configuration reference — `config.toml` format, precedence, `enabled_tools`, HTTP transport, enterprise `requirements.toml`. [https://blakecrosley.com/guides/codex](https://blakecrosley.com/guides/codex)
+[^2]: Codex CLI MCP configuration reference — `config.toml` format, precedence, `enabled_tools`, HTTP transport, enterprise `requirements.toml`. <https://blakecrosley.com/guides/codex>
 
-[^3]: MCP tool restriction patterns and cognitive load considerations. Community discussion. [https://github.com/openai/codex/discussions](https://github.com/openai/codex/discussions)
+[^3]: MCP tool restriction patterns and cognitive load considerations. Community discussion. <https://github.com/openai/codex/discussions>
 
-[^4]: Context7 MCP server — library docs at installed version. [https://github.com/upstash/context7](https://github.com/upstash/context7)
+[^4]: Context7 MCP server — library docs at installed version. <https://github.com/upstash/context7>
 
-[^5]: `openai/codex-action` GitHub Action — official action for CI/CD integration. [https://github.com/openai/codex-action](https://github.com/openai/codex-action)
+[^5]: `openai/codex-action` GitHub Action — official action for CI/CD integration. <https://github.com/openai/codex-action>
 
-[^6]: Codex CLI v0.117.0-alpha changelog — MCP tool elicitation improvements and span instrumentation. [https://github.com/openai/codex/releases](https://github.com/openai/codex/releases)
+[^6]: Codex CLI v0.117.0-alpha changelog — MCP tool elicitation improvements and span instrumentation. <https://github.com/openai/codex/releases>

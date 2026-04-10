@@ -229,13 +229,23 @@ For Codex CLI users, the key takeaway is architectural: the future of multi-agen
 ## Citations
 
 [^1]: [Ruflo GitHub repository — ruvnet/ruflo](https://github.com/ruvnet/ruflo)
+
 [^2]: [Ruflo README and technical documentation](https://github.com/ruvnet/ruflo/blob/main/README.md)
+
 [^3]: [Analytics Vidhya — Claude Flow: The AI Orchestration Framework Redefining Multi-Agent Automation](https://www.analyticsvidhya.com/blog/2026/03/claude-flow/)
+
 [^4]: [claude-flow npm package](https://www.npmjs.com/package/claude-flow)
+
 [^5]: [TechCrunch — Anthropic releases Opus 4.6 with new 'agent teams'](https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/)
+
 [^6]: [Claude Code Docs — Orchestrate teams of Claude Code sessions](https://code.claude.com/docs/en/agent-teams)
+
 [^7]: [Particula — Codex vs Claude Code: Which CLI Agent Wins for Your Workflow in 2026](https://particula.tech/blog/codex-vs-claude-code-cli-agent-comparison)
+
 [^8]: [Addy Osmani — Orchestrating Coding Agents, O'Reilly CodeCon 2026](https://talks.addy.ie/oreilly-codecon-march-2026/)
+
 [^9]: [VentureBeat — Anthropic cuts off the ability to use Claude subscriptions with OpenClaw](https://venturebeat.com/technology/anthropic-cuts-off-the-ability-to-use-claude-subscriptions-with-openclaw-and)
+
 [^10]: [TechCrunch — Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage](https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/)
+
 [^11]: [OpenAI Codex CLI documentation and release notes](https://github.com/openai/codex)

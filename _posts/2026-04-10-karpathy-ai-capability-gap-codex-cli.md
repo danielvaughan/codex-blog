@@ -99,14 +99,24 @@ The two groups Karpathy describes are not going to converge through debate. They
 
 ---
 
-[^1]: Andrej Karpathy (@karpathy), X post, April 9, 2026. Quote-tweeting @staysaasy: "The degree to which you are awed by AI is perfectly correlated with how much you use AI to code." https://x.com/karpathy/status/2042334451611693415
+[^1]: Andrej Karpathy (@karpathy), X post, April 9, 2026. Quote-tweeting @staysaasy: "The degree to which you are awed by AI is perfectly correlated with how much you use AI to code." <https://x.com/karpathy/status/2042334451611693415>
+
 [^2]: Reinforcement Learning from Human Feedback (RLHF) and verifiable reward training. The key distinction is that code tasks provide automated verification (test suites, compilers, linters) while conversational tasks require expensive human preference judgments.
-[^3]: Codex CLI Model Lineage: The Context Compaction Breakthrough. https://codex.danielvaughan.com/2026/03/28/codex-model-lineage-context-compaction/
-[^4]: Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv. https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/
-[^5]: Codex CLI for CI/CD: codex exec, Non-Interactive Mode and Pipeline Integration. https://codex.danielvaughan.com/2026/03/26/codex-cli-cicd-non-interactive/
-[^6]: Codex CLI Approval Modes and Sandbox Security Model. https://codex.danielvaughan.com/2026/03/26/codex-cli-approval-modes-sandbox-security/
-[^7]: Codex CLI Hooks Deep Dive: SessionStart, Stop and userpromptsubmit. https://codex.danielvaughan.com/2026/03/26/codex-cli-hooks-deep-dive/
+
+[^3]: Codex CLI Model Lineage: The Context Compaction Breakthrough. <https://codex.danielvaughan.com/2026/03/28/codex-model-lineage-context-compaction/>
+
+[^4]: Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv. <https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/>
+
+[^5]: Codex CLI for CI/CD: codex exec, Non-Interactive Mode and Pipeline Integration. <https://codex.danielvaughan.com/2026/03/26/codex-cli-cicd-non-interactive/>
+
+[^6]: Codex CLI Approval Modes and Sandbox Security Model. <https://codex.danielvaughan.com/2026/03/26/codex-cli-approval-modes-sandbox-security/>
+
+[^7]: Codex CLI Hooks Deep Dive: SessionStart, Stop and userpromptsubmit. <https://codex.danielvaughan.com/2026/03/26/codex-cli-hooks-deep-dive/>
+
 [^8]: Context window management and the /compact command. See Chapter 15 of "Codex CLI: Agentic Engineering from First Principles."
-[^9]: GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second. https://codex.danielvaughan.com/2026/03/31/codex-spark-cerebras-real-time-coding/
-[^10]: GPT-5.4 Computer Use and Tool Search in Codex CLI. https://codex.danielvaughan.com/2026/03/31/gpt54-computer-use-tool-search-codex-cli/
+
+[^9]: GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second. <https://codex.danielvaughan.com/2026/03/31/codex-spark-cerebras-real-time-coding/>
+
+[^10]: GPT-5.4 Computer Use and Tool Search in Codex CLI. <https://codex.danielvaughan.com/2026/03/31/gpt54-computer-use-tool-search-codex-cli/>
+
 [^11]: Codex CLI changelog, April 2026. Features merged into v0.118.x release train including memory extensions, prefix compaction, MCP elicitations, and cross-platform hooks.

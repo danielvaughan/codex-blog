@@ -209,32 +209,32 @@ Toxic flow is that deferred cost wearing a flow-state disguise. Naming it is the
 
 [^1]: Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience.* Harper & Row. Csikszentmihalyi's "junk flow" concept is discussed in later interviews and elaborated in *Good Business: Leadership, Flow, and the Making of Meaning* (2003).
 
-[^2]: Simon Willison's comment and "visarga" comment in the Hacker News thread "Vibe coding creates fatigue?" (item 46292365), 2026. https://news.ycombinator.com/item?id=46292365
+[^2]: Simon Willison's comment and "visarga" comment in the Hacker News thread "Vibe coding creates fatigue?" (item 46292365), 2026. <https://news.ycombinator.com/item?id=46292365>
 
-[^3]: "Are you too getting addicted to dev workflow of coding with agents?" Hacker News thread (item 47581097), 2026. https://news.ycombinator.com/item?id=47581097
+[^3]: "Are you too getting addicted to dev workflow of coding with agents?" Hacker News thread (item 47581097), 2026. <https://news.ycombinator.com/item?id=47581097>
 
-[^4]: Rousseau, Q. "One More Prompt: The Dopamine Trap of Agentic Coding," March 9, 2026. https://blog.quent.in/blog/2026/03/09/one-more-prompt-the-dopamine-trap-of-agentic-coding/
+[^4]: Rousseau, Q. "One More Prompt: The Dopamine Trap of Agentic Coding," March 9, 2026. <https://blog.quent.in/blog/2026/03/09/one-more-prompt-the-dopamine-trap-of-agentic-coding/>
 
-[^5]: Ronacher, A. "Agent Psychosis: Are We Going Insane?" January 18, 2026. https://lucumr.pocoo.org/2026/1/18/agent-psychosis/
+[^5]: Ronacher, A. "Agent Psychosis: Are We Going Insane?" January 18, 2026. <https://lucumr.pocoo.org/2026/1/18/agent-psychosis/>
 
-[^6]: Garry Tan's Claude Code addiction described in Worldnews.com, January 26, 2026. https://article.wn.com/view/2026/01/26/Y_Combinator_CEO_Garry_Tan_is_addicted_to_this_AI_tool_says_/
+[^6]: Garry Tan's Claude Code addiction described in Worldnews.com, January 26, 2026. <https://article.wn.com/view/2026/01/26/Y_Combinator_CEO_Garry_Tan_is_addicted_to_this_AI_tool_says_/>
 
-[^7]: Steve Yegge's nightly "escape plan" described in LeadDev, March 30, 2026. https://leaddev.com/ai/addictive-agentic-coding-has-developers-losing-sleep. See also "The AI Vampire," steve-yegge.medium.com, February 2026. https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163
+[^7]: Steve Yegge's nightly "escape plan" described in LeadDev, March 30, 2026. <https://leaddev.com/ai/addictive-agentic-coding-has-developers-losing-sleep.> See also "The AI Vampire," steve-yegge.medium.com, February 2026. <https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163>
 
-[^8]: Developer testimonial aggregated from Reddit via aitooldiscovery.com Claude Code review compilation. https://www.aitooldiscovery.com/guides/claude-code-reddit
+[^8]: Developer testimonial aggregated from Reddit via aitooldiscovery.com Claude Code review compilation. <https://www.aitooldiscovery.com/guides/claude-code-reddit>
 
-[^9]: "phailhaus" comment in Hacker News thread on flow state disruption (item 44811457), 2026. https://news.ycombinator.com/item?id=44811457
+[^9]: "phailhaus" comment in Hacker News thread on flow state disruption (item 44811457), 2026. <https://news.ycombinator.com/item?id=44811457>
 
-[^10]: "Too Fast to Think: The Hidden Fatigue of Vibe Coding," Tabula Magazine, 2026. https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue
+[^10]: "Too Fast to Think: The Hidden Fatigue of Vibe Coding," Tabula Magazine, 2026. <https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue>
 
-[^11]: Boston Consulting Group / Harvard Business Review, "When Using AI Leads to 'Brain Fry,'" March 2026. Study of 1,488 full-time U.S. workers. https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry
+[^11]: Boston Consulting Group / Harvard Business Review, "When Using AI Leads to 'Brain Fry,'" March 2026. Study of 1,488 full-time U.S. workers. <https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry>
 
-[^12]: ActivTrak 2026 State of the Workplace report. Analysis of 443 million hours of work data across 163,638 employees. https://www.activtrak.com/news/state-of-the-workplace-ai-accelerating-work/
+[^12]: ActivTrak 2026 State of the Workplace report. Analysis of 443 million hours of work data across 163,638 employees. <https://www.activtrak.com/news/state-of-the-workplace-ai-accelerating-work/>
 
-[^13]: METR, "Measuring the Impact of Early 2025 AI Models on Experienced Open-Source Developer Productivity," July 2025. 16 developers, Cursor Pro with Claude 3.5/3.7 Sonnet. https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
+[^13]: METR, "Measuring the Impact of Early 2025 AI Models on Experienced Open-Source Developer Productivity," July 2025. 16 developers, Cursor Pro with Claude 3.5/3.7 Sonnet. <https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/>
 
-[^14]: "Flow State to Free Fall: An AI Coding Cautionary Tale," O'Reilly Radar, 2026. https://www.oreilly.com/radar/flow-state-to-free-fall-an-ai-coding-cautionary-tale/
+[^14]: "Flow State to Free Fall: An AI Coding Cautionary Tale," O'Reilly Radar, 2026. <https://www.oreilly.com/radar/flow-state-to-free-fall-an-ai-coding-cautionary-tale/>
 
-[^15]: Dixon, M.J., et al. "Dark Flow, Depression and Multiline Slot Machine Play," *Journal of Gambling Studies*, 2017. https://link.springer.com/article/10.1007/s10899-017-9695-1. See also Dixon et al. (2019), "Reward reactivity and dark flow in slot-machine gambling," *Journal of Behavioral Addictions*. https://pubmed.ncbi.nlm.nih.gov/30614718/
+[^15]: Dixon, M.J., et al. "Dark Flow, Depression and Multiline Slot Machine Play," *Journal of Gambling Studies*, 2017. <https://link.springer.com/article/10.1007/s10899-017-9695-1.> See also Dixon et al. (2019), "Reward reactivity and dark flow in slot-machine gambling," *Journal of Behavioral Addictions*. <https://pubmed.ncbi.nlm.nih.gov/30614718/>
 
-[^16]: Howard, J. "Breaking the Spell of Vibe Coding," fast.ai, January 28, 2026. https://www.fast.ai/posts/2026-01-28-dark-flow/
+[^16]: Howard, J. "Breaking the Spell of Vibe Coding," fast.ai, January 28, 2026. <https://www.fast.ai/posts/2026-01-28-dark-flow/>

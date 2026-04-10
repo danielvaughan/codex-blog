@@ -185,18 +185,33 @@ The 10-word prompt is not a sign of laziness. It is a sign that you understand w
 ## Citations
 
 [^1]: [Skills Catalog for Codex](https://github.com/openai/skills) — OpenAI, GitHub, 2026
+
 [^2]: [SkillsMP: 96,751+ Claude Code Skills Directory](https://medium.com/@julio.pessan.pessan/skillsmp-this-96-751-claude-code-skills-directory-7dec2eabc338) — Julio Pessan, Medium, 2026
+
 [^3]: [Anthropic Skill Creator Measures If Your Agent Skills Work](https://medium.com/ai-software-engineer/anthropic-new-skill-creator-measures-if-your-agent-skills-work-no-more-guesswork-840a108e505f) — Joe Njenga, Medium, March 2026
+
 [^4]: [Codex CLI: The Definitive Technical Reference](https://blakecrosley.com/guides/codex) — Blake Crosley, 2026
+
 [^5]: [Claude Code Merges Slash Commands Into Skills](https://medium.com/@joe.njenga/claude-code-merges-slash-commands-into-skills-dont-miss-your-update-8296f3989697) — Joe Njenga, Medium, 2026
+
 [^6]: [Slash Commands in Codex CLI](https://developers.openai.com/codex/cli/slash-commands) — OpenAI Developer Docs, 2026
+
 [^7]: [Custom Prompts — Codex Developer Docs](https://developers.openai.com/codex/custom-prompts) — OpenAI, 2026. Note: custom prompts are now deprecated in favour of skills.
+
 [^8]: [Extend Claude with Skills — Claude Code Docs](https://code.claude.com/docs/en/skills) — Anthropic, 2026
+
 [^9]: [Agent Skills — Codex Developer Docs](https://developers.openai.com/codex/skills) — OpenAI, 2026
+
 [^10]: [CLAUDE.md, AGENTS.md, and Every AI Config File Explained](https://www.deployhq.com/blog/ai-coding-config-files-guide) — DeployHQ, 2026
+
 [^11]: [Codex CLI Agent Skills: 2026 Install and Usage Guide](https://itecsonline.com/post/codex-cli-agent-skills-guide-install-usage-cross-platform-resources-2026) — ITECS Online, 2026
+
 [^12]: [Claude Code Skill Creator: How to Test and Benchmark Your Skills](https://www.nathanonn.com/claude-code-skill-creator-guide/) — Nathan Onn, 2026. Benchmark data shows ~74,000 tokens per evaluation run.
+
 [^13]: [Anthropic Skill Creator 2.0 Update: Evals, Benchmarks, and Multi-Agent Testing](https://www.thetoolnerd.com/p/anthropic-skill-creator-20-update) — The Tool Nerd, 2026
+
 [^14]: [Custom Instructions with AGENTS.md — Codex Developer Docs](https://developers.openai.com/codex/guides/agents-md) — OpenAI, 2026
+
 [^15]: [How to Set Up OpenAI Codex: AGENTS.md, MCP Servers, Skills](https://llmx.tech/blog/openai-codex-setup-agents-md-mcps-skills-definitive-guide/) — LLMx, 2026
+
 [^16]: [Context Management Strategies for OpenAI Codex](https://iceberglakehouse.com/posts/2026-03-context-openai-codex/) — Alex Merced, Lakehouse Blog, 2026

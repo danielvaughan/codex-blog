@@ -156,9 +156,15 @@ No amount of documentation closes that gap entirely. Someone has to sit with the
 ## Citations
 
 [^1]: [Tech's secret weapon: The complete 2026 guide to the forward deployed engineer](https://hashnode.com/blog/a-complete-2026-guide-to-the-forward-deployed-engineer)
+
 [^2]: [Forward-Deployed Engineers: AI's Key Role in 2026 — AI Daily](https://www.ai-daily.news/articles/forward-deployed-engineers-ais-key-role-in-2026)
+
 [^3]: [Forward Deployed Engineer (FDE) - NYC — OpenAI Careers](https://openai.com/careers/forward-deployed-engineer-(fde)-nyc-new-york-city/)
+
 [^4]: [Configuration Reference — Codex CLI, OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^5]: [OpenAI Codex CLI ships v0.116.0 with enterprise features — Augment Code](https://www.augmentcode.com/learn/openai-codex-cli-enterprise)
+
 [^6]: [Unlocking the Codex harness: how we built the App Server — OpenAI](https://openai.com/index/unlocking-the-codex-harness/)
+
 [^7]: [Forward Deployed Engineer (FDE): The Essential 2026 Guide — Rocketlane](https://www.rocketlane.com/blogs/forward-deployed-engineer)

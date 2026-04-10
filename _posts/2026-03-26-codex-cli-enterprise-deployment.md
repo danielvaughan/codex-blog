@@ -266,6 +266,9 @@ Codex CLI's enterprise configuration model separates *defaults* from *requiremen
 ## Citations
 
 [^1]: OpenAI. "Codex Changelog." developers.openai.com. 2026-03-19. <https://developers.openai.com/codex/changelog>
+
 [^2]: OpenAI. "Managed Configuration – Codex." developers.openai.com. <https://developers.openai.com/codex/enterprise/managed-configuration>
+
 [^3]: OpenAI. "Admin Setup – Codex." developers.openai.com. <https://developers.openai.com/codex/enterprise/admin-setup>
+
 [^4]: OpenAI. "Config Basics – Codex." developers.openai.com. <https://developers.openai.com/codex/config-basic>

@@ -543,25 +543,46 @@ This stack gives you: dynamic context injection at startup, secret scanning on e
 
 ## Citations
 
-[^1]: Codex CLI v0.114.0 release — experimental hooks with `SessionStart` and `Stop` events (PR #13276). GitHub Releases: https://github.com/openai/codex/releases
-[^2]: `features.codex_hooks` configuration key. Codex Configuration Reference: https://developers.openai.com/codex/config-reference
-[^3]: Hooks — Codex Developer Documentation (Windows support note): https://developers.openai.com/codex/hooks
-[^4]: Hook file discovery and merge behaviour. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^5]: Five supported hook events: SessionStart, PreToolUse, PostToolUse, UserPromptSubmit, Stop. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^6]: SessionStart matcher values (`startup`, `resume`). Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^7]: `additionalContext` field in SessionStart hookSpecificOutput. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^8]: PreToolUse as security gate — fires before command execution. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^9]: Blocking with exit code 2 or `permissionDecision: "deny"`. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^10]: PreToolUse unsupported fields: `continue`, `stopReason`, `suppressOutput`. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^11]: PostToolUse cannot undo side effects. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^12]: PostToolUse supported fields: `systemMessage`, `continue: false`, `stopReason`. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^13]: UserPromptSubmit for secret detection. OpenAI Codex CLI ships v0.116.0 with enterprise features — Augment Code: https://www.augmentcode.com/learn/openai-codex-cli-enterprise
-[^14]: UserPromptSubmit matcher is silently ignored. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^15]: Stop hook `decision: "block"` triggers auto-continuation. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^16]: `stop_hook_active` flag prevents infinite loops. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^17]: Hook `timeout` parameter, default 600 seconds. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^18]: Concurrent hook execution. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^19]: `hatayama/codex-hooks` — Claude Code hook compatibility runner: https://github.com/hatayama/codex-hooks
-[^20]: Unimplemented hook features. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
-[^21]: Community request for PreToolUse/PostToolUse for non-Bash tools — Issue #14754: https://github.com/openai/codex/issues/14754
-[^22]: OpenAI Codex CLI v0.117.0 alpha — `AfterToolUse` and `AfterAgent` hook events preview. Codex Changelog: https://developers.openai.com/codex/changelog
+[^1]: Codex CLI v0.114.0 release — experimental hooks with `SessionStart` and `Stop` events (PR #13276). GitHub Releases: <https://github.com/openai/codex/releases>
+
+[^2]: `features.codex_hooks` configuration key. Codex Configuration Reference: <https://developers.openai.com/codex/config-reference>
+
+[^3]: Hooks — Codex Developer Documentation (Windows support note): <https://developers.openai.com/codex/hooks>
+
+[^4]: Hook file discovery and merge behaviour. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^5]: Five supported hook events: SessionStart, PreToolUse, PostToolUse, UserPromptSubmit, Stop. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^6]: SessionStart matcher values (`startup`, `resume`). Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^7]: `additionalContext` field in SessionStart hookSpecificOutput. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^8]: PreToolUse as security gate — fires before command execution. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^9]: Blocking with exit code 2 or `permissionDecision: "deny"`. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^10]: PreToolUse unsupported fields: `continue`, `stopReason`, `suppressOutput`. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^11]: PostToolUse cannot undo side effects. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^12]: PostToolUse supported fields: `systemMessage`, `continue: false`, `stopReason`. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^13]: UserPromptSubmit for secret detection. OpenAI Codex CLI ships v0.116.0 with enterprise features — Augment Code: <https://www.augmentcode.com/learn/openai-codex-cli-enterprise>
+
+[^14]: UserPromptSubmit matcher is silently ignored. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^15]: Stop hook `decision: "block"` triggers auto-continuation. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^16]: `stop_hook_active` flag prevents infinite loops. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^17]: Hook `timeout` parameter, default 600 seconds. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^18]: Concurrent hook execution. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^19]: `hatayama/codex-hooks` — Claude Code hook compatibility runner: <https://github.com/hatayama/codex-hooks>
+
+[^20]: Unimplemented hook features. Codex Hooks Documentation: <https://developers.openai.com/codex/hooks>
+
+[^21]: Community request for PreToolUse/PostToolUse for non-Bash tools — Issue #14754: <https://github.com/openai/codex/issues/14754>
+
+[^22]: OpenAI Codex CLI v0.117.0 alpha — `AfterToolUse` and `AfterAgent` hook events preview. Codex Changelog: <https://developers.openai.com/codex/changelog>

@@ -243,10 +243,17 @@ For teams evaluating Codex CLI for regulated environments:
 ## Citations
 
 [^1]: [Governance – Codex | OpenAI Developers](https://developers.openai.com/codex/enterprise/governance)
+
 [^2]: [Admin Setup – Codex | OpenAI Developers](https://developers.openai.com/codex/enterprise/admin-setup)
+
 [^3]: [Security and privacy at OpenAI](https://openai.com/security-and-privacy/)
+
 [^4]: [Enterprise privacy at OpenAI](https://openai.com/enterprise-privacy/)
+
 [^5]: [Agent approvals & security – Codex | OpenAI Developers](https://developers.openai.com/codex/agent-approvals-security)
+
 [^6]: [Pricing – Codex | OpenAI Developers](https://developers.openai.com/codex/pricing)
+
 [^7]: [Managed configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/enterprise/managed-configuration)
+
 [^8]: [Codex CLI Features – OpenAI Developers](https://developers.openai.com/codex/cli/features)

@@ -309,10 +309,17 @@ Until these land, defensive parsing is essential: check for both old and new fie
 ## Citations
 
 [^1]: [Non-interactive mode – Codex | OpenAI Developers](https://developers.openai.com/codex/noninteractive)
+
 [^2]: [Codex CLI exec mode experiments: 81 flag/feature tests with raw outputs – Alex Fazio](https://gist.github.com/alexfazio/359c17d84cb6a5af12bac88fa1db9770)
+
 [^3]: [JSON output mode docs are out of date – GitHub Issue #4776](https://github.com/openai/codex/issues/4776)
+
 [^4]: [Command line options – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/reference)
+
 [^5]: [Structured model outputs | OpenAI API](https://platform.openai.com/docs/guides/structured-outputs)
+
 [^6]: [Features – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features)
+
 [^7]: [Build Code Review with the Codex SDK | OpenAI Cookbook](https://developers.openai.com/cookbook/examples/codex/build_code_review_with_codex_sdk)
+
 [^8]: [Automating Code Quality and Security Fixes with Codex CLI on GitLab | OpenAI Cookbook](https://developers.openai.com/cookbook/examples/codex/secure_quality_gitlab)

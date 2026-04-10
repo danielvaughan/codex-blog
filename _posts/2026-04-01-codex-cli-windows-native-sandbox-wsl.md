@@ -253,12 +253,21 @@ For enterprise teams deploying Codex across Windows fleets, the elevated sandbox
 ## Citations
 
 [^1]: [Windows — Codex CLI | OpenAI Developers](https://developers.openai.com/codex/windows)
+
 [^2]: [CLI — Codex | OpenAI Developers](https://developers.openai.com/codex/cli)
+
 [^3]: [Releases — openai/codex | GitHub](https://github.com/openai/codex/releases)
+
 [^4]: [Windows — Codex App | OpenAI Developers](https://developers.openai.com/codex/app/windows)
+
 [^5]: [OpenAI Codex Arrives on Windows with Native Sandbox and Agentic Workflows | Windows Forum](https://windowsforum.com/threads/openai-codex-arrives-on-windows-with-native-sandbox-and-agentic-workflows.404026/)
+
 [^6]: [Help test experimental Windows sandbox — openai/codex Discussion #6065 | GitHub](https://github.com/openai/codex/discussions/6065)
+
 [^7]: [How to Run OpenAI Codex in Windows with WSL | Apidog](https://apidog.com/blog/codex-on-windows-wsl/)
+
 [^8]: [Better WSL compatibility in Codex App for Windows — Issue #14468 | GitHub](https://github.com/openai/codex/issues/14468)
+
 [^9]: [Sandboxing — Codex | OpenAI Developers](https://developers.openai.com/codex/concepts/sandboxing)
+
 [^10]: [elevated_windows_sandbox causing all agent commands to fail — Issue #10090 | GitHub](https://github.com/openai/codex/issues/10090)

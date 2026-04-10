@@ -234,12 +234,21 @@ For a single agent doing a focused task, Codex subagents are simpler and suffici
 ## Citations
 
 [^1]: [cmux: Native macOS Terminal for AI Coding Agents — Better Stack Community](https://betterstack.com/community/guides/ai/cmux-terminal/)
+
 [^2]: [cmux — manaflow-ai/cmux on GitHub](https://github.com/manaflow-ai/cmux)
+
 [^3]: [cmux Complete Guide: The Next-Gen macOS Terminal for AI Coding Agents — Gardenee Blog](https://agmazon.com/blog/articles/technology/202603/cmux-terminal-ai-guide-en.html)
+
 [^4]: [Support cmux as a teammateMode backend for agent teams — Claude Code Issue #36926](https://github.com/anthropics/claude-code/issues/36926)
+
 [^5]: [acpx: Headless CLI client for stateful ACP sessions — GitHub](https://github.com/openclaw/acpx)
+
 [^6]: [What Is Oh My Codex (OMX)? Complete 2026 Guide — a2a-mcp.org](https://a2a-mcp.org/blog/what-is-oh-my-codex)
+
 [^7]: [Oh My codeX — GitHub](https://github.com/Yeachan-Heo/oh-my-codex)
+
 [^8]: [OmX for Codex CLI: A Practical Guide to Multi-Agent Orchestration, Hooks, and HUDs — addROM](https://addrom.com/omx-for-codex-cli-a-practical-guide-to-multi-agent-orchestration-hooks-and-huds/)
+
 [^9]: [Subagents — Codex CLI Documentation](https://developers.openai.com/codex/subagents)
+
 [^10]: [wmux: Windows terminal multiplexer for AI agents — GitHub](https://github.com/amirlehmam/wmux)

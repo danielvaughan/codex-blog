@@ -241,12 +241,21 @@ Codex CLI's utility extends well beyond code generation. The combination of `cod
 ## Citations
 
 [^1]: [Non-interactive mode – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/noninteractive)
+
 [^2]: [Command line options – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/reference)
+
 [^3]: [Codex CLI Execution Modes – CodeSignal](https://codesignal.com/learn/courses/codex-sdk-automation/lessons/codex-cli-execution-modes)
+
 [^4]: [Features – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features)
+
 [^5]: [OpenAI Codex v0.117.0 release notes](https://github.com/openai/codex/releases/tag/v0.117.0)
+
 [^6]: [Playwright MCP – GitHub (microsoft/playwright-mcp)](https://github.com/microsoft/playwright-mcp)
+
 [^7]: [Model Context Protocol – Codex | OpenAI Developers](https://developers.openai.com/codex/mcp)
+
 [^8]: [How do I get Codex to use the browser? – OpenAI Developer Community](https://community.openai.com/t/how-do-i-get-codex-to-use-the-browser/1373178)
+
 [^9]: [Playwright MCP: Setup, Best Practices & Troubleshooting – TestCollab](https://testcollab.com/blog/playwright-mcp)
+
 [^10]: [Playwright skill – agentskills.io via LobeHub](https://lobehub.com/skills/westonwrz-codex-skills-by-codex-playwright)

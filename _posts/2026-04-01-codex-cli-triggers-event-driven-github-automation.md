@@ -262,11 +262,19 @@ For CI auto-fix, add a second workflow file using the `workflow_run` pattern. St
 ## Citations
 
 [^1]: [OpenAI Codex March 2026 Update Summary: Plugins, Triggers, and 5 Core Changes](https://help.apiyi.com/en/openai-codex-march-2026-updates-summary-plugins-triggers-security-en.html)
+
 [^2]: [OpenAI's Codex Gets Plugins — And The Real Fight For AI-Powered Development Begins](https://www.webanditnews.com/2026/03/28/openais-codex-gets-plugins-and-the-real-fight-for-ai-powered-development-begins/)
+
 [^3]: [OpenAI Codex: What it does and how to use it (2026)](https://www.eesel.ai/blog/openai-codex)
+
 [^4]: [GitHub Action – Codex | OpenAI Developers](https://developers.openai.com/codex/github-action)
+
 [^5]: [How to Run Codex CLI Safely inside GitHub Actions](https://smartscope.blog/en/generative-ai/chatgpt/codex-cli-github-actions/)
+
 [^6]: [Use Codex CLI to automatically fix CI failures — OpenAI Cookbook](https://developers.openai.com/cookbook/examples/codex/autofix-github-actions)
+
 [^7]: [Features – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features)
+
 [^8]: [Use Codex in GitHub | OpenAI Developers](https://developers.openai.com/codex/integrations/github)
+
 [^9]: [Advanced Configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/config-advanced)

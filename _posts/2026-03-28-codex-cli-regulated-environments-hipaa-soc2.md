@@ -307,20 +307,37 @@ The compliance posture of your Codex deployment reflects the broader maturity of
 ## Citations
 
 [^1]: OpenAI Trust Portal — certifications list. [trust.openai.com](https://trust.openai.com/) (accessed March 2026).
+
 [^2]: OpenAI Help Centre — "How can I get a Business Associate Agreement (BAA) with OpenAI for the API Services?" [help.openai.com/en/articles/8660679](https://help.openai.com/en/articles/8660679-how-can-i-get-a-business-associate-agreement-baa-with-openai) (accessed March 2026).
+
 [^3]: AccountableHQ — "Is OpenAI HIPAA Compliant? Current Status, BAAs, and Secure Alternatives." [accountablehq.com](https://www.accountablehq.com/post/is-openai-hipaa-compliant-current-status-baas-and-secure-alternatives) (accessed March 2026).
+
 [^4]: Azure OpenAI Service FedRAMP High P-ATO. Applied Information Sciences — "Azure OpenAI Security." [ais.com/azure-openai-security-key-questions-addressed](https://www.ais.com/azure-openai-security-key-questions-addressed/) (accessed March 2026).
+
 [^5]: OpenAI Medium — "OpenAI's Zero Data Retention Policy" by J Kes. [medium.com/@jeffkessie50/openais-zero-data-retention-policy-916ff04a3599](https://medium.com/@jeffkessie50/openais-zero-data-retention-policy-916ff04a3599) (accessed March 2026).
+
 [^6]: OpenAI Developers — Admin Setup for Codex Enterprise. [developers.openai.com/codex/enterprise/admin-setup](https://developers.openai.com/codex/enterprise/admin-setup) (accessed March 2026).
+
 [^7]: OpenAI Help Centre — "Using Codex with your ChatGPT plan." [help.openai.com/en/articles/11369540](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) (accessed March 2026).
+
 [^8]: HHS HIPAA Security Rule NPRM, January 2025 — AI tools must be included in risk analysis activities. CertPro HIPAA Updates 2026 summary. [certpro.com/hipaa-updates-2026-explained](https://certpro.com/hipaa-updates-2026-explained/) (accessed March 2026).
+
 [^9]: GitHub openai/codex issue #106 — "Previous response cannot be used for this organisation due to Zero Data Retention." [github.com/openai/codex/issues/106](https://github.com/openai/codex/issues/106) (accessed March 2026).
+
 [^10]: OpenAI Developers — Configuration Reference, `permissions` network keys. [developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference) (accessed March 2026).
+
 [^11]: OpenAI Developers — Managed Configuration for Codex Enterprise. [developers.openai.com/codex/enterprise/managed-configuration](https://developers.openai.com/codex/enterprise/managed-configuration) (accessed March 2026).
+
 [^12]: OpenAI Developers — Admin Setup, RBAC group structure recommendation. [developers.openai.com/codex/enterprise/admin-setup](https://developers.openai.com/codex/enterprise/admin-setup) (accessed March 2026).
+
 [^13]: OpenAI Developers — Admin Setup, Analytics API key scoping. [developers.openai.com/codex/enterprise/admin-setup](https://developers.openai.com/codex/enterprise/admin-setup) (accessed March 2026).
+
 [^14]: OpenAI Developers — Configuration Reference, `[otel]` section. [developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference) (accessed March 2026).
+
 [^15]: NIST SP 800-66r2 — Implementing the HIPAA Security Rule: A Cybersecurity Resource Guide. [csrc.nist.gov/publications/detail/sp/800-66/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-66/rev-2/final) (accessed March 2026).
+
 [^16]: DORA Article 28 — EU Digital Operational Resilience Act, third-party ICT provider requirements. [digital-strategy.ec.europa.eu/en/policies/dora](https://digital-strategy.ec.europa.eu/en/policies/dora) (accessed March 2026).
+
 [^17]: OpenAI Developers — Admin Setup, Compliance API endpoints. [developers.openai.com/codex/enterprise/admin-setup](https://developers.openai.com/codex/enterprise/admin-setup) (accessed March 2026).
+
 [^18]: OpenAI Developers — Config Reference, `commit_attribution` key. [developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference) (accessed March 2026).

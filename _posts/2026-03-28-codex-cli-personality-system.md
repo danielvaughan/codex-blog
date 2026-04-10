@@ -210,19 +210,34 @@ The personality system is deliberately shallow — it does not affect tool call 
 
 ## Citations
 
-[^1]: OpenAI Developer Documentation — Configuration Reference, `personality` key: https://developers.openai.com/codex/config-reference
-[^2]: OpenAI Developer Documentation — Codex Prompting Guide, default tone description: https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide
-[^3]: OpenAI Developer Documentation — Codex Core Prompt, `codex-rs/core/prompt.md`: https://github.com/openai/codex/blob/main/codex-rs/core/prompt.md
-[^4]: OpenAI Developer Documentation — Slash Commands, `/personality` description: https://developers.openai.com/codex/cli/slash-commands
-[^5]: GitHub Issue #10582 — personality should be an Option that you can set to None (RESOLVED): https://github.com/openai/codex/issues/10582
-[^6]: OpenAI Developer Documentation — Configuration Reference, `features.personality` key (stable, on by default): https://developers.openai.com/codex/config-reference
-[^7]: OpenAI Developer Documentation — Config Basics, `personality` in `config.toml`: https://developers.openai.com/codex/config-basic
-[^8]: OpenAI Developer Documentation — Advanced Configuration, profile-scoped personality: https://developers.openai.com/codex/config-advanced
-[^9]: OpenAI Developer Documentation — Config Basics, `--config` / `-c` CLI flag: https://developers.openai.com/codex/config-basic
-[^10]: OpenAI Developer Documentation — Slash Commands, `/personality` inline picker: https://developers.openai.com/codex/cli/slash-commands
-[^11]: OpenAI Developer Documentation — Slash Commands, model support gating: https://developers.openai.com/codex/cli/slash-commands
-[^12]: GitHub Issue #10074 — Support /personality for remote models; `supports_personality` flag in `codex-rs/tui/src/chatwidget.rs`: https://github.com/openai/codex/issues/10074
-[^13]: OpenAI Developer Documentation — Custom Instructions with AGENTS.md: https://developers.openai.com/codex/guides/agents-md
-[^14]: OpenAI Developer Documentation — Sample Configuration, CI profile patterns: https://developers.openai.com/codex/config-sample
-[^15]: OpenAI Developer Documentation — Configuration Reference, `requirements.toml` managed policy: https://developers.openai.com/codex/config-reference
-[^16]: OpenAI Developer Documentation — Settings (Codex App), Personalization section: https://developers.openai.com/codex/app/settings
+[^1]: OpenAI Developer Documentation — Configuration Reference, `personality` key: <https://developers.openai.com/codex/config-reference>
+
+[^2]: OpenAI Developer Documentation — Codex Prompting Guide, default tone description: <https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide>
+
+[^3]: OpenAI Developer Documentation — Codex Core Prompt, `codex-rs/core/prompt.md`: <https://github.com/openai/codex/blob/main/codex-rs/core/prompt.md>
+
+[^4]: OpenAI Developer Documentation — Slash Commands, `/personality` description: <https://developers.openai.com/codex/cli/slash-commands>
+
+[^5]: GitHub Issue #10582 — personality should be an Option that you can set to None (RESOLVED): <https://github.com/openai/codex/issues/10582>
+
+[^6]: OpenAI Developer Documentation — Configuration Reference, `features.personality` key (stable, on by default): <https://developers.openai.com/codex/config-reference>
+
+[^7]: OpenAI Developer Documentation — Config Basics, `personality` in `config.toml`: <https://developers.openai.com/codex/config-basic>
+
+[^8]: OpenAI Developer Documentation — Advanced Configuration, profile-scoped personality: <https://developers.openai.com/codex/config-advanced>
+
+[^9]: OpenAI Developer Documentation — Config Basics, `--config` / `-c` CLI flag: <https://developers.openai.com/codex/config-basic>
+
+[^10]: OpenAI Developer Documentation — Slash Commands, `/personality` inline picker: <https://developers.openai.com/codex/cli/slash-commands>
+
+[^11]: OpenAI Developer Documentation — Slash Commands, model support gating: <https://developers.openai.com/codex/cli/slash-commands>
+
+[^12]: GitHub Issue #10074 — Support /personality for remote models; `supports_personality` flag in `codex-rs/tui/src/chatwidget.rs`: <https://github.com/openai/codex/issues/10074>
+
+[^13]: OpenAI Developer Documentation — Custom Instructions with AGENTS.md: <https://developers.openai.com/codex/guides/agents-md>
+
+[^14]: OpenAI Developer Documentation — Sample Configuration, CI profile patterns: <https://developers.openai.com/codex/config-sample>
+
+[^15]: OpenAI Developer Documentation — Configuration Reference, `requirements.toml` managed policy: <https://developers.openai.com/codex/config-reference>
+
+[^16]: OpenAI Developer Documentation — Settings (Codex App), Personalization section: <https://developers.openai.com/codex/app/settings>

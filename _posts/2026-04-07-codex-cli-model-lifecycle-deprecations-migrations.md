@@ -328,18 +328,33 @@ Until then, treat model lifecycle management as a first-class operational concer
 ## Citations
 
 [^1]: [GPT-5-Codex Model documentation](https://developers.openai.com/api/docs/models/gpt-5-codex) — OpenAI API reference, September 2025
+
 [^2]: [Introducing GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3-codex/) — OpenAI blog, 5 February 2026
+
 [^3]: [GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated](https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated/) — GitHub Changelog, 3 April 2026
+
 [^4]: [Building more with GPT-5.1-Codex-Max](https://openai.com/index/gpt-5-1-codex-max/) — OpenAI blog, 19 November 2025
+
 [^5]: [Introducing GPT-5.2-Codex](https://openai.com/index/introducing-gpt-5-2-codex/) — OpenAI blog, 18 December 2025
+
 [^6]: [Retiring GPT-4o and older models](https://openai.com/index/retiring-gpt-4o-and-older-models/) — OpenAI blog, February 2026; GPT-5.2 Thinking retires 5 June 2026
+
 [^7]: [Codex CLI Changelog — Codex-Spark research preview](https://developers.openai.com/codex/changelog) — OpenAI Developers, February 2026
+
 [^8]: [Introducing GPT-5.4](https://openai.com/index/introducing-gpt-5-4/) — OpenAI blog, 5 March 2026
+
 [^9]: [Introducing GPT-5.4 mini and nano](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/) — OpenAI blog, 17 March 2026
+
 [^10]: [Codex Models documentation](https://developers.openai.com/codex/models) — OpenAI Developers, current
+
 [^11]: [Azure OpenAI Model Retirements](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirements) — Microsoft Learn, current
+
 [^12]: [Codex Configuration Reference](https://developers.openai.com/codex/config-reference) — OpenAI Developers, current
+
 [^13]: [Codex Sample Configuration](https://developers.openai.com/codex/config-sample) — OpenAI Developers, current
+
 [^14]: [GPT-5.4 Complete Guide 2026](https://www.nxcode.io/resources/news/gpt-5-4-complete-guide-features-pricing-models-2026) — NxCode, March 2026
+
 [^15]: [GPT-5.4 discussion — Simon Willison's question on Codex model line merger](https://openai.com/index/introducing-gpt-5-4/) — referenced in community discussion, March 2026
+
 [^16]: [gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow](https://danielvaughan.com/codex-resources/articles/2026-03-30-gpt-5-codex-new-flagship-model-guide/) — Daniel Vaughan / Codex Resources, 30 March 2026

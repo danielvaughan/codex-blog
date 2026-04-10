@@ -169,20 +169,20 @@ Codex's token-based model offers superior cost attribution for enterprise teams 
 
 ## Citations
 
-[^1]: OpenAI, "Codex now offers pay-as-you-go pricing for teams," 2 April 2026. [https://openai.com/index/codex-flexible-pricing-for-teams/](https://openai.com/index/codex-flexible-pricing-for-teams/)
+[^1]: OpenAI, "Codex now offers pay-as-you-go pricing for teams," 2 April 2026. <https://openai.com/index/codex-flexible-pricing-for-teams/>
 
-[^2]: Winbuzzer, "AI Coding: OpenAI Switches Codex to Pay-as-You-Go, Cuts Seat Cost to $20," 4 April 2026. [https://winbuzzer.com/2026/04/04/openai-switches-codex-pay-as-you-go-pricing-cuts-business-seat-cost-xcxwbn/](https://winbuzzer.com/2026/04/04/openai-switches-codex-pay-as-you-go-pricing-cuts-business-seat-cost-xcxwbn/)
+[^2]: Winbuzzer, "AI Coding: OpenAI Switches Codex to Pay-as-You-Go, Cuts Seat Cost to $20," 4 April 2026. <https://winbuzzer.com/2026/04/04/openai-switches-codex-pay-as-you-go-pricing-cuts-business-seat-cost-xcxwbn/>
 
-[^3]: Lilting Channel, "OpenAI Codex Moves from Message-Based Credits to Token-Based Pricing," April 2026. [https://lilting.ch/en/articles/openai-codex-token-based-pricing-rate-card](https://lilting.ch/en/articles/openai-codex-token-based-pricing-rate-card)
+[^3]: Lilting Channel, "OpenAI Codex Moves from Message-Based Credits to Token-Based Pricing," April 2026. <https://lilting.ch/en/articles/openai-codex-token-based-pricing-rate-card>
 
-[^4]: OpenAI, "Codex rate card," April 2026. [https://help.openai.com/en/articles/20001106-codex-rate-card](https://help.openai.com/en/articles/20001106-codex-rate-card)
+[^4]: OpenAI, "Codex rate card," April 2026. <https://help.openai.com/en/articles/20001106-codex-rate-card>
 
-[^5]: Flowith Blog, "OpenAI Codex Pricing 2026: API Costs, Token Limits, and Which Tier Makes Sense for Your Dev Workflow." [https://flowith.io/blog/openai-codex-pricing-2026-api-costs-token-limits/](https://flowith.io/blog/openai-codex-pricing-2026-api-costs-token-limits/)
+[^5]: Flowith Blog, "OpenAI Codex Pricing 2026: API Costs, Token Limits, and Which Tier Makes Sense for Your Dev Workflow." <https://flowith.io/blog/openai-codex-pricing-2026-api-costs-token-limits/>
 
-[^6]: Get AI Perks, "OpenAI Codex Pricing 2026: Credits, Limits & API Costs." [https://www.getaiperks.com/en/articles/codex-pricing](https://www.getaiperks.com/en/articles/codex-pricing)
+[^6]: Get AI Perks, "OpenAI Codex Pricing 2026: Credits, Limits & API Costs." <https://www.getaiperks.com/en/articles/codex-pricing>
 
-[^7]: OpenAI Developers, "Command line options – Codex CLI." [https://developers.openai.com/codex/cli/reference](https://developers.openai.com/codex/cli/reference)
+[^7]: OpenAI Developers, "Command line options – Codex CLI." <https://developers.openai.com/codex/cli/reference>
 
-[^8]: SSD Nodes, "Claude Code Pricing in 2026: Every Plan Explained." [https://www.ssdnodes.com/blog/claude-code-pricing-in-2026-every-plan-explained-pro-max-api-teams/](https://www.ssdnodes.com/blog/claude-code-pricing-in-2026-every-plan-explained-pro-max-api-teams/)
+[^8]: SSD Nodes, "Claude Code Pricing in 2026: Every Plan Explained." <https://www.ssdnodes.com/blog/claude-code-pricing-in-2026-every-plan-explained-pro-max-api-teams/>
 
-[^9]: PYMNTS, "Anthropic's Claude Subscription Shift Signals New AI Pricing Era," April 2026. [https://www.pymnts.com/artificial-intelligence-2/2026/third-party-agents-lose-access-as-anthropic-tightens-claude-usage-rules/](https://www.pymnts.com/artificial-intelligence-2/2026/third-party-agents-lose-access-as-anthropic-tightens-claude-usage-rules/)
+[^9]: PYMNTS, "Anthropic's Claude Subscription Shift Signals New AI Pricing Era," April 2026. <https://www.pymnts.com/artificial-intelligence-2/2026/third-party-agents-lose-access-as-anthropic-tightens-claude-usage-rules/>

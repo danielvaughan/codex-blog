@@ -159,11 +159,19 @@ For teams already running both, the good news is that `AGENTS.md` and `CLAUDE.md
 ## Citations
 
 [^1]: [Anthropic Leak Exposes Claude Code As An Open Source Learning Event — Open Source For You](https://www.opensourceforu.com/2026/04/anthropic-leak-exposes-claude-code-as-an-open-source-learning-event/)
+
 [^2]: [Another Rust Rewrite: OpenAI's Codex CLI Goes Native — InfoQ](https://www.infoq.com/news/2025/06/codex-cli-rust-native-rewrite/)
+
 [^3]: [OpenAI Codex CLI Architecture and Multi-Runtime Agent Patterns — Zylos Research](https://zylos.ai/research/2026-03-26-openai-codex-cli-architecture-multi-runtime-patterns)
+
 [^4]: [Inside Claude Code: An Architecture Deep Dive — Zain Hasan](https://zainhas.github.io/blog/2026/inside-claude-code-architecture/)
+
 [^5]: [Claude Code Source: tools.ts — ForrestKnight walkthrough](https://github.com/xorespesp/claude-code)
+
 [^6]: [Sandboxing Implementation — openai/codex DeepWiki](https://deepwiki.com/openai/codex/5.6-sandboxing-implementation)
+
 [^7]: [Codex CLI vs Claude Code 2026: Architecture Deep Dive — Blake Crosley](https://blakecrosley.com/blog/codex-vs-claude-code-2026)
+
 [^8]: [Codex vs Claude Code: Benchmarks, Agent Teams & Limits Compared — MorphLLM](https://www.morphllm.com/comparisons/codex-vs-claude-code)
+
 [^9]: [Ink Renderer & Custom TUI Engine — Claude Code DeepWiki](https://deepwiki.com/alesha-pro/claude-code/7.1-ink-renderer-and-custom-tui-engine)

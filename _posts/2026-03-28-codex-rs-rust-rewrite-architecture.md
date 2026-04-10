@@ -202,9 +202,14 @@ The `codex-core` crate is designed as a reusable library. If you're building age
 
 ## Citations
 
-[^1]: Fouad Matin, "Codex CLI is Going Native", GitHub Discussion #1174, openai/codex — https://github.com/openai/codex/discussions/1174
-[^2]: "OpenAI Rewrites Codex CLI in Rust, Saying Goodbye to Node.js", AIBase, 2026 — https://www.aibase.com/news/18549
-[^3]: "openai/codex Architecture Overview", DeepWiki — https://deepwiki.com/openai/codex
-[^4]: `codex-rs/README.md`, openai/codex GitHub repository — https://github.com/openai/codex/blob/main/codex-rs/README.md
-[^5]: "Add in-process app server and wire up exec to use it", PR #14005, openai/codex — https://github.com/openai/codex/pull/14005
-[^6]: `AGENTS.md`, openai/codex GitHub repository — https://github.com/openai/codex/blob/main/AGENTS.md
+[^1]: Fouad Matin, "Codex CLI is Going Native", GitHub Discussion #1174, openai/codex — <https://github.com/openai/codex/discussions/1174>
+
+[^2]: "OpenAI Rewrites Codex CLI in Rust, Saying Goodbye to Node.js", AIBase, 2026 — <https://www.aibase.com/news/18549>
+
+[^3]: "openai/codex Architecture Overview", DeepWiki — <https://deepwiki.com/openai/codex>
+
+[^4]: `codex-rs/README.md`, openai/codex GitHub repository — <https://github.com/openai/codex/blob/main/codex-rs/README.md>
+
+[^5]: "Add in-process app server and wire up exec to use it", PR #14005, openai/codex — <https://github.com/openai/codex/pull/14005>
+
+[^6]: `AGENTS.md`, openai/codex GitHub repository — <https://github.com/openai/codex/blob/main/AGENTS.md>

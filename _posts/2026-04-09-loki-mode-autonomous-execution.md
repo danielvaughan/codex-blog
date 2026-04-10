@@ -260,9 +260,15 @@ For Codex CLI practitioners, the actionable takeaways are clear: implement RARV-
 ## Citations
 
 [^1]: [Loki Mode GitHub Repository — asklokesh/loki-mode](https://github.com/asklokesh/loki-mode)
+
 [^2]: [Loki Mode Agent Reference — references/agents.md](https://github.com/asklokesh/loki-mode/blob/main/references/agents.md)
+
 [^3]: [Loki Mode Autonomy System — autonomy/README.md](https://github.com/asklokesh/loki-mode/blob/main/autonomy/README.md)
+
 [^4]: [Loki Mode Quality Gates and Anti-Sycophancy — CLAUDE.md](https://github.com/asklokesh/loki-mode/blob/main/CLAUDE.md)
+
 [^5]: [Loki Mode Provider Support — skills/providers.md](https://github.com/asklokesh/loki-mode/blob/main/skills/providers.md)
+
 [^6]: [Codex CLI Subagents Documentation — OpenAI Developers](https://developers.openai.com/codex/subagents)
+
 [^7]: [Bernstein — Declarative Agent Orchestration — chernistry/bernstein](https://github.com/chernistry/bernstein)

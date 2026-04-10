@@ -208,10 +208,17 @@ For daily use, these are the shortcuts worth committing to muscle memory:
 ## Citations
 
 [^1]: [Slash commands in Codex CLI — OpenAI Developers](https://developers.openai.com/codex/cli/slash-commands)
+
 [^2]: [Features — Codex CLI — OpenAI Developers](https://developers.openai.com/codex/cli/features)
+
 [^3]: [OpenAI Codex CLI Cheat Sheet — Shortcuts and Commands — ComputingForGeeks](https://computingforgeeks.com/codex-cli-cheat-sheet/)
+
 [^4]: [Codex CLI Cheat Sheet 2026 — Commands & Options — Toolsbase](https://toolsbase.dev/en/reference/codex-commands)
+
 [^5]: [CLI — Codex — OpenAI Developers](https://developers.openai.com/codex/cli)
+
 [^6]: [Command line options — Codex CLI — OpenAI Developers](https://developers.openai.com/codex/cli/reference)
+
 [^7]: [Command line options — Codex CLI — OpenAI Developers](https://developers.openai.com/codex/cli/reference)
+
 [^8]: [GitHub — openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)

@@ -277,16 +277,28 @@ Before exposing the app-server on a non-loopback address:
 
 ## Citations
 
-[^1]: OpenAI, "App Server — Codex," *OpenAI Developers*, https://developers.openai.com/codex/app-server
-[^2]: GitHub Issue #13410, "Configurable App Server WebSocket port/endpoint to connect from VS Code to a Codex instance running inside a Dev Container," https://github.com/openai/codex/issues/13410
-[^3]: OpenAI, "Command line options — Codex CLI," *OpenAI Developers*, https://developers.openai.com/codex/cli/reference
-[^4]: OpenAI, `codex-rs/app-server/README.md`, *GitHub*, https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md
+[^1]: OpenAI, "App Server — Codex," *OpenAI Developers*, <https://developers.openai.com/codex/app-server>
+
+[^2]: GitHub Issue #13410, "Configurable App Server WebSocket port/endpoint to connect from VS Code to a Codex instance running inside a Dev Container," <https://github.com/openai/codex/issues/13410>
+
+[^3]: OpenAI, "Command line options — Codex CLI," *OpenAI Developers*, <https://developers.openai.com/codex/cli/reference>
+
+[^4]: OpenAI, `codex-rs/app-server/README.md`, *GitHub*, <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
 [^5]: Ibid. — "Non-loopback WebSocket listeners currently allow unauthenticated connections by default during rollout."
+
 [^6]: Ibid. — "Auth is enforced before JSON-RPC `initialize`."
-[^7]: OpenAI, Codex v0.117.0 release notes — "WebSocket app-server deployments now expose `GET /readyz` and `GET /healthz` on the same listener," https://github.com/openai/codex/releases
-[^8]: InfoQ, "OpenAI Publishes Codex App Server Architecture for Unifying AI Agent Surfaces," February 2026, https://www.infoq.com/news/2026/02/opanai-codex-app-server/
+
+[^7]: OpenAI, Codex v0.117.0 release notes — "WebSocket app-server deployments now expose `GET /readyz` and `GET /healthz` on the same listener," <https://github.com/openai/codex/releases>
+
+[^8]: InfoQ, "OpenAI Publishes Codex App Server Architecture for Unifying AI Agent Surfaces," February 2026, <https://www.infoq.com/news/2026/02/opanai-codex-app-server/>
+
 [^9]: OpenAI, `codex-rs/app-server/README.md` — "Set `LOG_FORMAT=json` to emit structured tracing logs to stderr."
+
 [^10]: Ibid. — "Clients should retry with an exponentially increasing delay and jitter."
+
 [^11]: OpenAI, "App Server — Codex," *OpenAI Developers* — "Features behind `experimentalApi` capability require explicit opt-in."
+
 [^12]: Ibid. — "`clientInfo.name` identifies the integration for OpenAI's Compliance Logs Platform."
-[^13]: OpenAI, Codex v0.117.0 release notes — "A first-turn stall where WebSocket prewarm could delay turn/start was fixed — startup now times out and falls back cleanly," https://github.com/openai/codex/releases
+
+[^13]: OpenAI, Codex v0.117.0 release notes — "A first-turn stall where WebSocket prewarm could delay turn/start was fixed — startup now times out and falls back cleanly," <https://github.com/openai/codex/releases>

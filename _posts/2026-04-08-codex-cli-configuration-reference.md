@@ -280,10 +280,17 @@ For enterprise environments, regular audits comparing local `config.toml` agains
 ## Citations
 
 [^1]: [Config basics – Codex | OpenAI Developers](https://developers.openai.com/codex/config-basic)
+
 [^2]: [Advanced Configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/config-advanced)
+
 [^3]: [codex/docs/config.md at main · openai/codex](https://github.com/openai/codex/blob/main/docs/config.md)
+
 [^4]: [Managed configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/enterprise/managed-configuration)
+
 [^5]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^6]: [Sample Configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/config-sample)
+
 [^7]: [Command line options – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/reference)
+
 [^8]: [Codex CLI Installation Guide 2026 for Enterprise Proxies and Devcontainers](https://crazyrouter.com/en/blog/codex-cli-installation-guide-2026-enterprise-proxy-devcontainers-20260320090756)

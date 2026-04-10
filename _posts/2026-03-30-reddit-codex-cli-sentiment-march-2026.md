@@ -143,9 +143,14 @@ graph LR
 
 ## Citations
 
-[^1]: DEV.to — "Claude Code vs Codex 2026 — What 500+ Reddit Developers Really Think" https://dev.to/_46ea277e677b888e0cd13/claude-code-vs-codex-2026-what-500-reddit-developers-really-think-31pb
-[^2]: releasebot.io — Codex v0.117.0 release notes https://releasebot.io/updates/openai/codex
-[^3]: GitHub — openai/codex releases https://github.com/openai/codex/releases
-[^4]: GitHub — Codex usage metering anomaly issue #13186 https://github.com/openai/codex/issues/13186
-[^5]: nxcode.io — Claude Code vs Codex CLI 2026 comparison https://www.nxcode.io/resources/news/claude-code-vs-codex-cli-terminal-coding-comparison-2026
-[^6]: Dev Genius — "Codex CLI's Busy Week: Steer Mode, /fork, and 7 Releases in 3 Days" https://blog.devgenius.io/codex-clis-busy-week-steer-mode-fork-and-7-releases-in-3-days-ece5c742923e
+[^1]: DEV.to — "Claude Code vs Codex 2026 — What 500+ Reddit Developers Really Think" <https://dev.to/_46ea277e677b888e0cd13/claude-code-vs-codex-2026-what-500-reddit-developers-really-think-31pb>
+
+[^2]: releasebot.io — Codex v0.117.0 release notes <https://releasebot.io/updates/openai/codex>
+
+[^3]: GitHub — openai/codex releases <https://github.com/openai/codex/releases>
+
+[^4]: GitHub — Codex usage metering anomaly issue #13186 <https://github.com/openai/codex/issues/13186>
+
+[^5]: nxcode.io — Claude Code vs Codex CLI 2026 comparison <https://www.nxcode.io/resources/news/claude-code-vs-codex-cli-terminal-coding-comparison-2026>
+
+[^6]: Dev Genius — "Codex CLI's Busy Week: Steer Mode, /fork, and 7 Releases in 3 Days" <https://blog.devgenius.io/codex-clis-busy-week-steer-mode-fork-and-7-releases-in-3-days-ece5c742923e>

@@ -295,34 +295,34 @@ The Cerebras partnership also signals OpenAI's strategic diversification away fr
 
 ## Citations
 
-[^1]: OpenAI, "Introducing GPT-5.3-Codex-Spark," 12 February 2026. [https://openai.com/index/introducing-gpt-5-3-codex-spark/](https://openai.com/index/introducing-gpt-5-3-codex-spark/)
+[^1]: OpenAI, "Introducing GPT-5.3-Codex-Spark," 12 February 2026. <https://openai.com/index/introducing-gpt-5-3-codex-spark/>
 
-[^2]: Cerebras, "Introducing OpenAI GPT-5.3-Codex-Spark Powered by Cerebras," February 2026. [https://www.cerebras.ai/blog/openai-codexspark](https://www.cerebras.ai/blog/openai-codexspark)
+[^2]: Cerebras, "Introducing OpenAI GPT-5.3-Codex-Spark Powered by Cerebras," February 2026. <https://www.cerebras.ai/blog/openai-codexspark>
 
-[^3]: Tom's Hardware, "OpenAI launches GPT-5.3-Codex-Spark on Cerebras chips — marks AI giant's first production deployment away from Nvidia," February 2026. [https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-lauches-gpt-53-codes-spark-on-cerebras-chips](https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-lauches-gpt-53-codes-spark-on-cerebras-chips)
+[^3]: Tom's Hardware, "OpenAI launches GPT-5.3-Codex-Spark on Cerebras chips — marks AI giant's first production deployment away from Nvidia," February 2026. <https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-lauches-gpt-53-codes-spark-on-cerebras-chips>
 
-[^4]: Turing College, "Codex 5.3 vs. Codex Spark: Speed vs. Intelligence," 2026. [https://www.turingcollege.com/blog/codex-5-3-vs-codex-spark-speed-vs-intelligence](https://www.turingcollege.com/blog/codex-5-3-vs-codex-spark-speed-vs-intelligence)
+[^4]: Turing College, "Codex 5.3 vs. Codex Spark: Speed vs. Intelligence," 2026. <https://www.turingcollege.com/blog/codex-5-3-vs-codex-spark-speed-vs-intelligence>
 
-[^5]: InfoQ, "OpenAI Codex-Spark Achieves Ultra-Fast Coding Speeds on Cerebras Hardware," March 2026. [https://www.infoq.com/news/2026/03/open-ai-codex-spark/](https://www.infoq.com/news/2026/03/open-ai-codex-spark/)
+[^5]: InfoQ, "OpenAI Codex-Spark Achieves Ultra-Fast Coding Speeds on Cerebras Hardware," March 2026. <https://www.infoq.com/news/2026/03/open-ai-codex-spark/>
 
-[^6]: OpenAI, "Configuration Reference – Codex," 2026. [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
+[^6]: OpenAI, "Configuration Reference – Codex," 2026. <https://developers.openai.com/codex/config-reference>
 
-[^7]: GitHub, "Codex Spark not yet available? · Issue #11623," 12 February 2026. [https://github.com/openai/codex/issues/11623](https://github.com/openai/codex/issues/11623)
+[^7]: GitHub, "Codex Spark not yet available? · Issue #11623," 12 February 2026. <https://github.com/openai/codex/issues/11623>
 
-[^8]: GitHub, "Limitations of GPT-5.3-Codex-Spark visible in /status but not /model · Issue #12992," 2026. [https://github.com/openai/codex/issues/12992](https://github.com/openai/codex/issues/12992)
+[^8]: GitHub, "Limitations of GPT-5.3-Codex-Spark visible in /status but not /model · Issue #12992," 2026. <https://github.com/openai/codex/issues/12992>
 
-[^9]: OpenAI, "Introducing GPT-5.3-Codex," 5 February 2026. [https://openai.com/index/introducing-gpt-5-3-codex/](https://openai.com/index/introducing-gpt-5-3-codex/)
+[^9]: OpenAI, "Introducing GPT-5.3-Codex," 5 February 2026. <https://openai.com/index/introducing-gpt-5-3-codex/>
 
-[^10]: Dominic Elm (@elmd_), "GPT-5.3-Codex-Spark is not GPT-5.3-Codex!," X/Twitter, February 2026. [https://x.com/elmd_/status/2023417837193240788](https://x.com/elmd_/status/2023417837193240788)
+[^10]: Dominic Elm (@elmd_), "GPT-5.3-Codex-Spark is not GPT-5.3-Codex!," X/Twitter, February 2026. <https://x.com/elmd_/status/2023417837193240788>
 
-[^11]: TypingMind, "Connect and use GPT-5.3 Codex Spark from OpenAI with API Key," 2026. [https://www.typingmind.com/guide/openai/gpt-5.3-codex-spark](https://www.typingmind.com/guide/openai/gpt-5.3-codex-spark)
+[^11]: TypingMind, "Connect and use GPT-5.3 Codex Spark from OpenAI with API Key," 2026. <https://www.typingmind.com/guide/openai/gpt-5.3-codex-spark>
 
-[^12]: Simon Willison, "Introducing GPT-5.3-Codex-Spark," February 2026. [https://simonwillison.net/2026/Feb/12/codex-spark/](https://simonwillison.net/2026/Feb/12/codex-spark/)
+[^12]: Simon Willison, "Introducing GPT-5.3-Codex-Spark," February 2026. <https://simonwillison.net/2026/Feb/12/codex-spark/>
 
-[^13]: XAI Router, "GPT-5.3 Codex Spark: Faster, But You Should Not Reuse gpt-5.3-codex Config," 2026. [https://xairouter.com/en/blog/gpt-5-3-codex-spark/](https://xairouter.com/en/blog/gpt-5-3-codex-spark/)
+[^13]: XAI Router, "GPT-5.3 Codex Spark: Faster, But You Should Not Reuse gpt-5.3-codex Config," 2026. <https://xairouter.com/en/blog/gpt-5-3-codex-spark/>
 
-[^14]: OpenAI, "Speed – Codex," 2026. [https://developers.openai.com/codex/speed](https://developers.openai.com/codex/speed)
+[^14]: OpenAI, "Speed – Codex," 2026. <https://developers.openai.com/codex/speed>
 
-[^15]: eWeek, "OpenAI Debuts GPT-5.3-Codex-Spark, a Near-Instant AI for Real-Time Coding," 2026. [https://www.eweek.com/news/openai-gpt-5-3-codex-spark-real-time-coding-cerebras/](https://www.eweek.com/news/openai-gpt-5-3-codex-spark-real-time-coding-cerebras/)
+[^15]: eWeek, "OpenAI Debuts GPT-5.3-Codex-Spark, a Near-Instant AI for Real-Time Coding," 2026. <https://www.eweek.com/news/openai-gpt-5-3-codex-spark-real-time-coding-cerebras/>
 
 [^16]: Simon Willison ibid. — flow state observation on sub-second model response times.

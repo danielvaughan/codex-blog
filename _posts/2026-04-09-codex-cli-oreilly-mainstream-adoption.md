@@ -135,18 +135,18 @@ The question is no longer *whether* to learn Codex CLI, but *how deep to go*.
 
 ## Citations
 
-[^1]: O'Reilly Media, "Agentic Coding with OpenAI Codex CLI" course listing, [https://www.oreilly.com/live-events/agentic-coding-with-openai-codex-cli/0642572198695/](https://www.oreilly.com/live-events/agentic-coding-with-openai-codex-cli/0642572198695/)
+[^1]: O'Reilly Media, "Agentic Coding with OpenAI Codex CLI" course listing, <https://www.oreilly.com/live-events/agentic-coding-with-openai-codex-cli/0642572198695/>
 
-[^2]: BusinessToday, "OpenAI Codex celebrates 3 million weekly users, CEO Sam Altman resets usage limits", April 2026, [https://www.businesstoday.in/technology/story/openai-codex-celebrates-3-million-weekly-users-ceo-sam-altman-resets-usage-limits-524717-2026-04-08](https://www.businesstoday.in/technology/story/openai-codex-celebrates-3-million-weekly-users-ceo-sam-altman-resets-usage-limits-524717-2026-04-08)
+[^2]: BusinessToday, "OpenAI Codex celebrates 3 million weekly users, CEO Sam Altman resets usage limits", April 2026, <https://www.businesstoday.in/technology/story/openai-codex-celebrates-3-million-weekly-users-ceo-sam-altman-resets-usage-limits-524717-2026-04-08>
 
-[^3]: Ken Kousen, "codex-training" GitHub repository, [https://github.com/kousen/codex-training](https://github.com/kousen/codex-training)
+[^3]: Ken Kousen, "codex-training" GitHub repository, <https://github.com/kousen/codex-training>
 
-[^4]: Ken Kousen, "Tales from the jar side: AI Codecon, CLI Agents" Substack, [https://kenkousen.substack.com/p/tales-from-the-jar-side-ai-codecon](https://kenkousen.substack.com/p/tales-from-the-jar-side-ai-codecon)
+[^4]: Ken Kousen, "Tales from the jar side: AI Codecon, CLI Agents" Substack, <https://kenkousen.substack.com/p/tales-from-the-jar-side-ai-codecon>
 
-[^5]: O'Reilly Media, "AI Codecon: Coding for the Agentic World" event, [https://www.oreilly.com/live-events/ai-codecon-coding-for-the-agentic-world/0642572207748/](https://www.oreilly.com/live-events/ai-codecon-coding-for-the-agentic-world/0642572207748/)
+[^5]: O'Reilly Media, "AI Codecon: Coding for the Agentic World" event, <https://www.oreilly.com/live-events/ai-codecon-coding-for-the-agentic-world/0642572207748/>
 
-[^6]: O'Reilly Media, Live Events catalogue, [https://www.oreilly.com/live-events/](https://www.oreilly.com/live-events/)
+[^6]: O'Reilly Media, Live Events catalogue, <https://www.oreilly.com/live-events/>
 
-[^7]: O'Reilly Media / BusinessWire, "O'Reilly Offers Its Renowned Live Events for Individual Purchase", February 2026, [https://www.businesswire.com/news/home/20260223838501/en/OReilly-Offers-Its-Renowned-Live-Events-for-Individual-Purchase-Along-with-Curated-Bundles-Covering-the-Latest-Technical-Skills](https://www.businesswire.com/news/home/20260223838501/en/OReilly-Offers-Its-Renowned-Live-Events-for-Individual-Purchase-Along-with-Curated-Bundles-Covering-the-Latest-Technical-Skills)
+[^7]: O'Reilly Media / BusinessWire, "O'Reilly Offers Its Renowned Live Events for Individual Purchase", February 2026, <https://www.businesswire.com/news/home/20260223838501/en/OReilly-Offers-Its-Renowned-Live-Events-for-Individual-Purchase-Along-with-Curated-Bundles-Covering-the-Latest-Technical-Skills>
 
-[^8]: O'Reilly Media / BusinessWire, "O'Reilly to Host Third AI Codecon on Software Craftsmanship in the Age of AI", March 2026, [https://www.businesswire.com/news/home/20260309594534/en/OReilly-to-Host-Third-AI-Codecon-on-Software-Craftsmanship-in-the-Age-of-AI](https://www.businesswire.com/news/home/20260309594534/en/OReilly-to-Host-Third-AI-Codecon-on-Software-Craftsmanship-in-the-Age-of-AI)
+[^8]: O'Reilly Media / BusinessWire, "O'Reilly to Host Third AI Codecon on Software Craftsmanship in the Age of AI", March 2026, <https://www.businesswire.com/news/home/20260309594534/en/OReilly-to-Host-Third-AI-Codecon-on-Software-Craftsmanship-in-the-Age-of-AI>

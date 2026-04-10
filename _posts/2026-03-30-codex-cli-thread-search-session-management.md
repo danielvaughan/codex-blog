@@ -168,13 +168,23 @@ The v0.117.0 thread search release crystallises a session management model that 
 ## Citations
 
 [^1]: [Codex v0.117.0 Release Notes — OpenAI Codex Changelog](https://developers.openai.com/codex/changelog) — "Added search for past Codex app threads, including a sidebar shortcut and keyboard shortcuts for jumping to recent threads; added one-click option to archive all local threads in a project." (2026-03-26)
+
 [^2]: [Codex CLI Session Persistence — Issue #15870: state_5.sqlite and rollout JSONL dual artefacts](https://github.com/openai/codex/issues/15870)
+
 [^3]: [Codex can print a session ID but fail to persist any resumable local session artifacts after early transport failure — Issue #15870](https://github.com/openai/codex/issues/15870)
+
 [^4]: [Codex CLI Command Line Reference — codex resume, codex fork, codex exec, --ephemeral](https://developers.openai.com/codex/cli/reference)
+
 [^5]: [Codex CLI exec --json JSONL event stream format](https://developers.openai.com/codex/cli/reference)
+
 [^6]: [Codex App Server README — thread/list, thread/archive, thread/name/set, thread/search](https://developers.openai.com/codex/app-server)
+
 [^7]: [Codex CLI exec mode experiments — ephemeral flag behaviour](https://gist.github.com/alexfazio/359c17d84cb6a5af12bac88fa1db9770)
+
 [^8]: [Codex CLI Features — /compact and automatic context compaction](https://developers.openai.com/codex/cli/features)
+
 [^9]: [codex-replay — Turn Codex JSONL sessions into self-contained HTML replays](https://github.com/zpdldhkdl/codex-replay)
+
 [^10]: [Agent Sessions — macOS session browser for Codex CLI, Claude Code, Gemini CLI and more](https://github.com/jazzyalex/agent-sessions)
+
 [^11]: [Codex History Viewer — VS Code extension for browsing and managing Codex CLI session history](https://marketplace.visualstudio.com/items?itemName=hiztam.codex-history-viewer)

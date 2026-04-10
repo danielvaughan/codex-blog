@@ -259,11 +259,19 @@ The fragmentation era is ending. The question is no longer "which agent should w
 ## Citations
 
 [^1]: [CLAUDE.md, AGENTS.md, and Every AI Config File Explained — DeployHQ](https://www.deployhq.com/blog/ai-coding-config-files-guide)
+
 [^2]: [AGENTS.md vs CLAUDE.md: A Practical Guide for Developers in 2026 — The Prompt Shelf](https://thepromptshelf.dev/blog/agents-md-vs-claude-md/)
+
 [^3]: [Agents.md: An Open Standard for AI Coding Agents — Tessl](https://tessl.io/blog/the-rise-of-agents-md-an-open-standard-and-single-source-of-truth-for-ai-coding-agents/)
+
 [^4]: [AGENTS.md Official Site](https://agents.md/)
+
 [^5]: [Linux Foundation Announces the Formation of the Agentic AI Foundation (AAIF)](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation)
+
 [^6]: [Agent Skills Overview — agentskills.io](https://agentskills.io/home)
+
 [^7]: [Agent Skills Specification — agentskills.io](https://agentskills.io/specification)
+
 [^8]: [Agent Skills — Codex Developer Documentation](https://developers.openai.com/codex/skills)
+
 [^9]: [Agent Skills Reference Library — GitHub](https://github.com/agentskills/agentskills/tree/main/skills-ref)

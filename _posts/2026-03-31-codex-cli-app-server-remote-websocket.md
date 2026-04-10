@@ -309,16 +309,16 @@ The app-server transforms Codex from a local tool into infrastructure. Whether y
 
 ## Citations
 
-[^1]: OpenAI, "codex-rs/app-server/README.md," GitHub, 2026. [https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md](https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md)
+[^1]: OpenAI, "codex-rs/app-server/README.md," GitHub, 2026. <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
 
-[^2]: OpenAI, "Codex Changelog," OpenAI Developers, March 2026. [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
+[^2]: OpenAI, "Codex Changelog," OpenAI Developers, March 2026. <https://developers.openai.com/codex/changelog>
 
-[^3]: OpenAI, "App Server – Codex," OpenAI Developers, 2026. [https://developers.openai.com/codex/app-server](https://developers.openai.com/codex/app-server)
+[^3]: OpenAI, "App Server – Codex," OpenAI Developers, 2026. <https://developers.openai.com/codex/app-server>
 
-[^4]: OpenAI, "Command line options – Codex CLI," OpenAI Developers, 2026. [https://developers.openai.com/codex/cli/reference](https://developers.openai.com/codex/cli/reference)
+[^4]: OpenAI, "Command line options – Codex CLI," OpenAI Developers, 2026. <https://developers.openai.com/codex/cli/reference>
 
-[^5]: OpenAI, "Unlocking the Codex harness: how we built the App Server," OpenAI Blog, 2026. [https://openai.com/index/unlocking-the-codex-harness/](https://openai.com/index/unlocking-the-codex-harness/)
+[^5]: OpenAI, "Unlocking the Codex harness: how we built the App Server," OpenAI Blog, 2026. <https://openai.com/index/unlocking-the-codex-harness/>
 
-[^6]: Emanuele-web04, "Remodex: Remote Control for Codex," GitHub, 2026. [https://github.com/Emanuele-web04/remodex](https://github.com/Emanuele-web04/remodex)
+[^6]: Emanuele-web04, "Remodex: Remote Control for Codex," GitHub, 2026. <https://github.com/Emanuele-web04/remodex>
 
-[^7]: Vercel, "Community Providers: Codex CLI (App Server)," AI SDK, 2026. [https://ai-sdk.dev/providers/community-providers/codex-app-server](https://ai-sdk.dev/providers/community-providers/codex-app-server)
+[^7]: Vercel, "Community Providers: Codex CLI (App Server)," AI SDK, 2026. <https://ai-sdk.dev/providers/community-providers/codex-app-server>

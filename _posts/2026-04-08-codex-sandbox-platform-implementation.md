@@ -200,12 +200,21 @@ External-sandbox mode disables all local enforcement entirely[^3], which is appr
 ## Citations
 
 [^1]: [A deep dive on agent sandboxes — Pierce Freeman](https://pierce.dev/notes/a-deep-dive-on-agent-sandboxes)
+
 [^2]: [Sandboxing Implementation — DeepWiki](https://deepwiki.com/openai/codex/5.6-sandboxing-implementation)
+
 [^3]: [Codex sandboxing technical analysis — GitHub Gist (rtzll)](https://gist.github.com/rtzll/8ec03ad8a4cca3ae43ce3db7eb7dcc09)
+
 [^4]: [Sandboxing Implementation — DeepWiki (code paths and architecture)](https://deepwiki.com/openai/codex/5.6-sandboxing-implementation)
+
 [^5]: [Changelog — Codex Developers](https://developers.openai.com/codex/changelog)
+
 [^6]: [Landlock LSM — Linux Kernel documentation](https://docs.kernel.org/security/landlock.html)
+
 [^7]: [Sandboxing — Codex Developers (official docs)](https://developers.openai.com/codex/concepts/sandboxing)
+
 [^8]: [Release 0.106.0 — openai/codex GitHub](https://github.com/openai/codex/releases/tag/rust-v0.106.0)
+
 [^9]: [PR #12800: Fix sandbox envelope for zsh fork execution — openai/codex](https://github.com/openai/codex/pull/12800)
+
 [^10]: [Windows — Codex Developers (official docs)](https://developers.openai.com/codex/windows)

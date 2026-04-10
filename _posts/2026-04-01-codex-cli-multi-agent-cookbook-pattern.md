@@ -271,14 +271,14 @@ For teams already using Codex CLI, this is the natural next step: same tool, sam
 
 ## Citations
 
-[^1]: OpenAI Cookbook, "Building Consistent Workflows with Codex CLI & Agents SDK", [https://developers.openai.com/cookbook/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk](https://developers.openai.com/cookbook/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk)
+[^1]: OpenAI Cookbook, "Building Consistent Workflows with Codex CLI & Agents SDK", <https://developers.openai.com/cookbook/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk>
 
-[^2]: OpenAI Developers, "Use Codex with the Agents SDK", [https://developers.openai.com/codex/guides/agents-sdk](https://developers.openai.com/codex/guides/agents-sdk)
+[^2]: OpenAI Developers, "Use Codex with the Agents SDK", <https://developers.openai.com/codex/guides/agents-sdk>
 
-[^3]: OpenAI Developers, "Model Context Protocol – Codex", [https://developers.openai.com/codex/mcp](https://developers.openai.com/codex/mcp)
+[^3]: OpenAI Developers, "Model Context Protocol – Codex", <https://developers.openai.com/codex/mcp>
 
-[^4]: OpenAI Agents SDK, "Handoffs", [https://openai.github.io/openai-agents-python/handoffs/](https://openai.github.io/openai-agents-python/handoffs/)
+[^4]: OpenAI Agents SDK, "Handoffs", <https://openai.github.io/openai-agents-python/handoffs/>
 
-[^5]: Anthropic, "Orchestrate teams of Claude Code sessions", [https://code.claude.com/docs/en/agent-teams](https://code.claude.com/docs/en/agent-teams)
+[^5]: Anthropic, "Orchestrate teams of Claude Code sessions", <https://code.claude.com/docs/en/agent-teams>
 
-[^6]: OpenAI Developers, "Subagents – Codex", [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^6]: OpenAI Developers, "Subagents – Codex", <https://developers.openai.com/codex/subagents>

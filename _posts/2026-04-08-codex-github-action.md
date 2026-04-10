@@ -248,8 +248,13 @@ Use the action for event-driven automation tightly integrated with GitHub. Use C
 ## Citations
 
 [^1]: [GitHub - openai/codex-action](https://github.com/openai/codex-action) — Official repository and README.
+
 [^2]: [GitHub Action – Codex | OpenAI Developers](https://developers.openai.com/codex/github-action) — Official documentation page.
+
 [^3]: [Models – Codex | OpenAI Developers](https://developers.openai.com/codex/models) — Current model availability and defaults.
+
 [^4]: [Use Codex CLI to automatically fix CI failures | OpenAI Cookbook](https://developers.openai.com/cookbook/examples/codex/autofix-github-actions) — Auto-fix workflow pattern.
+
 [^5]: [Non-interactive mode – Codex | OpenAI Developers](https://developers.openai.com/codex/guides/autofix-ci/) — `codex exec` reference and CI patterns.
+
 [^6]: [Secure use reference - GitHub Docs](https://docs.github.com/en/actions/reference/security/secure-use) — GitHub Actions security best practices.

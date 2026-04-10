@@ -262,10 +262,17 @@ The custom agent TOML pattern introduced in v0.117.0 makes this wiring explicit 
 ## Citations
 
 [^1]: OpenAI, "Introducing GPT-5.4 mini and nano", March 17 2026. <https://openai.com/index/introducing-gpt-5-4-mini-and-nano/>
+
 [^2]: OpenAI Codex models page. <https://developers.openai.com/codex/models>
+
 [^3]: Augment Code, "OpenAI Codex CLI ships v0.116.0 with enterprise features". <https://www.augmentcode.com/learn/openai-codex-cli-enterprise>
+
 [^4]: AI Free API, "GPT-5.4 mini vs GPT-5.4 nano pricing and routing logic". <https://www.aifreeapi.com/en/posts/gpt-5-4-mini-vs-gpt-5-4-nano>
+
 [^5]: DataCamp, "GPT-5.4 mini and nano: Benchmarks, Access, and Reactions". <https://www.datacamp.com/blog/gpt-5-4-mini-nano>
+
 [^6]: OpenAI Codex subagents documentation. <https://developers.openai.com/codex/subagents>
+
 [^7]: OpenAI Codex advanced configuration reference. <https://developers.openai.com/codex/config-advanced>
+
 [^8]: OpenAI Codex CLI v0.117.0 release notes. <https://github.com/openai/codex/releases/tag/v0.117.0>

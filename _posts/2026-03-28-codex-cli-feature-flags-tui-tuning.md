@@ -270,22 +270,41 @@ The `[features]` and `[tui]` sections are where Codex's runtime behaviour become
 ## Citations
 
 [^1]: [Features – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features)
+
 [^2]: [Unified exec never detaches from long-running streaming commands · Issue #5948 · openai/codex](https://github.com/openai/codex/issues/5948)
+
 [^3]: [Slash commands in Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/slash-commands)
+
 [^4]: [Unified exec never detaches from long-running streaming commands · Issue #5948 · openai/codex](https://github.com/openai/codex/issues/5948)
+
 [^5]: [Sample Configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/config-sample)
+
 [^6]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^7]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^8]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^9]: [Undo code · Issue #4487 · openai/codex](https://github.com/openai/codex/issues/4487)
+
 [^10]: [CLI: Add /rewind checkpoint restore that reverts both chat context and Codex-applied code edits · Issue #11626 · openai/codex](https://github.com/openai/codex/issues/11626)
+
 [^11]: [Clicking "Undo" on file changes should absolutely not be staging changes into git · Issue #5082 · openai/codex](https://github.com/openai/codex/issues/5082)
+
 [^12]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^13]: [Control over color theme in TUI · Issue #1618 · openai/codex](https://github.com/openai/codex/issues/1618)
+
 [^14]: [Codex CLI themes are genuinely unusable · Issue #12912 · openai/codex](https://github.com/openai/codex/issues/12912)
+
 [^15]: [GitHub – ychampion/codex-themes](https://github.com/ychampion/codex-themes)
+
 [^16]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^17]: [Slash commands in Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/slash-commands)
+
 [^18]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^19]: [Advanced Configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/config-advanced)
+
 [^20]: [Slash commands in Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/slash-commands)

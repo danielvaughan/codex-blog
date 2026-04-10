@@ -154,28 +154,28 @@ The agents-radar data shows these friction points are narrowing quarter over qua
 
 ## Citations
 
-[^1]: Codex vs Claude Code: Architecture Deep Dive 2026. [https://blakecrosley.com/blog/codex-vs-claude-code-2026/](https://blakecrosley.com/blog/codex-vs-claude-code-2026/)
+[^1]: Codex vs Claude Code: Architecture Deep Dive 2026. <https://blakecrosley.com/blog/codex-vs-claude-code-2026/>
 
-[^2]: AI CLI Tools Digest 2026-04-03, agents-radar. [https://github.com/duanyytop/agents-radar/issues/384](https://github.com/duanyytop/agents-radar/issues/384)
+[^2]: AI CLI Tools Digest 2026-04-03, agents-radar. <https://github.com/duanyytop/agents-radar/issues/384>
 
-[^3]: Codex CLI consumed top-up credits unexpectedly, Issue #15959. [https://github.com/openai/codex/issues/15959](https://github.com/openai/codex/issues/15959)
+[^3]: Codex CLI consumed top-up credits unexpectedly, Issue #15959. <https://github.com/openai/codex/issues/15959>
 
-[^4]: Arbitrary usage resets resulting in token loss, Issue #16785. [https://github.com/openai/codex/issues/16785](https://github.com/openai/codex/issues/16785)
+[^4]: Arbitrary usage resets resulting in token loss, Issue #16785. <https://github.com/openai/codex/issues/16785>
 
-[^5]: Sub-agent costs are too high and too opaque, Issue #12488. [https://github.com/openai/codex/issues/12488](https://github.com/openai/codex/issues/12488)
+[^5]: Sub-agent costs are too high and too opaque, Issue #12488. <https://github.com/openai/codex/issues/12488>
 
-[^6]: Claude Code Pricing 2026: Free Credits, API Costs & Max Plan. [https://www.nxcode.io/resources/news/claude-code-pricing-2026-free-api-costs-max-plan](https://www.nxcode.io/resources/news/claude-code-pricing-2026-free-api-costs-max-plan)
+[^6]: Claude Code Pricing 2026: Free Credits, API Costs & Max Plan. <https://www.nxcode.io/resources/news/claude-code-pricing-2026-free-api-costs-max-plan>
 
-[^7]: OpenAI Codex Pricing: API Cost, Credits & Usage Limits. [https://uibakery.io/blog/openai-codex-pricing](https://uibakery.io/blog/openai-codex-pricing)
+[^7]: OpenAI Codex Pricing: API Cost, Credits & Usage Limits. <https://uibakery.io/blog/openai-codex-pricing>
 
-[^8]: Orchestrate teams of Claude Code sessions — Claude Code Docs. [https://code.claude.com/docs/en/agent-teams](https://code.claude.com/docs/en/agent-teams)
+[^8]: Orchestrate teams of Claude Code sessions — Claude Code Docs. <https://code.claude.com/docs/en/agent-teams>
 
-[^9]: Codex Release Notes — April 2026 Latest Updates. [https://releasebot.io/updates/openai/codex](https://releasebot.io/updates/openai/codex)
+[^9]: Codex Release Notes — April 2026 Latest Updates. <https://releasebot.io/updates/openai/codex>
 
-[^10]: Codex vs Claude Code: Which CLI Agent Wins for Your Workflow in 2026. [https://particula.tech/blog/codex-vs-claude-code-cli-agent-comparison](https://particula.tech/blog/codex-vs-claude-code-cli-agent-comparison)
+[^10]: Codex vs Claude Code: Which CLI Agent Wins for Your Workflow in 2026. <https://particula.tech/blog/codex-vs-claude-code-cli-agent-comparison>
 
-[^11]: MCP Roadmap — Model Context Protocol. [https://modelcontextprotocol.io/development/roadmap](https://modelcontextprotocol.io/development/roadmap)
+[^11]: MCP Roadmap — Model Context Protocol. <https://modelcontextprotocol.io/development/roadmap>
 
-[^12]: Everything your team needs to know about MCP in 2026. [https://workos.com/blog/everything-your-team-needs-to-know-about-mcp-in-2026](https://workos.com/blog/everything-your-team-needs-to-know-about-mcp-in-2026)
+[^12]: Everything your team needs to know about MCP in 2026. <https://workos.com/blog/everything-your-team-needs-to-know-about-mcp-in-2026>
 
-[^13]: 5 Best AI Coding Agent Desktop Apps Compared for 2026. [https://www.augmentcode.com/tools/best-ai-coding-agent-desktop-apps](https://www.augmentcode.com/tools/best-ai-coding-agent-desktop-apps)
+[^13]: 5 Best AI Coding Agent Desktop Apps Compared for 2026. <https://www.augmentcode.com/tools/best-ai-coding-agent-desktop-apps>

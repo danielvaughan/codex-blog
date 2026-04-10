@@ -202,14 +202,25 @@ The Figma MCP integration with Codex is the most substantial design-to-code brid
 ## Citations
 
 [^1]: OpenAI. "OpenAI Codex and Figma launch seamless code-to-design experience." March 2026. <https://openai.com/index/figma-partnership/>
+
 [^2]: OpenAI Developer Blog. "Building Frontend UIs with Codex and Figma." 2026. <https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma>
+
 [^3]: Dataconomy. "Figma Integrates OpenAI Codex For Design-to-code Workflow." 26 February 2026. <https://dataconomy.com/2026/02/26/figma-integrates-openai-codex-for-design-to-code-workflow/>
+
 [^4]: Figma Help Center. "Guide to the Figma MCP server." 2026. <https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server>
+
 [^5]: Figma mcp-server-guide. "Figma MCP Server Guide." GitHub. <https://github.com/figma/mcp-server-guide>
+
 [^6]: Figma Developer Docs. "Figma MCP Server — Introduction." 2026. <https://developers.figma.com/docs/figma-mcp-server/>
+
 [^7]: vladimirsiedykh.com. "Codex MCP config: shared TOML setup for CLI and VSCode." 2025. <https://vladimirsiedykh.com/blog/codex-mcp-config-toml-shared-configuration-cli-vscode-setup-2025>
+
 [^8]: OpenAI Developer Docs. "Model Context Protocol — Codex." 2026. <https://developers.openai.com/codex/mcp>
+
 [^9]: betelgeuse.work. "Free Figma MCP Setup Guide — Generate Code with Personal Access Token." 2026. <https://betelgeuse.work/figma-mcp/>
+
 [^10]: GitHub Issues. "Figma MCP server error · Issue #4526 · openai/codex." <https://github.com/openai/codex/issues/4526>
+
 [^11]: DeepWiki. "Figma MCP Server — openai/skills." 2026. <https://deepwiki.com/openai/skills/5.2.1-figma-mcp-server>
+
 [^12]: GitHub Changelog. "Figma MCP server can now generate design layers from VS Code." 6 March 2026. <https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/>

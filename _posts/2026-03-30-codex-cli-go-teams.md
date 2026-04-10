@@ -321,11 +321,18 @@ The combination of a well-structured `AGENTS.md`, the `cc-skills-golang` skill l
 
 ## Citations
 
-[^1]: Go 1.26 Release Notes — [https://go.dev/doc/go1.26](https://go.dev/doc/go1.26)
-[^2]: cc-skills-golang repository — [https://github.com/samber/cc-skills-golang](https://github.com/samber/cc-skills-golang)
-[^3]: Codex CLI Skills Documentation — [https://developers.openai.com/codex/skills](https://developers.openai.com/codex/skills)
-[^4]: AGENTS.md Open Standard (Agentic AI Foundation / Linux Foundation) — [https://agents.md/](https://agents.md/)
-[^5]: Go 1.26 Release Blog — [https://go.dev/blog/go1.26](https://go.dev/blog/go1.26)
-[^6]: golangci-lint v2.11.4 Release — [https://github.com/golangci/golangci-lint/releases](https://github.com/golangci/golangci-lint/releases)
-[^7]: Codex CLI Non-Interactive Mode Reference — [https://developers.openai.com/codex/noninteractive](https://developers.openai.com/codex/noninteractive)
-[^8]: Codex CLI Features Reference — [https://developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
+[^1]: Go 1.26 Release Notes — <https://go.dev/doc/go1.26>
+
+[^2]: cc-skills-golang repository — <https://github.com/samber/cc-skills-golang>
+
+[^3]: Codex CLI Skills Documentation — <https://developers.openai.com/codex/skills>
+
+[^4]: AGENTS.md Open Standard (Agentic AI Foundation / Linux Foundation) — <https://agents.md/>
+
+[^5]: Go 1.26 Release Blog — <https://go.dev/blog/go1.26>
+
+[^6]: golangci-lint v2.11.4 Release — <https://github.com/golangci/golangci-lint/releases>
+
+[^7]: Codex CLI Non-Interactive Mode Reference — <https://developers.openai.com/codex/noninteractive>
+
+[^8]: Codex CLI Features Reference — <https://developers.openai.com/codex/cli/features>

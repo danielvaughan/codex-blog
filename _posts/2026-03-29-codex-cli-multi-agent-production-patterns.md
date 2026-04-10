@@ -297,8 +297,13 @@ At roughly $0.72 per incident (log retrieval ~$0.04, analysis ~$0.30, patching ~
 ## Citations
 
 [^1]: [Sub-agents reach GA in Codex CLI v0.115.0 — OpenAI Developers changelog, March 2026](https://developers.openai.com/codex/changelog)
+
 [^2]: [Path-based addressing in v0.117.0 — GitHub openai/codex Releases, March 26 2026](https://github.com/openai/codex/releases)
+
 [^3]: [Subagents documentation — OpenAI Developers](https://developers.openai.com/codex/subagents)
+
 [^4]: [Codex CLI Multi-Agent Capabilities — FlowDevs, 2026](https://www.flowdevs.io/blog/post/boost-your-workflow-with-codex-cli-multi-agent-capabilities)
+
 [^5]: [PR #10935 — spawn_agents_on_csv — openai/codex, February 24 2026](https://github.com/openai/codex/pull/10935)
+
 [^6]: [OpenTelemetry support in Codex CLI — OpenAI Developers changelog](https://developers.openai.com/codex/changelog)

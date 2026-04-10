@@ -194,22 +194,41 @@ The real winner is the developer who understands both tools well enough to choos
 ## Citations
 
 [^1]: [OpenCode Documentation — Introduction](https://opencode.ai/docs/)
+
 [^2]: [OpenCode GitHub Repository](https://github.com/opencode-ai/opencode)
+
 [^3]: [DeepWiki — sst/opencode Architecture](https://deepwiki.com/sst/opencode)
+
 [^4]: [OpenCode Agents Documentation](https://opencode.ai/docs/agents/)
+
 [^5]: [OpenCode vs Codex CLI Comparison — MorphLLM](https://www.morphllm.com/comparisons/opencode-vs-codex)
+
 [^6]: [Codex CLI Changelog — OpenAI Developers](https://developers.openai.com/codex/changelog)
+
 [^7]: [OpenCode Review — OpenAI Tools Hub](https://www.openaitoolshub.org/en/blog/opencode-review-terminal-ai-coding)
+
 [^8]: [Codex CLI Model Availability Update, April 7 2026](https://developers.openai.com/codex/changelog)
+
 [^9]: [Codex CLI 0.118.0 Release Notes](https://developers.openai.com/codex/changelog)
+
 [^10]: [Introducing GPT-5.3-Codex-Spark — OpenAI](https://openai.com/index/introducing-gpt-5-3-codex-spark/)
+
 [^11]: [OpenCode vs Codex CLI Benchmarks — SigmaBench](https://sigmabench.com/blog/opencode-vs-codex-cli-on-gpt-5-1-codex-mini-and-5-2-codex/)
+
 [^12]: [OpenCode vs Claude Code Comparison — MorphLLM](https://www.morphllm.com/comparisons/opencode-vs-claude-code)
+
 [^13]: [Anthropic Cracks Down on Unauthorized Claude Usage — VentureBeat](https://venturebeat.com/technology/anthropic-cracks-down-on-unauthorized-claude-usage-by-third-party-harnesses)
+
 [^14]: [OpenCode Blocked by Anthropic — NxCode](https://www.nxcode.io/resources/news/opencode-blocked-anthropic-2026)
+
 [^15]: [Anthropic's Walled Garden: The Claude Code Crackdown — Paddo.dev](https://paddo.dev/blog/anthropic-walled-garden-crackdown/)
+
 [^16]: [OpenCode's January Surge — Medium](https://medium.com/@milesk_33/opencodes-january-surge-what-sparked-18-000-new-github-stars-in-two-weeks-7d904cd26844)
+
 [^17]: [OpenCode Black Pricing](https://opencode.ai/black)
+
 [^18]: [DeepWiki — OpenCode Desktop Application](https://deepwiki.com/sst/opencode/6.7-desktop-application)
+
 [^19]: [OpenCode ACP Documentation](https://opencode.ai/docs/acp/)
+
 [^20]: [OpenCode ACP Agent — Zed](https://zed.dev/acp/agent/opencode)

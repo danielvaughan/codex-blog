@@ -331,6 +331,9 @@ dotnet skills recommend
 ## Citations
 
 [^1]: [dotnet/skills — GitHub](https://github.com/dotnet/skills) — Official .NET agent skills catalogue by the .NET platform team (March 2026)
+
 [^2]: [managedcode/dotnet-skills — GitHub](https://github.com/managedcode/dotnet-skills) — Community .NET skill catalog and CLI (83+ skills)
+
 [^3]: [Codex with Azure OpenAI in Microsoft Foundry Models — Microsoft Learn](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/codex) — Official Azure AI Foundry guide for Codex CLI (updated 2026-03-20)
+
 [^4]: [Windows Codex sandbox: dotnet solution build fails unless NUGET_PACKAGES is overridden and -m:1 is used — GitHub Issue #13183](https://github.com/openai/codex/issues/13183) — Root cause and workaround for NuGet sandbox permission failures

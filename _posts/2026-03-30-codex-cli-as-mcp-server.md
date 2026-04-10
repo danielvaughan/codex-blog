@@ -184,10 +184,17 @@ Codex MCP server mode does not relax any sandbox policies. The `sandbox` paramet
 ## Citations
 
 [^1]: [Codex CLI Changelog — v0.117.0, March 26 2026](https://developers.openai.com/codex/changelog)
+
 [^2]: [Model Context Protocol Specification](https://modelcontextprotocol.io/specification)
+
 [^3]: [Codex CLI Command Line Reference — `codex mcp-server`](https://developers.openai.com/codex/cli/reference)
+
 [^4]: [Codex MCP Server — Tools Reference](https://developers.openai.com/codex/mcp)
+
 [^5]: [Use Codex with the OpenAI Agents SDK](https://developers.openai.com/codex/guides/agents-sdk)
+
 [^6]: [DeepWiki — MCP Server Implementation (codex-mcp-server)](https://deepwiki.com/openai/codex/6.4-mcp-server-implementation-(codex-mcp-server))
+
 [^7]: [Codex Configuration Reference — `mcp_servers` section](https://developers.openai.com/codex/config-reference)
+
 [^8]: [MCP Elicitation Protocol](https://modelcontextprotocol.io/specification/elicitation)

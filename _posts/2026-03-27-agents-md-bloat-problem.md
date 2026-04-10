@@ -232,13 +232,23 @@ flowchart TD
 ## Citations
 
 [^1]: [AGENTS.md — the open format for coding agent instructions](https://agents.md/) — Agentic AI Foundation / Linux Foundation
+
 [^2]: [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.11988) — Gloaguen et al., ETH Zurich SRI Lab, arXiv:2602.11988, 2026
+
 [^3]: [ETH Zurich Study Proves Your AI Coding Agents are Failing Because Your AGENTS.md Files are too Detailed](https://www.marktechpost.com/2026/02/25/new-eth-zurich-study-proves-your-ai-coding-agents-are-failing-because-your-agents-md-files-are-too-detailed/) — MarkTechPost
+
 [^4]: [AGENTS.md is silently truncated without any warning within the TUI · Issue #7138 · openai/codex](https://github.com/openai/codex/issues/7138) — GitHub
+
 [^5]: [AGENTS.md is silently truncated and instructions near the end ignored · Issue #13386 · openai/codex](https://github.com/openai/codex/issues/13386) — GitHub
+
 [^6]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference) — OpenAI
+
 [^7]: [Advanced Configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/config-advanced) — OpenAI
+
 [^8]: [Your agent's context is a junk drawer](https://www.augmentcode.com/blog/your-agents-context-is-a-junk-drawer) — Augment Code blog
+
 [^9]: [Custom instructions with AGENTS.md – Codex | OpenAI Developers](https://developers.openai.com/codex/guides/agents-md) — OpenAI
+
 [^10]: [Best practices – Codex | OpenAI Developers](https://developers.openai.com/codex/learn/best-practices) — OpenAI
+
 [^11]: [CLAUDE.md, AGENTS.md, and Every AI Config File Explained](https://www.deployhq.com/blog/ai-coding-config-files-guide) — DeployHQ

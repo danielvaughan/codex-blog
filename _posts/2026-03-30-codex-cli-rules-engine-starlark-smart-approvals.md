@@ -272,9 +272,15 @@ graph TD
 ## Citations
 
 [^1]: OpenAI Codex Rules documentation — [developers.openai.com/codex/rules](https://developers.openai.com/codex/rules)
+
 [^2]: OpenAI Codex Changelog v0.117.0 (26 March 2026) — [developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
+
 [^3]: Starlark language specification — [github.com/bazelbuild/starlark/blob/master/spec.md](https://github.com/bazelbuild/starlark/blob/master/spec.md)
+
 [^4]: Execution Policy and Approvals — Codex docs — [zread.ai/openai/codex/14-execution-policy-and-approvals](https://zread.ai/openai/codex/14-execution-policy-and-approvals)
+
 [^5]: Community example `~/.codex/rules/default.rules` (Starlark, read-only ops) — [gist.github.com/vertti/ce82aa9e2fe8679b82746294f61a4875](https://gist.github.com/vertti/ce82aa9e2fe8679b82746294f61a4875)
+
 [^6]: GitHub PR #13860 — Add Smart Approvals guardian review across core, app-server, and TUI (merged March 13, 2026) — [github.com/openai/codex/pull/13860](https://github.com/openai/codex/pull/13860)
+
 [^7]: OpenAI Codex Managed Configuration docs — [developers.openai.com/codex/enterprise/managed-configuration](https://developers.openai.com/codex/enterprise/managed-configuration)

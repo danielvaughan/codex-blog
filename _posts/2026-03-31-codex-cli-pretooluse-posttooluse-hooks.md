@@ -287,5 +287,7 @@ For intensive checks (full test suite, lint across many files), use PostToolUse 
 ---
 
 [^1]: Codex CLI v0.117.0 changelog, March 2026. "Non-streaming (non-stdin style) shell-only PostToolUse support" added. PreToolUse available from v0.114.0. [developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
+
 [^2]: Official Codex hooks documentation. [developers.openai.com/codex/hooks](https://developers.openai.com/codex/hooks). Retrieved 2026-03-31.
+
 [^3]: Codex CLI GitHub issue #14754: "Add PreToolUse and PostToolUse hook events for code quality enforcement". [github.com/openai/codex/issues/14754](https://github.com/openai/codex/issues/14754)

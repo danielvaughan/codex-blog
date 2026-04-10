@@ -257,16 +257,16 @@ The plugin discovery model in v0.117.0 is built around three layers: the curated
 
 ## Citations
 
-[^1]: OpenAI, "Codex Changelog — v0.117.0 (2026-03-26)," *OpenAI Developers*, [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
+[^1]: OpenAI, "Codex Changelog — v0.117.0 (2026-03-26)," *OpenAI Developers*, <https://developers.openai.com/codex/changelog>
 
-[^2]: WinBuzzer, "OpenAI Launches Plugin Marketplace for Codex with Enterprise Controls," 31 March 2026, [https://winbuzzer.com/2026/03/31/openai-launches-plugin-marketplace-codex-enterprise-controls-xcxwbn/](https://winbuzzer.com/2026/03/31/openai-launches-plugin-marketplace-codex-enterprise-controls-xcxwbn/)
+[^2]: WinBuzzer, "OpenAI Launches Plugin Marketplace for Codex with Enterprise Controls," 31 March 2026, <https://winbuzzer.com/2026/03/31/openai-launches-plugin-marketplace-codex-enterprise-controls-xcxwbn/>
 
-[^3]: OpenAI, "Build plugins – Codex," *OpenAI Developers*, [https://developers.openai.com/codex/plugins/build](https://developers.openai.com/codex/plugins/build)
+[^3]: OpenAI, "Build plugins – Codex," *OpenAI Developers*, <https://developers.openai.com/codex/plugins/build>
 
-[^4]: OpenAI, "Plugins – Codex," *OpenAI Developers*, [https://developers.openai.com/codex/plugins](https://developers.openai.com/codex/plugins)
+[^4]: OpenAI, "Plugins – Codex," *OpenAI Developers*, <https://developers.openai.com/codex/plugins>
 
-[^5]: DeepWiki, "Plugins System | openai/codex," [https://deepwiki.com/openai/codex/5.11-plugins-system](https://deepwiki.com/openai/codex/5.11-plugins-system)
+[^5]: DeepWiki, "Plugins System | openai/codex," <https://deepwiki.com/openai/codex/5.11-plugins-system>
 
-[^6]: BSWEN, "What Are OpenAI Codex Plugins and How Do They Work?," 27 March 2026, [https://docs.bswen.com/blog/2026-03-27-what-are-openai-codex-plugins/](https://docs.bswen.com/blog/2026-03-27-what-are-openai-codex-plugins/)
+[^6]: BSWEN, "What Are OpenAI Codex Plugins and How Do They Work?," 27 March 2026, <https://docs.bswen.com/blog/2026-03-27-what-are-openai-codex-plugins/>
 
-[^7]: GitHub, "Codex desktop plugin marketplace unreachable — Cloudflare challenge blocks plugins/featured API, preventing new plugin installs · Issue #16808," [https://github.com/openai/codex/issues/16808](https://github.com/openai/codex/issues/16808)
+[^7]: GitHub, "Codex desktop plugin marketplace unreachable — Cloudflare challenge blocks plugins/featured API, preventing new plugin installs · Issue #16808," <https://github.com/openai/codex/issues/16808>

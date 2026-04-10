@@ -306,7 +306,11 @@ If commands that should be blocked succeed, investigate your sandbox configurati
 ## Citations
 
 [^1]: [Agent approvals & security – Codex | OpenAI Developers](https://developers.openai.com/codex/agent-approvals-security)
+
 [^2]: [Command line options – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/reference)
+
 [^3]: [Codex CLI: The Definitive Technical Reference - Blake Crosley](https://blakecrosley.com/guides/codex)
+
 [^4]: [Advanced Configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/config-advanced)
+
 [^5]: [Add Smart Approvals guardian review – GitHub PR #13860](https://github.com/openai/codex/pull/13860)

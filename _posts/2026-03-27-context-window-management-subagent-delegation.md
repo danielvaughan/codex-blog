@@ -259,36 +259,36 @@ Context rot is real and it degrades agent reliability over long sessions. Compac
 
 ## Citations
 
-[^1]: OpenAI Codex Subagents documentation — context pollution and context rot: [https://developers.openai.com/codex/concepts/subagents](https://developers.openai.com/codex/concepts/subagents)
+[^1]: OpenAI Codex Subagents documentation — context pollution and context rot: <https://developers.openai.com/codex/concepts/subagents>
 
-[^2]: Context compaction `encrypted_content` item: [https://developers.openai.com/api/docs/guides/compaction](https://developers.openai.com/api/docs/guides/compaction)
+[^2]: Context compaction `encrypted_content` item: <https://developers.openai.com/api/docs/guides/compaction>
 
-[^3]: OpenAI warning on long conversations and compaction accuracy: [https://community.openai.com/t/automatically-compacting-context/1376290](https://community.openai.com/t/automatically-compacting-context/1376290)
+[^3]: OpenAI warning on long conversations and compaction accuracy: <https://community.openai.com/t/automatically-compacting-context/1376290>
 
-[^4]: Practitioner assessment of context window coordination as a bottleneck (Feb 2026): [https://calv.info/agents-feb-2026](https://calv.info/agents-feb-2026)
+[^4]: Practitioner assessment of context window coordination as a bottleneck (Feb 2026): <https://calv.info/agents-feb-2026>
 
-[^5]: Subagent delegation — keeping the main thread clean: [https://pas7.com.ua/blog/en/codex-subagents-explained-2026](https://pas7.com.ua/blog/en/codex-subagents-explained-2026)
+[^5]: Subagent delegation — keeping the main thread clean: <https://pas7.com.ua/blog/en/codex-subagents-explained-2026>
 
-[^6]: Built-in agent roles (default, worker, explorer): [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^6]: Built-in agent roles (default, worker, explorer): <https://developers.openai.com/codex/subagents>
 
-[^7]: Codex explicit delegation requirement: [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^7]: Codex explicit delegation requirement: <https://developers.openai.com/codex/subagents>
 
-[^8]: `agents.max_depth` and `agents.max_threads` configuration reference: [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
+[^8]: `agents.max_depth` and `agents.max_threads` configuration reference: <https://developers.openai.com/codex/config-reference>
 
-[^9]: `model_auto_compact_token_limit` configuration key: [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
+[^9]: `model_auto_compact_token_limit` configuration key: <https://developers.openai.com/codex/config-reference>
 
-[^10]: `encrypted_content` and compaction mechanics: [https://tonylee.im/en/blog/codex-compaction-encrypted-summary-session-handover](https://tonylee.im/en/blog/codex-compaction-encrypted-summary-session-handover)
+[^10]: `encrypted_content` and compaction mechanics: <https://tonylee.im/en/blog/codex-compaction-encrypted-summary-session-handover>
 
-[^11]: Silent clamping of `model_auto_compact_token_limit` since v0.100.0: [https://github.com/openai/codex/issues/11805](https://github.com/openai/codex/issues/11805)
+[^11]: Silent clamping of `model_auto_compact_token_limit` since v0.100.0: <https://github.com/openai/codex/issues/11805>
 
-[^12]: v0.117.0 manual compaction improvements: [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
+[^12]: v0.117.0 manual compaction improvements: <https://developers.openai.com/codex/changelog>
 
-[^13]: Codex vs Claude Code compaction transparency comparison: [https://gist.github.com/badlogic/cd2ef65b0697c4dbe2d13fbecb0a0a5f](https://gist.github.com/badlogic/cd2ef65b0697c4dbe2d13fbecb0a0a5f)
+[^13]: Codex vs Claude Code compaction transparency comparison: <https://gist.github.com/badlogic/cd2ef65b0697c4dbe2d13fbecb0a0a5f>
 
-[^14]: Model selection for subagent roles — Codex documentation: [https://developers.openai.com/codex/concepts/subagents](https://developers.openai.com/codex/concepts/subagents)
+[^14]: Model selection for subagent roles — Codex documentation: <https://developers.openai.com/codex/concepts/subagents>
 
-[^15]: `gpt-5.4-mini` for exploration and read-heavy subagent tasks: [https://developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
+[^15]: `gpt-5.4-mini` for exploration and read-heavy subagent tasks: <https://developers.openai.com/codex/cli/features>
 
-[^16]: Approval overlay and `/agent` thread navigation: [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^16]: Approval overlay and `/agent` thread navigation: <https://developers.openai.com/codex/subagents>
 
-[^17]: `max_depth` default and recursive fan-out risk: [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
+[^17]: `max_depth` default and recursive fan-out risk: <https://developers.openai.com/codex/config-reference>

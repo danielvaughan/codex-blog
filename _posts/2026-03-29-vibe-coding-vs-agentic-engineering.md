@@ -241,30 +241,30 @@ For senior developers, the transition to agentic engineering is largely a refram
 
 ## Citations
 
-[^1]: Andrej Karpathy, "Vibe coding" tweet, 2 February 2025. [https://x.com/karpathy/status/1886192184808149317](https://x.com/karpathy/status/1886192184808149317)
+[^1]: Andrej Karpathy, "Vibe coding" tweet, 2 February 2025. <https://x.com/karpathy/status/1886192184808149317>
 
-[^2]: Andrej Karpathy, one-year anniversary thread, 4 February 2026. [https://x.com/karpathy/status/2019137879310836075](https://x.com/karpathy/status/2019137879310836075)
+[^2]: Andrej Karpathy, one-year anniversary thread, 4 February 2026. <https://x.com/karpathy/status/2019137879310836075>
 
-[^3]: Karpathy's definition of agentic engineering, quoted in "Karpathy Says 'Vibe Coding' Is Fading as 'Agentic Engineering' Becomes the New AI Coding Era", The Hans India, February 2026. [https://www.thehansindia.com/technology/tech-news/karpathy-says-vibe-coding-is-fading-as-agentic-engineering-becomes-the-new-ai-coding-era-1045758](https://www.thehansindia.com/technology/tech-news/karpathy-says-vibe-coding-is-fading-as-agentic-engineering-becomes-the-new-ai-coding-era-1045758)
+[^3]: Karpathy's definition of agentic engineering, quoted in "Karpathy Says 'Vibe Coding' Is Fading as 'Agentic Engineering' Becomes the New AI Coding Era", The Hans India, February 2026. <https://www.thehansindia.com/technology/tech-news/karpathy-says-vibe-coding-is-fading-as-agentic-engineering-becomes-the-new-ai-coding-era-1045758>
 
-[^4]: "Agentic Engineering vs. Vibe Coding", Turing College Blog, 2026. [https://www.turingcollege.com/blog/agentic-engineering-vs-vibe-coding](https://www.turingcollege.com/blog/agentic-engineering-vs-vibe-coding)
+[^4]: "Agentic Engineering vs. Vibe Coding", Turing College Blog, 2026. <https://www.turingcollege.com/blog/agentic-engineering-vs-vibe-coding>
 
-[^5]: Addy Osmani's formulation quoted in "It's Not Vibe Coding: Agentic Engineering", Michael Kennedy's blog. [https://mkennedy.codes/posts/its-not-vibe-coding-agentic-engineering/](https://mkennedy.codes/posts/its-not-vibe-coding-agentic-engineering/)
+[^5]: Addy Osmani's formulation quoted in "It's Not Vibe Coding: Agentic Engineering", Michael Kennedy's blog. <https://mkennedy.codes/posts/its-not-vibe-coding-agentic-engineering/>
 
-[^6]: "Compound Engineering: How Every Codes With Agents", every.to. [https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents](https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents)
+[^6]: "Compound Engineering: How Every Codes With Agents", every.to. <https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents>
 
-[^7]: "Introduction — Compound Engineering Plugin", Mintlify/EveryInc. [https://www.mintlify.com/EveryInc/compound-engineering-plugin/introduction](https://www.mintlify.com/EveryInc/compound-engineering-plugin/introduction)
+[^7]: "Introduction — Compound Engineering Plugin", Mintlify/EveryInc. <https://www.mintlify.com/EveryInc/compound-engineering-plugin/introduction>
 
-[^8]: Every, Inc. internal results cited in the compound-engineering-plugin README, GitHub. [https://github.com/EveryInc/compound-engineering-plugin/blob/main/README.md](https://github.com/EveryInc/compound-engineering-plugin/blob/main/README.md)
+[^8]: Every, Inc. internal results cited in the compound-engineering-plugin README, GitHub. <https://github.com/EveryInc/compound-engineering-plugin/blob/main/README.md>
 
 [^9]: Codex CLI AGENTS.md patterns for production teams — see also "AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks" in this knowledge base.
 
 [^10]: "Test-First Development with Codex: Using TDD as the Agent Feedback Loop", this knowledge base, 2026-03-28.
 
-[^11]: "Compound Engineering Plugin", EveryInc GitHub, 2026. [https://github.com/EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)
+[^11]: "Compound Engineering Plugin", EveryInc GitHub, 2026. <https://github.com/EveryInc/compound-engineering-plugin>
 
-[^12]: "Vibe Coding, Agentic IDEs, and Why Senior Engineers Are at a Career Inflection Point", Manoj Ramakrishnan, Medium, February 2026. [https://medium.com/@formanojr/vibe-coding-agentic-ides-and-why-senior-engineers-are-at-a-career-inflection-point-9f8dceb10d47](https://medium.com/@formanojr/vibe-coding-agentic-ides-and-why-senior-engineers-are-at-a-career-inflection-point-9f8dceb10d47)
+[^12]: "Vibe Coding, Agentic IDEs, and Why Senior Engineers Are at a Career Inflection Point", Manoj Ramakrishnan, Medium, February 2026. <https://medium.com/@formanojr/vibe-coding-agentic-ides-and-why-senior-engineers-are-at-a-career-inflection-point-9f8dceb10d47>
 
-[^13]: Karpathy noting his manual coding skills atrophying in the February 2026 thread, cited in "OpenAI Cofounder Andrej Karpathy Signals the Shift from Vibe Coding to Agentic Engineering", Yi Zhou, Medium. [https://medium.com/generative-ai-revolution-ai-native-transformation/openai-cofounder-andrej-karpathy-signals-the-shift-from-vibe-coding-to-agentic-engineering-ea4bc364c4a1](https://medium.com/generative-ai-revolution-ai-native-transformation/openai-cofounder-andrej-karpathy-signals-the-shift-from-vibe-coding-to-agentic-engineering-ea4bc364c4a1)
+[^13]: Karpathy noting his manual coding skills atrophying in the February 2026 thread, cited in "OpenAI Cofounder Andrej Karpathy Signals the Shift from Vibe Coding to Agentic Engineering", Yi Zhou, Medium. <https://medium.com/generative-ai-revolution-ai-native-transformation/openai-cofounder-andrej-karpathy-signals-the-shift-from-vibe-coding-to-agentic-engineering-ea4bc364c4a1>
 
-[^14]: "From vibe coding to agentic engineering", Sau Sheong, Medium, February 2026. [https://sausheong.com/from-vibe-coding-to-agentic-engineering-1ca3ca72b5ac](https://sausheong.com/from-vibe-coding-to-agentic-engineering-1ca3ca72b5ac)
+[^14]: "From vibe coding to agentic engineering", Sau Sheong, Medium, February 2026. <https://sausheong.com/from-vibe-coding-to-agentic-engineering-1ca3ca72b5ac>

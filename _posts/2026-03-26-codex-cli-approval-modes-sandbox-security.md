@@ -264,9 +264,15 @@ For local development, `--full-auto` is the pragmatic default. For CI, a hardene
 ## Citations
 
 [^1]: Codex CLI Changelog — v0.115.0 and v0.116.0 release notes, March 2026. <https://developers.openai.com/codex/changelog>
+
 [^2]: Codex CLI Features Overview — approval modes and sandbox controls. <https://developers.openai.com/codex/cli/features>
+
 [^3]: Codex CLI Command-Line Reference — `--ask-for-approval`, `--sandbox`, `--full-auto`, `--add-dir` flags. <https://developers.openai.com/codex/cli/reference>
+
 [^4]: Codex CLI Sandboxing Concepts — platform implementations (macOS, Linux, Windows). <https://developers.openai.com/codex/concepts/sandboxing>; DeepWiki sandboxing implementation analysis. <https://deepwiki.com/openai/codex/5.6-sandboxing-implementation>
+
 [^5]: Windows Sandbox Guide — elevated vs unelevated modes, audit_everyone_writable. <https://developers.openai.com/codex/windows>; GitHub Discussion #6065. <https://github.com/openai/codex/discussions/6065>
+
 [^6]: Codex CLI Configuration Reference — approval_policy, sandbox_workspace_write, permissions, requirements.toml, web_search. <https://developers.openai.com/codex/config-reference>; Advanced Configuration. <https://developers.openai.com/codex/config-advanced>
+
 [^7]: Mid-session approval mode switching — GitHub Issue #392. <https://github.com/openai/codex/issues/392>

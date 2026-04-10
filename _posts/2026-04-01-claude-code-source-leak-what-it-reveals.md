@@ -125,7 +125,11 @@ The KAIROS discovery is particularly noteworthy — it validates the "persistent
 ## Citations
 
 [^1]: Chaofan Shou, security researcher, discovered the sourcemap exposure on March 31, 2026
+
 [^2]: [DEV Community analysis](https://dev.to/kolkov/we-reverse-engineered-12-versions-of-claude-code-then-it-leaked-its-own-source-code-pij) — "We Reverse-Engineered 12 Versions of Claude Code"
+
 [^3]: [Axios](https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai) — "Anthropic leaked its own Claude source code"
+
 [^4]: [CNBC](https://www.cnbc.com/2026/03/31/anthropic-leak-claude-code-internal-source.html) — Claude Code run-rate revenue >$2.5B as of February 2026
+
 [^5]: [Fortune](https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/) — "Second major security breach"

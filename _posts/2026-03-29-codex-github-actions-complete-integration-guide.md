@@ -542,23 +542,43 @@ GitHub's February 2026 technical preview of **intent-driven repository automatio
 ## Citations
 
 [^1]: OpenAI. "GitHub Action – Codex." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^2]: OpenAI. "openai/codex-action." *GitHub*. <https://github.com/openai/codex-action>
+
 [^3]: OpenAI. "GitHub Action – Codex: Security." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^4]: OpenAI. "GitHub Action inputs reference." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^5]: GitHub. "Encrypted secrets." *GitHub Docs*. <https://docs.github.com/en/actions/security-guides/encrypted-secrets>
+
 [^6]: OpenAI. "Sandbox modes." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^7]: OpenAI. "Safety strategy options." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^8]: OpenAI. "drop-sudo behaviour." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^9]: OpenAI. "Use Codex CLI to automatically fix CI failures." *OpenAI Cookbook*. <https://developers.openai.com/cookbook/examples/codex/autofix-github-actions>
+
 [^10]: OpenAI. "Auto-Fix CI Failures Cookbook." *OpenAI Cookbook*. <https://developers.openai.com/cookbook/examples/codex/autofix-github-actions>
+
 [^11]: GitHub. "Using a matrix for your jobs." *GitHub Docs*. <https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/running-variations-of-jobs-in-a-workflow>
+
 [^12]: OpenAI. "codex exec --output-schema." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^13]: OpenAI. "Structured output in Codex." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^14]: OpenAI. "codex-home input." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^15]: OpenAI. "Azure OpenAI integration." *OpenAI Developers*. <https://developers.openai.com/codex/github-action>
+
 [^16]: OpenAI. "Usage dashboard." *OpenAI Platform*. <https://platform.openai.com/usage>
+
 [^17]: OpenAI. "API keys and usage." *OpenAI Platform*. <https://platform.openai.com/api-keys>
+
 [^18]: GitHub. "About required status checks." *GitHub Docs*. <https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches>
+
 [^19]: GitHub. "Automatic token authentication." *GitHub Docs*. <https://docs.github.com/en/actions/security-guides/automatic-token-authentication>
+
 [^20]: OpenAI. "codex exec." *OpenAI Developers*. <https://developers.openai.com/codex>
+
 [^21]: Tech Hub. "GitHub Introduces Agentic Workflows: Integrating AI Agents with GitHub Actions." *tech.hub.ms*, February 2026. <https://tech.hub.ms/2026-02-25-GitHub-Introduces-Agentic-Workflows-Integrating-AI-Agents-with-GitHub-Actions.html>

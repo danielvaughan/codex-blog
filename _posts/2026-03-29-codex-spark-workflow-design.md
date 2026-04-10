@@ -273,8 +273,12 @@ The developers who extract the most value from Spark will be those who invest in
 
 ## Citations
 
-[^1]: OpenAI, "Introducing GPT-5.3-Codex-Spark", February 2026. [https://openai.com/index/introducing-gpt-5-3-codex-spark/](https://openai.com/index/introducing-gpt-5-3-codex-spark/)
-[^2]: ServeTheHome, "OpenAI GPT-5.3-Codex-Spark Now Running at 1K Tokens Per Second on BIG Cerebras Chips", February 2026. [https://www.servethehome.com/openai-gpt-5-3-codex-spark-now-running-at-1k-tokens-per-second-on-big-cerebras-chips/](https://www.servethehome.com/openai-gpt-5-3-codex-spark-now-running-at-1k-tokens-per-second-on-big-cerebras-chips/)
+[^1]: OpenAI, "Introducing GPT-5.3-Codex-Spark", February 2026. <https://openai.com/index/introducing-gpt-5-3-codex-spark/>
+
+[^2]: ServeTheHome, "OpenAI GPT-5.3-Codex-Spark Now Running at 1K Tokens Per Second on BIG Cerebras Chips", February 2026. <https://www.servethehome.com/openai-gpt-5-3-codex-spark-now-running-at-1k-tokens-per-second-on-big-cerebras-chips/>
+
 [^3]: Codex Resources Knowledge Base, "GPT-5.3-Codex-Spark: The Cerebras-Powered Ultra-Fast Coding Model", 2026-03-28. [/codex-resources/articles/2026-03-28-codex-spark-cerebras-ultrafast-model/](/codex-resources/articles/2026-03-28-codex-spark-cerebras-ultrafast-model/)
-[^4]: Cerebras, "How Codex Spark Changes The Way You Code", 2026. [https://www.cerebras.ai/blog/codex-spark-best-practices](https://www.cerebras.ai/blog/codex-spark-best-practices)
-[^5]: OpenAI Developers, "Models – Codex", 2026. [https://developers.openai.com/codex/models](https://developers.openai.com/codex/models)
+
+[^4]: Cerebras, "How Codex Spark Changes The Way You Code", 2026. <https://www.cerebras.ai/blog/codex-spark-best-practices>
+
+[^5]: OpenAI Developers, "Models – Codex", 2026. <https://developers.openai.com/codex/models>

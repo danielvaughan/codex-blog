@@ -213,16 +213,29 @@ The multi-agent landscape is young — both architectures are evolving fast. The
 ## Citations
 
 [^1]: [Subagents – Codex | OpenAI Developers](https://developers.openai.com/codex/subagents)
+
 [^2]: [Claude Code Agent Teams: Setup & Usage Guide 2026](https://claudefa.st/blog/guide/agents/agent-teams)
+
 [^3]: [Use subagents and custom agents in Codex — Simon Willison](https://simonwillison.net/2026/Mar/16/codex-subagents/)
+
 [^4]: [Codex vs Claude Code: The Divergence in Subagent Design Philosophy — SmartScope](https://smartscope.blog/en/blog/codex-vs-claude-code-subagent-architecture-2026/)
+
 [^5]: [From Tasks to Swarms: Agent Teams in Claude Code — alexop.dev](https://alexop.dev/posts/from-tasks-to-swarms-agent-teams-in-claude-code/)
+
 [^6]: [Claude Code Custom Subagents: Complete Guide — Claude Lab](https://claudelab.net/en/articles/claude-code/claude-code-custom-subagents-at-mention-guide)
+
 [^7]: [Codex vs Claude Code: Which CLI Agent Wins for Your Workflow in 2026 — Particula](https://particula.tech/blog/codex-vs-claude-code-cli-agent-comparison)
+
 [^8]: [SWE-Bench Verified Leaderboard March 2026 — Marco Patzelt](https://www.marc0.dev/en/leaderboard)
+
 [^9]: [Best LLM for Coding 2026 — SmartScope](https://smartscope.blog/en/generative-ai/chatgpt/llm-coding-benchmark-comparison-2026/)
+
 [^10]: [Model Context Protocol – Codex | OpenAI Developers](https://developers.openai.com/codex/mcp)
+
 [^11]: [AI Weekly: Claude Code Dominates, MCP Goes Mainstream — DEV Community](https://dev.to/alexmercedcoder/ai-weekly-claude-code-dominates-mcp-goes-mainstream-week-of-march-5-2026-15af)
+
 [^12]: [MCP vs A2A: The Complete Guide to AI Agent Protocols in 2026 — DEV Community](https://dev.to/pockit_tools/mcp-vs-a2a-the-complete-guide-to-ai-agent-protocols-in-2026-30li)
+
 [^13]: [Deploying multi-agent systems using MCP and A2A with Claude on Vertex AI — Anthropic](https://www.anthropic.com/webinars/deploying-multi-agent-systems-using-mcp-and-a2a-with-claude-on-vertex-ai)
+
 [^14]: [A2A-MCP-Server — GitHub](https://github.com/GongRzhe/A2A-MCP-Server)

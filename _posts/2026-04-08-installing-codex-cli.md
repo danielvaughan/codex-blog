@@ -292,14 +292,25 @@ For a full configuration reference, see the [Codex config documentation](https:/
 ## Citations
 
 [^1]: [CLI – Codex | OpenAI Developers](https://developers.openai.com/codex/cli) — Official CLI page noting macOS/Linux support and experimental Windows status with WSL recommendation.
+
 [^2]: [relax node 22 or newer requirement · Issue #164 · openai/codex](https://github.com/openai/codex/issues/164) — GitHub issue confirming Node.js 22+ requirement for npm installation.
+
 [^3]: [Quickstart – Codex | OpenAI Developers](https://developers.openai.com/codex/quickstart) — Official quickstart covering authentication methods and plan eligibility.
+
 [^4]: [@openai/codex – npm](https://www.npmjs.com/package/@openai/codex) — npm package page for the official Codex CLI package.
+
 [^5]: [openai/codex Releases – GitHub](https://github.com/openai/codex/releases) — GitHub releases page showing v0.119.x as the latest release series (April 2026).
+
 [^6]: [openai/codex – GitHub](https://github.com/openai/codex) — Repository README with Homebrew cask and binary download instructions.
+
 [^7]: [Install Codex CLI with WinGet | winstall](https://winstall.app/apps/OpenAI.Codex) — winget package listing for OpenAI Codex CLI.
+
 [^8]: [Quickstart – Codex | OpenAI Developers](https://developers.openai.com/codex/quickstart) — Quickstart guide noting cloud thread limitations with API key auth and Git checkpoint recommendation.
+
 [^9]: [Command line options – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/reference) — CLI reference documenting the `codex completion` subcommand for bash, zsh, fish, powershell, and elvish.
+
 [^10]: [How to generate Codex shell completions – Simplified Guide](https://www.simplified.guide/codex/shell-completions-generate) — Community guide covering zsh compdef troubleshooting.
+
 [^11]: [Codex CLI Sandbox Platform Implementation](https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-sandbox-platform-implementation.html) — Daniel Vaughan's article on Landlock LSM requirements for Linux sandboxing.
+
 [^12]: [Config basics – Codex | OpenAI Developers](https://developers.openai.com/codex/config-basic) — Official configuration documentation covering config.toml locations and keys.

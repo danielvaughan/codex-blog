@@ -229,11 +229,19 @@ Codex CLI excels when the task involves **your codebase**: refactoring, implemen
 ## Citations
 
 [^1]: [Introducing Codex — OpenAI](https://openai.com/index/introducing-codex/) — Codex as an agentic coding tool that executes tasks in repositories
+
 [^2]: [Using Codex with your ChatGPT plan — OpenAI Help Center](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) — ChatGPT and Codex integration, custom instructions scope
+
 [^3]: [Features — Codex CLI — OpenAI Developers](https://developers.openai.com/codex/cli/features) — Sessions, resumption, approval modes, mid-session commands
+
 [^4]: [Command line options — Codex CLI — OpenAI Developers](https://developers.openai.com/codex/cli/reference) — CLI flags, fork command, exec mode, sandbox options
+
 [^5]: [Custom instructions with AGENTS.md — Codex — OpenAI Developers](https://developers.openai.com/codex/guides/agents-md) — AGENTS.md hierarchy, discovery order, override mechanism
+
 [^6]: [Codex vs Claude Code: which is the better AI coding agent? — Builder.io](https://www.builder.io/blog/codex-vs-claude-code) — Cross-tool compatibility of AGENTS.md
+
 [^7]: [Agent approvals & security — Codex — OpenAI Developers](https://developers.openai.com/codex/agent-approvals-security) — Sandbox modes, approval policies, protected paths, platform enforcement
+
 [^8]: [Codex Plan Mode: Stop Code Drift with Plan→Execute — SmartScope](https://smartscope.blog/en/generative-ai/chatgpt/codex-plan-mode-complete-guide/) — Plan mode mechanics, switching modes
+
 [^9]: [OpenAI Codex CLI Memory — Deep Dive — Mervin Praison](https://mer.vin/2025/12/openai-codex-cli-memory-deep-dive/) — Two-phase memory pipeline, consolidation, CWD awareness, secret sanitisation

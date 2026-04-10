@@ -183,12 +183,21 @@ NanoClaw occupies this gap with a deliberately minimal architecture: a single pr
 ## Citations
 
 [^1]: [NanoClaw Official Website](https://nanoclaws.io/) — NanoClaw documentation and architecture overview
+
 [^2]: [Codex CLI Features — OpenAI Developers](https://developers.openai.com/codex/cli/features) — codex exec and subagent documentation
+
 [^3]: [Codex App Automations — OpenAI Developers](https://developers.openai.com/codex/app/automations) — Scheduled automation capabilities
+
 [^4]: [Anthropic Ships Claude Code Channels — VentureBeat](https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels) — Claude Code Channels launch coverage
+
 [^5]: [NanoClaw GitHub Repository](https://github.com/qwibitai/nanoclaw) — Source code, metrics, and technical documentation
+
 [^6]: [NanoClaw Deep Architecture — DeepWiki](https://deepwiki.com/gavrielc/nanoclaw) — Detailed technical architecture analysis
+
 [^7]: [OpenClaw Alternatives Compared — AI Magicx](https://www.aimagicx.com/blog/openclaw-alternatives-comparison-2026) — Security and feature comparison
+
 [^8]: [NanoClaw Agent Swarms — Hacker News](https://news.ycombinator.com/item?id=46941280) — Agent swarm support announcement
+
 [^9]: [Claude Code Architecture Deep Dive](https://claudefa.st/blog/guide/agents/agent-teams) — Claude Code codebase metrics
+
 [^10]: [Claude Code Channels Setup — ShareUHack](https://www.shareuhack.com/en/posts/claude-code-channels-telegram) — Channels capabilities and limitations

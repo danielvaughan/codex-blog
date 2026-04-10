@@ -191,18 +191,18 @@ Research from MIT and Harvard published in February 2026 introduced **Fast KV Co
 
 ## Citations
 
-[^1]: wasnotwas, "How AI Coding Agents Handle a Full Context Window," wasnotwas.com, March 2026. [https://wasnotwas.com/writing/context-compaction/](https://wasnotwas.com/writing/context-compaction/)
+[^1]: wasnotwas, "How AI Coding Agents Handle a Full Context Window," wasnotwas.com, March 2026. <https://wasnotwas.com/writing/context-compaction/>
 
-[^2]: badlogic, "Context Compaction Research: Claude Code, Codex CLI, OpenCode, Amp," GitHub Gist, December 2025. [https://gist.github.com/badlogic/cd2ef65b0697c4dbe2d13fbecb0a0a5f](https://gist.github.com/badlogic/cd2ef65b0697c4dbe2d13fbecb0a0a5f)
+[^2]: badlogic, "Context Compaction Research: Claude Code, Codex CLI, OpenCode, Amp," GitHub Gist, December 2025. <https://gist.github.com/badlogic/cd2ef65b0697c4dbe2d13fbecb0a0a5f>
 
-[^3]: OpenHands, "The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents," arXiv:2511.03690, 2025. [https://arxiv.org/pdf/2511.03690](https://arxiv.org/pdf/2511.03690)
+[^3]: OpenHands, "The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents," arXiv:2511.03690, 2025. <https://arxiv.org/pdf/2511.03690>
 
-[^4]: Tony Lee, "How Codex Solves the Compaction Problem Differently," tonylee.im, 2026. [https://tonylee.im/en/blog/codex-compaction-encrypted-summary-session-handover/](https://tonylee.im/en/blog/codex-compaction-encrypted-summary-session-handover/)
+[^4]: Tony Lee, "How Codex Solves the Compaction Problem Differently," tonylee.im, 2026. <https://tonylee.im/en/blog/codex-compaction-encrypted-summary-session-handover/>
 
-[^5]: Simon Zhou, "Investigating how Codex context compaction works," simzhou.com, 2026. [https://simzhou.com/en/posts/2026/how-codex-compacts-context/](https://simzhou.com/en/posts/2026/how-codex-compacts-context/)
+[^5]: Simon Zhou, "Investigating how Codex context compaction works," simzhou.com, 2026. <https://simzhou.com/en/posts/2026/how-codex-compacts-context/>
 
-[^6]: OpenAI, "Compaction — OpenAI API," developers.openai.com, 2026. [https://developers.openai.com/api/docs/guides/compaction](https://developers.openai.com/api/docs/guides/compaction)
+[^6]: OpenAI, "Compaction — OpenAI API," developers.openai.com, 2026. <https://developers.openai.com/api/docs/guides/compaction>
 
-[^7]: Anthropic, "How Claude Code works," code.claude.com, 2026. [https://code.claude.com/docs/en/how-claude-code-works](https://code.claude.com/docs/en/how-claude-code-works)
+[^7]: Anthropic, "How Claude Code works," code.claude.com, 2026. <https://code.claude.com/docs/en/how-claude-code-works>
 
-[^8]: VentureBeat, "New KV cache compaction technique cuts LLM memory 50x without accuracy loss," venturebeat.com, February 2026. [https://venturebeat.com/orchestration/new-kv-cache-compaction-technique-cuts-llm-memory-50x-without-accuracy-loss](https://venturebeat.com/orchestration/new-kv-cache-compaction-technique-cuts-llm-memory-50x-without-accuracy-loss)
+[^8]: VentureBeat, "New KV cache compaction technique cuts LLM memory 50x without accuracy loss," venturebeat.com, February 2026. <https://venturebeat.com/orchestration/new-kv-cache-compaction-technique-cuts-llm-memory-50x-without-accuracy-loss>

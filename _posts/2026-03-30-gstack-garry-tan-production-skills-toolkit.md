@@ -285,13 +285,22 @@ The 56k+ GitHub stars (as of March 2026) suggest broad community validation beyo
 
 ## Citations
 
-[^1]: gstack README — 31 skills, MIT license: https://github.com/garrytan/gstack
-[^2]: gstack README — 600,000+ lines in 60 days, 10,000–20,000 lines/day: https://github.com/garrytan/gstack
-[^3]: gstack README — virtual engineering team description: https://github.com/garrytan/gstack
-[^4]: gstack ARCHITECTURE.md — persistent browser daemon design: https://raw.githubusercontent.com/garrytan/gstack/main/ARCHITECTURE.md
-[^5]: gstack ARCHITECTURE.md — Bun technology choice rationale: https://raw.githubusercontent.com/garrytan/gstack/main/ARCHITECTURE.md
-[^6]: gstack ETHOS.md — Boil the Lake and four core principles: https://raw.githubusercontent.com/garrytan/gstack/main/ETHOS.md
-[^7]: gstack README — "Who this is for" section: https://github.com/garrytan/gstack
-[^8]: gstack README — smart review routing and Review Readiness Dashboard: https://github.com/garrytan/gstack
-[^9]: gstack README — 10–15 parallel sprints with Conductor: https://github.com/garrytan/gstack
-[^10]: gstack README — /qa as unlock for 6→12 parallel workers: https://github.com/garrytan/gstack
+[^1]: gstack README — 31 skills, MIT license: <https://github.com/garrytan/gstack>
+
+[^2]: gstack README — 600,000+ lines in 60 days, 10,000–20,000 lines/day: <https://github.com/garrytan/gstack>
+
+[^3]: gstack README — virtual engineering team description: <https://github.com/garrytan/gstack>
+
+[^4]: gstack ARCHITECTURE.md — persistent browser daemon design: <https://raw.githubusercontent.com/garrytan/gstack/main/ARCHITECTURE.md>
+
+[^5]: gstack ARCHITECTURE.md — Bun technology choice rationale: <https://raw.githubusercontent.com/garrytan/gstack/main/ARCHITECTURE.md>
+
+[^6]: gstack ETHOS.md — Boil the Lake and four core principles: <https://raw.githubusercontent.com/garrytan/gstack/main/ETHOS.md>
+
+[^7]: gstack README — "Who this is for" section: <https://github.com/garrytan/gstack>
+
+[^8]: gstack README — smart review routing and Review Readiness Dashboard: <https://github.com/garrytan/gstack>
+
+[^9]: gstack README — 10–15 parallel sprints with Conductor: <https://github.com/garrytan/gstack>
+
+[^10]: gstack README — /qa as unlock for 6→12 parallel workers: <https://github.com/garrytan/gstack>

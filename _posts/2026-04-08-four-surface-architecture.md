@@ -182,14 +182,25 @@ The repository currently has 67,782 GitHub stars and is released under the Apach
 ## Citations
 
 [^1]: [OpenAI Codex Developer Documentation — CLI](https://developers.openai.com/codex/cli)
+
 [^2]: [InfoQ: OpenAI Publishes Codex App Server Architecture](https://www.infoq.com/news/2026/02/opanai-codex-app-server/) — February 2026
+
 [^3]: [OpenAI Blog: Unlocking the Codex Harness](https://openai.com/index/unlocking-the-codex-harness/)
+
 [^4]: [GitHub: openai/codex](https://github.com/openai/codex) — Apache-2.0 licensed open-source repository
+
 [^5]: [Zylos Research: Codex CLI Architecture and Multi-Runtime Patterns](https://zylos.ai/research/2026-03-26-openai-codex-cli-architecture-multi-runtime-patterns) — March 26, 2026
+
 [^6]: [OpenAI Codex Developer Documentation — Changelog](https://developers.openai.com/codex/changelog) — v0.118.0, March 31, 2026
+
 [^7]: [OpenAI Codex Developer Documentation — Desktop App](https://developers.openai.com/codex/app)
+
 [^8]: [OpenAI Codex Developer Documentation — IDE Extension](https://developers.openai.com/codex/ide)
+
 [^9]: [OpenAI Codex Developer Documentation — Cloud](https://developers.openai.com/codex/cloud)
+
 [^10]: [OpenAI Codex Product Page](https://openai.com/codex/)
+
 [^11]: [OpenAI Community: Introducing the Codex IDE Extension](https://community.openai.com/t/introducing-the-codex-ide-extension/1354930)
+
 [^12]: [Wikipedia: OpenAI Codex (AI agent)](https://en.wikipedia.org/wiki/OpenAI_Codex_(AI_agent))

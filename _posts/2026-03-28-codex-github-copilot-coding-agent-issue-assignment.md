@@ -252,40 +252,40 @@ Codex on Agent HQ turns a well-managed issue backlog into a parallel execution q
 
 ## Citations
 
-[^1]: GitHub Changelog — "Claude and Codex now available for Copilot Business & Pro users" (26 February 2026): https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users/
+[^1]: GitHub Changelog — "Claude and Codex now available for Copilot Business & Pro users" (26 February 2026): <https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users/>
 
-[^2]: GitHub Blog — "Pick your agent: Use Claude and Codex on Agent HQ": https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/
+[^2]: GitHub Blog — "Pick your agent: Use Claude and Codex on Agent HQ": <https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/>
 
-[^3]: GitHub Docs — "About GitHub Copilot coding agent": https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent
+[^3]: GitHub Docs — "About GitHub Copilot coding agent": <https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent>
 
-[^4]: GitHub Blog — "Assigning and completing issues with coding agent in GitHub Copilot": https://github.blog/ai-and-ml/github-copilot/assigning-and-completing-issues-with-coding-agent-in-github-copilot/
+[^4]: GitHub Blog — "Assigning and completing issues with coding agent in GitHub Copilot": <https://github.blog/ai-and-ml/github-copilot/assigning-and-completing-issues-with-coding-agent-in-github-copilot/>
 
-[^5]: GitHub Docs — "Managing access to GitHub Copilot coding agent": https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management
+[^5]: GitHub Docs — "Managing access to GitHub Copilot coding agent": <https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management>
 
-[^6]: GitHub Changelog (Feb 2026) — "Each coding agent session consumes one premium request during public preview": https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users/
+[^6]: GitHub Changelog (Feb 2026) — "Each coding agent session consumes one premium request during public preview": <https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users/>
 
-[^7]: GitHub Docs — "GitHub Copilot coding agent" (how-to): https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent
+[^7]: GitHub Docs — "GitHub Copilot coding agent" (how-to): <https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent>
 
-[^8]: GitHub Changelog Feb 2026 — "@claude" and "@codex" mention support in PR comments: https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users/
+[^8]: GitHub Changelog Feb 2026 — "@claude" and "@codex" mention support in PR comments: <https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users/>
 
-[^9]: GitHub Docs — third-party integrations (Jira, Slack, Linear, Azure Boards) for coding agent context: https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent
+[^9]: GitHub Docs — third-party integrations (Jira, Slack, Linear, Azure Boards) for coding agent context: <https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent>
 
-[^10]: GitHub Blog — "GitHub Copilot: Meet the new coding agent" — well-scoped tasks perform best: https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent/
+[^10]: GitHub Blog — "GitHub Copilot: Meet the new coding agent" — well-scoped tasks perform best: <https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent/>
 
-[^11]: GitHub Blog — Agent HQ multi-agent comparison: assign same issue to Copilot, Claude, Codex simultaneously: https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/
+[^11]: GitHub Blog — Agent HQ multi-agent comparison: assign same issue to Copilot, Claude, Codex simultaneously: <https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/>
 
 [^12]: Daniel Vaughan — "The Personality Difference: Claude Code as Explorer, Codex as Executor" (2026-03-27): /codex-resources/articles/2026-03-27-personality-difference-claude-code-vs-codex/
 
-[^13]: GitHub Changelog — "Agent activity in GitHub Issues and Projects" (26 March 2026): https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects/
+[^13]: GitHub Changelog — "Agent activity in GitHub Issues and Projects" (26 March 2026): <https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects/>
 
-[^14]: GitHub Docs — "Managing policies and features for GitHub Copilot in your organization": https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/manage-policies
+[^14]: GitHub Docs — "Managing policies and features for GitHub Copilot in your organization": <https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/manage-policies>
 
-[^15]: GitHub Docs — firewall customisation for coding agent environment: https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent
+[^15]: GitHub Docs — firewall customisation for coding agent environment: <https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent>
 
-[^16]: GitHub Docs — Copilot usage metrics API including PR lifecycle metrics: https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent
+[^16]: GitHub Docs — Copilot usage metrics API including PR lifecycle metrics: <https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent>
 
-[^17]: GitHub Blog (new coding agent announcement) — draft PRs require human review; agent cannot mark ready-for-review or merge: https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent/
+[^17]: GitHub Blog (new coding agent announcement) — draft PRs require human review; agent cannot mark ready-for-review or merge: <https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent/>
 
-[^18]: SmartScope — "GitHub Copilot & Claude Code Multi-Agent Collaboration: Latest Features" (February 2026): https://smartscope.blog/en/generative-ai/github-copilot/github-copilot-claude-code-multi-agent-2025/
+[^18]: SmartScope — "GitHub Copilot & Claude Code Multi-Agent Collaboration: Latest Features" (February 2026): <https://smartscope.blog/en/generative-ai/github-copilot/github-copilot-claude-code-multi-agent-2025/>
 
-[^19]: GitHub Docs — repository instructions for coding agent (copilot-instructions.md): https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent
+[^19]: GitHub Docs — repository instructions for coding agent (copilot-instructions.md): <https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent>

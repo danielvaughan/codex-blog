@@ -222,11 +222,19 @@ The cap of four attempts keeps costs bounded, while the parallel containerised e
 ## Citations
 
 [^1]: OpenAI, "Introducing upgrades to Codex" (June 2025), [openai.com/index/introducing-upgrades-to-codex](https://openai.com/index/introducing-upgrades-to-codex/)
+
 [^2]: Zack Proser, "OpenAI Codex Review 2026 — Updated from Daily Use", [zackproser.com/blog/openai-codex-review-2026](https://zackproser.com/blog/openai-codex-review-2026)
+
 [^3]: Nakano et al., "WebGPT: Browser-assisted question-answering with human feedback" (2022), demonstrating best-of-N sampling for reward model selection
+
 [^4]: OpenAI, "Command line options – Codex CLI", [developers.openai.com/codex/cli/reference](https://developers.openai.com/codex/cli/reference)
+
 [^5]: OpenAI, "CLI – Codex", [developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
+
 [^6]: Blake Crosley, "Codex CLI: The Definitive Technical Reference", [blakecrosley.com/guides/codex](https://blakecrosley.com/guides/codex); Toolsbase, "Codex CLI Cheat Sheet 2026", [toolsbase.dev/en/reference/codex-commands](https://toolsbase.dev/en/reference/codex-commands)
+
 [^7]: OpenAI, "Features – Codex CLI", [developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
+
 [^8]: OpenAI, "Workflows – Codex", [developers.openai.com/codex/workflows](https://developers.openai.com/codex/workflows)
+
 [^9]: OpenAI, "Models – Codex", [developers.openai.com/codex/models](https://developers.openai.com/codex/models)

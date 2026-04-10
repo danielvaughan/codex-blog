@@ -344,16 +344,27 @@ flowchart TD
 ## Citations
 
 [^1]: OpenAI. "Model Context Protocol — Codex." OpenAI Developers. <https://developers.openai.com/codex/mcp>
+
 [^2]: GitHub Issues, openai/codex. #3712, #4651, #5660, #8388, #8580 — "conversationId not returned by codex MCP server." <https://github.com/openai/codex/issues/8580> · <https://github.com/openai/codex/issues/8388> · <https://github.com/openai/codex/issues/5660> · <https://github.com/openai/codex/issues/4651> · <https://github.com/openai/codex/issues/3712>
+
 [^3]: GitHub, openai/codex. "MCP Server: codex-reply tool missing conversationId in response — Issue #8580." <https://github.com/openai/codex/issues/8580>
+
 [^4]: OpenAI. "Use Codex with the Agents SDK — Multi-turn MCP sessions." OpenAI Developers. <https://developers.openai.com/codex/guides/agents-sdk>
+
 [^5]: tuannvm. "Session Management Implementation Guide." Codex MCP Server Docs. <https://docs.tuannvm.com/codex-mcp-server/docs/session-management>
+
 [^6]: tuannvm. "API Reference." Codex MCP Server Docs. <https://docs.tuannvm.com/codex-mcp-server/docs/api-reference>
+
 [^7]: LobeHub. "claude-codex-bridge MCP Server listing." <https://lobehub.com/mcp/user-claude-codex-bridge>
+
 [^8]: abhishekgahlot2. "codex-claude-bridge: Bidirectional bridge between Claude Code and OpenAI Codex CLI." GitHub. <https://github.com/abhishekgahlot2/codex-claude-bridge>
+
 [^9]: mkXultra. "ai-cli-mcp: MCP server to run Claude, Codex, and Gemini CLI agents." GitHub. <https://github.com/mkXultra/claude-code-mcp/>
+
 [^10]: OpenAI. "Building Consistent Workflows with Codex CLI and the Agents SDK." OpenAI Cookbook. <https://developers.openai.com/cookbook/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk>
+
 [^11]: OpenAI. "Codex CLI Configuration Reference." <https://developers.openai.com/codex/config-reference>
+
 [^12]: Anthropic. "Connect Claude Code to tools via MCP." Claude Code Documentation. <https://code.claude.com/docs/en/mcp>
 
 ## Citations

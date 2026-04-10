@@ -228,12 +228,21 @@ The "secret sauce" of neither tool is the agent loop itself. It is the co-optimi
 ## Citations
 
 [^1]: [Core Architecture — Claude Code DeepWiki](https://deepwiki.com/claude-code-best/claude-code/2-core-architecture)
+
 [^2]: [Claude Code Manual — Query Engine](https://github.com/inematds/claudecode-manual/blob/main/01-core-architecture/04-query-engine.md)
+
 [^3]: [Claude Code Architecture Explained — DEV Community](https://dev.to/brooks_wilson_36fbefbbae4/claude-code-architecture-explained-agent-loop-tool-system-and-permission-model-rust-rewrite-41b2)
+
 [^4]: [Claude Code YOLO Mode Security Research (March 2026)](https://gist.github.com/hartphoenix/698eb8ef8b08ad2ce6a99cf7346cd7cc)
+
 [^5]: [openai/codex — DeepWiki](https://deepwiki.com/openai/codex)
+
 [^6]: [Tool Orchestration and Approval — DeepWiki](https://deepwiki.com/yulin0629/codex/4.3-non-interactive-exec-mode)
+
 [^7]: [Sandboxing and Security Policies — DeepWiki](https://deepwiki.com/openai/codex/6.4-sandboxing-and-security-policies)
+
 [^8]: [How Codex is Built — Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/how-codex-is-built)
+
 [^9]: [OpenAI Codex CLI April 2026 Update — Daily 1 Bite](https://daily1bite.com/en/blog/ai-tools/openai-codex-cli-april-2026-update)
+
 [^10]: [Claude Code Leak: Agentic Architecture Lessons 2026](https://www.digitalapplied.com/blog/claude-code-leak-agentic-architecture-lessons-2026)

@@ -145,22 +145,22 @@ The 2026 DORA report found that nearly 90% of enterprises now have internal plat
 
 ## Citations
 
-[^1]: KubeCon + CloudNativeCon Europe 2026 Schedule — "Choose Your Own Adventure: AI Meets Internal Developer Platform", Whitney Lee & Viktor Farcic, March 24 2026. [https://kccnceu2026.sched.com/company/Any](https://kccnceu2026.sched.com/company/Any)
+[^1]: KubeCon + CloudNativeCon Europe 2026 Schedule — "Choose Your Own Adventure: AI Meets Internal Developer Platform", Whitney Lee & Viktor Farcic, March 24 2026. <https://kccnceu2026.sched.com/company/Any>
 
-[^2]: Upbound Resources — "Choose Your Own Adventure" series by Whitney Lee & Viktor Farcic. [https://resources.upbound.io/community-videos/choose-your-own-adventure-the-struggle-for-security-whitney-lee-vmware-viktor-farcic-upbound](https://resources.upbound.io/community-videos/choose-your-own-adventure-the-struggle-for-security-whitney-lee-vmware-viktor-farcic-upbound)
+[^2]: Upbound Resources — "Choose Your Own Adventure" series by Whitney Lee & Viktor Farcic. <https://resources.upbound.io/community-videos/choose-your-own-adventure-the-struggle-for-security-whitney-lee-vmware-viktor-farcic-upbound>
 
-[^3]: CNCF Blog — "Crossplane and AI: The case for API-first infrastructure", March 20 2026. [https://www.cncf.io/blog/2026/03/20/crossplane-and-ai-the-case-for-api-first-infrastructure/](https://www.cncf.io/blog/2026/03/20/crossplane-and-ai-the-case-for-api-first-infrastructure/)
+[^3]: CNCF Blog — "Crossplane and AI: The case for API-first infrastructure", March 20 2026. <https://www.cncf.io/blog/2026/03/20/crossplane-and-ai-the-case-for-api-first-infrastructure/>
 
-[^4]: Crossplane Blog — "Crossplane & AI: The Case for API-First Infrastructure", 2026. [https://blog.crossplane.io/crossplane-ai-the-case-for-api-first-infrastructure/](https://blog.crossplane.io/crossplane-ai-the-case-for-api-first-infrastructure/)
+[^4]: Crossplane Blog — "Crossplane & AI: The Case for API-First Infrastructure", 2026. <https://blog.crossplane.io/crossplane-ai-the-case-for-api-first-infrastructure/>
 
-[^5]: The New Stack — "In 2026, AI Is Merging With Platform Engineering. Are You Ready?", 2026. [https://thenewstack.io/in-2026-ai-is-merging-with-platform-engineering-are-you-ready/](https://thenewstack.io/in-2026-ai-is-merging-with-platform-engineering-are-you-ready/)
+[^5]: The New Stack — "In 2026, AI Is Merging With Platform Engineering. Are You Ready?", 2026. <https://thenewstack.io/in-2026-ai-is-merging-with-platform-engineering-are-you-ready/>
 
-[^6]: OpenAI Developers — "How to Set Up OpenAI Codex: AGENTS.md, MCP Servers, Skills, Config". [https://developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
+[^6]: OpenAI Developers — "How to Set Up OpenAI Codex: AGENTS.md, MCP Servers, Skills, Config". <https://developers.openai.com/codex/cli>
 
-[^7]: OpenAI Developers — "Agent Skills – Codex". [https://developers.openai.com/codex/skills](https://developers.openai.com/codex/skills)
+[^7]: OpenAI Developers — "Agent Skills – Codex". <https://developers.openai.com/codex/skills>
 
-[^8]: OpenAI Developers — "Model Context Protocol – Codex". [https://developers.openai.com/codex/mcp](https://developers.openai.com/codex/mcp)
+[^8]: OpenAI Developers — "Model Context Protocol – Codex". <https://developers.openai.com/codex/mcp>
 
-[^9]: GitHub — containers/kubernetes-mcp-server: Model Context Protocol server for Kubernetes and OpenShift. [https://github.com/containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)
+[^9]: GitHub — containers/kubernetes-mcp-server: Model Context Protocol server for Kubernetes and OpenShift. <https://github.com/containers/kubernetes-mcp-server>
 
-[^10]: The New Stack — "Simplify Kubernetes Security With Kyverno and OPA Gatekeeper". [https://thenewstack.io/simplify-kubernetes-security-with-kyverno-and-opa-gatekeeper/](https://thenewstack.io/simplify-kubernetes-security-with-kyverno-and-opa-gatekeeper/)
+[^10]: The New Stack — "Simplify Kubernetes Security With Kyverno and OPA Gatekeeper". <https://thenewstack.io/simplify-kubernetes-security-with-kyverno-and-opa-gatekeeper/>

@@ -157,12 +157,21 @@ The goal isn't to slow down. It's to ensure the codebase you have in six months 
 ## Citations
 
 [^1]: Karpathy, A. (2025). Original "vibe coding" tweet, February 2025. Discussed in: [Vibe coding — Wikipedia](https://en.wikipedia.org/wiki/Vibe_coding).
+
 [^2]: Sau Sheong. (2026). [From vibe coding to agentic engineering](https://sausheong.com/from-vibe-coding-to-agentic-engineering-1ca3ca72b5ac). Medium, February 2026.
+
 [^3]: Voitanos. (2026). [My Thoughts on Vibe Coding vs. Agentic Engineering](https://www.voitanos.io/blog/vibe-coding-vs-agentic-engineering/). The quote on losing intuition is discussed in detail in this post.
+
 [^4]: Microsoft DevBlogs. (2026). [The Realities of Application Modernization with Agentic AI (Early 2026)](https://devblogs.microsoft.com/all-things-azure/the-realities-of-application-modernization-with-agentic-ai-early-2026/). "Architectural drift" is named explicitly as a scale risk.
+
 [^5]: OpenAI. (2026). [Best practices — Codex](https://developers.openai.com/codex/learn/best-practices). Official guidance on using `AGENTS.md` for persistent instructions and project-level conventions.
+
 [^6]: Kirill Markin. (2026). [Codex Rules: Global Instructions, AGENTS.md, and Mac App](https://kirill-markin.com/articles/codex-rules-for-ai/). Discusses keeping AGENTS.md up to date as codebase evolves.
+
 [^7]: Mike Mason. (2026). [AI Coding Agents in 2026: Coherence Through Orchestration, Not Autonomy](https://mikemason.ca/writing/ai-coding-agents-jan-2026/). The tiered review model is consistent with this analysis.
+
 [^8]: OpenAI. (2026). [Build Code Review with the Codex SDK](https://developers.openai.com/cookbook/examples/codex/build_code_review_with_codex_sdk). Codex CLI's `/review` command and branch diffing are documented here.
+
 [^9]: TechTarget. (2026). [Software development in 2026: A hands-on look at AI agents](https://www.techtarget.com/searchapparchitecture/opinion/A-hands-on-look-at-AI-agents). Senior engineers describe the shift to orchestration over implementation.
+
 [^10]: vFunction. (2025). [The rise of vibe coding: Why architecture still matters in the age of AI agents](https://vfunction.com/blog/vibe-coding-architecture-ai-agents/). Recommends explicit architectural constraints as a countermeasure to drift.

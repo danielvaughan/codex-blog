@@ -300,14 +300,24 @@ The `codex-universal` image is the canonical starting point for any containerise
 
 ## Citations
 
-[^1]: openai/codex-universal GitHub repository — base Docker image reference implementation. https://github.com/openai/codex-universal
-[^2]: OpenAI Developers — Cloud environments documentation. https://developers.openai.com/codex/cloud/environments
-[^3]: ungb/codex-docker — discussion on OAuth token persistence. https://github.com/ungb/codex-docker
-[^4]: Docker — Connect Codex to MCP Servers via Docker MCP Toolkit (October 2025). https://www.docker.com/blog/connect-codex-to-mcp-servers-mcp-toolkit/
-[^5]: OpenAI Developers — Codex sandboxing concepts. https://developers.openai.com/codex/concepts/sandboxing
-[^6]: Vincent Schmalbach — How Codex CLI Flags Actually Work (Full-Auto, Sandbox, and Bypass). https://www.vincentschmalbach.com/how-codex-cli-flags-actually-work-full-auto-sandbox-and-bypass/
-[^7]: Docker Docs — Codex sandbox for Docker Desktop. https://docs.docker.com/ai/sandboxes/agents/codex/
-[^8]: DeepBlueDynamics/gnosis-container — Codex CLI in Docker with 275+ MCP tools. https://github.com/DeepBlueDynamics/gnosis-container
-[^9]: zzev/aibox — Secure Docker sandbox for Claude Code, Codex & Gemini CLI. https://github.com/zzev/aibox
-[^10]: Coder Registry — codex module (v4.3.1). https://registry.coder.com/modules/coder-labs/codex
-[^11]: OpenAI Developers — Command line options reference (codex exec). https://developers.openai.com/codex/cli/reference
+[^1]: openai/codex-universal GitHub repository — base Docker image reference implementation. <https://github.com/openai/codex-universal>
+
+[^2]: OpenAI Developers — Cloud environments documentation. <https://developers.openai.com/codex/cloud/environments>
+
+[^3]: ungb/codex-docker — discussion on OAuth token persistence. <https://github.com/ungb/codex-docker>
+
+[^4]: Docker — Connect Codex to MCP Servers via Docker MCP Toolkit (October 2025). <https://www.docker.com/blog/connect-codex-to-mcp-servers-mcp-toolkit/>
+
+[^5]: OpenAI Developers — Codex sandboxing concepts. <https://developers.openai.com/codex/concepts/sandboxing>
+
+[^6]: Vincent Schmalbach — How Codex CLI Flags Actually Work (Full-Auto, Sandbox, and Bypass). <https://www.vincentschmalbach.com/how-codex-cli-flags-actually-work-full-auto-sandbox-and-bypass/>
+
+[^7]: Docker Docs — Codex sandbox for Docker Desktop. <https://docs.docker.com/ai/sandboxes/agents/codex/>
+
+[^8]: DeepBlueDynamics/gnosis-container — Codex CLI in Docker with 275+ MCP tools. <https://github.com/DeepBlueDynamics/gnosis-container>
+
+[^9]: zzev/aibox — Secure Docker sandbox for Claude Code, Codex & Gemini CLI. <https://github.com/zzev/aibox>
+
+[^10]: Coder Registry — codex module (v4.3.1). <https://registry.coder.com/modules/coder-labs/codex>
+
+[^11]: OpenAI Developers — Command line options reference (codex exec). <https://developers.openai.com/codex/cli/reference>

@@ -182,13 +182,22 @@ For GitHub Actions, see [`openai/codex-action`](https://github.com/openai/codex-
 
 ## Citations
 
-[^1]: Git worktree documentation — commands, constraints, and one-branch-per-worktree rule: https://git-scm.com/docs/git-worktree
-[^2]: Nimbalyst blog — "Git Worktrees for AI Coding Agents: A Complete Guide" (source of the quoted statement): https://nimbalyst.com/blog/git-worktrees-for-ai-coding-agents-complete-guide/
-[^3]: Official Codex app worktrees documentation — detached HEAD, handoff, .gitignore limitation, 15 worktree limit: https://developers.openai.com/codex/app/worktrees
-[^4]: Codex developer changelog — App version 26.312 (March 12, 2026) introducing worktree-per-automation option: https://developers.openai.com/codex/changelog
-[^5]: GitHub issue #13120 — "Git worktrees with codex" (closed as duplicate of #12862): https://github.com/openai/codex/issues/13120
-[^6]: GitHub issue #12862 — "CLI: add --worktree and --tmux flags for one-command isolated sessions" (open): https://github.com/openai/codex/issues/12862
-[^7]: GitHub release rust-v0.115.0 (March 16, 2026) — subagent sandbox/network inheritance, project-profile layering, persisted host approvals, symlinked writable roots: https://github.com/openai/codex/releases/tag/rust-v0.115.0
-[^8]: Nimbalyst homepage — visual workspace for Claude Code and Codex with kanban, diff review, MCP integration, mobile app: https://nimbalyst.com/
-[^9]: Crystal (stravu/crystal) deprecated and replaced by Nimbalyst as of February 2026: https://github.com/stravu/crystal
-[^10]: openai/codex-action — official GitHub Actions action for running Codex CLI in CI with sandbox isolation: https://github.com/openai/codex-action
+[^1]: Git worktree documentation — commands, constraints, and one-branch-per-worktree rule: <https://git-scm.com/docs/git-worktree>
+
+[^2]: Nimbalyst blog — "Git Worktrees for AI Coding Agents: A Complete Guide" (source of the quoted statement): <https://nimbalyst.com/blog/git-worktrees-for-ai-coding-agents-complete-guide/>
+
+[^3]: Official Codex app worktrees documentation — detached HEAD, handoff, .gitignore limitation, 15 worktree limit: <https://developers.openai.com/codex/app/worktrees>
+
+[^4]: Codex developer changelog — App version 26.312 (March 12, 2026) introducing worktree-per-automation option: <https://developers.openai.com/codex/changelog>
+
+[^5]: GitHub issue #13120 — "Git worktrees with codex" (closed as duplicate of #12862): <https://github.com/openai/codex/issues/13120>
+
+[^6]: GitHub issue #12862 — "CLI: add --worktree and --tmux flags for one-command isolated sessions" (open): <https://github.com/openai/codex/issues/12862>
+
+[^7]: GitHub release rust-v0.115.0 (March 16, 2026) — subagent sandbox/network inheritance, project-profile layering, persisted host approvals, symlinked writable roots: <https://github.com/openai/codex/releases/tag/rust-v0.115.0>
+
+[^8]: Nimbalyst homepage — visual workspace for Claude Code and Codex with kanban, diff review, MCP integration, mobile app: <https://nimbalyst.com/>
+
+[^9]: Crystal (stravu/crystal) deprecated and replaced by Nimbalyst as of February 2026: <https://github.com/stravu/crystal>
+
+[^10]: openai/codex-action — official GitHub Actions action for running Codex CLI in CI with sandbox isolation: <https://github.com/openai/codex-action>

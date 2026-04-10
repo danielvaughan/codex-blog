@@ -220,10 +220,17 @@ This is the difference between treating skills as static configuration files and
 ---
 
 [^1]: [Announcing Skills on Tessl: The Package Manager for Agent Skills](https://tessl.io/blog/skills-are-software-and-they-need-a-lifecycle-introducing-skills-on-tessl/)
+
 [^2]: [Tessl CLI Commands Reference](https://docs.tessl.io/reference/cli-commands)
+
 [^3]: [How to Evaluate AI Agents: An Introduction to Harbor](https://tessl.io/blog/how-to-evaluate-ai-agents-an-introduction-to-harbor/)
+
 [^4]: [Tessl Reviews, Pricing and Alternatives](https://toolradar.com/tools/tessl)
+
 [^5]: [Introducing Task Evals: Measure Whether Your Skills Actually Work](https://tessl.io/blog/introducing-task-evals-measure-whether-your-skills-actually-work/)
+
 [^6]: [Evaluate Skill Quality Using Scenarios](https://docs.tessl.io/evaluate/evaluate-skill-quality-using-scenarios)
+
 [^7]: [Improving Skill Creator: Test, Measure and Refine Agent Skills](https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills)
+
 [^8]: [I Used Skill Creator V2 to Improve One of My Agent Skills in VS Code](https://dev.to/debs_obrien/i-used-skill-creator-v2-to-improve-one-of-my-agent-skills-in-vs-code-fhd)

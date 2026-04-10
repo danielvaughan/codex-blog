@@ -1043,20 +1043,36 @@ Local inference is not a replacement for cloud models. It is a complement. Use l
 
 ## Citations
 
-[^1]: Google Gemma 4 Model Card — [https://ai.google.dev/gemma/docs/core/model_card_4](https://ai.google.dev/gemma/docs/core/model_card_4)
-[^2]: Gemma 4 Function Calling — [https://ai.google.dev/gemma/docs/capabilities/text/function-calling-gemma4](https://ai.google.dev/gemma/docs/capabilities/text/function-calling-gemma4)
-[^3]: Codex CLI Advanced Configuration — [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced)
-[^4]: Codex CLI Configuration Reference — [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
-[^5]: Codex CLI Discussion #7782 (Responses API mandate) — [https://github.com/openai/codex/discussions/7782](https://github.com/openai/codex/discussions/7782)
-[^6]: llama.cpp GitHub — [https://github.com/ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
-[^7]: Ollama Gemma 4 Library — [https://ollama.com/library/gemma4](https://ollama.com/library/gemma4)
-[^8]: Ollama Issue #15315 (tool calling fix) — [https://github.com/ollama/ollama/issues/15315](https://github.com/ollama/ollama/issues/15315)
-[^9]: vLLM Gemma 4 Recipe — [https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html](https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html)
-[^10]: Codex Issue #2235 (apply_patch as bash) — [https://github.com/openai/codex/issues/2235](https://github.com/openai/codex/issues/2235)
-[^11]: Unsloth GGUF repos — [https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF](https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF)
-[^12]: Ollama Codex Integration — [https://docs.ollama.com/integrations/codex](https://docs.ollama.com/integrations/codex)
-[^13]: Gemma 4 Benchmarks — [https://gemma4all.com/blog/gemma-4-benchmarks-performance](https://gemma4all.com/blog/gemma-4-benchmarks-performance)
+[^1]: Google Gemma 4 Model Card — <https://ai.google.dev/gemma/docs/core/model_card_4>
+
+[^2]: Gemma 4 Function Calling — <https://ai.google.dev/gemma/docs/capabilities/text/function-calling-gemma4>
+
+[^3]: Codex CLI Advanced Configuration — <https://developers.openai.com/codex/config-advanced>
+
+[^4]: Codex CLI Configuration Reference — <https://developers.openai.com/codex/config-reference>
+
+[^5]: Codex CLI Discussion #7782 (Responses API mandate) — <https://github.com/openai/codex/discussions/7782>
+
+[^6]: llama.cpp GitHub — <https://github.com/ggml-org/llama.cpp>
+
+[^7]: Ollama Gemma 4 Library — <https://ollama.com/library/gemma4>
+
+[^8]: Ollama Issue #15315 (tool calling fix) — <https://github.com/ollama/ollama/issues/15315>
+
+[^9]: vLLM Gemma 4 Recipe — <https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html>
+
+[^10]: Codex Issue #2235 (apply_patch as bash) — <https://github.com/openai/codex/issues/2235>
+
+[^11]: Unsloth GGUF repos — <https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF>
+
+[^12]: Ollama Codex Integration — <https://docs.ollama.com/integrations/codex>
+
+[^13]: Gemma 4 Benchmarks — <https://gemma4all.com/blog/gemma-4-benchmarks-performance>
+
 [^14]: The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive — codex-resources article #224
-[^15]: Dell Pro Max with GB10 — [https://www.dell.com/en-us/blog/dell-pro-max-with-gb10-purpose-built-for-ai-developers/](https://www.dell.com/en-us/blog/dell-pro-max-with-gb10-purpose-built-for-ai-developers/)
-[^16]: Gemma 4 on Apple Silicon benchmarks — MacBook Pro M4 Pro 24 GB tests by akartit (DEV Community) and SudoAll. E4B Q4: 57 tok/s, E2B Q4: 95 tok/s, 26B MoE Q4: ~2 tok/s with swap thrashing. [https://dev.to/akartit/i-tested-every-gemma-4-model-locally-on-my-macbook-what-actually-works-3g2o](https://dev.to/akartit/i-tested-every-gemma-4-model-locally-on-my-macbook-what-actually-works-3g2o)
-[^17]: DGX Spark vs Mac Studio efficiency comparison — identical 273 GB/s bandwidth, GB10 wins on prefill (compute-bound) by 3.8×, comparable on decode (bandwidth-bound). [https://skorppio.com/blog/dgx-spark-vs-mac-studio-efficiency-benchmark](https://skorppio.com/blog/dgx-spark-vs-mac-studio-efficiency-benchmark)
+
+[^15]: Dell Pro Max with GB10 — <https://www.dell.com/en-us/blog/dell-pro-max-with-gb10-purpose-built-for-ai-developers/>
+
+[^16]: Gemma 4 on Apple Silicon benchmarks — MacBook Pro M4 Pro 24 GB tests by akartit (DEV Community) and SudoAll. E4B Q4: 57 tok/s, E2B Q4: 95 tok/s, 26B MoE Q4: ~2 tok/s with swap thrashing. <https://dev.to/akartit/i-tested-every-gemma-4-model-locally-on-my-macbook-what-actually-works-3g2o>
+
+[^17]: DGX Spark vs Mac Studio efficiency comparison — identical 273 GB/s bandwidth, GB10 wins on prefill (compute-bound) by 3.8×, comparable on decode (bandwidth-bound). <https://skorppio.com/blog/dgx-spark-vs-mac-studio-efficiency-benchmark>

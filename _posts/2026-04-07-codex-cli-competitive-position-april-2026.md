@@ -349,29 +349,55 @@ The "best developers use both" pattern identified by multiple analysts[^8] is no
 ## Citations
 
 [^1]: [The $4 Billion Coding Agent Market Just Consolidated — Seven Olives](https://sevenolives.com/blog/ai-coding-agents-4-billion-market-consolidation-2026)
+
 [^2]: [Best AI IDE & CLI Tools April 2026 — TokenCalculator](https://tokencalculator.com/blog/best-ai-ide-cli-tools-april-2026-claude-code-wins)
+
 [^3]: [Claude Code Hits 41% Share, Overtakes Copilot's 38% — byteiota](https://byteiota.com/claude-code-hits-41-share-overtakes-copilots-38/)
+
 [^4]: [OpenAI sees Codex users spike to 1.6 million — Fortune](https://fortune.com/2026/03/04/openai-codex-growth-enterprise-ai-agents/)
+
 [^5]: [Codex CLI vs Claude Code 2026: Opus 4.6 vs GPT-5.3-Codex Compared — SmartScope](https://smartscope.blog/en/generative-ai/chatgpt/codex-vs-claude-code-2026-benchmark/)
+
 [^6]: [Introducing GPT-5.3-Codex — OpenAI](https://openai.com/index/introducing-gpt-5-3-codex/)
+
 [^7]: [Agent approvals & security — Codex CLI OpenAI Developers](https://developers.openai.com/codex/agent-approvals-security)
+
 [^8]: [Claude Code vs Codex CLI 2026: Which Terminal AI Coding Agent Wins? — NxCode](https://www.nxcode.io/resources/news/claude-code-vs-codex-cli-terminal-coding-comparison-2026)
+
 [^9]: [Every Code — GitHub](https://github.com/just-every/code)
+
 [^10]: [Codex vs Claude Code: Which CLI Agent Wins for Your Workflow — Particula](https://particula.tech/blog/codex-vs-claude-code-cli-agent-comparison)
+
 [^11]: [Cursor Launches Agent-First Cursor 3 Interface — Creati.ai](https://creati.ai/ai-news/2026-04-06/cursor-3-agent-first-interface-claude-code-codex/)
+
 [^12]: [Cursor 3 Shifts to Agent Orchestration Amid Market Pressure — Implicator](https://www.implicator.ai/cursor-3-shifts-to-agent-orchestration-as-claude-code-claims-54-of-coding-market/)
+
 [^13]: [Introducing GPT-5.4 — OpenAI](https://openai.com/index/introducing-gpt-5-4/)
+
 [^14]: [AI Coding Agents 2026: Claude Code vs Antigravity vs Codex vs Cursor vs Kiro vs Copilot vs Windsurf — Lushbinary](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/)
+
 [^15]: [The 2026 Guide to Coding CLI Tools: 15 AI Agents Compared — Tembo](https://www.tembo.io/blog/coding-cli-tools-comparison)
+
 [^16]: [Google Antigravity vs Gemini CLI — Augment Code](https://www.augmentcode.com/tools/google-antigravity-vs-gemini-cli)
+
 [^17]: [Using Codex with your ChatGPT plan — OpenAI Help Center](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)
+
 [^18]: [Codex vs Claude Code 2026: Benchmarks, Agent Teams & Limits Compared — MorphLLM](https://www.morphllm.com/comparisons/codex-vs-claude-code)
+
 [^19]: [Hooks reference — Claude Code Docs](https://code.claude.com/docs/en/hooks)
+
 [^20]: [Claude Code vs Cursor vs GitHub Copilot: Honest Comparison 2026 — DEV Community](https://dev.to/_d7eb1c1703182e3ce1782/claude-code-vs-cursor-vs-github-copilot-honest-comparison-2026-1ah6)
+
 [^21]: [Google Antigravity — Google Developers Blog](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/)
+
 [^22]: [Google AntiGravity Review — Vibecoding.app](https://vibecoding.app/blog/google-antigravity-review)
+
 [^23]: [About GitHub Copilot coding agent — GitHub Docs](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent)
+
 [^24]: [Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs — GitHub Changelog, March 2026](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/)
+
 [^25]: [GitHub Copilot CLI Reaches General Availability — Visual Studio Magazine, March 2026](https://visualstudiomagazine.com/articles/2026/03/02/github-copilot-cli-reaches-general-availability-bringing-agentic-coding-to-the-terminal.aspx)
+
 [^26]: [Gemini CLI — Google Gemini CLI Docs](https://google-gemini.github.io/gemini-cli/)
+
 [^27]: [Connecting to LLMs — Aider Docs](https://aider.chat/docs/llms.html)

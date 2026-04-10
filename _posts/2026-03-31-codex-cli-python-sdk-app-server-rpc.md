@@ -388,18 +388,33 @@ Both surfaces remain experimental. Treat the APIs as a moving target and pin ver
 ## Citations
 
 [^1]: OpenAI Codex CLI v0.115.0 release notes — filesystem RPCs and Python SDK: <https://github.com/openai/codex/releases/tag/rust-v0.115.0>
+
 [^2]: Codex CLI SDK documentation distinguishing the two Python packages: <https://developers.openai.com/codex/sdk>
+
 [^3]: OpenAI Codex app-server README marking WebSocket and Python SDK as experimental: <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
 [^4]: `openai-codex-sdk` PyPI package authentication API: <https://pypi.org/project/openai-codex-sdk/>
+
 [^5]: OpenAI Codex CLI v0.116.0 release notes — device-code ChatGPT sign-in: <https://developers.openai.com/codex/changelog>
+
 [^6]: Codex CLI SDK `Turn` object documentation — `final_response` semantics: <https://developers.openai.com/codex/sdk>
+
 [^7]: Codex CLI JSONL event stream format and the eight event types: <https://developers.openai.com/codex/sdk>
+
 [^8]: Codex app-server JSON-RPC v2 wire format (no `jsonrpc` envelope): <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
 [^9]: App-server initialisation handshake three-step flow: <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
 [^10]: `clientInfo.name` compliance logging and enterprise registration note: <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
 [^11]: v2 filesystem RPC methods introduced in v0.115.0 (PRs #14245, #14435): <https://github.com/openai/codex/releases/tag/rust-v0.115.0>
+
 [^12]: `fs/watch` handling of atomic rename-based file writes: <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
 [^13]: WebSocket transport documentation and auth flag reference: <https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md>
+
 [^14]: Health check endpoints `/readyz` and `/healthz` added in v0.114.0 (PR #13782): <https://github.com/openai/codex/releases/tag/rust-v0.114.0>
+
 [^15]: `codex_handoff_tool` pydantic-ai integration helper: <https://developers.openai.com/codex/sdk>
+
 [^16]: SDK and CLI binary version pinning requirement: <https://pypi.org/project/openai-codex-sdk/>

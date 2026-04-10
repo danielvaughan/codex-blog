@@ -240,11 +240,19 @@ The key insight from OpenAI's workflow documentation is to treat cloud Codex lik
 ## Citations
 
 [^1]: [Web – Codex | OpenAI Developers](https://developers.openai.com/codex/cloud)
+
 [^2]: [Cloud environments – Codex web | OpenAI Developers](https://developers.openai.com/codex/cloud/environments)
+
 [^3]: [Internet Access – Codex cloud | OpenAI Developers](https://developers.openai.com/codex/cloud/internet-access)
+
 [^4]: [Command line options – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/reference)
+
 [^5]: [Use Codex in Slack | OpenAI Developers](https://developers.openai.com/codex/integrations/slack)
+
 [^6]: [Kick off coding tasks from Slack | Codex use cases](https://developers.openai.com/codex/use-cases/slack-coding-tasks)
+
 [^7]: [Introducing Codex | OpenAI](https://openai.com/index/introducing-codex/)
+
 [^8]: [Workflows – Codex | OpenAI Developers](https://developers.openai.com/codex/workflows)
+
 [^9]: [Codex is now generally available | OpenAI](https://openai.com/index/codex-now-generally-available/)

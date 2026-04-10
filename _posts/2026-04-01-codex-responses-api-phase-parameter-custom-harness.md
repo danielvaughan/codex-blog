@@ -274,12 +274,21 @@ This harness handles compaction automatically, preserves `phase` by appending ra
 ## Citations
 
 [^1]: [Codex CLI Features — OpenAI Developers](https://developers.openai.com/codex/cli/features)
+
 [^2]: [Migrate to the Responses API — OpenAI Developers](https://developers.openai.com/api/docs/guides/migrate-to-responses)
+
 [^3]: [Codex Prompting Guide — OpenAI Cookbook](https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide)
+
 [^4]: [Prompt Guidance for GPT-5.4 — OpenAI API Docs](https://developers.openai.com/api/docs/guides/prompt-guidance)
+
 [^5]: [GPT-5.4 Prompt Guidance: Phase Parameter — OpenAI API](https://developers.openai.com/api/docs/guides/prompt-guidance)
+
 [^6]: [Conversation State — OpenAI API Docs](https://developers.openai.com/api/docs/guides/conversation-state)
+
 [^7]: [Compaction — OpenAI API Docs](https://developers.openai.com/api/docs/guides/compaction)
+
 [^8]: [Missing previous_response_id support on Azure — GitHub Issue #3841](https://github.com/openai/codex/issues/3841)
+
 [^9]: [GPT-5.1-Codex-Max Prompting Guide — OpenAI Cookbook](https://cookbook.openai.com/examples/gpt-5/gpt-5-1-codex-max_prompting_guide)
+
 [^10]: [LiteLLM Responses API Documentation](https://docs.litellm.ai/docs/response_api)

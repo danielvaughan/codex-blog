@@ -167,32 +167,32 @@ For Codex CLI, the implication is clear. The tool is technically competitive —
 
 ## Citations
 
-[^1]: freeCodeCamp. "AI Tools for Developers – OpenClaw, GitHub Copilot, Claude Code, CodeRabbit, Gemini CLI." Published 1 April 2026. [https://www.freecodecamp.org/news/ai-tools-for-developers/](https://www.freecodecamp.org/news/ai-tools-for-developers/)
+[^1]: freeCodeCamp. "AI Tools for Developers – OpenClaw, GitHub Copilot, Claude Code, CodeRabbit, Gemini CLI." Published 1 April 2026. <https://www.freecodecamp.org/news/ai-tools-for-developers/>
 
-[^2]: freeCodeCamp YouTube channel. "AI Tools for Developers" (1h 25m). [https://www.youtube.com/watch?v=wlpBCazAY9Q](https://www.youtube.com/watch?v=wlpBCazAY9Q)
+[^2]: freeCodeCamp YouTube channel. "AI Tools for Developers" (1h 25m). <https://www.youtube.com/watch?v=wlpBCazAY9Q>
 
-[^3]: Mohapatra, Mrugesh. "How to Become an Expert in AI-Assisted Coding – A Handbook for Developers." freeCodeCamp, 2 September 2025. [https://www.freecodecamp.org/news/how-to-become-an-expert-in-ai-assisted-coding-a-handbook-for-developers/](https://www.freecodecamp.org/news/how-to-become-an-expert-in-ai-assisted-coding-a-handbook-for-developers/)
+[^3]: Mohapatra, Mrugesh. "How to Become an Expert in AI-Assisted Coding – A Handbook for Developers." freeCodeCamp, 2 September 2025. <https://www.freecodecamp.org/news/how-to-become-an-expert-in-ai-assisted-coding-a-handbook-for-developers/>
 
-[^4]: freeCodeCamp. "The Claude Code Handbook: A Professional Introduction to Building with AI-Assisted Development." [https://www.freecodecamp.org/news/claude-code-handbook/](https://www.freecodecamp.org/news/claude-code-handbook/)
+[^4]: freeCodeCamp. "The Claude Code Handbook: A Professional Introduction to Building with AI-Assisted Development." <https://www.freecodecamp.org/news/claude-code-handbook/>
 
-[^5]: Google. "Gemini CLI – Open-Source AI Agent for Your Terminal." [https://github.com/google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
+[^5]: Google. "Gemini CLI – Open-Source AI Agent for Your Terminal." <https://github.com/google-gemini/gemini-cli>
 
-[^6]: OpenClaw. Official documentation. [https://docs.openclaw.ai](https://docs.openclaw.ai)
+[^6]: OpenClaw. Official documentation. <https://docs.openclaw.ai>
 
-[^7]: CodeRabbit. "AI Code Reviews on Pull Requests, IDE, and CLI." [https://docs.coderabbit.ai/](https://docs.coderabbit.ai/)
+[^7]: CodeRabbit. "AI Code Reviews on Pull Requests, IDE, and CLI." <https://docs.coderabbit.ai/>
 
-[^8]: OpenAI. "Codex CLI Documentation." [https://developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
+[^8]: OpenAI. "Codex CLI Documentation." <https://developers.openai.com/codex/cli>
 
-[^9]: ForrestKnight. "Claude Code Open Source Walkthrough" (YouTube). Source referenced in agents-radar digest. [https://www.youtube.com/watch?v=ESwH-_xFS_M](https://www.youtube.com/watch?v=ESwH-_xFS_M)
+[^9]: ForrestKnight. "Claude Code Open Source Walkthrough" (YouTube). Source referenced in agents-radar digest. <https://www.youtube.com/watch?v=ESwH-_xFS_M>
 
-[^10]: OpenAI. "Codex – Lightweight Coding Agent That Runs in Your Terminal." GitHub repository. [https://github.com/openai/codex](https://github.com/openai/codex)
+[^10]: OpenAI. "Codex – Lightweight Coding Agent That Runs in Your Terminal." GitHub repository. <https://github.com/openai/codex>
 
-[^11]: OpenAI. "GPT-5.4 Model Card." Referenced via Codex CLI model selection documentation. [https://developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
+[^11]: OpenAI. "GPT-5.4 Model Card." Referenced via Codex CLI model selection documentation. <https://developers.openai.com/codex/cli>
 
-[^12]: Google. "Conductor: A Context-Driven Gemini CLI Extension." MarkTechPost, 2 February 2026. [https://www.marktechpost.com/2026/02/02/google-releases-conductor-a-context-driven-gemini-cli-extension-that-stores-knowledge-as-markdown-and-orchestrates-agentic-workflows/](https://www.marktechpost.com/2026/02/02/google-releases-conductor-a-context-driven-gemini-cli-extension-that-stores-knowledge-as-markdown-and-orchestrates-agentic-workflows/)
+[^12]: Google. "Conductor: A Context-Driven Gemini CLI Extension." MarkTechPost, 2 February 2026. <https://www.marktechpost.com/2026/02/02/google-releases-conductor-a-context-driven-gemini-cli-extension-that-stores-knowledge-as-markdown-and-orchestrates-agentic-workflows/>
 
 [^13]: OpenAI / Sam Altman. Codex CLI 3 million weekly active users milestone, 8 April 2026. Referenced in codex-resources backlog.
 
-[^14]: OpenAI. "Codex Changelog." [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
+[^14]: OpenAI. "Codex Changelog." <https://developers.openai.com/codex/changelog>
 
-[^15]: Scrimba. "Best Claude Code Tutorials and Courses in 2026." [https://scrimba.com/articles/best-claude-code-tutorials-and-courses-in-2026/](https://scrimba.com/articles/best-claude-code-tutorials-and-courses-in-2026/)
+[^15]: Scrimba. "Best Claude Code Tutorials and Courses in 2026." <https://scrimba.com/articles/best-claude-code-tutorials-and-courses-in-2026/>

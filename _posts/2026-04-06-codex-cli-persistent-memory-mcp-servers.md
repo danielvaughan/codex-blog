@@ -241,14 +241,25 @@ For now, the practical advice is simple: if your sessions regularly exceed 30 mi
 ## Citations
 
 [^1]: [Custom instructions with AGENTS.md – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/guides/agents-md)
+
 [^2]: [Codex CLI Context Compaction — codex-resources](https://danielvaughan.github.io/codex-resources/articles/2026-03-31-codex-cli-context-compaction-architecture/)
+
 [^3]: [OpenAI Codex CLI Memory — Deep Dive — Mervin Praison](https://mer.vin/2025/12/openai-codex-cli-memory-deep-dive/)
+
 [^4]: [Codex CLI Thread Management: Forking, Resuming and Context Lifecycle — codex-resources](https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-cli-thread-management-fork-resume/)
+
 [^5]: [Add Memory bank feature similar to Cline memory bank — Issue #4655 — openai/codex](https://github.com/openai/codex/issues/4655)
+
 [^6]: [AgentMemory: Persistent Memory for AI Coding Agents — GitHub](https://github.com/rohitg00/agentmemory)
+
 [^7]: [Add Memory to OpenAI Codex — Persistent Development Context — Basic Memory](https://docs.basicmemory.com/integrations/codex)
+
 [^8]: [codebase-memory-mcp — High-performance code intelligence MCP server — GitHub](https://github.com/DeusData/codebase-memory-mcp)
+
 [^9]: [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP — arXiv:2603.27277](https://arxiv.org/abs/2603.27277)
+
 [^10]: [Memorix: Open-source cross-agent memory layer — GitHub](https://github.com/AVIDS2/memorix)
+
 [^11]: [Memsearch: A Markdown-first memory system — GitHub](https://github.com/zilliztech/memsearch)
+
 [^12]: [GPT-5.4 Computer Use and Tool Search in Codex CLI — codex-resources](https://danielvaughan.github.io/codex-resources/articles/2026-03-31-gpt54-computer-use-tool-search-codex-cli/)

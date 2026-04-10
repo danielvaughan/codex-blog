@@ -229,14 +229,24 @@ For everything else, a well-crafted prompt with a clear acceptance criterion is 
 
 ## Citations
 
-[^1]: OpenAI Codex documentation — agents read only what you provide in AGENTS.md and the current session context. https://developers.openai.com/codex/cli
-[^2]: "A Practical Path to Spec-Driven Development with Codex", Marcos, March 2026. https://mmarcosab.medium.com/a-practical-path-to-spec-driven-development-with-codex-a3cec3ef554a
-[^3]: "Plan / Spec Mode" — Codex GitHub Discussions #7355, community-adopted SPEC.md format with RFC 2119 requirements. https://github.com/openai/codex/discussions/7355
-[^4]: "The AGENTS.md Bloat Problem", Daniel Vaughan, 2026-03-27. ETH Zurich research-backed finding that over-detailed context files reduce agent success rates. https://danielvaughan.github.io/codex-resources/articles/2026-03-27-agents-md-bloat-problem/
-[^5]: "Using PLANS.md for multi-hour problem solving", OpenAI Cookbook. https://developers.openai.com/cookbook/articles/codex_exec_plans
-[^6]: "Codex Plan Mode: Stop Code Drift with Plan→Execute (2026)", SmartScope. Plan mode on by default from v0.96+; activated via `/plan` or Shift+Tab. https://smartscope.blog/en/generative-ai/chatgpt/codex-plan-mode-complete-guide/
-[^7]: "Test-First Development with Codex: Using TDD as the Agent Feedback Loop", 2026-03-28. https://danielvaughan.github.io/codex-resources/articles/2026-03-28-test-first-development-codex-tdd-feedback-loop/
-[^8]: cc-sdd — Spec-Driven Development for Codex CLI and 7 other agents via `/kiro:spec-*` commands. https://github.com/gotalab/cc-sdd
-[^9]: codex-spec — automated spec-driven workflows for Codex CLI with `.codex-specs/` directory structure. https://github.com/shenli/codex-spec
-[^10]: GitHub Spec-Kit — six-phase SDD with Constitution→Specification→Planning→Tasks→Implementation→Review and Codex Skills support. https://github.com/github/spec-kit
-[^11]: Kiro for Codex — VS Code extension for visual spec management with Codex CLI integration. https://github.com/atman-33/kiro-for-codex
+[^1]: OpenAI Codex documentation — agents read only what you provide in AGENTS.md and the current session context. <https://developers.openai.com/codex/cli>
+
+[^2]: "A Practical Path to Spec-Driven Development with Codex", Marcos, March 2026. <https://mmarcosab.medium.com/a-practical-path-to-spec-driven-development-with-codex-a3cec3ef554a>
+
+[^3]: "Plan / Spec Mode" — Codex GitHub Discussions #7355, community-adopted SPEC.md format with RFC 2119 requirements. <https://github.com/openai/codex/discussions/7355>
+
+[^4]: "The AGENTS.md Bloat Problem", Daniel Vaughan, 2026-03-27. ETH Zurich research-backed finding that over-detailed context files reduce agent success rates. <https://danielvaughan.github.io/codex-resources/articles/2026-03-27-agents-md-bloat-problem/>
+
+[^5]: "Using PLANS.md for multi-hour problem solving", OpenAI Cookbook. <https://developers.openai.com/cookbook/articles/codex_exec_plans>
+
+[^6]: "Codex Plan Mode: Stop Code Drift with Plan→Execute (2026)", SmartScope. Plan mode on by default from v0.96+; activated via `/plan` or Shift+Tab. <https://smartscope.blog/en/generative-ai/chatgpt/codex-plan-mode-complete-guide/>
+
+[^7]: "Test-First Development with Codex: Using TDD as the Agent Feedback Loop", 2026-03-28. <https://danielvaughan.github.io/codex-resources/articles/2026-03-28-test-first-development-codex-tdd-feedback-loop/>
+
+[^8]: cc-sdd — Spec-Driven Development for Codex CLI and 7 other agents via `/kiro:spec-*` commands. <https://github.com/gotalab/cc-sdd>
+
+[^9]: codex-spec — automated spec-driven workflows for Codex CLI with `.codex-specs/` directory structure. <https://github.com/shenli/codex-spec>
+
+[^10]: GitHub Spec-Kit — six-phase SDD with Constitution→Specification→Planning→Tasks→Implementation→Review and Codex Skills support. <https://github.com/github/spec-kit>
+
+[^11]: Kiro for Codex — VS Code extension for visual spec management with Codex CLI integration. <https://github.com/atman-33/kiro-for-codex>

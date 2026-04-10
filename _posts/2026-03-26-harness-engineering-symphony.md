@@ -231,7 +231,11 @@ The three things that make this possible — hermetic tests, machine-readable do
 ## Citations
 
 [^1]: [OpenAI Symphony — GitHub Repository](https://github.com/openai/symphony)
+
 [^2]: Star count not independently verified at time of writing; check the repository directly for the current figure.
+
 [^3]: [Harness engineering: leveraging Codex in an agent-first world — OpenAI Engineering Blog (Ryan Lopopolo)](https://openai.com/index/harness-engineering/)
+
 [^4]: [OpenAI Releases Symphony: An Open Source Agentic Framework — MarkTechPost](https://www.marktechpost.com/2026/03/05/openai-releases-symphony-an-open-source-agentic-framework-for-orchestrating-autonomous-ai-agents-through-structured-scalable-implementation-runs/)
+
 [^5]: [OpenAI Symphony SPEC.md — Limitations and single-agent-per-issue design](https://github.com/openai/symphony/blob/main/SPEC.md)

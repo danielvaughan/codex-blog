@@ -214,14 +214,25 @@ graph LR
 ## Citations
 
 [^1]: OpenAI audit confirming contamination on SWE-bench Verified: [SWE-Bench Pro Leaderboard (2026): Why 46% Beats 81%](https://www.morphllm.com/swe-bench-pro)
+
 [^2]: SWE-bench Pro methodology and score comparisons: [Scale Labs Leaderboard: SWE-Bench Pro (Public Dataset)](https://labs.scale.com/leaderboard/swe_bench_pro_public)
+
 [^3]: Terminal-Bench 2.0 structure, tasks, costs, and Harbor framework: [Terminal-Bench 2.0](https://www.tbench.ai/) and [Terminal-Bench 2.0 launches alongside Harbor — VentureBeat](https://venturebeat.com/ai/terminal-bench-2-0-launches-alongside-harbor-a-new-framework-for-testing)
+
 [^4]: SWE-bench origin, methodology (Princeton, 12 repos, 2,294 tasks): [GitHub — SWE-bench/SWE-bench](https://github.com/SWE-bench/SWE-bench)
+
 [^5]: SWE-bench pass/fail evaluation and patch-application methodology: [Introducing SWE-bench Verified — OpenAI](https://openai.com/index/introducing-swe-bench-verified/)
+
 [^6]: SWE-bench Verified: 500 human-validated tasks released August 2024: [Introducing SWE-bench Verified — OpenAI](https://openai.com/index/introducing-swe-bench-verified/)
+
 [^7]: GPT-5.3-Codex benchmark scores (SWE-bench Pro 56.8%, Terminal-Bench 2.0 77.3%): [OpenAI debuts GPT-5.3-Codex — Neowin](https://www.neowin.net/news/openai-debuts-gpt-53-codex-25-faster-and-setting-new-coding-benchmark-records/)
+
 [^8]: Terminal-Bench 2.0 leaderboard top scores (March 2026): [Terminal-Bench 2.0 — tbench.ai](https://www.tbench.ai/)
+
 [^9]: Codex CLI resolution rate increase (52%) from model upgrade on Terminal-Bench: [Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in CLI](https://arxiv.org/abs/2601.11868)
+
 [^10]: Confucius Code Agent outperforming higher-capability model via scaffold: [Confucius Code Agent — arXiv](https://arxiv.org/html/2512.10398v3)
+
 [^11]: Goodhart's Law in AI agent benchmarks: [Goodhart's Law Is Now an AI Agent Problem — DEV Community](https://dev.to/askpatrick/goodharts-law-is-now-an-ai-agent-problem-4k77)
+
 [^12]: SWE-EVO benchmark showing 21% vs 65% gap, enterprise codebase performance: [SWE-EVO: Benchmarking Coding Agents — arXiv](https://arxiv.org/html/2512.18470v1)

@@ -321,9 +321,14 @@ This preserves context across steps without re-loading all files — cheaper and
 
 ## Citations
 
-[^1]: https://developers.openai.com/codex/cli/reference — Codex CLI command line reference; documents `codex exec` as the non-interactive execution subcommand
-[^2]: https://developers.openai.com/codex/cli/reference — Codex CLI command line reference; documents `--full-auto`, `--ephemeral`, `--json`, `--output-last-message` (`-o`), `--output-schema`, `--skip-git-repo-check`, `--sandbox`, `--profile`, session `resume` subcommand with `--last` flag
-[^3]: https://github.com/openai/codex-action — openai/codex-action repository; documents action inputs (`openai-api-key`, `prompt`, `prompt-file`, `sandbox`, `safety-strategy`, `model`, `effort`, `output-file`, `codex-args`), output (`final-message`), and sandbox modes (`workspace-write`, `read-only`, `danger-full-access`)
-[^4]: https://developers.openai.com/codex/github-action — OpenAI Developers: GitHub Action guide; documents safety strategies (`drop-sudo`, `unprivileged-user`, `unsafe`), Windows-only restriction on `unsafe`, and the permanent nature of `drop-sudo` within a job
-[^5]: https://github.com/openai/codex/releases — openai/codex releases page; v0.117.0 is in alpha as of 2026-03-26; `PostToolUse` hook not yet confirmed in a stable release
-[^6]: https://developers.openai.com/codex/changelog — Codex changelog; v0.115.0 (2026-03-16) introduced the Python SDK for API integration via app-server filesystem RPCs
+[^1]: <https://developers.openai.com/codex/cli/reference> — Codex CLI command line reference; documents `codex exec` as the non-interactive execution subcommand
+
+[^2]: <https://developers.openai.com/codex/cli/reference> — Codex CLI command line reference; documents `--full-auto`, `--ephemeral`, `--json`, `--output-last-message` (`-o`), `--output-schema`, `--skip-git-repo-check`, `--sandbox`, `--profile`, session `resume` subcommand with `--last` flag
+
+[^3]: <https://github.com/openai/codex-action> — openai/codex-action repository; documents action inputs (`openai-api-key`, `prompt`, `prompt-file`, `sandbox`, `safety-strategy`, `model`, `effort`, `output-file`, `codex-args`), output (`final-message`), and sandbox modes (`workspace-write`, `read-only`, `danger-full-access`)
+
+[^4]: <https://developers.openai.com/codex/github-action> — OpenAI Developers: GitHub Action guide; documents safety strategies (`drop-sudo`, `unprivileged-user`, `unsafe`), Windows-only restriction on `unsafe`, and the permanent nature of `drop-sudo` within a job
+
+[^5]: <https://github.com/openai/codex/releases> — openai/codex releases page; v0.117.0 is in alpha as of 2026-03-26; `PostToolUse` hook not yet confirmed in a stable release
+
+[^6]: <https://developers.openai.com/codex/changelog> — Codex changelog; v0.115.0 (2026-03-16) introduced the Python SDK for API integration via app-server filesystem RPCs

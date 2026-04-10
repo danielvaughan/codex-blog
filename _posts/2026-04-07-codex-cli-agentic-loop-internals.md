@@ -269,13 +269,23 @@ The Codex CLI agentic loop is not a simple prompt-response cycle. It is a produc
 ## Citations
 
 [^1]: [Architecture Overview — openai/codex — DeepWiki](https://deepwiki.com/openai/codex)
+
 [^2]: [Building Production-Ready AI Agents: OpenAI Codex CLI Architecture and Agent Loop Design — ZenML](https://www.zenml.io/llmops-database/building-production-ready-ai-agents-openai-codex-cli-architecture-and-agent-loop-design)
+
 [^3]: [Codex CLI: The Definitive Technical Reference — Blake Crosley](https://blakecrosley.com/guides/codex)
+
 [^4]: [Sandboxing and Security Policies — openai/codex — DeepWiki](https://deepwiki.com/openai/codex/6.3-configuration-management)
+
 [^5]: [Agent approvals & security — Codex — OpenAI Developers](https://developers.openai.com/codex/agent-approvals-security)
+
 [^6]: [A deep dive on agent sandboxes — Pierce Freeman](https://pierce.dev/notes/a-deep-dive-on-agent-sandboxes)
+
 [^7]: [Codex CLI vs Claude Code in 2026: Architecture Deep Dive — Blake Crosley](https://blakecrosley.com/blog/codex-vs-claude-code-2026)
+
 [^8]: [How Codex Solves the Compaction Problem Differently — Tony Lee](https://tonylee.im/en/blog/codex-compaction-encrypted-summary-session-handover/)
+
 [^9]: [Context Compaction Research: Claude Code, Codex CLI, OpenCode, Amp — GitHub Gist](https://gist.github.com/badlogic/cd2ef65b0697c4dbe2d13fbecb0a0a5f)
+
 [^10]: [Automatically compacting context — OpenAI Developer Community](https://community.openai.com/t/automatically-compacting-context/1376290)
+
 [^11]: [Unlocking the Codex harness: how we built the App Server — OpenAI](https://openai.com/index/unlocking-the-codex-harness/)

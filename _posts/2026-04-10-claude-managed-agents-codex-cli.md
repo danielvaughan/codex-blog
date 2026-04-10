@@ -200,31 +200,31 @@ For teams already invested in Codex CLI, Managed Agents is not a replacement —
 
 ## Citations
 
-[^1]: Anthropic, "Claude Managed Agents: get to production 10x faster", claude.com/blog, 8 April 2026. [https://claude.com/blog/claude-managed-agents](https://claude.com/blog/claude-managed-agents)
+[^1]: Anthropic, "Claude Managed Agents: get to production 10x faster", claude.com/blog, 8 April 2026. <https://claude.com/blog/claude-managed-agents>
 
-[^2]: The Decoder, "Anthropic launches managed infrastructure for autonomous AI agents", 9 April 2026. [https://the-decoder.com/anthropic-launches-managed-infrastructure-for-autonomous-ai-agents/](https://the-decoder.com/anthropic-launches-managed-infrastructure-for-autonomous-ai-agents/)
+[^2]: The Decoder, "Anthropic launches managed infrastructure for autonomous AI agents", 9 April 2026. <https://the-decoder.com/anthropic-launches-managed-infrastructure-for-autonomous-ai-agents/>
 
-[^3]: Anthropic, "Claude Managed Agents overview", Claude API Docs. [https://platform.claude.com/docs/en/managed-agents/overview](https://platform.claude.com/docs/en/managed-agents/overview)
+[^3]: Anthropic, "Claude Managed Agents overview", Claude API Docs. <https://platform.claude.com/docs/en/managed-agents/overview>
 
-[^4]: Anthropic, "Tools — Claude Managed Agents", Claude API Docs. [https://platform.claude.com/docs/en/managed-agents/tools](https://platform.claude.com/docs/en/managed-agents/tools)
+[^4]: Anthropic, "Tools — Claude Managed Agents", Claude API Docs. <https://platform.claude.com/docs/en/managed-agents/tools>
 
 [^5]: unicodeveloper, "Claude Managed Agents: Honest Pros and Cons",
 Medium, April 2026. [Medium article](https://medium.com/@unicodeveloper/claude-managed-agents-what-it-actually-offers-the-honest-pros-and-cons-and-how-to-run-agents-52369e5cff14)
 
-8 April 2026. [SiliconANGLE article](https://siliconangle.com/2026/04/08/anthropic-launches-claude-managed-agents-speed-ai-agent-development/)
+[^6]: SiliconANGLE, "Anthropic launches Claude Managed Agents to speed AI agent development", 8 April 2026. [SiliconANGLE article](https://siliconangle.com/2026/04/08/anthropic-launches-claude-managed-agents-speed-ai-agent-development/)
 
-[^7]: OpenAI, "Codex CLI", GitHub. [https://github.com/openai/codex](https://github.com/openai/codex)
+[^7]: OpenAI, "Codex CLI", GitHub. <https://github.com/openai/codex>
 
-[^8]: OpenAI Developers, "Codex CLI Approval Modes and Sandbox", Codex Documentation. [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced)
+[^8]: OpenAI Developers, "Codex CLI Approval Modes and Sandbox", Codex Documentation. <https://developers.openai.com/codex/config-advanced>
 
-[^9]: danielvaughan, "Codex CLI Custom Model Providers: Azure, Vercel, Local LLMs and Dynamic Bearer Tokens", codex.danielvaughan.com, 31 March 2026. [https://codex.danielvaughan.com/2026/03/31/codex-cli-custom-model-providers/](https://codex.danielvaughan.com/2026/03/31/codex-cli-custom-model-providers/)
+[^9]: danielvaughan, "Codex CLI Custom Model Providers: Azure, Vercel, Local LLMs and Dynamic Bearer Tokens", codex.danielvaughan.com, 31 March 2026. <https://codex.danielvaughan.com/2026/03/31/codex-cli-custom-model-providers/>
 
-[^10]: Northflank, "Claude Code vs OpenAI Codex: which is better in 2026?". [https://northflank.com/blog/claude-code-vs-openai-codex](https://northflank.com/blog/claude-code-vs-openai-codex)
+[^10]: Northflank, "Claude Code vs OpenAI Codex: which is better in 2026?". <https://northflank.com/blog/claude-code-vs-openai-codex>
 
-[^11]: OpenAI Developers, "Subagents — Codex". [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+[^11]: OpenAI Developers, "Subagents — Codex". <https://developers.openai.com/codex/subagents>
 
-[^12]: danielvaughan, "Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv", codex.danielvaughan.com, 26 March 2026. [https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/](https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/)
+[^12]: danielvaughan, "Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv", codex.danielvaughan.com, 26 March 2026. <https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/>
 
-[^13]: Google Developers Blog, "Announcing the Agent2Agent Protocol (A2A)". [https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
+[^13]: Google Developers Blog, "Announcing the Agent2Agent Protocol (A2A)". <https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/>
 
-[^14]: OpenAI Developers, "Use Codex with the Agents SDK". [https://developers.openai.com/codex/guides/agents-sdk](https://developers.openai.com/codex/guides/agents-sdk)
+[^14]: OpenAI Developers, "Use Codex with the Agents SDK". <https://developers.openai.com/codex/guides/agents-sdk>

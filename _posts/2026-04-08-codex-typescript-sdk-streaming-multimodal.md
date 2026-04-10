@@ -382,8 +382,13 @@ The Codex TypeScript SDK provides the programmatic surface needed to embed Codex
 ## Citations
 
 [^1]: [Codex TypeScript SDK README — GitHub](https://github.com/openai/codex/blob/main/sdk/typescript/README.md)
+
 [^2]: [@openai/codex-sdk — npm](https://www.npmjs.com/package/@openai/codex-sdk)
+
 [^3]: [OpenAI Codex SDK — Promptfoo Documentation](https://www.promptfoo.dev/docs/providers/openai-codex-sdk/)
+
 [^4]: [Release v0.117.0 — openai/codex GitHub](https://github.com/openai/codex/releases/tag/rust-v0.117.0)
+
 [^5]: [Codex SDK Usage — OpenAI Developer Documentation](https://www.mintlify.com/openai/codex/sdk/usage)
+
 [^6]: [Codex Changelog — OpenAI Developers](https://developers.openai.com/codex/changelog)

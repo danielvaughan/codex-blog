@@ -491,12 +491,21 @@ The enforcement layer and runtime layer must both be configured — `requirement
 ## Citations
 
 [^1]: [Agent approvals & security – Codex | OpenAI Developers](https://developers.openai.com/codex/agent-approvals-security)
+
 [^2]: [Managed configuration – Codex | OpenAI Developers](https://developers.openai.com/codex/enterprise/managed-configuration)
+
 [^3]: [Configuration Reference – Codex | OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^4]: [Linux sandbox README – openai/codex on GitHub](https://github.com/openai/codex/blob/main/codex-rs/linux-sandbox/README.md)
+
 [^5]: [Sandboxing – Codex | OpenAI Developers](https://developers.openai.com/codex/concepts/sandboxing)
+
 [^6]: [Session/Rollout Files discussion – openai/codex GitHub Discussions #3827](https://github.com/openai/codex/discussions/3827)
+
 [^7]: [Agent internet access – Codex web | OpenAI Developers](https://developers.openai.com/codex/cloud/internet-access)
+
 [^8]: [Agent approvals & security – Codex | OpenAI Developers](https://developers.openai.com/codex/agent-approvals-security)
+
 [^9]: [Codex CLI Changelog – v0.93.0, ~Dec 2025](https://developers.openai.com/codex/changelog) — SOCKS5 proxy support with policy enforcement
+
 [^10]: [Codex App-Server README – GitHub openai/codex](https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md) — Bearer-token auth modes and non-loopback caveats

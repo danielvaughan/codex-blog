@@ -335,12 +335,21 @@ This top-down approach moves from cheap (no restart required) to expensive (rest
 ## Citations
 
 [^1]: [codex-rs README — OpenAI Codex GitHub repository](https://github.com/openai/codex/blob/main/codex-rs/README.md)
+
 [^2]: [Tracing & Verbose Logging — Codex CLI Advanced Documentation](https://www.mintlify.com/openai/codex/advanced/tracing)
+
 [^3]: [Codex CLI Logs: Location, Debug Flags & 401 Error Fix — SmartScope](https://smartscope.blog/en/generative-ai/chatgpt/codex-cli-diagnostic-logs-deep-dive/)
+
 [^4]: [Slash Commands in Codex CLI — OpenAI Developers](https://developers.openai.com/codex/cli/slash-commands)
+
 [^5]: [Configuration Reference — Codex OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^6]: [Sandboxing Architecture — Codex CLI Documentation](https://www.mintlify.com/openai/codex/architecture/sandboxing)
+
 [^7]: [Command Line Options — Codex CLI Reference — OpenAI Developers](https://developers.openai.com/codex/cli/reference)
+
 [^8]: [Execution Policy (execpolicy) README — OpenAI Codex GitHub](https://github.com/openai/codex/blob/main/codex-rs/execpolicy/README.md)
+
 [^9]: [Codex CLI OpenTelemetry: Observability and Metrics in Production — Codex Resources](https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-cli-opentelemetry-observability/)
+
 [^10]: [Codex CLI Session Analytics: Mining the JSONL Rollout Format — Codex Resources](https://danielvaughan.github.io/codex-resources/articles/2026-03-30-codex-cli-session-analytics-jsonl-rollout/)

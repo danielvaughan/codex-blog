@@ -177,9 +177,15 @@ Codex CLI's image capabilities as of v0.117.0 cover three distinct workflows: im
 ## Citations
 
 [^1]: [Release rust-v0.117.0 · openai/codex · GitHub](https://github.com/openai/codex/releases/tag/rust-v0.117.0) — Full release notes for v0.117.0, March 26, 2026.
+
 [^2]: [Features – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features) — Official documentation covering `--image` / `-i` flag, paste, and drag-and-drop image attachment.
+
 [^3]: [PR #15072: Return image URL from view_image tool · openai/codex](https://github.com/openai/codex/pull/15072) — Code mode integration enabling `view_image` to return resolvable image URLs (`@pakrym-oai`).
+
 [^4]: [Releasebot – Codex by OpenAI, March 2026](https://releasebot.io/updates/openai/codex) — v0.115.0 (March 16, 2026): full-resolution image inspection upgrade.
+
 [^5]: [Discussion #2085: Can Codex CLI see the images? · openai/codex](https://github.com/openai/codex/discussions/2085) — Community discussion on autonomous path-based image reading limitations; confirms `--image` flag as the reliable attachment method.
+
 [^6]: [Introducing the Codex App | OpenAI](https://openai.com/index/introducing-the-codex-app/) — Codex App's "Generate Images" skill powered by GPT Image.
+
 [^7]: [Discussion #592: Image Generation for Web Projects · openai/codex](https://github.com/openai/codex/discussions/592) — Community feature request noting that the CLI does not yet natively wire up the newest image generator.

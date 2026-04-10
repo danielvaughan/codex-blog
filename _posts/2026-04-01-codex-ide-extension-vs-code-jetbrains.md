@@ -227,28 +227,28 @@ These gaps reflect the different interaction models: the CLI is a terminal-nativ
 
 ## Citations
 
-[^1]: OpenAI Developers, "IDE extension – Codex", 2026 — [https://developers.openai.com/codex/ide](https://developers.openai.com/codex/ide)
+[^1]: OpenAI Developers, "IDE extension – Codex", 2026 — <https://developers.openai.com/codex/ide>
 
-[^2]: OpenAI Help Center, "Using Codex with your ChatGPT plan", 2026 — [https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)
+[^2]: OpenAI Help Center, "Using Codex with your ChatGPT plan", 2026 — <https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan>
 
-[^3]: JetBrains AI Blog, "Codex Is Now Integrated Into JetBrains IDEs", January 2026 — [https://blog.jetbrains.com/ai/2026/01/codex-in-jetbrains-ides/](https://blog.jetbrains.com/ai/2026/01/codex-in-jetbrains-ides/)
+[^3]: JetBrains AI Blog, "Codex Is Now Integrated Into JetBrains IDEs", January 2026 — <https://blog.jetbrains.com/ai/2026/01/codex-in-jetbrains-ides/>
 
-[^4]: Neowin, "OpenAI's Codex extension is now available for JetBrains IDEs", January 2026 — [https://www.neowin.net/news/openais-codex-extension-is-now-available-for-jetbrains-ides/](https://www.neowin.net/news/openais-codex-extension-is-now-available-for-jetbrains-ides/)
+[^4]: Neowin, "OpenAI's Codex extension is now available for JetBrains IDEs", January 2026 — <https://www.neowin.net/news/openais-codex-extension-is-now-available-for-jetbrains-ides/>
 
-[^5]: OpenAI Developers, "Models – Codex", 2026 — [https://developers.openai.com/codex/models](https://developers.openai.com/codex/models)
+[^5]: OpenAI Developers, "Models – Codex", 2026 — <https://developers.openai.com/codex/models>
 
-[^6]: OpenAI Developers, "Features – Codex IDE", 2026 — [https://developers.openai.com/codex/ide/features](https://developers.openai.com/codex/ide/features)
+[^6]: OpenAI Developers, "Features – Codex IDE", 2026 — <https://developers.openai.com/codex/ide/features>
 
-[^7]: OpenAI Developers, "Configuration Reference – Codex", 2026 — [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
+[^7]: OpenAI Developers, "Configuration Reference – Codex", 2026 — <https://developers.openai.com/codex/config-reference>
 
-[^8]: OpenAI Developers, "Settings – Codex IDE", 2026 — [https://developers.openai.com/codex/ide/settings](https://developers.openai.com/codex/ide/settings)
+[^8]: OpenAI Developers, "Settings – Codex IDE", 2026 — <https://developers.openai.com/codex/ide/settings>
 
-[^9]: OpenAI Developers, "Commands – Codex IDE", 2026 — [https://developers.openai.com/codex/ide/commands](https://developers.openai.com/codex/ide/commands)
+[^9]: OpenAI Developers, "Commands – Codex IDE", 2026 — <https://developers.openai.com/codex/ide/commands>
 
-[^10]: LaoZhang AI Blog, "Claude Code vs Codex in 2026: Steer Live or Delegate Async?", 2026 — [https://blog.laozhang.ai/en/posts/claude-code-vs-codex](https://blog.laozhang.ai/en/posts/claude-code-vs-codex)
+[^10]: LaoZhang AI Blog, "Claude Code vs Codex in 2026: Steer Live or Delegate Async?", 2026 — <https://blog.laozhang.ai/en/posts/claude-code-vs-codex>
 
-[^11]: Visual Studio Code Blog, "Your Home for Multi-Agent Development", February 2026 — [https://code.visualstudio.com/blogs/2026/02/05/multi-agent-development](https://code.visualstudio.com/blogs/2026/02/05/multi-agent-development)
+[^11]: Visual Studio Code Blog, "Your Home for Multi-Agent Development", February 2026 — <https://code.visualstudio.com/blogs/2026/02/05/multi-agent-development>
 
-[^12]: Visual Studio Code Docs, "Third-party agents in Visual Studio Code", 2026 — [https://code.visualstudio.com/docs/copilot/agents/third-party-agents](https://code.visualstudio.com/docs/copilot/agents/third-party-agents)
+[^12]: Visual Studio Code Docs, "Third-party agents in Visual Studio Code", 2026 — <https://code.visualstudio.com/docs/copilot/agents/third-party-agents>
 
-[^13]: Visual Studio Magazine, "Claude Code Edges OpenAI's Codex in VS Code's Agentic AI Marketplace Leaderboard", February 2026 — [https://visualstudiomagazine.com/articles/2026/02/26/claude-code-edges-openais-codex-in-vs-codes-agentic-ai-marketplace-leaderboard.aspx](https://visualstudiomagazine.com/articles/2026/02/26/claude-code-edges-openais-codex-in-vs-codes-agentic-ai-marketplace-leaderboard.aspx)
+[^13]: Visual Studio Magazine, "Claude Code Edges OpenAI's Codex in VS Code's Agentic AI Marketplace Leaderboard", February 2026 — <https://visualstudiomagazine.com/articles/2026/02/26/claude-code-edges-openais-codex-in-vs-codes-agentic-ai-marketplace-leaderboard.aspx>

@@ -405,12 +405,20 @@ The single biggest enabler for Java + Codex is the Maven proxy configuration. On
 
 ## Citations
 
-[^1]: OpenAI Developer Community — "Codex unable to access Java Maven repository": [https://community.openai.com/t/codex-unable-to-access-java-maven-repository/1266455](https://community.openai.com/t/codex-unable-to-access-java-maven-repository/1266455)
+[^1]: OpenAI Developer Community — "Codex unable to access Java Maven repository": <https://community.openai.com/t/codex-unable-to-access-java-maven-repository/1266455>
 
-[^2]: Below the Line Blog — "Getting Java & Spring Boot builds to run inside OpenAI Codex when Maven Central is 'unreachable'": [https://belowtheline.blog/2025/06/23/getting-java-spring-boot-builds-to-run-inside-openai-codex-when-maven-central-is-unreachable/](https://belowtheline.blog/2025/06/23/getting-java-spring-boot-builds-to-run-inside-openai-codex-when-maven-central-is-unreachable/)
+[^2]: Below the Line Blog — "Getting Java & Spring Boot builds to run inside OpenAI Codex when Maven Central is 'unreachable'": <https://belowtheline.blog/2025/06/23/getting-java-spring-boot-builds-to-run-inside-openai-codex-when-maven-central-is-unreachable/>
 
-[^5]: GitHub Gist (sflandergan) — "AGENTS.md Template for Spring Boot Kotlin": [https://gist.github.com/sflandergan/3eab31b1e9efe8d405b03102e7f5b7a5](https://gist.github.com/sflandergan/3eab31b1e9efe8d405b03102e7f5b7a5)
+[^3]: Gradle documentation — "Dependency management: offline mode": <https://docs.gradle.org/current/userguide/dependency_management.html>
 
-[^8]: OpenAI Codex Action — GitHub Actions integration: [https://github.com/openai/codex-action](https://github.com/openai/codex-action)
+[^4]: OpenAI Developers — "Temporal case study: Using Codex to improve the Java SDK": <https://developers.openai.com/codex/case-studies/temporal>
 
-[^9]: OpenAI Developer Community — "Issue with Running Java Maven Tests in Codex – Dependency Resolution Failure": [https://community.openai.com/t/issue-with-running-java-maven-tests-in-codex-dependency-resolution-failure/1283045](https://community.openai.com/t/issue-with-running-java-maven-tests-in-codex-dependency-resolution-failure/1283045)
+[^5]: GitHub Gist (sflandergan) — "AGENTS.md Template for Spring Boot Kotlin": <https://gist.github.com/sflandergan/3eab31b1e9efe8d405b03102e7f5b7a5>
+
+[^6]: Testcontainers documentation — "Docker environment requirements": <https://java.testcontainers.org/supported_docker_environment/>
+
+[^7]: OpenAI Developers — "Codex CLI subagents": <https://developers.openai.com/codex/subagents>
+
+[^8]: OpenAI Codex Action — GitHub Actions integration: <https://github.com/openai/codex-action>
+
+[^9]: OpenAI Developer Community — "Issue with Running Java Maven Tests in Codex – Dependency Resolution Failure": <https://community.openai.com/t/issue-with-running-java-maven-tests-in-codex-dependency-resolution-failure/1283045>

@@ -220,11 +220,18 @@ The goal is not to eliminate evaluation cost. It is to match the evaluation inve
 
 ## Citations
 
-[^1]: Anthropic, "Skill Creator," skills.sh, 2026. [https://skills.sh/anthropics/skills/skill-creator](https://skills.sh/anthropics/skills/skill-creator)
-[^2]: Tessl, "Anthropic brings evals to skill-creator. Here's why that's a big deal," tessl.io, March 2026. [https://tessl.io/blog/anthropic-brings-evals-to-skill-creator-heres-why-thats-a-big-deal/](https://tessl.io/blog/anthropic-brings-evals-to-skill-creator-heres-why-thats-a-big-deal/)
-[^3]: The Tool Nerd, "Anthropic Skill Creator 2.0 Update: Evals, Benchmarks, and Multi-Agent Testing Explained," thetoolnerd.com, 2026. [https://www.thetoolnerd.com/p/anthropic-skill-creator-20-update](https://www.thetoolnerd.com/p/anthropic-skill-creator-20-update)
-[^4]: Debbie O'Brien, "I Used Skill Creator v2 to Improve One of My Agent Skills in VS Code," DEV Community, 2026. [https://dev.to/debs_obrien/i-used-skill-creator-v2-to-improve-one-of-my-agent-skills-in-vs-code-fhd](https://dev.to/debs_obrien/i-used-skill-creator-v2-to-improve-one-of-my-agent-skills-in-vs-code-fhd)
+[^1]: Anthropic, "Skill Creator," skills.sh, 2026. <https://skills.sh/anthropics/skills/skill-creator>
+
+[^2]: Tessl, "Anthropic brings evals to skill-creator. Here's why that's a big deal," tessl.io, March 2026. <https://tessl.io/blog/anthropic-brings-evals-to-skill-creator-heres-why-thats-a-big-deal/>
+
+[^3]: The Tool Nerd, "Anthropic Skill Creator 2.0 Update: Evals, Benchmarks, and Multi-Agent Testing Explained," thetoolnerd.com, 2026. <https://www.thetoolnerd.com/p/anthropic-skill-creator-20-update>
+
+[^4]: Debbie O'Brien, "I Used Skill Creator v2 to Improve One of My Agent Skills in VS Code," DEV Community, 2026. <https://dev.to/debs_obrien/i-used-skill-creator-v2-to-improve-one-of-my-agent-skills-in-vs-code-fhd>
+
 [^5]: Alan Hemmings, discussion on skill evaluation economics and enterprise skill automation, 2026. ⚠️ Source from verbal discussion; no permanent URL available.
-[^6]: OpenAI, "Testing Agent Skills Systematically with Evals," OpenAI Developers Blog, January 2026. [https://developers.openai.com/blog/eval-skills](https://developers.openai.com/blog/eval-skills)
-[^7]: OpenAI, "Configuration Reference — Codex," OpenAI Developers, 2026. [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
-[^8]: OpenAI, "Subagents — Codex," OpenAI Developers, 2026. [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+
+[^6]: OpenAI, "Testing Agent Skills Systematically with Evals," OpenAI Developers Blog, January 2026. <https://developers.openai.com/blog/eval-skills>
+
+[^7]: OpenAI, "Configuration Reference — Codex," OpenAI Developers, 2026. <https://developers.openai.com/codex/config-reference>
+
+[^8]: OpenAI, "Subagents — Codex," OpenAI Developers, 2026. <https://developers.openai.com/codex/subagents>

@@ -261,17 +261,32 @@ Codex CLI adds genuine value in IaC workflows when used in the right role: scaff
 
 ## Citations
 
-[^1]: Codex CLI AGENTS.md guide — [https://developers.openai.com/codex/guides/agents-md](https://developers.openai.com/codex/guides/agents-md)
-[^3]: AGENTS.md open standard (Linux Foundation) — [https://agents.md/](https://agents.md/)
-[^4]: HCP Terraform Stacks GA announcement — [https://www.hashicorp.com/blog/terraform-stacks-general-availability](https://www.hashicorp.com/blog/terraform-stacks-general-availability)
-[^5]: NSync: AI-Agents for Automated Infrastructure Reconciliation (arXiv, 2025) — [https://arxiv.org/html/2510.20211v1](https://arxiv.org/html/2510.20211v1)
-[^6]: AI-Driven Drift Detection in AWS (DevOps.com) — [https://devops.com/ai-driven-drift-detection-in-aws-terraform-meets-intelligence/](https://devops.com/ai-driven-drift-detection-in-aws-terraform-meets-intelligence/)
-[^7]: Ansible Molecule documentation — [https://docs.ansible.com/projects/molecule/](https://docs.ansible.com/projects/molecule/)
-[^8]: Five Best Ansible Playbook Scanning Tools 2026 (Steampunk/XLAB) — [https://steampunk.si/spotter/blog/five-best-ansible-playbook-scanning-tools/](https://steampunk.si/spotter/blog/five-best-ansible-playbook-scanning-tools/)
-[^9]: Red Hat Ansible Certified Content for HashiCorp Terraform and Vault (November 2025) — [https://www.redhat.com/en/blog/new-ansible-certified-content-hashicorp-terraformvault](https://www.redhat.com/en/blog/new-ansible-certified-content-hashicorp-terraformvault)
-[^10]: Codex CLI subagents documentation — [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
-[^11]: Codex CLI agent approvals and security model — [https://developers.openai.com/codex/agent-approvals-security](https://developers.openai.com/codex/agent-approvals-security)
-[^12]: GitHub issue #1397: Configurable file exclusion for sensitive files — [https://github.com/openai/codex/issues/1397](https://github.com/openai/codex/issues/1397)
-[^13]: CVE-2025-61260: Codex CLI Command Injection Vulnerability (Check Point Research) — [https://research.checkpoint.com/2025/openai-codex-cli-command-injection-vulnerability/](https://research.checkpoint.com/2025/openai-codex-cli-command-injection-vulnerability/)
-[^14]: OpenAI Codex GitHub Action — [https://developers.openai.com/codex/github-action](https://developers.openai.com/codex/github-action)
-[^15]: Codex CLI GitLab secure quality cookbook — [https://developers.openai.com/cookbook/examples/codex/secure_quality_gitlab](https://developers.openai.com/cookbook/examples/codex/secure_quality_gitlab)
+[^1]: Codex CLI AGENTS.md guide — <https://developers.openai.com/codex/guides/agents-md>
+
+[^2]: CDKTF end-of-life announcement (December 2025) — <https://www.hashicorp.com/blog/cdktf-end-of-life>
+
+[^3]: AGENTS.md open standard (Linux Foundation) — <https://agents.md/>
+
+[^4]: HCP Terraform Stacks GA announcement — <https://www.hashicorp.com/blog/terraform-stacks-general-availability>
+
+[^5]: NSync: AI-Agents for Automated Infrastructure Reconciliation (arXiv, 2025) — <https://arxiv.org/html/2510.20211v1>
+
+[^6]: AI-Driven Drift Detection in AWS (DevOps.com) — <https://devops.com/ai-driven-drift-detection-in-aws-terraform-meets-intelligence/>
+
+[^7]: Ansible Molecule documentation — <https://docs.ansible.com/projects/molecule/>
+
+[^8]: Five Best Ansible Playbook Scanning Tools 2026 (Steampunk/XLAB) — <https://steampunk.si/spotter/blog/five-best-ansible-playbook-scanning-tools/>
+
+[^9]: Red Hat Ansible Certified Content for HashiCorp Terraform and Vault (November 2025) — <https://www.redhat.com/en/blog/new-ansible-certified-content-hashicorp-terraformvault>
+
+[^10]: Codex CLI subagents documentation — <https://developers.openai.com/codex/subagents>
+
+[^11]: Codex CLI agent approvals and security model — <https://developers.openai.com/codex/agent-approvals-security>
+
+[^12]: GitHub issue #1397: Configurable file exclusion for sensitive files — <https://github.com/openai/codex/issues/1397>
+
+[^13]: CVE-2025-61260: Codex CLI Command Injection Vulnerability (Check Point Research) — <https://research.checkpoint.com/2025/openai-codex-cli-command-injection-vulnerability/>
+
+[^14]: OpenAI Codex GitHub Action — <https://developers.openai.com/codex/github-action>
+
+[^15]: Codex CLI GitLab secure quality cookbook — <https://developers.openai.com/cookbook/examples/codex/secure_quality_gitlab>

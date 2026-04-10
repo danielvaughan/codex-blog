@@ -151,18 +151,33 @@ The rate-limit complaints suggest the answer is "not yet, not seamlessly." But t
 ## Citations
 
 [^1]: Sam Altman, announcement on Threads/X, 8 April 2026. Reported by [Techmeme](https://www.techmeme.com/260408/p7).
+
 [^2]: [OpenAI Resets Codex Usage Limits After Reaching 3 Million Weekly Users — Technobezz](https://www.technobezz.com/news/openai-resets-codex-usage-limits-after-reaching-3-million-weekly-users)
+
 [^3]: [OpenAI's Codex App Hits 1 Million Downloads — techbuddies.io](https://www.techbuddies.io/2026/02/10/openais-codex-app-hits-1-million-downloads-as-agentic-coding-enters-the-enterprise-mainstream/)
+
 [^4]: [OpenAI sees Codex users spike to 1.6 million, positions coding tool as gateway to AI agents for business — Fortune](https://fortune.com/2026/03/04/openai-codex-growth-enterprise-ai-agents/)
+
 [^5]: [Arbitrary usage resets resulting in an overall loss of tokens — GitHub Issue #16785](https://github.com/openai/codex/issues/16785)
+
 [^6]: [OpenAI Codex celebrates 3 million weekly users, CEO Sam Altman resets usage limits — BusinessToday](https://www.businesstoday.in/technology/story/openai-codex-celebrates-3-million-weekly-users-ceo-sam-altman-resets-usage-limits-524717-2026-04-08)
+
 [^7]: [Codex now offers pay-as-you-go pricing for teams — OpenAI](https://openai.com/index/codex-flexible-pricing-for-teams/)
+
 [^8]: [AI Coding: OpenAI Switches Codex to Pay-as-You-Go, Cuts Seat Cost to $20 — WinBuzzer](https://winbuzzer.com/2026/04/04/openai-switches-codex-pay-as-you-go-pricing-cuts-business-seat-cost-xcxwbn/)
+
 [^9]: [OpenAI Adds Pay-As-You-Go Codex Seats for ChatGPT Business and Enterprise Teams — gHacks](https://www.ghacks.net/2026/04/03/openai-adds-pay-as-you-go-codex-seats-for-chatgpt-business-and-enterprise-teams/)
+
 [^10]: [CODEX LIMITS - FINALLY GOOD after April 1st reset — OpenAI Developer Community](https://community.openai.com/t/codex-limits-finally-good-after-april-1st-reset/1378333)
+
 [^11]: [Rate Limits going CRAZY?? — GitHub Issue #16848](https://github.com/openai/codex/issues/16848)
+
 [^12]: [Frustrated with arbitrary weekly limit resets — GitHub Issue #16423](https://github.com/openai/codex/issues/16423)
+
 [^13]: [Codex - Usage after the limit reset update, single prompt eats 7% of weekly limits - Plus tier — OpenAI Developer Community](https://community.openai.com/t/codex-usage-after-the-limit-reset-update-single-prompt-eats-7-of-weekly-limits-plus-tier/1365284)
+
 [^14]: [Are Codex Pro limits now stricter after the recent update too? — OpenAI Developer Community](https://community.openai.com/t/are-codex-pro-limits-now-stricter-after-the-recent-update-too/1364809)
+
 [^15]: [Codex rate card — OpenAI Help Center](https://help.openai.com/en/articles/20001106-codex-rate-card)
+
 [^16]: [Best AI IDE & CLI Tools April 2026: Claude Code Wins, Codex Catches Up — TokenCalculator](https://tokencalculator.com/blog/best-ai-ide-cli-tools-april-2026-claude-code-wins)

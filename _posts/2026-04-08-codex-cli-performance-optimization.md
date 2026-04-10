@@ -254,12 +254,21 @@ Token optimisation in Codex CLI isn't about penny-pinching—it's about maintain
 ## Citations
 
 [^1]: [Codex Models – OpenAI Developers](https://developers.openai.com/codex/models)
+
 [^2]: [OpenAI Codex CLI April 2026 Update – Daily 1 Bite](https://daily1bite.com/en/blog/ai-tools/openai-codex-cli-april-2026-update)
+
 [^3]: [Codex CLI: The Definitive Technical Reference – Blake Crosley](https://blakecrosley.com/guides/codex)
+
 [^4]: [MCP Token Trap: Why Your AI Agent Burns 35x More Tokens Than a CLI – OnlyCLI](https://onlycli.github.io/OnlyCLI/blog/mcp-token-cost-benchmark/)
+
 [^5]: [How to Reduce Codex CLI Token Usage: 7 Proven Optimization Strategies – BSWEN](https://docs.bswen.com/blog/2026-03-02-reduce-codex-cli-token-usage/)
+
 [^6]: [Context Compaction Research: Claude Code, Codex CLI, OpenCode, Amp – GitHub Gist (badlogic)](https://gist.github.com/badlogic/cd2ef65b0697c4dbe2d13fbecb0a0a5f)
+
 [^7]: [Tokens usage breakdown – GitHub Issue #13222](https://github.com/openai/codex/issues/13222)
+
 [^8]: [Why Is My Codex CLI Token Usage Suddenly So High? – BSWEN](https://docs.bswen.com/blog/2026-03-02-codex-cli-token-usage-spike/)
+
 [^9]: [Configuration Reference – Codex CLI – OpenAI Developers](https://developers.openai.com/codex/config-reference)
+
 [^10]: [Pricing – Codex CLI – OpenAI Developers](https://developers.openai.com/codex/pricing)

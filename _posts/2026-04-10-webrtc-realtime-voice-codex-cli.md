@@ -217,14 +217,25 @@ The experimental label remains, and token economics make sustained voice session
 ## Citations
 
 [^1]: [PR #17188 — "make webrtc the default experience"](https://github.com/openai/codex/pull/17188), merged April 9, 2026.
+
 [^2]: [PR #17176 — "Add realtime voice selection"](https://github.com/openai/codex/pull/17176), merged April 9, 2026.
+
 [^3]: [PR #17057 — "Attach WebRTC realtime starts to sideband websocket"](https://github.com/openai/codex/pull/17057), merged April 8, 2026.
+
 [^4]: [OpenAI Realtime API with WebRTC documentation](https://platform.openai.com/docs/guides/realtime-webrtc).
+
 [^5]: [Codex app-server README — realtime session API](https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md).
+
 [^6]: [OpenAI Realtime API — Webhooks and server-side controls](https://platform.openai.com/docs/guides/realtime-server-controls).
+
 [^7]: [OpenAI Realtime API — voice options](https://platform.openai.com/docs/guides/realtime-conversations).
+
 [^8]: [PR #12850 — "Add realtime audio device picker"](https://github.com/openai/codex/pull/12850), merged February 27, 2026.
+
 [^9]: [gpt-realtime model documentation](https://platform.openai.com/docs/models/gpt-realtime), GA release August 28, 2025.
+
 [^10]: [PR #3381 — "voice transcription"](https://github.com/openai/codex/pull/3381), initial push-to-talk implementation.
+
 [^11]: [Codex CLI Changelog — CLI 0.117.0](https://developers.openai.com/codex/changelog), March 2026.
+
 [^12]: [Issue #12902 — "Voice transcription/realtime can rapidly consume usage limits"](https://github.com/openai/codex/issues/12902).
