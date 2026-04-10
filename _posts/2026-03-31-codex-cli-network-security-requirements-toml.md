@@ -15,6 +15,20 @@ Enterprise teams deploying Codex CLI face two distinct network security challeng
 
 ---
 
+## The Default Stance: Network Off
+
+By design, every Codex sandbox mode starts with network access disabled for the agent phase.[^7] The agent phase — where the model executes shell commands and reads files — is where prompt injection and data exfiltration risks are highest. Setup scripts that run before the agent phase retain internet access so that dependencies can be installed normally.
+
+| Mode | Network | File writes | Intended use |
+|------|---------|-------------|--------------|
+| `read-only` | Off | None | Safe exploration |
+| `workspace-write` | Off (configurable) | Workspace only | Standard development |
+| `danger-full-access` | On | Unrestricted | High-risk / explicitly opted-in |
+
+In `danger-full-access`, the `web_search` mode also automatically switches from `"cached"` (OpenAI's pre-indexed content) to `"live"` (real-time fetching).[^3] That distinction matters for prompt injection: cached search results are curated by OpenAI, whereas live mode can retrieve arbitrary third-party content that could contain injected instructions.
+
+---
+
 ## The Two-Layer Model
 
 ```mermaid
@@ -125,6 +139,23 @@ default_permissions = "corp-egress"       # apply this profile by default
 
 Wildcard domains (`*.internal.corp.example.com`) are supported for subdomain matching.[^3] The `denied_domains` list operates as an explicit blocklist that takes precedence over the allowlist, useful for blocking known exfiltration endpoints even when broader access is permitted.
 
+OpenAI provides three preset profiles in Codex web environments:[^7]
+
+- **None** — empty list; every permitted domain must be enumerated explicitly.
+- **Common dependencies** — a curated set of 70+ package registries, CDNs, and source control hosts (npm, PyPI, crates.io, Docker Hub, Maven, etc.).
+- **All (unrestricted)** — no filtering.
+
+The CLI equivalent is to populate `allowed_domains` manually or reference a shared `managed_config.toml` for team-wide defaults.
+
+### HTTP Method Filtering
+
+Domain allowlisting answers *where* the agent can connect; HTTP method filtering answers *what it can do* once connected. With filtering active, only idempotent, read-only methods pass:[^8]
+
+- **Permitted:** `GET`, `HEAD`, `OPTIONS`
+- **Blocked:** `POST`, `PUT`, `PATCH`, `DELETE` and all others
+
+This prevents the agent from submitting forms, calling state-changing API endpoints, or exfiltrating data via a POST body — even to an explicitly allowlisted domain.
+
 ### Corporate Upstream Proxy Chaining
 
 In environments where all egress must traverse a corporate HTTPS proxy (e.g., Zscaler, Netskope), chain the managed proxy to the upstream:
@@ -152,6 +183,109 @@ api_key_env_var = "AZURE_OPENAI_API_KEY"
 "Proxy-Authorization" = "PROXY_AUTH_HEADER"  # value read from $PROXY_AUTH_HEADER env var
 "api-version" = "AZURE_API_VERSION"
 ```
+
+---
+
+## SOCKS5 Proxy Integration
+
+Codex has supported SOCKS5 proxies since v0.93.0 (December 2025), primarily for corporate environments that route all outbound traffic through a SOCKS5 gateway.[^9]
+
+For the CLI process itself, configure the proxy under `[network]`:
+
+```toml
+[network]
+proxy    = "socks5://proxy.corp.example.com:1080"
+no_proxy = ["localhost", "127.0.0.1", "*.internal.example.com"]
+```
+
+Authenticated proxies use the standard `user:pass@host:port` form. Standard environment variables (`ALL_PROXY`, `HTTPS_PROXY`, `HTTP_PROXY`) are also honoured automatically, meaning most CI environments that already set these variables will route Codex traffic through the corporate proxy without additional configuration.
+
+For tools running inside the sandbox that speak SOCKS5 natively (e.g. Git with `socks5://` in `http.proxy`), the managed proxy can be exposed as a SOCKS5 listener:
+
+```toml
+[permissions.network]
+enable_socks5 = true
+socks_url     = "http://127.0.0.1:43130"
+```
+
+UDP-over-SOCKS5 is disabled by default (`enable_socks5_udp = false`) and should only be enabled if a specific tool requires it, as it widens the attack surface.
+
+---
+
+## Bearer Token Authentication for Remote App-Server
+
+v0.117.0 (26 March 2026) introduced two bearer-token authentication modes for the app-server's WebSocket listener.[^10] This is primarily relevant when Codex is embedded in a remote environment (CI runner, cloud VM) and a client UI needs to connect over a network rather than loopback.
+
+```mermaid
+sequenceDiagram
+    participant Client as Remote Client
+    participant WS as App-Server WebSocket
+    participant Auth as Auth Middleware
+    participant JSONRPC as JSON-RPC Handler
+
+    Client->>WS: WebSocket upgrade + Authorization: Bearer <token>
+    WS->>Auth: Validate token (pre-init)
+    alt Token invalid
+        Auth-->>Client: HTTP 401 Unauthorized
+    else Token valid
+        Auth->>JSONRPC: Pass connection
+        Client->>JSONRPC: {"method": "initialize", ...}
+        JSONRPC-->>Client: Initialized
+    end
+```
+
+### Capability Token
+
+A simple static token stored in a file. Suitable for single-client deployments or SSH port-forwarding scenarios:
+
+```bash
+codex app-server \
+  --ws-auth capability-token \
+  --ws-token-file /run/secrets/codex-token
+```
+
+### Signed Bearer Token (HMAC-Signed JWS)
+
+For environments with multiple clients or token rotation requirements, signed tokens provide time-bounded credentials verifiable without a database lookup:
+
+```bash
+codex app-server \
+  --ws-auth signed-bearer-token \
+  --ws-shared-secret-file /run/secrets/codex-hmac-secret \
+  --ws-issuer "ci-runner" \
+  --ws-audience "codex-agent" \
+  --ws-max-clock-skew-seconds 30
+```
+
+Clock skew tolerance (`--ws-max-clock-skew-seconds`) is critical in CI environments where container clocks may drift. Tokens are validated against `iss` and `aud` claims; mismatches are rejected before any JSON-RPC processing occurs.
+
+The loopback address (`ws://127.0.0.1`) is the recommended listener for SSH port-forwarding deployments. Non-loopback listeners currently allow unauthenticated connections by default during rollout.[^10] If the WebSocket is exposed on `0.0.0.0`, use bearer-token auth and firewall the port externally.
+
+Authentication is enforced *before* the JSON-RPC `initialize` call. Pre-init requests return `"Not initialized"`; server overload returns JSON-RPC error code `-32001` (`"Server overloaded; retry later"`) — implement exponential backoff with jitter.
+
+---
+
+## Approval Policies
+
+Sandbox permissions control what Codex *can* do; approval policies control when it *must ask first*. The two are orthogonal and should both be configured.[^8]
+
+```toml
+# Coarse-grained options:
+approval_policy = "on-request"  # prompt for network access and risky ops
+approval_policy = "never"       # full autonomy; use only in highly controlled envs
+approval_policy = "untrusted"   # auto-allow known-safe ops; prompt for risky
+
+# Fine-grained control:
+approval_policy = { granular = {
+  sandbox_approval    = true,
+  rules               = true,
+  mcp_elicitations    = true,
+  request_permissions = false,
+  skill_approval      = false
+} }
+```
+
+Use `/approvals` or `/permissions` in the interactive CLI to inspect and change the active policy at runtime without restarting the session.
 
 ---
 
@@ -295,6 +429,30 @@ LOG_FORMAT=json codex --full-auto "your task" 2> /var/log/codex/session.jsonl
 
 ---
 
+## MDM-Managed Deployment
+
+For MDM-managed deployments (macOS via Jamf Pro, Fleet, Kandji), two preference keys under the `com.openai.codex` domain control policy enforcement:[^2]
+
+- **`config_toml_base64`** — encoded defaults that apply unless overridden by project config.
+- **`requirements_toml_base64`** — encoded constraints that Codex *rejects* any user config conflicting with.
+
+Configuration precedence (highest to lowest): MDM managed preferences, then `managed_config.toml`, then `~/.codex/config.toml`, then project `.codex/config.toml`.
+
+---
+
+## Threat Model Summary
+
+OpenAI explicitly documents four categories of risk when internet access is enabled:[^7]
+
+1. **Prompt injection** — Agent fetches a web page or README containing crafted instructions that alter its behaviour. Mitigate with `web_search = "cached"` and tight domain allowlists.
+2. **Data exfiltration** — Malicious scripts pipe environment variables, secrets, or git history to attacker-controlled endpoints. Mitigate with HTTP method filtering (block POST) and denylist of exfiltration targets.
+3. **Malware inclusion** — Typosquatted packages or compromised dependencies fetched at install time. Mitigate with checksum verification in setup scripts and pinned dependency versions.
+4. **Licence contamination** — Copyleft content incorporated without review. Mitigate with post-session licence scanning.
+
+The layered approach — sandbox off by default, managed proxy with domain allowlist, method filtering, and approval prompts — addresses all four threat categories at different points in the attack chain.
+
+---
+
 ## Putting It Together: Enterprise Hardening Checklist
 
 ```mermaid
@@ -335,3 +493,7 @@ The enforcement layer and runtime layer must both be configured — `requirement
 [^4]: [Linux sandbox README – openai/codex on GitHub](https://github.com/openai/codex/blob/main/codex-rs/linux-sandbox/README.md)
 [^5]: [Sandboxing – Codex | OpenAI Developers](https://developers.openai.com/codex/concepts/sandboxing)
 [^6]: [Session/Rollout Files discussion – openai/codex GitHub Discussions #3827](https://github.com/openai/codex/discussions/3827)
+[^7]: [Agent internet access – Codex web | OpenAI Developers](https://developers.openai.com/codex/cloud/internet-access)
+[^8]: [Agent approvals & security – Codex | OpenAI Developers](https://developers.openai.com/codex/agent-approvals-security)
+[^9]: [Codex CLI Changelog – v0.93.0, ~Dec 2025](https://developers.openai.com/codex/changelog) — SOCKS5 proxy support with policy enforcement
+[^10]: [Codex App-Server README – GitHub openai/codex](https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md) — Bearer-token auth modes and non-loopback caveats
