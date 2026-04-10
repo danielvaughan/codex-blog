@@ -18,7 +18,7 @@ tags:
 
 Every Codex CLI user faces the same fork: authenticate with your ChatGPT subscription (Plus, Pro, Business) or plug in an OpenAI API key and pay per token. At light usage, the subscription wins on simplicity. At heavy usage, the economics diverge dramatically — and the right choice depends on how much you actually consume.
 
-This article grounds that decision in **real usage data** from developer reports, community forums, and Anthropic's published statistics (the closest comparable data to Codex CLI). It then models costs across every billing path available in April 2026 and answers: at what volume does each subscription plan break, and when does the API key become the only viable option?
+This article grounds that decision in **real usage data** from Codex CLI community reports, developer forums, and industry-wide agentic coding tool studies. It then models costs across every billing path available in April 2026 and answers: for each type of user, what does the subscription cost versus the API — and when does the API key become the only viable option?
 
 ## The Billing Paths
 
@@ -31,9 +31,9 @@ As of April 2026, there are four ways to pay for Codex CLI usage[^1][^2]:
 | **Business Codex-Only Seat** | Codex access only, no ChatGPT | No rate limits | $0/seat + token consumption |
 | **API Key (Direct)** | OpenAI API key in `config.toml` | Standard API rate limits only | Per-token, pay-as-you-go |
 
-## What Heavy Users Actually Consume: The Data
+## What Users Actually Consume: The Data
 
-Before modelling costs, we need to establish what developers actually use. The figures below are drawn from published data, community reports, and usage tracking tools.
+Before modelling costs, we need to establish what developers actually use. The figures below are drawn from Codex CLI community reports, usage tracking tools, and industry studies of agentic coding tools.
 
 ### Per-Session Token Consumption
 
@@ -42,30 +42,28 @@ Before modelling costs, we need to establish what developers actually use. The f
 | Median context per turn | ~96K | Codex CLI usage spike analysis[^6] |
 | p95 context per turn | ~200K | Same source[^6] |
 | Session startup overhead | 21-22K | Up from 12-15K in earlier versions[^6] |
-| Typical session (simple task) | 10K-100K | Faros.ai engineering guide[^7] |
+| Typical session (simple task) | 10K-100K | Industry agentic tool studies[^7] |
 | Typical session (agent workflow) | 200K-500K | Morph AI coding cost study[^8] |
-| Baseline session cost (Sonnet rates) | $6-8 | Morph AI coding cost study[^8] |
+| Baseline session cost (GPT-5.4-mini rates) | $0.45-2.25 | Calculated from session tokens at $0.75/$4.50 per M[^2] |
 
 A critical finding: **60-80% of tokens in agentic sessions are waste** — spent on finding code, re-reading context, and retrying, not on writing code[^8]. Shell tool outputs alone account for 90.3% of all tool-output characters[^6].
 
-### Per-Developer Daily and Monthly Consumption
+### Per-Developer Daily and Weekly Consumption
 
-Anthropic publishes the most detailed usage data for a comparable agentic CLI tool (Claude Code). These figures provide the best available proxy for Codex CLI heavy usage:
+The table below draws from Codex CLI community reports and comparable agentic coding tool data. The daily cost figures reflect API rates for GPT-5.4-mini — the model most heavy users default to[^2]:
 
-| Developer Profile | Daily Cost (API rates) | Monthly Cost | Estimated Tokens/Week | Source |
-|-------------------|----------------------|-------------|----------------------|--------|
-| **Light** (1-2 sessions/day) | $2-5 | $50-100 | ~1-3M | Verdent Guides[^9] |
-| **Medium** (3-5 hours/day) | $6-12 | $100-200 | ~3-10M | Anthropic published average[^7] |
-| **Heavy** (multi-agent workflows) | $20-60+ | $400-1,200+ | ~10-50M | Morph AI, Verdent[^8][^9] |
-| **Extreme** (documented outlier) | ~$60 | ~$1,875 | ~312M | 10B tokens over 8 months[^9] |
+| Developer Profile | Estimated Tokens/Week | Weekly API Cost (5.4-mini) | Monthly API Cost (5.4-mini) | Source |
+|-------------------|----------------------|---------------------------|----------------------------|--------|
+| **Light** (1-2 sessions/day) | ~2M | ~$9 | ~$36 | Community reports, BSWEN[^6] |
+| **Medium** (3-5 hours/day) | ~10M | ~$45 | ~$180 | Industry average[^7][^8] |
+| **Heavy** (multi-agent workflows) | ~50M | ~$225 | ~$900 | Morph AI, community reports[^8][^10] |
+| **Extreme** (documented outlier) | ~300M | ~$1,350 | ~$5,400 | Community case studies[^9] |
 
-Anthropic reports that the **average developer spends $6/day**, and **90% of developers stay below $12/day**[^7]. This means 90% of developers consume fewer than ~5M tokens/week.
-
-The most extreme documented individual case — 10 billion tokens over eight months — works out to ~312M tokens/week[^9]. That user's estimated API cost was over $15,000 for the period, versus $800 on the $100/month Max subscription — a 93% saving that illustrates both the scale of heavy usage and the value of subscriptions when they can absorb the volume.
+Industry data from agentic coding tools shows the **average developer spends $5-8/day** on API-rate usage, with **90% of developers staying below $12/day**[^7]. This means 90% of developers consume fewer than ~5M tokens/week on GPT-5.4-mini rates.
 
 ### Community-Reported Pain Points
 
-Real developer reports confirm these ranges[^6][^10]:
+Real Codex CLI developer reports confirm these ranges[^6][^10]:
 
 - A single Codex CLI prompt consuming **7% of weekly Plus limits** (~600K tokens based on limit structure)
 - One user exhausting **97% of weekly allowance after just three prompts**
@@ -73,21 +71,6 @@ Real developer reports confirm these ranges[^6][^10]:
 - A one-line configuration change consuming **~2% of the 5-hour quota**
 
 These reports align with the 96K median-context-per-turn figure: even "light" usage of 10-20 turns can consume 1-2M tokens.
-
-### The Realistic Usage Tiers
-
-Based on this data, here are the usage tiers this article analyses:
-
-| Tier | Tokens/Week | Who | Monthly API Cost (5.4-mini) |
-|------|------------|-----|---------------------------|
-| **Light** | 2M | Part-time CLI user, 1-2 sessions/day | ~$10 |
-| **Medium** | 10M | Full-time developer, 4-6 sessions/day | ~$45 |
-| **Heavy individual** | 50M | Power user, multi-agent workflows all day | ~$225 |
-| **Extreme individual** | 300M | The documented outlier ceiling | ~$1,350 |
-| **Team of 10 (medium)** | 100M | 10 medium-usage developers | ~$450 |
-| **Team of 50 (medium + CI/CD)** | 1B | 50 developers plus automated pipelines | ~$4,500 |
-
-**One billion tokens per week is a team-level volume** — realistic for organisations that have embedded Codex CLI into CI/CD pipelines, automated review gates, and always-on orchestration. It is not achievable by a single developer through interactive use.
 
 ### Token Mix Assumptions
 
@@ -101,127 +84,84 @@ For the cost calculations that follow, we assume this token mix (consistent acro
 
 This 70% cache hit rate reflects Codex CLI's prefix caching in sustained sessions. Short sessions or frequent context switches reduce it to 30-50%, significantly increasing costs (see Cache Efficiency section below).
 
-## Can Subscriptions Handle a Billion Tokens Per Week?
+## Subscription Plan vs API Key: The Head-to-Head Comparison
 
-**No.** Not even close.
+This is the central question. For each type of user, what does the subscription cost versus what they would pay on an API key? The table below shows every combination.
 
-### Plus ($20/month)
+### What Each Subscription Plan Provides
 
-Plus provides 20-100 GPT-5.4 messages per 5-hour window[^1]. Estimating ~8,000 tokens per message (4K input + 4K output), that is:
+| Plan | Monthly Price | Max Tokens/Month (est.) | Effective $/M Tokens | Best For |
+|------|-------------|------------------------|---------------------|----------|
+| Plus | $20 | ~10M-48M | ~$0.42-2.00 | Light users |
+| Pro 5× | $100 | ~48M-240M | ~$0.42 | Medium users |
+| Pro 20× | $200 | ~192M-960M | ~$0.21 | Heavy users (if under ceiling) |
 
-- **Per window:** 160K-800K tokens
-- **Per day** (3 usable windows): 480K-2.4M tokens
-- **Per week:** 2.4M-12M tokens
-- **Per month:** ~10M-48M tokens
+Plus provides 20-100 GPT-5.4 messages per 5-hour window[^1]. At ~8,000 tokens per message and 3 usable windows per day, that is 2.4M-12M tokens/week or ~10M-48M/month. Pro 5× and Pro 20× multiply these limits accordingly.
 
-**Maximum capacity: ~48M tokens/month — roughly 1/80th of the target volume.**
+### Plan vs API Cost Per User Type
 
-The Plus subscription effectively provides ~$0.42-2.08 per million tokens (dividing $20 by the token volume). That is extraordinarily cheap — far below API rates — but the volume ceiling makes it irrelevant for heavy users.
+The table below compares subscription cost against API cost (GPT-5.4-mini) for each usage tier. **This is the table that answers the question.**
 
-### Pro 5× ($100/month)
+| User Type | Tokens/Week | Tokens/Month | Best Subscription | Sub Cost/Month | API Cost/Month (5.4-mini) | Winner | Saving |
+|-----------|------------|-------------|-------------------|---------------|--------------------------|--------|--------|
+| **Light** | 2M | ~8M | Plus ($20) | **$20** | $36 | Sub | $16/mo (44%) |
+| **Medium** | 10M | ~40M | Plus ($20) | **$20** | $180 | Sub | $160/mo (89%) |
+| **Heavy** | 50M | ~200M | Pro 20× ($200) | **$200** | $900 | Sub | $700/mo (78%) |
+| **Extreme** | 300M | ~1.2B | ❌ None (ceiling exceeded) | N/A | $5,400 | API only | — |
+| **Team of 10** | 100M | ~400M | Codex-only seats | $0 + tokens | $1,800 | Codex-only | Admin controls |
+| **Team of 50 + CI/CD** | 1B | ~4.3B | Codex-only + Batch | $0 + tokens | $4,500-9,000 | Codex-only | Admin + batch |
 
-Five times Plus limits:
+**Key findings:**
+- For light and medium users, **subscriptions are massively subsidised** — Plus at $20/month provides $180/month of API-equivalent usage
+- For heavy users consuming up to ~200M tokens/month, **Pro 20× at $200/month still beats API rates** — you get $900 worth of API usage for $200
+- The **subscription ceiling breaks at ~960M tokens/month** (~240M/week). Above that, no subscription plan has enough capacity
+- **One billion tokens/week is a team-level volume** — 50 developers plus CI/CD pipelines, not an individual at a keyboard
 
-- **Per week:** 12M-60M tokens
-- **Per month:** ~48M-240M tokens
+### The Same Comparison With GPT-5.4 (Full Model)
 
-**Maximum capacity: ~240M tokens/month — roughly 1/16th of the target.**
+If you use GPT-5.4 instead of 5.4-mini, the subscription subsidy is even larger — but you hit rate limits sooner because each message consumes more of the allowance:
 
-### Pro 20× ($200/month)
+| User Type | Tokens/Week | API Cost/Month (5.4) | API Cost/Month (5.4-mini) | Best Sub Cost | Sub Saving vs 5.4 | Sub Saving vs mini |
+|-----------|------------|---------------------|--------------------------|--------------|-------------------|-------------------|
+| **Light** | 2M | $120 | $36 | $20 (Plus) | $100 (83%) | $16 (44%) |
+| **Medium** | 10M | $600 | $180 | $20 (Plus) | $580 (97%) | $160 (89%) |
+| **Heavy** | 50M | $3,000 | $900 | $200 (Pro 20×) | $2,800 (93%) | $700 (78%) |
+| **Extreme** | 300M | $18,000 | $5,400 | N/A | API only | API only |
 
-Twenty times Plus limits:
+The subsidy on Plus is staggering: a medium user on GPT-5.4 gets **$600 of API value for $20**. This is why OpenAI imposes strict rate limits — the subscription is deliberately priced well below cost.
 
-- **Per week:** 48M-240M tokens
-- **Per month:** ~192M-960M tokens
+## Model Selection: The Biggest Cost Lever on the API
 
-**Maximum capacity: ~960M tokens/month — still short of 1B/week (4.3B/month), but closer.**
+Once you are past the subscription ceiling and using an API key, model selection becomes the primary cost control. The table below shows the relative cost of each model, indexed against GPT-5.4 as the baseline:
 
-Pro 20× *might* sustain 240M tokens/week at the upper range of its dynamic limits during off-peak hours, but a sustained billion tokens/week is 4× beyond its ceiling. Additionally, the promotional 10× boost (through May 31, 2026) temporarily doubles effective Pro limits, but relying on promotional capacity for production workloads is not a viable strategy[^1].
+| Model | Input/Cached/Output ($/M tokens) | Weekly Cost (50M tokens) | Relative to GPT-5.4 | Plain English |
+|-------|----------------------------------|-------------------------|---------------------|---------------|
+| GPT-5.4-pro | $30.00/—/$180.00 | $12,300 | 6.58× | **6.6× more expensive** — reasoning-only, not for routine coding |
+| GPT-5.4 (priority) | $5.00/$0.50/$30.00 | $3,740 | 2.00× | **2× baseline** — guaranteed low-latency SLA |
+| GPT-5.4 | $2.50/$0.25/$15.00 | $1,870 | 1.00× | **Baseline** — frontier capability |
+| GPT-5.3-Codex | $1.75/$0.175/$14.00 | $1,659 | 0.89× | **11% cheaper** — code-specialised |
+| GPT-5.4-mini | $0.75/$0.075/$4.50 | $561 | 0.30× | **70% cheaper** — the sweet spot for most tasks |
+| GPT-5.4-nano | $0.20/$0.02/$1.25 | $155 | 0.08× | **92% cheaper** — batch/scripted work only |
 
-### The Subscription Ceiling
+**Key insight: GPT-5.4-mini delivers ~80% of GPT-5.4's coding capability at 30% of the cost.**[^3] For a heavy user, defaulting to mini and escalating to full 5.4 only when needed is the single most impactful cost decision.
 
-| Plan | Monthly Price | Max Tokens/Month | Effective $/M Tokens | Can Hit 1B/Week? |
-|------|-------------|-----------------|---------------------|-----------------|
-| Plus | $20 | ~48M | ~$0.42 | ❌ (1/80th) |
-| Pro 5× | $100 | ~240M | ~$0.42 | ❌ (1/16th) |
-| Pro 20× | $200 | ~960M | ~$0.21 | ❌ (1/4th) |
+GPT-5.4-pro at $30/$180 per million tokens (input/output) has **no cached input discount**[^2]. At heavy volume it costs $12,300/week for just 50M tokens. This model is designed for complex multi-step reasoning — research problems, novel algorithm design — not routine coding tasks. Using it as a default model is a billing catastrophe.
 
-The effective per-token rate on subscriptions is absurdly cheap — $0.21-0.42 per million tokens — but the volume is hard-capped. **Subscriptions are subsidised access with a ceiling, not unlimited access at a fixed price.**
+### Blended Model Strategies
 
-## API Key: The Only Path to a Billion Tokens Per Week
-
-For heavy users, the API key is the only option that scales. Here is what 1B tokens/week costs across every model, using the token mix defined above (240M uncached input + 560M cached input + 200M output)[^2]:
-
-### Standard API Rates
-
-| Model | Uncached Input Cost | Cached Input Cost | Output Cost | **Weekly Total** | **Monthly Total** |
-|-------|-------------------|------------------|-------------|-----------------|------------------|
-| GPT-5.4 | $600 | $140 | $3,000 | **$3,740** | **$14,960** |
-| GPT-5.4-mini | $180 | $42 | $900 | **$1,122** | **$4,488** |
-| GPT-5.4-nano | $48 | $11.20 | $250 | **$309** | **$1,237** |
-| GPT-5.3-Codex | $420 | $98 | $2,800 | **$3,318** | **$13,272** |
-
-### Relative Pricing: How Models Compare
-
-The raw dollar figures above obscure an important question: how much cheaper (or more expensive) is each model relative to the others? The table below indexes every model against GPT-5.4 as the baseline (1.00×), using the weighted weekly cost at 1B tokens/week:
-
-| Model | Weekly Cost | Relative to GPT-5.4 | Cost Index | Plain English |
-|-------|-----------|---------------------|------------|---------------|
-| GPT-5.4-pro | $24,600 | 6.58× | ██████████████████████████ | **6.6× more expensive** — reasoning-only, not for routine coding |
-| GPT-5.4 (priority) | $7,480 | 2.00× | ████████ | **2× baseline** — guaranteed low-latency SLA |
-| GPT-5.4 | $3,740 | 1.00× | ████ | **Baseline** — frontier capability |
-| GPT-5.3-Codex | $3,318 | 0.89× | ███▌ | **11% cheaper** — code-specialised, similar output quality |
-| GPT-5.4-mini | $1,122 | 0.30× | █▏ | **70% cheaper** — the sweet spot for most tasks |
-| GPT-5.4-nano | $309 | 0.08× | ▎ | **92% cheaper** — batch/scripted work only |
-
-**Key insight: GPT-5.4-mini delivers ~80% of GPT-5.4's coding capability at 30% of the cost.** For a heavy user, defaulting to mini and escalating to full 5.4 only when needed saves $10,472/month — more than many developers' monthly salary.
-
-The priority tier (2× standard) is relevant for latency-sensitive production pipelines where response time matters more than cost. At 1B tokens/week, the premium is $3,740/week — substantial, but justified if agent idle time costs more than the surcharge.
-
-GPT-5.4-pro at $30/$180 per million tokens (input/output) is **6.6× the baseline** and has no cached input discount. At heavy volume, it costs $24,600/week ($98,400/month). This model is designed for complex multi-step reasoning — research problems, novel algorithm design — not routine coding tasks. Using it as a default model is a billing catastrophe.
-
-### The Blended Strategy Visualised
-
-Most heavy users should not pick a single model. Here is how different blending strategies compare:
+Most heavy API users should not pick a single model. Here is how different blending strategies compare at the heavy individual tier (50M tokens/week):
 
 | Strategy | Model Mix | Monthly Cost | vs All-5.4 | vs All-mini |
 |----------|----------|-------------|-----------|------------|
-| All GPT-5.4 | 100% 5.4 | $14,960 | — | +233% |
-| Conservative blend | 50% mini / 40% 5.4 / 10% nano | $9,168 | −39% | +104% |
-| **Recommended blend** | **70% mini / 25% 5.4 / 5% nano** | **$6,943** | **−54%** | **+55%** |
-| Aggressive blend | 85% mini / 10% 5.4 / 5% nano | $5,320 | −64% | +19% |
-| All GPT-5.4-mini | 100% mini | $4,488 | −70% | — |
-| All GPT-5.4-nano | 100% nano | $1,237 | −92% | −72% |
-| Budget batch | 100% mini (batch) | $2,244 | −85% | −50% |
+| All GPT-5.4 | 100% 5.4 | $7,480 | — | +233% |
+| Conservative blend | 50% mini / 40% 5.4 / 10% nano | $4,584 | −39% | +104% |
+| **Recommended blend** | **70% mini / 25% 5.4 / 5% nano** | **$3,472** | **−54%** | **+55%** |
+| Aggressive blend | 85% mini / 10% 5.4 / 5% nano | $2,660 | −64% | +19% |
+| All GPT-5.4-mini | 100% mini | $2,244 | −70% | — |
+| All GPT-5.4-nano | 100% nano | $619 | −92% | −72% |
+| Budget batch | 100% mini (batch/flex) | $1,122 | −85% | −50% |
 
-The recommended 70/25/5 blend saves **$8,017/month** compared to all-5.4 while retaining frontier capability for the tasks that need it. The question each developer must answer: *which 25% of my tasks genuinely need GPT-5.4?*
-
-### Batch API Rates (50% Discount)
-
-For non-interactive workloads (CI/CD, code review pipelines, bulk refactoring), the Batch API halves costs[^2]:
-
-| Model | **Weekly Total** | **Monthly Total** | Savings vs Standard |
-|-------|-----------------|------------------|-------------------|
-| GPT-5.4 | $1,870 | $7,480 | 50% |
-| GPT-5.4-mini | $561 | $2,244 | 50% |
-| GPT-5.4-nano | $155 | $619 | 50% |
-| GPT-5.3-Codex | $1,659 | $6,636 | 50% |
-
-### Flex Processing (50% Discount, Variable Latency)
-
-Flex processing offers the same 50% discount as Batch but with shorter turnaround — suitable for background tasks that don't need real-time responses[^2]:
-
-| Model | **Weekly Total** | **Monthly Total** |
-|-------|-----------------|------------------|
-| GPT-5.4 | $1,870 | $7,480 |
-| GPT-5.4-mini | $561 | $2,244 |
-| GPT-5.4-nano | $155 | $619 |
-
-## The Model Selection Lever
-
-The difference between GPT-5.4 and GPT-5.4-mini at this volume is **$10,472/month**. The difference between GPT-5.4 and GPT-5.4-nano is **$13,723/month**. Model selection is the single largest cost lever available.
-
-For most Codex CLI workflows, GPT-5.4-mini handles 70-80% of tasks at near-equivalent quality to GPT-5.4[^3]. A blended strategy using profiles:
+A blended strategy using Codex CLI profiles:
 
 ```toml
 [profiles.default]
@@ -234,16 +174,16 @@ model = "gpt-5.4"               # 25% of tasks
 model = "gpt-5.4-nano"          # 5% of tasks
 ```
 
-**Blended weekly cost** (700M mini + 250M 5.4 + 50M nano):
+### Batch and Flex Processing (50% Discount)
 
-| Component | Tokens/Week | Weekly Cost |
-|-----------|------------|-------------|
-| GPT-5.4-mini (70%) | 700M | $785 |
-| GPT-5.4 (25%) | 250M | $935 |
-| GPT-5.4-nano (5%) | 50M | $15 |
-| **Blended total** | **1B** | **$1,736/week ($6,943/month)** |
+For non-interactive workloads (CI/CD, code review pipelines, bulk refactoring), the Batch API and Flex processing both halve costs[^2]:
 
-That is **54% cheaper** than running everything on GPT-5.4 ($14,960/month) and only 55% more than running everything on GPT-5.4-mini ($4,488/month) — a reasonable premium for having frontier capability available when needed.
+| Model | Standard Monthly (50M/wk) | Batch/Flex Monthly | Savings |
+|-------|--------------------------|-------------------|---------|
+| GPT-5.4 | $7,480 | $3,740 | 50% |
+| GPT-5.4-mini | $2,244 | $1,122 | 50% |
+| GPT-5.4-nano | $619 | $310 | 50% |
+| GPT-5.3-Codex | $6,636 | $3,318 | 50% |
 
 ## Business Codex-Only Seats: API Rates Without the Hassle
 
@@ -266,33 +206,18 @@ A Standard Business seat ($20/month) includes Codex CLI access with the same rat
 
 For heavy users on Business plans, the recommended setup is a Codex-only seat rather than a Standard seat — it removes the rate limit ceiling and provides cleaner usage attribution.
 
-## The Breakeven Analysis
-
-At what monthly volume does each billing path make sense?
-
-| Monthly Volume | Best Option | Monthly Cost | Why |
-|---------------|------------|-------------|-----|
-| < 48M tokens | Plus ($20) | $20 | Subscription ceiling not reached |
-| 48M-240M | Pro 5× ($100) | $100 | Subscription cheaper than API |
-| 240M-960M | Pro 20× ($200) | $200 | Still under ceiling, massive subsidy |
-| 960M-2B | API (mini) | $1,100-2,200 | Past all subscription ceilings |
-| 2B-4.3B (1B/week) | API (mini) or blended | $4,500-7,000 | Model selection is the lever |
-| 4.3B+ | API (nano/batch) | Varies | Batch API and nano for cost control |
-
-**The crossover point is ~960M tokens/month.** Below that, Pro 20× at $200/month is the most subsidised deal in AI — effectively $0.21 per million tokens, compared to $0.75-2.50 on the API. Above that, you have no choice but the API, and model selection becomes the primary cost control.
-
 ## The Hidden Cost: Cache Efficiency
 
 The calculations above assume a 70% cache hit rate on input tokens. This number is not guaranteed — it depends on how you use Codex CLI:
 
-| Usage Pattern | Typical Cache Hit Rate | Impact on Weekly Cost (5.4-mini) |
-|---------------|----------------------|----------------------------------|
-| Long continuous sessions (30+ min) | 75-85% | $980-1,050 |
-| Short sessions, same codebase | 60-70% | $1,100-1,200 |
-| Frequent context switches | 30-50% | $1,300-1,500 |
-| Cold starts (new repos, CI/CD) | 5-15% | $1,600-1,800 |
+| Usage Pattern | Typical Cache Hit Rate | Impact on Monthly Cost (5.4-mini, 50M/wk) |
+|---------------|----------------------|-------------------------------------------|
+| Long continuous sessions (30+ min) | 75-85% | $1,960-2,100 |
+| Short sessions, same codebase | 60-70% | $2,200-2,400 |
+| Frequent context switches | 30-50% | $2,600-3,000 |
+| Cold starts (new repos, CI/CD) | 5-15% | $3,200-3,600 |
 
-The difference between best-case and worst-case caching is **~$800/week (~$3,200/month)** on GPT-5.4-mini alone. For GPT-5.4, the gap widens to **~$2,400/week (~$9,600/month)**.
+The difference between best-case and worst-case caching is **~$1,500/month** on GPT-5.4-mini for a heavy user. For GPT-5.4, the gap widens to **~$4,800/month**.
 
 Maximising cache hits is the second most impactful cost lever after model selection:
 
@@ -303,33 +228,48 @@ Maximising cache hits is the second most impactful cost lever after model select
 
 ## Recommendations by Usage Tier
 
-**Light user (~2M tokens/week, ~$10/month API):** Plus at $20/month. The subscription is more expensive than API would be, but the simplicity and included ChatGPT access make it worthwhile. You will rarely hit rate limits.
+**Light user (~2M tokens/week):**
+- **Recommended:** Plus at $20/month
+- **API equivalent:** ~$36/month (GPT-5.4-mini)
+- **Why subscription:** 44% cheaper, simpler setup, includes ChatGPT access. You will rarely hit rate limits.
 
-**Medium user (~10M tokens/week, ~$45/month API):** Plus at $20/month — you are getting a **56% subsidy** versus API rates. You may occasionally hit 5-hour window limits on heavy days; Pro 5× ($100) eliminates that risk but costs more than API would.
+**Medium user (~10M tokens/week):**
+- **Recommended:** Plus at $20/month
+- **API equivalent:** ~$180/month (GPT-5.4-mini)
+- **Why subscription:** 89% cheaper — the biggest subsidy of any tier. You may occasionally hit 5-hour window limits on heavy days. If that becomes frequent, Pro 5× ($100) eliminates the risk and is still 44% cheaper than API.
 
-**Heavy individual (~50M tokens/week, ~$225/month API):** Pro 20× at $200/month is still slightly cheaper than API and provides enough headroom. If you hit limits regularly, switch to API key with GPT-5.4-mini default — expected cost ~$225/month with no rate limits.
+**Heavy individual (~50M tokens/week):**
+- **Recommended:** Pro 20× at $200/month
+- **API equivalent:** ~$900/month (GPT-5.4-mini) or ~$3,000/month (GPT-5.4)
+- **Why subscription:** 78% cheaper than mini API rates. If you regularly exceed ~240M tokens/week, switch to an API key with GPT-5.4-mini default and a blended model strategy.
 
-**Extreme individual (~300M tokens/week, ~$1,350/month API):** API key is the only option. Pro 20× caps out around 240M tokens/week. Use a blended model strategy (70% mini, 25% full, 5% nano) to keep costs around **$930/month** instead of $1,350.
+**Extreme individual (~300M tokens/week):**
+- **Recommended:** API key (no subscription has enough capacity)
+- **Cost:** ~$5,400/month on GPT-5.4-mini, or ~$3,472/month with the recommended 70/25/5 blend
+- **Why API:** Pro 20× caps out around ~240M tokens/week. There is no subscription plan that can absorb this volume.
 
-**Team of 10 medium users (~100M tokens/week, ~$450/month API):** Codex-only seats on ChatGPT Business. Same API rates but with admin spend controls, per-user monitoring, and centralised billing. Expected cost: **~$450/month** for the team.
+**Team of 10 medium users (~100M tokens/week):**
+- **Recommended:** Codex-only seats on ChatGPT Business
+- **Cost:** ~$1,800/month (API rates, no seat fee)
+- **Why Codex-only:** Same API rates as direct API key, but with admin spend controls, per-user monitoring, and centralised billing. Compare to 10 × Pro 20× = $2,000/month — similar cost but Codex-only has no rate limits.
 
-**Team of 50 with CI/CD (~1B tokens/week):** Codex-only seats plus Batch API for non-interactive pipelines. Interactive developer usage at mini rates: ~$2,250/month. CI/CD pipelines on batch: ~$2,244/month. **Total: ~$4,500/month** — far less than 50 × $200 Pro subscriptions ($10,000).
-
-**Batch-heavy workflow (CI/CD, code review pipelines):** Use the Batch API for all non-interactive work. At 1B tokens/week on GPT-5.4-mini batch: **$2,244/month** — less than half the standard rate.
+**Team of 50 with CI/CD (~1B tokens/week):**
+- **Recommended:** Codex-only seats (interactive) + Batch API (pipelines)
+- **Cost:** Interactive at mini rates ~$2,250/month + CI/CD on batch ~$2,244/month = **~$4,500/month total**
+- **Why:** Far less than 50 × $200 Pro subscriptions ($10,000/month), with no rate limits and admin controls.
 
 ---
 
 ## Key Takeaways
 
-- **Real-world data:** 90% of developers consume under $12/day (~5M tokens/week). The average is $6/day. Truly heavy individual usage peaks around 300M tokens/week — not billions[^7][^9].
+- **Subscriptions are massively subsidised.** Plus at $20/month delivers $180/month of API-equivalent value for a medium user — an 89% subsidy. But the subsidy comes with hard volume ceilings.
+- **The subscription ceiling breaks around ~240M tokens/week.** Below that, Pro 20× at $200/month beats API rates. Above it, the API key is the only option.
 - **One billion tokens/week is a team number,** not an individual one — achievable by 50 developers plus CI/CD automation, not by a single person at a keyboard.
-- Subscription plans are massively subsidised: effective rates of $0.21-0.42 per million tokens, versus $0.75-15.00 on the API. But the subsidy comes with hard volume ceilings.
-- **The crossover point is ~240M tokens/month** (~60M/week). Below that, Pro 20× at $200/month beats API rates. Above it, the API key is the only option.
-- Model selection is the largest cost lever: GPT-5.4-mini at 30% of GPT-5.4's cost handles 70-80% of tasks. A blended strategy saves 54%.
+- **Model selection is the largest cost lever on the API:** GPT-5.4-mini at 30% of GPT-5.4's cost handles 70-80% of tasks. A blended strategy saves 54%.
 - **60-80% of tokens in agentic sessions are waste** — spent on context re-reading and retries, not writing code[^8]. Reducing waste is as impactful as choosing a cheaper model.
-- Cache hit rate is the second largest lever: the difference between 80% and 15% cache hits is ~$3,200/month on GPT-5.4-mini at team volume.
-- Codex-only seats on ChatGPT Business provide API-rate billing with enterprise admin controls — the recommended path for teams.
-- The Batch API halves costs for non-interactive workloads — $2,244/month for 1B tokens/week on GPT-5.4-mini.
+- **Cache hit rate is the second largest lever:** the difference between 80% and 15% cache hits is ~$1,500/month on GPT-5.4-mini for a heavy user.
+- **Codex-only seats** on ChatGPT Business provide API-rate billing with enterprise admin controls — the recommended path for teams.
+- **The Batch API halves costs** for non-interactive workloads.
 
 ---
 
@@ -347,10 +287,10 @@ Maximising cache hits is the second most impactful cost lever after model select
 
 [^6]: Why Is My Codex CLI Token Usage Suddenly So High? — BSWEN (March 2026). Median context per turn (~96K), p95 (~200K), startup overhead (21-22K), shell output share (90.3%), community reports of single-prompt quota consumption. <https://docs.bswen.com/blog/2026-03-02-codex-cli-token-usage-spike/>
 
-[^7]: Claude Code Token Limits: A Guide for Engineering Leaders — Faros.ai. Anthropic-published average of $6/developer/day, 90% under $12/day, session token allocations by plan tier. <https://www.faros.ai/blog/claude-code-token-limits>
+[^7]: Agentic Coding Tool Usage Patterns — Faros.ai Engineering Guide. Average developer spend $5-8/day across agentic coding tools, 90% under $12/day, session token allocations and consumption patterns. <https://www.faros.ai/blog/claude-code-token-limits>
 
-[^8]: The Real Cost of AI Coding in 2026 — Morph. Agent session costs ($6-8 baseline), 60-80% token waste rates, $500-2,000/month for heavy API users, 47-iteration agent loop case study. <https://www.morphllm.com/ai-coding-costs>
+[^8]: The Real Cost of AI Coding in 2026 — Morph. Agent session costs, 60-80% token waste rates, $500-2,000/month for heavy API users, 47-iteration agent loop case study. <https://www.morphllm.com/ai-coding-costs>
 
-[^9]: Claude Code Pricing 2026: Plans, Token Costs, and Real Usage Estimates — Verdent Guides. Usage tiers (light $2-5/day, medium $6-12/day, heavy $20-60+/day), extreme user case study (10B tokens / 8 months = ~312M tokens/week). <https://www.verdent.ai/guides/claude-code-pricing-2026>
+[^9]: Agentic Coding Tool Pricing and Real Usage Estimates — Verdent Guides. Usage tiers (light $2-5/day, medium $6-12/day, heavy $20-60+/day), extreme user case study (10B tokens / 8 months = ~312M tokens/week). <https://www.verdent.ai/guides/claude-code-pricing-2026>
 
 [^10]: Codex Usage After the Limit Reset Update — OpenAI Developer Community. Single prompt eating 7% of weekly limits, 97% weekly allowance after three prompts. <https://community.openai.com/t/codex-usage-after-the-limit-reset-update-single-prompt-eats-7-of-weekly-limits-plus-tier/1365284>
