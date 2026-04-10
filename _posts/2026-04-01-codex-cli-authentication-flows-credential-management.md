@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD Credential Management"
+date: 2026-04-01T09:00:00+01:00
 tags:
   - security
   - credential-management

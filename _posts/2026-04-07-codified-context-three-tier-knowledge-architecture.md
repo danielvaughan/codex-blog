@@ -1,5 +1,6 @@
 ---
 title: "Codified Context: The Three-Tier Knowledge Architecture for AI Coding Agents"
+date: 2026-04-07T09:00:00+01:00
 tags:
   - architecture
   - agents-md

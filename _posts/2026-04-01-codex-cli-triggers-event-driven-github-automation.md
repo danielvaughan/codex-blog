@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Triggers: Event-Driven GitHub Automation Beyond CI/CD"
+date: 2026-04-01T09:00:00+01:00
 tags:
   - ci-cd
   - github-actions

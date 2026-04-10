@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI in Regulated Environments: HIPAA, SOC 2, and Financial Services"
+date: 2026-03-28T09:00:00+00:00
 tags:
   - security
   - compliance

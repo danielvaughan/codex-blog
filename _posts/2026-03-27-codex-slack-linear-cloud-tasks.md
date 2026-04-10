@@ -1,5 +1,6 @@
 ---
 title: "Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools"
+date: 2026-03-27T09:00:00+00:00
 tags:
   - ecosystem
   - third-party

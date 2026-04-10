@@ -1,5 +1,6 @@
 ---
 title: "The Codex Python SDK: Embedding Agents in Python Applications"
+date: 2026-03-30T09:00:00+01:00
 tags:
   - ecosystem
   - python-sdk

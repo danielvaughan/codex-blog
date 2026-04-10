@@ -1,5 +1,6 @@
 ---
 title: "OpenAI's Superapp Pivot: What the ChatGPT + Codex + Atlas Merger Means for Practitioners"
+date: 2026-03-29T09:00:00+00:00
 tags:
   - opinion
   - product-direction

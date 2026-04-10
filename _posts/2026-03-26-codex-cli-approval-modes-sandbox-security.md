@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Approval Modes and Sandbox Security Model"
+date: 2026-03-26T09:00:00+00:00
 tags:
   - security
   - approval-modes

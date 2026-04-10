@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI on Windows: Native Sandbox, WSL Integration, and the Elevated Security Model"
+date: 2026-04-01T09:00:00+01:00
 tags:
   - getting-started
   - windows

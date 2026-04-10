@@ -1,5 +1,6 @@
 ---
 title: "Learning Plan for Becoming a Codex CLI Expert"
+date: 2026-04-07T09:00:00+01:00
 tags:
   - getting-started
   - agents-md

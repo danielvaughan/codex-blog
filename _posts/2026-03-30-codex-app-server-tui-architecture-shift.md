@@ -1,5 +1,6 @@
 ---
 title: "Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions"
+date: 2026-03-30T09:00:00+01:00
 tags:
   - architecture
   - app-server

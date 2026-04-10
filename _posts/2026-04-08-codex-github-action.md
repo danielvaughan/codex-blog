@@ -1,5 +1,6 @@
 ---
 title: "The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs"
+date: 2026-04-08T09:00:00+01:00
 tags:
   - ci-cd
   - github-actions

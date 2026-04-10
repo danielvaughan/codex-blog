@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition"
+date: 2026-04-07T09:00:00+01:00
 tags:
   - models
   - model-lifecycle

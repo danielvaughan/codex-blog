@@ -1,5 +1,6 @@
 ---
 title: "Codex Cloud Task Application: From Slack Dispatch to Reviewed Diff Merge"
+date: 2026-04-08T09:00:00+01:00
 tags:
   - cloud
   - codex-cloud

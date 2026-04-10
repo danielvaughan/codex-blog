@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI in 2027: Reading the Roadmap"
+date: 2026-03-29T09:00:00+00:00
 tags:
   - opinion
   - product-direction

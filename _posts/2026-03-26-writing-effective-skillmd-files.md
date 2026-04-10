@@ -1,5 +1,6 @@
 ---
 title: "Writing Effective SKILL.md Files for Codex CLI"
+date: 2026-03-26T09:00:00+00:00
 tags:
   - ecosystem
   - skills

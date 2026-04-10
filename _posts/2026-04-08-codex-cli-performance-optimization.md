@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics"
+date: 2026-04-08T09:00:00+01:00
 tags:
   - performance
   - token-overhead

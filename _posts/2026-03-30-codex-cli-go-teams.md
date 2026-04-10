@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Go Teams: Skills, AGENTS.md and Go 1.26 Workflows"
+date: 2026-03-30T09:00:00+01:00
 tags:
   - language-guide
   - agents-md

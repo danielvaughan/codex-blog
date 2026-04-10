@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack"
+date: 2026-03-30T09:00:00+01:00
 tags:
   - ecosystem
   - mcp

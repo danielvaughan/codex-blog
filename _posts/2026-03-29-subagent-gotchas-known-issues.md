@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)"
+date: 2026-03-29T09:00:00+00:00
 tags:
   - reference
   - subagents

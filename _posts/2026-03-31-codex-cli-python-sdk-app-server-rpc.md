@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Python SDK and v2 App-Server Filesystem RPCs"
+date: 2026-03-31T09:00:00+01:00
 tags:
   - ecosystem
   - python-sdk

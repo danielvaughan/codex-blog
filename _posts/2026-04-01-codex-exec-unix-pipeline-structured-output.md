@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI as a Unix Pipeline Citizen: stdin, JSONL Streams, and Structured Output"
+date: 2026-04-01T09:00:00+01:00
 tags:
   - ci-cd
   - automation

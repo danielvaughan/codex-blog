@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI + GitHub Actions: The Complete Integration Guide"
+date: 2026-03-29T09:00:00+00:00
 tags:
   - ci-cd
   - github-actions

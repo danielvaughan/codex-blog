@@ -1,5 +1,6 @@
 ---
 title: "Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight"
+date: 2026-03-29T09:00:00+00:00
 tags:
   - workflow-patterns
   - approval-modes

@@ -1,5 +1,6 @@
 ---
 title: "Codex App Theming and Customisation: codex-theme-v1, Partner Themes, and the CLI /theme Command"
+date: 2026-03-30T09:00:00+01:00
 tags:
   - configuration
   - desktop-app

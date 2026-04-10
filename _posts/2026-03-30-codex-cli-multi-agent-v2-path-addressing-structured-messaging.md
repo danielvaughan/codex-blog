@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Multi-Agent v2: Path-Based Addressing, Structured Messaging, and the v4 Agent API"
+date: 2026-03-30T09:00:00+01:00
 tags:
   - architecture
   - subagents

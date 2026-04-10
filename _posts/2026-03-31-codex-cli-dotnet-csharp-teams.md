@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI"
+date: 2026-03-31T09:00:00+01:00
 tags:
   - language-guide
   - agents-md

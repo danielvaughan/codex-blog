@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts"
+date: 2026-03-30T09:00:00+01:00
 tags:
   - architecture
   - hooks

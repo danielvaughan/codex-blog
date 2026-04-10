@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI in Practice: Real-World Benchmarks and What They Mean"
+date: 2026-03-26T09:00:00+00:00
 tags:
   - opinion
   - testing

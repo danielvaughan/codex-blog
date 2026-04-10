@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies"
+date: 2026-03-29T09:00:00+00:00
 tags:
   - orchestration
   - subagents

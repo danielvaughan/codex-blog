@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Infrastructure as Code: Terraform, Pulumi and Ansible Automation"
+date: 2026-03-30T09:00:00+01:00
 tags:
   - language-guide
   - agents-md

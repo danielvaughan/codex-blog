@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config"
+date: 2026-03-31T09:00:00+01:00
 tags:
   - ecosystem
   - voice-input

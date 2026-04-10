@@ -1,5 +1,6 @@
 ---
 title: "GPT-5.4 Computer Use and Tool Search in Codex CLI: Visual Debugging, Deferred Loading, and /fast Mode"
+date: 2026-03-31T09:00:00+01:00
 tags:
   - models
   - model-selection

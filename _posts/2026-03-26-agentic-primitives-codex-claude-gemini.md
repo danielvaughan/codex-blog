@@ -1,5 +1,6 @@
 ---
 title: "Agentic Primitives Compared: Codex CLI vs Claude Code vs Gemini CLI"
+date: 2026-03-26T09:00:00+00:00
 tags:
   - competitive-landscape
   - claude-code

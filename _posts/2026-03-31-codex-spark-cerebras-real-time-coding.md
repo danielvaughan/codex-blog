@@ -1,5 +1,6 @@
 ---
 title: "GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second"
+date: 2026-03-31T09:00:00+01:00
 tags:
   - models
   - codex-spark

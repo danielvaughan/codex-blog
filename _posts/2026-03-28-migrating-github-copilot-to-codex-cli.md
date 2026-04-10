@@ -1,5 +1,6 @@
 ---
 title: "Migrating from GitHub Copilot to Codex CLI"
+date: 2026-03-28T09:00:00+00:00
 tags:
   - competitive-landscape
   - github-copilot

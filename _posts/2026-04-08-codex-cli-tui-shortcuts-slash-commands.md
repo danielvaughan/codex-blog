@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference"
+date: 2026-04-08T09:00:00+01:00
 tags:
   - reference
   - config-toml

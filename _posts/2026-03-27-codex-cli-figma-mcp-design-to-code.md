@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI + Figma MCP: Design-to-Code Workflows"
+date: 2026-03-27T09:00:00+00:00
 tags:
   - ecosystem
   - mcp

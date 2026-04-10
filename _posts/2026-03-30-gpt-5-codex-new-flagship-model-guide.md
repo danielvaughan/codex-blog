@@ -1,5 +1,6 @@
 ---
 title: "gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow"
+date: 2026-03-30T09:00:00+01:00
 tags:
   - models
   - model-selection

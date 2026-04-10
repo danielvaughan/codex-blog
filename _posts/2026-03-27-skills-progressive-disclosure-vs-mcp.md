@@ -1,5 +1,6 @@
 ---
 title: "Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP"
+date: 2026-03-27T09:00:00+00:00
 tags:
   - architecture
   - skills

@@ -1,5 +1,6 @@
 ---
 title: "Persistent Memory for Codex CLI: MCP Memory Servers, Cross-Session Context, and the Memory Layer Ecosystem"
+date: 2026-04-06T09:00:00+01:00
 tags:
   - ecosystem
   - memory
