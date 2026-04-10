@@ -46,10 +46,10 @@ Codex CLI is an open-source tool that runs locally. The cost comes from the mode
 
 | Model | Plus | Pro 5× | Pro 20× |
 |-------|------|--------|---------|
-| GPT-5.4 (local) | 20–100 messages | 100–500 | 400–2,000 |
-| GPT-5.4-mini (local) | 60–350 messages | 300–1,750 | 1,200–7,000 |
-| GPT-5.3-Codex (local) | 30–150 messages | 150–750 | 600–3,000 |
-| GPT-5.3-Codex (cloud) | 10–60 tasks | 50–300 | 200–1,200 |
+| GPT-5.4 (local) | 20–100 messages | 200–1,000 | 400–2,000 |
+| GPT-5.4-mini (local) | 60–350 messages | 600–3,500 | 1,200–7,000 |
+| GPT-5.3-Codex (local) | 30–150 messages | 300–1,500 | 600–3,000 |
+| GPT-5.3-Codex (cloud) | 10–60 tasks | 100–600 | 200–1,200 |
 
 The ranges reflect dynamic rate limits that adjust based on system load [^1].
 
@@ -72,12 +72,15 @@ For Business plan users or anyone using the API directly, per-million-token pric
 | Model | Input | Cached Input | Output |
 |-------|-------|-------------|--------|
 | GPT-5.4 | $2.50 | $0.25 | $15.00 |
-| GPT-5.4 (long context) | $5.00 | $0.50 | $22.50 |
+| GPT-5.4 (priority) | $5.00 | $0.50 | $30.00 |
 | GPT-5.4-mini | $0.75 | $0.075 | $4.50 |
+| GPT-5.4-mini (priority) | $1.50 | $0.15 | $9.00 |
 | GPT-5.4-nano | $0.20 | $0.02 | $1.25 |
 | GPT-5.3-Codex | $1.75 | $0.175 | $14.00 |
 | GPT-5.3-Codex (priority) | $3.50 | $0.35 | $28.00 |
 | GPT-5.4-pro | $30.00 | — | $180.00 |
+
+GPT-5.4-pro is OpenAI's most expensive reasoning model at $30/$180 per million tokens — 12× the cost of standard GPT-5.4 and 40× the cost of GPT-5.4-mini. It is designed for complex multi-step reasoning tasks and supports a 1.1M-token context window (922K input, 128K output). There is no cached input discount for GPT-5.4-pro [^2].
 
 The 90% cached input discount is the most important number in this table. Codex CLI's prefix caching means that in a typical session, 60-80% of input tokens hit the cache. A session that appears to cost $2.50/M input tokens effectively costs $0.50-1.00/M when caching is factored in [^3].
 
@@ -104,9 +107,9 @@ Cursor's pricing is opaque by design — "extended limits" and "3× usage" give 
 | Pro | $10/mo | 300 premium requests/mo | GPT-5.4, Claude Sonnet |
 | Pro+ | $39/mo | 1,500 premium requests/mo | All models incl. Claude Opus 4, o3 |
 | Business | $19/user/mo | 300 premium/user/mo | Frontier models, org management |
-| Enterprise | $39/user/mo | 1,500 premium/user/mo | Fine-tuning, knowledge base, compliance |
+| Enterprise | $39/user/mo | 1,000 premium/user/mo | All models incl. Opus 4.6, GitHub Spark |
 
-Copilot uses "premium requests" as its unit of consumption. A premium request is a single interaction with a frontier model — not a token count but a request count. Simple completions cost one request; complex multi-step agent operations may cost more. The Pro tier at $10/month is the cheapest entry point to frontier model access across any tool in this comparison [^5].
+Copilot uses "premium requests" as its unit of consumption. A premium request is a single interaction with a frontier model — not a token count but a request count. Simple completions cost one request; complex multi-step agent operations may cost more. Additional premium requests beyond plan limits are billed at $0.04 each. The Pro tier at $10/month is the cheapest entry point to frontier model access across any tool in this comparison [^5].
 
 ### Claude Code (Anthropic)
 
@@ -130,18 +133,37 @@ Anthropic recently simplified pricing: the full 1M-token context window is now a
 
 ### Windsurf (formerly Codeium)
 
-| Plan | Price | Credits/Month | Models |
-|------|-------|--------------|--------|
-| Free | $0/mo | 25 credits | Basic models |
-| Pro | $15/mo | 500 credits | All premium models, SWE-1.5 |
-| Teams | $30/user/mo | 500 credits/user | Admin dashboard, priority support |
-| Enterprise | $60/user/mo | 1,000+ credits/user | SSO, RBAC, hybrid deployment |
+| Plan | Price | Usage | Models |
+|------|-------|-------|--------|
+| Free | $0/mo | Light quota (daily/weekly refresh) | Limited models |
+| Pro | $20/mo | Standard allowance (daily/weekly refresh) | All premium models, SWE-1.5 |
+| Max | $200/mo | Heavy quota (daily/weekly refresh) | All premium models, SWE-1.5 |
+| Teams | $40/user/mo | Standard allowance per seat | Admin dashboard, RBAC, SSO |
+| Enterprise | Custom | Unlimited | Hybrid deployment, volume discounts |
 
-Windsurf uses a credit system where different operations consume different credit amounts. Monthly credits expire; purchased add-on credits ($10 for 250) do not. At $15/month for 500 credits with frontier model access, Windsurf is the second cheapest entry point after Copilot Free [^7].
+Windsurf has moved away from its original credit-based system to a quota model with daily and weekly refreshing allowances. Exact token or request counts are not published — Windsurf states that "most users will never hit their limits." Extra usage beyond quotas is available at API pricing. Add-on credits can still be purchased: $10 for 250 (Pro) or $40 for 1,000 (Teams/Enterprise), and purchased credits are pooled across teams [^7].
 
-## Head-to-Head: What Does a Real Workday Cost?
+## Why These Tools Are Not Directly Comparable
 
-Abstract pricing tables obscure the practical question: what does a day of serious coding actually cost? Consider a developer who runs 15-20 substantial agent interactions per day — not tab completions, but multi-step tasks involving file reads, edits, test runs, and iterations.
+Before diving into cost scenarios, a critical caveat: **these tools are not like-for-like substitutes**, and comparing their subscription prices as if they were is misleading.
+
+**Codex CLI** is a terminal-based agent. It reads your codebase, proposes and applies edits, runs commands, and iterates — but it has no IDE, no tab completions, no inline chat, no GUI. It does one thing — autonomous multi-step coding tasks — and charges accordingly.
+
+**Cursor** is a full IDE (VS Code fork) with tab completions, inline chat, agent mode, debugging, and multi-model routing. Its subscription covers all of these features bundled together. You cannot isolate "the agent part" of Cursor's price from the rest.
+
+**GitHub Copilot** is primarily a completion engine with chat and agent modes bolted on. Most of its value (and most "premium requests") goes toward inline completions that Codex CLI does not attempt.
+
+**Claude Code** is the closest analogue to Codex CLI — a terminal agent — but it runs on Anthropic's model stack rather than OpenAI's.
+
+**Windsurf** is another full IDE with its own model (SWE-1.5), tab completions, and an agent mode.
+
+The practical implication: **most teams will not replace Cursor or Copilot with Codex CLI**. They will use Codex CLI alongside their IDE tool. The relevant cost question is not "which one is cheaper?" but "what does adding Codex CLI to my existing stack cost, and what additional value does it deliver?"
+
+The scenarios below compare total monthly spend across tools, but readers should understand that a $20/month Codex CLI subscription and a $20/month Cursor subscription buy fundamentally different things.
+
+## What Does a Real Workday Cost?
+
+With that caveat, here are practical cost scenarios for a developer running 15-20 substantial agent interactions per day — not tab completions, but multi-step tasks involving file reads, edits, test runs, and iterations.
 
 ### Scenario: 20 Substantial Tasks Per Day
 
@@ -156,7 +178,8 @@ Abstract pricing tables obscure the practical question: what does a day of serio
 | GitHub Copilot | Pro+ ($39/mo) | ~$1.30 | $39 | 1,500 requests/mo ≈ 75/workday |
 | Claude Code | Pro ($20/mo) | ~$0.67 | $20 | May hit rate limits |
 | Claude Code | Max 20× ($200/mo) | ~$6.67 | $200 | ~220K tokens/5hr window |
-| Windsurf | Pro ($15/mo) | ~$0.50 | $15 | 500 credits/mo; may exhaust |
+| Windsurf | Pro ($20/mo) | ~$0.67 | $20 | Daily/weekly refresh quota |
+| Windsurf | Max ($200/mo) | ~$6.67 | $200 | Heavy usage quota |
 
 ### The API Direct Advantage
 
@@ -213,10 +236,12 @@ For a team of 50 developers:
 | GitHub Copilot | Business | $950 | $11,400 |
 | GitHub Copilot | Enterprise | $1,950 | $23,400 |
 | Claude Code | Max 5× (all users) | $5,000 | $60,000 |
-| Windsurf | Teams | $1,500 | $18,000 |
-| Windsurf | Enterprise | $3,000 | $36,000 |
+| Windsurf | Teams | $2,000 | $24,000 |
+| Windsurf | Enterprise | Custom | Custom |
 
-GitHub Copilot Business at $19/user/month is the cheapest enterprise option. Codex CLI Plus at $20/user is close but lacks centralised management. For teams needing heavy usage with admin controls, Cursor Teams ($40/user) and Windsurf Teams ($30/user) sit in the middle. The most expensive options — Codex CLI Pro 20× and Claude Code Max 20× at $200/user — are for power users who exhaust lower-tier limits daily.
+GitHub Copilot Business at $19/user/month is the cheapest enterprise option. Codex CLI Plus at $20/user is close but lacks centralised management. For teams needing heavy usage with admin controls, Cursor Teams and Windsurf Teams (both $40/user) sit in the middle. The most expensive options — Codex CLI Pro 20× and Claude Code Max 20× at $200/user — are for power users who exhaust lower-tier limits daily.
+
+Remember: these costs stack if you use multiple tools. A team running Copilot Business ($19/user) for IDE completions plus Codex CLI Plus ($20/user) for agent tasks pays $39/user — still less than a single Cursor Ultra or Claude Code Max subscription.
 
 ## Hidden Costs and Gotchas
 
@@ -230,7 +255,7 @@ GitHub Copilot Business at $19/user/month is the cheapest enterprise option. Cod
 
 **Claude Code's 5-hour windows reset independently.** The ~88K tokens/5hr on Max 5× is generous for focused work but can be exhausted by a single large codebase exploration. The weekly limits add a second constraint that is harder to plan around.
 
-**Windsurf credits do not roll over.** If you have a light month, you lose unused credits. The add-on credits ($10/250) are the hedge, but the per-credit cost is higher than the subscription rate.
+**Windsurf's quotas are opaque.** Windsurf no longer publishes specific credit or request counts — just "standard allowance" and "heavy quota" with daily/weekly refresh cycles. This makes it impossible to predict per-task costs or compare directly with token-based tools. Purchased add-on credits ($10/250 for Pro, $40/1,000 for Teams) provide some overflow protection.
 
 ## Recommendations by Use Case
 
@@ -251,7 +276,9 @@ GitHub Copilot Business at $19/user/month is the cheapest enterprise option. Cod
 - Codex CLI is the only major AI coding agent that supports direct API billing, giving power users token-level cost control and no rate limits.
 - GPT-5.4 costs $2.50/$15.00 per million tokens (input/output), but prefix caching reduces effective input costs by 70-90% in typical sessions.
 - GPT-5.4-mini at $0.75/$4.50 is the sweet spot for most tasks — 70% of the capability at 30% of the cost.
-- GitHub Copilot Pro at $10/month is the cheapest frontier model entry point; Windsurf Pro at $15/month is second.
+- GitHub Copilot Pro at $10/month is the cheapest frontier model entry point; Windsurf Pro and Codex CLI Plus (both $20/month) are next.
+- GPT-5.4-pro costs $30/$180 per million tokens — 12× standard GPT-5.4 — and is only justified for complex multi-step reasoning tasks [^2].
+- These tools are not like-for-like substitutes. Cursor and Copilot include IDE features that Codex CLI does not. Most teams will use Codex CLI alongside an IDE tool, not instead of one.
 - At the $200/month tier, Codex CLI Pro 20× and Claude Code Max 20× offer comparable top-end usage for their respective model families.
 - Cloud Codex tasks cost 5× local tasks — run locally for development, reserve cloud for CI/CD.
 - For teams, the combination of Copilot Business ($19/user) for completions and Codex CLI for agent tasks provides the best cost-to-capability ratio.
