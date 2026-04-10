@@ -2,7 +2,7 @@
 title: "Running Gemma 4 as a Local Model in the Codex CLI Harness: A Complete Setup Guide"
 parent: "Articles"
 nav_order: 230
-tags: ["local-models` `gemma-4` `llama-cpp` `ollama` `vllm` `config-toml` `tool-calling` `self-hosted` `privacy` `cost-control"]
+tags: ["local-models` `gemma-4` `llama-cpp` `ollama` `vllm` `config-toml` `tool-calling` `self-hosted` `privacy` `cost-control` `dell-pro-max` `gb10` `blackwell"]
 ---
 
 # Running Gemma 4 as a Local Model in the Codex CLI Harness: A Complete Setup Guide
@@ -52,6 +52,7 @@ Gemma 4 ships in four variants. The differences matter for hardware planning and
 | Linux + RTX 4090 (24 GB) | 26B-A4B MoE | Q4_K_M | ~16 GB | ~120 tok/s |
 | Linux + RTX 3090 (24 GB) | 26B-A4B MoE | Q4_K_M | ~16 GB | ~80 tok/s |
 | Linux + 2x RTX 4090 | 31B Dense | Q5_K_M | ~22 GB | ~150 tok/s |
+| Dell Pro Max GB10 | 31B Dense | Q8_0 or FP16 | ~33-62 GB of 128 GB | ~150-200+ tok/s |
 
 ### The Recommendation
 
@@ -478,6 +479,108 @@ codex "list the Python files in the current directory"
 
 ---
 
+## Setup Guide: Dell Pro Max with GB10
+
+The Dell Pro Max with GB10 represents a different class of local inference hardware. Built around the NVIDIA Grace Blackwell Superchip, it provides 128 GB of unified LPDDR5x memory at 273 GB/s bandwidth, 1 petaflop of FP4 compute, and 1000 TOPS of AI performance. The system ships with DGX OS (Ubuntu-based) with CUDA, Docker, and vLLM pre-installed. Models up to approximately 200B parameters fit in memory — Gemma 4 31B is comfortable headroom[^15].
+
+### Why the GB10 Changes the Model Recommendation
+
+On consumer hardware, the 26B-A4B Mixture of Experts variant is recommended because the 31B Dense requires aggressive quantisation to fit in 24-32 GB of VRAM. The GB10 eliminates this constraint. With 128 GB of unified memory, the 31B Dense model runs at Q8_0 (32.6 GB) or even FP16 (~62 GB) without compromise.
+
+This matters because the 31B Dense outperforms the 26B MoE on every benchmark — better reasoning, more reliable tool calling, and more consistent `apply_patch` output. On consumer hardware, the MoE's memory efficiency justifies the quality trade-off. On the GB10, there is no trade-off. Run the 31B Dense at full or near-full precision.
+
+The GB10 also enables practical use of the full 128K context window (or even the 31B Dense model's native 256K window) without KV cache pressure. On consumer hardware, context windows must typically be limited to 32-64K to avoid out-of-memory conditions. For large codebases where the Codex CLI harness needs to read multiple files into context, this additional headroom is significant.
+
+### Recommended Model for GB10
+
+| Model | Quantisation | VRAM Usage | Speed | Recommendation |
+|---|---|---|---|---|
+| 31B Dense | FP16 | ~62 GB of 128 GB | ~100-150 tok/s | Maximum quality, no quantisation loss |
+| 31B Dense | Q8_0 | ~33 GB of 128 GB | ~150-200+ tok/s | Best balance — near-lossless, faster inference |
+| 26B-A4B MoE | Q8_0 | ~27 GB of 128 GB | ~200+ tok/s | Unnecessary — the 31B Dense fits comfortably |
+
+The recommended configuration is the **31B Dense at Q8_0**. The quality difference versus FP16 is negligible for code generation, and the speed improvement is meaningful for interactive agentic workflows. Both are fast enough for Codex CLI use with no perceptible lag on tool calls. For comparison, these speeds exceed many cloud API response times.
+
+### vLLM Setup (Recommended for GB10)
+
+Since DGX OS ships with CUDA and Docker pre-installed, vLLM is the natural inference engine for the GB10. No additional driver installation or dependency management is required.
+
+```bash
+vllm serve google/gemma-4-31B-it \
+  --max-model-len 131072 \
+  --gpu-memory-utilization 0.85 \
+  --enable-auto-tool-choice \
+  --tool-call-parser gemma4 \
+  --host 0.0.0.0 --port 8000
+```
+
+Key flags:
+
+| Flag | Purpose |
+|---|---|
+| `--max-model-len 131072` | 128K context window — practical on GB10 due to the massive unified memory |
+| `--gpu-memory-utilization 0.85` | Reserves 15% for KV cache overhead and OS processes |
+| `--enable-auto-tool-choice` | Enables automatic tool-call detection |
+| `--tool-call-parser gemma4` | Activates the native Gemma 4 function-calling parser |
+| `--host 0.0.0.0` | Binds to all interfaces (useful if accessing from another machine on the network) |
+
+The 128K context window is a significant advantage over consumer hardware setups, where context must typically be limited to 32-64K. For Codex CLI workflows that involve reading large files or maintaining long tool-calling chains, this additional context capacity reduces the frequency of context compaction and improves session coherence.
+
+### Codex CLI Configuration for GB10 + vLLM
+
+```toml
+model = "gemma-4-31B-it"
+model_provider = "gb10_local"
+model_context_window = 131072
+
+[model_providers.gb10_local]
+name = "Dell GB10 vLLM"
+base_url = "http://localhost:8000/v1"
+wire_api = "responses"
+stream_idle_timeout_ms = 600000
+```
+
+Configuration notes:
+
+- **`model_context_window = 131072`**: Matches the `--max-model-len` flag passed to vLLM. These must agree.
+- **`stream_idle_timeout_ms = 600000`**: Set to 10 minutes (600,000 ms). This is lower than the value recommended for llama.cpp setups on consumer hardware because the GB10's Blackwell GPU generates tokens significantly faster. A 10-minute timeout provides ample headroom for long tool-calling chains without masking genuinely stalled sessions.
+- **`base_url`**: Port 8000 is used here (the vLLM default). Adjust if running multiple services.
+
+### Alternative: llama.cpp on GB10
+
+llama.cpp also runs well on the GB10. Build with CUDA support:
+
+```bash
+cmake -B build -DGGML_CUDA=ON -DLLAMA_CURL=ON
+cmake --build build --config Release -j$(nproc)
+./build/bin/llama-server \
+  -hf ggml-org/gemma-4-31B-it-GGUF:Q8_0 \
+  --port 8001 -ngl 99 -c 131072 --jinja
+```
+
+This approach is viable and may be preferred if the workflow already uses llama.cpp on other machines. However, vLLM is the recommended engine for the GB10 because DGX OS ships with it pre-configured and because vLLM's paged attention implementation is optimised for the Blackwell architecture.
+
+### Performance Expectations
+
+| Configuration | Tokens/Second | Latency (First Token) | Notes |
+|---|---|---|---|
+| 31B Dense, Q8_0, vLLM | ~200+ tok/s | Low | Recommended configuration |
+| 31B Dense, FP16, vLLM | ~100-150 tok/s | Low | Maximum quality, still fast |
+| 31B Dense, Q8_0, llama.cpp | ~150-180 tok/s | Low | Slightly slower than vLLM on this hardware |
+
+Both the Q8_0 and FP16 configurations are fast enough for interactive agentic coding with no perceptible lag on tool calls. For comparison, these speeds match or exceed many cloud API response times, while providing the privacy and cost benefits of local inference.
+
+### Two-Machine Scaling
+
+Two GB10 units can be connected to create a single compute node with 256 GB of unified memory. This configuration supports models up to approximately 400B parameters and is relevant for two scenarios:
+
+- **Future Gemma releases.** As model families grow, larger variants may require more memory than a single GB10 provides. A two-node configuration provides forward compatibility.
+- **Multi-model serving.** Running Gemma 4 31B for coding alongside a separate model for code review, test generation, or documentation — each with its own vLLM instance — becomes practical with 256 GB of aggregate memory.
+
+For current Gemma 4 31B workloads, a single GB10 is more than sufficient. The two-machine option is relevant for planning, not for immediate necessity.
+
+---
+
 ## The Responses API Requirement
 
 This is the single most important compatibility requirement and the most common source of setup failures. It deserves its own section.
@@ -757,3 +860,4 @@ Local inference is not a replacement for cloud models. It is a complement. Use l
 [^12]: Ollama Codex Integration — [https://docs.ollama.com/integrations/codex](https://docs.ollama.com/integrations/codex)
 [^13]: Gemma 4 Benchmarks — [https://gemma4all.com/blog/gemma-4-benchmarks-performance](https://gemma4all.com/blog/gemma-4-benchmarks-performance)
 [^14]: The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive — codex-resources article #224
+[^15]: Dell Pro Max with GB10 — [https://www.dell.com/en-us/blog/dell-pro-max-with-gb10-purpose-built-for-ai-developers/](https://www.dell.com/en-us/blog/dell-pro-max-with-gb10-purpose-built-for-ai-developers/)
