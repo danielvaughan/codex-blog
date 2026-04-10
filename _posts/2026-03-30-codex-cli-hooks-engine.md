@@ -16,9 +16,13 @@ This article covers the complete hooks surface as of v0.117.0: the five supporte
 
 ## Enabling Hooks
 
-Hooks are off by default.[^2] Enable them in `~/.codex/config.toml`:
+Hooks are off by default.[^2] Enable them persistently in `~/.codex/config.toml` or ad-hoc via the command line:
 
-```toml
+```bash
+# ad-hoc
+codex -c features.codex_hooks=true
+
+# persistent (add to ~/.codex/config.toml)
 [features]
 codex_hooks = true
 ```
@@ -34,7 +38,18 @@ Codex loads `hooks.json` from two locations. Both files are loaded and their hoo
 | `~/.codex/hooks.json` | User-wide defaults |
 | `<repo>/.codex/hooks.json` | Repository-level overrides |
 
-This mirrors the layered semantics of `config.toml` and `AGENTS.md`: global defaults, local overrides.
+This mirrors the layered semantics of `config.toml` and `AGENTS.md`: global defaults, local overrides. The file is hot-read on session start; restarting is not required after editing `hooks.json`.
+
+## Hook Object Fields
+
+Each hook definition within `hooks.json` accepts the following fields:
+
+| Field | Type | Description |
+|---|---|---|
+| `type` | string | Currently only `"command"` is supported |
+| `command` | string | Shell command string executed by `/bin/sh -c` |
+| `statusMessage` | string | User-facing text shown in the TUI during execution |
+| `timeout` | integer | Maximum wall-clock seconds before the hook is killed (default 600) |
 
 ## The Five Hook Events
 
@@ -114,6 +129,25 @@ branch = subprocess.check_output(["git", "rev-parse", "--abbrev-ref", "HEAD"]).d
 log = subprocess.check_output(["git", "log", "--oneline", "-5"]).decode().strip()
 
 print(f"Current branch: {branch}\nRecent commits:\n{log}")
+```
+
+**Example — bash script injecting branch and ticket context:**
+
+```bash
+#!/usr/bin/env bash
+# ~/.codex/scripts/inject-context.sh
+BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "unknown")
+TICKET=$(echo "$BRANCH" | grep -oE '[A-Z]+-[0-9]+' | head -1)
+DIRTY=$(git status --porcelain 2>/dev/null | wc -l | tr -d ' ')
+
+echo "## Session Context"
+echo "- Branch: $BRANCH"
+echo "- Jira ticket: ${TICKET:-none detected}"
+echo "- Uncommitted files: $DIRTY"
+if [ -f ".codex/project-notes.md" ]; then
+  echo ""
+  cat .codex/project-notes.md
+fi
 ```
 
 ### PreToolUse
@@ -257,6 +291,19 @@ The matcher field is silently ignored for this event: all `UserPromptSubmit` hoo
 }
 ```
 
+**Example — prompt augmentation with test status (exit 0, stdout appended to prompt):**
+
+```bash
+#!/usr/bin/env bash
+# Append current test suite status to every prompt
+FAILING=$(python -m pytest --tb=no -q 2>&1 | tail -3)
+if [ -n "$FAILING" ]; then
+  echo ""
+  echo "### Current test status"
+  echo "$FAILING"
+fi
+```
+
 **Example — secret scanning hook:**
 
 ```python
@@ -325,6 +372,48 @@ if result.returncode != 0:
     sys.exit(2)
 ```
 
+**Example — desktop notification on session end (macOS):**
+
+```json
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Glass.aiff",
+            "statusMessage": "Session ended",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+**Example — desktop notification on session end (Linux):**
+
+```json
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "notify-send 'Codex' 'Session complete'",
+            "statusMessage": "Notifying…",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
 ## Exit Code Semantics
 
 | Exit Code | Meaning |
@@ -372,6 +461,8 @@ Several planned hook features are not yet implemented:[^20]
 - Windows support
 
 The gap between Codex hooks (5 events) and Claude Code hooks (12+ events) is most visible in the absence of MCP tool interception and non-Bash tool lifecycle events — worth tracking in the [GitHub issues](https://github.com/openai/codex/issues/14754).[^21]
+
+> **v0.117.0 alpha note:** Two additional hook events have been previewed — `AfterToolUse` (fires after each individual tool call) and `AfterAgent` (fires after the agent completes a turn). `AfterToolUse` in particular enables "test on every save" patterns where the agent auto-runs the test suite after each file write. The hook configuration format may shift to `[[hooks]]` TOML array entries with an `event` field in a future stable release; consult the changelog before migrating.[^22]
 
 ## Practical Configuration: Full Example
 
@@ -469,3 +560,4 @@ This stack gives you: dynamic context injection at startup, secret scanning on e
 [^19]: `hatayama/codex-hooks` — Claude Code hook compatibility runner: https://github.com/hatayama/codex-hooks
 [^20]: Unimplemented hook features. Codex Hooks Documentation: https://developers.openai.com/codex/hooks
 [^21]: Community request for PreToolUse/PostToolUse for non-Bash tools — Issue #14754: https://github.com/openai/codex/issues/14754
+[^22]: OpenAI Codex CLI v0.117.0 alpha — `AfterToolUse` and `AfterAgent` hook events preview. Codex Changelog: https://developers.openai.com/codex/changelog
