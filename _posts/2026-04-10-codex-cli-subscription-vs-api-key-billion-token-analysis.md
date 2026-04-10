@@ -104,6 +104,41 @@ For heavy users, the API key is the only option that scales. Here is what 1B tok
 | GPT-5.4-nano | $48 | $11.20 | $250 | **$309** | **$1,237** |
 | GPT-5.3-Codex | $420 | $98 | $2,800 | **$3,318** | **$13,272** |
 
+### Relative Pricing: How Models Compare
+
+The raw dollar figures above obscure an important question: how much cheaper (or more expensive) is each model relative to the others? The table below indexes every model against GPT-5.4 as the baseline (1.00×), using the weighted weekly cost at 1B tokens/week:
+
+| Model | Weekly Cost | Relative to GPT-5.4 | Cost Index | Plain English |
+|-------|-----------|---------------------|------------|---------------|
+| GPT-5.4-pro | $24,600 | 6.58× | ██████████████████████████ | **6.6× more expensive** — reasoning-only, not for routine coding |
+| GPT-5.4 (priority) | $7,480 | 2.00× | ████████ | **2× baseline** — guaranteed low-latency SLA |
+| GPT-5.4 | $3,740 | 1.00× | ████ | **Baseline** — frontier capability |
+| GPT-5.3-Codex | $3,318 | 0.89× | ███▌ | **11% cheaper** — code-specialised, similar output quality |
+| GPT-5.4-mini | $1,122 | 0.30× | █▏ | **70% cheaper** — the sweet spot for most tasks |
+| GPT-5.4-nano | $309 | 0.08× | ▎ | **92% cheaper** — batch/scripted work only |
+
+**Key insight: GPT-5.4-mini delivers ~80% of GPT-5.4's coding capability at 30% of the cost.** For a heavy user, defaulting to mini and escalating to full 5.4 only when needed saves $10,472/month — more than many developers' monthly salary.
+
+The priority tier (2× standard) is relevant for latency-sensitive production pipelines where response time matters more than cost. At 1B tokens/week, the premium is $3,740/week — substantial, but justified if agent idle time costs more than the surcharge.
+
+GPT-5.4-pro at $30/$180 per million tokens (input/output) is **6.6× the baseline** and has no cached input discount. At heavy volume, it costs $24,600/week ($98,400/month). This model is designed for complex multi-step reasoning — research problems, novel algorithm design — not routine coding tasks. Using it as a default model is a billing catastrophe.
+
+### The Blended Strategy Visualised
+
+Most heavy users should not pick a single model. Here is how different blending strategies compare:
+
+| Strategy | Model Mix | Monthly Cost | vs All-5.4 | vs All-mini |
+|----------|----------|-------------|-----------|------------|
+| All GPT-5.4 | 100% 5.4 | $14,960 | — | +233% |
+| Conservative blend | 50% mini / 40% 5.4 / 10% nano | $9,168 | −39% | +104% |
+| **Recommended blend** | **70% mini / 25% 5.4 / 5% nano** | **$6,943** | **−54%** | **+55%** |
+| Aggressive blend | 85% mini / 10% 5.4 / 5% nano | $5,320 | −64% | +19% |
+| All GPT-5.4-mini | 100% mini | $4,488 | −70% | — |
+| All GPT-5.4-nano | 100% nano | $1,237 | −92% | −72% |
+| Budget batch | 100% mini (batch) | $2,244 | −85% | −50% |
+
+The recommended 70/25/5 blend saves **$8,017/month** compared to all-5.4 while retaining frontier capability for the tasks that need it. The question each developer must answer: *which 25% of my tasks genuinely need GPT-5.4?*
+
 ### Batch API Rates (50% Discount)
 
 For non-interactive workloads (CI/CD, code review pipelines, bulk refactoring), the Batch API halves costs[^2]:
