@@ -198,14 +198,168 @@ v0.117.0 shipped realtime transcript notifications for v2 sessions: the transcri
 
 ## Known Limitations
 
-- **Transcription accuracy**: The Realtime API's speech-to-text path uses Whisper v3 under the hood. ⚠️ Technical terms, symbol names, and unusual identifiers may be misrecognised. Use `transcription` mode with a custom system prompt asking Codex to clarify any ambiguous symbol name before acting on it.
-- **No Windows support in v0.117.0**: Realtime sessions on Windows require the Desktop app, not the CLI TUI. ⚠️ CLI support for Windows realtime was not available at the time of writing.
+- **Transcription accuracy**: The Realtime API's speech-to-text path uses Whisper v3 under the hood. Technical terms, symbol names, and unusual identifiers may be misrecognised. Use `transcription` mode with a custom system prompt asking Codex to clarify any ambiguous symbol name before acting on it.
+- **No Windows support in v0.117.0**: Realtime sessions on Windows require the Desktop app, not the CLI TUI. CLI support for Windows realtime was not available at the time of writing.
 - **Context window limits**: Realtime sessions accumulate transcript tokens in the context. Long voice sessions will trigger the standard context compaction path (see the [compaction article](/codex-resources/articles/2026-03-31-codex-cli-context-compaction-architecture/)). The compact_prompt should be written with voice transcript preservation in mind.
-- **Model availability**: Realtime voice sessions require a paid ChatGPT plan. API key–only setups cannot use the voice path; they fall back to text mode automatically.
+- **Model availability**: Realtime voice sessions require a paid ChatGPT plan. API key-only setups cannot use the voice path; they fall back to text mode automatically.
+- **Built-in voice: 60-second cap**: The spacebar dictation feature limits recordings to 60 seconds per clip. For longer dictations, break into multiple clips or dictate into a local tool first.
+- **Built-in voice: no Linux support**: The keyboard hook for spacebar-hold does not compile on Linux. Use the Spokenly MCP or system-level tools like OpenWhispr as alternatives.[^21]
+- **Token consumption on echo loops**: If voice transcription echoes the result back into the prompt, a transcript/input loop can consume usage limits rapidly. Verify that transcribed text is not being double-inserted via hooks.[^28]
+- **Whisper API latency**: The round-trip to `whisper-1` adds 300-700 ms after releasing the spacebar. Local alternatives (Spokenly's offline mode, OpenWhispr with Parakeet) eliminate this at the cost of a larger local model.
+
+## Built-In Spacebar Voice Transcription (v0.105.0)
+
+Codex CLI gained native voice transcription in v0.105.0 (26 February 2026), layering an OpenAI Whisper transcription pipeline on top of the existing composer.[^18] The mechanic is press-and-hold spacebar in the composer: with an empty composer, recording starts immediately; with text already present, a 500 ms hold delay prevents accidental activation.[^19]
+
+### Enabling
+
+Voice transcription is opt-in and disabled by default:
+
+```toml
+# ~/.codex/config.toml
+[features]
+voice_transcription = true
+```
+
+Or via the CLI subcommand:
+
+```bash
+codex features enable voice_transcription
+```
+
+### Recording and Transcription
+
+While recording, a 12-character sparkline audio level meter appears in the composer for real-time feedback.[^19] Release the spacebar to stop recording. The audio is uploaded to OpenAI's Whisper API (`whisper-1` model) via multipart upload, resolved through `codex login` credentials — no separate `OPENAI_API_KEY` setup is required.[^19] Maximum recording length is **60 seconds** per clip.
+
+Under the hood, the feature uses two Rust crates: **`cpal`** for cross-platform audio capture and **`hound`** for WAV encoding before upload. Audio is normalised with peak detection and headroom adjustment. There is no voice-activity detection (VAD) — recording runs for the entire hold duration regardless of silence.[^19]
+
+```mermaid
+sequenceDiagram
+    participant Dev as Developer
+    participant Comp as Composer (TUI)
+    participant Cpal as cpal (audio)
+    participant Hound as hound (WAV)
+    participant Whisper as Whisper API
+    participant Codex as Agent
+
+    Dev->>Comp: Hold spacebar
+    Comp->>Cpal: Start capture
+    Cpal-->>Comp: Audio stream + level meter (sparkline)
+    Dev->>Comp: Release spacebar
+    Comp->>Cpal: Stop capture
+    Cpal->>Hound: Encode to WAV + normalize
+    Hound->>Whisper: Multipart upload (whisper-1)
+    Whisper-->>Comp: Transcribed text
+    Comp->>Codex: Insert text - submit
+```
+
+### Platform Support
+
+Voice transcription works on **macOS** (confirmed stable) and is reportedly available on **Windows**.[^20] Linux is explicitly not supported in the current implementation — on Linux, holding the spacebar types spaces rather than activating recording, because the keyboard hook does not compile on that platform.[^21] GitHub issues #12827 and #12894 track Linux coverage and the Linux/WSL parity request.[^22] Linux developers can use the Spokenly MCP integration (below) or system-level dictation tools like **OpenWhispr**, which pastes transcribed text at the cursor in any application.[^23]
+
+---
+
+## The Spokenly MCP: Agent-Initiated Voice Q&A
+
+The built-in spacebar feature covers one scenario: dictating the initial prompt. It does nothing during an active agent run. For the agent to pause mid-workflow and ask a spoken question — and receive a spoken answer — the **Spokenly MCP** is required.[^24]
+
+Spokenly runs a local HTTP MCP server at `localhost:51089`. The agent calls the `ask_user_dictation` tool when it needs clarification; a push-to-talk overlay appears, the user answers by voice, and the transcription returns to the agent as structured context.
+
+### Setup
+
+```bash
+codex mcp add spokenly --url http://localhost:51089
+```
+
+Add a policy to `~/.codex/AGENTS.md`:
+
+```markdown
+## Voice Q&A
+ALWAYS ask questions via the `ask_user_dictation` tool from the spokenly MCP server, never as plain text. This applies to any request for clarification or user input mid-task.
+```
+
+### Spokenly vs Built-In: Feature Comparison
+
+| Capability | Built-in (`voice_transcription`) | Spokenly MCP |
+|---|---|---|
+| Initial prompt dictation | Yes | Yes (via any app focus) |
+| Agent-initiated Q&A | No | Yes |
+| Works during agent run | No | Yes |
+| Local/offline models | No (Whisper API only) | Yes (Whisper, Parakeet on Apple Silicon) |
+| Linux support | No | Yes |
+| iOS remote input | No | Yes |
+| Multi-app dictation | No | Yes |
+
+Spokenly's `ask_user_dictation` tool is particularly useful when Codex is running a long autonomous task and surfaces an ambiguity. Without it, the agent either guesses or interrupts the flow with a text prompt that may not be seen immediately.[^24]
+
+---
+
+## Adding Voice Output: TTS via Hooks
+
+Voice input is only half the loop. Text-to-speech can close the loop by wiring the `PostTaskComplete` hook to a TTS command:[^25]
+
+```toml
+# ~/.codex/config.toml
+[hooks]
+PostTaskComplete = "python3 ~/.codex/scripts/tts.py"
+```
+
+The hook receives the agent's final message as JSON on stdin. A minimal macOS implementation using `say`:
+
+```bash
+#!/usr/bin/env bash
+# ~/.codex/scripts/tts.sh
+response=$(cat | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('message',''))")
+say -v Samantha "$response"
+```
+
+On Windows, PowerShell's `Add-Type -AssemblyName System.Speech` provides the equivalent `SpeechSynthesizer` class. For cross-platform use, the `pyttsx3` Python library works on macOS, Windows, and Linux without an API key.[^26]
+
+---
+
+## Practical Voice Workflow Patterns
+
+### Pattern 1: Voice-First Feature Development
+
+1. Dictate a feature brief via spacebar
+2. Let Codex plan and raise clarifications via Spokenly
+3. Answer clarifications by voice
+4. Review the PR diff visually, approve or comment by voice
+
+The full cycle from brief to PR can run with zero keyboard input beyond approvals.
+
+### Pattern 2: Accessibility-First Configuration
+
+For developers who rely on voice for accessibility reasons, combine the full stack:
+
+```toml
+# ~/.codex/config.toml
+[features]
+voice_transcription = true
+
+[hooks]
+PostTaskComplete = "~/.codex/scripts/tts.sh"
+SessionStart = "say -v Samantha 'Codex is ready'"
+```
+
+With Spokenly registered, every interaction is voice-addressable — initial prompt, mid-task questions, and task completion confirmation.
+
+### Pattern 3: Headless Linux with Spokenly
+
+On Linux servers where the built-in feature is unavailable, use Spokenly running on a macOS laptop to relay voice input to a remote Codex session:
+
+```bash
+# On the remote Linux server
+codex mcp add spokenly --url http://YOUR_MAC_IP:51089
+```
+
+Spokenly proxies the voice call back to macOS. The agent runs on Linux, but the voice interface lives on the machine with a microphone.[^27]
+
+---
 
 ## Summary
 
-The `[realtime]` TOML config block (merged 13 March 2026) gives you a clean, forward-looking surface to configure Codex voice sessions. Use `type = "conversational"` for interactive voice pair programming, `type = "transcription"` for dictation and speech-to-text task pipelines. The v0.116.0 and v0.117.0 reliability fixes — context initialisation, self-interruption prevention, prewarm stall — make voice sessions production-worthy for focused coding sessions. Combine with `prevent_idle_sleep`, a voice-aware AGENTS.md, and bearer-token remote WebSocket for a fully headless voice agent architecture.
+The `[realtime]` TOML config block (merged 13 March 2026) provides the configuration surface for Codex voice sessions. Use `type = "conversational"` for interactive voice pair programming, `type = "transcription"` for dictation and speech-to-text task pipelines. The v0.116.0 and v0.117.0 reliability fixes — context initialisation, self-interruption prevention, prewarm stall — make voice sessions production-worthy for focused coding sessions. The built-in spacebar dictation (v0.105.0) covers initial prompt input, while the Spokenly MCP extends voice to mid-task agent-initiated Q&A. TTS hooks close the output side of the loop. Combine with `prevent_idle_sleep`, a voice-aware AGENTS.md, and bearer-token remote WebSocket for a fully headless voice agent architecture.
 
 ## Citations
 
@@ -226,3 +380,14 @@ The `[realtime]` TOML config block (merged 13 March 2026) gives you a clean, for
 [^15]: Codex App-Server documentation — developers.openai.com/codex/app-server
 [^16]: Codex App-Server documentation: JSON-RPC error `-32001` "Server overloaded; retry later" — developers.openai.com/codex/app-server
 [^17]: OpenAI Codex Changelog v0.117.0: "realtime transcript notification in v2" with handoff context preservation — developers.openai.com/codex/changelog
+[^18]: x-cmd blog, "Codex 0.105.0 Released: Voice Input Support" (Feb 26, 2026) — x-cmd.com/blog/260226/
+[^19]: GitHub PR #3381, "voice transcription by nornagon-openai" — github.com/openai/codex/pull/3381 (spacebar hold, sparkline meter, cpal/hound crates, Whisper upload)
+[^20]: Awesome Agents, "Codex 0.105.0 Ships Voice Input, Sleep Prevention, and a Complete Subagent Overhaul" — awesomeagents.ai/news/codex-0-105-voice-subagents-overhaul/
+[^21]: GitHub Issue #12827, "Voice transcription no-op" — developer Eric Traut: "This feature isn't currently supported on Linux" — github.com/openai/codex/issues/12827
+[^22]: GitHub Issue #12894, "Enable voice transcription in Linux/WSL builds" — github.com/openai/codex/issues/12894
+[^23]: OpenWhispr cross-platform voice dictation — github.com/OpenWhispr/openwhispr
+[^24]: Spokenly, "Voice Input for OpenAI Codex CLI via MCP" — spokenly.app/blog/voice-dictation-for-developers/codex
+[^25]: Codex CLI hooks documentation (PostTaskComplete, SessionStop) — developers.openai.com/codex/cli/hooks
+[^26]: Dev Genius, "Building A 'Voice' For My CLI Code Agent" (March 2026) — blog.devgenius.io/building-a-voice-for-my-cli-code-agent-5f2d15b5b89e
+[^27]: Spokenly MCP remote proxy pattern (localhost port forwarding) — spokenly.app/blog/voice-dictation-for-developers/codex
+[^28]: GitHub Issue #12902, "Voice transcription usage issue" — transcript echo loop risk — github.com/openai/codex/issues/12902
