@@ -3,7 +3,6 @@ title: "Rod Johnson Is Back — and He's Bringing Agent AI to the JVM"
 date: 2026-04-09T20:30:00+01:00
 classes: wide
 categories: articles
-tags:
   - embabel
   - rod-johnson
   - jvm
@@ -15,6 +14,15 @@ tags:
   - talk-writeup
 toc: true
 toc_sticky: true
+tags:
+  - embabel
+  - rod-johnson
+  - jvm
+  - agent-framework
+  - spring
+  - goap
+  - agentic-rag
+  - enterprise-ai
 ---
 
 ![Sketchnote diagram for: Rod Johnson Is Back — and He's Bringing Agent AI to the JVM](/sketchnotes/articles/2026-04-09-rod-johnson-embabel-jvm-agent-framework.png)
@@ -95,9 +103,9 @@ In practice, this means Embabel's context engineering works with typed domain ob
 
 This is a direct challenge to the memory ecosystem that has grown up around tools like Codex CLI, where memory solutions (AgentMemory, Memorix, Basic Memory) build their own stores. Rod is saying: the memory already exists in your enterprise systems. Connect to it, do not rebuild it.
 
-## Spicy Takes
+## Rod's Opinions from the Q&A
 
-Rod did not hold back on opinions, and the audience seemed to enjoy it.
+Rod shared several strong opinions during the talk and Q&A, and the audience was clearly engaged.
 
 On **prompt management**: Rod argued that prompts are content rather than code and should be managed accordingly — versioned, A/B tested, and evaluated separately from the codebase rather than embedded in annotations.
 
