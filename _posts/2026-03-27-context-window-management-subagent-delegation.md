@@ -1,6 +1,6 @@
 ---
 title: "Context Window Management: Avoiding Compaction with Sub-Agent Delegation"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 tags:
   - architecture
   - context-management

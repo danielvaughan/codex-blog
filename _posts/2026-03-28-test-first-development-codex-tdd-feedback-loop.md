@@ -1,6 +1,6 @@
 ---
 title: "Test-First Development with Codex: Using TDD as the Agent Feedback Loop"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 summary: "How TDD transforms agentic workflows: tests give Codex a verifiable goal and automatic feedback without human intervention. Writing tests before dispatching Codex; integrating pytest/Jest/Vitest verification loops in AGENTS.md; how test coverage doubles as agent progress tracking."
 tags:
   - workflow-patterns

@@ -1,7 +1,5 @@
 ---
 title: "Automating the Cross-Model Review Loop: Three Levels from SKILL.md to Multi-AI Pipeline"
-parent: "Articles"
-nav_order: 155
 tags:
   - workflow-patterns
   - code-review

@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Web Search Integration and Knowledge-Augmented Agents"
-date: 2026-03-26
+date: 2026-03-26T09:00:00+00:00
 tags:
   - ecosystem
   - mcp

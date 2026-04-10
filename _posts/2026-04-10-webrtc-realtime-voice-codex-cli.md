@@ -1,7 +1,5 @@
 ---
 title: "WebRTC Realtime Voice in Codex CLI: Voice Selection, Session Architecture, and Production Readiness"
-parent: "Articles"
-nav_order: 235
 tags: ["webrtc", "voice", "realtime", "voice-selection", "gpt-realtime", "transport", "production", "codex-cli"]
 ---
 ![Sketchnote diagram for: WebRTC Realtime Voice in Codex CLI: Voice Selection, Session Architecture, and Production Readiness](/sketchnotes/articles/2026-04-10-webrtc-realtime-voice-codex-cli.png)

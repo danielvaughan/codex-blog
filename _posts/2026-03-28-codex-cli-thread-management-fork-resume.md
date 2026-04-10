@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Thread Management: Forking, Resuming and Context Lifecycle"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 summary: "Mid-thread forks, codex resume --last, compaction strategies, and the full context lifecycle — practical patterns for managing long-running Codex sessions without losing your place."
 tags:
   - workflow-patterns

@@ -1,7 +1,5 @@
 ---
 title: "Plan Mode Mechanics: Enter vs Tab, Syntax Highlighting and Inline Editing"
-parent: "Articles"
-nav_order: 172
 tags:
   - workflow-patterns
   - planning

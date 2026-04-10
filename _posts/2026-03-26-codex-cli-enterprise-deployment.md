@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Enterprise Deployment: Managed Policies and Team Configuration"
-date: 2026-03-26
+date: 2026-03-26T09:00:00+00:00
 tags:
   - configuration
   - enterprise

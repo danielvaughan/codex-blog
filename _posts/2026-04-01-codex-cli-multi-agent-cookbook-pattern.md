@@ -1,7 +1,5 @@
 ---
 title: "From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern"
-parent: "Articles"
-nav_order: 142
 tags:
   - orchestration
   - agents-sdk

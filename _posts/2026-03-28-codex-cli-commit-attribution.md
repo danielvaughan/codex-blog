@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 description: "How to configure Codex CLI's commit_attribution key to control how agent work is tagged in git history — from default trailers to custom labels to full opt-out — and why it matters for enterprise audit trails."
 substack_status: draft
 tags:

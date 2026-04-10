@@ -1,7 +1,5 @@
 ---
 title: "Cross-Platform Agent Portability: One SKILL.md for Every Runtime"
-parent: "Articles"
-nav_order: 164
 tags:
   - ecosystem
   - skills

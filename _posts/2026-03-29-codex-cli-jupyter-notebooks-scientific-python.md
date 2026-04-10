@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI for Jupyter Notebooks and Scientific Python"
-parent: "Articles"
-nav_order: 96
 tags:
   - language-guide
   - agents-md

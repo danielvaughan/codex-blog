@@ -1,6 +1,6 @@
 ---
 title: "GitHub Agentic Workflows: Intent-Driven Repository Automation with Codex"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 tags:
   - ci-cd
   - github-actions

@@ -1,6 +1,6 @@
 ---
 title: "Managing Codex CLI Configuration Across Multiple AI Tools"
-date: 2026-03-30
+date: 2026-03-30T09:00:00+00:00
 tags:
   - configuration
   - config-toml

@@ -1,7 +1,5 @@
 ---
 title: "The Codex Python SDK: Embedding Agents in Python Applications"
-parent: "Articles"
-nav_order: 120
 tags:
   - ecosystem
   - python-sdk

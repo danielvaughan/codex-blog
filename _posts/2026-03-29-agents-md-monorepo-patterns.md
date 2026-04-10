@@ -1,7 +1,5 @@
 ---
 title: "Advanced AGENTS.md Patterns for Monorepos"
-parent: "Articles"
-nav_order: 89
 tags:
   - configuration
   - agents-md

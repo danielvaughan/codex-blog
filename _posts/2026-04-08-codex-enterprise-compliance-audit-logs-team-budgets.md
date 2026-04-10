@@ -1,7 +1,5 @@
 ---
 title: "Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard"
-parent: "Articles"
-nav_order: 190
 tags:
   - enterprise
   - audit-logs

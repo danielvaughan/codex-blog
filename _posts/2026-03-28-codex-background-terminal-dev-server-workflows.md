@@ -1,6 +1,6 @@
 ---
 title: "Background Terminal: Running Dev Servers Alongside Codex"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 tags:
   - workflow-patterns
   - automation

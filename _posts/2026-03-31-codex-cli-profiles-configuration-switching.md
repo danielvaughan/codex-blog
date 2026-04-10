@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Profiles: Advanced Configuration Switching for Multi-Workflow Development"
-parent: "Articles"
-nav_order: 128
 tags:
   - configuration
   - config-toml

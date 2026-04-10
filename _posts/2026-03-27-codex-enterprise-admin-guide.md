@@ -1,7 +1,7 @@
 ---
 title: "Codex Enterprise Admin Guide: RBAC, Managed Policies and Compliance API"
 subtitle: "The platform engineering guide to rolling out Codex CLI at enterprise scale — roles, policy enforcement, and audit logging"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 tags:
   - reference
   - enterprise

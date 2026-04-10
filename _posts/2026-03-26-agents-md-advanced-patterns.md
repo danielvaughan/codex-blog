@@ -1,6 +1,6 @@
 ---
 title: "AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks"
-date: 2026-03-26
+date: 2026-03-26T09:00:00+00:00
 tags:
   - configuration
   - agents-md

@@ -1,6 +1,6 @@
 ---
 title: "Reddit Sentiment Monitor: Codex CLI — March 30, 2026"
-date: 2026-03-30
+date: 2026-03-30T09:00:00+00:00
 tags:
   - opinion
   - community-sentiment

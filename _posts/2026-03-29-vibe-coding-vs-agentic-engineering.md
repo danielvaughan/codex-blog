@@ -1,7 +1,5 @@
 ---
 title: "Vibe Coding vs Agentic Engineering: A Senior Developer's Framework"
-parent: "Articles"
-nav_order: 94
 tags:
   - opinion
   - team-workflow

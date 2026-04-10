@@ -1,7 +1,5 @@
 ---
 title: "Codex App Theming and Customisation: codex-theme-v1, Partner Themes, and the CLI /theme Command"
-parent: "Articles"
-nav_order: 126
 tags:
   - configuration
   - desktop-app

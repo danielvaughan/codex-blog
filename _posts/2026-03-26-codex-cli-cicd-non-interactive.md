@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI for CI/CD: codex exec, Non-Interactive Mode and Pipeline Integration"
-date: 2026-03-26
+date: 2026-03-26T09:00:00+00:00
 tags:
   - ci-cd
   - github-actions

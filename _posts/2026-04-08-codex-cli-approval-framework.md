@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Approval Framework: Permission Profiles, Approval IDs and Runtime Rules"
-parent: "Articles"
-nav_order: 168
 tags:
   - security
   - approval-modes

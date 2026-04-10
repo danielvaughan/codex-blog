@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 tags:
   - workflow-patterns
   - code-review

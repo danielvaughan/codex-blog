@@ -1,7 +1,5 @@
 ---
 title: "Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software"
-parent: "Articles"
-nav_order: 184
 tags:
   - ecosystem
   - skills

@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI for Java and Spring Boot Teams: AGENTS.md, Maven Sandboxing, and Gradle Workflows"
-parent: "Articles"
-nav_order: 127
 tags:
   - language-guide
   - agents-md

@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Thread Search and Session Management: Finding, Archiving and Replaying Work"
-parent: "Articles"
-nav_order: 106
 tags:
   - reference
   - context-management

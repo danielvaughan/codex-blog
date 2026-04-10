@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Python SDK and v2 App-Server Filesystem RPCs"
-parent: "Articles"
-nav_order: 129
 tags:
   - ecosystem
   - python-sdk

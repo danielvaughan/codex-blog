@@ -1,7 +1,5 @@
 ---
 title: "Learning Plan for Becoming a Codex CLI Expert"
-parent: "Articles"
-nav_order: 158
 tags:
   - getting-started
   - agents-md

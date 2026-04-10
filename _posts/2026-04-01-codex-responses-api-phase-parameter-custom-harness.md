@@ -1,7 +1,5 @@
 ---
 title: "Building Custom Harnesses with the Codex Responses API: Phase, Compaction, and Conversation State"
-parent: "Articles"
-nav_order: 146
 tags:
   - architecture
   - agent-loop

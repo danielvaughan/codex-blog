@@ -1,7 +1,5 @@
 ---
 title: "Migrating from Cursor to Codex CLI"
-parent: "Articles"
-nav_order: 80
 tags:
   - competitive-landscape
   - cursor

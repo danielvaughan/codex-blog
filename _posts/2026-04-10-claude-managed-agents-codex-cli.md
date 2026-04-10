@@ -1,7 +1,5 @@
 ---
 title: "Claude Managed Agents: What Anthropic's Cloud-Hosted Agent Platform Means for Codex CLI"
-parent: "Articles"
-nav_order: 233
 tags: ["claude-managed-agents", "anthropic", "competing-tools", "multi-agent", "cloud-agents", "mcp", "orchestration", "a2a"]
 ---
 ![Sketchnote diagram for: Claude Managed Agents: What Anthropic's Cloud-Hosted Agent Platform Means for Codex CLI](/sketchnotes/articles/2026-04-10-claude-managed-agents-codex-cli.png)

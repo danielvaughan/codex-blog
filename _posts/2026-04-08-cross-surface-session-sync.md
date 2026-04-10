@@ -1,7 +1,5 @@
 ---
 title: "Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud"
-parent: "Articles"
-nav_order: 174
 tags:
   - cloud
   - codex-cloud

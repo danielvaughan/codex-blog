@@ -1,7 +1,5 @@
 ---
 title: "GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions"
-parent: "Articles"
-nav_order: 92
 tags:
   - models
   - context-management

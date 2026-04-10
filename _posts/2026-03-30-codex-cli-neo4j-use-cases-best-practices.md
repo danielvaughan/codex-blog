@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
-parent: "Articles"
-nav_order: 116
 tags:
   - ecosystem
   - third-party

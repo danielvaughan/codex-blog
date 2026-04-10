@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI for dbt and Data Engineering Workflows"
-parent: "Articles"
-nav_order: 83
 tags:
   - language-guide
   - third-party

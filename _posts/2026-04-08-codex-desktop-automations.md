@@ -1,7 +1,5 @@
 ---
 title: "Mastering the Codex Desktop App: Automations, Triggers and the Review Queue"
-parent: "Articles"
-nav_order: 187
 tags:
   - cloud
   - desktop-app

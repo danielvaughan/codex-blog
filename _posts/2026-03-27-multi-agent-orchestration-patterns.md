@@ -1,6 +1,6 @@
 ---
 title: "Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 tags:
   - orchestration
   - subagents

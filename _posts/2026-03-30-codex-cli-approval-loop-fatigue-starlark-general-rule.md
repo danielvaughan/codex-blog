@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Approval Loop Fatigue: The prefix_rule Limitation and the Coming general_rule Fix"
-date: 2026-03-30
+date: 2026-03-30T09:00:00+00:00
 description: "Why Codex's current prefix_rule-only rules engine causes approval loop fatigue in multi-agent sessions — and what the community is building to fix it."
 tags:
   - security

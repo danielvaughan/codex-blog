@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors"
-parent: "Articles"
-nav_order: 118
 tags:
   - ecosystem
   - plugins

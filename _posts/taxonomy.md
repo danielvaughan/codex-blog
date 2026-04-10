@@ -1,7 +1,5 @@
 ---
 title: "Article Taxonomy"
-parent: "Articles"
-nav_order: 1
 ---
 
 # Article Tag Taxonomy — Proposal (2026-04-08)

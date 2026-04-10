@@ -1,7 +1,5 @@
 ---
 title: "Installing Codex CLI: Package Managers, Shell Completions and First-Run Setup"
-parent: "Articles"
-nav_order: 170
 tags:
   - getting-started
   - config-toml

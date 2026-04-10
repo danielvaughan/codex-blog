@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics"
-parent: "Articles"
-nav_order: 189
 tags:
   - performance
   - token-overhead

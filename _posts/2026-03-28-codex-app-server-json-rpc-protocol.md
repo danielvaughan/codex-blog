@@ -1,6 +1,6 @@
 ---
 title: "The Codex App-Server: Building Custom Integrations with the JSON-RPC Protocol"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 tags:
   - architecture
   - app-server

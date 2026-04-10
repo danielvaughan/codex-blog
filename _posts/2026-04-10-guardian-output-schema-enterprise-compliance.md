@@ -1,7 +1,5 @@
 ---
 title: "Guardian Output Schema and Enterprise Compliance Audit Trails in Codex CLI"
-parent: "Articles"
-nav_order: 238
 tags: ["guardian", "compliance", "audit-trail", "enterprise", "structured-rationale", "risk-assessment", "smart-approvals"]
 ---
 

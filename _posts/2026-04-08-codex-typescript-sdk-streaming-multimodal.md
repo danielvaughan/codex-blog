@@ -1,7 +1,5 @@
 ---
 title: "Codex TypeScript SDK: Streaming, Multimodal Inputs and Per-Thread Configuration"
-parent: "Articles"
-nav_order: 185
 tags:
   - ecosystem
   - typescript-sdk

@@ -1,7 +1,5 @@
 ---
 title: "How the Codex CLI Agentic Loop Works in Detail to the Code Level"
-parent: "Articles"
-nav_order: 159
 tags:
   - architecture
   - agent-loop

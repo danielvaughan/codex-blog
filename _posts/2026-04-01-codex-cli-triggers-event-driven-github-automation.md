@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Triggers: Event-Driven GitHub Automation Beyond CI/CD"
-parent: "Articles"
-nav_order: 141
 tags:
   - ci-cd
   - github-actions

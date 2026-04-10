@@ -1,6 +1,6 @@
 ---
 title: "The Agentic Pod in Practice: Running Multiple Agent Roles in Your Team"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 tags:
   - orchestration
   - subagents

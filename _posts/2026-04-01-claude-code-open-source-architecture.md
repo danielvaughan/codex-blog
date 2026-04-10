@@ -1,6 +1,6 @@
 ---
 title: "Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript"
-date: 2026-04-01
+date: 2026-04-01T09:00:00+00:00
 tags:
   - competitive-landscape
   - claude-code

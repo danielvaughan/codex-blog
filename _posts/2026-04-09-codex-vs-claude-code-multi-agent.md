@@ -1,8 +1,6 @@
 ---
 title: "Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Protocol Gap"
 date: 2026-04-09T02:14:00+01:00
-parent: "Articles"
-nav_order: 194
 tags:
   - codex-vs-claude
   - subagents

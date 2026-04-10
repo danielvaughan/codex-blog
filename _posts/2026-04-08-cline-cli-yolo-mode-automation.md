@@ -1,7 +1,5 @@
 ---
 title: "Cline CLI 2.0: The YOLO-Mode Automation Engine for CI/CD Pipelines"
-parent: "Articles"
-nav_order: 163
 tags:
   - competitive-landscape
   - competitor-tools

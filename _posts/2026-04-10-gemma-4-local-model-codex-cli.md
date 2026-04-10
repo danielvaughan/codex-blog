@@ -1,7 +1,5 @@
 ---
 title: "Running Gemma 4 as a Local Model in the Codex CLI Harness"
-parent: "Articles"
-nav_order: 236
 tags: ["gemma-4", "local-model", "tool-calling", "ollama", "llama-cpp", "custom-model-provider", "on-device", "open-source"]
 ---
 

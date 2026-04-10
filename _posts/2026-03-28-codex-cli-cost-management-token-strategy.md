@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 description: "How to estimate, control, and monitor Codex CLI costs for individuals and teams. Includes worked cost projections, profile routing patterns, hook-based monitoring, and enterprise governance."
 substack_status: draft
 tags:

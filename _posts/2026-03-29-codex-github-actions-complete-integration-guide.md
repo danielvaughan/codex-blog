@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI + GitHub Actions: The Complete Integration Guide"
-parent: "Articles"
-nav_order: 87
 tags:
   - ci-cd
   - github-actions

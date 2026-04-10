@@ -1,6 +1,6 @@
 ---
 title: "Reasoning Effort Tuning: Minimal to xhigh for Cost and Speed"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 summary: "How to tune model_reasoning_effort and plan_mode_reasoning_effort for every workflow. The five levels explained with real cost/speed tradeoffs and subagent economics."
 tags:
   - models

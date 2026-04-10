@@ -1,7 +1,5 @@
 ---
 title: "gstack: Garry Tan's Production Claude Code Skills Toolkit"
-parent: "Articles"
-nav_order: 114
 tags:
   - ecosystem
   - skills

@@ -1,6 +1,6 @@
 ---
 title: "Codex App-Server Remote Deployment: WebSocket Transport, Bearer Auth and Health Checks"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 tags:
   - architecture
   - app-server

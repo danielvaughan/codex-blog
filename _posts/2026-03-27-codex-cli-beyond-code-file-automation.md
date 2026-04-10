@@ -1,6 +1,6 @@
 ---
 title: "Beyond Code: Codex CLI for File Automation, Image Processing and Browser Tasks"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 tags:
   - workflow-patterns
   - non-coding

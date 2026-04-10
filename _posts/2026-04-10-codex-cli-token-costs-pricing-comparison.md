@@ -1,8 +1,6 @@
 ---
 title: "The Real Cost of AI Coding Agents: Codex CLI Token Economics vs Cursor, Copilot, Claude Code, and Windsurf"
 date: 2026-04-10T15:30:00+01:00
-parent: "Articles"
-nav_order: 240
 tags:
   - pricing
   - token-economics

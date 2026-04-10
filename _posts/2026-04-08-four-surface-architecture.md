@@ -1,7 +1,5 @@
 ---
 title: "The Four-Surface Architecture: CLI, Desktop, IDE Extension and Cloud as One System"
-parent: "Articles"
-nav_order: 171
 tags:
   - architecture
   - desktop-app

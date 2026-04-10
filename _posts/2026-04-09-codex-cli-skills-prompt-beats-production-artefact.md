@@ -1,8 +1,6 @@
 ---
 title: "Codex CLI Skills: When a 10-Word Prompt Beats a Production Artefact"
 date: 2026-04-09T07:13:00+01:00
-parent: "Articles"
-nav_order: 198
 tags:
   - skills
   - minimalism

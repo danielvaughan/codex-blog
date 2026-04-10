@@ -1,6 +1,6 @@
 ---
 title: "The codex-rs Architecture: How OpenAI Rewrote Codex CLI in Rust"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 description: "A deep dive into the codex-rs Cargo workspace: why OpenAI rewrote Codex CLI from TypeScript to Rust, how the ~70-crate workspace is structured, the JSON-RPC wire protocol, platform-specific sandboxing, and what it means for contributors and embedding teams."
 substack_status: draft
 tags:

@@ -1,7 +1,5 @@
 ---
 title: "AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance"
-parent: "Articles"
-nav_order: 154
 tags:
   - opinion
   - agents-md

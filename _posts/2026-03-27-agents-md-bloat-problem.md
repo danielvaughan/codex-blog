@@ -1,6 +1,6 @@
 ---
 title: "The AGENTS.md Bloat Problem: When More Context Makes Agents Worse"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 tags:
   - workflow-patterns
   - agents-md

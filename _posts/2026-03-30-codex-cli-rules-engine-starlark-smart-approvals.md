@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Rules Engine: Starlark Policies, Smart Approvals, and the Guardian Subagent"
-parent: "Articles"
-nav_order: 117
 tags:
   - security
   - approval-modes

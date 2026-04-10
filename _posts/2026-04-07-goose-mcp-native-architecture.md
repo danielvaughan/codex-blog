@@ -1,7 +1,5 @@
 ---
 title: "Goose by Block: MCP-Native Architecture and What Codex CLI Can Learn"
-parent: "Articles"
-nav_order: 162
 tags:
   - competitive-landscape
   - competitor-tools

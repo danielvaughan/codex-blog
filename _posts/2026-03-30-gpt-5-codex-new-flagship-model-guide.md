@@ -1,7 +1,5 @@
 ---
 title: "gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow"
-parent: "Articles"
-nav_order: 115
 tags:
   - models
   - model-selection

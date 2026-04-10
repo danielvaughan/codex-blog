@@ -1,6 +1,5 @@
 ---
 title: "Codex CLI for Python Teams: Configuration, Conventions and Automation"
-parent: "Articles"
 tags:
   - language-guide
   - agents-md

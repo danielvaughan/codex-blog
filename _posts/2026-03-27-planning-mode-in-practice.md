@@ -1,6 +1,6 @@
 ---
 title: "Planning Mode in Practice: When to Use It and When to Skip It"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 summary: "A decision framework for Codex CLI's plan mode: how the Plan→Execute workflow operates, when planning overhead pays off, when it is pure friction, and how PLANS.md extends it to multi-hour autonomous tasks."
 tags:
   - workflow-patterns

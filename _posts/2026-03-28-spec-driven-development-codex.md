@@ -1,6 +1,6 @@
 ---
 title: "Spec-Driven Development with Codex: Writing Specifications Before Code"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 tags:
   - workflow-patterns
   - planning

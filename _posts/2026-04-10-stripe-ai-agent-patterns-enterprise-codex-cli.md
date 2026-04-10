@@ -1,8 +1,6 @@
 ---
 title: "Stripe's AI Agent Patterns: What Enterprise-Scale Agent Deployment Teaches Codex CLI Users"
 date: 2026-04-10T08:30:00+01:00
-parent: "Articles"
-nav_order: 213
 tags:
   - stripe
   - enterprise-agents

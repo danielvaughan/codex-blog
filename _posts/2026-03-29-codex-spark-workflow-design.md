@@ -1,8 +1,6 @@
 ---
 title: "Designing Workflows for Codex-Spark: When Inference Becomes Near-Instant"
-date: 2026-03-29
-parent: "Articles"
-nav_order: 95
+date: 2026-03-29T09:00:00+00:00
 description: "A practical guide to redesigning your Codex CLI workflows around GPT-5.3-Codex-Spark's 1,000+ tokens/second throughput — covering interactive refinement loops, context window constraints, the 4-file memory pattern, and when to route tasks to the standard model instead."
 substack_status: draft
 tags:

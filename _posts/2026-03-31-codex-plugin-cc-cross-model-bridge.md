@@ -1,6 +1,6 @@
 ---
 title: "codex-plugin-cc: OpenAI Ships Codex Inside Claude Code"
-date: 2026-03-31
+date: 2026-03-31T09:00:00+00:00
 tags:
   - ecosystem
   - plugins

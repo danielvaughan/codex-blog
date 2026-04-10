@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Memory Internals: Pipelines, Secret Sanitisation and Intelligent Forgetting"
-parent: "Articles"
-nav_order: 169
 tags:
   - architecture
   - memory

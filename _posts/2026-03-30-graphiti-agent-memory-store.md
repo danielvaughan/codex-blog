@@ -1,6 +1,6 @@
 ---
 title: "Graphiti: Temporal Knowledge Graphs for Agent Memory — Should the Knowledge Flywheel Use It?"
-date: 2026-03-30
+date: 2026-03-30T09:00:00+00:00
 tags:
   - ecosystem
   - memory

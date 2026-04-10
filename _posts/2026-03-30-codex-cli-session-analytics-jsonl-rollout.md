@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Session Analytics: Mining the JSONL Rollout Format"
-parent: "Articles"
-nav_order: 103
 tags:
   - architecture
   - observability

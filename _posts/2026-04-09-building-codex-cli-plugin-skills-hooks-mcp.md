@@ -5,8 +5,6 @@ classes: wide
 categories: articles
 toc: true
 toc_sticky: true
-parent: "Articles"
-nav_order: 216
 tags:
   - plugin
   - skills

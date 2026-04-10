@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI for Rust Teams: AGENTS.md, Cargo Workflows, and Workspace Patterns"
-parent: "Articles"
-nav_order: 133
 tags:
   - language-guide
   - agents-md

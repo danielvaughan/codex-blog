@@ -1,7 +1,5 @@
 ---
 title: "codex exec JSONL Reference: Every Event Type and the Complete Output Schema"
-parent: "Articles"
-nav_order: 185
 tags:
   - reference
   - automation

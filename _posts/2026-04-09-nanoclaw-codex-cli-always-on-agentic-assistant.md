@@ -1,8 +1,6 @@
 ---
 title: "NanoClaw and Codex CLI: Building an Always-On Agentic Assistant"
 date: 2026-04-09T05:16:00+01:00
-parent: "Articles"
-nav_order: 195
 tags:
   - nanoclaw
   - always-on

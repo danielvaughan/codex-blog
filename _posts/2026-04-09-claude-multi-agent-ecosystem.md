@@ -1,8 +1,6 @@
 ---
 title: "Claude Flow, Ruflo and Anthropic Agent Teams: The Claude Multi-Agent Ecosystem"
 date: 2026-04-09T00:15:00+01:00
-parent: "Articles"
-nav_order: 192
 tags:
   - claude-flow
   - ruflo

@@ -1,8 +1,6 @@
 ---
 title: "The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality"
 date: 2026-04-10T10:00:00+01:00
-parent: "Articles"
-nav_order: 234
 tags:
   - karpathy
   - ai-capability-gap

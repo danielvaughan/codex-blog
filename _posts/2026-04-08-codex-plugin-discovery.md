@@ -1,7 +1,5 @@
 ---
 title: "Codex Plugin Discovery: @Mentions, the In-TUI Browser and Marketplace Navigation"
-parent: "Articles"
-nav_order: 173
 tags:
   - ecosystem
   - plugins

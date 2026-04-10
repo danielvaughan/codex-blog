@@ -1,6 +1,6 @@
 ---
 title: "The Codex CLI Skills Ecosystem: agentskills.io and Community Skills"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 tags:
   - ecosystem
   - skills

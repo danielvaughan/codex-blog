@@ -1,7 +1,5 @@
 ---
 title: "The New Codex Subscription Landscape: Free, Go, Plus, Pro and Enterprise Compared"
-parent: "Articles"
-nav_order: 235
 tags: ["pricing", "subscription-tiers", "pro-plan", "codex-spark", "enterprise", "cost-management", "claude-max", "competitive-analysis"]
 ---
 

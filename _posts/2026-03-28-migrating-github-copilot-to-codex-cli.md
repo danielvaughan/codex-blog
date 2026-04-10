@@ -1,7 +1,5 @@
 ---
 title: "Migrating from GitHub Copilot to Codex CLI"
-parent: "Articles"
-nav_order: 81
 tags:
   - competitive-landscape
   - github-copilot

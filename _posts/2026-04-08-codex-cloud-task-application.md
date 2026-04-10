@@ -1,7 +1,5 @@
 ---
 title: "Codex Cloud Task Application: From Slack Dispatch to Reviewed Diff Merge"
-parent: "Articles"
-nav_order: 186
 tags:
   - cloud
   - codex-cloud

@@ -1,8 +1,6 @@
 ---
 title: "The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud"
 date: 2026-04-09T01:13:00+01:00
-parent: "Articles"
-nav_order: 193
 tags:
   - three-tier-orchestration
   - addy-osmani

@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal"
-parent: "Articles"
-nav_order: 101
 tags:
   - configuration
   - docker

@@ -1,6 +1,6 @@
 ---
 title: "WORKFLOW.md: Version-Controlling Your Agent's Behaviour"
-date: 2026-03-27
+date: 2026-03-27T09:00:00+00:00
 excerpt: "Symphony's dual-purpose config+prompt file pattern: YAML front matter defines runtime orchestration settings, Markdown body becomes the Jinja prompt template. Agent policy as a versioned repo artifact."
 tags:
   - orchestration

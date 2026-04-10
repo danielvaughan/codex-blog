@@ -1,7 +1,5 @@
 ---
 title: "How to Be a Codex CLI Forward Deployed Engineer"
-parent: "Articles"
-nav_order: 159
 tags:
   - workflow-patterns
   - team-workflow

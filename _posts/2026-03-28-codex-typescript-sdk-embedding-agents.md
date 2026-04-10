@@ -1,6 +1,6 @@
 ---
 title: "The Codex TypeScript SDK: Embedding Agents in Your Own Tooling"
-date: 2026-03-28
+date: 2026-03-28T09:00:00+00:00
 tags:
   - ecosystem
   - typescript-sdk

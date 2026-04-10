@@ -1,7 +1,5 @@
 ---
 title: "Bootstrapping AGENTS.md: Scaffold Generation, Override Files and Chain Verification"
-parent: "Articles"
-nav_order: 172
 tags:
   - getting-started
   - agents-md

@@ -1,8 +1,6 @@
 ---
 title: "Codex CLI 3 Million Users: Growth Trajectory and What the Usage Limit Reset Strategy Means"
 date: 2026-04-09T09:30:00+01:00
-parent: "Articles"
-nav_order: 206
 tags:
   - growth
   - 3-million-users

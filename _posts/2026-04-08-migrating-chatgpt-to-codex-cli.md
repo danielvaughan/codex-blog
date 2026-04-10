@@ -1,7 +1,5 @@
 ---
 title: "Migrating to Codex CLI from ChatGPT: From Chat to Agentic Workflows"
-parent: "Articles"
-nav_order: 186
 tags:
   - migration
   - chatgpt

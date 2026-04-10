@@ -1,7 +1,5 @@
 ---
 title: "Sourcegraph Amp: The Multi-Repo AI Orchestrator Codex CLI Doesn't Compete With (Yet)"
-parent: "Articles"
-nav_order: 160
 tags:
   - competitive-landscape
   - competitor-tools

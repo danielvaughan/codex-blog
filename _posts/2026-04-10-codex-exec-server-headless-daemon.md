@@ -1,7 +1,5 @@
 ---
 title: "The codex exec-server Subcommand: Foundation for Headless and Daemon-Mode Codex"
-parent: "Articles"
-nav_order: 237
 tags: ["exec-server", "headless", "daemon", "ci-cd", "remote-execution", "experimental", "codex-rs", "architecture"]
 ---
 

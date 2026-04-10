@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions"
-parent: "Articles"
-nav_order: 130
 tags:
   - architecture
   - context-management

@@ -1,7 +1,5 @@
 ---
 title: "Codex CLI Internals: Queue-Pair Protocol, Guardian AI, and 3-OS Sandbox Architecture"
-parent: "Articles"
-nav_order: 240
 tags: ["architecture", "internals", "queue-pair", "guardian-ai", "sandbox", "rust", "codex-rs"]
 ---
 

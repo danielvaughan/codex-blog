@@ -1,7 +1,5 @@
 ---
 title: "GPT-5.4 mini in Codex CLI: Subagent Delegation, Model Routing and the Tiered Inference Architecture"
-parent: "Articles"
-nav_order: 105
 tags:
   - models
   - model-selection

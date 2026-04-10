@@ -1,7 +1,5 @@
 ---
 title: "CliGate, Bifrost, and the Multi-Harness Gateway Pattern"
-parent: "Articles"
-nav_order: 241
 tags: ["cligate", "bifrost", "multi-harness", "gateway", "multi-provider", "local-proxy", "routing", "kong", "codex-cli"]
 ---
 

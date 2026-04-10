@@ -1,7 +1,5 @@
 ---
 title: "Inside the Codex Sandbox: Platform-Specific Implementation on macOS, Linux and Windows"
-parent: "Articles"
-nav_order: 167
 tags:
   - architecture
   - sandbox
