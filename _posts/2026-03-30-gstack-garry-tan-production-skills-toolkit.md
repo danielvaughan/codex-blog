@@ -2,7 +2,10 @@
 title: "gstack: Garry Tan's Production Claude Code Skills Toolkit"
 parent: "Articles"
 nav_order: 114
-tags: ["ecosystem", "skills", "claude-code"]
+tags:
+  - ecosystem
+  - skills
+  - claude-code
 ---
 
 ![Sketchnote diagram for: gstack: Garry Tan's Production Claude Code Skills Toolkit](/sketchnotes/articles/2026-03-30-gstack-garry-tan-production-skills-toolkit.png)

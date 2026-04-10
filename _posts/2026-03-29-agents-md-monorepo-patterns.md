@@ -2,11 +2,12 @@
 title: "Advanced AGENTS.md Patterns for Monorepos"
 parent: "Articles"
 nav_order: 89
-tags: ["configuration", "agents-md"]
+tags:
+  - configuration
+  - agents-md
 ---
 
 ![Sketchnote diagram for: Advanced AGENTS.md Patterns for Monorepos](/sketchnotes/articles/2026-03-29-agents-md-monorepo-patterns.png)
-
 
 # Advanced AGENTS.md Patterns for Monorepos
 

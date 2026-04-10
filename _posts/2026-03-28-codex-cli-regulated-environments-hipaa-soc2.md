@@ -2,7 +2,12 @@
 title: "Codex CLI in Regulated Environments: HIPAA, SOC 2, and Financial Services"
 parent: "Articles"
 nav_order: 85
-tags: ["security", "compliance", "enterprise", "sandbox"]
+tags:
+  - security
+  - compliance
+  - enterprise
+  - sandbox
+  - codex-cli
 ---
 ![Sketchnote diagram for: Codex CLI in Regulated Environments: HIPAA, SOC 2, and Financial Services](/sketchnotes/articles/2026-03-28-codex-cli-regulated-environments-hipaa-soc2.png)
 

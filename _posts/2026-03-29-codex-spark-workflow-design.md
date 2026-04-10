@@ -3,13 +3,20 @@ title: "Designing Workflows for Codex-Spark: When Inference Becomes Near-Instant
 date: 2026-03-29
 parent: "Articles"
 nav_order: 95
-tags: [codex-spark, gpt-5-3-codex-spark, real-time-coding, workflow-design, model-routing, context-management, interactive-refinement, human-in-the-loop]
 description: "A practical guide to redesigning your Codex CLI workflows around GPT-5.3-Codex-Spark's 1,000+ tokens/second throughput — covering interactive refinement loops, context window constraints, the 4-file memory pattern, and when to route tasks to the standard model instead."
 substack_status: draft
+tags:
+  - workflow-patterns
+  - codex-spark
+  - model-selection
+  - context-management
+  - gpt-5-3-codex-spark
+  - real-time-coding
+  - workflow-design
+  - model-routing
 ---
 
 ![Sketchnote diagram for: Designing Workflows for Codex-Spark: When Inference Becomes Near-Instant](/sketchnotes/articles/2026-03-29-codex-spark-workflow-design.png)
-
 
 # Designing Workflows for Codex-Spark: When Inference Becomes Near-Instant
 

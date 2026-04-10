@@ -2,7 +2,11 @@
 title: "Codex CLI Python SDK and v2 App-Server Filesystem RPCs"
 parent: "Articles"
 nav_order: 129
-tags: ["ecosystem", "python-sdk", "app-server"]
+tags:
+  - ecosystem
+  - python-sdk
+  - app-server
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Python SDK and v2 App-Server Filesystem RPCs](/sketchnotes/articles/2026-03-31-codex-cli-python-sdk-app-server-rpc.png)

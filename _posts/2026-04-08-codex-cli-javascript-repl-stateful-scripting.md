@@ -2,7 +2,11 @@
 title: "The Codex CLI JavaScript REPL: Stateful Scripting Inside Your Agent Session"
 parent: "Articles"
 nav_order: 166
-tags: ["workflow-patterns", "automation"]
+tags:
+  - workflow-patterns
+  - automation
+  - codex-cli
+  - language-guide
 ---
 
 ![Sketchnote diagram for: The Codex CLI JavaScript REPL: Stateful Scripting Inside Your Agent Session](/sketchnotes/articles/2026-04-08-codex-cli-javascript-repl-stateful-scripting.png)

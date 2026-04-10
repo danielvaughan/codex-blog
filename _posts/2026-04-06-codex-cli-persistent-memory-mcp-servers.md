@@ -2,7 +2,12 @@
 title: "Persistent Memory for Codex CLI: MCP Memory Servers, Cross-Session Context, and the Memory Layer Ecosystem"
 parent: "Articles"
 nav_order: 149
-tags: ["ecosystem", "memory", "mcp", "context-management"]
+tags:
+  - ecosystem
+  - memory
+  - mcp
+  - context-management
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Persistent Memory for Codex CLI: MCP Memory Servers, Cross-Session Context, and the Memory Layer Ecosystem](/sketchnotes/articles/2026-04-06-codex-cli-persistent-memory-mcp-servers.png)

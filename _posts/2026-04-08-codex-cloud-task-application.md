@@ -2,7 +2,12 @@
 title: "Codex Cloud Task Application: From Slack Dispatch to Reviewed Diff Merge"
 parent: "Articles"
 nav_order: 186
-tags: ["cloud", "codex-cloud", "third-party", "automation"]
+tags:
+  - cloud
+  - codex-cloud
+  - third-party
+  - automation
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex Cloud Task Application: From Slack Dispatch to Reviewed Diff Merge](/sketchnotes/articles/codex-cloud-task-application.png)

@@ -3,7 +3,15 @@ title: "Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than
 date: 2026-04-09T11:00:00+01:00
 parent: "Articles"
 nav_order: 217
-tags: ["terminal-bench", "harness-engineering", "benchmarks", "claude-code", "forgecode", "codex-cli", "model-harness-gap", "open-source"]
+tags:
+  - terminal-bench
+  - harness-engineering
+  - benchmarks
+  - claude-code
+  - forgecode
+  - codex-cli
+  - model-harness-gap
+  - open-source
 ---
 
 # Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice

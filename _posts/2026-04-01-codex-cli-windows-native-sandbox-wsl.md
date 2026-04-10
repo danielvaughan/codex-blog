@@ -2,7 +2,11 @@
 title: "Codex CLI on Windows: Native Sandbox, WSL Integration, and the Elevated Security Model"
 parent: "Articles"
 nav_order: 143
-tags: ["getting-started", "windows", "sandbox"]
+tags:
+  - getting-started
+  - windows
+  - sandbox
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI on Windows: Native Sandbox, WSL Integration, and the Elevated Security Model](/sketchnotes/articles/2026-04-01-codex-cli-windows-native-sandbox-wsl.png)

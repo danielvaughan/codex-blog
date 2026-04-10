@@ -3,7 +3,15 @@ title: "Let the Platform Build Itself: AI-Constructed Developer Platforms and Co
 date: 2026-04-10T08:00:00+01:00
 parent: "Articles"
 nav_order: 231
-tags: ["platform-engineering` `self-assembly` `crossplane` `codex-cli` `meta-automation` `backstage` `argocd` `idp` `mcp` `skills"]
+tags:
+  - platform-engineering
+  - self-assembly
+  - crossplane
+  - codex-cli
+  - meta-automation
+  - backstage
+  - argocd
+  - idp
 ---
 
 # Let the Platform Build Itself: AI-Constructed Developer Platforms and Codex CLI

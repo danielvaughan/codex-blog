@@ -1,8 +1,16 @@
 ---
 title: "Codex CLI Automations and Scheduled Tasks: Background Agent Workflows"
 date: 2026-03-27
-tags: [codex-cli, automations, background-agents, scheduling, exec, ci-cd, non-interactive]
 summary: "How to build reliable background agent workflows with Codex: Mac app Automations, codex exec for scripted pipelines, worktree isolation, structured JSON output, and error-handling patterns for unattended runs."
+tags:
+  - ci-cd
+  - automation
+  - codex-cloud
+  - codex-cli
+  - background-agents
+  - scheduling
+  - exec
+  - non-interactive
 ---
 ![Sketchnote diagram for: Codex CLI Automations and Scheduled Tasks: Background Agent Workflows](/sketchnotes/articles/2026-03-27-codex-cli-automations-scheduled-tasks.png)
 

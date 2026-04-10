@@ -2,7 +2,11 @@
 title: "The Four-Surface Architecture: CLI, Desktop, IDE Extension and Cloud as One System"
 parent: "Articles"
 nav_order: 171
-tags: ["architecture", "desktop-app", "ide-extension", "codex-cloud"]
+tags:
+  - architecture
+  - desktop-app
+  - ide-extension
+  - codex-cloud
 ---
 
 ![Sketchnote diagram for: The Four-Surface Architecture: CLI, Desktop, IDE Extension and Cloud as One System](/sketchnotes/articles/2026-04-08-four-surface-architecture.png)

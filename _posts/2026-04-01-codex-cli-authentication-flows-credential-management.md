@@ -2,7 +2,11 @@
 title: "Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD Credential Management"
 parent: "Articles"
 nav_order: 150
-tags: ["security", "credential-management", "config-toml"]
+tags:
+  - security
+  - credential-management
+  - config-toml
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD Credential Management](/sketchnotes/articles/2026-04-01-codex-cli-authentication-flows-credential-management.png)

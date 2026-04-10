@@ -1,10 +1,15 @@
 ---
 title: "Effective Prompting Strategies for Codex CLI"
 date: 2026-03-26
-tags: [prompting, context, AGENTS.md, skills, workflow]
+tags:
+  - workflow-patterns
+  - prompting
+  - agents-md
+  - skills
+  - context
+  - workflow
 ---
 ![Sketchnote diagram for: Effective Prompting Strategies for Codex CLI](/sketchnotes/articles/2026-03-26-effective-prompting-strategies.png)
-
 
 *Based on official OpenAI documentation, community discussion, and developer best practices. Published 2026-03-26.*
 

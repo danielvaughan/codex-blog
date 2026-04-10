@@ -1,7 +1,10 @@
 ---
 title: "Migrating a Workflow from Claude Code to Codex CLI"
 date: 2026-03-26
-tags: ["competitive-landscape", "claude-code", "config-toml"]
+tags:
+  - competitive-landscape
+  - claude-code
+  - config-toml
 ---
 ![Sketchnote diagram for: Migrating a Workflow from Claude Code to Codex CLI](/sketchnotes/articles/2026-03-26-migrating-claude-code-to-codex-cli.png)
 

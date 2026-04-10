@@ -3,7 +3,15 @@ title: "Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Pro
 date: 2026-04-09T02:14:00+01:00
 parent: "Articles"
 nav_order: 194
-tags: ["codex-vs-claude", "subagents", "agent-teams", "protocol-gap", "benchmarks", "token-efficiency", "a2a", "mcp", "convergence"]
+tags:
+  - codex-vs-claude
+  - subagents
+  - agent-teams
+  - protocol-gap
+  - benchmarks
+  - token-efficiency
+  - a2a
+  - mcp
 ---
 ![Sketchnote diagram for: Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Protocol Gap](/sketchnotes/articles/codex-vs-claude-code-multi-agent.png)
 

@@ -1,14 +1,19 @@
 ---
 title: "Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots"
 date: 2026-03-28
-tags: [multi-agent, code-review, adversarial, cross-model, quality-gates]
+tags:
+  - workflow-patterns
+  - code-review
+  - testing
+  - multi-agent
+  - adversarial
+  - cross-model
+  - quality-gates
 ---
 
 ![Sketchnote diagram for: Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots](/sketchnotes/articles/2026-03-28-cross-model-adversarial-review.png)
 
-
 *Published: 2026-03-28*
-
 
 The moment your coding agent reviews its own output, you have a problem. Not because the agent is dishonest — but because it is architecturally incapable of neutrality. The same model that rationalised a design shortcut during implementation will rationalise it again during review. This is not a limitation that better prompting can fix. It requires a structural solution: a different model doing the reviewing.
 

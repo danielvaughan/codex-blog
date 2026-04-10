@@ -1,7 +1,10 @@
 ---
 title: "Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based"
 date: 2026-03-27
-tags: ["orchestration", "subagents", "planning"]
+tags:
+  - orchestration
+  - subagents
+  - planning
 ---
 ![Sketchnote diagram for: Multi-Agent Orchestration Patterns: Sequential, Parallel and Wave-Based](/sketchnotes/articles/2026-03-27-multi-agent-orchestration-patterns.png)
 

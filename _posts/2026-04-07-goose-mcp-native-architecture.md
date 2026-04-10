@@ -2,7 +2,10 @@
 title: "Goose by Block: MCP-Native Architecture and What Codex CLI Can Learn"
 parent: "Articles"
 nav_order: 162
-tags: ["competitive-landscape", "competitor-tools", "mcp"]
+tags:
+  - competitive-landscape
+  - competitor-tools
+  - mcp
 ---
 
 ![Sketchnote diagram for: Goose by Block: MCP-Native Architecture and What Codex CLI Can Learn](/sketchnotes/articles/2026-04-07-goose-mcp-native-architecture.png)

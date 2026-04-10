@@ -1,7 +1,11 @@
 ---
 title: "Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows"
 date: 2026-03-27
-tags: ["workflow-patterns", "code-review", "github-actions"]
+tags:
+  - workflow-patterns
+  - code-review
+  - github-actions
+  - codex-cli
 ---
 ![Sketchnote diagram for: Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows](/sketchnotes/articles/2026-03-27-codex-cli-code-review-pr-integration.png)
 

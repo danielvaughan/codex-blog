@@ -2,11 +2,13 @@
 title: "Vibe Coding vs Agentic Engineering: A Senior Developer's Framework"
 parent: "Articles"
 nav_order: 94
-tags: ["opinion", "team-workflow", "planning"]
+tags:
+  - opinion
+  - team-workflow
+  - planning
 ---
 
 ![Sketchnote diagram for: Vibe Coding vs Agentic Engineering: A Senior Developer's Framework](/sketchnotes/articles/2026-03-29-vibe-coding-vs-agentic-engineering.png)
-
 
 # Vibe Coding vs Agentic Engineering: A Senior Developer's Framework
 

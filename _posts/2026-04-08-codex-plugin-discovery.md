@@ -2,7 +2,10 @@
 title: "Codex Plugin Discovery: @Mentions, the In-TUI Browser and Marketplace Navigation"
 parent: "Articles"
 nav_order: 173
-tags: ["ecosystem", "plugins"]
+tags:
+  - ecosystem
+  - plugins
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex Plugin Discovery: @Mentions, the In-TUI Browser and Marketplace Navigation](/sketchnotes/articles/2026-04-08-codex-plugin-discovery.png)

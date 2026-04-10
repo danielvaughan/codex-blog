@@ -2,7 +2,11 @@
 title: "codex exec JSONL Reference: Every Event Type and the Complete Output Schema"
 parent: "Articles"
 nav_order: 185
-tags: ["reference", "automation", "observability"]
+tags:
+  - reference
+  - automation
+  - observability
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: codex exec JSONL Reference: Every Event Type and the Complete Output Schema](/sketchnotes/articles/codex-exec-jsonl-reference.png)

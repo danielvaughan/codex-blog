@@ -3,7 +3,15 @@ title: "Claude Flow, Ruflo and Anthropic Agent Teams: The Claude Multi-Agent Eco
 date: 2026-04-09T00:15:00+01:00
 parent: "Articles"
 nav_order: 192
-tags: ["claude-flow", "ruflo", "agent-teams", "anthropic", "queen-worker", "mailbox", "orchestration", "codex-comparison"]
+tags:
+  - claude-flow
+  - ruflo
+  - agent-teams
+  - anthropic
+  - queen-worker
+  - mailbox
+  - orchestration
+  - codex-comparison
 ---
 ![Sketchnote diagram for: Claude Flow, Ruflo and Anthropic Agent Teams: The Claude Multi-Agent Ecosystem](/sketchnotes/articles/claude-multi-agent-ecosystem.png)
 

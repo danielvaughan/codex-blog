@@ -1,7 +1,11 @@
 ---
 title: "Using Claude Code and Codex Together: The Multi-Tool Strategy"
 date: 2026-03-27
-tags: ["competitive-landscape", "claude-code", "mcp", "community-sentiment"]
+tags:
+  - competitive-landscape
+  - claude-code
+  - mcp
+  - community-sentiment
 ---
 ![Sketchnote diagram for: Using Claude Code and Codex Together: The Multi-Tool Strategy](/sketchnotes/articles/2026-03-27-using-claude-code-and-codex-together.png)
 

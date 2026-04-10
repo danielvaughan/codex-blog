@@ -3,15 +3,6 @@ title: "Rod Johnson Is Back — and He's Bringing Agent AI to the JVM"
 date: 2026-04-09T20:30:00+01:00
 classes: wide
 categories: articles
-  - embabel
-  - rod-johnson
-  - jvm
-  - agent-framework
-  - spring
-  - goap
-  - agentic-rag
-  - enterprise-ai
-  - talk-writeup
 toc: true
 toc_sticky: true
 tags:

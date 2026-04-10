@@ -2,13 +2,17 @@
 title: "Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors"
 parent: "Articles"
 nav_order: 118
-tags: ["ecosystem", "plugins", "skills", "mcp"]
+tags:
+  - ecosystem
+  - plugins
+  - skills
+  - mcp
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors](/sketchnotes/articles/2026-03-30-codex-cli-plugin-system.png)
 
 # Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors
-
 
 
 Codex CLI v0.117.0 (released March 26, 2026) elevated plugins to a first-class workflow primitive.[^1] Where previously you might wire up an MCP server in `config.toml`, add a `SKILL.md` to a directory, and configure an app connector separately, plugins collapse all three into a single installable, shareable package. The 20+ first-party integrations OpenAI shipped — Slack, Figma, Notion, Gmail, Google Drive, Cloudflare — demonstrate the model, but the more interesting story is the infrastructure underneath them, which is now available to any developer.[^10] This article is a complete technical reference for building, distributing, and managing Codex plugins.

@@ -1,15 +1,24 @@
+---
+title: "Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript"
+date: 2026-04-01
+tags:
+  - competitive-landscape
+  - claude-code
+  - agent-loop
+  - open-source
+  - architecture
+---
+
 # Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript
 
 **Source:** [r/ClaudeCode — "Now that it's open source, we can see why Claude Code is so good"](https://www.reddit.com/r/ClaudeCode/comments/1s8ower/now_that_its_open_source_we_can_see_why_claude/)
 **Author:** Community analysis
-**Published:** 2026-04-01
 **Date saved:** 2026-04-01
 **Content age:** Current
-**Tags:** `competitive-landscape`, `claude-code`, `agent-loop`
 
 ---
 
-![Sketchnote: Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript](/sketchnotes/articles/2026-04-01-claude-code-open-source-architecture.png)
+![Sketchnote diagram for: Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript](/sketchnotes/articles/2026-04-01-claude-code-open-source-architecture.png)
 
 ## Summary
 

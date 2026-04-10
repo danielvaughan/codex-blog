@@ -1,7 +1,12 @@
 ---
 title: "The Codex CLI Skills Ecosystem: agentskills.io and Community Skills"
 date: 2026-03-27
-tags: ["ecosystem", "skills", "plugins", "open-source"]
+tags:
+  - ecosystem
+  - skills
+  - plugins
+  - open-source
+  - codex-cli
 ---
 ![Sketchnote diagram for: The Codex CLI Skills Ecosystem: agentskills.io and Community Skills](/sketchnotes/articles/2026-03-27-codex-cli-skills-ecosystem.png)
 

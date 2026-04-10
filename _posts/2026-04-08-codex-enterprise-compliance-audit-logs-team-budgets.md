@@ -2,7 +2,15 @@
 title: "Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard"
 parent: "Articles"
 nav_order: 190
-tags: ["enterprise", "audit-logs", "compliance", "team-budgets", "admin-dashboard", "governance", "cost-management", "requirements-toml"]
+tags:
+  - enterprise
+  - audit-logs
+  - compliance
+  - team-budgets
+  - admin-dashboard
+  - governance
+  - cost-management
+  - requirements-toml
 ---
 
 ![Sketchnote diagram for: Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard](/sketchnotes/articles/codex-enterprise-compliance-audit-logs-team-budgets.png)

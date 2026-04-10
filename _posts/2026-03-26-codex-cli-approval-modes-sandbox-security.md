@@ -1,6 +1,10 @@
 ---
 title: "Codex CLI Approval Modes and Sandbox Security Model"
-tags: ["security", "approval-modes", "sandbox"]
+tags:
+  - security
+  - approval-modes
+  - sandbox
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Approval Modes and Sandbox Security Model](/sketchnotes/articles/2026-03-26-codex-cli-approval-modes-sandbox-security.png)

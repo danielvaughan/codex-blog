@@ -2,7 +2,12 @@
 title: "The Codex IDE Extension: VS Code, JetBrains, and the Hybrid Cloud-Local Workflow"
 parent: "Articles"
 nav_order: 144
-tags: ["cloud", "ide-extension", "desktop-app", "codex-cloud"]
+tags:
+  - cloud
+  - ide-extension
+  - desktop-app
+  - codex-cloud
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: The Codex IDE Extension: VS Code, JetBrains, and the Hybrid Cloud-Local Workflow](/sketchnotes/articles/2026-04-01-codex-ide-extension-vs-code-jetbrains.png)

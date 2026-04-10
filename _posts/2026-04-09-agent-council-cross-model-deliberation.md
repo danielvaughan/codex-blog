@@ -3,13 +3,19 @@ title: "Agent Council: Cross-Model Deliberation for Architecture Decisions"
 date: 2026-04-09T10:14:00+01:00
 parent: "Articles"
 nav_order: 201
-tags: ["agent-council", "cross-model", "deliberation", "architecture-decisions", "multi-agent", "peer-review", "grounded-decisions"]
+tags:
+  - agent-council
+  - cross-model
+  - deliberation
+  - architecture-decisions
+  - multi-agent
+  - peer-review
+  - grounded-decisions
 ---
 
 ![Sketchnote diagram for: Agent Council: Cross-Model Deliberation for Architecture Decisions](/sketchnotes/articles/2026-04-09-agent-council-cross-model-deliberation.png)
 
 # Agent Council: Cross-Model Deliberation for Architecture Decisions
-
 
 
 Cross-model review loops — where one agent writes code and another reviews it — are now a well-established pattern in agentic workflows. But code review is binary: the reviewer either approves or rejects. Architecture decisions are not binary. They involve trade-offs, competing constraints, and context that a single model's perspective cannot fully capture. Agent Council[^1] brings structured multi-perspective deliberation to CLI-based agentic coding, turning the ad hoc practice of querying multiple models into a repeatable, auditable process.

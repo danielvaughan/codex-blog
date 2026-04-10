@@ -1,11 +1,18 @@
 ---
 title: "Codex Cloud vs Codex Local: When to Run in the Cloud"
 date: 2026-03-27
-tags: [codex-cli, cloud, codex-cloud, execution, cost, slack, linear, background-tasks, hybrid]
 summary: "A practical decision guide covering codex cloud exec, environment provisioning, background task patterns, Slack/@Linear triggers, cloud+local hybrid strategies, and the 5x credit cost model."
+tags:
+  - cloud
+  - codex-cloud
+  - cost-optimization
+  - codex-cli
+  - execution
+  - cost
+  - slack
+  - linear
 ---
 ![Sketchnote diagram for: Codex Cloud vs Codex Local: When to Run in the Cloud](/sketchnotes/articles/2026-03-27-codex-cloud-vs-local-when-to-run-in-cloud.png)
-
 
 # Codex Cloud vs Codex Local: When to Run in the Cloud
 

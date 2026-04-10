@@ -1,7 +1,10 @@
 ---
 title: "Staying Engaged with Your Codebase in an Agentic World"
 date: 2026-03-27
-tags: ["opinion", "team-workflow", "code-review"]
+tags:
+  - opinion
+  - team-workflow
+  - code-review
 ---
 ![Sketchnote diagram for: Staying Engaged with Your Codebase in an Agentic World](/sketchnotes/articles/2026-03-27-staying-engaged-codebase-agentic-world.png)
 

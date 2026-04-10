@@ -2,11 +2,14 @@
 title: "OpenAI's Superapp Pivot: What the ChatGPT + Codex + Atlas Merger Means for Practitioners"
 parent: "Articles"
 nav_order: 97
-tags: ["opinion", "product-direction", "codex-cloud"]
+tags:
+  - opinion
+  - product-direction
+  - codex-cloud
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: OpenAI's Superapp Pivot: What the ChatGPT + Codex + Atlas Merger Means for Practitioners](/sketchnotes/articles/2026-03-29-openai-superapp-codex-strategic-pivot.png)
-
 
 # OpenAI's Superapp Pivot: What the ChatGPT + Codex + Atlas Merger Means for Practitioners
 

@@ -3,7 +3,15 @@ title: "Skill Creator V2 and Codex CLI: Scientific Skill Improvement Without the
 date: 2026-04-09T08:13:00+01:00
 parent: "Articles"
 nav_order: 199
-tags: ["skill-creator-v2", "skills-sh", "evaluation", "parallel-execution", "vanity-metrics", "token-cost", "testing", "enterprise-skills", "scientific-improvement"]
+tags:
+  - skill-creator-v2
+  - skills-sh
+  - evaluation
+  - parallel-execution
+  - vanity-metrics
+  - token-cost
+  - testing
+  - enterprise-skills
 ---
 
 ![Sketchnote diagram for: Skill Creator V2 and Codex CLI: Scientific Skill Improvement Without the Token Bill](/sketchnotes/articles/2026-04-09-skill-creator-v2-codex-cli-scientific-skill-improvement.png)

@@ -3,7 +3,15 @@ title: "Codex CLI and Claude Code Compared: April 2026 Architecture Deep Dive"
 date: 2026-04-09T03:00:00+01:00
 parent: "Articles"
 nav_order: 207
-tags: ["claude-code-vs-codex", "architecture-comparison", "open-source", "react-ink", "codex-rs", "vertical-integration", "sandbox", "context-management", "agent-loop"]
+tags:
+  - claude-code-vs-codex
+  - architecture-comparison
+  - open-source
+  - react-ink
+  - codex-rs
+  - vertical-integration
+  - sandbox
+  - context-management
 ---
 
 ![Sketchnote diagram for: Codex CLI and Claude Code Compared: April 2026 Architecture Deep Dive](/sketchnotes/articles/2026-04-09-codex-cli-vs-claude-code-architecture.png)

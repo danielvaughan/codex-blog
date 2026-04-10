@@ -2,7 +2,15 @@
 title: "Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics"
 parent: "Articles"
 nav_order: 189
-tags: ["performance", "token-overhead", "hidden-costs", "optimisation", "compact", "context-management", "tuning"]
+tags:
+  - performance
+  - token-overhead
+  - hidden-costs
+  - optimisation
+  - compact
+  - context-management
+  - tuning
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics](/sketchnotes/articles/codex-cli-performance-optimization.png)

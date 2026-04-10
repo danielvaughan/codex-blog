@@ -2,7 +2,10 @@
 title: "AI Slopageddon and the Open-Source Contribution Crisis: How Codex CLI's Invitation-Only Model Signals a New Era"
 parent: "Articles"
 nav_order: 151
-tags: ["opinion", "open-source", "community-sentiment"]
+tags:
+  - opinion
+  - open-source
+  - community-sentiment
 ---
 
 ![Sketchnote diagram for: AI Slopageddon and the Open-Source Contribution Crisis: How Codex CLI's Invitation-Only Model Signals a New Era](/sketchnotes/articles/2026-04-01-ai-slopageddon-open-source-contribution-crisis.png)

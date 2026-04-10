@@ -1,7 +1,11 @@
 ---
 title: "Codex CLI for Python Teams: Configuration, Conventions and Automation"
 parent: "Articles"
-tags: ["language-guide", "agents-md", "automation"]
+tags:
+  - language-guide
+  - agents-md
+  - automation
+  - codex-cli
 ---
 ![Sketchnote diagram for: Codex CLI for Python Teams: Configuration, Conventions and Automation](/sketchnotes/articles/2026-03-27-codex-cli-python-teams.png)
 

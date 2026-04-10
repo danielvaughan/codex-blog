@@ -1,6 +1,10 @@
 ---
 title: "Codex CLI in Practice: Real-World Benchmarks and What They Mean"
-tags: ["opinion", "testing", "cost-optimization"]
+tags:
+  - opinion
+  - testing
+  - cost-optimization
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI in Practice: Real-World Benchmarks and What They Mean](/sketchnotes/articles/2026-03-26-codex-cli-benchmarks-real-world.png)

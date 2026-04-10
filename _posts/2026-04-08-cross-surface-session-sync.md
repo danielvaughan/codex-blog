@@ -2,7 +2,11 @@
 title: "Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud"
 parent: "Articles"
 nav_order: 174
-tags: ["cloud", "codex-cloud", "desktop-app", "ide-extension"]
+tags:
+  - cloud
+  - codex-cloud
+  - desktop-app
+  - ide-extension
 ---
 
 ![Sketchnote diagram for: Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud](/sketchnotes/articles/cross-surface-session-sync.png)

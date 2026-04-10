@@ -3,7 +3,15 @@ title: "The Source Map Incident: Lessons in Supply Chain Security for Codex CLI 
 date: 2026-04-09T12:00:00+01:00
 parent: "Articles"
 nav_order: 208
-tags: ["supply-chain-security", "source-map", "npm", "plugin-security", "bun", "npmignore", "axios-attack", "dependency-confusion"]
+tags:
+  - supply-chain-security
+  - source-map
+  - npm
+  - plugin-security
+  - bun
+  - npmignore
+  - axios-attack
+  - dependency-confusion
 ---
 
 # The Source Map Incident: Lessons in Supply Chain Security for Codex CLI Plugin Authors

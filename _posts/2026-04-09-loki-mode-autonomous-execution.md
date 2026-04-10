@@ -3,7 +3,15 @@ title: "Loki Mode: 41-Agent Autonomous Execution and What Codex CLI Can Learn Fr
 date: 2026-04-09T13:11:00+01:00
 parent: "Articles"
 nav_order: 203
-tags: ["loki-mode", "autonomous-execution", "rarv", "quality-gates", "anti-sycophancy", "multi-swarm", "provider-failover", "self-correction", "mutation-testing"]
+tags:
+  - loki-mode
+  - autonomous-execution
+  - rarv
+  - quality-gates
+  - anti-sycophancy
+  - multi-swarm
+  - provider-failover
+  - self-correction
 ---
 
 ![Sketchnote diagram for: Loki Mode: 41-Agent Autonomous Execution and What Codex CLI Can Learn From It](/sketchnotes/articles/2026-04-09-loki-mode-autonomous-execution.png)

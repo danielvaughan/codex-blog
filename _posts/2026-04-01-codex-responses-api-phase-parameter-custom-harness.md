@@ -2,7 +2,11 @@
 title: "Building Custom Harnesses with the Codex Responses API: Phase, Compaction, and Conversation State"
 parent: "Articles"
 nav_order: 146
-tags: ["architecture", "agent-loop", "agents-sdk"]
+tags:
+  - architecture
+  - agent-loop
+  - agents-sdk
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Building Custom Harnesses with the Codex Responses API: Phase, Compaction, and Conversation State](/sketchnotes/articles/2026-04-01-codex-responses-api-phase-parameter-custom-harness.png)

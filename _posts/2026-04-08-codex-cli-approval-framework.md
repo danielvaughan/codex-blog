@@ -2,7 +2,11 @@
 title: "Codex CLI Approval Framework: Permission Profiles, Approval IDs and Runtime Rules"
 parent: "Articles"
 nav_order: 168
-tags: ["security", "approval-modes", "config-toml"]
+tags:
+  - security
+  - approval-modes
+  - config-toml
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Approval Framework: Permission Profiles, Approval IDs and Runtime Rules](/sketchnotes/articles/2026-04-08-codex-cli-approval-framework.png)

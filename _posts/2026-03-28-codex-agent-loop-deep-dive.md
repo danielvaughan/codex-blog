@@ -1,12 +1,18 @@
 ---
 title: "Inside the Codex Agent Loop: How Your Agent Actually Works"
 date: 2026-03-28
-tags: [internals, agent-loop, performance, context-management, advanced]
 summary: "Michael Bolin's deep dive into Codex internals decoded — tokenisation, the quadratic growth problem, how tool calls work, and what it means for how you build agentic workflows."
 substack_ready: false
+tags:
+  - architecture
+  - agent-loop
+  - context-management
+  - internals
+  - performance
+  - advanced
+  - codex-cli
 ---
 ![Sketchnote diagram for: Inside the Codex Agent Loop: How Your Agent Actually Works](/sketchnotes/articles/2026-03-28-codex-agent-loop-deep-dive.png)
-
 
 *Based on Michael Bolin's "Unrolling the Codex Agent Loop" series (January 2026). Source: https://openai.com/index/unrolling-the-codex-agent-loop/*
 

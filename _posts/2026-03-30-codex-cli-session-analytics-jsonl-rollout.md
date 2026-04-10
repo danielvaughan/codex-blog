@@ -2,7 +2,10 @@
 title: "Codex CLI Session Analytics: Mining the JSONL Rollout Format"
 parent: "Articles"
 nav_order: 103
-tags: ["architecture", "observability"]
+tags:
+  - architecture
+  - observability
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Session Analytics: Mining the JSONL Rollout Format](/sketchnotes/articles/2026-03-30-codex-cli-session-analytics-jsonl-rollout.png)

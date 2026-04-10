@@ -3,7 +3,15 @@ title: "The 5 Techniques of Top Agentic Engineers (Cole Medin's Framework Applie
 date: 2026-04-10T07:45:00+01:00
 parent: "Articles"
 nav_order: 214
-tags: ["agentic-engineering", "techniques", "prompt-architecture", "context-management", "quality-gating", "video-inspired", "cole-medin"]
+tags:
+  - agentic-engineering
+  - techniques
+  - prompt-architecture
+  - context-management
+  - quality-gating
+  - video-inspired
+  - cole-medin
+  - codex-cli
 ---
 
 # The 5 Techniques of Top Agentic Engineers (Cole Medin's Framework Applied to Codex CLI)

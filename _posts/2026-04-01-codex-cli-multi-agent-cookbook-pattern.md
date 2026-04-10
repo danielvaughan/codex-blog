@@ -2,7 +2,11 @@
 title: "From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern"
 parent: "Articles"
 nav_order: 142
-tags: ["orchestration", "agents-sdk", "subagents"]
+tags:
+  - orchestration
+  - agents-sdk
+  - subagents
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern](/sketchnotes/articles/2026-04-01-codex-cli-multi-agent-cookbook-pattern.png)

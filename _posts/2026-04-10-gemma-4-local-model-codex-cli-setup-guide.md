@@ -12,11 +12,6 @@ tags:
   - config-toml
   - tool-calling
   - self-hosted
-  - privacy
-  - cost-control
-  - dell-pro-max
-  - gb10
-  - blackwell
 ---
 
 ![Sketchnote diagram for: Running Gemma 4 as a Local Model in the Codex CLI Harness: A Complete Setup Guide](/sketchnotes/articles/2026-04-10-gemma-4-local-model-codex-cli-setup-guide.png)

@@ -2,7 +2,11 @@
 title: "Codex CLI for dbt and Data Engineering Workflows"
 parent: "Articles"
 nav_order: 83
-tags: ["language-guide", "third-party", "agents-md"]
+tags:
+  - language-guide
+  - third-party
+  - agents-md
+  - codex-cli
 ---
 ![Sketchnote diagram for: Codex CLI for dbt and Data Engineering Workflows](/sketchnotes/articles/2026-03-28-codex-cli-dbt-data-engineering.png)
 

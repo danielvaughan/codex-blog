@@ -1,13 +1,20 @@
 ---
 title: "The Agentic Engineering Pod: Three Roles, One Shared Context Layer"
 date: 2026-03-26
-tags: agentic-pod, roles, context-architect, value-engineer, quality-engineer, three-person-rule, codex-cli
+tags:
+  - orchestration
+  - team-workflow
+  - agents-md
+  - planning
+  - agentic-pod
+  - roles
+  - context-architect
+  - value-engineer
 ---
 
 ![Sketchnote diagram for: The Agentic Engineering Pod: Three Roles, One Shared Context Layer](/sketchnotes/articles/2026-03-26-agentic-pod-roles-and-codex.png)
 
 ---
-
 
 ## The Problem
 

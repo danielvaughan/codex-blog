@@ -3,7 +3,15 @@ title: "Context Compaction Showdown: How Codex CLI, Claude Code, and 5 Other Age
 date: 2026-04-10T07:30:00+01:00
 parent: "Articles"
 nav_order: 219
-tags: ["context-compaction", "kv-cache", "cost-optimisation", "long-horizon", "subagent-architecture", "extract-pattern", "event-store", "compaction-threshold"]
+tags:
+  - context-compaction
+  - kv-cache
+  - cost-optimisation
+  - long-horizon
+  - subagent-architecture
+  - extract-pattern
+  - event-store
+  - compaction-threshold
 ---
 
 # Context Compaction Showdown: How Codex CLI, Claude Code, and 5 Other Agents Handle Full Context Windows

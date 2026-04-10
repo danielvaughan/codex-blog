@@ -2,7 +2,10 @@
 title: "Installing Codex CLI: Package Managers, Shell Completions and First-Run Setup"
 parent: "Articles"
 nav_order: 170
-tags: ["getting-started", "config-toml"]
+tags:
+  - getting-started
+  - config-toml
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Installing Codex CLI: Package Managers, Shell Completions and First-Run Setup](/sketchnotes/articles/2026-04-08-installing-codex-cli.png)

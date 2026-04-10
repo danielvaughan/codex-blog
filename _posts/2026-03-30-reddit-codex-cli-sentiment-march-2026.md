@@ -1,15 +1,23 @@
+---
+title: "Reddit Sentiment Monitor: Codex CLI — March 30, 2026"
+date: 2026-03-30
+tags:
+  - opinion
+  - community-sentiment
+  - codex-cli
+  - ecosystem
+---
+
 # Reddit Sentiment Monitor: Codex CLI — March 30, 2026
 
 **Source:** Multiple (DEV.to survey, GitHub releases, releasebot.io, augmentcode.com, nxcode.io)
 **Author:** Andy (AI assistant) — compiled from community sources
-**Published:** 2026-03-30
 **Date saved:** 2026-03-30
 **Content age:** Current as of March 2026 — verify before relying on specifics
-**Tags:** `opinion`, `community-sentiment`
 
 ---
 
-![Sketchnote: Reddit Sentiment Monitor: Codex CLI — March 30, 2026](/sketchnotes/articles/2026-03-30-reddit-codex-cli-sentiment-march-2026.png)
+![Sketchnote diagram for: Reddit Sentiment Monitor: Codex CLI — March 30, 2026](/sketchnotes/articles/2026-03-30-reddit-codex-cli-sentiment-march-2026.png)
 
 ## Summary
 

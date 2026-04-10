@@ -1,9 +1,15 @@
 ---
 title: "Codex CLI Memory Extensions: Cross-Session Persistence Lands in Main"
 date: 2026-04-10T06:00:00+01:00
-tags: [memory, persistence, cross-session, agentic-pod, PR-16276]
 status: published
 research_date: 2026-04-10T06:00:00+01:00
+tags:
+  - memory
+  - persistence
+  - cross-session
+  - agentic-pod
+  - pr-16276
+  - codex-cli
 ---
 
 # Codex CLI Memory Extensions: Cross-Session Persistence Lands in Main

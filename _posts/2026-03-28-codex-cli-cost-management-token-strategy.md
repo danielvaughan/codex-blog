@@ -1,12 +1,19 @@
 ---
 title: "Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control"
 date: 2026-03-28
-tags: [cost-management, token-optimization, model-routing, profiles, quota, enterprise]
 description: "How to estimate, control, and monitor Codex CLI costs for individuals and teams. Includes worked cost projections, profile routing patterns, hook-based monitoring, and enterprise governance."
 substack_status: draft
+tags:
+  - models
+  - cost-optimization
+  - model-selection
+  - enterprise
+  - config-toml
+  - cost-management
+  - token-optimization
+  - model-routing
 ---
 ![Sketchnote diagram for: Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control](/sketchnotes/articles/2026-03-28-codex-cli-cost-management-token-strategy.png)
-
 
 # Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control
 

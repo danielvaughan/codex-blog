@@ -2,13 +2,16 @@
 title: "Codex CLI Memory Internals: Pipelines, Secret Sanitisation and Intelligent Forgetting"
 parent: "Articles"
 nav_order: 169
-tags: ["architecture", "memory", "context-management"]
+tags:
+  - architecture
+  - memory
+  - context-management
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Memory Internals: Pipelines, Secret Sanitisation and Intelligent Forgetting](/sketchnotes/articles/2026-04-08-codex-cli-memory-internals.png)
 
 # Codex CLI Memory Internals: Pipelines, Secret Sanitisation and Intelligent Forgetting
-
 
 
 ---

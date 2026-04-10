@@ -1,6 +1,10 @@
 ---
 title: "Codex CLI for Frontend Development: React, TypeScript and Modern Toolchains"
-tags: ["language-guide", "skills", "agents-md"]
+tags:
+  - language-guide
+  - skills
+  - agents-md
+  - codex-cli
 ---
 ![Sketchnote diagram for: Codex CLI for Frontend Development: React, TypeScript and Modern Toolchains](/sketchnotes/articles/2026-03-27-codex-cli-frontend-react-typescript.png)
 

@@ -2,7 +2,11 @@
 title: "Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts"
 parent: "Articles"
 nav_order: 107
-tags: ["architecture", "hooks", "automation"]
+tags:
+  - architecture
+  - hooks
+  - automation
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts](/sketchnotes/articles/2026-03-30-codex-cli-hooks-engine.png)

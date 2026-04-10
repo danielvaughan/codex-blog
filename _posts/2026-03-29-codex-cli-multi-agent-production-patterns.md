@@ -2,11 +2,14 @@
 title: "Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies"
 parent: "Articles"
 nav_order: 93
-tags: ["orchestration", "subagents", "team-workflow"]
+tags:
+  - orchestration
+  - subagents
+  - team-workflow
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies](/sketchnotes/articles/2026-03-29-codex-cli-multi-agent-production-patterns.png)
-
 
 # Codex CLI Multi-Agent Patterns in Production: Real-World Case Studies
 

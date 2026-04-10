@@ -1,6 +1,10 @@
 ---
 title: "Codex CLI + Figma MCP: Design-to-Code Workflows"
-tags: ["ecosystem", "mcp", "third-party"]
+tags:
+  - ecosystem
+  - mcp
+  - third-party
+  - codex-cli
 ---
 ![Sketchnote diagram for: Codex CLI + Figma MCP: Design-to-Code Workflows](/sketchnotes/articles/2026-03-27-codex-cli-figma-mcp-design-to-code.png)
 

@@ -2,7 +2,11 @@
 title: "How to Be a Codex CLI Forward Deployed Engineer"
 parent: "Articles"
 nav_order: 159
-tags: ["workflow-patterns", "team-workflow", "prompting"]
+tags:
+  - workflow-patterns
+  - team-workflow
+  - prompting
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: How to Be a Codex CLI Forward Deployed Engineer](/sketchnotes/articles/2026-04-07-codex-cli-forward-deployed-engineer.png)

@@ -3,6 +3,8 @@ title: "Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding"
 date: 2026-04-09T15:50:00+01:00
 classes: wide
 categories: articles
+toc: true
+toc_sticky: true
 tags:
   - opinion
   - developer-experience
@@ -11,8 +13,6 @@ tags:
   - flow-state
   - psychology
   - burnout
-toc: true
-toc_sticky: true
 ---
 
 ![Sketchnote diagram for: Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding](/sketchnotes/articles/2026-04-09-toxic-flow-addictive-exhausting-multi-agent-coding.png)

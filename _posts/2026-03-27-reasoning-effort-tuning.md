@@ -1,11 +1,18 @@
 ---
 title: "Reasoning Effort Tuning: Minimal to xhigh for Cost and Speed"
 date: 2026-03-27
-tags: [codex-cli, performance, cost, configuration, subagents]
 summary: "How to tune model_reasoning_effort and plan_mode_reasoning_effort for every workflow. The five levels explained with real cost/speed tradeoffs and subagent economics."
+tags:
+  - models
+  - model-selection
+  - cost-optimization
+  - config-toml
+  - codex-cli
+  - performance
+  - cost
+  - configuration
 ---
 ![Sketchnote diagram for: Reasoning Effort Tuning: Minimal to xhigh for Cost and Speed](/sketchnotes/articles/2026-03-27-reasoning-effort-tuning.png)
-
 
 # Reasoning Effort Tuning: Minimal to xhigh for Cost and Speed
 

@@ -1,7 +1,11 @@
 ---
 title: "Codex CLI Enterprise Deployment: Managed Policies and Team Configuration"
 date: 2026-03-26
-tags: ["configuration", "enterprise", "config-toml"]
+tags:
+  - configuration
+  - enterprise
+  - config-toml
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Enterprise Deployment: Managed Policies and Team Configuration](/sketchnotes/articles/2026-03-26-codex-cli-enterprise-deployment.png)

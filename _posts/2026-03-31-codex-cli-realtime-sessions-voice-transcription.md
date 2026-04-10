@@ -2,7 +2,11 @@
 title: "Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config"
 parent: "Articles"
 nav_order: 136
-tags: ["ecosystem", "voice-input", "config-toml"]
+tags:
+  - ecosystem
+  - voice-input
+  - config-toml
+  - codex-cli
 ---
 
 ![Sketchnote: Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config](/sketchnotes/articles/2026-03-31-codex-cli-realtime-sessions-voice-transcription.png)

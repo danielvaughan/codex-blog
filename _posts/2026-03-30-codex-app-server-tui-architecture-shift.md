@@ -2,7 +2,11 @@
 title: "Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions"
 parent: "Articles"
 nav_order: 122
-tags: ["architecture", "app-server", "codex-rs"]
+tags:
+  - architecture
+  - app-server
+  - codex-rs
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions](/sketchnotes/articles/2026-03-30-codex-app-server-tui-architecture-shift.png)

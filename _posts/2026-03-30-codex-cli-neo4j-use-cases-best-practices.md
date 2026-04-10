@@ -2,7 +2,11 @@
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
 parent: "Articles"
 nav_order: 116
-tags: ["ecosystem", "third-party", "memory"]
+tags:
+  - ecosystem
+  - third-party
+  - memory
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI and Neo4j: Use Cases and Best Practices](/sketchnotes/articles/2026-03-30-codex-cli-neo4j-use-cases-best-practices.png)

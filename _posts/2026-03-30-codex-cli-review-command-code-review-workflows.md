@@ -2,7 +2,11 @@
 title: "Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension"
 parent: "Articles"
 nav_order: 123
-tags: ["workflow-patterns", "code-review", "mcp"]
+tags:
+  - workflow-patterns
+  - code-review
+  - mcp
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension](/sketchnotes/articles/2026-03-30-codex-cli-review-command-code-review-workflows.png)

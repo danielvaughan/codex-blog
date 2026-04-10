@@ -3,7 +3,15 @@ title: "MCP Server Elicitations in Codex CLI: Structured User Input, Auto-Approv
 date: 2026-04-10T08:15:00+01:00
 parent: "Articles"
 nav_order: 215
-tags: ["mcp-elicitation", "structured-input", "auto-approve", "custom-mcp-server", "approval-workflow", "danger-full-access", "enterprise"]
+tags:
+  - mcp-elicitation
+  - structured-input
+  - auto-approve
+  - custom-mcp-server
+  - approval-workflow
+  - danger-full-access
+  - enterprise
+  - codex-cli
 ---
 
 # MCP Server Elicitations in Codex CLI: Structured User Input, Auto-Approval, and Custom Server Patterns

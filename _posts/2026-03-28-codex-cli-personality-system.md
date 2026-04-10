@@ -1,9 +1,17 @@
 ---
 title: "Codex CLI Personality System: Customising Agent Communication Style"
 date: 2026-03-28
-tags: [personality, communication-style, friendly, pragmatic, agents-md, config-toml, features]
 description: "A complete guide to Codex CLI's personality system — features.personality flag, /personality slash command, per-profile presets, interaction with AGENTS.md, and when to disable personalities entirely for CI bots."
 substack_status: draft
+tags:
+  - configuration
+  - agents-md
+  - config-toml
+  - personality
+  - communication-style
+  - friendly
+  - pragmatic
+  - features
 ---
 ![Sketchnote diagram for: Codex CLI Personality System: Customising Agent Communication Style](/sketchnotes/articles/2026-03-28-codex-cli-personality-system.png)
 

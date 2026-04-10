@@ -2,7 +2,15 @@
 title: "Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI"
 parent: "Articles"
 nav_order: 191
-tags: ["gastown", "steve-yegge", "multi-agent-factory", "operational-roles", "beads", "parallel-agents", "orchestration-comparison", "claude-code"]
+tags:
+  - gastown
+  - steve-yegge
+  - multi-agent-factory
+  - operational-roles
+  - beads
+  - parallel-agents
+  - orchestration-comparison
+  - claude-code
 ---
 
 ![Sketchnote diagram for: Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI](/sketchnotes/articles/gas-town-multi-agent-factory.png)

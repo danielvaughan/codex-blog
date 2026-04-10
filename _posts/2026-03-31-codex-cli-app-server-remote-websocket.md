@@ -2,7 +2,11 @@
 title: "Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment"
 parent: "Articles"
 nav_order: 139
-tags: ["architecture", "app-server", "codex-cloud"]
+tags:
+  - architecture
+  - app-server
+  - codex-cloud
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment](/sketchnotes/articles/2026-03-31-codex-cli-app-server-remote-websocket.png)

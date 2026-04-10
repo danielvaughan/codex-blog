@@ -2,11 +2,14 @@
 title: "Migrating from Cursor to Codex CLI"
 parent: "Articles"
 nav_order: 80
-tags: ["competitive-landscape", "cursor", "config-toml"]
+tags:
+  - competitive-landscape
+  - cursor
+  - config-toml
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Migrating from Cursor to Codex CLI](/sketchnotes/articles/2026-03-28-migrating-cursor-to-codex-cli.png)
-
 
 # Migrating from Cursor to Codex CLI
 

@@ -2,7 +2,12 @@
 title: "Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI"
 parent: "Articles"
 nav_order: 132
-tags: ["language-guide", "agents-md", "sandbox", "third-party"]
+tags:
+  - language-guide
+  - agents-md
+  - sandbox
+  - third-party
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI](/sketchnotes/articles/2026-03-31-codex-cli-dotnet-csharp-teams.png)

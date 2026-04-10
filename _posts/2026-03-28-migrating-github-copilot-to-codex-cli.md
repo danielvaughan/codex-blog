@@ -2,14 +2,16 @@
 title: "Migrating from GitHub Copilot to Codex CLI"
 parent: "Articles"
 nav_order: 81
-tags: ["competitive-landscape", "github-copilot", "config-toml"]
+tags:
+  - competitive-landscape
+  - github-copilot
+  - config-toml
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Migrating from GitHub Copilot to Codex CLI](/sketchnotes/articles/2026-03-28-migrating-github-copilot-to-codex-cli.png)
 
-
 # Migrating from GitHub Copilot to Codex CLI
-
 
 
 ---

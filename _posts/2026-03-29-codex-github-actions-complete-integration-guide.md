@@ -2,11 +2,14 @@
 title: "Codex CLI + GitHub Actions: The Complete Integration Guide"
 parent: "Articles"
 nav_order: 87
-tags: ["ci-cd", "github-actions", "automation"]
+tags:
+  - ci-cd
+  - github-actions
+  - automation
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI + GitHub Actions: The Complete Integration Guide](/sketchnotes/articles/2026-03-29-codex-github-actions-complete-integration-guide.png)
-
 
 # Codex CLI + GitHub Actions: The Complete Integration Guide
 

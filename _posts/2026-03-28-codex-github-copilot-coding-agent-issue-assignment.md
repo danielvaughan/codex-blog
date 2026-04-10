@@ -1,7 +1,15 @@
 ---
 title: "Codex as a GitHub Copilot Coding Agent: Assigning Issues and PRs at Scale"
 date: 2026-03-28
-tags: [codex, github-copilot, coding-agent, enterprise, issue-assignment, pull-requests, agent-hq]
+tags:
+  - ecosystem
+  - github-copilot
+  - github-actions
+  - enterprise
+  - codex-cli
+  - coding-agent
+  - issue-assignment
+  - pull-requests
 ---
 ![Sketchnote diagram for: Codex as a GitHub Copilot Coding Agent: Assigning Issues and PRs at Scale](/sketchnotes/articles/2026-03-28-codex-github-copilot-coding-agent-issue-assignment.png)
 

@@ -3,8 +3,16 @@ title: "Working with Images in Codex CLI: Attaching, Inspecting and Generating V
 parent: "Articles"
 nav_order: 61
 date: 2026-03-28
-tags: [images, view-image, visual-workflows, code-mode, image-generation, multimodal]
 summary: "Codex CLI v0.115.0–v0.117.0 shipped a full multimodal image pipeline: full-resolution inspection, a view_image tool that returns URLs in code mode, and image-generation history that survives session resume. This article covers every entry point, the code-mode image API, and practical use cases for visual development workflows."
+tags:
+  - workflow-patterns
+  - non-coding
+  - images
+  - view-image
+  - visual-workflows
+  - code-mode
+  - image-generation
+  - multimodal
 ---
 ![Sketchnote diagram for: Working with Images in Codex CLI: Attaching, Inspecting and Generating Visual Assets](/sketchnotes/articles/2026-03-28-codex-cli-image-workflows.png)
 

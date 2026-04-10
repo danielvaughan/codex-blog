@@ -3,7 +3,15 @@ title: "The Three-Tier Agent Orchestration Landscape: In-Process, Local and Clou
 date: 2026-04-09T01:13:00+01:00
 parent: "Articles"
 nav_order: 193
-tags: ["three-tier-orchestration", "addy-osmani", "in-process", "local", "cloud-async", "landscape", "decision-framework", "agent-tiers", "codex-cli", "multi-agent"]
+tags:
+  - three-tier-orchestration
+  - addy-osmani
+  - in-process
+  - local
+  - cloud-async
+  - landscape
+  - decision-framework
+  - agent-tiers
 ---
 ![Sketchnote diagram for: The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud](/sketchnotes/articles/three-tier-agent-orchestration.png)
 

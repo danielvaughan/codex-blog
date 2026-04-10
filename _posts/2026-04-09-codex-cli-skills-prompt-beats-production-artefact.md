@@ -3,7 +3,15 @@ title: "Codex CLI Skills: When a 10-Word Prompt Beats a Production Artefact"
 date: 2026-04-09T07:13:00+01:00
 parent: "Articles"
 nav_order: 198
-tags: ["skills", "minimalism", "prompt-vs-skill", "durability", "over-engineering", "commands", "skill-md", "agents-md", "pragmatic"]
+tags:
+  - skills
+  - minimalism
+  - prompt-vs-skill
+  - durability
+  - over-engineering
+  - commands
+  - skill-md
+  - agents-md
 ---
 ![Sketchnote diagram for: Codex CLI Skills: When a 10-Word Prompt Beats a Production Artefact](/sketchnotes/articles/codex-cli-skills-prompt-beats-production-artefact.png)
 

@@ -1,8 +1,16 @@
 ---
 title: "Codex CLI Approval Loop Fatigue: The prefix_rule Limitation and the Coming general_rule Fix"
 date: 2026-03-30
-tags: [execpolicy, starlark, rules-engine, approval-fatigue, multi-agent, sandbox]
 description: "Why Codex's current prefix_rule-only rules engine causes approval loop fatigue in multi-agent sessions — and what the community is building to fix it."
+tags:
+  - security
+  - approval-modes
+  - subagents
+  - sandbox
+  - execpolicy
+  - starlark
+  - rules-engine
+  - approval-fatigue
 ---
 
 ![Sketchnote diagram for: Codex CLI Approval Loop Fatigue: The prefix_rule Limitation and the Coming general_rule Fix](/sketchnotes/articles/2026-03-30-codex-cli-approval-loop-fatigue-starlark-general-rule.png)
@@ -10,7 +18,6 @@ description: "Why Codex's current prefix_rule-only rules engine causes approval 
 *Published: 2026-03-30. Sources: [github.com/openai/codex/issues/15214](https://github.com/openai/codex/issues/15214) · [developers.openai.com/codex/rules](https://developers.openai.com/codex/rules) · community gist by @vertti*
 
 ---
-
 
 ## The Problem
 

@@ -1,11 +1,17 @@
 ---
 title: "codex-plugin-cc: OpenAI Ships Codex Inside Claude Code"
 date: 2026-03-31
-tags: [codex-cli, claude-code, plugin, cross-model, strategy]
+tags:
+  - ecosystem
+  - plugins
+  - claude-code
+  - codex-cli
+  - plugin
+  - cross-model
+  - strategy
 ---
 
 ![Sketchnote diagram for: codex-plugin-cc: OpenAI Ships Codex Inside Claude Code](/sketchnotes/articles/2026-03-31-codex-plugin-cc-cross-model-bridge.png)
-
 
 On March 31, 2026, OpenAI published [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — an official plugin that lets Claude Code users run Codex reviews and delegate tasks without leaving their session. Within hours it had 3,700+ GitHub stars. This is OpenAI shipping its agent *inside a competitor's tool*.
 

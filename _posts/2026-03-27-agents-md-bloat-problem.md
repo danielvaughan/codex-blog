@@ -1,7 +1,10 @@
 ---
 title: "The AGENTS.md Bloat Problem: When More Context Makes Agents Worse"
 date: 2026-03-27
-tags: ["workflow-patterns", "agents-md", "context-management"]
+tags:
+  - workflow-patterns
+  - agents-md
+  - context-management
 ---
 ![Sketchnote diagram for: The AGENTS.md Bloat Problem: When More Context Makes Agents Worse](/sketchnotes/articles/2026-03-27-agents-md-bloat-problem.png)
 

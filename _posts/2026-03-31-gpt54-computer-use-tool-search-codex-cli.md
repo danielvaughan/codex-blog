@@ -2,7 +2,11 @@
 title: "GPT-5.4 Computer Use and Tool Search in Codex CLI: Visual Debugging, Deferred Loading, and /fast Mode"
 parent: "Articles"
 nav_order: 137
-tags: ["models", "model-selection", "plugins"]
+tags:
+  - models
+  - model-selection
+  - plugins
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: GPT-5.4 Computer Use and Tool Search in Codex CLI: Visual Debugging, Deferred Loading, and /fast Mode](/sketchnotes/articles/2026-03-31-gpt54-computer-use-tool-search-codex-cli.png)

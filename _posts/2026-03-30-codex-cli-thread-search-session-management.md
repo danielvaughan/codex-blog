@@ -2,7 +2,10 @@
 title: "Codex CLI Thread Search and Session Management: Finding, Archiving and Replaying Work"
 parent: "Articles"
 nav_order: 106
-tags: ["reference", "context-management"]
+tags:
+  - reference
+  - context-management
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Thread Search and Session Management: Finding, Archiving and Replaying Work](/sketchnotes/articles/2026-03-30-codex-cli-thread-search-session-management.png)

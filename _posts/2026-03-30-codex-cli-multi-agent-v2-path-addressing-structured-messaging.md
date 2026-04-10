@@ -2,13 +2,18 @@
 title: "Codex CLI Multi-Agent v2: Path-Based Addressing, Structured Messaging, and the v4 Agent API"
 parent: "Articles"
 nav_order: 124
-tags: ["architecture", "subagents", "app-server", "orchestration", "config-toml"]
+tags:
+  - architecture
+  - subagents
+  - app-server
+  - orchestration
+  - config-toml
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Multi-Agent v2: Path-Based Addressing, Structured Messaging, and the v4 Agent API](/sketchnotes/articles/2026-03-30-codex-cli-multi-agent-v2-path-addressing-structured-messaging.png)
 
 # Codex CLI Multi-Agent v2: Path-Based Addressing, Structured Messaging, and the v4 Agent API
-
 
 
 ---

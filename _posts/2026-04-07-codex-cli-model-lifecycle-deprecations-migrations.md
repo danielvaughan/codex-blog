@@ -2,7 +2,11 @@
 title: "Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition"
 parent: "Articles"
 nav_order: 152
-tags: ["models", "model-lifecycle", "config-toml"]
+tags:
+  - models
+  - model-lifecycle
+  - config-toml
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition](/sketchnotes/articles/2026-04-07-codex-cli-model-lifecycle-deprecations-migrations.png)

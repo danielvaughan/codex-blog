@@ -1,6 +1,11 @@
 ---
 title: "Security Hardening Your Codex CLI Setup"
-tags: ["security", "sandbox", "network-security", "approval-modes"]
+tags:
+  - security
+  - sandbox
+  - network-security
+  - approval-modes
+  - codex-cli
 ---
 ![Sketchnote diagram for: Security Hardening Your Codex CLI Setup](/sketchnotes/articles/2026-03-27-security-hardening-codex-cli.png)
 

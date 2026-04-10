@@ -2,7 +2,15 @@
 title: "Codex CLI Competitive Position April 2026: The Road to Parity with Claude Code"
 parent: "Articles"
 nav_order: 156
-tags: ["competitive-landscape", "claude-code", "community-sentiment", "product-direction", "google-antigravity", "kiro", "cursor", "competitor-tools"]
+tags:
+  - competitive-landscape
+  - claude-code
+  - community-sentiment
+  - product-direction
+  - google-antigravity
+  - kiro
+  - cursor
+  - competitor-tools
 ---
 
 ![Sketchnote diagram for: Codex CLI Competitive Position April 2026: The Road to Parity with Claude Code](/sketchnotes/articles/2026-04-07-codex-cli-competitive-position-april-2026.png)

@@ -2,7 +2,11 @@
 title: "Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands"
 parent: "Articles"
 nav_order: 153
-tags: ["reference", "observability", "sandbox"]
+tags:
+  - reference
+  - observability
+  - sandbox
+  - codex-cli
 ---
 
 ![Sketchnote diagram for: Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands](/sketchnotes/articles/2026-04-07-codex-cli-diagnostic-toolkit-tracing-sandbox-testing.png)

@@ -1,7 +1,10 @@
 ---
 title: "Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas"
 date: 2026-03-27
-tags: ["ecosystem", "mcp", "claude-code"]
+tags:
+  - ecosystem
+  - mcp
+  - claude-code
 ---
 ![Sketchnote diagram for: Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas](/sketchnotes/articles/2026-03-27-claude-code-codex-mcp-in-practice.png)
 
