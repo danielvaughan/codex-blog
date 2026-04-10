@@ -479,6 +479,113 @@ codex "list the Python files in the current directory"
 
 ---
 
+## Setup Guide: 24 GB M4 MacBook Pro
+
+The 24 GB M4 MacBook Pro is the most common Apple Silicon configuration developers own. It is powerful enough to run Gemma 4 locally — but with hard constraints that determine which variant to choose and how to configure it.
+
+### What Fits in 24 GB
+
+Unified memory on Apple Silicon is shared between macOS, the inference engine, model weights, and the KV cache. Budget 2–4 GB for the OS and runtime overhead, leaving roughly 20–22 GB for the model and its working memory.
+
+| Model | Q4_K_M | Q5_K_M | Q8_0 | FP16 | Verdict |
+|---|---|---|---|---|---|
+| **E2B** (5.1B) | 3.1 GB | 3.4 GB | 5.1 GB | 9.3 GB | ✅ Fits easily at any quantisation |
+| **E4B** (8B) | 5.0 GB | 5.5 GB | 8.2 GB | 15.1 GB | ✅ Fits comfortably, Q8_0 recommended |
+| **26B-A4B MoE** | 16.9 GB | 21.2 GB | 26.9 GB | 50.5 GB | ⚠️ Q4_K_M only, tight — see caveats |
+| **31B Dense** | 18.3 GB | 21.7 GB | 32.6 GB | 61.4 GB | ❌ Does not fit usably |
+
+The 26B MoE at Q4_K_M (16.9 GB weights) leaves approximately 3–5 GB for KV cache and overhead. At full 128K context the KV cache alone demands ~5.2 GB, which pushes total memory past the physical limit. In practice, context windows must be limited to 8K–16K tokens before macOS begins swapping to SSD, at which point throughput collapses from ~50 tok/s to ~2 tok/s[^16].
+
+The 31B Dense at Q4_K_M (18.3 GB weights) technically loads but leaves less than 2 GB for everything else. It is not usable for Codex CLI workflows, which require KV cache headroom for multi-turn tool-calling chains.
+
+### Recommended Configuration for 24 GB
+
+The **E4B at Q8_0** is the best choice for a 24 GB M4 MacBook Pro running Codex CLI. It fits in 8.2 GB, leaving 12+ GB for KV cache and full 128K context, and generates tokens at ~57 tok/s — fast enough for interactive agentic coding with no perceptible lag.
+
+If code quality is the priority and short contexts are acceptable, the **26B-A4B MoE at Q4_K_M** is a stretch option. Limit the context to 16K tokens and expect occasional memory-pressure slowdowns.
+
+| Configuration | Tokens/Second | Usable Context | Codex CLI Experience |
+|---|---|---|---|
+| E4B, Q8_0, Ollama | ~50–57 tok/s | Full 128K | Smooth, responsive, no memory pressure |
+| E4B, Q4_K_M, Ollama | ~57–65 tok/s | Full 128K | Slightly faster, marginal quality loss |
+| E2B, Q8_0, Ollama | ~80–95 tok/s | Full 128K | Fastest, but lower code quality and less reliable tool calling |
+| 26B-A4B, Q4_K_M, Ollama | ~40–50 tok/s | 8–16K max | Best quality, but memory-constrained |
+
+### Ollama Setup (Recommended for Mac)
+
+Ollama is the simplest path on macOS. It uses Metal acceleration automatically with no driver configuration.
+
+```bash
+# Install Ollama (if not already present)
+brew install ollama
+
+# Pull the recommended model
+ollama pull gemma4:e4b-q8_0
+
+# Start the server (if not running as a service)
+ollama serve
+```
+
+The server binds to `http://localhost:11434` by default. Verify the model loaded correctly:
+
+```bash
+curl http://localhost:11434/api/tags | jq '.models[] | .name'
+```
+
+### MLX Alternative (Apple-Optimised)
+
+MLX is Apple's machine learning framework, optimised specifically for Apple Silicon unified memory. For some configurations it uses memory more efficiently than Ollama, though throughput is comparable:
+
+```bash
+pip install mlx-lm
+mlx_lm.server --model mlx-community/gemma-4-E4B-it-4bit --port 8080
+```
+
+MLX is a good choice if memory pressure is a concern (e.g. running the 26B MoE), as it tends to manage the unified memory pool more efficiently than Ollama's GGML backend.
+
+### Codex CLI Configuration for M4 MacBook Pro
+
+```toml
+model = "gemma4:e4b-q8_0"
+model_provider = "mac_local"
+model_context_window = 131072
+
+[model_providers.mac_local]
+name = "MacBook Pro Ollama"
+base_url = "http://localhost:11434/v1"
+wire_api = "responses"
+stream_idle_timeout_ms = 1800000
+```
+
+Configuration notes:
+
+- **`stream_idle_timeout_ms = 1800000`**: Set to 30 minutes. The M4 generates tokens much more slowly than a GB10, and longer tool-calling chains may appear to stall during think time. A generous timeout prevents premature disconnection.
+- **`model_context_window = 131072`**: Matches E4B's native 128K context. For the 26B MoE on 24 GB, reduce this to `16384` to avoid memory pressure.
+
+### Running the 26B MoE on 24 GB (Stretch Configuration)
+
+If you want the highest quality output and accept the constraints:
+
+```toml
+model = "gemma4:26b-a4b-q4_K_M"
+model_provider = "mac_local_stretch"
+model_context_window = 16384
+
+[model_providers.mac_local_stretch]
+name = "MacBook Pro Ollama (MoE Stretch)"
+base_url = "http://localhost:11434/v1"
+wire_api = "responses"
+stream_idle_timeout_ms = 3600000
+```
+
+Key adjustments:
+- **Context limited to 16K** to prevent swap thrashing
+- **Timeout extended to 60 minutes** because token generation may slow dramatically under memory pressure
+- **Close other memory-hungry applications** (browsers, IDEs) before starting a session
+- **Monitor Activity Monitor** — if memory pressure shows red, the experience will degrade
+
+---
+
 ## Setup Guide: Dell Pro Max with GB10
 
 The Dell Pro Max with GB10 represents a different class of local inference hardware. Built around the NVIDIA Grace Blackwell Superchip, it provides 128 GB of unified LPDDR5x memory at 273 GB/s bandwidth, 1 petaflop of FP4 compute, and 1000 TOPS of AI performance. The system ships with DGX OS (Ubuntu-based) with CUDA, Docker, and vLLM pre-installed. Models up to approximately 200B parameters fit in memory — Gemma 4 31B is comfortable headroom[^15].
@@ -578,6 +685,86 @@ Two GB10 units can be connected to create a single compute node with 256 GB of u
 - **Multi-model serving.** Running Gemma 4 31B for coding alongside a separate model for code review, test generation, or documentation — each with its own vLLM instance — becomes practical with 256 GB of aggregate memory.
 
 For current Gemma 4 31B workloads, a single GB10 is more than sufficient. The two-machine option is relevant for planning, not for immediate necessity.
+
+---
+
+## Head to Head: 24 GB M4 MacBook Pro vs Dell Pro Max GB10
+
+The two machines represent opposite ends of the local inference spectrum — the laptop developers already own versus the purpose-built AI workstation. Here is how they compare running Gemma 4 for Codex CLI workflows.
+
+### Hardware Comparison
+
+| Spec | M4 MacBook Pro (24 GB) | Dell Pro Max GB10 |
+|---|---|---|
+| **Memory** | 24 GB unified LPDDR5x | 128 GB unified LPDDR5x |
+| **Memory Bandwidth** | 273 GB/s | 273 GB/s |
+| **AI Compute** | ~7 TFLOPS (FP16 Neural Engine + GPU) | 1 PFLOPS (FP4 sparse) |
+| **Max Model (comfortable)** | E4B (8B) at Q8_0 | 31B Dense at FP16 |
+| **Max Model (stretch)** | 26B MoE at Q4_K_M (16K context) | 200B+ at NVFP4 |
+| **Price** | ~£2,000 | ~£4,500 |
+| **Portability** | Laptop — use anywhere | Desktop — fixed location |
+| **Power (inference)** | ~60–80 W | ~143 W |
+
+### Performance Comparison (Same Workflow)
+
+Running the same Codex CLI agent session — a multi-file refactor touching 8 files with 6 tool calls:
+
+| Metric | M4 (E4B Q8_0) | M4 (26B MoE Q4) | GB10 (31B Q8_0) |
+|---|---|---|---|
+| **Token Generation** | ~57 tok/s | ~40–50 tok/s | ~200+ tok/s |
+| **Time to First Token** | ~0.5–1s | ~1–2s | ~0.1–0.3s |
+| **Usable Context** | Full 128K | 8–16K | Full 256K |
+| **Tool Call Reliability** | Good (E4B) | Better (26B) | Best (31B) |
+| **Session Duration (8-file refactor)** | ~3–5 min | ~5–8 min | ~1–2 min |
+| **Memory Pressure** | None | High | None |
+| **Swap Risk** | None | Yes, if context >16K | None |
+
+### The Critical Insight: Memory Bandwidth Is Identical
+
+Both machines have 273 GB/s memory bandwidth. Token generation (the decode phase) is memory-bandwidth-bound, not compute-bound. This means **for the same model at the same quantisation, decode speed is approximately equal**. The GB10's advantage comes not from faster token generation per se, but from the ability to run a much larger model — the 31B Dense at Q8_0 or FP16 — which produces higher quality output and more reliable tool calls. It also benefits from dramatically faster prefill (prompt processing), which is compute-bound and where the GB10's 1 PFLOPS of FP4 compute dwarfs the M4's ~7 TFLOPS.
+
+### When Each Machine Wins
+
+**The M4 MacBook Pro wins when:**
+- Budget is the constraint — you already own it
+- Portability matters — coding on the train, at a café, on the sofa
+- The E4B is sufficient for your workflow — rapid iteration on focused tasks, single-file edits, test generation
+- Privacy is the only requirement — any local model satisfies this regardless of hardware
+
+**The GB10 wins when:**
+- Code quality and tool-calling reliability are paramount — the 31B Dense is measurably better than E4B
+- Long context is needed — 256K vs 16K (for the 26B MoE on 24 GB)
+- Multi-model workflows — running a coding model and a review model simultaneously
+- Speed compounds — for agentic sessions with 10+ tool calls, the GB10 completes in a fraction of the time
+- Future-proofing — 128 GB accommodates the next generation of open-weight models without hardware replacement
+
+### The Hybrid Approach
+
+The most practical setup for a developer with both machines is to use them for different workloads:
+
+| Task | Machine | Model | Why |
+|---|---|---|---|
+| Quick edits, single-file changes | M4 MacBook Pro | E4B Q8_0 | Fast enough, portable, no setup overhead |
+| Multi-file refactors | GB10 | 31B Dense Q8_0 | Better quality, full context, faster completion |
+| Privacy-sensitive code (on the go) | M4 MacBook Pro | E4B Q8_0 | Entirely local, no network needed |
+| Long agentic sessions (10+ tool calls) | GB10 | 31B Dense Q8_0 | Speed difference compounds over many calls |
+| Code review (cross-model) | GB10 | 31B Dense + E4B | Two models simultaneously in 128 GB |
+
+Both machines point at the same `config.toml` structure — only the `base_url` and model name change. Switching between them is a one-line profile change:
+
+```toml
+# Profile for MacBook Pro
+[profiles.mac]
+model = "gemma4:e4b-q8_0"
+model_provider = "mac_local"
+
+# Profile for GB10
+[profiles.gb10]
+model = "gemma-4-31B-it"
+model_provider = "gb10_local"
+```
+
+Launch with `codex --profile mac` or `codex --profile gb10`.
 
 ---
 
@@ -861,3 +1048,5 @@ Local inference is not a replacement for cloud models. It is a complement. Use l
 [^13]: Gemma 4 Benchmarks — [https://gemma4all.com/blog/gemma-4-benchmarks-performance](https://gemma4all.com/blog/gemma-4-benchmarks-performance)
 [^14]: The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive — codex-resources article #224
 [^15]: Dell Pro Max with GB10 — [https://www.dell.com/en-us/blog/dell-pro-max-with-gb10-purpose-built-for-ai-developers/](https://www.dell.com/en-us/blog/dell-pro-max-with-gb10-purpose-built-for-ai-developers/)
+[^16]: Gemma 4 on Apple Silicon benchmarks — MacBook Pro M4 Pro 24 GB tests by akartit (DEV Community) and SudoAll. E4B Q4: 57 tok/s, E2B Q4: 95 tok/s, 26B MoE Q4: ~2 tok/s with swap thrashing. [https://dev.to/akartit/i-tested-every-gemma-4-model-locally-on-my-macbook-what-actually-works-3g2o](https://dev.to/akartit/i-tested-every-gemma-4-model-locally-on-my-macbook-what-actually-works-3g2o)
+[^17]: DGX Spark vs Mac Studio efficiency comparison — identical 273 GB/s bandwidth, GB10 wins on prefill (compute-bound) by 3.8×, comparable on decode (bandwidth-bound). [https://skorppio.com/blog/dgx-spark-vs-mac-studio-efficiency-benchmark](https://skorppio.com/blog/dgx-spark-vs-mac-studio-efficiency-benchmark)
