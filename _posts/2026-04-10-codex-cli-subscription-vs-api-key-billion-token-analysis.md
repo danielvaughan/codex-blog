@@ -33,7 +33,22 @@ As of April 2026, there are four ways to pay for Codex CLI usage[^1][^2]:
 
 ## Defining "One Billion Tokens Per Week"
 
-A billion tokens per week is not hypothetical. A developer running 4-6 multi-agent sessions daily, each consuming 100K-200K tokens across input and output, reaches this volume in a 5-day work week. Teams running CI/CD pipelines with Codex Cloud tasks can exceed it.
+A billion tokens per week is not a single-developer number. Here is how the maths actually works:
+
+**Individual developer (heavy interactive use):**
+- 4-6 sessions/day × 200K-500K tokens/session × 5 days = **4M-15M tokens/week**
+- Even an extreme power user rarely exceeds 20-30M tokens/week interactively
+
+**To reach 1 billion tokens/week, you need scale:**
+
+| Scenario | How It Gets to 1B/Week |
+|----------|----------------------|
+| **Team of 50 developers** | 50 devs × 4M tokens/week each = 200M; plus shared CI/CD pipelines and automated reviews = ~1B |
+| **Multi-agent CI/CD pipeline** | 500 PRs/week × 6 agents each × 300K tokens/agent run = ~900M |
+| **Continuous orchestration** | 20 concurrent agents running 24/7, each consuming ~1M tokens/hour = ~3.4B |
+| **Enterprise code review** | Every commit across 200 repos auto-reviewed at ~100K tokens/review, 2,000 commits/week = 200M; add test generation and documentation = ~1B |
+
+A billion tokens per week is a **team or infrastructure-level** volume — the kind of consumption that appears when Codex CLI is embedded into CI/CD pipelines, automated review gates, or always-on orchestration layers. It is realistic for organisations that have moved beyond interactive use into agentic automation at scale.
 
 For this analysis, we assume a realistic token mix per week:
 
