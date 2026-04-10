@@ -58,7 +58,7 @@ acme-platform/
 
 Each component maps to a specific Codex CLI discovery mechanism:
 
-- **Skills** follow the standard SKILL.md format and land in the plugin's `skills/` directory. When installed, Codex registers them alongside any project or user skills.[^2]
+- **Skills** follow the standard SKILL.md format and land in the plugin's `skills/` directory. When installed, Codex registers them alongside any project or user skills.[^2][^6]
 - **MCP servers** declared in `.mcp.json` use the same format as `.codex/mcp.json` and are registered automatically on install.[^1]
 - **Hooks** need manual wiring into the project's `.codex/hooks.json` — the plugin install does not auto-merge hooks as of April 2026. More on this below.
 - **AGENTS.md fragments** are injected via a postinstall script. Codex does not natively merge AGENTS.md content from plugins, so you handle this yourself.
@@ -95,6 +95,23 @@ Each component maps to a specific Codex CLI discovery mechanism:
 ```
 
 The `name` field is kebab-case and becomes the namespace. The `defaultPrompt` array surfaces example prompts in the Codex UI — write these as things a developer would actually type on day one, not marketing copy.[^1]
+
+## Skill Discovery Hierarchy
+
+Codex scans multiple hierarchical locations for skills, from most specific to broadest[^6]:
+
+```mermaid
+graph TD
+    A["$CWD/.agents/skills"] -->|Repo scoped| B["$REPO_ROOT/.agents/skills"]
+    B --> C["~/.agents/skills"]
+    C -->|User scoped| D["/etc/codex/skills"]
+    D -->|Admin scoped| E["Built-in skills"]
+    E -->|System| F["Plugin-bundled skills"]
+    style A fill:#dbeafe
+    style F fill:#dbeafe
+```
+
+When packaged inside a plugin, skills are discovered via the `"skills"` pointer in `plugin.json` and cached at `~/.codex/plugins/cache/$MARKETPLACE/$PLUGIN/$VERSION/`[^1].
 
 ## Project-Specific Skills: Four Worked Examples
 
@@ -279,6 +296,32 @@ metadata:
 
 Hooks run at session lifecycle boundaries — not at the file-operation level.[^3] This limits what you can enforce, but three patterns work well as quality gates.
 
+### Hook Lifecycle
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Codex
+    participant PreHook as PreToolUse Hook
+    participant Tool as Bash
+    participant PostHook as PostToolUse Hook
+
+    User->>Codex: Submit prompt
+    Codex->>PreHook: Check command policy
+    alt Denied
+        PreHook-->>Codex: Exit 2 + reason
+        Codex-->>User: Command blocked
+    else Approved
+        PreHook-->>Codex: Exit 0
+        Codex->>Tool: Execute command
+        Tool-->>Codex: Result
+        Codex->>PostHook: Review output
+        PostHook-->>Codex: additionalContext
+    end
+```
+
+Codex supports five hook events: `SessionStart`, `PreToolUse`, `PostToolUse`, `UserPromptSubmit`, and `Stop`. To deny execution from a pre-tool hook, exit with code 2 and print the reason to stderr[^7].
+
 ### Pattern 1: Pre-Prompt Policy Enforcement
 
 The `userpromptsubmit` hook fires before the model processes a prompt. Use it to block operations that violate team policy:
@@ -425,7 +468,7 @@ The plugin declares four MCP server connections in `.mcp.json`:
 
 Each server references environment variables rather than embedding credentials. The `${VAR}` syntax in `env` fields is resolved by Codex at server startup — the values never touch disk.[^4]
 
-Key observations from production use:
+Key observations:
 
 **Jira context transforms PR descriptions.** The PR description writer skill goes from generating vague summaries to producing descriptions that reference acceptance criteria verbatim once it can read the linked ticket.
 
@@ -434,6 +477,15 @@ Key observations from production use:
 ```toml
 [mcp_servers.datadog]
 enabled_tools = ["query_metrics", "search_logs", "get_monitor_status"]
+```
+
+**Timeout configuration matters.** For enterprise servers behind VPNs or with higher latency, adjust timeouts in `config.toml`:
+
+```toml
+[mcp_servers.jira]
+url = "https://mcp.internal.acme.dev/jira"
+startup_timeout_sec = 30
+tool_timeout_sec = 120
 ```
 
 **Vault integration is sensitive.** The Vault MCP server should only run in sessions where the developer genuinely needs secret values — not in every Codex session. Mark it as `required = false` and document when to enable it.
@@ -855,3 +907,7 @@ Several failure modes surface in practice:
 [^4]: Codex CLI MCP configuration — `config.toml` format, environment variable resolution, `enabled_tools` restriction. [https://blakecrosley.com/guides/codex](https://blakecrosley.com/guides/codex)
 
 [^5]: Codex CLI AGENTS.md hierarchical loading — repo root, directory-level overrides, `AGENTS.override.md` for enterprise policy. [https://developers.openai.com/codex/agents-md](https://developers.openai.com/codex/agents-md)
+
+[^6]: Agent Skills specification — SKILL.md format, progressive disclosure model, skill discovery hierarchy. [https://developers.openai.com/codex/skills](https://developers.openai.com/codex/skills)
+
+[^7]: Codex CLI hooks documentation — `SessionStart`, `PreToolUse`, `PostToolUse`, `UserPromptSubmit`, `Stop` events, exit-code protocol for denying operations. [https://developers.openai.com/codex/hooks](https://developers.openai.com/codex/hooks)

@@ -99,7 +99,7 @@ This is a direct challenge to the memory ecosystem that has grown up around tool
 
 Rod did not hold back on opinions, and the audience seemed to enjoy it.
 
-On **LangChain4J**: Rod questioned the design choice of putting prompts in annotations, arguing that prompts are content rather than code and should be managed accordingly — versioned, A/B tested, and evaluated separately from the codebase.
+On **prompt management**: Rod argued that prompts are content rather than code and should be managed accordingly — versioned, A/B tested, and evaluated separately from the codebase rather than embedded in annotations.
 
 On **specifications**: "I honestly think that specs are a waste of time. This space is moving so quickly that even an open source project struggles to keep up. Good luck with any spec initiative." He was referring to efforts to standardise agent protocols. Given how quickly MCP went from announcement to ubiquity, and how Agent2Agent is already challenging its assumptions, I think he has a point.
 
@@ -139,7 +139,7 @@ Rod Johnson reshaped how an entire generation of developers built Java applicati
 - **The playbook tool** gates tool access based on workflow state — "you must call describe before you can call create" — enforced at the framework level rather than through prompt instructions.
 - **Agentic RAG** replaces pipeline RAG (embed-chunk-retrieve-augment) with LLM-driven search. The agent gets tools to search across multiple backends (vector, text, graph) and can navigate chunks (request next/previous) to solve boundary problems.
 - **DICE (Domain-Integrated Context Engineering)** argues that enterprise agent memory should integrate with existing domain models rather than building greenfield vector stores.
-- Rod questioned LangChain4J's annotation-based prompt design, was sceptical of specification efforts ("specs are a waste of time"), and enthusiastic about smaller local models for tool calling.
+- Rod argued that prompts should be managed as content (versioned, A/B tested) rather than embedded in code annotations, was sceptical of specification efforts ("specs are a waste of time"), and enthusiastic about smaller local models for tool calling.
 - **1.0 is targeted for May 2026**, with skills and sandbox support moving into core. Post-1.0: running independently of Spring.
 
 ---
