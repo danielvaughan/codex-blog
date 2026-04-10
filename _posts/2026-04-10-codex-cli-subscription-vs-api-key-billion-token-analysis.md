@@ -1,5 +1,5 @@
 ---
-title: "Subscription vs API Key: A Billion-Token-Per-Week Cost Analysis for Codex CLI Heavy Users"
+title: "Subscription vs API Key: What Heavy Users Actually Consume and What It Costs on Codex CLI"
 date: 2026-04-10T18:50:00+01:00
 tags:
   - pricing
@@ -12,13 +12,13 @@ tags:
   - codex-only-seats
 ---
 
-![Sketchnote diagram for: Subscription vs API Key: A Billion-Token-Per-Week Cost Analysis for Codex CLI Heavy Users](/sketchnotes/articles/2026-04-10-codex-cli-subscription-vs-api-key-billion-token-analysis.png)
+![Sketchnote diagram for: Subscription vs API Key: What Heavy Users Actually Consume and What It Costs on Codex CLI](/sketchnotes/articles/2026-04-10-codex-cli-subscription-vs-api-key-billion-token-analysis.png)
 
-# Subscription vs API Key: A Billion-Token-Per-Week Cost Analysis for Codex CLI Heavy Users
+# Subscription vs API Key: What Heavy Users Actually Consume and What It Costs on Codex CLI
 
-Every Codex CLI user faces the same fork: authenticate with your ChatGPT subscription (Plus, Pro, Business) or plug in an OpenAI API key and pay per token. At light usage, the subscription wins on simplicity. At heavy usage — the kind of volume a power user or multi-agent workflow generates — the economics diverge dramatically, and the right choice can mean the difference between $200/month and $20,000/month.
+Every Codex CLI user faces the same fork: authenticate with your ChatGPT subscription (Plus, Pro, Business) or plug in an OpenAI API key and pay per token. At light usage, the subscription wins on simplicity. At heavy usage, the economics diverge dramatically — and the right choice depends on how much you actually consume.
 
-This article does the maths for a heavy user consuming **one billion tokens per week**, compares every billing path available in April 2026, and answers two questions the existing pricing articles don't: at what volume does each subscription plan break? And when does the API key become the only viable option?
+This article grounds that decision in **real usage data** from developer reports, community forums, and Anthropic's published statistics (the closest comparable data to Codex CLI). It then models costs across every billing path available in April 2026 and answers: at what volume does each subscription plan break, and when does the API key become the only viable option?
 
 ## The Billing Paths
 
@@ -31,35 +31,75 @@ As of April 2026, there are four ways to pay for Codex CLI usage[^1][^2]:
 | **Business Codex-Only Seat** | Codex access only, no ChatGPT | No rate limits | $0/seat + token consumption |
 | **API Key (Direct)** | OpenAI API key in `config.toml` | Standard API rate limits only | Per-token, pay-as-you-go |
 
-## Defining "One Billion Tokens Per Week"
+## What Heavy Users Actually Consume: The Data
 
-A billion tokens per week is not a single-developer number. Here is how the maths actually works:
+Before modelling costs, we need to establish what developers actually use. The figures below are drawn from published data, community reports, and usage tracking tools.
 
-**Individual developer (heavy interactive use):**
-- 4-6 sessions/day × 200K-500K tokens/session × 5 days = **4M-15M tokens/week**
-- Even an extreme power user rarely exceeds 20-30M tokens/week interactively
+### Per-Session Token Consumption
 
-**To reach 1 billion tokens/week, you need scale:**
+| Metric | Tokens | Source |
+|--------|--------|--------|
+| Median context per turn | ~96K | Codex CLI usage spike analysis[^6] |
+| p95 context per turn | ~200K | Same source[^6] |
+| Session startup overhead | 21-22K | Up from 12-15K in earlier versions[^6] |
+| Typical session (simple task) | 10K-100K | Faros.ai engineering guide[^7] |
+| Typical session (agent workflow) | 200K-500K | Morph AI coding cost study[^8] |
+| Baseline session cost (Sonnet rates) | $6-8 | Morph AI coding cost study[^8] |
 
-| Scenario | How It Gets to 1B/Week |
-|----------|----------------------|
-| **Team of 50 developers** | 50 devs × 4M tokens/week each = 200M; plus shared CI/CD pipelines and automated reviews = ~1B |
-| **Multi-agent CI/CD pipeline** | 500 PRs/week × 6 agents each × 300K tokens/agent run = ~900M |
-| **Continuous orchestration** | 20 concurrent agents running 24/7, each consuming ~1M tokens/hour = ~3.4B |
-| **Enterprise code review** | Every commit across 200 repos auto-reviewed at ~100K tokens/review, 2,000 commits/week = 200M; add test generation and documentation = ~1B |
+A critical finding: **60-80% of tokens in agentic sessions are waste** — spent on finding code, re-reading context, and retrying, not on writing code[^8]. Shell tool outputs alone account for 90.3% of all tool-output characters[^6].
 
-A billion tokens per week is a **team or infrastructure-level** volume — the kind of consumption that appears when Codex CLI is embedded into CI/CD pipelines, automated review gates, or always-on orchestration layers. It is realistic for organisations that have moved beyond interactive use into agentic automation at scale.
+### Per-Developer Daily and Monthly Consumption
 
-For this analysis, we assume a realistic token mix per week:
+Anthropic publishes the most detailed usage data for a comparable agentic CLI tool (Claude Code). These figures provide the best available proxy for Codex CLI heavy usage:
 
-| Component | Tokens | % of Total |
-|-----------|--------|------------|
-| Input (uncached) | 240,000,000 | 24% |
-| Input (cached) | 560,000,000 | 56% |
-| Output | 200,000,000 | 20% |
-| **Total** | **1,000,000,000** | 100% |
+| Developer Profile | Daily Cost (API rates) | Monthly Cost | Estimated Tokens/Week | Source |
+|-------------------|----------------------|-------------|----------------------|--------|
+| **Light** (1-2 sessions/day) | $2-5 | $50-100 | ~1-3M | Verdent Guides[^9] |
+| **Medium** (3-5 hours/day) | $6-12 | $100-200 | ~3-10M | Anthropic published average[^7] |
+| **Heavy** (multi-agent workflows) | $20-60+ | $400-1,200+ | ~10-50M | Morph AI, Verdent[^8][^9] |
+| **Extreme** (documented outlier) | ~$60 | ~$1,875 | ~312M | 10B tokens over 8 months[^9] |
 
-The 70% cache hit rate on input tokens reflects Codex CLI's prefix caching behaviour in sustained sessions[^3]. Output is typically 20-25% of total volume in agentic workflows (prompts are long; edits are targeted).
+Anthropic reports that the **average developer spends $6/day**, and **90% of developers stay below $12/day**[^7]. This means 90% of developers consume fewer than ~5M tokens/week.
+
+The most extreme documented individual case — 10 billion tokens over eight months — works out to ~312M tokens/week[^9]. That user's estimated API cost was over $15,000 for the period, versus $800 on the $100/month Max subscription — a 93% saving that illustrates both the scale of heavy usage and the value of subscriptions when they can absorb the volume.
+
+### Community-Reported Pain Points
+
+Real developer reports confirm these ranges[^6][^10]:
+
+- A single Codex CLI prompt consuming **7% of weekly Plus limits** (~600K tokens based on limit structure)
+- One user exhausting **97% of weekly allowance after just three prompts**
+- A Plus user burning **25% of weekly limit in 30 minutes**
+- A one-line configuration change consuming **~2% of the 5-hour quota**
+
+These reports align with the 96K median-context-per-turn figure: even "light" usage of 10-20 turns can consume 1-2M tokens.
+
+### The Realistic Usage Tiers
+
+Based on this data, here are the usage tiers this article analyses:
+
+| Tier | Tokens/Week | Who | Monthly API Cost (5.4-mini) |
+|------|------------|-----|---------------------------|
+| **Light** | 2M | Part-time CLI user, 1-2 sessions/day | ~$10 |
+| **Medium** | 10M | Full-time developer, 4-6 sessions/day | ~$45 |
+| **Heavy individual** | 50M | Power user, multi-agent workflows all day | ~$225 |
+| **Extreme individual** | 300M | The documented outlier ceiling | ~$1,350 |
+| **Team of 10 (medium)** | 100M | 10 medium-usage developers | ~$450 |
+| **Team of 50 (medium + CI/CD)** | 1B | 50 developers plus automated pipelines | ~$4,500 |
+
+**One billion tokens per week is a team-level volume** — realistic for organisations that have embedded Codex CLI into CI/CD pipelines, automated review gates, and always-on orchestration. It is not achievable by a single developer through interactive use.
+
+### Token Mix Assumptions
+
+For the cost calculations that follow, we assume this token mix (consistent across all tiers):
+
+| Component | Share | Why |
+|-----------|-------|-----|
+| Input (uncached) | 24% | Fresh context, new files, first turns |
+| Input (cached) | 56% | Prefix caching in sustained sessions (70% cache hit rate)[^3] |
+| Output | 20% | Agent edits are targeted; prompts are long |
+
+This 70% cache hit rate reflects Codex CLI's prefix caching in sustained sessions. Short sessions or frequent context switches reduce it to 30-50%, significantly increasing costs (see Cache Efficiency section below).
 
 ## Can Subscriptions Handle a Billion Tokens Per Week?
 
@@ -261,13 +301,19 @@ Maximising cache hits is the second most impactful cost lever after model select
 - **Use profiles** to avoid switching models mid-session (model switches invalidate the cache)
 - **Avoid `--no-cache`** unless debugging
 
-## Recommendations
+## Recommendations by Usage Tier
 
-**Individual heavy user (1B tokens/week):** Use an API key with GPT-5.4-mini as default and GPT-5.4 for complex tasks. Expected cost: **$5,000-7,000/month**. This is expensive, but it is the only path that provides the volume without rate limits.
+**Light user (~2M tokens/week, ~$10/month API):** Plus at $20/month. The subscription is more expensive than API would be, but the simplicity and included ChatGPT access make it worthwhile. You will rarely hit rate limits.
 
-**Team of 5 heavy users (5B tokens/week total):** Use Codex-only seats on ChatGPT Business. Same API rates, but with admin spend controls, per-user monitoring, and centralised billing. Expected cost: **$25,000-35,000/month** for the team.
+**Medium user (~10M tokens/week, ~$45/month API):** Plus at $20/month — you are getting a **56% subsidy** versus API rates. You may occasionally hit 5-hour window limits on heavy days; Pro 5× ($100) eliminates that risk but costs more than API would.
 
-**Mixed team (2 heavy users + 8 moderate users):** Put heavy users on Codex-only seats (API billing), moderate users on Standard Business seats ($20/seat with Plus-level limits). Expected cost: **$10,000-14,000 + $160 = ~$10,000-14,200/month**.
+**Heavy individual (~50M tokens/week, ~$225/month API):** Pro 20× at $200/month is still slightly cheaper than API and provides enough headroom. If you hit limits regularly, switch to API key with GPT-5.4-mini default — expected cost ~$225/month with no rate limits.
+
+**Extreme individual (~300M tokens/week, ~$1,350/month API):** API key is the only option. Pro 20× caps out around 240M tokens/week. Use a blended model strategy (70% mini, 25% full, 5% nano) to keep costs around **$930/month** instead of $1,350.
+
+**Team of 10 medium users (~100M tokens/week, ~$450/month API):** Codex-only seats on ChatGPT Business. Same API rates but with admin spend controls, per-user monitoring, and centralised billing. Expected cost: **~$450/month** for the team.
+
+**Team of 50 with CI/CD (~1B tokens/week):** Codex-only seats plus Batch API for non-interactive pipelines. Interactive developer usage at mini rates: ~$2,250/month. CI/CD pipelines on batch: ~$2,244/month. **Total: ~$4,500/month** — far less than 50 × $200 Pro subscriptions ($10,000).
 
 **Batch-heavy workflow (CI/CD, code review pipelines):** Use the Batch API for all non-interactive work. At 1B tokens/week on GPT-5.4-mini batch: **$2,244/month** — less than half the standard rate.
 
@@ -275,13 +321,14 @@ Maximising cache hits is the second most impactful cost lever after model select
 
 ## Key Takeaways
 
-- No subscription plan can sustain 1 billion tokens per week. Pro 20× ($200/month) maxes out at ~960M tokens/month — roughly one quarter of the target volume.
+- **Real-world data:** 90% of developers consume under $12/day (~5M tokens/week). The average is $6/day. Truly heavy individual usage peaks around 300M tokens/week — not billions[^7][^9].
+- **One billion tokens/week is a team number,** not an individual one — achievable by 50 developers plus CI/CD automation, not by a single person at a keyboard.
 - Subscription plans are massively subsidised: effective rates of $0.21-0.42 per million tokens, versus $0.75-15.00 on the API. But the subsidy comes with hard volume ceilings.
-- At heavy usage, the API key is the only option. Model selection (GPT-5.4-mini vs GPT-5.4) is the largest cost lever — a **$10,472/month** difference at 1B tokens/week.
-- A blended model strategy (70% mini, 25% full, 5% nano) costs ~$6,943/month — 54% less than running everything on GPT-5.4.
-- Cache hit rate is the second largest lever: the difference between 80% and 15% cache hits is ~$3,200/month on GPT-5.4-mini.
+- **The crossover point is ~240M tokens/month** (~60M/week). Below that, Pro 20× at $200/month beats API rates. Above it, the API key is the only option.
+- Model selection is the largest cost lever: GPT-5.4-mini at 30% of GPT-5.4's cost handles 70-80% of tasks. A blended strategy saves 54%.
+- **60-80% of tokens in agentic sessions are waste** — spent on context re-reading and retries, not writing code[^8]. Reducing waste is as impactful as choosing a cheaper model.
+- Cache hit rate is the second largest lever: the difference between 80% and 15% cache hits is ~$3,200/month on GPT-5.4-mini at team volume.
 - Codex-only seats on ChatGPT Business provide API-rate billing with enterprise admin controls — the recommended path for teams.
-- Standard Business seat Codex usage is monitored and visible to workspace admins, with configurable per-user spend limits.
 - The Batch API halves costs for non-interactive workloads — $2,244/month for 1B tokens/week on GPT-5.4-mini.
 
 ---
@@ -297,3 +344,13 @@ Maximising cache hits is the second most impactful cost lever after model select
 [^4]: Codex Rate Card — OpenAI Help Center. Codex-only seat billing model, token consumption rates, Standard vs Codex-only seat comparison. <https://help.openai.com/en/articles/20001106-codex-rate-card>
 
 [^5]: Managing Credits and Spend Controls in ChatGPT Business — OpenAI Help Center. Admin controls for per-user and per-seat-type credit limits, usage monitoring dashboard. <https://help.openai.com/en/articles/20001155-managing-credits-and-spend-controls-in-chatgpt-business>
+
+[^6]: Why Is My Codex CLI Token Usage Suddenly So High? — BSWEN (March 2026). Median context per turn (~96K), p95 (~200K), startup overhead (21-22K), shell output share (90.3%), community reports of single-prompt quota consumption. <https://docs.bswen.com/blog/2026-03-02-codex-cli-token-usage-spike/>
+
+[^7]: Claude Code Token Limits: A Guide for Engineering Leaders — Faros.ai. Anthropic-published average of $6/developer/day, 90% under $12/day, session token allocations by plan tier. <https://www.faros.ai/blog/claude-code-token-limits>
+
+[^8]: The Real Cost of AI Coding in 2026 — Morph. Agent session costs ($6-8 baseline), 60-80% token waste rates, $500-2,000/month for heavy API users, 47-iteration agent loop case study. <https://www.morphllm.com/ai-coding-costs>
+
+[^9]: Claude Code Pricing 2026: Plans, Token Costs, and Real Usage Estimates — Verdent Guides. Usage tiers (light $2-5/day, medium $6-12/day, heavy $20-60+/day), extreme user case study (10B tokens / 8 months = ~312M tokens/week). <https://www.verdent.ai/guides/claude-code-pricing-2026>
+
+[^10]: Codex Usage After the Limit Reset Update — OpenAI Developer Community. Single prompt eating 7% of weekly limits, 97% weekly allowance after three prompts. <https://community.openai.com/t/codex-usage-after-the-limit-reset-update-single-prompt-eats-7-of-weekly-limits-plus-tier/1365284>
