@@ -6,7 +6,7 @@ permalink: /articles/
 ## Article Ratings (updated 2026-04-10)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-10 · 233 articles rated · 233 total articles.
+Last rated: 2026-04-10 · 236 articles rated · 236 total articles.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|---------|
@@ -229,6 +229,7 @@ Last rated: 2026-04-10 · 233 articles rated · 233 total articles.
 | [Codex CLI and Jira: Issue-Driven Development with the Atlassian MCP Server](./2026-04-10-codex-cli-jira-atlassian-mcp-server.md) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI Memory Extensions: Cross-Session Persistence Lands in Main](./2026-04-10-codex-cli-memory-extensions-cross-session-persistence.md) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Profiles and Named Configuration: Running Multiple Codex Personas from One Machine](./2026-04-10-codex-cli-profiles-named-configuration.md) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [The New Codex Subscription Landscape: Free, Go, Plus, Pro and Enterprise Compared](./2026-04-10-codex-subscription-tiers-pro-100-pricing-guide.md) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
 | [The Real Cost of AI Coding Agents: Codex CLI Token Economics vs Cursor, Copilot, Claude Code, and Windsurf](./2026-04-10-codex-cli-token-costs-pricing-comparison.md) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [The codex exec-server Subcommand: Foundation for Headless and Daemon-Mode Codex](./2026-04-10-codex-exec-server-headless-daemon.md) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
 | [Context Compaction Showdown: How Codex CLI, Claude Code, and 5 Other Agents Handle Full Context Windows](./2026-04-10-context-compaction-showdown-coding-agents.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
@@ -242,6 +243,8 @@ Last rated: 2026-04-10 · 233 articles rated · 233 total articles.
 | [MCP Server Elicitations in Codex CLI: Structured User Input, Auto-Approval, and Custom Server Patterns](./2026-04-10-mcp-elicitation-codex-cli.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
 | [Production Guardrails for Codex CLI: What Must Be in Place Before Agents Touch Production Code](./2026-04-10-production-guardrails-codex-cli.md) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
 | [Stripe's AI Agent Patterns: What Enterprise-Scale Agent Deployment Teaches Codex CLI Users](./2026-04-10-stripe-ai-agent-patterns-enterprise-codex-cli.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [CliGate, Bifrost, and the Multi-Harness Gateway Pattern](./2026-04-10-cligate-bifrost-multi-harness-gateway.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Oh-My-Codex (OMX): The Community Orchestration Layer](./2026-04-10-oh-my-codex-omx-orchestration-layer.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [WebRTC Realtime Voice in Codex CLI: Voice Selection, Session Architecture, and Production Readiness](./2026-04-10-webrtc-realtime-voice-codex-cli.md) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 
 ### Issues to fix
