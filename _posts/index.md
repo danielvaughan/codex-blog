@@ -3,10 +3,10 @@ title: "Articles"
 permalink: /articles/
 ---
 
-## Article Ratings (updated 2026-04-09)
+## Article Ratings (updated 2026-04-10)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-09 · 205 articles rated · 205 total articles.
+Last rated: 2026-04-10 · 233 articles rated · 233 total articles.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|---------|
@@ -215,6 +215,34 @@ Last rated: 2026-04-09 · 205 articles rated · 205 total articles.
 | [Codex CLI Enters O'Reilly Curriculum](./2026-04-09-codex-cli-oreilly-mainstream-adoption.md) | — | ★★★☆☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★☆☆ |
 | [freeCodeCamp AI Tools Course: Codex Lessons](./2026-04-09-freecodecamp-ai-tools-course-codex-lessons.md) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★☆☆ |
 | [Codex TypeScript SDK: Streaming & Multimodal](./2026-04-08-codex-typescript-sdk-streaming-multimodal.md) | — | ★★★★★ | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★☆☆ |
+| [Anthropic Blocks Third-Party Claude Access: What It Means for Multi-Tool Codex Workflows](./2026-04-09-anthropic-blocks-third-party-claude-access-codex-workflows.md) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Building a Codex CLI Plugin: Skills, Hooks, MCP Servers and Project-Specific Automation](./2026-04-09-building-codex-cli-plugin-skills-hooks-mcp.md) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Claude Code's query-engine.ts vs Codex CLI's codex-rs: Comparing Agent Loop Architectures](./2026-04-09-claude-code-query-engine-vs-codex-rs-agent-loop.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Cross-Platform Agent Friction: The Five Pain Points Every CLI Tool Shares](./2026-04-09-cross-platform-agent-friction.md) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice](./2026-04-09-harness-performance-terminal-bench.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Rod Johnson Is Back — and He's Bringing Agent AI to the JVM](./2026-04-09-rod-johnson-embabel-jvm-agent-framework.md) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [The Source Map Incident: Lessons in Supply Chain Security for Codex CLI Plugin Authors](./2026-04-09-source-map-incident-supply-chain-security-codex-cli.md) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI](./2026-04-10-agents-platform-speed-kubecon-codex-cli.md) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Billing Transparency Crisis: Token Drain, Usage Limits, and the Trust Gap](./2026-04-10-billing-transparency-token-drain-trust-gap.md) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Claude Managed Agents: What Anthropic's Cloud-Hosted Agent Platform Means for Codex CLI](./2026-04-10-claude-managed-agents-codex-cli.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Codex CLI Internals: Queue-Pair Protocol, Guardian AI, and 3-OS Sandbox Architecture](./2026-04-10-codex-cli-internals-queue-pair-guardian-sandbox.md) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Codex CLI and Jira: Issue-Driven Development with the Atlassian MCP Server](./2026-04-10-codex-cli-jira-atlassian-mcp-server.md) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Memory Extensions: Cross-Session Persistence Lands in Main](./2026-04-10-codex-cli-memory-extensions-cross-session-persistence.md) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Profiles and Named Configuration: Running Multiple Codex Personas from One Machine](./2026-04-10-codex-cli-profiles-named-configuration.md) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [The Real Cost of AI Coding Agents: Codex CLI Token Economics vs Cursor, Copilot, Claude Code, and Windsurf](./2026-04-10-codex-cli-token-costs-pricing-comparison.md) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The codex exec-server Subcommand: Foundation for Headless and Daemon-Mode Codex](./2026-04-10-codex-exec-server-headless-daemon.md) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Context Compaction Showdown: How Codex CLI, Claude Code, and 5 Other Agents Handle Full Context Windows](./2026-04-10-context-compaction-showdown-coding-agents.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The 5 Techniques of Top Agentic Engineers (Cole Medin's Framework Applied to Codex CLI)](./2026-04-10-five-techniques-agentic-engineers-codex-cli.md) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Running Gemma 4 as a Local Model in the Codex CLI Harness: A Complete Setup Guide](./2026-04-10-gemma-4-local-model-codex-cli-setup-guide.md) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Running Gemma 4 as a Local Model in the Codex CLI Harness](./2026-04-10-gemma-4-local-model-codex-cli.md) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Guardian Output Schema and Enterprise Compliance Audit Trails in Codex CLI](./2026-04-10-guardian-output-schema-enterprise-compliance.md) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [IBM Bob vs Codex CLI: Enterprise Agentic Coding Agents Compared](./2026-04-10-ibm-bob-vs-codex-cli-enterprise-agents.md) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality](./2026-04-10-karpathy-ai-capability-gap-codex-cli.md) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Let the Platform Build Itself: AI-Constructed Developer Platforms and Codex CLI](./2026-04-10-let-the-platform-build-itself.md) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [MCP Server Elicitations in Codex CLI: Structured User Input, Auto-Approval, and Custom Server Patterns](./2026-04-10-mcp-elicitation-codex-cli.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Production Guardrails for Codex CLI: What Must Be in Place Before Agents Touch Production Code](./2026-04-10-production-guardrails-codex-cli.md) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Stripe's AI Agent Patterns: What Enterprise-Scale Agent Deployment Teaches Codex CLI Users](./2026-04-10-stripe-ai-agent-patterns-enterprise-codex-cli.md) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [WebRTC Realtime Voice in Codex CLI: Voice Selection, Session Architecture, and Production Readiness](./2026-04-10-webrtc-realtime-voice-codex-cli.md) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 
 ### Issues to fix
 
