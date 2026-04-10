@@ -12,6 +12,8 @@ tags:
   - codex-only-seats
 ---
 
+![Sketchnote diagram for: Subscription vs API Key: A Billion-Token-Per-Week Cost Analysis for Codex CLI Heavy Users](/sketchnotes/articles/2026-04-10-codex-cli-subscription-vs-api-key-billion-token-analysis.png)
+
 # Subscription vs API Key: A Billion-Token-Per-Week Cost Analysis for Codex CLI Heavy Users
 
 Every Codex CLI user faces the same fork: authenticate with your ChatGPT subscription (Plus, Pro, Business) or plug in an OpenAI API key and pay per token. At light usage, the subscription wins on simplicity. At heavy usage — the kind of volume a power user or multi-agent workflow generates — the economics diverge dramatically, and the right choice can mean the difference between $200/month and $20,000/month.

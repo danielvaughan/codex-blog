@@ -4,6 +4,8 @@ date: 2026-04-10T09:00:00+01:00
 tags: ["cligate", "bifrost", "multi-harness", "gateway", "multi-provider", "local-proxy", "routing", "kong", "codex-cli"]
 ---
 
+![Sketchnote diagram for: CliGate, Bifrost, and the Multi-Harness Gateway Pattern](/sketchnotes/articles/2026-04-10-cligate-bifrost-multi-harness-gateway.png)
+
 # CliGate, Bifrost, and the Multi-Harness Gateway Pattern: Running Claude Code, Codex CLI, and Gemini CLI as One
 
 

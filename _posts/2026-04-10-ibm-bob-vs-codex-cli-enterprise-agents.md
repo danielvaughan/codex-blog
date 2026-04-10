@@ -13,6 +13,8 @@ tags:
   - compliance
 ---
 
+![Sketchnote diagram for: IBM Bob vs Codex CLI: Enterprise Agentic Coding Agents Compared](/sketchnotes/articles/2026-04-10-ibm-bob-vs-codex-cli-enterprise-agents.png)
+
 # IBM Bob vs Codex CLI: Enterprise Agentic Coding Agents Compared
 
 ---

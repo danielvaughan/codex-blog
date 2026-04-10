@@ -4,6 +4,8 @@ date: 2026-04-10T09:00:00+01:00
 tags: ["pricing", "subscription-tiers", "pro-plan", "codex-spark", "enterprise", "cost-management", "claude-max", "competitive-analysis"]
 ---
 
+![Sketchnote diagram for: The New Codex Subscription Landscape: Free, Go, Plus, Pro and Enterprise Compared](/sketchnotes/articles/2026-04-10-codex-subscription-tiers-pro-100-pricing-guide.png)
+
 # The New Codex Subscription Landscape: Free, Go, Plus, Pro and Enterprise Compared
 
 

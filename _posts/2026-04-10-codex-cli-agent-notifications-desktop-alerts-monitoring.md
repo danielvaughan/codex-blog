@@ -14,6 +14,8 @@ tags:
   - agent-notifications
 ---
 
+![Sketchnote diagram for: Codex CLI Agent Notifications: Desktop Alerts, Audio Chimes, and Multi-Agent Monitoring](/sketchnotes/articles/2026-04-10-codex-cli-agent-notifications-desktop-alerts-monitoring.png)
+
 # Codex CLI Agent Notifications: Desktop Alerts, Audio Chimes, and Multi-Agent Monitoring
 
 

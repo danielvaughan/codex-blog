@@ -4,6 +4,8 @@ date: 2026-04-10T09:00:00+01:00
 tags: ["architecture", "internals", "queue-pair", "guardian-ai", "sandbox", "rust", "codex-rs"]
 ---
 
+![Sketchnote diagram for: Codex CLI Internals: Queue-Pair Protocol, Guardian AI, and 3-OS Sandbox Architecture](/sketchnotes/articles/2026-04-10-codex-cli-internals-queue-pair-guardian-sandbox.png)
+
 # Codex CLI Internals: Queue-Pair Protocol, Guardian AI, and 3-OS Sandbox Architecture
 
 

@@ -4,6 +4,8 @@ date: 2026-04-10T09:00:00+01:00
 tags: ["exec-server", "headless", "daemon", "ci-cd", "remote-execution", "experimental", "codex-rs", "architecture"]
 ---
 
+![Sketchnote diagram for: The codex exec-server Subcommand: Foundation for Headless and Daemon-Mode Codex](/sketchnotes/articles/2026-04-10-codex-exec-server-headless-daemon.png)
+
 # The codex exec-server Subcommand: Foundation for Headless and Daemon-Mode Codex
 
 

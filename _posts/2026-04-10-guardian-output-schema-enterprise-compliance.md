@@ -4,6 +4,8 @@ date: 2026-04-10T09:00:00+01:00
 tags: ["guardian", "compliance", "audit-trail", "enterprise", "structured-rationale", "risk-assessment", "smart-approvals"]
 ---
 
+![Sketchnote diagram for: Guardian Output Schema and Enterprise Compliance Audit Trails in Codex CLI](/sketchnotes/articles/2026-04-10-guardian-output-schema-enterprise-compliance.png)
+
 # Guardian Output Schema and Enterprise Compliance Audit Trails in Codex CLI
 
 
