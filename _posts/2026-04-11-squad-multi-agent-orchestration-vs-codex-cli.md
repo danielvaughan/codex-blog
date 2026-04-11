@@ -11,6 +11,8 @@ tags:
   - brady-gaster
 ---
 
+![Sketchnote diagram for: Squad: Repository-Native Multi-Agent Orchestration and How It Compares to Codex CLI](/sketchnotes/articles/squad-multi-agent-orchestration-vs-codex-cli.png)
+
 # Squad: Repository-Native Multi-Agent Orchestration and How It Compares to Codex CLI
 
 Brady Gaster's **Squad** is an open-source, TypeScript-based framework that provides multi-agent AI orchestration on top of GitHub Copilot[^1]. Where Codex CLI gives you a single powerful agent in a terminal, Squad gives you an entire *team* of specialised agents that live in your repository as plain-text files. The two tools solve different problems — and understanding the difference illuminates where AI-assisted development is heading.
