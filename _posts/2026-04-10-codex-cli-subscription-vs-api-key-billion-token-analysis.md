@@ -50,7 +50,7 @@ A critical finding: **60-80% of tokens in agentic sessions are waste** — spent
 
 ### Per-Developer Daily and Weekly Consumption
 
-The table below draws from Codex CLI community reports and comparable agentic coding tool data. The daily cost figures reflect API rates for GPT-5.4-mini — the model most heavy users default to[^2]:
+The table below draws from Codex CLI community reports and comparable agentic tool data. No large-scale Codex CLI usage study has been published yet, so the daily cost estimates are derived from similar agentic coding tools (primarily Claude Code) and translated to GPT-5.4-mini API rates[^2]. The relative tiers — light through extreme — are consistent across tools because they reflect developer behaviour, not tool-specific factors:
 
 | Developer Profile | Estimated Tokens/Week | Weekly API Cost (5.4-mini) | Monthly API Cost (5.4-mini) | Source |
 |-------------------|----------------------|---------------------------|----------------------------|--------|
@@ -59,7 +59,7 @@ The table below draws from Codex CLI community reports and comparable agentic co
 | **Heavy** (multi-agent workflows) | ~50M | ~$225 | ~$900 | Morph AI, community reports[^8][^10] |
 | **Extreme** (documented outlier) | ~300M | ~$1,350 | ~$5,400 | Community case studies[^9] |
 
-Industry data from agentic coding tools shows the **average developer spends $5-8/day** on API-rate usage, with **90% of developers staying below $12/day**[^7]. This means 90% of developers consume fewer than ~5M tokens/week on GPT-5.4-mini rates.
+Data from comparable agentic coding tools (notably Claude Code, the closest published dataset) shows the **average developer spends $5-8/day** on API-rate usage, with **90% of developers staying below $12/day**[^7]. Translating these figures to GPT-5.4-mini rates, 90% of developers would consume fewer than ~5M tokens/week. These figures are proxies — Codex CLI-specific usage studies at this scale have not yet been published.
 
 ### Community-Reported Pain Points
 
@@ -287,10 +287,10 @@ Maximising cache hits is the second most impactful cost lever after model select
 
 [^6]: Why Is My Codex CLI Token Usage Suddenly So High? — BSWEN (March 2026). Median context per turn (~96K), p95 (~200K), startup overhead (21-22K), shell output share (90.3%), community reports of single-prompt quota consumption. <https://docs.bswen.com/blog/2026-03-02-codex-cli-token-usage-spike/>
 
-[^7]: Agentic Coding Tool Usage Patterns — Faros.ai Engineering Guide. Average developer spend $5-8/day across agentic coding tools, 90% under $12/day, session token allocations and consumption patterns. <https://www.faros.ai/blog/claude-code-token-limits>
+[^7]: Claude Code Token Limits: A Guide for Engineering Leaders — Faros.ai. Average developer spend $5-8/day, 90% under $12/day. **Note:** this data is from Claude Code (a comparable agentic coding tool); it is used here as the best available proxy for Codex CLI usage patterns. <https://www.faros.ai/blog/claude-code-token-limits>
 
 [^8]: The Real Cost of AI Coding in 2026 — Morph. Agent session costs, 60-80% token waste rates, $500-2,000/month for heavy API users, 47-iteration agent loop case study. <https://www.morphllm.com/ai-coding-costs>
 
-[^9]: Agentic Coding Tool Pricing and Real Usage Estimates — Verdent Guides. Usage tiers (light $2-5/day, medium $6-12/day, heavy $20-60+/day), extreme user case study (10B tokens / 8 months = ~312M tokens/week). <https://www.verdent.ai/guides/claude-code-pricing-2026>
+[^9]: Claude Code Pricing 2026: Plans, Token Costs, and Real Usage Estimates — Verdent Guides. Usage tiers (light $2-5/day, medium $6-12/day, heavy $20-60+/day), extreme user case study (10B tokens / 8 months = ~312M tokens/week). **Note:** Claude Code data used as proxy; extreme case figures translated to Codex CLI API rates. <https://www.verdent.ai/guides/claude-code-pricing-2026>
 
 [^10]: Codex Usage After the Limit Reset Update — OpenAI Developer Community. Single prompt eating 7% of weekly limits, 97% weekly allowance after three prompts. <https://community.openai.com/t/codex-usage-after-the-limit-reset-update-single-prompt-eats-7-of-weekly-limits-plus-tier/1365284>
