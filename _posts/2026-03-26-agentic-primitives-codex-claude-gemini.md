@@ -755,7 +755,7 @@ Gemini CLI has two overlapping mechanisms:
 
 **Restriction:** Subagents cannot spawn other subagents. For nested delegation, use the main conversation to chain subagents sequentially.
 
-**Agent teams:** Separate from in-session subagents, [agent teams](/en/agent-teams) coordinate multiple independent Claude Code sessions across separate processes with their own full context windows.
+**Agent teams:** Separate from in-session subagents, [agent teams](https://code.claude.com/docs/en/agent-teams) coordinate multiple independent Claude Code sessions across separate processes with their own full context windows.
 
 **Worktree isolation:** Setting `isolation: worktree` in frontmatter runs the subagent in a temporary git worktree (an isolated copy of the repository). The worktree is auto-cleaned if the subagent makes no changes. This enables safe parallel experimentation.
 
@@ -827,7 +827,7 @@ Gemini CLI has two overlapping mechanisms:
 | CSV batch processing | ✅ (`spawn_agents_on_csv`) | ❌ | ❌ |
 | Resume stopped subagent | Via `send_input` | ✅ (via `SendMessage` with agent ID) | Not documented |
 | Built-in named subagents | `default`, `worker`, `explorer` | `Explore`, `Plan`, `general-purpose`, `Bash` | Browser agent (via `agents.browser` config) |
-| Agent teams (multi-session) | ❌ (single-session only) | ✅ (`/en/agent-teams`) | ⚠️ Not documented |
+| Agent teams (multi-session) | ❌ (single-session only) | ✅ ([agent-teams](https://code.claude.com/docs/en/agent-teams)) | ⚠️ Not documented |
 
 ---
 
