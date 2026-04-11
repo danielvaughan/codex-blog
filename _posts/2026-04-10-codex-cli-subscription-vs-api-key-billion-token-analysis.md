@@ -63,12 +63,15 @@ Data from comparable agentic coding tools (notably Claude Code, the closest publ
 
 ### Community-Reported Pain Points
 
-Real Codex CLI developer reports confirm these ranges[^6][^10]:
+Real Codex CLI developer reports confirm these ranges[^6][^10][^11]:
 
 - A single Codex CLI prompt consuming **7% of weekly Plus limits** (~600K tokens based on limit structure)
 - One user exhausting **97% of weekly allowance after just three prompts**
 - A Plus user burning **25% of weekly limit in 30 minutes**
 - A one-line configuration change consuming **~2% of the 5-hour quota**
+- A single GPT-5.4 xHigh prompt on a **7,000-line codebase cost ~$3.50** via API key — 7 minutes of work, ~4M tokens consumed across 34 API requests (each tool execution is a separate request), with auto-compaction mid-session[^11]
+
+That last data point is particularly revealing: even assuming a generous 90% margin, OpenAI's cost for that single prompt would be ~$0.35 — which means Plus subscribers getting unlimited prompts at $20/month are receiving substantial subsidies. As the poster noted, "the $20/mo tier usage limits are pretty generous."
 
 These reports align with the 96K median-context-per-turn figure: even "light" usage of 10-20 turns can consume 1-2M tokens.
 
@@ -294,3 +297,5 @@ Maximising cache hits is the second most impactful cost lever after model select
 [^9]: Claude Code Pricing 2026: Plans, Token Costs, and Real Usage Estimates — Verdent Guides. Usage tiers (light $2-5/day, medium $6-12/day, heavy $20-60+/day), extreme user case study (10B tokens / 8 months = ~312M tokens/week). **Note:** Claude Code data used as proxy; extreme case figures translated to Codex CLI API rates. <https://www.verdent.ai/guides/claude-code-pricing-2026>
 
 [^10]: Codex Usage After the Limit Reset Update — OpenAI Developer Community. Single prompt eating 7% of weekly limits, 97% weekly allowance after three prompts. <https://community.openai.com/t/codex-usage-after-the-limit-reset-update-single-prompt-eats-7-of-weekly-limits-plus-tier/1365284>
+
+[^11]: The cost of a single prompt when signed in via API key (GPT-5.4 xHigh) — r/codex, u/gigaflops_ (April 2026). Single prompt on 7,000-line codebase: ~$3.50 API cost, ~4M tokens, 34 requests, 7 minutes, GPT-5.4 xHigh with auto-compaction. <https://www.reddit.com/r/codex/comments/the-cost-of-a-single-prompt-when-signed-in-via-api-key-gpt54-xhigh/>
