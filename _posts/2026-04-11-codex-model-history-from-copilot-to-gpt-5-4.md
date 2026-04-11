@@ -12,6 +12,8 @@ tags:
   - humaneval
 ---
 
+![Sketchnote diagram for: From Codex to GPT-5.4: The Complete History of OpenAI's Code Models](/sketchnotes/articles/codex-model-history-from-copilot-to-gpt-5-4.png)
+
 # From Codex to GPT-5.4: The Complete History of OpenAI's Code Models
 
 In July 2021, OpenAI published a paper describing a GPT-3 model fine-tuned on 159 gigabytes of Python code from 54 million GitHub repositories[^1]. They called it **Codex**. It scored 28.8% on the HumanEval benchmark — a new test of 164 hand-written programming problems. Five years later, GPT-5.4 scores roughly 95%+ on the same benchmark and resolves 57.7% of real-world GitHub issues autonomously on SWE-bench Pro[^18]. The name "Codex" has returned — not as a model, but as an autonomous coding agent.
