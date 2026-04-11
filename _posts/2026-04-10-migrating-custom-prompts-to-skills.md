@@ -4,6 +4,9 @@ date: 2026-04-10T18:00:00+01:00
 tags: ["custom-prompts", "skills", "migration", "v0.117.0", "SKILL.md", "breaking-change", "config-toml"]
 ---
 
+![Sketchnote diagram for: Migrating Custom Prompts to Skills: The v0.117.0 Breaking Change and Practical Conversion Guide](/sketchnotes/articles/2026-04-10-migrating-custom-prompts-to-skills.png)
+
+
 # Migrating Custom Prompts to Skills: The v0.117.0 Breaking Change and Practical Conversion Guide
 
 

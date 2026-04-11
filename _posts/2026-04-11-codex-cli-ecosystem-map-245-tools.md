@@ -14,6 +14,9 @@ tags:
   - agent-skills
 ---
 
+![Sketchnote diagram for: The Codex CLI Ecosystem Map: Navigating 245+ Community Tools, Skills and Subagents](/sketchnotes/articles/2026-04-11-codex-cli-ecosystem-map-245-tools.png)
+
+
 # The Codex CLI Ecosystem Map: Navigating 245+ Community Tools, Skills and Subagents
 
 

@@ -13,6 +13,9 @@ tags:
   - opentelemetry
 ---
 
+![Sketchnote diagram for: Guardian Review IDs, Timeouts and Delta Transcripts: Enterprise Audit-Ready Governance](/sketchnotes/articles/2026-04-11-guardian-review-ids-timeouts-delta-transcripts.png)
+
+
 # Guardian Review IDs, Timeouts and Delta Transcripts: Enterprise Audit-Ready Governance
 
 

@@ -4,6 +4,9 @@ date: 2026-04-11T14:00:00+01:00
 tags: ["multi-agent", "background-agent", "realtime-v2", "streaming", "v0.120", "UX", "delegation", "agentic-pod"]
 ---
 
+![Sketchnote diagram for: Background Agent Streaming: From Fire-and-Forget to Observable Multi-Agent UX](/sketchnotes/articles/2026-04-11-background-agent-streaming-multi-agent-ux.png)
+
+
 # Background Agent Streaming: From Fire-and-Forget to Observable Multi-Agent UX
 
 

@@ -4,6 +4,9 @@ date: 2026-04-10T22:00:00+01:00
 tags: ["prompting-guide", "custom-harness", "system-prompt", "personality-modes", "metaprompting", "apply-patch", "responses-api", "parallel-tool-calling"]
 ---
 
+![Sketchnote diagram for: The Official Codex Prompting Guide: System Prompts, Personality Modes, and Custom Harness Patterns](/sketchnotes/articles/2026-04-10-codex-prompting-guide-custom-harness-patterns.png)
+
+
 # The Official Codex Prompting Guide: System Prompts, Personality Modes, and Custom Harness Patterns
 
 

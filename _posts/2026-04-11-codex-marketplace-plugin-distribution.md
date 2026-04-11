@@ -10,6 +10,9 @@ tags:
   - enterprise
 ---
 
+![Sketchnote diagram for: Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command](/sketchnotes/articles/2026-04-11-codex-marketplace-plugin-distribution.png)
+
+
 # Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command
 
 

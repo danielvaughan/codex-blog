@@ -11,6 +11,9 @@ tags:
   - configuration
 ---
 
+![Sketchnote diagram for: Codex App Worktree Lifecycle: Local Environments, Setup Scripts, Handoff, and Automated Cleanup](/sketchnotes/articles/2026-04-11-codex-app-worktree-lifecycle-local-environments.png)
+
+
 # Codex App Worktree Lifecycle: Local Environments, Setup Scripts, Handoff, and Automated Cleanup
 
 

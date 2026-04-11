@@ -13,6 +13,9 @@ tags:
   - v0.119.0
 ---
 
+![Sketchnote diagram for: Multi-Agent v2 in Codex CLI: Path-Based Addressing, Structured Messaging, and the New Tool Surface](/sketchnotes/articles/2026-04-11-codex-cli-multi-agent-v2-path-addressing.png)
+
+
 # Multi-Agent v2 in Codex CLI: Path-Based Addressing, Structured Messaging, and the New Tool Surface
 
 

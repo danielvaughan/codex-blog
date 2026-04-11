@@ -13,6 +13,9 @@ tags:
   - quality-gates
 ---
 
+![Sketchnote diagram for: Test-Driven Development with Codex CLI: The Red-Green-Refactor Loop, AGENTS.md Test Gates, and Hook-Based Verification](/sketchnotes/articles/2026-04-10-codex-cli-test-driven-development-workflow.png)
+
+
 # Test-Driven Development with Codex CLI: The Red-Green-Refactor Loop, AGENTS.md Test Gates, and Hook-Based Verification
 
 

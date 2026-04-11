@@ -12,6 +12,9 @@ tags:
   - decision-framework
 ---
 
+![Sketchnote diagram for: The Three-CLI Toolkit: Running Codex CLI, Claude Code, and Gemini CLI as a Unified Development Stack](/sketchnotes/articles/2026-04-11-three-cli-toolkit-codex-claude-gemini.png)
+
+
 # The Three-CLI Toolkit: Running Codex CLI, Claude Code, and Gemini CLI as a Unified Development Stack
 
 

@@ -14,6 +14,9 @@ tags:
   - internals
 ---
 
+![Sketchnote diagram for: The codex-core Crate Extraction: How v0.119.0 Modularised the Rust Heart of Codex CLI](/sketchnotes/articles/2026-04-11-codex-core-modular-crate-extraction-v0119.png)
+
+
 # The codex-core Crate Extraction: How v0.119.0 Modularised the Rust Heart of Codex CLI
 
 
