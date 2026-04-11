@@ -153,4 +153,4 @@ The open-sourcing of Claude Code is a gift to the entire agentic coding communit
 
 ---
 
-*See also: [Claude Code Source Leak — What It Reveals](./2026-04-01-claude-code-source-leak-what-it-reveals.md) for the initial leak analysis and security implications.*
+*See also: [Claude Code Source Leak — What It Reveals](/2026/04/01/claude-code-source-leak-what-it-reveals/) for the initial leak analysis and security implications.*

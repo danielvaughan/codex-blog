@@ -203,7 +203,7 @@ The `codex-theme-v1` format is designed to be portable. Practical sharing patter
 
 **Via AGENTS.md:** Embed a comment in your project's `AGENTS.md` with the team's preferred theme string so new contributors can paste it directly.
 
-**Via a company plugin:** Package the theme JSON inside a [Codex plugin](./2026-03-30-codex-cli-plugin-system.md) under `plugin.json → appConfig`, so the theme applies automatically when the plugin is installed.
+**Via a company plugin:** Package the theme JSON inside a [Codex plugin](/2026/03/30/codex-cli-plugin-system/) under `plugin.json → appConfig`, so the theme applies automatically when the plugin is installed.
 
 ---
 

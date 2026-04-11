@@ -266,6 +266,6 @@ It's overkill for exploratory work, greenfield design, or anything requiring sig
 
 ## Related
 
-- [Harness Engineering: From Issue to PR with Symphony](/codex-resources/articles/2026-03-26-harness-engineering-symphony/)
-- [Multi-Agent Orchestration Patterns](/codex-resources/articles/2026-03-27-multi-agent-orchestration-patterns/)
-- [AGENTS.md Guide](/codex-resources/notes/agents-md-guide/)
+- [Harness Engineering: From Issue to PR with Symphony](/2026/03/26/harness-engineering-symphony/)
+- [Multi-Agent Orchestration Patterns](/2026/03/27/multi-agent-orchestration-patterns/)
+- [AGENTS.md Guide](#)

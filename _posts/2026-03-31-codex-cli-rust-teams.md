@@ -17,7 +17,7 @@ tags:
 
 Codex CLI is written in Rust.[^1] That is not a coincidence — it means the OpenAI team has already worked out the patterns for using Codex to maintain a large, multi-crate Rust workspace, and that lived experience is encoded in their public `AGENTS.md`. This article distils those patterns into a reusable template for your own Rust teams, and extends them with the configuration details that matter for production use.
 
-There is already an article in this knowledge base on [the codex-rs architecture itself](/codex-resources/articles/2026-03-28-codex-rs-rust-rewrite-architecture/). This article is about the other direction: using Codex CLI as your coding agent *on* a Rust project.
+There is already an article in this knowledge base on [the codex-rs architecture itself](/2026/03/28/codex-rs-rust-rewrite-architecture/). This article is about the other direction: using Codex CLI as your coding agent *on* a Rust project.
 
 ---
 

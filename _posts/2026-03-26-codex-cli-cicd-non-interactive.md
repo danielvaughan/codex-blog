@@ -312,9 +312,9 @@ This preserves context across steps without re-loading all files — cheaper and
 
 ## See Also
 
-- [AGENTS.md Guide](/codex-resources/notes/agents-md-guide/) — control Codex behaviour via project config
-- [Codex CLI Hooks Deep Dive](/codex-resources/articles/2026-03-26-codex-cli-hooks-deep-dive/) — hooks for CI automation events
-- [Approval Modes & Sandbox Security](/codex-resources/articles/2026-03-26-codex-cli-approval-modes-sandbox-security/)
+- [AGENTS.md Guide](#) — control Codex behaviour via project config
+- [Codex CLI Hooks Deep Dive](/2026/03/26/codex-cli-hooks-deep-dive/) — hooks for CI automation events
+- [Approval Modes & Sandbox Security](/2026/03/26/codex-cli-approval-modes-sandbox-security/)
 - [openai/codex-action](https://github.com/openai/codex-action) — official GitHub Action
 
 ---

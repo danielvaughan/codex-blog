@@ -339,7 +339,7 @@ The single most impactful change is step 3: an `AGENTS.md` that clearly states `
 
 [^6]: [Configuring Ruff — Astral Docs](https://docs.astral.sh/ruff/configuration/)
 
-[^7]: [Codex CLI Hooks Deep Dive — codex-resources, 2026-03-26](/codex-resources/articles/2026-03-26-codex-cli-hooks-deep-dive/)
+[^7]: [Codex CLI Hooks Deep Dive — codex-resources, 2026-03-26](/2026/03/26/codex-cli-hooks-deep-dive/)
 
 [^8]: [Claude Code Hooks for uv Projects — pydevtools.com](https://pydevtools.com/blog/claude-code-hooks-for-uv/)
 

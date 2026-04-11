@@ -158,9 +158,9 @@ If you're moving from earlier models:
 
 ## Related Notes
 
-- [Model lineup overview](../notes/models-and-features.md) — full benchmark data and version history
-- [GPT-5.4 mini subagent delegation](./2026-03-30-gpt54-mini-codex-subagent-delegation.md) — tiered inference architecture (still relevant; mini variant now replaced by gpt-5-codex-mini)
-- [Model selection guide](./2026-03-26-codex-cli-model-selection.md) — decision framework (update model names as above)
+- [Model lineup overview](#) — full benchmark data and version history
+- [GPT-5.4 mini subagent delegation](/2026/03/30/gpt54-mini-codex-subagent-delegation/) — tiered inference architecture (still relevant; mini variant now replaced by gpt-5-codex-mini)
+- [Model selection guide](/2026/03/26/codex-cli-model-selection/) — decision framework (update model names as above)
 
 ---
 

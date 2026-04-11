@@ -178,7 +178,7 @@ osascript -e 'display notification "Codex task complete" with title "Codex CLI"'
 command = "grep -q 'sk-' <<< \"$CODEX_PROMPT\" && echo 'BLOCK: API key detected in prompt' && exit 1 || exit 0"
 ```
 
-See the [hooks deep dive article](/codex-resources/articles/2026-03-26-codex-cli-hooks-deep-dive/) for the full event list and JSON protocol.
+See the [hooks deep dive article](/2026/03/26/codex-cli-hooks-deep-dive/) for the full event list and JSON protocol.
 
 ---
 
@@ -285,9 +285,9 @@ For regulated environments, Codex CLI's `requirements.toml` can enforce organisa
 
 [^5]: OpenAI token efficiency claim (4× vs comparable tools). <https://learn.ryzlabs.com/ai-coding-assistants/openai-codex-vs-github-copilot-which-ai-assistant-reigns-supreme-in-2026>
 
-[^6]: Codex CLI sandbox security model (Seatbelt/Landlock/restricted tokens). See [Codex CLI Approval Modes and Sandbox Security Model](/codex-resources/articles/2026-03-26-codex-cli-approval-modes-sandbox-security/).
+[^6]: Codex CLI sandbox security model (Seatbelt/Landlock/restricted tokens). See [Codex CLI Approval Modes and Sandbox Security Model](/2026/03/26/codex-cli-approval-modes-sandbox-security/).
 
-[^7]: Codex CLI hooks documentation. See [Codex CLI Hooks Deep Dive](/codex-resources/articles/2026-03-26-codex-cli-hooks-deep-dive/).
+[^7]: Codex CLI hooks documentation. See [Codex CLI Hooks Deep Dive](/2026/03/26/codex-cli-hooks-deep-dive/).
 
 [^8]: GitHub Changelog, features at GA including `/research`, fleet mode, and background delegation. <https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available/>
 
@@ -297,7 +297,7 @@ For regulated environments, Codex CLI's `requirements.toml` can enforce organisa
 
 [^11]: GitHub Docs, "Adding custom instructions for GitHub Copilot CLI." <https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-custom-instructions>
 
-[^12]: Codex CLI AGENTS.md scope chain and directory tree walking. See [AGENTS.md Advanced Patterns](/codex-resources/articles/2026-03-26-agents-md-advanced-patterns/).
+[^12]: Codex CLI AGENTS.md scope chain and directory tree walking. See [AGENTS.md Advanced Patterns](/2026/03/26/agents-md-advanced-patterns/).
 
 [^13]: GitHub Changelog, "Claude and Codex now available for Copilot Business & Pro users," 26 February 2026. <https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users/>
 
@@ -307,8 +307,8 @@ For regulated environments, Codex CLI's `requirements.toml` can enforce organisa
 
 [^16]: Copilot CLI repository memory feature. <https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available/>
 
-[^17]: GitHub Copilot coding agent issue assignment (Copilot Pro+/Enterprise). See [Codex as a GitHub Copilot Coding Agent](/codex-resources/articles/2026-03-28-codex-github-copilot-coding-agent-issue-assignment/).
+[^17]: GitHub Copilot coding agent issue assignment (Copilot Pro+/Enterprise). See [Codex as a GitHub Copilot Coding Agent](/2026/03/28/codex-github-copilot-coding-agent-issue-assignment/).
 
 [^18]: Copilot CLI fleet mode (`/fleet` command). <https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available/>
 
-[^19]: Codex CLI enterprise `requirements.toml`. See [Codex Enterprise Admin Guide](/codex-resources/articles/2026-03-27-codex-enterprise-admin-guide/).
+[^19]: Codex CLI enterprise `requirements.toml`. See [Codex Enterprise Admin Guide](/2026/03/27/codex-enterprise-admin-guide/).

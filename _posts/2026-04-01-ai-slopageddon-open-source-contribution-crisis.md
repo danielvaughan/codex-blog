@@ -190,4 +190,4 @@ The projects that survive the slopageddon will not be those that generate the mo
 
 [^8]: OpenAI. (2026). "Codex for Open Source." [OpenAI Developers](https://developers.openai.com/community/codex-for-oss). Also covered in [WinBuzzer](https://winbuzzer.com/2026/03/09/openai-codex-open-source-maintainers-free-chatgpt-pro-xcxwbn/).
 
-[^9]: Vaughan, D. (2026). "Compound Engineering with Codex: The 80/20 Plan-Review Model." [Codex Resources](/codex-resources/articles/2026-03-27-compound-engineering-codex-80-20/).
+[^9]: Vaughan, D. (2026). "Compound Engineering with Codex: The 80/20 Plan-Review Model." [Codex Resources](/2026/03/27/compound-engineering-codex-80-20/).

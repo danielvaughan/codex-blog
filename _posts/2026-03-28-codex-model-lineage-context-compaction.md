@@ -137,7 +137,7 @@ The v0.118.0 alpha builds (alpha.1–alpha.3 as of March 27) haven't published r
 - `gpt-5-codex` becoming the default model
 - Spark model graduating from research preview
 
-*See: [notes/changelog-watch.md](/codex-resources/notes/changelog-watch/) for v0.118.0 tracking*
+*See: [notes/changelog-watch.md](#) for v0.118.0 tracking*
 
 ---
 

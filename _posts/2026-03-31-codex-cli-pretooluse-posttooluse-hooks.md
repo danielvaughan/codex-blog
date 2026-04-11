@@ -27,7 +27,7 @@ This article documents the configuration format, blocking semantics, and four pr
 
 ## What Changed
 
-The [earlier hooks deep-dive](./2026-03-26-codex-cli-hooks-deep-dive.md) covers `SessionStart`, `Stop`, and `userpromptsubmit` — events that fire at session or turn boundaries. PreToolUse and PostToolUse fire at a finer grain: every time the model calls a tool.
+The [earlier hooks deep-dive](/2026/03/26/codex-cli-hooks-deep-dive/) covers `SessionStart`, `Stop`, and `userpromptsubmit` — events that fire at session or turn boundaries. PreToolUse and PostToolUse fire at a finer grain: every time the model calls a tool.
 
 | Hook Event | When | Can Block? | Use for |
 |-----------|------|-----------|---------|
@@ -281,7 +281,7 @@ For intensive checks (full test suite, lint across many files), use PostToolUse 
 
 ## See Also
 
-- [Codex CLI Hooks Deep Dive: SessionStart, Stop and userpromptsubmit](./2026-03-26-codex-cli-hooks-deep-dive.md) — the companion article covering session-scoped hooks
+- [Codex CLI Hooks Deep Dive: SessionStart, Stop and userpromptsubmit](/2026/03/26/codex-cli-hooks-deep-dive/) — the companion article covering session-scoped hooks
 - Official hooks reference: [developers.openai.com/codex/hooks](https://developers.openai.com/codex/hooks)
 
 ---

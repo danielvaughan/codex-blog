@@ -853,7 +853,7 @@ The Knowledge Flywheel is the pattern worth investing in. Each agent run that ad
 
 [^2]: [Neo4j Aura Agent — Developer Guides](https://neo4j.com/developer/genai-ecosystem/aura-agent/)
 
-[^3]: [Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts](/codex-resources/articles/2026-03-30-codex-cli-hooks-engine/)
+[^3]: [Codex CLI Hooks Engine: Extending the Agentic Loop with Lifecycle Scripts](/2026/03/30/codex-cli-hooks-engine/)
 
 [^4]: [Neo4j Driver Best Practices — Neo4j Developer Blog](https://neo4j.com/developer-blog/neo4j-driver-best-practices/)
 

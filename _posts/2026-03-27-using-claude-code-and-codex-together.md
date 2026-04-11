@@ -359,4 +359,4 @@ For those new to the multi-tool approach:
 
 ---
 
-*Sources: Codex CLI docs, Claude Code docs, transcripts: GuTQDXKwdJQ, 3CSi8QAoN-s, 97FYys-kj58, h-RT03B14SM, 4qIRAtw4Ktg. Community data: 500+ Reddit comments across r/codex, r/ClaudeCode, r/ChatGPTCoding. See also: [Claude Code ↔ Codex Bidirectional MCP](/codex-resources/articles/2026-03-26-claude-code-codex-bidirectional-mcp/) for the MCP integration deep-dive.*
+*Sources: Codex CLI docs, Claude Code docs, transcripts: GuTQDXKwdJQ, 3CSi8QAoN-s, 97FYys-kj58, h-RT03B14SM, 4qIRAtw4Ktg. Community data: 500+ Reddit comments across r/codex, r/ClaudeCode, r/ChatGPTCoding. See also: [Claude Code ↔ Codex Bidirectional MCP](/2026/03/26/claude-code-codex-bidirectional-mcp/) for the MCP integration deep-dive.*

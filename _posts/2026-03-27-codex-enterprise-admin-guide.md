@@ -254,6 +254,6 @@ Before enterprise-wide deployment:
 
 ## See Also
 
-- [articles/2026-03-26-codex-cli-enterprise-deployment.md](/codex-resources/articles/2026-03-26-codex-cli-enterprise-deployment/) — config.toml distribution, AGENTS.override.md, project_doc_fallback
-- [articles/2026-03-27-security-hardening-codex-cli.md](/codex-resources/articles/2026-03-27-security-hardening-codex-cli/) — secrets scanning, audit hooks, regulated environment patterns
-- [notes/enterprise-deployment.md](/codex-resources/notes/enterprise-deployment/) — extended research notes
+- [articles/2026-03-26-codex-cli-enterprise-deployment.md](/2026/03/26/codex-cli-enterprise-deployment/) — config.toml distribution, AGENTS.override.md, project_doc_fallback
+- [articles/2026-03-27-security-hardening-codex-cli.md](/2026/03/27/security-hardening-codex-cli/) — secrets scanning, audit hooks, regulated environment patterns
+- [notes/enterprise-deployment.md](#) — extended research notes

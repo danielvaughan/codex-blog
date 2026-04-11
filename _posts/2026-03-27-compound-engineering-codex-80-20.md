@@ -190,7 +190,7 @@ If you're adopting this incrementally:
 
 ## See Also
 
-- [notes/compound-engineering.md](/codex-resources/notes/compound-engineering/) — extended research notes
-- [articles/2026-03-27-multi-agent-orchestration-patterns.md](/codex-resources/articles/2026-03-27-multi-agent-orchestration-patterns/) — parallel subagent patterns
-- [articles/2026-03-27-proof-of-work-principle-agents.md](/codex-resources/articles/2026-03-27-proof-of-work-principle-agents/) — Symphony's related proof-of-work concept
-- [resources/ecosystem-tools.md](/codex-resources/resources/ecosystem-tools/) — compound-engineering-plugin technical details
+- [notes/compound-engineering.md](#) — extended research notes
+- [articles/2026-03-27-multi-agent-orchestration-patterns.md](/2026/03/27/multi-agent-orchestration-patterns/) — parallel subagent patterns
+- [articles/2026-03-27-proof-of-work-principle-agents.md](/2026/03/27/proof-of-work-principle-agents/) — Symphony's related proof-of-work concept
+- [resources/ecosystem-tools.md](#) — compound-engineering-plugin technical details

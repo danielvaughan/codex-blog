@@ -224,10 +224,10 @@ The test suite is your contract with the agent. Write it clearly and Codex will 
 
 ## See Also
 
-- [AGENTS.md Advanced Patterns](/codex-resources/articles/2026-03-26-agents-md-advanced-patterns/)
-- [Codex CLI Hooks Deep Dive](/codex-resources/articles/2026-03-26-codex-cli-hooks-deep-dive/)
-- [Staying Engaged with Your Codebase in an Agentic World](/codex-resources/articles/2026-03-27-staying-engaged-codebase-agentic-world/)
-- [The Proof of Work Principle](/codex-resources/articles/2026-03-27-proof-of-work-principle-agents/)
+- [AGENTS.md Advanced Patterns](/2026/03/26/agents-md-advanced-patterns/)
+- [Codex CLI Hooks Deep Dive](/2026/03/26/codex-cli-hooks-deep-dive/)
+- [Staying Engaged with Your Codebase in an Agentic World](/2026/03/27/staying-engaged-codebase-agentic-world/)
+- [The Proof of Work Principle](/2026/03/27/proof-of-work-principle-agents/)
 - [shinpr/agentic-code](https://github.com/shinpr/agentic-code) — TDD framework for Codex
 - [dsifry/metaswarm](https://github.com/dsifry/metaswarm) — production multi-agent TDD enforcement
 

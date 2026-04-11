@@ -222,9 +222,9 @@ The three things that make this possible — hermetic tests, machine-readable do
 
 *See also:*
 
-- *[notes/symphony.md](/codex-resources/notes/symphony/) — reference note on Symphony*
-- *[articles/2026-03-26-codex-cli-cicd-non-interactive.md](/codex-resources/articles/2026-03-26-codex-cli-cicd-non-interactive/) — Codex in CI/CD*
-- *[articles/2026-03-26-codex-cli-hooks-deep-dive.md](/codex-resources/articles/2026-03-26-codex-cli-hooks-deep-dive/) — hooks for proof-of-work patterns*
+- *[notes/symphony.md](#) — reference note on Symphony*
+- *[articles/2026-03-26-codex-cli-cicd-non-interactive.md](/2026/03/26/codex-cli-cicd-non-interactive/) — Codex in CI/CD*
+- *[articles/2026-03-26-codex-cli-hooks-deep-dive.md](/2026/03/26/codex-cli-hooks-deep-dive/) — hooks for proof-of-work patterns*
 
 ---
 

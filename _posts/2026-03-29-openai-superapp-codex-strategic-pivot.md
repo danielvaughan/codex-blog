@@ -76,7 +76,7 @@ OpenAI is moving faster because Anthropic is winning enterprise deals. Every Sot
 
 Claude overtaking ChatGPT as the most downloaded US app in March 2026 is an inflection point. Anthropic's advantage: Claude Code's "explorer" personality resonates with developers who want a collaborator, not just an executor. OpenAI's response is consolidation — make Codex so capable and ubiquitous that the comparison becomes irrelevant.
 
-For practitioners using both tools (see [Using Claude Code and Codex Together](/codex-resources/articles/2026-03-27-using-claude-code-and-codex-together/)): this dynamic means both tools are improving faster than they would in isolation. The bidirectional MCP architecture described in [Claude Code ↔ Codex Bidirectional MCP](/codex-resources/articles/2026-03-26-claude-code-codex-bidirectional-mcp/) will only become more relevant as both ecosystems mature.
+For practitioners using both tools (see [Using Claude Code and Codex Together](/2026/03/27/using-claude-code-and-codex-together/)): this dynamic means both tools are improving faster than they would in isolation. The bidirectional MCP architecture described in [Claude Code ↔ Codex Bidirectional MCP](/2026/03/26/claude-code-codex-bidirectional-mcp/) will only become more relevant as both ecosystems mature.
 
 ---
 

@@ -254,10 +254,10 @@ For teams on Cursor Pro, consider routing high-volume, repeatable tasks (documen
 
 [^12]: Codex CLI AGENTS.md scope chain — [Custom instructions with AGENTS.md – Codex](https://developers.openai.com/codex/guides/agents-md)
 
-[^13]: 4-file durable memory pattern — [Evaluating Codex Agents: Evals, Long-Horizon Benchmarks, and the 4-File Pattern](/codex-resources/articles/2026-03-28-evaluating-codex-agents-evals-longhorizon/)
+[^13]: 4-file durable memory pattern — [Evaluating Codex Agents: Evals, Long-Horizon Benchmarks, and the 4-File Pattern](/2026/03/28/evaluating-codex-agents-evals-longhorizon/)
 
 [^14]: Codex IDE extension in Cursor — [IDE extension – Codex | OpenAI Developers](https://developers.openai.com/codex/ide)
 
-[^15]: Codex subagent parallelism — [Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv](/codex-resources/articles/2026-03-26-codex-cli-subagents-toml-parallelism/)
+[^15]: Codex subagent parallelism — [Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv](/2026/03/26/codex-cli-subagents-toml-parallelism/)
 
 [^16]: codex-rs open-source repository — [openai/codex on GitHub](https://github.com/openai/codex)

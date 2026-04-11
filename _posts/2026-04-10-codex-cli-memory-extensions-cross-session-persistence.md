@@ -82,4 +82,4 @@ Memory extensions combined with the profile system (`--profile-v2`, PR #17141) c
 
 ---
 
-*Source: [PR #16276](https://github.com/openai/codex/pull/16276), [changelog-watch](../notes/changelog-watch.md). Added 2026-04-10.*
+*Source: [PR #16276](https://github.com/openai/codex/pull/16276), [changelog-watch](#). Added 2026-04-10.*

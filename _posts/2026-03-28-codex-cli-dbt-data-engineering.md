@@ -315,7 +315,7 @@ Start with the MCP server and AGENTS.md. Add Agent Skills for warehouse-specific
 
 [^1]: [Bring structured context to agentic data development with dbt — dbt Labs](https://www.getdbt.com/blog/bring-structured-context-to-agentic-data-development-with-dbt)
 
-[^2]: [The AGENTS.md Bloat Problem: When More Context Makes Agents Worse](/codex-resources/articles/2026-03-27-agents-md-bloat-problem/)
+[^2]: [The AGENTS.md Bloat Problem: When More Context Makes Agents Worse](/2026/03/27/agents-md-bloat-problem/)
 
 [^3]: [About the dbt Model Context Protocol (MCP) Server — dbt Developer Hub](https://docs.getdbt.com/docs/dbt-ai/about-mcp)
 

@@ -158,4 +158,4 @@ Long tasks (4+ hours)
 
 Evaluation for Codex agents is a spectrum. At the short end, JSONL traces + rubric scoring + 10-prompt eval sets catch regressions in skills cheaply. At the long end, the 4-file durable memory pattern + milestone verification enables coherent 25-hour runs. The benchmark research confirms that neither end is "solved" — but structured context management is what separates 10-minute demos from production-grade agentic workflows.
 
-*Related: [notes/best-practices.md](/codex-resources/notes/best-practices/) | [articles/2026-03-28-test-first-development-codex-tdd-feedback-loop.md](/codex-resources/articles/2026-03-28-test-first-development-codex-tdd-feedback-loop/) | [articles/2026-03-28-codex-agent-loop-deep-dive.md](/codex-resources/articles/2026-03-28-codex-agent-loop-deep-dive/)*
+*Related: [notes/best-practices.md](#) | [articles/2026-03-28-test-first-development-codex-tdd-feedback-loop.md](/2026/03/28/test-first-development-codex-tdd-feedback-loop/) | [articles/2026-03-28-codex-agent-loop-deep-dive.md](/2026/03/28/codex-agent-loop-deep-dive/)*

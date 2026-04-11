@@ -71,7 +71,7 @@ model = "codex-local-7b"
 
 ## Azure AI Foundry
 
-The most commonly deployed enterprise provider. Full details are in [notes/codex-azure-openai.md](/codex-resources/notes/codex-azure-openai/), but the canonical config is:
+The most commonly deployed enterprise provider. Full details are in [notes/codex-azure-openai.md](#), but the canonical config is:
 
 ```toml
 [model_providers.azure]
@@ -112,7 +112,7 @@ model = "openai/gpt-5-codex"     # or "anthropic/claude-sonnet-4-5", "google/gem
 
 Model strings follow the `<provider>/<model-id>` convention. See the Vercel AI Gateway docs for the full catalogue.
 
-The Vercel plugin (38 skills, 3 specialist agents) is a separate install and works regardless of which provider backend you use — see [articles/2026-03-30-codex-cli-vercel-ai-gateway-skills-plugin.md](/codex-resources/articles/2026-03-30-codex-cli-vercel-ai-gateway-skills-plugin/).
+The Vercel plugin (38 skills, 3 specialist agents) is a separate install and works regardless of which provider backend you use — see [articles/2026-03-30-codex-cli-vercel-ai-gateway-skills-plugin.md](/2026/03/30/codex-cli-vercel-ai-gateway-skills-plugin/).
 
 ---
 
