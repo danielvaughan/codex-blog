@@ -125,7 +125,11 @@ A senior engineering manager in the study described it perfectly: "It was like I
 
 The working-hours data tells the same story from a different angle. ActivTrak's analysis of 443 million hours of work data across 163,638 employees found that Saturday productive hours jumped **46%** and Sunday productive hours rose **58%** after AI tool adoption. AI tool time increased **eightfold**. Weekend work increased over **40%** overall.[^12]
 
-Developers are not working less with AI tools. They are working more, at higher cognitive intensity, with less recovery time.
+A UC Berkeley Haas study published in Harvard Business Review explains the mechanism behind those numbers. Over eight months studying a 200-person U.S. tech firm, researchers found that AI didn't reduce work — it **intensified** it in three dimensions: pace (people worked faster), scope (they took on tasks that "previously would have belonged to someone else"), and temporality (work "seeped into moments that used to function as pauses — lunch, before meetings, evenings"). Because AI makes it trivially easy to fire off one more prompt, the natural stopping points that previously bounded a workday dissolved entirely.[^21]
+
+That finding maps precisely onto the toxic flow mechanism. It is not just that AI tools are cognitively demanding — it is that they eliminate the friction that used to force you to stop.
+
+Developers are not working less with AI tools. They are working more, at higher cognitive intensity, with less recovery time — and the technology itself is erasing the boundaries that once made recovery automatic.
 
 ## The Perception Gap: Feeling Fast While Going Slow
 
@@ -229,7 +233,7 @@ Toxic flow is that deferred cost wearing a flow-state disguise. Naming it is the
 ## Summary
 
 - **Toxic flow** is an addictive, cognitively punishing variant of the developer flow state that emerges when working with multiple AI coding agents simultaneously. It shares genuine flow's absorption and time distortion but replaces the sense of effortless mastery with anxious monitoring and approval fatigue.
-- The phenomenon is supported by extensive evidence: BCG's study of 1,488 workers found 14% reporting "AI brain fry" with 33% increased decision fatigue and 39% more major errors. METR found a 40-point gap between perceived and actual productivity. ActivTrak found weekend work up 46-58% after AI tool adoption.
+- The phenomenon is supported by extensive evidence: BCG's study of 1,488 workers found 14% reporting "AI brain fry" with 33% increased decision fatigue and 39% more major errors. METR found a 40-point gap between perceived and actual productivity. ActivTrak found weekend work up 46-58% after AI tool adoption. A UC Berkeley Haas study found AI intensifies work across pace, scope, and temporality — dissolving the natural stopping points that once bounded the workday.
 - The addiction mechanism is variable ratio reinforcement — the same psychological pattern that makes slot machines addictive. With multiple agents, you are playing multiple slot machines simultaneously, ensuring near-constant reward signals.
 - Multi-agent work introduces specific cognitive loads beyond single-agent fatigue: the tracking tax (monitoring multiple agent states), approval fatigue (rubber-stamping under volume pressure), the anxiety gap (waiting between outputs), and the illusion of control.
 - The **verification trap** is toxic flow's most dangerous variant: when you cannot independently verify the AI's output, the feedback loop has no reality anchor. A developer on r/ClaudeCode spent four sleep-deprived days believing they were solving the P vs NP problem with Claude Code before discovering the AI was producing confident nonsense. The rule: never work beyond your verification horizon.
@@ -277,3 +281,5 @@ Toxic flow is that deferred cost wearing a flow-state disguise. Naming it is the
 [^19]: Meidinger, E. "Learning Claude Code, a wild 3 weeks, and the looming mental health crisis," SQLGene Training, January 5, 2026. Documents 17 repositories and 50,000-100,000 lines of code in three weeks, parasocial relationship formation, and mental health warnings. <https://www.sqlgene.com/2026/01/05/learning-claude-code-a-wild-3-weeks-and-the-looming-mental-health-crisis/>
 
 [^20]: "I almost went into a Psychotic Break using ClaudeCode," r/ClaudeCode, April 2026. Developer describes 4-day sleep-deprived loop escalating from algorithm debugging to attempting P vs NP, followed by acute psychological distress when the AI admitted it was producing nonsense. Comments include corroborating accounts of dopamine-loop zombie states and similar mathematical delusions. <https://www.reddit.com/r/ClaudeCode/comments/1shspeq/i_almost_went_into_a_psychotic_break_using/>
+
+[^21]: Kellogg, K.C., Valentine, M.A., and Christin, A. "AI Doesn't Reduce Work — It Intensifies It," *Harvard Business Review*, February 2026. Eight-month qualitative study of a 200-person U.S. tech firm with 40 in-depth interviews. Found AI intensified work across pace, scope, and temporality, dissolving natural stopping points. <https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it>
