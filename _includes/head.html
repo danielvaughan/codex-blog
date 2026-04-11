@@ -15,9 +15,6 @@
     <meta name="yandex-verification" content="{{ site.verification.yandex }}"/>
     {%- endif -%}
     {%- include head/og-image.html -%}
-    {%- if paginator and paginator.page and paginator.page > 1 -%}
-    <meta name="description" content="{{ site.description | escape }} — page {{ paginator.page }} of {{ paginator.total_pages }}">
-    {%- endif -%}
     {%- seo -%}
     {%- include head/structured-data.html -%}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">

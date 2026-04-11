@@ -23,21 +23,7 @@
       }
     }
 
-    // 2) Hide body h1 that duplicates the page title.
-    //    Many source articles begin with a markdown `# Title` line which
-    //    becomes a second h1 inside .post-body, identical to the chrome's
-    //    page title h1. We hide it to keep one logical h1 per page.
-    var pageTitle = document.querySelector('.post-title');
-    if (pageTitle) {
-      var pageTitleText = pageTitle.textContent.trim();
-      document.querySelectorAll('.post-body h1').forEach(function (h) {
-        if (h.textContent.trim() === pageTitleText) {
-          h.style.display = 'none';
-        }
-      });
-    }
-
-    // 3) Wrap tables in a scrollable container so they stay full-width
+    // 2) Wrap tables in a scrollable container so they stay full-width
     //    while still allowing horizontal scroll on narrow viewports.
     document.querySelectorAll('.post-body table').forEach(function (tbl) {
       var wrapper = document.createElement('div');
@@ -46,7 +32,7 @@
       wrapper.appendChild(tbl);
     });
 
-    // 4) Code blocks: inject language label + copy button.
+    // 3) Code blocks: inject language label + copy button.
     document.querySelectorAll('.post-body div.highlighter-rouge').forEach(function (block) {
       // Language label — extract from class e.g. "language-bash"
       var langMatch = block.className.match(/language-(\S+)/);
@@ -75,7 +61,7 @@
       block.appendChild(btn);
     });
 
-    // 5) Inline TOC builder — populates nav.post-toc from .post-body h2 elements.
+    // 4) Inline TOC builder — populates nav.post-toc from .post-body h2 elements.
     var nav = document.querySelector('nav.post-toc');
     if (!nav) return;
     var ul = nav.querySelector('ul');

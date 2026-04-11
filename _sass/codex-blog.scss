@@ -44,9 +44,11 @@
 }
 .post-title {
   font-family: $headings-font-family;
+  font-size: 2.25rem;
   font-weight: 700;
   color: $gray-800;
   letter-spacing: -0.015em;
+  line-height: 1.2;
   margin-bottom: 0.5rem;
 }
 // Responsive post title — smaller on phones so 4-word titles don't take 4 lines
