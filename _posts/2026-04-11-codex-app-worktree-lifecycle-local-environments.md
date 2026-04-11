@@ -1,6 +1,6 @@
 ---
 title: "Codex App Worktree Lifecycle: Local Environments, Setup Scripts, Handoff, and Automated Cleanup"
-date: 2026-04-11T09:00:00+01:00
+date: 2026-04-11T08:00:00+00:00
 tags:
   - worktrees
   - local-environments

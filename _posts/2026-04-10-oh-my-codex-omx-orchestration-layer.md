@@ -1,6 +1,6 @@
 ---
 title: "Oh-My-Codex (OMX): The Community Orchestration Layer That Turns Codex CLI into a Team Runtime"
-date: 2026-04-10T09:00:00+01:00
+date: 2026-04-10T08:00:00+00:00
 tags: ["oh-my-codex", "omx", "orchestration", "multi-agent", "team-runtime", "worktrees", "skills", "hooks", "persistent-state"]
 ---
 

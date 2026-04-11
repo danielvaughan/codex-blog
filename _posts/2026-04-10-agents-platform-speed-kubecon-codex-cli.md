@@ -1,6 +1,6 @@
 ---
 title: "Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI"
-date: 2026-04-10T07:00:00+01:00
+date: 2026-04-10T06:00:00+00:00
 tags:
   - platform-engineering
   - kubecon

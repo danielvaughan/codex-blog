@@ -1,6 +1,6 @@
 ---
 title: "Building a Codex Agent Swarm: From 6 Threads to 30 with External Orchestration"
-date: 2026-04-09T04:16:00+01:00
+date: 2026-04-09T03:16:00+00:00
 tags:
   - agent-swarm
   - scaling

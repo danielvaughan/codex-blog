@@ -1,6 +1,6 @@
 ---
 title: "cmux, ACPX, and OMX: The Three Layers of Multi-Agent UX"
-date: 2026-04-09T12:11:00+01:00
+date: 2026-04-09T11:11:00+00:00
 tags:
   - cmux
   - acpx

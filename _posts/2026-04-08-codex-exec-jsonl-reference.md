@@ -1,6 +1,6 @@
 ---
 title: "codex exec JSONL Reference: Every Event Type and the Complete Output Schema"
-date: 2026-04-08T09:00:00+01:00
+date: 2026-04-08T08:00:00+00:00
 tags:
   - reference
   - automation

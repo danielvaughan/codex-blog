@@ -1,6 +1,6 @@
 ---
 title: "Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI"
-date: 2026-04-08T09:00:00+01:00
+date: 2026-04-08T08:00:00+00:00
 tags:
   - gastown
   - steve-yegge

@@ -1,6 +1,6 @@
 ---
 title: "Migrating to Codex CLI from ChatGPT: From Chat to Agentic Workflows"
-date: 2026-04-08T09:00:00+01:00
+date: 2026-04-08T08:00:00+00:00
 tags:
   - migration
   - chatgpt

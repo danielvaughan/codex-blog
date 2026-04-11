@@ -1,6 +1,6 @@
 ---
 title: "Rod Johnson Is Back — and He's Bringing Agent AI to the JVM"
-date: 2026-04-09T20:30:00+01:00
+date: 2026-04-09T19:30:00+00:00
 classes: wide
 categories: articles
 toc: true

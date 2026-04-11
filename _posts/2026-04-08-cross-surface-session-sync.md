@@ -1,6 +1,6 @@
 ---
 title: "Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud"
-date: 2026-04-08T09:00:00+01:00
+date: 2026-04-08T08:00:00+00:00
 tags:
   - cloud
   - codex-cloud

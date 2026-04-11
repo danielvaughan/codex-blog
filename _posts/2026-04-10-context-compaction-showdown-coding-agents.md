@@ -1,6 +1,6 @@
 ---
 title: "Context Compaction Showdown: How Codex CLI, Claude Code, and 5 Other Agents Handle Full Context Windows"
-date: 2026-04-10T07:30:00+01:00
+date: 2026-04-10T06:30:00+00:00
 tags:
   - context-compaction
   - kv-cache

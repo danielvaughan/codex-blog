@@ -1,6 +1,6 @@
 ---
 title: "Multi-Agent v2 in Codex CLI: Path-Based Addressing, Structured Messaging, and the New Tool Surface"
-date: 2026-04-11T23:30:00+01:00
+date: 2026-04-11T22:30:00+00:00
 tags:
   - multi-agent
   - multi-agent-v2

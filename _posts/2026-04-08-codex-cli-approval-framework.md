@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Approval Framework: Permission Profiles, Approval IDs and Runtime Rules"
-date: 2026-04-08T09:00:00+01:00
+date: 2026-04-08T08:00:00+00:00
 tags:
   - security
   - approval-modes

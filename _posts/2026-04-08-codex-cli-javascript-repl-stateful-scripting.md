@@ -1,6 +1,6 @@
 ---
 title: "The Codex CLI JavaScript REPL: Stateful Scripting Inside Your Agent Session"
-date: 2026-04-08T09:00:00+01:00
+date: 2026-04-08T08:00:00+00:00
 tags:
   - workflow-patterns
   - automation

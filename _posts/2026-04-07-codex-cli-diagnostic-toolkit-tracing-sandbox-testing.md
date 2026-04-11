@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands"
-date: 2026-04-07T09:00:00+01:00
+date: 2026-04-07T08:00:00+00:00
 tags:
   - reference
   - observability

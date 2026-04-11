@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Elicitations in Codex CLI: Structured User Input, Auto-Approval, and Custom Server Patterns"
-date: 2026-04-10T08:15:00+01:00
+date: 2026-04-10T07:15:00+00:00
 tags:
   - mcp-elicitation
   - structured-input

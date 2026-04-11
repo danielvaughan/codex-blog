@@ -1,6 +1,6 @@
 ---
 title: "From Codex to GPT-5.4: The Complete History of OpenAI's Code Models"
-date: 2026-04-11T07:00:00+01:00
+date: 2026-04-11T06:00:00+00:00
 tags:
   - codex
   - history

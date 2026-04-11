@@ -1,6 +1,6 @@
 ---
 title: "The 2026 CLI Agent SaaS Readiness Matrix: 11 Tools Compared for Production Embedding"
-date: 2026-04-07T09:00:00+01:00
+date: 2026-04-07T08:00:00+00:00
 tags:
   - competitive-landscape
   - competitor-tools

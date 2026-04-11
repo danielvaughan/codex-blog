@@ -1,6 +1,6 @@
 ---
 title: "Profiles and Named Configuration: Running Multiple Codex Personas from One Machine"
-date: 2026-04-10T07:15:00+01:00
+date: 2026-04-10T06:15:00+00:00
 tags:
   - profiles
   - named-config

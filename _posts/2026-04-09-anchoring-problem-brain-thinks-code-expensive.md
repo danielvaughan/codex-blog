@@ -1,6 +1,6 @@
 ---
 title: "The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive"
-date: 2026-04-09T17:50:00+01:00
+date: 2026-04-09T16:50:00+00:00
 tags:
   - opinion
   - personal-essay

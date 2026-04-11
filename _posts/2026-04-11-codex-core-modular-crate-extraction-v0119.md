@@ -1,6 +1,6 @@
 ---
 title: "The codex-core Crate Extraction: How v0.119.0 Modularised the Rust Heart of Codex CLI"
-date: 2026-04-11T14:00:00+01:00
+date: 2026-04-11T13:00:00+00:00
 tags:
   - codex-rs
   - architecture

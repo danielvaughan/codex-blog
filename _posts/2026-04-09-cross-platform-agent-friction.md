@@ -1,6 +1,6 @@
 ---
 title: "Cross-Platform Agent Friction: The Five Pain Points Every CLI Tool Shares in April 2026"
-date: 2026-04-09T10:00:00+01:00
+date: 2026-04-09T09:00:00+00:00
 tags:
   - cross-platform
   - friction-points

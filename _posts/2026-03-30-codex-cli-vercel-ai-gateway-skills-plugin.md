@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI and Vercel: AI Gateway, Skills and the Vercel Plugin Ecosystem"
-date: 2026-03-30T09:00:00+01:00
+date: 2026-03-30T08:00:00+00:00
 tags:
   - ecosystem
   - third-party

@@ -1,6 +1,6 @@
 ---
 title: "Loki Mode: 41-Agent Autonomous Execution and What Codex CLI Can Learn From It"
-date: 2026-04-09T13:11:00+01:00
+date: 2026-04-09T12:11:00+00:00
 tags:
   - loki-mode
   - autonomous-execution

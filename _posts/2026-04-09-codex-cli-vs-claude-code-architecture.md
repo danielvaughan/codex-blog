@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI and Claude Code Compared: April 2026 Architecture Deep Dive"
-date: 2026-04-09T03:00:00+01:00
+date: 2026-04-09T02:00:00+00:00
 tags:
   - claude-code-vs-codex
   - architecture-comparison

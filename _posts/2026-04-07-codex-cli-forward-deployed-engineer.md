@@ -1,6 +1,6 @@
 ---
 title: "How to Be a Codex CLI Forward Deployed Engineer"
-date: 2026-04-07T09:00:00+01:00
+date: 2026-04-07T08:00:00+00:00
 tags:
   - workflow-patterns
   - team-workflow

@@ -1,6 +1,6 @@
 ---
 title: "Running Gemma 4 as a Local Model in the Codex CLI Harness: A Complete Setup Guide"
-date: 2026-04-10T07:00:00+01:00
+date: 2026-04-10T06:00:00+00:00
 tags:
   - local-models
   - gemma-4

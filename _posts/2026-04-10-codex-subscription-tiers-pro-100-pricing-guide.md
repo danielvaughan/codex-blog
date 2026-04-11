@@ -1,6 +1,6 @@
 ---
 title: "The New Codex Subscription Landscape: Free, Go, Plus, Pro and Enterprise Compared"
-date: 2026-04-10T09:00:00+01:00
+date: 2026-04-10T08:00:00+00:00
 tags: ["pricing", "subscription-tiers", "pro-plan", "codex-spark", "enterprise", "cost-management", "claude-max", "competitive-analysis"]
 ---
 

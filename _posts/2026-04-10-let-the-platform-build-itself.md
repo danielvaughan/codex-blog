@@ -1,6 +1,6 @@
 ---
 title: "Let the Platform Build Itself: AI-Constructed Developer Platforms and Codex CLI"
-date: 2026-04-10T08:00:00+01:00
+date: 2026-04-10T07:00:00+00:00
 tags:
   - platform-engineering
   - self-assembly

@@ -1,6 +1,6 @@
 ---
 title: "IBM Bob vs Codex CLI: Enterprise Agentic Coding Agents Compared"
-date: 2026-04-10T15:00:00+01:00
+date: 2026-04-10T14:00:00+00:00
 tags:
   - ibm-bob
   - enterprise

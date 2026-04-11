@@ -1,6 +1,6 @@
 ---
 title: "OpenCode vs Codex CLI: The Open-Source Challenger With 75+ Model Providers"
-date: 2026-04-09T06:11:00+01:00
+date: 2026-04-09T05:11:00+00:00
 tags:
   - opencode
   - codex-cli

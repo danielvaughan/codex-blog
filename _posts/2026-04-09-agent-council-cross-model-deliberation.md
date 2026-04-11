@@ -1,6 +1,6 @@
 ---
 title: "Agent Council: Cross-Model Deliberation for Architecture Decisions"
-date: 2026-04-09T10:14:00+01:00
+date: 2026-04-09T09:14:00+00:00
 tags:
   - agent-council
   - cross-model

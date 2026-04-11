@@ -1,6 +1,6 @@
 ---
 title: "Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding"
-date: 2026-04-09T15:50:00+01:00
+date: 2026-04-09T14:50:00+00:00
 classes: wide
 categories: articles
 toc: true

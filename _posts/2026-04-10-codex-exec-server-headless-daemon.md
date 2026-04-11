@@ -1,6 +1,6 @@
 ---
 title: "The codex exec-server Subcommand: Foundation for Headless and Daemon-Mode Codex"
-date: 2026-04-10T09:00:00+01:00
+date: 2026-04-10T08:00:00+00:00
 tags: ["exec-server", "headless", "daemon", "ci-cd", "remote-execution", "experimental", "codex-rs", "architecture"]
 ---
 

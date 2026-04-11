@@ -1,6 +1,6 @@
 ---
 title: "Claude Code's query-engine.ts vs Codex CLI's codex-rs: Comparing Agent Loop Architectures"
-date: 2026-04-09T16:00:00+01:00
+date: 2026-04-09T15:00:00+00:00
 tags:
   - architecture
   - agent-loop

@@ -1,6 +1,6 @@
 ---
 title: "Installing Codex CLI: Package Managers, Shell Completions and First-Run Setup"
-date: 2026-04-08T09:00:00+01:00
+date: 2026-04-08T08:00:00+00:00
 tags:
   - getting-started
   - config-toml

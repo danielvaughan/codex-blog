@@ -1,6 +1,6 @@
 ---
 title: "Test-Driven Development with Codex CLI: The Red-Green-Refactor Loop, AGENTS.md Test Gates, and Hook-Based Verification"
-date: 2026-04-10T18:00:00+01:00
+date: 2026-04-10T17:00:00+00:00
 tags:
   - tdd
   - test-driven-development

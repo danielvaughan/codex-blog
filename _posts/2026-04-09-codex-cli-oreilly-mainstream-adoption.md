@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Enters the O'Reilly Curriculum: What Ken Kousen's 5-Hour Course Tells Us About Mainstream Adoption"
-date: 2026-04-09T11:12:00+01:00
+date: 2026-04-09T10:12:00+00:00
 tags:
   - oreilly
   - ken-kousen

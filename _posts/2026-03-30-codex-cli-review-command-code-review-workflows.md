@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension"
-date: 2026-03-30T09:00:00+01:00
+date: 2026-03-30T08:00:00+00:00
 tags:
   - workflow-patterns
   - code-review

@@ -1,6 +1,6 @@
 ---
 title: "Skill Creator V2 and Codex CLI: Scientific Skill Improvement Without the Token Bill"
-date: 2026-04-09T08:13:00+01:00
+date: 2026-04-09T07:13:00+00:00
 tags:
   - skill-creator-v2
   - skills-sh

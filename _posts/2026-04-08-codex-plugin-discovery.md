@@ -1,6 +1,6 @@
 ---
 title: "Codex Plugin Discovery: @Mentions, the In-TUI Browser and Marketplace Navigation"
-date: 2026-04-08T09:00:00+01:00
+date: 2026-04-08T08:00:00+00:00
 tags:
   - ecosystem
   - plugins

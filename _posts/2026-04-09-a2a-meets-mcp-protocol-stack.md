@@ -1,6 +1,6 @@
 ---
 title: "A2A Meets MCP: The Multi-Agent Protocol Stack and What It Means for Codex"
-date: 2026-04-09T03:13:00+01:00
+date: 2026-04-09T02:13:00+00:00
 tags:
   - a2a
   - mcp

@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD"
-date: 2026-04-01T09:00:00+01:00
+date: 2026-04-01T08:00:00+00:00
 tags:
   - language-guide
   - kubernetes

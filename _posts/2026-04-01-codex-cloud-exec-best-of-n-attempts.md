@@ -1,6 +1,6 @@
 ---
 title: "Codex Cloud Exec Best-of-N: Running Multiple Solution Attempts and Picking the Winner"
-date: 2026-04-01T09:00:00+01:00
+date: 2026-04-01T08:00:00+00:00
 tags:
   - cloud
   - codex-cloud

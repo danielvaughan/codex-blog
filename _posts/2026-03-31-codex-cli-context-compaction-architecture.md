@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions"
-date: 2026-03-31T09:00:00+01:00
+date: 2026-03-31T08:00:00+00:00
 tags:
   - architecture
   - context-management

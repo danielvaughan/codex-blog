@@ -1,6 +1,6 @@
 ---
 title: "Codex Pay-As-You-Go Pricing: Modelling Costs for Multi-Agent Workflows"
-date: 2026-04-09T14:12:00+01:00
+date: 2026-04-09T13:12:00+00:00
 tags:
   - pricing
   - pay-as-you-go

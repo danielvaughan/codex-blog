@@ -1,6 +1,6 @@
 ---
 title: "The AI Complexity Ratchet: Why Agentic Automation Drifts Into the Pit at 200 mph"
-date: 2026-04-09T09:19:00+01:00
+date: 2026-04-09T08:19:00+00:00
 tags:
   - complexity-ratchet
   - simplicity

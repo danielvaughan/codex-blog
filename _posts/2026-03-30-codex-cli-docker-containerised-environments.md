@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal"
-date: 2026-03-30T09:00:00+01:00
+date: 2026-03-30T08:00:00+00:00
 tags:
   - configuration
   - docker

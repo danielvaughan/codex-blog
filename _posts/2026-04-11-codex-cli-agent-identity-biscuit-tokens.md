@@ -1,6 +1,6 @@
 ---
 title: "Agent Identity in Codex CLI: The use_agent_identity Feature Flag, Biscuit Tokens, and Verified Multi-Agent Trust"
-date: 2026-04-11T23:00:00+01:00
+date: 2026-04-11T22:00:00+00:00
 tags:
   - agent-identity
   - biscuit-tokens

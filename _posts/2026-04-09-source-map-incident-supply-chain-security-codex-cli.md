@@ -1,6 +1,6 @@
 ---
 title: "The Source Map Incident: Lessons in Supply Chain Security for Codex CLI Plugin Authors"
-date: 2026-04-09T12:00:00+01:00
+date: 2026-04-09T11:00:00+00:00
 tags:
   - supply-chain-security
   - source-map

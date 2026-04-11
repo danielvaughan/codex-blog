@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Agent Notifications: Desktop Alerts, Audio Chimes, and Multi-Agent Monitoring"
-date: 2026-04-10T14:00:00+01:00
+date: 2026-04-10T13:00:00+00:00
 tags:
   - notifications
   - notify-hook

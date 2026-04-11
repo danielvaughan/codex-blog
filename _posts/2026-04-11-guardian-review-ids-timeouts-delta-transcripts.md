@@ -1,6 +1,6 @@
 ---
 title: "Guardian Review IDs, Timeouts and Delta Transcripts: Enterprise Audit-Ready Governance"
-date: 2026-04-11T23:30:00+01:00
+date: 2026-04-11T22:30:00+00:00
 tags:
   - guardian
   - review-ids
