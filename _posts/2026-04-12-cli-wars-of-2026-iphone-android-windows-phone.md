@@ -27,7 +27,7 @@ The comparison is not perfect — no analogy ever is. But the structural dynamic
 
 ## Claude Code: The iPhone Effect
 
-The numbers are hard to argue with. Claude Code has 1.6 million weekly active users and is growing fast[^2]. Anthropic's revenue from Claude Code alone has hit $2.5 billion ARR, doubling since the start of 2026[^3]. In the JetBrains developer survey of 10,000+ developers, Claude Code reached 18% work adoption — a 6x increase from 3% just nine months earlier[^4]. The Pragmatic Engineer survey of 15,000 developers found that 46% named Claude Code their "most loved" AI coding tool, more than Cursor and GitHub Copilot combined[^5].
+The numbers are hard to argue with. Claude Code has over 2 million weekly active users and is growing fast[^2]. Anthropic's revenue from Claude Code alone has hit $2.5 billion ARR, doubling since the start of 2026[^3]. In the JetBrains developer survey of 10,000+ developers, Claude Code reached 18% work adoption — a 6x increase from 3% just nine months earlier[^4]. The Pragmatic Engineer survey of 15,000 developers found that 46% named Claude Code their "most loved" AI coding tool, more than Cursor and GitHub Copilot combined[^5].
 
 But the number that matters most is retention: **41% of Claude Code users return at least three times per week**[^6]. That is not a tool people try and abandon. That is a tool people build habits around.
 
@@ -35,13 +35,13 @@ The iPhone parallel runs deeper than popularity. What made the iPhone win was no
 
 Claude Code operates the same way. The `CLAUDE.md` file is not just a configuration format — it is a habit. Once you have spent weeks encoding your team's conventions, review standards, and architectural decisions into that file, moving to another tool means rewriting institutional knowledge. The `/compact` command, the permission model, the way Claude Code handles multi-file refactors with architectural awareness rather than file-by-file edits — none of these features are impossible to replicate. But together, they create an experience where the tool disappears and the work remains. That is what "it just works" actually means, and it is why Claude Code users report an NPS of 54 and a CSAT of 91% — the highest of any AI coding tool measured[^6].
 
-The March 2026 source code leak is the most telling data point of all. When Claude Code's 512,000-line TypeScript codebase was exposed, the community reaction was not alarm — it was admiration. Developers picked through the architecture and came away more impressed, not less[^7]. That is iPhone-grade brand equity: a scandal that reinforces the premium perception.
+The March 2026 source code leak is a revealing data point. When Claude Code's 512,000-line TypeScript codebase was accidentally exposed through an unminified npm package, the community reaction was mixed but telling[^7]. Some developers were genuinely impressed by the engineering. Others criticised specific choices — regexes for sentiment analysis, an "Undercover Mode" that hid Anthropic employee contributions to open source projects. Anthropic filed DMCA takedowns against mirrors, reinforcing that this is proprietary code despite being publicly viewable. But the net effect on developer sentiment was closer to a boost than a crisis. When your competitors leak your source and your reputation improves, you have iPhone-grade brand equity.
 
 ## Codex CLI: The Android Advantage (and the Android Problem)
 
-Codex CLI has 3 million weekly users as of April 8, 2026 — nearly double Claude Code's count[^8]. It is open source (Apache 2.0, written in Rust), has 67,000 GitHub stars, and ships features at a pace that would exhaust most engineering teams[^9]. Version 0.120.0 landed on April 11 with background agent streaming, MCP output schema support, and hook activity display. Version 0.119.0 the day before brought WebRTC voice, MCP apps, and a 60+ crate workspace extraction.
+Codex CLI has 3 million weekly users as of April 8, 2026 — roughly 50% more than Claude Code's count[^8]. It is open source (Apache 2.0, written in Rust), has 75,000 GitHub stars, and ships features at a pace that would exhaust most engineering teams[^9]. Both Codex CLI and Gemini CLI are genuinely open source under Apache 2.0. Claude Code, by contrast, is proprietary — the source is visible on GitHub, but the license reserves all rights to Anthropic[^17]. This matters for the analogy: Android's openness was a strategic weapon, and Codex's is too. Version 0.120.0 landed on April 11 with background agent streaming, MCP output schema support, and hook activity display. Version 0.119.0 the day before brought WebRTC voice, MCP apps, and a 60+ crate workspace extraction.
 
-On raw speed, Codex wins decisively. GPT-5.3 Codex achieves 240+ tokens per second — roughly 2.5 times faster than Opus models[^10]. On Terminal-Bench 2.0, which measures speed-oriented terminal tasks, Codex CLI scores 77.3% against Claude Code's 65.4%[^10]. The sandboxed execution model is genuinely superior for security-conscious workflows. The pricing — free and open source, with API costs starting at $0.75 per million input tokens on GPT-5.4-mini — makes Claude Code's $20/month Max plan look expensive.
+On raw speed, Codex has a meaningful edge. GPT-5.3 Codex runs at 65–70 tokens per second in standard mode — faster than Opus models, though not the order-of-magnitude gap some benchmarks suggest. The real speed story is GPT-5.3-Codex-Spark on Cerebras hardware, which hits 1,000+ tokens per second[^10]. On Terminal-Bench 2.0, which measures speed-oriented terminal tasks, Codex CLI scores 77.3% against Claude Code's 65.4%[^10]. The sandboxed execution model is genuinely superior for security-conscious workflows. The pricing — free and open source, with API costs starting at $0.75 per million input tokens on GPT-5.4-mini — makes Claude Code's $20/month Max plan look expensive.
 
 This is the Android advantage. More users, better specs in specific areas, lower cost, total customisability. And yet.
 
@@ -77,7 +77,7 @@ The smartphone wars taught the industry a lesson that the CLI wars are re-teachi
 
 When a benchmark showed the Harness Performance Terminal-Bench results for Claude Code, ForgeCode, and Terminus-KIRA all running the identical Opus 4.5 model, they scored 17 problems apart on 731 total issues[^16]. Same model, different harness, different results. The agent architecture — the UX layer — accounts for more variance than the underlying model.
 
-This is why Claude Code's 41% weekly retention dwarfs the competition despite costing more and running slower. It is why Codex CLI's 3 million users convert to only 3% work adoption while Claude Code's 1.6 million convert to 18%. The feature that matters most is not on any spec sheet: it is whether the tool earns enough trust that you stop thinking about the tool and start thinking about your code.
+This is why Claude Code's 41% weekly retention dwarfs the competition despite costing more and running slower. It is why Codex CLI's 3 million users convert to only 3% work adoption while Claude Code's 2 million convert to 18%. The feature that matters most is not on any spec sheet: it is whether the tool earns enough trust that you stop thinking about the tool and start thinking about your code.
 
 Apple understood this in 2007. Anthropic understands it in 2026.
 
@@ -109,7 +109,7 @@ Build for the tool that earns your trust. The specs will converge. The habits wi
 
 [^1]: Asymco, "Apple captures 66% of smartphone industry profits," 2010-2015 analysis. Statista global smartphone market share data, 2010-2025.
 
-[^2]: Gradually.ai, "Claude Code Statistics 2026," April 2026. Reports 1.6M weekly active users and 11.3M daily active users.
+[^2]: Gradually.ai, "Claude Code Statistics 2026," April 2026. Reports 2M+ weekly active users (up from 1.6M earlier in 2026) and 11.3M daily active users.
 
 [^3]: The AI Corner, "Anthropic Passed OpenAI in Revenue: $30B ARR," April 2026. SaaStr, "Anthropic Just Hit $14 Billion in ARR," March 2026. Yahoo Finance, "Anthropic ARR surges to $19 billion on Claude Code strength."
 
@@ -119,13 +119,13 @@ Build for the tool that earns your trust. The specs will converge. The habits wi
 
 [^6]: DEV Community, "Claude Code vs Codex 2026: What 500+ Reddit Developers Really Think." Neuriflux, "Claude Code Review 2026." NPS 54, CSAT 91%, 41% weekly retention.
 
-[^7]: Claude Code open-source architecture analysis. The 512K-line TypeScript codebase was exposed in March 2026; community reaction was predominantly positive.
+[^7]: DEV Community, "The Great Claude Code Leak of 2026," March 2026. CNBC, "Anthropic leak: Claude Code internal source," March 31, 2026. Community reaction was mixed: architecture impressed many, but "Undercover Mode" and DMCA takedowns drew criticism. Net sentiment was positive.
 
 [^8]: BusinessToday, "OpenAI Codex celebrates 3 million weekly users, CEO Sam Altman resets usage limits," April 8, 2026. Fortune, "OpenAI sees Codex users spike to 1.6 million," March 2026.
 
-[^9]: GitHub, openai/codex repository. 67K stars, 9K forks, 400 contributors, Apache 2.0 license.
+[^9]: GitHub, openai/codex repository. 74.7K stars, 10.6K forks, 421 contributors, Apache 2.0 license (as of April 12, 2026).
 
-[^10]: Morphllm, "We Tested 15 AI Coding Agents (2026)." Terminal-Bench 2.0 scores: Codex CLI 77.3%, Claude Code 65.4%. Token speed: 240+ tok/sec for GPT-5.3 vs ~100 tok/sec for Opus.
+[^10]: Morphllm, "We Tested 15 AI Coding Agents (2026)." Terminal-Bench 2.0 scores: Codex CLI 77.3%, Claude Code 65.4%. Token speed: GPT-5.3 Codex 65-70 tok/sec standard, GPT-5.3-Codex-Spark 1,000+ tok/sec on Cerebras. Adam Holter, "GPT-5.3-Codex-Spark: 1000 Tokens Per Second."
 
 [^11]: DEV Community, "Claude Code vs Codex 2026 — What 500+ Reddit Developers Really Think." 65.3% preference for Codex unweighted, 79.9% weighted by upvotes.
 
@@ -138,3 +138,5 @@ Build for the tool that earns your trust. The specs will converge. The habits wi
 [^15]: HackerNoon, "Google's Gemini CLI Has a Reliability Problem Developers Can't Ignore," April 2026. DataCamp, "Gemini CLI vs Claude Code (2026)."
 
 [^16]: Codex Resources, "Harness Performance Terminal-Bench: Same Model, Different Harness, Different Results," April 2026. 17-problem spread across three harnesses running identical Opus 4.5.
+
+[^17]: GitHub, anthropics/claude-code LICENSE.md: "All rights reserved. Use is subject to Anthropic's Commercial Terms of Service." GitHub, google-gemini/gemini-cli: Apache 2.0 license (code open, backend services proprietary per ToS). CodeNote, "Gemini CLI: Apache License vs ToS Gap," April 2026.
