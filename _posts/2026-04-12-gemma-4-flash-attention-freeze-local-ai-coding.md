@@ -1,6 +1,6 @@
 ---
 title: "Gemma 4's Flash Attention Freeze: What It Means for Local AI Coding"
-date: 2026-04-12T14:00:00+00:00
+date: 2026-04-12T09:00:00+00:00
 tags:
   - gemma-4
   - local-models

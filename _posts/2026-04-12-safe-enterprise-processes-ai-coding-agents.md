@@ -1,6 +1,6 @@
 ---
 title: "SAFe Was Bad for Agility. For AI Coding Agents, It's Worse."
-date: 2026-04-12T15:00:00+00:00
+date: 2026-04-12T10:00:00+00:00
 tags:
   - codex-cli
   - enterprise
