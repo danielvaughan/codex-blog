@@ -12,6 +12,8 @@ tags:
   - developer-experience
 ---
 
+![Sketchnote diagram for: Codex CLI Hooks Deep Dive: SessionStart, Stop and UserPromptSubmit](/sketchnotes/articles/2026-03-26-codex-cli-hooks-deep-dive.png)
+
 # Codex CLI Hooks Deep Dive: SessionStart, Stop and UserPromptSubmit
 
 
