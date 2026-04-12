@@ -5,6 +5,8 @@ nav_order: 251
 tags: ["biscuit-tokens` `agent-identity` `authentication` `enterprise` `trust-chain` `delegation` `datalog` `mcp"]
 ---
 
+![Sketchnote diagram for: Biscuit Tokens for Agent Identity: From PR to Production](/sketchnotes/articles/2026-04-11-biscuit-tokens-agent-identity.png)
+
 # Biscuit Tokens for Agent Identity: From PR to Production
 
 

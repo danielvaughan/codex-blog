@@ -5,6 +5,8 @@ nav_order: 255
 tags: ["plugins` `plugin-json` `marketplace` `enterprise` `skills` `mcp` `governance` `distribution"]
 ---
 
+![Sketchnote diagram for: Building Codex CLI Plugins: Architecture, Manifests, and Enterprise Distribution](/sketchnotes/articles/2026-04-12-building-codex-plugins-architecture-manifests-distribution.png)
+
 # Building Codex CLI Plugins: Architecture, Manifests, and Enterprise Distribution
 
 

@@ -11,6 +11,8 @@ tags:
   - cost-management
 ---
 
+![Sketchnote diagram for: Evaluating Codex CLI Agents with Promptfoo: Trajectory Assertions, Cost Guards, and Structured Grading](/sketchnotes/articles/2026-04-11-evaluating-codex-agents-promptfoo-trajectory-assertions.png)
+
 # Evaluating Codex CLI Agents with Promptfoo: Trajectory Assertions, Cost Guards, and Structured Grading
 
 

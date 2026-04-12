@@ -5,6 +5,8 @@ nav_order: 261
 tags: ["best-practices", "workflow-maturity", "AGENTS.md", "skills", "automation", "configuration", "prompting", "official-guidance"]
 ---
 
+![Sketchnote diagram for: The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model](/sketchnotes/articles/2026-04-12-codex-cli-best-practices-workflow-maturity-model.png)
+
 # The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model
 
 

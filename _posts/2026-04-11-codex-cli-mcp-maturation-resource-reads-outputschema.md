@@ -14,6 +14,8 @@ tags:
   - tool-surface
 ---
 
+![Sketchnote diagram for: MCP Maturation in Codex CLI: Resource Reads, OutputSchema, Elicitations, and the Full Tool Surface](/sketchnotes/articles/2026-04-11-codex-cli-mcp-maturation-resource-reads-outputschema.png)
+
 # MCP Maturation in Codex CLI: Resource Reads, OutputSchema, Elicitations, and the Full Tool Surface
 
 

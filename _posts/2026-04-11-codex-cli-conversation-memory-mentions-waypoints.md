@@ -5,6 +5,8 @@ categories: [deep-dive]
 tags: [memory, remote-execution, enterprise, multi-agent]
 ---
 
+![Sketchnote diagram for: Codex CLI's Memory and Reach: #Mentions for Cross-Session Context and Waypoints for Multi-Host Execution](/sketchnotes/articles/2026-04-11-codex-cli-conversation-memory-mentions-waypoints.png)
+
 Two draft PRs opened on April 11, 2026 reveal where Codex CLI is heading: **deeper memory** and **wider reach**.
 
 ## Prior-Conversation #Mentions (PR #17358)

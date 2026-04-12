@@ -5,6 +5,8 @@ nav_order: 256
 tags: ["governance", "analytics-api", "compliance-api", "audit-trail", "enterprise", "privacy", "telemetry", "managed-configuration", "observability"]
 ---
 
+![Sketchnote diagram for: Codex CLI Governance APIs: Analytics Dashboard, Compliance Exports, and the Enterprise Audit Pipeline](/sketchnotes/articles/2026-04-12-codex-cli-governance-apis-analytics-compliance-audit.png)
+
 # Codex CLI Governance APIs: Analytics Dashboard, Compliance Exports, and the Enterprise Audit Pipeline
 
 

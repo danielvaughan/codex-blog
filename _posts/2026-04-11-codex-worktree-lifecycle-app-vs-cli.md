@@ -5,6 +5,8 @@ nav_order: 253
 tags: ["worktree", "codex-app", "lifecycle", "cleanup", "workspace", "parallel-agents"]
 ---
 
+![Sketchnote diagram for: Codex CLI Worktree Lifecycle: App vs CLI Worktree Management](/sketchnotes/articles/2026-04-11-codex-worktree-lifecycle-app-vs-cli.png)
+
 # Codex CLI Worktree Lifecycle: App vs CLI Worktree Management
 
 

@@ -5,6 +5,8 @@ nav_order: 259
 tags: ["remote-development", "app-server", "websocket", "exec-server", "json-rpc", "ssh", "dev-containers", "enterprise"]
 ---
 
+![Sketchnote diagram for: Remote Development with Codex CLI: App-Server WebSocket Transport, the --remote Flag, and Persistent Agent Sessions](/sketchnotes/articles/2026-04-12-codex-cli-remote-development-app-server-websocket.png)
+
 # Remote Development with Codex CLI: App-Server WebSocket Transport, the --remote Flag, and Persistent Agent Sessions
 
 

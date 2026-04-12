@@ -11,6 +11,8 @@ tags:
   - breaking-change
 ---
 
+![Sketchnote diagram for: Axios Supply Chain Attack Reaches OpenAI macOS Signing Pipeline — What Codex CLI Users Need to Know](/sketchnotes/articles/2026-04-12-axios-supply-chain-openai-macos-signing-pipeline.png)
+
 # Axios Supply Chain Attack Reaches OpenAI macOS Signing Pipeline
 
 

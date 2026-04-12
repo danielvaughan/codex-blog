@@ -12,6 +12,8 @@ tags:
   - codex-cli
 ---
 
+![Sketchnote diagram for: Codex CLI Session Lifecycle: Resume, Fork, Rollout Persistence, and the JSONL Event Architecture](/sketchnotes/articles/2026-04-11-codex-cli-session-lifecycle-resume-fork-rollouts.png)
+
 # Codex CLI Session Lifecycle: Resume, Fork, Rollout Persistence, and the JSONL Event Architecture
 
 

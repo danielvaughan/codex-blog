@@ -5,6 +5,8 @@ nav_order: 258
 tags: ["nx", "monorepo", "agent-skills", "project-graph", "mcp", "self-healing-ci", "nx-cloud", "generators", "ci-cd"]
 ---
 
+![Sketchnote diagram for: Codex CLI and Nx: Agent Skills, Project Graph Awareness, and Self-Healing CI for Monorepos](/sketchnotes/articles/2026-04-12-codex-cli-nx-monorepo-agent-skills.png)
+
 # Codex CLI and Nx: Agent Skills, Project Graph Awareness, and Self-Healing CI for Monorepos
 
 

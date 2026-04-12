@@ -5,6 +5,8 @@ nav_order: 252
 tags: ["v0.120` `release-notes` `background-agent` `hooks` `mcp-outputschema` `guardian` `tui` `realtime-v2"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.120 Release Deep Dive](/sketchnotes/articles/2026-04-11-codex-cli-v0120-release-deep-dive.png)
+
 # Codex CLI v0.120 Release Deep Dive
 
 

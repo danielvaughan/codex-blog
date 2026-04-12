@@ -5,6 +5,8 @@ nav_order: 260
 tags: ["database-migrations", "atlas", "mcp", "drizzle", "prisma", "neon", "schema-management", "agent-skills", "postgres"]
 ---
 
+![Sketchnote diagram for: Codex CLI and Database Migrations: Atlas Skills, MCP Servers, and Schema-Driven Workflows](/sketchnotes/articles/2026-04-12-codex-cli-database-migrations-atlas-mcp-workflows.png)
+
 # Codex CLI and Database Migrations: Atlas Skills, MCP Servers, and Schema-Driven Workflows
 
 

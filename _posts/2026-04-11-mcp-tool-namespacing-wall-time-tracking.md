@@ -5,6 +5,8 @@ nav_order: 254
 tags: ["mcp", "namespacing", "wall-time", "performance", "tool-collision", "codex-cli"]
 ---
 
+![Sketchnote diagram for: MCP Tool Namespacing and Wall Time Tracking in Codex CLI](/sketchnotes/articles/2026-04-11-mcp-tool-namespacing-wall-time-tracking.png)
+
 # MCP Tool Namespacing and Wall Time Tracking in Codex CLI
 
 

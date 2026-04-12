@@ -5,6 +5,8 @@ nav_order: 255
 tags: ["agentmaxxing", "parallel-agents", "orchestration", "worktrees", "parallel-code", "mozzie", "worktrunk", "multi-cli", "codex-cli"]
 ---
 
+![Sketchnote diagram for: Agentmaxxing: Parallel Multi-CLI Orchestration with Codex CLI, Claude Code and Gemini CLI](/sketchnotes/articles/2026-04-11-agentmaxxing-parallel-multi-cli-orchestration.png)
+
 # Agentmaxxing: Parallel Multi-CLI Orchestration with Codex CLI, Claude Code and Gemini CLI
 
 

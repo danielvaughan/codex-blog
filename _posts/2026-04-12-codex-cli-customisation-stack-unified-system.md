@@ -5,6 +5,8 @@ nav_order: 257
 tags: ["customisation", "agents-md", "skills", "mcp", "subagents", "plugins", "architecture", "config-toml", "project-setup"]
 ---
 
+![Sketchnote diagram for: The Codex CLI Customisation Stack: How AGENTS.md, Skills, MCP, Subagents, and Plugins Compose Into One System](/sketchnotes/articles/2026-04-12-codex-cli-customisation-stack-unified-system.png)
+
 # The Codex CLI Customisation Stack: How AGENTS.md, Skills, MCP, Subagents, and Plugins Compose Into One System
 
 
