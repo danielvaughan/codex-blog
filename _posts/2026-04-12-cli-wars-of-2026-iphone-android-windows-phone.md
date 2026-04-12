@@ -1,4 +1,4 @@
-# The CLI Wars of 2026: iPhone, Android, and Windows Phone All Over Again
+# Three Terminals, Three Fates
 
 **Source:** Original analysis
 **Author:** Daniel Vaughan
@@ -39,13 +39,13 @@ The March 2026 source code leak is a revealing data point. When Claude Code's 51
 
 ## Codex CLI: The Android Advantage (and the Android Problem)
 
-Codex CLI has 3 million weekly users as of April 8, 2026 — roughly 50% more than Claude Code's count[^8]. It is open source (Apache 2.0, written in Rust), has 75,000 GitHub stars, and ships features at a pace that would exhaust most engineering teams[^9]. Both Codex CLI and Gemini CLI are genuinely open source under Apache 2.0. Claude Code, by contrast, is proprietary — the source is visible on GitHub, but the license reserves all rights to Anthropic[^17]. This matters for the analogy: Android's openness was a strategic weapon, and Codex's is too. Version 0.120.0 landed on April 11 with background agent streaming, MCP output schema support, and hook activity display. Version 0.119.0 the day before brought WebRTC voice, MCP apps, and a 60+ crate workspace extraction.
+The broader Codex platform — CLI, IDE extension, and cloud — has 3 million weekly users as of April 8, 2026[^8]. That number is not directly comparable to Claude Code's 2 million+ weekly CLI users because it aggregates across multiple surfaces, but it signals strong overall traction for OpenAI's coding tools. Codex CLI itself is open source (Apache 2.0, written in Rust), has 75,000 GitHub stars, and ships features at a pace that would exhaust most engineering teams[^9]. Both Codex CLI and Gemini CLI are genuinely open source under Apache 2.0. Claude Code, by contrast, is proprietary — the source is visible on GitHub, but the license reserves all rights to Anthropic[^17]. This matters for the analogy: Android's openness was a strategic weapon, and Codex's is too. Version 0.120.0 landed on April 11 with background agent streaming, MCP output schema support, and hook activity display. Version 0.119.0 the day before brought WebRTC voice, MCP apps, and a 60+ crate workspace extraction.
 
 On raw speed, Codex has a meaningful edge. GPT-5.3 Codex runs at 65–70 tokens per second in standard mode — faster than Opus models, though not the order-of-magnitude gap some benchmarks suggest. The real speed story is GPT-5.3-Codex-Spark on Cerebras hardware, which hits 1,000+ tokens per second[^10]. On Terminal-Bench 2.0, which measures speed-oriented terminal tasks, Codex CLI scores 77.3% against Claude Code's 65.4%[^10]. The sandboxed execution model is genuinely superior for security-conscious workflows. The pricing — free and open source, with API costs starting at $0.75 per million input tokens on GPT-5.4-mini — makes Claude Code's $20/month Max plan look expensive.
 
-This is the Android advantage. More users, better specs in specific areas, lower cost, total customisability. And yet.
+This is the Android advantage. Better specs in specific areas, lower cost, total customisability. And yet.
 
-In the JetBrains survey, Codex CLI shows only **3% work adoption** — one-sixth of Claude Code's 18%[^4]. Despite having nearly twice the user count, Codex has one-sixth the adoption rate at work. The gap between "people who have tried it" and "people who use it for real work" is the Android problem in a single statistic.
+In the JetBrains survey, Codex CLI shows only **3% work adoption** — one-sixth of Claude Code's 18%[^4]. Even accounting for the fact that the 3 million figure spans Codex's full product surface, the gap between "people who have tried it" and "people who use it for real work" is the Android problem in a single statistic.
 
 The r/codex subreddit has 262,000 weekly visitors and 1,200 weekly contributors. The r/ClaudeCode subreddit has 4,200 weekly contributors — 3.5 times more active participation despite a smaller user base[^6]. This mirrors the Android dynamic precisely: more total users, less engaged per user.
 
@@ -77,7 +77,7 @@ The smartphone wars taught the industry a lesson that the CLI wars are re-teachi
 
 When a benchmark showed the Harness Performance Terminal-Bench results for Claude Code, ForgeCode, and Terminus-KIRA all running the identical Opus 4.5 model, they scored 17 problems apart on 731 total issues[^16]. Same model, different harness, different results. The agent architecture — the UX layer — accounts for more variance than the underlying model.
 
-This is why Claude Code's 41% weekly retention dwarfs the competition despite costing more and running slower. It is why Codex CLI's 3 million users convert to only 3% work adoption while Claude Code's 2 million convert to 18%. The feature that matters most is not on any spec sheet: it is whether the tool earns enough trust that you stop thinking about the tool and start thinking about your code.
+This is why Claude Code's 41% weekly retention dwarfs the competition despite costing more and running slower. It is why Codex's 3 million users across all surfaces convert to only 3% CLI work adoption while Claude Code's 2 million CLI users convert to 18%. The feature that matters most is not on any spec sheet: it is whether the tool earns enough trust that you stop thinking about the tool and start thinking about your code.
 
 Apple understood this in 2007. Anthropic understands it in 2026.
 
@@ -85,7 +85,7 @@ Apple understood this in 2007. Anthropic understands it in 2026.
 
 The Android analogy has a sequel that Codex CLI's supporters would want noted. Android did not stay in second place on every metric. By 2015, it held 85% global market share[^1]. Samsung's Galaxy line achieved premium status. The ecosystem matured. The "Android is for tinkerers" narrative faded as the product improved.
 
-Codex CLI is on a similar trajectory. The gap between v0.115 and v0.120 — shipped in the space of two weeks — is remarkable. The Rust rewrite delivers genuine performance advantages. The sandboxed execution model is architecturally superior to Claude Code's approach. OpenAI's decision to make it fully open source, combined with Sam Altman's April 1 usage limit reset to celebrate 3 million users, signals a willingness to compete on generosity[^8].
+Codex CLI is on a similar trajectory. The gap between v0.115 and v0.120 — shipped in the space of two weeks — is remarkable. The Rust rewrite delivers genuine performance advantages. The sandboxed execution model is architecturally superior to Claude Code's approach. OpenAI's decision to make it fully open source, combined with Sam Altman's April 1 usage limit reset to celebrate 3 million Codex users across all surfaces, signals a willingness to compete on generosity[^8].
 
 If Codex CLI can solve its retention problem — the gap between "tried it" and "use it daily" — the Android endgame is plausible. Android won on volume, then won on quality, then won on both. Codex has the volume. The quality is arriving fast.
 
@@ -121,7 +121,7 @@ Build for the tool that earns your trust. The specs will converge. The habits wi
 
 [^7]: DEV Community, "The Great Claude Code Leak of 2026," March 2026. CNBC, "Anthropic leak: Claude Code internal source," March 31, 2026. Community reaction was mixed: architecture impressed many, but "Undercover Mode" and DMCA takedowns drew criticism. Net sentiment was positive.
 
-[^8]: BusinessToday, "OpenAI Codex celebrates 3 million weekly users, CEO Sam Altman resets usage limits," April 8, 2026. Fortune, "OpenAI sees Codex users spike to 1.6 million," March 2026.
+[^8]: BusinessToday, "OpenAI Codex celebrates 3 million weekly users, CEO Sam Altman resets usage limits," April 8, 2026. Sam Altman's post said "codex users" — this figure spans the full Codex platform (CLI, IDE extensions, and cloud), not CLI alone. No public breakdown of CLI-only users exists. Fortune, "OpenAI sees Codex users spike to 1.6 million," March 2026.
 
 [^9]: GitHub, openai/codex repository. 74.7K stars, 10.6K forks, 421 contributors, Apache 2.0 license (as of April 12, 2026).
 
