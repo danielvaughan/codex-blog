@@ -378,58 +378,21 @@ A practical `AGENTS.md` for a Maven Spring Boot project:
 
 Here is what a complete Codex CLI integration looks like in an established Spring team:
 
-```
-┌─────────────────────────────────────────────────┐
-│  Developer: "Work on PROJ-1234"                 │
-└──────────┬──────────────────────────────────────┘
-           │
-           ▼
-┌─────────────────────────────────────────────────┐
-│  Codex CLI reads AGENTS.md                      │
-│  → Build commands, coding standards, patterns   │
-└──────────┬──────────────────────────────────────┘
-           │
-           ▼
-┌─────────────────────────────────────────────────┐
-│  MCP: Jira → Read ticket, acceptance criteria   │
-│  MCP: SonarQube → Read existing issues          │
-│  MCP: Confluence → Read architecture docs       │
-└──────────┬──────────────────────────────────────┘
-           │
-           ▼
-┌─────────────────────────────────────────────────┐
-│  Agent implements the change                    │
-│                                                 │
-│  PostToolUse hook fires after each file change: │
-│  → mvn checkstyle:check spotbugs:check pmd:check│
-│  → Violations injected back as systemMessage    │
-│  → Agent fixes violations immediately           │
-└──────────┬──────────────────────────────────────┘
-           │
-           ▼
-┌─────────────────────────────────────────────────┐
-│  Stop hook fires at end of session:             │
-│  → mvn verify (full test suite)                 │
-│  → mvn sonar:sonar (quality gate check)         │
-│  → JaCoCo coverage threshold                    │
-└──────────┬──────────────────────────────────────┘
-           │
-           ▼
-┌─────────────────────────────────────────────────┐
-│  Agent creates PR                               │
-│  MCP: Jira → Updates PROJ-1234 to "In Review"  │
-│  CI/CD pipeline triggers                        │
-│  If CI fails → self-correcting loop (max 3)     │
-└──────────┬──────────────────────────────────────┘
-           │
-           ▼
-┌─────────────────────────────────────────────────┐
-│  Human reviews PR                               │
-│  SonarQube gate already passed                  │
-│  All tests already green                        │
-│  Jira ticket already updated                    │
-│  → Review focuses on design, not mechanics      │
-└─────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    A["Developer: 'Work on PROJ-1234'"] --> B
+
+    B["Codex CLI reads AGENTS.md\n→ Build commands, coding standards, patterns"] --> C
+
+    C["MCP Servers\n→ Jira: Read ticket, acceptance criteria\n→ SonarQube: Read existing issues\n→ Confluence: Read architecture docs"] --> D
+
+    D["Agent implements the change\n\nPostToolUse hook fires after each file change:\n→ mvn checkstyle:check spotbugs:check pmd:check\n→ Violations injected back as systemMessage\n→ Agent fixes violations immediately"] --> E
+
+    E["Stop hook fires at end of session:\n→ mvn verify — full test suite\n→ mvn sonar:sonar — quality gate check\n→ JaCoCo coverage threshold"] --> F
+
+    F["Agent creates PR\n→ Jira: Updates PROJ-1234 to 'In Review'\n→ CI/CD pipeline triggers\n→ If CI fails → self-correcting loop — max 3"] --> G
+
+    G["Human reviews PR\n→ SonarQube gate already passed\n→ All tests already green\n→ Jira ticket already updated\n→ Review focuses on design, not mechanics"]
 ```
 
 Every step uses tools the team already has. Codex CLI does not replace the toolchain — it wires into it.
