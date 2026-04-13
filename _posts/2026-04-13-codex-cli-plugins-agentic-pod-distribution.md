@@ -6,6 +6,9 @@ tags: [codex-cli, plugins, agentic-pod, enterprise, teams, distribution]
 status: draft
 ---
 
+![Sketchnote diagram for: From Manual Config to One-Click Pod: How Plugins Transform the Agentic Engineering Pod](/sketchnotes/articles/2026-04-13-codex-cli-plugins-agentic-pod-distribution.png)
+
+
 # From Manual Config to One-Click Pod: How Plugins Transform the Agentic Engineering Pod
 
 The Agentic Engineering Pod — three humans (Context Architect, Value Engineer, Quality Engineer) amplified by agent capabilities — is a powerful delivery model. But in its current form, setting one up requires manual assembly: three TOML configurations, an AGENTS.md hierarchy, custom hook scripts, verification gates, and role-specific skills. Each new pod must recreate this infrastructure from scratch. The plugin system, GA since v0.117.0, changes this fundamentally. A pod's entire operational infrastructure can be packaged as a single installable plugin — or a curated set of role-specific plugins — turning pod setup from a multi-day configuration exercise into a single command.

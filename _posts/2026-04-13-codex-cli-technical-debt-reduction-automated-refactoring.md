@@ -5,6 +5,9 @@ nav_order: 269
 tags: ["technical-debt", "refactoring", "dead-code", "dependency-upgrades", "agents-md", "subagents", "codex-exec", "ci-cd", "automation"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Technical Debt Reduction: Automated Refactoring, Dead Code Detection, and Dependency Upgrades](/sketchnotes/articles/2026-04-13-codex-cli-technical-debt-reduction-automated-refactoring.png)
+
+
 # Codex CLI for Technical Debt Reduction: Automated Refactoring, Dead Code Detection, and Dependency Upgrades
 
 

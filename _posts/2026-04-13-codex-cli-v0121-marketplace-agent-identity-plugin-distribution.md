@@ -5,6 +5,9 @@ nav_order: 267
 tags: ["v0121", "marketplace", "plugin", "agent-identity", "mcp", "guardian", "release-notes"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.121: Marketplace CLI, Agent Identity, and the Road to Plugin Distribution](/sketchnotes/articles/2026-04-13-codex-cli-v0121-marketplace-agent-identity-plugin-distribution.png)
+
+
 # Codex CLI v0.121: Marketplace CLI, Agent Identity, and the Road to Plugin Distribution
 
 

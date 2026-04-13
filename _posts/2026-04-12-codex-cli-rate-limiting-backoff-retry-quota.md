@@ -5,6 +5,9 @@ nav_order: 266
 tags: ["rate-limiting", "retry", "backoff", "quota", "operations", "troubleshooting"]
 ---
 
+![Sketchnote diagram for: Codex CLI Rate Limiting Behaviour: Backoff, Retry, and Quota Exhaustion Patterns](/sketchnotes/articles/2026-04-12-codex-cli-rate-limiting-backoff-retry-quota.png)
+
+
 # Codex CLI Rate Limiting Behaviour: Backoff, Retry, and Quota Exhaustion Patterns
 
 

@@ -5,6 +5,9 @@ nav_order: 267
 tags: ["data-science", "pandas", "polars", "notebooks", "eda", "charts", "data-analysis", "codex-cli", "skills"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Data Science Teams: Pandas, Polars, and Notebook-Adjacent Workflows](/sketchnotes/articles/2026-04-12-codex-cli-data-science-pandas-polars-workflows.png)
+
+
 # Codex CLI for Data Science Teams: Pandas, Polars, and Notebook-Adjacent Workflows
 
 

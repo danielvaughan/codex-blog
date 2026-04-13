@@ -5,6 +5,9 @@ nav_order: 263
 tags: ["mcp", "tool-annotations", "approval-policy", "security", "destructive-hint", "open-world-hint", "lethal-trifecta", "enterprise"]
 ---
 
+![Sketchnote diagram for: MCP Tool Annotations as Risk Vocabulary: How Codex CLI Uses Hints to Drive Approval Decisions](/sketchnotes/articles/2026-04-12-mcp-tool-annotations-risk-vocabulary-codex-cli.png)
+
+
 # MCP Tool Annotations as Risk Vocabulary: How Codex CLI Uses Hints to Drive Approval Decisions
 
 

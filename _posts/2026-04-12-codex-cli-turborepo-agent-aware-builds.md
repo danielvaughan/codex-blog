@@ -5,6 +5,9 @@ nav_order: 265
 tags: ["turborepo", "monorepo", "task-caching", "remote-cache", "vercel", "codex-cli", "agents"]
 ---
 
+![Sketchnote diagram for: Codex CLI and Turborepo: Agent-Aware Builds, Task Caching, and Remote Cache Integration](/sketchnotes/articles/2026-04-12-codex-cli-turborepo-agent-aware-builds.png)
+
+
 # Codex CLI and Turborepo: Agent-Aware Builds, Task Caching, and Remote Cache Integration
 
 

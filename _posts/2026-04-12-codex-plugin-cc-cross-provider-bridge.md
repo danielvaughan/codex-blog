@@ -5,6 +5,8 @@ nav_order: 262
 tags: ["codex-plugin-cc", "cross-provider", "claude-code", "review-gate", "adversarial-review", "subagent", "broker", "mcp", "multi-agent"]
 ---
 
+![Sketchnote diagram for: codex-plugin-cc: OpenAI's Official Cross-Provider Bridge for Claude Code](/sketchnotes/articles/2026-04-12-codex-plugin-cc-cross-provider-bridge.png)
+
 # codex-plugin-cc: OpenAI's Official Cross-Provider Bridge for Claude Code
 
 

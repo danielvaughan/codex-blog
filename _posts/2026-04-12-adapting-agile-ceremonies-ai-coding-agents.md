@@ -5,6 +5,9 @@ nav_order: 268
 tags: ["agile", "ceremonies", "sprint-planning", "standups", "retros", "team-process", "codex-cli", "ai-agents"]
 ---
 
+![Sketchnote diagram for: Adapting Agile Ceremonies for AI Coding Agents: Sprint Planning, Standups, and Retros](/sketchnotes/articles/2026-04-12-adapting-agile-ceremonies-ai-coding-agents.png)
+
+
 # Adapting Agile Ceremonies for AI Coding Agents: Sprint Planning, Standups, and Retros
 
 

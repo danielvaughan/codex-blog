@@ -5,6 +5,9 @@ nav_order: 270
 tags: ["skills", "evaluation", "codex-exec", "jsonl", "output-schema", "skillgrade", "ci-cd", "testing", "quality-gates"]
 ---
 
+![Sketchnote diagram for: Testing Codex CLI Skills: The Official Eval Pipeline with codex exec, JSONL Traces, and Skillgrade](/sketchnotes/articles/2026-04-13-testing-codex-cli-skills-eval-pipeline.png)
+
+
 # Testing Codex CLI Skills: The Official Eval Pipeline with codex exec, JSONL Traces, and Skillgrade
 
 

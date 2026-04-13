@@ -5,6 +5,9 @@ nav_order: 271
 tags: ["session-control", "/permissions", "/model", "/fast", "/plan", "steer-mode", "adaptive-workflow", "approval-modes", "config-toml", "profiles"]
 ---
 
+![Sketchnote diagram for: Dynamic Session Control in Codex CLI: Mid-Session Switching of Models, Permissions, and Workflow Modes](/sketchnotes/articles/2026-04-13-codex-cli-dynamic-session-control-mid-session-switching.png)
+
+
 # Dynamic Session Control in Codex CLI: Mid-Session Switching of Models, Permissions, and Workflow Modes
 
 

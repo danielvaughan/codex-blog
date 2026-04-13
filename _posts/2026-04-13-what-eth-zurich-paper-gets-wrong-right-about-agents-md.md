@@ -5,6 +5,9 @@ nav_order: 266
 tags: ["agents-md", "research", "eth-zurich", "best-practices", "enterprise", "context-files", "cost-optimisation"]
 ---
 
+![Sketchnote diagram for: What the ETH Zurich Paper Gets Wrong (and Right) About AGENTS.md](/sketchnotes/articles/2026-04-13-what-eth-zurich-paper-gets-wrong-right-about-agents-md.png)
+
+
 # What the ETH Zurich Paper Gets Wrong (and Right) About AGENTS.md
 
 

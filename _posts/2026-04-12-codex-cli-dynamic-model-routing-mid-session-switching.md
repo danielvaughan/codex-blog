@@ -5,6 +5,9 @@ nav_order: 264
 tags: ["model-routing", "/model", "/fast", "service-tier", "reasoning-effort", "cost-optimisation", "workflow", "config-toml"]
 ---
 
+![Sketchnote diagram for: Dynamic Model Routing in Codex CLI: Mid-Session Switching, /fast Mode, and Service Tier Workflows](/sketchnotes/articles/2026-04-12-codex-cli-dynamic-model-routing-mid-session-switching.png)
+
+
 # Dynamic Model Routing in Codex CLI: Mid-Session Switching, /fast Mode, and Service Tier Workflows
 
 
