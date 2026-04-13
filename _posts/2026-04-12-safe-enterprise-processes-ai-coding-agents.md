@@ -94,6 +94,10 @@ Gothelf argues for replacing SAFe with experimentation-driven approaches for AI 
 
 Instead of "Implement story JIRA-1234: Add validation to the user form," the work unit becomes "Reduce form submission errors by 40%." The agent decides how to achieve the outcome. The human reviews the result, not the approach.
 
+Mik Kersten's forthcoming *Output to Outcome* provides the theoretical foundation for this shift. His research found that "for a typical enterprise, the number of development teams could be doubled with no appreciable increase in business outcomes"[^15]. AI coding agents make this finding visceral: Codex CLI can double, triple, or 10× code output overnight. If output did not correlate with outcomes before AI, more output will not fix the problem now. Kersten defines outcomes as "measurable changes that deliver against an agreed-upon definition of value" — and argues that as AI drives the marginal cost of knowledge output toward zero, output-focused management becomes obsolete[^15].
+
+His **Outcome Tree** framework operationalises this: connect strategic inputs (OKRs, budget) → outputs (roadmap items) → flow (work velocity through delivery) → outcomes (measurable business impact) → feedback (reallocation based on results). Items without a measurable outcome linkage get de-prioritised. SAFe has no equivalent mechanism — its PI Objectives are scored numerically but rarely traced to business outcomes[^15].
+
 This maps directly to Codex CLI's strengths. Give the agent a goal and a test suite. Let it explore solutions. Review the pull request, not the individual keystrokes. As Osmani advises: spend 70% of effort on problem definition and success criteria, 30% on execution[^13]. GitHub's analysis of 2,500+ agent configuration files found that teams covering all six core specification areas saw dramatically fewer post-deployment bugs[^14].
 
 ### 2. Continuous Review, Not Batch Review
@@ -155,6 +159,18 @@ The EdTech case study in their research achieved 1,100% growth in AI coding adop
 
 One enterprise governance advisor's warning captures the stakes: "I've watched companies go from 'AI is accelerating development' to 'we can't ship features because we don't understand our own systems' in less than 18 months"[^12].
 
+## The Operating Model SAFe Cannot Become
+
+Kersten's *Output to Outcome* identifies seven shifts that organisations must make to capture AI-driven productivity[^15]. Three of them directly indict SAFe's architecture:
+
+**Functions to Flow.** SAFe organises around Agile Release Trains — cross-functional teams aligned to a programme. Kersten argues this is not enough. The operating model must be structured around *value streams*, where flow metrics (velocity, time, efficiency, load, distribution) connect delivery work to business outcomes. SAFe adopted flow metrics in version 6.0 but embedded them within an output-focused governance model. Measuring flow through a structure optimised for output is like measuring fuel efficiency in a car designed for towing — the metric is right but the vehicle is wrong.
+
+**Chaos to Cadence.** SAFe has cadence — PI planning every 8-12 weeks. But Kersten distinguishes between *synchronised cadence* (business and technology planning as one) and *ceremonial cadence* (rituals that produce the appearance of alignment). SAFe's quarterly planning, sprint reviews, and system demos operate as independent ceremonies. Kersten's model requires a unified cadence where outcome reviews drive resource reallocation in real time — not a quarterly retrospective where teams explain why PI Objectives scored below 80%.
+
+**Managers to Makers.** SAFe's role structure adds management overhead: Release Train Engineers, Solution Train Engineers, Lean Portfolio Managers. Kersten argues the shift should go the other direction — from management overhead toward maker-driven value creation. When AI agents handle implementation, the remaining human work is creative: problem definition, architectural judgment, and outcome validation. These are maker activities, not management activities. SAFe scales management. The Age of AI demands scaling makers.
+
+The deeper problem is structural. Kersten's research shows that AI will make "leading organizations not twice as productive but ten times more productive"[^15] — but only if the operating model shifts from output to outcome. SAFe cannot make this shift because its entire governance apparatus — PI Objectives, Program Predictability Measure, velocity tracking — measures outputs. An organisation running SAFe with AI coding agents will produce 10× more code and remain exactly as far from its business outcomes as before.
+
 ## The Adoption Gap Is a Process Gap
 
 The 3% work adoption figure for Codex CLI is not a ceiling imposed by the technology. It is a ceiling imposed by enterprise processes that were designed for a different era. Codex CLI can already do the work. The question is whether enterprises will redesign their processes to let it.
@@ -194,3 +210,5 @@ The enterprises that succeed with Codex CLI will be the ones that treat process 
 [^13]: Addy Osmani, [The 80% Problem in Agentic Coding](https://addyo.substack.com/p/the-80-problem-in-agentic-coding). Comprehension debt: developers merge code they cannot explain days later. 48% don't review AI code before committing. 38% find AI code harder to review than human code. 98% more PRs, 91% more review time. Spend 70% on problem definition, 30% on execution. "The future belongs to those who maintain coherent mental models."
 
 [^14]: Addy Osmani, [How to Write a Good Spec for AI Agents](https://addyosmani.com/blog/good-spec/), O'Reilly Radar, February 2026. GitHub analysis of 2,500+ agent configs: teams covering all 6 specification areas see dramatically fewer post-deployment bugs. Teams covering <4 areas see quality drop below human baseline.
+
+[^15]: Mik Kersten and Leah Brown, [Sneak Peek at Mik Kersten's New Book: Output to Outcome](https://itrevolution.com/articles/sneak-peek-at-mik-kerstens-new-book-output-to-outcome/), IT Revolution, April 2026. Sequel to *Project to Product*. Core thesis: AI collapses marginal cost of knowledge output toward zero, rendering output-focused management obsolete. Outcome Tree framework: inputs → outputs → flow → outcomes → feedback. Seven shifts including Functions to Flow, Chaos to Cadence, Managers to Makers. "For a typical enterprise, the number of development teams could be doubled with no appreciable increase in business outcomes." Book release: July 14, 2026.
