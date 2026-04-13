@@ -14,7 +14,7 @@ tags: ["agile", "ceremonies", "sprint-planning", "standups", "retros", "team-pro
 
 ---
 
-When autonomous coding agents handle 40–60% of implementation work, the standard Scrum playbook breaks down. Story points lose their meaning, standups become status theatre, and retrospectives miss the most important failure modes. This article examines how to adapt each core Agile ceremony for teams where Codex CLI, Claude Code, and similar agents are first-class contributors — not just tools that developers happen to use.
+When autonomous coding agents handle 40–60% of implementation work, the standard Scrum playbook breaks down. Story points lose their meaning, standups become status theatre, and retrospectives miss the most important failure modes. The Q1 2026 AI Velocity Report found that 84% of code at early-adopter firms is now AI-authored, up from 51% in Q4 2025, with median cycle times dropping 24% [^11]. This article examines how to adapt each core Agile ceremony for teams where Codex CLI, Claude Code, and similar agents are first-class contributors — not just tools that developers happen to use.
 
 ## The Core Problem: Context Transfer
 
@@ -26,7 +26,7 @@ AI agents have different constraints. They do not get tired, but they lose conte
 
 ### Why Story Points Fail for Agents
 
-Story points were designed to measure human cognitive load, uncertainty, and fatigue [^2]. An autonomous agent running on o3 does not experience cognitive fatigue, runs around the clock, and processes structured tasks with near-constant throughput [^2]. Assigning story points to agent work conflates two fundamentally different capacity models.
+Story points were designed to measure human cognitive load, uncertainty, and fatigue [^2]. An autonomous agent running on gpt-5.4 does not experience cognitive fatigue, runs around the clock, and processes structured tasks with near-constant throughput [^2]. Assigning story points to agent work conflates two fundamentally different capacity models. As Scrum.org's evidence-based management framework now argues, if a team's velocity jumps from 50 to 5,000 in one sprint after adopting AI tools, they have not actually delivered 100× more value — the metric has simply stopped measuring anything useful [^12].
 
 The 18th State of Agile Report found that 84% of teams use AI somewhere in their workflow, but only 41% have integrated it into their ceremonies in a coordinated way [^3]. Most teams are still bolting agent output onto human-shaped processes.
 
@@ -48,7 +48,7 @@ flowchart TD
     H --> I
 ```
 
-**Agent Track** tasks are well-specified, have clear acceptance criteria, and map to capabilities the agent demonstrably handles: refactoring, test generation, boilerplate implementation, documentation updates, and data transformation [^4]. These tasks get **token budget estimates** rather than story points — forecast the API token consumption and compute time, not human effort [^2].
+**Agent Track** tasks are well-specified, have clear acceptance criteria, and map to capabilities the agent demonstrably handles: refactoring, test generation, boilerplate implementation, documentation updates, and data transformation [^4]. These tasks get **token budget estimates** rather than story points — forecast the API token consumption and compute time, not human effort [^2]. Some teams are adopting **specification-complexity scoring** instead of effort-based Fibonacci: since code generation time is now near-zero, the point value reflects the verification effort required rather than the implementation effort [^4].
 
 **Human Track** tasks retain traditional story point estimation: architectural decisions, security sign-offs, stakeholder negotiations, and strategic "why" decisions [^2].
 
@@ -137,7 +137,7 @@ flowchart LR
 Add these to your standard retro format:
 
 - **Prompt quality**: Did poorly specified tasks cause agent rework? Track the ratio of first-attempt acceptance to revision cycles.
-- **Model routing**: Were expensive reasoning models (o3) used for tasks that o4-mini could handle? Codex CLI's dynamic model routing [^8] makes this a tuneable parameter, not a fixed cost.
+- **Model routing**: Were expensive flagship models (gpt-5.4) used for tasks that gpt-5.4-mini could handle? Codex CLI's dynamic model routing and the `/fast` command [^8] make this a tuneable parameter, not a fixed cost.
 - **Context drift**: Did long-running agent sessions produce increasingly off-target output? This signals the need for session boundaries or subagent decomposition [^9].
 - **Review fatigue**: Did reviewers approve agent PRs without adequate scrutiny? Track defect escape rate from agent-generated code specifically.
 - **AGENTS.md gaps**: Did the agent repeatedly make mistakes that a better `AGENTS.md` would have prevented? Treat `AGENTS.md` updates as retro action items [^5].
@@ -155,15 +155,37 @@ Traditional velocity charts become misleading when agent throughput inflates the
 
 Report them together on the same sprint dashboard, but never sum them into a single velocity number. A sprint where "velocity doubled" means nothing if the entire increase came from agent-generated boilerplate that required zero architectural thought.
 
+### Emerging KPIs: Agent Efficiency Score and Handoff Time
+
+Scrum.org's evidence-based management framework proposes two metrics purpose-built for the agent era [^12]:
+
+**Agent Efficiency Score (AES)** measures autonomous reliability: `Tasks Completed Autonomously / (Total Tasks Assigned + (Human Interventions × Complexity Penalty))`. High AES (80–100) means the agent performs with minimal human rework; low AES (<50) means extensive human intervention was needed. Track this per task category — an agent might score 95 on test generation but 40 on architectural refactoring, which directly informs backlog segmentation.
+
+**Human–Agent Handoff Time** measures the elapsed time between an agent signalling "stuck" and a human successfully resuming the work [^12]. This reveals the **context-switching tax** that is now the primary bottleneck in agent-augmented sprints. If handoff time is high, the team needs better `AGENTS.md` files, clearer failure escalation patterns, or dedicated "agent triage" rotations during the sprint.
+
+Together, these replace velocity as the planning input: `Sprint capacity = f(AES, handoff_time, review_bandwidth)` rather than `Sprint capacity = historical_velocity ± variance`.
+
+## Role Evolution in Agent-Augmented Scrum
+
+The three Scrum roles do not disappear, but their centre of gravity shifts [^13]:
+
+- **Developers** transition from code writers to **agent managers** and code reviewers. The primary skill becomes specification quality — writing prompts, `AGENTS.md` files, and Definition of Ready artefacts that produce correct agent output on the first attempt.
+- **Product Owners** remain exclusively human. User empathy, stakeholder negotiation, and strategic prioritisation cannot be delegated to agents. The PO's new responsibility is ensuring that backlog items include enough structured context for agent routing.
+- **Scrum Masters** shift from facilitating human collaboration to **monitoring agentic workflows**: API rate limits, token budgets, review queue depth, and agent confidence scores. A Scrum Master who cannot read a Codex CLI session log is as ineffective as one who cannot read a burndown chart.
+
+The AI-augmented Scrum framework also introduces the concept of **"AI burnout"** — the cognitive exhaustion humans experience from reviewing massive volumes of AI-generated code [^13]. This is a real impediment that surfaces in retros and must be managed through review rotation, automated pre-checks (hooks, linters, CI), and sensible agent output caps per sprint.
+
 ## Definition of Done: The Agent Extension
 
 Extend your existing Definition of Done with agent-specific criteria:
 
 1. **Code review by a human** — Agent-generated code requires the same review standard as human code. No exceptions.
 2. **Cross-provider review** — For critical paths, use `codex-plugin-cc`'s adversarial review [^7] to have a second model review the first model's output.
-3. **CI green** — Agents must run verification commands before submitting. Codex CLI supports this via `AGENTS.md` verification sections [^5].
-4. **Context documented** — Any architectural decisions made during implementation are captured in comments or ADRs, not buried in agent chat logs.
-5. **No phantom dependencies** — Verify the agent has not introduced libraries or APIs that were hallucinated rather than real [^10].
+3. **CI green** — Agents must run verification commands before submitting. Codex CLI supports this via `AGENTS.md` verification sections [^5] and PostToolUse hooks that run static analysis after every file modification.
+4. **Zero-hallucination verification** — Verify the agent has not introduced libraries, APIs, or configuration that were hallucinated rather than real [^10]. Automated dependency audits (`npm audit`, `pip-audit`) should run as part of the CI gate.
+5. **Context documented** — Any architectural decisions made during implementation are captured in comments or ADRs, not buried in agent chat logs.
+6. **Security scan passed** — Agent-generated code must pass the same security scanning (SAST, dependency checks) as human code. Minimum 85% test coverage on agent-modified files [^4].
+7. **Token spend within budget** — The task's actual API spend must not exceed the sprint planning estimate by more than a defined threshold (e.g., 150%). Overruns are retro action items, not silent costs.
 
 ## Putting It Together: A Sprint Lifecycle with Agents
 
@@ -189,15 +211,19 @@ sequenceDiagram
 
 ## Common Anti-Patterns
 
-- **Counting agent PRs as developer productivity** — This incentivises dispatching trivial work to inflate metrics.
+- **Counting agent PRs as developer productivity** — This incentivises dispatching trivial work to inflate metrics. Measure merged-and-deployed PRs, not opened PRs [^11].
 - **Skipping review for "simple" agent changes** — Agent errors cluster in edge cases and naming, exactly the areas humans skip when reviewing "simple" diffs.
-- **Single-track velocity** — Blending human and agent throughput into one number makes sprint planning unreliable.
+- **Single-track velocity** — Blending human and agent throughput into one number makes sprint planning unreliable. The Scrum.org EBM framework is explicit: retire velocity in favour of Agent Efficiency Score [^12].
 - **Agent standup theatre** — Developers narrating agent logs verbally wastes everyone's time. Automate status reporting.
 - **Ignoring token economics** — A sprint that "completes" 200% more stories but triples API spend is not an improvement without ROI analysis.
+- **Running retros without token logs** — A retrospective that does not analyse agent session logs, token consumption, and model routing decisions is missing half the data. Treat agent workflow debugging as a first-class retro activity [^13].
+- **No agent capacity cap** — Dispatching unlimited work to agents overwhelms the review queue. Set a per-sprint ceiling based on the team's proven review throughput.
 
 ## Conclusion
 
-Agile ceremonies are not obsolete in the age of AI agents — they are more important than ever, because the context transfer problem has become harder, not easier. The adaptation is straightforward in principle: separate human and agent capacity models, redesign standups around review rather than implementation, and add agent-specific failure categories to retros. The teams that get this right will not just ship faster — they will ship faster without the invisible debt that comes from unreviewed, under-specified agent output.
+Agile ceremonies are not obsolete in the age of AI agents — they are more important than ever, because the context transfer problem has become harder, not easier. The adaptation is straightforward in principle: separate human and agent capacity models, redesign standups around review rather than implementation, add agent-specific failure categories to retros, and adopt purpose-built metrics like Agent Efficiency Score and Handoff Time that measure what actually matters in a blended workforce.
+
+The Q1 2026 data is clear: teams that manage this transition deliberately — with structured ceremonies, clear role evolution, and honest metrics — see 40–50% faster delivery with fewer defects [^11]. Teams that bolt agents onto unchanged Scrum rituals see inflated velocity numbers, growing review queues, and invisible technical debt. The ceremonies are the same. The context they transfer has changed.
 
 ---
 
@@ -213,3 +239,6 @@ Agile ceremonies are not obsolete in the age of AI agents — they are more impo
 [^8]: Daniel Vaughan, "Dynamic Model Routing in Codex CLI," codex-resources, [2026-04-12](2026-04-12-codex-cli-dynamic-model-routing-mid-session-switching.md).
 [^9]: "Subagents – Codex," OpenAI Developers, [developers.openai.com](https://developers.openai.com/codex/subagents), 2026.
 [^10]: "The State of AI Coding Agents (2026): From Pair Programming to Autonomous AI Teams," Dave Patten, [medium.com](https://medium.com/@dave-patten/the-state-of-ai-coding-agents-2026-from-pair-programming-to-autonomous-ai-teams-b11f2b39232a), March 2026.
+[^11]: "AI Velocity Report Q1 2026: Real Delivery Data from 84% AI-Authored Code," Talk Think Do, [talkthinkdo.com](https://talkthinkdo.com/ai-velocity-report/q1-2026/), 2026.
+[^12]: "From Velocity to 'Agent Efficiency': Evidence-Based Management for the AI Era," Scrum.org, [scrum.org](https://www.scrum.org/resources/blog/velocity-agent-efficiency-evidence-based-management-ai-era), 2026.
+[^13]: "Run Scrum When Half Your Team is AI Agents," Agile Leadership Day India, [agileleadershipdayindia.org](https://agileleadershipdayindia.org/blogs/ai-augmented-scrum-framework/ai-augmented-scrum-framework.html), March 2026.
