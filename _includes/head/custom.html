@@ -89,6 +89,92 @@
   });
 </script>
 
+{% if page.permalink == '/search/' %}
+<script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var input = document.getElementById('search-input');
+    var resultsList = document.getElementById('search-results');
+    var status = document.getElementById('search-status');
+    if (!input) return;
+
+    var store = [];
+    var idx;
+
+    fetch('{{ "/search.json" | relative_url }}')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        store = data;
+        idx = lunr(function () {
+          this.ref('url');
+          this.field('title', { boost: 10 });
+          this.field('tags', { boost: 5 });
+          this.field('content');
+          data.forEach(function (doc) {
+            this.add({
+              url: doc.url,
+              title: doc.title,
+              tags: (doc.tags || []).join(' '),
+              content: doc.content
+            });
+          }, this);
+        });
+        // Run search if URL has ?q= param
+        var params = new URLSearchParams(window.location.search);
+        var q = params.get('q');
+        if (q) { input.value = q; doSearch(q); }
+      });
+
+    var debounceTimer;
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      var query = input.value.trim();
+      debounceTimer = setTimeout(function () { doSearch(query); }, 200);
+    });
+
+    function doSearch(query) {
+      resultsList.innerHTML = '';
+      if (!query || !idx) {
+        status.textContent = '';
+        return;
+      }
+      // Append wildcard for partial matching, fall back to plain query
+      var results;
+      try {
+        results = idx.search(query + '*');
+        if (results.length === 0) results = idx.search(query);
+      } catch (e) {
+        results = [];
+      }
+      if (results.length === 0) {
+        status.textContent = 'No results for \u201c' + query + '\u201d';
+        return;
+      }
+      status.textContent = results.length + ' result' + (results.length === 1 ? '' : 's');
+      results.forEach(function (r) {
+        var doc = store.find(function (d) { return d.url === r.ref; });
+        if (!doc) return;
+        var li = document.createElement('li');
+        li.className = 'search-result';
+        li.innerHTML =
+          '<a href="' + doc.url + '" class="search-result__title">' + escapeHtml(doc.title) + '</a>' +
+          '<span class="search-result__meta">' + doc.date +
+            (doc.tags && doc.tags.length ? ' &middot; ' + doc.tags.join(', ') : '') +
+          '</span>' +
+          '<p class="search-result__excerpt">' + escapeHtml(doc.content) + '</p>';
+        resultsList.appendChild(li);
+      });
+    }
+
+    function escapeHtml(str) {
+      var d = document.createElement('div');
+      d.textContent = str;
+      return d.innerHTML;
+    }
+  });
+</script>
+{% endif %}
+
 {% if site.mermaid %}
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@{{ site.mermaid.version | default: 10 }}/dist/mermaid.esm.min.mjs';

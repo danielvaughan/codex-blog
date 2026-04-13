@@ -5,5 +5,7 @@ vendor/
 .bundle/
 *.gem
 .DS_Store
+.idea/
+.sass-cache/
 Gemfile.lock
 .superpowers/
