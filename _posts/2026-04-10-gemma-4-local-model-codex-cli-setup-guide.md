@@ -1,6 +1,7 @@
 ---
 title: "Running Gemma 4 Locally with the Codex CLI: What Actually Works"
 date: 2026-04-10T06:00:00+00:00
+featured: true
 tags:
   - local-models
   - gemma-4

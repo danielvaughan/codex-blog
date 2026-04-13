@@ -1,6 +1,7 @@
 ---
 title: "Three Terminals, Three Fates"
 date: 2026-04-12T07:00:00+00:00
+featured: true
 tags:
   - claude-code
   - codex-cli

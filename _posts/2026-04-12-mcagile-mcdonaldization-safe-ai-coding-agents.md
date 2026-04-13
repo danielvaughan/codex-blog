@@ -1,6 +1,7 @@
 ---
 title: "McAgile: The McDonaldization of Software Development Meets AI Coding Agents"
 date: 2026-04-12T11:00:00+00:00
+featured: true
 tags:
   - codex-cli
   - enterprise

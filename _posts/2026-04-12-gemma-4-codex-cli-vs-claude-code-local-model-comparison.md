@@ -1,6 +1,7 @@
 ---
 title: "Gemma 4 on Codex CLI vs Claude Code: Same Model, Different Results"
 date: 2026-04-12T12:00:00+00:00
+featured: true
 tags:
   - codex-cli
   - claude-code
