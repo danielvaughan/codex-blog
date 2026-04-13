@@ -276,6 +276,54 @@ Maximising cache hits is the second most impactful cost lever after model select
 
 ---
 
+## The Extra Usage Credits Change
+
+In April 2026, OpenAI adjusted how Extra Usage Credits are billed for ChatGPT subscribers, and the change sparked widespread confusion. A Reddit thread in r/codex documented the misunderstanding clearly: many users interpreted the announcement as "subscriptions now cost the same as the API," which is not what happened[^12]. Understanding the actual change requires distinguishing between three separate billing layers.
+
+### How Quota + Overflow Billing Actually Works
+
+Every ChatGPT subscription (Plus, Pro) provides two layers of included usage:
+
+1. **5-Hour Rolling Quota** — a dynamic allocation that refreshes on a rolling basis. This is the primary usage pool.
+2. **Weekly Quota** — a secondary cap that prevents sustained heavy use from exceeding what the subscription is designed to cover.
+
+When both quotas are exhausted, you have two options: wait for the quota to refresh, or purchase **Extra Usage Credits** — an optional top-up that lets you keep working at overflow rates. If you never buy Extra Usage Credits, the pricing change does not affect you at all.
+
+### What Changed and What Did Not
+
+| Component | Before the Change | After the Change |
+|-----------|-------------------|------------------|
+| Monthly subscription fee | Unchanged | Unchanged |
+| 5-hour rolling quota | Unchanged | Unchanged |
+| Weekly quota | Unchanged | Unchanged |
+| Extra Usage Credits (overflow) | **Discounted** vs API rates | **Same** as API rates |
+
+The change removed the discount on Extra Usage Credits. Previously, overflow usage was cheaper than going directly to the API. Now it costs the same. That is the entire change — the subscription quotas, which represent the core value of Plus and Pro, are unaffected.
+
+### The Three-Way Distinction
+
+This is where the confusion collapses. There are three different ways to consume tokens on Codex CLI, and they have very different economics:
+
+| Billing Layer | How You Access It | Effective Cost | When It Applies |
+|---------------|-------------------|----------------|-----------------|
+| **Subscription quota** | Included with Plus ($20/mo) or Pro ($100/mo) | Massively subsidised (see tables above) | Normal usage within your rolling and weekly limits |
+| **Extra Usage Credits** | Optional purchase when quotas are exhausted | Now equal to API rates | Overflow usage only — you must opt in |
+| **Direct API key** | Separate API key in `config.toml` | Standard per-token rates | Always — no quotas, no limits beyond API rate caps |
+
+The subscription quota remains the best deal in the table. A medium user on Plus still gets ~$180/month of API-equivalent value for $20 — that has not changed. The only thing that changed is the price you pay if you voluntarily buy more tokens after exhausting your included allocation.
+
+### Practical Guidance: When Each Layer Matters
+
+**Plus ($20/month)** is generous for light users but constrains heavy Codex CLI use significantly. Community reports indicate that Plus's 5-hour quota can be consumed in roughly 10 minutes of sustained Codex CLI activity[^12]. If you are using Codex CLI as your primary development tool, Plus will leave you waiting for quota refreshes frequently.
+
+**Pro ($100/month)** is substantially more generous. One user reported barely reaching 50% of the 5-hour limit after four hours of nonstop use with GPT-5.4 on high effort[^12]. For most individual developers, Pro provides enough headroom that Extra Usage Credits are rarely needed.
+
+**When to use the API instead of a subscription:** if you are a commercial entity that needs predictable, uncapped throughput — or if your usage regularly exceeds Pro's weekly ceiling (~240M tokens/week as modelled above). For individual developers, the subscription quota still provides significant value. As the Reddit thread summarised: "continue to pay for Pro and wait out your limits" unless you have a commercial reason to need the API[^12].
+
+The bottom line: the Extra Usage Credits change narrows the gap between subscription overflow and direct API billing, but it does not touch the core value proposition of the subscription — which is that your included quota is priced far below API rates.
+
+---
+
 ## Citations
 
 [^1]: Codex Pricing — OpenAI Developers. Subscription tiers, usage limits per 5-hour window, Pro 5×/20× multipliers, promotional boosts. <https://developers.openai.com/codex/pricing>
@@ -299,3 +347,5 @@ Maximising cache hits is the second most impactful cost lever after model select
 [^10]: Codex Usage After the Limit Reset Update — OpenAI Developer Community. Single prompt eating 7% of weekly limits, 97% weekly allowance after three prompts. <https://community.openai.com/t/codex-usage-after-the-limit-reset-update-single-prompt-eats-7-of-weekly-limits-plus-tier/1365284>
 
 [^11]: The cost of a single prompt when signed in via API key (GPT-5.4 xHigh) — r/codex, u/gigaflops_ (April 2026). Single prompt on 7,000-line codebase: ~$3.50 API cost, ~4M tokens, 34 requests, 7 minutes, GPT-5.4 xHigh with auto-compaction. <https://www.reddit.com/r/codex/comments/the-cost-of-a-single-prompt-when-signed-in-via-api-key-gpt54-xhigh/>
+
+[^12]: Please stop with the "Codex Sub Same Cost as API Now" Misinformation — r/codex, u/Decaf_GT (April 2026). Clarification of Extra Usage Credits change: subscription quotas unchanged, only overflow billing moved to API-rate parity. Plus quota consumed in ~10 minutes of Codex CLI use; Pro user at 50% of 5-hour limit after 4 hours nonstop. <https://www.reddit.com/r/codex/comments/please-stop-with-the-codex-sub-same-cost-as-api-now-misinformation/>
