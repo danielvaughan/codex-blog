@@ -17,7 +17,7 @@ This article examines what OMX adds, how it integrates with Codex CLI's native c
 
 OMX follows the oh-my-zsh model: it wraps an existing tool with enhanced defaults, reusable skills, and quality-of-life features rather than replacing it [^3]. Every code generation task still runs through Codex CLI. OMX handles the orchestration above it — intent clarification, planning, parallel dispatch, state persistence, and merge coordination.
 
-The project was created by Yeachan Heo and reached v0.12.4 in April 2026 [^4]. It requires Node.js 20+, a working Codex CLI installation, and `tmux` on macOS/Linux (or `psmux` on Windows, though WSL2 is recommended) [^2].
+The project was created by Yeachan Heo and reached v0.12.5 in April 2026 (April 11: team-runtime and multi-workflow state hardening, Windows reliability, tmux/shell stability, and HUD session anchoring) [^4]. It requires Node.js 20+, a working Codex CLI installation, and `tmux` on macOS/Linux (or `psmux` on Windows, though WSL2 is recommended) [^2].
 
 ```bash
 npm install -g @openai/codex oh-my-codex
