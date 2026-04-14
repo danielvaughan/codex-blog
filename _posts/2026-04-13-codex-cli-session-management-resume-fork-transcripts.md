@@ -5,6 +5,8 @@ nav_order: 275
 tags: ["session-management", "resume", "fork", "JSONL", "transcripts", "rollout-system", "session-picker", "codex-exec"]
 ---
 
+![Sketchnote diagram for: Session Management in Codex CLI: Resume, Fork, and JSONL Transcripts](/sketchnotes/articles/2026-04-13-codex-cli-session-management-resume-fork-transcripts.png)
+
 # Session Management in Codex CLI: Resume, Fork, and JSONL Transcripts
 
 

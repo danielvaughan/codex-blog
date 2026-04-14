@@ -5,6 +5,8 @@ nav_order: 274
 tags: ["agnix", "linting", "AGENTS.md", "config-toml", "validation", "CI/CD", "LSP", "developer-tooling", "quality-gates"]
 ---
 
+![Sketchnote diagram for: Agnix: Linting Your Codex CLI Agent Configurations Before They Break Your Workflow](/sketchnotes/articles/2026-04-13-agnix-linting-codex-cli-agent-configurations.png)
+
 # Agnix: Linting Your Codex CLI Agent Configurations Before They Break Your Workflow
 
 

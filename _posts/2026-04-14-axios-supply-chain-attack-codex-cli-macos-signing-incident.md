@@ -5,6 +5,8 @@ nav_order: 280
 tags: ["supply-chain", "security", "axios", "npm", "macos", "code-signing", "north-korea", "github-actions", "incident-response"]
 ---
 
+![Sketchnote diagram for: The Axios Supply Chain Attack: How a North Korean Compromise Reached Codex CLI's macOS Signing Pipeline](/sketchnotes/articles/2026-04-14-axios-supply-chain-attack-codex-cli-macos-signing-incident.png)
+
 # The Axios Supply Chain Attack: How a North Korean Compromise Reached Codex CLI's macOS Signing Pipeline
 
 

@@ -5,6 +5,8 @@ nav_order: 273
 tags: ["terraform", "mcp", "agent-skills", "infrastructure-as-code", "hashicorp", "terrashark", "config-toml", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI and Terraform: Agent Skills, MCP Servers, and Infrastructure-as-Code Workflows](/sketchnotes/articles/2026-04-13-codex-cli-terraform-agent-skills-mcp-iac-workflows.png)
+
 # Codex CLI and Terraform: Agent Skills, MCP Servers, and Infrastructure-as-Code Workflows
 
 
