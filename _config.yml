@@ -1,6 +1,6 @@
 # Site
 title: "Codex Blog"
-description: "Articles on agentic software engineering with Codex CLI"
+description: "A continuously updated guide to Codex CLI. Practical articles on agentic software engineering workflows, configuration and integration."
 url: "https://codex.danielvaughan.com"
 baseurl: ""
 repository: "danielvaughan/codex-blog"

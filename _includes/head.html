@@ -15,7 +15,22 @@
     <meta name="yandex-verification" content="{{ site.verification.yandex }}"/>
     {%- endif -%}
     {%- include head/og-image.html -%}
-    {%- seo -%}
+    {%- capture seo_output -%}{%- seo -%}{%- endcapture -%}
+    {%- if page.layout == "post" and page.description == nil -%}
+      {%- assign post_desc = page.content | strip_html | strip_newlines | split: "Sketchnote diagram for:" | last | strip | truncatewords: 25 -%}
+      {%- if post_desc.size > 10 -%}
+        {{ seo_output | replace: site.description, post_desc }}
+      {%- else -%}
+        {{ seo_output }}
+      {%- endif -%}
+    {%- else -%}
+      {{ seo_output }}
+    {%- endif -%}
+    {%- if page.tags and page.tags.size > 0 -%}
+    {%- for tag in page.tags -%}
+    <meta property="article:tag" content="{{ tag }}"/>
+    {%- endfor -%}
+    {%- endif -%}
     {%- include head/structured-data.html -%}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     {%- feed_meta -%}
