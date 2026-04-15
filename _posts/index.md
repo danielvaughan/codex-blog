@@ -3,10 +3,10 @@ title: "Articles"
 permalink: /articles/
 ---
 
-## Article Ratings (updated 2026-04-13)
+## Article Ratings (updated 2026-04-15)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-13 · 302 articles rated · 302 total articles.
+Last rated: 2026-04-15 · 316 articles rated · 316 total articles.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|---------|
@@ -72,6 +72,12 @@ Last rated: 2026-04-13 · 302 articles rated · 302 total articles.
 | [Adapting Agile Ceremonies for AI Coding Agents](/2026/04/12/adapting-agile-ceremonies-ai-coding-agents/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Gemma 4 on Codex CLI vs Claude Code: Same Model, Different Results](/2026/04/12/gemma-4-codex-cli-vs-claude-code-local-model-comparison/) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Session Management: Resume, Fork, and JSONL Transcripts](/2026/04/13/codex-cli-session-management-resume-fork-transcripts/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [The Great Convergence: Why Every AI Coding Agent Runs the Same Pipeline](/2026/04/15/coding-agent-pipeline-convergence/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [What Microservices Taught Us About Building AI Coding Agents](/2026/04/15/microservices-lessons-for-agentic-engineering/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [TDAD: Graph-Based Test Impact Analysis for Codex CLI Regression Prevention](/2026/04/15/tdad-graph-based-test-impact-analysis-codex-cli-regression-prevention/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The Axios Supply Chain Attack: How It Reached Codex CLI's macOS Signing Pipeline](/2026/04/14/axios-supply-chain-attack-codex-cli-macos-signing-incident/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Codex CLI for Documentation at Scale: The Dagster Labs Feedback Loop](/2026/04/14/codex-cli-documentation-at-scale-dagster-labs-feedback-loop/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Context Compaction Deep Dive: Codex CLI, Claude Code, and OpenCode](/2026/04/14/context-compaction-deep-dive-codex-cli-claude-code-opencode/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
 | [The Personality Difference: Claude Code vs Codex](/2026/03/27/personality-difference-claude-code-vs-codex/) | [view](https://codex.danielvaughan.com/2026/03/27/personality-difference-claude-code-vs-codex/) | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [Spec-Driven Development with Codex](/2026/03/28/spec-driven-development-codex/) | [view](https://codex.danielvaughan.com/2026/03/28/spec-driven-development-codex/) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
 | [The Proof of Work Principle](/2026/03/27/proof-of-work-principle-agents/) | [view](https://codex.danielvaughan.com/2026/03/27/proof-of-work-principle-agents/) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
@@ -157,6 +163,7 @@ Last rated: 2026-04-13 · 302 articles rated · 302 total articles.
 | [CliGate, Bifrost, and the Multi-Harness Gateway Pattern](/2026/04/10/cligate-bifrost-multi-harness-gateway/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Oh-My-Codex (OMX): The Community Orchestration Layer](/2026/04/10/oh-my-codex-omx-orchestration-layer/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Writing Effective SKILL.md Files](/2026/03/26/writing-effective-skillmd-files/) | [view](https://codex.danielvaughan.com/2026/03/26/writing-effective-skillmd-files/) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [The Silent Guessing Problem: AMBIG-SWE and Codex CLI](/2026/04/13/ambig-swe-silent-guessing-problem-codex-cli/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
 | [Testing Codex CLI Skills: The Eval Pipeline](/2026/04/13/testing-codex-cli-skills-eval-pipeline/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI v0.121: Marketplace, Agent Identity, Plugin Distribution](/2026/04/13/codex-cli-v0121-marketplace-agent-identity-plugin-distribution/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Agnix: Linting Codex CLI Agent Configurations](/2026/04/13/agnix-linting-codex-cli-agent-configurations/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
@@ -166,6 +173,13 @@ Last rated: 2026-04-13 · 302 articles rated · 302 total articles.
 | [Codex CLI in Java Spring Enterprise Teams](/2026/04/13/codex-cli-java-spring-enterprise-toolchain-integration/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Plugins as Agentic Pod Distribution](/2026/04/13/codex-cli-plugins-agentic-pod-distribution/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI for Data Science: Pandas, Polars Workflows](/2026/04/12/codex-cli-data-science-pandas-polars-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [The Codex App Server: A Complete Guide](/2026/04/15/codex-app-server-complete-guide/) | — | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI at One Year: From Research Preview to 3 Million Users](/2026/04/15/codex-cli-at-one-year-from-research-preview-to-3-million-users/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [The Desktop Superapp War: Codex Scratchpad vs Claude Epitaxy](/2026/04/14/desktop-superapp-war-codex-scratchpad-vs-claude-epitaxy/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [GitHub Agent HQ: Model Selection and Custom Agents](/2026/04/15/github-agent-hq-model-selection-codex-custom-agents/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Cloud Agent Plugin Suites: AWS, Azure, and the GCP Gap](/2026/04/13/cloud-agent-plugin-suites-aws-azure-gcp-gap/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex Exec Unix Pipelines: Prompt-Plus-Stdin](/2026/04/15/codex-exec-unix-pipelines-prompt-plus-stdin/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [The Codex CLI Notification Pipeline: OSC 9, Hooks, and Alerts](/2026/04/13/codex-cli-notification-pipeline-osc9-hooks-alerts/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI and Turborepo: Agent-Aware Builds](/2026/04/12/codex-cli-turborepo-agent-aware-builds/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [The Codex IDE Extension: VS Code & JetBrains](/2026/04/01/codex-ide-extension-vs-code-jetbrains/) | [view](https://codex.danielvaughan.com/2026/04/01/codex-ide-extension-vs-code-jetbrains/) | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [How to Be a Codex CLI Forward Deployed Engineer](/2026/04/07/codex-cli-forward-deployed-engineer/) | [view](https://codex.danielvaughan.com/2026/04/07/codex-cli-forward-deployed-engineer/) | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
