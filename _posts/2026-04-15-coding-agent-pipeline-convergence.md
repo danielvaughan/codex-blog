@@ -171,6 +171,31 @@ Three forces drove every agent to the same design:
 
 Convergence is not a failure of imagination. It is evidence that the problem is well-defined.
 
+## Enterprise Evidence: Four Companies, Same Architecture
+
+If the convergence thesis seems abstract, consider the concrete evidence from production. LangChain's **Open SWE** framework, released in April 2026, was built by studying internal coding agents at three companies: Stripe (Minions), Ramp (Inspect), and Coinbase (Cloudbot). Each team built their agent independently — Stripe forked Goose, Ramp composed on OpenCode, Coinbase built from scratch. Yet all three converged on the same architectural primitives:[^13]
+
+| Primitive | Stripe (Minions) | Ramp (Inspect) | Coinbase (Cloudbot) | Open SWE |
+|-----------|-----------------|----------------|--------------------|---------|
+| **Foundation** | Forked (Goose) | Composed (OpenCode) | Built from scratch | Composed (Deep Agents) |
+| **Sandbox** | AWS EC2 | Modal containers | In-house | Pluggable (Modal, Daytona, Runloop) |
+| **Tools** | ~500 curated | OpenCode SDK | MCPs + Skills | ~15 curated |
+| **Orchestration** | Blueprints | Sessions | Three modes | Subagents + middleware |
+
+Four different companies. Four different starting points. The same destination: isolated execution, curated tool surfaces, subagent delegation, and middleware safety nets. Open SWE's key design principle — **customisation without forking** — means sandbox providers, LLM models, tools, triggers, and middleware are all pluggable. Swap any component without rebuilding the core. This is the convergent pipeline made modular.[^14]
+
+## The Discipline Layer: Agent Skills
+
+Addy Osmani's **Agent Skills** project (10,000+ GitHub stars) represents the next convergence happening *on top of* the shared pipeline. It encodes senior engineering discipline — drawn from Google's engineering culture — into a reusable library of 19 skills and 7 commands that work identically across Claude Code, Cursor, and Gemini CLI:[^15]
+
+```
+/spec → /plan → /build → /test → /review → /code-simplify → /ship
+```
+
+The golden rules it enforces — specification before code, testing before merging, measurement before optimisation — are agent-agnostic. They work because every agent underneath runs the same pipeline. Osmani's insight is pointed: left to their own devices, agents optimise for "done" rather than "correct," skipping specifications, bypassing tests, and ignoring security reviews. The shared pipeline needs a shared discipline layer, and that layer is converging too — incorporating principles like Hyrum's Law, Chesterton's Fence, and Shift Left methodology.
+
+This is the pattern emerging above the pipeline: not just shared mechanics, but shared engineering culture encoded as portable configuration.
+
 ## What Comes Next
 
 If the pipeline is converged, the next wave of innovation will be in:
@@ -195,6 +220,7 @@ Several earlier articles in this series explore individual convergence points in
 - [Codex CLI Competitive Position, April 2026](../articles/2026-04-07-codex-cli-competitive-position-april-2026.md) — market landscape
 - [The Codex App Server: A Complete Guide](../articles/2026-04-15-codex-app-server-complete-guide.md) — the protocol beneath the pipeline
 - [Cross-Platform Agent Friction](../articles/2026-04-09-cross-platform-agent-friction.md) — what still does not port
+- [What Microservices Taught Us About Building AI Coding Agents](../articles/2026-04-15-microservices-lessons-for-agentic-engineering.md) — the architectural parallels in depth
 
 ---
 
@@ -223,3 +249,9 @@ Several earlier articles in this series explore individual convergence points in
 [^11]: The New Stack, "5 Key Trends Shaping Agentic Development in 2026." https://thenewstack.io/5-key-trends-shaping-agentic-development-in-2026/
 
 [^12]: Cross-agent interoperability tools: ruler (2.6K stars), cc-switch (35.3K stars) for config sync; mimir and CASS for session sharing across agents.
+
+[^13]: LangChain, "Open SWE: An Open-Source Framework for Internal Coding Agents," April 2026. Built by studying production agents at Stripe, Ramp, and Coinbase. https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents/
+
+[^14]: Open SWE architecture: pluggable sandbox providers, curated toolsets (~15 tools), subagent delegation via `task` tool, middleware hooks for safety nets. https://github.com/langchain-ai/open-swe
+
+[^15]: Osmani, A., "Agent Skills — Engineering discipline for AI coding agents," April 2026. 19 skills + 7 commands encoding Google engineering culture, working across Claude Code, Cursor, and Gemini CLI. 10,000+ GitHub stars. https://www.linkedin.com/posts/addyosmani_ai-softwareengineering-programming-activity-7448255964102950912-vScT
