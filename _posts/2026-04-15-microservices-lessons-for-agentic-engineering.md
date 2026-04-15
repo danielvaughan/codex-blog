@@ -100,13 +100,15 @@ In agentic engineering, cross-cutting concerns are handled by the agent framewor
 | **Resilience** | Circuit breakers, retries, timeouts | Exponential backoff with jitter, command timeouts, overload rejection (-32001) |
 | **Consistency** | Shared data structures | MCP protocol schemas, AGENTS.md standards |
 
-The speaker's point about not sharing a database between services has a direct parallel: **agents should not share mutable state implicitly**. When Codex spawns subagents via cloud exec, each gets its own context and working directory. They communicate results back through clean interfaces (return values), not by mutating shared files that other agents might be reading. The same principle, different domain.[^6]
+Addy Osmani's **Agent Skills** project (10,000+ GitHub stars) is a concrete example of this pattern in practice. It encodes senior engineering discipline — drawn from Google's engineering culture — into a shared library of 19 skills and 7 commands (`/spec`, `/plan`, `/build`, `/test`, `/review`, `/code-simplify`, `/ship`) that work across Claude Code, Cursor, and Gemini CLI.[^6] This is the cross-cutting concerns library for agentic coding: write your quality gates once, enforce them everywhere. Osmani's insight is sharp — left to their own devices, agents optimise for "done" rather than "correct," skipping specifications, bypassing tests, and ignoring security reviews. The shared library forces discipline, just as a shared auth library forces consistent authentication across microservices.
+
+The speaker's point about not sharing a database between services has a direct parallel: **agents should not share mutable state implicitly**. When Codex spawns subagents via cloud exec, each gets its own context and working directory. They communicate results back through clean interfaces (return values), not by mutating shared files that other agents might be reading. The same principle, different domain.[^7]
 
 ## Lesson 5: The Public API Gateway Pattern
 
 The speaker was emphatic: "Only have one service that talks to a GUI or mobile app." A single point of entry — an API gateway — that orchestrates calls to internal microservices. This gives you control over authentication, bandwidth, rollback, and service discovery.
 
-Codex CLI's app server is exactly this pattern. The app server is the single point of entry for every client surface — the terminal UI, VS Code extension, macOS desktop app, and the web interface at chatgpt.com/codex. Internal subsystems (the exec server, MCP servers, the model API) are hidden behind this single bidirectional JSON-RPC interface:[^7]
+Codex CLI's app server is exactly this pattern. The app server is the single point of entry for every client surface — the terminal UI, VS Code extension, macOS desktop app, and the web interface at chatgpt.com/codex. Internal subsystems (the exec server, MCP servers, the model API) are hidden behind this single bidirectional JSON-RPC interface:[^8]
 
 ```mermaid
 graph TB
@@ -143,7 +145,7 @@ graph TB
     end
 ```
 
-The speaker's advice about security at the gateway — use temporary tokens externally, trust internally with API keys — maps onto Codex's transport security model. The WebSocket transport uses capability tokens or signed JWTs for external connections. The stdio transport (internal, same process boundary) needs no authentication at all. Same principle: trust the boundary, secure the perimeter.[^8]
+The speaker's advice about security at the gateway — use temporary tokens externally, trust internally with API keys — maps onto Codex's transport security model. The WebSocket transport uses capability tokens or signed JWTs for external connections. The stdio transport (internal, same process boundary) needs no authentication at all. Same principle: trust the boundary, secure the perimeter.[^9]
 
 ## Lesson 6: Asynchronous Messaging and Decoupling
 
@@ -155,7 +157,7 @@ Codex CLI uses this pattern in several places:
 - **Cloud exec**: When Codex dispatches work to cloud workers, the communication is asynchronous. The local agent continues while remote workers process their subtasks.
 - **MCP tool calls**: External MCP servers may respond asynchronously. The agent loop does not block the entire pipeline waiting for a slow database query to return.
 
-The speaker noted the trade-off: "You do both have to agree on what the message looks like." That is exactly why MCP standardised the tool interface (JSON Schema for inputs and outputs) and why the app server protocol has a formal schema you can generate with `codex app-server generate-json-schema`. The message contract is the coupling point — everything else is decoupled.[^9]
+The speaker noted the trade-off: "You do both have to agree on what the message looks like." That is exactly why MCP standardised the tool interface (JSON Schema for inputs and outputs) and why the app server protocol has a formal schema you can generate with `codex app-server generate-json-schema`. The message contract is the coupling point — everything else is decoupled.[^10]
 
 ## Lesson 7: Observability Is Non-Negotiable
 
@@ -163,13 +165,13 @@ The speaker described the pain of tailing logs on multiple servers, trying to co
 
 Agentic coding sessions have the same problem at a different scale. A single Codex session might invoke twenty tool calls across three subagents, each making model API calls. Without observability, debugging is impossible.
 
-Codex addresses this with:[^10]
+Codex addresses this with:[^11]
 
 - **W3C Trace Context**: Every JSON-RPC request can carry a `traceparent` and `tracestate` for distributed tracing
 - **JSONL session logs**: Every item in every turn is captured for post-hoc analysis
 - **Correlation through thread IDs**: Every event is scoped to a thread, and threads have unique IDs that persist across process restarts
 
-The speaker's advice to "get all your logs in one place so you can follow the correlation all the way through" is precisely what the analytics pipeline in Codex v0.121.0 provides. The recent PRs (#16641, #16706, #16870) added JSONL session analytics that capture every tool call, model interaction, and agent decision in a single, queryable stream.[^11]
+The speaker's advice to "get all your logs in one place so you can follow the correlation all the way through" is precisely what the analytics pipeline in Codex v0.121.0 provides. The recent PRs (#16641, #16706, #16870) added JSONL session analytics that capture every tool call, model interaction, and agent decision in a single, queryable stream.[^12]
 
 ## Lesson 8: Scaling — Vertical vs. Horizontal
 
@@ -183,7 +185,7 @@ Codex CLI uses both:
 | **Horizontal** | Multiple instances + load balancer | Cloud exec with up to 6 parallel workers, subagent delegation |
 | **Statelessness requirement** | No session state on individual instances | Each cloud worker gets a fresh context — no shared mutable state |
 
-The speaker warned: "If you service a message on one instance, the next time the load balancer takes you to another, you can't rely on state from the original instance." Codex's cloud workers enforce this by design — each worker operates in an isolated sandbox with its own filesystem. If you need shared state, it flows through the orchestrator, not through side channels.[^12]
+The speaker warned: "If you service a message on one instance, the next time the load balancer takes you to another, you can't rely on state from the original instance." Codex's cloud workers enforce this by design — each worker operates in an isolated sandbox with its own filesystem. If you need shared state, it flows through the orchestrator, not through side channels.[^13]
 
 ## Lesson 9: Start with Microservices (or Agents), Keep It Under Review
 
@@ -191,7 +193,7 @@ The speaker said something unexpected: "Start with microservices, unless you can
 
 I think the same advice applies to agentic coding. If you know your task requires multiple steps — reading code, making changes, running tests, iterating — start with an agent rather than a chatbot. Do not begin with a monolithic "paste code into ChatGPT" workflow and try to add agency later. Start with `codex` or `claude` from the beginning, let the agent loop handle the orchestration, and keep your approach under review as the task evolves.
 
-But the speaker also acknowledged the modular monolith approach, attributed to Kevlin Henney: "Nobody told you to write a messy monolith." You can have all your code in one place and still keep it modular. The agentic equivalent is using a single agent session with well-structured AGENTS.md instructions rather than immediately reaching for multi-agent orchestration. Sometimes one well-configured agent is better than a committee of poorly coordinated ones.[^13]
+But the speaker also acknowledged the modular monolith approach, attributed to Kevlin Henney: "Nobody told you to write a messy monolith." You can have all your code in one place and still keep it modular. The agentic equivalent is using a single agent session with well-structured AGENTS.md instructions rather than immediately reaching for multi-agent orchestration. Sometimes one well-configured agent is better than a committee of poorly coordinated ones.[^14]
 
 ## Lesson 10: The Distributed Monolith Anti-Pattern
 
@@ -205,6 +207,42 @@ In agentic engineering, the distributed monolith looks like this:
 - Tool chains where changing one tool's output format breaks every downstream tool
 
 The antidote is the same in both worlds: **loose coupling through clean contracts**. Each tool should have a well-defined interface. Each agent should be independently deployable. State should be explicit, not implicit.
+
+## Production Validation: Open SWE and the Enterprise Pattern
+
+If you are unconvinced that microservices patterns map onto agentic coding, consider LangChain's **Open SWE** framework, released in April 2026. It is an open-source framework for building internal coding agents, and its architecture reads like a microservices system design document.[^15]
+
+Open SWE was built by studying production coding agents at Stripe (Minions, forked from Goose), Ramp (Inspect, composed on OpenCode), and Coinbase (Cloudbot, built from scratch). Despite three different companies making three different implementation choices, they all converged on the same architectural primitives:
+
+| Microservices Primitive | Open SWE Implementation |
+|------------------------|------------------------|
+| **Independent services** | Subagents via `task` tool — child agents with isolated context |
+| **Container isolation** | Pluggable sandbox providers (Modal, Daytona, Runloop) — each task runs in its own cloud environment |
+| **Cross-cutting concerns** | Middleware hooks — deterministic safety nets (linting before commit, automatic PR creation) |
+| **Curated API surface** | ~15 carefully selected tools rather than an unbounded tool registry |
+| **Service discovery** | AGENTS.md for repository conventions; Linear/Slack/GitHub for task context |
+| **API gateway** | Slack-first invocation — single entry point meeting developers in existing workflows |
+
+The comparison table from LangChain's blog is revealing:
+
+```mermaid
+graph TB
+    subgraph "Four Companies, Same Architecture"
+        Stripe["Stripe (Minions)\n~500 tools\nAWS EC2 sandbox\nBlueprint orchestration"]
+        Ramp["Ramp (Inspect)\nOpenCode SDK\nModal containers\nSession-based"]
+        Coinbase["Coinbase (Cloudbot)\nMCPs + Skills\nIn-house sandbox\nThree modes"]
+        OpenSWE["Open SWE\n~15 curated tools\nPluggable sandbox\nSubagents + middleware"]
+    end
+
+    Common["Shared Pattern:\nisolated execution +\ncurated tools +\nsubagent delegation +\nmiddleware safety nets"]
+
+    Stripe --> Common
+    Ramp --> Common
+    Coinbase --> Common
+    OpenSWE --> Common
+```
+
+The key insight from Open SWE is **customisation without forking** — sandbox providers, LLM models, tools, triggers, system prompts, and middleware are all pluggable. This is the microservices promise applied to agents: swap out any component without rebuilding the core. It is the same modularity the Norfolk Developers speaker advocated for services, now applied to agent architecture.[^16]
 
 ## The Deeper Connection
 
@@ -247,18 +285,24 @@ The microservices era taught us how to decompose, coordinate, and observe autono
 
 [^5]: The importance of clear error reporting for agent self-correction is discussed in: Tompkins et al., "Building AI Coding Agents for the Terminal," arXiv, March 2026. https://arxiv.org/html/2603.05344v1
 
-[^6]: Codex cloud exec isolation: each worker operates in an independent sandbox. OpenAI, "Codex Cloud Execution," April 2026. https://developers.openai.com/codex/concepts/cloud-execution
+[^6]: Osmani, A., "Agent Skills — Engineering discipline for AI coding agents," April 2026. 19 skills + 7 commands encoding Google engineering culture. 10,000+ GitHub stars. https://www.linkedin.com/posts/addyosmani_ai-softwareengineering-programming-activity-7448255964102950912-vScT
 
-[^7]: The Codex app server as single point of entry is documented in: "The Codex App Server: A Complete Guide," codex.danielvaughan.com, April 2026.
+[^7]: Codex cloud exec isolation: each worker operates in an independent sandbox. OpenAI, "Codex Cloud Execution," April 2026. https://developers.openai.com/codex/concepts/cloud-execution
 
-[^8]: Transport security: WebSocket uses capability tokens or signed JWTs; stdio is inherently trusted. `codex-rs/app-server/src/transport/auth.rs`. https://github.com/openai/codex/blob/main/codex-rs/app-server/src/transport/auth.rs
+[^8]: The Codex app server as single point of entry is documented in: "The Codex App Server: A Complete Guide," codex.danielvaughan.com, April 2026.
 
-[^9]: MCP protocol standardisation: donated to the Agentic AI Foundation (Linux Foundation), December 2025. 97 million monthly SDK downloads. https://mcpmanager.ai/blog/mcp-adoption-statistics/
+[^9]: Transport security: WebSocket uses capability tokens or signed JWTs; stdio is inherently trusted. `codex-rs/app-server/src/transport/auth.rs`. https://github.com/openai/codex/blob/main/codex-rs/app-server/src/transport/auth.rs
 
-[^10]: W3C Trace Context in Codex: `JSONRPCRequest.trace` field. https://github.com/openai/codex/blob/main/codex-rs/app-server-protocol/src/lib.rs
+[^10]: MCP protocol standardisation: donated to the Agentic AI Foundation (Linux Foundation), December 2025. 97 million monthly SDK downloads. https://mcpmanager.ai/blog/mcp-adoption-statistics/
 
-[^11]: Analytics pipeline PRs: #16641, #16706, #16870 added JSONL session analytics to Codex v0.121.0. https://github.com/openai/codex/pulls
+[^11]: W3C Trace Context in Codex: `JSONRPCRequest.trace` field. https://github.com/openai/codex/blob/main/codex-rs/app-server-protocol/src/lib.rs
 
-[^12]: Codex cloud workers are stateless by design — each operates in an isolated sandbox with its own filesystem. https://developers.openai.com/codex/concepts/cloud-execution
+[^12]: Analytics pipeline PRs: #16641, #16706, #16870 added JSONL session analytics to Codex v0.121.0. https://github.com/openai/codex/pulls
 
-[^13]: Henney, K., various talks on modular monoliths and software architecture. The principle "nobody told you to write a messy monolith" applies equally to agent session design.
+[^13]: Codex cloud workers are stateless by design — each operates in an isolated sandbox with its own filesystem. https://developers.openai.com/codex/concepts/cloud-execution
+
+[^14]: Henney, K., various talks on modular monoliths and software architecture. The principle "nobody told you to write a messy monolith" applies equally to agent session design.
+
+[^15]: LangChain, "Open SWE: An Open-Source Framework for Internal Coding Agents," April 2026. Built on Deep Agents and LangGraph, studying production agents at Stripe, Ramp, and Coinbase. https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents/
+
+[^16]: Open SWE's pluggable architecture (sandbox providers, models, tools, triggers, middleware) demonstrates the microservices principle of swappable components behind stable interfaces. https://github.com/langchain-ai/open-swe
