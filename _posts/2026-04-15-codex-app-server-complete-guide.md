@@ -12,6 +12,8 @@ tags:
   - integration
 ---
 
+![Sketchnote diagram for: The Codex App Server: A Complete Guide to the Protocol That Powers Every Surface](/sketchnotes/articles/2026-04-15-codex-app-server-complete-guide.png)
+
 # The Codex App Server: A Complete Guide to the Protocol That Powers Every Surface
 
 
@@ -37,24 +39,19 @@ OpenAI initially experimented with exposing Codex as an MCP (Model Context Proto
 
 An app-server process consists of four cooperating async tasks:[^4]
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    Codex App Server                      │
-│                                                          │
-│  ┌──────────────┐    ┌──────────────┐    ┌────────────┐ │
-│  │  Transport    │───▶│  Message     │───▶│  Thread    │ │
-│  │  Layer        │    │  Processor   │    │  Manager   │ │
-│  │              │◀───│              │◀───│            │ │
-│  │  stdio /     │    │  JSON-RPC    │    │  Per-thread│ │
-│  │  WebSocket / │    │  dispatch    │    │  state &   │ │
-│  │  Remote Ctrl │    │              │    │  agent     │ │
-│  └──────────────┘    └──────────────┘    └────────────┘ │
-│         ▲                                      │         │
-│         │            ┌──────────────┐          │         │
-│         └────────────│  Outbound    │◀─────────┘         │
-│                      │  Router      │                    │
-│                      └──────────────┘                    │
-└─────────────────────────────────────────────────────────┘
+```mermaid
+graph LR
+    subgraph AppServer["Codex App Server"]
+        Transport["Transport Layer\n(stdio / WebSocket /\nRemote Control)"]
+        Processor["Message Processor\n(JSON-RPC dispatch)"]
+        ThreadMgr["Thread Manager\n(per-thread state\n& agent)"]
+        Router["Outbound Router"]
+
+        Transport -->|requests| Processor
+        Processor -->|commands| ThreadMgr
+        ThreadMgr -->|events| Router
+        Router -->|responses &\nnotifications| Transport
+    end
 ```
 
 1. **Transport Layer** — Accepts connections (stdio, WebSocket, or Remote Control), deserialises incoming messages into `JSONRPCMessage` structs, and forwards them on a bounded channel.
@@ -96,8 +93,9 @@ When a turn completes, the server emits `turn/completed` with token usage statis
 
 An **Item** is the atomic unit of output within a turn. Each item has an explicit lifecycle:
 
-```
-item/started  →  item/*/delta (0..N)  →  item/completed
+```mermaid
+graph LR
+    A["item/started"] --> B["item/*/delta\n(0..N)"] --> C["item/completed"]
 ```
 
 Item types include:
@@ -189,14 +187,14 @@ An internal transport (`in_process.rs`) provides bounded in-memory channels that
 
 Every client connection follows the same initialisation handshake:[^14]
 
-```
-Client                          Server
-  │                               │
-  │──── initialize ──────────────▶│  (clientInfo, capabilities)
-  │◀─── initialize response ─────│  (serverInfo, capabilities)
-  │──── initialized ─────────────▶│  (notification)
-  │                               │
-  │  ... normal operation ...     │
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Server
+    Client->>Server: initialize (clientInfo, capabilities)
+    Server-->>Client: initialize response (serverInfo, capabilities)
+    Client->>Server: initialized (notification)
+    Note over Client,Server: Normal operation begins
 ```
 
 1. The client sends an `initialize` request with `clientInfo` (name, version, title) and optional capabilities (e.g., `experimentalApi: true`, `optOutNotificationMethods: [...]`).
@@ -331,20 +329,14 @@ Output is chunked at a 64 KiB hint size, with individual raw PTY chunks capped a
 
 Alongside the app server, Codex ships a separate **exec-server** (`codex-exec-server`) that handles the lower-level concerns: running commands in sandboxes, reading and writing files, and watching filesystem changes.[^20]
 
-```
-┌────────────────────────┐
-│   Client (TUI/IDE)     │
-└──────────┬─────────────┘
-           │ JSON-RPC
-┌──────────▼─────────────┐
-│   App Server            │  ← Conversations, threads, model calls
-│   (codex app-server)    │
-└──────────┬─────────────┘
-           │ JSON-RPC
-┌──────────▼─────────────┐
-│   Exec Server           │  ← Command execution, filesystem, sandbox
-│   (codex exec-server)   │
-└────────────────────────┘
+```mermaid
+graph TB
+    Client["Client\n(TUI / IDE)"]
+    AppServer["App Server\n(codex app-server)\nConversations, threads, model calls"]
+    ExecServer["Exec Server\n(codex exec-server)\nCommand execution, filesystem, sandbox"]
+
+    Client -->|JSON-RPC| AppServer
+    AppServer -->|JSON-RPC| ExecServer
 ```
 
 This separation enables a key deployment pattern: the app server runs locally (close to the user for low-latency interaction), while the exec server runs on a remote machine with more resources. The developer types on a laptop, but code executes on a cloud VM.
@@ -428,8 +420,9 @@ An async variant (`AsyncAppServerClient`) wraps the sync client using `asyncio.t
 
 The default pattern. VS Code, the desktop app, and the Python SDK all launch `codex app-server` as a child process and communicate over stdio.
 
-```
-VS Code Extension ──stdio──▶ codex app-server (child process)
+```mermaid
+graph LR
+    VSCode["VS Code Extension"] -->|stdio| AppServer["codex app-server\n(child process)"]
 ```
 
 **When to use:** Interactive development on your own machine. Zero configuration needed.
