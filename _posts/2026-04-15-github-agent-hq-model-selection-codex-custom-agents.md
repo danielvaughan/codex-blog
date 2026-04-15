@@ -5,6 +5,8 @@ nav_order: 282
 tags: ["github", "agent-hq", "model-selection", "codex-agent", "custom-agents", "copilot", "gpt-5.4", "gpt-5.3-codex", "premium-requests"]
 ---
 
+![Sketchnote diagram for: GitHub Agent HQ Model Selection: Choosing GPT-5.4 vs GPT-5.3-Codex, Custom Agents, and the Multi-Agent GitHub Workflow](/sketchnotes/articles/2026-04-15-github-agent-hq-model-selection-codex-custom-agents.png)
+
 # GitHub Agent HQ Model Selection: Choosing GPT-5.4 vs GPT-5.3-Codex, Custom Agents, and the Multi-Agent GitHub Workflow
 
 

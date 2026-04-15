@@ -5,6 +5,8 @@ nav_order: 283
 tags: ["codex-exec", "stdin", "pipelines", "unix-philosophy", "shell-composition", "automation", "output-schema", "structured-output"]
 ---
 
+![Sketchnote diagram for: Codex CLI as a Unix Citizen: Prompt-Plus-Stdin, Shell Pipelines, and Composable Agent Workflows](/sketchnotes/articles/2026-04-15-codex-exec-unix-pipelines-prompt-plus-stdin.png)
+
 # Codex CLI as a Unix Citizen: Prompt-Plus-Stdin, Shell Pipelines, and Composable Agent Workflows
 
 

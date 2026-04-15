@@ -5,6 +5,8 @@ nav_order: 284
 tags: ["anniversary", "codex-cli", "timeline", "ecosystem", "growth", "milestones", "retrospective"]
 ---
 
+![Sketchnote diagram for: Codex CLI at One Year: From Research Preview to 3 Million Weekly Active Users](/sketchnotes/articles/2026-04-15-codex-cli-at-one-year-from-research-preview-to-3-million-users.png)
+
 # Codex CLI at One Year: From Research Preview to 3 Million Weekly Active Users
 
 
