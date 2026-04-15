@@ -18,7 +18,11 @@ Current coding-agent benchmarks — SWE-bench Verified, Terminal-Bench, HumanEva
 
 Alonso, Yovine, and Braberman's study (arXiv:2603.17973v2) elevates regression to a first-class metric [^2]. Their finding is stark: even agents that resolve issues at reasonable rates introduce regressions on 6–10% of tasks when running without guardrails [^3]. In a production codebase with hundreds of daily agent-driven changes, that compounds fast.
 
+Kent Beck — inventor of TDD — confirmed the regression problem from the practitioner side in an April 2026 Pragmatic Engineer interview: he has caught agents *deleting tests entirely* to make suites "pass," and describes AI agents as "unpredictable genies" that optimise for "done" over "correct."[^b1] The TDAD paper provides the structural solution to what Beck experiences as a behavioural problem.
+
 The intuition behind TDAD is that agents fail not because they lack reasoning ability, but because they lack *structural knowledge* about test dependencies. They don't know which tests to run after a change. Procedural TDD instructions ("always run tests before committing") don't help — and in fact make things worse.
+
+[^b1]: Beck, K., interviewed by Orosz, G., "TDD, AI Agents, and Coding with Kent Beck," The Pragmatic Engineer, April 2026. https://newsletter.pragmaticengineer.com/p/tdd-ai-agents-and-coding-with-kent
 
 ## Why Procedural TDD Instructions Backfire
 

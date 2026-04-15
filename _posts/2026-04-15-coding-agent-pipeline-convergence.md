@@ -169,6 +169,8 @@ Three forces drove every agent to the same design:
 
 **3. The safety constraint.** The moment you let an LLM run shell commands, you need sandboxing and approval workflows. The design space for "how do you let an AI execute code safely" is surprisingly small, and every team explored it independently and landed on the same options.
 
+**4. The economics constraint.** Kent Beck captures this in an April 2026 Pragmatic Engineer interview: *"the whole landscape of what's cheap and what's expensive has all just shifted."*[^16] When code generation becomes near-free, the expensive operations become verification, design, and context engineering. Every agent team independently discovered this — which is why they all converged on the same verification primitives (test gates, approval workflows, hook-based quality enforcement) rather than competing on generation speed alone.
+
 Convergence is not a failure of imagination. It is evidence that the problem is well-defined.
 
 ## Enterprise Evidence: Four Companies, Same Architecture
@@ -255,3 +257,5 @@ Several earlier articles in this series explore individual convergence points in
 [^14]: Open SWE architecture: pluggable sandbox providers, curated toolsets (~15 tools), subagent delegation via `task` tool, middleware hooks for safety nets. https://github.com/langchain-ai/open-swe
 
 [^15]: Osmani, A., "Agent Skills — Engineering discipline for AI coding agents," April 2026. 19 skills + 7 commands encoding Google engineering culture, working across Claude Code, Cursor, and Gemini CLI. 10,000+ GitHub stars. https://www.linkedin.com/posts/addyosmani_ai-softwareengineering-programming-activity-7448255964102950912-vScT
+
+[^16]: Beck, K., interviewed by Orosz, G., "TDD, AI Agents, and Coding with Kent Beck," The Pragmatic Engineer, April 2026. https://newsletter.pragmaticengineer.com/p/tdd-ai-agents-and-coding-with-kent

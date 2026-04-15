@@ -44,6 +44,10 @@ Karpathy's redefinition shifts the human role from *writer* to *orchestrator*. W
 
 Addy Osmani's formulation captures this precisely: *"AI does the implementation, human owns the architecture, quality, and correctness."*[^5]
 
+Kent Beck — 52 years of coding experience, inventor of Extreme Programming and TDD — offers a complementary lens. In an April 2026 Pragmatic Engineer interview, Beck describes AI agents as "unpredictable genies" that optimise for "done" rather than "correct."[^5b] His key insight is that the economics have shifted: *"the whole landscape of what's cheap and what's expensive has all just shifted,"* creating second and third-order effects that require experimentation rather than prediction. What was once expensive (exploring multiple implementations, cross-language prototyping, building ambitious side projects) is now cheap. What was once cheap (trusting that code is correct because you wrote it yourself) is now expensive — because you didn't write it, and the agent may have taken shortcuts you can't see. That inversion is the core argument for agentic engineering over vibe coding: when generation is cheap, verification becomes the scarce resource.
+
+[^5b]: Beck, K., interviewed by Orosz, G., "TDD, AI Agents, and Coding with Kent Beck," The Pragmatic Engineer, April 2026. https://newsletter.pragmaticengineer.com/p/tdd-ai-agents-and-coding-with-kent
+
 The difference is not just philosophical. It is expressed in concrete workflow choices:
 
 | Dimension | Vibe Coding | Agentic Engineering |
