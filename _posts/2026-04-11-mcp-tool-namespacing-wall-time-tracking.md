@@ -10,7 +10,9 @@ tags: ["mcp", "namespacing", "wall-time", "performance", "tool-collision", "code
 # MCP Tool Namespacing and Wall Time Tracking in Codex CLI
 
 
-As Codex CLI users connect more MCP servers to their workflows — from Figma and Chrome DevTools to custom internal tooling — the risk of tool name collisions grows proportionally. Two open pull requests against the Codex CLI repository, [#17404](https://github.com/openai/codex/pull/17404) (tool namespacing) and [#17406](https://github.com/openai/codex/pull/17406) (wall time tracking), address this head-on. This article examines the collision problem, how Codex CLI is solving it, and what wall time visibility means for MCP performance tuning.
+**Update (April 15):** PR [#17404](https://github.com/openai/codex/pull/17404) (tool namespacing) has now **merged** (April 15, 13:03 UTC). All MCP tools are registered with consistent namespace format regardless of deferral status. The fix also introduces `ToolName` provenance tracking in code mode, mapping JS function names to correct `ToolName` for invocation. This eliminates the dual-registration bug where direct and deferred MCP tools used different formats.
+
+As Codex CLI users connect more MCP servers to their workflows — from Figma and Chrome DevTools to custom internal tooling — the risk of tool name collisions grows proportionally. Two pull requests against the Codex CLI repository, [#17404](https://github.com/openai/codex/pull/17404) (tool namespacing, **now merged**) and [#17406](https://github.com/openai/codex/pull/17406) (wall time tracking), address this head-on. This article examines the collision problem, how Codex CLI is solving it, and what wall time visibility means for MCP performance tuning.
 
 ## The Tool Name Collision Problem
 
