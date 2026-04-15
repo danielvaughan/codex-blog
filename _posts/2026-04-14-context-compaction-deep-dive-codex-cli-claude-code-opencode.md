@@ -5,6 +5,8 @@ nav_order: 281
 tags: ["context-compaction", "token-management", "long-sessions", "codex-cli", "claude-code", "opencode", "encrypted-content", "session-memory", "/compact"]
 ---
 
+![Sketchnote diagram for: Context Compaction Deep Dive: How Codex CLI, Claude Code, and OpenCode Manage Long Sessions](/sketchnotes/articles/2026-04-14-context-compaction-deep-dive-codex-cli-claude-code-opencode.png)
+
 # Context Compaction Deep Dive: How Codex CLI, Claude Code, and OpenCode Manage Long Sessions
 
 
