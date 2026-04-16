@@ -60,15 +60,59 @@ No pricing change from the previous generation.
 
 ---
 
+## Benchmarks
+
+Early benchmark data shows Opus 4.7 delivering measurable improvements across multiple domains:
+
+| Benchmark | Opus 4.7 | Opus 4.6 | Improvement |
+|-----------|----------|----------|-------------|
+| Coding (93-task eval) | — | — | +13% lift |
+| CursorBench | 70% | 58% | +12 pts |
+| General Finance | 0.813 | 0.767 | +6% |
+| Visual acuity | 98.5% | 54.5% | +44 pts |
+| Document reasoning | — | — | 21% fewer errors |
+| Production tasks (Rakuten) | 3× more completed | baseline | +200% throughput |
+| Tool-call accuracy | — | — | Double-digit improvement |
+
+Anthropic claims Opus 4.7 beats ChatGPT 5.4 and Gemini 3.1 Pro across key benchmarks. The tool-call accuracy improvement and failure recovery capability are particularly relevant for agentic workflows — agents that can recover from tool failures mid-execution waste fewer tokens on retries and dead-end paths.
+
+### Mythos Preview Context
+
+Anthropic concedes that Opus 4.7 still trails its unreleased **Mythos Preview** model, which has been shared only with select tech and cybersecurity companies. According to [Axios](https://www.axios.com/2026/04/16/anthropic-claude-opus-model-mythos), Opus 4.7 includes differential training to reduce cyber capabilities compared to Mythos — a deliberate capability cap for the public release. A new **Cyber Verification Program** enables legitimate security researchers to access fuller capabilities for vulnerability testing and red-teaming.
+
+---
+
 ## Impact on Codex CLI and Claude Code Workflows
 
-For Claude Code users, Opus 4.7 is a direct upgrade: better agentic execution, larger vision inputs, and the new `/ultrareview` command. For Codex CLI users who access Claude models via the `codex-plugin-cc` cross-model bridge or multi-provider configurations, the improved self-verification and vision capabilities carry over to cross-platform workflows.
+For Claude Code users, Opus 4.7 is a direct upgrade: better agentic execution, larger vision inputs, and the new `/ultrareview` command. Auto Mode is now extended to Max users for autonomous decision-making. For Codex CLI users who access Claude models via the `codex-plugin-cc` cross-model bridge or multi-provider configurations, the improved self-verification and vision capabilities carry over to cross-platform workflows.
 
 The tokenizer change (1.0-1.35x increase) is the main operational consideration. Teams running close to context window limits or with tight per-session token budgets should test their existing workflows against Opus 4.7 before switching, and adjust compaction thresholds or budget caps accordingly.
+
+### Task Budgets (Public Beta)
+
+Opus 4.7 introduces **task budgets** in public beta — a feature to guide token spending on longer runs. This directly parallels Codex CLI's own goal mode token budgets (PRs #18074-#18077), suggesting convergent evolution: both platforms are solving the same problem of autonomous agents needing spending guardrails.
+
+---
+
+## Competitive Implications
+
+| Dimension | Codex CLI (GPT-5.4) | Claude Code (Opus 4.7) |
+|-----------|---------------------|------------------------|
+| Coding benchmark | Strong (GPT-5.4 Codex line) | 70% CursorBench, +13% coding lift |
+| Tool failure recovery | Guardian + hooks | Native model capability |
+| Token cost control | Goal mode budgets | Task budgets (beta) |
+| Effort levels | Standard reasoning | `xhigh` new tier |
+| Autonomy | Goal mode, full-auto | Auto Mode (93% approval) |
+| Vision | Screenshot via MCP | 3.75 MP native (2,576 px) |
+
+The competitive gap is narrowing on the autonomy axis: both platforms are converging on "supervised autonomous" modes with cost guardrails. The key differentiator remains infrastructure — Codex CLI's Rust-based sandbox and hook system vs Claude Code's model-native self-verification.
 
 ---
 
 ## Further Reading
 
 - [Anthropic announcement](https://www.anthropic.com/news/claude-opus-4-7)
+- [Axios: Anthropic releases Claude Opus 4.7, concedes it trails Mythos](https://www.axios.com/2026/04/16/anthropic-claude-opus-model-mythos)
+- [9to5Mac: New Opus 4.7 model with focus on advanced software engineering](https://9to5mac.com/2026/04/16/anthropic-reveals-new-opus-4-7-model-with-focus-on-advanced-software-engineering/)
+- [GitHub Blog: Claude Opus 4.7 is generally available](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/)
 - Chapter 4 (Benchmarks) and Chapter 5 (Competing Tools) of the Codex CLI book cover Claude model performance in detail
