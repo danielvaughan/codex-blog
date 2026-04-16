@@ -395,19 +395,25 @@ Google's Gemma 4 family changed the calculus. Released on 2 April 2026 under the
 
 For a detailed walkthrough of running Gemma 4 locally with Codex CLI, including exact configuration, benchmarks, and known limitations, see ["Running Gemma 4 as a Local Model in the Codex CLI Harness"](../articles/2026-04-10-gemma-4-local-model-codex-cli.md) and the [comparison with Claude Code's local model support](../articles/2026-04-12-gemma-4-codex-cli-vs-claude-code-local-model-comparison.md).
 
+**Qwen3.6-35B-A3B is the strongest evidence yet that local models are viable for production agentic work.** Released under the Apache 2.0 licence, this Mixture-of-Experts model has 35 billion total parameters but activates only 3 billion at inference time — just 8.6% activation — meaning it runs at speeds comparable to a 3B dense model while delivering frontier-class results.[^30] On SWE-bench Verified, the standard benchmark for autonomous coding agents, Qwen3.6-35B-A3B scores **73.4**, nearly matching its dense 27B sibling (75.0) and massively outperforming Gemma 4's 31B Dense (52.0 on SWE-bench) and Gemma 4's 26B MoE (17.4 on SWE-bench).[^30] On Terminal-Bench 2.0, a benchmark specifically measuring terminal-based agentic coding, it scores **51.5**, actually *exceeding* the dense Qwen 27B model's 41.6.[^30] Its MCPMark score of 37.0 dwarfs Gemma 4 31B's 18.1, confirming dramatically superior tool-calling reliability for MCP-based workflows.[^30]
+
+What makes this transformative for cost economics is the hardware requirement. With Q4 quantization, the model compresses to approximately 18-20 GB, fitting comfortably on any machine with 24 GB of VRAM — or on an M5 Pro Mac with 36 GB of unified memory with room to spare for the operating system, editor, and tooling.[^30] The 256K native context window (extensible to 1M) means it can handle substantial codebases without truncation. It supports tool calling, MCP integration, and multi-token prediction for speculative decoding, and ships with a dedicated terminal coding agent called Qwen Code.[^30]
+
+The cost implication is stark: **73.4 on SWE-bench Verified, at \$0 per token, running locally at 3B-model speeds.** That is frontier-class autonomous coding performance — the kind of score that would have been headline news from a cloud provider twelve months ago — running on a developer's laptop.
+
 ### The Hardware: What to Buy
 
 The hardware required to run competitive local models has reached a tipping point where the investment pays for itself within months.
 
 | Hardware | Price | Unified Memory | Memory Bandwidth | Local Model Capacity | Use Case |
 |----------|-------|---------------|-----------------|---------------------|----------|
-| **MacBook Pro M5 Pro (14")** | From $2,199 | Up to 64 GB | 307 GB/s | Gemma 4 26B MoE comfortably | Developer workstation |
-| **MacBook Pro M5 Pro (16")** | From $2,699 | Up to 64 GB | 307 GB/s | Gemma 4 26B MoE + editor + tools | Developer workstation |
-| **Mac Studio M5 Max** | ~$4,500 | Up to 128 GB | 546 GB/s | Gemma 4 31B Dense, multiple models | Team inference server |
+| **MacBook Pro M5 Pro (14")** | From $2,199 | Up to 64 GB | 307 GB/s | Gemma 4 26B MoE or Qwen3.6-35B-A3B (Q4) comfortably | Developer workstation |
+| **MacBook Pro M5 Pro (16")** | From $2,699 | Up to 64 GB | 307 GB/s | Qwen3.6-35B-A3B (Q4) + editor + tools | Developer workstation |
+| **Mac Studio M5 Max** | ~$4,500 | Up to 128 GB | 546 GB/s | Gemma 4 31B Dense, Qwen3.6-35B-A3B (FP16), multiple models | Team inference server |
 | **Dell Pro Max GB10** | ~$3,500 | 128 GB unified | ~273 GB/s | 200B parameter models | Enterprise AI workstation |
 | **2x Dell GB10 (linked)** | ~$7,000 | 256 GB unified | ~546 GB/s | 400B+ parameter models | On-premise inference cluster |
 
-**The Apple M5 Pro** deserves special attention. Apple's March 2026 refresh embedded a Neural Accelerator inside every GPU core rather than maintaining a single centralised unit, delivering up to 4x faster LLM prompt processing than the M4 Pro.[^22] With 307 GB/s memory bandwidth and up to 64 GB of unified memory, it runs Gemma 4 26B MoE at approximately 7 tokens/second via Metal offloading, not cloud-speed, but genuinely usable for focused coding sessions.[^21] The 14-inch model starts at $2,199, making it accessible as a standard developer workstation that happens to double as a local inference machine.
+**The Apple M5 Pro** deserves special attention. Apple's March 2026 refresh embedded a Neural Accelerator inside every GPU core rather than maintaining a single centralised unit, delivering up to 4x faster LLM prompt processing than the M4 Pro.[^22] With 307 GB/s memory bandwidth and up to 64 GB of unified memory, it runs Gemma 4 26B MoE at approximately 7 tokens/second via Metal offloading, not cloud-speed, but genuinely usable for focused coding sessions.[^21] Qwen3.6-35B-A3B at Q4 quantization (~18-20 GB) fits on the 36 GB configuration with room to spare, and because only 3B parameters are active per forward pass, inference speed is comparable to running a 3B dense model — significantly faster than Gemma 4 26B MoE while delivering dramatically better SWE-bench scores (73.4 vs. 17.4).[^30] The 14-inch model starts at $2,199, making it accessible as a standard developer workstation that happens to double as a local inference machine.
 
 **The Dell Pro Max GB10** takes a different approach: NVIDIA Grace Blackwell architecture with 128 GB of unified memory and 1,000 FP4 TOPS, capable of loading a 200-billion parameter model entirely into memory.[^23] At ~$3,500, it costs less than three months of a heavy Claude Code API habit. Testing with Codex CLI showed the GB10 running the 31B Dense model completed a benchmark task in just 3 clean tool calls, compared to 10 messy calls on the Mac's 26B MoE, demonstrating that for agentic coding, model quality matters more than raw token generation speed.[^29]
 
@@ -415,7 +421,7 @@ For teams that need more capacity, two Dell GB10 units can be linked for 256 GB 
 
 ### What Local Models Handle Well
 
-Local models are not a replacement for cloud APIs for everything. They are a **cost-reduction layer for specific, high-volume workloads** that do not require frontier reasoning:
+Local models are not a replacement for cloud APIs for everything. They are a **cost-reduction layer for specific, high-volume workloads** that do not require frontier reasoning. That said, Qwen3.6-35B-A3B's 73.4 on SWE-bench Verified blurs this boundary — a local model scoring within striking distance of frontier cloud models can handle substantially more complex tasks than was previously assumed for the local tier:
 
 **Code completion and generation.** Gemma 4 26B scores 77.1% on LiveCodeBench[^21], competitive with much larger cloud models for routine coding tasks. Boilerplate generation, implementing well-defined interfaces, writing CRUD operations, and filling in standard patterns are all tasks where local inference produces equivalent quality at zero marginal cost.
 
@@ -436,7 +442,7 @@ flowchart TD
     T["Incoming Task"] --> C{"Complexity<br/>Assessment"}
     C -->|"Complex multi-file<br/>architecture, security review,<br/>deep reasoning"| CLOUD["☁️ Cloud API<br/>GPT-5.4 / Opus 4.6 / Sonnet 4.6<br/>$3-25/MTok"]
     C -->|"Standard feature<br/>implementation"| ROUTE{"Latency<br/>sensitive?"}
-    C -->|"Code completion, tests,<br/>docs, review, exploration"| LOCAL["🖥️ Local Model<br/>Gemma 4 26B MoE / 31B Dense<br/>$0/token"]
+    C -->|"Code completion, tests,<br/>docs, review, exploration"| LOCAL["🖥️ Local Model<br/>Qwen3.6-35B-A3B / Gemma 4 26B MoE<br/>$0/token"]
     ROUTE -->|Yes| CLOUD
     ROUTE -->|No| LOCAL
 
@@ -454,7 +460,7 @@ flowchart TD
 - Simple code generation, formatting, documentation
 - Privacy-sensitive work that cannot leave the network
 - Test generation and review assistance (high-volume, pattern-driven)
-- Focused single-task sessions (Gemma 4 is reliable for 3-4 chained tool calls[^21])
+- Focused single-task sessions (Gemma 4 is reliable for 3-4 chained tool calls[^21]; Qwen3.6-35B-A3B supports extended tool-calling chains via MCP[^30])
 - Weekend/evening work where latency tolerance is higher
 - CI/CD tasks where each run is a cost event at API rates
 - Exploratory coding where iteration count is unpredictable
@@ -465,7 +471,7 @@ flowchart TD
 - Long autonomous sessions beyond 4-5 chained operations
 - Production CI/CD where reliability matters more than cost
 - Tasks requiring frontier model capabilities (security review, complex refactoring)
-- Large codebase exploration requiring 64K+ context windows
+- Large codebase exploration requiring very deep context (though Qwen3.6-35B-A3B's 256K native window, extensible to 1M, narrows this gap)
 
 ### The Cost Comparison: Hardware vs. Cloud
 
@@ -498,6 +504,11 @@ name = "Local (Dell GB10 + Ollama)"
 base_url = "http://gb10-server.local:11434/v1"
 
 [profiles.local]
+model = "qwen3.6-35b-a3b"
+model_provider = "local_mac"
+web_search = "disabled"
+
+[profiles.local_gemma]
 model = "gemma-4-26b"
 model_provider = "local_mac"
 web_search = "disabled"
@@ -558,7 +569,7 @@ When a developer consistently spends \$1,000 or more per month on AI coding tool
 
 **No context management.** Sessions are bloating unchecked. There is no `.codexignore` filtering irrelevant files from context. There is no early compaction discipline (see [Article 10](/premium/10-context-compaction-and-memory/)). Conversation history accumulates exponentially, and every follow-up message pays the tax on the entire session. A developer spending $1,000/month is likely re-sending hundreds of thousands of tokens per session that contribute nothing to output quality.
 
-**No local inference layer.** Routine edits, documentation passes, simple code generation, and exploratory research are all hitting cloud APIs at full price. As the previous section showed, a MacBook Pro M5 Pro running Gemma 4 handles these tasks at zero marginal cost. Not having a local layer is like paying for a taxi for every trip including the ones across the street.
+**No local inference layer.** Routine edits, documentation passes, simple code generation, and exploratory research are all hitting cloud APIs at full price. As the previous section showed, a MacBook Pro M5 Pro running Qwen3.6-35B-A3B or Gemma 4 handles these tasks at zero marginal cost — and with Qwen3.6 scoring 73.4 on SWE-bench Verified, the range of tasks that qualify as "local-viable" has expanded dramatically. Not having a local layer is like paying for a taxi for every trip including the ones across the street.
 
 **No pipeline discipline.** They are accepting first-pass output from the model and iterating through conversation rather than structured quality gates. Each "fix this" follow-up in a long session costs more than a fresh, well-prompted session with proper context. The compound engineering workflow eliminates this pattern by front-loading planning and automating review, so execution sessions are short, focused, and cheap.
 
@@ -573,7 +584,7 @@ Here is what a professional-grade monthly budget actually looks like when workfl
 | Claude Code Max 5x | \$100 | Deep reasoning, architecture, complex refactoring |
 | Codex CLI Pro 5x | \$100 | Execution, CI/CD, autonomous tasks |
 | Gemini CLI | \$0 | Exploration, research, free tier |
-| Local models (Gemma 4 on M5 Pro) | \$0 marginal | Routine edits, docs, simple generation |
+| Local models (Qwen3.6-35B-A3B / Gemma 4 on M5 Pro) | \$0 marginal | Routine edits, docs, generation, and now SWE-bench-class agentic tasks |
 | OpenRouter overflow | \$0-50 | API flexibility when needed |
 | **Total** | **\$200-250** | **Full professional coverage** |
 
@@ -776,7 +787,7 @@ The enterprise that treats token economics as a first-class engineering concern,
 
 9. **Subscription pricing is a subsidy with an expiry date**: The OpenClaw precedent proved it, flat-rate plans can be repriced overnight. Build your cost model on API rates, not subscription hopes.
 
-10. **Local models are a strategic hedge, not a hobby**: A MacBook Pro M5 Pro running Gemma 4 26B MoE pays for itself in 5-10 months if it displaces 30% of cloud API usage. A Dell GB10 serving a team of five pays back in 2-3 months. Hardware costs do not spike when adoption exceeds projections.
+10. **Local models are a strategic hedge, not a hobby**: Qwen3.6-35B-A3B scores 73.4 on SWE-bench Verified — frontier-class performance — while running on an M5 Pro Mac at Q4 quantization (~18-20 GB) with only 3B active parameters. A MacBook Pro M5 Pro pays for itself in 5-10 months if it displaces 30% of cloud API usage. Hardware costs do not spike when adoption exceeds projections.
 
 11. **The transition is Experimental → Economic**: The "wow, look what AI can do" phase is over. The organisations that win in 2026 are the ones asking "how do we make this sustainable?" Token economics is the discipline that answers that question.
 
@@ -857,3 +868,5 @@ From experiment to enterprise — building the factory for AI-assisted software 
 [^28]: "GitHub Copilot Pricing 2026: Complete Guide to All 5 Tiers," UserJot. <https://userjot.com/blog/github-copilot-pricing-guide-2025>; GitHub Copilot Plans & Pricing. <https://github.com/features/copilot/plans>
 
 [^29]: Vaughan, D., "Gemma 4 on Codex CLI vs Claude Code: Same Model, Different Results," codex-resources, April 2026. GB10 benchmark: 31B Dense completed task in 3 clean tool calls vs. 10 messy calls on Mac 26B MoE. Quality > speed finding for agentic coding.
+
+[^30]: Qwen Team, "Qwen3.6-35B-A3B," Hugging Face model page. <https://huggingface.co/Qwen/Qwen3.6-35B-A3B> MoE architecture: 35B total parameters, 3B active (8.6% activation). SWE-bench Verified: 73.4; Terminal-Bench 2.0: 51.5; MCPMark: 37.0. 256K native context (extensible to 1M). Apache 2.0 licence. Supports tool calling, MCP, multi-token prediction. Dedicated terminal agent: Qwen Code.
