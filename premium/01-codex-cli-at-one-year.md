@@ -37,7 +37,7 @@ pdf_url: /premium-pdfs/01-codex-cli-at-one-year.pdf
 
 One year and 67,000 GitHub stars later, here is what OpenAI got right, and what they got wrong, with Codex CLI.
 
-On April 16, 2025, OpenAI open-sourced a terminal-based coding agent under the Apache 2.0 license.[^1a] The repo hit the front page of Hacker News within hours. Three million weekly active users followed.[^1] Enterprise adoption grew 400% from January alone, with the average user now sending five times more messages per session than at launch[^codexday]. So did a 520-comment thread about runaway token costs,[^9] a TypeScript-to-Rust rewrite that alienated contributors, and a Windows experience that still breaks in new and creative ways every release cycle.
+On April 16, 2025, OpenAI open-sourced a terminal-based coding agent under the Apache 2.0 license.[^1a] The repo hit the front page of Hacker News within hours. Three million weekly active users followed.[^1] Enterprise adoption grew more than 5x since the start of the year[^fortune], with the average user now sending five times more messages per session than at launch[^codexday]. So did a 520-comment thread about runaway token costs,[^9] a TypeScript-to-Rust rewrite that alienated contributors, and a Windows experience that still breaks in new and creative ways every release cycle.
 
 This is not a press release. This is an honest assessment, based on tracking every changelog entry, reading every significant PR, and following daily community usage patterns over the past year, of whether the tool that bet on the terminal as the right surface for AI agents has earned that bet.
 
@@ -388,11 +388,11 @@ Expect:
 - **Plugin marketplace GA**: Plugin distribution becomes a solved problem for teams. Private registries via local and manifest marketplace sources.
 - **Memory in production**: Cross-session persistent memory transforms Codex from a stateless tool into a learning assistant. The memories menu, cleaning endpoints, and deletion API are all merged.
 
-The enterprise evidence is already arriving. At Codex Day, OpenAI presented named customer results: Cisco reported 20% faster build times, 1,500 engineering hours saved, and 10–15x faster defect remediation after embedding Codex into their workflows. Datadog integrated Codex into code review for 1,500 engineers daily and found it could have flagged 22% of past defects faster[^codexday]. These are the numbers that turn a pilot into a budget line.
+The enterprise evidence is already arriving. At Codex Day, OpenAI presented named customer results: Cisco reported 20% faster build times, 1,500 engineering hours saved per month, and 10–15x faster defect remediation after embedding Codex into their workflows[^cisco]. Datadog integrated Codex into code review for more than 1,000 engineers and found it could have flagged 22% of past defects faster[^datadog]. These are the numbers that turn a pilot into a budget line.
 
 ### The Codex App: CLI's Sibling Surface
 
-The Codex app, released January 2026 and downloaded 1.5 million times in its first week[^codexday], represents OpenAI's bet that the CLI is not the only surface for agentic coding. The app supports multiple workspaces and projects simultaneously, parallel feature development, and integrated code review. Peter Steinberger (PSPDFKit creator, now on the Codex team) was cited as a power user whose workflow informed the design. The OpenAI speaker stated bluntly: "I started dogfooding this app sometime in December, and I haven't touched the CLI after that."
+The Codex app, released January 2026 and downloaded over one million times in its first week[^codexapp], represents OpenAI's bet that the CLI is not the only surface for agentic coding. The app supports multiple workspaces and projects simultaneously, parallel feature development, and integrated code review. Peter Steinberger (PSPDFKit creator, now on the Codex team) was cited as a power user whose workflow informed the design. The OpenAI speaker stated bluntly: "I started dogfooding this app sometime in December, and I haven't touched the CLI after that."
 
 For the series, this matters because the app shares the CLI's AGENTS.md convention, hook system, and model routing — the same infrastructure that makes the pod model work. The surface changes; the engineering discipline does not.
 
@@ -550,6 +550,14 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 [^41]: "Spud" / GPT-6 signals: pretraining reportedly completed ~March 24, 2026. Greg Brockman: "two years of research — not an incremental improvement." Polymarket: 78% probability of release by April 30, 95%+ by June 30. Source: [happycapyguide.com — ChatGPT 5.5 Super App Launch](https://happycapyguide.com/blog/openai-chatgpt-55-super-app-codex-atlas-desktop-launch-april-2026).
 
-[^codexday]: OpenAI Codex Day keynote presentation, April 2026. First-party adoption figures: 400% enterprise growth since January 2026, 5x more messages per user, 1.5M app downloads in first week, 3M+ weekly active users. Enterprise case studies: Cisco (20% faster builds, 1,500 engineering hours saved, 10–15x faster defect remediation), Datadog (1,500 engineers daily, 22% of past defects flaggable faster). Internal case: 3 engineers, 5 months, zero hand-written code, millions of lines across 500 NPM packages. Transcript at `notes/transcripts/codex-day.md`.
+[^codexday]: OpenAI Codex Day keynote presentation, April 2026. First-party adoption figures: 5x more messages per user, 3M+ weekly active users. Internal "Harness Engineering" case study: 3 engineers (grew to 7), 5 months, zero hand-written code, ~1M lines across ~500 NPM packages. See also: OpenAI, "Harness engineering: leveraging Codex in an agent-first world," <https://openai.com/index/harness-engineering/>; Latent Space podcast, "Harness Engineering," April 7, 2026, <https://www.latent.space/p/harness-eng>.
+
+[^fortune]: Kylie Robison, "OpenAI's Codex coding tool has grown 'more than 5X since start of year,'" *Fortune*, March 4, 2026. <https://fortune.com/2026/03/04/openai-codex-coding-agent-5x-growth/>
+
+[^cisco]: AIBase, "Cisco and OpenAI Codex Integration Results," news.aibase.com, 2026. 20% reduction in build times, over 1,500 engineering hours saved per month, 10–15x improvement in defect resolution throughput via CodeWatch system. <https://news.aibase.com/news/24796>. See also: SDxCentral and Digital Watch Observatory coverage.
+
+[^datadog]: OpenAI, "Datadog and Codex," official case study, 2026. More than 1,000 engineers use Codex regularly; 22% of examined incidents: Codex feedback would have made a difference. <https://openai.com/index/datadog/>
+
+[^codexapp]: VentureBeat, "OpenAI Codex App Surpasses 1M Downloads in First Week," 2026. The Codex Day keynote cited 1.5M, but contemporaneous reporting from VentureBeat and eWeek confirmed over 1 million.
 
 [^1a]: "OpenAI debuts Codex CLI, an open source coding tool for terminals," TechCrunch, April 16, 2025. <https://techcrunch.com/2025/04/16/openai-debuts-codex-cli-an-open-source-coding-tool-for-terminals/>

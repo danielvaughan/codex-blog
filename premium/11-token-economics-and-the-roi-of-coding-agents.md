@@ -668,10 +668,10 @@ The worked example above is a model. Here are real numbers from named enterprise
 | Enterprise | Scale | Key Metric | Result |
 |-----------|-------|-----------|--------|
 | **Cisco** | Decades of mission-critical software | Build times | **20% faster** |
-| **Cisco** | Org-wide pilot | Engineering hours saved | **1,500 hours** |
+| **Cisco** | Org-wide pilot | Engineering hours saved | **1,500+ hours/month** |
 | **Cisco** | Defect remediation | Speed improvement | **10–15x faster** |
-| **Datadog** | 1,500 engineers daily | Defect detection | **22% of past defects flaggable faster** |
-| **OpenAI (internal)** | 3 engineers, 5 months | Hand-written code | **Zero lines** — Codex wrote millions across 500 NPM packages |
+| **Datadog** | 1,000+ engineers | Defect detection | **22% of past defects flaggable faster** |
+| **OpenAI ("Harness Engineering")** | 3→7 engineers, 5 months | Hand-written code | **Zero lines** — Codex wrote ~1M lines across ~500 NPM packages, 1,500+ PRs |
 
 The Cisco numbers are particularly instructive. A 20% build-time improvement across an engineering organisation translates directly into cycle time savings — the largest line item in any ROI calculation. And 10–15x faster defect remediation maps to the "defect cost avoidance" row: if the mean time to fix a production defect drops by an order of magnitude, the cost per incident drops with it.
 
@@ -887,6 +887,6 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 [^29]: Vaughan, D., "Gemma 4 on Codex CLI vs Claude Code: Same Model, Different Results," codex-resources, April 2026. GB10 benchmark: 31B Dense completed task in 3 clean tool calls vs. 10 messy calls on Mac 26B MoE. Quality > speed finding for agentic coding.
 
-[^codexday]: OpenAI Codex Day keynote presentation, April 2026. Enterprise case studies: Cisco (20% faster builds, 1,500 engineering hours saved, 10–15x faster defect remediation), Datadog (1,500 engineers daily, 22% of past defects flaggable faster), internal OpenAI team (3 engineers, 5 months, zero hand-written code, millions of lines across 500 NPM packages). Also reported: 400% enterprise adoption growth since January 2026, 3M+ weekly active users. Transcript at `notes/transcripts/codex-day.md`.
+[^codexday]: OpenAI Codex Day keynote presentation, April 2026. Enterprise case studies: Cisco (20% faster builds, 1,500+ engineering hours saved per month, 10–15x faster defect remediation via CodeWatch — source: <https://news.aibase.com/news/24796>), Datadog (1,000+ engineers using Codex regularly, 22% of examined incidents where Codex feedback would have made a difference — source: <https://openai.com/index/datadog/>), internal "Harness Engineering" team (3 engineers growing to 7, 5 months, zero hand-written code, ~1M lines across ~500 NPM packages — source: <https://openai.com/index/harness-engineering/>). Adoption: more than 5x enterprise growth since January 2026 (*Fortune*, March 4, 2026, <https://fortune.com/2026/03/04/openai-codex-coding-agent-5x-growth/>), 3M+ weekly active users.
 
 [^30]: Qwen Team, "Qwen3.6-35B-A3B," Hugging Face model page. <https://huggingface.co/Qwen/Qwen3.6-35B-A3B> MoE architecture: 35B total parameters, 3B active (8.6% activation). SWE-bench Verified: 73.4; Terminal-Bench 2.0: 51.5; MCPMark: 37.0. 256K native context (extensible to 1M). Apache 2.0 licence. Supports tool calling, MCP, multi-token prediction. Dedicated terminal agent: Qwen Code.

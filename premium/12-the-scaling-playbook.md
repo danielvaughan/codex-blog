@@ -114,7 +114,7 @@ Baseline metrics to capture:
 | **Feature lead time** | Requirement to production | Business-visible delivery speed |
 | **Developer hours per feature** | Effort tracking | The denominator for ROI calculations |
 
-GitHub's own data shows Copilot reduced PR turnaround from 9.6 days to 2.4 days in controlled studies.[^3] First-party enterprise results are emerging too: at Codex Day (April 2026), OpenAI presented Cisco's pilot results — 20% faster build times, 1,500 engineering hours saved, and 10–15x faster defect remediation. Datadog integrated Codex into code review for 1,500 engineers and found it could have flagged 22% of past defects faster[^codexday]. Your pilot will generate your organisation's version of these numbers, and they will be more credible to your leadership than any vendor benchmark.
+GitHub's own data shows Copilot reduced PR turnaround from 9.6 days to 2.4 days in controlled studies.[^3] First-party enterprise results are emerging too: at Codex Day (April 2026), OpenAI presented Cisco's pilot results — 20% faster build times, over 1,500 engineering hours saved per month, and 10–15x faster defect remediation via their CodeWatch system[^cisco]. Datadog integrated Codex into code review for more than 1,000 engineers and found it could have flagged 22% of past defects faster[^datadog]. Your pilot will generate your organisation's version of these numbers, and they will be more credible to your leadership than any vendor benchmark.
 
 ### Adopt Compound Engineering
 
@@ -168,7 +168,7 @@ Run the pod for four to six weeks. Collect the same metrics you baselined. The c
 
 **What to expect**: initial productivity may not improve. The Microsoft research on GitHub Copilot adoption found that consistent productivity gains take approximately 11 weeks to materialise.[^7] Your six-week pilot may show marginal improvement, flat performance, or even a temporary dip. This is normal. The signal you are looking for is not "agents made us faster immediately", it is "the methodology is sustainable, the team is learning, and the trajectory is positive."
 
-**What a mature pod looks like**: at Codex Day, OpenAI revealed that an internal team of three engineers spent five months building a production product serving millions of users — writing zero lines of code themselves. Codex generated millions of lines across 500 NPM packages, with agent tasks running up to 36 hours continuously. The humans focused entirely on architecture, constraints, and code review[^codexday]. That is the end-state the pod model enables. Your Phase 1 pilot will not reach it immediately. But it is the trajectory you are aiming for.
+**What a mature pod looks like**: at Codex Day, OpenAI revealed what they call "Harness Engineering" — an internal team of three engineers (later growing to seven) spent five months building a production product serving millions of users, writing zero lines of code themselves. Codex generated approximately one million lines across roughly 500 NPM packages, merging 1,500+ PRs at a rate of 3.5 PRs/engineer/day (rising to 5–10 with GPT-5.2). The humans focused entirely on architecture, constraints, and code review[^codexday]. That is the end-state the pod model enables. Your Phase 1 pilot will not reach it immediately. But it is the trajectory you are aiming for.
 
 **Phase 1 exit criteria**:
 
@@ -765,4 +765,8 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 [^15]: Spec-driven development (SDD) methodology. The Value Engineer authors `SPEC.md` with RFC 2119 requirements (`MUST`/`SHOULD`/`MAY`) and `PLANS.md` (ExecPlan) for multi-hour features, guided by the Context Architect's standards and reference architectures. The Quality Engineer derives test contracts from `MUST` requirements to validate the specification is honoured. See [Article 03: The Agentic Pod](/premium/03-the-agentic-pod/) for the full role breakdown and 'Spec-Driven Development with Codex: Writing Specifications Before Code,' codex-resources, 28 March 2026, for the methodology and tooling ecosystem.
 
-[^codexday]: OpenAI Codex Day keynote presentation, April 2026. Internal case study: 3 engineers, 5 months, zero hand-written code, millions of lines across 500 NPM packages, tasks running up to 36 hours. Enterprise results: Cisco (20% faster builds, 1,500 engineering hours saved, 10–15x faster defect remediation), Datadog (1,500 engineers daily, 22% of past defects flaggable faster). Adoption: 400% enterprise growth since January 2026, 3M+ WAU. Transcript at `notes/transcripts/codex-day.md`.
+[^codexday]: OpenAI Codex Day keynote presentation, April 2026. Internal "Harness Engineering" case study: 3 engineers (grew to 7), 5 months, zero hand-written code, ~1M lines across ~500 NPM packages, 1,500+ PRs merged, tasks running 24+ hours. Source: <https://openai.com/index/harness-engineering/>; Latent Space podcast, <https://www.latent.space/p/harness-eng>. Adoption: more than 5x enterprise growth since January 2026 (*Fortune*, <https://fortune.com/2026/03/04/openai-codex-coding-agent-5x-growth/>), 3M+ WAU.
+
+[^cisco]: AIBase, "Cisco and OpenAI Codex Integration Results," 2026. 20% reduction in build times, 1,500+ engineering hours saved per month, 10–15x improvement in defect resolution throughput (CodeWatch system). <https://news.aibase.com/news/24796>
+
+[^datadog]: OpenAI, "Datadog and Codex," official case study, 2026. More than 1,000 engineers use Codex regularly; 22% of examined incidents: Codex feedback would have made a difference. <https://openai.com/index/datadog/>

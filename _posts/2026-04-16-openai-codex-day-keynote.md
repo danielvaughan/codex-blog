@@ -19,9 +19,9 @@ An OpenAI speaker at the Codex Day hackathon event presented Codex adoption metr
 
 ### Adoption Metrics (as of April 2026)
 
-- **Enterprise adoption up 400%** since 1 January 2026
+- **Enterprise adoption up more than 5x** since 1 January 2026 (*Fortune*, March 4, 2026; the Codex Day speaker rounded to "400%")
 - **5x more messages per user** — a proxy for how much work developers delegate to Codex
-- **1.5 million downloads** of the Codex app in its first week of release
+- **Over 1 million downloads** of the Codex app in its first week of release (VentureBeat, eWeek; the speaker cited 1.5M but contemporaneous reporting confirmed 1M+)
 - **3 million+ weekly active users** (up from under 500K at start of year) — "hockey stick" growth
 - The speaker stated: "There's nothing stopping this growth. The only way to go is up."
 
@@ -44,23 +44,25 @@ An OpenAI speaker at the Codex Day hackathon event presented Codex adoption metr
 
 ### Enterprise Case Studies
 
-**Internal OpenAI Team:**
-- **3 engineers, 5 months, zero hand-written lines of code**
+**Internal OpenAI Team ("Harness Engineering"):**
+- **3 engineers (grew to 7), 5 months, zero hand-written lines of code**
 - Product now in production serving millions of users
-- Codex wrote millions of lines of code across **500 NPM packages**
-- Some tasks ran for **36 hours** continuously
+- Codex wrote ~1 million lines of code across **~500 NPM packages**, 1,500+ PRs merged
+- 3.5 PRs/engineer/day, rising to 5–10 with GPT-5.2; ~1 billion tokens/day (~$2–3K daily)
+- Tasks ran for **24+ hours** continuously (GPT-5.1-Codex-Max system card says "more than 24 hours"; speaker said 36)
 - Mandate: "push Codex as much as possible" — humans focused on architecture, constraints, and code review
+- Source: OpenAI blog <https://openai.com/index/harness-engineering/>; Latent Space podcast <https://www.latent.space/p/harness-eng>
 
 **Cisco:**
 - Embedded Codex directly into software engineering workflows
 - **20% faster build times**
-- **1,500 engineering hours saved** across the org
+- **Over 1,500 engineering hours saved per month** across the org (source: <https://news.aibase.com/news/24796>)
 - **10–15x faster defect remediation**
 - Engineer quote: "They don't see Codex as a tool; they started treating it as a team member."
 
 **Datadog:**
 - Integrated Codex into code review workflow
-- **1,500 engineers using Codex every day**
+- **More than 1,000 engineers** using Codex regularly (OpenAI official case study says "more than 1,000"; speaker said 1,500; source: <https://openai.com/index/datadog/>)
 - Found Codex could have flagged **22% of past defects faster**
 
 ### Codex App vs CLI
