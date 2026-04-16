@@ -425,9 +425,9 @@ Local models are not a replacement for cloud APIs for everything. They are a **c
 
 **Code completion and generation.** Gemma 4 26B scores 77.1% on LiveCodeBench[^21], competitive with much larger cloud models for routine coding tasks. Boilerplate generation, implementing well-defined interfaces, writing CRUD operations, and filling in standard patterns are all tasks where local inference produces equivalent quality at zero marginal cost.
 
-**Code review assistance.** Running a local model as a first-pass reviewer catches formatting issues, obvious bugs, naming convention violations, and missing edge cases before code reaches a human reviewer or an expensive cloud-based security scan. The model does not need to be perfect, it needs to catch the easy 60% so human reviewers can focus on the hard 40%.
+**Code review assistance.** Running a local model as a first-pass reviewer catches formatting issues, obvious bugs, naming convention violations, and missing edge cases before code reaches a human reviewer or an expensive cloud-based security scan. The model does not need to be perfect — it needs to catch the straightforward majority so human reviewers can focus on the genuinely hard issues.
 
-**Test generation.** Unit tests, integration test scaffolding, and test data generation are high-volume, pattern-driven tasks. A local model generating test cases at zero cost means teams can afford to generate far more tests than they would at $3-15/MTok cloud rates. Even if 30% of generated tests need manual adjustment, the net productivity gain is substantial.
+**Test generation.** Unit tests, integration test scaffolding, and test data generation are high-volume, pattern-driven tasks. A local model generating test cases at zero cost means teams can afford to generate far more tests than they would at $3-15/MTok cloud rates. Even if a significant fraction of generated tests need manual adjustment, the net productivity gain is substantial.
 
 **Documentation.** API documentation, code comments, README updates, changelog entries, these are high-token, low-complexity tasks where local models excel. Documentation is also the task most likely to be deferred when every generation costs money. At zero marginal cost, teams document more.
 
@@ -598,7 +598,7 @@ The damage from the "\$1,000/month minimum" narrative extends beyond individual 
 
 When a team lead hears "\$1,000 per developer per month," the arithmetic for a 50-person team is \$50,000/month, \$600,000 per year. That number kills pilot programmes before they start. It gives ammunition to every sceptic in the budget meeting. It makes AI coding tools sound like a luxury that only well-funded startups or big tech can afford.
 
-The reality with smart routing: \$200-250 per developer per month for a 50-person team is \$10,000-12,500/month, \$120,000-150,000 per year. That is 4-5x less than the scary narrative implies. Against the ROI numbers in the next section (conservative 15:1 returns), it is a trivially easy business case.
+The reality with smart routing: \$200-250 per developer per month for a 50-person team is \$10,000-12,500/month, \$120,000-150,000 per year. That is 4-5x less than the scary narrative implies. Against the ROI numbers in the next section (conservative 15:1 returns), it is a much more straightforward business case.
 
 The question the AI developer community should be asking is not "how much are you spending?" but "how efficiently are you spending?" Do we want AI adoption, the kind that transforms how software is built across the entire industry, or do we want a gatekeeping narrative where people walk away thinking "I don't have that kind of money, why bother?"
 

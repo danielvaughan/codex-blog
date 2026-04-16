@@ -70,7 +70,7 @@ timeline
         Apr 2026 : Agent identity stack merges
                  : Plugin marketplace infrastructure
                  : Memory lifecycle complete
-                 : v0.121.0 alpha series (14 builds in 4 days)
+                 : v0.121.0 GA (14 builds in 4 days)
                  : Token-based pricing ships
 ```
 
@@ -320,7 +320,7 @@ Compile times were reduced 48-63% in the v0.119.0 cycle.[^19] The exec-server (`
 
 ### What Shipped in the Last 30 Days
 
-The pace of development in March-April 2026 has been extraordinary. The v0.121.0 alpha series shipped 14 builds in four days (April 11-15), touching every major subsystem:[^37]
+The pace of development in March-April 2026 has been extraordinary. The v0.121.0 release cycle shipped 14 builds in four days (April 11-15) before reaching GA, touching every major subsystem:[^37]
 
 - **Agent identity stack complete** (4-PR series, fully merged April 14): Each agent now has a cryptographically attributable identity. Foundation for enterprise multi-agent audit trails.
 - **Memory lifecycle complete**: Create, consolidate, clean, delete, and TUI management. First time Codex offers programmatic memory deletion and a user-facing memory menu.
@@ -522,7 +522,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 [^36]: Subagents GA in v0.115.0, March 16, 2026. Smart Approvals: guardian subagent reviewing pending actions in full-auto mode. Source: [developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog).
 
-[^37]: v0.121.0 alpha series: 14 alpha builds over 4 days (April 11-15, 2026). Source: GitHub release tags `rust-v0.121.0-alpha.1` through `rust-v0.121.0-alpha.14`.
+[^37]: v0.121.0 release cycle: 14 builds over 4 days (April 11-15, 2026), culminating in GA. Source: GitHub release tags `rust-v0.121.0-alpha.1` through `rust-v0.121.0-alpha.14` and GA tag.
 
 [^38]: Terminal-Bench 2.0: 89 curated tasks in Docker containers, crowd-sourced from 93 contributors. Source: [Terminal-Bench 2.0 — tbench.ai](https://www.tbench.ai/).
 
