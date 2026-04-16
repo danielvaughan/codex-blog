@@ -38,6 +38,7 @@ This is the first concrete evidence of Codex CLI supporting US government compli
 ### Enterprise Significance
 
 FedRAMP compliance is a prerequisite for federal agency adoption. Combined with:
+
 - SECURITY.md formal boundaries (#17848)
 - Agent identity/biscuit auth (#17385-#17388)
 - Conversational sandbox permissions (#17583)

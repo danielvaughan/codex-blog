@@ -245,6 +245,7 @@ Model pricing has decreased dramatically per unit of capability:
 ## What Changed and What Stayed the Same
 
 ### What changed
+
 - **Scale:** 12B parameters (2021) → undisclosed but vastly larger (2026)
 - **Architecture:** Pure completion → instruction-tuned → reasoning chains → autonomous agents
 - **Context:** 2K tokens (2021) → 1M tokens (2026) — a 500× increase
@@ -253,6 +254,7 @@ Model pricing has decreased dramatically per unit of capability:
 - **Delivery:** API-only → CLI agent → cloud agent → embedded in IDE
 
 ### What stayed the same
+
 - The core insight: pre-training on vast quantities of code produces emergent programming capability
 - The name "Codex" — deliberately revived in 2025 as a brand for OpenAI's coding tools
 - GitHub Copilot as the primary consumer-facing product
