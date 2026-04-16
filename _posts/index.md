@@ -6,7 +6,7 @@ permalink: /articles/
 ## Article Ratings (updated 2026-04-15)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-16 · 317 articles rated · 317 total articles.
+Last rated: 2026-04-16 · 317 articles rated · 318 total articles.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|---------|
@@ -325,6 +325,7 @@ Last rated: 2026-04-16 · 317 articles rated · 317 total articles.
 | [Codex CLI Ecosystem Map: 245 Tools](/2026/04/11/codex-cli-ecosystem-map-245-tools/) | — | ★★★☆☆ | ★★★☆☆ | ★★★☆☆ | ★★★☆☆ | ★★★☆☆ |
 | [Gemini CLI Subagents: Multi-Agent Orchestration Arrives](/2026/04/15/gemini-cli-subagents-launch/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [Codex TypeScript SDK: Streaming & Multimodal](/2026/04/08/codex-typescript-sdk-streaming-multimodal/) | — | ★★★★★ | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★☆☆ |
+| [Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud](/2026/04/14/claude-code-routines-launch/) | — | — | — | — | — | — |
 | `codex-cli-benchmarks-real-world.md` | `layout: default` + JtD `parent`/`nav_order` -- breaks Minimal Mistakes |
 | `agentic-pod-roles-and-codex.md` | No citations despite making specific version claims |
 | `codex-cli-cicd-non-interactive.md` | No citations |
