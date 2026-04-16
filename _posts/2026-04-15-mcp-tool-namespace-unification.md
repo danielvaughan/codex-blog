@@ -5,6 +5,8 @@ nav_order: 290
 tags: ["mcp` `namespacing` `tool-registration` `reliability` `deferred-tools` `plugins"]
 ---
 
+![Sketchnote diagram for: MCP Tool Namespace Unification: Fixing the Silent Tool-Not-Found Bug](/sketchnotes/articles/2026-04-15-mcp-tool-namespace-unification.png)
+
 # MCP Tool Namespace Unification: Fixing the Silent Tool-Not-Found Bug
 
 

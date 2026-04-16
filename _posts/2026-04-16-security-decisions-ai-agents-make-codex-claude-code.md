@@ -5,6 +5,8 @@ nav_order: 294
 tags: ["security", "benchmarks", "claude-code", "codex-cli", "agents-md", "cross-model-review", "frameworks", "supply-chain"]
 ---
 
+![Sketchnote diagram for: The Security Decisions AI Agents Make: What Codex and Claude Code Miss When You Don't Ask](/sketchnotes/articles/2026-04-16-security-decisions-ai-agents-make-codex-claude-code.png)
+
 # The Security Decisions AI Agents Make: What Codex and Claude Code Miss When You Don't Ask
 
 

@@ -5,6 +5,8 @@ nav_order: 286
 tags: ["memory", "lifecycle", "consolidation", "data-governance", "enterprise", "configuration"]
 ---
 
+![Sketchnote diagram for: Memory Lifecycle Management: Create, Consolidate, Clean, Delete in Codex CLI](/sketchnotes/articles/2026-04-15-memory-lifecycle-management-codex-cli.png)
+
 # Memory Lifecycle Management: Create, Consolidate, Clean, Delete in Codex CLI
 
 

@@ -5,6 +5,8 @@ nav_order: 291
 tags: ["codex-exec", "stdin-piping", "structured-output", "unix-pipelines", "shell-composition", "automation", "json-lines"]
 ---
 
+![Sketchnote diagram for: Codex Exec as a Unix Citizen: Stdin Piping, Structured Output, and Shell Composition](/sketchnotes/articles/2026-04-16-codex-exec-unix-pipeline-integration-stdin-structured-output.png)
+
 # Codex Exec as a Unix Citizen: Stdin Piping, Structured Output, and Shell Composition
 
 

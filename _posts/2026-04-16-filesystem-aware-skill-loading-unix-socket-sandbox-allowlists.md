@@ -5,6 +5,8 @@ nav_order: 288
 tags: ["skills", "sandbox", "unix-sockets", "macos", "filesystem", "skill-loading", "mcp"]
 ---
 
+![Sketchnote diagram for: Filesystem-Aware Skill Loading and Unix Socket Sandbox Allowlists](/sketchnotes/articles/2026-04-16-filesystem-aware-skill-loading-unix-socket-sandbox-allowlists.png)
+
 # Filesystem-Aware Skill Loading and Unix Socket Sandbox Allowlists
 
 

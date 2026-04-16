@@ -5,6 +5,8 @@ nav_order: 292
 tags: ["stacked-prs", "gh-stack", "sapling", "codex-pr-body", "official-skill", "wave-orchestration", "github"]
 ---
 
+![Sketchnote diagram for: Stacked PRs Meet Coding Agents: GitHub gh stack, Sapling, and the codex-pr-body Skill Pattern](/sketchnotes/articles/2026-04-16-stacked-prs-coding-agents-gh-stack-sapling-codex-skill.png)
+
 # Stacked PRs Meet Coding Agents: GitHub gh stack, Sapling, and the codex-pr-body Skill Pattern
 
 

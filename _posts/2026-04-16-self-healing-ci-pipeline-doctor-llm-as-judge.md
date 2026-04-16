@@ -5,6 +5,8 @@ nav_order: 292
 tags: ["self-healing-ci", "llm-as-judge", "pipeline-doctor", "ci-cd", "codex-exec", "enterprise", "full-auto"]
 ---
 
+![Sketchnote diagram for: Self-Healing CI/CD for Agentic Systems: The Pipeline Doctor Pattern and LLM-as-a-Judge](/sketchnotes/articles/2026-04-16-self-healing-ci-pipeline-doctor-llm-as-judge.png)
+
 # Self-Healing CI/CD for Agentic Systems: The Pipeline Doctor Pattern and LLM-as-a-Judge
 
 

@@ -5,6 +5,8 @@ nav_order: 285
 tags: ["tdad", "test-impact-analysis", "regression-prevention", "agent-skills", "swe-bench", "ast", "graph-rag", "codex-cli", "testing"]
 ---
 
+![Sketchnote diagram for: TDAD and Graph-Based Test Impact Analysis: Cutting Codex CLI Regressions by 70%](/sketchnotes/articles/2026-04-15-tdad-graph-based-test-impact-analysis-codex-cli-regression-prevention.png)
+
 # TDAD and Graph-Based Test Impact Analysis: Cutting Codex CLI Regressions by 70%
 
 

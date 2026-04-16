@@ -12,7 +12,7 @@ tags:
   - humaneval
 ---
 
-![Sketchnote diagram for: From Codex to GPT-5.4: The Complete History of OpenAI's Code Models](/sketchnotes/articles/codex-model-history-from-copilot-to-gpt-5-4.png)
+![Sketchnote diagram for: From Codex to GPT-5.4: The Complete History of OpenAI's Code Models](/sketchnotes/articles/2026-04-11-codex-model-history-from-copilot-to-gpt-5-4.png)
 
 # From Codex to GPT-5.4: The Complete History of OpenAI's Code Models
 

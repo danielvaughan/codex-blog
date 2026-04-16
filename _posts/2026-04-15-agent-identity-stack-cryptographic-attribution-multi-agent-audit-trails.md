@@ -5,6 +5,8 @@ nav_order: 289
 tags: ["agent-identity", "biscuit", "audit-trail", "enterprise", "multi-agent", "attribution", "opentelemetry"]
 ---
 
+![Sketchnote diagram for: Agent Identity Stack Complete: Cryptographic Attribution for Multi-Agent Audit Trails](/sketchnotes/articles/2026-04-15-agent-identity-stack-cryptographic-attribution-multi-agent-audit-trails.png)
+
 # Agent Identity Stack Complete: Cryptographic Attribution for Multi-Agent Audit Trails
 
 

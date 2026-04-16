@@ -4,6 +4,8 @@ date: 2026-04-16T00:00:00+00:00
 tags: [architecture, plugins, enterprise, fedramp, marketplace]
 ---
 
+![Sketchnote diagram for: Codex CLI's Plugin Architecture Matures: codex-core-plugins Extraction and FedRAMP Routing](/sketchnotes/articles/2026-04-16-codex-core-plugins-modularization-fedramp-routing.png)
+
 Two PRs merged on April 16, 2026 signal Codex CLI's transition from a monolithic coding tool to a modular, enterprise-grade platform: the extraction of plugin infrastructure into a standalone `codex-core-plugins` crate (#18070), and FedRAMP-compliant authentication routing for government workspaces (#17151).
 
 ## codex-core-plugins: The Modularization PR (#18070)

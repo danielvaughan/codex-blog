@@ -5,6 +5,8 @@ nav_order: 293
 tags: ["composable-stack", "convergence", "orchestration", "cursor", "claude-code", "codex-cli", "industry-analysis"]
 ---
 
+![Sketchnote diagram for: The Composable AI Coding Stack: How Cursor, Claude Code, and Codex Became Three Layers](/sketchnotes/articles/2026-04-16-composable-ai-coding-stack-cursor-claude-code-codex.png)
+
 # The Composable AI Coding Stack: How Cursor, Claude Code, and Codex Became Three Layers
 
 

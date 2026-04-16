@@ -5,6 +5,8 @@ nav_order: 297
 tags: ["security", "execpolicy", "rules", "starlark", "approvals", "enterprise", "sandbox", "command-governance", "config-toml"]
 ---
 
+![Sketchnote diagram for: Execution Policy Rules in Codex CLI: Starlark-Based Command Governance for Teams](/sketchnotes/articles/2026-04-16-codex-cli-execution-policy-rules-starlark-command-governance.png)
+
 # Execution Policy Rules in Codex CLI: Starlark-Based Command Governance for Teams
 
 

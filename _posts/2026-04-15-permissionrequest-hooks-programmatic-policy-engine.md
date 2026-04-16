@@ -5,6 +5,8 @@ nav_order: 287
 tags: ["permissionrequest", "hooks", "policy-engine", "trust-escalation", "security", "multi-agent", "enterprise"]
 ---
 
+![Sketchnote diagram for: PermissionRequest Hooks as a Programmatic Policy Engine](/sketchnotes/articles/2026-04-15-permissionrequest-hooks-programmatic-policy-engine.png)
+
 # PermissionRequest Hooks as a Programmatic Policy Engine
 
 

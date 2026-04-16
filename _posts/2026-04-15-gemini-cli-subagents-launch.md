@@ -15,6 +15,8 @@ Google has introduced subagents to Gemini CLI, enabling the primary agent to del
 
 ---
 
+![Sketchnote: Gemini CLI Subagents: Multi-Agent Orchestration Arrives](/sketchnotes/articles/2026-04-15-gemini-cli-subagents-launch.png)
+
 ## Key Points
 
 - **@agent invocation syntax** — subagents are invoked with `@agent-name` inline (e.g. `@frontend-specialist review our app`), not a separate API call

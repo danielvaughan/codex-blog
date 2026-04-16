@@ -5,6 +5,8 @@ nav_order: 295
 tags: ["claude-code", "routines", "competitor-update", "autonomous-agents", "scheduled-tasks", "cloud-execution", "github-triggers", "mcp-connectors"]
 ---
 
+![Sketchnote diagram for: Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud](/sketchnotes/articles/2026-04-14-claude-code-routines-launch.png)
+
 # Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud
 
 **Source:** [Anthropic Documentation](https://docs.anthropic.com/en/docs/claude-code/routines) · [SiliconAngle Coverage](https://siliconangle.com/2026/04/14/anthropics-claude-code-gets-automated-routines-desktop-makeover/)

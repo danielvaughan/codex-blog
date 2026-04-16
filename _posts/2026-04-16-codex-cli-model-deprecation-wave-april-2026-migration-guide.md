@@ -5,6 +5,8 @@ nav_order: 296
 tags: ["model-deprecation", "model-selection", "config-toml", "migration", "gpt-5.4", "gpt-5.3-codex", "gpt-5.4-mini", "profiles"]
 ---
 
+![Sketchnote diagram for: The April 2026 Model Deprecation Wave: Migrating Your Codex CLI Configuration](/sketchnotes/articles/2026-04-16-codex-cli-model-deprecation-wave-april-2026-migration-guide.png)
+
 # The April 2026 Model Deprecation Wave: Migrating Your Codex CLI Configuration
 
 
