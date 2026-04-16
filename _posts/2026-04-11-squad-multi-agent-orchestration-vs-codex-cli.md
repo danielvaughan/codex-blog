@@ -52,6 +52,7 @@ The key innovation: the Tester agent can **reject work**, forcing a *different* 
 **Codex CLI:** Combine **profiles** and **AGENTS.md** layering to create equivalent specialists.
 
 **Profiles as specialists** (`config.toml`):
+
 ```toml
 [profiles.reviewer]
 model = "gpt-5.4"
@@ -70,6 +71,7 @@ model_instructions_file = "./prompts/tester-instructions.md"
 ```
 
 **AGENTS.md layering as directory-scoped charters:**
+
 ```
 repo/
   AGENTS.md                           # Global project conventions
@@ -107,6 +109,7 @@ config_file = "./.codex/agents/implementer.toml"
 ```
 
 Custom agent definition (`.codex/agents/reviewer.toml`):
+
 ```toml
 name = "reviewer"
 description = "Find correctness, security, and test risks in code."
@@ -289,6 +292,7 @@ This is manual — you maintain it yourself or instruct the agent to append deci
 **Codex CLI:** No native scheduling exists yet (it is a [requested feature](https://github.com/openai/codex/issues/8317)). But three external mechanisms achieve the same result:
 
 **GitHub Action (official):**
+
 ```yaml
 name: Nightly Code Review
 on:
@@ -315,6 +319,7 @@ jobs:
 ```
 
 **Cron + codex exec:**
+
 ```bash
 # crontab -e
 */10 * * * * cd /repo && codex exec --full-auto --ephemeral \
@@ -340,6 +345,7 @@ NanoClaw (an MCP-based task orchestrator) provides `schedule_task` with cron exp
 ```
 
 Every session also writes a full transcript to `$CODEX_HOME/sessions/YYYY/MM/DD/rollout-*.jsonl`. These logs can be consumed by an external orchestrator to:
+
 - Monitor progress of parallel `codex exec` instances
 - Detect failures (`turn.failed`) and trigger retries or fallback agents
 - Aggregate file changes across multiple agent runs for a unified PR
@@ -365,6 +371,7 @@ Every session also writes a full transcript to `$CODEX_HOME/sessions/YYYY/MM/DD/
 Here is a complete configuration that replicates Squad's five-agent team (Lead, Frontend, Backend, Tester, Scribe) using native Codex CLI features:
 
 ### config.toml
+
 ```toml
 [agents]
 max_threads = 4
@@ -402,6 +409,7 @@ codex_hooks = true
 ```
 
 ### .codex/hooks.json (quality gates)
+
 ```json
 {
   "hooks": {
@@ -421,6 +429,7 @@ codex_hooks = true
 ```
 
 ### AGENTS.md (project memory — updated incrementally)
+
 ```markdown
 # Project Conventions
 
@@ -438,6 +447,7 @@ codex_hooks = true
 ```
 
 ### Orchestration script (squad-style workflow)
+
 ```bash
 #!/bin/bash
 # run-squad.sh — Squad-equivalent multi-agent workflow

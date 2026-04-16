@@ -13,7 +13,6 @@ tags:
 ---
 ![Sketchnote diagram for: The 5 Techniques of Top Agentic Engineers (Cole Medin's Framework Applied to Codex CLI)](/sketchnotes/articles/2026-04-10-five-techniques-agentic-engineers-codex-cli.png)
 
-
 # The 5 Techniques of Top Agentic Engineers (Cole Medin's Framework Applied to Codex CLI)
 
 
@@ -193,7 +192,7 @@ sequenceDiagram
 
 **Subagent delegation** achieves context reset architecturally. When a long session accumulates context, spawn a fresh subagent with only the relevant brief[^5]:
 
-```
+```text
 Spawn a worker agent with these instructions:
 - Read services/payments/checkout.ts
 - Refactor the validateCard function to use the new CardValidator class
