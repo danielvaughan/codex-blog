@@ -93,11 +93,11 @@ graph LR
     L2 --> L3["Level 3<br/><b>Managed</b><br/>Platform + governance"]
     L3 --> L4["Level 4<br/><b>Optimising</b><br/>Enterprise factory"]
 
-    style L0 fill:#f8d7da,stroke:#721c24
-    style L1 fill:#fff3cd,stroke:#856404
-    style L2 fill:#cce5ff,stroke:#004085
-    style L3 fill:#d4edda,stroke:#28a745
-    style L4 fill:#d4edda,stroke:#155724
+    style L0 fill:#f8d7da,stroke:#721c24,color:#111827
+    style L1 fill:#fff3cd,stroke:#856404,color:#111827
+    style L2 fill:#cce5ff,stroke:#004085,color:#111827
+    style L3 fill:#d4edda,stroke:#28a745,color:#111827
+    style L4 fill:#d4edda,stroke:#155724,color:#111827
 ```
 
 The dimensions below come from the whole series. Each one maps to an article that explains how to move it forward.
@@ -310,8 +310,8 @@ flowchart TD
     C --> D["Constraint analysis<br/>Which gap is the<br/>tightest bottleneck?"]
     D --> E["Roadmap<br/>Phase 1: Address constraint<br/>Phase 2: Level the line<br/>Phase 3: Advance together"]
 
-    style D fill:#f8d7da,stroke:#721c24
-    style E fill:#d4edda,stroke:#28a745
+    style D fill:#f8d7da,stroke:#721c24,color:#111827
+    style E fill:#d4edda,stroke:#28a745,color:#111827
 ```
 
 ### Roadmap generation
@@ -424,8 +424,8 @@ flowchart TD
     A05 --> A09
     A12 --> A11
 
-    style A01 fill:#fff3cd,stroke:#856404
-    style A13 fill:#d4edda,stroke:#155724
+    style A01 fill:#fff3cd,stroke:#856404,color:#111827
+    style A13 fill:#d4edda,stroke:#155724,color:#111827
 ```
 
 ## The shift

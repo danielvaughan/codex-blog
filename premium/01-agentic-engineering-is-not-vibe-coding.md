@@ -106,11 +106,11 @@ flowchart LR
     CA -.->|"Context layer<br/>feeds every step"| Agent
     Ship -.->|"Lessons codified"| CA
 
-    style CA fill:#fff3cd,stroke:#856404
-    style VE fill:#cce5ff,stroke:#004085
-    style Agent fill:#d4edda,stroke:#28a745
-    style QE fill:#cce5ff,stroke:#004085
-    style Ship fill:#d4edda,stroke:#28a745
+    style CA fill:#fff3cd,stroke:#856404,color:#111827
+    style VE fill:#cce5ff,stroke:#004085,color:#111827
+    style Agent fill:#d4edda,stroke:#28a745,color:#111827
+    style QE fill:#cce5ff,stroke:#004085,color:#111827
+    style Ship fill:#d4edda,stroke:#28a745,color:#111827
 ```
 
 The **Context Architect** owns the context layer: specifications, guardrails, the `AGENTS.md` hierarchy, scoped overrides, skills and the capture of lessons learned. The **Value Engineer** owns planning and orchestration, writing high-signal briefs, running `/plan` and steering implementation. The **Quality Engineer** owns verification, including hooks, gates and CI rules, with real veto power when the evidence is not good enough.
@@ -130,11 +130,11 @@ flowchart TD
     E -->|Yes| G["<b>COMPOUND</b><br/><i>Context Architect</i><br/>Update context layer<br/>Encode lessons"]
     G -->|"Next cycle<br/>(faster)"| A
 
-    style A fill:#fff3cd,stroke:#856404
-    style B fill:#cce5ff,stroke:#004085
-    style C fill:#d4edda,stroke:#28a745
-    style D fill:#cce5ff,stroke:#004085
-    style G fill:#fff3cd,stroke:#856404
+    style A fill:#fff3cd,stroke:#856404,color:#111827
+    style B fill:#cce5ff,stroke:#004085,color:#111827
+    style C fill:#d4edda,stroke:#28a745,color:#111827
+    style D fill:#cce5ff,stroke:#004085,color:#111827
+    style G fill:#fff3cd,stroke:#856404,color:#111827
 ```
 
 The green box, agent execution, is the small part. The blue boxes belong to planning and review. The amber boxes are about context and compounding. That is the operational definition of agentic engineering.
@@ -185,8 +185,8 @@ flowchart TD
     E --> I["Review plan<br/>then execute"]
     H --> I
 
-    style C fill:#d4edda,stroke:#28a745
-    style H fill:#fff3cd,stroke:#856404
+    style C fill:#d4edda,stroke:#28a745,color:#111827
+    style H fill:#fff3cd,stroke:#856404,color:#111827
 ```
 
 ### Phase 2: treat AGENTS.md as the constitution, not the dumping ground
@@ -381,9 +381,9 @@ flowchart LR
     H -->|Accept| I["Merge"]
     H -->|Reject| A
 
-    style B fill:#fff3cd,stroke:#856404
-    style H fill:#cce5ff,stroke:#004085
-    style I fill:#d4edda,stroke:#28a745
+    style B fill:#fff3cd,stroke:#856404,color:#111827
+    style H fill:#cce5ff,stroke:#004085,color:#111827
+    style I fill:#d4edda,stroke:#28a745,color:#111827
 ```
 
 That changes the reviewer's job. Instead of reconstructing what happened from a raw diff, you start with evidence. Instead of rubber-stamping because there is little to interrogate, you can challenge concrete claims.
