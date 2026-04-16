@@ -66,6 +66,8 @@ The failure mode is the flip side of that strength. Claude Code can lose the thr
 
 Google's Gemini CLI is built on a third premise: the best AI coding agent is one that can see everything at once. Its standout feature is a one-million-token context window enabled by default — matching Claude Code's 1M GA window but without requiring a Max/Team/Enterprise subscription[^5]. Combined with a genuinely free tier of 1,000 requests per day[^6] and native multimodal support for PDFs, screenshots, and images, Gemini CLI occupies a distinct niche.
 
+As of April 15, 2026, Gemini CLI ships with native subagent support[^5d]. You delegate tasks with `@agent-name <prompt>` — each subagent runs in its own isolated context window with its own tools, system instructions, and MCP servers. Three built-in agents ship out of the box: `generalist` (a full copy of the main agent for turn-intensive tasks like batch refactoring), `codebase_investigator` (architectural mapping and root-cause analysis), and `cli_help` (Gemini CLI documentation expert). Custom agents are Markdown files with YAML frontmatter dropped into `.gemini/agents/` — shareable through version control, just like AGENTS.md. Parallel execution is supported: spin off multiple subagents simultaneously for concurrent research or multi-package refactoring, though caution is warranted for heavy parallel edits that may conflict.
+
 Gemini CLI is the tool you reach for when you need to understand before you act. Load an entire codebase into context. Analyse a PDF specification against the current implementation. Review a UI screenshot and identify what is wrong. It excels at reconnaissance — the phase of work where you are gathering information and building a mental model.
 
 The trade-off is execution quality. TokenCalculator's April 2026 rankings place Claude Code and Codex CLI as Tier 1 leaders, with Gemini CLI in Tier 3 but improving rapidly[^7]. For pure implementation tasks, Gemini trails the other two. But for the exploration phase that precedes implementation, its combination of massive context and zero cost is unmatched.
@@ -101,7 +103,7 @@ Here is what you actually get with each tool as of April 2026, verified against 
 | **MCP support** | Yes[^11] | Yes[^11] | Yes[^11] |
 | **AGENTS.md** | Native[^12] | Via fallback / symlink | Native[^12] |
 | **Project instruction file** | AGENTS.md | CLAUDE.md (5-layer hierarchy) | GEMINI.md (hierarchical; configurable to read AGENTS.md)[^5c] |
-| **Subagents** | TOML-defined, parallel execution[^13] | Task tool, Agent Teams (peer-to-peer)[^14] | invoke_agent tool, parallel execution, built-in specialists (experimental)[^5d] |
+| **Subagents** | TOML-defined, parallel execution[^13] | Task tool, Agent Teams (peer-to-peer)[^14] | `@agent` syntax, parallel execution, 3 built-in + custom agents (GA April 2026)[^5d] |
 | **CI/CD mode** | `codex exec` (first-class)[^10] | `claude -p` (headless) | `gemini -p` (headless) |
 | **Background/cloud agents** | Yes (Codex Cloud)[^15] | Yes (Managed Agents + Routines, April 2026)[^20a] | No |
 | **Multimodal input** | Text only | Text, images | Text, images, PDFs, video |
@@ -424,7 +426,7 @@ The convergence pattern across these tools has been accelerating throughout earl
 
 **6. Context compaction.** Every agent faces the same constraint: context windows are finite, coding sessions are not. All three use automatic summarisation when context approaches the limit. All three support subagent delegation to manage context. The specific algorithms differ but the strategic response is identical[^23].
 
-**7. Multi-agent orchestration.** The Planner-Worker-Reviewer pattern is now standard. Codex does it with cloud exec dispatching parallel workers. Claude Code does it with the Task tool spawning subagents. The mechanisms differ; the architecture is the same[^24].
+**7. Multi-agent orchestration.** The Planner-Worker-Reviewer pattern is now standard across all three tools. Codex does it with TOML-defined subagents dispatched in parallel. Claude Code does it with the Task tool and Agent Teams. Gemini CLI — as of April 15, 2026 — does it with `@agent` delegation, isolated context windows, and parallel execution of built-in and custom agents[^5d]. The mechanisms differ; the architecture is the same[^24].
 
 ```mermaid
 graph TD
@@ -452,7 +454,7 @@ graph TD
 
 The convergence thesis has a practical implication: your choice between these tools is less permanent than it feels. The shared pipeline — MCP servers, AGENTS.md instructions, SKILL.md skills — means your investment in project configuration is portable. If you write an MCP server for your internal API, it works with all three. If you write an AGENTS.md file, Codex and Gemini read it natively and Claude Code reads it as a fallback. If you author skills to the Agent Skills open standard, they work across tools[^12].
 
-The things that are not portable are the tool-specific features: Claude Code's 21-event hook system, Codex CLI's TOML-based subagent definitions, Gemini CLI's gVisor sandboxing and multimodal input handling. But even these are converging — all three now have hooks (Codex with 5 events, Gemini CLI with 10+, Claude Code with 21), all three have subagent capabilities, and all three are expanding their context windows toward the same 1M-token ceiling.
+The things that are not portable are the tool-specific features: Claude Code's 21-event hook system, Codex CLI's TOML-based subagent definitions, Gemini CLI's Markdown+YAML custom agent format and gVisor sandboxing. But even these are converging — all three now have hooks (Codex with 5 events, Gemini CLI with 10+, Claude Code with 21), all three have GA subagent capabilities with parallel execution, and all three are expanding their context windows toward the same 1M-token ceiling.
 
 The safest strategy is not to pick one tool and go all-in. It is to invest in the shared layer (AGENTS.md, MCP servers, skills) and treat the tool-specific layer as interchangeable. The convergence is happening whether the companies want it to or not.
 
@@ -535,7 +537,7 @@ A fair comparison requires acknowledging weaknesses. Here is what each tool stil
 
 **Rate limit controversy.** The free tier's 1,000 requests per day sounds generous, but community reports indicate that credits reset weekly rather than every five hours as some documentation suggests. High-reasoning model access feels throttled in practice[^25].
 
-**Younger ecosystem.** Codex CLI has 67,000 GitHub stars and hundreds of community-built extensions. Claude Code has a rich hook and skill ecosystem. Gemini CLI has grown rapidly (34,000-plus GitHub stars and 3,300-plus forks) and has a full hook system, skills support, and subagent architecture, but its community tooling ecosystem is still maturing compared to the other two.
+**Younger ecosystem.** Codex CLI has 67,000 GitHub stars and hundreds of community-built extensions. Claude Code has a rich hook and skill ecosystem. Gemini CLI has grown rapidly (34,000-plus GitHub stars and 3,300-plus forks) and now has a full hook system, skills support, and a GA subagent architecture with custom agent definitions[^5d], but its community tooling ecosystem is still maturing compared to the other two.
 
 ---
 
@@ -643,7 +645,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 [^5c]: Google, "Provide context with GEMINI.md files." Hierarchical context system with global, workspace, and JIT context files. Default filename is GEMINI.md; configurable to also read AGENTS.md via settings.json context.fileName property. https://geminicli.com/docs/cli/gemini-md/
 
-[^5d]: Google, "Subagents — Gemini CLI." invoke_agent tool with parallel execution, built-in specialists (generalist, cli_help, codebase_investigator), and @-mention delegation syntax. Experimental as of March 2026. https://geminicli.com/docs/core/subagents/
+[^5d]: Google, "Subagents have arrived in Gemini CLI." GA launch April 15, 2026. `@agent` delegation syntax with isolated context windows per subagent. Three built-in agents (generalist, cli_help, codebase_investigator). Custom agents via Markdown + YAML frontmatter in `.gemini/agents/`. Parallel execution supported. https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/ ; Documentation: https://geminicli.com/docs/core/subagents/
 
 [^5e]: Google, "Hooks reference — Gemini CLI." 10+ hook event types: BeforeTool, AfterTool, BeforeAgent, AfterAgent, BeforeModel, AfterModel, BeforeToolSelection, SessionStart, SessionEnd, Notification, PreCompress. Supports JSON stdin/stdout communication, matchers, sequential/parallel execution. https://geminicli.com/docs/hooks/reference/
 
