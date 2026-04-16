@@ -28,33 +28,29 @@ image: /sketchnotes/premium-articles/10-context-compaction-and-memory.png
 
 # Context Is All You Need: Mastering the 1M Token Window (And What Happens When You Hit the Wall)
 
----
-
 ## The $0.40 Tax You Are Already Paying
 
-Every time your coding agent's context window fills up and compaction fires, it costs approximately **$0.40** --- equivalent to roughly 21 follow-up turns at cached rates.[^5] That is a single compaction event on a 125,000-token context. In a long refactoring session that triggers three or four compactions, you are burning $1.20-$1.60 in hidden costs before accounting for the quality degradation: lost nuance, repeated work, and an agent that forgets decisions it made twenty minutes ago.
+Every time your coding agent's context window fills up and compaction fires, it costs approximately **$0.40**, equivalent to roughly 21 follow-up turns at cached rates.[^5] That is a single compaction event on a 125,000-token context. In a long refactoring session that triggers three or four compactions, you are burning $1.20-$1.60 in hidden costs before accounting for the quality degradation: lost nuance, repeated work, and an agent that forgets decisions it made twenty minutes ago.
 
-Forty minutes into a refactor, Codex has mapped every callsite, proposed a clean migration path, and is halfway through rewriting the auth module. Then you ask it to update the route guards --- the ones it identified twenty minutes ago --- and it stares at you like a stranger.
+Forty minutes into a refactor, Codex has mapped every callsite, proposed a clean migration path, and is halfway through rewriting the auth module. Then you ask it to update the route guards, the ones it identified twenty minutes ago, and it stares at you like a stranger.
 
 "I don't see any route guards in the codebase. Could you point me to the relevant files?"
 
-It found them. It listed them. It built its entire plan around them. And now they are gone --- not from your codebase, but from the agent's memory. Somewhere between the third file read and the seventh test run, the context window filled up, automatic compaction fired, and the summary that replaced your conversation history decided the route guards were not important enough to keep.
+It found them. It listed them. It built its entire plan around them. And now they are gone, not from your codebase, but from the agent's memory. Somewhere between the third file read and the seventh test run, the context window filled up, automatic compaction fired, and the summary that replaced your conversation history decided the route guards were not important enough to keep.
 
 This is not a bug. It is not a hallucination in the traditional sense. It is one of the most significant design constraints in agentic coding today: **every AI coding agent has a finite context window, and what happens when it fills up determines whether your session succeeds or silently degrades**.
 
 If you have used Codex CLI for more than a few hours, you have experienced this. If you haven't yet, you will. This article is about making sure you never lose work to it again. (For the architectural detail on how the agent loop and context management interact at the code level, see *Inside the Machine*.)
 
-We will start with the mechanics --- how context windows actually work, what compaction does, and what it costs. Then we will move to the strategies that prevent compaction from firing in the first place: subagent delegation, reasoning effort tuning, and lean context hygiene. Finally, we will look at where context management is heading: persistent memory systems, knowledge graphs, and the architectural shifts that may make this entire problem obsolete.
-
----
+We will start with the mechanics, how context windows actually work, what compaction does, and what it costs. Then we will move to the strategies that prevent compaction from firing in the first place: subagent delegation, reasoning effort tuning, and lean context hygiene. Finally, we will look at where context management is heading: persistent memory systems, knowledge graphs, and the architectural shifts that may make this entire problem obsolete.
 
 ## Part I: The Mechanics of Forgetting
 
 ### What a Context Window Actually Is
 
-A context window is not a chat log. It is the total working memory available to the model on any given turn --- every token of every message, every tool output, every system instruction, every file read result, all rendered into a single sequence that the model processes to generate its next response.
+A context window is not a chat log. It is the total working memory available to the model on any given turn, every token of every message, every tool output, every system instruction, every file read result, all rendered into a single sequence that the model processes to generate its next response.
 
-For the GPT-5.x-Codex model family, the context window is approximately 1 million tokens. That sounds enormous. It is not. A medium-sized codebase --- say, 200 files averaging 300 lines each --- already represents roughly 600,000 tokens if the agent reads everything. Add your conversation history, AGENTS.md instructions, tool schemas, and the model's own reasoning tokens, and you are closer to the wall than you think.
+For the GPT-5.x-Codex model family, the context window is approximately 1 million tokens. That sounds enormous. It is not. A medium-sized codebase, say, 200 files averaging 300 lines each, already represents roughly 600,000 tokens if the agent reads everything. Add your conversation history, AGENTS.md instructions, tool schemas, and the model's own reasoning tokens, and you are closer to the wall than you think.
 
 The critical insight is that **context windows do not degrade gracefully**. The model does not gradually get worse as the window fills. It maintains high quality up to a threshold, then compaction fires, and you experience a discrete information loss event. The agent on the other side of that event is not the same agent you were working with before.[^1]
 
@@ -79,11 +75,11 @@ graph TD
 
 Every `cat`, every `grep`, every failing test run lands in the same context the model uses to reason about your high-level requirements. Useful signal gets buried under noise. The model starts hedging based on stale intermediate state. Token count climbs toward the compaction threshold.[^2]
 
-Practitioners building complex multi-agent systems identified this early in 2026: *"Agents can't endlessly compact/recycle in the same context window --- we need either smarter harnesses or something which provides more delegation."*[^3]
+Practitioners building complex multi-agent systems identified this early in 2026: *"Agents can't endlessly compact/recycle in the same context window, we need either smarter harnesses or something which provides more delegation."*[^3]
 
 ### What Compaction Actually Does
 
-When the context window approaches capacity, Codex CLI triggers compaction --- either automatically (when the rendered token count crosses `model_auto_compact_token_limit`) or manually (when you type `/compact`).
+When the context window approaches capacity, Codex CLI triggers compaction, either automatically (when the rendered token count crosses `model_auto_compact_token_limit`) or manually (when you type `/compact`).
 
 Here is what happens:
 
@@ -114,7 +110,7 @@ flowchart LR
 
 ### The Thresholds: When Compaction Fires
 
-Codex CLI triggers automatic compaction at approximately 90% of the context window capacity. The exact threshold varies by model (roughly 180K--244K tokens) and is configurable downward --- but not upward. Since v0.100.0, values above approximately 90% of the context window are silently clamped, even if you specify a higher limit explicitly.[^7]
+Codex CLI triggers automatic compaction at approximately 90% of the context window capacity. The exact threshold varies by model (roughly 180K--244K tokens) and is configurable downward, but not upward. Since v0.100.0, values above approximately 90% of the context window are silently clamped, even if you specify a higher limit explicitly.[^7]
 
 ```toml
 # ~/.codex/config.toml
@@ -130,7 +126,7 @@ For comparison, here is how other agents handle this:
 | **Codex CLI** | ~90% | Late: maximize useful context, accept larger loss events |
 | **OpenCode** | ~96--99% | Extreme: squeeze every token, risk quality cliffs |
 
-Gemini CLI's 50% threshold is striking --- it fires compaction when half the window remains unused, trading context utilization for stability.[^5] OpenCode sits at the opposite extreme. For practitioners, earlier thresholds mean more frequent but smaller information losses; later thresholds mean fewer compactions but more catastrophic ones when they hit.
+Gemini CLI's 50% threshold is striking, it fires compaction when half the window remains unused, trading context utilization for stability.[^5] OpenCode sits at the opposite extreme. For practitioners, earlier thresholds mean more frequent but smaller information losses; later thresholds mean fewer compactions but more catastrophic ones when they hit.
 
 ### The Hidden Cost: KV Cache Destruction
 
@@ -138,17 +134,15 @@ Every compaction event carries a cost that rarely appears in agent documentation
 
 When an LLM provider processes your context, it builds a key-value cache of attention computations. Subsequent turns that share the same context prefix hit this cache, dramatically reducing both latency and cost. Cache reads cost substantially less than cold reads — approximately 90% or more, depending on the provider.[^5]
 
-Compaction destroys this cache entirely. The summarized context is a new prefix that shares nothing with the previous one, forcing a complete recomputation. Research quantified this: **one compaction on a 125,000-token context costs approximately $0.40 --- equivalent to roughly 21 follow-up turns at cached rates**.[^5]
+Compaction destroys this cache entirely. The summarized context is a new prefix that shares nothing with the previous one, forcing a complete recomputation. Research quantified this: **one compaction on a 125,000-token context costs approximately $0.40, equivalent to roughly 21 follow-up turns at cached rates**.[^5]
 
 The optimal strategy is not to avoid compaction at all costs, but to **delay it as long as possible while the cache is warm**, then use it only when the quality degradation from a full window genuinely exceeds the cost of cache invalidation.
-
----
 
 ## Part II: The Breakthrough That Made Long Sessions Viable
 
 ### Native Compaction: The GPT-5.2-Codex Shift
 
-Before January 2026, compaction was an external hack. GPT-5.1-Codex-Max could work across multiple context windows, but the compaction was handled by harness code outside the model: summarize older turns, inject the summary, continue. This introduced its own failure modes --- the harness might summarize poorly, the model was not trained to expect or interpret those summaries, and long-range coherence suffered.[^8]
+Before January 2026, compaction was an external hack. GPT-5.1-Codex-Max could work across multiple context windows, but the compaction was handled by harness code outside the model: summarize older turns, inject the summary, continue. This introduced its own failure modes, the harness might summarize poorly, the model was not trained to expect or interpret those summaries, and long-range coherence suffered.[^8]
 
 GPT-5.2-Codex, released January 14, 2026, changed the architecture fundamentally. The model was **specifically optimized for Codex's compaction workflow during training**. It knows that context windows compress and resume. It produces and consumes summaries that are semantically faithful yet token-efficient. The result: genuinely coherent multi-file sessions spanning thousands of file operations without losing track.[^8]
 
@@ -160,11 +154,9 @@ The benchmark evidence is clear:
 | GPT-5.2-Codex | 56.4% | 64.0% |
 | GPT-5.3-Codex | 56.8% | 77.3% |
 
-GPT-5.3-Codex added interactive steering without context loss --- you can redirect the agent mid-task and it maintains coherent state, a capability that previously caused the agent to lose its thread post-compaction.[^8]
+GPT-5.3-Codex added interactive steering without context loss, you can redirect the agent mid-task and it maintains coherent state, a capability that previously caused the agent to lose its thread post-compaction.[^8]
 
 This means the `/compact` command became a genuine strategy, not a workaround. Proactively compacting at 60% utilization actually works as intended with these models. But it still is not free, and it still is not lossless.
-
----
 
 ## Part III: Strategies That Prevent Compaction Entirely
 
@@ -247,7 +239,7 @@ description = "High-level planning and final decision agent"
 reasoning_effort = "high"
 ```
 
-GPT-5.4-mini handles exploration, file review, and summarization --- tasks where speed and throughput matter more than deep reasoning. Use the full model where architectural judgment is required.[^2]
+GPT-5.4-mini handles exploration, file review, and summarization, tasks where speed and throughput matter more than deep reasoning. Use the full model where architectural judgment is required.[^2]
 
 ### Strategy 2: Reasoning Effort Tuning
 
@@ -263,7 +255,7 @@ The five levels:
 | `high` | ~3--5x | Multi-file refactors, complex debugging |
 | `xhigh` | ~8--15x | Long-horizon autonomous tasks, security audits |
 
-**The context management insight:** running everything at `high` does not just cost more --- it fills your context window 3--5x faster, bringing compaction forward significantly.
+**The context management insight:** running everything at `high` does not just cost more, it fills your context window three to five times faster, bringing compaction forward significantly.
 
 The optimal pattern for multi-agent workflows: **orchestrator at `high` for planning and decisions; subagents at `low` or `minimal` for execution**. This can reduce overall token spend by 50--70% versus running everything at `medium`, while maintaining quality where it matters.[^9]
 
@@ -325,7 +317,7 @@ Small choices compound. Every token in your AGENTS.md, every MCP tool schema, ev
 **Keep AGENTS.md concise.** The file is injected at session start and counts against your budget on every turn. Delegate deep context to role-specific config files:
 
 ```markdown
-# AGENTS.md (root --- keep under 500 tokens)
+# AGENTS.md (root, keep under 500 tokens)
 See .codex/agents/ for role-specific instructions.
 Default model: gpt-5.4.
 Test command: uv run pytest -q.
@@ -343,11 +335,9 @@ Summarise your findings in:
 
 **Monitor the token counter** in the CLI footer. If it is climbing quickly on a single task, that is your signal to restructure as a delegated workflow before compaction fires.
 
----
-
 ## Part IV: What Happens After the Session Ends
 
-Context compaction addresses within-session memory. But what about between sessions? Every morning, your Codex agent wakes up with amnesia. The forty minutes you spent yesterday teaching it your domain model, your deployment quirks, your team's naming conventions --- gone.
+Context compaction addresses within-session memory. But what about between sessions? Every morning, your Codex agent wakes up with amnesia. The forty minutes you spent yesterday teaching it your domain model, your deployment quirks, your team's naming conventions, gone.
 
 This is the **cold start problem**, and it is where the next wave of context management innovation is happening.
 
@@ -371,11 +361,11 @@ flowchart TD
     style G fill:#90ee90,stroke:#228b22,color:#000
 ```
 
-**Phase 1: Startup Extraction.** When Codex identifies stale threads --- sessions updated since their last memory extraction --- it spawns lightweight extraction agents using `gpt-5.4-mini` (previously `gpt-5.1-codex-mini`, which was deprecated April 2026). Each processes raw `.jsonl` rollout files and produces detailed Markdown capturing specific facts, decisions, and preferences, plus a compact session recap.[^10]
+**Phase 1: Startup Extraction.** When Codex identifies stale threads, sessions updated since their last memory extraction, it spawns lightweight extraction agents using `gpt-5.4-mini` (previously `gpt-5.1-codex-mini`, which was deprecated April 2026). Each processes raw `.jsonl` rollout files and produces detailed Markdown capturing specific facts, decisions, and preferences, plus a compact session recap.[^10]
 
 **Phase 2: Global Consolidation.** A dedicated "Memory Writing Agent" periodically merges Phase 1 outputs into global memory files. An `input_watermark` tracks which outputs have already been processed, enabling incremental updates rather than full rebuilds.[^10]
 
-**Diff-based forgetting** (introduced v0.106.0) prevents memory bloat. Rather than treating memory as append-only, the consolidation agent performs differential comparison between existing memory and incoming extractions. Facts that are contradicted or superseded by newer information are removed or updated --- mimicking how human memory works.[^10]
+**Diff-based forgetting** (introduced v0.106.0) prevents memory bloat. Rather than treating memory as append-only, the consolidation agent performs differential comparison between existing memory and incoming extractions. Facts that are contradicted or superseded by newer information are removed or updated, mimicking how human memory works.[^10]
 
 **Usage-aware selection** ensures frequently referenced memories are prioritized. When the agent cites a memory, the system increments a usage counter. During consolidation, high-frequency memories survive longer while rarely accessed facts gradually fade.[^10]
 
@@ -398,12 +388,12 @@ The most strategically significant recent feature landed on April 9, 2026. PR #1
 
 The key additions:
 
-- **Consolidation module with extension paths** --- memory data is processed through configurable consolidation templates
-- **Conditional rendering** --- memory extension prompts activate only when relevant context is available, avoiding unnecessary token consumption
-- **Extension-based architecture** --- memory extensions wire through a modular prompt system, not hard-coded into the agent loop
-- **Third-party backend support** --- the extension architecture means custom memory backends (databases, vector stores) can plug in
+- **Consolidation module with extension paths**, memory data is processed through configurable consolidation templates
+- **Conditional rendering**, memory extension prompts activate only when relevant context is available, avoiding unnecessary token consumption
+- **Extension-based architecture**, memory extensions wire through a modular prompt system, not hard-coded into the agent loop
+- **Third-party backend support**, the extension architecture means custom memory backends (databases, vector stores) can plug in
 
-This solves the cold start problem at the infrastructure level. Agentic pods can now build institutional memory --- decisions, patterns, and domain knowledge persist across sessions, developers, and even across different agents in a team.
+This solves the cold start problem at the infrastructure level. Agentic pods can now build institutional memory, decisions, patterns, and domain knowledge persist across sessions, developers, and even across different agents in a team.
 
 ### MCP Memory Servers: The Ecosystem Solution
 
@@ -451,20 +441,18 @@ The episodic layer captures *what you decided*. The structural layer provides *h
 
 The codebase-memory-mcp server deserves special attention because it represents a fundamentally different approach to the context problem. Instead of remembering *conversations about code*, it indexes *the code itself* into a persistent knowledge graph.[^12]
 
-Built on Tree-Sitter AST analysis, it parses source code across 66 languages and builds a graph of functions, classes, interfaces, routes, and their relationships --- who calls whom, what implements what, which tests cover which modules.
+Built on Tree-Sitter AST analysis, it parses source code across 66 languages and builds a graph of functions, classes, interfaces, routes, and their relationships, who calls whom, what implements what, which tests cover which modules.
 
 Its 14 MCP tools include:
 
-- **`trace_call_path`** --- BFS traversal of caller/callee relationships
-- **`detect_changes`** --- maps git diffs to affected symbols with risk classification
-- **`get_architecture`** --- single-call overview returning languages, packages, routes, and hotspots
-- **`query_graph`** --- Cypher-like read-only graph queries
+- **`trace_call_path`**, BFS traversal of caller/callee relationships
+- **`detect_changes`**, maps git diffs to affected symbols with risk classification
+- **`get_architecture`**, single-call overview returning languages, packages, routes, and hotspots
+- **`query_graph`**, Cypher-like read-only graph queries
 
 According to the project's benchmarks, the Linux kernel (28M LOC, 75K files) indexes in 3 minutes, with Cypher queries completing in under 1ms.[^12]
 
 For context management, the implication is significant. Instead of the agent reading 50 files to understand a codebase (consuming tens of thousands of tokens), it queries the knowledge graph and gets a structural map in a few hundred tokens. That is the difference between hitting compaction at minute 30 and never hitting it at all.
-
----
 
 ## Part V: The Complete Context Management Stack
 
@@ -509,8 +497,6 @@ flowchart TB
 **Layer 3 (Cross-Session Persistence)** ensures the agent remembers what it learned yesterday. The built-in memory system handles this automatically through extraction and consolidation. Memory extensions (PR #16276) open the door to pluggable backends. Use `/m_update` deliberately for facts that should persist.
 
 **Layer 4 (Structural Intelligence)** provides the agent with code understanding that does not depend on reading files at all. Knowledge graphs, episodic memory servers, and cross-agent memory layers create a foundation that survives not just compaction but session boundaries entirely.
-
----
 
 ## Part VI: A Practical Playbook
 
@@ -582,19 +568,17 @@ Here is the concrete workflow recommended for any session expected to exceed 20 
 
 1. **Let the memory pipeline run.** Phase 1 extraction triggers automatically for stale threads. Phase 2 consolidation merges learnings into global memory. Your next session will start with the accumulated knowledge.
 
----
-
 ## Part VII: Where This Is Heading
 
 ### Latent-Space Compaction
 
-Research from MIT and Harvard published in February 2026 introduced **Fast KV Compaction via Attention Matching** --- a technique that constructs a smaller KV set matching the attention outputs of the full set without generating any summary tokens.[^5] Crucially, this preserves cache continuity, meaning the compacted state can be served as a new cache prefix without the cold-start penalty.
+Research from MIT and Harvard published in February 2026 introduced **Fast KV Compaction via Attention Matching**, a technique that constructs a smaller KV set matching the attention outputs of the full set without generating any summary tokens.[^5] Crucially, this preserves cache continuity, meaning the compacted state can be served as a new cache prefix without the cold-start penalty.
 
-This is still a research result, not a production feature. But it points toward a future where compaction does not require summarization at all --- the model simply operates on a compressed attention representation that preserves the full semantic content of the original context.
+This is still a research result, not a production feature. But it points toward a future where compaction does not require summarization at all, the model simply operates on a compressed attention representation that preserves the full semantic content of the original context.
 
 ### Event-Store Architectures
 
-OpenHands already implements an event-sourced state model where compaction marks events for suppression rather than deletion.[^5] The full history remains available for replay or audit. If this pattern spreads to Codex CLI, compaction becomes reversible --- you could "rehydrate" forgotten context on demand.
+OpenHands already implements an event-sourced state model where compaction marks events for suppression rather than deletion.[^5] The full history remains available for replay or audit. If this pattern spreads to Codex CLI, compaction becomes reversible, you could "rehydrate" forgotten context on demand.
 
 ### Memory as Infrastructure
 
@@ -607,17 +591,15 @@ The trajectory of PR #16276 (memory extensions) suggests OpenAI views persistent
 
 ### The Convergence
 
-The memory server ecosystem is converging on common patterns: Markdown as source of truth, hybrid BM25+vector retrieval, and MCP as the transport layer. The remaining gap is standardization --- a common memory protocol would allow agents to switch memory backends without rewriting instructions or losing existing memories.[^12]
+The memory server ecosystem is converging on common patterns: Markdown as source of truth, hybrid BM25+vector retrieval, and MCP as the transport layer. The remaining gap is standardization, a common memory protocol would allow agents to switch memory backends without rewriting instructions or losing existing memories.[^12]
 
 When native model compaction (GPT-5.2-Codex's breakthrough), persistent memory (PR #16276), structural knowledge graphs (codebase-memory-mcp), and latent-space compression all mature together, the context window constraint that has defined agentic coding since its inception may finally become invisible.
 
-We are not there yet. But we are close enough that the strategies in this article --- delegation, tuning, custom compaction, persistent memory --- will carry you through the gap.
-
----
+We are not there yet. But we are close enough that the strategies in this article, delegation, tuning, custom compaction, persistent memory, will carry you through the gap.
 
 ## The One Thing to Remember
 
-Context management is not a feature you configure once. It is a practice --- a set of habits that determine whether your agent sessions compound into productivity or degrade into frustration.
+Context management is not a feature you configure once. It is a practice, a set of habits that determine whether your agent sessions compound into productivity or degrade into frustration.
 
 The single highest-leverage habit: **decompose before you start**. Define the delegation boundaries in your first message. Keep the orchestrator clean. Let subagents do the noisy work. If you do nothing else from this article, do that.
 
@@ -625,11 +607,7 @@ Your context window is a constrained and costly resource. Treat it accordingly.
 
 The efficiency layer is in place. But efficiency without economic accountability is still a cost centre. In [Article 11: Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/), we build the business case — proving the factory's value in terms that finance teams and executive stakeholders can evaluate.
 
----
-
 ## Citations
-
----
 
 ## The Agentic Engineering Series {#series}
 
@@ -651,8 +629,6 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
 
----
-
 [^1]: OpenAI warning on long conversations and compaction accuracy: <https://community.openai.com/t/automatically-compacting-context/1376290>
 
 [^2]: Codex CLI subagent delegation and context management: <https://developers.openai.com/codex/concepts/subagents>
@@ -671,8 +647,8 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 [^9]: Codex CLI reasoning effort tuning and token economics: <https://developers.openai.com/codex/config-reference>
 
-[^10]: Memory System architecture --- DeepWiki / openai/codex: <https://deepwiki.com/openai/codex/3.9-memories-system>
+[^10]: Memory System architecture, DeepWiki / openai/codex: <https://deepwiki.com/openai/codex/3.9-memories-system>
 
-[^11]: PR #16276 --- Memory extensions system merged April 9, 2026: <https://github.com/openai/codex/pull/16276>
+[^11]: PR #16276, Memory extensions system merged April 9, 2026: <https://github.com/openai/codex/pull/16276>
 
-[^12]: MCP memory server ecosystem --- AgentMemory, Basic Memory, codebase-memory-mcp: <https://github.com/DeusData/codebase-memory-mcp>, <https://github.com/rohitg00/agentmemory>, <https://docs.basicmemory.com/integrations/codex>
+[^12]: MCP memory server ecosystem, AgentMemory, Basic Memory, codebase-memory-mcp: <https://github.com/DeusData/codebase-memory-mcp>, <https://github.com/rohitg00/agentmemory>, <https://docs.basicmemory.com/integrations/codex>

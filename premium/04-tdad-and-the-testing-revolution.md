@@ -30,13 +30,11 @@ image: /sketchnotes/premium-articles/04-tdad-and-the-testing-revolution.png
 
 Adding TDD instructions to your AI coding agent increases regressions by 63%, not decreases them [^2]. That is the counter-intuitive headline from a March 2026 study by Alonso et al. (arXiv:2603.17973v2), a master's thesis from Universidad ORT Uruguay (not a peer-reviewed conference paper), evaluating Qwen3-Coder 30B on 100 SWE-bench Verified tasks. The math: regression rate went from 6.08% baseline to 9.94% with generic TDD prompting — a 63.5% increase. It should stop every team that has "always run tests before committing" in their AGENTS.md.
 
-The researchers measured something the industry has been ignoring: **collateral damage**. Agents running without structural test guidance introduce regressions on 6-10% of tasks [^1]. That is not a rounding error. If your team ships 20 agent-driven changes a day, one or two of them are quietly breaking something that already worked. And the obvious fix --- telling the agent to follow TDD --- makes it worse, not better.
+The researchers measured something the industry has been ignoring: **collateral damage**. Agents running without structural test guidance introduce regressions on 6-10% of tasks [^1]. That is not a rounding error. If your team ships 20 agent-driven changes a day, one or two of them are quietly breaking something that already worked. And the obvious fix, telling the agent to follow TDD, makes it worse, not better.
 
 You know that authentication bug your team spent two days tracking down last month? The one where OAuth tokens silently expired during refresh? Your agent just reintroduced a cousin of it. It touched the same module, broke the same test that used to pass, and nobody noticed because nobody was checking *those* tests after *that* change.
 
 This article is about why that happens, what actually works instead, and how to set it up in your codebase this week. The solution is a tool called TDAD (Test-Driven Agentic Development), and its results suggest most of us have been thinking about agent testing completely backwards.
-
----
 
 ## The Problem Nobody Benchmarks
 
@@ -67,8 +65,6 @@ This is not a bug in any particular model. It is the predictable behaviour of a 
 Beck's framing is compelling: TDD becomes a **"superpower"** for agentic coding not because it guides the agent toward correct implementation, but because it provides **an external source of truth the agent cannot argue with** -- provided you protect the tests from the agent itself [^5]. (For more on why agents delete tests and the broader cognitive debt this creates, see *AI Slopageddon*.)
 
 But here is the twist the TDAD paper reveals: *how* you provide that test information matters enormously. And the most intuitive approach -- telling the agent to follow TDD -- backfires spectacularly.
-
----
 
 ## Why "Always Run Tests" Makes Things Worse
 
@@ -111,8 +107,6 @@ flowchart TD
 This maps directly to a broader principle that the Codex CLI community has been converging on: **agents perform better with contextual information than with procedural instructions** [^6]. The ETH Zurich study on AGENTS.md files (Gloaguen et al.) found the same pattern in a different domain -- generic LLM-generated context files hurt agent performance, while targeted human-written structural information helped [^7].
 
 The lesson is clear: your agent does not need a lecture on software engineering methodology. It needs a *map*.
-
----
 
 ## Enter TDAD: The Map Your Agent Is Missing
 
@@ -166,8 +160,6 @@ Across 100 SWE-bench Verified instances with Qwen3-Coder 30B [^2]:
 - In a separate evaluation with **Qwen3.5-35B-A3B on 25 instances**, resolution rate improved from **24% to 32%** -- the agent got *better* at fixing bugs, not just safer
 
 That second finding is important. TDAD does not just prevent breakage; it helps the agent verify its own work more effectively. When an agent knows precisely which tests to run, it can iterate faster and converge on correct solutions more reliably. The test map acts as both a safety net and a compass.
-
----
 
 ## Setting Up TDAD in Your Codebase
 
@@ -226,10 +218,8 @@ mkdir -p .codex/skills/test-impact
 Write the skill file at `.codex/skills/test-impact/SKILL.md`:
 
 ```markdown
----
 name: test-impact-analysis
 description: "Identifies which tests are affected by the current change and verifies them before committing"
----
 
 ## Instructions
 
@@ -283,8 +273,6 @@ timeout_ms = 30000
 ```
 
 This ensures the test map stays current even as the codebase evolves across multiple agent sessions.
-
----
 
 ## The Full TDD-Plus-TDAD Workflow
 
@@ -351,8 +339,6 @@ codex "Refactor the rate-limiting middleware for clarity.
   Ensure all tests still pass -- use the $test-impact-analysis skill.
   Run the full test suite as a final check."
 ```
-
----
 
 ## Three Layers of Defence Against Test Corruption
 
@@ -451,8 +437,6 @@ print(json.dumps({"continue": False}))
 
 The three layers are complementary: instructions set expectations, the PreToolUse hook blocks obvious violations, and the Stop hook catches anything that slipped through.
 
----
-
 ## Scaling This: Multi-Agent TDD with TDAD
 
 For teams running Codex at scale -- multiple agents working on different parts of the codebase concurrently -- TDAD's dependency graph becomes even more valuable. Without it, parallel agents can step on each other's work without knowing it.
@@ -481,8 +465,6 @@ Each agent gets its own scoped impact map. The full suite runs only once, after 
 
 This is vastly more efficient than running the full suite after every agent's changes, which is what most teams do today. For a project with a 45-minute test suite and five concurrent agents, the difference between "run full suite per agent" (225 minutes of compute) and "run targeted tests per agent, full suite once" (maybe 60 minutes total) is significant.
 
----
-
 ## The Bigger Picture: Context Beats Process
 
 The TDAD paper validates a recurring theme in this series: the most important skill in working with coding agents is not prompt engineering, not model selection, not approval-mode configuration. It is **context engineering** -- giving the agent the right structural information at the right time.
@@ -506,8 +488,6 @@ For practical purposes, this means:
 
 Every procedural instruction you convert into structural context or programmatic enforcement is a regression prevented.
 
----
-
 ## What To Do This Week
 
 If you are using Codex CLI (or any coding agent) and you do not have structural test guidance in place, here is the minimum viable setup:
@@ -530,8 +510,6 @@ Review the output. Does the dependency graph match your mental model of the code
 
 **Day 5: Measure.** Run your agent on 10-20 tasks and track regression rate. Compare to your previous week. If TDAD's results generalise to your codebase (and the SWE-bench data suggests they should), you will see a meaningful drop.
 
----
-
 ## Limitations to Know About
 
 TDAD is not a silver bullet, and honesty about the gaps is important:
@@ -543,8 +521,6 @@ TDAD is not a silver bullet, and honesty about the gaps is important:
 **Requires existing tests.** TDAD assumes tests exist. For codebases with poor test coverage, the dependency graph will be sparse and the impact analysis less useful. If this is your situation, consider pairing TDAD with a test generation skill -- frameworks like Playwright for E2E testing or Hypothesis for property-based testing can fill coverage gaps that make TDAD's map more complete [^14].
 
 **Consumer-hardware evaluation.** The paper's results come from open-weight models (Qwen3-Coder 30B, Qwen3.5-35B-A3B) running on consumer hardware, not frontier models like GPT-5.4 [^15]. Frontier models likely have lower baseline regression rates, but the *proportional* benefit of structural test context should hold.
-
----
 
 ## The Metric You Are Not Measuring
 
@@ -577,8 +553,6 @@ diff .codex/test_baseline.txt .codex/test_after.txt
 
 If any previously passing test now fails, that is a regression. Track it. Trend it. Make it visible. It may be the most important metric you are not currently measuring.
 
----
-
 ## The Bottom Line
 
 Your AI agent is good at writing code. It is bad at understanding the consequences of the code it writes. This is not a flaw that better models will fix -- it is a structural problem that requires structural solutions.
@@ -593,11 +567,7 @@ The fix is not hard. The cost of not fixing it compounds every day.
 
 The quality gate is installed. But a factory needs more than tooling and testing — it needs a team model that assigns clear ownership of context, orchestration, and verification. In [Article 05: The Agentic Pod](/premium/05-the-agentic-pod/), we define the three-person team structure that turns these individual practices into a coordinated production system.
 
----
-
 ## Citations
-
----
 
 ## The Agentic Engineering Series {#series}
 
@@ -618,8 +588,6 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
-
----
 
 [^1]: Alonso, P., Yovine, S., Braberman, V. A. (2026). "TDAD: Test-Driven Agentic Development — Reducing Code Regressions in AI Coding Agents via Graph-Based Impact Analysis." arXiv:2603.17973v2. [https://arxiv.org/abs/2603.17973v2](https://arxiv.org/abs/2603.17973v2). GitHub: [https://github.com/pepealonso95/TDAD](https://github.com/pepealonso95/TDAD)
 

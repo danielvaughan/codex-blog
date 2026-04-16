@@ -28,18 +28,13 @@ image: /sketchnotes/premium-articles/08-inside-the-machine.png
 
 # Inside the Machine: How Codex CLI Actually Works (Architecture Deep Dive)
 
-
----
-
 When you type `codex 'fix this bug'` and press Enter, something remarkable happens in the next thirty seconds. Your prompt travels through a Rust binary, gets serialized into a JSON-RPC message, enters an agent loop that calls the OpenAI Responses API, receives a streaming response that proposes a code change, routes that change through a sandbox policy engine that decides whether your filesystem can be touched, applies a patch through a tool call, observes the result, reasons about whether more work is needed, and either loops again or hands control back to you with a summary of what changed.
 
 All of that -- the protocol negotiation, the sandboxing, the approval workflow, the context management, the streaming -- happens in a single Rust process that starts in milliseconds and uses no garbage collector.
 
 This article takes that thirty-second experience apart, component by component. By the end, you should understand Codex CLI's architecture well enough to read its source code, debug unexpected behaviour, or contribute to it. We will cover the agent loop, the sandbox, the Rust rewrite, the app server protocol, the hooks system, MCP integration, and context compaction. Each section includes references to the actual source files in the [openai/codex](https://github.com/openai/codex) repository.
 
-Let's open the hood.
-
----
+Open the hood.
 
 ## Part 1: The Agent Loop -- The Heartbeat of Codex
 
@@ -94,8 +89,6 @@ Bolin makes an important clarification that reframes how you should think about 
 > *"Because the agent can execute tool calls that modify the local environment, its 'output' is not limited to the assistant message. In many cases, the primary output of a software agent is the code it writes or edits on your machine."*[^1]
 
 The assistant message at the end of a turn is a termination signal, not the deliverable. The deliverable is the accumulated effect of tool calls on your filesystem, test results, and PR state.
-
----
 
 ## Part 2: The Rust Rewrite -- From TypeScript to codex-rs
 
@@ -208,8 +201,6 @@ flowchart LR
 
 This is why `codex exec --model gpt-5-codex` overrides the profile default, which overrides the global config, which overrides the compiled-in default -- without any of these layers needing to know about each other.
 
----
-
 ## Part 3: The Sandbox -- Seatbelt, Landlock, and Restricted Tokens
 
 A coding agent that can execute arbitrary shell commands on your machine is either very useful or very dangerous, depending on how well the sandbox works. Codex takes this seriously -- sandboxing is not an afterthought bolted on top; it is a first-class subsystem with platform-specific implementations.
@@ -292,8 +283,6 @@ Key properties as of v0.117.0:[^1]
 - Parallel approvals: multiple tool calls evaluated simultaneously
 - Permissions persist across turns: granted once, honoured for the session
 - Spawned subagents inherit sandbox and network rules from the parent
-
----
 
 ## Part 4: The App Server -- One Protocol, Every Surface
 
@@ -395,8 +384,6 @@ The app server is designed for graceful degradation. All four internal component
 | First SIGTERM | Drains running turns, then shuts down |
 | Second SIGTERM | Immediate exit |
 
----
-
 ## Part 5: The Hooks System -- Extensibility Without Forking
 
 Hooks are Codex's mechanism for letting you inject custom behaviour at key points in the agent lifecycle without modifying the agent itself. Introduced experimentally in v0.114.0 and expanded through v0.117.0, the hooks system provides five event points across two categories.[^7]
@@ -488,8 +475,6 @@ exit 0
 
 The `additionalContext` field in the JSON response gets injected into the session context, and the agent sees it alongside the system prompt.[^7]
 
----
-
 ## Part 6: MCP Integration -- The Universal Tool Socket
 
 Model Context Protocol (MCP) is to AI agents what USB-C is to peripherals: a standard interface for connecting tools. Instead of each external system requiring bespoke integration, an MCP server exposes tools, resources, and prompts through a common protocol. Any compliant client -- Codex, Claude Code, Cursor -- can consume them without custom code.[^8]
@@ -542,8 +527,6 @@ They coexist. An MCP tool call from within a Codex session flows through the app
 
 In non-interactive mode (`codex exec`), MCP servers start and stop alongside the agent session. If you commit `.codex/config.toml` with MCP server definitions to your repository, your CI pipeline gets the same tool access as interactive development -- the GitHub MCP server can fetch PR context, check open issues, or update comments during automated code review.[^8]
 
----
-
 ## Part 7: Context Compaction -- The Breakthrough That Made Long Sessions Possible
 
 The quadratic growth problem we discussed in Part 1 is not merely a cost concern -- it is an absolute barrier. Every model has a finite context window. Once you exceed it, the session is over.
@@ -581,8 +564,6 @@ The impact of native compaction shows up directly in benchmarks:[^9]
 | GPT-5.3-Codex (native + steering) | 56.8% | 77.3% |
 
 The Terminal-Bench 2.0 jump from 58.1% to 77.3% over two model generations reflects improved tool use chaining and long-horizon task completion -- exactly the capabilities that compaction unlocks.[^9]
-
----
 
 ## Part 8: Putting It All Together -- The Complete Request Lifecycle
 
@@ -642,8 +623,6 @@ That is the full path: user input -> hooks -> app server protocol -> agent loop 
 
 Every component we covered plays a role in those thirty seconds.
 
----
-
 ## The Source Map
 
 For contributors and the deeply curious, here is where each subsystem lives in the [openai/codex](https://github.com/openai/codex) repository:[^6][^4]
@@ -676,8 +655,6 @@ For contributors and the deeply curious, here is where each subsystem lives in t
 | TypeScript schema exports | `codex-rs/app-server-protocol/schema/typescript/` | Generated from Rust types |
 | Contribution conventions | `AGENTS.md` | Codex-specific contribution rules |
 
----
-
 ## Key Architectural Decisions and Why They Were Made
 
 Having traced through the entire system, several architectural decisions stand out as particularly well-considered:
@@ -691,8 +668,6 @@ Having traced through the entire system, several architectural decisions stand o
 **4. Hooks as external processes, not plugins.** By spawning hooks as child processes with JSON on stdin and exit codes as the control mechanism, Codex avoids the complexity of a plugin runtime. Hooks can be written in any language. They cannot crash the agent. And the security model is simple: hooks run outside the sandbox, so enabling them is an explicit opt-in.
 
 **5. Native context compaction over external scaffolding.** Training the model to understand and produce compaction summaries -- rather than bolting summarization on top -- was the decision that made long-horizon autonomous sessions viable. The model cooperates with the compaction system rather than being surprised by it.
-
----
 
 ## What You Need to Know to Contribute
 
@@ -708,13 +683,7 @@ The crate boundaries are well-defined and the source code is documented. The pre
 
 The engine is understood. But understanding the machinery is only half the battle — you also need to secure it. In [Article 09: Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/), we install the guardrails — the enterprise security layers that ensure the factory operates safely under production conditions.
 
----
-
----
-
 ## Citations
-
----
 
 ## The Agentic Engineering Series {#series}
 
@@ -735,8 +704,6 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
-
----
 
 [^1]: Michael Bolin, "Unrolling the Codex Agent Loop," OpenAI Engineering Blog, January 2026. https://openai.com/index/unrolling-the-codex-agent-loop/
 
