@@ -318,19 +318,29 @@ flowchart TB
         subgraph Pods["Autonomous Pods"]
             direction LR
             subgraph P1["Pod 1: Payments"]
-                CA1["CA"], VE1["VE"], QE1["QE"]
+                CA1["CA"]
+                VE1["VE"]
+                QE1["QE"]
             end
             subgraph P2["Pod 2: Search"]
-                CA2["CA"], VE2["VE"], QE2["QE"]
+                CA2["CA"]
+                VE2["VE"]
+                QE2["QE"]
             end
             subgraph P3["Pod 3: Onboarding"]
-                CA3["CA"], VE3["VE"], QE3["QE"]
+                CA3["CA"]
+                VE3["VE"]
+                QE3["QE"]
             end
             subgraph P4["Pod 4: Platform"]
-                CA4["CA"], VE4["VE"], QE4["QE"]
+                CA4["CA"]
+                VE4["VE"]
+                QE4["QE"]
             end
             subgraph P5["Pod 5: Data"]
-                CA5["CA"], VE5["VE"], QE5["QE"]
+                CA5["CA"]
+                VE5["VE"]
+                QE5["QE"]
             end
         end
     end
