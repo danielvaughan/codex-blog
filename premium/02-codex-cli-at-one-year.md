@@ -27,19 +27,15 @@ image: /sketchnotes/premium-articles/02-codex-cli-at-one-year.png
 
 *Written 2026-04-15. Based on one year of daily tracking: changelogs, GitHub PRs, benchmark data, community signals, and production use across dozens of codebases.*
 
----
-
 # Codex CLI at One Year: What We Got Right, What We Got Wrong, and What's Coming Next
 
 ## One Year and 67,000 GitHub Stars Later
 
-One year and 67,000 GitHub stars later, here is what OpenAI got right --- and what they got wrong --- with Codex CLI.
+One year and 67,000 GitHub stars later, here is what OpenAI got right, and what they got wrong, with Codex CLI.
 
 On April 16, 2025, OpenAI open-sourced a terminal-based coding agent under the Apache 2.0 license.[^1a] The repo hit the front page of Hacker News within hours. Three million weekly active users followed.[^1] So did a 520-comment thread about runaway token costs,[^9] a TypeScript-to-Rust rewrite that alienated contributors, and a Windows experience that still breaks in new and creative ways every release cycle.
 
-This is not a press release. This is an honest assessment --- based on tracking every changelog entry, reading every significant PR, and following daily community usage patterns over the past year --- of whether the tool that bet on the terminal as the right surface for AI agents has earned that bet.
-
----
+This is not a press release. This is an honest assessment, based on tracking every changelog entry, reading every significant PR, and following daily community usage patterns over the past year, of whether the tool that bet on the terminal as the right surface for AI agents has earned that bet.
 
 ## The Timeline: Twelve Months in Milestones
 
@@ -79,8 +75,6 @@ timeline
 ```
 
 Each of these milestones deserves its own article (and many have gotten one). But the pattern they form is more interesting than any single event: Codex CLI evolved from a clever demo into production infrastructure in about ten months. That's fast by any measure. It's also incomplete, and the gaps matter.
-
----
 
 ## What We Got Right
 
@@ -145,8 +139,6 @@ AGENTS.md files now work across Codex CLI, the Codex desktop app, the IDE extens
 The hierarchical loading model — global `$CODEX_HOME/AGENTS.md`, then project root, then subdirectory-specific files — lets teams layer context. A global file sets coding standards; a project file describes the architecture; a subdirectory file explains the local conventions of a specific module. The `/status` command now shows exactly which AGENTS.md files were loaded and in what order[^11], making debugging straightforward.
 
 The economic impact is also measurable. With token-based pricing (April 2026), well-structured AGENTS.md files that remain stable across turns benefit from the 10x cached-input discount.[^12] A stable 2,000-token AGENTS.md costs 10x less per turn than a 2,000-token prompt that changes every time.
-
----
 
 ## What We Got Wrong (Or Haven't Fixed Yet)
 
@@ -223,8 +215,6 @@ Users can't yet see usage breakdowns beyond a 30-day window (issue #17584). The 
 
 The 10x cached-input discount is a powerful lever that most users don't know about. Fast mode consuming 2x credits isn't prominently documented. The reasoning effort parameter (`model_reasoning_effort`) has a direct and significant impact on token consumption — the difference between `medium` and `xhigh` can be 3-5x — but there's no built-in way to see this in real time.
 
----
-
 ## The Competitive Landscape: Where Codex Fits
 
 One year in, the AI coding agent market has crystallised into distinct niches. Here's where each major tool has landed.
@@ -284,8 +274,6 @@ The agents-radar ecosystem digests crystallised each tool's strategic direction 
 | **OpenCode** | Full OSS, privacy, voice/multimodal | No vendor lock-in, open weights |
 | **Pi** | Terminal power users, multi-provider | OpenRouter, maximum flexibility |
 
----
-
 ## The State of Codex CLI Today (April 2026)
 
 For readers who haven't looked at Codex CLI recently, here's a snapshot of the current state.
@@ -341,8 +329,6 @@ The pace of development in March-April 2026 has been extraordinary. The v0.121.0
 - **PermissionRequest hooks deepening**: Turn-scoped interrupts, progressive directory access, dynamic rule injection.
 - **Enterprise security**: Managed deny-read restrictions via admin-enforced `requirements.toml`.
 
----
-
 ## Benchmarks: The Honest Numbers
 
 Benchmarks are marketing ammunition. Here are the numbers with the necessary context.
@@ -380,8 +366,6 @@ On SWE-EVO (sustained evolution of existing systems), the best models score 21% 
 
 The gap between benchmark performance and real-world performance is the most important number in this entire section. No tool has closed it. Codex CLI's sandbox, hooks, and AGENTS.md system help (good scaffolding adds 4-12 points), but the honest assessment is that we're all still early.
 
----
-
 ## What's Coming: The Next Twelve Months
 
 Predictions are dangerous. Here are mine, grounded in the current development trajectory and observable signals.
@@ -414,8 +398,6 @@ The infrastructure is nearly there. Durable timers (SQLite-backed, surviving pro
 
 What's missing is the user experience. Setting up an agent pod today requires TOML configuration, mental model understanding of the subagent system, and patience for debugging inter-agent communication. The next year needs to make this as easy as `codex --team "review this PR"` — where the tool automatically spins up the right agents with the right roles.
 
----
-
 ## The Honest Summary
 
 Codex CLI at one year is a tool that made several genuinely excellent architectural decisions (sandbox, open source, hooks, AGENTS.md) and is now dealing with the consequences of rapid growth and an ambitious rewrite.
@@ -442,15 +424,11 @@ The assessment here: yes, but it will be closer than it should be. The Rust rewr
 
 Codex CLI at one year is not the best AI coding tool in every dimension. It is the most *architecturally sound* one. The sandbox, the hooks, the open source model, the AGENTS.md convention, the subagent system — these are the right foundations. The next year will determine whether those foundations translate into the best daily experience, or whether a competitor with worse architecture but better polish steals the moment.
 
-The evidence favours Codex CLI --- but the margin is narrower than its architectural advantages might suggest, and honesty requires saying so.
+The evidence favours Codex CLI, but the margin is narrower than its architectural advantages might suggest, and honesty requires saying so.
 
 The platform is assessed. The next step in building the factory is codifying the instructions that turn ad-hoc prompting into repeatable infrastructure. In [Article 03: The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/), we move from evaluating the platform to writing the blueprint that every agent session will follow.
 
----
-
 ## Citations
-
----
 
 ## The Agentic Engineering Series {#series}
 
@@ -471,8 +449,6 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
-
----
 
 [^1]: Sam Altman announced 3 million weekly active Codex users on April 8, 2026, up from 2 million in early March — 50% growth in under a month. Source: [Business Today — OpenAI Codex celebrates 3 million weekly users](https://www.businesstoday.in/technology/story/openai-codex-celebrates-3-million-weekly-users-ceo-sam-altman-resets-usage-limits-524717-2026-04-08)
 

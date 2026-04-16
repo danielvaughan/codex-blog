@@ -29,9 +29,6 @@ image: /sketchnotes/premium-articles/09-complete-guide-to-codex-security.png
 
 # The Complete Guide to Securing Your AI Coding Agent (Before It Secures Your Job)
 
-
----
-
 On March 31, 2026, a North Korean threat actor compromised Axios -- the JavaScript HTTP client installed over 70 million times per week -- and injected a remote access trojan into two published versions. The malicious code executed inside an OpenAI GitHub Actions workflow that controlled macOS code-signing for ChatGPT Desktop, the Codex App, Codex CLI, and Atlas. Within three hours, a RAT was beaconing out from build infrastructure that signs software used by millions of developers.[^1]
 
 The same day, a source map leak from Anthropic's Claude Code npm package exposed internal dependency names, triggering a dependency confusion squatting campaign within hours.[^2]
@@ -40,9 +37,7 @@ Two incidents. One day. Both targeting the tools we use to write code.
 
 This is not a theoretical concern. If you are giving an AI agent read and write access to your codebase, the ability to execute shell commands, and a network connection, you have created an attack surface that did not exist twelve months ago. The question is not whether to use these tools -- they are too productive to ignore. The question is how to use them without handing your codebase, your secrets, and your signing certificates to whoever gets there first.
 
-This guide is the enterprise guardrails baseline every team should have before deploying Codex CLI. It covers the full stack --- ten layers of defence from OS-level sandboxing through approval policies, secrets management, supply chain hardening, SAST/DAST integration, enterprise policy enforcement, and compliance frameworks (SOC 2, HIPAA, PCI-DSS). Each section includes concrete configuration you can copy into your `config.toml` or `requirements.toml` today. If your organisation is evaluating Codex CLI for enterprise adoption, this is the document your security team will want to read first.
-
----
+This guide is the enterprise guardrails baseline every team should have before deploying Codex CLI. It covers the full stack, ten layers of defence from OS-level sandboxing through approval policies, secrets management, supply chain hardening, SAST/DAST integration, enterprise policy enforcement, and compliance frameworks (SOC 2, HIPAA, PCI-DSS). Each section includes concrete configuration you can copy into your `config.toml` or `requirements.toml` today. If your organisation is evaluating Codex CLI for enterprise adoption, this is the document your security team will want to read first.
 
 ## Executive Summary: The 15-Point Security Checklist
 
@@ -65,8 +60,6 @@ For teams that need the quick-start version, here are the fifteen controls that 
 | 13 | Cross-model review configured | Medium |
 | 14 | Dependencies pinned to exact versions | Medium |
 | 15 | CI jobs separate dependency resolution from signing | Medium |
-
----
 
 ## The Threat Model: What Are You Actually Defending Against?
 
@@ -101,8 +94,6 @@ OpenAI's own documentation identifies four risk categories when internet access 
 The good news: Codex CLI's security model is enforced at the operating system level, not by the agent itself. A compromised or jailbroken model cannot override the sandbox. This is a fundamental architectural decision that separates Codex from tools where safety guardrails exist only in the prompt.[^4]
 
 The less good news: the defaults are designed for convenience, not for regulated environments. Hardening requires deliberate configuration across multiple layers. Let us walk through each one.
-
----
 
 ## Layer 1: The OS-Level Sandbox
 
@@ -172,8 +163,6 @@ docker run --rm -v $(pwd):/workspace codex-runner \
   codex --sandbox danger-full-access --full-auto "your task"
 ```
 
----
-
 ## Layer 2: Approval Policies -- The Human Gate
 
 The sandbox controls what the OS *permits*. Approval policies control when the agent must *pause and ask*. These are orthogonal controls -- both should be configured.[^6]
@@ -222,8 +211,6 @@ smart_approvals = true   # Default: false; experimental
 
 The guardian subagent was overhauled in PR #17061 with structured `risk`, `authorization`, `outcome`, and `rationale` fields. It is promising but should not be your sole production gate until it stabilises.[^8]
 
----
-
 ## Layer 3: Shell Environment Isolation -- Stopping Credential Leakage
 
 By default, Codex CLI inherits the full environment of the shell that launched it. That means `AWS_SECRET_ACCESS_KEY`, `GITHUB_TOKEN`, `DATABASE_URL`, and everything else your dotfiles export are visible to every subprocess the agent spawns.[^9]
@@ -269,8 +256,6 @@ For less restrictive environments, `inherit = "core"` preserves `PATH`, `HOME`, 
 ### The Cloud Secret Model
 
 Codex Cloud (the web interface) implements a stricter model: secrets are available only during the setup phase and are removed before the agent phase starts.[^9] This prevents an agent from exfiltrating credentials even under prompt injection. For the local CLI, environment variable filtering via `shell_environment_policy` provides the equivalent control.
-
----
 
 ## Layer 4: Network Controls -- Domain Allowlists and Egress Filtering
 
@@ -332,8 +317,6 @@ web_search = "cached"   # "cached" (default) | "live" | "disabled"
 
 `cached` uses OpenAI's pre-indexed content, reducing prompt injection exposure. `live` enables real-time search and increases attack surface significantly. In regulated environments, lock to `disabled` via `requirements.toml`.[^5]
 
----
-
 ## Layer 5: Prompt Injection Defence
 
 Prompt injection is the class of attack where an adversary embeds instructions in data the agent reads -- a README, a comment in source code, a commit message, a web page -- that alter the agent's behaviour. This is not theoretical: the OWASP MCP Top 10 identifies exec/shell injection as the leading attack vector (43% of MCP vulnerabilities).[^11]
@@ -387,8 +370,6 @@ if echo "$COMMAND" | grep -qiE 'base64.*\.(env|pem|key|crt)'; then
 fi
 echo '{}'
 ```
-
----
 
 ## Layer 6: Supply Chain Security
 
@@ -457,8 +438,6 @@ codex --version
 # Must be >= 0.119.0 (post-certificate-rotation build)
 ```
 
----
-
 ## Layer 7: SAST/DAST Integration
 
 Codex CLI is not a replacement for static and dynamic analysis tools -- but it can dramatically improve how you use them.
@@ -516,7 +495,7 @@ model = "gpt-5.4"
 review_model = "gpt-5.4-mini"
 ```
 
-A DryRun Security study tested all three major AI coding agents (Codex, Claude, Gemini) building two real applications. Across both apps, Codex consistently finished with the fewest remaining vulnerabilities --- for instance, in the web application final scan, Codex had 8 issues versus Claude's 13 and Gemini's 11; in the game application, 6 versus 8 and 7 respectively.[^12] But the study also found that broken access control appeared across all three agents -- security is not yet part of their default reasoning. Running both Codex and Claude Code reviews catches meaningfully more issues than either alone, as models trained on different data surface different vulnerability classes.
+A DryRun Security study tested all three major AI coding agents (Codex, Claude, Gemini) building two real applications. Across both apps, Codex consistently finished with the fewest remaining vulnerabilities, for instance, in the web application final scan, Codex had 8 issues versus Claude's 13 and Gemini's 11; in the game application, 6 versus 8 and 7 respectively.[^12] But the study also found that broken access control appeared across all three agents -- security is not yet part of their default reasoning. Running both Codex and Claude Code reviews catches meaningfully more issues than either alone, as models trained on different data surface different vulnerability classes.
 
 ### Automated Config Validation with agnix
 
@@ -531,8 +510,6 @@ npx agnix-ci .
 ```
 
 The `agnix-ci` GitHub Action integrates directly into pull request checks, catching malicious or misconfigured MCP entries before they reach the default branch.
-
----
 
 ## Layer 8: Audit Trail and Observability
 
@@ -573,8 +550,6 @@ include_tool_decisions = true
 Traces include session start/stop spans, per-tool spans with arguments and outcomes, approval events, and sandbox denial events. Route to your SIEM (Splunk, Elastic, Datadog) for correlation.[^9]
 
 Setting `include_prompts = false` is essential in regulated environments. Enabling it exports raw prompt text to your telemetry pipeline, potentially capturing PHI or proprietary code.[^13]
-
----
 
 ## Layer 9: Enterprise Guardrails — Policy Enforcement with requirements.toml
 
@@ -645,8 +620,6 @@ flowchart TD
 
 The project trust gating is critical. Codex loads project-scoped `.codex/config.toml` files only when the project is explicitly trusted. Untrusted projects skip the project layer entirely -- this is the primary defence against the CVE-2025-61260 config injection attack.[^11]
 
----
-
 ## Layer 10: Compliance -- SOC 2, HIPAA, and Financial Services
 
 ### What OpenAI Certifies (and What Remains Your Responsibility)
@@ -705,11 +678,9 @@ Payment card data must never appear in prompts. Technical mitigations: tokenise 
 
 If your organisation classifies Codex API usage as a critical function, OpenAI qualifies as an ICT third-party service provider under DORA Article 28. Register the dependency, verify contractual clauses meet Article 30 requirements, and model operational resilience testing to include OpenAI API unavailability.[^13]
 
----
-
 ## The Layered Security Model: Enterprise Guardrails End to End
 
-No single layer is sufficient. Enterprise guardrails are defence in depth --- an attacker who circumvents the approval gate still faces the OS sandbox, and an agent that escapes the sandbox still produces an audit trail. The goal is a layered posture where no single failure compromises the system.
+No single layer is sufficient. Enterprise guardrails are defence in depth, an attacker who circumvents the approval gate still faces the OS sandbox, and an agent that escapes the sandbox still produces an audit trail. The goal is a layered posture where no single failure compromises the system.
 
 Here is the complete configuration for an enterprise-grade deployment:
 
@@ -805,8 +776,6 @@ prefix = ["git", "push", "--force"]
 policy = "prompt"
 ```
 
----
-
 ## The 15-Point Security Checklist
 
 Before any Codex CLI agent touches code that matters, verify each item:
@@ -829,8 +798,6 @@ Before any Codex CLI agent touches code that matters, verify each item:
 | 14 | Dependencies pinned to exact versions | `package-lock.json` | Medium |
 | 15 | CI jobs separate dependency resolution from signing | Pipeline architecture | Medium |
 
----
-
 ## What You Can Stop Worrying About
 
 Security articles tend to leave readers more anxious than informed. Here is what Codex CLI's architecture already handles, so you can focus your energy on the gaps that matter:
@@ -847,13 +814,11 @@ Focus your hardening effort on: environment variable isolation, network controls
 
 **The CVE-2025-61260 config injection vector.** This was patched in v0.23.0 (August 2025). If you are running any version newer than that -- and you should be running 0.119.0 or later -- the attack vector where a malicious `.env` file redirects `CODEX_HOME` into a project-local directory is closed. Project-scoped configuration now loads only when the project is explicitly trusted, and MCP servers declared in project configs require identity matching against your allowlist before they execute.
 
----
-
 ## Conclusion
 
 The Axios incident was a wake-up call, but it was also a vindication of layered security. OpenAI's response -- detect, contain, rotate, disclose -- was textbook. The root cause was a single misconfiguration (a floating tag in a CI workflow) that bypassed multiple layers of defence. No amount of AI-powered security tooling would have prevented it; a pinned commit SHA would have.
 
-Security for AI coding agents is not fundamentally different from security for any other developer tool. It is about controlling what the tool can access, monitoring what it does, and ensuring that no single misconfiguration creates a path from attacker to impact. The difference is that the enterprise guardrails need to be structural --- enforced at the OS, policy, and platform levels --- not aspirational guidelines that developers can bypass under deadline pressure.
+Security for AI coding agents is not fundamentally different from security for any other developer tool. It is about controlling what the tool can access, monitoring what it does, and ensuring that no single misconfiguration creates a path from attacker to impact. The difference is that the enterprise guardrails need to be structural, enforced at the OS, policy, and platform levels, not aspirational guidelines that developers can bypass under deadline pressure.
 
 The ten layers in this guide are not aspirational. They are the enterprise guardrails baseline. A `config.toml` and a `requirements.toml`, deployed consistently via MDM or cloud-managed configuration, will put your organisation ahead of the vast majority of Codex CLI deployments today. Add the hooks, the audit trail, and the compliance mappings, and you have a posture your security team can defend in an audit.
 
@@ -861,11 +826,7 @@ The agent is not going to secure your job. But it is not going to secure itself 
 
 The guardrails are installed. But a secured factory still needs to run efficiently at scale — and that means managing the machine's most constrained resource: context. In [Article 10: Context Compaction and Memory](/premium/10-context-compaction-and-memory/), we address the efficiency layer — how to keep the factory running without losing critical information as sessions grow.
 
----
-
 ## Citations
-
----
 
 ## The Agentic Engineering Series {#series}
 
@@ -886,8 +847,6 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
-
----
 
 [^1]: Socket.dev, "Axios Supply Chain Attack Reaches OpenAI macOS Signing Pipeline," April 2026. Microsoft Security Blog, "Mitigating the Axios npm supply chain compromise," April 1, 2026. <https://socket.dev/blog/axios-supply-chain-attack-reaches-openai-macos-signing-pipeline-forces-certificate-rotation>
 

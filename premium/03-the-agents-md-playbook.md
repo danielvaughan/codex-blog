@@ -37,8 +37,6 @@ The truth is more interesting and more useful: **the structure and specificity o
 
 This article is about winning.
 
----
-
 ## The Obedience Trap (and Why It Changes Everything)
 
 The most important behavioural insight from the ETH Zurich paper is one that most summaries skip over: coding agents are **too obedient**[^1].
@@ -69,8 +67,6 @@ graph TD
 
 This changes the calculus completely. The question is not "what should I put in my AGENTS.md?" The question is: **"what is the minimum set of instructions that would cause a failure if omitted?"**
 
----
-
 ## The Redundancy Problem: Your AGENTS.md Is Probably Restating the Obvious
 
 The ETH Zurich team ran a clever follow-up experiment. They stripped all documentation from the test repositories -- READMEs, docs folders, markdown files -- and then tested the same LLM-generated context files again. The result: those same files that *hurt* performance in a fully documented repo suddenly *improved* performance by 2.7%[^1].
@@ -87,8 +83,6 @@ Think about what is in most AGENTS.md files you have seen:
 Every one of these lines is dead weight. The agent already knows this. You are paying tokens to tell it what it can see with its own eyes.
 
 Here is a rule of thumb from the Augment Code team worth adopting: keep a line in your AGENTS.md only if it is **failure-backed** (you have seen an agent fail without it), **tool-enforceable** (a concrete command or check), **decision-encoding** (a deliberate team choice that contradicts defaults), or **triggerable** by a real scenario[^2]. Everything else is premium context real estate occupied for no return.
-
----
 
 ## What Actually Works: The One Clear Win
 
@@ -117,8 +111,6 @@ The pattern that emerges from this finding is clear:
 - Generic best practices ("write clean, readable code")
 - Language feature descriptions ("We use TypeScript generics for type safety")
 - Anything auto-generated without human review
-
----
 
 ## The Three-Tier Boundary Pattern
 
@@ -182,8 +174,6 @@ Here is what a boundary-oriented AGENTS.md looks like in practice:
 ```
 
 That is 25 lines. About 900 bytes. It gives the agent everything it needs and nothing it does not.
-
----
 
 ## Before and After: A Real AGENTS.md Rewrite
 
@@ -295,8 +285,6 @@ Use `@/` import prefix. Named exports only (no default exports).
 
 Same project. 91% smaller. Every line is either a command the agent needs, a decision the agent cannot infer, or a boundary the agent must not cross. The architectural overview is gone -- the agent can read the code. The style guide is replaced by one concrete example. The testing philosophy is replaced by the exact command to run.
 
----
-
 ## The Hierarchy: Thin at the Top, Specific at the Leaf
 
 Codex CLI does not just read one AGENTS.md file. It walks the filesystem from the global config down to your current working directory, discovering and concatenating files at every level[^5]. The full resolution order:
@@ -361,8 +349,6 @@ graph TD
     ROOT --> CODEX[".codex/config.toml<br/>Project config<br/>project_doc_max_bytes = 65536"]
 ```
 
----
-
 ## The Silent Truncation Problem
 
 There is a technical landmine buried in every large AGENTS.md setup. Codex CLI enforces a hard limit on the combined size of all loaded context files via `project_doc_max_bytes`[^7]. The default was originally 32 KiB — a limit that caught many teams by surprise (GitHub Issue #7138)[^8]. OpenAI has since raised it to approximately 5 MB (~5,000,000 bytes), but the silent truncation mechanism remains: exceed the configured limit and your instructions are clipped without warning. Files are read root-to-leaf, joined with blank lines, and truncated once the combined size hits the limit.
@@ -402,8 +388,6 @@ project_doc_max_bytes = 65536   # 64 KiB — explicit is better than relying on 
 ```
 
 But even with a ~5 MB default, the principle holds: if your AGENTS.md files are bloated, you are wasting context window tokens on content the agent does not need. The better fix is making each file leaner. Apply the boundary pattern. Delete the architectural overviews. Remove anything the agent can infer from the code itself.
-
----
 
 ## Override Files: Temporary Context Without Permanent Damage
 
@@ -459,8 +443,6 @@ codex exec "$TASK" --full-auto
 rm AGENTS.override.md
 ```
 
----
-
 ## Skills: The Escape Hatch for Specialised Knowledge
 
 The fundamental problem with AGENTS.md is that it is always-on context. Every instruction is loaded regardless of task relevance. If you have a 40-line section about Playwright test automation, that section is injected into the agent's context even when it is fixing a typo in a README.
@@ -488,8 +470,6 @@ graph TD
 ```
 
 This keeps your baseline AGENTS.md lean -- focused on the universal commands and boundaries -- while preserving the ability to invoke specialised behaviours on demand.
-
----
 
 ## Security Boundaries: Where AGENTS.md Meets Guardrails
 
@@ -524,8 +504,6 @@ For PCI DSS, HIPAA, or SOC 2 scoped services, use `AGENTS.override.md` at the se
 - Test: `pytest -m "not integration"` (unit); `make test-pci` (PCI validation)
 ```
 
----
-
 ## The Compound Value Thesis
 
 The ETH Zurich paper asks: "Does AGENTS.md help an agent solve this one task?" For well-documented open-source Python repositories, the answer is "marginally."
@@ -556,8 +534,6 @@ graph LR
 
 The key difference: the Lulla et al. study tested **focused, minimal context files** -- not the bloated auto-generated manifesto that the ETH Zurich paper (rightly) criticised[^12]. The variable is not whether you have an AGENTS.md. It is whether you have a *good* one.
 
----
-
 ## The Decision Flowchart: What Belongs in Your AGENTS.md
 
 For every line you consider adding, run it through this filter:
@@ -582,8 +558,6 @@ flowchart TD
 
 The "have you seen an agent fail without it" test is the most important filter. It is the difference between aspirational documentation and failure-backed instructions. If you cannot point to a specific session where the agent did the wrong thing because it lacked this instruction, the instruction probably does not need to exist.
 
----
-
 ## The Playbook: Seven Rules for AGENTS.md That Work
 
 **1. Default to omission.** Every line you add increases agent steps and inference cost. Start with nothing. Add instructions only when you observe failures.
@@ -600,8 +574,6 @@ The "have you seen an agent fail without it" test is the most important filter. 
 
 **7. Move specialised workflows to Skills.** Anything that applies to only a subset of tasks -- Playwright automation, database migrations, deployment procedures -- belongs in a SKILL.md that loads on demand, not in an always-on AGENTS.md.
 
----
-
 ## One More Thing: Cross-Tool Portability
 
 AGENTS.md is not a Codex-only format. It is an open standard governed by the Agentic AI Foundation under the Linux Foundation[^14], with native support across Codex CLI, Amp, Jules (Google), Factory, and growing support in Claude Code, Cursor, GitHub Copilot, Gemini CLI, and others.
@@ -614,8 +586,6 @@ project_doc_fallback_filenames = ["AGENTS.md", "CLAUDE.md", "AI_INSTRUCTIONS.md"
 ```
 
 One file. Multiple tools. Zero drift.
-
----
 
 ## Go Rewrite Yours
 
@@ -633,11 +603,7 @@ The ETH Zurich paper was right about one thing: most AGENTS.md files make agents
 
 The blueprint is drawn. But a factory without quality control is just a faster way to produce defects. In [Article 04: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/), we build the quality gate — the structural testing layer that ensures your factory's output is verifiably correct at scale.
 
----
-
 ## Citations
-
----
 
 ## The Agentic Engineering Series {#series}
 
@@ -658,8 +624,6 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
-
----
 
 [^1]: Gloaguen, R., Mündler, N., Müller, M., Raychev, V., & Vechev, M. (2026). "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?" ETH Zurich. arXiv:2602.11988. [https://arxiv.org/abs/2602.11988](https://arxiv.org/abs/2602.11988)
 

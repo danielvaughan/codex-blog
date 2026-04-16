@@ -29,17 +29,15 @@ image: /sketchnotes/premium-articles/12-the-scaling-playbook.png
 
 # The Scaling Playbook: From Pilot Pod to Enterprise Factory
 
-In April 2026, Uber's CTO told The Information that the company had burned through its entire annual AI budget just months into the year --- after giving 5,000 engineers access to Claude Code and watching adoption surge from 32% to 63%. The budget was gone before the ROI framework existed to justify it. That is the failure mode this article is designed to prevent.
+In April 2026, Uber's CTO told The Information that the company had burned through its entire annual AI budget just months into the year, after giving 5,000 engineers access to Claude Code and watching adoption surge from 32% to 63%. The budget was gone before the ROI framework existed to justify it. That is the failure mode this article is designed to prevent.
 
 [Article 01](/premium/01-agentic-engineering-is-not-vibe-coding/) established the thesis. [Article 05](/premium/05-the-agentic-pod/) defined the team. [Article 03](/premium/03-the-agents-md-playbook/) codified the blueprint. [Article 11](/premium/11-token-economics-and-the-roi-of-coding-agents/) made the business case. Each piece is necessary. None is sufficient. Uber had the adoption. What it lacked was the phased scaling discipline that connects pilot success to enterprise economics.
 
-The question this article answers is: **how do you assemble these components into a phased adoption journey that takes an enterprise from first experiment to factory at scale --- without blowing through your budget before you can prove the return?**
+The question this article answers is: **how do you assemble these components into a phased adoption journey that takes an enterprise from first experiment to factory at scale, without blowing through your budget before you can prove the return?**
 
-The answer is not a technology rollout. It is an organisational transformation with four distinct phases, each with its own objectives, failure modes, and exit criteria. Organisations that try to skip phases --- standing up twenty pods before proving the model works with one, or imposing governance before understanding what needs governing --- fail in predictable ways. The scaling playbook exists to make those failure modes visible before they become expensive.
+The answer is not a technology rollout. It is an organisational transformation with four distinct phases, each with its own objectives, failure modes, and exit criteria. Organisations that try to skip phases, standing up twenty pods before proving the model works with one, or imposing governance before understanding what needs governing, fail in predictable ways. The scaling playbook exists to make those failure modes visible before they become expensive.
 
 This playbook is framework-agnostic. The examples reference Codex CLI because this series is built around it, but the phases, structures, and governance patterns apply regardless of whether your agents run on Codex CLI, Claude Code, Gemini CLI, or a combination of all three. The principles are about how humans organise around agents, not which agents they use.
-
----
 
 ## The Four Phases
 
@@ -71,15 +69,13 @@ gantt
 
 Each phase builds on the last. The exit criteria for one phase are the entry conditions for the next. Skipping ahead is how Uber burned through its annual AI budget in months.[^1]
 
----
-
 ## Phase 1: PROVE (Weeks 1–6) — Single Pod Pilot
 
 The purpose of Phase 1 is not to transform the organisation. It is to generate evidence. You are running a controlled experiment: can a single Agentic Engineering Pod, operating under compound engineering methodology, deliver measurably better outcomes than the same team working without agents?
 
 ### Select the Pilot
 
-The pilot project must be neither too simple nor too complex. A greenfield CRUD application generates no signal --- agents handle simple boilerplate well regardless of methodology. A legacy system with millions of lines of undocumented code generates no success --- the team will spend six weeks fighting context limits rather than demonstrating the model.
+The pilot project must be neither too simple nor too complex. A greenfield CRUD application generates no signal, agents handle simple boilerplate well regardless of methodology. A legacy system with millions of lines of undocumented code generates no success, the team will spend six weeks fighting context limits rather than demonstrating the model.
 
 The ideal pilot has these characteristics:
 
@@ -98,7 +94,7 @@ The Agentic Engineering Pod is three humans wielding agents. Not one developer w
 | **Value Engineer** | Owns the "How" | Implementation orchestration, agent workflows, architectural decisions |
 | **Quality Engineer** | Owns the "Trust" | Testing strategy, security verification, production readiness |
 
-Every person is a producer. Agents handle the routine execution --- boilerplate, scaffolding, test generation, CI runs. The humans handle judgment: what to build, how to build it well, and whether it is safe to ship. (For the full pod model, roles, and lifecycle, see [Article 05: The Agentic Pod](/premium/05-the-agentic-pod/).)
+Every person is a producer. Agents handle the routine execution, boilerplate, scaffolding, test generation, CI runs. The humans handle judgment: what to build, how to build it well, and whether it is safe to ship. (For the full pod model, roles, and lifecycle, see [Article 05: The Agentic Pod](/premium/05-the-agentic-pod/).)
 
 ### Establish Baselines
 
@@ -114,7 +110,7 @@ Baseline metrics to capture:
 | **Feature lead time** | Requirement to production | Business-visible delivery speed |
 | **Developer hours per feature** | Effort tracking | The denominator for ROI calculations |
 
-GitHub's own data shows Copilot reduced PR turnaround from 9.6 days to 2.4 days in controlled studies.[^3] Your pilot will generate your organisation's version of that number --- and it will be more credible to your leadership than any vendor benchmark.
+GitHub's own data shows Copilot reduced PR turnaround from 9.6 days to 2.4 days in controlled studies.[^3] Your pilot will generate your organisation's version of that number, and it will be more credible to your leadership than any vendor benchmark.
 
 ### Adopt Compound Engineering
 
@@ -135,11 +131,11 @@ In practice, the 40/10/40/10 split means:
 - **40% Planning**: The Context Architect writes specifications, updates AGENTS.md, structures the context that agents will consume. The Value Engineer decomposes work into agent-appropriate tasks. The Quality Engineer defines acceptance criteria and test contracts.
 - **10% Execution**: Agents generate code. The Value Engineer orchestrates, delegates to subagents, manages context windows. This is the part that feels like the whole job but is not.
 - **40% Review**: Every output is reviewed as if a capable but unsupervised junior engineer submitted it. The Quality Engineer runs TDAD cycles (see [Article 04: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/)). The Context Architect verifies alignment with specifications.
-- **10% Knowledge Codification**: What did the team learn? What patterns should be captured in AGENTS.md? What context should persist for future sessions? This is the compounding mechanism --- the investment that makes every subsequent cycle more effective than the last.
+- **10% Knowledge Codification**: What did the team learn? What patterns should be captured in AGENTS.md? What context should persist for future sessions? This is the compounding mechanism, the investment that makes every subsequent cycle more effective than the last.
 
 ### Write the First AGENTS.md
 
-The boundary file governs agent behaviour. In Phase 1, it is a single file at the repository root. It does not need to be comprehensive --- the ETH Zurich research shows that a focused, specific AGENTS.md outperforms a sprawling manifesto.[^6]
+The boundary file governs agent behaviour. In Phase 1, it is a single file at the repository root. It does not need to be comprehensive, the ETH Zurich research shows that a focused, specific AGENTS.md outperforms a sprawling manifesto.[^6]
 
 Start with:
 
@@ -166,7 +162,7 @@ Select and configure the agent toolchain. This series recommends Codex CLI, but 
 
 Run the pod for four to six weeks. Collect the same metrics you baselined. The comparison is your proof.
 
-**What to expect**: initial productivity may not improve. The Microsoft research on GitHub Copilot adoption found that consistent productivity gains take approximately 11 weeks to materialise.[^7] Your six-week pilot may show marginal improvement, flat performance, or even a temporary dip. This is normal. The signal you are looking for is not "agents made us faster immediately" --- it is "the methodology is sustainable, the team is learning, and the trajectory is positive."
+**What to expect**: initial productivity may not improve. The Microsoft research on GitHub Copilot adoption found that consistent productivity gains take approximately 11 weeks to materialise.[^7] Your six-week pilot may show marginal improvement, flat performance, or even a temporary dip. This is normal. The signal you are looking for is not "agents made us faster immediately", it is "the methodology is sustainable, the team is learning, and the trajectory is positive."
 
 **Phase 1 exit criteria**:
 
@@ -174,8 +170,6 @@ Run the pod for four to six weeks. Collect the same metrics you baselined. The c
 - AGENTS.md written and iterated at least three times
 - Pod roles are functioning (no one has collapsed into "everyone does everything")
 - The team can articulate what worked, what failed, and what should be standardised
-
----
 
 ## Phase 2: PLATFORM (Weeks 7–16) — Build the Shared Layer
 
@@ -227,7 +221,7 @@ flowchart TB
     style Pod3 fill:#d4edda,stroke:#155724
 ```
 
-The critical anti-pattern to avoid: the platform team building in isolation. Every template, hook, and configuration should be extracted from the pilot pod's actual experience, not designed in the abstract. The ivory tower platform --- built without consulting the teams who will use it --- is Phase 2's most common failure mode.
+The critical anti-pattern to avoid: the platform team building in isolation. Every template, hook, and configuration should be extracted from the pilot pod's actual experience, not designed in the abstract. The ivory tower platform, built without consulting the teams who will use it, is Phase 2's most common failure mode.
 
 ### Shared AGENTS.md Templates
 
@@ -253,7 +247,7 @@ These hooks run automatically. They do not depend on the developer remembering t
 
 ### Model Routing Configurations
 
-The orchestrator/worker pattern --- using a frontier model for planning and reasoning, and smaller models for routine execution --- is the highest-leverage cost optimisation available.[^8] The platform layer standardises this:
+The orchestrator/worker pattern, using a frontier model for planning and reasoning, and smaller models for routine execution, is the highest-leverage cost optimisation available.[^8] The platform layer standardises this:
 
 - **Orchestrator tier**: Frontier models (Claude Opus 4, GPT-5.4) for architectural decisions, complex refactoring, multi-file reasoning
 - **Worker tier**: Mid-range models (Claude Sonnet 4, GPT-5.4-mini) for implementation, test generation, documentation
@@ -273,15 +267,15 @@ The Context Architects from each pod form a network. They share patterns, identi
 
 ### Training Programme
 
-The Microsoft research on Copilot adoption found that consistent productivity gains take approximately 11 weeks to materialise.[^7] This is not a tool adoption curve --- it is a methodology adoption curve. Engineers must learn:
+The Microsoft research on Copilot adoption found that consistent productivity gains take approximately 11 weeks to materialise.[^7] This is not a tool adoption curve, it is a methodology adoption curve. Engineers must learn:
 
-- How to write effective specifications (not prompts --- specifications)
+- How to write effective specifications (not prompts, specifications)
 - How to review agent output critically (the 40% review investment)
 - How to structure context for agents (the AGENTS.md discipline)
 - How to recognise when agents are confidently wrong
 - How to use the compound engineering methodology (the 40/10/40/10 split)
 
-Plan for the 11-week onboarding period. Do not measure a new pod's performance during its first two months and conclude the model does not work. The pilot pod's experienced members should pair with new adopters --- one experienced pod member per new pod during the first four weeks.
+Plan for the 11-week onboarding period. Do not measure a new pod's performance during its first two months and conclude the model does not work. The pilot pod's experienced members should pair with new adopters, one experienced pod member per new pod during the first four weeks.
 
 The skill matrix for agentic engineering differs from traditional development:
 
@@ -300,8 +294,6 @@ The skill matrix for agentic engineering differs from traditional development:
 - Training programme documented and tested with at least one new-to-agentic engineer
 - Platform supports onboarding a new pod in under one week
 - Pilot pod is consuming platform services (not bypassing them)
-
----
 
 ## Phase 3: SCALE (Weeks 17–30) — Multiple Parallel Pods
 
@@ -326,19 +318,19 @@ flowchart TB
         subgraph Pods["Autonomous Pods"]
             direction LR
             subgraph P1["Pod 1: Payments"]
-                CA1["CA"] --- VE1["VE"] --- QE1["QE"]
+                CA1["CA"], VE1["VE"], QE1["QE"]
             end
             subgraph P2["Pod 2: Search"]
-                CA2["CA"] --- VE2["VE"] --- QE2["QE"]
+                CA2["CA"], VE2["VE"], QE2["QE"]
             end
             subgraph P3["Pod 3: Onboarding"]
-                CA3["CA"] --- VE3["VE"] --- QE3["QE"]
+                CA3["CA"], VE3["VE"], QE3["QE"]
             end
             subgraph P4["Pod 4: Platform"]
-                CA4["CA"] --- VE4["VE"] --- QE4["QE"]
+                CA4["CA"], VE4["VE"], QE4["QE"]
             end
             subgraph P5["Pod 5: Data"]
-                CA5["CA"] --- VE5["VE"] --- QE5["QE"]
+                CA5["CA"], VE5["VE"], QE5["QE"]
             end
         end
     end
@@ -355,7 +347,7 @@ The 37signals principle applies at the pod level: **fix time, flex scope.**[^9] 
 
 ### The Context Architect Network
 
-As pods multiply, the Context Architects from each pod form a cross-cutting network. This is not a committee and does not have meetings with agendas. It is a communication channel --- a Slack channel, a shared knowledge base, a weekly 15-minute sync --- where Context Architects share:
+As pods multiply, the Context Architects from each pod form a cross-cutting network. This is not a committee and does not have meetings with agendas. It is a communication channel, a Slack channel, a shared knowledge base, a weekly 15-minute sync, where Context Architects share:
 
 - Patterns that worked (or failed) in their pod
 - AGENTS.md innovations worth propagating
@@ -394,11 +386,9 @@ Variance between pods is diagnostic. If Pod 2 consistently underperforms, the qu
 - Platform layer supporting all pods without bottlenecks
 - Local model deployment covering at least 20% of routine workload
 
----
-
 ## Phase 4: GOVERN (Week 30+) — Enterprise Factory
 
-Phase 3 proved the model scales. Phase 4 makes it sustainable. This is where the enterprise machinery --- governance, compliance, vendor strategy, financial controls --- wraps around the factory without strangling it.
+Phase 3 proved the model scales. Phase 4 makes it sustainable. This is where the enterprise machinery, governance, compliance, vendor strategy, financial controls, wraps around the factory without strangling it.
 
 ### The AI Gateway
 
@@ -437,13 +427,13 @@ flowchart TB
     style Providers fill:#d4edda,stroke:#155724
 ```
 
-**Token metering**: Every API call passes through the gateway. Token consumption is attributed to the pod, the project, and the individual session. This is how you avoid the Uber scenario --- not by restricting usage, but by making usage visible in real time.[^1]
+**Token metering**: Every API call passes through the gateway. Token consumption is attributed to the pod, the project, and the individual session. This is how you avoid the Uber scenario, not by restricting usage, but by making usage visible in real time.[^1]
 
 **Provider-agnostic routing**: The gateway routes requests to the optimal provider based on task type, cost, and availability. When Anthropic adjusts pricing or a new model launches, routing updates happen at the gateway level. Pods do not need to change their configurations.
 
 **Policy enforcement**: Compliance rules (no PII in prompts, no proprietary code sent to certain providers, model version pinning for regulated workloads) are enforced at the gateway, not at the developer's terminal.
 
-**Audit logging**: Every agent action is logged. Every decision is traceable. For regulated industries, this is not optional --- it is the prerequisite for using AI coding tools at all. (For the full security and compliance framework, see [Article 09: Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/).)
+**Audit logging**: Every agent action is logged. Every decision is traceable. For regulated industries, this is not optional, it is the prerequisite for using AI coding tools at all. (For the full security and compliance framework, see [Article 09: Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/).)
 
 ### Token Budgets
 
@@ -453,7 +443,7 @@ Token budgets operate at multiple levels:
 - **Per-project budgets**: large initiatives have dedicated budgets that track against ROI projections
 - **Escalation triggers**: when a pod reaches 80% of its monthly budget, visibility increases; at 90%, the pod and platform team review usage patterns together; at 100%, frontier model access requires explicit approval while mid-range and local models remain unrestricted
 
-The escalation model is crucial. Hard cutoffs create perverse incentives --- developers route around them, use personal accounts, or stop using agents entirely for the last week of the month. Soft escalation with visibility preserves autonomy while preventing budget surprises.
+The escalation model is crucial. Hard cutoffs create perverse incentives, developers route around them, use personal accounts, or stop using agents entirely for the last week of the month. Soft escalation with visibility preserves autonomy while preventing budget surprises.
 
 ### The Quarterly ROI Review Cadence
 
@@ -472,7 +462,7 @@ The weekly telemetry feeds the bi-weekly analysis, which feeds the monthly revie
 
 Enterprise-scale agentic engineering requires multi-tool, multi-vendor capability. No single vendor dependency.
 
-- **Primary agent**: Codex CLI, Claude Code, or Gemini CLI --- whichever the organisation standardises on
+- **Primary agent**: Codex CLI, Claude Code, or Gemini CLI, whichever the organisation standardises on
 - **Secondary agents**: at least one alternative for redundancy and competitive benchmarking
 - **Local models**: Gemma 4, Llama, or equivalent for cost-sensitive and offline workloads
 - **Routing intelligence**: the AI Gateway manages provider selection, so individual developers do not need to
@@ -485,7 +475,7 @@ This is the tension that defines Phase 4: too little governance produces the Ube
 
 The Uber story is the canonical example of too-little governance. Five thousand engineers with unrestricted access to Claude Code. Adoption surging from 32% to 63%. Budget gone before mid-year. No metering, no routing optimisation, no visibility into which workloads were consuming the most tokens.
 
-The opposite failure is equally destructive. Organisations that impose token limits so tight that developers spend more time managing their budget than doing their work. Teams that require approval workflows for every agent session. Security policies that block agents from accessing the code they need to be useful. In these environments, developers route around the restrictions --- using personal accounts, switching to unmonitored tools, or simply stopping agent use altogether.
+The opposite failure is equally destructive. Organisations that impose token limits so tight that developers spend more time managing their budget than doing their work. Teams that require approval workflows for every agent session. Security policies that block agents from accessing the code they need to be useful. In these environments, developers route around the restrictions, using personal accounts, switching to unmonitored tools, or simply stopping agent use altogether.
 
 The balance point is **visibility without friction**. Developers see their usage. They understand the cost model. They have autonomy to choose when and how to use agents. Governance operates at the infrastructure level (gateway routing, budget escalation, audit logging) rather than at the individual action level (approval per session, hard cutoffs, usage quotas).
 
@@ -497,15 +487,13 @@ The balance point is **visibility without friction**. Developers see their usage
 - Multi-vendor strategy operational
 - Compliance and audit requirements met for all regulated workloads
 
----
-
 ## Change Management
 
 The scaling playbook is a technology adoption plan wrapped around a culture change programme. The culture change is harder.
 
 ### The 11-Week Onboarding Curve
 
-Microsoft's research on Copilot adoption found that consistent productivity gains materialise after approximately 11 weeks of regular use.[^7] During those 11 weeks, developers are learning a new way of working --- not learning a new tool.
+Microsoft's research on Copilot adoption found that consistent productivity gains materialise after approximately 11 weeks of regular use.[^7] During those 11 weeks, developers are learning a new way of working, not learning a new tool.
 
 The implication for scaling is direct: every new pod goes through this curve. A pod launched in Week 17 will not be performing at the pilot pod's level until approximately Week 28. Planning for this avoids the premature conclusion that "it's not working" when the real diagnosis is "it's not working *yet*."
 
@@ -519,9 +507,9 @@ Mitigation strategies:
 
 METR's randomised controlled trial found that experienced developers using AI tools took 19% longer on tasks while believing they were 20% faster.[^5] This 39-percentage-point perception gap is the single most dangerous dynamic in agentic engineering adoption.
 
-It is dangerous because it cuts both ways. Enthusiasts overestimate the benefit and resist measurement. Sceptics observe the slowdown and resist adoption. Neither group is wrong --- they are each seeing one side of a phenomenon that only resolves with methodology, not with the tool alone.
+It is dangerous because it cuts both ways. Enthusiasts overestimate the benefit and resist measurement. Sceptics observe the slowdown and resist adoption. Neither group is wrong, they are each seeing one side of a phenomenon that only resolves with methodology, not with the tool alone.
 
-The compound engineering framework resolves the paradox by redefining what "productive" means. Raw generation speed is not the metric. Delivery speed --- from requirement to production, with quality gates passed --- is the metric. When the 40/10/40/10 split is followed, the 40% review investment catches the defects that naive adoption ships to production. The delivery metric improves even when the generation metric does not.
+The compound engineering framework resolves the paradox by redefining what "productive" means. Raw generation speed is not the metric. Delivery speed, from requirement to production, with quality gates passed, is the metric. When the 40/10/40/10 split is followed, the 40% review investment catches the defects that naive adoption ships to production. The delivery metric improves even when the generation metric does not.
 
 Communicating this to leadership is essential. If the executive sponsor expects "agents make developers 10x faster on day one," the pilot will be judged a failure when it shows modest improvement after six weeks. Set the expectation correctly: the benefit is compounding, not immediate. The 11-week curve is real. The methodology investment is what makes the eventual gains sustainable.
 
@@ -536,8 +524,6 @@ Adopting agentic engineering is not a tool adoption. It is a mindset shift with 
 - **From cost-unaware to token-conscious**: every agent interaction has a cost, and cost-effectiveness is a professional skill
 
 This shift takes time. It requires practice, mentorship, and an environment where the old habits are gently replaced rather than forcefully prohibited. The training programme from Phase 2 provides the structure. The experienced pod members provide the role modelling. The metrics provide the feedback loop.
-
----
 
 ## The Factory Maturity Model
 
@@ -573,8 +559,6 @@ flowchart LR
 
 Most enterprises in April 2026 are at Level 0 or transitioning to Level 1. The organisations that will lead their industries by the end of the year are the ones that start the Phase 1 pilot now and commit to the full journey.
 
----
-
 ## Failure Modes at Each Phase
 
 Every phase has a characteristic failure mode. Knowing them in advance is cheaper than discovering them in production.
@@ -604,8 +588,6 @@ A pod is performing well. Leadership's instinct is to add people to it. The pod 
 Token limits are so restrictive that developers cannot complete complex tasks without requesting budget increases. Approval workflows add hours to every agent session. Security policies prevent agents from accessing the repositories they need to work on. Developers route around the restrictions using personal accounts, unmonitored tools, or shadow IT.
 
 **The fix**: governance operates at the infrastructure level (gateway routing, budget escalation, audit logging), not at the individual action level (approval per session, hard cutoffs). Visibility, not restriction, is the governance mechanism. When developers can see their usage and understand the cost model, they self-govern more effectively than any policy can enforce.
-
----
 
 ## The Series Map
 
@@ -656,9 +638,7 @@ flowchart TB
 | **Foundation** | [02](/premium/02-codex-cli-at-one-year/) | Platform maturity context — applicable across all phases |
 | **Capstone** | **[12](/premium/12-the-scaling-playbook/)** | **This article — the assembly and scaling journey** |
 
-[Article 02: Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) is the foundation layer --- it provides the platform maturity context that informs decisions at every phase. [Article 07: AI Slopageddon](/premium/07-ai-slopageddon/) is the cautionary counterweight --- it documents what the factory is designed to prevent, and what happens when organisations skip the engineering.
-
----
+[Article 02: Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) is the foundation layer, it provides the platform maturity context that informs decisions at every phase. [Article 07: AI Slopageddon](/premium/07-ai-slopageddon/) is the cautionary counterweight, it documents what the factory is designed to prevent, and what happens when organisations skip the engineering.
 
 ## The First 30 Days
 
@@ -694,8 +674,6 @@ For organisations ready to begin, here is the concrete action plan for the first
 
 This is not a transformation programme that requires executive buy-in before a single line of code is written. It is a six-week experiment that generates its own evidence. The evidence is the buy-in.
 
----
-
 ## Key Takeaways
 
 1. **Four phases, sequential, no skipping**: PROVE → PLATFORM → SCALE → GOVERN. Each phase generates the conditions for the next. Skipping ahead produces the failures this article documents.
@@ -712,15 +690,13 @@ This is not a transformation programme that requires executive buy-in before a s
 
 7. **Own the abstraction, rent the models**: AGENTS.md templates, hook libraries, context architecture, and the platform layer are proprietary assets. Models are interchangeable. No single vendor dependency.
 
-8. **The culture shift is the hard part**: agentic engineering is not a tool adoption. It is a change in how developers think about their work --- from writing code to specifying intent, from trusting output to verifying it, from individual productivity to pod throughput.
+8. **The culture shift is the hard part**: agentic engineering is not a tool adoption. It is a change in how developers think about their work, from writing code to specifying intent, from trusting output to verifying it, from individual productivity to pod throughput.
 
 9. **Start now, start small, start measuring**: a six-week pilot with three people and one project generates the evidence to justify everything that follows. The evidence is the buy-in.
 
 10. **This is the assembly**: the other eleven articles are the components. This playbook is how they fit together. No component works in isolation. The factory is the sum of all parts, assembled in the right order.
 
 The rollout plan is complete. The final piece is knowing where you stand today — and where you need to go next. In [Article 13: The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/), we provide the assessment framework that maps your organisation's current capabilities across ten dimensions and five maturity levels, giving you a concrete starting point for the journey from experiment to factory.
-
----
 
 ## The Agentic Engineering Series {#series}
 
@@ -741,8 +717,6 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | **12** | **[The Scaling Playbook](/premium/12-the-scaling-playbook/)** | **The Rollout** |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
-
----
 
 [^1]: Bratton, L., "Uber CTO Shows How Claude Code Can Blow Up AI Budgets," The Information, April 2026. Uber gave 5,000 engineers access to Claude Code; adoption surged from 32% to 63%; annual AI budget exhausted within months. <https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets>
 
