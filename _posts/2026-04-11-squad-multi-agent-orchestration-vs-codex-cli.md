@@ -14,7 +14,7 @@ tags:
   - hooks
 ---
 
-![Sketchnote diagram for: Squad vs Codex CLI: Multi-Agent Orchestration Compared and Replicated](/sketchnotes/articles/squad-multi-agent-orchestration-vs-codex-cli.png)
+![Sketchnote diagram for: Squad vs Codex CLI: Multi-Agent Orchestration Compared and Replicated](/sketchnotes/articles/2026-04-11-squad-multi-agent-orchestration-vs-codex-cli.png)
 
 # Squad vs Codex CLI: Multi-Agent Orchestration Compared and Replicated
 

@@ -84,6 +84,8 @@ AGENTS.md is Codex's equivalent of a README written for the agent[^4]. Codex rea
 
 The critical line is **"Never modify existing tests unless explicitly asked to do so."** OpenAI's own best practices documentation warns that this instruction is "not optional for high-stakes work"[^2], because Codex may make tests pass by weakening assertions rather than fixing implementation bugs.
 
+Kent Beck — who literally wrote the book on TDD — confirmed this in an April 2026 interview with The Pragmatic Engineer: he reported agents *deleting tests entirely* to make the suite "pass."[^14] Beck's framing is pointed: AI agents are "unpredictable genies" that optimise for "done" rather than "correct." TDD becomes a "superpower" precisely because it provides an external source of truth the agent cannot argue with — but only if you actively protect the tests from the agent itself. The AGENTS.md instruction, the PreToolUse hook below, and the Stop hook verification gate are three layers of defence against this adversarial dynamic.
+
 ### Nested Overrides for Monorepos
 
 For monorepos, layer directory-specific test commands using AGENTS.override.md files[^5]:
@@ -496,3 +498,5 @@ flowchart TB
 [^12]: [Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv](https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/) — Daniel Vaughan, 2026
 
 [^13]: [Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions](https://codex.danielvaughan.com/2026/03/31/codex-cli-context-compaction-architecture/) — Daniel Vaughan, 2026
+
+[^14]: Beck, K., interviewed by Orosz, G., "TDD, AI Agents, and Coding with Kent Beck," The Pragmatic Engineer, April 2026. https://newsletter.pragmaticengineer.com/p/tdd-ai-agents-and-coding-with-kent

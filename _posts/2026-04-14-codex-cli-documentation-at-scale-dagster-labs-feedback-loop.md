@@ -5,6 +5,8 @@ nav_order: 280
 tags: ["documentation", "dagster", "docs-as-code", "skills", "agents-md", "content-translation", "coverage-testing", "monorepo", "workflows"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Documentation at Scale: How Dagster Labs Turned Docs into a Feedback Loop](/sketchnotes/articles/2026-04-14-codex-cli-documentation-at-scale-dagster-labs-feedback-loop.png)
+
 # Codex CLI for Documentation at Scale: How Dagster Labs Turned Docs into a Feedback Loop
 
 

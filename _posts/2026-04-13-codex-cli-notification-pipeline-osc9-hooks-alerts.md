@@ -5,6 +5,8 @@ nav_order: 278
 tags: ["notifications", "osc9", "notify-hook", "tui-notifications", "desktop-alerts", "webhooks", "terminal-integration"]
 ---
 
+![Sketchnote diagram for: The Codex CLI Notification Pipeline: OSC 9, Notify Hooks, and Never Missing an Agent Event](/sketchnotes/articles/2026-04-13-codex-cli-notification-pipeline-osc9-hooks-alerts.png)
+
 # The Codex CLI Notification Pipeline: OSC 9, Notify Hooks, and Never Missing an Agent Event
 
 

@@ -5,6 +5,8 @@ nav_order: 272
 tags: ["docker-sandboxes", "microvm", "sbx", "sandbox", "security", "isolation", "codex-cli", "enterprise"]
 ---
 
+![Sketchnote diagram for: Docker Sandboxes for Codex CLI: MicroVM Isolation, the sbx CLI, and When to Use External Sandboxing](/sketchnotes/articles/2026-04-13-docker-sandboxes-codex-cli-microvm-isolation.png)
+
 # Docker Sandboxes for Codex CLI: MicroVM Isolation, the sbx CLI, and When to Use External Sandboxing
 
 

@@ -5,6 +5,8 @@ nav_order: 279
 tags: ["superapp", "desktop", "codex-app", "claude-code", "epitaxy", "scratchpad", "competitive-analysis", "parallel-agents", "coordinator-mode"]
 ---
 
+![Sketchnote diagram for: The Desktop Superapp War: Codex Scratchpad vs Claude Code Epitaxy](/sketchnotes/articles/2026-04-14-desktop-superapp-war-codex-scratchpad-vs-claude-epitaxy.png)
+
 # The Desktop Superapp War: Codex Scratchpad vs Claude Code Epitaxy
 
 

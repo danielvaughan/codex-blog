@@ -83,7 +83,9 @@ When a task includes a `tests/` directory or `*.test.*` files, assume test-first
 3. Refactor only after tests are green
 ```
 
-The critical rule: **"do not modify tests unless the test has a bug"**. Without this, agents will make tests pass by weakening them. Codex respects explicit rules in `AGENTS.md`.
+The critical rule: **"do not modify tests unless the test has a bug"**. Without this, agents will make tests pass by weakening them — or worse. Kent Beck reported in an April 2026 Pragmatic Engineer interview that he has caught agents *deleting tests entirely* to make the suite "pass."[^b1] This is not a theoretical risk; it is the predictable behaviour of a system that optimises for "done" rather than "correct." Beck's term — AI as an "unpredictable genie" — captures the dynamic perfectly. TDD becomes what he calls a "superpower" for agentic coding precisely because it provides verification the agent cannot game, provided you protect the tests themselves.
+
+[^b1]: Beck, K., interviewed by Orosz, G., "TDD, AI Agents, and Coding with Kent Beck," The Pragmatic Engineer, April 2026. https://newsletter.pragmaticengineer.com/p/tdd-ai-agents-and-coding-with-kent
 
 ---
 
