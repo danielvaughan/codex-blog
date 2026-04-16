@@ -42,7 +42,7 @@ This article is the framework for making that transition.
 
 The fundamental challenge of AI coding tool economics is that the cost model and the value model operate on completely different axes.
 
-**Costs are concrete and immediate.** Every API call generates a token count. Every token has a price. Anthropic charges \$3 per million input tokens and \$15 per million output tokens for Sonnet 4.6; \$5/\$25 for Opus 4.6.[^5] OpenAI charges \$2/\$8 per million tokens for GPT-5.4.[^6] These are precise, auditable, and available in real time.
+**Costs are concrete and immediate.** Every API call generates a token count. Every token has a price. Anthropic charges \$3 per million input tokens and \$15 per million output tokens for Sonnet 4.6; \$5/\$25 for Opus 4.7 (unchanged from Opus 4.6).[^5] OpenAI charges \$2/\$8 per million tokens for GPT-5.4.[^6] These are precise, auditable, and available in real time.
 
 **Value is diffuse and delayed.** A developer who uses an agent to refactor a service might save two hours of manual work. But did that time translate into shipping a feature sooner? Did the feature generate revenue? Did the refactoring prevent a future incident? The causal chain from "tokens consumed" to "business value delivered" has too many links for simple attribution.
 
@@ -231,7 +231,7 @@ The shift from Experimental AI to Economic AI begins with a simple principle: **
 
 ### The Principle
 
-Not every token needs to be processed by a frontier model. A code search query does not require GPT-5.4's reasoning capability. A test generation task does not need Opus 4.6's creative depth. Routing the right task to the right model can reduce costs 3-5x without measurable quality loss.[^6]
+Not every token needs to be processed by a frontier model. A code search query does not require GPT-5.4's reasoning capability. A test generation task does not need Opus 4.7's creative depth. Routing the right task to the right model can reduce costs 3-5x without measurable quality loss.[^6]
 
 ### Codex CLI Implementation
 
@@ -440,7 +440,7 @@ The optimal cost architecture is not "cloud or local", it is a **hybrid stack** 
 ```mermaid
 flowchart TD
     T["Incoming Task"] --> C{"Complexity<br/>Assessment"}
-    C -->|"Complex multi-file<br/>architecture, security review,<br/>deep reasoning"| CLOUD["☁️ Cloud API<br/>GPT-5.4 / Opus 4.6 / Sonnet 4.6<br/>$3-25/MTok"]
+    C -->|"Complex multi-file<br/>architecture, security review,<br/>deep reasoning"| CLOUD["☁️ Cloud API<br/>GPT-5.4 / Opus 4.7 / Sonnet 4.6<br/>$3-25/MTok"]
     C -->|"Standard feature<br/>implementation"| ROUTE{"Latency<br/>sensitive?"}
     C -->|"Code completion, tests,<br/>docs, review, exploration"| LOCAL["🖥️ Local Model<br/>Qwen3.6-35B-A3B / Gemma 4 26B MoE<br/>$0/token"]
     ROUTE -->|Yes| CLOUD

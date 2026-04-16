@@ -10,6 +10,7 @@ Last rated: 2026-04-16 · 335 articles rated · 335 total entries.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|---------|
+| [Claude Opus 4.7 Launch: What It Means for AI Coding Agents](/2026/04/16/claude-opus-4-7-launch/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [I Have Built an Amazing Monster](../substack-drafts/2026-03-30-i-have-built-an-amazing-monster.md) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Inside the Codex Agent Loop](/2026/03/28/codex-agent-loop-deep-dive/) | [view](https://codex.danielvaughan.com/2026/03/28/codex-agent-loop-deep-dive/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [The AGENTS.md Bloat Problem](/2026/03/27/agents-md-bloat-problem/) | [view](https://codex.danielvaughan.com/2026/03/27/agents-md-bloat-problem/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |

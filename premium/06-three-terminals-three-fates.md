@@ -95,7 +95,7 @@ Here is what you actually get with each tool as of April 2026, verified against 
 
 | Feature | Codex CLI | Claude Code | Gemini CLI |
 |---------|-----------|-------------|------------|
-| **Underlying model** | GPT-5.4 / GPT-5.3-Codex | Claude Opus 4.6 / Sonnet 4.6 | Gemini 3 Pro / Flash |
+| **Underlying model** | GPT-5.4 / GPT-5.3-Codex | Claude Opus 4.7 / Sonnet 4.6 | Gemini 3 Pro / Flash |
 | **Context window** | 1M (experimental/opt-in; default 272K)[^8] | 1M (GA for Max, Team, Enterprise)[^9] | 1M (default)[^5] |
 | **Sandbox approach** | OS kernel (Seatbelt, Landlock, seccomp)[^1] | Application-layer hooks (21 events)[^4] | OS kernel (Seatbelt on macOS, bwrap on Linux, Windows native) plus Docker/gVisor/LXC options[^5b] |
 | **Approval modes** | Suggest / Auto Edit / Full Auto[^10] | Suggest / Auto-accept / Full-auto | Default / Auto Edit / YOLO (Full Auto) / Plan |
@@ -144,7 +144,7 @@ Benchmarks in AI coding are notoriously difficult to interpret. Different organi
 | Terminal-Bench 2.0 (framework) | 77.3%[^19] | 74.7%[^19] | Not reported | **Codex** |
 | Blind tests (36 trials)[^2] | 33% | 67% | Not tested | **Claude** |
 
-The pattern is clear: Codex leads on terminal-native tasks — DevOps, CLI tooling, scripting, automation — though Claude Opus 4.6's Terminal-Bench scores have risen sharply since launch (from 65.4% to 74.7%), narrowing the gap. Claude Code leads on reasoning-heavy tasks — complex refactoring, architectural decisions, blind quality comparisons. The headline SWE-bench Verified numbers are close for all three tools — 74%, 76.2%, and 77% — making that benchmark a narrow spread rather than a clear differentiator.
+The pattern is clear: Codex leads on terminal-native tasks — DevOps, CLI tooling, scripting, automation — though Claude Opus 4.6's Terminal-Bench scores rose sharply (from 65.4% to 74.7%), narrowing the gap. Opus 4.7, released April 16, 2026, further improves agentic execution rigor and self-verification[^29]. Claude Code leads on reasoning-heavy tasks — complex refactoring, architectural decisions, blind quality comparisons. The headline SWE-bench Verified numbers are close for all three tools — 74%, 76.2%, and 77% — making that benchmark a narrow spread rather than a clear differentiator.
 
 ### Token Efficiency
 
@@ -179,7 +179,7 @@ You opened this article with $200 per month. Here is what that buys you with eac
 
 **Option A: Codex CLI Pro 20x ($200/mo).** You get 20 times the Plus usage limits — roughly 400 to 2,000 GPT-5.4 messages per 5-hour window. This is enough for all-day heavy usage with no rate limits in practice. You also get cloud Codex tasks for CI/CD automation. The kernel sandbox means you can run full-auto mode with confidence. But you are locked to OpenAI models.
 
-**Option B: Claude Code Max 20x ($200/mo).** You get approximately 220K tokens per 5-hour window with access to both Opus 4.6 and Sonnet 4.6. The 1M-token context window is generally available at this tier. You get the full hook system for programmable governance. But Claude Code uses 2 to 4 times more tokens per task than Codex, so your effective throughput is lower. And you are locked to Anthropic models.
+**Option B: Claude Code Max 20x ($200/mo).** You get approximately 220K tokens per 5-hour window with access to both Opus 4.7 and Sonnet 4.6. The 1M-token context window is generally available at this tier. You get the full hook system for programmable governance. But Claude Code uses 2 to 4 times more tokens per task than Codex, so your effective throughput is lower. And you are locked to Anthropic models.
 
 **Option C: The multi-tool stack ($200/mo split).** Community analysis suggests this is what many of the most productive developers actually do[^2]:
 
@@ -190,7 +190,7 @@ You opened this article with $200 per month. Here is what that buys you with eac
 | Gemini CLI | Free tier | $0 |
 | Remaining budget | API direct (Codex or Claude) | $160 |
 
-The $160 in API budget covers roughly 80 to 160 substantial sessions on GPT-5.4 (with caching), or 40 to 80 on Claude Opus 4.6. You use Gemini CLI for exploration (free), Claude Code for reasoning and planning ($20 subscription plus API overflow), and Codex CLI for execution ($20 subscription plus API overflow). No single tool is rate-limited because the load is distributed[^20].
+The $160 in API budget covers roughly 80 to 160 substantial sessions on GPT-5.4 (with caching), or 40 to 80 on Claude Opus 4.7. You use Gemini CLI for exploration (free), Claude Code for reasoning and planning ($20 subscription plus API overflow), and Codex CLI for execution ($20 subscription plus API overflow). No single tool is rate-limited because the load is distributed[^20].
 
 This multi-tool approach is not theoretical. Community analysis of 500-plus Reddit comments across r/codex, r/ClaudeCode, and r/ChatGPTCoding confirms that the dual-tool or triple-tool approach outperforms loyalty to any single agent[^2].
 
@@ -603,7 +603,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 [^8]: OpenAI, "Introducing GPT-5.4." GPT-5.4 supports 1M context window as experimental/opt-in; default is 272K tokens. https://openai.com/index/introducing-gpt-5-4/
 
-[^9]: Anthropic, "1M Context Is Now Generally Available for Opus 4.6 and Sonnet 4.6." GA for Max, Team, and Enterprise plans. https://claude.com/blog/1m-context-ga
+[^9]: Anthropic, "1M Context Is Now Generally Available for Opus 4.6 and Sonnet 4.6." GA for Max, Team, and Enterprise plans. Opus 4.7 inherits these context capabilities. https://claude.com/blog/1m-context-ga
 
 [^10]: OpenAI, "Using Codex with Your ChatGPT Plan." Suggest, Auto Edit, and Full Auto approval modes. https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan
 
@@ -613,7 +613,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 [^13]: OpenAI, "Subagents — Codex." TOML-defined subagent system with path-based addressing. https://developers.openai.com/codex/subagents
 
-[^14]: Anthropic, "Agent Teams." Peer-to-peer inter-agent communication via mailbox pattern, shipped with Opus 4.6.
+[^14]: Anthropic, "Agent Teams." Peer-to-peer inter-agent communication via mailbox pattern, shipped with Opus 4.6; continues in Opus 4.7.
 
 [^15]: OpenAI, "Introducing Upgrades to Codex." Background agents and cloud execution. https://openai.com/index/introducing-upgrades-to-codex/
 
@@ -654,3 +654,5 @@ From experiment to enterprise — building the factory for AI-assisted software 
 [^27]: Claude Code Bridge (ccb) — community multi-agent orchestration tool providing split-pane terminal with daemon-based provider management (askd, caskd, gaskd, oaskd). Session context persists per-project in .ccb/history/. Supports Claude Code, Codex CLI, Gemini CLI, OpenCode, and Droid simultaneously.
 
 [^28]: Cross-reference: "The Three-CLI Toolkit: Running Codex CLI, Claude Code, and Gemini CLI as a Unified Development Stack," codex-resources standard library, 11 April 2026. Covers decision frameworks, workflow patterns, shared MCP configuration, and cost-optimisation strategies for multi-tool development stacks.
+
+[^29]: Anthropic, "Introducing Claude Opus 4.7." Released April 16, 2026. Improved agentic execution rigor, self-verification, enhanced vision (3.75MP), new `xhigh` effort level. Pricing unchanged at $5/$25 per million tokens. https://www.anthropic.com/news/claude-opus-4-7

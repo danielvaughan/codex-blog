@@ -98,7 +98,7 @@ The answer is the **Agentic Engineering Pod**, three humans using agents, each r
 
 ```mermaid
 flowchart LR
-    CA["<b>CONTEXT ARCHITECT</b><br/>Owns the Why + What<br/>AGENTS.md · Specs · Guardrails"] --> VE["<b>VALUE ENGINEER</b><br/>Owns the How<br/>Briefs · Plan mode · Orchestration"]
+    CA["<b>CONTEXT ARCHITECT</b><br/>Owns Standards + Context<br/>AGENTS.md · Ref Architectures · Guardrails"] --> VE["<b>VALUE ENGINEER</b><br/>Owns Specs + Delivery<br/>SPEC.md · Plan mode · Orchestration"]
     VE --> Agent["<b>AGENT EXECUTION</b><br/>Implements against<br/>spec + constraints"]
     Agent --> QE["<b>QUALITY ENGINEER</b><br/>Owns the Trust<br/>Test gates · Hooks · Verification"]
     QE -->|"Pass"| Ship["Ship"]
@@ -113,7 +113,7 @@ flowchart LR
     style Ship fill:#d4edda,stroke:#28a745,color:#111827
 ```
 
-The **Context Architect** owns the context layer: specifications, guardrails, the `AGENTS.md` hierarchy, scoped overrides, skills and the capture of lessons learned. The **Value Engineer** owns planning and orchestration, writing high-signal briefs, running `/plan` and steering implementation. The **Quality Engineer** owns verification, including hooks, gates and CI rules, with real veto power when the evidence is not good enough.
+The **Context Architect** owns the standards and context layer: reference architectures, guardrails, the `AGENTS.md` hierarchy, scoped overrides, skills and the capture of lessons learned. The **Value Engineer** owns the feature specification and delivery — deciding what is most valuable to build, writing the `SPEC.md`, orchestrating agents, running `/plan` and steering implementation. The **Quality Engineer** owns validation that honours the specification, including test contracts, hooks, gates and CI rules, with real veto power when the evidence is not good enough.
 
 Three roles are enough because each person remains a producer. There is no extra coordination layer. Agents do the routine work. Humans spend their time on judgement. If demand grows, you run parallel pods on a shared platform layer rather than inflate one giant team.
 
@@ -121,7 +121,7 @@ This maps directly to the compound engineering loop:
 
 ```mermaid
 flowchart TD
-    A["<b>BRAINSTORM</b><br/><i>Context Architect</i><br/>Clarify requirements<br/>Surface edge cases"] --> B["<b>PLAN</b><br/><i>Value Engineer</i><br/>Architecture decisions<br/>Interface contracts<br/>Test strategy"]
+    A["<b>BRAINSTORM</b><br/><i>Context Architect</i><br/>Set standards<br/>Surface edge cases"] --> B["<b>PLAN</b><br/><i>Value Engineer</i><br/>Feature specification<br/>Implementation details<br/>Agent orchestration"]
     B --> C["<b>EXECUTE</b><br/><i>Agent</i><br/>Implements against spec"]
     C --> D["<b>REVIEW</b><br/><i>Quality Engineer</i><br/>Parallel reviewers<br/>Security, perf, gates"]
     D --> E{"Tests pass?<br/>Review clean?"}
@@ -435,7 +435,7 @@ The pipeline has converged because the problem has converged. What still separat
 
 Addy Osmani summed it up well: 'AI does the implementation, human owns the architecture, quality, and correctness.'[^15] His Agent Skills work matters for the same reason. It tries to encode senior engineering discipline in reusable form, because raw capability without discipline produces fast messes.
 
-That is why the investment is portable. `AGENTS.md` works across tools. Planning, review and compounding work regardless of whether the implementation comes from GPT-5.4, Claude Opus 4.6 or Gemini 3 Pro. You are not betting on one vendor. You are betting on a method that fits the underlying problem.
+That is why the investment is portable. `AGENTS.md` works across tools. Planning, review and compounding work regardless of whether the implementation comes from GPT-5.4, Claude Opus 4.7 or Gemini 3 Pro. You are not betting on one vendor. You are betting on a method that fits the underlying problem.
 
 ## What this means for careers
 

@@ -62,9 +62,9 @@ The pod's three roles map to the three questions that stay with humans even when
 
 | Role | Type | Owns | Answers |
 |------|------|------|---------|
-| **Context Architect** | **Human** | The 'why' and the 'what' | What outcomes are we pursuing? What context do agents need? What guardrails apply? |
-| **Value Engineer** | **Human** | The 'how' | How do we orchestrate delivery? What does good implementation look like? |
-| **Quality Engineer** | **Human** | The 'trust' | Can we demonstrate that what was built is correct, safe and reliable? |
+| **Context Architect** | **Human** | The 'why' and the standards | What standards apply? What reference architectures guide the work? What context do agents need? What guardrails apply? |
+| **Value Engineer** | **Human** | The 'what' and the 'how' | What is most valuable to build? What does the feature specification look like? How do we orchestrate agents to implement it? |
+| **Quality Engineer** | **Human** | The 'trust' | Is the validation in place to honour the specification? Can we demonstrate that what was built is correct, safe and reliable? |
 
 > **All three pod roles are human.** Codex sessions, hooks and automated gates are tools. They are not roles in the org chart[^1].
 
@@ -74,23 +74,23 @@ These boundaries are not administrative niceties. They reflect the three ways an
 flowchart TB
     subgraph Pod["Agentic Engineering Pod"]
         direction TB
-        CA["Context Architect\n(Human)\nOwns: Why + What"]
-        VE["Value Engineer\n(Human)\nOwns: How"]
-        QE["Quality Engineer\n(Human)\nOwns: Trust"]
+        CA["Context Architect\n(Human)\nOwns: Standards + Context"]
+        VE["Value Engineer\n(Human)\nOwns: Specs + Delivery"]
+        QE["Quality Engineer\n(Human)\nOwns: Validation"]
     end
 
     subgraph Agents["Agent Layer"]
         direction TB
-        A1["Specification\nAgents"]
-        A2["Implementation\nAgents"]
+        A1["Standards &\nArchitecture Agents"]
+        A2["Specification &\nImplementation Agents"]
         A3["Verification\nAgents"]
     end
 
     subgraph Artefacts["Shared Context Layer"]
         direction TB
         AM["AGENTS.md\nHierarchy"]
-        TB2["Task Briefs"]
-        VR["Verification\nResults"]
+        SP["SPEC.md\nFeature Contracts"]
+        VR["Test Contracts &\nVerification Results"]
     end
 
     CA -->|"wields"| A1
@@ -98,10 +98,9 @@ flowchart TB
     QE -->|"wields"| A3
 
     CA -->|"writes"| AM
-    CA -->|"writes"| TB2
+    VE -->|"writes"| SP
     VE -->|"reads"| AM
-    VE -->|"reads"| TB2
-    QE -->|"reads"| AM
+    QE -->|"reads"| SP
     QE -->|"writes"| VR
 
     style CA fill:#4a90d9,stroke:#333,color:#fff
@@ -116,13 +115,13 @@ flowchart TB
 
 ### What they own
 
-The Context Architect owns the outcome and the operating environment. They are responsible for whether the pod is aimed at the right target, whether agents are working from accurate context and whether the strategic direction still matches business intent. Their leverage comes from building reusable context, skills and guardrails, not from driving individual feature sessions[^1].
+The Context Architect owns the standards, reference architectures and operating environment. They are responsible for whether agents are working from accurate context, whether the architectural direction is sound and whether the strategic guardrails still match business intent. Their leverage comes from building reusable standards, context, skills and guardrails — not from writing individual feature specifications[^1].
 
 The role has four main responsibilities:
 
-**Factory stewardship.** They own the pod's reusable production system: context, skills and guardrails. They set the standard for high-signal briefs and tune the review and evidence loops. If the same friction shows up repeatedly, they feed that back into the context layer.
+**Standards and reference architectures.** They own the pod's reusable production system: architectural patterns, coding standards, context templates and guardrails. They set the standard for what a well-formed specification looks like, define the RFC 2119 vocabulary the team uses, and maintain the reference architectures that prevent each feature from reinventing foundational decisions.
 
-**Outcome definition and value realisation.** They are the main interface to business sponsors. They turn vague requests into operational context, own the product narrative and frame trade-offs in terms of cost to value, including what the book calls the 'economics of agency'.
+**Strategic context and business alignment.** They are the main interface to business sponsors for strategic direction. They turn organisational goals into architectural context, own the product narrative at the system level and frame trade-offs in terms of cost to value, including what the book calls the 'economics of agency'. The Value Engineer translates this strategic context into specific feature priorities.
 
 **Context engineering.** They curate patterns, documentation and decision records that give agents enough background to make correct low-level decisions. Signal-to-noise matters here. If you feed agents stale or contradictory context, you get stale or contradictory output.
 
@@ -193,26 +192,60 @@ Level 4: Self-remediating    Agent detects, diagnoses, and remedies within guard
 
 You do not move up that ladder because the team feels more confident. You move up because the evidence supports it: test coverage, review history, audit logs and a pattern of safe operation. The levels also attach to change categories, not just modules. A payment system may stay at Level 2 for schema changes and still run at Level 3 for read-path optimisation.
 
+### Spec-driven development: the pod's shared discipline
+
+If AGENTS.md is the *standing* context that applies to every task, a specification file is the *situational* context for a specific feature. SDD formalises how the three pod roles collaborate to produce that specification[^10].
+
+**The Context Architect** owns the standards and reference architectures that all specifications must honour. They maintain architectural patterns, define the RFC 2119 vocabulary the team uses (`MUST`, `SHOULD`, `MAY`), set quality standards for what a well-formed spec looks like, and curate the reference architectures that prevent each feature from reinventing foundational decisions. Their deliverables are the `AGENTS.md` hierarchy and the architectural guardrails that shape every spec — not the feature specs themselves.
+
+**The Value Engineer** owns the feature specification. They decide what is most valuable to build and write the detailed `SPEC.md` that tells agents exactly what to implement. A `SPEC.md` contains three sections: an overview (what and why), requirements written in RFC 2119 language, and a high-level design (how, without implementation detail). The modal verbs give agents explicit signal about which constraints are hard and which are flexible. A `MUST` maps to a test assertion. A `SHOULD` warrants a comment but not a rejection.
+
+```markdown
+# Feature: Subscription Renewal
+
+## Requirements
+- The `/subscriptions/renew` endpoint MUST be idempotent per renewal period.
+- Renewal MUST emit an `subscription.renewed` audit event before returning.
+- The endpoint SHOULD complete within 200 ms at the 95th percentile.
+- The response MAY include a `next_renewal_date` field for client display.
+
+## Design
+Use the existing SubscriptionService. All state changes go through the
+audit pipeline defined in AGENTS.md. Do not introduce a new caching layer.
+```
+
+**The Quality Engineer** owns the validation infrastructure that honours the specification. They derive test contracts from `MUST` requirements, build the verification gates that prove the implementation satisfies the spec, and maintain the CI pipeline that enforces compliance. Without their validation layer, a spec is a wish list; with it, the spec becomes a contract with teeth.
+
+The spec resolves the decision space *before* the Value Engineer's first agent session. Without it, the agent will make plausible architectural choices that may not match business intent — the most common failure mode in agentic workflows[^10].
+
+For complex, multi-hour features, the Value Engineer also produces an **ExecPlan** (`PLANS.md`) — a living document the agent updates as it works. The ExecPlan captures the step-by-step execution path, a decision log for surprises encountered during implementation, and a retrospective section completed at the end. Every ExecPlan must be fully self-contained so a fresh session can resume without reconstructing context[^10].
+
+The pipeline is: AGENTS.md (standards and reference architectures, owned by Context Architect) → SPEC.md (feature contract, owned by Value Engineer) → test contracts derived from MUST requirements (owned by Quality Engineer) → agent implementation against failing tests (orchestrated by Value Engineer). Each role owns a distinct stage. The Quality Engineer verifies the full chain.
+
+Community tooling supports this flow. `cc-sdd` provides staged `/kiro:spec-*` commands with human review gates at each phase boundary. `codex-spec` manages a `.codex-specs/` directory with shared project context. GitHub's `spec-kit` adds a Constitution phase for project-wide principles. All three enforce what the pod model requires: specifications before code, and human sign-off before agent execution[^10].
+
 ### The Context Architect's TOML configuration
 
-The Context Architect's sessions are specification and architecture sessions. They produce ADRs, update AGENTS.md files, tighten acceptance criteria and assess context drift. Those sessions need a high-reasoning model, but they should not run in full auto. The Context Architect sets policy; they do not write feature code[^1].
+The Context Architect's sessions are standards and architecture sessions. They produce ADRs, update AGENTS.md files, define reference architectures, set spec quality standards and assess context drift. Those sessions need a high-reasoning model, but they should not run in full auto. The Context Architect sets policy and standards; they do not write feature specs or feature code[^1].
 
 ```toml
 # .codex/agents/context-architect.toml
 name = "context-architect"
-description = "Specification, ADR authoring, AGENTS.md maintenance, context quality review."
+description = "Standards, reference architectures, ADR authoring, AGENTS.md maintenance, context quality review."
 developer_instructions = """
-You are assisting the Context Architect with high-judgment context and specification work.
+You are assisting the Context Architect with standards, reference architectures and context work.
 
 Tasks you handle:
 - Drafting or updating AGENTS.md files at any level of the hierarchy
 - Writing or reviewing ADRs (Architecture Decision Records)
-- Translating acceptance criteria into verifiable, specific form
+- Defining and maintaining reference architectures and design patterns
+- Setting specification standards (RFC 2119 vocabulary, quality criteria)
 - Assessing whether existing context documents are current and accurate
 - Identifying gaps or contradictions in the context layer
 
 Rules:
 - Do NOT write feature implementation code
+- Do NOT write feature specifications (that is the Value Engineer's responsibility)
 - Do NOT modify source files outside .codex/ or docs/
 - If producing an ADR, follow the format in .codex/adr-template.md
 - Flag any context gap that would require a human decision before agents can proceed
@@ -230,9 +263,11 @@ The `approval_policy = "suggest"` setting is deliberate. A context mistake can p
 
 ### What they own
 
-The Value Engineer owns end-to-end delivery orchestration. This is not a project manager with a better prompt library. It is a strong software engineer using agents as force multipliers. They need the technical depth to validate agent output, spot architectural drift, catch subtle correctness failures and uphold implementation standards the agents cannot enforce on their own[^1].
+The Value Engineer owns product value decisions and end-to-end delivery. This is not a project manager with a better prompt library. It is a strong software engineer who decides what is most valuable to build, writes the detailed feature specification, and uses agents as force multipliers to implement it. They need the technical depth to validate agent output, spot architectural drift, catch subtle correctness failures and uphold implementation standards the agents cannot enforce on their own[^1].
 
-The role breaks into four areas:
+The role breaks into five areas:
+
+**Product value and feature specification.** They decide which features deliver the most value and write the `SPEC.md` — the feature contract with RFC 2119 requirements that tells agents exactly what to implement. The specification follows the standards and reference architectures set by the Context Architect. This is the role's defining deliverable.
 
 **System orchestration and technical discovery.** They are the main technical contact for subject matter experts. They turn messy domain rules into operational system behaviour.
 
@@ -323,11 +358,11 @@ sandbox_mode = "workspace-write"
 
 ### What they own
 
-The Quality Engineer owns the trust platform: CI/CD, automated gates, security controls and verification infrastructure. They hold the quality veto. The Value Engineer cannot wave their work past that gate. The Context Architect cannot do it either. The authority is structural, not political[^1].
+The Quality Engineer owns the validation infrastructure that honours the specification. Their domain is CI/CD, automated gates, security controls, test contracts and verification infrastructure. They hold the quality veto. The Value Engineer cannot wave their work past that gate. The Context Architect cannot do it either. The authority is structural, not political[^1].
 
 The role has four areas of responsibility:
 
-**Verification and quality engineering.** They design and build the systems that verify correctness, performance and reliability. They also drive safe tool contracts: typed inputs and outputs, idempotence, least privilege and allowlists.
+**Validation that honours the specification.** They derive test contracts from the `MUST` requirements in the Value Engineer's `SPEC.md`, design and build the verification systems that prove correctness, performance and reliability, and ensure that what was built actually satisfies what was specified. They also drive safe tool contracts: typed inputs and outputs, idempotence, least privilege and allowlists.
 
 **Adversarial testing.** They actively red-team agent workflows for prompt injection, unsafe tool use and data exposure. This is continuous engineering work, not an annual audit.
 
@@ -874,3 +909,5 @@ From experiment to enterprise, building the factory for AI-assisted software eng
 [^8]: The thesis that 'when code generation becomes nearly free, the bottleneck shifts to verification, design and accumulated context' is established in Article 01 of this series, 'Agentic Engineering Is Not Vibe Coding'. The pod's operating principles are the structural response to that shift: they protect the design and verification layers that agents cannot own.
 
 [^9]: Gregor Ojstersek, 'Become a Great Generalist or Extreme Specialist,' *Engineering Leadership* newsletter (16 April 2026), 187,000+ subscribers. [newsletter.eng-leadership.com/p/become-a-great-generalist-or-extreme](https://newsletter.eng-leadership.com/p/become-a-great-generalist-or-extreme). Ojstersek cites Sulman Choudhry (Head of Engineering for ChatGPT at OpenAI) on the barbell hiring model and advocates separating conflicting goals into separate specialist agents for AI-assisted engineering.
+
+[^10]: Spec-driven development (SDD) with Codex CLI. SPEC.md format with RFC 2119 requirements: [Codex GitHub Discussions #7355](https://github.com/openai/codex/discussions/7355). ExecPlan (PLANS.md) for multi-hour autonomous runs: [OpenAI Cookbook](https://developers.openai.com/cookbook/articles/codex_exec_plans). Tooling: [cc-sdd](https://github.com/gotalab/cc-sdd) (Kiro-style staged gates), [codex-spec](https://github.com/shenli/codex-spec) (automated spec workflows), [GitHub spec-kit](https://github.com/github/spec-kit) (Constitution→Specification→Planning→Tasks→Implementation→Review). See also: 'Spec-Driven Development with Codex: Writing Specifications Before Code,' codex-resources standard library, 28 March 2026.
