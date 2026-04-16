@@ -90,8 +90,8 @@ The Agentic Engineering Pod is three humans wielding agents. Not one developer w
 
 | Role | Human | Owns |
 |------|-------|------|
-| **Context Architect** | Owns the "Why" and the "What" | Business context, specifications, AGENTS.md, knowledge codification |
-| **Value Engineer** | Owns the "How" | Implementation orchestration, agent workflows, architectural decisions |
+| **Context Architect** | Owns the "Why" and the "What" | Business context, SPEC.md (feature contracts with RFC 2119 requirements), AGENTS.md (standing context), ExecPlan (PLANS.md for multi-hour tasks), knowledge codification |
+| **Value Engineer** | Owns the "How" | Decomposes specs into agent tasks, derives tests from MUST requirements, orchestrates agent execution, reviews output against the spec |
 | **Quality Engineer** | Owns the "Trust" | Testing strategy, security verification, production readiness |
 
 Every person is a producer. Agents handle the routine execution, boilerplate, scaffolding, test generation, CI runs. The humans handle judgment: what to build, how to build it well, and whether it is safe to ship. (For the full pod model, roles, and lifecycle, see [Article 05: The Agentic Pod](/premium/05-the-agentic-pod/).)
@@ -128,9 +128,9 @@ This is counterintuitive. If agents are doing the coding, why spend 80% of time 
 
 In practice, the 40/10/40/10 split means:
 
-- **40% Planning**: The Context Architect writes specifications, updates AGENTS.md, structures the context that agents will consume. The Value Engineer decomposes work into agent-appropriate tasks. The Quality Engineer defines acceptance criteria and test contracts.
-- **10% Execution**: Agents generate code. The Value Engineer orchestrates, delegates to subagents, manages context windows. This is the part that feels like the whole job but is not.
-- **40% Review**: Every output is reviewed as if a capable but unsupervised junior engineer submitted it. The Quality Engineer runs TDAD cycles (see [Article 04: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/)). The Context Architect verifies alignment with specifications.
+- **40% Planning**: The Context Architect writes the specification (`SPEC.md`) — the feature contract with RFC 2119 requirements (`MUST`, `SHOULD`, `MAY`) and a high-level design. They update AGENTS.md with any standing context the spec requires. For multi-hour features, they produce an ExecPlan (`PLANS.md`) — a self-contained document an agent can resume from cold. The Value Engineer then decomposes the spec into agent-appropriate tasks and derives test skeletons from the `MUST` requirements. The specification is the handoff artefact: the Context Architect delivers it, the Value Engineer executes against it. The Quality Engineer defines the verification criteria and test contracts that sit downstream of both.
+- **10% Execution**: Agents generate code. The Value Engineer orchestrates, delegates to subagents, manages context windows. They run `/plan` against the spec before switching to execute mode. This is the part that feels like the whole job but is not.
+- **40% Review**: Every output is reviewed as if a capable but unsupervised junior engineer submitted it. The Quality Engineer runs TDAD cycles (see [Article 04: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/)). The Context Architect verifies alignment with the original specification — did the implementation honour the `MUST` requirements? Did it stay within the design boundaries?
 - **10% Knowledge Codification**: What did the team learn? What patterns should be captured in AGENTS.md? What context should persist for future sessions? This is the compounding mechanism, the investment that makes every subsequent cycle more effective than the last.
 
 ### Write the First AGENTS.md
@@ -269,7 +269,7 @@ The Context Architects from each pod form a network. They share patterns, identi
 
 The Microsoft research on Copilot adoption found that consistent productivity gains take approximately 11 weeks to materialise.[^7] This is not a tool adoption curve, it is a methodology adoption curve. Engineers must learn:
 
-- How to write effective specifications (not prompts, specifications)
+- How to write effective specifications — the Context Architect's `SPEC.md` with RFC 2119 requirements, not prompts[^15]
 - How to review agent output critically (the 40% review investment)
 - How to structure context for agents (the AGENTS.md discipline)
 - How to recognise when agents are confidently wrong
@@ -281,7 +281,7 @@ The skill matrix for agentic engineering differs from traditional development:
 
 | Competency | Traditional Development | Agentic Engineering |
 |-----------|------------------------|-------------------|
-| **Core skill** | Writing code | Specifying intent and reviewing output |
+| **Core skill** | Writing code | Specifying intent (Context Architect writes SPEC.md) and reviewing output (Value Engineer verifies against spec) |
 | **Planning** | Nice to have | 40% of the work |
 | **Review rigour** | Code review as gate | Code review as primary quality mechanism |
 | **Context management** | Implicit (in the developer's head) | Explicit (structured, versioned, shared) |
@@ -354,7 +354,7 @@ As pods multiply, the Context Architects from each pod form a cross-cutting netw
 - Context management techniques for specific problem types
 - Edge cases where agents produced surprising failures
 
-This network is how the "context layer" evolves from project memory to organisational memory. When Pod 3's Context Architect discovers that agents handle database migration tasks better with a specific specification format, that pattern propagates to all pods through the network and eventually into the platform templates.
+This network is how the "context layer" evolves from project memory to organisational memory. When Pod 3's Context Architect discovers that agents handle database migration tasks better with a specific `SPEC.md` format — say, migration specs that include a rollback requirement as a `MUST` and a data-loss prevention clause — that pattern propagates to all pods through the network and eventually into the platform templates. Similarly, when a Value Engineer discovers that decomposing a spec into three parallel subagent tasks instead of one sequential chain cuts delivery time in half, that execution pattern feeds back through the same channel.
 
 ### Local Model Deployment
 
@@ -517,7 +517,7 @@ Communicating this to leadership is essential. If the executive sponsor expects 
 
 Adopting agentic engineering is not a tool adoption. It is a mindset shift with these characteristics:
 
-- **From writing code to specifying intent**: the developer's primary output is a specification, not an implementation
+- **From writing code to specifying intent**: the Context Architect's primary output is a specification (`SPEC.md`), not an implementation. The Value Engineer's primary output is orchestrated, verified delivery against that specification — not raw code.
 - **From trusting your own code to verifying someone else's**: code review becomes the primary quality mechanism, not a gate at the end
 - **From implicit knowledge to explicit context**: what you know must be written down because agents cannot read your mind
 - **From individual productivity to pod throughput**: the unit of measurement is the pod's delivery, not the individual's output
@@ -647,7 +647,8 @@ For organisations ready to begin, here is the concrete action plan for the first
 **Week 1: Assemble and Align**
 
 - Identify the pilot team (three engineers, one project, moderate complexity)
-- Assign pod roles: Context Architect, Value Engineer, Quality Engineer
+- Assign pod roles: Context Architect (owns specs + AGENTS.md), Value Engineer (owns execution against specs), Quality Engineer (owns verification gates)
+- Context Architect writes the first AGENTS.md and the first `SPEC.md` for the pilot feature
 - Baseline current metrics (cycle time, defect rate, PR turnaround, feature lead time)
 - Set up the tool of choice with default configuration
 
@@ -690,7 +691,7 @@ This is not a transformation programme that requires executive buy-in before a s
 
 7. **Own the abstraction, rent the models**: AGENTS.md templates, hook libraries, context architecture, and the platform layer are proprietary assets. Models are interchangeable. No single vendor dependency.
 
-8. **The culture shift is the hard part**: agentic engineering is not a tool adoption. It is a change in how developers think about their work, from writing code to specifying intent, from trusting output to verifying it, from individual productivity to pod throughput.
+8. **The culture shift is the hard part**: agentic engineering is not a tool adoption. It is a change in how developers think about their work. The Context Architect writes specifications instead of code. The Value Engineer orchestrates agents instead of implementing. The Quality Engineer builds trust infrastructure instead of manual testing. The shift from individual productivity to pod throughput is the hardest adjustment — and the most valuable.
 
 9. **Start now, start small, start measuring**: a six-week pilot with three people and one project generates the evidence to justify everything that follows. The evidence is the buy-in.
 
@@ -745,3 +746,5 @@ From experiment to enterprise — building the factory for AI-assisted software 
 [^13]: "Anthropic Blocks Third-Party Claude Access," multiple sources, April 2026. TechCrunch: <https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/>. The OpenClaw pricing incident demonstrated that subscription pricing is a subsidy with an expiry date.
 
 [^14]: Palmer, A., "Amazon AI outage costs estimated 6.3 million lost orders," CNBC, March 2026. AI-assisted code deployed without adequate review. Cross-referenced in [Article 01: Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/).
+
+[^15]: Spec-driven development (SDD) methodology. The Context Architect authors `SPEC.md` with RFC 2119 requirements (`MUST`/`SHOULD`/`MAY`) and `PLANS.md` (ExecPlan) for multi-hour features. The Value Engineer derives tests from `MUST` requirements and orchestrates agent execution against the spec. See [Article 05: The Agentic Pod](/premium/05-the-agentic-pod/) for the full role breakdown and 'Spec-Driven Development with Codex: Writing Specifications Before Code,' codex-resources, 28 March 2026, for the methodology and tooling ecosystem.
