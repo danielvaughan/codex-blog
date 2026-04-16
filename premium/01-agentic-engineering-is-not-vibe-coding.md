@@ -435,7 +435,7 @@ The pipeline has converged because the problem has converged. What still separat
 
 Addy Osmani summed it up well: 'AI does the implementation, human owns the architecture, quality, and correctness.'[^15] His Agent Skills work matters for the same reason. It tries to encode senior engineering discipline in reusable form, because raw capability without discipline produces fast messes.
 
-That is why the investment is portable. `AGENTS.md` works across tools. Planning, review and compounding work regardless of whether the implementation comes from GPT-5.4, Claude Opus 4.6 or Gemini 3 Pro. You are not betting on one vendor. You are betting on a method that fits the underlying problem.
+That is why the investment is portable. `AGENTS.md` works across tools. Planning, review and compounding work regardless of whether the implementation comes from GPT-5.4, Claude Opus 4.7 or Gemini 3 Pro. You are not betting on one vendor. You are betting on a method that fits the underlying problem.
 
 ## What this means for careers
 

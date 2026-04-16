@@ -358,7 +358,7 @@ Terminal-Bench 2.0 is the most relevant benchmark for Codex CLI users — 89 end
 | SageAgent + GPT-5.3-Codex | 78.4% |
 | Codex CLI + GPT-5.2 | 63% |
 
-The frontier is clustered between 78-82% — no model dominates. The critical finding: model capability matters more than scaffold choice. Codex CLI's resolution rate increased 52% when upgrading from GPT-5-Nano to GPT-5.2.[^39]
+The frontier is clustered between 78-82% — no model dominates. Note: these scores were measured on Opus 4.6; Anthropic released Opus 4.7 on April 16, 2026, with improved agentic execution rigor and self-verification, which may shift the leaderboard further.[^39a] The critical finding: model capability matters more than scaffold choice. Codex CLI's resolution rate increased 52% when upgrading from GPT-5-Nano to GPT-5.2.[^39]
 
 ### The Real Benchmark
 
@@ -527,6 +527,8 @@ From experiment to enterprise — building the factory for AI-assisted software 
 [^38]: Terminal-Bench 2.0: 89 curated tasks in Docker containers, crowd-sourced from 93 contributors. Source: [Terminal-Bench 2.0 — tbench.ai](https://www.tbench.ai/).
 
 [^39]: Codex CLI resolution rate 52% improvement from model upgrade: [Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in CLI — arXiv](https://arxiv.org/abs/2601.11868).
+
+[^39a]: Anthropic, "Introducing Claude Opus 4.7." Released April 16, 2026. Improved agentic execution rigor, self-verification, enhanced vision (3.75MP), new `xhigh` effort level. Pricing unchanged at $5/$25 per MTok. https://www.anthropic.com/news/claude-opus-4-7
 
 [^40]: Waypoints (multi-host remote execution): PR #17362, SSH-backed remote hosts with WebSocket-over-SSH transport. Draft status as of April 11, 2026.
 
