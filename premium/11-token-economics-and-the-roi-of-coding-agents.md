@@ -661,7 +661,21 @@ ROI = (Annual value - Annual cost) / Annual cost × 100
 
 Even the conservative estimate shows a 15:1 return. But these scenarios assume the productivity gains reported by early adopters (10-25%) hold at scale. If we assume productivity gains are only 2-3%, as the METR study suggests early-stage adoption may deliver[^9], the return is still approximately 3:1, a figure any CFO would approve. The business case does not depend on the optimistic numbers being right. It depends on the pessimistic numbers being positive, and they are.
 
-The challenge is not whether agents are worth the cost, at \$4-13/day against \$1,000/day developer costs, the maths is overwhelmingly favourable. The challenge is proving it with data your CFO will accept.
+### Named Enterprise Evidence
+
+The worked example above is a model. Here are real numbers from named enterprises, presented by OpenAI at Codex Day in April 2026[^codexday]:
+
+| Enterprise | Scale | Key Metric | Result |
+|-----------|-------|-----------|--------|
+| **Cisco** | Decades of mission-critical software | Build times | **20% faster** |
+| **Cisco** | Org-wide pilot | Engineering hours saved | **1,500 hours** |
+| **Cisco** | Defect remediation | Speed improvement | **10–15x faster** |
+| **Datadog** | 1,500 engineers daily | Defect detection | **22% of past defects flaggable faster** |
+| **OpenAI (internal)** | 3 engineers, 5 months | Hand-written code | **Zero lines** — Codex wrote millions across 500 NPM packages |
+
+The Cisco numbers are particularly instructive. A 20% build-time improvement across an engineering organisation translates directly into cycle time savings — the largest line item in any ROI calculation. And 10–15x faster defect remediation maps to the "defect cost avoidance" row: if the mean time to fix a production defect drops by an order of magnitude, the cost per incident drops with it.
+
+The challenge is not whether agents are worth the cost, at \$4-13/day against \$1,000/day developer costs, the maths is overwhelmingly favourable. The challenge is proving it with data your CFO will accept. The Cisco and Datadog numbers give you a starting point — named enterprises, first-party results, presented by the vendor itself.
 
 ## Enterprise Governance: Preventing the Uber Scenario
 
@@ -872,5 +886,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 [^28]: "GitHub Copilot Pricing 2026: Complete Guide to All 5 Tiers," UserJot. <https://userjot.com/blog/github-copilot-pricing-guide-2025>; GitHub Copilot Plans & Pricing. <https://github.com/features/copilot/plans>
 
 [^29]: Vaughan, D., "Gemma 4 on Codex CLI vs Claude Code: Same Model, Different Results," codex-resources, April 2026. GB10 benchmark: 31B Dense completed task in 3 clean tool calls vs. 10 messy calls on Mac 26B MoE. Quality > speed finding for agentic coding.
+
+[^codexday]: OpenAI Codex Day keynote presentation, April 2026. Enterprise case studies: Cisco (20% faster builds, 1,500 engineering hours saved, 10–15x faster defect remediation), Datadog (1,500 engineers daily, 22% of past defects flaggable faster), internal OpenAI team (3 engineers, 5 months, zero hand-written code, millions of lines across 500 NPM packages). Also reported: 400% enterprise adoption growth since January 2026, 3M+ weekly active users. Transcript at `notes/transcripts/codex-day.md`.
 
 [^30]: Qwen Team, "Qwen3.6-35B-A3B," Hugging Face model page. <https://huggingface.co/Qwen/Qwen3.6-35B-A3B> MoE architecture: 35B total parameters, 3B active (8.6% activation). SWE-bench Verified: 73.4; Terminal-Bench 2.0: 51.5; MCPMark: 37.0. 256K native context (extensible to 1M). Apache 2.0 licence. Supports tool calling, MCP, multi-token prediction. Dedicated terminal agent: Qwen Code.

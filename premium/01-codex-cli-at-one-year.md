@@ -37,7 +37,7 @@ pdf_url: /premium-pdfs/01-codex-cli-at-one-year.pdf
 
 One year and 67,000 GitHub stars later, here is what OpenAI got right, and what they got wrong, with Codex CLI.
 
-On April 16, 2025, OpenAI open-sourced a terminal-based coding agent under the Apache 2.0 license.[^1a] The repo hit the front page of Hacker News within hours. Three million weekly active users followed.[^1] So did a 520-comment thread about runaway token costs,[^9] a TypeScript-to-Rust rewrite that alienated contributors, and a Windows experience that still breaks in new and creative ways every release cycle.
+On April 16, 2025, OpenAI open-sourced a terminal-based coding agent under the Apache 2.0 license.[^1a] The repo hit the front page of Hacker News within hours. Three million weekly active users followed.[^1] Enterprise adoption grew 400% from January alone, with the average user now sending five times more messages per session than at launch[^codexday]. So did a 520-comment thread about runaway token costs,[^9] a TypeScript-to-Rust rewrite that alienated contributors, and a Windows experience that still breaks in new and creative ways every release cycle.
 
 This is not a press release. This is an honest assessment, based on tracking every changelog entry, reading every significant PR, and following daily community usage patterns over the past year, of whether the tool that bet on the terminal as the right surface for AI agents has earned that bet.
 
@@ -370,6 +370,10 @@ On SWE-EVO (sustained evolution of existing systems), the best models score 21% 
 
 The gap between benchmark performance and real-world performance is the most important number in this entire section. No tool has closed it. Codex CLI's sandbox, hooks, and AGENTS.md system help (good scaffolding adds 4-12 points), but the honest assessment is that we're all still early.
 
+### The Model Evolution: From GPT-5 to GPT-5.4
+
+At Codex Day, OpenAI laid out the Codex model lineage more explicitly than anywhere else[^codexday]. Each generation solved a specific bottleneck: GPT-5 Codex (September 2025) introduced specialised agentic coding and code review. GPT-5.1 was trained to compact its own context and relearn forgotten information — the first model-level attack on the compaction problem that dominates long sessions (see [Article 08: Context Compaction](/premium/08-context-compaction-and-memory/)). GPT-5.2 added cybersecurity capability and large-codebase performance. GPT-5.3 was 25% faster. GPT-5.4 unified the chat and code model lines into a single model that is 2x more token-efficient and 1.5x faster than 5.2. The speaker also referenced **GPT-Next** as an upcoming model in the architecture stack, alongside 5.3 and 5.4.
+
 ## What's Coming: The Next Twelve Months
 
 Predictions are dangerous. Here are mine, grounded in the current development trajectory and observable signals.
@@ -383,6 +387,14 @@ Expect:
 - **Agent identity GA**: Every subagent action attributable to a specific agent identity. This is the prerequisite for enterprise multi-agent audit trails and cost attribution.
 - **Plugin marketplace GA**: Plugin distribution becomes a solved problem for teams. Private registries via local and manifest marketplace sources.
 - **Memory in production**: Cross-session persistent memory transforms Codex from a stateless tool into a learning assistant. The memories menu, cleaning endpoints, and deletion API are all merged.
+
+The enterprise evidence is already arriving. At Codex Day, OpenAI presented named customer results: Cisco reported 20% faster build times, 1,500 engineering hours saved, and 10–15x faster defect remediation after embedding Codex into their workflows. Datadog integrated Codex into code review for 1,500 engineers daily and found it could have flagged 22% of past defects faster[^codexday]. These are the numbers that turn a pilot into a budget line.
+
+### The Codex App: CLI's Sibling Surface
+
+The Codex app, released January 2026 and downloaded 1.5 million times in its first week[^codexday], represents OpenAI's bet that the CLI is not the only surface for agentic coding. The app supports multiple workspaces and projects simultaneously, parallel feature development, and integrated code review. Peter Steinberger (PSPDFKit creator, now on the Codex team) was cited as a power user whose workflow informed the design. The OpenAI speaker stated bluntly: "I started dogfooding this app sometime in December, and I haven't touched the CLI after that."
+
+For the series, this matters because the app shares the CLI's AGENTS.md convention, hook system, and model routing — the same infrastructure that makes the pod model work. The surface changes; the engineering discipline does not.
 
 ### Mid-Term (Q3-Q4 2026): The Platform Shift
 
@@ -537,5 +549,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 [^40]: Waypoints (multi-host remote execution): PR #17362, SSH-backed remote hosts with WebSocket-over-SSH transport. Draft status as of April 11, 2026.
 
 [^41]: "Spud" / GPT-6 signals: pretraining reportedly completed ~March 24, 2026. Greg Brockman: "two years of research — not an incremental improvement." Polymarket: 78% probability of release by April 30, 95%+ by June 30. Source: [happycapyguide.com — ChatGPT 5.5 Super App Launch](https://happycapyguide.com/blog/openai-chatgpt-55-super-app-codex-atlas-desktop-launch-april-2026).
+
+[^codexday]: OpenAI Codex Day keynote presentation, April 2026. First-party adoption figures: 400% enterprise growth since January 2026, 5x more messages per user, 1.5M app downloads in first week, 3M+ weekly active users. Enterprise case studies: Cisco (20% faster builds, 1,500 engineering hours saved, 10–15x faster defect remediation), Datadog (1,500 engineers daily, 22% of past defects flaggable faster). Internal case: 3 engineers, 5 months, zero hand-written code, millions of lines across 500 NPM packages. Transcript at `notes/transcripts/codex-day.md`.
 
 [^1a]: "OpenAI debuts Codex CLI, an open source coding tool for terminals," TechCrunch, April 16, 2025. <https://techcrunch.com/2025/04/16/openai-debuts-codex-cli-an-open-source-coding-tool-for-terminals/>

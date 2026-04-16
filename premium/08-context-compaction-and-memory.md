@@ -98,6 +98,8 @@ For non-Codex models (open-source or third-party), compaction runs locally using
 
 The critical point: **compaction is lossy**. Every compaction pass is a summary of a summary feeding into the next cycle, compounding degradation. OpenAI's own documentation includes the warning: *"Long conversations and multiple compactions can cause the model to be less accurate."*[^6]
 
+OpenAI has been attacking this problem at the model training level, not just the tooling level. At Codex Day (April 2026), the speaker revealed that GPT-5.1 Codex was specifically "trained for really long-running tasks" by teaching the model "to learn how to compact its context and then learn whatever it had forgotten"[^codexday]. This is a significant architectural signal: rather than treating compaction as purely an infrastructure problem (better summarisation algorithms, bigger windows), OpenAI is training models to be *aware* of compaction and to reconstruct lost context from the codebase. The internal case study that followed — agent tasks running continuously for 36 hours — suggests the training had measurable effect. GPT-5.2 built on this with improved large-codebase performance, and GPT-5.4 delivered 2x token efficiency over 5.2, meaning the same work requires half the context churn.
+
 ```mermaid
 flowchart LR
     A["Full History\n~180K tokens"] -->|"Compaction fires"| B["LLM Summarization"]
@@ -656,3 +658,5 @@ From experiment to enterprise — building the factory for AI-assisted software 
 [^11]: PR #16276, Memory extensions system merged April 9, 2026: <https://github.com/openai/codex/pull/16276>
 
 [^12]: MCP memory server ecosystem, AgentMemory, Basic Memory, codebase-memory-mcp: <https://github.com/DeusData/codebase-memory-mcp>, <https://github.com/rohitg00/agentmemory>, <https://docs.basicmemory.com/integrations/codex>
+
+[^codexday]: OpenAI Codex Day keynote presentation, April 2026. Speaker revealed GPT-5.1 Codex was specifically "trained for really long-running tasks" by teaching the model "to learn how to compact its context and then learn whatever it had forgotten." GPT-5.2 doubled down on large-codebase performance. GPT-5.4 achieved 2x token efficiency over 5.2 (same intelligence, half the context churn). Internal case study: agent tasks running continuously for 36 hours. Transcript at `notes/transcripts/codex-day.md`.
