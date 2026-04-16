@@ -11,19 +11,23 @@ tags:
   - enterprise
   - context-management
   - skills
-permalink: /premium/03-the-agents-md-playbook/
+permalink: /premium/05-the-agents-md-playbook/
 sitemap: false
 robots: noindex,nofollow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
-image: /sketchnotes/premium-articles/03-the-agents-md-playbook.png
+image: /sketchnotes/premium-articles/05-the-agents-md-playbook.png
+pdf_url: /premium-pdfs/05-the-agents-md-playbook.pdf
 ---
 
-![Sketchnote diagram for: Most AGENTS.md Files Make AI Agents Worse — Here's the Science of Getting Them Right](/sketchnotes/premium-articles/03-the-agents-md-playbook.png)
+![Sketchnote diagram for: Most AGENTS.md Files Make AI Agents Worse — Here's the Science of Getting Them Right](/sketchnotes/premium-articles/05-the-agents-md-playbook.png)
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 3 of 13.
+
+<p class="premium-pdf-download"><a href="/premium-pdfs/05-the-agents-md-playbook.pdf"><strong>Download PDF</strong></a></p>
+
+> **The Agentic Engineering Series** — From experiment to enterprise. This is article 5 of 13.
 > *This article is the blueprint — how AGENTS.md becomes the single source of truth that turns ad-hoc prompting into repeatable infrastructure.*
-> [Previous: Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | [Next: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | [Series overview](#series)
+> [Previous: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | [Next: Inside the Machine](/premium/06-inside-the-machine/) | [Series overview](#series)
 
-> **Series context:** This is article 3 of 13 in *From Experiment to Factory*. With the wake-up call delivered and the platform assessed, this article is **The Blueprint** — how to codify agent instructions as version-controlled infrastructure so that every agent session starts from a known-good state rather than from zero.
+> **Series context:** This is article 5 of 13 in *From Experiment to Factory*. With the wake-up call delivered and the platform assessed, this article is **The Blueprint** — how to codify agent instructions as version-controlled infrastructure so that every agent session starts from a known-good state rather than from zero.
 
 # Most AGENTS.md Files Make AI Agents Worse — Here's the Science of Getting Them Right
 
@@ -611,16 +615,16 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 | | Article | Role |
 |---|---------|------|
-| 1 | [Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
-| 2 | [Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | The Platform |
-| **3** | **[The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/)** | **The Blueprint** |
+| 1 | [Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | The Platform |
+| 2 | [Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
+| 3 | [The Agentic Pod](/premium/03-the-agentic-pod/) | The Team Model |
 | 4 | [TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | The Quality Gate |
-| 5 | [The Agentic Pod](/premium/05-the-agentic-pod/) | The Team Model |
-| 6 | [Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | The Toolchain |
-| 7 | [AI Slopageddon](/premium/07-ai-slopageddon/) | The Risk |
-| 8 | [Inside the Machine](/premium/08-inside-the-machine/) | The Engine |
-| 9 | [Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/) | The Guardrails |
-| 10 | [Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | The Efficiency Layer |
+| **5** | **[The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/)** | **The Blueprint** |
+| 6 | [Inside the Machine](/premium/06-inside-the-machine/) | The Engine |
+| 7 | [Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | The Guardrails |
+| 8 | [Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | The Efficiency Layer |
+| 9 | [Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | The Toolchain |
+| 10 | [AI Slopageddon](/premium/10-ai-slopageddon/) | The Risk |
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |

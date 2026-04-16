@@ -12,19 +12,23 @@ tags:
   - terminal-agents
   - pricing
   - benchmarks
-permalink: /premium/06-three-terminals-three-fates/
+permalink: /premium/09-three-terminals-three-fates/
 sitemap: false
 robots: noindex,nofollow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
-image: /sketchnotes/premium-articles/06-three-terminals-three-fates.png
+image: /sketchnotes/premium-articles/09-three-terminals-three-fates.png
+pdf_url: /premium-pdfs/09-three-terminals-three-fates.pdf
 ---
 
-![Sketchnote diagram for: Three Terminals, Three Fates: Codex CLI vs Claude Code vs Gemini CLI — A Comparative Analysis](/sketchnotes/premium-articles/06-three-terminals-three-fates.png)
+![Sketchnote diagram for: Three Terminals, Three Fates: Codex CLI vs Claude Code vs Gemini CLI — A Comparative Analysis](/sketchnotes/premium-articles/09-three-terminals-three-fates.png)
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 6 of 13.
+
+<p class="premium-pdf-download"><a href="/premium-pdfs/09-three-terminals-three-fates.pdf"><strong>Download PDF</strong></a></p>
+
+> **The Agentic Engineering Series** — From experiment to enterprise. This is article 9 of 13.
 > *This article evaluates the toolchain — comparing Codex CLI, Claude Code, and Gemini CLI as enterprise platform choices.*
-> [Previous: The Agentic Pod](/premium/05-the-agentic-pod/) | [Next: AI Slopageddon](/premium/07-ai-slopageddon/) | [Series overview](#series)
+> [Previous: Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | [Next: AI Slopageddon](/premium/10-ai-slopageddon/) | [Series overview](#series)
 
-> **Series context:** This is article 6 of 13 in *From Experiment to Factory*. The factory's team model and processes are defined; now you need to choose the machinery. This article is **The Toolchain** — an evidence-based comparison of the three major terminal-native agents, helping enterprise teams select and bridge the right platforms for their factory floor.
+> **Series context:** This is article 9 of 13 in *From Experiment to Factory*. The factory's team model and processes are defined; now you need to choose the machinery. This article is **The Toolchain** — an evidence-based comparison of the three major terminal-native agents, helping enterprise teams select and bridge the right platforms for their factory floor.
 
 # Three Terminals, Three Fates: Codex CLI vs Claude Code vs Gemini CLI — A Comparative Analysis
 
@@ -557,7 +561,7 @@ The developers shipping the fastest in 2026 are not the ones who picked the "bes
 
 Three terminals. Three fates. But increasingly, the same destination.
 
-The toolchain is evaluated. But what happens when these powerful tools operate without the governance this series advocates? In [Article 07: AI Slopageddon](/premium/07-ai-slopageddon/), we confront the risk — the cognitive debt crisis that emerges when organisations adopt agents without the factory discipline to contain them.
+The toolchain is evaluated. But what happens when these powerful tools operate without the governance this series advocates? In [Article 10: AI Slopageddon](/premium/10-ai-slopageddon/), we confront the risk — the cognitive debt crisis that emerges when organisations adopt agents without the factory discipline to contain them.
 
 ---
 
@@ -571,16 +575,16 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 | | Article | Role |
 |---|---------|------|
-| 1 | [Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
-| 2 | [Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | The Platform |
-| 3 | [The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/) | The Blueprint |
+| 1 | [Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | The Platform |
+| 2 | [Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
+| 3 | [The Agentic Pod](/premium/03-the-agentic-pod/) | The Team Model |
 | 4 | [TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | The Quality Gate |
-| 5 | [The Agentic Pod](/premium/05-the-agentic-pod/) | The Team Model |
-| **6** | **[Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/)** | **The Toolchain** |
-| 7 | [AI Slopageddon](/premium/07-ai-slopageddon/) | The Risk |
-| 8 | [Inside the Machine](/premium/08-inside-the-machine/) | The Engine |
-| 9 | [Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/) | The Guardrails |
-| 10 | [Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | The Efficiency Layer |
+| 5 | [The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | The Blueprint |
+| 6 | [Inside the Machine](/premium/06-inside-the-machine/) | The Engine |
+| 7 | [Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | The Guardrails |
+| 8 | [Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | The Efficiency Layer |
+| **9** | **[Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/)** | **The Toolchain** |
+| 10 | [AI Slopageddon](/premium/10-ai-slopageddon/) | The Risk |
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |

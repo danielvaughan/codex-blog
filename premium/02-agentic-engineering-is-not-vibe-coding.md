@@ -12,21 +12,25 @@ tags:
   - tdd
   - code-review
   - premium
-permalink: /premium/01-agentic-engineering-is-not-vibe-coding/
+permalink: /premium/02-agentic-engineering-is-not-vibe-coding/
 sitemap: false
 robots: noindex,nofollow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
-image: /sketchnotes/premium-articles/01-agentic-engineering-is-not-vibe-coding.png
+image: /sketchnotes/premium-articles/02-agentic-engineering-is-not-vibe-coding.png
+pdf_url: /premium-pdfs/02-agentic-engineering-is-not-vibe-coding.pdf
 ---
 
-![Sketchnote diagram for: Agentic Engineering Is Not Vibe Coding: The Framework That Separates 10x Teams from Toy Projects](/sketchnotes/premium-articles/01-agentic-engineering-is-not-vibe-coding.png)
+![Sketchnote diagram for: Agentic Engineering Is Not Vibe Coding: The Framework That Separates 10x Teams from Toy Projects](/sketchnotes/premium-articles/02-agentic-engineering-is-not-vibe-coding.png)
+
+
+<p class="premium-pdf-download"><a href="/premium-pdfs/02-agentic-engineering-is-not-vibe-coding.pdf"><strong>Download PDF</strong></a></p>
 
 # Agentic Engineering Is Not Vibe Coding: The Framework That Separates 10x Teams from Toy Projects
 
-> **The Agentic Engineering Series**. From experiment to enterprise. This is article one of 13.
+> **The Agentic Engineering Series**. From experiment to enterprise. This is article 2 of 13.
 > *This article sets the thesis: why the move from vibe coding to agentic engineering is the defining shift for enterprise teams in 2026.*
-> [Next: Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | [Series overview](#series)
+> [Previous: Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | [Next: The Agentic Pod](/premium/03-the-agentic-pod/) | [Series overview](#series)
 
-> **Series context:** This is article one of 13 in *From Experiment to Factory*, a series about moving from AI experiments in software engineering to a repeatable factory for agentic engineering at enterprise scale. This opening article is the wake-up call: experimentation is not enough, and the teams that treat agentic coding as engineering rather than vibes will be the teams still standing at the end of 2026.
+> **Series context:** This is article 2 of 13 in *From Experiment to Factory*, a series about moving from AI experiments in software engineering to a repeatable factory for agentic engineering at enterprise scale. This opening article is the wake-up call: experimentation is not enough, and the teams that treat agentic coding as engineering rather than vibes will be the teams still standing at the end of 2026.
 
 In March 2026, Amazon's retail platform suffered a six-hour cascading outage that cost an estimated 6.3 million lost orders. Internal reporting, first disclosed by CNBC and later detailed by *The Register*, pointed to AI-assisted code reaching production without adequate human review or senior engineer approval.[^0] The code looked plausible. It passed automated checks. It still introduced a subtle service interaction that nobody had owned, because nobody had been assigned to review it. Amazon's response was blunt: a 90-day code safety reset and mandatory senior engineer sign-off for AI-generated deployments.[^0b]
 
@@ -523,7 +527,7 @@ The teams that adopt that model will ship faster with fewer avoidable failures. 
 
 The vibes were useful for the opening phase. They are not enough for the next one.
 
-This article is the wake-up call. In [Article 02: Codex CLI at One Year](/premium/02-codex-cli-at-one-year/), the next question is whether the platform itself is mature enough for enterprise adoption, what Codex got right, what it got wrong and what the next 12 months are likely to bring.
+This article is the wake-up call. In [Article 01: Codex CLI at One Year](/premium/01-codex-cli-at-one-year/), the next question is whether the platform itself is mature enough for enterprise adoption, what Codex got right, what it got wrong and what the next 12 months are likely to bring.
 
 ## Citations
 
@@ -533,16 +537,16 @@ From experiment to enterprise, building the factory for AI-assisted software eng
 
 | | Article | Role |
 |---|---------|------|
-| **1** | **[Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/)** | **The Wake-Up Call** |
-| 2 | [Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | The Platform |
-| 3 | [The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/) | The Blueprint |
+| 1 | [Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | The Platform |
+| **2** | **[Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/)** | **The Wake-Up Call** |
+| 3 | [The Agentic Pod](/premium/03-the-agentic-pod/) | The Team Model |
 | 4 | [TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | The Quality Gate |
-| 5 | [The Agentic Pod](/premium/05-the-agentic-pod/) | The Team Model |
-| 6 | [Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | The Toolchain |
-| 7 | [AI Slopageddon](/premium/07-ai-slopageddon/) | The Risk |
-| 8 | [Inside the Machine](/premium/08-inside-the-machine/) | The Engine |
-| 9 | [Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/) | The Guardrails |
-| 10 | [Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | The Efficiency Layer |
+| 5 | [The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | The Blueprint |
+| 6 | [Inside the Machine](/premium/06-inside-the-machine/) | The Engine |
+| 7 | [Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | The Guardrails |
+| 8 | [Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | The Efficiency Layer |
+| 9 | [Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | The Toolchain |
+| 10 | [AI Slopageddon](/premium/10-ai-slopageddon/) | The Risk |
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |

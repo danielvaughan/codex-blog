@@ -12,19 +12,23 @@ tags:
   - mcp
   - deep-dive
   - premium
-permalink: /premium/08-inside-the-machine/
+permalink: /premium/06-inside-the-machine/
 sitemap: false
 robots: noindex,nofollow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
-image: /sketchnotes/premium-articles/08-inside-the-machine.png
+image: /sketchnotes/premium-articles/06-inside-the-machine.png
+pdf_url: /premium-pdfs/06-inside-the-machine.pdf
 ---
 
-![Sketchnote diagram for: Inside the Machine: How Codex CLI Actually Works (Architecture Deep Dive)](/sketchnotes/premium-articles/08-inside-the-machine.png)
+![Sketchnote diagram for: Inside the Machine: How Codex CLI Actually Works (Architecture Deep Dive)](/sketchnotes/premium-articles/06-inside-the-machine.png)
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 8 of 13.
+
+<p class="premium-pdf-download"><a href="/premium-pdfs/06-inside-the-machine.pdf"><strong>Download PDF</strong></a></p>
+
+> **The Agentic Engineering Series** — From experiment to enterprise. This is article 6 of 13.
 > *This article opens the engine — understanding Codex CLI's internals so you can tune, extend, and trust the machinery.*
-> [Previous: AI Slopageddon](/premium/07-ai-slopageddon/) | [Next: Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/) | [Series overview](#series)
+> [Previous: The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | [Next: Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | [Series overview](#series)
 
-> **Series context:** This is article 8 of 13 in *From Experiment to Factory*. Having seen the risks of ungoverned agent use, we now open **The Engine** — a deep architectural walkthrough of Codex CLI's internals. Understanding the agent loop, sandbox, and hooks system is essential for any enterprise that wants to tune, extend, and trust its factory machinery rather than treating it as a black box.
+> **Series context:** This is article 6 of 13 in *From Experiment to Factory*. Having seen the risks of ungoverned agent use, we now open **The Engine** — a deep architectural walkthrough of Codex CLI's internals. Understanding the agent loop, sandbox, and hooks system is essential for any enterprise that wants to tune, extend, and trust its factory machinery rather than treating it as a black box.
 
 # Inside the Machine: How Codex CLI Actually Works (Architecture Deep Dive)
 
@@ -681,7 +685,7 @@ If this article has given you the itch to contribute to Codex, here is the minim
 
 The crate boundaries are well-defined and the source code is documented. The preceding sections should provide sufficient architectural context to orient new contributors.
 
-The engine is understood. But understanding the machinery is only half the battle — you also need to secure it. In [Article 09: Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/), we install the guardrails — the enterprise security layers that ensure the factory operates safely under production conditions.
+The engine is understood. But understanding the machinery is only half the battle — you also need to secure it. In [Article 07: Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/), we install the guardrails — the enterprise security layers that ensure the factory operates safely under production conditions.
 
 ## Citations
 
@@ -691,16 +695,16 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 | | Article | Role |
 |---|---------|------|
-| 1 | [Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
-| 2 | [Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | The Platform |
-| 3 | [The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/) | The Blueprint |
+| 1 | [Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | The Platform |
+| 2 | [Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
+| 3 | [The Agentic Pod](/premium/03-the-agentic-pod/) | The Team Model |
 | 4 | [TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | The Quality Gate |
-| 5 | [The Agentic Pod](/premium/05-the-agentic-pod/) | The Team Model |
-| 6 | [Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | The Toolchain |
-| 7 | [AI Slopageddon](/premium/07-ai-slopageddon/) | The Risk |
-| **8** | **[Inside the Machine](/premium/08-inside-the-machine/)** | **The Engine** |
-| 9 | [Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/) | The Guardrails |
-| 10 | [Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | The Efficiency Layer |
+| 5 | [The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | The Blueprint |
+| **6** | **[Inside the Machine](/premium/06-inside-the-machine/)** | **The Engine** |
+| 7 | [Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | The Guardrails |
+| 8 | [Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | The Efficiency Layer |
+| 9 | [Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | The Toolchain |
+| 10 | [AI Slopageddon](/premium/10-ai-slopageddon/) | The Risk |
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |

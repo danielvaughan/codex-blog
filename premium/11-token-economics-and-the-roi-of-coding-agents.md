@@ -16,13 +16,17 @@ permalink: /premium/11-token-economics-and-the-roi-of-coding-agents/
 sitemap: false
 robots: noindex,nofollow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
 image: /sketchnotes/premium-articles/11-token-economics-and-the-roi-of-coding-agents.png
+pdf_url: /premium-pdfs/11-token-economics-and-the-roi-of-coding-agents.pdf
 ---
 
 ![Sketchnote diagram for: Token Economics: Measuring the Real ROI of Coding Agents](/sketchnotes/premium-articles/11-token-economics-and-the-roi-of-coding-agents.png)
 
+
+<p class="premium-pdf-download"><a href="/premium-pdfs/11-token-economics-and-the-roi-of-coding-agents.pdf"><strong>Download PDF</strong></a></p>
+
 > **The Agentic Engineering Series** — From experiment to enterprise. This is article 11 of 13.
 > *This article makes the business case — token economics, ROI measurement, and the governance that prevents budget surprises.*
-> [Previous: Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | [Next: The Scaling Playbook](/premium/12-the-scaling-playbook/) | [Series overview](#series)
+> [Previous: AI Slopageddon](/premium/10-ai-slopageddon/) | [Next: The Scaling Playbook](/premium/12-the-scaling-playbook/) | [Series overview](#series)
 
 > **Series context:** This is article 11 of 13 in *From Experiment to Factory*. The factory is built, secured, and running efficiently. This article is **The Business Case** — proving value in the language of token economics, ROI measurement, and governance frameworks. Without this, the factory remains an engineering experiment; with it, the factory earns its place on the enterprise balance sheet.
 
@@ -76,7 +80,7 @@ flowchart LR
 
 This is not an argument against AI coding tools. It is an argument against naive measurement. The METR researchers noted that by early 2026, participants likely *were* seeing genuine speed-ups as tools improved.[^9] And GitHub's own controlled experiments show Copilot users completing an HTTP server task 55% faster.[^10] The difference is in *how* the tools are used. Developers who treat agent output as a first draft to be verified perform differently from those who accept it wholesale.
 
-The agentic engineering framework, 40% planning, 10% execution, 40% review, 10% knowledge codification, exists precisely to close this gap.[^11] The compound engineering model does not optimise for generation speed. It optimises for *delivery* speed, which includes all the verification work that naive adoption skips. (See [Article 01: Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/) for the full framework.)
+The agentic engineering framework, 40% planning, 10% execution, 40% review, 10% knowledge codification, exists precisely to close this gap.[^11] The compound engineering model does not optimise for generation speed. It optimises for *delivery* speed, which includes all the verification work that naive adoption skips. (See [Article 02: Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) for the full framework.)
 
 The implication for ROI measurement is direct: if you measure "lines generated per hour," you will conclude that agents are wildly productive. If you measure "features shipped per sprint with fewer than N defects," you will get a very different, and far more useful, answer.
 
@@ -161,7 +165,7 @@ awk -F',' '{
 }' ~/.codex/token-log.csv
 ```
 
-The [security article](/premium/09-complete-guide-to-codex-security/) covers how to implement hooks as enterprise guardrails; here we use the same hook architecture for cost telemetry.
+The [security article](/premium/07-complete-guide-to-codex-security/) covers how to implement hooks as enterprise guardrails; here we use the same hook architecture for cost telemetry.
 
 ### Layer 2: Efficiency Metrics (The Bridge)
 
@@ -278,7 +282,7 @@ The most cost-effective team architecture uses an orchestrator running a frontie
 
 At \$3.88/day versus the unoptimised \$6-13/day, model routing alone cuts costs 35-70%. For a 50-engineer organisation, that is the difference between \$11,000/month and \$27,500/month, \$198,000/year in savings from a configuration change.[^6]
 
-This maps directly onto the Agentic Engineering Pod structure (see [Article 05: The Agentic Pod](/premium/05-the-agentic-pod/)). The Context Architect runs suggest mode with a frontier model (high reasoning, low token waste). The Value Engineer runs auto-edit with the frontier model for planning, mini for implementation workers. The Quality Engineer runs untrusted sandbox mode with a frontier model for review. Each role's Codex configuration reflects their economic function as well as their engineering function.
+This maps directly onto the Agentic Engineering Pod structure (see [Article 03: The Agentic Pod](/premium/03-the-agentic-pod/)). The Context Architect runs suggest mode with a frontier model (high reasoning, low token waste). The Value Engineer runs auto-edit with the frontier model for planning, mini for implementation workers. The Quality Engineer runs untrusted sandbox mode with a frontier model for review. Each role's Codex configuration reflects their economic function as well as their engineering function.
 
 ## Context Economics: The Hidden Cost Multiplier
 
@@ -303,7 +307,7 @@ graph TD
 
 When a session hits the context limit, the system compacts, summarising the conversation to free space. This destroys the KV cache, forcing all tokens to be reprocessed at full price. A single compaction event on a 125K-token context costs approximately \$0.40 in cache invalidation penalty, equivalent to 21 cached follow-up turns.[^15]
 
-Teams that manage context proactively, using subagent delegation, early manual compaction at 60% capacity, and `.codexignore` files to exclude irrelevant code, can reduce per-session costs 40-60%.[^15] (See [Article 10: Context Is All You Need](/premium/10-context-compaction-and-memory/) for the complete context management framework.)
+Teams that manage context proactively, using subagent delegation, early manual compaction at 60% capacity, and `.codexignore` files to exclude irrelevant code, can reduce per-session costs 40-60%.[^15] (See [Article 08: Context Is All You Need](/premium/08-context-compaction-and-memory/) for the complete context management framework.)
 
 ### Practical Cost Reduction Tactics
 
@@ -534,7 +538,7 @@ codex --profile cloud "Refactor the payment service to support multi-currency"
 codex --profile review "Review the authentication middleware for vulnerabilities"
 ```
 
-For teams running the Agentic Pod model (see [Article 05](/premium/05-the-agentic-pod/)), the natural split is: the **Value Engineer** runs implementation workers on local models for routine coding, reserving cloud API budget for the **Context Architect's** planning sessions and the **Quality Engineer's** security reviews where frontier model capability matters most.
+For teams running the Agentic Pod model (see [Article 03](/premium/03-the-agentic-pod/)), the natural split is: the **Value Engineer** runs implementation workers on local models for routine coding, reserving cloud API budget for the **Context Architect's** planning sessions and the **Quality Engineer's** security reviews where frontier model capability matters most.
 
 The local model safety net does not eliminate cloud dependency. It **reduces it to the tasks where cloud models genuinely earn their cost**, and ensures that when the next pricing change arrives, your team has a floor of capability that no provider can reprice.
 
@@ -557,7 +561,7 @@ Consider a concrete counterexample. A professional solo developer running three 
 
 Total: \$300 per month. And here is the critical detail, this developer rarely hits even 60% of their 5-day rolling quota on either tool.
 
-How is that possible? Because they have built what the compound engineering model prescribes (see [Article 01](/premium/01-agentic-engineering-is-not-vibe-coding/)): a disciplined pipeline with deterministic and inferred quality checks at every stage. The 40/10/40 split, 40% planning, 10% execution, 40% review, means that the expensive part (frontier model execution) is only 10% of the workflow. Planning is token-cheap: it is structured prompts, architecture documents, and context assembly. Review can be largely automated through linting, type checking, test suites, and secondary model validation. The execution phase, where frontier models earn their cost, is a narrow, well-scoped slice of the total effort.
+How is that possible? Because they have built what the compound engineering model prescribes (see [Article 02](/premium/02-agentic-engineering-is-not-vibe-coding/)): a disciplined pipeline with deterministic and inferred quality checks at every stage. The 40/10/40 split, 40% planning, 10% execution, 40% review, means that the expensive part (frontier model execution) is only 10% of the workflow. Planning is token-cheap: it is structured prompts, architecture documents, and context assembly. Review can be largely automated through linting, type checking, test suites, and secondary model validation. The execution phase, where frontier models earn their cost, is a narrow, well-scoped slice of the total effort.
 
 The developer who understands this does not need \$1,000 per month. They need \$200-300 and a well-engineered pipeline.
 
@@ -567,7 +571,7 @@ When a developer consistently spends \$1,000 or more per month on AI coding tool
 
 **No model routing.** They are using frontier models for everything: documentation, simple refactoring, boilerplate generation, exploration. As the model routing section above demonstrated, defaulting to Sonnet or Opus for tasks that Haiku or a local model handles equally well inflates costs 4-10x with no quality improvement.
 
-**No context management.** Sessions are bloating unchecked. There is no `.codexignore` filtering irrelevant files from context. There is no early compaction discipline (see [Article 10](/premium/10-context-compaction-and-memory/)). Conversation history accumulates exponentially, and every follow-up message pays the tax on the entire session. A developer spending $1,000/month is likely re-sending hundreds of thousands of tokens per session that contribute nothing to output quality.
+**No context management.** Sessions are bloating unchecked. There is no `.codexignore` filtering irrelevant files from context. There is no early compaction discipline (see [Article 08](/premium/08-context-compaction-and-memory/)). Conversation history accumulates exponentially, and every follow-up message pays the tax on the entire session. A developer spending $1,000/month is likely re-sending hundreds of thousands of tokens per session that contribute nothing to output quality.
 
 **No local inference layer.** Routine edits, documentation passes, simple code generation, and exploratory research are all hitting cloud APIs at full price. As the previous section showed, a MacBook Pro M5 Pro running Qwen3.6-35B-A3B or Gemma 4 handles these tasks at zero marginal cost — and with Qwen3.6 scoring 73.4 on SWE-bench Verified, the range of tasks that qualify as "local-viable" has expanded dramatically. Not having a local layer is like paying for a taxi for every trip including the ones across the street.
 
@@ -588,7 +592,7 @@ Here is what a professional-grade monthly budget actually looks like when workfl
 | OpenRouter overflow | \$0-50 | API flexibility when needed |
 | **Total** | **\$200-250** | **Full professional coverage** |
 
-Compare this to the naive approach that produces the \$1,000+ spend: a single tool at Max 20x (\$200/month) plus uncontrolled API overflow (\$800+) when the subscription quota runs out. The naive approach costs 4-5x more *and delivers worse outcomes*, because there is no cross-model review catching tool-specific blind spots (see [Article 06](/premium/06-three-terminals-three-fates/)), no local layer providing instant feedback loops, and no routing logic matching task complexity to model capability.
+Compare this to the naive approach that produces the \$1,000+ spend: a single tool at Max 20x (\$200/month) plus uncontrolled API overflow (\$800+) when the subscription quota runs out. The naive approach costs 4-5x more *and delivers worse outcomes*, because there is no cross-model review catching tool-specific blind spots (see [Article 09](/premium/09-three-terminals-three-fates/)), no local layer providing instant feedback loops, and no routing logic matching task complexity to model capability.
 
 The \$200-250 stack is not a compromise. It is what disciplined engineering looks like when applied to AI tool economics.
 
@@ -631,7 +635,7 @@ When you walk into a budget meeting to justify agent spend, here is the argument
 3. **Vendor lock-in**: What happens when token prices change?
    - *Mitigation*: Multi-tool strategy (Codex CLI + Claude Code), open-source alternatives (Gemini CLI)
 4. **Security and compliance**: AI-generated code in regulated environments
-   - *Mitigation*: Enterprise guardrails architecture (see [Article 09: Security](/premium/09-complete-guide-to-codex-security/))
+   - *Mitigation*: Enterprise guardrails architecture (see [Article 07: Security](/premium/07-complete-guide-to-codex-security/))
 
 ### The ROI Calculation
 
@@ -718,7 +722,7 @@ The gateway provides three capabilities that individual subscriptions cannot:
 
 2. **Provider-agnostic routing**: When Anthropic raises Opus prices or OpenAI launches a cheaper model, the gateway switches routing without any developer changing their workflow. This is the antidote to vendor lock-in, and it is why supporting multiple tools (Codex CLI, Claude Code, Gemini CLI) through a common gateway matters more than choosing one winner.
 
-3. **Policy enforcement at the infrastructure layer**: Token limits, model access tiers, and security controls are enforced by the gateway, not by individual developer discipline. This is the same principle behind the enterprise guardrails architecture in [Article 09](/premium/09-complete-guide-to-codex-security/): structural enforcement beats aspirational guidelines.
+3. **Policy enforcement at the infrastructure layer**: Token limits, model access tiers, and security controls are enforced by the gateway, not by individual developer discipline. This is the same principle behind the enterprise guardrails architecture in [Article 07](/premium/07-complete-guide-to-codex-security/): structural enforcement beats aspirational guidelines.
 
 ```mermaid
 flowchart TD
@@ -799,16 +803,16 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 | | Article | Role |
 |---|---------|------|
-| 1 | [Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
-| 2 | [Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | The Platform |
-| 3 | [The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/) | The Blueprint |
+| 1 | [Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | The Platform |
+| 2 | [Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
+| 3 | [The Agentic Pod](/premium/03-the-agentic-pod/) | The Team Model |
 | 4 | [TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | The Quality Gate |
-| 5 | [The Agentic Pod](/premium/05-the-agentic-pod/) | The Team Model |
-| 6 | [Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | The Toolchain |
-| 7 | [AI Slopageddon](/premium/07-ai-slopageddon/) | The Risk |
-| 8 | [Inside the Machine](/premium/08-inside-the-machine/) | The Engine |
-| 9 | [Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/) | The Guardrails |
-| 10 | [Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | The Efficiency Layer |
+| 5 | [The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | The Blueprint |
+| 6 | [Inside the Machine](/premium/06-inside-the-machine/) | The Engine |
+| 7 | [Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | The Guardrails |
+| 8 | [Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | The Efficiency Layer |
+| 9 | [Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | The Toolchain |
+| 10 | [AI Slopageddon](/premium/10-ai-slopageddon/) | The Risk |
 | **11** | **[Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/)** | **The Business Case** |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
@@ -837,7 +841,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 [^12]: Token efficiency comparisons from independent benchmarks cited in Builder.io, "Codex vs Claude Code: which is the better AI coding agent?" <https://www.builder.io/blog/codex-vs-claude-code>; Particula Tech, "Codex vs Claude Code: Which CLI Agent Wins." <https://particula.tech/blog/codex-vs-claude-code-cli-agent-comparison>
 
-[^13]: Palmer, A., "Amazon AI outage costs estimated 6.3 million lost orders," CNBC, March 2026. Cross-referenced in [Article 01: Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/).
+[^13]: Palmer, A., "Amazon AI outage costs estimated 6.3 million lost orders," CNBC, March 2026. Cross-referenced in [Article 02: Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/).
 
 [^14]: Szathmary, O., comment on the Uber CTO discussion, LinkedIn, April 2026. The \$1,000/day fully loaded developer cost is a standard industry benchmark (salary + benefits + overhead + tooling).
 

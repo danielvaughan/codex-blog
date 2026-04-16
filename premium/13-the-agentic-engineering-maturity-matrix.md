@@ -14,9 +14,13 @@ permalink: /premium/13-the-agentic-engineering-maturity-matrix/
 sitemap: false
 robots: noindex,nofollow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
 image: /sketchnotes/premium-articles/13-the-agentic-engineering-maturity-matrix.png
+pdf_url: /premium-pdfs/13-the-agentic-engineering-maturity-matrix.pdf
 ---
 
 ![Sketchnote diagram for: The Agentic Engineering Maturity Matrix: Assessing Your Organisation's AI Readiness](/sketchnotes/premium-articles/13-the-agentic-engineering-maturity-matrix.png)
+
+
+<p class="premium-pdf-download"><a href="/premium-pdfs/13-the-agentic-engineering-maturity-matrix.pdf"><strong>Download PDF</strong></a></p>
 
 # The Agentic Engineering Maturity Matrix: Assessing Your Organisation's AI Readiness
 
@@ -116,7 +120,7 @@ The dimensions below come from the whole series. Each one maps to an article tha
 | **3 — Managed** | Engineering discipline | The organisation recognises that code generation is cheap and verification, design and context are the bottleneck |
 | **4 — Optimising** | Continuous learning | Knowledge codification is standard, lessons feed back into the system and skill matrices are maintained |
 
-*Key series reference*: [Article 01 — The Thesis](/premium/01-agentic-engineering-is-not-vibe-coding/)
+*Key series reference*: [Article 02 — The Thesis](/premium/02-agentic-engineering-is-not-vibe-coding/)
 
 ### 2. Team structure
 
@@ -130,7 +134,7 @@ The dimensions below come from the whole series. Each one maps to an article tha
 | **3 — Managed** | Multiple pods | Parallel pods share a platform layer, Context Architects share knowledge across pods and there are no passive coordinators |
 | **4 — Optimising** | Pod ecosystem | Pods self-organise around work, a platform team maintains shared infrastructure and scale comes from launching pods rather than growing them |
 
-*Key series references*: [Article 05 — The Team](/premium/05-the-agentic-pod/), [Article 12 — The Adoption](/premium/12-the-scaling-playbook/)
+*Key series references*: [Article 03 — The Team](/premium/03-the-agentic-pod/), [Article 12 — The Adoption](/premium/12-the-scaling-playbook/)
 
 ### 3. Agent instructions
 
@@ -144,7 +148,7 @@ The dimensions below come from the whole series. Each one maps to an article tha
 | **3 — Managed** | Template library | Teams share `AGENTS.md` templates, organisational golden paths and an ETH Zurich-aligned structure |
 | **4 — Optimising** | Living documents | `AGENTS.md` files are updated through the knowledge codification cycle and agent behaviour improves from project to project |
 
-*Key series reference*: [Article 03 — The Blueprint](/premium/03-the-agents-md-playbook/)
+*Key series reference*: [Article 05 — The Blueprint](/premium/05-the-agents-md-playbook/)
 
 ### 4. Quality and testing
 
@@ -158,7 +162,7 @@ The dimensions below come from the whole series. Each one maps to an article tha
 | **3 — Managed** | Quality gates | Pre-commit hooks enforce passing tests, parallel review agents cover security, performance and correctness and the Quality Engineer can veto structurally weak output |
 | **4 — Optimising** | Continuous verification | Edge-case generation, mutation testing and escape-rate tracking are standard and trend data improves quarter by quarter |
 
-*Key series references*: [Article 04 — The Quality Gate](/premium/04-tdad-and-the-testing-revolution/), [Article 07 — The Warning](/premium/07-ai-slopageddon/)
+*Key series references*: [Article 04 — The Quality Gate](/premium/04-tdad-and-the-testing-revolution/), [Article 10 — The Warning](/premium/10-ai-slopageddon/)
 
 ### 5. Security and guardrails
 
@@ -172,7 +176,7 @@ The dimensions below come from the whole series. Each one maps to an article tha
 | **3 — Managed** | Enterprise guardrails | MDM-deployed configs, network controls, pre-commit security scanning, audit logs and compliance documentation are present |
 | **4 — Optimising** | Continuous protection | Vulnerability scanning, real-time detection, policy-as-code and regular red-team exercises cover agent workflows |
 
-*Key series reference*: [Article 09 — The Guardrails](/premium/09-complete-guide-to-codex-security/)
+*Key series reference*: [Article 07 — The Guardrails](/premium/07-complete-guide-to-codex-security/)
 
 ### 6. Toolchain and platform
 
@@ -186,7 +190,7 @@ The dimensions below come from the whole series. Each one maps to an article tha
 | **3 — Managed** | Multi-tool strategy | A primary CLI agent, local models and IDE integration coexist, model routing is configured and no single vendor is a hard dependency |
 | **4 — Optimising** | AI gateway | A central gateway routes agent traffic, supports provider switching, exposes telemetry and enforces policy at infrastructure level |
 
-*Key series references*: [Article 06 — The Toolchain](/premium/06-three-terminals-three-fates/), [Article 08 — The Engine](/premium/08-inside-the-machine/), [Article 11 — The Business Case](/premium/11-token-economics-and-the-roi-of-coding-agents/)
+*Key series references*: [Article 09 — The Toolchain](/premium/09-three-terminals-three-fates/), [Article 06 — The Engine](/premium/06-inside-the-machine/), [Article 11 — The Business Case](/premium/11-token-economics-and-the-roi-of-coding-agents/)
 
 ### 7. Cost governance
 
@@ -214,7 +218,7 @@ The dimensions below come from the whole series. Each one maps to an article tha
 | **3 — Managed** | Organisational memory | Codebase memory systems, knowledge graphs, cross-session persistence and documented context architecture are in place |
 | **4 — Optimising** | Compounding knowledge | Every cycle codifies lessons, memory systems measurably improve outcomes and context cost is treated as part of token economics |
 
-*Key series reference*: [Article 10 — The Operations](/premium/10-context-compaction-and-memory/)
+*Key series reference*: [Article 08 — The Operations](/premium/08-context-compaction-and-memory/)
 
 ### 9. Delivery and process
 
@@ -228,7 +232,7 @@ The dimensions below come from the whole series. Each one maps to an article tha
 | **3 — Managed** | Automated gates | CI/CD enforces AI-specific checks, pre-merge hooks are active, review agents run in parallel and cadence improves without sacrificing quality |
 | **4 — Optimising** | Continuous delivery | Lead time, defect escape rate and delivery capacity are tracked and used to refine the process continuously |
 
-*Key series references*: [Article 01 — The Thesis](/premium/01-agentic-engineering-is-not-vibe-coding/), [Article 02 — The Platform](/premium/02-codex-cli-at-one-year/)
+*Key series references*: [Article 02 — The Thesis](/premium/02-agentic-engineering-is-not-vibe-coding/), [Article 01 — The Platform](/premium/01-codex-cli-at-one-year/)
 
 ### 10. Measurement and learning
 
@@ -374,18 +378,18 @@ Maintain a simple working document like this:
 ```md
 # Agentic Engineering Maturity Assessment — Q2 2026
 
-| Dimension | Q1 Score | Q2 Score | Target (EOY) | Trend | Bottleneck? |
-|-----------|----------|----------|---------------|-------|-------------|
-| Culture | 2 | 2 | 3 | → | |
-| Team Structure | 1 | 2 | 3 | ↑ | |
-| Agent Instructions | 1 | 2 | 3 | ↑ | |
-| Quality & Testing | 1 | 1 | 3 | → | ⚠️ |
-| Security | 2 | 2 | 3 | → | |
-| Toolchain | 2 | 2 | 3 | → | |
-| Cost Governance | 0 | 1 | 3 | ↑ | ⚠️ |
-| Context Management | 0 | 1 | 2 | ↑ | |
-| Delivery | 2 | 2 | 3 | → | |
-| Measurement | 0 | 1 | 3 | ↑ | ⚠️ |
+| Dimension          | Q1 Score | Q2 Score | Target (EOY) | Trend | Bottleneck? |
+|--------------------|----------|----------|--------------|-------|-------------|
+| Culture            | 2        | 2        | 3            | →     |             |
+| Team Structure     | 1        | 2        | 3            | ↑     |             |
+| Agent Instructions | 1        | 2        | 3            | ↑     |             |
+| Quality & Testing  | 1        | 1        | 3            | →     | ⚠           |
+| Security           | 2        | 2        | 3            | →     |             |
+| Toolchain          | 2        | 2        | 3            | →     |             |
+| Cost Governance    | 0        | 1        | 3            | ↑     | ⚠           |
+| Context Management | 0        | 1        | 2            | ↑     |             |
+| Delivery           | 2        | 2        | 3            | →     |             |
+| Measurement        | 0        | 1        | 3            | ↑     | ⚠           |
 
 **Primary constraint**: Quality & Testing (Level 1)
 **Secondary constraints**: Cost Governance (Level 1), Measurement (Level 1)
@@ -444,16 +448,16 @@ From experiment to enterprise, building the factory for AI-assisted software eng
 
 | | Article | Role |
 |---|---------|------|
-| 1 | [Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
-| 2 | [Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | The Platform |
-| 3 | [The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/) | The Blueprint |
+| 1 | [Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | The Platform |
+| 2 | [Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
+| 3 | [The Agentic Pod](/premium/03-the-agentic-pod/) | The Team Model |
 | 4 | [TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | The Quality Gate |
-| 5 | [The Agentic Pod](/premium/05-the-agentic-pod/) | The Team Model |
-| 6 | [Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | The Toolchain |
-| 7 | [AI Slopageddon](/premium/07-ai-slopageddon/) | The Risk |
-| 8 | [Inside the Machine](/premium/08-inside-the-machine/) | The Engine |
-| 9 | [Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/) | The Guardrails |
-| 10 | [Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | The Efficiency Layer |
+| 5 | [The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | The Blueprint |
+| 6 | [Inside the Machine](/premium/06-inside-the-machine/) | The Engine |
+| 7 | [Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | The Guardrails |
+| 8 | [Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | The Efficiency Layer |
+| 9 | [Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | The Toolchain |
+| 10 | [AI Slopageddon](/premium/10-ai-slopageddon/) | The Risk |
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | **13** | **[The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/)** | **The Assessment** |
@@ -464,6 +468,6 @@ From experiment to enterprise, building the factory for AI-assisted software eng
 
 [^3]: METR, "Measuring the Impact of AI Tools on Developer Productivity", randomised controlled trial, February to June 2025. Developers predicted a 24 per cent speed-up, experienced a 19 per cent slowdown and still reported feeling 20 per cent faster. A 39-percentage-point perception gap. Cross-referenced in [Article 11](/premium/11-token-economics-and-the-roi-of-coding-agents/). <https://metr.org/blog/2026-02-24-uplift-update/>
 
-[^4]: Palmer, A., "Amazon AI outage costs estimated 6.3 million lost orders", CNBC, March 2026. AI-assisted code reached production without senior review. Cross-referenced in [Article 01](/premium/01-agentic-engineering-is-not-vibe-coding/).
+[^4]: Palmer, A., "Amazon AI outage costs estimated 6.3 million lost orders", CNBC, March 2026. AI-assisted code reached production without senior review. Cross-referenced in [Article 02](/premium/02-agentic-engineering-is-not-vibe-coding/).
 
 [^5]: Bratton, L., "Uber CTO Shows How Claude Code Can Blow Up AI Budgets", *The Information*, April 2026. Uber exhausted its annual AI budget by April. Cross-referenced in [Article 11](/premium/11-token-economics-and-the-roi-of-coding-agents/). <https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets>

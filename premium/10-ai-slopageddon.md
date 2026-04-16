@@ -10,19 +10,23 @@ tags:
   - code-review
   - team-workflow
   - agentic-engineering
-permalink: /premium/07-ai-slopageddon/
+permalink: /premium/10-ai-slopageddon/
 sitemap: false
 robots: noindex,nofollow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
-image: /sketchnotes/premium-articles/07-ai-slopageddon.png
+image: /sketchnotes/premium-articles/10-ai-slopageddon.png
+pdf_url: /premium-pdfs/10-ai-slopageddon.pdf
 ---
 
-![Sketchnote diagram for: AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?](/sketchnotes/premium-articles/07-ai-slopageddon.png)
+![Sketchnote diagram for: AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?](/sketchnotes/premium-articles/10-ai-slopageddon.png)
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 7 of 13.
+
+<p class="premium-pdf-download"><a href="/premium-pdfs/10-ai-slopageddon.pdf"><strong>Download PDF</strong></a></p>
+
+> **The Agentic Engineering Series** — From experiment to enterprise. This is article 10 of 13.
 > *This article is the warning — what the factory is designed to prevent, and what happens when organisations skip the engineering.*
-> [Previous: Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | [Next: Inside the Machine](/premium/08-inside-the-machine/) | [Series overview](#series)
+> [Previous: Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | [Next: Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | [Series overview](#series)
 
-> **Series context:** This is article 7 of 13 in *From Experiment to Factory*. Before continuing to build the factory's infrastructure, this article is **The Risk** — a frank examination of what happens when organisations adopt agents without governance. The cognitive debt, architectural drift, and silent failures described here are precisely what the factory model is designed to prevent.
+> **Series context:** This is article 10 of 13 in *From Experiment to Factory*. Before continuing to build the factory's infrastructure, this article is **The Risk** — a frank examination of what happens when organisations adopt agents without governance. The cognitive debt, architectural drift, and silent failures described here are precisely what the factory model is designed to prevent.
 
 # AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?
 
@@ -345,7 +349,7 @@ It emerges from the decision your team makes this week about whether "tests pass
 
 Choose understanding. The codebase you save will be your own.
 
-The risk is named. Now we turn to understanding the machinery that can contain it. In [Article 08: Inside the Machine](/premium/08-inside-the-machine/), we open the engine — a deep dive into Codex CLI's internals so you can tune, extend, and trust the factory's core infrastructure.
+The risk is named. Now we turn to understanding the machinery that can contain it. In [Article 06: Inside the Machine](/premium/06-inside-the-machine/), we open the engine — a deep dive into Codex CLI's internals so you can tune, extend, and trust the factory's core infrastructure.
 
 ## Citations
 
@@ -355,16 +359,16 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 | | Article | Role |
 |---|---------|------|
-| 1 | [Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
-| 2 | [Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | The Platform |
-| 3 | [The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/) | The Blueprint |
+| 1 | [Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | The Platform |
+| 2 | [Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
+| 3 | [The Agentic Pod](/premium/03-the-agentic-pod/) | The Team Model |
 | 4 | [TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | The Quality Gate |
-| 5 | [The Agentic Pod](/premium/05-the-agentic-pod/) | The Team Model |
-| 6 | [Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | The Toolchain |
-| **7** | **[AI Slopageddon](/premium/07-ai-slopageddon/)** | **The Risk** |
-| 8 | [Inside the Machine](/premium/08-inside-the-machine/) | The Engine |
-| 9 | [Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/) | The Guardrails |
-| 10 | [Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | The Efficiency Layer |
+| 5 | [The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | The Blueprint |
+| 6 | [Inside the Machine](/premium/06-inside-the-machine/) | The Engine |
+| 7 | [Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | The Guardrails |
+| 8 | [Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | The Efficiency Layer |
+| 9 | [Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | The Toolchain |
+| **10** | **[AI Slopageddon](/premium/10-ai-slopageddon/)** | **The Risk** |
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |

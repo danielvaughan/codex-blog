@@ -13,19 +13,23 @@ tags:
   - DAST
   - codex-cli
   - premium
-permalink: /premium/09-complete-guide-to-codex-security/
+permalink: /premium/07-complete-guide-to-codex-security/
 sitemap: false
 robots: noindex,nofollow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
-image: /sketchnotes/premium-articles/09-complete-guide-to-codex-security.png
+image: /sketchnotes/premium-articles/07-complete-guide-to-codex-security.png
+pdf_url: /premium-pdfs/07-complete-guide-to-codex-security.pdf
 ---
 
-![Sketchnote diagram for: The Complete Guide to Securing Your AI Coding Agent (Before It Secures Your Job)](/sketchnotes/premium-articles/09-complete-guide-to-codex-security.png)
+![Sketchnote diagram for: The Complete Guide to Securing Your AI Coding Agent (Before It Secures Your Job)](/sketchnotes/premium-articles/07-complete-guide-to-codex-security.png)
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 9 of 13.
+
+<p class="premium-pdf-download"><a href="/premium-pdfs/07-complete-guide-to-codex-security.pdf"><strong>Download PDF</strong></a></p>
+
+> **The Agentic Engineering Series** — From experiment to enterprise. This is article 7 of 13.
 > *This article installs the guardrails — enterprise security as structural enforcement, not aspirational guidelines.*
-> [Previous: Inside the Machine](/premium/08-inside-the-machine/) | [Next: Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | [Series overview](#series)
+> [Previous: Inside the Machine](/premium/06-inside-the-machine/) | [Next: Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | [Series overview](#series)
 
-> **Series context:** This is article 9 of 13 in *From Experiment to Factory*. The engine is understood; now it must be secured. This article is **The Guardrails** — enterprise security as structural enforcement across ten layers, from OS-level sandboxing to compliance frameworks. A factory without guardrails is a liability; this article ensures yours is not.
+> **Series context:** This is article 7 of 13 in *From Experiment to Factory*. The engine is understood; now it must be secured. This article is **The Guardrails** — enterprise security as structural enforcement across ten layers, from OS-level sandboxing to compliance frameworks. A factory without guardrails is a liability; this article ensures yours is not.
 
 # The Complete Guide to Securing Your AI Coding Agent (Before It Secures Your Job)
 
@@ -824,7 +828,7 @@ The ten layers in this guide are not aspirational. They are the enterprise guard
 
 The agent is not going to secure your job. But it is not going to secure itself either. That part is still on you.
 
-The guardrails are installed. But a secured factory still needs to run efficiently at scale — and that means managing the machine's most constrained resource: context. In [Article 10: Context Compaction and Memory](/premium/10-context-compaction-and-memory/), we address the efficiency layer — how to keep the factory running without losing critical information as sessions grow.
+The guardrails are installed. But a secured factory still needs to run efficiently at scale — and that means managing the machine's most constrained resource: context. In [Article 08: Context Compaction and Memory](/premium/08-context-compaction-and-memory/), we address the efficiency layer — how to keep the factory running without losing critical information as sessions grow.
 
 ## Citations
 
@@ -834,16 +838,16 @@ From experiment to enterprise — building the factory for AI-assisted software 
 
 | | Article | Role |
 |---|---------|------|
-| 1 | [Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
-| 2 | [Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | The Platform |
-| 3 | [The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/) | The Blueprint |
+| 1 | [Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | The Platform |
+| 2 | [Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
+| 3 | [The Agentic Pod](/premium/03-the-agentic-pod/) | The Team Model |
 | 4 | [TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | The Quality Gate |
-| 5 | [The Agentic Pod](/premium/05-the-agentic-pod/) | The Team Model |
-| 6 | [Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | The Toolchain |
-| 7 | [AI Slopageddon](/premium/07-ai-slopageddon/) | The Risk |
-| 8 | [Inside the Machine](/premium/08-inside-the-machine/) | The Engine |
-| **9** | **[Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/)** | **The Guardrails** |
-| 10 | [Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | The Efficiency Layer |
+| 5 | [The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | The Blueprint |
+| 6 | [Inside the Machine](/premium/06-inside-the-machine/) | The Engine |
+| **7** | **[Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/)** | **The Guardrails** |
+| 8 | [Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | The Efficiency Layer |
+| 9 | [Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | The Toolchain |
+| 10 | [AI Slopageddon](/premium/10-ai-slopageddon/) | The Risk |
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |

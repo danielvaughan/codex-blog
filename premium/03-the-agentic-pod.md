@@ -11,19 +11,23 @@ tags:
   - codex-cli
   - agents-md
   - organisational-design
-permalink: /premium/05-the-agentic-pod/
+permalink: /premium/03-the-agentic-pod/
 sitemap: false
 robots: noindex,nofollow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
-image: /sketchnotes/premium-articles/05-the-agentic-pod.png
+image: /sketchnotes/premium-articles/03-the-agentic-pod.png
+pdf_url: /premium-pdfs/03-the-agentic-pod.pdf
 ---
 
-![Sketchnote diagram for: The Agentic Pod: Three Engineers, One Mission, Zero Coordinators](/sketchnotes/premium-articles/05-the-agentic-pod.png)
+![Sketchnote diagram for: The Agentic Pod: Three Engineers, One Mission, Zero Coordinators](/sketchnotes/premium-articles/03-the-agentic-pod.png)
 
-> **The Agentic Engineering Series:** from experiment to enterprise. This is article 5 of 13.
+
+<p class="premium-pdf-download"><a href="/premium-pdfs/03-the-agentic-pod.pdf"><strong>Download PDF</strong></a></p>
+
+> **The Agentic Engineering Series:** from experiment to enterprise. This is article 3 of 13.
 > *This article defines the team, the three-person pod that turns the framework into an operating model.*
-> [Previous: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | [Next: Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | [Series overview](#series)
+> [Previous: Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | [Next: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | [Series overview](#series)
 
-> **Series context:** This is article 5 of 13 in *From Experiment to Factory*. With the blueprint, quality gate and platform established, the factory now needs an operating model. This article is **The Team Model**, the three-person agentic pod that organises humans and agents for production, so every part of the factory has a clear owner.
+> **Series context:** This is article 3 of 13 in *From Experiment to Factory*. With the blueprint, quality gate and platform established, the factory now needs an operating model. This article is **The Team Model**, the three-person agentic pod that organises humans and agents for production, so every part of the factory has a clear owner.
 
 # The Agentic Pod: Three Engineers, One Mission, Zero Coordinators
 
@@ -868,7 +872,7 @@ If this model fits your organisation, the path in is straightforward:
 
 The agents are ready. The open question is whether the three humans around them own their layers clearly enough for the system to hold[^1].
 
-The team model is defined. In practice, though, your pod will still need to choose the right tools and bridge them cleanly. In [Article 06: Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/), we look at that toolchain choice by comparing Codex CLI, Claude Code and Gemini CLI on the factory floor.
+The team model is defined. In practice, though, your pod will still need to choose the right tools and bridge them cleanly. In [Article 09: Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/), we look at that toolchain choice by comparing Codex CLI, Claude Code and Gemini CLI on the factory floor.
 
 ## Citations
 
@@ -878,16 +882,16 @@ From experiment to enterprise, building the factory for AI-assisted software eng
 
 | | Article | Role |
 |---|---------|------|
-| 1 | [Agentic Engineering Is Not Vibe Coding](/premium/01-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
-| 2 | [Codex CLI at One Year](/premium/02-codex-cli-at-one-year/) | The Platform |
-| 3 | [The AGENTS.md Playbook](/premium/03-the-agents-md-playbook/) | The Blueprint |
+| 1 | [Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | The Platform |
+| 2 | [Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | The Wake-Up Call |
+| **3** | **[The Agentic Pod](/premium/03-the-agentic-pod/)** | **The Team Model** |
 | 4 | [TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | The Quality Gate |
-| **5** | **[The Agentic Pod](/premium/05-the-agentic-pod/)** | **The Team Model** |
-| 6 | [Three Terminals, Three Fates](/premium/06-three-terminals-three-fates/) | The Toolchain |
-| 7 | [AI Slopageddon](/premium/07-ai-slopageddon/) | The Risk |
-| 8 | [Inside the Machine](/premium/08-inside-the-machine/) | The Engine |
-| 9 | [Complete Guide to Codex Security](/premium/09-complete-guide-to-codex-security/) | The Guardrails |
-| 10 | [Context Compaction and Memory](/premium/10-context-compaction-and-memory/) | The Efficiency Layer |
+| 5 | [The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | The Blueprint |
+| 6 | [Inside the Machine](/premium/06-inside-the-machine/) | The Engine |
+| 7 | [Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | The Guardrails |
+| 8 | [Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | The Efficiency Layer |
+| 9 | [Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | The Toolchain |
+| 10 | [AI Slopageddon](/premium/10-ai-slopageddon/) | The Risk |
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
