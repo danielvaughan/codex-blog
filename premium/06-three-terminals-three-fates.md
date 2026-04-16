@@ -549,7 +549,7 @@ If you have read this far hoping for a definitive winner, this section may disap
 
 **If you can afford two tools ($40/month):** Add Claude Code Pro. Use Claude for reasoning and planning, Codex for execution, Gemini for exploration. This is the sweet spot for most developers.
 
-**If money is not the constraint ($200/month):** Split across all three with API overflow budget. You will never hit a rate limit, you will always have the right tool for the task, and your project configuration (AGENTS.md, MCP servers, skills) stays portable across all of them.
+**If money is not the constraint ($200/month):** Split across all three with API overflow budget. Rate limits become rare, you are far more likely to have the right tool for any given task, and your project configuration (AGENTS.md, MCP servers, skills) stays portable across all of them.
 
 **If you are an enterprise team:** Start with Codex CLI or Gemini CLI for their open-source auditability (both Apache 2.0) and kernel-level sandboxing. Add Claude Code for complex reasoning tasks. Use Gemini CLI's free tier as the universal exploration layer. Invest in the shared configuration layer — AGENTS.md, MCP servers, portable skills — because that investment survives any tool migration.
 

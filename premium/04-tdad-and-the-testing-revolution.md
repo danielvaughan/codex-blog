@@ -520,7 +520,7 @@ TDAD is not a silver bullet, and honesty about the gaps is important:
 
 **Requires existing tests.** TDAD assumes tests exist. For codebases with poor test coverage, the dependency graph will be sparse and the impact analysis less useful. If this is your situation, consider pairing TDAD with a test generation skill -- frameworks like Playwright for E2E testing or Hypothesis for property-based testing can fill coverage gaps that make TDAD's map more complete [^14].
 
-**Consumer-hardware evaluation.** The paper's results come from open-weight models (Qwen3-Coder 30B, Qwen3.5-35B-A3B) running on consumer hardware, not frontier models like GPT-5.4 [^15]. Frontier models likely have lower baseline regression rates, but the *proportional* benefit of structural test context should hold.
+**Consumer-hardware evaluation.** The paper's results come from open-weight models (Qwen3-Coder 30B, Qwen3.5-35B-A3B) running on consumer hardware, not frontier models like GPT-5.4 [^15]. Frontier models likely have lower baseline regression rates, but the *proportional* benefit of structural test context should hold. (Note: since the TDAD paper's publication, Qwen's April 2026 release of Qwen3.6-35B-A3B -- still only 3B active parameters via MoE -- scores 73.4 on SWE-bench Verified and 51.5 on Terminal-Bench 2.0, closing much of the gap with frontier models like Claude Sonnet (~80+ on SWE-bench), which suggests TDAD's structural approach will only become *more* effective as local models improve.)
 
 ## The Metric You Are Not Measuring
 
