@@ -22,11 +22,11 @@ pdf_url: /premium-pdfs/10-ai-slopageddon.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/10-ai-slopageddon.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 10 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 10 of 14.
 > *This article is the warning — what the factory is designed to prevent, and what happens when organisations skip the engineering.*
 > [Previous: Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | [Next: Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | [Series overview](#series)
 
-> **Series context:** This is article 10 of 13 in *From Experiment to Factory*. Before continuing to build the factory's infrastructure, this article is **The Risk** — a frank examination of what happens when organisations adopt agents without governance. The cognitive debt, architectural drift, and silent failures described here are precisely what the factory model is designed to prevent.
+> **Series context:** This is article 10 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. Before continuing to build the factory's infrastructure, this article is **The Risk** — a frank examination of what happens when organisations adopt agents without governance. The cognitive debt, architectural drift, and silent failures described here are precisely what the factory model is designed to prevent.
 
 # AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?
 
@@ -353,9 +353,9 @@ The risk is named. Now we turn to understanding the machinery that can contain i
 
 ## Citations
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -372,6 +372,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Stenberg, D. (2026). "AI-generated bug reports and the curl bug bounty shutdown." curl blog and FOSDEM 2026 presentation. Also covered in InfoQ: "AI Vibe Coding Threatens Open Source." https://www.infoq.com/news/2026/02/ai-floods-close-projects/
 

@@ -25,11 +25,11 @@ pdf_url: /premium-pdfs/07-complete-guide-to-codex-security.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/07-complete-guide-to-codex-security.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 7 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 7 of 14.
 > *This article installs the guardrails — enterprise security as structural enforcement, not aspirational guidelines.*
 > [Previous: Inside the Machine](/premium/06-inside-the-machine/) | [Next: Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | [Series overview](#series)
 
-> **Series context:** This is article 7 of 13 in *From Experiment to Factory*. The engine is understood; now it must be secured. This article is **The Guardrails** — enterprise security as structural enforcement across ten layers, from OS-level sandboxing to compliance frameworks. A factory without guardrails is a liability; this article ensures yours is not.
+> **Series context:** This is article 7 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. The engine is understood; now it must be secured. This article is **The Guardrails** — enterprise security as structural enforcement across ten layers, from OS-level sandboxing to compliance frameworks. A factory without guardrails is a liability; this article ensures yours is not.
 
 # The Complete Guide to Securing Your AI Coding Agent (Before It Secures Your Job)
 
@@ -832,9 +832,9 @@ The guardrails are installed. But a secured factory still needs to run efficient
 
 ## Citations
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -851,6 +851,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Socket.dev, "Axios Supply Chain Attack Reaches OpenAI macOS Signing Pipeline," April 2026. Microsoft Security Blog, "Mitigating the Axios npm supply chain compromise," April 1, 2026. <https://socket.dev/blog/axios-supply-chain-attack-reaches-openai-macos-signing-pipeline-forces-certificate-rotation>
 

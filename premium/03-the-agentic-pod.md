@@ -23,11 +23,11 @@ pdf_url: /premium-pdfs/03-the-agentic-pod.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/03-the-agentic-pod.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series:** from experiment to enterprise. This is article 3 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 3 of 14.
 > *This article defines the team, the three-person pod that turns the framework into an operating model.*
 > [Previous: Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | [Next: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | [Series overview](#series)
 
-> **Series context:** This is article 3 of 13 in *From Experiment to Factory*. With the blueprint, quality gate and platform established, the factory now needs an operating model. This article is **The Team Model**, the three-person agentic pod that organises humans and agents for production, so every part of the factory has a clear owner.
+> **Series context:** This is article 3 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. With the blueprint, quality gate and platform established, the factory now needs an operating model. This article is **The Team Model**, the three-person agentic pod that organises humans and agents for production, so every part of the factory has a clear owner.
 
 # The Agentic Pod: Three Engineers, One Mission, Zero Coordinators
 
@@ -878,9 +878,9 @@ The team model is defined. In practice, though, your pod will still need to choo
 
 ## Citations
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise, building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -897,6 +897,7 @@ From experiment to enterprise, building the factory for AI-assisted software eng
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Chapter 32, 'The Agentic Engineering Pod,' in *Codex CLI: The Complete Guide* (Daniel, 2026). The chapter defines the three-role pod model, the TOML configurations, the feature lifecycle walkthrough, the operating principles and the failure modes described in this article.
 

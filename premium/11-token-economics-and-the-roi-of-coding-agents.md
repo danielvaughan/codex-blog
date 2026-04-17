@@ -24,11 +24,11 @@ pdf_url: /premium-pdfs/11-token-economics-and-the-roi-of-coding-agents.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/11-token-economics-and-the-roi-of-coding-agents.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 11 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 11 of 14.
 > *This article makes the business case — token economics, ROI measurement, and the governance that prevents budget surprises.*
 > [Previous: AI Slopageddon](/premium/10-ai-slopageddon/) | [Next: The Scaling Playbook](/premium/12-the-scaling-playbook/) | [Series overview](#series)
 
-> **Series context:** This is article 11 of 13 in *From Experiment to Factory*. The factory is built, secured, and running efficiently. This article is **The Business Case** — proving value in the language of token economics, ROI measurement, and governance frameworks. Without this, the factory remains an engineering experiment; with it, the factory earns its place on the enterprise balance sheet.
+> **Series context:** This is article 11 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. The factory is built, secured, and running efficiently. This article is **The Business Case** — proving value in the language of token economics, ROI measurement, and governance frameworks. Without this, the factory remains an engineering experiment; with it, the factory earns its place on the enterprise balance sheet.
 
 # Token Economics: Measuring the Real ROI of Coding Agents
 
@@ -811,9 +811,9 @@ The enterprise that treats token economics as a first-class engineering concern,
 
 The business case is made. Now comes the question every enterprise faces: how do you take a proven pilot and scale it across the organisation? In [Article 12: The Scaling Playbook](/premium/12-the-scaling-playbook/), we assemble all the components from this series into a phased enterprise rollout — from first pod to factory at scale.
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -830,6 +830,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | **11** | **[Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/)** | **The Business Case** |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Bratton, L., "Uber CTO Shows How Claude Code Can Blow Up AI Budgets," The Information, April 2026. <https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets>
 

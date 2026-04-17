@@ -24,11 +24,11 @@ pdf_url: /premium-pdfs/13-the-agentic-engineering-maturity-matrix.pdf
 
 # The Agentic Engineering Maturity Matrix: Assessing Your Organisation's AI Readiness
 
-> **The Agentic Engineering Series**. From experiment to enterprise. This is article 13 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 13 of 14.
 > *This article gives you the assessment frame: a maturity matrix that shows where your organisation stands now and what has to improve next.*
-> [Previous: The Scaling Playbook](/premium/12-the-scaling-playbook/) | [Series overview](#series)
+> [Previous: The Scaling Playbook](/premium/12-the-scaling-playbook/) | [Next: Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | [Series overview](#series)
 
-> **Series context:** This is article 13 of 13 in *From Experiment to Factory*. The series has covered the thesis, platform, blueprint, quality gate, team model, toolchain, risk, engine, guardrails, efficiency, business case and rollout. This final piece is the assessment layer: how to score what is actually in place, find the bottleneck and choose the next move.
+> **Series context:** This is article 13 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. The series has covered the thesis, platform, blueprint, quality gate, team model, toolchain, risk, engine, guardrails, efficiency, business case and rollout. This final piece is the assessment layer: how to score what is actually in place, find the bottleneck and choose the next move.
 
 Container Solutions changed cloud consulting with a single grid: the Cloud Native Maturity Matrix.[^1] It gave clients a shared way to answer two practical questions. Where are we now? What has to improve next?
 
@@ -440,11 +440,11 @@ It also forces honesty. If `AGENTS.md` exists but nobody keeps it current, you a
 
 That is why the constraint matters more than the average. A flat Level 2 profile is healthier than a flashy profile that mixes Level 4 ambition with Level 1 discipline. The weak point always sets the pace.
 
-This closes *From Experiment to Factory*. The series has argued that agentic engineering is not a tool rollout but an organisational system. This final article turns that claim into an assessment instrument. Use it to find the weakest dimension. Use the linked article to improve it. Run the review again next quarter. The factory is not finished when the matrix appears balanced. It is finished only when the organisation stops learning, and that is the point at which it starts to decay.
+This closes *From Experiment to Enterprise: The Agentic Engineering Playbook*. The series has argued that agentic engineering is not a tool rollout but an organisational system. This final article turns that claim into an assessment instrument. Use it to find the weakest dimension. Use the linked article to improve it. Run the review again next quarter. The factory is not finished when the matrix appears balanced. It is finished only when the organisation stops learning, and that is the point at which it starts to decay.
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise, building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -461,6 +461,7 @@ From experiment to enterprise, building the factory for AI-assisted software eng
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | **13** | **[The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/)** | **The Assessment** |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Container Solutions, "Cloud Native Maturity Matrix." Ten dimensions, Culture, Product, Delivery, Process, Team, Architecture, Reliability, Provisioning, Infrastructure and Security, across five maturity levels. <https://info.container-solutions.com/cloud-maturity-matrix>
 

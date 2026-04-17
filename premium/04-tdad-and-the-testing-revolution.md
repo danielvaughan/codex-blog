@@ -24,11 +24,11 @@ pdf_url: /premium-pdfs/04-tdad-and-the-testing-revolution.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/04-tdad-and-the-testing-revolution.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 4 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 4 of 14.
 > *This article builds the quality gate — test-driven agent development as the verification layer every factory needs.*
 > [Previous: The Agentic Pod](/premium/03-the-agentic-pod/) | [Next: The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | [Series overview](#series)
 
-> **Series context:** This is article 4 of 13 in *From Experiment to Factory*. The blueprint is in place; now the factory needs a quality gate. This article is **The Quality Gate** — how structural test-driven agent development replaces vague testing instructions with dependency maps that reduce regressions by 70%, ensuring the factory's output is trustworthy at scale.
+> **Series context:** This is article 4 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. The blueprint is in place; now the factory needs a quality gate. This article is **The Quality Gate** — how structural test-driven agent development replaces vague testing instructions with dependency maps that reduce regressions by 70%, ensuring the factory's output is trustworthy at scale.
 
 # Your AI Agent Is Breaking Things You Already Fixed: The Testing Revolution Nobody's Talking About
 
@@ -573,9 +573,9 @@ The quality gate is installed. But a factory needs more than tooling and testing
 
 ## Citations
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -592,6 +592,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Alonso, P., Yovine, S., Braberman, V. A. (2026). "TDAD: Test-Driven Agentic Development — Reducing Code Regressions in AI Coding Agents via Graph-Based Impact Analysis." arXiv:2603.17973v2. [https://arxiv.org/abs/2603.17973v2](https://arxiv.org/abs/2603.17973v2). GitHub: [https://github.com/pepealonso95/TDAD](https://github.com/pepealonso95/TDAD)
 

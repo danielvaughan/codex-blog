@@ -25,11 +25,11 @@ pdf_url: /premium-pdfs/12-the-scaling-playbook.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/12-the-scaling-playbook.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 12 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 12 of 14.
 > *This article is the capstone — how to assemble all the components into a phased enterprise adoption journey, from first pilot to factory at scale.*
 > [Previous: Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | [Next: The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | [Series overview](#series)
 
-> **Series context:** This is article 12 of 13 in *From Experiment to Factory*. Every preceding article addressed a component — the thesis, the platform, the blueprint, the quality gate, the team, the toolchain, the risks, the engine, the guardrails, the efficiency layer, and the business case. This article is **The Rollout** — how to assemble those components into a phased enterprise adoption journey that takes you from first experiment to factory at scale.
+> **Series context:** This is article 12 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. Every preceding article addressed a component — the thesis, the platform, the blueprint, the quality gate, the team, the toolchain, the risks, the engine, the guardrails, the efficiency layer, and the business case. This article is **The Rollout** — how to assemble those components into a phased enterprise adoption journey that takes you from first experiment to factory at scale.
 
 # The Scaling Playbook: From Pilot Pod to Enterprise Factory
 
@@ -715,9 +715,9 @@ This is not a transformation programme that requires executive buy-in before a s
 
 The rollout plan is complete. The final piece is knowing where you stand today — and where you need to go next. In [Article 13: The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/), we provide the assessment framework that maps your organisation's current capabilities across ten dimensions and five maturity levels, giving you a concrete starting point for the journey from experiment to factory.
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -734,6 +734,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | **12** | **[The Scaling Playbook](/premium/12-the-scaling-playbook/)** | **The Rollout** |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Bratton, L., "Uber CTO Shows How Claude Code Can Blow Up AI Budgets," The Information, April 2026. Uber gave 5,000 engineers access to Claude Code; adoption surged from 32% to 63%; annual AI budget exhausted within months. <https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets>
 

@@ -23,11 +23,11 @@ pdf_url: /premium-pdfs/05-the-agents-md-playbook.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/05-the-agents-md-playbook.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 5 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 5 of 14.
 > *This article is the blueprint — how AGENTS.md becomes the single source of truth that turns ad-hoc prompting into repeatable infrastructure.*
 > [Previous: TDAD and the Testing Revolution](/premium/04-tdad-and-the-testing-revolution/) | [Next: Inside the Machine](/premium/06-inside-the-machine/) | [Series overview](#series)
 
-> **Series context:** This is article 5 of 13 in *From Experiment to Factory*. With the wake-up call delivered and the platform assessed, this article is **The Blueprint** — how to codify agent instructions as version-controlled infrastructure so that every agent session starts from a known-good state rather than from zero.
+> **Series context:** This is article 5 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. With the wake-up call delivered and the platform assessed, this article is **The Blueprint** — how to codify agent instructions as version-controlled infrastructure so that every agent session starts from a known-good state rather than from zero.
 
 # Most AGENTS.md Files Make AI Agents Worse — Here's the Science of Getting Them Right
 
@@ -609,9 +609,9 @@ The blueprint is drawn. But a factory without quality control is just a faster w
 
 ## Citations
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -628,6 +628,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Gloaguen, R., Mündler, N., Müller, M., Raychev, V., & Vechev, M. (2026). "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?" ETH Zurich. arXiv:2602.11988. [https://arxiv.org/abs/2602.11988](https://arxiv.org/abs/2602.11988)
 

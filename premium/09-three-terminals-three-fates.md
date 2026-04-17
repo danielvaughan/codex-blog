@@ -24,11 +24,11 @@ pdf_url: /premium-pdfs/09-three-terminals-three-fates.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/09-three-terminals-three-fates.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 9 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 9 of 14.
 > *This article evaluates the toolchain — comparing Codex CLI, Claude Code, and Gemini CLI as enterprise platform choices.*
 > [Previous: Context Compaction and Memory](/premium/08-context-compaction-and-memory/) | [Next: AI Slopageddon](/premium/10-ai-slopageddon/) | [Series overview](#series)
 
-> **Series context:** This is article 9 of 13 in *From Experiment to Factory*. The factory's team model and processes are defined; now you need to choose the machinery. This article is **The Toolchain** — an evidence-based comparison of the three major terminal-native agents, helping enterprise teams select and bridge the right platforms for their factory floor.
+> **Series context:** This is article 9 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. The factory's team model and processes are defined; now you need to choose the machinery. This article is **The Toolchain** — an evidence-based comparison of the three major terminal-native agents, helping enterprise teams select and bridge the right platforms for their factory floor.
 
 # Three Terminals, Three Fates: Codex CLI vs Claude Code vs Gemini CLI — A Comparative Analysis
 
@@ -569,9 +569,9 @@ The toolchain is evaluated. But what happens when these powerful tools operate w
 
 ---
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -588,6 +588,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 ---
 

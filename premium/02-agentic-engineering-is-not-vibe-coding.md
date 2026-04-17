@@ -26,11 +26,11 @@ pdf_url: /premium-pdfs/02-agentic-engineering-is-not-vibe-coding.pdf
 
 # Agentic Engineering Is Not Vibe Coding: The Framework That Separates 10x Teams from Toy Projects
 
-> **The Agentic Engineering Series**. From experiment to enterprise. This is article 2 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 2 of 14.
 > *This article sets the thesis: why the move from vibe coding to agentic engineering is the defining shift for enterprise teams in 2026.*
 > [Previous: Codex CLI at One Year](/premium/01-codex-cli-at-one-year/) | [Next: The Agentic Pod](/premium/03-the-agentic-pod/) | [Series overview](#series)
 
-> **Series context:** This is article 2 of 13 in *From Experiment to Factory*, a series about moving from AI experiments in software engineering to a repeatable factory for agentic engineering at enterprise scale. This opening article is the wake-up call: experimentation is not enough, and the teams that treat agentic coding as engineering rather than vibes will be the teams still standing at the end of 2026.
+> **Series context:** This is article 2 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*, a series about moving from AI experiments in software engineering to a repeatable enterprise model for agentic engineering at scale. This opening article is the wake-up call: experimentation is not enough, and the teams that treat agentic coding as engineering rather than vibes will be the teams still standing at the end of 2026.
 
 In March 2026, Amazon's retail platform suffered a six-hour cascading outage that cost an estimated 6.3 million lost orders. Internal reporting, first disclosed by CNBC and later detailed by *The Register*, pointed to AI-assisted code reaching production without adequate human review or senior engineer approval.[^0] The code looked plausible. It passed automated checks. It still introduced a subtle service interaction that nobody had owned, because nobody had been assigned to review it. Amazon's response was blunt: a 90-day code safety reset and mandatory senior engineer sign-off for AI-generated deployments.[^0b]
 
@@ -531,9 +531,9 @@ This article is the wake-up call. In [Article 01: Codex CLI at One Year](/premiu
 
 ## Citations
 
-## The agentic engineering series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise, building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -550,6 +550,7 @@ From experiment to enterprise, building the factory for AI-assisted software eng
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^0]: Palmer, A., "Amazon AI outage costs estimated 6.3 million lost orders," CNBC, March 2026; "Amazon's AI-assisted code deployment triggers six-hour retail outage," The Register, March 2026. See also Fortune, Digital Trends coverage.
 

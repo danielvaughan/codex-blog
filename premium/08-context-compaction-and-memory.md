@@ -24,11 +24,11 @@ pdf_url: /premium-pdfs/08-context-compaction-and-memory.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/08-context-compaction-and-memory.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 8 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 8 of 14.
 > *This article covers operations — managing context, memory, and efficiency to keep the factory running at scale.*
 > [Previous: Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | [Next: Three Terminals, Three Fates](/premium/09-three-terminals-three-fates/) | [Series overview](#series)
 
-> **Series context:** This is article 8 of 13 in *From Experiment to Factory*. The factory is built and secured; now it must run efficiently. This article is **The Efficiency Layer** — mastering context compaction, memory, and session management so the factory can sustain long-horizon work without degradation, the operational backbone that separates a demo from a production system.
+> **Series context:** This is article 8 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. The factory is built and secured; now it must run efficiently. This article is **The Efficiency Layer** — mastering context compaction, memory, and session management so the factory can sustain long-horizon work without degradation, the operational backbone that separates a demo from a production system.
 
 # Context Is All You Need: Mastering the 1M Token Window (And What Happens When You Hit the Wall)
 
@@ -615,9 +615,9 @@ The efficiency layer is in place. But efficiency without economic accountability
 
 ## Citations
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -634,6 +634,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: OpenAI warning on long conversations and compaction accuracy: <https://community.openai.com/t/automatically-compacting-context/1376290>
 

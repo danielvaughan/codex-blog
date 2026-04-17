@@ -23,11 +23,11 @@ pdf_url: /premium-pdfs/01-codex-cli-at-one-year.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/01-codex-cli-at-one-year.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 1 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 1 of 14.
 > *This article assesses the platform — one year of Codex CLI in production, and whether the tooling is ready for enterprise scale.*
 > [Next: Agentic Engineering Is Not Vibe Coding](/premium/02-agentic-engineering-is-not-vibe-coding/) | [Series overview](#series)
 
-> **Series context:** This is article 1 of 13 in *From Experiment to Factory*. Having established in Article 01 why experimentation is not enough, this article is **The Platform** — an honest assessment of whether Codex CLI, after one year in production, is mature enough to serve as the foundation for enterprise-scale agentic engineering.
+> **Series context:** This is article 1 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. Having established in Article 01 why experimentation is not enough, this article is **The Platform** — an honest assessment of whether Codex CLI, after one year in production, is mature enough to serve as the foundation for enterprise-scale agentic engineering.
 
 *Written 2026-04-15. Based on one year of daily tracking: changelogs, GitHub PRs, benchmark data, community signals, and production use across dozens of codebases.*
 
@@ -446,9 +446,9 @@ The platform is assessed. The next step in building the factory is codifying the
 
 ## Citations
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -465,6 +465,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Sam Altman announced 3 million weekly active Codex users on April 8, 2026, up from 2 million in early March — 50% growth in under a month. Source: [Business Today — OpenAI Codex celebrates 3 million weekly users](https://www.businesstoday.in/technology/story/openai-codex-celebrates-3-million-weekly-users-ceo-sam-altman-resets-usage-limits-524717-2026-04-08)
 

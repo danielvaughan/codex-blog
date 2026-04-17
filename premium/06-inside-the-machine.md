@@ -24,11 +24,11 @@ pdf_url: /premium-pdfs/06-inside-the-machine.pdf
 
 <p class="premium-pdf-download"><a href="/premium-pdfs/06-inside-the-machine.pdf"><strong>Download PDF</strong></a></p>
 
-> **The Agentic Engineering Series** — From experiment to enterprise. This is article 6 of 13.
+> **From Experiment to Enterprise: The Agentic Engineering Playbook**. This is article 6 of 14.
 > *This article opens the engine — understanding Codex CLI's internals so you can tune, extend, and trust the machinery.*
 > [Previous: The AGENTS.md Playbook](/premium/05-the-agents-md-playbook/) | [Next: Complete Guide to Codex Security](/premium/07-complete-guide-to-codex-security/) | [Series overview](#series)
 
-> **Series context:** This is article 6 of 13 in *From Experiment to Factory*. Having seen the risks of ungoverned agent use, we now open **The Engine** — a deep architectural walkthrough of Codex CLI's internals. Understanding the agent loop, sandbox, and hooks system is essential for any enterprise that wants to tune, extend, and trust its factory machinery rather than treating it as a black box.
+> **Series context:** This is article 6 of 14 in *From Experiment to Enterprise: The Agentic Engineering Playbook*. Having seen the risks of ungoverned agent use, we now open **The Engine** — a deep architectural walkthrough of Codex CLI's internals. Understanding the agent loop, sandbox, and hooks system is essential for any enterprise that wants to tune, extend, and trust its factory machinery rather than treating it as a black box.
 
 # Inside the Machine: How Codex CLI Actually Works (Architecture Deep Dive)
 
@@ -689,9 +689,9 @@ The engine is understood. But understanding the machinery is only half the battl
 
 ## Citations
 
-## The Agentic Engineering Series {#series}
+## From Experiment to Enterprise: The Agentic Engineering Playbook {#series}
 
-From experiment to enterprise — building the factory for AI-assisted software engineering at scale.
+A 14-part premium series on moving from first experiments to enterprise-scale agentic engineering.
 
 | | Article | Role |
 |---|---------|------|
@@ -708,6 +708,7 @@ From experiment to enterprise — building the factory for AI-assisted software 
 | 11 | [Token Economics and ROI](/premium/11-token-economics-and-the-roi-of-coding-agents/) | The Business Case |
 | 12 | [The Scaling Playbook](/premium/12-the-scaling-playbook/) | The Rollout |
 | 13 | [The Agentic Engineering Maturity Matrix](/premium/13-the-agentic-engineering-maturity-matrix/) | The Assessment |
+| 14 | [Forward Deployed Engineers](/premium/14-forward-deployed-engineers/) | The Bridge |
 
 [^1]: Michael Bolin, "Unrolling the Codex Agent Loop," OpenAI Engineering Blog, January 2026. https://openai.com/index/unrolling-the-codex-agent-loop/
 
