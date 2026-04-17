@@ -300,6 +300,148 @@ quadrantChart
 
 **Bottom line:** If you are building a LangGraph agent whose job is to help your engineering team — reviewing PRs, writing tests, generating docs, managing infrastructure — stop building it. Codex does this natively, cheaper, and better. If you are building an agent that serves external end users in production at scale, with model portability, real-time latency, and RAG over private data — frameworks remain essential, and Codex is a tool your agents can use, not a replacement for them.
 
+## Enterprise Evidence: Replacement in Practice
+
+The replacement pattern is not theoretical. Three first-party case studies demonstrate what happens when enterprises adopt Codex instead of building custom agent infrastructure.
+
+### Cisco: from custom tooling to native Codex
+
+Cisco integrated Codex across their engineering organisation and reported: 20% reduction in build times, over 1,500 engineering hours saved per month, and a 10–15× improvement in defect resolution throughput through their CodeWatch system[^cisco]. Before Codex, achieving this level of automation would have required a bespoke multi-agent pipeline — likely LangGraph or an internal orchestration framework — with dedicated infrastructure, monitoring, and engineering maintenance. Cisco replaced all of that with Codex configuration and AGENTS.md context.
+
+The framework migration story is particularly telling: Cisco moved framework migrations from weeks to days. A custom LangGraph agent for framework migration would require planning nodes, execution nodes, validation nodes, rollback logic, and careful state management. Codex handles the same task as a single cloud run with a SPEC.md and appropriate context.
+
+### Datadog: Codex as code review infrastructure
+
+Datadog deployed Codex for code review across more than 1,000 engineers[^datadog_case]. Their analysis found that 22% of examined production incidents could have been caught or flagged earlier by Codex review feedback. This is not a toy demo — it is a thousand-engineer organisation using Codex as production review infrastructure that would previously have required either a custom LangChain review agent or an expensive third-party tool.
+
+The key architectural insight: Codex review agents can be specialised via TOML configuration files under `.codex/agents/`. A security-focused review agent, a performance-focused agent, and a correctness-focused agent can all run on the same PR — mimicking the multi-agent pattern that CrewAI popularised, but without any framework code, hosting, or maintenance[^codex_subagents].
+
+### OpenAI internal: the Harness Engineering proof point
+
+OpenAI's own "Harness Engineering" case study is the most dramatic evidence. A team of three engineers (growing to seven) spent five months building a production product serving millions of users — writing zero lines of code themselves. Codex generated approximately one million lines across roughly 500 NPM packages, merging 1,500+ PRs at a rate of 3.5 PRs per engineer per day, rising to 5–10 with GPT-5.2[^harness].
+
+The team consumed approximately one billion tokens per day at a cost of $2–3K daily[^latent_space]. They did not use LangGraph, LangChain, or any external orchestration framework. Their "framework" was AGENTS.md files, architectural constraints, and scheduled entropy-management agents — pure harness engineering.
+
+This is the strongest possible counter-argument to "you need a framework to orchestrate agents at scale." OpenAI's answer: you need a harness, not a framework. And the harness is configuration, not code.
+
+## The MCP and A2A Convergence
+
+The framework displacement story cannot be understood without the protocol convergence happening underneath it.
+
+### MCP under the Linux Foundation
+
+In April 2026, the Linux Foundation's Agentic AI Foundation became the permanent governance home for both MCP (Model Context Protocol) and A2A (Agent-to-Agent Protocol), co-founded by OpenAI, Anthropic, Google, Microsoft, AWS, and Block[^linux_foundation]. This is significant because it means tool interoperability is becoming a shared standard rather than a competitive differentiator.
+
+MCP Toolbox reached v1.0 as an open-source framework for secure agentic data access[^mcp_toolbox]. Microsoft shipped Agent Framework 1.0 with full MCP support built in. Google's ADK supports MCP natively. Every major platform now speaks the same tool protocol.
+
+### What this means for frameworks
+
+LangChain's original value proposition was abstracting tool integrations across providers. When every provider implements the same MCP standard, that abstraction layer loses most of its value. You do not need a LangChain `Tool` wrapper when both Codex and Claude Code can call the same MCP server directly.
+
+```mermaid
+graph TB
+    subgraph "2023: Framework-Mediated Tools"
+        F[LangChain / LangGraph]
+        F --> T1[OpenAI API]
+        F --> T2[Anthropic API]
+        F --> T3[Custom Tool A]
+        F --> T4[Custom Tool B]
+    end
+    subgraph "2026: Protocol-Native Tools"
+        MCP[MCP Standard]
+        Codex[Codex] --> MCP
+        Claude[Claude Code] --> MCP
+        Gemini[Gemini CLI] --> MCP
+        MCP --> S1[MCP Server A]
+        MCP --> S2[MCP Server B]
+        MCP --> S3[MCP Server C]
+    end
+    style F fill:#8B0000,color:#fff
+    style MCP fill:#006400,color:#fff
+```
+
+The remaining framework value is in **orchestration logic** — state machines, branching workflows, durable checkpointing — not in tool abstraction. This is why LangGraph (the orchestration layer) has a stronger survival case than LangChain (the abstraction layer).
+
+## Updated Competitive Landscape (April 2026)
+
+The competitive picture has shifted significantly in the 48 hours since Platform 26.415 shipped.
+
+### Claude Opus 4.7 (launched 16 April 2026)
+
+Anthropic released Claude Opus 4.7 the same day as the Codex update — no coincidence[^opus47]. Key improvements: 13% lift on coding benchmarks, 3× more production tasks resolved, high-resolution vision support up to 3.75 megapixels (3× previous capacity), and a new tokenizer. Same price as Opus 4.6.
+
+Claude Code's advantage deepens on raw coding capability. But Codex's advantage deepens on platform breadth. The two are diverging:
+
+| Dimension | Codex (April 17) | Claude Code (April 17) |
+|-----------|-------------------|------------------------|
+| **Model** | GPT-5.4 / o4-mini | Claude Opus 4.7 |
+| **SWE-bench direction** | Token efficiency focus | Raw accuracy focus |
+| **Platform play** | Superapp (chat + code + browse + computer use) | Coding-first + Managed Agents cloud |
+| **Enterprise** | $500/mo Codex-FAE autonomous agents | $0.08/hr managed agent runtime |
+| **MCP** | 111+ plugins, full MCP support | Native MCP, Channels (Discord/Telegram) |
+| **Open source** | CLI open source (Apache 2.0) | Proprietary |
+| **Vision** | Standard | 3.75MP high-resolution (new) |
+
+### Google ADK: the multi-language dark horse
+
+Google's Agent Development Kit hit Java 1.0.0 in April 2026, completing a four-language ecosystem: Python, Java, Go, and TypeScript[^adk_java]. ADK is not a direct Codex competitor — it is an agent building framework — but it matters because:
+
+1. **It runs on any model** — ADK supports Gemini, Claude, and OpenAI models via LiteLLM integration
+2. **It deploys to Cloud Run** — serverless, scalable, production-ready from day one
+3. **It speaks both MCP and A2A** — full protocol interoperability
+
+For enterprises that need model-agnostic, self-hosted agent orchestration (the gap Codex cannot fill), ADK is emerging as a serious alternative to LangGraph — with Google's backing and Cloud Run's operational simplicity.
+
+### The convergence thesis
+
+The New Stack published "Cursor, Claude Code, and Codex are merging into one AI coding stack nobody planned"[^convergence] — arguing that these tools are becoming layers in a single development environment rather than competing products. The implication: the "which tool?" question matters less than the "what harness?" question. Harness engineering skills transfer across all three platforms.
+
+## Migration Guide: Replacing a LangGraph Agent with Codex
+
+For teams currently running custom LangGraph or LangChain agents for developer-facing tasks, here is a practical migration path.
+
+### Step 1: Audit your agents
+
+List every custom agent your team maintains. For each, answer:
+
+- **Who is the end user?** Developer on the team → candidate for Codex replacement. External customer → keep the framework.
+- **What does it do?** PR review, test generation, documentation, CI/CD, IaC → Codex handles natively.
+- **What infrastructure does it run on?** Cloud compute you maintain → migration saves infrastructure cost.
+- **Does it require model portability?** If it must run on Claude or Gemini → Codex cannot replace it.
+
+### Step 2: Replace with Codex equivalents
+
+| LangGraph pattern | Codex equivalent |
+|---|---|
+| `StateGraph` with planning → execution → validation nodes | Single Codex cloud task with SPEC.md + AGENTS.md context |
+| Custom `Tool` wrappers for external APIs | MCP servers (standard protocol, zero glue code) |
+| `HumanInTheLoop` checkpoints | Codex approval modes: suggest / auto-edit / full-auto |
+| Scheduled `cron` trigger → Lambda → LangGraph | Codex thread automation (recurring schedule, built-in) |
+| Multi-agent `CrewAI` roles (researcher + coder + reviewer) | Codex subagents via TOML config under `.codex/agents/` |
+| `LangSmith` tracing and observability | Codex session transcripts + built-in token tracking |
+| `Pinecone` vector store for code search | Codex reads the repo directly; AGENTS.md provides context |
+
+### Step 3: Write the harness
+
+The replacement is not "turn off LangGraph, turn on Codex." The replacement is:
+
+1. **Write AGENTS.md** — encode the context, constraints, and standards your LangGraph agent's system prompt contained
+2. **Write SPEC.md** — define the task specification with RFC 2119 requirements (MUST, SHOULD, MAY) that your agent's StateGraph enforced procedurally
+3. **Configure review agents** — create `.codex/agents/security-reviewer.toml` and similar configs for each specialist role your CrewAI setup defined
+4. **Set up triggers** — replace your Lambda/cron infrastructure with Codex thread automations or CLI triggers
+5. **Delete the infrastructure** — tear down the Lambda functions, the vector store, the LangSmith subscription, and the Docker containers
+
+### Step 4: Measure
+
+Track the same metrics your custom agent generated:
+
+- **Cost**: compare Codex subscription vs. previous infrastructure + API + engineering maintenance costs
+- **Latency**: Codex tasks take 1–30 minutes; if your previous agent ran faster, note whether the difference matters for your workflow
+- **Quality**: compare defect rates, review accuracy, or whatever signal your agent optimised for
+- **Maintenance**: engineering hours spent maintaining the Codex harness (AGENTS.md, SPEC.md) vs. maintaining the LangGraph codebase
+
+Most teams find the maintenance reduction alone justifies the migration. An AGENTS.md file is a markdown document. A LangGraph StateGraph is code that needs tests, dependency updates, runtime monitoring, and someone to be on call when it breaks.
+
 ## The Strategic Picture
 
 OpenAI's Chief Product Officer described Codex-FAE as "a fundamental rearchitecting of what AI can do at work"[^1]. That framing is deliberate. By expanding Codex from a coding agent into a general autonomous platform, OpenAI is:
@@ -335,3 +477,12 @@ For senior developers, the key takeaway is this: Codex is no longer just your co
 [^agentssdk]: [Use Codex with the Agents SDK — OpenAI Developers](https://developers.openai.com/codex/guides/agents-sdk)
 [^uipath]: [UiPath Unveils Agentic Automation Roadmap — The Cerbat Gem](https://www.thecerbatgem.com/2026/04/06/uipath-unveils-agentic-automation-roadmap-pushing-maestro-orchestration-and-coding-agents.html). See also: [Diginomica](https://diginomica.com/why-uipath-re-designing-its-platform-around-agents-build-automations-not-just-run-them)
 [^superapp1]: [Claude Code, Codex, and Pi Can Create Their Own AI Agents Now — XDA Developers](https://www.xda-developers.com/claude-code-codex-and-pi-can-create-their-own-ai-agents-now-and-that-changes-everything/). See also: [Supalaunch Comparison](https://supalaunch.com/blog/claude-code-vs-codex-cli-comparison-best-ai-coding-agent-2026)
+[^cisco]: [Cisco and OpenAI Codex Integration Results — AIBase](https://news.aibase.com/news/24796). 20% reduction in build times, 1,500+ engineering hours saved per month, 10–15× defect resolution improvement via CodeWatch. See also: SDxCentral, Digital Watch Observatory.
+[^datadog_case]: [Datadog and Codex — OpenAI official case study](https://openai.com/index/datadog/). More than 1,000 engineers using Codex regularly; 22% of examined incidents where Codex feedback would have made a difference.
+[^codex_subagents]: [Codex Subagents — OpenAI Developers](https://developers.openai.com/codex/subagents). Path-based addressing, structured inter-agent messaging, TOML-based custom agent configuration.
+[^latent_space]: [Harness Engineering — Latent Space Podcast](https://www.latent.space/p/harness-eng), April 7, 2026. Deep dive into the 3-engineer team, token economics (~1B tokens/day, ~$2–3K daily), and PR velocity metrics.
+[^linux_foundation]: [Linux Foundation Agentic AI Foundation — governance home for MCP and A2A](https://www.linuxfoundation.org/). Co-founded by OpenAI, Anthropic, Google, Microsoft, AWS, and Block.
+[^mcp_toolbox]: MCP Toolbox v1.0: Open-Source Framework for Secure Agentic Data Access. Referenced in [Seroter's Daily Reading List #765](https://seroter.com/), April 16, 2026.
+[^opus47]: [Anthropic releases Claude Opus 4.7 — CNBC](https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html). 13% coding benchmark lift, 3× more production tasks resolved, 3.75MP vision. See also: [AWS Blog](https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/), [GitHub Changelog](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/).
+[^adk_java]: [Announcing ADK for Java 1.0.0 — Google Developers Blog](https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/). ADK now available in Python, Java, Go, and TypeScript.
+[^convergence]: [Cursor, Claude Code, and Codex are merging into one AI coding stack nobody planned — The New Stack](https://thenewstack.io/ai-coding-tool-stack/)
