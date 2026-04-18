@@ -27,7 +27,7 @@
    - Source: "codex cli socks proxy"
    - Scope: Proxy setup, corporate firewall traversal, environment variable configuration
 
-3. **Transferring ChatGPT Conversations to Codex CLI**
+3. ~~**Transferring ChatGPT Conversations to Codex CLI**~~ ✅ Written 2026-04-18 → `2026-04-18-transferring-chatgpt-conversations-to-codex-cli.md`
    - Source: "transfer chatgpt chat to codex"
    - Scope: Export/import workflows, context preservation, practical migration steps
 
