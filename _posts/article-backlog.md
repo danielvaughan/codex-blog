@@ -44,7 +44,7 @@
    - Source: "codex token usage comparison effort"
    - Scope: Token consumption by effort setting, cost optimization, when to use high vs low effort
 
-7. **Codex CLI Agent Loop Explained for Beginners**
+7. ~~**Codex CLI Agent Loop Explained for Beginners**~~ ✅ Written 2026-04-18 → `2026-04-18-codex-cli-agent-loop-explained.md`
     - Source: "codex loop", "understanding codex runtime agent loop", "claude code rust loop explained"
     - Scope: Simplified explanation of the agent execution loop, iteration patterns, how to debug loops
 
