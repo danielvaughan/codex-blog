@@ -40,7 +40,7 @@
    - Scope: Practical integration patterns, MCP bridging, cross-tool workflows, when to use which
    - Note: Existing comparison articles exist but may lack practical "how to use both" guidance
 
-6. **Codex CLI Token Usage and Cost by Reasoning Effort Level**
+6. ~~**Codex CLI Token Usage and Cost by Reasoning Effort Level**~~ ✅ Written 2026-04-18 → `2026-04-18-codex-cli-token-usage-cost-reasoning-effort-level.md`
    - Source: "codex token usage comparison effort"
    - Scope: Token consumption by effort setting, cost optimization, when to use high vs low effort
 
