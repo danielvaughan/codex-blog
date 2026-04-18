@@ -90,7 +90,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### High Priority
 
-1. **Your First 30 Minutes with Codex CLI: From Install to First Fix**
+1. ~~**Your First 30 Minutes with Codex CLI: From Install to First Fix**~~ ✅ Written 2026-04-18 → `2026-04-18-your-first-30-minutes-with-codex-cli.md`
     - Source: Book reader feedback — "what can a developer actually build or run?"
     - Scope: Zero-to-working walkthrough. Install → point at a real repo → give it a bug → watch the agent loop → review the diff. One terminal command, one concrete result. Show elapsed time, what the agent did step by step, and the before/after.
     - Angle: The article equivalent of the book's proposed "First 30 Minutes" fast-track. Standalone value for anyone evaluating Codex CLI.
