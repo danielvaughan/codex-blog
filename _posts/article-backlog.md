@@ -35,7 +35,7 @@
    - Source: "codex vs cloud"
    - Scope: Decision framework, cost comparison, capability differences, hybrid workflows
 
-5. **How to Make Codex CLI and Claude Code Work Together**
+5. ~~**How to Make Codex CLI and Claude Code Work Together**~~ ✅ Written 2026-04-18 → `2026-04-18-codex-cli-claude-code-working-together.md`
    - Source: "how to make codex and claude code work together"
    - Scope: Practical integration patterns, MCP bridging, cross-tool workflows, when to use which
    - Note: Existing comparison articles exist but may lack practical "how to use both" guidance
