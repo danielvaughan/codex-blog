@@ -13,7 +13,7 @@
    - Scope: Headless execution, batch processing, background mode, performance tips for CI/CD pipelines
    - Note: May overlap with existing codex-exec articles — consider enhancing those instead
 
-3. **Codex CLI SWE-Bench Scores and Benchmark Results Explained**
+3. ~~**Codex CLI SWE-Bench Scores and Benchmark Results Explained**~~ ✅ Written 2026-04-18 → `2026-04-18-codex-cli-swe-bench-benchmark-scores-explained.md`
    - Source: "codex swe-bench score" (4 impressions, 0 clicks)
    - Scope: Official benchmark results, methodology, how to interpret scores, comparison with other tools
 
