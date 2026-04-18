@@ -19,7 +19,7 @@
 
 ### Medium Priority
 
-1. **Running Multiple Codex Agent Instances: Parallel Orchestration Patterns**
+1. ~~**Running Multiple Codex Agent Instances: Parallel Orchestration Patterns**~~ ✅ Written 2026-04-18 → `2026-04-18-running-multiple-codex-agents-parallel-orchestration.md`
    - Source: "running multiple coding agent instances", "codex create multiple agents for different jobs"
    - Scope: Concurrent sessions, resource management, workload distribution, tmux/screen patterns
 
