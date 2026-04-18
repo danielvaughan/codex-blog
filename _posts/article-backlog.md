@@ -126,3 +126,19 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: Search Console ("transfer chatgpt chat to codex") + book feedback about clarity
     - Scope: For developers who use ChatGPT for coding help but haven't tried agentic tools. The key shift: from "copy-paste suggestions" to "autonomous execution in your actual codebase." Show the same task done in ChatGPT vs Codex CLI side by side. Cover: what Codex can see that ChatGPT can't, why the sandbox matters, when to still use ChatGPT instead.
     - Angle: Bridge article for the largest audience — ChatGPT users who don't yet know what they're missing.
+
+---
+
+## New Articles — Sourced from Research (2026-04-18, Wave 2)
+
+### Medium Priority
+
+1. **Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)**
+    - Source: arXiv:2604.10261 "The Amazing Agent Race" (Kim et al., April 2026) + arXiv:2604.09408 "HiL-Bench" (Elfeki et al., April 2026)
+    - Scope: Navigation errors dominate agent failures (27–52% of trials) while tool-use errors stay below 17%. Practical guide to building file maps in AGENTS.md that compensate for this weakness. Include before/after examples showing how explicit navigation guidance improves success rates.
+    - SEO targets: "AGENTS.md file map", "codex cli navigation", "why coding agents fail"
+
+2. **Benchmarking Your Agentic Pod: What CocoaBench, HiL-Bench, and AAR Tell Us About Agent Limits**
+    - Source: arXiv:2604.11201 (CocoaBench), arXiv:2604.09408 (HiL-Bench), arXiv:2604.10261 (Amazing Agent Race)
+    - Scope: Synthesis of three April 2026 benchmarks showing where frontier agents hit their limits — multi-modal composition (45.1% max), help-seeking (poor across all models), navigation vs tool use. Practical implications for configuring approval modes, subagent boundaries, and AGENTS.md structure.
+    - Angle: "What the benchmarks say about your workflow" — translate academic results into engineering decisions.
