@@ -5,6 +5,8 @@ nav_order: 324
 tags: ["memory", "config-toml", "persistence", "sessions", "consolidation", "privacy"]
 ---
 
+![Sketchnote diagram for: Codex Built-In Memory Deep Dive: How the Two-Phase Pipeline Turns Sessions into Institutional Knowledge](/sketchnotes/articles/2026-04-18-codex-built-in-memory-system-deep-dive.png)
+
 # Codex Built-In Memory Deep Dive: How the Two-Phase Pipeline Turns Sessions into Institutional Knowledge
 
 

@@ -5,6 +5,8 @@ nav_order: 323
 tags: ["gh-skill", "agent-skills", "supply-chain", "codex-cli", "github-cli", "provenance", "skills-management"]
 ---
 
+![Sketchnote diagram for: gh skill: Supply-Chain-Secure Agent Skills from GitHub CLI to Codex CLI](/sketchnotes/articles/2026-04-18-gh-skill-agent-skills-supply-chain-codex-cli.png)
+
 # gh skill: Supply-Chain-Secure Agent Skills from GitHub CLI to Codex CLI
 
 

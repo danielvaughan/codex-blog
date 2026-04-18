@@ -5,6 +5,8 @@ nav_order: 321
 tags: ["thread-automations` `recipes` `cookbook` `scheduling` `patterns` `daily-workflows` `cron` `codex-cli"]
 ---
 
+![Sketchnote diagram for: Thread Automation Recipes: 15 Scheduled Agent Patterns for Daily Development](/sketchnotes/articles/2026-04-17-thread-automation-recipes-scheduled-agent-patterns.png)
+
 # Thread Automation Recipes: 15 Scheduled Agent Patterns for Daily Development
 
 

@@ -5,6 +5,8 @@ nav_order: 328
 tags: ["research", "agentic-PRs", "MSR-2026", "code-quality", "CI-CD", "AGENTS-md", "best-practices", "empirical-study"]
 ---
 
+![Sketchnote diagram for: What 33,000 Agentic Pull Requests Reveal: Empirical Lessons for Codex CLI Practitioners](/sketchnotes/articles/2026-04-18-empirical-research-agentic-pull-requests-codex-cli.png)
+
 # What 33,000 Agentic Pull Requests Reveal: Empirical Lessons for Codex CLI Practitioners
 
 

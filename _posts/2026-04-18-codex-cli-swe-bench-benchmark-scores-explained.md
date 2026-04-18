@@ -5,6 +5,8 @@ nav_order: 326
 tags: ["codex-cli", "swe-bench", "benchmarks", "evaluation", "gpt-5", "performance"]
 ---
 
+![Sketchnote diagram for: Codex CLI SWE-Bench Scores and Benchmark Results Explained](/sketchnotes/articles/2026-04-18-codex-cli-swe-bench-benchmark-scores-explained.png)
+
 # Codex CLI SWE-Bench Scores and Benchmark Results Explained
 
 

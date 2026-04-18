@@ -5,6 +5,8 @@ nav_order: 317
 tags: ["codex-app", "pr-review", "task-sidebar", "artifact-viewer", "workspace", "developer-workflow", "github", "git-integration", "projectless-chats", "26.415"]
 ---
 
+![Sketchnote diagram for: Inside the Codex App Workspace: PR Review Pane, Task Sidebar, and Artifact Viewer in Platform 26.415](/sketchnotes/articles/2026-04-17-codex-app-workspace-pr-review-task-sidebar-artifact-viewer.png)
+
 # Inside the Codex App Workspace: PR Review Pane, Task Sidebar, and Artifact Viewer in Platform 26.415
 
 

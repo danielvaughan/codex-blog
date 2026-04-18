@@ -5,6 +5,8 @@ nav_order: 331
 tags: ["codex-cli` `codex-exec` `batch-processing` `automation` `headless` `structured-output"]
 ---
 
+![Sketchnote diagram for: Codex CLI Headless and Batch Mode: Non-Interactive Automation Guide](/sketchnotes/articles/2026-04-18-codex-cli-headless-batch-mode-automation.png)
+
 # Codex CLI Headless and Batch Mode: Non-Interactive Automation Guide
 
 

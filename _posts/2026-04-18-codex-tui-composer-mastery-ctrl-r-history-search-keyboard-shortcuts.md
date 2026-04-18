@@ -5,6 +5,8 @@ nav_order: 327
 tags: ["tui", "composer", "ctrl-r", "history-search", "keyboard-shortcuts", "prompt-iteration", "v0.121.0", "productivity"]
 ---
 
+![Sketchnote diagram for: Mastering the Codex TUI Composer: Ctrl+R History Search, Kill Ring, and Power-User Shortcuts](/sketchnotes/articles/2026-04-18-codex-tui-composer-mastery-ctrl-r-history-search-keyboard-shortcuts.png)
+
 # Mastering the Codex TUI Composer: Ctrl+R History Search, Kill Ring, and Power-User Shortcuts
 
 

@@ -9,6 +9,8 @@ tags:
   - codex-cli
 ---
 
+![Sketchnote diagram for: Codex CLI Offline Mode: Local Models, Air-Gapped Setups, and What Works Without Internet](/sketchnotes/articles/2026-04-18-codex-cli-offline-local-models-air-gapped-guide.png)
+
 # Codex CLI Offline Mode: Local Models, Air-Gapped Setups, and What Works Without Internet
 
 

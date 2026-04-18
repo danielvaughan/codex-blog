@@ -5,6 +5,8 @@ nav_order: 330
 tags: ["governance", "policy-as-code", "guardrails", "enterprise", "compliance", "requirements-toml", "hooks"]
 ---
 
+![Sketchnote diagram for: Policy-as-Code for Coding Agents: From the OpenAI Governance Cookbook to Codex CLI guardrails](/sketchnotes/articles/2026-04-18-policy-as-code-governance-cookbook-codex-cli-guardrails.png)
+
 # Policy-as-Code for Coding Agents: From the OpenAI Governance Cookbook to Codex CLI guardrails
 
 

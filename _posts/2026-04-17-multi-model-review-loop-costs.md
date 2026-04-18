@@ -5,6 +5,8 @@ nav_order: 322
 tags: ["cost-analysis", "multi-model", "review-loops", "enterprise", "budget", "slm-judge", "model-routing"]
 ---
 
+![Sketchnote diagram for: The Real Cost of Multi-Model Review Loops](/sketchnotes/articles/2026-04-17-multi-model-review-loop-costs.png)
+
 # The Real Cost of Multi-Model Review Loops: When Cross-Provider Quality Gates Eat Your Budget
 
 

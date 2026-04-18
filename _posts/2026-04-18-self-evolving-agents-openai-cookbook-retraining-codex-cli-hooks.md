@@ -5,6 +5,8 @@ nav_order: 329
 tags: ["self-evolving", "retraining", "hooks", "metaprompt", "skill-crystallisation", "prompt-versioning", "genericagent", "evolver"]
 ---
 
+![Sketchnote diagram for: Self-Evolving Agents in Practice: Implementing the OpenAI Cookbook Retraining Loop with Codex CLI Hooks](/sketchnotes/articles/2026-04-18-self-evolving-agents-openai-cookbook-retraining-codex-cli-hooks.png)
+
 # Self-Evolving Agents in Practice: Implementing the OpenAI Cookbook Retraining Loop with Codex CLI Hooks
 
 

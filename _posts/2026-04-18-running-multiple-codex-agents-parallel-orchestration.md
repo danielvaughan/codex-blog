@@ -5,6 +5,8 @@ nav_order: 332
 tags: ["codex-cli", "parallel-agents", "orchestration", "git-worktrees", "tmux", "subagents", "multi-agent"]
 ---
 
+![Sketchnote diagram for: Running Multiple Codex Agent Instances: Parallel Orchestration Patterns](/sketchnotes/articles/2026-04-18-running-multiple-codex-agents-parallel-orchestration.png)
+
 # Running Multiple Codex Agent Instances: Parallel Orchestration Patterns
 
 

@@ -5,6 +5,8 @@ nav_order: 312
 tags: ["agentic-coding", "anthropic", "trends-report", "multi-agent", "enterprise", "competitive-analysis", "codex-cli", "practitioner-guide"]
 ---
 
+![Sketchnote diagram for: Anthropic's Eight Agentic Coding Trends Through a Codex CLI Lens: A Practitioner's Response](/sketchnotes/articles/2026-04-17-anthropic-agentic-coding-trends-codex-cli-practitioners-response.png)
+
 # Anthropic's Eight Agentic Coding Trends Through a Codex CLI Lens: A Practitioner's Response
 
 

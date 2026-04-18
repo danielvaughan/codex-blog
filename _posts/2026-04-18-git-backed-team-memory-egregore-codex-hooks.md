@@ -5,6 +5,8 @@ nav_order: 326
 tags: ["team-memory", "egregore", "shared-cognition", "git-memory", "hooks", "handoff", "multi-agent", "collaboration"]
 ---
 
+![Sketchnote diagram for: Git-Backed Team Memory for Coding Agents: From Egregore to Codex Hooks](/sketchnotes/articles/2026-04-18-git-backed-team-memory-egregore-codex-hooks.png)
+
 # Git-Backed Team Memory for Coding Agents: From Egregore to Codex Hooks
 
 
