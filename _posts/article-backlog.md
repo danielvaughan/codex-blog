@@ -69,3 +69,48 @@
     - Source: "openai codex cli official docs 2026" (20 impressions, 0 clicks)
     - Scope: Curated guide to official documentation, getting started pathway, resource directory
     - Note: High impressions — users want an authoritative docs starting point
+
+---
+
+## New Articles — Sourced from Book Reader Feedback (2026-04-18)
+
+Reader feedback highlighted that the value of agentic engineering doesn't land fast enough — people need concrete "before and after" examples, not just theory. These article ideas bridge that gap by showing specific, pictureable outcomes.
+
+### High Priority
+
+15. **Your First 30 Minutes with Codex CLI: From Install to First Fix**
+    - Source: Book reader feedback — "what can a developer actually build or run?"
+    - Scope: Zero-to-working walkthrough. Install → point at a real repo → give it a bug → watch the agent loop → review the diff. One terminal command, one concrete result. Show elapsed time, what the agent did step by step, and the before/after.
+    - Angle: The article equivalent of the book's proposed "First 30 Minutes" fast-track. Standalone value for anyone evaluating Codex CLI.
+
+16. **Before and After: 5 Developer Workflows Transformed by Codex CLI**
+    - Source: Book feedback — "one concrete outcome they can picture immediately"
+    - Scope: Side-by-side comparisons of manual vs agentic workflows: (1) Bug fix from Sentry alert — 45 min manual → 4 min agentic, (2) PR code review — 25 min manual → 3 min agentic, (3) Test coverage gap — 2 hours manual → 12 min agentic, (4) Multi-file refactor — half a day manual → 20 min parallel agents, (5) CI failure triage — 30 min manual → 5 min automated. Each with specific commands and real timings.
+    - Angle: The "show don't tell" article. Every comparison should be pictureable in 10 seconds.
+
+17. **The Codex CLI Agent Loop Explained: What Actually Happens When You Hit Enter**
+    - Source: Book feedback ("complex or fragmented") + Search Console ("understanding codex runtime agent loop", "codex loop")
+    - Scope: Visual walkthrough of a single agent session from prompt to commit. Annotated terminal output showing each phase: file discovery → context gathering → reasoning → tool calls → test execution → commit. Mermaid sequence diagram. Demystify the black box.
+    - Angle: Addresses both the book reader's "fragmented" concern and the Search Console demand for loop explanations. Cross-link to book chapters.
+
+18. **What You Can Build with Codex CLI: 10 Real-World Setups from Simple to Advanced**
+    - Source: Book feedback — "How are you getting developers to quickly see what they'll be able to build?"
+    - Scope: A progression of 10 concrete setups, each with a one-paragraph description and the key commands/files needed: (1) Single-command bug fix, (2) AGENTS.md-driven project conventions, (3) Automated PR review hook, (4) MCP integration with external service, (5) Parallel worktree refactor, (6) CI pipeline with codex exec, (7) Guardian auto-review, (8) Multi-agent pod with Designer-Developer-Tester, (9) Cost-managed team deployment, (10) Full agentic engineering factory.
+    - Angle: A "menu" article — readers can scan it in 60 seconds and find their entry point. Each item links to the relevant book chapter and detailed article.
+
+19. **I Used This Setup → This Is What Changed: An Agentic Engineering Case Study**
+    - Source: Book reader's exact framing — "I used this setup → this is what the agent is now doing for me → this is what changed in my workflow"
+    - Scope: A narrative case study following one developer (could be Daniel's own experience) through the progression: week 1 (single agent, bug fixes), week 2 (AGENTS.md + approval modes), week 3 (hooks + MCP), week 4 (parallel agents + CI integration). Show concrete metrics: time saved, PRs merged, bugs caught, workflow changes. Include the failures and learning curves, not just the wins.
+    - Angle: The "testimonial article" that proves the book's promise. Authentic, specific, honest about limitations.
+
+### Medium Priority
+
+20. **Codex CLI for the Sceptic: Honest Answers to "Why Should I Bother?"**
+    - Source: Book feedback about agentic AI content feeling "complex or fragmented"
+    - Scope: Address the top 7 objections: "It's just fancy autocomplete," "I'll spend more time fixing AI code than writing my own," "It'll hallucinate and break everything," "My codebase is too complex," "It's too expensive for daily use," "I'll lose my coding skills," "My company won't allow it." For each: honest assessment, when the objection is valid, when it isn't, and evidence.
+    - Angle: The article you send to a sceptical colleague. No hype, no dismissal — just honest engineering trade-offs.
+
+21. **From ChatGPT to Codex CLI: What Changes When Your AI Can Actually Run Code**
+    - Source: Search Console ("transfer chatgpt chat to codex") + book feedback about clarity
+    - Scope: For developers who use ChatGPT for coding help but haven't tried agentic tools. The key shift: from "copy-paste suggestions" to "autonomous execution in your actual codebase." Show the same task done in ChatGPT vs Codex CLI side by side. Cover: what Codex can see that ChatGPT can't, why the sandbox matters, when to still use ChatGPT instead.
+    - Angle: Bridge article for the largest audience — ChatGPT users who don't yet know what they're missing.
