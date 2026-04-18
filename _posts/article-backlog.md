@@ -23,7 +23,7 @@
    - Source: "running multiple coding agent instances", "codex create multiple agents for different jobs"
    - Scope: Concurrent sessions, resource management, workload distribution, tmux/screen patterns
 
-2. **Codex CLI Proxy Configuration: SOCKS, HTTP, and Corporate Networks**
+2. ~~**Codex CLI Proxy Configuration: SOCKS, HTTP, and Corporate Networks**~~ ✅ Written 2026-04-18 → `2026-04-18-codex-cli-proxy-configuration-socks-http-corporate-networks.md`
    - Source: "codex cli socks proxy"
    - Scope: Proxy setup, corporate firewall traversal, environment variable configuration
 
