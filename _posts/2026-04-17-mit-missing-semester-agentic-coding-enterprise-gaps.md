@@ -5,6 +5,8 @@ nav_order: 320
 tags: ["mit", "missing-semester", "education", "curriculum", "enterprise-gap", "worktrees", "mcp", "agents-md", "observability", "security"]
 ---
 
+![Sketchnote diagram for: What MIT Gets Right (and Misses) About Agentic Coding: From Missing Semester to Enterprise Patterns](/sketchnotes/articles/2026-04-17-mit-missing-semester-agentic-coding-enterprise-gaps.png)
+
 # What MIT Gets Right (and Misses) About Agentic Coding: From Missing Semester to Enterprise Patterns
 
 

@@ -5,6 +5,8 @@ nav_order: 322
 tags: ["macos", "platform-matrix", "linux", "windows", "sandbox", "seatbelt", "voice", "computer-use"]
 ---
 
+![Sketchnote diagram for: The macOS Premium: Which Codex Features Only Work on Apple Hardware](/sketchnotes/articles/2026-04-17-codex-cli-macos-premium-platform-feature-matrix.png)
+
 # The macOS Premium: Which Codex Features Only Work on Apple Hardware
 
 
