@@ -31,7 +31,7 @@
    - Source: "transfer chatgpt chat to codex"
    - Scope: Export/import workflows, context preservation, practical migration steps
 
-4. **Codex CLI vs Codex Cloud: When to Use Each**
+4. ~~**Codex CLI vs Codex Cloud: When to Use Each**~~ ✅ Written 2026-04-18 → `2026-04-18-codex-cli-vs-codex-cloud-when-to-use-each.md`
    - Source: "codex vs cloud"
    - Scope: Decision framework, cost comparison, capability differences, hybrid workflows
 
