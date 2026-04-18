@@ -95,7 +95,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: Zero-to-working walkthrough. Install → point at a real repo → give it a bug → watch the agent loop → review the diff. One terminal command, one concrete result. Show elapsed time, what the agent did step by step, and the before/after.
     - Angle: The article equivalent of the book's proposed "First 30 Minutes" fast-track. Standalone value for anyone evaluating Codex CLI.
 
-2. **Before and After: 5 Developer Workflows Transformed by Codex CLI**
+2. ~~**Before and After: 5 Developer Workflows Transformed by Codex CLI**~~ ✅ Written 2026-04-19 → `2026-04-19-before-and-after-developer-workflows-transformed-by-codex-cli.md`
     - Source: Book feedback — "one concrete outcome they can picture immediately"
     - Scope: Side-by-side comparisons of manual vs agentic workflows: (1) Bug fix from Sentry alert — 45 min manual → 4 min agentic, (2) PR code review — 25 min manual → 3 min agentic, (3) Test coverage gap — 2 hours manual → 12 min agentic, (4) Multi-file refactor — half a day manual → 20 min parallel agents, (5) CI failure triage — 30 min manual → 5 min automated. Each with specific commands and real timings.
     - Angle: The "show don't tell" article. Every comparison should be pictureable in 10 seconds.
