@@ -4,7 +4,7 @@
 
 ### High Priority
 
-1. **Codex CLI Offline Mode: What Works Without Internet**
+1. ~~**Codex CLI Offline Mode: What Works Without Internet**~~ ✅ Written 2026-04-18 → `2026-04-18-codex-cli-offline-local-models-air-gapped-guide.md`
    - Source: "codex cli offline mode" (10 impressions, 0 clicks)
    - Scope: Local model options, caching, what features require connectivity, air-gapped enterprise use cases
 
