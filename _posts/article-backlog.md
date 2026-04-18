@@ -142,3 +142,9 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: arXiv:2604.11201 (CocoaBench), arXiv:2604.09408 (HiL-Bench), arXiv:2604.10261 (Amazing Agent Race)
     - Scope: Synthesis of three April 2026 benchmarks showing where frontier agents hit their limits — multi-modal composition (45.1% max), help-seeking (poor across all models), navigation vs tool use. Practical implications for configuring approval modes, subagent boundaries, and AGENTS.md structure.
     - Angle: "What the benchmarks say about your workflow" — translate academic results into engineering decisions.
+
+3. **Using Codex CLI to Improve Published Algorithms: A Two-Stage Pipeline**
+    - Source: arXiv:2604.13109 "Applying an Agentic Coding Tool for Improving Published Algorithm Implementations" (Suwannik, April 2026)
+    - Scope: Reproduce the two-stage pipeline (ChatGPT Deep Research → Claude Code/Codex CLI iterative improvement) for Daniel's readers. Show how the numbered-artefact pattern (explore_NN.py, result_NN.csv, plan_NN.md) enables auditable, resumable improvement loops. Cover the 11 domains tested (193× to >1000× improvements). Discuss the irreplaceable human roles: verification, task specification, novelty assessment, impact judgement, ethical responsibility.
+    - Angle: Practical "try this yourself" article. Translate the academic pipeline into Codex CLI commands. Emphasis on the human-in-the-loop lesson: "critical judgment was not an occasional check; it was the core human contribution."
+    - SEO targets: "codex cli algorithm improvement", "agentic coding iterative refinement", "AI-assisted algorithm optimization"
