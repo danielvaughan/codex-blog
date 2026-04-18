@@ -5,6 +5,8 @@ nav_order: 303
 tags: ["goal-mode` `autonomous` `objectives` `token-budget` `v0.122` `enterprise"]
 ---
 
+![Sketchnote diagram for: Goal Mode: Persistent Objectives with Token Budgets and Autonomous Continuation](/sketchnotes/articles/2026-04-16-codex-cli-goal-mode-persistent-objectives-token-budgets.png)
+
 # Goal Mode: Persistent Objectives with Token Budgets and Autonomous Continuation
 
 

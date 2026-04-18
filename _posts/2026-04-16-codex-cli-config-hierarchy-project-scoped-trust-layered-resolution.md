@@ -5,6 +5,8 @@ nav_order: 302
 tags: ["config-toml", "configuration", "project-scoped", "trust-model", "profiles", "shell-environment-policy", "hooks", "enterprise", "team-config"]
 ---
 
+![Sketchnote diagram for: Codex CLI Configuration Hierarchy: Project-Scoped Config, Trust Boundaries, and Layered Resolution](/sketchnotes/articles/2026-04-16-codex-cli-config-hierarchy-project-scoped-trust-layered-resolution.png)
+
 # Codex CLI Configuration Hierarchy: Project-Scoped Config, Trust Boundaries, and Layered Resolution
 
 

@@ -5,6 +5,8 @@ nav_order: 307
 tags: ["security-testing", "cross-model-review", "defence-in-depth", "pipeline", "agents-md", "sast-dast", "codex-cli"]
 ---
 
+![Sketchnote diagram for: Cross-Model Security Testing for AI-Generated Code: Building a Defence-in-Depth Pipeline](/sketchnotes/articles/2026-04-16-cross-model-security-testing-ai-generated-code-defence-in-depth.png)
+
 # Cross-Model Security Testing for AI-Generated Code: Building a Defence-in-Depth Pipeline
 
 

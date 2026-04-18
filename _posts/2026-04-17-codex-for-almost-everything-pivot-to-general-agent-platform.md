@@ -5,6 +5,8 @@ nav_order: 311
 tags: ["codex-for-everything", "superapp", "computer-use", "atlas-browser", "platform-positioning", "strategic", "general-agent", "langraph", "langchain", "crewai", "agent-frameworks", "harness-engineering", "rpa-replacement"]
 ---
 
+![Sketchnote diagram for: Codex For Almost Everything: OpenAI's Pivot from Coding Tool to General Agent Platform](/sketchnotes/articles/2026-04-17-codex-for-almost-everything-pivot-to-general-agent-platform.png)
+
 # Codex For Almost Everything: OpenAI's Pivot from Coding Tool to General Agent Platform
 
 

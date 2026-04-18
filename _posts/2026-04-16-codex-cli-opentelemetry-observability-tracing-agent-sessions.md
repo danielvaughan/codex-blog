@@ -5,6 +5,8 @@ nav_order: 300
 tags: ["opentelemetry", "observability", "tracing", "metrics", "enterprise", "monitoring", "otel", "config-toml", "dashboards"]
 ---
 
+![Sketchnote diagram for: Codex CLI Observability with OpenTelemetry: Tracing Agent Sessions, Tool Calls, and API Requests](/sketchnotes/articles/2026-04-16-codex-cli-opentelemetry-observability-tracing-agent-sessions.png)
+
 # Codex CLI Observability with OpenTelemetry: Tracing Agent Sessions, Tool Calls, and API Requests
 
 

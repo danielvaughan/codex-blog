@@ -7,6 +7,8 @@
 **Content age:** Current as of April 2026
 **Tags:** local-models, qwen, moe, swe-bench, agentic-coding, cost-optimization, hardware
 
+![Sketchnote: Qwen3.6-35B-A3B: The Local Model That Changes the Agentic Cost Equation](/sketchnotes/articles/2026-04-16-qwen36-35b-a3b-local-agentic-coding-breakthrough.png)
+
 ---
 
 ## Summary

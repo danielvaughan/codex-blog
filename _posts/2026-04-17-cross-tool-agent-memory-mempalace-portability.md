@@ -5,6 +5,8 @@ nav_order: 308
 tags: ["memory", "portability", "mempalace", "mcp", "cross-tool", "governance", "enterprise", "knowledge-management"]
 ---
 
+![Sketchnote diagram for: Cross-Tool Agent Memory: MemPalace, Built-In Memory, and the Portability Problem](/sketchnotes/articles/2026-04-17-cross-tool-agent-memory-mempalace-portability.png)
+
 # Cross-Tool Agent Memory: MemPalace, Built-In Memory, and the Portability Problem
 
 

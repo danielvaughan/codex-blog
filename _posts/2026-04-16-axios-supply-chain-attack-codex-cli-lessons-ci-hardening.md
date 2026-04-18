@@ -5,6 +5,8 @@ nav_order: 301
 tags: ["supply-chain-security", "axios", "npm", "github-actions", "certificate-signing", "ci-cd", "hardening", "north-korea", "UNC1069"]
 ---
 
+![Sketchnote diagram for: The Axios Supply Chain Attack: How It Hit Codex CLI's Signing Pipeline and What Teams Should Learn](/sketchnotes/articles/2026-04-16-axios-supply-chain-attack-codex-cli-lessons-ci-hardening.png)
+
 # The Axios Supply Chain Attack: How It Hit Codex CLI's Signing Pipeline and What Teams Should Learn
 
 

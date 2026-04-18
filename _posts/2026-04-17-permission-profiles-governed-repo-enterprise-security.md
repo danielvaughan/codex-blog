@@ -5,6 +5,8 @@ nav_order: 311
 tags: ["permission-profiles", "governed-repo-mode", "enterprise", "security", "mcp-sandbox", "config-toml", "guardian-subagent"]
 ---
 
+![Sketchnote diagram for: Permission Profiles End-to-End: Governed Repo Mode and Enterprise Security Posture](/sketchnotes/articles/2026-04-17-permission-profiles-governed-repo-enterprise-security.png)
+
 # Permission Profiles End-to-End: Governed Repo Mode and Enterprise Security Posture
 
 

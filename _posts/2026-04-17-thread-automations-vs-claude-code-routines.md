@@ -5,6 +5,8 @@ nav_order: 310
 tags: ["thread-automations` `routines` `scheduling` `cron` `webhook` `competitive-analysis` `claude-code` `agentic-pod"]
 ---
 
+![Sketchnote diagram for: Thread Automations vs Claude Code Routines: How Scheduled Agent Execution Changes Everything](/sketchnotes/articles/2026-04-17-thread-automations-vs-claude-code-routines.png)
+
 # Thread Automations vs Claude Code Routines: How Scheduled Agent Execution Changes Everything
 
 

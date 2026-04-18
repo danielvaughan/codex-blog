@@ -5,6 +5,8 @@ nav_order: 304
 tags: ["installer", "rust-binary", "enterprise", "deployment", "node-elimination"]
 ---
 
+![Sketchnote diagram for: The Node.js-Free Codex CLI: Rust Binary Installer and Enterprise Deployment](/sketchnotes/articles/2026-04-16-nodejs-free-codex-cli-rust-binary-installer-enterprise-deployment.png)
+
 # The Node.js-Free Codex CLI: Rust Binary Installer and Enterprise Deployment
 
 

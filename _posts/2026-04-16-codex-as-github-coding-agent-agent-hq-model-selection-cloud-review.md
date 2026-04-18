@@ -5,6 +5,8 @@ nav_order: 299
 tags: ["github", "agent-hq", "coding-agents", "code-review", "model-selection", "cloud-agent", "enterprise", "agentic-workflows"]
 ---
 
+![Sketchnote diagram for: Codex as a GitHub Coding Agent: Agent HQ, Model Selection, and Cloud-Based Code Review](/sketchnotes/articles/2026-04-16-codex-as-github-coding-agent-agent-hq-model-selection-cloud-review.png)
+
 # Codex as a GitHub Coding Agent: Agent HQ, Model Selection, and Cloud-Based Code Review
 
 

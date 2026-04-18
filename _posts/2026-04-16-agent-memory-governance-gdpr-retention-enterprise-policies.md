@@ -5,6 +5,8 @@ nav_order: 305
 tags: ["memory", "gdpr", "data-governance", "enterprise", "retention", "compliance", "codex-cli"]
 ---
 
+![Sketchnote diagram for: Agent Memory Governance: GDPR, Data Retention, and Enterprise Memory Policies](/sketchnotes/articles/2026-04-16-agent-memory-governance-gdpr-retention-enterprise-policies.png)
+
 # Agent Memory Governance: GDPR, Data Retention, and Enterprise Memory Policies
 
 

@@ -7,6 +7,8 @@
 **Content age:** Current as of April 2026
 **Tags:** codex, openai, enterprise-adoption, gpt-5, agentic-delegation, roadmap, case-studies, codex-app, unified-agent-harness
 
+![Sketchnote: OpenAI Codex Day Keynote — Enterprise Adoption and Model Roadmap](/sketchnotes/articles/2026-04-16-openai-codex-day-keynote.png)
+
 ---
 
 ## Summary

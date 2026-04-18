@@ -5,6 +5,8 @@ nav_order: 313
 tags: ["code-review", "coderabbit", "cross-provider", "quality-gates", "review-fix-loop", "plugins", "codex-plugin-cc", "enterprise"]
 ---
 
+![Sketchnote diagram for: The Automated Review-Fix Loop: CodeRabbit, Cross-Provider Review, and Closing the Quality Gap in Agent-Generated Code](/sketchnotes/articles/2026-04-17-automated-review-fix-loop-coderabbit-cross-provider-quality-gates.png)
+
 # The Automated Review-Fix Loop: CodeRabbit, Cross-Provider Review, and Closing the Quality Gap in Agent-Generated Code
 
 

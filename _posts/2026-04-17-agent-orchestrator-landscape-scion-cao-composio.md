@@ -5,6 +5,8 @@ nav_order: 314
 tags: ["orchestration", "scion", "cao", "composio", "multi-agent", "agentic-pod", "kubernetes", "enterprise"]
 ---
 
+![Sketchnote diagram for: The Agent Orchestrator Landscape: Scion, CAO, ComposioHQ, and Choosing Your Multi-Agent Runtime](/sketchnotes/articles/2026-04-17-agent-orchestrator-landscape-scion-cao-composio.png)
+
 # The Agent Orchestrator Landscape: Scion, CAO, ComposioHQ, and Choosing Your Multi-Agent Runtime
 
 

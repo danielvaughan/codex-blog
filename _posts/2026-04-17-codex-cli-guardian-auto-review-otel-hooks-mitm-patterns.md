@@ -5,6 +5,8 @@ toc: true
 tags: [codex-cli, security, guardian, observability, hooks, enterprise]
 ---
 
+![Sketchnote diagram for: Codex CLI's Security Triple Play: Guardian Auto-Review, OTEL Hook Metrics, and MITM Pattern Matching](/sketchnotes/articles/2026-04-17-codex-cli-guardian-auto-review-otel-hooks-mitm-patterns.png)
+
 Three PRs merged on April 16, 2026 significantly strengthen Codex CLI's enterprise security and observability story. Together, they form a coherent security pipeline: detect suspicious patterns → auto-review with guardian → emit telemetry for audit.
 
 ## 1. Guardian Auto-Review (PR #18169)

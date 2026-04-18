@@ -5,6 +5,8 @@ nav_order: 309
 tags: ["codex-auto-review", "guardian", "specialised-models", "enterprise", "cost-management", "model-selection"]
 ---
 
+![Sketchnote diagram for: Purpose-Built Agent Models: What codex-auto-review Tells Us About the Future of Specialised AI](/sketchnotes/articles/2026-04-17-purpose-built-agent-models-codex-auto-review.png)
+
 # Purpose-Built Agent Models: What `codex-auto-review` Tells Us About the Future of Specialised AI
 
 

@@ -5,6 +5,8 @@ nav_order: 306
 tags: ["proactive-memory` `thread-automations` `self-directing` `super-app` `task-suggestions` `slack-notion` `scheduling"]
 ---
 
+![Sketchnote diagram for: From Reactive to Proactive: How Codex Memory + Thread Automations Create Self-Directing Agents](/sketchnotes/articles/2026-04-16-codex-proactive-memory-thread-automations-self-directing-agents.png)
+
 # From Reactive to Proactive: How Codex Memory + Thread Automations Create Self-Directing Agents
 
 

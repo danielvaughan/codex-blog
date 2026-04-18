@@ -5,6 +5,8 @@ nav_order: 312
 tags: ["computer-use", "macos", "gui-automation", "background-agents", "codex-app", "desktop", "parallel-agents", "accessibility", "testing"]
 ---
 
+![Sketchnote diagram for: Codex App Computer Use: Background GUI Automation on macOS Without Surrendering Your Desktop](/sketchnotes/articles/2026-04-17-codex-app-computer-use-macos-background-gui-automation.png)
+
 # Codex App Computer Use: Background GUI Automation on macOS Without Surrendering Your Desktop
 
 
@@ -201,6 +203,46 @@ With thread automations (also shipped in 26.415), Computer Use workflows can be 
 
 ⚠️ Automated Computer Use tasks require the Mac to remain unlocked and the target applications to remain accessible. If the Mac locks during a scheduled automation, the Computer Use operation fails silently [^6].
 
+## Community Reaction: "Absolutely Insane"
+
+Within 48 hours of launch, the developer community response to Computer Use has been overwhelmingly positive — and instructive about what resonates.
+
+### Why Developers Are Excited
+
+Federico Viticci at MacStories tested Computer Use extensively and called it **"the best computer use feature I have ever tested in any LLM or desktop agent"** [^10]. His test was revealing: when asked to play music in the Music app, Perplexity's Personal Computer failed ("stopped short of hitting the Play button because its AppleScript integration couldn't do it"), while Codex succeeded using its virtual cursor system. He also reported Codex automating a six-hour shortcut installation/testing/debugging workflow without manual intervention.
+
+Alexander Embiricos (OpenAI) described the technical basis: *"Background Computer Use…has some deep OS-level wizardry. Codex can see/click/type in apps in the background, without taking over your computer, and you can work in parallel"* [^11].
+
+### The AX Tree Advantage
+
+The architectural reason Codex's implementation outperforms competitors runs deeper than the background cursor. While Claude Computer Use and Perplexity Personal Computer rely on **screenshot capture and coordinate-based clicking** — essentially screen-scraping the GUI — Codex leverages macOS's **Accessibility framework (AX Tree)** to read the full structural hierarchy of application windows [^10]. This gives the agent semantic understanding of UI elements (buttons, text fields, menus, labels) rather than inferring them from pixel patterns.
+
+This technology traces back to OpenAI's **acquisition of Sky Applications** in autumn 2025 — the team behind the original Shortcuts/Workflow app at Apple [^12]. That acquisition brought deep expertise in macOS system-level integration and accessibility APIs, which is now directly visible in Computer Use's implementation quality.
+
+### Reddit Sentiment (r/codex)
+
+The r/codex community's reaction to the Computer Use update was captured in a post titled *"The updated Computer Use is absolutely insane"* [^13]. A broader analysis of 500+ Reddit comments across Codex threads (compiled by DEV Community) found [^14]:
+
+- **65.3%** direct preference for Codex over Claude Code
+- **79.9%** preference when weighted by upvotes
+- **68%** of developers cited higher first-try success rates
+
+Representative comments: *"Throw work at it, it disappears into its own VM, comes back with a PR"* and *"Usually gets it right on the first try. Weeks using Codex and I rarely need to ask twice."*
+
+### Cautionary Voices
+
+Not everyone is convinced. MacRumors forum users called it *"the worst idea ever"* and questioned AI control over personal computers [^15]. On Reddit, practical concerns surfaced: *"Give the CLI full autonomy and it rewrites massive amounts of code. Hard to track"* and *"Suggests too many extra tasks. Send one ticket, it handles half then asks 'Should I also do X?'"* These echo the cognitive load concerns documented in the [toxic flow research](2026-04-09-toxic-flow-addictive-exhausting-multi-agent-coding.md).
+
+### Emerging Use Cases
+
+Beyond the testing workflows covered earlier in this article, the community has reported success with:
+
+- **Multi-app information gathering** — scrolling through Slack, RSS readers, and Mastodon clients to compile summaries
+- **Frontend visual testing** — verifying UI changes across browsers and simulators in parallel
+- **GUI-only bug reproduction** — for defects that only manifest in graphical interfaces and cannot be triggered via CLI
+- **Desktop app testing** — applications with no API or CLI access
+- **Multi-day autonomous tasks** — using thread automations to schedule Computer Use operations across days, monitoring dashboards and responding to Slack messages
+
 ## Known Limitations
 
 - **macOS only** — no Windows or Linux support at launch [^4]
@@ -242,3 +284,9 @@ The decision hierarchy from OpenAI's own documentation is clear: plugins and MCP
 [^7]: [OpenAI Developers — "Features – Codex app"](https://developers.openai.com/codex/app/features)
 [^8]: [Anthropic — Claude Computer Use research preview, March 2026](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool)
 [^9]: [GitHub Changelog — "Claude Opus 4.7 is generally available", 16 April 2026](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/) — 98.5% visual acuity for computer use
+[^10]: [MacStories — "OpenAI's New Codex App Has the Best Computer Use Feature I've Ever Tested", April 2026](https://www.macstories.net/notes/openais-new-codex-app-has-the-best-computer-use-feature-ive-ever-tested/)
+[^11]: [Alexander Embiricos (OpenAI) on X, April 2026](https://x.com/embirico/status/2044833942856196378) — "Background Computer Use…has some deep OS-level wizardry"
+[^12]: [OpenAI acquisition of Sky Applications (formerly Workflow/Shortcuts team), autumn 2025](https://openai.com/index/codex-for-almost-everything/) — referenced in "Codex for (almost) everything" blog post
+[^13]: [Reddit r/codex — "The updated Computer Use is absolutely insane", April 2026](https://www.reddit.com/r/codex/comments/1snlvgy/the_updated_computer_use_is_absolutely_insane/)
+[^14]: [DEV Community — "Claude Code vs Codex 2026 — What 500+ Reddit Developers Really Think", April 2026](https://dev.to/_46ea277e677b888e0cd13/claude-code-vs-codex-2026-what-500-reddit-developers-really-think-31pb)
+[^15]: [MacRumors — "OpenAI Codex Update Adds Computer Use, Image Generation, and Memory on Mac", April 2026](https://www.macrumors.com/2026/04/16/openai-codex-mac-update/) — forum comments
