@@ -72,6 +72,18 @@
 
 ---
 
+## New Articles — Sourced from Research (2026-04-18)
+
+### High Priority
+
+1. **When to Use Multi-Agent vs Single-Agent: A Practical Framework for Codex CLI Teams**
+   - Source: arXiv:2604.01608 "From Multi-Agent to Single-Agent: When Is Skill Distillation Beneficial?" (Xu et al., April 2026)
+   - Scope: Translate the Metric Freedom framework into actionable guidance for Codex CLI agentic pods. When to use subagents vs. a single well-prompted agent with skills. Cost/latency tradeoffs (8× cheaper, 15× faster for rigid metrics). Practical decision tree: CI/CD agents → single-agent + skills; design review → multi-agent debate.
+   - Angle: Bridges academic research to practitioner workflow. Directly relevant to premium article #03 (The Agentic Pod) and the multi-agent orchestration article.
+   - SEO targets: "codex cli multi-agent vs single agent", "when to use subagents codex", "agentic workflow cost optimization"
+
+---
+
 ## New Articles — Sourced from Book Reader Feedback (2026-04-18)
 
 Reader feedback highlighted that the value of agentic engineering doesn't land fast enough — people need concrete "before and after" examples, not just theory. These article ideas bridge that gap by showing specific, pictureable outcomes.
