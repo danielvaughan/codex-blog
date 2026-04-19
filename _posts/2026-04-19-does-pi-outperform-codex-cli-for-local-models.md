@@ -152,6 +152,54 @@ A known issue with earlier Codex CLI versions: Qwen models would fail on the `de
 
 With Codex CLI v0.121.0 and Ollama v0.20.5, all four models — including both Qwen variants — worked without role-mapping errors. No `--oss` fallback was needed. This combination appears stable for Qwen models.
 
+## How Our Results Compare to Published Benchmarks
+
+A single-task benchmark on one machine tells you how these models performed *here*. Published benchmarks tell you how they perform *generally*. Comparing the two reveals whether our results are representative or anomalous.
+
+### The Models on Paper
+
+| Model | SWE-bench Verified | LiveCodeBench v6 | Terminal-Bench 2.0 | Active Params | Architecture |
+|-------|-------------------|------------------|-------------------|---------------|-------------|
+| **Qwen 3.6 35B-A3B** | **73.4** | **80.4** | **51.5** | 3B | MoE |
+| **Qwen3-Coder-Next 80B** | 70.6 | — | 36.2 | 3B | Hybrid MoE (512 experts) |
+| **Gemma 4 31B Dense** | ~52.0 | 80.0 | 42.9 | 31B | Dense |
+| **Gemma 4 26B MoE** | — | 77.1 | — | 3.8B | MoE |
+
+*Sources: [Qwen3.6 model card](https://www.alibabacloud.com/blog/qwen3-6-35b-a3b-agentic-coding-power-now-open-to-all_603043), [Qwen3-Coder-Next HuggingFace](https://huggingface.co/Qwen/Qwen3-Coder-Next), [Gemma 4 benchmarks](https://www.gemma4.wiki/benchmark/gemma-4-coding-performance-benchmarks-2026).*
+
+The ranking is striking. Qwen 3.6 — released just three days before this benchmark on April 16, 2026 — leads every coding benchmark. It scores 73.4 on SWE-bench Verified, competitive with frontier API models and 21 points above Gemma 4 31B Dense. Qwen3-Coder-Next, which Latent.Space describes as the "overwhelming consensus" pick for local coding agents, scores 70.6 — strong but slightly behind the newer, smaller Qwen 3.6.
+
+Both Gemma 4 variants trail on SWE-bench. The 31B Dense scores approximately 52.0 — respectable but in a different league from the Qwen models. The 26B MoE has no published SWE-bench score but likely sits lower. Where Gemma 4 shines is in agentic tool use: the 31B Dense scores 86.4% on tau2-bench, a massive jump from Gemma 3's broken 6.6%.
+
+### What the Benchmarks Predicted vs What We Measured
+
+**Qwen3-Coder-Next's test thoroughness was expected.** It wrote the most tests in our benchmark (19 under Pi, 15 under Codex minimal, 13 under Codex default). Community reports from XDA-Developers confirm this pattern: in a head-to-head test against four other local models, Qwen3-Coder-Next produced "clean project architecture, proper polling-based file watcher, and 14 passing tests" — described as "not even close" to the competition. Our results are consistent.
+
+**Qwen 3.6's test volume was also predicted by its benchmarks.** It wrote 16 tests under Codex default — second only to Qwen3-Coder-Next. Its SWE-bench Verified score of 73.4 suggests it should produce high-quality, comprehensive code, and it did. The working-directory bug under Pi (Finding 4) is a harness-model interaction issue, not a code quality issue.
+
+**Gemma 4's lower test counts match its benchmark position.** Both Gemma variants wrote 4–6 tests regardless of harness. This is consistent with a model that scores ~52 on SWE-bench producing functional but less comprehensive solutions. Community reports confirm Gemma 4 is "more consistent where it counts — actually compiling and running" but is not as thorough as the Qwen models in test generation.
+
+**The speed difference on dense vs MoE was predictable.** Gemma 4 31B Dense processes every token through all 31B parameters. The MoE models activate only 3–4B parameters per token. Published inference benchmarks show Gemma 4 26B MoE achieving approximately 150 tokens/second on consumer hardware versus significantly lower speeds for the 31B Dense. Pi's 2× speedup on the dense model (Finding 1) is a direct consequence: fewer prompt tokens × more parameters per token = larger absolute time savings.
+
+### What the Benchmarks Did Not Predict
+
+**Qwen3-Coder-Next and Qwen 3.6 were near-identical in speed on our task.** Despite Qwen3-Coder-Next being a much larger model (80B total parameters vs 35B), both activate approximately 3B parameters per token. Our timings — 170s vs 208s under Codex default — reflect this architectural similarity. The benchmark scores suggest Qwen 3.6 should be slightly better at coding (73.4 vs 70.6 on SWE-bench), and it did write more tests in our single run, but the speed difference was negligible.
+
+**The minimal prompt's inconsistency was not obvious from benchmarks.** Published benchmarks test models with their default configurations, not with stripped-down harnesses. The finding that removing system prompt instructions can *slow* models (Finding 2) has no analogue in standard benchmark suites. This is a real-world harness interaction that benchmarks do not capture.
+
+**Gemma 4 26B MoE's resilience to quantisation is well-documented** — community testing shows identical results across Q4_K_M, MXFP4, and Q5_K_M quant levels. Our test used Q4_K_M for all models, so quantisation effects should be minimal, but this is worth noting: the Gemma 4 MoE is particularly robust at lower precision, which matters for the GB10's memory-constrained environment.
+
+### Community Consensus: Which Model for Local Coding?
+
+The r/LocalLLaMA and Latent.Space consensus as of April 2026:
+
+- **For agentic coding (IDE integration, tool-calling):** Qwen3-Coder-Next remains the default recommendation due to months of community testing and proven IDE integration with Claude Code, Cline, and Codex CLI. Its SecCodeBench score of 61.2% — above Claude Opus 4.5's 52.5% — makes it a strong choice for security-conscious code generation.
+- **For raw coding benchmarks:** Qwen 3.6 35B-A3B leads on every published metric but was released only three days before our benchmark. Less community validation exists.
+- **For daily-driver use (speed + quality):** Gemma 4 26B MoE is described by Latent.Space as "the better default for most English-first users doing coding and document work" due to its speed (~150 t/s), quantisation resilience, and ability to fit in ~8GB VRAM.
+- **For maximum reasoning quality:** Gemma 4 31B Dense, when you have the VRAM budget for it.
+
+Our benchmark adds one data point to this picture: the harness matters less than the model, MoE models neutralise prompt overhead, and MCP schema bloat is the optimisation most people are overlooking.
+
 ## Conclusions
 
 **Pi's speed advantage is real but architecture-specific.** On the one dense model tested (Gemma 4 31B), Pi's 2× speedup is significant and directly attributable to lower prefill cost from its minimal prompt. On MoE models, the advantage vanishes because prefill cost scales with active parameters, not total parameters.
@@ -172,3 +220,13 @@ With Codex CLI v0.121.0 and Ollama v0.20.5, all four models — including both Q
 ---
 
 *Benchmark run: 19 April 2026, Starbucks Cambridge → Clayton Hotel lobby. Hardware: NVIDIA GB10 (128 GB unified). All raw logs and configuration files available in [`projects/gemma4-qwen36/`](../projects/gemma4-qwen36/).*
+
+### Sources
+
+- [Qwen3-Coder-Next model card (HuggingFace)](https://huggingface.co/Qwen/Qwen3-Coder-Next) — SWE-bench Verified 70.6, SWE-bench Pro 44.3, SecCodeBench 61.2%
+- [Qwen3.6-35B-A3B announcement (Alibaba Cloud)](https://www.alibabacloud.com/blog/qwen3-6-35b-a3b-agentic-coding-power-now-open-to-all_603043) — SWE-bench Verified 73.4, Terminal-Bench 2.0 51.5, LiveCodeBench v6 80.4
+- [Gemma 4 coding performance benchmarks](https://www.gemma4.wiki/benchmark/gemma-4-coding-performance-benchmarks-2026) — LiveCodeBench v6 80.0, tau2-bench 86.4%
+- [XDA: Qwen3-Coder-Next vs 4 local models](https://www.xda-developers.com/tested-qwen3-coder-next-four-local-ai-coding-models-gap-embarassing/) — "one of the best local models out there, and it's not even that close"
+- [Latent.Space: Top local models, April 2026](https://www.latent.space/p/ainews-top-local-models-list-april) — Qwen3-Coder-Next described as "the overwhelming consensus"
+- [The Decoder: Qwen3.6 vs Gemma 4](https://the-decoder.com/alibabas-open-model-qwen3-6-leads-googles-gemma-4-across-agentic-coding-benchmarks/) — head-to-head benchmark comparison
+- [Quantised Go coding benchmark: Gemma 4 vs Qwen](https://msf.github.io/blogpost/local-llm-coding-harder-test.html) — real-world compilation and runtime testing
