@@ -65,7 +65,7 @@
     - Scope: Guardian approval configuration reference, policy examples
     - Note: Existing guardian articles may cover this — enhance with "guardian_approval" keyword
 
-4. **OpenAI Codex CLI Official Documentation Guide (2026)**
+4. ~~**OpenAI Codex CLI Official Documentation Guide (2026)**~~ ✅ Written 2026-04-19 → `2026-04-19-openai-codex-cli-official-documentation-guide.md`
     - Source: "openai codex cli official docs 2026" (20 impressions, 0 clicks)
     - Scope: Curated guide to official documentation, getting started pathway, resource directory
     - Note: High impressions — users want an authoritative docs starting point
