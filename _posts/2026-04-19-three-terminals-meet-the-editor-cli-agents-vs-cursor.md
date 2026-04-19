@@ -50,12 +50,12 @@ Neither side is wrong. The question is which trade-offs matter for your workflow
 | **Open source** | Yes (Apache 2.0) | No | Yes (Apache 2.0) | No (proprietary, VS Code fork) |
 | **Tab completion** | No | No | No | Yes (Cursor Tab — proprietary model) |
 | **Inline editing** | No | No | No | Yes (Cmd+K, visual diffs) |
-| **Multi-model switching** | No (OpenAI only) | No (Anthropic only) | No (Google only) | Yes (switch mid-session) |
+| **Multi-model switching** | No (OpenAI default; local models via `model_providers`) | No (Anthropic only) | No (Google only) | Yes (switch mid-session) |
 | **MCP support** | Yes | Yes | Yes | Yes (5,000+ marketplace servers) |
 | **AGENTS.md** | Native | Via fallback | Native | Supported |
-| **Multimodal input** | Text only | Text, images | Text, images, PDFs, video | Text, images (paste/drag) |
+| **Multimodal input** | Text, images (via `--image` flag)[^12] | Text, images | Text, images, PDFs, video | Text, images (paste/drag) |
 
-The first thing that jumps out: **Cursor is the only tool that supports multiple model providers natively.** The three CLI agents are each locked to their parent company's models. Cursor lets you switch between GPT-5.4, Claude Opus 4.6, Gemini 3 Pro, and its own proprietary Composer model within a single session. For a developer who wants the best model for each sub-task without switching tools, this is a genuine advantage.
+The first thing that jumps out: **Cursor offers the broadest multi-model switching within a single session.** While Codex CLI supports local models via `model_providers` (Ollama, llama.cpp) and custom endpoints, it cannot natively call Anthropic or Google APIs — you need a gateway or a different tool. Claude Code and Gemini CLI are locked to their parent company's models. Cursor lets you switch between GPT-5.4, Claude Opus 4.6, Gemini 3 Pro, and its own proprietary Composer model within a single session, though its Agent and Edit features are restricted to Cursor's custom models and cannot use BYOK keys.
 
 The second: **Cursor is the only tool with tab completion.** The CLI agents do not predict your next edit as you type. They respond to prompts. Cursor Tab runs a specialised model that watches your edits and predicts multi-line completions in real time. This is a different category of assistance — it augments typing rather than replacing it.
 
@@ -85,7 +85,7 @@ This is where the philosophical split creates real trade-offs:
 
 | Dimension | Codex CLI | Claude Code | Gemini CLI | Cursor |
 |-----------|-----------|-------------|------------|--------|
-| **Isolation mechanism** | OS kernel (Seatbelt, Landlock, seccomp) | Application-layer hooks (21 events) | OS kernel + Docker/gVisor/LXC options | Application-layer approval + sandbox (Seatbelt/Landlock/seccomp) |
+| **Isolation mechanism** | OS kernel (Seatbelt, Landlock, seccomp) | Application-layer hooks (28 events)[^14] | OS kernel + Docker/gVisor/LXC options | Application-layer approval + hooks + sandbox (Seatbelt/Landlock/seccomp) |
 | **Network access** | Disabled by default | Configurable via hooks | Configurable per sandbox profile | Approval-gated |
 | **Sandbox enabled by default** | Yes | Hooks require setup | No (opt-in via `-s` flag) | Yes (GA, agents stop 40% less often) |
 | **Self-hostable** | Yes (Apache 2.0) | No | Yes (Apache 2.0) | No |
@@ -93,7 +93,7 @@ This is where the philosophical split creates real trade-offs:
 
 Cursor added OS-level sandboxing in early 2026 — Seatbelt on macOS, Landlock + seccomp on Linux, WSL2-based on Windows. This narrows the gap with Codex CLI and Gemini CLI. However, Cursor's sandbox is focused on the agent's terminal commands; the IDE itself has full filesystem access. The CLI agents' sandbox applies to the entire execution environment.
 
-Cursor's `.cursorignore` is a useful addition that the CLI agents lack in the same form. Files listed in `.cursorignore` are completely invisible to the AI — not just excluded from edits, but excluded from reading and codebase indexing. For repositories with sensitive configuration files, credentials, or proprietary code sections, this is a clean solution.
+Cursor's `.cursorignore` is a useful addition that the CLI agents lack in the same form. Files listed in `.cursorignore` are excluded from reading and codebase indexing, though Cursor's own documentation notes this is "best-effort" — files are not guaranteed to be blocked in all cases. For repositories with sensitive configuration files or proprietary code sections, it provides a reasonable layer of protection, but should not be the sole security control for truly sensitive files.
 
 ## Customisation Comparison
 
@@ -159,14 +159,15 @@ Cursor's BYOK situation is complicated. It was announced for partial deprecation
 
 | Feature | Codex CLI | Claude Code | Gemini CLI | Cursor |
 |---------|-----------|-------------|------------|--------|
-| **Hook events** | 5 (SessionStart, Stop, UserPromptSubmit, PreToolUse, PostToolUse) | 21 lifecycle events | 10+ (BeforeTool, AfterTool, BeforeAgent, AfterAgent, BeforeModel, AfterModel, etc.) | No hook system |
-| **Pre-execution validation** | PreToolUse (Bash only) | PreToolUse (all tools) | BeforeTool (all tools) | Approval prompts only |
-| **Post-execution audit** | PostToolUse (Bash only) | PostToolUse (all tools) | AfterTool + AfterAgent | No |
+| **Hook events** | 5 (SessionStart, Stop, UserPromptSubmit, PreToolUse, PostToolUse) | 28 lifecycle events[^14] | 11 (BeforeTool, AfterTool, BeforeAgent, AfterAgent, BeforeModel, AfterModel, etc.) | 7+ (beforeShellExecution, beforeMCPExecution, afterMCPExecution, beforeReadFile, afterFileEdit, beforeSubmitPrompt, stop)[^13] |
+| **Pre-execution validation** | PreToolUse (Bash only) | PreToolUse (all tools) | BeforeTool (all tools) | beforeShellExecution, beforeMCPExecution, beforeReadFile |
+| **Post-execution audit** | PostToolUse (Bash only) | PostToolUse (all tools) | AfterTool + AfterAgent | afterMCPExecution, afterFileEdit |
 | **Custom tool creation** | Via MCP servers | Via MCP servers | Via MCP servers + custom agents | Via MCP servers + VS Code extensions |
+| **Security partner integrations** | Community-built | Community-built | Community-built | Semgrep, Snyk, Noma, MintMCP, Oasis, 1Password[^13] |
 
-**Cursor has no hook system.** This is the single largest customisation gap between Cursor and the CLI agents. Hooks let enterprise teams enforce policies programmatically — blocking destructive commands, logging every file write, requiring approval for network access, validating outputs against schema. Without hooks, Cursor's governance is limited to manual approval prompts and sandbox policies.
+**All four tools now have hook systems**, though they differ significantly in breadth. Claude Code leads with 28 lifecycle events across 9 categories — including subagent, compaction, worktree, and MCP events. Gemini CLI has 11 event types. Cursor, which added hooks in October 2025 (Cursor 1.7)[^13], has 7+ events focused on shell execution, MCP, file operations, and prompt submission. Codex CLI has the narrowest surface with 5 events, and PreToolUse/PostToolUse currently fire only for Bash tool calls.
 
-For Stage 3 and Stage 4 teams in Daniel's adoption model — where agents run with minimal oversight and governance must be automated — the absence of hooks is a significant limitation.
+For Stage 3 and Stage 4 teams in Daniel's adoption model — where agents run with minimal oversight and governance must be automated — the depth of the hook system matters. Claude Code's 28-event surface covers the widest range of governance scenarios. Cursor's hooks, while newer, have attracted security vendor integrations (Semgrep, Snyk, 1Password) that the CLI agents' hook ecosystems have not yet matched.
 
 ### Context and Memory
 
@@ -193,12 +194,12 @@ Cursor's **Notepads** serve a similar role to AGENTS.md sections but are managed
 | **$60/mo** | — | — | — | Pro+ (3x credits) |
 | **$100/mo** | Pro 5x | Max 5x | — | — |
 | **$200/mo** | Pro 20x | Max 20x | — | Ultra (20x usage) |
-| **Team** | Enterprise (custom) | $150/user/mo (Max plan) | Via Google Workspace | $40/user/mo |
+| **Team** | Enterprise (custom) | $100/user/mo (Max plan) | Via Google Workspace | $40/user/mo |
 | **Billing model** | Subscription + API overflow | Subscription + API overflow | Free tier + API pay-as-you-go | Credit-based (monthly pool) |
 
 Cursor's pricing is competitive at the individual level — $20/mo Pro matches the CLI agents' entry tiers. But the credit-based billing model (introduced June 2025) means your monthly allowance depletes based on which model you use. Heavy use of Claude Opus 4.6 through Cursor burns credits faster than using Claude Sonnet.
 
-For teams, Cursor at $40/user/mo is significantly cheaper than Claude Code's Team/Max pricing at $150/user/mo, but more expensive than the Codex Plus + Gemini Free combination at $20/user/mo.
+For teams, Cursor at $40/user/mo is significantly cheaper than Claude Code's Team/Max pricing at $100/user/mo, but more expensive than the Codex Plus + Gemini Free combination at $20/user/mo.
 
 ## When Cursor Wins
 
@@ -222,7 +223,7 @@ The terminal agents are the right choice when:
 
 1. **CI/CD integration is required.** `codex exec`, `claude -p`, and `gemini -p` run headlessly in pipelines. Cursor cannot.
 
-2. **Programmable governance is non-negotiable.** Hooks give you pre-execution validation, post-execution audit, and automated policy enforcement. Cursor has no hook system.
+2. **Deep programmable governance is needed.** Claude Code's 28-event hook system covers subagents, compaction, worktrees, and MCP — the widest governance surface. Cursor has hooks (7+ events) but a narrower surface than the CLI leaders. Codex CLI's 5 events are the most limited.
 
 3. **Context window size matters.** 1M tokens (CLI agents) vs ~70-120K usable (Cursor). For large codebase analysis or long sessions, the CLI agents have 8-14x more working memory.
 
@@ -280,11 +281,11 @@ Cursor and the CLI agents are not competing for the same niche. They are competi
 | **Batch execution** | Codex CLI | Token efficient, kernel sandbox, subagent parallelism |
 | **CI/CD pipelines** | Codex CLI or Gemini CLI | Headless execution, scriptable |
 | **Front-end design iteration** | Cursor | Design Mode, visual browser annotation |
-| **Enterprise governance** | Claude Code or Codex CLI | Hooks, audit logging, self-hosting |
+| **Enterprise governance** | Claude Code (28 hooks) or Cursor (security partner integrations) | Deepest hook surface + self-hosting (CLI) or vendor integrations (Cursor) |
 | **Cost-constrained exploration** | Gemini CLI | 1,000 free requests/day |
 | **Running local models** | Codex CLI | Mature provider config, custom system prompts, profile switching |
 
-The three terminals and the editor are not three fates plus one. They are four tools for four different moments in a developer's day. The convergence thesis from Article 09 still holds — MCP, AGENTS.md, and the four core tools (Read, Search, Edit, Execute) are becoming universal infrastructure. But Cursor adds capabilities that no terminal can replicate (tab completion, semantic indexing, visual diffs), just as the terminals add capabilities that no IDE can replicate (headless CI/CD, programmable hooks, 1M-token context, full scriptability).
+The three terminals and the editor are not three fates plus one. They are four tools for four different moments in a developer's day. The convergence thesis from Article 09 still holds — MCP, AGENTS.md, and the four core tools (Read, Search, Edit, Execute) are becoming universal infrastructure. But Cursor adds capabilities that no terminal can replicate (tab completion, semantic indexing, visual diffs, Design Mode), just as the terminals add capabilities that Cursor cannot match (headless CI/CD, 1M-token context, full scriptability, self-hosting).
 
 Invest in the shared layer. Use the right tool for the moment. The editor and the terminal are not rivals — they are complements.
 
@@ -305,3 +306,6 @@ Invest in the shared layer. Use the right tool for the moment. The editor and th
 [^9]: Cursor pricing breakdown via Vantage, 2026. Credit-based billing, tier comparison. https://www.vantage.sh/blog/cursor-pricing-explained
 [^10]: Cursor MCP documentation. 5,000+ community-built MCP servers, Marketplace for one-click installation. https://cursor.com/docs/mcp
 [^11]: Premium article 09, "Three Terminals, Three Fates," for CLI agent feature matrix, benchmarks, and convergence analysis. System prompt comparison data from "The DNA of Coding Agents" article.
+[^12]: Codex CLI image input: `--image` (or `-i`) flag accepts PNG, JPEG, GIF, and WebP files. Full-resolution image inspection and `view_image` tool stable since March 2026. https://developers.openai.com/codex/cli/features
+[^13]: Cursor Hooks, added in Cursor 1.7 (October 2025). Events: `beforeShellExecution`, `beforeMCPExecution`, `afterMCPExecution`, `beforeReadFile`, `afterFileEdit`, `beforeSubmitPrompt`, `stop`. Security partner integrations: Semgrep, Snyk, Noma, MintMCP, Oasis, 1Password. https://cursor.com/docs/hooks and https://cursor.com/blog/hooks-partners
+[^14]: Claude Code hooks: 28 lifecycle events across 9 categories (session, per-turn, tool execution, subagent, task, compaction, file/config, worktree, MCP). https://code.claude.com/docs/en/hooks
