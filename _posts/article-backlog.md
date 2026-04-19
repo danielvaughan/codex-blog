@@ -232,3 +232,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: arXiv:2604.03196 "From Industry Claims to Empirical Reality" (Chowdhury et al., April 2026, MSR '26)
     - Scope: 60.2% of CRA-only PRs have signal-to-noise below 30%. 12 of 13 CRAs below 60% signal. 23-point merge rate gap between CRA-only and human-only reviews. Five configuration patterns for Codex CLI /review to avoid the noise trap: scoped code_review.md, layered hooks, CI integration with codex exec, cross-model review, feedback-loop memory.
     - SEO targets: "codex cli code review", "code review agent noise", "automated code review quality"
+
+---
+
+## New Articles — Sourced from Research (2026-04-19, Late Night Hourly Scan)
+
+### Medium Priority
+
+1. ~~**Engineering Pitfalls in AI Coding Tools: What 3,864 Bugs Reveal About Codex, Claude Code, and Gemini CLI**~~ ✅ Written 2026-04-19 → `2026-04-19-engineering-pitfalls-ai-coding-tools-3864-bugs-codex-claude-gemini.md`
+    - Source: arXiv:2603.20847 "Engineering Pitfalls in AI Coding Tools" (Zhang et al., March 2026)
+    - Scope: 3,864 bugs analysed across Claude Code, Codex CLI, Gemini CLI. 67% functional bugs, but only 10% trace to AI reasoning — 37.6% originate in tool/API orchestration layer. apply_patch sandbox regressions as case study. Four practical lessons for Codex CLI configuration.
+    - SEO targets: "codex cli bugs", "AI coding tool reliability", "codex cli troubleshooting"
