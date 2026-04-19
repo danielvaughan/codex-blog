@@ -151,6 +151,23 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ---
 
+## New Articles — Sourced from Research (2026-04-19, Late Hourly Scan)
+
+### Medium Priority
+
+1. **The Harness Effect: Why the Same Model Scores 16 Points Higher in a Different Tool**
+    - Source: Pawel Jozefiak comparison ([thoughts.jock.pl](https://thoughts.jock.pl/p/ai-coding-harness-agents-2026), April 15, 2026) + arXiv:2604.11839 Aethelgard (Sidik & Rokach, April 12, 2026)
+    - Scope: Claude Opus in Cursor scores 93% vs 77% in Claude Code on the same benchmark — a 16-point "harness effect." Combine with the Aethelgard paper's finding that tools hide/expose matters more than model capability. Show how Codex CLI's AGENTS.md, permission profiles, and hooks function as harness tuning. Include the Jozefiak finding that Codex coherence degrades at step 3-4 but excels at focused front-end work. Practical guide to maximizing harness effect with Codex.
+    - SEO targets: "harness effect coding agents", "codex cli vs claude code benchmark", "harness engineering practical guide"
+    - Cross-reference: [notes/harness-comparison-jozefiak-six-tools-april-2026](#), [notes/aethelgard-learned-capability-governance-2604-11839](#)
+
+2. **Learned Capability Governance: What Aethelgard Means for Codex Permission Profiles**
+    - Source: arXiv:2604.11839 (Sidik & Rokach, April 12, 2026)
+    - Scope: Static permission profiles vs learned least-privilege. The 15x capability overprovisioning problem. How Codex's PreToolUse hooks + OTEL metrics (#18026) could feed into an Aethelgard-style RL policy. Practical enterprise angle: auto-narrowing tool surfaces for agentic pods based on audit data.
+    - SEO targets: "codex cli permission profiles", "agent capability governance", "least privilege coding agents"
+
+---
+
 ## New Articles — Sourced from Research (2026-04-19, Hourly Scan)
 
 ### High Priority
