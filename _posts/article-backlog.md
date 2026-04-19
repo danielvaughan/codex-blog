@@ -164,3 +164,8 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: Issue #18541 (April 19 2026) + observed Codex App behavior
     - Scope: Explain the new Ambient Suggestions feature, its implications for proactive agent UX, hook lifecycle challenges, and connection to Goal Mode. Include the Unity Editor integration case study as a real-world hooks integration example.
     - SEO targets: "codex ambient suggestions", "proactive coding agent", "codex hooks integration"
+
+3. ~~**Formal Architecture Descriptors: Cutting Codex CLI Navigation Overhead by a Third**~~ ✅ Written 2026-04-19 → `2026-04-19-formal-architecture-descriptors-navigation-primitives-codex-cli.md`
+    - Source: arXiv:2604.13108 "Formal Architecture Descriptors as Navigation Primitives for AI Coding Agents" (Jin, April 2026)
+    - Scope: How formal architecture descriptors (intent.lisp) reduce navigation steps by 33-44% in controlled experiments. S-expression vs JSON vs YAML error resilience. Auto-generated descriptors matching hand-curated accuracy. 7,012-session field study showing 52% variance reduction. Practical integration with Codex CLI and AGENTS.md.
+    - SEO targets: "codex cli architecture descriptor", "intent.lisp codex", "reduce agent navigation overhead"
