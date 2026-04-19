@@ -221,3 +221,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: Official single-file planning pattern for extended sessions. AGENTS.md integration via ExecPlan shorthand. Template structure (8 required sections). Comparison with the 4-file durable memory pattern from the 25-hour blog post. Practical application for agentic pods: template ExecPlans for subagents, orchestrator plan review, worktree+plan pairing.
     - SEO targets: "codex cli plans.md", "codex long session planning", "execplan codex agent"
     - Cross-reference: [notes/openai-cookbook-plans-md-multi-hour-sessions](#)
+
+---
+
+## New Articles — Sourced from Research (2026-04-19, Night Hourly Scan)
+
+### Medium Priority
+
+1. ~~**Why Code Review Agents Produce 60% Noise — and How to Configure Codex CLI Reviews That Don't**~~ ✅ Written 2026-04-19 → `2026-04-19-code-review-agents-noise-problem-codex-cli-review-configuration.md`
+    - Source: arXiv:2604.03196 "From Industry Claims to Empirical Reality" (Chowdhury et al., April 2026, MSR '26)
+    - Scope: 60.2% of CRA-only PRs have signal-to-noise below 30%. 12 of 13 CRAs below 60% signal. 23-point merge rate gap between CRA-only and human-only reviews. Five configuration patterns for Codex CLI /review to avoid the noise trap: scoped code_review.md, layered hooks, CI integration with codex exec, cross-model review, feedback-loop memory.
+    - SEO targets: "codex cli code review", "code review agent noise", "automated code review quality"
