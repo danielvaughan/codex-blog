@@ -216,7 +216,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - SEO targets: "codex cli policy enforcement", "agent security hooks", "deterministic agent governance"
     - Cross-reference: [notes/pcas-policy-compiler-agentic-systems-2602-16708](#)
 
-2. **The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md**
+2. ~~**The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md**~~ ✅ Written 2026-04-19 → `2026-04-19-the-execplan-pattern-structuring-long-codex-sessions-with-plans-md.md`
     - Source: OpenAI Cookbook — "Using PLANS.md for multi-hour problem solving" (Aaron Friel, October 2025)
     - Scope: Official single-file planning pattern for extended sessions. AGENTS.md integration via ExecPlan shorthand. Template structure (8 required sections). Comparison with the 4-file durable memory pattern from the 25-hour blog post. Practical application for agentic pods: template ExecPlans for subagents, orchestrator plan review, worktree+plan pairing.
     - SEO targets: "codex cli plans.md", "codex long session planning", "execplan codex agent"
