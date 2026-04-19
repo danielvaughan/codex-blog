@@ -28,45 +28,52 @@ The architectural difference is telling. Codex CLI ships separate markdown files
 
 ## Size Comparison
 
-| Metric | Codex CLI (GPT-5.4) | Codex CLI (GPT-5.1, full) | Gemini CLI | Claude Code | Pi |
-|--------|---------------------|--------------------------|------------|-------------|-----|
-| **Characters** | ~14,700 | ~24,200 | ~35,000-40,000 | ~13,600 (core) | ~1,500 |
-| **Words** | ~2,400 | ~3,900 | ~5,500-6,000 | ~2,500 (core) | ~350 |
-| **Estimated tokens** | ~3,500-4,000 | ~5,000-6,000 | ~7,700 | ~3,400 (core) | ~400 |
+Codex CLI ships two tiers: full prompts for base GPT models that need tool documentation inline, and compact prompts for fine-tuned "Codex" models that already understand the tools[^5]:
 
-The range is staggering — Gemini CLI's prompt is roughly **19x larger** than Pi's. But raw prompt size understates the real gap. When you include tool definitions serialised as JSON schemas, the total overhead that each harness consumes before any user content arrives is:
+| Prompt File | Characters | Words | Est. Tokens |
+|-------------|-----------|-------|-------------|
+| **Codex CLI** `gpt_5_1_prompt.md` (full) | 24,224 | 3,924 | ~6,000 |
+| **Codex CLI** `gpt-5.2-codex_prompt.md` (compact) | 7,589 | 1,215 | ~1,900 |
+| **Codex CLI** `gpt_5_codex_prompt.md` (compact) | 6,647 | 1,082 | ~1,700 |
+| **Gemini CLI** assembled from `snippets.ts` | ~20,000-24,000 | ~3,500-4,000 | ~5,000-6,000 |
+| **Claude Code** assembled from `cli.mjs` | varies by context | varies | ~3,000-5,000 (core) |
+| **Pi** `system-prompt.ts` | ~1,335 | ~181 | ~350 |
+
+The range is significant — Codex CLI's full prompt is roughly **22x larger** than Pi's by word count. But raw prompt text size understates the real gap because tool definitions are serialised as JSON schemas alongside the prompt. When you include everything sent in the initial API call, the total overhead is:
 
 | Metric | Codex CLI | Gemini CLI | Claude Code | Pi |
 |--------|----------|------------|-------------|-----|
-| **Total initial payload (prompt + tools)** | **~27,000 tokens** | ~10,000-12,000 | ~6,000-10,000 | **<1,000 tokens** |
+| **Total initial payload (prompt + tools + context)** | **~8,500 tokens** (baseline)[^2] | ~10,000-13,000[^6] | ~6,000-10,000[^7] | **<1,000 tokens** |
 
-That Codex CLI figure — ~27,000 tokens — is not a typo. It has been independently verified by multiple users hitting "context too small" errors when running Codex with local models at 32K context[^2]. The system prompt text itself is only ~5,000-6,000 tokens, but serialised tool definitions (shell/exec, apply_patch with its full grammar specification, update_plan, code-mode tools, plus any registered MCP tools) account for the remaining ~20,000 tokens. Codex CLI's tool schemas are the most verbose of any coding agent because they include the entire `apply_patch` specification language inline.
+The Codex CLI figure comes from independent measurement by Alex Fazio, who traced the actual API calls in Codex CLI v0.114.0 and measured ~8,497 input tokens for a minimal session (system prompt + tool definitions + trivial user message). With features like `multi_agent` enabled, it rises to ~10,140 tokens[^2]. The standalone `apply_patch` tool instructions are ~3,084 characters (~800 tokens)[^5] — a meaningful chunk but not the dominant factor.
 
-Pi's creator Mario Zechner argues this is over-engineering: "All the frontier models have been RL-trained up the wazoo, so they inherently understand what a coding agent is. There does not appear to be a need for 10,000 tokens of system prompt."[^3] Pi ships exactly four tools — `read`, `write`, `edit`, `bash` — with minimal schemas, and lets the model figure out the rest.
+**A note on higher figures:** Some users running Codex CLI with local models via Ollama have reported "context too small" errors at 32K, leading to community claims of ~27,000-token overhead. These figures likely reflect sessions with large AGENTS.md files, registered MCP tools, loaded skills, and other injected context rather than the base system prompt alone. Your actual overhead depends on what you have configured.
 
-Gemini CLI's system prompt is the largest by a significant margin — roughly double Claude Code's core prompt. This has real cost implications: GitHub issue #3784 flagged that two trivial math queries consumed ~13,055 input tokens because the system prompt is resent with every API call.
+Pi's creator Mario Zechner argues the Big Three are over-engineering: "All the frontier models have been RL-trained up the wazoo, so they inherently understand what a coding agent is. There does not appear to be a need for 10,000 tokens of system prompt."[^3] Pi ships exactly four tools — `read`, `write`, `edit`, `bash` — with minimal schemas, and lets the model figure out the rest.
 
-Codex CLI maintains two tiers: full prompts (~24K chars) for base GPT models that need tool documentation inline, and compact prompts (~7K chars) for fine-tuned Codex models that already understand the tools. This is an elegant solution to the token-budget problem — if the model already knows `apply_patch`, why waste tokens explaining it every turn?
+Gemini CLI's assembled prompt is the largest. GitHub issue #3784 flagged that two trivial math queries consumed ~13,055 input tokens because the system prompt is resent with every API call[^6].
 
-Claude Code's core prompt is the most compact at ~13,600 characters, but this is deceptive. Tool definitions are sent separately as schemas, and CLAUDE.md files, auto-memory, and environment details inflate the effective total to an estimated 6,000-10,000+ tokens.
+Codex CLI's two-tier approach is an elegant solution to the token-budget problem — the compact prompts (~7K chars) for fine-tuned Codex models save roughly two-thirds of the text compared to the full prompts (~24K chars). If the model already knows `apply_patch`, why waste tokens explaining it every turn?
+
+Claude Code's core prompt is compact, but tool definitions are sent separately as schemas, and CLAUDE.md files, auto-memory, and environment details inflate the effective total.
 
 ### The Local Model Implication
 
-This size difference is academic when you are hitting a cloud API with a 200K context window. It becomes existential when you are running a local model at 32K or 64K context:
+This size difference is manageable when hitting a cloud API with a 200K context window. It becomes significant when running a local model at 32K or 64K context:
 
-| Context Window | Codex CLI (~27K overhead) | Pi (~1K overhead) |
-|----------------|--------------------------|-------------------|
-| **32K** | ~5K tokens left for work — **nearly unusable** | ~31K tokens — full workspace |
-| **64K** | ~37K tokens — adequate | ~63K tokens — spacious |
-| **128K** | ~101K tokens — comfortable | ~127K tokens — barely notice it |
+| Context Window | Codex CLI (~8.5K baseline) | Codex CLI (with AGENTS.md + MCP) | Pi (~1K overhead) |
+|----------------|---------------------------|----------------------------------|-------------------|
+| **32K** | ~23.5K — usable | ~15-20K — tight | ~31K — spacious |
+| **64K** | ~55.5K — comfortable | ~47-52K — adequate | ~63K — barely notice it |
+| **128K** | ~119.5K — plenty | ~111-116K — plenty | ~127K — negligible |
 
-This is why practitioners running local models on devices like the NVIDIA GB10 or Apple Silicon Macs report dramatically better results with Pi than with Codex CLI — not because Pi is a better agent, but because it leaves the model room to actually read your code[^4].
+The baseline gap (~7.5K tokens) is meaningful but not dramatic. Where it matters most is when Codex CLI is loaded with project context — AGENTS.md files, MCP tool schemas, skills, and hierarchical context files can push the real overhead well above the baseline, and that is where Pi's minimalism becomes genuinely advantageous for local-model workflows[^4].
 
 ## Identity: Who Does the Agent Think It Is?
 
 The opening line of a system prompt establishes identity. Each tool makes a different bet:
 
-**Codex CLI (GPT-5.4):**
+**Codex CLI** (from `gpt_5_1_prompt.md`[^5]):
 > "You are a deeply pragmatic, effective software engineer."
 
 **Gemini CLI:**
@@ -78,7 +85,7 @@ The opening line of a system prompt establishes identity. Each tool makes a diff
 **Pi:**
 > "You are an expert coding assistant operating inside pi, a coding agent harness."
 
-Codex CLI's identity is the boldest — it claims to *be* a software engineer, not just play one. The GPT-5.4 version goes further, declaring explicit values: "Clarity, Pragmatism, Rigor." It adds: "You avoid cheerleading, motivational language, or artificial reassurance, or any kind of fluff."
+Codex CLI's identity is the boldest — it claims to *be* a software engineer, not just play one. The full prompt goes further, declaring explicit values and adding: "You avoid cheerleading, motivational language, or artificial reassurance, or any kind of fluff."[^5]
 
 Gemini CLI names itself — "You are Gemini CLI" — anchoring the agent to a specific product identity. Claude Code is the most modest, describing itself simply as "an interactive agent that helps." Pi splits the difference — "expert coding assistant" is confident but qualified by "operating inside pi," which grounds the model in the harness context without over-specifying behaviour.
 
@@ -100,7 +107,7 @@ The spectrum is clear: Gemini is the most proactive (sometimes problematically s
 
 ### On Code Quality
 
-**Codex CLI (GPT-5.4):** "Avoid collapsing into 'AI slop' or safe, average-looking layouts. Aim for interfaces that feel intentional, bold, and a bit surprising." It specifically calls out purple-on-white defaults, Inter/Roboto/Arial fonts, and dark mode bias.
+**Codex CLI:** "Avoid collapsing into 'AI slop' or safe, average-looking layouts. Aim for interfaces that feel intentional, bold, and a bit surprising."[^5] The prompt specifically calls out purple-on-white defaults, Inter/Roboto/Arial fonts, and dark mode bias.
 
 **Claude Code:** "Three similar lines of code is better than a premature abstraction." And: "Don't add docstrings, comments, or type annotations to code you didn't change."
 
@@ -133,9 +140,9 @@ Claude Code's anti-abstraction stance ("three similar lines > premature abstract
 
 ### On Output Verbosity
 
-All three fight the same battle: stopping the model from being too chatty.
+All four fight the same battle: stopping the model from being too chatty.
 
-**Codex CLI (GPT-5.1/5.2):** The most granular verbosity rules of any prompt:
+**Codex CLI** (from `gpt_5_1_prompt.md` / `gpt_5_2_prompt.md`[^5]): The most granular verbosity rules of any prompt:
 - Tiny changes → "2-5 sentences or 3 bullets, no headings"
 - Medium changes → "at most 1-2 short snippets, 8 lines each max"
 - Large changes → "never include before/after pairs, full method bodies, or large code blocks"
@@ -202,7 +209,7 @@ graph TD
     D --> D3["Four tools, zero opinions"]
 ```
 
-**Codex CLI bets on model-specific optimisation.** By maintaining separate prompts per model generation, OpenAI can tune instructions to each model's strengths. The compact variants for fine-tuned Codex models save tokens by not re-explaining tools the model already understands. The GPT-5.4 prompt introduces a "commentary" channel system — a novel way to keep users informed during long operations.
+**Codex CLI bets on model-specific optimisation.** By maintaining separate prompts per model generation (GPT-5.1, GPT-5.2, plus compact variants), OpenAI can tune instructions to each model's strengths[^5]. The compact variants for fine-tuned Codex models save roughly two-thirds of the prompt text by not re-explaining tools the model already understands.
 
 **Gemini CLI bets on proactive autonomy.** The largest prompt of the four, it tries to anticipate every scenario — from sandbox error handling to technology recommendations for new apps (React+Bootstrap for web, FastAPI for APIs). It explicitly tells the model to "treat your own context window as your most precious resource," making context management a first-class concern in the prompt itself.
 
@@ -229,7 +236,7 @@ Gemini CLI's `GEMINI_WRITE_SYSTEM_MD` is the most developer-friendly: set it onc
 - **Want maximum restraint and predictability?** Claude Code's "do exactly what was asked" philosophy minimises surprises. Best for teams with strong existing codebases who want surgical changes.
 - **Want proactive assistance on greenfield projects?** Gemini CLI's "fulfill implied follow-up actions" can accelerate new project setup — if you can tolerate occasional over-reach.
 - **Want model-specific tuning and anti-slop aesthetics?** Codex CLI's per-model prompt architecture and explicit anti-generic-output instructions produce the most distinctive results.
-- **Running local models on limited hardware?** Pi's sub-1,000-token overhead is the only viable option at 32K context. Even at 64K, Pi leaves you 26,000 more tokens for actual code than Codex CLI does. If you are on a GB10, Mac, or any device where context is precious, start with Pi.
+- **Running local models on limited hardware?** Pi's sub-1,000-token overhead leaves significantly more context for your code. At 32K, the ~7,500-token gap between Codex CLI's baseline and Pi's overhead matters — and it grows if you load AGENTS.md, MCP tools, or skills. If you are on a GB10, Mac, or any device where context is tight, Pi is worth testing.
 
 ### If you are writing AGENTS.md
 
@@ -254,12 +261,12 @@ Despite their differences, all four prompts converge on several principles:
 
 ## What Is Diverging
 
-1. **Prompt size philosophy** — The spectrum from Pi's ~400 tokens to Codex CLI's ~27,000-token total overhead represents a **67x difference**. This is not a minor tuning decision — it is a fundamental disagreement about how much a system prompt should do.
+1. **Prompt size philosophy** — The spectrum from Pi's ~350-token prompt to Codex CLI's ~8,500-token baseline payload (which can grow much larger with AGENTS.md and MCP tools) represents a fundamental disagreement about how much a system prompt should do.
 2. **Proactiveness** — The spectrum from Gemini's "implied follow-up actions" to Claude Code's "don't add features beyond what was asked" to Pi's silence is the most significant philosophical split.
 3. **Testing stance** — Gemini mandates test updates; Codex matches existing practices; Claude Code stays silent; Pi stays silent. No consensus on the agent's testing responsibility.
 4. **Sub-agent awareness** — Gemini names its sub-agents in the system prompt; Claude Code and Codex handle delegation at the harness level; Pi has no sub-agents at all. Whether the model should know about its own architecture is an open question.
-5. **Model specificity** — Codex CLI's per-model prompts vs universal prompts is a unique approach. Pi takes the opposite extreme: one prompt for every model, from GPT-5.4 to a quantised local Gemma. The question is whether prompt-per-model or prompt-agnostic scales better.
-6. **Local model viability** — Pi's minimal overhead makes it usable at 32K context windows where Codex CLI fails entirely. This is not a theoretical difference — it determines which tool is physically capable of running on consumer hardware.
+5. **Model specificity** — Codex CLI's per-model prompts vs universal prompts is a unique approach. Pi takes the opposite extreme: one prompt for every model, from GPT-5.2 to a quantised local Gemma. The question is whether prompt-per-model or prompt-agnostic scales better.
+6. **Local model viability** — Pi's minimal overhead leaves substantially more room for code at every context window size. With AGENTS.md files and MCP tools loaded, Codex CLI's overhead grows well beyond its ~8.5K baseline, making the gap more pronounced on memory-constrained devices.
 
 ---
 
@@ -268,6 +275,9 @@ Despite their differences, all four prompts converge on several principles:
 ---
 
 [^1]: Daniela Petruzalek, "Gemini CLI System Prompt: Proactiveness Considered Harmful?", [danicat.dev](https://danicat.dev/posts/20250715-gemini-cli-system-prompt/), July 2025.
-[^2]: Multiple users report ~27,000-token initial payload when running Codex CLI with local models at 32K context. The figure (26,911 tokens in one setup log) represents system prompt (~5-6K tokens) + serialised tool definitions (~20K tokens, dominated by the `apply_patch` grammar specification). See [openai/codex#10635](https://github.com/openai/codex/issues/10635).
+[^2]: Alex Fazio, "Codex CLI Exec Mode Experiments — Token Usage Baseline," [GitHub Gist](https://gist.github.com/alexfazio/359c17d84cb6a5af12bac88fa1db9770). Measured ~8,497 input tokens for minimal session (v0.114.0), ~10,140 with multi-agent enabled. Community reports of ~27K overhead likely include AGENTS.md, MCP tools, and other injected context.
 [^3]: Mario Zechner, "Building Pi, a Shitty Coding Agent", [mariozechner.at](https://mariozechner.at/posts/2025-11-30-pi-coding-agent/), November 2025.
 [^4]: Pi's competitive Terminal-Bench 2.0 results with Claude Opus, despite its minimal prompt, support the thesis that frontier models have internalised agent behaviour through RL training. See [shittycodingagent.ai](https://shittycodingagent.ai/) and [badlogic/pi-mono](https://github.com/badlogic/pi-mono).
+[^5]: Codex CLI prompt files verified against [openai/codex `codex-rs/core/`](https://github.com/openai/codex/tree/main/codex-rs/core): `gpt_5_1_prompt.md` (24,224 chars / 3,924 words), `gpt_5_2_prompt.md` (21,672 chars / 3,502 words), `gpt-5.2-codex_prompt.md` (7,589 chars / 1,215 words), `gpt_5_codex_prompt.md` (6,647 chars / 1,082 words), `apply_patch_tool_instructions.md` (3,084 chars / 527 words). Character and word counts measured directly from source files.
+[^6]: Gemini CLI prompt assembled dynamically from [`packages/core/src/prompts/snippets.ts`](https://github.com/google-gemini/gemini-cli/blob/main/packages/core/src/prompts/snippets.ts). Total size varies by runtime context. GitHub issue [#3784](https://github.com/google-gemini/gemini-cli/issues/3784) reported ~13,055 input tokens for trivial queries.
+[^7]: Claude Code prompt extracted from the minified `cli.mjs` bundle in the [@anthropic-ai/claude-code](https://www.npmjs.com/package/@anthropic-ai/claude-code) npm package. Core prompt assembled by `getSystemPrompt()` from 30+ conditional section functions. Size varies significantly by context (tools loaded, CLAUDE.md content, environment).
