@@ -148,3 +148,19 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: Reproduce the two-stage pipeline (ChatGPT Deep Research → Claude Code/Codex CLI iterative improvement) for Daniel's readers. Show how the numbered-artefact pattern (explore_NN.py, result_NN.csv, plan_NN.md) enables auditable, resumable improvement loops. Cover the 11 domains tested (193× to >1000× improvements). Discuss the irreplaceable human roles: verification, task specification, novelty assessment, impact judgement, ethical responsibility.
     - Angle: Practical "try this yourself" article. Translate the academic pipeline into Codex CLI commands. Emphasis on the human-in-the-loop lesson: "critical judgment was not an occasional check; it was the core human contribution."
     - SEO targets: "codex cli algorithm improvement", "agentic coding iterative refinement", "AI-assisted algorithm optimization"
+
+---
+
+## New Articles — Sourced from Research (2026-04-19, Hourly Scan)
+
+### High Priority
+
+1. **Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI**
+    - Source: PR #18542 (etraut-openai, April 19 2026)
+    - Scope: How slash command queueing transforms the TUI workflow. Chain implementation → review → test without waiting between steps. Cover the Tab key queueing mechanism, `!shell` command support, and practical workflow patterns. Connect to Goal Mode as complementary user-side autonomy.
+    - SEO targets: "codex cli queue commands", "codex cli slash commands", "codex cli workflow automation"
+
+2. **Ambient Suggestions: When Your Coding Agent Starts Thinking Ahead**
+    - Source: Issue #18541 (April 19 2026) + observed Codex App behavior
+    - Scope: Explain the new Ambient Suggestions feature, its implications for proactive agent UX, hook lifecycle challenges, and connection to Goal Mode. Include the Unity Editor integration case study as a real-world hooks integration example.
+    - SEO targets: "codex ambient suggestions", "proactive coding agent", "codex hooks integration"
