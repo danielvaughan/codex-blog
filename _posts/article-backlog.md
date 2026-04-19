@@ -110,7 +110,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: A progression of 10 concrete setups, each with a one-paragraph description and the key commands/files needed: (1) Single-command bug fix, (2) AGENTS.md-driven project conventions, (3) Automated PR review hook, (4) MCP integration with external service, (5) Parallel worktree refactor, (6) CI pipeline with codex exec, (7) Guardian auto-review, (8) Multi-agent pod with Designer-Developer-Tester, (9) Cost-managed team deployment, (10) Full agentic engineering factory.
     - Angle: A "menu" article — readers can scan it in 60 seconds and find their entry point. Each item links to the relevant book chapter and detailed article.
 
-5. **I Used This Setup → This Is What Changed: An Agentic Engineering Case Study**
+5. ~~**I Used This Setup → This Is What Changed: An Agentic Engineering Case Study**~~ ✅ Written 2026-04-19 → `2026-04-19-agentic-engineering-case-study-four-week-adoption.md`
     - Source: Book reader's exact framing — "I used this setup → this is what the agent is now doing for me → this is what changed in my workflow"
     - Scope: A narrative case study following one developer (could be Daniel's own experience) through the progression: week 1 (single agent, bug fixes), week 2 (AGENTS.md + approval modes), week 3 (hooks + MCP), week 4 (parallel agents + CI integration). Show concrete metrics: time saved, PRs merged, bugs caught, workflow changes. Include the failures and learning curves, not just the wins.
     - Angle: The "testimonial article" that proves the book's promise. Authentic, specific, honest about limitations.
