@@ -15,6 +15,19 @@ Cursor is not a terminal agent. It is an AI-native IDE — a fork of VS Code reb
 
 This article compares all four tools across two dimensions: **what they can do** (functionality) and **how you can shape them** (customisation). The three terminals share more DNA with each other than any of them shares with Cursor — but Cursor fills gaps that no terminal agent addresses.
 
+### Versions Compared
+
+This comparison is pinned to the following versions, all current as of 19 April 2026:
+
+| Tool | Version | Release Date |
+|------|---------|-------------|
+| **Codex CLI** | v0.121.0 (stable) / v0.122.0-alpha.11 | April 2026 |
+| **Claude Code** | v2.1.114 | 17 April 2026 |
+| **Gemini CLI** | v0.38.2 (stable) / v0.39.0-preview.0 | April 2026 |
+| **Cursor** | 3.1 | 13 April 2026 |
+
+All four tools release frequently — features described here may change within weeks. Where a feature is specific to an alpha, preview, or nightly build, this is noted.
+
 ## The Philosophical Split
 
 The three CLI agents agree on a fundamental point: the terminal is the right interface for AI-assisted coding. Code goes in, code comes out, everything is scriptable and composable. They disagree on *personality* — Codex CLI is the executor, Claude Code is the reasoner, Gemini CLI is the explorer — but they share the same interface paradigm.
