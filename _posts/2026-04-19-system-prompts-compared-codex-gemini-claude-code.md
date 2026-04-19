@@ -7,8 +7,6 @@ description: "Four open-source coding CLIs ship their system prompts publicly. F
 
 ![Sketchnote diagram for: The DNA of Coding Agents: Codex CLI vs Gemini CLI vs Claude Code vs Pi — System Prompts Compared](/sketchnotes/articles/system-prompts-compared.png)
 
-# The DNA of Coding Agents: Codex CLI vs Gemini CLI vs Claude Code vs Pi — System Prompts Compared
-
 The system prompt is the soul of a coding agent. It is the document that transforms a general-purpose language model into an opinionated software engineer — one that knows when to be ambitious and when to be surgical, when to ask permission and when to press on, when to write tests and when to leave well enough alone.
 
 The four major open-source coding CLIs — OpenAI's Codex CLI, Google's Gemini CLI, Anthropic's Claude Code, and Mario Zechner's Pi — all ship their system prompts in public repositories. This article dissects all four, compares their philosophies, and examines what these instructions tell us about the future of AI-assisted software engineering.
