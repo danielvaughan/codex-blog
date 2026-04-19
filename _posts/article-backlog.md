@@ -203,3 +203,21 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: Code-level errors produce clear signals but business-level mistakes fail silently. Agents achieve >80% on simple ERP tasks but degrade dramatically on multi-constraint workflows. Four failure modes: lazy heuristics, business-layer hallucinations, policy constraint abandonment, overconfidence. Implications for Codex subagent architecture — decompose into policy reasoning + execution + verification layers. Hooks as business-layer validation.
     - SEO targets: "coding agent business logic failure", "codex cli enterprise automation", "agent verification patterns"
     - Cross-reference: [notes/arxiv-can-coding-agents-be-general-agents-2604-13107](#)
+
+---
+
+## New Articles — Sourced from Research (2026-04-19, Evening Hourly Scan)
+
+### Medium Priority
+
+1. **Compiled Policy Enforcement: Why Prompt-Based Safety Fails at 48% and What PCAS Means for Codex Hooks**
+    - Source: arXiv:2602.16708 "Policy Compiler for Secure Agentic Systems" (Palumbo et al., February 2026)
+    - Scope: Prompt-based policy enforcement achieves only 48% compliance even with frontier models. PCAS compiles Datalog rules into deterministic reference monitors that intercept violations before execution. Dependency graph tracks causal data flow (not linear chat history). Cross-agent provenance for multi-agent setups. How Codex's PreToolUse hooks could evolve from imperative scripts to compiled policy enforcement. Practical example: "no production credentials flow to subagents" as a Datalog rule compiled into a hook.
+    - SEO targets: "codex cli policy enforcement", "agent security hooks", "deterministic agent governance"
+    - Cross-reference: [notes/pcas-policy-compiler-agentic-systems-2602-16708](#)
+
+2. **The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md**
+    - Source: OpenAI Cookbook — "Using PLANS.md for multi-hour problem solving" (Aaron Friel, October 2025)
+    - Scope: Official single-file planning pattern for extended sessions. AGENTS.md integration via ExecPlan shorthand. Template structure (8 required sections). Comparison with the 4-file durable memory pattern from the 25-hour blog post. Practical application for agentic pods: template ExecPlans for subagents, orchestrator plan review, worktree+plan pairing.
+    - SEO targets: "codex cli plans.md", "codex long session planning", "execplan codex agent"
+    - Cross-reference: [notes/openai-cookbook-plans-md-multi-hour-sessions](#)
