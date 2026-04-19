@@ -254,3 +254,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: OpenAI Cookbook "Modernizing your Codebase with Codex" + official migration use-cases page
     - Scope: Five-phase ExecPlan-driven pipeline for legacy code modernisation. COBOL-to-Python walkthrough. Inventory, MTR, parity testing, migration strategy selection, template scaling.
     - SEO targets: "codex cli code modernisation", "legacy migration codex", "ExecPlan migration pipeline"
+
+---
+
+## New Articles — Auto-Generated (2026-04-20)
+
+### High Priority
+
+1. ~~**Codex CLI Split Permissions: Fine-Grained Filesystem and Network Policies**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-split-permissions-fine-grained-filesystem-network-policies.md`
+    - Source: Codex CLI v0.121.0 named permission profiles, config-reference docs, linux-sandbox README
+    - Scope: Named permission profiles, filesystem split policies with path-specificity ordering, glob-based file restrictions, managed network proxy with domain allowlists, SOCKS5 support, shell environment policy, practical patterns for monorepos/CI/devcontainers
+    - SEO targets: "codex cli permissions profile", "codex cli filesystem policy", "codex cli network proxy domain allowlist"
