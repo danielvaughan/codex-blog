@@ -155,7 +155,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### High Priority
 
-1. **Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI**
+1. ~~**Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI**~~ ✅ Written 2026-04-19 → `2026-04-19-codex-cli-slash-command-queueing-fire-and-forget-workflows.md`
     - Source: PR #18542 (etraut-openai, April 19 2026)
     - Scope: How slash command queueing transforms the TUI workflow. Chain implementation → review → test without waiting between steps. Cover the Tab key queueing mechanism, `!shell` command support, and practical workflow patterns. Connect to Goal Mode as complementary user-side autonomy.
     - SEO targets: "codex cli queue commands", "codex cli slash commands", "codex cli workflow automation"
