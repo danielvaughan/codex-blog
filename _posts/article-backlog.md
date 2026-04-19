@@ -169,3 +169,8 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: arXiv:2604.13108 "Formal Architecture Descriptors as Navigation Primitives for AI Coding Agents" (Jin, April 2026)
     - Scope: How formal architecture descriptors (intent.lisp) reduce navigation steps by 33-44% in controlled experiments. S-expression vs JSON vs YAML error resilience. Auto-generated descriptors matching hand-curated accuracy. 7,012-session field study showing 52% variance reduction. Practical integration with Codex CLI and AGENTS.md.
     - SEO targets: "codex cli architecture descriptor", "intent.lisp codex", "reduce agent navigation overhead"
+
+4. ~~**Beyond SWE-bench: Why AI Coding Benchmarks Are Broken and What It Means for Codex CLI Workflows**~~ ✅ Written 2026-04-19 → `2026-04-19-beyond-swe-bench-broken-benchmarks-codex-cli-workflows.md`
+    - Source: UC Berkeley BenchJack audit (April 2026) + FeatureBench (ICLR 2026, arXiv:2602.10975) + OpenAI SWE-bench Verified discontinuation (February 2026)
+    - Scope: All 8 major benchmarks exploitable, FeatureBench shows 11% success on feature dev vs 74.4% on SWE-bench, practical implications for Codex CLI workflow design
+    - SEO targets: "codex cli benchmark", "SWE-bench broken", "AI coding agent real-world performance"
