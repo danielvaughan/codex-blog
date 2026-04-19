@@ -5,6 +5,9 @@ nav_order: 336
 tags: ["codex-cli", "workflows", "automation", "productivity", "codex-exec", "ci-cd", "code-review", "refactoring"]
 ---
 
+![Sketchnote diagram for: Before and After: 5 Developer Workflows Transformed by Codex CLI](/sketchnotes/articles/2026-04-19-before-and-after-developer-workflows-transformed-by-codex-cli.png)
+
+
 # Before and After: 5 Developer Workflows Transformed by Codex CLI
 
 

@@ -23,6 +23,9 @@ tags:
   - codex-only-seats
 ---
 
+![Sketchnote diagram for: The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis](/sketchnotes/articles/2026-04-10-codex-cli-complete-pricing-guide-subscription-tokens-cost-optimization.png)
+
+
 ![Sketchnote diagram for: The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis](/sketchnotes/articles/2026-04-10-codex-cli-token-costs-pricing-comparison.png)
 
 # The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis

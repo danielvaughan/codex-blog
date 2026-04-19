@@ -23,6 +23,9 @@ authors:
   - codex-docs-team
 ---
 
+![Sketchnote diagram for: Codex CLI Session Persistence: Resume, Fork, and Analytics](/sketchnotes/articles/2026-04-13-codex-cli-session-persistence-resume-fork-analytics.png)
+
+
 # Codex CLI Session Persistence: Resume, Fork, and Analytics
 
 > **Consolidated reference** -- this article unifies coverage previously spread

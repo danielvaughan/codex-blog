@@ -5,6 +5,9 @@ nav_order: 339
 tags: ["codex-cli", "setups", "workflows", "getting-started", "architecture", "multi-agent", "MCP", "CI/CD"]
 ---
 
+![Sketchnote diagram for: What You Can Build with Codex CLI: 10 Real-World Setups from Simple to Advanced](/sketchnotes/articles/2026-04-19-what-you-can-build-with-codex-cli-10-setups-simple-to-advanced.png)
+
+
 # What You Can Build with Codex CLI: 10 Real-World Setups from Simple to Advanced
 
 

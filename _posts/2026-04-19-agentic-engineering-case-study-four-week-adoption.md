@@ -5,6 +5,9 @@ nav_order: 340
 tags: ["codex-cli", "agentic-engineering", "case-study", "workflow", "adoption", "productivity"]
 ---
 
+![Sketchnote diagram for: I Used This Setup → This Is What Changed: An Agentic Engineering Case Study](/sketchnotes/articles/2026-04-19-agentic-engineering-case-study-four-week-adoption.png)
+
+
 # I Used This Setup → This Is What Changed: An Agentic Engineering Case Study
 
 

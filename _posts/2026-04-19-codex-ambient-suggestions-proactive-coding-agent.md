@@ -5,6 +5,9 @@ nav_order: 347
 tags: ["codex-cli", "ambient-suggestions", "proactive-agent", "hooks", "automations", "context-aware", "developer-experience"]
 ---
 
+![Sketchnote diagram for: Ambient Suggestions: When Your Coding Agent Starts Thinking Ahead](/sketchnotes/articles/2026-04-19-codex-ambient-suggestions-proactive-coding-agent.png)
+
+
 # Ambient Suggestions: When Your Coding Agent Starts Thinking Ahead
 
 

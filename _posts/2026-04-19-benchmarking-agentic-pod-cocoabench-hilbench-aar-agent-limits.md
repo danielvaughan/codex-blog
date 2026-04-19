@@ -5,6 +5,9 @@ nav_order: 344
 tags: ["benchmarks", "agentic-pods", "CocoaBench", "HiL-Bench", "agent-limits", "AGENTS.md", "approval-modes"]
 ---
 
+![Sketchnote diagram for: Benchmarking Your Agentic Pod: What CocoaBench, HiL-Bench, and AAR Tell Us About Agent Limits](/sketchnotes/articles/2026-04-19-benchmarking-agentic-pod-cocoabench-hilbench-aar-agent-limits.png)
+
+
 # Benchmarking Your Agentic Pod: What CocoaBench, HiL-Bench, and AAR Tell Us About Agent Limits
 
 

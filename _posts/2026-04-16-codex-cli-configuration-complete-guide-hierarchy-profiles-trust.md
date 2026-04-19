@@ -19,6 +19,9 @@ sources:
   - https://developers.openai.com/codex/config-reference
 ---
 
+![Sketchnote diagram for: Codex CLI Configuration Complete Guide: Hierarchy, Profiles, and Trust](/sketchnotes/articles/2026-04-16-codex-cli-configuration-complete-guide-hierarchy-profiles-trust.png)
+
+
 # Codex CLI Configuration Complete Guide: Hierarchy, Profiles, and Trust
 
 Codex CLI uses a layered configuration system where settings from multiple sources merge together with clear precedence rules. This guide covers the complete configuration model: the 6-layer resolution chain, global vs. project settings, named profiles, trust boundaries, shell environment policy, and hooks.

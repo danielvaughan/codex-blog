@@ -5,6 +5,9 @@ nav_order: 335
 tags: ["codex-cli", "getting-started", "tutorial", "beginner", "agent-loop", "installation"]
 ---
 
+![Sketchnote diagram for: Your First 30 Minutes with Codex CLI: From Install to First Fix](/sketchnotes/articles/2026-04-18-your-first-30-minutes-with-codex-cli.png)
+
+
 # Your First 30 Minutes with Codex CLI: From Install to First Fix
 
 

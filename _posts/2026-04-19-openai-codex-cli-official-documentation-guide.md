@@ -5,6 +5,9 @@ nav_order: 346
 tags: ["codex-cli", "documentation", "getting-started", "reference", "configuration", "models", "MCP"]
 ---
 
+![Sketchnote diagram for: OpenAI Codex CLI Official Documentation Guide (2026)](/sketchnotes/articles/2026-04-19-openai-codex-cli-official-documentation-guide.png)
+
+
 # OpenAI Codex CLI Official Documentation Guide (2026)
 
 

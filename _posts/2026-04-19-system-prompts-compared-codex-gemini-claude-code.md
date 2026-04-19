@@ -5,6 +5,9 @@ categories: [codex-cli, gemini-cli, claude-code, pi, system-prompts, architectur
 description: "Four open-source coding CLIs ship their system prompts publicly. From Pi's 400-token minimalism to Codex CLI's 27,000-token payload — what do these instructions reveal about each tool's engineering philosophy?"
 ---
 
+![Sketchnote diagram for: The DNA of Coding Agents: Codex CLI vs Gemini CLI vs Claude Code vs Pi — System Prompts Compared](/sketchnotes/articles/2026-04-19-system-prompts-compared-codex-gemini-claude-code.png)
+
+
 # The DNA of Coding Agents: Codex CLI vs Gemini CLI vs Claude Code vs Pi — System Prompts Compared
 
 ![Sketchnote diagram for: The DNA of Coding Agents: Codex CLI vs Gemini CLI vs Claude Code vs Pi — System Prompts Compared](/sketchnotes/articles/system-prompts-compared.png)

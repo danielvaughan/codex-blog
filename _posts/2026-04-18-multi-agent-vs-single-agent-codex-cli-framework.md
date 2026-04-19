@@ -5,6 +5,9 @@ nav_order: 338
 tags: ["codex-cli` `multi-agent` `single-agent` `subagents` `orchestration` `skill-distillation` `cost-optimisation"]
 ---
 
+![Sketchnote diagram for: When to Use Multi-Agent vs Single-Agent: A Practical Framework for Codex CLI Teams](/sketchnotes/articles/2026-04-18-multi-agent-vs-single-agent-codex-cli-framework.png)
+
+
 # When to Use Multi-Agent vs Single-Agent: A Practical Framework for Codex CLI Teams
 
 

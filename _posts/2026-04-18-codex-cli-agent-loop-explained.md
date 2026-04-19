@@ -5,6 +5,9 @@ nav_order: 337
 tags: ["codex-cli", "agent-loop", "architecture", "internals", "responses-api", "context-management"]
 ---
 
+![Sketchnote diagram for: The Codex CLI Agent Loop Explained: What Happens When You Hit Enter](/sketchnotes/articles/2026-04-18-codex-cli-agent-loop-explained.png)
+
+
 # The Codex CLI Agent Loop Explained: What Happens When You Hit Enter
 
 

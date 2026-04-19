@@ -5,6 +5,9 @@ nav_order: 347
 tags: ["codex-cli", "architecture-descriptors", "intent-lisp", "navigation", "agents-md", "context-engineering", "codebase-navigation", "s-expressions"]
 ---
 
+![Sketchnote diagram for: Formal Architecture Descriptors: Cutting Codex CLI Navigation Overhead by a Third](/sketchnotes/articles/2026-04-19-formal-architecture-descriptors-navigation-primitives-codex-cli.png)
+
+
 # Formal Architecture Descriptors: Cutting Codex CLI Navigation Overhead by a Third
 
 

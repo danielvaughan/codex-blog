@@ -5,6 +5,9 @@ nav_order: 342
 tags: ["codex-cli", "agentic-engineering", "developer-experience", "honest-assessment", "adoption"]
 ---
 
+![Sketchnote diagram for: Codex CLI for the Sceptic: Honest Answers to 'Why Should I Bother?](/sketchnotes/articles/2026-04-19-codex-cli-for-the-sceptic-honest-answers.png)
+
+
 # Codex CLI for the Sceptic: Honest Answers to "Why Should I Bother?"
 
 

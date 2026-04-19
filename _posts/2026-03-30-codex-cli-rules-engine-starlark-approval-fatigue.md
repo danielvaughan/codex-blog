@@ -1,3 +1,5 @@
+![Sketchnote: Codex CLI Rules Engine: Starlark Policies, Approval Fatigue, and the Coming `general_rule` Fix](/sketchnotes/articles/2026-03-30-codex-cli-rules-engine-starlark-approval-fatigue.png)
+
 # Codex CLI Rules Engine: Starlark Policies, Approval Fatigue, and the Coming `general_rule` Fix
 
 > Navigating the challenges of policy enforcement in agentic workflows.

@@ -5,6 +5,9 @@ nav_order: 341
 tags: ["codex-cli", "agents-md", "navigation", "file-maps", "benchmarks", "agent-failures", "codebase-navigation"]
 ---
 
+![Sketchnote diagram for: Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)](/sketchnotes/articles/2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps.png)
+
+
 # Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)
 
 

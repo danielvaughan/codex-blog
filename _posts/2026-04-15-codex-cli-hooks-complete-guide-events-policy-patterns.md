@@ -32,6 +32,9 @@ sources:
     url: "https://github.com/openai/codex"
 ---
 
+![Sketchnote diagram for: Codex CLI Hooks: Complete Guide to Events, Policy Engines and Production Patterns](/sketchnotes/articles/2026-04-15-codex-cli-hooks-complete-guide-events-policy-patterns.png)
+
+
 # Codex CLI Hooks: Complete Guide
 
 > This article consolidates and supersedes the earlier individual articles on

@@ -5,6 +5,9 @@ nav_order: 334
 tags: ["codex-cli", "chatgpt", "context-transfer", "workflow", "productivity"]
 ---
 
+![Sketchnote diagram for: Transferring ChatGPT Conversations to Codex CLI](/sketchnotes/articles/2026-04-18-transferring-chatgpt-conversations-to-codex-cli.png)
+
+
 # Transferring ChatGPT Conversations to Codex CLI
 
 

@@ -5,6 +5,9 @@ nav_order: 345
 tags: ["codex-cli", "claude-code", "algorithm-improvement", "research", "agentic-engineering", "iterative-refinement"]
 ---
 
+![Sketchnote diagram for: Using Codex CLI to Improve Published Algorithms: A Two-Stage Pipeline](/sketchnotes/articles/2026-04-19-using-codex-cli-to-improve-published-algorithms-two-stage-pipeline.png)
+
+
 # Using Codex CLI to Improve Published Algorithms: A Two-Stage Pipeline
 
 

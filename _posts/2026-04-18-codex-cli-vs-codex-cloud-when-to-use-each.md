@@ -5,6 +5,9 @@ nav_order: 335
 tags: ["codex-cli", "codex-cloud", "architecture", "decision-framework", "workflow"]
 ---
 
+![Sketchnote diagram for: Codex CLI vs Codex Cloud: When to Use Each](/sketchnotes/articles/2026-04-18-codex-cli-vs-codex-cloud-when-to-use-each.png)
+
+
 # Codex CLI vs Codex Cloud: When to Use Each
 
 

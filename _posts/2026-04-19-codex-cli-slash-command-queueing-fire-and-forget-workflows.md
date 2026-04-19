@@ -5,6 +5,9 @@ nav_order: 347
 tags: ["codex-cli", "workflow", "TUI", "slash-commands", "productivity", "queueing"]
 ---
 
+![Sketchnote diagram for: Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI](/sketchnotes/articles/2026-04-19-codex-cli-slash-command-queueing-fire-and-forget-workflows.png)
+
+
 # Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI
 
 

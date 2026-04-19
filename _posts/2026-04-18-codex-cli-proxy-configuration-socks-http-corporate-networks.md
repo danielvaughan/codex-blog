@@ -5,6 +5,9 @@ nav_order: 333
 tags: ["codex-cli", "proxy", "socks5", "corporate-network", "enterprise", "tls", "firewall", "configuration"]
 ---
 
+![Sketchnote diagram for: Codex CLI Proxy Configuration: SOCKS, HTTP, and Corporate Networks](/sketchnotes/articles/2026-04-18-codex-cli-proxy-configuration-socks-http-corporate-networks.png)
+
+
 # Codex CLI Proxy Configuration: SOCKS, HTTP, and Corporate Networks
 
 

@@ -1,3 +1,5 @@
+![Sketchnote: Codex CLI Security Model: The Two-Axis Approval and Sandbox Framework](/sketchnotes/articles/2026-04-08-codex-cli-security-model-approval-sandbox-two-axis.png)
+
 # Codex CLI Security Model: The Two-Axis Approval and Sandbox Framework
 
 > Two independent axes: what Codex ASKS vs what the OS ALLOWS.

@@ -5,6 +5,9 @@ nav_order: 343
 tags: ["codex-cli", "chatgpt", "migration", "agentic-coding", "sandbox", "autonomous-execution"]
 ---
 
+![Sketchnote diagram for: From ChatGPT to Codex CLI: What Changes When Your AI Can Actually Run Code](/sketchnotes/articles/2026-04-19-from-chatgpt-to-codex-cli-what-changes-when-ai-runs-code.png)
+
+
 # From ChatGPT to Codex CLI: What Changes When Your AI Can Actually Run Code
 
 
