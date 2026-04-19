@@ -100,7 +100,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: Side-by-side comparisons of manual vs agentic workflows: (1) Bug fix from Sentry alert — 45 min manual → 4 min agentic, (2) PR code review — 25 min manual → 3 min agentic, (3) Test coverage gap — 2 hours manual → 12 min agentic, (4) Multi-file refactor — half a day manual → 20 min parallel agents, (5) CI failure triage — 30 min manual → 5 min automated. Each with specific commands and real timings.
     - Angle: The "show don't tell" article. Every comparison should be pictureable in 10 seconds.
 
-3. **The Codex CLI Agent Loop Explained: What Actually Happens When You Hit Enter**
+3. ~~**The Codex CLI Agent Loop Explained: What Actually Happens When You Hit Enter**~~ ✅ Written 2026-04-18 → `2026-04-18-codex-cli-agent-loop-explained.md`
     - Source: Book feedback ("complex or fragmented") + Search Console ("understanding codex runtime agent loop", "codex loop")
     - Scope: Visual walkthrough of a single agent session from prompt to commit. Annotated terminal output showing each phase: file discovery → context gathering → reasoning → tool calls → test execution → commit. Mermaid sequence diagram. Demystify the black box.
     - Angle: Addresses both the book reader's "fragmented" concern and the Search Console demand for loop explanations. Cross-link to book chapters.
@@ -133,7 +133,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Medium Priority
 
-1. **Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)**
+1. ~~**Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)**~~ ✅ Written 2026-04-19 → `2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps.md`
     - Source: arXiv:2604.10261 "The Amazing Agent Race" (Kim et al., April 2026) + arXiv:2604.09408 "HiL-Bench" (Elfeki et al., April 2026)
     - Scope: Navigation errors dominate agent failures (27–52% of trials) while tool-use errors stay below 17%. Practical guide to building file maps in AGENTS.md that compensate for this weakness. Include before/after examples showing how explicit navigation guidance improves success rates.
     - SEO targets: "AGENTS.md file map", "codex cli navigation", "why coding agents fail"
