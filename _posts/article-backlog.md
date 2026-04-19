@@ -198,7 +198,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Medium Priority
 
-1. **The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic**
+1. ~~**The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic**~~ ✅ Written 2026-04-19 → `2026-04-19-asymmetric-feedback-problem-coding-agents-business-logic.md`
     - Source: arXiv:2604.13107 "Can Coding Agents be General Agents?" (Ivanov, Rana, Prabhakaran, April 10, 2026)
     - Scope: Code-level errors produce clear signals but business-level mistakes fail silently. Agents achieve >80% on simple ERP tasks but degrade dramatically on multi-constraint workflows. Four failure modes: lazy heuristics, business-layer hallucinations, policy constraint abandonment, overconfidence. Implications for Codex subagent architecture — decompose into policy reasoning + execution + verification layers. Hooks as business-layer validation.
     - SEO targets: "coding agent business logic failure", "codex cli enterprise automation", "agent verification patterns"
