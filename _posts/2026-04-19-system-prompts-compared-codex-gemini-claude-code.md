@@ -222,13 +222,41 @@ graph TD
 
 ## The Hidden Feature: Prompt Override
 
-All three tools let you replace or augment the system prompt:
+All four tools let you replace or augment the system prompt:
 
 | Override Method | Codex CLI | Gemini CLI | Claude Code | Pi |
 |----------------|----------|------------|-------------|-----|
-| **Full replacement** | `--config experimental_instructions_file=<path>` | `GEMINI_SYSTEM_MD=/path/to/file` | `CLAUDE_CODE_SIMPLE=1` (minimal mode) | SYSTEM.md replaces default |
-| **Additive** | `--config developer_instructions` + AGENTS.md | GEMINI.md (hierarchical) | CLAUDE.md (hierarchical) | Extensions via `promptGuidelines` |
+| **Full replacement** | `model_instructions_file` in config[^9] | `GEMINI_SYSTEM_MD=/path/to/file` | `CLAUDE_CODE_SIMPLE=1` (minimal mode) | SYSTEM.md replaces default |
+| **Additive** | `developer_instructions` + AGENTS.md | GEMINI.md (hierarchical) | CLAUDE.md (hierarchical) | Extensions via `promptGuidelines` |
+| **Disable sections** | `include_permissions_instructions = false`[^9] | N/A | N/A | N/A |
 | **Inspect assembled prompt** | Read `.md` files directly | `GEMINI_WRITE_SYSTEM_MD` writes to file | Extract from npm bundle | Read `system-prompt.ts` (~100 lines) |
+
+### Codex CLI's Custom Prompt System (Key for Local Models)
+
+Codex CLI's prompt override system is more sophisticated than it first appears, and it is **critical for local model performance**. The resolution chain for base instructions is[^9]:
+
+1. `config.base_instructions` (from `model_instructions_file` in config.toml) — **highest priority**
+2. `session_meta.base_instructions` (from resumed sessions)
+3. `model_info.base_instructions` (from the built-in model catalog)
+
+When Codex CLI encounters a model slug it does not recognise — which includes every local model via Ollama or llama.cpp — it falls back to a default ~276-line prompt from `codex-rs/models-manager/prompt.md`. This is the same prompt used for every unknown model, regardless of capability.
+
+You can replace it entirely per-profile:
+
+```toml
+# ~/.codex/config.toml
+
+[profiles.gb10-minimal]
+model = "gemma4:31b"
+model_provider = "gb10"
+model_instructions_file = "~/prompts/minimal-codex.md"
+include_permissions_instructions = false
+include_apps_instructions = false
+```
+
+The codebase includes a strong warning: *"Users are STRONGLY DISCOURAGED from using this field, as deviating from the instructions sanctioned by Codex will likely degrade model performance."*[^9] But for local models that already struggle with context overhead, the trade-off may favour a smaller prompt — exactly the thesis Pi validates.
+
+**Note:** The old `experimental_instructions_file` config key is deprecated and silently ignored. Use `model_instructions_file` instead.
 
 Gemini CLI's `GEMINI_WRITE_SYSTEM_MD` is the most developer-friendly: set it once and the assembled prompt is dumped to `~/.gemini/system.md` for inspection. Codex CLI's approach of shipping readable markdown files in the repo is the most transparent. Claude Code's bundled-in-minified-JS approach is the least accessible. Pi's prompt is so short you can read the entire source file in under a minute — there is nothing to inspect because there is nothing to hide.
 
@@ -284,3 +312,5 @@ Despite their differences, all four prompts converge on several principles:
 [^5]: Codex CLI prompt files verified against [openai/codex `codex-rs/core/`](https://github.com/openai/codex/tree/main/codex-rs/core): `gpt_5_1_prompt.md` (24,224 chars / 3,924 words), `gpt_5_2_prompt.md` (21,672 chars / 3,502 words), `gpt-5.2-codex_prompt.md` (7,589 chars / 1,215 words), `gpt_5_codex_prompt.md` (6,647 chars / 1,082 words), `apply_patch_tool_instructions.md` (3,084 chars / 527 words). Character and word counts measured directly from source files.
 [^6]: Gemini CLI prompt assembled dynamically from [`packages/core/src/prompts/snippets.ts`](https://github.com/google-gemini/gemini-cli/blob/main/packages/core/src/prompts/snippets.ts). Total size varies by runtime context. GitHub issue [#3784](https://github.com/google-gemini/gemini-cli/issues/3784) reported ~13,055 input tokens for trivial queries.
 [^7]: Claude Code prompt extracted from the minified `cli.mjs` bundle in the [@anthropic-ai/claude-code](https://www.npmjs.com/package/@anthropic-ai/claude-code) npm package. Core prompt assembled by `getSystemPrompt()` from 30+ conditional section functions. Size varies significantly by context (tools loaded, CLAUDE.md content, environment).
+[^8]: Pi system prompt source: [`packages/coding-agent/src/core/system-prompt.ts`](https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/src/core/system-prompt.ts). ~1,335 characters, ~181 words. Confirmed against repository.
+[^9]: Codex CLI prompt override system: `model_instructions_file` config key replaces base instructions entirely ([`codex-rs/config/src/config_toml.rs:139-141`](https://github.com/openai/codex/blob/main/codex-rs/config/src/config_toml.rs)). `include_permissions_instructions` and `include_apps_instructions` booleans disable additional prompt sections. The old `experimental_instructions_file` is deprecated and ignored ([`codex-rs/core/src/codex.rs:1798`](https://github.com/openai/codex/blob/main/codex-rs/core/src/codex.rs)). Unknown/local models fall back to `codex-rs/models-manager/prompt.md` (~276 lines). See also GitHub Discussion [#7296](https://github.com/openai/codex/discussions/7296) and Issue [#12926](https://github.com/openai/codex/issues/12926).
