@@ -117,7 +117,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Medium Priority
 
-1. **Codex CLI for the Sceptic: Honest Answers to "Why Should I Bother?"**
+1. ~~**Codex CLI for the Sceptic: Honest Answers to "Why Should I Bother?"**~~ ✅ Written 2026-04-19 → `2026-04-19-codex-cli-for-the-sceptic-honest-answers.md`
     - Source: Book feedback about agentic AI content feeling "complex or fragmented"
     - Scope: Address the top 7 objections: "It's just fancy autocomplete," "I'll spend more time fixing AI code than writing my own," "It'll hallucinate and break everything," "My codebase is too complex," "It's too expensive for daily use," "I'll lose my coding skills," "My company won't allow it." For each: honest assessment, when the objection is valid, when it isn't, and evidence.
     - Angle: The article you send to a sceptical colleague. No hype, no dismissal — just honest engineering trade-offs.
