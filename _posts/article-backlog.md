@@ -122,7 +122,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: Address the top 7 objections: "It's just fancy autocomplete," "I'll spend more time fixing AI code than writing my own," "It'll hallucinate and break everything," "My codebase is too complex," "It's too expensive for daily use," "I'll lose my coding skills," "My company won't allow it." For each: honest assessment, when the objection is valid, when it isn't, and evidence.
     - Angle: The article you send to a sceptical colleague. No hype, no dismissal — just honest engineering trade-offs.
 
-2. **From ChatGPT to Codex CLI: What Changes When Your AI Can Actually Run Code**
+2. ~~**From ChatGPT to Codex CLI: What Changes When Your AI Can Actually Run Code**~~ ✅ Written 2026-04-19 → `2026-04-19-from-chatgpt-to-codex-cli-what-changes-when-ai-runs-code.md`
     - Source: Search Console ("transfer chatgpt chat to codex") + book feedback about clarity
     - Scope: For developers who use ChatGPT for coding help but haven't tried agentic tools. The key shift: from "copy-paste suggestions" to "autonomous execution in your actual codebase." Show the same task done in ChatGPT vs Codex CLI side by side. Cover: what Codex can see that ChatGPT can't, why the sandbox matters, when to still use ChatGPT instead.
     - Angle: Bridge article for the largest audience — ChatGPT users who don't yet know what they're missing.
