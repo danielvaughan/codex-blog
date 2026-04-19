@@ -105,7 +105,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: Visual walkthrough of a single agent session from prompt to commit. Annotated terminal output showing each phase: file discovery → context gathering → reasoning → tool calls → test execution → commit. Mermaid sequence diagram. Demystify the black box.
     - Angle: Addresses both the book reader's "fragmented" concern and the Search Console demand for loop explanations. Cross-link to book chapters.
 
-4. **What You Can Build with Codex CLI: 10 Real-World Setups from Simple to Advanced**
+4. ~~**What You Can Build with Codex CLI: 10 Real-World Setups from Simple to Advanced**~~ ✅ Written 2026-04-19 → `2026-04-19-what-you-can-build-with-codex-cli-10-setups-simple-to-advanced.md`
     - Source: Book feedback — "How are you getting developers to quickly see what they'll be able to build?"
     - Scope: A progression of 10 concrete setups, each with a one-paragraph description and the key commands/files needed: (1) Single-command bug fix, (2) AGENTS.md-driven project conventions, (3) Automated PR review hook, (4) MCP integration with external service, (5) Parallel worktree refactor, (6) CI pipeline with codex exec, (7) Guardian auto-review, (8) Multi-agent pod with Designer-Developer-Tester, (9) Cost-managed team deployment, (10) Full agentic engineering factory.
     - Angle: A "menu" article — readers can scan it in 60 seconds and find their entry point. Each item links to the relevant book chapter and detailed article.
