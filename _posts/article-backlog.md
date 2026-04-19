@@ -210,7 +210,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Medium Priority
 
-1. **Compiled Policy Enforcement: Why Prompt-Based Safety Fails at 48% and What PCAS Means for Codex Hooks**
+1. ~~**Compiled Policy Enforcement: Why Prompt-Based Safety Fails at 48% and What PCAS Means for Codex Hooks**~~ ✅ Written 2026-04-19 → `2026-04-19-compiled-policy-enforcement-pcas-codex-hooks.md`
     - Source: arXiv:2602.16708 "Policy Compiler for Secure Agentic Systems" (Palumbo et al., February 2026)
     - Scope: Prompt-based policy enforcement achieves only 48% compliance even with frontier models. PCAS compiles Datalog rules into deterministic reference monitors that intercept violations before execution. Dependency graph tracks causal data flow (not linear chat history). Cross-agent provenance for multi-agent setups. How Codex's PreToolUse hooks could evolve from imperative scripts to compiled policy enforcement. Practical example: "no production credentials flow to subagents" as a Datalog rule compiled into a hook.
     - SEO targets: "codex cli policy enforcement", "agent security hooks", "deterministic agent governance"
