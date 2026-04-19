@@ -161,7 +161,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - SEO targets: "harness effect coding agents", "codex cli vs claude code benchmark", "harness engineering practical guide"
     - Cross-reference: [notes/harness-comparison-jozefiak-six-tools-april-2026](#), [notes/aethelgard-learned-capability-governance-2604-11839](#)
 
-2. **Learned Capability Governance: What Aethelgard Means for Codex Permission Profiles**
+2. ~~**Learned Capability Governance: What Aethelgard Means for Codex Permission Profiles**~~ ✅ Written 2026-04-19 → `2026-04-19-learned-capability-governance-aethelgard-codex-permission-profiles.md`
     - Source: arXiv:2604.11839 (Sidik & Rokach, April 12, 2026)
     - Scope: Static permission profiles vs learned least-privilege. The 15x capability overprovisioning problem. How Codex's PreToolUse hooks + OTEL metrics (#18026) could feed into an Aethelgard-style RL policy. Practical enterprise angle: auto-narrowing tool surfaces for agentic pods based on audit data.
     - SEO targets: "codex cli permission profiles", "agent capability governance", "least privilege coding agents"
