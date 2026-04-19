@@ -138,7 +138,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: Navigation errors dominate agent failures (27–52% of trials) while tool-use errors stay below 17%. Practical guide to building file maps in AGENTS.md that compensate for this weakness. Include before/after examples showing how explicit navigation guidance improves success rates.
     - SEO targets: "AGENTS.md file map", "codex cli navigation", "why coding agents fail"
 
-2. **Benchmarking Your Agentic Pod: What CocoaBench, HiL-Bench, and AAR Tell Us About Agent Limits**
+2. ~~**Benchmarking Your Agentic Pod: What CocoaBench, HiL-Bench, and AAR Tell Us About Agent Limits**~~ ✅ Written 2026-04-19 → `2026-04-19-benchmarking-agentic-pod-cocoabench-hilbench-aar-agent-limits.md`
     - Source: arXiv:2604.11201 (CocoaBench), arXiv:2604.09408 (HiL-Bench), arXiv:2604.10261 (Amazing Agent Race)
     - Scope: Synthesis of three April 2026 benchmarks showing where frontier agents hit their limits — multi-modal composition (45.1% max), help-seeking (poor across all models), navigation vs tool use. Practical implications for configuring approval modes, subagent boundaries, and AGENTS.md structure.
     - Angle: "What the benchmarks say about your workflow" — translate academic results into engineering decisions.
