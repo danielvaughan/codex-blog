@@ -160,7 +160,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Scope: How slash command queueing transforms the TUI workflow. Chain implementation → review → test without waiting between steps. Cover the Tab key queueing mechanism, `!shell` command support, and practical workflow patterns. Connect to Goal Mode as complementary user-side autonomy.
     - SEO targets: "codex cli queue commands", "codex cli slash commands", "codex cli workflow automation"
 
-2. **Ambient Suggestions: When Your Coding Agent Starts Thinking Ahead**
+2. ~~**Ambient Suggestions: When Your Coding Agent Starts Thinking Ahead**~~ ✅ Written 2026-04-19 → `2026-04-19-codex-ambient-suggestions-proactive-coding-agent.md`
     - Source: Issue #18541 (April 19 2026) + observed Codex App behavior
     - Scope: Explain the new Ambient Suggestions feature, its implications for proactive agent UX, hook lifecycle challenges, and connection to Goal Mode. Include the Unity Editor integration case study as a real-world hooks integration example.
     - SEO targets: "codex ambient suggestions", "proactive coding agent", "codex hooks integration"
