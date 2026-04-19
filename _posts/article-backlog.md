@@ -191,3 +191,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: UC Berkeley BenchJack audit (April 2026) + FeatureBench (ICLR 2026, arXiv:2602.10975) + OpenAI SWE-bench Verified discontinuation (February 2026)
     - Scope: All 8 major benchmarks exploitable, FeatureBench shows 11% success on feature dev vs 74.4% on SWE-bench, practical implications for Codex CLI workflow design
     - SEO targets: "codex cli benchmark", "SWE-bench broken", "AI coding agent real-world performance"
+
+---
+
+## New Articles — Sourced from Research (2026-04-19, Late Hourly Scan)
+
+### Medium Priority
+
+1. **The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic**
+    - Source: arXiv:2604.13107 "Can Coding Agents be General Agents?" (Ivanov, Rana, Prabhakaran, April 10, 2026)
+    - Scope: Code-level errors produce clear signals but business-level mistakes fail silently. Agents achieve >80% on simple ERP tasks but degrade dramatically on multi-constraint workflows. Four failure modes: lazy heuristics, business-layer hallucinations, policy constraint abandonment, overconfidence. Implications for Codex subagent architecture — decompose into policy reasoning + execution + verification layers. Hooks as business-layer validation.
+    - SEO targets: "coding agent business logic failure", "codex cli enterprise automation", "agent verification patterns"
+    - Cross-reference: [notes/arxiv-can-coding-agents-be-general-agents-2604-13107](#)
