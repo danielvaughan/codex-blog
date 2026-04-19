@@ -243,3 +243,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: arXiv:2603.20847 "Engineering Pitfalls in AI Coding Tools" (Zhang et al., March 2026)
     - Scope: 3,864 bugs analysed across Claude Code, Codex CLI, Gemini CLI. 67% functional bugs, but only 10% trace to AI reasoning — 37.6% originate in tool/API orchestration layer. apply_patch sandbox regressions as case study. Four practical lessons for Codex CLI configuration.
     - SEO targets: "codex cli bugs", "AI coding tool reliability", "codex cli troubleshooting"
+
+---
+
+## New Articles — Sourced from OpenAI Cookbook (2026-04-19)
+
+### High Priority
+
+1. ~~**Code Modernisation with Codex CLI: The ExecPlan-Driven Migration Pipeline**~~ ✅ Written 2026-04-19 → `2026-04-19-code-modernisation-codex-cli-execplan-migration-pipeline.md`
+    - Source: OpenAI Cookbook "Modernizing your Codebase with Codex" + official migration use-cases page
+    - Scope: Five-phase ExecPlan-driven pipeline for legacy code modernisation. COBOL-to-Python walkthrough. Inventory, MTR, parity testing, migration strategy selection, template scaling.
+    - SEO targets: "codex cli code modernisation", "legacy migration codex", "ExecPlan migration pipeline"
