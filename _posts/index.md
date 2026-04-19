@@ -3,10 +3,10 @@ title: "Articles"
 permalink: /articles/
 ---
 
-## Article Ratings (updated 2026-04-17)
+## Article Ratings (updated 2026-04-19)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-17 · 357 articles rated · 357 total entries.
+Last rated: 2026-04-19 · 409 articles rated · 409 total entries.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|---------|
@@ -92,6 +92,15 @@ Last rated: 2026-04-17 · 357 articles rated · 357 total entries.
 | [Codex For Almost Everything: OpenAI's Pivot to General Agent Platform](/2026/04/17/codex-for-almost-everything-pivot-to-general-agent-platform/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Cross-Tool Agent Memory: MemPalace, Built-In Memory, and the Portability Problem](/2026/04/17/cross-tool-agent-memory-mempalace-portability/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Purpose-Built Agent Models: What codex-auto-review Tells Us](/2026/04/17/purpose-built-agent-models-codex-auto-review/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Codex Built-In Memory Deep Dive: Two-Phase Pipeline](/2026/04/18/codex-built-in-memory-system-deep-dive/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [What 33,000 Agentic Pull Requests Reveal](/2026/04/18/empirical-research-agentic-pull-requests-codex-cli/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Multi-Agent vs Single-Agent: A Practical Framework](/2026/04/18/multi-agent-vs-single-agent-codex-cli-framework/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The Asymmetric Feedback Problem: Business Logic Failures](/2026/04/19/asymmetric-feedback-problem-coding-agents-business-logic/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Beyond SWE-bench: Why AI Coding Benchmarks Are Broken](/2026/04/19/beyond-swe-bench-broken-benchmarks-codex-cli-workflows/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Why Code Review Agents Produce 60% Noise](/2026/04/19/code-review-agents-noise-problem-codex-cli-review-configuration/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Formal Architecture Descriptors: Navigation Primitives](/2026/04/19/formal-architecture-descriptors-navigation-primitives-codex-cli/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [System Prompts Compared: Codex, Gemini, Claude Code](/2026/04/19/system-prompts-compared-codex-gemini-claude-code/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The Harness Effect: Same Model, Different Tool, Different Score](/2026/04/19/the-harness-effect-same-model-different-tool-different-score/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Claude Opus 4.7 Launch: What It Means for AI Coding Agents](/2026/04/16/claude-opus-4-7-launch/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [The Composable AI Coding Stack: Cursor, Claude Code, and Codex as Three Layers](/2026/04/16/composable-ai-coding-stack-cursor-claude-code-codex/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
 | [The April 2026 Model Deprecation Wave: Migration Guide](/2026/04/16/codex-cli-model-deprecation-wave-april-2026-migration-guide/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★★ | ★★★★☆ |
@@ -113,6 +122,19 @@ Last rated: 2026-04-17 · 357 articles rated · 357 total entries.
 | [Model Routing and Advisor Patterns: Cut AI Coding Costs](/2026/04/12/model-routing-advisor-patterns-cut-ai-coding-costs/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [Gemini CLI Subagents: Multi-Agent Orchestration Arrives](/2026/04/15/gemini-cli-subagents-launch/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [Thread Automations vs Claude Code Routines: Scheduled Agent Execution](/2026/04/17/thread-automations-vs-claude-code-routines/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [The Complete Codex CLI Pricing Guide](/2026/04/10/codex-cli-complete-pricing-guide-subscription-tokens-cost-optimization/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [The macOS Premium: Which Codex Features Only Work on Apple](/2026/04/17/codex-cli-macos-premium-platform-feature-matrix/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [What MIT Gets Right (and Misses) About Agentic Coding](/2026/04/17/mit-missing-semester-agentic-coding-enterprise-gaps/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [The Real Cost of Multi-Model Review Loops](/2026/04/17/multi-model-review-loop-costs/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [How to Make Codex CLI and Claude Code Work Together](/2026/04/18/codex-cli-claude-code-working-together/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Codex CLI SWE-Bench Scores and Benchmark Results Explained](/2026/04/18/codex-cli-swe-bench-benchmark-scores-explained/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Git-Backed Team Memory: Egregore to Codex Hooks](/2026/04/18/git-backed-team-memory-egregore-codex-hooks/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [Self-Evolving Agents: Cookbook Retraining Loop with Hooks](/2026/04/18/self-evolving-agents-openai-cookbook-retraining-codex-cli-hooks/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [Agentic Engineering Case Study: Four-Week Adoption](/2026/04/19/agentic-engineering-case-study-four-week-adoption/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Benchmarking Your Agentic Pod: CocoaBench, HiL-Bench, AAR](/2026/04/19/benchmarking-agentic-pod-cocoabench-hilbench-aar-agent-limits/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Compiled Policy Enforcement: PCAS and Codex Hooks](/2026/04/19/compiled-policy-enforcement-pcas-codex-hooks/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [Learned Capability Governance: Aethelgard and Permission Profiles](/2026/04/19/learned-capability-governance-aethelgard-codex-permission-profiles/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [Codex CLI vs Codex Cloud: When to Use Each](/2026/04/18/codex-cli-vs-codex-cloud-when-to-use-each/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★★ | ★★★★☆ |
 | [PermissionRequest Hooks as a Programmatic Policy Engine](/2026/04/15/permissionrequest-hooks-programmatic-policy-engine/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Migrating Claude Code to Codex CLI](/2026/03/26/migrating-claude-code-to-codex-cli/) | [view](https://codex.danielvaughan.com/2026/03/26/migrating-claude-code-to-codex-cli/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Subagents: TOML, Parallelism, spawn_agents_on_csv](/2026/03/26/codex-cli-subagents-toml-parallelism/) | [view](https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
@@ -315,6 +337,23 @@ Last rated: 2026-04-17 · 357 articles rated · 357 total entries.
 | [Guardian Auto-Review, OTEL Hook Metrics, and MITM Patterns](/2026/04/17/codex-cli-guardian-auto-review-otel-hooks-mitm-patterns/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Voice-Driven Development: Push-to-Talk to Realtime V2 WebRTC](/2026/04/17/codex-cli-voice-realtime-webrtc-push-to-talk/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Remote SSH and the App-Server Architecture](/2026/04/17/codex-remote-ssh-app-server-architecture/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Security Model: Two-Axis Approval and Sandbox Framework](/2026/04/08/codex-cli-security-model-approval-sandbox-two-axis/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Multi-Agent Orchestration v2: Complete Guide](/2026/04/11/codex-cli-multi-agent-orchestration-v2-complete-guide/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Hooks: Complete Guide to Events and Policy Patterns](/2026/04/15/codex-cli-hooks-complete-guide-events-policy-patterns/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [The Codex CLI Agent Loop Explained](/2026/04/18/codex-cli-agent-loop-explained/) | — | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [gh skill: Supply-Chain-Secure Agent Skills](/2026/04/18/gh-skill-agent-skills-supply-chain-codex-cli/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Why Coding Agents Fail at Navigation: AGENTS.md File Maps](/2026/04/19/why-coding-agents-fail-at-navigation-agents-md-file-maps/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Gemma 4 Local Model + Codex CLI: Complete Setup Guide](/2026/04/10/gemma-4-local-model-codex-cli-complete-setup-guide/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Figma MCP + Codex CLI: Turning Designs into Code](/2026/04/18/codex-cli-figma-mcp-design-to-code/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Headless and Batch Mode Automation](/2026/04/18/codex-cli-headless-batch-mode-automation/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Offline Mode: Local Models and Air-Gapped Setups](/2026/04/18/codex-cli-offline-local-models-air-gapped-guide/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Running Multiple Codex Agent Instances: Parallel Orchestration](/2026/04/18/running-multiple-codex-agents-parallel-orchestration/) | — | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [The Subagent Resource Leak Problem: MCP Process Trees](/2026/04/18/subagent-mcp-resource-leak-process-trees/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Ambient Suggestions: Proactive Coding Agent](/2026/04/19/codex-ambient-suggestions-proactive-coding-agent/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Slash Command Queueing: Fire-and-Forget Workflows](/2026/04/19/codex-cli-slash-command-queueing-fire-and-forget-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [The ExecPlan Pattern: Structuring Long Sessions with PLANS.md](/2026/04/19/the-execplan-pattern-structuring-long-codex-sessions-with-plans-md/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Using Codex CLI to Improve Published Algorithms](/2026/04/19/using-codex-cli-to-improve-published-algorithms-two-stage-pipeline/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Thread Automation Recipes: 15 Scheduled Agent Patterns](/2026/04/17/thread-automation-recipes-scheduled-agent-patterns/) | — | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
 | [Beyond Code: File Automation & Browser Tasks](/2026/03/27/codex-cli-beyond-code-file-automation/) | [view](https://codex.danielvaughan.com/2026/03/27/codex-cli-beyond-code-file-automation/) | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ |
 | [A2A Meets MCP: The Protocol Stack](/2026/04/09/a2a-meets-mcp-protocol-stack/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★★★ |
 | [Codex CLI Configuration Reference: All Keys](/2026/04/08/codex-cli-configuration-reference/) | [view](https://codex.danielvaughan.com/2026/04/08/codex-cli-configuration-reference/) | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
@@ -357,6 +396,17 @@ Last rated: 2026-04-17 · 357 articles rated · 357 total entries.
 | [Proactive Memory: Thread Automations and Self-Directing Agents](/2026/04/16/codex-proactive-memory-thread-automations-self-directing-agents/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
 | [Permission Profiles: Governed Repo Mode and Enterprise Security](/2026/04/17/permission-profiles-governed-repo-enterprise-security/) | — | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
 | [The Node.js-Free Codex CLI: Rust Binary Installer and Enterprise Deployment](/2026/04/16/nodejs-free-codex-cli-rust-binary-installer-enterprise-deployment/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Codex CLI Session Persistence: Resume, Fork, and Analytics](/2026/04/13/codex-cli-session-persistence-resume-fork-analytics/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Codex CLI Configuration Complete Guide](/2026/04/16/codex-cli-configuration-complete-guide-hierarchy-profiles-trust/) | — | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Codex CLI Proxy Configuration: SOCKS, HTTP, Corporate Networks](/2026/04/18/codex-cli-proxy-configuration-socks-http-corporate-networks/) | — | ★★★★★ | ★★★★★ | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Mastering the Codex TUI Composer: Shortcuts and History Search](/2026/04/18/codex-tui-composer-mastery-ctrl-r-history-search-keyboard-shortcuts/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Policy-as-Code Governance Cookbook for Codex CLI](/2026/04/18/policy-as-code-governance-cookbook-codex-cli-guardrails/) | — | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Codex CLI Rules Engine: Starlark Policies and Approval Fatigue](/2026/03/30/codex-cli-rules-engine-starlark-approval-fatigue/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Your First 30 Minutes with Codex CLI](/2026/04/18/your-first-30-minutes-with-codex-cli/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Before and After: 5 Developer Workflows Transformed](/2026/04/19/before-and-after-developer-workflows-transformed-by-codex-cli/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ |
+| [Codex CLI for the Sceptic: Honest Answers](/2026/04/19/codex-cli-for-the-sceptic-honest-answers/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ |
+| [From ChatGPT to Codex CLI: What Changes When AI Runs Code](/2026/04/19/from-chatgpt-to-codex-cli-what-changes-when-ai-runs-code/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ |
+| [What You Can Build with Codex CLI: 10 Real-World Setups](/2026/04/19/what-you-can-build-with-codex-cli-10-setups-simple-to-advanced/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ |
 | [CI/CD: codex exec & Non-Interactive Mode](/2026/03/26/codex-cli-cicd-non-interactive/) | [view](https://codex.danielvaughan.com/2026/03/26/codex-cli-cicd-non-interactive/) | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ |
 | [Codex Enterprise Compliance: Audit Logs & Team Budgets](/2026/04/08/codex-enterprise-compliance-audit-logs-team-budgets/) | — | ★★★★☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★☆☆ |
 | [Codex CLI Enters O'Reilly Curriculum](/2026/04/09/codex-cli-oreilly-mainstream-adoption/) | — | ★★★☆☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★☆☆ |
@@ -366,4 +416,6 @@ Last rated: 2026-04-17 · 357 articles rated · 357 total entries.
 | [Inside the Codex App Workspace: PR Review Pane, Task Sidebar, Artifact Viewer](/2026/04/17/codex-app-workspace-pr-review-task-sidebar-artifact-viewer/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★☆☆ |
 | [OpenAI Codex Day Keynote: Enterprise Adoption and Model Roadmap](/2026/04/16/openai-codex-day-keynote/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★☆☆ |
 | [Codex TypeScript SDK: Streaming & Multimodal](/2026/04/08/codex-typescript-sdk-streaming-multimodal/) | — | ★★★★★ | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★☆☆ |
+| [Transferring ChatGPT Conversations to Codex CLI](/2026/04/18/transferring-chatgpt-conversations-to-codex-cli/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★☆☆ |
+| [OpenAI Codex CLI Official Documentation Guide](/2026/04/19/openai-codex-cli-official-documentation-guide/) | — | ★★☆☆☆ | ★★★★☆ | ★☆☆☆☆ | ★★☆☆☆ | ★★★☆☆ |
 | [Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud](/2026/04/14/claude-code-routines-launch/) | — | — | — | — | — | — |
