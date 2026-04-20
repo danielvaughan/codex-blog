@@ -2,7 +2,7 @@
 title: "Cloud Agent Plugin Suites: AWS Led, Azure Followed, and the GCP Gap"
 parent: "Articles"
 nav_order: 276
-tags: ["azure` `gcp` `aws` `plugins` `cloud-infrastructure` `enterprise` `compound-plugin` `mcp` `codex-cli` `skills"]
+tags: ["azure", "gcp", "aws", "plugins", "cloud-infrastructure", "enterprise", "compound-plugin", "mcp", "codex-cli", "skills"]
 ---
 
 ![Sketchnote diagram for: Cloud Agent Plugin Suites: AWS Led, Azure Followed, and the GCP Gap](/sketchnotes/articles/2026-04-13-cloud-agent-plugin-suites-aws-azure-gcp-gap.png)

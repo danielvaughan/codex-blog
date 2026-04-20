@@ -3,7 +3,7 @@ title: "Codex CLI HIPAA Compliance in 2026: The Regulated Workspace Exclusion an
 date: 2026-04-20T00:00:00+00:00
 parent: "Articles"
 nav_order: 352
-tags: ["hipaa` `compliance` `enterprise` `security` `codex-cli` `regulated-environments"]
+tags: ["hipaa", "compliance", "enterprise", "security", "codex-cli", "regulated-environments"]
 ---
 
 # Codex CLI HIPAA Compliance in 2026: The Regulated Workspace Exclusion and What It Means

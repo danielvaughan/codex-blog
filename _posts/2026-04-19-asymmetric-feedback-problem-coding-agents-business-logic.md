@@ -2,7 +2,7 @@
 title: "The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic"
 parent: "Articles"
 nav_order: 349
-tags: ["codex-cli` `enterprise` `business-logic` `verification` `hooks` `agent-failure-modes` `subagents"]
+tags: ["codex-cli", "enterprise", "business-logic", "verification", "hooks", "agent-failure-modes", "subagents"]
 ---
 
 # The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic

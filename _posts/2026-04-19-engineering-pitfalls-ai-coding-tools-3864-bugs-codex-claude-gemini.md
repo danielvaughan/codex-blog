@@ -2,7 +2,7 @@
 title: "Engineering Pitfalls in AI Coding Tools: What 3,864 Bugs Reveal About Codex, Claude Code, and Gemini CLI"
 parent: "Articles"
 nav_order: 352
-tags: ["codex-cli` `claude-code` `gemini-cli` `bugs` `reliability` `engineering` `research` `troubleshooting` `integration"]
+tags: ["codex-cli", "claude-code", "gemini-cli", "bugs", "reliability", "engineering", "research", "troubleshooting", "integration"]
 ---
 
 # Engineering Pitfalls in AI Coding Tools: What 3,864 Bugs Reveal About Codex, Claude Code, and Gemini CLI

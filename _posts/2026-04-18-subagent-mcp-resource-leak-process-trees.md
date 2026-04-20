@@ -2,7 +2,7 @@
 title: "The Subagent Resource Leak Problem: Why MCP Process Trees Accumulate and What McpConnectionManager::shutdown() Fixes"
 parent: "Articles"
 nav_order: 325
-tags: ["subagents` `mcp` `resource-leak` `debugging` `enterprise` `process-management"]
+tags: ["subagents", "mcp", "resource-leak", "debugging", "enterprise", "process-management"]
 ---
 
 ![Sketchnote diagram for: The Subagent Resource Leak Problem: Why MCP Process Trees Accumulate and What McpConnectionManager::shutdown() Fixes](/sketchnotes/articles/2026-04-18-subagent-mcp-resource-leak-process-trees.png)

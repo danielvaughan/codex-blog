@@ -3,7 +3,7 @@ title: "Codex CLI Split Permissions: Fine-Grained Filesystem and Network Policie
 date: 2026-04-20T00:00:00+00:00
 parent: "Articles"
 nav_order: 349
-tags: ["codex-cli` `security` `configuration` `permissions` `enterprise` `sandbox` `network"]
+tags: ["codex-cli", "security", "configuration", "permissions", "enterprise", "sandbox", "network"]
 ---
 
 # Codex CLI Split Permissions: Fine-Grained Filesystem and Network Policies

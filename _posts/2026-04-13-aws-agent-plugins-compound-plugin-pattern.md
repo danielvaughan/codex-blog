@@ -2,7 +2,7 @@
 title: "AWS Agent Plugins and the Compound Plugin Pattern: How Cloud Providers Are Shipping Production-Grade Agent Skills"
 parent: "Articles"
 nav_order: 273
-tags: ["aws` `plugins` `compound-plugin` `cloud-infrastructure` `enterprise` `marketplace` `mcp` `iac` `cost-estimation"]
+tags: ["aws", "plugins", "compound-plugin", "cloud-infrastructure", "enterprise", "marketplace", "mcp", "iac", "cost-estimation"]
 ---
 
 ![Sketchnote diagram for: AWS Agent Plugins and the Compound Plugin Pattern: How Cloud Providers Are Shipping Production-Grade Agent Skills](/sketchnotes/articles/2026-04-13-aws-agent-plugins-compound-plugin-pattern.png)
