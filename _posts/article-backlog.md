@@ -349,7 +349,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Scope: Setting up OTEL export, trace analysis for debugging agent loops, cost attribution per session, Grafana/Datadog dashboards for team usage, alerting on runaway sessions
 - SEO targets: "codex cli observability", "codex cli opentelemetry", "monitor coding agent costs"
 
-📝 **Codex CLI + Terraform/IaC: Infrastructure Agent Patterns**
+~~**Codex CLI + Terraform/IaC: Infrastructure Agent Patterns**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-terraform-iac-infrastructure-agent-patterns.md`
 
 - Gap: Marcus persona (Platform Engineer) is well-served on CI/CD but lacks dedicated IaC content. Multiple articles mention Terraform in passing but none cover it deeply.
 - Scope: Codex for plan review, drift detection, module generation, state file safety, sandbox constraints for infrastructure work
