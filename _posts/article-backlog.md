@@ -60,7 +60,7 @@
     - Scope: HIPAA compliance checklist, data handling, audit trails
     - Note: Enhances existing codex-cli-regulated-environments-hipaa-soc2 with Regulated Workspace exclusion, new certifications, Compliance API gap
 
-3. **Codex CLI Guardian Approval: Configuring Auto-Review Policies**
+3. ~~**Codex CLI Guardian Approval: Configuring Auto-Review Policies**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-guardian-approval-configuring-auto-review-policies.md`
     - Source: "codex guardian_approval" (4 impressions)
     - Scope: Guardian approval configuration reference, policy examples
     - Note: Existing guardian articles may cover this — enhance with "guardian_approval" keyword
