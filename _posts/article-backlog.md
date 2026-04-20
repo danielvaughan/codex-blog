@@ -303,3 +303,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: OpenAI Cookbook autofix guide, codex-action@v1 docs, GitLab CI cookbook
     - Scope: codex exec for headless CI, codex-action safety strategies, GitHub Actions autofix workflow, GitLab CodeClimate quality reports, automated security patch generation, marker-based output extraction, production hardening patterns
     - SEO targets: "codex cli autofix ci", "codex github action ci cd", "codex cli self-healing pipeline"
+
+---
+
+## New Articles — Auto-Generated (2026-04-20, Hourly Scan)
+
+### Medium Priority
+
+1. ~~**Codex CLI TUI Mastery: Slash Commands, Keyboard Shortcuts, and Session Workflows for Power Users**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-tui-mastery-slash-commands-keyboard-shortcuts-session-workflows.md`
+    - Source: Official CLI slash commands docs, v0.121 release notes, best practices page
+    - Scope: Complete TUI reference — all 30+ slash commands, keyboard shortcuts (Ctrl+R, Ctrl+G, Ctrl+O), prompt history architecture, session workflow patterns (fork, compact-and-continue, plan-execute-review, queued chains), external editor workflow, configuration for TUI productivity
+    - SEO targets: "codex cli slash commands", "codex cli keyboard shortcuts", "codex cli TUI guide"
