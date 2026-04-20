@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Agent Notifications: Desktop Alerts, Audio Chimes, and Multi-Agent Monitoring"
 date: 2026-04-10T13:00:00+00:00
-tags:
+tags: ["notifications", "notify-hook", "osc9", "desktop-alerts", "monitoring", "multi-agent", "tui", "config-toml"]
   - notifications
   - notify-hook
   - osc9

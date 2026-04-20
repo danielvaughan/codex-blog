@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI and Jira: Issue-Driven Development with the Atlassian MCP Server"
 date: 2026-04-10T12:15:00+00:00
-tags:
+tags: ["jira", "atlassian", "mcp", "issue-tracking", "workflow", "project-management", "codex-cli", "automation"]
   - jira
   - atlassian
   - mcp

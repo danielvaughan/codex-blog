@@ -292,3 +292,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: arXiv:2604.05854 "Deep Researcher Agent" (Zhang, April 2026), OpenAI long-horizon tasks blog, Codex App automations docs
     - Scope: Three architectural patterns (zero-cost monitoring, constant-size memory, minimal-toolset workers) translated to Codex CLI. Thread automations for wake-up loops, externalised memory files, subagent delegation with scoped profiles, cost projections, dry-run validation
     - SEO targets: "codex cli autonomous agent", "codex cli long running sessions", "deep researcher agent codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-20, Late Hourly Scan)
+
+### High Priority
+
+1. ~~**Automated CI Failure Recovery with Codex CLI: Self-Healing Pipelines from GitHub Actions to GitLab CI**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-ci-autofix-self-healing-pipelines-github-actions-gitlab.md`
+    - Source: OpenAI Cookbook autofix guide, codex-action@v1 docs, GitLab CI cookbook
+    - Scope: codex exec for headless CI, codex-action safety strategies, GitHub Actions autofix workflow, GitLab CodeClimate quality reports, automated security patch generation, marker-based output extraction, production hardening patterns
+    - SEO targets: "codex cli autofix ci", "codex github action ci cd", "codex cli self-healing pipeline"

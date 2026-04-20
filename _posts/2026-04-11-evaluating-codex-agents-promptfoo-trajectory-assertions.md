@@ -1,7 +1,7 @@
 ---
 title: "Evaluating Codex CLI Agents with Promptfoo: Trajectory Assertions, Cost Guards, and Structured Grading"
 date: 2026-04-11T21:00:00+00:00
-tags:
+tags: ["evaluation", "promptfoo", "testing", "codex-cli", "trajectory-assertions", "cost-management"]
   - evaluation
   - testing
   - promptfoo

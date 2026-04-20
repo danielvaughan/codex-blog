@@ -1,7 +1,7 @@
 ---
 title: "Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command"
 date: 2026-04-11T22:00:00+00:00
-tags:
+tags: ["marketplace", "plugins", "distribution", "skills", "ecosystem", "enterprise"]
   - marketplace
   - plugins
   - distribution

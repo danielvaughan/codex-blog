@@ -1,7 +1,7 @@
 ---
 title: "Production Guardrails for Codex CLI: What Must Be in Place Before Agents Touch Production Code"
 date: 2026-04-10T08:00:00+00:00
-tags:
+tags: ["production-guardrails", "security", "enterprise", "approval-modes", "sandbox", "hooks", "cross-model-review", "cost-controls"]
   - production-guardrails
   - security
   - enterprise

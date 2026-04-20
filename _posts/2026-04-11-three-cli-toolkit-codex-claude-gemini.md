@@ -1,7 +1,7 @@
 ---
 title: "The Three-CLI Toolkit: Running Codex CLI, Claude Code, and Gemini CLI as a Unified Development Stack"
 date: 2026-04-11T20:00:00+00:00
-tags:
+tags: ["multi-tool", "claude-code", "gemini-cli", "workflow", "cost-optimisation", "mcp", "bridging-tools", "decision-framework"]
   - multi-tool
   - claude-code
   - gemini-cli
