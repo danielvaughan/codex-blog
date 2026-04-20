@@ -369,7 +369,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Scope: dbt model generation, Airflow DAG creation, data quality checks, SQL review patterns
 - SEO targets: "codex cli dbt", "codex cli data engineering", "AI agent data pipeline"
 
-📝 **When Guardian Approval Goes Wrong: Failure Modes and Escalation Patterns**
+~~**When Guardian Approval Goes Wrong: Failure Modes and Escalation Patterns**~~ ✅ Written 2026-04-20 → `2026-04-20-when-guardian-approval-goes-wrong-failure-modes-escalation-patterns.md`
 
 - Gap: New Guardian article covers configuration but not operational failure modes and recovery
 - Scope: False positives/negatives, escalation fatigue, guardian subagent disagreements, audit trail analysis, tuning guardian sensitivity
