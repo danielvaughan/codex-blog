@@ -363,7 +363,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Medium Priority
 
-📝 **Codex CLI for Data Engineering: dbt, Airflow, and Pipeline Generation**
+~~**Codex CLI for Data Engineering: dbt, Airflow, and Pipeline Generation**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-data-engineering-dbt-airflow-pipeline-generation.md`
 
 - Gap: No coverage of data engineering workflows despite overlap with Marcus and Sofia personas
 - Scope: dbt model generation, Airflow DAG creation, data quality checks, SQL review patterns
