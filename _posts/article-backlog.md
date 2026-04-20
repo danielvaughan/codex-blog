@@ -265,3 +265,8 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: Codex CLI v0.121.0 named permission profiles, config-reference docs, linux-sandbox README
     - Scope: Named permission profiles, filesystem split policies with path-specificity ordering, glob-based file restrictions, managed network proxy with domain allowlists, SOCKS5 support, shell environment policy, practical patterns for monorepos/CI/devcontainers
     - SEO targets: "codex cli permissions profile", "codex cli filesystem policy", "codex cli network proxy domain allowlist"
+
+2. ~~**End-to-End Testing with Codex CLI and Playwright: Agent-Driven Test Generation Pipelines**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-playwright-e2e-testing-agent-driven-test-generation.md`
+    - Source: Playwright test agents docs, Playwright MCP server, TestDino cloud guide, agentmantis/test-skills, Awesome Testing Playwright CLI article
+    - Scope: Playwright MCP server configuration in Codex CLI, accessibility-tree-first approach, Planner/Generator/Healer agent pipeline, AGENTS.md for E2E conventions, codex exec batch generation, Codex Cloud parallel generation, test-skills package, Playwright CLI as MCP alternative, CI pipeline integration
+    - SEO targets: "codex cli playwright testing", "codex cli e2e test generation", "playwright mcp codex"
