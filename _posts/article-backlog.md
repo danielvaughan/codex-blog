@@ -325,3 +325,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: Docker Sandboxes docs, devcontainer-feature-codex, Codex linux-sandbox README, agent approvals docs
     - Scope: Three approaches to containerised Codex CLI (Docker Sandboxes/sbx, devcontainer features, custom Dockerfiles), bubblewrap-in-container challenge and user namespace configuration, security layering patterns, CI/CD integration with GitHub Actions and GitLab CI, configuration reference for containerised agents
     - SEO targets: "codex cli devcontainer", "codex cli docker sandbox", "codex cli container security"
+
+---
+
+## New Articles — Auto-Generated (2026-04-20, Late Evening Scan)
+
+### High Priority
+
+1. ~~**Safe Dependency Management with Codex CLI: Why AI Agents Get It Wrong and How to Fix It**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-dependency-management-security-lockfile-discipline.md`
+    - Source: arXiv:2601.00205 (Singla, January 2026), Nesbitt package security research (April 2026), OpenAI best practices
+    - Scope: AI agents select vulnerable dependency versions 50% more often than humans, 28% hallucination rate on package versions, lockfile discipline patterns, AGENTS.md dependency policies, safe upgrade profiles, codex exec audit pipelines, defence-in-depth checklist
+    - SEO targets: "codex cli dependency management", "codex cli npm upgrade security", "AI agent dependency vulnerability"
