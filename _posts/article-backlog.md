@@ -270,3 +270,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: Playwright test agents docs, Playwright MCP server, TestDino cloud guide, agentmantis/test-skills, Awesome Testing Playwright CLI article
     - Scope: Playwright MCP server configuration in Codex CLI, accessibility-tree-first approach, Planner/Generator/Healer agent pipeline, AGENTS.md for E2E conventions, codex exec batch generation, Codex Cloud parallel generation, test-skills package, Playwright CLI as MCP alternative, CI pipeline integration
     - SEO targets: "codex cli playwright testing", "codex cli e2e test generation", "playwright mcp codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-20, Hourly Scan)
+
+### High Priority
+
+1. ~~**Configuration-Based Sandbox Escape: The Attack Class Every Codex CLI User Should Understand**~~ ✅ Written 2026-04-20 → `2026-04-20-configuration-based-sandbox-escape-cbse-codex-cli-defence.md`
+    - Source: Cymulate Research Labs CBSE research (April 2026), CVE-2025-59532, NVIDIA AI Red Team guidance, Mike Lukianoff analysis
+    - Scope: CBSE attack class explanation, real CVEs (path traversal, zsh-fork bypass, apply_patch bypass, MCP config injection), Codex CLI defence architecture (OS-level sandbox, protected config paths, approval policies), hardening guide with concrete TOML configuration, defence-in-depth checklist
+    - SEO targets: "codex cli sandbox escape", "CBSE coding agent", "codex cli security hardening"
