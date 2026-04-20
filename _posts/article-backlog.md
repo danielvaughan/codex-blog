@@ -281,3 +281,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: Cymulate Research Labs CBSE research (April 2026), CVE-2025-59532, NVIDIA AI Red Team guidance, Mike Lukianoff analysis
     - Scope: CBSE attack class explanation, real CVEs (path traversal, zsh-fork bypass, apply_patch bypass, MCP config injection), Codex CLI defence architecture (OS-level sandbox, protected config paths, approval policies), hardening guide with concrete TOML configuration, defence-in-depth checklist
     - SEO targets: "codex cli sandbox escape", "CBSE coding agent", "codex cli security hardening"
+
+---
+
+## New Articles — Auto-Generated (2026-04-20, Hourly Scan)
+
+### Medium Priority
+
+1. ~~**The Deep Researcher Pattern: Building 24/7 Autonomous Experimentation Loops with Codex CLI**~~ ✅ Written 2026-04-20 → `2026-04-20-deep-researcher-pattern-autonomous-experimentation-loops-codex-cli.md`
+    - Source: arXiv:2604.05854 "Deep Researcher Agent" (Zhang, April 2026), OpenAI long-horizon tasks blog, Codex App automations docs
+    - Scope: Three architectural patterns (zero-cost monitoring, constant-size memory, minimal-toolset workers) translated to Codex CLI. Thread automations for wake-up loops, externalised memory files, subagent delegation with scoped profiles, cost projections, dry-run validation
+    - SEO targets: "codex cli autonomous agent", "codex cli long running sessions", "deep researcher agent codex"
