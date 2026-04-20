@@ -50,10 +50,10 @@
 
 ### Lower Priority
 
-1. **Codex CLI Jira Integration: Atlassian MCP Server Setup**
+1. ~~**Codex CLI Jira Integration: Atlassian MCP Server Setup**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-jira-ticket-driven-development-atlassian-mcp-automation.md`
     - Source: "codex jira plugin" (4 impressions)
     - Scope: Jira MCP server configuration, ticket-driven development workflows
-    - Note: Existing codex-cli-jira-atlassian-mcp-server article exists — may just need SEO enhancement
+    - Note: Complements existing setup article with automation pipeline, Agents in Jira, SSE migration
 
 2. **Codex CLI HIPAA and Compliance Guide**
     - Source: "codex hipaa" (2 impressions)
