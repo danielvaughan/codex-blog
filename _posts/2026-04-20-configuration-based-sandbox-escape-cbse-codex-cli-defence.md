@@ -1,5 +1,6 @@
 ---
 title: "Configuration-Based Sandbox Escape: The Attack Class Every Codex CLI User Should Understand"
+date: 2026-04-20T00:00:00+00:00
 parent: "Articles"
 nav_order: 355
 tags: ["#codex-cli #security #sandbox #CBSE #defence-in-depth #configuration #hardening"]

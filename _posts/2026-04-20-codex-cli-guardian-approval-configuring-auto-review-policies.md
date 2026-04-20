@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Guardian Approval: Configuring Auto-Review Policies"
+date: 2026-04-20T00:00:00+00:00
 parent: "Articles"
 nav_order: 354
 tags: ["codex-cli", "guardian", "approval-policy", "smart-approvals", "auto-review", "configuration", "security"]

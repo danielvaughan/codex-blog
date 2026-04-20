@@ -1,5 +1,6 @@
 ---
 title: "End-to-End Testing with Codex CLI and Playwright: Agent-Driven Test Generation Pipelines"
+date: 2026-04-20T00:00:00+00:00
 parent: "Articles"
 nav_order: 350
 tags: ["codex-cli` · `playwright` · `e2e-testing` · `mcp` · `test-generation` · `automation` · `playwright-agents` · `ci-cd"]
