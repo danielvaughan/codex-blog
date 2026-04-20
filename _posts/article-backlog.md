@@ -55,10 +55,10 @@
     - Scope: Jira MCP server configuration, ticket-driven development workflows
     - Note: Complements existing setup article with automation pipeline, Agents in Jira, SSE migration
 
-2. **Codex CLI HIPAA and Compliance Guide**
+2. ~~**Codex CLI HIPAA and Compliance Guide**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-hipaa-compliance-2026-regulated-workspace-exclusion.md`
     - Source: "codex hipaa" (2 impressions)
     - Scope: HIPAA compliance checklist, data handling, audit trails
-    - Note: Existing codex-cli-regulated-environments-hipaa-soc2 covers this — enhance instead
+    - Note: Enhances existing codex-cli-regulated-environments-hipaa-soc2 with Regulated Workspace exclusion, new certifications, Compliance API gap
 
 3. **Codex CLI Guardian Approval: Configuring Auto-Review Policies**
     - Source: "codex guardian_approval" (4 impressions)
