@@ -5,6 +5,9 @@ nav_order: 358
 tags: ["codex-cli", "TUI", "slash-commands", "keyboard-shortcuts", "session-management", "productivity", "power-user"]
 ---
 
+![Sketchnote diagram for: Codex CLI TUI Mastery: Slash Commands, Keyboard Shortcuts, and Session Workflows for Power Users](/sketchnotes/articles/2026-04-20-codex-cli-tui-mastery-slash-commands-keyboard-shortcuts-session-workflows.png)
+
+
 # Codex CLI TUI Mastery: Slash Commands, Keyboard Shortcuts, and Session Workflows for Power Users
 
 

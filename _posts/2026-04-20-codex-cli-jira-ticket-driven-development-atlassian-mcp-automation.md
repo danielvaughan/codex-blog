@@ -6,6 +6,9 @@ nav_order: 351
 tags: ["codex-cli", "jira", "atlassian", "mcp", "automation", "ci-cd", "ticket-driven-development", "workflow"]
 ---
 
+![Sketchnote diagram for: Ticket-Driven Development with Codex CLI: Automating the Jira-to-Pull-Request Pipeline](/sketchnotes/articles/2026-04-20-codex-cli-jira-ticket-driven-development-atlassian-mcp-automation.png)
+
+
 # Ticket-Driven Development with Codex CLI: Automating the Jira-to-Pull-Request Pipeline
 
 

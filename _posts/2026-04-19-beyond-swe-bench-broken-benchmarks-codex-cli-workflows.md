@@ -5,6 +5,9 @@ nav_order: 347
 tags: ["benchmarks", "SWE-bench", "FeatureBench", "evaluation", "Codex CLI", "agent capabilities", "GPT-5.4"]
 ---
 
+![Sketchnote diagram for: Beyond SWE-bench: Why AI Coding Benchmarks Are Broken and What It Means for Codex CLI Workflows](/sketchnotes/articles/2026-04-19-beyond-swe-bench-broken-benchmarks-codex-cli-workflows.png)
+
+
 # Beyond SWE-bench: Why AI Coding Benchmarks Are Broken and What It Means for Codex CLI Workflows
 
 

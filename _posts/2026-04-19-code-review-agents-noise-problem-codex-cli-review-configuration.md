@@ -5,6 +5,9 @@ nav_order: 351
 tags: ["code-review", "research", "MSR-2026", "signal-to-noise", "review-agents", "Codex-CLI", "AGENTS-md", "hooks", "CI-CD", "quality-gates"]
 ---
 
+![Sketchnote diagram for: Why Code Review Agents Produce 60% Noise — and How to Configure Codex CLI Reviews That Don't](/sketchnotes/articles/2026-04-19-code-review-agents-noise-problem-codex-cli-review-configuration.png)
+
+
 # Why Code Review Agents Produce 60% Noise — and How to Configure Codex CLI Reviews That Don't
 
 

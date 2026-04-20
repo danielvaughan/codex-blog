@@ -5,6 +5,9 @@ nav_order: 349
 tags: ["codex-cli", "enterprise", "business-logic", "verification", "hooks", "agent-failure-modes", "subagents"]
 ---
 
+![Sketchnote diagram for: The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic](/sketchnotes/articles/2026-04-19-asymmetric-feedback-problem-coding-agents-business-logic.png)
+
+
 # The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic
 
 

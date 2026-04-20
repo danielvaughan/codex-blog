@@ -5,6 +5,9 @@ nav_order: 348
 tags: ["security", "permission-profiles", "capability-governance", "aethelgard", "hooks", "least-privilege", "enterprise", "codex-cli"]
 ---
 
+![Sketchnote diagram for: Learned Capability Governance: What Aethelgard Means for Codex Permission Profiles](/sketchnotes/articles/2026-04-19-learned-capability-governance-aethelgard-codex-permission-profiles.png)
+
+
 # Learned Capability Governance: What Aethelgard Means for Codex Permission Profiles
 
 

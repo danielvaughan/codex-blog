@@ -5,6 +5,9 @@ nav_order: 353
 tags: ["codex-cli", "code-modernisation", "legacy-migration", "ExecPlan", "COBOL", "enterprise", "refactoring"]
 ---
 
+![Sketchnote diagram for: Code Modernisation with Codex CLI: The ExecPlan-Driven Migration Pipeline](/sketchnotes/articles/2026-04-19-code-modernisation-codex-cli-execplan-migration-pipeline.png)
+
+
 # Code Modernisation with Codex CLI: The ExecPlan-Driven Migration Pipeline
 
 

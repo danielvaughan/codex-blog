@@ -5,6 +5,9 @@ nav_order: 356
 tags: ["codex-cli", "autonomous-agents", "long-sessions", "experimentation", "research", "memory-management", "thread-automations", "cost-optimisation"]
 ---
 
+![Sketchnote diagram for: The Deep Researcher Pattern: Building 24/7 Autonomous Experimentation Loops with Codex CLI](/sketchnotes/articles/2026-04-20-deep-researcher-pattern-autonomous-experimentation-loops-codex-cli.png)
+
+
 # The Deep Researcher Pattern: Building 24/7 Autonomous Experimentation Loops with Codex CLI
 
 

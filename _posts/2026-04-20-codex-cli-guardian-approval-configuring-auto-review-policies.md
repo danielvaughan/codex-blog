@@ -6,6 +6,9 @@ nav_order: 354
 tags: ["codex-cli", "guardian", "approval-policy", "smart-approvals", "auto-review", "configuration", "security"]
 ---
 
+![Sketchnote diagram for: Codex CLI Guardian Approval: Configuring Auto-Review Policies](/sketchnotes/articles/2026-04-20-codex-cli-guardian-approval-configuring-auto-review-policies.png)
+
+
 # Codex CLI Guardian Approval: Configuring Auto-Review Policies
 
 

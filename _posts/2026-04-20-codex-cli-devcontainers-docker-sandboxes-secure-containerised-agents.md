@@ -5,6 +5,9 @@ nav_order: 359
 tags: ["codex-cli", "devcontainers", "docker", "sandboxing", "security", "bubblewrap", "ci-cd", "containers"]
 ---
 
+![Sketchnote diagram for: Running Codex CLI in Devcontainers and Docker Sandboxes: Secure Containerised Agent Workflows](/sketchnotes/articles/2026-04-20-codex-cli-devcontainers-docker-sandboxes-secure-containerised-agents.png)
+
+
 # Running Codex CLI in Devcontainers and Docker Sandboxes: Secure Containerised Agent Workflows
 
 

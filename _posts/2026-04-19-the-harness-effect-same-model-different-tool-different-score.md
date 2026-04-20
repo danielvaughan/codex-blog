@@ -5,6 +5,9 @@ nav_order: 347
 tags: ["harness-engineering", "benchmarks", "codex-cli", "claude-code", "cursor", "AGENTS.md", "performance-tuning"]
 ---
 
+![Sketchnote diagram for: The Harness Effect: Why the Same Model Scores 16 Points Higher in a Different Tool](/sketchnotes/articles/2026-04-19-the-harness-effect-same-model-different-tool-different-score.png)
+
+
 # The Harness Effect: Why the Same Model Scores 16 Points Higher in a Different Tool
 
 

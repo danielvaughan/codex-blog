@@ -6,6 +6,9 @@ nav_order: 355
 tags: ["#codex-cli #security #sandbox #CBSE #defence-in-depth #configuration #hardening"]
 ---
 
+![Sketchnote diagram for: Configuration-Based Sandbox Escape: The Attack Class Every Codex CLI User Should Understand](/sketchnotes/articles/2026-04-20-configuration-based-sandbox-escape-cbse-codex-cli-defence.png)
+
+
 # Configuration-Based Sandbox Escape: The Attack Class Every Codex CLI User Should Understand
 
 

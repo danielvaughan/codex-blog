@@ -5,6 +5,9 @@ nav_order: 350
 tags: ["codex-cli", "security", "hooks", "policy-enforcement", "PCAS", "governance", "enterprise"]
 ---
 
+![Sketchnote diagram for: Compiled Policy Enforcement: Why Prompt-Based Safety Fails at 48% and What PCAS Means for Codex Hooks](/sketchnotes/articles/2026-04-19-compiled-policy-enforcement-pcas-codex-hooks.png)
+
+
 # Compiled Policy Enforcement: Why Prompt-Based Safety Fails at 48% and What PCAS Means for Codex Hooks
 
 

@@ -5,6 +5,9 @@ nav_order: 357
 tags: ["codex-cli", "codex-exec", "ci-cd", "github-actions", "gitlab-ci", "autofix", "self-healing", "codex-action", "security-remediation"]
 ---
 
+![Sketchnote diagram for: Automated CI Failure Recovery with Codex CLI: Self-Healing Pipelines from GitHub Actions to GitLab CI](/sketchnotes/articles/2026-04-20-codex-cli-ci-autofix-self-healing-pipelines-github-actions-gitlab.png)
+
+
 # Automated CI Failure Recovery with Codex CLI: Self-Healing Pipelines from GitHub Actions to GitLab CI
 
 

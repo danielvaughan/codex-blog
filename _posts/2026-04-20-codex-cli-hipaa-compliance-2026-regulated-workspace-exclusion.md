@@ -6,6 +6,9 @@ nav_order: 352
 tags: ["hipaa", "compliance", "enterprise", "security", "codex-cli", "regulated-environments"]
 ---
 
+![Sketchnote diagram for: Codex CLI HIPAA Compliance in 2026: The Regulated Workspace Exclusion and What It Means](/sketchnotes/articles/2026-04-20-codex-cli-hipaa-compliance-2026-regulated-workspace-exclusion.png)
+
+
 # Codex CLI HIPAA Compliance in 2026: The Regulated Workspace Exclusion and What It Means
 
 

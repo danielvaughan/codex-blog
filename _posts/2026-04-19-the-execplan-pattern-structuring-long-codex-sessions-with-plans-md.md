@@ -5,6 +5,9 @@ nav_order: 348
 tags: ["codex-cli", "planning", "ExecPlan", "PLANS.md", "long-horizon", "AGENTS.md", "durable-memory", "workflow"]
 ---
 
+![Sketchnote diagram for: The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md](/sketchnotes/articles/2026-04-19-the-execplan-pattern-structuring-long-codex-sessions-with-plans-md.png)
+
+
 # The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md
 
 

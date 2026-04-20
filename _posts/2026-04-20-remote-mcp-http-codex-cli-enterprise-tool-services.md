@@ -5,6 +5,9 @@ tags: [codex-cli, mcp, enterprise, remote, http, architecture]
 category: deep-dive
 ---
 
+![Sketchnote diagram for: Remote HTTP MCP: Codex CLI Completes the Enterprise Tool Services Stack](/sketchnotes/articles/2026-04-20-remote-mcp-http-codex-cli-enterprise-tool-services.png)
+
+
 # Remote HTTP MCP: Codex CLI Completes the Enterprise Tool Services Stack
 
 On April 19, 2026, OpenAI engineer Ahmed Ibrahim (@aibrahim-oai) opened a 4-part PR stack (#18581–#18584) that completes remote streamable HTTP MCP support in Codex CLI. This quietly unlocks one of the most significant enterprise capabilities: MCP servers as cloud-native microservices.

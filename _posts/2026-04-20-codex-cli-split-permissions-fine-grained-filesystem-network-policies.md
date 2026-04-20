@@ -6,6 +6,9 @@ nav_order: 349
 tags: ["codex-cli", "security", "configuration", "permissions", "enterprise", "sandbox", "network"]
 ---
 
+![Sketchnote diagram for: Codex CLI Split Permissions: Fine-Grained Filesystem and Network Policies](/sketchnotes/articles/2026-04-20-codex-cli-split-permissions-fine-grained-filesystem-network-policies.png)
+
+
 # Codex CLI Split Permissions: Fine-Grained Filesystem and Network Policies
 
 
