@@ -355,7 +355,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Scope: Codex for plan review, drift detection, module generation, state file safety, sandbox constraints for infrastructure work
 - SEO targets: "codex cli terraform", "codex cli infrastructure as code", "AI agent terraform plan"
 
-📝 **The Model Context Window Budget: Practical Token Management for Large Codebases**
+~~**The Model Context Window Budget: Practical Token Management for Large Codebases**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-context-window-budget-token-management-large-codebases.md`
 
 - Gap: Several articles reference context window limits and compaction but no single guide covers practical budget management strategies across different codebase sizes
 - Scope: Token budgeting heuristics, when to compact vs. fork, @-mention strategy for large monorepos, subagent delegation as context management, measuring context utilisation
