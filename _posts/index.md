@@ -3,10 +3,10 @@ title: "Articles"
 permalink: /articles/
 ---
 
-## Article Ratings (updated 2026-04-19)
+## Article Ratings (updated 2026-04-20)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-19 · 409 articles rated · 409 total entries.
+Last rated: 2026-04-20 · 421 articles rated · 422 total entries.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|---------|
@@ -101,6 +101,17 @@ Last rated: 2026-04-19 · 409 articles rated · 409 total entries.
 | [Formal Architecture Descriptors: Navigation Primitives](/2026/04/19/formal-architecture-descriptors-navigation-primitives-codex-cli/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [System Prompts Compared: Codex, Gemini, Claude Code](/2026/04/19/system-prompts-compared-codex-gemini-claude-code/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [The Harness Effect: Same Model, Different Tool, Different Score](/2026/04/19/the-harness-effect-same-model-different-tool-different-score/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Configuration-Based Sandbox Escape: The CBSE Attack Class](/2026/04/20/configuration-based-sandbox-escape-cbse-codex-cli-defence/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Safe Dependency Management: Why AI Agents Get It Wrong](/2026/04/20/codex-cli-dependency-management-security-lockfile-discipline/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Remote HTTP MCP: Enterprise Tool Services Stack](/2026/04/20/remote-mcp-http-codex-cli-enterprise-tool-services/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The Deep Researcher Pattern: Autonomous Experimentation Loops](/2026/04/20/deep-researcher-pattern-autonomous-experimentation-loops-codex-cli/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Automated CI Failure Recovery: Self-Healing Pipelines](/2026/04/20/codex-cli-ci-autofix-self-healing-pipelines-github-actions-gitlab/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Codex CLI Guardian Approval: Auto-Review Policies](/2026/04/20/codex-cli-guardian-approval-configuring-auto-review-policies/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Devcontainers and Docker Sandboxes: Secure Containerised Agents](/2026/04/20/codex-cli-devcontainers-docker-sandboxes-secure-containerised-agents/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Split Permissions: Fine-Grained Filesystem and Network Policies](/2026/04/20/codex-cli-split-permissions-fine-grained-filesystem-network-policies/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Ticket-Driven Development: Jira-to-Pull-Request Pipeline](/2026/04/20/codex-cli-jira-ticket-driven-development-atlassian-mcp-automation/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Playwright E2E Testing: Agent-Driven Test Generation](/2026/04/20/codex-cli-playwright-e2e-testing-agent-driven-test-generation/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [HIPAA Compliance 2026: Regulated Workspace Exclusion](/2026/04/20/codex-cli-hipaa-compliance-2026-regulated-workspace-exclusion/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Claude Opus 4.7 Launch: What It Means for AI Coding Agents](/2026/04/16/claude-opus-4-7-launch/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [The Composable AI Coding Stack: Cursor, Claude Code, and Codex as Three Layers](/2026/04/16/composable-ai-coding-stack-cursor-claude-code-codex/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
 | [The April 2026 Model Deprecation Wave: Migration Guide](/2026/04/16/codex-cli-model-deprecation-wave-april-2026-migration-guide/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★★ | ★★★★☆ |
@@ -400,6 +411,7 @@ Last rated: 2026-04-19 · 409 articles rated · 409 total entries.
 | [Codex CLI Configuration Complete Guide](/2026/04/16/codex-cli-configuration-complete-guide-hierarchy-profiles-trust/) | — | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
 | [Codex CLI Proxy Configuration: SOCKS, HTTP, Corporate Networks](/2026/04/18/codex-cli-proxy-configuration-socks-http-corporate-networks/) | — | ★★★★★ | ★★★★★ | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ |
 | [Mastering the Codex TUI Composer: Shortcuts and History Search](/2026/04/18/codex-tui-composer-mastery-ctrl-r-history-search-keyboard-shortcuts/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
+| [TUI Mastery: Slash Commands, Shortcuts, and Session Workflows](/2026/04/20/codex-cli-tui-mastery-slash-commands-keyboard-shortcuts-session-workflows/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
 | [Policy-as-Code Governance Cookbook for Codex CLI](/2026/04/18/policy-as-code-governance-cookbook-codex-cli-guardrails/) | — | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
 | [Codex CLI Rules Engine: Starlark Policies and Approval Fatigue](/2026/03/30/codex-cli-rules-engine-starlark-approval-fatigue/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
 | [Your First 30 Minutes with Codex CLI](/2026/04/18/your-first-30-minutes-with-codex-cli/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ |
@@ -418,4 +430,4 @@ Last rated: 2026-04-19 · 409 articles rated · 409 total entries.
 | [Codex TypeScript SDK: Streaming & Multimodal](/2026/04/08/codex-typescript-sdk-streaming-multimodal/) | — | ★★★★★ | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★☆☆ |
 | [Transferring ChatGPT Conversations to Codex CLI](/2026/04/18/transferring-chatgpt-conversations-to-codex-cli/) | — | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★☆☆ |
 | [OpenAI Codex CLI Official Documentation Guide](/2026/04/19/openai-codex-cli-official-documentation-guide/) | — | ★★☆☆☆ | ★★★★☆ | ★☆☆☆☆ | ★★☆☆☆ | ★★★☆☆ |
-| [Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud](/2026/04/14/claude-code-routines-launch/) | — | — | — | — | — | — |
+| [Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud](/2026/04/14/claude-code-routines-launch/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |

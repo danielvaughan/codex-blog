@@ -336,3 +336,36 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: arXiv:2601.00205 (Singla, January 2026), Nesbitt package security research (April 2026), OpenAI best practices
     - Scope: AI agents select vulnerable dependency versions 50% more often than humans, 28% hallucination rate on package versions, lockfile discipline patterns, AGENTS.md dependency policies, safe upgrade profiles, codex exec audit pipelines, defence-in-depth checklist
     - SEO targets: "codex cli dependency management", "codex cli npm upgrade security", "AI agent dependency vulnerability"
+
+---
+
+## New Articles — Gaps Found During Rating Review (2026-04-20)
+
+### High Priority
+
+📝 **Codex CLI Observability: OpenTelemetry Traces, Metrics, and Production Monitoring**
+   - Gap: Multiple articles reference OTEL metrics (#18026) and tracing but no dedicated observability guide exists
+   - Scope: Setting up OTEL export, trace analysis for debugging agent loops, cost attribution per session, Grafana/Datadog dashboards for team usage, alerting on runaway sessions
+   - SEO targets: "codex cli observability", "codex cli opentelemetry", "monitor coding agent costs"
+
+📝 **Codex CLI + Terraform/IaC: Infrastructure Agent Patterns**
+   - Gap: Marcus persona (Platform Engineer) is well-served on CI/CD but lacks dedicated IaC content. Multiple articles mention Terraform in passing but none cover it deeply.
+   - Scope: Codex for plan review, drift detection, module generation, state file safety, sandbox constraints for infrastructure work
+   - SEO targets: "codex cli terraform", "codex cli infrastructure as code", "AI agent terraform plan"
+
+📝 **The Model Context Window Budget: Practical Token Management for Large Codebases**
+   - Gap: Several articles reference context window limits and compaction but no single guide covers practical budget management strategies across different codebase sizes
+   - Scope: Token budgeting heuristics, when to compact vs. fork, @-mention strategy for large monorepos, subagent delegation as context management, measuring context utilisation
+   - SEO targets: "codex cli context window management", "codex cli token budget", "large codebase coding agent"
+
+### Medium Priority
+
+📝 **Codex CLI for Data Engineering: dbt, Airflow, and Pipeline Generation**
+   - Gap: No coverage of data engineering workflows despite overlap with Marcus and Sofia personas
+   - Scope: dbt model generation, Airflow DAG creation, data quality checks, SQL review patterns
+   - SEO targets: "codex cli dbt", "codex cli data engineering", "AI agent data pipeline"
+
+📝 **When Guardian Approval Goes Wrong: Failure Modes and Escalation Patterns**
+   - Gap: New Guardian article covers configuration but not operational failure modes and recovery
+   - Scope: False positives/negatives, escalation fatigue, guardian subagent disagreements, audit trail analysis, tuning guardian sensitivity
+   - SEO targets: "codex cli guardian failures", "codex approval escalation", "guardian subagent tuning"
