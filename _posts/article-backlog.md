@@ -314,3 +314,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
     - Source: Official CLI slash commands docs, v0.121 release notes, best practices page
     - Scope: Complete TUI reference — all 30+ slash commands, keyboard shortcuts (Ctrl+R, Ctrl+G, Ctrl+O), prompt history architecture, session workflow patterns (fork, compact-and-continue, plan-execute-review, queued chains), external editor workflow, configuration for TUI productivity
     - SEO targets: "codex cli slash commands", "codex cli keyboard shortcuts", "codex cli TUI guide"
+
+---
+
+## New Articles — Auto-Generated (2026-04-20, Evening Scan)
+
+### Medium Priority
+
+1. ~~**Running Codex CLI in Devcontainers and Docker Sandboxes: Secure Containerised Agent Workflows**~~ ✅ Written 2026-04-20 → `2026-04-20-codex-cli-devcontainers-docker-sandboxes-secure-containerised-agents.md`
+    - Source: Docker Sandboxes docs, devcontainer-feature-codex, Codex linux-sandbox README, agent approvals docs
+    - Scope: Three approaches to containerised Codex CLI (Docker Sandboxes/sbx, devcontainer features, custom Dockerfiles), bubblewrap-in-container challenge and user namespace configuration, security layering patterns, CI/CD integration with GitHub Actions and GitLab CI, configuration reference for containerised agents
+    - SEO targets: "codex cli devcontainer", "codex cli docker sandbox", "codex cli container security"
