@@ -386,3 +386,9 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: Codex v0.122.0 release notes, official plugin docs, codex-plugin-cc reference implementation, GitHub Issue #18115
 - Scope: Plugin architecture (skills + apps + MCP bundled), manifest format, local and team marketplaces, CLI management (/plugins, @-invocation), building custom plugins, codex-plugin-cc case study, repository-scoped configuration roadmap
 - SEO targets: "codex cli plugins", "codex cli plugin marketplace", "codex cli build plugin"
+
+~~**Prompt Caching in Codex CLI: How the Agent Loop Stays Linear and How to Maximise Cache Hits**~~ ✅ Written 2026-04-21 → `2026-04-21-codex-cli-prompt-caching-maximise-cache-hits-cost-reduction.md`
+
+- Source: "Unrolling the Codex agent loop" (OpenAI engineering blog), Prompt Caching 201 cookbook, Codex pricing docs
+- Scope: How exact-prefix prompt caching keeps the agent loop near-linear, Codex CLI append-only prompt architecture, prompt_cache_key for parallel sessions, auto-compaction interplay, anti-patterns that destroy cache hits, cost arithmetic with April 2026 pricing
+- SEO targets: "codex cli prompt caching", "codex cli cost optimisation", "codex cli cache hit rate"
