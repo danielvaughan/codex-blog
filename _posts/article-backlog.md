@@ -527,7 +527,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Medium Priority
 
-📝 **Agent Identity Authentication: How Agents Authenticate as Themselves**
+~~**Agent Identity Authentication: How Agents Authenticate as Themselves**~~ ✅ Written 2026-04-21 → `2026-04-21-agent-identity-authentication-codex-cli-v0123-agentassertion.md`
 
 - Source: PRs #18785, #18811 in v0.123 alpha
 - Scope: Agent-as-first-class-identity auth mode, Biscuit tokens in practice, migration from user-delegated auth to agent identity
