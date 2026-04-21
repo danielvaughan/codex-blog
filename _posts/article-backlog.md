@@ -482,3 +482,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: arXiv:2604.09388 "The AI Codebase Maturity Model" (Anderson, April 2026), Dark Factory maturity framework (Shapiro, 2026), StrongDM Software Factory case study
 - Scope: Five ACMM levels (Spicy Autocomplete → Dark Factory), three-axis assessment (Autonomy/Controls/Governance), concrete Codex CLI configuration at each level, AGENTS.md progression, testing as the critical investment, practical progression guide from Level 1 to Level 5, danger zone anti-pattern (high autonomy + weak controls)
 - SEO targets: "codex cli maturity model", "AI codebase maturity", "dark factory coding agent", "codex cli feedback loops"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21, Hourly Scan)
+
+### High Priority
+
+~~**Routing Codex CLI Through AI Gateways: Multi-Provider Access, Cost Control, and Failover**~~ ✅ Written 2026-04-21 → `2026-04-21-codex-cli-ai-gateway-multi-provider-routing-cost-control-failover.md`
+
+- Source: OpenAI config-advanced docs, Bifrost AI Gateway, LiteLLM proxy, OpenRouter Codex integration guide
+- Scope: config.toml provider primitives (openai_base_url, custom providers, command-based auth), three gateway options (Bifrost, LiteLLM, OpenRouter) with setup guides, production patterns (two-tier routing, regional failover, budget enforcement, air-gapped fallback), Azure configuration, observability, security considerations
+- SEO targets: "codex cli ai gateway", "codex cli multi-provider routing", "codex cli cost control gateway"
