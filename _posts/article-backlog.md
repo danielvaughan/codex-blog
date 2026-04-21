@@ -422,3 +422,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: Codex CLI v0.122.0 release notes, GitHub Issue #18125, official slash commands docs, best practices page
 - Scope: /side ephemeral forks for quick questions, /fork persistent branches for parallel exploration, Plan Mode fresh-context implementation, decision framework, workflow patterns, context budget arithmetic, anti-patterns
 - SEO targets: "codex cli /side command", "codex cli conversation branching", "codex cli fork vs side"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21, Hourly Scan)
+
+### High Priority
+
+~~**Codex CLI and Docker MCP Toolkit: Secure Containerised Tool Servers at Scale**~~ ✅ Written 2026-04-21 → `2026-04-21-codex-cli-docker-mcp-toolkit-containerised-tool-servers.md`
+
+- Source: Docker MCP Toolkit docs, Docker Blog, GitHub Issues #5444/#5161/#4176, OpenAI MCP docs
+- Scope: Docker MCP Gateway architecture, config.toml integration, profile management for teams, OCI-based profile sharing, security model (container isolation, credential injection, resource caps), known issues and workarounds, CI/CD integration, subagent considerations
+- SEO targets: "codex cli docker mcp toolkit", "codex cli containerised mcp servers", "docker mcp gateway codex"
