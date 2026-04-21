@@ -5,6 +5,8 @@ nav_order: 367
 tags: ["language-guide", "agents-md", "ruby", "rails", "codex-cli"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Ruby on Rails Teams: AGENTS.md, Bundler Sandboxing, and RSpec Workflows](/sketchnotes/articles/2026-04-21-codex-cli-ruby-on-rails-teams-agents-md-bundler-rspec-workflows.png)
+
 # Codex CLI for Ruby on Rails Teams: AGENTS.md, Bundler Sandboxing, and RSpec Workflows
 
 

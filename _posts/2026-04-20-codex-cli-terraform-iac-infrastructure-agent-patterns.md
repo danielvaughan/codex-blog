@@ -5,6 +5,8 @@ nav_order: 359
 tags: ["codex-cli", "terraform", "infrastructure-as-code", "IaC", "sandbox", "AGENTS.md", "codex-exec", "platform-engineering"]
 ---
 
+![Sketchnote diagram for: Codex CLI + Terraform/IaC: Infrastructure Agent Patterns](/sketchnotes/articles/2026-04-20-codex-cli-terraform-iac-infrastructure-agent-patterns.png)
+
 # Codex CLI + Terraform/IaC: Infrastructure Agent Patterns
 
 

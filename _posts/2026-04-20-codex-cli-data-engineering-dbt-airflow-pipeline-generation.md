@@ -5,6 +5,8 @@ nav_order: 360
 tags: ["codex-cli", "data-engineering", "dbt", "airflow", "mcp", "pipeline-generation", "agent-skills"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Data Engineering: dbt, Airflow, and Pipeline Generation](/sketchnotes/articles/2026-04-20-codex-cli-data-engineering-dbt-airflow-pipeline-generation.png)
+
 # Codex CLI for Data Engineering: dbt, Airflow, and Pipeline Generation
 
 

@@ -5,6 +5,8 @@ nav_order: 365
 tags: ["codex-cli", "prompt-caching", "cost-optimisation", "agent-loop", "performance", "token-management"]
 ---
 
+![Sketchnote diagram for: Prompt Caching in Codex CLI: How the Agent Loop Stays Linear and How to Maximise Cache Hits](/sketchnotes/articles/2026-04-21-codex-cli-prompt-caching-maximise-cache-hits-cost-reduction.png)
+
 # Prompt Caching in Codex CLI: How the Agent Loop Stays Linear and How to Maximise Cache Hits
 
 

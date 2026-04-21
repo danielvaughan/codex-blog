@@ -5,6 +5,8 @@ nav_order: 361
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "tracing", "metrics", "grafana", "production"]
 ---
 
+![Sketchnote diagram for: Codex CLI Observability: OpenTelemetry Traces, Metrics, and Production Monitoring](/sketchnotes/articles/2026-04-20-codex-cli-observability-opentelemetry-traces-metrics-production-monitoring.png)
+
 # Codex CLI Observability: OpenTelemetry Traces, Metrics, and Production Monitoring
 
 

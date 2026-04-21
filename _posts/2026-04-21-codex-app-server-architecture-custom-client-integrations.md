@@ -5,6 +5,8 @@ nav_order: 366
 tags: ["codex-cli", "app-server", "JSON-RPC", "integration", "architecture", "WebSocket", "IDE"]
 ---
 
+![Sketchnote diagram for: Codex App Server Architecture: Building Custom Client Integrations with JSON-RPC](/sketchnotes/articles/2026-04-21-codex-app-server-architecture-custom-client-integrations.png)
+
 # Codex App Server Architecture: Building Custom Client Integrations with JSON-RPC
 
 

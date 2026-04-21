@@ -5,6 +5,8 @@ nav_order: 368
 tags: ["codex-cli", "conversation-branching", "/side", "/fork", "plan-mode", "context-management", "TUI", "v0.122"]
 ---
 
+![Sketchnote diagram for: Codex CLI Conversation Branching: /side, /fork, and Plan Mode Workflows](/sketchnotes/articles/2026-04-21-codex-cli-conversation-branching-side-fork-plan-mode-workflows.png)
+
 # Codex CLI Conversation Branching: /side, /fork, and Plan Mode Workflows
 
 

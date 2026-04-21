@@ -5,6 +5,8 @@ nav_order: 370
 tags: ["codex-cli", "cloud-development-environments", "coder", "daytona", "devpod", "infrastructure", "sandboxing", "enterprise", "governance"]
 ---
 
+![Sketchnote diagram for: Cloud Development Environments for AI Coding Agents: Running Codex CLI on Coder, Daytona, and Ephemeral Infrastructure](/sketchnotes/articles/2026-04-21-cloud-development-environments-codex-cli-coder-daytona-infrastructure.png)
+
 # Cloud Development Environments for AI Coding Agents: Running Codex CLI on Coder, Daytona, and Ephemeral Infrastructure
 
 

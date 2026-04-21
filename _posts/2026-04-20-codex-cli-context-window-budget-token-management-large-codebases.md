@@ -5,6 +5,8 @@ nav_order: 362
 tags: ["codex-cli", "context-window", "token-management", "compaction", "monorepo", "subagents", "large-codebase"]
 ---
 
+![Sketchnote diagram for: The Model Context Window Budget: Practical Token Management for Large Codebases](/sketchnotes/articles/2026-04-20-codex-cli-context-window-budget-token-management-large-codebases.png)
+
 # The Model Context Window Budget: Practical Token Management for Large Codebases
 
 

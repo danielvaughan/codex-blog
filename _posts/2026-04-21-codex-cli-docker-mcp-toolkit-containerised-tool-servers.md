@@ -5,6 +5,8 @@ nav_order: 369
 tags: ["mcp", "docker", "security", "configuration", "codex-cli", "tooling", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI and Docker MCP Toolkit: Secure Containerised Tool Servers at Scale](/sketchnotes/articles/2026-04-21-codex-cli-docker-mcp-toolkit-containerised-tool-servers.png)
+
 # Codex CLI and Docker MCP Toolkit: Secure Containerised Tool Servers at Scale
 
 

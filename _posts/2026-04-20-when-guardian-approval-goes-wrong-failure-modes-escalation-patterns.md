@@ -5,6 +5,8 @@ nav_order: 363
 tags: ["codex-cli", "guardian", "approval-policy", "escalation", "failure-modes", "troubleshooting", "enterprise"]
 ---
 
+![Sketchnote diagram for: When Guardian Approval Goes Wrong: Failure Modes and Escalation Patterns](/sketchnotes/articles/2026-04-20-when-guardian-approval-goes-wrong-failure-modes-escalation-patterns.png)
+
 # When Guardian Approval Goes Wrong: Failure Modes and Escalation Patterns
 
 

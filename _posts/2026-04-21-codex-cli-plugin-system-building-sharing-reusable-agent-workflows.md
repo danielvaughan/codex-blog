@@ -5,6 +5,8 @@ nav_order: 364
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "workflow-reuse", "team-tooling"]
 ---
 
+![Sketchnote diagram for: Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows](/sketchnotes/articles/2026-04-21-codex-cli-plugin-system-building-sharing-reusable-agent-workflows.png)
+
 # Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows
 
 

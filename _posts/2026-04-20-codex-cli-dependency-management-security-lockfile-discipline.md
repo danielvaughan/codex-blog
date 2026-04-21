@@ -5,6 +5,8 @@ nav_order: 360
 tags: ["codex-cli", "dependency-management", "security", "supply-chain", "lockfile", "npm", "pip", "cargo", "AGENTS.md"]
 ---
 
+![Sketchnote diagram for: Safe Dependency Management with Codex CLI: Why AI Agents Get It Wrong and How to Fix It](/sketchnotes/articles/2026-04-20-codex-cli-dependency-management-security-lockfile-discipline.png)
+
 # Safe Dependency Management with Codex CLI: Why AI Agents Get It Wrong and How to Fix It
 
 

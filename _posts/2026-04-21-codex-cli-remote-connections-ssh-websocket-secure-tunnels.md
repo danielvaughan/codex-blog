@@ -5,6 +5,8 @@ nav_order: 371
 tags: ["codex-cli", "remote", "ssh", "app-server", "websocket", "devbox", "security", "infrastructure"]
 ---
 
+![Sketchnote diagram for: Codex CLI Remote Connections: Running Agents on Remote Hosts with SSH, WebSocket, and Secure Tunnels](/sketchnotes/articles/2026-04-21-codex-cli-remote-connections-ssh-websocket-secure-tunnels.png)
+
 # Codex CLI Remote Connections: Running Agents on Remote Hosts with SSH, WebSocket, and Secure Tunnels
 
 
