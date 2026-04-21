@@ -2,16 +2,6 @@
 title: "The Codex CLI Ecosystem Map: Navigating 245+ Community Tools, Skills and Subagents"
 date: 2026-04-11T17:00:00+00:00
 tags: ["ecosystem", "community", "skills", "subagents", "plugins", "mcp", "awesome-list", "cross-platform", "tooling", "agent-skills"]
-  - ecosystem
-  - community
-  - skills
-  - subagents
-  - plugins
-  - mcp
-  - awesome-list
-  - cross-platform
-  - tooling
-  - agent-skills
 ---
 
 ![Sketchnote diagram for: The Codex CLI Ecosystem Map: Navigating 245+ Community Tools, Skills and Subagents](/sketchnotes/articles/2026-04-11-codex-cli-ecosystem-map-245-tools.png)

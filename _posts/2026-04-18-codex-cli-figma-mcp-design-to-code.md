@@ -2,12 +2,6 @@
 title: "Figma MCP + Codex CLI: Turning Designs into Code That Fits Your Codebase"
 date: 2026-04-18T09:00:00+00:00
 tags: ["figma", "mcp", "codex", "design-to-code", "code-connect", "design-tokens"]
-  - figma
-  - mcp
-  - codex
-  - design-to-code
-  - code-connect
-  - design-tokens
 ---
 
 ![Sketchnote diagram for: Figma MCP + Codex CLI: Turning Designs into Code That Fits Your Codebase](/sketchnotes/articles/2026-04-18-codex-cli-figma-mcp-design-to-code.png)

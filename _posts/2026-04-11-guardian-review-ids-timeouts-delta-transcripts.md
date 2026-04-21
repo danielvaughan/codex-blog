@@ -2,15 +2,6 @@
 title: "Guardian Review IDs, Timeouts and Delta Transcripts: Enterprise Audit-Ready Governance"
 date: 2026-04-11T22:30:00+00:00
 tags: ["guardian", "review-ids", "timeouts", "audit-trail", "enterprise", "compliance", "fail-closed", "delta-transcripts", "opentelemetry"]
-  - guardian
-  - review-ids
-  - timeouts
-  - audit-trail
-  - enterprise
-  - compliance
-  - fail-closed
-  - delta-transcripts
-  - opentelemetry
 ---
 
 ![Sketchnote diagram for: Guardian Review IDs, Timeouts and Delta Transcripts: Enterprise Audit-Ready Governance](/sketchnotes/articles/2026-04-11-guardian-review-ids-timeouts-delta-transcripts.png)

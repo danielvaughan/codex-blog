@@ -2,14 +2,6 @@
 title: "The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality"
 date: 2026-04-10T09:00:00+00:00
 tags: ["karpathy", "ai-capability-gap", "reinforcement-learning", "agentic-coding", "codex-cli", "frontier-models", "verifiable-rewards", "perception"]
-  - karpathy
-  - ai-capability-gap
-  - reinforcement-learning
-  - agentic-coding
-  - codex-cli
-  - frontier-models
-  - verifiable-rewards
-  - perception
 ---
 ![Sketchnote diagram for: The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality](/sketchnotes/articles/2026-04-10-karpathy-ai-capability-gap-codex-cli.png)
 

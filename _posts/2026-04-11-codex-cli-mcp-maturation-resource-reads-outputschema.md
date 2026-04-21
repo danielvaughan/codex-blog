@@ -2,16 +2,6 @@
 title: "MCP Maturation in Codex CLI: Resource Reads, OutputSchema, Elicitations, and the Full Tool Surface"
 date: 2026-04-11T17:00:00+00:00
 tags: ["mcp", "resource-reads", "outputSchema", "elicitations", "structured-output", "v0.119.0", "v0.120.0"]
-  - mcp
-  - model-context-protocol
-  - resource-reads
-  - outputSchema
-  - elicitations
-  - config-toml
-  - v0.119.0
-  - v0.120.0
-  - structured-output
-  - tool-surface
 ---
 
 ![Sketchnote diagram for: MCP Maturation in Codex CLI: Resource Reads, OutputSchema, Elicitations, and the Full Tool Surface](/sketchnotes/articles/2026-04-11-codex-cli-mcp-maturation-resource-reads-outputschema.png)
