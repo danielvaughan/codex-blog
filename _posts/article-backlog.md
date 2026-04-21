@@ -513,13 +513,13 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### High Priority
 
-📝 **Goal Mode Deep Dive: Persistent Objectives with Token Budgets**
+⏭️ SKIPPED — PRs #18073-#18077 not publicly visible; Goal Mode not documented in any public changelog, docs, or release notes as of 2026-04-21. Will revisit when v0.123.0 stable ships. **Goal Mode Deep Dive: Persistent Objectives with Token Budgets**
 
 - Source: v0.123 alpha PR stack (#18073-#18077), changelog-watch.md
 - Scope: Goal Mode architecture, persistent multi-turn objectives, token budget management, how it transforms Codex from task-execution to objective-tracking
 - Gap: Referenced in changelog-watch.md as headline v0.123 feature but no article exists yet
 
-📝 **Amazon Bedrock Provider for Codex CLI: Multi-Cloud Model Access**
+~~**Amazon Bedrock Provider for Codex CLI: Multi-Cloud Model Access**~~ ✅ Written 2026-04-21 → `2026-04-21-codex-cli-amazon-bedrock-provider-multi-cloud-model-access.md`
 
 - Source: PR #18744 in v0.123 alpha, changelog-watch.md
 - Scope: Native Bedrock integration, Claude-via-Bedrock for Codex, enterprise multi-cloud model strategy, configuration guide
