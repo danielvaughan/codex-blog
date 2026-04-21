@@ -494,3 +494,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: OpenAI config-advanced docs, Bifrost AI Gateway, LiteLLM proxy, OpenRouter Codex integration guide
 - Scope: config.toml provider primitives (openai_base_url, custom providers, command-based auth), three gateway options (Bifrost, LiteLLM, OpenRouter) with setup guides, production patterns (two-tier routing, regional failover, budget enforcement, air-gapped fallback), Azure configuration, observability, security considerations
 - SEO targets: "codex cli ai gateway", "codex cli multi-provider routing", "codex cli cost control gateway"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21, Hourly Scan)
+
+### High Priority
+
+~~**Prompt Injection Defence for Codex CLI: Attack Vectors, Real CVEs, and Practical Hardening**~~ ✅ Written 2026-04-21 → `2026-04-21-prompt-injection-defence-codex-cli-attack-vectors-hardening.md`
+
+- Source: arXiv:2601.17548 (Maloyan & Namiot), BeyondTrust Phantom Labs CVE, OWASP LLM01, PromptArmor (ICLR 2026), Palo Alto Unit 42
+- Scope: Five concrete attack vectors (repository metadata injection, malicious file content, MCP tool description poisoning, AGENTS.md poisoning, skill supply chain), real CVEs, Codex CLI defence architecture (sandbox, approval policies, filesystem restrictions, hooks), six-step hardening guide, defence-in-depth stack
+- SEO targets: "codex cli prompt injection", "codex cli security hardening", "prompt injection defence coding agents"
