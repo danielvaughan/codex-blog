@@ -374,3 +374,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Gap: New Guardian article covers configuration but not operational failure modes and recovery
 - Scope: False positives/negatives, escalation fatigue, guardian subagent disagreements, audit trail analysis, tuning guardian sensitivity
 - SEO targets: "codex cli guardian failures", "codex approval escalation", "guardian subagent tuning"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21)
+
+### High Priority
+
+~~**Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows**~~ ✅ Written 2026-04-21 → `2026-04-21-codex-cli-plugin-system-building-sharing-reusable-agent-workflows.md`
+
+- Source: Codex v0.122.0 release notes, official plugin docs, codex-plugin-cc reference implementation, GitHub Issue #18115
+- Scope: Plugin architecture (skills + apps + MCP bundled), manifest format, local and team marketplaces, CLI management (/plugins, @-invocation), building custom plugins, codex-plugin-cc case study, repository-scoped configuration roadmap
+- SEO targets: "codex cli plugins", "codex cli plugin marketplace", "codex cli build plugin"
