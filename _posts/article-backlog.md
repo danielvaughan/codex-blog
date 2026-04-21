@@ -446,3 +446,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: InfraGap CDE guide, Coder v2.30 AI Governance GA, Daytona Codex SDK guide, CloudCLI docs
 - Scope: CDE platforms comparison (Coder, Daytona, DevPod, Codespaces, CloudCLI), Terraform template integration, AI Bridge and Agent Boundaries, Daytona SDK setup, DevContainer approaches, layered governance architecture, scaling patterns (ephemeral pools, persistent workspaces), cost projections
 - SEO targets: "codex cli cloud development environment", "codex cli coder workspace", "codex cli daytona sandbox"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21, Hourly Scan)
+
+### High Priority
+
+~~**Codex CLI Remote Connections: Running Agents on Remote Hosts with SSH, WebSocket, and Secure Tunnels**~~ ✅ Written 2026-04-21 → `2026-04-21-codex-cli-remote-connections-ssh-websocket-secure-tunnels.md`
+
+- Source: Official remote connections docs, CLI reference, App Server docs, changelog v0.121.0–v0.122.0, community guides
+- Scope: Split-process architecture (app-server + TUI), SSH bootstrapping, WebSocket transport and authentication (capability tokens, signed JWTs), SSH tunnelling, Tailscale mesh patterns, reverse proxy with TLS, session resume across reconnections, exec-server for headless remote execution, troubleshooting, security checklist
+- SEO targets: "codex cli remote connections", "codex cli ssh devbox", "codex cli app-server remote TUI"
