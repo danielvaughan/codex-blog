@@ -533,7 +533,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Scope: Agent-as-first-class-identity auth mode, Biscuit tokens in practice, migration from user-delegated auth to agent identity
 - Gap: Existing biscuit tokens article covers theory; the mechanical completion of agent identity auth in v0.123 needs a practical follow-up
 
-📝 **Context Fragment Injection: Modular DeveloperInstructions via Plugins**
+~~**Context Fragment Injection: Modular DeveloperInstructions via Plugins**~~ ✅ Written 2026-04-21 → `2026-04-21-context-fragment-injection-modular-developer-instructions-codex-cli-plugins.md`
 
 - Source: PRs #18794, #18813 in v0.123 alpha
 - Scope: How plugins inject context fragments, per-fragment compaction, DeveloperInstructions split architecture
