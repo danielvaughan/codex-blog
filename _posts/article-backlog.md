@@ -506,3 +506,41 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: arXiv:2601.17548 (Maloyan & Namiot), BeyondTrust Phantom Labs CVE, OWASP LLM01, PromptArmor (ICLR 2026), Palo Alto Unit 42
 - Scope: Five concrete attack vectors (repository metadata injection, malicious file content, MCP tool description poisoning, AGENTS.md poisoning, skill supply chain), real CVEs, Codex CLI defence architecture (sandbox, approval policies, filesystem restrictions, hooks), six-step hardening guide, defence-in-depth stack
 - SEO targets: "codex cli prompt injection", "codex cli security hardening", "prompt injection defence coding agents"
+
+---
+
+## New Articles — Gaps Found During Rating Review (2026-04-21)
+
+### High Priority
+
+📝 **Goal Mode Deep Dive: Persistent Objectives with Token Budgets**
+
+- Source: v0.123 alpha PR stack (#18073-#18077), changelog-watch.md
+- Scope: Goal Mode architecture, persistent multi-turn objectives, token budget management, how it transforms Codex from task-execution to objective-tracking
+- Gap: Referenced in changelog-watch.md as headline v0.123 feature but no article exists yet
+
+📝 **Amazon Bedrock Provider for Codex CLI: Multi-Cloud Model Access**
+
+- Source: PR #18744 in v0.123 alpha, changelog-watch.md
+- Scope: Native Bedrock integration, Claude-via-Bedrock for Codex, enterprise multi-cloud model strategy, configuration guide
+- Gap: Major enterprise feature landed in alpha but not covered
+
+### Medium Priority
+
+📝 **Agent Identity Authentication: How Agents Authenticate as Themselves**
+
+- Source: PRs #18785, #18811 in v0.123 alpha
+- Scope: Agent-as-first-class-identity auth mode, Biscuit tokens in practice, migration from user-delegated auth to agent identity
+- Gap: Existing biscuit tokens article covers theory; the mechanical completion of agent identity auth in v0.123 needs a practical follow-up
+
+📝 **Context Fragment Injection: Modular DeveloperInstructions via Plugins**
+
+- Source: PRs #18794, #18813 in v0.123 alpha
+- Scope: How plugins inject context fragments, per-fragment compaction, DeveloperInstructions split architecture
+- Gap: The modular context system is a significant architecture change enabling plugin-injected context
+
+📝 **MCP Schema Bloat and System Prompt Tax: Performance Impact of Tool Definitions**
+
+- Source: Pi vs Codex CLI benchmark article (2026-04-19)
+- Scope: Quantified overhead of MCP tool schemas on prompt size and prefill latency, mitigation strategies, lazy tool loading
+- Gap: The benchmark article discovered this but it deserves its own focused article
