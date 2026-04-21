@@ -392,3 +392,9 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: "Unrolling the Codex agent loop" (OpenAI engineering blog), Prompt Caching 201 cookbook, Codex pricing docs
 - Scope: How exact-prefix prompt caching keeps the agent loop near-linear, Codex CLI append-only prompt architecture, prompt_cache_key for parallel sessions, auto-compaction interplay, anti-patterns that destroy cache hits, cost arithmetic with April 2026 pricing
 - SEO targets: "codex cli prompt caching", "codex cli cost optimisation", "codex cli cache hit rate"
+
+~~**Codex App Server Architecture: Building Custom Client Integrations with JSON-RPC**~~ ✅ Written 2026-04-21 → `2026-04-21-codex-app-server-architecture-custom-client-integrations.md`
+
+- Source: OpenAI engineering blog "Unlocking the Codex harness", official App Server docs, InfoQ architecture coverage
+- Scope: App Server protocol architecture (Thread/Turn/Item primitives), transport options (stdio, WebSocket), building custom clients with JSON-RPC, remote TUI mode, authentication patterns, schema generation, error handling, practical integration patterns (dashboards, CI orchestrators, approval gateways)
+- SEO targets: "codex app-server", "codex cli custom integration", "codex cli JSON-RPC client"
