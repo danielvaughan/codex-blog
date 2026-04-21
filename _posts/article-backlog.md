@@ -434,3 +434,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: Docker MCP Toolkit docs, Docker Blog, GitHub Issues #5444/#5161/#4176, OpenAI MCP docs
 - Scope: Docker MCP Gateway architecture, config.toml integration, profile management for teams, OCI-based profile sharing, security model (container isolation, credential injection, resource caps), known issues and workarounds, CI/CD integration, subagent considerations
 - SEO targets: "codex cli docker mcp toolkit", "codex cli containerised mcp servers", "docker mcp gateway codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21, Hourly Scan)
+
+### High Priority
+
+~~**Cloud Development Environments for AI Coding Agents: Running Codex CLI on Coder, Daytona, and Ephemeral Infrastructure**~~ ✅ Written 2026-04-21 → `2026-04-21-cloud-development-environments-codex-cli-coder-daytona-infrastructure.md`
+
+- Source: InfraGap CDE guide, Coder v2.30 AI Governance GA, Daytona Codex SDK guide, CloudCLI docs
+- Scope: CDE platforms comparison (Coder, Daytona, DevPod, Codespaces, CloudCLI), Terraform template integration, AI Bridge and Agent Boundaries, Daytona SDK setup, DevContainer approaches, layered governance architecture, scaling patterns (ephemeral pools, persistent workspaces), cost projections
+- SEO targets: "codex cli cloud development environment", "codex cli coder workspace", "codex cli daytona sandbox"
