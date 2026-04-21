@@ -398,3 +398,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: OpenAI engineering blog "Unlocking the Codex harness", official App Server docs, InfoQ architecture coverage
 - Scope: App Server protocol architecture (Thread/Turn/Item primitives), transport options (stdio, WebSocket), building custom clients with JSON-RPC, remote TUI mode, authentication patterns, schema generation, error handling, practical integration patterns (dashboards, CI orchestrators, approval gateways)
 - SEO targets: "codex app-server", "codex cli custom integration", "codex cli JSON-RPC client"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21, Hourly Scan)
+
+### Medium Priority
+
+~~**Codex CLI for Ruby on Rails Teams: AGENTS.md, Bundler Sandboxing, and RSpec Workflows**~~ ✅ Written 2026-04-21 → `2026-04-21-codex-cli-ruby-on-rails-teams-agents-md-bundler-rspec-workflows.md`
+
+- Source: Rails 8.x docs, Codex CLI features docs, Brakeman security scanner, Bullet gem, community proxy workarounds
+- Scope: AGENTS.md template for Rails conventions, Bundler proxy configuration for Codex sandbox, RSpec/Minitest integration, migration workflows, security audits with Brakeman, N+1 detection, RuboCop autocorrect pipelines, approval mode selection, common pitfalls
+- SEO targets: "codex cli ruby on rails", "codex cli rails development", "codex cli bundler proxy"
