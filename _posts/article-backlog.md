@@ -458,3 +458,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: Official remote connections docs, CLI reference, App Server docs, changelog v0.121.0–v0.122.0, community guides
 - Scope: Split-process architecture (app-server + TUI), SSH bootstrapping, WebSocket transport and authentication (capability tokens, signed JWTs), SSH tunnelling, Tailscale mesh patterns, reverse proxy with TLS, session resume across reconnections, exec-server for headless remote execution, troubleshooting, security checklist
 - SEO targets: "codex cli remote connections", "codex cli ssh devbox", "codex cli app-server remote TUI"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21, Hourly Scan)
+
+### High Priority
+
+~~**Mutation Testing with Codex CLI: Why Your AI-Generated Tests Are Lying and How to Fix Them**~~ ✅ Written 2026-04-21 → `2026-04-21-mutation-testing-codex-cli-ai-generated-tests-quality-verification.md`
+
+- Source: Test Double mutation testing guide, Two Cents Software AI testing analysis, DEV Community AI test gaming article, Stryker v9.6, PIT v1.19, mutmut 3+
+- Scope: AI-generated test quality problem (100% coverage / 4% mutation score), mutation testing toolchain by language, four Codex CLI integration patterns (generate-mutate-fix loop, AGENTS.md policy, codex exec CI gates, pre-push hooks), three-level verification stack, recommended thresholds by code category, worked example
+- SEO targets: "codex cli mutation testing", "AI generated test quality", "mutation testing CI pipeline codex"
