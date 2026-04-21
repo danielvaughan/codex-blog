@@ -470,3 +470,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: Test Double mutation testing guide, Two Cents Software AI testing analysis, DEV Community AI test gaming article, Stryker v9.6, PIT v1.19, mutmut 3+
 - Scope: AI-generated test quality problem (100% coverage / 4% mutation score), mutation testing toolchain by language, four Codex CLI integration patterns (generate-mutate-fix loop, AGENTS.md policy, codex exec CI gates, pre-push hooks), three-level verification stack, recommended thresholds by code category, worked example
 - SEO targets: "codex cli mutation testing", "AI generated test quality", "mutation testing CI pipeline codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21, Hourly Scan)
+
+### High Priority
+
+~~**The AI Codebase Maturity Model: Mapping Five Levels of Agent Autonomy to Codex CLI**~~ ✅ Written 2026-04-21 → `2026-04-21-ai-codebase-maturity-model-codex-cli-five-levels-self-sustaining-systems.md`
+
+- Source: arXiv:2604.09388 "The AI Codebase Maturity Model" (Anderson, April 2026), Dark Factory maturity framework (Shapiro, 2026), StrongDM Software Factory case study
+- Scope: Five ACMM levels (Spicy Autocomplete → Dark Factory), three-axis assessment (Autonomy/Controls/Governance), concrete Codex CLI configuration at each level, AGENTS.md progression, testing as the critical investment, practical progression guide from Level 1 to Level 5, danger zone anti-pattern (high autonomy + weak controls)
+- SEO targets: "codex cli maturity model", "AI codebase maturity", "dark factory coding agent", "codex cli feedback loops"
