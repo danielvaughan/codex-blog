@@ -410,3 +410,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: Rails 8.x docs, Codex CLI features docs, Brakeman security scanner, Bullet gem, community proxy workarounds
 - Scope: AGENTS.md template for Rails conventions, Bundler proxy configuration for Codex sandbox, RSpec/Minitest integration, migration workflows, security audits with Brakeman, N+1 detection, RuboCop autocorrect pipelines, approval mode selection, common pitfalls
 - SEO targets: "codex cli ruby on rails", "codex cli rails development", "codex cli bundler proxy"
+
+---
+
+## New Articles — Auto-Generated (2026-04-21, Hourly Scan)
+
+### High Priority
+
+~~**Codex CLI Conversation Branching: /side, /fork, and Plan Mode Workflows**~~ ✅ Written 2026-04-21 → `2026-04-21-codex-cli-conversation-branching-side-fork-plan-mode-workflows.md`
+
+- Source: Codex CLI v0.122.0 release notes, GitHub Issue #18125, official slash commands docs, best practices page
+- Scope: /side ephemeral forks for quick questions, /fork persistent branches for parallel exploration, Plan Mode fresh-context implementation, decision framework, workflow patterns, context budget arithmetic, anti-patterns
+- SEO targets: "codex cli /side command", "codex cli conversation branching", "codex cli fork vs side"
