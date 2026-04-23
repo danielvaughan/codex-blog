@@ -557,14 +557,20 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Scope: Key rotation workflows for agent identities at enterprise scale, incident response when a key is compromised, automating key rotation in CI, integration with secrets managers (Vault, AWS Secrets Manager)
 - Gap: The auth article covers architecture; enterprises need operational runbooks for key lifecycle management
 
-📝 **Google Cloud Vertex AI Provider: When It Ships**
+⏭️ SKIPPED — **Google Cloud Vertex AI Provider: When It Ships** — First-class provider not yet landed (Issue #1106 still open as of 2026-04-23). Covered Vertex AI as custom provider in custom model providers article instead.
 
 - Source: Bedrock Provider article (2026-04-21) notes Issue #10400 also requests Vertex AI support; no PR yet
 - Scope: Placeholder — write when the Vertex AI provider lands. Cover configuration, service account auth, regional model availability, comparison with Bedrock provider patterns
 - Gap: Completes the multi-cloud provider story (OpenAI + Bedrock + Vertex AI)
 
-📝 **Per-Fragment Context Compaction: Selective Eviction Strategies**
+⏭️ SKIPPED — **Per-Fragment Context Compaction: Selective Eviction Strategies** — Feature not yet implemented as of 2026-04-23.
 
 - Source: Context Fragment Injection article (2026-04-21) identifies per-fragment compaction as architecturally enabled but not yet implemented
 - Scope: When selective compaction ships, cover eviction priority strategies, fragment token budgets, plugin cost attribution, compaction observability via OTEL
 - Gap: The fragment architecture article sets up the theory; practitioners will need practical compaction tuning guidance
+
+✅ **Codex CLI Custom Model Providers: The Complete Configuration Guide** — Written 2026-04-23 → `2026-04-23-codex-cli-custom-model-providers-configuration-guide.md`
+
+- Source: Gap identified — Bedrock article covers one provider; no general guide to the extensible provider framework
+- Scope: Complete config.toml reference for custom providers, wire_api, auth patterns (env_key, command-based, ADC), Azure/Vertex AI/LiteLLM recipes, debugging, enterprise considerations
+- Gap: Fills the missing "how to configure any provider" guide
