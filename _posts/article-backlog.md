@@ -610,3 +610,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: OpenAI Code Modernisation Cookbook, Codebase Onboarding docs, Coder legacy modernisation guide, SoftwareSeni reverse engineering research
 - Scope: Three-phase methodology (exploration, documentation, incremental modernisation), ExecPlan pattern for legacy work, AGENTS.md template for legacy projects, parity testing loops, strangler fig approach with Codex CLI, accuracy considerations, config profiles for legacy work
 - SEO targets: "codex cli legacy code", "codex cli code archaeology", "codex cli codebase onboarding modernisation"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan)
+
+### High Priority
+
+✅ **Workspace Agents and Codex Slack Integration: From CLI Automations to Team-Shared Agentic Workflows** — Written 2026-04-24 → `2026-04-24-workspace-agents-codex-cli-slack-team-shared-agentic-workflows.md`
+
+- Source: OpenAI workspace agents announcement (April 22), Codex Slack integration docs, Codex pricing page, "Codex for almost everything" blog post
+- Scope: Workspace agents architecture and relationship to CLI, three-layer Codex platform model, Slack @Codex integration setup and mechanics, four CLI-to-workspace-agent migration patterns, decision framework, credit-based pricing analysis, migration checklist
+- SEO targets: "codex workspace agents", "codex slack integration", "codex cli team automation"
