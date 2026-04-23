@@ -161,6 +161,7 @@ SWE-bench Pro is a harder variant with more complex, multi-file issues. It emerg
 | GPT-5.3-Codex | Feb 2026 | **56.8%** |
 | GPT-5.4 | Mar 2026 | **57.7%** |
 | GPT-5.4 mini | Mar 2026 | **54.38%** |
+| **GPT-5.5** | **Apr 2026** | **58.6%** |
 
 ### Codeforces Elo
 
@@ -241,6 +242,7 @@ Model pricing has decreased dramatically per unit of capability:
 | GPT-5.4-mini | Mar 2026 | $0.75 / $4.50 | Sweet spot |
 | GPT-5.4-nano | Mar 2026 | $0.20 / $1.25 | Budget |
 | GPT-5.3-Codex | Feb 2026 | $1.75 / $14.00 | Code-specialised value |
+| **GPT-5.5** | **Apr 2026** | **$5.00 / $30.00** | **New frontier (2× GPT-5.4)** |
 
 ## What Changed and What Stayed the Same
 
@@ -270,12 +272,33 @@ The five-year progression tells a clear story:
 4. **2024–2025:** Add reasoning (o1, o3)
 5. **2025:** Give it agency (Codex CLI, Codex cloud)
 6. **2026:** Return to specialisation (GPT-5.3-Codex) while pushing the frontier (GPT-5.4)
+7. **April 2026:** GPT-5.5 arrives — "a new class of intelligence for real work"[^28]
 
-The next chapter is already being written. GPT-5.4's 75% on OSWorld — a benchmark for computer use, not just coding — suggests that the boundary between "code model" and "general agent" is dissolving entirely. The Codex of 2026 does not just write code. It reads documentation, navigates APIs, provisions infrastructure, and reviews its own work.
+### GPT-5.5: The Spud Model (April 2026)
 
-From 28.8% to 57.7%. From completion to agency. From a research paper to a product that processes 78 Azure CLI issues in a single day.
+On 23 April 2026 — just six weeks after GPT-5.4 — OpenAI released GPT-5.5, internally codenamed "Spud"[^28]. The pace alone is significant: the gap between GPT-5.4 and GPT-5.5 is the shortest between any consecutive frontier model releases in OpenAI's history.
 
-That is the history of Codex.
+**Key benchmarks:**
+
+| Benchmark | GPT-5.4 | GPT-5.5 | Change |
+|-----------|---------|---------|--------|
+| SWE-bench Pro | 57.7% | **58.6%** | +0.9pp |
+| Terminal-Bench 2.0 | ~75% | **82.7%** | +7pp (SOTA) |
+| GDPval (44 occupations) | — | **84.9%** | New benchmark |
+| SWE-bench | — | **88.7%** | — |
+| MMLU | — | **92.4%** | — |
+
+**What changed:** GPT-5.5 is not just smarter — it is more efficient. OpenAI reports it delivers better results with fewer tokens than GPT-5.4 for most tasks[^29]. Hallucinations dropped by 60% compared to previous versions[^30]. The 400K context window in Codex and up to 12M tokens elsewhere represents a significant expansion. A new Fast mode generates tokens 1.5× faster at 2.5× the cost.
+
+**What it costs:** API pricing doubled from GPT-5.4: $5.00/M input tokens, $30.00/M output tokens[^29]. The efficiency gains — fewer tokens per task — partially offset the price increase for Codex users.
+
+**Why it matters for Codex:** GPT-5.5 rolled out simultaneously to ChatGPT and Codex for Plus, Pro, Business, and Enterprise users. With 4 million active Codex users, this is the largest simultaneous model upgrade in the product's history. Greg Brockman called it "a big step towards more agentic and intuitive computing"[^28].
+
+The Terminal-Bench 2.0 result is particularly notable: 82.7% on complex command-line workflows — planning, iteration, and tool coordination — is a 7-point jump and narrowly beats Anthropic's Claude Mythos Preview on the same benchmark[^31].
+
+From 28.8% HumanEval to 82.7% Terminal-Bench 2.0. From completion to agency. From a research paper to a product serving 4 million active users.
+
+That is the history of Codex — and GPT-5.5 just wrote its latest chapter.
 
 ---
 
@@ -334,3 +357,11 @@ That is the history of Codex.
 [^26]: AI Coding Benchmarks 2026 — Morphllm. HumanEval saturation analysis, shift to SWE-bench. <https://www.morphllm.com/ai-coding-benchmarks-2026>
 
 [^27]: SWE-bench Explained — LocalAIMaster. Benchmark methodology, Verified vs Pro variants. <https://localaimaster.com/models/swe-bench-explained-ai-benchmarks>
+
+[^28]: OpenAI launches GPT-5.5 just weeks after GPT-5.4 as AI race accelerates — Fortune (April 2026). Release details, Brockman quotes, enterprise adoption. <https://fortune.com/2026/04/23/openai-releases-gpt-5-5/>
+
+[^29]: OpenAI upgrades ChatGPT and Codex with GPT-5.5: "a new class of intelligence for real work" — 9to5Mac (April 2026). 400K context in Codex, pricing, token efficiency, Fast mode. <https://9to5mac.com/2026/04/23/openai-upgrades-chatgpt-and-codex-with-gpt-5-5-a-new-class-of-intelligence-for-real-work/>
+
+[^30]: OpenAI's GPT-5.5 benchmarks show a 60% hallucination drop and coding skills that rival senior engineers — StartupFortune (April 2026). SWE-bench 88.7%, MMLU 92.4%. <https://startupfortune.com/openais-gpt-55-benchmarks-show-a-60-hallucination-drop-and-coding-skills-that-rival-senior-engineers/>
+
+[^31]: OpenAI's GPT-5.5 is here, and it's no potato: narrowly beats Anthropic's Claude Mythos Preview on Terminal-Bench 2.0 — VentureBeat (April 2026). Terminal-Bench 2.0: 82.7% SOTA. <https://venturebeat.com/technology/openais-gpt-5-5-is-here-and-its-no-potato-narrowly-beats-anthropics-claude-mythos-preview-on-terminal-bench-2-0>
