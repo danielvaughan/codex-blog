@@ -574,3 +574,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: Gap identified — Bedrock article covers one provider; no general guide to the extensible provider framework
 - Scope: Complete config.toml reference for custom providers, wire_api, auth patterns (env_key, command-based, ADC), Azure/Vertex AI/LiteLLM recipes, debugging, enterprise considerations
 - Gap: Fills the missing "how to configure any provider" guide
+
+---
+
+## New Articles — Auto-Generated (2026-04-23, Hourly Scan)
+
+### High Priority
+
+✅ **Codex CLI Hooks Graduate to Stable: MCP Observation, Inline Config, and Auto-Review in v0.124** — Written 2026-04-23 → `2026-04-23-codex-cli-hooks-graduate-stable-v0124-mcp-observation-inline-config.md`
+
+- Source: Codex CLI v0.124.0 changelog, GitHub Issue #16732, official hooks docs, config-reference docs
+- Scope: Hooks graduating from experimental to stable, removal of feature flag requirement, MCP tool observation (PreToolUse/PostToolUse for MCP and apply_patch), inline config.toml hook configuration, auto_review approval reviewer, migration guide from experimental to stable, enterprise managed configuration, practical patterns for MCP auditing and patch guarding
+- SEO targets: "codex cli hooks stable", "codex cli hooks MCP", "codex cli auto review approval"
