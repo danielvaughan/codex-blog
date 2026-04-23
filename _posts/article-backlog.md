@@ -551,7 +551,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Medium Priority
 
-📝 **Agent Identity Key Rotation and Security Operations**
+✅ **Agent Identity Key Rotation and Security Operations** — Written 2026-04-23 → `2026-04-23-agent-identity-key-rotation-security-operations-codex-cli.md`
 
 - Source: Agent Identity Authentication article (2026-04-21) mentions key material protection but doesn't cover operational key rotation
 - Scope: Key rotation workflows for agent identities at enterprise scale, incident response when a key is compromised, automating key rotation in CI, integration with secrets managers (Vault, AWS Secrets Manager)
