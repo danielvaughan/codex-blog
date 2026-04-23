@@ -84,6 +84,14 @@ Fortune reported that a mathematics professor used GPT-5.5 with Codex to build a
 
 For agentic pod workflows — where the Value Engineer writes a specification and the agent executes — this translates to fewer iteration cycles, less rework, and faster time from specification to working code.
 
+## NVIDIA's 10,000-person enterprise validation
+
+NVIDIA published a blog post on launch day revealing the most concrete enterprise Codex adoption data yet[^6]. Over **10,000 NVIDIA employees** got early access to Codex + GPT-5.5 — not just engineers, but legal, marketing, finance, sales, HR, and operations teams. Engineers described results as "mind-blowing" and "life-changing."
+
+The infrastructure numbers are equally striking: GPT-5.5 runs on NVIDIA's GB200 NVL72 rack-scale systems, which deliver **35× lower cost per million tokens** and **50× higher token throughput per megawatt** compared to prior hardware generations. A 100,000-GPU cluster completed multiple frontier-scale training runs with new reliability benchmarks.
+
+For the agentic pod thesis, the NVIDIA case study is significant: it demonstrates that Codex adoption expands beyond engineering once model quality crosses a reliability threshold. When legal and finance teams adopt coding agents, the organisational impact is fundamentally different from developer-only tooling.
+
 ## What to do right now
 
 **If you are on a subscription tier (Plus/Pro/Business/Enterprise):** GPT-5.5 is already available. Your Codex sessions should be using it now. Check your model setting.
@@ -107,3 +115,5 @@ For agentic pod workflows — where the Value Engineer writes a specification an
 [^4]: StartupFortune. (2026, April 23). "OpenAI's GPT-5.5 benchmarks show a 60% hallucination drop and coding skills that rival senior engineers." <https://startupfortune.com/openais-gpt-55-benchmarks-show-a-60-hallucination-drop-and-coding-skills-that-rival-senior-engineers/>
 
 [^5]: 9to5Mac. (2026, April 23). "OpenAI upgrades ChatGPT and Codex with GPT-5.5: 'a new class of intelligence for real work'." <https://9to5mac.com/2026/04/23/openai-upgrades-chatgpt-and-codex-with-gpt-5-5-a-new-class-of-intelligence-for-real-work/>
+
+[^6]: NVIDIA Blog. (2026, April 23). "OpenAI's New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work." <https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/>
