@@ -3,10 +3,10 @@ title: "Articles"
 permalink: /articles/
 ---
 
-## Article Ratings (updated 2026-04-21)
+## Article Ratings (updated 2026-04-23)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-21 · 442 articles rated · 442 total entries.
+Last rated: 2026-04-23 · 446 articles rated · 446 total entries.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|--------|
@@ -114,6 +114,9 @@ Last rated: 2026-04-21 · 442 articles rated · 442 total entries.
 | [Does Pi Outperform Codex CLI for Local Models?](/2026/04/19/does-pi-outperform-codex-cli-for-local-models/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [AI Codebase Maturity Model: Five Levels to Self-Sustaining Systems](/2026/04/21/ai-codebase-maturity-model-codex-cli-five-levels-self-sustaining-systems/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Mutation Testing: Verifying AI-Generated Test Quality](/2026/04/21/mutation-testing-codex-cli-ai-generated-tests-quality-verification/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [MCP Schema Bloat and System Prompt Tax](/2026/04/23/mcp-schema-bloat-system-prompt-tax-tool-definition-performance/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Context Fragment Injection: Modular DeveloperInstructions](/2026/04/21/context-fragment-injection-modular-developer-instructions-codex-cli-plugins/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Agent Identity Authentication: AgentAssertion in v0.123](/2026/04/21/agent-identity-authentication-codex-cli-v0123-agentassertion/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
 | [Claude Opus 4.7 Launch: What It Means for AI Coding Agents](/2026/04/16/claude-opus-4-7-launch/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [The Composable AI Coding Stack: Cursor, Claude Code, and Codex as Three Layers](/2026/04/16/composable-ai-coding-stack-cursor-claude-code-codex/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
 | [The April 2026 Model Deprecation Wave: Migration Guide](/2026/04/16/codex-cli-model-deprecation-wave-april-2026-migration-guide/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★★ | ★★★★☆ |
@@ -154,6 +157,7 @@ Last rated: 2026-04-21 · 442 articles rated · 442 total entries.
 | [Migrating Claude Code to Codex CLI](/2026/03/26/migrating-claude-code-to-codex-cli/) | [view](https://codex.danielvaughan.com/2026/03/26/migrating-claude-code-to-codex-cli/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Subagents: TOML, Parallelism, spawn_agents_on_csv](/2026/03/26/codex-cli-subagents-toml-parallelism/) | [view](https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Agentic Primitives Compared](/2026/03/26/agentic-primitives-codex-claude-gemini/) | [view](https://codex.danielvaughan.com/2026/03/26/agentic-primitives-codex-claude-gemini/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Amazon Bedrock Provider: Multi-Cloud Model Access](/2026/04/21/codex-cli-amazon-bedrock-provider-multi-cloud-model-access/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
 | [Security Hardening Your Codex CLI Setup](/2026/03/27/security-hardening-codex-cli/) | [view](https://codex.danielvaughan.com/2026/03/27/security-hardening-codex-cli/) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
 | [Multi-Agent Orchestration Patterns](/2026/03/27/multi-agent-orchestration-patterns/) | [view](https://codex.danielvaughan.com/2026/03/27/multi-agent-orchestration-patterns/) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Context Window Management: Sub-Agent Delegation](/2026/03/27/context-window-management-subagent-delegation/) | [view](https://codex.danielvaughan.com/2026/03/27/context-window-management-subagent-delegation/) | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |

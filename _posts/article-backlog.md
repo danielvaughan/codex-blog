@@ -544,3 +544,27 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: Pi vs Codex CLI benchmark article (2026-04-19)
 - Scope: Quantified overhead of MCP tool schemas on prompt size and prefill latency, mitigation strategies, lazy tool loading
 - Gap: The benchmark article discovered this but it deserves its own focused article
+
+---
+
+## New Articles — Gaps Found During Rating (2026-04-23)
+
+### Medium Priority
+
+📝 **Agent Identity Key Rotation and Security Operations**
+
+- Source: Agent Identity Authentication article (2026-04-21) mentions key material protection but doesn't cover operational key rotation
+- Scope: Key rotation workflows for agent identities at enterprise scale, incident response when a key is compromised, automating key rotation in CI, integration with secrets managers (Vault, AWS Secrets Manager)
+- Gap: The auth article covers architecture; enterprises need operational runbooks for key lifecycle management
+
+📝 **Google Cloud Vertex AI Provider: When It Ships**
+
+- Source: Bedrock Provider article (2026-04-21) notes Issue #10400 also requests Vertex AI support; no PR yet
+- Scope: Placeholder — write when the Vertex AI provider lands. Cover configuration, service account auth, regional model availability, comparison with Bedrock provider patterns
+- Gap: Completes the multi-cloud provider story (OpenAI + Bedrock + Vertex AI)
+
+📝 **Per-Fragment Context Compaction: Selective Eviction Strategies**
+
+- Source: Context Fragment Injection article (2026-04-21) identifies per-fragment compaction as architecturally enabled but not yet implemented
+- Scope: When selective compaction ships, cover eviction priority strategies, fragment token budgets, plugin cost attribution, compaction observability via OTEL
+- Gap: The fragment architecture article sets up the theory; practitioners will need practical compaction tuning guidance
