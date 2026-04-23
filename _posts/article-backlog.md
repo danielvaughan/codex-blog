@@ -539,7 +539,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Scope: How plugins inject context fragments, per-fragment compaction, DeveloperInstructions split architecture
 - Gap: The modular context system is a significant architecture change enabling plugin-injected context
 
-📝 **MCP Schema Bloat and System Prompt Tax: Performance Impact of Tool Definitions**
+~~**MCP Schema Bloat and System Prompt Tax: Performance Impact of Tool Definitions**~~ ✅ Written 2026-04-23 → `2026-04-23-mcp-schema-bloat-system-prompt-tax-tool-definition-performance.md`
 
 - Source: Pi vs Codex CLI benchmark article (2026-04-19)
 - Scope: Quantified overhead of MCP tool schemas on prompt size and prefill latency, mitigation strategies, lazy tool loading
