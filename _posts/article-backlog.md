@@ -598,3 +598,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: Specmatic MCP server docs, specmatic-mcp-sample, OpenAI MCP configuration docs, CDD best practices
 - Scope: Specmatic MCP server setup in Codex CLI, three-phase full-stack build (backend contract tests → frontend mock server → integration), AGENTS.md for contract-first workflows, backward compatibility checks, CI pipeline with structured output, spec-kit evolution pattern, supported specification formats
 - SEO targets: "codex cli contract testing", "specmatic mcp codex", "contract driven API development codex cli"
+
+---
+
+## New Articles — Auto-Generated (2026-04-23, Hourly Scan)
+
+### High Priority
+
+✅ **Legacy Code Archaeology with Codex CLI: Understanding, Documenting, and Safely Modernising Unfamiliar Codebases** — Written 2026-04-23 → `2026-04-23-codex-cli-legacy-code-archaeology-modernisation-unfamiliar-codebases.md`
+
+- Source: OpenAI Code Modernisation Cookbook, Codebase Onboarding docs, Coder legacy modernisation guide, SoftwareSeni reverse engineering research
+- Scope: Three-phase methodology (exploration, documentation, incremental modernisation), ExecPlan pattern for legacy work, AGENTS.md template for legacy projects, parity testing loops, strangler fig approach with Codex CLI, accuracy considerations, config profiles for legacy work
+- SEO targets: "codex cli legacy code", "codex cli code archaeology", "codex cli codebase onboarding modernisation"
