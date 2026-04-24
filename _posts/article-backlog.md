@@ -852,7 +852,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Gap between NVIDIA OpenShell article and Docker sandbox article — needs unified comparison
    - Scope: Feature matrix, performance overhead, security guarantees, enterprise compliance mapping
 
-2. 📝 **Community Framework Decision Guide: Which Workflow Framework Fits Your Team**
+2. ✅ **Community Framework Decision Guide: Which Workflow Framework Fits Your Team** — Written 2026-04-24 → `2026-04-24-community-framework-decision-guide-codex-cli-workflow-frameworks.md`
    - Source: Community frameworks comparison article identifies 6+ options but lacks decision flowchart
    - Scope: Decision tree based on team size, project type, model budget, and experience level
 
