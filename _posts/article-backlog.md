@@ -683,3 +683,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI MCP docs, Codex config reference, v0.123/v0.124 release notes, community bug reports
    - Scope: /mcp and /mcp verbose diagnostics, config.toml reference for MCP servers, five common failure patterns with fixes, hook-based MCP observation (v0.124), audit logging patterns, enterprise debugging workflows, systematic troubleshooting flowchart
    - SEO targets: "codex cli mcp debugging", "codex cli mcp troubleshooting", "codex cli mcp verbose", "codex mcp server timeout fix"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #7)
+
+### High Priority
+
+1. ~~**The Codex CLI Speed Stack: Fast Mode, Reasoning Effort, Spark, and Performance Tuning**~~ ✅ Written 2026-04-24 → `2026-04-24-codex-cli-speed-stack-fast-mode-reasoning-effort-spark-performance-tuning.md`
+
+   - Source: OpenAI Speed docs, v0.124.0 release notes, Cerebras Codex-Spark blog, Codex models page, prompt caching 201 cookbook
+   - Scope: Four independent speed levers (Fast service tier, reasoning effort with Alt+,/Alt+. TUI shortcuts, model selection including Spark and mini, prompt caching), credit multipliers, configuration profiles for flow/deep/CI workflows, cache hit measurement, speed-cost-quality trade-off decision framework
+   - SEO targets: "codex cli fast mode", "codex cli speed tuning", "codex cli performance optimisation", "codex spark vs gpt-5.4"
