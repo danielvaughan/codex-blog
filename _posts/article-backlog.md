@@ -695,3 +695,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Speed docs, v0.124.0 release notes, Cerebras Codex-Spark blog, Codex models page, prompt caching 201 cookbook
    - Scope: Four independent speed levers (Fast service tier, reasoning effort with Alt+,/Alt+. TUI shortcuts, model selection including Spark and mini, prompt caching), credit multipliers, configuration profiles for flow/deep/CI workflows, cache hit measurement, speed-cost-quality trade-off decision framework
    - SEO targets: "codex cli fast mode", "codex cli speed tuning", "codex cli performance optimisation", "codex spark vs gpt-5.4"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #8)
+
+### High Priority
+
+1. ~~**Open-Weight Models for Codex CLI: Choosing the Right Local Coding Agent in 2026**~~ ✅ Written 2026-04-24 → `2026-04-24-open-weight-models-codex-cli-local-coding-agents-comparison-guide.md`
+
+   - Source: OpenAI GPT-OSS docs, Qwen3-Coder-Next technical report, Gemma 4 tool-calling benchmarks, DeepSeek V4 release, Codex config-advanced docs, Ollama Codex integration guide
+   - Scope: Practical comparison of GPT-OSS-120B/20B, Qwen3-Coder-Next 30B/480B, Gemma 4, and DeepSeek V4 for local Codex CLI use. Hardware requirements, context window analysis, config.toml profiles, decision framework, hybrid cloud+local strategies, known limitations
+   - SEO targets: "codex cli local model", "codex cli open weight model", "codex cli ollama setup", "best local model codex cli 2026"
