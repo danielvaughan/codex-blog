@@ -779,3 +779,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI plugin build docs, Codex CLI reference, WinBuzzer marketplace launch coverage, awesome-codex-plugins registry, Chris Ayers cross-tool guide, managed configuration docs
    - Scope: Plugin architecture (skills, MCP servers, apps), plugin.json manifest reference, marketplace.json catalogue format, CLI marketplace management commands, enterprise governance via requirements.toml, plugin trust scoring, practical patterns (team standards, project-local skills, MCP adapter wrapping)
    - SEO targets: "codex cli plugin marketplace", "codex cli build plugin", "codex plugin manifest", "codex cli plugin enterprise"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #15)
+
+### High Priority
+
+1. ~~**Community Workflow Frameworks for Codex CLI: Superpowers, GSD, gstack, Spec Kit, OMX, and Compound Engineering Compared**~~ ✅ Written 2026-04-24 → `2026-04-24-community-workflow-frameworks-codex-cli-superpowers-gsd-gstack-comparison.md`
+
+   - Source: shanraisshan/codex-cli-best-practice repo, Pulumi blog comparison, obra/superpowers GitHub, gsd-build/get-shit-done GitHub, github/spec-kit, Yeachan-Heo/oh-my-codex, EveryInc/compound-engineering-plugin
+   - Scope: Comparative analysis of six community workflow frameworks, what each constrains (process/context/authority/spec/coordination/review), Codex CLI integration patterns, decision framework for choosing, combination patterns, meta-pattern convergence
+   - SEO targets: "codex cli workflow framework", "superpowers vs gsd vs gstack", "codex cli orchestration framework comparison", "best codex cli workflow 2026"
