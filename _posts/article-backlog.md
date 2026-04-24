@@ -659,3 +659,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: AWS AgentCore announcement (April 22), agentcore-cli GitHub repo, awslabs/agent-plugins repo, Codex CLI v0.123 Bedrock provider
    - Scope: Managed harness architecture, AgentCore CLI lifecycle commands, coding skills for Codex/Claude Code/Cursor, two-axis relationship model (Codex-as-Bedrock-consumer vs Codex-as-AgentCore-skill-consumer), AWS agent plugins ecosystem, enterprise deployment patterns, AGENTS.md integration
    - SEO targets: "codex cli agentcore", "aws agentcore codex", "codex cli enterprise agent deployment", "bedrock agentcore managed harness"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #5)
+
+### High Priority
+
+1. ~~**The Codex Subscription API: Programmatic Access to GPT-5.5 Through Your ChatGPT Plan**~~ ✅ Written 2026-04-24 → `2026-04-24-codex-subscription-api-programmatic-access-gpt-5-5-chatgpt-plan.md`
+
+   - Source: Simon Willison "Codex backdoor API" blog post, llm-openai-via-codex plugin, Codex2API proxy, OpenAI auth docs, Codex pricing page
+   - Scope: Two authentication paths (ChatGPT vs API key), auth.json credential management, backend-api/codex/responses endpoint, third-party ecosystem (llm-openai-via-codex, Codex2API), enterprise managed auth policies, cost comparison, security hardening
+   - SEO targets: "codex subscription API", "codex cli auth GPT-5.5", "llm-openai-via-codex", "codex backend API"
