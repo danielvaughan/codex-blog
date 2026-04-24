@@ -803,3 +803,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: ccusage project, agentsview project, OpenUsage project, caut project, agent-sessions project, Codex pricing docs
    - Scope: Five cross-agent usage analytics tools compared (ccusage, agentsview, OpenUsage, caut, Agent Sessions), Codex CLI session data internals, CI cost gates, session search for context recovery, OTEL complementary patterns, decision framework
    - SEO targets: "codex cli usage tracking", "cross agent cost monitoring", "ccusage codex cli", "agentsview coding agent analytics"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #17)
+
+### High Priority
+
+1. ~~**Scripting the Issue-to-PR Pipeline: Automating the Complete GitHub Workflow with Codex CLI**~~ ✅ Written 2026-04-24 → `2026-04-24-codex-cli-issue-to-pr-pipeline-scripting-github-automation.md`
+
+   - Source: GPT-5.5 release (April 23 2026), codex exec docs, codex-action@v1 docs, v0.124 stable hooks
+   - Scope: Five-stage pipeline (read issue, create branch, implement fix, validate tests, open PR) using codex exec non-interactively, test-outside pattern, session resumption for complex fixes, structured output for PR body generation, GitHub Actions workflow, safety guardrails
+   - SEO targets: "codex cli issue to pr", "codex exec github automation", "codex cli github actions pipeline", "automated pr codex cli"
