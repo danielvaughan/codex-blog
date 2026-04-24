@@ -767,3 +767,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Chronicle docs, Open Chronicle GitHub repo, 9to5Mac Chronicle announcement, Help Net Security privacy analysis, Codex Memories docs
    - Scope: Chronicle architecture and capture pipeline, memory storage paths, CLI integration via shared memory layer, Open Chronicle open-source alternative with MCP, security and privacy analysis (prompt injection, unencrypted storage, rate limits), enterprise decision framework, practical workflow patterns, comparison table
    - SEO targets: "codex chronicle", "codex screen context memories", "codex cli ambient awareness", "open chronicle codex cli", "codex chronicle privacy"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #14)
+
+### High Priority
+
+1. ~~**Codex CLI Plugin Marketplace: Building, Distributing, and Managing Extensions at Scale**~~ ✅ Written 2026-04-24 → `2026-04-24-codex-cli-plugin-marketplace-building-distributing-extending.md`
+
+   - Source: OpenAI plugin build docs, Codex CLI reference, WinBuzzer marketplace launch coverage, awesome-codex-plugins registry, Chris Ayers cross-tool guide, managed configuration docs
+   - Scope: Plugin architecture (skills, MCP servers, apps), plugin.json manifest reference, marketplace.json catalogue format, CLI marketplace management commands, enterprise governance via requirements.toml, plugin trust scoring, practical patterns (team standards, project-local skills, MCP adapter wrapping)
+   - SEO targets: "codex cli plugin marketplace", "codex cli build plugin", "codex plugin manifest", "codex cli plugin enterprise"
