@@ -743,3 +743,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Agents SDK guide, OpenAI Cookbook multi-agent tutorial, Codex SDK docs, Subagents docs
    - Scope: Running Codex as an MCP server via `codex mcp-server`, single-agent and multi-agent orchestration with the Agents SDK, gated handoff patterns, Codex SDK programmatic alternative, subagent configuration comparison, observability via Traces dashboard, production hardening patterns
    - SEO targets: "codex cli mcp server", "codex cli agents sdk", "codex cli multi-agent workflow", "codex mcp orchestration"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #12)
+
+### High Priority
+
+1. ~~**Chrome DevTools MCP and Codex CLI: Closing the Browser Debugging Gap for AI Coding Agents**~~ ✅ Written 2026-04-24 → `2026-04-24-chrome-devtools-mcp-codex-cli-browser-debugging-frontend-workflows.md`
+
+   - Source: Chrome DevTools MCP GitHub repo, Chrome for Developers blog, Codex MCP docs, WSL configuration guides
+   - Scope: Architecture overview, 34-tool inventory, config.toml setup (macOS/Linux/WSL2/Windows), practical workflows (fix-and-verify, performance audit, network debugging, visual regression), hooks integration, schema bloat mitigation, AGENTS.md template, comparison with Playwright MCP
+   - SEO targets: "codex cli chrome devtools mcp", "codex cli browser debugging", "chrome devtools mcp coding agent", "codex cli frontend workflow"
