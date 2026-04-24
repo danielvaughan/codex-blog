@@ -5,6 +5,9 @@ nav_order: 374
 tags: ["codex-cli", "ai-gateway", "multi-provider", "cost-control", "bifrost", "litellm", "openrouter", "failover", "enterprise"]
 ---
 
+![Sketchnote diagram for: Routing Codex CLI Through AI Gateways: Multi-Provider Access, Cost Control, and Failover](/sketchnotes/articles/2026-04-21-codex-cli-ai-gateway-multi-provider-routing-cost-control-failover.png)
+
+
 # Routing Codex CLI Through AI Gateways: Multi-Provider Access, Cost Control, and Failover
 
 

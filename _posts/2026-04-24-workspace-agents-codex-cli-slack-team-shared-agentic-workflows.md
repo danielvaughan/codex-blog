@@ -5,6 +5,9 @@ nav_order: 385
 tags: ["codex-cli", "workspace-agents", "slack", "team-workflows", "automation", "enterprise", "codex-app", "cloud-tasks", "pricing"]
 ---
 
+![Sketchnote diagram for: Workspace Agents and Codex Slack Integration: From CLI Automations to Team-Shared Agentic Workflows](/sketchnotes/articles/2026-04-24-workspace-agents-codex-cli-slack-team-shared-agentic-workflows.png)
+
+
 # Workspace Agents and Codex Slack Integration: From CLI Automations to Team-Shared Agentic Workflows
 
 

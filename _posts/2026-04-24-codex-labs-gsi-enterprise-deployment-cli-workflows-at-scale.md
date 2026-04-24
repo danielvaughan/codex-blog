@@ -5,6 +5,9 @@ nav_order: 387
 tags: ["codex-cli", "enterprise", "codex-labs", "gsi", "deployment", "adoption", "configuration"]
 ---
 
+![Sketchnote diagram for: Codex Labs and the GSI Network: What Enterprise-Scale Codex Deployment Means for CLI Power Users](/sketchnotes/articles/2026-04-24-codex-labs-gsi-enterprise-deployment-cli-workflows-at-scale.png)
+
+
 # Codex Labs and the GSI Network: What Enterprise-Scale Codex Deployment Means for CLI Power Users
 
 

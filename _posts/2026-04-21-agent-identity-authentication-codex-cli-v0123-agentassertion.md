@@ -5,6 +5,9 @@ nav_order: 377
 tags: ["agent-identity", "authentication", "AgentAssertion", "biscuit-tokens", "enterprise", "multi-agent", "v0.123", "security"]
 ---
 
+![Sketchnote diagram for: Agent Identity Authentication: How Codex CLI Agents Authenticate as Themselves in v0.123](/sketchnotes/articles/2026-04-21-agent-identity-authentication-codex-cli-v0123-agentassertion.png)
+
+
 # Agent Identity Authentication: How Codex CLI Agents Authenticate as Themselves in v0.123
 
 

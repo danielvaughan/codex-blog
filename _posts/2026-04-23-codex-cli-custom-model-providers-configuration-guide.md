@@ -5,6 +5,9 @@ nav_order: 381
 tags: ["codex-cli", "model-providers", "configuration", "azure", "litellm", "multi-cloud", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI Custom Model Providers: The Complete Configuration Guide](/sketchnotes/articles/2026-04-23-codex-cli-custom-model-providers-configuration-guide.png)
+
+
 # Codex CLI Custom Model Providers: The Complete Configuration Guide
 
 

@@ -5,6 +5,9 @@ nav_order: 389
 tags: ["codex-cli", "authentication", "api", "gpt-5.5", "subscription", "third-party-tools"]
 ---
 
+![Sketchnote diagram for: The Codex Subscription API: Programmatic Access to GPT-5.5 Through Your ChatGPT Plan](/sketchnotes/articles/2026-04-24-codex-subscription-api-programmatic-access-gpt-5-5-chatgpt-plan.png)
+
+
 # The Codex Subscription API: Programmatic Access to GPT-5.5 Through Your ChatGPT Plan
 
 

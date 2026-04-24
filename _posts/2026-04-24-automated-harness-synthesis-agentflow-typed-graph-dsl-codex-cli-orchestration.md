@@ -5,6 +5,9 @@ nav_order: 386
 tags: ["codex-cli", "agent-harness", "orchestration", "AgentFlow", "DSL", "multi-agent", "subagents", "AGENTS.md"]
 ---
 
+![Sketchnote diagram for: Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration](/sketchnotes/articles/2026-04-24-automated-harness-synthesis-agentflow-typed-graph-dsl-codex-cli-orchestration.png)
+
+
 # Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration
 
 

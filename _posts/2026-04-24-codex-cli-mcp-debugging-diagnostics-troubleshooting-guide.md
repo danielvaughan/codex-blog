@@ -5,6 +5,9 @@ nav_order: 390
 tags: ["mcp", "debugging", "diagnostics", "troubleshooting", "configuration", "hooks", "observability", "codex-cli"]
 ---
 
+![Sketchnote diagram for: MCP Debugging and Diagnostics in Codex CLI: The Complete Troubleshooting Guide](/sketchnotes/articles/2026-04-24-codex-cli-mcp-debugging-diagnostics-troubleshooting-guide.png)
+
+
 # MCP Debugging and Diagnostics in Codex CLI: The Complete Troubleshooting Guide
 
 

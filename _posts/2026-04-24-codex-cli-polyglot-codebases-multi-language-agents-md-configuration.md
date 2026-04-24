@@ -5,6 +5,9 @@ nav_order: 394
 tags: ["codex-cli", "agents-md", "polyglot", "monorepo", "configuration", "multi-language", "enterprise", "workflow"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Polyglot Codebases: Hierarchical AGENTS.md, Per-Directory Config, and Multi-Language Workflow Patterns](/sketchnotes/articles/2026-04-24-codex-cli-polyglot-codebases-multi-language-agents-md-configuration.png)
+
+
 # Codex CLI for Polyglot Codebases: Hierarchical AGENTS.md, Per-Directory Config, and Multi-Language Workflow Patterns
 
 

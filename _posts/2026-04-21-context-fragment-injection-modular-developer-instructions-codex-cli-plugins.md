@@ -5,6 +5,9 @@ nav_order: 378
 tags: ["codex-cli", "context-management", "plugins", "architecture", "v0.123", "developer-instructions", "prompt-engineering"]
 ---
 
+![Sketchnote diagram for: Context Fragment Injection: Modular DeveloperInstructions via Plugins](/sketchnotes/articles/2026-04-21-context-fragment-injection-modular-developer-instructions-codex-cli-plugins.png)
+
+
 # Context Fragment Injection: Modular DeveloperInstructions via Plugins
 
 

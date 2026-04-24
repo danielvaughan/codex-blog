@@ -5,6 +5,9 @@ nav_order: 375
 tags: ["codex-cli", "security", "prompt-injection", "defence-in-depth", "MCP", "AGENTS.md", "sandbox", "OWASP"]
 ---
 
+![Sketchnote diagram for: Prompt Injection Defence for Codex CLI: Attack Vectors, Real CVEs, and Practical Hardening](/sketchnotes/articles/2026-04-21-prompt-injection-defence-codex-cli-attack-vectors-hardening.png)
+
+
 # Prompt Injection Defence for Codex CLI: Attack Vectors, Real CVEs, and Practical Hardening
 
 

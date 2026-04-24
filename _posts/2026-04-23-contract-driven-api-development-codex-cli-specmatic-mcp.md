@@ -5,6 +5,9 @@ nav_order: 383
 tags: ["mcp", "api-development", "contract-testing", "openapi", "specmatic", "codex-cli", "workflow-patterns", "testing"]
 ---
 
+![Sketchnote diagram for: Contract-Driven API Development with Codex CLI: Using Specmatic MCP for Spec-First Full-Stack Builds](/sketchnotes/articles/2026-04-23-contract-driven-api-development-codex-cli-specmatic-mcp.png)
+
+
 # Contract-Driven API Development with Codex CLI: Using Specmatic MCP for Spec-First Full-Stack Builds
 
 

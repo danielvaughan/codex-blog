@@ -5,6 +5,9 @@ nav_order: 379
 tags: ["mcp", "performance", "token-budget", "tool-definitions", "prefill-latency", "prompt-engineering", "cost-optimisation"]
 ---
 
+![Sketchnote diagram for: MCP Schema Bloat and System Prompt Tax: Performance Impact of Tool Definitions](/sketchnotes/articles/2026-04-23-mcp-schema-bloat-system-prompt-tax-tool-definition-performance.png)
+
+
 # MCP Schema Bloat and System Prompt Tax: Performance Impact of Tool Definitions
 
 

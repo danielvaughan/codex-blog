@@ -5,6 +5,9 @@ nav_order: 380
 tags: ["agent-identity", "key-rotation", "security", "Ed25519", "enterprise", "secrets-management", "CI/CD", "v0.123", "incident-response"]
 ---
 
+![Sketchnote diagram for: Agent Identity Key Rotation and Security Operations for Codex CLI](/sketchnotes/articles/2026-04-23-agent-identity-key-rotation-security-operations-codex-cli.png)
+
+
 # Agent Identity Key Rotation and Security Operations for Codex CLI
 
 

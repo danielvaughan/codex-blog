@@ -5,6 +5,9 @@ nav_order: 391
 tags: ["performance", "fast-mode", "reasoning-effort", "codex-spark", "prompt-caching", "cost-optimisation", "speed"]
 ---
 
+![Sketchnote diagram for: The Codex CLI Speed Stack: Fast Mode, Reasoning Effort, Spark, and Performance Tuning](/sketchnotes/articles/2026-04-24-codex-cli-speed-stack-fast-mode-reasoning-effort-spark-performance-tuning.png)
+
+
 # The Codex CLI Speed Stack: Fast Mode, Reasoning Effort, Spark, and Performance Tuning
 
 

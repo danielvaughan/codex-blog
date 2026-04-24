@@ -5,6 +5,9 @@ nav_order: 372
 tags: ["codex-cli", "mutation-testing", "test-quality", "stryker", "pitest", "mutmut", "ai-generated-tests", "verification"]
 ---
 
+![Sketchnote diagram for: Mutation Testing with Codex CLI: Why Your AI-Generated Tests Are Lying and How to Fix Them](/sketchnotes/articles/2026-04-21-mutation-testing-codex-cli-ai-generated-tests-quality-verification.png)
+
+
 # Mutation Testing with Codex CLI: Why Your AI-Generated Tests Are Lying and How to Fix Them
 
 

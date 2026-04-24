@@ -5,6 +5,9 @@ nav_order: 373
 tags: ["codex-cli", "maturity-model", "ACMM", "feedback-loops", "testing", "CI-CD", "dark-factory", "harness-engineering", "autonomy"]
 ---
 
+![Sketchnote diagram for: The AI Codebase Maturity Model: Mapping Five Levels of Agent Autonomy to Codex CLI](/sketchnotes/articles/2026-04-21-ai-codebase-maturity-model-codex-cli-five-levels-self-sustaining-systems.png)
+
+
 # The AI Codebase Maturity Model: Mapping Five Levels of Agent Autonomy to Codex CLI
 
 

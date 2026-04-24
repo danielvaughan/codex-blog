@@ -5,6 +5,9 @@ nav_order: 392
 tags: ["codex-cli", "local-models", "open-weight", "ollama", "lm-studio", "gpt-oss", "qwen3-coder", "gemma-4", "deepseek", "performance", "comparison"]
 ---
 
+![Sketchnote diagram for: Open-Weight Models for Codex CLI: Choosing the Right Local Coding Agent in 2026](/sketchnotes/articles/2026-04-24-open-weight-models-codex-cli-local-coding-agents-comparison-guide.png)
+
+
 # Open-Weight Models for Codex CLI: Choosing the Right Local Coding Agent in 2026
 
 

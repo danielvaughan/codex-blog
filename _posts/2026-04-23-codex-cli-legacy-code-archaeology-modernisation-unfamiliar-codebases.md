@@ -6,6 +6,9 @@ date: 2026-04-23T00:00:00+00:00
 tags: ["legacy-code", "code-archaeology", "modernisation", "onboarding", "AGENTS.md", "ExecPlan", "codex-cli", "refactoring"]
 ---
 
+![Sketchnote diagram for: Legacy Code Archaeology with Codex CLI: Understanding, Documenting, and Safely Modernising Unfamiliar Codebases](/sketchnotes/articles/2026-04-23-codex-cli-legacy-code-archaeology-modernisation-unfamiliar-codebases.png)
+
+
 # Legacy Code Archaeology with Codex CLI: Understanding, Documenting, and Safely Modernising Unfamiliar Codebases
 
 

@@ -14,6 +14,9 @@ tags:
   - competitive-landscape
 ---
 
+![Sketchnote diagram for: GPT-5.5 Drops: What Changes for Codex Users](/sketchnotes/articles/2026-04-23-gpt-5-5-drops-what-changes-for-codex-users.png)
+
+
 # GPT-5.5 Drops: What Changes for Codex Users
 
 Six weeks. That is the gap between GPT-5.4 and GPT-5.5. OpenAI released its newest frontier model on 23 April 2026, rolling it out simultaneously to ChatGPT and Codex for all paid tiers — Plus, Pro, Business, and Enterprise[^1]. The internal codename is "Spud"[^2], and it arrives at a moment when the competitive pressure from Anthropic's Claude Mythos Preview has been intensifying.

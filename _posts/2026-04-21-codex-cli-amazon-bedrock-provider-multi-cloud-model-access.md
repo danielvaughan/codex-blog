@@ -5,6 +5,9 @@ nav_order: 376
 tags: ["codex-cli", "amazon-bedrock", "multi-cloud", "enterprise", "configuration", "providers"]
 ---
 
+![Sketchnote diagram for: Amazon Bedrock Provider for Codex CLI: Multi-Cloud Model Access](/sketchnotes/articles/2026-04-21-codex-cli-amazon-bedrock-provider-multi-cloud-model-access.png)
+
+
 # Amazon Bedrock Provider for Codex CLI: Multi-Cloud Model Access
 
 

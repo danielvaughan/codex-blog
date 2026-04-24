@@ -5,6 +5,9 @@ nav_order: 388
 tags: ["codex-cli", "aws", "amazon-bedrock", "agentcore", "enterprise", "managed-harness", "agent-deployment", "infrastructure"]
 ---
 
+![Sketchnote diagram for: AWS AgentCore's Managed Harness and Coding Skills: What They Mean for Codex CLI Teams](/sketchnotes/articles/2026-04-24-aws-agentcore-managed-harness-codex-cli-enterprise-agent-deployment.png)
+
+
 # AWS AgentCore's Managed Harness and Coding Skills: What They Mean for Codex CLI Teams
 
 

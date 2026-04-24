@@ -5,6 +5,9 @@ nav_order: 395
 tags: ["codex-cli", "mcp", "agents-sdk", "multi-agent", "orchestration", "subagents"]
 ---
 
+![Sketchnote diagram for: Codex CLI as an MCP Server: Building Multi-Agent Workflows with the Agents SDK](/sketchnotes/articles/2026-04-24-codex-cli-mcp-server-multi-agent-workflows-agents-sdk.png)
+
+
 # Codex CLI as an MCP Server: Building Multi-Agent Workflows with the Agents SDK
 
 

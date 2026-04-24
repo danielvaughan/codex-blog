@@ -5,6 +5,9 @@ nav_order: 382
 tags: ["codex-cli", "hooks", "v0.124", "MCP", "auto-review", "config.toml", "stable", "PreToolUse", "PostToolUse", "apply_patch"]
 ---
 
+![Sketchnote diagram for: Codex CLI Hooks Graduate to Stable: MCP Observation, Inline Config, and Auto-Review in v0.124](/sketchnotes/articles/2026-04-23-codex-cli-hooks-graduate-stable-v0124-mcp-observation-inline-config.png)
+
+
 # Codex CLI Hooks Graduate to Stable: MCP Observation, Inline Config, and Auto-Review in v0.124
 
 
