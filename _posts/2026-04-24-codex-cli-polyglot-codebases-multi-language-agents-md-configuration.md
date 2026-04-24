@@ -10,20 +10,13 @@ tags: ["codex-cli", "agents-md", "polyglot", "monorepo", "configuration", "multi
 
 ---
 
-Most Codex CLI guides assume a single-language repository. Reality is messier. A typical enterprise codebase might contain a TypeScript frontend, a Go API gateway, Python ML services, and Rust performance-critical modules — each with its own build toolchain, test framework, linting rules, and deployment conventions. Feed Codex a prompt like "add request validation" without context and it will guess the language, guess the framework, and guess wrong half the time.
+Most Codex CLI guides assume a single-language repository. Reality is messier — a TypeScript frontend, Go API gateway, Python ML services, and Rust performance modules all living in one repo, each with its own toolchain, test framework, and linting rules. Without per-language context, Codex guesses the framework and guesses wrong.
 
-This article covers how to configure Codex CLI for polyglot codebases using hierarchical AGENTS.md files, per-directory `.codex/config.toml` layers, and workflow patterns that keep each language's conventions intact whilst enabling cross-boundary work.
+This article covers how to configure Codex CLI for polyglot codebases using hierarchical AGENTS.md files and per-directory `.codex/config.toml` layers.
 
 ## Why Polyglot Codebases Break Default Agent Behaviour
 
-Codex CLI loads a single global `~/.codex/config.toml` and discovers AGENTS.md files by walking from the project root to the current working directory[^1]. In a monolingual repo, this works well — one AGENTS.md covers everything. In a polyglot codebase, the root AGENTS.md cannot capture the contradictory conventions of five different ecosystems without bloating past the 32 KiB default byte limit[^2] or, worse, confusing the model with conflicting instructions.
-
-The core problems:
-
-- **Conflicting test commands**: `pytest` vs `go test` vs `pnpm vitest` vs `cargo test` — the agent must know which to run based on context.
-- **Incompatible linting rules**: ESLint with Prettier for TypeScript, `golangci-lint` for Go, Ruff for Python, Clippy for Rust.
-- **Different dependency management**: `pnpm install`, `go mod tidy`, `pip install -e ".[dev]"`, `cargo build`.
-- **Divergent coding conventions**: Functional React patterns alongside imperative Go, Python type hints alongside Rust's strict type system.
+In a monolingual repo, one AGENTS.md covers everything[^1]. In a polyglot codebase, a single root file cannot capture contradictory conventions — `pytest` vs `go test` vs `pnpm vitest`, ESLint vs `golangci-lint` vs Ruff — without bloating past the 32 KiB byte limit[^2] or confusing the model with conflicting instructions.
 
 ## The Hierarchical AGENTS.md Solution
 
@@ -80,33 +73,17 @@ The root AGENTS.md should contain only what is genuinely universal. Resist the t
 # AGENTS.md — Repository Root
 
 ## Project Structure
-This is a polyglot monorepo. Each service under `services/` has its own
-language, build toolchain, and AGENTS.md. Always check the nearest
-AGENTS.md for language-specific instructions before acting.
+Polyglot monorepo. Each service under `services/` has its own language,
+toolchain, and AGENTS.md. Check the nearest AGENTS.md before acting.
 
-## Git Conventions
-- Branch naming: `feature/<service>/<description>` or `fix/<service>/<description>`
-- Conventional Commits: `feat(api-gateway): add rate limiting`
-- PRs must target a single service unless explicitly cross-cutting
-- Run the affected service's test suite before committing
-
-## CI Pipeline
-All services share a GitHub Actions matrix build. Each service directory
-contains a `Makefile` with standard targets: `make lint`, `make test`,
-`make build`. Always use these rather than calling tools directly.
-
-## Code Review Standards
-- Every PR needs at least one human review
-- Security-sensitive changes (auth, crypto, network) require two reviewers
-- Do not introduce new dependencies without checking the licence
-
-## Cross-Service Communication
-- Services communicate via gRPC (proto definitions in `proto/`)
-- API contracts are defined in Protocol Buffers — never modify `.proto`
-  files without updating all affected services
+## Shared Standards
+- Conventional Commits scoped to service: `feat(api-gateway): add rate limiting`
+- Each service has a Makefile with `make lint`, `make test`, `make build`
+- Services communicate via gRPC — proto definitions in `proto/`
+- Never modify `.proto` files without updating all affected services
 ```
 
-This root file weighs under 1 KiB, leaving ample budget for directory-level files within the 32 KiB limit[^2].
+This root file weighs under 500 bytes, leaving ample budget for directory-level files[^2].
 
 ## Language-Specific AGENTS.md Patterns
 
@@ -139,22 +116,13 @@ This root file weighs under 1 KiB, leaving ample budget for directory-level file
 # AGENTS.md — services/web-frontend (TypeScript 5.7, React 19)
 
 ## Build & Test
-- Install: `pnpm install`
-- Dev server: `pnpm dev`
-- Test: `pnpm test` (Vitest)
-- Lint: `pnpm lint` (ESLint + Prettier)
-- Type check: `pnpm typecheck` (tsc --noEmit)
+- Install: `pnpm install` | Dev: `pnpm dev` | Test: `pnpm test` (Vitest)
+- Lint: `pnpm lint` (ESLint + Prettier) | Types: `pnpm typecheck`
 
 ## Conventions
 - Functional components only — no class components
-- Use React Server Components where applicable
-- CSS Modules for styling, no inline styles
 - All props must have TypeScript interfaces, not `any`
-- Prefer `zod` for runtime validation schemas
-
-## Testing
-- Colocate test files: `Component.test.tsx` next to `Component.tsx`
-- Use Testing Library, not Enzyme
+- Colocate tests: `Component.test.tsx` next to `Component.tsx`
 - Mock API calls with MSW (Mock Service Worker)
 ```
 
@@ -164,23 +132,14 @@ This root file weighs under 1 KiB, leaving ample budget for directory-level file
 # AGENTS.md — services/ml-pipeline (Python 3.13)
 
 ## Build & Test
-- Install: `pip install -e ".[dev]"` (uses pyproject.toml)
-- Test: `pytest -x --tb=short`
-- Lint: `ruff check .`
-- Format: `ruff format .`
-- Type check: `mypy .`
+- Install: `pip install -e ".[dev]"` | Test: `pytest -x --tb=short`
+- Lint: `ruff check .` | Format: `ruff format .` | Types: `mypy .`
 
 ## Conventions
 - Type hints on all function signatures — no untyped public APIs
-- Google-style docstrings on all public functions and classes
-- Use `pathlib.Path` instead of `os.path`
+- Google-style docstrings, `pathlib.Path` over `os.path`
 - Prefer `polars` over `pandas` for new dataframes
-- Pin all ML model versions in `models/versions.toml`
-
-## Data & Models
-- Never commit model weights or large data files
-- Use DVC for data version control
-- Training configs live in `configs/` as YAML
+- Never commit model weights; use DVC for data version control
 ```
 
 ### Rust Encoder
@@ -189,17 +148,13 @@ This root file weighs under 1 KiB, leaving ample budget for directory-level file
 # AGENTS.md — services/encoder (Rust 1.82, edition 2024)
 
 ## Build & Test
-- Build: `cargo build`
-- Test: `cargo test`
-- Lint: `cargo clippy -- -D warnings`
-- Format check: `cargo fmt -- --check`
+- Build: `cargo build` | Test: `cargo test`
+- Lint: `cargo clippy -- -D warnings` | Format: `cargo fmt -- --check`
 
 ## Conventions
-- Zero `unsafe` blocks without a `// SAFETY:` comment explaining the invariant
-- Use `thiserror` for library errors, `anyhow` for application errors
-- Prefer `&str` over `String` in function parameters
+- Zero `unsafe` without `// SAFETY:` comment explaining the invariant
+- `thiserror` for library errors, `anyhow` for application errors
 - All public APIs must have `/// doc comments` with examples
-- Benchmark performance-critical paths with `criterion`
 ```
 
 ## Per-Directory `.codex/config.toml` for Language-Specific Settings
@@ -247,50 +202,24 @@ enabled = true
 
 ## Cross-Boundary Workflows
 
-The trickiest polyglot scenarios are cross-service changes — modifying a gRPC contract that affects three services simultaneously. Codex needs to understand the dependency graph.
+The trickiest polyglot scenarios are cross-service changes. Three patterns handle them:
 
-### Pattern 1: Proto-First Changes with Subagent Delegation
-
-For changes originating from Protocol Buffer modifications, structure the work as a multi-step plan:
-
-```markdown
-<!-- In services/AGENTS.md -->
-## Cross-Service Protocol Changes
-When modifying `.proto` files in `proto/`:
-1. Update the `.proto` file first
-2. Run `make proto-gen` from the repo root to regenerate all language bindings
-3. Update each affected service to handle the new/changed fields
-4. Run `make test` in each affected service directory
-5. Create a single PR covering all changes
-```
-
-### Pattern 2: Run Codex from the Right Directory
-
-The simplest and most effective pattern is to `cd` into the correct service directory before invoking Codex. This ensures the right AGENTS.md chain loads automatically:
+**Pattern 1 — Run Codex from the right directory.** The simplest approach: `cd` into each service before invoking Codex, ensuring the correct AGENTS.md chain loads:
 
 ```bash
-# Work on the Go service
 cd services/api-gateway && codex "add rate limiting middleware"
-
-# Work on the frontend
 cd services/web-frontend && codex "add rate limit error handling to API client"
 ```
 
-### Pattern 3: Profile-Based Switching
+**Pattern 2 — Proto-first changes.** Document cross-service protocols in the services-level AGENTS.md so Codex knows the dependency order when modifying `.proto` files.
 
-Use configuration profiles for different language contexts when working from the repo root[^4]:
+**Pattern 3 — Profile-based switching.** Use named profiles for different language contexts[^4]:
 
 ```toml
 # ~/.codex/config.toml
-[profiles.go-work]
-model_reasoning_effort = "medium"
-
 [profiles.ml-work]
 model = "gpt-5.4"
 model_reasoning_effort = "high"
-
-[profiles.frontend-work]
-model_reasoning_effort = "medium"
 ```
 
 ```bash
@@ -299,40 +228,11 @@ codex --profile ml-work "refactor the feature extraction pipeline"
 
 ## Managing the Byte Budget
 
-With multiple AGENTS.md files concatenating, the 32 KiB default limit (`project_doc_max_bytes`) can become a constraint in deeply nested polyglot repos[^2]. Codex stops adding files once the combined size hits this limit, and files furthest from the working directory get dropped first.
-
-Strategies for staying within budget:
-
-1. **Keep each file focused**: Root AGENTS.md under 1 KiB, service-level files under 2 KiB each.
-2. **Use `@file` mentions instead of inlining**: Reference documentation files rather than pasting their content into AGENTS.md.
-3. **Increase the limit if needed**: Set `project_doc_max_bytes = 65536` in your user config for a 64 KiB budget[^2].
-4. **Split by concern**: Move detailed API documentation into separate files that Codex can read on demand.
-
-```mermaid
-pie title Typical Byte Budget Allocation (32 KiB)
-    "Root AGENTS.md" : 800
-    "Service-layer AGENTS.md" : 600
-    "Language-specific AGENTS.md" : 1500
-    "Remaining budget for context" : 29868
-```
+Multiple AGENTS.md files concatenate towards a 32 KiB default limit (`project_doc_max_bytes`)[^2]. Keep root files under 1 KiB and service files under 2 KiB each. If you hit the limit, increase it with `project_doc_max_bytes = 65536` in your user config, or use `@file` mentions to reference documentation Codex reads on demand.
 
 ## Verification and Debugging
 
-### Confirming Which Files Load
-
-Run Codex with a diagnostic prompt to verify the instruction chain:
-
-```bash
-cd services/api-gateway
-codex "List all the instructions and conventions you are currently following. \
-       Which AGENTS.md files did you load?"
-```
-
-Check the logs for loaded files:
-
-```bash
-cat ~/.codex/log/codex-tui.log | grep "AGENTS"
-```
+Confirm which files loaded by checking `~/.codex/log/codex-tui.log` for AGENTS entries, or ask Codex directly: `codex "Which AGENTS.md files did you load?"`.
 
 ### Common Pitfalls
 
@@ -343,23 +243,9 @@ cat ~/.codex/log/codex-tui.log | grep "AGENTS"
 | Project config not loading | Project not marked as trusted | Run `codex` in the project and approve the trust prompt |
 | Override file blocking team rules | Stale `AGENTS.override.md` left in directory | Remove override files when no longer needed |
 
-## Enterprise Patterns: requirements.toml for Polyglot Governance
+## Enterprise Governance with requirements.toml
 
-For organisations deploying Codex across multiple teams working in different languages, `requirements.toml` enforces security constraints that no per-directory config can override[^5]. This is particularly important in polyglot environments where different language ecosystems have different risk profiles.
-
-```toml
-# /etc/codex/requirements.toml (or MDM-distributed)
-# Enforce minimum safety across all languages
-approval_policy = "on-request"
-
-[sandbox_workspace_write]
-network_access = false
-
-# Allow specific registries per language ecosystem
-# Teams can enable in their .codex/config.toml but cannot bypass sandbox
-```
-
-Combined with the v0.124.0 stable hooks feature[^6], enterprises can enforce language-aware quality gates:
+For organisations deploying Codex across polyglot teams, `requirements.toml` enforces security constraints that no per-directory config can override[^5]. Combined with v0.124.0 stable hooks[^6], enterprises can enforce language-aware quality gates through a single hook that delegates to each service's `Makefile`:
 
 ```toml
 # repo-root/.codex/config.toml
@@ -369,9 +255,11 @@ command = "make lint"
 description = "Run linter for the current service"
 ```
 
-Because each service's `Makefile` dispatches to the correct linter, a single hook definition works across all languages.
+Because each service's `Makefile` dispatches to the correct linter, one hook definition works across all languages.
 
-## Putting It Together: A Complete Polyglot Workflow
+## Putting It Together
+
+The key insight is that **you do not need a single omniscient configuration**. By leveraging the directory hierarchy that already exists in your codebase, each language gets exactly the context it needs, and Codex behaves as though it has read the team's style guide for that specific service.
 
 ```mermaid
 sequenceDiagram
@@ -379,19 +267,12 @@ sequenceDiagram
     participant Codex as Codex CLI
     participant Root as Root AGENTS.md
     participant Svc as Service AGENTS.md
-    participant Config as .codex/config.toml
 
     Dev->>Codex: cd services/api-gateway && codex "add caching"
-    Codex->>Root: Load repo-root/AGENTS.md
-    Codex->>Root: Load services/AGENTS.md
-    Codex->>Svc: Load services/api-gateway/AGENTS.md
-    Codex->>Config: Load repo-root/.codex/config.toml
-    Codex->>Config: Load services/api-gateway/.codex/config.toml (overrides)
-    Note over Codex: Context: Go conventions, golangci-lint,<br/>go test, error wrapping patterns
-    Codex->>Dev: Implements caching with Go idioms,<br/>adds table-driven tests, runs go test
+    Codex->>Root: Load repo-root/AGENTS.md + services/AGENTS.md
+    Codex->>Svc: Load services/api-gateway/AGENTS.md (Go rules win)
+    Codex->>Dev: Implements with Go idioms, table-driven tests
 ```
-
-The key insight is that **you do not need a single omniscient configuration**. By leveraging the directory hierarchy that already exists in your codebase, each language gets exactly the context it needs, and Codex behaves as though it has read the team's style guide for that specific service.
 
 ## Citations
 
