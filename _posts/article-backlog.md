@@ -842,7 +842,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Gap from hooks graduation article — practitioners need a migration path
    - Scope: Converting existing hooks.json to inline config.toml, breaking changes, new MCP observation patterns, auto-review configuration
 
-3. 📝 **Browser-in-the-Loop Testing: Playwright + Chrome DevTools MCP + Codex CLI**
+3. ✅ **Browser-in-the-Loop Testing: Playwright + Chrome DevTools MCP + Codex CLI** — Written 2026-04-24 → `2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli.md`
    - Source: Gap between Chrome DevTools MCP article and browser verification article — no unified guide
    - Scope: End-to-end browser testing workflow combining Playwright E2E, Chrome DevTools MCP debugging, and visual verification
 
