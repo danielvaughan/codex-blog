@@ -834,7 +834,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### High Priority
 
-1. 📝 **GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments**
+1. ✅ **GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments** — Written 2026-04-24 → `2026-04-24-gpt-5-5-migration-cookbook-effort-tuning-cost-comparison.md`
    - Source: Gap identified during rating — GPT-5.5 news article covers the "what" but not the "how to migrate"
    - Scope: Step-by-step migration from GPT-5.4 to GPT-5.5, effort level tuning (medium vs high), prompt adjustments needed, cost comparison with real session data, when to stay on 5.4
 
@@ -848,14 +848,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Medium Priority
 
-4. 📝 **Agent Sandbox Comparison Matrix: Codex Seatbelt vs NVIDIA OpenShell vs Docker sbx**
+1. 📝 **Agent Sandbox Comparison Matrix: Codex Seatbelt vs NVIDIA OpenShell vs Docker sbx**
    - Source: Gap between NVIDIA OpenShell article and Docker sandbox article — needs unified comparison
    - Scope: Feature matrix, performance overhead, security guarantees, enterprise compliance mapping
 
-5. 📝 **Community Framework Decision Guide: Which Workflow Framework Fits Your Team**
+2. 📝 **Community Framework Decision Guide: Which Workflow Framework Fits Your Team**
    - Source: Community frameworks comparison article identifies 6+ options but lacks decision flowchart
    - Scope: Decision tree based on team size, project type, model budget, and experience level
 
-6. 📝 **Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows**
+3. 📝 **Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows**
    - Source: Multiple pricing/cost articles exist but no practical calculator tool
    - Scope: Script or skill that estimates session costs across models, includes GPT-5.5 effort-level pricing
