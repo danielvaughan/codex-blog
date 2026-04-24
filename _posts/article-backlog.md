@@ -671,3 +671,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Simon Willison "Codex backdoor API" blog post, llm-openai-via-codex plugin, Codex2API proxy, OpenAI auth docs, Codex pricing page
    - Scope: Two authentication paths (ChatGPT vs API key), auth.json credential management, backend-api/codex/responses endpoint, third-party ecosystem (llm-openai-via-codex, Codex2API), enterprise managed auth policies, cost comparison, security hardening
    - SEO targets: "codex subscription API", "codex cli auth GPT-5.5", "llm-openai-via-codex", "codex backend API"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #6)
+
+### High Priority
+
+1. ~~**MCP Debugging and Diagnostics in Codex CLI: The Complete Troubleshooting Guide**~~ ✅ Written 2026-04-24 → `2026-04-24-codex-cli-mcp-debugging-diagnostics-troubleshooting-guide.md`
+
+   - Source: OpenAI MCP docs, Codex config reference, v0.123/v0.124 release notes, community bug reports
+   - Scope: /mcp and /mcp verbose diagnostics, config.toml reference for MCP servers, five common failure patterns with fixes, hook-based MCP observation (v0.124), audit logging patterns, enterprise debugging workflows, systematic troubleshooting flowchart
+   - SEO targets: "codex cli mcp debugging", "codex cli mcp troubleshooting", "codex cli mcp verbose", "codex mcp server timeout fix"
