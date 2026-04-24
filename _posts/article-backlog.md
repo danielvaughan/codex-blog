@@ -827,3 +827,35 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: DeepSeek V4 release (April 24 2026), Simon Willison analysis, DeepSeek API docs, benchmark comparisons
    - Scope: V4-Pro and V4-Flash model specs, benchmark comparison (SWE-bench, Terminal-Bench, LiveCodeBench), config.toml provider setup, reasoning modes, pricing analysis, two-tier routing architecture, known limitations, migration from V3
    - SEO targets: "deepseek v4 codex cli", "codex cli deepseek provider", "deepseek v4 coding agent", "cheap codex cli model"
+
+---
+
+## New Articles — Gaps Identified by Article Rater (2026-04-24)
+
+### High Priority
+
+1. 📝 **GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments**
+   - Source: Gap identified during rating — GPT-5.5 news article covers the "what" but not the "how to migrate"
+   - Scope: Step-by-step migration from GPT-5.4 to GPT-5.5, effort level tuning (medium vs high), prompt adjustments needed, cost comparison with real session data, when to stay on 5.4
+
+2. 📝 **v0.124 Hooks Migration Guide: From hooks.json to Inline config.toml**
+   - Source: Gap from hooks graduation article — practitioners need a migration path
+   - Scope: Converting existing hooks.json to inline config.toml, breaking changes, new MCP observation patterns, auto-review configuration
+
+3. 📝 **Browser-in-the-Loop Testing: Playwright + Chrome DevTools MCP + Codex CLI**
+   - Source: Gap between Chrome DevTools MCP article and browser verification article — no unified guide
+   - Scope: End-to-end browser testing workflow combining Playwright E2E, Chrome DevTools MCP debugging, and visual verification
+
+### Medium Priority
+
+4. 📝 **Agent Sandbox Comparison Matrix: Codex Seatbelt vs NVIDIA OpenShell vs Docker sbx**
+   - Source: Gap between NVIDIA OpenShell article and Docker sandbox article — needs unified comparison
+   - Scope: Feature matrix, performance overhead, security guarantees, enterprise compliance mapping
+
+5. 📝 **Community Framework Decision Guide: Which Workflow Framework Fits Your Team**
+   - Source: Community frameworks comparison article identifies 6+ options but lacks decision flowchart
+   - Scope: Decision tree based on team size, project type, model budget, and experience level
+
+6. 📝 **Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows**
+   - Source: Multiple pricing/cost articles exist but no practical calculator tool
+   - Scope: Script or skill that estimates session costs across models, includes GPT-5.5 effort-level pricing
