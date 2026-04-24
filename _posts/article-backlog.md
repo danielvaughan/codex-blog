@@ -629,7 +629,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### High Priority
 
-1. **Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration**
+1. ~~**Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration**~~ ✅ Written 2026-04-24 → `2026-04-24-automated-harness-synthesis-agentflow-typed-graph-dsl-codex-cli-orchestration.md`
 
    - Source: arXiv:2604.20801 "Synthesizing Multi-Agent Harnesses for Vulnerability Discovery" (Liu et al., April 22, 2026); arXiv:2604.18071 "Architectural Design Decisions in AI Agent Harnesses" (Hu Wei, April 20, 2026)
    - Scope: Translate AgentFlow's typed graph DSL concept to Codex CLI context — how AGENTS.md + skills + hooks + subagents form an informal harness, what a formalized DSL could look like, the 5 architectural dimensions from the Hu Wei survey mapped to Codex, diagnostic feedback loops vs current pass/fail hooks, implications for plugin marketplace evolution
