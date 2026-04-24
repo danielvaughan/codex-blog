@@ -647,3 +647,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI "Scaling Codex to enterprises worldwide" announcement (April 21), Cognizant-OpenAI partnership PR, Codex pricing page, v0.124.0 release notes
    - Scope: Codex Labs programme overview, GSI partner network (Accenture, Capgemini, CGI, Cognizant, Infosys, PwC, TCS), three-layer platform model (CLI/App/Cloud), managed requirements.toml, configuration profiles at scale, enterprise pricing analysis, early adopter patterns, CLI power user implications
    - SEO targets: "codex labs enterprise", "codex cli enterprise deployment", "codex gsi partnership", "codex labs openai"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #4)
+
+### High Priority
+
+1. ~~**AWS AgentCore's Managed Harness and Coding Skills: What They Mean for Codex CLI Teams**~~ ✅ Written 2026-04-24 → `2026-04-24-aws-agentcore-managed-harness-codex-cli-enterprise-agent-deployment.md`
+
+   - Source: AWS AgentCore announcement (April 22), agentcore-cli GitHub repo, awslabs/agent-plugins repo, Codex CLI v0.123 Bedrock provider
+   - Scope: Managed harness architecture, AgentCore CLI lifecycle commands, coding skills for Codex/Claude Code/Cursor, two-axis relationship model (Codex-as-Bedrock-consumer vs Codex-as-AgentCore-skill-consumer), AWS agent plugins ecosystem, enterprise deployment patterns, AGENTS.md integration
+   - SEO targets: "codex cli agentcore", "aws agentcore codex", "codex cli enterprise agent deployment", "bedrock agentcore managed harness"
