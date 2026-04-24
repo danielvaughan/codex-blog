@@ -848,7 +848,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Medium Priority
 
-1. 📝 **Agent Sandbox Comparison Matrix: Codex Seatbelt vs NVIDIA OpenShell vs Docker sbx**
+1. ✅ **Agent Sandbox Comparison Matrix: Codex Seatbelt vs NVIDIA OpenShell vs Docker sbx** — Written 2026-04-24 → `2026-04-24-agent-sandbox-comparison-codex-seatbelt-openshell-docker-sbx.md`
    - Source: Gap between NVIDIA OpenShell article and Docker sandbox article — needs unified comparison
    - Scope: Feature matrix, performance overhead, security guarantees, enterprise compliance mapping
 
