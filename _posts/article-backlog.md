@@ -838,7 +838,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Gap identified during rating — GPT-5.5 news article covers the "what" but not the "how to migrate"
    - Scope: Step-by-step migration from GPT-5.4 to GPT-5.5, effort level tuning (medium vs high), prompt adjustments needed, cost comparison with real session data, when to stay on 5.4
 
-2. 📝 **v0.124 Hooks Migration Guide: From hooks.json to Inline config.toml**
+2. ✅ **v0.124 Hooks Migration Guide: From hooks.json to Inline config.toml** — Written 2026-04-24 → `2026-04-24-codex-cli-hooks-migration-guide-hooks-json-to-inline-config-toml.md`
    - Source: Gap from hooks graduation article — practitioners need a migration path
    - Scope: Converting existing hooks.json to inline config.toml, breaking changes, new MCP observation patterns, auto-review configuration
 
