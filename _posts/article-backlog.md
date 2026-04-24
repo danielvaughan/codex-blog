@@ -707,3 +707,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI GPT-OSS docs, Qwen3-Coder-Next technical report, Gemma 4 tool-calling benchmarks, DeepSeek V4 release, Codex config-advanced docs, Ollama Codex integration guide
    - Scope: Practical comparison of GPT-OSS-120B/20B, Qwen3-Coder-Next 30B/480B, Gemma 4, and DeepSeek V4 for local Codex CLI use. Hardware requirements, context window analysis, config.toml profiles, decision framework, hybrid cloud+local strategies, known limitations
    - SEO targets: "codex cli local model", "codex cli open weight model", "codex cli ollama setup", "best local model codex cli 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #9)
+
+### High Priority
+
+1. ~~**NVIDIA OpenShell and Codex CLI: Kernel-Level Sandboxing for Autonomous Coding Agents**~~ ✅ Written 2026-04-24 → `2026-04-24-nvidia-openshell-codex-cli-secure-agent-sandbox-policy-enforcement.md`
+
+   - Source: NVIDIA OpenShell GitHub repo, NVIDIA Developer Blog, htek.dev deep dive, Ken Huang analysis, NVIDIA GPT-5.5 blog, OpenAI security docs
+   - Scope: OpenShell architecture (Landlock LSM, OPA proxy, seccomp BPF, Privacy Router), YAML policy-as-code for Codex workflows, four-layer security model mapping against Codex built-in controls, credential isolation, privacy-aware model routing, NVIDIA's 10,000-developer deployment patterns, when to use OpenShell vs Codex built-in sandbox
+   - SEO targets: "codex cli sandbox security", "nvidia openshell codex", "codex cli kernel sandboxing", "agent sandbox policy enforcement"
