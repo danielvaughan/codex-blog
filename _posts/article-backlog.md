@@ -635,3 +635,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Scope: Translate AgentFlow's typed graph DSL concept to Codex CLI context — how AGENTS.md + skills + hooks + subagents form an informal harness, what a formalized DSL could look like, the 5 architectural dimensions from the Hu Wei survey mapped to Codex, diagnostic feedback loops vs current pass/fail hooks, implications for plugin marketplace evolution
    - Angle: The "harness > weights" thesis now has academic backing from two independent papers in one week. Shows practitioners what the next evolution of orchestration looks like beyond hand-written AGENTS.md.
    - SEO targets: "codex cli harness engineering", "agent harness synthesis", "multi-agent DSL codex cli", "agentflow codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #3)
+
+### High Priority
+
+1. ~~**Codex Labs and the GSI Network: What Enterprise-Scale Codex Deployment Means for CLI Power Users**~~ ✅ Written 2026-04-24 → `2026-04-24-codex-labs-gsi-enterprise-deployment-cli-workflows-at-scale.md`
+
+   - Source: OpenAI "Scaling Codex to enterprises worldwide" announcement (April 21), Cognizant-OpenAI partnership PR, Codex pricing page, v0.124.0 release notes
+   - Scope: Codex Labs programme overview, GSI partner network (Accenture, Capgemini, CGI, Cognizant, Infosys, PwC, TCS), three-layer platform model (CLI/App/Cloud), managed requirements.toml, configuration profiles at scale, enterprise pricing analysis, early adopter patterns, CLI power user implications
+   - SEO targets: "codex labs enterprise", "codex cli enterprise deployment", "codex gsi partnership", "codex labs openai"
