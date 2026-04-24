@@ -622,3 +622,16 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 - Source: OpenAI workspace agents announcement (April 22), Codex Slack integration docs, Codex pricing page, "Codex for almost everything" blog post
 - Scope: Workspace agents architecture and relationship to CLI, three-layer Codex platform model, Slack @Codex integration setup and mechanics, four CLI-to-workspace-agent migration patterns, decision framework, credit-based pricing analysis, migration checklist
 - SEO targets: "codex workspace agents", "codex slack integration", "codex cli team automation"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #2)
+
+### High Priority
+
+1. **Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration**
+
+   - Source: arXiv:2604.20801 "Synthesizing Multi-Agent Harnesses for Vulnerability Discovery" (Liu et al., April 22, 2026); arXiv:2604.18071 "Architectural Design Decisions in AI Agent Harnesses" (Hu Wei, April 20, 2026)
+   - Scope: Translate AgentFlow's typed graph DSL concept to Codex CLI context — how AGENTS.md + skills + hooks + subagents form an informal harness, what a formalized DSL could look like, the 5 architectural dimensions from the Hu Wei survey mapped to Codex, diagnostic feedback loops vs current pass/fail hooks, implications for plugin marketplace evolution
+   - Angle: The "harness > weights" thesis now has academic backing from two independent papers in one week. Shows practitioners what the next evolution of orchestration looks like beyond hand-written AGENTS.md.
+   - SEO targets: "codex cli harness engineering", "agent harness synthesis", "multi-agent DSL codex cli", "agentflow codex"
