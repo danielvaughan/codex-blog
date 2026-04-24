@@ -856,6 +856,6 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Community frameworks comparison article identifies 6+ options but lacks decision flowchart
    - Scope: Decision tree based on team size, project type, model budget, and experience level
 
-3. 📝 **Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows**
+3. ✅ **Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows** — Written 2026-04-25 → `2026-04-25-codex-cli-cost-calculator-token-budget-estimator-mixed-model-workflows.md`
    - Source: Multiple pricing/cost articles exist but no practical calculator tool
    - Scope: Script or skill that estimates session costs across models, includes GPT-5.5 effort-level pricing
