@@ -719,3 +719,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: NVIDIA OpenShell GitHub repo, NVIDIA Developer Blog, htek.dev deep dive, Ken Huang analysis, NVIDIA GPT-5.5 blog, OpenAI security docs
    - Scope: OpenShell architecture (Landlock LSM, OPA proxy, seccomp BPF, Privacy Router), YAML policy-as-code for Codex workflows, four-layer security model mapping against Codex built-in controls, credential isolation, privacy-aware model routing, NVIDIA's 10,000-developer deployment patterns, when to use OpenShell vs Codex built-in sandbox
    - SEO targets: "codex cli sandbox security", "nvidia openshell codex", "codex cli kernel sandboxing", "agent sandbox policy enforcement"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #10)
+
+### High Priority
+
+1. ~~**Codex CLI for Polyglot Codebases: Hierarchical AGENTS.md, Per-Directory Config, and Multi-Language Workflow Patterns**~~ ✅ Written 2026-04-24 → `2026-04-24-codex-cli-polyglot-codebases-multi-language-agents-md-configuration.md`
+
+   - Source: OpenAI AGENTS.md docs, config-basic docs, config-advanced docs, agents.md open standard, v0.124.0 release notes
+   - Scope: Hierarchical AGENTS.md patterns for polyglot monorepos, per-directory .codex/config.toml layers, language-specific AGENTS.md templates (Go, TypeScript, Python, Rust), byte budget management, cross-service workflow patterns, enterprise requirements.toml governance, verification and debugging
+   - SEO targets: "codex cli polyglot codebase", "codex cli multi-language monorepo", "codex cli AGENTS.md hierarchy", "codex cli per-directory configuration"
