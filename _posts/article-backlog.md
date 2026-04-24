@@ -791,3 +791,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: shanraisshan/codex-cli-best-practice repo, Pulumi blog comparison, obra/superpowers GitHub, gsd-build/get-shit-done GitHub, github/spec-kit, Yeachan-Heo/oh-my-codex, EveryInc/compound-engineering-plugin
    - Scope: Comparative analysis of six community workflow frameworks, what each constrains (process/context/authority/spec/coordination/review), Codex CLI integration patterns, decision framework for choosing, combination patterns, meta-pattern convergence
    - SEO targets: "codex cli workflow framework", "superpowers vs gsd vs gstack", "codex cli orchestration framework comparison", "best codex cli workflow 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #16)
+
+### High Priority
+
+1. ~~**Cross-Agent Usage Analytics: Unified Monitoring for Your Mixed Coding Agent Stack**~~ ✅ Written 2026-04-24 → `2026-04-24-cross-agent-usage-analytics-unified-monitoring-codex-cli-mixed-stack.md`
+
+   - Source: ccusage project, agentsview project, OpenUsage project, caut project, agent-sessions project, Codex pricing docs
+   - Scope: Five cross-agent usage analytics tools compared (ccusage, agentsview, OpenUsage, caut, Agent Sessions), Codex CLI session data internals, CI cost gates, session search for context recovery, OTEL complementary patterns, decision framework
+   - SEO targets: "codex cli usage tracking", "cross agent cost monitoring", "ccusage codex cli", "agentsview coding agent analytics"
