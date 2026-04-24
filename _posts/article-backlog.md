@@ -731,3 +731,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI AGENTS.md docs, config-basic docs, config-advanced docs, agents.md open standard, v0.124.0 release notes
    - Scope: Hierarchical AGENTS.md patterns for polyglot monorepos, per-directory .codex/config.toml layers, language-specific AGENTS.md templates (Go, TypeScript, Python, Rust), byte budget management, cross-service workflow patterns, enterprise requirements.toml governance, verification and debugging
    - SEO targets: "codex cli polyglot codebase", "codex cli multi-language monorepo", "codex cli AGENTS.md hierarchy", "codex cli per-directory configuration"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #11)
+
+### High Priority
+
+1. ~~**Codex CLI as an MCP Server: Building Multi-Agent Workflows with the Agents SDK**~~ ✅ Written 2026-04-24 → `2026-04-24-codex-cli-mcp-server-multi-agent-workflows-agents-sdk.md`
+
+   - Source: OpenAI Agents SDK guide, OpenAI Cookbook multi-agent tutorial, Codex SDK docs, Subagents docs
+   - Scope: Running Codex as an MCP server via `codex mcp-server`, single-agent and multi-agent orchestration with the Agents SDK, gated handoff patterns, Codex SDK programmatic alternative, subagent configuration comparison, observability via Traces dashboard, production hardening patterns
+   - SEO targets: "codex cli mcp server", "codex cli agents sdk", "codex cli multi-agent workflow", "codex mcp orchestration"
