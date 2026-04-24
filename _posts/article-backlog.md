@@ -815,3 +815,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: GPT-5.5 release (April 23 2026), codex exec docs, codex-action@v1 docs, v0.124 stable hooks
    - Scope: Five-stage pipeline (read issue, create branch, implement fix, validate tests, open PR) using codex exec non-interactively, test-outside pattern, session resumption for complex fixes, structured output for PR body generation, GitHub Actions workflow, safety guardrails
    - SEO targets: "codex cli issue to pr", "codex exec github automation", "codex cli github actions pipeline", "automated pr codex cli"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #18)
+
+### High Priority
+
+1. ~~**DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost**~~ ✅ Written 2026-04-24 → `2026-04-24-deepseek-v4-codex-cli-provider-frontier-coding-fraction-cost.md`
+
+   - Source: DeepSeek V4 release (April 24 2026), Simon Willison analysis, DeepSeek API docs, benchmark comparisons
+   - Scope: V4-Pro and V4-Flash model specs, benchmark comparison (SWE-bench, Terminal-Bench, LiveCodeBench), config.toml provider setup, reasoning modes, pricing analysis, two-tier routing architecture, known limitations, migration from V3
+   - SEO targets: "deepseek v4 codex cli", "codex cli deepseek provider", "deepseek v4 coding agent", "cheap codex cli model"
