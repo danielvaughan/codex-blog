@@ -755,3 +755,15 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Chrome DevTools MCP GitHub repo, Chrome for Developers blog, Codex MCP docs, WSL configuration guides
    - Scope: Architecture overview, 34-tool inventory, config.toml setup (macOS/Linux/WSL2/Windows), practical workflows (fix-and-verify, performance audit, network debugging, visual regression), hooks integration, schema bloat mitigation, AGENTS.md template, comparison with Playwright MCP
    - SEO targets: "codex cli chrome devtools mcp", "codex cli browser debugging", "chrome devtools mcp coding agent", "codex cli frontend workflow"
+
+---
+
+## New Articles — Auto-Generated (2026-04-24, Hourly Scan #13)
+
+### High Priority
+
+1. ~~**Codex Chronicle and Screen-Context Memories: Ambient Developer Awareness for AI Coding Agents**~~ ✅ Written 2026-04-24 → `2026-04-24-codex-chronicle-screen-context-memories-ambient-developer-awareness.md`
+
+   - Source: OpenAI Chronicle docs, Open Chronicle GitHub repo, 9to5Mac Chronicle announcement, Help Net Security privacy analysis, Codex Memories docs
+   - Scope: Chronicle architecture and capture pipeline, memory storage paths, CLI integration via shared memory layer, Open Chronicle open-source alternative with MCP, security and privacy analysis (prompt injection, unencrypted storage, rate limits), enterprise decision framework, practical workflow patterns, comparison table
+   - SEO targets: "codex chronicle", "codex screen context memories", "codex cli ambient awareness", "open chronicle codex cli", "codex chronicle privacy"
