@@ -925,3 +925,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI codex exec docs, Conventional Commits spec, Keep a Changelog, codex-action@v1 docs, community release automation patterns
    - Scope: Five release engineering patterns (changelog generation, semantic version determination with --output-schema, user-facing release notes, pre-release validation gate, full GitHub Actions pipeline), AGENTS.md template for release repos, cost analysis, hybrid toolchain recommendations
    - SEO targets: "codex cli changelog generation", "codex cli release automation", "codex exec semantic versioning", "codex cli release notes"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI and Supabase MCP: Agent-Driven Full-Stack Backend Development with Safe Database Branching** — Written 2026-04-25 → `2026-04-25-codex-cli-supabase-mcp-full-stack-backend-development.md`
+   - Source: Supabase MCP docs, supabase-community/supabase-mcp repo, OpenAI MCP config docs, Composio integration guide, Neon branching comparison
+   - Scope: Remote MCP server config.toml setup (OAuth, PAT, Composio), 20+ tool inventory across 8 feature groups, branch-migrate-merge workflow with sequence diagram, AGENTS.md template, security hardening (prompt injection, credential exposure, production isolation), CI integration with codex exec, Neon MCP comparison table
+   - SEO targets: "codex cli supabase mcp", "supabase mcp codex setup", "codex cli database branching", "supabase mcp agent development"
