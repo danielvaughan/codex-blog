@@ -947,3 +947,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: GitHub Issue #8745, mcp-language-server repo, OpenCode LSP docs, lsp-client ecosystem, Codex LSP Bridge, Amir Teymoori LSP analysis
    - Scope: Why LSP matters for coding agents (diagnostics, go-to-definition, find-references, 900× perf improvement), competitive landscape (OpenCode, Claude Code, Kiro), three MCP-LSP bridge workarounds (mcp-language-server, Codex LSP Bridge, lsp-mcp), lsp-skill ecosystem, AGENTS.md linter fallback, official feature request status (#8745), practical recommendations and limitations
    - SEO targets: "codex cli lsp integration", "codex cli language server protocol", "codex cli code intelligence", "lsp mcp bridge codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI for React Native and Expo: First-Party Skills, Plugins, and Mobile Development Workflows** — Written 2026-04-25 → `2026-04-25-codex-cli-react-native-expo-mobile-development-skills-plugins.md`
+   - Source: Callstack agent-skills repo, Expo skills docs, react-native-community/skills, agent-device repo
+   - Scope: Three skill sources (Callstack, Expo, RN Community) mapped, installation and config.toml setup, agent-device MCP server for simulator automation, five workflows (scaffold, profile, device test, upgrade, deploy), cross-agent compatibility, AGENTS.md template, limitations
+   - SEO targets: "codex cli react native", "codex cli expo skills", "react native agent skills codex", "agent-device codex mcp"
