@@ -980,3 +980,8 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: v0.125.0 release notes, Codex agent-approvals-security docs, config-reference docs, managed-configuration docs, Bitwarden agent security analysis, CVE-2025-61260
    - Scope: Five-layer filesystem security model (user deny-read policies, shell environment policy, sandbox mode selection, enterprise managed requirements, isolated codex exec), glob pattern configuration, glob_scan_max_depth tuning, permission profile persistence, credential protection patterns, enterprise requirements.toml enforcement, sandbox verification
    - SEO targets: "codex cli deny-read", "codex cli filesystem security", "codex cli credential protection", "codex cli secrets .env security"
+
+2. ✅ **Codex CLI for Load Test Generation: k6, Locust, and OpenAPI-Driven Performance Validation** — Written 2026-04-25 → `2026-04-25-codex-cli-load-test-generation-k6-locust-openapi-performance-validation.md`
+   - Source: k6 MCP server, OpenAPI generator k6 plugin, Grafana openapi-to-k6, OpenAI Cookbook CI patterns, GPT-5.5 hallucination reduction benchmarks
+   - Scope: Generating k6/Locust scripts from OpenAPI specs via codex exec, k6 MCP server integration for closed-loop test development, CI/CD integration (GitHub Actions + GitLab CI), self-correcting load test pattern, model routing for cost optimisation, marker-based extraction for reliable script output
+   - SEO targets: "codex cli load testing", "codex cli k6", "codex cli performance testing", "AI generated load tests k6"
