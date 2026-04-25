@@ -870,3 +870,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: v0.125.0 release notes, Codex changelog, agent-approvals-security docs, app-server README, config-reference docs
    - Scope: Permission profile round-trip across five context boundaries, Unix socket transport for local IPC, sticky environments for polyglot monorepos, pagination-friendly resume/fork, rollout tracing with debug reducer for multi-agent debugging, reasoning token reporting in codex exec --json
    - SEO targets: "codex cli v0.125", "codex cli permission profiles persistence", "codex cli app-server unix socket", "codex cli rollout tracing"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan #2)
+
+### High Priority
+
+1. ✅ **Automated Accessibility Testing with Codex CLI: WCAG Compliance from Code Generation to CI Gate** — Written 2026-04-25 → `2026-04-25-codex-cli-accessibility-testing-wcag-compliance-axe-mcp.md`
+   - Source: Intopia accessibility skill research, Community-Access accessibility-agents project, a11y-mcp server, Deque Axe MCP Server, WCAG 2.2 spec, ADA Title II April 2026 deadline
+   - Scope: Four-layer accessibility strategy (AGENTS.md policies, accessibility skills, axe-core MCP servers, CI gates), Intopia research showing 13+ violations without skills vs 1 with, a11y-mcp config.toml setup, hooks-based audit logging, codex exec CI gate workflow, coverage expectations and limitations
+   - SEO targets: "codex cli accessibility testing", "codex cli WCAG compliance", "axe mcp server codex", "codex cli a11y automation"
