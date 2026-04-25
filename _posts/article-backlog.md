@@ -881,3 +881,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Intopia accessibility skill research, Community-Access accessibility-agents project, a11y-mcp server, Deque Axe MCP Server, WCAG 2.2 spec, ADA Title II April 2026 deadline
    - Scope: Four-layer accessibility strategy (AGENTS.md policies, accessibility skills, axe-core MCP servers, CI gates), Intopia research showing 13+ violations without skills vs 1 with, a11y-mcp config.toml setup, hooks-based audit logging, codex exec CI gate workflow, coverage expectations and limitations
    - SEO targets: "codex cli accessibility testing", "codex cli WCAG compliance", "axe mcp server codex", "codex cli a11y automation"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan #3)
+
+### High Priority
+
+1. ✅ **GPT-5.5's Million-Token Context Window: Practical Strategies for Codex CLI Long-Context Workflows** — Written 2026-04-25 → `2026-04-25-gpt-5-5-million-token-context-window-codex-cli-long-context-workflows.md`
+   - Source: OpenAI GPT-5.5 announcement, Codex models page, compaction API docs, context window GitHub issues, prompt caching 201 cookbook, pricing page
+   - Scope: 400K Codex vs 1M API split explained, MRCR v2 long-context retrieval benchmarks, auto-compaction configuration and tuning, server-side compaction API, cost arithmetic for large-context sessions, three workflow patterns (whole-repo audit, multi-file refactoring, pre-compact-and-execute), known issues and workarounds, decision framework
+   - SEO targets: "codex cli context window GPT-5.5", "codex cli compaction tuning", "GPT-5.5 1M context coding", "codex cli large codebase context"
