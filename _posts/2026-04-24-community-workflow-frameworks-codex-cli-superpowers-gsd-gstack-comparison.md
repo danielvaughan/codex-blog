@@ -5,6 +5,9 @@ nav_order: 399
 tags: ["workflow-frameworks", "superpowers", "gsd", "gstack", "spec-kit", "oh-my-codex", "compound-engineering", "orchestration", "community", "best-practices"]
 ---
 
+![Sketchnote diagram for: Community Workflow Frameworks for Codex CLI: Superpowers, GSD, gstack, Spec Kit, OMX, and Compound Engineering Compared](/sketchnotes/articles/2026-04-24-community-workflow-frameworks-codex-cli-superpowers-gsd-gstack-comparison.png)
+
+
 # Community Workflow Frameworks for Codex CLI: Superpowers, GSD, gstack, Spec Kit, OMX, and Compound Engineering Compared
 
 

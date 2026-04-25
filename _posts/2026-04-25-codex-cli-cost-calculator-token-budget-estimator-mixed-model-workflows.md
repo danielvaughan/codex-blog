@@ -5,6 +5,9 @@ nav_order: 404
 tags: ["codex-cli", "cost-optimisation", "token-budget", "mixed-model", "pricing", "automation"]
 ---
 
+![Sketchnote diagram for: Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows](/sketchnotes/articles/2026-04-25-codex-cli-cost-calculator-token-budget-estimator-mixed-model-workflows.png)
+
+
 # Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows
 
 

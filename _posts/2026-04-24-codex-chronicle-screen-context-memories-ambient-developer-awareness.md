@@ -5,6 +5,9 @@ nav_order: 397
 tags: ["codex", "chronicle", "memories", "screen-context", "ambient-awareness", "privacy", "mcp", "open-chronicle", "macOS"]
 ---
 
+![Sketchnote diagram for: Codex Chronicle and Screen-Context Memories: Ambient Developer Awareness for AI Coding Agents](/sketchnotes/articles/2026-04-24-codex-chronicle-screen-context-memories-ambient-developer-awareness.png)
+
+
 # Codex Chronicle and Screen-Context Memories: Ambient Developer Awareness for AI Coding Agents
 
 

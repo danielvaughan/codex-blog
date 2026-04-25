@@ -5,6 +5,9 @@ nav_order: 403
 tags: ["codex-cli", "gpt-5.5", "migration", "effort-tuning", "cost-optimisation", "model-selection", "reasoning", "configuration"]
 ---
 
+![Sketchnote diagram for: GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments](/sketchnotes/articles/2026-04-24-gpt-5-5-migration-cookbook-effort-tuning-cost-comparison.png)
+
+
 # GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments
 
 

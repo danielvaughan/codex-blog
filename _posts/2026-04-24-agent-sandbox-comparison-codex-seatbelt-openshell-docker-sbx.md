@@ -5,6 +5,9 @@ nav_order: 405
 tags: ["codex-cli", "sandbox", "security", "seatbelt", "openshell", "docker-sbx", "isolation", "comparison"]
 ---
 
+![Sketchnote diagram for: Agent Sandbox Comparison Matrix: Codex Seatbelt vs NVIDIA OpenShell vs Docker sbx](/sketchnotes/articles/2026-04-24-agent-sandbox-comparison-codex-seatbelt-openshell-docker-sbx.png)
+
+
 # Agent Sandbox Comparison Matrix: Codex Seatbelt vs NVIDIA OpenShell vs Docker sbx
 
 

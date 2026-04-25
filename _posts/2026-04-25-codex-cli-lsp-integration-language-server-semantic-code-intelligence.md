@@ -5,6 +5,9 @@ nav_order: 413
 tags: ["codex-cli", "lsp", "language-server-protocol", "code-intelligence", "mcp", "diagnostics", "refactoring"]
 ---
 
+![Sketchnote diagram for: LSP Integration for Codex CLI: Bridging the Semantic Code Intelligence Gap](/sketchnotes/articles/2026-04-25-codex-cli-lsp-integration-language-server-semantic-code-intelligence.png)
+
+
 # LSP Integration for Codex CLI: Bridging the Semantic Code Intelligence Gap
 
 

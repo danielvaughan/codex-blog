@@ -5,6 +5,9 @@ nav_order: 402
 tags: ["codex-cli", "deepseek", "v4", "custom-provider", "cost-optimisation", "benchmarks", "configuration", "model-selection"]
 ---
 
+![Sketchnote diagram for: DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost](/sketchnotes/articles/2026-04-24-deepseek-v4-codex-cli-provider-frontier-coding-fraction-cost.png)
+
+
 # DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost
 
 

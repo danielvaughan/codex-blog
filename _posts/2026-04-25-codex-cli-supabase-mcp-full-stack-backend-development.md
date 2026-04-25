@@ -6,6 +6,9 @@ date: 2026-04-25T00:00:00+00:00
 tags: ["codex-cli", "supabase", "mcp", "database", "migrations", "branching", "full-stack", "backend", "config.toml", "security"]
 ---
 
+![Sketchnote diagram for: Codex CLI and Supabase MCP: Agent-Driven Full-Stack Backend Development with Safe Database Branching](/sketchnotes/articles/2026-04-25-codex-cli-supabase-mcp-full-stack-backend-development.png)
+
+
 # Codex CLI and Supabase MCP: Agent-Driven Full-Stack Backend Development with Safe Database Branching
 
 

@@ -5,6 +5,9 @@ nav_order: 414
 tags: ["codex-cli", "react-native", "expo", "mobile-development", "skills", "plugins", "agent-device", "testing", "callstack"]
 ---
 
+![Sketchnote diagram for: Codex CLI for React Native and Expo: First-Party Skills, Plugins, and Mobile Development Workflows](/sketchnotes/articles/2026-04-25-codex-cli-react-native-expo-mobile-development-skills-plugins.png)
+
+
 # Codex CLI for React Native and Expo: First-Party Skills, Plugins, and Mobile Development Workflows
 
 

@@ -5,6 +5,9 @@ nav_order: 404
 tags: ["codex-cli", "workflow", "frameworks", "orchestration", "decision-guide", "multi-agent", "subagents", "oh-my-codex", "langgraph", "agents-sdk"]
 ---
 
+![Sketchnote diagram for: Community Framework Decision Guide: Which Workflow Framework Fits Your Team](/sketchnotes/articles/2026-04-24-community-framework-decision-guide-codex-cli-workflow-frameworks.png)
+
+
 # Community Framework Decision Guide: Which Workflow Framework Fits Your Team
 
 

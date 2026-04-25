@@ -5,6 +5,9 @@ nav_order: 410
 tags: ["codex-cli", "neon", "database", "mcp", "schema-migration", "branching", "drizzle", "postgres"]
 ---
 
+![Sketchnote diagram for: Safe Database Schema Refactoring with Codex CLI and Neon Branching](/sketchnotes/articles/2026-04-25-codex-cli-neon-branching-safe-database-schema-refactoring-mcp.png)
+
+
 # Safe Database Schema Refactoring with Codex CLI and Neon Branching
 
 

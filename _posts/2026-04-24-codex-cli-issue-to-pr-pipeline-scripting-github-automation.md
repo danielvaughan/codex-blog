@@ -5,6 +5,9 @@ nav_order: 401
 tags: ["ci-cd", "codex-cli", "github-actions", "automation", "codex-exec", "structured-output", "workflow-patterns"]
 ---
 
+![Sketchnote diagram for: Scripting the Issue-to-PR Pipeline: Automating the Complete GitHub Workflow with Codex CLI](/sketchnotes/articles/2026-04-24-codex-cli-issue-to-pr-pipeline-scripting-github-automation.png)
+
+
 # Scripting the Issue-to-PR Pipeline: Automating the Complete GitHub Workflow with Codex CLI
 
 

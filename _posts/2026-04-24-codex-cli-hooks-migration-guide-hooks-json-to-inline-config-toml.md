@@ -5,6 +5,9 @@ nav_order: 404
 tags: ["codex-cli", "hooks", "config.toml", "migration", "v0.124", "enterprise", "requirements.toml"]
 ---
 
+![Sketchnote diagram for: v0.124 Hooks Migration Guide: From hooks.json to Inline config.toml](/sketchnotes/articles/2026-04-24-codex-cli-hooks-migration-guide-hooks-json-to-inline-config-toml.png)
+
+
 # v0.124 Hooks Migration Guide: From hooks.json to Inline config.toml
 
 

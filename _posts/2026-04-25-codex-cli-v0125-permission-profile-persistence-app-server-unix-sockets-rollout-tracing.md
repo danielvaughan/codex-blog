@@ -5,6 +5,9 @@ nav_order: 406
 tags: ["codex-cli", "v0.125", "permission-profiles", "app-server", "rollout-tracing", "unix-sockets", "security", "debugging"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.125: Permission Profile Persistence, App-Server Unix Sockets, and Rollout Tracing](/sketchnotes/articles/2026-04-25-codex-cli-v0125-permission-profile-persistence-app-server-unix-sockets-rollout-tracing.png)
+
+
 # Codex CLI v0.125: Permission Profile Persistence, App-Server Unix Sockets, and Rollout Tracing
 
 

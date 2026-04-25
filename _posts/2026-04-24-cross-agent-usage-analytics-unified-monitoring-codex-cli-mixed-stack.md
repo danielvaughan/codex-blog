@@ -5,6 +5,9 @@ nav_order: 400
 tags: ["codex-cli", "usage-tracking", "cost-management", "observability", "ccusage", "agentsview", "openusage", "multi-agent"]
 ---
 
+![Sketchnote diagram for: Cross-Agent Usage Analytics: Unified Monitoring for Your Mixed Coding Agent Stack](/sketchnotes/articles/2026-04-24-cross-agent-usage-analytics-unified-monitoring-codex-cli-mixed-stack.png)
+
+
 # Cross-Agent Usage Analytics: Unified Monitoring for Your Mixed Coding Agent Stack
 
 

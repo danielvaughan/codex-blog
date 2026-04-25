@@ -5,6 +5,9 @@ nav_order: 407
 tags: ["codex-cli", "accessibility", "WCAG", "axe-core", "MCP", "a11y", "skills", "AGENTS.md", "CI/CD"]
 ---
 
+![Sketchnote diagram for: Automated Accessibility Testing with Codex CLI: WCAG Compliance from Code Generation to CI Gate](/sketchnotes/articles/2026-04-25-codex-cli-accessibility-testing-wcag-compliance-axe-mcp.png)
+
+
 # Automated Accessibility Testing with Codex CLI: WCAG Compliance from Code Generation to CI Gate
 
 

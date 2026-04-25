@@ -5,6 +5,9 @@ nav_order: 415
 tags: ["codex-cli", "git", "merge-conflicts", "worktrees", "parallel-agents", "clash", "integration"]
 ---
 
+![Sketchnote diagram for: Merge Conflict Prevention and Resolution with Codex CLI: Worktrees, Clash, and Integration Strategies](/sketchnotes/articles/2026-04-25-codex-cli-merge-conflict-prevention-resolution-worktrees-clash.png)
+
+
 # Merge Conflict Prevention and Resolution with Codex CLI: Worktrees, Clash, and Integration Strategies
 
 

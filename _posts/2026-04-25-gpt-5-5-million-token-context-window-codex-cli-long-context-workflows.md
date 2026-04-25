@@ -5,6 +5,9 @@ nav_order: 408
 tags: ["gpt-5.5", "context-window", "compaction", "long-context", "cost-optimisation", "large-codebases", "configuration"]
 ---
 
+![Sketchnote diagram for: GPT-5.5's Million-Token Context Window: Practical Strategies for Codex CLI Long-Context Workflows](/sketchnotes/articles/2026-04-25-gpt-5-5-million-token-context-window-codex-cli-long-context-workflows.png)
+
+
 # GPT-5.5's Million-Token Context Window: Practical Strategies for Codex CLI Long-Context Workflows
 
 

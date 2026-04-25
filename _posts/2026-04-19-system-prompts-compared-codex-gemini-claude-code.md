@@ -5,6 +5,9 @@ categories: [codex-cli, gemini-cli, claude-code, pi, system-prompts, architectur
 description: "Four open-source coding CLIs ship their system prompts publicly. From Pi's 350-token minimalism to Codex CLI's 8,500-token baseline — what do these instructions reveal about each tool's engineering philosophy?"
 ---
 
+![Sketchnote diagram for: The DNA of Coding Agents: Codex CLI vs Gemini CLI vs Claude Code vs Pi — System Prompts Compared](/sketchnotes/articles/2026-04-19-system-prompts-compared-codex-gemini-claude-code.png)
+
+
 ![Sketchnote diagram for: The DNA of Coding Agents: Codex CLI vs Gemini CLI vs Claude Code vs Pi — System Prompts Compared](/sketchnotes/articles/system-prompts-compared.png)
 
 The system prompt is the soul of a coding agent. It is the document that transforms a general-purpose language model into an opinionated software engineer — one that knows when to be ambitious and when to be surgical, when to ask permission and when to press on, when to write tests and when to leave well enough alone.

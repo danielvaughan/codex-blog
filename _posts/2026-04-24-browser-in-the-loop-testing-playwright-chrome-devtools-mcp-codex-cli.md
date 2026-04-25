@@ -5,6 +5,9 @@ nav_order: 404
 tags: ["codex-cli", "playwright", "chrome-devtools", "mcp", "browser-testing", "e2e", "automation", "debugging"]
 ---
 
+![Sketchnote diagram for: Browser-in-the-Loop Testing: Playwright + Chrome DevTools MCP + Codex CLI](/sketchnotes/articles/2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli.png)
+
+
 # Browser-in-the-Loop Testing: Playwright + Chrome DevTools MCP + Codex CLI
 
 

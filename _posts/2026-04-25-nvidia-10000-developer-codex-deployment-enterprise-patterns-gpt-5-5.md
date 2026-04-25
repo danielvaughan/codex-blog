@@ -5,6 +5,9 @@ nav_order: 409
 tags: ["codex-cli", "enterprise", "nvidia", "gpt-5-5", "deployment", "security", "case-study"]
 ---
 
+![Sketchnote diagram for: NVIDIA's 10,000-Developer Codex Deployment: Enterprise Patterns for Large-Scale AI Agent Rollout](/sketchnotes/articles/2026-04-25-nvidia-10000-developer-codex-deployment-enterprise-patterns-gpt-5-5.png)
+
+
 # NVIDIA's 10,000-Developer Codex Deployment: Enterprise Patterns for Large-Scale AI Agent Rollout
 
 

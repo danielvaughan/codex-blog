@@ -5,6 +5,9 @@ nav_order: 398
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "enterprise", "extensibility"]
 ---
 
+![Sketchnote diagram for: Codex CLI Plugin Marketplace: Building, Distributing, and Managing Extensions at Scale](/sketchnotes/articles/2026-04-24-codex-cli-plugin-marketplace-building-distributing-extending.png)
+
+
 # Codex CLI Plugin Marketplace: Building, Distributing, and Managing Extensions at Scale
 
 
