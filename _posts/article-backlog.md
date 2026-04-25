@@ -892,3 +892,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI GPT-5.5 announcement, Codex models page, compaction API docs, context window GitHub issues, prompt caching 201 cookbook, pricing page
    - Scope: 400K Codex vs 1M API split explained, MRCR v2 long-context retrieval benchmarks, auto-compaction configuration and tuning, server-side compaction API, cost arithmetic for large-context sessions, three workflow patterns (whole-repo audit, multi-file refactoring, pre-compact-and-execute), known issues and workarounds, decision framework
    - SEO targets: "codex cli context window GPT-5.5", "codex cli compaction tuning", "GPT-5.5 1M context coding", "codex cli large codebase context"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan #4)
+
+### High Priority
+
+1. ✅ **NVIDIA's 10,000-Developer Codex Deployment: Enterprise Patterns for Large-Scale AI Agent Rollout** — Written 2026-04-25 → `2026-04-25-nvidia-10000-developer-codex-deployment-enterprise-patterns-gpt-5-5.md`
+   - Source: NVIDIA GPT-5.5 blog post, TweakTown coverage, TechRadar analysis, OpenAI managed configuration docs, OpenAI admin setup guide, Stanford Enterprise AI Playbook
+   - Scope: NVIDIA's VM-per-employee architecture, GB200 NVL72 infrastructure, zero-data-retention security model, read-only agent permissions, productivity metrics (debugging days→hours, experiments weeks→overnight), non-engineering department adoption, six-layer enterprise replication framework (identity, environment, policy, configuration, observability, governance), requirements.toml and managed_config.toml patterns, GPT-5.5 model context
+   - SEO targets: "nvidia codex deployment", "codex enterprise rollout 10000 developers", "codex cli enterprise security patterns", "nvidia gpt-5.5 codex"
