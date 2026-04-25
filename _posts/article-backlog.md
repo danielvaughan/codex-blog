@@ -958,3 +958,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Callstack agent-skills repo, Expo skills docs, react-native-community/skills, agent-device repo
    - Scope: Three skill sources (Callstack, Expo, RN Community) mapped, installation and config.toml setup, agent-device MCP server for simulator automation, five workflows (scaffold, profile, device test, upgrade, deploy), cross-agent compatibility, AGENTS.md template, limitations
    - SEO targets: "codex cli react native", "codex cli expo skills", "react native agent skills codex", "agent-device codex mcp"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Merge Conflict Prevention and Resolution with Codex CLI: Worktrees, Clash, and Integration Strategies** — Written 2026-04-25 → `2026-04-25-codex-cli-merge-conflict-prevention-resolution-worktrees-clash.md`
+   - Source: GitHub Issue #16299, Clash CLI tool, OpenAI worktree docs, community multi-agent patterns
+   - Scope: Three-layer conflict lifecycle (worktree isolation, Clash early detection, resolution strategies), leader-agent merge pattern, CI-automated resolution workflow, spec-driven task decomposition, production hardening checklist
+   - SEO targets: "codex cli merge conflicts", "codex cli git worktrees parallel agents", "clash git conflict detection codex", "codex cli merge resolution"
