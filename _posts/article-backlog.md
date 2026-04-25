@@ -903,3 +903,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: NVIDIA GPT-5.5 blog post, TweakTown coverage, TechRadar analysis, OpenAI managed configuration docs, OpenAI admin setup guide, Stanford Enterprise AI Playbook
    - Scope: NVIDIA's VM-per-employee architecture, GB200 NVL72 infrastructure, zero-data-retention security model, read-only agent permissions, productivity metrics (debugging days→hours, experiments weeks→overnight), non-engineering department adoption, six-layer enterprise replication framework (identity, environment, policy, configuration, observability, governance), requirements.toml and managed_config.toml patterns, GPT-5.5 model context
    - SEO targets: "nvidia codex deployment", "codex enterprise rollout 10000 developers", "codex cli enterprise security patterns", "nvidia gpt-5.5 codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Safe Database Schema Refactoring with Codex CLI and Neon Branching** — Written 2026-04-25 → `2026-04-25-codex-cli-neon-branching-safe-database-schema-refactoring-mcp.md`
+   - Source: Neon official Codex guide, Neon branching docs, Neon Codex plugin announcement, OpenAI MCP docs, OpenAI agent approvals docs
+   - Scope: Copy-on-write branching for safe agent-driven migrations, Neon MCP server config (plugin and manual), Drizzle ORM workflow, snapshot checkpointing, CI pipeline integration with codex exec, security considerations, comparison with other isolation approaches
+   - SEO targets: "codex cli database migration", "neon branching codex", "safe schema refactoring ai agent", "codex cli neon mcp"
