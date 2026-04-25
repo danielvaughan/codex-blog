@@ -936,3 +936,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Supabase MCP docs, supabase-community/supabase-mcp repo, OpenAI MCP config docs, Composio integration guide, Neon branching comparison
    - Scope: Remote MCP server config.toml setup (OAuth, PAT, Composio), 20+ tool inventory across 8 feature groups, branch-migrate-merge workflow with sequence diagram, AGENTS.md template, security hardening (prompt injection, credential exposure, production isolation), CI integration with codex exec, Neon MCP comparison table
    - SEO targets: "codex cli supabase mcp", "supabase mcp codex setup", "codex cli database branching", "supabase mcp agent development"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **LSP Integration for Codex CLI: Bridging the Semantic Code Intelligence Gap** — Written 2026-04-25 → `2026-04-25-codex-cli-lsp-integration-language-server-semantic-code-intelligence.md`
+   - Source: GitHub Issue #8745, mcp-language-server repo, OpenCode LSP docs, lsp-client ecosystem, Codex LSP Bridge, Amir Teymoori LSP analysis
+   - Scope: Why LSP matters for coding agents (diagnostics, go-to-definition, find-references, 900× perf improvement), competitive landscape (OpenCode, Claude Code, Kiro), three MCP-LSP bridge workarounds (mcp-language-server, Codex LSP Bridge, lsp-mcp), lsp-skill ecosystem, AGENTS.md linter fallback, official feature request status (#8745), practical recommendations and limitations
+   - SEO targets: "codex cli lsp integration", "codex cli language server protocol", "codex cli code intelligence", "lsp mcp bridge codex"
