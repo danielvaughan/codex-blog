@@ -914,3 +914,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Neon official Codex guide, Neon branching docs, Neon Codex plugin announcement, OpenAI MCP docs, OpenAI agent approvals docs
    - Scope: Copy-on-write branching for safe agent-driven migrations, Neon MCP server config (plugin and manual), Drizzle ORM workflow, snapshot checkpointing, CI pipeline integration with codex exec, security considerations, comparison with other isolation approaches
    - SEO targets: "codex cli database migration", "neon branching codex", "safe schema refactoring ai agent", "codex cli neon mcp"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### Medium Priority
+
+1. ✅ **Codex CLI for Release Engineering: Automated Changelogs, Semantic Versioning, and Release Note Generation** — Written 2026-04-25 → `2026-04-25-codex-cli-release-engineering-changelog-versioning-automation.md`
+   - Source: OpenAI codex exec docs, Conventional Commits spec, Keep a Changelog, codex-action@v1 docs, community release automation patterns
+   - Scope: Five release engineering patterns (changelog generation, semantic version determination with --output-schema, user-facing release notes, pre-release validation gate, full GitHub Actions pipeline), AGENTS.md template for release repos, cost analysis, hybrid toolchain recommendations
+   - SEO targets: "codex cli changelog generation", "codex cli release automation", "codex exec semantic versioning", "codex cli release notes"
