@@ -859,3 +859,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 3. ✅ **Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows** — Written 2026-04-25 → `2026-04-25-codex-cli-cost-calculator-token-budget-estimator-mixed-model-workflows.md`
    - Source: Multiple pricing/cost articles exist but no practical calculator tool
    - Scope: Script or skill that estimates session costs across models, includes GPT-5.5 effort-level pricing
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI v0.125: Permission Profile Persistence, App-Server Unix Sockets, and Rollout Tracing** — Written 2026-04-25 → `2026-04-25-codex-cli-v0125-permission-profile-persistence-app-server-unix-sockets-rollout-tracing.md`
+   - Source: v0.125.0 release notes, Codex changelog, agent-approvals-security docs, app-server README, config-reference docs
+   - Scope: Permission profile round-trip across five context boundaries, Unix socket transport for local IPC, sticky environments for polyglot monorepos, pagination-friendly resume/fork, rollout tracing with debug reducer for multi-agent debugging, reasoning token reporting in codex exec --json
+   - SEO targets: "codex cli v0.125", "codex cli permission profiles persistence", "codex cli app-server unix socket", "codex cli rollout tracing"
