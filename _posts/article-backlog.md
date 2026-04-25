@@ -969,3 +969,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: GitHub Issue #16299, Clash CLI tool, OpenAI worktree docs, community multi-agent patterns
    - Scope: Three-layer conflict lifecycle (worktree isolation, Clash early detection, resolution strategies), leader-agent merge pattern, CI-automated resolution workflow, spec-driven task decomposition, production hardening checklist
    - SEO targets: "codex cli merge conflicts", "codex cli git worktrees parallel agents", "clash git conflict detection codex", "codex cli merge resolution"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI Filesystem Security: Deny-Read Policies, Glob Patterns, and Credential Protection** — Written 2026-04-25 → `2026-04-25-codex-cli-filesystem-security-deny-read-policies-credential-protection.md`
+   - Source: v0.125.0 release notes, Codex agent-approvals-security docs, config-reference docs, managed-configuration docs, Bitwarden agent security analysis, CVE-2025-61260
+   - Scope: Five-layer filesystem security model (user deny-read policies, shell environment policy, sandbox mode selection, enterprise managed requirements, isolated codex exec), glob pattern configuration, glob_scan_max_depth tuning, permission profile persistence, credential protection patterns, enterprise requirements.toml enforcement, sandbox verification
+   - SEO targets: "codex cli deny-read", "codex cli filesystem security", "codex cli credential protection", "codex cli secrets .env security"
