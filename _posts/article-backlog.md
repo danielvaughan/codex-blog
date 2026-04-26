@@ -1212,3 +1212,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: TypeScript 6.0 announcement, OpenAI Codex CLI features docs, Codex code modernisation cookbook, Codex worktrees docs, GPT-5.5 model docs, Codex changelog April 2026
    - Scope: Five-phase incremental migration workflow, AGENTS.md template for TS migration, config.toml profiles, parallel worktree batch conversion, JSDoc-to-TS conversion, CI validation gates, model selection table, pitfalls matrix, migration tracking
    - SEO targets: "codex cli typescript migration", "javascript to typescript codex", "codex cli refactoring", "ai typescript migration", "codex cli gradual typing"
+
+---
+
+## New Articles — Hourly Generation (2026-04-26 late)
+
+### Observability & Production Operations
+
+1. ✅ **Codex CLI OpenTelemetry Observability: Monitoring Agent Sessions, Token Spend, and Tool Decisions in Production** — Written 2026-04-26 → `2026-04-26-codex-cli-opentelemetry-observability-monitoring-agent-sessions.md`
+   - Source: SigNoz Codex monitoring docs, openai/codex PR #2103, OpenAI advanced config docs, VictoriaMetrics vibe-coding observability, Grafana Cloud Codex integration, base14 Scout coding agent observability
+   - Scope: OTel config (OTLP HTTP/gRPC), event schema (6 event types), 5-way token attribution, tool-decision audit trail, Grafana dashboards, sampling strategies, prompt redaction, production collector pipeline, agent observability comparison matrix
+   - SEO targets: "codex cli opentelemetry", "codex cli monitoring", "codex cli observability", "coding agent telemetry", "codex cli token tracking"
