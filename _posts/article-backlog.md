@@ -1246,3 +1246,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: tspi.at hardware-in-the-loop tutorial, Embedder AI firmware platform, Zephyr/FreeRTOS docs, PlatformIO, awesome-claude-code-toolkit embedded template, Codex CLI v0.125 release notes
    - Scope: AGENTS.md template for embedded projects, sandbox config for cross-compilation toolchains, HIL build-flash-probe loop, QEMU emulation pattern, PlatformIO integration, Zephyr devicetree/Kconfig, FreeRTOS patterns, model selection for firmware, comparison with Embedder, codex exec CI integration, practical tips
    - SEO targets: "codex cli embedded systems", "codex cli firmware development", "codex cli hardware in the loop", "codex cli RTOS", "codex cli microcontroller", "codex cli cross compilation"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### Component Development & Design Systems
+
+1. ✅ **Codex CLI and Storybook MCP: Agent-Driven Component Development, Story Generation, and Visual Testing** — Written 2026-04-26 → `2026-04-26-codex-cli-storybook-mcp-component-development-story-generation-visual-testing.md`
+   - Source: Storybook 10.3 MCP blog post, Storybook MCP server docs, Chromatic MCP docs, Codex CLI hooks docs, Codex CLI features docs, OpenAI models docs
+   - Scope: Storybook MCP addon setup for Codex CLI (HTTP transport), three toolsets (docs, development, testing), AGENTS.md template for component-driven development, agent-driven component workflow with Mermaid sequence diagram, PostToolUse hooks for story enforcement, Chromatic remote MCP publishing, composition for multiple design systems, model selection table, headless story generation pipeline, common pitfalls
+   - SEO targets: "codex cli storybook", "codex cli storybook mcp", "codex cli component development", "storybook mcp agent", "codex cli design system", "codex cli story generation"
