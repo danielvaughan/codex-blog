@@ -1268,3 +1268,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Codex for Open Source programme, GitHub integration docs, WordPress/Drupal maintainer assessment, OpenAI best practices, codex-action@v1 docs
    - Scope: Five progressive maintainer workflows (issue triage, PR review, draft patch generation, contributor onboarding, release engineering), AGENTS.md triage/review templates, codex exec batch triage scripts, minimum control framework, Codex for Open Source programme details, anti-patterns and decision framework
    - SEO targets: "codex cli open source maintainer", "codex cli issue triage", "codex for open source programme", "codex cli pr review automation", "codex cli contributor onboarding"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### Market Analysis & Adoption Data
+
+1. ✅ **AI Coding Agent Adoption in 2026: What the Survey Data Actually Shows and Where Codex CLI Fits** — Written 2026-04-26 → `2026-04-26-ai-coding-agent-adoption-2026-survey-data-codex-cli-positioning.md`
+   - Source: JetBrains AI Pulse survey (10,000+ developers, January 2026), Sonar State of Code developer survey 2026, Stanford AI Index 2026, Gradually.ai Codex statistics, Tembo CLI agents comparison
+   - Scope: Three-survey synthesis (JetBrains, Sonar, Stanford), adoption rankings with awareness/usage split, Codex 3% caveat and post-January growth context, verification bottleneck analysis, satisfaction gap investigation, enterprise divergence patterns, multi-tool stack reality, actionable takeaways for Codex CLI teams
+   - SEO targets: "codex cli adoption 2026", "ai coding tool adoption survey", "codex cli vs claude code market share", "developer ai tool usage statistics 2026"
