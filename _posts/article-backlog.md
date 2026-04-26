@@ -1230,3 +1230,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: awslabs/agent-plugins repo, AWS serverless agent plugin announcement, Codex CLI changelog v0.124/v0.125, OpenAI config docs, SAM CLI docs
    - Scope: AGENTS.md template for serverless projects, config.toml sandbox settings for SAM local, AWS Serverless Agent Plugin installation via marketplace.json, Lambda scaffolding workflows, CDK stack generation, cold start optimisation, Step Functions orchestration, headless CI review, model selection table, common pitfalls
    - SEO targets: "codex cli aws lambda", "codex cli serverless", "codex cli SAM", "codex cli CDK", "codex cli aws agent plugin"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI for Automated API Documentation: OpenAPI Generation, SDK Scaffolding, and Doc-Code Sync** — Written 2026-04-26 → `2026-04-26-codex-cli-api-documentation-openapi-generation-sdk-scaffolding.md`
+   - Source: Speakeasy agent skills, openapi-mcp-generator, Mintlify auto-generation, Fern MCP servers, Cloudflare Code Mode MCP, OpenAI codex exec docs, Codex v0.124 hooks stable
+   - Scope: Four-stage pipeline (extract spec from code, generate SDKs, serve as MCP, guard against drift), AGENTS.md template for API projects, codex exec with --output-schema for structured extraction, Speakeasy skills integration, OpenAPI-to-MCP conversion, PostToolUse hooks for drift detection, CI pipeline with codex-action, documentation platform integration (Mintlify/Fern), model selection table, security considerations
+   - SEO targets: "codex cli api documentation", "codex cli openapi generation", "codex cli sdk generation", "codex exec openapi", "automated api documentation codex"
