@@ -1279,3 +1279,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: JetBrains AI Pulse survey (10,000+ developers, January 2026), Sonar State of Code developer survey 2026, Stanford AI Index 2026, Gradually.ai Codex statistics, Tembo CLI agents comparison
    - Scope: Three-survey synthesis (JetBrains, Sonar, Stanford), adoption rankings with awareness/usage split, Codex 3% caveat and post-January growth context, verification bottleneck analysis, satisfaction gap investigation, enterprise divergence patterns, multi-tool stack reality, actionable takeaways for Codex CLI teams
    - SEO targets: "codex cli adoption 2026", "ai coding tool adoption survey", "codex cli vs claude code market share", "developer ai tool usage statistics 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### Apple Platform Development
+
+1. ✅ **Codex CLI for Swift and iOS Teams: Xcode MCP, SwiftUI Skills, and Agent-Driven Apple Platform Development** — Written 2026-04-26 → `2026-04-26-codex-cli-swift-ios-teams-xcode-mcp-swiftui-agent-workflows.md`
+   - Source: Apple Xcode 26.3 newsroom announcement, Swift 6.2 release notes, Rudrank Riyam Xcode MCP tools guide, XcodeBuildMCP by Sentry, Paul Hudson SwiftUI Agent Skill, OpenAI iOS use case docs, Swiftjective-C agentic coding guide, NDCSwift AGENTS.md template
+   - Scope: Two MCP server comparison (xcrun mcpbridge 20 tools vs XcodeBuildMCP 59 tools), AGENTS.md template for Swift 6.2/iOS 26, config.toml profiles, SwiftUI agent skills installation, visual verification loop via RenderPreview, CLI-first build patterns with xcodebuild/Tuist, Xcode native vs CLI comparison, model selection table, headless CI pipeline, common pitfalls
+   - SEO targets: "codex cli swift", "codex cli ios", "codex cli xcode mcp", "codex cli swiftui", "xcode agentic coding codex", "codex cli apple development"
