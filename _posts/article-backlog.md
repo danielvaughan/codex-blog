@@ -985,3 +985,225 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: k6 MCP server, OpenAPI generator k6 plugin, Grafana openapi-to-k6, OpenAI Cookbook CI patterns, GPT-5.5 hallucination reduction benchmarks
    - Scope: Generating k6/Locust scripts from OpenAPI specs via codex exec, k6 MCP server integration for closed-loop test development, CI/CD integration (GitHub Actions + GitLab CI), self-correcting load test pattern, model routing for cost optimisation, marker-based extraction for reliable script output
    - SEO targets: "codex cli load testing", "codex cli k6", "codex cli performance testing", "AI generated load tests k6"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex Security Meets Codex CLI: Building an Automated Vulnerability Remediation Pipeline** — Written 2026-04-25 → `2026-04-25-codex-security-codex-cli-automated-vulnerability-remediation-pipeline.md`
+   - Source: OpenAI Codex Security announcement, Codex Security FAQ, OpenAI Cookbook GitLab security pipeline, codex-action@v1 docs, Gecko Security analysis
+   - Scope: Closed-loop scan-triage-patch-validate-PR pipeline combining Codex Security (cloud scanner) with Codex CLI (codex exec remediation), marker-based output extraction, SAST integration patterns, GitHub Actions and GitLab CI/CD pipelines, safety guardrails (deny-read, sandbox isolation), AGENTS.md security template, decision framework
+   - SEO targets: "codex security codex cli integration", "automated vulnerability remediation pipeline", "codex exec security patch", "codex cli SAST remediation"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Debugging with Codex CLI: Systematic Bug-Hunting Patterns for GPT-5.5** — Written 2026-04-25 → `2026-04-25-codex-cli-debugging-patterns-systematic-bug-hunting-gpt-5-5.md`
+   - Source: OpenAI CLI features docs, GPT-5.5 benchmarks, OpenAI Cookbook autofix pattern, community debug-mode skill, best practices docs
+   - Scope: Six debugging patterns (screenshot-to-fix, stack-trace diagnosis, hypothesis-driven debug, git bisect orchestrator, log analysis pipeline, automated reproduce-fix-verify), AGENTS.md debug template, config.toml debug profile, reasoning effort tuning for debug tasks, known limitations
+   - SEO targets: "codex cli debugging", "codex cli bug fix workflow", "codex cli debug patterns GPT-5.5", "codex exec autofix"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Cross-Agent Skill Portability: Managing Skills Across Codex CLI, Claude Code, and Copilot** — Written 2026-04-25 → `2026-04-25-cross-agent-skill-portability-codex-cli-skillshare-skillport-skills-sync.md`
+   - Source: Skillshare repo, SkillPort repo, skills-sync repo, agentskills.io spec, OpenAI skills docs, gh skill announcement
+   - Scope: Three cross-agent skill management tools compared (Skillshare symlink sync, SkillPort MCP serving with progressive disclosure, skills-sync profile and drift management), Agent Skills spec overview, comparison matrix, four practical integration patterns for Codex CLI teams, enterprise governance considerations
+   - SEO targets: "codex cli cross agent skills", "skillshare codex cli", "skillport mcp codex", "agent skills portability 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **The Codex Native SDK: Embedding Rust-Powered Coding Agents Directly in Node.js Applications** — Written 2026-04-25 → `2026-04-25-codex-native-sdk-rust-napi-bindings-embed-agents-node-applications.md`
+   - Source: @codex-native/sdk npm package, codex-ts-sdk GitHub repo, OpenAI Codex SDK docs, DEV Community tutorial, napi-rs framework
+   - Scope: Native SDK architecture (napi-rs Rust FFI vs stdin/stdout IPC), custom tool registration via ThreadsafeFunction, tool interceptors, cloud tasks with best-of-N sampling, comparison matrix vs official @openai/codex-sdk, production patterns (IDP agent, multi-thread orchestration, approval gateway), limitations and version coupling
+   - SEO targets: "codex native sdk", "codex napi-rs rust bindings", "codex custom tool registration", "embed codex agent node.js"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI and Sentry MCP: Closed-Loop Error Triage and Automated Fix Pipelines** — Written 2026-04-25 → `2026-04-25-codex-cli-sentry-mcp-closed-loop-error-triage-fix-pipelines.md`
+   - Source: Sentry MCP docs, getsentry/sentry-mcp repo, Sentry Seer product page, Sentry performance triage cookbook, OpenAI MCP docs, Codex agent-approvals-security docs
+   - Scope: Sentry MCP server setup (hosted OAuth and stdio self-hosted), 16+ tool inventory, three progressive patterns (interactive TUI triage, headless single-issue codex exec, scheduled GitHub Actions batch pipeline), Seer root cause analysis integration, hooks-based audit logging, security hardening, AGENTS.md template, decision framework by severity
+   - SEO targets: "codex cli sentry mcp", "sentry mcp codex setup", "codex cli error triage automation", "sentry seer codex fix pipeline"
+
+2. ✅ **Automated Regression Hunting with Codex CLI: AI-Powered Git Bisect and Root Cause Analysis** — Written 2026-04-25 → `2026-04-25-codex-cli-automated-git-bisect-regression-hunting-root-cause-analysis.md`
+   - Source: git bisect docs, Codex CLI exec/non-interactive docs, Simon Willison agentic engineering patterns, Codex GitHub Action docs, Codex changelog April 2026
+   - Scope: Combining codex exec with git bisect run for automated regression detection, behavioural bisect without pre-written tests, AI-powered root cause analysis of identified commits, CI/CD integration via GitHub Actions, two-model cost optimisation (Spark for bisect, GPT-5.5 for analysis), profile configuration, practical recommendations
+   - SEO targets: "codex cli git bisect", "automated regression hunting codex", "codex exec bisect", "AI git bisect root cause analysis"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI for Django and FastAPI Teams: AGENTS.md Templates, Sandbox Configuration, and Python Web Development Workflows** — Written 2026-04-25 → `2026-04-25-codex-cli-django-fastapi-python-web-teams-agents-md-testing-workflows.md`
+   - Source: Django 6.0 release notes, FastAPI 0.136 release, OpenAI agent-approvals-security docs, pytest-django docs, agentsmd.net Django template
+   - Scope: AGENTS.md templates for Django 6.0 and FastAPI 0.136+, sandbox network configuration for Python web projects, permission profiles with secret file deny-read, pytest-django and async testing workflows, migration safety patterns, CI integration with codex-action, virtual environment handling, model selection for Python web tasks
+   - SEO targets: "codex cli django", "codex cli fastapi", "codex cli python web development", "codex cli AGENTS.md django template"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI for PHP and Laravel Teams: Boost MCP, Pest Workflows, and Composer Sandbox Patterns** — Written 2026-04-25 → `2026-04-25-codex-cli-php-laravel-teams-boost-mcp-pest-workflows.md`
+   - Source: Laravel 13 AI docs, Laravel Boost MCP docs, PAO agent-optimised output, PhpStorm 2026.1 MCP, Codex sandbox docs
+   - Scope: Composer proxy/sandbox configuration, Laravel Boost MCP server setup with 15+ tools, AGENTS.md template for Laravel projects, Pest testing TDD loops, PAO token reduction (93-95%), PHPStan integration, CI pipeline with codex-action, permission profiles for PHP, model selection and reasoning effort
+   - SEO targets: "codex cli php", "codex cli laravel", "laravel boost codex mcp", "codex cli composer sandbox"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **The Codex Go SDK Ecosystem: Embedding Coding Agents in Go Applications** — Written 2026-04-25 → `2026-04-25-codex-go-sdk-ecosystem-embedding-agents-in-go-applications.md`
+   - Source: godeps/codex-sdk-go pkg.go.dev, pmenglund/codex-sdk-go pkg.go.dev, fanwenlin/codex-go-sdk GitHub, ethpandaops/codex-agent-sdk-go GitHub, OpenAI SDK docs, Codex app-server blog post
+   - Scope: Four community Go SDKs compared (godeps CLI wrapper, pmenglund app-server JSON-RPC, fanwenlin hybrid, ethpandaops auto-selecting), two transport architectures (CLI stdin/stdout JSONL vs app-server JSON-RPC), practical patterns (CI pipeline agent, IDP service, approval gateway), decision framework, Unix socket support, known limitations
+   - SEO targets: "codex go sdk", "codex cli golang", "embed codex agent go", "codex app-server go sdk"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Error Recovery and Rollback Patterns for Codex CLI: Git Safety Nets for Agentic Workflows** — Written 2026-04-25 → `2026-04-25-codex-cli-error-recovery-rollback-patterns-git-safety-nets.md`
+   - Source: GitHub Issues #11626, #16784, #9203, GitButler agent-safe Git blog, DiffBack tool, Entire CLI, Simon Willison agentic patterns, HN discussion
+   - Scope: Seven recovery patterns (pre-flight stash, throwaway branch, worktree isolation, hooks-based checkpointing, DiffBack per-file review, Entire CLI session checkpointing, safe-execute wrapper), decision framework, /rewind proposal status, practical recommendations for approval modes
+   - SEO targets: "codex cli undo", "codex cli rollback", "codex cli error recovery", "git safety net coding agent"
+
+---
+
+## New Articles — Auto-Generated (2026-04-25, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Hermetic codex exec Runs: Isolation Flags, Deterministic Configuration, and Reproducible CI Pipelines** — Written 2026-04-25 → `2026-04-25-codex-exec-hermetic-runs-isolation-flags-reproducible-ci-pipelines.md`
+   - Source: v0.122.0 release notes (--ignore-user-config, --ignore-rules), CLI reference, config-basic/config-advanced docs, GitHub Action docs, best practices, v0.125.0 reasoning token reporting
+   - Scope: Complete isolation toolkit for deterministic codex exec in CI (five isolation flags, config pinning, output-schema enforcement, GitHub Actions workflow, Docker-based self-hosted runner patterns, test-outside validation, reasoning token cost attribution, common pitfalls including MCP/output-schema conflict)
+   - SEO targets: "codex exec hermetic ci", "codex cli reproducible pipeline", "codex exec ignore-user-config", "codex cli deterministic ci"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Automated Doc-Rot Detection and Repair with Codex CLI** — Written 2026-04-26 → `2026-04-26-codex-cli-doc-rot-detection-automated-documentation-repair.md`
+   - Source: DocsAlot doc-rot analysis, Overcast AI-driven documentation blog, Swimm code-coupled docs, Dagster Labs Codex documentation case study, OpenAI workflows docs
+   - Scope: Three-stage detection pipeline (static analysis, diff-scoped agent audit, weekly deep sweep), codex exec with --output-schema for structured findings, auto-fix with human review, AGENTS.md documentation policy, post_tool_use hooks for real-time drift prevention, cost management with two-tier model routing, documentation health scoring, integration with Swimm/TypeDoc/Mintlify
+   - SEO targets: "codex cli documentation automation", "codex cli doc rot detection", "automated documentation update codex", "codex exec documentation audit"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Test-Driven Development with Codex CLI: Agent-Driven Red-Green-Refactor Workflows** — Written 2026-04-26 → `2026-04-26-codex-cli-tdd-red-green-refactor-agent-driven-test-first-development.md`
+   - Source: Simon Willison agentic TDD patterns, obra/superpowers TDD skill, Alex Opoien context isolation research, OpenAI best practices docs, OpenAI hooks docs, OpenAI skills docs
+   - Scope: Why TDD matters more for agents, AGENTS.md test policy templates, Superpowers TDD skill installation and usage, context isolation via /side and subagents, PostToolUse hooks for automatic test enforcement, headless CI pipeline with phase-separated codex exec (RED→GREEN→REFACTOR), model selection per phase, common pitfalls including output-schema/MCP conflict
+   - SEO targets: "codex cli tdd", "codex cli test driven development", "codex cli red green refactor", "codex agent testing workflow"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Rapid Prototyping with Codex CLI: From Screenshot to Working Application** — Written 2026-04-26 → `2026-04-26-codex-cli-rapid-prototyping-screenshot-to-working-application.md`
+   - Source: OpenAI Codex workflows docs, responsive frontend designs use case, Figma MCP blog, GPT-5.3-Codex-Spark launch, Playwright interactive skill docs
+   - Scope: Complete screenshot-to-code workflow (image attachment methods, prompt engineering for visual fidelity, model selection for prototyping, live iteration loop with dev server, Playwright visual verification, Figma MCP integration, in-app browser, common pitfalls and mitigations)
+   - SEO targets: "codex cli screenshot to code", "codex cli rapid prototyping", "codex cli design to code", "codex cli image input prototype"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Type-Safe Agent Patterns** — Written 2026-04-26 → `2026-04-26-codex-cli-graphql-development-apollo-mcp-schema-first-workflows.md`
+   - Source: Apollo MCP Server docs, Apollo Skills blog, GraphQL Code Generator docs, Codex MCP configuration docs, mcp-graphql GitHub, Codex v0.124 release notes
+   - Scope: Apollo MCP Server setup for Codex CLI (stdio and HTTP transport), three operation exposure patterns (pre-defined, persisted queries, dynamic introspection), AGENTS.md template for schema-first projects, codegen-driven resolver workflow with post_tool_use hooks, security hardening (mutation modes, demand control, sandbox network), testing patterns, model selection by GraphQL task, common pitfalls (N+1, stale types, over-broad introspection)
+   - SEO targets: "codex cli graphql", "codex cli apollo mcp", "codex cli graphql development", "graphql mcp server codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI for Vue and Nuxt Teams: Composition API, Pinia, Vitest, and Agent-Driven Component Workflows** — Written 2026-04-26 → `2026-04-26-codex-cli-vue-nuxt-teams-composition-api-pinia-vitest-workflows.md`
+   - Source: Nuxt 4.4 docs, nuxt-skills repo (onmax/nuxt-skills), Nuxt MCP Server docs, Pinia testing docs, Vue 3.6 status report, Codex CLI features docs
+   - Scope: AGENTS.md template for Vue/Nuxt projects, config.toml sandbox and profile configuration, nuxt-skills installation and auto-discovery, Nuxt MCP server setup (HTTP transport), component generation workflow, Pinia setup-syntax store patterns with createTestingPinia, composable extraction workflow, Nuxt server route generation, auto-import awareness, post_tool_use hooks for vue-tsc/eslint, model selection table, feature development sequence diagram, common pitfalls
+   - SEO targets: "codex cli vue", "codex cli nuxt", "codex cli pinia", "codex cli vitest vue", "codex cli vue component generation"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI for Elixir and Phoenix Teams: Tidewave MCP, AGENTS.md, and Functional Agent Workflows** — Written 2026-04-26 → `2026-04-26-codex-cli-elixir-phoenix-teams-tidewave-mcp-functional-agent-workflows.md`
+   - Source: Phoenix 1.8 AGENTS.md generator, Tidewave MCP docs, Kristoffer Opsahl deterministic feedback article, Hashrocket AI-assisted Phoenix guide, Elixir Forum community discussion, GPT-5.5 launch, Codex v0.124 hooks stable
+   - Scope: Why Elixir is agent-friendly (deterministic compiler feedback, immutability, pattern matching), Phoenix 1.8 auto-generated AGENTS.md, usage_rules enrichment, Tidewave MCP setup and available tools, config.toml template for Phoenix, AGENTS.md template with Elixir conventions, agent-driven feature development workflow with Mermaid diagram, post_tool_use hooks for mix compile/credo, model selection table, subagent patterns for umbrella apps, common pitfalls (imperative patterns, LiveView lifecycle, Ecto preloading)
+   - SEO targets: "codex cli elixir", "codex cli phoenix", "codex cli tidewave mcp", "codex cli functional programming", "codex cli liveview"
+
+2. ✅ **Codex CLI for Svelte and SvelteKit Teams: Runes, Svelte MCP, and Agent-Driven Component Workflows** — Written 2026-04-26 → `2026-04-26-codex-cli-svelte-sveltekit-teams-runes-mcp-agent-driven-workflows.md`
+   - Source: Svelte 5 runes docs, Svelte MCP server docs, SvelteKit AGENTS.md, PkgPulse runes guide, OneHorizon Svelte best practices 2026, Vitest browser mode docs, GPT-5.5 launch, Codex v0.125 features
+   - Scope: Why Svelte is agent-friendly (compiler feedback, explicit runes, convention-heavy structure), AGENTS.md template for Svelte 5/SvelteKit 2, Svelte MCP server setup (remote + local), config.toml template with hooks, agent-driven component workflow with Mermaid diagram, reactive classes as state pattern, Vitest browser mode testing, model selection table, Svelte 4 to 5 migration prompts, subagent patterns, common pitfalls table
+   - SEO targets: "codex cli svelte", "codex cli sveltekit", "codex cli svelte mcp", "codex cli runes", "codex cli svelte 5"
+
+---
+
+## New Articles — Auto-Generated from Gap Analysis (2026-04-26)
+
+1. ✅ **Codex CLI for Microservices: Cross-Service Development, Multi-Repo Patterns, and Distributed Workflows** — Written 2026-04-26 → `2026-04-26-codex-cli-microservices-cross-service-development-multi-repo-patterns.md`
+   - Source: OpenAI Codex CLI features docs, GitHub issue #11956 (multi-repo support), Codex subagents docs, AGENTS.md guide, Codex changelog v0.125, microservices.io Isolarium post
+   - Scope: --add-dir multi-root sessions, hierarchical AGENTS.md for service boundaries, subagent patterns for cross-service changes, contract-first workflow, integration testing, token budget management, current limitations and workarounds
+   - SEO targets: "codex cli microservices", "codex cli multi-repo", "codex cli cross-service", "codex cli add-dir", "codex cli distributed systems"
+
+2. ✅ **Codex CLI for Kotlin and Android Teams: Android CLI, Skills, Jetpack Compose, and Agent-Driven Mobile Workflows** — Written 2026-04-26 → `2026-04-26-codex-cli-kotlin-android-teams-android-cli-skills-jetpack-compose.md`
+   - Source: Google Android CLI blog post, Android Skills docs, AGP 9.2 release notes, Kotlin 2.3.20 release, JetBrains Codex integration blog, OpenAI Codex models docs, KMP 2026 guide, Codex AGENTS.md docs
+   - Scope: AGENTS.md template for Kotlin/Android, sandbox config for Gradle builds, Android CLI + Skills integration, Jetpack Compose workflows, XML-to-Compose migration, KMP patterns, model selection table, JetBrains IDE integration, common pitfalls
+   - SEO targets: "codex cli kotlin", "codex cli android", "codex cli android studio", "codex cli jetpack compose", "codex cli android skills", "codex cli gradle"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI for Next.js Teams: App Router, Server Components, DevTools MCP, and Agent-Driven Full-Stack Workflows** — Written 2026-04-26 → `2026-04-26-codex-cli-nextjs-teams-app-router-server-components-devtools-mcp.md`
+   - Source: Next.js 16 AI agents guide, next-devtools-mcp docs, Vercel plugin docs, Next.js MCP server guide, GPT-5.5 announcement, Codex CLI features docs, Next.js 16.1 blog
+   - Scope: AGENTS.md auto-generation and enrichment for Next.js 16, next-devtools-mcp setup and available tools (get_errors, get_routes, get_page_metadata, get_server_action_by_id), config.toml profiles for Next.js, post_tool_use hooks for tsc/next lint, Server Component feature development workflow, Client Component extraction pattern, Server Actions in dedicated files, Route Handler generation, model selection table, Vercel plugin preview, common pitfalls table
+   - SEO targets: "codex cli next.js", "codex cli react server components", "codex cli app router", "codex cli next-devtools-mcp", "codex cli vercel", "codex cli nextjs agents.md"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI for C and C++ Teams: CMake, Clangd MCP, Sanitisers, and Memory-Safe Agent Workflows** — Written 2026-04-26 → `2026-04-26-codex-cli-cpp-teams-cmake-clangd-mcp-memory-safe-agent-workflows.md`
+   - Source: clangd-mcp-server docs, Clangaroo docs, C++26 InfoQ announcement, OpenAI Codex hooks docs, OpenAI config-basic docs, AGENTS.md guide, Google Sanitizers Wiki, Codex CLI features docs, Codex v0.124 changelog
+   - Scope: AGENTS.md template for C/C++ projects, config.toml profiles for C++ (gpt-5.5 and Spark), Clangd MCP server setup (nine semantic tools), Clangaroo alternative, PostToolUse hooks for incremental build verification and sanitiser enforcement, agent-driven feature development sequence diagram, model selection table by C++ task, C++26 awareness (contracts, reflection, hardened stdlib), common pitfalls table, headless CI pipeline
+   - SEO targets: "codex cli c++", "codex cli cmake", "codex cli clangd mcp", "codex cli memory safety", "codex cli sanitizer", "codex cli c++ agents.md"
