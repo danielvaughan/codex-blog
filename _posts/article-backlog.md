@@ -1290,3 +1290,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Apple Xcode 26.3 newsroom announcement, Swift 6.2 release notes, Rudrank Riyam Xcode MCP tools guide, XcodeBuildMCP by Sentry, Paul Hudson SwiftUI Agent Skill, OpenAI iOS use case docs, Swiftjective-C agentic coding guide, NDCSwift AGENTS.md template
    - Scope: Two MCP server comparison (xcrun mcpbridge 20 tools vs XcodeBuildMCP 59 tools), AGENTS.md template for Swift 6.2/iOS 26, config.toml profiles, SwiftUI agent skills installation, visual verification loop via RenderPreview, CLI-first build patterns with xcodebuild/Tuist, Xcode native vs CLI comparison, model selection table, headless CI pipeline, common pitfalls
    - SEO targets: "codex cli swift", "codex cli ios", "codex cli xcode mcp", "codex cli swiftui", "xcode agentic coding codex", "codex cli apple development"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Frontend Performance & Web Quality
+
+1. ✅ **Codex CLI for Frontend Performance Optimisation: Lighthouse MCP, Core Web Vitals Skills, and Agent-Driven Performance Budgets** — Written 2026-04-27 → `2026-04-27-codex-cli-frontend-performance-lighthouse-core-web-vitals-agent-driven-optimisation.md`
+   - Source: danielsogl/lighthouse-mcp-server, priyankark/lighthouse-mcp, addyosmani/web-quality-skills, Codex CLI v0.124 changelog, Google Core Web Vitals docs, Lighthouse CI docs, OpenAI Codex best practices, Codex GitHub Action docs
+   - Scope: Lighthouse MCP server installation (two options), web-quality skills setup (6 skills covering 150+ audits), measure-fix-verify agent loop, AGENTS.md performance template, CI pipeline with codex-action auto-fix, PostToolUse hooks for local performance gates, model selection table, Core Web Vitals 2026 thresholds, common pitfalls
+   - SEO targets: "codex cli lighthouse", "codex cli performance optimization", "codex cli core web vitals", "lighthouse mcp server codex", "codex cli performance budget", "codex cli frontend performance"
