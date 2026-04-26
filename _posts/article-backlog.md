@@ -1207,3 +1207,8 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: clangd-mcp-server docs, Clangaroo docs, C++26 InfoQ announcement, OpenAI Codex hooks docs, OpenAI config-basic docs, AGENTS.md guide, Google Sanitizers Wiki, Codex CLI features docs, Codex v0.124 changelog
    - Scope: AGENTS.md template for C/C++ projects, config.toml profiles for C++ (gpt-5.5 and Spark), Clangd MCP server setup (nine semantic tools), Clangaroo alternative, PostToolUse hooks for incremental build verification and sanitiser enforcement, agent-driven feature development sequence diagram, model selection table by C++ task, C++26 awareness (contracts, reflection, hardened stdlib), common pitfalls table, headless CI pipeline
    - SEO targets: "codex cli c++", "codex cli cmake", "codex cli clangd mcp", "codex cli memory safety", "codex cli sanitizer", "codex cli c++ agents.md"
+
+2. ✅ **JavaScript-to-TypeScript Migration with Codex CLI: Gradual Typing Strategies for Large Codebases** — Written 2026-04-26 → `2026-04-26-codex-cli-typescript-migration-javascript-gradual-typing-large-codebase.md`
+   - Source: TypeScript 6.0 announcement, OpenAI Codex CLI features docs, Codex code modernisation cookbook, Codex worktrees docs, GPT-5.5 model docs, Codex changelog April 2026
+   - Scope: Five-phase incremental migration workflow, AGENTS.md template for TS migration, config.toml profiles, parallel worktree batch conversion, JSDoc-to-TS conversion, CI validation gates, model selection table, pitfalls matrix, migration tracking
+   - SEO targets: "codex cli typescript migration", "javascript to typescript codex", "codex cli refactoring", "ai typescript migration", "codex cli gradual typing"
