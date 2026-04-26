@@ -1223,3 +1223,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: SigNoz Codex monitoring docs, openai/codex PR #2103, OpenAI advanced config docs, VictoriaMetrics vibe-coding observability, Grafana Cloud Codex integration, base14 Scout coding agent observability
    - Scope: OTel config (OTLP HTTP/gRPC), event schema (6 event types), 5-way token attribution, tool-decision audit trail, Grafana dashboards, sampling strategies, prompt redaction, production collector pipeline, agent observability comparison matrix
    - SEO targets: "codex cli opentelemetry", "codex cli monitoring", "codex cli observability", "coding agent telemetry", "codex cli token tracking"
+
+### Serverless & Cloud Functions
+
+1. ✅ **Codex CLI for Serverless Teams: AWS Lambda, SAM, CDK, and Agent Plugin Workflows** — Written 2026-04-26 → `2026-04-26-codex-cli-serverless-teams-aws-lambda-sam-cdk-agent-plugin-workflows.md`
+   - Source: awslabs/agent-plugins repo, AWS serverless agent plugin announcement, Codex CLI changelog v0.124/v0.125, OpenAI config docs, SAM CLI docs
+   - Scope: AGENTS.md template for serverless projects, config.toml sandbox settings for SAM local, AWS Serverless Agent Plugin installation via marketplace.json, Lambda scaffolding workflows, CDK stack generation, cold start optimisation, Step Functions orchestration, headless CI review, model selection table, common pitfalls
+   - SEO targets: "codex cli aws lambda", "codex cli serverless", "codex cli SAM", "codex cli CDK", "codex cli aws agent plugin"
