@@ -1257,3 +1257,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Storybook 10.3 MCP blog post, Storybook MCP server docs, Chromatic MCP docs, Codex CLI hooks docs, Codex CLI features docs, OpenAI models docs
    - Scope: Storybook MCP addon setup for Codex CLI (HTTP transport), three toolsets (docs, development, testing), AGENTS.md template for component-driven development, agent-driven component workflow with Mermaid sequence diagram, PostToolUse hooks for story enforcement, Chromatic remote MCP publishing, composition for multiple design systems, model selection table, headless story generation pipeline, common pitfalls
    - SEO targets: "codex cli storybook", "codex cli storybook mcp", "codex cli component development", "storybook mcp agent", "codex cli design system", "codex cli story generation"
+
+---
+
+## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
+
+### Open Source Maintainer Workflows
+
+1. ✅ **Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Contributor Automation at Scale** — Written 2026-04-26 → `2026-04-26-codex-cli-open-source-maintainers-triage-review-automation.md`
+   - Source: Codex for Open Source programme, GitHub integration docs, WordPress/Drupal maintainer assessment, OpenAI best practices, codex-action@v1 docs
+   - Scope: Five progressive maintainer workflows (issue triage, PR review, draft patch generation, contributor onboarding, release engineering), AGENTS.md triage/review templates, codex exec batch triage scripts, minimum control framework, Codex for Open Source programme details, anti-patterns and decision framework
+   - SEO targets: "codex cli open source maintainer", "codex cli issue triage", "codex for open source programme", "codex cli pr review automation", "codex cli contributor onboarding"
