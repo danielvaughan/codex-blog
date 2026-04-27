@@ -1384,3 +1384,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Codex subagents docs, config-reference docs, config-sample docs, config-advanced docs, AGENTS.md guide, Frank's Wiki multi-agent patterns, Simon Willison subagents overview, Codex CLI changelog v0.124/v0.125
    - Scope: Custom agent TOML file format (required/optional fields), file discovery from ~/.codex/agents/ and .codex/agents/, practical examples (reviewer, security auditor, scout, test writer, docs researcher), config.toml registration, orchestration flow with Mermaid sequence diagram, sandbox inheritance and escalation rules, CSV batch processing, design principles, comparison with AGENTS.md, mature project structure layout
    - SEO targets: "codex cli custom agent", "codex cli agent definition toml", "codex cli subagent configuration", "codex cli multi-agent setup", "codex cli reviewer agent", "codex cli agent roles"
+
+### Azure OpenAI Enterprise Deployment
+
+1. ✅ **Codex CLI with Azure OpenAI and Microsoft Foundry: Enterprise Agent Deployment on Azure Infrastructure** — Written 2026-04-27 → `2026-04-27-codex-cli-azure-openai-foundry-enterprise-deployment-compliance.md`
+   - Source: Microsoft Learn Codex+Azure docs, Azure OpenAI config-advanced docs, OpenAI Codex changelog, Azure AI model catalog, GitHub issue #10665, All Things Azure blog
+   - Scope: Azure OpenAI provider configuration (config.toml, env_key, wire_api, retries), available Codex-optimised models on Azure (gpt-5.3-codex through gpt-5-mini), Foundry deployment steps, Azure Pipelines YAML integration, VS Code extension with Azure backend, multi-model cost optimisation patterns, Private Link architecture with Mermaid sequence diagram, decision framework (Azure vs direct API), known limitations (no Entra ID, no GPT-5.5, no native Azure Repos), troubleshooting reference
+   - SEO targets: "codex cli azure openai", "codex cli microsoft foundry", "codex cli azure config.toml", "codex cli enterprise azure", "codex cli azure pipelines", "codex cli azure compliance"
