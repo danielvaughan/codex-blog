@@ -1348,3 +1348,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI gpt-image-2 announcement, Codex CLI features docs, Codex frontend design use case, Figma MCP integration blog, gpt-image-2 API docs, imagegen skill definition
    - Scope: gpt-image-2 vs gpt-image-1.5 comparison, $imagegen skill invocation and configuration, screenshot-to-code prototyping workflow, asset batch generation with codex exec, Figma MCP round-trip, Playwright visual verification, cost management, limitations
    - SEO targets: "codex cli image generation", "codex cli gpt-image-2", "codex cli frontend design", "codex imagegen skill", "codex cli visual prototyping"
+
+### Competitive Landscape Updates
+
+1. ✅ **The Coding Agent CLI Landscape in Late April 2026: GPT-5.5, Five-Way Competition, and What Changed This Month** — Written 2026-04-27 → `2026-04-27-coding-agent-cli-landscape-late-april-2026-gpt-5-5-five-way-race.md`
+   - Source: OpenAI GPT-5.5 launch, Codex CLI changelog v0.119–v0.125, Anthropic Claude Code changelogs v2.1.69–v2.1.101, Google Gemini CLI v0.38.0 release notes, xAI Grok Build announcement, GitHub Copilot pricing restructure April 20, JetBrains developer survey, Morphllm Terminal-Bench 2.0, SWE-Bench 2026 leaderboard
+   - Scope: Five foundation-lab coding agent CLIs compared (Codex CLI, Claude Code, Gemini CLI, Grok Build, GitHub Copilot), GPT-5.5 impact, Claude Code Ultraplan and trust moat, Gemini CLI Chapters and context compression, Grok Build parallel agents, Copilot pricing changes, practical guidance for Codex CLI practitioners
+   - SEO targets: "coding agent cli comparison 2026", "codex cli vs claude code", "gpt 5.5 codex cli", "grok build coding agent", "coding agent landscape april 2026"
