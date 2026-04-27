@@ -1402,3 +1402,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: codex.nvim, codex-cli.nvim, sidekick.nvim, codex-cli-farm, ntm, Termdock terminal comparison, community tmux+worktree patterns
    - Scope: Three-layer terminal-native stack (emulator, multiplexer, editor+agent), four Neovim plugins for Codex CLI integration, tmux session orchestration (codex-cli-farm, ntm), parallel worktree patterns, reference layout scripts, terminal emulator comparison for AI CLI work, configuration for the full stack
    - SEO targets: "codex cli neovim", "codex cli tmux workflow", "codex.nvim plugin", "codex cli terminal workflow", "tmux codex parallel agents", "neovim ai coding agent"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Database & Schema Management
+
+1. ✅ **Database Schema Migrations with Codex CLI: Atlas Skills, ORM Workflows, and Agent-Driven Migration Pipelines** — Written 2026-04-27 → `2026-04-27-codex-cli-database-schema-migrations-atlas-skill-orm-workflows.md`
+   - Source: Atlas agent skills docs, mcp-atlas server, Postgres MCP server, Codex CLI skills docs, Codex CLI features docs, Drizzle Kit docs, Prisma docs, Codex best practices, Codex models docs, Greycloak Postgres MCP guide
+   - Scope: Atlas agent skill installation and configuration, Postgres MCP server setup for live schema verification, mcp-atlas MCP server as alternative, ORM-specific workflows (Drizzle, Prisma, SQLAlchemy, Django), AGENTS.md migration guidance template, PostToolUse hooks for migration lint/validation gates, headless CI pipeline with codex exec, model selection for migration tasks, common pitfalls
+   - SEO targets: "codex cli database migration", "codex cli atlas skill", "codex cli schema migration", "codex cli postgres mcp", "codex cli drizzle migration", "codex cli prisma migration"
