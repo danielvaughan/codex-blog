@@ -1435,3 +1435,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI managed configuration docs, admin setup docs, governance docs, config-basic docs, config-reference docs, agent-approvals-security docs, Codex CLI changelog v0.124/v0.125
    - Scope: Complete enterprise managed configuration reference — requirements.toml vs managed_config.toml, three delivery mechanisms (cloud, MDM, filesystem), precedence rules, approval/sandbox/web-search constraints, deny-read filesystem policies, managed hooks enforcement, command rule enforcement, MCP server allowlists, governance APIs, OTEL integration, practical deployment recommendations
    - SEO targets: "codex cli enterprise configuration", "codex cli requirements.toml", "codex cli managed configuration", "codex cli MDM deployment", "codex cli admin policies"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Evaluation & Optimisation Workflows
+
+1. ✅ **Scored Improvement Loops with Codex CLI: Eval-Driven Iterative Problem-Solving** — Written 2026-04-27 → `2026-04-27-codex-cli-scored-improvement-loops-eval-driven-iterative-problem-solving.md`
+   - Source: OpenAI "Iterate on difficult problems" use case, eval-skills blog post, Codex best practices, non-interactive mode docs, Codex changelog v0.125, LLM-as-judge guides, PLANS.md cookbook, Codex models docs
+   - Scope: Complete scored improvement loop pattern — evaluation harness design (deterministic + LLM-as-judge), four-category success model, AGENTS.md setup, config profiles, starter prompt, JSONL telemetry tracking, common pitfalls, headless CI integration, model selection for scored loops
+   - SEO targets: "codex cli scored improvement loop", "codex cli eval driven development", "codex cli LLM as judge", "codex cli iterative optimisation", "codex cli evaluation script"
