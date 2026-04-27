@@ -1391,3 +1391,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Microsoft Learn Codex+Azure docs, Azure OpenAI config-advanced docs, OpenAI Codex changelog, Azure AI model catalog, GitHub issue #10665, All Things Azure blog
    - Scope: Azure OpenAI provider configuration (config.toml, env_key, wire_api, retries), available Codex-optimised models on Azure (gpt-5.3-codex through gpt-5-mini), Foundry deployment steps, Azure Pipelines YAML integration, VS Code extension with Azure backend, multi-model cost optimisation patterns, Private Link architecture with Mermaid sequence diagram, decision framework (Azure vs direct API), known limitations (no Entra ID, no GPT-5.5, no native Azure Repos), troubleshooting reference
    - SEO targets: "codex cli azure openai", "codex cli microsoft foundry", "codex cli azure config.toml", "codex cli enterprise azure", "codex cli azure pipelines", "codex cli azure compliance"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Terminal-Native Developer Workflows
+
+1. ✅ **Terminal-Native Codex CLI Workflows: Neovim, tmux, and the Multiplexer-Driven Development Stack** — Written 2026-04-27 → `2026-04-27-codex-cli-terminal-native-workflow-neovim-tmux-multiplexer-integration.md`
+   - Source: codex.nvim, codex-cli.nvim, sidekick.nvim, codex-cli-farm, ntm, Termdock terminal comparison, community tmux+worktree patterns
+   - Scope: Three-layer terminal-native stack (emulator, multiplexer, editor+agent), four Neovim plugins for Codex CLI integration, tmux session orchestration (codex-cli-farm, ntm), parallel worktree patterns, reference layout scripts, terminal emulator comparison for AI CLI work, configuration for the full stack
+   - SEO targets: "codex cli neovim", "codex cli tmux workflow", "codex.nvim plugin", "codex cli terminal workflow", "tmux codex parallel agents", "neovim ai coding agent"
