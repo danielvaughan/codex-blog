@@ -1341,3 +1341,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: GitHub spec-kit (80K+ stars), gotalab/cc-sdd (12K stars), shenli/codex-spec (8K stars), Martin Fowler SDD analysis (Oct 2025), OpenAI best practices docs, Codex CLI hooks/skills docs
    - Scope: Three dominant SDD tools compared for Codex CLI practitioners — setup instructions, workflow phases, spec formats, validation capabilities, strengths, friction points, decision framework, combination with Codex CLI primitives (AGENTS.md, plan mode, hooks), Martin Fowler's selective-use warning
    - SEO targets: "codex cli spec-driven development", "spec-kit codex cli", "cc-sdd codex", "codex-spec tool", "sdd tooling comparison codex"
+
+### Image Generation & Visual Development
+
+1. ✅ **Image Generation in Codex CLI: gpt-image-2, the $imagegen Skill, and Visual Development Workflows** — Written 2026-04-27 → `2026-04-27-codex-cli-image-generation-gpt-image-2-visual-development-workflows.md`
+   - Source: OpenAI gpt-image-2 announcement, Codex CLI features docs, Codex frontend design use case, Figma MCP integration blog, gpt-image-2 API docs, imagegen skill definition
+   - Scope: gpt-image-2 vs gpt-image-1.5 comparison, $imagegen skill invocation and configuration, screenshot-to-code prototyping workflow, asset batch generation with codex exec, Figma MCP round-trip, Playwright visual verification, cost management, limitations
+   - SEO targets: "codex cli image generation", "codex cli gpt-image-2", "codex cli frontend design", "codex imagegen skill", "codex cli visual prototyping"
