@@ -1312,3 +1312,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: mcp-unity (CoderGamester), unity-mcp-server (AnkleBreaker), Unity-MCP (IvanMurzak), godot-mcp (Coding-Solo), GodotIQ, GDAI MCP, Godot MCP Pro, UnityAgentClient (ACP), GodotPrompter skills, Godogen autonomous game gen, OpenAI Codex MCP docs, Codex subagents docs
    - Scope: Unity MCP server comparison (3 implementations, 30-268 tools), Godot MCP server comparison (4 implementations), Agent Client Protocol bridge via UnityAgentClient, AGENTS.md templates for Unity C# and Godot GDScript, GodotPrompter 44-skill framework, Godogen autonomous game generation with frame-grounded self-repair, config profiles for game tasks, custom agent definitions for gameplay-reviewer and level-builder, PostToolUse hooks for build verification, model selection table, common pitfalls
    - SEO targets: "codex cli game development", "codex cli unity", "codex cli godot", "unity mcp server codex", "godot mcp codex", "codex cli game engine", "codex cli bevy"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Developer Experience & Onboarding
+
+1. ✅ **Codebase Onboarding with Codex CLI: Using AI Agents to Ramp Up on Unfamiliar Projects** — Written 2026-04-27 → `2026-04-27-codex-cli-codebase-onboarding-developer-ramp-up-unfamiliar-projects.md`
+   - Source: OpenAI codebase-onboarding use case docs, best practices docs, CLI features docs, GitNexus MCP knowledge graph, Understand-Anything skill, community codebase-onboarding skill
+   - Scope: Three-phase onboarding workflow (reconnaissance, guided exploration, first contribution), AGENTS.md encoding for onboarding, codebase-onboarding skill, GitNexus MCP knowledge graph integration, Understand-Anything interactive dashboards, config profiles for read-heavy exploration, workflow patterns (ADR extraction, dependency audit, test coverage map, multi-service exploration), anti-patterns, onboarding script
+   - SEO targets: "codex cli codebase onboarding", "codex cli understand codebase", "codex cli new developer", "codex cli repository exploration", "codex cli architecture understanding"
