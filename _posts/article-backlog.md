@@ -1424,3 +1424,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI codex exec docs, Lefthook Git hooks manager, Steve Kinney self-testing AI agents course, Conventional Commits spec, OpenAI prompt caching 201 cookbook
    - Scope: Three Git hook implementations using codex exec (pre-commit semantic review with --output-schema, commit-msg Conventional Commits generation, pre-push deep validation), Lefthook YAML integration, blocking --no-verify bypass via Codex internal hooks, performance tuning with codex-spark, cost analysis
    - SEO targets: "codex cli git hooks", "codex exec pre-commit", "codex cli commit message generation", "codex cli pre-push review", "lefthook codex cli"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Enterprise Configuration
+
+1. ✅ **Codex CLI Enterprise Managed Configuration: requirements.toml, managed_config.toml, and Admin-Enforced Policies** — Written 2026-04-27 → `2026-04-27-codex-cli-enterprise-managed-configuration-requirements-toml-admin-policies.md`
+   - Source: OpenAI managed configuration docs, admin setup docs, governance docs, config-basic docs, config-reference docs, agent-approvals-security docs, Codex CLI changelog v0.124/v0.125
+   - Scope: Complete enterprise managed configuration reference — requirements.toml vs managed_config.toml, three delivery mechanisms (cloud, MDM, filesystem), precedence rules, approval/sandbox/web-search constraints, deny-read filesystem policies, managed hooks enforcement, command rule enforcement, MCP server allowlists, governance APIs, OTEL integration, practical deployment recommendations
+   - SEO targets: "codex cli enterprise configuration", "codex cli requirements.toml", "codex cli managed configuration", "codex cli MDM deployment", "codex cli admin policies"
