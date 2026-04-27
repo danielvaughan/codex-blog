@@ -1271,6 +1271,17 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ---
 
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Codebase Navigation & Search
+
+1. ✅ **Semantic Code Search for Codex CLI: CocoIndex, SymDex, and GitNexus for Better Agent Navigation** — Written 2026-04-27 → `2026-04-27-codex-cli-semantic-code-search-cocoindex-symdex-gitnexus-codebase-navigation.md`
+   - Source: CocoIndex Code GitHub repo (1.5K stars), SymDex GitHub repo (174 stars), GitNexus MarkTechPost coverage (April 24 2026), GitHub Issues #5181 and #609, Amazing Agent Race (arXiv:2604.10261)
+   - Scope: Three semantic code search tools compared for Codex CLI (CocoIndex AST-based vector search, SymDex symbolic indexing with call graphs, GitNexus knowledge-graph structural analysis), config.toml MCP setup for each, AGENTS.md search strategy template, layered approach for large codebases, performance and cost comparison, schema bloat considerations, native semantic search roadmap status
+   - SEO targets: "codex cli semantic code search", "codex cli codebase navigation", "cocoindex codex mcp", "symdex codex cli", "gitnexus codex mcp", "codex cli code indexing"
+
+---
+
 ## New Articles — Auto-Generated (2026-04-26, Hourly Scan)
 
 ### Market Analysis & Adoption Data
