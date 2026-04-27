@@ -1323,3 +1323,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI codebase-onboarding use case docs, best practices docs, CLI features docs, GitNexus MCP knowledge graph, Understand-Anything skill, community codebase-onboarding skill
    - Scope: Three-phase onboarding workflow (reconnaissance, guided exploration, first contribution), AGENTS.md encoding for onboarding, codebase-onboarding skill, GitNexus MCP knowledge graph integration, Understand-Anything interactive dashboards, config profiles for read-heavy exploration, workflow patterns (ADR extraction, dependency audit, test coverage map, multi-service exploration), anti-patterns, onboarding script
    - SEO targets: "codex cli codebase onboarding", "codex cli understand codebase", "codex cli new developer", "codex cli repository exploration", "codex cli architecture understanding"
+
+### Spec-Driven Development Tooling
+
+1. ✅ **SDD Tooling for Codex CLI: spec-kit, cc-sdd, and codex-spec Compared** — Written 2026-04-27 → `2026-04-27-spec-driven-development-tooling-codex-cli-spec-kit-cc-sdd-codex-spec.md`
+   - Source: GitHub spec-kit (80K+ stars), gotalab/cc-sdd (12K stars), shenli/codex-spec (8K stars), Martin Fowler SDD analysis (Oct 2025), OpenAI best practices docs, Codex CLI hooks/skills docs
+   - Scope: Three dominant SDD tools compared for Codex CLI practitioners — setup instructions, workflow phases, spec formats, validation capabilities, strengths, friction points, decision framework, combination with Codex CLI primitives (AGENTS.md, plan mode, hooks), Martin Fowler's selective-use warning
+   - SEO targets: "codex cli spec-driven development", "spec-kit codex cli", "cc-sdd codex", "codex-spec tool", "sdd tooling comparison codex"
