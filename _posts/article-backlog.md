@@ -1301,3 +1301,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: danielsogl/lighthouse-mcp-server, priyankark/lighthouse-mcp, addyosmani/web-quality-skills, Codex CLI v0.124 changelog, Google Core Web Vitals docs, Lighthouse CI docs, OpenAI Codex best practices, Codex GitHub Action docs
    - Scope: Lighthouse MCP server installation (two options), web-quality skills setup (6 skills covering 150+ audits), measure-fix-verify agent loop, AGENTS.md performance template, CI pipeline with codex-action auto-fix, PostToolUse hooks for local performance gates, model selection table, Core Web Vitals 2026 thresholds, common pitfalls
    - SEO targets: "codex cli lighthouse", "codex cli performance optimization", "codex cli core web vitals", "lighthouse mcp server codex", "codex cli performance budget", "codex cli frontend performance"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Game Development
+
+1. ✅ **Codex CLI for Game Development Teams: Unity MCP, Godot MCP, and Agent-Driven Game Workflows** — Written 2026-04-27 → `2026-04-27-codex-cli-game-development-unity-godot-mcp-agent-driven-workflows.md`
+   - Source: mcp-unity (CoderGamester), unity-mcp-server (AnkleBreaker), Unity-MCP (IvanMurzak), godot-mcp (Coding-Solo), GodotIQ, GDAI MCP, Godot MCP Pro, UnityAgentClient (ACP), GodotPrompter skills, Godogen autonomous game gen, OpenAI Codex MCP docs, Codex subagents docs
+   - Scope: Unity MCP server comparison (3 implementations, 30-268 tools), Godot MCP server comparison (4 implementations), Agent Client Protocol bridge via UnityAgentClient, AGENTS.md templates for Unity C# and Godot GDScript, GodotPrompter 44-skill framework, Godogen autonomous game generation with frame-grounded self-repair, config profiles for game tasks, custom agent definitions for gameplay-reviewer and level-builder, PostToolUse hooks for build verification, model selection table, common pitfalls
+   - SEO targets: "codex cli game development", "codex cli unity", "codex cli godot", "unity mcp server codex", "godot mcp codex", "codex cli game engine", "codex cli bevy"
