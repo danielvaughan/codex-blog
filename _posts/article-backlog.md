@@ -1373,3 +1373,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Better i18n MCP server docs, IntlPull MCP server docs, react-i18next/next-intl framework docs, Codex CLI changelog, GitHub Actions codex-action@v1 docs
    - Scope: Four-phase i18n workflow (extract, translate, integrate, validate), Better i18n MCP config for Codex, IntlPull MCP config, AST-driven string extraction, AGENTS.md i18n policy template, codex exec batch translation with --output-schema, PostToolUse hooks for i18n validation, framework-specific patterns (react-i18next, next-intl), config.toml i18n profile, model selection table, CI pipeline with codex-action@v1, common pitfalls
    - SEO targets: "codex cli i18n", "codex cli internationalization", "codex cli translation mcp", "codex cli localization automation", "codex cli react-i18next", "codex cli next-intl"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Custom Agent Configuration
+
+1. ✅ **Codex CLI Custom Agent Definitions: Building Specialised Subagents with TOML Configuration** — Written 2026-04-27 → `2026-04-27-codex-cli-custom-agent-definitions-toml-specialised-subagents.md`
+   - Source: Codex subagents docs, config-reference docs, config-sample docs, config-advanced docs, AGENTS.md guide, Frank's Wiki multi-agent patterns, Simon Willison subagents overview, Codex CLI changelog v0.124/v0.125
+   - Scope: Custom agent TOML file format (required/optional fields), file discovery from ~/.codex/agents/ and .codex/agents/, practical examples (reviewer, security auditor, scout, test writer, docs researcher), config.toml registration, orchestration flow with Mermaid sequence diagram, sandbox inheritance and escalation rules, CSV batch processing, design principles, comparison with AGENTS.md, mature project structure layout
+   - SEO targets: "codex cli custom agent", "codex cli agent definition toml", "codex cli subagent configuration", "codex cli multi-agent setup", "codex cli reviewer agent", "codex cli agent roles"
