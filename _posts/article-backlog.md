@@ -1355,3 +1355,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI GPT-5.5 launch, Codex CLI changelog v0.119–v0.125, Anthropic Claude Code changelogs v2.1.69–v2.1.101, Google Gemini CLI v0.38.0 release notes, xAI Grok Build announcement, GitHub Copilot pricing restructure April 20, JetBrains developer survey, Morphllm Terminal-Bench 2.0, SWE-Bench 2026 leaderboard
    - Scope: Five foundation-lab coding agent CLIs compared (Codex CLI, Claude Code, Gemini CLI, Grok Build, GitHub Copilot), GPT-5.5 impact, Claude Code Ultraplan and trust moat, Gemini CLI Chapters and context compression, Grok Build parallel agents, Copilot pricing changes, practical guidance for Codex CLI practitioners
    - SEO targets: "coding agent cli comparison 2026", "codex cli vs claude code", "gpt 5.5 codex cli", "grok build coding agent", "coding agent landscape april 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Cross-Platform Mobile Development
+
+1. ✅ **Codex CLI for Flutter and Dart Teams: MCP Server, DCM, and Agent-Driven Cross-Platform Development** — Written 2026-04-27 → `2026-04-27-codex-cli-flutter-dart-teams-mcp-server-dcm-cross-platform-agent-workflows.md`
+   - Source: Dart and Flutter MCP server docs, DCM MCP server docs, codex_cli_sdk pub.dev, Flutter 3.41 release notes, Codex CLI changelog v0.124/v0.125, Very Good Ventures MCP guide
+   - Scope: Official Dart MCP server setup (analyser, formatter, test runner, pub.dev search, runtime introspection), DCM MCP for code quality metrics, AGENTS.md template for Flutter projects, config.toml profiles with sandbox and deny-read for signing keys, PostToolUse hooks for analyse/format/build_runner, widget testing patterns, model selection table, codex_cli_sdk Dart package, headless CI pipeline, common pitfalls
+   - SEO targets: "codex cli flutter", "codex cli dart", "codex cli dart mcp server", "codex cli flutter development", "codex cli widget testing", "codex cli cross-platform mobile"
