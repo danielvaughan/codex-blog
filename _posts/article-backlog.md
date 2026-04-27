@@ -1413,3 +1413,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Atlas agent skills docs, mcp-atlas server, Postgres MCP server, Codex CLI skills docs, Codex CLI features docs, Drizzle Kit docs, Prisma docs, Codex best practices, Codex models docs, Greycloak Postgres MCP guide
    - Scope: Atlas agent skill installation and configuration, Postgres MCP server setup for live schema verification, mcp-atlas MCP server as alternative, ORM-specific workflows (Drizzle, Prisma, SQLAlchemy, Django), AGENTS.md migration guidance template, PostToolUse hooks for migration lint/validation gates, headless CI pipeline with codex exec, model selection for migration tasks, common pitfalls
    - SEO targets: "codex cli database migration", "codex cli atlas skill", "codex cli schema migration", "codex cli postgres mcp", "codex cli drizzle migration", "codex cli prisma migration"
+
+---
+
+## New Articles — Auto-Generated (2026-04-27, Hourly Scan)
+
+### Local Development Automation
+
+1. ✅ **Git Hooks Powered by Codex CLI: Pre-Commit Review, Commit Message Generation, and Pre-Push Validation** — Written 2026-04-27 → `2026-04-27-codex-cli-git-hooks-pre-commit-review-commit-msg-pre-push-validation.md`
+   - Source: OpenAI codex exec docs, Lefthook Git hooks manager, Steve Kinney self-testing AI agents course, Conventional Commits spec, OpenAI prompt caching 201 cookbook
+   - Scope: Three Git hook implementations using codex exec (pre-commit semantic review with --output-schema, commit-msg Conventional Commits generation, pre-push deep validation), Lefthook YAML integration, blocking --no-verify bypass via Codex internal hooks, performance tuning with codex-spark, cost analysis
+   - SEO targets: "codex cli git hooks", "codex exec pre-commit", "codex cli commit message generation", "codex cli pre-push review", "lefthook codex cli"
