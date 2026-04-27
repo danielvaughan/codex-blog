@@ -10,15 +10,9 @@ tags: ["codex-cli", "codebase-onboarding", "developer-experience", "AGENTS.md", 
 
 ---
 
-Every developer knows the feeling: you join a new team on Monday, clone a repository with 800 files across 40 directories, and spend the next fortnight piecing together how it all fits. Traditional onboarding — reading READMEs, grepping for entry points, asking colleagues — works, but it scales poorly and relies on tribal knowledge that may not be documented at all.
+Every developer knows the feeling: you join a new team, clone a repository with 800 files across 40 directories, and spend the next fortnight piecing together how it all fits. Traditional onboarding — reading READMEs, grepping for entry points, asking colleagues — works, but it scales poorly and relies on tribal knowledge that may not be documented.
 
-Codex CLI turns codebase onboarding from a passive reading exercise into an interactive, agent-assisted exploration. Instead of scanning files top-to-bottom, you ask targeted questions, trace request flows, and build mental models in minutes rather than days[^1]. This article covers the practical patterns, tools, and configuration that make that possible in April 2026.
-
-## Why Agents Change the Onboarding Equation
-
-The core bottleneck in onboarding is not reading speed — it is knowing *what* to read and *in what order*. A senior developer who already knows the codebase would tell you "start with `cmd/server/main.go`, then look at `internal/router/`, then check how middleware chains are composed." That guided tour is exactly what Codex CLI provides when pointed at a repository[^1].
-
-GPT-5.5, Codex CLI's default model since April 2026, brings a 400K-token context window in Codex sessions[^2]. For most repositories, that is enough to hold the entire directory structure, key configuration files, and several critical source files simultaneously — enabling whole-codebase reasoning that was impractical with smaller context windows.
+Codex CLI turns codebase onboarding from a passive reading exercise into an interactive, agent-assisted exploration[^1]. GPT-5.5's 400K-token context window in Codex sessions[^2] is enough to hold the entire directory structure, key configuration files, and several critical source files simultaneously — enabling whole-codebase reasoning that was impractical with smaller context windows. The core bottleneck in onboarding is knowing *what* to read and *in what order*; Codex provides exactly that guided tour[^1].
 
 ## The Three-Phase Onboarding Workflow
 
@@ -136,19 +130,7 @@ Entry point: `cmd/server/main.go` → `internal/server/server.go`.
   subscribers requires updating `events/registry.go`
 ```
 
-OpenAI's best practices are clear: "a short, accurate AGENTS.md is more useful than a long file full of vague rules"[^3]. Keep it under 500 lines and update it when Codex makes the same mistake twice — ask for a retrospective and fold the lesson back into the file[^3].
-
-For monorepos, use hierarchical AGENTS.md files. Codex reads the nearest file in the directory tree, so each subdirectory can carry its own context[^6]:
-
-```
-repo/
-├── AGENTS.md              # Global conventions
-├── services/
-│   ├── payments/
-│   │   └── AGENTS.md      # Payment-specific guidance
-│   └── notifications/
-│       └── AGENTS.md      # Notification-specific guidance
-```
+OpenAI's best practices are clear: "a short, accurate AGENTS.md is more useful than a long file full of vague rules"[^3]. Update it when Codex makes the same mistake twice — ask for a retrospective and fold the lesson back in[^3]. For monorepos, use hierarchical AGENTS.md files; Codex reads the nearest file in the directory tree, so each subdirectory carries its own context[^6].
 
 ## Onboarding Skills and MCP Tools
 
@@ -199,100 +181,36 @@ GitNexus returns a confidence-scored blast radius in a single tool call, rather 
 
 ### Understand-Anything: Interactive Dashboards
 
-The Understand-Anything skill takes a different approach — it analyses your codebase with a multi-agent pipeline, builds a JSON knowledge graph, and serves an interactive React dashboard where you can visually explore the architecture[^9]. The `/understand-onboard` command generates a guided onboarding tour that can be handed directly to new team members[^9].
+The Understand-Anything skill analyses your codebase with a multi-agent pipeline, builds a JSON knowledge graph, and serves an interactive React dashboard[^9]. The `/understand-onboard` command generates a guided onboarding tour that can be handed directly to new team members[^9].
 
 ## Configuration for Onboarding Sessions
 
-Onboarding sessions are read-heavy and exploration-focused. Configure Codex accordingly:
+Onboarding sessions are read-heavy. Configure Codex accordingly:
 
 ```toml
 # ~/.codex/config.toml — onboarding profile
-
 model = "gpt-5.5"
 approval_policy = "unless-allow-listed"
-
-[history]
-persistence = "across-sessions"
 
 [reasoning]
 effort = "medium"
 ```
 
-Use `medium` reasoning effort for exploration — it provides good analysis without the token overhead of `high` or `xhigh`, keeping costs manageable during the learning phase[^10]. Reserve `high` effort for when you are tracing subtle bugs or complex state transitions.
-
-For read-only exploration where you want zero risk of accidental changes:
+Use `medium` reasoning effort — it provides good analysis without the token overhead of `high` or `xhigh`[^10]. For zero-risk exploration, use the `read-only` sandbox mode[^11]:
 
 ```bash
 codex --sandbox read-only "Explain the authentication flow in this repo"
 ```
 
-The `read-only` sandbox mode prevents Codex from writing files or executing commands, making it safe to explore freely[^11].
-
-## Onboarding Workflow Patterns
-
-### The Architecture Decision Record (ADR) Extraction
-
-Many projects have architectural decisions buried in pull request discussions and commit messages. Use Codex to surface them:
-
-```bash
-codex "Scan the git log for the last 6 months. Identify architectural
-decisions — framework choices, pattern changes, library migrations.
-Produce a summary in ADR format (Context, Decision, Consequences)."
-```
-
-### The Dependency Audit
-
-Before writing any code, understand what you are building on:
-
-```bash
-codex "Audit the project's dependencies. For each major dependency,
-explain: what it does, why it was likely chosen, whether it's actively
-maintained, and any known security advisories."
-```
-
-### The Test Coverage Map
-
-Understanding what is tested — and what is not — tells you where to be cautious:
-
-```bash
-codex "Run the test suite and analyse coverage. Identify the three
-least-tested areas of the codebase and explain what risks that creates."
-```
-
-### The Multi-Service Exploration
-
-For microservice architectures, use `--add-dir` to explore across service boundaries[^4]:
-
-```bash
-codex --cd ./services/api-gateway \
-      --add-dir ./services/user-service \
-      --add-dir ./services/order-service \
-      "How does user authentication flow across these three services?"
-```
-
-## Measuring Onboarding Effectiveness
-
-Track onboarding quality with concrete metrics:
-
-```mermaid
-flowchart LR
-    A[Time to First PR] --> B[Onboarding Quality]
-    C[Questions Asked in Slack] --> B
-    D[Rework on First 5 PRs] --> B
-    E[AGENTS.md Update Frequency] --> B
-```
-
-Teams using agent-assisted onboarding typically report halving time-to-first-PR compared to traditional approaches[^12]. The key insight is that Codex does not replace human onboarding — it handles the mechanical exploration so that conversations with colleagues focus on *why* decisions were made rather than *where* things are.
-
 ## Anti-Patterns to Avoid
 
-**Trusting summaries blindly.** Codex may occasionally miss nuance in complex codebases. Verify architectural claims by reading the actual files it references. Use `@` mentions to pull specific files into context and cross-check[^3].
+**Trusting summaries blindly.** Verify architectural claims by reading the actual files Codex references[^3].
 
-**Skipping AGENTS.md.** Without project-specific guidance, Codex falls back to generic patterns. Even a 20-line AGENTS.md dramatically improves onboarding quality for subsequent developers[^6].
+**Skipping AGENTS.md.** Even a 20-line AGENTS.md dramatically improves onboarding for subsequent developers[^6].
 
-**Over-scoping exploration prompts.** "Explain everything about this repo" produces vague output. Scope prompts to specific features, flows, or subsystems for actionable results[^1].
+**Over-scoping prompts.** "Explain everything about this repo" produces vague output. Scope to specific features or flows[^1].
 
-**Ignoring the token budget.** Even with GPT-5.5's 400K-token Codex context, large monorepos can exceed it. Use `--cd` and `@` mentions to focus context on the relevant subsystem rather than loading everything[^2].
+**Ignoring the token budget.** Use `--cd` and `@` mentions to focus context on the relevant subsystem[^2].
 
 ## Putting It All Together
 
@@ -322,30 +240,28 @@ if [ ! -f "$REPO_DIR/AGENTS.md" ]; then
 fi
 ```
 
-Run this on day one, then spend the rest of the week deepening your understanding through targeted `/side` explorations and `/fork` branches for each major subsystem. By the end of the first week, you will have a mental model that would traditionally take a month to build — and an AGENTS.md that makes the next person's onboarding even faster.
+Run this on day one, then deepen understanding through `/side` explorations and `/fork` branches for each subsystem. By the end of the first week, you will have a mental model that would traditionally take a fortnight to build — and an AGENTS.md that makes the next person's onboarding even faster.
 
 ## Citations
 
 [^1]: OpenAI, "Understand large codebases — Codex use cases," [https://developers.openai.com/codex/use-cases/codebase-onboarding](https://developers.openai.com/codex/use-cases/codebase-onboarding)
 
-[^2]: OpenAI, "GPT-5.5's Million-Token Context Window: Practical Strategies for Codex CLI Long-Context Workflows," April 2026. GPT-5.5 provides 400K tokens in Codex sessions and 1M via direct API.
+[^2]: OpenAI, "GPT-5.5's Million-Token Context Window," April 2026. 400K tokens in Codex sessions, 1M via direct API.
 
 [^3]: OpenAI, "Best practices — Codex," [https://developers.openai.com/codex/learn/best-practices](https://developers.openai.com/codex/learn/best-practices)
 
 [^4]: OpenAI, "Features — Codex CLI," [https://developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
 
-[^5]: OpenAI, "Codex CLI Conversation Branching: /side, /fork, and Plan Mode Workflows," documented in Codex CLI v0.122+ slash commands. See [https://developers.openai.com/codex/cli/slash-commands](https://developers.openai.com/codex/cli/slash-commands)
+[^5]: OpenAI, "Codex CLI slash commands," [https://developers.openai.com/codex/cli/slash-commands](https://developers.openai.com/codex/cli/slash-commands)
 
-[^6]: OpenAI, "Custom instructions with AGENTS.md — Codex," [https://developers.openai.com/codex/guides/agents-md](https://developers.openai.com/codex/guides/agents-md)
+[^6]: OpenAI, "Custom instructions with AGENTS.md," [https://developers.openai.com/codex/guides/agents-md](https://developers.openai.com/codex/guides/agents-md)
 
-[^7]: Community codebase-onboarding skill. Available via Codex skill marketplace and GitHub. See [https://lobehub.com/skills/sehoon787-my-codex-codebase-onboarding](https://lobehub.com/skills/sehoon787-my-codex-codebase-onboarding)
+[^7]: Community codebase-onboarding skill, [https://lobehub.com/skills/sehoon787-my-codex-codebase-onboarding](https://lobehub.com/skills/sehoon787-my-codex-codebase-onboarding)
 
-[^8]: Abhigyan Patwari, "GitNexus: The Zero-Server Code Intelligence Engine," [https://github.com/abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus). 28K+ GitHub stars as of April 2026.
+[^8]: Abhigyan Patwari, "GitNexus," [https://github.com/abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus). 28K+ GitHub stars as of April 2026.
 
 [^9]: Lum1104, "Understand-Anything," [https://github.com/Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything)
 
-[^10]: OpenAI, "Codex CLI Speed Stack: Fast Mode, Reasoning Effort, Spark, and Performance Tuning," April 2026. Medium effort provides good analysis for exploration at lower token cost.
+[^10]: OpenAI, "Codex CLI models and reasoning effort," [https://developers.openai.com/codex/models](https://developers.openai.com/codex/models)
 
-[^11]: OpenAI, "Agent approvals & security — Codex," [https://developers.openai.com/codex/agent-approvals-security](https://developers.openai.com/codex/agent-approvals-security)
-
-[^12]: ⚠️ Anecdotal reports from community discussions and enterprise case studies. No peer-reviewed study quantifying agent-assisted onboarding speedup exists as of April 2026.
+[^11]: OpenAI, "Agent approvals & security," [https://developers.openai.com/codex/agent-approvals-security](https://developers.openai.com/codex/agent-approvals-security)
