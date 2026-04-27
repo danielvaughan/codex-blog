@@ -1366,3 +1366,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Dart and Flutter MCP server docs, DCM MCP server docs, codex_cli_sdk pub.dev, Flutter 3.41 release notes, Codex CLI changelog v0.124/v0.125, Very Good Ventures MCP guide
    - Scope: Official Dart MCP server setup (analyser, formatter, test runner, pub.dev search, runtime introspection), DCM MCP for code quality metrics, AGENTS.md template for Flutter projects, config.toml profiles with sandbox and deny-read for signing keys, PostToolUse hooks for analyse/format/build_runner, widget testing patterns, model selection table, codex_cli_sdk Dart package, headless CI pipeline, common pitfalls
    - SEO targets: "codex cli flutter", "codex cli dart", "codex cli dart mcp server", "codex cli flutter development", "codex cli widget testing", "codex cli cross-platform mobile"
+
+### Internationalization and Localization
+
+1. ✅ **Codex CLI for Internationalization: Automated String Extraction, Translation MCP Servers, and i18n Workflow Patterns** — Written 2026-04-27 → `2026-04-27-codex-cli-internationalization-i18n-automated-string-extraction-translation-workflows.md`
+   - Source: Better i18n MCP server docs, IntlPull MCP server docs, react-i18next/next-intl framework docs, Codex CLI changelog, GitHub Actions codex-action@v1 docs
+   - Scope: Four-phase i18n workflow (extract, translate, integrate, validate), Better i18n MCP config for Codex, IntlPull MCP config, AST-driven string extraction, AGENTS.md i18n policy template, codex exec batch translation with --output-schema, PostToolUse hooks for i18n validation, framework-specific patterns (react-i18next, next-intl), config.toml i18n profile, model selection table, CI pipeline with codex-action@v1, common pitfalls
+   - SEO targets: "codex cli i18n", "codex cli internationalization", "codex cli translation mcp", "codex cli localization automation", "codex cli react-i18next", "codex cli next-intl"
