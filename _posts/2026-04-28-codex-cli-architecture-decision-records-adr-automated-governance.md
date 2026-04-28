@@ -16,9 +16,9 @@ This article covers both sides: using Codex CLI to *create* ADRs, and using ADRs
 
 ## The Agent-Architecture Gap
 
-A recent study examining how AI coding agents shape software architecture found that prompt wording alone can cause a 5.9× code growth and 3× file increase for the same task [^1]. The researchers identified five mechanisms through which agents implicitly determine system structure: model selection, task decomposition, default configuration, scaffolding, and integration protocols [^1]. They coined the term "vibe architecting" — architecture shaped by natural-language prompts rather than deliberate design [^1].
+A recent study found that prompt wording alone can cause a 5.9× code growth and 3× file increase for the same task [^1]. The researchers identified five mechanisms through which agents implicitly determine system structure — model selection, task decomposition, default configuration, scaffolding, and integration protocols — and coined the term "vibe architecting" [^1].
 
-The critical finding: "Agents scaffold systems in minutes; teams need hours or days to audit them" [^1]. Without governance, prompt-level decisions accumulate as undocumented architectural debt.
+The critical finding: "Agents scaffold systems in minutes; teams need hours or days to audit them" [^1].
 
 ```mermaid
 flowchart LR
@@ -72,34 +72,12 @@ Write an ADR in MADR format as docs/adrs/0015-redis-session-cache.md. \
 Include at least three alternatives considered with trade-offs."
 ```
 
-For structured output in CI pipelines, use `--output-schema` to validate the ADR contains required sections:
+For structured output in CI pipelines, use `--output-schema` to validate the ADR contains required sections [^8]:
 
 ```bash
 codex exec --json --output-schema adr-schema.json \
   "Generate an ADR for the decision to migrate from REST to gRPC \
    for inter-service communication"
-```
-
-Where `adr-schema.json` enforces the MADR structure:
-
-```json
-{
-  "type": "object",
-  "properties": {
-    "id": { "type": "string" },
-    "title": { "type": "string" },
-    "status": { "enum": ["proposed", "accepted", "deprecated", "superseded"] },
-    "context": { "type": "string", "minLength": 100 },
-    "decision": { "type": "string", "minLength": 50 },
-    "consequences": {
-      "type": "array",
-      "items": { "type": "string" },
-      "minItems": 2
-    }
-  },
-  "required": ["id", "title", "status", "context", "decision", "consequences"],
-  "additionalProperties": false
-}
 ```
 
 ### Scanning a Codebase for Undocumented Decisions
@@ -137,30 +115,20 @@ metadata:
 
 ## Instructions
 
-When invoked, generate an Architecture Decision Record following
-the MADR 4.0 template structure.
+Generate an Architecture Decision Record following MADR 4.0.
 
 ### Required Sections
 1. **Title** — ADR-NNNN format, sequential numbering
-2. **Status** — One of: proposed, accepted, deprecated, superseded
+2. **Status** — proposed, accepted, deprecated, or superseded
 3. **Context** — Business and technical drivers (minimum 3 sentences)
 4. **Decision** — The choice made and its rationale
-5. **Consequences** — At least 3 consequences (positive and negative)
+5. **Consequences** — At least 3 (positive and negative)
 
 ### Optional Sections
-- **Alternatives Considered** — At least 2 alternatives with trade-offs
-- **Compliance Notes** — Regulatory implications if applicable
-- **Agent Attribution** — If this decision was made or influenced by
-  an AI agent, note the model, prompt context, and confidence level
+- **Alternatives Considered** — At least 2 with trade-offs
+- **Agent Attribution** — Model, prompt context, confidence level
 
-### File Placement
-- Save to `docs/adrs/NNNN-<slug>.md`
-- Update `docs/adrs/index.md` with a link to the new record
-
-### Quality Checks
-- Every claim about performance must cite a benchmark or measurement
-- Alternatives must include genuine trade-offs, not strawmen
-- The Decision section must be actionable without reading other docs
+Save to `docs/adrs/NNNN-<slug>.md` and update the index.
 ```
 
 Invoke with `$adr-writer` or let Codex match it implicitly when you mention "write an ADR" or "document this decision" [^5].
@@ -202,35 +170,6 @@ command = "python scripts/check_adr_conformance.py"
 description = "Verify generated code respects accepted ADRs"
 ```
 
-The conformance checker can parse ADR files for constraints and flag violations:
-
-```python
-#!/usr/bin/env python3
-"""Check that recent file changes don't violate accepted ADRs."""
-import sys
-import pathlib
-import re
-
-ADR_DIR = pathlib.Path("docs/adrs")
-VIOLATIONS = []
-
-def extract_constraints(adr_path: pathlib.Path) -> list[str]:
-    """Extract decision statements from accepted ADRs."""
-    content = adr_path.read_text()
-    if "## Status\nAccepted" not in content:
-        return []
-    match = re.search(r"## Decision\n(.+?)(?=\n## )", content, re.DOTALL)
-    return [match.group(1).strip()] if match else []
-
-# Example: check no new database dependencies added
-# when ADR-0012 mandates PostgreSQL only
-for adr in ADR_DIR.glob("*.md"):
-    constraints = extract_constraints(adr)
-    # ... validation logic against staged changes
-
-sys.exit(1 if VIOLATIONS else 0)
-```
-
 ### Architectural Fitness Functions in CI
 
 Combine `codex exec` with fitness functions that run in your CI pipeline to catch ADR violations before merge [^8]:
@@ -246,17 +185,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify ADR conformance
         run: |
-          codex exec --json --output-schema .codex/adr-check-schema.json \
-            "Review the changes in this PR against all accepted ADRs in \
-             docs/adrs/. Report any violations as a JSON array. If no \
-             violations found, return an empty array."
+          codex exec --json \
+            "Review this PR against accepted ADRs in docs/adrs/. \
+             Report violations as JSON. Empty array if none."
       - name: Check for missing ADRs
         run: |
           codex exec \
-            "Check if this PR introduces architectural changes \
-             (new dependencies, new services, API changes, schema \
-             changes) that require a new ADR. If so, fail with a \
-             list of required ADRs."
+            "Does this PR introduce architectural changes needing \
+             a new ADR? If so, list them and exit 1."
 ```
 
 ```mermaid
@@ -294,59 +230,19 @@ When Codex makes or influences an architectural decision, the ADR should record 
 
 This attribution becomes essential for audit trails, particularly in regulated environments where decision provenance matters [^1].
 
-## Batch ADR Generation for Legacy Codebases
-
-For teams adopting ADRs retroactively, use Codex's subagent capabilities to parallelise the work. Define a custom agent for the task:
-
-```toml
-# .codex/agents/adr-archaeologist.toml
-description = "Scans code for undocumented architectural decisions"
-instructions = """
-You are an architecture archaeologist. Examine the codebase for
-implicit decisions about frameworks, protocols, data stores,
-deployment patterns, and integration approaches. For each decision
-found, generate a MADR-format ADR with status 'accepted' and an
-approximate decision date based on git blame timestamps.
-"""
-```
-
-Then orchestrate from the parent session:
-
-```bash
-codex "Spawn an adr-archaeologist subagent for each top-level \
-service directory (api/, worker/, gateway/). Each should scan \
-its service and generate ADRs in that service's docs/adrs/ folder. \
-Deduplicate cross-service decisions into docs/adrs/ at the root."
-```
-
 ## Continuous ADR Maintenance
 
-The real value emerges when ADR generation becomes continuous rather than a one-off documentation effort [^9]. Add this to your AGENTS.md:
-
-```markdown
-## ADR Policy
-
-When making code changes that affect architecture:
-1. Check existing ADRs in `docs/adrs/` for relevant decisions
-2. If this change contradicts an accepted ADR, stop and discuss
-3. If this change represents a new architectural decision, create
-   an ADR with status "proposed" before implementing
-4. If this change supersedes an existing ADR, update the old ADR's
-   status to "superseded" and reference the new one
-```
-
-This turns every Codex session into an opportunity to capture architectural knowledge that would otherwise be lost [^9].
+The real value emerges when ADR generation becomes continuous [^9]. Add an ADR policy section to your AGENTS.md instructing Codex to check `docs/adrs/` before any architectural choice, create proposed ADRs for new decisions before implementing, and mark superseded ADRs when decisions evolve. This turns every Codex session into an opportunity to capture architectural knowledge that would otherwise be lost [^9].
 
 ## Practical Recommendations
 
-1. **Start with retrospective ADRs** — use `codex exec` to scan your codebase and generate ADRs for decisions already embedded in code
-2. **Add ADR constraints to AGENTS.md** — prevent Codex from contradicting established decisions
-3. **Build an `$adr-writer` skill** — standardise format and quality across your team
+1. **Start retroactively** — scan your codebase with `codex exec` for decisions already embedded in code
+2. **Constrain via AGENTS.md** — prevent Codex from contradicting established decisions
+3. **Standardise with `$adr-writer`** — consistent format and quality across the team
 4. **Attribute agent decisions** — record model, prompt context, and human review status
-5. **Enforce in CI** — use `codex exec` fitness functions to catch violations and missing ADRs before merge
-6. **Treat ADRs as living documents** — configure Codex to update ADR status when decisions evolve
+5. **Enforce in CI** — fitness functions to catch violations before merge
 
-The agent-architecture gap will only widen as AI coding tools become more capable. Teams that instrument their ADR workflows now — generating, governing, and attributing decisions through Codex CLI — will maintain architectural coherence while their less disciplined competitors accumulate invisible technical debt.
+The agent-architecture gap will only widen. Teams that instrument their ADR workflows now will maintain architectural coherence while their less disciplined competitors accumulate invisible technical debt.
 
 ## Citations
 
