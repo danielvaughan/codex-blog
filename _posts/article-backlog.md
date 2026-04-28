@@ -1446,3 +1446,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI "Iterate on difficult problems" use case, eval-skills blog post, Codex best practices, non-interactive mode docs, Codex changelog v0.125, LLM-as-judge guides, PLANS.md cookbook, Codex models docs
    - Scope: Complete scored improvement loop pattern — evaluation harness design (deterministic + LLM-as-judge), four-category success model, AGENTS.md setup, config profiles, starter prompt, JSONL telemetry tracking, common pitfalls, headless CI integration, model selection for scored loops
    - SEO targets: "codex cli scored improvement loop", "codex cli eval driven development", "codex cli LLM as judge", "codex cli iterative optimisation", "codex cli evaluation script"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### Architecture & Governance
+
+1. ✅ **Architecture Decision Records with Codex CLI: Automated ADR Generation, Governance, and the Agent-Architecture Gap** — Written 2026-04-28 → `2026-04-28-codex-cli-architecture-decision-records-adr-automated-governance.md`
+   - Source: arXiv:2604.04990 "Architecture Without Architects" (Arrighi et al., April 2026), MADR template docs, Equal Experts ADR+AI guide, Adolfi AI-generated ADR blog, OpenAI Codex skills/AGENTS.md/hooks/exec docs, Codex changelog v0.124-v0.125
+   - Scope: Agent-architecture gap problem, ADR generation with codex exec and --output-schema, codebase scanning for undocumented decisions with GPT-5.5 400K context, $adr-writer skill pattern, AGENTS.md architectural constraints, PostToolUse hooks for ADR conformance checking, CI fitness functions, agent attribution in ADRs, batch retroactive ADR generation with subagents, continuous ADR maintenance policy
+   - SEO targets: "codex cli architecture decision record", "codex cli ADR generation", "codex cli architectural governance", "AI agent architecture decisions", "automated ADR generation codex"
