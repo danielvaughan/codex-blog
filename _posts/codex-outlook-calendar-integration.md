@@ -1,5 +1,5 @@
 ---
-title: "Codex CLI and Outlook Calendar: Four Ways to Connect Your Agent to Microsoft 365 Scheduling"
+title: "Codex and Outlook Calendar: Five Ways to Connect Your Agent to Microsoft 365 Scheduling"
 date: 2026-04-28T00:00:00+00:00
 layout: article
 tags:
@@ -17,11 +17,13 @@ tags:
 word_count_target: 1500
 ---
 
-# Codex CLI and Outlook Calendar: Four Ways to Connect Your Agent to Microsoft 365 Scheduling
+# Codex and Outlook Calendar: Five Ways to Connect Your Agent to Microsoft 365 Scheduling
 
-ChatGPT has native Outlook connectors baked into the product. Codex CLI does not. This is by design -- Codex is a coding agent, not a productivity assistant -- but the absence creates a real gap for engineers who live in their terminal and want their agent to check their calendar before scheduling a pair-programming session or blocking out focus time.
+ChatGPT has native Outlook connectors baked into the product. As of April 16, 2026, the Codex Desktop App does too — the **Microsoft 365 Suite plugin** in the 90+ plugin marketplace includes Outlook email and calendar alongside Excel, Word, PowerPoint, Teams, and SharePoint. Authentication uses standard OAuth flows, and no custom API setup is required. Install via the `/plugins` command in the Codex App and search for "Microsoft Suite."
 
-The good news: the Model Context Protocol gives Codex CLI the same integration surface that ChatGPT gets natively, and in some cases more control. Here are four approaches, ordered from lightest setup to most enterprise-grade.
+The Codex Desktop App's Microsoft Suite plugin supports email compose and send, calendar event listing and creation, and email draft management. For many users, this is the simplest path — it works out of the box with the same OAuth consent flow as ChatGPT's native connectors.
+
+For Codex **CLI** users, however, the Desktop App's plugin marketplace is not available. The CLI is a terminal-first tool with its own integration model: the Model Context Protocol. MCP gives the CLI the same integration surface as the Desktop App's plugins, and in some cases more control. Here are four CLI approaches, ordered from lightest setup to most enterprise-grade.
 
 ## Option 1: Composio — Managed MCP with OAuth Out of the Box
 
@@ -192,10 +194,15 @@ For teams using Symphony (OpenAI's new orchestration spec), calendar integration
 
 **Enterprise with Copilot licences:** Work IQ. Pre-certified, deepest feature set, no custom Azure AD setup required.
 
-**The gap Daniel identified is real:** Codex CLI does not ship native Outlook connectors like ChatGPT does. But MCP makes this a configuration problem, not a capability problem. The same pattern applies to Google Calendar (via google-calendar-mcp), Apple Calendar (via apple-calendar-mcp), and any other scheduling system with a Graph or REST API. The agent does not need native connectors. It needs a protocol.
+**The Desktop App closes the gap natively** via the Microsoft Suite plugin — install it and Outlook calendar works out of the box, just like ChatGPT's native connector. For CLI users, MCP makes this a configuration problem, not a capability problem. The same pattern applies to Google Calendar (via google-calendar-mcp), Apple Calendar (via apple-calendar-mcp), and any other scheduling system with a Graph or REST API. The agent does not need native connectors. It needs a protocol.
+
+**Desktop App users:** Install the Microsoft Suite plugin via `/plugins` — that is Option 0 and the simplest path.
+
+**CLI users:** Choose from the four MCP options above based on your control and licensing requirements.
 
 ## Citations
 
+0. OpenAI, 'Codex Desktop v26.415 — Codex for (almost) everything,' April 16, 2026. 90+ plugin marketplace including Microsoft 365 Suite (Outlook, Excel, Word, PowerPoint, Teams, SharePoint). OAuth authentication, no custom API setup required. macOS only at launch. https://openai.com/codex/
 1. XenoXilus, 'outlook-mcp,' GitHub, 2026. MCP server for Microsoft Office 365 Outlook — email, calendar, and SharePoint integration via Microsoft Graph API. MIT licence. https://github.com/XenoXilus/outlook-mcp
 2. elyxlz, 'microsoft-mcp,' GitHub, 2026. Python MCP server for Microsoft Graph API with 40+ tools covering Outlook, Calendar, OneDrive, and Contacts. Multi-account support. MIT licence. https://github.com/elyxlz/microsoft-mcp
 3. Composio, 'Outlook MCP Integration for Codex,' composio.dev, 2026. Managed MCP platform handling OAuth, token refresh, and 870+ app integrations including Outlook calendar. https://composio.dev/toolkits/outlook/framework/codex
