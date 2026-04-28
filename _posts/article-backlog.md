@@ -1535,3 +1535,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: State of Surveillance Bitwarden attack coverage, Endor Labs Shai-Hulud analysis, The Hacker News Bitwarden CLI coverage, OX Security MCP vulnerability disclosure, OpenAI Codex security/hooks/config-reference docs
    - Scope: Bitwarden CLI @2026.4.0 supply chain attack (22 April 2026), Butlerian Jihad module targeting six AI coding agents, credential harvesting techniques, exfiltration via AES-256-GCM + GitHub dead-drop, deny-read policies for credential paths, sandbox hardening (disable login shells, block network), PreToolUse hooks for secret-pattern detection, managed configuration enforcement, dependency hygiene checklist, broader threat landscape (MCP vulnerabilities, CISO access policy gap)
    - SEO targets: "codex cli supply chain attack", "bitwarden malware AI coding tools", "codex cli credential protection", "codex cli deny-read security", "coding agent malware defence"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### DevOps & Container Engineering
+
+1. ✅ **Codex CLI for Dockerfile Optimisation: Multi-Stage Builds, Layer Caching, and Security Hardening** — Written 2026-04-28 → `2026-04-28-codex-cli-dockerfile-optimisation-multi-stage-builds-security-hardening.md`
+   - Source: OpenAI Codex CLI features docs, OpenAI skills docs, OpenAI AGENTS.md guide, OpenAI best practices docs, Sysdig Dockerfile best practices, Chainguard distroless images, Docker security docs, DeployHQ AI coding comparison, DevToolbox multi-stage builds guide, Docker Model Runner docs
+   - Scope: Five patterns for Dockerfile engineering with Codex CLI (scaffold from scratch, audit existing, multi-stage compiled languages, reusable skill, security hardening pipeline), AGENTS.md Docker standards configuration, layer caching optimisation, base image selection (distroless/Chainguard/scratch), codex exec CI integration, Docker Scout/Trivy closed-loop scanning, common pitfalls table
+   - SEO targets: "codex cli dockerfile", "codex cli docker optimisation", "codex cli multi-stage build", "codex cli container security", "AI dockerfile best practices", "codex cli docker skill"
