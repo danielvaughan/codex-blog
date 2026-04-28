@@ -1579,3 +1579,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI "Create a CLI Codex can use" use case guide, OSS Insight agent interface layer analysis, D. Minh K. CLI design patterns article, OpenAI non-interactive mode docs, OpenAI CLI features docs
    - Scope: Seven principles of agent-friendly CLI design (structured output, discovery-before-detail, explicit auth, file paths over inline, approval boundaries, PATH-installable, predictable errors), $cli-creator and $skill-creator workflow, worked support ticket CLI example, anti-patterns table, integration with skills/hooks/pipelines, CLIs as the agent interface layer
    - SEO targets: "codex cli agent-friendly CLI", "building CLI for AI agents", "codex cli-creator skill", "agent-friendly tool design", "composable CLI codex", "structured output CLI agent"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### Security & Environment Configuration
+
+1. ✅ **Codex CLI Shell Environment Policy: Controlling What Your Agent's Subprocesses Can See** — Written 2026-04-28 → `2026-04-28-codex-cli-shell-environment-policy-subprocess-secrets-defence.md`
+   - Source: OpenAI Advanced Configuration docs, OpenAI Configuration Reference docs, OpenAI Managed Configuration docs, GitHub issue #3064, Check Point CVE-2025-61260 disclosure, The Hacker News Codex token vulnerability coverage, OpenAI Changelog v0.125
+   - Scope: shell_environment_policy deep dive (inherit modes, default excludes trap, evaluation pipeline), four battle-tested profiles (secure daily dev, locked-down CI, selective credential pass-through, enterprise managed), debugging environment stripping, allow_login_shell companion, defence-in-depth layering with deny-read/network policy/hooks, managed requirements.toml enforcement
+   - SEO targets: "codex cli shell environment policy", "codex cli environment variables security", "codex cli secrets subprocess", "codex cli config.toml environment", "codex cli credential protection subprocess"
