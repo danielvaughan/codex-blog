@@ -1546,3 +1546,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex CLI features docs, OpenAI skills docs, OpenAI AGENTS.md guide, OpenAI best practices docs, Sysdig Dockerfile best practices, Chainguard distroless images, Docker security docs, DeployHQ AI coding comparison, DevToolbox multi-stage builds guide, Docker Model Runner docs
    - Scope: Five patterns for Dockerfile engineering with Codex CLI (scaffold from scratch, audit existing, multi-stage compiled languages, reusable skill, security hardening pipeline), AGENTS.md Docker standards configuration, layer caching optimisation, base image selection (distroless/Chainguard/scratch), codex exec CI integration, Docker Scout/Trivy closed-loop scanning, common pitfalls table
    - SEO targets: "codex cli dockerfile", "codex cli docker optimisation", "codex cli multi-stage build", "codex cli container security", "AI dockerfile best practices", "codex cli docker skill"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### Orchestration & Autonomous Workflows
+
+1. ✅ **OpenAI Symphony: Turning Linear Into a Control Plane for Autonomous Codex Agents** — Written 2026-04-28 → `2026-04-28-openai-symphony-codex-orchestration-linear-autonomous-agent-workflows.md`
+   - Source: OpenAI Symphony blog post, Symphony SPEC.md, Help Net Security coverage, InfoWorld analysis, AllThings.How technical breakdown, Codex changelog, openai/symphony GitHub repo
+   - Scope: Symphony architecture (six-layer decomposition), WORKFLOW.md policy-as-code, issue lifecycle state machine, Linear GraphQL integration, Codex App Server connection, concurrency control with per-state limits, failure classification and retry with exponential backoff, observability (structured logs, HTTP dashboard, token accounting), reference implementations (Elixir + 5 languages), harness engineering prerequisites, security considerations, phased adoption path
+   - SEO targets: "openai symphony codex", "codex orchestration linear", "symphony codex agents", "autonomous coding agent orchestration", "codex app server symphony", "linear codex integration"
