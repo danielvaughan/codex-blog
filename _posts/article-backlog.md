@@ -1475,3 +1475,8 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI best practices, PLANS.md cookbook, subagents docs, Addy Osmani multi-agent orchestration, GPT-5.5 launch, community worktree patterns
    - Scope: Task decomposition framework (define done, sizing heuristic, decomposition axes, execution strategy mapping), subagent delegation patterns with model selection, worktree isolation for write-heavy parallelism, PLANS.md for long-horizon work, anti-patterns, worked example
    - SEO targets: "codex cli task decomposition", "codex cli right-size agent work", "codex cli subagent delegation", "codex cli parallel worktree pattern"
+
+2. ✅ **Context Engineering for Codex CLI: A Practical Guide to Curating What Your Agent Sees** — Written 2026-04-28 → `2026-04-28-context-engineering-for-codex-cli-practical-guide.md`
+   - Source: Martin Fowler harness engineering, Anthropic context engineering guide, Addy Osmani 2026 workflow, OpenAI Codex Prompting Guide, LangChain context engineering, OpenAI customisation/skills/MCP docs
+   - Scope: Context engineering vs prompt engineering, five Codex CLI context layers (AGENTS.md, skills, MCP, config.toml, memories), context budget arithmetic, guides-and-sensors framework, six practical patterns, anti-patterns, measurement
+   - SEO targets: "codex cli context engineering", "codex cli AGENTS.md best practices", "codex cli context window management", "context engineering coding agent"
