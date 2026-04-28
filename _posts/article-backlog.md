@@ -1491,3 +1491,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI "Building an AI-Native Engineering Team" guide, Kapwing 100% adoption case study, Larridin developer productivity benchmarks 2026, Stanford Enterprise AI Playbook, PwC agentic SDLC report, OpenAI best practices docs
    - Scope: Delegate-Review-Own framework applied to all seven SDLC phases (Plan, Design, Build, Test, Review, Document, Deploy), concrete Codex CLI config.toml and AGENTS.md for each phase, four-stage adoption lifecycle, enterprise productivity benchmarks (WAU, PR cycle times, code turnover ratios, ROI), anti-patterns, five-day getting started guide
    - SEO targets: "codex cli team adoption", "ai-native engineering team codex", "codex cli SDLC", "codex cli enterprise adoption playbook", "codex cli delegation framework"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### Interactive Workflows & Pair Programming
+
+1. ✅ **Codex CLI for Pair Programming: Interactive Patterns, Conversation Strategies, and the Human-Agent Collaboration Loop** — Written 2026-04-28 → `2026-04-28-codex-cli-pair-programming-interactive-patterns-human-agent-collaboration.md`
+   - Source: OpenAI CLI features docs, OpenAI workflows docs, OpenAI best practices docs, OpenAI prompting guide, OpenAI slash commands docs, Groundy AI pair programming patterns, Dave Patten state of AI coding agents, Justin3go context compaction analysis, SmartScope plan mode guide, OpenAI changelog v0.124/v0.125
+   - Scope: Five interactive pair-programming patterns (scout-then-act, plan-execute-review, incremental tightening, diverge-converge, verify-first delegation), conversation management strategies (compaction, forking, fresh starts), four-part prompt structure, reasoning effort tuning, mid-turn injection, interview pattern, approval mode progression, anti-patterns table, worked session lifecycle example, collaboration effectiveness metrics
+   - SEO targets: "codex cli pair programming", "codex cli interactive workflow", "codex cli conversation strategy", "codex cli TUI patterns", "ai pair programming patterns codex", "codex cli daily workflow"
