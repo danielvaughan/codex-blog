@@ -1590,3 +1590,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Advanced Configuration docs, OpenAI Configuration Reference docs, OpenAI Managed Configuration docs, GitHub issue #3064, Check Point CVE-2025-61260 disclosure, The Hacker News Codex token vulnerability coverage, OpenAI Changelog v0.125
    - Scope: shell_environment_policy deep dive (inherit modes, default excludes trap, evaluation pipeline), four battle-tested profiles (secure daily dev, locked-down CI, selective credential pass-through, enterprise managed), debugging environment stripping, allow_login_shell companion, defence-in-depth layering with deny-read/network policy/hooks, managed requirements.toml enforcement
    - SEO targets: "codex cli shell environment policy", "codex cli environment variables security", "codex cli secrets subprocess", "codex cli config.toml environment", "codex cli credential protection subprocess"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Research & Benchmarks
+
+1. ✅ **Agent Psychometrics: Predicting Which Tasks Your Codex CLI Agent Will Ace and Which It Will Botch** — Written 2026-04-29 → `2026-04-29-agent-psychometrics-predicting-task-difficulty-codex-cli-llm-scaffold-decomposition.md`
+   - Source: arXiv:2604.00594 (Ge et al., ICLR 2026 Workshop), agent-psychometrics GitHub repo, HumanLayer harness engineering blog, OpenAI Codex changelog v0.125, Codex Prompting Guide, arXiv:2604.01527 ProdCodeBench, arXiv:2604.20200 evaluation exploitation
+   - Scope: IRT-based task difficulty prediction, LLM + scaffold ability decomposition (additive, no interaction), four-benchmark validation (SWE-bench Verified/Pro, Terminal-Bench 2.0, GSO), 0.842-0.936 AUC prediction accuracy, practical task triage framework for Codex CLI, model vs scaffold investment decision, adaptive evaluation subsets, feature ablation findings
+   - SEO targets: "codex cli task difficulty prediction", "agent psychometrics coding agents", "LLM scaffold ability decomposition", "codex cli benchmark prediction", "coding agent item response theory", "codex cli harness engineering evidence"
