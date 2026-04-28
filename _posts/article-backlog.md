@@ -1524,3 +1524,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex for OSS programme page, OpenAI Codex Open Source Fund docs, OpenAI Codex Security research preview, OpenAI non-interactive mode docs, OpenAI changelog, The Hacker News Codex Security coverage
    - Scope: Programme overview (ChatGPT Pro, $25K API credits, Codex Security), eligibility criteria (1000+ stars, edge cases), application process, practical maintainer workflows (automated PR review with codex exec in GitHub Actions, issue triage and classification, security scanning pipeline), configuration profiles for OSS work, budget management strategies, current limitations
    - SEO targets: "codex for open source", "codex open source fund", "codex cli maintainer workflow", "codex api credits open source", "codex security open source"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### Security & Supply Chain
+
+1. ✅ **Malware Now Hunts AI Coding Tools: The Bitwarden Supply Chain Attack and Defending Your Codex CLI Installation** — Written 2026-04-28 → `2026-04-28-malware-targets-ai-coding-tools-bitwarden-supply-chain-codex-cli-defence.md`
+   - Source: State of Surveillance Bitwarden attack coverage, Endor Labs Shai-Hulud analysis, The Hacker News Bitwarden CLI coverage, OX Security MCP vulnerability disclosure, OpenAI Codex security/hooks/config-reference docs
+   - Scope: Bitwarden CLI @2026.4.0 supply chain attack (22 April 2026), Butlerian Jihad module targeting six AI coding agents, credential harvesting techniques, exfiltration via AES-256-GCM + GitHub dead-drop, deny-read policies for credential paths, sandbox hardening (disable login shells, block network), PreToolUse hooks for secret-pattern detection, managed configuration enforcement, dependency hygiene checklist, broader threat landscape (MCP vulnerabilities, CISO access policy gap)
+   - SEO targets: "codex cli supply chain attack", "bitwarden malware AI coding tools", "codex cli credential protection", "codex cli deny-read security", "coding agent malware defence"
