@@ -1502,3 +1502,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI CLI features docs, OpenAI workflows docs, OpenAI best practices docs, OpenAI prompting guide, OpenAI slash commands docs, Groundy AI pair programming patterns, Dave Patten state of AI coding agents, Justin3go context compaction analysis, SmartScope plan mode guide, OpenAI changelog v0.124/v0.125
    - Scope: Five interactive pair-programming patterns (scout-then-act, plan-execute-review, incremental tightening, diverge-converge, verify-first delegation), conversation management strategies (compaction, forking, fresh starts), four-part prompt structure, reasoning effort tuning, mid-turn injection, interview pattern, approval mode progression, anti-patterns table, worked session lifecycle example, collaboration effectiveness metrics
    - SEO targets: "codex cli pair programming", "codex cli interactive workflow", "codex cli conversation strategy", "codex cli TUI patterns", "ai pair programming patterns codex", "codex cli daily workflow"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### Scientific & Domain-Specific Workflows
+
+1. ✅ **Epistemic Grounding for Codex CLI: Using GROUNDING.md to Enforce Domain Validity in Scientific and Regulated Codebases** — Written 2026-04-28 → `2026-04-28-epistemic-grounding-codex-cli-grounding-md-domain-validity-scientific-codebases.md`
+   - Source: arXiv:2604.21744 Palmblad/Ragland/Neely (April 2026), OpenAI AGENTS.md docs, OpenAI hooks docs, OpenAI skills docs, OpenAI managed configuration docs, OpenAI advanced configuration docs
+   - Scope: GROUNDING.md concept and context hierarchy, Hard Constraints vs Convention Parameters, implementation in Codex CLI via AGENTS.md referencing + PostToolUse hooks + validation skills, generalised GROUNDING.md template, enforcement architecture with two-layer defence, domain application table (finance, clinical, geospatial, bioinformatics, regulatory), enterprise requirements.toml deployment, current limitations
+   - SEO targets: "codex cli scientific software", "GROUNDING.md coding agent", "codex cli domain constraints", "epistemic grounding coding agent", "codex cli regulated codebase", "codex cli scientific validation"
