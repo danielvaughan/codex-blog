@@ -1557,3 +1557,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Symphony blog post, Symphony SPEC.md, Help Net Security coverage, InfoWorld analysis, AllThings.How technical breakdown, Codex changelog, openai/symphony GitHub repo
    - Scope: Symphony architecture (six-layer decomposition), WORKFLOW.md policy-as-code, issue lifecycle state machine, Linear GraphQL integration, Codex App Server connection, concurrency control with per-state limits, failure classification and retry with exponential backoff, observability (structured logs, HTTP dashboard, token accounting), reference implementations (Elixir + 5 languages), harness engineering prerequisites, security considerations, phased adoption path
    - SEO targets: "openai symphony codex", "codex orchestration linear", "symphony codex agents", "autonomous coding agent orchestration", "codex app server symphony", "linear codex integration"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### Harness Engineering & Third-Party Integration
+
+1. ✅ **Codex Models in Third-Party Harnesses: apply_patch, V4A Diffs, and Building a Portable Coding Agent** — Written 2026-04-28 → `2026-04-28-codex-models-third-party-harnesses-apply-patch-v4a-portable-agent.md`
+   - Source: OpenAI Codex Prompting Guide, OpenAI apply_patch API docs, Warp blog (Codex models integration), HumanLayer harness engineering guide, blog.can.ac harness performance analysis, OpenCode GitHub, OpenAI prompt caching docs, Codex CLI features docs, v0.125 release notes
+   - Scope: Why Codex models underperform outside their native harness, Warp's apply_patch implementation and tool-name alignment, OpenCode's dual-tool adapter pattern, building a minimal custom harness with the Responses API, V4A diff format specification and reference implementations, prompt structure for cache hits, what you lose outside the official CLI (sandbox, compaction, guardian), decision framework for CLI vs custom harness
+   - SEO targets: "codex models third party", "apply_patch v4a diff", "codex harness engineering", "codex models warp", "codex responses api custom agent", "build coding agent codex models", "v4a diff format tutorial"
