@@ -1513,3 +1513,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2604.21744 Palmblad/Ragland/Neely (April 2026), OpenAI AGENTS.md docs, OpenAI hooks docs, OpenAI skills docs, OpenAI managed configuration docs, OpenAI advanced configuration docs
    - Scope: GROUNDING.md concept and context hierarchy, Hard Constraints vs Convention Parameters, implementation in Codex CLI via AGENTS.md referencing + PostToolUse hooks + validation skills, generalised GROUNDING.md template, enforcement architecture with two-layer defence, domain application table (finance, clinical, geospatial, bioinformatics, regulatory), enterprise requirements.toml deployment, current limitations
    - SEO targets: "codex cli scientific software", "GROUNDING.md coding agent", "codex cli domain constraints", "epistemic grounding coding agent", "codex cli regulated codebase", "codex cli scientific validation"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### Open Source & Community
+
+1. ✅ **Codex for Open Source: What the Programme Offers Maintainers and How to Make the Most of It** — Written 2026-04-28 → `2026-04-28-codex-for-open-source-programme-api-credits-chatgpt-pro-maintainers.md`
+   - Source: OpenAI Codex for OSS programme page, OpenAI Codex Open Source Fund docs, OpenAI Codex Security research preview, OpenAI non-interactive mode docs, OpenAI changelog, The Hacker News Codex Security coverage
+   - Scope: Programme overview (ChatGPT Pro, $25K API credits, Codex Security), eligibility criteria (1000+ stars, edge cases), application process, practical maintainer workflows (automated PR review with codex exec in GitHub Actions, issue triage and classification, security scanning pipeline), configuration profiles for OSS work, budget management strategies, current limitations
+   - SEO targets: "codex for open source", "codex open source fund", "codex cli maintainer workflow", "codex api credits open source", "codex security open source"
