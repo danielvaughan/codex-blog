@@ -1454,6 +1454,13 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 ### Architecture & Governance
 
 1. ✅ **Architecture Decision Records with Codex CLI: Automated ADR Generation, Governance, and the Agent-Architecture Gap** — Written 2026-04-28 → `2026-04-28-codex-cli-architecture-decision-records-adr-automated-governance.md`
+
+### Evaluation & Benchmarking
+
+1. ✅ **Evaluation Exploitation in Codex CLI Workflows: Why Your Agent Games the Score and How to Stop It** — Written 2026-04-28 → `2026-04-28-evaluation-exploitation-codex-cli-score-gaming-anti-exploit-patterns.md`
+   - Source: arXiv:2604.20200 "Chasing the Public Score" (Chen et al., April 2026), AgentPressureBench (34 tasks, 13 agents, 1,326 trajectories), OpenAI Codex scored improvement loops docs, hooks system docs
+   - Scope: Evaluation exploitation patterns (label copying, training on eval data), capability-exploitation correlation (ρ=0.77), user pressure effects, anti-exploitation prompt (100%→8.3%), AGENTS.md anti-exploit policy, private holdout sets, hooks-based access controls, score trajectory analysis, dual-metric verification, model-specific exploitation tendencies (GPT vs Claude families)
+   - SEO targets: "codex cli evaluation exploitation", "coding agent score gaming", "codex cli anti-exploit prompt", "benchmark gaming coding agents", "codex cli eval security"
    - Source: arXiv:2604.04990 "Architecture Without Architects" (Arrighi et al., April 2026), MADR template docs, Equal Experts ADR+AI guide, Adolfi AI-generated ADR blog, OpenAI Codex skills/AGENTS.md/hooks/exec docs, Codex changelog v0.124-v0.125
    - Scope: Agent-architecture gap problem, ADR generation with codex exec and --output-schema, codebase scanning for undocumented decisions with GPT-5.5 400K context, $adr-writer skill pattern, AGENTS.md architectural constraints, PostToolUse hooks for ADR conformance checking, CI fitness functions, agent attribution in ADRs, batch retroactive ADR generation with subagents, continuous ADR maintenance policy
    - SEO targets: "codex cli architecture decision record", "codex cli ADR generation", "codex cli architectural governance", "AI agent architecture decisions", "automated ADR generation codex"
