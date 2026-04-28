@@ -1464,3 +1464,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2604.04990 "Architecture Without Architects" (Arrighi et al., April 2026), MADR template docs, Equal Experts ADR+AI guide, Adolfi AI-generated ADR blog, OpenAI Codex skills/AGENTS.md/hooks/exec docs, Codex changelog v0.124-v0.125
    - Scope: Agent-architecture gap problem, ADR generation with codex exec and --output-schema, codebase scanning for undocumented decisions with GPT-5.5 400K context, $adr-writer skill pattern, AGENTS.md architectural constraints, PostToolUse hooks for ADR conformance checking, CI fitness functions, agent attribution in ADRs, batch retroactive ADR generation with subagents, continuous ADR maintenance policy
    - SEO targets: "codex cli architecture decision record", "codex cli ADR generation", "codex cli architectural governance", "AI agent architecture decisions", "automated ADR generation codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Task Decomposition for Codex CLI: Right-Sizing Agent Work for Reliability, Speed, and Cost** — Written 2026-04-28 → `2026-04-28-codex-cli-task-decomposition-right-sizing-agent-work.md`
+   - Source: OpenAI best practices, PLANS.md cookbook, subagents docs, Addy Osmani multi-agent orchestration, GPT-5.5 launch, community worktree patterns
+   - Scope: Task decomposition framework (define done, sizing heuristic, decomposition axes, execution strategy mapping), subagent delegation patterns with model selection, worktree isolation for write-heavy parallelism, PLANS.md for long-horizon work, anti-patterns, worked example
+   - SEO targets: "codex cli task decomposition", "codex cli right-size agent work", "codex cli subagent delegation", "codex cli parallel worktree pattern"
