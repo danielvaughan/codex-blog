@@ -1568,3 +1568,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex Prompting Guide, OpenAI apply_patch API docs, Warp blog (Codex models integration), HumanLayer harness engineering guide, blog.can.ac harness performance analysis, OpenCode GitHub, OpenAI prompt caching docs, Codex CLI features docs, v0.125 release notes
    - Scope: Why Codex models underperform outside their native harness, Warp's apply_patch implementation and tool-name alignment, OpenCode's dual-tool adapter pattern, building a minimal custom harness with the Responses API, V4A diff format specification and reference implementations, prompt structure for cache hits, what you lose outside the official CLI (sandbox, compaction, guardian), decision framework for CLI vs custom harness
    - SEO targets: "codex models third party", "apply_patch v4a diff", "codex harness engineering", "codex models warp", "codex responses api custom agent", "build coding agent codex models", "v4a diff format tutorial"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### Agent-Friendly Tooling & CLI Design
+
+1. ✅ **Building Agent-Friendly CLIs with Codex CLI: Composable Tool Design for the Agentic Era** — Written 2026-04-28 → `2026-04-28-building-agent-friendly-clis-codex-cli-composable-tool-design.md`
+   - Source: OpenAI "Create a CLI Codex can use" use case guide, OSS Insight agent interface layer analysis, D. Minh K. CLI design patterns article, OpenAI non-interactive mode docs, OpenAI CLI features docs
+   - Scope: Seven principles of agent-friendly CLI design (structured output, discovery-before-detail, explicit auth, file paths over inline, approval boundaries, PATH-installable, predictable errors), $cli-creator and $skill-creator workflow, worked support ticket CLI example, anti-patterns table, integration with skills/hooks/pipelines, CLIs as the agent interface layer
+   - SEO targets: "codex cli agent-friendly CLI", "building CLI for AI agents", "codex cli-creator skill", "agent-friendly tool design", "composable CLI codex", "structured output CLI agent"
