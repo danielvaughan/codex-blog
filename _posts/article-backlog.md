@@ -1480,3 +1480,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Martin Fowler harness engineering, Anthropic context engineering guide, Addy Osmani 2026 workflow, OpenAI Codex Prompting Guide, LangChain context engineering, OpenAI customisation/skills/MCP docs
    - Scope: Context engineering vs prompt engineering, five Codex CLI context layers (AGENTS.md, skills, MCP, config.toml, memories), context budget arithmetic, guides-and-sensors framework, six practical patterns, anti-patterns, measurement
    - SEO targets: "codex cli context engineering", "codex cli AGENTS.md best practices", "codex cli context window management", "context engineering coding agent"
+
+---
+
+## New Articles — Auto-Generated (2026-04-28, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Building AI-Native Engineering Teams with Codex CLI: The Seven-Phase SDLC Adoption Playbook** — Written 2026-04-28 → `2026-04-28-building-ai-native-engineering-teams-codex-cli-sdlc-adoption.md`
+   - Source: OpenAI "Building an AI-Native Engineering Team" guide, Kapwing 100% adoption case study, Larridin developer productivity benchmarks 2026, Stanford Enterprise AI Playbook, PwC agentic SDLC report, OpenAI best practices docs
+   - Scope: Delegate-Review-Own framework applied to all seven SDLC phases (Plan, Design, Build, Test, Review, Document, Deploy), concrete Codex CLI config.toml and AGENTS.md for each phase, four-stage adoption lifecycle, enterprise productivity benchmarks (WAU, PR cycle times, code turnover ratios, ROI), anti-patterns, five-day getting started guide
+   - SEO targets: "codex cli team adoption", "ai-native engineering team codex", "codex cli SDLC", "codex cli enterprise adoption playbook", "codex cli delegation framework"
