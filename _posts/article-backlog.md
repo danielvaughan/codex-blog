@@ -1648,3 +1648,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: rust-analyzer-mcp GitHub repo, InfoQ Codex Rust rewrite, OpenAI hooks docs, OpenAI AGENTS.md guide, agentsmd crate, cargo doc markdown proposal, RustRover 2026.1 blog, Codex CLI features docs
    - Scope: AGENTS.md template for Rust 2024 edition projects, rust-analyzer MCP server setup (10 tools), PostToolUse hooks for cargo clippy/test verification, config.toml profiles for Rust work, agent-driven feature development sequence diagram, agent-ready API documentation via cargo doc, model selection table, common pitfalls, headless CI pipeline with codex exec
    - SEO targets: "codex cli rust", "codex cli cargo", "codex cli rust-analyzer mcp", "codex cli clippy hooks", "codex cli rust development", "rust agents.md template"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Code Quality & Long-Horizon Agent Sessions
+
+1. ✅ **SlopCodeBench and Code Quality Degradation: Defending Against Architectural Decay in Long-Horizon Codex CLI Sessions** — Written 2026-04-29 → `2026-04-29-slopcodebench-code-quality-degradation-codex-cli-long-horizon-defence.md`
+   - Source: arXiv:2603.24755 Orlanski et al. (March 2026), OpenAI AGENTS.md docs, OpenAI hooks docs, OpenAI subagents docs, OpenAI config-advanced docs, Justin3go context compaction analysis
+   - Scope: SlopCodeBench benchmark findings (0% end-to-end solve, 80% erosion increase, 89.8% verbosity increase, 2.2x agent vs human verbosity), prompt intervention limitations (intercept shift without slope change), five-layer defence strategy (AGENTS.md anti-erosion policy, PostToolUse quality gate hooks, checkpoint-based session architecture, subagent delegation, periodic automated review), model selection for quality vs correctness, config.toml profiles
+   - SEO targets: "slopcodebench codex cli", "coding agent code quality degradation", "codex cli long session quality", "agent code erosion", "codex cli refactoring strategy", "long-horizon coding agent"
