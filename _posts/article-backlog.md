@@ -1608,3 +1608,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: AWS Bedrock OpenAI announcement (28 April 2026), OpenAI "OpenAI on AWS" blog, DevelopersIO Bedrock Mantle testing, DEV Community Bedrock Access Gateway guide, OpenAI Codex changelog v0.124, OpenAI Codex models docs, OpenAI config-sample docs
    - Scope: Native amazon-bedrock model provider configuration, SigV4 authentication, config.toml profiles, GPT-OSS model availability on Mantle, enterprise IAM policies, CI/CD with GitHub Actions OIDC, PrivateLink architecture, managed configuration distribution, Bedrock Access Gateway alternative, limitations table, cost considerations
    - SEO targets: "codex cli amazon bedrock", "codex cli aws provider", "codex cli bedrock configuration", "codex cli gpt-oss bedrock", "codex cli aws enterprise", "codex cli bedrock mantle"
+
+### Frontend Frameworks & MCP
+
+1. ✅ **Codex CLI for Angular Teams: MCP Server, Signal-Based Patterns, and Agent-Driven Enterprise Frontend Workflows** — Written 2026-04-29 → `2026-04-29-codex-cli-angular-teams-signals-mcp-server-agent-driven-enterprise-frontend.md`
+   - Source: Angular 21 release notes, Angular CLI MCP Server docs (angular.dev/ai/mcp), Angular developer skill (GitHub angular/angular), Angular.love coverage, InfoQ Angular 21, PkgPulse zoneless guide, Angular Architects blog, OpenAI Codex changelog v0.124
+   - Scope: Angular CLI MCP server setup in config.toml, AGENTS.md template for Angular 21 (signals, standalone, zoneless, Vitest), agent-driven feature workflow with sequence diagram, PostToolUse hooks for tsc/lint verification, zoneless migration patterns, Signal Forms experimental guidance, Vitest configuration, headless CI with codex exec and GitHub Actions, model selection table, common pitfalls
+   - SEO targets: "codex cli angular", "codex cli angular mcp server", "codex cli signals angular", "codex cli angular 21", "angular agents.md", "codex cli enterprise frontend"
