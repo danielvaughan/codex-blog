@@ -1699,3 +1699,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Docker Model Runner docs, DMR REST API docs, docker model skills docs, Ollama Codex integration, OpenAI config-advanced docs, Docker Desktop April 2026 release notes
    - Scope: DMR setup (Desktop and Engine), model pulling from Docker Hub and Hugging Face, Codex CLI custom provider configuration, profile-based hybrid local-cloud workflow, DMR skills installation, comparison with Ollama, performance tuning, CVE-2026-33990 security note, limitations of local inference
    - SEO targets: "codex cli docker model runner", "codex cli local model docker", "docker model runner codex setup", "codex cli private inference", "codex cli containerised local model"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Ecosystem & Companion Tools
+
+1. ✅ **The Codex CLI Companion Tools Ecosystem: Token Monitors, Orchestrators, and Community Collections** — Written 2026-04-29 → `2026-04-29-codex-cli-companion-tools-ecosystem-ccusage-tokscale-orchestrators.md`
+   - Source: ccusage GitHub (13.5k stars), tokscale GitHub (2.4k stars), agent-orchestrator GitHub (6.6k stars), oh-my-codex (18.8k stars), VoltAgent awesome-codex-subagents (4.3k stars), ComposioHQ awesome-codex-skills (4.4k stars), Awesome Codex CLI Discussion (#16329), OpenAI Codex changelog v0.124-v0.125
+   - Scope: Token monitoring (ccusage, tokscale), parallel orchestration (agent-orchestrator, oh-my-codex, parallel-code), curated community collections (150+ ecosystem tools, 136 subagents, 50+ skills), practical config.toml profiles and shell aliases, selection decision framework, security caveats
+   - SEO targets: "codex cli companion tools", "codex cli token monitoring", "ccusage codex", "tokscale codex", "codex cli parallel agents", "oh-my-codex", "awesome codex cli ecosystem"
