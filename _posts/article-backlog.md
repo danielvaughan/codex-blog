@@ -1772,3 +1772,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex rate card, OpenAI Codex pricing docs, OpenAI config basics docs, OpenAI config reference docs, OpenAI best practices docs, OpenAI GPT-5.2-Codex announcement, OpenAI skills docs, OpenAI subagents docs
    - Scope: Subscription tier comparison (Plus/Pro/API), minimal config.toml for solo use, GPT-5.4-mini as cost-efficient default, AGENTS.md as project memory, two-tier model selection strategy, skills for recurring workflows, daily workflow rhythm, cost comparison table, features to skip as a solo developer
    - SEO targets: "codex cli solo developer", "codex cli small team setup", "codex cli cost efficiency", "codex cli GPT-5.4-mini default", "codex cli productivity solo"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Enterprise Strategy & Multi-Cloud
+
+1. ✅ **The End of Azure Exclusivity: How OpenAI's Multi-Cloud Pivot Changes the Codex CLI Enterprise Deployment Playbook** — Written 2026-04-29 → `2026-04-29-end-of-azure-exclusivity-multi-cloud-codex-enterprise-deployment.md`
+   - Source: Microsoft Official Blog partnership amendment, OpenAI on AWS announcement, GeekWire exclusivity analysis, CNBC coverage, AWS announcement, DevelopersIO Bedrock testing, tech-insider.org $38B deal analysis, OpenAI config docs, Codex changelog v0.124/v0.125
+   - Scope: Three provider paths (Direct API, Azure OpenAI Service, Amazon Bedrock), partnership restructuring details, multi-provider config.toml profiles, decision framework with Mermaid flowchart, Bedrock Managed Agents as server-side complement, procurement leverage, configuration-as-code guidance, current limitations
+   - SEO targets: "codex cli multi-cloud", "codex cli azure vs bedrock", "openai azure exclusivity end", "codex cli enterprise provider choice", "codex cli aws bedrock enterprise", "multi-cloud codex deployment"
