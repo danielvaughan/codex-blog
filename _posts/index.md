@@ -3,10 +3,10 @@ title: "Articles"
 permalink: /articles/
 ---
 
-## Article Ratings (updated 2026-04-25)
+## Article Ratings (updated 2026-04-29)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-25 · 456 articles rated · 456 total entries.
+Last rated: 2026-04-29 · 530 articles rated · 530 total entries.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|--------|
@@ -123,6 +123,25 @@ Last rated: 2026-04-25 · 456 articles rated · 456 total entries.
 | [Cross-Agent Skill Portability: Skillshare, SkillPort, skills-sync](/2026/04/25/cross-agent-skill-portability-codex-cli-skillshare-skillport-skills-sync/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [GPT-5.5 Million-Token Context Window: Long-Context Strategies](/2026/04/25/gpt-5-5-million-token-context-window-codex-cli-long-context-workflows/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
 | [NVIDIA 10,000-Developer Codex Deployment: Enterprise Patterns](/2026/04/25/nvidia-10000-developer-codex-deployment-enterprise-patterns-gpt-5-5/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The Coding Agent CLI Landscape: Late April 2026](/2026/04/27/coding-agent-cli-landscape-late-april-2026-gpt-5-5-five-way-race/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Epistemic Grounding for Codex CLI: GROUNDING.md](/2026/04/28/epistemic-grounding-codex-cli-grounding-md-domain-validity-scientific-codebases/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Evaluation Exploitation: Score Gaming and Defence](/2026/04/28/evaluation-exploitation-codex-cli-score-gaming-anti-exploit-patterns/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Malware Targets AI Coding Tools: Supply Chain Defence](/2026/04/28/malware-targets-ai-coding-tools-bitwarden-supply-chain-codex-cli-defence/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Agent Psychometrics: Predicting Task Difficulty](/2026/04/29/agent-psychometrics-predicting-task-difficulty-codex-cli-llm-scaffold-decomposition/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Interaction Smells in Codex CLI Sessions](/2026/04/29/interaction-smells-codex-cli-multi-turn-prompt-anti-patterns/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The Nine-Second Database Deletion: PocketOS Incident](/2026/04/29/pocketos-incident-nine-second-database-deletion-codex-cli-defence-patterns/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [The Reasoning Trap: Tool Hallucination Defence](/2026/04/29/reasoning-trap-tool-hallucination-codex-cli-reasoning-effort-defence/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [SlopCodeBench: Code Quality Degradation Defence](/2026/04/29/slopcodebench-code-quality-degradation-codex-cli-long-horizon-defence/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Codex CLI for Embedded Systems and Firmware Teams](/2026/04/26/codex-cli-embedded-systems-firmware-teams-hardware-in-the-loop/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Scored Improvement Loops with Codex CLI](/2026/04/27/codex-cli-scored-improvement-loops-eval-driven-iterative-problem-solving/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Building Agent-Friendly CLIs with Codex CLI](/2026/04/28/building-agent-friendly-clis-codex-cli-composable-tool-design/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Building AI-Native Engineering Teams](/2026/04/28/building-ai-native-engineering-teams-codex-cli-sdlc-adoption/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Context Engineering for Codex CLI](/2026/04/28/context-engineering-for-codex-cli-practical-guide/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [OpenAI Symphony: Autonomous Codex Orchestration](/2026/04/28/openai-symphony-codex-orchestration-linear-autonomous-agent-workflows/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [GPT-5.2-Codex: New Agentic Coding Model Guide](/2026/04/29/gpt-5-2-codex-agentic-coding-model-cybersecurity-long-horizon-guide/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [AI Coding Agent Adoption in 2026: Survey Data](/2026/04/26/ai-coding-agent-adoption-2026-survey-data-codex-cli-positioning/) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Task Decomposition for Codex CLI](/2026/04/28/codex-cli-task-decomposition-right-sizing-agent-work/) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [End of Azure Exclusivity: Multi-Cloud Codex](/2026/04/29/end-of-azure-exclusivity-multi-cloud-codex-enterprise-deployment/) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Claude Opus 4.7 Launch: What It Means for AI Coding Agents](/2026/04/16/claude-opus-4-7-launch/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [The Composable AI Coding Stack: Cursor, Claude Code, and Codex as Three Layers](/2026/04/16/composable-ai-coding-stack-cursor-claude-code-codex/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
 | [The April 2026 Model Deprecation Wave: Migration Guide](/2026/04/16/codex-cli-model-deprecation-wave-april-2026-migration-guide/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★★ | ★★★★☆ |
@@ -157,6 +176,19 @@ Last rated: 2026-04-25 · 456 articles rated · 456 total entries.
 | [Codex CLI vs Codex Cloud: When to Use Each](/2026/04/18/codex-cli-vs-codex-cloud-when-to-use-each/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★★ | ★★★★☆ |
 | [Conversation Branching: /side, /fork, and Plan Mode](/2026/04/21/codex-cli-conversation-branching-side-fork-plan-mode-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [DeepSeek V4 as a Codex CLI Provider: Frontier Coding at Fraction Cost](/2026/04/24/deepseek-v4-codex-cli-provider-frontier-coding-fraction-cost/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Automated Doc-Rot Detection and Repair](/2026/04/26/codex-cli-doc-rot-detection-automated-documentation-repair/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [Codex CLI for Open Source Maintainers](/2026/04/26/codex-cli-open-source-maintainers-triage-review-automation/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ |
+| [Codex for Open Source: Programme Details](/2026/04/28/codex-for-open-source-programme-api-credits-chatgpt-pro-maintainers/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Codex at Four Million Users](/2026/04/29/codex-four-million-users-growth-gpt-5-2-codex-aws-partnership/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [GitHub Copilot Usage-Based Billing vs Codex CLI](/2026/04/29/github-copilot-usage-billing-codex-cli-cost-comparison-migration/) | — | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Rapid Prototyping with Codex CLI](/2026/04/26/codex-cli-rapid-prototyping-screenshot-to-working-application/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [TDD with Codex CLI: Agent-Driven Red-Green-Refactor](/2026/04/26/codex-cli-tdd-red-green-refactor-agent-driven-test-first-development/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Codebase Onboarding with Codex CLI](/2026/04/27/codex-cli-codebase-onboarding-developer-ramp-up-unfamiliar-projects/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Codex CLI for Game Development Teams](/2026/04/27/codex-cli-game-development-unity-godot-mcp-agent-driven-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Image Generation in Codex CLI: gpt-image-2](/2026/04/27/codex-cli-image-generation-gpt-image-2-visual-development-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Terminal-Native Codex CLI Workflows](/2026/04/27/codex-cli-terminal-native-workflow-neovim-tmux-multiplexer-integration/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Codex CLI for Pair Programming](/2026/04/28/codex-cli-pair-programming-interactive-patterns-human-agent-collaboration/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Codex CLI for Solo Developers](/2026/04/29/codex-cli-solo-developer-small-team-setup-productivity/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [HIPAA Compliance 2026: Regulated Workspace Exclusion](/2026/04/20/codex-cli-hipaa-compliance-2026-regulated-workspace-exclusion/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Migrating Claude Code to Codex CLI](/2026/03/26/migrating-claude-code-to-codex-cli/) | [view](https://codex.danielvaughan.com/2026/03/26/migrating-claude-code-to-codex-cli/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Subagents: TOML, Parallelism, spawn_agents_on_csv](/2026/03/26/codex-cli-subagents-toml-parallelism/) | [view](https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
@@ -225,6 +257,10 @@ Last rated: 2026-04-25 · 456 articles rated · 456 total entries.
 | [Codex CLI Filesystem Security: Deny-Read Policies](/2026/04/25/codex-cli-filesystem-security-deny-read-policies-credential-protection/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [LSP Integration for Codex CLI: Semantic Code Intelligence](/2026/04/25/codex-cli-lsp-integration-language-server-semantic-code-intelligence/) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Codex CLI v0.125: Permission Profiles, App-Server, Rollout Tracing](/2026/04/25/codex-cli-v0125-permission-profile-persistence-app-server-unix-sockets-rollout-tracing/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Codex CLI Shell Environment Policy](/2026/04/28/codex-cli-shell-environment-policy-subprocess-secrets-defence/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Codex Models in Third-Party Harnesses](/2026/04/28/codex-models-third-party-harnesses-apply-patch-v4a-portable-agent/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Hermetic codex exec Runs: Isolation and Reproducible CI](/2026/04/25/codex-exec-hermetic-runs-isolation-flags-reproducible-ci-pipelines/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [Codex CLI Custom Agent Definitions](/2026/04/27/codex-cli-custom-agent-definitions-toml-specialised-subagents/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Agent Identity Stack: Cryptographic Attribution for Multi-Agent Audit Trails](/2026/04/15/agent-identity-stack-cryptographic-attribution-multi-agent-audit-trails/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
 | [MCP Tool Namespace Unification: Fixing the Silent Tool-Not-Found Bug](/2026/04/15/mcp-tool-namespace-unification/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Memory Lifecycle Management: Create, Consolidate, Clean, Delete](/2026/04/15/memory-lifecycle-management-codex-cli/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
@@ -395,6 +431,44 @@ Last rated: 2026-04-25 · 456 articles rated · 456 total entries.
 | [Codex CLI for React Native and Expo](/2026/04/25/codex-cli-react-native-expo-mobile-development-skills-plugins/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI for Release Engineering: Changelogs and Versioning](/2026/04/25/codex-cli-release-engineering-changelog-versioning-automation/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Codex CLI and Supabase MCP: Full-Stack Backend Development](/2026/04/25/codex-cli-supabase-mcp-full-stack-backend-development/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Error Recovery and Rollback Patterns for Codex CLI](/2026/04/25/codex-cli-error-recovery-rollback-patterns-git-safety-nets/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [The Codex Go SDK Ecosystem](/2026/04/25/codex-go-sdk-ecosystem-embedding-agents-in-go-applications/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Microservices: Cross-Service Patterns](/2026/04/26/codex-cli-microservices-cross-service-development-multi-repo-patterns/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI OpenTelemetry Observability](/2026/04/26/codex-cli-opentelemetry-observability-monitoring-agent-sessions/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI with Azure OpenAI and Foundry](/2026/04/27/codex-cli-azure-openai-foundry-enterprise-deployment-compliance/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI Enterprise Managed Configuration](/2026/04/27/codex-cli-enterprise-managed-configuration-requirements-toml-admin-policies/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI with Amazon Bedrock](/2026/04/29/codex-cli-amazon-bedrock-native-provider-aws-enterprise-configuration/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Self-Hosted Code Review Pipelines](/2026/04/29/codex-cli-self-hosted-code-review-pipelines-multi-platform-ci-cd/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Semantic Code Search for Codex CLI](/2026/04/27/codex-cli-semantic-code-search-cocoindex-symdex-gitnexus-codebase-navigation/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Architecture Decision Records with Codex CLI](/2026/04/28/codex-cli-architecture-decision-records-adr-automated-governance/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI and Docker Model Runner](/2026/04/29/codex-cli-docker-model-runner-local-inference-containerised-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Automated API Documentation](/2026/04/26/codex-cli-api-documentation-openapi-generation-sdk-scaffolding/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI and Storybook MCP](/2026/04/26/codex-cli-storybook-mcp-component-development-story-generation-visual-testing/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [JavaScript-to-TypeScript Migration with Codex CLI](/2026/04/26/codex-cli-typescript-migration-javascript-gradual-typing-large-codebase/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Database Schema Migrations with Codex CLI](/2026/04/27/codex-cli-database-schema-migrations-atlas-skill-orm-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Frontend Performance Optimisation](/2026/04/27/codex-cli-frontend-performance-lighthouse-core-web-vitals-agent-driven-optimisation/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Git Hooks Powered by Codex CLI](/2026/04/27/codex-cli-git-hooks-pre-commit-review-commit-msg-pre-push-validation/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Internationalization](/2026/04/27/codex-cli-internationalization-i18n-automated-string-extraction-translation-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [SDD Tooling for Codex CLI: spec-kit, cc-sdd, codex-spec](/2026/04/27/spec-driven-development-tooling-codex-cli-spec-kit-cc-sdd-codex-spec/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Dockerfile Optimisation](/2026/04/28/codex-cli-dockerfile-optimisation-multi-stage-builds-security-hardening/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI and Cloudflare: Edge Development](/2026/04/29/codex-cli-cloudflare-code-mode-mcp-workers-edge-development/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [The Codex CLI Companion Tools Ecosystem](/2026/04/29/codex-cli-companion-tools-ecosystem-ccusage-tokscale-orchestrators/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Data Analysis: ETL Pipelines](/2026/04/29/codex-cli-data-analysis-etl-pipelines-tabular-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [The .NET Agent Skills Ecosystem](/2026/04/29/dotnet-agent-skills-ecosystem-codex-cli-aspire-mcp-three-catalogue-strategy/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Django and FastAPI Teams](/2026/04/25/codex-cli-django-fastapi-python-web-teams-agents-md-testing-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for PHP and Laravel Teams](/2026/04/25/codex-cli-php-laravel-teams-boost-mcp-pest-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for C and C++ Teams](/2026/04/26/codex-cli-cpp-teams-cmake-clangd-mcp-memory-safe-agent-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Elixir and Phoenix Teams](/2026/04/26/codex-cli-elixir-phoenix-teams-tidewave-mcp-functional-agent-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for GraphQL Development](/2026/04/26/codex-cli-graphql-development-apollo-mcp-schema-first-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Kotlin and Android Teams](/2026/04/26/codex-cli-kotlin-android-teams-android-cli-skills-jetpack-compose/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Next.js Teams](/2026/04/26/codex-cli-nextjs-teams-app-router-server-components-devtools-mcp/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Serverless Teams](/2026/04/26/codex-cli-serverless-teams-aws-lambda-sam-cdk-agent-plugin-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Svelte and SvelteKit Teams](/2026/04/26/codex-cli-svelte-sveltekit-teams-runes-mcp-agent-driven-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Swift and iOS Teams](/2026/04/26/codex-cli-swift-ios-teams-xcode-mcp-swiftui-agent-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Vue and Nuxt Teams](/2026/04/26/codex-cli-vue-nuxt-teams-composition-api-pinia-vitest-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Flutter and Dart Teams](/2026/04/27/codex-cli-flutter-dart-teams-mcp-server-dcm-cross-platform-agent-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Angular Teams](/2026/04/29/codex-cli-angular-teams-signals-mcp-server-agent-driven-enterprise-frontend/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex CLI for Rust Development Teams](/2026/04/29/codex-cli-rust-teams-rust-analyzer-mcp-cargo-hooks-agent-driven-workflows/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
 | [Beyond Code: File Automation & Browser Tasks](/2026/03/27/codex-cli-beyond-code-file-automation/) | [view](https://codex.danielvaughan.com/2026/03/27/codex-cli-beyond-code-file-automation/) | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ |
 | [A2A Meets MCP: The Protocol Stack](/2026/04/09/a2a-meets-mcp-protocol-stack/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★★★ |
 | [Codex CLI Configuration Reference: All Keys](/2026/04/08/codex-cli-configuration-reference/) | [view](https://codex.danielvaughan.com/2026/04/08/codex-cli-configuration-reference/) | ★★★★★ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
