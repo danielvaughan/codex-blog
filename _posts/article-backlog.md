@@ -1670,3 +1670,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI GPT-5.2-Codex announcement, OpenAI API model docs, Cybersecurity News coverage, eSecurity Planet analysis, Digital Applied enterprise guide, NxCode xhigh reasoning guide
    - Scope: GPT-5.2-Codex capabilities (native compaction, Windows support, cybersecurity), benchmark scores (SWE-Bench Pro 56.4%, Terminal-Bench 2.0 64.0%), model comparison decision framework, config.toml profiles for security audit and development, cost comparison table, multi-model routing with custom agents, headless CI pipeline, migration checklist, known limitations
    - SEO targets: "gpt-5.2-codex codex cli", "gpt-5.2-codex vs gpt-5.5", "codex cli cybersecurity model", "gpt-5.2-codex config", "codex cli security audit model"
+
+### Growth & Market Analysis
+
+1. ✅ **Codex at Four Million: What Three Weeks of Hypergrowth Reveals About the Agentic Coding Market** — Written 2026-04-29 → `2026-04-29-codex-four-million-users-growth-gpt-5-2-codex-aws-partnership.md`
+   - Source: OpenAI-AWS partnership announcement, Neowin 4M WAU report, Panto Codex statistics, Fortune Claude Code post-mortem, OpenAI GPT-5.5 announcement, OpenAI pay-as-you-go pricing, OpenAI Developer Community rate limit reset thread
+   - Scope: 4M WAU milestone analysis, growth drivers (GPT-5.5, pricing restructure, Claude Code crisis), GPT-5.2-Codex launch, OpenAI-AWS Bedrock partnership (models, Codex, managed agents), rate limit reset cycle, enterprise adoption signals, competitive landscape, practical takeaways for CLI users
+   - SEO targets: "codex 4 million users", "codex growth 2026", "codex aws bedrock partnership", "codex enterprise adoption", "codex vs claude code 2026"
