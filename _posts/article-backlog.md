@@ -1808,3 +1808,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex CLI docs (features, reference, noninteractive), v0.125 changelog, GitHub Discussion #3827, ccusage session reports, SigNoz OTel integration, GitHub Issue #17000
    - Scope: Rollout file directory structure and JSONL format, event types (thread/turn/item), jq inspection patterns, ccusage session analysis, debug trace reduction, session replay and resume, audit trail pipelines (S3 shipping, OpenTelemetry, compliance reports), disk management, practical forensic patterns
    - SEO targets: "codex cli rollout files", "codex cli session recording", "codex cli audit trail", "codex exec json output", "codex cli observability"
+
+---
+
+## New Articles — Auto-Generated (2026-04-30, Hourly Scan)
+
+### High Priority
+
+1. ✅ **Codex CLI Cyber Safety: Understanding Model Rerouting, Trusted Access, and the False Positive Problem** — Written 2026-04-30 → `2026-04-30-codex-cli-cyber-safety-trusted-access-model-rerouting-defence.md`
+   - Source: OpenAI Cyber Safety docs, GPT-5.3-Codex System Card, Trusted Access for Cyber programme, GPT-5.4-Cyber announcement, GitHub Issues #19533/#12125/#19594/#19245
+   - Scope: Cyber safety classifier pipeline, model rerouting mechanics, false positive triggers and community reports, Trusted Access three-tier framework, GPT-5.4-Cyber for verified defenders, AGENTS.md and prompt strategies to minimise false positives, enterprise configuration implications, /feedback reporting
+   - SEO targets: "codex cli cyber safety", "codex cli model rerouting", "codex cli trusted access cyber", "codex cli false positive security", "GPT-5.4-Cyber codex"
