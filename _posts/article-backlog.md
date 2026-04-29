@@ -1688,3 +1688,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2510.22977 "The Reasoning Trap" (Zhuang et al., ICLR 2026), OpenAI config-basic/config-reference/hooks/AGENTS.md docs, LeanIX code mode analysis, OpenAI agent-approvals-security docs
    - Scope: ICLR 2026 paper findings (causal link between reasoning RL and tool hallucination, SimpleToolHalluBench results across Qwen/DeepSeek/Llama families, DPO mitigation limitations), mapping onto Codex CLI reasoning effort settings, five-layer defence strategy (right-sized profiles, MCP surface reduction, PostToolUse hooks, AGENTS.md anti-hallucination policy, approval mode gating), decision framework by task type, third-party provider implications
    - SEO targets: "codex cli reasoning effort hallucination", "reasoning trap tool hallucination", "codex cli tool hallucination defence", "codex cli reasoning effort best practices", "MCP tool hallucination prevention"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Local Inference & Containerisation
+
+1. ✅ **Codex CLI and Docker Model Runner: Containerised Local Inference for Private, Cost-Free Coding Agents** — Written 2026-04-29 → `2026-04-29-codex-cli-docker-model-runner-local-inference-containerised-workflows.md`
+   - Source: Docker Model Runner docs, DMR REST API docs, docker model skills docs, Ollama Codex integration, OpenAI config-advanced docs, Docker Desktop April 2026 release notes
+   - Scope: DMR setup (Desktop and Engine), model pulling from Docker Hub and Hugging Face, Codex CLI custom provider configuration, profile-based hybrid local-cloud workflow, DMR skills installation, comparison with Ollama, performance tuning, CVE-2026-33990 security note, limitations of local inference
+   - SEO targets: "codex cli docker model runner", "codex cli local model docker", "docker model runner codex setup", "codex cli private inference", "codex cli containerised local model"
