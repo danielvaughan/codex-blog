@@ -1783,3 +1783,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Microsoft Official Blog partnership amendment, OpenAI on AWS announcement, GeekWire exclusivity analysis, CNBC coverage, AWS announcement, DevelopersIO Bedrock testing, tech-insider.org $38B deal analysis, OpenAI config docs, Codex changelog v0.124/v0.125
    - Scope: Three provider paths (Direct API, Azure OpenAI Service, Amazon Bedrock), partnership restructuring details, multi-provider config.toml profiles, decision framework with Mermaid flowchart, Bedrock Managed Agents as server-side complement, procurement leverage, configuration-as-code guidance, current limitations
    - SEO targets: "codex cli multi-cloud", "codex cli azure vs bedrock", "openai azure exclusivity end", "codex cli enterprise provider choice", "codex cli aws bedrock enterprise", "multi-cloud codex deployment"
+
+### Developer Tooling & Terminal Workflows
+
+1. ✅ **Agent-Aware Terminals for Codex CLI: Choosing the Right Terminal Emulator in the AI Coding Era** — Written 2026-04-29 → `2026-04-29-agent-aware-terminals-codex-cli-warp-cmux-ghostty-choosing-terminal-emulator.md`
+   - Source: Termdock terminal comparison, cmux official site, Warp Codex integration page, Warp universal agent support blog, Warp Tab Configs docs, Better Stack cmux guide, Kitty graphics protocol docs, Codex CLI changelog v0.124
+   - Scope: Five terminal emulators compared (Ghostty, Warp, cmux, Kitty, WezTerm), agent-aware vs traditional terminals, decision framework flowchart, Alt-key passthrough configuration table, Warp Tab Configs for Codex sessions, cmux Unix socket IPC architecture, notification hooks integration, practical recommendations by workflow type
+   - SEO targets: "codex cli terminal emulator", "best terminal for codex cli", "warp codex cli integration", "cmux agent terminal", "ghostty codex cli", "terminal emulator AI coding agents", "codex cli alt key configuration"
