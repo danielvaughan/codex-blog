@@ -1790,3 +1790,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Termdock terminal comparison, cmux official site, Warp Codex integration page, Warp universal agent support blog, Warp Tab Configs docs, Better Stack cmux guide, Kitty graphics protocol docs, Codex CLI changelog v0.124
    - Scope: Five terminal emulators compared (Ghostty, Warp, cmux, Kitty, WezTerm), agent-aware vs traditional terminals, decision framework flowchart, Alt-key passthrough configuration table, Warp Tab Configs for Codex sessions, cmux Unix socket IPC architecture, notification hooks integration, practical recommendations by workflow type
    - SEO targets: "codex cli terminal emulator", "best terminal for codex cli", "warp codex cli integration", "cmux agent terminal", "ghostty codex cli", "terminal emulator AI coding agents", "codex cli alt key configuration"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Agent Architecture & Design Space
+
+1. ✅ **The Design Space of Coding Agent Harnesses: Seven Architectural Lessons from the Claude Code Analysis That Apply to Codex CLI** — Written 2026-04-29 → `2026-04-29-design-space-of-coding-agent-harnesses-codex-cli-claude-code-architectural-lessons.md`
+   - Source: arXiv:2604.14228 "Dive into Claude Code" (Liu et al., April 2026), OpenAI Codex agent loop blog, Jozefiak harness comparison, OpenAI Codex CLI docs, Justin3go compaction analysis
+   - Scope: Design-space framework (5 values, 13 principles, 7 components, 5-layer architecture), Claude Code vs Codex CLI architectural mapping, seven practical lessons (harness tuning, permissions as architecture, context as infrastructure, graduated extensibility, session persistence, sandbox trust assumptions, Rust rewrite), configuration audit checklist, six open research directions
+   - SEO targets: "codex cli architecture", "agent harness design space", "codex cli vs claude code architecture", "coding agent harness engineering", "codex cli design principles"
