@@ -1626,3 +1626,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Cloudflare Agents Week announcements, Code Mode MCP blog, Cloudflare agent-setup/codex docs, Cloudflare internal AI engineering stack blog, InfoQ Code Mode coverage, OpenAI Codex GitHub issues
    - Scope: Code Mode two-tool architecture (search + execute), 99.9% token reduction, sixteen Cloudflare MCP servers, plugin setup, config.toml manual configuration, AGENTS.md template for Workers projects, four workflow patterns (scaffold, debug, DNS automation, CI/CD), Cloudflare internal adoption metrics, security model, limitations
    - SEO targets: "codex cli cloudflare", "codex cli cloudflare mcp", "codex cli workers", "code mode mcp cloudflare", "codex cli edge deployment", "cloudflare agents codex"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Data Engineering & Analysis
+
+1. ✅ **Codex CLI for Data Analysis: ETL Pipelines, Tabular Workflows, and Reproducible Reports** — Written 2026-04-29 → `2026-04-29-codex-cli-data-analysis-etl-pipelines-tabular-workflows.md`
+   - Source: OpenAI Codex use cases (datasets-and-reports, clean-messy-data), DataCamp Codex CLI data workflow tutorial, OpenAI best practices, Codex changelog v0.124, OpenAI prompt caching guide, OpenAI MCP docs
+   - Scope: Data project AGENTS.md patterns, messy CSV cleaning workflows, ETL pipeline scaffolding, codex exec for automated data validation, exploratory data analysis with Git worktrees, statistical modelling and report generation, MCP database integration, $spreadsheet and $jupyter-notebook skills, prompt-plus-stdin for piped data
+   - SEO targets: "codex cli data analysis", "codex cli etl pipeline", "codex cli pandas", "codex cli csv cleaning", "codex cli data workflow automation", "codex cli tabular data"
