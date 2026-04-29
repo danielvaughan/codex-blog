@@ -1754,3 +1754,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Tom's Hardware PocketOS coverage, The Register analysis, Fast Company founder interview, NeuralTrust security post-mortem, OpenAI agent-approvals-security docs, OpenAI sandbox docs, OpenAI hooks docs, OpenAI AGENTS.md docs
    - Scope: Six-link failure chain analysis, Cursor guardrail failures, four-layer Codex CLI defence mapping (kernel sandbox, approval policy, PreToolUse hooks, AGENTS.md + deny_read_paths), production-adjacent config.toml profile, credential isolation patterns, five practitioner lessons
    - SEO targets: "pocketos database deletion codex cli", "codex cli agent safety production", "codex cli sandbox vs cursor", "AI agent production guardrails", "codex cli destructive command prevention"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### CI/CD & Code Review Automation
+
+1. ✅ **Self-Hosted Code Review Pipelines with Codex CLI: Structured Output Across GitHub Actions, GitLab CI, Azure DevOps, and Jenkins** — Written 2026-04-29 → `2026-04-29-codex-cli-self-hosted-code-review-pipelines-multi-platform-ci-cd.md`
+   - Source: OpenAI Cookbook code review with Codex SDK, OpenAI non-interactive mode docs, Codex GitHub Action docs, OpenAI Cookbook GitLab security pipeline, GitHub Issues #15451 and #14343
+   - Scope: Four-stage self-hosted review pipeline pattern, structured output schema with --output-schema, multi-platform CI/CD implementations (GitHub Actions with codex-action, GitLab CI with manual CLI install, Azure DevOps with iteration-based anchoring, Jenkins with milestone gates), security hardening (credential isolation, prompt injection defence), cost management strategies, known limitations
+   - SEO targets: "codex cli code review pipeline", "codex exec output-schema code review", "codex cli gitlab code review", "codex cli azure devops review", "self-hosted code review codex", "codex cli jenkins pipeline"
