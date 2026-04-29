@@ -5,6 +5,8 @@ nav_order: 423
 tags: ["codex-cli", "git-bisect", "regression", "debugging", "automation", "codex-exec", "CI/CD"]
 ---
 
+![Sketchnote diagram for: Automated Regression Hunting with Codex CLI: AI-Powered Git Bisect and Root Cause Analysis](/sketchnotes/articles/2026-04-25-codex-cli-automated-git-bisect-regression-hunting-root-cause-analysis.png)
+
 # Automated Regression Hunting with Codex CLI: AI-Powered Git Bisect and Root Cause Analysis
 
 

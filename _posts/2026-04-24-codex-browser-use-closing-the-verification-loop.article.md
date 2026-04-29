@@ -14,6 +14,8 @@ tags:
   - frontend-development
   - qa-automation
 ---
+![Sketchnote diagram for: Codex Can See What It Builds: How Browser Use Closes the Verification Loop](/sketchnotes/articles/2026-04-24-codex-browser-use-closing-the-verification-loop.article.png)
+
 
 > **From Experiment to Enterprise: The Agentic Engineering Playbook — Supplementary Article**
 > *This article examines how Codex's in-app browser and visual verification capabilities change the trust equation for agentic frontend development, and why closing the build-and-verify loop matters for enterprise adoption.*

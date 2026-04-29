@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 445
 tags: ["open-source", "maintainer", "issue-triage", "pr-review", "codex-for-oss", "github-integration", "codex-cloud", "automation", "code-review", "contributor-onboarding"]
 ---
+![Sketchnote diagram for: Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Contributor Automation at Scale](/sketchnotes/articles/2026-04-26-codex-cli-open-source-maintainers-triage-review-automation.png)
+
 
 # Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Contributor Automation at Scale
 

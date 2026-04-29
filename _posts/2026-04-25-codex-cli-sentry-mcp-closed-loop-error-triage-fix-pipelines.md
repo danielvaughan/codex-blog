@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 422
 tags: ["codex-cli", "sentry", "mcp", "error-triage", "debugging", "seer", "automation", "codex-exec", "hooks", "production-monitoring"]
 ---
+![Sketchnote diagram for: Codex CLI and Sentry MCP: Closed-Loop Error Triage and Automated Fix Pipelines](/sketchnotes/articles/2026-04-25-codex-cli-sentry-mcp-closed-loop-error-triage-fix-pipelines.png)
+
 
 # Codex CLI and Sentry MCP: Closed-Loop Error Triage and Automated Fix Pipelines
 

@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 420
 tags: ["codex-cli", "agent-skills", "SKILL.md", "skillshare", "skillport", "skills-sync", "cross-agent", "portability", "MCP"]
 ---
+![Sketchnote diagram for: Cross-Agent Skill Portability: Managing Skills Across Codex CLI, Claude Code, and Copilot](/sketchnotes/articles/2026-04-25-cross-agent-skill-portability-codex-cli-skillshare-skillport-skills-sync.png)
+
 
 # Cross-Agent Skill Portability: Managing Skills Across Codex CLI, Claude Code, and Copilot
 

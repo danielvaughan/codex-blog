@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 435
 tags: ["codex-cli", "svelte", "sveltekit", "runes", "mcp", "agents-md", "vitest", "frontend", "component-workflows"]
 ---
+![Sketchnote diagram for: Codex CLI for Svelte and SvelteKit Teams: Runes, Svelte MCP, and Agent-Driven Component Workflows](/sketchnotes/articles/2026-04-26-codex-cli-svelte-sveltekit-teams-runes-mcp-agent-driven-workflows.png)
+
 
 # Codex CLI for Svelte and SvelteKit Teams: Runes, Svelte MCP, and Agent-Driven Component Workflows
 

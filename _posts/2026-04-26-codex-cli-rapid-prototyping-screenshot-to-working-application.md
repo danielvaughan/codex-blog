@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 431
 tags: ["codex-cli", "rapid-prototyping", "screenshot-to-code", "multimodal", "image-input", "frontend", "design-to-code", "playwright", "browser", "ui-iteration"]
 ---
+![Sketchnote diagram for: Rapid Prototyping with Codex CLI: From Screenshot to Working Application](/sketchnotes/articles/2026-04-26-codex-cli-rapid-prototyping-screenshot-to-working-application.png)
+
 
 # Rapid Prototyping with Codex CLI: From Screenshot to Working Application
 

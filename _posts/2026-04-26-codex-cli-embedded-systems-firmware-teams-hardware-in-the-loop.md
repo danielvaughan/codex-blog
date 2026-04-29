@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 443
 tags: ["codex-cli", "embedded-systems", "firmware", "hardware-in-the-loop", "RTOS", "AGENTS.md", "sandbox", "cross-compilation"]
 ---
+![Sketchnote diagram for: Codex CLI for Embedded Systems and Firmware Teams: Hardware-in-the-Loop, RTOS Patterns, and Agent-Driven Bring-Up](/sketchnotes/articles/2026-04-26-codex-cli-embedded-systems-firmware-teams-hardware-in-the-loop.png)
+
 
 # Codex CLI for Embedded Systems and Firmware Teams: Hardware-in-the-Loop, RTOS Patterns, and Agent-Driven Bring-Up
 

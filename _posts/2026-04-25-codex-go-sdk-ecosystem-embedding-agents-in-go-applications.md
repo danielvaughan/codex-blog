@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 426
 tags: ["codex-cli", "go-sdk", "golang", "agent-orchestration", "app-server", "json-rpc", "embedding", "sdk"]
 ---
+![Sketchnote diagram for: The Codex Go SDK Ecosystem: Embedding Coding Agents in Go Applications](/sketchnotes/articles/2026-04-25-codex-go-sdk-ecosystem-embedding-agents-in-go-applications.png)
+
 
 # The Codex Go SDK Ecosystem: Embedding Coding Agents in Go Applications
 

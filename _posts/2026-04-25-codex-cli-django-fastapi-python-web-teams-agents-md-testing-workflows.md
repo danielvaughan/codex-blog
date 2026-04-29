@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 424
 tags: ["codex-cli", "django", "fastapi", "python", "AGENTS.md", "testing", "sandbox", "web-development"]
 ---
+![Sketchnote diagram for: Codex CLI for Django and FastAPI Teams: AGENTS.md Templates, Sandbox Configuration, and Python Web Development Workflows](/sketchnotes/articles/2026-04-25-codex-cli-django-fastapi-python-web-teams-agents-md-testing-workflows.png)
+
 
 # Codex CLI for Django and FastAPI Teams: AGENTS.md Templates, Sandbox Configuration, and Python Web Development Workflows
 

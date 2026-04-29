@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 447
 tags: ["codex-cli", "swift", "ios", "xcode", "swiftui", "mcp", "apple", "mobile", "agent-skills"]
 ---
+![Sketchnote diagram for: Codex CLI for Swift and iOS Teams: Xcode MCP, SwiftUI Skills, and Agent-Driven Apple Platform Development](/sketchnotes/articles/2026-04-26-codex-cli-swift-ios-teams-xcode-mcp-swiftui-agent-workflows.png)
+
 
 # Codex CLI for Swift and iOS Teams: Xcode MCP, SwiftUI Skills, and Agent-Driven Apple Platform Development
 

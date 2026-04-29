@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 432
 tags: ["graphql", "mcp", "apollo", "schema-first", "type-safety", "codegen", "testing", "api-development"]
 ---
+![Sketchnote diagram for: Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Type-Safe Agent Patterns](/sketchnotes/articles/2026-04-26-codex-cli-graphql-development-apollo-mcp-schema-first-workflows.png)
+
 
 # Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Type-Safe Agent Patterns
 

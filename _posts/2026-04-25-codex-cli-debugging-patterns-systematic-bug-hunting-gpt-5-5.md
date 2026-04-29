@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 419
 tags: ["codex-cli", "debugging", "gpt-5.5", "bug-hunting", "testing", "workflows", "shell", "image-input", "codex-exec", "best-practices"]
 ---
+![Sketchnote diagram for: Debugging with Codex CLI: Systematic Bug-Hunting Patterns for GPT-5.5](/sketchnotes/articles/2026-04-25-codex-cli-debugging-patterns-systematic-bug-hunting-gpt-5-5.png)
+
 
 # Debugging with Codex CLI: Systematic Bug-Hunting Patterns for GPT-5.5
 

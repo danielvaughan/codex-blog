@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 446
 tags: ["adoption", "survey-data", "jetbrains", "sonar", "stanford", "market-analysis", "codex-cli", "claude-code", "github-copilot", "developer-productivity", "enterprise"]
 ---
+![Sketchnote diagram for: AI Coding Agent Adoption in 2026: What the Survey Data Actually Shows and Where Codex CLI Fits](/sketchnotes/articles/2026-04-26-ai-coding-agent-adoption-2026-survey-data-codex-cli-positioning.png)
+
 
 # AI Coding Agent Adoption in 2026: What the Survey Data Actually Shows and Where Codex CLI Fits
 

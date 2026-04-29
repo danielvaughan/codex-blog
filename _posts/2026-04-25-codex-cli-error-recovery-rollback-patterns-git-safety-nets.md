@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 427
 tags: ["codex-cli", "git", "rollback", "undo", "error-recovery", "safety", "agentic-workflows", "best-practices"]
 ---
+![Sketchnote diagram for: Error Recovery and Rollback Patterns for Codex CLI: Git Safety Nets for Agentic Workflows](/sketchnotes/articles/2026-04-25-codex-cli-error-recovery-rollback-patterns-git-safety-nets.png)
+
 
 # Error Recovery and Rollback Patterns for Codex CLI: Git Safety Nets for Agentic Workflows
 

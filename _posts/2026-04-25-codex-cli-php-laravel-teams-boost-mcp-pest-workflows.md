@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 425
 tags: ["codex-cli", "php", "laravel", "boost", "mcp", "pest", "composer", "AGENTS.md", "testing", "phpstan"]
 ---
+![Sketchnote diagram for: Codex CLI for PHP and Laravel Teams: Boost MCP, Pest Workflows, and Composer Sandbox Patterns](/sketchnotes/articles/2026-04-25-codex-cli-php-laravel-teams-boost-mcp-pest-workflows.png)
+
 
 # Codex CLI for PHP and Laravel Teams: Boost MCP, Pest Workflows, and Composer Sandbox Patterns
 

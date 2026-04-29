@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 440
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "tracing", "OTLP", "Grafana", "production", "token-tracking"]
 ---
+![Sketchnote diagram for: Codex CLI OpenTelemetry Observability: Monitoring Agent Sessions, Token Spend, and Tool Decisions in Production](/sketchnotes/articles/2026-04-26-codex-cli-opentelemetry-observability-monitoring-agent-sessions.png)
+
 
 # Codex CLI OpenTelemetry Observability: Monitoring Agent Sessions, Token Spend, and Tool Decisions in Production
 

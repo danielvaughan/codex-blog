@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 444
 tags: ["codex-cli", "storybook", "mcp", "component-development", "visual-testing", "design-systems", "react", "chromatic"]
 ---
+![Sketchnote diagram for: Codex CLI and Storybook MCP: Agent-Driven Component Development, Story Generation, and Visual Testing](/sketchnotes/articles/2026-04-26-codex-cli-storybook-mcp-component-development-story-generation-visual-testing.png)
+
 
 # Codex CLI and Storybook MCP: Agent-Driven Component Development, Story Generation, and Visual Testing
 

@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 441
 tags: ["serverless", "aws-lambda", "sam", "cdk", "agent-plugins", "agentic-coding", "language-guide"]
 ---
+![Sketchnote diagram for: Codex CLI for Serverless Teams: AWS Lambda, SAM, CDK, and Agent Plugin Workflows](/sketchnotes/articles/2026-04-26-codex-cli-serverless-teams-aws-lambda-sam-cdk-agent-plugin-workflows.png)
+
 
 # Codex CLI for Serverless Teams: AWS Lambda, SAM, CDK, and Agent Plugin Workflows
 

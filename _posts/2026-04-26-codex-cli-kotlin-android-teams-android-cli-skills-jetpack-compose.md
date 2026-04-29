@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 436
 tags: ["codex-cli", "kotlin", "android", "jetpack-compose", "android-cli", "android-skills", "agents-md", "mobile-development", "gradle", "kmp"]
 ---
+![Sketchnote diagram for: Codex CLI for Kotlin and Android Teams: Android CLI, Skills, Jetpack Compose, and Agent-Driven Mobile Workflows](/sketchnotes/articles/2026-04-26-codex-cli-kotlin-android-teams-android-cli-skills-jetpack-compose.png)
+
 
 # Codex CLI for Kotlin and Android Teams: Android CLI, Skills, Jetpack Compose, and Agent-Driven Mobile Workflows
 

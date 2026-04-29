@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 429
 tags: ["codex-cli", "documentation", "automation", "ci-cd", "codex-exec", "hooks", "github-actions", "doc-rot"]
 ---
+![Sketchnote diagram for: Automated Doc-Rot Detection and Repair with Codex CLI](/sketchnotes/articles/2026-04-26-codex-cli-doc-rot-detection-automated-documentation-repair.png)
+
 
 # Automated Doc-Rot Detection and Repair with Codex CLI
 

@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 428
 tags: ["codex-cli", "codex-exec", "ci-cd", "automation", "reproducibility", "isolation", "github-actions", "configuration"]
 ---
+![Sketchnote diagram for: Hermetic codex exec Runs: Isolation Flags, Deterministic Configuration, and Reproducible CI Pipelines](/sketchnotes/articles/2026-04-25-codex-exec-hermetic-runs-isolation-flags-reproducible-ci-pipelines.png)
+
 
 # Hermetic `codex exec` Runs: Isolation Flags, Deterministic Configuration, and Reproducible CI Pipelines
 

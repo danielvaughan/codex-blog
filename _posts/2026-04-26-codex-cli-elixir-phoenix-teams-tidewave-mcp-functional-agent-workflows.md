@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 434
 tags: ["elixir", "phoenix", "liveview", "tidewave", "mcp", "agents-md", "functional-programming", "team-guide"]
 ---
+![Sketchnote diagram for: Codex CLI for Elixir and Phoenix Teams: Tidewave MCP, AGENTS.md, and Functional Agent Workflows](/sketchnotes/articles/2026-04-26-codex-cli-elixir-phoenix-teams-tidewave-mcp-functional-agent-workflows.png)
+
 
 # Codex CLI for Elixir and Phoenix Teams: Tidewave MCP, AGENTS.md, and Functional Agent Workflows
 

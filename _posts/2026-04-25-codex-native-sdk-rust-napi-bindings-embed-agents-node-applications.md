@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 421
 tags: ["codex-cli", "native-sdk", "napi-rs", "rust", "typescript", "node.js", "agent-orchestration", "custom-tools"]
 ---
+![Sketchnote diagram for: The Codex Native SDK: Embedding Rust-Powered Coding Agents Directly in Node.js Applications](/sketchnotes/articles/2026-04-25-codex-native-sdk-rust-napi-bindings-embed-agents-node-applications.png)
+
 
 # The Codex Native SDK: Embedding Rust-Powered Coding Agents Directly in Node.js Applications
 

@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 437
 tags: ["codex-cli", "next-js", "react-server-components", "app-router", "devtools-mcp", "vercel", "turbopack", "gpt-5-5", "full-stack"]
 ---
+![Sketchnote diagram for: Codex CLI for Next.js Teams: App Router, Server Components, DevTools MCP, and Agent-Driven Full-Stack Workflows](/sketchnotes/articles/2026-04-26-codex-cli-nextjs-teams-app-router-server-components-devtools-mcp.png)
+
 
 # Codex CLI for Next.js Teams: App Router, Server Components, DevTools MCP, and Agent-Driven Full-Stack Workflows
 

@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 436
 tags: ["codex-cli", "microservices", "multi-repo", "cross-service", "subagents", "agents-md", "distributed-systems"]
 ---
+![Sketchnote diagram for: Codex CLI for Microservices: Cross-Service Development, Multi-Repo Patterns, and Distributed Workflows](/sketchnotes/articles/2026-04-26-codex-cli-microservices-cross-service-development-multi-repo-patterns.png)
+
 
 # Codex CLI for Microservices: Cross-Service Development, Multi-Repo Patterns, and Distributed Workflows
 
