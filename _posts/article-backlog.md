@@ -1601,3 +1601,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2604.00594 (Ge et al., ICLR 2026 Workshop), agent-psychometrics GitHub repo, HumanLayer harness engineering blog, OpenAI Codex changelog v0.125, Codex Prompting Guide, arXiv:2604.01527 ProdCodeBench, arXiv:2604.20200 evaluation exploitation
    - Scope: IRT-based task difficulty prediction, LLM + scaffold ability decomposition (additive, no interaction), four-benchmark validation (SWE-bench Verified/Pro, Terminal-Bench 2.0, GSO), 0.842-0.936 AUC prediction accuracy, practical task triage framework for Codex CLI, model vs scaffold investment decision, adaptive evaluation subsets, feature ablation findings
    - SEO targets: "codex cli task difficulty prediction", "agent psychometrics coding agents", "LLM scaffold ability decomposition", "codex cli benchmark prediction", "coding agent item response theory", "codex cli harness engineering evidence"
+
+### AWS & Cloud Providers
+
+1. ✅ **Codex CLI with Amazon Bedrock: Native AWS Provider Configuration and Enterprise Deployment** — Written 2026-04-29 → `2026-04-29-codex-cli-amazon-bedrock-native-provider-aws-enterprise-configuration.md`
+   - Source: AWS Bedrock OpenAI announcement (28 April 2026), OpenAI "OpenAI on AWS" blog, DevelopersIO Bedrock Mantle testing, DEV Community Bedrock Access Gateway guide, OpenAI Codex changelog v0.124, OpenAI Codex models docs, OpenAI config-sample docs
+   - Scope: Native amazon-bedrock model provider configuration, SigV4 authentication, config.toml profiles, GPT-OSS model availability on Mantle, enterprise IAM policies, CI/CD with GitHub Actions OIDC, PrivateLink architecture, managed configuration distribution, Bedrock Access Gateway alternative, limitations table, cost considerations
+   - SEO targets: "codex cli amazon bedrock", "codex cli aws provider", "codex cli bedrock configuration", "codex cli gpt-oss bedrock", "codex cli aws enterprise", "codex cli bedrock mantle"
