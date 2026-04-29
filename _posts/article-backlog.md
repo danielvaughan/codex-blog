@@ -1721,3 +1721,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: dotnet/skills v1.0.0, managedcode/dotnet-skills (157 skills), dotnet-artisan v1.4.0, Aspire MCP server docs, Microsoft .NET Blog agent skills post, C# 14 / .NET 10 docs, Codex CLI v0.124/v0.125 changelog, GPT-5.2-Codex announcement
    - Scope: Three-catalogue strategy (official dotnet/skills, managedcode/dotnet-skills, dotnet-artisan), Aspire MCP server for live runtime observability, updated AGENTS.md template for .NET 10 / C# 14, PostToolUse hooks for dotnet build/format, config.toml profiles, model selection for .NET tasks, Visual Studio 2026 bridge, common pitfalls
    - SEO targets: "codex cli dotnet", "codex cli csharp", "dotnet agent skills codex", "aspire mcp codex cli", "dotnet-artisan codex", "codex cli .NET 10", "codex cli C# 14"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Competitive Landscape & Pricing
+
+1. ✅ **GitHub Copilot's Usage-Based Billing Shift: What It Means for Codex CLI Teams** — Written 2026-04-29 → `2026-04-29-github-copilot-usage-billing-codex-cli-cost-comparison-migration.md`
+   - Source: GitHub Blog usage-based billing announcement (27 April 2026), GitHub Changelog Actions minutes change, GitHub Community FAQ, Visual Studio Magazine developer reactions, The New Stack coverage, OpenAI Codex pricing docs, codex-action docs, Slashdot discussion, OpenAI GPT-5.2-Codex announcement
+   - Scope: Copilot's June 2026 billing transition (AI Credits, Actions minutes for code review, paused sign-ups), head-to-head cost comparison with Codex CLI (individual and business tiers), hybrid stack pattern (Copilot Free + Codex CLI), migration checklist, decision framework flowchart
+   - SEO targets: "copilot usage based billing codex", "copilot vs codex cli pricing 2026", "github copilot ai credits", "copilot alternative codex cli", "copilot code review actions minutes"
