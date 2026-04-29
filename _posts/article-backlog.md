@@ -1659,3 +1659,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2603.24755 Orlanski et al. (March 2026), OpenAI AGENTS.md docs, OpenAI hooks docs, OpenAI subagents docs, OpenAI config-advanced docs, Justin3go context compaction analysis
    - Scope: SlopCodeBench benchmark findings (0% end-to-end solve, 80% erosion increase, 89.8% verbosity increase, 2.2x agent vs human verbosity), prompt intervention limitations (intercept shift without slope change), five-layer defence strategy (AGENTS.md anti-erosion policy, PostToolUse quality gate hooks, checkpoint-based session architecture, subagent delegation, periodic automated review), model selection for quality vs correctness, config.toml profiles
    - SEO targets: "slopcodebench codex cli", "coding agent code quality degradation", "codex cli long session quality", "agent code erosion", "codex cli refactoring strategy", "long-horizon coding agent"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Model Releases
+
+1. ✅ **GPT-5.2-Codex: What the New Agentic Coding Model Means for Your Codex CLI Workflows** — Written 2026-04-29 → `2026-04-29-gpt-5-2-codex-agentic-coding-model-cybersecurity-long-horizon-guide.md`
+   - Source: OpenAI GPT-5.2-Codex announcement, OpenAI API model docs, Cybersecurity News coverage, eSecurity Planet analysis, Digital Applied enterprise guide, NxCode xhigh reasoning guide
+   - Scope: GPT-5.2-Codex capabilities (native compaction, Windows support, cybersecurity), benchmark scores (SWE-Bench Pro 56.4%, Terminal-Bench 2.0 64.0%), model comparison decision framework, config.toml profiles for security audit and development, cost comparison table, multi-model routing with custom agents, headless CI pipeline, migration checklist, known limitations
+   - SEO targets: "gpt-5.2-codex codex cli", "gpt-5.2-codex vs gpt-5.5", "codex cli cybersecurity model", "gpt-5.2-codex config", "codex cli security audit model"
