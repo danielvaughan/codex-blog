@@ -1637,3 +1637,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex use cases (datasets-and-reports, clean-messy-data), DataCamp Codex CLI data workflow tutorial, OpenAI best practices, Codex changelog v0.124, OpenAI prompt caching guide, OpenAI MCP docs
    - Scope: Data project AGENTS.md patterns, messy CSV cleaning workflows, ETL pipeline scaffolding, codex exec for automated data validation, exploratory data analysis with Git worktrees, statistical modelling and report generation, MCP database integration, $spreadsheet and $jupyter-notebook skills, prompt-plus-stdin for piped data
    - SEO targets: "codex cli data analysis", "codex cli etl pipeline", "codex cli pandas", "codex cli csv cleaning", "codex cli data workflow automation", "codex cli tabular data"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Rust Development
+
+1. ✅ **Codex CLI for Rust Development Teams: rust-analyzer MCP, Cargo Hooks, and Agent-Driven Workflows** — Written 2026-04-29 → `2026-04-29-codex-cli-rust-teams-rust-analyzer-mcp-cargo-hooks-agent-driven-workflows.md`
+   - Source: rust-analyzer-mcp GitHub repo, InfoQ Codex Rust rewrite, OpenAI hooks docs, OpenAI AGENTS.md guide, agentsmd crate, cargo doc markdown proposal, RustRover 2026.1 blog, Codex CLI features docs
+   - Scope: AGENTS.md template for Rust 2024 edition projects, rust-analyzer MCP server setup (10 tools), PostToolUse hooks for cargo clippy/test verification, config.toml profiles for Rust work, agent-driven feature development sequence diagram, agent-ready API documentation via cargo doc, model selection table, common pitfalls, headless CI pipeline with codex exec
+   - SEO targets: "codex cli rust", "codex cli cargo", "codex cli rust-analyzer mcp", "codex cli clippy hooks", "codex cli rust development", "rust agents.md template"
