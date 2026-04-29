@@ -1765,3 +1765,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Cookbook code review with Codex SDK, OpenAI non-interactive mode docs, Codex GitHub Action docs, OpenAI Cookbook GitLab security pipeline, GitHub Issues #15451 and #14343
    - Scope: Four-stage self-hosted review pipeline pattern, structured output schema with --output-schema, multi-platform CI/CD implementations (GitHub Actions with codex-action, GitLab CI with manual CLI install, Azure DevOps with iteration-based anchoring, Jenkins with milestone gates), security hardening (credential isolation, prompt injection defence), cost management strategies, known limitations
    - SEO targets: "codex cli code review pipeline", "codex exec output-schema code review", "codex cli gitlab code review", "codex cli azure devops review", "self-hosted code review codex", "codex cli jenkins pipeline"
+
+### Solo Developer & Small Team Productivity
+
+1. ✅ **Codex CLI for Solo Developers: Maximum Impact from a One-Person Agentic Setup** — Written 2026-04-29 → `2026-04-29-codex-cli-solo-developer-small-team-setup-productivity.md`
+   - Source: OpenAI Codex rate card, OpenAI Codex pricing docs, OpenAI config basics docs, OpenAI config reference docs, OpenAI best practices docs, OpenAI GPT-5.2-Codex announcement, OpenAI skills docs, OpenAI subagents docs
+   - Scope: Subscription tier comparison (Plus/Pro/API), minimal config.toml for solo use, GPT-5.4-mini as cost-efficient default, AGENTS.md as project memory, two-tier model selection strategy, skills for recurring workflows, daily workflow rhythm, cost comparison table, features to skip as a solo developer
+   - SEO targets: "codex cli solo developer", "codex cli small team setup", "codex cli cost efficiency", "codex cli GPT-5.4-mini default", "codex cli productivity solo"
