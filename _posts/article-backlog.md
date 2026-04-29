@@ -1732,3 +1732,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: GitHub Blog usage-based billing announcement (27 April 2026), GitHub Changelog Actions minutes change, GitHub Community FAQ, Visual Studio Magazine developer reactions, The New Stack coverage, OpenAI Codex pricing docs, codex-action docs, Slashdot discussion, OpenAI GPT-5.2-Codex announcement
    - Scope: Copilot's June 2026 billing transition (AI Credits, Actions minutes for code review, paused sign-ups), head-to-head cost comparison with Codex CLI (individual and business tiers), hybrid stack pattern (Copilot Free + Codex CLI), migration checklist, decision framework flowchart
    - SEO targets: "copilot usage based billing codex", "copilot vs codex cli pricing 2026", "github copilot ai credits", "copilot alternative codex cli", "copilot code review actions minutes"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Prompting & Session Quality
+
+1. ✅ **Interaction Smells in Codex CLI Sessions: Recognising and Fixing Multi-Turn Prompt Anti-Patterns** — Written 2026-04-29 → `2026-04-29-interaction-smells-codex-cli-multi-turn-prompt-anti-patterns.md`
+   - Source: arXiv:2603.09701 Zhang et al. (March 2026), OpenAI Codex best practices, OpenAI Codex Prompting Guide, OpenAI advanced configuration docs, OpenAI CLI features docs, arXiv:2603.24755 SlopCodeBench, arXiv:2510.22977 Reasoning Trap (ICLR 2026)
+   - Scope: Three-category interaction smell taxonomy (User Intent Quality, Historical Instruction Compliance, Historical Response Violation), nine subcategories mapped to Codex CLI, AGENTS.md as invariant store, PostToolUse hooks as automated auditors, /compact and /fork as smell mitigation, InCE defence pattern adaptation, session hygiene checklist, when to start new sessions
+   - SEO targets: "codex cli prompt anti-patterns", "interaction smells coding agent", "codex cli multi-turn quality", "codex cli session hygiene", "codex cli prompt best practices", "multi-turn LLM coding quality"
