@@ -1801,3 +1801,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2604.14228 "Dive into Claude Code" (Liu et al., April 2026), OpenAI Codex agent loop blog, Jozefiak harness comparison, OpenAI Codex CLI docs, Justin3go compaction analysis
    - Scope: Design-space framework (5 values, 13 principles, 7 components, 5-layer architecture), Claude Code vs Codex CLI architectural mapping, seven practical lessons (harness tuning, permissions as architecture, context as infrastructure, graduated extensibility, session persistence, sandbox trust assumptions, Rust rewrite), configuration audit checklist, six open research directions
    - SEO targets: "codex cli architecture", "agent harness design space", "codex cli vs claude code architecture", "coding agent harness engineering", "codex cli design principles"
+
+### Session Management & Observability
+
+1. ✅ **Codex CLI Rollout Files: Session Recording, Replay, and Building Audit Trails** — Written 2026-04-29 → `2026-04-29-codex-cli-rollout-files-session-recording-replay-audit-trails.md`
+   - Source: OpenAI Codex CLI docs (features, reference, noninteractive), v0.125 changelog, GitHub Discussion #3827, ccusage session reports, SigNoz OTel integration, GitHub Issue #17000
+   - Scope: Rollout file directory structure and JSONL format, event types (thread/turn/item), jq inspection patterns, ccusage session analysis, debug trace reduction, session replay and resume, audit trail pipelines (S3 shipping, OpenTelemetry, compliance reports), disk management, practical forensic patterns
+   - SEO targets: "codex cli rollout files", "codex cli session recording", "codex cli audit trail", "codex exec json output", "codex cli observability"
