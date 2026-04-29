@@ -1743,3 +1743,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2603.09701 Zhang et al. (March 2026), OpenAI Codex best practices, OpenAI Codex Prompting Guide, OpenAI advanced configuration docs, OpenAI CLI features docs, arXiv:2603.24755 SlopCodeBench, arXiv:2510.22977 Reasoning Trap (ICLR 2026)
    - Scope: Three-category interaction smell taxonomy (User Intent Quality, Historical Instruction Compliance, Historical Response Violation), nine subcategories mapped to Codex CLI, AGENTS.md as invariant store, PostToolUse hooks as automated auditors, /compact and /fork as smell mitigation, InCE defence pattern adaptation, session hygiene checklist, when to start new sessions
    - SEO targets: "codex cli prompt anti-patterns", "interaction smells coding agent", "codex cli multi-turn quality", "codex cli session hygiene", "codex cli prompt best practices", "multi-turn LLM coding quality"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Incident Analysis & Agent Safety
+
+1. ✅ **The Nine-Second Database Deletion: What the PocketOS Incident Teaches Codex CLI Practitioners About Agent Safety** — Written 2026-04-29 → `2026-04-29-pocketos-incident-nine-second-database-deletion-codex-cli-defence-patterns.md`
+   - Source: Tom's Hardware PocketOS coverage, The Register analysis, Fast Company founder interview, NeuralTrust security post-mortem, OpenAI agent-approvals-security docs, OpenAI sandbox docs, OpenAI hooks docs, OpenAI AGENTS.md docs
+   - Scope: Six-link failure chain analysis, Cursor guardrail failures, four-layer Codex CLI defence mapping (kernel sandbox, approval policy, PreToolUse hooks, AGENTS.md + deny_read_paths), production-adjacent config.toml profile, credential isolation patterns, five practitioner lessons
+   - SEO targets: "pocketos database deletion codex cli", "codex cli agent safety production", "codex cli sandbox vs cursor", "AI agent production guardrails", "codex cli destructive command prevention"
