@@ -1677,3 +1677,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI-AWS partnership announcement, Neowin 4M WAU report, Panto Codex statistics, Fortune Claude Code post-mortem, OpenAI GPT-5.5 announcement, OpenAI pay-as-you-go pricing, OpenAI Developer Community rate limit reset thread
    - Scope: 4M WAU milestone analysis, growth drivers (GPT-5.5, pricing restructure, Claude Code crisis), GPT-5.2-Codex launch, OpenAI-AWS Bedrock partnership (models, Codex, managed agents), rate limit reset cycle, enterprise adoption signals, competitive landscape, practical takeaways for CLI users
    - SEO targets: "codex 4 million users", "codex growth 2026", "codex aws bedrock partnership", "codex enterprise adoption", "codex vs claude code 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Research & Reliability
+
+1. ✅ **The Reasoning Trap: Why Higher Reasoning Effort Increases Tool Hallucination and How to Defend Your Codex CLI Workflows** — Written 2026-04-29 → `2026-04-29-reasoning-trap-tool-hallucination-codex-cli-reasoning-effort-defence.md`
+   - Source: arXiv:2510.22977 "The Reasoning Trap" (Zhuang et al., ICLR 2026), OpenAI config-basic/config-reference/hooks/AGENTS.md docs, LeanIX code mode analysis, OpenAI agent-approvals-security docs
+   - Scope: ICLR 2026 paper findings (causal link between reasoning RL and tool hallucination, SimpleToolHalluBench results across Qwen/DeepSeek/Llama families, DPO mitigation limitations), mapping onto Codex CLI reasoning effort settings, five-layer defence strategy (right-sized profiles, MCP surface reduction, PostToolUse hooks, AGENTS.md anti-hallucination policy, approval mode gating), decision framework by task type, third-party provider implications
+   - SEO targets: "codex cli reasoning effort hallucination", "reasoning trap tool hallucination", "codex cli tool hallucination defence", "codex cli reasoning effort best practices", "MCP tool hallucination prevention"
