@@ -1710,3 +1710,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: ccusage GitHub (13.5k stars), tokscale GitHub (2.4k stars), agent-orchestrator GitHub (6.6k stars), oh-my-codex (18.8k stars), VoltAgent awesome-codex-subagents (4.3k stars), ComposioHQ awesome-codex-skills (4.4k stars), Awesome Codex CLI Discussion (#16329), OpenAI Codex changelog v0.124-v0.125
    - Scope: Token monitoring (ccusage, tokscale), parallel orchestration (agent-orchestrator, oh-my-codex, parallel-code), curated community collections (150+ ecosystem tools, 136 subagents, 50+ skills), practical config.toml profiles and shell aliases, selection decision framework, security caveats
    - SEO targets: "codex cli companion tools", "codex cli token monitoring", "ccusage codex", "tokscale codex", "codex cli parallel agents", "oh-my-codex", "awesome codex cli ecosystem"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### .NET Ecosystem & Agent Skills
+
+1. ✅ **The .NET Agent Skills Ecosystem Matures: Aspire MCP, dotnet-artisan, and the Three-Catalogue Strategy for Codex CLI** — Written 2026-04-29 → `2026-04-29-dotnet-agent-skills-ecosystem-codex-cli-aspire-mcp-three-catalogue-strategy.md`
+   - Source: dotnet/skills v1.0.0, managedcode/dotnet-skills (157 skills), dotnet-artisan v1.4.0, Aspire MCP server docs, Microsoft .NET Blog agent skills post, C# 14 / .NET 10 docs, Codex CLI v0.124/v0.125 changelog, GPT-5.2-Codex announcement
+   - Scope: Three-catalogue strategy (official dotnet/skills, managedcode/dotnet-skills, dotnet-artisan), Aspire MCP server for live runtime observability, updated AGENTS.md template for .NET 10 / C# 14, PostToolUse hooks for dotnet build/format, config.toml profiles, model selection for .NET tasks, Visual Studio 2026 bridge, common pitfalls
+   - SEO targets: "codex cli dotnet", "codex cli csharp", "dotnet agent skills codex", "aspire mcp codex cli", "dotnet-artisan codex", "codex cli .NET 10", "codex cli C# 14"
