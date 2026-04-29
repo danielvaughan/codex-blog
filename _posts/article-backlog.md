@@ -1615,3 +1615,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Angular 21 release notes, Angular CLI MCP Server docs (angular.dev/ai/mcp), Angular developer skill (GitHub angular/angular), Angular.love coverage, InfoQ Angular 21, PkgPulse zoneless guide, Angular Architects blog, OpenAI Codex changelog v0.124
    - Scope: Angular CLI MCP server setup in config.toml, AGENTS.md template for Angular 21 (signals, standalone, zoneless, Vitest), agent-driven feature workflow with sequence diagram, PostToolUse hooks for tsc/lint verification, zoneless migration patterns, Signal Forms experimental guidance, Vitest configuration, headless CI with codex exec and GitHub Actions, model selection table, common pitfalls
    - SEO targets: "codex cli angular", "codex cli angular mcp server", "codex cli signals angular", "codex cli angular 21", "angular agents.md", "codex cli enterprise frontend"
+
+---
+
+## New Articles — Auto-Generated (2026-04-29, Hourly Scan)
+
+### Cloud Platform & MCP Integration
+
+1. ✅ **Codex CLI and Cloudflare: Code Mode MCP, Dynamic Workers, and Edge Development Workflows** — Written 2026-04-29 → `2026-04-29-codex-cli-cloudflare-code-mode-mcp-workers-edge-development.md`
+   - Source: Cloudflare Agents Week announcements, Code Mode MCP blog, Cloudflare agent-setup/codex docs, Cloudflare internal AI engineering stack blog, InfoQ Code Mode coverage, OpenAI Codex GitHub issues
+   - Scope: Code Mode two-tool architecture (search + execute), 99.9% token reduction, sixteen Cloudflare MCP servers, plugin setup, config.toml manual configuration, AGENTS.md template for Workers projects, four workflow patterns (scaffold, debug, DNS automation, CI/CD), Cloudflare internal adoption metrics, security model, limitations
+   - SEO targets: "codex cli cloudflare", "codex cli cloudflare mcp", "codex cli workers", "code mode mcp cloudflare", "codex cli edge deployment", "cloudflare agents codex"
