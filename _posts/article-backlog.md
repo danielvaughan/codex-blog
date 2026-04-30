@@ -1877,3 +1877,8 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2604.25850 Lin et al. (April 28-29, 2026), OpenAI harness engineering guide, Codex CLI changelog v0.125, SigNoz OTEL docs
    - Scope: Three observability pillars (component, experience, decision), seven editable harness types mapped to Codex CLI primitives, ablation results (memory +5.6pp, tools +3.3pp, middleware +2.2pp, prompt -2.3pp alone), cross-family transfer gains, practical observability-driven evolution loop for Codex CLI teams, regression prediction limitations
    - SEO targets: "codex cli harness engineering", "agentic harness evolution", "codex cli observability configuration", "coding agent harness optimisation", "codex cli AGENTS.md vs hooks"
+
+2. ✅ **From Code Generation to Delegated Execution: The Agentic SDLC and What It Means for Your Codex CLI Workflow** — Written 2026-04-30 → `2026-04-30-agentic-sdlc-research-codex-cli-delegated-execution-confidence-gap.md`
+   - Source: arXiv:2604.26275 Bhati (April 29, 2026), arXiv:2604.15468 Feldt et al. (April 16-23, 2026), CodeRabbit Agentic SDLC Guide (April 2026), BenchLM SWE-bench data
+   - Scope: Agentic SDLC vs AI-assisted distinction, Semi-Executable Stack six-ring model mapped to Codex CLI primitives, confidence gap risks and config mitigations, five open problems (evaluation, governance, tech debt, skill redistribution, attention economics) with practical implications, preserve-versus-purify heuristic for process redesign
+   - SEO targets: "agentic sdlc codex cli", "delegated execution coding agents", "confidence gap ai code review", "semi-executable stack software engineering", "codex cli governance configuration"
