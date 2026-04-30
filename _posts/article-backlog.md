@@ -1855,3 +1855,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Subagents docs, GitHub PR #10935 (daveaitel-openai), Morph multi-agent guide, OpenAI config-reference docs, OpenAI CLI reference docs
    - Scope: spawn_agents_on_csv tool parameters, worker contract (report_agent_job_result), output CSV format, SQLite state persistence, four practical patterns (security audit, migration readiness, PR review batch, CI pipeline), custom worker agent TOML definitions, error handling, cost and sizing guidelines, progress monitoring, limitations
    - SEO targets: "codex cli spawn_agents_on_csv", "codex cli csv batch processing", "codex cli parallel audit", "codex cli map reduce agents", "codex cli batch worker subagents"
+
+---
+
+## New Articles — Auto-Generated (2026-04-30, Hourly Scan)
+
+### Enterprise & Cloud Deployment
+
+1. ✅ **Bedrock Managed Agents Powered by OpenAI: What Server-Side Codex Means for Enterprise Automation** — Written 2026-04-30 → `2026-04-30-bedrock-managed-agents-openai-server-side-codex-enterprise-automation.md`
+   - Source: OpenAI announcement, Amazon announcement, AWS Bedrock docs, AgentCore docs, Bedrock pricing
+   - Scope: Server-side OpenAI agent harness on AWS, AgentCore compute, Stateful Runtime, IAM/CloudTrail/PrivateLink security, comparison with client-side Codex CLI, CI/CD and incident response use cases, pricing, limited preview status, two-surface strategy
+   - SEO targets: "bedrock managed agents openai", "codex aws managed agents", "openai bedrock enterprise", "server side codex agent", "aws openai agent harness"
