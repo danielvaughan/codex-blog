@@ -1866,3 +1866,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI announcement, Amazon announcement, AWS Bedrock docs, AgentCore docs, Bedrock pricing
    - Scope: Server-side OpenAI agent harness on AWS, AgentCore compute, Stateful Runtime, IAM/CloudTrail/PrivateLink security, comparison with client-side Codex CLI, CI/CD and incident response use cases, pricing, limited preview status, two-surface strategy
    - SEO targets: "bedrock managed agents openai", "codex aws managed agents", "openai bedrock enterprise", "server side codex agent", "aws openai agent harness"
+
+---
+
+## New Articles — Auto-Generated (2026-04-30, Hourly Scan)
+
+### Research & Harness Engineering
+
+1. ✅ **Agentic Harness Engineering: What Observability-Driven Evolution Means for Your Codex CLI Configuration** — Written 2026-04-30 → `2026-04-30-agentic-harness-engineering-observability-driven-evolution-codex-cli.md`
+   - Source: arXiv:2604.25850 Lin et al. (April 28-29, 2026), OpenAI harness engineering guide, Codex CLI changelog v0.125, SigNoz OTEL docs
+   - Scope: Three observability pillars (component, experience, decision), seven editable harness types mapped to Codex CLI primitives, ablation results (memory +5.6pp, tools +3.3pp, middleware +2.2pp, prompt -2.3pp alone), cross-family transfer gains, practical observability-driven evolution loop for Codex CLI teams, regression prediction limitations
+   - SEO targets: "codex cli harness engineering", "agentic harness evolution", "codex cli observability configuration", "coding agent harness optimisation", "codex cli AGENTS.md vs hooks"
