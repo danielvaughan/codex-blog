@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 449
 tags: ["codex-cli", "game-development", "unity", "godot", "mcp", "agents-md", "bevy", "gdscript", "csharp"]
 ---
+![Sketchnote diagram for: Codex CLI for Game Development Teams: Unity MCP, Godot MCP, and Agent-Driven Game Workflows](/sketchnotes/articles/2026-04-27-codex-cli-game-development-unity-godot-mcp-agent-driven-workflows.png)
+
 
 # Codex CLI for Game Development Teams: Unity MCP, Godot MCP, and Agent-Driven Game Workflows
 

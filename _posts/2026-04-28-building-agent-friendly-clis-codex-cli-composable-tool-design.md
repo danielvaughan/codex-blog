@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 476
 tags: ["cli-design", "agent-friendly", "composable-tools", "skills", "cli-creator", "structured-output", "automation"]
 ---
+![Sketchnote diagram for: Building Agent-Friendly CLIs with Codex CLI: Composable Tool Design for the Agentic Era](/sketchnotes/articles/2026-04-28-building-agent-friendly-clis-codex-cli-composable-tool-design.png)
+
 
 # Building Agent-Friendly CLIs with Codex CLI: Composable Tool Design for the Agentic Era
 

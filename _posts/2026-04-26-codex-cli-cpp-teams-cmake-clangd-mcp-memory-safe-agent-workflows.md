@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 438
 tags: ["codex-cli", "c++", "c", "cmake", "clangd", "mcp", "memory-safety", "sanitisers", "agents-md", "hooks", "c++26"]
 ---
+![Sketchnote diagram for: Codex CLI for C and C++ Teams: CMake, Clangd MCP, Sanitisers, and Memory-Safe Agent Workflows](/sketchnotes/articles/2026-04-26-codex-cli-cpp-teams-cmake-clangd-mcp-memory-safe-agent-workflows.png)
+
 
 # Codex CLI for C and C++ Teams: CMake, Clangd MCP, Sanitisers, and Memory-Safe Agent Workflows
 

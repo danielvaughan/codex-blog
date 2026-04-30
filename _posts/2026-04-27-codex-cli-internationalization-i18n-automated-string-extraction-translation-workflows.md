@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 456
 tags: ["codex-cli", "i18n", "l10n", "internationalization", "translation", "mcp", "automation", "react-i18next", "next-intl", "better-i18n"]
 ---
+![Sketchnote diagram for: Codex CLI for Internationalization: Automated String Extraction, Translation MCP Servers, and i18n Workflow Patterns](/sketchnotes/articles/2026-04-27-codex-cli-internationalization-i18n-automated-string-extraction-translation-workflows.png)
+
 
 # Codex CLI for Internationalization: Automated String Extraction, Translation MCP Servers, and i18n Workflow Patterns
 

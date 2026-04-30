@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 439
 tags: ["codex-cli", "typescript", "javascript", "migration", "refactoring", "code-modernisation", "gpt-5.5", "worktrees", "exec-mode"]
 ---
+![Sketchnote diagram for: JavaScript-to-TypeScript Migration with Codex CLI: Gradual Typing Strategies for Large Codebases](/sketchnotes/articles/2026-04-26-codex-cli-typescript-migration-javascript-gradual-typing-large-codebase.png)
+
 
 # JavaScript-to-TypeScript Migration with Codex CLI: Gradual Typing Strategies for Large Codebases
 

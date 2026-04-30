@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 459
 tags: ["neovim", "tmux", "terminal-workflow", "codex.nvim", "sidekick.nvim", "codex-cli-farm", "ntm", "parallel-agents", "developer-productivity"]
 ---
+![Sketchnote diagram for: Terminal-Native Codex CLI Workflows: Neovim, tmux, and the Multiplexer-Driven Development Stack](/sketchnotes/articles/2026-04-27-codex-cli-terminal-native-workflow-neovim-tmux-multiplexer-integration.png)
+
 
 # Terminal-Native Codex CLI Workflows: Neovim, tmux, and the Multiplexer-Driven Development Stack
 

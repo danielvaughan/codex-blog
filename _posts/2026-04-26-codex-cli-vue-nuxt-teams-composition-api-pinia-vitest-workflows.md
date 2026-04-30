@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 433
 tags: ["codex-cli", "vue", "nuxt", "pinia", "vitest", "composition-api", "mcp", "agents-md", "frontend"]
 ---
+![Sketchnote diagram for: Codex CLI for Vue and Nuxt Teams: Composition API, Pinia, Vitest, and Agent-Driven Component Workflows](/sketchnotes/articles/2026-04-26-codex-cli-vue-nuxt-teams-composition-api-pinia-vitest-workflows.png)
+
 
 # Codex CLI for Vue and Nuxt Teams: Composition API, Pinia, Vitest, and Agent-Driven Component Workflows
 

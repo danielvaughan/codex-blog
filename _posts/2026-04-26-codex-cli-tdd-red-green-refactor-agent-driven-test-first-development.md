@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 430
 tags: ["codex-cli", "tdd", "testing", "red-green-refactor", "agent-skills", "best-practices", "codex-exec"]
 ---
+![Sketchnote diagram for: Test-Driven Development with Codex CLI: Agent-Driven Red-Green-Refactor Workflows](/sketchnotes/articles/2026-04-26-codex-cli-tdd-red-green-refactor-agent-driven-test-first-development.png)
+
 
 # Test-Driven Development with Codex CLI: Agent-Driven Red-Green-Refactor Workflows
 

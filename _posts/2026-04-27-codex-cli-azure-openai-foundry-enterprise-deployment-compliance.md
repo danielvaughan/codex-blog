@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 458
 tags: ["codex-cli", "azure-openai", "microsoft-foundry", "enterprise", "compliance", "config.toml", "model-provider", "CI/CD"]
 ---
+![Sketchnote diagram for: Codex CLI with Azure OpenAI and Microsoft Foundry: Enterprise Agent Deployment on Azure Infrastructure](/sketchnotes/articles/2026-04-27-codex-cli-azure-openai-foundry-enterprise-deployment-compliance.png)
+
 
 # Codex CLI with Azure OpenAI and Microsoft Foundry: Enterprise Agent Deployment on Azure Infrastructure
 

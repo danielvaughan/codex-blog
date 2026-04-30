@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 453
 tags: ["codex-cli", "image-generation", "gpt-image-2", "imagegen", "frontend-design", "visual-workflows", "figma", "playwright", "prototyping"]
 ---
+![Sketchnote diagram for: Image Generation in Codex CLI: gpt-image-2, the $imagegen Skill, and Visual Development Workflows](/sketchnotes/articles/2026-04-27-codex-cli-image-generation-gpt-image-2-visual-development-workflows.png)
+
 
 # Image Generation in Codex CLI: gpt-image-2, the $imagegen Skill, and Visual Development Workflows
 

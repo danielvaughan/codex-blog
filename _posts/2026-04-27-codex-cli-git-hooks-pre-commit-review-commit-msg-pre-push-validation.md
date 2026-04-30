@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 461
 tags: ["codex-cli", "git-hooks", "pre-commit", "commit-msg", "pre-push", "codex-exec", "lefthook", "automation", "code-review", "conventional-commits"]
 ---
+![Sketchnote diagram for: Git Hooks Powered by Codex CLI: Pre-Commit Review, Commit Message Generation, and Pre-Push Validation](/sketchnotes/articles/2026-04-27-codex-cli-git-hooks-pre-commit-review-commit-msg-pre-push-validation.png)
+
 
 # Git Hooks Powered by Codex CLI: Pre-Commit Review, Commit Message Generation, and Pre-Push Validation
 

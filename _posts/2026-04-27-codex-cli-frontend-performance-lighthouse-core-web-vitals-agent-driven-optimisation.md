@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 448
 tags: ["codex-cli", "performance", "lighthouse", "core-web-vitals", "mcp", "skills", "ci-cd", "frontend"]
 ---
+![Sketchnote diagram for: Codex CLI for Frontend Performance Optimisation: Lighthouse MCP, Core Web Vitals Skills, and Agent-Driven Performance Budgets](/sketchnotes/articles/2026-04-27-codex-cli-frontend-performance-lighthouse-core-web-vitals-agent-driven-optimisation.png)
+
 
 # Codex CLI for Frontend Performance Optimisation: Lighthouse MCP, Core Web Vitals Skills, and Agent-Driven Performance Budgets
 

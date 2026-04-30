@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 451
 tags: ["spec-driven-development", "workflow-frameworks", "spec-kit", "cc-sdd", "codex-spec", "codex-cli", "planning", "skills", "slash-commands"]
 ---
+![Sketchnote diagram for: SDD Tooling for Codex CLI: spec-kit, cc-sdd, and codex-spec Compared](/sketchnotes/articles/2026-04-27-spec-driven-development-tooling-codex-cli-spec-kit-cc-sdd-codex-spec.png)
+
 
 # SDD Tooling for Codex CLI: spec-kit, cc-sdd, and codex-spec Compared
 

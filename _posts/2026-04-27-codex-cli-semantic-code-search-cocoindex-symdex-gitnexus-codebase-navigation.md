@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 452
 tags: ["codex-cli", "semantic-search", "code-navigation", "MCP", "CocoIndex", "SymDex", "GitNexus", "AST", "knowledge-graph", "codebase-indexing"]
 ---
+![Sketchnote diagram for: Semantic Code Search for Codex CLI: CocoIndex, SymDex, and GitNexus for Better Agent Navigation](/sketchnotes/articles/2026-04-27-codex-cli-semantic-code-search-cocoindex-symdex-gitnexus-codebase-navigation.png)
+
 
 # Semantic Code Search for Codex CLI: CocoIndex, SymDex, and GitNexus for Better Agent Navigation
 

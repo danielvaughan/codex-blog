@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 463
 tags: ["codex-cli", "evaluation", "scored-loops", "LLM-as-judge", "optimisation", "advanced-workflows", "GPT-5.5"]
 ---
+![Sketchnote diagram for: Scored Improvement Loops with Codex CLI: Eval-Driven Iterative Problem-Solving](/sketchnotes/articles/2026-04-27-codex-cli-scored-improvement-loops-eval-driven-iterative-problem-solving.png)
+
 
 # Scored Improvement Loops with Codex CLI: Eval-Driven Iterative Problem-Solving
 
