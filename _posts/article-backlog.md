@@ -1833,3 +1833,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Flex Processing docs, Codex Speed docs, Codex Pricing docs, Codex Changelog v0.124/v0.125, Codex Advanced Configuration docs, GitHub Issue #18692
    - Scope: Three service tiers (Flex at 50% discount, Standard baseline, Fast at 1.5x speed/2-2.5x cost), config.toml and profile-based configuration, per-session overrides, cost modelling table across models and tiers, prompt caching stacking with tier discounts, four practical patterns (tiered CI pipeline, dynamic mid-session switching, overnight batch with monitoring, subagent delegation with mixed tiers), error handling for Flex 429s, decision flowchart, limitations and caveats
    - SEO targets: "codex cli service tier", "codex cli flex tier", "codex cli fast mode", "codex cli cost optimisation", "codex cli batch processing cost", "codex exec flex pricing"
+
+---
+
+## New Articles — Auto-Generated (2026-04-30, Hourly Scan)
+
+### Configuration & Productivity
+
+1. ✅ **Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates** — Written 2026-04-30 → `2026-04-30-codex-cli-named-profiles-cookbook-configuration-templates.md`
+   - Source: OpenAI config-advanced docs, config-reference docs, config-basic docs, pricing docs, models docs, best practices docs, v0.125 release notes
+   - Scope: Eight ready-to-use named profiles (fast, deep, review, ci, security, explore, spark, migrate), profile-compatible key reference, precedence rules, project config integration, mid-session switching, decision framework, cost per profile, practical recommendations
+   - SEO targets: "codex cli profiles", "codex cli config.toml profiles", "codex cli named profile cookbook", "codex -p fast", "codex cli workflow profiles"
