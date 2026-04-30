@@ -1826,3 +1826,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Privacy Filter announcement, Privacy Filter GitHub repo, OpenAI hooks docs, OpenAI managed configuration docs, The New Stack Privacy Filter coverage, Tonic.ai benchmark analysis
    - Scope: Privacy Filter model overview (1.5B params, 96% F1, 8 PII span types, 128K context), four integration patterns (UserPromptSubmit prompt scanning, PreToolUse file-read interception, PostToolUse output scanning, batch CI/CD scanning), hook configuration, fine-tuning for domain-specific PII, enterprise managed configuration enforcement, defence-in-depth layering with deny_read_paths and shell_environment_policy, performance benchmarks, limitations
    - SEO targets: "codex cli privacy filter", "codex cli PII detection", "codex cli data protection hooks", "openai privacy filter coding agent", "codex cli prevent PII leakage", "codex cli GDPR compliance"
+
+### Cost & Performance Optimisation
+
+1. ✅ **Codex CLI Service Tiers Explained: Flex, Standard, and Fast Mode for Cost and Speed Optimisation** — Written 2026-04-30 → `2026-04-30-codex-cli-service-tiers-flex-fast-cost-speed-optimisation.md`
+   - Source: OpenAI Flex Processing docs, Codex Speed docs, Codex Pricing docs, Codex Changelog v0.124/v0.125, Codex Advanced Configuration docs, GitHub Issue #18692
+   - Scope: Three service tiers (Flex at 50% discount, Standard baseline, Fast at 1.5x speed/2-2.5x cost), config.toml and profile-based configuration, per-session overrides, cost modelling table across models and tiers, prompt caching stacking with tier discounts, four practical patterns (tiered CI pipeline, dynamic mid-session switching, overnight batch with monitoring, subagent delegation with mixed tiers), error handling for Flex 429s, decision flowchart, limitations and caveats
+   - SEO targets: "codex cli service tier", "codex cli flex tier", "codex cli fast mode", "codex cli cost optimisation", "codex cli batch processing cost", "codex exec flex pricing"
