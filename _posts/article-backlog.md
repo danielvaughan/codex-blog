@@ -1904,3 +1904,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: GitHub release notes rust-v0.128.0, OpenAI Codex changelog, OpenAI CLI reference docs, GitHub Issues #9274 and #11169, OpenAI slash commands docs
    - Scope: codex update self-update subcommand, persistent /goal workflows with pause/resume/clear, /keymap configurable TUI keybindings, /statusline and /title customisation, external agent session imports, MultiAgentV2 thread caps and depth limits, permission profile built-in defaults, plugin-bundled hooks, stale interrupt fix, network and Windows sandbox hardening
    - SEO targets: "codex cli v0.128", "codex cli update command", "codex cli goal workflow", "codex cli keymap customisation", "codex cli self-update"
+
+---
+
+## New Articles — Auto-Generated (2026-04-30, Hourly Scan)
+
+### Developer Productivity & Automation
+
+1. ✅ **Codex CLI exec Recipes: Practical One-Liners and Shell Patterns for Daily Development** — Written 2026-04-30 → `2026-04-30-codex-cli-exec-recipes-practical-one-liners-shell-patterns.md`
+   - Source: OpenAI non-interactive mode docs, OpenAI CLI reference docs, OpenAI Codex changelog, OpenAI Codex features docs, OpenAI Cookbook GitLab security example, GitHub PR #15917 stdin piping
+   - Scope: Twelve ready-to-run codex exec recipes (commit messages, PR summaries, lint fixes, security scans, release notes, test stubs, code conversion, CI failure triage, TODO extraction, structured JSON reports, session resume, file explanation), Makefile wrapper pattern for team toolkits, performance and cost tips, profile-based model selection, reasoning-token reporting, prompt caching benefits, decision framework for exec vs TUI
+   - SEO targets: "codex exec examples", "codex exec one-liners", "codex cli shell scripts", "codex exec automation recipes", "codex cli makefile patterns", "codex exec commit message"
