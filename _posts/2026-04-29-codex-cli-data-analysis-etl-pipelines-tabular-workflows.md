@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 480
 tags: ["codex-cli", "data-analysis", "etl", "pandas", "automation", "data-engineering", "tabular-data"]
 ---
+![Sketchnote diagram for: Codex CLI for Data Analysis: ETL Pipelines, Tabular Workflows, and Reproducible Reports](/sketchnotes/articles/2026-04-29-codex-cli-data-analysis-etl-pipelines-tabular-workflows.png)
+
 
 # Codex CLI for Data Analysis: ETL Pipelines, Tabular Workflows, and Reproducible Reports
 

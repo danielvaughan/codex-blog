@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 496
 tags: ["codex-cli", "architecture", "agent-harness", "design-space", "claude-code", "research", "comparison"]
 ---
+![Sketchnote diagram for: The Design Space of Coding Agent Harnesses: Seven Architectural Lessons from the Claude Code Analysis That Apply to Codex CLI](/sketchnotes/articles/2026-04-29-design-space-of-coding-agent-harnesses-codex-cli-claude-code-architectural-lessons.png)
+
 
 # The Design Space of Coding Agent Harnesses: Seven Architectural Lessons from the Claude Code Analysis That Apply to Codex CLI
 

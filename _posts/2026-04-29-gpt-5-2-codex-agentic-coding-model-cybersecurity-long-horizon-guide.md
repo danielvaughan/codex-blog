@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 483
 tags: ["codex-cli", "gpt-5.2-codex", "models", "cybersecurity", "benchmarks", "configuration", "long-horizon", "reasoning"]
 ---
+![Sketchnote diagram for: GPT-5.2-Codex: What the New Agentic Coding Model Means for Your Codex CLI Workflows](/sketchnotes/articles/2026-04-29-gpt-5-2-codex-agentic-coding-model-cybersecurity-long-horizon-guide.png)
+
 
 # GPT-5.2-Codex: What the New Agentic Coding Model Means for Your Codex CLI Workflows
 

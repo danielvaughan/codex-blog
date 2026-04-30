@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 489
 tags: ["codex-cli", "github-copilot", "pricing", "cost-comparison", "migration", "enterprise", "billing"]
 ---
+![Sketchnote diagram for: GitHub Copilot's Usage-Based Billing Shift: What It Means for Codex CLI Teams](/sketchnotes/articles/2026-04-29-github-copilot-usage-billing-codex-cli-cost-comparison-migration.png)
+
 
 # GitHub Copilot's Usage-Based Billing Shift: What It Means for Codex CLI Teams
 

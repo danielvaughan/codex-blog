@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 474
 tags: ["codex-cli", "symphony", "orchestration", "linear", "autonomous-agents", "app-server", "devops", "ci-cd"]
 ---
+![Sketchnote diagram for: OpenAI Symphony: Turning Linear Into a Control Plane for Autonomous Codex Agents](/sketchnotes/articles/2026-04-28-openai-symphony-codex-orchestration-linear-autonomous-agent-workflows.png)
+
 
 # OpenAI Symphony: Turning Linear Into a Control Plane for Autonomous Codex Agents
 

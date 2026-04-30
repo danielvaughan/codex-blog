@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 493
 tags: ["codex-cli", "solo-developer", "productivity", "configuration", "cost-efficiency", "AGENTS.md", "skills", "workflows"]
 ---
+![Sketchnote diagram for: Codex CLI for Solo Developers: Maximum Impact from a One-Person Agentic Setup](/sketchnotes/articles/2026-04-29-codex-cli-solo-developer-small-team-setup-productivity.png)
+
 
 # Codex CLI for Solo Developers: Maximum Impact from a One-Person Agentic Setup
 

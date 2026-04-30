@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 485
 tags: ["reasoning-effort", "tool-hallucination", "MCP", "reliability", "config.toml", "GPT-5.5", "research"]
 ---
+![Sketchnote diagram for: The Reasoning Trap: Why Higher Reasoning Effort Increases Tool Hallucination and How to Defend Your Codex CLI Workflows](/sketchnotes/articles/2026-04-29-reasoning-trap-tool-hallucination-codex-cli-reasoning-effort-defence.png)
+
 
 # The Reasoning Trap: Why Higher Reasoning Effort Increases Tool Hallucination and How to Defend Your Codex CLI Workflows
 

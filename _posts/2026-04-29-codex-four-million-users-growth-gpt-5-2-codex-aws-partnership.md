@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 484
 tags: ["codex", "growth", "enterprise", "gpt-5.2-codex", "gpt-5.5", "aws", "bedrock", "adoption", "market-analysis", "rate-limits", "pricing"]
 ---
+![Sketchnote diagram for: Codex at Four Million: What Three Weeks of Hypergrowth Reveals About the Agentic Coding Market](/sketchnotes/articles/2026-04-29-codex-four-million-users-growth-gpt-5-2-codex-aws-partnership.png)
+
 
 # Codex at Four Million: What Three Weeks of Hypergrowth Reveals About the Agentic Coding Market
 

@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 482
 tags: ["codex-cli", "slopcodebench", "code-quality", "long-horizon", "degradation", "agents-md", "hooks", "subagents", "context-compaction", "refactoring"]
 ---
+![Sketchnote diagram for: SlopCodeBench and Code Quality Degradation: Defending Against Architectural Decay in Long-Horizon Codex CLI Sessions](/sketchnotes/articles/2026-04-29-slopcodebench-code-quality-degradation-codex-cli-long-horizon-defence.png)
+
 
 # SlopCodeBench and Code Quality Degradation: Defending Against Architectural Decay in Long-Horizon Codex CLI Sessions
 

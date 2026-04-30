@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 492
 tags: ["codex-cli", "code-review", "ci-cd", "github-actions", "gitlab-ci", "azure-devops", "jenkins", "structured-output", "automation"]
 ---
+![Sketchnote diagram for: Self-Hosted Code Review Pipelines with Codex CLI: Structured Output Across GitHub Actions, GitLab CI, Azure DevOps, and Jenkins](/sketchnotes/articles/2026-04-29-codex-cli-self-hosted-code-review-pipelines-multi-platform-ci-cd.png)
+
 
 # Self-Hosted Code Review Pipelines with Codex CLI: Structured Output Across GitHub Actions, GitLab CI, Azure DevOps, and Jenkins
 

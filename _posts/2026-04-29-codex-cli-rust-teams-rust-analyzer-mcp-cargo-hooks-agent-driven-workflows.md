@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 481
 tags: ["codex-cli", "rust", "rust-analyzer", "mcp", "cargo", "clippy", "agents-md", "hooks", "development-workflow"]
 ---
+![Sketchnote diagram for: Codex CLI for Rust Development Teams: rust-analyzer MCP, Cargo Hooks, and Agent-Driven Workflows](/sketchnotes/articles/2026-04-29-codex-cli-rust-teams-rust-analyzer-mcp-cargo-hooks-agent-driven-workflows.png)
+
 
 # Codex CLI for Rust Development Teams: rust-analyzer MCP, Cargo Hooks, and Agent-Driven Workflows
 

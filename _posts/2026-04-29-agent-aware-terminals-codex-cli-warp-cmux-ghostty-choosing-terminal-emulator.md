@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 495
 tags: ["codex-cli", "terminal-emulator", "warp", "cmux", "ghostty", "kitty", "developer-tooling", "agent-orchestration", "productivity"]
 ---
+![Sketchnote diagram for: Agent-Aware Terminals for Codex CLI: Choosing the Right Terminal Emulator in the AI Coding Era](/sketchnotes/articles/2026-04-29-agent-aware-terminals-codex-cli-warp-cmux-ghostty-choosing-terminal-emulator.png)
+
 
 # Agent-Aware Terminals for Codex CLI: Choosing the Right Terminal Emulator in the AI Coding Era
 

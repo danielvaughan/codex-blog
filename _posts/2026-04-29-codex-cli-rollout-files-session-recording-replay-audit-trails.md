@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 497
 tags: ["codex-cli", "rollout-files", "sessions", "audit", "observability", "debugging", "compliance", "JSONL"]
 ---
+![Sketchnote diagram for: Codex CLI Rollout Files: Session Recording, Replay, and Building Audit Trails](/sketchnotes/articles/2026-04-29-codex-cli-rollout-files-session-recording-replay-audit-trails.png)
+
 
 # Codex CLI Rollout Files: Session Recording, Replay, and Building Audit Trails
 

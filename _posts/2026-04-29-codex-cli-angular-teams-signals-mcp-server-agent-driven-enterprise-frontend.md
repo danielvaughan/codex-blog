@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 478
 tags: ["codex-cli", "angular", "angular-21", "signals", "mcp-server", "agents-md", "enterprise-frontend", "zoneless", "vitest", "standalone-components"]
 ---
+![Sketchnote diagram for: Codex CLI for Angular Teams: MCP Server, Signal-Based Patterns, and Agent-Driven Enterprise Frontend Workflows](/sketchnotes/articles/2026-04-29-codex-cli-angular-teams-signals-mcp-server-agent-driven-enterprise-frontend.png)
+
 
 # Codex CLI for Angular Teams: MCP Server, Signal-Based Patterns, and Agent-Driven Enterprise Frontend Workflows
 

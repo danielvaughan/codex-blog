@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 501
 tags: ["codex-cli", "configuration", "profiles", "config.toml", "workflow", "productivity", "cost-optimisation"]
 ---
+![Sketchnote diagram for: Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates](/sketchnotes/articles/2026-04-30-codex-cli-named-profiles-cookbook-configuration-templates.png)
+
 
 # Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates
 

@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 502
 tags: ["codex-cli", "subagents", "csv-batch", "spawn_agents_on_csv", "parallel-processing", "automation", "map-reduce"]
 ---
+![Sketchnote diagram for: CSV Batch Processing with spawn_agents_on_csv: Map-Reduce Workflows for Codex CLI](/sketchnotes/articles/2026-04-30-codex-cli-csv-batch-processing-spawn-agents-on-csv-parallel-audits.png)
+
 
 # CSV Batch Processing with spawn_agents_on_csv: Map-Reduce Workflows for Codex CLI
 

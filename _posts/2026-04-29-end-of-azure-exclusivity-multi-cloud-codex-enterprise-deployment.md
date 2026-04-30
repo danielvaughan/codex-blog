@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 494
 tags: ["codex-cli", "enterprise", "multi-cloud", "aws", "azure", "bedrock", "strategy", "deployment", "configuration"]
 ---
+![Sketchnote diagram for: The End of Azure Exclusivity: How OpenAI's Multi-Cloud Pivot Changes the Codex CLI Enterprise Deployment Playbook](/sketchnotes/articles/2026-04-29-end-of-azure-exclusivity-multi-cloud-codex-enterprise-deployment.png)
+
 
 # The End of Azure Exclusivity: How OpenAI's Multi-Cloud Pivot Changes the Codex CLI Enterprise Deployment Playbook
 

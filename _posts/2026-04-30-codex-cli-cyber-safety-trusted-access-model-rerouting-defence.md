@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 498
 tags: ["codex-cli", "cyber-safety", "security", "trusted-access", "GPT-5.4-Cyber", "model-rerouting", "preparedness-framework"]
 ---
+![Sketchnote diagram for: Codex CLI Cyber Safety: Understanding Model Rerouting, Trusted Access, and the False Positive Problem](/sketchnotes/articles/2026-04-30-codex-cli-cyber-safety-trusted-access-model-rerouting-defence.png)
+
 
 # Codex CLI Cyber Safety: Understanding Model Rerouting, Trusted Access, and the False Positive Problem
 

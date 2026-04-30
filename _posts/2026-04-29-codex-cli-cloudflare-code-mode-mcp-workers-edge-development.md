@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 479
 tags: ["codex-cli", "cloudflare", "mcp", "code-mode", "workers", "edge-computing", "dynamic-workers", "agents-week"]
 ---
+![Sketchnote diagram for: Codex CLI and Cloudflare: Code Mode MCP, Dynamic Workers, and Edge Development Workflows](/sketchnotes/articles/2026-04-29-codex-cli-cloudflare-code-mode-mcp-workers-edge-development.png)
+
 
 # Codex CLI and Cloudflare: Code Mode MCP, Dynamic Workers, and Edge Development Workflows
 

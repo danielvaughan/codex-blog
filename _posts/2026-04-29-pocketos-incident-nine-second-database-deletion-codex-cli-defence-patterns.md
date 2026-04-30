@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 491
 tags: ["security", "agent-safety", "production-guardrails", "approval-modes", "sandbox", "incident-analysis", "AGENTS.md"]
 ---
+![Sketchnote diagram for: The Nine-Second Database Deletion: What the PocketOS Incident Teaches Codex CLI Practitioners About Agent Safety](/sketchnotes/articles/2026-04-29-pocketos-incident-nine-second-database-deletion-codex-cli-defence-patterns.png)
+
 
 # The Nine-Second Database Deletion: What the PocketOS Incident Teaches Codex CLI Practitioners About Agent Safety
 

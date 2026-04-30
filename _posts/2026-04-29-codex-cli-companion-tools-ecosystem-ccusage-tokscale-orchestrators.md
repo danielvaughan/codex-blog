@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 487
 tags: ["codex-cli", "ecosystem", "open-source", "ccusage", "tokscale", "agent-orchestrator", "oh-my-codex", "subagents", "skills", "productivity"]
 ---
+![Sketchnote diagram for: The Codex CLI Companion Tools Ecosystem: Token Monitors, Orchestrators, and Community Collections](/sketchnotes/articles/2026-04-29-codex-cli-companion-tools-ecosystem-ccusage-tokscale-orchestrators.png)
+
 
 # The Codex CLI Companion Tools Ecosystem: Token Monitors, Orchestrators, and Community Collections
 

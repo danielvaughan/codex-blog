@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 490
 tags: ["codex-cli", "prompting", "best-practices", "research", "multi-turn", "session-quality", "interaction-smells"]
 ---
+![Sketchnote diagram for: Interaction Smells in Codex CLI Sessions: Recognising and Fixing Multi-Turn Prompt Anti-Patterns](/sketchnotes/articles/2026-04-29-interaction-smells-codex-cli-multi-turn-prompt-anti-patterns.png)
+
 
 # Interaction Smells in Codex CLI Sessions: Recognising and Fixing Multi-Turn Prompt Anti-Patterns
 

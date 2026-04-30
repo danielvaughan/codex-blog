@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 486
 tags: ["codex-cli", "docker-model-runner", "local-models", "ollama", "privacy", "config", "skills", "gpt-oss", "open-weight", "containerised"]
 ---
+![Sketchnote diagram for: Codex CLI and Docker Model Runner: Containerised Local Inference for Private, Cost-Free Coding Agents](/sketchnotes/articles/2026-04-29-codex-cli-docker-model-runner-local-inference-containerised-workflows.png)
+
 
 # Codex CLI and Docker Model Runner: Containerised Local Inference for Private, Cost-Free Coding Agents
 

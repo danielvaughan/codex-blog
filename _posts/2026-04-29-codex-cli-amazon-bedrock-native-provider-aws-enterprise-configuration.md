@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 477
 tags: ["codex-cli", "amazon-bedrock", "aws", "enterprise", "model-providers", "configuration", "gpt-oss"]
 ---
+![Sketchnote diagram for: Codex CLI with Amazon Bedrock: Native AWS Provider Configuration and Enterprise Deployment](/sketchnotes/articles/2026-04-29-codex-cli-amazon-bedrock-native-provider-aws-enterprise-configuration.png)
+
 
 # Codex CLI with Amazon Bedrock: Native AWS Provider Configuration and Enterprise Deployment
 
