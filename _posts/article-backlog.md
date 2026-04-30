@@ -1882,3 +1882,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2604.26275 Bhati (April 29, 2026), arXiv:2604.15468 Feldt et al. (April 16-23, 2026), CodeRabbit Agentic SDLC Guide (April 2026), BenchLM SWE-bench data
    - Scope: Agentic SDLC vs AI-assisted distinction, Semi-Executable Stack six-ring model mapped to Codex CLI primitives, confidence gap risks and config mitigations, five open problems (evaluation, governance, tech debt, skill redistribution, attention economics) with practical implications, preserve-versus-purify heuristic for process redesign
    - SEO targets: "agentic sdlc codex cli", "delegated execution coding agents", "confidence gap ai code review", "semi-executable stack software engineering", "codex cli governance configuration"
+
+---
+
+## New Articles — Auto-Generated (2026-04-30, Hourly Scan)
+
+### MCP Ecosystem & Documentation
+
+1. ✅ **Documentation MCP Servers for Codex CLI: Context7, Repomix, and Live Library Lookups** — Written 2026-04-30 → `2026-04-30-codex-cli-documentation-mcp-servers-context7-live-library-lookups.md`
+   - Source: Context7 GitHub README, OpenAI MCP docs, Repomix-MCP GitHub, MCP alternatives comparison articles, OpenAI Codex CLI features docs
+   - Scope: Context7 setup and configuration for Codex CLI, resolve-library-id and query-docs tool workflow, Repomix MCP for private repositories, layering public and private documentation servers, emerging alternatives (Docfork, Deepcon, Nia, Grounded Docs), production hardening with enabled_tools and hooks, network security for corporate environments
+   - SEO targets: "codex cli context7", "codex cli documentation mcp", "codex cli live library lookups", "codex cli repomix private docs", "codex cli hallucination prevention mcp"
