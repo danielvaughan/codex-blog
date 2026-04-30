@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 455
 tags: ["language-guide", "mcp", "agents-md", "config-toml", "testing", "hooks"]
 ---
+![Sketchnote diagram for: Codex CLI for Flutter and Dart Teams: MCP Server, DCM, and Agent-Driven Cross-Platform Development](/sketchnotes/articles/2026-04-27-codex-cli-flutter-dart-teams-mcp-server-dcm-cross-platform-agent-workflows.png)
+
 
 # Codex CLI for Flutter and Dart Teams: MCP Server, DCM, and Agent-Driven Cross-Platform Development
 

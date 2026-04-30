@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 467
 tags: ["context-engineering", "codex-cli", "AGENTS.md", "skills", "MCP", "config.toml", "prompt-caching", "harness-engineering"]
 ---
+![Sketchnote diagram for: Context Engineering for Codex CLI: A Practical Guide to Curating What Your Agent Sees](/sketchnotes/articles/2026-04-28-context-engineering-for-codex-cli-practical-guide.png)
+
 
 # Context Engineering for Codex CLI: A Practical Guide to Curating What Your Agent Sees
 

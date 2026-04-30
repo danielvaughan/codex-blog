@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 460
 tags: ["codex-cli", "database", "migrations", "atlas", "skills", "orm", "drizzle", "prisma", "sqlalchemy", "mcp", "postgres"]
 ---
+![Sketchnote diagram for: Database Schema Migrations with Codex CLI: Atlas Skills, ORM Workflows, and Agent-Driven Migration Pipelines](/sketchnotes/articles/2026-04-27-codex-cli-database-schema-migrations-atlas-skill-orm-workflows.png)
+
 
 # Database Schema Migrations with Codex CLI: Atlas Skills, ORM Workflows, and Agent-Driven Migration Pipelines
 

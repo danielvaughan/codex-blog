@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 462
 tags: ["codex-cli", "enterprise", "managed-configuration", "requirements-toml", "MDM", "governance", "security", "admin", "compliance"]
 ---
+![Sketchnote diagram for: Codex CLI Enterprise Managed Configuration: requirements.toml, managed_config.toml, and Admin-Enforced Policies](/sketchnotes/articles/2026-04-27-codex-cli-enterprise-managed-configuration-requirements-toml-admin-policies.png)
+
 
 # Codex CLI Enterprise Managed Configuration: requirements.toml, managed\_config.toml, and Admin-Enforced Policies
 

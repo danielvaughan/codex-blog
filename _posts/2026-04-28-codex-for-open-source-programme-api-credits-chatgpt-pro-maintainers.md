@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 471
 tags: ["codex-cli", "open-source", "maintainers", "api-credits", "chatgpt-pro", "codex-security", "oss-fund", "automation"]
 ---
+![Sketchnote diagram for: Codex for Open Source: What the Programme Offers Maintainers and How to Make the Most of It](/sketchnotes/articles/2026-04-28-codex-for-open-source-programme-api-credits-chatgpt-pro-maintainers.png)
+
 
 # Codex for Open Source: What the Programme Offers Maintainers and How to Make the Most of It
 

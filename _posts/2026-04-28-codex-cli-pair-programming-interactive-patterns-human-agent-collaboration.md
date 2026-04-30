@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 469
 tags: ["codex-cli", "pair-programming", "interactive-workflow", "conversation-strategy", "human-agent-collaboration", "TUI", "GPT-5.5"]
 ---
+![Sketchnote diagram for: Codex CLI for Pair Programming: Interactive Patterns, Conversation Strategies, and the Human-Agent Collaboration Loop](/sketchnotes/articles/2026-04-28-codex-cli-pair-programming-interactive-patterns-human-agent-collaboration.png)
+
 
 # Codex CLI for Pair Programming: Interactive Patterns, Conversation Strategies, and the Human-Agent Collaboration Loop
 

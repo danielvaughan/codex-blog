@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 470
 tags: ["GROUNDING.md", "AGENTS.md", "scientific-computing", "domain-constraints", "hooks", "regulated-software", "epistemic-grounding", "codex-cli"]
 ---
+![Sketchnote diagram for: Epistemic Grounding for Codex CLI: Using GROUNDING.md to Enforce Domain Validity in Scientific and Regulated Codebases](/sketchnotes/articles/2026-04-28-epistemic-grounding-codex-cli-grounding-md-domain-validity-scientific-codebases.png)
+
 
 # Epistemic Grounding for Codex CLI: Using GROUNDING.md to Enforce Domain Validity in Scientific and Regulated Codebases
 

@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 473
 tags: ["codex-cli", "docker", "dockerfile", "multi-stage-build", "container-security", "devops", "gpt-5.5"]
 ---
+![Sketchnote diagram for: Codex CLI for Dockerfile Optimisation: Multi-Stage Builds, Layer Caching, and Security Hardening](/sketchnotes/articles/2026-04-28-codex-cli-dockerfile-optimisation-multi-stage-builds-security-hardening.png)
+
 
 # Codex CLI for Dockerfile Optimisation: Multi-Stage Builds, Layer Caching, and Security Hardening
 

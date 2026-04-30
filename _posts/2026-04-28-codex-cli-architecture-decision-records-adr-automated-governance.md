@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 464
 tags: ["codex-cli", "architecture", "adr", "governance", "agents-md", "skills", "codex-exec", "gpt-5.5"]
 ---
+![Sketchnote diagram for: Architecture Decision Records with Codex CLI: Automated ADR Generation, Governance, and the Agent-Architecture Gap](/sketchnotes/articles/2026-04-28-codex-cli-architecture-decision-records-adr-automated-governance.png)
+
 
 # Architecture Decision Records with Codex CLI: Automated ADR Generation, Governance, and the Agent-Architecture Gap
 

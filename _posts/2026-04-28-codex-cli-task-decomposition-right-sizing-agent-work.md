@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 466
 tags: ["codex-cli", "task-decomposition", "subagents", "worktrees", "parallel-execution", "best-practices", "GPT-5.5", "agent-architecture"]
 ---
+![Sketchnote diagram for: Task Decomposition for Codex CLI: Right-Sizing Agent Work for Reliability, Speed, and Cost](/sketchnotes/articles/2026-04-28-codex-cli-task-decomposition-right-sizing-agent-work.png)
+
 
 # Task Decomposition for Codex CLI: Right-Sizing Agent Work for Reliability, Speed, and Cost
 

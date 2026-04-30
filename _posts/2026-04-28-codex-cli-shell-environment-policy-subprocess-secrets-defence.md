@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 475
 tags: ["codex-cli", "security", "configuration", "environment-variables", "shell-environment-policy", "secrets", "subprocess", "enterprise"]
 ---
+![Sketchnote diagram for: Codex CLI Shell Environment Policy: Controlling What Your Agent's Subprocesses Can See](/sketchnotes/articles/2026-04-28-codex-cli-shell-environment-policy-subprocess-secrets-defence.png)
+
 
 # Codex CLI Shell Environment Policy: Controlling What Your Agent's Subprocesses Can See
 

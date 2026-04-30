@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 450
 tags: ["codex-cli", "codebase-onboarding", "developer-experience", "AGENTS.md", "skills", "MCP", "knowledge-graph", "GPT-5.5"]
 ---
+![Sketchnote diagram for: Codebase Onboarding with Codex CLI: Using AI Agents to Ramp Up on Unfamiliar Projects](/sketchnotes/articles/2026-04-27-codex-cli-codebase-onboarding-developer-ramp-up-unfamiliar-projects.png)
+
 
 # Codebase Onboarding with Codex CLI: Using AI Agents to Ramp Up on Unfamiliar Projects
 

@@ -4,6 +4,8 @@ parent: "Articles"
 nav_order: 457
 tags: ["codex-cli", "custom-agents", "subagents", "toml", "multi-agent", "configuration", "orchestration"]
 ---
+![Sketchnote diagram for: Codex CLI Custom Agent Definitions: Building Specialised Subagents with TOML Configuration](/sketchnotes/articles/2026-04-27-codex-cli-custom-agent-definitions-toml-specialised-subagents.png)
+
 
 # Codex CLI Custom Agent Definitions: Building Specialised Subagents with TOML Configuration
 
