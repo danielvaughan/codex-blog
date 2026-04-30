@@ -1893,3 +1893,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Context7 GitHub README, OpenAI MCP docs, Repomix-MCP GitHub, MCP alternatives comparison articles, OpenAI Codex CLI features docs
    - Scope: Context7 setup and configuration for Codex CLI, resolve-library-id and query-docs tool workflow, Repomix MCP for private repositories, layering public and private documentation servers, emerging alternatives (Docfork, Deepcon, Nia, Grounded Docs), production hardening with enabled_tools and hooks, network security for corporate environments
    - SEO targets: "codex cli context7", "codex cli documentation mcp", "codex cli live library lookups", "codex cli repomix private docs", "codex cli hallucination prevention mcp"
+
+---
+
+## New Articles — Auto-Generated (2026-04-30, Hourly Scan)
+
+### Release Notes
+
+1. ✅ **Codex CLI v0.128: Goal Workflows, Configurable Keymaps, and Built-In Self-Update** — Written 2026-04-30 → `2026-04-30-codex-cli-v0128-goal-workflows-keymap-self-update.md`
+   - Source: GitHub release notes rust-v0.128.0, OpenAI Codex changelog, OpenAI CLI reference docs, GitHub Issues #9274 and #11169, OpenAI slash commands docs
+   - Scope: codex update self-update subcommand, persistent /goal workflows with pause/resume/clear, /keymap configurable TUI keybindings, /statusline and /title customisation, external agent session imports, MultiAgentV2 thread caps and depth limits, permission profile built-in defaults, plugin-bundled hooks, stale interrupt fix, network and Windows sandbox hardening
+   - SEO targets: "codex cli v0.128", "codex cli update command", "codex cli goal workflow", "codex cli keymap customisation", "codex cli self-update"
