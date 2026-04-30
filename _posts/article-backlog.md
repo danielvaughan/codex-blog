@@ -1915,3 +1915,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI non-interactive mode docs, OpenAI CLI reference docs, OpenAI Codex changelog, OpenAI Codex features docs, OpenAI Cookbook GitLab security example, GitHub PR #15917 stdin piping
    - Scope: Twelve ready-to-run codex exec recipes (commit messages, PR summaries, lint fixes, security scans, release notes, test stubs, code conversion, CI failure triage, TODO extraction, structured JSON reports, session resume, file explanation), Makefile wrapper pattern for team toolkits, performance and cost tips, profile-based model selection, reasoning-token reporting, prompt caching benefits, decision framework for exec vs TUI
    - SEO targets: "codex exec examples", "codex exec one-liners", "codex cli shell scripts", "codex exec automation recipes", "codex cli makefile patterns", "codex exec commit message"
+
+---
+
+## New Articles — Auto-Generated (2026-04-30, Hourly Scan)
+
+### Research & Git Hygiene
+
+1. ✅ **Agent Fingerprints in Pull Requests: What MSR 2026 Research Reveals and How to Configure Codex CLI for Professional Git Hygiene** — Written 2026-04-30 → `2026-04-30-agent-fingerprints-pull-requests-codex-cli-git-hygiene.md`
+   - Source: arXiv:2601.17406 (Ghaleb, MSR '26), arXiv:2601.17581 (Ogenrwot & Businge, MSR '26), arXiv:2602.17084 (Watanabe et al.), arXiv:2602.08915 (task-stratified analysis), Codex CLI commit_attribution PR #11617, Coderbuds AI detection rules
+   - Scope: MSR 2026 fingerprinting research synthesis (97.2% agent identification accuracy), commit message style as dominant classifier (44.7%), Codex-specific fingerprint patterns, commit_attribution configuration, AGENTS.md git conventions, PostToolUse hooks for commit quality, PR template configuration, enterprise audit trail strategies, detection tools
+   - SEO targets: "codex cli commit message style", "agent fingerprints pull requests", "codex cli git conventions", "codex cli commit attribution", "AI coding agent detection"
