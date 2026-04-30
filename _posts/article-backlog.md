@@ -1926,3 +1926,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2601.17406 (Ghaleb, MSR '26), arXiv:2601.17581 (Ogenrwot & Businge, MSR '26), arXiv:2602.17084 (Watanabe et al.), arXiv:2602.08915 (task-stratified analysis), Codex CLI commit_attribution PR #11617, Coderbuds AI detection rules
    - Scope: MSR 2026 fingerprinting research synthesis (97.2% agent identification accuracy), commit message style as dominant classifier (44.7%), Codex-specific fingerprint patterns, commit_attribution configuration, AGENTS.md git conventions, PostToolUse hooks for commit quality, PR template configuration, enterprise audit trail strategies, detection tools
    - SEO targets: "codex cli commit message style", "agent fingerprints pull requests", "codex cli git conventions", "codex cli commit attribution", "AI coding agent detection"
+
+---
+
+## New Articles — Auto-Generated (2026-05-01, Hourly Scan)
+
+### Supply Chain Security
+
+1. ✅ **Indirect AGENTS.md Injection: How Malicious Dependencies Hijack Your Codex CLI Agent and How to Stop Them** — Written 2026-05-01 → `2026-05-01-indirect-agents-md-injection-codex-cli-supply-chain-defence.md`
+   - Source: NVIDIA AI Red Team indirect AGENTS.md injection research (April 2026), Prompt Security VS Code AGENTS.md goal hijacking (December 2025), SafeDep agent skills threat model, Security Boulevard supply chain analysis, OpenAI Codex security/hooks/AGENTS.md docs
+   - Scope: NVIDIA cursorwiz/echo PoC walkthrough, attack mechanism (dependency writes malicious AGENTS.md during build), five-layer defence (filesystem permissions, PreToolUse integrity hooks, Git-level CODEOWNERS protection, anti-injection AGENTS.md policy, enterprise managed configuration), detection patterns, CI scanning, current gaps in Codex CLI protection
+   - SEO targets: "codex cli AGENTS.md injection", "AGENTS.md supply chain attack", "codex cli indirect prompt injection", "NVIDIA AGENTS.md security", "codex cli dependency security AGENTS.md"
