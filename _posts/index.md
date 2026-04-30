@@ -3,10 +3,10 @@ title: "Articles"
 permalink: /articles/
 ---
 
-## Article Ratings (updated 2026-04-29)
+## Article Ratings (updated 2026-04-30)
 
 Rated on depth, accuracy, originality and Substack potential. Sorted by Substack ★ descending, then overall descending.
-Last rated: 2026-04-29 · 530 articles rated · 530 total entries.
+Last rated: 2026-04-30 · 544 articles rated · 544 total entries.
 
 | Article | Live | Depth | Accuracy | Originality | Substack ★ | Overall |
 |---------|------|-------|----------|-------------|------------|--------|
@@ -139,6 +139,14 @@ Last rated: 2026-04-29 · 530 articles rated · 530 total entries.
 | [Context Engineering for Codex CLI](/2026/04/28/context-engineering-for-codex-cli-practical-guide/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
 | [OpenAI Symphony: Autonomous Codex Orchestration](/2026/04/28/openai-symphony-codex-orchestration-linear-autonomous-agent-workflows/) | — | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [GPT-5.2-Codex: New Agentic Coding Model Guide](/2026/04/29/gpt-5-2-codex-agentic-coding-model-cybersecurity-long-horizon-guide/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [The Design Space of Coding Agent Harnesses](/2026/04/29/design-space-of-coding-agent-harnesses-codex-cli-claude-code-architectural-lessons/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Agentic SDLC Research: Delegated Execution and the Confidence Gap](/2026/04/30/agentic-sdlc-research-codex-cli-delegated-execution-confidence-gap/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Cyber Safety: Model Rerouting, Trusted Access, False Positives](/2026/04/30/codex-cli-cyber-safety-trusted-access-model-rerouting-defence/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| [Bedrock Managed Agents: Server-Side Codex for Enterprise](/2026/04/30/bedrock-managed-agents-openai-server-side-codex-enterprise-automation/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Named Profiles Cookbook: Configuration Templates](/2026/04/30/codex-cli-named-profiles-cookbook-configuration-templates/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Service Tiers: Flex, Standard, and Fast Mode](/2026/04/30/codex-cli-service-tiers-flex-fast-cost-speed-optimisation/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Documentation MCP Servers: Context7 and Live Library Lookups](/2026/04/30/codex-cli-documentation-mcp-servers-context7-live-library-lookups/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ |
+| [Agent-Aware Terminals: Warp, Ghostty, and Terminal Choice](/2026/04/29/agent-aware-terminals-codex-cli-warp-cmux-ghostty-choosing-terminal-emulator/) | — | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [AI Coding Agent Adoption in 2026: Survey Data](/2026/04/26/ai-coding-agent-adoption-2026-survey-data-codex-cli-positioning/) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [Task Decomposition for Codex CLI](/2026/04/28/codex-cli-task-decomposition-right-sizing-agent-work/) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
 | [End of Azure Exclusivity: Multi-Cloud Codex](/2026/04/29/end-of-azure-exclusivity-multi-cloud-codex-enterprise-deployment/) | — | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
@@ -189,6 +197,11 @@ Last rated: 2026-04-29 · 530 articles rated · 530 total entries.
 | [Terminal-Native Codex CLI Workflows](/2026/04/27/codex-cli-terminal-native-workflow-neovim-tmux-multiplexer-integration/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [Codex CLI for Pair Programming](/2026/04/28/codex-cli-pair-programming-interactive-patterns-human-agent-collaboration/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
 | [Codex CLI for Solo Developers](/2026/04/29/codex-cli-solo-developer-small-team-setup-productivity/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ | ★★★★☆ |
+| [Agentic Harness Engineering: Observability-Driven Evolution](/2026/04/30/agentic-harness-engineering-observability-driven-evolution-codex-cli/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Privacy Filter: PII Detection Hooks for Agent Data Protection](/2026/04/30/codex-cli-privacy-filter-pii-detection-hooks-agent-data-protection/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
+| [Rollout Files: Session Recording, Replay, and Audit Trails](/2026/04/29/codex-cli-rollout-files-session-recording-replay-audit-trails/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [v0.128: Goal Workflows, Keymaps, and Self-Update](/2026/04/30/codex-cli-v0128-goal-workflows-keymap-self-update/) | — | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| [CSV Batch Processing: spawn_agents_on_csv Map-Reduce](/2026/04/30/codex-cli-csv-batch-processing-spawn-agents-on-csv-parallel-audits/) | — | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★★ |
 | [HIPAA Compliance 2026: Regulated Workspace Exclusion](/2026/04/20/codex-cli-hipaa-compliance-2026-regulated-workspace-exclusion/) | — | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Migrating Claude Code to Codex CLI](/2026/03/26/migrating-claude-code-to-codex-cli/) | [view](https://codex.danielvaughan.com/2026/03/26/migrating-claude-code-to-codex-cli/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
 | [Subagents: TOML, Parallelism, spawn_agents_on_csv](/2026/03/26/codex-cli-subagents-toml-parallelism/) | [view](https://codex.danielvaughan.com/2026/03/26/codex-cli-subagents-toml-parallelism/) | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★★ |
@@ -281,6 +294,7 @@ Last rated: 2026-04-29 · 530 articles rated · 530 total entries.
 | [Codex CLI at One Year: From Research Preview to 3 Million Users](/2026/04/15/codex-cli-at-one-year-from-research-preview-to-3-million-users/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
 | [The Desktop Superapp War: Codex Scratchpad vs Claude Epitaxy](/2026/04/14/desktop-superapp-war-codex-scratchpad-vs-claude-epitaxy/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [GitHub Agent HQ: Model Selection and Custom Agents](/2026/04/15/github-agent-hq-model-selection-codex-custom-agents/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
+| [Codex and Outlook Calendar: Microsoft 365 Scheduling](./codex-outlook-calendar-integration.md) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
 | [Cloud Agent Plugin Suites: AWS, Azure, and the GCP Gap](/2026/04/13/cloud-agent-plugin-suites-aws-azure-gcp-gap/) | — | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
 | [Codex Exec Unix Pipelines: Prompt-Plus-Stdin](/2026/04/15/codex-exec-unix-pipelines-prompt-plus-stdin/) | — | ★★★★☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
 | [The Codex CLI Notification Pipeline: OSC 9, Hooks, and Alerts](/2026/04/13/codex-cli-notification-pipeline-osc9-hooks-alerts/) | — | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ |
