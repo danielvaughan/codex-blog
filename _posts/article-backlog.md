@@ -1819,3 +1819,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Cyber Safety docs, GPT-5.3-Codex System Card, Trusted Access for Cyber programme, GPT-5.4-Cyber announcement, GitHub Issues #19533/#12125/#19594/#19245
    - Scope: Cyber safety classifier pipeline, model rerouting mechanics, false positive triggers and community reports, Trusted Access three-tier framework, GPT-5.4-Cyber for verified defenders, AGENTS.md and prompt strategies to minimise false positives, enterprise configuration implications, /feedback reporting
    - SEO targets: "codex cli cyber safety", "codex cli model rerouting", "codex cli trusted access cyber", "codex cli false positive security", "GPT-5.4-Cyber codex"
+
+### Data Protection & Privacy
+
+1. ✅ **Codex CLI and OpenAI Privacy Filter: Preventing PII Leakage in Agent Workflows with Local On-Device Scanning** — Written 2026-04-30 → `2026-04-30-codex-cli-privacy-filter-pii-detection-hooks-agent-data-protection.md`
+   - Source: OpenAI Privacy Filter announcement, Privacy Filter GitHub repo, OpenAI hooks docs, OpenAI managed configuration docs, The New Stack Privacy Filter coverage, Tonic.ai benchmark analysis
+   - Scope: Privacy Filter model overview (1.5B params, 96% F1, 8 PII span types, 128K context), four integration patterns (UserPromptSubmit prompt scanning, PreToolUse file-read interception, PostToolUse output scanning, batch CI/CD scanning), hook configuration, fine-tuning for domain-specific PII, enterprise managed configuration enforcement, defence-in-depth layering with deny_read_paths and shell_environment_policy, performance benchmarks, limitations
+   - SEO targets: "codex cli privacy filter", "codex cli PII detection", "codex cli data protection hooks", "openai privacy filter coding agent", "codex cli prevent PII leakage", "codex cli GDPR compliance"
