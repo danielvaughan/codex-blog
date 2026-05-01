@@ -1992,3 +1992,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Memories docs, Codex config-reference docs, DeepWiki memories system analysis, Hindsight integration guide, Basic Memory Codex integration, ctx-memory project, MCP Backpack Medium article
    - Scope: Native Memories two-phase pipeline (extraction + consolidation), complete config.toml reference, file structure, third-party MCP memory ecosystem comparison (Hindsight, Basic Memory, ctx-memory, MCP Backpack), practical patterns (solo dev, cross-agent teams, native+MCP layering, air-gapped), anti-patterns, measurement
    - SEO targets: "codex cli memories", "codex cli persistent context", "codex cli session memory", "hindsight codex cli", "basic memory codex mcp", "codex cli cross-session context"
+
+---
+
+## New Articles — Auto-Generated (2026-05-01, Hourly Scan)
+
+### Agent Interoperability & Protocols
+
+1. ✅ **Agent Interoperability Protocols and Codex CLI: MCP, ACP, and A2A in Practice** — Written 2026-05-01 → `2026-05-01-codex-cli-agent-interoperability-protocols-mcp-acp-a2a.md`
+   - Source: arXiv:2505.02279 protocol survey, Zed ACP docs, JetBrains ACP registry blog, Google A2A repo, codex-acp GitHub, OpenAI MCP/Agents SDK docs, GitHub Issue #11980
+   - Scope: Three-protocol stack (MCP vertical, ACP diagonal, A2A horizontal), native MCP configuration and codex mcp-server mode, codex-acp bridge for Zed/JetBrains IDE integration, A2A status and workarounds via Symphony, protocol decision framework, phased adoption strategy, security considerations per protocol
+   - SEO targets: "codex cli mcp acp a2a", "codex cli agent interoperability", "codex cli acp ide integration", "codex cli agent protocols", "codex-acp zed jetbrains"
