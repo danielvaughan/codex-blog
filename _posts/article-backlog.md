@@ -1967,3 +1967,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Codex CLI v0.128.0 release notes, GitHub Issue #20536, Simon Willison analysis, config-reference docs, Responses API compaction docs
    - Scope: /goal command reference and lifecycle states, practical workflow patterns (migration with test verification, coverage expansion, lint rollout, pause-and-steer), token budget management, combining /goal with /plan, subagents, and /fork, operational considerations including --full-auto deprecation, known limitations
    - SEO targets: "codex cli goal command", "codex cli /goal workflow", "codex cli long horizon tasks", "codex cli persistent objectives", "codex cli v0.128 goal"
+
+### Research & Code Quality
+
+1. ✅ **Agent-Generated Code Churns Faster: What 110,000 Pull Requests Reveal and How to Configure Codex CLI for Durable Output** — Written 2026-05-01 → `2026-05-01-agent-code-churn-research-codex-cli-durability-patterns.md`
+   - Source: arXiv:2604.00917 (Popescu et al., MSR '26), Net Corp AI code statistics 2026, Second Talent AI code quality metrics 2026, OpenAI Codex best practices, Codex CLI hooks docs, Codex CLI config-reference docs, Codex CLI features docs
+   - Scope: MSR 2026 longitudinal study of 110,000 PRs across five coding agents, Codex-specific findings (smallest median changes, 0.5min merge time, 75.3% zero-star repos, higher churn), structural causes of agent code churn, AGENTS.md precision patterns, PostToolUse verification hooks, /review custom instructions, reasoning effort profiles, duplication detection hooks, churn measurement methodology
+   - SEO targets: "codex cli code quality", "agent generated code churn", "codex cli AGENTS.md best practices", "codex cli durable code", "AI coding agent code persistence"
