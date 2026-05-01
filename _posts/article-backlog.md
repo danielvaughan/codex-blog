@@ -2014,3 +2014,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: METR RCT (July 2025), METR follow-up (February 2026), JetBrains HAX ICSE 2026 study, Faros AI productivity paradox report, Philipp Dubach synthesis, OpenAI Codex best practices
    - Scope: METR 43-point perception–reality gap, JetBrains invisible context-switching telemetry, Faros Amdahl's Law pipeline bottleneck, four root causes mapped to Codex CLI configuration (plan mode, session isolation, PostToolUse verification hooks, automated review), measurement framework, productivity-aware config.toml profiles
    - SEO targets: "codex cli productivity", "AI coding productivity paradox", "METR study codex", "codex cli best practices speed", "codex cli developer productivity"
+
+---
+
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan)
+
+### AWS & Enterprise Integration
+
+1. ✅ **Codex CLI on Amazon Bedrock: Enterprise Configuration, SigV4 Authentication, and AWS-Native Workflows** — Written 2026-05-02 → `2026-05-02-codex-cli-amazon-bedrock-aws-enterprise-configuration-guide.md`
+   - Source: AWS Bedrock limited preview announcement (28 April 2026), OpenAI AWS partnership announcement, DevelopersIO Bedrock Mantle walkthrough, GitHub PR #17820 (SigV4 auth), OpenAI config-reference docs, Elevata setup guide, DEV Community Bedrock guide
+   - Scope: Built-in amazon-bedrock provider configuration, SigV4 authentication and codex-aws-auth crate, Bedrock Mantle Responses API (gpt-oss-120b/20b only), IAM policy templates, CloudTrail auditing, PrivateLink, SSO credential flow, web_search limitation, cost controls, regional availability, enterprise security controls inheritance
+   - SEO targets: "codex cli amazon bedrock", "codex cli aws configuration", "codex cli bedrock setup", "codex cli sigv4 authentication", "codex cli enterprise aws"
