@@ -2003,3 +2003,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2505.02279 protocol survey, Zed ACP docs, JetBrains ACP registry blog, Google A2A repo, codex-acp GitHub, OpenAI MCP/Agents SDK docs, GitHub Issue #11980
    - Scope: Three-protocol stack (MCP vertical, ACP diagonal, A2A horizontal), native MCP configuration and codex mcp-server mode, codex-acp bridge for Zed/JetBrains IDE integration, A2A status and workarounds via Symphony, protocol decision framework, phased adoption strategy, security considerations per protocol
    - SEO targets: "codex cli mcp acp a2a", "codex cli agent interoperability", "codex cli acp ide integration", "codex cli agent protocols", "codex-acp zed jetbrains"
+
+---
+
+## New Articles — Auto-Generated (2026-05-01, Hourly Scan)
+
+### Developer Productivity & Research
+
+1. ✅ **The AI Coding Productivity Paradox: What Three Major Studies Reveal and How to Configure Codex CLI for Genuine Speed Gains** — Written 2026-05-01 → `2026-05-01-ai-coding-productivity-paradox-metr-research-codex-cli-genuine-speed-gains.md`
+   - Source: METR RCT (July 2025), METR follow-up (February 2026), JetBrains HAX ICSE 2026 study, Faros AI productivity paradox report, Philipp Dubach synthesis, OpenAI Codex best practices
+   - Scope: METR 43-point perception–reality gap, JetBrains invisible context-switching telemetry, Faros Amdahl's Law pipeline bottleneck, four root causes mapped to Codex CLI configuration (plan mode, session isolation, PostToolUse verification hooks, automated review), measurement framework, productivity-aware config.toml profiles
+   - SEO targets: "codex cli productivity", "AI coding productivity paradox", "METR study codex", "codex cli best practices speed", "codex cli developer productivity"
