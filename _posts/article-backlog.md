@@ -1944,3 +1944,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex CLI docs (exec, non-interactive, config-reference), Datadog MCP Server GA (March 2026), Grafana mcp-grafana and loki-mcp servers, Codex CLI v0.125.0 changelog (reasoning-token reporting), GitHub issue #15451 (--output-schema + MCP conflict)
    - Scope: Shell pipeline patterns (stdin piping into codex exec), structured JSON output with --output-schema, MCP-connected observability (Datadog, Grafana, Loki), two-pass pattern for MCP + structured output conflict, automated on-call triage scripts, reasoning-token cost tracking, AGENTS.md template for incident response, model selection strategy for log analysis complexity
    - SEO targets: "codex cli log analysis", "codex exec production logs", "codex cli datadog mcp", "codex cli structured output", "codex cli incident triage"
+
+### Plugins & Hooks
+
+1. ✅ **Codex CLI Plugin-Bundled Hooks: Distributing Reusable Quality Gates Through the Marketplace** — Written 2026-05-01 → `2026-05-01-codex-cli-plugin-bundled-hooks-reusable-quality-gates-marketplace.md`
+   - Source: Codex CLI v0.128.0 release notes (30 April 2026), OpenAI Build Plugins docs, OpenAI Hooks docs, OpenAI Advanced Configuration docs
+   - Scope: Plugin directory layout with hooks/, plugin.json manifest hooks field, hook discovery order (global → project → legacy → plugin-bundled), six hook lifecycle events, worked example (PreToolUse command blocker + PostToolUse linter), $PLUGIN_DIR path resolution, hook enablement state toggle in config.toml, enterprise governance via requirements.toml, practical patterns (credential leak prevention, SessionStart context injection, post-edit test runner), current limitations
+   - SEO targets: "codex cli plugin hooks", "codex cli plugin marketplace hooks", "codex cli quality gates plugin", "codex cli bundled hooks", "codex cli PreToolUse plugin"
