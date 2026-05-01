@@ -1974,3 +1974,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2604.00917 (Popescu et al., MSR '26), Net Corp AI code statistics 2026, Second Talent AI code quality metrics 2026, OpenAI Codex best practices, Codex CLI hooks docs, Codex CLI config-reference docs, Codex CLI features docs
    - Scope: MSR 2026 longitudinal study of 110,000 PRs across five coding agents, Codex-specific findings (smallest median changes, 0.5min merge time, 75.3% zero-star repos, higher churn), structural causes of agent code churn, AGENTS.md precision patterns, PostToolUse verification hooks, /review custom instructions, reasoning effort profiles, duplication detection hooks, churn measurement methodology
    - SEO targets: "codex cli code quality", "agent generated code churn", "codex cli AGENTS.md best practices", "codex cli durable code", "AI coding agent code persistence"
+
+### Troubleshooting & Operations
+
+1. ✅ **Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Common Errors** — Written 2026-05-01 → `2026-05-01-codex-cli-troubleshooting-field-guide-common-errors-fixes.md`
+   - Source: OpenAI Codex CLI docs, GitHub Issues (#4934, #9135, #12299, #15105, #20099), community forums, third-party guides
+   - Scope: Six error categories (authentication/billing, sandbox/permissions, MCP server lifecycle, context/compaction, installation/environment, remote/app-server), diagnostic flowchart, quick-reference decision table, practical fixes with code examples
+   - SEO targets: "codex cli troubleshooting", "codex cli common errors", "codex cli sandbox error fix", "codex cli authentication error", "codex cli MCP server not found"
