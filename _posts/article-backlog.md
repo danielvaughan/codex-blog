@@ -1937,3 +1937,10 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: NVIDIA AI Red Team indirect AGENTS.md injection research (April 2026), Prompt Security VS Code AGENTS.md goal hijacking (December 2025), SafeDep agent skills threat model, Security Boulevard supply chain analysis, OpenAI Codex security/hooks/AGENTS.md docs
    - Scope: NVIDIA cursorwiz/echo PoC walkthrough, attack mechanism (dependency writes malicious AGENTS.md during build), five-layer defence (filesystem permissions, PreToolUse integrity hooks, Git-level CODEOWNERS protection, anti-injection AGENTS.md policy, enterprise managed configuration), detection patterns, CI scanning, current gaps in Codex CLI protection
    - SEO targets: "codex cli AGENTS.md injection", "AGENTS.md supply chain attack", "codex cli indirect prompt injection", "NVIDIA AGENTS.md security", "codex cli dependency security AGENTS.md"
+
+### Observability & Production Debugging
+
+1. ✅ **Codex CLI for Production Log Analysis: Root Cause Pipelines with codex exec, MCP Observability Servers, and Structured Triage Reports** — Written 2026-05-01 → `2026-05-01-codex-cli-production-log-analysis-root-cause-mcp-pipelines.md`
+   - Source: OpenAI Codex CLI docs (exec, non-interactive, config-reference), Datadog MCP Server GA (March 2026), Grafana mcp-grafana and loki-mcp servers, Codex CLI v0.125.0 changelog (reasoning-token reporting), GitHub issue #15451 (--output-schema + MCP conflict)
+   - Scope: Shell pipeline patterns (stdin piping into codex exec), structured JSON output with --output-schema, MCP-connected observability (Datadog, Grafana, Loki), two-pass pattern for MCP + structured output conflict, automated on-call triage scripts, reasoning-token cost tracking, AGENTS.md template for incident response, model selection strategy for log analysis complexity
+   - SEO targets: "codex cli log analysis", "codex exec production logs", "codex cli datadog mcp", "codex cli structured output", "codex cli incident triage"
