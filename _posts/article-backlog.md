@@ -1940,7 +1940,12 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### Observability & Production Debugging
 
-1. ✅ **Codex CLI for Production Log Analysis: Root Cause Pipelines with codex exec, MCP Observability Servers, and Structured Triage Reports** — Written 2026-05-01 → `2026-05-01-codex-cli-production-log-analysis-root-cause-mcp-pipelines.md`
+1. ✅ **The Agent Logging Gap: Why Codex CLI Agents Under-Log and How to Enforce Observability Standards** — Written 2026-05-01 → `2026-05-01-agent-logging-gap-codex-cli-observability-enforcement-hooks.md`
+   - Source: "Do AI Coding Agents Log Like Humans?" (arXiv:2604.09409, April 2026), OpenAI Codex CLI hooks docs, AGENTS.md docs, codex exec non-interactive mode docs, Codex CLI models docs
+   - Scope: Empirical findings from 4,550 agent PRs (58.4% under-logging, 67% instruction non-compliance, 72.5% silent janitor rate), four-layer enforcement (AGENTS.md policy, PostToolUse hooks with Python verification, Stop hook audit, CI gate with codex exec --output-schema), model selection for logging quality, structured logging skill template, measurement metrics
+   - SEO targets: "codex cli logging", "agent logging gap", "codex cli observability hooks", "codex cli PostToolUse logging", "AI agent under-logging"
+
+2. ✅ **Codex CLI for Production Log Analysis: Root Cause Pipelines with codex exec, MCP Observability Servers, and Structured Triage Reports** — Written 2026-05-01 → `2026-05-01-codex-cli-production-log-analysis-root-cause-mcp-pipelines.md`
    - Source: OpenAI Codex CLI docs (exec, non-interactive, config-reference), Datadog MCP Server GA (March 2026), Grafana mcp-grafana and loki-mcp servers, Codex CLI v0.125.0 changelog (reasoning-token reporting), GitHub issue #15451 (--output-schema + MCP conflict)
    - Scope: Shell pipeline patterns (stdin piping into codex exec), structured JSON output with --output-schema, MCP-connected observability (Datadog, Grafana, Loki), two-pass pattern for MCP + structured output conflict, automated on-call triage scripts, reasoning-token cost tracking, AGENTS.md template for incident response, model selection strategy for log analysis complexity
    - SEO targets: "codex cli log analysis", "codex exec production logs", "codex cli datadog mcp", "codex cli structured output", "codex cli incident triage"
