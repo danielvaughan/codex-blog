@@ -5,6 +5,8 @@ nav_order: 515
 tags: ["codex-cli", "research", "code-quality", "code-churn", "AGENTS.md", "hooks", "best-practices", "MSR-2026"]
 ---
 
+![Sketchnote diagram for: Agent-Generated Code Churns Faster: What 110,000 Pull Requests Reveal and How to Configure Codex CLI for Durable Output](/sketchnotes/articles/2026-05-01-agent-code-churn-research-codex-cli-durability-patterns.png)
+
 # Agent-Generated Code Churns Faster: What 110,000 Pull Requests Reveal and How to Configure Codex CLI for Durable Output
 
 

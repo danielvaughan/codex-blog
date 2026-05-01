@@ -5,6 +5,8 @@ nav_order: 512
 tags: ["codex-cli", "plugins", "hooks", "marketplace", "quality-gates", "PreToolUse", "PostToolUse", "config.toml", "v0.128", "governance"]
 ---
 
+![Sketchnote diagram for: Codex CLI Plugin-Bundled Hooks: Distributing Reusable Quality Gates Through the Marketplace](/sketchnotes/articles/2026-05-01-codex-cli-plugin-bundled-hooks-reusable-quality-gates-marketplace.png)
+
 # Codex CLI Plugin-Bundled Hooks: Distributing Reusable Quality Gates Through the Marketplace
 
 

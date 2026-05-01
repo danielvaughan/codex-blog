@@ -5,6 +5,8 @@ nav_order: 505
 tags: ["codex-cli", "agentic-sdlc", "research", "software-engineering", "delegated-execution", "confidence-gap", "workflow-design", "semi-executable-stack"]
 ---
 
+![Sketchnote diagram for: From Code Generation to Delegated Execution: The Agentic SDLC and What It Means for Your Codex CLI Workflow](/sketchnotes/articles/2026-04-30-agentic-sdlc-research-codex-cli-delegated-execution-confidence-gap.png)
+
 # From Code Generation to Delegated Execution: The Agentic SDLC and What It Means for Your Codex CLI Workflow
 
 

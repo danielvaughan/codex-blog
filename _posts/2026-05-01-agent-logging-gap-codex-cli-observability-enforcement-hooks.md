@@ -5,6 +5,8 @@ nav_order: 513
 tags: ["codex-cli", "logging", "observability", "code-quality", "hooks", "AGENTS.md", "research"]
 ---
 
+![Sketchnote diagram for: The Agent Logging Gap: Why Codex CLI Agents Under-Log and How to Enforce Observability Standards](/sketchnotes/articles/2026-05-01-agent-logging-gap-codex-cli-observability-enforcement-hooks.png)
+
 # The Agent Logging Gap: Why Codex CLI Agents Under-Log and How to Enforce Observability Standards
 
 

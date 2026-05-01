@@ -17,6 +17,8 @@ tags:
 word_count_target: 1500
 ---
 
+![Sketchnote diagram for: Codex and Outlook Calendar: Five Ways to Connect Your Agent to Microsoft 365 Scheduling](/sketchnotes/articles/codex-outlook-calendar-integration.png)
+
 # Codex and Outlook Calendar: Five Ways to Connect Your Agent to Microsoft 365 Scheduling
 
 ChatGPT has native Outlook connectors baked into the product. As of April 16, 2026, the Codex Desktop App does too — the **Microsoft 365 Suite plugin** in the 90+ plugin marketplace includes Outlook email and calendar alongside Excel, Word, PowerPoint, Teams, and SharePoint. Authentication uses standard OAuth flows, and no custom API setup is required. Install via the `/plugins` command in the Codex App and search for "Microsoft Suite."

@@ -5,6 +5,8 @@ nav_order: 499
 tags: ["codex-cli", "privacy-filter", "PII", "security", "hooks", "compliance", "enterprise", "data-protection"]
 ---
 
+![Sketchnote diagram for: Codex CLI and OpenAI Privacy Filter: Preventing PII Leakage in Agent Workflows with Local On-Device Scanning](/sketchnotes/articles/2026-04-30-codex-cli-privacy-filter-pii-detection-hooks-agent-data-protection.png)
+
 # Codex CLI and OpenAI Privacy Filter: Preventing PII Leakage in Agent Workflows with Local On-Device Scanning
 
 

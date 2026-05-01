@@ -5,6 +5,8 @@ nav_order: 504
 tags: ["codex-cli", "harness-engineering", "observability", "research", "benchmarks", "configuration", "AGENTS.md", "hooks", "Terminal-Bench"]
 ---
 
+![Sketchnote diagram for: Agentic Harness Engineering: What Observability-Driven Evolution Means for Your Codex CLI Configuration](/sketchnotes/articles/2026-04-30-agentic-harness-engineering-observability-driven-evolution-codex-cli.png)
+
 # Agentic Harness Engineering: What Observability-Driven Evolution Means for Your Codex CLI Configuration
 
 

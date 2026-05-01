@@ -5,6 +5,8 @@ nav_order: 514
 tags: ["goal-mode", "v0.128", "long-horizon", "autonomous", "token-budget", "persistence", "workflows"]
 ---
 
+![Sketchnote diagram for: Codex CLI /goal Workflows: Persistent Long-Horizon Task Execution in v0.128](/sketchnotes/articles/2026-05-01-codex-cli-goal-workflows-persistent-long-horizon-task-execution.png)
+
 # Codex CLI /goal Workflows: Persistent Long-Horizon Task Execution in v0.128
 
 

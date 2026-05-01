@@ -5,6 +5,8 @@ nav_order: 510
 tags: ["codex-cli", "security", "AGENTS.md", "supply-chain", "prompt-injection", "hooks", "sandbox", "defence-in-depth"]
 ---
 
+![Sketchnote diagram for: Indirect AGENTS.md Injection: How Malicious Dependencies Hijack Your Codex CLI Agent and How to Stop Them](/sketchnotes/articles/2026-05-01-indirect-agents-md-injection-codex-cli-supply-chain-defence.png)
+
 # Indirect AGENTS.md Injection: How Malicious Dependencies Hijack Your Codex CLI Agent and How to Stop Them
 
 

@@ -5,6 +5,8 @@ nav_order: 508
 tags: ["codex-exec", "shell-patterns", "automation", "one-liners", "unix-pipelines", "CI/CD", "developer-productivity", "v0.128"]
 ---
 
+![Sketchnote diagram for: Codex CLI exec Recipes: Practical One-Liners and Shell Patterns for Daily Development](/sketchnotes/articles/2026-04-30-codex-cli-exec-recipes-practical-one-liners-shell-patterns.png)
+
 # Codex CLI exec Recipes: Practical One-Liners and Shell Patterns for Daily Development
 
 

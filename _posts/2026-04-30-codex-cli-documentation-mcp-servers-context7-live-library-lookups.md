@@ -5,6 +5,8 @@ nav_order: 506
 tags: ["codex-cli", "MCP", "context7", "repomix", "documentation", "library-lookups", "developer-productivity", "hallucination-prevention"]
 ---
 
+![Sketchnote diagram for: Documentation MCP Servers for Codex CLI: Context7, Repomix, and Live Library Lookups](/sketchnotes/articles/2026-04-30-codex-cli-documentation-mcp-servers-context7-live-library-lookups.png)
+
 # Documentation MCP Servers for Codex CLI: Context7, Repomix, and Live Library Lookups
 
 

@@ -5,6 +5,8 @@ nav_order: 507
 tags: ["codex-cli", "v0.128", "release-notes", "goal-workflows", "keymaps", "self-update", "tui", "permission-profiles", "multi-agent"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.128: Goal Workflows, Configurable Keymaps, and Built-In Self-Update](/sketchnotes/articles/2026-04-30-codex-cli-v0128-goal-workflows-keymap-self-update.png)
+
 # Codex CLI v0.128: Goal Workflows, Configurable Keymaps, and Built-In Self-Update
 
 

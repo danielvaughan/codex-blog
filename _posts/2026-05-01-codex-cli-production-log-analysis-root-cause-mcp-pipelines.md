@@ -5,6 +5,8 @@ nav_order: 511
 tags: ["codex-cli", "log-analysis", "observability", "codex-exec", "mcp", "production-debugging", "root-cause-analysis", "datadog", "grafana", "structured-output"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Production Log Analysis: Root Cause Pipelines with codex exec, MCP Observability Servers, and Structured Triage Reports](/sketchnotes/articles/2026-05-01-codex-cli-production-log-analysis-root-cause-mcp-pipelines.png)
+
 # Codex CLI for Production Log Analysis: Root Cause Pipelines with codex exec, MCP Observability Servers, and Structured Triage Reports
 
 

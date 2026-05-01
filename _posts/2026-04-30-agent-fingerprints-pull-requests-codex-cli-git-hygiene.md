@@ -5,6 +5,8 @@ nav_order: 509
 tags: ["codex-cli", "git", "pull-requests", "commit-messages", "research", "MSR-2026", "agent-fingerprints", "AGENTS.md", "hooks", "enterprise"]
 ---
 
+![Sketchnote diagram for: Agent Fingerprints in Pull Requests: What MSR 2026 Research Reveals and How to Configure Codex CLI for Professional Git Hygiene](/sketchnotes/articles/2026-04-30-agent-fingerprints-pull-requests-codex-cli-git-hygiene.png)
+
 # Agent Fingerprints in Pull Requests: What MSR 2026 Research Reveals and How to Configure Codex CLI for Professional Git Hygiene
 
 
