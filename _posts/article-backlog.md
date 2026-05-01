@@ -1981,3 +1981,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex CLI docs, GitHub Issues (#4934, #9135, #12299, #15105, #20099), community forums, third-party guides
    - Scope: Six error categories (authentication/billing, sandbox/permissions, MCP server lifecycle, context/compaction, installation/environment, remote/app-server), diagnostic flowchart, quick-reference decision table, practical fixes with code examples
    - SEO targets: "codex cli troubleshooting", "codex cli common errors", "codex cli sandbox error fix", "codex cli authentication error", "codex cli MCP server not found"
+
+---
+
+## New Articles — Auto-Generated (2026-05-01, Hourly Scan)
+
+### Persistent Memory & Cross-Session Context
+
+1. ✅ **Codex CLI Memories: Native Session Persistence, Third-Party Memory MCP Servers, and Cross-Session Context Strategies** — Written 2026-05-01 → `2026-05-01-codex-cli-memories-persistent-context-session-memory-ecosystem.md`
+   - Source: OpenAI Memories docs, Codex config-reference docs, DeepWiki memories system analysis, Hindsight integration guide, Basic Memory Codex integration, ctx-memory project, MCP Backpack Medium article
+   - Scope: Native Memories two-phase pipeline (extraction + consolidation), complete config.toml reference, file structure, third-party MCP memory ecosystem comparison (Hindsight, Basic Memory, ctx-memory, MCP Backpack), practical patterns (solo dev, cross-agent teams, native+MCP layering, air-gapped), anti-patterns, measurement
+   - SEO targets: "codex cli memories", "codex cli persistent context", "codex cli session memory", "hindsight codex cli", "basic memory codex mcp", "codex cli cross-session context"
