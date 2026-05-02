@@ -2118,3 +2118,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI App Server docs, Remote Connections docs, InfoQ App Server architecture coverage, Codex CLI features docs, Codex changelog v0.128
    - Scope: App Server bidirectional JSON-RPC architecture, three transport options (stdio/WebSocket/Unix socket), Remote TUI setup with SSH port forwarding, two authentication modes (capability token, signed bearer token), multi-environment per-turn workflows, security hardening patterns, four deployment patterns (SSH forwarding, Tailscale mesh, container devbox, Desktop SSH), known limitations
    - SEO targets: "codex cli remote development", "codex cli app server", "codex cli ssh remote", "codex cli multi-environment", "codex cli websocket", "codex cli devbox remote"
+
+---
+
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan #5)
+
+### Everyday Workflows & Productivity
+
+1. ✅ **Codex CLI for Everyday Git Workflows: Commit Messages, PR Descriptions, and Branch Automation** — Written 2026-05-02 → `2026-05-02-codex-cli-git-workflows-commit-messages-pr-descriptions-automation.md`
+   - Source: OpenAI Codex CLI reference docs, Non-interactive mode docs, AGENTS.md docs, Config basics docs, codex-action GitHub Action, Speed docs
+   - Scope: Commit message generation with codex exec and git diff, structured output for CI scripting, shell function recipes, PR description automation with gh CLI integration, branch naming from issues, merge conflict resolution with semantic understanding, CI integration via codex-action, performance tuning with profiles for git tasks
+   - SEO targets: "codex cli commit message", "codex cli pull request description", "codex exec git workflow", "AI commit message generator", "codex cli git automation"
