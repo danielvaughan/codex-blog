@@ -2041,3 +2041,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2603.23448 (Zhang et al., CR-bench, March 2026), OpenAI Codex GitHub code review docs, OpenAI AGENTS.md docs, OpenAI best practices docs, GPT-5.3-Codex announcement
    - Scope: CR-bench c-CRAB methodology and executable test pipeline, per-agent pass rates (Codex 20.1%, Claude Code 32.1%, Devin 24.8%, PR-Agent 23.1%), category analysis (robustness strengths, maintainability/documentation gaps), AGENTS.md review guidelines configuration, custom /review instructions, PostToolUse documentation hooks, human-agent complementary review workflow, measurement strategy
    - SEO targets: "codex cli code review quality", "CR-bench code review benchmark", "codex cli review configuration", "codex cli AGENTS.md review guidelines", "automated code review benchmark 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan)
+
+### Security & Permissions
+
+1. ✅ **The --full-auto Deprecation: Migrating to Codex CLI's Explicit Permission Profiles and Trust Flows** — Written 2026-05-02 → `2026-05-02-codex-cli-full-auto-deprecation-permission-profiles-trust-flows.md`
+   - Source: Codex CLI v0.128.0 release notes, GitHub PR #20133, OpenAI config-basic docs, config-reference docs, agent-approvals-security docs, CLI reference docs, slash-commands docs, pricing docs
+   - Scope: --full-auto deprecation rationale and timeline, three replacement controls (permission profiles, granular approval policies, project trust), built-in profiles (:read-only, :workspace, :danger-no-sandbox), custom profile TOML with filesystem and network rules, granular approval_policy components, auto_review Guardian delegation, migration recipes for interactive dev/CI/containers/batch, /debug-config diagnostics, industry convergence on explicit permissions
+   - SEO targets: "codex cli full-auto deprecated", "codex cli permission profiles", "codex cli approval policy granular", "codex cli trust flow", "codex cli sandbox migration"
