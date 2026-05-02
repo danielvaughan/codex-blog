@@ -2052,3 +2052,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Codex CLI v0.128.0 release notes, GitHub PR #20133, OpenAI config-basic docs, config-reference docs, agent-approvals-security docs, CLI reference docs, slash-commands docs, pricing docs
    - Scope: --full-auto deprecation rationale and timeline, three replacement controls (permission profiles, granular approval policies, project trust), built-in profiles (:read-only, :workspace, :danger-no-sandbox), custom profile TOML with filesystem and network rules, granular approval_policy components, auto_review Guardian delegation, migration recipes for interactive dev/CI/containers/batch, /debug-config diagnostics, industry convergence on explicit permissions
    - SEO targets: "codex cli full-auto deprecated", "codex cli permission profiles", "codex cli approval policy granular", "codex cli trust flow", "codex cli sandbox migration"
+
+---
+
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan)
+
+### Testing & Code Quality
+
+1. ✅ **The Over-Mocking Problem: What 1.2 Million Commits Reveal About Agent-Generated Tests and How to Configure Codex CLI for Realistic Test Output** — Written 2026-05-02 → `2026-05-02-over-mocked-tests-agent-generated-test-quality-codex-cli-realistic-testing.md`
+   - Source: arXiv:2602.00409 (Hora & Robbes, MSR '26), OpenAI AGENTS.md docs, OpenAI Hooks docs, OpenAI best practices docs, OpenAI CLI features docs
+   - Scope: MSR 2026 empirical study of 1.2M commits and 48,563 agent commits, 36% vs 26% mock ratio finding, mock type concentration (95% mock vs humans' broader distribution), AGENTS.md mocking policy templates for Python/TypeScript, PostToolUse mock audit hook, /review custom instructions for test quality, mock ratio measurement with codex exec
+   - SEO targets: "codex cli test quality", "agent generated tests mocking", "codex cli AGENTS.md testing policy", "over-mocked tests AI", "codex cli PostToolUse test hooks"
