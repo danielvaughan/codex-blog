@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan #4)
+
+### Research & Long-Horizon Sessions
+
+1. ✅ **Specification Drift and SLUMP: Why Codex CLI Loses Faithfulness in Long-Horizon Sessions and How to Fight Back** — Written 2026-05-02 → `2026-05-02-specification-drift-slump-codex-cli-faithfulness-long-horizon-sessions.md`
+   - Source: arXiv:2603.17104 (Yan, Chen, Zhang — Purdue University, March 2026), OpenAI best practices docs, PLANS.md cookbook, Codex CLI v0.128 release notes, Wire Blog agent drift analysis
+   - Scope: SLUMP metric and benchmark methodology, Codex vs Claude Code faithfulness comparison (Codex preserves semantics but loses 49% structural integration), why tests miss specification drift, five defence layers (PLANS.md, plan mode anchoring, /goal workflows, PostToolUse structural hooks, session decomposition), ProjectGuard mitigation approach, lightweight drift measurement with codex exec
+   - SEO targets: "codex cli specification drift", "SLUMP faithfulness coding agents", "codex cli long horizon sessions", "codex cli PLANS.md best practices", "coding agent faithfulness loss"
+
+---
+
 ## New Articles — Sourced from Google Search Console Data (2026-04-18)
 
 ### High Priority
