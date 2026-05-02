@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan #6)
+
+### Configuration & Output Tuning
+
+1. ✅ **Codex CLI Output Control: Tuning Verbosity, Reasoning Summaries, and Token Budgets for Every Workflow** — Written 2026-05-02 → `2026-05-02-codex-cli-output-control-verbosity-reasoning-summaries-token-budgets.md`
+   - Source: OpenAI config-reference docs, config-sample docs, config-advanced docs, Codex changelog v0.125/v0.128, best practices docs, context compaction research (badlogic, Justin3go)
+   - Scope: model_verbosity (low/medium/high), model_reasoning_effort and plan_mode_reasoning_effort, model_reasoning_summary (auto/concise/detailed/none), hide_agent_reasoning and show_raw_agent_reasoning, tool_output_token_limit, model_auto_compact_token_limit, named profile recipes for CI, exploration, refactoring, and cost-conscious workflows, interaction effects, empirical measurement with codex exec --json
+   - SEO targets: "codex cli model verbosity", "codex cli reasoning effort configuration", "codex cli output token limit", "codex cli context compaction tuning", "codex cli configuration profiles"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-02, Hourly Scan #5)
 
 ### Security & Authentication
