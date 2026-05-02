@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-03, Hourly Task)
+
+### Model Selection & Routing
+
+1. ✅ **The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide** — Written 2026-05-03 → `2026-05-03-codex-cli-model-landscape-may-2026-gpt-5-5-5-4-5-3-routing-guide.md`
+   - Source: OpenAI models docs, API pricing docs, GPT-5.3-Codex system card, NxCode benchmark comparisons, Codex pricing page
+   - Scope: Complete May 2026 model lineup (GPT-5.5, GPT-5.4, GPT-5.4-mini, GPT-5.3-Codex, Codex-Spark), routing decision tree, cost comparison matrix, authentication gotchas (ChatGPT OAuth vs API key), config.toml recipes for daily driver/CI/subagent/budget workflows, GPT-5.2 retirement deadline (June 5), Pro 2x promotional window (expires May 31)
+   - SEO targets: "codex cli model selection may 2026", "gpt-5.5 vs gpt-5.4 codex", "codex cli which model to use", "codex cli model routing guide", "gpt-5.3-codex vs gpt-5.4 comparison"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-02, Hourly Scan #6)
 
 ### Configuration & Output Tuning
