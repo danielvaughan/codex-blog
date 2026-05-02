@@ -2063,3 +2063,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2602.00409 (Hora & Robbes, MSR '26), OpenAI AGENTS.md docs, OpenAI Hooks docs, OpenAI best practices docs, OpenAI CLI features docs
    - Scope: MSR 2026 empirical study of 1.2M commits and 48,563 agent commits, 36% vs 26% mock ratio finding, mock type concentration (95% mock vs humans' broader distribution), AGENTS.md mocking policy templates for Python/TypeScript, PostToolUse mock audit hook, /review custom instructions for test quality, mock ratio measurement with codex exec
    - SEO targets: "codex cli test quality", "agent generated tests mocking", "codex cli AGENTS.md testing policy", "over-mocked tests AI", "codex cli PostToolUse test hooks"
+
+---
+
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan #2)
+
+### Research & Testing Strategy
+
+1. ✅ **Do Agent-Written Tests Actually Help? What Six LLMs on SWE-bench Reveal and How to Rethink Your Codex CLI Testing Strategy** — Written 2026-05-02 → `2026-05-02-do-agent-written-tests-actually-help-codex-cli-testing-strategy.md`
+   - Source: arXiv:2602.07900 (Chen et al., February 2026), arXiv:2603.13724 (Yoshimoto et al., March 2026), OpenAI best practices docs, Codex config-reference docs, Codex subagents docs, Codex hooks docs
+   - Scope: Six-model SWE-bench Verified analysis showing test generation rates (0.6%–98.6%) uncorrelated with resolution rates, print-over-assertion debugging pattern, prompt intervention experiments showing no significant outcome changes, 35–49% token savings when tests are skipped, complementary real-world AIDev dataset showing AI tests match human coverage, two-pass CI workflow pattern, test-writer subagent definition, PostToolUse assertion-ratio hook, decision framework
+   - SEO targets: "codex cli testing strategy", "agent-written tests value", "codex cli test generation cost", "SWE-bench test writing", "codex cli two-pass CI testing"
