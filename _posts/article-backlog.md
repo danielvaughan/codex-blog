@@ -2074,3 +2074,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: arXiv:2602.07900 (Chen et al., February 2026), arXiv:2603.13724 (Yoshimoto et al., March 2026), OpenAI best practices docs, Codex config-reference docs, Codex subagents docs, Codex hooks docs
    - Scope: Six-model SWE-bench Verified analysis showing test generation rates (0.6%–98.6%) uncorrelated with resolution rates, print-over-assertion debugging pattern, prompt intervention experiments showing no significant outcome changes, 35–49% token savings when tests are skipped, complementary real-world AIDev dataset showing AI tests match human coverage, two-pass CI workflow pattern, test-writer subagent definition, PostToolUse assertion-ratio hook, decision framework
    - SEO targets: "codex cli testing strategy", "agent-written tests value", "codex cli test generation cost", "SWE-bench test writing", "codex cli two-pass CI testing"
+
+---
+
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan #3)
+
+### Security & Vulnerabilities
+
+1. ✅ **Spring 2026 AI Coding Agent Vulnerabilities: CVE-2026-26268, Comment-and-Control, and Codex CLI's Defence Posture** — Written 2026-05-02 → `2026-05-02-spring-2026-ai-coding-agent-vulnerabilities-cursor-rce-comment-control-codex-cli-defence.md`
+   - Source: Novee CVE-2026-26268 disclosure, NVD CVE-2026-26268, arXiv:2504.00323 (Guan et al., Comment and Control), Interesting Engineering coverage, OpenAI Codex CLI sandboxing docs, config-basic docs, config-reference docs
+   - Scope: CVE-2026-26268 Cursor bare-git RCE kill chain (CVSS 9.9), Comment-and-Control PR title prompt injection against Claude Code/Gemini CLI/Copilot (CVSS 9.4), Codex CLI sandbox architecture defence analysis, bubblewrap isolation, project trust boundaries, shell_environment_policy, defensive hardening patterns for practitioners
+   - SEO targets: "CVE-2026-26268 cursor vulnerability", "comment and control prompt injection", "codex cli security sandbox", "AI coding agent vulnerabilities 2026", "codex cli defence posture"
