@@ -5,6 +5,8 @@ nav_order: 516
 tags: ["codex-cli", "memories", "persistent-context", "MCP", "session-management", "config.toml", "developer-productivity"]
 ---
 
+![Sketchnote diagram for: Codex CLI Memories: Native Session Persistence, Third-Party Memory MCP Servers, and Cross-Session Context Strategies](/sketchnotes/articles/2026-05-01-codex-cli-memories-persistent-context-session-memory-ecosystem.png)
+
 # Codex CLI Memories: Native Session Persistence, Third-Party Memory MCP Servers, and Cross-Session Context Strategies
 
 

@@ -5,6 +5,8 @@ nav_order: 515
 tags: ["troubleshooting", "errors", "sandbox", "authentication", "MCP", "rate-limits", "compaction", "diagnostics"]
 ---
 
+![Sketchnote diagram for: Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Common Errors](/sketchnotes/articles/2026-05-01-codex-cli-troubleshooting-field-guide-common-errors-fixes.png)
+
 # Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Common Errors
 
 

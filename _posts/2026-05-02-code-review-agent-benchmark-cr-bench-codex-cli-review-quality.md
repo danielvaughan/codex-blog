@@ -5,6 +5,8 @@ nav_order: 521
 tags: ["code-review", "cr-bench", "benchmarks", "agents-md", "review-quality", "hooks", "github-integration", "research"]
 ---
 
+![Sketchnote diagram for: The Code Review Agent Benchmark: What CR-bench Reveals and How to Configure Codex CLI for Higher-Quality Reviews](/sketchnotes/articles/2026-05-02-code-review-agent-benchmark-cr-bench-codex-cli-review-quality.png)
+
 # The Code Review Agent Benchmark: What CR-bench Reveals and How to Configure Codex CLI for Higher-Quality Reviews
 
 

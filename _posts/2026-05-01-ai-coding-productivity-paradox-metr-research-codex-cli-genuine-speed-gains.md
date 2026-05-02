@@ -5,6 +5,8 @@ nav_order: 518
 tags: ["codex-cli", "productivity", "METR", "research", "developer-experience", "best-practices", "workflow", "configuration", "perception-gap"]
 ---
 
+![Sketchnote diagram for: The AI Coding Productivity Paradox: What Three Major Studies Reveal and How to Configure Codex CLI for Genuine Speed Gains](/sketchnotes/articles/2026-05-01-ai-coding-productivity-paradox-metr-research-codex-cli-genuine-speed-gains.png)
+
 # The AI Coding Productivity Paradox: What Three Major Studies Reveal and How to Configure Codex CLI for Genuine Speed Gains
 
 

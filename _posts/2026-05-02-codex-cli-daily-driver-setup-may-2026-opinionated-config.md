@@ -5,6 +5,8 @@ nav_order: 520
 tags: ["codex-cli", "configuration", "config.toml", "profiles", "daily-driver", "setup", "gpt-5.5", "memories", "mcp", "best-practices"]
 ---
 
+![Sketchnote diagram for: Codex CLI Daily Driver Setup for May 2026: An Opinionated Configuration Guide](/sketchnotes/articles/2026-05-02-codex-cli-daily-driver-setup-may-2026-opinionated-config.png)
+
 # Codex CLI Daily Driver Setup for May 2026: An Opinionated Configuration Guide
 
 

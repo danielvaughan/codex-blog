@@ -5,6 +5,8 @@ nav_order: 522
 tags: ["codex-cli", "security", "permissions", "deprecation", "migration", "approval-policy", "sandbox", "trust", "configuration"]
 ---
 
+![Sketchnote diagram for: The --full-auto Deprecation: Migrating to Codex CLI's Explicit Permission Profiles and Trust Flows](/sketchnotes/articles/2026-05-02-codex-cli-full-auto-deprecation-permission-profiles-trust-flows.png)
+
 # The --full-auto Deprecation: Migrating to Codex CLI's Explicit Permission Profiles and Trust Flows
 
 

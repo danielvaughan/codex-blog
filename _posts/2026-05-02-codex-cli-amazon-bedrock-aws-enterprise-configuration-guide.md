@@ -5,6 +5,8 @@ nav_order: 519
 tags: ["codex-cli", "amazon-bedrock", "aws", "enterprise", "sigv4", "configuration", "bedrock-mantle"]
 ---
 
+![Sketchnote diagram for: Codex CLI on Amazon Bedrock: Enterprise Configuration, SigV4 Authentication, and AWS-Native Workflows](/sketchnotes/articles/2026-05-02-codex-cli-amazon-bedrock-aws-enterprise-configuration-guide.png)
+
 # Codex CLI on Amazon Bedrock: Enterprise Configuration, SigV4 Authentication, and AWS-Native Workflows
 
 

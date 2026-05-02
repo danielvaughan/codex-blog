@@ -5,6 +5,8 @@ nav_order: 524
 tags: ["testing", "research", "agent-generated-tests", "SWE-bench", "codex-cli", "TDD", "cost-optimisation", "reasoning-effort", "AGENTS.md"]
 ---
 
+![Sketchnote diagram for: Do Agent-Written Tests Actually Help? What Six LLMs on SWE-bench Reveal and How to Rethink Your Codex CLI Testing Strategy](/sketchnotes/articles/2026-05-02-do-agent-written-tests-actually-help-codex-cli-testing-strategy.png)
+
 # Do Agent-Written Tests Actually Help? What Six LLMs on SWE-bench Reveal and How to Rethink Your Codex CLI Testing Strategy
 
 

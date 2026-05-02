@@ -5,6 +5,8 @@ nav_order: 523
 tags: ["codex-cli", "testing", "mocking", "research", "AGENTS.md", "PostToolUse", "test-quality", "MSR-2026"]
 ---
 
+![Sketchnote diagram for: The Over-Mocking Problem: What 1.2 Million Commits Reveal About Agent-Generated Tests and How to Configure Codex CLI for Realistic Test Output](/sketchnotes/articles/2026-05-02-over-mocked-tests-agent-generated-test-quality-codex-cli-realistic-testing.png)
+
 # The Over-Mocking Problem: What 1.2 Million Commits Reveal About Agent-Generated Tests and How to Configure Codex CLI for Realistic Test Output
 
 
