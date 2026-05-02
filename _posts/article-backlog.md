@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan #5)
+
+### Security & Authentication
+
+1. ✅ **Codex CLI in the Post-Password Era: Advanced Account Security, Passkeys, and Hardening Your Authentication Chain** — Written 2026-05-02 → `2026-05-02-codex-cli-advanced-account-security-passkeys-yubikey-enterprise-authentication.md`
+   - Source: OpenAI Advanced Account Security announcement (30 April 2026), Yubico partnership press release, OpenAI Trusted Access for Cyber docs, OpenAI Codex auth docs, CLI reference docs, GitHub Issue #9253
+   - Scope: Advanced Account Security feature breakdown (passkey-only sign-in, disabled recovery, shortened sessions, training exclusion), Codex CLI authentication flow impact (OAuth, device code, API key), what breaks and what doesn't, per-environment configuration (desktop, headless, CI/CD), Trusted Access for Cyber June 1 deadline, YubiKey bundle details, enterprise SSO attestation alternative, practical hardening recommendations
+   - SEO targets: "codex cli authentication passkey", "codex cli advanced account security", "codex cli yubikey", "codex cli device code auth", "openai trusted access cyber codex"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-02, Hourly Scan #4)
 
 ### Research & Long-Horizon Sessions
