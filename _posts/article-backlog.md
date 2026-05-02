@@ -2030,3 +2030,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI config-basic/config-advanced/config-reference docs, GPT-5.5 launch announcement, Codex CLI v0.128 release notes, Memories documentation, MCP documentation, slash commands reference, best practices guide
    - Scope: Complete opinionated config.toml for daily use, GPT-5.5 as default model, named profiles (fast/deep/ci), memories configuration, TUI keymap customisation, MCP server recommendations, AGENTS.md best practices, essential slash commands, approval policy selection
    - SEO targets: "codex cli config.toml", "codex cli setup guide", "codex cli daily driver", "codex cli configuration 2026", "codex cli profiles"
+
+---
+
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan)
+
+### Code Review & Benchmarks
+
+1. ✅ **The Code Review Agent Benchmark: What CR-bench Reveals and How to Configure Codex CLI for Higher-Quality Reviews** — Written 2026-05-02 → `2026-05-02-code-review-agent-benchmark-cr-bench-codex-cli-review-quality.md`
+   - Source: arXiv:2603.23448 (Zhang et al., CR-bench, March 2026), OpenAI Codex GitHub code review docs, OpenAI AGENTS.md docs, OpenAI best practices docs, GPT-5.3-Codex announcement
+   - Scope: CR-bench c-CRAB methodology and executable test pipeline, per-agent pass rates (Codex 20.1%, Claude Code 32.1%, Devin 24.8%, PR-Agent 23.1%), category analysis (robustness strengths, maintainability/documentation gaps), AGENTS.md review guidelines configuration, custom /review instructions, PostToolUse documentation hooks, human-agent complementary review workflow, measurement strategy
+   - SEO targets: "codex cli code review quality", "CR-bench code review benchmark", "codex cli review configuration", "codex cli AGENTS.md review guidelines", "automated code review benchmark 2026"
