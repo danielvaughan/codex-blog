@@ -2025,3 +2025,8 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: AWS Bedrock limited preview announcement (28 April 2026), OpenAI AWS partnership announcement, DevelopersIO Bedrock Mantle walkthrough, GitHub PR #17820 (SigV4 auth), OpenAI config-reference docs, Elevata setup guide, DEV Community Bedrock guide
    - Scope: Built-in amazon-bedrock provider configuration, SigV4 authentication and codex-aws-auth crate, Bedrock Mantle Responses API (gpt-oss-120b/20b only), IAM policy templates, CloudTrail auditing, PrivateLink, SSO credential flow, web_search limitation, cost controls, regional availability, enterprise security controls inheritance
    - SEO targets: "codex cli amazon bedrock", "codex cli aws configuration", "codex cli bedrock setup", "codex cli sigv4 authentication", "codex cli enterprise aws"
+
+1. ✅ **Codex CLI Daily Driver Setup for May 2026: An Opinionated Configuration Guide** — Written 2026-05-02 → `2026-05-02-codex-cli-daily-driver-setup-may-2026-opinionated-config.md`
+   - Source: OpenAI config-basic/config-advanced/config-reference docs, GPT-5.5 launch announcement, Codex CLI v0.128 release notes, Memories documentation, MCP documentation, slash commands reference, best practices guide
+   - Scope: Complete opinionated config.toml for daily use, GPT-5.5 as default model, named profiles (fast/deep/ci), memories configuration, TUI keymap customisation, MCP server recommendations, AGENTS.md best practices, essential slash commands, approval policy selection
+   - SEO targets: "codex cli config.toml", "codex cli setup guide", "codex cli daily driver", "codex cli configuration 2026", "codex cli profiles"
