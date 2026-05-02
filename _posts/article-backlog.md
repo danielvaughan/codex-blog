@@ -2096,3 +2096,14 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Novee CVE-2026-26268 disclosure, NVD CVE-2026-26268, arXiv:2504.00323 (Guan et al., Comment and Control), Interesting Engineering coverage, OpenAI Codex CLI sandboxing docs, config-basic docs, config-reference docs
    - Scope: CVE-2026-26268 Cursor bare-git RCE kill chain (CVSS 9.9), Comment-and-Control PR title prompt injection against Claude Code/Gemini CLI/Copilot (CVSS 9.4), Codex CLI sandbox architecture defence analysis, bubblewrap isolation, project trust boundaries, shell_environment_policy, defensive hardening patterns for practitioners
    - SEO targets: "CVE-2026-26268 cursor vulnerability", "comment and control prompt injection", "codex cli security sandbox", "AI coding agent vulnerabilities 2026", "codex cli defence posture"
+
+---
+
+## New Articles — Auto-Generated (2026-05-02, Hourly Scan #4)
+
+### Remote Development & App Server
+
+1. ✅ **Codex CLI Remote Development: App Server Architecture, SSH Connections, and Multi-Environment Workflows** — Written 2026-05-02 → `2026-05-02-codex-cli-remote-development-app-server-ssh-multi-environment.md`
+   - Source: OpenAI App Server docs, Remote Connections docs, InfoQ App Server architecture coverage, Codex CLI features docs, Codex changelog v0.128
+   - Scope: App Server bidirectional JSON-RPC architecture, three transport options (stdio/WebSocket/Unix socket), Remote TUI setup with SSH port forwarding, two authentication modes (capability token, signed bearer token), multi-environment per-turn workflows, security hardening patterns, four deployment patterns (SSH forwarding, Tailscale mesh, container devbox, Desktop SSH), known limitations
+   - SEO targets: "codex cli remote development", "codex cli app server", "codex cli ssh remote", "codex cli multi-environment", "codex cli websocket", "codex cli devbox remote"
