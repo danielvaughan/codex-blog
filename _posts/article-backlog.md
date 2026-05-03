@@ -2,6 +2,13 @@
 
 ## New Articles — Auto-Generated (2026-05-03, Hourly Task)
 
+### Enterprise Governance & Provider Integration
+
+1. ✅ **Codex CLI Through Databricks Unity AI Gateway: Enterprise Governance, Rate Limits, and Guardrails for Coding Agents** — Written 2026-05-03 → `2026-05-03-codex-cli-databricks-unity-ai-gateway-enterprise-governance.md`
+   - Source: Databricks GPT-5.5+Codex blog, Unity AI Gateway docs, coding agent integration beta docs, rate limits docs, prompt injection mitigation blog
+   - Scope: Custom provider config.toml setup, Unity AI Gateway architecture, guardrails (PII detection, prompt injection, content safety), per-user/group rate limits, inference table observability, comparison with Direct API and Amazon Bedrock, CI/CD integration with service principals, defence-in-depth layering with CLI-side controls
+   - SEO targets: "codex cli databricks", "codex cli unity ai gateway", "codex cli enterprise governance", "codex cli guardrails pii", "databricks coding agent integration"
+
 ### Model Selection & Routing
 
 1. ✅ **Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration** — Written 2026-05-03 → `2026-05-03-anatomy-production-agents-md-openai-codex-repository-case-study.md`
