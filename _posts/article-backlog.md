@@ -2,6 +2,13 @@
 
 ## New Articles — Auto-Generated (2026-05-03, Hourly Task)
 
+### Model Behaviour & RLHF
+
+1. ✅ **The Goblin Incident: What Reward Signal Leakage in GPT-5.5 Teaches Codex CLI Practitioners** — Written 2026-05-03 → `2026-05-03-goblin-bias-reward-signal-leakage-codex-cli-model-behaviour-lessons.md`
+   - Source: OpenAI "Where the Goblins Came From" post-mortem, Gizmodo system prompt discovery, 9to5Mac analysis, VentureBeat override guide, NYU Shanghai quantitative breakdown
+   - Scope: RLHF reward over-generalisation and self-reinforcing SFT loops, goblin suppression instruction in GPT-5.5 system prompt, quantitative impact (175% goblin increase, 76.2% reward uplift), PostToolUse lexical drift hooks, AGENTS.md style constraints, system prompt archaeology, instruction tax, model comparison for drift detection
+   - SEO targets: "codex cli goblin bias", "GPT-5.5 reward signal leakage", "codex cli system prompt", "RLHF coding agent behaviour", "codex cli model behaviour"
+
 ### Enterprise Governance & Provider Integration
 
 1. ✅ **Codex CLI Through Databricks Unity AI Gateway: Enterprise Governance, Rate Limits, and Guardrails for Coding Agents** — Written 2026-05-03 → `2026-05-03-codex-cli-databricks-unity-ai-gateway-enterprise-governance.md`
