@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-03, Hourly Task #5)
+
+### Multi-File Editing & Coordination
+
+1. ✅ **Codex CLI Multi-File Editing Strategies: Coordinating Changes Across Large Pull Requests with apply_patch and Subagents** — Written 2026-05-03 → `2026-05-03-codex-cli-multi-file-editing-strategies-apply-patch-subagents-coordinated-changes.md`
+   - Source: OpenAI apply_patch tool instructions, Subagents docs, Best practices docs, Codex CLI features docs, Codex changelog v0.128, AGENTS.md guide, Models docs, Advanced config docs
+   - Scope: apply_patch diff format (Add/Update/Delete operations, multi-file patches, progressive matching), subagent architecture (MultiAgentV2 config, custom TOML agent definitions, sandbox inheritance), five production patterns (rename propagation, staged migration with Plan Mode, parallel subagent delegation, CSV batch processing, review-then-apply pipeline), AGENTS.md coordination rules, cost considerations, sharp edges, verification checklist
+   - SEO targets: "codex cli multi-file editing", "codex cli apply_patch format", "codex cli subagent refactoring", "codex cli large pull request", "codex cli coordinated changes"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-03, Hourly Task #4)
 
 ### Non-Interactive Automation
