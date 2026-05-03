@@ -4,6 +4,10 @@
 
 ### Model Selection & Routing
 
+1. ✅ **Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration** — Written 2026-05-03 → `2026-05-03-anatomy-production-agents-md-openai-codex-repository-case-study.md`
+   - Source: openai/codex AGENTS.md, OpenAI AGENTS.md docs, Augment Code AGENTS.md guide (ETH Zurich findings), OpenAI best practices, config reference
+   - Scope: Case study of the openai/codex repository's own AGENTS.md file; six patterns for production AGENTS.md (counterintuitive conventions, verification commands, module size limits, no-go zones, crate growth resistance, API naming tables); research on LLM-generated vs human-curated context files; practical application guide
+
 1. ✅ **The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide** — Written 2026-05-03 → `2026-05-03-codex-cli-model-landscape-may-2026-gpt-5-5-5-4-5-3-routing-guide.md`
    - Source: OpenAI models docs, API pricing docs, GPT-5.3-Codex system card, NxCode benchmark comparisons, Codex pricing page
    - Scope: Complete May 2026 model lineup (GPT-5.5, GPT-5.4, GPT-5.4-mini, GPT-5.3-Codex, Codex-Spark), routing decision tree, cost comparison matrix, authentication gotchas (ChatGPT OAuth vs API key), config.toml recipes for daily driver/CI/subagent/budget workflows, GPT-5.2 retirement deadline (June 5), Pro 2x promotional window (expires May 31)
