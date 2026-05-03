@@ -5,6 +5,8 @@ nav_order: 526
 tags: ["codex-cli", "research", "long-horizon", "specification-drift", "SLUMP", "faithfulness", "plan-mode", "PLANS.md", "context-engineering", "best-practices"]
 ---
 
+![Sketchnote diagram for: Specification Drift and SLUMP: Why Codex CLI Loses Faithfulness in Long-Horizon Sessions and How to Fight Back](/sketchnotes/articles/2026-05-02-specification-drift-slump-codex-cli-faithfulness-long-horizon-sessions.png)
+
 # Specification Drift and SLUMP: Why Codex CLI Loses Faithfulness in Long-Horizon Sessions and How to Fight Back
 
 

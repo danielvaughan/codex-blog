@@ -5,8 +5,8 @@ nav_order: 1
 
 # Articles Index
 
-**Last updated:** 2026-05-02
-**Total articles rated:** 590
+**Last updated:** 2026-05-03
+**Total articles rated:** 605
 
 ## Rating Scale
 
@@ -23,9 +23,9 @@ Each article is rated 1-5 on four dimensions:
 |---|---|---|---|---|---|---|
 | [Agentic Engineering Is Not Vibe Coding: The Framework That Separates 10x Teams from Toy Projects](../premium-articles/02-agentic-engineering-is-not-vibe-coding.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
 | [Forward Deployed Engineers: The Human Bridge Between Agentic Pods and Enterprise Reality](../premium-articles/15-forward-deployed-engineers.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
-| [The Assembly Line: Why Validation Capacity Is Your AI Bottleneck](../premium-articles/draft-2026-04-26-the-assembly-line.md) | 5 | 5 | 4 | 5 | 4.8 | Draft; Premium series; Deep dive; Rich diagrams; Heavily sourced |
+| [The Assembly Line: Why Validation Capacity Is Your AI Bottleneck](../premium-articles/19-the-assembly-line.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
 | [AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?](../premium-articles/10-ai-slopageddon.md) | 5 | 4 | 4 | 5 | 4.5 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
-| [The Enablement Coach: How Scrum Masters Lead the Shift to Agentic Engineering](../premium-articles/draft-2026-04-30-the-enablement-coach.md) | 5 | 4 | 4 | 5 | 4.5 | Draft; Premium series; Rich diagrams |
+| [The Enablement Coach: How Scrum Masters Lead the Shift to Agentic Engineering](../premium-articles/23-the-enablement-coach.md) | 5 | 4 | 4 | 5 | 4.5 | Premium series; Rich diagrams |
 | [The Scaling Playbook: From Pilot Pod to Enterprise Factory](../premium-articles/12-the-scaling-playbook.md) | 5 | 5 | 4 | 4 | 4.5 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
 | [Your AI Agent Is Breaking Things You Already Fixed: The Testing Revolution Nobody's Talking About](../premium-articles/04-tdad-and-the-testing-revolution.md) | 5 | 4 | 4 | 5 | 4.5 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
 | [Codex CLI at One Year: What We Got Right, What We Got Wrong, and What's Coming Next](../premium-articles/01-codex-cli-at-one-year.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
@@ -36,23 +36,30 @@ Each article is rated 1-5 on four dimensions:
 | [The EU AI Act, SOC 2 and AI-Generated Code: What the Regulation Actually Says](../premium-articles/13-the-eu-ai-act-and-ai-generated-code.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
 | [Three Terminals, Three Fates: Codex CLI vs Claude Code vs Gemini CLI — A Comparative Analysis](../premium-articles/09-three-terminals-three-fates.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
 | [Token Economics: Measuring the Real ROI of Coding Agents](../premium-articles/11-token-economics-and-the-roi-of-coding-agents.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
-| [AI Is the New India?](../premium-articles/draft-2026-04-30-ai-is-the-new-india.md) | 5 | 3 | 4 | 5 | 4.2 | Draft; Premium series; Heavily sourced |
+| [AI Is the New India?](../premium-articles/21-ai-is-the-new-india.md) | 5 | 3 | 4 | 5 | 4.2 | Premium series; Heavily sourced |
 | [The Agentic Engineering Maturity Matrix: Assessing Your Organisation's AI Readiness](../premium-articles/14-the-agentic-engineering-maturity-matrix.md) | 5 | 4 | 3 | 5 | 4.2 | Premium series; Deep dive |
-| [The Fundamentals Paradox: Why Decades-Old Software Principles Are the Real AI Advantage](../premium-articles/draft-2026-04-24-the-fundamentals-paradox.md) | 4 | 4 | 4 | 5 | 4.2 | Draft; Premium series; Heavily sourced |
-| [The Cognitive Load Paradox: Why Agentic Development Is Exhausting the People It Was Meant to Help](../premium-articles/draft-2026-04-24-the-cognitive-load-paradox.md) | 4 | 4 | 3 | 5 | 4.0 | Draft; Premium series |
+| [The Fundamentals Paradox: Why Decades-Old Software Principles Are the Real AI Advantage](../premium-articles/17-the-fundamentals-paradox.md) | 4 | 4 | 4 | 5 | 4.2 | Premium series; Heavily sourced |
+| [The Cognitive Load Paradox: Why Agentic Development Is Exhausting the People It Was Meant to Help](../premium-articles/16-the-cognitive-load-paradox.md) | 4 | 4 | 3 | 5 | 4.0 | Premium series |
 | [The Complete Guide to Securing Your AI Coding Agent (Before It Secures Your Job)](../premium-articles/07-complete-guide-to-codex-security.md) | 5 | 3 | 4 | 4 | 4.0 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
-| [The Knowledge Factory: How Codex CLI Turns a Git Repo into an Agent-Maintained Knowledge Base](../premium-articles/draft-2026-04-30-the-knowledge-factory.md) | 4 | 4 | 3 | 5 | 4.0 | Draft; Premium series; Rich diagrams |
-| [The Ratchet: Why Your AI Agent's Configuration Is a Fossil Record of Failures](../premium-articles/draft-2026-04-28-the-ratchet.md) | 4 | 4 | 3 | 5 | 4.0 | Draft; Premium series |
-| [The Tsundoku Trap: Quick to Accumulate, Reluctant to Invest](../premium-articles/draft-2026-04-25-the-tsundoku-trap.md) | 5 | 4 | 3 | 4 | 4.0 | Draft; Premium series; Deep dive; Heavily sourced |
-| [Where SPEC.md Fits: A Codex CLI Perspective on the SDD Landscape](../premium-articles/draft-2026-05-01-where-spec-md-fits.md) | 4 | 3 | 4 | 5 | 4.0 | Draft; Premium series; Rich diagrams |
+| [The Knowledge Factory: How Codex CLI Turns a Git Repo into an Agent-Maintained Knowledge Base](../premium-articles/24-the-knowledge-factory.md) | 4 | 4 | 3 | 5 | 4.0 | Premium series; Rich diagrams |
+| [The Ratchet: Why Your AI Agent's Configuration Is a Fossil Record of Failures](../premium-articles/20-the-ratchet.md) | 4 | 4 | 3 | 5 | 4.0 | Premium series |
+| [The Tsundoku Trap: Quick to Accumulate, Reluctant to Invest](../premium-articles/18-the-tsundoku-trap.md) | 5 | 4 | 3 | 4 | 4.0 | Premium series; Deep dive; Heavily sourced |
+| [Where SPEC.md Fits: A Codex CLI Perspective on the SDD Landscape](../premium-articles/25-where-spec-md-fits.md) | 4 | 3 | 4 | 5 | 4.0 | Premium series; Rich diagrams |
 | [The Tsundoku Trap: Why AI Makes You Start Everything and Finish Nothing](../premium-articles/medium-2026-04-25-the-tsundoku-trap.md) | 3 | 4 | 2 | 4 | 3.2 | Premium series; No citations |
-| [Karpathy Says What We've Been Building](../premium-articles/draft-2026-04-30-karpathy-says-what-weve-been-building.md) | 2 | 3 | 3 | 4 | 2.9 | Draft; Premium series |
+| [Karpathy Says What We've Been Building](../premium-articles/22-karpathy-says-what-weve-been-building.md) | 2 | 3 | 3 | 4 | 2.9 | Premium series |
+| [How I Use Codex to Write and Maintain a Book on Codex CLI](../premium-articles/draft-2026-05-03-how-i-built-the-system-that-writes-my-book.md) | 4 | 5 | 4 | 5 | 4.4 | Draft; Premium series; First-person field report; Highly original |
 
 ## Articles
 
 | Article | Depth | Orig | Acc | Sub | Composite | Notes |
 |---|---|---|---|---|---|---|
+| [The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide](2026-05-03-codex-cli-model-landscape-may-2026-gpt-5-5-5-4-5-3-routing-guide.md) | 5 | 4 | 4 | 5 | 4.5 | Rich diagrams; Heavily sourced; Model pricing and benchmarks |
+| [WebSocket Mode in Codex CLI: How Persistent Connections to the Responses API Cut Agent Loop Latency by 40%](2026-05-03-codex-cli-websocket-mode-responses-api-persistent-connections-agent-loop-performance.md) | 5 | 4 | 4 | 5 | 4.5 | Deep dive; Sequence diagrams; Protocol-level analysis |
 | [The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model](2026-04-12-codex-cli-best-practices-workflow-maturity-model.md) | 5 | 4 | 4 | 5 | 4.5 | Rich diagrams; Heavily sourced |
+| [The Goblin Incident: What Reward Signal Leakage in GPT-5.5 Teaches Codex CLI Practitioners](2026-05-03-goblin-bias-reward-signal-leakage-codex-cli-model-behaviour-lessons.md) | 4 | 5 | 4 | 5 | 4.4 | Highly original; RLHF case study; Rich diagrams |
+| [Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration](2026-05-03-anatomy-production-agents-md-openai-codex-repository-case-study.md) | 5 | 4 | 4 | 4 | 4.3 | Case study; ETH Zurich research; Heavily sourced |
+| [Codex CLI MultiAgentV2: Custom Roles, Thread Orchestration, and Production Parallel Workflows](2026-05-03-codex-cli-multiagentv2-custom-roles-thread-orchestration-parallel-workflows.md) | 5 | 4 | 4 | 4 | 4.3 | Architecture deep dive; Config reference |
+| [Codex CLI Sandbox Internals: How Seatbelt, Bubblewrap, Landlock and Windows DACL Keep Agent Commands in Check](2026-05-03-codex-cli-sandbox-internals-seatbelt-bubblewrap-landlock-windows-dacl.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; OS-level analysis; Code examples |
 | [AI Slopageddon and the Open-Source Contribution Crisis: How Codex CLI's Invitation-Only Model Signals a New Era](2026-04-01-ai-slopageddon-open-source-contribution-crisis.md) | 4 | 4 | 4 | 5 | 4.2 | Thought leadership |
 | [AWS Agent Plugins and the Compound Plugin Pattern: How Cloud Providers Are Shipping Production-Grade Agent Skills](2026-04-13-aws-agent-plugins-compound-plugin-pattern.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams |
 | [AWS AgentCore's Managed Harness and Coding Skills: What They Mean for Codex CLI Teams](2026-04-24-aws-agentcore-managed-harness-codex-cli-enterprise-agent-deployment.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams |
@@ -95,6 +102,7 @@ Each article is rated 1-5 on four dimensions:
 | [Vibe Coding vs Agentic Engineering: A Senior Developer's Framework](2026-03-29-vibe-coding-vs-agentic-engineering.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; Thought leadership |
 | [When to Use Multi-Agent vs Single-Agent: A Practical Framework for Codex CLI Teams](2026-04-18-multi-agent-vs-single-agent-codex-cli-framework.md) | 4 | 4 | 4 | 5 | 4.2 | Thought leadership |
 | [Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)](2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps.md) | 4 | 4 | 4 | 5 | 4.2 | Heavily sourced |
+| [Goal Mode in Codex CLI: Persistent Objectives, Token Budgets, and the Shift to Agentic Loops](2026-05-03-codex-cli-goal-mode-persistent-objectives-token-budgets-agentic-loops.md) | 4 | 4 | 4 | 4 | 4.0 | New feature deep dive; Lifecycle diagrams |
 | [Agentic Harness Engineering: What Observability-Driven Evolution Means for Your Codex CLI Configuration](2026-04-30-agentic-harness-engineering-observability-driven-evolution-codex-cli.md) | 4 | 3 | 4 | 5 | 4.0 | Rich diagrams |
 | [Bootstrapping AGENTS.md: Scaffold Generation, Override Files and Chain Verification](2026-04-08-bootstrapping-agents-md.md) | 4 | 4 | 4 | 4 | 4.0 | Agent patterns |
 | [Codex CLI Worktree Lifecycle: App vs CLI Worktree Management](2026-04-11-codex-worktree-lifecycle-app-vs-cli.md) | 4 | 4 | 4 | 4 | 4.0 | Core article |
@@ -118,6 +126,11 @@ Each article is rated 1-5 on four dimensions:
 | [Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice](2026-04-09-harness-performance-terminal-bench.md) | 3 | 4 | 4 | 5 | 3.9 | Thought leadership |
 | [Purpose-Built Agent Models: What codex-auto-review Tells Us About the Future of Specialised AI](2026-04-17-purpose-built-agent-models-codex-auto-review.md) | 3 | 4 | 4 | 5 | 3.9 | Model strategy |
 | [The AI Complexity Ratchet: Why Agentic Automation Drifts Into the Pit at 200 mph](2026-04-09-ai-complexity-ratchet.md) | 3 | 4 | 4 | 5 | 3.9 | Thought leadership |
+| [The macOS Premium: Which Codex Features Only Work on Apple Hardware](2026-04-17-codex-cli-macos-premium-platform-feature-matrix.md) | 4 | 3 | 4 | 4 | 3.8 | Platform comparison; Feature matrix |
+| [Codex CLI Output Control: Tuning Verbosity, Reasoning Summaries, and Token Budgets for Every Workflow](2026-05-02-codex-cli-output-control-verbosity-reasoning-summaries-token-budgets.md) | 4 | 3 | 4 | 4 | 3.8 | Config reference; Mermaid diagrams |
+| [Codex CLI Through Databricks Unity AI Gateway: Enterprise Governance, Rate Limits, and Guardrails](2026-05-03-codex-cli-databricks-unity-ai-gateway-enterprise-governance.md) | 4 | 3 | 4 | 4 | 3.8 | Enterprise integration; Rich diagrams |
+| [Codex CLI Enterprise Observability: Choosing and Configuring Grafana Cloud, SigNoz, Dynatrace, and Opik](2026-05-03-codex-cli-enterprise-observability-platforms-grafana-signoz-dynatrace-opik.md) | 4 | 3 | 4 | 4 | 3.8 | Platform comparison; Production config |
+| [Codex CLI Non-Interactive Pipelines: Production Automation with exec, resume, and Structured Output](2026-05-03-codex-cli-non-interactive-pipelines-exec-resume-structured-output.md) | 4 | 3 | 4 | 4 | 3.8 | Practical recipes; CI/CD focus |
 | [Agent Interoperability Protocols and Codex CLI: MCP, ACP, and A2A in Practice](2026-05-01-codex-cli-agent-interoperability-protocols-mcp-acp-a2a.md) | 5 | 2 | 4 | 4 | 3.8 | Rich diagrams; Heavily sourced |
 | [Codex CLI + GitHub Actions: The Complete Integration Guide](2026-03-29-codex-github-actions-complete-integration-guide.md) | 5 | 2 | 4 | 4 | 3.8 | Rich diagrams; Heavily sourced |
 | [Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD Credential Management](2026-04-01-codex-cli-authentication-flows-credential-management.md) | 5 | 2 | 4 | 4 | 3.8 | Rich diagrams; Heavily sourced |
@@ -137,6 +150,7 @@ Each article is rated 1-5 on four dimensions:
 | [Plan Mode Mechanics: Enter vs Tab, Syntax Highlighting and Inline Editing](2026-04-08-plan-mode-mechanics.md) | 3 | 4 | 4 | 4 | 3.7 | Rich diagrams |
 | [Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software](2026-04-08-tessl-skill-evaluation-framework.md) | 3 | 4 | 4 | 4 | 3.7 | Agent patterns |
 | [The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality](2026-04-10-karpathy-ai-capability-gap-codex-cli.md) | 3 | 4 | 4 | 4 | 3.7 | Core article |
+| [Codex CLI for Everyday Git Workflows: Commit Messages, PR Descriptions, and Branch Automation](2026-05-02-codex-cli-git-workflows-commit-messages-pr-descriptions-automation.md) | 3 | 3 | 4 | 4 | 3.4 | Practical how-to; Code recipes |
 | [Evaluation Exploitation in Codex CLI Workflows: Why Your Agent Games the Score and How to Stop It](2026-04-28-evaluation-exploitation-codex-cli-score-gaming-anti-exploit-patterns.md) | 3 | 3 | 4 | 5 | 3.6 | Agent patterns |
 | [How to Be a Codex CLI Forward Deployed Engineer](2026-04-07-codex-cli-forward-deployed-engineer.md) | 3 | 3 | 4 | 5 | 3.6 | Core article |
 | [The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis](2026-04-10-codex-cli-complete-pricing-guide-subscription-tokens-cost-optimization.md) | 5 | 2 | 4 | 3 | 3.6 | Deep dive; Rich diagrams; Heavily sourced |
@@ -505,6 +519,7 @@ Each article is rated 1-5 on four dimensions:
 | [gstack: Garry Tan's Production Claude Code Skills Toolkit](2026-03-30-gstack-garry-tan-production-skills-toolkit.md) | 4 | 2 | 4 | 4 | 3.5 | Rich diagrams |
 | [v0.124 Hooks Migration Guide: From hooks.json to Inline config.toml](2026-04-24-codex-cli-hooks-migration-guide-hooks-json-to-inline-config-toml.md) | 4 | 2 | 4 | 4 | 3.5 | Extensibility |
 | [Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control](2026-03-28-codex-cli-cost-management-token-strategy.md) | 4 | 2 | 4 | 3 | 3.3 | Model strategy |
+| [Codex and Outlook Calendar: Five Ways to Connect Your Agent to Microsoft 365 Scheduling](codex-outlook-calendar-integration.md) | 3 | 3 | 3 | 4 | 3.2 | Integration guide; Five approaches |
 | [AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance](2026-04-07-agents-md-open-standard-cross-tool-portability.md) | 3 | 2 | 4 | 4 | 3.2 | Agent patterns |
 | [Agent Psychometrics: Predicting Which Tasks Your Codex CLI Agent Will Ace and Which It Will Botch](2026-04-29-agent-psychometrics-predicting-task-difficulty-codex-cli-llm-scaffold-decomposition.md) | 3 | 2 | 4 | 4 | 3.2 | Agent patterns |
 | [Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI](2026-04-10-agents-platform-speed-kubecon-codex-cli.md) | 3 | 2 | 4 | 4 | 3.2 | Agent patterns |

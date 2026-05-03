@@ -5,6 +5,8 @@ nav_order: 533
 tags: ["codex-cli", "GPT-5.5", "RLHF", "reward-signal", "model-behaviour", "system-prompt", "code-quality"]
 ---
 
+![Sketchnote diagram for: The Goblin Incident: What Reward Signal Leakage in GPT-5.5 Teaches Codex CLI Practitioners](/sketchnotes/articles/2026-05-03-goblin-bias-reward-signal-leakage-codex-cli-model-behaviour-lessons.png)
+
 # The Goblin Incident: What Reward Signal Leakage in GPT-5.5 Teaches Codex CLI Practitioners
 
 

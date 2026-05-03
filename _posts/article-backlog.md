@@ -1,6 +1,53 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-03, Hourly Task #4)
+
+### Non-Interactive Automation
+
+1. ✅ **Codex CLI Non-Interactive Pipelines: Production Automation with exec, resume, and Structured Output** — Written 2026-05-03 → `2026-05-03-codex-cli-non-interactive-pipelines-exec-resume-structured-output.md`
+   - Source: OpenAI non-interactive mode docs, CLI reference docs, Codex changelog May 2026, GitHub Issues #17568/#14343, Codex best practices docs, Codex prompting guide
+   - Scope: Complete codex exec surface (exec/resume/fork), --output-schema JSON Schema validation, JSON Lines event streaming with reasoning-token telemetry, hermetic isolation flags (--ephemeral, --ignore-user-config), multi-stage resume pipelines, stdin piping patterns, parallel exec with GNU Parallel, GitHub Actions scheduled recipes, authentication in CI, exit codes, performance optimisation (prompt caching, model selection)
+   - SEO targets: "codex exec automation", "codex cli ci pipeline", "codex exec resume", "codex cli structured output", "codex exec json schema"
+
+---
+
+## New Articles — Auto-Generated (2026-05-03, Hourly Task #3)
+
+### Enterprise Observability
+
+1. ✅ **Codex CLI Enterprise Observability: Choosing and Configuring Grafana Cloud, SigNoz, Dynatrace, and Opik** — Written 2026-05-03 → `2026-05-03-codex-cli-enterprise-observability-platforms-grafana-signoz-dynatrace-opik.md`
+   - Source: OpenAI config-advanced docs, OpenAI config-reference docs, Grafana Cloud Codex integration, SigNoz Codex monitoring docs, Dynatrace AI coding agent monitoring announcement (30 April 2026), Opik Codex integration docs, Dynatrace OSS instrumentation examples, OpenAI agent-approvals-security docs
+   - Scope: Four-platform comparison (Grafana Cloud, SigNoz, Dynatrace, Opik), production-ready config.toml for each, telemetry signal types (logs/traces/metrics), security controls (prompt redaction, TLS, managed config), decision framework flowchart, multi-platform OTEL Collector pattern, air-gapped deployment options, enterprise managed_config.toml enforcement
+   - SEO targets: "codex cli observability platform", "codex cli grafana monitoring", "codex cli dynatrace", "codex cli signoz setup", "codex cli opik integration", "codex cli enterprise monitoring"
+
+---
+
+## New Articles — Auto-Generated (2026-05-03, Hourly Task #2)
+
+### Transport & Performance
+
+1. ✅ **WebSocket Mode in Codex CLI: How Persistent Connections to the Responses API Cut Agent Loop Latency by 40%** — Written 2026-05-03 → `2026-05-03-codex-cli-websocket-mode-responses-api-persistent-connections-agent-loop-performance.md`
+   - Source: OpenAI WebSocket blog, Responses API WebSocket docs, Codex changelog, config-reference docs, GitHub Issue #13103, Compaction API docs, Subagents docs, Cline benchmarks, Microsoft Q&A Azure WebSocket status
+   - Scope: HTTP vs WebSocket transport comparison, persistent connection architecture, incremental input with previous_response_id, config.toml supports_websockets setting, custom provider configuration, connection lifecycle constraints (60min/1-response cache), server-side compaction over WebSocket, performance benchmarks (40% improvement, 1000 TPS), subagent connection multiplexing, debugging transport issues, when to stick with HTTP
+   - SEO targets: "codex cli websocket mode", "codex cli responses api performance", "codex cli latency optimisation", "codex cli persistent connection", "openai websocket mode codex"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-03, Hourly Task)
+
+### Multi-Agent Orchestration
+
+1. ✅ **Codex CLI MultiAgentV2: Custom Roles, Thread Orchestration, and Production Parallel Workflows** — Written 2026-05-03 → `2026-05-03-codex-cli-multiagentv2-custom-roles-thread-orchestration-parallel-workflows.md`
+   - Source: Codex CLI v0.128.0 release notes, Subagents docs, Config Reference docs, GitHub Issue #20077, GitHub Issue #15250, Simon Willison subagents walkthrough, Codex Blog parallel orchestration patterns
+   - Scope: MultiAgentV2 vs v1 architecture changes, thread cap and depth configuration, custom agent role TOML authoring (required/optional fields), fork_turns gotcha and fix, three production patterns (three-role review, migration campaign with CSV, implement-then-review loop), sandbox/approval inheritance, cost management, known sharp edges, v1-to-v2 migration checklist
+   - SEO targets: "codex cli multiagentv2", "codex cli custom agent roles", "codex cli spawn_agent configuration", "codex cli parallel workflows", "codex cli subagent orchestration"
+
+### Goal Mode & Agentic Loops
+
+1. ✅ **Goal Mode in Codex CLI: Persistent Objectives, Token Budgets, and the Shift to Agentic Loops** — Written 2026-05-03 → `2026-05-03-codex-cli-goal-mode-persistent-objectives-token-budgets-agentic-loops.md`
+   - Source: Codex CLI v0.128.0 changelog, Simon Willison coverage, PR #18076 goal core runtime, GitHub Issues #20536/#19910/#20656, App Server README, goals/continuation.md and budget_limit.md templates
+   - Scope: /goal command mechanics, goal lifecycle states (pursuing/paused/achieved/unmet/budget_limited), completion audit requirements, token budget soft-stop design, App Server JSON-RPC goal APIs, practical workflow patterns (migration campaigns, test coverage, lint fixes), known sharp edges (compaction goal loss, Plan Mode suppression, documentation gap), configuration recipes, cost framework
+   - SEO targets: "codex cli goal mode", "codex cli /goal command", "codex cli persistent objectives", "codex cli agentic loop", "codex cli token budget goals"
 
 ### Model Behaviour & RLHF
 
@@ -575,7 +622,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 
 ### High Priority
 
-⏭️ SKIPPED — PRs #18073-#18077 not publicly visible; Goal Mode not documented in any public changelog, docs, or release notes as of 2026-04-21. Will revisit when v0.123.0 stable ships. **Goal Mode Deep Dive: Persistent Objectives with Token Budgets**
+⏭️ SKIPPED — PRs #18073-#18077 not publicly visible at time of original scan. Goal Mode shipped in v0.128.0 (30 April 2026). Covered in `2026-05-03-codex-cli-goal-mode-persistent-objectives-token-budgets-agentic-loops.md`. **Goal Mode Deep Dive: Persistent Objectives with Token Budgets**
 
 - Source: v0.123 alpha PR stack (#18073-#18077), changelog-watch.md
 - Scope: Goal Mode architecture, persistent multi-turn objectives, token budget management, how it transforms Codex from task-execution to objective-tracking
@@ -2169,3 +2216,12 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex CLI reference docs, Non-interactive mode docs, AGENTS.md docs, Config basics docs, codex-action GitHub Action, Speed docs
    - Scope: Commit message generation with codex exec and git diff, structured output for CI scripting, shell function recipes, PR description automation with gh CLI integration, branch naming from issues, merge conflict resolution with semantic understanding, CI integration via codex-action, performance tuning with profiles for git tasks
    - SEO targets: "codex cli commit message", "codex cli pull request description", "codex exec git workflow", "AI commit message generator", "codex cli git automation"
+
+## New Articles — Auto-Generated (2026-05-03, Hourly Scan)
+
+### Security & Sandbox Internals
+
+1. ✅ **Codex CLI Sandbox Internals: How Seatbelt, Bubblewrap, Landlock and Windows DACL Keep Agent Commands in Check** — Written 2026-05-03 → `2026-05-03-codex-cli-sandbox-internals-seatbelt-bubblewrap-landlock-windows-dacl.md`
+   - Source: codex-rs sandbox module source, DeepWiki sandboxing analysis, Pierce Freeman agent sandboxes blog, OpenAI Codex sandboxing docs, GitHub issues, Linux seccomp docs, Microsoft restricted tokens docs
+   - Scope: SandboxPolicy enum and platform driver architecture, macOS Seatbelt SBPL script generation, .git forced read-only, Linux Bubblewrap mount/PID/net namespaces, seccomp BPF syscall filtering, Landlock LSM fallback, BwrapNetworkMode variants, Windows CodexSandboxOffline/Online local users, restricted tokens and DACL grants, cross-platform invariants (env scrubbing, parent-death cleanup, symlink guards), practical troubleshooting
+   - SEO targets: "codex cli sandbox", "codex cli seatbelt", "codex cli bubblewrap", "codex cli landlock", "codex sandbox internals", "AI agent sandboxing", "codex cli security"

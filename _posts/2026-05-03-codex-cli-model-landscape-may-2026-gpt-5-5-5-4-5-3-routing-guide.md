@@ -5,6 +5,8 @@ nav_order: 531
 tags: ["codex-cli", "model-selection", "gpt-5.5", "gpt-5.4", "gpt-5.3-codex", "gpt-5.4-mini", "codex-spark", "pricing", "reasoning-effort", "model-routing", "cost-optimisation"]
 ---
 
+![Sketchnote diagram for: The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide](/sketchnotes/articles/2026-05-03-codex-cli-model-landscape-may-2026-gpt-5-5-5-4-5-3-routing-guide.png)
+
 # The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide
 
 

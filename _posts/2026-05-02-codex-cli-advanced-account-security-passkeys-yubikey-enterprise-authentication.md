@@ -5,6 +5,8 @@ nav_order: 528
 tags: ["security", "authentication", "passkeys", "yubikey", "enterprise", "advanced-account-security", "device-code", "codex-cli"]
 ---
 
+![Sketchnote diagram for: Codex CLI in the Post-Password Era: Advanced Account Security, Passkeys, and Hardening Your Authentication Chain](/sketchnotes/articles/2026-05-02-codex-cli-advanced-account-security-passkeys-yubikey-enterprise-authentication.png)
+
 # Codex CLI in the Post-Password Era: Advanced Account Security, Passkeys, and Hardening Your Authentication Chain
 
 

@@ -5,6 +5,8 @@ nav_order: 530
 tags: ["codex-cli", "configuration", "verbosity", "reasoning", "token-management", "output-control", "performance", "config.toml"]
 ---
 
+![Sketchnote diagram for: Codex CLI Output Control: Tuning Verbosity, Reasoning Summaries, and Token Budgets for Every Workflow](/sketchnotes/articles/2026-05-02-codex-cli-output-control-verbosity-reasoning-summaries-token-budgets.png)
+
 # Codex CLI Output Control: Tuning Verbosity, Reasoning Summaries, and Token Budgets for Every Workflow
 
 

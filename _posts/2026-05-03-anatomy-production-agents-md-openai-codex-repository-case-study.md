@@ -5,6 +5,8 @@ nav_order: 532
 tags: ["agents-md", "codex-cli", "configuration", "open-source", "rust", "case-study", "best-practices", "context-engineering"]
 ---
 
+![Sketchnote diagram for: Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration](/sketchnotes/articles/2026-05-03-anatomy-production-agents-md-openai-codex-repository-case-study.png)
+
 # Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration
 
 
