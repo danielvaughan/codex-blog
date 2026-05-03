@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-03, Hourly Task #6)
+
+### Local Models & Open-Weight Inference
+
+1. ✅ **Running GPT-OSS with Codex CLI: A Complete Guide to Local Inference via Ollama, LM Studio, and MLX** — Written 2026-05-03 → `2026-05-03-codex-cli-gpt-oss-local-models-ollama-lm-studio-mlx-setup-guide.md`
+   - Source: OpenAI GPT-OSS announcement, GPT-OSS model card (arXiv:2508.10925), Ollama Codex integration docs, Codex CLI advanced config docs, DEV Community GPT-OSS guide, Codex CLI features docs
+   - Scope: GPT-OSS architecture (MoE, active params, 131K context), three local inference backends (Ollama, LM Studio, MLX on Apple Silicon), config.toml multi-profile setup, context window requirements, SWE-Bench/Codeforces benchmarks, cloud-vs-local decision framework, known limitations (no WebSocket, no prompt cache, tool-use reliability), verification workflow
+   - SEO targets: "codex cli gpt-oss", "codex cli ollama setup", "codex cli local models", "gpt-oss codex configuration", "codex cli lm studio mlx"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-03, Hourly Task #5)
 
 ### Multi-File Editing & Coordination
