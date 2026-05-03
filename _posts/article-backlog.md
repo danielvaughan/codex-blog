@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task)
+
+### Smart Approvals & Execution Policy
+
+1. ✅ **Codex CLI Smart Approvals: How Adaptive Command Policies and Prefix Rules Eliminate Approval Fatigue** — Written 2026-05-04 → `2026-05-04-codex-cli-smart-approvals-adaptive-command-policies-prefix-rules.md`
+   - Source: OpenAI Rules docs, Agent Approvals docs, Config Reference, execpolicy README, Smart Approvals PR #13860, Managed Configuration docs, GitHub Issue #15214
+   - Scope: Three-layer approval architecture (base policy, Starlark execution rules, guardian auto-reviewer), smart approvals TUI flow, prefix_rule() syntax with match/not_match assertions, granular approval_policy configuration, shell splitting logic, codex execpolicy check debugging, enterprise requirements.toml enforcement, practical patterns (solo/team/enterprise), known limitations and experimental status
+   - SEO targets: "codex cli smart approvals", "codex cli prefix_rule", "codex cli approval fatigue", "codex cli execution policy rules", "codex cli starlark rules"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-03, Hourly Task #6)
 
 ### Local Models & Open-Weight Inference
