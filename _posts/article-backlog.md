@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task #4)
+
+### Config Lockfiles & Reproducibility
+
+1. ✅ **Codex CLI Config Lockfiles: Reproducible Agent Sessions with Export, Replay, and Drift Detection** — Written 2026-05-04 → `2026-05-04-codex-cli-config-lockfiles-reproducible-agent-sessions.md`
+   - Source: PR #20405 (export and replay effective config locks), Codex config-basic docs, Codex managed-configuration docs, config.schema.json DebugConfigLockToml, Codex non-interactive docs, Codex changelog, Release 0.129.0-alpha.2
+   - Scope: Config lockfile format (version + codex_version + resolved config), debug.config_lockfile.export_dir/load_path/allow_codex_version_mismatch/save_fields_resolved_from_model_catalog, six-layer config precedence problem, export workflow, replay with drift detection, TOML diff on failure, CI/CD reproducibility patterns, team alignment, enterprise audit, limitations (no custom rules/network policies), relationship to --ephemeral and rollout traces
+   - SEO targets: "codex cli config lockfile", "codex cli reproducible sessions", "codex cli configuration drift", "codex cli debug config lockfile", "codex cli deterministic configuration"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task #3)
 
 ### MCP Sandbox-State Metadata
