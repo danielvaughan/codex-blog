@@ -5,6 +5,9 @@ nav_order: 539
 tags: ["codex-cli", "multi-file-editing", "apply-patch", "subagents", "refactoring", "large-codebase", "best-practices"]
 ---
 
+![Sketchnote diagram for: Codex CLI Multi-File Editing Strategies: Coordinating Changes Across Large Pull Requests with apply_patch and Subagents](/sketchnotes/articles/2026-05-03-codex-cli-multi-file-editing-strategies-apply-patch-subagents-coordinated-changes.png)
+
+
 # Codex CLI Multi-File Editing Strategies: Coordinating Changes Across Large Pull Requests with apply_patch and Subagents
 
 

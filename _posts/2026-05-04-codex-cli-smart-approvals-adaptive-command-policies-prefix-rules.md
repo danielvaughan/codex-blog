@@ -5,6 +5,9 @@ nav_order: 541
 tags: ["smart-approvals", "approval-policy", "prefix-rules", "execpolicy", "starlark", "guardian", "auto-review", "security", "configuration", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI Smart Approvals: How Adaptive Command Policies and Prefix Rules Eliminate Approval Fatigue](/sketchnotes/articles/2026-05-04-codex-cli-smart-approvals-adaptive-command-policies-prefix-rules.png)
+
+
 
 # Codex CLI Smart Approvals: How Adaptive Command Policies and Prefix Rules Eliminate Approval Fatigue
 

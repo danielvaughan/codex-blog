@@ -5,6 +5,9 @@ nav_order: 544
 tags: ["codex-cli", "configuration", "reproducibility", "lockfiles", "debugging", "CI/CD", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI Config Lockfiles: Reproducible Agent Sessions with Export, Replay, and Drift Detection](/sketchnotes/articles/2026-05-04-codex-cli-config-lockfiles-reproducible-agent-sessions.png)
+
+
 # Codex CLI Config Lockfiles: Reproducible Agent Sessions with Export, Replay, and Drift Detection
 
 

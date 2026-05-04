@@ -5,6 +5,9 @@ nav_order: 537
 tags: ["codex-cli", "observability", "opentelemetry", "grafana", "signoz", "dynatrace", "opik", "enterprise", "monitoring"]
 ---
 
+![Sketchnote diagram for: Codex CLI Enterprise Observability: Choosing and Configuring Grafana Cloud, SigNoz, Dynatrace, and Opik](/sketchnotes/articles/2026-05-03-codex-cli-enterprise-observability-platforms-grafana-signoz-dynatrace-opik.png)
+
+
 # Codex CLI Enterprise Observability: Choosing and Configuring Grafana Cloud, SigNoz, Dynatrace, and Opik
 
 

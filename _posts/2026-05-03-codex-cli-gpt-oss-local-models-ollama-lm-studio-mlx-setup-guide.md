@@ -5,6 +5,9 @@ nav_order: 540
 tags: ["codex-cli", "gpt-oss", "ollama", "lm-studio", "mlx", "local-models", "open-weight", "self-hosted", "privacy", "config-toml"]
 ---
 
+![Sketchnote diagram for: Running GPT-OSS with Codex CLI: A Complete Guide to Local Inference via Ollama, LM Studio, and MLX](/sketchnotes/articles/2026-05-03-codex-cli-gpt-oss-local-models-ollama-lm-studio-mlx-setup-guide.png)
+
+
 # Running GPT-OSS with Codex CLI: A Complete Guide to Local Inference via Ollama, LM Studio, and MLX
 
 

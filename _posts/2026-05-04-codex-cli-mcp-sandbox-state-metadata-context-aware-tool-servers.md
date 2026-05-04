@@ -5,6 +5,9 @@ nav_order: 543
 tags: ["codex-cli", "mcp", "sandbox", "security", "tool-servers", "metadata", "permissions"]
 ---
 
+![Sketchnote diagram for: Codex CLI MCP Sandbox-State Metadata: Building Context-Aware Tool Servers](/sketchnotes/articles/2026-05-04-codex-cli-mcp-sandbox-state-metadata-context-aware-tool-servers.png)
+
+
 # Codex CLI MCP Sandbox-State Metadata: Building Context-Aware Tool Servers
 
 

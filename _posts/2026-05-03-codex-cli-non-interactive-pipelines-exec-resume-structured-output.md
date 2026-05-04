@@ -5,6 +5,9 @@ nav_order: 538
 tags: ["codex-cli", "codex-exec", "non-interactive", "ci-cd", "automation", "structured-output", "pipelines", "resume"]
 ---
 
+![Sketchnote diagram for: Codex CLI Non-Interactive Pipelines: Production Automation with exec, resume, and Structured Output](/sketchnotes/articles/2026-05-03-codex-cli-non-interactive-pipelines-exec-resume-structured-output.png)
+
+
 # Codex CLI Non-Interactive Pipelines: Production Automation with exec, resume, and Structured Output
 
 

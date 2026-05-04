@@ -5,6 +5,9 @@ nav_order: 546
 tags: ["codex-cli", "plugins", "marketplace", "mcp", "skills", "hooks", "developer-experience"]
 ---
 
+![Sketchnote diagram for: Codex CLI Plugin Ecosystem: Building, Distributing, and Managing Marketplace Plugins](/sketchnotes/articles/2026-05-04-codex-cli-plugin-ecosystem-building-distributing-marketplace-plugins.png)
+
+
 # Codex CLI Plugin Ecosystem: Building, Distributing, and Managing Marketplace Plugins
 
 
