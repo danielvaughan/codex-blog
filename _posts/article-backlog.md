@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task #10)
+
+### Skills for OSS Maintenance
+
+1. ✅ **Codex CLI Skills for OSS Maintenance: Lessons from OpenAI's Own Agents SDK Repositories** — Written 2026-05-04 → `2026-05-04-codex-cli-skills-oss-maintenance-openai-agents-sdk-case-study.md`
+   - Source: OpenAI Developers Blog (skills-agents-sdk), OpenAI Skills docs, OpenAI GitHub Action docs, OpenAI Best Practices docs, Codex Changelog
+   - Scope: Eight Python-repo skills and three JavaScript-repo skills from OpenAI's Agents SDK maintenance, mandatory trigger patterns in AGENTS.md, script-versus-model division, skill description best practices, Verdaccio integration testing pattern, evidence-based release review, GitHub Actions CI integration, five-stage skills maturity model, replication guide for other repositories
+   - SEO targets: "codex cli skills oss maintenance", "codex cli SKILL.md production example", "openai agents sdk skills case study", "codex cli mandatory trigger pattern", "codex cli skills maturity model"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task #9)
 
 ### Terminal Agent Comparison
