@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task #3)
+
+### MCP Sandbox-State Metadata
+
+1. ✅ **Codex CLI MCP Sandbox-State Metadata: Building Context-Aware Tool Servers** — Written 2026-05-04 → `2026-05-04-codex-cli-mcp-sandbox-state-metadata-context-aware-tool-servers.md`
+   - Source: PR #17763 (sandbox state through MCP tool metadata), Codex changelog v0.125.0, Codex MCP docs, Codex sandboxing docs, Codex CLI reference docs
+   - Scope: codex/sandbox-state-meta experimental capability, SandboxState payload structure (filesystem_policy, network_policy, permission_profile, approval_policy), opt-in mechanism via initialize handshake, adaptive server patterns (database migration, code generator), permission profile round-tripping, security advisory nature, debugging with --mcp-debug
+   - SEO targets: "codex cli mcp sandbox state", "codex mcp metadata", "codex cli context-aware mcp server", "codex sandbox-state-meta capability", "codex mcp tool metadata"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task #2)
 
 ### MCP Parallel Tool Execution
