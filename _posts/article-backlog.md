@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task #7)
+
+### Agent Provisioning and Autonomous Deployment
+
+1. ✅ **Codex CLI and Stripe Projects: Autonomous Agent Provisioning from Code to Production** — Written 2026-05-04 → `2026-05-04-codex-cli-stripe-projects-autonomous-agent-provisioning-deployment.md`
+   - Source: Cloudflare blog (agents-stripe-projects), Stripe Projects CLI docs, OpenAI Codex best practices, DEV Community (runtime spend rails), InfoWorld (agent cloud keys), Stripe Sessions 2026 announcements
+   - Scope: Stripe Projects open beta protocol (discovery, authorisation, payment), Cloudflare agent provisioning, connecting to Codex CLI via non-interactive CLI flags, MCP integration with Code Mode, safety architecture (payment tokenisation, $100/mo caps, permission profiles, hooks-based spend validation), three failure modes (misidentified targets, retry loops, scope creep), practical autonomous deployment workflow, AGENTS.md governance patterns
+   - SEO targets: "codex cli stripe projects", "codex cli autonomous deployment", "codex cli agent provisioning cloudflare", "stripe projects ai agent", "codex cli deploy production agent"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task #6)
 
 ### Plugin Ecosystem
