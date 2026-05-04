@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task #6)
+
+### Plugin Ecosystem
+
+1. ✅ **Codex CLI Plugin Ecosystem: Building, Distributing, and Managing Marketplace Plugins** — Written 2026-05-04 → `2026-05-04-codex-cli-plugin-ecosystem-building-distributing-marketplace-plugins.md`
+   - Source: OpenAI Plugins docs, Build plugins docs, Agent Skills docs, Codex changelog v0.128.0, Codex hooks docs, OpenAI Codex for almost everything blog, Awesome Codex Plugins registry
+   - Scope: Plugin directory structure (plugin.json manifest, SKILL.md format, .mcp.json, .app.json, hooks.json), marketplace distribution (repo/personal/official/Claude-style), CLI marketplace commands, plugin-bundled hooks (six lifecycle events), community ecosystem (HOL trust scoring, codex-plugin-scanner), $plugin-creator scaffolding, team distribution patterns, plugin-as-guardrail pattern, version pinning, current limitations
+   - SEO targets: "codex cli plugin system", "codex cli plugin marketplace", "codex cli build plugin", "codex cli plugin.json manifest", "codex cli marketplace.json", "codex cli plugin hooks"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task #5)
 
 ### Multi-Provider Resilience
