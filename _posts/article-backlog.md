@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task #2)
+
+### MCP Parallel Tool Execution
+
+1. ✅ **MCP Parallel Tool Calls in Codex CLI: Unlocking Concurrent Execution with supports_parallel_tool_calls** — Written 2026-05-04 → `2026-05-04-codex-cli-mcp-parallel-tool-calls-supports-parallel-tool-calls.md`
+   - Source: PR #17667, Codex MCP docs, Codex v0.121.0 release notes, OpenAI Developer Community parallel_tool_calls discussions, GitHub Issue #13867 (multi_tool_use.parallel leak), Codex speed docs, Codex non-interactive docs
+   - Scope: Serial default rationale, per-server opt-in via supports_parallel_tool_calls config flag, performance benchmarks (44% wall-clock reduction), ToolRouter implementation architecture, distinction from model-layer multi_tool_use.parallel, when-to-enable decision framework, concurrency safety warnings, composition with other speed levers, debugging parallel execution issues
+   - SEO targets: "codex cli parallel tool calls", "codex cli supports_parallel_tool_calls", "codex mcp parallel execution", "codex cli mcp performance", "codex cli concurrent tool calls"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task)
 
 ### Smart Approvals & Execution Policy
