@@ -2366,3 +2366,8 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI config-reference docs, config-sample docs, CLI features docs, CLI slash-commands docs, Config basics docs, GitHub issue #3049
    - Scope: Seven keymap contexts (global, chat, composer, editor, pager, list, approval), key binding syntax and normalised format, unbinding actions, Vim and Emacs recipes, /keymap slash command, syntect theme engine with 32 bundled themes, custom .tmTheme support, /theme picker, status line ordered array configuration, terminal title configuration, display toggles (animations, alternate_screen, notifications, tooltips), configuration layering (project → user → CLI flag), profile-based TUI switching
    - SEO targets: "codex cli keymaps", "codex cli themes", "codex cli tui customisation", "codex cli config.toml tui", "codex cli status line", "codex cli terminal title", "codex cli vim keybindings"
+
+1. ✅ **Codex CLI for Visual Regression Testing: Integrating Percy, Chromatic, and Playwright via MCP** — Written 2026-05-05 → `2026-05-05-codex-cli-visual-regression-testing-percy-chromatic-playwright-mcp.md`
+   - Source: Chromatic MCP docs, Percy/BrowserStack MCP docs, Playwright MCP server, Codex CLI config-reference, Storybook blog
+   - Scope: MCP server integration for visual testing, Chromatic addon setup (local and cloud), Percy snapshot and visual scan tools, Playwright browser automation, agent-driven diff triage, PostToolUse hooks for verification gates, codex exec CI integration, multi-platform testing strategy
+   - SEO targets: "codex cli visual regression testing", "chromatic mcp server", "percy mcp codex", "playwright mcp visual testing", "codex cli screenshot testing", "visual testing automation agent"
