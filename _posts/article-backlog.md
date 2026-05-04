@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task #5)
+
+### Multi-Provider Resilience
+
+1. ✅ **Codex CLI Multi-Provider Resilience: Failover Chains, Account Pooling, and the Art of Uninterrupted Agent Sessions** — Written 2026-05-04 → `2026-05-04-codex-cli-multi-provider-resilience-failover-account-pooling-uninterrupted-sessions.md`
+   - Source: OpenAI config-advanced docs, OpenAI config-reference docs, LiteLLM Codex integration docs, Bifrost AI gateway article, CodexUse blog, codex-multi-auth GitHub, Hydra GitHub, aisw blog post, OpenAI rate limits discussion thread
+   - Scope: Five-layer resilience stack (built-in retry, profile switching, AI gateway proxies, account pooling, cross-CLI multiplexing), config.toml model_providers with command-backed auth, LiteLLM and Bifrost gateway patterns, CodexUse account pooling, Hydra cross-CLI PTY wrapper, decision framework, enterprise requirements.toml provider allowlists, OTEL monitoring for quota visibility
+   - SEO targets: "codex cli multi-provider failover", "codex cli rate limit workaround", "codex cli account pooling", "codex cli AI gateway proxy", "codex cli provider switching"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task #4)
 
 ### Config Lockfiles & Reproducibility
