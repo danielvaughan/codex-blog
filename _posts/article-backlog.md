@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task #9)
+
+### Terminal Agent Comparison
+
+1. ✅ **Terminal Agent Showdown: Codex CLI vs Claude Code vs Gemini CLI in May 2026** — Written 2026-05-04 → `2026-05-04-terminal-agent-showdown-codex-cli-claude-code-gemini-cli-may-2026.md`
+   - Source: OpenAI Codex changelog, Anthropic Claude Code changelog, Google Gemini CLI releases, SWE-bench Verified leaderboard, CodeAnt benchmarks, DeployHQ comparison, Morphllm comparison, NxCode pricing comparison, SmartScope plan mode guide
+   - Scope: Architecture comparison (Rust vs TypeScript, kernel vs process vs no sandbox), SWE-bench Verified and Terminal-Bench 2.0 scores (GPT-5.5 88.7%, Opus 4.7 87.6%, Gemini 3.1 Pro 80.6%), pricing tiers and token economics, MCP support state, multi-agent orchestration (MultiAgentV2 vs Agent Teams vs none), plan mode, session management, three-tool stack pattern, what to watch (v0.129 alpha, /ultrareview, sandbox gap)
+   - SEO targets: "codex cli vs claude code vs gemini cli", "terminal agent comparison may 2026", "codex cli benchmark 2026", "best coding agent cli 2026", "terminal agent showdown"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task #8)
 
 ### Model Catalogue Architecture
