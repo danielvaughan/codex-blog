@@ -2313,3 +2313,12 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: codex-rs sandbox module source, DeepWiki sandboxing analysis, Pierce Freeman agent sandboxes blog, OpenAI Codex sandboxing docs, GitHub issues, Linux seccomp docs, Microsoft restricted tokens docs
    - Scope: SandboxPolicy enum and platform driver architecture, macOS Seatbelt SBPL script generation, .git forced read-only, Linux Bubblewrap mount/PID/net namespaces, seccomp BPF syscall filtering, Landlock LSM fallback, BwrapNetworkMode variants, Windows CodexSandboxOffline/Online local users, restricted tokens and DACL grants, cross-platform invariants (env scrubbing, parent-death cleanup, symlink guards), practical troubleshooting
    - SEO targets: "codex cli sandbox", "codex cli seatbelt", "codex cli bubblewrap", "codex cli landlock", "codex sandbox internals", "AI agent sandboxing", "codex cli security"
+
+## New Articles — Auto-Generated (2026-05-05, Hourly Scan)
+
+### TUI Customisation & Developer Experience
+
+1. ✅ **Codex CLI TUI Customisation: Keymaps, Themes, Status Lines and Terminal Titles** — Written 2026-05-05 → `2026-05-05-codex-cli-tui-customisation-keymaps-themes-status-lines.md`
+   - Source: OpenAI config-reference docs, config-sample docs, CLI features docs, CLI slash-commands docs, Config basics docs, GitHub issue #3049
+   - Scope: Seven keymap contexts (global, chat, composer, editor, pager, list, approval), key binding syntax and normalised format, unbinding actions, Vim and Emacs recipes, /keymap slash command, syntect theme engine with 32 bundled themes, custom .tmTheme support, /theme picker, status line ordered array configuration, terminal title configuration, display toggles (animations, alternate_screen, notifications, tooltips), configuration layering (project → user → CLI flag), profile-based TUI switching
+   - SEO targets: "codex cli keymaps", "codex cli themes", "codex cli tui customisation", "codex cli config.toml tui", "codex cli status line", "codex cli terminal title", "codex cli vim keybindings"
