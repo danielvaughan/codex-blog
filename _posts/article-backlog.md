@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #11)
+
+### AWS Migration & Competitive Landscape
+
+1. ✅ **The Amazon Q Developer Sunset: Migration Paths for AWS Teams Moving to Codex CLI, Kiro, or Bedrock** — Written 2026-05-05 → `2026-05-05-amazon-q-developer-sunset-codex-cli-aws-migration-kiro-bedrock.md`
+   - Source: AWS DevOps Blog Q Developer end-of-support announcement, OpenAI on AWS blog, Kiro GA announcement, Kiro migration docs, Bedrock OpenAI announcement, Agent Skills Open Standard
+   - Scope: Q Developer deprecation timeline (May 15 signups blocked, May 29 model removal, April 2027 end of support), three migration paths (Kiro CLI, Codex on Bedrock, Codex direct), feature mapping table, config.toml examples for Bedrock and direct, hybrid strategy with shared AGENTS.md/skills, cost comparison, migration checklist, timeline decision framework
+   - SEO targets: "amazon q developer deprecated", "q developer migration codex cli", "codex cli aws bedrock", "kiro vs codex cli", "q developer replacement 2026"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task #10)
 
 ### Skills for OSS Maintenance
