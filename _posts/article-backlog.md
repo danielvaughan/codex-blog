@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-04, Hourly Task #8)
+
+### Model Catalogue Architecture
+
+1. ✅ **Codex CLI Model Catalogue Architecture: Providers, Discovery, and Debugging Model Resolution** — Written 2026-05-04 → `2026-05-04-codex-cli-model-catalogue-architecture-providers-discovery-debug.md`
+   - Source: OpenAI Codex config-reference docs, config-advanced docs, config-sample docs, CLI reference docs, Codex changelog, GitHub Issue #19409 (GPT-5.5 context window mismatch), Releasebot Codex updates, Codex models docs
+   - Scope: Three-layer catalogue stack (bundled, remote refresh, local override), four built-in providers and custom provider configuration, command-backed authentication, provider-owned model discovery (v0.125.0+), `codex debug models` diagnostics, GPT-5.5 context window mismatch case study, profile-scoped model routing, model resolution sequence, practical recommendations
+   - SEO targets: "codex cli model catalogue", "codex cli debug models", "codex cli custom model provider", "codex cli model_catalog_json", "codex cli model resolution"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-04, Hourly Task #7)
 
 ### Agent Provisioning and Autonomous Deployment
