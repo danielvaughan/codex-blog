@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #14)
+
+### Visual Agent Session Management
+
+1. ✅ **GitKraken Desktop 12.0 Agent Mode: Visual Parallel Session Management for Codex CLI** — Written 2026-05-05 → `2026-05-05-gitkraken-desktop-agent-mode-codex-cli-visual-parallel-sessions.md`
+   - Source: GitKraken Desktop 12.0 PR Newswire announcement, GitKraken blog, GitKraken Help Center agents docs, BSWEN parallel worktrees guide, OpenAI AGENTS.md docs, OpenAI subagents docs, Codex App features docs
+   - Scope: GitKraken Agent Mode architecture (session creation, worktree automation, setup commands, agent detection), Agent Sessions View (card-based monitoring, status indicators, WIP/ahead-behind state), commit graph integration for topology awareness, practical Codex CLI workflow (three-agent sprint, config considerations, cleanup), comparison matrix with tmux/OMX/cmux, limitations (no app-server integration, local only, no inter-agent orchestration), decision framework
+   - SEO targets: "gitkraken agent mode codex cli", "codex cli visual session management", "gitkraken parallel agents", "codex cli worktree gui", "gitkraken desktop 12 coding agents"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-05, Hourly Task #13)
 
 ### Cross-Agent Standards & Portability
