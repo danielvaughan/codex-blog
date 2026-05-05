@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #13)
+
+### Cross-Agent Standards & Portability
+
+1. ✅ **The Agent Skills Open Standard: Writing Portable SKILL.md Files That Work Across Codex CLI, Claude Code, and 30+ Tools** — Written 2026-05-05 → `2026-05-05-agent-skills-open-standard-portable-skills-codex-cli-cross-agent.md`
+   - Source: agentskills.io specification, OpenAI Codex skills docs, Paperclipped interoperability guide, Agensi format reference, Agensi open standard explainer, OpenAI skills GitHub catalogue
+   - Scope: Agent Skills Open Standard specification (directory structure, SKILL.md frontmatter schema, progressive disclosure), Codex CLI implementation (four-scope discovery, invocation modes, config.toml disabling, $skill-creator/$skill-installer), portable skill walkthrough (conventional-commit example with scripts/), cross-agent compatibility matrix (universal features vs agent-specific extensions), adoption timeline (Anthropic origin through 32+ tools and AAIF governance), skills vs MCP complementary roles, practical recommendations
+   - SEO targets: "agent skills open standard", "SKILL.md specification", "codex cli portable skills", "cross-agent skills 2026", "agent skills interoperability", "SKILL.md codex cli claude code"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-05, Hourly Task #12)
 
 ### Competitive Comparison
