@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #12)
+
+### Competitive Comparison
+
+1. ✅ **Kiro CLI 2.0 vs Codex CLI: Spec-Driven Development Meets Terminal-First Autonomy** — Written 2026-05-05 → `2026-05-05-kiro-cli-2-vs-codex-cli-spec-driven-terminal-first-comparison.md`
+   - Source: Kiro CLI 2.0 release blog, Kiro changelog, Kiro specs docs, Kiro pricing, Codex CLI docs (features, config-advanced, sandboxing, noninteractive, MCP, hooks), AWS Q Developer end-of-support blog, vibecoding.app comparison
+   - Scope: Architectural philosophy comparison (Rust terminal-first vs TypeScript spec-driven), feature matrix (sandbox, models, hooks, MCP, subagents, headless, pricing), headless/CI mode differences (codex exec vs --no-interactive), spec-driven development vs PLANS.md/AGENTS.md patterns, security model comparison (kernel sandbox vs process isolation), cost economics, decision framework, Q Developer migration considerations, convergence patterns
+   - SEO targets: "kiro cli vs codex cli", "kiro cli 2.0 features", "codex cli vs kiro comparison 2026", "spec-driven development kiro codex", "terminal coding agent comparison"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-05, Hourly Task #11)
 
 ### AWS Migration & Competitive Landscape
