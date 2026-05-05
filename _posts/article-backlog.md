@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #15)
+
+### Production-Derived Evaluation
+
+1. ✅ **ProdCodeBench and Production-Derived Evaluation: Why Synthetic Benchmarks Mislead and How to Evaluate Codex CLI Against Real Workloads** — Written 2026-05-05 → `2026-05-05-prodcodebench-production-derived-benchmarks-codex-cli-evaluation-real-workloads.md`
+   - Source: arXiv:2604.01527 (Jha et al., Meta, April 2026), Morphllm AI Coding Benchmarks 2026, BenchLM Terminal-Bench 2.0, OpenAI eval-skills blog, Promptfoo Codex SDK docs, OpenAI Codex CLI changelog
+   - Scope: ProdCodeBench methodology (verbatim prompts, fail-to-pass tests, seven languages, monorepo challenges, rolling benchmark design), solve rate gap vs synthetic benchmarks (53.2%–72.2% vs 80%+), production eval pipeline using codex exec --json, multi-run stability, deterministic and rubric-based grading, configuration A/B testing, decision framework for benchmark selection
+   - SEO targets: "codex cli production benchmark", "ProdCodeBench codex evaluation", "codex cli eval harness", "production-derived coding agent benchmark", "codex exec json evaluation"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-05, Hourly Task #14)
 
 ### Visual Agent Session Management
