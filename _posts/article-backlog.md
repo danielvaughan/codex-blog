@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #29)
+
+### Security & Approval Configuration
+
+1. ✅ **Codex CLI Granular Approval Policies and the Auto-Review Subagent: Autonomous Yet Secure Workflows** — Written 2026-05-07 → `2026-05-07-codex-cli-granular-approval-policies-auto-review-subagent-autonomous-secure-workflows.md`
+   - Source: OpenAI agent-approvals-security docs, OpenAI alignment auto-review paper, Codex config-reference docs, Codex config-advanced docs, Codex enterprise managed-configuration docs, Codex changelog
+   - Scope: Five granular approval categories (sandbox_approval, rules, mcp_elicitations, request_permissions, skill_approval), auto-reject vs auto-approve semantics, auto-review subagent architecture and performance metrics (96.1% malicious behaviour detection, 200x fewer interruptions), custom Markdown review policies, profile-based approval stacks, enterprise enforcement via requirements.toml, decision framework, known limitations and red-team vulnerabilities
+   - SEO targets: "codex cli granular approval policy", "codex cli auto review subagent", "codex cli approval_policy configuration", "codex cli autonomous security", "codex cli permission management"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-06, Hourly Task #28)
 
 ### Model Selection & Dynamic Pointers
