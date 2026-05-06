@@ -5,6 +5,9 @@ nav_order: 550
 tags: ["codex-cli", "kiro-cli", "comparison", "aws", "spec-driven-development", "terminal-agents", "headless", "ci-cd", "may-2026"]
 ---
 
+![Sketchnote diagram for: Kiro CLI 2.0 vs Codex CLI: Spec-Driven Development Meets Terminal-First Autonomy](/sketchnotes/articles/2026-05-05-kiro-cli-2-vs-codex-cli-spec-driven-terminal-first-comparison.png)
+
+
 # Kiro CLI 2.0 vs Codex CLI: Spec-Driven Development Meets Terminal-First Autonomy
 
 

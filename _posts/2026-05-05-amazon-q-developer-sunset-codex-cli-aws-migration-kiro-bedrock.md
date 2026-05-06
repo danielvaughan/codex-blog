@@ -5,6 +5,9 @@ nav_order: 549
 tags: ["aws", "competitive-landscape", "migration", "bedrock", "enterprise", "kiro"]
 ---
 
+![Sketchnote diagram for: The Amazon Q Developer Sunset: Migration Paths for AWS Teams Moving to Codex CLI, Kiro, or Bedrock](/sketchnotes/articles/2026-05-05-amazon-q-developer-sunset-codex-cli-aws-migration-kiro-bedrock.png)
+
+
 # The Amazon Q Developer Sunset: Migration Paths for AWS Teams Moving to Codex CLI, Kiro, or Bedrock
 
 

@@ -5,6 +5,9 @@ nav_order: 552
 tags: ["codex-cli", "gitkraken", "parallel-sessions", "worktrees", "agent-mode", "tooling", "developer-experience"]
 ---
 
+![Sketchnote diagram for: GitKraken Desktop 12.0 Agent Mode: Visual Parallel Session Management for Codex CLI](/sketchnotes/articles/2026-05-05-gitkraken-desktop-agent-mode-codex-cli-visual-parallel-sessions.png)
+
+
 # GitKraken Desktop 12.0 Agent Mode: Visual Parallel Session Management for Codex CLI
 
 

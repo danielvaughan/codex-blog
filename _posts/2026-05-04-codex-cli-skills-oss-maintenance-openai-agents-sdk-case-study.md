@@ -5,6 +5,9 @@ nav_order: 593
 tags: ["codex-cli", "skills", "SKILL.md", "AGENTS.md", "open-source", "maintenance", "GitHub Actions", "CI", "automation", "best-practices"]
 ---
 
+![Sketchnote diagram for: Codex CLI Skills for OSS Maintenance: Lessons from OpenAI's Own Agents SDK Repositories](/sketchnotes/articles/2026-05-04-codex-cli-skills-oss-maintenance-openai-agents-sdk-case-study.png)
+
+
 # Codex CLI Skills for OSS Maintenance: Lessons from OpenAI's Own Agents SDK Repositories
 
 

@@ -5,6 +5,9 @@ nav_order: 591
 tags: ["codex-cli", "models", "configuration", "architecture", "debugging", "providers"]
 ---
 
+![Sketchnote diagram for: Codex CLI Model Catalogue Architecture: Providers, Discovery, and Debugging Model Resolution](/sketchnotes/articles/2026-05-04-codex-cli-model-catalogue-architecture-providers-discovery-debug.png)
+
+
 # Codex CLI Model Catalogue Architecture: Providers, Discovery, and Debugging Model Resolution
 
 

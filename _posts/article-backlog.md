@@ -1,5 +1,134 @@
 # Article Backlog
 
+## New Articles — Auto-Generated (2026-05-06, Hourly Task #26)
+
+### Debugging & Observability
+
+1. ✅ **Debugging Codex CLI Sessions with the OpenAI Traces Dashboard and OTLP Export** — Written 2026-05-06 → `2026-05-06-codex-cli-traces-dashboard-debugging-sessions-otlp-export.md`
+   - Source: OpenAI Codex changelog v0.125.0, OpenAI agent-evals guide, Promptfoo Codex SDK docs, SigNoz Codex monitoring docs, OpenAI CLI reference, OpenAI models page, OpenAI reasoning models guide
+   - Scope: OpenAI platform Traces dashboard navigation and filtering, rollout-trace debug reducer command, OTLP/gRPC export configuration in config.toml, span hierarchy and attributes, practical debugging workflows (wrong file selection, slow sessions, token spend attribution, multi-agent mapping), configuration profiles for debugging, privacy controls, limitations
+   - SEO targets: "codex cli traces dashboard", "codex cli debugging sessions", "codex cli otlp export", "codex cli opentelemetry tracing", "codex rollout trace reduce"
+
+---
+
+## New Articles — Auto-Generated (2026-05-06, Hourly Task #25)
+
+### External Agent Migration & Cross-Agent Portability
+
+1. ✅ **Codex CLI External Agent Migration: The Detect/Import API and Cross-Agent Portability** — Written 2026-05-06 → `2026-05-06-codex-cli-external-agent-migration-detect-import-api-cross-agent-portability.md`
+   - Source: Codex changelog v0.128.0, app-server API docs, PR #20284, ccode-to-codex GitHub, AAIF Linux Foundation announcement, DEV Community migration guides, Developer Toolkit migration playbooks, claude-replay GitHub
+   - Scope: externalAgentConfig/detect and externalAgentConfig/import JSON-RPC APIs, five migration item types (AGENTS_MD, CONFIG, SKILLS, PLUGINS, MCP_SERVER_CONFIG), background session import architecture, file mapping tables (Claude Code/Cursor/Codex), ccode-to-codex community toolkit with risk classification (MECHANICAL/MANUAL/REFACTOR), claude-replay session archival, sync script patterns, AAIF open standards convergence (AGENTS.md, SKILL.md, MCP), practical migration workflow, limitations
+   - SEO targets: "codex cli external agent migration", "codex cli import claude code", "externalAgentConfig detect import API", "migrate cursor to codex cli", "cross-agent portability 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-05-06, Hourly Task #24)
+
+### Shell Integration & Developer Productivity
+
+1. ✅ **Codex CLI Shell Integration: Completions, Functions, Environment Policies and Productivity Recipes** — Written 2026-05-06 → `2026-05-06-codex-cli-shell-integration-completions-functions-environment-recipes.md`
+   - Source: OpenAI CLI reference docs, config-advanced docs, non-interactive docs, GitHub issues #3009 #16551 #3916, compound-engineering-plugin docs
+   - Scope: Shell completions setup (bash/zsh/fish/PowerShell/elvish), shell_environment_policy deep dive (inherit/set/exclude/include_only), wrapper functions for commit messages and PR descriptions and code review, zsh alias inheritance problem and workaround, shell selection on macOS, Unix pipe composition with codex exec, profile-based shell aliases, tmux parallel patterns
+   - SEO targets: "codex cli shell completions", "codex cli zsh setup", "codex cli shell functions", "codex cli environment policy", "codex exec bash scripts"
+
+---
+
+## New Articles — Auto-Generated (2026-05-06, Hourly Task #23)
+
+### MCP Authentication & Remote Servers
+
+1. ✅ **Codex CLI MCP OAuth: Authenticating Remote Tool Servers with OAuth 2.1** — Written 2026-05-06 → `2026-05-06-codex-cli-mcp-oauth-authenticating-remote-tool-servers.md`
+   - Source: OpenAI Codex MCP docs, MCP Authorization Specification (Draft), DeepWiki openai/codex MCP CLI Commands, Codex config-reference docs, Linear MCP docs, GitHub issues #13891 #12589
+   - Scope: OAuth 2.1 + PKCE flow in Codex CLI, codex mcp login/logout commands, token storage in platform keyring, streamable HTTP server configuration, bearer_token_env_var for CI, mcp_oauth_callback_port and mcp_oauth_callback_url for devbox/remote environments, scoped tool access patterns, RFC 9728 protected resource metadata discovery, RFC 8707 resource indicators, troubleshooting OAuth failures
+   - SEO targets: "codex cli mcp oauth", "codex mcp login", "codex cli remote mcp server authentication", "mcp oauth 2.1 codex", "codex cli streamable http mcp"
+
+## New Articles — Auto-Generated (2026-05-07, Hourly Task #22)
+
+### OpenAI Docs MCP & Self-Referential Documentation
+
+1. ✅ **The OpenAI Developer Docs MCP Server: Giving Codex CLI Live Access to Its Own Documentation** — Written 2026-05-07 → `2026-05-07-codex-cli-openai-developer-docs-mcp-server-live-documentation-agent-context.md`
+   - Source: OpenAI Docs MCP setup guide, Codex CLI skills docs, config reference, MCP specification
+   - Scope: OpenAI Developer Docs MCP server at developers.openai.com/mcp, streamable HTTP setup, $openai-docs skill integration, agents/openai.yaml dependency declarations, AGENTS.md patterns for documentation-first configuration, cross-editor MCP config (VS Code, Cursor), documentation server stacking with Context7 and Repomix
+   - SEO targets: "openai developer docs mcp server", "codex cli documentation mcp", "openai mcp server setup", "codex cli self-referential documentation", "codex cli skills mcp dependency"
+
+## New Articles — Auto-Generated (2026-05-06, Hourly Task #21)
+
+### TUI Customisation & Productivity
+
+1. ✅ **Configurable TUI Keymaps in Codex CLI: Custom Keyboard Shortcuts for Every Context** — Written 2026-05-06 → `2026-05-06-codex-cli-configurable-tui-keymaps-custom-keyboard-shortcuts.md`
+   - Source: GitHub issue #3049, Codex changelog (CLI 0.128.0), config-reference docs, slash-commands docs, features docs, GitHub issue #12508 (Vim keymap), GitHub issue #20501 (Alt+Enter WSL regression)
+   - Scope: tui.keymap configuration in config.toml, seven binding contexts (global, chat, composer, editor, pager, list, approval), /keymap slash command for interactive rebinding, practical recipes (Vim-friendly, one-handed approval, split keyboard), scope layering (user vs project vs CLI override), related /statusline and /title customisation, default bindings reference table
+   - SEO targets: "codex cli custom keymaps", "codex cli keyboard shortcuts config", "codex cli tui.keymap config.toml", "codex cli configurable shortcuts 2026", "codex cli /keymap command"
+
+---
+
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #20)
+
+### Multi-Agent Evaluation & Benchmarking
+
+1. ✅ **MAESTRO Lessons for Codex CLI: What a 12-System Multi-Agent Evaluation Suite Reveals About Architecture vs Model Choice** — Written 2026-05-05 → `2026-05-05-maestro-multi-agent-evaluation-architecture-vs-model-choice-codex-cli.md`
+   - Source: arxiv.org/abs/2601.00481 (MAESTRO), notes/arxiv-maestro-multi-agent-evaluation-suite-2601-00481.md
+   - Scope: Architecture dominates over model choice in MAS (validates harness > weights thesis), 75% of multi-agent failures are silent gray errors, specialised agents beat general architectures by 10x on cost, call graph stability vs execution order instability, implications for Codex subagent orchestration and hook-based validation
+   - SEO targets: "multi-agent evaluation codex cli", "agent architecture vs model choice", "silent failures multi-agent systems", "codex cli observability multi-agent"
+
+2. ✅ **PRDBench and the PRD-to-Code Gap: Why Building From Specs Is Harder Than Fixing Bugs** — Written 2026-05-05 → `2026-05-05-prdbench-prd-to-code-gap-spec-driven-development-codex-cli.md`
+   - Source: arxiv.org/abs/2510.24358 (PRDBench, AAMAS 2026), notes/arxiv-prdbench-automatic-code-agent-benchmarking-2510-24358.md
+   - Scope: PRD-based evaluation vs SWE-bench bug-fixing, best agent only 55.81% pass rate, Claude Code at 36.60%, debugging as separate capability from development, multi-type evaluation (unit + shell + file), agent-as-judge methodology, implications for Codex goal-mode workflows building from specs
+   - SEO targets: "codex cli PRD workflow benchmark", "coding agent evaluation 2026", "PRDBench codex claude code comparison", "spec-driven development agent benchmark"
+
+### Multi-Environment Execution
+
+1. ✅ **Codex CLI Multi-Environment Sessions: One Conversation, Many Targets** — Written 2026-05-05 → `2026-05-05-codex-cli-multi-environment-sessions-one-conversation-many-targets.md`
+   - Source: notes/multi-env-execution-architecture-consolidated-may-2026.md, PRs #20646, #20669, #20647, #20530, #21048, #21142, #21143
+   - Scope: environment_id routing through tool dispatch, filesystem/process/shell/image routing per env, monorepo workflows, remote development patterns, enterprise multi-workspace targeting, CI/CD pipeline integration, relationship to unsandboxed exec API and permission profiles
+   - SEO targets: "codex cli multi environment", "codex cli monorepo workflow", "codex cli remote development", "multi-workspace agent session 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #19)
+
+### Database & Schema Management
+
+1. ✅ **Database Schema Migrations with Codex CLI: Atlas Skills, Neon Branching, and Safety Patterns** — Written 2026-05-05 → `2026-05-05-codex-cli-database-schema-migrations-atlas-neon-safety-patterns.md`
+   - Source: Atlas agent skills docs, Atlas Codex integration guide, Neon MCP guide, Codex CLI features docs, Codex CLI hooks docs, Codex CLI non-interactive docs, GitHub issue #15451
+   - Scope: Atlas agent skill installation and SKILL.md structure, atlas.hcl credential security patterns, versioned vs declarative workflow decision logic, Neon MCP server configuration for instant database branching, copy-on-write isolation for migration testing, Codex permission profiles and approval modes for database safety, PreToolUse hooks enforcing lint-before-apply and mandatory dry-run, codex exec structured output for CI migration review, ORM integration matrix (GORM, Drizzle, SQLAlchemy, Django, Ent, Sequelize, TypeORM), schema-scoped vs database-scoped dev URL selection, limitations and known issues
+   - SEO targets: "codex cli database migration", "atlas agent skill codex", "neon mcp codex cli", "codex cli schema migration safety", "database migration agent workflow 2026"
+
+---
+
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #18)
+
+### Kubernetes & Cloud-Native Development
+
+1. ✅ **Codex CLI and Kubernetes: MCP Servers, Helm Chart Workflows, and Cluster Debugging** — Written 2026-05-05 → `2026-05-05-codex-cli-kubernetes-mcp-servers-helm-charts-cluster-debugging.md`
+   - Source: kubectl-mcp-server GitHub (CNCF Landscape), containers/kubernetes-mcp-server GitHub, Codex CLI MCP docs, Codex CLI config-basic docs, Helm 4 release, Codex CLI advanced config docs, Codex CLI non-interactive docs
+   - Scope: Two major Kubernetes MCP servers compared (kubectl-mcp-server vs Go-native containers/kubernetes-mcp-server), config.toml setup for both, project-scoped configuration, AGENTS.md for K8s conventions, Helm 4 chart generation from live cluster state, chart review/linting, interactive cluster debugging patterns (OOMKilled, failed rollouts, network policies), permission profiles for production safety, multi-cluster workflows, CI/CD integration with codex exec and --output-schema, security considerations (read-only mode, RBAC scoping, secret redaction)
+   - SEO targets: "codex cli kubernetes", "kubernetes mcp server codex", "codex cli helm charts", "codex cli cluster debugging", "kubectl mcp server codex cli"
+
+---
+
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #17)
+
+### IDE Integration & ACP
+
+1. ✅ **Codex CLI in Zed 1.0: Parallel Agents, ACP Integration, and Multi-Agent IDE Workflows** — Written 2026-05-05 → `2026-05-05-codex-cli-in-zed-parallel-agents-acp-integration-ide-workflows.md`
+   - Source: Zed Parallel Agents blog, Zed External Agents docs, codex-acp GitHub repo, DeepWiki architecture analysis, Zed ACP specification, Codex CLI config-reference docs
+   - Scope: Practical setup guide for Codex CLI in Zed via ACP, codex-acp Rust adapter architecture, authentication methods, settings.json configuration, parallel agent workflow patterns (side-by-side review, monorepo sprint, exploration-then-execution), supported ACP methods and slash commands, forwarding boundaries, debugging, limitations, decision framework
+   - SEO targets: "codex cli zed", "codex cli zed acp", "codex cli ide integration", "zed parallel agents codex", "codex-acp setup guide"
+
+---
+
+## New Articles — Auto-Generated (2026-05-05, Hourly Task #16)
+
+### Agent Session Management Tooling
+
+1. ✅ **Agent Session Managers for Codex CLI: CCManager, Agent Deck, and the Emerging Orchestration Layer** — Written 2026-05-05 → `2026-05-05-codex-cli-session-managers-ccmanager-agent-deck-parallel-agent-orchestration.md`
+   - Source: CCManager GitHub repo, Agent Deck GitHub repo, Agent of Empires GitHub repo, Nimbalyst session manager comparison, OpenAI Codex CLI features docs, OpenAI Codex changelog
+   - Scope: Three leading session managers (CCManager, Agent Deck, Agent of Empires) compared for Codex CLI multi-session orchestration, architecture differences (Node.js direct PTY vs Go+tmux), feature matrix (MCP pooling, conductor agents, web dashboard, worktree management, cost tracking), Codex CLI configuration for session manager integration, three-agent sprint workflow pattern, convergence with native MultiAgentV2
+   - SEO targets: "codex cli session manager", "ccmanager codex cli", "agent deck codex", "parallel codex cli sessions", "multi-agent session orchestration 2026"
+
+---
+
 ## New Articles — Auto-Generated (2026-05-05, Hourly Task #15)
 
 ### Production-Derived Evaluation

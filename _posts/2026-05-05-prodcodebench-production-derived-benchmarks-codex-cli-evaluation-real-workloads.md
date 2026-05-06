@@ -5,6 +5,9 @@ nav_order: 594
 tags: ["codex-cli", "benchmarks", "evaluation", "ProdCodeBench", "production", "SWE-bench", "Terminal-Bench", "codex-exec"]
 ---
 
+![Sketchnote diagram for: ProdCodeBench and Production-Derived Evaluation: Why Synthetic Benchmarks Mislead and How to Evaluate Codex CLI Against Real Workloads](/sketchnotes/articles/2026-05-05-prodcodebench-production-derived-benchmarks-codex-cli-evaluation-real-workloads.png)
+
+
 # ProdCodeBench and Production-Derived Evaluation: Why Synthetic Benchmarks Mislead and How to Evaluate Codex CLI Against Real Workloads
 
 

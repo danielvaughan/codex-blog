@@ -5,6 +5,9 @@ nav_order: 592
 tags: ["codex-cli", "claude-code", "gemini-cli", "comparison", "terminal-agents", "benchmarks", "pricing", "architecture", "may-2026"]
 ---
 
+![Sketchnote diagram for: Terminal Agent Showdown: Codex CLI vs Claude Code vs Gemini CLI in May 2026](/sketchnotes/articles/2026-05-04-terminal-agent-showdown-codex-cli-claude-code-gemini-cli-may-2026.png)
+
+
 # Terminal Agent Showdown: Codex CLI vs Claude Code vs Gemini CLI in May 2026
 
 
