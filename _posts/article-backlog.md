@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-06, Hourly Task #27)
+
+### Agents SDK & Portable Compute
+
+1. ✅ **Agents SDK TypeScript Goes Sandbox-Native: Building Codex-Powered Agents with the Open-Source Harness** — Written 2026-05-06 → `2026-05-06-agents-sdk-typescript-sandbox-agents-codex-harness-portable-compute.md`
+   - Source: OpenAI Agents SDK TypeScript v0.9.1 docs, OpenAI Developer Changelog May 6, OpenAI Sandbox Agents API docs, Codex CLI features docs, Codex skills docs, Codex subagents docs, Codex Agents SDK guide
+   - Scope: Harness-compute separation architecture, SandboxAgent TypeScript API, Manifest workspace definitions, five capability types (shell/filesystem/skills/memory/compaction), nine sandbox providers (Unix-local/Docker/Blaxel/Cloudflare/Daytona/E2B/Modal/Runloop/Vercel), session state serialisation and resume, cross-run memory system, three Codex CLI integration patterns (MCP server orchestration, shared manifests, handoff composition), apply_patch v4a format portability, SKILL.md cross-SDK reuse, decision framework, beta limitations
+   - SEO targets: "agents sdk typescript sandbox", "openai agents sdk sandbox agents", "codex harness typescript", "sandbox agent portable compute", "agents sdk typescript v0.9"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07)
 
 ### Ecosystem & Tooling
