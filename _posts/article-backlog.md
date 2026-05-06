@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-06, Hourly Task #28)
+
+### Model Selection & Dynamic Pointers
+
+1. ✅ **GPT-5.5 Instant and chat-latest: Dynamic Model Pointers for Codex CLI Developers** — Written 2026-05-06 → `2026-05-06-gpt-5-5-instant-chat-latest-dynamic-model-pointers-codex-cli.md`
+   - Source: TechCrunch GPT-5.5 Instant coverage, OpenAI API Changelog, OpenAI GPT-5.5 model docs, ResultSense launch details, OpenAI API guides, Codex config docs, Codex CLI reference, Codex subagents docs, OpenAI Cookbook prompt caching
+   - Scope: GPT-5.5 Instant improvements (52.5% fewer hallucinations, 30.2% fewer words, AIME 81.2), chat-latest dynamic model pointer mechanics, config.toml model configuration, profile-based model routing recipes, decision framework for dynamic vs pinned model IDs, prompt caching implications, three-month GPT-5.3 deprecation window, practical recommendations
+   - SEO targets: "gpt-5.5 instant codex cli", "chat-latest model pointer", "codex cli model configuration", "dynamic model pointer openai", "codex cli gpt-5.5"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-06, Hourly Task #27)
 
 ### Agents SDK & Portable Compute
