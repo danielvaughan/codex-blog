@@ -5,8 +5,8 @@ nav_order: 1
 
 # Articles Index
 
-**Last updated:** 2026-05-05
-**Total articles rated:** 631
+**Last updated:** 2026-05-06
+**Total articles rated:** 640
 
 ## Rating Scale
 
@@ -136,6 +136,10 @@ Each article is rated 1-5 on four dimensions:
 | [Kiro CLI 2.0 vs Codex CLI: Spec-Driven Development Meets Terminal-First Autonomy](2026-05-05-kiro-cli-2-vs-codex-cli-spec-driven-terminal-first-comparison.md) | 4 | 3 | 4 | 5 | 4.0 | Detailed comparison; Feature matrix; Heavily sourced |
 | [MAESTRO Lessons for Codex CLI: What a 12-System Multi-Agent Evaluation Suite Reveals About Architecture vs Model Choice](2026-05-05-maestro-multi-agent-evaluation-architecture-vs-model-choice-codex-cli.md) | 4 | 4 | 4 | 4 | 4.0 | Research-backed; Architecture over model choice; KAUST study |
 | [ProdCodeBench and Production-Derived Evaluation: Why Synthetic Benchmarks Mislead and How to Evaluate Codex CLI Against Real Workloads](2026-05-05-prodcodebench-production-derived-benchmarks-codex-cli-evaluation-real-workloads.md) | 4 | 4 | 4 | 4 | 4.0 | Meta research; Production evaluation pipeline; codex exec |
+| [Agents SDK TypeScript Goes Sandbox-Native: Building Codex-Powered Agents with the Open-Source Harness](2026-05-06-agents-sdk-typescript-sandbox-agents-codex-harness-portable-compute.md) | 4 | 4 | 4 | 4 | 4.0 | Deep dive; Nine sandbox providers; Harness-compute split; Code examples |
+| [Codex CLI External Agent Migration: The Detect/Import API and Cross-Agent Portability](2026-05-06-codex-cli-external-agent-migration-detect-import-api-cross-agent-portability.md) | 4 | 4 | 4 | 4 | 4.0 | API deep dive; Migration patterns; AGENTS.md/MCP/skills import |
+| [The OpenAI Developer Docs MCP Server: Giving Codex CLI Live Access to Its Own Documentation](2026-05-07-codex-cli-openai-developer-docs-mcp-server-live-documentation-agent-context.md) | 4 | 4 | 4 | 4 | 4.0 | Self-referential docs; Practical setup; Cross-editor config |
+| [Microsoft APM: The Package Manager for AI Agents and What It Means for Codex CLI Teams](2026-05-07-microsoft-apm-agent-package-manager-codex-cli-reproducible-agent-configuration.md) | 4 | 4 | 4 | 4 | 4.0 | Novel topic; Cross-agent manifest; Lockfile pattern; Well-sourced |
 | [Codex CLI Multi-Provider Resilience: Failover Chains, Account Pooling, and the Art of Uninterrupted Agent Sessions](2026-05-04-codex-cli-multi-provider-resilience-failover-account-pooling-uninterrupted-sessions.md) | 4 | 3 | 4 | 5 | 3.9 | Practical guide; Multi-layer resilience; Strong hook |
 | [Terminal Agent Showdown: Codex CLI vs Claude Code vs Gemini CLI in May 2026](2026-05-04-terminal-agent-showdown-codex-cli-claude-code-gemini-cli-may-2026.md) | 4 | 3 | 4 | 5 | 3.9 | Comparison piece; May 2026 benchmarks; Rich diagrams |
 | [Agentic Primitives Compared: Codex CLI vs Claude Code vs Gemini CLI](2026-03-26-agentic-primitives-codex-claude-gemini.md) | 5 | 4 | 3 | 3 | 3.9 | Deep dive; Heavily sourced |
@@ -150,6 +154,9 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI Multi-File Editing Strategies: Coordinating Changes Across Large Pull Requests with apply_patch and Subagents](2026-05-03-codex-cli-multi-file-editing-strategies-apply-patch-subagents-coordinated-changes.md) | 4 | 3 | 4 | 4 | 3.8 | Practical strategies; apply_patch deep dive; Good examples |
 | [MCP Parallel Tool Calls in Codex CLI: Unlocking Concurrent Execution with supports_parallel_tool_calls](2026-05-04-codex-cli-mcp-parallel-tool-calls-supports-parallel-tool-calls.md) | 4 | 3 | 4 | 4 | 3.8 | Feature deep dive; Concurrency patterns; Sequence diagrams |
 | [Codex CLI Plugin Ecosystem: Building, Distributing, and Managing Marketplace Plugins](2026-05-04-codex-cli-plugin-ecosystem-building-distributing-marketplace-plugins.md) | 4 | 3 | 4 | 4 | 3.8 | Comprehensive guide; Manifest examples; Marketplace |
+| [Configurable TUI Keymaps in Codex CLI: Custom Keyboard Shortcuts for Every Context](2026-05-06-codex-cli-configurable-tui-keymaps-custom-keyboard-shortcuts.md) | 4 | 3 | 4 | 4 | 3.8 | Feature deep dive; Seven binding contexts; Config recipes |
+| [Codex CLI MCP OAuth: Authenticating Remote Tool Servers with OAuth 2.1](2026-05-06-codex-cli-mcp-oauth-authenticating-remote-tool-servers.md) | 4 | 3 | 4 | 4 | 3.8 | OAuth 2.1 flow; Security model; Sequence diagrams; Well-cited |
+| [Debugging Codex CLI Sessions with the OpenAI Traces Dashboard and OTLP Export](2026-05-06-codex-cli-traces-dashboard-debugging-sessions-otlp-export.md) | 4 | 3 | 4 | 4 | 3.8 | Observability stack; Three tracing layers; Config reference |
 | [The macOS Premium: Which Codex Features Only Work on Apple Hardware](2026-04-17-codex-cli-macos-premium-platform-feature-matrix.md) | 4 | 3 | 4 | 4 | 3.8 | Platform comparison; Feature matrix |
 | [Codex CLI Output Control: Tuning Verbosity, Reasoning Summaries, and Token Budgets for Every Workflow](2026-05-02-codex-cli-output-control-verbosity-reasoning-summaries-token-budgets.md) | 4 | 3 | 4 | 4 | 3.8 | Config reference; Mermaid diagrams |
 | [Codex CLI Through Databricks Unity AI Gateway: Enterprise Governance, Rate Limits, and Guardrails](2026-05-03-codex-cli-databricks-unity-ai-gateway-enterprise-governance.md) | 4 | 3 | 4 | 4 | 3.8 | Enterprise integration; Rich diagrams |
@@ -181,6 +188,7 @@ Each article is rated 1-5 on four dimensions:
 | [The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis](2026-04-10-codex-cli-complete-pricing-guide-subscription-tokens-cost-optimization.md) | 5 | 2 | 4 | 3 | 3.6 | Deep dive; Rich diagrams; Heavily sourced |
 | [The Proof of Work Principle: Why Agents Need to Show Their Working](2026-03-27-proof-of-work-principle-agents.md) | 3 | 4 | 3 | 5 | 3.6 | Thought leadership |
 | [Codex CLI TUI Customisation: Keymaps, Themes, Status Lines and Terminal Titles](2026-05-05-codex-cli-tui-customisation-keymaps-themes-status-lines.md) | 3 | 3 | 4 | 4 | 3.5 | Practical reference; Config recipes; Comprehensive |
+| [Codex CLI Shell Integration: Completions, Functions, Environment Policies and Productivity Recipes](2026-05-06-codex-cli-shell-integration-completions-functions-environment-recipes.md) | 3 | 3 | 4 | 4 | 3.5 | Practical guide; Completions for five shells; Env policy reference |
 | [A2A Meets MCP: The Multi-Agent Protocol Stack and What It Means for Codex](2026-04-09-a2a-meets-mcp-protocol-stack.md) | 4 | 2 | 4 | 4 | 3.5 | Rich diagrams |
 | [AI Coding Agent Adoption in 2026: What the Survey Data Actually Shows and Where Codex CLI Fits](2026-04-26-ai-coding-agent-adoption-2026-survey-data-codex-cli-positioning.md) | 4 | 2 | 4 | 4 | 3.5 | Rich diagrams |
 | [AI-Assisted Coding Tool Comparison: What the freeCodeCamp 85-Minute Course Teaches Practitioners](2026-04-09-freecodecamp-ai-tools-course-codex-lessons.md) | 4 | 2 | 4 | 4 | 3.5 | Heavily sourced |
@@ -545,6 +553,7 @@ Each article is rated 1-5 on four dimensions:
 | [gstack: Garry Tan's Production Claude Code Skills Toolkit](2026-03-30-gstack-garry-tan-production-skills-toolkit.md) | 4 | 2 | 4 | 4 | 3.5 | Rich diagrams |
 | [v0.124 Hooks Migration Guide: From hooks.json to Inline config.toml](2026-04-24-codex-cli-hooks-migration-guide-hooks-json-to-inline-config-toml.md) | 4 | 2 | 4 | 4 | 3.5 | Extensibility |
 | [Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control](2026-03-28-codex-cli-cost-management-token-strategy.md) | 4 | 2 | 4 | 3 | 3.3 | Model strategy |
+| [The Official Codex Subagents Documentation: Architecture, Patterns, and CSV Batch Processing](2026-05-06-codex-subagents-official-docs-reference-patterns-csv-batch.md) | 3 | 3 | 4 | 3 | 3.3 | Reference article; Official docs summary; Cross-references |
 | [Codex and Outlook Calendar: Five Ways to Connect Your Agent to Microsoft 365 Scheduling](codex-outlook-calendar-integration.md) | 3 | 3 | 3 | 4 | 3.2 | Integration guide; Five approaches |
 | [AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance](2026-04-07-agents-md-open-standard-cross-tool-portability.md) | 3 | 2 | 4 | 4 | 3.2 | Agent patterns |
 | [Agent Psychometrics: Predicting Which Tasks Your Codex CLI Agent Will Ace and Which It Will Botch](2026-04-29-agent-psychometrics-predicting-task-difficulty-codex-cli-llm-scaffold-decomposition.md) | 3 | 2 | 4 | 4 | 3.2 | Agent patterns |
@@ -660,7 +669,7 @@ Each article is rated 1-5 on four dimensions:
 
 ## Summary Statistics
 
-- **Total articles:** 616
+- **Total articles:** 625
 - **Average composite:** 3.5
 - **Highest composite:** 4.8
 - **Lowest composite:** 2.0
@@ -680,8 +689,8 @@ Each article is rated 1-5 on four dimensions:
 
 ### Score Distribution
 
-- **4.0+:** 101 articles
-- **3.5-3.9:** 397 articles
-- **3.0-3.4:** 59 articles
+- **4.0+:** 105 articles
+- **3.5-3.9:** 401 articles
+- **3.0-3.4:** 60 articles
 - **2.5-2.9:** 26 articles
 - **< 2.5:** 33 articles
