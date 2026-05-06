@@ -1,5 +1,15 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07)
+
+### Ecosystem & Tooling
+
+1. ✅ **Microsoft APM: The Package Manager for AI Agents and What It Means for Codex CLI Teams** — Written 2026-05-07 → `2026-05-07-microsoft-apm-agent-package-manager-codex-cli-reproducible-agent-configuration.md`
+   - Source: Microsoft APM GitHub repo, agentskills.io, Microsoft agentrc repo, OpenAI Codex changelog v0.128.0, MCP specification
+   - Scope: APM manifest format (apm.yml), cross-agent configuration portability, Codex CLI integration and limitations, security (content scanning, lockfile integrity, drift detection), enterprise policy governance (apm-policy.yml, tighten-only inheritance), agentrc companion tool, practical setup walkthrough, adoption decision framework
+
+---
+
 ## New Articles — Auto-Generated (2026-05-06, Hourly Task #26)
 
 ### Debugging & Observability
