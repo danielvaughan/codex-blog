@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #31)
+
+### Workflow Patterns & Developer Loop
+
+1. ✅ **Codex CLI Official Workflow Recipes: Nine Patterns That Structure the Developer Loop** — Written 2026-05-07 → `2026-05-07-codex-cli-official-workflow-recipes-nine-patterns-plan-review-developer-loop.md`
+   - Source: OpenAI Codex Workflows docs, OpenAI Codex best practices docs, Codex CLI features docs, Codex CLI changelog, Codex agent-approvals-security docs, Codex hooks docs, Codex config-reference docs, GPT-5.5 announcement, GPT-5.3-Codex-Spark announcement
+   - Scope: Nine official workflow recipes (Explain Codebase, Fix Bug, Write Test, Prototype from Screenshot, Iterate on UI, Delegate Refactor, Local Code Review, GitHub PR Review, Update Documentation), four-part prompt structure, named configuration profiles per workflow, plan-review-execute loop, /review command patterns, codex exec --json reasoning token reporting, workflow decision framework, session chaining patterns
+   - SEO targets: "codex cli workflow recipes", "codex cli official workflows", "codex cli plan review loop", "codex cli developer workflow patterns", "codex cli nine workflows"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #30)
 
 ### MCP Server Development
