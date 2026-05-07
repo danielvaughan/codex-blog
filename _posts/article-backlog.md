@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #33)
+
+### Ruby on Rails & Codex CLI
+
+1. ✅ **Codex CLI for Ruby on Rails Teams: RuboCop MCP, RSpec Workflows, and Convention-Friendly AGENTS.md Patterns** — Written 2026-05-07 → `2026-05-07-codex-cli-ruby-on-rails-teams-rubocop-mcp-rspec-agents-md-workflows.md`
+   - Source: RuboCop MCP docs, Rails AGENTS.md PR #55991, OpenAI AGENTS.md docs, OpenAI Hooks docs, OpenAI Rules docs, OpenAI config-advanced docs, Agentic Control Plane hooks reference, Katsikanis Rails AI blog
+   - Scope: Rails convention-over-configuration advantages for agents, AGENTS.md root and directory-scoped patterns, RuboCop 1.85 built-in MCP server (rubocop_inspection and rubocop_autocorrection tools), safety modes, PostToolUse hook for RSpec verification, hook script with source-to-spec mapping, prefix rules for Rails commands, configuration profiles for different Rails workflows, feature development sequence diagram, strong_migrations and Hotwire considerations
+   - SEO targets: "codex cli ruby on rails", "rubocop mcp server codex", "codex cli rspec hooks", "rails agents.md", "codex cli rails development"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #32)
 
 ### Model Routing & Selection
