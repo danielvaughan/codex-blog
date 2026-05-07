@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #38)
+
+### Hooks & Compaction Lifecycle
+
+1. ✅ **Codex CLI v0.129: The /hooks Browser, Compaction Hooks, and Runtime Hook Management** — Written 2026-05-07 → `2026-05-07-codex-cli-v0129-hooks-browser-compaction-hooks-runtime-management.md`
+   - Source: v0.129.0 release notes, GitHub issues #16098 #19061 #17148, OpenAI Hooks docs, OpenAI config-reference docs, Justin3go compaction analysis, OpenAI CLI features docs
+   - Scope: PreCompact and PostCompact hook events, /hooks TUI browser with runtime toggle, compaction gate (PreCompact deferral), PostCompact systemMessage reinjection, deterministic memory reinjection pattern, compaction observability with StatsD, migration from JSONL log-polling workarounds, enterprise managed hook lock, session-only toggle scope, hook execution history
+   - SEO targets: "codex cli compaction hooks", "codex cli /hooks browser", "codex cli PreCompact PostCompact", "codex cli v0.129 hooks", "codex cli memory reinjection compaction", "codex cli hook toggle"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #37)
 
 ### Instruction Architecture & Configuration
