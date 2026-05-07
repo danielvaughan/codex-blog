@@ -5,6 +5,8 @@ nav_order: 615
 tags: ["agents-sdk", "typescript", "sandbox", "harness", "codex-cli", "portable-compute", "e2b", "modal", "daytona", "multi-agent"]
 ---
 
+![Sketchnote diagram for: Agents SDK TypeScript Goes Sandbox-Native: Building Codex-Powered Agents with the Open-Source Harness](/sketchnotes/articles/2026-05-06-agents-sdk-typescript-sandbox-agents-codex-harness-portable-compute.png)
+
 # Agents SDK TypeScript Goes Sandbox-Native: Building Codex-Powered Agents with the Open-Source Harness
 
 

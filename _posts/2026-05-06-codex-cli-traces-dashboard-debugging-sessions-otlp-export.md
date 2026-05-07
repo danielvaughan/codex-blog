@@ -5,6 +5,8 @@ nav_order: 613
 tags: ["codex-cli", "traces", "debugging", "observability", "opentelemetry", "otlp", "dashboard", "sessions", "tool-calls"]
 ---
 
+![Sketchnote diagram for: Debugging Codex CLI Sessions with the OpenAI Traces Dashboard and OTLP Export](/sketchnotes/articles/2026-05-06-codex-cli-traces-dashboard-debugging-sessions-otlp-export.png)
+
 # Debugging Codex CLI Sessions with the OpenAI Traces Dashboard and OTLP Export
 
 

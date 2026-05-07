@@ -5,6 +5,8 @@ nav_order: 616
 tags: ["codex-cli", "approval-policy", "granular-approval", "auto-review", "security", "permissions", "config-toml", "autonomous-workflows", "v0.128"]
 ---
 
+![Sketchnote diagram for: Codex CLI Granular Approval Policies and the Auto-Review Subagent: Autonomous Yet Secure Workflows](/sketchnotes/articles/2026-05-07-codex-cli-granular-approval-policies-auto-review-subagent-autonomous-secure-workflows.png)
+
 # Codex CLI Granular Approval Policies and the Auto-Review Subagent: Autonomous Yet Secure Workflows
 
 

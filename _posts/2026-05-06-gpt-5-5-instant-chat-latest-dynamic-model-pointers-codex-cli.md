@@ -5,6 +5,8 @@ nav_order: 615
 tags: ["codex-cli", "gpt-5.5", "chat-latest", "model-selection", "configuration", "dynamic-model-pointer"]
 ---
 
+![Sketchnote diagram for: GPT-5.5 Instant and chat-latest: Dynamic Model Pointers for Codex CLI Developers](/sketchnotes/articles/2026-05-06-gpt-5-5-instant-chat-latest-dynamic-model-pointers-codex-cli.png)
+
 # GPT-5.5 Instant and chat-latest: Dynamic Model Pointers for Codex CLI Developers
 
 

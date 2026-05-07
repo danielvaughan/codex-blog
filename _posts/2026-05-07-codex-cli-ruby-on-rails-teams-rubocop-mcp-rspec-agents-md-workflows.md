@@ -5,6 +5,8 @@ nav_order: 620
 tags: ["codex-cli", "ruby-on-rails", "rubocop", "rspec", "mcp", "agents-md", "testing", "configuration", "hooks"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Ruby on Rails Teams: RuboCop MCP, RSpec Workflows, and Convention-Friendly AGENTS.md Patterns](/sketchnotes/articles/2026-05-07-codex-cli-ruby-on-rails-teams-rubocop-mcp-rspec-agents-md-workflows.png)
+
 # Codex CLI for Ruby on Rails Teams: RuboCop MCP, RSpec Workflows, and Convention-Friendly AGENTS.md Patterns
 
 

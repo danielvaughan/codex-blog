@@ -5,6 +5,8 @@ nav_order: 618
 tags: ["codex-cli", "workflows", "best-practices", "plan-mode", "review", "developer-experience", "configuration"]
 ---
 
+![Sketchnote diagram for: Codex CLI Official Workflow Recipes: Nine Patterns That Structure the Developer Loop](/sketchnotes/articles/2026-05-07-codex-cli-official-workflow-recipes-nine-patterns-plan-review-developer-loop.png)
+
 # Codex CLI Official Workflow Recipes: Nine Patterns That Structure the Developer Loop
 
 

@@ -5,6 +5,8 @@ nav_order: 617
 tags: ["codex-cli", "mcp", "model-context-protocol", "typescript", "python", "tooling", "integration", "streamable-http", "stdio"]
 ---
 
+![Sketchnote diagram for: Building Custom MCP Servers for Codex CLI: A Practical Guide in TypeScript and Python](/sketchnotes/articles/2026-05-07-building-custom-mcp-servers-codex-cli-typescript-python-tool-integration.png)
+
 # Building Custom MCP Servers for Codex CLI: A Practical Guide in TypeScript and Python
 
 

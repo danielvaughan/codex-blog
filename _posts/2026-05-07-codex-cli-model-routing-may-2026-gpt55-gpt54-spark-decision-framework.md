@@ -5,6 +5,8 @@ nav_order: 619
 tags: ["codex-cli", "model-selection", "gpt-5.5", "gpt-5.4", "gpt-5.4-mini", "gpt-5.3-codex", "codex-spark", "configuration", "cost-optimisation"]
 ---
 
+![Sketchnote diagram for: Codex CLI Model Routing in May 2026: GPT-5.5, GPT-5.4, Codex-Spark, and When to Use Each](/sketchnotes/articles/2026-05-07-codex-cli-model-routing-may-2026-gpt55-gpt54-spark-decision-framework.png)
+
 # Codex CLI Model Routing in May 2026: GPT-5.5, GPT-5.4, Codex-Spark, and When to Use Each
 
 
