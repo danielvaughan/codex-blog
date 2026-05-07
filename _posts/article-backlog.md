@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #30)
+
+### MCP Server Development
+
+1. ✅ **Building Custom MCP Servers for Codex CLI: A Practical Guide in TypeScript and Python** — Written 2026-05-07 → `2026-05-07-building-custom-mcp-servers-codex-cli-typescript-python-tool-integration.md`
+   - Source: MCP specification (tools, transports), OpenAI Codex MCP docs, OpenAI config-reference docs, MCP Python SDK, MCP TypeScript SDK, MCP Inspector, Codex changelog v0.129, GitHub issues #15451 #19385
+   - Scope: Why build custom MCP servers, MCP architecture overview, building a stdio server in TypeScript with @modelcontextprotocol/sdk and Zod schemas, building a streamable HTTP server in Python with FastMCP, tool annotations (readOnlyHint, destructiveHint, openWorldHint), registering servers in config.toml, MCP Inspector testing, production hardening (input validation, rate limiting, timeouts, logging), per-project scoping, tool allow/deny lists, profile-based server selection, decision framework, current limitations (outputSchema, hooks coverage gap)
+   - SEO targets: "codex cli custom mcp server", "build mcp server typescript", "codex cli mcp integration", "mcp server python fastmcp codex", "codex cli tool development"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #29)
 
 ### Security & Approval Configuration
