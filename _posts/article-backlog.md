@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #41)
+
+### Metaprompting & Instruction Improvement
+
+1. ✅ **Codex CLI Metaprompting: Using the Agent to Improve Its Own Instructions** — Written 2026-05-08 → `2026-05-08-codex-cli-metaprompting-using-the-agent-to-improve-its-own-instructions.md`
+   - Source: OpenAI Codex Prompting Guide, OpenAI AGENTS.md docs, OpenAI Skills docs, OpenAI Best Practices docs, OpenAI Rules docs, OpenAI Non-interactive docs, IntuitionLabs meta-prompting research, Promptingguide.ai meta-prompting reference
+   - Scope: Metaprompting feedback loop for Codex CLI, post-session retrospective pattern, batch metaprompting via codex exec, skill refinement loop, reasoning effort calibration, anti-patterns (over-specification, uncurated automation, stale instructions), validation techniques, weekly cadence for teams, instruction surface comparison (AGENTS.md vs SKILL.md vs config.toml)
+   - SEO targets: "codex cli metaprompting", "codex agents.md improvement", "codex cli instruction optimisation", "codex cli self-improving instructions", "codex cli prompt engineering", "metaprompting ai coding agent"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #40)
 
 ### Browser Integration & Chrome Extension
