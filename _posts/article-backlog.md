@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #35)
+
+### Built-in MCP Architecture & Memory Isolation
+
+1. ✅ **Codex CLI's Built-in MCPs Just Became First-Class Runtime Servers — What It Means for Memory and Plugins** — Written 2026-05-07 → `2026-05-07-codex-cli-builtin-mcp-first-class-runtime-servers-memory-isolation.md`
+   - Source: PR #21356 (jif-oai), PR #21180, PR #21447, PR #21441, v0.129 alpha.15 release
+   - Scope: BuiltinMcpServer vs EffectiveMcpServer types, in-process async transport replacing stdio subprocess, memories MCP reclassified as local state (no memory-mode pollution), config-scoped CLI operations, plugin hooks visibility, skills list parallelisation, CCA filesystem isolation via operation-backed turn diffs
+   - SEO targets: "codex cli built-in mcp", "codex cli memory isolation", "codex cli first-class mcp servers", "codex cli plugin architecture", "codex cli v0.129"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #34)
 
 ### Long-Horizon Workflows & Goal Persistence
