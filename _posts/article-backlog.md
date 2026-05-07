@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #34)
+
+### Long-Horizon Workflows & Goal Persistence
+
+1. ✅ **Codex CLI /goal: Persisted Long-Horizon Workflows with Pause, Resume, and Token Budgets** — Written 2026-05-07 → `2026-05-07-codex-cli-goal-command-persisted-long-horizon-workflows-pause-resume-budget.md`
+   - Source: OpenAI Codex changelog v0.128.0, LaoZhang AI /goal guide, Kingy AI /goal deep dive, Ralphable /goal Ralph loop analysis, DevToolPicks /goal vs Claude Code comparison, OpenAI AGENTS.md docs, OpenAI CLI features docs, OpenAI CLI reference docs
+   - Scope: /goal slash command surface (create, pause, resume, clear), five lifecycle states (pursuing, paused, achieved, unmet, budget-limited), continuation.md and budget_limit.md prompt injection, constrained model tools (get_goal, create_goal, update_goal), app-server JSON-RPC APIs, token budget mechanics, feature flag enablement, AGENTS.md and MCP layering, mid-turn compaction drift limitation, decision framework
+   - SEO targets: "codex cli goal command", "codex cli persisted workflows", "codex cli long horizon", "codex cli pause resume", "codex cli token budget", "codex cli goal workflows"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #33)
 
 ### Ruby on Rails & Codex CLI
