@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #36)
+
+### MCP CLI Management
+
+1. ✅ **codex mcp: Managing MCP Servers Entirely from the Terminal** — Written 2026-05-07 → `2026-05-07-codex-mcp-subcommand-managing-mcp-servers-from-the-terminal.md`
+   - Source: OpenAI MCP docs, OpenAI config-reference docs, OpenAI config-sample docs, OpenAI CLI reference docs, DeepWiki MCP CLI commands, GitHub MCP server install guide, GitHub issue #16439
+   - Scope: Six codex mcp subcommands (list, get, add, remove, login, logout), stdio vs streamable HTTP transports, OAuth 2.0 authentication flow, credential storage backends (keyring/file/auto), OAuth callback configuration, tool allow/deny lists, project-scoped vs user-scoped servers, ConfigEditsBuilder atomic writes, practical recipes (GitHub + Linear + Sentry, CI registration, JSON auditing), current limitations
+   - SEO targets: "codex mcp add", "codex mcp server management", "codex cli mcp oauth", "codex mcp list", "codex mcp subcommand", "codex cli mcp configuration"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #35)
 
 ### Built-in MCP Architecture & Memory Isolation
