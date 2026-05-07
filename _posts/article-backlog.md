@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #32)
+
+### Model Routing & Selection
+
+1. ✅ **Codex CLI Model Routing in May 2026: GPT-5.5, GPT-5.4, Codex-Spark, and When to Use Each** — Written 2026-05-07 → `2026-05-07-codex-cli-model-routing-may-2026-gpt55-gpt54-spark-decision-framework.md`
+   - Source: OpenAI GPT-5.5 announcement, OpenAI GPT-5.4 announcement, OpenAI GPT-5.4 mini and nano announcement, OpenAI GPT-5.3-Codex-Spark announcement, OpenAI Codex models docs, OpenAI API pricing, Codex CLI v0.128.0 changelog, OpenAI subagents docs, Codex GitHub Action docs
+   - Scope: Five-model roster comparison (GPT-5.5, GPT-5.4, GPT-5.4-mini, GPT-5.3-Codex, GPT-5.3-Codex-Spark), benchmarks table, pricing per million tokens, named profile configuration for model routing, subagent model delegation, mid-session model switching, decision flowchart, cost comparison example, prompt caching implications, authentication-based model availability matrix, deprecation timeline, practical recommendations
+   - SEO targets: "codex cli model selection 2026", "codex cli gpt-5.5 vs gpt-5.4", "codex cli model routing", "codex cli subagent model configuration", "codex cli model decision framework"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #31)
 
 ### Workflow Patterns & Developer Loop
