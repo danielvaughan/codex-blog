@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #39)
+
+### Terraform & Infrastructure as Code
+
+1. ✅ **Codex CLI for Terraform and OpenTofu Teams: MCP Servers, Safety Hooks, and AGENTS.md Patterns for Infrastructure as Code** — Written 2026-05-07 → `2026-05-07-codex-cli-terraform-opentofu-infrastructure-as-code-agents-md-mcp-hooks.md`
+   - Source: HashiCorp Terraform MCP Server docs, antonbabenko/terraform-skill, OpenAI AGENTS.md docs, OpenAI Hooks docs, OpenAI config-reference docs, OpenAI GitHub Action docs, OpenAI agent-approvals-security docs, Clanker Cloud Terraform 2026 trends, DEV Community OpenTofu comparison, nwiizo/tfmcp
+   - Scope: Terraform plan-apply lifecycle mapping to Codex plan-review-execute, HashiCorp MCP server registration and tool allow-listing, community terraform-skill installation and activation, AGENTS.md root and directory-scoped IaC patterns, PreToolUse plan-gate hook blocking unapproved apply, destroy-block hook for production directories, named profiles for plan/review/module workflows, requirements.toml network allow-lists for state backends, codex-action CI/CD review pipeline, state sensitivity and provider auth limitations, decision framework
+   - SEO targets: "codex cli terraform", "codex cli infrastructure as code", "codex cli opentofu", "terraform mcp server codex", "codex cli terraform hooks", "codex cli iac workflow"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #38)
 
 ### Hooks & Compaction Lifecycle
