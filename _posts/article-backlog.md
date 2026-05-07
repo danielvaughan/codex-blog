@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #40)
+
+### Browser Integration & Chrome Extension
+
+1. ✅ **Codex for Chrome: Browser Integration for Authenticated Workflows** — Written 2026-05-07 → `2026-05-07-codex-for-chrome-extension-browser-integration-authenticated-workflows.md`
+   - Source: Codex Changelog May 7 2026, Codex Chrome extension docs, Codex in-app browser docs, Codex security docs, Chrome Web Store listing, Daniel Vaughan browser-in-the-loop article
+   - Scope: Three browser surfaces comparison (in-app browser vs Browser Use plugin vs Chrome extension), tab group isolation architecture, domain allow/block list security model, browser history access controls, prompt injection risks, practical patterns for authenticated SaaS workflows, CLI vs app browser capabilities, limitations and troubleshooting
+   - SEO targets: "codex chrome extension", "codex for chrome", "codex browser integration", "codex authenticated browser", "codex chrome tab groups", "codex browser security"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #39)
 
 ### Terraform & Infrastructure as Code
