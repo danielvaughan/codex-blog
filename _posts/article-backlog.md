@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #37)
+
+### Instruction Architecture & Configuration
+
+1. ✅ **The Codex CLI Instruction Stack: How Six Configuration Surfaces Shape Agent Behaviour** — Written 2026-05-07 → `2026-05-07-codex-cli-instruction-stack-six-surfaces-agents-md-rules-hooks-skills.md`
+   - Source: OpenAI AGENTS.md docs, OpenAI Rules docs, OpenAI Hooks docs, OpenAI Skills docs, OpenAI config-reference docs, OpenAI config-basic docs, OpenAI config-advanced docs, OpenAI managed-configuration docs, OpenAI admin-setup docs, OpenAI best-practices docs
+   - Scope: Six instruction surfaces (requirements.toml, AGENTS.md, Rules, developer_instructions, Skills, Hooks), precedence and composition rules, AGENTS.md directory walking and override mechanics, Starlark prefix_rule() syntax, developer_instructions profile-scoped patterns, skill progressive disclosure and eviction, hook systemMessage runtime injection, compaction survival matrix, practical layering patterns for individuals/teams/enterprise, common mistakes, verification commands
+   - SEO targets: "codex cli instruction stack", "codex cli AGENTS.md rules hooks", "codex cli instruction surfaces", "codex cli developer_instructions", "codex cli configuration layering", "codex cli requirements.toml"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-07, Hourly Task #36)
 
 ### MCP CLI Management
