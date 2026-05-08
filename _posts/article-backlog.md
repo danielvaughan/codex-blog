@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #42)
+
+### MCP Elicitations & Human-in-the-Loop
+
+1. ✅ **MCP Elicitations in Codex CLI: Human-in-the-Loop Structured Input for Agent Workflows** — Written 2026-05-08 → `2026-05-08-codex-cli-mcp-elicitations-human-in-the-loop-structured-input.md`
+   - Source: MCP Elicitation DEV.to guide, Agent Client Protocol RFD, Codex CLI v0.129.0 changelog, Codex agent-approvals-security docs, Codex config-reference docs
+   - Scope: MCP elicitation protocol (elicitation/create JSON-RPC), supported schema types (string/number/boolean/enum), TUI rendering and Guardian integration, granular approval_policy.mcp_elicitations config, three approval modes, server-side implementation patterns, capability negotiation, security considerations (phishing, credential isolation, schema constraints), enterprise hardening, practical patterns (database migration confirmation, workflow gating), limitations
+   - SEO targets: "codex cli mcp elicitations", "mcp human in the loop", "codex cli elicitation approval", "mcp structured input codex", "codex cli v0.129 elicitations", "mcp elicitation json schema"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #41)
 
 ### Metaprompting & Instruction Improvement
