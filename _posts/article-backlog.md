@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #53)
+
+### Coder Agents vs Codex CLI Enterprise Comparison
+
+1. ✅ **Coder Agents vs Codex CLI: Self-Hosted, Model-Agnostic Agent Infrastructure and What It Means for Enterprise AI Coding** — Written 2026-05-08 → `2026-05-08-coder-agents-vs-codex-cli-self-hosted-model-agnostic-enterprise-ai-coding.md`
+   - Source: Coder Agents beta announcement (GlobeNewsWire), Coder blog, OpenAI Codex config-reference docs, OpenAI sandboxing docs, OpenAI agent-approvals-security docs, OpenAI CLI features docs, OpenAI non-interactive mode docs, OpenAI config-advanced docs, OpenAI pricing docs, SD Times weekly roundup, OpenAI apply_patch API docs
+   - Scope: Architectural comparison (local-first vs self-hosted control plane), model agnosticism (Coder supports any provider vs Codex OpenAI-optimised with Bedrock/Ollama), air-gap deployment patterns, centralised vs distributed governance (Coder control plane vs OTEL + hooks + requirements.toml), sandbox approaches (workspace-level vs OS-level), complementary hybrid patterns (Coder Agents for batch + Codex CLI for interactive), decision framework table, regulated industry guidance, startup vs enterprise sizing
+   - SEO targets: "coder agents vs codex cli", "self-hosted ai coding agent", "codex cli enterprise comparison", "model agnostic coding agent", "coder agents beta 2026", "air-gapped ai coding agent"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #52)
 
 ### Snyk MCP Server Integration & Agent Supply Chain Security
