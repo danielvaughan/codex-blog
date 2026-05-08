@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #46)
+
+### v0.129 Session Workflow Upgrades
+
+1. ✅ **Codex CLI v0.129 Session Workflow Upgrades: The Redesigned Resume Picker, Raw Scrollback, and Workspace-Aware /diff** — Written 2026-05-08 → `2026-05-08-codex-cli-v0129-session-workflow-upgrades-resume-picker-scrollback-diff.md`
+   - Source: v0.129.0 release notes, GitHub Issues #17302 #10331 #14277, Codex CLI Features docs, Slash Commands docs, Config Reference docs, agent-sessions community tool
+   - Scope: Redesigned resume/fork picker with richer session metadata, directory-scoped session filtering, raw scrollback mode via tui.alternate_screen="never" and --no-alt-screen, workspace-aware /diff with merge-base branch detection, theme-aware statusline with branch context, /keymap debug for terminal key inspection, combined /diff + /review pre-PR workflow, terminal multiplexer compatibility (tmux/Zellij/VS Code), known scrollback limitations
+   - SEO targets: "codex cli v0.129 session resume", "codex cli raw scrollback", "codex cli workspace diff", "codex cli resume picker", "codex cli alternate screen scrollback", "codex cli branch diff review"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #45)
 
 ### MCP STDIO Security & Codex CLI Defence
