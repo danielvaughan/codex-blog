@@ -1,5 +1,26 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #43)
+
+### Plugin Marketplace & Permission Profiles
+
+1. ✅ **Codex CLI Plugin Marketplace: Remote Installation, Workspace Sharing, and Bundled Hooks** — Written 2026-05-08 → `2026-05-08-codex-cli-plugin-marketplace-remote-install-workspace-sharing-bundled-hooks.md`
+   - Source: OpenAI Plugins docs, Codex Changelog, GitHub Releases v0.129.0
+   - Scope: Plugin components (skills/apps/MCP), /plugins TUI browser, remote install (GitHub/Git/local), marketplace management, plugin-bundled hooks, workspace sharing, external agent config import, enterprise governance patterns, CI/CD plugin registration
+   - SEO targets: "codex cli plugins", "codex plugin marketplace", "codex cli plugin hooks", "codex plugin install", "codex cli workspace sharing plugins"
+
+2. ✅ **Codex CLI Permission Profiles: Built-in Sandbox Modes, Custom Profiles, and the Two-Layer Security Model** — Written 2026-05-08 → `2026-05-08-codex-cli-permission-profiles-sandbox-modes-security-layers.md`
+   - Source: OpenAI Agent Approvals & Security docs, Advanced Configuration docs, Config Basics docs, Sandbox Concepts docs
+   - Scope: Two-layer security model (sandbox + approval), built-in profiles (:read-only, :workspace, :danger-no-sandbox), custom profile creation with filesystem/network controls, approval policy modes, granular approval policies, auto_review sub-agent, protected paths, platform sandbox implementations, OpenTelemetry monitoring, enterprise layered profile patterns
+   - SEO targets: "codex cli permission profiles", "codex cli sandbox modes", "codex cli security model", "codex cli approval policy", "codex cli custom permissions", "codex cli enterprise security"
+
+3. ✅ **codex update: Self-Updating the CLI Without Remembering Your Package Manager** — Written 2026-05-08 → `2026-05-08-codex-cli-codex-update-self-update-command.md`
+   - Source: Codex Changelog, GitHub issues #9274 #11169
+   - Scope: Auto-detection of install method (npm/brew/binary), codex update --check, version comparison, CI usage, limitations
+   - SEO targets: "codex update", "codex cli self update", "codex cli upgrade command"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #42)
 
 ### MCP Elicitations & Human-in-the-Loop
