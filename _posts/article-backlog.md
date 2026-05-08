@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #48)
+
+### JetBrains MCP Server Integration
+
+1. ✅ **Codex CLI + JetBrains MCP Server: Giving Your Terminal Agent IDE-Grade Intelligence** — Written 2026-05-08 → `2026-05-08-codex-cli-jetbrains-mcp-server-ide-intelligence-terminal-agent.md`
+   - Source: JetBrains MCP Server docs, Skyscanner/OpenAI blog post, JetBrains Marketplace plugin, Codex MCP docs, Codex Agent Approvals & Security docs
+   - Scope: JetBrains MCP server tool surface (20+ tools across code intelligence, project structure, execution, database), SSE and stdio transport configuration, AGENTS.md integration patterns, Skyscanner case study (NotFound constructor bug, measured benefits), edit-inspect-fix loop, semantic refactoring, database-aware development, security considerations (tool allow-lists, approval policies), limitations
+   - SEO targets: "codex cli jetbrains mcp", "codex cli intellij integration", "codex cli ide inspections", "jetbrains mcp server codex", "codex cli jetbrains run configuration", "codex cli ide intelligence"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #47)
 
 ### Enterprise TLS & Custom CA Certificates
