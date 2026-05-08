@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #52)
+
+### Snyk MCP Server Integration & Agent Supply Chain Security
+
+1. ✅ **Codex CLI + Snyk MCP Server: Security Scanning for AI-Generated Code and the Agent Supply Chain** — Written 2026-05-08 → `2026-05-08-codex-cli-snyk-mcp-server-security-scanning-ai-generated-code-agent-supply-chain.md`
+   - Source: Snyk Codex CLI guide, Snyk MCP cheat sheet, Snyk Studio docs, Snyk Agent Scan GitHub, Snyk ToxicSkills blog, Snyk MCP article, OpenAI AGENTS.md docs, OpenAI Hooks docs, OpenAI Changelog v0.129, OpenAI Agent Approvals docs, Snyk Studio MCP GitHub, Opsera 2026 Benchmark
+   - Scope: Snyk MCP server config.toml setup (npx and direct path), ten MCP tools (snyk_code_scan, snyk_sca_scan, snyk_iac_scan, snyk_container_scan, snyk_sbom_scan, snyk_aibom, snyk_auth, snyk_trust, snyk_version, snyk_logout), secure-at-inception workflow with AGENTS.md directives, PostToolUse hooks for automated scanning gates, AI Bill of Materials (AIBOM) for compliance, Snyk Agent Scan for auditing MCP server and skills supply chain (ToxicSkills 13.4% critical findings), enterprise profiles, CI pipeline integration with codex exec, known limitations
+   - SEO targets: "codex cli snyk mcp", "codex cli security scanning", "snyk mcp server codex", "codex cli sast sca", "snyk agent scan codex", "ai generated code security scanning", "codex cli aibom"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #51)
 
 ### Agent-Native Infrastructure & Software 3.0
