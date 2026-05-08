@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #51)
+
+### Agent-Native Infrastructure & Software 3.0
+
+1. ✅ **Agent-Native Infrastructure: Karpathy's Software 3.0 Requirements and How Codex CLI Meets Them** — Written 2026-05-08 → `2026-05-08-agent-native-infrastructure-karpathy-software-3-codex-cli-requirements-mapping.md`
+   - Source: Karpathy Sequoia Ascent 2026 blog post, Opsera AI Coding Impact 2026 Benchmark Report, OpenAI AGENTS.md docs, OpenAI config-reference docs, OpenAI non-interactive mode docs, Codex SDK docs, Codex Changelog, GitHub Issue #15451, OpenAI agent-approvals-security docs, OpenAI hooks docs, OpenAI GitHub Action docs
+   - Scope: Karpathy's Software 3.0 framework (six agent-native infrastructure requirements), mapping each to Codex CLI features (AGENTS.md hierarchy, codex exec, --output-schema, two-layer permission model, OTLP observability, headless setup), Opsera benchmark data (4.6x review bottleneck, 15-18% more vulnerabilities, code duplication rise), custom permission profiles, approval policies, Guardian auto_review, PostToolUse audit hooks, profile-based switching, codex-action GitHub Action, gap analysis
+   - SEO targets: "codex cli agent native infrastructure", "karpathy software 3.0 codex", "codex cli permissioning model", "codex cli headless setup", "agent native infrastructure requirements", "codex cli safe permissioning"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #50)
 
 ### Datadog MCP Server Integration
