@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #44)
+
+### Vim Modal Editing in TUI Composer
+
+1. ✅ **Vim Modal Editing in the Codex CLI Composer: Configuration, Keymaps, and Terminal-Native Workflows** — Written 2026-05-08 → `2026-05-08-codex-cli-vim-modal-editing-composer-keymaps-terminal-workflow.md`
+   - Source: v0.129.0 Changelog, PR #18595, Issue #9184, Config Reference, Slash Commands docs, Features docs
+   - Scope: /vim toggle, vim_mode_default config, normal/insert/operator-pending modes, vim_normal and vim_operator keymap contexts, cursor shape changes, /keymap debug, command history integration, comparison with Claude Code /vim, limitations (no visual mode, no registers, no dot-repeat)
+   - SEO targets: "codex cli vim mode", "codex cli vim editing", "codex cli /vim command", "codex cli modal editing composer", "codex cli vim keybindings", "codex cli v0.129 vim"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #43)
 
 ### Plugin Marketplace & Permission Profiles
