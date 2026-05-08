@@ -5,7 +5,7 @@ nav_order: 1
 
 # Articles Index
 
-**Last updated:** 2026-05-07
+**Last updated:** 2026-05-08
 **Total articles rated:** 652
 
 ## Rating Scale
