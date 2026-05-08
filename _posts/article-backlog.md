@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #49)
+
+### ProgramBench and Architectural Reasoning
+
+1. ✅ **ProgramBench and the Zero-Percent Problem: What a Cleanroom Benchmark Reveals About Architectural Reasoning in Codex CLI** — Written 2026-05-08 → `2026-05-08-programbench-zero-percent-benchmark-architectural-reasoning-codex-cli-lessons.md`
+   - Source: arXiv:2605.03546 (Yang et al., May 2026), ProgramBench leaderboard, BenchLM.ai explainer, AI Feed Today review, OpenAI Best Practices docs, OpenAI AGENTS.md docs, OpenAI Hooks docs, OpenAI CLI Features docs, SWE-bench leaderboard, SmartScope Plan Mode guide
+   - Scope: ProgramBench cleanroom methodology (200 tasks, 248k hidden behavioural tests, binary-only input), May 2026 scoreboard (0% fully resolved across all 9 frontier models, Claude Opus 4.7 leads at 3% almost-resolved), seven failure modes (shallow probing, premature implementation, missing negative cases, weak architecture, poor self-testing, overconfidence, tool-loop fragility), monolithic single-file anti-pattern, Codex CLI configuration countermeasures (plan mode, AGENTS.md architectural constraints, PostToolUse self-testing hooks, /goal for long-horizon tasks, reasoning effort tuning), benchmark landscape positioning vs SWE-bench, practical task-sizing guidance
+   - SEO targets: "programbench benchmark", "programbench codex cli", "AI coding agent architectural reasoning", "programbench zero percent", "codex cli plan mode architecture", "cleanroom coding benchmark 2026"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #48)
 
 ### JetBrains MCP Server Integration
