@@ -5,6 +5,9 @@ nav_order: 622
 tags: ["codex-cli", "goal-workflows", "long-horizon", "persistence", "token-budgets", "autonomous-agents"]
 ---
 
+![Sketchnote diagram for: Codex CLI /goal: Persisted Long-Horizon Workflows with Pause, Resume, and Token Budgets](/sketchnotes/articles/2026-05-07-codex-cli-goal-command-persisted-long-horizon-workflows-pause-resume-budget.png)
+
+
 # Codex CLI /goal: Persisted Long-Horizon Workflows with Pause, Resume, and Token Budgets
 
 

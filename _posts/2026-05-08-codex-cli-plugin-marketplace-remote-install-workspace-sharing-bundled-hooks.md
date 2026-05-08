@@ -9,6 +9,9 @@ source:
   - https://github.com/openai/codex/releases
 ---
 
+![Sketchnote diagram for: Codex CLI Plugin Marketplace: Remote Installation, Workspace Sharing, and Bundled Hooks](/sketchnotes/articles/2026-05-08-codex-cli-plugin-marketplace-remote-install-workspace-sharing-bundled-hooks.png)
+
+
 Codex CLI v0.129 shipped comprehensive plugin management, turning the `/plugins` command into a full marketplace browser. This article covers how plugin marketplace browsing, remote installation, plugin-bundled hooks, and workspace sharing work in practice.
 
 ## What a Plugin Contains

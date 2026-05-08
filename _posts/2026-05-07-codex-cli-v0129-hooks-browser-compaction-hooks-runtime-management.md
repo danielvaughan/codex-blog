@@ -5,6 +5,9 @@ nav_order: 621
 tags: ["codex-cli", "hooks", "compaction", "v0.129", "context-management", "long-sessions", "developer-experience"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.129: The /hooks Browser, Compaction Hooks, and Runtime Hook Management](/sketchnotes/articles/2026-05-07-codex-cli-v0129-hooks-browser-compaction-hooks-runtime-management.png)
+
+
 # Codex CLI v0.129: The /hooks Browser, Compaction Hooks, and Runtime Hook Management
 
 

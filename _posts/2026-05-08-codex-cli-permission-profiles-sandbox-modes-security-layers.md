@@ -10,6 +10,9 @@ source:
   - https://developers.openai.com/codex/concepts/sandboxing
 ---
 
+![Sketchnote diagram for: Codex CLI Permission Profiles: Built-in Sandbox Modes, Custom Profiles, and the Two-Layer Security Model](/sketchnotes/articles/2026-05-08-codex-cli-permission-profiles-sandbox-modes-security-layers.png)
+
+
 Codex CLI implements a two-layer security model: sandbox enforcement controls what the agent can technically do, while approval policies control when it must ask permission. As of v0.129, named permission profiles make this system reusable and shareable across projects and teams.
 
 ## The Two Layers

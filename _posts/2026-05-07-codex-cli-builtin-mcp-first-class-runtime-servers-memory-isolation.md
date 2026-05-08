@@ -5,6 +5,9 @@ tags: [codex-cli, mcp, architecture, memory, plugins, v0.129]
 status: draft
 ---
 
+![Sketchnote diagram for: Codex CLI's Built-in MCPs Just Became First-Class Runtime Servers — What It Means for Memory and Plugins](/sketchnotes/articles/2026-05-07-codex-cli-builtin-mcp-first-class-runtime-servers-memory-isolation.png)
+
+
 # Codex CLI's Built-in MCPs Just Became First-Class Runtime Servers
 
 *Published: 7 May 2026. Source: [PR #21356](https://github.com/openai/codex/pull/21356) merged into v0.129 alpha.15.*

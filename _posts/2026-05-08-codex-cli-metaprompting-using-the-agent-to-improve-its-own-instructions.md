@@ -5,6 +5,9 @@ nav_order: 625
 tags: ["codex-cli", "metaprompting", "AGENTS.md", "skills", "prompt-engineering", "workflow-optimisation"]
 ---
 
+![Sketchnote diagram for: Codex CLI Metaprompting: Using the Agent to Improve Its Own Instructions](/sketchnotes/articles/2026-05-08-codex-cli-metaprompting-using-the-agent-to-improve-its-own-instructions.png)
+
+
 # Codex CLI Metaprompting: Using the Agent to Improve Its Own Instructions
 
 

@@ -5,6 +5,9 @@ nav_order: 626
 tags: ["mcp", "elicitations", "codex-cli", "human-in-the-loop", "approval-policy", "guardian", "security", "v0.129"]
 ---
 
+![Sketchnote diagram for: MCP Elicitations in Codex CLI: Human-in-the-Loop Structured Input for Agent Workflows](/sketchnotes/articles/2026-05-08-codex-cli-mcp-elicitations-human-in-the-loop-structured-input.png)
+
+
 # MCP Elicitations in Codex CLI: Human-in-the-Loop Structured Input for Agent Workflows
 
 

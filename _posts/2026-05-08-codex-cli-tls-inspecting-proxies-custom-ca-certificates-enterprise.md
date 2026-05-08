@@ -5,6 +5,9 @@ nav_order: 630
 tags: ["codex-cli", "tls", "enterprise", "proxy", "certificate", "security", "corporate-network", "authentication"]
 ---
 
+![Sketchnote diagram for: Codex CLI Behind TLS-Inspecting Proxies: Custom CA Certificates for Enterprise Networks](/sketchnotes/articles/2026-05-08-codex-cli-tls-inspecting-proxies-custom-ca-certificates-enterprise.png)
+
+
 # Codex CLI Behind TLS-Inspecting Proxies: Custom CA Certificates for Enterprise Networks
 
 

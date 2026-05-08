@@ -5,6 +5,9 @@ nav_order: 620
 tags: ["codex-cli", "mcp", "configuration", "oauth", "tooling", "cli-subcommands"]
 ---
 
+![Sketchnote diagram for: codex mcp: Managing MCP Servers Entirely from the Terminal](/sketchnotes/articles/2026-05-07-codex-mcp-subcommand-managing-mcp-servers-from-the-terminal.png)
+
+
 # codex mcp: Managing MCP Servers Entirely from the Terminal
 
 

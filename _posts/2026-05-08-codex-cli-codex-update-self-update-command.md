@@ -9,6 +9,9 @@ source:
   - https://github.com/openai/codex/issues/11169
 ---
 
+![Sketchnote diagram for: codex update: Self-Updating the CLI Without Remembering Your Package Manager](/sketchnotes/articles/2026-05-08-codex-cli-codex-update-self-update-command.png)
+
+
 Codex CLI now ships a built-in `codex update` command that detects the installation method and applies updates automatically. No more remembering whether you installed via npm, Homebrew, or standalone binary.
 
 ## The Problem

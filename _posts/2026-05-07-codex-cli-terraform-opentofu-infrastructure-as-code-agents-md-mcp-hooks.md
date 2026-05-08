@@ -5,6 +5,9 @@ nav_order: 623
 tags: ["codex-cli", "terraform", "opentofu", "infrastructure-as-code", "mcp", "hooks", "AGENTS.md", "devops"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Terraform and OpenTofu Teams: MCP Servers, Safety Hooks, and AGENTS.md Patterns for Infrastructure as Code](/sketchnotes/articles/2026-05-07-codex-cli-terraform-opentofu-infrastructure-as-code-agents-md-mcp-hooks.png)
+
+
 # Codex CLI for Terraform and OpenTofu Teams: MCP Servers, Safety Hooks, and AGENTS.md Patterns for Infrastructure as Code
 
 

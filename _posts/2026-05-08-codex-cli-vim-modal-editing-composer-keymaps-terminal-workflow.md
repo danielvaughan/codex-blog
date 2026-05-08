@@ -5,6 +5,9 @@ nav_order: 627
 tags: ["codex-cli", "vim", "tui", "keymaps", "composer", "terminal-workflow", "v0.129"]
 ---
 
+![Sketchnote diagram for: Vim Modal Editing in the Codex CLI Composer: Configuration, Keymaps, and Terminal-Native Workflows](/sketchnotes/articles/2026-05-08-codex-cli-vim-modal-editing-composer-keymaps-terminal-workflow.png)
+
+
 # Vim Modal Editing in the Codex CLI Composer: Configuration, Keymaps, and Terminal-Native Workflows
 
 

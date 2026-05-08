@@ -5,6 +5,9 @@ nav_order: 621
 tags: ["codex-cli", "configuration", "AGENTS.md", "rules", "hooks", "skills", "requirements-toml", "architecture", "enterprise", "best-practices"]
 ---
 
+![Sketchnote diagram for: The Codex CLI Instruction Stack: How Six Configuration Surfaces Shape Agent Behaviour](/sketchnotes/articles/2026-05-07-codex-cli-instruction-stack-six-surfaces-agents-md-rules-hooks-skills.png)
+
+
 # The Codex CLI Instruction Stack: How Six Configuration Surfaces Shape Agent Behaviour
 
 

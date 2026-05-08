@@ -5,6 +5,9 @@ nav_order: 624
 tags: ["codex-cli", "chrome-extension", "browser-integration", "computer-use", "security", "workflow"]
 ---
 
+![Sketchnote diagram for: Codex for Chrome: Browser Integration for Authenticated Workflows](/sketchnotes/articles/2026-05-07-codex-for-chrome-extension-browser-integration-authenticated-workflows.png)
+
+
 # Codex for Chrome: Browser Integration for Authenticated Workflows
 
 

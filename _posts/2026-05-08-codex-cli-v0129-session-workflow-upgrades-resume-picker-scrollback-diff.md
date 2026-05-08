@@ -5,6 +5,9 @@ nav_order: 629
 tags: ["codex-cli", "v0.129", "session-management", "resume", "scrollback", "diff", "statusline", "TUI", "workflow"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.129 Session Workflow Upgrades: The Redesigned Resume Picker, Raw Scrollback, and Workspace-Aware /diff](/sketchnotes/articles/2026-05-08-codex-cli-v0129-session-workflow-upgrades-resume-picker-scrollback-diff.png)
+
+
 # Codex CLI v0.129 Session Workflow Upgrades: The Redesigned Resume Picker, Raw Scrollback, and Workspace-Aware /diff
 
 
