@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #54)
+
+### Sentry MCP Integration for Production Error Triage
+
+1. ✅ **Codex CLI + Sentry MCP: From Production Error to Pull Request in One Agent Loop** — Written 2026-05-09 → `2026-05-09-codex-cli-sentry-mcp-production-error-triage-automated-bug-resolution.md`
+   - Source: Sentry MCP docs, Sentry MCP GitHub repo, OpenAI bug triage use-case docs, OpenAI agent-approvals-security docs, OpenAI config-reference docs, OpenAI hooks docs, Speakeasy Sentry MCP tool catalogue, Codex v0.129 changelog
+   - Scope: Sentry MCP server setup (cloud OAuth and stdio transport), tool allow-lists for least-privilege, 22-tool surface overview, three workflows (interactive investigation, batch triage sweep, end-to-end fix pipeline), AGENTS.md debugging protocol, PostToolUse audit hooks for Sentry mutations, security profiles with network access, token hygiene, PII considerations, known limitations
+   - SEO targets: "codex cli sentry mcp", "sentry mcp server codex", "codex cli production error triage", "codex cli bug triage automation", "sentry mcp agent debugging", "codex cli error tracking"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #53)
 
 ### Coder Agents vs Codex CLI Enterprise Comparison
