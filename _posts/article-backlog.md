@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #50)
+
+### Datadog MCP Server Integration
+
+1. ✅ **Codex CLI + Datadog MCP Server: Observability-Driven Development from Your Terminal** — Written 2026-05-08 → `2026-05-08-codex-cli-datadog-mcp-server-observability-driven-development.md`
+   - Source: Datadog MCP Server docs, Datadog MCP tools reference, Datadog MCP setup guide, Datadog+OpenAI blog post, OpenAI MCP docs, OpenAI config-reference docs, OpenAI agent-approvals-security docs
+   - Scope: Datadog remote MCP server architecture (streamable HTTP, OAuth 2.0 and API-key auth), Codex CLI config.toml setup, toolset selection via URL query parameters (core, apm, dbm, error_tracking, software_delivery, security, etc.), 100+ tools across 16 toolsets, enabled_tools allow-lists, rate limits (50/10s burst, 5k daily, 50k monthly), three practical workflows (incident triage, deploy verification, database slow-query investigation), AGENTS.md observability standards, PostToolUse audit hooks, security hardening patterns, context window cost management, known limitations (GovCloud, APM preview, data retention)
+   - SEO targets: "codex cli datadog mcp", "datadog mcp server codex", "codex cli observability", "codex cli incident response datadog", "datadog mcp server setup", "codex cli devops monitoring"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #49)
 
 ### ProgramBench and Architectural Reasoning
