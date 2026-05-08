@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #45)
+
+### MCP STDIO Security & Codex CLI Defence
+
+1. ✅ **The MCP STDIO Remote Code Execution Flaw: 200,000 Vulnerable Servers and How Codex CLI's Layered Defences Respond** — Written 2026-05-08 → `2026-05-08-mcp-stdio-rce-vulnerability-codex-cli-defence-posture-tool-allow-lists.md`
+   - Source: OX Security MCP disclosure, OX Security MCP Advisory CVEs, Infosecurity Magazine coverage, OpenAI MCP docs, OpenAI Sandboxing docs, OpenAI Agent Approvals & Security docs, OpenAI Slash Commands docs
+   - Scope: STDIO transport RCE mechanism, 11 CVEs across ecosystem (Windsurf CVE-2026-30615, LiteLLM CVE-2026-30623, etc.), four exploitation families, Anthropic's "by design" response, Codex CLI five-layer defence model (project trust boundary, OS sandbox, tool allow-lists, approval policies, auto_review agent), practical hardening patterns (version pinning, enabled_tools, network-restricted profiles, PostMcpToolCall audit hooks), limitations and honest assessment
+   - SEO targets: "mcp stdio vulnerability", "mcp rce codex cli", "codex cli mcp security", "mcp command injection defence", "codex cli tool allow list", "mcp supply chain vulnerability 2026"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #44)
 
 ### Vim Modal Editing in TUI Composer
