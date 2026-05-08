@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #47)
+
+### Enterprise TLS & Custom CA Certificates
+
+1. ✅ **Codex CLI Behind TLS-Inspecting Proxies: Custom CA Certificates for Enterprise Networks** — Written 2026-05-08 → `2026-05-08-codex-cli-tls-inspecting-proxies-custom-ca-certificates-enterprise.md`
+   - Source: Codex Changelog v0.129.0, GitHub Issue #6849, GitHub PRs #14178 #14239, Codex Auth docs, Config Reference docs, Advanced Configuration docs, Sandbox Concepts docs, Zscaler SSL inspection guide
+   - Scope: TLS-inspecting proxy architecture, CODEX_CA_CERTIFICATE / SSL_CERT_FILE three-tier precedence, unified HTTPS + WebSocket CA handling (PR #14239), OpenSSL TRUSTED CERTIFICATE normalisation, CRL tolerance, OTEL exporter mTLS config, device-auth for headless environments, sandbox environment variable passthrough, debugging runbook, common enterprise proxy products (Zscaler/PAN/Fortinet/Netskope), complete enterprise config.toml profile, limitations
+   - SEO targets: "codex cli tls proxy", "codex cli custom ca certificate", "codex cli enterprise proxy", "codex cli CODEX_CA_CERTIFICATE", "codex cli corporate network tls inspection", "codex cli ssl cert file"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-08, Hourly Task #46)
 
 ### v0.129 Session Workflow Upgrades
