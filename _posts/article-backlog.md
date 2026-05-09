@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #56)
+
+### OpenAI Internal Safety Deployment Lessons
+
+1. ✅ **Running Codex Safely: What OpenAI's Internal Deployment Reveals and How to Mirror It in Your Own Config** — Written 2026-05-09 → `2026-05-09-running-codex-safely-openai-internal-deployment-lessons-practitioner-config.md`
+   - Source: OpenAI "Running Codex safely at OpenAI" blog post (8 May 2026), Sourcery Intel "State of AI Coding Agents 2026" report, OpenAI Agent Approvals & Security docs, OpenAI Sandboxing docs, OpenAI Advanced Configuration docs, OpenAI Governance docs, OpenAI Managed Configuration docs
+   - Scope: Five-layer safety model (sandbox isolation, permission profiles, approval policies, network policies, telemetry/audit), two-phase runtime model, filesystem glob deny patterns, granular approval policy configuration, Guardian auto_review, network allowlists, web search caching for prompt injection defence, OpenTelemetry opt-in, Compliance API, Analytics API, complete safe-workspace profile, requirements.toml precedence hierarchy, Sourcery Intel vulnerability data (14.3% vs 9.1%)
+   - SEO targets: "codex cli safety configuration", "running codex safely", "codex cli permission profiles", "codex cli guardian auto review", "codex cli enterprise security", "codex cli sandbox configuration"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #55)
 
 ### v0.130 Remote Control and Thread Pagination
