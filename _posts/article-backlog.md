@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #55)
+
+### v0.130 Remote Control and Thread Pagination
+
+1. ✅ **Codex CLI v0.130: Building Headless Agent Services with remote-control and the Thread Pagination API** — Written 2026-05-09 → `2026-05-09-codex-cli-v0130-remote-control-headless-agent-services-thread-pagination.md`
+   - Source: Codex v0.130.0 release notes, OpenAI Remote Connections docs, OpenAI App Server docs, OpenAI Sandboxing docs, OpenAI Config Reference docs, OpenAI CLI Reference docs
+   - Scope: codex remote-control subcommand (v0.130), simplified headless app-server startup, thread pagination API (thread/turns/list with unloaded/summary/full views), JSON-RPC 2.0 protocol walkthrough, authentication modes (capability-token, signed-bearer-token), Python client example, deployment patterns (systemd, Docker, reverse proxy), configuration layering with live refresh, practical use cases (Slack bots, dashboards, CI pipelines, batch agents)
+   - SEO targets: "codex remote-control", "codex cli headless agent", "codex cli v0.130", "codex app-server thread pagination", "codex cli custom client", "codex cli json-rpc integration"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #54)
 
 ### Sentry MCP Integration for Production Error Triage
