@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #75)
+
+### Dynamic Tools & App-Server Integration
+
+1. ✅ **Codex CLI Dynamic Tools: Building Custom Client-Side Tool Handlers via the App-Server Protocol** — Written 2026-05-10 → `2026-05-10-codex-cli-dynamic-tools-custom-client-side-tool-handlers-app-server-protocol.md`
+   - Source: OpenAI App Server docs, codex-rs/app-server/README.md, Codex SDK docs, MCP docs, Responses API docs
+   - Scope: Dynamic tools experimental API, client-side tool registration at thread/start, item/tool/call request-response flow, DynamicToolCallResponse, deferLoading flag, naming constraints, TypeScript SDK pattern, thread persistence/resumption, comparison with MCP servers, practical use cases (internal knowledge bases, approval gates, hardware integration, proprietary analysis), type generation, caveats
+   - SEO targets: "codex cli dynamic tools", "codex app-server custom tools", "codex client-side tool handlers", "codex dynamicTools thread start", "codex cli app-server integration", "codex tool call response"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #74)
 
 ### Runtime Configuration Management
