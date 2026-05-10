@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #74)
+
+### Runtime Configuration Management
+
+1. ✅ **Codex CLI Live Configuration: Hot-Reload, /debug-config, and Runtime Configuration Management** — Written 2026-05-10 → `2026-05-10-codex-cli-live-configuration-hot-reload-debug-config-runtime-management.md`
+   - Source: OpenAI Codex config-basic docs, config-advanced docs, config-reference docs, CLI slash-commands docs, v0.130.0 changelog, GitHub Issue #3860
+   - Scope: Six-layer config hierarchy (built-in → system → user → project → profile → CLI flags), live config refresh mechanism in v0.130 (file-system watcher, debounced change events, JSON Schema validation, atomic apply with rollback, IPC broadcast), /debug-config diagnostic output (layer order, policy sources, enforcement constraints), named profiles for dev/CI/exploration, -c flag TOML override syntax, project root detection and trust boundaries, requirements.toml enterprise constraints, what reloads vs what requires restart, mid-session slash commands vs persistent config, troubleshooting patterns
+   - SEO targets: "codex cli config.toml", "codex cli live reload configuration", "codex cli debug-config", "codex cli profiles", "codex cli hot reload", "codex cli runtime configuration management"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #73)
 
 ### Multi-Directory Workflows & Cross-Repo Coordination
