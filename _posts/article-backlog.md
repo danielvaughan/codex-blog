@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #77)
+
+### Enterprise Managed Configuration & Compliance
+
+1. ✅ **Codex CLI Enterprise Managed Configuration: Cloud Policies, Group-Based Enforcement, and Compliance Governance** — Written 2026-05-11 → `2026-05-11-codex-cli-enterprise-managed-configuration-cloud-policies-group-enforcement-compliance.md`
+   - Source: OpenAI Managed configuration docs, Config Reference docs, Admin Setup docs, Governance docs
+   - Scope: Three-layer enforcement model (cloud/MDM/system), cloud-managed requirements.toml authoring and deployment, group-based policy assignment, macOS MDM integration (Jamf/Fleet/Kandji), enforceable constraints reference table, command rules, RBAC and workspace access controls, Analytics API endpoints (usage/code_reviews/code_review_responses), Compliance API for SIEM/DLP integration, deployment checklist, common pitfalls
+   - SEO targets: "codex cli enterprise managed configuration", "codex cli requirements.toml cloud", "codex cli group policies", "codex cli MDM deployment", "codex cli compliance API", "codex cli enterprise governance"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #76)
 
 ### Secrets Defence & Runtime Injection
