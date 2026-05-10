@@ -5,6 +5,10 @@ nav_order: 642
 tags: ["web-search", "security", "prompt-injection", "configuration", "config.toml", "allowed-domains", "enterprise", "codex-cli"]
 ---
 
+![Sketchnote diagram for: Codex CLI Web Search Configuration: Cached vs Live Modes, Domain Allow-Lists, and Prompt Injection Defence](/sketchnotes/articles/2026-05-09-codex-cli-web-search-configuration-cached-live-domain-allow-lists-prompt-injection-defence.png)
+
+
+
 # Codex CLI Web Search Configuration: Cached vs Live Modes, Domain Allow-Lists, and Prompt Injection Defence
 
 

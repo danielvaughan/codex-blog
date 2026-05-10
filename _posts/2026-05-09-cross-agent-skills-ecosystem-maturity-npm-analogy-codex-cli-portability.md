@@ -9,6 +9,10 @@ related:
   - codex-cli-plugin-marketplace-remote-install-workspace-sharing-bundled-hooks
 ---
 
+![Sketchnote diagram for: Cross-Agent Skills Hit the npm Moment: 351K Skills, Three Marketplaces, and a Portability Standard](/sketchnotes/articles/2026-05-09-cross-agent-skills-ecosystem-maturity-npm-analogy-codex-cli-portability.png)
+
+
+
 # Cross-Agent Skills Hit the npm Moment
 
 A Termdock analysis published in May 2026 makes a compelling case: the Agent Skills ecosystem is reaching its "npm circa 2011" inflection point — a standardised format (SKILL.md), fragmented distribution, incomplete tooling, but foundational conventions that are solidifying fast.

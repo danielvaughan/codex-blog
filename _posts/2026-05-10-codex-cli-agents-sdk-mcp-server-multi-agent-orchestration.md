@@ -5,6 +5,10 @@ nav_order: 648
 tags: ["codex-cli", "agents-sdk", "mcp", "multi-agent", "orchestration", "mcp-server"]
 ---
 
+![Sketchnote diagram for: Codex CLI as an MCP Server: Multi-Agent Orchestration with the OpenAI Agents SDK](/sketchnotes/articles/2026-05-10-codex-cli-agents-sdk-mcp-server-multi-agent-orchestration.png)
+
+
+
 # Codex CLI as an MCP Server: Multi-Agent Orchestration with the OpenAI Agents SDK
 
 

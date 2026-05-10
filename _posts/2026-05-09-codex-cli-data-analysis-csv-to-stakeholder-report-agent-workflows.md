@@ -5,6 +5,10 @@ nav_order: 646
 tags: ["codex-cli", "data-analysis", "codex-exec", "structured-output", "AGENTS.md", "skills", "pandas", "workflows"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Data Analysis: From Raw CSV to Stakeholder Report in One Agent Session](/sketchnotes/articles/2026-05-09-codex-cli-data-analysis-csv-to-stakeholder-report-agent-workflows.png)
+
+
+
 # Codex CLI for Data Analysis: From Raw CSV to Stakeholder Report in One Agent Session
 
 

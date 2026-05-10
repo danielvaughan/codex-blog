@@ -5,6 +5,10 @@ nav_order: 644
 tags: ["codex-cli", "dependency-upgrades", "framework-migrations", "codemods", "automation", "subagents", "codex-exec"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Automated Dependency Upgrades and Framework Migrations](/sketchnotes/articles/2026-05-09-codex-cli-dependency-upgrades-framework-migrations-automated-codemod-workflows.png)
+
+
+
 # Codex CLI for Automated Dependency Upgrades and Framework Migrations
 
 

@@ -5,6 +5,10 @@ nav_order: 651
 tags: ["codex-cli", "observability", "opentelemetry", "signoz", "oodle", "opik", "dashboards", "monitoring", "enterprise", "otel", "production"]
 ---
 
+![Sketchnote diagram for: Codex CLI Observability Dashboards: Production Monitoring with SigNoz, Oodle, and Opik](/sketchnotes/articles/2026-05-10-codex-cli-observability-dashboards-signoz-oodle-opik-production-monitoring.png)
+
+
+
 # Codex CLI Observability Dashboards: Production Monitoring with SigNoz, Oodle, and Opik
 
 

@@ -5,6 +5,10 @@ nav_order: 643
 tags: ["codex-cli", "incident-response", "postmortem", "root-cause-analysis", "MCP", "structured-output", "automation", "observability"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Incident Postmortem Automation: From Alert to Structured Root Cause Report in One Agent Loop](/sketchnotes/articles/2026-05-09-codex-cli-incident-postmortem-automation-root-cause-analysis-structured-reports.png)
+
+
+
 # Codex CLI for Incident Postmortem Automation: From Alert to Structured Root Cause Report in One Agent Loop
 
 

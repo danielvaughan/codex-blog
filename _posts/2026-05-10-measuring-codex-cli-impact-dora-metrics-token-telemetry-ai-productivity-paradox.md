@@ -5,6 +5,10 @@ nav_order: 647
 tags: ["codex-cli", "developer-productivity", "DORA-metrics", "telemetry", "analytics", "measurement", "enterprise"]
 ---
 
+![Sketchnote diagram for: Measuring Codex CLI's Impact on Your Team: DORA Metrics, Token Telemetry, and the AI Productivity Paradox](/sketchnotes/articles/2026-05-10-measuring-codex-cli-impact-dora-metrics-token-telemetry-ai-productivity-paradox.png)
+
+
+
 # Measuring Codex CLI's Impact on Your Team: DORA Metrics, Token Telemetry, and the AI Productivity Paradox
 
 

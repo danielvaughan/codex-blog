@@ -5,6 +5,10 @@ nav_order: 643
 tags: ["codex-cli", "configuration", "team-setup", "dotcodex", "profiles", "agents-md", "hooks", "enterprise", "onboarding"]
 ---
 
+![Sketchnote diagram for: Codex CLI Team Configuration: The .codex Directory, Shared Profiles, and Repository-Scoped Settings for Consistent Agent Behaviour](/sketchnotes/articles/2026-05-09-codex-cli-team-configuration-dotcodex-directory-shared-profiles-repository-scoped-settings.png)
+
+
+
 # Codex CLI Team Configuration: The .codex Directory, Shared Profiles, and Repository-Scoped Settings for Consistent Agent Behaviour
 
 

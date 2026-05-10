@@ -5,6 +5,10 @@ nav_order: 649
 tags: ["codex-cli", "android", "mobile", "remote-control", "chatgpt", "agentic-workflows"]
 ---
 
+![Sketchnote diagram for: Codex Android Remote Control: Managing Desktop Agent Sessions from Your Phone](/sketchnotes/articles/2026-05-10-codex-android-remote-control-chatgpt-mobile-desktop-agent-sessions.png)
+
+
+
 # Codex Android Remote Control: Managing Desktop Agent Sessions from Your Phone
 
 

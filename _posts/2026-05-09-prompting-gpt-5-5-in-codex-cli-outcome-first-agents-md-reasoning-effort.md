@@ -5,6 +5,10 @@ nav_order: 645
 tags: ["codex-cli", "gpt-5.5", "prompting", "AGENTS.md", "reasoning-effort", "configuration", "best-practices"]
 ---
 
+![Sketchnote diagram for: Prompting GPT-5.5 in Codex CLI: Outcome-First Instructions, AGENTS.md Patterns, and Reasoning Effort Tuning](/sketchnotes/articles/2026-05-09-prompting-gpt-5-5-in-codex-cli-outcome-first-agents-md-reasoning-effort.png)
+
+
+
 # Prompting GPT-5.5 in Codex CLI: Outcome-First Instructions, AGENTS.md Patterns, and Reasoning Effort Tuning
 
 
