@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #70)
+
+### GPT-5.5 Compaction Reliability
+
+1. ✅ **Codex CLI Context Compaction Under GPT-5.5: Diagnosing Failures, Configuring Fallbacks, and Keeping Long Sessions Alive** — Written 2026-05-10 → `2026-05-10-codex-cli-context-compaction-gpt55-failures-resilient-long-sessions.md`
+   - Source: GitHub Issue #21343 (compaction errors), GitHub Issue #19386 (220k token failure), GitHub Issue #19400 (compact endpoint GPT-5.5 incompatibility), GitHub Issue #19409 (context window mismatch), OpenAI Compaction API Guide, Codex Config Reference, sigalovskinick compaction memory gist, GitHub Issue #16098 (pre/post compact hooks), OpenAI Subagents docs, OpenAI Advanced Config docs
+   - Scope: GPT-5.5 compaction endpoint incompatibility diagnosis, three root causes (endpoint support gap, context window mismatch, compaction state lock), config.toml defences (model_auto_compact_token_limit, compact_prompt override, experimental_compact_prompt_file), model-switch workaround (/model gpt-5.4 then /compact), subagent scoping for token isolation, brain dump pattern for manual state extraction, pre-emptive forking, session length decision framework, upcoming compaction hooks (pre_compact/post_compact)
+   - SEO targets: "codex cli compaction error gpt-5.5", "codex cli context compact failure", "codex cli long session survival", "codex cli compaction configuration", "codex cli gpt-5.5 context window", "codex cli session recovery compaction"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #69)
 
 ### Game Development Workflows
