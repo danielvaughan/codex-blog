@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #72)
+
+### GitHub Actions Workflow Authoring
+
+1. ✅ **Codex CLI for GitHub Actions Workflow Authoring: Agent-Assisted CI/CD Configuration, Failure Diagnosis, and Pipeline Optimisation** — Written 2026-05-10 → `2026-05-10-codex-cli-github-actions-workflow-authoring-ci-cd-yaml-agent-assisted.md`
+   - Source: OpenAI GitHub Action docs, OpenAI Cookbook autofix example, GitHub Agentic Workflows docs, GitHub reusable workflows docs, Codex CLI features docs, AGENTS.md docs, actionlint
+   - Scope: Using Codex CLI to write workflow YAML (not just run inside CI), interactive generation patterns, AGENTS.md conventions for CI/CD quality, debugging failures with codex exec + gh run logs, self-healing workflow feedback loop, reusable workflow and composite action generation, matrix strategy patterns, PostToolUse actionlint hook, GitHub Agentic Workflows as next evolution, model selection for CI tasks
+   - SEO targets: "codex cli github actions", "codex cli write workflow yaml", "codex cli ci/cd authoring", "codex cli debug github actions", "agent-assisted ci/cd configuration", "codex cli workflow optimisation"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #71)
 
 ### OpenAI Developers Plugin & Docs MCP
