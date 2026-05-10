@@ -5,6 +5,9 @@ nav_order: 638
 tags: ["codex-cli", "security", "governance", "permissions", "sandbox", "enterprise", "configuration", "openai"]
 ---
 
+![Sketchnote diagram for: Running Codex Safely: What OpenAI's Internal Deployment Reveals and How to Mirror It in Your Own Config](/sketchnotes/articles/2026-05-09-running-codex-safely-openai-internal-deployment-lessons-practitioner-config.png)
+
+
 # Running Codex Safely: What OpenAI's Internal Deployment Reveals and How to Mirror It in Your Own Config
 
 

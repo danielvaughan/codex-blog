@@ -5,6 +5,9 @@ nav_order: 633
 tags: ["codex-cli", "datadog", "mcp", "observability", "devops", "incident-response", "monitoring"]
 ---
 
+![Sketchnote diagram for: Codex CLI + Datadog MCP Server: Observability-Driven Development from Your Terminal](/sketchnotes/articles/2026-05-08-codex-cli-datadog-mcp-server-observability-driven-development.png)
+
+
 # Codex CLI + Datadog MCP Server: Observability-Driven Development from Your Terminal
 
 

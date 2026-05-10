@@ -7,6 +7,9 @@ category: opinion
 tags: [ai, publishing, fast-fashion, software-development, agentic-engineering]
 ---
 
+![Sketchnote diagram for: Fast Books: What AI-Enabled Publishing Can Learn from Fast Fashion and Fast Software](/sketchnotes/articles/2026-05-08-fast-books-fast-software-fast-fashion-ai-publishing-parallels.png)
+
+
 # Fast Books: What AI-Enabled Publishing Can Learn from Fast Fashion and Fast Software
 
 In 1989, Zara opened its first store outside Spain. Its secret weapon was not design flair but supply-chain speed: a dress could move from sketch to shop floor in two weeks, while competitors took six months. Three decades later, Shein compressed that cycle further — ten days from trend-spotted-on-TikTok to garment-in-warehouse, with 6,000 new designs added every single day.

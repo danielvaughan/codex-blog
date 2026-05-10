@@ -5,6 +5,9 @@ tags: [codex-cli, apply_patch, freeform, architecture, tools, v0.130]
 category: deep-dive
 ---
 
+![Sketchnote diagram for: Codex CLI Deletes Function-Style apply_patch: Freeform Is Now the Only Way](/sketchnotes/articles/2026-05-08-codex-cli-apply-patch-freeform-only-function-style-deletion.png)
+
+
 # Codex CLI Deletes Function-Style apply_patch
 
 PR [#21651](https://github.com/openai/codex/pull/21651), merged on 8 May 2026, removes the JSON/function-style `apply_patch` tool entirely. Freeform is now the sole supported invocation path.

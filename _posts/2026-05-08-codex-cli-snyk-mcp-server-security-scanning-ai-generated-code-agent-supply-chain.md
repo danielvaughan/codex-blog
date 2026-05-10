@@ -5,6 +5,9 @@ nav_order: 633
 tags: ["codex-cli", "snyk", "mcp", "security", "sast", "sca", "supply-chain", "agent-scan", "aibom"]
 ---
 
+![Sketchnote diagram for: Codex CLI + Snyk MCP Server: Security Scanning for AI-Generated Code and the Agent Supply Chain](/sketchnotes/articles/2026-05-08-codex-cli-snyk-mcp-server-security-scanning-ai-generated-code-agent-supply-chain.png)
+
+
 # Codex CLI + Snyk MCP Server: Security Scanning for AI-Generated Code and the Agent Supply Chain
 
 

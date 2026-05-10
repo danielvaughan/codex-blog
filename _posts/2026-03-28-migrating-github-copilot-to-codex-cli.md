@@ -190,7 +190,7 @@ Copilot CLI maintains *repository memory* — it learns conventions from previou
 <!-- AGENTS.md -->
 # Project Conventions
 
-See [MEMORY.md](./MEMORY.md) for accumulated learnings from past Codex sessions.
+See `MEMORY.md` for accumulated learnings from past Codex sessions.
 
 ## Core rules
 - All new modules must have a corresponding test file.

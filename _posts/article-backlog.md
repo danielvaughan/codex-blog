@@ -1,5 +1,148 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #69)
+
+### Game Development Workflows
+
+1. ✅ **Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills** — Written 2026-05-10 → `2026-05-10-codex-cli-game-prototyping-godot-phaser-browser-games-agent-skills.md`
+   - Source: OpenAI Game Development use cases, OpenAI Community 2D game zero-code showcase, CODEXVault_GODOT GitHub, OpenAI Skills docs, Phaser agent skills, PixiJS skills, GodotPrompter, godot-skill, Godot MCP servers, godogen autonomous game dev, OpenAI Subagents docs
+   - Scope: Game prototyping loop (design-implement-evaluate), AGENTS.md templates for Godot 4.x and Phaser browser games, config.toml game profiles, built-in skills ($imagegen, $playwright-interactive, $jupyter-notebook), community skill packs (Phaser, PixiJS, GodotPrompter, godot-skill), Godot MCP server integration, progressive prompting workflow, Playwright evaluation checklists, frame-grounded self-repair (godogen), subagent parallelism for game systems, practical browser platformer recipe, honest caveats (physics tuning, 3D, multiplayer, audio timing)
+   - SEO targets: "codex cli game development", "codex cli godot", "codex cli phaser game", "codex cli game prototyping", "codex cli browser game", "codex cli agent skills game dev"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #68)
+
+### Agent-Agnostic Optimisation Tooling
+
+1. ✅ **AutoLoop with Codex CLI: Bounded Optimisation Loops for Measurable Codebase Improvement** — Written 2026-05-10 → `2026-05-10-autoloop-codex-cli-bounded-optimisation-loops-agent-agnostic-iterative-improvement.md`
+   - Source: AutoLoop GitHub repo, Fortune Karpathy autoresearch coverage, OpenAI /goal docs, OpenAI iterate-on-difficult-problems docs, OpenAI non-interactive mode docs, OpenAI config-advanced docs, OpenAI AGENTS.md docs, OpenAI models docs, OpenAI config-reference docs
+   - Scope: AutoLoop installation and repo setup, .autoloop/ directory anatomy, Codex CLI wrapper integration via autoloop install codex, metric extraction formats (METRIC markers, JSON, regex), guardrail configuration and verdict engine (keep/discard/rerun), combining AutoLoop with /goal mode, codex exec non-interactive integration, path-scoped git operations, cross-agent portability, AGENTS.md conventions, worked Go HTTP optimisation example, comparison table /goal vs AutoLoop+/goal
+   - SEO targets: "autoloop codex cli", "codex cli bounded optimisation", "codex cli autoresearch", "autoloop agent-agnostic optimisation", "codex cli iterative improvement loops", "codex cli eval-driven development"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #67)
+
+### Agents SDK Integration
+
+1. ✅ **Codex CLI as an MCP Server: Multi-Agent Orchestration with the OpenAI Agents SDK** — Written 2026-05-10 → `2026-05-10-codex-cli-agents-sdk-mcp-server-multi-agent-orchestration.md`
+   - Source: OpenAI Codex Agents SDK guide, OpenAI Cookbook Codex MCP Agents SDK tutorial, OpenAI Subagents docs, OpenAI CLI Reference docs, OpenAI Advanced Configuration docs
+   - Scope: Running Codex CLI as MCP server via codex mcp-server, two exposed tools (codex() and codex-reply()), MCPServerStdio setup in Python, single-agent wrapper pattern, multi-agent gated handoff pipeline (PM/Designer/Frontend/Backend/Tester), approval policy and sandbox configuration per agent, model routing across agents, native subagents vs Agents SDK comparison, observability and tracing, PR review pipeline recipe
+   - SEO targets: "codex cli agents sdk", "codex cli mcp server", "codex mcp-server multi-agent", "codex cli agents sdk orchestration", "codex cli multi-agent pipeline", "openai agents sdk codex integration"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #66)
+
+### Developer Productivity Measurement
+
+1. ✅ **Measuring Codex CLI's Impact on Your Team: DORA Metrics, Token Telemetry, and the AI Productivity Paradox** — Written 2026-05-10 → `2026-05-10-measuring-codex-cli-impact-dora-metrics-token-telemetry-ai-productivity-paradox.md`
+   - Source: DORA State of AI-Assisted Software Development 2025 report, Faros AI DORA takeaways, arXiv:2605.01160 (Farrag, May 2026), OpenAI Codex Governance docs, Codex CLI v0.130 changelog, OpenAI OTLP/tracing docs, OpenAI Agent Approvals docs
+   - Scope: AI productivity paradox (98% more PRs, 441% longer reviews, flat delivery), three-layer measurement framework (DORA delivery metrics, Codex-specific telemetry, code quality signals), Analytics Dashboard and API configuration, reasoning token tracking with codex exec --json, OTEL export pipeline, specification discipline as the lever (Farrag pilot data), practical checklist, what not to measure
+   - SEO targets: "codex cli productivity measurement", "codex cli DORA metrics", "AI productivity paradox coding agents", "codex cli analytics API", "codex cli team impact measurement", "codex cli token telemetry"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #65)
+
+### Data Analysis Workflows
+
+1. ✅ **Codex CLI for Data Analysis: From Raw CSV to Stakeholder Report in One Agent Session** — Written 2026-05-09 → `2026-05-09-codex-cli-data-analysis-csv-to-stakeholder-report-agent-workflows.md`
+   - Source: OpenAI "Codex for (almost) everything" blog, OpenAI datasets-and-reports use case docs, OpenAI Non-interactive mode docs, OpenAI AGENTS.md docs, OpenAI Skills docs, OpenAI Config Reference docs, Codex CLI v0.130 release notes, NVIDIA GPT-5.5 Codex blog
+   - Scope: Complete data-analysis workflow using Codex CLI (profiling, cleaning, joining, exploration, modelling, delivery), AGENTS.md data conventions template, interactive TUI exploration loop with join-key profiling, Git worktree hypothesis isolation, codex exec batch processing with --output-schema for structured JSON, reasoning token reporting (v0.130), built-in skills ($jupyter-notebook, $spreadsheet, $doc, $pdf), config.toml data-analyst profile, GitHub Actions scheduled analysis pipeline, token cost and sandbox caveats
+   - SEO targets: "codex cli data analysis", "codex exec structured output", "codex cli csv analysis", "codex cli stakeholder report", "codex cli pandas workflow", "codex cli data pipeline automation 2026"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #64)
+
+### GPT-5.5 Prompting Patterns
+
+1. ✅ **Prompting GPT-5.5 in Codex CLI: Outcome-First Instructions, AGENTS.md Patterns, and Reasoning Effort Tuning** — Written 2026-05-09 → `2026-05-09-prompting-gpt-5-5-in-codex-cli-outcome-first-agents-md-reasoning-effort.md`
+   - Source: OpenAI Using GPT-5.5 guide, OpenAI Codex Models docs, OpenAI Codex Best Practices docs, OpenAI Config Reference docs, OpenAI Advanced Configuration docs, OpenAI Codex Prompting Guide (Cookbook), MindWired AI GPT-5.5 Prompting Guide
+   - Scope: Outcome-first vs step-by-step prompting paradigm shift, GPT-5.5 architectural changes (deeper planning, native date awareness, structured outputs integration), four-element prompt framework (Goal/Context/Constraints/Done-when), AGENTS.md rewriting for GPT-5.5 (before/after examples), absolute language reservation for invariants, reasoning effort configuration per profile (low/medium/high/xhigh), plan_mode_reasoning_effort, model_verbosity decoupling, tool description enrichment, cache-friendly prompt layout, developer_instructions injection, GPT-5.4 to GPT-5.5 migration checklist
+   - SEO targets: "codex cli gpt-5.5 prompting", "codex cli AGENTS.md gpt-5.5", "codex cli reasoning effort tuning", "gpt-5.5 outcome-first prompting", "codex cli model migration gpt-5.5", "codex cli prompting best practices 2026"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #63)
+
+### Incident Postmortem Automation
+
+1. ✅ **Codex CLI for Incident Postmortem Automation: From Alert to Structured Root Cause Report in One Agent Loop** — Written 2026-05-09 → `2026-05-09-codex-cli-incident-postmortem-automation-root-cause-analysis-structured-reports.md`
+   - Source: incident.io postmortem guide, OpenAI Non-interactive mode docs, OpenAI AGENTS.md docs, OpenAI MCP docs, OpenAI GitHub Action docs, OpenAI Config Reference docs, Sentry MCP docs, Datadog + OpenAI blog, OpenAI Codex changelog, GitHub PR #19308
+   - Scope: Four-input postmortem pipeline (alert, git history, logs, metrics), MCP server configuration for Datadog/PagerDuty/Sentry, JSON output schema for structured postmortems, AGENTS.md blameless analysis policy, codex exec single-command postmortem, CI integration with codex-action on incident labels, security hardening (read-only profiles, network allow-lists, PII redaction hooks), multi-service correlation with --add-dir, reasoning token tracking for quality measurement
+   - SEO targets: "codex cli incident postmortem", "codex cli root cause analysis", "codex exec structured postmortem", "codex cli MCP datadog incident", "AI incident postmortem automation 2026", "codex cli observability pipeline"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #62)
+
+### Dependency Upgrades and Framework Migrations
+
+1. ✅ **Codex CLI for Automated Dependency Upgrades and Framework Migrations** — Written 2026-05-09 → `2026-05-09-codex-cli-dependency-upgrades-framework-migrations-automated-codemod-workflows.md`
+   - Source: OpenAI Codex CLI v0.130 changelog, OpenAI Non-interactive mode docs, OpenAI Subagents docs, OpenAI Config Reference docs, OpenAI Best Practices docs, OpenAI CLI Reference docs, OpenAI Hooks docs, OpenAI GitHub Action docs, Google Research AI code migrations blog, Amplifi Labs AI migration patterns
+   - Scope: Four-stage migration pipeline (inventory, plan, transform, validate), codex exec with --output-schema for dependency inventorying, Plan Mode and PLANS.md for migration planning, subagent parallelism with two-tier model routing (GPT-5.5 + GPT-5.4 mini), PostToolUse hooks for migration validation gates, migration profile configuration, --add-dir for multi-directory monorepo migrations, AGENTS.md migration safety patterns, CI integration with codex-action for scheduled dependency sweeps, cost management strategies, decision framework by migration complexity
+   - SEO targets: "codex cli dependency upgrade", "codex cli framework migration", "codex cli automated codemod", "codex exec dependency update", "codex cli migration pipeline", "AI dependency upgrade automation 2026"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #61)
+
+### Team Configuration and Repository-Scoped Settings
+
+1. ✅ **Codex CLI Team Configuration: The .codex Directory, Shared Profiles, and Repository-Scoped Settings for Consistent Agent Behaviour** — Written 2026-05-09 → `2026-05-09-codex-cli-team-configuration-dotcodex-directory-shared-profiles-repository-scoped-settings.md`
+   - Source: OpenAI Config basics docs, OpenAI Advanced Configuration docs, OpenAI Config Reference docs, OpenAI Agent Approvals & Security docs, OpenAI AGENTS.md docs, OpenAI Hooks docs, OpenAI Subagents docs, OpenAI Skills docs, OpenAI Best practices docs, OpenAI Managed configuration docs, OpenAI Admin Setup docs
+   - Scope: Configuration precedence hierarchy (CLI flags → profiles → project → user → system → defaults), .codex/ directory anatomy (config.toml, hooks.json, rules/, agents/), AGENTS.md layering and override mechanics, project trust model, team config.toml baseline recipe, shell environment policy, named profiles for CI/review/exploration, custom agent definitions, shared skills in .agents/skills/, plugin distribution via marketplace.json, requirements.toml enterprise ceiling, onboarding sequence diagram, /debug-config verification
+   - SEO targets: "codex cli team configuration", "codex cli .codex directory", "codex cli shared profiles", "codex cli project config.toml", "codex cli AGENTS.md team", "codex cli onboarding setup", "codex cli requirements.toml"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #60)
+
+### Web Search Configuration and Security
+
+1. ✅ **Codex CLI Web Search Configuration: Cached vs Live Modes, Domain Allow-Lists, and Prompt Injection Defence** — Written 2026-05-09 → `2026-05-09-codex-cli-web-search-configuration-cached-live-domain-allow-lists-prompt-injection-defence.md`
+   - Source: OpenAI CLI Features docs, OpenAI Config Reference docs, OpenAI Agent Approvals & Security docs, OpenAI Managed Configuration docs, OpenAI Advanced Configuration docs, OpenAI Non-interactive mode docs, OpenAI Running Codex Safely blog, OpenAI Admin Setup docs, OpenAI Sample Configuration docs, Greshake et al. indirect prompt injection paper
+   - Scope: Three web search modes (cached/live/disabled), object-form tools.web_search configuration (context_size, allowed_domains, location), profile-based mode switching, prompt injection threat model through web search, five defence layers (cached search, domain allow-lists, sandbox isolation, approval policy, Guardian auto-review), enterprise requirements.toml enforcement, silent mode upgrade risk with --yolo, practical recipes for CI/research/air-gapped deployments
+   - SEO targets: "codex cli web search configuration", "codex cli allowed_domains", "codex cli web search cached live", "codex cli prompt injection defence", "codex cli web search security", "codex cli tools.web_search"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #59)
+
+### GitLab CI Code Quality and Security Remediation
+
+1. ✅ **Codex CLI on GitLab CI: Generating CodeClimate Quality Reports and Automated SAST Remediation Pipelines** — Written 2026-05-09 → `2026-05-09-codex-cli-gitlab-ci-code-quality-reports-security-remediation-pipelines.md`
+   - Source: OpenAI Cookbook GitLab quality/security guide, OpenAI Non-interactive mode docs, GitLab Code Quality docs, OpenAI Running Codex Safely blog, OpenAI Models docs, OpenAI CLI Reference docs, OpenAI Advanced Configuration docs
+   - Scope: CodeClimate JSON report generation with codex exec, marker-based output extraction, SAST post-processing with exploitability ranking, automated patch generation with git apply validation, security hardening (API key hygiene, sandbox policies, fork MR protection), model selection and profiles for CI cost control, prompt engineering for reliable pipeline output, extension patterns for dependency/container/DAST scanning
+   - SEO targets: "codex cli gitlab ci", "codex exec code quality", "codex cli sast remediation", "codex cli codeclimate report", "codex cli gitlab pipeline", "ai code quality gitlab"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #58)
+
+### Agent PR Quality and Trustworthiness
+
+1. ✅ **Reviewing Agent Pull Requests: What 23,000 PRs Reveal About Description Accuracy and How to Configure Codex CLI for Trustworthy Contributions** — Written 2026-05-09 → `2026-05-09-reviewing-agent-pull-requests-pr-mci-codex-cli-trustworthy-contributions.md`
+   - Source: arXiv:2601.04886 (Li et al., MSR 2026), GitHub Blog agent PR review guide, CodeRabbit State of AI vs Human Code Generation Report, OpenAI AGENTS.md docs, OpenAI Hooks docs, OpenAI GitHub integration docs, OpenAI non-interactive mode docs
+   - Scope: PR-MCI study data (23,247 PRs, 1.7% high inconsistency rate, 51.7% lower acceptance, 3.5x merge latency), CodeRabbit findings (1.7x more issues, 2.74x security vulnerabilities), GitHub five red flags (CI gaming, code reuse blindness, hallucinated correctness, agentic ghosting, untrusted input), five Codex CLI defence layers (AGENTS.md PR guidelines, PostToolUse description-code verification hook, PreToolUse CI gaming blocker, structured output schemas for diff-based descriptions, Guardian auto-review), 10-minute agent PR review framework, PR quality measurement with codex exec
+   - SEO targets: "agent pull request review", "PR message-code inconsistency", "codex cli PR quality", "AI agent PR trustworthiness", "codex cli code review hooks", "agent PR description accuracy"
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #57)
+
+### AI Coding Agent Quality Data and Codex CLI Defences
+
+1. ✅ **The AI Coding Agent Quality Crisis: What the Opsera and Sourcery Intel 2026 Reports Reveal — and How to Configure Codex CLI to Stay Ahead of the Data** — Written 2026-05-09 → `2026-05-09-ai-coding-agent-quality-crisis-opsera-sourcery-intel-2026-data-codex-cli-defences.md`
+   - Source: Opsera AI Coding Impact 2026 Benchmark Report, Sourcery Intel State of AI Coding Agents 2026 report, OpenAI Agent Approvals & Security docs, OpenAI Hooks docs, OpenAI Advanced Configuration docs, OpenAI Configuration Reference docs, OpenAI Enterprise Governance docs, OpenAI AGENTS.md docs
+   - Scope: Opsera benchmark data (4.6x review bottleneck, 15-18% more vulnerabilities, code duplication 10.5% to 13.5%, 48-58% Time-to-PR acceleration, 21% licence underutilisation), Sourcery Intel data (14.3% vs 9.1% vulnerability rate, 57% relative increase, 51% AI-assisted commits on GitHub, $12.8B market size), five Codex CLI defence layers (Guardian auto_review, PostToolUse scanning hooks, permission profiles, AGENTS.md quality constraints, web search caching), complete secure-team profile configuration, practical recommendations
+   - SEO targets: "codex cli security configuration", "ai coding agent vulnerability rates 2026", "opsera ai coding benchmark", "sourcery intel coding agents report", "codex cli guardian auto review", "codex cli posttooluse hooks security"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-09, Hourly Task #56)
 
 ### OpenAI Internal Safety Deployment Lessons
@@ -2905,3 +3048,12 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: Chromatic MCP docs, Percy/BrowserStack MCP docs, Playwright MCP server, Codex CLI config-reference, Storybook blog
    - Scope: MCP server integration for visual testing, Chromatic addon setup (local and cloud), Percy snapshot and visual scan tools, Playwright browser automation, agent-driven diff triage, PostToolUse hooks for verification gates, codex exec CI integration, multi-platform testing strategy
    - SEO targets: "codex cli visual regression testing", "chromatic mcp server", "percy mcp codex", "playwright mcp visual testing", "codex cli screenshot testing", "visual testing automation agent"
+
+## New Articles — Auto-Generated (2026-05-10, Hourly Scan)
+
+### Observability & Production Monitoring
+
+1. ✅ **Codex CLI Observability Dashboards: Production Monitoring with SigNoz, Oodle, and Opik** — Written 2026-05-10 → `2026-05-10-codex-cli-observability-dashboards-signoz-oodle-opik-production-monitoring.md`
+   - Source: OpenAI Codex advanced config docs, Codex CLI v0.130.0 changelog, SigNoz Codex monitoring docs, SigNoz dashboard template docs, Oodle AI agent observability docs, Opik Comet Codex integration docs, GitHub Issue #12913, Codex config-reference docs
+   - Scope: v0.130 OTEL configuration reference (logs, traces, metrics exporters), SigNoz pre-built 13-panel Codex dashboard template, Oodle session-level turn-by-turn reconstruction and infrastructure metrics, Opik trace-first span-level analysis, enterprise mTLS configuration, comparison matrix across all three platforms, dual/triple-export patterns routing signals to different backends, profile-based observability switching, practical deployment checklist
+   - SEO targets: "codex cli observability", "codex cli signoz", "codex cli oodle", "codex cli opik", "codex opentelemetry dashboard", "codex cli production monitoring", "codex otel configuration", "codex cli metrics"

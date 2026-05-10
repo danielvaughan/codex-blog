@@ -125,7 +125,7 @@ For teams with extensive review standards, extract them into a separate file and
 
 ```markdown
 ## Review
-See [code_review.md](./code_review.md) for full review guidelines.
+See `code_review.md` for full review guidelines.
 ```
 
 This keeps `AGENTS.md` manageable while giving the review context room to be comprehensive [^5].

@@ -5,6 +5,9 @@ nav_order: 636
 tags: ["codex-cli", "sentry", "mcp", "error-tracking", "debugging", "production", "automation", "devops"]
 ---
 
+![Sketchnote diagram for: Codex CLI + Sentry MCP: From Production Error to Pull Request in One Agent Loop](/sketchnotes/articles/2026-05-09-codex-cli-sentry-mcp-production-error-triage-automated-bug-resolution.png)
+
+
 # Codex CLI + Sentry MCP: From Production Error to Pull Request in One Agent Loop
 
 

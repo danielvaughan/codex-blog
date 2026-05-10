@@ -154,7 +154,7 @@ jobs:
           git push -u origin "codex/$TICKET_KEY"
           PR_URL=$(gh pr create \
             --title "feat($TICKET_KEY): $SUMMARY" \
-            --body "Automated implementation of [$TICKET_KEY]($JIRA_BASE_URL/browse/$TICKET_KEY)." \
+            --body "Automated implementation of $TICKET_KEY ($JIRA_BASE_URL/browse/$TICKET_KEY)." \
             --head "codex/$TICKET_KEY")
 
           # Comment PR URL on Jira ticket

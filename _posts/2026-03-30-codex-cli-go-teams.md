@@ -192,7 +192,7 @@ var e *MyError
 if errors.As(err, &e) { ... }
 
 // Go 1.26
-if e, ok := errors.AsType[*MyError](err); ok { ... }
+if e, ok := asMyError(err); ok { ... }
 ```
 
 The `golang-error-handling` skill references this pattern. Add your team's preference to AGENTS.md so the agent applies it consistently.

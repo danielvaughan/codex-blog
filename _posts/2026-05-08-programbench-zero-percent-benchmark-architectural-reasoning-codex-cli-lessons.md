@@ -5,6 +5,9 @@ nav_order: 632
 tags: ["codex-cli", "benchmarks", "programbench", "architectural-reasoning", "plan-mode", "reasoning-effort", "software-engineering", "swe-bench", "long-horizon", "agents-md"]
 ---
 
+![Sketchnote diagram for: ProgramBench and the Zero-Percent Problem: What a Cleanroom Benchmark Reveals About Architectural Reasoning in Codex CLI](/sketchnotes/articles/2026-05-08-programbench-zero-percent-benchmark-architectural-reasoning-codex-cli-lessons.png)
+
+
 # ProgramBench and the Zero-Percent Problem: What a Cleanroom Benchmark Reveals About Architectural Reasoning in Codex CLI
 
 

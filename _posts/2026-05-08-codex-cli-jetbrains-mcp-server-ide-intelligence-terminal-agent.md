@@ -5,6 +5,9 @@ nav_order: 631
 tags: ["codex-cli", "jetbrains", "mcp", "ide-integration", "developer-experience", "inspections", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI + JetBrains MCP Server: Giving Your Terminal Agent IDE-Grade Intelligence](/sketchnotes/articles/2026-05-08-codex-cli-jetbrains-mcp-server-ide-intelligence-terminal-agent.png)
+
+
 # Codex CLI + JetBrains MCP Server: Giving Your Terminal Agent IDE-Grade Intelligence
 
 

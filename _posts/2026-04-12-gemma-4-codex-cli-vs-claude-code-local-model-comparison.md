@@ -144,7 +144,7 @@ If someone runs this test, I would be glad to publish the results.
 
 If you want to run Gemma 4 locally with an AI coding CLI today:
 
-**On a Mac with 24 GB:** Use Codex CLI + llama.cpp + 26B MoE Q4_K_M. Follow the [exact setup guide](2026-04-10-gemma-4-local-model-codex-cli-setup-guide.md). Every flag matters. Expect 52 tok/s generation but lower code quality than the 31B Dense.
+**On a Mac with 24 GB:** Use Codex CLI + llama.cpp + 26B MoE Q4_K_M. Follow the [exact setup guide](2026-04-10-gemma-4-local-model-codex-cli-complete-setup-guide.md). Every flag matters. Expect 52 tok/s generation but lower code quality than the 31B Dense.
 
 **On a GB10 or high-memory NVIDIA system:** Use Codex CLI + Ollama + 31B Dense. Three clean tool calls. First-attempt success. 10 tok/s but higher quality.
 

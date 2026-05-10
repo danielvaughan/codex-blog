@@ -5,6 +5,9 @@ nav_order: 634
 tags: ["codex-cli", "agent-native", "software-3.0", "karpathy", "infrastructure", "configuration", "architecture"]
 ---
 
+![Sketchnote diagram for: Agent-Native Infrastructure: Karpathy's Software 3.0 Requirements and How Codex CLI Meets Them](/sketchnotes/articles/2026-05-08-agent-native-infrastructure-karpathy-software-3-codex-cli-requirements-mapping.png)
+
+
 # Agent-Native Infrastructure: Karpathy's Software 3.0 Requirements and How Codex CLI Meets Them
 
 

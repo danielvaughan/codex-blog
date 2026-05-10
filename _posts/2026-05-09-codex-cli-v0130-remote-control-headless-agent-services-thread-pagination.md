@@ -5,6 +5,9 @@ nav_order: 637
 tags: ["codex-cli", "v0.130", "remote-control", "app-server", "headless", "json-rpc", "thread-pagination", "automation", "integration", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.130: Building Headless Agent Services with remote-control and the Thread Pagination API](/sketchnotes/articles/2026-05-09-codex-cli-v0130-remote-control-headless-agent-services-thread-pagination.png)
+
+
 # Codex CLI v0.130: Building Headless Agent Services with `remote-control` and the Thread Pagination API
 
 

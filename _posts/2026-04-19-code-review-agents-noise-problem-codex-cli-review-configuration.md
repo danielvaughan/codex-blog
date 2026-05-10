@@ -121,7 +121,7 @@ Create a `code_review.md` file in your repository root and reference it from `AG
 ```markdown
 <!-- AGENTS.md -->
 ## Code Review Standards
-When running /review, follow the guidelines in [code_review.md](./code_review.md).
+When running /review, follow the guidelines in `code_review.md`.
 ```
 
 ```markdown

@@ -5,6 +5,9 @@ nav_order: 635
 tags: ["codex-cli", "coder-agents", "enterprise", "self-hosted", "model-agnostic", "governance", "infrastructure", "ai-coding-agents", "comparison"]
 ---
 
+![Sketchnote diagram for: Coder Agents vs Codex CLI: Self-Hosted, Model-Agnostic Agent Infrastructure and What It Means for Enterprise AI Coding](/sketchnotes/articles/2026-05-08-coder-agents-vs-codex-cli-self-hosted-model-agnostic-enterprise-ai-coding.png)
+
+
 # Coder Agents vs Codex CLI: Self-Hosted, Model-Agnostic Agent Infrastructure and What It Means for Enterprise AI Coding
 
 
