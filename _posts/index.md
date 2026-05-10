@@ -5,8 +5,8 @@ nav_order: 1
 
 # Articles Index
 
-**Last updated:** 2026-05-08
-**Total articles rated:** 670
+**Last updated:** 2026-05-10
+**Total articles rated:** 702
 
 ## Rating Scale
 
@@ -50,6 +50,10 @@ Each article is rated 1-5 on four dimensions:
 | [The Tsundoku Trap: Why AI Makes You Start Everything and Finish Nothing](../premium-articles/medium-2026-04-25-the-tsundoku-trap.md) | 3 | 4 | 2 | 4 | 3.2 | Premium series; No citations |
 | [Karpathy Says What We've Been Building](../premium-articles/22-karpathy-says-what-weve-been-building.md) | 2 | 3 | 3 | 4 | 2.9 | Premium series |
 | [How I Use Codex to Write and Maintain a Book on Codex CLI](../premium-articles/draft-2026-05-03-how-i-built-the-system-that-writes-my-book.md) | 4 | 5 | 4 | 5 | 4.4 | Draft; Premium series; First-person field report; Highly original |
+| [The Gravel Path: A Minimal Viable Harness for Agentic Development](../premium-articles/27-the-gravel-path.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Flagship piece; FDE metaphor; Hashimoto/Fowler sourced; Rich diagrams |
+| [The Gravel Path: OpenAI Agents SDK Edition](../premium-articles/27a-the-gravel-path-openai-agents-sdk.md) | 5 | 4 | 4 | 5 | 4.5 | Premium series; Complete copy-paste guide; Azure/Foundry deployment; Rich tech stack table |
+| [The Gravel Path: Google ADK Edition](../premium-articles/27b-the-gravel-path-google-adk.md) | 5 | 4 | 4 | 5 | 4.5 | Premium series; Complete copy-paste guide; Gemini CLI + Antigravity; Agent Engine deployment |
+| [The Gravel Path: Book Writing Edition](../premium-articles/27c-the-gravel-path-book-writing.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Highly original; Multi-model harness; Leanpub pipeline; First-person |
 
 ## Articles
 
@@ -113,6 +117,34 @@ Each article is rated 1-5 on four dimensions:
 | [Vibe Coding vs Agentic Engineering: A Senior Developer's Framework](2026-03-29-vibe-coding-vs-agentic-engineering.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; Thought leadership |
 | [When to Use Multi-Agent vs Single-Agent: A Practical Framework for Codex CLI Teams](2026-04-18-multi-agent-vs-single-agent-codex-cli-framework.md) | 4 | 4 | 4 | 5 | 4.2 | Thought leadership |
 | [Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)](2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps.md) | 4 | 4 | 4 | 5 | 4.2 | Heavily sourced |
+| [The AI Coding Agent Quality Crisis: What the Opsera and Sourcery Intel 2026 Reports Reveal — and How to Configure Codex CLI to Stay Ahead of the Data](2026-05-09-ai-coding-agent-quality-crisis-opsera-sourcery-intel-2026-data-codex-cli-defences.md) | 4 | 4 | 5 | 5 | 4.4 | Rich diagrams; Heavily sourced; Two major industry reports; Ready-to-paste config |
+| [Reviewing Agent Pull Requests: What 23,000 PRs Reveal About Description Accuracy and How to Configure Codex CLI for Trustworthy Contributions](2026-05-09-reviewing-agent-pull-requests-pr-mci-codex-cli-trustworthy-contributions.md) | 4 | 4 | 5 | 5 | 4.4 | Rich diagrams; Three research studies; PR-MCI framework; Ready-to-paste config |
+| [Running Codex Safely: What OpenAI's Internal Deployment Reveals and How to Mirror It in Your Own Config](2026-05-09-running-codex-safely-openai-internal-deployment-lessons-practitioner-config.md) | 4 | 4 | 5 | 5 | 4.4 | Five-layer security model; OpenAI primary source; Complete config.toml profile |
+| [Codex CLI v0.130: Building Headless Agent Services with remote-control and the Thread Pagination API](2026-05-09-codex-cli-v0130-remote-control-headless-agent-services-thread-pagination.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Architecture diagrams; Custom client walkthrough; JSON-RPC protocol |
+| [Codex CLI + Snyk MCP Server: Security Scanning for AI-Generated Code and the Agent Supply Chain](2026-05-08-codex-cli-snyk-mcp-server-security-scanning-ai-generated-code-agent-supply-chain.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; Ten MCP tools; AIBOM; PostToolUse hooks; Heavily sourced |
+| [Coder Agents vs Codex CLI: Self-Hosted, Model-Agnostic Agent Infrastructure and What It Means for Enterprise AI Coding](2026-05-08-coder-agents-vs-codex-cli-self-hosted-model-agnostic-enterprise-ai-coding.md) | 4 | 4 | 4 | 5 | 4.2 | Architecture comparison; Enterprise focus; Decision framework; Rich diagrams |
+| [Codex CLI on GitLab CI: Generating CodeClimate Quality Reports and Automated SAST Remediation Pipelines](2026-05-09-codex-cli-gitlab-ci-code-quality-reports-security-remediation-pipelines.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; Two production-ready pipeline patterns; Heavily sourced |
+| [Codex CLI + Sentry MCP: From Production Error to Pull Request in One Agent Loop](2026-05-09-codex-cli-sentry-mcp-production-error-triage-automated-bug-resolution.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; Three workflows; Security considerations; Sequence diagrams |
+| [Codex CLI Web Search Configuration: Cached vs Live Modes, Domain Allow-Lists, and Prompt Injection Defence](2026-05-09-codex-cli-web-search-configuration-cached-live-domain-allow-lists-prompt-injection-defence.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; Security focus; Object-form config; Enterprise patterns |
+| [Measuring Codex CLI's Impact on Your Team: DORA Metrics, Token Telemetry, and the AI Productivity Paradox](2026-05-10-measuring-codex-cli-impact-dora-metrics-token-telemetry-ai-productivity-paradox.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; DORA research; Productivity-Reliability Paradox; Heavily sourced |
+| [Codex CLI as an MCP Server: Multi-Agent Orchestration with the OpenAI Agents SDK](2026-05-10-codex-cli-agents-sdk-mcp-server-multi-agent-orchestration.md) | 4 | 4 | 4 | 5 | 4.2 | Architecture deep dive; Two-tool pattern; Agents SDK tracing; Rich diagrams |
+| [Codex CLI Team Configuration: The .codex Directory, Shared Profiles, and Repository-Scoped Settings](2026-05-09-codex-cli-team-configuration-dotcodex-directory-shared-profiles-repository-scoped-settings.md) | 4 | 3 | 4 | 5 | 4.0 | Rich diagrams; Full .codex anatomy; Precedence stack; Enterprise onboarding |
+| [Codex CLI for Automated Dependency Upgrades and Framework Migrations](2026-05-09-codex-cli-dependency-upgrades-framework-migrations-automated-codemod-workflows.md) | 4 | 3 | 4 | 5 | 4.0 | Four-stage pipeline; Google migration data; Subagent parallelism |
+| [Codex CLI for Incident Postmortem Automation: From Alert to Structured Root Cause Report in One Agent Loop](2026-05-09-codex-cli-incident-postmortem-automation-root-cause-analysis-structured-reports.md) | 4 | 3 | 4 | 5 | 4.0 | Rich diagrams; MCP integration; Structured output; Automation pipeline |
+| [Codex CLI for Data Analysis: From Raw CSV to Stakeholder Report in One Agent Session](2026-05-09-codex-cli-data-analysis-csv-to-stakeholder-report-agent-workflows.md) | 4 | 3 | 4 | 5 | 4.0 | Practical walkthrough; codex exec; AGENTS.md patterns; R4DS framework |
+| [Prompting GPT-5.5 in Codex CLI: Outcome-First Instructions, AGENTS.md Patterns, and Reasoning Effort Tuning](2026-05-09-prompting-gpt-5-5-in-codex-cli-outcome-first-agents-md-reasoning-effort.md) | 4 | 3 | 4 | 5 | 4.0 | Four-element framework; Profile recipes; Rich diagrams; Heavily sourced |
+| [AutoLoop with Codex CLI: Bounded Optimisation Loops for Measurable Codebase Improvement](2026-05-10-autoloop-codex-cli-bounded-optimisation-loops-agent-agnostic-iterative-improvement.md) | 4 | 4 | 4 | 4 | 4.0 | Novel topic; Karpathy autoresearch link; Agent-agnostic; Lifecycle diagrams |
+| [Codex CLI Context Compaction Under GPT-5.5: Diagnosing Failures, Configuring Fallbacks, and Keeping Long Sessions Alive](2026-05-10-codex-cli-context-compaction-gpt55-failures-resilient-long-sessions.md) | 4 | 3 | 4 | 5 | 4.0 | Troubleshooting guide; 80% failure rate data; Fallback config; Rich diagrams |
+| [Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills](2026-05-10-codex-cli-game-prototyping-godot-phaser-browser-games-agent-skills.md) | 4 | 4 | 3 | 5 | 4.0 | Novel use case; Two stacks; Playwright evaluation loop; Community example |
+| [Codex CLI Observability Dashboards: Production Monitoring with SigNoz, Oodle, and Opik](2026-05-10-codex-cli-observability-dashboards-signoz-oodle-opik-production-monitoring.md) | 4 | 3 | 4 | 5 | 4.0 | Three-platform comparison; OTLP config; v0.130 telemetry surface |
+| [AWS Agent Toolkit for AWS: Enterprise MCP, Skills, and Plugins for Codex CLI](2026-05-09-aws-agent-toolkit-codex-cli-enterprise-mcp-skills-plugins.md) | 3 | 3 | 4 | 5 | 3.7 | News/integration; IAM governance; Brief but informative |
+| [Cross-Agent Skills Hit the npm Moment: 351K Skills, Three Marketplaces, and a Portability Standard](2026-05-09-cross-agent-skills-ecosystem-maturity-npm-analogy-codex-cli-portability.md) | 3 | 4 | 4 | 4 | 3.7 | Ecosystem survey; Three marketplaces; Portability standard; Brief |
+| [Codex Android Remote Control: Managing Desktop Agent Sessions from Your Phone](2026-05-10-codex-android-remote-control-chatgpt-mobile-desktop-agent-sessions.md) | 3 | 3 | 4 | 4 | 3.5 | APK teardown news; Architecture context; Not yet released caveat |
+| [Codex CLI for GitHub Actions Workflow Authoring: Agent-Assisted CI/CD Configuration](2026-05-10-codex-cli-github-actions-workflow-authoring-ci-cd-yaml-agent-assisted.md) | 4 | 3 | 3 | 5 | 3.8 | Practical how-to; CI/CD focus; Iterative diagnosis loop |
+| [Codex CLI Live Configuration: Hot-Reload, /debug-config, and Runtime Configuration Management](2026-05-10-codex-cli-live-configuration-hot-reload-debug-config-runtime-management.md) | 4 | 3 | 4 | 4 | 3.8 | Config reference; v0.130 live-reload; Six-layer hierarchy; Profiles |
+| [Codex CLI Multi-Directory Workflows: Coordinating Cross-Repo Changes with --add-dir, Writable Roots, and Permission Profiles](2026-05-10-codex-cli-multi-directory-workflows-add-dir-writable-roots-cross-repo-coordination.md) | 4 | 3 | 4 | 4 | 3.8 | Practical guide; Three access mechanisms; Polyrepo patterns |
+| [The OpenAI Developers Plugin and Docs MCP: Building on the OpenAI Platform from Inside Codex CLI](2026-05-10-codex-cli-openai-developers-plugin-docs-mcp-api-development-from-inside-agent.md) | 4 | 3 | 4 | 4 | 3.8 | Plugin + MCP architecture; Five workflows; Self-referential docs |
+| [Codex CLI Deletes Function-Style apply_patch: Freeform Is Now the Only Way](2026-05-08-codex-cli-apply-patch-freeform-only-function-style-deletion.md) | 3 | 3 | 4 | 4 | 3.5 | Brief; PR analysis; Architecture pattern; Hook migration note |
 | [Agentic Harness Engineering: What Observability-Driven Evolution Means for Your Codex CLI Configuration](2026-04-30-agentic-harness-engineering-observability-driven-evolution-codex-cli.md) | 4 | 3 | 4 | 5 | 4.0 | Rich diagrams |
 | [Agents SDK TypeScript Goes Sandbox-Native: Building Codex-Powered Agents with the Open-Source Harness](2026-05-06-agents-sdk-typescript-sandbox-agents-codex-harness-portable-compute.md) | 4 | 4 | 4 | 4 | 4.0 | Deep dive; Nine sandbox providers; Harness-compute split; Code examples |
 | [Bootstrapping AGENTS.md: Scaffold Generation, Override Files and Chain Verification](2026-04-08-bootstrapping-agents-md.md) | 4 | 4 | 4 | 4 | 4.0 | Agent patterns |
@@ -699,7 +731,7 @@ Each article is rated 1-5 on four dimensions:
 
 ## Summary Statistics
 
-- **Total articles:** 670
+- **Total articles:** 702
 - **Average composite:** 3.5
 - **Highest composite:** 4.8
 - **Lowest composite:** 2.0
@@ -710,12 +742,12 @@ Each article is rated 1-5 on four dimensions:
 2. **Forward Deployed Engineers: The Human Bridge Between Agentic Pods and Enterprise Reality** (4.8)
 3. **Harness Engineering: The Discipline That Makes Agents Work** (4.8)
 4. **The Assembly Line: Why Validation Capacity Is Your AI Bottleneck** (4.8)
-5. **AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?** (4.5)
-6. **The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide** (4.5)
-7. **The Enablement Coach: How Scrum Masters Lead the Shift to Agentic Engineering** (4.5)
-8. **The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model** (4.5)
-9. **The Scaling Playbook: From Pilot Pod to Enterprise Factory** (4.5)
-10. **WebSocket Mode in Codex CLI** (4.5)
+5. **The Gravel Path: A Minimal Viable Harness for Agentic Development** (4.8)
+6. **The Gravel Path: Book Writing Edition** (4.8)
+7. **AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?** (4.5)
+8. **The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide** (4.5)
+9. **The Enablement Coach: How Scrum Masters Lead the Shift to Agentic Engineering** (4.5)
+10. **The Gravel Path: OpenAI Agents SDK Edition** (4.5)
 
 ### Score Distribution
 
