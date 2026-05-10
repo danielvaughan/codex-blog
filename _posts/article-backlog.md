@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #76)
+
+### Secrets Defence & Runtime Injection
+
+1. ✅ **Codex CLI Secrets Defence: Preventing .env Leakage with shell_environment_policy, agent-env, and Infisical Agent Vault** — Written 2026-05-10 → `2026-05-10-codex-cli-secrets-defence-env-leakage-agent-vault-runtime-injection.md`
+   - Source: Infisical .env leakage blog, Knostic secrets mishandling research, Knostic Claude Code auto-load disclosure, OpenAI config-reference docs, agent-env.com, Infisical Agent Vault GitHub, OpenAI agent-approvals-security docs
+   - Scope: Threat model for .env leakage in AI coding agents, three exfiltration vectors (context inclusion, MCP amplification, subprocess inheritance), shell_environment_policy configuration reference (inherit/exclude/set/include_only), agent-env encrypted SOPS wrapper pattern, Infisical Agent Vault proxy-layer credential injection, decision framework for solo vs team, hardening checklist, comparison table
+   - SEO targets: "codex cli secrets defence", "codex cli env leakage", "codex cli shell_environment_policy", "AI coding agent secrets", "agent-env codex", "infisical agent vault codex"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #75)
 
 ### Dynamic Tools & App-Server Integration
