@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #71)
+
+### OpenAI Developers Plugin & Docs MCP
+
+1. ✅ **The OpenAI Developers Plugin and Docs MCP: Building on the OpenAI Platform from Inside Codex CLI** — Written 2026-05-10 → `2026-05-10-codex-cli-openai-developers-plugin-docs-mcp-api-development-from-inside-agent.md`
+   - Source: OpenAI Developers plugin docs, Docs MCP server docs, Codex Skills docs, Agents SDK guide, Responses API reference, MCP server building guide
+   - Scope: Plugin vs Docs MCP architecture, installation (CLI and config.toml), configuration profiles for OpenAI API development, five practical workflows (Agents SDK scaffolding, API key provisioning, error diagnosis, Completions→Responses migration, custom MCP server building), AGENTS.md template for API projects, security considerations, comparison table, limitations
+   - SEO targets: "codex cli openai developers plugin", "codex cli docs mcp", "openai docs mcp server", "codex cli api development", "codex cli openai platform integration", "codex cli api key management"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #70)
 
 ### GPT-5.5 Compaction Reliability
