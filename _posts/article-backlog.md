@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #73)
+
+### Multi-Directory Workflows & Cross-Repo Coordination
+
+1. ✅ **Codex CLI Multi-Directory Workflows: Coordinating Cross-Repo Changes with --add-dir, Writable Roots, and Permission Profiles** — Written 2026-05-10 → `2026-05-10-codex-cli-multi-directory-workflows-add-dir-writable-roots-cross-repo-coordination.md`
+   - Source: OpenAI Codex CLI features docs, CLI reference docs, Config reference docs, Advanced config docs, AGENTS.md guide, Sandbox concepts docs, GitHub Issues #11956 and #18448, Non-interactive mode docs
+   - Scope: --add-dir flag for ad-hoc multi-directory access, writable_roots in config.toml for persistent configuration, permission profiles with :project_roots and per-path deny rules, AGENTS.md hierarchical loading across polyrepo boundaries, AGENTS.override.md for cross-cutting sprint rules, platform-native sandbox enforcement (Seatbelt/Bubblewrap/DACL), codex exec non-interactive automation with --add-dir, diff panel limitations, context window pressure management, decision framework for choosing the right approach
+   - SEO targets: "codex cli add-dir", "codex cli multi-directory", "codex cli writable roots", "codex cli polyrepo", "codex cli cross-repo changes", "codex cli permission profiles filesystem"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-10, Hourly Task #72)
 
 ### GitHub Actions Workflow Authoring
