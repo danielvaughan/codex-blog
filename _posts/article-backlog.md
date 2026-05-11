@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #81)
+
+### gRPC and Protocol Buffer Development
+
+1. ✅ **Codex CLI for gRPC and Protocol Buffer Development: Schema-First Workflows with buf, Code Generation, and Contract Safety** — Written 2026-05-11 → `2026-05-11-codex-cli-grpc-protobuf-schema-first-development-buf-service-stubs.md`
+   - Source: OpenAI Codex best practices docs, Buf CLI docs, ConnectRPC docs, grpcurl GitHub, EnterpriseDB MCP-from-Protobuf blog, Codex CLI config reference, Codex CLI reference docs
+   - Scope: Schema-first gRPC workflow with Codex CLI, AGENTS.md conventions for proto teams, buf.yaml v2 and buf.gen.yaml configuration, ConnectRPC code generation for multi-protocol handlers, breaking-change detection with buf breaking (FILE/PACKAGE/WIRE/WIRE_JSON categories), PostToolUse hooks for automated lint and breaking checks, integration testing with grpcurl and buf curl, codex exec CI automation, schema evolution patterns, proto versioning enforcement, current limitations
+   - SEO targets: "codex cli grpc", "codex cli protobuf", "codex cli protocol buffers", "codex cli buf generate", "codex cli schema-first development", "codex cli grpc code generation"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #80)
 
 ### Computer Use for QA Testing
