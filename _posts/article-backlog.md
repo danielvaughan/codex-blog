@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #82)
+
+### GPT-5.5-Cyber & Defensive Security Workflows
+
+1. ✅ **GPT-5.5-Cyber and Codex CLI: Trusted Access, Defensive Workflows, and the Security-Permissive Model Tier** — Written 2026-05-11 → `2026-05-11-gpt-5-5-cyber-codex-cli-trusted-access-defensive-security-workflows.md`
+   - Source: OpenAI GPT-5.5-Cyber announcement, Help Net Security, UK AISI evaluation, OpenAI Trusted Access for Cyber programme, OpenAI Codex Security research preview, The Hacker News, OpenAI Cyber Safety docs, OpenAI Config Reference docs, OpenAI Advanced Account Security announcement
+   - Scope: GPT-5.5-Cyber model (announced 7 May 2026) vs standard GPT-5.5, three-tier Trusted Access for Cyber programme, identity verification and Advanced Account Security June deadline, CLI config.toml profiles for security sessions, AGENTS.md security conventions, five defensive workflows (SAST triage, patch validation, detection rule engineering, dependency assessment, malware analysis), Codex Security plugin architecture, cyber-safety classifier false positives and mitigation, permissiveness vs capability distinction, OpenTelemetry audit trails, enterprise governance with requirements.toml
+   - SEO targets: "gpt-5.5-cyber codex cli", "codex cli security workflows", "trusted access for cyber openai", "codex cli vulnerability triage", "codex cli patch validation", "codex security plugin", "gpt-5.5-cyber defensive security"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #81)
 
 ### gRPC and Protocol Buffer Development
