@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #78)
+
+### Codex Chrome Extension & Browser Workflows
+
+1. ✅ **The Codex Chrome Extension: Parallel Browser Workflows, DevTools Integration, and Domain Access Control** — Written 2026-05-11 → `2026-05-11-codex-chrome-extension-parallel-browser-workflows-devtools-tab-groups.md`
+   - Source: OpenAI Chrome Extension docs, MacRumors, Dataconomy, eigent.ai, MarkTechPost, Chrome Enterprise policies
+   - Scope: Three browser modes architecture (in-app/extension/computer use), tab group isolation per thread, DevTools integration (DOM, console, performance), per-host domain access control (allowlist/blocklist), developer workflow patterns (authenticated testing, cross-service context, visual regression), security considerations for enterprise, MCP alternative, limitations
+   - SEO targets: "codex chrome extension", "codex browser automation", "codex devtools integration", "codex tab groups", "codex authenticated browser testing", "codex chrome domain allowlist"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #77)
 
 ### Enterprise Managed Configuration & Compliance
