@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #86)
+
+### CLI-IDE Context Bridge & IPC Architecture
+
+1. ✅ **Codex CLI /ide Context Injection: Bridging Your Terminal and Editor Through IPC** — Written 2026-05-11 → `2026-05-11-codex-cli-ide-context-injection-ipc-bridge-vscode-cursor.md`
+   - Source: OpenAI Codex changelog (v0.129.0, v0.130.0), nikkie-ftnext IPC analysis blog, OpenAI IDE extension docs, OpenAI CLI slash-commands docs, OpenAI config-reference docs, GitHub Issue #17765 (multi-user socket collision), GitHub Discussion #11730 (IDE Context feature), OpenAI IDE slash-commands docs
+   - Scope: Unix domain socket IPC architecture between CLI TUI and VS Code/Cursor extension, socket path convention ($TMPDIR/codex-ipc/ipc-$UID.sock), JSON context payload format (file, selection, active/anchor positions), Rust implementation in codex-rs/tui/src/ide_context/ipc.rs, workspace-aware /diff upgrade, setup prerequisites and activation, four workflow patterns (selection-driven refactoring, Vim mode + IDE context, resume with editor state, auto-context dual-surface), known limitations (multi-user Linux EACCES, mixed auto-context quality, no config.toml keys yet, Windows named pipes), troubleshooting guide
+   - SEO targets: "codex cli ide context injection", "codex cli ipc bridge vscode", "codex /ide slash command", "codex cli editor integration", "codex cli vscode context", "codex cli terminal ide bridge"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #85)
 
 ### Anthropic 2026 Agentic Coding Trends Report — Codex CLI Practitioner Response
