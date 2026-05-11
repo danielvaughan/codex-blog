@@ -5,8 +5,8 @@ nav_order: 1
 
 # Articles Index
 
-**Last updated:** 2026-05-10
-**Total articles rated:** 702
+**Last updated:** 2026-05-11
+**Total articles rated:** 714
 
 ## Rating Scale
 
@@ -66,12 +66,18 @@ Each article is rated 1-5 on four dimensions:
 | [The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model](2026-04-12-codex-cli-best-practices-workflow-maturity-model.md) | 5 | 4 | 4 | 5 | 4.5 | Rich diagrams; Heavily sourced |
 | [WebSocket Mode in Codex CLI: How Persistent Connections to the Responses API Cut Agent Loop Latency by 40%](2026-05-03-codex-cli-websocket-mode-responses-api-persistent-connections-agent-loop-performance.md) | 5 | 4 | 4 | 5 | 4.5 | Deep dive; Sequence diagrams; Protocol-level analysis |
 | [The Goblin Incident: What Reward Signal Leakage in GPT-5.5 Teaches Codex CLI Practitioners](2026-05-03-goblin-bias-reward-signal-leakage-codex-cli-model-behaviour-lessons.md) | 4 | 5 | 4 | 5 | 4.4 | Highly original; RLHF case study; Rich diagrams |
+| [The TrustFall Vulnerability: How One Keypress Gives MCP Servers Full System Access — and Why Codex CLI Is Not Affected](2026-05-11-trustfall-mcp-server-rce-codex-cli-defence-architecture.md) | 4 | 5 | 4 | 5 | 4.4 | Highly original; Kill chain analysis; Vendor comparison; Sandbox architecture |
 | [Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration](2026-05-03-anatomy-production-agents-md-openai-codex-repository-case-study.md) | 5 | 4 | 4 | 4 | 4.3 | Case study; ETH Zurich research; Heavily sourced |
 | [Codex CLI /goal: Persisted Long-Horizon Workflows with Pause, Resume, and Token Budgets](2026-05-07-codex-cli-goal-command-persisted-long-horizon-workflows-pause-resume-budget.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; State machine; API surface; Token budgets; Mermaid diagrams |
 | [Codex CLI MultiAgentV2: Custom Roles, Thread Orchestration, and Production Parallel Workflows](2026-05-03-codex-cli-multiagentv2-custom-roles-thread-orchestration-parallel-workflows.md) | 5 | 4 | 4 | 4 | 4.3 | Architecture deep dive; Config reference |
 | [Codex CLI Sandbox Internals: How Seatbelt, Bubblewrap, Landlock and Windows DACL Keep Agent Commands in Check](2026-05-03-codex-cli-sandbox-internals-seatbelt-bubblewrap-landlock-windows-dacl.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; OS-level analysis; Code examples |
 | [Codex CLI Smart Approvals: How Adaptive Command Policies and Prefix Rules Eliminate Approval Fatigue](2026-05-04-codex-cli-smart-approvals-adaptive-command-policies-prefix-rules.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Starlark rules engine; Rich diagrams; Heavily sourced |
 | [Codex CLI v0.129: The /hooks Browser, Compaction Hooks, and Runtime Hook Management](2026-05-07-codex-cli-v0129-hooks-browser-compaction-hooks-runtime-management.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Compaction lifecycle; Production patterns; Rich diagrams |
+| [Codex CLI Dynamic Tools: Building Custom Client-Side Tool Handlers via the App-Server Protocol](2026-05-10-codex-cli-dynamic-tools-custom-client-side-tool-handlers-app-server-protocol.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Sequence diagrams; JSON-RPC protocol; Code examples |
+| [Anthropic's 2026 Agentic Coding Trends Report: What It Means for Codex CLI Practitioners](2026-05-11-anthropic-agentic-coding-trends-report-codex-cli-practitioner-response.md) | 4 | 4 | 4 | 5 | 4.2 | Cross-vendor analysis; Eight trends mapped to Codex; Rich diagrams |
+| [Codex CLI Secrets Defence: Preventing .env Leakage with shell_environment_policy, agent-env, and Infisical Agent Vault](2026-05-10-codex-cli-secrets-defence-env-leakage-agent-vault-runtime-injection.md) | 4 | 4 | 4 | 5 | 4.2 | Threat model; Config reference; Mermaid diagrams; Heavily sourced |
+| [GPT-5.5-Cyber and Codex CLI: Trusted Access, Defensive Workflows, and the Security-Permissive Model Tier](2026-05-11-gpt-5-5-cyber-codex-cli-trusted-access-defensive-security-workflows.md) | 4 | 4 | 4 | 5 | 4.2 | Tiered access; UK AISI benchmarks; Sandbox config; Heavily sourced |
+| [The Completions-to-Responses Migration Pack: Automating OpenAI API Migration with Codex CLI](2026-05-11-completions-responses-migration-pack-codex-cli-automated-api-migration.md) | 4 | 4 | 4 | 5 | 4.2 | API comparison table; Mermaid flow; CI integration patterns |
 | [AI Slopageddon and the Open-Source Contribution Crisis: How Codex CLI's Invitation-Only Model Signals a New Era](2026-04-01-ai-slopageddon-open-source-contribution-crisis.md) | 4 | 4 | 4 | 5 | 4.2 | Thought leadership |
 | [AWS Agent Plugins and the Compound Plugin Pattern: How Cloud Providers Are Shipping Production-Grade Agent Skills](2026-04-13-aws-agent-plugins-compound-plugin-pattern.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams |
 | [AWS AgentCore's Managed Harness and Coding Skills: What They Mean for Codex CLI Teams](2026-04-24-aws-agentcore-managed-harness-codex-cli-enterprise-agent-deployment.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams |
@@ -128,6 +134,11 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI Web Search Configuration: Cached vs Live Modes, Domain Allow-Lists, and Prompt Injection Defence](2026-05-09-codex-cli-web-search-configuration-cached-live-domain-allow-lists-prompt-injection-defence.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; Security focus; Object-form config; Enterprise patterns |
 | [Measuring Codex CLI's Impact on Your Team: DORA Metrics, Token Telemetry, and the AI Productivity Paradox](2026-05-10-measuring-codex-cli-impact-dora-metrics-token-telemetry-ai-productivity-paradox.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; DORA research; Productivity-Reliability Paradox; Heavily sourced |
 | [Codex CLI as an MCP Server: Multi-Agent Orchestration with the OpenAI Agents SDK](2026-05-10-codex-cli-agents-sdk-mcp-server-multi-agent-orchestration.md) | 4 | 4 | 4 | 5 | 4.2 | Architecture deep dive; Two-tool pattern; Agents SDK tracing; Rich diagrams |
+| [Codex CLI Enterprise Managed Configuration: Cloud Policies, Group-Based Enforcement, and Compliance Governance](2026-05-11-codex-cli-enterprise-managed-configuration-cloud-policies-group-enforcement-compliance.md) | 4 | 3 | 4 | 5 | 4.0 | Three-layer enforcement; MDM integration; Group policies; Heavily sourced |
+| [Codex CLI for gRPC and Protocol Buffer Development: Schema-First Workflows with buf, Code Generation, and Contract Safety](2026-05-11-codex-cli-grpc-protobuf-schema-first-development-buf-service-stubs.md) | 4 | 4 | 4 | 4 | 4.0 | Schema-first workflows; buf integration; AGENTS.md patterns; Code examples |
+| [Codex Computer Use for QA Testing: Automated GUI Verification, Desktop App Testing, and Visual Bug Detection](2026-05-11-codex-computer-use-qa-testing-desktop-app-gui-verification.md) | 4 | 3 | 4 | 5 | 4.0 | Decision framework; Two-layer permissions; QA patterns; Rich diagrams |
+| [Codex Enterprise Analytics and Compliance APIs: Usage Dashboards, Code Review Metrics, and Audit Integration](2026-05-11-codex-enterprise-analytics-compliance-apis-governance-dashboards.md) | 4 | 3 | 4 | 5 | 4.0 | API reference; Architecture diagram; SIEM integration; Heavily sourced |
+| [The Codex Chrome Extension: Parallel Browser Workflows, DevTools Integration, and Domain Access Control](2026-05-11-codex-chrome-extension-parallel-browser-workflows-devtools-tab-groups.md) | 4 | 3 | 4 | 5 | 4.0 | Three browser modes; Tab group isolation; DevTools; Heavily sourced |
 | [Codex CLI Team Configuration: The .codex Directory, Shared Profiles, and Repository-Scoped Settings](2026-05-09-codex-cli-team-configuration-dotcodex-directory-shared-profiles-repository-scoped-settings.md) | 4 | 3 | 4 | 5 | 4.0 | Rich diagrams; Full .codex anatomy; Precedence stack; Enterprise onboarding |
 | [Codex CLI for Automated Dependency Upgrades and Framework Migrations](2026-05-09-codex-cli-dependency-upgrades-framework-migrations-automated-codemod-workflows.md) | 4 | 3 | 4 | 5 | 4.0 | Four-stage pipeline; Google migration data; Subagent parallelism |
 | [Codex CLI for Incident Postmortem Automation: From Alert to Structured Root Cause Report in One Agent Loop](2026-05-09-codex-cli-incident-postmortem-automation-root-cause-analysis-structured-reports.md) | 4 | 3 | 4 | 5 | 4.0 | Rich diagrams; MCP integration; Structured output; Automation pipeline |
@@ -686,6 +697,7 @@ Each article is rated 1-5 on four dimensions:
 | [Test-First Development with Codex: Using TDD as the Agent Feedback Loop](2026-03-28-test-first-development-codex-tdd-feedback-loop.md) | 2 | 2 | 3 | 4 | 2.7 | Agent patterns |
 | [The Codex TypeScript SDK: Embedding Agents in Your Own Tooling](2026-03-28-codex-typescript-sdk-embedding-agents.md) | 3 | 2 | 2 | 4 | 2.7 | No citations |
 | [Worktree-Based Parallel Development with Codex CLI](2026-03-26-codex-cli-worktree-parallel-development.md) | 2 | 2 | 4 | 3 | 2.7 | Core article |
+| [Codex CLI v0.130.0: What's New and Why It Matters](2026-05-11-codex-v0130-whats-new.md) | 2 | 2 | 3 | 3 | 2.5 | Brief changelog; Plugin marketplace; Remote control; MCP enhancements |
 | [AIPass: Persistent Multi-Agent Collaboration Across Codex CLI, Claude Code, and Gemini CLI](2026-04-12-aipass-persistent-multi-agent-framework-codex-claude-gemini.md) | 2 | 2 | 3 | 3 | 2.5 | Agent patterns |
 | [Claude Code Source Leak — What 163K Lines of TypeScript Reveal About Anthropic's Engineering](2026-04-01-claude-code-source-leak-what-it-reveals.md) | 2 | 2 | 3 | 3 | 2.5 | Language-specific |
 | [Codex CLI OpenTelemetry: Observability and Metrics in Production](2026-03-28-codex-cli-opentelemetry-observability.md) | 3 | 2 | 2 | 3 | 2.5 | No citations |
@@ -731,7 +743,7 @@ Each article is rated 1-5 on four dimensions:
 
 ## Summary Statistics
 
-- **Total articles:** 702
+- **Total articles:** 714
 - **Average composite:** 3.5
 - **Highest composite:** 4.8
 - **Lowest composite:** 2.0
@@ -751,8 +763,8 @@ Each article is rated 1-5 on four dimensions:
 
 ### Score Distribution
 
-- **4.0+:** 127 articles
+- **4.0+:** 138 articles
 - **3.5-3.9:** 421 articles
 - **3.0-3.4:** 62 articles
-- **2.5-2.9:** 28 articles
+- **2.5-2.9:** 29 articles
 - **< 2.5:** 32 articles
