@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #87)
+
+### ML Engineering & MLOps Pipelines
+
+1. ✅ **Codex CLI for ML Engineering: Training Scripts, Experiment Tracking, and MLOps Pipeline Automation** — Written 2026-05-11 → `2026-05-11-codex-cli-ml-engineering-training-scripts-experiment-tracking-mlops-pipelines.md`
+   - Source: MLflow MCP Server docs, Hugging Face Hub MCP Server docs, OpenAI Codex best practices docs, PyTorch AMP docs, OpenAI non-interactive mode docs, codex-action GitHub Action, OpenAI agent approvals docs, OpenAI MCP docs
+   - Scope: MLflow MCP server setup (MLFLOW_MCP_TOOLS genai/ml/all), Hugging Face Hub MCP server (7 built-in tools), AGENTS.md conventions for ML repositories (seed management, mixed-precision patterns, checkpoint policies), plan-first model architecture generation, experiment tracking via MCP (querying runs, logging metrics, automated analysis), codex exec for CI model evaluation and hyperparameter sweep orchestration, sandbox considerations for GPU workloads, reproducibility audit patterns, configuration drift detection, current limitations (no GPU passthrough, notebook execution, MCP concurrency)
+   - SEO targets: "codex cli machine learning", "codex cli mlflow mcp", "codex cli ml engineering", "codex cli experiment tracking", "codex cli mlops pipeline", "codex cli pytorch training", "codex cli hugging face mcp"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #86)
 
 ### CLI-IDE Context Bridge & IPC Architecture
