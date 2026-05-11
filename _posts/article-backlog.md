@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #79)
+
+### TrustFall MCP Security & Codex CLI Defence
+
+1. ✅ **The TrustFall Vulnerability: How One Keypress Gives MCP Servers Full System Access — and Why Codex CLI Is Not Affected** — Written 2026-05-11 → `2026-05-11-trustfall-mcp-server-rce-codex-cli-defence-architecture.md`
+   - Source: Adversa AI TrustFall disclosure, SecurityWeek, Developer-Tech, Help Net Security, OpenAI Codex MCP docs, OpenAI Sandboxing docs, OpenAI Agent Approvals & Security docs, OpenAI Config Basics docs, OpenAI CLI Reference docs
+   - Scope: TrustFall kill chain (poisoned repo → trust prompt → unsandboxed MCP execution), four affected tools (Claude Code, Gemini CLI, Cursor CLI, Copilot CLI), CI/CD amplification via non-interactive mode, Anthropic's declined disclosure, five Codex CLI architectural defences (no auto-approval flag, project trust skips config, kernel-level sandbox, granular MCP approval policies, enterprise requirements.toml enforcement), defence-in-depth comparison table, hardening configuration recipes, future MCP threat landscape
+   - SEO targets: "trustfall vulnerability codex cli", "MCP server supply chain attack", "codex cli security vs claude code", "trustfall MCP RCE", "codex cli sandbox defence", "AI coding agent MCP security 2026"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #78)
 
 ### Codex Chrome Extension & Browser Workflows
