@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #88)
+
+### OpenAI Daybreak & Codex Security Enterprise Platform
+
+1. ✅ **OpenAI Daybreak and Codex Security: From Developer Tool to Enterprise Cyber Defence Platform** — Written 2026-05-12 → `2026-05-12-openai-daybreak-codex-security-enterprise-cyber-defence-platform.md`
+   - Source: OpenAI Daybreak announcement (11 May 2026), OpenAI Codex Security docs, Codex Security FAQ, Codex Security threat model docs, Cyber Safety docs, OpenAI Trusted Access for Cyber, MacRumors coverage, OpenAI Cookbook GitLab security pipeline, Codex Security research preview announcement
+   - Scope: Daybreak programme structure (Codex Security agent, three-tier model architecture, 20+ partner ecosystem), three-stage Codex Security pipeline (threat modelling, commit scanning with sandbox validation, patch generation), GPT-5.5 / Trusted Access / GPT-5.5-Cyber tier comparison, CLI integration points (codex exec remediation, cyber-safety classifier interaction, AGENTS.md security conventions), partner categories (SAST/supply chain, cloud/network, endpoint/detection, vulnerability management, identity), performance track record (3000+ vulnerabilities, 1.2M commits scanned), competitive context vs Anthropic Project Glasswing, practical takeaways and current limitations
+   - SEO targets: "openai daybreak codex security", "codex security enterprise platform", "daybreak cybersecurity initiative", "codex cli security scanning", "codex security threat model", "openai daybreak partners"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #87)
 
 ### ML Engineering & MLOps Pipelines
