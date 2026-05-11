@@ -5,6 +5,8 @@ nav_order: 654
 tags: ["codex-cli", "openai-developers-plugin", "docs-mcp", "api-development", "plugin-system", "mcp-servers"]
 ---
 
+![Sketchnote diagram for: The OpenAI Developers Plugin and Docs MCP: Building on the OpenAI Platform from Inside Codex CLI](/sketchnotes/articles/2026-05-10-codex-cli-openai-developers-plugin-docs-mcp-api-development-from-inside-agent.png)
+
 # The OpenAI Developers Plugin and Docs MCP: Building on the OpenAI Platform from Inside Codex CLI
 
 

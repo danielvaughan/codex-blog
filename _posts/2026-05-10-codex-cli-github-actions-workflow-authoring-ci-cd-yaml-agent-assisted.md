@@ -5,6 +5,8 @@ nav_order: 655
 tags: ["codex-cli", "github-actions", "ci-cd", "workflow-yaml", "automation", "devops"]
 ---
 
+![Sketchnote diagram for: Codex CLI for GitHub Actions Workflow Authoring: Agent-Assisted CI/CD Configuration, Failure Diagnosis, and Pipeline Optimisation](/sketchnotes/articles/2026-05-10-codex-cli-github-actions-workflow-authoring-ci-cd-yaml-agent-assisted.png)
+
 # Codex CLI for GitHub Actions Workflow Authoring: Agent-Assisted CI/CD Configuration, Failure Diagnosis, and Pipeline Optimisation
 
 
