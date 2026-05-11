@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #80)
+
+### Computer Use for QA Testing
+
+1. ✅ **Codex Computer Use for QA Testing: Automated GUI Verification, Desktop App Testing, and Visual Bug Detection** — Written 2026-05-11 → `2026-05-11-codex-computer-use-qa-testing-desktop-app-gui-verification.md`
+   - Source: OpenAI Computer Use docs, OpenAI QA with Computer Use use case docs, OpenAI iOS Simulator debugging use case docs, LaoZhang AI decision framework blog, OpenAI "Codex for (almost) everything" blog, GitHub Issue #18404
+   - Scope: Computer Use plugin setup and two-layer permission model (macOS system + per-app product approval), decision framework for when to use Computer Use vs Playwright MCP vs Chrome Extension, QA pass prompt patterns, iOS Simulator debugging loop with XcodeBuildMCP, safety boundaries and hard stops, combined CLI + App workflow patterns, comparison table, current limitations (macOS-only, geographic restrictions, Intel issues), practical progression from observational to full QA passes
+   - SEO targets: "codex computer use qa testing", "codex desktop app testing", "codex gui verification", "codex ios simulator debugging", "codex computer use plugin", "codex visual bug detection"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #79)
 
 ### TrustFall MCP Security & Codex CLI Defence
