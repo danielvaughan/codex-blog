@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #84)
+
+### Completions-to-Responses Migration Pack
+
+1. ✅ **The Completions-to-Responses Migration Pack: Automating OpenAI API Migration with Codex CLI** — Written 2026-05-11 → `2026-05-11-completions-responses-migration-pack-codex-cli-automated-api-migration.md`
+   - Source: OpenAI migration guide, completions-responses-migration-pack GitHub repo, Codex changelog, OpenAI Developer Community discussion, GPT-5.5 announcement
+   - Scope: Why migrate from Chat Completions to Responses API (feature comparison table, performance gains, GPT-5 benefits), migration pack architecture (Bash script orchestrating Codex CLI non-interactive mode, branch creation, AGENTS.md deployment, approval policies), key transformations (endpoint/client updates, tool/function calling, multi-turn state, structured outputs), CI/CD integration pattern (GitHub Actions workflow, dry-run audit, tag pinning with SHA256 verification), limitations (custom streaming parsers, n parameter, temperature constraints, cache optimisation), broader pattern of Codex CLI as automated codemod engine
+   - SEO targets: "codex cli api migration", "completions to responses migration", "openai responses api migration pack", "codex cli automated codemod", "chat completions deprecated migration", "codex exec api migration ci cd"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #83)
 
 ### Enterprise Analytics & Compliance APIs
