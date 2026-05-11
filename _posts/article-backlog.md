@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #83)
+
+### Enterprise Analytics & Compliance APIs
+
+1. ✅ **Codex Enterprise Analytics and Compliance APIs: Usage Dashboards, Code Review Metrics, and Audit Integration** — Written 2026-05-11 → `2026-05-11-codex-enterprise-analytics-compliance-apis-governance-dashboards.md`
+   - Source: OpenAI Governance docs, Admin Setup docs, Compliance APIs Help Center, Config Reference docs, Managed Configuration docs, GA announcement blog
+   - Scope: Analytics Dashboard self-serve views (active users by surface, credits, Code Review metrics), Analytics API three endpoints (usage, code_reviews, code_review_responses) with authentication and pagination, Compliance API audit log exports for SIEM/DLP/eDiscovery, two access patterns (immutable logs vs stateful query), legacy stateful route deprecation (5 June 2026), BI pipeline integration pattern, SIEM integration pattern, CLI OpenTelemetry + Analytics API combined observability, admin role assignment, governance rollout checklist, retention and scope limitations
+   - SEO targets: "codex enterprise analytics API", "codex compliance API SIEM", "codex usage dashboard", "codex code review metrics API", "codex enterprise governance", "codex audit logs compliance"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-11, Hourly Task #82)
 
 ### GPT-5.5-Cyber & Defensive Security Workflows
