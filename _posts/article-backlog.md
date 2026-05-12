@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #96)
+
+### Atlas Agent Skill for Database Migrations
+
+1. ✅ **Database Schema Migrations with Codex CLI: Atlas Agent Skills, Policy-as-Code, and the Deterministic Safety Layer** — Written 2026-05-12 → `2026-05-12-codex-cli-atlas-agent-skill-database-schema-migrations-policy-as-code.md`
+   - Source: Atlas Agent Skills guide, Atlas Policy-as-Code blog (April 2026), Atlas Codex instructions guide, Codex CLI Skills docs, Codex CLI Hooks docs, AI Native Dev deterministic safety talk
+   - Scope: Atlas SKILL.md anatomy and progressive disclosure loading, project-level vs user-level installation, atlas.hcl configuration (credential isolation via getenv, schema vs database scope), seven-stage migration lifecycle (inspect → edit → validate → generate → lint → test → deploy), policy-as-code deterministic safety layer (destructive change detection, backward-incompatibility analysis, naming convention enforcement, CI/CD approval workflows, database ownership policies), ORM integration (GORM, Drizzle, Django, SQLAlchemy, Ent, Sequelize, TypeORM), workflow decision tree (versioned vs declarative), PreToolUse hooks to block direct SQL, practical column-addition walkthrough, current limitations (sandbox Docker, MCP hook gaps, credential isolation)
+   - SEO targets: "codex cli database migrations", "atlas agent skill codex", "codex cli schema migrations", "policy as code database migrations codex", "atlas skill codex cli setup", "agent-driven database migrations 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered deterministic database migration workflows with Atlas Agent Skills
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #95)
 
 ### Codex CLI Startup Sequence Deep Dive
