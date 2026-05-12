@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #92)
+
+### Iterative Repair Loops
+
+1. ✅ **Iterative Repair Loops with Codex CLI: The Review-Repair-Validate Pattern for Self-Correcting Agent Workflows** — Written 2026-05-12 → `2026-05-12-codex-cli-iterative-repair-loops-review-repair-validate-self-correcting-workflows.md`
+   - Source: OpenAI Cookbook (May 11 2026), OpenAI Non-interactive mode docs, OpenAI Advanced Configuration docs, OpenAI Models docs, Kilo.ai agentic coding workflow guide, d4b.dev Ralph Wiggum loops blog, GitHub Issue #14343
+   - Scope: Three-phase Review-Repair-Validate architecture, codex exec with --output-schema for machine-readable phase handoffs, JSON Schema enforcement for findings/repair/validation, business rules contract pattern, Bash outer loop with convergence detection, GitHub Actions CI integration, OpenTelemetry audit trails, stop conditions (max iterations, convergence, human handoff), comparison with Ralph Wiggum degenerate loop, phase-specific model routing for cost control, five generalisable application domains, current limitations (no resume + schema, token scaling, non-determinism)
+   - SEO targets: "codex cli iterative repair loop", "codex exec structured output workflow", "self-correcting agent pattern codex", "codex cli review repair validate", "codex cli automated code repair", "agentic repair loop codex cli 2026"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #91)
 
 ### Agentic Tool Configuration Research
