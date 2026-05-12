@@ -3310,3 +3310,12 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: OpenAI Codex advanced config docs, Codex CLI v0.130.0 changelog, SigNoz Codex monitoring docs, SigNoz dashboard template docs, Oodle AI agent observability docs, Opik Comet Codex integration docs, GitHub Issue #12913, Codex config-reference docs
    - Scope: v0.130 OTEL configuration reference (logs, traces, metrics exporters), SigNoz pre-built 13-panel Codex dashboard template, Oodle session-level turn-by-turn reconstruction and infrastructure metrics, Opik trace-first span-level analysis, enterprise mTLS configuration, comparison matrix across all three platforms, dual/triple-export patterns routing signals to different backends, profile-based observability switching, practical deployment checklist
    - SEO targets: "codex cli observability", "codex cli signoz", "codex cli oodle", "codex cli opik", "codex opentelemetry dashboard", "codex cli production monitoring", "codex otel configuration", "codex cli metrics"
+
+## New Articles — Auto-Generated (2026-05-12, Hourly Scan)
+
+### Python SDK & Programmatic Embedding
+
+1. ✅ **The openai-codex Python SDK: Embedding a Programmable Agent Runtime in Your Python Applications** — Written 2026-05-12 → `2026-05-12-openai-codex-python-sdk-embedding-programmable-agent-runtime.md`
+   - Source: SDK README (sdk/python/README.md), pyproject.toml (v0.131.0a4), SDK source code (api.py, errors.py, retry.py, _run.py, __init__.py), Codex repository commit history (8-commit merge sequence May 2026), OpenAI Developers docs
+   - Scope: SDK architecture (app-server JSON-RPC v2 over stdio), public API surface (Codex, AsyncCodex, Thread, TurnHandle, RunResult, AppServerConfig, ApprovalMode), quickstart one-shot pattern, multi-turn conversations, thread lifecycle management (start, resume, fork, archive, compact, list), streaming and turn controls (steer, interrupt), ApprovalMode enum (deny_all, auto_review), structured output via output_schema, typed exception hierarchy (AppServerError → JsonRpcError → ServerBusyError → RetryLimitExceededError), retry_on_overload helper with exponential backoff and jitter, async parity, comparison table (SDK vs codex exec vs MCP server), practical code review service example, current limitations, future directions
+   - SEO targets: "openai-codex python sdk", "codex python embedding", "codex app-server json-rpc", "codex programmatic api", "codex python multi-turn", "codex async client", "codex structured output python", "codex thread lifecycle"
