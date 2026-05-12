@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #98)
+
+### OpenAI Deployment Company and Codex CLI Enterprise
+
+1. ✅ **The OpenAI Deployment Company: What $4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise** — Written 2026-05-12 → `2026-05-12-openai-deployment-company-codex-cli-enterprise-forward-deployed-engineers.md`
+   - Source: OpenAI Deployment Company announcement (May 11 2026), Tomoro acquisition announcement, Running Codex Safely at OpenAI blog, PYMNTS $4B reporting, Gigged.AI FDE analysis, Fortune GSI partnerships, OpenAI Scaling Codex blog, Codex Changelog v0.130.0, Codex Governance docs, CNBC enterprise revenue
+   - Scope: $4B Deployment Company structure (TPG-led, 19 partners, majority OpenAI-owned), Tomoro acquisition (150 FDEs, UK enterprise clients), Forward Deployed Engineer model (workflow discovery, configuration engineering, observability integration), OpenAI internal Codex deployment patterns (cloud-managed requirements, Starlark rules, OTLP telemetry export), GSI partner layer (Accenture, TCS, Capgemini, etc.), four-level enterprise configuration maturity ladder, Palantir FDE model comparison and limits, practical implications for practitioners
+   - SEO targets: "openai deployment company codex", "codex cli enterprise deployment", "forward deployed engineers codex", "codex enterprise configuration", "codex cli governance enterprise", "running codex safely enterprise 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI Deployment Company announced May 11 2026 with no existing article coverage of this $4B enterprise strategy and its Codex CLI implications
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #97)
 
 ### Linux Kernel Development with Codex CLI
