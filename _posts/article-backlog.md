@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #89)
+
+### Auto-Review Internals Deep Dive
+
+1. ✅ **Codex CLI Auto-Review Internals: Circuit Breakers, Denial Handling, and Custom Policy Authoring** — Written 2026-05-12 → `2026-05-12-codex-cli-auto-review-internals-circuit-breakers-denial-handling-custom-policies.md`
+   - Source: OpenAI Auto-review docs (May 11 expansion), Agent approvals & security docs, Configuration Reference docs, Managed configuration docs, Changelog (May 2026), Advanced Configuration docs
+   - Scope: Auto-review as reviewer substitution (not permission expansion), five trigger condition categories (shell/exec, network, file edits, MCP/app tools, Browser Use), reviewer information model (compact transcript, hidden CoT exclusion), four denial categories (data exfiltration, credential probing, security degradation, destructive actions), denial handling with anti-circumvention instructions, circuit breaker mechanics (3 consecutive or 10/50 ratio), /approve single-use override mechanism, custom policy authoring via [auto_review].policy in config.toml, enterprise guardian_policy_config managed override, "strengthen the sandbox first" optimisation strategy, session transcript analysis for policy tuning, fundamental limits acknowledgement
+   - SEO targets: "codex cli auto-review internals", "codex auto-review circuit breaker", "codex cli denial handling", "codex auto-review custom policy", "codex guardian policy config", "codex cli approval policy auto review"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #88)
 
 ### OpenAI Daybreak & Codex Security Enterprise Platform
