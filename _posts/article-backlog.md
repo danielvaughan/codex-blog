@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #97)
+
+### Linux Kernel Development with Codex CLI
+
+1. ✅ **Linux Kernel Development with Codex CLI: From Module Scaffolding to LKML Submission** — Written 2026-05-12 → `2026-05-12-codex-cli-linux-kernel-development-modules-drivers-lkml-submission.md`
+   - Source: LKML prom21-xhci patch (May 2026), Linux kernel AI coding assistants policy (kernel.org), Phoronix coverage, Sashiko AI reviewer (Medium/The Register), OpenAI Codex CLI docs (AGENTS.md, hooks, sandbox, models, non-interactive mode), Linux kernel coding style docs
+   - Scope: Linux 7.0 AI coding assistants policy (Assisted-by tag format, DCO restrictions, human accountability), AGENTS.md configuration for kernel coding style enforcement, sandbox config.toml for kernel build toolchain access, PostToolUse hooks for automatic checkpatch.pl validation, prom21-xhci driver case study (HWMON driver scaffolding to LKML submission), Sashiko nine-stage AI code review system, model selection for systems-level C, practical workflow from codex exec scaffolding through git format-patch, current limitations (no in-kernel testing from sandbox, hardware context gaps)
+   - SEO targets: "codex cli linux kernel development", "codex cli kernel module", "codex cli kernel driver", "AI linux kernel patch", "codex cli checkpatch", "codex cli systems programming 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — prom21-xhci LKML submission (May 8 2026) and Linux 7.0 AI coding assistants policy (April 2026) created a timely gap no existing article covered
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #96)
 
 ### Atlas Agent Skill for Database Migrations
