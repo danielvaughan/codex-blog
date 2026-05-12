@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #95)
+
+### Codex CLI Startup Sequence Deep Dive
+
+1. ✅ **What Happens When You Type codex: The Complete Startup Sequence from Binary to First Model Call** — Written 2026-05-12 → `2026-05-12-codex-cli-startup-sequence-binary-to-first-model-call.md`
+   - Source: OpenAI Config Basics docs, OpenAI Config Advanced docs, OpenAI Config Reference docs, OpenAI Config Sample docs, OpenAI AGENTS.md guide, OpenAI Skills docs, OpenAI MCP docs, OpenAI Rules docs, OpenAI CLI Reference docs, OpenAI CLI Features docs, OpenAI Codex Prompting Guide (Cookbook), OpenAI Prompt Caching 201 (Cookbook), OpenAI Agent Approvals & Security docs
+   - Scope: Complete ten-phase startup sequence (binary resolution, config layer resolution with six-level precedence hierarchy, authentication flows, AGENTS.md instruction chain assembly with override semantics, skills progressive-disclosure loading, MCP server initialisation with handshake protocol, Starlark rules compilation with inline unit tests, platform-specific sandbox initialisation on macOS/Linux/Windows, TUI rendering, first Responses API request construction), prompt-cache cost implications, startup troubleshooting table
+   - SEO targets: "codex cli startup sequence", "codex cli initialization", "codex config resolution order", "codex cli agents md loading", "codex cli mcp server startup", "what happens when you type codex"
+   - Note: No backlog items with 📝 status remained; topic selected from genuine gap analysis — no existing article traced the complete startup lifecycle from binary launch to first model call
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #94)
 
 ### Custom CUDA Kernels with Codex CLI
