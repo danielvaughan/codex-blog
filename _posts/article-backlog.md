@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #94)
+
+### Custom CUDA Kernels with Codex CLI
+
+1. ✅ **Custom CUDA Kernels with Codex CLI: The Hugging Face Agent Skill for GPU Programming** — Written 2026-05-12 → `2026-05-12-codex-cli-cuda-kernels-huggingface-agent-skill-gpu-programming.md`
+   - Source: Hugging Face CUDA kernel agent skill blog, Hugging Face kernel-builder docs, OpenAI Skills docs, OpenAI Models docs, OpenAI Agent Approvals docs, OpenAI Non-interactive mode docs, AAIF/SKILL.md standard, Phoronix AMD prom21-xhci driver report
+   - Scope: Hugging Face CUDA kernel agent skill architecture (SKILL.md + scripts + GPU-specific reference docs), installation for Codex CLI (--codex flag), progressive disclosure loading, kernel development workflow (prompt → CUDA source → PyTorch bindings → build.toml → benchmarks → Hub publishing), RMSNorm benchmark results (1.58-2.47x speedup on H100), end-to-end pipeline impact (LTX-Video 6% gain, 43% with torch.compile), kernel-builder Nix cross-compilation, get_kernel() zero-compilation distribution, sandbox GPU passthrough limitations, model selection for GPU work, AGENTS.md patterns for kernel repos, prom21-xhci Linux kernel driver case study, current limitations
+   - SEO targets: "codex cli cuda kernels", "codex cli gpu programming", "hugging face cuda agent skill codex", "codex cli pytorch kernel development", "codex cli systems programming", "cuda kernel agent skill 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from Hugging Face CUDA kernel skill (February 2026) — no existing article coverage of GPU/CUDA kernel development with Codex CLI
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #93)
 
 ### Codex CLI as MCP Server + Agents SDK
