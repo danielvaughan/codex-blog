@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #99)
+
+### Codex CLI for Embedded and IoT Development
+
+1. ✅ **Codex CLI for Embedded and IoT Development: Firmware Generation, Cross-Compilation, and Hardware-Aware Agent Workflows** — Written 2026-05-13 → `2026-05-13-codex-cli-embedded-iot-development-esp32-stm32-firmware-cross-compilation.md`
+   - Source: Espressif Docs MCP Server blog, ESP-IDF Tools MCP Server blog, Phoronix prom21-xhci driver report, OpenAI AGENTS.md guide, OpenAI Best Practices docs, PlatformIO ESP-IDF docs, OpenAI Sandbox docs, OpenAI CLI Reference docs, OpenAI CLI Features docs, OpenAI Non-interactive mode docs, Embedder.com, PleaseDontCode.com
+   - Scope: AGENTS.md conventions for embedded C/firmware (HAL layers, register access, ISR constraints, pin assignments), Espressif dual MCP server architecture (documentation + tools), PlatformIO as unified build orchestrator across 1400+ boards, sandbox configuration for cross-compilation toolchains (--add-dir, serial port access), prom21-xhci AI-generated Linux kernel driver case study, three embedded workflow patterns (datasheet-driven driver generation, native test-first, peripheral config auditing), comparison table vs specialised tools (Embedder, PleaseDontCode), current limitations (no hardware access from sandbox, no RTOS awareness, no simulation integration)
+   - SEO targets: "codex cli embedded development", "codex cli esp32 firmware", "codex cli stm32 cross compilation", "codex cli iot agent workflow", "espressif mcp server codex", "codex cli platformio embedded"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered embedded systems, IoT, firmware generation, or cross-compilation workflows with Codex CLI
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #98)
 
 ### OpenAI Deployment Company and Codex CLI Enterprise
