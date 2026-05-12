@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #93)
+
+### Codex CLI as MCP Server + Agents SDK
+
+1. ✅ **Codex CLI as an MCP Server: Building Multi-Agent Workflows with the OpenAI Agents SDK** — Written 2026-05-12 → `2026-05-12-codex-cli-agents-sdk-mcp-server-multi-agent-workflows.md`
+   - Source: OpenAI Agents SDK guide, OpenAI Cookbook (Codex + Agents SDK), Codex MCP docs, Agent Approvals docs, Models docs, Codex SDK docs, Tracing & Observability docs, Codex-Spark announcement
+   - Scope: codex mcp-server architecture (codex() and codex-reply() tools), MCPServerStdio setup with 360,000s timeout, single-agent scoped execution pattern, five-agent gated hand-off orchestration (PM → Designer → Frontend/Backend parallel → Tester), artefact validation gates, session continuity via threadId, OpenAI Traces dashboard observability, per-agent model selection for cost control, workspace isolation, error handling, cost implications, comparison table (codex exec vs MCP server vs Python SDK vs native subagents), current limitations
+   - SEO targets: "codex cli mcp server agents sdk", "codex multi-agent workflow", "codex agents sdk orchestration", "codex mcp-server setup", "openai agents sdk codex integration", "codex cli multi-agent hand-off"
+   - Note: No backlog items with 📝 status remained; topic selected from recent OpenAI Cookbook and official Agents SDK guide
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #92)
 
 ### Iterative Repair Loops
