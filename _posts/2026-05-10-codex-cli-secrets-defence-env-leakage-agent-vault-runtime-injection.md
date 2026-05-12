@@ -5,6 +5,9 @@ nav_order: 655
 tags: ["codex-cli", "security", "secrets-management", "environment-variables", "agent-vault", "shell-environment-policy"]
 ---
 
+![Sketchnote diagram for: Codex CLI Secrets Defence: Preventing .env Leakage with shell_environment_policy, agent-env, and Infisical Agent Vault](/sketchnotes/articles/2026-05-10-codex-cli-secrets-defence-env-leakage-agent-vault-runtime-injection.png)
+
+
 # Codex CLI Secrets Defence: Preventing .env Leakage with shell_environment_policy, agent-env, and Infisical Agent Vault
 
 

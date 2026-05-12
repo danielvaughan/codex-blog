@@ -5,6 +5,9 @@ nav_order: 673
 tags: ["codex-cli", "computer-use", "qa-testing", "desktop-automation", "macos", "gui-testing", "visual-regression"]
 ---
 
+![Sketchnote diagram for: Codex Computer Use for QA Testing: Automated GUI Verification, Desktop App Testing, and Visual Bug Detection](/sketchnotes/articles/2026-05-11-codex-computer-use-qa-testing-desktop-app-gui-verification.png)
+
+
 # Codex Computer Use for QA Testing: Automated GUI Verification, Desktop App Testing, and Visual Bug Detection
 
 

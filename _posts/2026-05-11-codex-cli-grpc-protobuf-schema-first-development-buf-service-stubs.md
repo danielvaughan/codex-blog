@@ -5,6 +5,9 @@ nav_order: 674
 tags: ["codex-cli", "grpc", "protobuf", "protocol-buffers", "buf", "code-generation", "schema-first", "contract-testing", "api-development"]
 ---
 
+![Sketchnote diagram for: Codex CLI for gRPC and Protocol Buffer Development: Schema-First Workflows with buf, Code Generation, and Contract Safety](/sketchnotes/articles/2026-05-11-codex-cli-grpc-protobuf-schema-first-development-buf-service-stubs.png)
+
+
 # Codex CLI for gRPC and Protocol Buffer Development: Schema-First Workflows with buf, Code Generation, and Contract Safety
 
 

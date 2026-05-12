@@ -5,6 +5,9 @@ nav_order: 678
 tags: ["codex-cli", "agentic-coding", "multi-agent", "industry-trends", "context-engineering", "orchestration", "enterprise"]
 ---
 
+![Sketchnote diagram for: Anthropic's 2026 Agentic Coding Trends Report: What It Means for Codex CLI Practitioners](/sketchnotes/articles/2026-05-11-anthropic-agentic-coding-trends-report-codex-cli-practitioner-response.png)
+
+
 # Anthropic's 2026 Agentic Coding Trends Report: What It Means for Codex CLI Practitioners
 
 

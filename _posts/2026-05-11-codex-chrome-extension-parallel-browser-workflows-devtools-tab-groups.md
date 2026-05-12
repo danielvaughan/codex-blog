@@ -5,6 +5,9 @@ nav_order: 653
 tags: ["codex-cli", "chrome-extension", "browser-automation", "devtools", "developer-workflows"]
 ---
 
+![Sketchnote diagram for: The Codex Chrome Extension: Parallel Browser Workflows, DevTools Integration, and Domain Access Control](/sketchnotes/articles/2026-05-11-codex-chrome-extension-parallel-browser-workflows-devtools-tab-groups.png)
+
+
 # The Codex Chrome Extension: Parallel Browser Workflows, DevTools Integration, and Domain Access Control
 
 

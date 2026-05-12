@@ -5,6 +5,9 @@ nav_order: 684
 tags: ["codex-cli", "codex-exec", "iterative-repair", "structured-output", "agent-patterns", "automation", "self-healing", "validation"]
 ---
 
+![Sketchnote diagram for: Iterative Repair Loops with Codex CLI: The Review-Repair-Validate Pattern for Self-Correcting Agent Workflows](/sketchnotes/articles/2026-05-12-codex-cli-iterative-repair-loops-review-repair-validate-self-correcting-workflows.png)
+
+
 # Iterative Repair Loops with Codex CLI: The Review-Repair-Validate Pattern for Self-Correcting Agent Workflows
 
 

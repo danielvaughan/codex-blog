@@ -5,6 +5,9 @@ nav_order: 679
 tags: ["codex-cli", "machine-learning", "mlops", "mlflow", "experiment-tracking", "pytorch", "hugging-face", "mcp"]
 ---
 
+![Sketchnote diagram for: Codex CLI for ML Engineering: Training Scripts, Experiment Tracking, and MLOps Pipeline Automation](/sketchnotes/articles/2026-05-11-codex-cli-ml-engineering-training-scripts-experiment-tracking-mlops-pipelines.png)
+
+
 # Codex CLI for ML Engineering: Training Scripts, Experiment Tracking, and MLOps Pipeline Automation
 
 

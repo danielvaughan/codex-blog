@@ -5,6 +5,9 @@ nav_order: 680
 tags: ["codex-cli", "codex-security", "daybreak", "cybersecurity", "GPT-5.5-Cyber", "enterprise", "vulnerability-management"]
 ---
 
+![Sketchnote diagram for: OpenAI Daybreak and Codex Security: From Developer Tool to Enterprise Cyber Defence Platform](/sketchnotes/articles/2026-05-12-openai-daybreak-codex-security-enterprise-cyber-defence-platform.png)
+
+
 # OpenAI Daybreak and Codex Security: From Developer Tool to Enterprise Cyber Defence Platform
 
 

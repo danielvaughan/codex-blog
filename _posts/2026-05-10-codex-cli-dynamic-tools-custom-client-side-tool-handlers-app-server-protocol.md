@@ -5,6 +5,9 @@ nav_order: 672
 tags: ["codex-cli", "app-server", "dynamic-tools", "integration", "sdk", "json-rpc", "advanced"]
 ---
 
+![Sketchnote diagram for: Codex CLI Dynamic Tools: Building Custom Client-Side Tool Handlers via the App-Server Protocol](/sketchnotes/articles/2026-05-10-codex-cli-dynamic-tools-custom-client-side-tool-handlers-app-server-protocol.png)
+
+
 # Codex CLI Dynamic Tools: Building Custom Client-Side Tool Handlers via the App-Server Protocol
 
 

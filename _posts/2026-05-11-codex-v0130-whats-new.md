@@ -4,6 +4,9 @@ date: 2026-05-11T00:00:00+00:00
 tags: [codex-cli, changelog, plugins, mcp, remote-control]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.130.0: What's New and Why It Matters](/sketchnotes/articles/2026-05-11-codex-v0130-whats-new.png)
+
+
 # Codex CLI v0.130.0: What's New and Why It Matters
 
 Published: 11 May 2026

@@ -5,6 +5,9 @@ nav_order: 675
 tags: ["codex-cli", "gpt-5.5-cyber", "security", "trusted-access", "vulnerability-triage", "patch-validation", "detection-engineering", "cyber-defence"]
 ---
 
+![Sketchnote diagram for: GPT-5.5-Cyber and Codex CLI: Trusted Access, Defensive Workflows, and the Security-Permissive Model Tier](/sketchnotes/articles/2026-05-11-gpt-5-5-cyber-codex-cli-trusted-access-defensive-security-workflows.png)
+
+
 # GPT-5.5-Cyber and Codex CLI: Trusted Access, Defensive Workflows, and the Security-Permissive Model Tier
 
 

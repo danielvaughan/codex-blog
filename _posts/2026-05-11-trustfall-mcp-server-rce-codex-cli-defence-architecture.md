@@ -5,6 +5,9 @@ nav_order: 654
 tags: ["security", "MCP", "supply-chain", "TrustFall", "sandbox", "codex-cli"]
 ---
 
+![Sketchnote diagram for: The TrustFall Vulnerability: How One Keypress Gives MCP Servers Full System Access — and Why Codex CLI Is Not Affected](/sketchnotes/articles/2026-05-11-trustfall-mcp-server-rce-codex-cli-defence-architecture.png)
+
+
 # The TrustFall Vulnerability: How One Keypress Gives MCP Servers Full System Access — and Why Codex CLI Is Not Affected
 
 

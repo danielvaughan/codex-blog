@@ -5,6 +5,9 @@ nav_order: 676
 tags: ["codex-cli", "enterprise", "analytics", "compliance", "governance", "SIEM", "API", "dashboards"]
 ---
 
+![Sketchnote diagram for: Codex Enterprise Analytics and Compliance APIs: Usage Dashboards, Code Review Metrics, and Audit Integration](/sketchnotes/articles/2026-05-11-codex-enterprise-analytics-compliance-apis-governance-dashboards.png)
+
+
 # Codex Enterprise Analytics and Compliance APIs: Usage Dashboards, Code Review Metrics, and Audit Integration
 
 

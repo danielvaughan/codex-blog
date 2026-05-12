@@ -5,6 +5,9 @@ nav_order: 652
 tags: ["codex-cli", "enterprise", "managed-configuration", "requirements-toml", "compliance", "governance", "RBAC", "MDM", "security"]
 ---
 
+![Sketchnote diagram for: Codex CLI Enterprise Managed Configuration: Cloud Policies, Group-Based Enforcement, and Compliance Governance](/sketchnotes/articles/2026-05-11-codex-cli-enterprise-managed-configuration-cloud-policies-group-enforcement-compliance.png)
+
+
 # Codex CLI Enterprise Managed Configuration: Cloud Policies, Group-Based Enforcement, and Compliance Governance
 
 

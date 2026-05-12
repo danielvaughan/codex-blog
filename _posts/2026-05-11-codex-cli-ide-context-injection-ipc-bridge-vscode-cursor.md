@@ -5,6 +5,9 @@ nav_order: 678
 tags: ["codex-cli", "ide-integration", "ipc", "vscode", "cursor", "slash-commands", "v0.129", "developer-experience"]
 ---
 
+![Sketchnote diagram for: Codex CLI /ide Context Injection: Bridging Your Terminal and Editor Through IPC](/sketchnotes/articles/2026-05-11-codex-cli-ide-context-injection-ipc-bridge-vscode-cursor.png)
+
+
 # Codex CLI /ide Context Injection: Bridging Your Terminal and Editor Through IPC
 
 

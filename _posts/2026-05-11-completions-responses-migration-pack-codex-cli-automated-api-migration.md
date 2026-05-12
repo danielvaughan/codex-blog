@@ -5,6 +5,9 @@ nav_order: 677
 tags: ["codex-cli", "responses-api", "chat-completions", "migration", "automation", "api", "codex-exec", "ci-cd", "gpt-5", "developer-tools"]
 ---
 
+![Sketchnote diagram for: The Completions-to-Responses Migration Pack: Automating OpenAI API Migration with Codex CLI](/sketchnotes/articles/2026-05-11-completions-responses-migration-pack-codex-cli-automated-api-migration.png)
+
+
 # The Completions-to-Responses Migration Pack: Automating OpenAI API Migration with Codex CLI
 
 

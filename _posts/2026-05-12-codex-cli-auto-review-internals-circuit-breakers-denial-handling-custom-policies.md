@@ -5,6 +5,9 @@ nav_order: 681
 tags: ["codex-cli", "auto-review", "guardian", "circuit-breaker", "approval-policy", "security", "config-toml", "enterprise", "denial-handling"]
 ---
 
+![Sketchnote diagram for: Codex CLI Auto-Review Internals: Circuit Breakers, Denial Handling, and Custom Policy Authoring](/sketchnotes/articles/2026-05-12-codex-cli-auto-review-internals-circuit-breakers-denial-handling-custom-policies.png)
+
+
 # Codex CLI Auto-Review Internals: Circuit Breakers, Denial Handling, and Custom Policy Authoring
 
 

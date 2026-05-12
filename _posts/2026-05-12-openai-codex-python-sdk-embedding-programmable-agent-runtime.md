@@ -5,6 +5,9 @@ nav_order: 685
 tags: ["codex-cli", "python-sdk", "app-server", "json-rpc", "automation", "embedding", "async", "structured-output", "agent-runtime"]
 ---
 
+![Sketchnote diagram for: The openai-codex Python SDK: Embedding a Programmable Agent Runtime in Your Python Applications](/sketchnotes/articles/2026-05-12-openai-codex-python-sdk-embedding-programmable-agent-runtime.png)
+
+
 # The openai-codex Python SDK: Embedding a Programmable Agent Runtime in Your Python Applications
 
 
