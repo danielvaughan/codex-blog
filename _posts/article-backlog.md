@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #90)
+
+### WarpGrep RL Code Search Subagent
+
+1. ✅ **WarpGrep and Codex CLI: Adding an RL-Trained Code Search Subagent via MCP** — Written 2026-05-12 → `2026-05-12-codex-cli-warpgrep-mcp-rl-code-search-subagent-morph.md`
+   - Source: Morph WarpGrep product page, Morph SDK docs, WarpGrep v2 YC launch, Morph MCP quickstart docs, Morph SWE-grep vs WarpGrep comparison, OpenAI MCP docs, OpenAI Subagents docs, OpenAI Non-interactive mode docs
+   - Scope: RL-trained code search subagent architecture (parallel breadth-first search, precision-over-recall reward function), SWE-bench Pro performance lift (+3.1 points with Codex, -17% input tokens, -28% wall-clock time), MCP server setup via @morphllm/morphmcp (CLI and manual TOML), environment variables and configuration, project-scoped vs global setup, custom subagent definition with WarpGrep, SWE-grep vs WarpGrep comparison table, three practical workflow patterns (onboarding, CI triage, GitHub search), cost analysis ($0.003/search), limitations
+   - SEO targets: "warpgrep codex cli", "codex cli code search subagent", "morph mcp codex cli", "warpgrep mcp server setup", "rl code search agent codex", "codex cli codebase search"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #89)
 
 ### Auto-Review Internals Deep Dive
