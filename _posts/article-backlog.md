@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #91)
+
+### Agentic Tool Configuration Research
+
+1. ✅ **How Developers Actually Configure Agentic Coding Tools: What 2,926 Repositories Reveal About the Codex CLI Adoption Gap** — Written 2026-05-12 → `2026-05-12-configuring-agentic-coding-tools-research-codex-cli-adoption-gap.md`
+   - Source: arXiv:2602.14690 (Galster et al.), OpenAI AGENTS.md docs, OpenAI config-reference docs, OpenAI Skills docs, OpenAI Hooks docs, OpenAI Advanced Configuration docs, OpenAI Changelog
+   - Scope: First large-scale empirical study of 2,926 GitHub repositories examining eight configuration mechanisms across five agentic tools, 90% context file dominance with AGENTS.md as interoperable standard, 83.3% of skills containing no executable resources, only 5.4% of repos using skills and 4.5% using subagents, four-level configuration maturity model for Codex CLI, practical upgrade path from context files through full orchestration, language-specific adoption patterns, interoperability strategy
+   - SEO targets: "codex cli configuration best practices", "AGENTS.md adoption", "codex cli skills adoption", "agentic coding tool configuration research", "codex cli config maturity", "codex cli setup guide 2026"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-12, Hourly Task #90)
 
 ### WarpGrep RL Code Search Subagent
