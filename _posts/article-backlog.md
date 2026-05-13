@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #103)
+
+### Google Antigravity vs Codex CLI
+
+1. ✅ **Google Antigravity vs Codex CLI: Multi-Agent IDE Meets Terminal-First Agent in the 2026 Coding Wars** — Written 2026-05-13 → `2026-05-13-google-antigravity-vs-codex-cli-multi-agent-ide-terminal-first-comparison.md`
+   - Source: Google Developers Blog Antigravity announcement, Lushbinary Antigravity guide, OpenAI Codex GitHub, Unrolling the Codex agent loop blog, OpenAI Models docs, Terminal-Bench 2.0 leaderboard, Antigravity.codes AGENTS.md guide, OpenAI AGENTS.md guide, antigravity-awesome-skills GitHub, OpenAI Skills docs, Antigravity MCP docs, OpenAI MCP docs, OpenAI Non-interactive mode docs, OpenAI Agent Approvals docs, antigravity-agent GitHub, OpenAI Subagents docs, OpenAI Changelog
+   - Scope: Architecture comparison (wide multi-agent coordination vs deep single-agent execution), model support and benchmark performance (Terminal-Bench 2.0, SWE-Bench Verified), convergence layer analysis (AGENTS.md portability, SKILL.md cross-platform compatibility, MCP server sharing), per-tool strengths (Antigravity: browser verification, ambiguous requirements, greenfield exploration; Codex CLI: terminal-native workflows, sandbox security, CI/CD automation, open-source), combined three-phase workflow (plan in Antigravity, implement in Codex CLI, verify in Antigravity), pricing comparison, current limitations of both tools, practical migration notes for Codex CLI users
+   - SEO targets: "codex cli vs antigravity", "google antigravity codex comparison", "antigravity vs codex cli 2026", "multi-agent ide vs terminal agent", "codex cli antigravity skills portability", "agentic coding tools comparison 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Google Antigravity comparison with Codex CLI despite Antigravity being a major new competitor launched November 2025
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #102)
 
 ### Infrastructure as Code with Codex CLI
