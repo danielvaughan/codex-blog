@@ -3492,3 +3492,12 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Codex CLI installation, configuration, and agent environment management via NixOS and Nix Flakes.
    - Scope: Installing Codex CLI via Nix (codex-cli-nix, codex-nix, numtide/llm-agents.nix), Home Manager and NixOS system-level installation, project-specific devShells with pinned toolchains, layering Nix sandboxing (agent-sandbox.nix, bubblewrap) on top of Codex native sandbox, Flox as agent-friendly Nix wrapper, sandbox configuration interaction (/nix/store read access), reproducible CI pipelines with Cachix, team configuration patterns (per-role devShells, pinned CLI versions via flake.lock), current limitations (macOS sandbox interaction, flake stability, Windows/WSL)
    - SEO targets: "codex cli nixos", "codex nix flakes", "reproducible agent environments", "nix devshell codex", "declarative toolchain agent", "agent-sandbox.nix", "codex cli nix install", "hermetic development shell codex"
+
+## New Articles — Auto-Generated (2026-05-14, Hourly Task #107)
+
+### Supply Chain Compliance & SBOM
+
+1. ✅ **Codex CLI for Automated Dependency Auditing: Licence Compliance, SBOM Generation, and Supply Chain Policy Enforcement** — Written 2026-05-14 → `2026-05-14-codex-cli-dependency-auditing-licence-compliance-sbom-generation-supply-chain-policy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Codex CLI integration with SBOM generation, licence compliance scanning, or supply chain policy enforcement. Adjacent articles on lockfile discipline (2026-04-20) and Snyk MCP (2026-05-08) cover different angles.
+   - Scope: Syft as recommended SBOM generator (post-Trivy March 2026 supply chain compromise), CycloneDX 1.6 vs SPDX 2.3 format comparison, codex exec one-shot SBOM generation, interactive licence exploration with dedicated profiles, AGENTS.md licence policy encoding, PreToolUse hook enforcement for dependency installs, multi-ecosystem audit skill (.agents/skills/), CI pipeline integration with GitHub Actions weekly audit, regulatory context (EU Cyber Resilience Act, US EO 14028), Grype pairing for vulnerability scanning on SBOM output
+   - SEO targets: "codex cli sbom", "codex cli licence compliance", "codex dependency audit", "codex cli cyclonedx", "codex cli spdx", "codex syft sbom generation", "codex supply chain policy", "codex cli licence scanning"
