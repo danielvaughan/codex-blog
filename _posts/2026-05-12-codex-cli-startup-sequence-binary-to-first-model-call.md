@@ -5,6 +5,8 @@ nav_order: 688
 tags: ["codex-cli", "internals", "architecture", "startup", "configuration", "AGENTS.md", "MCP", "sandbox", "skills"]
 ---
 
+![Sketchnote diagram for: What Happens When You Type codex: The Complete Startup Sequence from Binary to First Model Call](/sketchnotes/articles/2026-05-12-codex-cli-startup-sequence-binary-to-first-model-call.png)
+
 # What Happens When You Type `codex`: The Complete Startup Sequence from Binary to First Model Call
 
 

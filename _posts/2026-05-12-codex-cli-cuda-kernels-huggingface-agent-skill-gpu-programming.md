@@ -5,6 +5,8 @@ nav_order: 687
 tags: ["codex-cli", "cuda", "gpu", "hugging-face", "kernels", "agent-skills", "pytorch", "performance", "systems-programming"]
 ---
 
+![Sketchnote diagram for: Custom CUDA Kernels with Codex CLI: The Hugging Face Agent Skill for GPU Programming](/sketchnotes/articles/2026-05-12-codex-cli-cuda-kernels-huggingface-agent-skill-gpu-programming.png)
+
 # Custom CUDA Kernels with Codex CLI: The Hugging Face Agent Skill for GPU Programming
 
 

@@ -5,6 +5,8 @@ nav_order: 689
 tags: ["codex-cli", "atlas", "database-migrations", "agent-skills", "policy-as-code", "postgres", "schema-management"]
 ---
 
+![Sketchnote diagram for: Database Schema Migrations with Codex CLI: Atlas Agent Skills, Policy-as-Code, and the Deterministic Safety Layer](/sketchnotes/articles/2026-05-12-codex-cli-atlas-agent-skill-database-schema-migrations-policy-as-code.png)
+
 # Database Schema Migrations with Codex CLI: Atlas Agent Skills, Policy-as-Code, and the Deterministic Safety Layer
 
 
