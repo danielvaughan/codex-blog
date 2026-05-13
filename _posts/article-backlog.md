@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #108)
+
+### Codex CLI Inside VS Code's Multi-Agent Architecture
+
+1. ✅ **Codex CLI Inside VS Code's Multi-Agent Architecture: Agent Sessions, Model Selection, and the Unified Development Experience** — Written 2026-05-14 → `2026-05-14-codex-cli-inside-vscode-multi-agent-architecture-agent-sessions-unified-development.md`
+   - Source: VS Code Blog multi-agent development (Feb 2026), VS Code Docs agents overview, VS Code Docs third-party agents, OpenAI Advanced Configuration docs, Morph LLM VS Code Multi-Agent Guide, VS Code Docs agent skills, VS Code Docs agent hooks, GitHub Blog Copilot Business & Pro agents, OpenAI CLI Features docs
+   - Scope: VS Code 1.109 multi-agent architecture (local/background/cloud agent sessions), Codex CLI as local and cloud agent in VS Code alongside Claude and Copilot, Agent Sessions sidebar for unified session management, configuration portability (AGENTS.md, SKILL.md, hooks across agents), three practical workflow patterns (parallel feature development, debug-fix-verify cycle, large-scale refactoring), model selection and cost considerations, /ide bridge for CLI-to-editor context, current limitations (no cross-agent handoff, memory overhead, hook duplication, AGENTS.md interpretation variance)
+   - SEO targets: "codex cli vscode multi-agent", "vs code agent sessions codex", "codex copilot claude vscode", "vs code multi-agent development 2026", "codex cli ide integration", "vs code unified agent experience"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered VS Code 1.109's multi-agent architecture and how Codex CLI operates alongside Claude and Copilot in the unified Agent Sessions view
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #107)
 
 ### GPT-5.3-Codex Malware Injection Incident and Defence Patterns
