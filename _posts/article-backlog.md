@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #101)
+
+### Codex CLI for iOS 26 Liquid Glass Migration
+
+1. ✅ **Migrating SwiftUI Apps to Liquid Glass with Codex CLI: Agent Skills, XcodeBuildMCP, and iOS 26 Workflows** — Written 2026-05-13 → `2026-05-13-codex-cli-liquid-glass-ios26-swiftui-migration-agent-skills-xcodebuildmcp.md`
+   - Source: Apple Liquid Glass Newsroom announcement, Apple Developer Documentation (glassEffect), dpearson2699/swift-ios-skills, AvdLee/SwiftUI-Agent-Skill, getsentry/XcodeBuildMCP, Xcode 26.3 agentic coding announcement, Xcode 26.5 release (9to5Mac), OpenAI Codex Liquid Glass use case, OpenAI Skills docs, OpenAI AGENTS.md guide, DEV Community Liquid Glass best practices, OpenAI Models docs, OpenAI Sandbox docs
+   - Scope: Liquid Glass API surface (glassEffect variants, GlassEffectContainer, morphing transitions with glassEffectID), community agent skills for iOS 26 (dpearson2699 84-skill set, AvdLee SwiftUI skill), XcodeBuildMCP configuration for terminal-based build and simulator verification, three-phase migration workflow (audit → migrate → validate), AGENTS.md constraints for safe Liquid Glass adoption, availability gating patterns (#available iOS 26), Xcode 26.3/26.5 native agent integration comparison, model selection and cost control for migration projects, current limitations (no runtime interaction testing, skill currency lag, sandbox simulator constraints)
+   - SEO targets: "codex cli liquid glass migration", "codex cli ios 26 swiftui", "liquid glass swiftui codex", "xcodebuildmcp codex cli", "codex cli ios agent skills", "liquid glass migration agent workflow 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered iOS 26 Liquid Glass migration workflows with Codex CLI, agent skills, and XcodeBuildMCP
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #100)
 
 ### Codex CLI for Monolith Decomposition
