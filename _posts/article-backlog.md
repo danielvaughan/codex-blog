@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #105)
+
+### Codex CLI for Knowledge Work Beyond Code
+
+1. ✅ **Codex CLI for Knowledge Work: Data Analysis, Report Generation, and Slide Deck Automation Beyond Code** — Written 2026-05-13 → `2026-05-13-codex-cli-knowledge-work-data-analysis-reports-slides-beyond-code.md`
+   - Source: OpenAI "Codex for (almost) everything" announcement, Codex Non-interactive mode docs, Codex Models docs, Codex use cases (datasets-and-reports, generate-slide-decks, follow-goals), Codex Skills docs, Codex CLI Reference docs, GitHub Issue #14343, Codex Automations docs, Codex Best Practices docs, OpenAI GPT-5.5 announcement, MindStudio Codex knowledge workers analysis, DataCamp Codex data workflow guide
+   - Scope: Using codex exec for non-coding knowledge work (data profiling, structured JSON output via --output-schema, codex exec resume for multi-step analysis), AGENTS.md conventions for data analysis projects, financial modelling patterns (DCF, cash flow), slide deck automation with $slides and $imagegen skills (PptxGenJS, python-pptx), model selection table for knowledge work tasks, batch deck generation, scheduled pipelines via cron, current limitations (no runtime library install, output-schema/resume conflict, validation requirements)
+   - SEO targets: "codex cli data analysis", "codex cli report generation", "codex cli slide decks", "codex exec knowledge work", "codex cli beyond code 2026", "codex cli structured output automation"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered practical CLI-driven knowledge work workflows combining data analysis, report generation, and slide deck automation with codex exec
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #104)
 
 ### Codex CLI for WebAssembly Development
