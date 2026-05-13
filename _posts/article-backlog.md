@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #102)
+
+### Infrastructure as Code with Codex CLI
+
+1. ✅ **Infrastructure as Code with Codex CLI: The Terraform Skill, HashiCorp MCP Server, and Agent-Driven IaC Workflows** — Written 2026-05-13 → `2026-05-13-codex-cli-terraform-opentofu-iac-agent-skill-mcp-server-infrastructure-workflows.md`
+   - Source: antonbabenko/terraform-skill GitHub, HashiCorp Terraform MCP Server docs, OpenAI Skills docs, OpenAI MCP docs, OpenAI AGENTS.md guide, OpenAI Hooks docs, OpenAI Sandbox docs, OpenAI Models docs, OpenAI Non-interactive mode docs, OpenAI Agent Approvals docs, OpenTofu migration docs, OpenAI Codex-Spark announcement
+   - Scope: terraform-skill installation and progressive disclosure loading (six domains: testing, modules, state, CI/CD, security, patterns), HashiCorp Terraform MCP Server configuration (stdio and HTTP transports, registry tools, workspace management, beta status), dual-grounding architecture (skill for conventions + MCP for live data), AGENTS.md conventions for IaC repos, PreToolUse/PostToolUse hooks for Terraform safety (destroy prevention, fmt/validate enforcement), OpenTofu compatibility and limitations, cost estimation with Infracost, security scanning with Checkov/Trivy, model selection for IaC tasks, sandbox networking constraints for provider downloads, state file sensitivity and deny-read policies
+   - SEO targets: "codex cli terraform", "codex cli infrastructure as code", "terraform skill codex cli", "terraform mcp server codex", "codex cli opentofu", "agent-driven infrastructure as code 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Terraform/OpenTofu IaC workflows with Codex CLI combining the terraform-skill and HashiCorp MCP Server
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #101)
 
 ### Codex CLI for iOS 26 Liquid Glass Migration
