@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #104)
+
+### Codex CLI for WebAssembly Development
+
+1. ✅ **Codex CLI for WebAssembly Development: Rust-to-Wasm Workflows, Wassette MCP, and the Component Model** — Written 2026-05-13 → `2026-05-13-codex-cli-webassembly-development-rust-wasm-wassette-mcp-component-model.md`
+   - Source: State of WebAssembly Survey 2026, WASI Preview 2 stability announcement, OpenAI Codex CLI GitHub (codex-rs), wasm-bindgen crates.io, Codex CLI Security docs, Codex CLI Changelog v0.130.0, Bytecode Alliance Component Model roadmap, Microsoft Wassette GitHub, Codex CLI MCP docs, Wassette Concepts docs, The New Stack Wasm agent security, Fermyon Spin v3.5 WASI Preview 3, Codex CLI Models docs
+   - Scope: WebAssembly 2026 production adoption (67% survey), WASI Preview 2 stabilisation, sandbox config.toml for Rust/Wasm toolchain (add_dirs for rustup/cargo), AGENTS.md conventions for Wasm projects (WIT files, build targets, wasm-bindgen pinning), browser module workflow with wasm-pack, WASI Component Model scaffolding with cargo-component, Wassette MCP server configuration for Codex CLI (stdio transport, OCI registry fetching, deny-by-default permissions), Wasm as universal tool distribution format comparison table (vs native binaries, Docker containers), model selection for Wasm development phases, current limitations (no in-sandbox runtime, WIT complexity, version pinning)
+   - SEO targets: "codex cli webassembly", "codex cli wasm development", "codex cli rust wasm", "wassette mcp codex", "webassembly agent tools 2026", "wasi component model codex cli"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered WebAssembly development workflows with Codex CLI, Wassette MCP integration, or the WASI Component Model
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #103)
 
 ### Google Antigravity vs Codex CLI
