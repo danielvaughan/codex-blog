@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #106)
+
+### Codex CLI Agent Migration System
+
+1. ✅ **The Codex CLI Agent Migration System: Importing Sessions, Skills, and Configuration from Claude Code and Other Agents** — Written 2026-05-13 → `2026-05-13-codex-cli-agent-migration-system-import-claude-code-sessions-skills-config.md`
+   - Source: OpenAI Codex Changelog (v0.128.0–0.130.0), OpenAI Migrate to Codex docs, PR #19895 (external agent session support), PR #19949 (detect and import MCP/subagents/hooks/commands), PR #20284 (background session import), PR #20261 (ai-title from external sessions), migrate-to-codex SKILL.md, Blake Crosley Claude Code to Codex Migration Guide, ccode-to-codex GitHub, cc2codex GitHub, sync-claude-skills-to-codex GitHub
+   - Scope: Eight-category import mapping table (instruction files, settings, skills, sessions, MCP servers, hooks, slash commands, subagents), three-phase detection pipeline (scan, import, follow-up), session import with compaction and background processing, title preservation from Claude Code metadata, migrate-to-codex curated skill with scan-only/plan/doctor/dry-run modes, conservative skip policy for unsupported items, staged migration strategy, configuration profiles, MCP server migration, hook narrowing, community migration tools, current limitations (app-only UI, Claude Code focus, no bidirectional sync)
+   - SEO targets: "codex cli migration", "codex cli import claude code", "codex migrate sessions", "claude code to codex migration", "codex cli agent migration system", "codex import skills sessions config 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the native agent migration system (v0.128–0.130) for importing sessions, skills, hooks, MCP servers, and configuration from Claude Code and other agents
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #105)
 
 ### Codex CLI for Knowledge Work Beyond Code
