@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #100)
+
+### Codex CLI for Monolith Decomposition
+
+1. ✅ **Codex CLI for Monolith Decomposition: Strangler Fig Migration, Service Boundary Detection, and Agent-Driven Extraction** — Written 2026-05-13 → `2026-05-13-codex-cli-monolith-decomposition-strangler-fig-service-extraction-dependency-analysis.md`
+   - Source: Microservices.io Strangler Application Pattern, OpenAI Non-interactive mode docs, OpenAI Code Modernization Cookbook, OpenAI AGENTS.md guide, OpenAI Subagents docs, OpenAI MCP docs, Augment Code monolith migration tactics, OpenAI Models docs, OpenAI Prompt Caching 201, GitHub Issue #15451, CARGO ACM paper
+   - Scope: Five-phase decomposition pipeline (governance setup, pilot selection with structured JSON output, inventory and discovery via exec resume, service design with OpenAPI contract generation, extraction with subagent parallelism and parity testing, scaling to remaining bounded contexts), AGENTS.md constraints for safe monolith work, strangler fig routing layer with feature flag toggle, dependency analysis patterns (static analysis, MCP-augmented type graphs, database dependency discovery), cost and model routing strategy across phases, comparison table vs CARGO and manual architecture review, current limitations (no runtime analysis, schema migration risk, output-schema/tools conflict)
+   - SEO targets: "codex cli monolith decomposition", "codex cli microservices migration", "strangler fig codex cli", "codex cli service extraction", "codex cli dependency analysis", "monolith to microservices AI agent 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered monolith-to-microservices decomposition workflows with Codex CLI using the strangler fig pattern and ExecPlan methodology
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-13, Hourly Task #99)
 
 ### Codex CLI for Embedded and IoT Development
