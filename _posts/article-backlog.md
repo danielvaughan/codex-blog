@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #117)
+
+### Building ChatGPT Apps with Codex CLI
+
+1. ✅ **Building ChatGPT Apps with Codex CLI: Scaffolding MCP Servers, Widgets, and the Apps SDK Workflow** — Written 2026-05-14 → `2026-05-14-building-chatgpt-apps-with-codex-cli-apps-sdk-mcp-server-widget-scaffolding.md`
+   - Source: OpenAI Apps SDK Quickstart, OpenAI "Bring your app to ChatGPT" Codex use case, OpenAI "Build your MCP server" Apps SDK docs, OpenAI "Build your ChatGPT UI" Apps SDK docs, OpenAI "MCP Apps compatibility in ChatGPT" docs, OpenAI "Managing State" Apps SDK docs
+   - Scope: Apps SDK three-component architecture (MCP server, widget, model), three-channel response design (structuredContent, content, _meta), Codex CLI five-phase build workflow (plan, scaffold, widget, auth, deploy), tool registration with Zod schemas and annotations, widget bridge communication (JSON-RPC 2.0 over postMessage), state management three-layer model (business, UI, cross-session), CSP configuration, OAuth 2.1 integration, MCP Inspector testing, production deployment patterns, common pitfalls from official docs
+   - SEO targets: "codex cli chatgpt apps", "apps sdk mcp server", "chatgpt widget codex", "build chatgpt app codex cli", "mcp server chatgpt 2026", "chatgpt apps sdk scaffold"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI to build ChatGPT Apps via the Apps SDK, MCP server scaffolding, widget development, or the official "Bring your app to ChatGPT" use case workflow
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #116)
 
 ### Tokenmaxxing and Multi-Agent Operator Stacks
