@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #115)
+
+### Inside the Codex Windows Sandbox Engineering
+
+1. ✅ **Inside the Codex Windows Sandbox: Restricted Tokens, Synthetic SIDs, and the Four-Layer Execution Architecture** — Written 2026-05-14 → `2026-05-14-codex-cli-windows-sandbox-engineering-restricted-tokens-acls-elevated-architecture.md`
+   - Source: OpenAI "Building a safe, effective sandbox to enable Codex on Windows" blog (May 13 2026), OpenAI Codex Sandbox docs, OpenAI Codex Windows docs, DeepWiki sandboxing implementation, OpenAI config reference, OpenAI agent approvals & security docs, GitHub Issue #10090 (CreateProcessAsUserW failure), GitHub Issue #18451 (CreateRestrictedToken failure)
+   - Scope: Engineering deep-dive into the Windows sandbox architecture from the May 13 2026 OpenAI blog, unelevated prototype (synthetic SIDs, write-restricted tokens, ACL-based filesystem isolation), production elevated sandbox (CodexSandboxOffline/CodexSandboxOnline dedicated users, four-layer execution path, codex-sandbox-setup.exe UAC boundary, codex-command-runner.exe elevated helper, framed IPC pipe with SpawnRequest protocol), filesystem deny-by-default model with workspace ACE grants, firewall-based network isolation per user identity, DPAPI credential isolation, private desktop isolation, three-platform sandbox comparison (Seatbelt vs bubblewrap vs restricted tokens), troubleshooting common Windows issues (Error 1385, CreateProcessAsUserW:5, CreateRestrictedToken:87), enterprise pre-provisioning with GPO, practical recommendations for individual and team setups
+   - SEO targets: "codex windows sandbox architecture", "codex windows restricted tokens", "codex CodexSandboxOffline", "codex windows elevated sandbox", "codex cli windows security 2026", "openai codex windows sandbox engineering"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI's "Building a safe, effective sandbox to enable Codex on Windows" blog (May 13 2026) revealed detailed Windows sandbox engineering internals not covered by the existing April 1 getting-started article
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #114)
 
 ### GPT-5.3-Codex Model Deep Dive
