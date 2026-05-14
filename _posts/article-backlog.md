@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #114)
+
+### GPT-5.3-Codex Model Deep Dive
+
+1. ✅ **GPT-5.3-Codex Deep Dive: Benchmarks, CLI Configuration, and Interactive Coding Workflows** — Written 2026-05-14 → `2026-05-14-gpt-5-3-codex-model-deep-dive-benchmarks-cli-configuration-interactive-coding.md`
+   - Source: OpenAI GPT-5.3-Codex announcement, Pooya Golchian benchmark analysis, Digital Applied features/benchmarks guide, OpenAI config reference, OpenAI config sample, Auto-Post interactive coding analysis, OpenAI models docs, OpenAI GPT-5.3-Codex-Spark announcement, OpenAI non-interactive mode docs
+   - Scope: Benchmark comparison table (SWE-Bench Pro, Terminal-Bench 2.0, OSWorld-Verified, Cybersecurity CTF, SWE-Lancer IC Diamond, GDPval), token efficiency gains, CLI configuration (config.toml model selection, reasoning effort tuning, profile-based switching, context window tuning), interactive coding mode (mid-task steering, follow-up behaviour, checkpoint-and-redirect pattern), model lineup comparison (GPT-5.5 vs 5.4 vs 5.3-Codex vs 5.4-mini vs Spark decision framework), GPT-5.3-Codex-Spark on Cerebras (1000+ tok/s, limitations, config), non-interactive automation with codex exec and --output-schema structured output, practical recommendations
+   - SEO targets: "gpt-5.3-codex benchmarks", "gpt-5.3-codex cli configuration", "codex cli model selection 2026", "gpt-5.3-codex vs gpt-5.5", "gpt-5.3-codex-spark cerebras", "codex cli interactive coding mode"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered GPT-5.3-Codex despite it being the first Codex-specific model with interactive mid-task steering, 26.5-point OSWorld improvement, and the Cerebras-powered Spark variant
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #113)
 
 ### The Official OpenAI Skills Catalogue
