@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #119)
+
+### Codex Mobile: Remote Agent Control
+
+1. ✅ **Codex Mobile: Remote Agent Control from Your Phone via the ChatGPT App** — Written 2026-05-15 → `2026-05-15-codex-mobile-chatgpt-app-relay-architecture-remote-agent-control.md`
+   - Source: OpenAI "Work with Codex from anywhere" blog (May 14 2026), 9to5Mac coverage, Engadget coverage, OpenAI Codex changelog, Remodex GitHub, OpenAI Mobile docs, OpenAI Remote connections docs, OpenAI Pricing docs, OpenAI Managed configuration docs
+   - Scope: Relay architecture (encrypted WebSocket via OpenAI relay, X25519/Ed25519/AES-256-GCM crypto stack, relay blindness), QR code pairing flow (four-step setup, trust persistence via Keychain/Keystore), mobile capabilities matrix (thread management, approval gates, model switching, notification-driven oversight), connected host model (Mac primary, Windows coming soon, SSH remote chaining), practical workflow patterns (commute approval, morning triage, multi-host monitoring), platform support and plan availability (all plans including Free/Go temporarily), security considerations (relay metadata visibility, enterprise controls, device revocation), comparison with third-party solutions (Remodex, Relaydex, Codex Relay)
+   - SEO targets: "codex mobile app", "codex chatgpt mobile remote control", "codex relay architecture", "codex qr code pairing", "codex remote agent control 2026", "codex iphone android connected host"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI's official Codex mobile launch (May 14 2026) with relay architecture and QR pairing was not covered by the existing May 10 APK teardown article which predated the actual release
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #118)
 
 ### Codex Access Tokens for Enterprise CI/CD
