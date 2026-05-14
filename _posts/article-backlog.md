@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #109)
+
+### Codex CLI Extension-First Architecture
+
+1. ✅ **Codex CLI's Extension-First Architecture: Guardian as a Plugin, Namespaced Extensions, and Modular Governance** — Written 2026-05-14 → `2026-05-14-codex-cli-extension-first-architecture-guardian-namespaced-plugins-modular-governance.md`
+   - Source: Codex CLI v0.131 alpha PRs (May 9-13 2026), OpenAI Codex Plugins docs, OpenAI Build Plugins docs, OpenAI Hooks docs, OpenAI Agent Approvals & Security docs, OpenAI Alignment auto-review paper, OpenAI Advanced Configuration docs, OpenAI CLI Reference docs, OpenAI CLI Features docs, OpenAI IDE Extension docs
+   - Scope: Extension-first architectural shift in v0.131 (Guardian migrated to pluggable extension, namespace isolation via $EXTENSION_NAME@$SOURCE, plugin ID canonicalisation for shared workspaces, collaboration mode as config toggle), extension framework architecture (governance/tool/workflow extension categories), plugin manifest with bundled hooks, hook precedence with accumulation across sources, marketplace distribution with INSTALLED_BY_DEFAULT, composable governance stacks for enterprise, codex doctor diagnostics, comparison with Claude Code and Copilot architectures, practical recommendations for teams/enterprise/tool builders
+   - SEO targets: "codex cli extension architecture", "codex cli guardian extension", "codex cli plugin namespacing", "codex cli modular governance", "codex cli extension-first 2026", "codex cli composable governance stack"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.131 alpha PRs (May 9-13 2026) revealed a fundamental architectural shift to extension-first design with Guardian as a pluggable extension and namespaced extension framework, with no existing article covering this pattern
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #108)
 
 ### Codex CLI Inside VS Code's Multi-Agent Architecture
