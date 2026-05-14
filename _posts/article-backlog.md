@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #113)
+
+### The Official OpenAI Skills Catalogue
+
+1. ✅ **The Official OpenAI Skills Catalogue: System, Curated, and Experimental Skills for Codex CLI** — Written 2026-05-14 → `2026-05-14-openai-skills-catalogue-codex-cli-official-curated-experimental-skill-installer.md`
+   - Source: openai/skills GitHub repository, OpenAI Agent Skills docs, OpenAI Developers Blog (skills-agents-sdk), DeepWiki skills installation guide, gh-fix-ci SKILL.md, RZLT skills directory, VoltAgent awesome-agent-skills, Composio awesome-codex-skills
+   - Scope: Three-tier skill taxonomy (.system, .curated, .experimental), the 5 system skills and 38 curated skills catalogue, skill-installer installation methods (by name, path, URL, advanced flags), SKILL.md anatomy and progressive disclosure, script vs instruction patterns, skill composition (security triple, CI-to-production loop), building skills for the catalogue, community ecosystem directories, practical recommendations for teams
+   - SEO targets: "codex cli official skills", "openai skills catalogue", "codex skill-installer", "codex curated skills", "gh-fix-ci codex skill", "codex cli skills repository 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the official openai/skills repository, its three-tier taxonomy, the 38 curated skills catalogue, or the skill-installer workflow despite skills being a core Codex extensibility mechanism
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #112)
 
 ### Codex CLI for Database Migrations
