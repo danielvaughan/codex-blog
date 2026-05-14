@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #116)
+
+### Tokenmaxxing and Multi-Agent Operator Stacks
+
+1. ✅ **Tokenmaxxing with Codex CLI: Multi-Agent Operator Stacks, Parallel Harnesses, and the End of Single-Tool Identity** — Written 2026-05-14 → `2026-05-14-tokenmaxxing-codex-cli-multi-agent-operator-stacks-parallel-harness-architecture.md`
+   - Source: YC Lightcone podcast (tokenmaxxing coinage), dev.to Codex + Claude Code operator stack article, CC-Switch CLI GitHub, 9Router agent skills listing, Claude Codex Bridge GitHub, OpenAI Codex changelog, OpenAI worktrees docs, OpenAI non-interactive mode docs, OpenAI config reference, OpenAI subagents docs, OpenAI pricing docs, OpenAI skills docs, OpenAI AGENTS.md guide
+   - Scope: Tokenmaxxing pattern definition (tokens deployed per developer per week), three-layer operator stack architecture (agents, routing harness, isolation/merge), harness tooling comparison (CC-Switch, 9Router, Claude Codex Bridge), Codex CLI configuration for multi-agent stacks (profile-based model routing, subagent delegation, token budget management), skills composability advantage, architectural prerequisites for effective parallel agent operation, when not to tokenmaxx, cultural shift from single-tool identity to stack-shaped thinking
+   - SEO targets: "tokenmaxxing codex cli", "multi-agent operator stack", "codex cli parallel agents", "cc-switch 9router multi-agent", "codex claude code operator stack 2026", "multi-agent coding harness"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — the tokenmaxxing pattern and multi-agent operator stack (coined by YC Lightcone, documented on dev.to May 2026) represents a fundamental shift in how senior developers use Codex CLI alongside competing agents, with no existing article covering the orchestration harness architecture or routing tooling ecosystem
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #115)
 
 ### Inside the Codex Windows Sandbox Engineering
