@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #118)
+
+### Codex Access Tokens for Enterprise CI/CD
+
+1. ✅ **Codex Access Tokens: Enterprise CI/CD Authentication with Workspace Identity** — Written 2026-05-14 → `2026-05-14-codex-access-tokens-enterprise-ci-cd-workspace-authentication-non-interactive.md`
+   - Source: OpenAI Access Tokens docs, OpenAI Authentication docs, OpenAI Non-interactive Mode docs, OpenAI "Running Codex safely" blog, OpenAI Enterprise Governance docs, GitHub Issue #15451 (output-schema MCP bug), GitHub Secrets docs, GitLab CI/CD Variables docs
+   - Scope: Access token credential type (May 5 2026), three-way auth comparison (ChatGPT sign-in vs API key vs access token), provisioning and RBAC permission model, decision framework for credential selection, CI/CD integration patterns (GitHub Actions, GitLab CI, persistent login), structured output with --output-schema, security best practices (rotation workflow, least-privilege sandbox, runner isolation), credential storage checklist across platforms, compliance logging and enterprise audit trail, limitations and caveats
+   - SEO targets: "codex access tokens", "codex ci/cd authentication", "codex enterprise workspace token", "codex exec access token", "codex non-interactive authentication 2026", "codex pipeline automation enterprise"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — the May 5 2026 Codex access tokens feature enabling headless workspace-scoped authentication for CI/CD was not covered by any existing article despite being critical for enterprise automation workflows
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #117)
 
 ### Building ChatGPT Apps with Codex CLI
