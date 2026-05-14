@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #111)
+
+### Codex CLI for ML Research and Parameter Golf
+
+1. ✅ **Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect** — Written 2026-05-14 → `2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation.md`
+   - Source: OpenAI Parameter Golf announcement, OpenAI "What Parameter Golf taught us" blog (May 13 2026), OpenAI Parameter Golf GitHub repository, namspdr Parameter Golf zero-ML-knowledge agent workflow, VibecodingGPT Parameter Golf research guide, Hugging Face Skills training with Codex blog, OpenAI Best Practices docs, OpenAI CLI Features docs
+   - Scope: How coding agents reshaped OpenAI's Parameter Golf competition (2000+ submissions, 1000+ participants), the multi-agent implementer-critic pattern (Claude as implementer, Codex as critic), OpenAI's internal Codex-based triage bot for submission review, Hugging Face Skills integration for model training automation, AGENTS.md conventions for ML projects, cheap-validation-before-expensive-runs pattern, /goal for experiment sweeps, model selection for ML tasks, agent monitoring caveats during GPU training, homogeneity pressure from agent-assisted research
+   - SEO targets: "codex cli machine learning", "codex cli ml research", "parameter golf coding agents", "codex cli model training", "agent-driven experimentation 2026", "codex cli hugging face skills"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI's "What Parameter Golf taught us" blog (May 13 2026) documented how coding agents reshaped the competition, with no existing article covering agent-driven ML experimentation patterns
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #110)
 
 ### Context Health Monitoring in Long Codex CLI Sessions
