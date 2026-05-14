@@ -5,8 +5,8 @@ nav_order: 1
 
 # Articles Index
 
-**Last updated:** 2026-05-13
-**Total articles rated:** 739
+**Last updated:** 2026-05-14
+**Total articles rated:** 754
 
 ## Rating Scale
 
@@ -55,11 +55,26 @@ Each article is rated 1-5 on four dimensions:
 | [The Gravel Path: Google ADK Edition](../premium-articles/27b-the-gravel-path-google-adk.md) | 5 | 4 | 4 | 5 | 4.5 | Premium series; Complete copy-paste guide; Gemini CLI + Antigravity; Agent Engine deployment |
 | [The Gravel Path: Book Writing Edition](../premium-articles/27c-the-gravel-path-book-writing.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Highly original; Multi-model harness; Leanpub pipeline; First-person |
 | [The Gravel Path: Java Spring Boot on AWS Edition](../premium-articles/27d-the-gravel-path-java-spring-boot-aws.md) | 5 | 4 | 4 | 5 | 4.5 | Premium series; Complete copy-paste guide; ECS Fargate deployment; Testcontainers; Rich tech stack table |
+| [The Gravel Path: C# .NET on Azure Edition](../premium-articles/27e-the-gravel-path-csharp-dotnet-azure.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Complete copy-paste guide; Bicep deployment; xUnit + Testcontainers; Azure Container Apps; Rich tech stack table |
+| [The Gravel Path: Node.js TypeScript on AWS Edition](../premium-articles/27f-the-gravel-path-nodejs-typescript-aws.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Complete copy-paste guide; AWS CDK; Lambda + ECS Fargate; Vitest; pnpm; Rich tech stack table |
 
 ## Articles
 
 | Article | Depth | Orig | Acc | Sub | Composite | Notes |
 |---|---|---|---|---|---|---|
+| [When the Model Turns Hostile: The GPT-5.3-Codex Malware Injection Incident and Defensive Code Review Patterns](2026-05-13-codex-cli-model-generated-malicious-code-gpt53-injection-incident-defence-patterns.md) | 5 | 5 | 4 | 5 | 4.8 | Deep dive; Real incident analysis; Defence stack; Sketchnote; Highly shareable |
+| [Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect](2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation.md) | 4 | 5 | 4 | 5 | 4.5 | Deep dive; Parameter Golf competition; Multi-agent critic pattern; Compelling narrative |
+| [Codex CLI's Extension-First Architecture: Guardian as a Plugin, Namespaced Extensions, and Modular Governance](2026-05-14-codex-cli-extension-first-architecture-guardian-namespaced-plugins-modular-governance.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; v0.131 PR analysis; Guardian as extension; Namespace isolation; Sketchnote |
+| [Inside the Codex Windows Sandbox: Restricted Tokens, Synthetic SIDs, and the Four-Layer Execution Architecture](2026-05-14-codex-cli-windows-sandbox-engineering-restricted-tokens-acls-elevated-architecture.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; OS internals; Four-layer execution path; Official blog sourced; Mermaid |
+| [Tokenmaxxing with Codex CLI: Multi-Agent Operator Stacks, Parallel Harnesses, and the End of Single-Tool Identity](2026-05-14-tokenmaxxing-codex-cli-multi-agent-operator-stacks-parallel-harness-architecture.md) | 4 | 4 | 4 | 5 | 4.2 | Trendy topic; Multi-agent routing; CC-Switch/9Router; Mermaid; Shareable |
+| [Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns](2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality.md) | 4 | 4 | 4 | 4 | 4.0 | Practical; Compaction internals; Config levers; GitHub issues cited |
+| [The macOS Premium: Which Codex Features Only Work on Apple Hardware](2026-04-17-codex-cli-macos-premium-platform-feature-matrix.md) | 4 | 3 | 4 | 4 | 3.8 | Platform comparison; Sandbox deep dive; Feature matrix tables; Sketchnote |
+| [Codex CLI for Generating Architecture Diagrams from Source Code: Mermaid, C4, and PlantUML Visualisation Workflows](2026-05-13-codex-cli-architecture-diagrams-mermaid-c4-plantuml-source-code-visualisation.md) | 4 | 3 | 4 | 4 | 3.8 | C4 model; CI pipeline patterns; AGENTS.md conventions; Sketchnote |
+| [Building ChatGPT Apps with Codex CLI: Scaffolding MCP Servers, Widgets, and the Apps SDK Workflow](2026-05-14-building-chatgpt-apps-with-codex-cli-apps-sdk-mcp-server-widget-scaffolding.md) | 4 | 3 | 4 | 4 | 3.8 | Apps SDK architecture; Three-channel design; Phased workflow; Mermaid |
+| [Codex CLI for Database Migrations: Agent-Driven Schema Evolution with Atlas, Prisma, and Flyway](2026-05-14-codex-cli-database-migration-workflows-atlas-prisma-flyway-schema-evolution.md) | 4 | 3 | 4 | 4 | 3.8 | Practical; Four migration tools; Sandbox config; AGENTS.md patterns; Mermaid |
+| [Codex CLI Inside VS Code's Multi-Agent Architecture: Agent Sessions, Model Selection, and the Unified Development Experience](2026-05-14-codex-cli-inside-vscode-multi-agent-architecture-agent-sessions-unified-development.md) | 4 | 3 | 4 | 4 | 3.8 | VS Code 1.109; Agent Sessions view; Multi-agent routing; Sketchnote |
+| [GPT-5.3-Codex Deep Dive: Benchmarks, CLI Configuration, and Interactive Coding Workflows](2026-05-14-gpt-5-3-codex-model-deep-dive-benchmarks-cli-configuration-interactive-coding.md) | 4 | 3 | 4 | 4 | 3.8 | Benchmark tables; Terminal-Bench/OSWorld gains; Config examples; Spark variant |
+| [The Official OpenAI Skills Catalogue: System, Curated, and Experimental Skills for Codex CLI](2026-05-14-openai-skills-catalogue-codex-cli-official-curated-experimental-skill-installer.md) | 4 | 3 | 4 | 4 | 3.8 | Three-tier taxonomy; 38 curated skills; Installation patterns; Mermaid |
 | [Codex CLI Auto-Review Internals: Circuit Breakers, Denial Handling, and Custom Policy Authoring](2026-05-12-codex-cli-auto-review-internals-circuit-breakers-denial-handling-custom-policies.md) | 5 | 4 | 4 | 5 | 4.5 | Deep dive; Circuit breaker architecture; Policy authoring; Mermaid diagrams |
 | [Linux Kernel Development with Codex CLI: From Module Scaffolding to LKML Submission](2026-05-12-codex-cli-linux-kernel-development-modules-drivers-lkml-submission.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Linux 7.0 AI policy; checkpatch hooks; Cross-compilation sandbox; Sketchnote |
 | [Codex CLI for Embedded and IoT Development: Firmware Generation, Cross-Compilation, and Hardware-Aware Agent Workflows](2026-05-13-codex-cli-embedded-iot-development-esp32-stm32-firmware-cross-compilation.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; ESP32/STM32; Espressif MCP servers; Sandbox trade-offs; Sketchnote |
