@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #112)
+
+### Codex CLI for Database Migrations
+
+1. ✅ **Codex CLI for Database Migrations: Agent-Driven Schema Evolution with Atlas, Prisma, and Flyway** — Written 2026-05-14 → `2026-05-14-codex-cli-database-migration-workflows-atlas-prisma-flyway-schema-evolution.md`
+   - Source: Atlas schema-as-code docs, Atlas agent skills guide, Prisma Migrate docs, Prisma skills GitHub, Flyway 12.x docs, Alembic 1.18.x docs, OpenAI Codex config reference, OpenAI Codex best practices, OpenAI Codex CLI reference, OpenAI Codex non-interactive mode docs, OpenAI Codex features docs, OpenAI Codex models docs, GitHub Issue #17794 (apply_patch hook gap), OpenAI Codex changelog
+   - Scope: Database migration workflows with Codex CLI using Atlas (schema-as-code eight-step workflow, agent skills, dev database scope), Prisma (ORM-driven migrations, official skills, AGENTS.md conventions), Flyway (version-controlled migrations), Alembic (autogenerate review patterns), sandbox configuration for database access (network_access, permission profiles, domain restrictions), CI/CD automation with codex exec, structured output for pipeline integration, model selection for migration tasks, common pitfalls (apply_patch hook gap, context pressure, Docker sandbox access)
+   - SEO targets: "codex cli database migration", "codex cli schema evolution", "atlas agent skill codex", "prisma migration codex cli", "codex cli flyway alembic", "database migration agent workflow 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered database migration workflows with Codex CLI despite Atlas, Prisma, and Flyway all offering agent skill integrations
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #111)
 
 ### Codex CLI for ML Research and Parameter Golf
