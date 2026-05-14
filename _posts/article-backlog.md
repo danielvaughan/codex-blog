@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #110)
+
+### Context Health Monitoring in Long Codex CLI Sessions
+
+1. ✅ **Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns** — Written 2026-05-14 → `2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality.md`
+   - Source: GitHub Issue #22220 (Compaction Telemetry / Context Health), OpenAI Codex Config Reference, OpenAI Compaction API docs, OpenAI CLI Features docs, OpenAI CLI Reference docs, context-mode GitHub/npm, Context Compaction Research gist, GitHub Issue #16098 (PreCompact/PostCompact hooks), GitHub Issue #16812 (compaction regression), Codex Blog compaction deep dive
+   - Scope: The invisible degradation problem in long sessions, current monitoring tools (/status, context percentage, codex exec --json token reporting), configuration levers (model_auto_compact_token_limit, compact_prompt, tool_output_token_limit), manual /compact with queued instructions, building DIY context health telemetry with PostToolUse hooks, context-mode MCP server for 98% tool output reduction, session checkpoint pattern, compaction loop detection and mitigation, server-side vs local compaction paths, community telemetry roadmap (Issue #22220), practical recommendations for maintaining session quality
+   - SEO targets: "codex cli context health", "codex cli compaction telemetry", "codex cli long session quality", "codex cli context degradation", "codex cli compaction monitoring 2026", "codex cli session quality patterns"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub Issue #22220 (May 11 2026) highlighted the absence of compaction telemetry as the largest observability blind spot in long-running Codex CLI sessions, with no existing article covering context health monitoring patterns
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-14, Hourly Task #109)
 
 ### Codex CLI Extension-First Architecture
