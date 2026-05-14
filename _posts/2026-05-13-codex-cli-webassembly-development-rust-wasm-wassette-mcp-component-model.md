@@ -5,6 +5,9 @@ nav_order: 697
 tags: ["language-guide", "mcp", "skills", "agents-md", "sandbox"]
 ---
 
+![Sketchnote diagram for: Codex CLI for WebAssembly Development: Rust-to-Wasm Workflows, Wassette MCP, and the Component Model](/sketchnotes/articles/2026-05-13-codex-cli-webassembly-development-rust-wasm-wassette-mcp-component-model.png)
+
+
 # Codex CLI for WebAssembly Development: Rust-to-Wasm Workflows, Wassette MCP, and the Component Model
 
 

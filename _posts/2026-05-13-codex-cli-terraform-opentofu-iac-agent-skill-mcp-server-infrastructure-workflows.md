@@ -5,6 +5,9 @@ nav_order: 694
 tags: ["codex-cli", "terraform", "opentofu", "infrastructure-as-code", "mcp", "agent-skills", "iac", "devops"]
 ---
 
+![Sketchnote diagram for: Infrastructure as Code with Codex CLI: The Terraform Skill, HashiCorp MCP Server, and Agent-Driven IaC Workflows](/sketchnotes/articles/2026-05-13-codex-cli-terraform-opentofu-iac-agent-skill-mcp-server-infrastructure-workflows.png)
+
+
 # Infrastructure as Code with Codex CLI: The Terraform Skill, HashiCorp MCP Server, and Agent-Driven IaC Workflows
 
 

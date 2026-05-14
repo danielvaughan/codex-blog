@@ -5,6 +5,9 @@ nav_order: 695
 tags: ["codex-cli", "nixos", "nix-flakes", "reproducible-environments", "sandbox", "devshell", "declarative-configuration", "agent-sandbox"]
 ---
 
+![Sketchnote diagram for: Codex CLI on NixOS: Reproducible Agent Environments with Nix Flakes, Declarative Toolchains, and Hermetic Development Shells](/sketchnotes/articles/2026-05-13-codex-cli-nix-flakes-reproducible-agent-environments-declarative-toolchains.png)
+
+
 # Codex CLI on NixOS: Reproducible Agent Environments with Nix Flakes, Declarative Toolchains, and Hermetic Development Shells
 
 

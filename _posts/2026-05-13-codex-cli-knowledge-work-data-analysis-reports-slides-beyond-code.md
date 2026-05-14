@@ -5,6 +5,9 @@ nav_order: 698
 tags: ["codex-cli", "knowledge-work", "data-analysis", "report-generation", "slide-decks", "codex-exec", "structured-output", "beyond-code", "automation", "pptx", "pandas", "skills"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Knowledge Work: Data Analysis, Report Generation, and Slide Deck Automation Beyond Code](/sketchnotes/articles/2026-05-13-codex-cli-knowledge-work-data-analysis-reports-slides-beyond-code.png)
+
+
 # Codex CLI for Knowledge Work: Data Analysis, Report Generation, and Slide Deck Automation Beyond Code
 
 

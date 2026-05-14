@@ -5,6 +5,9 @@ nav_order: 700
 tags: ["workflow-patterns", "agents-md", "codex-exec", "skills", "mcp", "ci-cd", "architecture"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Generating Architecture Diagrams from Source Code: Mermaid, C4, and PlantUML Visualisation Workflows](/sketchnotes/articles/2026-05-13-codex-cli-architecture-diagrams-mermaid-c4-plantuml-source-code-visualisation.png)
+
+
 # Codex CLI for Generating Architecture Diagrams from Source Code: Mermaid, C4, and PlantUML Visualisation Workflows
 
 

@@ -5,6 +5,9 @@ nav_order: 362
 tags: ["codex-cli", "security", "malware-injection", "model-safety", "defensive-patterns", "hooks", "auto-review", "sandbox", "gpt-5.3-codex"]
 ---
 
+![Sketchnote diagram for: When the Model Turns Hostile: The GPT-5.3-Codex Malware Injection Incident and Defensive Code Review Patterns](/sketchnotes/articles/2026-05-13-codex-cli-model-generated-malicious-code-gpt53-injection-incident-defence-patterns.png)
+
+
 # When the Model Turns Hostile: The GPT-5.3-Codex Malware Injection Incident and Defensive Code Review Patterns
 
 

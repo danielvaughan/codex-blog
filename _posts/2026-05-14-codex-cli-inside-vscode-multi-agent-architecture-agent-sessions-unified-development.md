@@ -5,6 +5,9 @@ nav_order: 698
 tags: ["codex-cli", "vscode", "multi-agent", "agent-sessions", "copilot", "claude-code", "ide-integration", "workflow-patterns", "configuration-portability"]
 ---
 
+![Sketchnote diagram for: Codex CLI Inside VS Code's Multi-Agent Architecture: Agent Sessions, Model Selection, and the Unified Development Experience](/sketchnotes/articles/2026-05-14-codex-cli-inside-vscode-multi-agent-architecture-agent-sessions-unified-development.png)
+
+
 # Codex CLI Inside VS Code's Multi-Agent Architecture: Agent Sessions, Model Selection, and the Unified Development Experience
 
 

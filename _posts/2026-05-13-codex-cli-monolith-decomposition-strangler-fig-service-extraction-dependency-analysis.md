@@ -5,6 +5,9 @@ nav_order: 692
 tags: ["codex-cli", "monolith", "microservices", "strangler-fig", "code-modernisation", "migration", "subagents", "exec-plan", "dependency-analysis"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Monolith Decomposition: Strangler Fig Migration, Service Boundary Detection, and Agent-Driven Extraction](/sketchnotes/articles/2026-05-13-codex-cli-monolith-decomposition-strangler-fig-service-extraction-dependency-analysis.png)
+
+
 # Codex CLI for Monolith Decomposition: Strangler Fig Migration, Service Boundary Detection, and Agent-Driven Extraction
 
 

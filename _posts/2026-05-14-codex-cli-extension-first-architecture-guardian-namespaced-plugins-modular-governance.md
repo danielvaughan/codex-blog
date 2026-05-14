@@ -5,6 +5,9 @@ nav_order: 699
 tags: ["codex-cli", "architecture", "extensions", "plugins", "guardian", "namespacing", "governance", "enterprise", "v0.131"]
 ---
 
+![Sketchnote diagram for: Codex CLI's Extension-First Architecture: Guardian as a Plugin, Namespaced Extensions, and Modular Governance](/sketchnotes/articles/2026-05-14-codex-cli-extension-first-architecture-guardian-namespaced-plugins-modular-governance.png)
+
+
 # Codex CLI's Extension-First Architecture: Guardian as a Plugin, Namespaced Extensions, and Modular Governance
 
 

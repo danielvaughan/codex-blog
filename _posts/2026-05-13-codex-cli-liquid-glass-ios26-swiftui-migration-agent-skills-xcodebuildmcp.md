@@ -5,6 +5,9 @@ nav_order: 693
 tags: ["codex-cli", "ios-26", "liquid-glass", "swiftui", "agent-skills", "xcodebuildmcp", "xcode-26", "mobile-development"]
 ---
 
+![Sketchnote diagram for: Migrating SwiftUI Apps to Liquid Glass with Codex CLI: Agent Skills, XcodeBuildMCP, and iOS 26 Workflows](/sketchnotes/articles/2026-05-13-codex-cli-liquid-glass-ios26-swiftui-migration-agent-skills-xcodebuildmcp.png)
+
+
 # Migrating SwiftUI Apps to Liquid Glass with Codex CLI: Agent Skills, XcodeBuildMCP, and iOS 26 Workflows
 
 

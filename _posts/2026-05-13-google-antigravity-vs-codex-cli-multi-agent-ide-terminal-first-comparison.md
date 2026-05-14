@@ -5,6 +5,9 @@ nav_order: 696
 tags: ["codex-cli", "google-antigravity", "comparison", "multi-agent", "terminal-first", "skills", "mcp", "agents-md", "benchmarks"]
 ---
 
+![Sketchnote diagram for: Google Antigravity vs Codex CLI: Multi-Agent IDE Meets Terminal-First Agent in the 2026 Coding Wars](/sketchnotes/articles/2026-05-13-google-antigravity-vs-codex-cli-multi-agent-ide-terminal-first-comparison.png)
+
+
 # Google Antigravity vs Codex CLI: Multi-Agent IDE Meets Terminal-First Agent in the 2026 Coding Wars
 
 
