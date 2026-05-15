@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #120)
+
+### TanStack Supply Chain Attack and Codex CLI Defence
+
+1. ✅ **The TanStack Supply Chain Attack: What Codex CLI Users Need to Know and How to Defend Your Pipeline** — Written 2026-05-15 → `2026-05-15-tanstack-supply-chain-attack-codex-cli-npm-defence-sandbox-hardening.md`
+   - Source: TanStack postmortem, Snyk technical analysis, Wiz blog, OpenAI official response blog, StepSecurity detection report, OpenAI agent approvals docs, OpenAI hooks docs, Mondoo npm security guide
+   - Scope: Three-stage attack chain (pull_request_target pwn request, GitHub Actions cache poisoning, OIDC token extraction), malware payload analysis (credential harvesting, AI tool targeting, destructive fallback, self-propagation), OpenAI impact (signing key compromise, application re-signing, macOS update deadline), Codex CLI defence mapping (sandbox isolation for npm install, before_command hooks for install-script governance, lockfile auditing with codex exec, network egress control), CI/CD hardening checklist, provenance paradox (SLSA attestations insufficient against compromised pipelines)
+   - SEO targets: "tanstack supply chain attack codex", "codex cli npm security", "mini shai-hulud npm attack", "codex cli sandbox supply chain defence", "npm supply chain attack 2026 openai", "codex cli signing key update"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — the TanStack npm supply chain attack (May 11 2026) directly impacted OpenAI's signing keys and forced re-signing of all applications including Codex CLI, with no existing article covering the attack, its implications for Codex CLI users, or the defensive configuration patterns
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #119)
 
 ### Codex Mobile: Remote Agent Control
