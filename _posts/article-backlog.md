@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #127)
+
+### Property-Based Testing and Fuzzing with Codex CLI
+
+1. ✅ **Property-Based Testing and Fuzzing with Codex CLI: Agent-Driven Edge-Case Discovery Using Hypothesis and fast-check** — Written 2026-05-15 → `2026-05-15-codex-cli-property-based-testing-fuzzing-hypothesis-fast-check-edge-case-discovery.md`
+   - Source: fast-check docs, Hypothesis docs, HypoFuzz docs, OpenAI Codex models docs, OpenAI agent approvals docs, OpenAI skills docs, OpenAI CLI reference docs, @fast-check/vitest npm, OpenAI GPT-5.2-Codex blog
+   - Scope: Property-based testing lifecycle in Codex CLI, Hypothesis composite strategies and stateful testing for Python, fast-check 4.7 with fc.letrec and @fast-check/vitest integration for TypeScript, fuzz harness generation (HypoFuzz, fast-check fuzz mode), property-testing skill authoring, model selection matrix for different test phases, codex exec non-interactive pipeline integration with --output-schema, common invariant patterns (round-trip, idempotence, commutativity, robustness, oracle comparison), limitations (long campaigns, assume rejection, sandbox network isolation)
+   - SEO targets: "codex cli property-based testing", "codex cli fuzzing hypothesis", "codex cli fast-check", "codex cli edge case discovery", "property-based testing AI agent", "codex cli test generation invariants"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing mutation testing article (2026-04-21) covers kill-rate verification but no article covered property-based testing, invariant discovery, fuzz harness generation, or the Hypothesis/fast-check agent workflows despite these being core quality techniques for senior developers
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #126)
 
 ### Agentic Pricing Wars and Enterprise Migration
