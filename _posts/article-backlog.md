@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #126)
+
+### Agentic Pricing Wars and Enterprise Migration
+
+1. ✅ **The Agentic Pricing Wars: OpenAI's Enterprise Migration Offer, Anthropic's Quota Expansion, and the Real Cost of Switching** — Written 2026-05-15 → `2026-05-15-codex-cli-enterprise-pricing-wars-migration-incentives-claude-code-competitive-switching.md`
+   - Source: OpenAI enterprise promo form, Digit.in coverage, Anthropic higher-limits blog, Pasquale Pillitteri competitive analysis, IT Pro SpaceX compute deal coverage, SpectrumAI Lab token efficiency comparison, Morphllm benchmarks comparison, CodersEra engineering-team comparison, OpenAI Codex pricing docs, OpenAI best practices docs, OpenAI Codex changelog, OpenAI Codex CLI features docs, OpenAI plugins docs, Anthropic pricing page
+   - Scope: OpenAI 30-day "Switch to Codex" two-month free enterprise offer (eligibility, application process, coverage limitations), Anthropic's defensive 50% Claude Code quota expansion through July 13 (stacking on prior limit increases, SpaceX compute deal), token efficiency gap (4.1x fewer tokens in Figma-to-code benchmark, concision vs thoroughness trade-off), real switching costs (configuration translation AGENTS.md vs CLAUDE.md, workflow retraining 2-4 weeks, MCP server compatibility, vendor lock-in signals), hybrid strategy pattern (generation on Codex + review on Claude Code), cost comparison table (Business $30/user/month both sides, typical monthly $100-200 vs $150-400), decision framework for engineering leaders (stay/switch/trial/formalise-hybrid), market context (growth-acquisition phase parallels to cloud infrastructure wars)
+   - SEO targets: "codex enterprise migration offer", "codex vs claude code pricing 2026", "codex two months free enterprise", "ai coding agent switching costs", "codex claude code hybrid workflow", "agentic pricing wars 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI's 30-day enterprise migration promotion (May 13 2026) and Anthropic's same-day defensive quota expansion represent the first direct pricing confrontation between the two leading AI coding agent platforms, with no existing article covering the offers, switching cost analysis, or hybrid adoption patterns
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #125)
 
 ### Codex CLI Hackathon Sprint Playbook
