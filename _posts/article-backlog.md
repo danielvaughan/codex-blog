@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #125)
+
+### Codex CLI Hackathon Sprint Playbook
+
+1. ✅ **The Codex CLI Hackathon Playbook: Rapid Prototyping Under Time Pressure** — Written 2026-05-15 → `2026-05-15-codex-cli-hackathon-sprint-playbook-rapid-prototyping-time-constrained-development.md`
+   - Source: Sea x OpenAI Hackathon announcement (May 15 2026), OpenAI best practices docs, OpenAI slash commands docs, OpenAI AGENTS.md guide, OpenAI subagents docs, OpenAI skills docs, OpenAI goal mode cookbook, OpenAI models docs, OpenAI Chrome extension docs, OpenAI community hackathon support page, Sean Kim subagents comparison blog
+   - Scope: Pre-game setup (AGENTS.md as sprint spec, config.toml for speed, approval_policy auto-edit), architecture sprint (plan mode, goal persistence, worktree parallel tracks), feature velocity (subagent parallelism, skills for repeated patterns, /review checkpoints), polish and demo prep (model switching matrix GPT-5.4/Spark, computer use for visual QA, demo script generation), anti-patterns (overloaded prompts, skipping compaction, gold-plating), Gantt timeline diagram
+   - SEO targets: "codex cli hackathon", "codex cli rapid prototyping", "codex cli sprint workflow", "codex hackathon playbook 2026", "sea openai hackathon codex", "codex cli time-constrained development"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Sea x OpenAI announced their first regional Codex Hackathon series (May 15 2026) with no existing article covering hackathon-specific sprint workflows, time-constrained agent configuration, or competitive building patterns with Codex CLI
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #124)
 
 ### Codex CLI Notion MCP Integration
