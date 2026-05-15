@@ -5,6 +5,9 @@ nav_order: 701
 tags: ["codex-cli", "machine-learning", "parameter-golf", "agent-driven-research", "hugging-face", "model-training", "experimentation"]
 ---
 
+![Sketchnote diagram for: Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect](/sketchnotes/articles/2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation.png)
+
+
 # Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect
 
 

@@ -5,6 +5,9 @@ nav_order: 710
 tags: ["codex-cli", "platform-engineering", "SRE", "day-2-operations", "runbooks", "drift-detection", "automation", "skills", "codex-exec"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Day-Two Operations: Runbooks, Drift Detection, and Platform Engineering Automation](/sketchnotes/articles/2026-05-15-codex-cli-day-two-operations-runbooks-drift-detection-platform-engineering.png)
+
+
 # Codex CLI for Day-Two Operations: Runbooks, Drift Detection, and Platform Engineering Automation
 
 

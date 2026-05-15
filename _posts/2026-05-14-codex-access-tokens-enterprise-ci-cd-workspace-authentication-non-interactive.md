@@ -5,6 +5,9 @@ nav_order: 707
 tags: ["codex-cli", "enterprise", "authentication", "ci-cd", "access-tokens", "automation", "security"]
 ---
 
+![Sketchnote diagram for: Codex Access Tokens: Enterprise CI/CD Authentication with Workspace Identity](/sketchnotes/articles/2026-05-14-codex-access-tokens-enterprise-ci-cd-workspace-authentication-non-interactive.png)
+
+
 # Codex Access Tokens: Enterprise CI/CD Authentication with Workspace Identity
 
 

@@ -5,6 +5,9 @@ nav_order: 707
 tags: ["codex", "mobile", "chatgpt-app", "remote-control", "relay-architecture", "qr-pairing", "ios", "android", "connected-host"]
 ---
 
+![Sketchnote diagram for: Codex Mobile: Remote Agent Control from Your Phone via the ChatGPT App](/sketchnotes/articles/2026-05-15-codex-mobile-chatgpt-app-relay-architecture-remote-agent-control.png)
+
+
 # Codex Mobile: Remote Agent Control from Your Phone via the ChatGPT App
 
 

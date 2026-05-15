@@ -5,6 +5,9 @@ nav_order: 708
 tags: ["codex-cli", "kubernetes", "operators", "kubebuilder", "CRD", "controller-runtime", "envtest", "Go", "reconciliation", "testing"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Kubernetes Operator Development: Scaffolding CRDs, Writing Reconciliation Loops, and Testing with envtest](/sketchnotes/articles/2026-05-14-codex-cli-kubernetes-operator-development-kubebuilder-crd-reconciliation-testing.png)
+
+
 # Codex CLI for Kubernetes Operator Development: Scaffolding CRDs, Writing Reconciliation Loops, and Testing with envtest
 
 

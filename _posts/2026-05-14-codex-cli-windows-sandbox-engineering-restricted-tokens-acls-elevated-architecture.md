@@ -5,6 +5,9 @@ nav_order: 705
 tags: ["codex-cli", "windows", "sandbox", "security", "architecture", "internals"]
 ---
 
+![Sketchnote diagram for: Inside the Codex Windows Sandbox: Restricted Tokens, Synthetic SIDs, and the Four-Layer Execution Architecture](/sketchnotes/articles/2026-05-14-codex-cli-windows-sandbox-engineering-restricted-tokens-acls-elevated-architecture.png)
+
+
 # Inside the Codex Windows Sandbox: Restricted Tokens, Synthetic SIDs, and the Four-Layer Execution Architecture
 
 

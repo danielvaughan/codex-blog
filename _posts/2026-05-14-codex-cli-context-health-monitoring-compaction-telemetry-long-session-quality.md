@@ -5,6 +5,9 @@ nav_order: 700
 tags: ["codex-cli", "context-management", "compaction", "telemetry", "observability", "long-sessions", "session-quality", "context-health"]
 ---
 
+![Sketchnote diagram for: Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns](/sketchnotes/articles/2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality.png)
+
+
 # Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns
 
 

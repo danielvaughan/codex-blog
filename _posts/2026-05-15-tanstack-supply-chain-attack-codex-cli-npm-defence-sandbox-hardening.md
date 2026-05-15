@@ -5,6 +5,9 @@ nav_order: 709
 tags: ["codex-cli", "supply-chain-security", "npm", "tanstack", "sandbox", "ci-cd", "Mini-Shai-Hulud", "CVE-2026-45321"]
 ---
 
+![Sketchnote diagram for: The TanStack Supply Chain Attack: What Codex CLI Users Need to Know and How to Defend Your Pipeline](/sketchnotes/articles/2026-05-15-tanstack-supply-chain-attack-codex-cli-npm-defence-sandbox-hardening.png)
+
+
 # The TanStack Supply Chain Attack: What Codex CLI Users Need to Know and How to Defend Your Pipeline
 
 

@@ -5,6 +5,9 @@ nav_order: 703
 tags: ["codex-cli", "skills", "openai-skills", "skill-installer", "curated-skills", "agent-skills", "SKILL.md"]
 ---
 
+![Sketchnote diagram for: The Official OpenAI Skills Catalogue: System, Curated, and Experimental Skills for Codex CLI](/sketchnotes/articles/2026-05-14-openai-skills-catalogue-codex-cli-official-curated-experimental-skill-installer.png)
+
+
 # The Official OpenAI Skills Catalogue: System, Curated, and Experimental Skills for Codex CLI
 
 

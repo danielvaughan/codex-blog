@@ -5,6 +5,9 @@ nav_order: 704
 tags: ["gpt-5.3-codex", "model-selection", "benchmarks", "cli-configuration", "interactive-coding", "codex-spark"]
 ---
 
+![Sketchnote diagram for: GPT-5.3-Codex Deep Dive: Benchmarks, CLI Configuration, and Interactive Coding Workflows](/sketchnotes/articles/2026-05-14-gpt-5-3-codex-model-deep-dive-benchmarks-cli-configuration-interactive-coding.png)
+
+
 # GPT-5.3-Codex Deep Dive: Benchmarks, CLI Configuration, and Interactive Coding Workflows
 
 

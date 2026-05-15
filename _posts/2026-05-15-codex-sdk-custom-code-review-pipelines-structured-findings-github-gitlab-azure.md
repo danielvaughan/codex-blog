@@ -5,6 +5,9 @@ nav_order: 712
 tags: ["codex-cli", "codex-sdk", "code-review", "structured-output", "github-actions", "gitlab-ci", "azure-devops", "ci-cd", "automation", "enterprise"]
 ---
 
+![Sketchnote diagram for: Building Custom Code Review Pipelines with the Codex SDK: Structured Findings Across GitHub, GitLab, and Azure DevOps](/sketchnotes/articles/2026-05-15-codex-sdk-custom-code-review-pipelines-structured-findings-github-gitlab-azure.png)
+
+
 # Building Custom Code Review Pipelines with the Codex SDK: Structured Findings Across GitHub, GitLab, and Azure DevOps
 
 

@@ -5,6 +5,9 @@ nav_order: 706
 tags: ["codex-cli", "multi-agent", "tokenmaxxing", "operator-stack", "parallel-agents", "claude-code", "harness-engineering", "cc-switch", "agent-routing"]
 ---
 
+![Sketchnote diagram for: Tokenmaxxing with Codex CLI: Multi-Agent Operator Stacks, Parallel Harnesses, and the End of Single-Tool Identity](/sketchnotes/articles/2026-05-14-tokenmaxxing-codex-cli-multi-agent-operator-stacks-parallel-harness-architecture.png)
+
+
 # Tokenmaxxing with Codex CLI: Multi-Agent Operator Stacks, Parallel Harnesses, and the End of Single-Tool Identity
 
 

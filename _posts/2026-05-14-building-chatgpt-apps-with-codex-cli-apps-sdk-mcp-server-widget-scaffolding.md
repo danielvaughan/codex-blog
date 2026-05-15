@@ -5,6 +5,9 @@ nav_order: 707
 tags: ["codex-cli", "chatgpt-apps", "apps-sdk", "mcp-server", "widget", "oauth", "structured-content", "scaffolding"]
 ---
 
+![Sketchnote diagram for: Building ChatGPT Apps with Codex CLI: Scaffolding MCP Servers, Widgets, and the Apps SDK Workflow](/sketchnotes/articles/2026-05-14-building-chatgpt-apps-with-codex-cli-apps-sdk-mcp-server-widget-scaffolding.png)
+
+
 # Building ChatGPT Apps with Codex CLI: Scaffolding MCP Servers, Widgets, and the Apps SDK Workflow
 
 
