@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #128)
+
+### API Integration Testing with Codex CLI
+
+1. ✅ **Codex CLI for API Integration Testing: Agent-Driven Mock Generation, Contract Validation, and Test Harness Automation** — Written 2026-05-16 → `2026-05-16-codex-cli-api-integration-testing-mock-generation-contract-validation-agent-workflows.md`
+   - Source: MSW docs, WireMock docs, Nock GitHub, OpenAI best practices docs, OpenAI non-interactive mode docs, OpenAI models docs, OpenAI agent approvals docs, GitHub Issue #14343
+   - Scope: Four-stage integration testing workflow (mock generation from OpenAPI specs, test harness scaffolding, contract validation, CI pipeline integration), MSW 2.x handler generation for TypeScript, WireMock JSON stub generation for JVM, Nock interceptor generation for Node.js, AGENTS.md testing standards encoding, reusable contract validation skill (SKILL.md), codex exec --output-schema for structured contract reports, GitHub Actions CI recipe with contract gates, model selection matrix for testing tasks (gpt-5.4-mini for mechanical tasks, gpt-5.5 for debugging), scheduled mock freshness checks, sandbox network isolation considerations
+   - SEO targets: "codex cli api integration testing", "codex cli mock generation MSW", "codex cli contract validation", "codex cli test harness automation", "codex exec integration testing CI", "codex cli OpenAPI mock generation 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover TDD (2026-04-26), Playwright e2e (2026-04-20), property-based testing (2026-05-15), and Specmatic contract-driven API development (2026-04-23), but no article covered the complete API integration testing workflow with agent-driven mock generation from OpenAPI specs, multi-framework mock support (MSW/WireMock/Nock), contract drift detection, or structured CI pipeline integration for integration test suites
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #127)
 
 ### Property-Based Testing and Fuzzing with Codex CLI
