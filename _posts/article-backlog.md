@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #122)
+
+### Eval-Driven Development with Promptfoo
+
+1. ✅ **Eval-Driven Development with Codex CLI: Building Promptfoo Test Suites for AI Applications** — Written 2026-05-15 → `2026-05-15-codex-cli-eval-driven-development-promptfoo-ai-application-testing.md`
+   - Source: OpenAI "Add evals to your AI application" use case, Promptfoo OpenAI Codex SDK provider docs, OpenAI Cookbook "Build an Agent Improvement Loop with Traces, Evals, and Codex", Promptfoo CI/CD integration docs, Promptfoo evaluate coding agents guide, OpenAI models docs, OpenAI custom prompts docs (deprecated), Promptfoo GitHub
+   - Scope: Eval-driven development lifecycle (inspect, propose cases, scaffold suite, baseline, iterate), Promptfoo Codex SDK provider configuration (model, sandbox_mode, output_schema, trajectory assertions), assertion types (is-json, cost, latency, trajectory:step-count, llm-rubric), CI/CD eval gates (GitHub Actions workflow), cost-aware evaluation strategies (caching, cheaper models for CI), agent improvement loop architecture (OTLP traces, HALO analysis, codex_handoff.md, harness promotion), good first eval targets vs poor targets, Promptfoo project structure (promptfooconfig.yaml, cases.yaml, adapter.js), limitations and Node.js version requirements
+   - SEO targets: "codex cli eval-driven development", "promptfoo codex eval suite", "codex cli AI application testing", "promptfoo codex sdk provider", "codex cli prompt regression testing", "eval-driven development AI 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing Promptfoo article covered evaluating Codex agents themselves, but no article covered using Codex CLI to build eval suites FOR AI applications, the official "Add evals" use case, the Codex SDK Promptfoo provider configuration, or the agent improvement loop pattern
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #121)
 
 ### Day-Two Operations and Platform Engineering
