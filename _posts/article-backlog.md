@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #124)
+
+### Codex CLI Notion MCP Integration
+
+1. ✅ **Codex CLI Meets Notion: MCP Integration, the External Agents API, and Knowledge-Driven Development Workflows** — Written 2026-05-15 → `2026-05-15-codex-cli-notion-mcp-integration-external-agents-api-knowledge-driven-workflows.md`
+   - Source: Notion Developer Platform blog (May 13 2026), TechCrunch coverage, Notion MCP developer docs, makenotion/notion-mcp-server GitHub, FlowDevs Notion MCP + Codex setup guide, Notion Help Centre MCP connections docs, Notion release notes 3.5, OpenAI MCP developer docs
+   - Scope: Notion MCP server setup in Codex CLI (one-liner and manual config.toml), OAuth authentication flow, 22 MCP tools across four categories (search, data source, page management, collaboration), External Agents API alpha (Notion-to-Codex task delegation vs MCP Codex-to-Notion reads), Notion Workers hosted runtime for deterministic logic, practical workflow recipes (ticket-driven development, ADR-aware refactoring, automated release notes, non-interactive pipeline integration), security considerations (OAuth scoping, write confirmation, sandbox interaction), limitations (alpha API, no file uploads, headless OAuth gaps)
+   - SEO targets: "codex cli notion mcp", "notion external agents api codex", "codex cli notion integration 2026", "notion mcp server codex setup", "notion developer platform codex cli", "knowledge-driven development codex notion"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Notion shipped its Developer Platform with External Agents API on May 13 2026 with Codex as a launch partner, yet zero existing articles covered the Notion MCP integration, the External Agents API, or knowledge-driven development workflows connecting Notion project context to Codex CLI
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #123)
 
 ### Custom Code Review Pipelines with the Codex SDK
