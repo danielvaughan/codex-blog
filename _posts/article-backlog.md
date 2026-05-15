@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #123)
+
+### Custom Code Review Pipelines with the Codex SDK
+
+1. ✅ **Building Custom Code Review Pipelines with the Codex SDK: Structured Findings Across GitHub, GitLab, and Azure DevOps** — Written 2026-05-15 → `2026-05-15-codex-sdk-custom-code-review-pipelines-structured-findings-github-gitlab-azure.md`
+   - Source: OpenAI Codex SDK docs, OpenAI "Build Code Review with the Codex SDK" cookbook, OpenAI "Automating Code Quality and Security Fixes with Codex CLI on GitLab" cookbook, OpenAI Non-interactive mode docs, OpenAI Best practices docs, GitHub Issue #15451 (output-schema MCP bug), GitHub Issue #14343 (output-schema resume), OpenAI GPT-5.2-Codex blog, OpenAI/Cerebras GPT-5.3-Codex-Spark blog, GitHub Releases page
+   - Scope: Custom code review pipeline architecture (codex exec + structured output schema), Codex SDK TypeScript and Python API surface (Codex class, startThread, thread.run), structured output schema design for review findings (priority, confidence_score, code_location, line_range), GitHub Actions recipe with openai/codex-action, GitLab CI/CD recipe with fork protection and ANSI stripping, Azure DevOps recipe with Pull Request Threads API, security hardening (read-only sandbox, privilege dropping, fork protection, MCP disabling, output validation), model selection matrix (GPT-5.5 vs GPT-5.2-Codex vs Spark), finding filtering and routing patterns, known limitations (MCP conflict, large diffs, resume support)
+   - SEO targets: "codex sdk code review pipeline", "codex structured output code review", "codex cli gitlab code review", "codex azure devops review", "codex exec output-schema review", "custom code review codex sdk 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered building custom code review pipelines with the Codex SDK, the structured findings output schema, or cross-platform CI/CD recipes for non-GitHub forges despite the official cookbook covering this pattern
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #122)
 
 ### Eval-Driven Development with Promptfoo
