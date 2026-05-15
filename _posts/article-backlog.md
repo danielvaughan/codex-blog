@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #121)
+
+### Day-Two Operations and Platform Engineering
+
+1. ✅ **Codex CLI for Day-Two Operations: Runbooks, Drift Detection, and Platform Engineering Automation** — Written 2026-05-15 → `2026-05-15-codex-cli-day-two-operations-runbooks-drift-detection-platform-engineering.md`
+   - Source: OpenAI non-interactive mode docs, OpenAI skills docs, OpenAI hooks docs, OpenAI agent approvals & security docs, OpenAI config reference, OpenAI GitHub Action docs, OpenAI pricing docs, GitHub Issue #16732, GitHub Issue #15451, AI SRE and platform engineering industry trends (Gartner, The New Stack, McKinsey)
+   - Scope: Day-two operational patterns with Codex CLI (drift detection, health checks, certificate expiry, cost anomaly detection), operational skill authoring (SKILL.md for infrastructure tasks), structured output schemas for machine-parseable reports, sandbox safety policies for production environments (read-only default, escalation patterns), PreToolUse hooks as guardrails against destructive operations, scheduling patterns (cron + codex exec, GitHub Actions), named profiles for ops vs development, exit code semantics for pipeline integration, token cost considerations, limitations and caveats
+   - SEO targets: "codex cli day-two operations", "codex cli infrastructure runbook", "codex cli drift detection", "codex exec operational automation", "codex cli platform engineering SRE", "codex cli health check automation"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for proactive day-two infrastructure operations (drift detection, health checks, certificate monitoring, cost anomaly detection) despite existing articles on incident response (reactive) and IaC authoring
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-15, Hourly Task #120)
 
 ### TanStack Supply Chain Attack and Codex CLI Defence
