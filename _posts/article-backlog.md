@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #131)
+
+### Automated Code Documentation Generation with Codex CLI
+
+1. ✅ **Automated Code Documentation Generation with Codex CLI: Docstrings, JSDoc, and CI-Integrated Doc Pipelines** — Written 2026-05-16 → `2026-05-16-codex-cli-automated-code-documentation-generation-docstrings-jsdoc-sphinx-ci-pipelines.md`
+   - Source: OpenAI Codex non-interactive mode docs, OpenAI AGENTS.md guide, OpenAI skills docs, OpenAI models docs, OpenAI automations docs, OpenAI Codex pricing docs, OpenAI GitHub Action docs, Sphinx autodoc docs, TypeDoc docs, JSDoc docs, Stack Overflow Developer Survey 2025, GitHub Issue #14343
+   - Scope: Four-stage doc-gen pipeline (audit gaps with structured output-schema, generate docstrings/JSDoc/godoc, validate with pydocstyle/eslint-plugin-jsdoc/go vet, render with Sphinx/TypeDoc/pkgsite), AGENTS.md documentation standards encoding, reusable doc-gen SKILL.md with language detection and linter validation, codex exec batch generation for Python Google-style and TypeScript JSDoc, GitHub Actions documentation coverage gate recipe, model selection matrix (gpt-5.4-mini for audit/simple docs, gpt-5.4 for complex logic, gpt-5.5 for architecture docs), scheduled weekly automations, anti-patterns (document-everything trap, trusting without validation, documenting implementation details), known limitations (output-schema/resume mutual exclusion, sandbox network restrictions, large file context limits)
+   - SEO targets: "codex cli documentation generation", "codex cli docstrings automation", "codex cli jsdoc generation", "codex exec documentation pipeline", "automated code documentation ci", "codex cli sphinx typedoc integration 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover doc-rot detection (2026-04-26), API documentation/OpenAPI generation (2026-04-26), documentation MCP servers (2026-04-30), and Dagster Labs documentation feedback loops (2026-04-14), but no article covered the complete automated code documentation generation workflow using codex exec for batch docstring/JSDoc creation, structured gap auditing, reusable doc-gen skills, CI coverage gates, or model routing for documentation tasks
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #130)
 
 ### Grok Build vs Codex CLI Competitive Analysis
