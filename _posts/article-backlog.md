@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #129)
+
+### Coverage-Driven Test Generation with Codex CLI
+
+1. ✅ **Coverage-Driven Test Generation with Codex CLI: Closing Gaps Using Istanbul, Coverage.py, and Agent Workflows** — Written 2026-05-16 → `2026-05-16-codex-cli-coverage-driven-test-generation-istanbul-coverage-py-agent-workflows.md`
+   - Source: Istanbul/nyc docs, Coverage.py docs, JaCoCo docs, OpenAI non-interactive mode docs, OpenAI AGENTS.md guide, OpenAI skills docs, OpenAI models docs, OpenAI GitHub Action docs, OpenAI best practices docs, OpenAI pricing docs, GitHub Issue #14343
+   - Scope: Coverage-driven test generation workflow (collect coverage, parse report, identify gaps, generate targeted tests, verify delta), Istanbul/nyc JSON summary for JS/TS, Coverage.py JSON with branch coverage for Python, JaCoCo XML for JVM, AGENTS.md test quality guardrails (no trivial assertions, minimal mocking, edge cases first), coverage-audit SKILL.md authoring, codex exec --output-schema for structured coverage delta reports, model selection matrix per workflow phase (GPT-5.4-mini for parsing, GPT-5.5 for complex authoring, GPT-5.3-Codex-Spark for verification), GitHub Actions coverage gate recipe, cost controls (scope limits, differential coverage, model routing, prompt caching), anti-patterns (100% trap, snapshot drift, mock explosion, flaky test generation), known limitations (output-schema/resume mutual exclusion, sandbox network restrictions)
+   - SEO targets: "codex cli coverage-driven test generation", "codex cli istanbul coverage", "codex cli coverage.py test generation", "codex exec coverage report automation", "codex cli coverage gaps CI pipeline", "AI agent test generation code coverage 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover TDD (2026-04-26), Playwright e2e (2026-04-20), property-based testing (2026-05-15), mutation testing (2026-04-21), over-mocked tests (2026-05-02), and API integration testing (2026-05-16), but no article covered the complete coverage-driven test generation workflow using coverage reports as agent input, structured coverage delta reporting, coverage audit skills, or CI/CD coverage gate integration with automatic test generation
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #128)
 
 ### API Integration Testing with Codex CLI
