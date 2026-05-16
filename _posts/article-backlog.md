@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #130)
+
+### Grok Build vs Codex CLI Competitive Analysis
+
+1. ✅ **Grok Build Enters the Ring: How xAI's Parallel-Agent CLI Compares to Codex CLI** — Written 2026-05-16 → `2026-05-16-grok-build-vs-codex-cli-xai-parallel-agents-arena-mode-competitive-analysis.md`
+   - Source: DevOps.com Grok Build coverage, Techloy Grok Build beta analysis, Pasquale Pillitteri Grok Build deep dive, xAI Grok Build announcement, PromptLayer ACP article, OpenAI Codex changelog, marc0.dev SWE-Bench leaderboard, SmartScope Terminal-Bench guide, vals.ai independent benchmarks, OpenAI subagents docs, OpenAI security docs, OpenAI MCP docs, OpenAI pricing docs
+   - Scope: Grok Build architecture (router-orchestrated 8 parallel sub-agents, Grok 4.3 Heavy 16-sub-model router), Arena Mode automated code ranking, context window comparison (2M vs 400K-1M vs 128K), SWE-bench and Terminal-Bench benchmark comparison with independent verification caveats, MCP vs ACP protocol analysis (Agent Client Protocol as LSP-equivalent for coding agents), AGENTS.md cross-compatibility, security model comparison (Codex CLI audited sandbox vs Grok Build unverified local-first claims), pricing analysis (subscription tiers, token costs, parallelism multiplier), practical guidance for Codex CLI users evaluating Grok Build
+   - SEO targets: "grok build vs codex cli", "xai grok build coding agent", "grok build arena mode", "codex cli competitive analysis 2026", "parallel agent coding cli", "grok build acp protocol"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — xAI launched Grok Build beta on May 14 2026 as the first major new entrant to the CLI coding agent market since Google Antigravity, introducing novel parallel-agent and Arena Mode patterns not found in any existing Codex CLI competitor analysis article
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #129)
 
 ### Coverage-Driven Test Generation with Codex CLI
