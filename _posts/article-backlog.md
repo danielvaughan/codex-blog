@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #157)
+
+### Feature Flag Lifecycle Management with Codex CLI
+
+1. ✅ **Codex CLI for Feature Flag Lifecycle Management: OpenFeature Migration, Stale Flag Detection, and CI Enforcement** — Written 2026-05-18 → `2026-05-18-codex-cli-feature-flag-lifecycle-management-openfeature-stale-cleanup-ci-enforcement.md`
+   - Source: OpenFeature specification v0.8.0, LaunchDarkly OpenFeature providers docs, Uber Piranha GitHub, FlagShark cleanup tools 2026, Swetrix feature flagging best practices, OpenAI AGENTS.md docs, OpenAI CLI reference, OpenAI GitHub Issue #14343
+   - Scope: OpenFeature CNCF standard (v0.8.0 spec, evaluation context, hooks, multi-provider), AGENTS.md feature flag convention encoding (naming, lifecycle annotations, prohibited patterns), codex exec structured flag audit with --output-schema, three-phase vendor SDK to OpenFeature migration (bootstrap provider, migrate evaluations, remove vendor SDK), stale flag detection combining git blame, naming conventions, and documentation cross-referencing, reusable flag-cleaner SKILL.md, PostToolUse hook for flag convention enforcement, GitHub Actions flag hygiene gate (PR convention check + weekly stale detection), deterministic tool complementarity (Piranha tree-sitter AST transforms, FlagShark lifecycle tracking), model selection matrix, anti-patterns (big-bang migration, trusting generated defaults, removing flags without checking downstream consumers, skipping flag register update), known limitations (output-schema/resume exclusion, context window for large codebases, non-deterministic output, sandbox network isolation, provider ecosystem maturity variation)
+   - SEO targets: "codex cli feature flags", "codex cli openfeature migration", "codex cli stale flag cleanup", "feature flag lifecycle management 2026", "codex exec flag audit", "openfeature codex cli", "feature flag technical debt automation"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for feature flag lifecycle management including OpenFeature standard migration, stale flag detection via git history and documentation cross-referencing, flag cleanup skills, PostToolUse convention enforcement hooks, or CI flag hygiene gates despite feature flag technical debt being a universal problem and OpenFeature reaching CNCF incubating status with v0.8.0 specification
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #156)
 
 ### Python Project Modernisation with Codex CLI
