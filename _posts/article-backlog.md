@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #158)
+
+### Codex CLI for Mobile Development
+
+1. ✅ **Codex CLI for Mobile Development: iOS with XcodeBuildMCP, Android CLI Skills, and React Native Plugin Workflows** — Written 2026-05-18 → `2026-05-18-codex-cli-mobile-development-ios-android-react-native-xcodebuildmcp-android-cli.md`
+   - Source: OpenAI Codex iOS use cases docs, Sentry XcodeBuildMCP GitHub, Google Android CLI docs, Google Android Developers Blog, Callstack React Native plugins blog, OpenAI Codex Skills docs, OpenAI Codex Sandbox docs, OpenAI Codex Advanced Config docs, OpenAI Codex Models docs
+   - Scope: Three-pillar mobile development coverage — iOS (XcodeBuildMCP, SwiftUI, xcodebuild CLI-first workflow, iOS skills), Android (Google Android CLI v0.7+, skills system, knowledge base, screen capture and UI automation, emulator management), React Native (Callstack building and testing plugins, Agent Device skill, Dogfood exploratory testing), sandbox configuration for mobile (writable_roots, network_access), model selection matrix for mobile tasks, AGENTS.md patterns for iOS and Android projects, anti-patterns (GUI dependency, skipping android init, full builds per edit), known limitations (no gradle subcommand, macOS-only XcodeBuildMCP, Windows emulator disabled)
+   - SEO targets: "codex cli mobile development", "codex cli ios xcodebuildmcp", "codex cli android cli", "codex cli react native", "codex cli swiftui", "codex cli kotlin android", "mobile development ai agent 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for mobile development across iOS, Android, and cross-platform frameworks including XcodeBuildMCP integration, Google Android CLI skills and knowledge base, Callstack React Native plugins, sandbox configuration for mobile build tools, or platform-specific AGENTS.md patterns despite mobile being a major development category and all three ecosystems shipping dedicated agent tooling in 2026
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #157)
 
 ### Feature Flag Lifecycle Management with Codex CLI
