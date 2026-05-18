@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Permission Profiles: Built-in Sandbox Modes, Custom Profiles, and the Two-Layer Security Model"
-date: 2026-05-08T00:00:00+00:00
+date: 2026-05-07T23:00:00+00:00
 category: security
 tags: [codex-cli, permissions, sandbox, security, enterprise, configuration]
 source:

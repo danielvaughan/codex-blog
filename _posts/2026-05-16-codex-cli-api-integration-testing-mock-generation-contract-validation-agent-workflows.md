@@ -5,6 +5,8 @@ nav_order: 717
 tags: ["codex-cli", "api-testing", "integration-testing", "mock-generation", "contract-testing", "msw", "wiremock", "nock", "codex-exec", "skills", "structured-output"]
 ---
 
+![Sketchnote diagram for: Codex CLI for API Integration Testing: Agent-Driven Mock Generation, Contract Validation, and Test Harness Automation](/sketchnotes/articles/2026-05-16-codex-cli-api-integration-testing-mock-generation-contract-validation-agent-workflows.png)
+
 # Codex CLI for API Integration Testing: Agent-Driven Mock Generation, Contract Validation, and Test Harness Automation
 
 

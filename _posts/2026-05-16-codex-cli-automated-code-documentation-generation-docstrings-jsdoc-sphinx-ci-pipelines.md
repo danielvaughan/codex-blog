@@ -5,6 +5,8 @@ nav_order: 720
 tags: ["codex-cli", "documentation", "docstrings", "jsdoc", "sphinx", "typedoc", "ci-cd", "automation", "skills", "codex-exec"]
 ---
 
+![Sketchnote diagram for: Automated Code Documentation Generation with Codex CLI: Docstrings, JSDoc, and CI-Integrated Doc Pipelines](/sketchnotes/articles/2026-05-16-codex-cli-automated-code-documentation-generation-docstrings-jsdoc-sphinx-ci-pipelines.png)
+
 # Automated Code Documentation Generation with Codex CLI: Docstrings, JSDoc, and CI-Integrated Doc Pipelines
 
 

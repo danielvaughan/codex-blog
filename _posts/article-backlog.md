@@ -1,5 +1,305 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #156)
+
+### Python Project Modernisation with Codex CLI
+
+1. ✅ **Codex CLI for Python Project Modernisation: Migrating to uv, Ruff, and ty with Automated Auditing and CI Enforcement** — Written 2026-05-18 → `2026-05-18-codex-cli-python-modernisation-uv-ruff-ty-astral-toolchain-migration.md`
+   - Source: Astral OpenAI announcement, DEV Community acquisition analysis, DataCamp uv guide, Ruff GitHub, ty docs (Astral), KDnuggets Python setup 2026, OpenAI AGENTS.md docs, OpenAI CLI reference, OpenAI skills docs, OpenAI hooks docs, OpenAI features docs
+   - Scope: Astral–OpenAI convergence (uv, ruff, ty under Codex team), modern toolchain comparison table (uv vs pip, ruff vs flake8+black, ty vs mypy), AGENTS.md Python convention encoding, interactive and codex exec structured audit with --output-schema, three-step sequential migration (packaging → linting → typing), pyproject.toml as single configuration source, reusable python-moderniser SKILL.md, PostToolUse hook for ruff+ty enforcement, GitHub Actions CI quality gate with codex exec semantic guard, model selection matrix, anti-patterns (big-bang migration, deleting before verification, ignoring uv.lock, blocking on ty warnings, skipping AGENTS.md), known limitations (output-schema/resume exclusion, context window for large monorepos, ty beta edge cases, sandbox network isolation, deal pending regulatory approval)
+   - SEO targets: "codex cli python modernisation", "codex cli uv ruff ty", "codex cli astral toolchain", "python pyproject.toml migration codex", "codex exec python audit", "ruff ty codex cli ci enforcement", "uv ruff ty 2026 python setup"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for Python project modernisation with the Astral toolchain (uv, ruff, ty) including setup.py-to-pyproject.toml migration, consolidated linting configuration, gradual type checking adoption, PostToolUse enforcement hooks, or CI quality gates despite Astral joining OpenAI in March 2026 and the uv+ruff+ty stack becoming the de facto Python toolchain for new projects
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #155)
+
+### Agent Improvement Loops with Codex CLI
+
+1. ✅ **Codex CLI Agent Improvement Loops: Closing the Harness Engineering Flywheel with Traces, Evals, and Automated Handoffs** — Written 2026-05-18 → `2026-05-18-codex-cli-agent-improvement-loop-traces-evals-harness-engineering-flywheel.md`
+   - Source: OpenAI Agent Improvement Loop cookbook, OpenAI harness engineering blog, Martin Fowler harness engineering article, OpenAI AGENTS.md docs, OpenAI skills docs, OpenAI hooks/features docs, OpenAI agent approvals docs, OpenAI non-interactive mode docs, OpenAI Agents SDK tracing docs, OpenAI advanced config docs, Promptfoo coding agent evals docs, OpenAI CLI reference, OpenAI models docs
+   - Scope: Closed-loop harness improvement flywheel (trace collection via Agents SDK set_trace_processors and Codex CLI OTEL export, human and LLM feedback attachment with structured JSON, Promptfoo eval suite generation from feedback as monotonic ratchet, pattern diagnosis with ranked recommendations, codex_handoff.md implementation by Codex), harness engineering principles (harness matters more than model, same model scores 16 points higher with better harness), feedback loop speed hierarchy (PostToolUse milliseconds through weekly improvement cycle), reusable harness-improvement skill, anti-patterns (implementing all recommendations at once, skipping eval suite, treating LLM feedback as ground truth, never pruning eval suite, using same model for execution and critique), known limitations (output-schema/resume exclusion, context window for large trace corpora, non-deterministic feedback, sandbox network isolation)
+   - SEO targets: "codex cli harness engineering", "codex cli agent improvement loop", "codex cli traces evals feedback", "harness engineering flywheel 2026", "codex cli promptfoo eval", "agent harness continuous improvement", "codex cli observability feedback loop"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the closed-loop agent improvement flywheel pattern combining OTEL trace collection, human and LLM feedback attachment, Promptfoo eval suite generation from feedback, pattern diagnosis, and Codex handoff for harness implementation despite OpenAI publishing the cookbook on 12 May 2026 and harness engineering being recognised as the highest-leverage discipline for agent quality
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #154)
+
+### GraphQL Development with Codex CLI
+
+1. ✅ **Codex CLI for GraphQL Development: Apollo Skills, MCP Server Integration, and Schema-Driven Workflows** — Written 2026-05-18 → `2026-05-18-codex-cli-graphql-development-apollo-skills-mcp-server-schema-driven-workflows.md`
+   - Source: Apollo GraphQL Skills blog, apollographql/skills GitHub, Apollo MCP Server docs, Apollo secure agent API stack blog, Apollo MCP type-safe config blog, GraphOS MCP Tools docs, OpenAI AGENTS.md guide, OpenAI CLI reference, OpenAI skills docs, OpenAI features docs
+   - Scope: Apollo Skills installation and activation (11 skills covering schema design, operations, federation, router, mobile clients, Rover CLI), Apollo MCP Server three-pattern configuration (pre-defined operations, persisted queries, dynamic introspection), GraphOS MCP Tools for documentation access, AGENTS.md GraphQL convention encoding (Relay pagination, naming, federation boundaries, forbidden patterns), schema-first development with MCP validation, federation subgraph scaffolding, codex exec structured GraphQL audit with --output-schema, reusable graphql-auditor SKILL.md, GitHub Actions CI schema audit pipeline, demand control security (@cost/@listSize directives), mutation safety modes, model selection matrix, anti-patterns (unvalidated schemas, mutation_mode:all, skipping demand control, over-relying on skills without AGENTS.md, agent-generated persisted query manifests), known limitations (output-schema/resume exclusion, output-schema/MCP conflict, context window for large schemas, non-deterministic generation, sandbox network isolation)
+   - SEO targets: "codex cli graphql", "codex cli apollo skills", "codex cli apollo mcp server", "codex cli graphql schema development", "apollo mcp server codex 2026", "codex cli federation subgraph", "codex cli graphql ci audit"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for GraphQL development including Apollo Skills integration, Apollo MCP Server configuration for schema introspection and operation validation, federation subgraph scaffolding, or CI schema audit pipelines despite GraphQL being a dominant API paradigm and Apollo having launched dedicated agent skills and MCP tooling in 2026
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #153)
+
+### Structured Logging Standardisation with Codex CLI
+
+1. ✅ **Codex CLI for Structured Logging Standardisation: Auditing, Migration, and CI Enforcement** — Written 2026-05-18 → `2026-05-18-codex-cli-structured-logging-standardisation-pino-slog-audit-enforcement.md`
+   - Source: SigNoz Pino guide, Go slog blog, OpenAI AGENTS.md docs, OpenAI best practices, OpenAI non-interactive mode docs, OpenAI skills docs, OpenAI hooks docs, OpenAI Codex cookbook, OpenAI CLI reference
+   - Scope: AGENTS.md logging standards encoding (field conventions, prohibited patterns, log level policy), interactive logging audit workflow, codex exec structured audit with --output-schema, Node.js Pino migration workflow, Go slog migration workflow, reusable logging-auditor SKILL.md, PostToolUse hook for logging standard enforcement, GitHub Actions CI logging gate pipeline, model selection matrix, anti-patterns (trusting generated log levels, logging full payloads, big-bang migration, skipping tests, over-permissioned sandbox), known limitations (output-schema/resume exclusion, context window constraints, apply_patch hook reliability, non-deterministic suggestions, sandbox network isolation)
+   - SEO targets: "codex cli structured logging", "codex cli logging audit", "codex cli pino migration", "codex cli slog migration", "structured logging standardisation 2026", "codex exec logging audit", "codex cli logging enforcement CI"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for structured logging standardisation including logging anti-pattern auditing, migration from console.log/fmt.Printf to structured libraries (Pino, slog), reusable logging audit skills, PostToolUse hook enforcement, or CI logging quality gates despite inconsistent logging being a universal observability problem for senior developers operating production services
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #152)
+
+### Database Schema Migrations with Codex CLI
+
+1. ✅ **Codex CLI for Database Schema Migrations: Branch-Based Safety with Neon and Prisma MCP Servers** — Written 2026-05-18 → `2026-05-18-codex-cli-database-schema-migrations-neon-prisma-mcp-safe-refactoring.md`
+   - Source: Neon MCP guide, Neon MCP Server docs, Neon changelog (Mar 2026), Prisma MCP Server docs, Prisma ORM 6.6.0 blog, OpenAI AGENTS.md guide, OpenAI non-interactive mode docs, OpenAI GitHub Action docs, ChatForest MCP servers review, GitHub Issue #14343
+   - Scope: Neon MCP server configuration for branch-based isolation, Prisma MCP server (v6.6.0+) migrate-dev/status/reset tool exposure, AGENTS.md migration safety rules encoding, interactive normalisation workflow with autonomous branch creation, codex exec structured migration risk audit with --output-schema, reusable migration-auditor SKILL.md, GitHub Actions migration safety gate pipeline, MCP landscape comparison table (Neon, Prisma, Liquibase, boringSQL/dryrun, Atlas), model selection matrix, anti-patterns (full-auto against production, trusting generated rollbacks, skipping schema diff, overly permissioned keys, large tables without online migration tooling), known limitations (output-schema/resume exclusion, context window for large histories, sandbox network isolation, non-deterministic generation, no native gh-ost support)
+   - SEO targets: "codex cli database migration", "codex cli schema migration", "codex cli neon mcp", "codex cli prisma mcp", "safe database migration automation 2026", "codex exec migration audit", "codex cli branch-based database testing"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for database schema migrations including branch-based isolation with Neon MCP, Prisma MCP server integration, structured migration risk auditing, or CI safety gates for destructive schema operations despite database migrations being a universal high-risk operation for senior developers
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #151)
+
+### API Version Management with Codex CLI
+
+1. ✅ **Codex CLI for API Version Management: Breaking Change Detection, Deprecation Lifecycle, and Version Scaffolding** — Written 2026-05-17 → `2026-05-17-codex-cli-api-version-management-breaking-change-detection-deprecation-lifecycle.md`
+   - Source: oasdiff GitHub, OpenAI AGENTS.md docs, OpenAI non-interactive mode docs, OpenAI Codex CLI reference, OpenAI Codex skills docs, OpenAI hooks docs, OpenAI GitHub Action docs, Optic archived status (DEV Community), API Design Patterns (Manning)
+   - Scope: URI/header/query versioning strategy encoding in AGENTS.md, interactive version planning, codex exec structured breaking change audit with --output-schema, oasdiff 450+ rule integration, combined oasdiff+Codex enriched analysis pipeline, reusable api-version-auditor SKILL.md, PostToolUse hook for automatic spec validation, GitHub Actions two-tier CI gate (oasdiff deterministic + Codex enriched), version scaffolding with migration guide generation, deprecation lifecycle enforcement (RFC 8594 Sunset headers, 90-day minimum), model selection matrix, anti-patterns (skipping sunset period, treating oasdiff as complete, unreviewed generated specs, over-permissioned sandbox), known limitations (output-schema/resume exclusion, context window for large specs, Optic archived, non-deterministic suggestions)
+   - SEO targets: "codex cli api versioning", "codex cli breaking change detection", "codex cli openapi diff", "oasdiff codex cli", "api deprecation lifecycle automation 2026", "codex exec api audit", "codex cli version scaffolding"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for API version management including breaking change detection with oasdiff, deprecation lifecycle enforcement (Sunset headers, sunset periods), version scaffolding, or CI breaking-change gates despite API versioning being a universal concern for senior developers maintaining public or internal APIs
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #150)
+
+### TypeScript 6.0 Strict Mode Migration with Codex CLI
+
+1. ✅ **Codex CLI for TypeScript 6.0 Strict Mode Migration: Incremental Type Safety, Zod Schema Generation, and CI Enforcement** — Written 2026-05-17 → `2026-05-17-codex-cli-typescript-6-strict-mode-migration-zod-schema-ci-enforcement.md`
+   - Source: TypeScript 6.0 announcement, DevBolt migration guide, Coding Dunia strict mode guide, OpenAI AGENTS.md docs, OpenAI non-interactive mode docs, @ts-migrating DEV Community, Zod 4.x docs, OpenAI Codex CLI features, OpenAI Codex changelog, GitHub Issues #14343 and #15451
+   - Scope: TypeScript 6.0 nine default changes (strict-by-default), AGENTS.md strict migration standards encoding, codex exec structured error audit with --output-schema, incremental flag-by-flag fix batches, @ts-migrating integration for gradual adoption, Zod 4.x schema generation from TypeScript types (z.toJSONSchema, z.infer), reusable zod-schema-generator SKILL.md, PostToolUse hook for type regression prevention, GitHub Actions strict ratchet pipeline with Codex auto-fix on failure, model selection matrix, anti-patterns (ts-ignore suppression, adding any, enabling all flags simultaneously, duplicate type definitions), known limitations (output-schema/resume exclusion, output-schema/MCP conflict, context window for large codebases, non-deterministic fixes)
+   - SEO targets: "codex cli typescript strict mode", "codex cli typescript 6 migration", "codex cli zod schema generation", "codex exec typescript audit", "typescript strict mode ci enforcement 2026", "codex cli type safety automation", "zod runtime validation codex cli"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for TypeScript 6.0 strict mode migration, incremental strict flag adoption, Zod schema generation from types, or CI strict-mode ratchet enforcement despite TypeScript 6.0 shipping strict-by-default in March 2026 creating an industry-wide migration wave
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #149)
+
+### Release Management Automation with Codex CLI
+
+1. ✅ **Codex CLI for Release Management: Changelog Generation, Semantic Versioning, and Automated Release Pipelines** — Written 2026-05-17 → `2026-05-17-codex-cli-release-management-changelog-generation-semantic-versioning-automation.md`
+   - Source: OpenAI Codex CLI reference, OpenAI non-interactive mode docs, OpenAI AGENTS.md guide, OpenAI Codex skills docs, OpenAI Codex CLI features docs, OpenAI best practices, release-please GitHub, semantic-release GitHub, OpenAI Codex changelog (access tokens)
+   - Scope: AGENTS.md release convention encoding, interactive changelog drafting from git log piping, codex exec structured release analysis with --output-schema, reusable release-manager SKILL.md, PostToolUse hook for Conventional Commits enforcement, GitHub Actions release preparation pipeline with CODEX_API_KEY, hybrid workflow with release-please and semantic-release, model selection matrix, anti-patterns (unreviewed changelogs, skipping commit conventions, over-permissioned sandbox, treating Codex as version authority), known limitations (output-schema/resume exclusion, context window for large histories, sandbox network isolation, non-deterministic prose)
+   - SEO targets: "codex cli changelog generation", "codex cli release management", "codex cli semantic versioning", "codex exec release notes", "codex cli conventional commits", "automated changelog ci pipeline 2026", "codex cli release-please integration"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for release management workflows including changelog generation from commit history, semantic version determination, Conventional Commits enforcement via hooks, release-please/semantic-release integration, or CI release preparation pipelines despite release management being a universal concern for senior developers shipping software
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #148)
+
+### API-First Development with Codex CLI
+
+1. ✅ **Codex CLI for API-First Development: OpenAPI Spec Generation, Mock Servers, and Client SDK Automation** — Written 2026-05-17 → `2026-05-17-codex-cli-api-first-development-openapi-spec-generation-mock-servers-sdk-automation.md`
+   - Source: OpenAI AGENTS.md guide, OpenAI non-interactive mode docs, OpenAI Codex CLI reference, OpenAI Codex skills docs, Speakeasy agent skills blog, Stoplight Prism docs, OpenAPI Generator docs, GitHub Issue #14343, OpenAI Codex changelog
+   - Scope: AGENTS.md API design standards encoding, interactive and batch OpenAPI 3.1 spec generation, codex exec structured audit with --output-schema, Speakeasy agent skills for spec extraction and SDK generation (21 skills across 7 languages), Stoplight Prism mock server with dynamic Faker.js data, PostToolUse hooks for Spectral linting, openapi-generator-cli alternative workflow, reusable api-first-auditor SKILL.md, GitHub Actions CI contract drift detection pipeline, model selection matrix, anti-patterns (unreviewed specs, monolithic specs, skipping mock validation, treating generated SDKs as final), known limitations (output-schema/resume exclusion, sandbox network isolation, context window for large specs)
+   - SEO targets: "codex cli openapi", "codex cli api-first development", "codex cli openapi generation", "codex exec openapi audit", "codex cli mock server prism", "codex cli sdk generation speakeasy", "codex cli api contract validation 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for API-first development workflows including OpenAPI spec generation, Speakeasy agent skill integration for SDK scaffolding, Prism mock server provisioning, or CI contract drift detection despite API-first being a core development practice for senior developers building microservices
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #147)
+
+### Linear MCP Sprint Automation with Codex CLI
+
+1. ✅ **Codex CLI with Linear MCP: Sprint Automation, Issue Decomposition, and Cycle-Driven Development** — Written 2026-05-17 → `2026-05-17-codex-cli-linear-mcp-sprint-automation-issue-decomposition-cycle-workflows.md`
+   - Source: Linear MCP Server docs, Linear MCP PM changelog (Feb 2026), OpenAI Codex CLI reference, OpenAI non-interactive mode docs, OpenAI AGENTS.md guide, OpenAI best practices, OpenAI Codex in Linear integration, OpenAI Codex CLI features docs
+   - Scope: Linear MCP server configuration (OAuth 2.1 and API key), epic decomposition into sprint-sized issues, sprint planning from backlog analysis, structured sprint reports with --output-schema, cycle-driven development workflow, AGENTS.md Linear integration standards, CI pipeline integration (PR merge sync, burndown alerts), daily standup skill, model selection matrix, anti-patterns (over-automating triage, ignoring cycle boundaries, non-deterministic decomposition, shared API keys), known limitations (SSE deprecation, output-schema/MCP conflict, rate limiting, read-only restricted keys)
+   - SEO targets: "codex cli linear mcp", "codex cli sprint planning", "codex cli issue decomposition", "linear mcp server codex", "automated sprint automation 2026", "codex cli cycle management", "codex cli project management mcp"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI with the Linear MCP server for sprint automation, issue decomposition, cycle management, or integrated sprint planning workflows despite Linear being a dominant engineering project management tool and MCP integration being widely used
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #146)
+
+### Internationalisation Workflows with Codex CLI
+
+1. ✅ **Codex CLI for Internationalisation: Translation Auditing, MCP-Driven Workflows, and CI Enforcement** — Written 2026-05-17 → `2026-05-17-codex-cli-i18n-internationalisation-translation-auditing-mcp-automation.md`
+   - Source: OpenAI Codex CLI features docs, OpenAI AGENTS.md guide, OpenAI non-interactive mode docs, OpenAI CLI reference, i18next-mcp-server GitHub, i18n-mcp GitHub, Lingo.dev MCP docs, OpenAI Codex best practices, OpenAI Codex hooks docs, GitHub Issue #15451
+   - Scope: Four-phase i18n pipeline (AGENTS.md i18n standards encoding, codex exec structured translation audit with --output-schema, i18next/i18n-mcp/Lingo.dev MCP server integration for live translation management, CI enforcement with coverage thresholds), reusable i18n-auditor SKILL.md, PostToolUse hook for locale file validation, model selection matrix, anti-patterns (generating translations without review, ignoring context entries, over-namespacing, treating all locales as equal priority), known limitations (output-schema/MCP conflict, context window for large locale files, translation quality vs accuracy, sandbox network isolation for cloud TMS)
+   - SEO targets: "codex cli i18n", "codex cli internationalisation", "codex cli translation auditing", "codex exec i18n audit", "i18next mcp server codex", "automated translation ci pipeline 2026", "codex cli locale management"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for internationalisation workflows including translation coverage auditing, hardcoded string detection, i18n MCP server integration (i18next-mcp-server, i18n-mcp, Lingo.dev), locale file synchronisation, or CI enforcement gates for translation completeness despite i18n being a universal concern for senior developers shipping multi-locale applications
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #145)
+
+### Architectural Fitness Functions with Codex CLI
+
+1. ✅ **Codex CLI for Architectural Fitness Functions: Dependency Analysis, Circular Detection, and Automated Boundary Enforcement** — Written 2026-05-17 → `2026-05-17-codex-cli-architectural-fitness-functions-dependency-analysis-boundary-enforcement.md`
+   - Source: Ford & Parsons Building Evolutionary Architectures (InfoQ), dependency-cruiser GitHub, ArchUnit docs, kcmvp/archunit Go framework, OpenAI AGENTS.md guide, OpenAI non-interactive mode docs, GitHub Issue #14343, OpenAI Codex CLI docs, OpenAI Codex CLI features docs, GitHub Issue #15451
+   - Scope: Five-phase fitness function pipeline (AGENTS.md architectural standards encoding, codex exec structured violation audit with --output-schema, dependency-cruiser rule generation for JS/TS, ArchUnit Go test generation, reusable arch-fitness-auditor SKILL.md, GitHub Actions CI enforcement with Codex-on-failure analysis), model selection matrix, anti-patterns (generating rules without understanding architecture, treating all violations as errors from day one, over-constraining internal packages, ignoring sandbox limitations), known limitations (output-schema/resume exclusion, output-schema/MCP conflict, context window for large monorepos, no native graph visualisation)
+   - SEO targets: "codex cli architecture fitness functions", "codex cli dependency analysis", "codex cli circular dependency detection", "codex cli module boundary enforcement", "codex exec architecture audit", "automated architecture governance 2026", "codex cli dependency-cruiser archunit"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover Codex's own architecture (rust rewrite, app-server) and policy-as-code governance but no article covered using Codex CLI for architectural fitness functions including dependency graph analysis, circular dependency detection, module boundary enforcement rule generation, or CI-integrated architectural drift prevention despite evolutionary architecture being a core concern for senior developers managing growing codebases
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #144)
+
+### Accessibility Auditing and WCAG Compliance with Codex CLI
+
+1. ✅ **Codex CLI for Accessibility Auditing: WCAG Compliance Scanning, ARIA Remediation, and CI Enforcement Pipelines** — Written 2026-05-17 → `2026-05-17-codex-cli-accessibility-auditing-wcag-compliance-aria-remediation-ci-enforcement.md`
+   - Source: ADA.gov Title II rule, Deque axe-core docs, Pa11y GitHub, W3C ARIA Authoring Practices Guide, OpenAI Codex non-interactive mode docs, OpenAI Codex best practices docs, OpenAI Codex CLI features docs, OpenAI Codex access tokens docs, Community-Access accessibility-agents GitHub, CivicActions GitHub Actions a11y guide, Abbott axe-core-vs-pa11y comparison
+   - Scope: Four-phase accessibility pipeline (AGENTS.md a11y standards encoding, axe-core + pa11y structured auditing with --output-schema, ARIA remediation skill with semantic HTML priorities, GitHub Actions CI enforcement gate), reusable a11y-remediator SKILL.md, batch audit with structured JSON output, combined scanner strategy (axe-core + pa11y for ~35% automated WCAG coverage), auto-remediation in CI with access tokens, Community Access 79-agent framework integration, model selection matrix, anti-patterns (suppressing violations, over-relying on aria-label, homepage-only scanning, trusting automated scans as complete), known limitations (sandbox network isolation, output-schema/resume exclusion, context window for large audits, semantic judgement gaps for subjective criteria)
+   - SEO targets: "codex cli accessibility auditing", "codex cli wcag compliance", "codex cli aria remediation", "codex exec a11y audit", "automated accessibility ci pipeline 2026", "codex cli axe-core pa11y", "ai agent wcag scanning"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for systematic accessibility auditing, WCAG compliance scanning with axe-core and pa11y, ARIA remediation code generation, or CI enforcement gates for accessibility despite ADA Title II mandating WCAG 2.1 AA compliance for government entities starting 2027 and accessibility being a critical frontend concern for senior developers
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #143)
+
+### GitOps Workflows with Codex CLI
+
+1. ✅ **Codex CLI for GitOps Workflows: ArgoCD Application Generation, Kustomize Overlay Management, and Environment Promotion Pipelines** — Written 2026-05-17 → `2026-05-17-codex-cli-gitops-argocd-flux-kustomize-environment-promotion-pipelines.md`
+   - Source: ArgoCD v3.4 docs, Flux v2.x Kustomization docs, OpenAI Codex non-interactive mode docs, OpenAI Codex config-reference, Kubernetes MCP Server GitHub, OpenAI Codex best practices, GitHub Issue #14343
+   - Scope: ArgoCD Application CRD generation (interactive and batch with --output-schema), Kustomize overlay hierarchy management (base/overlays pattern), environment promotion pipelines (dev→staging→production), PostToolUse hooks for manifest validation (kustomize build + kubectl dry-run), drift detection scheduled tasks, reusable kustomize-overlay-generator skill, model selection matrix, AGENTS.md GitOps standards encoding, anti-patterns (mutable tags in prod, bypassing promotion order, over-generating ApplicationSets), known limitations (sandbox network isolation, output-schema/resume exclusion, context window for large repos)
+   - SEO targets: "codex cli gitops", "codex cli argocd", "codex cli kustomize overlays", "codex exec kubernetes manifests", "codex cli environment promotion", "gitops automation agent 2026", "codex cli flux cd"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered GitOps workflows with ArgoCD/Flux, Kustomize overlay generation, or environment promotion pipelines despite existing K8s articles covering MCP servers (2026-05-05), operator development (2026-05-14), and Helm charts but not the GitOps reconciliation pattern
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #142)
+
+### Backstage MCP Developer Portal Integration with Codex CLI
+
+1. ✅ **Codex CLI with Backstage MCP: Developer Portal Integration, Golden Path Templates, and Catalog-Driven Workflows** — Written 2026-05-17 → `2026-05-17-codex-cli-backstage-mcp-developer-portal-golden-path-templates-catalog-integration.md`
+   - Source: Backstage MCP Server (LobeHub registry), @backstage/plugin-mcp-actions-backend docs, Vrabbi Cloud Backstage MCP architecture post, OpenAI Codex MCP docs, Backstage Software Templates docs, Talent500 Golden Path guide, OpenAI Codex CLI features docs
+   - Scope: Standalone HTTP and plugin-based STDIO MCP server configuration, OAuth authentication flow, catalog-driven development patterns (entity queries, ownership discovery, API surface enumeration), golden path template execution via conversational prompts, post-scaffold customisation chains, AGENTS.md catalog integration standards, codex exec batch catalog audits with --output-schema, bulk template migration workflows, model selection matrix, reusable backstage-catalog-ops SKILL.md, anti-patterns (bypassing portal, over-fetching, ignoring template versioning), known limitations (TechDocs partial support, output-schema/resume exclusion, async template execution)
+   - SEO targets: "codex cli backstage mcp", "codex cli developer portal", "codex cli golden path templates", "backstage mcp server codex", "codex cli software catalog", "platform engineering codex cli 2026", "codex cli scaffolder templates"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Backstage developer portal integration via MCP, golden path template execution from the terminal, catalog-driven code generation, or the standalone Backstage MCP server configuration despite Backstage being the dominant IDP framework and MCP integration shipping in Backstage 1.40+
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #141)
+
+### Contract Testing with Codex CLI and PactFlow MCP
+
+1. ✅ **Codex CLI for Contract Testing: PactFlow MCP Integration, Consumer-Driven Test Generation, and CI Verification Pipelines** — Written 2026-05-17 → `2026-05-17-codex-cli-contract-testing-pactflow-mcp-consumer-driven-verification.md`
+   - Source: PactFlow MCP Server blog, SmartBear MCP GitHub, Pact Foundation docs, OpenAI Codex MCP docs, OpenAI Codex non-interactive mode docs, GitHub Issue #15451
+   - Scope: SmartBear MCP server configuration in Codex CLI config.toml, PactFlow Agent Skills installation, AGENTS.md contract testing standards encoding, interactive consumer test generation with provider state fetching, batch test generation with codex exec --output-schema, provider verification configuration, GitHub Actions CI pipeline with can-i-deploy gating, model selection matrix, test review via MCP tools, anti-patterns, known limitations
+   - SEO targets: "codex cli contract testing", "codex cli pactflow mcp", "codex cli pact consumer tests", "codex exec contract audit", "pactflow mcp server codex", "ai agent contract testing 2026", "codex cli consumer driven testing"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered consumer-driven contract testing workflows with Codex CLI, PactFlow MCP server integration, or Pact test generation despite contract testing being a critical microservices practice for senior developers
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-17, Hourly Task #140)
+
+### Codex CLI Hooks and Lifecycle Governance
+
+1. ✅ **Codex CLI Hooks: Lifecycle Governance with PreToolUse, PostToolUse, and Enterprise Enforcement** — Written 2026-05-17 → `2026-05-17-codex-cli-hooks-lifecycle-pretooluse-posttooluse-governance-enforcement.md`
+   - Source: OpenAI Codex hooks docs, Agentic Control Plane hooks reference, OpenAI GitHub Issue #12190, Codex CLI v0.129.0 release notes, Speakeasy AI agent hooks guide
+   - Scope: Six lifecycle hook events (SessionStart, PreToolUse, PermissionRequest, PostToolUse, UserPromptSubmit, Stop), JSON/TOML configuration formats, hook discovery paths and merging, input/output contract, matcher regex patterns, practical governance recipes (destructive command blocking, audit trail logging, secret scanning), enterprise managed hooks via requirements.toml, tier-aware policy mapping, /hooks TUI command, known limitations and workarounds
+   - SEO targets: "codex cli hooks", "codex cli PreToolUse PostToolUse", "codex cli governance enforcement", "codex cli lifecycle hooks", "codex cli enterprise security hooks 2026", "codex cli hook configuration"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover keymaps (2026-05-06), workflow recipes (2026-05-07), and security scanning (2026-03-31, 2026-04-25, 2026-05-08) but no dedicated article covered the hooks extensibility system including PreToolUse/PostToolUse lifecycle events, hook configuration format, enterprise managed hooks, or practical governance enforcement patterns
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #139)
+
+### Performance Profiling and Optimisation with Codex CLI
+
+1. ✅ **Codex CLI for Performance Profiling and Optimisation: Agent-Driven Bottleneck Discovery, pprof Analysis, and Automated Fix Generation** — Written 2026-05-16 → `2026-05-16-codex-cli-performance-profiling-optimisation-pprof-pyspy-clinic-automated-workflows.md`
+   - Source: OpenAI Codex non-interactive mode docs, OpenAI Codex models docs, OpenAI Codex best practices docs, OpenAI Codex CLI features docs, Go pprof docs, py-spy docs, Clinic.js docs, GitHub Issue #14343
+   - Scope: Four-phase performance pipeline (AGENTS.md standards, profile collection, structured analysis with --output-schema, optimisation generation), multi-language profiling recipes (Go pprof, Python py-spy, Node.js Clinic.js), reusable perf-auditor SKILL.md, GitHub Actions performance gate with benchstat, model selection matrix, anti-patterns, known limitations
+   - SEO targets: "codex cli performance profiling", "codex cli pprof analysis", "codex cli optimisation automation", "codex exec performance benchmark", "automated performance profiling AI agent 2026", "codex cli bottleneck detection"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover Codex CLI's own performance (token overhead, benchmarks) but no article covered using Codex CLI as a performance engineering tool for profiling application code, analysing flame graphs/pprof output, generating targeted optimisations, or building CI performance gates with benchstat integration
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #138)
+
+### SRE Automation with Codex CLI
+
+1. ✅ **Codex CLI for SRE Automation: Generating SLO Definitions, Prometheus Alerting Rules, and Burn-Rate Policies** — Written 2026-05-16 → `2026-05-16-codex-cli-sre-automation-slo-definitions-prometheus-alerting-rules-burn-rate-policies.md`
+   - Source: Google SRE Workbook alerting-on-slos, Sloth CLI docs, OpenAI Codex non-interactive mode docs, OpenAI Codex CLI features docs, Prometheus promtool docs, GitHub Issue #15451
+   - Scope: SLO spec generation with codex exec --output-schema, Sloth YAML spec format, MWMBR alerting rules generation, AGENTS.md SRE standards encoding, batch SLO auditing, Grafana dashboard generation, reusable slo-generator SKILL.md, GitHub Actions validation gate, model selection matrix, anti-patterns (generating without validating, skipping short window, over-alerting low-tier services, ignoring budget resets, duplicating Sloth manually), known limitations (sandbox network isolation, output-schema/MCP conflict, context window limits, Sloth version dependency)
+   - SEO targets: "codex cli slo generation", "codex cli prometheus alerting rules", "codex cli sre automation", "codex exec slo audit", "automated slo definitions AI agent 2026", "codex cli burn rate alerting"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover observability/tracing of the agent itself and OpenTelemetry instrumentation of application code, but no article covered using Codex CLI for SRE-specific automation including SLO definition generation, multi-window multi-burn-rate alerting rules, Sloth integration, error budget policies, or Grafana dashboard generation from SLO specs
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #137)
+
+### OpenTelemetry Instrumentation Generation with Codex CLI
+
+1. ✅ **Codex CLI for OpenTelemetry Instrumentation: Agent-Driven Span Generation, Metrics Scaffolding, and Observability Pipelines** — Written 2026-05-16 → `2026-05-16-codex-cli-opentelemetry-instrumentation-generation-spans-metrics-application-code.md`
+   - Source: OpenTelemetry Go instrumentation docs, Red Hat auto-instrumentation guide, OpenAI Codex non-interactive mode docs, OpenAI AGENTS.md guide, OpenAI models docs, OpenAI workflows docs, Uptrace OTel for AI Systems blog, GitHub Issue #14343
+   - Scope: Four-phase instrumentation pipeline (AGENTS.md standards encoding, gap audit with --output-schema, span generation skill, CI coverage gate), reusable otel-instrumentor SKILL.md, Go/TypeScript code examples with context propagation, metrics scaffolding with histograms and counters, GitHub Actions enforcement workflow, model selection matrix, anti-patterns (over-instrumentation, missing validation, context propagation failures, PII leakage, duplicating auto-instrumentation), known limitations (output-schema/resume mutual exclusion, sandbox network isolation, context window limits)
+   - SEO targets: "codex cli opentelemetry instrumentation", "codex cli add tracing spans", "codex cli observability automation", "codex exec otel audit", "automated instrumentation generation AI agent 2026", "codex cli metrics scaffolding"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover observing the agent itself (2026-04-20, 2026-03-28, 2026-04-16) and measuring Codex impact with DORA metrics (2026-05-10), but no article covered the inverse workflow of using Codex CLI to systematically add OpenTelemetry instrumentation to application code including gap auditing, span generation skills, metrics scaffolding, or CI coverage gates
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #136)
+
+### Static Analysis Rule Authoring with Codex CLI
+
+1. ✅ **Codex CLI for Static Analysis: Agent-Driven Semgrep Rule Authoring, CodeQL Query Generation, and Security Scanning Pipelines** — Written 2026-05-16 → `2026-05-16-codex-cli-static-analysis-semgrep-codeql-custom-rule-authoring-security-pipelines.md`
+   - Source: Semgrep MCP server docs, Semgrep Skills blog, Semgrep vs CodeQL comparison (dev.to), OpenAI Codex non-interactive mode docs, OpenAI Codex changelog, OpenAI Codex MCP docs, GitHub Issue #14343
+   - Scope: Semgrep MCP server configuration in Codex CLI (security_check, scan_code, scan_with_custom_rule, get_rule_schema, get_ast tools), AGENTS.md static analysis standards encoding, interactive rule authoring with MCP feedback loop, batch rule generation with codex exec --output-schema, CodeQL query generation for taint tracking, reusable static-analysis-rule-author SKILL.md, CI/CD security gate recipe (GitHub Actions with Semgrep custom rules + CodeQL custom queries + rule freshness check), model selection matrix (o4-mini for pattern rules, o3 for taint-mode and CodeQL), Semgrep vs CodeQL division of labour guidance, anti-patterns (generating without validating, duplicating default coverage, over-scoping rules, ignoring auto-fixes, trusting without review), known limitations (output-schema/resume mutual exclusion, sandbox network isolation for semgrep login, CodeQL database construction outside sandbox, context window limits for monorepos)
+   - SEO targets: "codex cli semgrep custom rules", "codex cli codeql query generation", "codex cli static analysis", "semgrep mcp server codex", "codex cli sast pipeline", "ai agent custom security rules 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover Snyk MCP integration (2026-05-08), vulnerability scanning (2026-03-31), and security remediation (2026-04-25), but no article covered using Codex CLI with the Semgrep MCP server for custom rule authoring, CodeQL query generation, or the combined Semgrep+CodeQL security scanning pipeline pattern despite custom static analysis rule authoring being a critical AppSec workflow for senior developers
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #135)
+
+### Automated Error Handling Strategy with Codex CLI
+
+1. ✅ **Codex CLI for Automated Error Handling Strategy: Auditing, Generating, and Enforcing Consistent Error Patterns** — Written 2026-05-16 → `2026-05-16-codex-cli-error-handling-strategy-audit-generation-enforcement-consistent-patterns.md`
+   - Source: OpenAI Codex non-interactive mode docs, OpenAI Codex customisation docs, OpenAI Codex best practices docs, OpenAI Codex models docs, OpenAI Codex workflows docs, OpenAI Codex SDK code review cookbook, ESLint docs, errcheck docs, flake8-bugbear docs, GitHub Issue #14343
+   - Scope: Four-phase error handling pipeline (structured audit with --output-schema, typed error hierarchy generation for TypeScript/Go, reusable error-handling-audit SKILL.md, pre-commit hook enforcement), AGENTS.md error handling standards encoding, JSON schema for audit findings with severity classification, model selection matrix for error handling tasks (GPT-5.4-mini for audits, GPT-5.5 for hierarchy design, GPT-5.4 for fix generation), weekly scheduled automation recipe, anti-patterns (over-wrapping, generating without validating, ignoring observability, blanket enforcement, trusting without reviewing), known limitations (output-schema/resume mutual exclusion, sandbox network isolation, context window limits for monorepos, false positives in framework code)
+   - SEO targets: "codex cli error handling audit", "codex cli error patterns automation", "codex cli code quality enforcement", "codex exec output-schema error audit", "automated error handling strategy AI agent 2026", "codex cli hooks error validation"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the complete automated error handling strategy workflow using codex exec for structured error audits, typed error hierarchy generation (TypeScript/Go), reusable error-handling-audit skills, or pre-commit hook enforcement of error patterns despite inconsistent error handling being a pervasive code quality problem for senior developers
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #134)
+
+### Temporal Durable Workflow Development with Codex CLI
+
+1. ✅ **Codex CLI for Temporal Workflow Development: Deterministic Workflow Generation, Activity Scaffolding, and Worker Versioning** — Written 2026-05-16 → `2026-05-16-codex-cli-temporal-workflow-development-deterministic-activities-worker-versioning.md`
+   - Source: Temporal workflow docs, Temporal workflow-definition docs, Temporal Replay 2026 announcements, Temporal Go SDK versioning guide, OpenAI Codex AGENTS.md guide, OpenAI Codex best practices, OpenAI Codex CLI reference, OpenAI Codex sandbox docs
+   - Scope: AGENTS.md determinism guardrails for Temporal, Go/TypeScript/Python workflow generation with saga patterns, activity scaffolding with codex exec --output-schema, reusable temporal-workflow-generator SKILL.md, Worker Versioning (GA) deployment strategy with Mermaid flow, replay test generation from recorded histories, GitHub Actions determinism gate CI recipe, model selection matrix for Temporal tasks, anti-patterns (generating without guardrails, skipping replay tests, over-generating compensations, ignoring versioning), known limitations (sandbox network isolation, output-schema/resume mutual exclusion, context window limits for large histories)
+   - SEO targets: "codex cli temporal workflow", "codex cli durable execution", "temporal workflow generation AI", "codex cli worker versioning", "temporal AGENTS.md determinism", "codex cli temporal activities scaffolding 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for Temporal durable workflow development including deterministic workflow generation with AGENTS.md constraints, activity scaffolding, Worker Versioning strategies, or replay test automation despite Temporal being a core infrastructure choice for distributed systems
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #133)
+
+### Chaos Engineering and Resilience Testing with Codex CLI
+
+1. ✅ **Codex CLI for Chaos Engineering: Agent-Driven Experiment Generation, Fault Injection Manifests, and Resilience Validation Pipelines** — Written 2026-05-16 → `2026-05-16-codex-cli-chaos-engineering-resilience-testing-fault-injection-experiment-generation.md`
+   - Source: Netalith Chaos Engineering 2026 guide, Chaos Toolkit experiment API docs, Chaos Toolkit concepts docs, Chaos Mesh CNCF docs, Chaos Mesh pod fault simulation docs, AWS FIS tutorial, OpenAI Codex CLI docs, OpenAI non-interactive mode docs, GitHub Issue #14343
+   - Scope: Chaos engineering workflow with Codex CLI, AGENTS.md chaos standards encoding, Chaos Toolkit experiment JSON generation with --output-schema, reusable chaos-experiment-generator SKILL.md, Chaos Mesh PodChaos/NetworkChaos/StressChaos manifest generation, kubectl --dry-run=server validation pipeline, AWS FIS template generation, GitHub Actions resilience gate recipe, model selection matrix for chaos tasks (o4-mini for manifests, o3 for failure analysis), anti-patterns (generating without validating, skipping steady-state hypothesis, production without guardrails, over-scoping, ignoring rollbacks), known limitations (sandbox network isolation, output-schema/resume mutual exclusion, cluster state awareness)
+   - SEO targets: "codex cli chaos engineering", "codex cli fault injection", "codex cli resilience testing", "codex cli chaos mesh", "codex cli chaos toolkit", "chaos experiment generation AI agent 2026", "codex cli kubernetes resilience pipeline"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for chaos engineering experiment generation, fault injection manifest creation (Chaos Toolkit JSON, Chaos Mesh YAML, AWS FIS templates), steady-state hypothesis design, or CI/CD resilience validation gates despite chaos engineering being a core reliability practice for senior developers operating distributed systems
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #132)
+
+### Event-Driven Architecture with Codex CLI
+
+1. ✅ **Codex CLI for Event-Driven Architecture: AsyncAPI Contracts, Schema Registry Workflows, and Consumer Generation** — Written 2026-05-16 → `2026-05-16-codex-cli-event-driven-architecture-asyncapi-kafka-schema-registry-consumer-generation.md`
+   - Source: RisingWave EDA 2026 blog, Confluent Schema Registry docs, AsyncAPI Initiative docs, OpenAI Codex best practices docs, OpenAI Codex models docs, OpenAI Codex CLI features docs, Matthaios Stavrou Kafka Spring Boot guide
+   - Scope: Schema-first EDA development with Codex CLI, Avro schema generation from domain events, AsyncAPI 3.0 contract generation, consumer generation skill (SKILL.md) with idempotency guards and dead-letter routing, schema evolution validation pipeline using codex exec --output-schema, CloudEvents envelope validation via hooks, model selection matrix for EDA tasks, GitHub Actions schema compatibility gate, multi-service schema coordination with subagents, anti-patterns (schema sprawl, skipping AsyncAPI, happy-path-only testing)
+   - SEO targets: "codex cli event-driven architecture", "codex cli kafka schema generation", "codex cli asyncapi", "codex cli avro schema", "codex cli consumer generation", "event-driven development ai agent 2026", "codex cli schema registry workflow"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for event-driven architecture development including AsyncAPI contract generation, Avro/Protobuf schema creation, consumer code generation, schema evolution validation, or CloudEvents compliance despite EDA being a core backend architecture pattern for senior developers
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-16, Hourly Task #131)
 
 ### Automated Code Documentation Generation with Codex CLI

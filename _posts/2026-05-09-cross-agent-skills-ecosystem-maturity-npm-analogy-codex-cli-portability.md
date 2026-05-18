@@ -1,6 +1,6 @@
 ---
 title: "Cross-Agent Skills Hit the npm Moment: 351K Skills, Three Marketplaces, and a Portability Standard"
-date: 2026-05-09T00:00:00+00:00
+date: 2026-05-08T23:00:00+00:00
 category: ecosystem
 tags: [skills, SKILL.md, cross-agent, npm, portability, marketplace, SkillsMP, Skills.sh, ClawHub, agent-skills-cli]
 source: https://www.termdock.com/blog/cross-agent-skills-new-npm

@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI's Built-in MCPs Just Became First-Class Runtime Servers — What It Means for Memory and Plugins"
-date: 2026-05-07T00:00:00+00:00
+date: 2026-05-06T23:00:00+00:00
 tags: [codex-cli, mcp, architecture, memory, plugins, v0.129]
 status: draft
 ---

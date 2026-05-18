@@ -1,6 +1,6 @@
 ---
 title: "From Manual Config to One-Click Pod: How Plugins Transform the Agentic Engineering Pod"
-date: 2026-04-13T00:00:00+00:00
+date: 2026-04-12T23:00:00+00:00
 category: enterprise
 tags: [codex-cli, plugins, agentic-pod, enterprise, teams, distribution]
 status: draft

@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Deletes Function-Style apply_patch: Freeform Is Now the Only Way"
-date: 2026-05-08T00:00:00+00:00
+date: 2026-05-07T23:00:00+00:00
 tags: [codex-cli, apply_patch, freeform, architecture, tools, v0.130]
 category: deep-dive
 ---

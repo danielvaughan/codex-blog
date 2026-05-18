@@ -1,6 +1,6 @@
 ---
 title: "Three Terminals Meet the Editor: Codex CLI vs Claude Code vs Gemini CLI vs Cursor"
-date: 2026-04-19T00:00:00+00:00
+date: 2026-04-18T23:00:00+00:00
 categories: [codex-cli, claude-code, gemini-cli, cursor, comparison, ide, terminal-agents, customisation]
 description: "The three terminal-native coding agents share a philosophy: the terminal is enough. Cursor 3 disagrees. A head-to-head comparison of functionality and customisation across four tools — and when the IDE-first approach actually wins."
 ---

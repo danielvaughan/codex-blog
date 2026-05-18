@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI's Security Triple Play: Guardian Auto-Review, OTEL Hook Metrics, and MITM Pattern Matching"
-date: 2026-04-17T00:00:00+00:00
+date: 2026-04-16T23:00:00+00:00
 toc: true
 tags: [codex-cli, security, guardian, observability, hooks, enterprise]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Plugin Marketplace: Remote Installation, Workspace Sharing, and Bundled Hooks"
-date: 2026-05-08T00:00:00+00:00
+date: 2026-05-07T23:00:00+00:00
 category: plugins
 tags: [codex-cli, plugins, marketplace, hooks, mcp, skills, enterprise]
 source:

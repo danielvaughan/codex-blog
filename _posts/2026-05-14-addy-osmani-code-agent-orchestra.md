@@ -1,3 +1,5 @@
+![Sketchnote: The Code Agent Orchestra — Key Insights from Addy Osmani](/sketchnotes/articles/2026-05-14-addy-osmani-code-agent-orchestra.png)
+
 # The Code Agent Orchestra — Key Insights from Addy Osmani
 
 Source: https://addyosmani.com/blog/code-agent-orchestra/

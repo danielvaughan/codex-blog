@@ -1,6 +1,6 @@
 ---
 title: "Ticket-Driven Development with Codex CLI: Automating the Jira-to-Pull-Request Pipeline"
-date: 2026-04-20T00:00:00+00:00
+date: 2026-04-19T23:00:00+00:00
 parent: "Articles"
 nav_order: 351
 tags: ["codex-cli", "jira", "atlassian", "mcp", "automation", "ci-cd", "ticket-driven-development", "workflow"]

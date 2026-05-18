@@ -5,6 +5,8 @@ nav_order: 719
 tags: ["codex-cli", "grok-build", "xai", "competitive-analysis", "parallel-agents", "arena-mode", "cli-agents", "acp", "benchmarks", "pricing"]
 ---
 
+![Sketchnote diagram for: Grok Build Enters the Ring: How xAI's Parallel-Agent CLI Compares to Codex CLI](/sketchnotes/articles/2026-05-16-grok-build-vs-codex-cli-xai-parallel-agents-arena-mode-competitive-analysis.png)
+
 # Grok Build Enters the Ring: How xAI's Parallel-Agent CLI Compares to Codex CLI
 
 

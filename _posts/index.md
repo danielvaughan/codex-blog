@@ -5,8 +5,8 @@ nav_order: 1
 
 # Articles Index
 
-**Last updated:** 2026-05-15
-**Total articles rated:** 769
+**Last updated:** 2026-05-16
+**Total articles rated:** 785
 
 ## Rating Scale
 
@@ -59,6 +59,10 @@ Each article is rated 1-5 on four dimensions:
 | [The Gravel Path: Node.js TypeScript on AWS Edition](../premium-articles/27f-the-gravel-path-nodejs-typescript-aws.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Complete copy-paste guide; AWS CDK; Lambda + ECS Fargate; Vitest; pnpm; Rich tech stack table |
 | [The Gravel Path: Go Microservices on Kubernetes Edition](../premium-articles/27g-the-gravel-path-go-kubernetes.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Complete copy-paste guide; EKS/GKE/AKS; Terraform + Helm; chi router; golangci-lint; Rich tech stack table |
 | [The Gravel Path: Python Data Engineering on AWS Edition](../premium-articles/27h-the-gravel-path-python-data-engineering-aws.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Complete copy-paste guide; Lambda + ECS; Redshift; Step Functions; moto; Ruff; Rich tech stack table |
+| [The Quality Dividend: Why the Real AI Opportunity Isn't Speed](../premium-articles/draft-2026-05-16-the-quality-dividend.md) | 5 | 5 | 4 | 5 | 4.8 | Draft; Flagship essay; Jevons Paradox + Faros data + JetBrains research; Counter-narrative; Masterful opening |
+| [The Ten-Car Problem: Why AI's Real Gift Isn't Speed](../premium-articles/draft-2026-05-16-the-ten-car-problem.md) | 4 | 5 | 4 | 5 | 4.5 | Draft; Memorable metaphor; Jevons + Goldratt frameworks; Personal stories; Highly shareable |
+| [The Gravel Path: React Next.js Enterprise Frontend Edition](../premium-articles/27i-the-gravel-path-react-nextjs-frontend.md) | 5 | 3 | 4 | 4 | 4.1 | Premium series; Complete copy-paste guide; Vercel/Amplify/Cloudflare; Biome + Playwright; Rich tech stack table |
+| [The Gravel Path: SAP CAP on Business Technology Platform Edition](../premium-articles/27j-the-gravel-path-sap-cap-btp.md) | 5 | 4 | 4 | 3 | 4.1 | Premium series; Unique SAP niche; CAP + BTP + HANA Cloud; Cloud Foundry/Kyma deployment; MTA build |
 
 ## Articles
 
@@ -72,6 +76,8 @@ Each article is rated 1-5 on four dimensions:
 | [Inside the Codex Windows Sandbox: Restricted Tokens, Synthetic SIDs, and the Four-Layer Execution Architecture](2026-05-14-codex-cli-windows-sandbox-engineering-restricted-tokens-acls-elevated-architecture.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; OS internals; Four-layer execution path; Official blog sourced; Mermaid |
 | [Tokenmaxxing with Codex CLI: Multi-Agent Operator Stacks, Parallel Harnesses, and the End of Single-Tool Identity](2026-05-14-tokenmaxxing-codex-cli-multi-agent-operator-stacks-parallel-harness-architecture.md) | 4 | 4 | 4 | 5 | 4.2 | Trendy topic; Multi-agent routing; CC-Switch/9Router; Mermaid; Shareable |
 | [Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns](2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality.md) | 4 | 4 | 4 | 4 | 4.0 | Practical; Compaction internals; Config levers; GitHub issues cited |
+| [The Agentic Pricing Wars: OpenAI's Enterprise Migration Offer, Anthropic's Quota Expansion, and the Real Cost of Switching](2026-05-15-codex-cli-enterprise-pricing-wars-migration-incentives-claude-code-competitive-switching.md) | 4 | 4 | 4 | 4 | 4.0 | Competitive analysis; Switching costs breakdown; Token efficiency data; Timely |
+| [Grok Build Enters the Ring: How xAI's Parallel-Agent CLI Compares to Codex CLI](2026-05-16-grok-build-vs-codex-cli-xai-parallel-agents-arena-mode-competitive-analysis.md) | 4 | 4 | 3 | 4 | 3.8 | Competitive analysis; Arena Mode; Router architecture; Timely; Sketchnote |
 | [The macOS Premium: Which Codex Features Only Work on Apple Hardware](2026-04-17-codex-cli-macos-premium-platform-feature-matrix.md) | 4 | 3 | 4 | 4 | 3.8 | Platform comparison; Sandbox deep dive; Feature matrix tables; Sketchnote |
 | [Codex CLI for Generating Architecture Diagrams from Source Code: Mermaid, C4, and PlantUML Visualisation Workflows](2026-05-13-codex-cli-architecture-diagrams-mermaid-c4-plantuml-source-code-visualisation.md) | 4 | 3 | 4 | 4 | 3.8 | C4 model; CI pipeline patterns; AGENTS.md conventions; Sketchnote |
 | [Building ChatGPT Apps with Codex CLI: Scaffolding MCP Servers, Widgets, and the Apps SDK Workflow](2026-05-14-building-chatgpt-apps-with-codex-cli-apps-sdk-mcp-server-widget-scaffolding.md) | 4 | 3 | 4 | 4 | 3.8 | Apps SDK architecture; Three-channel design; Phased workflow; Mermaid |
@@ -303,6 +309,8 @@ Each article is rated 1-5 on four dimensions:
 | [How to Be a Codex CLI Forward Deployed Engineer](2026-04-07-codex-cli-forward-deployed-engineer.md) | 3 | 3 | 4 | 5 | 3.6 | Core article |
 | [The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis](2026-04-10-codex-cli-complete-pricing-guide-subscription-tokens-cost-optimization.md) | 5 | 2 | 4 | 3 | 3.6 | Deep dive; Rich diagrams; Heavily sourced |
 | [The Proof of Work Principle: Why Agents Need to Show Their Working](2026-03-27-proof-of-work-principle-agents.md) | 3 | 4 | 3 | 5 | 3.6 | Thought leadership |
+| [Codex CLI for Chaos Engineering: Agent-Driven Experiment Generation, Fault Injection Manifests, and Resilience Validation Pipelines](2026-05-16-codex-cli-chaos-engineering-resilience-testing-fault-injection-experiment-generation.md) | 4 | 3 | 3 | 4 | 3.5 | Chaos Toolkit + Chaos Mesh + FIS; Structured output; AGENTS.md patterns; Mermaid |
+| [Codex CLI for Event-Driven Architecture: AsyncAPI Contracts, Schema Registry Workflows, and Consumer Generation](2026-05-16-codex-cli-event-driven-architecture-asyncapi-kafka-schema-registry-consumer-generation.md) | 4 | 3 | 3 | 4 | 3.5 | AsyncAPI + Kafka + Avro/Protobuf; Schema evolution; Consumer boilerplate; Sketchnote |
 | [A2A Meets MCP: The Multi-Agent Protocol Stack and What It Means for Codex](2026-04-09-a2a-meets-mcp-protocol-stack.md) | 4 | 2 | 4 | 4 | 3.5 | Rich diagrams |
 | [AI Coding Agent Adoption in 2026: What the Survey Data Actually Shows and Where Codex CLI Fits](2026-04-26-ai-coding-agent-adoption-2026-survey-data-codex-cli-positioning.md) | 4 | 2 | 4 | 4 | 3.5 | Rich diagrams |
 | [AI-Assisted Coding Tool Comparison: What the freeCodeCamp 85-Minute Course Teaches Practitioners](2026-04-09-freecodecamp-ai-tools-course-codex-lessons.md) | 4 | 2 | 4 | 4 | 3.5 | Heavily sourced |
@@ -677,6 +685,12 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control](2026-03-28-codex-cli-cost-management-token-strategy.md) | 4 | 2 | 4 | 3 | 3.3 | Model strategy |
 | [Codex CLI's Built-in MCPs Just Became First-Class Runtime Servers](2026-05-07-codex-cli-builtin-mcp-first-class-runtime-servers-memory-isolation.md) | 3 | 4 | 3 | 3 | 3.3 | PR analysis; Architecture change; Memory isolation; Brief |
 | [The Official Codex Subagents Documentation: Architecture, Patterns, and CSV Batch Processing](2026-05-06-codex-subagents-official-docs-reference-patterns-csv-batch.md) | 3 | 3 | 4 | 3 | 3.3 | Reference article; Official docs summary; Cross-references |
+| [Property-Based Testing and Fuzzing with Codex CLI: Agent-Driven Edge-Case Discovery Using Hypothesis and fast-check](2026-05-15-codex-cli-property-based-testing-fuzzing-hypothesis-fast-check-edge-case-discovery.md) | 4 | 3 | 3 | 3 | 3.3 | Hypothesis + fast-check; Fuzz harnesses; Sandbox safety; Mermaid; Sketchnote |
+| [Codex CLI for API Integration Testing: Agent-Driven Mock Generation, Contract Validation, and Test Harness Automation](2026-05-16-codex-cli-api-integration-testing-mock-generation-contract-validation-agent-workflows.md) | 4 | 3 | 3 | 3 | 3.3 | MSW + WireMock + Nock; OpenAPI spec-driven; CI pipeline; Sketchnote |
+| [Coverage-Driven Test Generation with Codex CLI: Closing Gaps Using Istanbul, Coverage.py, and Agent Workflows](2026-05-16-codex-cli-coverage-driven-test-generation-istanbul-coverage-py-agent-workflows.md) | 4 | 3 | 3 | 3 | 3.3 | Istanbul + Coverage.py + JaCoCo; Feedback loop; CI integration; Sketchnote |
+| [Codex CLI for OpenTelemetry Instrumentation: Agent-Driven Span Generation, Metrics Scaffolding, and Observability Pipelines](2026-05-16-codex-cli-opentelemetry-instrumentation-generation-spans-metrics-application-code.md) | 4 | 3 | 3 | 3 | 3.3 | OTel spans + metrics; Gap audit; CI gate; AGENTS.md standards |
+| [Codex CLI for Static Analysis: Agent-Driven Semgrep Rule Authoring, CodeQL Query Generation, and Security Scanning Pipelines](2026-05-16-codex-cli-static-analysis-semgrep-codeql-custom-rule-authoring-security-pipelines.md) | 4 | 3 | 3 | 3 | 3.3 | Semgrep MCP server; CodeQL generation; SAST pipelines; Rule testing |
+| [Codex CLI for Temporal Workflow Development: Deterministic Workflow Generation, Activity Scaffolding, and Worker Versioning](2026-05-16-codex-cli-temporal-workflow-development-deterministic-activities-worker-versioning.md) | 4 | 3 | 3 | 3 | 3.3 | Go + TS + Python SDKs; Determinism guardrails; AGENTS.md encoding; Replay testing |
 | [AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance](2026-04-07-agents-md-open-standard-cross-tool-portability.md) | 3 | 2 | 4 | 4 | 3.2 | Agent patterns |
 | [Agent Psychometrics: Predicting Which Tasks Your Codex CLI Agent Will Ace and Which It Will Botch](2026-04-29-agent-psychometrics-predicting-task-difficulty-codex-cli-llm-scaffold-decomposition.md) | 3 | 2 | 4 | 4 | 3.2 | Agent patterns |
 | [Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI](2026-04-10-agents-platform-speed-kubecon-codex-cli.md) | 3 | 2 | 4 | 4 | 3.2 | Agent patterns |
@@ -725,6 +739,7 @@ Each article is rated 1-5 on four dimensions:
 | [The macOS Premium: Which Codex Features Only Work on Apple Hardware](2026-04-17-codex-cli-macos-premium-platform-feature-matrix.md) | 3 | 2 | 4 | 4 | 3.2 | Rich diagrams |
 | [Three Terminals, Three Fates](2026-04-12-cli-wars-of-2026-iphone-android-windows-phone.md) | 3 | 2 | 4 | 4 | 3.2 | Core article |
 | [What Microservices Taught Us About Building AI Coding Agents](2026-04-15-microservices-lessons-for-agentic-engineering.md) | 4 | 2 | 3 | 4 | 3.2 | Rich diagrams |
+| [Codex CLI for Automated Error Handling Strategy: Auditing, Generating, and Enforcing Consistent Error Patterns](2026-05-16-codex-cli-error-handling-strategy-audit-generation-enforcement-consistent-patterns.md) | 3 | 3 | 3 | 3 | 3.0 | Error pattern audit; Structured output; Hook enforcement; Multi-language |
 | [AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks](2026-03-26-agents-md-advanced-patterns.md) | 3 | 2 | 4 | 3 | 3.0 | Agent patterns |
 | [Claude Code ↔ Codex CLI: Bidirectional MCP Integration](2026-03-26-claude-code-codex-bidirectional-mcp.md) | 4 | 2 | 2 | 4 | 3.0 | No citations |
 | [Codex CLI Custom Model Providers: Azure, Vercel, Local LLMs and Dynamic Bearer Tokens](2026-03-31-codex-cli-custom-model-providers.md) | 3 | 2 | 3 | 4 | 3.0 | Model strategy |
@@ -739,6 +754,7 @@ Each article is rated 1-5 on four dimensions:
 | [IBM Bob vs Codex CLI: Enterprise Agentic Coding Agents Compared](2026-04-10-ibm-bob-vs-codex-cli-enterprise-agents.md) | 2 | 4 | 2 | 4 | 2.9 | No citations |
 | [Model Routing and Advisor Patterns: How to Cut AI Coding Costs Without Losing Quality](2026-04-12-model-routing-advisor-patterns-cut-ai-coding-costs.md) | 2 | 2 | 4 | 4 | 2.9 | Model strategy |
 | [Codex CLI Configuration Complete Guide: Hierarchy, Profiles, and Trust](2026-04-16-codex-cli-configuration-complete-guide-hierarchy-profiles-trust.md) | 4 | 2 | 2 | 3 | 2.8 | No citations |
+| [Automated Code Documentation Generation with Codex CLI: Docstrings, JSDoc, and CI-Integrated Doc Pipelines](2026-05-16-codex-cli-automated-code-documentation-generation-docstrings-jsdoc-sphinx-ci-pipelines.md) | 3 | 2 | 3 | 3 | 2.8 | Sphinx + TypeDoc + godoc; CI pipeline; Gap audit; Standard topic |
 | [Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions](2026-03-30-codex-app-server-tui-architecture-shift.md) | 2 | 2 | 4 | 3 | 2.7 | Core article |
 | [Codex CLI Incident Response: Automating On-Call with Agents](2026-03-29-codex-cli-incident-response-on-call-automation.md) | 3 | 2 | 2 | 4 | 2.7 | No citations |
 | [Codex CLI Rules Engine: Starlark Policies, Approval Fatigue, and the Coming `general_rule` Fix](2026-03-30-codex-cli-rules-engine-starlark-approval-fatigue.md) | 3 | 2 | 2 | 4 | 2.7 | No citations |
@@ -797,7 +813,7 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI 0.130.0 and Chrome Extension Launch](2026-05-14-codex-cli-0130-and-chrome-extension.md) | 2 | 2 | 2 | 2 | 2.0 | Changelog notes; Brief |
 ## Summary Statistics
 
-- **Total articles:** 754
+- **Total articles:** 785
 - **Average composite:** 3.5
 - **Highest composite:** 4.8
 - **Lowest composite:** 2.0
@@ -810,15 +826,15 @@ Each article is rated 1-5 on four dimensions:
 4. **The Assembly Line: Why Validation Capacity Is Your AI Bottleneck** (4.8)
 5. **The Gravel Path: A Minimal Viable Harness for Agentic Development** (4.8)
 6. **The Gravel Path: Book Writing Edition** (4.8)
-7. **AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?** (4.5)
-8. **The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide** (4.5)
-9. **The Enablement Coach: How Scrum Masters Lead the Shift to Agentic Engineering** (4.5)
-10. **The Gravel Path: Java Spring Boot on AWS Edition** (4.5)
+7. **The Quality Dividend: Why the Real AI Opportunity Isn't Speed** (4.8) ⭐ NEW
+8. **When the Model Turns Hostile: The GPT-5.3-Codex Malware Injection Incident** (4.8)
+9. **AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?** (4.5)
+10. **The Ten-Car Problem: Why AI's Real Gift Isn't Speed** (4.5) ⭐ NEW
 
 ### Score Distribution
 
-- **4.0+:** 193 articles
-- **3.5-3.9:** 436 articles
-- **3.0-3.4:** 62 articles
-- **2.5-2.9:** 29 articles
+- **4.0+:** 198 articles
+- **3.5-3.9:** 438 articles
+- **3.0-3.4:** 74 articles
+- **2.5-2.9:** 30 articles
 - **< 2.5:** 34 articles

@@ -1,6 +1,6 @@
 ---
 title: "Codex and Outlook Calendar: Five Ways to Connect Your Agent to Microsoft 365 Scheduling"
-date: 2026-04-28T00:00:00+00:00
+date: 2026-04-27T23:00:00+00:00
 layout: article
 tags:
   - codex-cli

@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI's Plugin Architecture Matures: codex-core-plugins Extraction and FedRAMP Routing"
-date: 2026-04-16T00:00:00+00:00
+date: 2026-04-15T23:00:00+00:00
 tags: [architecture, plugins, enterprise, fedramp, marketplace]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Fast Books: What AI-Enabled Publishing Can Learn from Fast Fashion and Fast Software"
 description: "The same forces that let Zara go from sketch to store in two weeks and Shein launch 6,000 designs a day are now reshaping how technical books are written, shipped, and consumed. The parallels — and the warnings — are striking."
-date: 2026-05-08T00:00:00+00:00
+date: 2026-05-07T23:00:00+00:00
 author: Daniel Vaughan
 category: opinion
 tags: [ai, publishing, fast-fashion, software-development, agentic-engineering]

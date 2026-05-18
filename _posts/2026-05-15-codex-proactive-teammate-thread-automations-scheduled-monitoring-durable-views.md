@@ -5,6 +5,8 @@ nav_order: 714
 tags: ["codex-cli", "codex-app", "automations", "thread-automations", "proactive-monitoring", "plugins", "scheduled-tasks", "durable-views", "teammate"]
 ---
 
+![Sketchnote diagram for: Codex as a Proactive Teammate: Thread Automations, Scheduled Monitoring, and Durable Views](/sketchnotes/articles/2026-05-15-codex-proactive-teammate-thread-automations-scheduled-monitoring-durable-views.png)
+
 # Codex as a Proactive Teammate: Thread Automations, Scheduled Monitoring, and Durable Views
 
 

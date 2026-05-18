@@ -5,6 +5,8 @@ nav_order: 715
 tags: ["codex-cli", "enterprise", "pricing", "claude-code", "migration", "competitive-analysis", "anthropic", "openai"]
 ---
 
+![Sketchnote diagram for: The Agentic Pricing Wars: OpenAI's Enterprise Migration Offer, Anthropic's Quota Expansion, and the Real Cost of Switching](/sketchnotes/articles/2026-05-15-codex-cli-enterprise-pricing-wars-migration-incentives-claude-code-competitive-switching.png)
+
 # The Agentic Pricing Wars: OpenAI's Enterprise Migration Offer, Anthropic's Quota Expansion, and the Real Cost of Switching
 
 

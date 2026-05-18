@@ -5,6 +5,8 @@ nav_order: 718
 tags: ["codex-cli", "testing", "code-coverage", "istanbul", "coverage-py", "test-generation", "codex-exec", "skills", "ci-cd", "automation"]
 ---
 
+![Sketchnote diagram for: Coverage-Driven Test Generation with Codex CLI: Closing Gaps Using Istanbul, Coverage.py, and Agent Workflows](/sketchnotes/articles/2026-05-16-codex-cli-coverage-driven-test-generation-istanbul-coverage-py-agent-workflows.png)
+
 # Coverage-Driven Test Generation with Codex CLI: Closing Gaps Using Istanbul, Coverage.py, and Agent Workflows
 
 

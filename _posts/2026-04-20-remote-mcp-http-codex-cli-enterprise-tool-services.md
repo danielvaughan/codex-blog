@@ -1,6 +1,6 @@
 ---
 title: "Remote HTTP MCP: Codex CLI Completes the Enterprise Tool Services Stack"
-date: 2026-04-20T00:00:00+00:00
+date: 2026-04-19T23:00:00+00:00
 tags: [codex-cli, mcp, enterprise, remote, http, architecture]
 category: deep-dive
 ---

@@ -5,6 +5,8 @@ nav_order: 714
 tags: ["hackathon", "sprint", "rapid-prototyping", "workflow", "subagents", "worktrees", "goal-mode", "fast-mode", "skills", "AGENTS.md"]
 ---
 
+![Sketchnote diagram for: The Codex CLI Hackathon Playbook: Rapid Prototyping Under Time Pressure](/sketchnotes/articles/2026-05-15-codex-cli-hackathon-sprint-playbook-rapid-prototyping-time-constrained-development.png)
+
 # The Codex CLI Hackathon Playbook: Rapid Prototyping Under Time Pressure
 
 

@@ -5,6 +5,8 @@ nav_order: 716
 tags: ["codex-cli", "property-based-testing", "fuzzing", "hypothesis", "fast-check", "testing", "edge-cases", "quality-assurance"]
 ---
 
+![Sketchnote diagram for: Property-Based Testing and Fuzzing with Codex CLI: Agent-Driven Edge-Case Discovery Using Hypothesis and fast-check](/sketchnotes/articles/2026-05-15-codex-cli-property-based-testing-fuzzing-hypothesis-fast-check-edge-case-discovery.png)
+
 # Property-Based Testing and Fuzzing with Codex CLI: Agent-Driven Edge-Case Discovery Using Hypothesis and fast-check
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI v0.130.0: What's New and Why It Matters"
-date: 2026-05-11T00:00:00+00:00
+date: 2026-05-10T23:00:00+00:00
 tags: [codex-cli, changelog, plugins, mcp, remote-control]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Does Pi Outperform Codex CLI for Local Models? A Harness Comparison on the NVIDIA GB10"
-date: 2026-04-19T00:00:00+00:00
+date: 2026-04-18T23:00:00+00:00
 categories: [codex-cli, pi, local-models, benchmarks, nvidia-gb10, ollama]
 description: "Four local models, three harnesses, one coding task. Pi's minimal system prompt delivers a 2× speedup on large dense models — but the story is more complicated for MoE architectures, and an unexpected MCP discovery doubles Codex's measured overhead."
 ---

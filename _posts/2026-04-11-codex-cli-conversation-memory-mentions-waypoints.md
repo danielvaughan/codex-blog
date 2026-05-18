@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI's Memory and Reach: #Mentions for Cross-Session Context and Waypoints for Multi-Host Execution"
-date: 2026-04-11T00:00:00+00:00
+date: 2026-04-10T23:00:00+00:00
 categories: [deep-dive]
 tags: [memory, remote-execution, enterprise, multi-agent]
 ---

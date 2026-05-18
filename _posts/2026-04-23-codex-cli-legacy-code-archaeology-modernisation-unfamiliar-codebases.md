@@ -2,7 +2,7 @@
 title: "Legacy Code Archaeology with Codex CLI: Understanding, Documenting, and Safely Modernising Unfamiliar Codebases"
 parent: "Articles"
 nav_order: 384
-date: 2026-04-23T00:00:00+00:00
+date: 2026-04-22T23:00:00+00:00
 tags: ["legacy-code", "code-archaeology", "modernisation", "onboarding", "AGENTS.md", "ExecPlan", "codex-cli", "refactoring"]
 ---
 

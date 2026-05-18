@@ -1,6 +1,6 @@
 ---
 title: "AWS Agent Toolkit for AWS: Enterprise MCP, Skills, and Plugins for Codex CLI"
-date: 2026-05-09T00:00:00+00:00
+date: 2026-05-08T23:00:00+00:00
 categories: [ecosystem, enterprise, MCP]
 tags: [aws, agent-toolkit, mcp, skills, plugins, enterprise, codex-cli]
 ---
