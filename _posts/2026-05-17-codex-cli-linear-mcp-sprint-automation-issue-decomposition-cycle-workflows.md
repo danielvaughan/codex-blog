@@ -5,6 +5,8 @@ nav_order: 754
 tags: ["codex-cli", "linear", "mcp", "sprint-planning", "issue-decomposition", "cycle-management", "project-management", "automation"]
 ---
 
+![Sketchnote diagram for: Codex CLI with Linear MCP: Sprint Automation, Issue Decomposition, and Cycle-Driven Development](/sketchnotes/articles/2026-05-17-codex-cli-linear-mcp-sprint-automation-issue-decomposition-cycle-workflows.png)
+
 # Codex CLI with Linear MCP: Sprint Automation, Issue Decomposition, and Cycle-Driven Development
 
 

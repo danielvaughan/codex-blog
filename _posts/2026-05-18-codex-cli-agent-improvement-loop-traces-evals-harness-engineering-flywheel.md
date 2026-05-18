@@ -5,6 +5,8 @@ nav_order: 762
 tags: ["codex-cli", "harness-engineering", "traces", "evals", "promptfoo", "agents-sdk", "AGENTS.md", "observability", "continuous-improvement", "GPT-5.5"]
 ---
 
+![Sketchnote diagram for: Codex CLI Agent Improvement Loops: Closing the Harness Engineering Flywheel with Traces, Evals, and Automated Handoffs](/sketchnotes/articles/2026-05-18-codex-cli-agent-improvement-loop-traces-evals-harness-engineering-flywheel.png)
+
 # Codex CLI Agent Improvement Loops: Closing the Harness Engineering Flywheel with Traces, Evals, and Automated Handoffs
 
 

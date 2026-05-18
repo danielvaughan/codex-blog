@@ -1,3 +1,5 @@
+![Sketchnote: Multi-Agent Orchestration Patterns for Codex CLI](/sketchnotes/articles/2026-05-18-multi-agent-orchestration-patterns.png)
+
 # Multi-Agent Orchestration Patterns for Codex CLI
 
 Published: 2026-05-18

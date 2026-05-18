@@ -5,6 +5,8 @@ nav_order: 763
 tags: ["codex-cli", "python", "uv", "ruff", "ty", "astral", "pyproject.toml", "modernisation", "ci", "migration"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Python Project Modernisation: Migrating to uv, Ruff, and ty with Automated Auditing and CI Enforcement](/sketchnotes/articles/2026-05-18-codex-cli-python-modernisation-uv-ruff-ty-astral-toolchain-migration.png)
+
 # Codex CLI for Python Project Modernisation: Migrating to uv, Ruff, and ty with Automated Auditing and CI Enforcement
 
 

@@ -5,6 +5,8 @@ nav_order: 757
 tags: ["codex-cli", "typescript", "strict-mode", "zod", "migration", "ci-cd", "type-safety", "codex-exec"]
 ---
 
+![Sketchnote diagram for: Codex CLI for TypeScript 6.0 Strict Mode Migration: Incremental Type Safety, Zod Schema Generation, and CI Enforcement](/sketchnotes/articles/2026-05-17-codex-cli-typescript-6-strict-mode-migration-zod-schema-ci-enforcement.png)
+
 # Codex CLI for TypeScript 6.0 Strict Mode Migration: Incremental Type Safety, Zod Schema Generation, and CI Enforcement
 
 

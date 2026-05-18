@@ -5,6 +5,8 @@ nav_order: 755
 tags: ["codex-cli", "openapi", "api-first", "mock-server", "sdk-generation", "speakeasy", "prism", "codex-exec"]
 ---
 
+![Sketchnote diagram for: Codex CLI for API-First Development: OpenAPI Spec Generation, Mock Servers, and Client SDK Automation](/sketchnotes/articles/2026-05-17-codex-cli-api-first-development-openapi-spec-generation-mock-servers-sdk-automation.png)
+
 # Codex CLI for API-First Development: OpenAPI Spec Generation, Mock Servers, and Client SDK Automation
 
 

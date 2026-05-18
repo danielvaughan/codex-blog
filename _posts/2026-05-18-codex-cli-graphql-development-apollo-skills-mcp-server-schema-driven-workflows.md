@@ -5,6 +5,8 @@ nav_order: 761
 tags: ["codex-cli", "graphql", "apollo", "mcp", "schema-design", "federation", "agent-skills"]
 ---
 
+![Sketchnote diagram for: Codex CLI for GraphQL Development: Apollo Skills, MCP Server Integration, and Schema-Driven Workflows](/sketchnotes/articles/2026-05-18-codex-cli-graphql-development-apollo-skills-mcp-server-schema-driven-workflows.png)
+
 # Codex CLI for GraphQL Development: Apollo Skills, MCP Server Integration, and Schema-Driven Workflows
 
 

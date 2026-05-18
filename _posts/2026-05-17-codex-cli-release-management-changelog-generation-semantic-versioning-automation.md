@@ -5,6 +5,8 @@ nav_order: 756
 tags: ["codex-cli", "release-management", "changelog", "semantic-versioning", "conventional-commits", "ci-cd", "automation", "release-please", "semantic-release"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Release Management: Changelog Generation, Semantic Versioning, and Automated Release Pipelines](/sketchnotes/articles/2026-05-17-codex-cli-release-management-changelog-generation-semantic-versioning-automation.png)
+
 # Codex CLI for Release Management: Changelog Generation, Semantic Versioning, and Automated Release Pipelines
 
 

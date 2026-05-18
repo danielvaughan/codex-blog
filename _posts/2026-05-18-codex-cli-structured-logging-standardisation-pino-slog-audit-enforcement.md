@@ -5,6 +5,8 @@ nav_order: 760
 tags: ["codex-cli", "structured-logging", "pino", "slog", "observability", "AGENTS.md", "codex-exec", "hooks", "skills", "CI"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Structured Logging Standardisation: Auditing, Migration, and CI Enforcement](/sketchnotes/articles/2026-05-18-codex-cli-structured-logging-standardisation-pino-slog-audit-enforcement.png)
+
 # Codex CLI for Structured Logging Standardisation: Auditing, Migration, and CI Enforcement
 
 

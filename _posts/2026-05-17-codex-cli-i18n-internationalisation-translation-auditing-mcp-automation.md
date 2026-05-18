@@ -5,6 +5,8 @@ nav_order: 753
 tags: ["codex-cli", "i18n", "internationalisation", "translation", "mcp", "automation", "ci-cd", "react-intl", "next-intl", "i18next"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Internationalisation: Translation Auditing, MCP-Driven Workflows, and CI Enforcement](/sketchnotes/articles/2026-05-17-codex-cli-i18n-internationalisation-translation-auditing-mcp-automation.png)
+
 # Codex CLI for Internationalisation: Translation Auditing, MCP-Driven Workflows, and CI Enforcement
 
 

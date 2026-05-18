@@ -5,6 +5,8 @@ nav_order: 758
 tags: ["codex-cli", "api-versioning", "breaking-changes", "oasdiff", "openapi", "deprecation", "codex-exec", "skills", "hooks", "ci-cd"]
 ---
 
+![Sketchnote diagram for: Codex CLI for API Version Management: Breaking Change Detection, Deprecation Lifecycle, and Version Scaffolding](/sketchnotes/articles/2026-05-17-codex-cli-api-version-management-breaking-change-detection-deprecation-lifecycle.png)
+
 # Codex CLI for API Version Management: Breaking Change Detection, Deprecation Lifecycle, and Version Scaffolding
 
 
