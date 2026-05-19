@@ -14,7 +14,7 @@ Google I/O 2026 (19 May) announced several products that directly compete with C
 
 ### Managed Agents in Gemini API vs Codex Cloud Tasks and codex exec
 
-1. 📝 **Managed Agents in the Gemini API vs Codex Cloud Tasks: Agent-as-a-Service Showdown**
+1. ✅ **Managed Agents in the Gemini API vs Codex Cloud Tasks: Agent-as-a-Service Showdown** — Written 2026-05-20 → `2026-05-20-managed-agents-gemini-api-vs-codex-cloud-tasks-agent-as-a-service-showdown.md`
    - Source: Google Blog "Introducing Managed Agents in the Gemini API" (Ali Cevik, 19 May 2026), Google I/O 2026 developer highlights, Google Cloud I/O agent developer news, OpenAI Codex Cloud docs, OpenAI codex exec docs, OpenAI Python SDK docs, OpenAI Non-interactive mode docs
    - Scope: Google's Managed Agents architecture (single API call, ephemeral Linux sandbox, Interactions API, AGENTS.md/SKILL.md registration, MCP server provisioning), direct comparison with Codex Cloud tasks (cloud VM, GitHub integration, PR output), comparison with codex exec (local sandbox, --output-schema structured output, CI/CD integration), comparison with openai-codex Python SDK (app-server JSON-RPC, multi-turn threads), pricing model differences, sandbox security comparison (Google ephemeral vs Codex kernel-level), when to use which (fire-and-forget tasks, structured CI queries, interactive sessions, embedded automation), enterprise governance implications
    - SEO targets: "managed agents gemini api vs codex", "google managed agents codex comparison", "agent as a service coding", "gemini api agent sandbox", "codex cloud vs managed agents", "codex exec vs managed agents gemini"
