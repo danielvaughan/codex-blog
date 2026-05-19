@@ -5,6 +5,9 @@ nav_order: 767
 tags: ["codex-cli", "contract-testing", "pact", "consumer-driven-contracts", "microservices", "ci-cd", "testing", "automation"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Consumer-Driven Contract Testing: Pact Generation, Provider Verification, and CI Contract Gates](/sketchnotes/articles/2026-05-18-codex-cli-consumer-driven-contract-testing-pact-generation-provider-verification-ci-gates.png)
+
+
 # Codex CLI for Consumer-Driven Contract Testing: Pact Generation, Provider Verification, and CI Contract Gates
 
 

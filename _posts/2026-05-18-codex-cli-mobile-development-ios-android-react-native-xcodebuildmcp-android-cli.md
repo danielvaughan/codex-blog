@@ -5,6 +5,9 @@ nav_order: 765
 tags: ["codex-cli", "mobile-development", "ios", "android", "react-native", "xcodebuildmcp", "android-cli", "swiftui", "kotlin", "cross-platform", "mcp", "skills", "plugins"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Mobile Development: iOS with XcodeBuildMCP, Android CLI Skills, and React Native Plugin Workflows](/sketchnotes/articles/2026-05-18-codex-cli-mobile-development-ios-android-react-native-xcodebuildmcp-android-cli.png)
+
+
 # Codex CLI for Mobile Development: iOS with XcodeBuildMCP, Android CLI Skills, and React Native Plugin Workflows
 
 

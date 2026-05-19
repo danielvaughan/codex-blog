@@ -5,6 +5,9 @@ nav_order: 774
 tags: ["codex-cli", "codex-cloud", "cloud-delegation", "codex-cloud-exec", "best-of-n", "remote-execution", "ci-cd", "workflow-patterns"]
 ---
 
+![Sketchnote diagram for: Codex CLI Cloud Delegation Workflows: Plan Locally, Execute Remotely, Apply Diffs](/sketchnotes/articles/2026-05-19-codex-cli-cloud-delegation-workflows-plan-locally-execute-remotely-apply-diffs.png)
+
+
 # Codex CLI Cloud Delegation Workflows: Plan Locally, Execute Remotely, Apply Diffs
 
 

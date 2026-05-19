@@ -5,6 +5,9 @@ nav_order: 766
 tags: ["codex-cli", "mcp", "mcp-server", "agents-sdk", "multi-agent", "delegation", "orchestration", "automation"]
 ---
 
+![Sketchnote diagram for: Codex CLI as an MCP Server: Exposing Agent Capabilities to the Agents SDK and Other MCP Clients](/sketchnotes/articles/2026-05-18-codex-cli-as-mcp-server-exposing-agent-capabilities-agents-sdk-multi-agent-delegation.png)
+
+
 # Codex CLI as an MCP Server: Exposing Agent Capabilities to the Agents SDK and Other MCP Clients
 
 

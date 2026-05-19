@@ -5,6 +5,9 @@ nav_order: 768
 tags: ["codex-cli", "bazel", "monorepo", "mcp-server", "remote-builds", "agents-md", "buildbuddy", "bazel-9", "bzlmod"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Bazel Monorepo Workflows: MCP Server Integration, Remote Builds, and AGENTS.md Conventions](/sketchnotes/articles/2026-05-18-codex-cli-bazel-monorepo-workflows-mcp-server-remote-builds-agents-md.png)
+
+
 # Codex CLI for Bazel Monorepo Workflows: MCP Server Integration, Remote Builds, and AGENTS.md Conventions
 
 

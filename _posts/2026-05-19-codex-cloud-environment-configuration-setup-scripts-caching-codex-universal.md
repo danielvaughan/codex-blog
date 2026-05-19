@@ -5,6 +5,9 @@ nav_order: 772
 tags: ["codex-cli", "codex-cloud", "cloud-environments", "setup-scripts", "container-caching", "codex-universal", "docker", "devops", "ci-cd"]
 ---
 
+![Sketchnote diagram for: Codex Cloud Environment Configuration: Setup Scripts, Container Caching, and the codex-universal Image](/sketchnotes/articles/2026-05-19-codex-cloud-environment-configuration-setup-scripts-caching-codex-universal.png)
+
+
 # Codex Cloud Environment Configuration: Setup Scripts, Container Caching, and the codex-universal Image
 
 

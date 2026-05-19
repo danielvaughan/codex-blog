@@ -5,6 +5,9 @@ nav_order: 766
 tags: ["codex-cli", "diagnostics", "troubleshooting", "v0.131.0", "developer-experience"]
 ---
 
+![Sketchnote diagram for: Codex CLI Doctor: The New First-Class Diagnostics Command in v0.131.0](/sketchnotes/articles/2026-05-18-codex-cli-doctor-diagnostics-v0131-troubleshooting-runtime-auth-network.png)
+
+
 # Codex CLI Doctor: The New First-Class Diagnostics Command in v0.131.0
 
 

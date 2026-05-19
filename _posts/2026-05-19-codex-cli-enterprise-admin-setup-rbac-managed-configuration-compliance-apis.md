@@ -5,6 +5,9 @@ nav_order: 771
 tags: ["codex-cli", "enterprise", "admin-setup", "rbac", "managed-configuration", "compliance", "security", "requirements-toml", "mdm", "analytics-api"]
 ---
 
+![Sketchnote diagram for: Codex CLI Enterprise Admin Setup: RBAC, Managed Configuration, and Compliance APIs](/sketchnotes/articles/2026-05-19-codex-cli-enterprise-admin-setup-rbac-managed-configuration-compliance-apis.png)
+
+
 # Codex CLI Enterprise Admin Setup: RBAC, Managed Configuration, and Compliance APIs
 
 

@@ -5,6 +5,9 @@ nav_order: 770
 tags: ["codex-cli", "database", "postgresql", "query-optimisation", "explain-plan", "indexing", "mcp", "performance", "pg_stat_statements"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Database Query Performance Optimisation: EXPLAIN Plan Analysis, Index Tuning, and MCP-Driven Workflows](/sketchnotes/articles/2026-05-19-codex-cli-database-query-performance-optimisation-explain-plans-index-tuning-mcp.png)
+
+
 # Codex CLI for Database Query Performance Optimisation: EXPLAIN Plan Analysis, Index Tuning, and MCP-Driven Workflows
 
 

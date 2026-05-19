@@ -5,6 +5,9 @@ nav_order: 773
 tags: ["codex-cli", "cross-repository", "multi-repo", "microservices", "AGENTS.md", "MCP", "worktrees", "coordination", "subagents"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Cross-Repository Development: Multi-Repo Sessions, Coordination Patterns, and MCP-Bridged Workflows](/sketchnotes/articles/2026-05-19-codex-cli-cross-repository-development-multi-repo-sessions-coordination-patterns.png)
+
+
 # Codex CLI for Cross-Repository Development: Multi-Repo Sessions, Coordination Patterns, and MCP-Bridged Workflows
 
 

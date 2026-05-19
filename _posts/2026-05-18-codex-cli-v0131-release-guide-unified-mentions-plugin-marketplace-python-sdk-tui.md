@@ -5,6 +5,9 @@ nav_order: 769
 tags: ["codex-cli", "v0.131.0", "release", "unified-mentions", "plugin-marketplace", "python-sdk", "tui", "remote-control", "configuration"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.131.0 Release Guide: Unified Mentions, Plugin Marketplace CLI, Python SDK Migration, and TUI Overhaul](/sketchnotes/articles/2026-05-18-codex-cli-v0131-release-guide-unified-mentions-plugin-marketplace-python-sdk-tui.png)
+
+
 # Codex CLI v0.131.0 Release Guide: Unified Mentions, Plugin Marketplace CLI, Python SDK Migration, and TUI Overhaul
 
 

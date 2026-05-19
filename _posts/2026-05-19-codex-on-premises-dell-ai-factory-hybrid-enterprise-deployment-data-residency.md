@@ -5,6 +5,9 @@ nav_order: 775
 tags: ["codex", "enterprise", "on-premises", "Dell", "AI Factory", "hybrid deployment", "data residency", "infrastructure", "compliance"]
 ---
 
+![Sketchnote diagram for: Codex On-Premises: The Dell AI Factory Partnership, Hybrid Deployment, and What It Means for Data-Sovereign Enterprises](/sketchnotes/articles/2026-05-19-codex-on-premises-dell-ai-factory-hybrid-enterprise-deployment-data-residency.png)
+
+
 # Codex On-Premises: The Dell AI Factory Partnership, Hybrid Deployment, and What It Means for Data-Sovereign Enterprises
 
 
