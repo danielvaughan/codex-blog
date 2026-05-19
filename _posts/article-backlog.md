@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #174)
+
+### Migrating Gemini CLI to Codex CLI
+
+1. ✅ **Migrating from Gemini CLI to Codex CLI: A Practical Guide After the Antigravity Transition** — Written 2026-05-19 → `2026-05-19-migrating-gemini-cli-to-codex-cli-antigravity-transition-configuration-mapping.md`
+   - Source: Google Developers Blog Antigravity transition announcement, Google I/O 2026 developer highlights, OpenAI Sandbox docs, OpenAI Changelog v0.131.0, OpenAI Models docs, Gemini CLI Configuration docs, OpenAI Config Basics docs, Gemini CLI Hooks docs, OpenAI Hooks docs, OpenAI CLI Features docs, OpenAI AGENTS.md docs, Gemini CLI Skills docs, OpenAI Skills docs, Gemini CLI Extensions docs, OpenAI Plugins docs, OpenAI Agent Approvals docs, OpenAI MCP docs, OpenAI Advanced Config docs, OpenAI Rules docs, OpenAI Pricing docs, OpenAI CLI Reference docs, OpenAI Slash Commands docs
+   - Scope: Complete configuration mapping from Gemini CLI JSON settings to Codex CLI TOML (user/project/enterprise layers), hook lifecycle translation (10 Gemini hooks to 4 Codex hooks with gap analysis), GEMINI.md to AGENTS.md migration with discovery mechanics comparison, skills directory translation (manifest.json+prompt.md to SKILL.md with YAML frontmatter), extensions to plugins migration with marketplace discovery, approval mode mapping, MCP server configuration syntax translation, model selection equivalents, honest trade-off analysis (lost hooks, billing changes, no free tier), 10-step migration checklist, decision flowchart for Codex vs Antigravity
+   - SEO targets: "gemini cli to codex cli migration", "gemini cli deprecated", "antigravity cli alternative", "gemini cli codex cli comparison", "migrate gemini cli hooks codex", "gemini cli replacement 2026", "google io 2026 codex migration"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Google announced the Gemini CLI to Antigravity CLI transition at Google I/O 2026 (19 May), giving free/individual users until 18 June to migrate, yet no existing article provided a practical configuration-level migration guide from Gemini CLI to Codex CLI covering settings.json to config.toml translation, hook script rewrites, GEMINI.md to AGENTS.md conversion, or the honest trade-offs between adopting Codex CLI versus following Google to Antigravity
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #173)
 
 ### Codex CLI Slash Commands Complete Reference
