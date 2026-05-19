@@ -1,5 +1,137 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #169)
+
+### Codex On-Premises Dell AI Factory Partnership
+
+1. ✅ **Codex On-Premises: The Dell AI Factory Partnership, Hybrid Deployment, and What It Means for Data-Sovereign Enterprises** — Written 2026-05-19 → `2026-05-19-codex-on-premises-dell-ai-factory-hybrid-enterprise-deployment-data-residency.md`
+   - Source: OpenAI Dell partnership announcement, Dell Technologies World keynote, SiliconANGLE coverage, Let's Data Science analysis, OpenAI Managed Configuration docs, OpenAI Configuration Reference docs, OpenAI business data privacy docs, OpenAI Codex Changelog, OpenAI Prompt Caching cookbook
+   - Scope: OpenAI-Dell partnership announced 18 May 2026, Dell AI Factory and AI Data Platform integration architecture (secure model hosting, repository connectors, orchestration), three-dimensional integration (API gateways, indexers, CI/CD orchestration), how on-premises deployment fits existing Codex enterprise governance stack (requirements.toml, managed_config.toml portability), configuration for on-premises targeting (api_base_url, network_access, web_search), data residency and compliance considerations (SOC 2, HIPAA limitations, model provenance), cost comparison cloud vs on-premises by developer density, four-way deployment topology (OpenAI Cloud, Azure, Bedrock, Dell on-premises), platform team preparation checklist, anti-patterns (assuming air-gapped means zero connectivity, conflating on-premises with automatic compliance, delaying requirements.toml adoption)
+   - SEO targets: "codex on premises deployment", "codex dell ai factory", "codex hybrid enterprise", "codex data residency", "codex air gapped deployment", "openai dell partnership codex", "codex enterprise on premises 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the OpenAI-Dell partnership announced 18 May 2026 for hybrid and on-premises Codex deployment despite it being the first official path for running Codex inference on enterprise-owned infrastructure, introducing a four-way deployment topology (OpenAI Cloud, Azure, Bedrock, Dell on-premises) and raising critical questions about data residency, compliance boundary shifts, and requirements.toml portability across execution surfaces
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #168)
+
+### Codex CLI Cloud Delegation Workflows
+
+1. ✅ **Codex CLI Cloud Delegation Workflows: Plan Locally, Execute Remotely, Apply Diffs** — Written 2026-05-19 → `2026-05-19-codex-cli-cloud-delegation-workflows-plan-locally-execute-remotely-apply-diffs.md`
+   - Source: OpenAI Codex Cloud docs, OpenAI Workflows docs, OpenAI CLI Features docs, OpenAI CLI Reference docs, OpenAI Non-interactive Mode docs, OpenAI Best Practices docs, OpenAI Cloud Environments docs, OpenAI Sandbox docs, OpenAI Introducing Codex blog, OpenAI AGENTS.md docs
+   - Scope: CLI-to-cloud delegation pattern (plan locally, delegate implementation, apply diffs), codex cloud subcommands (exec, list, interactive picker), best-of-N attempts (--attempts 1-4), codex cloud list with JSON output and pagination, step-by-step delegation workflow (plan phase, delegate phase, review phase), shell scripting patterns (batch milestone execution, completion polling, structured output post-processing), AGENTS.md cloud task conventions, CI/CD integration via GitHub Actions, decision flowchart for local vs cloud vs best-of-N, anti-patterns (delegating without plan, overusing attempts, skipping local tests, needing interactive steering), known limitations (no --output-schema on cloud exec, environment setup latency, context carry-over gap, attempt cap)
+   - SEO targets: "codex cloud exec", "codex cli cloud delegation", "codex cloud best of n", "codex cloud list", "delegate refactor cloud codex", "codex cli remote execution", "codex cloud workflow patterns 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered cloud vs local comparison (March 27) and cloud environment configuration (May 19) but no article covered the complete CLI-to-cloud delegation workflow pattern including codex cloud exec/list subcommands, best-of-N attempts, shell scripting for batch milestone delegation, completion polling, AGENTS.md cloud conventions, or the decision framework for when to delegate vs stay local despite cloud delegation being a core officially documented workflow pattern
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #167)
+
+### Codex CLI Cross-Repository Development
+
+1. ✅ **Codex CLI for Cross-Repository Development: Multi-Repo Sessions, Coordination Patterns, and MCP-Bridged Workflows** — Written 2026-05-19 → `2026-05-19-codex-cli-cross-repository-development-multi-repo-sessions-coordination-patterns.md`
+   - Source: GitHub Issue #11956, GitHub Issue #6219, OpenAI AGENTS.md guide, OpenAI MCP docs, OpenAI Non-interactive Mode docs, OpenAI CLI Features docs, OpenAI Advanced Configuration docs, OpenAI GitHub Action docs, OpenAI Subagents docs, Releasebot Codex Updates
+   - Scope: Single-repo constraint explanation (project root detection, sandbox boundaries), five cross-repo patterns (parallel terminal sessions, AGENTS.md cross-references with global conventions, MCP filesystem servers as cross-repo bridges with tool filtering, codex exec orchestration scripts with --output-schema structured output passing, subagent delegation with custom agent definitions and MultiAgentV2 thread caps), anti-patterns table (danger-full-access roaming, symlinking, manual diff copying, trusting implicit contracts), decision flowchart for pattern selection, current state of multi-repo feature requests, upcoming multi-environment session infrastructure
+   - SEO targets: "codex cli cross repository", "codex cli multi repo", "codex cli multiple repositories", "codex cli microservices development", "codex cli cross repo mcp", "codex agents md shared conventions", "codex cli cross repository patterns 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered cross-repository development patterns including parallel session coordination, AGENTS.md cross-references for contract encoding, MCP filesystem bridges with tool filtering for read-only cross-repo access, codex exec orchestration scripts for automated multi-repo pipelines, or subagent delegation across working directories despite cross-repo development being a daily reality for senior developers working on microservices architectures
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #166)
+
+### Codex Cloud Environment Configuration
+
+1. ✅ **Codex Cloud Environment Configuration: Setup Scripts, Container Caching, and the codex-universal Image** — Written 2026-05-19 → `2026-05-19-codex-cloud-environment-configuration-setup-scripts-caching-codex-universal.md`
+   - Source: OpenAI Cloud Environments docs, OpenAI Agent Internet Access docs, OpenAI codex-universal GitHub, OpenAI Codex CLI Features docs, OpenAI Codex CLI Reference docs, OpenAI Best Practices docs, OpenAI codex-universal Dockerfile
+   - Scope: Two-phase execution model (setup phase with internet, agent phase offline by default), codex-universal base image (Ubuntu 24.04, eight language runtimes, CODEX_ENV_* version pinning, pre-installed Python/Node/build tooling), setup script patterns (idempotency, lockfiles, environment variable persistence via ~/.bashrc), maintenance scripts for cached container dependency sync, container caching lifecycle (12-hour TTL, automatic invalidation, workspace-shared caches for Business/Enterprise), secrets management (encrypted, setup-phase-only, credential helper patterns), agent internet access policies (domain allowlists, HTTP method restrictions, three presets, HTTP proxy routing), codex cloud CLI subcommands (exec, list, best-of-N attempts, interactive picker), CLI-to-cloud delegation pattern, production environment configuration example, anti-patterns (unrestricted internet, runtime installation in setup scripts, frequent secrets changes, skipping maintenance scripts, not testing locally with codex-universal)
+   - SEO targets: "codex cloud environment configuration", "codex cloud setup script", "codex-universal docker image", "codex cloud container caching", "codex cloud secrets management", "codex cloud internet access policy", "codex cloud exec cli 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the full Codex Cloud environment configuration surface including the two-phase execution model, codex-universal base image with CODEX_ENV_* runtime pinning, setup and maintenance script patterns, 12-hour container caching lifecycle, secrets vs environment variables distinction, agent internet access domain allowlists with HTTP method restrictions, or the codex cloud CLI subcommands despite cloud environments being the primary execution surface for delegated and automated Codex tasks
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #165)
+
+### Codex CLI Enterprise Admin Setup
+
+1. ✅ **Codex CLI Enterprise Admin Setup: RBAC, Managed Configuration, and Compliance APIs** — Written 2026-05-19 → `2026-05-19-codex-cli-enterprise-admin-setup-rbac-managed-configuration-compliance-apis.md`
+   - Source: OpenAI Enterprise Admin Setup docs, OpenAI Managed Configuration docs, OpenAI Codex Changelog, OpenAI Codex Security docs, OpenAI Config Basics docs, GitHub Releases v0.131.0
+   - Scope: Seven-step enterprise rollout (enable surfaces, RBAC with custom roles and groups, managed configuration via requirements.toml and managed_config.toml, macOS MDM deployment, team config via .codex directory, Analytics and Compliance APIs, verification checklist), three owners model (workspace owner, security owner, analytics owner), configuration precedence hierarchy (enterprise requirements > managed defaults > team config > user config > CLI flags), cloud-managed requirements dashboard, host-specific sandbox rules, MCP server allowlisting, SCIM-backed admin groups, codex doctor policy verification, anti-patterns (broad admin access, relying on team config for security, skipping analytics, deploying full-auto via managed defaults)
+   - SEO targets: "codex cli enterprise admin setup", "codex cli rbac", "codex cli managed configuration", "codex requirements toml enterprise", "codex cli compliance api", "codex cli mdm deployment", "codex enterprise security 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the enterprise admin setup guide published 14 May 2026 despite it being the first unified rollout reference combining RBAC, managed configuration precedence, cloud-managed requirements, macOS MDM deployment, Compliance and Analytics APIs, and the codex doctor policy verification workflow into a single prescriptive sequence for enterprise platform engineering teams
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #164)
+
+### Database Query Performance Optimisation with Codex CLI
+
+1. ✅ **Codex CLI for Database Query Performance Optimisation: EXPLAIN Plan Analysis, Index Tuning, and MCP-Driven Workflows** — Written 2026-05-19 → `2026-05-19-codex-cli-database-query-performance-optimisation-explain-plans-index-tuning-mcp.md`
+   - Source: CrystalDBA Postgres MCP GitHub, PGTuner MCP GitHub, MCP-PostgreSQL-Ops GitHub, Neon MCP Server docs, Codex CLI Sandbox docs, Codex CLI Models docs, Codex Non-Interactive Mode docs, DasRoot database performance optimisation guide, Augment Code MCP Registry
+   - Scope: PostgreSQL MCP server landscape for query analysis (Postgres MCP Pro, PGTuner, MCP-PostgreSQL-Ops), MCP server configuration in config.toml, AGENTS.md database performance conventions, interactive slow query analysis workflow (pg_stat_statements, EXPLAIN ANALYZE, HypoPG hypothetical indexing), codex exec structured performance audit with --output-schema, safe testing via Neon branching, reusable query-tuner SKILL.md, PostToolUse hook for SQL anti-pattern detection, model selection matrix for database performance tasks, anti-patterns (production EXPLAIN ANALYZE, stale statistics, over-indexing, skipping HypoPG), known limitations (output-schema/resume exclusion, context window for complex plans, community MCP server maturity, HypoPG availability)
+   - SEO targets: "codex cli database query performance", "codex cli sql optimisation", "codex cli explain plan", "codex cli postgresql mcp", "codex cli index tuning", "database query performance ai agent 2026", "codex cli pg_stat_statements"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover database schema migrations extensively (Atlas, Prisma, Flyway, Neon branching across 8 articles) but no article covered query performance optimisation including EXPLAIN plan analysis, index tuning via HypoPG, pg_stat_statements-based slow query triage, or structured performance auditing despite query performance being the single largest source of production incidents and three PostgreSQL MCP servers now providing the complete tool surface for AI-assisted query tuning
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #163)
+
+### Codex CLI v0.131.0 Release Guide
+
+1. ✅ **Codex CLI v0.131.0 Release Guide: Unified Mentions, Plugin Marketplace CLI, Python SDK Migration, and TUI Overhaul** — Written 2026-05-18 → `2026-05-18-codex-cli-v0131-release-guide-unified-mentions-plugin-marketplace-python-sdk-tui.md`
+   - Source: GitHub releases v0.131.0, OpenAI Developers changelog, OpenAI Developers SDK docs, OpenAI Developers plugins/build docs, OpenAI Developers CLI features docs, OpenAI Developers CLI reference, OpenAI Dell partnership announcement, v0.130.0 release notes, v0.129.0 release notes
+   - Scope: Unified @ mention picker (files, directories, plugins, skills in one fuzzy-search surface), plugin marketplace CLI commands (add, install, share, checkout, upgrade, remove, version pinning, sparse checkout), version-aware plugin sharing and share checkout, default-enabled plugin hooks, Python SDK migration from codex-sdk-python to openai-codex (pinned runtime types, concurrent turn routing, approval modes, integration coverage), TUI overhaul (blended token usage, data-driven service-tier commands, persistent approval mode display, responsive Markdown tables), daemon-managed remote-control (runtime enable/disable APIs, status reads, registry-backed environments), Windows sandbox hardening (deny-read rules, scoped write roots, firewall policy, PowerShell edge cases), Git and auth reliability improvements, upgrade path and breaking change assessment
+   - SEO targets: "codex cli v0.131", "codex cli 0.131.0 release", "codex cli unified mentions", "codex plugin marketplace cli", "openai-codex python sdk", "codex cli tui token usage", "codex remote-control daemon 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the v0.131.0 release as a comprehensive guide despite the doctor diagnostics command receiving its own article, the remaining v0.131.0 features (unified mentions, plugin marketplace CLI maturation, Python SDK migration, TUI overhaul, daemon-managed remote control improvements) collectively representing a consolidation milestone warranting dedicated coverage
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #162)
+
+### Codex CLI Doctor Diagnostics
+
+1. ✅ **Codex CLI Doctor: The New First-Class Diagnostics Command in v0.131.0** — Written 2026-05-18 → `2026-05-18-codex-cli-doctor-diagnostics-v0131-troubleshooting-runtime-auth-network.md`
+   - Source: Codex Changelog, Codex CLI reference, Codex CLI features docs, GitHub releases, SmartScope diagnostic logs guide, CodexUse troubleshooting guide, GitHub Issue #4934, Codex CLI sandbox docs, Codex diagnostic toolkit article
+   - Scope: codex doctor subcommand covering six diagnostic categories (runtime, auth, terminal, network, config, local state), machine-readable JSON output, targeted category flags, CI/CD pre-flight integration, support ticket workflows, AGENTS.md diagnostic conventions, relationship to existing diagnostic surfaces (RUST_LOG, /debug-config, /feedback, codex sandbox, codex debug), practical troubleshooting scenarios (OS update sandbox failures, corporate proxy blocking, session resume corruption), v0.131.0 companion features (unified @ mentions, plugin marketplace CLI, daemon-managed remote control, Python SDK migration, TUI enhancements)
+   - SEO targets: "codex doctor", "codex cli diagnostics", "codex cli troubleshooting v0.131", "codex doctor command", "codex cli health check", "codex cli support diagnostics 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the codex doctor diagnostics command introduced in v0.131.0 despite the April 7 diagnostic toolkit article covering RUST_LOG, /debug-config, codex sandbox, and JSONL rollout analysis as of v0.118.0, and codex doctor being a fundamentally new offline pre-flight health check addressing enterprise support ticket quality
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #161)
+
+### Bazel Monorepo Workflows with Codex CLI
+
+1. ✅ **Codex CLI for Bazel Monorepo Workflows: MCP Server Integration, Remote Builds, and AGENTS.md Conventions** — Written 2026-05-18 → `2026-05-18-codex-cli-bazel-monorepo-workflows-mcp-server-remote-builds-agents-md.md`
+   - Source: Codex Sandbox docs, Bazel 9 LTS blog, OpenAI AGENTS.md, Bazel 9.0.0 release, Codex config reference, nacgarg/bazel-mcp-server GitHub, BuildBuddy Remote Bazel blog, BuildBuddy agent config blog, Codex non-interactive mode docs, Codex Models docs, GPT-5.3-Codex-Spark announcement, GitHub Issue #14343
+   - Scope: Sandbox configuration for Bazel (writable_roots for cache directories, selective network access for registries), Bazel MCP Server six-tool surface (build, query, test, list, fetch, set_workspace), BuildBuddy Remote Bazel integration via SKILL.md (warm analysis cache, cross-platform testing, automatic git mirroring), AGENTS.md Bazel conventions (BUILD.bazel maintenance, runfiles resolution, Bzlmod-only external deps, compile_data requirements, visibility policy), agent-driven edit-build-test workflow with MCP and remote builds, codex exec structured BUILD.bazel audit with --output-schema, model selection matrix for Bazel tasks, PostToolUse hook for visibility enforcement, anti-patterns (testing all targets, danger-full-access, trusting generated visibility, ignoring compile_data, skipping bazel mod tidy), known limitations (output-schema/resume exclusion, context window for large monorepos, community-maintained MCP server, BuildBuddy account requirement, non-deterministic generation)
+   - SEO targets: "codex cli bazel", "codex cli bazel monorepo", "bazel mcp server codex", "codex cli remote bazel buildbuddy", "bazel agents md conventions", "codex cli bazel 9 bzlmod", "ai coding agent bazel build 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for Bazel monorepo workflows including Bazel MCP Server integration, BuildBuddy Remote Bazel for agent-driven build validation, sandbox configuration for Bazel cache and registry access, AGENTS.md Bazel conventions (BUILD.bazel maintenance, runfiles, Bzlmod, compile_data), or structured BUILD.bazel auditing despite Bazel being a dominant build system for large monorepos and Bazel 9 shipping in January 2026 with complete WORKSPACE removal
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #160)
+
+### Consumer-Driven Contract Testing with Codex CLI
+
+1. ✅ **Codex CLI for Consumer-Driven Contract Testing: Pact Generation, Provider Verification, and CI Contract Gates** — Written 2026-05-18 → `2026-05-18-codex-cli-consumer-driven-contract-testing-pact-generation-provider-verification-ci-gates.md`
+   - Source: Pact Documentation, Pact V4 Specification, Codex CLI Changelog v0.130, Codex Models docs, AGENTS.md guide, Codex non-interactive mode docs, Codex CLI features docs, Codex config reference, Codex GitHub Action docs, PactFlow BDCT docs, GitHub Issue #14343
+   - Scope: Pact V4 consumer test generation from existing API client code, AGENTS.md contract testing convention encoding, codex exec structured contract coverage audit with --output-schema, provider state handler scaffolding from test fixtures, non-interactive provider verification in CI, reusable contract-auditor SKILL.md, PostToolUse hook for contract lint enforcement, GitHub Actions contract gate pipeline, bi-directional contract testing with OpenAPI comparison, model selection matrix for contract testing tasks, anti-patterns (spec-only generation, skipping provider states, over-permissioned sandbox, trusting generated matchers), known limitations (output-schema/resume exclusion, context window for large API surfaces, non-deterministic generation, sandbox network isolation, Pact V4 plugin support)
+   - SEO targets: "codex cli contract testing", "codex cli pact generation", "codex cli consumer driven contracts", "codex cli provider verification", "pact v4 codex cli 2026", "contract testing automation ci", "codex cli microservices testing"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for consumer-driven contract testing including Pact V4 consumer test generation from client code, structured contract coverage auditing, provider state scaffolding, contract lint hooks, or CI contract gates despite contract testing being a critical concern for senior developers maintaining microservice architectures
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #159)
+
+### Codex CLI as MCP Server
+
+1. ✅ **Codex CLI as an MCP Server: Exposing Agent Capabilities to the Agents SDK and Other MCP Clients** — Written 2026-05-18 → `2026-05-18-codex-cli-as-mcp-server-exposing-agent-capabilities-agents-sdk-multi-agent-delegation.md`
+   - Source: OpenAI Codex Agents SDK guide, OpenAI Cookbook (Codex CLI + Agents SDK), DeepWiki codex-mcp-server implementation, OpenAI Codex MCP docs, OpenAI Codex subagents docs, OpenAI Codex models docs, GPT-5.3-Codex announcement, GPT-5.3-Codex-Spark announcement, codex-as-mcp GitHub, agentic-developer-mcp MCP wrapper
+   - Scope: codex mcp-server subcommand architecture (three async tasks: stdin reader, message processor, stdout writer), two-tool surface (codex for session creation, codex-reply for continuation), sandbox and approval-policy configuration for automated pipelines, MCPServerStdio integration with Python Agents SDK, multi-agent orchestration patterns (five-role gated handoff workflow), cross-agent delegation from Claude Code and Cursor via community wrappers, MCP Inspector debugging, model selection matrix for MCP-served Codex, subagents vs MCP server decision framework, operational considerations (timeout, token consumption, approval elicitation, thread lifecycle), anti-patterns (shell wrapping, over-permissioned sandbox, skipping gated handoffs, reusing threadIds across tasks, ignoring traces), known limitations (no streaming, single-process concurrency, no crash resume, no output-schema support)
+   - SEO targets: "codex cli mcp server", "codex mcp-server agents sdk", "codex cli multi-agent delegation", "codex as mcp server 2026", "codex cli agents sdk integration", "codex mcp tool orchestration", "codex cli cross-agent delegation"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI as an MCP server itself (the inverse of consuming MCP servers), including the codex mcp-server subcommand, its two-tool surface, Agents SDK MCPServerStdio integration, multi-agent orchestration with gated handoffs, cross-agent delegation from Claude Code/Cursor, or the architectural internals of the codex-mcp-server Rust crate despite this being a foundational pattern for composing Codex into larger multi-agent systems
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #158)
 
 ### Codex CLI for Mobile Development
