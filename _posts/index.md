@@ -5,8 +5,8 @@ nav_order: 1
 
 # Articles Index
 
-**Last updated:** 2026-05-18
-**Total articles rated:** 814
+**Last updated:** 2026-05-19
+**Total articles rated:** 820
 
 ## Rating Scale
 
@@ -74,12 +74,17 @@ Each article is rated 1-5 on four dimensions:
 | [When the Model Turns Hostile: The GPT-5.3-Codex Malware Injection Incident and Defensive Code Review Patterns](2026-05-13-codex-cli-model-generated-malicious-code-gpt53-injection-incident-defence-patterns.md) | 5 | 5 | 4 | 5 | 4.8 | Deep dive; Real incident analysis; Defence stack; Sketchnote; Highly shareable |
 | [Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect](2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation.md) | 4 | 5 | 4 | 5 | 4.5 | Deep dive; Parameter Golf competition; Multi-agent critic pattern; Compelling narrative |
 | [Codex CLI's Extension-First Architecture: Guardian as a Plugin, Namespaced Extensions, and Modular Governance](2026-05-14-codex-cli-extension-first-architecture-guardian-namespaced-plugins-modular-governance.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; v0.131 PR analysis; Guardian as extension; Namespace isolation; Sketchnote |
+| [Codex CLI for Database Query Performance Optimisation: EXPLAIN Plan Analysis, Index Tuning, and MCP-Driven Workflows](2026-05-19-codex-cli-database-query-performance-optimisation-explain-plans-index-tuning-mcp.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Three PostgreSQL MCP servers; HypoPG hypothetical indexes; Neon branching; Structured audit |
 | [Codex CLI for Kubernetes Operator Development: Scaffolding CRDs, Reconciliation Loops, and envtest](2026-05-14-codex-cli-kubernetes-operator-development-kubebuilder-crd-reconciliation-testing.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Kubebuilder v4.13; controller-runtime; envtest patterns; Sketchnote |
 | [The TanStack Supply Chain Attack: What Codex CLI Users Need to Know](2026-05-15-tanstack-supply-chain-attack-codex-cli-npm-defence-sandbox-hardening.md) | 4 | 4 | 5 | 4 | 4.3 | Real incident; CVE-2026-45321; Attack chain analysis; Defence posture; Sketchnote |
 | [Inside the Codex Windows Sandbox: Restricted Tokens, Synthetic SIDs, and the Four-Layer Execution Architecture](2026-05-14-codex-cli-windows-sandbox-engineering-restricted-tokens-acls-elevated-architecture.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; OS internals; Four-layer execution path; Official blog sourced; Mermaid |
+| [Codex On-Premises: The Dell AI Factory Partnership, Hybrid Deployment, and What It Means for Data-Sovereign Enterprises](2026-05-19-codex-on-premises-dell-ai-factory-hybrid-enterprise-deployment-data-residency.md) | 4 | 4 | 4 | 5 | 4.2 | Dell partnership analysis; Four-way deployment topology; Compliance matrix; Cost tiers; Timely; Shareable |
 | [Tokenmaxxing with Codex CLI: Multi-Agent Operator Stacks, Parallel Harnesses, and the End of Single-Tool Identity](2026-05-14-tokenmaxxing-codex-cli-multi-agent-operator-stacks-parallel-harness-architecture.md) | 4 | 4 | 4 | 5 | 4.2 | Trendy topic; Multi-agent routing; CC-Switch/9Router; Mermaid; Shareable |
+| [Codex CLI for Cross-Repository Development: Multi-Repo Sessions, Coordination Patterns, and MCP-Bridged Workflows](2026-05-19-codex-cli-cross-repository-development-multi-repo-sessions-coordination-patterns.md) | 4 | 4 | 4 | 4 | 4.0 | Five patterns; MCP bridging; codex exec orchestration; Subagent delegation; Mermaid |
 | [Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns](2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality.md) | 4 | 4 | 4 | 4 | 4.0 | Practical; Compaction internals; Config levers; GitHub issues cited |
 | [The Agentic Pricing Wars: OpenAI's Enterprise Migration Offer, Anthropic's Quota Expansion, and the Real Cost of Switching](2026-05-15-codex-cli-enterprise-pricing-wars-migration-incentives-claude-code-competitive-switching.md) | 4 | 4 | 4 | 4 | 4.0 | Competitive analysis; Switching costs breakdown; Token efficiency data; Timely |
+| [Codex CLI Cloud Delegation Workflows: Plan Locally, Execute Remotely, Apply Diffs](2026-05-19-codex-cli-cloud-delegation-workflows-plan-locally-execute-remotely-apply-diffs.md) | 4 | 3 | 4 | 4 | 3.8 | Practical; codex cloud subcommands; Best-of-N attempts; Scripted delegation; Mermaid |
+| [Codex Cloud Environment Configuration: Setup Scripts, Container Caching, and the codex-universal Image](2026-05-19-codex-cloud-environment-configuration-setup-scripts-caching-codex-universal.md) | 4 | 3 | 4 | 4 | 3.8 | Practical; codex-universal image; Setup/maintenance scripts; 12h cache lifecycle; Secrets management; Mermaid |
 | [Grok Build Enters the Ring: How xAI's Parallel-Agent CLI Compares to Codex CLI](2026-05-16-grok-build-vs-codex-cli-xai-parallel-agents-arena-mode-competitive-analysis.md) | 4 | 4 | 3 | 4 | 3.8 | Competitive analysis; Arena Mode; Router architecture; Timely; Sketchnote |
 | [The macOS Premium: Which Codex Features Only Work on Apple Hardware](2026-04-17-codex-cli-macos-premium-platform-feature-matrix.md) | 4 | 3 | 4 | 4 | 3.8 | Platform comparison; Sandbox deep dive; Feature matrix tables; Sketchnote |
 | [Codex CLI for Generating Architecture Diagrams from Source Code: Mermaid, C4, and PlantUML Visualisation Workflows](2026-05-13-codex-cli-architecture-diagrams-mermaid-c4-plantuml-source-code-visualisation.md) | 4 | 3 | 4 | 4 | 3.8 | C4 model; CI pipeline patterns; AGENTS.md conventions; Sketchnote |
@@ -181,6 +186,7 @@ Each article is rated 1-5 on four dimensions:
 | [Vibe Coding vs Agentic Engineering: A Senior Developer's Framework](2026-03-29-vibe-coding-vs-agentic-engineering.md) | 4 | 4 | 4 | 5 | 4.2 | Rich diagrams; Thought leadership |
 | [When to Use Multi-Agent vs Single-Agent: A Practical Framework for Codex CLI Teams](2026-04-18-multi-agent-vs-single-agent-codex-cli-framework.md) | 4 | 4 | 4 | 5 | 4.2 | Thought leadership |
 | [Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)](2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps.md) | 4 | 4 | 4 | 5 | 4.2 | Heavily sourced |
+| [Codex CLI Enterprise Admin Setup: RBAC, Managed Configuration, and Compliance APIs](2026-05-19-codex-cli-enterprise-admin-setup-rbac-managed-configuration-compliance-apis.md) | 5 | 3 | 4 | 4 | 4.1 | Seven-step rollout; Three owners model; requirements.toml precedence; MDM deployment; Compliance APIs; Mermaid |
 | [Codex CLI for Monolith Decomposition: Strangler Fig Migration, Service Boundary Detection, and Agent-Driven Extraction](2026-05-13-codex-cli-monolith-decomposition-strangler-fig-service-extraction-dependency-analysis.md) | 5 | 3 | 4 | 4 | 4.1 | Deep dive; Strangler fig; ExecPlan pattern; Five-phase pipeline; Mermaid diagrams |
 | [Codex CLI for Knowledge Work: Data Analysis, Report Generation, and Slide Deck Automation Beyond Code](2026-05-13-codex-cli-knowledge-work-data-analysis-reports-slides-beyond-code.md) | 4 | 4 | 4 | 4 | 4.0 | Beyond code; Data analysis; Slide automation; codex exec pipelines; Mermaid diagrams |
 | [Codex CLI for WebAssembly Development: Rust-to-Wasm Workflows, Wassette MCP, and the Component Model](2026-05-13-codex-cli-webassembly-development-rust-wasm-wassette-mcp-component-model.md) | 4 | 4 | 4 | 4 | 4.0 | Rust-to-Wasm; Wassette MCP; WASI P2; Component Model; Sandbox config |
@@ -842,7 +848,7 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI 0.130.0 and Chrome Extension Launch](2026-05-14-codex-cli-0130-and-chrome-extension.md) | 2 | 2 | 2 | 2 | 2.0 | Changelog notes; Brief |
 ## Summary Statistics
 
-- **Total articles:** 814
+- **Total articles:** 820
 - **Average composite:** 3.5
 - **Highest composite:** 4.8
 - **Lowest composite:** 2.0
