@@ -1,5 +1,51 @@
 # Article Backlog
 
+## New Articles — Google I/O 2026 Competitive Analysis (2026-05-19, Manual)
+
+Google I/O 2026 (19 May) announced several products that directly compete with Codex CLI and the broader Codex platform. The following articles cover competitive surfaces NOT already addressed by existing articles (Antigravity v1 comparison, Jules vs Codex, Gemini CLI migration are already written).
+
+### Antigravity 2.0 vs Codex CLI: Dynamic Subagents, Scheduled Tasks, and Parallel Workflows
+
+1. 📝 **Antigravity 2.0 vs Codex CLI: What the Google I/O 2026 Upgrade Changes in the Competitive Landscape**
+   - Source: Google I/O 2026 developer highlights blog, SiliconANGLE Antigravity platform coverage, Google Antigravity 2.0 desktop app announcement, OpenAI Codex CLI v0.131.0 changelog, OpenAI Subagents docs, OpenAI Hooks docs
+   - Scope: Antigravity 2.0 new features (dynamic subagents for parallel workflows, scheduled background tasks, Firebase/Android/AI Studio integrations, desktop app launch), direct comparison with Codex CLI's existing capabilities (multi-agent v2 fork semantics, cron-based scheduling via codex exec, hooks for automation), where Antigravity 2.0 leapfrogs (native parallelism, integrated Firebase mobile path, background automation UI), where Codex CLI still leads (sandbox security, enterprise governance, open-source, terminal-native), model comparison (Gemini 3.5 Flash vs GPT-5.5), migration decision tree for teams currently evaluating both
+   - SEO targets: "antigravity 2.0 vs codex cli", "google io 2026 antigravity upgrade", "antigravity dynamic subagents codex", "antigravity scheduled tasks", "antigravity 2.0 features", "codex cli vs antigravity 2026"
+   - Note: Existing article (2026-05-13) covers Antigravity v1. This article specifically addresses the 2.0 upgrade announced at Google I/O 2026 with dynamic subagents, scheduled tasks, and the desktop app — capabilities that did not exist when the v1 comparison was written
+
+### Managed Agents in Gemini API vs Codex Cloud Tasks and codex exec
+
+1. 📝 **Managed Agents in the Gemini API vs Codex Cloud Tasks: Agent-as-a-Service Showdown**
+   - Source: Google Blog "Introducing Managed Agents in the Gemini API" (Ali Cevik, 19 May 2026), Google I/O 2026 developer highlights, Google Cloud I/O agent developer news, OpenAI Codex Cloud docs, OpenAI codex exec docs, OpenAI Python SDK docs, OpenAI Non-interactive mode docs
+   - Scope: Google's Managed Agents architecture (single API call, ephemeral Linux sandbox, Interactions API, AGENTS.md/SKILL.md registration, MCP server provisioning), direct comparison with Codex Cloud tasks (cloud VM, GitHub integration, PR output), comparison with codex exec (local sandbox, --output-schema structured output, CI/CD integration), comparison with openai-codex Python SDK (app-server JSON-RPC, multi-turn threads), pricing model differences, sandbox security comparison (Google ephemeral vs Codex kernel-level), when to use which (fire-and-forget tasks, structured CI queries, interactive sessions, embedded automation), enterprise governance implications
+   - SEO targets: "managed agents gemini api vs codex", "google managed agents codex comparison", "agent as a service coding", "gemini api agent sandbox", "codex cloud vs managed agents", "codex exec vs managed agents gemini"
+   - Note: This is a genuinely new competitive surface — Google packaging agent execution as a managed API service is a direct alternative to Codex Cloud tasks and codex exec for teams building agentic automation
+
+### Gemini 3.5 Flash Coding Benchmarks vs GPT-5.5 and codex-mini
+
+1. 📝 **Gemini 3.5 Flash vs GPT-5.5 and codex-mini: Coding Model Benchmark Comparison After Google I/O 2026**
+   - Source: Google I/O 2026 model announcements, Google Gemini 3.5 Flash benchmarks, OpenAI Models docs, OpenAI GPT-5.5 announcement, Terminal-Bench 2.0 leaderboard, SWE-Bench Verified leaderboard, HumanEval/MBPP/LiveCodeBench results
+   - Scope: Gemini 3.5 Flash claims (beats 3.1 Pro on coding benchmarks, 4x faster output than other frontier models), head-to-head benchmark comparison with GPT-5.5 (SWE-Bench Verified, Terminal-Bench 2.0, HumanEval, LiveCodeBench), comparison with codex-mini-latest (speed vs quality trade-off), model routing implications for Codex CLI users (when to use which model), cost per token comparison, context window sizes, practical recommendations for model selection in config.toml, what "4x faster" means for interactive vs batch workflows
+   - SEO targets: "gemini 3.5 flash vs gpt 5.5", "gemini 3.5 flash coding benchmarks", "codex mini vs gemini flash", "best coding model 2026", "gemini 3.5 flash vs codex", "google io 2026 model comparison", "coding agent model benchmarks may 2026"
+   - Note: Google's "faster than any other frontier model" claim needs verification against actual GPT-5.5 and codex-mini benchmarks — this article should be evidence-heavy with tables and honest about where each model wins
+
+### Google Agents CLI vs Codex CLI SDK and Plugin Ecosystem
+
+1. 📝 **Google Agents CLI vs Codex CLI: Two Visions of Agent Development from the Terminal**
+   - Source: Google Developers Blog "Agents CLI in Agent Platform", GitHub google/agents-cli, Google Cloud I/O agent developer blog, InfoQ Agents CLI coverage, OpenAI Codex CLI GitHub, OpenAI Python SDK docs, OpenAI Plugins docs, OpenAI Skills docs
+   - Scope: Google Agents CLI architecture (ADK skills packaged for any coding agent including Codex CLI, human mode vs agent mode, uvx google-agents-cli, IaC generation, CI/CD pipeline injection, A2A integration), comparison with Codex CLI's own agent development story (openai-codex Python SDK, codex exec, plugins marketplace, skills directory), key distinction (Agents CLI builds agents ON Google Cloud; Codex CLI IS the agent), interoperability angle (Agents CLI explicitly supports Codex CLI as a host), when they complement vs compete, practical workflow combining both, enterprise deployment comparison (Google Agent Platform vs Dell AI Factory on-premises)
+   - SEO targets: "google agents cli vs codex cli", "agents cli codex comparison", "google cloud agent development cli", "codex cli agent sdk comparison", "agents cli agent platform", "building agents codex vs google cloud"
+   - Note: Interesting competitive nuance — Google Agents CLI is designed to work WITH Codex CLI (and Claude Code and Cursor), not replace it. But it competes at the platform level by pulling agent deployment toward Google Cloud vs OpenAI's own infrastructure
+
+### The Post-I/O Landscape: Five Coding Agent Platforms Compared (June 2026 Edition)
+
+1. 📝 **The Post-Google I/O Coding Agent Landscape: Codex CLI vs Antigravity 2.0 vs Jules V2 vs Claude Code vs Grok Build**
+   - Source: Google I/O 2026 announcements, OpenAI Codex CLI v0.131.0, Anthropic Claude Code changelog, xAI Grok Build beta docs, Google Antigravity 2.0 features, Google Jules/Jitro announcements, Terminal-Bench 2.0 leaderboard, SWE-Bench Verified
+   - Scope: Comprehensive five-way comparison updated for Google I/O 2026 announcements — architecture (local terminal vs IDE vs cloud vs hybrid), model ecosystems, agent paradigms (interactive vs fire-and-forget vs goal-driven), sandbox security models, enterprise governance, pricing, strengths/weaknesses matrix, decision flowchart for teams choosing in June 2026, what changed since the May 4 Terminal Agent Showdown article
+   - SEO targets: "coding agent comparison june 2026", "codex vs antigravity vs jules vs claude code", "best coding agent after google io", "coding agent landscape 2026", "terminal agent comparison post google io", "which coding agent 2026"
+   - Note: The existing Terminal Agent Showdown (May 4) covered three tools pre-I/O. This article adds Antigravity 2.0, Jules V2/Jitro, and Grok Build to create the definitive post-I/O comparison. Should be the go-to reference for teams evaluating tools in June 2026
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #174)
 
 ### Migrating Gemini CLI to Codex CLI
