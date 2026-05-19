@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #172)
+
+### OpenAI Unified Agentic Platform
+
+1. ✅ **OpenAI's Unified Agentic Platform: What the ChatGPT-Codex Merger Means for CLI Developers** — Written 2026-05-19 → `2026-05-19-openai-unified-agentic-platform-chatgpt-codex-merge-cli-developer-implications.md`
+   - Source: TechTimes Brockman announcement, Benzinga IPO analysis, The Next Web coverage, TechCrunch reporting, DEV Community Project Jitro analysis, OpenAI SDK docs, OpenAI Changelog v0.131.0, OpenAI Config Reference docs, OpenAI AGENTS.md docs, OpenAI Models docs, OpenAI upgrades blog, OpenAI Pricing docs, OpenAI Codex GitHub
+   - Scope: Brockman memo analysis (consolidation rationale, resource constraints), architectural foundation (App Server unification across CLI/IDE/web/desktop/mobile), three-phase rollout sequence (productivity expansion, ChatGPT+Atlas fold-in, super app), confirmed CLI continuity (no deprecation, config portability, AGENTS.md carry-forward), likely changes (model routing convergence, plugin consolidation, billing unification), uncertain areas (SDK namespace, CLI command hierarchy, enterprise governance scope), IPO context ($852B valuation, Q4 2026 target), competitive positioning (Google I/O timing, Project Jitro, Anthropic Claude Code), executive departures context, five developer preparation actions, anti-patterns table
+   - SEO targets: "openai chatgpt codex merge", "openai unified agentic platform", "codex cli deprecation", "brockman codex chatgpt", "openai platform consolidation 2026", "codex cli future", "openai ipo codex"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the 16 May 2026 Brockman memo announcing the ChatGPT-Codex-API consolidation into a single agentic platform despite it being the most significant structural change to the Codex product since launch, directly affecting every CLI developer's investment in configuration, SDK integrations, and enterprise governance stacks
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #171)
 
 ### Google Jules vs Codex CLI Comparison
