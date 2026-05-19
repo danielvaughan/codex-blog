@@ -6,7 +6,7 @@ Google I/O 2026 (19 May) announced several products that directly compete with C
 
 ### Antigravity 2.0 vs Codex CLI: Dynamic Subagents, Scheduled Tasks, and Parallel Workflows
 
-1. 📝 **Antigravity 2.0 vs Codex CLI: What the Google I/O 2026 Upgrade Changes in the Competitive Landscape**
+1. ✅ **Antigravity 2.0 vs Codex CLI: What the Google I/O 2026 Upgrade Changes in the Competitive Landscape** — Written 2026-05-19 → `2026-05-19-antigravity-2-vs-codex-cli-google-io-2026-competitive-landscape.md`
    - Source: Google I/O 2026 developer highlights blog, SiliconANGLE Antigravity platform coverage, Google Antigravity 2.0 desktop app announcement, OpenAI Codex CLI v0.131.0 changelog, OpenAI Subagents docs, OpenAI Hooks docs
    - Scope: Antigravity 2.0 new features (dynamic subagents for parallel workflows, scheduled background tasks, Firebase/Android/AI Studio integrations, desktop app launch), direct comparison with Codex CLI's existing capabilities (multi-agent v2 fork semantics, cron-based scheduling via codex exec, hooks for automation), where Antigravity 2.0 leapfrogs (native parallelism, integrated Firebase mobile path, background automation UI), where Codex CLI still leads (sandbox security, enterprise governance, open-source, terminal-native), model comparison (Gemini 3.5 Flash vs GPT-5.5), migration decision tree for teams currently evaluating both
    - SEO targets: "antigravity 2.0 vs codex cli", "google io 2026 antigravity upgrade", "antigravity dynamic subagents codex", "antigravity scheduled tasks", "antigravity 2.0 features", "codex cli vs antigravity 2026"
