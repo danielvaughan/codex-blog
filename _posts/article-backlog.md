@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #173)
+
+### Codex CLI Slash Commands Complete Reference
+
+1. ✅ **Codex CLI Slash Commands Complete Reference: All 45 Commands in v0.131** — Written 2026-05-19 → `2026-05-19-codex-cli-slash-commands-complete-reference-v0131-45-commands.md`
+   - Source: OpenAI Slash Commands docs, OpenAI CLI Features docs, OpenAI Changelog v0.131.0, OpenAI Best Practices docs, OpenAI Codex Prompting Guide cookbook, OpenAI Agent Approvals docs, OpenAI Subagents docs, OpenAI Skills docs, OpenAI Hooks docs, OpenAI Plugins docs, OpenAI Config Reference docs, OpenAI CLI Reference docs, OpenAI Speed docs, GitHub Releases v0.131.0
+   - Scope: Complete catalogue of all 45 slash commands organised by category (model/performance, session management, workflow/mode switching, permissions/security, context/file attachment, agent/extension management, TUI customisation, diagnostics/system, background process management), plan-execute-review workflow with Mermaid diagram, context compaction mechanics, persistent goals, subagent switching, vim mode, raw scrollback, reasoning effort keyboard shortcuts, config.toml persistence patterns, v0.131.0 additions (vim, approve, agent, apps, statusline, title, debug-config, unified mentions), custom slash command alternatives via skills/hooks/plugins, alphabetical quick reference card
+   - SEO targets: "codex cli slash commands", "codex cli commands reference", "codex slash commands list", "codex cli /plan /review /diff", "codex cli v0.131 commands", "codex tui commands 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing slash command articles (April 2026) covered only ~15 commands from earlier versions, whilst v0.131.0 ships 45 commands including new additions (/vim, /approve, /agent, /apps, /statusline, /title, /debug-config) and the unified mentions system that changed how /mention works, leaving no single up-to-date reference covering the complete command surface
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #172)
 
 ### OpenAI Unified Agentic Platform
