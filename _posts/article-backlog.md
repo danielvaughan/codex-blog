@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #171)
+
+### Google Jules vs Codex CLI Comparison
+
+1. ✅ **Google Jules vs Codex CLI: Async Fire-and-Forget vs Interactive Terminal Agent** — Written 2026-05-19 → `2026-05-19-google-jules-vs-codex-cli-async-fire-and-forget-interactive-terminal-agent-comparison.md`
+   - Source: Google I/O 2026 Developer Briefing, OpenAI GPT-5.2-Codex announcement, Google Jules blog, Codex CLI Features docs, Codex Models docs, Jules Tools CLI blog, Codex Non-interactive Mode docs, Jules proactive features blog, Codex AGENTS.md docs, Codex Advanced Config docs, Project Jitro coverage, Codex Automations docs, Codex Hooks docs, Codex Pricing docs
+   - Scope: Architecture comparison (cloud VM async vs local sandbox interactive), model comparison (Gemini 3.1 Pro/3 Flash vs GPT-5.x family), CLI tooling comparison (Jules Tools vs Codex CLI commands), when Jules wins (fire-and-forget, multi-repo parallelism, PR-centric teams, scheduled/suggested tasks), when Codex CLI wins (interactive exploration, immediate feedback, deep customisation, security boundaries, regulated environments), Project Jitro goal-driven paradigm shift vs task-driven agents, dual-agent workflow pattern, configuration surface comparison table, pricing considerations, decision flowchart
+   - SEO targets: "google jules vs codex cli", "jules vs codex comparison", "async coding agent vs terminal agent", "project jitro jules v2", "google jules codex cli comparison 2026", "fire and forget coding agent", "best coding agent 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article compared Codex CLI with Google Jules despite Jules being Codex's primary competitor in async agentic coding, Jules Tools CLI creating a direct CLI-to-CLI comparison surface, and Project Jitro/Jules V2 announced at Google I/O 2026 (May 19) introducing a goal-driven paradigm that represents the next evolution in coding agent design
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #170)
 
 ### Codex CLI MCP Server Management
