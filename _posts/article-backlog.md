@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #170)
+
+### Codex CLI MCP Server Management
+
+1. ✅ **Codex CLI MCP Server Management: CLI Commands, OAuth Flows, Streamable HTTP, and Production Configuration Patterns** — Written 2026-05-19 → `2026-05-19-codex-cli-mcp-server-management-cli-commands-oauth-streamable-http-production-patterns.md`
+   - Source: OpenAI MCP docs, OpenAI Config Reference docs, OpenAI Config Sample docs, OpenAI Managed Configuration docs, DeepWiki MCP CLI Commands, GitHub Issue #16439, GitHub Issue #20195, Codex v0.131.0 release notes, Codex Blog MCP schema bloat article
+   - Scope: Complete `codex mcp` subcommand reference (add, list, get, remove, login, logout), STDIO vs streamable HTTP server configuration, full TOML configuration parameter reference with types and defaults, OAuth 2.0 flow with sequence diagram, scope resolution and credential storage, tool filtering pipeline (enabled_tools allow-list then disabled_tools deny-list), per-tool approval mode overrides (auto, prompt, approve), project-scoped vs user-scoped configuration with trust model, plugin-provided MCP server management, enterprise governance via requirements.toml constraints, four production configuration patterns (minimal surface area, read-only by default, CI/CD required servers, environment-specific forwarding), troubleshooting checklist, known gaps (no enable/disable subcommand, no tool listing/validation) with GitHub issue links
+   - SEO targets: "codex mcp add", "codex mcp cli commands", "codex cli mcp server configuration", "codex mcp oauth", "codex mcp streamable http", "codex cli tool filtering", "codex mcp production patterns 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered MCP integration at a high level (March 26), MCP security hardening (April 13), MCP debugging (April 24), and MCP schema bloat (April 23), but no article provided a comprehensive reference for the `codex mcp` CLI subcommand family, the full TOML configuration parameter surface including streamable HTTP OAuth flows, tool filtering pipeline mechanics, per-tool approval overrides, or production configuration patterns despite MCP server management being a daily operational concern for senior developers connecting external tools
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #169)
 
 ### Codex On-Premises Dell AI Factory Partnership
