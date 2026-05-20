@@ -22,7 +22,7 @@ Google I/O 2026 (19 May) announced several products that directly compete with C
 
 ### Gemini 3.5 Flash Coding Benchmarks vs GPT-5.5 and codex-mini
 
-1. 📝 **Gemini 3.5 Flash vs GPT-5.5 and codex-mini: Coding Model Benchmark Comparison After Google I/O 2026**
+1. ✅ **Gemini 3.5 Flash vs GPT-5.5 and codex-mini: Coding Model Benchmark Comparison After Google I/O 2026** — Written 2026-05-20 → `2026-05-20-gemini-3-5-flash-vs-gpt-5-5-codex-mini-coding-model-benchmark-comparison.md`
    - Source: Google I/O 2026 model announcements, Google Gemini 3.5 Flash benchmarks, OpenAI Models docs, OpenAI GPT-5.5 announcement, Terminal-Bench 2.0 leaderboard, SWE-Bench Verified leaderboard, HumanEval/MBPP/LiveCodeBench results
    - Scope: Gemini 3.5 Flash claims (beats 3.1 Pro on coding benchmarks, 4x faster output than other frontier models), head-to-head benchmark comparison with GPT-5.5 (SWE-Bench Verified, Terminal-Bench 2.0, HumanEval, LiveCodeBench), comparison with codex-mini-latest (speed vs quality trade-off), model routing implications for Codex CLI users (when to use which model), cost per token comparison, context window sizes, practical recommendations for model selection in config.toml, what "4x faster" means for interactive vs batch workflows
    - SEO targets: "gemini 3.5 flash vs gpt 5.5", "gemini 3.5 flash coding benchmarks", "codex mini vs gemini flash", "best coding model 2026", "gemini 3.5 flash vs codex", "google io 2026 model comparison", "coding agent model benchmarks may 2026"
