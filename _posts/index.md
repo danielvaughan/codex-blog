@@ -5,8 +5,8 @@ nav_order: 1
 
 # Articles Index
 
-**Last updated:** 2026-05-19
-**Total articles rated:** 820
+**Last updated:** 2026-05-20
+**Total articles rated:** 840
 
 ## Rating Scale
 
@@ -66,6 +66,8 @@ Each article is rated 1-5 on four dimensions:
 | [The Gravel Path: Salesforce Apex and Lightning Web Components Edition](../premium-articles/27k-the-gravel-path-salesforce-apex-lwc.md) | 5 | 4 | 4 | 3 | 4.1 | Premium series; Complete copy-paste guide; Apex + LWC; PMD + ESLint; Scratch orgs; Rich tech stack table |
 | [The Gravel Path: Java Spring Boot on Azure Edition](../premium-articles/27l-the-gravel-path-java-spring-boot-azure.md) | 5 | 4 | 4 | 4 | 4.3 | Premium series; Complete copy-paste guide; Azure Container Apps; Bicep; Spotless; JUnit 5; Rich tech stack table |
 | [The Quality Dividend: Why the Real AI Opportunity Isn't Speed (Medium)](../premium-articles/draft-2026-05-16-the-quality-dividend-medium.md) | 5 | 5 | 4 | 5 | 4.8 | Draft; Medium cross-post variant; Jevons Paradox; Faros data; Polished prose |
+| [The Agent SDK Landscape: A Field Engineer's Comparison of Eight Frameworks](../premium-articles/28-the-agent-sdk-landscape.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Eight SDKs compared; Vendor-honest; FDE lens; Rich comparison tables; Heavily sourced |
+| [The Codex Onboarding Playbook: An FDE's Guide to Preparing an Existing Codebase for Agentic Engineering](../premium-articles/16-the-codex-onboarding-playbook.md) | 5 | 4 | 4 | 5 | 4.5 | Premium series; Step-by-step field manual; Harness engineering; FDE Handbook sourced; Rich config examples |
 
 ## Articles
 
@@ -78,11 +80,30 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI for Kubernetes Operator Development: Scaffolding CRDs, Reconciliation Loops, and envtest](2026-05-14-codex-cli-kubernetes-operator-development-kubebuilder-crd-reconciliation-testing.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Kubebuilder v4.13; controller-runtime; envtest patterns; Sketchnote |
 | [The TanStack Supply Chain Attack: What Codex CLI Users Need to Know](2026-05-15-tanstack-supply-chain-attack-codex-cli-npm-defence-sandbox-hardening.md) | 4 | 4 | 5 | 4 | 4.3 | Real incident; CVE-2026-45321; Attack chain analysis; Defence posture; Sketchnote |
 | [Inside the Codex Windows Sandbox: Restricted Tokens, Synthetic SIDs, and the Four-Layer Execution Architecture](2026-05-14-codex-cli-windows-sandbox-engineering-restricted-tokens-acls-elevated-architecture.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; OS internals; Four-layer execution path; Official blog sourced; Mermaid |
+| [Red-Teaming Codex CLI Agents with Promptfoo: Adversarial Security Testing for Coding Agent Workflows](2026-05-20-red-teaming-codex-cli-agents-promptfoo-adversarial-security-testing-coding-agent-vulnerabilities.md) | 5 | 5 | 4 | 4 | 4.5 | Deep dive; 12 attack vectors; Promptfoo acquisition; Deterministic evidence collection; Triage taxonomy |
+| [Codex CLI's SDK Maturation Arc: How v0.130-v0.132 Turned a Terminal Tool into a Programmable Agent Platform](2026-05-20-codex-cli-sdk-maturation-v0130-v0132-programmable-agent-platform.md) | 5 | 4 | 4 | 5 | 4.5 | Deep dive; Three releases traced; Five automation surfaces; Decision framework; Mermaid |
+| [The Post-Google I/O Coding Agent Landscape: Codex CLI vs Antigravity 2.0 vs Jules V2 vs Claude Code vs Grok Build](2026-05-20-post-google-io-coding-agent-landscape-codex-antigravity-jules-claude-grok.md) | 4 | 4 | 4 | 5 | 4.2 | Five-way comparison; Benchmark tables; Timely; Highly shareable; Sketchnote |
+| [1Password Environments MCP Server for Codex: Just-in-Time Credential Access for Coding Agents](2026-05-20-1password-codex-mcp-just-in-time-credential-access-agent-secrets-security.md) | 4 | 4 | 4 | 5 | 4.2 | First credential partnership; JIT pattern; Sequence diagram; Nancy Wang quoted; Timely |
 | [Codex On-Premises: The Dell AI Factory Partnership, Hybrid Deployment, and What It Means for Data-Sovereign Enterprises](2026-05-19-codex-on-premises-dell-ai-factory-hybrid-enterprise-deployment-data-residency.md) | 4 | 4 | 4 | 5 | 4.2 | Dell partnership analysis; Four-way deployment topology; Compliance matrix; Cost tiers; Timely; Shareable |
 | [Tokenmaxxing with Codex CLI: Multi-Agent Operator Stacks, Parallel Harnesses, and the End of Single-Tool Identity](2026-05-14-tokenmaxxing-codex-cli-multi-agent-operator-stacks-parallel-harness-architecture.md) | 4 | 4 | 4 | 5 | 4.2 | Trendy topic; Multi-agent routing; CC-Switch/9Router; Mermaid; Shareable |
+| [Codex CLI v0.132.0 Release Guide: Python SDK Authentication, exec resume --output-schema, and Performance Gains](2026-05-20-codex-cli-v0132-release-guide-python-sdk-auth-exec-resume-schema-performance.md) | 4 | 3 | 5 | 4 | 4.0 | Release guide; Three auth flows; exec resume; Structured output; Sketchnote |
+| [Antigravity 2.0 vs Codex CLI: What the Google I/O 2026 Upgrade Changes in the Competitive Landscape](2026-05-19-antigravity-2-vs-codex-cli-google-io-2026-competitive-landscape.md) | 4 | 4 | 4 | 4 | 4.0 | Competitive analysis; Dynamic subagents; Scheduled tasks; Feature tables; Sketchnote |
+| [Google Jules vs Codex CLI: Async Fire-and-Forget vs Interactive Terminal Agent](2026-05-19-google-jules-vs-codex-cli-async-fire-and-forget-interactive-terminal-agent-comparison.md) | 4 | 4 | 4 | 4 | 4.0 | Paradigm comparison; Jules V2/Jitro; Execution model tables; Mermaid; Sketchnote |
+| [Secure MCP Tunnel: Connecting Codex CLI to Private MCP Servers Without Opening Inbound Ports](2026-05-20-secure-mcp-tunnel-codex-cli-private-server-enterprise-outbound-only-tunnel-client.md) | 4 | 4 | 4 | 4 | 4.0 | Enterprise security; Outbound-only architecture; Sequence diagram; tunnel-client Go binary; Sketchnote |
+| [Detached Subagent Patterns for Codex CLI: Context-Free Orchestration Beyond Built-in Fork Semantics](2026-05-20-detached-subagent-patterns-codex-cli-context-free-orchestration-community-tools.md) | 4 | 4 | 4 | 4 | 4.0 | Three community tools; Fork vs detached trade-offs; Decision framework; Mermaid; Sketchnote |
 | [Codex CLI for Cross-Repository Development: Multi-Repo Sessions, Coordination Patterns, and MCP-Bridged Workflows](2026-05-19-codex-cli-cross-repository-development-multi-repo-sessions-coordination-patterns.md) | 4 | 4 | 4 | 4 | 4.0 | Five patterns; MCP bridging; codex exec orchestration; Subagent delegation; Mermaid |
 | [Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns](2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality.md) | 4 | 4 | 4 | 4 | 4.0 | Practical; Compaction internals; Config levers; GitHub issues cited |
 | [The Agentic Pricing Wars: OpenAI's Enterprise Migration Offer, Anthropic's Quota Expansion, and the Real Cost of Switching](2026-05-15-codex-cli-enterprise-pricing-wars-migration-incentives-claude-code-competitive-switching.md) | 4 | 4 | 4 | 4 | 4.0 | Competitive analysis; Switching costs breakdown; Token efficiency data; Timely |
+| [Codex CLI v0.131.0 Release Guide: Unified Mentions, Plugin Marketplace CLI, Python SDK Migration, and TUI Overhaul](2026-05-18-codex-cli-v0131-release-guide-unified-mentions-plugin-marketplace-python-sdk-tui.md) | 4 | 3 | 4 | 4 | 3.8 | Release guide; Unified @ picker; Plugin marketplace CLI; Python SDK rename; Sketchnote |
+| [Codex CLI MCP Server Management: CLI Commands, OAuth Flows, Streamable HTTP, and Production Configuration Patterns](2026-05-19-codex-cli-mcp-server-management-cli-commands-oauth-streamable-http-production-patterns.md) | 4 | 3 | 4 | 4 | 3.8 | Comprehensive reference; Six subcommands; OAuth flows; Tool filtering; Sketchnote |
+| [Codex CLI Slash Commands Complete Reference: All 45 Commands in v0.131](2026-05-19-codex-cli-slash-commands-complete-reference-v0131-45-commands.md) | 4 | 3 | 4 | 4 | 3.8 | Reference; 45 commands catalogued; Usage patterns; Grouped by function; Sketchnote |
+| [Codex CLI Doctor: The New First-Class Diagnostics Command in v0.131.0](2026-05-18-codex-cli-doctor-diagnostics-v0131-troubleshooting-runtime-auth-network.md) | 4 | 3 | 4 | 4 | 3.8 | Practical; Six diagnostic categories; Enterprise support; Mermaid; Sketchnote |
+| [OpenAI's Unified Agentic Platform: What the ChatGPT-Codex Merger Means for CLI Developers](2026-05-19-openai-unified-agentic-platform-chatgpt-codex-merge-cli-developer-implications.md) | 4 | 3 | 4 | 4 | 3.8 | Strategic analysis; Brockman memo; Three-phase rollout; Mermaid; Timely |
+| [Managed Agents in the Gemini API vs Codex Cloud Tasks: Agent-as-a-Service Showdown](2026-05-20-managed-agents-gemini-api-vs-codex-cloud-tasks-agent-as-a-service-showdown.md) | 4 | 3 | 4 | 4 | 3.8 | Three-way comparison; Interactions API; codex exec; Feature tables; Mermaid; Sketchnote |
+| [Google Agents CLI vs Codex CLI: Two Visions of Agent Development from the Terminal](2026-05-20-google-agents-cli-vs-codex-cli-two-visions-agent-development-terminal.md) | 4 | 3 | 4 | 4 | 3.8 | Architectural comparison; Seven bundled skills; Complementary tools; Feature tables; Sketchnote |
+| [Gemini 3.5 Flash vs GPT-5.5 and codex-mini: Coding Model Benchmark Comparison After Google I/O 2026](2026-05-20-gemini-3-5-flash-vs-gpt-5-5-codex-mini-coding-model-benchmark-comparison.md) | 4 | 3 | 4 | 4 | 3.8 | Benchmark tables; Terminal-Bench 2.0; Pricing comparison; Config guidance; Sketchnote |
+| [RTK and Codex CLI: Killing Token Waste at the Shell Boundary](2026-05-19-rtk-codex-cli-token-optimisation-shell-output-compression.md) | 4 | 4 | 3 | 4 | 3.8 | Practical; 89% compression; Four strategies; Token economics; Sketchnote |
+| [Migrating from Gemini CLI to Codex CLI: A Practical Guide After the Antigravity Transition](2026-05-19-migrating-gemini-cli-to-codex-cli-antigravity-transition-configuration-mapping.md) | 4 | 3 | 4 | 4 | 3.8 | Migration guide; Config file mapping; Hooks translation; Timely; Sketchnote |
 | [Codex CLI Cloud Delegation Workflows: Plan Locally, Execute Remotely, Apply Diffs](2026-05-19-codex-cli-cloud-delegation-workflows-plan-locally-execute-remotely-apply-diffs.md) | 4 | 3 | 4 | 4 | 3.8 | Practical; codex cloud subcommands; Best-of-N attempts; Scripted delegation; Mermaid |
 | [Codex Cloud Environment Configuration: Setup Scripts, Container Caching, and the codex-universal Image](2026-05-19-codex-cloud-environment-configuration-setup-scripts-caching-codex-universal.md) | 4 | 3 | 4 | 4 | 3.8 | Practical; codex-universal image; Setup/maintenance scripts; 12h cache lifecycle; Secrets management; Mermaid |
 | [Grok Build Enters the Ring: How xAI's Parallel-Agent CLI Compares to Codex CLI](2026-05-16-grok-build-vs-codex-cli-xai-parallel-agents-arena-mode-competitive-analysis.md) | 4 | 4 | 3 | 4 | 3.8 | Competitive analysis; Arena Mode; Router architecture; Timely; Sketchnote |
@@ -848,7 +869,7 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI 0.130.0 and Chrome Extension Launch](2026-05-14-codex-cli-0130-and-chrome-extension.md) | 2 | 2 | 2 | 2 | 2.0 | Changelog notes; Brief |
 ## Summary Statistics
 
-- **Total articles:** 820
+- **Total articles:** 840
 - **Average composite:** 3.5
 - **Highest composite:** 4.8
 - **Lowest composite:** 2.0
@@ -858,18 +879,18 @@ Each article is rated 1-5 on four dimensions:
 1. **Agentic Engineering Is Not Vibe Coding: The Framework That Separates 10x Teams from Toy Projects** (4.8)
 2. **Forward Deployed Engineers: The Human Bridge Between Agentic Pods and Enterprise Reality** (4.8)
 3. **Harness Engineering: The Discipline That Makes Agents Work** (4.8)
-4. **The Assembly Line: Why Validation Capacity Is Your AI Bottleneck** (4.8)
-5. **The Gravel Path: A Minimal Viable Harness for Agentic Development** (4.8)
-6. **The Gravel Path: Book Writing Edition** (4.8)
-7. **The Quality Dividend: Why the Real AI Opportunity Isn't Speed** (4.8)
-8. **When the Model Turns Hostile: The GPT-5.3-Codex Malware Injection Incident** (4.8)
-9. **Agent Improvement Loops: Closing the Harness Engineering Flywheel** (4.5) - NEW
-10. **AI Slopageddon: When Every Developer Has a Coding Agent, Who Guards the Codebase?** (4.5)
+4. **The Agent SDK Landscape: A Field Engineer's Comparison of Eight Frameworks** (4.8) - NEW
+5. **The Assembly Line: Why Validation Capacity Is Your AI Bottleneck** (4.8)
+6. **The Gravel Path: A Minimal Viable Harness for Agentic Development** (4.8)
+7. **The Gravel Path: Book Writing Edition** (4.8)
+8. **The Quality Dividend: Why the Real AI Opportunity Isn't Speed** (4.8)
+9. **When the Model Turns Hostile: The GPT-5.3-Codex Malware Injection Incident** (4.8)
+10. **Red-Teaming Codex CLI Agents with Promptfoo** (4.5) - NEW
 
 ### Score Distribution
 
-- **4.0+:** 210 articles
-- **3.5-3.9:** 451 articles
+- **4.0+:** 219 articles
+- **3.5-3.9:** 462 articles
 - **3.0-3.4:** 78 articles
 - **2.5-2.9:** 30 articles
 - **< 2.5:** 34 articles
