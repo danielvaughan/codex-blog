@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #179)
+
+### 1Password Environments MCP Server for Codex
+
+1. ✅ **1Password Environments MCP Server for Codex: Just-in-Time Credential Access for Coding Agents** — Written 2026-05-20 → `2026-05-20-1password-codex-mcp-just-in-time-credential-access-agent-secrets-security.md`
+   - Source: SiliconANGLE 1Password announcement, DevOps.com coverage, BusinessWire press release, OpenAI MCP docs, 1Password Developer docs, community 1Password MCP GitHub, Codex Blog secrets defence article
+   - Scope: 1Password Environments MCP Server architecture, just-in-time credential injection pattern, MCP transport isolation (no secret values in MCP channel), three-layer security model (MCP transport, process runtime, vault governance), Codex CLI config.toml setup, enterprise requirements.toml enforcement, op:// secret reference syntax in AGENTS.md, comparison with shell env/dotenv/cloud secrets/config.toml env blocks, practical database migration workflow, anti-patterns (community MCP for production, auto-approve credentials, printing secrets), agent identity layer implications, Unified Access platform context
+   - SEO targets: "1password codex mcp", "codex cli secrets management", "just in time credentials codex", "1password environments mcp server", "codex agent credential security", "codex mcp vault integration 2026", "coding agent secrets management"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — 1Password announced the Environments MCP Server for Codex on 20 May 2026 as the first official credential-management partnership for OpenAI's Codex platform, implementing a zero-plaintext-exposure just-in-time pattern where secret values never enter the MCP transport channel or model context window, yet no existing article covered the integration architecture, configuration, or security model despite credential management being the single largest security concern for agentic coding workflows
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #178)
 
 ### Red-Teaming Codex CLI Agents with Promptfoo
