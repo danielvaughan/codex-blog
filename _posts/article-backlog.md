@@ -38,7 +38,7 @@ Google I/O 2026 (19 May) announced several products that directly compete with C
 
 ### The Post-I/O Landscape: Five Coding Agent Platforms Compared (June 2026 Edition)
 
-1. 📝 **The Post-Google I/O Coding Agent Landscape: Codex CLI vs Antigravity 2.0 vs Jules V2 vs Claude Code vs Grok Build**
+1. ✅ **The Post-Google I/O Coding Agent Landscape: Codex CLI vs Antigravity 2.0 vs Jules V2 vs Claude Code vs Grok Build** — Written 2026-05-20 → `2026-05-20-post-google-io-coding-agent-landscape-codex-antigravity-jules-claude-grok.md`
    - Source: Google I/O 2026 announcements, OpenAI Codex CLI v0.131.0, Anthropic Claude Code changelog, xAI Grok Build beta docs, Google Antigravity 2.0 features, Google Jules/Jitro announcements, Terminal-Bench 2.0 leaderboard, SWE-Bench Verified
    - Scope: Comprehensive five-way comparison updated for Google I/O 2026 announcements — architecture (local terminal vs IDE vs cloud vs hybrid), model ecosystems, agent paradigms (interactive vs fire-and-forget vs goal-driven), sandbox security models, enterprise governance, pricing, strengths/weaknesses matrix, decision flowchart for teams choosing in June 2026, what changed since the May 4 Terminal Agent Showdown article
    - SEO targets: "coding agent comparison june 2026", "codex vs antigravity vs jules vs claude code", "best coding agent after google io", "coding agent landscape 2026", "terminal agent comparison post google io", "which coding agent 2026"
