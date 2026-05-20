@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #180)
+
+### codex doctor Diagnostics Deep Dive
+
+1. ✅ **codex doctor: The Diagnostics Command That Replaces Manual Log Archaeology** — Written 2026-05-20 → `2026-05-20-codex-doctor-diagnostics-command-troubleshooting-support-ready-reports.md`
+   - Source: GitHub PR #22336 (codex doctor implementation), OpenAI Codex Changelog v0.131.0, SmartScope diagnostic logs guide, OpenAI CLI reference docs, Uniflow troubleshooting guide, GitHub PR #18880 (debug trace reducer)
+   - Scope: Complete codex doctor walkthrough — five diagnostic sections (Environment, Configuration, Updates, Connectivity, Background Server), Notes anomaly promotion, output flags (--summary, --json, --all, --no-color), CI pipeline preflight integration, /feedback automatic attachment with Sentry tags, enterprise fleet diagnostics, relationship to /debug-config and codex debug, common diagnostic patterns (auth conflicts, MCP failures, TUI rendering, CI drift)
+   - SEO targets: "codex doctor", "codex cli diagnostics", "codex cli troubleshooting", "codex doctor command", "codex cli support diagnostics", "codex doctor json report"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — codex doctor is mentioned in passing in several existing articles but no dedicated article covered the full command surface, output sections, flags, CI integration patterns, or relationship to other diagnostic tools
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #179)
 
 ### 1Password Environments MCP Server for Codex
