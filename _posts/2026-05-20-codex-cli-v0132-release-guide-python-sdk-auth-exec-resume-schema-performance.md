@@ -5,6 +5,9 @@ nav_order: 788
 tags: ["codex-cli", "release", "v0.132.0", "python-sdk", "authentication", "exec-resume", "performance", "automation"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.132.0 Release Guide: Python SDK Authentication, exec resume --output-schema, and Performance Gains](/sketchnotes/articles/2026-05-20-codex-cli-v0132-release-guide-python-sdk-auth-exec-resume-schema-performance.png)
+
+
 # Codex CLI v0.132.0 Release Guide: Python SDK Authentication, exec resume --output-schema, and Performance Gains
 
 

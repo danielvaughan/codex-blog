@@ -5,6 +5,9 @@ nav_order: 786
 tags: ["codex-cli", "codex-cloud", "gemini-api", "managed-agents", "google-io-2026", "agent-as-a-service", "codex-exec", "comparison"]
 ---
 
+![Sketchnote diagram for: Managed Agents in the Gemini API vs Codex Cloud Tasks: Agent-as-a-Service Showdown](/sketchnotes/articles/2026-05-20-managed-agents-gemini-api-vs-codex-cloud-tasks-agent-as-a-service-showdown.png)
+
+
 # Managed Agents in the Gemini API vs Codex Cloud Tasks: Agent-as-a-Service Showdown
 
 

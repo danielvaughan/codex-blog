@@ -5,6 +5,9 @@ nav_order: 785
 tags: ["codex-cli", "google-antigravity", "antigravity-2", "google-io-2026", "comparison", "subagents", "scheduled-tasks", "sandbox-security", "gemini-3-5-flash"]
 ---
 
+![Sketchnote diagram for: Antigravity 2.0 vs Codex CLI: What the Google I/O 2026 Upgrade Changes in the Competitive Landscape](/sketchnotes/articles/2026-05-19-antigravity-2-vs-codex-cli-google-io-2026-competitive-landscape.png)
+
+
 # Antigravity 2.0 vs Codex CLI: What the Google I/O 2026 Upgrade Changes in the Competitive Landscape
 
 

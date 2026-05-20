@@ -5,6 +5,9 @@ categories: [competitive-analysis, google, agent-platform]
 tags: [agents-cli, google-cloud, adk, codex-cli, agent-platform, deployment, enterprise]
 ---
 
+![Sketchnote diagram for: Google Agents CLI vs Codex CLI: Two Visions of Agent Development from the Terminal](/sketchnotes/articles/2026-05-20-google-agents-cli-vs-codex-cli-two-visions-agent-development-terminal.png)
+
+
 *Published: 2026-05-20. Sources: [Google Developers Blog](https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/), [GitHub google/agents-cli](https://github.com/google/agents-cli), [Google Cloud I/O agent developer blog](https://cloud.google.com/blog/topics/developers-practitioners/io26-news-for-agent-developers-on-google-cloud), [InfoQ coverage](https://www.infoq.com/news/2026/04/agents-cli-google-cloud/), [OpenAI Codex CLI docs](https://developers.openai.com/codex/cli), [OpenAI Python SDK docs](https://developers.openai.com/codex/sdk), [OpenAI Plugins docs](https://developers.openai.com/codex/cli/plugins), [OpenAI Skills docs](https://developers.openai.com/codex/cli/skills).*
 
 ---

@@ -5,6 +5,9 @@ nav_order: 783
 tags: ["codex-cli", "slash-commands", "tui", "reference", "v0.131", "keyboard-shortcuts", "workflow"]
 ---
 
+![Sketchnote diagram for: Codex CLI Slash Commands Complete Reference: All 45 Commands in v0.131](/sketchnotes/articles/2026-05-19-codex-cli-slash-commands-complete-reference-v0131-45-commands.png)
+
+
 # Codex CLI Slash Commands Complete Reference: All 45 Commands in v0.131
 
 

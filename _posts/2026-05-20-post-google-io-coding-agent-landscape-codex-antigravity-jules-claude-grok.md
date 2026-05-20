@@ -5,6 +5,9 @@ nav_order: 785
 tags: ["codex-cli", "antigravity", "jules", "claude-code", "grok-build", "comparison", "google-io-2026"]
 ---
 
+![Sketchnote diagram for: The Post-Google I/O Coding Agent Landscape: Codex CLI vs Antigravity 2.0 vs Jules V2 vs Claude Code vs Grok Build](/sketchnotes/articles/2026-05-20-post-google-io-coding-agent-landscape-codex-antigravity-jules-claude-grok.png)
+
+
 # The Post-Google I/O Coding Agent Landscape: Codex CLI vs Antigravity 2.0 vs Jules V2 vs Claude Code vs Grok Build
 
 

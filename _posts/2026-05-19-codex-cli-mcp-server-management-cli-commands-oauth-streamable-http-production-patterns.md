@@ -5,6 +5,9 @@ nav_order: 776
 tags: ["codex-cli", "mcp", "model-context-protocol", "oauth", "streamable-http", "config-toml", "tool-filtering", "production-patterns"]
 ---
 
+![Sketchnote diagram for: Codex CLI MCP Server Management: CLI Commands, OAuth Flows, Streamable HTTP, and Production Configuration Patterns](/sketchnotes/articles/2026-05-19-codex-cli-mcp-server-management-cli-commands-oauth-streamable-http-production-patterns.png)
+
+
 # Codex CLI MCP Server Management: CLI Commands, OAuth Flows, Streamable HTTP, and Production Configuration Patterns
 
 

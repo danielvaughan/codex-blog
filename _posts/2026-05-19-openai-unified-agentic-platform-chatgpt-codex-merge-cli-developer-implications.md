@@ -5,6 +5,9 @@ nav_order: 782
 tags: ["openai", "codex-cli", "chatgpt", "unified-platform", "strategy", "developer-experience", "agentic", "brockman", "ipo"]
 ---
 
+![Sketchnote diagram for: OpenAI's Unified Agentic Platform: What the ChatGPT-Codex Merger Means for CLI Developers](/sketchnotes/articles/2026-05-19-openai-unified-agentic-platform-chatgpt-codex-merge-cli-developer-implications.png)
+
+
 # OpenAI's Unified Agentic Platform: What the ChatGPT-Codex Merger Means for CLI Developers
 
 

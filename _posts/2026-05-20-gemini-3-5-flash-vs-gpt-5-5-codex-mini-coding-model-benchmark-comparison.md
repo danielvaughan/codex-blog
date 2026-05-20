@@ -5,6 +5,9 @@ nav_order: 787
 tags: ["benchmarks", "models", "gemini", "gpt-5.5", "codex-mini", "google-io-2026", "performance", "pricing"]
 ---
 
+![Sketchnote diagram for: Gemini 3.5 Flash vs GPT-5.5 and codex-mini: Coding Model Benchmark Comparison After Google I/O 2026](/sketchnotes/articles/2026-05-20-gemini-3-5-flash-vs-gpt-5-5-codex-mini-coding-model-benchmark-comparison.png)
+
+
 # Gemini 3.5 Flash vs GPT-5.5 and codex-mini: Coding Model Benchmark Comparison After Google I/O 2026
 
 

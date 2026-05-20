@@ -5,6 +5,9 @@ nav_order: 789
 tags: ["codex-cli", "mcp", "enterprise", "security", "tunnel-client", "private-network", "infrastructure"]
 ---
 
+![Sketchnote diagram for: Secure MCP Tunnel: Connecting Codex CLI to Private MCP Servers Without Opening Inbound Ports](/sketchnotes/articles/2026-05-20-secure-mcp-tunnel-codex-cli-private-server-enterprise-outbound-only-tunnel-client.png)
+
+
 # Secure MCP Tunnel: Connecting Codex CLI to Private MCP Servers Without Opening Inbound Ports
 
 

@@ -5,6 +5,9 @@ nav_order: 781
 tags: ["codex-cli", "google-jules", "comparison", "async-agents", "terminal-agents", "project-jitro", "coding-agents", "gemini", "gpt-5"]
 ---
 
+![Sketchnote diagram for: Google Jules vs Codex CLI: Async Fire-and-Forget vs Interactive Terminal Agent](/sketchnotes/articles/2026-05-19-google-jules-vs-codex-cli-async-fire-and-forget-interactive-terminal-agent-comparison.png)
+
+
 # Google Jules vs Codex CLI: Async Fire-and-Forget vs Interactive Terminal Agent
 
 
