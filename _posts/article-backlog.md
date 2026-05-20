@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #177)
+
+### SDK Maturation Arc v0.130–v0.132
+
+1. ✅ **Codex CLI's SDK Maturation Arc: How v0.130–v0.132 Turned a Terminal Tool into a Programmable Agent Platform** — Written 2026-05-20 → `2026-05-20-codex-cli-sdk-maturation-v0130-v0132-programmable-agent-platform.md`
+   - Source: OpenAI Codex Changelog (v0.130.0, v0.131.0, v0.132.0), OpenAI Codex Non-interactive docs, OpenAI Codex SDK docs, OpenAI Codex Agents SDK guide, OpenAI Codex GitHub Action docs, OpenAI Cookbook Codex MCP Agents SDK, Blake Crosley v0.130 reference
+   - Scope: Three-release narrative arc (v0.130 infrastructure primitives, v0.131 developer experience, v0.132 production readiness), five automation surfaces (codex exec, Python SDK, TypeScript SDK, MCP Server, GitHub Action), decision framework table mapping scenarios to recommended surfaces, current gaps (PyPI distribution, SDK streaming, feature parity), strategic analysis of platform evolution
+   - SEO targets: "codex cli sdk maturation", "codex cli v0.130 v0.131 v0.132", "codex cli automation surfaces", "openai codex python sdk", "codex cli programmable platform", "codex cli decision framework"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article traced the cohesive three-release SDK maturation story or provided a decision framework across all five automation surfaces
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #176)
 
 ### Secure MCP Tunnel
