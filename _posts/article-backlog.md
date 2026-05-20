@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #176)
+
+### Secure MCP Tunnel
+
+1. ✅ **Secure MCP Tunnel: Connecting Codex CLI to Private MCP Servers Without Opening Inbound Ports** — Written 2026-05-20 → `2026-05-20-secure-mcp-tunnel-codex-cli-private-server-enterprise-outbound-only-tunnel-client.md`
+   - Source: OpenAI API Changelog (19 May 2026), OpenAI Secure MCP Tunnels Guide, OpenAI tunnel-client GitHub repository, OpenAI Codex MCP docs, Docker MCP Toolkit blog
+   - Scope: Secure MCP Tunnel architecture (outbound-only HTTPS long polling, multi-channel routing, transport flexibility), tunnel-client deployment (profile initialisation, doctor diagnostics, daemon operation), security model (network isolation, mTLS, tiered permissions, OAuth handling), Codex CLI integration (codex subcommands, plugin install, config.toml manual setup), observability (health endpoints, admin UI, Prometheus metrics, log export), architecture patterns (single server, multi-server hub, per-environment isolation), comparison with alternatives (public exposure, VPN, reverse proxy, Docker MCP Gateway), limitations and caveats
+   - SEO targets: "secure mcp tunnel codex", "openai tunnel-client", "codex cli private mcp server", "enterprise mcp tunnel", "codex mcp firewall", "tunnel-client openai", "private mcp server codex cli"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI announced Secure MCP Tunnel on 19 May 2026 enabling enterprise teams to connect private/on-premises MCP servers to Codex CLI, ChatGPT, and the Responses API through outbound-only HTTPS tunnelling, yet no existing article covered the tunnel-client architecture, deployment, or Codex CLI integration
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #175)
 
 ### Codex CLI v0.132.0 Release Guide
