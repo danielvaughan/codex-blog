@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #175)
+
+### Codex CLI v0.132.0 Release Guide
+
+1. ✅ **Codex CLI v0.132.0 Release Guide: Python SDK Authentication, exec resume --output-schema, and Performance Gains** — Written 2026-05-20 → `2026-05-20-codex-cli-v0132-release-guide-python-sdk-auth-exec-resume-schema-performance.md`
+   - Source: OpenAI Codex Changelog v0.132.0, OpenAI Codex Auth docs, OpenAI Codex CLI Reference docs, OpenAI Codex SDK docs, OpenAI Codex CLI Features docs, Blake Crosley v0.130 reference, LaoZhang AI /goal feature review, OpenAI Upgrades blog
+   - Scope: Complete v0.132.0 release walkthrough — Python SDK first-class authentication (API key, ChatGPT browser PKCE, device-code flow), account inspection and logout APIs, simplified Turn APIs with plain string inputs and TurnResult objects, codex exec resume --output-schema for structured output on resumed sessions, batched terminal capability probes for faster TUI startup, unified remote executor authentication, image fidelity preservation in app-server turns, goal continuation smart halting on usage limits/blockers, session picker improvements, upgrade path, strategic analysis of v0.130-v0.132 SDK maturation arc
+   - SEO targets: "codex cli v0.132", "codex cli release guide", "codex python sdk authentication", "codex exec resume output-schema", "codex cli may 2026 update", "openai codex sdk device code auth"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.132.0 released today (20 May 2026) with significant SDK authentication and automation improvements not covered by any existing article
+
+---
+
 ## New Articles — Google I/O 2026 Competitive Analysis (2026-05-19, Manual)
 
 Google I/O 2026 (19 May) announced several products that directly compete with Codex CLI and the broader Codex platform. The following articles cover competitive surfaces NOT already addressed by existing articles (Antigravity v1 comparison, Jules vs Codex, Gemini CLI migration are already written).
