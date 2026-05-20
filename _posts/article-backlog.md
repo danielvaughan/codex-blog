@@ -30,7 +30,7 @@ Google I/O 2026 (19 May) announced several products that directly compete with C
 
 ### Google Agents CLI vs Codex CLI SDK and Plugin Ecosystem
 
-1. 📝 **Google Agents CLI vs Codex CLI: Two Visions of Agent Development from the Terminal**
+1. ✅ **Google Agents CLI vs Codex CLI: Two Visions of Agent Development from the Terminal** — Written 2026-05-20 → `2026-05-20-google-agents-cli-vs-codex-cli-two-visions-agent-development-terminal.md`
    - Source: Google Developers Blog "Agents CLI in Agent Platform", GitHub google/agents-cli, Google Cloud I/O agent developer blog, InfoQ Agents CLI coverage, OpenAI Codex CLI GitHub, OpenAI Python SDK docs, OpenAI Plugins docs, OpenAI Skills docs
    - Scope: Google Agents CLI architecture (ADK skills packaged for any coding agent including Codex CLI, human mode vs agent mode, uvx google-agents-cli, IaC generation, CI/CD pipeline injection, A2A integration), comparison with Codex CLI's own agent development story (openai-codex Python SDK, codex exec, plugins marketplace, skills directory), key distinction (Agents CLI builds agents ON Google Cloud; Codex CLI IS the agent), interoperability angle (Agents CLI explicitly supports Codex CLI as a host), when they complement vs compete, practical workflow combining both, enterprise deployment comparison (Google Agent Platform vs Dell AI Factory on-premises)
    - SEO targets: "google agents cli vs codex cli", "agents cli codex comparison", "google cloud agent development cli", "codex cli agent sdk comparison", "agents cli agent platform", "building agents codex vs google cloud"
