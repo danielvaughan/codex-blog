@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #178)
+
+### Red-Teaming Codex CLI Agents with Promptfoo
+
+1. ✅ **Red-Teaming Codex CLI Agents with Promptfoo: Adversarial Security Testing for Coding Agent Workflows** — Written 2026-05-20 → `2026-05-20-red-teaming-codex-cli-agents-promptfoo-adversarial-security-testing-coding-agent-vulnerabilities.md`
+   - Source: Promptfoo Red Team Coding Agents docs, Promptfoo OpenAI Codex SDK Provider docs, OpenAI Promptfoo acquisition announcement, OpenAI Codex Advanced Configuration docs, OpenAI Codex Hooks docs, OpenAI Codex Agent Approvals docs, HackYourAgent community skill (OpenAI Developer Community)
+   - Scope: 12 adversarial attack vectors (repo prompt injection, terminal output injection, secret leakage, sandbox escape, verifier sabotage, network egress, procfs credential read, delayed CI exfiltration, generated vulnerabilities, steganographic exfiltration, automation poisoning, secret file read), Promptfoo coding-agent:core plugin configuration, evidence collection patterns (canary detection, trace spans, host-side hashes, network traps), plausible-prompt attack design, Codex CLI defence layers (sandbox hardening, shell_environment_policy, PreToolUse hooks, granular approval), CI/CD red-team integration, failure triage framework, HackYourAgent community skill comparison
+   - SEO targets: "red team codex cli", "promptfoo coding agent security", "codex cli adversarial testing", "coding agent red teaming", "codex cli sandbox escape testing", "promptfoo red team coding agents", "codex cli prompt injection defence"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing eval article (2026-05-15) covers standard eval-driven development with Promptfoo but no article addresses the adversarial red-teaming side including the 12 coding-agent attack plugins, forensic evidence collection, plausible-prompt methodology, or CI-gated security gates
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #177)
 
 ### SDK Maturation Arc v0.130–v0.132
