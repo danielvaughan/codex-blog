@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #191)
+
+### Codex CLI Prompt Engineering for the GPT-5.5 Era
+
+1. ✅ **Codex CLI Prompt Engineering in the GPT-5.5 Era: Outcome-First Patterns, Anti-Patterns, and the Prompts That Ship Code on the First Turn** — Written 2026-05-21 → `2026-05-21-codex-cli-prompt-engineering-outcome-first-patterns-gpt55-senior-developer-workflows.md`
+   - Source: OpenAI Best Practices docs, OpenAI Prompting docs, OpenAI Cookbook GPT-5 Codex Prompting Guide, GPT-5.5 announcement, Codex CLI v0.133.0 release notes, Codex CLI Changelog
+   - Scope: Four-part prompt anatomy (goal/context/constraints/done-when), outcome-first vs step-by-step prompting comparison, AGENTS.md boundary and hierarchical loading (global/repo/subdirectory), reasoning effort selection guide (Low/Medium/High/Extra High), verification steps as highest-ROI investment, plan-first decision framework (/plan vs direct prompt), @ mention context injection patterns, five token-wasting anti-patterns (micromanager, kitchen-sink, missing verification, AGENTS.md bypass, static reasoning), prompt templates for bug fix/feature/review/refactoring, compound pattern (AGENTS.md + prompt + /goal), GPT-5.5 specific changes (shorter prompts, anti-pattern constraints, phase parameter)
+   - SEO targets: "codex cli prompt engineering", "codex cli prompting best practices", "codex cli GPT-5.5 prompts", "codex cli outcome first prompting", "codex cli AGENTS.md prompting", "codex cli done when criteria", "codex prompt anti-patterns"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — only one early prompting article existed (March 26), written before GPT-5.5, Plan Mode maturation, /goal, /side, unified @ mentions, and v0.131-v0.133 features, leaving a major gap in the knowledge base for the most fundamental Codex CLI skill: writing effective prompts
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #190)
 
 ### Codex CLI Session Transcripts and Replay Tools
