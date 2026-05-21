@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #190)
+
+### Codex CLI Session Transcripts and Replay Tools
+
+1. ✅ **Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis** — Written 2026-05-21 → `2026-05-21-codex-cli-session-transcripts-jsonl-replay-viewer-tools-audit-analysis.md`
+   - Source: OpenAI Codex Non-interactive Mode docs, OpenAI Codex CLI Features docs, OpenAI Codex CLI Reference docs, OpenAI Codex Changelog, codex-transcript-viewer GitHub, claude-replay GitHub, ai-transcript GitHub, codex-transcripts GitHub, Codex History Viewer VS Code Marketplace, takopi exec --json cheatsheet, GitHub Issue #21196
+   - Scope: JSONL rollout file location and naming convention, event schema (thread.started, turn.started/completed/failed, item.started/completed, error), item types (agent_message, command_execution, file_change, mcp_tool_call, reasoning, web_search, plan_update), token usage fields including reasoning_output_tokens, four community replay/viewer tools (codex-transcript-viewer, claude-replay, ai-transcript, codex-transcripts), Codex History Viewer VS Code extension (v2.2.0), five practical patterns (post-incident audit, token cost analysis, tool call profiling, shareable session replays for code review, regression detection), known limitations (no official export, rollout file durability issues, schema instability, no built-in redaction)
+   - SEO targets: "codex cli session transcripts", "codex cli jsonl format", "codex session replay", "codex transcript viewer", "codex cli audit trail", "codex rollout jsonl", "codex cli session history tools", "codex exec json events"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — while existing articles cover log files and debug tracing (May 21), OTLP traces dashboard (May 6), and session resume workflows (May 3, May 8), no article provided a unified reference for the JSONL rollout file format, the growing community ecosystem of replay and viewer tools (codex-transcript-viewer, claude-replay, ai-transcript, codex-transcripts, Codex History Viewer), or practical jq-based patterns for extracting audit, cost, and profiling insights from session transcripts
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #189)
 
 ### Codex CLI + shadcn/ui Design System Workflows
