@@ -5,6 +5,8 @@ nav_order: 800
 tags: ["codex-cli", "go", "golang", "gopls", "mcp", "agents-md", "skills", "go-1.26", "development-workflow"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Go Development Teams: gopls MCP, Agent Skills, and Go 1.26 Workflows](/sketchnotes/articles/2026-05-21-codex-cli-for-go-development-teams-gopls-mcp-skills-agents-md-workflows.png)
+
 # Codex CLI for Go Development Teams: gopls MCP, Agent Skills, and Go 1.26 Workflows
 
 

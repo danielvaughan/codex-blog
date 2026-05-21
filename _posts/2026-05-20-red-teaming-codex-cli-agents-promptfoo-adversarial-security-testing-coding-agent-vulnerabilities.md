@@ -5,6 +5,8 @@ nav_order: 791
 tags: ["codex-cli", "promptfoo", "red-teaming", "security", "adversarial-testing", "coding-agents", "sandbox-escape", "prompt-injection", "enterprise"]
 ---
 
+![Sketchnote diagram for: Red-Teaming Codex CLI Agents with Promptfoo: Adversarial Security Testing for Coding Agent Workflows](/sketchnotes/articles/2026-05-20-red-teaming-codex-cli-agents-promptfoo-adversarial-security-testing-coding-agent-vulnerabilities.png)
+
 # Red-Teaming Codex CLI Agents with Promptfoo: Adversarial Security Testing for Coding Agent Workflows
 
 

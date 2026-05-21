@@ -5,6 +5,8 @@ nav_order: 799
 tags: ["codex-cli", "remote-connections", "mobile", "ssh", "enterprise", "access-tokens", "authentication", "daemon"]
 ---
 
+![Sketchnote diagram for: Codex Remote Connections: Mobile Pairing, SSH Hosts, and Enterprise Access Tokens](/sketchnotes/articles/2026-05-21-codex-remote-connections-mobile-pairing-ssh-hosts-enterprise-access-tokens.png)
+
 # Codex Remote Connections: Mobile Pairing, SSH Hosts, and Enterprise Access Tokens
 
 

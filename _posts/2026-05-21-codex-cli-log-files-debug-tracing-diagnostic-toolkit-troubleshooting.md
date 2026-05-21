@@ -5,6 +5,8 @@ nav_order: 802
 tags: ["codex-cli", "logging", "debugging", "tracing", "diagnostics", "RUST_LOG", "codex-doctor", "troubleshooting", "JSONL", "session-transcripts"]
 ---
 
+![Sketchnote diagram for: Codex CLI Log Files and Debug Tracing: The Complete Diagnostic Toolkit for When Sessions Fail](/sketchnotes/articles/2026-05-21-codex-cli-log-files-debug-tracing-diagnostic-toolkit-troubleshooting.png)
+
 # Codex CLI Log Files and Debug Tracing: The Complete Diagnostic Toolkit for When Sessions Fail
 
 

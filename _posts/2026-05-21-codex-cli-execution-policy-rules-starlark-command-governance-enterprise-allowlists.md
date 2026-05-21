@@ -5,6 +5,8 @@ nav_order: 5
 tags: ["codex-cli", "execution-policy", "starlark", "security", "enterprise", "governance", "rules", "allowlists"]
 ---
 
+![Sketchnote diagram for: Codex CLI Execution Policy Rules: Starlark-Based Command Governance, Smart Approvals, and Enterprise Allowlists](/sketchnotes/articles/2026-05-21-codex-cli-execution-policy-rules-starlark-command-governance-enterprise-allowlists.png)
+
 # Codex CLI Execution Policy Rules: Starlark-Based Command Governance, Smart Approvals, and Enterprise Allowlists
 
 

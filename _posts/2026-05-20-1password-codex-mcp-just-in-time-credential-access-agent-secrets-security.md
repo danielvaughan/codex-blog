@@ -5,6 +5,8 @@ nav_order: 792
 tags: ["codex-cli", "1password", "mcp", "secrets-management", "security", "just-in-time-credentials", "agent-security"]
 ---
 
+![Sketchnote diagram for: 1Password Environments MCP Server for Codex: Just-in-Time Credential Access for Coding Agents](/sketchnotes/articles/2026-05-20-1password-codex-mcp-just-in-time-credential-access-agent-secrets-security.png)
+
 # 1Password Environments MCP Server for Codex: Just-in-Time Credential Access for Coding Agents
 
 

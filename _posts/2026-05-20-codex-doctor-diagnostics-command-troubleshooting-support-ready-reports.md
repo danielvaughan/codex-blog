@@ -5,6 +5,8 @@ nav_order: 796
 tags: ["codex-cli", "diagnostics", "troubleshooting", "codex-doctor", "v0.131.0", "devtools", "support"]
 ---
 
+![Sketchnote diagram for: codex doctor: The Diagnostics Command That Replaces Manual Log Archaeology](/sketchnotes/articles/2026-05-20-codex-doctor-diagnostics-command-troubleshooting-support-ready-reports.png)
+
 # codex doctor: The Diagnostics Command That Replaces Manual Log Archaeology
 
 

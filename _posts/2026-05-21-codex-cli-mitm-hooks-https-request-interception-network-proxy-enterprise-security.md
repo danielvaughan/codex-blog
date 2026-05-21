@@ -5,6 +5,8 @@ nav_order: 801
 tags: ["codex-cli", "security", "network-proxy", "mitm-hooks", "enterprise", "https-interception", "permission-profiles"]
 ---
 
+![Sketchnote diagram for: Codex CLI MITM Hooks: HTTPS Request Interception, Header Mutation, and Network-Level Policy Enforcement](/sketchnotes/articles/2026-05-21-codex-cli-mitm-hooks-https-request-interception-network-proxy-enterprise-security.png)
+
 # Codex CLI MITM Hooks: HTTPS Request Interception, Header Mutation, and Network-Level Policy Enforcement
 
 

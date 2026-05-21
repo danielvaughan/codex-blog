@@ -5,6 +5,8 @@ nav_order: 798
 tags: ["codex-cli", "v0.133", "alpha", "multi-agent", "subagents", "hooks", "permission-profiles", "goal-database", "orchestration", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.133.0-alpha: SubagentStart Hooks, Goal DB, and Permission Profile APIs — Signals for Multi-Agent Orchestration](/sketchnotes/articles/2026-05-21-codex-cli-v0133-alpha-subagent-hooks-goal-db-permission-profile-apis-multi-agent-orchestration.png)
+
 # Codex CLI v0.133.0-alpha: SubagentStart Hooks, Goal DB, and Permission Profile APIs — Signals for Multi-Agent Orchestration
 
 
