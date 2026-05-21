@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #187)
+
+### Codex CLI for Scala Development Teams
+
+1. ✅ **Codex CLI for Scala Development Teams: Metals MCP, sbt, and Idiomatic Functional Workflows** — Written 2026-05-21 → `2026-05-21-codex-cli-for-scala-development-teams-metals-mcp-sbt-functional-agent-workflows.md`
+   - Source: Metals MCP documentation (scalameta.org), sbt 2.x docs, Scala 3.9 LTS release notes, metals-standalone-client GitHub, cc-skills-scala community skills, Codex CLI v0.132 changelog
+   - Scope: Three-layer configuration — Metals MCP server (9 tools: compile, diagnostics, symbol search, references, hover, implementations, document symbols, workspace symbol, rename), sbt integration (incremental compilation, multi-project builds, verify sequences), AGENTS.md template (Scala 3 syntax mandates, effect system conventions, implicits/givens guidance, error handling patterns), configuration profiles for batch/review/sprint, common agent failure modes (Scala 2 syntax generation, Any/Nothing inference, implicit abuse, effect system mixing), effect system guidance for Cats Effect/ZIO/Ox
+   - SEO targets: "codex cli scala", "codex cli metals mcp", "codex cli sbt", "codex cli scala development", "metals mcp server codex", "codex cli functional programming", "codex cli scala 3"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Scala was the only major JVM language without a dedicated Codex CLI article (Go, Rust, Ruby, Python, C/C++, Elixir, Swift, Kotlin, Java, PHP, .NET all had existing articles)
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #186)
 
 ### Codex CLI Log Files and Debug Tracing
