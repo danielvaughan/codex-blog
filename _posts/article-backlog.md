@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #193)
+
+### Codex Appshots
+
+1. ✅ **Codex Appshots: Screenshot-Driven Context for Developer Workflows on macOS** — Written 2026-05-22 → `2026-05-22-codex-appshots-screenshot-driven-context-developer-workflows-macos.md`
+   - Source: OpenAI Codex Changelog (v26.519, 21 May 2026), OpenAI Appshots docs, OpenAI Codex App docs, OpenAI Codex CLI Features docs, 9to5Mac Appshots coverage, SC Media Chronicle privacy analysis
+   - Scope: Appshots dual-payload capture (screenshot + accessibility text), macOS permissions (Screen Recording, Accessibility), 60-second threading heuristic, comparison table (CLI --image vs Appshots vs Computer Use), privacy and enterprise considerations, Chronicle relationship, five practical patterns (bug triage, Figma design-to-code, IDE error diagnosis, documentation cross-reference, CLI bridge handoff), Google Workspace limitations, configuration and MDM lockdown, context convergence architecture
+   - SEO targets: "codex appshots", "codex appshots macos", "codex screenshot context", "codex app screenshot developer", "codex appshots vs cli image", "codex appshots privacy", "codex app context injection"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Appshots shipped 21 May 2026 with no existing article covering the feature, its dual-payload architecture, privacy implications, or practical developer workflow patterns
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #192)
 
 ### Codex CLI v0.133.0 Stable Release Guide
