@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #192)
+
+### Codex CLI v0.133.0 Stable Release Guide
+
+1. ✅ **Codex CLI v0.133.0 Release Guide: Goals Enabled by Default, Permission Profile Inheritance, and Extension Lifecycle Events** — Written 2026-05-21 → `2026-05-21-codex-cli-v0133-release-guide-goals-default-permission-inheritance-extension-events-packaging.md`
+   - Source: GitHub openai/codex releases (rust-v0.133.0), OpenAI Codex Changelog (v26.519, 21 May 2026), OpenAI Codex CLI Features docs, OpenAI Codex Configuration Reference, OpenAI Codex Advanced Configuration docs, GitHub PRs #23300, #22928, #23412, #22782, #23372, #23727, #23513
+   - Scope: Five pillars of v0.133.0 (goals default-on with dedicated DB, permission profile inheritance with extends key and list APIs, five new extension lifecycle events including SubagentStart/Stop/ToolExecution/TurnMetadata/AsyncApproval, plugin discovery improvements with marketplace-aware output and remote collections, canonical package builder with zstd compression), upgrade path from v0.132, configuration migration guide, three practical patterns (goal-driven migration, inherited permission profiles for team governance, extension-driven cost monitoring), version comparison table v0.131-v0.133, bug fixes including TUI startup directory, plan-mode Enter key, stale background terminal events, AGENTS.md loading reliability, app-server startup races
+   - SEO targets: "codex cli v0.133", "codex cli v0.133 release", "codex cli goals enabled default", "codex permission profile inheritance", "codex extension lifecycle events", "codex cli upgrade guide 2026", "codex cli release guide May 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — the existing v0.133 article covered only the alpha pre-release signals, while the stable v0.133.0 release shipped on 21 May 2026 with 80+ merged PRs, goals promoted to default-on status, permission profile inheritance, five new extension lifecycle events, and a canonical package builder pipeline — none of which were covered as shipping stable features
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #191)
 
 ### Codex CLI Prompt Engineering for the GPT-5.5 Era
