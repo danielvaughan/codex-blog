@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #189)
+
+### Codex CLI + shadcn/ui Design System Workflows
+
+1. ✅ **Codex CLI + shadcn/ui: Agent-Driven Design System Workflows with MCP Server, Skills, and CLI v4** — Written 2026-05-21 → `2026-05-21-codex-cli-shadcn-ui-design-system-mcp-skills-component-workflows.md`
+   - Source: shadcn/ui CLI v4 changelog, shadcn/ui Skills docs, shadcn/ui MCP Server docs, OpenAI Codex Advanced Configuration docs, mattbx/shadcn-skills GitHub, codex-frontend-skill GitHub, OpenAI Codex Skills docs
+   - Scope: shadcn MCP server configuration for Codex CLI (config.toml setup, registry browsing, cross-registry search, natural-language installation, private registry auth), shadcn skill system (shadcn info --json context injection, CLI command reference, discovery-before-creation pattern), AGENTS.md design system governance (component rules, semantic tokens, completion criteria, subdirectory overrides), CLI v4 inspection flags (--dry-run, --diff, --view) in agent workflows, community shadcn-skills (component discovery across 30+ registries, component review against five themes), registry:base for distributing entire design systems, Presets engine for shareable design configurations, common pitfalls (over-wrapping with Card, raw Tailwind values, ignoring installed components, Tailwind v3/v4 syntax mismatch)
+   - SEO targets: "codex cli shadcn", "codex cli design system", "shadcn mcp server codex", "shadcn skills codex cli", "codex cli component workflow", "shadcn registry codex", "codex cli frontend design system", "shadcn agents md"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — only one Storybook article and one general frontend article existed, but no article covered the three-layer shadcn/ui integration (MCP server + skills + AGENTS.md) that shipped with CLI v4 in March 2026, despite shadcn/ui being the most widely adopted component toolkit in the React ecosystem
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #188)
 
 ### Codex CLI Security Testing Tools
