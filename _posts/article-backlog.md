@@ -1,5 +1,77 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #186)
+
+### Codex CLI Log Files and Debug Tracing
+
+1. ✅ **Codex CLI Log Files and Debug Tracing: The Complete Diagnostic Toolkit for When Sessions Fail** — Written 2026-05-21 → `2026-05-21-codex-cli-log-files-debug-tracing-diagnostic-toolkit-troubleshooting.md`
+   - Source: SmartScope diagnostic logs guide, OpenAI CLI Reference docs, OpenAI Slash Commands docs, OpenAI Advanced Configuration docs, GitHub PR #22336 (codex doctor), GitHub Issue #17320 (TRACE logging WAL writes), codex-trace community tool, codex-transcript-viewer community tool
+   - Scope: Runtime log file location (~/.codex/log/codex-tui.log), JSONL session transcript format (~/.codex/sessions/), RUST_LOG environment variable syntax and crate-level targeting, RUST_LOG_FORMAT options, codex doctor command (six diagnostic sections, --summary/--json/--all flags, CI preflight pattern), /debug-config for effective configuration inspection, /feedback for support submission, /status for session state, codex debug subcommands, four common failure patterns (auth 401, MCP handshake timeout, sandbox denials, WebSocket disconnection loops) with diagnostic paths, OpenTelemetry export for production monitoring, complete diagnostic workflow sequence
+   - SEO targets: "codex cli log files", "codex cli debug tracing", "codex cli RUST_LOG", "codex cli troubleshooting logs", "codex cli diagnostic toolkit", "codex doctor json", "codex cli session transcripts JSONL"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover codex doctor (May 20), troubleshooting field guide (May 1), and OpenTelemetry observability (April 20), but no article provided a unified reference for the complete diagnostic toolkit including runtime log files, JSONL session transcripts, RUST_LOG verbosity control, all debug slash commands, codex debug subcommands, common failure pattern signatures, and the recommended diagnostic workflow sequence
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #185)
+
+### Codex CLI MITM Hooks
+
+1. ✅ **Codex CLI MITM Hooks: HTTPS Request Interception, Header Mutation, and Network-Level Policy Enforcement** — Written 2026-05-21 → `2026-05-21-codex-cli-mitm-hooks-https-request-interception-network-proxy-enterprise-security.md`
+   - Source: GitHub PR #18868 (MITM hook config model), GitHub PR #20659 (runtime enforcement), GitHub PR #18240 (named MITM permissions config), codex-network-proxy README, OpenAI Codex Advanced Configuration docs, OpenAI Codex CLI Features docs, DeepWiki network proxy docs
+   - Scope: Managed network proxy architecture (HTTP/SOCKS5 listeners, allowlist-first policy, TLS termination via managed CA), MITM hook configuration surface (host, methods, path_prefixes, query, headers matchers with literal/pattern/glob syntax), action blocks (strip_request_headers, inject_request_headers with secret_env_var/secret_file resolution), default-deny for hooked hosts, four practical patterns (credential stripping, credential rotation via injection, write-blocking internal APIs, path-scoped API access), enterprise enforcement via requirements.toml, OTEL audit events, relationship to existing defence-in-depth layers, limitations (no body matching, no response interception, CA trust requirements, platform support)
+   - SEO targets: "codex cli mitm hooks", "codex cli https interception", "codex cli network proxy hooks", "codex cli request header mutation", "codex cli enterprise network security", "codex cli credential stripping proxy", "codex network-proxy mitm"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — three PRs landed on 20 May 2026 introducing a completely new MITM hook system for request-level HTTPS interception within the managed network proxy, with no existing article covering the feature despite it being the finest-grained network security control available in Codex CLI
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #184)
+
+### Codex CLI Execution Policy Rules
+
+1. ✅ **Codex CLI Execution Policy Rules: Starlark-Based Command Governance, Smart Approvals, and Enterprise Allowlists** — Written 2026-05-21 → `2026-05-21-codex-cli-execution-policy-rules-starlark-command-governance-enterprise-allowlists.md`
+   - Source: OpenAI Rules docs, OpenAI Execution Policy docs, openai/codex execpolicy README, Starlark Language Specification, OpenAI Managed Configuration docs, OpenAI CLI Reference docs
+   - Scope: Starlark `.rules` file format, `prefix_rule()` function signature and all parameters (pattern, decision, justification, match/not_match), pattern matching with token unions, shell command parsing (safe splitting vs conservative parsing), `host_executable()` path pinning, `codex execpolicy check` CLI testing, smart approvals TUI feedback loop, enterprise enforcement via `requirements.toml` (delivery mechanisms, decision constraints), four practical rule-set patterns (safe git workflow, language-specific build tools, CI pipeline lockdown, executable path pinning), limitations and caveats
+   - SEO targets: "codex cli execution policy", "codex cli rules starlark", "codex execpolicy check", "codex cli command governance", "codex cli enterprise allowlist", "codex cli prefix_rule", "codex requirements.toml rules"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — the execution policy rules system is central to Codex CLI's security model but no existing article covered the Starlark rule syntax, pattern matching semantics, shell command parsing behaviour, host_executable constraints, smart approvals feedback loop, or enterprise enforcement via requirements.toml despite these being critical for teams deploying Codex CLI with governance requirements
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #183)
+
+### Codex CLI for Go Development Teams
+
+1. ✅ **Codex CLI for Go Development Teams: gopls MCP, Agent Skills, and Go 1.26 Workflows** — Written 2026-05-21 → `2026-05-21-codex-cli-for-go-development-teams-gopls-mcp-skills-agents-md-workflows.md`
+   - Source: Go 1.26 Release Notes, gopls MCP docs (go.dev), gopls-mcp.org Codex setup guide, samber/cc-skills-golang GitHub, Yantrio/mcp-gopls GitHub, hloiseau/mcp-gopls GitHub, OpenAI Codex Skills docs, OpenAI Codex Changelog v0.132.0, Codex Blog Go teams article
+   - Scope: gopls built-in MCP server setup (attached vs detached mode, 12 tools), community gopls-mcp wrappers, cc-skills-golang 35+ atomic skills (code style, error handling, concurrency, testing, security, modernise), single-handling rule enforcement, production AGENTS.md template for Go 1.26 (build/test/lint/verify sequence, code style, testing conventions, concurrency rules, security gates), subdirectory overrides, CI/CD integration with codex exec and GitHub Actions, verification flow diagram, Go 1.26 considerations (enhanced new(), self-referential generics, Green Tea GC, go fix modernisers)
+   - SEO targets: "codex cli go development", "codex cli golang teams", "gopls mcp codex cli", "codex cli agents md go template", "codex cli go 1.26 workflow", "go skills codex cli", "codex cli golangci-lint"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — dedicated language-specific articles exist for Rust, Ruby/Rails, Python/Django/FastAPI, C/C++, Elixir/Phoenix, and Swift teams but none for Go despite Go being a top-5 language for backend and cloud-native development, and gopls having shipped official MCP support in v0.20
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #182)
+
+### Codex Remote Connections
+
+1. ✅ **Codex Remote Connections: Mobile Pairing, SSH Hosts, and Enterprise Access Tokens** — Written 2026-05-21 → `2026-05-21-codex-remote-connections-mobile-pairing-ssh-hosts-enterprise-access-tokens.md`
+   - Source: OpenAI Remote Connections docs, OpenAI Authentication docs, OpenAI CLI Reference docs, Knightli mobile access coverage, Gadget Bridge mobile launch coverage, OpenAI Codex Changelog
+   - Scope: Remote access architecture (app-server daemon, secure relay, WebSocket, SSH), mobile pairing setup and capabilities, SSH remote project configuration, device-to-device control, WebSocket authentication modes (capability token, signed bearer token), enterprise access tokens for CI/CD, device-code flow, credential storage options, multi-surface workflow patterns, security recommendations
+   - SEO targets: "codex remote connections", "codex mobile pairing", "codex ssh remote", "codex enterprise access tokens", "codex remote control daemon", "codex cli remote access 2026", "codex app-server websocket"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the complete remote connections system including mobile pairing (launched 14 May 2026), SSH host configuration, WebSocket daemon transport, enterprise access tokens, or the multi-surface workflow pattern despite remote access being a critical capability for enterprise teams and mobile developers
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #181)
+
+### v0.133.0-alpha.1 Signals: SubagentStart Hook, Goal DB, Permission Profile APIs
+
+1. ✅ **Codex CLI v0.133.0-alpha.1: SubagentStart Hooks, Dedicated Goal DB, and Permission Profile APIs — What the Next Release Signals for Multi-Agent Orchestration** — Written 2026-05-21 → `2026-05-21-codex-cli-v0133-alpha-subagent-hooks-goal-db-permission-profile-apis-multi-agent-orchestration.md`
+   - Source: GitHub openai/codex releases (rust-v0.133.0-alpha.1, 20 May 2026), 58 commits between v0.132.0 and v0.133.0-alpha.1
+   - Scope: SubagentStart lifecycle hook (#22782) for spawn-time orchestration gates, dedicated goal DB (#23300) for persistent cross-session goal tracking, permission profile list/picker APIs (#22928, #23412) for programmatic profile discovery, role-defined spawn service tiers (#22169) for per-role cost control in multi-agent setups, context baselines for full-history agent forks (#23352), plugin ID in MCP tool metadata (#23353) for provenance audit, Codex package builder (#23513) for distributable packaging, deny-canonical filesystem permissions (#23493), implications for enterprise multi-agent workflows
+   - SEO targets: "codex cli v0.133", "codex subagent start hook", "codex cli goal database", "codex permission profile api", "codex cli multi-agent orchestration 2026", "codex cli service tiers subagents"
+   - Note: Pre-release; article should clearly label features as alpha and subject to change. Key insight is the convergence of SubagentStart hook + role tiers + context baselines as a production multi-agent orchestration stack.
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #180)
 
 ### codex doctor Diagnostics Deep Dive
@@ -4478,3 +4550,12 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the emerging pattern of running Codex subagents as fully detached, process-isolated agents using community tools (obra/external-subagents, codex-subagents-mcp, betterup/codex-cli-subagents), despite existing multi-agent articles covering built-in MultiAgentV2, agent swarms, and MCP-based orchestration.
    - Scope: Context pressure problem with built-in fork semantics, obra/external-subagents manifest-driven CLI (start/send/peek/wait/archive commands, JSON manifest batching, controller isolation, persona mapping), codex-subagents-mcp single-tool MCP server (delegate tool, file-based agent registry, git worktree isolation, profile binding), betterup proof-of-concept (Python executor, YAML frontmatter agents), comparison matrix across four approaches, decision framework for built-in vs detached subagents, hybrid orchestration pattern combining both, trade-offs (shared state loss, consolidation limitations, configuration complexity)
    - SEO targets: "codex cli detached subagents", "codex cli context-free orchestration", "codex exec subagent", "codex cli process isolation", "codex subagent patterns", "obra external subagents", "codex subagents mcp", "codex cli multi-agent isolation"
+
+## New Articles — Auto-Generated (2026-05-20, Hourly Task #181)
+
+### GitHub Copilot CLI Agent vs Codex CLI
+
+1. ✅ **GitHub Copilot CLI Agent vs Codex CLI: Same Model, Different Harness — Two Terminal Agents Compared** — Written 2026-05-20 → `2026-05-20-github-copilot-cli-agent-vs-codex-cli-same-model-different-harness-terminal-agents.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered a direct comparison between GitHub Copilot CLI Agent and Codex CLI, despite both now sharing the same GPT-5.3-Codex base model as of May 17, 2026.
+   - Scope: Architecture comparison (Rust vs Node.js), sandboxing approaches (OS-level vs worktree isolation), automation surfaces (codex exec/SDK/MCP vs GitHub Actions/fleet/delegate), extensibility (open MCP vs managed marketplace), interactive TUI features, cost models (per-token vs usage-based subscription), decision framework for choosing between tools, convergence trajectory analysis
+   - SEO targets: "codex cli vs copilot cli", "github copilot cli agent comparison", "codex cli copilot comparison", "terminal coding agents compared", "gpt-5.3-codex copilot", "codex cli vs github copilot terminal", "coding agent comparison 2026"
