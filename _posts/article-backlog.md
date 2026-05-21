@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #188)
+
+### Codex CLI Security Testing Tools
+
+1. ✅ **Codex CLI Security Testing Tools: codex sandbox, codex execpolicy, and Offline Policy Validation** — Written 2026-05-21 → `2026-05-21-codex-cli-security-testing-tools-sandbox-execpolicy-offline-policy-validation.md`
+   - Source: OpenAI Codex Agent Approvals & Security docs, OpenAI Codex Permissions docs, OpenAI Codex Rules docs, OpenAI Codex Sandbox docs, OpenAI Codex CLI Reference docs
+   - Scope: `codex sandbox` subcommand (platform-specific flags for macOS/Linux/Windows, --permissions-profile, --log-denials, --allow-unix-socket, --include-managed-config), `codex execpolicy check` subcommand (--rules repeatable flag, --pretty JSON output, decision precedence), permission profile definition and testing, Starlark .rules file validation, shell script safe splitting semantics, host_executable() path pinning, CI pipeline integration patterns, table-driven validation scripts, combined sandbox+execpolicy workflow, limitations (platform requirements, preview status, scope boundaries)
+   - SEO targets: "codex sandbox command", "codex execpolicy check", "codex cli security testing", "codex permission profile validation", "codex cli policy testing", "codex starlark rules test", "codex sandbox log denials"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — while individual articles cover sandbox internals, permission profiles, and execution policy rules separately, no article provided a unified practical guide to the two standalone security testing subcommands (codex sandbox and codex execpolicy check) that allow offline, token-free policy validation and CI integration
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #187)
 
 ### Codex CLI for Scala Development Teams
