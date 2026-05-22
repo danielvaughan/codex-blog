@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #202)
+
+### Codex CLI Session Patterns Decision Framework
+
+1. ✅ **Codex CLI Session Patterns: A Decision Framework for Threads, Worktrees, /side, Goals, and Subagents** — Written 2026-05-22 → `2026-05-22-codex-cli-session-patterns-threads-worktrees-side-goals-subagents-decision-framework.md`
+   - Source: OpenAI Best Practices docs, OpenAI Features docs, OpenAI Subagents docs, OpenAI Slash Commands docs, OpenAI Advanced Configuration docs, Codex CLI v0.133.0/v0.132.0/v0.131.0 release notes, Ofox.ai real-world workflow guide, OpenAI Developer Community quota discussion
+   - Scope: Five session patterns taxonomy (single thread, worktree, /side, goal, subagent), decision flowchart for pattern selection, practical configuration examples, composability of patterns across multi-day features, anti-patterns (mega-thread, premature delegation, worktree sprawl, vague goals, /fork vs /side confusion), session hygiene checklist, token cost comparison, v0.133 goals-default-on and v0.132 budget-halting fixes, custom agent role definitions, limitations (no cross-session subagents, ephemeral /side, beta goal schema, worktree disk pressure)
+   - SEO targets: "codex cli session management", "codex cli threads vs worktrees", "codex cli side thread", "codex cli goal mode", "codex cli subagents when to use", "codex cli session patterns", "codex cli workflow patterns"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — despite 14+ articles covering individual session features (goals, worktrees, subagents, resume/fork, compaction), no article provided a unified decision framework for choosing between the five patterns or documented their composability and anti-patterns
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #201)
 
 ### Codex Doctor Diagnostic Command
