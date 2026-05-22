@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #194)
+
+### Codex CLI Permission Profile Inheritance
+
+1. ✅ **Codex CLI Permission Profile Inheritance: Composable Security Policies and List APIs in v0.133** — Written 2026-05-22 → `2026-05-22-codex-cli-permission-profile-inheritance-composable-security-policies-v0133.md`
+   - Source: GitHub openai/codex releases (rust-v0.133.0), OpenAI Codex Permissions docs, OpenAI Config basics docs, OpenAI Managed configuration docs, OpenAI Sandbox docs
+   - Scope: Permission profile config-layer inheritance (system/org/user/project layering), deny-overrides-write-overrides-read precedence, list APIs (codex permissions list/show/--trace), managed requirements.toml integration with immutable deny rules, runtime refresh for managed requirements, platform-specific enforcement improvements (macOS Seatbelt, Linux bwrap/seccomp, Windows restricted tokens), three practical patterns (org-wide base with team overrides, review profile, CI pipeline profile), migration from legacy sandbox_mode, limitations and beta status caveats
+   - SEO targets: "codex cli permission profile inheritance", "codex permission profiles v0.133", "codex composable security policies", "codex permissions list api", "codex requirements.toml", "codex cli enterprise security profiles", "codex sandbox permission profiles"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.133.0 shipped 21 May 2026 with profile inheritance, list APIs, and managed requirements.toml support, but no existing article covered these three features as a unified composable security policy system despite the v0.133 release guide mentioning them briefly
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #193)
 
 ### Codex Appshots
