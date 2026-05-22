@@ -5,6 +5,9 @@ nav_order: 804
 tags: ["codex-cli", "security", "sandbox", "execpolicy", "permission-profiles", "starlark-rules", "policy-testing", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI Security Testing Tools: codex sandbox, codex execpolicy, and Offline Policy Validation](/sketchnotes/articles/2026-05-21-codex-cli-security-testing-tools-sandbox-execpolicy-offline-policy-validation.png)
+
+
 # Codex CLI Security Testing Tools: `codex sandbox`, `codex execpolicy`, and Offline Policy Validation
 
 

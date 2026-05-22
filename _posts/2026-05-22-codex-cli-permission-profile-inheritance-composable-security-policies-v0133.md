@@ -5,6 +5,9 @@ nav_order: 812
 tags: ["codex-cli", "permission-profiles", "security", "sandbox", "inheritance", "v0.133", "enterprise", "config.toml", "requirements.toml", "governance"]
 ---
 
+![Sketchnote diagram for: Codex CLI Permission Profile Inheritance: Composable Security Policies and List APIs in v0.133](/sketchnotes/articles/2026-05-22-codex-cli-permission-profile-inheritance-composable-security-policies-v0133.png)
+
+
 # Codex CLI Permission Profile Inheritance: Composable Security Policies and List APIs in v0.133
 
 

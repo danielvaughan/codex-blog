@@ -5,6 +5,9 @@ nav_order: 808
 tags: ["codex-cli", "session-transcripts", "jsonl", "replay", "audit", "observability", "tooling", "community"]
 ---
 
+![Sketchnote diagram for: Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis](/sketchnotes/articles/2026-05-21-codex-cli-session-transcripts-jsonl-replay-viewer-tools-audit-analysis.png)
+
+
 # Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis
 
 

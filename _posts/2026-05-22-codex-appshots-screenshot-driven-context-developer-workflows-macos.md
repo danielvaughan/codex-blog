@@ -5,6 +5,9 @@ nav_order: 811
 tags: ["codex", "appshots", "macos", "screenshots", "context", "developer-workflows", "codex-app", "computer-use", "privacy"]
 ---
 
+![Sketchnote diagram for: Codex Appshots: Screenshot-Driven Context for Developer Workflows on macOS](/sketchnotes/articles/2026-05-22-codex-appshots-screenshot-driven-context-developer-workflows-macos.png)
+
+
 # Codex Appshots: Screenshot-Driven Context for Developer Workflows on macOS
 
 

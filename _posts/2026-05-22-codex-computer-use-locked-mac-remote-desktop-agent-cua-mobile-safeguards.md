@@ -5,6 +5,9 @@ tags: [codex-cli, computer-use, cua, remote-desktop, locked-mac, codex-mobile, m
 seo: "codex computer use locked mac, codex CUA remote desktop, codex gui agent macos, codex mobile computer use, codex locked screen agent, codex desktop automation safeguards"
 ---
 
+![Sketchnote diagram for: Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent](/sketchnotes/articles/2026-05-22-codex-computer-use-locked-mac-remote-desktop-agent-cua-mobile-safeguards.png)
+
+
 # Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent
 
 Published: 2026-05-22

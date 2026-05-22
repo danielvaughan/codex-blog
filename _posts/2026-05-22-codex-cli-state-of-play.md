@@ -1,3 +1,5 @@
+![Sketchnote: Codex CLI State of Play — May 2026](/sketchnotes/articles/2026-05-22-codex-cli-state-of-play.png)
+
 # Codex CLI State of Play — May 2026
 
 Published: 2026-05-22

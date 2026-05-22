@@ -5,6 +5,9 @@ nav_order: 809
 tags: ["codex-cli", "prompt-engineering", "GPT-5.5", "best-practices", "workflows", "AGENTS.md", "reasoning-effort", "productivity"]
 ---
 
+![Sketchnote diagram for: Codex CLI Prompt Engineering in the GPT-5.5 Era: Outcome-First Patterns, Anti-Patterns, and the Prompts That Ship Code on the First Turn](/sketchnotes/articles/2026-05-21-codex-cli-prompt-engineering-outcome-first-patterns-gpt55-senior-developer-workflows.png)
+
+
 # Codex CLI Prompt Engineering in the GPT-5.5 Era: Outcome-First Patterns, Anti-Patterns, and the Prompts That Ship Code on the First Turn
 
 

@@ -5,6 +5,9 @@ nav_order: 803
 tags: ["codex-cli", "scala", "scala-3", "metals", "mcp", "sbt", "functional-programming", "agents-md", "development-workflow"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Scala Development Teams: Metals MCP, sbt, and Idiomatic Functional Workflows](/sketchnotes/articles/2026-05-21-codex-cli-for-scala-development-teams-metals-mcp-sbt-functional-agent-workflows.png)
+
+
 # Codex CLI for Scala Development Teams: Metals MCP, sbt, and Idiomatic Functional Workflows
 
 

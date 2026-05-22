@@ -8,6 +8,9 @@ source:
   - https://developers.openai.com/codex/concepts
 ---
 
+![Sketchnote diagram for: Intelligence per Token: Why Your Local AI Needs Agentic Loops, Not Bigger Prompts — and What Codex CLI Already Solved](/sketchnotes/articles/2026-05-21-local-ai-intelligence-per-token-codex-cli-dgx-spark-agentic-loops.png)
+
+
 # Intelligence per Token: Why Your Local AI Needs Agentic Loops, Not Bigger Prompts — and What Codex CLI Already Solved
 
 Manolo Remiddi's recent video, "Your Local AI is 'Stupid' Because You're Using it Like ChatGPT,"[^1] articulates a problem that Codex CLI's architecture addresses structurally. The argument is simple: smaller local models — Gemma 3 27B, Qwen 3.6 35B, running on hardware like the Nvidia DGX Spark or ASUS GX10 — produce tokens with less intelligence per token than frontier models like GPT-5.5. One-shot prompting therefore fails. The solution is not bigger hardware but better workflow: specification-first development, iterative loops, deterministic verification, and research-before-action. Every one of these patterns is already a first-class concept in Codex CLI.

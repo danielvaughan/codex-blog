@@ -5,6 +5,9 @@ nav_order: 810
 tags: ["codex-cli", "v0.133", "release-guide", "goals", "permission-profiles", "extensions", "packaging", "upgrade"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.133.0 Release Guide: Goals Enabled by Default, Permission Profile Inheritance, and Extension Lifecycle Events](/sketchnotes/articles/2026-05-21-codex-cli-v0133-release-guide-goals-default-permission-inheritance-extension-events-packaging.png)
+
+
 # Codex CLI v0.133.0 Release Guide: Goals Enabled by Default, Permission Profile Inheritance, and Extension Lifecycle Events
 
 

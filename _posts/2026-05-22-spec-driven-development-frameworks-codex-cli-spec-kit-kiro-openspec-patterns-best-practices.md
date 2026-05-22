@@ -5,6 +5,9 @@ nav_order: 830
 tags: ["codex-cli", "spec-driven-development", "spec-kit", "kiro", "openspec", "bmad", "tessl", "agents-md", "patterns", "best-practices"]
 ---
 
+![Sketchnote diagram for: Spec-Driven Development Frameworks for Codex CLI: Patterns, Best Practices, and the 2026 Landscape](/sketchnotes/articles/2026-05-22-spec-driven-development-frameworks-codex-cli-spec-kit-kiro-openspec-patterns-best-practices.png)
+
+
 # Spec-Driven Development Frameworks for Codex CLI: Patterns, Best Practices, and the 2026 Landscape
 
 

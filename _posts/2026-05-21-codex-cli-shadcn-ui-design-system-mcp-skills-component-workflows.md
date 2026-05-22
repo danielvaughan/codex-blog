@@ -5,6 +5,9 @@ nav_order: 807
 tags: ["codex-cli", "shadcn-ui", "design-system", "mcp", "skills", "frontend", "tailwind", "react", "component-library", "registry"]
 ---
 
+![Sketchnote diagram for: Codex CLI + shadcn/ui: Agent-Driven Design System Workflows with MCP Server, Skills, and CLI v4](/sketchnotes/articles/2026-05-21-codex-cli-shadcn-ui-design-system-mcp-skills-component-workflows.png)
+
+
 # Codex CLI + shadcn/ui: Agent-Driven Design System Workflows with MCP Server, Skills, and CLI v4
 
 

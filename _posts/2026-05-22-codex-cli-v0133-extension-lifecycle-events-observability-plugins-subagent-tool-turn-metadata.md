@@ -5,6 +5,9 @@ nav_order: 813
 tags: ["codex-cli", "v0.133", "extensions", "lifecycle-events", "plugins", "observability", "SubagentStart", "ToolExecution", "TurnMetadata", "AsyncApproval", "governance", "enterprise"]
 ---
 
+![Sketchnote diagram for: Codex CLI v0.133 Extension Lifecycle Events: Building Observability Plugins with SubagentStart, ToolExecution, and TurnMetadata](/sketchnotes/articles/2026-05-22-codex-cli-v0133-extension-lifecycle-events-observability-plugins-subagent-tool-turn-metadata.png)
+
+
 # Codex CLI v0.133 Extension Lifecycle Events: Building Observability Plugins with SubagentStart, ToolExecution, and TurnMetadata
 
 

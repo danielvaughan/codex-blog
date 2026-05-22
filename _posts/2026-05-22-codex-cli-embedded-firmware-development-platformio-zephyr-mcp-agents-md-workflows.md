@@ -5,6 +5,9 @@ nav_order: 832
 tags: ["codex-cli", "embedded-systems", "firmware", "platformio", "zephyr", "freertos", "mcp", "agents-md", "esp32", "stm32", "arm-cortex-m"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Embedded and Firmware Development: PlatformIO MCP, Zephyr Workflows, and AGENTS.md for Hardware Teams](/sketchnotes/articles/2026-05-22-codex-cli-embedded-firmware-development-platformio-zephyr-mcp-agents-md-workflows.png)
+
+
 # Codex CLI for Embedded and Firmware Development: PlatformIO MCP, Zephyr Workflows, and AGENTS.md for Hardware Teams
 
 

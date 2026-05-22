@@ -5,6 +5,9 @@ nav_order: 831
 tags: ["codex-cli", "github-actions", "ci-cd", "automation", "sandbox", "security", "best-practices"]
 ---
 
+![Sketchnote diagram for: Codex CLI in GitHub Actions: Best Practices, Limitations, and Gotchas](/sketchnotes/articles/2026-05-22-codex-cli-github-actions-best-practices-limitations-gotchas.png)
+
+
 # Codex CLI in GitHub Actions: Best Practices, Limitations, and Gotchas
 
 

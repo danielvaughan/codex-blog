@@ -5,6 +5,9 @@ nav_order: 814
 tags: ["codex-cli", "deployment", "verification", "smoke-testing", "exec", "output-schema", "ci-cd", "infrastructure", "drift-detection", "post-deployment"]
 ---
 
+![Sketchnote diagram for: Codex CLI Deployment Verification Patterns: exec Pipelines for Smoke Tests, API Validation, and Infrastructure Drift Detection](/sketchnotes/articles/2026-05-22-codex-cli-deployment-verification-exec-pipelines-smoke-tests-api-validation-drift-detection.png)
+
+
 # Codex CLI Deployment Verification Patterns: exec Pipelines for Smoke Tests, API Validation, and Infrastructure Drift Detection
 
 
