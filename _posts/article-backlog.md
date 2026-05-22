@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #203)
+
+### Codex CLI for Nix Development
+
+1. ✅ **Codex CLI for Nix Development: MCP-NixOS, Reproducible Environments, and Flake-Native Agent Workflows** — Written 2026-05-22 → `2026-05-22-codex-cli-nix-development-mcp-nixos-reproducible-environments-flake-workflows.md`
+   - Source: MCP-NixOS GitHub, nix-mcp-server LobeHub listing, nixd GitHub, nil GitHub, codex-cli-nix flake (sadjow), codex-nix flake (SecBear), OpenAI Codex official flake.nix, LSP-MCP Server GitHub, OpenAI Config Reference, GitHub Issue #12102
+   - Scope: Two Nix MCP servers (MCP-NixOS with 130K+ packages/23K options/noogle, nix-mcp-server for local operations), TOML configuration for both stdio and Docker transports, language server integration via nixd 2.0.2 and nil through LSP-MCP bridge, AGENTS.md patterns for flake-based projects (lock file discipline, overlay conventions, module authoring rules, impure flag prohibition), five workflow patterns (package discovery, NixOS module authoring, flake input auditing with exec pipelines, cross-platform devShell generation, Home Manager configuration), installing Codex CLI via Nix flakes (three options: official, sadjow, SecBear), model selection profiles for Nix tasks, limitations (training data lag, evaluation complexity, MCP coverage gaps, no REPL integration)
+   - SEO targets: "codex cli nix", "codex cli nixos development", "mcp-nixos codex", "codex cli flakes", "codex cli reproducible environments", "nix mcp server codex cli", "codex cli home manager"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered every major language ecosystem (Go, Rust, Python, Ruby, Java, Kotlin, C++, Elixir, Scala, Swift, Dart, Svelte, Vue, Next.js, PHP, C#, Zig) and infrastructure tools (Terraform, Kubernetes, Docker, Bazel) but no article addressed Nix despite MCP-NixOS providing 130K+ package coverage, two active language servers, and Codex CLI itself shipping with an official flake.nix
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #202)
 
 ### Codex CLI Session Patterns Decision Framework
