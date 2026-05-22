@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #197)
+
+### Codex CLI Deployment Verification Patterns
+
+1. ✅ **Codex CLI Deployment Verification Patterns: exec Pipelines for Smoke Tests, API Validation, and Infrastructure Drift Detection** — Written 2026-05-22 → `2026-05-22-codex-cli-deployment-verification-exec-pipelines-smoke-tests-api-validation-drift-detection.md`
+   - Source: OpenAI Non-interactive Mode docs, OpenAI CLI Reference docs, OpenAI GitHub Action docs, OpenAI Models docs, OpenAI Best Practices docs, Steve Kinney structured CLI output guide, Brainboard drift detection best practices, Pulumi Day 2 Operations guide, GitHub Issue #14343 (exec resume --output-schema)
+   - Scope: Four deployment verification patterns (API contract smoke test, multi-endpoint regression sweep, infrastructure drift detection, resume-based progressive verification), --output-schema for structured JSON verdicts, codex exec with read-only sandbox, exec resume for stateful multi-stage verification, GitHub Actions integration with openai/codex-action@v1, cost-optimised GPT-5.4-mini configuration with reasoning_effort=low, drift detection comparing Terraform state vs live AWS resources, endpoint manifest pattern for scalable testing, limitations (non-determinism, rate limits, schema validation caveats)
+   - SEO targets: "codex cli deployment verification", "codex exec smoke test", "codex cli post-deployment", "codex exec output-schema pipeline", "codex cli infrastructure drift detection", "codex cli API validation", "codex exec resume verification"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — while existing articles cover CI/CD autofix, self-healing pipelines, and exec Unix pipelines, no article addressed the post-deployment verification gap: using codex exec pipelines with --output-schema to produce structured pass/fail/warning verdicts for API contract validation, infrastructure drift detection, and progressive rollout verification
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #196)
 
 ### Codex CLI v0.133 Extension Lifecycle Events
