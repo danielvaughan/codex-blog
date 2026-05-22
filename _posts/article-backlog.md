@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #199)
+
+### Codex CLI for Embedded and Firmware Development
+
+1. ✅ **Codex CLI for Embedded and Firmware Development: PlatformIO MCP, Zephyr Workflows, and AGENTS.md for Hardware Teams** — Written 2026-05-22 → `2026-05-22-codex-cli-embedded-firmware-development-platformio-zephyr-mcp-agents-md-workflows.md`
+   - Source: PlatformIO MCP Server v2 GitHub (jl-codes), Zephyr MCP Server (hakehuang), OpenAI Codex CLI Features docs, OpenAI Codex Sandbox docs, OpenAI AGENTS.md docs, OpenAI Non-interactive Mode docs, Codex CLI v0.133.0 release notes, MCP Market embedded systems skill, ReversetoBuild embedded firmware article
+   - Scope: PlatformIO MCP server v2.2.1 with 11 tools (list_boards, build_project, upload_firmware, start_monitor, etc.), Zephyr MCP server for west build/flash workflows, AGENTS.md patterns for firmware projects (hardware constraints, memory budgets, coding conventions, subdirectory driver rules), sandbox configuration for hardware access (network_access for library downloads, MCP-mediated device flashing), four practical patterns (board bring-up, FreeRTOS task audit, register documentation, cross-target CI verification with codex exec), model selection guide for firmware tasks (GPT-5.5 for drivers, GPT-5.4-mini for builds), limitations (training data gaps for niche MCUs, no hardware-in-the-loop, no timing verification)
+   - SEO targets: "codex cli embedded development", "codex cli firmware", "codex cli platformio mcp", "codex cli esp32 stm32", "codex cli zephyr rtos", "codex cli microcontroller", "codex cli freertos"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered every major application-level language ecosystem but no article addressed embedded/firmware development despite PlatformIO MCP server v2 shipping with direct Codex CLI support, Zephyr MCP servers existing, and firmware teams representing a significant underserved audience
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #198)
 
 ### Codex CLI for Zig Development Teams
