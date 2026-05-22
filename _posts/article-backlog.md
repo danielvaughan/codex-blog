@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #196)
+
+### Codex CLI v0.133 Extension Lifecycle Events
+
+1. ✅ **Codex CLI v0.133 Extension Lifecycle Events: Building Observability Plugins with SubagentStart, ToolExecution, and TurnMetadata** — Written 2026-05-22 → `2026-05-22-codex-cli-v0133-extension-lifecycle-events-observability-plugins-subagent-tool-turn-metadata.md`
+   - Source: OpenAI Codex Hooks docs, OpenAI Codex Changelog, GitHub openai/codex releases (rust-v0.133.0), OpenAI Build plugins docs, OpenAI Admin Setup docs
+   - Scope: Five new v0.133 observation events (SubagentStart, SubagentStop, ToolExecution, TurnMetadata, AsyncApproval), architectural distinction between interception hooks (6 original events) and observation events (5 new events), complete eleven-event model, event payload schemas with JSON examples, observation vs interception comparison table, building a minimal observability plugin (manifest with lifecycle_events capability, hook configuration, JSONL handler script), enterprise patterns (SIEM integration, cost alerting from TurnMetadata, compliance audit trail from AsyncApproval), plugin installation and activation, limitations and beta caveats
+   - SEO targets: "codex cli extension lifecycle events", "codex v0.133 SubagentStart", "codex ToolExecution event", "codex TurnMetadata plugin", "codex observability plugin", "codex cli agent lifecycle hooks", "codex AsyncApproval event"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.133.0 shipped five new extension lifecycle events but existing articles only covered them at bullet-point level in the release guide; no article explained the observation vs interception architecture or provided a plugin-building walkthrough
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #195)
 
 ### Codex Computer Use and Locked Mac Remote Desktop
