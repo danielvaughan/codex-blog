@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #200)
+
+### Codex CLI for Database Schema Migrations
+
+1. ✅ **Codex CLI for Database Schema Migrations: Safe Evolution Patterns with Prisma, Drizzle, and MCP** — Written 2026-05-22 → `2026-05-22-codex-cli-database-schema-migrations-prisma-drizzle-mcp-safe-evolution-patterns.md`
+   - Source: Greycloak Postgres MCP guide, Prisma MCP Server docs, Drizzle MCP GitHub, ChatForest database migration MCP review, OpenAI AGENTS.md docs, OpenAI Codex CLI Features docs, OpenAI Codex Permissions docs, Codex CLI v0.133.0 release notes, Composio Prisma MCP integration, Google MCP Toolbox for Databases
+   - Scope: Database MCP server landscape (Postgres/MySQL direct servers, Prisma MCP with migrate-status/migrate-dev/migrate-reset, Drizzle MCP with schema introspection, boringSQL/dryrun for offline safety analysis), AGENTS.md migration convention encoding (safety rules, naming conventions, review requirements), six practical patterns (schema-first migration generation, exec pipeline migration review, cross-referencing schema and application code with subagents, sandbox permission profiles for migration safety, production migration validation with exec resume multi-stage pipelines, drift detection between schema and code), v0.133 permission profile inheritance for migration-specific boundaries, model selection routing (GPT-5.5 for complex migrations, GPT-5.4-mini for review/analysis), GitHub Actions CI integration, security considerations (archived server vulnerabilities, credential hygiene)
+   - SEO targets: "codex cli database migration", "codex cli prisma migration", "codex cli drizzle schema", "codex cli postgres mcp migration", "codex cli schema evolution", "codex cli database mcp", "codex cli safe migration patterns"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article addressed database schema migration workflows despite Prisma MCP (built into CLI v6.6.0+), Drizzle MCP, multiple Postgres MCP servers, and boringSQL/dryrun all being available as MCP tools, and database migrations representing one of the highest-consequence development workflows where agent safety guardrails matter most
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #199)
 
 ### Codex CLI for Embedded and Firmware Development
