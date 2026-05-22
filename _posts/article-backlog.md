@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #206)
+
+### Codex CLI for Clojure Development Teams
+
+1. ✅ **Codex CLI for Clojure Development Teams: ClojureMCP, REPL-Driven Agent Workflows, and Structural Editing** — Written 2026-05-23 → `2026-05-23-codex-cli-clojure-development-teams-clojuremcp-repl-driven-agent-workflows.md`
+   - Source: ClojureMCP GitHub (bhauman), clojure-mcp-light GitHub (bhauman), clj-kondo-MCP GitHub (Bigsy), clojure-lsp releases, LSP-MCP Open VSX, OpenAI Non-interactive Mode docs, OpenAI Models docs, OpenAI Slash Commands docs
+   - Scope: Three MCP integration points (ClojureMCP with REPL eval/structural editing/delimiter repair via parinfer+cljfmt+clj-rewrite, clojure-mcp-light with standalone CLI tools for paren repair and nREPL eval, clj-kondo MCP with static linting), clojure-lsp v2026.05.05 bridged via LSP-MCP (cyclic-dependencies linter, rename, find-references), AGENTS.md template for Clojure projects (REPL-first development, pure functions, destructuring, namespaced keywords, threading macros, zero-warnings policy), four practical patterns (REPL-driven bug fix, ClojureScript cross-compilation with shadow-cljs dual REPLs, namespace refactoring with clojure-lsp, batch linting with codex exec), composing three MCP servers, model selection for Clojure tasks (GPT-5.5 for macros, GPT-5.4-mini for data pipelines), sandbox config for nREPL/Clojars network access, limitations (training data lag, no persistent REPL state, macro debugging, spec inference token budgets, ClojureMCP agent tool costs)
+   - SEO targets: "codex cli clojure", "codex cli clojure development", "clojure mcp server codex", "codex cli repl driven development", "codex cli clojurescript", "codex cli functional programming clojure", "codex cli clj-kondo"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Haskell, Elixir, Scala, and every major imperative language but no article addressed Clojure despite ClojureMCP providing comprehensive REPL-driven agent tooling with structural editing, clojure-mcp-light solving the Paren Edit Death Loop, clj-kondo-MCP enabling static analysis, and Clojure's REPL-first workflow being uniquely suited to interactive agent collaboration
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #205)
 
 ### Codex CLI for R and Statistical Computing
