@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #198)
+
+### Codex CLI for Zig Development Teams
+
+1. ✅ **Codex CLI for Zig Development Teams: ZLS MCP Integration, Cross-Compilation Workflows, and Build System Automation** — Written 2026-05-22 → `2026-05-22-codex-cli-zig-development-teams-zls-mcp-cross-compilation-build-system.md`
+   - Source: Zig 0.16.0 Release Notes, zig-mcp MCP server (nzrsky), mcp-server-zig (sadopc), Zig 0.14.0 Release Notes (build.zig.zon), OpenAI Codex GitHub Action docs, Codex CLI v0.133.0 release notes, Zig Programming Language official docs
+   - Scope: Two MCP server options for ZLS integration (zig-mcp with 16 tools vs mcp-server-zig with 8 tools), AGENTS.md configuration for Zig projects (build commands, allocation constraints, conventions), cross-compilation workflows with codex exec for multi-target verification, build.zig automation and dependency management via build.zig.zon, Zig-specific prompting patterns (comptime code generation, error handling, memory management), permission profile configuration for Zig dev, limitations (model training data lag for Zig 0.16, ZLS version matching, comptime debugging)
+   - SEO targets: "codex cli zig", "codex cli zig development", "zig mcp server codex", "codex cli cross compilation zig", "zig zls mcp integration", "codex cli systems programming zig"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Codex CLI for Go, Rust, Python, Ruby, Java, Kotlin, C++, Elixir, Scala, Swift, Flutter/Dart, Svelte, Vue, and Next.js, but no article addressed Zig despite its growing adoption (TIOBE #39), two active MCP servers (zig-mcp, mcp-server-zig), and Zig 0.16.0 shipping in May 2026
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #197)
 
 ### Codex CLI Deployment Verification Patterns
