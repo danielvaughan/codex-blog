@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #195)
+
+### Codex Computer Use and Locked Mac Remote Desktop
+
+1. ✅ **Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent** — Written 2026-05-22 → `2026-05-22-codex-computer-use-locked-mac-remote-desktop-agent-cua-mobile-safeguards.md`
+   - Source: OpenAI Computer Use docs, OpenAI Use Cases docs, OpenAI Changelog v26.519, TestingCatalog coverage, Knightli enterprise access tokens coverage, MacRumors mobile launch coverage
+   - Scope: CUA setup and capabilities (click/type/scroll/clipboard/screenshots), locked Mac computer use (May 21 feature — temporary unlock with display coverage, time-limited auth, automatic relock), three core safeguards, Codex Mobile + remote CUA workflow, always-allow list configuration, limitations (no terminal automation, no admin auth, no EEA), practical patterns (bug reproduction, cross-app data collection, iOS simulator testing on locked Mac, Figma design-to-code), security best practices, relationship to CLI (Appshots bridge, codex remote-control, subagent orchestration), enterprise implications (headless Mac Mini farms, on-call GUI workflows, MDM policy updates)
+   - SEO targets: "codex computer use locked mac", "codex CUA remote desktop", "codex gui agent macos", "codex mobile computer use", "codex locked screen agent", "codex desktop automation safeguards"
+   - Note: Locked computer use shipped 21 May 2026 in changelog v26.519; existing articles covered Appshots and mobile remote control separately but no article unified the full CUA feature set with the new locked Mac capability, its three safeguards, and the enterprise headless Mac Mini farm pattern
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #194)
 
 ### Codex CLI Permission Profile Inheritance
