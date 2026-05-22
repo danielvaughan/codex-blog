@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #205)
+
+### Codex CLI for R and Statistical Computing
+
+1. ✅ **Codex CLI for R and Statistical Computing: mcptools, ClaudeR, and Reproducible Research Workflows** — Written 2026-05-22 → `2026-05-22-codex-cli-r-statistical-computing-mcptools-clauder-reproducible-research-workflows.md`
+   - Source: Posit mcptools CRAN package, ClaudeR GitHub (IMNMV), OpenAI AGENTS.md docs, renv documentation, OpenAI Non-interactive Mode docs, OpenAI Models docs
+   - Scope: Two R MCP servers (Posit mcptools with server/client bidirectional integration, ClaudeR with RStudio bridge and statistical protocols), AGENTS.md templates for R projects (renv discipline, testthat conventions, tidyverse style, roxygen2 documentation, data discipline), renv integration for reproducible dependency management, Quarto/R Markdown document workflows, four practical patterns (EDA via live session, statistical model development, automated package development with codex exec, manuscript verification with Reviewer Zero), model selection for R tasks, composing both MCP servers, sandbox configuration for CRAN network access, limitations (training data lag for latest CRAN packages, plot inspection context limits, no persistent REPL, renv cold starts, Seatbelt sandbox conflicts)
+   - SEO targets: "codex cli r language", "codex cli statistical computing", "codex cli rstudio mcp", "codex cli mcptools", "codex cli r data science", "codex cli reproducible research", "codex cli clauder"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Python data science (Pandas/Polars, Jupyter), but no article addressed R despite Posit shipping an official mcptools CRAN package for MCP integration, ClaudeR providing RStudio-to-Codex CLI bridging with statistical protocols, and R remaining the dominant language in biostatistics and quantitative social science
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #204)
 
 ### Codex CLI for Haskell Development Teams
