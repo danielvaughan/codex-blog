@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #204)
+
+### Codex CLI for Haskell Development Teams
+
+1. ✅ **Codex CLI for Haskell Development Teams: HLS via LSP-MCP, Type-Driven Agent Workflows, and AGENTS.md for Functional Codebases** — Written 2026-05-22 → `2026-05-22-codex-cli-haskell-development-hls-mcp-type-driven-agent-workflows.md`
+   - Source: LSP-MCP Server (Tritlo), codex-lsp plugin (code-yeongyu), Hackage mcp package v0.3.1.0, HLS 2.14.0.0 release blog, GHC LTS release schedule, OpenAI Codex Models docs, OpenAI Advanced Configuration docs
+   - Scope: Three MCP integration points (LSP-MCP bridge with typed-hole extension, codex-lsp plugin with post-tool-use lifecycle hooks, Hackage mcp library for custom servers), HLS 2.14.0.0 with GHC 9.14.1 LTS support, AGENTS.md patterns for Haskell projects (type signatures, qualified imports, partial function avoidance, Haddock conventions, typed holes), type-driven agent workflow with compiler-as-oracle pattern, ADT refactoring pattern using exhaustive pattern match diagnostics, model selection for Haskell tasks, permission profiles for Cabal builds, limitations (training data lag for GHC 9.14, Template Haskell sandbox conflicts, no GHCi REPL integration)
+   - SEO targets: "codex cli haskell", "codex cli haskell development", "haskell mcp server codex", "codex cli hls integration", "codex cli functional programming", "haskell type-driven agent", "codex cli ghc"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Elixir, Scala, and every major imperative language but no article addressed Haskell despite HLS 2.14.0.0 shipping with GHC 9.14 LTS support, LSP-MCP providing Haskell-specific typed-hole extensions, and the Haskell mcp library enabling native MCP server development
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #203)
 
 ### Codex CLI for Nix Development
