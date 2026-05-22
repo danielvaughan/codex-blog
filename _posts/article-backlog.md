@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #201)
+
+### Codex Doctor Diagnostic Command
+
+1. ✅ **Codex Doctor: The Diagnostic Command Every CLI User Should Know** — Written 2026-05-22 → `2026-05-22-codex-doctor-diagnostic-command-troubleshooting-runtime-auth-network-mcp.md`
+   - Source: Codex CLI v0.131.0 Changelog, GitHub PR #22336 (codex doctor implementation), SmartScope diagnostic logs guide, GitHub Issue #13838 (401 errors), OpenAI Developer Community MCP timeout thread, SmartScope network restrictions guide, AgentPatch MCP setup guide
+   - Scope: codex doctor command flags (--summary, --json, --all, --no-color), five diagnostic categories (environment, configuration, authentication, connectivity, background server), provider-aware auth checks, WebSocket diagnostics, MCP server health verification, Notes section for promoted anomalies, feedback/Sentry integration, four practical patterns (MCP timeout diagnosis, CI health gate, post-upgrade verification, log-level triage), common failure signatures table, limitations (point-in-time snapshot, beta JSON schema, macOS Seatbelt discrepancy)
+   - SEO targets: "codex doctor", "codex cli diagnostics", "codex cli troubleshooting", "codex doctor json", "codex mcp troubleshooting", "codex cli 401 fix", "codex doctor diagnostic command"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — codex doctor shipped in v0.131.0 and is mentioned in passing in several articles but no dedicated article explained the full diagnostic taxonomy, output modes, feedback integration, or practical troubleshooting patterns
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #200)
 
 ### Codex CLI for Database Schema Migrations
