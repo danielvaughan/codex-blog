@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #213)
+
+### Codex CLI for Deno Development
+
+1. ✅ **Codex CLI for Deno Development: Deploy MCP, Deno KV, and TypeScript-First Agent Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-deno-development-deploy-mcp-kv-typescript-first-agent-workflows.md`
+   - Source: Deno 2.8.0 GitHub releases, thisisjofrank/deno-deploy-mcp GitHub, littledivy/mcp-deno-kv GitHub, phughesmcr/deno-mcp-template GitHub/JSR, OpenAI Codex CLI docs, OpenAI Codex changelog, Fresh 2.x docs
+   - Scope: Three MCP servers (deno-deploy-mcp with scaffolding/deployment/database provisioning/rollback/audit tools, mcp-deno-kv with persistent KV storage for agent state, deno-mcp-template with STDIO+HTTP transports/rate limiting/KV state/sandboxed execution for custom servers), AGENTS.md template for Deno 2.8 projects (deno.json-only config, JSR-first imports, minimal permissions, Deno.test with @std/assert, deno fmt/lint enforcement), four workflow patterns (Fresh app scaffolding with Deploy MCP, permission audit and hardening, batch Node.js-to-Deno migration with codex exec, KV-backed agent memory across sessions), model selection for Deno tasks, sandbox configuration complementing Deno permissions, composing three MCP servers, limitations (training data lag for Deno 2.8, --unstable-kv flag, Deploy MCP local-only, JSR package hallucination, Fresh 2.x vs 1.x confusion, permission flag verbosity)
+   - SEO targets: "codex cli deno", "codex cli deno development", "deno deploy mcp server codex", "codex cli deno kv", "codex cli typescript agent", "codex cli deno fresh", "codex cli deno mcp"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Node.js, Bun, and every major runtime/language but no article addressed Deno despite deno-deploy-mcp providing full-lifecycle deployment control, mcp-deno-kv enabling zero-infrastructure agent persistence, Deno 2.8.0 shipping with TypeScript 6.0.3 and five new subcommands, and Deno's granular permissions model being uniquely complementary to Codex CLI's sandbox
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #212)
 
 ### Codex CLI for Julia and Scientific Computing
