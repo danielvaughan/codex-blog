@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #211)
+
+### Codex CLI for Solidity and Smart Contract Development
+
+1. ✅ **Codex CLI for Solidity and Smart Contract Development: Foundry MCP, Security Auditing, and Agent-Driven Contract Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-solidity-smart-contract-development-foundry-mcp-security-audit-workflows.md`
+   - Source: Foundry GitHub, Solidity v0.8.35 release announcement, PraneshASP/foundry-mcp-server GitHub, Solidity Audit MCP, Slither by Trail of Bits, Aderyn by Cyfrin, Solodit MCP, ethskills by Austin Griffith, OpenAI Models docs, DEV Community AI smart contract audit deep-dive
+   - Scope: Foundry v1.7.0 toolchain (forge/cast/anvil/chisel), Solidity 0.8.35 features, Foundry MCP server configuration (network management, contract operations, Heimdall bytecode analysis, workspace), Solidity Audit MCP (Slither/Aderyn/Foundry integration, deduplicated findings), Solodit MCP for historical audit research, ethskills fetchable knowledge base (23 modules), AGENTS.md template for Foundry projects (safety rules, CEI pattern, no floating pragmas, testing requirements), five workflow patterns (compilation loop, security audit pipeline, fuzz test generation, fork testing, pre-deployment checklist), model selection for Solidity tasks, sandbox configuration, limitations (training data lag, economic reasoning gaps, deployment gating, L2 differences, OpenZeppelin version confusion)
+   - SEO targets: "codex cli solidity", "codex cli smart contracts", "foundry mcp server codex", "codex cli ethereum", "codex cli solidity audit", "codex cli web3 development", "codex cli foundry"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered every major language ecosystem and infrastructure tool but no article addressed Solidity/smart contract development despite Foundry MCP server, Solidity Audit MCP, Aderyn MCP, Solodit MCP, and ethskills all being available, and smart contracts representing one of the highest-consequence development workflows where agent safety guardrails matter most
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #210)
 
 ### Codex CLI for Pulumi Infrastructure-as-Code
