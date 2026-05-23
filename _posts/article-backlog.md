@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #214)
+
+### Codex CLI for DuckDB and MotherDuck Analytical SQL
+
+1. ✅ **Codex CLI for DuckDB and MotherDuck: MCP-Driven Analytical SQL, Agent Skills, and Data Pipeline Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-duckdb-motherduck-analytical-sql-mcp-agent-data-workflows.md`
+   - Source: DuckDB official docs, MotherDuck official docs, mcp-server-motherduck GitHub (v1.0.6), MotherDuck Agent Skills docs, DuckLake v1.0 announcement, Codex CLI MCP docs, Codex CLI changelog
+   - Scope: mcp-server-motherduck configuration (local/S3/MotherDuck/in-memory, five tools, read-write access, ephemeral connections, SaaS mode), MotherDuck Agent Skills catalogue (utility/workflow/use-case layers, Codex plugin install), AGENTS.md template for DuckDB projects (DuckDB SQL dialect, QUALIFY/EXCLUDE/COLUMNS, struct types, DuckLake), five workflow patterns (EDA pipeline with SUMMARIZE, cross-source joins with database switching, DuckLake time-travel audit, batch analytics with codex exec, MotherDuck Dives visualisations), model selection for analytical tasks, sandbox configuration for file-based databases, security considerations (read-only insufficiency, SaaS mode, read-scaling tokens), composing with GitHub and filesystem MCP servers, limitations (training data lag for v1.5.x, token budget on large results, file-path sandboxing, no streaming, token management, ephemeral connections)
+   - SEO targets: "codex cli duckdb", "codex cli motherduck", "duckdb mcp server codex", "codex cli analytical sql", "codex cli data engineering", "codex cli duckdb mcp", "codex cli ducklake"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Supabase, PostgreSQL, database migrations, and data engineering tools but no article addressed DuckDB/MotherDuck despite mcp-server-motherduck (v1.0.6) providing five SQL tools with runtime database switching across local/S3/cloud sources, MotherDuck Agent Skills enabling DuckDB-aware analytics workflows, DuckLake v1.0 reaching production-readiness in April 2026, MotherDuck Dives enabling agent-generated visualisations, and DuckDB occupying a unique position as the default in-process analytical engine for local data work
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #213)
 
 ### Codex CLI for Deno Development
