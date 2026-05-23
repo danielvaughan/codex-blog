@@ -1,5 +1,31 @@
 # Article Backlog
 
+## Gap Analysis — Article Rater Run (2026-05-23)
+
+Based on reviewing 891 articles across the library, the following gaps were identified:
+
+### Missing Topics (High Priority)
+
+1. **Codex CLI for Elixir/Phoenix Development** — Gleam and Erlang/BEAM are covered but no article addresses Elixir directly despite being the most popular BEAM language with mature MCP tooling (ElixirLS, Credo)
+2. **Codex CLI for Kotlin/Android Development** — Java/Spring Boot has extensive Gravel Path coverage but no dedicated Kotlin/Android article despite Kotlin being the default Android language and JetBrains' AI integrations
+3. **Codex CLI for Swift/SwiftUI Development** — iOS/Xcode is briefly covered in the mobile article but no dedicated Swift article covers SourceKit-LSP via MCP, SwiftUI previews, or Swift Package Manager workflows
+4. **Agent Observability Dashboard Patterns** — OpenTelemetry hooks are referenced across multiple articles but no single article shows how to build a practical monitoring dashboard for multi-agent workflows
+5. **Codex CLI and Monorepo Tooling (Turborepo/Nx/Bazel)** — Monorepo patterns exist in the AGENTS.md article but no dedicated guide covers build-system-aware agent configuration for large monorepos
+
+### Missing Topics (Medium Priority)
+
+6. **The Human Review Bottleneck: Practical Code Review Strategies for Agent Output** — Assembly Line identifies validation as the bottleneck but no article provides practical review techniques, checklists, or tooling for efficiently reviewing high-volume agent PRs
+7. **Codex CLI for C/C++ Development** — No article covers CMake-aware MCP servers, clangd integration, or AGENTS.md patterns for systems programming
+8. **Migrating from LangChain/LangGraph to Native Agent SDKs** — The Agent SDK Landscape compares frameworks but no migration guide exists for teams already invested in LangChain
+9. **Codex CLI for GraphQL Development** — No article covers GraphQL schema management, Apollo/Relay MCP servers, or type-safe resolver generation
+
+### Underdeveloped Themes
+
+10. **Premium article on cognitive load measurement** — Article 16 (Cognitive Load Paradox) identifies the problem well but scored only 4.0; a follow-up with concrete measurement frameworks (DX Core 4, SPACE) and intervention data would strengthen the series
+11. **Karpathy Says What We've Been Building (Article 22)** — Re-rated from 2.9 to 3.5 but still the weakest premium article; could benefit from expansion with more sourcing on the OpenClaw data and the GitHub engineer's resignation
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #215)
 
 ### Codex CLI for SQLite Development
