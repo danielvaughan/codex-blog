@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #215)
+
+### Codex CLI for SQLite Development
+
+1. ✅ **Codex CLI for SQLite Development: MCP Servers, Turso/libSQL, and Local-to-Edge Database Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-sqlite-development-mcp-servers-turso-libsql-local-edge-workflows.md`
+   - Source: SQLite official site, sqlite-explorer-fastmcp-mcp-server GitHub (hannesrudolph), mcp-sqlite GitHub (jparkerweb), mcp-turso GitHub (nbbaier), Turso official docs, Codex CLI MCP docs, SQLite 3.53.0 release notes, codex-agent-mem GitHub, sqlitecloud-mcp-server GitHub, OpenAI Models docs
+   - Scope: Three MCP server options (sqlite-explorer read-only with FastMCP/query validation/row limits, mcp-sqlite full CRUD with 8 tools/parameterised queries, mcp-turso cloud with Turso edge databases/35+ regions), Codex CLI config.toml configuration for all three servers, composing multiple servers, AGENTS.md template for SQLite 3.53+ projects (STRICT mode, WAL, RETURNING clauses, libSQL/Turso conventions), four workflow patterns (schema archaeology with read-only explorer, migration generation and validation, Turso edge database audit, batch analysis with codex exec), model selection for SQLite tasks (o3 for schema design/query optimisation, o4-mini for CRUD/test data), sandbox configuration for WAL/SHM files, SQLite 3.53 features (ALTER TABLE constraints, self-healing indexes, REINDEX EXPRESSIONS), composing with filesystem/GitHub/codex-agent-mem MCP servers, limitations (single-writer constraint, WAL file access, Turso MCP read-only, training data lag for 3.53, concurrent agent sessions, no streaming results)
+   - SEO targets: "codex cli sqlite", "codex cli sqlite mcp", "sqlite mcp server codex", "codex cli turso", "codex cli libsql", "codex cli sqlite development", "codex cli edge database"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered PostgreSQL, Supabase, DuckDB/MotherDuck, database migrations, and data engineering tools but no article addressed SQLite despite three mature MCP servers (sqlite-explorer, mcp-sqlite, mcp-turso), SQLite being the most deployed database engine in existence, SQLite 3.53 shipping in April 2026 with ALTER TABLE constraint management and self-healing indexes, Turso/libSQL providing edge-distributed SQLite with embedded replicas, and SQLite's file-based nature creating unique sandbox and concurrency considerations for agent workflows
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #214)
 
 ### Codex CLI for DuckDB and MotherDuck Analytical SQL
