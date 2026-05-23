@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #212)
+
+### Codex CLI for Julia and Scientific Computing
+
+1. ✅ **Codex CLI for Julia and Scientific Computing: julia-mcp, JETLS, and Persistent Session Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-julia-scientific-computing-mcp-jetls-persistent-sessions.md`
+   - Source: aplavin/julia-mcp GitHub, aviatesk/JETLS.jl GitHub, JuliaSMLM/ModelContextProtocol.jl GitHub, JuliaDoc MCP Server, CesarPetrescu/lsp-mcp GitHub, Julia v1.12 release notes, OpenAI Models docs, OpenAI Codex MCP docs
+   - Scope: Three MCP servers (julia-mcp with persistent sessions/Revise.jl/session isolation/three tools, JuliaDoc MCP with docs+source lookup, LSP-MCP bridge for JETLS diagnostics), JETLS compiler-powered language server (JET.jl/JuliaSyntax.jl/JuliaLowering.jl, type-sensitive diagnostics, macro-aware navigation, Julia 1.12.2 requirement), ModelContextProtocol.jl for custom MCP servers in Julia, AGENTS.md template for Julia projects (multiple dispatch, BlueStyle, type stability, BenchmarkTools, Documenter.jl), four workflow patterns (iterative numerical development with persistent sessions, package development with JETLS diagnostics, data pipeline exploration with JuliaDoc, batch processing with codex exec), model selection for Julia tasks, sandbox configuration for Julia depot/Pkg, composing three MCP servers, limitations (training data lag for Julia 1.12, JETLS instability, no REPL integration, macro expansion opacity, precompilation cost, Seatbelt sandbox conflicts)
+   - SEO targets: "codex cli julia", "codex cli scientific computing", "julia mcp server codex", "codex cli julia development", "codex cli jetls", "codex cli julia persistent sessions", "codex cli numerical computing"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered R, Python/Jupyter, Haskell, OCaml, and every major language but no article addressed Julia despite julia-mcp solving Julia's compilation latency for agentic workflows with persistent sessions, JETLS providing compiler-powered diagnostics via JET.jl, ModelContextProtocol.jl enabling native MCP servers in Julia, and Julia occupying a unique niche in scientific computing where the two-language problem makes agent-assisted development particularly valuable
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #211)
 
 ### Codex CLI for Solidity and Smart Contract Development
