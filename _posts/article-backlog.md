@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #210)
+
+### Codex CLI for Pulumi Infrastructure-as-Code
+
+1. ✅ **Codex CLI for Pulumi Infrastructure-as-Code: MCP Server, Neo Delegation, and Agent-Native Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-pulumi-infrastructure-as-code-mcp-neo-agent-native-workflows.md`
+   - Source: Pulumi Blog "The Agentic Infrastructure Era", Pulumi MCP Server docs, Pulumi Blog "Neo Gets Smarter", Pulumi Agent Skills docs, OpenAI Models docs, OpenAI MCP docs
+   - Scope: Pulumi MCP server configuration (HTTP transport, OAuth, four tool categories: Cloud/Neo/Registry/Deployment), Neo CLI agent with three operating modes (Review/Balanced/Auto), pulumi do imperative CRUD command, 10 agent skills (6 authoring + 4 migration), AGENTS.md template for Pulumi TypeScript projects (ComponentResource patterns, secret handling, tagging), four workflow patterns (resource audit via MCP, Terraform migration pipeline, policy violation remediation loop, ephemeral environment scaffolding), ephemeral agent accounts, model selection for infrastructure tasks, sandbox configuration, composing MCP servers, limitations (OAuth browser requirement, async Neo delegation, pulumi do state separation, remote MCP latency, npx dependency, training data lag)
+   - SEO targets: "codex cli pulumi", "codex cli infrastructure as code", "pulumi mcp server codex", "codex cli pulumi neo", "codex cli iac", "codex cli devops pulumi", "pulumi agent skills codex"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Terraform, Kubernetes, Docker, Bazel, Nix, and AWS CDK but no article addressed Pulumi despite its hosted MCP server with resource search and Neo delegation, the May 2026 "Agentic Infrastructure Era" launch with pulumi do and ephemeral agent accounts, 10 agent skills for migration and authoring, and Pulumi's use of real programming languages making it uniquely suited to LLM-driven infrastructure workflows
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #209)
 
 ### Codex CLI for OCaml Development
