@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #208)
+
+### Codex CLI for Gleam Development
+
+1. ✅ **Codex CLI for Gleam Development: Type-Safe BEAM Agents, LSP-MCP Bridge, and Dual-Target Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-gleam-development-beam-type-safe-lsp-mcp-dual-target-workflows.md`
+   - Source: Gleam official website, Gleam v1.16.0 GitHub releases, Gleam Language Server docs, LSP-MCP Bridge (CesarPetrescu), OpenAI Models docs, Hex.pm Gleam usage docs, Gleam CLI reference, Codebase Memory MCP GitHub, Programming Helper Tech Gleam 2026 overview
+   - Scope: Training data gap analysis and mitigation strategies, LSP-MCP bridge configuration for Gleam language server (diagnostics, hover, code actions, formatting), comprehensive AGENTS.md template for Gleam idioms (no if/else, no atoms, Result types, exhaustive pattern matching, dual-target awareness, verified Hex packages), four practical patterns (type-driven feature development, dual-target library development, OTP actor migration from Elixir, Hex package scaffolding), sandbox configuration for Hex network access, model selection for Gleam tasks (GPT-5.5 for type design/migration, GPT-5.4-mini for implementation), composing MCP servers, limitations (training data lag, no REPL integration, Hex package hallucination, JavaScript target gaps, no Gleam-specific MCP server)
+   - SEO targets: "codex cli gleam", "codex cli gleam development", "gleam mcp server codex", "codex cli beam vm", "codex cli type-safe functional programming", "codex cli gleam lsp", "codex cli gleam dual target"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Elixir, Haskell, Clojure, Scala, and every major imperative language but no article addressed Gleam despite its 21,400+ GitHub stars, v1.16.0 release (April 2026), 70% developer admiration rating, first conference (February 2026), rich built-in LSP with 40+ code actions, and unique dual-target compilation to both BEAM and JavaScript
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #207)
 
 ### Codex CLI for Performance Profiling and Optimisation
