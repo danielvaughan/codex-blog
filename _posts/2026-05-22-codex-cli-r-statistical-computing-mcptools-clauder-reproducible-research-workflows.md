@@ -5,6 +5,9 @@ nav_order: 836
 tags: ["codex-cli", "r-language", "statistical-computing", "mcp", "data-science", "reproducible-research", "mcptools", "clauder", "rstudio"]
 ---
 
+![Sketchnote diagram for: Codex CLI for R and Statistical Computing: mcptools, ClaudeR, and Reproducible Research Workflows](/sketchnotes/articles/2026-05-22-codex-cli-r-statistical-computing-mcptools-clauder-reproducible-research-workflows.png)
+
+
 # Codex CLI for R and Statistical Computing: mcptools, ClaudeR, and Reproducible Research Workflows
 
 

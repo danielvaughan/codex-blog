@@ -5,6 +5,9 @@ nav_order: 833
 tags: ["codex-cli", "diagnostics", "troubleshooting", "codex-doctor", "devtools", "mcp", "configuration"]
 ---
 
+![Sketchnote diagram for: Codex Doctor: The Diagnostic Command Every CLI User Should Know](/sketchnotes/articles/2026-05-22-codex-doctor-diagnostic-command-troubleshooting-runtime-auth-network-mcp.png)
+
+
 # Codex Doctor: The Diagnostic Command Every CLI User Should Know
 
 

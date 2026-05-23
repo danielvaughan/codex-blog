@@ -5,6 +5,9 @@ nav_order: 834
 tags: ["codex-cli", "session-management", "threads", "worktrees", "subagents", "goals", "side-threads", "workflow", "best-practices", "v0.133"]
 ---
 
+![Sketchnote diagram for: Codex CLI Session Patterns: A Decision Framework for Threads, Worktrees, /side, Goals, and Subagents](/sketchnotes/articles/2026-05-22-codex-cli-session-patterns-threads-worktrees-side-goals-subagents-decision-framework.png)
+
+
 # Codex CLI Session Patterns: A Decision Framework for Threads, Worktrees, /side, Goals, and Subagents
 
 

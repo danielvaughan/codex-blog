@@ -5,6 +5,9 @@ nav_order: 839
 tags: ["codex-cli", "gleam", "beam", "erlang", "functional-programming", "lsp", "mcp", "type-safety", "hex", "dual-target", "javascript", "agents-md"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Gleam Development: Type-Safe BEAM Agents, LSP-MCP Bridge, and Dual-Target Workflows](/sketchnotes/articles/2026-05-23-codex-cli-gleam-development-beam-type-safe-lsp-mcp-dual-target-workflows.png)
+
+
 # Codex CLI for Gleam Development: Type-Safe BEAM Agents, LSP-MCP Bridge, and Dual-Target Workflows
 
 

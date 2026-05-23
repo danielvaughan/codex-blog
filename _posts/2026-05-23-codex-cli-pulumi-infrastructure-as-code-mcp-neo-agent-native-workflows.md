@@ -5,6 +5,9 @@ nav_order: 841
 tags: ["codex-cli", "pulumi", "infrastructure-as-code", "mcp", "neo", "agent-native", "devops", "cloud"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Pulumi Infrastructure-as-Code: MCP Server, Neo Delegation, and Agent-Native Workflows](/sketchnotes/articles/2026-05-23-codex-cli-pulumi-infrastructure-as-code-mcp-neo-agent-native-workflows.png)
+
+
 # Codex CLI for Pulumi Infrastructure-as-Code: MCP Server, Neo Delegation, and Agent-Native Workflows
 
 

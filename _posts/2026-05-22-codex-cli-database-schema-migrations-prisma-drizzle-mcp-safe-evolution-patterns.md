@@ -5,6 +5,9 @@ nav_order: 832
 tags: ["codex-cli", "database", "migrations", "prisma", "drizzle", "mcp", "schema-evolution", "postgres", "AGENTS.md", "sandbox", "v0.133"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Database Schema Migrations: Safe Evolution Patterns with Prisma, Drizzle, and MCP](/sketchnotes/articles/2026-05-22-codex-cli-database-schema-migrations-prisma-drizzle-mcp-safe-evolution-patterns.png)
+
+
 # Codex CLI for Database Schema Migrations: Safe Evolution Patterns with Prisma, Drizzle, and MCP
 
 

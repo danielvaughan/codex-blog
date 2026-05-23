@@ -5,6 +5,9 @@ nav_order: 835
 tags: ["codex-cli", "haskell", "hls", "mcp", "lsp-mcp", "type-driven-development", "functional-programming", "ghc", "cabal", "agents-md"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Haskell Development Teams: HLS via LSP-MCP, Type-Driven Agent Workflows, and AGENTS.md for Functional Codebases](/sketchnotes/articles/2026-05-22-codex-cli-haskell-development-hls-mcp-type-driven-agent-workflows.png)
+
+
 # Codex CLI for Haskell Development Teams: HLS via LSP-MCP, Type-Driven Agent Workflows, and AGENTS.md for Functional Codebases
 
 

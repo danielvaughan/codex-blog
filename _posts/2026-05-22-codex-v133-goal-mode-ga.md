@@ -1,3 +1,6 @@
+
+![Sketchnote: Codex CLI v0.133: Goal Mode Goes GA](/sketchnotes/articles/2026-05-22-codex-v133-goal-mode-ga.png)
+
 # Codex CLI v0.133: Goal Mode Goes GA
 
 *Published: 2026-05-22*

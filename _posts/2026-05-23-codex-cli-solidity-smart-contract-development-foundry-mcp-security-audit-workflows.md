@@ -5,6 +5,9 @@ nav_order: 842
 tags: ["codex-cli", "solidity", "smart-contracts", "foundry", "mcp", "security-audit", "ethereum", "web3"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Solidity and Smart Contract Development: Foundry MCP, Security Auditing, and Agent-Driven Contract Workflows](/sketchnotes/articles/2026-05-23-codex-cli-solidity-smart-contract-development-foundry-mcp-security-audit-workflows.png)
+
+
 # Codex CLI for Solidity and Smart Contract Development: Foundry MCP, Security Auditing, and Agent-Driven Contract Workflows
 
 

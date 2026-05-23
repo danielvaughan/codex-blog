@@ -5,6 +5,9 @@ nav_order: 835
 tags: ["codex-cli", "nix", "nixos", "flakes", "mcp-nixos", "reproducible-builds", "devshell", "home-manager", "nix-darwin", "agents-md", "declarative-configuration"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Nix Development: MCP-NixOS, Reproducible Environments, and Flake-Native Agent Workflows](/sketchnotes/articles/2026-05-22-codex-cli-nix-development-mcp-nixos-reproducible-environments-flake-workflows.png)
+
+
 # Codex CLI for Nix Development: MCP-NixOS, Reproducible Environments, and Flake-Native Agent Workflows
 
 

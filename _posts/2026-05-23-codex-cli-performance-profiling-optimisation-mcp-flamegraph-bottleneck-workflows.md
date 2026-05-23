@@ -5,6 +5,9 @@ nav_order: 838
 tags: ["codex-cli", "performance", "profiling", "flamegraph", "MCP", "optimisation", "pprof", "CodSpeed", "bottleneck"]
 ---
 
+![Sketchnote diagram for: Codex CLI for Performance Profiling and Optimisation: MCP-Driven Flamegraphs, Bottleneck Analysis, and Automated Fix Loops](/sketchnotes/articles/2026-05-23-codex-cli-performance-profiling-optimisation-mcp-flamegraph-bottleneck-workflows.png)
+
+
 # Codex CLI for Performance Profiling and Optimisation: MCP-Driven Flamegraphs, Bottleneck Analysis, and Automated Fix Loops
 
 
