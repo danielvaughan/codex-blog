@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #207)
+
+### Codex CLI for Performance Profiling and Optimisation
+
+1. ✅ **Codex CLI for Performance Profiling and Optimisation: MCP-Driven Flamegraphs, Bottleneck Analysis, and Automated Fix Loops** — Written 2026-05-23 → `2026-05-23-codex-cli-performance-profiling-optimisation-mcp-flamegraph-bottleneck-workflows.md`
+   - Source: Profiler-MCP GitHub (Sarthak160), pprof-analyzer-mcp GitHub (ZephyrDeng), CodSpeed MCP Server changelog, OpenAI Codex Best Practices docs, OpenAI Models docs, OpenAI AGENTS.md guide
+   - Scope: Three MCP profiling servers (Profiler-MCP with Go/Python/Java support, pprof-analyzer with 7 tools including memory leak detection and heap time-series analysis, CodSpeed with benchmark-aware flamegraph querying and run comparison), AGENTS.md patterns for performance work (measure-first discipline, small reversible changes, re-measure requirements), four practical workflows (profile-diagnose-fix loop, memory leak detection, CodSpeed optimise loop, cross-language profiling with codex exec), model selection for performance tasks (GPT-5.5 for cross-service analysis, GPT-5.4-mini for single-function work), sandbox configuration for profiling endpoints, limitations (no live process attachment, SVG rendering requires Graphviz, JFR fixed 60s window, CodSpeed requires hosted CI)
+   - SEO targets: "codex cli performance profiling", "codex cli flamegraph", "codex cli bottleneck analysis", "codex cli pprof mcp", "codex cli code optimisation", "codex cli performance mcp server", "codex cli memory leak detection"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Codex CLI token/cost performance optimisation and benchmark scores but no article addressed using Codex CLI as a performance engineering tool for application-level profiling, flamegraph analysis, memory leak detection, or automated optimise-measure loops despite three MCP profiling servers (Profiler-MCP, pprof-analyzer, CodSpeed) being available
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #206)
 
 ### Codex CLI for Clojure Development Teams
