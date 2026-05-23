@@ -16,13 +16,25 @@ Based on reviewing 891 articles across the library, the following gaps were iden
 
 6. **The Human Review Bottleneck: Practical Code Review Strategies for Agent Output** — Assembly Line identifies validation as the bottleneck but no article provides practical review techniques, checklists, or tooling for efficiently reviewing high-volume agent PRs
 7. **Codex CLI for C/C++ Development** — No article covers CMake-aware MCP servers, clangd integration, or AGENTS.md patterns for systems programming
-8. **Migrating from LangChain/LangGraph to Native Agent SDKs** — The Agent SDK Landscape compares frameworks but no migration guide exists for teams already invested in LangChain
+8. ✅ **Migrating from LangChain/LangGraph to Native Agent SDKs** — Written 2026-05-23 → `2026-05-23-migrating-langchain-langgraph-native-agent-sdks-codex-cli.md`
 9. **Codex CLI for GraphQL Development** — No article covers GraphQL schema management, Apollo/Relay MCP servers, or type-safe resolver generation
 
 ### Underdeveloped Themes
 
 10. **Premium article on cognitive load measurement** — Article 16 (Cognitive Load Paradox) identifies the problem well but scored only 4.0; a follow-up with concrete measurement frameworks (DX Core 4, SPACE) and intervention data would strengthen the series
 11. **Karpathy Says What We've Been Building (Article 22)** — Re-rated from 2.9 to 3.5 but still the weakest premium article; could benefit from expansion with more sourcing on the OpenClaw data and the GitHub engineer's resignation
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #216)
+
+### Migrating from LangChain/LangGraph to Native Agent SDKs
+
+1. ✅ **Migrating from LangChain to Native Agent SDKs: A Codex CLI Perspective** — Written 2026-05-23 → `2026-05-23-migrating-langchain-langgraph-native-agent-sdks-codex-cli.md`
+   - Source: Ravoid LangChain Exit analysis, SyncBricks LangChain Alternatives, MindStudio framework replacement analysis, OpenAI Agents SDK evolution blog, Anthropic Claude Code updates, Google ADK docs, AWS Strands Agents blog, Codex CLI changelog, CallSphere migration guide, OpenAI Codex+Agents SDK guide, LangChain/LangGraph v1.0 blog
+   - Scope: Five migration drivers (abstraction overhead, version churn, latency tax, dependency bloat, vendor SDK convergence), 2026 native SDK landscape comparison (OpenAI Agents SDK, Claude Agent SDK, Google ADK, AWS Strands, Codex CLI), concept mapping table (ChatOpenAI→Agent, @tool→@function_tool, AgentExecutor→Runner.run, memory→explicit messages, chains→handoffs), code examples for LangChain vs OpenAI Agents SDK vs Codex CLI patterns, using Codex CLI as migration tool (codebase analysis, AGENTS.md migration rules, batch exec, hooks enforcement), Codex CLI as MCP server for Agents SDK, what to keep from LangChain (document loaders, text splitters, vector stores, LangSmith), migration timelines (1-2 weeks per agent, 3-6 months for 5-10 agents), strangler fig migration strategy, when to stay on LangChain
+   - SEO targets: "langchain migration native sdk", "langchain to openai agents sdk", "codex cli langchain migration", "langchain alternatives 2026", "langgraph migration", "agent sdk migration guide"
+   - Note: Topic selected from gap analysis item #8 — existing articles covered the Agent SDK Landscape comparison but no migration guide existed for teams already invested in LangChain
 
 ---
 
