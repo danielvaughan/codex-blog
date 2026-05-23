@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #218)
+
+### Codex CLI for Elixir/Phoenix Development
+
+1. ✅ **Codex CLI for Elixir and Phoenix Development: Tidewave, ElixirLS MCP, HexDocs, and Runtime-Aware Agent Workflows** — Written 2026-05-24 → `2026-05-24-codex-cli-elixir-phoenix-development-mcp-servers-tidewave-hexdocs-workflows.md`
+   - Source: Tidewave Phoenix GitHub, ElixirLS MCP Server (Elixir Forum), HexDocs MCP v0.6.0 (HexDocs), Hermes MCP v0.14.1 (Hex.pm), Elixir v1.19 release blog, OpenAI Codex MCP docs, OpenAI Models docs
+   - Scope: Three MCP servers (Tidewave v0.5 with 8 runtime tools including execute_sql_query/get_ecto_schemas/project_eval/get_ash_resources, ElixirLS v0.29.0+ MCP with 6 compiler-powered tools including find_definition/get_type_info/find_implementations/get_module_dependencies, HexDocs MCP v0.6.0 with semantic search and version-accurate documentation), Codex CLI config.toml for all three servers, AGENTS.md template for Elixir 1.19.5/Phoenix 1.8 projects (set-theoretic types, ExUnit groups, OTP patterns, anti-hallucination rules), four workflow patterns (Phoenix context generation with runtime validation, LiveView component development with log-driven debugging, protocol implementation discovery and extension, dependency audit with version-accurate documentation), model selection for Elixir tasks, sandbox considerations for Mix/BEAM, Hermes MCP v0.14.1 for custom MCP servers in Elixir, composing three complementary MCP servers (compile-time/runtime/documentation), limitations (training data lag for 1.19, macro expansion opacity, dev-only Tidewave, HexDocs embedding overhead, port conflicts, hot code reloading staleness)
+   - SEO targets: "codex cli elixir", "codex cli phoenix", "elixir mcp server codex", "codex cli elixir development", "codex cli tidewave", "codex cli elixirls", "codex cli phoenix liveview"
+   - Note: Topic selected from gap analysis item #1 — Gleam and Erlang/BEAM were covered but no article addressed Elixir directly despite being the most popular BEAM language with three mature MCP servers (Tidewave by José Valim, ElixirLS built-in MCP, HexDocs semantic search), Elixir 1.19.5 being the current stable release with enhanced set-theoretic type checking, and Elixir's macro-heavy metaprogramming creating unique challenges where runtime introspection (Tidewave) is essential for accurate agent assistance
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #217)
 
 ### Codex CLI for Nix and NixOS Development
@@ -18,7 +30,7 @@ Based on reviewing 891 articles across the library, the following gaps were iden
 
 ### Missing Topics (High Priority)
 
-1. **Codex CLI for Elixir/Phoenix Development** — Gleam and Erlang/BEAM are covered but no article addresses Elixir directly despite being the most popular BEAM language with mature MCP tooling (ElixirLS, Credo)
+1. ✅ **Codex CLI for Elixir/Phoenix Development** — Written 2026-05-24 → `2026-05-24-codex-cli-elixir-phoenix-development-mcp-servers-tidewave-hexdocs-workflows.md`
 2. **Codex CLI for Kotlin/Android Development** — Java/Spring Boot has extensive Gravel Path coverage but no dedicated Kotlin/Android article despite Kotlin being the default Android language and JetBrains' AI integrations
 3. **Codex CLI for Swift/SwiftUI Development** — iOS/Xcode is briefly covered in the mobile article but no dedicated Swift article covers SourceKit-LSP via MCP, SwiftUI previews, or Swift Package Manager workflows
 4. **Agent Observability Dashboard Patterns** — OpenTelemetry hooks are referenced across multiple articles but no single article shows how to build a practical monitoring dashboard for multi-agent workflows
