@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #209)
+
+### Codex CLI for OCaml Development
+
+1. ✅ **Codex CLI for OCaml Development: ocaml-mcp-server, Merlin via LSP-MCP, and Type-Driven Agent Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-ocaml-development-mcp-merlin-dune-type-driven-agent-workflows.md`
+   - Source: tmattio/ocaml-mcp GitHub, Jon Ludlam ocaml-lsp-mcp blog, isaacphi/mcp-language-server GitHub, OCaml 5.4.0 release notes, Merlin 5.6/OCaml-LSP 1.24.0 announce, OpenAI AGENTS.md docs, OpenAI Models docs, OpenAI Non-interactive Mode docs, Jon Ludlam ocaml-mcp-server blog, Dune preprocessing docs
+   - Scope: Two MCP integration points (ocaml-mcp-server with Dune build/test, Merlin diagnostics, ocamlformat, expression eval; ocaml-lsp-server via LSP-MCP bridge with refactorExtract, destruct, locate_types, rangeFormatting), AGENTS.md template for OCaml projects (OCaml 5.4 targeting, .mli discipline, Result/Option types, exhaustive matching, Dune-only builds, Alcotest/PPX testing), five workflow patterns (type-driven feature development with compiler-as-oracle, exhaustive refactoring with destruct, module signature extraction, batch linting with codex exec, opam package discovery via hosted MCP), model selection for OCaml tasks (GPT-5.5 for interface design/functor architecture, GPT-5.4-mini for implementation/build errors), sandbox configuration for opam/Jane Street, limitations (training data lag for OCaml 5.4, no REPL integration, WIP tools, PPX expansion opacity, opam solver timeouts, Jane Street ecosystem divergence)
+   - SEO targets: "codex cli ocaml", "codex cli ocaml development", "ocaml mcp server codex", "codex cli merlin", "codex cli dune", "codex cli functional programming ocaml", "codex cli ocaml lsp"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Haskell, Elixir, Clojure, Gleam, Scala, and every major imperative language but no article addressed OCaml despite ocaml-mcp-server providing Dune/Merlin/ocamlformat integration, OCaml-LSP 1.24.0 shipping with custom destruct/refactorExtract requests, OCaml 5.4 releasing in February 2026 with labelled tuples and immutable arrays, and OCaml's strong type system being uniquely suited to compiler-as-oracle agent workflows
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #208)
 
 ### Codex CLI for Gleam Development
