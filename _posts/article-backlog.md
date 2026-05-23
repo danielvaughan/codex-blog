@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #217)
+
+### Codex CLI for Nix and NixOS Development
+
+1. ✅ **Codex CLI for Nix and NixOS Development: MCP-NixOS, Sandbox Isolation, and Reproducible Agent Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-nix-nixos-development-mcp-servers-flakes-reproducible-agent-workflows.md`
+   - Source: utensils/mcp-nixos GitHub, SecBear/nix-sandbox-mcp GitHub, natsukium/mcp-servers-nix GitHub, NixOS 25.11 release notes, OpenAI Codex Models docs, OpenAI Codex CLI Features docs, Repology repository statistics
+   - Scope: Three MCP servers (MCP-NixOS with 130K+ packages/23K+ options/two-tool consolidated API/multi-channel search/Home Manager/nix-darwin/Nixvim/FlakeHub/Noogle, nix-sandbox-mcp with bubblewrap namespace isolation/declarative Nix flake environments/read-only project mounts/custom mkSandbox environments/~420-token context cost, mcp-servers-nix with 27 server modules/multi-client config generation/Codex CLI+Claude Code+VS Code+Zed output/Home Manager integration/flake-parts support), AGENTS.md template for Nix projects (flake-first conventions, nixfmt enforcement, callPackage pattern, lib.mkOption types, anti-hallucination rules, hash prefetch warnings), four workflow patterns (NixOS module development with verified options, flake dependency audit with nix_versions, cross-platform Home Manager/nix-darwin config, sandboxed Nix expression evaluation), model selection for Nix tasks, sandbox interaction considerations (Nix store access, flake.lock writes, complementary isolation layers), composing three MCP servers, limitations (training data lag for nixpkgs, lazy evaluation complexity, Linux-only sandbox, hash prefetching, module evaluation cost, framework maturity)
+   - SEO targets: "codex cli nix", "codex cli nixos", "nixos mcp server codex", "codex cli nix development", "codex cli flakes", "codex cli nix sandbox", "codex cli reproducible builds"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered every major language and package manager but no article addressed Nix/NixOS despite MCP-NixOS providing verified access to 130K+ packages and 23K+ options (eliminating hallucination of option paths), nix-sandbox-mcp offering declarative bubblewrap-based execution sandboxes as a Docker alternative, mcp-servers-nix enabling declarative MCP server configuration through Nix flakes, NixOS 25.11 being the current stable release, and Nix's purely functional package management creating unique challenges and opportunities for agent-assisted development
+
+---
+
 ## Gap Analysis — Article Rater Run (2026-05-23)
 
 Based on reviewing 891 articles across the library, the following gaps were identified:
