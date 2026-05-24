@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #220)
+
+### Codex CLI for Swift/SwiftUI Development
+
+1. ✅ **Codex CLI for Swift and SwiftUI Development: Xcode MCP Servers, Agent Skills, and Build-Test-Debug Workflows** — Written 2026-05-24 → `2026-05-24-codex-cli-swift-swiftui-development-xcode-mcp-servers-agent-skills-workflows.md`
+   - Source: XcodeBuildMCP GitHub (getsentry, v2.3.2), xcrun mcpbridge (Xcode 26.3), SwiftLens GitHub, Hacking with Swift (SwiftUI Agent Skill), OpenAI Codex iOS use cases, Blake Crosley (Two MCP Servers), Swift.org (Swift 6.2 release), OpenAI Codex Changelog
+   - Scope: Three MCP servers (XcodeBuildMCP with 82 tools for builds/tests/simulators/LLDB/UI automation, xcrun mcpbridge with 20 tools for previews/docs/REPL/diagnostics via XPC, SwiftLens with 15 SourceKit-LSP tools for semantic analysis/cross-file navigation/refactoring), composing all three servers (build automation/IDE integration/semantic analysis layers), agent skills ecosystem (SwiftUI Pro, Swift Agent Skills collection, Liquid Glass, performance auditing), AGENTS.md template for Swift 6.2/iOS 18/macOS 15 (Observable macro, NavigationStack, Swift Testing, InlineArray, Span, approachable concurrency), four workflow patterns (SwiftUI screen generation with preview verification, codebase-wide refactoring with SwiftLens, batch test generation with codex exec, dependency audit with SPM), model selection for Swift tasks, sandbox considerations (simulator access, DerivedData warming, code signing, preview rendering), limitations (training data lag for Swift 6.2, preview requires running Xcode, SwiftLens macOS-only, 82-tool context consumption, skill conflicts, single Xcode instance)
+   - SEO targets: "codex cli swift", "codex cli swiftui", "codex cli xcode", "codex cli ios development", "xcodebuildmcp codex", "swiftlens codex", "codex cli swift agent skills"
+   - Note: Topic selected from gap analysis item #3 — existing articles covered iOS briefly in the mobile article but no dedicated Swift article existed despite XcodeBuildMCP reaching v2.3.2 with 82 tools (acquired by Sentry), Xcode 26.3 shipping a built-in MCP server via xcrun mcpbridge, SwiftLens providing compiler-grade semantic analysis through SourceKit-LSP, Paul Hudson publishing open-source SwiftUI agent skills, and Swift 6.2 being the current stable release with approachable concurrency and InlineArray
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #219)
 
 ### Codex CLI for Kotlin/Android Development
@@ -44,7 +56,7 @@ Based on reviewing 891 articles across the library, the following gaps were iden
 
 1. ✅ **Codex CLI for Elixir/Phoenix Development** — Written 2026-05-24 → `2026-05-24-codex-cli-elixir-phoenix-development-mcp-servers-tidewave-hexdocs-workflows.md`
 2. ✅ **Codex CLI for Kotlin/Android Development** — Written 2026-05-24 → `2026-05-24-codex-cli-kotlin-android-development-android-cli-mcp-servers-compose-agent-workflows.md`
-3. **Codex CLI for Swift/SwiftUI Development** — iOS/Xcode is briefly covered in the mobile article but no dedicated Swift article covers SourceKit-LSP via MCP, SwiftUI previews, or Swift Package Manager workflows
+3. ✅ **Codex CLI for Swift/SwiftUI Development** — Written 2026-05-24 → `2026-05-24-codex-cli-swift-swiftui-development-xcode-mcp-servers-agent-skills-workflows.md`
 4. **Agent Observability Dashboard Patterns** — OpenTelemetry hooks are referenced across multiple articles but no single article shows how to build a practical monitoring dashboard for multi-agent workflows
 5. **Codex CLI and Monorepo Tooling (Turborepo/Nx/Bazel)** — Monorepo patterns exist in the AGENTS.md article but no dedicated guide covers build-system-aware agent configuration for large monorepos
 
