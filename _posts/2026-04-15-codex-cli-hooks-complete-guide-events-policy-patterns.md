@@ -2,7 +2,7 @@
 title: "Codex CLI Hooks: Complete Guide to Events, Policy Engines and Production Patterns"
 slug: codex-cli-hooks-complete-guide-events-policy-patterns
 date: "2026-04-15"
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-24T20:08:52+01:00
 updated: "2026-04-18"
 author: "Seb (codex.quest)"
 description: >

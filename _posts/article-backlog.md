@@ -4,12 +4,24 @@
 
 The following ideas were identified during the article rating run on 2026-05-24 based on gaps in the current library:
 
-1. **Codex CLI for Rust Development: rust-analyzer MCP, Cargo Workflows, and Systems Programming Agent Patterns** — The codex-rs rewrite is in Rust yet no article covers Rust development with Codex CLI. rust-analyzer has an MCP server. High originality potential given first-party dogfooding angle.
+1. ✅ **Codex CLI for Rust Development: rust-analyzer MCP, Cargo Workflows, and Systems Programming Agent Patterns** — Written 2026-05-24 → `2026-05-24-codex-cli-rust-development-rust-analyzer-mcp-cargo-systems-programming-agent-patterns.md`
 2. **Codex CLI for Ruby on Rails Development: Solargraph MCP, RSpec Agent Workflows, and Convention-over-Configuration Patterns** — Rails remains widely used in production. No coverage despite convention-over-configuration being an interesting agent constraint.
 3. **Codex CLI for Flutter and Dart Development: Flutter MCP, Widget Testing, and Cross-Platform Agent Workflows** — Flutter is the dominant cross-platform framework. No coverage despite Android CLI and Xcode MCP articles existing for native mobile.
 4. **Agent Observability Series: Alerting on Agent Anomalies, Cost Attribution by Team, and SLA Monitoring for Codex CLI Pipelines** — The new agent observability dashboard article (4.0) opens a theme. A series covering alerting, cost attribution, and SLA monitoring would serve enterprise teams.
 5. **Premium: The Citation Lifecycle — When AI-Specific Claims Expire** — Premium articles 01-15 contain 2025-era citations (Stanford HAI, early Copilot studies) that the articles themselves critique as dated. An article on citation freshness as a discipline would be meta but useful.
 6. **Codex CLI for Terraform Development: terraform-mcp-server, State Inspection, and Infrastructure Drift Detection** — The Pulumi article exists but Terraform has no dedicated article despite being the dominant IaC tool with an official MCP server.
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #223)
+
+### Codex CLI for Rust Development (MCP Servers)
+
+1. ✅ **Codex CLI for Rust Development: rust-analyzer MCP, Cargo MCP, and Systems Programming Agent Patterns** — Written 2026-05-24 → `2026-05-24-codex-cli-rust-development-rust-analyzer-mcp-cargo-systems-programming-agent-patterns.md`
+   - Source: zeenix/rust-analyzer-mcp GitHub, dexwritescode/rust-mcp GitHub, terhechte/cursor-rust-tools GitHub, seemethere/cargo-mcp GitHub, Rust 1.95.0 release, Rust 1.85.0 Edition 2024 announcement, OpenAI Codex CLI docs, OpenAI Codex Models docs, GPT-5.5 announcement, openai/codex AGENTS.md
+   - Scope: Four MCP servers (rust-analyzer-mcp with 10 LSP tools, rust-mcp with 19 tools including scaffolding/refactoring/clippy, cursor-rust-tools with 7 tools plus local cargo doc indexing, cargo-mcp with 11 Cargo command tools), config.toml for all servers, server composition across semantic/build/docs/scaffolding layers, AGENTS.md addendum for MCP-equipped projects, four workflow patterns (semantic navigation, dependency-aware development, batch refactoring with codex exec, test generation from type signatures), model selection (gpt-5.5/gpt-5.4/gpt-5.4-mini), sandbox considerations (network for crate fetches, target dir size, rust-analyzer memory, concurrent LSP instances), dogfooding angle (OpenAI's 70-crate workspace), limitations (training data lag for Edition 2024, macro expansion opacity, no debugger integration, scaffolding quality, single-workspace limitation)
+   - SEO targets: "codex cli rust", "codex cli rust-analyzer", "rust mcp server codex", "codex cli cargo", "codex cli rust development", "rust-analyzer mcp codex", "codex cli systems programming"
+   - Note: Topic selected from gap-identified ideas — existing articles covered the codex-rs rewrite architecture and Rust teams AGENTS.md/Cargo patterns but no article addressed the four MCP servers (rust-analyzer-mcp, rust-mcp, cursor-rust-tools, cargo-mcp) that give Codex CLI compiler-grade semantic intelligence for Rust development, or the systems programming agent patterns enabled by live type information and documentation indexing
 
 ---
 

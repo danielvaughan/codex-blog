@@ -2,7 +2,7 @@
 title: "Building a Codex CLI Plugin: Skills, Hooks, MCP Servers and Project-Specific Automation"
 description: "Codex CLI plugins bundle skills, hooks, MCP server declarations, and AGENTS.md fragments into a single installable unit. A plugin can reduce onboarding from."
 date: 2026-04-09T18:30:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-24T20:08:52+01:00
 classes: wide
 categories: articles
 toc: true
