@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI TUI Mastery: Slash Commands, Keyboard Shortcuts, and Session Workflows for Power Users"
+description: "The Codex CLI terminal user interface has evolved from a simple prompt-and-response loop into a full-screen interactive workspace. With v0.121.0 shipping."
 parent: "Articles"
 nav_order: 358
 tags: ["codex-cli", "TUI", "slash-commands", "keyboard-shortcuts", "session-management", "productivity", "power-user"]

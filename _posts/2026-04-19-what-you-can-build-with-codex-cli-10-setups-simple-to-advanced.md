@@ -1,5 +1,6 @@
 ---
 title: "What You Can Build with Codex CLI: 10 Real-World Setups from Simple to Advanced"
+description: "Developers evaluating Codex CLI often ask the same question: what can I actually do with it? The answer depends on how deep you want to go. Codex CLI scales."
 parent: "Articles"
 nav_order: 339
 tags: ["codex-cli", "setups", "workflows", "getting-started", "architecture", "multi-agent", "MCP", "CI/CD"]

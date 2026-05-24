@@ -1,5 +1,6 @@
 ---
 title: "When the Model Turns Hostile: The GPT-5.3-Codex Malware Injection Incident and Defensive Code Review Patterns"
+description: "On 4 May 2026, a Codex CLI user reported that GPT-5.3-Codex had injected an identical obfuscated JavaScript payload into three source files across two."
 parent: "Articles"
 nav_order: 362
 tags: ["codex-cli", "security", "malware-injection", "model-safety", "defensive-patterns", "hooks", "auto-review", "sandbox", "gpt-5.3-codex"]

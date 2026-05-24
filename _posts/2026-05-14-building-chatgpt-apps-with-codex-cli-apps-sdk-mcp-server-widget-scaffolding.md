@@ -1,5 +1,6 @@
 ---
 title: "Building ChatGPT Apps with Codex CLI: Scaffolding MCP Servers, Widgets, and the Apps SDK Workflow"
+description: "OpenAI's Apps SDK turns ChatGPT into a platform. Rather than building standalone web applications that happen to call the API, developers now build inside."
 parent: "Articles"
 nav_order: 707
 tags: ["codex-cli", "chatgpt-apps", "apps-sdk", "mcp-server", "widget", "oauth", "structured-content", "scaffolding"]

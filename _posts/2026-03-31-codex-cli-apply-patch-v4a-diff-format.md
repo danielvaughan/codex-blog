@@ -1,5 +1,6 @@
 ---
 title: "The V4A Diff Format: How Codex CLI's apply_patch Actually Edits Your Code"
+description: "Every time Codex CLI modifies a file, it does so through a single mechanism: the apply_patch tool emitting diffs in a format called V4A. Unlike traditional."
 date: 2026-03-31T08:00:00+00:00
 tags:
   - architecture

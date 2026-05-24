@@ -1,5 +1,6 @@
 ---
 title: "Building Custom Code Review Pipelines with the Codex SDK: Structured Findings Across GitHub, GitLab, and Azure DevOps"
+description: "Codex ships with built-in GitHub pull request review — enable it in settings and every PR gets an automatic @codex review pass ."
 parent: "Articles"
 nav_order: 712
 tags: ["codex-cli", "codex-sdk", "code-review", "structured-output", "github-actions", "gitlab-ci", "azure-devops", "ci-cd", "automation", "enterprise"]

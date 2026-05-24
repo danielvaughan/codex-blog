@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Observability Dashboards: Production Monitoring with SigNoz, Oodle, and Opik"
+description: "Running Codex CLI in a team of one requires no observability. Running it across a dozen developers, each spawning interactive sessions, CI pipelines."
 parent: "Articles"
 nav_order: 651
 tags: ["codex-cli", "observability", "opentelemetry", "signoz", "oodle", "opik", "dashboards", "monitoring", "enterprise", "otel", "production"]

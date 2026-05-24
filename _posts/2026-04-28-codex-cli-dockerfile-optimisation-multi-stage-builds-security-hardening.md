@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Dockerfile Optimisation: Multi-Stage Builds, Layer Caching, and Security Hardening"
+description: "Dockerfiles look simple. They are deceptively hard to get right. A naively written Dockerfile for a Node.js application can produce a 1.2 GB image with a."
 parent: "Articles"
 nav_order: 473
 tags: ["codex-cli", "docker", "dockerfile", "multi-stage-build", "container-security", "devops", "gpt-5.5"]

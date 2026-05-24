@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI v0.130: Building Headless Agent Services with remote-control and the Thread Pagination API"
+description: "Codex CLI v0.130.0, released on 8 May 2026, ships two features that quietly change what you can build on top of the agent: a new codex remote-control."
 parent: "Articles"
 nav_order: 637
 tags: ["codex-cli", "v0.130", "remote-control", "app-server", "headless", "json-rpc", "thread-pagination", "automation", "integration", "enterprise"]

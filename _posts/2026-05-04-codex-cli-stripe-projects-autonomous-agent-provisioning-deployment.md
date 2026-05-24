@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI and Stripe Projects: Autonomous Agent Provisioning from Code to Production"
+description: "Coding agents have been writing production-quality code for over a year. They can generate, test, refactor, and review — yet the final step has stubbornly."
 parent: "Articles"
 nav_order: 590
 tags: ["codex-cli", "stripe-projects", "cloudflare", "agent-provisioning", "deployment", "mcp", "autonomous-agents", "safety"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Enterprise Managed Configuration: requirements.toml, managed_config.toml, and Admin-Enforced Policies"
+description: "Deploying Codex CLI to a team of five developers is straightforward — everyone edits their own config.toml and moves on."
 parent: "Articles"
 nav_order: 462
 tags: ["codex-cli", "enterprise", "managed-configuration", "requirements-toml", "MDM", "governance", "security", "admin", "compliance"]

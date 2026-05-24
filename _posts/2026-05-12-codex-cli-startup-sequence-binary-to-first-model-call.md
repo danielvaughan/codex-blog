@@ -1,5 +1,6 @@
 ---
 title: "What Happens When You Type codex: The Complete Startup Sequence from Binary to First Model Call"
+description: "Every Codex CLI session begins the same way: you type codex and press Enter. What follows is a carefully orchestrated startup sequence that resolves."
 parent: "Articles"
 nav_order: 688
 tags: ["codex-cli", "internals", "architecture", "startup", "configuration", "AGENTS.md", "MCP", "sandbox", "skills"]

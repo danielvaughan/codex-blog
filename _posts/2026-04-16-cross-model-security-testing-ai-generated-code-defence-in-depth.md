@@ -1,5 +1,6 @@
 ---
 title: "Cross-Model Security Testing for AI-Generated Code: Building a Defence-in-Depth Pipeline"
+description: "AI coding agents write functional code at impressive speed. They do not, however, write secure code at impressive speed. Veracode's Spring 2026 GenAI Code."
 parent: "Articles"
 nav_order: 307
 tags: ["security-testing", "cross-model-review", "defence-in-depth", "pipeline", "agents-md", "sast-dast", "codex-cli"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Technical Debt Reduction: Automated Refactoring, Dead Code Detection, and Dependency Upgrades"
+description: "Technical debt accumulates silently — unused imports, deprecated API calls, dead functions that nobody dares delete."
 parent: "Articles"
 nav_order: 269
 tags: ["technical-debt", "refactoring", "dead-code", "dependency-upgrades", "agents-md", "subagents", "codex-exec", "ci-cd", "automation"]

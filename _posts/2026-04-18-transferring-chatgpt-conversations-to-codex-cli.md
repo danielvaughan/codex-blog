@@ -1,5 +1,6 @@
 ---
 title: "Transferring ChatGPT Conversations to Codex CLI"
+description: "Many developers start their thinking in ChatGPT — brainstorming architecture, researching APIs, sketching out approaches with web search — then need to hand."
 parent: "Articles"
 nav_order: 334
 tags: ["codex-cli", "chatgpt", "context-transfer", "workflow", "productivity"]

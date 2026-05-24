@@ -1,5 +1,6 @@
 ---
 title: "The Axios Supply Chain Attack: How a North Korean Compromise Reached Codex CLI's macOS Signing Pipeline"
+description: "On March 31, 2026, a North Korean threat actor compromised Axios — the JavaScript HTTP client with over 70 million weekly npm downloads."
 parent: "Articles"
 nav_order: 280
 tags: ["supply-chain", "security", "axios", "npm", "macos", "code-signing", "north-korea", "github-actions", "incident-response"]

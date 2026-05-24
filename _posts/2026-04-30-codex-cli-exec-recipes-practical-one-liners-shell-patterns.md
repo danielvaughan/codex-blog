@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI exec Recipes: Practical One-Liners and Shell Patterns for Daily Development"
+description: "The interactive TUI gets most of the attention, but codex exec is where Codex CLI earns its keep in professional workflows. It runs Codex non-interactively."
 parent: "Articles"
 nav_order: 508
 tags: ["codex-exec", "shell-patterns", "automation", "one-liners", "unix-pipelines", "CI/CD", "developer-productivity", "v0.128"]

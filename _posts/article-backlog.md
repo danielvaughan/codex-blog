@@ -1,5 +1,821 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #220)
+
+### Codex CLI for Swift/SwiftUI Development
+
+1. ✅ **Codex CLI for Swift and SwiftUI Development: Xcode MCP Servers, Agent Skills, and Build-Test-Debug Workflows** — Written 2026-05-24 → `2026-05-24-codex-cli-swift-swiftui-development-xcode-mcp-servers-agent-skills-workflows.md`
+   - Source: XcodeBuildMCP GitHub (getsentry, v2.3.2), xcrun mcpbridge (Xcode 26.3), SwiftLens GitHub, Hacking with Swift (SwiftUI Agent Skill), OpenAI Codex iOS use cases, Blake Crosley (Two MCP Servers), Swift.org (Swift 6.2 release), OpenAI Codex Changelog
+   - Scope: Three MCP servers (XcodeBuildMCP with 82 tools for builds/tests/simulators/LLDB/UI automation, xcrun mcpbridge with 20 tools for previews/docs/REPL/diagnostics via XPC, SwiftLens with 15 SourceKit-LSP tools for semantic analysis/cross-file navigation/refactoring), composing all three servers (build automation/IDE integration/semantic analysis layers), agent skills ecosystem (SwiftUI Pro, Swift Agent Skills collection, Liquid Glass, performance auditing), AGENTS.md template for Swift 6.2/iOS 18/macOS 15 (Observable macro, NavigationStack, Swift Testing, InlineArray, Span, approachable concurrency), four workflow patterns (SwiftUI screen generation with preview verification, codebase-wide refactoring with SwiftLens, batch test generation with codex exec, dependency audit with SPM), model selection for Swift tasks, sandbox considerations (simulator access, DerivedData warming, code signing, preview rendering), limitations (training data lag for Swift 6.2, preview requires running Xcode, SwiftLens macOS-only, 82-tool context consumption, skill conflicts, single Xcode instance)
+   - SEO targets: "codex cli swift", "codex cli swiftui", "codex cli xcode", "codex cli ios development", "xcodebuildmcp codex", "swiftlens codex", "codex cli swift agent skills"
+   - Note: Topic selected from gap analysis item #3 — existing articles covered iOS briefly in the mobile article but no dedicated Swift article existed despite XcodeBuildMCP reaching v2.3.2 with 82 tools (acquired by Sentry), Xcode 26.3 shipping a built-in MCP server via xcrun mcpbridge, SwiftLens providing compiler-grade semantic analysis through SourceKit-LSP, Paul Hudson publishing open-source SwiftUI agent skills, and Swift 6.2 being the current stable release with approachable concurrency and InlineArray
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #219)
+
+### Codex CLI for Kotlin/Android Development
+
+1. ✅ **Codex CLI for Kotlin/Android Development: Android CLI, MCP Servers, and Compose-First Agent Workflows** — Written 2026-05-24 → `2026-05-24-codex-cli-kotlin-android-development-android-cli-mcp-servers-compose-agent-workflows.md`
+   - Source: Android Developers Blog (Android CLI announcement), InfoQ (Android CLI agent-friendly analysis), Android Developers docs (Android CLI reference, Android Skills overview), normaltusker/kotlin-mcp-server GitHub, VitoSolin/AndroidStudio-MCP GitHub, modelcontextprotocol/kotlin-sdk GitHub, OpenAI Codex CLI docs
+   - Scope: Android CLI 1.0 commands (create, describe, run, emulator, sdk, skills, docs, screen, layout, studio bridge), Android Skills system (SKILL.md format, 37 agent targets, edge-to-edge/migrate-xml-to-compose/navigation-3/agp-9 skills, Agent Skills Standard), three MCP servers (kotlin-mcp-server with 40+ tools for Gradle/ktlint/Hilt/Room/Retrofit/Compose scaffolding/security compliance, AndroidStudio-MCP IDE bridge with project state/builds/ADB, official MCP Kotlin SDK for custom servers on JVM/Native/JS/Wasm), Codex CLI config.toml for all servers, AGENTS.md template for Kotlin 2.4/Android 35/AGP 9 projects (Compose-first, Navigation 3, ktlint/detekt, anti-hallucination rules), four workflow patterns (Compose screen generation with preview verification loop, XML-to-Compose migration with skills, dependency audit with version-lookup, batch feature generation with codex exec), model selection for Android tasks, sandbox considerations (Gradle cache warming, SDK pre-installation, Studio bridge requirements), composing Android CLI with MCP servers (toolchain/project intelligence/agent layers), limitations (training data lag for Kotlin 2.4/AGP 9, Compose preview requires running Studio, MCP server AI provider conflicts, Windows emulator disabled, skill size limits, cold Gradle builds)
+   - SEO targets: "codex cli kotlin", "codex cli android", "codex cli android cli", "android cli codex", "kotlin mcp server codex", "codex cli jetpack compose", "codex cli android development", "codex cli android skills"
+   - Note: Topic selected from gap analysis item #2 — existing articles covered Java/Spring Boot but no dedicated Kotlin/Android article existed despite Google releasing Android CLI 1.0 at I/O 2026 (May 2026) with agent-first toolchain access reducing token usage by 70%, the kotlin-mcp-server providing 40+ Android development tools, AndroidStudio-MCP enabling IDE bridge for Compose preview rendering, Kotlin 2.4.0-RC being current, and Android being the most widely deployed mobile platform
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #218)
+
+### Codex CLI for Elixir/Phoenix Development
+
+1. ✅ **Codex CLI for Elixir and Phoenix Development: Tidewave, ElixirLS MCP, HexDocs, and Runtime-Aware Agent Workflows** — Written 2026-05-24 → `2026-05-24-codex-cli-elixir-phoenix-development-mcp-servers-tidewave-hexdocs-workflows.md`
+   - Source: Tidewave Phoenix GitHub, ElixirLS MCP Server (Elixir Forum), HexDocs MCP v0.6.0 (HexDocs), Hermes MCP v0.14.1 (Hex.pm), Elixir v1.19 release blog, OpenAI Codex MCP docs, OpenAI Models docs
+   - Scope: Three MCP servers (Tidewave v0.5 with 8 runtime tools including execute_sql_query/get_ecto_schemas/project_eval/get_ash_resources, ElixirLS v0.29.0+ MCP with 6 compiler-powered tools including find_definition/get_type_info/find_implementations/get_module_dependencies, HexDocs MCP v0.6.0 with semantic search and version-accurate documentation), Codex CLI config.toml for all three servers, AGENTS.md template for Elixir 1.19.5/Phoenix 1.8 projects (set-theoretic types, ExUnit groups, OTP patterns, anti-hallucination rules), four workflow patterns (Phoenix context generation with runtime validation, LiveView component development with log-driven debugging, protocol implementation discovery and extension, dependency audit with version-accurate documentation), model selection for Elixir tasks, sandbox considerations for Mix/BEAM, Hermes MCP v0.14.1 for custom MCP servers in Elixir, composing three complementary MCP servers (compile-time/runtime/documentation), limitations (training data lag for 1.19, macro expansion opacity, dev-only Tidewave, HexDocs embedding overhead, port conflicts, hot code reloading staleness)
+   - SEO targets: "codex cli elixir", "codex cli phoenix", "elixir mcp server codex", "codex cli elixir development", "codex cli tidewave", "codex cli elixirls", "codex cli phoenix liveview"
+   - Note: Topic selected from gap analysis item #1 — Gleam and Erlang/BEAM were covered but no article addressed Elixir directly despite being the most popular BEAM language with three mature MCP servers (Tidewave by José Valim, ElixirLS built-in MCP, HexDocs semantic search), Elixir 1.19.5 being the current stable release with enhanced set-theoretic type checking, and Elixir's macro-heavy metaprogramming creating unique challenges where runtime introspection (Tidewave) is essential for accurate agent assistance
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #217)
+
+### Codex CLI for Nix and NixOS Development
+
+1. ✅ **Codex CLI for Nix and NixOS Development: MCP-NixOS, Sandbox Isolation, and Reproducible Agent Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-nix-nixos-development-mcp-servers-flakes-reproducible-agent-workflows.md`
+   - Source: utensils/mcp-nixos GitHub, SecBear/nix-sandbox-mcp GitHub, natsukium/mcp-servers-nix GitHub, NixOS 25.11 release notes, OpenAI Codex Models docs, OpenAI Codex CLI Features docs, Repology repository statistics
+   - Scope: Three MCP servers (MCP-NixOS with 130K+ packages/23K+ options/two-tool consolidated API/multi-channel search/Home Manager/nix-darwin/Nixvim/FlakeHub/Noogle, nix-sandbox-mcp with bubblewrap namespace isolation/declarative Nix flake environments/read-only project mounts/custom mkSandbox environments/~420-token context cost, mcp-servers-nix with 27 server modules/multi-client config generation/Codex CLI+Claude Code+VS Code+Zed output/Home Manager integration/flake-parts support), AGENTS.md template for Nix projects (flake-first conventions, nixfmt enforcement, callPackage pattern, lib.mkOption types, anti-hallucination rules, hash prefetch warnings), four workflow patterns (NixOS module development with verified options, flake dependency audit with nix_versions, cross-platform Home Manager/nix-darwin config, sandboxed Nix expression evaluation), model selection for Nix tasks, sandbox interaction considerations (Nix store access, flake.lock writes, complementary isolation layers), composing three MCP servers, limitations (training data lag for nixpkgs, lazy evaluation complexity, Linux-only sandbox, hash prefetching, module evaluation cost, framework maturity)
+   - SEO targets: "codex cli nix", "codex cli nixos", "nixos mcp server codex", "codex cli nix development", "codex cli flakes", "codex cli nix sandbox", "codex cli reproducible builds"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered every major language and package manager but no article addressed Nix/NixOS despite MCP-NixOS providing verified access to 130K+ packages and 23K+ options (eliminating hallucination of option paths), nix-sandbox-mcp offering declarative bubblewrap-based execution sandboxes as a Docker alternative, mcp-servers-nix enabling declarative MCP server configuration through Nix flakes, NixOS 25.11 being the current stable release, and Nix's purely functional package management creating unique challenges and opportunities for agent-assisted development
+
+---
+
+## Gap Analysis — Article Rater Run (2026-05-23)
+
+Based on reviewing 891 articles across the library, the following gaps were identified:
+
+### Missing Topics (High Priority)
+
+1. ✅ **Codex CLI for Elixir/Phoenix Development** — Written 2026-05-24 → `2026-05-24-codex-cli-elixir-phoenix-development-mcp-servers-tidewave-hexdocs-workflows.md`
+2. ✅ **Codex CLI for Kotlin/Android Development** — Written 2026-05-24 → `2026-05-24-codex-cli-kotlin-android-development-android-cli-mcp-servers-compose-agent-workflows.md`
+3. ✅ **Codex CLI for Swift/SwiftUI Development** — Written 2026-05-24 → `2026-05-24-codex-cli-swift-swiftui-development-xcode-mcp-servers-agent-skills-workflows.md`
+4. ✅ **Agent Observability Dashboard Patterns** — Written 2026-05-24 → `2026-05-24-agent-observability-dashboard-patterns-codex-cli-opentelemetry.md`
+5. ✅ **Codex CLI and Monorepo Tooling (Turborepo/Nx/Bazel)** — Written 2026-05-24 → `2026-05-24-codex-cli-monorepo-tooling-turborepo-nx-bazel-agent-workflows.md`
+
+### Missing Topics (Medium Priority)
+
+6. ✅ **The Human Review Bottleneck: Practical Code Review Strategies for Agent Output** — Written 2026-05-24 → `2026-05-24-human-review-bottleneck-code-review-strategies-agent-output.md`
+7. ✅ **Codex CLI for C/C++ Development** — Written 2026-05-24 → `2026-05-24-codex-cli-cpp-development-clangd-mcp-servers-cmake-agent-workflows.md`
+8. ✅ **Migrating from LangChain/LangGraph to Native Agent SDKs** — Written 2026-05-23 → `2026-05-23-migrating-langchain-langgraph-native-agent-sdks-codex-cli.md`
+9. **Codex CLI for GraphQL Development** — No article covers GraphQL schema management, Apollo/Relay MCP servers, or type-safe resolver generation
+
+### Underdeveloped Themes
+
+10. **Premium article on cognitive load measurement** — Article 16 (Cognitive Load Paradox) identifies the problem well but scored only 4.0; a follow-up with concrete measurement frameworks (DX Core 4, SPACE) and intervention data would strengthen the series
+11. **Karpathy Says What We've Been Building (Article 22)** — Re-rated from 2.9 to 3.5 but still the weakest premium article; could benefit from expansion with more sourcing on the OpenClaw data and the GitHub engineer's resignation
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #216)
+
+### Migrating from LangChain/LangGraph to Native Agent SDKs
+
+1. ✅ **Migrating from LangChain to Native Agent SDKs: A Codex CLI Perspective** — Written 2026-05-23 → `2026-05-23-migrating-langchain-langgraph-native-agent-sdks-codex-cli.md`
+   - Source: Ravoid LangChain Exit analysis, SyncBricks LangChain Alternatives, MindStudio framework replacement analysis, OpenAI Agents SDK evolution blog, Anthropic Claude Code updates, Google ADK docs, AWS Strands Agents blog, Codex CLI changelog, CallSphere migration guide, OpenAI Codex+Agents SDK guide, LangChain/LangGraph v1.0 blog
+   - Scope: Five migration drivers (abstraction overhead, version churn, latency tax, dependency bloat, vendor SDK convergence), 2026 native SDK landscape comparison (OpenAI Agents SDK, Claude Agent SDK, Google ADK, AWS Strands, Codex CLI), concept mapping table (ChatOpenAI→Agent, @tool→@function_tool, AgentExecutor→Runner.run, memory→explicit messages, chains→handoffs), code examples for LangChain vs OpenAI Agents SDK vs Codex CLI patterns, using Codex CLI as migration tool (codebase analysis, AGENTS.md migration rules, batch exec, hooks enforcement), Codex CLI as MCP server for Agents SDK, what to keep from LangChain (document loaders, text splitters, vector stores, LangSmith), migration timelines (1-2 weeks per agent, 3-6 months for 5-10 agents), strangler fig migration strategy, when to stay on LangChain
+   - SEO targets: "langchain migration native sdk", "langchain to openai agents sdk", "codex cli langchain migration", "langchain alternatives 2026", "langgraph migration", "agent sdk migration guide"
+   - Note: Topic selected from gap analysis item #8 — existing articles covered the Agent SDK Landscape comparison but no migration guide existed for teams already invested in LangChain
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #215)
+
+### Codex CLI for SQLite Development
+
+1. ✅ **Codex CLI for SQLite Development: MCP Servers, Turso/libSQL, and Local-to-Edge Database Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-sqlite-development-mcp-servers-turso-libsql-local-edge-workflows.md`
+   - Source: SQLite official site, sqlite-explorer-fastmcp-mcp-server GitHub (hannesrudolph), mcp-sqlite GitHub (jparkerweb), mcp-turso GitHub (nbbaier), Turso official docs, Codex CLI MCP docs, SQLite 3.53.0 release notes, codex-agent-mem GitHub, sqlitecloud-mcp-server GitHub, OpenAI Models docs
+   - Scope: Three MCP server options (sqlite-explorer read-only with FastMCP/query validation/row limits, mcp-sqlite full CRUD with 8 tools/parameterised queries, mcp-turso cloud with Turso edge databases/35+ regions), Codex CLI config.toml configuration for all three servers, composing multiple servers, AGENTS.md template for SQLite 3.53+ projects (STRICT mode, WAL, RETURNING clauses, libSQL/Turso conventions), four workflow patterns (schema archaeology with read-only explorer, migration generation and validation, Turso edge database audit, batch analysis with codex exec), model selection for SQLite tasks (o3 for schema design/query optimisation, o4-mini for CRUD/test data), sandbox configuration for WAL/SHM files, SQLite 3.53 features (ALTER TABLE constraints, self-healing indexes, REINDEX EXPRESSIONS), composing with filesystem/GitHub/codex-agent-mem MCP servers, limitations (single-writer constraint, WAL file access, Turso MCP read-only, training data lag for 3.53, concurrent agent sessions, no streaming results)
+   - SEO targets: "codex cli sqlite", "codex cli sqlite mcp", "sqlite mcp server codex", "codex cli turso", "codex cli libsql", "codex cli sqlite development", "codex cli edge database"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered PostgreSQL, Supabase, DuckDB/MotherDuck, database migrations, and data engineering tools but no article addressed SQLite despite three mature MCP servers (sqlite-explorer, mcp-sqlite, mcp-turso), SQLite being the most deployed database engine in existence, SQLite 3.53 shipping in April 2026 with ALTER TABLE constraint management and self-healing indexes, Turso/libSQL providing edge-distributed SQLite with embedded replicas, and SQLite's file-based nature creating unique sandbox and concurrency considerations for agent workflows
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #214)
+
+### Codex CLI for DuckDB and MotherDuck Analytical SQL
+
+1. ✅ **Codex CLI for DuckDB and MotherDuck: MCP-Driven Analytical SQL, Agent Skills, and Data Pipeline Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-duckdb-motherduck-analytical-sql-mcp-agent-data-workflows.md`
+   - Source: DuckDB official docs, MotherDuck official docs, mcp-server-motherduck GitHub (v1.0.6), MotherDuck Agent Skills docs, DuckLake v1.0 announcement, Codex CLI MCP docs, Codex CLI changelog
+   - Scope: mcp-server-motherduck configuration (local/S3/MotherDuck/in-memory, five tools, read-write access, ephemeral connections, SaaS mode), MotherDuck Agent Skills catalogue (utility/workflow/use-case layers, Codex plugin install), AGENTS.md template for DuckDB projects (DuckDB SQL dialect, QUALIFY/EXCLUDE/COLUMNS, struct types, DuckLake), five workflow patterns (EDA pipeline with SUMMARIZE, cross-source joins with database switching, DuckLake time-travel audit, batch analytics with codex exec, MotherDuck Dives visualisations), model selection for analytical tasks, sandbox configuration for file-based databases, security considerations (read-only insufficiency, SaaS mode, read-scaling tokens), composing with GitHub and filesystem MCP servers, limitations (training data lag for v1.5.x, token budget on large results, file-path sandboxing, no streaming, token management, ephemeral connections)
+   - SEO targets: "codex cli duckdb", "codex cli motherduck", "duckdb mcp server codex", "codex cli analytical sql", "codex cli data engineering", "codex cli duckdb mcp", "codex cli ducklake"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Supabase, PostgreSQL, database migrations, and data engineering tools but no article addressed DuckDB/MotherDuck despite mcp-server-motherduck (v1.0.6) providing five SQL tools with runtime database switching across local/S3/cloud sources, MotherDuck Agent Skills enabling DuckDB-aware analytics workflows, DuckLake v1.0 reaching production-readiness in April 2026, MotherDuck Dives enabling agent-generated visualisations, and DuckDB occupying a unique position as the default in-process analytical engine for local data work
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #213)
+
+### Codex CLI for Deno Development
+
+1. ✅ **Codex CLI for Deno Development: Deploy MCP, Deno KV, and TypeScript-First Agent Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-deno-development-deploy-mcp-kv-typescript-first-agent-workflows.md`
+   - Source: Deno 2.8.0 GitHub releases, thisisjofrank/deno-deploy-mcp GitHub, littledivy/mcp-deno-kv GitHub, phughesmcr/deno-mcp-template GitHub/JSR, OpenAI Codex CLI docs, OpenAI Codex changelog, Fresh 2.x docs
+   - Scope: Three MCP servers (deno-deploy-mcp with scaffolding/deployment/database provisioning/rollback/audit tools, mcp-deno-kv with persistent KV storage for agent state, deno-mcp-template with STDIO+HTTP transports/rate limiting/KV state/sandboxed execution for custom servers), AGENTS.md template for Deno 2.8 projects (deno.json-only config, JSR-first imports, minimal permissions, Deno.test with @std/assert, deno fmt/lint enforcement), four workflow patterns (Fresh app scaffolding with Deploy MCP, permission audit and hardening, batch Node.js-to-Deno migration with codex exec, KV-backed agent memory across sessions), model selection for Deno tasks, sandbox configuration complementing Deno permissions, composing three MCP servers, limitations (training data lag for Deno 2.8, --unstable-kv flag, Deploy MCP local-only, JSR package hallucination, Fresh 2.x vs 1.x confusion, permission flag verbosity)
+   - SEO targets: "codex cli deno", "codex cli deno development", "deno deploy mcp server codex", "codex cli deno kv", "codex cli typescript agent", "codex cli deno fresh", "codex cli deno mcp"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Node.js, Bun, and every major runtime/language but no article addressed Deno despite deno-deploy-mcp providing full-lifecycle deployment control, mcp-deno-kv enabling zero-infrastructure agent persistence, Deno 2.8.0 shipping with TypeScript 6.0.3 and five new subcommands, and Deno's granular permissions model being uniquely complementary to Codex CLI's sandbox
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #212)
+
+### Codex CLI for Julia and Scientific Computing
+
+1. ✅ **Codex CLI for Julia and Scientific Computing: julia-mcp, JETLS, and Persistent Session Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-julia-scientific-computing-mcp-jetls-persistent-sessions.md`
+   - Source: aplavin/julia-mcp GitHub, aviatesk/JETLS.jl GitHub, JuliaSMLM/ModelContextProtocol.jl GitHub, JuliaDoc MCP Server, CesarPetrescu/lsp-mcp GitHub, Julia v1.12 release notes, OpenAI Models docs, OpenAI Codex MCP docs
+   - Scope: Three MCP servers (julia-mcp with persistent sessions/Revise.jl/session isolation/three tools, JuliaDoc MCP with docs+source lookup, LSP-MCP bridge for JETLS diagnostics), JETLS compiler-powered language server (JET.jl/JuliaSyntax.jl/JuliaLowering.jl, type-sensitive diagnostics, macro-aware navigation, Julia 1.12.2 requirement), ModelContextProtocol.jl for custom MCP servers in Julia, AGENTS.md template for Julia projects (multiple dispatch, BlueStyle, type stability, BenchmarkTools, Documenter.jl), four workflow patterns (iterative numerical development with persistent sessions, package development with JETLS diagnostics, data pipeline exploration with JuliaDoc, batch processing with codex exec), model selection for Julia tasks, sandbox configuration for Julia depot/Pkg, composing three MCP servers, limitations (training data lag for Julia 1.12, JETLS instability, no REPL integration, macro expansion opacity, precompilation cost, Seatbelt sandbox conflicts)
+   - SEO targets: "codex cli julia", "codex cli scientific computing", "julia mcp server codex", "codex cli julia development", "codex cli jetls", "codex cli julia persistent sessions", "codex cli numerical computing"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered R, Python/Jupyter, Haskell, OCaml, and every major language but no article addressed Julia despite julia-mcp solving Julia's compilation latency for agentic workflows with persistent sessions, JETLS providing compiler-powered diagnostics via JET.jl, ModelContextProtocol.jl enabling native MCP servers in Julia, and Julia occupying a unique niche in scientific computing where the two-language problem makes agent-assisted development particularly valuable
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #211)
+
+### Codex CLI for Solidity and Smart Contract Development
+
+1. ✅ **Codex CLI for Solidity and Smart Contract Development: Foundry MCP, Security Auditing, and Agent-Driven Contract Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-solidity-smart-contract-development-foundry-mcp-security-audit-workflows.md`
+   - Source: Foundry GitHub, Solidity v0.8.35 release announcement, PraneshASP/foundry-mcp-server GitHub, Solidity Audit MCP, Slither by Trail of Bits, Aderyn by Cyfrin, Solodit MCP, ethskills by Austin Griffith, OpenAI Models docs, DEV Community AI smart contract audit deep-dive
+   - Scope: Foundry v1.7.0 toolchain (forge/cast/anvil/chisel), Solidity 0.8.35 features, Foundry MCP server configuration (network management, contract operations, Heimdall bytecode analysis, workspace), Solidity Audit MCP (Slither/Aderyn/Foundry integration, deduplicated findings), Solodit MCP for historical audit research, ethskills fetchable knowledge base (23 modules), AGENTS.md template for Foundry projects (safety rules, CEI pattern, no floating pragmas, testing requirements), five workflow patterns (compilation loop, security audit pipeline, fuzz test generation, fork testing, pre-deployment checklist), model selection for Solidity tasks, sandbox configuration, limitations (training data lag, economic reasoning gaps, deployment gating, L2 differences, OpenZeppelin version confusion)
+   - SEO targets: "codex cli solidity", "codex cli smart contracts", "foundry mcp server codex", "codex cli ethereum", "codex cli solidity audit", "codex cli web3 development", "codex cli foundry"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered every major language ecosystem and infrastructure tool but no article addressed Solidity/smart contract development despite Foundry MCP server, Solidity Audit MCP, Aderyn MCP, Solodit MCP, and ethskills all being available, and smart contracts representing one of the highest-consequence development workflows where agent safety guardrails matter most
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #210)
+
+### Codex CLI for Pulumi Infrastructure-as-Code
+
+1. ✅ **Codex CLI for Pulumi Infrastructure-as-Code: MCP Server, Neo Delegation, and Agent-Native Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-pulumi-infrastructure-as-code-mcp-neo-agent-native-workflows.md`
+   - Source: Pulumi Blog "The Agentic Infrastructure Era", Pulumi MCP Server docs, Pulumi Blog "Neo Gets Smarter", Pulumi Agent Skills docs, OpenAI Models docs, OpenAI MCP docs
+   - Scope: Pulumi MCP server configuration (HTTP transport, OAuth, four tool categories: Cloud/Neo/Registry/Deployment), Neo CLI agent with three operating modes (Review/Balanced/Auto), pulumi do imperative CRUD command, 10 agent skills (6 authoring + 4 migration), AGENTS.md template for Pulumi TypeScript projects (ComponentResource patterns, secret handling, tagging), four workflow patterns (resource audit via MCP, Terraform migration pipeline, policy violation remediation loop, ephemeral environment scaffolding), ephemeral agent accounts, model selection for infrastructure tasks, sandbox configuration, composing MCP servers, limitations (OAuth browser requirement, async Neo delegation, pulumi do state separation, remote MCP latency, npx dependency, training data lag)
+   - SEO targets: "codex cli pulumi", "codex cli infrastructure as code", "pulumi mcp server codex", "codex cli pulumi neo", "codex cli iac", "codex cli devops pulumi", "pulumi agent skills codex"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Terraform, Kubernetes, Docker, Bazel, Nix, and AWS CDK but no article addressed Pulumi despite its hosted MCP server with resource search and Neo delegation, the May 2026 "Agentic Infrastructure Era" launch with pulumi do and ephemeral agent accounts, 10 agent skills for migration and authoring, and Pulumi's use of real programming languages making it uniquely suited to LLM-driven infrastructure workflows
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #209)
+
+### Codex CLI for OCaml Development
+
+1. ✅ **Codex CLI for OCaml Development: ocaml-mcp-server, Merlin via LSP-MCP, and Type-Driven Agent Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-ocaml-development-mcp-merlin-dune-type-driven-agent-workflows.md`
+   - Source: tmattio/ocaml-mcp GitHub, Jon Ludlam ocaml-lsp-mcp blog, isaacphi/mcp-language-server GitHub, OCaml 5.4.0 release notes, Merlin 5.6/OCaml-LSP 1.24.0 announce, OpenAI AGENTS.md docs, OpenAI Models docs, OpenAI Non-interactive Mode docs, Jon Ludlam ocaml-mcp-server blog, Dune preprocessing docs
+   - Scope: Two MCP integration points (ocaml-mcp-server with Dune build/test, Merlin diagnostics, ocamlformat, expression eval; ocaml-lsp-server via LSP-MCP bridge with refactorExtract, destruct, locate_types, rangeFormatting), AGENTS.md template for OCaml projects (OCaml 5.4 targeting, .mli discipline, Result/Option types, exhaustive matching, Dune-only builds, Alcotest/PPX testing), five workflow patterns (type-driven feature development with compiler-as-oracle, exhaustive refactoring with destruct, module signature extraction, batch linting with codex exec, opam package discovery via hosted MCP), model selection for OCaml tasks (GPT-5.5 for interface design/functor architecture, GPT-5.4-mini for implementation/build errors), sandbox configuration for opam/Jane Street, limitations (training data lag for OCaml 5.4, no REPL integration, WIP tools, PPX expansion opacity, opam solver timeouts, Jane Street ecosystem divergence)
+   - SEO targets: "codex cli ocaml", "codex cli ocaml development", "ocaml mcp server codex", "codex cli merlin", "codex cli dune", "codex cli functional programming ocaml", "codex cli ocaml lsp"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Haskell, Elixir, Clojure, Gleam, Scala, and every major imperative language but no article addressed OCaml despite ocaml-mcp-server providing Dune/Merlin/ocamlformat integration, OCaml-LSP 1.24.0 shipping with custom destruct/refactorExtract requests, OCaml 5.4 releasing in February 2026 with labelled tuples and immutable arrays, and OCaml's strong type system being uniquely suited to compiler-as-oracle agent workflows
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #208)
+
+### Codex CLI for Gleam Development
+
+1. ✅ **Codex CLI for Gleam Development: Type-Safe BEAM Agents, LSP-MCP Bridge, and Dual-Target Workflows** — Written 2026-05-23 → `2026-05-23-codex-cli-gleam-development-beam-type-safe-lsp-mcp-dual-target-workflows.md`
+   - Source: Gleam official website, Gleam v1.16.0 GitHub releases, Gleam Language Server docs, LSP-MCP Bridge (CesarPetrescu), OpenAI Models docs, Hex.pm Gleam usage docs, Gleam CLI reference, Codebase Memory MCP GitHub, Programming Helper Tech Gleam 2026 overview
+   - Scope: Training data gap analysis and mitigation strategies, LSP-MCP bridge configuration for Gleam language server (diagnostics, hover, code actions, formatting), comprehensive AGENTS.md template for Gleam idioms (no if/else, no atoms, Result types, exhaustive pattern matching, dual-target awareness, verified Hex packages), four practical patterns (type-driven feature development, dual-target library development, OTP actor migration from Elixir, Hex package scaffolding), sandbox configuration for Hex network access, model selection for Gleam tasks (GPT-5.5 for type design/migration, GPT-5.4-mini for implementation), composing MCP servers, limitations (training data lag, no REPL integration, Hex package hallucination, JavaScript target gaps, no Gleam-specific MCP server)
+   - SEO targets: "codex cli gleam", "codex cli gleam development", "gleam mcp server codex", "codex cli beam vm", "codex cli type-safe functional programming", "codex cli gleam lsp", "codex cli gleam dual target"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Elixir, Haskell, Clojure, Scala, and every major imperative language but no article addressed Gleam despite its 21,400+ GitHub stars, v1.16.0 release (April 2026), 70% developer admiration rating, first conference (February 2026), rich built-in LSP with 40+ code actions, and unique dual-target compilation to both BEAM and JavaScript
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #207)
+
+### Codex CLI for Performance Profiling and Optimisation
+
+1. ✅ **Codex CLI for Performance Profiling and Optimisation: MCP-Driven Flamegraphs, Bottleneck Analysis, and Automated Fix Loops** — Written 2026-05-23 → `2026-05-23-codex-cli-performance-profiling-optimisation-mcp-flamegraph-bottleneck-workflows.md`
+   - Source: Profiler-MCP GitHub (Sarthak160), pprof-analyzer-mcp GitHub (ZephyrDeng), CodSpeed MCP Server changelog, OpenAI Codex Best Practices docs, OpenAI Models docs, OpenAI AGENTS.md guide
+   - Scope: Three MCP profiling servers (Profiler-MCP with Go/Python/Java support, pprof-analyzer with 7 tools including memory leak detection and heap time-series analysis, CodSpeed with benchmark-aware flamegraph querying and run comparison), AGENTS.md patterns for performance work (measure-first discipline, small reversible changes, re-measure requirements), four practical workflows (profile-diagnose-fix loop, memory leak detection, CodSpeed optimise loop, cross-language profiling with codex exec), model selection for performance tasks (GPT-5.5 for cross-service analysis, GPT-5.4-mini for single-function work), sandbox configuration for profiling endpoints, limitations (no live process attachment, SVG rendering requires Graphviz, JFR fixed 60s window, CodSpeed requires hosted CI)
+   - SEO targets: "codex cli performance profiling", "codex cli flamegraph", "codex cli bottleneck analysis", "codex cli pprof mcp", "codex cli code optimisation", "codex cli performance mcp server", "codex cli memory leak detection"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Codex CLI token/cost performance optimisation and benchmark scores but no article addressed using Codex CLI as a performance engineering tool for application-level profiling, flamegraph analysis, memory leak detection, or automated optimise-measure loops despite three MCP profiling servers (Profiler-MCP, pprof-analyzer, CodSpeed) being available
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-23, Hourly Task #206)
+
+### Codex CLI for Clojure Development Teams
+
+1. ✅ **Codex CLI for Clojure Development Teams: ClojureMCP, REPL-Driven Agent Workflows, and Structural Editing** — Written 2026-05-23 → `2026-05-23-codex-cli-clojure-development-teams-clojuremcp-repl-driven-agent-workflows.md`
+   - Source: ClojureMCP GitHub (bhauman), clojure-mcp-light GitHub (bhauman), clj-kondo-MCP GitHub (Bigsy), clojure-lsp releases, LSP-MCP Open VSX, OpenAI Non-interactive Mode docs, OpenAI Models docs, OpenAI Slash Commands docs
+   - Scope: Three MCP integration points (ClojureMCP with REPL eval/structural editing/delimiter repair via parinfer+cljfmt+clj-rewrite, clojure-mcp-light with standalone CLI tools for paren repair and nREPL eval, clj-kondo MCP with static linting), clojure-lsp v2026.05.05 bridged via LSP-MCP (cyclic-dependencies linter, rename, find-references), AGENTS.md template for Clojure projects (REPL-first development, pure functions, destructuring, namespaced keywords, threading macros, zero-warnings policy), four practical patterns (REPL-driven bug fix, ClojureScript cross-compilation with shadow-cljs dual REPLs, namespace refactoring with clojure-lsp, batch linting with codex exec), composing three MCP servers, model selection for Clojure tasks (GPT-5.5 for macros, GPT-5.4-mini for data pipelines), sandbox config for nREPL/Clojars network access, limitations (training data lag, no persistent REPL state, macro debugging, spec inference token budgets, ClojureMCP agent tool costs)
+   - SEO targets: "codex cli clojure", "codex cli clojure development", "clojure mcp server codex", "codex cli repl driven development", "codex cli clojurescript", "codex cli functional programming clojure", "codex cli clj-kondo"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Haskell, Elixir, Scala, and every major imperative language but no article addressed Clojure despite ClojureMCP providing comprehensive REPL-driven agent tooling with structural editing, clojure-mcp-light solving the Paren Edit Death Loop, clj-kondo-MCP enabling static analysis, and Clojure's REPL-first workflow being uniquely suited to interactive agent collaboration
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #205)
+
+### Codex CLI for R and Statistical Computing
+
+1. ✅ **Codex CLI for R and Statistical Computing: mcptools, ClaudeR, and Reproducible Research Workflows** — Written 2026-05-22 → `2026-05-22-codex-cli-r-statistical-computing-mcptools-clauder-reproducible-research-workflows.md`
+   - Source: Posit mcptools CRAN package, ClaudeR GitHub (IMNMV), OpenAI AGENTS.md docs, renv documentation, OpenAI Non-interactive Mode docs, OpenAI Models docs
+   - Scope: Two R MCP servers (Posit mcptools with server/client bidirectional integration, ClaudeR with RStudio bridge and statistical protocols), AGENTS.md templates for R projects (renv discipline, testthat conventions, tidyverse style, roxygen2 documentation, data discipline), renv integration for reproducible dependency management, Quarto/R Markdown document workflows, four practical patterns (EDA via live session, statistical model development, automated package development with codex exec, manuscript verification with Reviewer Zero), model selection for R tasks, composing both MCP servers, sandbox configuration for CRAN network access, limitations (training data lag for latest CRAN packages, plot inspection context limits, no persistent REPL, renv cold starts, Seatbelt sandbox conflicts)
+   - SEO targets: "codex cli r language", "codex cli statistical computing", "codex cli rstudio mcp", "codex cli mcptools", "codex cli r data science", "codex cli reproducible research", "codex cli clauder"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Python data science (Pandas/Polars, Jupyter), but no article addressed R despite Posit shipping an official mcptools CRAN package for MCP integration, ClaudeR providing RStudio-to-Codex CLI bridging with statistical protocols, and R remaining the dominant language in biostatistics and quantitative social science
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #204)
+
+### Codex CLI for Haskell Development Teams
+
+1. ✅ **Codex CLI for Haskell Development Teams: HLS via LSP-MCP, Type-Driven Agent Workflows, and AGENTS.md for Functional Codebases** — Written 2026-05-22 → `2026-05-22-codex-cli-haskell-development-hls-mcp-type-driven-agent-workflows.md`
+   - Source: LSP-MCP Server (Tritlo), codex-lsp plugin (code-yeongyu), Hackage mcp package v0.3.1.0, HLS 2.14.0.0 release blog, GHC LTS release schedule, OpenAI Codex Models docs, OpenAI Advanced Configuration docs
+   - Scope: Three MCP integration points (LSP-MCP bridge with typed-hole extension, codex-lsp plugin with post-tool-use lifecycle hooks, Hackage mcp library for custom servers), HLS 2.14.0.0 with GHC 9.14.1 LTS support, AGENTS.md patterns for Haskell projects (type signatures, qualified imports, partial function avoidance, Haddock conventions, typed holes), type-driven agent workflow with compiler-as-oracle pattern, ADT refactoring pattern using exhaustive pattern match diagnostics, model selection for Haskell tasks, permission profiles for Cabal builds, limitations (training data lag for GHC 9.14, Template Haskell sandbox conflicts, no GHCi REPL integration)
+   - SEO targets: "codex cli haskell", "codex cli haskell development", "haskell mcp server codex", "codex cli hls integration", "codex cli functional programming", "haskell type-driven agent", "codex cli ghc"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Elixir, Scala, and every major imperative language but no article addressed Haskell despite HLS 2.14.0.0 shipping with GHC 9.14 LTS support, LSP-MCP providing Haskell-specific typed-hole extensions, and the Haskell mcp library enabling native MCP server development
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #203)
+
+### Codex CLI for Nix Development
+
+1. ✅ **Codex CLI for Nix Development: MCP-NixOS, Reproducible Environments, and Flake-Native Agent Workflows** — Written 2026-05-22 → `2026-05-22-codex-cli-nix-development-mcp-nixos-reproducible-environments-flake-workflows.md`
+   - Source: MCP-NixOS GitHub, nix-mcp-server LobeHub listing, nixd GitHub, nil GitHub, codex-cli-nix flake (sadjow), codex-nix flake (SecBear), OpenAI Codex official flake.nix, LSP-MCP Server GitHub, OpenAI Config Reference, GitHub Issue #12102
+   - Scope: Two Nix MCP servers (MCP-NixOS with 130K+ packages/23K options/noogle, nix-mcp-server for local operations), TOML configuration for both stdio and Docker transports, language server integration via nixd 2.0.2 and nil through LSP-MCP bridge, AGENTS.md patterns for flake-based projects (lock file discipline, overlay conventions, module authoring rules, impure flag prohibition), five workflow patterns (package discovery, NixOS module authoring, flake input auditing with exec pipelines, cross-platform devShell generation, Home Manager configuration), installing Codex CLI via Nix flakes (three options: official, sadjow, SecBear), model selection profiles for Nix tasks, limitations (training data lag, evaluation complexity, MCP coverage gaps, no REPL integration)
+   - SEO targets: "codex cli nix", "codex cli nixos development", "mcp-nixos codex", "codex cli flakes", "codex cli reproducible environments", "nix mcp server codex cli", "codex cli home manager"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered every major language ecosystem (Go, Rust, Python, Ruby, Java, Kotlin, C++, Elixir, Scala, Swift, Dart, Svelte, Vue, Next.js, PHP, C#, Zig) and infrastructure tools (Terraform, Kubernetes, Docker, Bazel) but no article addressed Nix despite MCP-NixOS providing 130K+ package coverage, two active language servers, and Codex CLI itself shipping with an official flake.nix
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #202)
+
+### Codex CLI Session Patterns Decision Framework
+
+1. ✅ **Codex CLI Session Patterns: A Decision Framework for Threads, Worktrees, /side, Goals, and Subagents** — Written 2026-05-22 → `2026-05-22-codex-cli-session-patterns-threads-worktrees-side-goals-subagents-decision-framework.md`
+   - Source: OpenAI Best Practices docs, OpenAI Features docs, OpenAI Subagents docs, OpenAI Slash Commands docs, OpenAI Advanced Configuration docs, Codex CLI v0.133.0/v0.132.0/v0.131.0 release notes, Ofox.ai real-world workflow guide, OpenAI Developer Community quota discussion
+   - Scope: Five session patterns taxonomy (single thread, worktree, /side, goal, subagent), decision flowchart for pattern selection, practical configuration examples, composability of patterns across multi-day features, anti-patterns (mega-thread, premature delegation, worktree sprawl, vague goals, /fork vs /side confusion), session hygiene checklist, token cost comparison, v0.133 goals-default-on and v0.132 budget-halting fixes, custom agent role definitions, limitations (no cross-session subagents, ephemeral /side, beta goal schema, worktree disk pressure)
+   - SEO targets: "codex cli session management", "codex cli threads vs worktrees", "codex cli side thread", "codex cli goal mode", "codex cli subagents when to use", "codex cli session patterns", "codex cli workflow patterns"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — despite 14+ articles covering individual session features (goals, worktrees, subagents, resume/fork, compaction), no article provided a unified decision framework for choosing between the five patterns or documented their composability and anti-patterns
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #201)
+
+### Codex Doctor Diagnostic Command
+
+1. ✅ **Codex Doctor: The Diagnostic Command Every CLI User Should Know** — Written 2026-05-22 → `2026-05-22-codex-doctor-diagnostic-command-troubleshooting-runtime-auth-network-mcp.md`
+   - Source: Codex CLI v0.131.0 Changelog, GitHub PR #22336 (codex doctor implementation), SmartScope diagnostic logs guide, GitHub Issue #13838 (401 errors), OpenAI Developer Community MCP timeout thread, SmartScope network restrictions guide, AgentPatch MCP setup guide
+   - Scope: codex doctor command flags (--summary, --json, --all, --no-color), five diagnostic categories (environment, configuration, authentication, connectivity, background server), provider-aware auth checks, WebSocket diagnostics, MCP server health verification, Notes section for promoted anomalies, feedback/Sentry integration, four practical patterns (MCP timeout diagnosis, CI health gate, post-upgrade verification, log-level triage), common failure signatures table, limitations (point-in-time snapshot, beta JSON schema, macOS Seatbelt discrepancy)
+   - SEO targets: "codex doctor", "codex cli diagnostics", "codex cli troubleshooting", "codex doctor json", "codex mcp troubleshooting", "codex cli 401 fix", "codex doctor diagnostic command"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — codex doctor shipped in v0.131.0 and is mentioned in passing in several articles but no dedicated article explained the full diagnostic taxonomy, output modes, feedback integration, or practical troubleshooting patterns
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #200)
+
+### Codex CLI for Database Schema Migrations
+
+1. ✅ **Codex CLI for Database Schema Migrations: Safe Evolution Patterns with Prisma, Drizzle, and MCP** — Written 2026-05-22 → `2026-05-22-codex-cli-database-schema-migrations-prisma-drizzle-mcp-safe-evolution-patterns.md`
+   - Source: Greycloak Postgres MCP guide, Prisma MCP Server docs, Drizzle MCP GitHub, ChatForest database migration MCP review, OpenAI AGENTS.md docs, OpenAI Codex CLI Features docs, OpenAI Codex Permissions docs, Codex CLI v0.133.0 release notes, Composio Prisma MCP integration, Google MCP Toolbox for Databases
+   - Scope: Database MCP server landscape (Postgres/MySQL direct servers, Prisma MCP with migrate-status/migrate-dev/migrate-reset, Drizzle MCP with schema introspection, boringSQL/dryrun for offline safety analysis), AGENTS.md migration convention encoding (safety rules, naming conventions, review requirements), six practical patterns (schema-first migration generation, exec pipeline migration review, cross-referencing schema and application code with subagents, sandbox permission profiles for migration safety, production migration validation with exec resume multi-stage pipelines, drift detection between schema and code), v0.133 permission profile inheritance for migration-specific boundaries, model selection routing (GPT-5.5 for complex migrations, GPT-5.4-mini for review/analysis), GitHub Actions CI integration, security considerations (archived server vulnerabilities, credential hygiene)
+   - SEO targets: "codex cli database migration", "codex cli prisma migration", "codex cli drizzle schema", "codex cli postgres mcp migration", "codex cli schema evolution", "codex cli database mcp", "codex cli safe migration patterns"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article addressed database schema migration workflows despite Prisma MCP (built into CLI v6.6.0+), Drizzle MCP, multiple Postgres MCP servers, and boringSQL/dryrun all being available as MCP tools, and database migrations representing one of the highest-consequence development workflows where agent safety guardrails matter most
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #199)
+
+### Codex CLI for Embedded and Firmware Development
+
+1. ✅ **Codex CLI for Embedded and Firmware Development: PlatformIO MCP, Zephyr Workflows, and AGENTS.md for Hardware Teams** — Written 2026-05-22 → `2026-05-22-codex-cli-embedded-firmware-development-platformio-zephyr-mcp-agents-md-workflows.md`
+   - Source: PlatformIO MCP Server v2 GitHub (jl-codes), Zephyr MCP Server (hakehuang), OpenAI Codex CLI Features docs, OpenAI Codex Sandbox docs, OpenAI AGENTS.md docs, OpenAI Non-interactive Mode docs, Codex CLI v0.133.0 release notes, MCP Market embedded systems skill, ReversetoBuild embedded firmware article
+   - Scope: PlatformIO MCP server v2.2.1 with 11 tools (list_boards, build_project, upload_firmware, start_monitor, etc.), Zephyr MCP server for west build/flash workflows, AGENTS.md patterns for firmware projects (hardware constraints, memory budgets, coding conventions, subdirectory driver rules), sandbox configuration for hardware access (network_access for library downloads, MCP-mediated device flashing), four practical patterns (board bring-up, FreeRTOS task audit, register documentation, cross-target CI verification with codex exec), model selection guide for firmware tasks (GPT-5.5 for drivers, GPT-5.4-mini for builds), limitations (training data gaps for niche MCUs, no hardware-in-the-loop, no timing verification)
+   - SEO targets: "codex cli embedded development", "codex cli firmware", "codex cli platformio mcp", "codex cli esp32 stm32", "codex cli zephyr rtos", "codex cli microcontroller", "codex cli freertos"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered every major application-level language ecosystem but no article addressed embedded/firmware development despite PlatformIO MCP server v2 shipping with direct Codex CLI support, Zephyr MCP servers existing, and firmware teams representing a significant underserved audience
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #198)
+
+### Codex CLI for Zig Development Teams
+
+1. ✅ **Codex CLI for Zig Development Teams: ZLS MCP Integration, Cross-Compilation Workflows, and Build System Automation** — Written 2026-05-22 → `2026-05-22-codex-cli-zig-development-teams-zls-mcp-cross-compilation-build-system.md`
+   - Source: Zig 0.16.0 Release Notes, zig-mcp MCP server (nzrsky), mcp-server-zig (sadopc), Zig 0.14.0 Release Notes (build.zig.zon), OpenAI Codex GitHub Action docs, Codex CLI v0.133.0 release notes, Zig Programming Language official docs
+   - Scope: Two MCP server options for ZLS integration (zig-mcp with 16 tools vs mcp-server-zig with 8 tools), AGENTS.md configuration for Zig projects (build commands, allocation constraints, conventions), cross-compilation workflows with codex exec for multi-target verification, build.zig automation and dependency management via build.zig.zon, Zig-specific prompting patterns (comptime code generation, error handling, memory management), permission profile configuration for Zig dev, limitations (model training data lag for Zig 0.16, ZLS version matching, comptime debugging)
+   - SEO targets: "codex cli zig", "codex cli zig development", "zig mcp server codex", "codex cli cross compilation zig", "zig zls mcp integration", "codex cli systems programming zig"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Codex CLI for Go, Rust, Python, Ruby, Java, Kotlin, C++, Elixir, Scala, Swift, Flutter/Dart, Svelte, Vue, and Next.js, but no article addressed Zig despite its growing adoption (TIOBE #39), two active MCP servers (zig-mcp, mcp-server-zig), and Zig 0.16.0 shipping in May 2026
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #197)
+
+### Codex CLI Deployment Verification Patterns
+
+1. ✅ **Codex CLI Deployment Verification Patterns: exec Pipelines for Smoke Tests, API Validation, and Infrastructure Drift Detection** — Written 2026-05-22 → `2026-05-22-codex-cli-deployment-verification-exec-pipelines-smoke-tests-api-validation-drift-detection.md`
+   - Source: OpenAI Non-interactive Mode docs, OpenAI CLI Reference docs, OpenAI GitHub Action docs, OpenAI Models docs, OpenAI Best Practices docs, Steve Kinney structured CLI output guide, Brainboard drift detection best practices, Pulumi Day 2 Operations guide, GitHub Issue #14343 (exec resume --output-schema)
+   - Scope: Four deployment verification patterns (API contract smoke test, multi-endpoint regression sweep, infrastructure drift detection, resume-based progressive verification), --output-schema for structured JSON verdicts, codex exec with read-only sandbox, exec resume for stateful multi-stage verification, GitHub Actions integration with openai/codex-action@v1, cost-optimised GPT-5.4-mini configuration with reasoning_effort=low, drift detection comparing Terraform state vs live AWS resources, endpoint manifest pattern for scalable testing, limitations (non-determinism, rate limits, schema validation caveats)
+   - SEO targets: "codex cli deployment verification", "codex exec smoke test", "codex cli post-deployment", "codex exec output-schema pipeline", "codex cli infrastructure drift detection", "codex cli API validation", "codex exec resume verification"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — while existing articles cover CI/CD autofix, self-healing pipelines, and exec Unix pipelines, no article addressed the post-deployment verification gap: using codex exec pipelines with --output-schema to produce structured pass/fail/warning verdicts for API contract validation, infrastructure drift detection, and progressive rollout verification
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #196)
+
+### Codex CLI v0.133 Extension Lifecycle Events
+
+1. ✅ **Codex CLI v0.133 Extension Lifecycle Events: Building Observability Plugins with SubagentStart, ToolExecution, and TurnMetadata** — Written 2026-05-22 → `2026-05-22-codex-cli-v0133-extension-lifecycle-events-observability-plugins-subagent-tool-turn-metadata.md`
+   - Source: OpenAI Codex Hooks docs, OpenAI Codex Changelog, GitHub openai/codex releases (rust-v0.133.0), OpenAI Build plugins docs, OpenAI Admin Setup docs
+   - Scope: Five new v0.133 observation events (SubagentStart, SubagentStop, ToolExecution, TurnMetadata, AsyncApproval), architectural distinction between interception hooks (6 original events) and observation events (5 new events), complete eleven-event model, event payload schemas with JSON examples, observation vs interception comparison table, building a minimal observability plugin (manifest with lifecycle_events capability, hook configuration, JSONL handler script), enterprise patterns (SIEM integration, cost alerting from TurnMetadata, compliance audit trail from AsyncApproval), plugin installation and activation, limitations and beta caveats
+   - SEO targets: "codex cli extension lifecycle events", "codex v0.133 SubagentStart", "codex ToolExecution event", "codex TurnMetadata plugin", "codex observability plugin", "codex cli agent lifecycle hooks", "codex AsyncApproval event"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.133.0 shipped five new extension lifecycle events but existing articles only covered them at bullet-point level in the release guide; no article explained the observation vs interception architecture or provided a plugin-building walkthrough
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #195)
+
+### Codex Computer Use and Locked Mac Remote Desktop
+
+1. ✅ **Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent** — Written 2026-05-22 → `2026-05-22-codex-computer-use-locked-mac-remote-desktop-agent-cua-mobile-safeguards.md`
+   - Source: OpenAI Computer Use docs, OpenAI Use Cases docs, OpenAI Changelog v26.519, TestingCatalog coverage, Knightli enterprise access tokens coverage, MacRumors mobile launch coverage
+   - Scope: CUA setup and capabilities (click/type/scroll/clipboard/screenshots), locked Mac computer use (May 21 feature — temporary unlock with display coverage, time-limited auth, automatic relock), three core safeguards, Codex Mobile + remote CUA workflow, always-allow list configuration, limitations (no terminal automation, no admin auth, no EEA), practical patterns (bug reproduction, cross-app data collection, iOS simulator testing on locked Mac, Figma design-to-code), security best practices, relationship to CLI (Appshots bridge, codex remote-control, subagent orchestration), enterprise implications (headless Mac Mini farms, on-call GUI workflows, MDM policy updates)
+   - SEO targets: "codex computer use locked mac", "codex CUA remote desktop", "codex gui agent macos", "codex mobile computer use", "codex locked screen agent", "codex desktop automation safeguards"
+   - Note: Locked computer use shipped 21 May 2026 in changelog v26.519; existing articles covered Appshots and mobile remote control separately but no article unified the full CUA feature set with the new locked Mac capability, its three safeguards, and the enterprise headless Mac Mini farm pattern
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #194)
+
+### Codex CLI Permission Profile Inheritance
+
+1. ✅ **Codex CLI Permission Profile Inheritance: Composable Security Policies and List APIs in v0.133** — Written 2026-05-22 → `2026-05-22-codex-cli-permission-profile-inheritance-composable-security-policies-v0133.md`
+   - Source: GitHub openai/codex releases (rust-v0.133.0), OpenAI Codex Permissions docs, OpenAI Config basics docs, OpenAI Managed configuration docs, OpenAI Sandbox docs
+   - Scope: Permission profile config-layer inheritance (system/org/user/project layering), deny-overrides-write-overrides-read precedence, list APIs (codex permissions list/show/--trace), managed requirements.toml integration with immutable deny rules, runtime refresh for managed requirements, platform-specific enforcement improvements (macOS Seatbelt, Linux bwrap/seccomp, Windows restricted tokens), three practical patterns (org-wide base with team overrides, review profile, CI pipeline profile), migration from legacy sandbox_mode, limitations and beta status caveats
+   - SEO targets: "codex cli permission profile inheritance", "codex permission profiles v0.133", "codex composable security policies", "codex permissions list api", "codex requirements.toml", "codex cli enterprise security profiles", "codex sandbox permission profiles"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.133.0 shipped 21 May 2026 with profile inheritance, list APIs, and managed requirements.toml support, but no existing article covered these three features as a unified composable security policy system despite the v0.133 release guide mentioning them briefly
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-22, Hourly Task #193)
+
+### Codex Appshots
+
+1. ✅ **Codex Appshots: Screenshot-Driven Context for Developer Workflows on macOS** — Written 2026-05-22 → `2026-05-22-codex-appshots-screenshot-driven-context-developer-workflows-macos.md`
+   - Source: OpenAI Codex Changelog (v26.519, 21 May 2026), OpenAI Appshots docs, OpenAI Codex App docs, OpenAI Codex CLI Features docs, 9to5Mac Appshots coverage, SC Media Chronicle privacy analysis
+   - Scope: Appshots dual-payload capture (screenshot + accessibility text), macOS permissions (Screen Recording, Accessibility), 60-second threading heuristic, comparison table (CLI --image vs Appshots vs Computer Use), privacy and enterprise considerations, Chronicle relationship, five practical patterns (bug triage, Figma design-to-code, IDE error diagnosis, documentation cross-reference, CLI bridge handoff), Google Workspace limitations, configuration and MDM lockdown, context convergence architecture
+   - SEO targets: "codex appshots", "codex appshots macos", "codex screenshot context", "codex app screenshot developer", "codex appshots vs cli image", "codex appshots privacy", "codex app context injection"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Appshots shipped 21 May 2026 with no existing article covering the feature, its dual-payload architecture, privacy implications, or practical developer workflow patterns
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #192)
+
+### Codex CLI v0.133.0 Stable Release Guide
+
+1. ✅ **Codex CLI v0.133.0 Release Guide: Goals Enabled by Default, Permission Profile Inheritance, and Extension Lifecycle Events** — Written 2026-05-21 → `2026-05-21-codex-cli-v0133-release-guide-goals-default-permission-inheritance-extension-events-packaging.md`
+   - Source: GitHub openai/codex releases (rust-v0.133.0), OpenAI Codex Changelog (v26.519, 21 May 2026), OpenAI Codex CLI Features docs, OpenAI Codex Configuration Reference, OpenAI Codex Advanced Configuration docs, GitHub PRs #23300, #22928, #23412, #22782, #23372, #23727, #23513
+   - Scope: Five pillars of v0.133.0 (goals default-on with dedicated DB, permission profile inheritance with extends key and list APIs, five new extension lifecycle events including SubagentStart/Stop/ToolExecution/TurnMetadata/AsyncApproval, plugin discovery improvements with marketplace-aware output and remote collections, canonical package builder with zstd compression), upgrade path from v0.132, configuration migration guide, three practical patterns (goal-driven migration, inherited permission profiles for team governance, extension-driven cost monitoring), version comparison table v0.131-v0.133, bug fixes including TUI startup directory, plan-mode Enter key, stale background terminal events, AGENTS.md loading reliability, app-server startup races
+   - SEO targets: "codex cli v0.133", "codex cli v0.133 release", "codex cli goals enabled default", "codex permission profile inheritance", "codex extension lifecycle events", "codex cli upgrade guide 2026", "codex cli release guide May 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — the existing v0.133 article covered only the alpha pre-release signals, while the stable v0.133.0 release shipped on 21 May 2026 with 80+ merged PRs, goals promoted to default-on status, permission profile inheritance, five new extension lifecycle events, and a canonical package builder pipeline — none of which were covered as shipping stable features
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #191)
+
+### Codex CLI Prompt Engineering for the GPT-5.5 Era
+
+1. ✅ **Codex CLI Prompt Engineering in the GPT-5.5 Era: Outcome-First Patterns, Anti-Patterns, and the Prompts That Ship Code on the First Turn** — Written 2026-05-21 → `2026-05-21-codex-cli-prompt-engineering-outcome-first-patterns-gpt55-senior-developer-workflows.md`
+   - Source: OpenAI Best Practices docs, OpenAI Prompting docs, OpenAI Cookbook GPT-5 Codex Prompting Guide, GPT-5.5 announcement, Codex CLI v0.133.0 release notes, Codex CLI Changelog
+   - Scope: Four-part prompt anatomy (goal/context/constraints/done-when), outcome-first vs step-by-step prompting comparison, AGENTS.md boundary and hierarchical loading (global/repo/subdirectory), reasoning effort selection guide (Low/Medium/High/Extra High), verification steps as highest-ROI investment, plan-first decision framework (/plan vs direct prompt), @ mention context injection patterns, five token-wasting anti-patterns (micromanager, kitchen-sink, missing verification, AGENTS.md bypass, static reasoning), prompt templates for bug fix/feature/review/refactoring, compound pattern (AGENTS.md + prompt + /goal), GPT-5.5 specific changes (shorter prompts, anti-pattern constraints, phase parameter)
+   - SEO targets: "codex cli prompt engineering", "codex cli prompting best practices", "codex cli GPT-5.5 prompts", "codex cli outcome first prompting", "codex cli AGENTS.md prompting", "codex cli done when criteria", "codex prompt anti-patterns"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — only one early prompting article existed (March 26), written before GPT-5.5, Plan Mode maturation, /goal, /side, unified @ mentions, and v0.131-v0.133 features, leaving a major gap in the knowledge base for the most fundamental Codex CLI skill: writing effective prompts
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #190)
+
+### Codex CLI Session Transcripts and Replay Tools
+
+1. ✅ **Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis** — Written 2026-05-21 → `2026-05-21-codex-cli-session-transcripts-jsonl-replay-viewer-tools-audit-analysis.md`
+   - Source: OpenAI Codex Non-interactive Mode docs, OpenAI Codex CLI Features docs, OpenAI Codex CLI Reference docs, OpenAI Codex Changelog, codex-transcript-viewer GitHub, claude-replay GitHub, ai-transcript GitHub, codex-transcripts GitHub, Codex History Viewer VS Code Marketplace, takopi exec --json cheatsheet, GitHub Issue #21196
+   - Scope: JSONL rollout file location and naming convention, event schema (thread.started, turn.started/completed/failed, item.started/completed, error), item types (agent_message, command_execution, file_change, mcp_tool_call, reasoning, web_search, plan_update), token usage fields including reasoning_output_tokens, four community replay/viewer tools (codex-transcript-viewer, claude-replay, ai-transcript, codex-transcripts), Codex History Viewer VS Code extension (v2.2.0), five practical patterns (post-incident audit, token cost analysis, tool call profiling, shareable session replays for code review, regression detection), known limitations (no official export, rollout file durability issues, schema instability, no built-in redaction)
+   - SEO targets: "codex cli session transcripts", "codex cli jsonl format", "codex session replay", "codex transcript viewer", "codex cli audit trail", "codex rollout jsonl", "codex cli session history tools", "codex exec json events"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — while existing articles cover log files and debug tracing (May 21), OTLP traces dashboard (May 6), and session resume workflows (May 3, May 8), no article provided a unified reference for the JSONL rollout file format, the growing community ecosystem of replay and viewer tools (codex-transcript-viewer, claude-replay, ai-transcript, codex-transcripts, Codex History Viewer), or practical jq-based patterns for extracting audit, cost, and profiling insights from session transcripts
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #189)
+
+### Codex CLI + shadcn/ui Design System Workflows
+
+1. ✅ **Codex CLI + shadcn/ui: Agent-Driven Design System Workflows with MCP Server, Skills, and CLI v4** — Written 2026-05-21 → `2026-05-21-codex-cli-shadcn-ui-design-system-mcp-skills-component-workflows.md`
+   - Source: shadcn/ui CLI v4 changelog, shadcn/ui Skills docs, shadcn/ui MCP Server docs, OpenAI Codex Advanced Configuration docs, mattbx/shadcn-skills GitHub, codex-frontend-skill GitHub, OpenAI Codex Skills docs
+   - Scope: shadcn MCP server configuration for Codex CLI (config.toml setup, registry browsing, cross-registry search, natural-language installation, private registry auth), shadcn skill system (shadcn info --json context injection, CLI command reference, discovery-before-creation pattern), AGENTS.md design system governance (component rules, semantic tokens, completion criteria, subdirectory overrides), CLI v4 inspection flags (--dry-run, --diff, --view) in agent workflows, community shadcn-skills (component discovery across 30+ registries, component review against five themes), registry:base for distributing entire design systems, Presets engine for shareable design configurations, common pitfalls (over-wrapping with Card, raw Tailwind values, ignoring installed components, Tailwind v3/v4 syntax mismatch)
+   - SEO targets: "codex cli shadcn", "codex cli design system", "shadcn mcp server codex", "shadcn skills codex cli", "codex cli component workflow", "shadcn registry codex", "codex cli frontend design system", "shadcn agents md"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — only one Storybook article and one general frontend article existed, but no article covered the three-layer shadcn/ui integration (MCP server + skills + AGENTS.md) that shipped with CLI v4 in March 2026, despite shadcn/ui being the most widely adopted component toolkit in the React ecosystem
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #188)
+
+### Codex CLI Security Testing Tools
+
+1. ✅ **Codex CLI Security Testing Tools: codex sandbox, codex execpolicy, and Offline Policy Validation** — Written 2026-05-21 → `2026-05-21-codex-cli-security-testing-tools-sandbox-execpolicy-offline-policy-validation.md`
+   - Source: OpenAI Codex Agent Approvals & Security docs, OpenAI Codex Permissions docs, OpenAI Codex Rules docs, OpenAI Codex Sandbox docs, OpenAI Codex CLI Reference docs
+   - Scope: `codex sandbox` subcommand (platform-specific flags for macOS/Linux/Windows, --permissions-profile, --log-denials, --allow-unix-socket, --include-managed-config), `codex execpolicy check` subcommand (--rules repeatable flag, --pretty JSON output, decision precedence), permission profile definition and testing, Starlark .rules file validation, shell script safe splitting semantics, host_executable() path pinning, CI pipeline integration patterns, table-driven validation scripts, combined sandbox+execpolicy workflow, limitations (platform requirements, preview status, scope boundaries)
+   - SEO targets: "codex sandbox command", "codex execpolicy check", "codex cli security testing", "codex permission profile validation", "codex cli policy testing", "codex starlark rules test", "codex sandbox log denials"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — while individual articles cover sandbox internals, permission profiles, and execution policy rules separately, no article provided a unified practical guide to the two standalone security testing subcommands (codex sandbox and codex execpolicy check) that allow offline, token-free policy validation and CI integration
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #187)
+
+### Codex CLI for Scala Development Teams
+
+1. ✅ **Codex CLI for Scala Development Teams: Metals MCP, sbt, and Idiomatic Functional Workflows** — Written 2026-05-21 → `2026-05-21-codex-cli-for-scala-development-teams-metals-mcp-sbt-functional-agent-workflows.md`
+   - Source: Metals MCP documentation (scalameta.org), sbt 2.x docs, Scala 3.9 LTS release notes, metals-standalone-client GitHub, cc-skills-scala community skills, Codex CLI v0.132 changelog
+   - Scope: Three-layer configuration — Metals MCP server (9 tools: compile, diagnostics, symbol search, references, hover, implementations, document symbols, workspace symbol, rename), sbt integration (incremental compilation, multi-project builds, verify sequences), AGENTS.md template (Scala 3 syntax mandates, effect system conventions, implicits/givens guidance, error handling patterns), configuration profiles for batch/review/sprint, common agent failure modes (Scala 2 syntax generation, Any/Nothing inference, implicit abuse, effect system mixing), effect system guidance for Cats Effect/ZIO/Ox
+   - SEO targets: "codex cli scala", "codex cli metals mcp", "codex cli sbt", "codex cli scala development", "metals mcp server codex", "codex cli functional programming", "codex cli scala 3"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Scala was the only major JVM language without a dedicated Codex CLI article (Go, Rust, Ruby, Python, C/C++, Elixir, Swift, Kotlin, Java, PHP, .NET all had existing articles)
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #186)
+
+### Codex CLI Log Files and Debug Tracing
+
+1. ✅ **Codex CLI Log Files and Debug Tracing: The Complete Diagnostic Toolkit for When Sessions Fail** — Written 2026-05-21 → `2026-05-21-codex-cli-log-files-debug-tracing-diagnostic-toolkit-troubleshooting.md`
+   - Source: SmartScope diagnostic logs guide, OpenAI CLI Reference docs, OpenAI Slash Commands docs, OpenAI Advanced Configuration docs, GitHub PR #22336 (codex doctor), GitHub Issue #17320 (TRACE logging WAL writes), codex-trace community tool, codex-transcript-viewer community tool
+   - Scope: Runtime log file location (~/.codex/log/codex-tui.log), JSONL session transcript format (~/.codex/sessions/), RUST_LOG environment variable syntax and crate-level targeting, RUST_LOG_FORMAT options, codex doctor command (six diagnostic sections, --summary/--json/--all flags, CI preflight pattern), /debug-config for effective configuration inspection, /feedback for support submission, /status for session state, codex debug subcommands, four common failure patterns (auth 401, MCP handshake timeout, sandbox denials, WebSocket disconnection loops) with diagnostic paths, OpenTelemetry export for production monitoring, complete diagnostic workflow sequence
+   - SEO targets: "codex cli log files", "codex cli debug tracing", "codex cli RUST_LOG", "codex cli troubleshooting logs", "codex cli diagnostic toolkit", "codex doctor json", "codex cli session transcripts JSONL"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover codex doctor (May 20), troubleshooting field guide (May 1), and OpenTelemetry observability (April 20), but no article provided a unified reference for the complete diagnostic toolkit including runtime log files, JSONL session transcripts, RUST_LOG verbosity control, all debug slash commands, codex debug subcommands, common failure pattern signatures, and the recommended diagnostic workflow sequence
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #185)
+
+### Codex CLI MITM Hooks
+
+1. ✅ **Codex CLI MITM Hooks: HTTPS Request Interception, Header Mutation, and Network-Level Policy Enforcement** — Written 2026-05-21 → `2026-05-21-codex-cli-mitm-hooks-https-request-interception-network-proxy-enterprise-security.md`
+   - Source: GitHub PR #18868 (MITM hook config model), GitHub PR #20659 (runtime enforcement), GitHub PR #18240 (named MITM permissions config), codex-network-proxy README, OpenAI Codex Advanced Configuration docs, OpenAI Codex CLI Features docs, DeepWiki network proxy docs
+   - Scope: Managed network proxy architecture (HTTP/SOCKS5 listeners, allowlist-first policy, TLS termination via managed CA), MITM hook configuration surface (host, methods, path_prefixes, query, headers matchers with literal/pattern/glob syntax), action blocks (strip_request_headers, inject_request_headers with secret_env_var/secret_file resolution), default-deny for hooked hosts, four practical patterns (credential stripping, credential rotation via injection, write-blocking internal APIs, path-scoped API access), enterprise enforcement via requirements.toml, OTEL audit events, relationship to existing defence-in-depth layers, limitations (no body matching, no response interception, CA trust requirements, platform support)
+   - SEO targets: "codex cli mitm hooks", "codex cli https interception", "codex cli network proxy hooks", "codex cli request header mutation", "codex cli enterprise network security", "codex cli credential stripping proxy", "codex network-proxy mitm"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — three PRs landed on 20 May 2026 introducing a completely new MITM hook system for request-level HTTPS interception within the managed network proxy, with no existing article covering the feature despite it being the finest-grained network security control available in Codex CLI
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #184)
+
+### Codex CLI Execution Policy Rules
+
+1. ✅ **Codex CLI Execution Policy Rules: Starlark-Based Command Governance, Smart Approvals, and Enterprise Allowlists** — Written 2026-05-21 → `2026-05-21-codex-cli-execution-policy-rules-starlark-command-governance-enterprise-allowlists.md`
+   - Source: OpenAI Rules docs, OpenAI Execution Policy docs, openai/codex execpolicy README, Starlark Language Specification, OpenAI Managed Configuration docs, OpenAI CLI Reference docs
+   - Scope: Starlark `.rules` file format, `prefix_rule()` function signature and all parameters (pattern, decision, justification, match/not_match), pattern matching with token unions, shell command parsing (safe splitting vs conservative parsing), `host_executable()` path pinning, `codex execpolicy check` CLI testing, smart approvals TUI feedback loop, enterprise enforcement via `requirements.toml` (delivery mechanisms, decision constraints), four practical rule-set patterns (safe git workflow, language-specific build tools, CI pipeline lockdown, executable path pinning), limitations and caveats
+   - SEO targets: "codex cli execution policy", "codex cli rules starlark", "codex execpolicy check", "codex cli command governance", "codex cli enterprise allowlist", "codex cli prefix_rule", "codex requirements.toml rules"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — the execution policy rules system is central to Codex CLI's security model but no existing article covered the Starlark rule syntax, pattern matching semantics, shell command parsing behaviour, host_executable constraints, smart approvals feedback loop, or enterprise enforcement via requirements.toml despite these being critical for teams deploying Codex CLI with governance requirements
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #183)
+
+### Codex CLI for Go Development Teams
+
+1. ✅ **Codex CLI for Go Development Teams: gopls MCP, Agent Skills, and Go 1.26 Workflows** — Written 2026-05-21 → `2026-05-21-codex-cli-for-go-development-teams-gopls-mcp-skills-agents-md-workflows.md`
+   - Source: Go 1.26 Release Notes, gopls MCP docs (go.dev), gopls-mcp.org Codex setup guide, samber/cc-skills-golang GitHub, Yantrio/mcp-gopls GitHub, hloiseau/mcp-gopls GitHub, OpenAI Codex Skills docs, OpenAI Codex Changelog v0.132.0, Codex Blog Go teams article
+   - Scope: gopls built-in MCP server setup (attached vs detached mode, 12 tools), community gopls-mcp wrappers, cc-skills-golang 35+ atomic skills (code style, error handling, concurrency, testing, security, modernise), single-handling rule enforcement, production AGENTS.md template for Go 1.26 (build/test/lint/verify sequence, code style, testing conventions, concurrency rules, security gates), subdirectory overrides, CI/CD integration with codex exec and GitHub Actions, verification flow diagram, Go 1.26 considerations (enhanced new(), self-referential generics, Green Tea GC, go fix modernisers)
+   - SEO targets: "codex cli go development", "codex cli golang teams", "gopls mcp codex cli", "codex cli agents md go template", "codex cli go 1.26 workflow", "go skills codex cli", "codex cli golangci-lint"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — dedicated language-specific articles exist for Rust, Ruby/Rails, Python/Django/FastAPI, C/C++, Elixir/Phoenix, and Swift teams but none for Go despite Go being a top-5 language for backend and cloud-native development, and gopls having shipped official MCP support in v0.20
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-21, Hourly Task #182)
+
+### Codex Remote Connections
+
+1. ✅ **Codex Remote Connections: Mobile Pairing, SSH Hosts, and Enterprise Access Tokens** — Written 2026-05-21 → `2026-05-21-codex-remote-connections-mobile-pairing-ssh-hosts-enterprise-access-tokens.md`
+   - Source: OpenAI Remote Connections docs, OpenAI Authentication docs, OpenAI CLI Reference docs, Knightli mobile access coverage, Gadget Bridge mobile launch coverage, OpenAI Codex Changelog
+   - Scope: Remote access architecture (app-server daemon, secure relay, WebSocket, SSH), mobile pairing setup and capabilities, SSH remote project configuration, device-to-device control, WebSocket authentication modes (capability token, signed bearer token), enterprise access tokens for CI/CD, device-code flow, credential storage options, multi-surface workflow patterns, security recommendations
+   - SEO targets: "codex remote connections", "codex mobile pairing", "codex ssh remote", "codex enterprise access tokens", "codex remote control daemon", "codex cli remote access 2026", "codex app-server websocket"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the complete remote connections system including mobile pairing (launched 14 May 2026), SSH host configuration, WebSocket daemon transport, enterprise access tokens, or the multi-surface workflow pattern despite remote access being a critical capability for enterprise teams and mobile developers
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #181)
+
+### v0.133.0-alpha.1 Signals: SubagentStart Hook, Goal DB, Permission Profile APIs
+
+1. ✅ **Codex CLI v0.133.0-alpha.1: SubagentStart Hooks, Dedicated Goal DB, and Permission Profile APIs — What the Next Release Signals for Multi-Agent Orchestration** — Written 2026-05-21 → `2026-05-21-codex-cli-v0133-alpha-subagent-hooks-goal-db-permission-profile-apis-multi-agent-orchestration.md`
+   - Source: GitHub openai/codex releases (rust-v0.133.0-alpha.1, 20 May 2026), 58 commits between v0.132.0 and v0.133.0-alpha.1
+   - Scope: SubagentStart lifecycle hook (#22782) for spawn-time orchestration gates, dedicated goal DB (#23300) for persistent cross-session goal tracking, permission profile list/picker APIs (#22928, #23412) for programmatic profile discovery, role-defined spawn service tiers (#22169) for per-role cost control in multi-agent setups, context baselines for full-history agent forks (#23352), plugin ID in MCP tool metadata (#23353) for provenance audit, Codex package builder (#23513) for distributable packaging, deny-canonical filesystem permissions (#23493), implications for enterprise multi-agent workflows
+   - SEO targets: "codex cli v0.133", "codex subagent start hook", "codex cli goal database", "codex permission profile api", "codex cli multi-agent orchestration 2026", "codex cli service tiers subagents"
+   - Note: Pre-release; article should clearly label features as alpha and subject to change. Key insight is the convergence of SubagentStart hook + role tiers + context baselines as a production multi-agent orchestration stack.
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #180)
+
+### codex doctor Diagnostics Deep Dive
+
+1. ✅ **codex doctor: The Diagnostics Command That Replaces Manual Log Archaeology** — Written 2026-05-20 → `2026-05-20-codex-doctor-diagnostics-command-troubleshooting-support-ready-reports.md`
+   - Source: GitHub PR #22336 (codex doctor implementation), OpenAI Codex Changelog v0.131.0, SmartScope diagnostic logs guide, OpenAI CLI reference docs, Uniflow troubleshooting guide, GitHub PR #18880 (debug trace reducer)
+   - Scope: Complete codex doctor walkthrough — five diagnostic sections (Environment, Configuration, Updates, Connectivity, Background Server), Notes anomaly promotion, output flags (--summary, --json, --all, --no-color), CI pipeline preflight integration, /feedback automatic attachment with Sentry tags, enterprise fleet diagnostics, relationship to /debug-config and codex debug, common diagnostic patterns (auth conflicts, MCP failures, TUI rendering, CI drift)
+   - SEO targets: "codex doctor", "codex cli diagnostics", "codex cli troubleshooting", "codex doctor command", "codex cli support diagnostics", "codex doctor json report"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — codex doctor is mentioned in passing in several existing articles but no dedicated article covered the full command surface, output sections, flags, CI integration patterns, or relationship to other diagnostic tools
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #179)
+
+### 1Password Environments MCP Server for Codex
+
+1. ✅ **1Password Environments MCP Server for Codex: Just-in-Time Credential Access for Coding Agents** — Written 2026-05-20 → `2026-05-20-1password-codex-mcp-just-in-time-credential-access-agent-secrets-security.md`
+   - Source: SiliconANGLE 1Password announcement, DevOps.com coverage, BusinessWire press release, OpenAI MCP docs, 1Password Developer docs, community 1Password MCP GitHub, Codex Blog secrets defence article
+   - Scope: 1Password Environments MCP Server architecture, just-in-time credential injection pattern, MCP transport isolation (no secret values in MCP channel), three-layer security model (MCP transport, process runtime, vault governance), Codex CLI config.toml setup, enterprise requirements.toml enforcement, op:// secret reference syntax in AGENTS.md, comparison with shell env/dotenv/cloud secrets/config.toml env blocks, practical database migration workflow, anti-patterns (community MCP for production, auto-approve credentials, printing secrets), agent identity layer implications, Unified Access platform context
+   - SEO targets: "1password codex mcp", "codex cli secrets management", "just in time credentials codex", "1password environments mcp server", "codex agent credential security", "codex mcp vault integration 2026", "coding agent secrets management"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — 1Password announced the Environments MCP Server for Codex on 20 May 2026 as the first official credential-management partnership for OpenAI's Codex platform, implementing a zero-plaintext-exposure just-in-time pattern where secret values never enter the MCP transport channel or model context window, yet no existing article covered the integration architecture, configuration, or security model despite credential management being the single largest security concern for agentic coding workflows
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #178)
+
+### Red-Teaming Codex CLI Agents with Promptfoo
+
+1. ✅ **Red-Teaming Codex CLI Agents with Promptfoo: Adversarial Security Testing for Coding Agent Workflows** — Written 2026-05-20 → `2026-05-20-red-teaming-codex-cli-agents-promptfoo-adversarial-security-testing-coding-agent-vulnerabilities.md`
+   - Source: Promptfoo Red Team Coding Agents docs, Promptfoo OpenAI Codex SDK Provider docs, OpenAI Promptfoo acquisition announcement, OpenAI Codex Advanced Configuration docs, OpenAI Codex Hooks docs, OpenAI Codex Agent Approvals docs, HackYourAgent community skill (OpenAI Developer Community)
+   - Scope: 12 adversarial attack vectors (repo prompt injection, terminal output injection, secret leakage, sandbox escape, verifier sabotage, network egress, procfs credential read, delayed CI exfiltration, generated vulnerabilities, steganographic exfiltration, automation poisoning, secret file read), Promptfoo coding-agent:core plugin configuration, evidence collection patterns (canary detection, trace spans, host-side hashes, network traps), plausible-prompt attack design, Codex CLI defence layers (sandbox hardening, shell_environment_policy, PreToolUse hooks, granular approval), CI/CD red-team integration, failure triage framework, HackYourAgent community skill comparison
+   - SEO targets: "red team codex cli", "promptfoo coding agent security", "codex cli adversarial testing", "coding agent red teaming", "codex cli sandbox escape testing", "promptfoo red team coding agents", "codex cli prompt injection defence"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing eval article (2026-05-15) covers standard eval-driven development with Promptfoo but no article addresses the adversarial red-teaming side including the 12 coding-agent attack plugins, forensic evidence collection, plausible-prompt methodology, or CI-gated security gates
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #177)
+
+### SDK Maturation Arc v0.130–v0.132
+
+1. ✅ **Codex CLI's SDK Maturation Arc: How v0.130–v0.132 Turned a Terminal Tool into a Programmable Agent Platform** — Written 2026-05-20 → `2026-05-20-codex-cli-sdk-maturation-v0130-v0132-programmable-agent-platform.md`
+   - Source: OpenAI Codex Changelog (v0.130.0, v0.131.0, v0.132.0), OpenAI Codex Non-interactive docs, OpenAI Codex SDK docs, OpenAI Codex Agents SDK guide, OpenAI Codex GitHub Action docs, OpenAI Cookbook Codex MCP Agents SDK, Blake Crosley v0.130 reference
+   - Scope: Three-release narrative arc (v0.130 infrastructure primitives, v0.131 developer experience, v0.132 production readiness), five automation surfaces (codex exec, Python SDK, TypeScript SDK, MCP Server, GitHub Action), decision framework table mapping scenarios to recommended surfaces, current gaps (PyPI distribution, SDK streaming, feature parity), strategic analysis of platform evolution
+   - SEO targets: "codex cli sdk maturation", "codex cli v0.130 v0.131 v0.132", "codex cli automation surfaces", "openai codex python sdk", "codex cli programmable platform", "codex cli decision framework"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article traced the cohesive three-release SDK maturation story or provided a decision framework across all five automation surfaces
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #176)
+
+### Secure MCP Tunnel
+
+1. ✅ **Secure MCP Tunnel: Connecting Codex CLI to Private MCP Servers Without Opening Inbound Ports** — Written 2026-05-20 → `2026-05-20-secure-mcp-tunnel-codex-cli-private-server-enterprise-outbound-only-tunnel-client.md`
+   - Source: OpenAI API Changelog (19 May 2026), OpenAI Secure MCP Tunnels Guide, OpenAI tunnel-client GitHub repository, OpenAI Codex MCP docs, Docker MCP Toolkit blog
+   - Scope: Secure MCP Tunnel architecture (outbound-only HTTPS long polling, multi-channel routing, transport flexibility), tunnel-client deployment (profile initialisation, doctor diagnostics, daemon operation), security model (network isolation, mTLS, tiered permissions, OAuth handling), Codex CLI integration (codex subcommands, plugin install, config.toml manual setup), observability (health endpoints, admin UI, Prometheus metrics, log export), architecture patterns (single server, multi-server hub, per-environment isolation), comparison with alternatives (public exposure, VPN, reverse proxy, Docker MCP Gateway), limitations and caveats
+   - SEO targets: "secure mcp tunnel codex", "openai tunnel-client", "codex cli private mcp server", "enterprise mcp tunnel", "codex mcp firewall", "tunnel-client openai", "private mcp server codex cli"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI announced Secure MCP Tunnel on 19 May 2026 enabling enterprise teams to connect private/on-premises MCP servers to Codex CLI, ChatGPT, and the Responses API through outbound-only HTTPS tunnelling, yet no existing article covered the tunnel-client architecture, deployment, or Codex CLI integration
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-20, Hourly Task #175)
+
+### Codex CLI v0.132.0 Release Guide
+
+1. ✅ **Codex CLI v0.132.0 Release Guide: Python SDK Authentication, exec resume --output-schema, and Performance Gains** — Written 2026-05-20 → `2026-05-20-codex-cli-v0132-release-guide-python-sdk-auth-exec-resume-schema-performance.md`
+   - Source: OpenAI Codex Changelog v0.132.0, OpenAI Codex Auth docs, OpenAI Codex CLI Reference docs, OpenAI Codex SDK docs, OpenAI Codex CLI Features docs, Blake Crosley v0.130 reference, LaoZhang AI /goal feature review, OpenAI Upgrades blog
+   - Scope: Complete v0.132.0 release walkthrough — Python SDK first-class authentication (API key, ChatGPT browser PKCE, device-code flow), account inspection and logout APIs, simplified Turn APIs with plain string inputs and TurnResult objects, codex exec resume --output-schema for structured output on resumed sessions, batched terminal capability probes for faster TUI startup, unified remote executor authentication, image fidelity preservation in app-server turns, goal continuation smart halting on usage limits/blockers, session picker improvements, upgrade path, strategic analysis of v0.130-v0.132 SDK maturation arc
+   - SEO targets: "codex cli v0.132", "codex cli release guide", "codex python sdk authentication", "codex exec resume output-schema", "codex cli may 2026 update", "openai codex sdk device code auth"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.132.0 released today (20 May 2026) with significant SDK authentication and automation improvements not covered by any existing article
+
+---
+
+## New Articles — Google I/O 2026 Competitive Analysis (2026-05-19, Manual)
+
+Google I/O 2026 (19 May) announced several products that directly compete with Codex CLI and the broader Codex platform. The following articles cover competitive surfaces NOT already addressed by existing articles (Antigravity v1 comparison, Jules vs Codex, Gemini CLI migration are already written).
+
+### Antigravity 2.0 vs Codex CLI: Dynamic Subagents, Scheduled Tasks, and Parallel Workflows
+
+1. ✅ **Antigravity 2.0 vs Codex CLI: What the Google I/O 2026 Upgrade Changes in the Competitive Landscape** — Written 2026-05-19 → `2026-05-19-antigravity-2-vs-codex-cli-google-io-2026-competitive-landscape.md`
+   - Source: Google I/O 2026 developer highlights blog, SiliconANGLE Antigravity platform coverage, Google Antigravity 2.0 desktop app announcement, OpenAI Codex CLI v0.131.0 changelog, OpenAI Subagents docs, OpenAI Hooks docs
+   - Scope: Antigravity 2.0 new features (dynamic subagents for parallel workflows, scheduled background tasks, Firebase/Android/AI Studio integrations, desktop app launch), direct comparison with Codex CLI's existing capabilities (multi-agent v2 fork semantics, cron-based scheduling via codex exec, hooks for automation), where Antigravity 2.0 leapfrogs (native parallelism, integrated Firebase mobile path, background automation UI), where Codex CLI still leads (sandbox security, enterprise governance, open-source, terminal-native), model comparison (Gemini 3.5 Flash vs GPT-5.5), migration decision tree for teams currently evaluating both
+   - SEO targets: "antigravity 2.0 vs codex cli", "google io 2026 antigravity upgrade", "antigravity dynamic subagents codex", "antigravity scheduled tasks", "antigravity 2.0 features", "codex cli vs antigravity 2026"
+   - Note: Existing article (2026-05-13) covers Antigravity v1. This article specifically addresses the 2.0 upgrade announced at Google I/O 2026 with dynamic subagents, scheduled tasks, and the desktop app — capabilities that did not exist when the v1 comparison was written
+
+### Managed Agents in Gemini API vs Codex Cloud Tasks and codex exec
+
+1. ✅ **Managed Agents in the Gemini API vs Codex Cloud Tasks: Agent-as-a-Service Showdown** — Written 2026-05-20 → `2026-05-20-managed-agents-gemini-api-vs-codex-cloud-tasks-agent-as-a-service-showdown.md`
+   - Source: Google Blog "Introducing Managed Agents in the Gemini API" (Ali Cevik, 19 May 2026), Google I/O 2026 developer highlights, Google Cloud I/O agent developer news, OpenAI Codex Cloud docs, OpenAI codex exec docs, OpenAI Python SDK docs, OpenAI Non-interactive mode docs
+   - Scope: Google's Managed Agents architecture (single API call, ephemeral Linux sandbox, Interactions API, AGENTS.md/SKILL.md registration, MCP server provisioning), direct comparison with Codex Cloud tasks (cloud VM, GitHub integration, PR output), comparison with codex exec (local sandbox, --output-schema structured output, CI/CD integration), comparison with openai-codex Python SDK (app-server JSON-RPC, multi-turn threads), pricing model differences, sandbox security comparison (Google ephemeral vs Codex kernel-level), when to use which (fire-and-forget tasks, structured CI queries, interactive sessions, embedded automation), enterprise governance implications
+   - SEO targets: "managed agents gemini api vs codex", "google managed agents codex comparison", "agent as a service coding", "gemini api agent sandbox", "codex cloud vs managed agents", "codex exec vs managed agents gemini"
+   - Note: This is a genuinely new competitive surface — Google packaging agent execution as a managed API service is a direct alternative to Codex Cloud tasks and codex exec for teams building agentic automation
+
+### Gemini 3.5 Flash Coding Benchmarks vs GPT-5.5 and codex-mini
+
+1. ✅ **Gemini 3.5 Flash vs GPT-5.5 and codex-mini: Coding Model Benchmark Comparison After Google I/O 2026** — Written 2026-05-20 → `2026-05-20-gemini-3-5-flash-vs-gpt-5-5-codex-mini-coding-model-benchmark-comparison.md`
+   - Source: Google I/O 2026 model announcements, Google Gemini 3.5 Flash benchmarks, OpenAI Models docs, OpenAI GPT-5.5 announcement, Terminal-Bench 2.0 leaderboard, SWE-Bench Verified leaderboard, HumanEval/MBPP/LiveCodeBench results
+   - Scope: Gemini 3.5 Flash claims (beats 3.1 Pro on coding benchmarks, 4x faster output than other frontier models), head-to-head benchmark comparison with GPT-5.5 (SWE-Bench Verified, Terminal-Bench 2.0, HumanEval, LiveCodeBench), comparison with codex-mini-latest (speed vs quality trade-off), model routing implications for Codex CLI users (when to use which model), cost per token comparison, context window sizes, practical recommendations for model selection in config.toml, what "4x faster" means for interactive vs batch workflows
+   - SEO targets: "gemini 3.5 flash vs gpt 5.5", "gemini 3.5 flash coding benchmarks", "codex mini vs gemini flash", "best coding model 2026", "gemini 3.5 flash vs codex", "google io 2026 model comparison", "coding agent model benchmarks may 2026"
+   - Note: Google's "faster than any other frontier model" claim needs verification against actual GPT-5.5 and codex-mini benchmarks — this article should be evidence-heavy with tables and honest about where each model wins
+
+### Google Agents CLI vs Codex CLI SDK and Plugin Ecosystem
+
+1. ✅ **Google Agents CLI vs Codex CLI: Two Visions of Agent Development from the Terminal** — Written 2026-05-20 → `2026-05-20-google-agents-cli-vs-codex-cli-two-visions-agent-development-terminal.md`
+   - Source: Google Developers Blog "Agents CLI in Agent Platform", GitHub google/agents-cli, Google Cloud I/O agent developer blog, InfoQ Agents CLI coverage, OpenAI Codex CLI GitHub, OpenAI Python SDK docs, OpenAI Plugins docs, OpenAI Skills docs
+   - Scope: Google Agents CLI architecture (ADK skills packaged for any coding agent including Codex CLI, human mode vs agent mode, uvx google-agents-cli, IaC generation, CI/CD pipeline injection, A2A integration), comparison with Codex CLI's own agent development story (openai-codex Python SDK, codex exec, plugins marketplace, skills directory), key distinction (Agents CLI builds agents ON Google Cloud; Codex CLI IS the agent), interoperability angle (Agents CLI explicitly supports Codex CLI as a host), when they complement vs compete, practical workflow combining both, enterprise deployment comparison (Google Agent Platform vs Dell AI Factory on-premises)
+   - SEO targets: "google agents cli vs codex cli", "agents cli codex comparison", "google cloud agent development cli", "codex cli agent sdk comparison", "agents cli agent platform", "building agents codex vs google cloud"
+   - Note: Interesting competitive nuance — Google Agents CLI is designed to work WITH Codex CLI (and Claude Code and Cursor), not replace it. But it competes at the platform level by pulling agent deployment toward Google Cloud vs OpenAI's own infrastructure
+
+### The Post-I/O Landscape: Five Coding Agent Platforms Compared (June 2026 Edition)
+
+1. ✅ **The Post-Google I/O Coding Agent Landscape: Codex CLI vs Antigravity 2.0 vs Jules V2 vs Claude Code vs Grok Build** — Written 2026-05-20 → `2026-05-20-post-google-io-coding-agent-landscape-codex-antigravity-jules-claude-grok.md`
+   - Source: Google I/O 2026 announcements, OpenAI Codex CLI v0.131.0, Anthropic Claude Code changelog, xAI Grok Build beta docs, Google Antigravity 2.0 features, Google Jules/Jitro announcements, Terminal-Bench 2.0 leaderboard, SWE-Bench Verified
+   - Scope: Comprehensive five-way comparison updated for Google I/O 2026 announcements — architecture (local terminal vs IDE vs cloud vs hybrid), model ecosystems, agent paradigms (interactive vs fire-and-forget vs goal-driven), sandbox security models, enterprise governance, pricing, strengths/weaknesses matrix, decision flowchart for teams choosing in June 2026, what changed since the May 4 Terminal Agent Showdown article
+   - SEO targets: "coding agent comparison june 2026", "codex vs antigravity vs jules vs claude code", "best coding agent after google io", "coding agent landscape 2026", "terminal agent comparison post google io", "which coding agent 2026"
+   - Note: The existing Terminal Agent Showdown (May 4) covered three tools pre-I/O. This article adds Antigravity 2.0, Jules V2/Jitro, and Grok Build to create the definitive post-I/O comparison. Should be the go-to reference for teams evaluating tools in June 2026
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #174)
+
+### Migrating Gemini CLI to Codex CLI
+
+1. ✅ **Migrating from Gemini CLI to Codex CLI: A Practical Guide After the Antigravity Transition** — Written 2026-05-19 → `2026-05-19-migrating-gemini-cli-to-codex-cli-antigravity-transition-configuration-mapping.md`
+   - Source: Google Developers Blog Antigravity transition announcement, Google I/O 2026 developer highlights, OpenAI Sandbox docs, OpenAI Changelog v0.131.0, OpenAI Models docs, Gemini CLI Configuration docs, OpenAI Config Basics docs, Gemini CLI Hooks docs, OpenAI Hooks docs, OpenAI CLI Features docs, OpenAI AGENTS.md docs, Gemini CLI Skills docs, OpenAI Skills docs, Gemini CLI Extensions docs, OpenAI Plugins docs, OpenAI Agent Approvals docs, OpenAI MCP docs, OpenAI Advanced Config docs, OpenAI Rules docs, OpenAI Pricing docs, OpenAI CLI Reference docs, OpenAI Slash Commands docs
+   - Scope: Complete configuration mapping from Gemini CLI JSON settings to Codex CLI TOML (user/project/enterprise layers), hook lifecycle translation (10 Gemini hooks to 4 Codex hooks with gap analysis), GEMINI.md to AGENTS.md migration with discovery mechanics comparison, skills directory translation (manifest.json+prompt.md to SKILL.md with YAML frontmatter), extensions to plugins migration with marketplace discovery, approval mode mapping, MCP server configuration syntax translation, model selection equivalents, honest trade-off analysis (lost hooks, billing changes, no free tier), 10-step migration checklist, decision flowchart for Codex vs Antigravity
+   - SEO targets: "gemini cli to codex cli migration", "gemini cli deprecated", "antigravity cli alternative", "gemini cli codex cli comparison", "migrate gemini cli hooks codex", "gemini cli replacement 2026", "google io 2026 codex migration"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Google announced the Gemini CLI to Antigravity CLI transition at Google I/O 2026 (19 May), giving free/individual users until 18 June to migrate, yet no existing article provided a practical configuration-level migration guide from Gemini CLI to Codex CLI covering settings.json to config.toml translation, hook script rewrites, GEMINI.md to AGENTS.md conversion, or the honest trade-offs between adopting Codex CLI versus following Google to Antigravity
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #173)
+
+### Codex CLI Slash Commands Complete Reference
+
+1. ✅ **Codex CLI Slash Commands Complete Reference: All 45 Commands in v0.131** — Written 2026-05-19 → `2026-05-19-codex-cli-slash-commands-complete-reference-v0131-45-commands.md`
+   - Source: OpenAI Slash Commands docs, OpenAI CLI Features docs, OpenAI Changelog v0.131.0, OpenAI Best Practices docs, OpenAI Codex Prompting Guide cookbook, OpenAI Agent Approvals docs, OpenAI Subagents docs, OpenAI Skills docs, OpenAI Hooks docs, OpenAI Plugins docs, OpenAI Config Reference docs, OpenAI CLI Reference docs, OpenAI Speed docs, GitHub Releases v0.131.0
+   - Scope: Complete catalogue of all 45 slash commands organised by category (model/performance, session management, workflow/mode switching, permissions/security, context/file attachment, agent/extension management, TUI customisation, diagnostics/system, background process management), plan-execute-review workflow with Mermaid diagram, context compaction mechanics, persistent goals, subagent switching, vim mode, raw scrollback, reasoning effort keyboard shortcuts, config.toml persistence patterns, v0.131.0 additions (vim, approve, agent, apps, statusline, title, debug-config, unified mentions), custom slash command alternatives via skills/hooks/plugins, alphabetical quick reference card
+   - SEO targets: "codex cli slash commands", "codex cli commands reference", "codex slash commands list", "codex cli /plan /review /diff", "codex cli v0.131 commands", "codex tui commands 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing slash command articles (April 2026) covered only ~15 commands from earlier versions, whilst v0.131.0 ships 45 commands including new additions (/vim, /approve, /agent, /apps, /statusline, /title, /debug-config) and the unified mentions system that changed how /mention works, leaving no single up-to-date reference covering the complete command surface
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #172)
+
+### OpenAI Unified Agentic Platform
+
+1. ✅ **OpenAI's Unified Agentic Platform: What the ChatGPT-Codex Merger Means for CLI Developers** — Written 2026-05-19 → `2026-05-19-openai-unified-agentic-platform-chatgpt-codex-merge-cli-developer-implications.md`
+   - Source: TechTimes Brockman announcement, Benzinga IPO analysis, The Next Web coverage, TechCrunch reporting, DEV Community Project Jitro analysis, OpenAI SDK docs, OpenAI Changelog v0.131.0, OpenAI Config Reference docs, OpenAI AGENTS.md docs, OpenAI Models docs, OpenAI upgrades blog, OpenAI Pricing docs, OpenAI Codex GitHub
+   - Scope: Brockman memo analysis (consolidation rationale, resource constraints), architectural foundation (App Server unification across CLI/IDE/web/desktop/mobile), three-phase rollout sequence (productivity expansion, ChatGPT+Atlas fold-in, super app), confirmed CLI continuity (no deprecation, config portability, AGENTS.md carry-forward), likely changes (model routing convergence, plugin consolidation, billing unification), uncertain areas (SDK namespace, CLI command hierarchy, enterprise governance scope), IPO context ($852B valuation, Q4 2026 target), competitive positioning (Google I/O timing, Project Jitro, Anthropic Claude Code), executive departures context, five developer preparation actions, anti-patterns table
+   - SEO targets: "openai chatgpt codex merge", "openai unified agentic platform", "codex cli deprecation", "brockman codex chatgpt", "openai platform consolidation 2026", "codex cli future", "openai ipo codex"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the 16 May 2026 Brockman memo announcing the ChatGPT-Codex-API consolidation into a single agentic platform despite it being the most significant structural change to the Codex product since launch, directly affecting every CLI developer's investment in configuration, SDK integrations, and enterprise governance stacks
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #171)
+
+### Google Jules vs Codex CLI Comparison
+
+1. ✅ **Google Jules vs Codex CLI: Async Fire-and-Forget vs Interactive Terminal Agent** — Written 2026-05-19 → `2026-05-19-google-jules-vs-codex-cli-async-fire-and-forget-interactive-terminal-agent-comparison.md`
+   - Source: Google I/O 2026 Developer Briefing, OpenAI GPT-5.2-Codex announcement, Google Jules blog, Codex CLI Features docs, Codex Models docs, Jules Tools CLI blog, Codex Non-interactive Mode docs, Jules proactive features blog, Codex AGENTS.md docs, Codex Advanced Config docs, Project Jitro coverage, Codex Automations docs, Codex Hooks docs, Codex Pricing docs
+   - Scope: Architecture comparison (cloud VM async vs local sandbox interactive), model comparison (Gemini 3.1 Pro/3 Flash vs GPT-5.x family), CLI tooling comparison (Jules Tools vs Codex CLI commands), when Jules wins (fire-and-forget, multi-repo parallelism, PR-centric teams, scheduled/suggested tasks), when Codex CLI wins (interactive exploration, immediate feedback, deep customisation, security boundaries, regulated environments), Project Jitro goal-driven paradigm shift vs task-driven agents, dual-agent workflow pattern, configuration surface comparison table, pricing considerations, decision flowchart
+   - SEO targets: "google jules vs codex cli", "jules vs codex comparison", "async coding agent vs terminal agent", "project jitro jules v2", "google jules codex cli comparison 2026", "fire and forget coding agent", "best coding agent 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article compared Codex CLI with Google Jules despite Jules being Codex's primary competitor in async agentic coding, Jules Tools CLI creating a direct CLI-to-CLI comparison surface, and Project Jitro/Jules V2 announced at Google I/O 2026 (May 19) introducing a goal-driven paradigm that represents the next evolution in coding agent design
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #170)
+
+### Codex CLI MCP Server Management
+
+1. ✅ **Codex CLI MCP Server Management: CLI Commands, OAuth Flows, Streamable HTTP, and Production Configuration Patterns** — Written 2026-05-19 → `2026-05-19-codex-cli-mcp-server-management-cli-commands-oauth-streamable-http-production-patterns.md`
+   - Source: OpenAI MCP docs, OpenAI Config Reference docs, OpenAI Config Sample docs, OpenAI Managed Configuration docs, DeepWiki MCP CLI Commands, GitHub Issue #16439, GitHub Issue #20195, Codex v0.131.0 release notes, Codex Blog MCP schema bloat article
+   - Scope: Complete `codex mcp` subcommand reference (add, list, get, remove, login, logout), STDIO vs streamable HTTP server configuration, full TOML configuration parameter reference with types and defaults, OAuth 2.0 flow with sequence diagram, scope resolution and credential storage, tool filtering pipeline (enabled_tools allow-list then disabled_tools deny-list), per-tool approval mode overrides (auto, prompt, approve), project-scoped vs user-scoped configuration with trust model, plugin-provided MCP server management, enterprise governance via requirements.toml constraints, four production configuration patterns (minimal surface area, read-only by default, CI/CD required servers, environment-specific forwarding), troubleshooting checklist, known gaps (no enable/disable subcommand, no tool listing/validation) with GitHub issue links
+   - SEO targets: "codex mcp add", "codex mcp cli commands", "codex cli mcp server configuration", "codex mcp oauth", "codex mcp streamable http", "codex cli tool filtering", "codex mcp production patterns 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered MCP integration at a high level (March 26), MCP security hardening (April 13), MCP debugging (April 24), and MCP schema bloat (April 23), but no article provided a comprehensive reference for the `codex mcp` CLI subcommand family, the full TOML configuration parameter surface including streamable HTTP OAuth flows, tool filtering pipeline mechanics, per-tool approval overrides, or production configuration patterns despite MCP server management being a daily operational concern for senior developers connecting external tools
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #169)
+
+### Codex On-Premises Dell AI Factory Partnership
+
+1. ✅ **Codex On-Premises: The Dell AI Factory Partnership, Hybrid Deployment, and What It Means for Data-Sovereign Enterprises** — Written 2026-05-19 → `2026-05-19-codex-on-premises-dell-ai-factory-hybrid-enterprise-deployment-data-residency.md`
+   - Source: OpenAI Dell partnership announcement, Dell Technologies World keynote, SiliconANGLE coverage, Let's Data Science analysis, OpenAI Managed Configuration docs, OpenAI Configuration Reference docs, OpenAI business data privacy docs, OpenAI Codex Changelog, OpenAI Prompt Caching cookbook
+   - Scope: OpenAI-Dell partnership announced 18 May 2026, Dell AI Factory and AI Data Platform integration architecture (secure model hosting, repository connectors, orchestration), three-dimensional integration (API gateways, indexers, CI/CD orchestration), how on-premises deployment fits existing Codex enterprise governance stack (requirements.toml, managed_config.toml portability), configuration for on-premises targeting (api_base_url, network_access, web_search), data residency and compliance considerations (SOC 2, HIPAA limitations, model provenance), cost comparison cloud vs on-premises by developer density, four-way deployment topology (OpenAI Cloud, Azure, Bedrock, Dell on-premises), platform team preparation checklist, anti-patterns (assuming air-gapped means zero connectivity, conflating on-premises with automatic compliance, delaying requirements.toml adoption)
+   - SEO targets: "codex on premises deployment", "codex dell ai factory", "codex hybrid enterprise", "codex data residency", "codex air gapped deployment", "openai dell partnership codex", "codex enterprise on premises 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the OpenAI-Dell partnership announced 18 May 2026 for hybrid and on-premises Codex deployment despite it being the first official path for running Codex inference on enterprise-owned infrastructure, introducing a four-way deployment topology (OpenAI Cloud, Azure, Bedrock, Dell on-premises) and raising critical questions about data residency, compliance boundary shifts, and requirements.toml portability across execution surfaces
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #168)
+
+### Codex CLI Cloud Delegation Workflows
+
+1. ✅ **Codex CLI Cloud Delegation Workflows: Plan Locally, Execute Remotely, Apply Diffs** — Written 2026-05-19 → `2026-05-19-codex-cli-cloud-delegation-workflows-plan-locally-execute-remotely-apply-diffs.md`
+   - Source: OpenAI Codex Cloud docs, OpenAI Workflows docs, OpenAI CLI Features docs, OpenAI CLI Reference docs, OpenAI Non-interactive Mode docs, OpenAI Best Practices docs, OpenAI Cloud Environments docs, OpenAI Sandbox docs, OpenAI Introducing Codex blog, OpenAI AGENTS.md docs
+   - Scope: CLI-to-cloud delegation pattern (plan locally, delegate implementation, apply diffs), codex cloud subcommands (exec, list, interactive picker), best-of-N attempts (--attempts 1-4), codex cloud list with JSON output and pagination, step-by-step delegation workflow (plan phase, delegate phase, review phase), shell scripting patterns (batch milestone execution, completion polling, structured output post-processing), AGENTS.md cloud task conventions, CI/CD integration via GitHub Actions, decision flowchart for local vs cloud vs best-of-N, anti-patterns (delegating without plan, overusing attempts, skipping local tests, needing interactive steering), known limitations (no --output-schema on cloud exec, environment setup latency, context carry-over gap, attempt cap)
+   - SEO targets: "codex cloud exec", "codex cli cloud delegation", "codex cloud best of n", "codex cloud list", "delegate refactor cloud codex", "codex cli remote execution", "codex cloud workflow patterns 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered cloud vs local comparison (March 27) and cloud environment configuration (May 19) but no article covered the complete CLI-to-cloud delegation workflow pattern including codex cloud exec/list subcommands, best-of-N attempts, shell scripting for batch milestone delegation, completion polling, AGENTS.md cloud conventions, or the decision framework for when to delegate vs stay local despite cloud delegation being a core officially documented workflow pattern
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #167)
+
+### Codex CLI Cross-Repository Development
+
+1. ✅ **Codex CLI for Cross-Repository Development: Multi-Repo Sessions, Coordination Patterns, and MCP-Bridged Workflows** — Written 2026-05-19 → `2026-05-19-codex-cli-cross-repository-development-multi-repo-sessions-coordination-patterns.md`
+   - Source: GitHub Issue #11956, GitHub Issue #6219, OpenAI AGENTS.md guide, OpenAI MCP docs, OpenAI Non-interactive Mode docs, OpenAI CLI Features docs, OpenAI Advanced Configuration docs, OpenAI GitHub Action docs, OpenAI Subagents docs, Releasebot Codex Updates
+   - Scope: Single-repo constraint explanation (project root detection, sandbox boundaries), five cross-repo patterns (parallel terminal sessions, AGENTS.md cross-references with global conventions, MCP filesystem servers as cross-repo bridges with tool filtering, codex exec orchestration scripts with --output-schema structured output passing, subagent delegation with custom agent definitions and MultiAgentV2 thread caps), anti-patterns table (danger-full-access roaming, symlinking, manual diff copying, trusting implicit contracts), decision flowchart for pattern selection, current state of multi-repo feature requests, upcoming multi-environment session infrastructure
+   - SEO targets: "codex cli cross repository", "codex cli multi repo", "codex cli multiple repositories", "codex cli microservices development", "codex cli cross repo mcp", "codex agents md shared conventions", "codex cli cross repository patterns 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered cross-repository development patterns including parallel session coordination, AGENTS.md cross-references for contract encoding, MCP filesystem bridges with tool filtering for read-only cross-repo access, codex exec orchestration scripts for automated multi-repo pipelines, or subagent delegation across working directories despite cross-repo development being a daily reality for senior developers working on microservices architectures
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #166)
+
+### Codex Cloud Environment Configuration
+
+1. ✅ **Codex Cloud Environment Configuration: Setup Scripts, Container Caching, and the codex-universal Image** — Written 2026-05-19 → `2026-05-19-codex-cloud-environment-configuration-setup-scripts-caching-codex-universal.md`
+   - Source: OpenAI Cloud Environments docs, OpenAI Agent Internet Access docs, OpenAI codex-universal GitHub, OpenAI Codex CLI Features docs, OpenAI Codex CLI Reference docs, OpenAI Best Practices docs, OpenAI codex-universal Dockerfile
+   - Scope: Two-phase execution model (setup phase with internet, agent phase offline by default), codex-universal base image (Ubuntu 24.04, eight language runtimes, CODEX_ENV_* version pinning, pre-installed Python/Node/build tooling), setup script patterns (idempotency, lockfiles, environment variable persistence via ~/.bashrc), maintenance scripts for cached container dependency sync, container caching lifecycle (12-hour TTL, automatic invalidation, workspace-shared caches for Business/Enterprise), secrets management (encrypted, setup-phase-only, credential helper patterns), agent internet access policies (domain allowlists, HTTP method restrictions, three presets, HTTP proxy routing), codex cloud CLI subcommands (exec, list, best-of-N attempts, interactive picker), CLI-to-cloud delegation pattern, production environment configuration example, anti-patterns (unrestricted internet, runtime installation in setup scripts, frequent secrets changes, skipping maintenance scripts, not testing locally with codex-universal)
+   - SEO targets: "codex cloud environment configuration", "codex cloud setup script", "codex-universal docker image", "codex cloud container caching", "codex cloud secrets management", "codex cloud internet access policy", "codex cloud exec cli 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the full Codex Cloud environment configuration surface including the two-phase execution model, codex-universal base image with CODEX_ENV_* runtime pinning, setup and maintenance script patterns, 12-hour container caching lifecycle, secrets vs environment variables distinction, agent internet access domain allowlists with HTTP method restrictions, or the codex cloud CLI subcommands despite cloud environments being the primary execution surface for delegated and automated Codex tasks
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #165)
+
+### Codex CLI Enterprise Admin Setup
+
+1. ✅ **Codex CLI Enterprise Admin Setup: RBAC, Managed Configuration, and Compliance APIs** — Written 2026-05-19 → `2026-05-19-codex-cli-enterprise-admin-setup-rbac-managed-configuration-compliance-apis.md`
+   - Source: OpenAI Enterprise Admin Setup docs, OpenAI Managed Configuration docs, OpenAI Codex Changelog, OpenAI Codex Security docs, OpenAI Config Basics docs, GitHub Releases v0.131.0
+   - Scope: Seven-step enterprise rollout (enable surfaces, RBAC with custom roles and groups, managed configuration via requirements.toml and managed_config.toml, macOS MDM deployment, team config via .codex directory, Analytics and Compliance APIs, verification checklist), three owners model (workspace owner, security owner, analytics owner), configuration precedence hierarchy (enterprise requirements > managed defaults > team config > user config > CLI flags), cloud-managed requirements dashboard, host-specific sandbox rules, MCP server allowlisting, SCIM-backed admin groups, codex doctor policy verification, anti-patterns (broad admin access, relying on team config for security, skipping analytics, deploying full-auto via managed defaults)
+   - SEO targets: "codex cli enterprise admin setup", "codex cli rbac", "codex cli managed configuration", "codex requirements toml enterprise", "codex cli compliance api", "codex cli mdm deployment", "codex enterprise security 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the enterprise admin setup guide published 14 May 2026 despite it being the first unified rollout reference combining RBAC, managed configuration precedence, cloud-managed requirements, macOS MDM deployment, Compliance and Analytics APIs, and the codex doctor policy verification workflow into a single prescriptive sequence for enterprise platform engineering teams
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-19, Hourly Task #164)
+
+### Database Query Performance Optimisation with Codex CLI
+
+1. ✅ **Codex CLI for Database Query Performance Optimisation: EXPLAIN Plan Analysis, Index Tuning, and MCP-Driven Workflows** — Written 2026-05-19 → `2026-05-19-codex-cli-database-query-performance-optimisation-explain-plans-index-tuning-mcp.md`
+   - Source: CrystalDBA Postgres MCP GitHub, PGTuner MCP GitHub, MCP-PostgreSQL-Ops GitHub, Neon MCP Server docs, Codex CLI Sandbox docs, Codex CLI Models docs, Codex Non-Interactive Mode docs, DasRoot database performance optimisation guide, Augment Code MCP Registry
+   - Scope: PostgreSQL MCP server landscape for query analysis (Postgres MCP Pro, PGTuner, MCP-PostgreSQL-Ops), MCP server configuration in config.toml, AGENTS.md database performance conventions, interactive slow query analysis workflow (pg_stat_statements, EXPLAIN ANALYZE, HypoPG hypothetical indexing), codex exec structured performance audit with --output-schema, safe testing via Neon branching, reusable query-tuner SKILL.md, PostToolUse hook for SQL anti-pattern detection, model selection matrix for database performance tasks, anti-patterns (production EXPLAIN ANALYZE, stale statistics, over-indexing, skipping HypoPG), known limitations (output-schema/resume exclusion, context window for complex plans, community MCP server maturity, HypoPG availability)
+   - SEO targets: "codex cli database query performance", "codex cli sql optimisation", "codex cli explain plan", "codex cli postgresql mcp", "codex cli index tuning", "database query performance ai agent 2026", "codex cli pg_stat_statements"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles cover database schema migrations extensively (Atlas, Prisma, Flyway, Neon branching across 8 articles) but no article covered query performance optimisation including EXPLAIN plan analysis, index tuning via HypoPG, pg_stat_statements-based slow query triage, or structured performance auditing despite query performance being the single largest source of production incidents and three PostgreSQL MCP servers now providing the complete tool surface for AI-assisted query tuning
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #163)
+
+### Codex CLI v0.131.0 Release Guide
+
+1. ✅ **Codex CLI v0.131.0 Release Guide: Unified Mentions, Plugin Marketplace CLI, Python SDK Migration, and TUI Overhaul** — Written 2026-05-18 → `2026-05-18-codex-cli-v0131-release-guide-unified-mentions-plugin-marketplace-python-sdk-tui.md`
+   - Source: GitHub releases v0.131.0, OpenAI Developers changelog, OpenAI Developers SDK docs, OpenAI Developers plugins/build docs, OpenAI Developers CLI features docs, OpenAI Developers CLI reference, OpenAI Dell partnership announcement, v0.130.0 release notes, v0.129.0 release notes
+   - Scope: Unified @ mention picker (files, directories, plugins, skills in one fuzzy-search surface), plugin marketplace CLI commands (add, install, share, checkout, upgrade, remove, version pinning, sparse checkout), version-aware plugin sharing and share checkout, default-enabled plugin hooks, Python SDK migration from codex-sdk-python to openai-codex (pinned runtime types, concurrent turn routing, approval modes, integration coverage), TUI overhaul (blended token usage, data-driven service-tier commands, persistent approval mode display, responsive Markdown tables), daemon-managed remote-control (runtime enable/disable APIs, status reads, registry-backed environments), Windows sandbox hardening (deny-read rules, scoped write roots, firewall policy, PowerShell edge cases), Git and auth reliability improvements, upgrade path and breaking change assessment
+   - SEO targets: "codex cli v0.131", "codex cli 0.131.0 release", "codex cli unified mentions", "codex plugin marketplace cli", "openai-codex python sdk", "codex cli tui token usage", "codex remote-control daemon 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the v0.131.0 release as a comprehensive guide despite the doctor diagnostics command receiving its own article, the remaining v0.131.0 features (unified mentions, plugin marketplace CLI maturation, Python SDK migration, TUI overhaul, daemon-managed remote control improvements) collectively representing a consolidation milestone warranting dedicated coverage
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #162)
+
+### Codex CLI Doctor Diagnostics
+
+1. ✅ **Codex CLI Doctor: The New First-Class Diagnostics Command in v0.131.0** — Written 2026-05-18 → `2026-05-18-codex-cli-doctor-diagnostics-v0131-troubleshooting-runtime-auth-network.md`
+   - Source: Codex Changelog, Codex CLI reference, Codex CLI features docs, GitHub releases, SmartScope diagnostic logs guide, CodexUse troubleshooting guide, GitHub Issue #4934, Codex CLI sandbox docs, Codex diagnostic toolkit article
+   - Scope: codex doctor subcommand covering six diagnostic categories (runtime, auth, terminal, network, config, local state), machine-readable JSON output, targeted category flags, CI/CD pre-flight integration, support ticket workflows, AGENTS.md diagnostic conventions, relationship to existing diagnostic surfaces (RUST_LOG, /debug-config, /feedback, codex sandbox, codex debug), practical troubleshooting scenarios (OS update sandbox failures, corporate proxy blocking, session resume corruption), v0.131.0 companion features (unified @ mentions, plugin marketplace CLI, daemon-managed remote control, Python SDK migration, TUI enhancements)
+   - SEO targets: "codex doctor", "codex cli diagnostics", "codex cli troubleshooting v0.131", "codex doctor command", "codex cli health check", "codex cli support diagnostics 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the codex doctor diagnostics command introduced in v0.131.0 despite the April 7 diagnostic toolkit article covering RUST_LOG, /debug-config, codex sandbox, and JSONL rollout analysis as of v0.118.0, and codex doctor being a fundamentally new offline pre-flight health check addressing enterprise support ticket quality
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #161)
+
+### Bazel Monorepo Workflows with Codex CLI
+
+1. ✅ **Codex CLI for Bazel Monorepo Workflows: MCP Server Integration, Remote Builds, and AGENTS.md Conventions** — Written 2026-05-18 → `2026-05-18-codex-cli-bazel-monorepo-workflows-mcp-server-remote-builds-agents-md.md`
+   - Source: Codex Sandbox docs, Bazel 9 LTS blog, OpenAI AGENTS.md, Bazel 9.0.0 release, Codex config reference, nacgarg/bazel-mcp-server GitHub, BuildBuddy Remote Bazel blog, BuildBuddy agent config blog, Codex non-interactive mode docs, Codex Models docs, GPT-5.3-Codex-Spark announcement, GitHub Issue #14343
+   - Scope: Sandbox configuration for Bazel (writable_roots for cache directories, selective network access for registries), Bazel MCP Server six-tool surface (build, query, test, list, fetch, set_workspace), BuildBuddy Remote Bazel integration via SKILL.md (warm analysis cache, cross-platform testing, automatic git mirroring), AGENTS.md Bazel conventions (BUILD.bazel maintenance, runfiles resolution, Bzlmod-only external deps, compile_data requirements, visibility policy), agent-driven edit-build-test workflow with MCP and remote builds, codex exec structured BUILD.bazel audit with --output-schema, model selection matrix for Bazel tasks, PostToolUse hook for visibility enforcement, anti-patterns (testing all targets, danger-full-access, trusting generated visibility, ignoring compile_data, skipping bazel mod tidy), known limitations (output-schema/resume exclusion, context window for large monorepos, community-maintained MCP server, BuildBuddy account requirement, non-deterministic generation)
+   - SEO targets: "codex cli bazel", "codex cli bazel monorepo", "bazel mcp server codex", "codex cli remote bazel buildbuddy", "bazel agents md conventions", "codex cli bazel 9 bzlmod", "ai coding agent bazel build 2026"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for Bazel monorepo workflows including Bazel MCP Server integration, BuildBuddy Remote Bazel for agent-driven build validation, sandbox configuration for Bazel cache and registry access, AGENTS.md Bazel conventions (BUILD.bazel maintenance, runfiles, Bzlmod, compile_data), or structured BUILD.bazel auditing despite Bazel being a dominant build system for large monorepos and Bazel 9 shipping in January 2026 with complete WORKSPACE removal
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #160)
+
+### Consumer-Driven Contract Testing with Codex CLI
+
+1. ✅ **Codex CLI for Consumer-Driven Contract Testing: Pact Generation, Provider Verification, and CI Contract Gates** — Written 2026-05-18 → `2026-05-18-codex-cli-consumer-driven-contract-testing-pact-generation-provider-verification-ci-gates.md`
+   - Source: Pact Documentation, Pact V4 Specification, Codex CLI Changelog v0.130, Codex Models docs, AGENTS.md guide, Codex non-interactive mode docs, Codex CLI features docs, Codex config reference, Codex GitHub Action docs, PactFlow BDCT docs, GitHub Issue #14343
+   - Scope: Pact V4 consumer test generation from existing API client code, AGENTS.md contract testing convention encoding, codex exec structured contract coverage audit with --output-schema, provider state handler scaffolding from test fixtures, non-interactive provider verification in CI, reusable contract-auditor SKILL.md, PostToolUse hook for contract lint enforcement, GitHub Actions contract gate pipeline, bi-directional contract testing with OpenAPI comparison, model selection matrix for contract testing tasks, anti-patterns (spec-only generation, skipping provider states, over-permissioned sandbox, trusting generated matchers), known limitations (output-schema/resume exclusion, context window for large API surfaces, non-deterministic generation, sandbox network isolation, Pact V4 plugin support)
+   - SEO targets: "codex cli contract testing", "codex cli pact generation", "codex cli consumer driven contracts", "codex cli provider verification", "pact v4 codex cli 2026", "contract testing automation ci", "codex cli microservices testing"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for consumer-driven contract testing including Pact V4 consumer test generation from client code, structured contract coverage auditing, provider state scaffolding, contract lint hooks, or CI contract gates despite contract testing being a critical concern for senior developers maintaining microservice architectures
+
+---
+
+## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #159)
+
+### Codex CLI as MCP Server
+
+1. ✅ **Codex CLI as an MCP Server: Exposing Agent Capabilities to the Agents SDK and Other MCP Clients** — Written 2026-05-18 → `2026-05-18-codex-cli-as-mcp-server-exposing-agent-capabilities-agents-sdk-multi-agent-delegation.md`
+   - Source: OpenAI Codex Agents SDK guide, OpenAI Cookbook (Codex CLI + Agents SDK), DeepWiki codex-mcp-server implementation, OpenAI Codex MCP docs, OpenAI Codex subagents docs, OpenAI Codex models docs, GPT-5.3-Codex announcement, GPT-5.3-Codex-Spark announcement, codex-as-mcp GitHub, agentic-developer-mcp MCP wrapper
+   - Scope: codex mcp-server subcommand architecture (three async tasks: stdin reader, message processor, stdout writer), two-tool surface (codex for session creation, codex-reply for continuation), sandbox and approval-policy configuration for automated pipelines, MCPServerStdio integration with Python Agents SDK, multi-agent orchestration patterns (five-role gated handoff workflow), cross-agent delegation from Claude Code and Cursor via community wrappers, MCP Inspector debugging, model selection matrix for MCP-served Codex, subagents vs MCP server decision framework, operational considerations (timeout, token consumption, approval elicitation, thread lifecycle), anti-patterns (shell wrapping, over-permissioned sandbox, skipping gated handoffs, reusing threadIds across tasks, ignoring traces), known limitations (no streaming, single-process concurrency, no crash resume, no output-schema support)
+   - SEO targets: "codex cli mcp server", "codex mcp-server agents sdk", "codex cli multi-agent delegation", "codex as mcp server 2026", "codex cli agents sdk integration", "codex mcp tool orchestration", "codex cli cross-agent delegation"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI as an MCP server itself (the inverse of consuming MCP servers), including the codex mcp-server subcommand, its two-tool surface, Agents SDK MCPServerStdio integration, multi-agent orchestration with gated handoffs, cross-agent delegation from Claude Code/Cursor, or the architectural internals of the codex-mcp-server Rust crate despite this being a foundational pattern for composing Codex into larger multi-agent systems
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-18, Hourly Task #158)
 
 ### Codex CLI for Mobile Development
@@ -4159,3 +4975,21 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using codex exec with --output-schema as a CI decision engine for monorepo test impact analysis, despite existing CI/CD articles covering different angles (GitHub Actions, GitLab CI, general non-interactive mode).
    - Scope: Static path filter limitations in monorepo CI, codex exec as a CI decision engine with --output-schema for structured JSON impact reports, Nx project graph MCP server integration, Turborepo --affected hybrid approach, GitHub Actions matrix strategy from agent output, GitLab CI recipe, cost management with gpt-5.4-mini model selection, early-exit guards for docs-only changes, caching impact analysis artefacts, safety nets (nightly full suites, release branch overrides, security package allowlists)
    - SEO targets: "codex cli monorepo ci", "codex exec ci pipeline", "codex cli test impact analysis", "codex cli nx affected", "codex cli turborepo", "codex cli github actions monorepo", "codex structured output ci", "codex cli selective testing"
+
+## New Articles — Auto-Generated (2026-05-20, Hourly Task)
+
+### Detached Subagent Patterns
+
+1. ✅ **Detached Subagent Patterns for Codex CLI: Context-Free Orchestration Beyond Built-in Fork Semantics** — Written 2026-05-20 → `2026-05-20-detached-subagent-patterns-codex-cli-context-free-orchestration-community-tools.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the emerging pattern of running Codex subagents as fully detached, process-isolated agents using community tools (obra/external-subagents, codex-subagents-mcp, betterup/codex-cli-subagents), despite existing multi-agent articles covering built-in MultiAgentV2, agent swarms, and MCP-based orchestration.
+   - Scope: Context pressure problem with built-in fork semantics, obra/external-subagents manifest-driven CLI (start/send/peek/wait/archive commands, JSON manifest batching, controller isolation, persona mapping), codex-subagents-mcp single-tool MCP server (delegate tool, file-based agent registry, git worktree isolation, profile binding), betterup proof-of-concept (Python executor, YAML frontmatter agents), comparison matrix across four approaches, decision framework for built-in vs detached subagents, hybrid orchestration pattern combining both, trade-offs (shared state loss, consolidation limitations, configuration complexity)
+   - SEO targets: "codex cli detached subagents", "codex cli context-free orchestration", "codex exec subagent", "codex cli process isolation", "codex subagent patterns", "obra external subagents", "codex subagents mcp", "codex cli multi-agent isolation"
+
+## New Articles — Auto-Generated (2026-05-20, Hourly Task #181)
+
+### GitHub Copilot CLI Agent vs Codex CLI
+
+1. ✅ **GitHub Copilot CLI Agent vs Codex CLI: Same Model, Different Harness — Two Terminal Agents Compared** — Written 2026-05-20 → `2026-05-20-github-copilot-cli-agent-vs-codex-cli-same-model-different-harness-terminal-agents.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered a direct comparison between GitHub Copilot CLI Agent and Codex CLI, despite both now sharing the same GPT-5.3-Codex base model as of May 17, 2026.
+   - Scope: Architecture comparison (Rust vs Node.js), sandboxing approaches (OS-level vs worktree isolation), automation surfaces (codex exec/SDK/MCP vs GitHub Actions/fleet/delegate), extensibility (open MCP vs managed marketplace), interactive TUI features, cost models (per-token vs usage-based subscription), decision framework for choosing between tools, convergence trajectory analysis
+   - SEO targets: "codex cli vs copilot cli", "github copilot cli agent comparison", "codex cli copilot comparison", "terminal coding agents compared", "gpt-5.3-codex copilot", "codex cli vs github copilot terminal", "coding agent comparison 2026"

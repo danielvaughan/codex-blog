@@ -1,5 +1,6 @@
 ---
 title: "Thread Automations vs Claude Code Routines: How Scheduled Agent Execution Changes Everything"
+description: "Within 48 hours of each other (14–16 April 2026), both Anthropic and OpenAI shipped scheduled agent execution for their respective coding tools. Anthropic."
 parent: "Articles"
 nav_order: 310
 tags: ["thread-automations", "routines", "scheduling", "cron", "webhook", "competitive-analysis", "claude-code", "agentic-pod"]

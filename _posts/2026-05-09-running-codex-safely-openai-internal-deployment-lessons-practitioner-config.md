@@ -1,5 +1,6 @@
 ---
 title: "Running Codex Safely: What OpenAI's Internal Deployment Reveals and How to Mirror It in Your Own Config"
+description: "On 8 May 2026, OpenAI published Running Codex safely at OpenAI — a rare look at the controls, boundaries and telemetry the Codex team itself uses when."
 parent: "Articles"
 nav_order: 638
 tags: ["codex-cli", "security", "governance", "permissions", "sandbox", "enterprise", "configuration", "openai"]

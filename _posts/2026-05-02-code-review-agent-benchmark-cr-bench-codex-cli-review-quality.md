@@ -1,5 +1,6 @@
 ---
 title: "The Code Review Agent Benchmark: What CR-bench Reveals and How to Configure Codex CLI for Higher-Quality Reviews"
+description: "Every team that has enabled automated code review — whether through Codex's GitHub integration, Claude Code, Devin, or the open-source PR-Agent."
 parent: "Articles"
 nav_order: 521
 tags: ["code-review", "cr-bench", "benchmarks", "agents-md", "review-quality", "hooks", "github-integration", "research"]

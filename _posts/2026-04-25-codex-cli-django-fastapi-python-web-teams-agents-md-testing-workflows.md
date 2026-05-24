@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Django and FastAPI Teams: AGENTS.md Templates, Sandbox Configuration, and Python Web Development Workflows"
+description: "Python web frameworks remain the backbone of backend development for millions of teams, yet Codex CLI's documentation and community guides lean heavily."
 parent: "Articles"
 nav_order: 424
 tags: ["codex-cli", "django", "fastapi", "python", "AGENTS.md", "testing", "sandbox", "web-development"]

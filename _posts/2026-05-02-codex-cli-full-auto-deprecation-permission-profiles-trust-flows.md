@@ -1,5 +1,6 @@
 ---
 title: "The --full-auto Deprecation: Migrating to Codex CLI's Explicit Permission Profiles and Trust Flows"
+description: "Codex CLI v0.128 quietly retired one of the tool's most convenient — and most dangerous — flags. The --full-auto option, which bypassed all approval prompts."
 parent: "Articles"
 nav_order: 522
 tags: ["codex-cli", "security", "permissions", "deprecation", "migration", "approval-policy", "sandbox", "trust", "configuration"]

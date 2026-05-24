@@ -1,5 +1,6 @@
 ---
 title: "Engineering Pitfalls in AI Coding Tools: What 3,864 Bugs Reveal About Codex, Claude Code, and Gemini CLI"
+description: "When an AI coding agent produces wrong code, developers blame the model. When it crashes mid-session, they blame the tool. A new empirical study from York."
 parent: "Articles"
 nav_order: 352
 tags: ["codex-cli", "claude-code", "gemini-cli", "bugs", "reliability", "engineering", "research", "troubleshooting", "integration"]

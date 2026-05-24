@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Live Configuration: Hot-Reload, /debug-config, and Runtime Configuration Management"
+description: "Configuration in Codex CLI has quietly matured from a static file you edit once into a layered, hot-reloadable system that adapts mid-session. Since."
 parent: "Articles"
 nav_order: 657
 tags: ["codex-cli", "config.toml", "live-reload", "debug-config", "profiles", "runtime-configuration", "v0.130", "developer-workflow"]

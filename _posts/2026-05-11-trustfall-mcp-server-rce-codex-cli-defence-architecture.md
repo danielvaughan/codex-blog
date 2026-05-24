@@ -1,5 +1,6 @@
 ---
 title: "The TrustFall Vulnerability: How One Keypress Gives MCP Servers Full System Access — and Why Codex CLI Is Not Affected"
+description: "On 7 May 2026, Adversa AI published TrustFall, a vulnerability class that turns the Model Context Protocol server mechanism in four major coding agents."
 parent: "Articles"
 nav_order: 654
 tags: ["security", "MCP", "supply-chain", "TrustFall", "sandbox", "codex-cli"]

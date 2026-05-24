@@ -1,5 +1,6 @@
 ---
 title: "Remote SSH and the App-Server Architecture: Running Codex Against Distant Machines"
+description: "Professional development rarely happens on a single laptop. GPU rigs, staging clusters, production-like devboxes, and CI runners all live elsewhere. Until."
 parent: "Articles"
 nav_order: 315
 tags: ["remote-development", "ssh", "app-server", "websocket", "codex-cli", "architecture", "security"]

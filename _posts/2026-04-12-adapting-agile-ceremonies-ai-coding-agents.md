@@ -1,5 +1,6 @@
 ---
 title: "Adapting Agile Ceremonies for AI Coding Agents: Sprint Planning, Standups, and Retros"
+description: "When autonomous coding agents handle 40–60% of implementation work, the standard Scrum playbook breaks down. Story points lose their meaning, standups."
 parent: "Articles"
 nav_order: 268
 tags: ["agile", "ceremonies", "sprint-planning", "standups", "retros", "team-process", "codex-cli", "ai-agents"]

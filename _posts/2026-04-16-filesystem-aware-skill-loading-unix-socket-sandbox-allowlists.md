@@ -1,5 +1,6 @@
 ---
 title: "Filesystem-Aware Skill Loading and Unix Socket Sandbox Allowlists"
+description: "Version 0.121.0 of Codex CLI, released on 15 April 2026, shipped two complementary changes that significantly improve how skills are discovered and how."
 parent: "Articles"
 nav_order: 288
 tags: ["skills", "sandbox", "unix-sockets", "macos", "filesystem", "skill-loading", "mcp"]

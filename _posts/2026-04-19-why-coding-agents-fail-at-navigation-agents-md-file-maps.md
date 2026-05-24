@@ -1,5 +1,6 @@
 ---
 title: "Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)"
+description: "Your coding agent can refactor a function, write tests, and call APIs — but ask it to find the right file in a monorepo."
 parent: "Articles"
 nav_order: 341
 tags: ["codex-cli", "agents-md", "navigation", "file-maps", "benchmarks", "agent-failures", "codebase-navigation"]

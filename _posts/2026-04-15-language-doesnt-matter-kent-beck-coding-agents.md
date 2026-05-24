@@ -1,5 +1,6 @@
 ---
 title: "Language Doesn't Matter Anymore: What Kent Beck's Shift Means for Coding Agents"
+description: "Kent Beck — creator of Extreme Programming, co-author of the Agile Manifesto, pioneer of Test-Driven Development."
 parent: "Articles"
 nav_order: 288
 tags: ["kent-beck", "language-agnosticism", "cross-language", "agents-md", "portability", "augmented-coding"]

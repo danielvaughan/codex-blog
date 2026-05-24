@@ -1,5 +1,6 @@
 ---
 title: "Memory Lifecycle Management: Create, Consolidate, Clean, Delete in Codex CLI"
+description: "Since v0.100.0, Codex CLI has shipped a persistent memory system that retains facts, preferences, and project context across sessions."
 parent: "Articles"
 nav_order: 286
 tags: ["memory", "lifecycle", "consolidation", "data-governance", "enterprise", "configuration"]

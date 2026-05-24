@@ -1,5 +1,6 @@
 ---
 title: "The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic"
+description: "Your coding agent just wrote a purchasing module, ran all the tests, and reported success. The code compiles, the API calls return 200s, and the database."
 parent: "Articles"
 nav_order: 349
 tags: ["codex-cli", "enterprise", "business-logic", "verification", "hooks", "agent-failure-modes", "subagents"]

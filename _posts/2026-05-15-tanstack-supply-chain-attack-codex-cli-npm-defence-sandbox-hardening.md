@@ -1,5 +1,6 @@
 ---
 title: "The TanStack Supply Chain Attack: What Codex CLI Users Need to Know and How to Defend Your Pipeline"
+description: "On 11 May 2026, a coordinated supply chain attack compromised 84 npm package versions across 42 @tanstack/* packages."
 parent: "Articles"
 nav_order: 709
 tags: ["codex-cli", "supply-chain-security", "npm", "tanstack", "sandbox", "ci-cd", "Mini-Shai-Hulud", "CVE-2026-45321"]

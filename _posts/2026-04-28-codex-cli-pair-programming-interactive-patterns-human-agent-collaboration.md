@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Pair Programming: Interactive Patterns, Conversation Strategies, and the Human-Agent Collaboration Loop"
+description: "Most Codex CLI coverage focuses on headless automation, CI/CD pipelines, or framework-specific configuration."
 parent: "Articles"
 nav_order: 469
 tags: ["codex-cli", "pair-programming", "interactive-workflow", "conversation-strategy", "human-agent-collaboration", "TUI", "GPT-5.5"]

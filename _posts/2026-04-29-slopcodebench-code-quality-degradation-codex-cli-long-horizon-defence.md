@@ -1,5 +1,6 @@
 ---
 title: "SlopCodeBench and Code Quality Degradation: Defending Against Architectural Decay in Long-Horizon Codex CLI Sessions"
+description: "Every practitioner who has run Codex CLI for more than an hour on an evolving feature has felt it."
 parent: "Articles"
 nav_order: 482
 tags: ["codex-cli", "slopcodebench", "code-quality", "long-horizon", "degradation", "agents-md", "hooks", "subagents", "context-compaction", "refactoring"]

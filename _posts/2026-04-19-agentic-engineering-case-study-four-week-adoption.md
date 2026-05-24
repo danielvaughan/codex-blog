@@ -1,5 +1,6 @@
 ---
 title: "I Used This Setup → This Is What Changed: An Agentic Engineering Case Study"
+description: "Agentic engineering promises a fundamental shift in how software gets built. But promises are cheap. What actually changes when you commit to an agent-first."
 parent: "Articles"
 nav_order: 340
 tags: ["codex-cli", "agentic-engineering", "case-study", "workflow", "adoption", "productivity"]

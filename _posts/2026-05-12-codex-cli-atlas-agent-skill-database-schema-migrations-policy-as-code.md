@@ -1,5 +1,6 @@
 ---
 title: "Database Schema Migrations with Codex CLI: Atlas Agent Skills, Policy-as-Code, and the Deterministic Safety Layer"
+description: "AI coding agents are remarkably good at generating application code. Database migrations are a different beast."
 parent: "Articles"
 nav_order: 689
 tags: ["codex-cli", "atlas", "database-migrations", "agent-skills", "policy-as-code", "postgres", "schema-management"]

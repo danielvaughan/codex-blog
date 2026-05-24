@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI and Turborepo: Agent-Aware Builds, Task Caching, and Remote Cache Integration"
+description: "Turborepo 2.8 and 2.9 introduced first-class support for AI coding agents, making it the first major JavaScript build tool to explicitly optimise for agentic."
 parent: "Articles"
 nav_order: 265
 tags: ["turborepo", "monorepo", "task-caching", "remote-cache", "vercel", "codex-cli", "agents"]

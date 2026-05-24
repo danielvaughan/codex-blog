@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Feature Flag Lifecycle Management: OpenFeature Migration, Stale Flag Detection, and CI Enforcement"
+description: "Feature flags are one of the most powerful primitives in modern software delivery."
 parent: "Articles"
 nav_order: 764
 tags: ["codex-cli", "feature-flags", "openfeature", "launchdarkly", "unleash", "stale-flags", "technical-debt", "ci", "hooks", "agents-md"]

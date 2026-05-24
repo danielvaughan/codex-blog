@@ -1,5 +1,6 @@
 ---
 title: "Safe Database Schema Refactoring with Codex CLI and Neon Branching"
+description: "Schema migrations remain one of the riskiest operations in a production system. A dropped column, a mistyped constraint, or a subtly wrong data."
 parent: "Articles"
 nav_order: 410
 tags: ["codex-cli", "neon", "database", "mcp", "schema-migration", "branching", "drizzle", "postgres"]

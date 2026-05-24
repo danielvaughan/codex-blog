@@ -1,5 +1,6 @@
 ---
 title: "The Goblin Incident: What Reward Signal Leakage in GPT-5.5 Teaches Codex CLI Practitioners"
+description: "On 28 April 2026, Google engineer Barron Roth noticed something odd in his Codex CLI sessions: the model kept inserting the word goblin into code."
 parent: "Articles"
 nav_order: 533
 tags: ["codex-cli", "GPT-5.5", "RLHF", "reward-signal", "model-behaviour", "system-prompt", "code-quality"]

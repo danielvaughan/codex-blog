@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI in the Post-Password Era: Advanced Account Security, Passkeys, and Hardening Your Authentication Chain"
+description: "On 30 April 2026, OpenAI launched Advanced Account Security — a new opt-in hardening layer that disables password-based login entirely, mandates."
 parent: "Articles"
 nav_order: 528
 tags: ["security", "authentication", "passkeys", "yubikey", "enterprise", "advanced-account-security", "device-code", "codex-cli"]

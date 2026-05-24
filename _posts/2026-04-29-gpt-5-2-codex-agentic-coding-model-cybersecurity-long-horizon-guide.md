@@ -1,5 +1,6 @@
 ---
 title: "GPT-5.2-Codex: What the New Agentic Coding Model Means for Your Codex CLI Workflows"
+description: "On 28 April 2026, OpenAI released GPT-5.2-Codex — a variant of GPT-5.2 purpose-built for agentic coding workflows . Unlike GPT-5.5, which targets breadth."
 parent: "Articles"
 nav_order: 483
 tags: ["codex-cli", "gpt-5.2-codex", "models", "cybersecurity", "benchmarks", "configuration", "long-horizon", "reasoning"]

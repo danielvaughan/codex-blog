@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for the Sceptic: Honest Answers to 'Why Should I Bother?'"
+description: "Every team has one: the developer who rolls their eyes when someone mentions AI coding tools. Perhaps you are that developer. You've seen the hype cycles."
 parent: "Articles"
 nav_order: 342
 tags: ["codex-cli", "agentic-engineering", "developer-experience", "honest-assessment", "adoption"]

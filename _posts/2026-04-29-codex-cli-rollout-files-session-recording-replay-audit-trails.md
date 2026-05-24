@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Rollout Files: Session Recording, Replay, and Building Audit Trails"
+description: "Every codex invocation silently writes a JSONL rollout file — a complete, append-only transcript of everything the agent saw, thought, executed."
 parent: "Articles"
 nav_order: 497
 tags: ["codex-cli", "rollout-files", "sessions", "audit", "observability", "debugging", "compliance", "JSONL"]

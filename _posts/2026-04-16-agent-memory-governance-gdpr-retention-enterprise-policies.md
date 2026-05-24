@@ -1,5 +1,6 @@
 ---
 title: "Agent Memory Governance: GDPR, Data Retention, and Enterprise Memory Policies"
+description: "Codex CLI's persistent memory system — the two-phase pipeline that extracts, consolidates, and reinjects session knowledge across invocations — is arguably."
 parent: "Articles"
 nav_order: 305
 tags: ["memory", "gdpr", "data-governance", "enterprise", "retention", "compliance", "codex-cli"]

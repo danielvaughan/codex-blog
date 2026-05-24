@@ -1,5 +1,6 @@
 ---
 title: "Infrastructure as Code with Codex CLI: The Terraform Skill, HashiCorp MCP Server, and Agent-Driven IaC Workflows"
+description: "AI coding agents have reshaped application development, yet infrastructure as code remains a domain where hallucinated resource arguments, outdated provider."
 parent: "Articles"
 nav_order: 694
 tags: ["codex-cli", "terraform", "opentofu", "infrastructure-as-code", "mcp", "agent-skills", "iac", "devops"]

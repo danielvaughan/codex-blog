@@ -1,5 +1,6 @@
 ---
 title: "Running Multiple Codex Agent Instances: Parallel Orchestration Patterns"
+description: "Running a single Codex CLI agent is powerful. Running several in parallel — each tackling an independent slice of your codebase — transforms your throughput."
 parent: "Articles"
 nav_order: 332
 tags: ["codex-cli", "parallel-agents", "orchestration", "git-worktrees", "tmux", "subagents", "multi-agent"]

@@ -1,5 +1,6 @@
 ---
 title: "The Model Context Window Budget: Practical Token Management for Large Codebases"
+description: "Every agentic coding session is a budgeting exercise. Your model has a finite context window."
 parent: "Articles"
 nav_order: 362
 tags: ["codex-cli", "context-window", "token-management", "compaction", "monorepo", "subagents", "large-codebase"]

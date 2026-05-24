@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Enterprise Deployment: Managed Policies and Team Configuration"
+description: "Rolling Codex CLI out to a team of ten is a different proposition from running it on your own laptop. At scale you need guardrails that users cannot."
 date: 2026-03-26T09:00:00+00:00
 tags:
   - configuration

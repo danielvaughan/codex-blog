@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Monorepo CI Optimisation: Agent-Driven Test Impact Analysis and Selective Pipeline Execution"
+description: "Monorepo CI pipelines are slow by default. A single-character change in a leaf package triggers a full build-and-test sweep across every project in the."
 parent: "Articles"
 nav_order: 715
 tags: ["codex-cli", "ci-cd", "monorepo", "test-impact-analysis", "codex-exec", "structured-output", "nx", "turborepo", "github-actions", "workflow-patterns"]

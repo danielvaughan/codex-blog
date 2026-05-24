@@ -1,5 +1,6 @@
 ---
 title: "GPT-5.3-Codex Deep Dive: Benchmarks, CLI Configuration, and Interactive Coding Workflows"
+description: "GPT-5.3-Codex landed on 5 February 2026 as OpenAI's flagship coding model, promising industry-leading agentic performance alongside a 25 % speed improvement."
 parent: "Articles"
 nav_order: 704
 tags: ["gpt-5.3-codex", "model-selection", "benchmarks", "cli-configuration", "interactive-coding", "codex-spark"]

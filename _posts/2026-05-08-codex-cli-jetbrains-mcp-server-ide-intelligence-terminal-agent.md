@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI + JetBrains MCP Server: Giving Your Terminal Agent IDE-Grade Intelligence"
+description: "Codex CLI is a powerful terminal agent, but it operates blind to the rich static analysis, inspections, and run configurations that JetBrains IDEs."
 parent: "Articles"
 nav_order: 631
 tags: ["codex-cli", "jetbrains", "mcp", "ide-integration", "developer-experience", "inspections", "enterprise"]

@@ -1,5 +1,6 @@
 ---
 title: "When to Use Multi-Agent vs Single-Agent: A Practical Framework for Codex CLI Teams"
+description: "Codex CLI's subagent system lets you spawn parallel agents for concurrent work — but more agents does not always mean better results. Recent academic."
 parent: "Articles"
 nav_order: 338
 tags: ["codex-cli", "multi-agent", "single-agent", "subagents", "orchestration", "skill-distillation", "cost-optimisation"]

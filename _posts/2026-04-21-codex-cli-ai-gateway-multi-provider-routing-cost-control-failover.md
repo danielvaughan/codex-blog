@@ -1,5 +1,6 @@
 ---
 title: "Routing Codex CLI Through AI Gateways: Multi-Provider Access, Cost Control, and Failover"
+description: "Codex CLI ships with first-class support for OpenAI models, but production teams rarely want a single point of failure, a single billing dimension."
 parent: "Articles"
 nav_order: 374
 tags: ["codex-cli", "ai-gateway", "multi-provider", "cost-control", "bifrost", "litellm", "openrouter", "failover", "enterprise"]

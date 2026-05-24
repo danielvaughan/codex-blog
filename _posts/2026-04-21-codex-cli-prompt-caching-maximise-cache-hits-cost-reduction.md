@@ -1,5 +1,6 @@
 ---
 title: "Prompt Caching in Codex CLI: How the Agent Loop Stays Linear and How to Maximise Cache Hits"
+description: "Every Codex CLI session resends the full conversation history on each turn. Without mitigation, this is quadratic in cost and latency. The engineering."
 parent: "Articles"
 nav_order: 365
 tags: ["codex-cli", "prompt-caching", "cost-optimisation", "agent-loop", "performance", "token-management"]

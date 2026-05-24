@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Through Databricks Unity AI Gateway: Enterprise Governance, Rate Limits, and Guardrails for Coding Agents"
+description: "Enterprise teams adopting Codex CLI face a recurring governance challenge: how do you give fifty — or five thousand."
 parent: "Articles"
 nav_order: 532
 tags: ["codex-cli", "databricks", "unity-ai-gateway", "enterprise", "governance", "security", "guardrails", "rate-limits", "custom-provider"]

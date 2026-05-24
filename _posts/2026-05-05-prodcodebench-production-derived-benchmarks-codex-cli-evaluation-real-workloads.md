@@ -1,5 +1,6 @@
 ---
 title: "ProdCodeBench and Production-Derived Evaluation: Why Synthetic Benchmarks Mislead and How to Evaluate Codex CLI Against Real Workloads"
+description: "Most teams selecting a coding agent rely on public leaderboards — SWE-bench Verified, Terminal-Bench 2.0, Aider Polyglot — to inform their choice. These."
 parent: "Articles"
 nav_order: 594
 tags: ["codex-cli", "benchmarks", "evaluation", "ProdCodeBench", "production", "SWE-bench", "Terminal-Bench", "codex-exec"]

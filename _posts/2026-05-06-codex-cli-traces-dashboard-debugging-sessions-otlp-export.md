@@ -1,5 +1,6 @@
 ---
 title: "Debugging Codex CLI Sessions with the OpenAI Traces Dashboard and OTLP Export"
+description: "When a Codex CLI session produces unexpected results — a hallucinated file path, a tool call that silently fails, or a subagent that takes an inexplicable."
 parent: "Articles"
 nav_order: 613
 tags: ["codex-cli", "traces", "debugging", "observability", "opentelemetry", "otlp", "dashboard", "sessions", "tool-calls"]

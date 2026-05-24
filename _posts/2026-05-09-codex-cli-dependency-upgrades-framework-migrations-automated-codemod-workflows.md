@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Automated Dependency Upgrades and Framework Migrations"
+description: "Dependency upgrades and framework migrations are the tax every engineering team pays for staying current. They are tedious, high-volume, and mechanically."
 parent: "Articles"
 nav_order: 644
 tags: ["codex-cli", "dependency-upgrades", "framework-migrations", "codemods", "automation", "subagents", "codex-exec"]

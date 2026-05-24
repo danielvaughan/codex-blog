@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI and Nx: Agent Skills, Project Graph Awareness, and Self-Healing CI for Monorepos"
+description: "Monorepos are where AI coding agents stumble hardest. A 200-package Nx workspace has implicit dependency chains, shared libraries, generator conventions."
 parent: "Articles"
 nav_order: 258
 tags: ["nx", "monorepo", "agent-skills", "project-graph", "mcp", "self-healing-ci", "nx-cloud", "generators", "ci-cd"]

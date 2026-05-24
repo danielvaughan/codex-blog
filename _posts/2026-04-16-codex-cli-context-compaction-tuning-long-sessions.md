@@ -1,5 +1,6 @@
 ---
 title: "Mastering Context Compaction in Codex CLI: Tuning Auto-Compact for Long-Running Sessions"
+description: "Context compaction is the mechanism that lets Codex CLI sessions run for hours — even up to seven hours on complex tasks — without hitting context window."
 parent: "Articles"
 nav_order: 298
 tags: ["context-compaction", "auto-compact", "config-toml", "long-sessions", "token-management", "handoff-summary", "compact-prompt"]

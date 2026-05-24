@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates"
+description: "Named profiles are one of the most underused features in Codex CLI. Instead of juggling CLI flags or maintaining separate config files."
 parent: "Articles"
 nav_order: 501
 tags: ["codex-cli", "configuration", "profiles", "config.toml", "workflow", "productivity", "cost-optimisation"]

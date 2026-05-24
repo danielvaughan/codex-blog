@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI and Supabase MCP: Agent-Driven Full-Stack Backend Development with Safe Database Branching"
+description: "Supabase's MCP server exposes over 20 tools that let Codex CLI query databases, inspect schemas, generate migrations, manage Edge Functions, and orchestrate."
 parent: "Articles"
 nav_order: 412
 date: 2026-04-24T23:00:00+00:00

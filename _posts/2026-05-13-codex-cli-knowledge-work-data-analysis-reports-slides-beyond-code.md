@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Knowledge Work: Data Analysis, Report Generation, and Slide Deck Automation Beyond Code"
+description: "When OpenAI repositioned Codex as a tool for (almost) everything in April 2026, the message was clear: the same codex exec primitive that ships pull."
 parent: "Articles"
 nav_order: 698
 tags: ["codex-cli", "knowledge-work", "data-analysis", "report-generation", "slide-decks", "codex-exec", "structured-output", "beyond-code", "automation", "pptx", "pandas", "skills"]

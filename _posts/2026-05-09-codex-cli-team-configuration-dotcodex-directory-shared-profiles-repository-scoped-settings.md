@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Team Configuration: The .codex Directory, Shared Profiles, and Repository-Scoped Settings for Consistent Agent Behaviour"
+description: "Individual developers can get productive with Codex CLI in minutes. Getting a ten-person team to work consistently with the same model, approval policies."
 parent: "Articles"
 nav_order: 643
 tags: ["codex-cli", "configuration", "team-setup", "dotcodex", "profiles", "agents-md", "hooks", "enterprise", "onboarding"]

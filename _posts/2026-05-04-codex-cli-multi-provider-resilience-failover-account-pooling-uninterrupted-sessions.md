@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Multi-Provider Resilience: Failover Chains, Account Pooling, and the Art of Uninterrupted Agent Sessions"
+description: "Rate limits are the silent killer of deep-focus agent sessions. You are forty minutes into a complex refactoring loop, the model has built up a rich."
 parent: "Articles"
 nav_order: 545
 tags: ["multi-provider", "failover", "rate-limiting", "resilience", "account-pooling", "configuration", "enterprise", "operations"]

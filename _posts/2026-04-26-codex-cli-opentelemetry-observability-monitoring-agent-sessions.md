@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI OpenTelemetry Observability: Monitoring Agent Sessions, Token Spend, and Tool Decisions in Production"
+description: "Codex CLI ships with built-in OpenTelemetry (OTel) instrumentation that exports traces, logs, and token-level metrics via OTLP . Unlike bolt-on wrappers."
 parent: "Articles"
 nav_order: 440
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "tracing", "OTLP", "Grafana", "production", "token-tracking"]

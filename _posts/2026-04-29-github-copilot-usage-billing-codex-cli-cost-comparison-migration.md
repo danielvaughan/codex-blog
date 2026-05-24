@@ -1,5 +1,6 @@
 ---
 title: "GitHub Copilot's Usage-Based Billing Shift: What It Means for Codex CLI Teams"
+description: "On 27 April 2026, GitHub announced that every Copilot plan will move from premium request units to usage-based billing with GitHub AI Credits on 1 June 2026."
 parent: "Articles"
 nav_order: 489
 tags: ["codex-cli", "github-copilot", "pricing", "cost-comparison", "migration", "enterprise", "billing"]

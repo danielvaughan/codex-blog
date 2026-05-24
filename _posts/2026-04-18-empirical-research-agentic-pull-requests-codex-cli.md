@@ -1,5 +1,6 @@
 ---
 title: "What 33,000 Agentic Pull Requests Reveal: Empirical Lessons for Codex CLI Practitioners"
+description: "AI coding agents are no longer experimental curiosities — they now submit hundreds of thousands of pull requests to real repositories every month."
 parent: "Articles"
 nav_order: 328
 tags: ["research", "agentic-PRs", "MSR-2026", "code-quality", "CI-CD", "AGENTS-md", "best-practices", "empirical-study"]

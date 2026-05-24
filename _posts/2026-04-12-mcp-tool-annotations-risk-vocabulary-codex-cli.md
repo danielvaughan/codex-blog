@@ -1,5 +1,6 @@
 ---
 title: "MCP Tool Annotations as Risk Vocabulary: How Codex CLI Uses Hints to Drive Approval Decisions"
+description: "Every MCP server exposes tools. Some tools read a database schema. Others delete production tables. Without a shared language for expressing this."
 parent: "Articles"
 nav_order: 263
 tags: ["mcp", "tool-annotations", "approval-policy", "security", "destructive-hint", "open-world-hint", "lethal-trifecta", "enterprise"]

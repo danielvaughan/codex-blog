@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI v0.128: Goal Workflows, Configurable Keymaps, and Built-In Self-Update"
+description: "Version 0.128.0, released on 30 April 2026, is a feature-dense release that finally delivers three capabilities the community has requested for months."
 parent: "Articles"
 nav_order: 507
 tags: ["codex-cli", "v0.128", "release-notes", "goal-workflows", "keymaps", "self-update", "tui", "permission-profiles", "multi-agent"]

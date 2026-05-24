@@ -1,5 +1,6 @@
 ---
 title: "Codex for Chrome: Browser Integration for Authenticated Workflows"
+description: "Codex has always been strongest in the terminal and the editor. But a surprising number of developer tasks live behind a browser login — updating a Jira."
 parent: "Articles"
 nav_order: 624
 tags: ["codex-cli", "chrome-extension", "browser-integration", "computer-use", "security", "workflow"]

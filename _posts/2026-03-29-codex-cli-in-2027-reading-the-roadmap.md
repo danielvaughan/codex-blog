@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI in 2027: Reading the Roadmap"
+description: "OpenAI does not publish a product roadmap for Codex CLI. What it does publish — obsessively, in sub-weekly releases — is a changelog."
 date: 2026-03-29T09:00:00+00:00
 tags:
   - opinion

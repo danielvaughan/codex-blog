@@ -1,6 +1,6 @@
 ---
 title: "Fast Books: What AI-Enabled Publishing Can Learn from Fast Fashion and Fast Software"
-description: "The same forces that let Zara go from sketch to store in two weeks and Shein launch 6,000 designs a day are now reshaping how technical books are written, shipped, and consumed. The parallels — and the warnings — are striking."
+description: "In 1989, Zara opened its first store outside Spain. Its secret weapon was not design flair but supply-chain speed: a dress could move from sketch to shop."
 date: 2026-05-07T23:00:00+00:00
 author: Daniel Vaughan
 category: opinion

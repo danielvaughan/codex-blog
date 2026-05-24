@@ -1,5 +1,6 @@
 ---
 title: "The Completions-to-Responses Migration Pack: Automating OpenAI API Migration with Codex CLI"
+description: "OpenAI's Chat Completions API served the industry well from the GPT-3.5 era onwards, but it was never designed for reasoning models, multi-turn agentic."
 parent: "Articles"
 nav_order: 677
 tags: ["codex-cli", "responses-api", "chat-completions", "migration", "automation", "api", "codex-exec", "ci-cd", "gpt-5", "developer-tools"]

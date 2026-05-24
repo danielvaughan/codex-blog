@@ -1,5 +1,6 @@
 ---
 title: "The Codex CLI Agent Loop Explained: What Happens When You Hit Enter"
+description: "Every time you type a prompt into Codex CLI and press Enter, an orchestration engine kicks into gear — assembling context, querying a model, executing."
 parent: "Articles"
 nav_order: 337
 tags: ["codex-cli", "agent-loop", "architecture", "internals", "responses-api", "context-management"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Metaprompting: Using the Agent to Improve Its Own Instructions"
+description: "Most developers treat their AGENTS.md and skills as write-once configuration. They scaffold an initial file with /init, tweak a few lines, and never touch."
 parent: "Articles"
 nav_order: 625
 tags: ["codex-cli", "metaprompting", "AGENTS.md", "skills", "prompt-engineering", "workflow-optimisation"]

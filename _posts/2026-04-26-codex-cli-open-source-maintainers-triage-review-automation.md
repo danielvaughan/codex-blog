@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Contributor Automation at Scale"
+description: "Open source maintainers face a compounding problem: issue volumes grow faster than review capacity. A popular project with 50 open issues per week and three."
 parent: "Articles"
 nav_order: 445
 tags: ["open-source", "maintainer", "issue-triage", "pr-review", "codex-for-oss", "github-integration", "codex-cloud", "automation", "code-review", "contributor-onboarding"]

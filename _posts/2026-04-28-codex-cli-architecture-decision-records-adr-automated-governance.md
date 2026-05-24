@@ -1,5 +1,6 @@
 ---
 title: "Architecture Decision Records with Codex CLI: Automated ADR Generation, Governance, and the Agent-Architecture Gap"
+description: "Every team says they will write Architecture Decision Records. Few actually do. The friction is well understood."
 parent: "Articles"
 nav_order: 464
 tags: ["codex-cli", "architecture", "adr", "governance", "agents-md", "skills", "codex-exec", "gpt-5.5"]

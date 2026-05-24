@@ -1,4 +1,10 @@
-![Sketchnote: Codex CLI 0.130.0 and Chrome Extension Launch](/sketchnotes/articles/2026-05-14-codex-cli-0130-and-chrome-extension.png)
+---
+title: "Codex CLI 0.130.0 and Chrome Extension Launch"
+description: "Captured: 2026-05-14 Sources:"
+date: 2026-05-13T23:00:00+00:00
+---
+
+![Sketchnote diagram for: Codex CLI 0.130.0 and Chrome Extension Launch](/sketchnotes/articles/2026-05-14-codex-cli-0130-and-chrome-extension.png)
 
 # Codex CLI 0.130.0 and Chrome Extension Launch
 

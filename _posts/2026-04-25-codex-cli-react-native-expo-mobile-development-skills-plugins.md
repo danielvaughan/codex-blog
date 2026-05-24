@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for React Native and Expo: First-Party Skills, Plugins, and Mobile Development Workflows"
+description: "React Native and Expo have always attracted developers who want to move fast. In 2026, that ethos extends to AI-assisted development."
 parent: "Articles"
 nav_order: 414
 tags: ["codex-cli", "react-native", "expo", "mobile-development", "skills", "plugins", "agent-device", "testing", "callstack"]

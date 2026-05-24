@@ -1,5 +1,6 @@
 ---
 title: "Building Agent-Friendly CLIs with Codex CLI: Composable Tool Design for the Agentic Era"
+description: "The fastest-growing consumer of command-line interfaces in 2026 is not a person — it is an AI agent."
 parent: "Articles"
 nav_order: 476
 tags: ["cli-design", "agent-friendly", "composable-tools", "skills", "cli-creator", "structured-output", "automation"]

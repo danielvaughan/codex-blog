@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Serverless Teams: AWS Lambda, SAM, CDK, and Agent Plugin Workflows"
+description: "Serverless development has a peculiar shape: functions are small, but the surrounding configuration — IAM roles, event source mappings, API Gateway routes."
 parent: "Articles"
 nav_order: 441
 tags: ["serverless", "aws-lambda", "sam", "cdk", "agent-plugins", "agentic-coding", "language-guide"]

@@ -1,5 +1,6 @@
 ---
 title: "Testing Codex CLI Skills: The Official Eval Pipeline with codex exec, JSONL Traces, and Skillgrade"
+description: "Skills are becoming the primary unit of reusable workflow in Codex CLI. But a skill without evaluation is a guess — you have no idea whether a SKILL.md."
 parent: "Articles"
 nav_order: 270
 tags: ["skills", "evaluation", "codex-exec", "jsonl", "output-schema", "skillgrade", "ci-cd", "testing", "quality-gates"]

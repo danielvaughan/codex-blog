@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Database Migrations: Agent-Driven Schema Evolution with Atlas, Prisma, and Flyway"
+description: "Database migrations sit in an uncomfortable sweet spot for AI coding agents. The work is repetitive enough to automate."
 parent: "Articles"
 nav_order: 702
 tags: ["codex-cli", "database-migrations", "schema-evolution", "atlas", "prisma", "flyway", "alembic", "agent-skills", "AGENTS.md", "sandbox", "automation"]

@@ -1,5 +1,6 @@
 ---
 title: "The OpenAI Developers Plugin and Docs MCP: Building on the OpenAI Platform from Inside Codex CLI"
+description: "On 7 May 2026, OpenAI released the OpenAI Developers plugin for Codex — a first-party plugin that connects your Codex CLI sessions directly to the OpenAI."
 parent: "Articles"
 nav_order: 654
 tags: ["codex-cli", "openai-developers-plugin", "docs-mcp", "api-development", "plugin-system", "mcp-servers"]

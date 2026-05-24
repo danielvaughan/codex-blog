@@ -1,5 +1,6 @@
 ---
 title: "The Security Decisions AI Agents Make: What Codex and Claude Code Miss When You Don't Ask"
+description: "Every time you prompt Codex or Claude Code to build me a web app, the agent silently makes dozens of security decisions on your behalf."
 parent: "Articles"
 nav_order: 294
 tags: ["security", "benchmarks", "claude-code", "codex-cli", "agents-md", "cross-model-review", "frameworks", "supply-chain"]

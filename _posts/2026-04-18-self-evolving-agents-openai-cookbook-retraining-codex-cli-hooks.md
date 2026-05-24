@@ -1,5 +1,6 @@
 ---
 title: "Self-Evolving Agents in Practice: Implementing the OpenAI Cookbook Retraining Loop with Codex CLI Hooks"
+description: "Most agentic systems plateau after proof-of-concept. The agent handles the happy path, but edge cases accumulate, prompts drift, and performance quietly."
 parent: "Articles"
 nav_order: 329
 tags: ["self-evolving", "retraining", "hooks", "metaprompt", "skill-crystallisation", "prompt-versioning", "genericagent", "evolver"]

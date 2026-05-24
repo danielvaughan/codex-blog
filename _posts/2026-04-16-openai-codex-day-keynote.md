@@ -1,13 +1,18 @@
+---
+title: "OpenAI Codex Day Keynote — Enterprise Adoption and Model Roadmap"
+description: "Source: OpenAI Codex Day event (BloomsYard), in-person talk transcript Author: OpenAI Developer Relations (speaker unnamed) Published: 2026-04-16 Content."
+date: 2026-04-15T23:00:00+00:00
+tags: ["codex", "openai", "enterprise-adoption", "gpt-5", "agentic-delegation", "roadmap", "case-studies", "codex-app", "unified-agent-harness"]
+---
+
 # OpenAI Codex Day Keynote — Enterprise Adoption and Model Roadmap
 
 **Source:** OpenAI Codex Day event (BloomsYard), in-person talk transcript
 **Author:** OpenAI Developer Relations (speaker unnamed)
-**Published:** 2026-04-16
 **Date saved:** 2026-04-16
 **Content age:** Current as of April 2026
-**Tags:** codex, openai, enterprise-adoption, gpt-5, agentic-delegation, roadmap, case-studies, codex-app, unified-agent-harness
 
-![Sketchnote: OpenAI Codex Day Keynote — Enterprise Adoption and Model Roadmap](/sketchnotes/articles/2026-04-16-openai-codex-day-keynote.png)
+![Sketchnote diagram for: OpenAI Codex Day Keynote — Enterprise Adoption and Model Roadmap](/sketchnotes/articles/2026-04-16-openai-codex-day-keynote.png)
 
 ---
 

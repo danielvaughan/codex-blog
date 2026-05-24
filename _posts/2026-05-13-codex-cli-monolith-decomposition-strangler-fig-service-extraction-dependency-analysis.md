@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Monolith Decomposition: Strangler Fig Migration, Service Boundary Detection, and Agent-Driven Extraction"
+description: "Monolith decomposition remains one of the highest-value, highest-risk engineering programmes an organisation undertakes. Industry surveys consistently."
 parent: "Articles"
 nav_order: 692
 tags: ["codex-cli", "monolith", "microservices", "strangler-fig", "code-modernisation", "migration", "subagents", "exec-plan", "dependency-analysis"]

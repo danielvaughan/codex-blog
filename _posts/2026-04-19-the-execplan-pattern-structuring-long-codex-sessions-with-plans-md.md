@@ -1,5 +1,6 @@
 ---
 title: "The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md"
+description: "The single biggest determinant of whether a Codex session completes a complex task or drifts into incoherence is not the model — it is the planning."
 parent: "Articles"
 nav_order: 348
 tags: ["codex-cli", "planning", "ExecPlan", "PLANS.md", "long-horizon", "AGENTS.md", "durable-memory", "workflow"]

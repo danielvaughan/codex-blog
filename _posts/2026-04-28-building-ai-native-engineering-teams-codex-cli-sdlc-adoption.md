@@ -1,5 +1,6 @@
 ---
 title: "Building AI-Native Engineering Teams with Codex CLI: The Seven-Phase SDLC Adoption Playbook"
+description: "Coding agents have crossed the chasm from novelty to infrastructure. OpenAI reports three million weekly active Codex users as of April 2026 ."
 parent: "Articles"
 nav_order: 468
 tags: ["codex-cli", "ai-native-engineering", "team-adoption", "SDLC", "enterprise", "productivity", "delegation-framework"]

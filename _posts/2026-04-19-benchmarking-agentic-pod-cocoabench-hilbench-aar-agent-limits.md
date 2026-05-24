@@ -1,5 +1,6 @@
 ---
 title: "Benchmarking Your Agentic Pod: What CocoaBench, HiL-Bench, and AAR Tell Us About Agent Limits"
+description: "Three benchmarks published in April 2026 expose where frontier coding agents actually break down — and the failure modes they reveal map directly onto."
 parent: "Articles"
 nav_order: 344
 tags: ["benchmarks", "agentic-pods", "CocoaBench", "HiL-Bench", "agent-limits", "AGENTS.md", "approval-modes"]

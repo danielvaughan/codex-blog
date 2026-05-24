@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Smart Approvals: How Adaptive Command Policies and Prefix Rules Eliminate Approval Fatigue"
+description: "Every developer who has used Codex CLI in on-request mode knows the rhythm: approve git status, approve git diff, approve npm test, approve git status."
 parent: "Articles"
 nav_order: 541
 tags: ["smart-approvals", "approval-policy", "prefix-rules", "execpolicy", "starlark", "guardian", "auto-review", "security", "configuration", "enterprise"]

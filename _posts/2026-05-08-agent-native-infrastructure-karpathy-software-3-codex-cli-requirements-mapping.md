@@ -1,5 +1,6 @@
 ---
 title: "Agent-Native Infrastructure: Karpathy's Software 3.0 Requirements and How Codex CLI Meets Them"
+description: "At Sequoia's AI Ascent 2026, Andrej Karpathy laid out a framework that every engineering team shipping AI-assisted code should internalise."
 parent: "Articles"
 nav_order: 634
 tags: ["codex-cli", "agent-native", "software-3.0", "karpathy", "infrastructure", "configuration", "architecture"]

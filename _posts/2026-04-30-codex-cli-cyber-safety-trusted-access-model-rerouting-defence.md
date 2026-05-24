@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Cyber Safety: Understanding Model Rerouting, Trusted Access, and the False Positive Problem"
+description: "If your Codex CLI sessions have suddenly slowed down or you have spotted the banner Your conversations have multiple flags for possible cybersecurity."
 parent: "Articles"
 nav_order: 498
 tags: ["codex-cli", "cyber-safety", "security", "trusted-access", "GPT-5.4-Cyber", "model-rerouting", "preparedness-framework"]

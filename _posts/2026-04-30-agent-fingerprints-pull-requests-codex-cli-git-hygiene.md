@@ -1,5 +1,6 @@
 ---
 title: "Agent Fingerprints in Pull Requests: What MSR 2026 Research Reveals and How to Configure Codex CLI for Professional Git Hygiene"
+description: "Three papers presented at the 23rd International Conference on Mining Software Repositories (MSR '26, Rio de Janeiro, April 13-14 2026) reached the same."
 parent: "Articles"
 nav_order: 509
 tags: ["codex-cli", "git", "pull-requests", "commit-messages", "research", "MSR-2026", "agent-fingerprints", "AGENTS.md", "hooks", "enterprise"]

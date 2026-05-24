@@ -1,13 +1,18 @@
+---
+title: "Qwen3.6-35B-A3B: The Local Model That Changes the Agentic Cost Equation"
+description: "Source: Author: Qwen Team (Alibaba Cloud) Published: 2026-04-16 Content age: Current as of April 2026 Tags: local-models, qwen, moe, swe-bench,."
+date: 2026-04-15T23:00:00+00:00
+tags: ["local-models", "qwen", "moe", "swe-bench", "agentic-coding", "cost-optimization", "hardware"]
+---
+
 # Qwen3.6-35B-A3B: The Local Model That Changes the Agentic Cost Equation
 
 **Source:** https://huggingface.co/Qwen/Qwen3.6-35B-A3B
 **Author:** Qwen Team (Alibaba Cloud)
-**Published:** 2026-04-16
 **Date saved:** 2026-04-16
 **Content age:** Current as of April 2026
-**Tags:** local-models, qwen, moe, swe-bench, agentic-coding, cost-optimization, hardware
 
-![Sketchnote: Qwen3.6-35B-A3B: The Local Model That Changes the Agentic Cost Equation](/sketchnotes/articles/2026-04-16-qwen36-35b-a3b-local-agentic-coding-breakthrough.png)
+![Sketchnote diagram for: Qwen3.6-35B-A3B: The Local Model That Changes the Agentic Cost Equation](/sketchnotes/articles/2026-04-16-qwen36-35b-a3b-local-agentic-coding-breakthrough.png)
 
 ---
 

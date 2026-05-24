@@ -1,5 +1,6 @@
 ---
 title: "From ChatGPT to Codex CLI: What Changes When Your AI Can Actually Run Code"
+description: "If you already use ChatGPT to help you write code — pasting in error messages, asking for function implementations, copying suggestions back into your."
 parent: "Articles"
 nav_order: 343
 tags: ["codex-cli", "chatgpt", "migration", "agentic-coding", "sandbox", "autonomous-execution"]

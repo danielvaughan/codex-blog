@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Output Control: Tuning Verbosity, Reasoning Summaries, and Token Budgets for Every Workflow"
+description: "Codex CLI ships with sensible defaults, but those defaults assume a single use case: interactive development with moderate explanation. In practice, senior."
 parent: "Articles"
 nav_order: 530
 tags: ["codex-cli", "configuration", "verbosity", "reasoning", "token-management", "output-control", "performance", "config.toml"]

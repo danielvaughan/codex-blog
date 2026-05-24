@@ -1,5 +1,6 @@
 ---
 title: "Scripting the Issue-to-PR Pipeline: Automating the Complete GitHub Workflow with Codex CLI"
+description: "GPT-5.5 landed yesterday with a 60% hallucination reduction and an 82.7% score on Terminal-Bench 2.0 ."
 parent: "Articles"
 nav_order: 401
 tags: ["ci-cd", "codex-cli", "github-actions", "automation", "codex-exec", "structured-output", "workflow-patterns"]

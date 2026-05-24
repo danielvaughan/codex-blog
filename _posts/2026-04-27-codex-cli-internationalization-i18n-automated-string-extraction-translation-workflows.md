@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Internationalization: Automated String Extraction, Translation MCP Servers, and i18n Workflow Patterns"
+description: "Internationalisation remains one of the most tedious yet business-critical engineering tasks. Hard-coded strings slip through reviews, translation files."
 parent: "Articles"
 nav_order: 456
 tags: ["codex-cli", "i18n", "l10n", "internationalization", "translation", "mcp", "automation", "react-i18next", "next-intl", "better-i18n"]

@@ -1,5 +1,6 @@
 ---
 title: "Cloud Development Environments for AI Coding Agents: Running Codex CLI on Coder, Daytona, and Ephemeral Infrastructure"
+description: "Running Codex CLI on your laptop works brilliantly for solo development. But the moment you scale to teams of agents operating across multiple repositories."
 parent: "Articles"
 nav_order: 370
 tags: ["codex-cli", "cloud-development-environments", "coder", "daytona", "devpod", "infrastructure", "sandboxing", "enterprise", "governance"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI MCP OAuth: Authenticating Remote Tool Servers with OAuth 2.1"
+description: "Local MCP servers — launched via command and communicating over stdio — need no authentication. The process runs on your machine with your permissions."
 parent: "Articles"
 nav_order: 610
 tags: ["codex-cli", "mcp", "oauth", "authentication", "remote-servers", "security", "streamable-http"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex Built-In Memory Deep Dive: How the Two-Phase Pipeline Turns Sessions into Institutional Knowledge"
+description: "Codex CLI shipped a built-in memory preview on 16 April 2026 as part of the major Codex for (almost) everything update."
 parent: "Articles"
 nav_order: 324
 tags: ["memory", "config-toml", "persistence", "sessions", "consolidation", "privacy"]

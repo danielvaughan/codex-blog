@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Plugin Marketplace: Building, Distributing, and Managing Extensions at Scale"
+description: "OpenAI launched the Codex plugin marketplace on 26 March 2026, packaging skills, MCP servers, and app integrations into shareable, installable bundles that."
 parent: "Articles"
 nav_order: 398
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "enterprise", "extensibility"]

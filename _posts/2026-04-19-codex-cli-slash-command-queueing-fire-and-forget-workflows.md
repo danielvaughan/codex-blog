@@ -1,5 +1,6 @@
 ---
 title: "Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI"
+description: "The single most frustrating friction point in any interactive coding agent is waiting. You know exactly what you want to do next — toggle fast mode, compact."
 parent: "Articles"
 nav_order: 347
 tags: ["codex-cli", "workflow", "TUI", "slash-commands", "productivity", "queueing"]

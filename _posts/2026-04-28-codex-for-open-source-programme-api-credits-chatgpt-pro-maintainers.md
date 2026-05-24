@@ -1,5 +1,6 @@
 ---
 title: "Codex for Open Source: What the Programme Offers Maintainers and How to Make the Most of It"
+description: "Open-source maintainers do critical infrastructure work — triaging issues, reviewing pull requests, cutting releases, keeping dependencies current — often."
 parent: "Articles"
 nav_order: 471
 tags: ["codex-cli", "open-source", "maintainers", "api-credits", "chatgpt-pro", "codex-security", "oss-fund", "automation"]

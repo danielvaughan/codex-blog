@@ -1,5 +1,6 @@
 ---
 title: "Browser-in-the-Loop Testing: Playwright + Chrome DevTools MCP + Codex CLI"
+description: "Coding agents write code they cannot see running. They generate a component, commit it, and hope the browser agrees. Browser-in-the-loop testing closes that."
 parent: "Articles"
 nav_order: 404
 tags: ["codex-cli", "playwright", "chrome-devtools", "mcp", "browser-testing", "e2e", "automation", "debugging"]

@@ -1,5 +1,6 @@
 ---
 title: "OpenAI Symphony: Turning Linear Into a Control Plane for Autonomous Codex Agents"
+description: "OpenAI today open-sourced Symphony, an orchestration specification that transforms a project-management board — currently Linear — into a fully autonomous."
 parent: "Articles"
 nav_order: 474
 tags: ["codex-cli", "symphony", "orchestration", "linear", "autonomous-agents", "app-server", "devops", "ci-cd"]

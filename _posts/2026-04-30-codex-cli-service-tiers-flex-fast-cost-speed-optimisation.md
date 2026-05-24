@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Service Tiers Explained: Flex, Standard, and Fast Mode for Cost and Speed Optimisation"
+description: "Every codex exec invocation and every interactive session burns tokens. Whether you are running a quick lint fix or a six-hour codebase migration."
 parent: "Articles"
 nav_order: 500
 tags: ["codex-cli", "service-tiers", "flex", "fast-mode", "cost-optimisation", "performance", "pricing", "config-profiles"]

@@ -1,5 +1,6 @@
 ---
 title: "The Codex CLI Notification Pipeline: OSC 9, Notify Hooks, and Never Missing an Agent Event"
+description: "Agentic coding sessions routinely run for minutes — sometimes hours. You fire off a complex refactoring task, switch to a browser tab, and fifteen minutes."
 parent: "Articles"
 nav_order: 278
 tags: ["notifications", "osc9", "notify-hook", "tui-notifications", "desktop-alerts", "webhooks", "terminal-integration"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI and Database Migrations: Atlas Skills, MCP Servers, and Schema-Driven Workflows"
+description: "Database schema migrations sit at the intersection of precision and risk — the kind of task where agentic coding either shines or causes real damage. Codex."
 parent: "Articles"
 nav_order: 260
 tags: ["database-migrations", "atlas", "mcp", "drizzle", "prisma", "neon", "schema-management", "agent-skills", "postgres"]

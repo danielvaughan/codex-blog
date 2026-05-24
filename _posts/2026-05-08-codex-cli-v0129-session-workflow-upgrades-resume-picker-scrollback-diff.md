@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI v0.129 Session Workflow Upgrades: The Redesigned Resume Picker, Raw Scrollback, and Workspace-Aware /diff"
+description: "Codex CLI v0.129.0, released on 7 May 2026, is a feature-dense release spanning Vim editing, plugin marketplace upgrades, and compaction hooks. Buried."
 parent: "Articles"
 nav_order: 629
 tags: ["codex-cli", "v0.129", "session-management", "resume", "scrollback", "diff", "statusline", "TUI", "workflow"]

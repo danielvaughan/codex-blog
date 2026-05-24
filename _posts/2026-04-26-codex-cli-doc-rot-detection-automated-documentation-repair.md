@@ -1,5 +1,6 @@
 ---
 title: "Automated Doc-Rot Detection and Repair with Codex CLI"
+description: "Documentation rots. Every senior developer knows this. The README promises a --legacy flag that was removed three sprints ago. The API reference still lists."
 parent: "Articles"
 nav_order: 429
 tags: ["codex-cli", "documentation", "automation", "ci-cd", "codex-exec", "hooks", "github-actions", "doc-rot"]

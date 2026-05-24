@@ -1,5 +1,6 @@
 ---
 title: "Agent Session Managers for Codex CLI: CCManager, Agent Deck, and the Emerging Orchestration Layer"
+description: "Running a single Codex CLI session is straightforward. Running six in parallel — each on a separate worktree, each targeting a different feature branch."
 parent: "Articles"
 nav_order: 595
 tags: ["codex-cli", "session-management", "multi-agent", "ccmanager", "agent-deck", "worktrees", "parallel-development", "TUI"]

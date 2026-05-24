@@ -1,5 +1,6 @@
 ---
 title: "The Real Cost of Multi-Model Review Loops"
+description: "Cross-model review — writing code with one agent and reviewing it with another — has become the de facto quality pattern in agentic coding workflows."
 parent: "Articles"
 nav_order: 322
 tags: ["cost-analysis", "multi-model", "review-loops", "enterprise", "budget", "slm-judge", "model-routing"]

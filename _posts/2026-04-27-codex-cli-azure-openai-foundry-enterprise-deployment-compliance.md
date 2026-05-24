@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI with Azure OpenAI and Microsoft Foundry: Enterprise Agent Deployment on Azure Infrastructure"
+description: "Codex CLI's first-party GitHub integration makes it trivially easy to start coding with agents — but many enterprise engineering teams run on Azure."
 parent: "Articles"
 nav_order: 458
 tags: ["codex-cli", "azure-openai", "microsoft-foundry", "enterprise", "compliance", "config.toml", "model-provider", "CI/CD"]

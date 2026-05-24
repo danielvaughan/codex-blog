@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Data Analysis: ETL Pipelines, Tabular Workflows, and Reproducible Reports"
+description: "Most Codex CLI coverage focuses on software engineering workflows — refactoring, testing, CI/CD."
 parent: "Articles"
 nav_order: 480
 tags: ["codex-cli", "data-analysis", "etl", "pandas", "automation", "data-engineering", "tabular-data"]

@@ -1,5 +1,6 @@
 ---
 title: "Error Recovery and Rollback Patterns for Codex CLI: Git Safety Nets for Agentic Workflows"
+description: "Coding agents move fast. A single Codex CLI session can touch thirty files in under a minute, and when something goes wrong."
 parent: "Articles"
 nav_order: 427
 tags: ["codex-cli", "git", "rollback", "undo", "error-recovery", "safety", "agentic-workflows", "best-practices"]

@@ -1,5 +1,6 @@
 ---
 title: "Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration"
+description: "Most AGENTS.md guides tell you what sections to include. Few show you a battle-tested file from a codebase where agents write production code daily."
 parent: "Articles"
 nav_order: 532
 tags: ["agents-md", "codex-cli", "configuration", "open-source", "rust", "case-study", "best-practices", "context-engineering"]

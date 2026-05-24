@@ -1,5 +1,6 @@
 ---
 title: "Terminal Agent Showdown: Codex CLI vs Claude Code vs Gemini CLI in May 2026"
+description: "The terminal agent race has intensified since the three-way contest crystallised in late 2025. OpenAI's Codex CLI (v0.128.0, Rust-native), Anthropic's."
 parent: "Articles"
 nav_order: 592
 tags: ["codex-cli", "claude-code", "gemini-cli", "comparison", "terminal-agents", "benchmarks", "pricing", "architecture", "may-2026"]

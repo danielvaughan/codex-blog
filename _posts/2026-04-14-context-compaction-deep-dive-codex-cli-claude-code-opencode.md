@@ -1,5 +1,6 @@
 ---
 title: "Context Compaction Deep Dive: How Codex CLI, Claude Code, and OpenCode Manage Long Sessions"
+description: "Long-running agentic coding sessions inevitably hit the context window ceiling. When a session's accumulated messages — prompts, tool calls, file reads."
 parent: "Articles"
 nav_order: 281
 tags: ["context-compaction", "token-management", "long-sessions", "codex-cli", "claude-code", "opencode", "encrypted-content", "session-memory", "/compact"]

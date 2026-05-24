@@ -1,5 +1,6 @@
 ---
 title: "The Harness Effect: Why the Same Model Scores 16 Points Higher in a Different Tool"
+description: "Claude Opus running inside Cursor scores 93% on Terminal-Bench 2.0. The same model running inside Claude Code scores 77%. That is a 16-point differential."
 parent: "Articles"
 nav_order: 347
 tags: ["harness-engineering", "benchmarks", "codex-cli", "claude-code", "cursor", "AGENTS.md", "performance-tuning"]

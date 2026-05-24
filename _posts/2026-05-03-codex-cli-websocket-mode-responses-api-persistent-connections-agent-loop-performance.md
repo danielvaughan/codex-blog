@@ -1,5 +1,6 @@
 ---
 title: "WebSocket Mode in Codex CLI: How Persistent Connections to the Responses API Cut Agent Loop Latency by 40%"
+description: "Every Codex CLI session is, at its core, a tight loop: send context to the Responses API, receive a model response, execute any requested tool calls, feed."
 parent: "Articles"
 nav_order: 536
 tags: ["codex-cli", "websocket", "responses-api", "performance", "latency", "agent-loop", "transport", "config-toml", "tool-calls"]

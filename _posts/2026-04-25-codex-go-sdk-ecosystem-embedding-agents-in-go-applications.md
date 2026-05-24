@@ -1,5 +1,6 @@
 ---
 title: "The Codex Go SDK Ecosystem: Embedding Coding Agents in Go Applications"
+description: "OpenAI ships official Codex SDKs for TypeScript and Python, but Go — the language powering most of the cloud-native tooling developers interact with daily."
 parent: "Articles"
 nav_order: 426
 tags: ["codex-cli", "go-sdk", "golang", "agent-orchestration", "app-server", "json-rpc", "embedding", "sdk"]

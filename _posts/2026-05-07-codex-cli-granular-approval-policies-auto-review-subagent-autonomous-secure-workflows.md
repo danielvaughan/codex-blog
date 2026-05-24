@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Granular Approval Policies and the Auto-Review Subagent: Autonomous Yet Secure Workflows"
+description: "Every Codex CLI user eventually confronts the same tension: you want the agent to work autonomously, but you also want to sleep at night. The original."
 parent: "Articles"
 nav_order: 616
 tags: ["codex-cli", "approval-policy", "granular-approval", "auto-review", "security", "permissions", "config-toml", "autonomous-workflows", "v0.128"]

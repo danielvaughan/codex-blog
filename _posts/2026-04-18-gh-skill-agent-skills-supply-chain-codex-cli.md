@@ -1,5 +1,6 @@
 ---
 title: "gh skill: Supply-Chain-Secure Agent Skills from GitHub CLI to Codex CLI"
+description: "On 16 April 2026, GitHub shipped gh skill in CLI v2.90.0 — a first-class subcommand for discovering, installing, pinning, updating, and publishing agent."
 parent: "Articles"
 nav_order: 323
 tags: ["gh-skill", "agent-skills", "supply-chain", "codex-cli", "github-cli", "provenance", "skills-management"]

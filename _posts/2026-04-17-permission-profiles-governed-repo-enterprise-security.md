@@ -1,5 +1,6 @@
 ---
 title: "Permission Profiles End-to-End: Governed Repo Mode and Enterprise Security Posture"
+description: "Codex CLI's security model has matured from a simple --full-auto toggle into a layered enterprise security posture system. Permission profiles, granular."
 parent: "Articles"
 nav_order: 311
 tags: ["permission-profiles", "governed-repo-mode", "enterprise", "security", "mcp-sandbox", "config-toml", "guardian-subagent"]

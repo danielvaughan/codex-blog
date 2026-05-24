@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI with Amazon Bedrock: Native AWS Provider Configuration and Enterprise Deployment"
+description: "On 28 April 2026, OpenAI and AWS jointly announced that OpenAI's frontier models and Codex are available on Amazon Bedrock in limited preview."
 parent: "Articles"
 nav_order: 477
 tags: ["codex-cli", "amazon-bedrock", "aws", "enterprise", "model-providers", "configuration", "gpt-oss"]

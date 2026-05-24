@@ -1,5 +1,6 @@
 ---
 title: "The Agent Orchestrator Landscape: Scion, CAO, ComposioHQ, and Choosing Your Multi-Agent Runtime"
+description: "Running a single Codex CLI session is productive. Running five in parallel — each with its own worktree, branch, and PR — is transformative. But the moment."
 parent: "Articles"
 nav_order: 314
 tags: ["orchestration", "scion", "cao", "composio", "multi-agent", "agentic-pod", "kubernetes", "enterprise"]

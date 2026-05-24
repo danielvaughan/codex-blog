@@ -1,5 +1,6 @@
 ---
 title: "Cross-Tool Agent Memory: MemPalace, Built-In Memory, and the Portability Problem"
+description: "Every AI coding assistant now offers some form of persistent memory — yet none of them talk to each other. If your team uses Codex CLI for autonomous tasks."
 parent: "Articles"
 nav_order: 308
 tags: ["memory", "portability", "mempalace", "mcp", "cross-tool", "governance", "enterprise", "knowledge-management"]

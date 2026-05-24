@@ -1,5 +1,6 @@
 ---
 title: "Using Codex CLI to Improve Published Algorithms: A Two-Stage Pipeline"
+description: "A recent paper by Suwannik (April 2026) demonstrates something that should give every research-oriented developer pause."
 parent: "Articles"
 nav_order: 345
 tags: ["codex-cli", "claude-code", "algorithm-improvement", "research", "agentic-engineering", "iterative-refinement"]

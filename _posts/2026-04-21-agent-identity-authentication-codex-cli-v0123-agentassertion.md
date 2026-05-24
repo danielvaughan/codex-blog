@@ -1,5 +1,6 @@
 ---
 title: "Agent Identity Authentication: How Codex CLI Agents Authenticate as Themselves in v0.123"
+description: "For most of Codex CLI's life, every API request left the agent wearing a borrowed identity — a user's OAuth token or API key stapled to outbound calls."
 parent: "Articles"
 nav_order: 377
 tags: ["agent-identity", "authentication", "AgentAssertion", "biscuit-tokens", "enterprise", "multi-agent", "v0.123", "security"]

@@ -1,5 +1,6 @@
 ---
 title: "Tokenmaxxing with Codex CLI: Multi-Agent Operator Stacks, Parallel Harnesses, and the End of Single-Tool Identity"
+description: "In May 2026, four independent signals converged on the same pattern in a single news cycle: YCs Lightcone podcast coined the term tokenmaxxing."
 parent: "Articles"
 nav_order: 706
 tags: ["codex-cli", "multi-agent", "tokenmaxxing", "operator-stack", "parallel-agents", "claude-code", "harness-engineering", "cc-switch", "agent-routing"]

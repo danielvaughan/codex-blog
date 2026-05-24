@@ -1,5 +1,6 @@
 ---
 title: "The AI Coding Productivity Paradox: What Three Major Studies Reveal and How to Configure Codex CLI for Genuine Speed Gains"
+description: "Ninety-three per cent of developers now use AI coding tools. Adoption is near-universal. Yet three independent research programmes — METR's randomised."
 parent: "Articles"
 nav_order: 518
 tags: ["codex-cli", "productivity", "METR", "research", "developer-experience", "best-practices", "workflow", "configuration", "perception-gap"]

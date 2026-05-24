@@ -1,5 +1,6 @@
 ---
 title: "GPT-5.4 Computer Use and Tool Search in Codex CLI: Visual Debugging, Deferred Loading, and /fast Mode"
+description: "GPT-5.4, released on 5 March 2026, is OpenAI's first mainline reasoning model to ship with native computer-use capabilities alongside the frontier coding."
 date: 2026-03-31T08:00:00+00:00
 tags:
   - models

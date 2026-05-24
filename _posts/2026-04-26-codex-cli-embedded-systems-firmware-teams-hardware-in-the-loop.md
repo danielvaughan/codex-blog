@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Embedded Systems and Firmware Teams: Hardware-in-the-Loop, RTOS Patterns, and Agent-Driven Bring-Up"
+description: "Embedded firmware development has long been the domain least affected by AI coding assistants. The reasons are well understood: register-level programming."
 parent: "Articles"
 nav_order: 443
 tags: ["codex-cli", "embedded-systems", "firmware", "hardware-in-the-loop", "RTOS", "AGENTS.md", "sandbox", "cross-compilation"]

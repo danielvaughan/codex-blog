@@ -1,5 +1,6 @@
 ---
 title: "The Codex Chrome Extension: Parallel Browser Workflows, DevTools Integration, and Domain Access Control"
+description: "On 7 May 2026, OpenAI shipped the Codex Chrome Extension — a plugin that gives the Codex agent direct access to your authenticated browser sessions on macOS."
 parent: "Articles"
 nav_order: 653
 tags: ["codex-cli", "chrome-extension", "browser-automation", "devtools", "developer-workflows"]

@@ -1,5 +1,6 @@
 ---
 title: "The Design Space of Coding Agent Harnesses: Seven Architectural Lessons from the Claude Code Analysis That Apply to Codex CLI"
+description: "A systematic academic analysis of a competitor's source code is rare in the AI tooling world. In April 2026, researchers from VILA-Lab published Dive into."
 parent: "Articles"
 nav_order: 496
 tags: ["codex-cli", "architecture", "agent-harness", "design-space", "claude-code", "research", "comparison"]

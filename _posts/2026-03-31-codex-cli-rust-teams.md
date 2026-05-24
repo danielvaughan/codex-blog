@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Rust Teams: AGENTS.md, Cargo Workflows, and Workspace Patterns"
+description: "Codex CLI is written in Rust. That is not a coincidence — it means the OpenAI team has already worked out the patterns for using Codex to maintain a large."
 date: 2026-03-31T08:00:00+00:00
 tags:
   - language-guide

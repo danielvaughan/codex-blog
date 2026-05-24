@@ -1,5 +1,6 @@
 ---
 title: "Community Workflow Frameworks for Codex CLI: Superpowers, GSD, gstack, Spec Kit, OMX, and Compound Engineering Compared"
+description: "Codex CLI ships with a deliberately minimal orchestration layer: an agent loop, a sandbox, hooks, and skills."
 parent: "Articles"
 nav_order: 399
 tags: ["workflow-frameworks", "superpowers", "gsd", "gstack", "spec-kit", "oh-my-codex", "compound-engineering", "orchestration", "community", "best-practices"]

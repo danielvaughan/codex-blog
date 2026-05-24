@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect"
+description: "OpenAI's Parameter Golf competition — train the best language model that fits in 16 MB and completes training in under ten minutes on 8×H100s — drew over."
 parent: "Articles"
 nav_order: 701
 tags: ["codex-cli", "machine-learning", "parameter-golf", "agent-driven-research", "hugging-face", "model-training", "experimentation"]
