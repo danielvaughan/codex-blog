@@ -63,7 +63,7 @@ Based on reviewing 891 articles across the library, the following gaps were iden
 ### Missing Topics (Medium Priority)
 
 6. ✅ **The Human Review Bottleneck: Practical Code Review Strategies for Agent Output** — Written 2026-05-24 → `2026-05-24-human-review-bottleneck-code-review-strategies-agent-output.md`
-7. **Codex CLI for C/C++ Development** — No article covers CMake-aware MCP servers, clangd integration, or AGENTS.md patterns for systems programming
+7. ✅ **Codex CLI for C/C++ Development** — Written 2026-05-24 → `2026-05-24-codex-cli-cpp-development-clangd-mcp-servers-cmake-agent-workflows.md`
 8. ✅ **Migrating from LangChain/LangGraph to Native Agent SDKs** — Written 2026-05-23 → `2026-05-23-migrating-langchain-langgraph-native-agent-sdks-codex-cli.md`
 9. **Codex CLI for GraphQL Development** — No article covers GraphQL schema management, Apollo/Relay MCP servers, or type-safe resolver generation
 
