@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #219)
+
+### Codex CLI for Kotlin/Android Development
+
+1. ✅ **Codex CLI for Kotlin/Android Development: Android CLI, MCP Servers, and Compose-First Agent Workflows** — Written 2026-05-24 → `2026-05-24-codex-cli-kotlin-android-development-android-cli-mcp-servers-compose-agent-workflows.md`
+   - Source: Android Developers Blog (Android CLI announcement), InfoQ (Android CLI agent-friendly analysis), Android Developers docs (Android CLI reference, Android Skills overview), normaltusker/kotlin-mcp-server GitHub, VitoSolin/AndroidStudio-MCP GitHub, modelcontextprotocol/kotlin-sdk GitHub, OpenAI Codex CLI docs
+   - Scope: Android CLI 1.0 commands (create, describe, run, emulator, sdk, skills, docs, screen, layout, studio bridge), Android Skills system (SKILL.md format, 37 agent targets, edge-to-edge/migrate-xml-to-compose/navigation-3/agp-9 skills, Agent Skills Standard), three MCP servers (kotlin-mcp-server with 40+ tools for Gradle/ktlint/Hilt/Room/Retrofit/Compose scaffolding/security compliance, AndroidStudio-MCP IDE bridge with project state/builds/ADB, official MCP Kotlin SDK for custom servers on JVM/Native/JS/Wasm), Codex CLI config.toml for all servers, AGENTS.md template for Kotlin 2.4/Android 35/AGP 9 projects (Compose-first, Navigation 3, ktlint/detekt, anti-hallucination rules), four workflow patterns (Compose screen generation with preview verification loop, XML-to-Compose migration with skills, dependency audit with version-lookup, batch feature generation with codex exec), model selection for Android tasks, sandbox considerations (Gradle cache warming, SDK pre-installation, Studio bridge requirements), composing Android CLI with MCP servers (toolchain/project intelligence/agent layers), limitations (training data lag for Kotlin 2.4/AGP 9, Compose preview requires running Studio, MCP server AI provider conflicts, Windows emulator disabled, skill size limits, cold Gradle builds)
+   - SEO targets: "codex cli kotlin", "codex cli android", "codex cli android cli", "android cli codex", "kotlin mcp server codex", "codex cli jetpack compose", "codex cli android development", "codex cli android skills"
+   - Note: Topic selected from gap analysis item #2 — existing articles covered Java/Spring Boot but no dedicated Kotlin/Android article existed despite Google releasing Android CLI 1.0 at I/O 2026 (May 2026) with agent-first toolchain access reducing token usage by 70%, the kotlin-mcp-server providing 40+ Android development tools, AndroidStudio-MCP enabling IDE bridge for Compose preview rendering, Kotlin 2.4.0-RC being current, and Android being the most widely deployed mobile platform
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #218)
 
 ### Codex CLI for Elixir/Phoenix Development
@@ -31,7 +43,7 @@ Based on reviewing 891 articles across the library, the following gaps were iden
 ### Missing Topics (High Priority)
 
 1. ✅ **Codex CLI for Elixir/Phoenix Development** — Written 2026-05-24 → `2026-05-24-codex-cli-elixir-phoenix-development-mcp-servers-tidewave-hexdocs-workflows.md`
-2. **Codex CLI for Kotlin/Android Development** — Java/Spring Boot has extensive Gravel Path coverage but no dedicated Kotlin/Android article despite Kotlin being the default Android language and JetBrains' AI integrations
+2. ✅ **Codex CLI for Kotlin/Android Development** — Written 2026-05-24 → `2026-05-24-codex-cli-kotlin-android-development-android-cli-mcp-servers-compose-agent-workflows.md`
 3. **Codex CLI for Swift/SwiftUI Development** — iOS/Xcode is briefly covered in the mobile article but no dedicated Swift article covers SourceKit-LSP via MCP, SwiftUI previews, or Swift Package Manager workflows
 4. **Agent Observability Dashboard Patterns** — OpenTelemetry hooks are referenced across multiple articles but no single article shows how to build a practical monitoring dashboard for multi-agent workflows
 5. **Codex CLI and Monorepo Tooling (Turborepo/Nx/Bazel)** — Monorepo patterns exist in the AGENTS.md article but no dedicated guide covers build-system-aware agent configuration for large monorepos
