@@ -1,5 +1,6 @@
 ---
 title: "Semantic Code Search for Codex CLI: CocoIndex, SymDex, and GitNexus for Better Agent Navigation"
+description: "Codex CLI excels at local agentic coding, but it struggles with a fundamental limitation: reliably finding the right code in medium-to-large codebases."
 parent: "Articles"
 nav_order: 452
 tags: ["codex-cli", "semantic-search", "code-navigation", "MCP", "CocoIndex", "SymDex", "GitNexus", "AST", "knowledge-graph", "codebase-indexing"]

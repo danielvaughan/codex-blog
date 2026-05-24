@@ -1,5 +1,6 @@
 ---
 title: "Agentmaxxing: Parallel Multi-CLI Orchestration with Codex CLI, Claude Code and Gemini CLI"
+description: "By April 2026, a new practice has crystallised among senior developers: running multiple AI coding agents from different vendors in parallel, each isolated."
 parent: "Articles"
 nav_order: 255
 tags: ["agentmaxxing", "parallel-agents", "orchestration", "worktrees", "parallel-code", "mozzie", "worktrunk", "multi-cli", "codex-cli"]

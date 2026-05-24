@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI's SDK Maturation Arc: How v0.130–v0.132 Turned a Terminal Tool into a Programmable Agent Platform"
+description: "Three releases in twelve days. Between 8 May and 20 May 2026, Codex CLI shipped v0.130, v0.131, and v0.132 — and each one quietly pushed the project further."
 parent: "Articles"
 nav_order: 790
 tags: ["codex-cli", "python-sdk", "typescript-sdk", "app-server", "automation", "codex-exec", "v0.130", "v0.131", "v0.132", "platform-architecture"]

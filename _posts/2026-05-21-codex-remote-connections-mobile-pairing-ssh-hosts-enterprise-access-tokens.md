@@ -1,5 +1,6 @@
 ---
 title: "Codex Remote Connections: Mobile Pairing, SSH Hosts, and Enterprise Access Tokens"
+description: "Codex has quietly evolved from a single-machine terminal tool into a multi-surface development platform. The remote connections system — spanning mobile."
 parent: "Articles"
 nav_order: 799
 tags: ["codex-cli", "remote-connections", "mobile", "ssh", "enterprise", "access-tokens", "authentication", "daemon"]

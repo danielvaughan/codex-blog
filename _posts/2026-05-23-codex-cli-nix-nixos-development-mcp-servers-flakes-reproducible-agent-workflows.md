@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Nix and NixOS Development: MCP-NixOS, Sandbox Isolation, and Reproducible Agent Workflows"
+description: "Nix occupies a singular position in the development tooling landscape: a purely functional package manager that doubles as a build system, configuration."
 parent: "Articles"
 nav_order: 848
 tags: ["codex-cli", "nix", "nixos", "mcp", "flakes", "home-manager", "nix-darwin", "sandbox", "reproducible-builds", "devops"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI MITM Hooks: HTTPS Request Interception, Header Mutation, and Network-Level Policy Enforcement"
+description: "Codex CLI's sandbox has always controlled what an agent can do on disk and whether it can reach the network."
 parent: "Articles"
 nav_order: 801
 tags: ["codex-cli", "security", "network-proxy", "mitm-hooks", "enterprise", "https-interception", "permission-profiles"]

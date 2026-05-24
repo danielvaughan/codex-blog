@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Non-Interactive Pipelines: Production Automation with exec, resume, and Structured Output"
+description: "The interactive TUI gets all the attention, but codex exec is where Codex CLI earns its keep in production."
 parent: "Articles"
 nav_order: 538
 tags: ["codex-cli", "codex-exec", "non-interactive", "ci-cd", "automation", "structured-output", "pipelines", "resume"]

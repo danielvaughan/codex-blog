@@ -1,5 +1,6 @@
 ---
 title: "RTK and Codex CLI: Killing Token Waste at the Shell Boundary"
+description: "Run git log --oneline -20 in a Codex CLI session and watch what happens. Twenty commit hashes, twenty author names, twenty dates, twenty subject lines."
 parent: "Articles"
 nav_order: 780
 tags: ["codex-cli", "rtk", "token-optimisation", "context-window", "developer-tools", "shell-output", "compression"]

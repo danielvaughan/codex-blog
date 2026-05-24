@@ -1,5 +1,6 @@
 ---
 title: "Codex Cloud Environment Configuration: Setup Scripts, Container Caching, and the codex-universal Image"
+description: "Codex Cloud runs your agent inside an isolated container with your repository checked out and your dependencies installed."
 parent: "Articles"
 nav_order: 772
 tags: ["codex-cli", "codex-cloud", "cloud-environments", "setup-scripts", "container-caching", "codex-universal", "docker", "devops", "ci-cd"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Game Development Teams: Unity MCP, Godot MCP, and Agent-Driven Game Workflows"
+description: "Game development sits at an interesting intersection for AI coding agents. The codebase is highly structured (scenes, components, shaders, scripts)."
 parent: "Articles"
 nav_order: 449
 tags: ["codex-cli", "game-development", "unity", "godot", "mcp", "agents-md", "bevy", "gdscript", "csharp"]

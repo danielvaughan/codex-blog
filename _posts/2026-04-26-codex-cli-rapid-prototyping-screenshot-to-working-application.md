@@ -1,5 +1,6 @@
 ---
 title: "Rapid Prototyping with Codex CLI: From Screenshot to Working Application"
+description: "Design handoff has always been a bottleneck. Designers produce pixel-perfect mocks; developers spend hours interpreting spacing tokens and hover states from."
 parent: "Articles"
 nav_order: 431
 tags: ["codex-cli", "rapid-prototyping", "screenshot-to-code", "multimodal", "image-input", "frontend", "design-to-code", "playwright", "browser", "ui-iteration"]

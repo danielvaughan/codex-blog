@@ -1,5 +1,6 @@
 ---
 title: "Measuring Codex CLI's Impact on Your Team: DORA Metrics, Token Telemetry, and the AI Productivity Paradox"
+description: "Your team adopted Codex CLI three months ago. Pull requests are up. Developers report feeling faster."
 parent: "Articles"
 nav_order: 647
 tags: ["codex-cli", "developer-productivity", "DORA-metrics", "telemetry", "analytics", "measurement", "enterprise"]

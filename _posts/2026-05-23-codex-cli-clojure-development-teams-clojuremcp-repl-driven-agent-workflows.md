@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Clojure Development Teams: ClojureMCP, REPL-Driven Agent Workflows, and Structural Editing"
+description: "Clojure's parenthesised syntax and REPL-driven development culture create a distinctive set of challenges — and opportunities — for AI coding agents. Where."
 parent: "Articles"
 nav_order: 837
 tags: ["codex-cli", "clojure", "clojurescript", "mcp", "repl", "nrepl", "clojure-mcp", "clj-kondo", "clojure-lsp", "agents-md", "structural-editing"]

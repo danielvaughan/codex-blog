@@ -1,5 +1,6 @@
 ---
 title: "Terminal-Native Codex CLI Workflows: Neovim, tmux, and the Multiplexer-Driven Development Stack"
+description: "Codex CLI runs in a terminal. Neovim runs in a terminal. tmux multiplexes terminals. The logical conclusion — a fully keyboard-driven development."
 parent: "Articles"
 nav_order: 459
 tags: ["neovim", "tmux", "terminal-workflow", "codex.nvim", "sidekick.nvim", "codex-cli-farm", "ntm", "parallel-agents", "developer-productivity"]

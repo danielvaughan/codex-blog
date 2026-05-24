@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for OCaml Development: ocaml-mcp-server, Merlin via LSP-MCP, and Type-Driven Agent Workflows"
+description: "OCaml occupies a distinctive position in the programming language landscape: a strict, statically-typed functional language with a mature compiler."
 parent: "Articles"
 nav_order: 840
 tags: ["codex-cli", "ocaml", "mcp", "merlin", "dune", "functional-programming", "type-driven-development", "ocaml-lsp"]

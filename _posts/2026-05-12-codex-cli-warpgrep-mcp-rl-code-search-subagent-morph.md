@@ -1,5 +1,6 @@
 ---
 title: "WarpGrep and Codex CLI: Adding an RL-Trained Code Search Subagent via MCP"
+description: "Every coding agent spends a disproportionate amount of time searching. When Codex CLI tackles an unfamiliar codebase, it issues repeated grep, read."
 parent: "Articles"
 nav_order: 682
 tags: ["codex-cli", "warpgrep", "mcp", "code-search", "subagent", "morph", "reinforcement-learning", "performance"]

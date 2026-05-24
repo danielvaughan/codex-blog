@@ -1,5 +1,6 @@
 ---
 title: "The Nine-Second Database Deletion: What the PocketOS Incident Teaches Codex CLI Practitioners About Agent Safety"
+description: "On 25 April 2026, a Cursor agent powered by Claude Opus 4.6 deleted PocketOS's production database — and every volume-level backup."
 parent: "Articles"
 nav_order: 491
 tags: ["security", "agent-safety", "production-guardrails", "approval-modes", "sandbox", "incident-analysis", "AGENTS.md"]

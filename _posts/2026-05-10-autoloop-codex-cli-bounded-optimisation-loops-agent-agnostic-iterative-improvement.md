@@ -1,5 +1,6 @@
 ---
 title: "AutoLoop with Codex CLI: Bounded Optimisation Loops for Measurable Codebase Improvement"
+description: "Karpathy's autoresearch project — released in March 2026 and now sitting at 21,000+ GitHub stars."
 parent: "Articles"
 nav_order: 650
 tags: ["codex-cli", "autoloop", "autoresearch", "/goal", "eval-driven", "optimisation", "iterative-improvement", "agent-tooling"]

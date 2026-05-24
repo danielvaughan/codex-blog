@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Svelte and SvelteKit Teams: Runes, Svelte MCP, and Agent-Driven Component Workflows"
+description: "Svelte 5's runes system fundamentally changed how reactivity works in the framework — replacing implicit $: declarations with explicit primitives like."
 parent: "Articles"
 nav_order: 435
 tags: ["codex-cli", "svelte", "sveltekit", "runes", "mcp", "agents-md", "vitest", "frontend", "component-workflows"]

@@ -1,5 +1,6 @@
 ---
 title: "Agents SDK TypeScript Goes Sandbox-Native: Building Codex-Powered Agents with the Open-Source Harness"
+description: "On 6 May 2026, OpenAI released v0.9.1 of the Agents SDK for TypeScript — the first version to ship sandbox agents and the open-source harness that underpins."
 parent: "Articles"
 nav_order: 615
 tags: ["agents-sdk", "typescript", "sandbox", "harness", "codex-cli", "portable-compute", "e2b", "modal", "daytona", "multi-agent"]

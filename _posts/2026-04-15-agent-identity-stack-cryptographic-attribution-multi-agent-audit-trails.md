@@ -1,5 +1,6 @@
 ---
 title: "Agent Identity Stack Complete: Cryptographic Attribution for Multi-Agent Audit Trails"
+description: "Codex CLI v0.121.0, released today, ships two PRs that introduce a use_agent_identity feature flag and the ability to register agent identities behind it ."
 parent: "Articles"
 nav_order: 289
 tags: ["agent-identity", "biscuit", "audit-trail", "enterprise", "multi-agent", "attribution", "opentelemetry"]

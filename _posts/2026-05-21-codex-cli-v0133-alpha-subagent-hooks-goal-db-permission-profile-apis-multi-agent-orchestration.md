@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI v0.133.0-alpha: SubagentStart Hooks, Goal DB, and Permission Profile APIs — Signals for Multi-Agent Orchestration"
+description: "Between the stable v0.132.0 release on 20 May 2026 and the same evening, OpenAI shipped three alpha pre-releases — v0.133.0-alpha.1 through alpha.3."
 parent: "Articles"
 nav_order: 798
 tags: ["codex-cli", "v0.133", "alpha", "multi-agent", "subagents", "hooks", "permission-profiles", "goal-database", "orchestration", "enterprise"]

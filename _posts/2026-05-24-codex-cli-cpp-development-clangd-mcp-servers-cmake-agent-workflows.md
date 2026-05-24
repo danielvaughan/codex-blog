@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for C/C++ Development: Clangd MCP Servers, CMake Integration, and Systems Programming Agent Workflows"
+description: "C and C++ codebases present unique challenges for AI coding agents: complex build systems, header dependency graphs, platform-specific preprocessor."
 parent: "Articles"
 nav_order: 847
 tags: ["codex-cli", "c++", "c", "clangd", "mcp", "cmake", "systems-programming", "agent-workflows"]

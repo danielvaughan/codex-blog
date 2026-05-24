@@ -1,5 +1,6 @@
 ---
 title: "Migrating from Gemini CLI to Codex CLI: A Practical Guide After the Antigravity Transition"
+description: "Google announced the Gemini CLI to Antigravity CLI transition at Google I/O on 19 May 2026 ."
 parent: "Articles"
 nav_order: 784
 tags: ["codex-cli", "gemini-cli", "antigravity", "migration", "configuration", "hooks", "skills", "google-io-2026"]

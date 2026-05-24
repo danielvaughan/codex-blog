@@ -1,5 +1,6 @@
 ---
 title: "Codex Cloud vs Codex Local: When to Run in the Cloud"
+description: "Codex ships as two distinct execution surfaces: a local CLI that runs code on your machine."
 date: 2026-03-27T09:00:00+00:00
 summary: "A practical decision guide covering codex cloud exec, environment provisioning, background task patterns, Slack/@Linear triggers, cloud+local hybrid strategies, and the 5x credit cost model."
 tags:

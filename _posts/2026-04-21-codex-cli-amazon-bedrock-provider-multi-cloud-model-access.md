@@ -1,5 +1,6 @@
 ---
 title: "Amazon Bedrock Provider for Codex CLI: Multi-Cloud Model Access"
+description: "Running Codex CLI against Amazon Bedrock has been one of the most requested features since the tool launched. Issue #10400, filed in February 2026."
 parent: "Articles"
 nav_order: 376
 tags: ["codex-cli", "amazon-bedrock", "multi-cloud", "enterprise", "configuration", "providers"]

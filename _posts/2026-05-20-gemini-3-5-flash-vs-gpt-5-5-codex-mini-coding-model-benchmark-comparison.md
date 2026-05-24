@@ -1,5 +1,6 @@
 ---
 title: "Gemini 3.5 Flash vs GPT-5.5 and codex-mini: Coding Model Benchmark Comparison After Google I/O 2026"
+description: "Google I/O 2026 dropped Gemini 3.5 Flash on 19 May with a bold claim: it beats Gemini 3.1 Pro on coding benchmarks whilst running four times faster than."
 parent: "Articles"
 nav_order: 787
 tags: ["benchmarks", "models", "gemini", "gpt-5.5", "codex-mini", "google-io-2026", "performance", "pricing"]

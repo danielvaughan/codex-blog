@@ -1,4 +1,10 @@
-![Sketchnote: Multi-Agent Orchestration Patterns for Codex CLI](/sketchnotes/articles/2026-05-18-multi-agent-orchestration-patterns.png)
+---
+title: "Multi-Agent Orchestration Patterns for Codex CLI"
+description: "Published: 2026-05-18 Source: Addy Osmani — The Code Agent Orchestra ("
+date: 2026-05-17T23:00:00+00:00
+---
+
+![Sketchnote diagram for: Multi-Agent Orchestration Patterns for Codex CLI](/sketchnotes/articles/2026-05-18-multi-agent-orchestration-patterns.png)
 
 # Multi-Agent Orchestration Patterns for Codex CLI
 

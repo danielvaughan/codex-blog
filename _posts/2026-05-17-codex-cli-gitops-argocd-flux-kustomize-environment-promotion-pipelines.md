@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for GitOps Workflows: ArgoCD Application Generation, Kustomize Overlay Management, and Environment Promotion Pipelines"
+description: "GitOps treats Git as the single source of truth for declarative infrastructure and application state. ArgoCD v3.4 and Flux v2.x are the dominant."
 parent: "Articles"
 nav_order: 199
 tags: ["codex-cli", "gitops", "argocd", "flux", "kustomize", "kubernetes", "environment-promotion", "continuous-delivery"]

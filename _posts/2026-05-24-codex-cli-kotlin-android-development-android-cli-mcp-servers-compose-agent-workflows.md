@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Kotlin/Android Development: Android CLI, MCP Servers, and Compose-First Agent Workflows"
+description: "Google's release of Android CLI 1.0 at I/O 2026 fundamentally changed how coding agents interact with the Android toolchain. Rather than scraping Gradle."
 parent: "Articles"
 nav_order: 850
 tags: ["codex-cli", "kotlin", "android", "android-cli", "mcp", "jetpack-compose", "android-skills", "agent-workflows"]

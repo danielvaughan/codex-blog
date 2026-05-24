@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Load Test Generation: k6, Locust, and OpenAPI-Driven Performance Validation"
+description: "Performance testing is the practice most teams acknowledge as essential and then skip until production falls over."
 parent: "Articles"
 nav_order: 417
 tags: ["codex-cli", "load-testing", "k6", "locust", "openapi", "performance", "codex-exec", "ci-cd", "mcp", "test-generation"]

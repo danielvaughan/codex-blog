@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Feature Flags and TUI Tuning: The Hidden Configuration Layer"
 date: 2026-03-28T09:00:00+00:00
-description: "A complete guide to Codex CLI's [features] table and [tui] configuration section — covering unified_exec, shell_snapshot, the /undo command, theme customisation, and profile-scoped overrides."
+description: "Most Codex CLI users configure the obvious knobs — model, approval policy, MCP servers — and leave the rest at defaults."
 substack_status: draft
 tags:
   - configuration

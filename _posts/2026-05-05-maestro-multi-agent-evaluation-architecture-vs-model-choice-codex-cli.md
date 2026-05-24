@@ -1,5 +1,6 @@
 ---
 title: "MAESTRO Lessons for Codex CLI: What a 12-System Multi-Agent Evaluation Suite Reveals About Architecture vs Model Choice"
+description: "There is a persistent assumption in the agent-building community that upgrading the backend model is the fastest route to better performance."
 parent: "Articles"
 nav_order: 598
 tags: ["codex-cli", "multi-agent", "evaluation", "MAESTRO", "architecture", "observability", "subagents"]

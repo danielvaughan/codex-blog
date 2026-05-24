@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Automated Error Handling Strategy: Auditing, Generating, and Enforcing Consistent Error Patterns"
+description: "Error handling is the seam where production systems fracture. Inconsistent patterns — bare catch blocks swallowing context, untyped error strings."
 parent: "Articles"
 nav_order: 742
 tags: ["codex-cli", "error-handling", "code-quality", "automation", "hooks", "skills", "structured-output"]

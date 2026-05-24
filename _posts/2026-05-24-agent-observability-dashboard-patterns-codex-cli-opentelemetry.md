@@ -1,5 +1,6 @@
 ---
 title: "Agent Observability Dashboard Patterns: OpenTelemetry, Traces, and Cost Monitoring for Codex CLI"
+description: "Running a single Codex CLI session is straightforward. Running dozens across a team — batch migrations, multi-agent pipelines, nightly codex exec sweeps."
 parent: "Articles"
 nav_order: 852
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "dashboards", "tracing", "metrics", "grafana", "cost-management"]

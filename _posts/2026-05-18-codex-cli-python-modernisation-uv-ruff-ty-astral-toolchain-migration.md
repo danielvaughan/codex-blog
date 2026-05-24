@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Python Project Modernisation: Migrating to uv, Ruff, and ty with Automated Auditing and CI Enforcement"
+description: "On 19 March 2026, Astral announced it had entered into an agreement to join OpenAI as part of the Codex team . The deal brought three tools that had already."
 parent: "Articles"
 nav_order: 763
 tags: ["codex-cli", "python", "uv", "ruff", "ty", "astral", "pyproject.toml", "modernisation", "ci", "migration"]

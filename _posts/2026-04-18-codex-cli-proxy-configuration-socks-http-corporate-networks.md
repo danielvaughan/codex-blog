@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Proxy Configuration: SOCKS, HTTP, and Corporate Networks"
+description: "Running Codex CLI behind a corporate proxy is one of the most common friction points in enterprise adoption. Between TLS-intercepting proxies, SOCKS."
 parent: "Articles"
 nav_order: 333
 tags: ["codex-cli", "proxy", "socks5", "corporate-network", "enterprise", "tls", "firewall", "configuration"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Rate Limiting Behaviour: Backoff, Retry, and Quota Exhaustion Patterns"
+description: "Rate limits are the most common operational failure mode in Codex CLI sessions, yet the retry machinery that handles them is poorly understood by most."
 parent: "Articles"
 nav_order: 266
 tags: ["rate-limiting", "retry", "backoff", "quota", "operations", "troubleshooting"]

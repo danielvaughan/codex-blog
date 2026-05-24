@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Observability: OpenTelemetry Traces, Metrics, and Production Monitoring"
+description: "Coding agents are opaque by default. When a Codex CLI session burns through 400k tokens over twelve minutes and produces a questionable diff, you need more."
 parent: "Articles"
 nav_order: 361
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "tracing", "metrics", "grafana", "production"]

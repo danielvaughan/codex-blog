@@ -1,5 +1,6 @@
 ---
 title: "From Reactive to Proactive: How Codex Memory + Thread Automations Create Self-Directing Agents"
+description: "For most of its life, Codex CLI has been a sophisticated executor: you tell it what to do, and it does it well. Platform release 26.415 and CLI v0.121.0."
 parent: "Articles"
 nav_order: 306
 tags: ["proactive-memory", "thread-automations", "self-directing", "super-app", "task-suggestions", "slack-notion", "scheduling"]

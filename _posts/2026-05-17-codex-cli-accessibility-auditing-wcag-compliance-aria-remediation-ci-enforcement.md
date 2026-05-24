@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Accessibility Auditing: WCAG Compliance Scanning, ARIA Remediation, and CI Enforcement Pipelines"
+description: "With ADA Title II now mandating WCAG 2.1 Level AA for US state and local government digital services — large entities by April 2027, smaller ones by April."
 parent: "Articles"
 nav_order: 751
 tags: ["codex-cli", "accessibility", "wcag", "aria", "a11y", "ci-cd", "axe-core", "pa11y", "automated-testing"]

@@ -1,5 +1,6 @@
 ---
 title: "The AI Coding Agent Quality Crisis: What the Opsera and Sourcery Intel 2026 Reports Reveal — and How to Configure Codex CLI to Stay Ahead of the Data"
+description: "Two major industry reports landed in early 2026 and painted a sobering picture: AI coding agents demonstrably accelerate delivery, but they also introduce."
 parent: "Articles"
 nav_order: 639
 tags: ["security", "code-quality", "governance", "enterprise", "benchmarks", "hooks", "guardian", "permission-profiles", "config"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Julia and Scientific Computing: julia-mcp, JETLS, and Persistent Session Workflows"
+description: "Julia occupies a unique niche among languages that Codex CLI can target. Its two-language problem — write prototypes in Python, rewrite hot paths in C."
 parent: "Articles"
 nav_order: 843
 tags: ["codex-cli", "julia", "scientific-computing", "mcp", "jetls", "persistent-sessions", "language-server"]

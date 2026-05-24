@@ -1,5 +1,6 @@
 ---
 title: "Interaction Smells in Codex CLI Sessions: Recognising and Fixing Multi-Turn Prompt Anti-Patterns"
+description: "Every senior developer knows about code smells — structural patterns that hint at deeper problems. A March 2026 empirical study from Zhang et al. introduces."
 parent: "Articles"
 nav_order: 490
 tags: ["codex-cli", "prompting", "best-practices", "research", "multi-turn", "session-quality", "interaction-smells"]

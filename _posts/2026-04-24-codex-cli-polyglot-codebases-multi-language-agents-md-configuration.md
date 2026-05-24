@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Polyglot Codebases: Hierarchical AGENTS.md, Per-Directory Config, and Multi-Language Workflow Patterns"
+description: "Most Codex CLI guides assume a single-language repository. Reality is messier — a TypeScript frontend, Go API gateway, Python ML services, and Rust."
 parent: "Articles"
 nav_order: 394
 tags: ["codex-cli", "agents-md", "polyglot", "monorepo", "configuration", "multi-language", "enterprise", "workflow"]

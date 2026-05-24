@@ -1,5 +1,6 @@
 ---
 title: "Managed Agents in the Gemini API vs Codex Cloud Tasks: Agent-as-a-Service Showdown"
+description: "At Google I/O 2026, Ali Çevik introduced Managed Agents in the Gemini API — a single API call that provisions an ephemeral Linux sandbox, drops in an agent."
 parent: "Articles"
 nav_order: 786
 tags: ["codex-cli", "codex-cloud", "gemini-api", "managed-agents", "google-io-2026", "agent-as-a-service", "codex-exec", "comparison"]

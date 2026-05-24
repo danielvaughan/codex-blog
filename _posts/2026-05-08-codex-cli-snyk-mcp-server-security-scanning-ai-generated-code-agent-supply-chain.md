@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI + Snyk MCP Server: Security Scanning for AI-Generated Code and the Agent Supply Chain"
+description: "AI coding agents generate code at a pace that outstrips traditional review workflows. Codex CLI's sandboxed execution model keeps agent commands contained."
 parent: "Articles"
 nav_order: 633
 tags: ["codex-cli", "snyk", "mcp", "security", "sast", "sca", "supply-chain", "agent-scan", "aibom"]

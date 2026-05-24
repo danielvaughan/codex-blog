@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Solidity and Smart Contract Development: Foundry MCP, Security Auditing, and Agent-Driven Contract Workflows"
+description: "Smart contract development occupies a peculiar niche in software engineering: the code is immutable once deployed, bugs can drain millions in minutes."
 parent: "Articles"
 nav_order: 842
 tags: ["codex-cli", "solidity", "smart-contracts", "foundry", "mcp", "security-audit", "ethereum", "web3"]

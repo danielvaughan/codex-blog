@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI on Amazon Bedrock: Enterprise Configuration, SigV4 Authentication, and AWS-Native Workflows"
+description: "On 28 April 2026, AWS and OpenAI announced that Codex — the OpenAI coding agent — is available on Amazon Bedrock in limited preview . For enterprise teams."
 parent: "Articles"
 nav_order: 519
 tags: ["codex-cli", "amazon-bedrock", "aws", "enterprise", "sigv4", "configuration", "bedrock-mantle"]

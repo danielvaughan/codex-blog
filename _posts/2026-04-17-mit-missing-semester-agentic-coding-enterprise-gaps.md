@@ -1,5 +1,6 @@
 ---
 title: "What MIT Gets Right (and Misses) About Agentic Coding: From Missing Semester to Enterprise Patterns"
+description: "In January 2026, MIT's Missing Semester of Your CS Education course added a dedicated Agentic Coding lecture to its curriculum. For a course that has spent."
 parent: "Articles"
 nav_order: 320
 tags: ["mit", "missing-semester", "education", "curriculum", "enterprise-gap", "worktrees", "mcp", "agents-md", "observability", "security"]

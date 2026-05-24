@@ -1,5 +1,6 @@
 ---
 title: "Automated Code Documentation Generation with Codex CLI: Docstrings, JSDoc, and CI-Integrated Doc Pipelines"
+description: "Documentation debt accumulates silently. Functions ship without docstrings, type annotations drift from reality, and README files describe architectures."
 parent: "Articles"
 nav_order: 720
 tags: ["codex-cli", "documentation", "docstrings", "jsdoc", "sphinx", "typedoc", "ci-cd", "automation", "skills", "codex-exec"]

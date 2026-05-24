@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Headless and Batch Mode: Non-Interactive Automation Guide"
+description: "Codex CLI's codex exec subcommand strips away the interactive TUI and runs the agent as a headless process — prompt in, result out, exit."
 parent: "Articles"
 nav_order: 331
 tags: ["codex-cli", "codex-exec", "batch-processing", "automation", "headless", "structured-output"]

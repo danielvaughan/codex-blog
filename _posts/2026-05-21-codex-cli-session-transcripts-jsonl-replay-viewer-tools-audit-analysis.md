@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis"
+description: "Every Codex CLI session generates a complete JSONL transcript — every prompt, model response, tool call, approval decision, and token counter, timestamped."
 parent: "Articles"
 nav_order: 808
 tags: ["codex-cli", "session-transcripts", "jsonl", "replay", "audit", "observability", "tooling", "community"]

@@ -1,5 +1,6 @@
 ---
 title: "Automated CI Failure Recovery with Codex CLI: Self-Healing Pipelines from GitHub Actions to GitLab CI"
+description: "When a CI pipeline goes red at 2 a.m., the traditional response is a Slack notification followed by a bleary-eyed developer pushing a hotfix."
 parent: "Articles"
 nav_order: 357
 tags: ["codex-cli", "codex-exec", "ci-cd", "github-actions", "gitlab-ci", "autofix", "self-healing", "codex-action", "security-remediation"]

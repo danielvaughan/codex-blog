@@ -1,5 +1,6 @@
 ---
 title: "The AI Codebase Maturity Model: Mapping Five Levels of Agent Autonomy to Codex CLI"
+description: "Most teams plateau at prompt-and-review. They install Codex CLI, generate a few fixes, manually inspect the diffs."
 parent: "Articles"
 nav_order: 373
 tags: ["codex-cli", "maturity-model", "ACMM", "feedback-loops", "testing", "CI-CD", "dark-factory", "harness-engineering", "autonomy"]

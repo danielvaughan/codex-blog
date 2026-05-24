@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Mobile Development: iOS with XcodeBuildMCP, Android CLI Skills, and React Native Plugin Workflows"
+description: "Mobile development has historically been hostile to terminal-first agent workflows. Platform toolchains assume GUI interaction, build systems are opaque."
 parent: "Articles"
 nav_order: 765
 tags: ["codex-cli", "mobile-development", "ios", "android", "react-native", "xcodebuildmcp", "android-cli", "swiftui", "kotlin", "cross-platform", "mcp", "skills", "plugins"]

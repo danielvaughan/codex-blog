@@ -1,5 +1,6 @@
 ---
 title: "MCP Tool Namespace Unification: Fixing the Silent Tool-Not-Found Bug"
+description: "If you ran a multi-server MCP configuration in Codex CLI prior to v0.121.0, you may have encountered a particularly frustrating class of bug: the model."
 parent: "Articles"
 nav_order: 290
 tags: ["mcp", "namespacing", "tool-registration", "reliability", "deferred-tools", "plugins"]

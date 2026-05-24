@@ -1,5 +1,6 @@
 ---
 title: "Google Jules vs Codex CLI: Async Fire-and-Forget vs Interactive Terminal Agent"
+description: "With Google I/O 2026 kicking off today and the announcement of Project Jitro (Jules V2) alongside OpenAI's GPT-5.2-Codex release, the two dominant paradigms."
 parent: "Articles"
 nav_order: 781
 tags: ["codex-cli", "google-jules", "comparison", "async-agents", "terminal-agents", "project-jitro", "coding-agents", "gemini", "gpt-5"]

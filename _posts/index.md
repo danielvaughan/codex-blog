@@ -1,5 +1,6 @@
 ---
 title: Articles Index
+description: "Last updated: 2026-05-23 Total articles rated: 891"
 nav_order: 1
 ---
 

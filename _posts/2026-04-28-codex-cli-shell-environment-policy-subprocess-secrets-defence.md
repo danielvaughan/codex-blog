@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Shell Environment Policy: Controlling What Your Agent's Subprocesses Can See"
+description: "Every command Codex CLI executes — npm test, git push, python manage.py migrate — runs as a subprocess that inherits environment variables from your shell."
 parent: "Articles"
 nav_order: 475
 tags: ["codex-cli", "security", "configuration", "environment-variables", "shell-environment-policy", "secrets", "subprocess", "enterprise"]

@@ -1,5 +1,6 @@
 ---
 title: "Image Generation in Codex CLI: gpt-image-2, the $imagegen Skill, and Visual Development Workflows"
+description: "Codex CLI started as a text-only terminal agent. The image capabilities that shipped across March 2026 (v0.115–v0.117) added basic multimodal input."
 parent: "Articles"
 nav_order: 453
 tags: ["codex-cli", "image-generation", "gpt-image-2", "imagegen", "frontend-design", "visual-workflows", "figma", "playwright", "prototyping"]

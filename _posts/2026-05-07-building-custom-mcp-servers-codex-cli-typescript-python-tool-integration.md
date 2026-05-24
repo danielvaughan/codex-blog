@@ -1,5 +1,6 @@
 ---
 title: "Building Custom MCP Servers for Codex CLI: A Practical Guide in TypeScript and Python"
+description: "Codex CLI ships with powerful built-in tools — shell execution, file editing via apply_patch, and web search — but production workflows inevitably demand."
 parent: "Articles"
 nav_order: 617
 tags: ["codex-cli", "mcp", "model-context-protocol", "typescript", "python", "tooling", "integration", "streamable-http", "stdio"]

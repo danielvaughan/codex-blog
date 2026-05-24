@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI MCP Server Management: CLI Commands, OAuth Flows, Streamable HTTP, and Production Configuration Patterns"
+description: "The Model Context Protocol has become the standard integration surface for Codex CLI."
 parent: "Articles"
 nav_order: 776
 tags: ["codex-cli", "mcp", "model-context-protocol", "oauth", "streamable-http", "config-toml", "tool-filtering", "production-patterns"]

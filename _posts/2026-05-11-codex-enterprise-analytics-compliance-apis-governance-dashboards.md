@@ -1,5 +1,6 @@
 ---
 title: "Codex Enterprise Analytics and Compliance APIs: Usage Dashboards, Code Review Metrics, and Audit Integration"
+description: "With Codex now generally available across CLI, IDE extension, App, GitHub, and Slack surfaces , enterprise teams face a familiar question: how do we measure."
 parent: "Articles"
 nav_order: 676
 tags: ["codex-cli", "enterprise", "analytics", "compliance", "governance", "SIEM", "API", "dashboards"]

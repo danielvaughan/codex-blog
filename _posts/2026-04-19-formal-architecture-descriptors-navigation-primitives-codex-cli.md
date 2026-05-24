@@ -1,5 +1,6 @@
 ---
 title: "Formal Architecture Descriptors: Cutting Codex CLI Navigation Overhead by a Third"
+description: "Your AGENTS.md file tells your coding agent what to do. But does it tell the agent where things are in a way that actually reduces navigational overhead? A."
 parent: "Articles"
 nav_order: 347
 tags: ["codex-cli", "architecture-descriptors", "intent-lisp", "navigation", "agents-md", "context-engineering", "codebase-navigation", "s-expressions"]

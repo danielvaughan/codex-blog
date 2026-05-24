@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Remote Development: App Server Architecture, SSH Connections, and Multi-Environment Workflows"
+description: "Running your coding agent on a beefy remote machine whilst driving it from a laptop is no longer a workaround — it is an officially supported workflow."
 parent: "Articles"
 nav_order: 527
 tags: ["codex-cli", "remote-development", "app-server", "ssh", "multi-environment", "websocket", "authentication", "devbox", "tailscale"]

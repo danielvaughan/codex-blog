@@ -1,5 +1,6 @@
 ---
 title: "Goal Mode: Persistent Objectives with Token Budgets and Autonomous Continuation"
+description: "Codex CLI has steadily expanded its autonomy surface — from --full-auto mode through subagent workflows and codex exec for headless batch runs. But every."
 parent: "Articles"
 nav_order: 303
 tags: ["goal-mode", "autonomous", "objectives", "token-budget", "v0.122", "enterprise"]

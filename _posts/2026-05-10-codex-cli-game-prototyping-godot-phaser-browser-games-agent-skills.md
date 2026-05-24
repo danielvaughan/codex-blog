@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills"
+description: "Game prototyping rewards fast iteration above all else. You need to get a concept on screen, playtest it, throw away what fails, and refine what sticks."
 parent: "Articles"
 nav_order: 652
 tags: ["codex-cli", "game-development", "godot", "phaser", "agent-skills", "browser-games", "prototyping", "mcp", "playwright"]

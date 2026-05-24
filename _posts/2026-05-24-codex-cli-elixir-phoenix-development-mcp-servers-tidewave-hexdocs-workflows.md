@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Elixir and Phoenix Development: Tidewave, ElixirLS MCP, HexDocs, and Runtime-Aware Agent Workflows"
+description: "Elixir occupies a unique position in the language ecosystem. Its macro-heavy metaprogramming, runtime-defined schemas, OTP supervision trees, and the BEAM's."
 parent: "Articles"
 nav_order: 849
 tags: ["codex-cli", "elixir", "phoenix", "mcp", "tidewave", "elixirls", "hexdocs", "beam", "otp", "ecto"]

@@ -1,11 +1,16 @@
+---
+title: "Gemini CLI Subagents: Multi-Agent Orchestration Arrives"
+description: "Source: Google Developers Blog Author: Google Published: 2026-04-15 Content age: Current — announced April 15, 2026 Tags: gemini-cli, subagents,."
+date: 2026-04-14T23:00:00+00:00
+tags: ["gemini-cli", "subagents", "multi-agent", "competitor-update", "google"]
+---
+
 # Gemini CLI Subagents: Multi-Agent Orchestration Arrives
 
 **Source:** [Google Developers Blog](https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/)
 **Author:** Google
-**Published:** 2026-04-15
 **Date saved:** 2026-04-16
 **Content age:** Current — announced April 15, 2026
-**Tags:** gemini-cli, subagents, multi-agent, competitor-update, google
 
 ---
 
@@ -15,7 +20,7 @@ Google has introduced subagents to Gemini CLI, enabling the primary agent to del
 
 ---
 
-![Sketchnote: Gemini CLI Subagents: Multi-Agent Orchestration Arrives](/sketchnotes/articles/2026-04-15-gemini-cli-subagents-launch.png)
+![Sketchnote diagram for: Gemini CLI Subagents: Multi-Agent Orchestration Arrives](/sketchnotes/articles/2026-04-15-gemini-cli-subagents-launch.png)
 
 ## Key Points
 

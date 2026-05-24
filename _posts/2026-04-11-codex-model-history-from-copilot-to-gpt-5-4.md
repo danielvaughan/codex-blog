@@ -1,5 +1,6 @@
 ---
 title: "From Codex to GPT-5.4: The Complete History of OpenAI's Code Models"
+description: "In July 2021, OpenAI published a paper describing a GPT-3 model fine-tuned on 159 gigabytes of Python code from 54 million GitHub repositories. They called."
 date: 2026-04-11T06:00:00+00:00
 tags:
   - codex

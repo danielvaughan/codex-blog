@@ -1,5 +1,6 @@
 ---
 title: "Execution Policy Rules in Codex CLI: Starlark-Based Command Governance for Teams"
+description: "Every senior developer running Codex CLI has felt the friction: approve git status, then approve git diff, then approve git log — each individually, each."
 parent: "Articles"
 nav_order: 297
 tags: ["security", "execpolicy", "rules", "starlark", "approvals", "enterprise", "sandbox", "command-governance", "config-toml"]

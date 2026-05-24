@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Haskell Development Teams: HLS via LSP-MCP, Type-Driven Agent Workflows, and AGENTS.md for Functional Codebases"
+description: "Haskell's type system catches entire categories of defects at compile time, but that same rigour makes it an interesting test case for AI coding agents."
 parent: "Articles"
 nav_order: 835
 tags: ["codex-cli", "haskell", "hls", "mcp", "lsp-mcp", "type-driven-development", "functional-programming", "ghc", "cabal", "agents-md"]

@@ -1,5 +1,6 @@
 ---
 title: "The codex-core Crate Extraction: How v0.119.0 Modularised the Rust Heart of Codex CLI"
+description: "When OpenAI released Codex CLI v0.119.0 on 10 April 2026, the headline features were WebRTC voice sessions, expanded MCP Apps support, and the experimental."
 date: 2026-04-11T13:00:00+00:00
 tags: ["codex-rs", "architecture", "rust", "crate-extraction", "compile-time", "modular-architecture", "v0.119.0", "codex-core", "embedding", "internals"]
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Specification Drift and SLUMP: Why Codex CLI Loses Faithfulness in Long-Horizon Sessions and How to Fight Back"
+description: "Every developer who has used a coding agent for a multi-hour session has felt it: somewhere around the thirtieth turn, the agent starts building something."
 parent: "Articles"
 nav_order: 526
 tags: ["codex-cli", "research", "long-horizon", "specification-drift", "SLUMP", "faithfulness", "plan-mode", "PLANS.md", "context-engineering", "best-practices"]

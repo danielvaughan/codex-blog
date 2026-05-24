@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for API-First Development: OpenAPI Spec Generation, Mock Servers, and Client SDK Automation"
+description: "API-first development — writing the contract before the implementation — has been an industry best practice for years."
 parent: "Articles"
 nav_order: 755
 tags: ["codex-cli", "openapi", "api-first", "mock-server", "sdk-generation", "speakeasy", "prism", "codex-exec"]

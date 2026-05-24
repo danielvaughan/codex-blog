@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Enterprise Admin Setup: RBAC, Managed Configuration, and Compliance APIs"
+description: "On 14 May 2026, OpenAI published the first dedicated Enterprise Admin Setup guide for Codex, consolidating workspace enablement, RBAC, managed."
 parent: "Articles"
 nav_order: 771
 tags: ["codex-cli", "enterprise", "admin-setup", "rbac", "managed-configuration", "compliance", "security", "requirements-toml", "mdm", "analytics-api"]

@@ -1,5 +1,6 @@
 ---
 title: "Article Taxonomy"
+description: "Status: APPLIED — all article files have been updated with these tags."
 ---
 
 # Article Tag Taxonomy — Proposal (2026-04-08)

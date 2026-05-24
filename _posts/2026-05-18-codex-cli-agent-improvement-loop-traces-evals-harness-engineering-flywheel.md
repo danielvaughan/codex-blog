@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Agent Improvement Loops: Closing the Harness Engineering Flywheel with Traces, Evals, and Automated Handoffs"
+description: "Most teams treat their agent configuration — AGENTS.md, skills, hooks, tool policies — as a write-once artefact. They tune it until the agent stops."
 parent: "Articles"
 nav_order: 762
 tags: ["codex-cli", "harness-engineering", "traces", "evals", "promptfoo", "agents-sdk", "AGENTS.md", "observability", "continuous-improvement", "GPT-5.5"]

@@ -1,5 +1,6 @@
 ---
 title: "The Axios Supply Chain Attack: How It Hit Codex CLI's Signing Pipeline and What Teams Should Learn"
+description: "On 31 March 2026, a North Korean threat actor compromised the Axios npm package — the most popular HTTP client in the JavaScript ecosystem."
 parent: "Articles"
 nav_order: 301
 tags: ["supply-chain-security", "axios", "npm", "github-actions", "certificate-signing", "ci-cd", "hardening", "north-korea", "UNC1069"]

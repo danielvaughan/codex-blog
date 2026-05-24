@@ -1,5 +1,6 @@
 ---
 title: "The Agentic Pricing Wars: OpenAI's Enterprise Migration Offer, Anthropic's Quota Expansion, and the Real Cost of Switching"
+description: "On 13 May 2026, OpenAI launched a 30-day Switch to Codex promotion offering two months of free enterprise usage for organisations transitioning from."
 parent: "Articles"
 nav_order: 715
 tags: ["codex-cli", "enterprise", "pricing", "claude-code", "migration", "competitive-analysis", "anthropic", "openai"]

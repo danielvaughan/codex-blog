@@ -1,5 +1,6 @@
 ---
 title: "Codex as a GitHub Coding Agent: Agent HQ, Model Selection, and Cloud-Based Code Review"
+description: "Most coverage of Codex focuses on the CLI — the open-source terminal agent you install with npm install -g @openai/codex."
 parent: "Articles"
 nav_order: 299
 tags: ["github", "agent-hq", "coding-agents", "code-review", "model-selection", "cloud-agent", "enterprise", "agentic-workflows"]

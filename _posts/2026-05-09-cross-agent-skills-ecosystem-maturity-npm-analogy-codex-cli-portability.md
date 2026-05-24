@@ -1,5 +1,6 @@
 ---
 title: "Cross-Agent Skills Hit the npm Moment: 351K Skills, Three Marketplaces, and a Portability Standard"
+description: "A Termdock analysis published in May 2026 makes a compelling case: the Agent Skills ecosystem is reaching its npm circa 2011 inflection point."
 date: 2026-05-08T23:00:00+00:00
 category: ecosystem
 tags: [skills, SKILL.md, cross-agent, npm, portability, marketplace, SkillsMP, Skills.sh, ClawHub, agent-skills-cli]

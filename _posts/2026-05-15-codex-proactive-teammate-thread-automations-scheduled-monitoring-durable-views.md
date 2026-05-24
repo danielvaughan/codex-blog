@@ -1,5 +1,6 @@
 ---
 title: "Codex as a Proactive Teammate: Thread Automations, Scheduled Monitoring, and Durable Views"
+description: "Most developers still treat Codex as a reactive tool: open a session, issue a prompt, close the session."
 parent: "Articles"
 nav_order: 714
 tags: ["codex-cli", "codex-app", "automations", "thread-automations", "proactive-monitoring", "plugins", "scheduled-tasks", "durable-views", "teammate"]

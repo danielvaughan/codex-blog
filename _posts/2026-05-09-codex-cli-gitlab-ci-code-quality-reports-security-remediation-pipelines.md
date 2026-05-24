@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI on GitLab CI: Generating CodeClimate Quality Reports and Automated SAST Remediation Pipelines"
+description: "Most teams bolt a linter into CI and call it done. The results sit in a log that nobody reads until a production incident forces a post-mortem."
 parent: "Articles"
 nav_order: 641
 tags: ["codex-cli", "codex-exec", "gitlab-ci", "code-quality", "codeclimate", "sast", "security-remediation", "ci-cd", "pipeline-automation"]

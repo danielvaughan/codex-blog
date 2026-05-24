@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Config Lockfiles: Reproducible Agent Sessions with Export, Replay, and Drift Detection"
+description: "Every senior engineer has encountered the it worked on my machine problem with build tools."
 parent: "Articles"
 nav_order: 544
 tags: ["codex-cli", "configuration", "reproducibility", "lockfiles", "debugging", "CI/CD", "enterprise"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Next.js Teams: App Router, Server Components, DevTools MCP, and Agent-Driven Full-Stack Workflows"
+description: "Next.js 16 is the first major framework release built with AI coding agents as a first-class concern. Version-matched documentation ships inside."
 parent: "Articles"
 nav_order: 437
 tags: ["codex-cli", "next-js", "react-server-components", "app-router", "devtools-mcp", "vercel", "turbopack", "gpt-5-5", "full-stack"]

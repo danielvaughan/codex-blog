@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Swift and SwiftUI Development: Xcode MCP Servers, Agent Skills, and Build-Test-Debug Workflows"
+description: "Swift and SwiftUI development sits at an intersection that makes agentic coding both powerful and tricky. The toolchain is GUI-heavy, simulators consume."
 parent: "Articles"
 nav_order: 851
 tags: ["codex-cli", "swift", "swiftui", "xcode", "mcp", "ios", "macos", "agent-skills", "xcodebuildmcp", "swiftlens"]

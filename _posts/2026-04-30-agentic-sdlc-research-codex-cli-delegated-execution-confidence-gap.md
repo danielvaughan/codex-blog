@@ -1,5 +1,6 @@
 ---
 title: "From Code Generation to Delegated Execution: The Agentic SDLC and What It Means for Your Codex CLI Workflow"
+description: "Three papers published between 16 and 29 April 2026 converge on the same thesis: coding agents have moved beyond generating code and into executing work."
 parent: "Articles"
 nav_order: 505
 tags: ["codex-cli", "agentic-sdlc", "research", "software-engineering", "delegated-execution", "confidence-gap", "workflow-design", "semi-executable-stack"]

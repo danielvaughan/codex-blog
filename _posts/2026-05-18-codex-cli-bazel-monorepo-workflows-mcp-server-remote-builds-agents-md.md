@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Bazel Monorepo Workflows: MCP Server Integration, Remote Builds, and AGENTS.md Conventions"
+description: "Bazel monorepos present a unique challenge for AI coding agents. The build graph is explicit and hermetic, the dependency model is declarative, and a single."
 parent: "Articles"
 nav_order: 768
 tags: ["codex-cli", "bazel", "monorepo", "mcp-server", "remote-builds", "agents-md", "buildbuddy", "bazel-9", "bzlmod"]

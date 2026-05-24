@@ -1,5 +1,6 @@
 ---
 title: "Test-Driven Development with Codex CLI: Agent-Driven Red-Green-Refactor Workflows"
+description: "The single most reliable technique for getting consistently correct output from a coding agent is also one of the oldest ideas in software engineering."
 parent: "Articles"
 nav_order: 430
 tags: ["codex-cli", "tdd", "testing", "red-green-refactor", "agent-skills", "best-practices", "codex-exec"]

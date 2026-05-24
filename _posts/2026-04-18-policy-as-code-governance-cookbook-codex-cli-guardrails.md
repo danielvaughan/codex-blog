@@ -1,5 +1,6 @@
 ---
 title: "Policy-as-Code for Coding Agents: From the OpenAI Governance Cookbook to Codex CLI guardrails"
+description: "Every organisation deploying coding agents hits the same wall: security wants to audit, legal wants guardrails, and engineering wants to ship."
 parent: "Articles"
 nav_order: 330
 tags: ["governance", "policy-as-code", "guardrails", "enterprise", "compliance", "requirements-toml", "hooks"]

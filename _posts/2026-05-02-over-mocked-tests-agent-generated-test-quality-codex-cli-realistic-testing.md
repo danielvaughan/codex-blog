@@ -1,5 +1,6 @@
 ---
 title: "The Over-Mocking Problem: What 1.2 Million Commits Reveal About Agent-Generated Tests and How to Configure Codex CLI for Realistic Test Output"
+description: "A new empirical study accepted at MSR 2026 analysed 1.2 million commits across 2,168 repositories and found that coding agents generate mocks in 36% of their."
 parent: "Articles"
 nav_order: 523
 tags: ["codex-cli", "testing", "mocking", "research", "AGENTS.md", "PostToolUse", "test-quality", "MSR-2026"]

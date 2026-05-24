@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Ruby on Rails Teams: AGENTS.md, Bundler Sandboxing, and RSpec Workflows"
+description: "Ruby on Rails remains one of the most productive full-stack frameworks in production, powering applications from Shopify to GitHub."
 parent: "Articles"
 nav_order: 367
 tags: ["language-guide", "agents-md", "ruby", "rails", "codex-cli"]

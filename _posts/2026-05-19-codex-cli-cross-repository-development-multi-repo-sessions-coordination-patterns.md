@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Cross-Repository Development: Multi-Repo Sessions, Coordination Patterns, and MCP-Bridged Workflows"
+description: "Senior developers working on microservices architectures, shared libraries, or platform teams rarely touch a single repository in isolation. A typical task."
 parent: "Articles"
 nav_order: 773
 tags: ["codex-cli", "cross-repository", "multi-repo", "microservices", "AGENTS.md", "MCP", "worktrees", "coordination", "subagents"]

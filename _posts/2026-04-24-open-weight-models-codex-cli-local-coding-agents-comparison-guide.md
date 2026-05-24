@@ -1,5 +1,6 @@
 ---
 title: "Open-Weight Models for Codex CLI: Choosing the Right Local Coding Agent in 2026"
+description: "The open-weight model landscape for agentic coding has shifted dramatically in the past six months."
 parent: "Articles"
 nav_order: 392
 tags: ["codex-cli", "local-models", "open-weight", "ollama", "lm-studio", "gpt-oss", "qwen3-coder", "gemma-4", "deepseek", "performance", "comparison"]

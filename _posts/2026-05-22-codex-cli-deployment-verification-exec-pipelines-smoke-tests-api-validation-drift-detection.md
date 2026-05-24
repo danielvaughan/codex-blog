@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Deployment Verification Patterns: exec Pipelines for Smoke Tests, API Validation, and Infrastructure Drift Detection"
+description: "Every CI/CD pipeline worth its salt runs pre-merge checks. Far fewer pipelines verify what actually happened after the deployment succeeded. The container."
 parent: "Articles"
 nav_order: 814
 tags: ["codex-cli", "deployment", "verification", "smoke-testing", "exec", "output-schema", "ci-cd", "infrastructure", "drift-detection", "post-deployment"]

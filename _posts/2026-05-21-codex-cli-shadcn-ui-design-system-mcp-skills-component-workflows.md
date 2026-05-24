@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI + shadcn/ui: Agent-Driven Design System Workflows with MCP Server, Skills, and CLI v4"
+description: "The shadcn/ui March 2026 release — CLI v4, the official skills system, and the shadcn MCP server — turned what was already the most popular component."
 parent: "Articles"
 nav_order: 807
 tags: ["codex-cli", "shadcn-ui", "design-system", "mcp", "skills", "frontend", "tailwind", "react", "component-library", "registry"]

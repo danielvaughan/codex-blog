@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Embedded and Firmware Development: PlatformIO MCP, Zephyr Workflows, and AGENTS.md for Hardware Teams"
+description: "Codex CLI articles cover Go, Rust, Python, Swift, Kotlin, Zig — practically every application-level language. Embedded firmware has been conspicuously."
 parent: "Articles"
 nav_order: 832
 tags: ["codex-cli", "embedded-systems", "firmware", "platformio", "zephyr", "freertos", "mcp", "agents-md", "esp32", "stm32", "arm-cortex-m"]

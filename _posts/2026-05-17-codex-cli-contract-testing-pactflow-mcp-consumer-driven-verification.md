@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Contract Testing: PactFlow MCP Integration, Consumer-Driven Test Generation, and CI Verification Pipelines"
+description: "Consumer-driven contract testing remains the most effective technique for preventing integration failures across microservice boundaries without the overhead."
 parent: "Articles"
 nav_order: 748
 tags: ["contract-testing", "pactflow", "mcp", "consumer-driven", "pact", "ci-cd", "microservices", "codex-exec"]

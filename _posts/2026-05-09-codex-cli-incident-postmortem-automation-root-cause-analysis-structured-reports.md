@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Incident Postmortem Automation: From Alert to Structured Root Cause Report in One Agent Loop"
+description: "Writing incident postmortems is universally loathed. Engineers spend 60–90 minutes assembling timelines from scattered logs, correlating deploys with alert."
 parent: "Articles"
 nav_order: 643
 tags: ["codex-cli", "incident-response", "postmortem", "root-cause-analysis", "MCP", "structured-output", "automation", "observability"]

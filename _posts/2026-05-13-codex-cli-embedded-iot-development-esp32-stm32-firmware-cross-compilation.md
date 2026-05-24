@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Embedded and IoT Development: Firmware Generation, Cross-Compilation, and Hardware-Aware Agent Workflows"
+description: "Embedded systems development has traditionally resisted the agentic coding wave. The reasons are well-understood: cross-compilation toolchains sprawl across."
 parent: "Articles"
 nav_order: 691
 tags: ["codex-cli", "embedded-systems", "iot", "esp32", "stm32", "firmware", "cross-compilation", "mcp", "platformio", "agents-md"]

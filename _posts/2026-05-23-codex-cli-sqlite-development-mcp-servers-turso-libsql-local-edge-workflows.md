@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for SQLite Development: MCP Servers, Turso/libSQL, and Local-to-Edge Database Workflows"
+description: "SQLite is the most deployed database engine in existence . It runs inside every smartphone, browser, and IoT device."
 parent: "Articles"
 nav_order: 846
 tags: ["codex-cli", "sqlite", "mcp", "turso", "libsql", "database", "edge-computing", "embedded-replicas"]

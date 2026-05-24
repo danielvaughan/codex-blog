@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Remote Connections: Running Agents on Remote Hosts with SSH, WebSocket, and Secure Tunnels"
+description: "Your code lives on a beefy cloud devbox. Your credentials sit in a vault accessible only from a private subnet. Your CI runners spin up ephemeral containers."
 parent: "Articles"
 nav_order: 371
 tags: ["codex-cli", "remote", "ssh", "app-server", "websocket", "devbox", "security", "infrastructure"]

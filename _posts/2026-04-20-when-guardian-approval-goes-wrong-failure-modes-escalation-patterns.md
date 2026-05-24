@@ -1,5 +1,6 @@
 ---
 title: "When Guardian Approval Goes Wrong: Failure Modes and Escalation Patterns"
+description: "Guardian auto-review is one of the most powerful features in Codex CLI — a subagent that reviews approval requests on your behalf."
 parent: "Articles"
 nav_order: 363
 tags: ["codex-cli", "guardian", "approval-policy", "escalation", "failure-modes", "troubleshooting", "enterprise"]

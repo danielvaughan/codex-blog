@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Microservices: Cross-Service Development, Multi-Repo Patterns, and Distributed Workflows"
+description: "Microservices architectures pose a unique challenge for AI coding agents: the work you need done rarely fits inside a single repository."
 parent: "Articles"
 nav_order: 436
 tags: ["codex-cli", "microservices", "multi-repo", "cross-service", "subagents", "agents-md", "distributed-systems"]

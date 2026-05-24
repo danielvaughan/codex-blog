@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Static Analysis: Agent-Driven Semgrep Rule Authoring, CodeQL Query Generation, and Security Scanning Pipelines"
+description: "Static analysis tools catch bugs before they reach production, but writing custom rules is tedious enough that most teams never do it. Semgrep rules require."
 parent: "Articles"
 nav_order: 743
 tags: ["codex-cli", "semgrep", "codeql", "static-analysis", "security", "mcp", "custom-rules", "sast", "ci-cd"]

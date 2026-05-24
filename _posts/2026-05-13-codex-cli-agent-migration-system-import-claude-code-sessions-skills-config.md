@@ -1,5 +1,6 @@
 ---
 title: "The Codex CLI Agent Migration System: Importing Sessions, Skills, and Configuration from Claude Code and Other Agents"
+description: "Switching between coding agents used to mean starting from scratch — rebuilding your instruction files, reconfiguring MCP servers."
 parent: "Articles"
 nav_order: 699
 tags: ["migration", "claude-code", "interoperability", "config-toml", "skills", "sessions", "mcp", "hooks"]

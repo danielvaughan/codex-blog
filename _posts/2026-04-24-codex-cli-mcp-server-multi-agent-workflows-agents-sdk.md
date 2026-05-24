@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI as an MCP Server: Building Multi-Agent Workflows with the Agents SDK"
+description: "Running Codex CLI as a Model Context Protocol (MCP) server unlocks a fundamentally different operating mode."
 parent: "Articles"
 nav_order: 395
 tags: ["codex-cli", "mcp", "agents-sdk", "multi-agent", "orchestration", "subagents"]

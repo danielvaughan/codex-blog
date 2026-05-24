@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Database Query Performance Optimisation: EXPLAIN Plan Analysis, Index Tuning, and MCP-Driven Workflows"
+description: "Codex CLI has mature coverage for database schema migrations — Atlas, Prisma, Flyway, and Neon branching all have dedicated articles in this knowledge base."
 parent: "Articles"
 nav_order: 770
 tags: ["codex-cli", "database", "postgresql", "query-optimisation", "explain-plan", "indexing", "mcp", "performance", "pg_stat_statements"]

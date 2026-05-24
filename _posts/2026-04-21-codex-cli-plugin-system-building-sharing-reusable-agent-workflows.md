@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows"
+description: "Codex CLI v0.122 elevated plugins from an app-only curiosity to a first-class workflow primitive across the entire Codex surface."
 parent: "Articles"
 nav_order: 364
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "workflow-reuse", "team-tooling"]

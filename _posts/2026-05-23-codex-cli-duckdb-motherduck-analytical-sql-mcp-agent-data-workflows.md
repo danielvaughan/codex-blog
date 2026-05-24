@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for DuckDB and MotherDuck: MCP-Driven Analytical SQL, Agent Skills, and Data Pipeline Workflows"
+description: "DuckDB has become the default analytical engine for local data work — in-process, zero-dependency."
 parent: "Articles"
 nav_order: 845
 tags: ["codex-cli", "duckdb", "motherduck", "mcp", "analytical-sql", "data-engineering", "agent-skills", "ducklake"]

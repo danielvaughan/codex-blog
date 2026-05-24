@@ -1,5 +1,6 @@
 ---
 title: "Do Agent-Written Tests Actually Help? What Six LLMs on SWE-bench Reveal and How to Rethink Your Codex CLI Testing Strategy"
+description: "The instinct to make coding agents write tests is strong — and understandable. Test-driven development has been a pillar of professional software."
 parent: "Articles"
 nav_order: 524
 tags: ["testing", "research", "agent-generated-tests", "SWE-bench", "codex-cli", "TDD", "cost-optimisation", "reasoning-effort", "AGENTS.md"]

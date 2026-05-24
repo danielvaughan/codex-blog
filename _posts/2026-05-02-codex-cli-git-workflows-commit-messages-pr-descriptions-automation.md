@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Everyday Git Workflows: Commit Messages, PR Descriptions, and Branch Automation"
+description: "Most Codex CLI coverage focuses on the spectacular — multi-file refactors, overnight goal workflows, multi-agent orchestration. But the tool's."
 parent: "Articles"
 nav_order: 529
 tags: ["codex-cli", "git", "commit-messages", "pull-requests", "automation", "codex-exec", "workflows", "productivity"]

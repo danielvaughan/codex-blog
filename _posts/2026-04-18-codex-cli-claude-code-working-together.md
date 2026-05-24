@@ -1,5 +1,6 @@
 ---
 title: "How to Make Codex CLI and Claude Code Work Together"
+description: "The most productive AI-assisted developers in 2026 are not picking sides between Codex CLI and Claude Code — they are running both."
 parent: "Articles"
 nav_order: 335
 tags: ["codex-cli", "claude-code", "integration", "mcp", "plugin", "cross-tool", "workflow"]

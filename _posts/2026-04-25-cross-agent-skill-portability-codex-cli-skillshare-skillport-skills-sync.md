@@ -1,5 +1,6 @@
 ---
 title: "Cross-Agent Skill Portability: Managing Skills Across Codex CLI, Claude Code, and Copilot"
+description: "The Agent Skills specification, originally developed by Anthropic and released as an open standard in late 2025, has become the lingua franca for extending."
 parent: "Articles"
 nav_order: 420
 tags: ["codex-cli", "agent-skills", "SKILL.md", "skillshare", "skillport", "skills-sync", "cross-agent", "portability", "MCP"]

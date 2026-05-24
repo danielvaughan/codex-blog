@@ -1,5 +1,6 @@
 ---
 title: "Codex Exec as a Unix Citizen: Stdin Piping, Structured Output, and Shell Composition"
+description: "The Unix philosophy — small tools, text streams, composable pipelines — has shaped how developers think about automation for over fifty years."
 parent: "Articles"
 nav_order: 291
 tags: ["codex-exec", "stdin-piping", "structured-output", "unix-pipelines", "shell-composition", "automation", "json-lines"]

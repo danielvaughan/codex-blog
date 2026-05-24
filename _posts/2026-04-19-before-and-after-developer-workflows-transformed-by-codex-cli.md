@@ -1,5 +1,6 @@
 ---
 title: "Before and After: 5 Developer Workflows Transformed by Codex CLI"
+description: "Every developer has workflows they endure rather than enjoy — the 45-minute bug-fix cycle, the mind-numbing PR review backlog, the test coverage debt that."
 parent: "Articles"
 nav_order: 336
 tags: ["codex-cli", "workflows", "automation", "productivity", "codex-exec", "ci-cd", "code-review", "refactoring"]

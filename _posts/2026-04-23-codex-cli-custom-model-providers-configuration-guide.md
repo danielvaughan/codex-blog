@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Custom Model Providers: The Complete Configuration Guide"
+description: "Codex CLI ships with three built-in providers — openai, ollama, and lmstudio — but the real power lies in its extensible provider framework. Since v0.122.0."
 parent: "Articles"
 nav_order: 381
 tags: ["codex-cli", "model-providers", "configuration", "azure", "litellm", "multi-cloud", "enterprise"]

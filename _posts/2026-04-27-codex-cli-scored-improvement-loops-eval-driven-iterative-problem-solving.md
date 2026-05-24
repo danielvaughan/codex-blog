@@ -1,5 +1,6 @@
 ---
 title: "Scored Improvement Loops with Codex CLI: Eval-Driven Iterative Problem-Solving"
+description: "Some problems refuse to yield to a single prompt. Generating a production-quality SVG illustration, tuning a complex regex pipeline, or optimising a layout."
 parent: "Articles"
 nav_order: 463
 tags: ["codex-cli", "evaluation", "scored-loops", "LLM-as-judge", "optimisation", "advanced-workflows", "GPT-5.5"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Filesystem Security: Deny-Read Policies, Glob Patterns, and Credential Protection"
+description: "Every developer workstation is a treasure trove of secrets: .env files, SSH keys, cloud credentials in ~/.aws, API tokens scattered through shell profiles."
 parent: "Articles"
 nav_order: 416
 tags: ["codex-cli", "security", "filesystem", "deny-read", "sandbox", "credentials", "enterprise", "config.toml"]

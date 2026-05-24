@@ -1,5 +1,6 @@
 ---
 title: "Purpose-Built Agent Models: What codex-auto-review Tells Us About the Future of Specialised AI"
+description: "On 16 April 2026, a single-commit pull request landed in the Codex CLI repository that carries outsized strategic significance."
 parent: "Articles"
 nav_order: 309
 tags: ["codex-auto-review", "guardian", "specialised-models", "enterprise", "cost-management", "model-selection"]

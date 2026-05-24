@@ -1,5 +1,6 @@
 ---
 title: "Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding"
+description: "You know the feeling. Four agents are running. One is refactoring the API layer, another is writing tests, a third is updating documentation, and a fourth."
 date: 2026-04-09T14:50:00+00:00
 featured: true
 classes: wide

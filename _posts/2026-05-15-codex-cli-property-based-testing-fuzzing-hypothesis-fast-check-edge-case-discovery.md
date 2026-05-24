@@ -1,5 +1,6 @@
 ---
 title: "Property-Based Testing and Fuzzing with Codex CLI: Agent-Driven Edge-Case Discovery Using Hypothesis and fast-check"
+description: "Example-based unit tests verify the cases you thought of. Property-based tests verify the cases you didn't. The difference matters most in parsing."
 parent: "Articles"
 nav_order: 716
 tags: ["codex-cli", "property-based-testing", "fuzzing", "hypothesis", "fast-check", "testing", "edge-cases", "quality-assurance"]

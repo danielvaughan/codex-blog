@@ -1,5 +1,6 @@
 ---
 title: "Agentic Primitives Compared: Codex CLI vs Claude Code vs Gemini CLI"
+description: "All three tools — OpenAI Codex CLI, Anthropic Claude Code, and Google Gemini CLI — converge on the same set of agentic primitives. They read instructions."
 date: 2026-03-26T09:00:00+00:00
 tags:
   - competitive-landscape

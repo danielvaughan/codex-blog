@@ -1,5 +1,6 @@
 ---
 title: "AI Coding Agent Adoption in 2026: What the Survey Data Actually Shows and Where Codex CLI Fits"
+description: "Three independent surveys published in April 2026 — the JetBrains AI Pulse (10,000+ developers), Sonar's State of Code (developer survey + telemetry)."
 parent: "Articles"
 nav_order: 446
 tags: ["adoption", "survey-data", "jetbrains", "sonar", "stanford", "market-analysis", "codex-cli", "claude-code", "github-copilot", "developer-productivity", "enterprise"]

@@ -1,5 +1,6 @@
 ---
 title: "Test-Driven Development with Codex CLI: The Red-Green-Refactor Loop, AGENTS.md Test Gates, and Hook-Based Verification"
+description: "The TDD AI agent pattern has emerged as the most reliable way to execute autonomous coding in 2026."
 date: 2026-04-10T17:00:00+00:00
 tags: ["tdd", "test-driven-development", "agents-md", "hooks", "verification", "codex-exec", "ci-cd", "testing", "quality-gates"]
 ---

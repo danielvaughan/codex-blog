@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Database Schema Migrations: Branch-Based Safety with Neon and Prisma MCP Servers"
+description: "Database schema migrations remain one of the highest-risk operations in production systems."
 parent: "Articles"
 nav_order: 759
 tags: ["codex-cli", "database", "migrations", "MCP", "Neon", "Prisma", "schema-management", "CI/CD"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Solo Developers: Maximum Impact from a One-Person Agentic Setup"
+description: "Most Codex CLI guidance assumes you are part of a team with shared configuration, dedicated budgets, and someone else worrying about rate limits."
 parent: "Articles"
 nav_order: 493
 tags: ["codex-cli", "solo-developer", "productivity", "configuration", "cost-efficiency", "AGENTS.md", "skills", "workflows"]

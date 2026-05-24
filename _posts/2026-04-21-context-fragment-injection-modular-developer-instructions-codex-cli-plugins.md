@@ -1,5 +1,6 @@
 ---
 title: "Context Fragment Injection: Modular DeveloperInstructions via Plugins"
+description: "Until today, Codex CLI assembled its system prompt as a single monolithic DeveloperInstructions blob — one giant string stuffed into the developer-role."
 parent: "Articles"
 nav_order: 378
 tags: ["codex-cli", "context-management", "plugins", "architecture", "v0.123", "developer-instructions", "prompt-engineering"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Conversation Branching: /side, /fork, and Plan Mode Workflows"
+description: "Codex CLI v0.122.0, released on 20 April 2026, introduced the /side slash command — an ephemeral fork that lets you ask a quick question mid-task without."
 parent: "Articles"
 nav_order: 368
 tags: ["codex-cli", "conversation-branching", "/side", "/fork", "plan-mode", "context-management", "TUI", "v0.122"]

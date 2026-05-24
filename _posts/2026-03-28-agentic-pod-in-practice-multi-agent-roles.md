@@ -1,5 +1,6 @@
 ---
 title: "The Agentic Pod in Practice: Running Multiple Agent Roles in Your Team"
+description: "There is a tempting shortcut when you first discover Codex subagents: drop one very large prompt into the orchestrator and hope it handles planning."
 date: 2026-03-28T09:00:00+00:00
 tags:
   - orchestration

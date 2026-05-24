@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Kotlin and Android Teams: Android CLI, Skills, Jetpack Compose, and Agent-Driven Mobile Workflows"
+description: "Android development in 2026 has become one of the strongest use cases for agentic coding. Google's release of Android CLI and Android Skills on 16 April."
 parent: "Articles"
 nav_order: 436
 tags: ["codex-cli", "kotlin", "android", "jetpack-compose", "android-cli", "android-skills", "agents-md", "mobile-development", "gradle", "kmp"]

@@ -1,5 +1,6 @@
 ---
 title: "GitKraken Desktop 12.0 Agent Mode: Visual Parallel Session Management for Codex CLI"
+description: "Running multiple Codex CLI sessions in parallel is powerful — but keeping track of five or six worktrees, their branches, commit states, and whether each."
 parent: "Articles"
 nav_order: 552
 tags: ["codex-cli", "gitkraken", "parallel-sessions", "worktrees", "agent-mode", "tooling", "developer-experience"]

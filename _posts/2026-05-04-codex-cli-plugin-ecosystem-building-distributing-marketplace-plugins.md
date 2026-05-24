@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Plugin Ecosystem: Building, Distributing, and Managing Marketplace Plugins"
+description: "Since v0.117.0 landed on 26 March 2026, Codex CLI has treated plugins as a first-class workflow primitive . What previously required separate MCP server."
 parent: "Articles"
 nav_order: 546
 tags: ["codex-cli", "plugins", "marketplace", "mcp", "skills", "hooks", "developer-experience"]

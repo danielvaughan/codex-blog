@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Ruby on Rails Teams: RuboCop MCP, RSpec Workflows, and Convention-Friendly AGENTS.md Patterns"
+description: "Rails has always been opinionated about structure. Models live in app/models/, controllers in app/controllers/, views in app/views/."
 parent: "Articles"
 nav_order: 620
 tags: ["codex-cli", "ruby-on-rails", "rubocop", "rspec", "mcp", "agents-md", "testing", "configuration", "hooks"]

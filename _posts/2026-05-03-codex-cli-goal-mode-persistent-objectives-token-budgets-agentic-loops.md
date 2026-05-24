@@ -1,5 +1,6 @@
 ---
 title: "Goal Mode in Codex CLI: Persistent Objectives, Token Budgets, and the Shift to Agentic Loops"
+description: "Until version 0.128.0, Codex CLI operated in a request-response paradigm: you typed a prompt, the agent executed, and it stopped. If the task wasn't."
 parent: "Articles"
 nav_order: 534
 tags: ["codex-cli", "goal-mode", "agentic-loops", "token-budgets", "v0.128.0", "productivity"]

@@ -1,5 +1,6 @@
 ---
 title: "Context Compaction Showdown: How Codex CLI, Claude Code, and 5 Other Agents Handle Full Context Windows"
+description: "Every AI coding agent eventually fills its context window. What happens next — the compaction strategy — determines whether your session gracefully."
 date: 2026-04-10T06:30:00+00:00
 tags:
   - context-compaction

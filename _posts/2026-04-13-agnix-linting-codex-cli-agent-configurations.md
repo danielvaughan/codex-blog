@@ -1,5 +1,6 @@
 ---
 title: "Agnix: Linting Your Codex CLI Agent Configurations Before They Break Your Workflow"
+description: "Your AGENTS.md is 600 lines of carefully crafted instructions. Your config.toml has nested profiles, MCP server declarations."
 parent: "Articles"
 nav_order: 274
 tags: ["agnix", "linting", "AGENTS.md", "config-toml", "validation", "CI/CD", "LSP", "developer-tooling", "quality-gates"]

@@ -1,5 +1,6 @@
 ---
 title: "The Post-Google I/O Coding Agent Landscape: Codex CLI vs Antigravity 2.0 vs Jules V2 vs Claude Code vs Grok Build"
+description: "Google I/O 2026 landed on 19 May and reshaped the terminal coding agent market overnight. Antigravity 2.0 replaced Gemini CLI, Jules V2 (Project Jitro)."
 parent: "Articles"
 nav_order: 785
 tags: ["codex-cli", "antigravity", "jules", "claude-code", "grok-build", "comparison", "google-io-2026"]

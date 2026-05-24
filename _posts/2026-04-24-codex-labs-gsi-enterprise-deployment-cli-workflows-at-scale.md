@@ -1,5 +1,6 @@
 ---
 title: "Codex Labs and the GSI Network: What Enterprise-Scale Codex Deployment Means for CLI Power Users"
+description: "On 21 April 2026, OpenAI announced Codex Labs alongside partnerships with seven Global Systems Integrators (GSIs) — Accenture, Capgemini, CGI, Cognizant."
 parent: "Articles"
 nav_order: 387
 tags: ["codex-cli", "enterprise", "codex-labs", "gsi", "deployment", "adoption", "configuration"]

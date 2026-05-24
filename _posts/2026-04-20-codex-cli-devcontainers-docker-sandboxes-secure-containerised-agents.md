@@ -1,5 +1,6 @@
 ---
 title: "Running Codex CLI in Devcontainers and Docker Sandboxes: Secure Containerised Agent Workflows"
+description: "Running a coding agent on your bare metal workstation means trusting it with your filesystem, network, and credentials. Even with Codex CLI's built-in."
 parent: "Articles"
 nav_order: 359
 tags: ["codex-cli", "devcontainers", "docker", "sandboxing", "security", "bubblewrap", "ci-cd", "containers"]

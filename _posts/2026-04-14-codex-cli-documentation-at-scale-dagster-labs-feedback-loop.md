@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Documentation at Scale: How Dagster Labs Turned Docs into a Feedback Loop"
+description: "Documentation is the perennial grind of open-source maintenance. It rots faster than code, scales worse than tests, and nobody volunteers to write it."
 parent: "Articles"
 nav_order: 280
 tags: ["documentation", "dagster", "docs-as-code", "skills", "agents-md", "content-translation", "coverage-testing", "monorepo", "workflows"]

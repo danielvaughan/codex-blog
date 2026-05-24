@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI and Docker MCP Toolkit: Secure Containerised Tool Servers at Scale"
+description: "The Model Context Protocol gives Codex CLI access to external tools — databases, filesystems, APIs, browsers."
 parent: "Articles"
 nav_order: 369
 tags: ["mcp", "docker", "security", "configuration", "codex-cli", "tooling", "enterprise"]

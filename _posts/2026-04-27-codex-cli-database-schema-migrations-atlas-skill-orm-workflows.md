@@ -1,5 +1,6 @@
 ---
 title: "Database Schema Migrations with Codex CLI: Atlas Skills, ORM Workflows, and Agent-Driven Migration Pipelines"
+description: "Database schema migrations sit at an uncomfortable intersection: they demand precision (a wrong column drop is irreversible), context awareness (what does."
 parent: "Articles"
 nav_order: 460
 tags: ["codex-cli", "database", "migrations", "atlas", "skills", "orm", "drizzle", "prisma", "sqlalchemy", "mcp", "postgres"]

@@ -1,5 +1,6 @@
 ---
 title: "Beyond SWE-bench: Why AI Coding Benchmarks Are Broken and What It Means for Codex CLI Workflows"
+description: "In April 2026, the AI coding agent ecosystem relies heavily on benchmark scores to signal capability. Marketing pages trumpet SWE-bench Verified."
 parent: "Articles"
 nav_order: 347
 tags: ["benchmarks", "SWE-bench", "FeatureBench", "evaluation", "Codex CLI", "agent capabilities", "GPT-5.4"]

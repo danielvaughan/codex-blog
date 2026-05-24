@@ -1,5 +1,6 @@
 ---
 title: "Debugging with Codex CLI: Systematic Bug-Hunting Patterns for GPT-5.5"
+description: "Debugging is one of the highest-leverage uses of Codex CLI, yet most practitioners treat it as an afterthought."
 parent: "Articles"
 nav_order: 419
 tags: ["codex-cli", "debugging", "gpt-5.5", "bug-hunting", "testing", "workflows", "shell", "image-input", "codex-exec", "best-practices"]

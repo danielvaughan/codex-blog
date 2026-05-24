@@ -1,5 +1,6 @@
 ---
 title: "Antigravity 2.0 vs Codex CLI: What the Google I/O 2026 Upgrade Changes in the Competitive Landscape"
+description: "Google I/O 2026 transformed Antigravity from a capable IDE-native agent into a standalone platform with its own CLI, SDK, managed execution, and background."
 parent: "Articles"
 nav_order: 785
 tags: ["codex-cli", "google-antigravity", "antigravity-2", "google-io-2026", "comparison", "subagents", "scheduled-tasks", "sandbox-security", "gemini-3-5-flash"]

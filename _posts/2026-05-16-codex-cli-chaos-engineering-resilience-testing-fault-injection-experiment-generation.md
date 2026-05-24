@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Chaos Engineering: Agent-Driven Experiment Generation, Fault Injection Manifests, and Resilience Validation Pipelines"
+description: "Production systems fail. The question is whether you discover failure modes through controlled experimentation or through a 3 a.m. page."
 parent: "Articles"
 nav_order: 722
 tags: ["codex-cli", "chaos-engineering", "resilience-testing", "fault-injection", "chaos-mesh", "chaos-toolkit", "kubernetes", "steady-state-hypothesis", "reliability"]

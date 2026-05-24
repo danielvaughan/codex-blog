@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Structured Logging Standardisation: Auditing, Migration, and CI Enforcement"
+description: "Inconsistent logging is one of those problems that nobody prioritises until a production incident demands it."
 parent: "Articles"
 nav_order: 760
 tags: ["codex-cli", "structured-logging", "pino", "slog", "observability", "AGENTS.md", "codex-exec", "hooks", "skills", "CI"]

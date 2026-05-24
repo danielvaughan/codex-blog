@@ -1,5 +1,6 @@
 ---
 title: "Code Modernisation with Codex CLI: The ExecPlan-Driven Migration Pipeline"
+description: "Legacy modernisation projects have a well-earned reputation for overruns and silent failures. A 2026 industry analysis found that organisations adopting."
 parent: "Articles"
 nav_order: 353
 tags: ["codex-cli", "code-modernisation", "legacy-migration", "ExecPlan", "COBOL", "enterprise", "refactoring"]

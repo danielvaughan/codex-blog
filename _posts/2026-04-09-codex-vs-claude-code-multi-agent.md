@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Protocol Gap"
+description: "The two dominant terminal-native coding agents — OpenAI's Codex CLI and Anthropic's Claude Code — have each shipped multi-agent capabilities, but with."
 date: 2026-04-09T01:14:00+00:00
 tags:
   - codex-vs-claude

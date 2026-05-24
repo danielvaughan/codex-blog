@@ -1,5 +1,6 @@
 ---
 title: "Linux Kernel Development with Codex CLI: From Module Scaffolding to LKML Submission"
+description: "On 8 May 2026, a patch series appeared on the Linux kernel mailing list introducing prom21-xhci, a hardware monitoring driver for AMD Promontory 21 chipset."
 parent: "Articles"
 nav_order: 689
 tags: ["codex-cli", "linux-kernel", "systems-programming", "kernel-modules", "drivers", "LKML", "AGENTS.md", "checkpatch", "C", "sandbox"]

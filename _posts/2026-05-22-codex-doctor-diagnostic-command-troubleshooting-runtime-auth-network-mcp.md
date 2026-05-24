@@ -1,5 +1,6 @@
 ---
 title: "Codex Doctor: The Diagnostic Command Every CLI User Should Know"
+description: "When something breaks in a complex CLI tool, the first instinct is to trawl through log files, environment variables, and configuration directories. Codex."
 parent: "Articles"
 nav_order: 833
 tags: ["codex-cli", "diagnostics", "troubleshooting", "codex-doctor", "devtools", "mcp", "configuration"]

@@ -1,5 +1,6 @@
 ---
 title: "Task Decomposition for Codex CLI: Right-Sizing Agent Work for Reliability, Speed, and Cost"
+description: "The single biggest determinant of whether a Codex CLI session succeeds or spirals into wasted tokens is not the model you pick."
 parent: "Articles"
 nav_order: 466
 tags: ["codex-cli", "task-decomposition", "subagents", "worktrees", "parallel-execution", "best-practices", "GPT-5.5", "agent-architecture"]

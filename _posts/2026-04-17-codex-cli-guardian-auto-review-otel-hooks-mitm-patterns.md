@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI's Security Triple Play: Guardian Auto-Review, OTEL Hook Metrics, and MITM Pattern Matching"
+description: "Three PRs merged on April 16, 2026 significantly strengthen Codex CLI's enterprise security and observability story. Together, they form a coherent security."
 date: 2026-04-16T23:00:00+00:00
 toc: true
 tags: [codex-cli, security, guardian, observability, hooks, enterprise]

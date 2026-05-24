@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Nix Development: MCP-NixOS, Reproducible Environments, and Flake-Native Agent Workflows"
+description: "Nix sits at the intersection of package management, environment reproducibility, and system configuration."
 parent: "Articles"
 nav_order: 835
 tags: ["codex-cli", "nix", "nixos", "flakes", "mcp-nixos", "reproducible-builds", "devshell", "home-manager", "nix-darwin", "agents-md", "declarative-configuration"]

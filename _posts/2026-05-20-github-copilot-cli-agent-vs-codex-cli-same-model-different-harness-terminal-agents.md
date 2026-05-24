@@ -1,5 +1,6 @@
 ---
 title: "GitHub Copilot CLI Agent vs Codex CLI: Same Model, Different Harness — Two Terminal Agents Compared"
+description: "On 17 May 2026, GitHub quietly switched the default model for Copilot Business and Enterprise users to GPT-5.3-Codex — the same model that powers OpenAI's."
 parent: "Articles"
 nav_order: 797
 tags: ["codex-cli", "copilot-cli", "comparison", "terminal-agents", "gpt-5.3-codex", "github", "openai", "developer-tools"]

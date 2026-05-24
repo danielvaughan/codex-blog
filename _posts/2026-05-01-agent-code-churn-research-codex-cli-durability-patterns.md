@@ -1,5 +1,6 @@
 ---
 title: "Agent-Generated Code Churns Faster: What 110,000 Pull Requests Reveal and How to Configure Codex CLI for Durable Output"
+description: "A new MSR 2026 study of 110,000 open-source pull requests across five coding agents finds that agent-generated code is rewritten and deleted significantly."
 parent: "Articles"
 nav_order: 515
 tags: ["codex-cli", "research", "code-quality", "code-churn", "AGENTS.md", "hooks", "best-practices", "MSR-2026"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Multi-File Editing Strategies: Coordinating Changes Across Large Pull Requests with apply_patch and Subagents"
+description: "Every senior developer knows the pain: a rename that touches forty files, an API migration that ripples through three service boundaries, a framework."
 parent: "Articles"
 nav_order: 539
 tags: ["codex-cli", "multi-file-editing", "apply-patch", "subagents", "refactoring", "large-codebase", "best-practices"]

@@ -1,5 +1,6 @@
 ---
 title: "Iterative Repair Loops with Codex CLI: The Review-Repair-Validate Pattern for Self-Correcting Agent Workflows"
+description: "Single-pass agent runs are fragile. Hand an agent a migration task or a documentation refresh."
 parent: "Articles"
 nav_order: 684
 tags: ["codex-cli", "codex-exec", "iterative-repair", "structured-output", "agent-patterns", "automation", "self-healing", "validation"]

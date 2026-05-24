@@ -1,5 +1,6 @@
 ---
 title: "Codebase Onboarding with Codex CLI: Using AI Agents to Ramp Up on Unfamiliar Projects"
+description: "Every developer knows the feeling: you join a new team, clone a repository with 800 files across 40 directories, and spend the next fortnight piecing."
 parent: "Articles"
 nav_order: 450
 tags: ["codex-cli", "codebase-onboarding", "developer-experience", "AGENTS.md", "skills", "MCP", "knowledge-graph", "GPT-5.5"]

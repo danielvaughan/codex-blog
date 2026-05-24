@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Pulumi Infrastructure-as-Code: MCP Server, Neo Delegation, and Agent-Native Workflows"
+description: "Terraform dominated the infrastructure-as-code conversation for a decade, but Pulumi's bet on real programming languages — TypeScript, Python, Go, C#."
 parent: "Articles"
 nav_order: 841
 tags: ["codex-cli", "pulumi", "infrastructure-as-code", "mcp", "neo", "agent-native", "devops", "cloud"]

@@ -1,5 +1,6 @@
 ---
 title: "Guardian Review IDs, Timeouts and Delta Transcripts: Enterprise Audit-Ready Governance"
+description: "Codex CLI v0.119 and v0.120 shipped a trio of guardian improvements that transform the experimental Smart Approvals feature from a developer convenience."
 date: 2026-04-11T22:30:00+00:00
 tags: ["guardian", "review-ids", "timeouts", "audit-trail", "enterprise", "compliance", "fail-closed", "delta-transcripts", "opentelemetry"]
 ---

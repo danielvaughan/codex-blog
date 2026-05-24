@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Automated API Documentation: OpenAPI Generation, SDK Scaffolding, and Doc-Code Sync"
+description: "API documentation is the contract between your service and its consumers. When it drifts from the implementation — and it always does — developer experience."
 parent: "Articles"
 nav_order: 442
 tags: ["codex-cli", "api-documentation", "openapi", "sdk-generation", "automation", "mcp", "speakeasy", "mintlify", "codex-exec"]

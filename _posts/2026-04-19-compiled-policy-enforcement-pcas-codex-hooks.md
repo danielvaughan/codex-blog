@@ -1,5 +1,6 @@
 ---
 title: "Compiled Policy Enforcement: Why Prompt-Based Safety Fails at 48% and What PCAS Means for Codex Hooks"
+description: "Prompt-based policy enforcement — telling a model never do X in a system prompt — achieves only 48% compliance even with frontier models ."
 parent: "Articles"
 nav_order: 350
 tags: ["codex-cli", "security", "hooks", "policy-enforcement", "PCAS", "governance", "enterprise"]

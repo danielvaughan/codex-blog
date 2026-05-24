@@ -1,5 +1,6 @@
 ---
 title: "The Codex IDE Extension: VS Code, JetBrains, and the Hybrid Cloud-Local Workflow"
+description: "OpenAI ships Codex across four surfaces: the CLI, the standalone macOS app, Codex Cloud on the web, and the IDE extension."
 date: 2026-04-01T08:00:00+00:00
 tags:
   - cloud

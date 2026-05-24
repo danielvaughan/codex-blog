@@ -1,5 +1,6 @@
 ---
 title: "Git Hooks Powered by Codex CLI: Pre-Commit Review, Commit Message Generation, and Pre-Push Validation"
+description: "Git hooks are the last line of defence before code leaves your machine. Most teams wire them up to linters, formatters, and type-checkers — fast."
 parent: "Articles"
 nav_order: 461
 tags: ["codex-cli", "git-hooks", "pre-commit", "commit-msg", "pre-push", "codex-exec", "lefthook", "automation", "code-review", "conventional-commits"]

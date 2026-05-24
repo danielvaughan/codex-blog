@@ -1,5 +1,6 @@
 ---
 title: "Codex Models in Third-Party Harnesses: apply_patch, V4A Diffs, and Building a Portable Coding Agent"
+description: "GPT-5.5 and its Codex-tuned siblings are trained on a specific harness: the official Codex CLI loop, its apply_patch tool, and a carefully ordered system."
 parent: "Articles"
 nav_order: 475
 tags: ["codex-models", "apply-patch", "v4a-diff", "harness-engineering", "warp", "opencode", "responses-api", "third-party-integration"]

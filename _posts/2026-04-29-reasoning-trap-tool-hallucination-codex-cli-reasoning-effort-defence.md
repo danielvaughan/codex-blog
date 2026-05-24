@@ -1,5 +1,6 @@
 ---
 title: "The Reasoning Trap: Why Higher Reasoning Effort Increases Tool Hallucination and How to Defend Your Codex CLI Workflows"
+description: "A paper presented at ICLR 2026 in Rio de Janeiro this week — The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucination."
 parent: "Articles"
 nav_order: 485
 tags: ["reasoning-effort", "tool-hallucination", "MCP", "reliability", "config.toml", "GPT-5.5", "research"]

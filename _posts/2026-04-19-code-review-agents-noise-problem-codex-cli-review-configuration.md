@@ -1,5 +1,6 @@
 ---
 title: "Why Code Review Agents Produce 60% Noise — and How to Configure Codex CLI Reviews That Don't"
+description: "A new empirical study accepted at MSR 2026 has quantified what many practitioners already suspected: most code review agents produce predominantly noisy."
 parent: "Articles"
 nav_order: 351
 tags: ["code-review", "research", "MSR-2026", "signal-to-noise", "review-agents", "Codex-CLI", "AGENTS-md", "hooks", "CI-CD", "quality-gates"]

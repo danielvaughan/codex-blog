@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Prompt Engineering in the GPT-5.5 Era: Outcome-First Patterns, Anti-Patterns, and the Prompts That Ship Code on the First Turn"
+description: "The single most common question in the OpenAI developer forum is some variation of Why does Codex produce garbage for me but magic for everyone else? ."
 parent: "Articles"
 nav_order: 809
 tags: ["codex-cli", "prompt-engineering", "GPT-5.5", "best-practices", "workflows", "AGENTS.md", "reasoning-effort", "productivity"]

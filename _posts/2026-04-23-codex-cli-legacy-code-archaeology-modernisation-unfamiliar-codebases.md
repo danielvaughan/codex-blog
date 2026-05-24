@@ -1,5 +1,6 @@
 ---
 title: "Legacy Code Archaeology with Codex CLI: Understanding, Documenting, and Safely Modernising Unfamiliar Codebases"
+description: "Every senior developer has faced it: a critical system written by people who left years ago, sparse documentation, no tests."
 parent: "Articles"
 nav_order: 384
 date: 2026-04-22T23:00:00+00:00

@@ -1,5 +1,6 @@
 ---
 title: "Biscuit Tokens for Agent Identity: From PR to Production"
+description: "The companion article on Codex CLI's use_agent_identity feature flag covers the four-PR stack that wires Biscuit tokens into the CLI. This article goes."
 parent: "Articles"
 nav_order: 251
 tags: ["biscuit-tokens", "agent-identity", "authentication", "enterprise", "trust-chain", "delegation", "datalog", "mcp"]

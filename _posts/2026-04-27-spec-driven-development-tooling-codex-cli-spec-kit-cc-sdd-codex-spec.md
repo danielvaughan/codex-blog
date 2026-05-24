@@ -1,5 +1,6 @@
 ---
 title: "SDD Tooling for Codex CLI: spec-kit, cc-sdd, and codex-spec Compared"
+description: "Spec-Driven Development (SDD) has gone from academic curiosity to mainstream practice in under six months. GitHub's spec-kit crossed 80,000 stars by April."
 parent: "Articles"
 nav_order: 451
 tags: ["spec-driven-development", "workflow-frameworks", "spec-kit", "cc-sdd", "codex-spec", "codex-cli", "planning", "skills", "slash-commands"]

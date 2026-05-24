@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI and Monorepo Tooling: Turborepo, Nx, and Bazel Agent Workflows"
+description: "Monorepos concentrate hundreds of packages behind a single repository root. That density is a gift for an agent."
 parent: "Articles"
 nav_order: 853
 tags: ["codex-cli", "monorepo", "turborepo", "nx", "bazel", "mcp", "agent-skills", "ci-cd"]

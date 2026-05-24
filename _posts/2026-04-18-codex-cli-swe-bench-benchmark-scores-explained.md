@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI SWE-Bench Scores and Benchmark Results Explained"
+description: "OpenAI's Codex models consistently top the SWE-Bench leaderboards, but what do those numbers actually mean? This article breaks down the benchmark variants."
 parent: "Articles"
 nav_order: 326
 tags: ["codex-cli", "swe-bench", "benchmarks", "evaluation", "gpt-5", "performance"]

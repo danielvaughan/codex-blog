@@ -1,5 +1,6 @@
 ---
 title: "Self-Healing CI/CD for Agentic Systems: The Pipeline Doctor Pattern and LLM-as-a-Judge"
+description: "Traditional CI/CD pipelines were designed for deterministic software. A test either passes or fails; a build either compiles or doesn't."
 parent: "Articles"
 nav_order: 292
 tags: ["self-healing-ci", "llm-as-judge", "pipeline-doctor", "ci-cd", "codex-exec", "enterprise", "full-auto"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Scala Development Teams: Metals MCP, sbt, and Idiomatic Functional Workflows"
+description: "Dedicated language-specific Codex CLI articles exist for Go, Rust, Ruby/Rails, Python/Django/FastAPI, C/C++, Elixir/Phoenix, Swift, Kotlin/Android."
 parent: "Articles"
 nav_order: 803
 tags: ["codex-cli", "scala", "scala-3", "metals", "mcp", "sbt", "functional-programming", "agents-md", "development-workflow"]

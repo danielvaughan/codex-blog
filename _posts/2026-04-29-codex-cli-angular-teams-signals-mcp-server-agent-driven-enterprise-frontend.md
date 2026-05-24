@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Angular Teams: MCP Server, Signal-Based Patterns, and Agent-Driven Enterprise Frontend Workflows"
+description: "Angular's evolution from Zone.js-driven change detection to signal-based reactivity has been the framework's most significant architectural shift since the."
 parent: "Articles"
 nav_order: 478
 tags: ["codex-cli", "angular", "angular-21", "signals", "mcp-server", "agents-md", "enterprise-frontend", "zoneless", "vitest", "standalone-components"]

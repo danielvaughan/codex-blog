@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Plugin-Bundled Hooks: Distributing Reusable Quality Gates Through the Marketplace"
+description: "Codex CLI's hook system has matured steadily since its graduation to stable status in v0.124. Hooks let you intercept agent actions — blocking dangerous."
 parent: "Articles"
 nav_order: 512
 tags: ["codex-cli", "plugins", "hooks", "marketplace", "quality-gates", "PreToolUse", "PostToolUse", "config.toml", "v0.128", "governance"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for ML Engineering: Training Scripts, Experiment Tracking, and MLOps Pipeline Automation"
+description: "Machine learning engineering sits at the intersection of software development and experimental science."
 parent: "Articles"
 nav_order: 679
 tags: ["codex-cli", "machine-learning", "mlops", "mlflow", "experiment-tracking", "pytorch", "hugging-face", "mcp"]

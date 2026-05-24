@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for GraphQL Development: Apollo Skills, MCP Server Integration, and Schema-Driven Workflows"
+description: "GraphQL APIs demand precision that free-form code generation struggles to deliver. A misnamed field, an incorrect nullability annotation, or a resolver that."
 parent: "Articles"
 nav_order: 761
 tags: ["codex-cli", "graphql", "apollo", "mcp", "schema-design", "federation", "agent-skills"]

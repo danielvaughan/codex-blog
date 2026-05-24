@@ -1,5 +1,6 @@
 ---
 title: "The Agent Logging Gap: Why Codex CLI Agents Under-Log and How to Enforce Observability Standards"
+description: "A fresh empirical study analysing 4,550 agent-generated pull requests has quantified what many senior engineers already suspected: AI coding agents."
 parent: "Articles"
 nav_order: 513
 tags: ["codex-cli", "logging", "observability", "code-quality", "hooks", "AGENTS.md", "research"]

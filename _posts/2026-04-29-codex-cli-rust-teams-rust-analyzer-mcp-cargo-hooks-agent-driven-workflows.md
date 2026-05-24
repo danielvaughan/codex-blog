@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Rust Development Teams: rust-analyzer MCP, Cargo Hooks, and Agent-Driven Workflows"
+description: "Codex CLI is itself built in Rust — roughly 95% of the codebase lives in the codex-rs crate. That shared lineage makes it unusually well-suited for Rust."
 parent: "Articles"
 nav_order: 481
 tags: ["codex-cli", "rust", "rust-analyzer", "mcp", "cargo", "clippy", "agents-md", "hooks", "development-workflow"]

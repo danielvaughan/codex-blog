@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Observability with OpenTelemetry: Tracing Agent Sessions, Tool Calls, and API Requests"
+description: "As coding agents move from individual experimentation to team-wide adoption, the question shifts from does it work? to how well is it working."
 parent: "Articles"
 nav_order: 300
 tags: ["opentelemetry", "observability", "tracing", "metrics", "enterprise", "monitoring", "otel", "config-toml", "dashboards"]

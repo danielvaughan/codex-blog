@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Generating Architecture Diagrams from Source Code: Mermaid, C4, and PlantUML Visualisation Workflows"
+description: "Architecture diagrams lie. Not because anyone deliberately drew them wrong, but because code moves faster than documentation. A team refactors a service."
 parent: "Articles"
 nav_order: 700
 tags: ["workflow-patterns", "agents-md", "codex-exec", "skills", "mcp", "ci-cd", "architecture"]

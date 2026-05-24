@@ -1,5 +1,6 @@
 ---
 title: "Spring 2026 AI Coding Agent Vulnerabilities: CVE-2026-26268, Comment-and-Control, and Codex CLI's Defence Posture"
+description: "Two high-severity vulnerabilities disclosed in the final week of April 2026 demonstrate that AI coding agents remain soft targets."
 parent: "Articles"
 nav_order: 525
 tags: ["codex-cli", "security", "CVE-2026-26268", "cursor", "comment-and-control", "prompt-injection", "sandbox", "trust-model", "vulnerability", "defence"]

@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI Inside VS Code's Multi-Agent Architecture: Agent Sessions, Model Selection, and the Unified Development Experience"
+description: "For months, terminal-native developers ran Codex CLI in one window, Claude Code in another, and kept Copilot humming in VS Code — three separate tools."
 parent: "Articles"
 nav_order: 698
 tags: ["codex-cli", "vscode", "multi-agent", "agent-sessions", "copilot", "claude-code", "ide-integration", "workflow-patterns", "configuration-portability"]

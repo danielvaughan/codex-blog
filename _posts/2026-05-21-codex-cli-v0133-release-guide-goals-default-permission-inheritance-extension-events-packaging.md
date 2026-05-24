@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI v0.133.0 Release Guide: Goals Enabled by Default, Permission Profile Inheritance, and Extension Lifecycle Events"
+description: "Codex CLI v0.133.0 landed on 21 May 2026 with over 80 merged pull requests . The headline change is deceptively simple — goals are now on by default."
 parent: "Articles"
 nav_order: 810
 tags: ["codex-cli", "v0.133", "release-guide", "goals", "permission-profiles", "extensions", "packaging", "upgrade"]

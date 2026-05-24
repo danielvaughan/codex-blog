@@ -1,5 +1,6 @@
 ---
 title: "MCP Tool Namespacing and Wall Time Tracking in Codex CLI"
+description: "Update (April 15): PR #17404 (tool namespacing) has now merged (April 15, 13:03 UTC). All MCP tools are registered with consistent namespace format."
 parent: "Articles"
 nav_order: 254
 tags: ["mcp", "namespacing", "wall-time", "performance", "tool-collision", "codex-cli"]

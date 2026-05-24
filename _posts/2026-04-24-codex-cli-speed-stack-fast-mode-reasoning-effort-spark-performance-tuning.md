@@ -1,5 +1,6 @@
 ---
 title: "The Codex CLI Speed Stack: Fast Mode, Reasoning Effort, Spark, and Performance Tuning"
+description: "Codex CLI now ships four independent speed levers, each with its own trade-off envelope. This article maps every lever — Fast service tier, reasoning."
 parent: "Articles"
 nav_order: 391
 tags: ["performance", "fast-mode", "reasoning-effort", "codex-spark", "prompt-caching", "cost-optimisation", "speed"]
