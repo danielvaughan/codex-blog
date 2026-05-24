@@ -51,7 +51,7 @@ if Mix.env() == :dev do
 end
 ```
 
-Tidewave starts an SSE-based MCP server on `localhost:4242` by default [^2].
+Tidewave starts an SSE-based MCP server on your Phoenix application's port (typically `localhost:4000`) at the `/tidewave/mcp` endpoint by default [^2].
 
 ### ElixirLS MCP: Compiler-Powered Code Intelligence
 
@@ -86,7 +86,7 @@ Configure all three servers in `~/.codex/config.toml` or your project-scoped `.c
 ```toml
 [mcp_servers.tidewave]
 type = "sse"
-url = "http://localhost:4242/mcp/sse"
+url = "http://localhost:4000/tidewave/mcp"
 
 [mcp_servers.elixirls-mcp]
 type = "sse"
@@ -277,7 +277,7 @@ This is particularly relevant for teams wanting to expose internal APIs, custom 
 - **Training data lag**: Elixir 1.19's set-theoretic type checking and protocol type inference are recent enough that models may generate patterns from 1.17/1.18. The AGENTS.md and ElixirLS MCP's `get_type_info` tool mitigate this [^8]
 - **Macro expansion opacity**: Neither ElixirLS MCP nor Tidewave fully expose macro expansion chains. Complex `use` macros (e.g., `use Phoenix.Router`) inject code the agent cannot directly inspect
 - **Tidewave dev-only**: Tidewave runs as a Plug in `:dev` environment only. The agent cannot introspect production or staging deployments
-- **HexDocs embedding model**: HexDocs MCP requires Ollama with `nomic-embed-text` running locally, adding infrastructure overhead [^4]
+- **HexDocs embedding model**: HexDocs MCP requires Ollama with `mxbai-embed-large` running locally, adding infrastructure overhead [^4]
 - **ElixirLS MCP port conflicts**: Multiple workspaces using the same port hash can conflict. Set explicit ports in ElixirLS configuration for multi-project setups
 - **BEAM hot code reloading**: If you hot-reload modules while the agent is working, Tidewave's `get_ecto_schemas` may return stale information until the next full recompile
 
