@@ -58,7 +58,7 @@ Based on reviewing 891 articles across the library, the following gaps were iden
 2. ✅ **Codex CLI for Kotlin/Android Development** — Written 2026-05-24 → `2026-05-24-codex-cli-kotlin-android-development-android-cli-mcp-servers-compose-agent-workflows.md`
 3. ✅ **Codex CLI for Swift/SwiftUI Development** — Written 2026-05-24 → `2026-05-24-codex-cli-swift-swiftui-development-xcode-mcp-servers-agent-skills-workflows.md`
 4. ✅ **Agent Observability Dashboard Patterns** — Written 2026-05-24 → `2026-05-24-agent-observability-dashboard-patterns-codex-cli-opentelemetry.md`
-5. **Codex CLI and Monorepo Tooling (Turborepo/Nx/Bazel)** — Monorepo patterns exist in the AGENTS.md article but no dedicated guide covers build-system-aware agent configuration for large monorepos
+5. ✅ **Codex CLI and Monorepo Tooling (Turborepo/Nx/Bazel)** — Written 2026-05-24 → `2026-05-24-codex-cli-monorepo-tooling-turborepo-nx-bazel-agent-workflows.md`
 
 ### Missing Topics (Medium Priority)
 
