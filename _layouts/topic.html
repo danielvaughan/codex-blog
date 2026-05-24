@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<article class="page topic-hub">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <p class="topic-description">{{ page.description }}</p>
+  </header>
+
+  <section class="post-body">
+    {%- comment -%}
+      Collect posts matching ANY of the tags listed in page.hub_tags.
+      Deduplicate with uniq (posts matching multiple tags appear once).
+    {%- endcomment -%}
+    {%- assign hub_posts = "" | split: "" -%}
+    {%- for tag_name in page.hub_tags -%}
+      {%- assign tagged = site.posts | where_exp: "p", "p.tags contains tag_name" -%}
+      {%- assign hub_posts = hub_posts | concat: tagged -%}
+    {%- endfor -%}
+    {%- assign hub_posts = hub_posts | uniq | sort: "date" | reverse -%}
+
+    <p class="topic-count">{{ hub_posts.size }} articles</p>
+
+    {%- for post in hub_posts -%}
+    <article class="topic-article">
+      <h2 class="topic-article-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      <div class="book-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      </div>
+      {%- if post.description -%}
+      <p class="topic-article-desc">{{ post.description }}</p>
+      {%- else -%}
+      <p class="topic-article-desc">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {%- endif -%}
+    </article>
+    {%- endfor -%}
+
+    {%- if page.related_hubs and page.related_hubs.size > 0 -%}
+    <aside class="topic-related">
+      <h2>Related topics</h2>
+      <ul>
+        {%- for hub in page.related_hubs -%}
+        <li><a href="{{ hub.url | relative_url }}">{{ hub.name }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </aside>
+    {%- endif -%}
+  </section>
+</article>

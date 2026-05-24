@@ -686,6 +686,116 @@
   }
 }
 
+// ---------- Topic hub pages ----------
+.topic-description {
+  font-size: 1.05rem;
+  color: $gray-700;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+.topic-count {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: $gray-700;
+  margin-bottom: 1.5rem;
+}
+.topic-article {
+  padding: 1rem 0;
+  border-bottom: 1px solid $gray-200;
+  &:first-of-type { padding-top: 0; }
+  &:last-of-type { border-bottom: none; }
+}
+.topic-article-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+  a {
+    color: $gray-800;
+    text-decoration: none;
+    &:hover { color: $primary; }
+  }
+}
+.topic-article-desc {
+  font-size: 0.92rem;
+  color: $gray-700;
+  line-height: 1.55;
+  margin: 0.3rem 0 0;
+}
+.topic-related {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid $gray-200;
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: $gray-700;
+    margin: 0 0 0.75rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  li a {
+    display: inline-block;
+    background: #f0f4ff;
+    color: $primary;
+    padding: 0.4rem 0.85rem;
+    border-radius: 4px;
+    border: 1px solid #d9e2ff;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    &:hover {
+      background: $primary;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+// ---------- Topics index grid ----------
+.topic-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  @include media-breakpoint-up(md) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.topic-card {
+  background: #fff;
+  border: 1px solid $gray-200;
+  border-radius: $border-radius;
+  padding: 1.25rem;
+  transition: box-shadow 0.15s ease;
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  }
+  h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem;
+    a {
+      color: $gray-800;
+      text-decoration: none;
+      &:hover { color: $primary; }
+    }
+  }
+  p {
+    font-size: 0.9rem;
+    color: $gray-700;
+    line-height: 1.5;
+    margin: 0;
+  }
+}
+
 // ---------- Related posts ----------
 // Sits below the post body as an <aside>. Sober typography, single column,
 // minimal decoration — the goal is discoverability, not a visual flourish.

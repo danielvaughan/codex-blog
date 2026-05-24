@@ -1,4 +1,4 @@
-name: IndexNow Ping
+i name: IndexNow Ping
 
 # Fires on every push to main that touches _posts/. Computes the public URLs
 # of added/modified post files and submits them to the IndexNow API so
