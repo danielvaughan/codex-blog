@@ -25,6 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-include-cache
+  - jekyll-last-modified-at
 
 # SCSS load paths. _main-site/_sass is inside the site source root (the
 # submodule lives at _main-site/), so safe-mode jekyll on GitHub Pages

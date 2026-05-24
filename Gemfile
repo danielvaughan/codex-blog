@@ -7,5 +7,9 @@ source "https://rubygems.org"
 # the site source root.
 gem "github-pages", group: :jekyll_plugins
 
+# Git-based last_modified_at for SEO freshness signals.
+# Not in the github-pages whitelist, so requires GitHub Actions deployment.
+gem "jekyll-last-modified-at", group: :jekyll_plugins
+
 # Required for `bundle exec jekyll serve` on Ruby 3+
 gem "webrick"
