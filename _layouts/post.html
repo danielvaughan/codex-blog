@@ -44,7 +44,18 @@ layout: default
     {%- endcomment -%}
     {%- assign post_content = content | replace: '<img src="/sketchnotes/', '<img loading="eager" fetchpriority="high" decoding="async" src="/sketchnotes/' -%}
     {%- assign post_content = post_content | replace: '<img src="', '<img loading="lazy" decoding="async" src="' -%}
-    {{ post_content }}
+    {%- comment -%}
+      Inject in-body cross-links after the second </h2> section so the
+      callout sits mid-article. Google treats in-body contextual links as a
+      much stronger signal than footer-only links.
+    {%- endcomment -%}
+    {%- capture crosslinks -%}{%- include in-body-links.html -%}{%- endcapture -%}
+    {%- assign h2_parts = post_content | split: '</h2>' -%}
+    {%- if h2_parts.size > 2 and crosslinks != "" -%}
+      {{ h2_parts[0] }}</h2>{{ h2_parts[1] }}</h2>{{ crosslinks }}{%- for i in (2..100) -%}{%- if i < h2_parts.size -%}{{ h2_parts[i] }}{%- unless forloop.last -%}</h2>{%- endunless -%}{%- endif -%}{%- endfor -%}
+    {%- else -%}
+      {{ post_content }}
+    {%- endif -%}
   </section>
 
   {% include related-posts.html %}

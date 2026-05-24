@@ -16,7 +16,7 @@ Tags index: {{ site.url }}/tags/
 
 ## About
 
-{{ site.title }} is a technical blog by {{ site.author.name }} about agentic software engineering, the Codex CLI, and how AI is changing the way software is built. Articles cover CLI internals, prompting and workflow patterns, integrations, enterprise deployment, and adjacent tools.
+{{ site.title }} is a technical knowledge base maintained by {{ site.author.name }} covering agentic software engineering with Codex. Articles cover CLI internals, prompting and workflow patterns, integrations, enterprise deployment, security, and adjacent tools.
 
 The author is also writing a companion book: [{{ site.book.title }}: {{ site.book.subtitle }}]({{ site.book.leanpub_url }}).
 

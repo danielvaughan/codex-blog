@@ -2,7 +2,7 @@
 title: "Models & Cost"
 permalink: /topics/models-and-cost/
 layout: topic
-description: "Articles on model selection, GPT-5.x capabilities, cost optimisation and pricing strategies for Codex CLI."
+description: "Articles on model selection, GPT-5.x capabilities, cost optimisation and pricing strategies for Codex."
 hub_tags:
   - model-selection
   - gpt-5.5

@@ -2,7 +2,7 @@
 title: "MCP & Tool Integration"
 permalink: /topics/mcp-and-tool-integration/
 layout: topic
-description: "Articles on Model Context Protocol servers, plugins, tool orchestration and the MCP marketplace for Codex CLI."
+description: "Articles on Model Context Protocol servers, plugins, tool orchestration and the MCP marketplace for Codex."
 hub_tags:
   - mcp
   - MCP

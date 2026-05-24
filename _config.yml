@@ -1,6 +1,6 @@
 # Site
-title: "Codex Blog"
-description: "A continuously updated guide to Codex CLI. Practical articles on agentic software engineering workflows, configuration and integration."
+title: "Codex Knowledge Base"
+description: "A continuously updated knowledge base for Codex. Practical articles on agentic software engineering workflows, configuration and integration."
 url: "https://codex.danielvaughan.com"
 baseurl: ""
 repository: "danielvaughan/codex-blog"
@@ -40,7 +40,7 @@ sass:
 # Author
 author:
   name: "Daniel Vaughan"
-  bio: "Building expertise in agentic software engineering with Codex CLI"
+  bio: "Building expertise in agentic software engineering with Codex"
   twitter: "DanielVaughan"
   links:
     - label: "GitHub"

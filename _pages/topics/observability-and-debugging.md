@@ -2,7 +2,7 @@
 title: "Observability & Debugging"
 permalink: /topics/observability-and-debugging/
 layout: topic
-description: "Articles on OpenTelemetry, logging, debugging techniques, performance profiling and troubleshooting Codex CLI."
+description: "Articles on OpenTelemetry, logging, debugging techniques, performance profiling and troubleshooting Codex."
 hub_tags:
   - observability
   - opentelemetry

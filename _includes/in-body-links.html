@@ -1,0 +1,42 @@
+{%- comment -%}
+  In-body cross-links: generates an "Also on this topic" callout with 3
+  tag-matched articles. Inserted mid-article (after the first <h2> section)
+  to give Google contextual internal links within the body — a much stronger
+  signal than footer-only related posts.
+{%- endcomment -%}
+{%- assign crosslink_posts = "" | split: "" -%}
+{%- for tag in page.tags -%}
+  {%- assign tagged = site.posts | where_exp: "p", "p.tags contains tag" -%}
+  {%- assign crosslink_posts = crosslink_posts | concat: tagged -%}
+{%- endfor -%}
+{%- assign crosslink_posts = crosslink_posts | uniq | where_exp: "p", "p.url != page.url" | sort: "date" | reverse -%}
+{%- comment -%}Score by tag overlap — pick the 3 with the most shared tags.{%- endcomment -%}
+{%- assign best = "" | split: "" -%}
+{%- for p in crosslink_posts -%}
+  {%- if best.size >= 3 -%}{%- break -%}{%- endif -%}
+  {%- assign overlap = 0 -%}
+  {%- for t in page.tags -%}
+    {%- if p.tags contains t -%}{%- assign overlap = overlap | plus: 1 -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if overlap >= 2 -%}
+    {%- assign best = best | push: p -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if best.size < 3 -%}
+  {%- for p in crosslink_posts -%}
+    {%- if best.size >= 3 -%}{%- break -%}{%- endif -%}
+    {%- unless best contains p -%}
+      {%- assign best = best | push: p -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- if best.size > 0 -%}
+<aside class="in-body-links" aria-label="Related articles">
+  <p class="in-body-links__title">Also on this topic</p>
+  <ul class="in-body-links__list">
+    {%- for p in best -%}
+    <li><a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></li>
+    {%- endfor -%}
+  </ul>
+</aside>
+{%- endif -%}

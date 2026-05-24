@@ -2,7 +2,7 @@
 title: "Topics"
 permalink: /topics/
 layout: page
-description: "Browse Codex CLI articles by topic. Curated hubs covering MCP integration, enterprise deployment, security, configuration and more."
+description: "Browse Codex articles by topic. Curated hubs covering MCP integration, enterprise deployment, security, configuration and more."
 ---
 
 Explore {{ site.posts.size }} articles organised into topic hubs. Each hub groups related articles so you can dive deep into the areas that matter to you.

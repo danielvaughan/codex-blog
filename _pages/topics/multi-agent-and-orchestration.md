@@ -2,7 +2,7 @@
 title: "Multi-Agent & Orchestration"
 permalink: /topics/multi-agent-and-orchestration/
 layout: topic
-description: "Articles on subagents, parallel execution, orchestration patterns and multi-agent workflows in Codex CLI."
+description: "Articles on subagents, parallel execution, orchestration patterns and multi-agent workflows in Codex."
 hub_tags:
   - multi-agent
   - subagents

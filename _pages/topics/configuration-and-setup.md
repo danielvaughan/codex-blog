@@ -2,7 +2,7 @@
 title: "Configuration & Setup"
 permalink: /topics/configuration-and-setup/
 layout: topic
-description: "Articles on Codex CLI config.toml, hooks, environment setup and customisation."
+description: "Articles on Codex config.toml, hooks, environment setup and customisation."
 hub_tags:
   - configuration
   - config-toml

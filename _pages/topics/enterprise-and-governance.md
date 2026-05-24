@@ -2,7 +2,7 @@
 title: "Enterprise & Governance"
 permalink: /topics/enterprise-and-governance/
 layout: topic
-description: "Articles on enterprise deployment patterns, governance frameworks, compliance and organisational adoption of Codex CLI."
+description: "Articles on enterprise deployment patterns, governance frameworks, compliance and organisational adoption of Codex."
 hub_tags:
   - enterprise
   - governance

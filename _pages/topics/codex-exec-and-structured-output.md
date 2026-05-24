@@ -2,7 +2,7 @@
 title: "Codex Exec & Structured Output"
 permalink: /topics/codex-exec-and-structured-output/
 layout: topic
-description: "Articles on non-interactive execution, structured output, app-server mode and scripting with Codex CLI."
+description: "Articles on non-interactive execution, structured output, app-server mode and scripting with Codex."
 hub_tags:
   - codex-exec
   - structured-output

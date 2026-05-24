@@ -2,7 +2,7 @@
 title: "Security & Sandboxing"
 permalink: /topics/security-and-sandboxing/
 layout: topic
-description: "Articles on sandbox policies, permission profiles, authentication, supply-chain security and hardening Codex CLI."
+description: "Articles on sandbox policies, permission profiles, authentication, supply-chain security and hardening Codex."
 hub_tags:
   - security
   - sandbox

@@ -2,7 +2,7 @@
 title: "Skills & AGENTS.md"
 permalink: /topics/skills-and-agents-md/
 layout: topic
-description: "Articles on agent skills, AGENTS.md patterns, skill authoring and the Codex CLI skills ecosystem."
+description: "Articles on agent skills, AGENTS.md patterns, skill authoring and the Codex skills ecosystem."
 hub_tags:
   - skills
   - agent-skills

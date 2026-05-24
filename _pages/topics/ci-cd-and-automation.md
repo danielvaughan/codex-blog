@@ -2,7 +2,7 @@
 title: "CI/CD & Automation"
 permalink: /topics/ci-cd-and-automation/
 layout: topic
-description: "Articles on GitHub Actions, CI/CD pipelines, DevOps integration and automated workflows with Codex CLI."
+description: "Articles on GitHub Actions, CI/CD pipelines, DevOps integration and automated workflows with Codex."
 hub_tags:
   - ci-cd
   - CI/CD

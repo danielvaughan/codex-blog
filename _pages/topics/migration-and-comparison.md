@@ -2,7 +2,7 @@
 title: "Migration & Comparison"
 permalink: /topics/migration-and-comparison/
 layout: topic
-description: "Articles on migrating from other tools, Claude Code comparison, worktrees and workflow transitions to Codex CLI."
+description: "Articles on migrating from other tools, Claude Code comparison, worktrees and workflow transitions to Codex."
 hub_tags:
   - migration
   - comparison

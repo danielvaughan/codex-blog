@@ -2,7 +2,7 @@
 title: "Testing & Code Review"
 permalink: /topics/testing-and-code-review/
 layout: topic
-description: "Articles on test strategies, benchmarks, code review workflows and quality assurance with Codex CLI."
+description: "Articles on test strategies, benchmarks, code review workflows and quality assurance with Codex."
 hub_tags:
   - testing
   - code-review

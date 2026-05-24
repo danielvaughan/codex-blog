@@ -1,7 +1,7 @@
 # robots.txt for codex.danielvaughan.com
 #
 # 2026 posture: allow all traditional crawlers (Google, Bing, DuckDuckGo),
-# explicitly allow AI answer-engine citation bots (so the blog is eligible
+# explicitly allow AI answer-engine citation bots (so the site is eligible
 # to be cited in ChatGPT search, Perplexity, Claude, Google AI Overviews,
 # Bing Copilot), and optionally block pure LLM training crawlers (currently
 # also allowed — change to Disallow: / to opt out of training ingestion).
