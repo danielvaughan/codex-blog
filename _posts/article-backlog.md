@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #221)
+
+### Codex CLI for Astro Development
+
+1. ✅ **Codex CLI for Astro Development: Docs MCP, Agent Skills, and Edge-First Workflows on Cloudflare Workers** — Written 2026-05-24 → `2026-05-24-codex-cli-astro-development-mcp-server-cloudflare-content-collections-agent-workflows.md`
+   - Source: Astro 6.0 release blog, Astro 6.3 release blog, Astro Docs AI tools guide, Astrolicious agent-skills (skills.sh), FredKSchott/astro-skills GitHub, Cloudflare acquisition (FEDLIN Blog), Codex CLI Skills docs, Codex CLI Models docs, Cloudflare MCP server npm
+   - Scope: Astro Docs MCP server (streamable HTTP at mcp.docs.astro.build/mcp with mcp-remote bridge for STDIO), Astrolicious agent skill (CLI commands/project structure/deployment adapters/progressive disclosure), AGENTS.md template for Astro 6.3/Cloudflare Workers (Vite 7/Shiki 4/Zod 4 from astro/zod/Node 22+/workerd runtime/CSP/Live Content Collections/anti-hallucination rules), four workflow patterns (component page generation with astro check loop, content collection schema migration with defineLiveCollection, Cloudflare KV binding integration via context.locals.runtime, advanced routing with Hono handler composition), composing Astro Docs MCP with Cloudflare MCP (documentation/convention/platform layers), sandbox considerations (workerd port binding/astro build as safer alternative/workspace-write mode), model selection for Astro tasks, limitations (training data lag for 6.x APIs, workerd sandbox conflicts, experimental API instability, skill scope gaps, MCP network dependency, Node 22 requirement)
+   - SEO targets: "codex cli astro", "codex cli astro development", "astro mcp server codex", "codex cli cloudflare workers", "codex cli astro 6", "astro agent skills codex", "codex cli content collections"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Next.js, Nuxt, SvelteKit, Vue, and Angular but no article addressed Astro despite Cloudflare acquiring The Astro Technology Company (January 2026), Astro 6.0 shipping with a workerd-based dev server and Live Content Collections (March 2026), Astro 6.3 adding experimental Hono routing (May 2026), an official Astro Docs MCP server providing live documentation access, the Astrolicious agent skill encoding cross-agent project conventions, and Astro's edge-first architecture creating unique sandbox and runtime considerations for agent-assisted development
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #220)
 
 ### Codex CLI for Swift/SwiftUI Development
