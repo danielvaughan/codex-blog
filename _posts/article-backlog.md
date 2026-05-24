@@ -1,5 +1,17 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #222)
+
+### Codex CLI for WordPress Development
+
+1. ✅ **Codex CLI for WordPress Development: MCP Adapter, Playground, and Agent-Driven Plugin Workflows on WordPress 7.0** — Written 2026-05-24 → `2026-05-24-codex-cli-wordpress-development-mcp-servers-playground-abilities-api-agent-workflows.md`
+   - Source: W3Techs CMS usage statistics, WordPress 7.0 release notes, WordPress Playground MCP announcement, WordPress MCP Adapter developer blog, Master Control Press documentation, Codex CLI Features docs, SQLite database integration plugin, Codex CLI model selection docs
+   - Scope: Three MCP servers (WordPress Playground MCP with 16+ tools for sandboxed dev via WebSocket/WebAssembly/SQLite, official WordPress MCP Adapter with three meta-tools bridging Abilities API to MCP via STDIO/WP-CLI and HTTP transports, Master Control Press with 217+ abilities across Core/ACF/WooCommerce for fleet management), Codex CLI config.toml for all three servers, AGENTS.md template for WordPress 7.0/PHP 8.3/Gutenberg (Abilities API/WP AI Client/PHP-only blocks/WPCS/sanitisation-escaping rules/anti-hallucination rules), four workflow patterns (plugin scaffolding with Playground validation, Abilities API development with runtime discovery, Gutenberg block development with testing loop, fleet audit with Master Control Press and codex exec), model selection for WordPress tasks, sandbox considerations (PHP runtime/Composer network/MySQL dependency/file permissions/Application Password security), composing three MCP servers across development/staging/production lifecycle, limitations (training data lag for WordPress 7.0, Playground SQLite vs MySQL differences, PHP not sandboxed by default, Application Password exposure, Master Control Press scope gaps, Gutenberg version skew)
+   - SEO targets: "codex cli wordpress", "codex cli wordpress development", "wordpress mcp server codex", "codex cli wordpress 7", "codex cli gutenberg blocks", "codex cli wordpress plugin", "wordpress abilities api codex", "codex cli wp-cli"
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered PHP/Laravel but no article addressed WordPress despite WordPress powering 43%+ of all websites, WordPress 7.0 shipping on 20 May 2026 with the Abilities API in core and a built-in WP AI Client, three mature MCP servers providing sandboxed development (Playground), live site abilities (MCP Adapter), and fleet management (Master Control Press), and WordPress's unique PHP-centric architecture creating specific sandbox and runtime considerations for agent-assisted development
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-24, Hourly Task #221)
 
 ### Codex CLI for Astro Development
