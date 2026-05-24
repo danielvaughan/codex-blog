@@ -126,6 +126,12 @@
 }
 
 // ---------- Post body content ----------
+// The post title is rendered in .post-header; hide the duplicate h1
+// that comes from the Markdown source.
+.post-body h1 {
+  display: none;
+}
+
 .post-body > p:first-child > img:only-child {
   display: block;
   margin: 0 auto 2rem;
