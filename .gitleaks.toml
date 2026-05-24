@@ -1,0 +1,19 @@
+# Gitleaks configuration for codex-blog
+# https://github.com/gitleaks/gitleaks
+
+[allowlist]
+  description = "Known safe public values (verification codes, not secrets)"
+  regexTarget = "line"
+  regexes = [
+    # Google Search Console verification code (public meta tag)
+    '''tw2uNLn12neV_2jbwtD-iwu54fBRgkSwdvE3LIZsX9k''',
+    # Bing Webmaster Tools verification code (public meta tag)
+    '''0D1B02687430025BFAB8A75BDA4FDA29''',
+    # IndexNow API key (public by design — verification file at site root)
+    '''02bc222b25212df6c50e4a0673715a15''',
+  ]
+  paths = [
+    '''_site/.*''',
+    '''\.bundle/.*''',
+    '''vendor/.*''',
+  ]
