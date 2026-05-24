@@ -1,13 +1,13 @@
 ---
 title: Articles Index
-description: "Last updated: 2026-05-23 Total articles rated: 891"
+description: "Last updated: 2026-05-24 Total articles rated: 903"
 nav_order: 1
 ---
 
 # Articles Index
 
-**Last updated:** 2026-05-23
-**Total articles rated:** 891
+**Last updated:** 2026-05-24
+**Total articles rated:** 903
 
 ## Rating Scale
 
@@ -46,6 +46,7 @@ Each article is rated 1-5 on four dimensions:
 | [The Agentic Engineering Maturity Matrix: Assessing Your Organisation's AI Readiness](../premium-articles/14-the-agentic-engineering-maturity-matrix.md) | 5 | 4 | 3 | 5 | 4.2 | Premium series; Deep dive |
 | [The Fundamentals Paradox: Why Decades-Old Software Principles Are the Real AI Advantage](../premium-articles/17-the-fundamentals-paradox.md) | 4 | 4 | 4 | 5 | 4.2 | Premium series; Heavily sourced |
 | [The Cognitive Load Paradox: Why Agentic Development Is Exhausting the People It Was Meant to Help](../premium-articles/16-the-cognitive-load-paradox.md) | 4 | 4 | 3 | 5 | 4.0 | Premium series |
+| [The Process Engineer: Capturing Business Processes for Agent Implementation](../premium-articles/premium-37-the-process-engineer.md) | 4 | 5 | 4 | 5 | 4.5 | Premium series; SECI model; Process mining; BPMN; Original role definition; Personal voice; Heavily sourced |
 | [Hermes Agent with Codex CLI: The Self-Improving Orchestration Layer](../premium-articles/34-hermes-agent-with-codex-cli-setup-guide.md) | 4 | 4 | 3 | 4 | 3.8 | Premium series; Multi-agent orchestration; Self-improving skills engine; Kanban dispatch; Setup guide |
 | [The Complete Guide to Securing Your AI Coding Agent (Before It Secures Your Job)](../premium-articles/07-complete-guide-to-codex-security.md) | 5 | 3 | 4 | 4 | 4.0 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
 | [The Knowledge Factory: How Codex CLI Turns a Git Repo into an Agent-Maintained Knowledge Base](../premium-articles/24-the-knowledge-factory.md) | 4 | 4 | 3 | 5 | 4.0 | Premium series; Rich diagrams |
@@ -86,6 +87,17 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI v0.133 Extension Lifecycle Events: Building Observability Plugins with SubagentStart, ToolExecution, and TurnMetadata](2026-05-22-codex-cli-v0133-extension-lifecycle-events-observability-plugins-subagent-tool-turn-metadata.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Eleven-event model; Observation vs interception distinction; Plugin walkthrough; Mermaid |
 | [Codex CLI Permission Profile Inheritance: Composable Security Policies and List APIs in v0.133](2026-05-22-codex-cli-permission-profile-inheritance-composable-security-policies-v0133.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Config-layer inheritance; List APIs; requirements.toml; Enterprise security; Mermaid |
 | [Codex CLI Deployment Verification Patterns: exec Pipelines for Smoke Tests, API Validation, and Infrastructure Drift Detection](2026-05-22-codex-cli-deployment-verification-exec-pipelines-smoke-tests-api-validation-drift-detection.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Four CI/CD patterns; output-schema; exec resume; Practical examples; Mermaid |
+| [The Human Review Bottleneck: Practical Code Review Strategies for Agent Output](2026-05-24-human-review-bottleneck-code-review-strategies-agent-output.md) | 4 | 4 | 4 | 5 | 4.2 | Faros AI data; Zurich circular review research; Triage framework; Mermaid; Practical; Highly shareable |
+| [Codex CLI for Kotlin/Android Development: Android CLI, MCP Servers, and Compose-First Agent Workflows](2026-05-24-codex-cli-kotlin-android-development-android-cli-mcp-servers-compose-agent-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Android CLI 1.0; Three MCP servers; Android Skills system; Google I/O sourced; Compose-first |
+| [Codex CLI for Swift and SwiftUI Development: Xcode MCP Servers, Agent Skills, and Build-Test-Debug Workflows](2026-05-24-codex-cli-swift-swiftui-development-xcode-mcp-servers-agent-skills-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Three MCP servers (XcodeBuildMCP/xcrun mcpbridge/SwiftLens); Sentry acquisition; Swift 6.2; Rich tool table |
+| [Codex CLI for Elixir and Phoenix Development: Tidewave, ElixirLS MCP, HexDocs, and Runtime-Aware Agent Workflows](2026-05-24-codex-cli-elixir-phoenix-development-mcp-servers-tidewave-hexdocs-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Tidewave by José Valim; Runtime introspection; Three MCP servers; BEAM-specific patterns |
+| [Agent Observability Dashboard Patterns: OpenTelemetry, Traces, and Cost Monitoring for Codex CLI](2026-05-24-agent-observability-dashboard-patterns-codex-cli-opentelemetry.md) | 4 | 4 | 4 | 4 | 4.0 | OTel architecture; GenAI semantic conventions; Grafana dashboards; Cost monitoring; Practical |
+| [Migrating from LangChain to Native Agent SDKs: A Codex CLI Perspective](2026-05-23-migrating-langchain-langgraph-native-agent-sdks-codex-cli.md) | 4 | 4 | 4 | 4 | 4.0 | Timely migration guide; Five forces analysis; Abstraction overhead; Native SDK patterns |
+| [Codex CLI for WordPress Development: MCP Adapter, Playground, and Agent-Driven Plugin Workflows on WordPress 7.0](2026-05-24-codex-cli-wordpress-development-mcp-servers-playground-abilities-api-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | WordPress 7.0 Armstrong; Three MCP servers; Abilities API; Gutenberg blocks; 43% web coverage gap-filler |
+| [Codex CLI and Monorepo Tooling: Turborepo, Nx, and Bazel Agent Workflows](2026-05-24-codex-cli-monorepo-tooling-turborepo-nx-bazel-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Three orchestrators compared; Build graph awareness; Blast-radius patterns; Practical |
+| [Codex CLI for Astro Development: Docs MCP, Agent Skills, and Edge-First Workflows on Cloudflare Workers](2026-05-24-codex-cli-astro-development-mcp-server-cloudflare-content-collections-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Cloudflare acquisition; Astro 6.3; workerd runtime; Docs MCP; Edge-first patterns |
+| [Codex CLI for C/C++ Development: Clangd MCP Servers, CMake Integration, and Systems Programming Agent Workflows](2026-05-24-codex-cli-cpp-development-clangd-mcp-servers-cmake-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Clangd MCP; CMake integration; Systems programming niche; Semantic analysis |
+| [Codex CLI for GraphQL Development: Apollo MCP Server, Schema Introspection, and Type-Safe Agent Workflows](2026-05-24-codex-cli-graphql-development-apollo-mcp-schema-introspection-type-safe-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Apollo MCP v1.14.0; Schema introspection; Type-safe patterns; Three MCP servers |
 | [Codex CLI for Solidity and Smart Contract Development: Foundry MCP, Security Auditing, and Agent-Driven Contract Workflows](2026-05-23-codex-cli-solidity-smart-contract-development-foundry-mcp-security-audit-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Unique safety constraints; Foundry MCP + Aderyn + Solodit; Immutability-aware patterns; Security audit workflows |
 | [Codex CLI for Zig Development Teams: ZLS MCP Integration, Cross-Compilation Workflows, and Build System Automation](2026-05-22-codex-cli-zig-development-teams-zls-mcp-cross-compilation-build-system.md) | 4 | 4 | 4 | 4 | 4.0 | Niche but thorough; Two MCP servers compared; Zig 0.16.0; Cross-compilation; AGENTS.md patterns |
 | [Codex CLI for Embedded and Firmware Development: PlatformIO MCP, Zephyr Workflows, and AGENTS.md for Hardware Teams](2026-05-22-codex-cli-embedded-firmware-development-platformio-zephyr-mcp-agents-md-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Niche gap-filler; PlatformIO MCP server; Zephyr RTOS; ESP32/STM32; Rich tool table |
@@ -921,7 +933,7 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI 0.130.0 and Chrome Extension Launch](2026-05-14-codex-cli-0130-and-chrome-extension.md) | 2 | 2 | 2 | 2 | 2.0 | Changelog notes; Brief |
 ## Summary Statistics
 
-- **Total articles:** 891
+- **Total articles:** 903
 - **Average composite:** 3.5
 - **Highest composite:** 5.0
 - **Lowest composite:** 2.0
@@ -941,13 +953,21 @@ Each article is rated 1-5 on four dimensions:
 
 ### Score Distribution
 
-- **4.0+:** 245 articles
-- **3.5-3.9:** 486 articles
+- **4.0+:** 252 articles
+- **3.5-3.9:** 491 articles
 - **3.0-3.4:** 78 articles
 - **2.5-2.9:** 32 articles
 - **< 2.5:** 34 articles
 
-### Changes This Run (2026-05-23)
+### Changes This Run (2026-05-24)
+
+- **Added 12 new articles:** 1 premium (37-The Process Engineer), 11 regular from 2026-05-23/24 (Human Review Bottleneck, Kotlin/Android, Swift/SwiftUI, Elixir/Phoenix, Agent Observability Dashboards, LangChain Migration, WordPress, Monorepo Tooling, Astro, C/C++, GraphQL)
+- **New premium highlight:** The Process Engineer (4.5) — original role definition connecting SECI model, BPMN, and process mining to agent implementation. Strong Substack candidate with compelling "Dave retires" opening and practical toolkit
+- **Notable regular additions:** Human Review Bottleneck (4.2) stands out — Faros AI data, Zurich circular review research, and practical triage framework make it highly shareable. The platform-specific articles (Swift, Kotlin/Android, Elixir) fill important ecosystem gaps
+- **Gaps identified:** No articles yet on Rust development with Codex CLI (despite codex-rs being written in Rust), Ruby/Rails agent workflows, or Flutter/Dart. The observability article opens a theme that could expand into a series (alerting, anomaly detection, cost attribution)
+- **Citation freshness:** All AI-specific claims in new articles cite 2026 sources. Premium articles 01-15 should be reviewed for citation freshness — some reference 2025 data that may have superseded numbers
+
+### Changes Previous Run (2026-05-23)
 
 - **Added 17 new articles:** 3 premium (34-Hermes, 35-Differentiation Filter, 36-Every Agent Is a Business), 3 missing from 2026-05-22 (Haskell, R, v0.133 Goal Mode GA), 11 from 2026-05-23 (Clojure, Deno, DuckDB, Gleam, Julia, OCaml, Performance Profiling, Pulumi, Solidity, SQLite, State of Play)
 - **Re-rated 1 article:** Karpathy Says What We've Been Building (2.9 → 3.5) — three-source synthesis and Software 3.0 framing warranted higher originality and depth scores
