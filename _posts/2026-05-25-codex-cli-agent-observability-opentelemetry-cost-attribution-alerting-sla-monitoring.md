@@ -140,7 +140,6 @@ Static thresholds fail for non-deterministic systems. An agent that normally use
 Monitor the derivative of token consumption rather than the absolute count. A sudden spike in tokens-per-minute across a `codex exec` batch indicates either a runaway loop or an unexpectedly complex task:
 
 {% raw %}
-{% raw %}
 ```yaml
 # Grafana alert rule (PromQL)
 - alert: CodexTokenBurnRateHigh
@@ -156,7 +155,6 @@ Monitor the derivative of token consumption rather than the absolute count. A su
     summary: "Codex output token rate 3x above hourly average"
     team: "{{ $labels.team }}"
 ```
-{% endraw %}
 {% endraw %}
 
 ### Tool Trajectory Anomalies
@@ -232,7 +230,6 @@ Codex hooks receive standardised JSON on stdin containing `session_id`, `cwd`, `
 ### Session Cost Tracker Hook
 
 {% raw %}
-{% raw %}
 ```python
 #!/usr/bin/env python3
 """PostToolUse hook that tracks cumulative token cost per session."""
@@ -251,7 +248,6 @@ httpx.post(
 
 # Signal approval to continue
 print(json.dumps({"status": "approved"}))
-{% endraw %}
 ```
 {% endraw %}
 
