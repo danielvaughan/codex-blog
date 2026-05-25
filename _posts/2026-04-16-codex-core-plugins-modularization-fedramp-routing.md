@@ -2,7 +2,7 @@
 title: "Codex CLI's Plugin Architecture Matures: codex-core-plugins Extraction and FedRAMP Routing"
 description: "Two PRs merged on April 16, 2026 signal Codex CLI's transition from a monolithic coding tool to a modular, enterprise-grade platform."
 date: 2026-04-15T23:00:00+00:00
-last_modified_at: 2026-05-25T22:06:57+01:00
+last_modified_at: 2026-05-26T00:07:43+01:00
 tags: [architecture, plugins, enterprise, fedramp, marketplace]
 ---
 
