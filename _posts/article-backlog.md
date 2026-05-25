@@ -2,6 +2,13 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-25, Hourly Article Run)
 
+### Codex CLI for Google Cloud Platform Development
+
+1. ✅ **Codex CLI for Google Cloud Platform Development: gcloud MCP, BigQuery, Cloud Run, and Infrastructure Agent Workflows** — Written 2026-05-25 → `2026-05-25-codex-cli-google-cloud-platform-gcp-development-mcp-servers-bigquery-cloud-run-infrastructure-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered AWS Lambda/CDK, Azure, Firebase, Terraform, and Cloudflare but no article addressed Google Cloud Platform despite googleapis/gcloud-mcp providing four STDIO servers (gcloud, observability, storage, backupdr), GoogleCloudPlatform/cloud-run-mcp providing deployment tools, BigQuery offering a fully managed remote HTTP MCP server, and Google shipping managed MCP endpoints for 40+ GCP products including Spanner, AlloyDB, Cloud SQL, Firestore, Bigtable, and Memorystore
+   - Scope: gcloud-mcp four-server bundle (infrastructure CLI, observability, storage, backup/DR), cloud-run-mcp deployment tools, BigQuery managed HTTP MCP server (OAuth 2.0, 3-minute timeout, 3,000-row cap), config.toml for STDIO and HTTP servers, AGENTS.md template for GCP projects (IAM rules, anti-hallucination for API versions, Workload Identity Federation), four workflow patterns (Cloud Run deploy with log verification, BigQuery schema exploration and query generation, infrastructure audit with codex exec and --output-schema, incident investigation pipeline), model selection, sandbox considerations (network access, gcloud credentials, token expiry), server composition with GitHub MCP, limitations (preview status, token refresh, no Cloud Functions MCP, training data lag, Terraform overlap)
+   - SEO targets: "codex cli gcp", "codex cli google cloud", "gcloud mcp server codex", "codex cli bigquery", "codex cli cloud run", "codex cli gcp development", "google cloud mcp codex"
+
 ### Codex CLI Hooks After GA
 
 1. ✅ **Codex CLI Hooks After GA: The Complete Event Model, Trust Verification, and Production Patterns for v0.133** — Written 2026-05-25 → `2026-05-25-codex-cli-hooks-after-ga-event-model-trust-verification-production-patterns.md`
