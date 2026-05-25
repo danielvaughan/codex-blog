@@ -239,6 +239,7 @@ For enterprise deployments, layer these controls:
 
 The most powerful CDE pattern for Codex CLI is the ephemeral agent pool: spin up a workspace, execute a task via `codex exec`, tear it down. This maps naturally to CI/CD pipelines:
 
+{% raw %}
 ```bash
 # GitHub Actions example with Coder
 - name: Create agent workspace
@@ -254,6 +255,7 @@ The most powerful CDE pattern for Codex CLI is the ephemeral agent pool: spin up
   if: always()
   run: coder delete codex-agent-${{ github.run_id }} --yes
 ```
+{% endraw %}
 
 ### Persistent Agent Workspaces
 

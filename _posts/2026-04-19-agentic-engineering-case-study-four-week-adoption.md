@@ -180,6 +180,7 @@ The hooks system is still experimental but already valuable for enforcing qualit
 
 **3. CI Integration with `codex exec`**
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-review.yml
 name: Codex PR Review
@@ -202,6 +203,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 The `--approval-mode never` flag is critical for non-interactive CI runs — it suppresses all approval prompts [^1]. The `exec` mode pipes results to stdout, making it composable with existing CI tooling.
 

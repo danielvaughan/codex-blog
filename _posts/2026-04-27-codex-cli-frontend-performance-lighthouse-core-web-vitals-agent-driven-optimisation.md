@@ -192,6 +192,7 @@ This integrates with Codex's automatic AGENTS.md scanning — every review and g
 
 Combine Lighthouse CI with Codex's self-healing CI pattern to not only detect performance regressions but automatically fix them:
 
+{% raw %}
 ```yaml
 name: Performance Gate
 on: [pull_request]
@@ -233,6 +234,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 The `budget.json` file defines your performance budgets[^8]:
 

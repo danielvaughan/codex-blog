@@ -254,6 +254,7 @@ flowchart TD
 
 For teams running CI/CD, the documentation pipeline can be a GitHub Action:
 
+{% raw %}
 ```yaml
 # .github/workflows/docs-coverage.yml
 name: Documentation Coverage
@@ -282,6 +283,7 @@ jobs:
               "gaps":{"type":"array","items":{"type":"string"}}
             },"required":["score","gaps"],"additionalProperties":false}'
 ```
+{% endraw %}
 
 ## The Report-First Principle
 

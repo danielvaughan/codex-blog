@@ -313,6 +313,7 @@ jobs:
 
 For teams running Codex in CI via access tokens [^11], add an auto-fix step:
 
+{% raw %}
 ```yaml
       - name: Auto-remediate with Codex
         if: failure()
@@ -324,6 +325,7 @@ For teams running Codex in CI via access tokens [^11], add an auto-fix step:
             following the a11y-remediator skill. Commit the fixes." \
             --sandbox workspace-write
 ```
+{% endraw %}
 
 ⚠️ Auto-remediation in CI should be gated behind human review — Codex-generated ARIA fixes need manual verification for semantic correctness, particularly for complex widget patterns like comboboxes and tree views where ARIA authoring practices are nuanced [^12].
 

@@ -229,6 +229,7 @@ Feed this into each phase prompt so that Review knows what to look for, Repair k
 
 The repair loop maps naturally onto a GitHub Actions workflow triggered by pull requests or scheduled runs:
 
+{% raw %}
 ```yaml
 name: iterative-repair
 on:
@@ -262,6 +263,7 @@ jobs:
               --body "$(cat ./state/repair-summary.json | jq -r '.changes_made | join("\n- ")')"
           }
 ```
+{% endraw %}
 
 The `codex-action@v1` GitHub Action can also wrap `codex exec` invocations with built-in authentication and caching [^3].
 

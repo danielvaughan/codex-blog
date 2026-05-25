@@ -2,7 +2,7 @@
 title: "Vibe Coding vs Agentic Engineering: A Senior Developer's Framework"
 description: "On 2 February 2025, Andrej Karpathy posted a throwaway tweet about a new style of programming he called vibe coding: you fully give in to the vibes."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags:
   - opinion
   - team-workflow
@@ -152,6 +152,7 @@ Make it pass without modifying the test file."
 
 The compound engineering plugin ships a `/workflows:review` command that runs 12 specialised reviewer sub-agents in parallel — security, performance, over-engineering, test coverage, and more.[^11] Even without the plugin, the pattern is replicable in Codex CLI directly:
 
+{% raw %}
 ```toml
 # subagents.toml — parallel review swarm
 [[agents]]
@@ -166,6 +167,7 @@ prompt = "Review the changes in {{branch}} for performance issues. Focus on: N+1
 id = "architecture_reviewer"
 prompt = "Review the changes in {{branch}} for architectural issues. Focus on: coupling, layering violations, hidden state, missing abstractions."
 ```
+{% endraw %}
 
 Running these in parallel takes seconds and surfaces issues a single reviewer would miss.
 

@@ -150,6 +150,7 @@ The pattern is identical across platforms: fetch the diff, pipe it to `codex exe
 
 For GitHub, the official `openai/codex-action` provides a thin wrapper [^2]:
 
+{% raw %}
 ```yaml
 name: Codex Review
 on:
@@ -199,6 +200,7 @@ jobs:
               });
             }
 ```
+{% endraw %}
 
 The `sandbox: read-only` flag prevents the review agent from modifying files — it can only read the repository and produce findings [^9].
 

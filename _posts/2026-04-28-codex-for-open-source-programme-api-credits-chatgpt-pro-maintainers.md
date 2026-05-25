@@ -52,6 +52,7 @@ Having the tools is one thing; wiring them into your daily workflow is another. 
 
 High-volume projects often struggle with PR review throughput. Codex CLI's non-interactive mode slots directly into a GitHub Actions workflow:
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-review.yml
 name: Codex PR Review
@@ -88,6 +89,7 @@ jobs:
         with:
           path: /tmp/review.md
 ```
+{% endraw %}
 
 The `--sandbox read-only` flag ensures Codex cannot modify your repository during review, whilst `--ephemeral` avoids persisting session files to the CI runner [^6][^7].
 

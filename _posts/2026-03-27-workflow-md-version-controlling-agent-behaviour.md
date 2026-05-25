@@ -2,7 +2,7 @@
 title: "WORKFLOW.md: Version-Controlling Your Agent's Behaviour"
 description: "When you adopt Symphony (or any harness-based orchestration), you face a configuration challenge: how do you define how your agents should behave, and keep."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 excerpt: "Symphony's dual-purpose config+prompt file pattern: YAML front matter defines runtime orchestration settings, Markdown body becomes the Jinja prompt template. Agent policy as a versioned repo artifact."
 tags:
   - orchestration
@@ -35,6 +35,7 @@ One file. Version-controlled. Reviewable. The complete definition of how your ag
 
 ## File Format
 
+{% raw %}
 ```markdown
 ---
 tracker:
@@ -93,6 +94,7 @@ You are working on {{ issue.title }}.
 
 When complete, transition the issue to "Human Review".
 ```
+{% endraw %}
 
 ---
 
@@ -193,6 +195,7 @@ For fully autonomous overnight runs, `auto-edit` or `full-auto` is typical. For 
 
 Everything after the closing `---` of the front matter is the prompt body, rendered as Jinja2 with issue context:
 
+{% raw %}
 ```markdown
 ## Your task
 
@@ -209,6 +212,7 @@ You are working on {{ issue.title }}.
 {% endfor %}
 {% endif %}
 ```
+{% endraw %}
 
 Available template variables include issue metadata from Linear (title, description, labels, creator, comments, due date). The exact schema depends on the Linear GraphQL response.
 

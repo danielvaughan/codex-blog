@@ -2,7 +2,7 @@
 title: "Codex CLI for Infrastructure as Code: Terraform, Pulumi and Ansible Automation"
 description: "Infrastructure as Code occupies a peculiar place in the agentic coding landscape. The feedback loops are slower than application code."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags:
   - language-guide
   - agents-md
@@ -207,6 +207,7 @@ min_codex_version = "0.117.0"
 
 The `openai/codex-action@v1` GitHub Action integrates cleanly with Terraform PR workflows[^14]:
 
+{% raw %}
 ```yaml
 name: IaC Review
 on:
@@ -253,6 +254,7 @@ jobs:
               body: `## Codex IaC Review\n\n${review}`
             });
 ```
+{% endraw %}
 
 Use `sandbox: read-only` for review jobs to eliminate any risk of accidental mutation. GitLab CI follows the same pattern via `codex exec --full-auto` with structured JSON output extracted by `awk`.[^15]
 

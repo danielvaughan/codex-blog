@@ -152,6 +152,7 @@ fi
 
 The following workflow combines all four patterns into a single GitHub Actions pipeline triggered by a `workflow_dispatch` event:
 
+{% raw %}
 ```yaml
 name: Automated Release
 on:
@@ -217,6 +218,7 @@ jobs:
             --title "$NEW_VERSION" \
             --notes-file release-notes.md
 ```
+{% endraw %}
 
 ## AGENTS.md Template for Release Repositories
 

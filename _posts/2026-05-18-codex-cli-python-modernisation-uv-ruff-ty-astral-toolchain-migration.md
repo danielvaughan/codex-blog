@@ -213,6 +213,7 @@ If the hook exits non-zero, Codex receives the failure output and automatically 
 
 ## CI Enforcement Pipeline
 
+{% raw %}
 ```yaml
 # .github/workflows/python-quality.yml
 name: Python Quality Gate
@@ -255,6 +256,7 @@ jobs:
             "Check if any legacy Python packaging, linting, or typing config files have been reintroduced (setup.py, requirements.txt, .flake8, mypy.ini). List any found." \
           | jq -e '.issues == 0'
 ```
+{% endraw %}
 
 The final step uses `codex exec` as a semantic guard — catching regressions that static tools miss, such as a developer adding a `requirements.txt` "just for Docker" [^8].
 

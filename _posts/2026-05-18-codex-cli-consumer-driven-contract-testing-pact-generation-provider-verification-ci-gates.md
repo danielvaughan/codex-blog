@@ -232,6 +232,7 @@ This ensures that any Pact test file Codex creates or modifies conforms to the V
 
 Integrate contract testing as a deployment gate in GitHub Actions[^9]:
 
+{% raw %}
 ```yaml
 # .github/workflows/contract-gate.yml
 name: Contract Gate
@@ -282,6 +283,7 @@ jobs:
       - name: Run provider verification
         run: npm run test:contract:provider
 ```
+{% endraw %}
 
 ## Bi-Directional Contract Testing with OpenAPI
 

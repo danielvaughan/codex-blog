@@ -194,6 +194,7 @@ This ensures Codex maintains Linear hygiene whether running interactively or via
 
 ### Automatic Issue Updates on PR Merge
 
+{% raw %}
 ```yaml
 # .github/workflows/linear-sync.yml
 name: Sync Linear on Merge
@@ -223,11 +224,13 @@ jobs:
         env:
           LINEAR_API_KEY: ${{ secrets.LINEAR_API_KEY }}
 ```
+{% endraw %}
 
 ### Sprint Burndown Alerts
 
 Schedule a daily check for sprint health:
 
+{% raw %}
 ```yaml
 name: Sprint Health Check
 on:
@@ -249,6 +252,7 @@ jobs:
         env:
           LINEAR_API_KEY: ${{ secrets.LINEAR_API_KEY }}
 ```
+{% endraw %}
 
 ---
 

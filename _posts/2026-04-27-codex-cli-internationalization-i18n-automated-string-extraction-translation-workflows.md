@@ -51,6 +51,7 @@ The key insight is that Codex CLI handles Phases 1 and 3 particularly well — c
 
 Before extracting strings, encode your i18n conventions in `AGENTS.md` so every Codex session follows the same rules:
 
+{% raw %}
 ```markdown
 ## i18n Policy
 
@@ -64,11 +65,13 @@ Before extracting strings, encode your i18n conventions in `AGENTS.md` so every 
 - ICU MessageFormat is NOT used — stick to i18next native syntax
 - Run `npx i18next-parser` after any string changes
 ```
+{% endraw %}
 
 ### Interactive String Extraction
 
 For a focused extraction session, prompt Codex with a specific module:
 
+{% raw %}
 ```
 Scan src/features/checkout/ for any hard-coded user-facing strings
 (JSX text content, placeholder attributes, aria-labels, error messages,
@@ -78,6 +81,7 @@ toast notifications). For each string found:
 3. Preserve any dynamic values as {{interpolation}} parameters
 Do NOT touch strings that are already wrapped in t() or <Trans>.
 ```
+{% endraw %}
 
 Codex reads the files, identifies raw strings using its understanding of JSX structure, and produces diffs that wrap each string whilst maintaining the component's behaviour[^3].
 
@@ -228,6 +232,7 @@ sequenceDiagram
 
 Run a nightly `codex exec` job that detects translation drift and opens issues:
 
+{% raw %}
 ```yaml
 # .github/workflows/i18n-audit.yml
 name: i18n Coverage Audit
@@ -254,6 +259,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 ### Pattern 3: Pre-Release Translation Gate
 

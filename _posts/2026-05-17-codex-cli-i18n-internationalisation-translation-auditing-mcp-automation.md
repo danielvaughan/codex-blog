@@ -231,6 +231,7 @@ codex "Use the i18n-auditor skill to audit and repair the auth feature module"
 
 ### GitHub Actions Pipeline
 
+{% raw %}
 ```yaml
 name: i18n-coverage-gate
 on:
@@ -277,6 +278,7 @@ jobs:
             console.log('i18n coverage gate passed');
           "
 ```
+{% endraw %}
 
 This blocks merges when any locale drops below the coverage threshold or when hardcoded strings appear in changed files [^3].
 

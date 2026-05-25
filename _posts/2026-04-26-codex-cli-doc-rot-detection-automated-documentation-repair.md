@@ -123,6 +123,7 @@ The `--output-schema` flag [^4] ensures the output is machine-parseable JSON con
 
 A scheduled GitHub Actions workflow performs a comprehensive audit — not just diff-scoped, but a full cross-reference between the codebase and documentation:
 
+{% raw %}
 ```yaml
 # .github/workflows/doc-rot-sweep.yml
 name: Weekly Documentation Rot Sweep
@@ -157,6 +158,7 @@ jobs:
             5. For critical findings, create the fixes directly.
           codex-api-key: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 ## The Repair Pipeline
 

@@ -208,6 +208,7 @@ Structured JSON conforming to migration-risk-schema.json
 
 ### GitHub Actions Gate
 
+{% raw %}
 ```yaml
 name: Migration Safety Gate
 on:
@@ -241,6 +242,7 @@ jobs:
             exit 1
           fi
 ```
+{% endraw %}
 
 ### Branch-Based Integration Testing
 

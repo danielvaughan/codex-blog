@@ -213,6 +213,7 @@ It is overkill for binary-outcome tasks (tests pass/fail, build succeeds/fails) 
 
 Scored loops integrate naturally with CI pipelines via `codex exec`. A GitHub Actions workflow might run the loop on a schedule to optimise a performance-critical module:
 
+{% raw %}
 ```yaml
 - name: Run scored improvement loop
   uses: openai/codex-action@v1
@@ -223,6 +224,7 @@ Scored loops integrate naturally with CI pipelines via `codex exec`. A GitHub Ac
   env:
     OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 Pair this with a step that parses `eval-results.json` and fails the job if scores regress below a floor, creating a **ratchet** that prevents quality from slipping [^4].
 

@@ -2,7 +2,7 @@
 title: "Cline CLI 2.0: The YOLO-Mode Automation Engine for CI/CD Pipelines"
 description: "Cline CLI 2.0, released on 14 February 2026, reframes the popular VS Code coding agent as a first-class terminal citizen."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags:
   - competitive-landscape
   - competitor-tools
@@ -161,6 +161,7 @@ The `--config` flag extends this further — point each instance at a different 
 
 ### GitHub Actions
 
+{% raw %}
 ```yaml
 name: AI Code Review
 on: [pull_request]
@@ -188,6 +189,7 @@ jobs:
           name: review
           path: review.md
 ```
+{% endraw %}
 
 ### Shell Script Pipeline
 

@@ -156,6 +156,7 @@ For large diffs that might exceed the context window, consider filtering to chan
 
 GitHub Actions has the most streamlined path thanks to `openai/codex-action@v1`[^3]:
 
+{% raw %}
 ```yaml
 name: Codex Code Review
 on:
@@ -204,6 +205,7 @@ jobs:
             # POST to /repos/{owner}/{repo}/pulls/{pr}/comments
           done
 ```
+{% endraw %}
 
 The action's `drop-sudo` safety strategy removes sudo access before Codex runs, preventing the agent from reading the `OPENAI_API_KEY` secret from the runner environment[^3]. This is non-negotiable for public repositories.
 

@@ -66,6 +66,7 @@ This is the single most misunderstood aspect of Codex in CI. Network access in t
 
 The practical consequence: **install all dependencies before the Codex step**. If your project needs `npm ci`, `pip install`, or `apt-get`, run those in a preceding step. Codex in `workspace-write` mode cannot fetch packages itself.
 
+{% raw %}
 ```yaml
 steps:
   - uses: actions/checkout@v5
@@ -80,6 +81,7 @@ steps:
       prompt-file: .github/prompts/review.md
       sandbox: workspace-write
 ```
+{% endraw %}
 
 ## Safety Strategies
 
@@ -108,6 +110,7 @@ On GitHub-hosted Linux runners, the action automatically enables unprivileged na
 
 The most common pattern. Codex reviews pull request diffs and posts comments.
 
+{% raw %}
 ```yaml
 name: Codex Review
 on:
@@ -142,6 +145,7 @@ jobs:
               body: `${{ steps.review.outputs.final-message }}`
             })
 ```
+{% endraw %}
 
 **Key decisions:** `read-only` sandbox because the agent should not modify files during review. `fetch-depth: 0` gives Codex the full commit history for meaningful diff analysis.
 
@@ -149,6 +153,7 @@ jobs:
 
 When tests fail, Codex diagnoses the failure and opens a fix PR. This uses the `workflow_run` trigger to activate after CI completion [^4].
 
+{% raw %}
 ```yaml
 name: Codex Autofix
 on:
@@ -198,6 +203,7 @@ jobs:
 
             [skip ci]
 ```
+{% endraw %}
 
 **Critical detail:** The `[skip ci]` in the commit message prevents the autofix PR from re-triggering the CI workflow and creating an infinite loop [^5].
 
@@ -205,6 +211,7 @@ jobs:
 
 Run Codex on a schedule for tasks like dependency updates, documentation refresh, or code quality sweeps.
 
+{% raw %}
 ```yaml
 name: Weekly Docs Refresh
 on:
@@ -235,6 +242,7 @@ jobs:
           branch: docs/weekly-refresh
           title: "docs: weekly documentation refresh"
 ```
+{% endraw %}
 
 **Gotcha:** Always check `git diff --quiet` before creating a PR. If Codex finds nothing to change, you do not want empty commits or PRs.
 
@@ -242,6 +250,7 @@ jobs:
 
 Use `output-schema` to get machine-parseable results from Codex that subsequent steps can consume.
 
+{% raw %}
 ```yaml
 - uses: openai/codex-action@v1
   id: analysis
@@ -266,6 +275,7 @@ Use `output-schema` to get machine-parseable results from Codex that subsequent 
       exit 1
     fi
 ```
+{% endraw %}
 
 ## Prompt Management
 
@@ -310,12 +320,14 @@ Test runner: vitest. Linter: eslint with @typescript-eslint.
 
 GitHub Actions expressions are evaluated before Codex receives the prompt. Use this to inject dynamic context:
 
+{% raw %}
 ```yaml
 prompt: |
   Review PR #${{ github.event.pull_request.number }}
   by @${{ github.event.pull_request.user.login }}.
   Focus on changes in: ${{ github.event.pull_request.changed_files }} files.
 ```
+{% endraw %}
 
 **Warning:** This is also the primary prompt injection vector. See the Security section below.
 
@@ -410,11 +422,13 @@ Each `codex exec` invocation consumes Responses API tokens. In a busy repository
 - **Gate expensive workflows** behind labels or specific file paths
 - **Set concurrency limits** to prevent parallel runs on the same PR
 
+{% raw %}
 ```yaml
 concurrency:
   group: codex-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 ```
+{% endraw %}
 
 ### 9. Residual State Between Retries
 
@@ -441,6 +455,7 @@ The lesson for CI/CD: **never trust external input**. Branch names, PR titles, c
 
 1. **Sanitise dynamic inputs** — If you inject PR titles or commit messages into prompts, escape or validate them first:
 
+{% raw %}
 ```yaml
 - run: |
     SAFE_TITLE=$(echo "${{ github.event.pull_request.title }}" | tr -cd '[:alnum:] [:space:]._-')
@@ -449,6 +464,7 @@ The lesson for CI/CD: **never trust external input**. Branch names, PR titles, c
   with:
     prompt: "Review PR: ${{ env.SAFE_TITLE }}"
 ```
+{% endraw %}
 
 2. **Restrict trigger permissions** — Use `allow-users` to limit who can trigger Codex workflows. For public repositories, this is essential:
 

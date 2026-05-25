@@ -2,7 +2,7 @@
 title: "The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs"
 description: "The openai/codex-action@v1 GitHub Action brings Codex's agentic capabilities into your CI/CD pipelines without requiring manual CLI installation or proxy."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags:
   - ci-cd
   - github-actions
@@ -76,6 +76,7 @@ You must provide exactly one of `prompt` or `prompt-file` — setting both cause
 
 The action exposes one output[^1]:
 
+{% raw %}
 ```yaml
 - name: Run Codex
   id: codex
@@ -87,6 +88,7 @@ The action exposes one output[^1]:
 - name: Use the result
   run: echo "${{ steps.codex.outputs.final-message }}"
 ```
+{% endraw %}
 
 `final-message` contains the last message from `codex exec`. Pair it with `output-file` if you need the full transcript as a build artifact.
 
@@ -118,6 +120,7 @@ This is the recommended strategy for most workflows on GitHub-hosted runners.
 
 Runs Codex as a dedicated low-privilege account specified via `codex-user`[^2]. Useful on self-hosted runners where you have pre-created service accounts. You may need to fix file ownership on the checkout directory before invoking the action:
 
+{% raw %}
 ```yaml
 - uses: actions/checkout@v5
 - run: chown -R codex-agent:codex-agent .
@@ -128,6 +131,7 @@ Runs Codex as a dedicated low-privilege account specified via `codex-user`[^2]. 
     openai-api-key: ${{ secrets.OPENAI_API_KEY }}
     prompt: "Fix the failing tests"
 ```
+{% endraw %}
 
 ### `read-only`
 
@@ -171,6 +175,7 @@ You can expand the trusted set:
 
 The safest approach for fork PRs uses a two-workflow pattern. The first workflow runs on `pull_request` (with read-only `GITHUB_TOKEN` and no secrets). The second triggers on `workflow_run` completion, runs in the context of the base branch, and has access to secrets[^4]:
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-review.yml
 name: Codex Review
@@ -209,6 +214,7 @@ jobs:
           title: "fix: auto-fix CI failure"
           body: ${{ steps.codex.outputs.final-message }}
 ```
+{% endraw %}
 
 This pattern ensures fork contributors never have direct access to `OPENAI_API_KEY` while still enabling automated fixes[^4][^5].
 

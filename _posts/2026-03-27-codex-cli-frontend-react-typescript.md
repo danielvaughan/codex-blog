@@ -2,7 +2,7 @@
 title: "Codex CLI for Frontend Development: React, TypeScript and Modern Toolchains"
 description: "Frontend development with Codex CLI requires deliberate configuration. Without it, Codex will make reasonable guesses — often the wrong ones. It might reach."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags:
   - language-guide
   - skills
@@ -211,6 +211,7 @@ codex --profile frontend "add dark mode toggle to the settings page"
 
 Integrate Codex into your PR workflow to auto-fix linting issues and maintain component quality:
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-frontend.yml
 name: Codex Frontend Quality
@@ -241,6 +242,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 ---
 

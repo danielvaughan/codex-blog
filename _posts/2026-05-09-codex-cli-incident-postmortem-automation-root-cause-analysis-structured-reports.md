@@ -197,6 +197,7 @@ codex exec \
 
 Add a GitHub Action that triggers on incident labels:
 
+{% raw %}
 ```yaml
 name: Draft Postmortem
 on:
@@ -222,6 +223,7 @@ jobs:
           DD_API_KEY: ${{ secrets.DD_API_KEY }}
           DD_APP_KEY: ${{ secrets.DD_APP_KEY }}
 ```
+{% endraw %}
 
 The action uses the official `codex-action` GitHub Action[^7], which handles binary installation and authentication.
 

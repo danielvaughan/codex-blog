@@ -2,7 +2,7 @@
 title: "Test-Driven Development with Codex CLI: The Red-Green-Refactor Loop, AGENTS.md Test Gates, and Hook-Based Verification"
 description: "The TDD AI agent pattern has emerged as the most reliable way to execute autonomous coding in 2026."
 date: 2026-04-10T17:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags: ["tdd", "test-driven-development", "agents-md", "hooks", "verification", "codex-exec", "ci-cd", "testing", "quality-gates"]
 ---
 
@@ -361,6 +361,7 @@ codex exec --full-auto \
 
 ### GitHub Actions Integration
 
+{% raw %}
 ```yaml
 name: Codex TDD Implementation
 on:
@@ -400,6 +401,7 @@ jobs:
       - name: Verify tests pass (verification)
         run: npm test -- --ci
 ```
+{% endraw %}
 
 The `openai/codex-action` wraps `codex exec` for GitHub Actions with built-in safety strategies[^11]. The `drop-sudo` strategy (the default) prevents privilege escalation during sandbox execution[^11].
 

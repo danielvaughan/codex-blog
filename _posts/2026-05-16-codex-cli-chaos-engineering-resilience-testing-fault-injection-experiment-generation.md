@@ -241,6 +241,7 @@ graph TD
 
 ### GitHub Actions Recipe
 
+{% raw %}
 ```yaml
 name: Resilience Gate
 on:
@@ -279,6 +280,7 @@ jobs:
             exit 1
           fi
 ```
+{% endraw %}
 
 ## Model Selection for Chaos Tasks
 

@@ -2,7 +2,7 @@
 title: "Evaluating Codex CLI Agents with Promptfoo: Trajectory Assertions, Cost Guards, and Structured Grading"
 description: "Standard LLM evals check whether a model returns the right text. Agent evals are a different beast entirely: two agents can produce identical final outputs."
 date: 2026-04-11T21:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags: ["evaluation", "promptfoo", "testing", "codex-cli", "trajectory-assertions", "cost-management"]
 ---
 
@@ -265,6 +265,7 @@ tests:
 
 Real-world Codex workflows are multi-turn: you create a class, then add methods, then refactor. Promptfoo supports this through thread persistence:[^2]
 
+{% raw %}
 ```yaml
 providers:
   - id: openai:codex-sdk
@@ -283,6 +284,7 @@ tests:
 prompts:
   - "{{request}}"
 ```
+{% endraw %}
 
 Threads pool by cache key — a composite of prompt template, working directory, model, sandbox mode, and other settings. The oldest thread is evicted when the pool is full, and concurrent calls to the same thread are serialised automatically.[^2]
 
@@ -337,6 +339,7 @@ flowchart LR
 
 Run evals on every PR that changes AGENTS.md, skills, or prompt configurations:
 
+{% raw %}
 ```yaml
 # .github/workflows/agent-eval.yml
 name: Agent Quality Gate
@@ -365,6 +368,7 @@ jobs:
           name: eval-results
           path: results.json
 ```
+{% endraw %}
 
 The `--repeat 3` flag runs each test case three times to measure variance. If a prompt fails 50% of the time, the prompt is ambiguous — fix the instructions rather than adding retries.[^1]
 

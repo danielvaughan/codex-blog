@@ -68,6 +68,7 @@ Run `/init` in Codex CLI to generate a baseline, then customise from the templat
 
 Android builds require network access for Gradle dependency resolution and broader filesystem access than the default sandbox permits. Configure `~/.codex/config.toml`:
 
+{% raw %}
 ```toml
 [model]
 default = "gpt-5.5"
@@ -87,6 +88,7 @@ writable_paths = [
 # Auto-format Kotlin files on each agent edit
 command = "ktlint --format {{changed_files}}"
 ```
+{% endraw %}
 
 For CI pipelines using `codex exec`, lock the sandbox down further:
 

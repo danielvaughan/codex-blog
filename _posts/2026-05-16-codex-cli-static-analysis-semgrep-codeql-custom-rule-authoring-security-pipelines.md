@@ -251,6 +251,7 @@ rules, or SAST custom patterns.
 
 Wire the generated rules into your pipeline:
 
+{% raw %}
 ```yaml
 # .github/workflows/security-gate.yml
 name: Custom SAST Gate
@@ -292,6 +293,7 @@ jobs:
              missing required metadata fields. Output a pass/fail
              summary."
 ```
+{% endraw %}
 
 ```mermaid
 flowchart LR

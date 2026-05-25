@@ -294,6 +294,7 @@ The hook does not block execution (`"continue": true`) but injects a system mess
 
 Integrate the structured audit into your CI pipeline using the Codex GitHub Action [^8]:
 
+{% raw %}
 ```yaml
 name: Logging Standards Gate
 on: [pull_request]
@@ -326,6 +327,7 @@ jobs:
           fi
           echo "✅ No critical logging violations"
 ```
+{% endraw %}
 
 ```mermaid
 flowchart LR

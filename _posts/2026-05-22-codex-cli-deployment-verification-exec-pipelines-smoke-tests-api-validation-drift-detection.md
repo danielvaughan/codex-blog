@@ -200,6 +200,7 @@ Each `resume` call carries forward the context from previous stages, so the agen
 
 The official `openai/codex-action@v1` GitHub Action wraps `codex exec` with authentication and sandbox setup[^9]:
 
+{% raw %}
 ```yaml
 name: Post-Deploy Verification
 on:
@@ -233,6 +234,7 @@ jobs:
             exit 1
           fi
 ```
+{% endraw %}
 
 ## Cost and performance considerations
 

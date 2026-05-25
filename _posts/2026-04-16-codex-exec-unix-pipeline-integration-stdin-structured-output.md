@@ -223,6 +223,7 @@ sandbox = "workspace-write"
 
 A practical GitHub Actions workflow that uses `codex exec` as a pipeline stage:
 
+{% raw %}
 ```yaml
 jobs:
   security-scan:
@@ -245,6 +246,7 @@ jobs:
             exit 1
           fi
 ```
+{% endraw %}
 
 The `--ephemeral` flag avoids cluttering CI runners with session rollout files[^3]. The `CODEX_API_KEY` environment variable handles authentication without interactive sign-in[^7].
 

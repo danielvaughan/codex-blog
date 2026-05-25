@@ -185,6 +185,7 @@ codex exec \
 
 ### GitHub Actions Example
 
+{% raw %}
 ```yaml
 name: codex-fix
 on:
@@ -210,6 +211,7 @@ jobs:
             Follow the verify sequence in AGENTS.md.
           sandbox: workspace-write
 ```
+{% endraw %}
 
 ## The Verification Flow
 

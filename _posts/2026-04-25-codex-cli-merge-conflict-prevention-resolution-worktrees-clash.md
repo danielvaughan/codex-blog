@@ -210,6 +210,7 @@ codex "You are the integration leader. Three feature branches are ready:
 
 For Codex App workflows where agents open PRs automatically, a GitHub Actions workflow can catch and resolve the stale-base race condition [^1]:
 
+{% raw %}
 ```yaml
 name: Auto-resolve Codex conflicts
 on:
@@ -243,6 +244,7 @@ jobs:
           }
           git push
 ```
+{% endraw %}
 
 > **Warning**: The `-X theirs` strategy preserves the agent's changes and discards `main`'s version of conflicting hunks. This is safe when the agent's work is the authoritative source, but dangerous when `main` contains critical fixes. Always gate this behind a label check and human review.
 

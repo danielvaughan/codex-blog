@@ -292,6 +292,7 @@ flowchart TD
 
 ### GitHub Actions Workflow
 
+{% raw %}
 ```yaml
 name: Contract Tests
 on: [push]
@@ -346,6 +347,7 @@ jobs:
           name: contract-audit
           path: ./reports/contract-gaps.json
 ```
+{% endraw %}
 
 ## Model Selection
 

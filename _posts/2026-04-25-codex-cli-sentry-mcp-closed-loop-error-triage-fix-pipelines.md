@@ -188,6 +188,7 @@ The most powerful pattern runs on a schedule — every Monday morning, or after 
 
 ### GitHub Actions Workflow
 
+{% raw %}
 ```yaml
 name: Sentry Error Triage
 on:
@@ -239,6 +240,7 @@ jobs:
           name: sentry-triage-${{ github.run_id }}
           path: triage-output.json
 ```
+{% endraw %}
 
 ### Key Design Decisions
 

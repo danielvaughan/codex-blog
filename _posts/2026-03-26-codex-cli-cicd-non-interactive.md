@@ -2,7 +2,7 @@
 title: "Codex CLI for CI/CD: codex exec, Non-Interactive Mode and Pipeline Integration"
 description: "codex exec is Codex's non-interactive execution mode — no TUI, no prompts, just autonomous task completion. It's the entry point for every CI/CD integration."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags:
   - ci-cd
   - github-actions
@@ -155,6 +155,7 @@ Useful for: logging to observability platforms, parsing progress in shell script
 
 The official action (`openai/codex-action`)[^3] wraps `codex exec` for GitHub workflows:
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-pr-review.yml
 name: Codex PR Review
@@ -198,6 +199,7 @@ jobs:
               body: `## Codex Review\n\n${{ steps.codex.outputs.final-message }}`
             })
 ```
+{% endraw %}
 
 ### Action Inputs Reference
 

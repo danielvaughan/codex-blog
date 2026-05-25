@@ -207,6 +207,7 @@ Combine this with `AGENTS.md` review criteria for project-specific review polici
 
 `codex exec` runs a single task non-interactively and exits [^8], making it the bridge between Codex and your CI/CD system.
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-autofix.yml
 name: Codex Autofix
@@ -231,6 +232,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 For automatic CI failure triage, OpenAI's cookbook demonstrates a pattern that watches for failed Actions runs and dispatches Codex to diagnose and fix them [^9].
 

@@ -108,12 +108,14 @@ Complete the flow on your phone or laptop (tapping your YubiKey there), and the 
 
 For automation, use API key authentication exclusively. This avoids session lifetime issues entirely:
 
+{% raw %}
 ```bash
 # GitHub Actions example
 - name: Authenticate Codex CLI
   run: |
     echo "${{ secrets.OPENAI_API_KEY }}" | codex login --with-api-key
 ```
+{% endraw %}
 
 Note that API key authentication uses usage-based billing and does not provide access to ChatGPT-subscription-only features like fast mode or Codex-Spark[^4][^7].
 

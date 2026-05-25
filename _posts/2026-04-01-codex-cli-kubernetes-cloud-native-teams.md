@@ -2,7 +2,7 @@
 title: "Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD"
 description: "Kubernetes YAML is notoriously error-prone. Helm templates add Go template syntax on top. Operator development demands reconciliation loops, CRD schemas."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags:
   - language-guide
   - kubernetes
@@ -286,6 +286,7 @@ The `kmcp` tool (part of the Kagent project) scaffolds MCP servers and deploys t
 
 Automate Helm chart validation in GitHub Actions using `codex exec`:
 
+{% raw %}
 ```yaml
 # .github/workflows/helm-validate.yml
 name: Helm Validation
@@ -314,6 +315,7 @@ jobs:
           name: helm-report
           path: helm-report.json
 ```
+{% endraw %}
 
 The `--output-schema` flag ensures structured, machine-parseable output for downstream pipeline steps [^11].
 

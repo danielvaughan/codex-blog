@@ -284,6 +284,7 @@ The SDK supports streaming responses, structured output via JSON schema, file at
 
 ## Headless CI Pipeline
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-flutter-review.yml
 name: Codex Flutter PR Review
@@ -314,6 +315,7 @@ jobs:
             4. Verify test coverage for new widgets
             5. Flag any platform-specific code outside lib/platform/
 ```
+{% endraw %}
 
 ---
 

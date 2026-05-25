@@ -283,6 +283,7 @@ codex "Audit the architecture of this project and generate dependency-cruiser ru
 
 The final piece wires everything into GitHub Actions so violations block merges:
 
+{% raw %}
 ```yaml
 name: Architecture Fitness
 on:
@@ -319,6 +320,7 @@ jobs:
           name: arch-violations
           path: ./violation-report.json
 ```
+{% endraw %}
 
 ```mermaid
 flowchart TD

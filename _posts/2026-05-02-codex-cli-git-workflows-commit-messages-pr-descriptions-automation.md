@@ -181,6 +181,7 @@ This policy-driven approach means Codex resolves routine conflicts automatically
 
 The official `codex-action` GitHub Action brings these patterns into your CI pipeline[^5]. A practical configuration for automated PR descriptions:
 
+{% raw %}
 ```yaml
 name: PR Description
 on:
@@ -205,6 +206,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 Combine this with the commit message patterns above for a fully automated git metadata pipeline — developers focus on code, Codex handles the documentation around it.
 

@@ -95,6 +95,7 @@ Post the list to #code-review.
 **Schedule:** `0 21 * * 0` (Sunday evening)
 **Type:** Standalone automation (worktree execution)
 
+{% raw %}
 ```bash
 # GitHub Actions wrapper for CLI-driven dependency updates
 - name: Codex dependency sweep
@@ -110,6 +111,7 @@ Post the list to #code-review.
   env:
     CODEX_API_KEY: ${{ secrets.CODEX_API_KEY }}
 ```
+{% endraw %}
 
 **Implementation notes:** Always execute in a dedicated worktree so failed upgrades do not pollute the working tree[^2]. The `--full-auto` flag permits edits and commits without approval prompts — appropriate here because the test suite gates every change[^5]. For enterprise environments, pair with an `execpolicy` hook to enforce allow-lists on which packages may be auto-upgraded[^6].
 

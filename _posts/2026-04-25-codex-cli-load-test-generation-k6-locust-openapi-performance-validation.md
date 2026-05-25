@@ -147,6 +147,7 @@ sequenceDiagram
 
 Generate and run load tests on every deployment to staging:
 
+{% raw %}
 ```yaml
 name: Performance validation
 
@@ -193,6 +194,7 @@ jobs:
           name: k6-results
           path: results.json
 ```
+{% endraw %}
 
 ### GitLab CI with Structured Output
 

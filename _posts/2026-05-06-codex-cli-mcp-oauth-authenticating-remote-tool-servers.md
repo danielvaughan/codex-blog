@@ -194,12 +194,14 @@ bearer_token_env_var = "MCP_DOCS_TOKEN"
 tool_timeout_sec = 120.0
 ```
 
+{% raw %}
 ```yaml
 # GitHub Actions workflow
 env:
   MCP_DOCS_TOKEN: ${{ secrets.MCP_DOCS_TOKEN }}
   CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 ### Pattern 3: Scoped Tool Access
 

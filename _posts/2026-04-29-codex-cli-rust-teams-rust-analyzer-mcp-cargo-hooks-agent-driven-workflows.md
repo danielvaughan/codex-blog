@@ -269,6 +269,7 @@ codex exec \
 
 Combine with `codex-action@v1` in GitHub Actions for automated PR review[^11]:
 
+{% raw %}
 ```yaml
 - uses: openai/codex-action@v1
   with:
@@ -282,6 +283,7 @@ Combine with `codex-action@v1` in GitHub Actions for automated PR review[^11]:
   env:
     OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 ## Conclusion
 

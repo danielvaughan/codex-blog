@@ -236,6 +236,7 @@ Invoke it explicitly or let Codex match it implicitly when you mention API audit
 
 The most valuable part of the pipeline is catching contract drift — when implementation diverges from the spec. Add a GitHub Actions workflow:
 
+{% raw %}
 ```yaml
 # .github/workflows/api-contract.yml
 name: API Contract Validation
@@ -277,6 +278,7 @@ jobs:
             exit 1
           fi
 ```
+{% endraw %}
 
 This uses `codex exec` with a `CODEX_API_KEY` access token for headless CI authentication [^9], and structured output to produce a machine-readable drift report.
 

@@ -137,6 +137,7 @@ Beyond issue assignment and code review, Codex is available as an **engine** in 
 
 Specify Codex as the engine in your workflow YAML[^12]:
 
+{% raw %}
 ```yaml
 engine:
   id: codex
@@ -145,6 +146,7 @@ engine:
   env:
     OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 The engine configuration supports several options[^12]:
 
@@ -176,6 +178,7 @@ flowchart TD
 
 For teams already using GitHub Actions, the `openai/codex-action@v1` action provides a more traditional CI/CD integration point[^13]. This differs from Agentic Workflows — it runs Codex as a step in a standard Actions workflow rather than using the newer engine abstraction:
 
+{% raw %}
 ```yaml
 - name: Run Codex review
   uses: openai/codex-action@v1
@@ -184,6 +187,7 @@ For teams already using GitHub Actions, the `openai/codex-action@v1` action prov
   env:
     OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 ## When to Use GitHub Codex vs the CLI
 

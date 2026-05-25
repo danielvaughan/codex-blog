@@ -83,6 +83,7 @@ sequenceDiagram
 
 The OpenAI Cookbook provides an official pattern for CI autofix using `codex-action`[^4]. The workflow triggers on `workflow_run` completion with failure status:
 
+{% raw %}
 ```yaml
 name: Self-Healing CI
 on:
@@ -118,6 +119,7 @@ jobs:
           branch: codex/auto-fix-${{ github.event.workflow_run.id }}
           title: "fix(ci): automated repair for ${{ github.event.workflow_run.head_branch }}"
 ```
+{% endraw %}
 
 ### Production Evidence: Elastic's 24-PR Month
 

@@ -2,7 +2,7 @@
 title: "Codex CLI MCP Integration: Connecting Agents to External Tools"
 description: "There is a pattern I have noticed across thirty years of software infrastructure decisions. A powerful tool ships with a clean interface. Then someone asks."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-05-25T16:13:54+01:00
+last_modified_at: 2026-05-25T17:06:21+01:00
 tags:
   - ecosystem
   - mcp
@@ -168,6 +168,7 @@ my-project/
 
 In non-interactive mode (`codex exec`), MCP servers start and stop alongside the agent session. Your CI pipeline gets the same tool access as interactive development:
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-review.yml
 - name: Run Codex code review
@@ -179,6 +180,7 @@ In non-interactive mode (`codex exec`), MCP servers start and stop alongside the
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+{% endraw %}
 
 The GitHub MCP server, if configured in `.codex/config.toml`, will be available to the agent running inside the action. This lets the agent fetch PR context, check open issues, or update comments — without any special integration beyond the MCP config that is already committed to the repository.[^5]
 

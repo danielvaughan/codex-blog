@@ -191,6 +191,7 @@ Store `AZURE_OPENAI_API_KEY` as a pipeline secret variable or link it from Azure
 
 If your code is on GitHub but inference must stay on Azure, use the standard `codex-action` with your Azure provider config:
 
+{% raw %}
 ```yaml
 jobs:
   codex-review:
@@ -205,6 +206,7 @@ jobs:
           codex -p azure exec --full-auto \
             "update CHANGELOG for next release"
 ```
+{% endraw %}
 
 The `-p azure` flag selects the Azure provider profile directly from the command line[^2].
 

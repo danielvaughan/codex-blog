@@ -229,6 +229,7 @@ The `codex exec` non-interactive mode integrates TDD enforcement into CI/CD pipe
 
 A GitHub Actions workflow enforcing TDD on issue-driven work:
 
+{% raw %}
 ```yaml
 name: TDD Agent Pipeline
 on:
@@ -284,6 +285,7 @@ jobs:
       - name: Final verification
         run: npm test && npm run lint
 ```
+{% endraw %}
 
 ## Model Selection for TDD Phases
 

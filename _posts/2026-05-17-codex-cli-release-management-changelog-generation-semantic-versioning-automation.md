@@ -160,6 +160,7 @@ This ensures that even when Codex generates commit messages autonomously, they c
 
 Wire the structured output into a release pipeline:
 
+{% raw %}
 ```yaml
 name: Release Preparation
 on:
@@ -211,6 +212,7 @@ jobs:
             --body-file CHANGELOG_ENTRY.md \
             --label "release"
 ```
+{% endraw %}
 
 Use `CODEX_API_KEY` (a Codex access token) rather than account-based authentication for CI environments [^7]. The `--ephemeral` flag prevents session files from persisting on the runner [^2].
 

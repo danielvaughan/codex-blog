@@ -80,6 +80,7 @@ Ensure the Codex CLI is authenticated — either via `codex login` for ChatGPT s
 
 Create a `promptfooconfig.yaml` at your repository root:
 
+{% raw %}
 ```yaml
 description: Codex CLI red-team security evaluation
 
@@ -111,6 +112,7 @@ tracing:
       enabled: true
       port: 4318
 ```
+{% endraw %}
 
 Key decisions in this configuration:
 
@@ -274,6 +276,7 @@ flowchart TD
 
 Add the red-team step to your GitHub Actions workflow:
 
+{% raw %}
 ```yaml
 - name: Red-team Codex agent
   env:
@@ -285,6 +288,7 @@ Add the red-team step to your GitHub Actions workflow:
       --output results.json
     npx promptfoo assert results.json --exit-code
 ```
+{% endraw %}
 
 ## The HackYourAgent Community Skill
 

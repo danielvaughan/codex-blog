@@ -223,6 +223,7 @@ skillgrade --regression --ci
 
 The `openai/codex-action@v1` GitHub Action [^5] supports structured output via the `codex-args` parameter:
 
+{% raw %}
 ```yaml
 - name: Eval skill - setup-demo-app
   uses: openai/codex-action@v1
@@ -238,6 +239,7 @@ The `openai/codex-action@v1` GitHub Action [^5] supports structured output via t
   run: |
     jq -e '.overall_pass == true' eval-result.json || exit 1
 ```
+{% endraw %}
 
 The `drop-sudo` safety strategy removes `sudo` irreversibly before execution [^5], which is critical when the eval skill creates files and runs build commands.
 
