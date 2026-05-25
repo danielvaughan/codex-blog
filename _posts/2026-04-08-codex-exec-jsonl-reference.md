@@ -2,7 +2,7 @@
 title: "codex exec JSONL Reference: Every Event Type and the Complete Output Schema"
 description: "The codex exec subcommand is the gateway to running Codex CLI in scripts, pipelines, and automation workflows."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - reference
   - automation
@@ -213,9 +213,11 @@ The recommended model for code review accuracy is `gpt-5.2-codex`, which has rec
 
 In headless environments, authentication uses the `CODEX_API_KEY` environment variable [^1]:
 
+{% raw %}
 ```bash
 CODEX_API_KEY=${{ secrets.OPENAI_API_KEY }} codex exec --json "triage open issues"
 ```
+{% endraw %}
 
 For GitHub Actions, the recommended approach is to set `CODEX_API_KEY` (or `OPENAI_API_KEY`) as a repository secret and pass it through the `env` block.
 
@@ -225,6 +227,7 @@ For GitHub Actions, the recommended approach is to set `CODEX_API_KEY` (or `OPEN
 
 A production pattern that watches for CI failures and creates fix PRs automatically [^1]:
 
+{% raw %}
 ```yaml
 name: Codex auto-fix on CI failure
 on:
@@ -259,6 +262,7 @@ jobs:
           branch: codex/auto-fix-${{ github.event.workflow_run.run_id }}
           title: "Auto-fix failing CI via Codex"
 ```
+{% endraw %}
 
 ### GitLab CI: Structured Report Extraction
 

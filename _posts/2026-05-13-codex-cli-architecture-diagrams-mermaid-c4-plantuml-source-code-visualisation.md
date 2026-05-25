@@ -260,6 +260,7 @@ java -jar plantuml.jar -checkonly "$FILE" 2>&1
 
 The most powerful pattern combines `codex exec` with CI triggers to regenerate diagrams whenever architectural code changes[^2][^5]:
 
+{% raw %}
 ```yaml
 # .github/workflows/update-diagrams.yml
 name: Update Architecture Diagrams
@@ -299,6 +300,7 @@ jobs:
            git commit -m "docs: regenerate architecture diagrams" && \
            git push)
 ```
+{% endraw %}
 
 ```mermaid
 sequenceDiagram

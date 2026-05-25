@@ -172,6 +172,7 @@ text={"format": {"type": "json_schema", "name": "output", "schema": {...}}}
 
 The migration pack is designed for pipeline use. A GitHub Actions workflow might look like:
 
+{% raw %}
 ```yaml
 name: API Migration
 on:
@@ -205,6 +206,7 @@ jobs:
             --approval ${{ inputs.approval_policy }} \
             --open-pr
 ```
+{% endraw %}
 
 For teams that prefer dry-run validation before any changes:
 

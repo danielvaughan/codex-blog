@@ -2,7 +2,7 @@
 title: "Squad vs Codex CLI: Multi-Agent Orchestration Compared and Replicated"
 description: "Brady Gaster's Squad provides multi-agent orchestration on top of GitHub Copilot — a team of specialised agents that live in your repository as plain-text."
 date: 2026-04-11T05:30:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - squad
   - multi-agent
@@ -295,6 +295,7 @@ This is manual — you maintain it yourself or instruct the agent to append deci
 
 **GitHub Action (official):**
 
+{% raw %}
 ```yaml
 name: Nightly Code Review
 on:
@@ -319,6 +320,7 @@ jobs:
         env:
           CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 **Cron + codex exec:**
 

@@ -60,6 +60,7 @@ This keeps your CI specification version-controlled and reviewable alongside the
 
 Configure your project's `AGENTS.md` to enforce quality when Codex touches workflow files:
 
+{% raw %}
 ```markdown
 ## CI/CD Conventions
 
@@ -72,6 +73,7 @@ Configure your project's `AGENTS.md` to enforce quality when Codex touches workf
 - Concurrency groups must use `${{ github.workflow }}-${{ github.ref }}`
 - Matrix strategies must include a `fail-fast: false` for debugging
 ```
+{% endraw %}
 
 This AGENTS.md guidance prevents the most common workflow anti-patterns that agents typically produce: unpinned actions, missing caches, and overly permissive `permissions` blocks [^5].
 
@@ -100,6 +102,7 @@ The `--output-schema` flag ensures machine-parseable JSON output that downstream
 
 Combine workflow authoring with the autofix pattern for a complete feedback loop. When CI fails, `codex-action` can diagnose and fix the workflow file itself — not just application code:
 
+{% raw %}
 ```yaml
 name: Self-Healing CI
 on:
@@ -127,6 +130,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 This approach uses the OpenAI Cookbook's autofix pattern [^8] extended to cover workflow-level failures, not just test or build failures.
 

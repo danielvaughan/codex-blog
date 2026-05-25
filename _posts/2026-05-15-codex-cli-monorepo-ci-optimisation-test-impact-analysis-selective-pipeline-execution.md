@@ -94,6 +94,7 @@ Each entry tells the pipeline *what* to run and *why* — useful both for condit
 
 A practical workflow step using `codex exec`:
 
+{% raw %}
 ```yaml
 jobs:
   analyse:
@@ -132,6 +133,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: npx nx run ${{ matrix.package.name }}:test
 ```
+{% endraw %}
 
 Key details:
 

@@ -2,7 +2,7 @@
 title: "Building a Codex CLI Plugin: Skills, Hooks, MCP Servers and Project-Specific Automation"
 description: "Codex CLI plugins bundle skills, hooks, MCP server declarations, and AGENTS.md fragments into a single installable unit. A plugin can reduce onboarding from."
 date: 2026-04-09T18:30:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 classes: wide
 categories: articles
 toc: true
@@ -754,6 +754,7 @@ Run with `codex exec --agents agents.toml`. Each subagent validates one skill in
 
 ### CI Integration
 
+{% raw %}
 ```yaml
 # .github/workflows/plugin-test.yml
 name: Test Codex Plugin
@@ -785,6 +786,7 @@ jobs:
           prompt: "Run bash test/test-skills.sh and report results"
           sandbox: workspace-write
 ```
+{% endraw %}
 
 ## Worked Example: Node.js Monorepo with Four Services
 

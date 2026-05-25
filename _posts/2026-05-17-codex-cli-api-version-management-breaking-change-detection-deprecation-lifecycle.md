@@ -282,6 +282,7 @@ statusMessage = "Validating API compatibility..."
 
 Integrate the full audit into GitHub Actions [^7]:
 
+{% raw %}
 ```yaml
 # .github/workflows/api-version-gate.yaml
 name: API Version Gate
@@ -338,6 +339,7 @@ jobs:
               body: `## 🔴 API Breaking Changes Detected\n\n${comment}`
             });
 ```
+{% endraw %}
 
 This pipeline runs oasdiff first (deterministic, fast) and only invokes Codex when breaking changes are found (to generate human-readable migration guidance) [^7]. The two-tier approach keeps CI fast for clean PRs while providing actionable feedback on breaking ones.
 

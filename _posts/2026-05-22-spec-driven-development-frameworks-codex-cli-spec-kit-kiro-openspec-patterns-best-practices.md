@@ -253,6 +253,7 @@ Goal mode will persist progress across turns, pause at budget limits, and resume
 
 Use specs as the acceptance criteria in CI/CD pipelines:
 
+{% raw %}
 ```yaml
 # .github/workflows/spec-verify.yml
 name: Spec Verification
@@ -274,6 +275,7 @@ jobs:
           sandbox: read-only
           output-file: spec-report.json
 ```
+{% endraw %}
 
 ### Pattern 4: Multi-Agent Spec Review
 

@@ -281,6 +281,7 @@ These conventions reduce the need for interactive steering, which is unavailable
 
 Trigger cloud tasks from GitHub Actions for automated refactoring pipelines:
 
+{% raw %}
 ```yaml
 name: Delegate Refactor
 on:
@@ -308,6 +309,7 @@ jobs:
           sleep 60
           codex cloud list --env "${{ vars.CODEX_ENV_ID }}" --json --limit 1
 ```
+{% endraw %}
 
 ## Anti-Patterns
 

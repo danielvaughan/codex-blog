@@ -223,6 +223,7 @@ Go, Python, and Node.js services.
 
 Integrate the profiling pipeline into GitHub Actions for continuous regression detection:
 
+{% raw %}
 ```yaml
 name: Performance Gate
 on:
@@ -267,6 +268,7 @@ jobs:
             exit 1
           fi
 ```
+{% endraw %}
 
 This workflow runs benchmarks on every PR that touches source code, uses `benchstat` for statistical comparison, and passes regressions through Codex for intelligent triage — distinguishing acceptable trade-offs (added observability) from genuine performance bugs [^7].
 

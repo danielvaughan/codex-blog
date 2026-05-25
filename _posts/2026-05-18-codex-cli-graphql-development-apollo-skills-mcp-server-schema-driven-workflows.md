@@ -249,6 +249,7 @@ trigger: graphql audit, schema review, operation check
 
 Wire the auditor into GitHub Actions [^10]:
 
+{% raw %}
 ```yaml
 # .github/workflows/graphql-audit.yml
 name: GraphQL Schema Audit
@@ -285,6 +286,7 @@ jobs:
             exit 1
           fi
 ```
+{% endraw %}
 
 ## Model Selection
 

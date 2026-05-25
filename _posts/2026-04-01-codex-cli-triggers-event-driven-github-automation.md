@@ -2,7 +2,7 @@
 title: "Codex CLI Triggers: Event-Driven GitHub Automation Beyond CI/CD"
 description: "With the March 2026 release wave, OpenAI shipped five headline features simultaneously: Plugins, Triggers, the Security Agent, Windows support, and GPT-5.4."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - ci-cd
   - github-actions
@@ -56,6 +56,7 @@ Any GitHub Actions workflow event can trigger Codex. The most common patterns:
 
 ### A Minimal Trigger: PR Review on Every Push
 
+{% raw %}
 ```yaml
 name: Codex pull request review
 on:
@@ -78,6 +79,7 @@ jobs:
           safety-strategy: drop-sudo
           sandbox: workspace-write
 ```
+{% endraw %}
 
 This workflow fires every time a PR is opened or updated. Codex reads the diff, applies the review prompt from `.github/codex/prompts/review.md`, and posts its findings as a standard GitHub code review[^5].
 
@@ -124,6 +126,7 @@ By default, only users with write access to the repository can trigger the actio
 
 The most powerful Trigger pattern uses `workflow_run` to react to CI failures[^6]. When your test suite fails, Codex reads the failure output, diagnoses the root cause, applies a minimal fix, and opens a PR for review.
 
+{% raw %}
 ```yaml
 name: Codex auto-fix
 on:
@@ -157,6 +160,7 @@ jobs:
           branch: codex/auto-fix-${{ github.run_id }}
           title: "🤖 Codex auto-fix for CI failure"
 ```
+{% endraw %}
 
 The checkout step uses the failed commit's SHA to ensure Codex analyses the exact state that broke[^6]. The `peter-evans/create-pull-request` action then packages the fix into a reviewable PR on a dedicated branch.
 

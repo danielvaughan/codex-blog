@@ -51,6 +51,7 @@ flowchart TD
 
 Before generating anything, encode your reliability standards so the agent cannot deviate from them:
 
+{% raw %}
 ```markdown
 # AGENTS.md — SRE Standards
 
@@ -73,6 +74,7 @@ Before generating anything, encode your reliability standards so the agent canno
 - Services with <10% remaining budget trigger incident review
 - Budget resets are monthly, aligned to calendar month
 ```
+{% endraw %}
 
 ## Phase 2: Generating Sloth SLO Specs with codex exec
 
@@ -128,6 +130,7 @@ The JSON schema enforces the structure:
 
 The generated Sloth spec follows the standard format[^3]:
 
+{% raw %}
 ```yaml
 version: "prometheus/v1"
 service: "payment-service"
@@ -186,6 +189,7 @@ slos:
           severity: "warning"
           slack_channel: "#payments-alerts"
 ```
+{% endraw %}
 
 ## Phase 3: Generating Prometheus Rules via Sloth
 
@@ -292,6 +296,7 @@ Sloth spec, Prometheus rules, Grafana dashboard, and error budget policy.
 
 Add a GitHub Actions workflow to validate SLO changes on every PR:
 
+{% raw %}
 ```yaml
 name: SLO Validation Gate
 on:
@@ -334,6 +339,7 @@ jobs:
             "Verify all services in services.yaml have corresponding \
              SLO specs in slos/. Fail if coverage < 80%."
 ```
+{% endraw %}
 
 ## Model Selection for SRE Tasks
 

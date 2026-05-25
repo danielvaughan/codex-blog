@@ -149,6 +149,7 @@ This sequential approach ensures each upgrade is isolated and testable. For larg
 
 The official OpenAI Cookbook provides a GitHub Actions pattern for auto-fixing CI failures [^7]. Adapt it for dependency upgrades:
 
+{% raw %}
 ```yaml
 name: Codex Dependency Autofix
 on:
@@ -174,6 +175,7 @@ jobs:
           sandbox: workspace-write
           model: gpt-5.4-mini
 ```
+{% endraw %}
 
 This creates a self-healing loop: CI fails after a dependency bump, Codex reads the failure output, applies a fix, and opens a PR for human review [^7].
 

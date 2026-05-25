@@ -2,7 +2,7 @@
 title: "Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI"
 description: "The .NET ecosystem has a richer Codex integration story than most developers realise. Between the official dotnet/skills catalogue published by the .NET."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - language-guide
   - agents-md
@@ -211,17 +211,20 @@ codex "Add integration tests for the OrderService"
 
 For CI, store the key as a repository secret and reference it in your workflow:
 
+{% raw %}
 ```yaml
 - name: Codex code review via Azure OpenAI
   env:
     AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_KEY }}
   run: codex -p azure exec --full-auto "review uncommitted changes against main"
 ```
+{% endraw %}
 
 ## GitHub Actions CI Pattern
 
 A full workflow combining pre-warm, Codex exec, and a build verification gate:
 
+{% raw %}
 ```yaml
 name: Codex .NET Quality Gate
 
@@ -258,6 +261,7 @@ jobs:
           npm install -g @openai/codex
           codex exec --full-auto "/review"
 ```
+{% endraw %}
 
 ## Multi-Agent Pattern for Large Solutions
 

@@ -270,6 +270,7 @@ For teams using Alembic with FastAPI, equivalent constraints apply:
 
 For automated CI pipelines, `codex exec` can run non-interactively with structured output[^10]. Here is a GitHub Actions workflow that uses Codex to auto-fix failing Django tests:
 
+{% raw %}
 ```yaml
 name: Codex Auto-Fix
 on:
@@ -309,6 +310,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DATABASE_URL: postgresql://test:test@localhost:5432/testdb
 ```
+{% endraw %}
 
 ## Common Pitfalls and Solutions
 

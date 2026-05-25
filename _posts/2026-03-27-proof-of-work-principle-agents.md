@@ -2,7 +2,7 @@
 title: "The Proof of Work Principle: Why Agents Need to Show Their Working"
 description: "There is a habit that developers have fallen into when working with autonomous coding agents: they read the diff, nod, and merge. The code arrived from."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 summary: "Opinion: Symphony's 'proof of work' concept reframes autonomous agents from magic boxes into accountable actors. CI green, PR review feedback, and walkthrough artefacts before human review — and why your Codex CLI setup should demand the same."
 tags:
   - opinion
@@ -124,6 +124,7 @@ command = "echo 'Agent wrote file: $TOOL_ARG_PATH' >> /tmp/codex-audit-$(date +%
 
 **In your subagent definitions**, require each subagent to return a structured report alongside its primary output:
 
+{% raw %}
 ```toml
 [[agents]]
 name = "test-writer"
@@ -139,6 +140,7 @@ On completion, output a JSON report to stdout with the following structure:
 }
 """
 ```
+{% endraw %}
 
 The report is not decorative. It is the evidence that the agent understood the task, not just the evidence that it produced output.
 

@@ -288,6 +288,7 @@ Keep the allow-list as narrow as possible. If your provider needs to reach cloud
 
 For automated IaC review in pull requests, use `codex exec` in your CI pipeline[^11]:
 
+{% raw %}
 ```yaml
 # .github/workflows/terraform-review.yml
 name: Terraform PR Review
@@ -322,6 +323,7 @@ jobs:
               event: review.verdict === 'approve' ? 'APPROVE' : 'REQUEST_CHANGES',
             });
 ```
+{% endraw %}
 
 ## Current Limitations
 

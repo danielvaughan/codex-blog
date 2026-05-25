@@ -2,7 +2,7 @@
 title: "Advanced AGENTS.md Patterns for Monorepos"
 description: "Monorepos concentrate a large surface area of code under a single Git root, and that concentration creates a fundamental tension for AI coding agents."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - configuration
   - agents-md

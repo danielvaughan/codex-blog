@@ -144,6 +144,7 @@ For on-demand reviews, comment `@codex review` on a PR. For focused reviews, add
 
 For repositories on GitHub Enterprise or GitLab — or maintainers wanting explicit control — `openai/codex-action@v1` runs in your own CI pipeline[^7]:
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-review.yml
 name: Codex PR Review
@@ -174,6 +175,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 ## Workflow 3: Draft Patch Generation
 

@@ -22,8 +22,8 @@ Each article is rated 1-5 on four dimensions:
 
 | Article | Depth | Orig | Acc | Sub | Composite | Notes |
 |---|---|---|---|---|---|---|
-| [The Definitive Guide to Codex CLI Goal Mode](../premium-articles/premium-32-definitive-guide-codex-cli-goal-mode.md) | 5 | 5 | 5 | 5 | 5.0 | Premium series; Flagship piece; Deep architecture dive; Five-layer stack; Continuation engine; Budget mechanics; Exhaustively sourced |
-| [Codex CLI vs Claude Code: The Harness War of May 2026](../premium-articles/premium-33-codex-cli-vs-claude-code-harness-war-may-2026.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; arXiv-sourced framework; Deep comparative analysis; Rich tables; Highly shareable |
+| [The Definitive Guide to Codex CLI Goal Mode](../premium-articles/32-definitive-guide-codex-cli-goal-mode.md) | 5 | 5 | 5 | 5 | 5.0 | Premium series; Flagship piece; Deep architecture dive; Five-layer stack; Continuation engine; Budget mechanics; Exhaustively sourced |
+| [Codex CLI vs Claude Code: The Harness War of May 2026](../premium-articles/33-codex-cli-vs-claude-code-harness-war-may-2026.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; arXiv-sourced framework; Deep comparative analysis; Rich tables; Highly shareable |
 | [Harness Engineering: The Discipline That Makes Agents Work](../premium-articles/26-harness-engineering.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Deep dive; Defines harness engineering discipline; Hashimoto/Fowler/OpenAI sourced |
 | [Agentic Engineering Is Not Vibe Coding: The Framework That Separates 10x Teams from Toy Projects](../premium-articles/02-agentic-engineering-is-not-vibe-coding.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
 | [Forward Deployed Engineers: The Human Bridge Between Agentic Pods and Enterprise Reality](../premium-articles/15-forward-deployed-engineers.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Deep dive; Rich diagrams; Heavily sourced |

@@ -302,6 +302,7 @@ if errors:
 
 Integrate the audit and stale detection into your CI pipeline so flag debt never ships unchecked:
 
+{% raw %}
 ```yaml
 # .github/workflows/flag-hygiene.yml
 name: Feature Flag Hygiene
@@ -362,6 +363,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+{% endraw %}
 
 ```mermaid
 graph TD

@@ -2,7 +2,7 @@
 title: "Loki Mode: 41-Agent Autonomous Execution and What Codex CLI Can Learn From It"
 description: "The multi-agent orchestration space around Codex CLI has matured rapidly in early 2026. Alongside Codex-native tools like OMX and cross-model frameworks."
 date: 2026-04-09T12:11:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - loki-mode
   - autonomous-execution
@@ -182,6 +182,7 @@ The key insight is isolation: each reviewer operates on the same diff but with a
 
 Codex CLI's `exec` command integrates naturally with CI/CD pipelines. A GitHub Actions workflow implementing Loki Mode's quality gates:
 
+{% raw %}
 ```yaml
 # .github/workflows/quality-gates.yml
 jobs:
@@ -207,6 +208,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: codex exec "Run mutation testing on changed modules and report survival rate"
 ```
+{% endraw %}
 
 ## Comparison with Other Orchestrators
 

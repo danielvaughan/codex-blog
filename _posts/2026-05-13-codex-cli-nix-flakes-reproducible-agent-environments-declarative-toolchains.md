@@ -239,6 +239,7 @@ The same `flake.nix` that drives local development can power CI, eliminating the
 
 ### GitHub Actions with Nix
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-review.yml
 name: Agent Code Review
@@ -266,6 +267,7 @@ jobs:
             --json \
             "Review the PR diff for security issues and API contract violations"
 ```
+{% endraw %}
 
 The Cachix binary cache ensures CI runners do not rebuild the toolchain from source — pre-built binaries are fetched in seconds [^10].
 

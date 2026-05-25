@@ -2,7 +2,7 @@
 title: "Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD Credential Management"
 description: "Every Codex CLI session begins with authentication, yet the auth system is one of the least-documented corners of the toolchain. Codex supports three."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - security
   - credential-management
@@ -189,6 +189,7 @@ flowchart LR
 
 ### GitHub Actions Setup
 
+{% raw %}
 ```yaml
 name: Codex CI
 on: [push]
@@ -215,6 +216,7 @@ jobs:
       - name: Run Codex
         run: codex exec "review the changes in this PR"
 ```
+{% endraw %}
 
 ### Critical Detail: Conditional Seeding
 
@@ -233,11 +235,13 @@ For ephemeral runners, consider using a cache or artefact storage to persist the
 
 ⚠️ Concurrent jobs sharing the same `auth.json` can cause race conditions during token refresh. Serialise Codex CI runs using GitHub Actions `concurrency` groups or a mutex [^5]:
 
+{% raw %}
 ```yaml
 concurrency:
   group: codex-auth-${{ github.repository }}
   cancel-in-progress: false
 ```
+{% endraw %}
 
 ## Managed Environment Controls
 

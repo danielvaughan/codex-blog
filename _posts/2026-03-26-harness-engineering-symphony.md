@@ -2,7 +2,7 @@
 title: "From Harness Engineering to Symphony: The Autonomous Development Stack"
 description: "On March 5, 2026, OpenAI quietly released a GitHub repository called Symphony. Within three weeks it had 13K stars. ⚠️ [unverified] The concept it embodies."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - orchestration
   - team-workflow
@@ -124,6 +124,7 @@ The critical shift: humans review **verified outcomes** rather than **supervisin
 
 Symphony introduces a new config file format that is more powerful than AGENTS.md: `WORKFLOW.md`.[^1]
 
+{% raw %}
 ```yaml
 ---
 # YAML front matter — runtime configuration
@@ -148,6 +149,7 @@ Rules:
 - Do not modify {{ protected_files }}
 - Write tests for any new functions
 ```
+{% endraw %}
 
 The YAML front matter is the runtime config (model, limits, integrations). The Markdown body is the agent's system prompt, with Jinja templating for issue-specific context.
 

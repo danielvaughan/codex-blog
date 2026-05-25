@@ -123,6 +123,7 @@ On GitHub, Codex displays only P0 and P1 findings by default, keeping review com
 
 The `openai/codex-action` GitHub Action installs Codex CLI and configures it with a secure proxy to the Responses API[^8]. Use it as a required status check:
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-review.yml
 name: Codex Review
@@ -144,6 +145,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 ## The Review Sandwich Pattern
 

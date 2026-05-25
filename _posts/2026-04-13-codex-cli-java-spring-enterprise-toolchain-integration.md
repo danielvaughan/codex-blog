@@ -2,7 +2,7 @@
 title: "Codex CLI in Java Spring Teams: Plugging Into SonarQube, Jira, and Your Existing CI/CD Pipeline"
 description: "Most Codex CLI content assumes you are starting fresh with a JavaScript or Python project. Enterprise Java Spring teams do not start fresh."
 date: 2026-04-13T07:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - codex-cli
   - java
@@ -276,6 +276,7 @@ The most mature pattern for CI/CD integration is the self-correcting build loop,
 
 For teams using GitHub Actions, this is relatively straightforward:
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-fix.yml
 name: Agent Self-Correction
@@ -302,6 +303,7 @@ jobs:
         run: |
           git add -A && git commit -m "fix: CI failure auto-correction" && git push
 ```
+{% endraw %}
 
 ### Jenkins Implementation
 

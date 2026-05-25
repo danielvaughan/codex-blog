@@ -148,6 +148,7 @@ Pair this with a lookup table of per-model pricing and you have real-time cost-p
 
 A session that exceeds its expected token budget is either exploring productively or stuck in a loop. A simple alert rule:
 
+{% raw %}
 ```yaml
 # Grafana alert rule — fires when a single session
 # exceeds 500k output tokens in 30 minutes
@@ -164,6 +165,7 @@ A session that exceeds its expected token budget is either exploring productivel
   annotations:
     summary: "Codex session {{ $labels.conversation_id }} exceeded 500k output tokens in 30m"
 ```
+{% endraw %}
 
 ## Security Auditing with Tool Decisions
 

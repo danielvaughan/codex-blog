@@ -226,6 +226,7 @@ The `--ephemeral` flag prevents session files accumulating on disk [^2].
 
 ### GitHub Actions
 
+{% raw %}
 ```yaml
 name: Daily Infrastructure Drift Check
 on:
@@ -251,6 +252,7 @@ jobs:
             echo "::warning::Drift detected: $CRITICAL critical deviations"
           fi
 ```
+{% endraw %}
 
 The `codex-action` [^7] installs the CLI, starts the Responses API proxy, and runs `codex exec` with the specified permissions.
 

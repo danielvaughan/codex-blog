@@ -133,6 +133,7 @@ The SAST landscape has shifted towards *agentic* integration. Tools like DryRun 
 
 A typical CI pipeline combining agent review with traditional scanning:
 
+{% raw %}
 ```yaml
 # .github/workflows/security-pipeline.yml
 name: Defence-in-Depth Security
@@ -176,6 +177,7 @@ jobs:
         run: |
           echo "All security layers passed. PR eligible for human review."
 ```
+{% endraw %}
 
 AccuKnox v7.3 reports 92% detection of business logic flaws with 67% fewer false positives than pattern-matching tools [^7]. OWASP ZAP v2.12 catches 85% of API-related vulnerabilities at under 5% false positive rate [^7]. Neither replaces the other — SAST catches what DAST cannot reach (dead code paths, unreachable branches) and DAST catches what SAST cannot reason about (runtime configuration, authentication flows).
 

@@ -137,6 +137,7 @@ The `--output-schema` flag [^3] enforces a JSON Schema contract on the agent's f
 
 The `openai/codex-action@v1` action wraps `codex exec` with runner-level security controls [^4]. Here is a production-grade workflow combining the action with isolation flags:
 
+{% raw %}
 ```yaml
 name: Codex Hermetic Review
 on:
@@ -182,6 +183,7 @@ jobs:
             exit 1
           fi
 ```
+{% endraw %}
 
 ### Key Design Choices
 

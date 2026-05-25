@@ -61,6 +61,7 @@ You open the PR, read through 400 lines of diff across eight files, cross-refere
 
 ### After: Automated Review with codex-action
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-review.yml
 name: Codex PR Review
@@ -88,6 +89,7 @@ jobs:
           safety-strategy: drop-sudo
           sandbox: read-only
 ```
+{% endraw %}
 
 The `openai/codex-action@v1` installs the Codex CLI, starts the Responses API proxy, and runs `codex exec` with the permissions you specify[^4]. The `drop-sudo` safety strategy irreversibly removes sudo capability, preventing the agent from accessing its own API key — critical for public repositories[^5].
 
@@ -201,6 +203,7 @@ CI goes red on a colleague's branch. You pull it locally, read 200 lines of test
 
 The most powerful pattern uses `workflow_run` to react to CI failures automatically[^12]:
 
+{% raw %}
 ```yaml
 # .github/workflows/autofix.yml
 name: Codex Autofix
@@ -232,6 +235,7 @@ jobs:
           sandbox: workspace-write
           safety-strategy: drop-sudo
 ```
+{% endraw %}
 
 When the CI workflow completes with a failure, this workflow triggers automatically. Codex checks out the failing commit, reads the test output, diagnoses the root cause, applies a minimal fix, re-runs the tests to verify, and opens a PR with the resulting patch[^12].
 

@@ -269,6 +269,7 @@ The `enabled_tools` allowlist prevents subagents from accessing tools they don't
 
 For headless `codex exec` pipelines, configure the Docker MCP gateway as part of your CI environment:
 
+{% raw %}
 ```yaml
 # .github/workflows/codex-review.yml
 jobs:
@@ -287,6 +288,7 @@ jobs:
           codex exec "Review this PR for security issues" \
             --config .codex/ci-config.toml
 ```
+{% endraw %}
 
 ---
 

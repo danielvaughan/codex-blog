@@ -182,6 +182,7 @@ This catches a common failure mode: agents that produce plausible output without
 
 Promptfoo ships with CI/CD integration[^7] that slots into existing pipelines:
 
+{% raw %}
 ```yaml
 # .github/workflows/eval.yml
 name: Eval Gate
@@ -205,6 +206,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - run: npx promptfoo eval:assert --results results.json --threshold 0.9
 ```
+{% endraw %}
 
 The `--ci` flag suppresses interactive output and returns a non-zero exit code on failure, making it a natural gate for prompt changes[^7].
 

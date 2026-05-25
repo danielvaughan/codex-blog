@@ -2,7 +2,7 @@
 title: "Codex CLI for Rust Teams: AGENTS.md, Cargo Workflows, and Workspace Patterns"
 description: "Codex CLI is written in Rust. That is not a coincidence — it means the OpenAI team has already worked out the patterns for using Codex to maintain a large."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - language-guide
   - agents-md
@@ -237,6 +237,7 @@ The general-purpose `cc-skills` collection from [@samber](https://github.com/sam
 
 A minimal CI workflow that runs Codex-enforced checks mirrors the agent's own verification sequence:
 
+{% raw %}
 ```yaml
 # .github/workflows/rust.yml
 name: Rust CI
@@ -273,9 +274,11 @@ jobs:
           name: test-results
           path: test-results.xml
 ```
+{% endraw %}
 
 Pair this with `codex exec` in a separate job for automated PR review:
 
+{% raw %}
 ```yaml
   codex-review:
     needs: test
@@ -287,6 +290,7 @@ Pair this with `codex exec` in a separate job for automated PR review:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
+{% endraw %}
 
 ---
 

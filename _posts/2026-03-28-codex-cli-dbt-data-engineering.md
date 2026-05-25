@@ -2,7 +2,7 @@
 title: "Codex CLI for dbt and Data Engineering Workflows"
 description: "Data engineering is one of the fastest-growing segments of software development, yet the Codex CLI ecosystem has produced almost no content targeted at data."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - language-guide
   - third-party
@@ -34,6 +34,7 @@ Used together, these transform Codex from a generic code editor into a data-awar
 
 Your project-root `AGENTS.md` should answer two questions the agent will ask constantly: *where does code live?* and *what are the rules?*
 
+{% raw %}
 ```markdown
 # dbt Project: Analytics
 
@@ -66,6 +67,7 @@ Compile with: `dbt compile --select <model>`
 Test with:    `dbt test --select <model>`
 Run with:     `dbt run --select <model>`
 ```
+{% endraw %}
 
 This is deliberately concise.[^2] Resist the temptation to paste your full `dbt_project.yml` — context pollution degrades agent performance. The AGENTS.md should tell the agent *how to behave*, not reproduce configuration it can read directly from the project files.
 

@@ -2,7 +2,7 @@
 title: "Ticket-Driven Development with Codex CLI: Automating the Jira-to-Pull-Request Pipeline"
 description: "The Atlassian Rovo MCP Server reached general availability in February 2026, exposing over 60 tools spanning Jira, Confluence, Bitbucket Cloud, Compass."
 date: 2026-04-19T23:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 parent: "Articles"
 nav_order: 351
 tags: ["codex-cli", "jira", "atlassian", "mcp", "automation", "ci-cd", "ticket-driven-development", "workflow"]
@@ -79,6 +79,7 @@ In Jira Cloud, create an automation rule triggered by the label `codex-auto`:
 - **Headers:** `Authorization: Bearer {{GITHUB_PAT}}`, `Accept: application/vnd.github+json`
 - **Body:**
 
+{% raw %}
 ```json
 {
   "event_type": "jira-codex-auto",
@@ -89,9 +90,11 @@ In Jira Cloud, create an automation rule triggered by the label `codex-auto`:
   }
 }
 ```
+{% endraw %}
 
 ### Step 2: GitHub Actions Workflow
 
+{% raw %}
 ```yaml
 name: Codex Auto-Implement
 on:
@@ -173,6 +176,7 @@ jobs:
             -H "Content-Type: application/json" \
             -d '{"transition":{"id":"31"}}'
 ```
+{% endraw %}
 
 ⚠️ Transition IDs (`21`, `31`) are project-specific. Retrieve yours via the Jira REST API: `GET /rest/api/3/issue/{key}/transitions`.
 

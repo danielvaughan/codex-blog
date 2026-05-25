@@ -120,6 +120,7 @@ The entire behaviour of a Symphony deployment is governed by a single `WORKFLOW.
 
 ### Minimal Example
 
+{% raw %}
 ```yaml
 ---
 tracker:
@@ -153,6 +154,7 @@ You are a senior engineer working on the {{issue.identifier}} issue.
 Follow the project's AGENTS.md. Write tests before implementation.
 Open a pull request when done. If tests fail, diagnose and fix.
 ```
+{% endraw %}
 
 ### Key Configuration Parameters
 

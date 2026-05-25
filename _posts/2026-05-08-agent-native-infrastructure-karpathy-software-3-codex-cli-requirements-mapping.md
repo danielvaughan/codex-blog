@@ -248,6 +248,7 @@ codex --profile deep-review exec "security audit"
 
 The official `codex-action` GitHub Action wraps this headless flow for CI/CD [^12]:
 
+{% raw %}
 ```yaml
 - uses: openai/codex-action@v1
   with:
@@ -256,6 +257,7 @@ The official `codex-action` GitHub Action wraps this headless flow for CI/CD [^1
     sandbox: "read-only"
     model: "gpt-5.5"
 ```
+{% endraw %}
 
 ## The Gap Analysis
 

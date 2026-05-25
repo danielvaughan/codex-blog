@@ -147,6 +147,7 @@ This pattern uses Codex as an intelligent test oracle that can reason about appl
 
 For teams that want regression bisect as part of their CI pipeline, the Codex GitHub Action (`openai/codex-action@v1`) provides a clean integration point[^10]:
 
+{% raw %}
 ```yaml
 name: Regression Bisect
 on:
@@ -181,6 +182,7 @@ jobs:
             result and post a summary.
           sandbox: read-write
 ```
+{% endraw %}
 
 ## Performance and Cost Considerations
 

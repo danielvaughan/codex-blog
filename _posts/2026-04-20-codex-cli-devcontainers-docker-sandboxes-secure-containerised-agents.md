@@ -272,6 +272,7 @@ graph LR
 
 ### GitHub Actions with Docker Sandboxes
 
+{% raw %}
 ```yaml
 jobs:
   codex-autofix:
@@ -292,6 +293,7 @@ jobs:
             --ask-for-approval never \
             "Analyse test failures and suggest fixes"
 ```
+{% endraw %}
 
 ### GitLab CI with Custom Image
 

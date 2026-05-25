@@ -47,16 +47,16 @@ A dynamic GraphQL MCP server that generates tools from schema introspection at s
 All three servers compose in `config.toml`. A typical setup pairs Apollo MCP Server for production graph access with mcp-graphql for local development:
 
 ```toml
-[mcp-servers.apollo-graphql]
+[mcp_servers.apollo-graphql]
 command = "npx"
 args = ["-y", "@apollo/mcp-server", "--config", "./apollo-mcp.yaml"]
 
-[mcp-servers.local-graphql]
+[mcp_servers.local-graphql]
 command = "npx"
 args = ["-y", "mcp-graphql"]
 env = { ENDPOINT = "http://localhost:4000/graphql", ALLOW_MUTATIONS = "false" }
 
-[mcp-servers.graphql-dynamic]
+[mcp_servers.graphql-dynamic]
 command = "npx"
 args = ["-y", "@ctkadvisors/graphql-mcp"]
 env = { GRAPHQL_ENDPOINT = "http://localhost:4000/graphql" }

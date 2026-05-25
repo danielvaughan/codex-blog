@@ -146,6 +146,7 @@ Progress streams to stderr; the final agent message goes to stdout[^4]. The `--j
 
 ### GitHub Actions Example
 
+{% raw %}
 ```yaml
 name: Codex Nightly Audit
 on:
@@ -177,6 +178,7 @@ jobs:
           name: audit-report
           path: ./audit-report.json
 ```
+{% endraw %}
 
 Store the token in **GitHub Secrets** — never hard-code it in workflow files. For organisation-wide use, prefer **GitHub Organisation Secrets** scoped to specific repositories[^5].
 

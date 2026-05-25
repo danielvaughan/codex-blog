@@ -198,6 +198,7 @@ command = "npx ts-migrating check 2>&1 | head -20"
 
 Enforce a strict-mode ratchet in GitHub Actions — the error count must never increase:
 
+{% raw %}
 ```yaml
 name: TypeScript Strict Ratchet
 on: [pull_request]
@@ -243,6 +244,7 @@ jobs:
             in this PR. Follow AGENTS.md conventions. Run tsc --noEmit \
             to verify." && git add -A && git commit -m "fix: resolve strict mode regressions"
 ```
+{% endraw %}
 
 This pipeline uses Codex access tokens[^9] to attempt automatic remediation when the ratchet fails.
 

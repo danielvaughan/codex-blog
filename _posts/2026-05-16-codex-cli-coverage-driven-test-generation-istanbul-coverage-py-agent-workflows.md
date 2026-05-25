@@ -231,6 +231,7 @@ The real payoff arrives when coverage-driven generation runs automatically on ev
 
 ### GitHub Actions Recipe
 
+{% raw %}
 ```yaml
 name: Coverage Gate
 on:
@@ -273,6 +274,7 @@ jobs:
           NEW_COV=$(jq '.total.branches.pct' coverage/coverage-summary.json)
           echo "Coverage improved to ${NEW_COV}%"
 ```
+{% endraw %}
 
 This workflow runs the existing suite, checks the threshold, and only invokes Codex when coverage has dropped [^10]. The `openai/codex-action` GitHub Action handles authentication and sandbox configuration [^10].
 

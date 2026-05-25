@@ -203,6 +203,7 @@ git diff main...HEAD | codex exec \
 
 Combine with cron or GitHub Actions for periodic intelligence[^6]:
 
+{% raw %}
 ```yaml
 # .github/workflows/weekly-debt-report.yml
 name: Technical Debt Report
@@ -232,6 +233,7 @@ jobs:
           name: debt-report
           path: ./reports/
 ```
+{% endraw %}
 
 ### Pattern 4: Parallel Exec with GNU Parallel
 

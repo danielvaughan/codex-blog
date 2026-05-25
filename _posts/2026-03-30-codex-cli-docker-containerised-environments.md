@@ -2,7 +2,7 @@
 title: "Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal"
 description: "Docker and Codex CLI have a natural affinity: Docker solves the it works on my machine problem for human developers."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-05-24T18:28:03+01:00
+last_modified_at: 2026-05-25T17:24:15+01:00
 tags:
   - configuration
   - docker
@@ -249,6 +249,7 @@ module "codex" {
 
 Combining Docker with `codex exec` gives reproducible, auditable agentic CI steps. Use the `container:` field in GitHub Actions to run a job directly inside `codex-universal` — all language tooling is pre-installed, no setup time needed:[^11]
 
+{% raw %}
 ```yaml
 jobs:
   review:
@@ -270,6 +271,7 @@ jobs:
           name: codex-review
           path: review.json
 ```
+{% endraw %}
 
 ---
 

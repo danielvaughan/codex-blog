@@ -237,6 +237,7 @@ Encode migration guardrails directly in your repository's AGENTS.md to persist t
 
 For scheduled dependency sweeps, integrate Codex into your CI pipeline using the GitHub Action [^14]:
 
+{% raw %}
 ```yaml
 name: Weekly Dependency Sweep
 on:
@@ -262,6 +263,7 @@ jobs:
         env:
           CODEX_API_KEY: ${{ secrets.CODEX_API_KEY }}
 ```
+{% endraw %}
 
 ## Cost Management
 

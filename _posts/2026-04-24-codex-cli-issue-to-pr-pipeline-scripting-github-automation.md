@@ -208,6 +208,7 @@ The `--output-schema` flag enforces a JSON Schema on the final response [^2]. Do
 
 The same pipeline translates directly into a GitHub Actions workflow triggered by issue labels:
 
+{% raw %}
 ```yaml
 name: Codex Autofix
 on:
@@ -237,6 +238,7 @@ jobs:
           CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+{% endraw %}
 
 Alternatively, the `openai/codex-action@v1` GitHub Action handles CLI installation and authentication automatically [^8], reducing the boilerplate.
 

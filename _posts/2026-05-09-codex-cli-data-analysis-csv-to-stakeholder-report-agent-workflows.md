@@ -234,6 +234,7 @@ codex exec --profile data-analyst "Run the weekly revenue pipeline"
 
 Combine `codex exec` with cron or GitHub Actions for weekly reporting [^3]:
 
+{% raw %}
 ```yaml
 # .github/workflows/weekly-revenue.yml
 name: Weekly Revenue Report
@@ -261,6 +262,7 @@ jobs:
           name: revenue-report-${{ github.run_id }}
           path: output/
 ```
+{% endraw %}
 
 ## The Complete Workflow
 
