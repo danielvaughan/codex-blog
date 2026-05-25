@@ -10,6 +10,14 @@ permalink: /:year/:month/:day/:title/
 timezone: Europe/London
 markdown: kramdown
 
+# Liquid — use "warn" so a single article with unescaped {{ doesn't
+# take down the entire site build. Errors are logged but the page is
+# still rendered (with the broken tag shown as empty).
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
 # Pagination
 paginate: 10
 paginate_path: "/page:num/"
@@ -123,6 +131,8 @@ exclude:
   - .bundle/
   - docs/
   - README.md
+  - AGENTS.md
+  - CLAUDE.md
   - "*.gem"
   - "*.gemspec"
   - scripts/
