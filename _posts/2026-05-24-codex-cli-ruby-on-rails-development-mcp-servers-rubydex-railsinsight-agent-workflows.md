@@ -24,7 +24,7 @@ The experimental MCP server ships with the Ruby gem and provides tools for seman
 
 ```toml
 # .codex/config.toml — Rubydex MCP server
-[mcp.rubydex]
+[mcp_servers.rubydex]
 command = "rubydex"
 args = ["mcp", "--project", "."]
 ```
@@ -52,7 +52,7 @@ The server provides **17 MCP tools**:
 
 ```toml
 # .codex/config.toml — RailsInsight MCP server
-[mcp.railsinsight]
+[mcp_servers.railsinsight]
 command = "npx"
 args = ["@reinteractive/railsinsight"]
 ```
@@ -65,7 +65,7 @@ The `rails-mcp-server` gem [^4] provides a complementary layer focused on projec
 
 ```toml
 # .codex/config.toml — rails-mcp-server
-[mcp.rails]
+[mcp_servers.rails]
 command = "rails-mcp-server"
 args = ["serve"]
 ```

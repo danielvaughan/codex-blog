@@ -73,20 +73,20 @@ A lightweight server focused purely on Cargo commands: `cargo_build`, `cargo_tes
 Configure all four servers in `~/.codex/config.toml` or `.codex/config.toml` at the project root:
 
 ```toml
-[mcp-servers.rust-analyzer]
+[mcp_servers.rust-analyzer]
 command = "rust-analyzer-mcp"
 args = []
 
-[mcp-servers.rust-mcp]
+[mcp_servers.rust-mcp]
 command = "rustmcp"
 args = []
 env = { RUST_ANALYZER_PATH = "/usr/local/bin/rust-analyzer" }
 
-[mcp-servers.cursor-rust-tools]
+[mcp_servers.cursor-rust-tools]
 command = "cursor-rust-tools"
 args = ["--no-ui"]
 
-[mcp-servers.cargo]
+[mcp_servers.cargo]
 command = "cargo-mcp"
 args = []
 ```

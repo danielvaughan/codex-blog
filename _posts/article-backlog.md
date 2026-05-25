@@ -1,15 +1,30 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-25, Hourly Article Run)
+
+### Codex Python SDK
+
+1. ✅ **The Codex Python SDK: Embedding Agents in Scripts, Pipelines, and Custom Tooling** — Written 2026-05-25 → `2026-05-25-codex-python-sdk-embedding-agents-programmatic-automation-openai-codex.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered the TypeScript SDK (`2026-03-28-codex-typescript-sdk-embedding-agents.md`) but no article addressed the official Python SDK (`openai-codex` / `openai_codex`) despite the SDK being rebranded and significantly expanded in v0.131.0 (May 2026) with concurrent turn routing, approval modes, and Pydantic type safety, v0.132.0 adding first-class authentication and simplified turn APIs, and the Python SDK being the natural embedding surface for CI pipelines, data science workflows, and Agents SDK integration
+   - Scope: JSON-RPC v2 architecture over stdio, Codex/AsyncCodex classes, thread lifecycle (start/resume/fork), TurnResult with collected items/timing/usage, three authentication flows (API key/ChatGPT browser/device code), approval modes and guardian subagent (auto_review), four practical patterns (CI fix-on-failure, batch code review with thread_fork, structured output for toolchain integration, Agents SDK MCP server mode), type safety with generated Pydantic models, model selection for SDK workloads, limitations (subprocess overhead, platform binaries, version lock, experimental status)
+   - SEO targets: "codex python sdk", "openai_codex python", "codex cli python automation", "codex sdk programmatic", "codex cli ci pipeline python", "codex agents sdk python", "codex thread fork python", "codex guardian subagent"
+
+---
+
 ## Gap-Identified Ideas — Article Rater (2026-05-24)
 
 The following ideas were identified during the article rating run on 2026-05-24 based on gaps in the current library:
 
 1. ✅ **Codex CLI for Rust Development: rust-analyzer MCP, Cargo Workflows, and Systems Programming Agent Patterns** — Written 2026-05-24 → `2026-05-24-codex-cli-rust-development-rust-analyzer-mcp-cargo-systems-programming-agent-patterns.md`
 2. ✅ **Codex CLI for Ruby on Rails Development: Rubydex, RailsInsight, and Convention-Aware Agent Workflows** — Written 2026-05-24 → `2026-05-24-codex-cli-ruby-on-rails-development-mcp-servers-rubydex-railsinsight-agent-workflows.md`
-3. **Codex CLI for Flutter and Dart Development: Flutter MCP, Widget Testing, and Cross-Platform Agent Workflows** — Flutter is the dominant cross-platform framework. No coverage despite Android CLI and Xcode MCP articles existing for native mobile.
-4. **Agent Observability Series: Alerting on Agent Anomalies, Cost Attribution by Team, and SLA Monitoring for Codex CLI Pipelines** — The new agent observability dashboard article (4.0) opens a theme. A series covering alerting, cost attribution, and SLA monitoring would serve enterprise teams.
+3. ✅ **Codex CLI for Flutter and Dart Development: Flutter MCP, Widget Testing, and Cross-Platform Agent Workflows** — Written 2026-05-25 → `2026-05-25-codex-cli-flutter-dart-development-mcp-servers-widget-testing-cross-platform-agent-workflows.md`
+4. ✅ **Agent Observability Series: Alerting on Agent Anomalies, Cost Attribution by Team, and SLA Monitoring for Codex CLI Pipelines** — Written 2026-05-25 → `2026-05-25-codex-cli-agent-observability-opentelemetry-cost-attribution-alerting-sla-monitoring.md`
 5. **Premium: The Citation Lifecycle — When AI-Specific Claims Expire** — Premium articles 01-15 contain 2025-era citations (Stanford HAI, early Copilot studies) that the articles themselves critique as dated. An article on citation freshness as a discipline would be meta but useful.
-6. **Codex CLI for Terraform Development: terraform-mcp-server, State Inspection, and Infrastructure Drift Detection** — The Pulumi article exists but Terraform has no dedicated article despite being the dominant IaC tool with an official MCP server.
+6. ✅ **Codex CLI for Terraform Development: terraform-mcp-server, State Inspection, and Infrastructure Drift Detection** — Written 2026-05-25 → `2026-05-25-codex-cli-terraform-development-mcp-server-state-inspection-drift-detection.md`
+7. ✅ **Codex CLI for Spring Boot 4 and Spring AI: Java MCP Servers, Virtual Threads, and Agent-Assisted Development on Java 25** — Written 2026-05-25 → `2026-05-25-codex-cli-spring-boot-4-spring-ai-mcp-servers-java-25-virtual-threads-agent-workflows.md`
+   - Source: Spring Boot 4.0 Release Notes, Spring AI MCP Server Boot Starter docs, Codex CLI MCP configuration docs, Codex CLI AGENTS.md guide, Codex CLI v0.132 release notes, MCP Ecosystem H1 2026 report
+   - Scope: Spring Boot 4.0.5 with Java 25 and virtual threads, AGENTS.md template with anti-hallucination rules for Jakarta EE 11 and virtual thread safety, Spring AI MCP Boot Starters with @McpTool/@McpResource/@McpPrompt annotations for building custom MCP servers, STDIO transport wiring into Codex CLI config.toml, sandbox configuration for Gradle/Maven dependency resolution, virtual thread pinning avoidance patterns, four workflow patterns (HTTP Service Client generation, MCP tool scaffolding, Testcontainers test generation, GraalVM native image audit with --output-schema), model selection for Java tasks, Spring Boot 3.x to 4.0 migration workflow, limitations (Spring AI 2.0 not GA, SSE sunset, training data lag, Gradle daemon sockets, native image timeouts)
+   - Note: No backlog items with status remained; topic selected from gap analysis — existing Java/Spring article (2026-03-30) targets Spring Boot 3.x and Codex CLI v0.125, but Spring Boot 4.0 shipped with Jakarta EE 11, virtual threads, HTTP Service Clients, and OpenTelemetry starter, Spring AI added annotation-driven MCP server development, and Codex CLI reached v0.133 with permission profile inheritance and --output-schema support
 
 ---
 
