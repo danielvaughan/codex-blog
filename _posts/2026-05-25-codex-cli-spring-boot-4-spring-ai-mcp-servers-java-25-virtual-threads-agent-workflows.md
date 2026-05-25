@@ -14,7 +14,7 @@ Spring Boot 4.0 shipped in November 2025 with first-class Java 25 support, compl
 
 ## What Changed Since Spring Boot 3.x
 
-The upgrade from 3.x to 4.0 is not cosmetic. Three changes directly affect how Codex CLI interacts with Spring projects:
+The upgrade from 3.x to 4.0 is not cosmetic. Four changes directly affect how Codex CLI interacts with Spring projects:
 
 1. **Jakarta EE 11 and Servlet 6.1** — older containers no longer work, and the namespace shift means Codex must not hallucinate `javax.*` imports[^1].
 2. **Virtual threads by default** — setting `spring.threads.virtual.enabled=true` runs web requests, `@Async` tasks, and scheduled operations on virtual threads[^3]. Codex-generated code that spawns platform threads or uses `synchronized` blocks risks pinning.
