@@ -2,6 +2,13 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-25, Hourly Article Run)
 
+### Codex CLI with the GitHub MCP Server
+
+1. ✅ **Codex CLI with the GitHub MCP Server: Issues, Pull Requests, Actions, and Platform Automation** — Written 2026-05-25 → `2026-05-25-codex-cli-github-mcp-server-issue-pr-actions-automation-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Sentry MCP, Jira MCP, and various language-specific MCP servers but no article addressed the official GitHub MCP server (github/github-mcp-server) despite it providing 162+ tools across repos/issues/pull_requests/actions/code_security/projects toolsets, supporting both remote Streamable HTTP (api.githubcopilot.com/mcp/) and local stdio/Docker deployment, reaching v1.0.5 (May 2026), and being the natural complement to Codex CLI for platform automation beyond git operations
+   - Scope: Two deployment modes (remote Streamable HTTP and local stdio/Docker), config.toml for both variants, OAuth and PAT authentication, toolset selection strategy (default vs optional vs remote-only), tool filtering with enabled_tools/disabled_tools/approval_mode, PAT scope selection, four workflow patterns (issue triage with labels, PR review and feedback, Actions debugging, batch security audit with codex exec), server composition with Sentry/Filesystem/Playwright MCP, AGENTS.md addendum for GitHub MCP projects, security considerations (token exposure, scope creep, read-only mode, approval gating), limitations (context budget, rate limiting, training data lag, no webhooks)
+   - SEO targets: "codex cli github mcp server", "github mcp server codex", "codex cli github automation", "codex cli pull request review", "codex cli github actions", "github mcp server config.toml", "codex cli issue triage"
+
 ### Codex CLI for Vercel Development
 
 1. ✅ **Codex CLI for Vercel Development: MCP Server, Plugin Ecosystem, and Next.js Deployment Workflows** — Written 2026-05-25 → `2026-05-25-codex-cli-vercel-development-mcp-server-plugin-nextjs-deployment-workflows.md`
