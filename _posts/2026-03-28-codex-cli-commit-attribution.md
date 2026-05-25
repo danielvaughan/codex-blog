@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-05-25T20:10:09+01:00
+last_modified_at: 2026-05-25T22:06:57+01:00
 description: "When Codex writes code and you commit it, who gets credited? Until early 2026, the answer was: nobody notable."
 substack_status: draft
 tags:
