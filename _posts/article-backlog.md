@@ -2,6 +2,13 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-25, Hourly Article Run)
 
+### Codex CLI Hooks After GA
+
+1. ✅ **Codex CLI Hooks After GA: The Complete Event Model, Trust Verification, and Production Patterns for v0.133** — Written 2026-05-25 → `2026-05-25-codex-cli-hooks-after-ga-event-model-trust-verification-production-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing hooks article (2026-04-15) predated GA (14 May 2026) and covered only five events, while the post-GA surface includes ten lifecycle events (SubagentStart, SubagentStop, PreCompact, PostCompact, PermissionRequest added), hash-based trust verification, managed enterprise hooks via requirements.toml, plugin-bundled hooks, /hooks TUI browser, and --dangerously-bypass-hook-trust for CI
+   - Scope: Complete ten-event lifecycle model, JSON/TOML configuration formats, four discovery layers, hash-based trust chain, /hooks slash command, managed hooks with allow_managed_hooks_only, plugin-bundled hooks with environment variables, five production patterns (secret scanning, context injection, compaction guard, subagent policy injection, output redaction), input/output reference table, known limitations, pre-GA migration checklist
+   - SEO targets: "codex cli hooks", "codex hooks production", "codex cli trust model", "codex hooks ga", "codex cli secret scanning hooks", "codex managed hooks enterprise", "codex cli SubagentStart hook"
+
 ### Codex CLI for Firebase Development
 
 1. ✅ **Codex CLI for Firebase Development: MCP Server, Agent Skills, and Full-Stack Workflows** — Written 2026-05-25 → `2026-05-25-codex-cli-firebase-development-mcp-server-agent-skills-fullstack-workflows.md`
