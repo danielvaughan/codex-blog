@@ -1,13 +1,13 @@
 ---
 title: Articles Index
-description: "Last updated: 2026-05-24 Total articles rated: 903"
+description: "Last updated: 2026-05-25 Total articles rated: 919"
 nav_order: 1
 ---
 
 # Articles Index
 
-**Last updated:** 2026-05-24
-**Total articles rated:** 903
+**Last updated:** 2026-05-25
+**Total articles rated:** 919
 
 ## Rating Scale
 
@@ -46,7 +46,10 @@ Each article is rated 1-5 on four dimensions:
 | [The Agentic Engineering Maturity Matrix: Assessing Your Organisation's AI Readiness](../premium-articles/14-the-agentic-engineering-maturity-matrix.md) | 5 | 4 | 3 | 5 | 4.2 | Premium series; Deep dive |
 | [The Fundamentals Paradox: Why Decades-Old Software Principles Are the Real AI Advantage](../premium-articles/17-the-fundamentals-paradox.md) | 4 | 4 | 4 | 5 | 4.2 | Premium series; Heavily sourced |
 | [The Cognitive Load Paradox: Why Agentic Development Is Exhausting the People It Was Meant to Help](../premium-articles/16-the-cognitive-load-paradox.md) | 4 | 4 | 3 | 5 | 4.0 | Premium series |
+| [The Factory Factory: Three Levels of Agentic Leverage](../premium-articles/40-the-factory-factory.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Category-defining; BMW iFactory parallel; Three-level framework; NanoClaw case study; Masterful pacing; Highly shareable |
 | [The Process Engineer: Capturing Business Processes for Agent Implementation](../premium-articles/premium-37-the-process-engineer.md) | 4 | 5 | 4 | 5 | 4.5 | Premium series; SECI model; Process mining; BPMN; Original role definition; Personal voice; Heavily sourced |
+| [Goal Mode Without the Cloud: Persistent Agentic Loops on a $4,699 NVIDIA Box](../premium-articles/38-goal-mode-local-models-gb10.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Technical investigation; Five failure points mapped; GB10 + Qwen 3.6; MCPMark data; Original and practical |
+| [The Thermal Dividend: Using a DGX Spark to Heat Your Hot Water](../premium-articles/39-the-thermal-dividend-gb10-hot-water.md) | 4 | 5 | 4 | 5 | 4.5 | Premium series; Highly original; Heata comparison; Thermal arithmetic; Engineering feasibility; Double-spend principle; Shareable |
 | [Hermes Agent with Codex CLI: The Self-Improving Orchestration Layer](../premium-articles/34-hermes-agent-with-codex-cli-setup-guide.md) | 4 | 4 | 3 | 4 | 3.8 | Premium series; Multi-agent orchestration; Self-improving skills engine; Kanban dispatch; Setup guide |
 | [The Complete Guide to Securing Your AI Coding Agent (Before It Secures Your Job)](../premium-articles/07-complete-guide-to-codex-security.md) | 5 | 3 | 4 | 4 | 4.0 | Premium series; Deep dive; Rich diagrams; Heavily sourced |
 | [The Knowledge Factory: How Codex CLI Turns a Git Repo into an Agent-Maintained Knowledge Base](../premium-articles/24-the-knowledge-factory.md) | 4 | 4 | 3 | 5 | 4.0 | Premium series; Rich diagrams |
@@ -87,6 +90,19 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI v0.133 Extension Lifecycle Events: Building Observability Plugins with SubagentStart, ToolExecution, and TurnMetadata](2026-05-22-codex-cli-v0133-extension-lifecycle-events-observability-plugins-subagent-tool-turn-metadata.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Eleven-event model; Observation vs interception distinction; Plugin walkthrough; Mermaid |
 | [Codex CLI Permission Profile Inheritance: Composable Security Policies and List APIs in v0.133](2026-05-22-codex-cli-permission-profile-inheritance-composable-security-policies-v0133.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Config-layer inheritance; List APIs; requirements.toml; Enterprise security; Mermaid |
 | [Codex CLI Deployment Verification Patterns: exec Pipelines for Smoke Tests, API Validation, and Infrastructure Drift Detection](2026-05-22-codex-cli-deployment-verification-exec-pipelines-smoke-tests-api-validation-drift-detection.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Four CI/CD patterns; output-schema; exec resume; Practical examples; Mermaid |
+| [Codex CLI Hooks After GA: The Complete Event Model, Trust Verification, and Production Patterns for v0.133](2026-05-25-codex-cli-hooks-after-ga-event-model-trust-verification-production-patterns.md) | 5 | 4 | 4 | 5 | 4.5 | Definitive post-GA reference; Ten lifecycle events; Hash-based trust chain; Enterprise enforcement; requirements.toml; Rich Mermaid |
+| [The Codex Python SDK: Embedding Agents in Scripts, Pipelines, and Custom Tooling](2026-05-25-codex-python-sdk-embedding-agents-programmatic-automation-openai-codex.md) | 5 | 4 | 4 | 4 | 4.3 | Deep architecture dive; JSON-RPC over stdio; Four practical patterns; Thread fork; Guardian subagent; Mermaid |
+| [Codex CLI with the GitHub MCP Server: Issues, Pull Requests, Actions, and Platform Automation](2026-05-25-codex-cli-github-mcp-server-issue-pr-actions-automation-workflows.md) | 4 | 4 | 4 | 5 | 4.2 | 162+ tools; Remote + local; Four workflow patterns; OAuth; Toolset selection strategy; Mermaid; Highly shareable |
+| [Codex CLI Agent Observability: OpenTelemetry, Cost Attribution, Alerting, and SLA Monitoring](2026-05-25-codex-cli-agent-observability-opentelemetry-cost-attribution-alerting-sla-monitoring.md) | 4 | 4 | 4 | 4 | 4.0 | Series expansion; Cost attribution by team; SLA monitoring; Alerting patterns; OTel; Practical |
+| [Codex CLI for Spring Boot 4 and Spring AI: Java MCP Servers, Virtual Threads, and Agent-Assisted Development on Java 25](2026-05-25-codex-cli-spring-boot-4-spring-ai-mcp-servers-java-25-virtual-threads-agent-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Spring Boot 4.0.5; Spring AI MCP Starters; @McpTool annotations; Virtual threads; AGENTS.md template; Comprehensive |
+| [Codex CLI for Terraform Development: terraform-mcp-server, State Inspection, and Infrastructure Drift Detection](2026-05-25-codex-cli-terraform-development-mcp-server-state-inspection-drift-detection.md) | 4 | 4 | 4 | 4 | 4.0 | Official HashiCorp MCP; Registry + TFE + Terraform toolsets; Drift detection; Anton Babenko skill; Well-sourced |
+| [Codex CLI for Firebase Development: MCP Server, Agent Skills, and Full-Stack Workflows](2026-05-25-codex-cli-firebase-development-mcp-server-agent-skills-fullstack-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | 70+ tools; Nine service categories; Skills catalogue; Community server; Four workflow patterns |
+| [Codex CLI for Flutter and Dart Development: MCP Servers, Widget Testing, and Cross-Platform Agent Workflows](2026-05-25-codex-cli-flutter-dart-development-mcp-servers-widget-testing-cross-platform-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Four MCP servers; Official Dart SDK server; DCM; mcp_flutter visual feedback; Very Good CLI |
+| [Codex CLI for Google Cloud Platform Development: gcloud MCP, BigQuery, Cloud Run, and Infrastructure Agent Workflows](2026-05-25-codex-cli-google-cloud-platform-gcp-development-mcp-servers-bigquery-cloud-run-infrastructure-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | 40+ GCP products; Local STDIO + managed HTTP; BigQuery MCP; OAuth 2.0; Four workflow patterns |
+| [Codex CLI for Vercel Development: MCP Server, Plugin Ecosystem, and Next.js Deployment Workflows](2026-05-25-codex-cli-vercel-development-mcp-server-plugin-nextjs-deployment-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | 18 tools; 25 plugin skills; Three specialist agents; AI Gateway; Rich integration surface |
+| [Codex CLI for Nix and NixOS Development: MCP-NixOS, Sandbox Isolation, and Reproducible Agent Workflows](2026-05-23-codex-cli-nix-nixos-development-mcp-servers-flakes-reproducible-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Three MCP servers; Hallucination problem framing; 130k+ packages; Home Manager; Flakes |
+| [Codex CLI for Ruby on Rails Development: Rubydex, RailsInsight, and Convention-Aware Agent Workflows](2026-05-24-codex-cli-ruby-on-rails-development-mcp-servers-rubydex-railsinsight-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Convention-over-configuration patterns; Two MCP servers; Rails 8.1; AGENTS.md template |
+| [Codex CLI for Rust Development: rust-analyzer MCP, Cargo Workflows, and Systems Programming Agent Patterns](2026-05-24-codex-cli-rust-development-rust-analyzer-mcp-cargo-systems-programming-agent-patterns.md) | 4 | 3 | 4 | 4 | 3.8 | Four MCP servers; Edition 2024; Semantic layer; codex-rs dogfooding angle; Rich tool table |
 | [The Human Review Bottleneck: Practical Code Review Strategies for Agent Output](2026-05-24-human-review-bottleneck-code-review-strategies-agent-output.md) | 4 | 4 | 4 | 5 | 4.2 | Faros AI data; Zurich circular review research; Triage framework; Mermaid; Practical; Highly shareable |
 | [Codex CLI for Kotlin/Android Development: Android CLI, MCP Servers, and Compose-First Agent Workflows](2026-05-24-codex-cli-kotlin-android-development-android-cli-mcp-servers-compose-agent-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Android CLI 1.0; Three MCP servers; Android Skills system; Google I/O sourced; Compose-first |
 | [Codex CLI for Swift and SwiftUI Development: Xcode MCP Servers, Agent Skills, and Build-Test-Debug Workflows](2026-05-24-codex-cli-swift-swiftui-development-xcode-mcp-servers-agent-skills-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Three MCP servers (XcodeBuildMCP/xcrun mcpbridge/SwiftLens); Sentry acquisition; Swift 6.2; Rich tool table |
@@ -944,22 +960,31 @@ Each article is rated 1-5 on four dimensions:
 2. **Agentic Engineering Is Not Vibe Coding** (4.8)
 3. **Codex CLI vs Claude Code: The Harness War of May 2026** (4.8)
 4. **Forward Deployed Engineers** (4.8)
-5. **Harness Engineering: The Discipline That Makes Agents Work** (4.8)
-6. **Mapping OWASP's Top 10 Against Codex CLI's Security Architecture** (4.8)
-7. **The Agent SDK Landscape** (4.8)
-8. **The Assembly Line: Why Validation Capacity Is Your AI Bottleneck** (4.8)
-9. **The Gravel Path: A Minimal Viable Harness** (4.8)
-10. **The Quality Dividend (Medium)** (4.8)
+5. **Goal Mode Without the Cloud** (4.8)
+6. **Harness Engineering: The Discipline That Makes Agents Work** (4.8)
+7. **Mapping OWASP's Top 10 Against Codex CLI's Security Architecture** (4.8)
+8. **The Agent SDK Landscape** (4.8)
+9. **The Assembly Line: Why Validation Capacity Is Your AI Bottleneck** (4.8)
+10. **The Factory Factory: Three Levels of Agentic Leverage** (4.8)
 
 ### Score Distribution
 
-- **4.0+:** 252 articles
-- **3.5-3.9:** 491 articles
+- **4.0+:** 262 articles
+- **3.5-3.9:** 497 articles
 - **3.0-3.4:** 78 articles
 - **2.5-2.9:** 32 articles
 - **< 2.5:** 34 articles
 
-### Changes This Run (2026-05-24)
+### Changes This Run (2026-05-25)
+
+- **Added 16 new articles:** 3 premium (38-Goal Mode Local Models, 39-Thermal Dividend, 40-The Factory Factory), 13 regular from 2026-05-23/24/25 (Hooks After GA, Python SDK, GitHub MCP, Observability series expansion, Spring Boot 4, Terraform, Firebase, Flutter, GCP, Vercel, Nix/NixOS, Ruby/Rails, Rust)
+- **New premium highlights:** The Factory Factory (4.8) is a category-defining essay — the BMW iFactory parallel and three-level leverage framework make it one of the strongest pieces in the series. Goal Mode Without the Cloud (4.8) is equally strong — rigorous technical investigation of local models with Codex CLI, five failure-point analysis, and practical test plan. The Thermal Dividend (4.5) is the most original piece in the library — nobody else is writing about recovering waste heat from AI inference hardware to heat domestic hot water.
+- **Notable regular additions:** Hooks After GA (4.5) is the definitive post-GA reference replacing pre-GA coverage — ten lifecycle events, trust chain, enterprise enforcement. Python SDK (4.3) provides deep architecture coverage of the embedding surface. GitHub MCP (4.2) fills a glaring gap — 162+ tools and the natural complement to Codex CLI.
+- **Gaps closed from previous run:** Rust, Ruby/Rails, Flutter/Dart, and observability series expansion all delivered. Nix/NixOS improved on the earlier 3.6-rated Nix article with three MCP servers and better coverage.
+- **Gaps identified:** No article yet on **agent testing frameworks** (beyond eval — unit/integration testing of agent behaviour). No coverage of **Codex CLI for mobile CI** (Fastlane, Bitrise integration). The premium series lacks an article on **agent retirement and decommissioning** (touched in The Factory Factory but deserves standalone treatment). No article on **Codex CLI with Datadog/New Relic** (observability vendors beyond OTel).
+- **Citation freshness:** All new articles cite May 2026 sources. Premium articles 01-15 citation freshness review still pending from previous run.
+
+### Changes Previous Run (2026-05-24)
 
 - **Added 12 new articles:** 1 premium (37-The Process Engineer), 11 regular from 2026-05-23/24 (Human Review Bottleneck, Kotlin/Android, Swift/SwiftUI, Elixir/Phoenix, Agent Observability Dashboards, LangChain Migration, WordPress, Monorepo Tooling, Astro, C/C++, GraphQL)
 - **New premium highlight:** The Process Engineer (4.5) — original role definition connecting SECI model, BPMN, and process mining to agent implementation. Strong Substack candidate with compelling "Dave retires" opening and practical toolkit

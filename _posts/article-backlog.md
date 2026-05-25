@@ -46,6 +46,18 @@
 
 ---
 
+## Gap-Identified Ideas — Article Rater (2026-05-25)
+
+The following ideas were identified during the article rating run on 2026-05-25 based on gaps in the current library:
+
+1. 📝 **Agent Testing Frameworks: Unit and Integration Testing for Agent Behaviour** — Beyond eval sets, no article covers how to write deterministic unit tests for agent tool-call sequences, mock MCP servers for integration testing, or property-based testing of agent decisions. The Python SDK article hints at testability but no standalone treatment exists.
+2. 📝 **Codex CLI for Mobile CI: Fastlane, Bitrise, and Agent-Driven Build Pipelines** — The Kotlin/Android and Swift/SwiftUI articles cover local development but no article addresses mobile CI integration — Fastlane lanes as MCP tools, Bitrise step automation, TestFlight/Play Store deployment via agent.
+3. 📝 **Premium: Agent Retirement and Decommissioning — The Missing Lifecycle Phase** — The Factory Factory (premium-40) identifies agent retirement as a Level 3 concern but the series lacks a standalone treatment. When should agents be decommissioned? How do you measure whether an agent still delivers value? What happens to its harness, data, and downstream consumers?
+4. 📝 **Codex CLI with Datadog and New Relic: Vendor-Specific Observability for Agent Pipelines** — The OTel articles cover open-standards observability but many enterprises use Datadog or New Relic. No article maps agent metrics to vendor-specific dashboards, alerts, or APM features.
+5. **Premium: The Citation Lifecycle — When AI-Specific Claims Expire** — Carried forward from 2026-05-24; still relevant. Premium articles 01-15 contain 2025-era citations that the articles themselves critique as dated.
+
+---
+
 ## Gap-Identified Ideas — Article Rater (2026-05-24)
 
 The following ideas were identified during the article rating run on 2026-05-24 based on gaps in the current library:
