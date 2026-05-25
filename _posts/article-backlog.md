@@ -2,6 +2,13 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-25, Hourly Article Run)
 
+### Codex CLI for Firebase Development
+
+1. ✅ **Codex CLI for Firebase Development: MCP Server, Agent Skills, and Full-Stack Workflows** — Written 2026-05-25 → `2026-05-25-codex-cli-firebase-development-mcp-server-agent-skills-fullstack-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Supabase, serverless/AWS Lambda, and Cloudflare Workers but no article addressed Firebase despite the official Firebase MCP server providing 70+ tools across nine service categories (Firestore, Auth, Crashlytics, Cloud Functions, Cloud Messaging, App Hosting, SQL Connect, Storage, Remote Config), Firebase agent skills providing progressive-disclosure domain knowledge, Firebase CLI v15.18.0 adding SSE transport and Crashlytics report tools, and Firebase powering 3.5M+ active applications
+   - Scope: Official Firebase MCP server (70+ tools, stdio and SSE transport, --only filtering, authentication via CLI credentials), Firebase agent skills (firebase-auth-basics, firebase-firestore-standard, firebase-app-hosting-basics, firebase-ai-logic-basics, developing-genkit-js), community gannonh/firebase-mcp (file uploads, HTTP transport), AGENTS.md template for Firebase projects, four workflow patterns (crash investigation with Crashlytics MCP, security rules generation-validation loop, full-stack feature development, batch audit with codex exec), model selection, sandbox considerations (network access, credential exposure, emulator alternative), server composition with GitHub and filesystem MCP servers, limitations (no emulator control, storage tool gaps, SQL Connect maturity, token budget)
+   - SEO targets: "codex cli firebase", "firebase mcp server codex", "codex cli firestore", "codex cli firebase development", "firebase agent skills codex", "codex cli crashlytics", "codex cli firebase security rules"
+
 ### Codex Python SDK
 
 1. ✅ **The Codex Python SDK: Embedding Agents in Scripts, Pipelines, and Custom Tooling** — Written 2026-05-25 → `2026-05-25-codex-python-sdk-embedding-agents-programmatic-automation-openai-codex.md`
