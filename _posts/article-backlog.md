@@ -2,6 +2,13 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-25, Hourly Article Run)
 
+### Codex CLI for Vercel Development
+
+1. ✅ **Codex CLI for Vercel Development: MCP Server, Plugin Ecosystem, and Next.js Deployment Workflows** — Written 2026-05-25 → `2026-05-25-codex-cli-vercel-development-mcp-server-plugin-nextjs-deployment-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered only the Vercel AI Gateway plugin (`2026-03-30-codex-cli-vercel-ai-gateway-skills-plugin.md`) but no article addressed the Vercel MCP server (18 tools, OAuth, Streamable HTTP at mcp.vercel.com), the Vercel Plugin (25 skills, 3 specialist agents, 5 slash commands), deploying custom MCP servers to Vercel with Fluid Compute, or the full integration surface for Next.js deployment workflows
+   - Scope: Vercel MCP server (18 tools across documentation/project/deployment/domain/access/toolbar/CLI categories, OAuth authentication, Streamable HTTP transport, runtime log filtering), Vercel Plugin (25 ecosystem skills, 3 specialist agents, 5 slash commands, session-start context injection), AI Gateway multi-model profiles (config.toml provider and profile configuration), AGENTS.md template for Vercel + Next.js 16 projects, four workflow patterns (feature branch to preview verification, production incident investigation, toolbar comment resolution loop, batch deployment audit with codex exec), deploying custom MCP servers to Vercel (mcp-handler package, Fluid Compute, OAuth, Rolling Releases), three-layer server composition (platform/code/custom), sandbox and security considerations (OAuth scope, confused deputy protection, prompt injection, telemetry), model selection, limitations (plugin support status discrepancy, tool budget, build log latency, no env var MCP management, training data lag)
+   - SEO targets: "codex cli vercel", "vercel mcp server codex", "codex cli next.js deployment", "codex cli vercel plugin", "codex cli vercel development", "codex cli preview deployment", "vercel ai gateway codex"
+
 ### Codex CLI for Google Cloud Platform Development
 
 1. ✅ **Codex CLI for Google Cloud Platform Development: gcloud MCP, BigQuery, Cloud Run, and Infrastructure Agent Workflows** — Written 2026-05-25 → `2026-05-25-codex-cli-google-cloud-platform-gcp-development-mcp-servers-bigquery-cloud-run-infrastructure-workflows.md`

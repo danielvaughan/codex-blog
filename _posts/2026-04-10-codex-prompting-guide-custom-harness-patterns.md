@@ -2,7 +2,7 @@
 title: "The Official Codex Prompting Guide: System Prompts, Personality Modes, and Custom Harness Patterns"
 description: "OpenAI's Cookbook contains a document that most Codex CLI users never read: the Codex Prompting Guide."
 date: 2026-04-10T21:00:00+00:00
-last_modified_at: 2026-05-25T14:14:53+01:00
+last_modified_at: 2026-05-25T16:13:54+01:00
 tags: ["prompting-guide", "custom-harness", "system-prompt", "personality-modes", "metaprompting", "apply-patch", "responses-api", "parallel-tool-calling"]
 ---
 
