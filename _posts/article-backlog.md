@@ -5,7 +5,7 @@
 The following ideas were identified during the article rating run on 2026-05-24 based on gaps in the current library:
 
 1. ✅ **Codex CLI for Rust Development: rust-analyzer MCP, Cargo Workflows, and Systems Programming Agent Patterns** — Written 2026-05-24 → `2026-05-24-codex-cli-rust-development-rust-analyzer-mcp-cargo-systems-programming-agent-patterns.md`
-2. **Codex CLI for Ruby on Rails Development: Solargraph MCP, RSpec Agent Workflows, and Convention-over-Configuration Patterns** — Rails remains widely used in production. No coverage despite convention-over-configuration being an interesting agent constraint.
+2. ✅ **Codex CLI for Ruby on Rails Development: Rubydex, RailsInsight, and Convention-Aware Agent Workflows** — Written 2026-05-24 → `2026-05-24-codex-cli-ruby-on-rails-development-mcp-servers-rubydex-railsinsight-agent-workflows.md`
 3. **Codex CLI for Flutter and Dart Development: Flutter MCP, Widget Testing, and Cross-Platform Agent Workflows** — Flutter is the dominant cross-platform framework. No coverage despite Android CLI and Xcode MCP articles existing for native mobile.
 4. **Agent Observability Series: Alerting on Agent Anomalies, Cost Attribution by Team, and SLA Monitoring for Codex CLI Pipelines** — The new agent observability dashboard article (4.0) opens a theme. A series covering alerting, cost attribution, and SLA monitoring would serve enterprise teams.
 5. **Premium: The Citation Lifecycle — When AI-Specific Claims Expire** — Premium articles 01-15 contain 2025-era citations (Stanford HAI, early Copilot studies) that the articles themselves critique as dated. An article on citation freshness as a discipline would be meta but useful.
