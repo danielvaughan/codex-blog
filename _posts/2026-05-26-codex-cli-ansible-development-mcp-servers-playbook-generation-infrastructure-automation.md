@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Ansible Development: MCP Servers, Playbook Generation, and Infrastructure Automation Workflows"
 parent: "Articles"
-nav_order: 873
+nav_order: 876
 tags: ["codex-cli", "ansible", "mcp", "infrastructure-automation", "configuration-management", "red-hat", "playbook-generation"]
 ---
 
