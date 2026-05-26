@@ -2,6 +2,13 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-26, Hourly Article Run)
 
+### Codex CLI for Search Engineering
+
+1. ✅ **Codex CLI for Search Engineering: Elasticsearch, Meilisearch, and Typesense MCP Servers** — Written 2026-05-26 → `2026-05-26-codex-cli-search-engineering-elasticsearch-meilisearch-typesense-mcp-servers.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered PostgreSQL, MongoDB, Redis, DuckDB, SQLite, Neo4j, and various database MCP servers but no article addressed search engine MCP servers despite elastic/mcp-server-elasticsearch (v0.4.6, deprecated in favour of Agent Builder MCP in Elastic 9.2+), meilisearch/meilisearch-mcp (20+ tools, official), and avarant/typesense-mcp-server (14 tools, community) all being available, Elasticsearch 9.4.1 being current, Meilisearch 1.41.0 shipping Dynamic Search Rules, Typesense 30.2 adding MMR and global synonyms, and search infrastructure being central to most production applications
+   - Scope: Three MCP servers (Elastic Agent Builder MCP endpoint for 9.2+ with dynamic tool exposure via Kibana, standalone elasticsearch MCP v0.4.6 with 5 tools for legacy clusters, Meilisearch MCP with 20+ tools across connection/index/document/search/settings/security/task/system categories, Typesense MCP with 14 tools including vector_search), config.toml for STDIO and HTTP servers, AGENTS.md template for search projects (ES|QL preference, ranking rule ordering, schema immutability, scoped API keys, SDK version rules), four workflow patterns (index schema design with validation loop, search relevance tuning, cluster health audit with codex exec and --output-schema, cross-engine migration), server composition with database and GitHub MCP servers, model selection, sandbox and security considerations (network access, credential hygiene, read-only keys, approval gating), limitations (training data lag, Agent Builder dependency, Typesense server maturity, token budget, no real-time analytics, vector search coverage gaps)
+   - SEO targets: "codex cli elasticsearch", "codex cli meilisearch", "codex cli typesense", "codex cli search engineering", "elasticsearch mcp server codex", "meilisearch mcp server codex", "codex cli search relevance"
+
 ### Codex CLI for Ansible Development
 
 1. ✅ **Codex CLI for Ansible Development: MCP Servers, Playbook Generation, and Infrastructure Automation Workflows** — Written 2026-05-26 → `2026-05-26-codex-cli-ansible-development-mcp-servers-playbook-generation-infrastructure-automation.md`
