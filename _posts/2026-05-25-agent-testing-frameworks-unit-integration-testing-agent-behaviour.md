@@ -269,15 +269,26 @@ The first three stages are deterministic and complete in seconds. The eval suite
 
 With Codex CLI hooks reaching GA in v0.133 (May 2026) [^10], you can gate agent actions on test results:
 
-```toml
-# .codex/hooks/pre-shell.toml
-[hook]
-event = "PreShell"
-command = "pytest tests/mcp/ -x --timeout=10"
-fail_action = "block"
+```json
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^Bash$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pytest tests/mcp/ -x --timeout=10",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
 ```
 
-This blocks shell execution if MCP server tests fail, catching regressions before the agent acts on broken tooling.
+This blocks shell execution if MCP server tests fail, catching regressions before the agent acts on broken tooling. The `PreToolUse` event with a `^Bash$` matcher intercepts shell commands specifically[^10].
 
 ## Common Pitfalls
 

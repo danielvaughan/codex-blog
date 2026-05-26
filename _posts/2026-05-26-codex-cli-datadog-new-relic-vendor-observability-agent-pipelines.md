@@ -12,7 +12,7 @@ tags: ["codex-cli", "datadog", "new-relic", "observability", "mcp", "agent-pipel
 
 The open-standards observability story for Codex CLI — OpenTelemetry traces, Prometheus metrics, Grafana dashboards — is well documented. But most enterprise teams do not run vanilla OTel backends. They run Datadog or New Relic, with years of investment in dashboards, alert policies, and on-call routing. This article bridges the gap: wiring Codex CLI into vendor-specific observability platforms via their MCP servers so that agent pipelines get the same incident response, cost attribution, and SLA monitoring that production services already enjoy.
 
-Both vendors shipped remote MCP servers in early 2026 — Datadog on 10 March [^1] and New Relic on 24 February [^2] — and both work with Codex CLI's Streamable HTTP transport. The result is bidirectional: Codex can query live telemetry to inform its coding decisions, and your existing observability stack can monitor the agent itself.
+Both vendors shipped remote MCP servers in early 2026 — Datadog on 9 March [^1] and New Relic on 24 February [^2] — and both work with Codex CLI's Streamable HTTP transport. The result is bidirectional: Codex can query live telemetry to inform its coding decisions, and your existing observability stack can monitor the agent itself.
 
 ## Architecture Overview
 

@@ -16,7 +16,7 @@ This article covers the official Firebase MCP server (built into Firebase CLI v1
 
 ## The Firebase MCP Server
 
-The Firebase MCP server ships inside `firebase-tools` itself — no separate package to install[^2]. It exposes **70+ tools** across nine Firebase service categories via stdio transport[^6]:
+The Firebase MCP server ships inside `firebase-tools` itself — no separate package to install[^2]. It exposes **50+ tools** across twelve Firebase service categories via stdio transport[^6]:
 
 | Category | Key Tools | Purpose |
 |----------|-----------|---------|
@@ -50,7 +50,7 @@ command = "npx"
 args = ["-y", "firebase-tools@latest", "mcp", "--dir", "/home/dev/my-app", "--only", "firestore,auth,crashlytics"]
 ```
 
-The `--only` flag is worth using. Exposing all 70+ tools consumes context tokens; filtering to the services you actually use keeps the tool manifest lean[^6].
+The `--only` flag is worth using. Exposing all 50+ tools consumes context tokens; filtering to the services you actually use keeps the tool manifest lean[^6].
 
 Since v15.16.0, the Firebase MCP server also supports SSE mode with a customisable port[^4], useful when sharing a single server instance across multiple agent sessions:
 
@@ -103,7 +103,7 @@ Configure it alongside the official server:
 ```toml
 [mcp_servers.firebase-community]
 command = "npx"
-args = ["-y", "@anthropic-ai/firebase-mcp@latest"]
+args = ["-y", "@gannonh/firebase-mcp"]
 
 [mcp_servers.firebase-community.env]
 FIREBASE_PROJECT_ID = "my-project-id"
@@ -264,7 +264,7 @@ This gives the agent Firebase project access, GitHub issue/PR context, and local
 - **No emulator control**: The MCP server cannot start or stop the Firebase Emulator Suite; you must manage emulators separately
 - **Storage tool gaps**: The official server only provides `storage_get_object_download_url` — no upload, delete, or list operations. Use `gannonh/firebase-mcp` for upload workflows[^5]
 - **SQL Connect maturity**: The `dataconnect_*` tools reflect Firebase's renamed Data Connect → SQL Connect service; the API surface is still evolving[^4]
-- **Token budget**: With 70+ tools registered, the Firebase MCP server consumes significant context. Use `--only` to filter to relevant service categories
+- **Token budget**: With 50+ tools registered, the Firebase MCP server consumes significant context. Use `--only` to filter to relevant service categories
 
 ## Citations
 
