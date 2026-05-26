@@ -2,6 +2,12 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-26, Hourly Article Run)
 
+### Codex CLI for MySQL Development
+
+1. ✅ **Codex CLI for MySQL Development: MCP Servers, Schema Exploration, and Query Workflows on MySQL 9.7** — Written 2026-05-26 → `2026-05-26-codex-cli-mysql-development-mcp-servers-schema-exploration-query-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered PostgreSQL, MongoDB, Redis, DuckDB, SQLite, Neo4j, Neon, Supabase, and search engine databases but no article addressed MySQL despite MySQL being the most deployed open-source relational database, MySQL 9.7.0 LTS shipping in May 2026 with JSON Duality Views in Community Edition and the Hypergraph Optimiser, five mature MCP servers available (askdba/mysql-mcp-server in Go with 10 tools and multi-DSN/MariaDB support, benborla/mcp-server-mysql in Node.js with SSH tunnels and granular write permissions, designcomputer/mysql_mcp_server in Python with resource-based schema discovery, awslabs/mysql-mcp-server with RDS Data API and Secrets Manager integration, Google MCP Toolbox v1.0.0 with production-grade MySQL support), and MySQL's ubiquity in web application stacks making it a critical gap
+   - SEO targets: "codex cli mysql", "mysql mcp server codex", "codex cli mysql development", "codex cli mysql 9.7", "codex cli schema exploration", "codex cli aurora mysql", "mysql mcp server config.toml", "codex cli database query"
+
 ### Codex CLI with Slack MCP Servers
 
 1. ✅ **Codex CLI with Slack MCP Servers: ChatOps, Channel Automation, and Team Notification Workflows** — Written 2026-05-26 → `2026-05-26-codex-cli-slack-mcp-servers-chatops-channel-automation-team-workflows.md`
