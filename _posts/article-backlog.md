@@ -1,5 +1,16 @@
 # Article Backlog
 
+## New Articles — Scheduled Daily Task (2026-05-26, Hourly Article Run)
+
+### Codex CLI for Redis Development
+
+1. ✅ **Codex CLI for Redis Development: MCP Server, Agent Skills, and Production Caching Workflows** — Written 2026-05-26 → `2026-05-26-codex-cli-redis-development-mcp-server-agent-skills-caching-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered PostgreSQL, Supabase, SQLite, DuckDB, Neon, and database migrations but no article addressed Redis despite redis/mcp-redis providing tools across all Redis data types (strings, hashes, JSON, lists, sets, sorted sets, pub/sub, streams, vector search), redis/mcp-redis-cloud enabling subscription management, the official Redis agent skill encoding production patterns for caching/rate-limiting/session-management/vector-search, Redis 8.6 integrating JSON/time-series/probabilistic-structures/vector-sets into core, and Redis remaining the dominant in-memory data store
+   - Scope: Two official MCP servers (mcp-redis with data operations across all data types and mcp-redis-cloud for subscription management), Redis agent skill (eight domains: caching, rate limiting, session management, vector search, semantic caching, agent memory, pub/sub, streams), config.toml for STDIO servers with TLS/Cluster/EntraID auth, AGENTS.md template for Redis 8.6 projects (JSON documents, hash field TTL, anti-patterns, key naming, connection pooling, anti-hallucination rules for Redis 8 vs 6/7), five workflow patterns (cache layer generation with stampede protection, sliding-window rate limiter with sorted sets, session store migration, batch key namespace audit with codex exec, vector search index creation), Valkey 8.1 compatibility, sandbox and security considerations (network access, credential hygiene, read-only ACL users, approval mode for production), model selection, limitations (training data lag, no live monitoring, Lua debugging, cluster topology, vector set maturity, token budget)
+   - SEO targets: "codex cli redis", "redis mcp server codex", "codex cli caching", "codex cli redis development", "codex cli rate limiting", "redis agent skills codex", "codex cli redis 8"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-25, Hourly Article Run)
 
 ### Codex CLI with the GitHub MCP Server
