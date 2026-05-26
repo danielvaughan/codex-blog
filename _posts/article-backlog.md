@@ -2,6 +2,12 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-26, Hourly Article Run)
 
+### Codex CLI in GitHub Codespaces
+
+1. ✅ **Codex CLI in GitHub Codespaces: Devcontainer Configuration, Prebuilds, and Cloud Agent Workflows** — Written 2026-05-26 → `2026-05-26-codex-cli-github-codespaces-devcontainer-prebuilds-secrets-cloud-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered devcontainers generically (2026-04-20) and CDEs on Coder/Daytona/DevPod (2026-04-21) but no article addressed GitHub Codespaces specifically despite Codespaces being the most widely adopted cloud development environment, the community devcontainer-feature-codex (ghcr.io/dirien/devcontainer-feature-codex) enabling one-line installation, OpenAI shipping a reference .devcontainer with secure bubblewrap sandbox profiles, Codespaces providing native encrypted secrets management for API keys, prebuilds for instant agent startup, and organisation-level governance policies for base image restrictions and cost controls
+   - SEO targets: "codex cli github codespaces", "codex cli devcontainer", "codex cli cloud development", "codex cli prebuilds", "codex cli codespaces secrets", "github codespaces ai agent", "codex cli codespaces sandbox"
+
 ### Codex CLI for MySQL Development
 
 1. ✅ **Codex CLI for MySQL Development: MCP Servers, Schema Exploration, and Query Workflows on MySQL 9.7** — Written 2026-05-26 → `2026-05-26-codex-cli-mysql-development-mcp-servers-schema-exploration-query-workflows.md`
