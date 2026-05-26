@@ -1,6 +1,6 @@
 ---
 title: "Codex CLI Custom Model Providers: The Complete Configuration Guide"
-description: "Codex CLI ships with three built-in providers — openai, ollama, and lmstudio — but the real power lies in its extensible provider framework. Since v0.122.0."
+description: "Codex CLI ships with three built-in providers, but the real power lies in its extensible provider framework. Point Codex at any Responses API endpoint with a custom config.toml block."
 parent: "Articles"
 nav_order: 381
 tags: ["codex-cli", "model-providers", "configuration", "azure", "litellm", "multi-cloud", "enterprise"]
@@ -12,40 +12,45 @@ tags: ["codex-cli", "model-providers", "configuration", "azure", "litellm", "mul
 # Codex CLI Custom Model Providers: The Complete Configuration Guide
 
 
-Codex CLI ships with three built-in providers — `openai`, `ollama`, and `lmstudio` — but the real power lies in its extensible provider framework[^1]. Since v0.122.0 introduced the provider runtime abstraction[^2], you can point Codex at any model service that speaks the Chat Completions or Responses API[^3]. This article covers every configuration key, authentication pattern, and production-ready provider recipe you need.
+Codex CLI ships with three built-in providers, `openai`, `ollama` and `lmstudio`, but the real power is in its extensible provider framework[^1]. You can point Codex at any model service that speaks the Responses API[^3] by adding a block to `config.toml`. This guide covers every configuration key, authentication pattern and production-ready provider recipe.
 
-## How Provider Resolution Works
+> **Wire protocol change (February 2026):** Codex originally supported both the Chat Completions API (`wire_api = "chat"`) and the Responses API (`wire_api = "responses"`). Chat Completions support has been removed[^8]. All providers, including third-party and open-source endpoints, must now use the Responses API. If you find older guides recommending `wire_api = "chat"`, they are out of date.
 
-When Codex starts, it resolves the active model and provider through a strict precedence chain: CLI flags override environment variables, which override project-level `codex.toml`, which overrides the user-level `~/.codex/config.toml`[^4].
+## How provider resolution works
+
+When Codex starts it resolves the active model and provider through a strict precedence chain: CLI flags override profile values, which override project-level `.codex/config.toml`, which overrides user-level `~/.codex/config.toml`, which overrides system-level `/etc/codex/config.toml`, which overrides built-in defaults[^4].
 
 ```mermaid
 flowchart TD
     A[CLI flags: --model, --provider] --> B{Resolved?}
-    B -- No --> C[Environment variables]
+    B -- No --> C[Profile values]
     C --> D{Resolved?}
-    D -- No --> E["Project codex.toml"]
+    D -- No --> E["Project .codex/config.toml"]
     E --> F{Resolved?}
     F -- No --> G["User ~/.codex/config.toml"]
     G --> H{Resolved?}
-    H -- No --> I["Default: openai / gpt-5.5"]
-    B -- Yes --> J[Use resolved provider]
-    D -- Yes --> J
-    F -- Yes --> J
-    H -- Yes --> J
+    H -- No --> I["System /etc/codex/config.toml"]
+    I --> J{Resolved?}
+    J -- No --> K["Default: openai / gpt-5.5"]
+    B -- Yes --> L[Use resolved provider]
+    D -- Yes --> L
+    F -- Yes --> L
+    H -- Yes --> L
+    J -- Yes --> L
 ```
 
 Two top-level keys control model selection[^5]:
 
 ```toml
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_provider = "proxy"
 ```
 
-The `model_provider` value must match either a built-in ID or a key under `[model_providers.<id>]`. Custom providers cannot reuse the reserved IDs `openai`, `ollama`, or `lmstudio`[^1].
+The `model_provider` value must match either a built-in ID or a key under `[model_providers.<id>]`. Custom providers cannot reuse the reserved IDs `openai`, `ollama` or `lmstudio`[^1].
 
-## Anatomy of a Custom Provider
+## Anatomy of a custom provider
 
-Every custom provider lives under `[model_providers.<id>]` in your `config.toml`. Here is the complete set of configuration keys[^5][^1]:
+Every custom provider lives under `[model_providers.<id>]` in your `config.toml`. The complete set of configuration keys[^5][^1]:
 
 | Key | Type | Description |
 |-----|------|-------------|
@@ -53,7 +58,7 @@ Every custom provider lives under `[model_providers.<id>]` in your `config.toml`
 | `base_url` | string | API endpoint base URL |
 | `env_key` | string | Environment variable holding the API key |
 | `env_key_instructions` | string | Setup guidance shown when the key is missing |
-| `wire_api` | string | Protocol: `responses` or `chat` |
+| `wire_api` | string | Protocol: `responses` (the only supported value since February 2026) |
 | `http_headers` | table | Static HTTP headers sent with every request |
 | `env_http_headers` | table | Headers populated from environment variables |
 | `query_params` | table | Extra query parameters appended to requests |
@@ -63,18 +68,15 @@ Every custom provider lives under `[model_providers.<id>]` in your `config.toml`
 | `supports_websockets` | boolean | Whether the provider supports WebSocket transport |
 | `requires_openai_auth` | boolean | Whether to use OpenAI authentication flow |
 
-### Wire API Selection
+### Wire API
 
-The `wire_api` key determines which API protocol Codex uses[^1]:
+The `wire_api` key sets the API protocol Codex uses[^1]. Since February 2026 the only supported value is `responses`, the OpenAI Responses API[^8]. The previous `chat` option (Chat Completions API) has been removed.
 
-- **`responses`** — OpenAI's Responses API. Used by OpenAI's own endpoints and Azure OpenAI.
-- **`chat`** — The Chat Completions API. Most third-party and open-source providers speak this protocol.
+Third-party providers must support the Responses API to work with Codex directly. Providers that only speak Chat Completions need a translation proxy such as LiteLLM (see below). If your provider returns 404 errors, confirm that it exposes the Responses API endpoint format.
 
-Getting this wrong is the single most common configuration mistake. If your provider returns 404 errors, check `wire_api` first.
+## Authentication patterns
 
-## Authentication Patterns
-
-### Static API Key via Environment Variable
+### Static API key via environment variable
 
 The simplest pattern. Codex reads the named environment variable at runtime and sends it as a Bearer token[^1]:
 
@@ -83,14 +85,14 @@ The simplest pattern. Codex reads the named environment variable at runtime and 
 name = "Mistral AI"
 base_url = "https://api.mistral.ai/v1"
 env_key = "MISTRAL_API_KEY"
-wire_api = "chat"
+wire_api = "responses"
 ```
 
-You never place API keys directly in `config.toml`. An `experimental_bearer_token` field exists but is explicitly discouraged[^5].
+Never place API keys directly in `config.toml`. An `experimental_bearer_token` field exists but is explicitly discouraged[^5].
 
-### Command-Based Authentication
+### Command-based authentication
 
-For providers requiring dynamic tokens — OAuth flows, short-lived service account credentials, or secrets-manager integration — Codex supports command-backed auth[^1]:
+For providers that need dynamic tokens, whether OAuth flows, short-lived service account credentials or secrets-manager integration, Codex supports command-backed auth[^1]:
 
 ```toml
 [model_providers.internal.auth]
@@ -100,13 +102,13 @@ timeout_ms = 5000
 refresh_interval_ms = 300000
 ```
 
-The contract is straightforward: the command receives no stdin, writes the token to stdout (whitespace is trimmed), and exits. Codex calls it proactively at the `refresh_interval_ms` cadence rather than waiting for a 401[^1].
+The contract: the command receives no stdin, writes the token to stdout (whitespace is trimmed) and exits. Codex calls it proactively at the `refresh_interval_ms` cadence rather than waiting for a 401[^1].
 
-This mechanism is mutually exclusive with `env_key`, `experimental_bearer_token`, and `requires_openai_auth`[^5].
+This mechanism is mutually exclusive with `env_key`, `experimental_bearer_token` and `requires_openai_auth`[^5].
 
 ### Google Cloud ADC for Vertex AI
 
-The command-based auth pattern is exactly how you wire up Google Cloud's Application Default Credentials. Issue #1106 tracks first-class Vertex AI support[^6], but today you can configure it as a custom provider using `gcloud` as the token source:
+Command-based auth is how you wire up Google Cloud Application Default Credentials. Issue #1106 tracks first-class Vertex AI support[^6], but you can already configure it as a custom provider using `gcloud` as the token source:
 
 ```toml
 model = "gemini-2.5-pro"
@@ -115,7 +117,7 @@ model_provider = "vertex"
 [model_providers.vertex]
 name = "Google Vertex AI"
 base_url = "https://us-central1-aiplatform.googleapis.com/v1/projects/YOUR_PROJECT/locations/us-central1/publishers/google/models"
-wire_api = "chat"
+wire_api = "responses"
 
 [model_providers.vertex.auth]
 command = "gcloud"
@@ -124,18 +126,18 @@ timeout_ms = 5000
 refresh_interval_ms = 300000
 ```
 
-Ensure you have run `gcloud auth application-default login` and enabled the Vertex AI API in your project[^6]. Set `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` in your shell environment for consistency.
+Run `gcloud auth application-default login` and enable the Vertex AI API in your project first[^6]. Set `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` in your shell for consistency.
 
-⚠️ Note: Vertex AI is not yet a first-class built-in provider. The base URL path structure may vary depending on the model family and API version. Test with a simple completion before committing to a workflow.
+Vertex AI is not yet a first-class built-in provider. The base URL path structure varies by model family and API version. Test with a single completion before committing to a workflow.
 
-## Production-Ready Provider Recipes
+## Production-ready provider recipes
 
 ### Azure OpenAI
 
-Azure uses the Responses API but requires an API version query parameter[^1]:
+Azure uses the Responses API but needs an API version query parameter[^1]:
 
 ```toml
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_provider = "azure"
 
 [model_providers.azure]
@@ -153,7 +155,7 @@ The higher `stream_max_retries` value compensates for Azure's occasional mid-str
 
 ### Amazon Bedrock
 
-Since v0.123.0, Bedrock has a built-in provider with AWS SigV4 signing[^2]. You do not need to define it manually — just set `model_provider = "amazon-bedrock"` and configure your AWS profile:
+Bedrock is a built-in provider with AWS SigV4 signing[^2]. You do not need to define it manually. Set `model_provider = "amazon-bedrock"` and configure your AWS profile:
 
 ```bash
 export AWS_PROFILE=codex-dev
@@ -161,9 +163,9 @@ export AWS_REGION=us-east-1
 codex --model us.anthropic.claude-sonnet-4-20250514 --provider amazon-bedrock
 ```
 
-### OpenAI Data Residency
+### OpenAI data residency
 
-For organisations with data residency requirements, override the default OpenAI endpoint with a region-specific URL[^1]:
+For organisations with data residency requirements, override the default OpenAI endpoint with a region-specific URL[^1]. OpenAI supports residency in the EU, US, UK, Canada, Japan, South Korea, Singapore, India, Australia and the UAE:
 
 ```toml
 model_provider = "openaidr"
@@ -174,11 +176,11 @@ base_url = "https://eu.api.openai.com/v1"
 wire_api = "responses"
 ```
 
-Replace the `eu` prefix with your designated region (`us`, `eu`, etc.).
+Replace the `eu` prefix with your designated region.
 
-### LiteLLM Proxy for Multi-Provider Routing
+### LiteLLM proxy for multi-provider routing
 
-LiteLLM acts as a unified gateway, translating Codex requests to any supported backend — Anthropic, Google AI Studio, Mistral, Cohere, or dozens more[^7]. This is the most flexible approach for teams that need to route across multiple providers without maintaining per-provider config.
+LiteLLM (third-party, open-source) acts as a unified gateway, translating Codex requests to any supported backend: Anthropic, Google AI Studio, Mistral, Cohere and dozens more[^7]. This matters now that Codex requires the Responses API, because LiteLLM can translate Responses API requests into the native protocol of backends that do not yet support it.
 
 Start the proxy:
 
@@ -189,7 +191,7 @@ docker run -v $(pwd)/litellm_config.yaml:/app/config.yaml \
   --config /app/config.yaml
 ```
 
-With a routing config like:
+With a routing config:
 
 ```yaml
 model_list:
@@ -216,12 +218,12 @@ model_provider = "litellm"
 name = "LiteLLM Gateway"
 base_url = "http://localhost:4000"
 env_key = "LITELLM_API_KEY"
-wire_api = "chat"
+wire_api = "responses"
 ```
 
-The `drop_params: true` setting in LiteLLM is critical — it filters out request parameters that the target provider does not recognise, preventing API errors when Codex sends OpenAI-specific fields[^7].
+The `drop_params: true` setting in LiteLLM is critical. It filters out request parameters the target provider does not recognise, preventing API errors when Codex sends OpenAI-specific fields[^7].
 
-## Provider Configuration Flow
+## Provider configuration flow
 
 ```mermaid
 flowchart LR
@@ -235,43 +237,41 @@ flowchart LR
     end
     subgraph Transport ["Wire Protocol"]
         E["wire_api = 'responses'"]
-        F["wire_api = 'chat'"]
     end
     A --> B
     B --> C
     B --> D
     B --> E
-    B --> F
-    E --> G["OpenAI / Azure endpoints"]
-    F --> H["Third-party / OSS endpoints"]
+    E --> G["All endpoints (Responses API)"]
 ```
 
-## Debugging Provider Issues
+## Debugging provider issues
 
 When a custom provider misbehaves, work through this checklist:
 
-1. **Verify `wire_api`** — Third-party providers almost always need `chat`. OpenAI and Azure need `responses`.
-2. **Check the base URL** — Some providers require a `/v1` suffix; others do not. Trailing slashes matter.
-3. **Inspect auth** — Run your `auth.command` manually and verify the token output. Check that `env_key` points to a set variable.
-4. **Enable verbose logging** — Run `codex --log-level debug` to see the full request/response cycle, including headers and endpoint URLs.
-5. **Test streaming** — Some providers support completions but fail on SSE streaming. Increase `stream_idle_timeout_ms` or adjust retry counts.
-6. **Confirm model name** — The `model` value in `config.toml` is passed directly to the provider. Azure uses deployment names; Vertex uses full model paths.
+1. **Verify `wire_api`** — must be `responses`. If your provider only supports Chat Completions, route through a translation proxy such as LiteLLM.
+2. **Check the base URL** — some providers need a `/v1` suffix; others do not. Trailing slashes matter.
+3. **Inspect auth** — run your `auth.command` manually and verify the token output. Check that `env_key` points to a set variable.
+4. **Enable verbose logging** — run `codex --log-level debug` to see the full request/response cycle, including headers and endpoint URLs.
+5. **Test streaming** — some providers support completions but fail on SSE streaming. Increase `stream_idle_timeout_ms` or adjust retry counts.
+6. **Confirm model name** — the `model` value in `config.toml` is passed directly to the provider. Azure uses deployment names; Vertex uses full model paths.
 
-## Enterprise Considerations
+## Enterprise considerations
 
 For teams deploying Codex across an organisation:
 
-- **Profile-scoped providers** — Use `[profiles.<name>]` sections to define per-environment provider overrides, letting developers switch between staging and production endpoints[^5].
-- **Credentials store** — Set `cli_auth_credentials_store = "keyring"` to store tokens in the system keychain rather than plain files[^5].
-- **Forced login method** — Restrict authentication to a specific flow with `forced_login_method = "chatgpt"` or `"api"` to enforce corporate SSO paths[^5].
-- **Custom headers for audit** — Use `http_headers` or `env_http_headers` to inject correlation IDs, tenant identifiers, or compliance tags into every request[^1].
+- **Profile-scoped providers** — use `[profiles.<name>]` sections to define per-environment provider overrides, letting developers switch between staging and production endpoints[^5].
+- **Credentials store** — set `cli_auth_credentials_store = "keyring"` to store tokens in the system keychain rather than plain files[^5].
+- **Forced login method** — restrict authentication to a specific flow with `forced_login_method = "chatgpt"` or `"api"` to enforce corporate SSO paths[^5].
+- **Custom headers for audit** — use `http_headers` or `env_http_headers` to inject correlation IDs, tenant identifiers or compliance tags into every request[^1].
 
 ## Citations
 
-[^1]: [Advanced Configuration – Codex CLI, OpenAI Developers](https://developers.openai.com/codex/config-advanced)
-[^2]: [Changelog – Codex CLI, OpenAI Developers](https://developers.openai.com/codex/changelog) — v0.122.0 provider runtime abstraction, v0.123.0–0.124.0 Bedrock support
-[^3]: [Models – Codex CLI, OpenAI Developers](https://developers.openai.com/codex/models)
-[^4]: [Config basics – Codex CLI, OpenAI Developers](https://developers.openai.com/codex/config-basic)
-[^5]: [Configuration Reference – Codex CLI, OpenAI Developers](https://developers.openai.com/codex/config-reference)
-[^6]: [Feature: Implement Extensible Provider Framework & Add Google Vertex AI Support with ADC — Issue #1106, openai/codex](https://github.com/openai/codex/issues/1106)
-[^7]: [OpenAI Codex — LiteLLM Documentation](https://docs.litellm.ai/docs/tutorials/openai_codex)
+[^1]: [Advanced Configuration, Codex CLI, OpenAI Developers](https://developers.openai.com/codex/config-advanced)
+[^2]: [Changelog, Codex CLI, OpenAI Developers](https://developers.openai.com/codex/changelog)
+[^3]: [Models, Codex CLI, OpenAI Developers](https://developers.openai.com/codex/models)
+[^4]: [Config basics, Codex CLI, OpenAI Developers](https://developers.openai.com/codex/config-basic)
+[^5]: [Configuration Reference, Codex CLI, OpenAI Developers](https://developers.openai.com/codex/config-reference)
+[^6]: [Feature: Implement Extensible Provider Framework and Add Google Vertex AI Support with ADC, Issue #1106, openai/codex](https://github.com/openai/codex/issues/1106)
+[^7]: [OpenAI Codex, LiteLLM Documentation](https://docs.litellm.ai/docs/tutorials/openai_codex)
+[^8]: [Deprecating chat/completions support in Codex, Discussion #7782, openai/codex](https://github.com/openai/codex/discussions/7782)
