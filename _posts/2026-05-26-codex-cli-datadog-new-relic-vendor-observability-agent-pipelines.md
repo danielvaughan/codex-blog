@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI with Datadog and New Relic: Vendor-Specific Observability for Agent Pipelines"
 parent: "Articles"
-nav_order: 868
+nav_order: 874
 tags: ["codex-cli", "datadog", "new-relic", "observability", "mcp", "agent-pipelines", "monitoring"]
 ---
 
