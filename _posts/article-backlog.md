@@ -2,7 +2,7 @@
 
 ## Gap-Identified Ideas (2026-05-26 Article Rating Run)
 
-1. **Codex CLI for Mobile CI: Fastlane, Bitrise, and App Center Integration** — Gap carried from 2026-05-25; no article addresses mobile-specific CI/CD pipelines with Codex CLI despite Fastlane and Bitrise being dominant in iOS/Android delivery
+1. ✅ **Codex CLI for Mobile CI: Fastlane, Bitrise, and App Center Integration** — Written 2026-05-26 → `2026-05-26-codex-cli-mobile-ci-cd-fastlane-mcp-bitrise-app-store-connect-workflows.md` (adjusted title: App Center retired March 2025, replaced with App Store Connect and Firebase App Distribution coverage)
 2. **Codex CLI with Confluence and Notion: Knowledge-Base MCP Integration** — Both platforms have MCP servers; no article covers using Codex CLI to read, search, and update team knowledge bases
 3. **The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes** — Meta-analysis across all 12+ Gravel Path editions; which harness patterns transfer, which are stack-specific, and where agent ROI is highest
 4. ✅ **MCP Server Testing and Quality Assurance: Building Reliable Tool Integrations** — Written 2026-05-26 → `2026-05-26-mcp-server-testing-quality-assurance-unit-integration-inspector.md`
