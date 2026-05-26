@@ -52,7 +52,7 @@ The following ideas were identified during the article rating run on 2026-05-25 
 
 1. ✅ **Agent Testing Frameworks: Unit and Integration Testing for Agent Behaviour** — Written 2026-05-25 → `2026-05-25-agent-testing-frameworks-unit-integration-testing-agent-behaviour.md`
 2. ✅ **Codex CLI for Mobile CI: Fastlane, Bitrise, and Agent-Driven Build Pipelines** — Written 2026-05-25 → `2026-05-25-codex-cli-mobile-ci-fastlane-bitrise-agent-driven-build-pipelines.md`
-3. 📝 **Premium: Agent Retirement and Decommissioning — The Missing Lifecycle Phase** — The Factory Factory (premium-40) identifies agent retirement as a Level 3 concern but the series lacks a standalone treatment. When should agents be decommissioned? How do you measure whether an agent still delivers value? What happens to its harness, data, and downstream consumers?
+3. ✅ **Premium: Agent Retirement and Decommissioning — The Missing Lifecycle Phase** — Written 2026-05-26 → `2026-05-26-agent-retirement-decommissioning-missing-lifecycle-phase.md`
 4. ✅ **Codex CLI with Datadog and New Relic: Vendor-Specific Observability for Agent Pipelines** — Written 2026-05-26 → `2026-05-26-codex-cli-datadog-new-relic-vendor-observability-agent-pipelines.md`
 5. **Premium: The Citation Lifecycle — When AI-Specific Claims Expire** — Carried forward from 2026-05-24; still relevant. Premium articles 01-15 contain 2025-era citations that the articles themselves critique as dated.
 
