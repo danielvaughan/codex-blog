@@ -1,13 +1,13 @@
 ---
 title: Articles Index
-description: "Last updated: 2026-05-25 Total articles rated: 919"
+description: "Last updated: 2026-05-26 Total articles rated: 930"
 nav_order: 1
 ---
 
 # Articles Index
 
-**Last updated:** 2026-05-25
-**Total articles rated:** 919
+**Last updated:** 2026-05-26
+**Total articles rated:** 930
 
 ## Rating Scale
 
@@ -47,6 +47,7 @@ Each article is rated 1-5 on four dimensions:
 | [The Fundamentals Paradox: Why Decades-Old Software Principles Are the Real AI Advantage](../premium-articles/17-the-fundamentals-paradox.md) | 4 | 4 | 4 | 5 | 4.2 | Premium series; Heavily sourced |
 | [The Cognitive Load Paradox: Why Agentic Development Is Exhausting the People It Was Meant to Help](../premium-articles/16-the-cognitive-load-paradox.md) | 4 | 4 | 3 | 5 | 4.0 | Premium series |
 | [The Factory Factory: Three Levels of Agentic Leverage](../premium-articles/40-the-factory-factory.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Category-defining; BMW iFactory parallel; Three-level framework; NanoClaw case study; Masterful pacing; Highly shareable |
+| [The Gravel Track: From Enterprise Tech Stack to Working Agentic System](../premium-articles/41-the-gravel-track-enterprise-agentic-stack.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Gravel Path applied to real enterprise stack; Salesforce Agentforce + pgvector + Elasticsearch + LoginRadius; Day-by-day implementation; Multi-LLM orchestration; 10 citations; Highly shareable |
 | [The Process Engineer: Capturing Business Processes for Agent Implementation](../premium-articles/premium-37-the-process-engineer.md) | 4 | 5 | 4 | 5 | 4.5 | Premium series; SECI model; Process mining; BPMN; Original role definition; Personal voice; Heavily sourced |
 | [Goal Mode Without the Cloud: Persistent Agentic Loops on a $4,699 NVIDIA Box](../premium-articles/38-goal-mode-local-models-gb10.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Technical investigation; Five failure points mapped; GB10 + Qwen 3.6; MCPMark data; Original and practical |
 | [The Thermal Dividend: Using a DGX Spark to Heat Your Hot Water](../premium-articles/39-the-thermal-dividend-gb10-hot-water.md) | 4 | 5 | 4 | 5 | 4.5 | Premium series; Highly original; Heata comparison; Thermal arithmetic; Engineering feasibility; Double-spend principle; Shareable |
@@ -947,9 +948,20 @@ Each article is rated 1-5 on four dimensions:
 | [Codex CLI v0.133: Goal Mode Goes GA](2026-05-22-codex-v133-goal-mode-ga.md) | 3 | 2 | 3 | 3 | 2.8 | Release summary; Goal mode GA coverage; Brief |
 | [Codex CLI: State of Play — May 2026](2026-05-23-codex-cli-state-of-play.md) | 3 | 2 | 3 | 3 | 2.8 | Snapshot/overview; Agentic stack summary; Brief |
 | [Codex CLI 0.130.0 and Chrome Extension Launch](2026-05-14-codex-cli-0130-and-chrome-extension.md) | 2 | 2 | 2 | 2 | 2.0 | Changelog notes; Brief |
+| [Agent Retirement and Decommissioning: The Missing Lifecycle Phase](2026-05-26-agent-retirement-decommissioning-missing-lifecycle-phase.md) | 4 | 5 | 4 | 4 | 4.3 | Gap fill from previous run; Ghost agents framing; CAV framework; Decommissioning checklist; Mermaid; 9 citations |
+| [Codex CLI in GitHub Codespaces: Devcontainer Configuration, Prebuilds, and Cloud Agent Workflows](2026-05-26-codex-cli-github-codespaces-devcontainer-prebuilds-secrets-cloud-agent-workflows.md) | 5 | 4 | 4 | 4 | 4.3 | Deep dive; Three-tier secrets; Bubblewrap sandbox-in-sandbox; Prebuilds; Org governance; 15 citations; Mermaid |
+| [Codex CLI with Datadog and New Relic: Vendor-Specific Observability for Agent Pipelines](2026-05-26-codex-cli-datadog-new-relic-vendor-observability-agent-pipelines.md) | 4 | 3 | 4 | 4 | 3.8 | Gap fill; Both vendor MCP servers; Toolset selection; Rate limits; Incident-driven workflows; 7 citations; Mermaid |
+| [Codex CLI for Ansible Development: MCP Servers, Playbook Generation, and Infrastructure Automation Workflows](2026-05-26-codex-cli-ansible-development-mcp-servers-playbook-generation-infrastructure-automation.md) | 4 | 3 | 4 | 4 | 3.8 | Three-layer MCP landscape; AAP + ADT + ansible.mcp; AGENTS.md template; FQCN enforcement; 12 citations; Mermaid |
+| [Codex CLI for MongoDB Development: MCP Server, Agent Skills, and Document Modelling Workflows](2026-05-26-codex-cli-mongodb-development-mcp-server-agent-skills-document-modelling-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | 41+ tools; Agent Skills package; Performance Advisory; Voyage AI embeddings; 9 citations |
+| [Codex CLI for MySQL Development: MCP Servers, Schema Exploration, and Query Workflows on MySQL 9.7](2026-05-26-codex-cli-mysql-development-mcp-servers-schema-exploration-query-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Five MCP servers compared; MySQL 9.7 LTS; Aurora RDS Data API; Google Toolbox; 8 citations |
+| [Codex CLI for Redis Development: MCP Server, Agent Skills, and Production Caching Workflows](2026-05-26-codex-cli-redis-development-mcp-server-agent-skills-caching-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Two official MCP servers; Agent skills; Redis 8.6; Valkey compat; Eight use-case domains; 8 citations |
+| [Codex CLI for Search Engineering: Elasticsearch, Meilisearch, and Typesense MCP Servers](2026-05-26-codex-cli-search-engineering-elasticsearch-meilisearch-typesense-mcp-servers.md) | 4 | 3 | 4 | 4 | 3.8 | Three engines; Elastic Agent Builder migration; Deprecation narrative; Multi-transport config; 7 citations |
+| [Codex CLI with Slack MCP Servers: ChatOps, Channel Automation, and Team Notification Workflows](2026-05-26-codex-cli-slack-mcp-servers-chatops-channel-automation-team-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Three servers; DCR limitation documented; Stealth mode; ChatOps patterns; GitHub MCP composition; 11 citations; Mermaid |
+| [Codex CLI for Tauri Desktop Development: MCP Servers, IPC Debugging, and Cross-Platform Agent Workflows](2026-05-26-codex-cli-tauri-desktop-development-mcp-servers-ipc-rust-agent-workflows.md) | 4 | 3 | 4 | 3 | 3.6 | Niche audience; Two community MCP servers; Dual-language architecture; IPC inspection; 9 citations |
+
 ## Summary Statistics
 
-- **Total articles:** 903
+- **Total articles:** 930
 - **Average composite:** 3.5
 - **Highest composite:** 5.0
 - **Lowest composite:** 2.0
@@ -965,17 +977,26 @@ Each article is rated 1-5 on four dimensions:
 7. **Mapping OWASP's Top 10 Against Codex CLI's Security Architecture** (4.8)
 8. **The Agent SDK Landscape** (4.8)
 9. **The Assembly Line: Why Validation Capacity Is Your AI Bottleneck** (4.8)
-10. **The Factory Factory: Three Levels of Agentic Leverage** (4.8)
+10. **The Factory Factory / The Gravel Track** (4.8 each)
 
 ### Score Distribution
 
-- **4.0+:** 262 articles
-- **3.5-3.9:** 497 articles
+- **4.0+:** 265 articles
+- **3.5-3.9:** 505 articles
 - **3.0-3.4:** 78 articles
 - **2.5-2.9:** 32 articles
 - **< 2.5:** 34 articles
 
-### Changes This Run (2026-05-25)
+### Changes This Run (2026-05-26)
+
+- **Added 11 new articles:** 1 premium (41-The Gravel Track), 10 regular from 2026-05-26 (Agent Retirement, GitHub Codespaces, Datadog/New Relic, Ansible, MongoDB, MySQL, Redis, Search Engineering, Slack MCP, Tauri Desktop)
+- **New premium highlight:** The Gravel Track (4.8) applies the Gravel Path concept to a real enterprise stack — Salesforce Agentforce, pgvector on Heroku Postgres, Elasticsearch kNN, LoginRadius auth, and multi-LLM orchestration. Day-by-day implementation plan, practical SQL/Python code, and an excellent "three things that will go wrong" section. One of the strongest in the series for enterprise practitioners.
+- **Notable regular additions:** Agent Retirement (4.3) fills the gap identified last run — original "ghost agents" framing, CAV measurement framework, and a detailed decommissioning checklist. GitHub Codespaces (4.3) is the deepest CDE-specific article in the library — three-tier secrets, bubblewrap sandbox-in-sandbox architecture, and org governance. The database articles (MongoDB, MySQL, Redis) close the major gap in database MCP coverage — all five major open-source databases now have dedicated articles.
+- **Gaps closed from previous run:** Agent retirement/decommissioning (flagged in 2026-05-25 run) delivered as standalone article. Datadog/New Relic vendor observability (flagged in 2026-05-25 run) delivered. Mobile CI (Fastlane/Bitrise) remains open.
+- **Gaps identified:** No article yet on **Codex CLI for mobile CI** (Fastlane, Bitrise, App Center integration). No coverage of **Codex CLI with Confluence/Notion** for knowledge-base integration. The premium series lacks a **retrospective on the Gravel Path editions** — a meta-analysis of which technology stacks produce the best agent-assisted outcomes. No article on **MCP server testing and quality assurance** (testing your own MCP servers). No article on **Codex CLI for Zig or Nim** (emerging systems languages).
+- **Citation freshness:** All new articles cite May 2026 sources. Premium articles 01-15 citation freshness review still pending.
+
+### Changes Previous Run (2026-05-25)
 
 - **Added 16 new articles:** 3 premium (38-Goal Mode Local Models, 39-Thermal Dividend, 40-The Factory Factory), 13 regular from 2026-05-23/24/25 (Hooks After GA, Python SDK, GitHub MCP, Observability series expansion, Spring Boot 4, Terraform, Firebase, Flutter, GCP, Vercel, Nix/NixOS, Ruby/Rails, Rust)
 - **New premium highlights:** The Factory Factory (4.8) is a category-defining essay — the BMW iFactory parallel and three-level leverage framework make it one of the strongest pieces in the series. Goal Mode Without the Cloud (4.8) is equally strong — rigorous technical investigation of local models with Codex CLI, five failure-point analysis, and practical test plan. The Thermal Dividend (4.5) is the most original piece in the library — nobody else is writing about recovering waste heat from AI inference hardware to heat domestic hot water.

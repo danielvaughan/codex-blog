@@ -1,5 +1,15 @@
 # Article Backlog
 
+## Gap-Identified Ideas (2026-05-26 Article Rating Run)
+
+1. **Codex CLI for Mobile CI: Fastlane, Bitrise, and App Center Integration** — Gap carried from 2026-05-25; no article addresses mobile-specific CI/CD pipelines with Codex CLI despite Fastlane and Bitrise being dominant in iOS/Android delivery
+2. **Codex CLI with Confluence and Notion: Knowledge-Base MCP Integration** — Both platforms have MCP servers; no article covers using Codex CLI to read, search, and update team knowledge bases
+3. **The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes** — Meta-analysis across all 12+ Gravel Path editions; which harness patterns transfer, which are stack-specific, and where agent ROI is highest
+4. **MCP Server Testing and Quality Assurance: Building Reliable Tool Integrations** — No coverage of how to test custom MCP servers — unit tests, integration tests, mock transports, error handling verification
+5. **Codex CLI for Zig and Nim: Emerging Systems Languages** — Existing coverage spans Go, Rust, C/C++, but not the next wave of systems languages gaining traction in 2026
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-26, Hourly Article Run)
 
 ### Codex CLI in GitHub Codespaces
