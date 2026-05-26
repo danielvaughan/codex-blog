@@ -2,6 +2,13 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-26, Hourly Article Run)
 
+### Codex CLI for Ansible Development
+
+1. ✅ **Codex CLI for Ansible Development: MCP Servers, Playbook Generation, and Infrastructure Automation Workflows** — Written 2026-05-26 → `2026-05-26-codex-cli-ansible-development-mcp-servers-playbook-generation-infrastructure-automation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Terraform, Pulumi, Kubernetes, Docker, and a brief Ansible mention in a multi-tool IaC survey (2026-03-30) but no article provided a dedicated deep-dive on Ansible despite Red Hat's official AAP MCP server shipping as technology preview in AAP 2.6.4 (February 2026) with 6 specialised toolsets (job management, inventory management, system monitoring, user management, security compliance, platform configuration), the Ansible Development Tools MCP server providing STDIO-based content authoring (lint, scaffold, navigate, execute), the ansible.mcp collection enabling bidirectional MCP integration from Ansible playbooks, ansible-core 2.20.4 and Ansible community package 13.5.0 being current, and Ansible remaining the dominant procedural configuration management tool
+   - Scope: Three MCP server layers (AAP platform operations with 6 toolsets over HTTPS, ADT development tooling over STDIO, ansible.mcp collection for bidirectional integration), config.toml for STDIO and HTTP servers with bearer token auth and tool-level approval gating, AGENTS.md template for Ansible projects (FQCN enforcement, anti-hallucination rules for ansible-core 2.20/Ansible 13, Molecule testing, EE builder), four workflow patterns (playbook generation with lint validation loop, infrastructure audit with AAP integration, role development with Molecule/Podman testing, batch inventory audit with codex exec and --output-schema), server composition (ADT + AAP + GitHub MCP), model selection for YAML-heavy workflows, sandbox configuration for Molecule container pulls, security considerations (SSH keys, vault passwords, approval gating for job launches, FQCN enforcement), limitations (technology preview status, vault handling, EDA gaps, training data lag, token budget)
+   - SEO targets: "codex cli ansible", "ansible mcp server codex", "codex cli ansible development", "codex cli playbook generation", "ansible automation platform mcp", "codex cli ansible lint", "codex cli infrastructure automation"
+
 ### Codex CLI for MongoDB Development
 
 1. ✅ **Codex CLI for MongoDB Development: MCP Server, Agent Skills, and Document Modelling Workflows** — Written 2026-05-26 → `2026-05-26-codex-cli-mongodb-development-mcp-server-agent-skills-document-modelling-workflows.md`

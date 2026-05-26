@@ -1,7 +1,7 @@
 ---
 title: "Does Pi Outperform Codex CLI for Local Models? A Harness Comparison on the NVIDIA GB10"
 date: 2026-04-18T23:00:00+00:00
-last_modified_at: 2026-05-26T07:39:57+01:00
+last_modified_at: 2026-05-26T08:24:54+01:00
 categories: [codex-cli, pi, local-models, benchmarks, nvidia-gb10, ollama]
 description: "The system prompt tax is the cost you pay before your coding agent writes a single line of code."
 ---
