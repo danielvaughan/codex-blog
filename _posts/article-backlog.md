@@ -2,6 +2,18 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-26, Hourly Article Run)
 
+### Codex CLI with Slack MCP Servers
+
+1. ✅ **Codex CLI with Slack MCP Servers: ChatOps, Channel Automation, and Team Notification Workflows** — Written 2026-05-26 → `2026-05-26-codex-cli-slack-mcp-servers-chatops-channel-automation-team-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Slack briefly in a general integrations article (2026-03-27) and workspace agents (2026-04-24) but no article addressed Slack MCP servers despite Slack launching an official MCP server at mcp.slack.com/mcp with Streamable HTTP and OAuth 2.0, korotovsky/slack-mcp-server providing 18 tools with STDIO/SSE/HTTP transports and stealth mode, the archived @modelcontextprotocol/server-slack remaining functional for basic workflows, Codex CLI's native @Codex Slack integration supporting cloud task creation, and ChatOps being the primary trigger mechanism for engineering team automation
+   - SEO targets: "codex cli slack", "slack mcp server codex", "codex cli chatops", "codex cli slack integration", "codex cli team notifications", "slack mcp server config.toml", "codex cli channel automation"
+
+### Codex CLI for Tauri Desktop Development
+
+1. ✅ **Codex CLI for Tauri Desktop Development: MCP Servers, IPC Debugging, and Cross-Platform Agent Workflows** — Written 2026-05-26 → `2026-05-26-codex-cli-tauri-desktop-development-mcp-servers-ipc-rust-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Swift/SwiftUI, Kotlin/Android, Flutter, React Native, game development (Unity/Godot), and Electron-based desktop tools but no article addressed Tauri despite Tauri v2.11.2 being current stable (May 2026), two dedicated MCP servers (hypothesi/mcp-server-tauri with 21 tools and dirvine/tauri-mcp with process/window/input tools), multiple Tauri development agent skills, Tauri's unique dual-language (TypeScript frontend + Rust backend) architecture creating specific IPC debugging and cross-platform challenges for agent-assisted development, and Tauri replacing Electron as the default desktop app framework for performance-conscious teams
+   - SEO targets: "codex cli tauri", "tauri mcp server codex", "codex cli desktop development", "codex cli tauri v2", "tauri ipc debugging codex", "codex cli rust desktop", "codex cli cross-platform desktop"
+
 ### Codex CLI for Search Engineering
 
 1. ✅ **Codex CLI for Search Engineering: Elasticsearch, Meilisearch, and Typesense MCP Servers** — Written 2026-05-26 → `2026-05-26-codex-cli-search-engineering-elasticsearch-meilisearch-typesense-mcp-servers.md`
