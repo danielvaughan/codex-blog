@@ -10,6 +10,16 @@
 
 ---
 
+## New Articles — Scheduled Daily Task (2026-05-27, Hourly Article Run)
+
+### Codex CLI v0.134.0 Release Guide
+
+1. ✅ **Codex CLI v0.134.0 Release Guide: Conversation History Search, MCP Concurrency, and Profile Migration** — Written 2026-05-27 → `2026-05-27-codex-cli-v0134-release-guide-conversation-history-search-mcp-concurrency-profile-migration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.134.0 shipped 26 May 2026 with conversation history search, concurrent readOnlyHint MCP tool execution, per-server environment targeting, profile selector unification with legacy table rejection, tool schema compaction, and richer extension/hook context including subagent identity — no existing article covered this release
+   - SEO targets: "codex cli v0.134", "codex cli conversation history search", "codex cli readOnlyHint", "codex cli concurrent MCP tools", "codex cli profile migration", "codex cli config.toml profiles"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-26, Hourly Article Run)
 
 ### Codex CLI in GitHub Codespaces
