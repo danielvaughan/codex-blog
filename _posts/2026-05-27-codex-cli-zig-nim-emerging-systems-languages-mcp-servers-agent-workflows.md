@@ -155,7 +155,7 @@ Create an `AGENTS.md` in the project root encoding Zig-specific rules:
 
 ## Anti-Hallucination
 - Use nimlangserver MCP for completion and hover verification.
-- Do NOT assume module paths — verify with `zig_document_symbols`.
+- Do NOT assume module paths — verify with nimlangserver MCP hover or completion.
 ```
 
 ## Workflow Patterns

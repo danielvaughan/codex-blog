@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.134.0 Release Guide: Conversation History Search, MCP Concurrency, and Profile Migration"
 parent: "Articles"
-nav_order: 882
+nav_order: 885
 tags: ["codex-cli", "release", "v0.134.0", "conversation-history", "MCP", "readOnlyHint", "profiles", "config.toml"]
 ---
 
