@@ -6,7 +6,7 @@
 2. ✅ **Codex CLI with Confluence and Notion: Knowledge-Base MCP Integration** — Written 2026-05-27 → `2026-05-27-codex-cli-confluence-notion-knowledge-base-mcp-integration.md`
 3. **The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes** — Meta-analysis across all 12+ Gravel Path editions; which harness patterns transfer, which are stack-specific, and where agent ROI is highest
 4. ✅ **MCP Server Testing and Quality Assurance: Building Reliable Tool Integrations** — Written 2026-05-26 → `2026-05-26-mcp-server-testing-quality-assurance-unit-integration-inspector.md`
-5. **Codex CLI for Zig and Nim: Emerging Systems Languages** — Existing coverage spans Go, Rust, C/C++, but not the next wave of systems languages gaining traction in 2026
+5. ✅ **Codex CLI for Zig and Nim: Emerging Systems Languages** — Written 2026-05-27 → `2026-05-27-codex-cli-zig-nim-emerging-systems-languages-mcp-servers-agent-workflows.md`
 
 ---
 
