@@ -12,6 +12,12 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-27, Hourly Article Run)
 
+### Codex CLI and MCP Server Discovery
+
+1. ✅ **Codex CLI and MCP Server Discovery: Navigating Registries, Smithery, Glama, and the Official MCP Registry** — Written 2026-05-27 → `2026-05-27-codex-cli-mcp-server-discovery-registries-smithery-glama-official-registry.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered MCP server discovery despite 27,000+ servers indexed across four major registries (Official Registry, Glama, mcp.so, Smithery), MCPfinder providing agent-native discovery, Smithery CLI offering install automation, and .well-known/mcp.json emerging as a protocol-level discovery standard in MCP v2.1
+   - SEO targets: "codex cli mcp registry", "mcp server discovery", "smithery mcp codex", "glama mcp servers", "official mcp registry", "mcpfinder codex cli", "mcp config.toml discovery"
+
 ### Codex CLI v0.134.0 Release Guide
 
 1. ✅ **Codex CLI v0.134.0 Release Guide: Conversation History Search, MCP Concurrency, and Profile Migration** — Written 2026-05-27 → `2026-05-27-codex-cli-v0134-release-guide-conversation-history-search-mcp-concurrency-profile-migration.md`
@@ -23,6 +29,12 @@
 1. ✅ **Codex CLI with Dagger: Container-Use MCP, Programmable Pipelines, and LLM-Native CI/CD** — Written 2026-05-27 → `2026-05-27-codex-cli-dagger-container-use-programmable-pipelines-llm-agent-ci-cd.md`
    - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered GitHub Actions, GitLab CI, monorepo CI optimisation, and self-healing pipelines but no article addressed Dagger despite Dagger v0.20.8 shipping LLM integration as a first-class pipeline primitive, Container-Use (v0.4.2) providing an MCP server for isolated agent development containers with Git-backed branches, Dagger supporting typed pipeline functions in Go/Python/TypeScript/PHP/Java, Dagger Cloud Checks replacing third-party CI platforms, and .dagger/lock providing supply chain pinning
    - SEO targets: "codex cli dagger", "dagger container-use codex", "dagger mcp server codex", "codex cli programmable pipelines", "dagger llm ci/cd", "codex cli container isolation", "dagger agent ci"
+
+### Codex CLI for Azure DevOps
+
+1. ✅ **Codex CLI for Azure DevOps: MCP Server, Work Item Triage, Pipeline Debugging, and Agent Workflows** — Written 2026-05-27 → `2026-05-27-codex-cli-azure-devops-mcp-server-work-items-pipelines-repos-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered AWS, GCP, GitHub Actions, GitLab CI, Jira, Linear, and Slack integrations but no article addressed Azure DevOps despite Microsoft's official @azure-devops/mcp server shipping 77 tools across nine domains (core, work, work-items, search, test-plans, repositories, wiki, pipelines, advanced-security), the Azure DevOps Remote MCP Server entering public preview in March 2026 with Streamable HTTP at mcp.dev.azure.com, the community Tiberriver256/mcp-server-azure-devops offering on-premises support, and Azure DevOps remaining one of the most widely used enterprise DevOps platforms
+   - SEO targets: "codex cli azure devops", "azure devops mcp server codex", "codex cli work items", "codex cli azure pipelines", "azure devops mcp config.toml", "codex cli enterprise devops", "codex cli sprint automation"
 
 ---
 
