@@ -12,7 +12,7 @@ tags: ["codex-cli", "mcp", "confluence", "notion", "knowledge-base", "atlassian"
 
 Knowledge bases are where institutional memory lives — and where it goes to die. Engineering teams document decisions in Confluence, product teams track specs in Notion, and six months later nobody can find any of it. Codex CLI's MCP integration turns both platforms into queryable, writable context sources, letting an agent search your team's knowledge base, pull relevant context into a coding session, and push documentation updates back — all without leaving the terminal.
 
-This article covers the three MCP server options for Confluence, the official Notion MCP server with its 18 tools, and practical workflows for reading, searching, and updating team knowledge bases from Codex CLI.
+This article covers the three MCP server options for Confluence, the official Notion MCP server with its 22 tools, and practical workflows for reading, searching, and updating team knowledge bases from Codex CLI.
 
 ## The MCP Server Landscape
 
@@ -65,20 +65,20 @@ Several additional options exist: a .NET server for Confluence Cloud REST v2, a 
 
 ### Notion: The Official MCP Server
 
-Notion's official MCP server (`makenotion/notion-mcp-server`) reached v2.0.0 with the migration to the Notion API 2025-09-03, introducing data sources as the primary database abstraction [^5]. The latest release targets API version 2026-03-11 and provides 18 tools [^6]:
+Notion's official MCP server (`makenotion/notion-mcp-server`) reached v2.0.0 with the migration to the Notion API 2025-09-03, introducing data sources as the primary database abstraction [^5]. The latest release targets API version 2026-03-11 and provides 22 tools [^6]:
 
 | Category | Tools |
 |---|---|
-| **Search** | `notion-search` |
-| **Pages** | `notion-fetch`, `notion-create-pages`, `notion-update-page`, `notion-move-pages`, `notion-duplicate-page` |
-| **Databases** | `notion-create-database`, `notion-update-data-source`, `notion-query-data-sources`, `notion-query-database-view` |
-| **Views** | `notion-create-view`, `notion-update-view` |
-| **Comments** | `notion-create-comment`, `notion-get-comments` |
-| **Users** | `notion-get-teams`, `notion-get-users`, `notion-get-user`, `notion-get-self` |
+| **Search** | `search` |
+| **Pages** | `retrieve-page-content`, `create-page`, `update-page-properties`, `append-block`, `update-block`, `delete-block`, `move-page` |
+| **Data Sources** | `query-data-source`, `retrieve-a-data-source`, `update-a-data-source`, `create-a-data-source`, `list-data-source-templates` |
+| **Databases** | `retrieve-a-database` |
+| **Comments** | `retrieve-comments`, `create-comment`, `update-comment`, `delete-comment` |
+| **Users** | `retrieve-user`, `list-all-users` |
 
 Notion offers two deployment modes:
 
-**Hosted (recommended):** Notion runs the server at `https://mcp.notion.com/sse` with OAuth authentication. This is where Notion is investing active development [^7].
+**Hosted (recommended):** Notion runs the server at `https://mcp.notion.com/mcp` with OAuth authentication via Streamable HTTP. This is where Notion is investing active development [^7].
 
 **Local STDIO:** The `makenotion/notion-mcp-server` npm package runs locally with a `NOTION_TOKEN` integration token.
 

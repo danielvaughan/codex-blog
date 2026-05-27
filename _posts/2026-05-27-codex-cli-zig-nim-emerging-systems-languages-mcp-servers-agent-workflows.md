@@ -107,7 +107,7 @@ The zig-skills package provides 57 reference files targeting Zig 0.16.0, coverin
 npx -y skills add https://github.com/nzrsky/zig-skills
 ```
 
-Or scope to a project by copying the `.codex/` directory from the repository into your project root. This gives Codex CLI verified, version-specific guidance that prevents generation of deprecated patterns like `@cImport` (removed in 0.16 in favour of the build system's translate-c package)[^1][^4].
+Or scope to a project by copying the `.codex/` directory from the repository into your project root. This gives Codex CLI verified, version-specific guidance that prevents generation of deprecated patterns like `@cImport` (deprecated in 0.16 in favour of the build system's translate-c package, with full removal planned for a future release)[^1][^4].
 
 ### AGENTS.md for Zig Projects
 
@@ -118,7 +118,7 @@ Create an `AGENTS.md` in the project root encoding Zig-specific rules:
 
 ## Language Version
 - Target: Zig 0.16.0. Do NOT use APIs from 0.14 or earlier.
-- `@cImport` is REMOVED. Use build system translate-c package.
+- `@cImport` is DEPRECATED (removal planned for 0.17). Use build system translate-c package.
 - Use `std.Io` for async I/O (new in 0.16), not legacy patterns.
 - Package dependencies live in `zig-pkg/` directory.
 
