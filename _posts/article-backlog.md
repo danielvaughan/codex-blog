@@ -1,5 +1,20 @@
 # Article Backlog
 
+## Gap-Identified Ideas (2026-05-27 Article Rating Run)
+
+1. 📝 **Codex CLI for Ruby on Rails: Agent-Assisted Development, MCP Servers, and Rails 8 Workflows** — No article covers Ruby/Rails despite Rails 8 shipping solid-cache, solid-queue, and Kamal 2; multiple community MCP servers exist for Rails console, ActiveRecord, and RSpec
+   - SEO targets: "codex cli ruby", "rails mcp server codex", "codex cli rails development", "ruby agent workflows"
+2. 📝 **Codex CLI for Flutter and Dart: Cross-Platform Agent Workflows, MCP Servers, and Widget Testing** — No Flutter/Dart coverage despite Flutter 3.32 and Dart 3.8; DartPad MCP and flutter-mcp-server exist
+   - SEO targets: "codex cli flutter", "dart mcp server codex", "codex cli cross-platform mobile", "flutter agent development"
+3. 📝 **Codex CLI for Rust Development: codex-rs, cargo MCP, and Systems Programming Agent Workflows** — The Codex CLI rewrite (codex-rs) is in Rust yet no article covers Rust development with the tool; rust-analyzer MCP bridge and cargo-mcp exist
+   - SEO targets: "codex cli rust", "rust mcp server codex", "codex-rs rust development", "codex cli cargo"
+4. 📝 **MCP Server Health Monitoring at Scale: Heartbeats, Circuit Breakers, and Observability for Multi-Server Configurations** — No article on monitoring MCP server health when running 5+ servers; startup failures, timeout tuning, and reconnection strategies
+   - SEO targets: "mcp server monitoring", "codex cli mcp health", "mcp server circuit breaker", "codex cli mcp observability"
+5. 📝 **The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes** — Meta-analysis across all 12+ Gravel Path editions; which harness patterns transfer, which are stack-specific, and where agent ROI is highest (carried from previous run)
+   - SEO targets: "gravel path retrospective", "agentic engineering stack comparison", "best stack for ai agents", "gravel path results"
+
+---
+
 ## Agent Instruction Files Cross-Tool Portability
 
 1. ✅ **Agent Instruction Files: AGENTS.md, CLAUDE.md, and Cross-Tool Portability with Codex CLI** — Written 2026-05-27 → `2026-05-27-agent-instruction-files-agents-md-claude-md-cross-tool-portability-codex-cli.md`
