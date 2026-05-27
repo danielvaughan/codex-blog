@@ -4,7 +4,7 @@
 
 1. ✅ **Codex CLI for Ruby on Rails: Agent-Assisted Development, MCP Servers, and Rails 8 Workflows** — Written 2026-05-27 → `2026-05-27-codex-cli-ruby-on-rails-agent-assisted-development-mcp-servers-rails-8-workflows.md`
    - SEO targets: "codex cli ruby", "rails mcp server codex", "codex cli rails development", "ruby agent workflows"
-2. 📝 **Codex CLI for Flutter and Dart: Cross-Platform Agent Workflows, MCP Servers, and Widget Testing** — No Flutter/Dart coverage despite Flutter 3.32 and Dart 3.8; DartPad MCP and flutter-mcp-server exist
+2. ✅ **Codex CLI for Flutter and Dart: Cross-Platform Agent Workflows, MCP Servers, and Widget Testing** — Written 2026-05-27 → `2026-05-27-codex-cli-flutter-dart-cross-platform-agent-workflows-mcp-servers-widget-testing.md`
    - SEO targets: "codex cli flutter", "dart mcp server codex", "codex cli cross-platform mobile", "flutter agent development"
 3. 📝 **Codex CLI for Rust Development: codex-rs, cargo MCP, and Systems Programming Agent Workflows** — The Codex CLI rewrite (codex-rs) is in Rust yet no article covers Rust development with the tool; rust-analyzer MCP bridge and cargo-mcp exist
    - SEO targets: "codex cli rust", "rust mcp server codex", "codex-rs rust development", "codex cli cargo"
