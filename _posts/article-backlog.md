@@ -18,6 +18,12 @@
    - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.134.0 shipped 26 May 2026 with conversation history search, concurrent readOnlyHint MCP tool execution, per-server environment targeting, profile selector unification with legacy table rejection, tool schema compaction, and richer extension/hook context including subagent identity — no existing article covered this release
    - SEO targets: "codex cli v0.134", "codex cli conversation history search", "codex cli readOnlyHint", "codex cli concurrent MCP tools", "codex cli profile migration", "codex cli config.toml profiles"
 
+### Codex CLI with Dagger
+
+1. ✅ **Codex CLI with Dagger: Container-Use MCP, Programmable Pipelines, and LLM-Native CI/CD** — Written 2026-05-27 → `2026-05-27-codex-cli-dagger-container-use-programmable-pipelines-llm-agent-ci-cd.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered GitHub Actions, GitLab CI, monorepo CI optimisation, and self-healing pipelines but no article addressed Dagger despite Dagger v0.20.8 shipping LLM integration as a first-class pipeline primitive, Container-Use (v0.4.2) providing an MCP server for isolated agent development containers with Git-backed branches, Dagger supporting typed pipeline functions in Go/Python/TypeScript/PHP/Java, Dagger Cloud Checks replacing third-party CI platforms, and .dagger/lock providing supply chain pinning
+   - SEO targets: "codex cli dagger", "dagger container-use codex", "dagger mcp server codex", "codex cli programmable pipelines", "dagger llm ci/cd", "codex cli container isolation", "dagger agent ci"
+
 ---
 
 ## New Articles — Scheduled Daily Task (2026-05-26, Hourly Article Run)
