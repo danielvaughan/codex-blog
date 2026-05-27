@@ -6,29 +6,7 @@
 2. ✅ **Codex CLI with Confluence and Notion: Knowledge-Base MCP Integration** — Written 2026-05-27 → `2026-05-27-codex-cli-confluence-notion-knowledge-base-mcp-integration.md`
 3. **The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes** — Meta-analysis across all 12+ Gravel Path editions; which harness patterns transfer, which are stack-specific, and where agent ROI is highest
 4. ✅ **MCP Server Testing and Quality Assurance: Building Reliable Tool Integrations** — Written 2026-05-26 → `2026-05-26-mcp-server-testing-quality-assurance-unit-integration-inspector.md`
-5. ✅ **Codex CLI for Zig and Nim: Emerging Systems Languages** — Written 2026-05-27 → `2026-05-27-codex-cli-zig-nim-emerging-systems-languages-mcp-servers-agent-workflows.md`
-
----
-
-## New Articles — Scheduled Daily Task (2026-05-27, Hourly Article Run)
-
-### Codex CLI v0.134.0 Release Guide
-
-1. ✅ **Codex CLI v0.134.0 Release Guide: Conversation History Search, MCP Concurrency, and Profile Migration** — Written 2026-05-27 → `2026-05-27-codex-cli-v0134-release-guide-conversation-history-search-mcp-concurrency-profile-migration.md`
-   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.134.0 shipped 26 May 2026 with conversation history search, concurrent readOnlyHint MCP tool execution, per-server environment targeting, profile selector unification with legacy table rejection, tool schema compaction, and richer extension/hook context including subagent identity — no existing article covered this release
-   - SEO targets: "codex cli v0.134", "codex cli conversation history search", "codex cli readOnlyHint", "codex cli concurrent MCP tools", "codex cli profile migration", "codex cli config.toml profiles"
-
-### Codex CLI with Dagger
-
-1. ✅ **Codex CLI with Dagger: Container-Use MCP, Programmable Pipelines, and LLM-Native CI/CD** — Written 2026-05-27 → `2026-05-27-codex-cli-dagger-container-use-programmable-pipelines-llm-agent-ci-cd.md`
-   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered GitHub Actions, GitLab CI, monorepo CI optimisation, and self-healing pipelines but no article addressed Dagger despite Dagger v0.20.8 shipping LLM integration as a first-class pipeline primitive, Container-Use (v0.4.2) providing an MCP server for isolated agent development containers with Git-backed branches, Dagger supporting typed pipeline functions in Go/Python/TypeScript/PHP/Java, Dagger Cloud Checks replacing third-party CI platforms, and .dagger/lock providing supply chain pinning
-   - SEO targets: "codex cli dagger", "dagger container-use codex", "dagger mcp server codex", "codex cli programmable pipelines", "dagger llm ci/cd", "codex cli container isolation", "dagger agent ci"
-
-### Codex CLI for Azure DevOps
-
-1. ✅ **Codex CLI for Azure DevOps: MCP Server, Work Item Triage, Pipeline Debugging, and Agent Workflows** — Written 2026-05-27 → `2026-05-27-codex-cli-azure-devops-mcp-server-work-items-pipelines-repos-agent-workflows.md`
-   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered AWS, GCP, GitHub Actions, GitLab CI, Jira, Linear, and Slack integrations but no article addressed Azure DevOps despite Microsoft's official @azure-devops/mcp server shipping 77 tools across nine domains (core, work, work-items, search, test-plans, repositories, wiki, pipelines, advanced-security), the Azure DevOps Remote MCP Server entering public preview in March 2026 with Streamable HTTP at mcp.dev.azure.com, the community Tiberriver256/mcp-server-azure-devops offering on-premises support, and Azure DevOps remaining one of the most widely used enterprise DevOps platforms
-   - SEO targets: "codex cli azure devops", "azure devops mcp server codex", "codex cli work items", "codex cli azure pipelines", "azure devops mcp config.toml", "codex cli enterprise devops", "codex cli sprint automation"
+5. **Codex CLI for Zig and Nim: Emerging Systems Languages** — Existing coverage spans Go, Rust, C/C++, but not the next wave of systems languages gaining traction in 2026
 
 ---
 
