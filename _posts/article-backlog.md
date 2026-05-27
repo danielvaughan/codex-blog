@@ -12,6 +12,12 @@
 
 ## New Articles — Scheduled Daily Task (2026-05-27, Hourly Article Run)
 
+### Codex CLI with the Postman MCP Server
+
+1. ✅ **Codex CLI with the Postman MCP Server: API Lifecycle Automation, Collection Management, and Test Workflows** — Written 2026-05-27 → `2026-05-27-codex-cli-postman-mcp-server-api-lifecycle-testing-collection-management.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered API-first development, OpenAPI generation, Sentry MCP, GitHub MCP, and various database MCP servers but no article addressed the official Postman MCP server (postmanlabs/postman-mcp-server v2.8.9) despite Postman having 35M+ registered developers, the MCP server exposing 100+ tools across workspaces/collections/environments/mock servers/monitors/specifications in three profiles (minimal/code/full), supporting both Streamable HTTP and STDIO transports with OAuth and API key auth, and Codex CLI v0.134.0 adding OAuth support for remote MCP servers
+   - SEO targets: "codex cli postman", "postman mcp server codex", "codex cli api testing", "codex cli postman collection", "postman mcp server config.toml", "codex cli api lifecycle", "codex cli postman environment"
+
 ### Codex CLI and MCP Server Discovery
 
 1. ✅ **Codex CLI and MCP Server Discovery: Navigating Registries, Smithery, Glama, and the Official MCP Registry** — Written 2026-05-27 → `2026-05-27-codex-cli-mcp-server-discovery-registries-smithery-glama-official-registry.md`
