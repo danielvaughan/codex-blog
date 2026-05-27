@@ -10,6 +10,14 @@
 
 ---
 
+### MCP readOnlyHint Concurrent Tool Execution
+
+1. ✅ **MCP readOnlyHint in Codex CLI: Tool-Level Concurrent Execution Without the Server Flag** — Written 2026-05-27 → `2026-05-27-codex-cli-mcp-readonlyhint-concurrent-tool-execution-annotations-parallelism.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing article (2026-05-04) covered server-level `supports_parallel_tool_calls` but no article addressed the v0.134.0 tool-granular `readOnlyHint` concurrent execution mechanism (PR #23750), MCP tool annotations specification (readOnlyHint, destructiveHint, idempotentHint, openWorldHint), cross-client annotation usage (Codex CLI, Claude Code, ChatGPT, VS Code Copilot), or the annotation adoption gap despite 9,400+ registered MCP servers
+   - SEO targets: "codex cli readOnlyHint", "mcp tool annotations codex", "codex cli concurrent mcp tools", "readOnlyHint mcp parallel", "codex cli v0.134 mcp concurrency", "mcp tool annotations performance", "codex cli mcp parallel execution"
+
+---
+
 ## New Articles — Scheduled Daily Task (2026-05-27, Hourly Article Run)
 
 ### Codex CLI with the Postman MCP Server
