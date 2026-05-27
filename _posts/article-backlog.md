@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Instruction Files Cross-Tool Portability
+
+1. ✅ **Agent Instruction Files: AGENTS.md, CLAUDE.md, and Cross-Tool Portability with Codex CLI** — Written 2026-05-27 → `2026-05-27-agent-instruction-files-agents-md-claude-md-cross-tool-portability-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered AGENTS.md patterns (monorepo, advanced, bloat, cross-tool standard) and instruction stacks but no article mapped the full landscape of agent instruction files (AGENTS.md, CLAUDE.md, GEMINI.md, .cursorrules/.mdc, copilot-instructions.md, .windsurfrules) with a concrete single-source-of-truth strategy, portability matrix, symlink approach, and research-backed best practices from Gloaguen et al. (2026) showing LLM-generated instruction files decrease success rates
+   - SEO targets: "agents.md vs claude.md", "codex cli agents.md", "cross-tool instruction portability", "agents.md best practices", "claude.md vs agents.md", "cursor rules vs agents.md", "ai coding agent instruction files"
+
+---
+
 ## Gap-Identified Ideas (2026-05-26 Article Rating Run)
 
 1. ✅ **Codex CLI for Mobile CI: Fastlane, Bitrise, and App Center Integration** — Written 2026-05-26 → `2026-05-26-codex-cli-mobile-ci-cd-fastlane-mcp-bitrise-app-store-connect-workflows.md` (adjusted title: App Center retired March 2025, replaced with App Store Connect and Firebase App Distribution coverage)
