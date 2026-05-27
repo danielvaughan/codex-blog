@@ -6,7 +6,7 @@
    - SEO targets: "codex cli ruby", "rails mcp server codex", "codex cli rails development", "ruby agent workflows"
 2. ✅ **Codex CLI for Flutter and Dart: Cross-Platform Agent Workflows, MCP Servers, and Widget Testing** — Written 2026-05-27 → `2026-05-27-codex-cli-flutter-dart-cross-platform-agent-workflows-mcp-servers-widget-testing.md`
    - SEO targets: "codex cli flutter", "dart mcp server codex", "codex cli cross-platform mobile", "flutter agent development"
-3. 📝 **Codex CLI for Rust Development: codex-rs, cargo MCP, and Systems Programming Agent Workflows** — The Codex CLI rewrite (codex-rs) is in Rust yet no article covers Rust development with the tool; rust-analyzer MCP bridge and cargo-mcp exist
+3. ✅ **Codex CLI for Rust Development: codex-rs, cargo MCP, and Systems Programming Agent Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-rust-development-codex-rs-cargo-mcp-systems-programming-agent-workflows.md`
    - SEO targets: "codex cli rust", "rust mcp server codex", "codex-rs rust development", "codex cli cargo"
 4. 📝 **MCP Server Health Monitoring at Scale: Heartbeats, Circuit Breakers, and Observability for Multi-Server Configurations** — No article on monitoring MCP server health when running 5+ servers; startup failures, timeout tuning, and reconnection strategies
    - SEO targets: "mcp server monitoring", "codex cli mcp health", "mcp server circuit breaker", "codex cli mcp observability"
