@@ -2,7 +2,7 @@
 
 ## Gap-Identified Ideas (2026-05-27 Article Rating Run)
 
-1. 📝 **Codex CLI for Ruby on Rails: Agent-Assisted Development, MCP Servers, and Rails 8 Workflows** — No article covers Ruby/Rails despite Rails 8 shipping solid-cache, solid-queue, and Kamal 2; multiple community MCP servers exist for Rails console, ActiveRecord, and RSpec
+1. ✅ **Codex CLI for Ruby on Rails: Agent-Assisted Development, MCP Servers, and Rails 8 Workflows** — Written 2026-05-27 → `2026-05-27-codex-cli-ruby-on-rails-agent-assisted-development-mcp-servers-rails-8-workflows.md`
    - SEO targets: "codex cli ruby", "rails mcp server codex", "codex cli rails development", "ruby agent workflows"
 2. 📝 **Codex CLI for Flutter and Dart: Cross-Platform Agent Workflows, MCP Servers, and Widget Testing** — No Flutter/Dart coverage despite Flutter 3.32 and Dart 3.8; DartPad MCP and flutter-mcp-server exist
    - SEO targets: "codex cli flutter", "dart mcp server codex", "codex cli cross-platform mobile", "flutter agent development"
