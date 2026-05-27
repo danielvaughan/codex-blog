@@ -10,6 +10,14 @@
 
 ---
 
+### MCP Tool Poisoning Defence Patterns
+
+1. ✅ **MCP Tool Poisoning and Codex CLI: Attack Taxonomy, Defence Patterns, and Production Hardening** — Written 2026-05-27 → `2026-05-27-mcp-tool-poisoning-codex-cli-defence-patterns-hook-gating-registry-trust.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered MCP security (CVE hardening, OAuth, Snyk MCP, supply chain AGENTS.md injection, credential management) but no article addressed MCP tool poisoning specifically despite OWASP formally cataloguing the attack, the MCP-38 threat taxonomy identifying 38 threat categories, Invariant Labs demonstrating practical exfiltration via poisoned tools, controlled testing showing 84.2% success with auto-approval, and ETDI proposing cryptographic signing as a mitigation
+   - SEO targets: "mcp tool poisoning codex", "codex cli mcp security", "tool poisoning defence", "mcp rug pull codex", "codex cli PreToolUse mcp guard", "mcp tool shadowing", "codex cli mcp approval gating"
+
+---
+
 ### MCP readOnlyHint Concurrent Tool Execution
 
 1. ✅ **MCP readOnlyHint in Codex CLI: Tool-Level Concurrent Execution Without the Server Flag** — Written 2026-05-27 → `2026-05-27-codex-cli-mcp-readonlyhint-concurrent-tool-execution-annotations-parallelism.md`

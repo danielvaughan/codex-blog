@@ -2,7 +2,7 @@
 title: "WebRTC Realtime Voice in Codex CLI: Voice Selection, Session Architecture, and Production Readiness"
 description: "As of the April 9 alpha batch, WebRTC is the default realtime transport in Codex CLI . This is not a minor configuration tweak — it rewires how voice flows."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-05-27T14:15:00+01:00
+last_modified_at: 2026-05-27T16:14:14+01:00
 tags: ["webrtc", "voice", "realtime", "voice-selection", "gpt-realtime", "transport", "production", "codex-cli"]
 ---
 ![Sketchnote diagram for: WebRTC Realtime Voice in Codex CLI: Voice Selection, Session Architecture, and Production Readiness](/sketchnotes/articles/2026-04-10-webrtc-realtime-voice-codex-cli.png)
