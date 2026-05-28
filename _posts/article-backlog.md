@@ -10,7 +10,7 @@
    - SEO targets: "codex cli rust", "rust mcp server codex", "codex-rs rust development", "codex cli cargo"
 4. ✅ **MCP Server Health Monitoring at Scale: Heartbeats, Circuit Breakers, and Observability for Multi-Server Configurations** — Written 2026-05-28 → `2026-05-28-mcp-server-health-monitoring-at-scale-heartbeats-circuit-breakers-observability.md`
    - SEO targets: "mcp server monitoring", "codex cli mcp health", "mcp server circuit breaker", "codex cli mcp observability"
-5. 📝 **The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes** — Meta-analysis across all 12+ Gravel Path editions; which harness patterns transfer, which are stack-specific, and where agent ROI is highest (carried from previous run)
+5. ✅ **The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes** — Written 2026-05-28 → `2026-05-28-the-gravel-path-retrospective-which-stacks-produce-the-best-agent-assisted-outcomes.md`
    - SEO targets: "gravel path retrospective", "agentic engineering stack comparison", "best stack for ai agents", "gravel path results"
 
 ---
