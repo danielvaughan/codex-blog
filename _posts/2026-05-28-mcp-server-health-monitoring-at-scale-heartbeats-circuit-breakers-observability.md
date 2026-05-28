@@ -1,5 +1,6 @@
 ---
 title: "MCP Server Health Monitoring at Scale: Heartbeats, Circuit Breakers, and Observability for Multi-Server Configurations"
+description: "Practical patterns for monitoring multi-server MCP configurations — heartbeat protocols, circuit breakers, OpenTelemetry integration, and Grafana dashboards for production agent workflows."
 parent: "Articles"
 nav_order: 893
 tags: ["codex-cli", "mcp", "monitoring", "observability", "circuit-breaker", "opentelemetry", "grafana", "production"]

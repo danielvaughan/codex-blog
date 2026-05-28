@@ -1,5 +1,6 @@
 ---
 title: "Codex CLI for Rust Development: codex-rs, cargo MCP, and Systems Programming Agent Workflows"
+description: "How to use Codex CLI for Rust development with codex-rs, cargo MCP servers, rust-analyzer integration, and agent-driven systems programming workflows."
 parent: "Articles"
 nav_order: 892
 tags: ["codex-cli", "rust", "codex-rs", "cargo-mcp", "rust-analyzer", "mcp", "systems-programming", "agent-workflows"]

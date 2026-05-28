@@ -1,5 +1,6 @@
 ---
 title: "The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes"
+description: "A comparative analysis of how different technology stacks perform under agent-assisted development, examining which languages, frameworks, and ecosystems yield the best outcomes with Codex CLI."
 parent: "Articles"
 nav_order: 894
 tags: ["gravel-path", "harness-engineering", "codex-cli", "agentic-engineering", "retrospective", "stack-comparison", "agent-roi"]
