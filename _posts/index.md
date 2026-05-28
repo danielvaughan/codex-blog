@@ -1,13 +1,13 @@
 ---
 title: Articles Index
-description: "Last updated: 2026-05-27 Total articles rated: 942"
+description: "Last updated: 2026-05-28 Total articles rated: 962"
 nav_order: 1
 ---
 
 # Articles Index
 
-**Last updated:** 2026-05-27
-**Total articles rated:** 942
+**Last updated:** 2026-05-28
+**Total articles rated:** 962
 
 ## Rating Scale
 
@@ -84,11 +84,31 @@ Each article is rated 1-5 on four dimensions:
 | [Token Efficiency with Codex CLI: The Three-Layer Optimisation Stack](../premium-articles/draft-2026-05-20-token-efficiency-codex-cli.md) | 5 | 4 | 4 | 5 | 4.5 | Draft; Three-layer optimisation; Pricing data; Caveman analysis; Practical cost patterns |
 | [Building Agentic Business Systems with OpenAI: The Enterprise Playbook](../premium-articles/42-building-agentic-business-systems-with-openai.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Comprehensive enterprise reference; Three-layer architecture; Agents SDK + Responses API + Frontier; OpenAI cookbook sourced; Guardrails deep dive; Rich Mermaid; Highly shareable |
 | [BPMN 2.0: The Missing Specification Language for AI Agents](../premium-articles/43-bpmn2-the-missing-specification-language-for-ai-agents.md) | 5 | 5 | 4 | 5 | 4.8 | Premium series; Category-defining; Bridges process engineering and spec-driven development; Camunda/OMG/Thoughtworks sourced; BPMN-to-Agents-SDK pipeline; DMN decision tables; Rich Mermaid and XML examples |
+| [Building an Employee Onboarding Agent](../premium-articles/44-building-an-employee-onboarding-agent.md) | 5 | 4 | 4 | 5 | 4.5 | Business Agents series 1/10; Full BPMN process; Four-participant model; Working Agents SDK code; Eval suite; 16 citations |
+| [Building an Invoice Matching Agent](../premium-articles/45-building-an-invoice-matching-agent.md) | 5 | 4 | 4 | 5 | 4.5 | Business Agents series 2/10; Three-way matching; Tolerance logic; Fraud detection; BPMN; 17 citations |
+| [Building an Expense Report Processing Agent](../premium-articles/48-building-an-expense-report-processing-agent.md) | 5 | 4 | 4 | 5 | 4.5 | Business Agents series 5/10; Receipt OCR; Policy check; Fraud detection; 1,500+ lines; 13 citations |
+| [Building a Customer Support Triage Agent](../premium-articles/46-building-a-customer-support-triage-agent.md) | 5 | 4 | 3 | 5 | 4.3 | Business Agents series 3/10; Intent classification; Multi-language; Enrichment; Routing; 10 citations |
+| [Building a Vendor Risk Assessment Agent](../premium-articles/49-building-a-vendor-risk-assessment-agent.md) | 5 | 4 | 3 | 4 | 4.1 | Business Agents series 6/10; Sanctions screening; Financial analysis; Continuous monitoring; 1,485 lines; 9 citations |
+| [Building a Recruitment Screening Agent](../premium-articles/50-building-a-recruitment-screening-agent.md) | 5 | 4 | 3 | 4 | 4.1 | Business Agents series 7/10; CV parsing; Bias mitigation; Interview question generation; 1,350 lines; 9 citations |
+| [Building a Regulatory Change Monitoring Agent](../premium-articles/53-building-a-regulatory-change-monitoring-agent.md) | 5 | 4 | 3 | 4 | 4.1 | Business Agents series 10/10; Multi-jurisdictional; Impact assessment; RegTech; 1,291 lines; 7 citations |
+| [Building a Contract Review Agent](../premium-articles/47-building-a-contract-review-agent.md) | 4 | 4 | 3 | 5 | 4.0 | Business Agents series 4/10; Clause extraction; Template comparison; Risk scoring; Legal-tech; 10 citations |
+| [Building a Sales Lead Qualification Agent](../premium-articles/51-building-a-sales-lead-qualification-agent.md) | 4 | 3 | 3 | 4 | 3.5 | Business Agents series 8/10; Lead scoring; Firmographic enrichment; CRM routing; 7 citations; Fewer sources than peers |
+| [Building a Meeting Follow-up Automation Agent](../premium-articles/52-building-a-meeting-followup-agent.md) | 4 | 3 | 3 | 4 | 3.5 | Business Agents series 9/10; Transcript parsing; Action extraction; Task creation; 8 citations; Standard automation pattern |
 
 ## Articles
 
 | Article | Depth | Orig | Acc | Sub | Composite | Notes |
 |---|---|---|---|---|---|---|
+| [The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes](2026-05-28-the-gravel-path-retrospective-which-stacks-produce-the-best-agent-assisted-outcomes.md) | 5 | 5 | 4 | 5 | 4.8 | Meta-analysis across 13 Gravel Path editions; Harness friction spectrum; ROI data by stack; Four universal patterns; Faros/Anthropic/Sakasegawa sourced; 28 citations; Highly shareable |
+| [MCP Server Health Monitoring at Scale: Heartbeats, Circuit Breakers, and Observability](2026-05-28-mcp-server-health-monitoring-at-scale-heartbeats-circuit-breakers-observability.md) | 5 | 4 | 4 | 5 | 4.5 | Fills major gap; Five failure modes; Three-state circuit breaker; OTel integration; Grafana dashboards; 33 citations; Production patterns; Highly shareable |
+| [Codex CLI for Rust Development: codex-rs, cargo MCP, and Systems Programming Agent Workflows](2026-05-28-codex-cli-rust-development-codex-rs-cargo-mcp-systems-programming-agent-workflows.md) | 5 | 4 | 4 | 4 | 4.3 | Fills major gap; codex-rs architecture (65 crates); cargo-mcp 11 tools; rust-analyzer-mcp; 31 citations; Self-referential irony of using Codex to write Rust |
+| [Codex CLI for Python Type Safety: Agent-Driven Type Checking with Mypy, Pyright, ty, and Pyrefly](2026-05-28-codex-cli-python-type-safety-agent-driven-type-checking-mypy-pyright-ty-pyrefly.md) | 4 | 4 | 4 | 4 | 4.0 | Four type checkers compared; ty + Astral/OpenAI angle; Speed-determines-integration thesis; Gradual migration workflow; 22 citations |
+| [Codex CLI for Unreal Engine 5.7: MCP Servers, Blueprint Workflows, and Agent-Driven Game Development](2026-05-28-codex-cli-unreal-engine-5-7-game-development-mcp-servers-blueprint-agent-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Three MCP servers (StraySpark 207+ tools, UnrealCodex, unreal-mcp); UE5.7 PCG + Nanite; Blueprint scaffolding; 21 citations; Game dev niche filled |
+| [Codex CLI for HTMX and Hypermedia-Driven Development: Server-Rendered Fragments and Agent Workflows](2026-05-28-codex-cli-htmx-hypermedia-driven-development-server-rendered-fragments-agent-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Counter-SPA architecture; HTMX 4.0-beta; Agent-friendly-by-design argument; Fragment generation; 23 citations; Django/Flask/Go examples |
+| [Codex CLI for Marimo Reactive Notebooks: Agent Pair Programming and Data Science Workflows](2026-05-28-codex-cli-marimo-reactive-notebooks-agent-pair-programming-data-science-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Reactive DAG vs Jupyter hidden state; marimo pair skill; ACP via codex-acp; 26 citations; Pure .py storage angle |
+| [Codex CLI with Biome: Unified Linting and Formatting, Migration, and Agent-Driven Code Quality](2026-05-28-codex-cli-biome-unified-linting-formatting-migration-hooks-mcp-server.md) | 4 | 3 | 4 | 4 | 3.8 | Biome v2.3 type-aware linting; ESLint+Prettier migration; PostToolUse hooks; MCP server; 25 citations; Standard integration pattern |
+| [Codex CLI for Bun Development: Runtime, Test Runner, Database Clients, and MCP Workflows](2026-05-28-codex-cli-bun-development-runtime-test-runner-mcp-server-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Bun v1.3.14; Built-in Bun.SQL; 14x startup; Jest-compatible test runner; AGENTS.md template; 21 citations |
+| [Codex CLI for Gradle Builds: MCP Servers, Develocity, and Agent-Driven Dependency Management](2026-05-28-codex-cli-gradle-builds-mcp-servers-develocity-dependency-management-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Three MCP ecosystems (rnett, maven-tools, Develocity); Gradle 9.5.1; Tooling API; Build scan analysis; 26 citations |
 | [MCP Tool Poisoning and Codex CLI: Attack Taxonomy, Defence Patterns, and Production Hardening](2026-05-27-mcp-tool-poisoning-codex-cli-defence-patterns-hook-gating-registry-trust.md) | 5 | 5 | 4 | 5 | 4.8 | Deep dive; Three attack classes (description poisoning, tool shadowing, rug pull); Five defence layers; OWASP/Invariant Labs/ETDI sourced; Production-ready hook patterns; Rich Mermaid; Highly shareable |
 | [Agent Instruction Files: AGENTS.md, CLAUDE.md, and Cross-Tool Portability with Codex CLI](2026-05-27-agent-instruction-files-agents-md-claude-md-cross-tool-portability-codex-cli.md) | 5 | 4 | 4 | 5 | 4.5 | Deep dive; Full instruction-file landscape; Portability matrix; AAIF/Gloaguen research; Symlink strategy; Six tools compared; Mermaid; Highly shareable |
 | [Codex CLI v0.134.0 Release Guide: Conversation History Search, MCP Concurrency, and Profile Migration](2026-05-27-codex-cli-v0134-release-guide-conversation-history-search-mcp-concurrency-profile-migration.md) | 5 | 4 | 4 | 5 | 4.5 | Release guide; Six feature areas; History search; readOnlyHint concurrency; Profile unification; Schema compaction; Rich Mermaid |
@@ -973,7 +993,7 @@ Each article is rated 1-5 on four dimensions:
 
 ## Summary Statistics
 
-- **Total articles:** 930
+- **Total articles:** 950
 - **Average composite:** 3.5
 - **Highest composite:** 5.0
 - **Lowest composite:** 2.0
@@ -982,24 +1002,42 @@ Each article is rated 1-5 on four dimensions:
 
 1. **The Definitive Guide to Codex CLI Goal Mode** (5.0)
 2. **Agentic Engineering Is Not Vibe Coding** (4.8)
-3. **Codex CLI vs Claude Code: The Harness War of May 2026** (4.8)
-4. **Forward Deployed Engineers** (4.8)
-5. **Goal Mode Without the Cloud** (4.8)
-6. **Harness Engineering: The Discipline That Makes Agents Work** (4.8)
-7. **Mapping OWASP's Top 10 Against Codex CLI's Security Architecture** (4.8)
-8. **The Agent SDK Landscape** (4.8)
-9. **The Assembly Line: Why Validation Capacity Is Your AI Bottleneck** (4.8)
-10. **The Factory Factory / The Gravel Track** (4.8 each)
+3. **Building Agentic Business Systems with OpenAI** (4.8)
+4. **BPMN 2.0: The Missing Specification Language** (4.8)
+5. **Codex CLI vs Claude Code: The Harness War of May 2026** (4.8)
+6. **Forward Deployed Engineers** (4.8)
+7. **Goal Mode Without the Cloud** (4.8)
+8. **Harness Engineering: The Discipline That Makes Agents Work** (4.8)
+9. **MCP Tool Poisoning: Attack Taxonomy and Defence Patterns** (4.8)
+10. **The Gravel Path Retrospective: Which Stacks Produce the Best Outcomes** (4.8)
 
 ### Score Distribution
 
-- **4.0+:** 265 articles
-- **3.5-3.9:** 505 articles
+- **4.0+:** 280 articles
+- **3.5-3.9:** 510 articles
 - **3.0-3.4:** 78 articles
 - **2.5-2.9:** 32 articles
 - **< 2.5:** 34 articles
+- **Unrated:** 16 (taxonomy, backlog, etc.)
 
-### Changes This Run (2026-05-26)
+### Changes This Run (2026-05-28)
+
+- **Added 20 new articles:** 10 premium (44-53, the "Using Codex to Create Business Agents" series), 10 regular from 2026-05-28 (Gravel Path Retrospective, MCP Health Monitoring, Rust, Python Type Safety, Unreal Engine, HTMX, Marimo, Biome, Bun, Gradle)
+- **New premium highlights:** The Business Agents series (44-53) is a major addition — ten articles following a consistent BPMN-to-Agents-SDK pipeline across HR onboarding, invoice matching, customer support triage, contract review, expense processing, vendor risk, recruitment screening, sales qualification, meeting follow-up, and regulatory monitoring. The strongest entries are Employee Onboarding (4.5), Invoice Matching (4.5), and Expense Report Processing (4.5), all with full working code and eval suites. The weaker entries (Sales Lead 3.5, Meeting Follow-up 3.5) suffer from fewer citations and more standard automation patterns.
+- **Notable regular additions:** The Gravel Path Retrospective (4.8) is the standout — a meta-analysis across all 13 editions that defines the harness friction spectrum and proves which stacks accept agent harnesses most readily. MCP Server Health Monitoring (4.5) fills the operational gap flagged in the 2026-05-27 run with circuit breakers, OTel, and Grafana dashboards. Rust Development (4.3) finally covers codex-rs and cargo-mcp — the tool writing about itself.
+- **Gaps closed from previous runs:** Gravel Path Retrospective (flagged 2026-05-27). MCP server monitoring/health-checking (flagged 2026-05-27). Rust development with Codex CLI (flagged 2026-05-25).
+- **Gaps identified:** No article on **Codex CLI for Swift/Xcode cloud builds** (distinct from SwiftUI development). No article on **MCP server versioning and backwards compatibility** (managing breaking changes across MCP server upgrades). The Business Agents series lacks a **meta-analysis comparing agent ROI across the ten domains**. No article on **Codex CLI for embedded systems** (Arduino, ESP32, Raspberry Pi Pico). No article on **agent-to-agent communication protocols** (A2A/ACP comparison beyond passing mentions).
+- **Citation freshness:** All new articles cite May 2026 sources. Premium articles 51-53 have fewer than 8 citations each — these should be enriched with additional sourcing in a future pass. Premium articles 01-15 citation freshness review remains pending.
+
+### Changes Previous Run (2026-05-27)
+
+- **Added 12 new articles:** 2 premium (42-Building Agentic Business Systems with OpenAI, 43-BPMN 2.0 as Specification Language), 10 regular from 2026-05-27 (MCP Tool Poisoning, Agent Instruction Files, v0.134.0 Release Guide, readOnlyHint Concurrency, Dagger/Container-Use, Azure DevOps, MCP Server Discovery, Postman MCP, Confluence/Notion, Zig/Nim)
+- **New premium highlights:** Building Agentic Business Systems (4.8) and BPMN 2.0 (4.8) are both category-defining. The OpenAI enterprise playbook is the most comprehensive Agents SDK reference in the library. The BPMN article bridges process engineering with spec-driven development — a genuinely novel contribution
+- **Notable regular additions:** MCP Tool Poisoning (4.8) is the standout — OWASP-sourced taxonomy with five production defence layers makes it the library's most important security article alongside the OWASP premium piece. Agent Instruction Files (4.5) fills the cross-tool portability gap with six tools compared. The v0.134.0 Release Guide (4.5) covers the latest release comprehensively
+- **Gaps identified:** No article yet on Codex CLI for Ruby/Rails development, Flutter/Dart agent workflows, or Rust development with Codex CLI (despite codex-rs). The Gravel Path Retrospective (meta-analysis across all 12+ editions) remains unwritten. No article yet covering MCP server monitoring/health-checking at scale
+- **Citation freshness:** All AI-specific claims in new articles cite 2026 sources. Premium articles 01-15 should still be reviewed for citation freshness — some reference 2025 data with superseded numbers
+
+### Changes Previous Run (2026-05-26)
 
 - **Added 11 new articles:** 1 premium (41-The Gravel Track), 10 regular from 2026-05-26 (Agent Retirement, GitHub Codespaces, Datadog/New Relic, Ansible, MongoDB, MySQL, Redis, Search Engineering, Slack MCP, Tauri Desktop)
 - **New premium highlight:** The Gravel Track (4.8) applies the Gravel Path concept to a real enterprise stack — Salesforce Agentforce, pgvector on Heroku Postgres, Elasticsearch kNN, LoginRadius auth, and multi-LLM orchestration. Day-by-day implementation plan, practical SQL/Python code, and an excellent "three things that will go wrong" section. One of the strongest in the series for enterprise practitioners.
@@ -1018,21 +1056,6 @@ Each article is rated 1-5 on four dimensions:
 - **Citation freshness:** All new articles cite May 2026 sources. Premium articles 01-15 citation freshness review still pending from previous run.
 
 ### Changes Previous Run (2026-05-24)
-
-### Changes 2026-05-27
-
-- **Added 12 new articles:** 2 premium (42-Building Agentic Business Systems with OpenAI, 43-BPMN 2.0 as Specification Language), 10 regular from 2026-05-27 (MCP Tool Poisoning, Agent Instruction Files, v0.134.0 Release Guide, readOnlyHint Concurrency, Dagger/Container-Use, Azure DevOps, MCP Server Discovery, Postman MCP, Confluence/Notion, Zig/Nim)
-- **New premium highlights:** Building Agentic Business Systems (4.8) and BPMN 2.0 (4.8) are both category-defining. The OpenAI enterprise playbook is the most comprehensive Agents SDK reference in the library. The BPMN article bridges process engineering with spec-driven development — a genuinely novel contribution
-- **Notable regular additions:** MCP Tool Poisoning (4.8) is the standout — OWASP-sourced taxonomy with five production defence layers makes it the library's most important security article alongside the OWASP premium piece. Agent Instruction Files (4.5) fills the cross-tool portability gap with six tools compared. The v0.134.0 Release Guide (4.5) covers the latest release comprehensively
-- **Gaps identified:** No article yet on Codex CLI for Ruby/Rails development, Flutter/Dart agent workflows, or Rust development with Codex CLI (despite codex-rs). The Gravel Path Retrospective (meta-analysis across all 12+ editions) remains unwritten. No article yet covering MCP server monitoring/health-checking at scale
-- **Citation freshness:** All AI-specific claims in new articles cite 2026 sources. Premium articles 01-15 should still be reviewed for citation freshness — some reference 2025 data with superseded numbers
-
-### Changes 2026-05-26
-
-- **Added 12 new articles:** 1 premium (37-The Process Engineer), 11 regular from 2026-05-23/24 (Human Review Bottleneck, Kotlin/Android, Swift/SwiftUI, Elixir/Phoenix, Agent Observability Dashboards, LangChain Migration, WordPress, Monorepo Tooling, Astro, C/C++, GraphQL)
-- **New premium highlight:** The Process Engineer (4.5) — original role definition connecting SECI model, BPMN, and process mining to agent implementation. Strong Substack candidate with compelling "Dave retires" opening and practical toolkit
-- **Notable regular additions:** Human Review Bottleneck (4.2) stands out — Faros AI data, Zurich circular review research, and practical triage framework make it highly shareable. The platform-specific articles (Swift, Kotlin/Android, Elixir) fill important ecosystem gaps
-- **Gaps identified:** No articles yet on Rust development with Codex CLI (despite codex-rs being written in Rust), Ruby/Rails agent workflows, or Flutter/Dart. The observability article opens a theme that could expand into a series (alerting, anomaly detection, cost attribution)
 - **Citation freshness:** All AI-specific claims in new articles cite 2026 sources. Premium articles 01-15 should be reviewed for citation freshness — some reference 2025 data that may have superseded numbers
 
 ### Changes Previous Run (2026-05-23)

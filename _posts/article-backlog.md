@@ -1,5 +1,20 @@
 # Article Backlog
 
+## Gap-Identified Ideas (2026-05-28 Article Rating Run)
+
+1. ✅ **Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-swift-xcode-cloud-builds-testflight-automation-ios-cicd-workflows.md`
+   - SEO targets: "codex cli xcode cloud", "codex cli ios ci", "xcode cloud agent", "codex cli testflight"
+2. 📝 **MCP Server Versioning and Backwards Compatibility: Managing Breaking Changes Across MCP Server Upgrades** — How to version MCP servers, handle schema evolution, and migrate tools without breaking agent workflows
+   - SEO targets: "mcp server versioning", "mcp backwards compatibility", "mcp server migration", "codex cli mcp upgrade"
+3. 📝 **Business Agents ROI Retrospective: Comparing Agent Outcomes Across Ten Enterprise Domains** — Meta-analysis across the 44-53 Business Agents series: which domains deliver the highest ROI, fastest time-to-value, and lowest implementation risk
+   - SEO targets: "business agent roi", "enterprise agent comparison", "codex cli business automation roi", "agent domain analysis"
+4. 📝 **Codex CLI for Embedded Systems: Arduino, ESP32, Raspberry Pi Pico, and Constrained-Environment Agent Workflows** — Cross-compilation, PlatformIO integration, memory-constrained C/C++ patterns, and hardware-in-the-loop testing
+   - SEO targets: "codex cli arduino", "codex cli esp32", "codex cli embedded", "ai agent embedded systems"
+5. 📝 **Agent-to-Agent Communication Protocols: A2A vs ACP vs MCP Compared** — Deep comparison of Google's A2A, Zed's ACP, and Anthropic's MCP for inter-agent communication, with practical integration patterns
+   - SEO targets: "a2a vs acp vs mcp", "agent communication protocols", "codex cli a2a", "agent-to-agent protocol"
+
+---
+
 ## Marimo Reactive Notebooks (2026-05-28 Hourly Article Run)
 
 1. ✅ **Codex CLI for Marimo Reactive Notebooks: Agent Pair Programming, marimo pair, and Data Science Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-marimo-reactive-notebooks-agent-pair-programming-data-science-workflows.md`
