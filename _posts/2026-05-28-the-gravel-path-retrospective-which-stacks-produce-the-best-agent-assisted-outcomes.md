@@ -49,7 +49,7 @@ Every edition defines a single command the agent can run to verify its own work.
 
 ### 3. Sandbox boundaries
 
-Codex CLI's `full-auto` approval mode with network-disabled sandboxing appears in every edition as the constraint layer. The parent article describes this as "what the agent must not do"[^gravel-path]. The sandbox prevents the 9% bug increase that Faros AI documented across 22,000 developers using AI tools without adequate constraints[^faros-bugs].
+Codex CLI's `full-auto` approval mode with network-disabled sandboxing appears in every edition as the constraint layer. The parent article describes this as "what the agent must not do"[^gravel-path]. The sandbox prevents the bug increases that Faros AI documented across 22,000 developers using AI tools without adequate constraints — 9% in their 2025 report, rising to a striking **54%** in the 2026 dataset as AI-generated code acceptance rates climbed from 20% to 60%[^faros-bugs].
 
 ### 4. The PostToolUse ratchet
 
@@ -176,7 +176,17 @@ Anthropic's 2026 report identifies what they call the *delegation gap*: develope
 - **Medium-friction stacks (Java, C#):** Delegation rates of 20–30%, limited by compilation feedback latency
 - **High-friction stacks (SAP, Salesforce):** Delegation rates of 10–20%, limited by platform-specific tooling gaps
 
-The harness exists to push these numbers higher. Every edition that adds a PostToolUse hook, wires an additional MCP server, or tightens the AGENTS.md specification moves the delegation ceiling upwards.
+The harness exists to push these numbers higher. Every edition that adds a PostToolUse hook, wires an additional MCP server, or tightens the AGENTS.md specification moves the delegation ceiling upwards. The alternative — delegation without harness — is now quantified: Faros AI's 2026 telemetry shows bugs per developer rising 54% as unharnessed AI code acceptance rates climb[^faros-bugs], and Sonar's survey of 1,149 developers found teams spending 24% of their work week merely checking, fixing, and validating AI output[^sonar-state].
+
+## Industry validation: harness engineering as the fourth paradigm
+
+Since the Gravel Path parent article was published, harness engineering has crystallised from a niche practice into what TechTimes called "the fourth paradigm of AI engineering" — after prompting, fine-tuning, and RAG[^fourth-paradigm]. Three developments confirm the series' central thesis: the harness, not the model, is the primary lever.
+
+**OpenAI's own engineering team** now encodes what they call "golden principles" directly into their repositories — opinionated, mechanical rules that keep codebases legible and consistent for future agent runs[^openai-harness]. Their lead engineer, Ryan Lopopolo, summarised the philosophy in a single sentence: "Agents aren't hard; the Harness is hard." OpenAI also introduced a "garbage collection" pattern: background Codex tasks that scan for deviations on a regular cadence, update quality grades, and open targeted refactoring pull requests — most reviewable in under a minute and automerged. This is the ratchet principle operating at organisational scale.
+
+**LangChain's engineering team** provided the most striking empirical confirmation. In March 2026, they moved their coding agent from 30th to 5th place on Terminal Bench 2.0 without changing the underlying model — the improvement came entirely from harness optimisation[^langchain-bench]. That result independently validates the SWE-bench finding cited in the parent article: swapping the harness changes benchmark scores by 22 points; swapping the model changes them by 1.
+
+**Stack Overflow's May 2026 analysis** reframed the entire SDLC bottleneck: judgment, not code generation, is now the constraint[^stackoverflow-decision]. Smartsheet data shows automation intensity grew 55% year-over-year while 80% of AI-generated content still requires human editing. The harness exists precisely to reduce that editing burden — every PostToolUse hook that catches a lint violation before commit is one fewer judgment call the reviewer must make downstream.
 
 ## What comes next
 
@@ -197,6 +207,11 @@ The Gravel Path's core insight remains durable: you do not need six layers to st
 [^hashimoto]: Hashimoto, M. (2026). "Agent = Model + Harness." Personal blog, February 2026. https://mitchellh.com
 [^sakasegawa]: Sakasegawa, R. (2026). "AGENTS.md Best Practices: Keeping Instruction Files Under 50 Lines." May 2026 analysis.
 [^anthropic-trends]: Anthropic. (2026). "2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development." https://resources.anthropic.com/2026-agentic-coding-trends-report
-[^faros-bugs]: Faros AI. (2026). "AI Engineering Report 2026: Two Years of Telemetry from 22,000 Developers." https://www.faros.ai/research/ai-acceleration-whiplash
+[^faros-bugs]: Faros AI. (2026). "The AI Acceleration Whiplash: AI Engineering Report 2026." Two years of telemetry from 22,000 developers. Bugs per developer rose 9% in 2025, escalating to 54% in 2026 as AI code acceptance rates climbed from 20% to 60%. https://www.faros.ai/research/ai-acceleration-whiplash
 [^jetbrains-2026]: JetBrains. (2026). "Which AI Coding Tools Do Developers Actually Use at Work?" *JetBrains Research Blog*, April 2026. https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/
 [^context7]: Context7. (2026). "Context7 MCP Server: Live Documentation for Coding Agents." https://context7.com
+[^sonar-state]: Sonar. (2026). "State of Code Developer Survey Report: The Current Reality of AI Coding." Survey of 1,149 developers. 96% do not fully trust AI code; 48% always verify; teams spend 24% of work week on AI output validation. https://www.sonarsource.com/blog/state-of-code-developer-survey-report-the-current-reality-of-ai-coding
+[^fourth-paradigm]: "Harness Engineering Emerges as the Fourth Paradigm of AI Engineering." *TechTimes*, 13 May 2026. https://www.techtimes.com/articles/316587/20260513/harness-engineering-emerges-fourth-paradigm-ai-engineering.htm
+[^openai-harness]: OpenAI. (2026). "Harness engineering: leveraging Codex in an agent-first world." https://openai.com/index/harness-engineering/. See also "Unlocking the Codex harness: how we built the App Server." https://openai.com/index/unlocking-the-codex-harness/
+[^langchain-bench]: LangChain engineering team. (2026). Moved from 30th to 5th on Terminal Bench 2.0 through harness optimisation alone, without changing the underlying model. Cited in Faros AI, "Harness Engineering," May 2026. https://www.faros.ai/blog/harness-engineering
+[^stackoverflow-decision]: "Coding agents are giving everyone decision fatigue." *Stack Overflow Blog*, 21 May 2026. Smartsheet data: 55% YoY growth in automation intensity, 80% of AI-generated content requires human editing. https://stackoverflow.blog/2026/05/21/coding-agents-are-giving-everyone-decision-fatigue/
