@@ -22,7 +22,7 @@ This article maps the current instruction-file ecosystem as of May 2026, explain
 
 The format is deliberately minimal: plain Markdown with no required schema, no YAML front matter, and no special syntax [^4]. Where a `README.md` explains a project to humans, `AGENTS.md` explains it to agents — build commands, test commands, code style conventions, architectural constraints, and anything else an agent needs to work effectively.
 
-**Tool support** spans 25+ platforms: Codex CLI, Cursor, GitHub Copilot, Gemini CLI, Google Jules, VS Code, Devin, Aider, Zed, Warp, Semgrep, JetBrains Junie, and others [^3].
+**Tool support** spans 20+ platforms: Codex CLI, Cursor, GitHub Copilot, Gemini CLI, Google Jules, VS Code, Devin, Aider, Zed, Warp, Semgrep, JetBrains Junie, and others [^3].
 
 **Hierarchy rules:** the closest `AGENTS.md` to the edited file takes precedence; explicit user prompts override everything [^4]. Monorepos can maintain multiple files — OpenAI's own main repository contains 88 [^4].
 

@@ -251,7 +251,7 @@ The release also addresses several reliability issues [^1]:
 
 ```bash
 # Self-update (if installed via npm)
-npm update -g @anthropic-ai/codex
+npm update -g @openai/codex
 
 # Or via the built-in updater
 codex self-update

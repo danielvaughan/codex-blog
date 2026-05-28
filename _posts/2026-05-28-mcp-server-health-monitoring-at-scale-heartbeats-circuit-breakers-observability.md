@@ -183,8 +183,8 @@ The OpenTelemetry project published formal semantic conventions for MCP in 2026,
 | Attribute | Description | Required |
 |-----------|-------------|----------|
 | `mcp.method.name` | Request or notification method | Yes |
-| `mcp.session.id` | MCP session identifier | Yes |
-| `mcp.protocol.version` | MCP spec version | Yes |
+| `mcp.session.id` | MCP session identifier | Recommended |
+| `mcp.protocol.version` | MCP spec version | Recommended |
 | `gen_ai.tool.name` | Tool being invoked | Conditional |
 | `error.type` | Error classification | On failure |
 | `network.transport` | `pipe`, `tcp`, `websocket` | Recommended |
