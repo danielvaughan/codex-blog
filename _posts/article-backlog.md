@@ -2,7 +2,7 @@
 
 ## Gap-Identified Ideas (2026-05-28 Article Rating Run)
 
-1. ✅ **Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-swift-xcode-cloud-builds-testflight-automation-ios-cicd-workflows.md`
+1. 📝 **Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows** — Distinct from the existing SwiftUI development article; covers Xcode Cloud, remote build agents, TestFlight distribution, and App Store Connect automation
    - SEO targets: "codex cli xcode cloud", "codex cli ios ci", "xcode cloud agent", "codex cli testflight"
 2. 📝 **MCP Server Versioning and Backwards Compatibility: Managing Breaking Changes Across MCP Server Upgrades** — How to version MCP servers, handle schema evolution, and migrate tools without breaking agent workflows
    - SEO targets: "mcp server versioning", "mcp backwards compatibility", "mcp server migration", "codex cli mcp upgrade"
