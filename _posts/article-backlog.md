@@ -1,5 +1,13 @@
 # Article Backlog
 
+## HTMX and Hypermedia-Driven Development (2026-05-28 Hourly Article Run)
+
+1. ✅ **Codex CLI for HTMX and Hypermedia-Driven Development: Server-Rendered Fragments, MCP Tooling, and Agent Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-htmx-hypermedia-driven-development-server-rendered-fragments-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Next.js, Svelte, Vue/Nuxt, Astro, React, and Angular but no article addressed HTMX despite it crossing 47K GitHub stars, winning "most admired" in State of JS 2025, HTMX 4.0-beta3 shipping Fetch API migration with streaming fragments, an emerging MCP tooling ecosystem (htmx-mcp debugger, Rod browser MCP), and the htmx.org essay on MCP Apps + hypermedia architecture
+   - SEO targets: "codex cli htmx", "htmx agent development", "codex cli hypermedia", "htmx mcp server codex", "codex cli server-rendered fragments", "htmx 4.0 migration codex", "codex cli htmx django"
+
+---
+
 ## Bun Development (2026-05-28 Hourly Article Run)
 
 1. ✅ **Codex CLI for Bun Development: Runtime, Test Runner, Database Clients, and MCP-Driven Agent Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-bun-development-runtime-test-runner-mcp-server-agent-workflows.md`
