@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Bun Development (2026-05-28 Hourly Article Run)
+
+1. ✅ **Codex CLI for Bun Development: Runtime, Test Runner, Database Clients, and MCP-Driven Agent Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-bun-development-runtime-test-runner-mcp-server-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Node.js, Deno, and various JavaScript frameworks but no article addressed Bun despite it being a major JS runtime in 2026 with v1.3.14 shipping built-in database clients (Postgres, MySQL, Redis), a Jest-compatible test runner 20× faster than Jest, native TypeScript execution, and an emerging MCP server ecosystem (mcp-bun, Bun Docs MCP)
+   - SEO targets: "codex cli bun", "bun mcp server codex", "codex cli bun test", "bun development agent workflows", "codex cli bun.sql", "bun runtime codex cli", "codex cli javascript runtime"
+
+---
+
 ## Python Type Safety (2026-05-28 Hourly Article Run)
 
 1. ✅ **Codex CLI for Python Type Safety: Agent-Driven Type Checking with Mypy, Pyright, ty, and Pyrefly** — Written 2026-05-28 → `2026-05-28-codex-cli-python-type-safety-agent-driven-type-checking-mypy-pyright-ty-pyrefly.md`
