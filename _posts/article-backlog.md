@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Marimo Reactive Notebooks (2026-05-28 Hourly Article Run)
+
+1. ✅ **Codex CLI for Marimo Reactive Notebooks: Agent Pair Programming, marimo pair, and Data Science Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-marimo-reactive-notebooks-agent-pair-programming-data-science-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Jupyter notebooks and data science (Pandas, Polars) but no article addressed Marimo despite it being the leading reactive Python notebook in 2026 (v0.23.8), storing notebooks as pure .py files (agent-friendly), shipping marimo pair for agent CLI integration, supporting ACP via codex-acp adapter, and providing built-in SQL cells with DuckDB/Polars
+   - SEO targets: "codex cli marimo", "marimo pair codex", "codex cli reactive notebook", "marimo agent pair programming", "codex cli data science notebook", "marimo pair agent skill", "codex cli marimo pair"
+
+---
+
 ## Gradle Builds and Dependency Management (2026-05-28 Hourly Article Run)
 
 1. ✅ **Codex CLI for Gradle Builds: MCP Servers, Develocity Integration, and Agent-Driven Dependency Management** — Written 2026-05-28 → `2026-05-28-codex-cli-gradle-builds-mcp-servers-develocity-dependency-management-agent-workflows.md`
