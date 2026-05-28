@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Unreal Engine 5.7 Game Development (2026-05-28 Hourly Article Run)
+
+1. ✅ **Codex CLI for Unreal Engine 5.7: MCP Servers, Blueprint Workflows, and Agent-Driven Game Development** — Written 2026-05-28 → `2026-05-28-codex-cli-unreal-engine-5-7-game-development-mcp-servers-blueprint-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Unity/Godot game development but no article addressed Unreal Engine despite UE5.7 shipping with production-ready PCG and built-in AI Assistant, three mature MCP server ecosystems (StraySpark with 207+ tools, UnrealCodex with Codex CLI native integration, unreal-mcp for lightweight control), the binary .uasset challenge requiring MCP-mediated editing, and Unreal's dominant position in AAA and enterprise game development
+   - SEO targets: "codex cli unreal engine", "unreal mcp server codex", "codex cli game development", "unreal engine ai agent", "codex cli blueprint", "unreal codex mcp", "codex cli ue5"
+
+---
+
 ## Biome Unified Linting and Formatting (2026-05-28 Hourly Article Run)
 
 1. ✅ **Codex CLI with Biome: Unified Linting and Formatting, Migration from ESLint + Prettier, and Agent-Driven Code Quality** — Written 2026-05-28 → `2026-05-28-codex-cli-biome-unified-linting-formatting-migration-hooks-mcp-server.md`

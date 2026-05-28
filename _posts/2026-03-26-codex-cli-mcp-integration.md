@@ -2,7 +2,7 @@
 title: "Codex CLI MCP Integration: Connecting Agents to External Tools"
 description: "There is a pattern I have noticed across thirty years of software infrastructure decisions. A powerful tool ships with a clean interface. Then someone asks."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-05-28T12:14:11+01:00
+last_modified_at: 2026-05-28T14:19:13+01:00
 tags:
   - ecosystem
   - mcp

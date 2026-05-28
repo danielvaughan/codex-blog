@@ -2,7 +2,7 @@
 title: "MCP Server Elicitations in Codex CLI: Structured User Input, Auto-Approval, and Custom Server Patterns"
 description: "Traditional agent–tool interactions are fire-and-forget: the agent calls a tool, the tool returns a result. But production workflows frequently need a pause."
 date: 2026-04-10T07:15:00+00:00
-last_modified_at: 2026-05-28T12:14:11+01:00
+last_modified_at: 2026-05-28T14:19:13+01:00
 tags:
   - mcp-elicitation
   - structured-input

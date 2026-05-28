@@ -2,7 +2,7 @@
 title: "Codex CLI v0.133: Goal Mode Goes GA"
 description: "Codex CLI v0.133.0 (released 21 May 2026) marks Goal Mode moving from experimental to generally available."
 date: 2026-05-21T23:00:00+00:00
-last_modified_at: 2026-05-28T12:14:11+01:00
+last_modified_at: 2026-05-28T14:19:13+01:00
 ---
 
 ![Sketchnote diagram for: Codex CLI v0.133: Goal Mode Goes GA](/sketchnotes/articles/2026-05-22-codex-v133-goal-mode-ga.png)
