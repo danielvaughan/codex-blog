@@ -2,7 +2,7 @@
 title: "The Three-CLI Toolkit: Running Codex CLI, Claude Code, and Gemini CLI as a Unified Development Stack"
 description: "The terminal AI coding agent market has consolidated around three big-lab native tools: OpenAIs Codex CLI, Anthropics Claude Code."
 date: 2026-04-11T20:00:00+00:00
-last_modified_at: 2026-05-28T04:08:31+01:00
+last_modified_at: 2026-05-28T06:17:23+01:00
 tags: ["multi-tool", "claude-code", "gemini-cli", "workflow", "cost-optimisation", "mcp", "bridging-tools", "decision-framework"]
 ---
 

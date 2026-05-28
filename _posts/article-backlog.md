@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Python Type Safety (2026-05-28 Hourly Article Run)
+
+1. ✅ **Codex CLI for Python Type Safety: Agent-Driven Type Checking with Mypy, Pyright, ty, and Pyrefly** — Written 2026-05-28 → `2026-05-28-codex-cli-python-type-safety-agent-driven-type-checking-mypy-pyright-ty-pyrefly.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Python modernisation with the Astral toolchain (uv, Ruff, ty) but no article addressed the dedicated type checking workflow: integrating mypy 2.1, Pyright 1.1.409, ty 0.0.39 beta, and Pyrefly 1.0 into Codex CLI's agent loop for gradual typing migration, per-edit verification, batch annotation with codex exec, and CI enforcement
+   - SEO targets: "codex cli python type checking", "codex cli mypy", "codex cli pyright", "codex cli ty type checker", "python gradual typing agent", "codex cli type safety", "pyrefly codex cli"
+
+---
+
 ## Gap-Identified Ideas (2026-05-27 Article Rating Run)
 
 1. ✅ **Codex CLI for Ruby on Rails: Agent-Assisted Development, MCP Servers, and Rails 8 Workflows** — Written 2026-05-27 → `2026-05-27-codex-cli-ruby-on-rails-agent-assisted-development-mcp-servers-rails-8-workflows.md`
