@@ -95,7 +95,7 @@ This creates a feedback loop where the agent catches type errors within the same
 
 ### Using ty for Ultra-Fast Feedback
 
-If your project has adopted the Astral toolchain, ty provides even tighter feedback. After editing a load-bearing file in a large project, ty recomputes diagnostics in approximately 4.7ms — 80x faster than Pyright's 386ms [^6]:
+If your project has adopted the Astral toolchain, ty provides even tighter feedback. After editing a load-bearing file in a large project, ty recomputes diagnostics in approximately 4.7ms — 80× faster than Pyright's 386ms [^6]:
 
 ```bash
 # In AGENTS.md or as a post-edit hook
