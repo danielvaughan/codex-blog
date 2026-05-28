@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Biome Unified Linting and Formatting (2026-05-28 Hourly Article Run)
+
+1. ✅ **Codex CLI with Biome: Unified Linting and Formatting, Migration from ESLint + Prettier, and Agent-Driven Code Quality** — Written 2026-05-28 → `2026-05-28-codex-cli-biome-unified-linting-formatting-migration-hooks-mcp-server.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Python linting (Ruff), agent configuration linting (Agnix), and general code quality but no article addressed Biome despite it becoming the dominant unified JS/TS linter+formatter in 2026, Biome v2.3 shipping type-aware linting without tsc, 450+ rules in a single Rust binary, 35x faster than Prettier, an emerging MCP server ecosystem (biome-mcp-server, official biome_mcp_server RFC), and native monorepo support with nested biome.json
+   - SEO targets: "codex cli biome", "biome mcp server codex", "codex cli eslint migration biome", "biome hooks codex cli", "codex cli code formatting", "biome type-aware linting codex", "codex cli biome ci"
+
+---
+
 ## HTMX and Hypermedia-Driven Development (2026-05-28 Hourly Article Run)
 
 1. ✅ **Codex CLI for HTMX and Hypermedia-Driven Development: Server-Rendered Fragments, MCP Tooling, and Agent Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-htmx-hypermedia-driven-development-server-rendered-fragments-agent-workflows.md`
