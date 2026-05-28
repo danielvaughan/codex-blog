@@ -3,7 +3,7 @@ title: "The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive"
 description: "Last year I was at a car boot sale in Saffron Walden. Trestle tables covered in somebody else's past."
 featured: true
 date: 2026-04-09T16:50:00+00:00
-last_modified_at: 2026-05-28T14:19:13+01:00
+last_modified_at: 2026-05-28T16:08:53+01:00
 tags:
   - opinion
   - personal-essay

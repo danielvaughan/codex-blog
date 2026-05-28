@@ -2,7 +2,7 @@
 title: "Background Agent Streaming: From Fire-and-Forget to Observable Multi-Agent UX"
 description: "Until v0.120.0, Codex CLI's multi-agent delegation followed a fire-and-forget pattern."
 date: 2026-04-11T13:00:00+00:00
-last_modified_at: 2026-05-28T14:19:13+01:00
+last_modified_at: 2026-05-28T16:08:53+01:00
 tags: ["multi-agent", "background-agent", "realtime-v2", "streaming", "v0.120", "UX", "delegation", "agentic-pod"]
 ---
 

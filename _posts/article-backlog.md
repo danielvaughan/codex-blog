@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Gradle Builds and Dependency Management (2026-05-28 Hourly Article Run)
+
+1. ✅ **Codex CLI for Gradle Builds: MCP Servers, Develocity Integration, and Agent-Driven Dependency Management** — Written 2026-05-28 → `2026-05-28-codex-cli-gradle-builds-mcp-servers-develocity-dependency-management-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Java, Kotlin, Spring, and Android but no article addressed Gradle despite it being the dominant JVM build tool, Gradle 9.5.1 shipping May 2026, three MCP server ecosystems (rnett/gradle-mcp with Tooling API + REPL + agent skills, Develocity MCP servers for build scan analysis, maven-tools-mcp for dependency intelligence), sandbox configuration resolved in April 2026, and Declarative Gradle emerging as an agent-friendly build language
+   - SEO targets: "codex cli gradle", "gradle mcp server codex", "codex cli gradle build", "develocity mcp server", "codex cli dependency management", "gradle agent workflows", "codex cli jvm build"
+
+---
+
 ## Unreal Engine 5.7 Game Development (2026-05-28 Hourly Article Run)
 
 1. ✅ **Codex CLI for Unreal Engine 5.7: MCP Servers, Blueprint Workflows, and Agent-Driven Game Development** — Written 2026-05-28 → `2026-05-28-codex-cli-unreal-engine-5-7-game-development-mcp-servers-blueprint-agent-workflows.md`
