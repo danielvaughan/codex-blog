@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Embedded Systems: Arduino, ESP32, Raspberry Pi Pico, and Constrained-Environment Agent Workflows"
 parent: "Articles"
-nav_order: 905
+nav_order: 903
 tags: ["codex-cli", "embedded-systems", "esp32", "arduino", "raspberry-pi-pico", "platformio", "mcp", "hardware-in-the-loop", "firmware"]
 ---
 
@@ -92,20 +92,23 @@ search_espressif_sources(query, language)
 
 This eliminates a common failure mode where agents hallucinate register addresses or peripheral configurations. With the MCP server active, Codex CLI grounds its ESP32 code generation in verified official documentation rather than training data[^4].
 
-Configuration for Codex CLI (the server is a remote service, not a local process):
+Configuration for Codex CLI:
 
 ```json
 {
   "mcpServers": {
     "espressif-docs": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.espressif.com/docs"]
+      "args": ["-y", "@espressif/docs-mcp-server"],
+      "env": {
+        "ESPRESSIF_AUTH_TOKEN": "${ESPRESSIF_TOKEN}"
+      }
     }
   }
 }
 ```
 
-Authentication is handled via browser-based OAuth (GitHub or WeChat account) rather than API tokens. Rate limits apply: 40 requests/hour, 200/day per authenticated user[^4].
+Rate limits apply: 40 requests/hour, 200/day per authenticated user[^4].
 
 ---
 
@@ -258,7 +261,8 @@ A complete embedded development setup combining all the pieces:
     },
     "espressif-docs": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.espressif.com/docs"]
+      "args": ["-y", "@espressif/docs-mcp-server"],
+      "env": { "ESPRESSIF_AUTH_TOKEN": "${ESPRESSIF_TOKEN}" }
     }
   }
 }

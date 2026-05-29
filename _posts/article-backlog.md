@@ -1,21 +1,5 @@
 # Article Backlog
 
-## R Language Statistical Computing (2026-05-29 Hourly Article Run)
-
-1. ✅ **Codex CLI for R Language Development: MCP Servers, mcptools, btw, and Statistical Computing Agent Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-r-language-development-mcp-servers-mcptools-btw-statistical-computing-agent-workflows.md`
-   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Python data science (Pandas, Polars, Jupyter, Marimo) but no article addressed R despite R 4.6.0 shipping April 2026, Posit's mcptools v0.2.1 on CRAN implementing MCP for R sessions, the btw package providing documentation/environment/devtools tools, rlang-mcp-server enabling headless ggplot2 rendering, r-mcp-data-explorer supporting tidyverse/Arrow/DuckDB workflows, and Posit Connect 2026.04 deploying MCP servers with OAuth 2.1
-   - SEO targets: "codex cli r language", "r mcp server codex", "codex cli rstudio", "mcptools codex cli", "codex cli ggplot2", "r statistical computing agent", "codex cli tidyverse"
-
----
-
-## Vite 8 Frontend Development (2026-05-29 Hourly Article Run)
-
-1. ✅ **Codex CLI for Vite 8 Development: Rolldown, MCP Servers, and Agent-Driven Frontend Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-vite-8-development-rolldown-mcp-servers-agent-driven-frontend-workflows.md`
-   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Next.js, Svelte, Vue/Nuxt, Astro, React, Angular, HTMX, Bun, and Biome but no article addressed Vite despite it being the dominant frontend build tool with 65M weekly npm downloads, Vite 8.0.14 shipping Rolldown (unified Rust bundler replacing esbuild+Rollup) with 10-30x faster builds, four MCP server ecosystems (Blowback for HMR/console/screenshots, vite-plugin-vue-mcp for Vue component state, vite-react-mcp for React inspection, vitest-mcp for AI-optimised test execution), and integrated Oxc compiler for TypeScript/JSX transpilation
-   - SEO targets: "codex cli vite", "vite mcp server codex", "codex cli vite 8", "vite rolldown agent", "codex cli frontend build", "vitest mcp server", "codex cli vite development"
-
----
-
 ## Gap-Identified Ideas (2026-05-28 Article Rating Run)
 
 1. ✅ **Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-swift-xcode-cloud-builds-testflight-automation-ios-cicd-workflows.md`
@@ -26,7 +10,7 @@
    - SEO targets: "business agent roi", "enterprise agent comparison", "codex cli business automation roi", "agent domain analysis"
 4. ✅ **Codex CLI for Embedded Systems: Arduino, ESP32, Raspberry Pi Pico, and Constrained-Environment Agent Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-embedded-systems-arduino-esp32-raspberry-pi-pico-constrained-environment-agent-workflows.md`
    - SEO targets: "codex cli arduino", "codex cli esp32", "codex cli embedded", "ai agent embedded systems"
-5. ✅ **Agent-to-Agent Communication Protocols: A2A vs ACP vs MCP Compared** — Written 2026-05-29 → `2026-05-29-agent-to-agent-communication-protocols-a2a-vs-acp-vs-mcp-compared.md`
+5. 📝 **Agent-to-Agent Communication Protocols: A2A vs ACP vs MCP Compared** — Deep comparison of Google's A2A, Zed's ACP, and Anthropic's MCP for inter-agent communication, with practical integration patterns
    - SEO targets: "a2a vs acp vs mcp", "agent communication protocols", "codex cli a2a", "agent-to-agent protocol"
 
 ---

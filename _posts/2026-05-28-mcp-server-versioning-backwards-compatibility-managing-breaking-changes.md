@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Versioning and Backwards Compatibility: Managing Breaking Changes Across MCP Server Upgrades"
 parent: "Articles"
-nav_order: 903
+nav_order: 901
 tags: ["mcp", "versioning", "backwards-compatibility", "codex-cli", "migration", "breaking-changes", "schema-evolution"]
 ---
 
