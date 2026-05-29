@@ -2,7 +2,7 @@
 title: "Codex CLI: State of Play — May 2026"
 description: "OpenAIs Codex CLI has evolved from a simple terminal coding assistant into a full agentic platform. As of v0.133.0 (May 21, 2026), it includes:"
 date: 2026-05-22T23:00:00+00:00
-last_modified_at: 2026-05-29T04:10:03+01:00
+last_modified_at: 2026-05-29T06:08:46+01:00
 ---
 
 ![Sketchnote diagram for: Codex CLI: State of Play — May 2026](/sketchnotes/articles/2026-05-23-codex-cli-state-of-play.png)

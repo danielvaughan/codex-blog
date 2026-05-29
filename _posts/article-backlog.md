@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Vite 8 Frontend Development (2026-05-29 Hourly Article Run)
+
+1. ✅ **Codex CLI for Vite 8 Development: Rolldown, MCP Servers, and Agent-Driven Frontend Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-vite-8-development-rolldown-mcp-servers-agent-driven-frontend-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Next.js, Svelte, Vue/Nuxt, Astro, React, Angular, HTMX, Bun, and Biome but no article addressed Vite despite it being the dominant frontend build tool with 65M weekly npm downloads, Vite 8.0.14 shipping Rolldown (unified Rust bundler replacing esbuild+Rollup) with 10-30x faster builds, four MCP server ecosystems (Blowback for HMR/console/screenshots, vite-plugin-vue-mcp for Vue component state, vite-react-mcp for React inspection, vitest-mcp for AI-optimised test execution), and integrated Oxc compiler for TypeScript/JSX transpilation
+   - SEO targets: "codex cli vite", "vite mcp server codex", "codex cli vite 8", "vite rolldown agent", "codex cli frontend build", "vitest mcp server", "codex cli vite development"
+
+---
+
 ## Gap-Identified Ideas (2026-05-28 Article Rating Run)
 
 1. ✅ **Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-swift-xcode-cloud-builds-testflight-automation-ios-cicd-workflows.md`
