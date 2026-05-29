@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SolidJS and SolidStart Development (2026-05-29 Hourly Article Run)
+
+1. ✅ **Codex CLI for SolidJS and SolidStart Development: Fine-Grained Reactivity, MCP Tooling, and Agent-Driven Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-solidjs-solidstart-development-fine-grained-reactivity-mcp-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered React, Vue/Nuxt, Svelte/SvelteKit, Angular, Astro, Next.js, and HTMX but no article addressed SolidJS despite 35,200+ GitHub stars, ~1.49M weekly npm downloads, Solid 2.0 Beta shipping first-class async on 15 May 2026, SolidStart 2.0 alpha with DeVinxi Vite-based architecture, the solidJSkills MCP server providing agent skills for Solid 2.0 patterns, and Solid's signals paradigm influencing Angular, Vue, and the TC39 Signals proposal
+   - SEO targets: "codex cli solidjs", "solidjs mcp server codex", "codex cli solidstart", "solidjs agent development", "codex cli fine-grained reactivity", "solid 2.0 migration codex", "codex cli solidjs vitest"
+
+---
+
 ## Tailwind CSS v4 Styling Workflows (2026-05-29 Hourly Article Run)
 
 1. ✅ **Codex CLI for Tailwind CSS v4: MCP Servers, Agent Skills, and Utility-First Styling Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-tailwind-css-v4-mcp-servers-agent-skills-utility-first-styling-workflows.md`
