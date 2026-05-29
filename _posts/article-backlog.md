@@ -6,7 +6,7 @@
    - Source: Gap analysis — growing systems language (v0.14.1, May 2026) with compile-time evaluation, no GC, C interop; no existing article despite Zig's rising adoption in game engines (Bun, TigerBeetle); no MCP server coverage found
    - SEO targets: "codex cli zig", "zig mcp server", "codex cli systems programming zig", "zig agent workflows"
 
-2. 📝 **Agent Memory Persistence Patterns: Long-Term Memory Stores, RAG for Agents, and Beyond Context Compaction**
+2. ✅ **Agent Memory Persistence Patterns: Long-Term Memory Stores, RAG for Agents, and Beyond Context Compaction** — Written 2026-05-29 → `2026-05-29-agent-memory-persistence-patterns-long-term-memory-stores-rag-beyond-context-compaction.md`
    - Source: Gap analysis — premium article 08 covers context compaction, but no standalone article on persistent memory architectures (vector stores, knowledge graphs, session replay, Graphiti beyond the intro article); critical for long-running agent workflows
    - SEO targets: "agent memory persistence", "codex cli long-term memory", "rag for agents", "agent knowledge graph", "agent memory patterns"
 
