@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Netlify Development and MCP Server (2026-05-29 Hourly Article Run)
+
+1. ✅ **Codex CLI for Netlify Development: MCP Server, Deploy Previews, Agent Runners, and Edge Function Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-netlify-development-mcp-server-deploy-previews-edge-functions-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Vercel, Cloudflare, Firebase, Supabase, and various deployment platforms but no article addressed Netlify despite the official @netlify/mcp server providing project management, deployment, environment variable, and extension tools over STDIO, Netlify Agent Runners launching in March 2026 to run Codex/Claude/Gemini in isolated cloud sandboxes with production context, Netlify supporting custom MCP server hosting via serverless functions with Streamable HTTP transport, and Netlify remaining one of the most widely adopted Jamstack deployment platforms with 4M+ developers
+   - SEO targets: "codex cli netlify", "netlify mcp server codex", "codex cli netlify development", "codex cli deploy preview", "netlify agent runners codex", "codex cli edge functions", "netlify mcp config.toml"
+
+---
+
 ## PostgreSQL Development and MCP Servers (2026-05-29 Hourly Article Run)
 
 1. ✅ **Codex CLI for PostgreSQL Development: MCP Servers, Schema Intelligence, Performance Tuning, and Agent-Driven Database Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-postgresql-development-mcp-servers-schema-intelligence-performance-tuning-agent-workflows.md`
