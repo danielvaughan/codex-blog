@@ -1,13 +1,13 @@
 ---
 title: Articles Index
-description: "Last updated: 2026-05-28 Total articles rated: 962"
+description: "Last updated: 2026-05-29 Total articles rated: 973"
 nav_order: 1
 ---
 
 # Articles Index
 
-**Last updated:** 2026-05-28
-**Total articles rated:** 962
+**Last updated:** 2026-05-29
+**Total articles rated:** 973
 
 ## Rating Scale
 
@@ -99,6 +99,17 @@ Each article is rated 1-5 on four dimensions:
 
 | Article | Depth | Orig | Acc | Sub | Composite | Notes |
 |---|---|---|---|---|---|---|
+| [Business Agents ROI Retrospective: Comparing Agent Outcomes Across Ten Enterprise Domains](2026-05-29-business-agents-roi-retrospective-comparing-agent-outcomes-across-ten-enterprise-domains.md) | 5 | 4 | 4 | 5 | 4.5 | Cross-domain meta-analysis; 10 business agent domains ranked; Tier analysis; Quadrant chart; Industry benchmarks; 15 citations; Highly shareable |
+| [Planning for Token Meltdown: How to Route Local to Paid Automatically](2026-05-29-planning-for-token-meltdown-local-to-paid-routing.md) | 4 | 4 | 4 | 5 | 4.2 | Original "token meltdown" framing; LiteLLM routing architecture; Uber cost data; Tiered config; Directly actionable; 8 citations; Strong hook |
+| [Agent-to-Agent Communication Protocols: A2A vs ACP vs MCP Compared](2026-05-29-agent-to-agent-communication-protocols-a2a-vs-acp-vs-mcp-compared.md) | 4 | 4 | 4 | 4 | 4.0 | Protocol landscape mapping; MCP vs A2A vs ACP; ACP-to-A2A merger context; Codex CLI integration; 10 citations; 3 Mermaid diagrams |
+| [Codex CLI for Embedded Systems: Arduino, ESP32, Raspberry Pi Pico, and Constrained-Environment Agent Workflows](2026-05-29-codex-cli-embedded-systems-arduino-esp32-raspberry-pi-pico-constrained-environment-agent-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Underexplored niche; PlatformIO MCP v2; Sandbox-vs-hardware challenge; Safety policies; HIL testing; 8 citations |
+| [Codex CLI for R Language Development: MCP Servers, mcptools, btw, and Statistical Computing Agent Workflows](2026-05-29-codex-cli-r-language-development-mcp-servers-mcptools-btw-statistical-computing-agent-workflows.md) | 4 | 4 | 4 | 4 | 4.0 | Four MCP servers mapped; Posit mcptools + btw; ggplot2 rendering; R underserved in agent literature; 10 citations |
+| [Codex CLI for Netlify Development: MCP Server, Deploy Previews, Agent Runners, and Edge Function Workflows](2026-05-29-codex-cli-netlify-development-mcp-server-deploy-previews-edge-functions-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Official + community MCP servers; Netlify Agent Runners; Deploy preview workflows; Edge functions; 8 citations |
+| [Codex CLI for PostgreSQL Development: MCP Servers, Schema Intelligence, Performance Tuning, and Agent-Driven Database Workflows](2026-05-29-codex-cli-postgresql-development-mcp-servers-schema-intelligence-performance-tuning-agent-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Five MCP servers in three tiers; Postgres MCP Pro index simulation; pgEdge; Neon branching; 8 citations; 3 Mermaid |
+| [Codex CLI for SolidJS and SolidStart Development: Fine-Grained Reactivity, MCP Tooling, and Agent-Driven Workflows](2026-05-29-codex-cli-solidjs-solidstart-development-fine-grained-reactivity-mcp-agent-workflows.md) | 4 | 4 | 3 | 4 | 3.8 | Signals paradigm creates unique agent needs; Solid 2.0 Beta; Anti-pattern prevention; AGENTS.md template; 7 citations |
+| [Codex CLI for Tailwind CSS v4: MCP Servers, Agent Skills, and Utility-First Styling Workflows](2026-05-29-codex-cli-tailwind-css-v4-mcp-servers-agent-skills-utility-first-styling-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Three MCP servers; Oxide engine; v3-to-v4 migration; CSS-native config; Flowbite MCP; 11 citations |
+| [Codex CLI for Vite 8 Development: Rolldown, MCP Servers, and Agent-Driven Frontend Workflows](2026-05-29-codex-cli-vite-8-development-rolldown-mcp-servers-agent-driven-frontend-workflows.md) | 4 | 3 | 4 | 4 | 3.8 | Rolldown/Oxc Rust architecture; Four MCP servers; Vitest integration; AGENTS.md template; 8 citations |
+| [Codex CLI v0.135.0 Release Guide: Enhanced Doctor Diagnostics, Vim Text Objects, Memory SQLite Migration, and Python SDK Sandbox Presets](2026-05-29-codex-cli-v0135-release-guide-enhanced-doctor-vim-text-objects-memory-sqlite-python-sdk-sandbox.md) | 4 | 3 | 4 | 4 | 3.8 | Six areas covered; Doctor overhaul; Vim text objects; SQLite memory; Python SDK; 6 citations; 2 Mermaid |
 | [The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes](2026-05-28-the-gravel-path-retrospective-which-stacks-produce-the-best-agent-assisted-outcomes.md) | 5 | 5 | 4 | 5 | 4.8 | Meta-analysis across 13 Gravel Path editions; Harness friction spectrum; ROI data by stack; Four universal patterns; Faros/Anthropic/Sakasegawa sourced; 28 citations; Highly shareable |
 | [MCP Server Health Monitoring at Scale: Heartbeats, Circuit Breakers, and Observability](2026-05-28-mcp-server-health-monitoring-at-scale-heartbeats-circuit-breakers-observability.md) | 5 | 4 | 4 | 5 | 4.5 | Fills major gap; Five failure modes; Three-state circuit breaker; OTel integration; Grafana dashboards; 33 citations; Production patterns; Highly shareable |
 | [Codex CLI for Rust Development: codex-rs, cargo MCP, and Systems Programming Agent Workflows](2026-05-28-codex-cli-rust-development-codex-rs-cargo-mcp-systems-programming-agent-workflows.md) | 5 | 4 | 4 | 4 | 4.3 | Fills major gap; codex-rs architecture (65 crates); cargo-mcp 11 tools; rust-analyzer-mcp; 31 citations; Self-referential irony of using Codex to write Rust |
@@ -1021,7 +1032,16 @@ Each article is rated 1-5 on four dimensions:
 - **< 2.5:** 34 articles
 - **Unrated:** 16 (taxonomy, backlog, etc.)
 
-### Changes This Run (2026-05-28)
+### Changes This Run (2026-05-29)
+
+- **Added 11 new articles:** Business Agents ROI Retrospective (4.5), Planning for Token Meltdown (4.2), Agent-to-Agent Protocols A2A/ACP/MCP (4.0), Embedded Systems Arduino/ESP32/Pico (4.0), R Language Development (4.0), Netlify Development (3.8), PostgreSQL Development (3.8), SolidJS/SolidStart (3.8), Tailwind CSS v4 (3.8), Vite 8 Development (3.8), v0.135.0 Release Guide (3.8)
+- **Top-rated new article:** Business Agents ROI Retrospective (4.5) — cross-domain meta-analysis ranking all 10 business agent domains by ROI, time-to-value, and implementation risk. Includes quadrant chart and industry benchmarks from IBL, OneReach, Salesforce, and Beancount. Strong Substack candidate.
+- **Notable additions:** Planning for Token Meltdown (4.2) introduces the "token meltdown" framing with practical LiteLLM routing architecture — timely given Anthropic and GitHub's shift to usage-based billing. Agent-to-Agent Protocols (4.0) maps the MCP/A2A/ACP landscape and the ACP-to-A2A merger. R Language (4.0) and Embedded Systems (4.0) fill underserved niches.
+- **Gaps closed from previous run:** Embedded systems (Arduino/ESP32/Pico) delivered from 2026-05-28 gap list. Business Agents ROI cross-domain comparison closes the series retrospective gap.
+- **Gaps identified:** No article yet on **Codex CLI for Zig development** (growing systems language with no agent coverage). No article on **agent memory persistence patterns** beyond context compaction (standalone treatment of long-term memory stores, RAG for agents). No article on **Codex CLI for Bazel builds** (common in monorepos, no MCP coverage). The premium series lacks a standalone piece on **agent decommissioning and retirement** (still only touched in The Factory Factory). No article on **MCP server testing frameworks** (how to unit/integration test MCP server implementations).
+- **Citation freshness:** All new articles cite May 2026 sources. Premium articles 01-15 citation freshness review still pending.
+
+### Changes Previous Run (2026-05-28)
 
 - **Added 20 new articles:** 10 premium (44-53, the "Using Codex to Create Business Agents" series), 10 regular from 2026-05-28 (Gravel Path Retrospective, MCP Health Monitoring, Rust, Python Type Safety, Unreal Engine, HTMX, Marimo, Biome, Bun, Gradle)
 - **New premium highlights:** The Business Agents series (44-53) is a major addition — ten articles following a consistent BPMN-to-Agents-SDK pipeline across HR onboarding, invoice matching, customer support triage, contract review, expense processing, vendor risk, recruitment screening, sales qualification, meeting follow-up, and regulatory monitoring. The strongest entries are Employee Onboarding (4.5), Invoice Matching (4.5), and Expense Report Processing (4.5), all with full working code and eval suites. The weaker entries (Sales Lead 3.5, Meeting Follow-up 3.5) suffer from fewer citations and more standard automation patterns.

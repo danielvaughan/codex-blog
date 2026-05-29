@@ -1,5 +1,29 @@
 # Article Backlog
 
+## Gap-Identified Ideas (2026-05-29 Article Rating Run — Evening)
+
+1. 📝 **Codex CLI for Zig Development: Build System, Cross-Compilation, and Agent Workflows for Systems Programming**
+   - Source: Gap analysis — growing systems language (v0.14.1, May 2026) with compile-time evaluation, no GC, C interop; no existing article despite Zig's rising adoption in game engines (Bun, TigerBeetle); no MCP server coverage found
+   - SEO targets: "codex cli zig", "zig mcp server", "codex cli systems programming zig", "zig agent workflows"
+
+2. 📝 **Agent Memory Persistence Patterns: Long-Term Memory Stores, RAG for Agents, and Beyond Context Compaction**
+   - Source: Gap analysis — premium article 08 covers context compaction, but no standalone article on persistent memory architectures (vector stores, knowledge graphs, session replay, Graphiti beyond the intro article); critical for long-running agent workflows
+   - SEO targets: "agent memory persistence", "codex cli long-term memory", "rag for agents", "agent knowledge graph", "agent memory patterns"
+
+3. 📝 **Codex CLI for Bazel Builds: Remote Execution, Monorepo Patterns, and Agent-Driven Build Intelligence**
+   - Source: Gap analysis — Bazel is the dominant monorepo build system (Google, Meta, Uber); existing articles cover Gradle, Maven, and Nx but not Bazel; no MCP server coverage found; Bazel 8.x with bzlmod and remote execution is agent-relevant
+   - SEO targets: "codex cli bazel", "bazel mcp server", "codex cli monorepo build", "bazel agent workflows"
+
+4. 📝 **MCP Server Testing Frameworks: Unit Testing, Integration Testing, and Validation of MCP Server Implementations**
+   - Source: Gap analysis — MCP servers are proliferating but no article covers how to test them; unit testing tool handlers, integration testing with mock clients, conformance validation, snapshot testing of tool schemas
+   - SEO targets: "mcp server testing", "test mcp server", "mcp server unit test", "mcp conformance testing"
+
+5. 📝 **Agent Decommissioning and Retirement: Lifecycle Management for Production Agents** (Premium candidate)
+   - Source: Gap analysis — touched in premium article 40 (The Factory Factory) but deserves standalone treatment; covers agent deprecation policies, knowledge transfer before shutdown, audit trail preservation, cost wind-down, team notification
+   - SEO targets: "agent decommissioning", "ai agent lifecycle", "agent retirement", "production agent shutdown"
+
+---
+
 ## Netlify Development and MCP Server (2026-05-29 Hourly Article Run)
 
 1. ✅ **Codex CLI for Netlify Development: MCP Server, Deploy Previews, Agent Runners, and Edge Function Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-netlify-development-mcp-server-deploy-previews-edge-functions-agent-workflows.md`
