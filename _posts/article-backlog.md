@@ -2,7 +2,7 @@
 
 ## Gap-Identified Ideas (2026-05-29 Article Rating Run — Evening)
 
-1. 📝 **Codex CLI for Zig Development: Build System, Cross-Compilation, and Agent Workflows for Systems Programming**
+1. ✅ **Codex CLI for Zig Development: Build System, Cross-Compilation, and Agent Workflows for Systems Programming** — Written 2026-05-29 → `2026-05-29-codex-cli-zig-development-build-system-cross-compilation-agent-workflows.md`
    - Source: Gap analysis — growing systems language (v0.14.1, May 2026) with compile-time evaluation, no GC, C interop; no existing article despite Zig's rising adoption in game engines (Bun, TigerBeetle); no MCP server coverage found
    - SEO targets: "codex cli zig", "zig mcp server", "codex cli systems programming zig", "zig agent workflows"
 
