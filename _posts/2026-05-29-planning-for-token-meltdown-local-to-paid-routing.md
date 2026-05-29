@@ -2,7 +2,7 @@
 title: "Planning for Token Meltdown: How to Route Local to Paid Automatically"
 description: "When model providers stop subsidising token costs, your bill explodes overnight. A routing layer that tries local models first and promotes to cloud only when necessary is how you survive the transition. LiteLLM running as a local proxy gives you automatic fallback based on failures, latency, or context window limits."
 date: 2026-05-29T11:00:00+00:00
-last_modified_at: 2026-05-29T12:53:20+01:00
+last_modified_at: 2026-05-29T12:56:17+01:00
 layout: post
 tags:
   - codex-cli
@@ -21,9 +21,9 @@ tags:
 
 ## Token meltdown: when subsidies end
 
-Cloud model providers subsidise token costs to win market share. OpenAI, Anthropic and Google all price inference below cost for certain tiers. This will not last. When a provider raises prices, removes a free tier, or deprecates a cheap model, your costs spike overnight. That is token meltdown.
+Cloud model providers subsidise token costs to win market share. OpenAI lost an estimated $5 billion in 2025 while generating $3.7 billion in revenue, spending $1.35 for every dollar earned, largely on inference serving[^cost-crisis]. That subsidy is unwinding. When a provider raises prices, removes a bundled tier, or shifts to usage-based billing, your costs spike overnight. That is token meltdown.
 
-The pattern repeats across the industry. Codex Pro usage caps tightened in early 2025. GPT-4o-mini replaced GPT-3.5-turbo at different price points. Anthropic moved Claude 3 Haiku to legacy status. Each time, teams that depended entirely on cloud inference scrambled.
+It is already happening. In April 2026, Anthropic eliminated bundled token allowances from enterprise seat plans, moving every customer to metered API billing on top of the base fee[^anthropic-usage]. GitHub announced that all Copilot plans transition to usage-based AI Credits on 1 June 2026, replacing flat-rate premium requests with token billing. Uber burned through its entire 2026 AI budget in four months after Claude Code adoption jumped from 32 per cent to 84 per cent of its 5,000 engineers, with monthly API costs per engineer reaching $500–$2,000[^cost-crisis]. Per-token prices have fallen 280 times over two years, yet enterprise AI bills have risen 320 per cent in the same period because agentic workflows trigger 10–20 LLM calls per task.
 
 The mitigation is straightforward: run a local model for the majority of your requests and promote to cloud only when the local model genuinely cannot handle the task. You pay nothing for local inference, and you control when cloud spend happens. The routing layer that makes this automatic is LiteLLM[^litellm] running as a local proxy.
 
@@ -261,3 +261,5 @@ Point Codex CLI, Cline, and Foundry Toolkit at `http://127.0.0.1:4000/v1`. Done.
 [^ollama-codex]: [Codex CLI Integration, Ollama Documentation](https://docs.ollama.com/integrations/codex)
 [^config-ref]: [Configuration Reference, Codex CLI, OpenAI Developers](https://developers.openai.com/codex/config-reference)
 [^routing]: [Routing and Load Balancing, LiteLLM Documentation](https://docs.litellm.ai/docs/routing-load-balancing)
+[^cost-crisis]: [AI Inference Cost Crisis 2026: Why Your AI Bill Is Exploding, Oplexa](https://oplexa.com/ai-inference-cost-crisis-2026/)
+[^anthropic-usage]: [Anthropic Ejects Bundled Tokens from Enterprise Seat Deal, The Register, 16 April 2026](https://www.theregister.com/2026/04/16/anthropic_ejects_bundled_tokens_enterprise/)
