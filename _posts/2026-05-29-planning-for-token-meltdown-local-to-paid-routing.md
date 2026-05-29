@@ -2,7 +2,7 @@
 title: "Planning for Token Meltdown: How to Route Local to Paid Automatically"
 description: "Local models cannot natively decide to escalate. You need a routing layer. LiteLLM running as a local proxy gives you automatic fallback from fast local models to capable cloud models based on failures, latency, or context window limits."
 date: 2026-05-29T11:00:00+00:00
-last_modified_at: 2026-05-29T12:46:07+01:00
+last_modified_at: 2026-05-29T12:46:45+01:00
 layout: post
 tags:
   - codex-cli
@@ -29,30 +29,16 @@ The fix is a routing layer that sits between your tools and your models, tries t
 
 ## The architecture
 
-```
-┌─────────────┐    ┌─────────────┐    ┌──────────────┐
-│  Codex CLI  │    │   Cline     │    │ Foundry      │
-│  --provider │    │             │    │ Toolkit      │
-└──────┬──────┘    └──────┬──────┘    └──────┬───────┘
-       │                  │                  │
-       └──────────────────┼──────────────────┘
-                          │
-                          ▼
-              ┌───────────────────────┐
-              │  LiteLLM Proxy        │
-              │  http://127.0.0.1:4000│
-              │                       │
-              │  Router Strategy:     │
-              │  fast → smart → cloud │
-              └───────┬───────┬───────┘
-                      │       │
-            ┌─────────┘       └─────────┐
-            ▼                           ▼
-   ┌─────────────────┐       ┌──────────────────┐
-   │  Ollama (local)  │       │  OpenAI / Anthro  │
-   │  gpt-oss:120b    │       │  gpt-5.4-mini    │
-   │  qwen3:32b       │       │  claude-sonnet   │
-   └──────────────────┘       └──────────────────┘
+```mermaid
+graph TD
+    A["Codex CLI<br/>--provider"] --> D
+    B["Cline"] --> D
+    C["Foundry Toolkit"] --> D
+
+    D["LiteLLM Proxy<br/>http://127.0.0.1:4000<br/>Router: fast → smart → cloud"]
+
+    D --> E["Ollama (local)<br/>gpt-oss:120b<br/>qwen3:32b"]
+    D --> F["OpenAI / Anthropic<br/>gpt-5.4-mini<br/>claude-sonnet"]
 ```
 
 Every tool that speaks the OpenAI-compatible API, Codex CLI, Cline, Foundry Toolkit, points to a single URL: `http://127.0.0.1:4000/v1`. The router handles everything else.
