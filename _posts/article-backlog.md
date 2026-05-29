@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Tailwind CSS v4 Styling Workflows (2026-05-29 Hourly Article Run)
+
+1. ✅ **Codex CLI for Tailwind CSS v4: MCP Servers, Agent Skills, and Utility-First Styling Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-tailwind-css-v4-mcp-servers-agent-skills-utility-first-styling-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered shadcn/ui, Figma-to-code, Storybook, and various frontend frameworks but no article addressed Tailwind CSS despite it being the dominant utility-first CSS framework with v4.3 shipping May 2026, three MCP server ecosystems (tailwindcss-mcp-server, Flowbite MCP, MCP Tailwind Gemini), dedicated agent skills (Lombiq Tailwind-Agent-Skills, tlq5l v4 validation skill), and the v4 Oxide engine delivering 5× faster builds with CSS-native @theme configuration
+   - SEO targets: "codex cli tailwind css", "tailwind mcp server codex", "codex cli tailwind v4", "tailwind agent skills", "codex cli css styling", "flowbite mcp codex", "codex cli utility-first css"
+
+---
+
 ## Codex CLI v0.135.0 Release Guide (2026-05-29 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.135.0 Release Guide: Enhanced Doctor Diagnostics, Vim Text Objects, Memory SQLite Migration, and Python SDK Sandbox Presets** — Written 2026-05-29 → `2026-05-29-codex-cli-v0135-release-guide-enhanced-doctor-vim-text-objects-memory-sqlite-python-sdk-sandbox.md`
