@@ -2,7 +2,7 @@
 title: "Planning for Token Meltdown: How to Route Local to Paid Automatically"
 description: "Local models cannot natively decide to escalate. You need a routing layer. LiteLLM running as a local proxy gives you automatic fallback from fast local models to capable cloud models based on failures, latency, or context window limits."
 date: 2026-05-29T11:00:00+00:00
-last_modified_at: 2026-05-29T12:40:01+01:00
+last_modified_at: 2026-05-29T12:46:07+01:00
 layout: post
 tags:
   - codex-cli
@@ -55,7 +55,7 @@ The fix is a routing layer that sits between your tools and your models, tries t
    └──────────────────┘       └──────────────────┘
 ```
 
-Every tool, Codex CLI, Cline, Foundry Toolkit custom endpoints, anything that speaks the OpenAI-compatible API, points to a single URL: `http://127.0.0.1:4000/v1`. The router handles everything else.
+Every tool that speaks the OpenAI-compatible API, Codex CLI, Cline, Foundry Toolkit, points to a single URL: `http://127.0.0.1:4000/v1`. The router handles everything else.
 
 ## Setting up LiteLLM as the routing layer
 
@@ -79,7 +79,6 @@ model_list:
       model: ollama/qwen3:8b
       api_base: http://localhost:11434
       rpm: 120
-      timeout: 30
 
   # Tier 2: Smart local (larger Ollama model)
   - model_name: smart-local
@@ -87,7 +86,6 @@ model_list:
       model: ollama/qwen3:32b
       api_base: http://localhost:11434
       rpm: 30
-      timeout: 120
 
   # Tier 3: Cloud fallback (OpenAI)
   - model_name: cloud-fallback
@@ -95,7 +93,6 @@ model_list:
       model: openai/gpt-5.4-mini
       api_key: os.environ/OPENAI_API_KEY
       rpm: 200
-      timeout: 60
 
   # Tier 4: Cloud heavy (for complex reasoning)
   - model_name: cloud-heavy
@@ -103,7 +100,6 @@ model_list:
       model: openai/gpt-5.5
       api_key: os.environ/OPENAI_API_KEY
       rpm: 60
-      timeout: 180
 
 router_settings:
   routing_strategy: usage-based-routing
@@ -124,11 +120,8 @@ litellm_settings:
     - fast-local: ["smart-local", "cloud-heavy"]
     - smart-local: ["cloud-heavy"]
 
-  # Retry and timeout settings
   num_retries: 2
   request_timeout: 30
-  allowed_fails: 3
-  cooldown_time: 60
 ```
 
 ### What triggers escalation
@@ -156,9 +149,10 @@ The router promotes to the next tier when:
 [model_providers.litellm-local]
 name = "LiteLLM Local Router"
 base_url = "http://127.0.0.1:4000/v1"
-auth = "none"
+```
 
-[profiles.routed]
+```toml
+# ~/.codex/routed.config.toml
 model = "fast-local"
 model_provider = "litellm-local"
 ```
@@ -183,7 +177,7 @@ The proxy exposes the standard `/v1/chat/completions`, `/v1/completions`, and `/
 
 ## Latency-based routing
 
-The usage-based strategy above routes on failures. For a more sophisticated setup, latency-based routing promotes to cloud when the local model becomes slow under load, not just when it fails:
+The usage-based strategy above routes on failures. Latency-based routing goes further, promoting to cloud when the local model becomes slow under load, not just when it fails:
 
 ```yaml
 router_settings:
@@ -192,11 +186,11 @@ router_settings:
   # Local models are faster when idle, cloud is faster under load
 ```
 
-With latency-based routing, the proxy measures response times across all tiers. When your local GPU is saturated and response times spike from 2 seconds to 15 seconds, the router automatically shifts traffic to the cloud tier which is responding in 3 seconds. When the local model recovers, traffic shifts back.
+With latency-based routing, the proxy measures response times across all tiers. When your local GPU is saturated and response times spike from two seconds to 15 seconds, the router automatically shifts traffic to the cloud tier, which is responding in three seconds. When the local model recovers, traffic shifts back.
 
 ## Cost tracking
 
-LiteLLM tracks spend per model and per virtual key. This is how you know the routing is working:
+LiteLLM tracks spend per model and per virtual key. Use this to verify the routing works:
 
 ```yaml
 litellm_settings:
@@ -235,7 +229,7 @@ The second meltdown scenario is thermal: your GPU hits thermal limits under sust
 
 ## The configuration in practice
 
-For a developer running Codex CLI with a local Ollama instance on a machine with 32GB RAM and a 3090:
+For a developer running Codex CLI with a local Ollama instance on a machine with 32GB of RAM and a 3090:
 
 ```yaml
 model_list:
@@ -243,12 +237,14 @@ model_list:
     litellm_params:
       model: ollama/gpt-oss:120b
       api_base: http://localhost:11434
-      timeout: 45
 
   - model_name: coding-cloud
     litellm_params:
       model: openai/gpt-5.4-mini
       api_key: os.environ/OPENAI_API_KEY
+
+router_settings:
+  timeout: 45
 
 litellm_settings:
   fallbacks:
@@ -257,10 +253,9 @@ litellm_settings:
     - coding-local: ["coding-cloud"]
   num_retries: 1
   request_timeout: 45
-  cooldown_time: 30
 ```
 
-Two models. One local, one cloud. If local fails for any reason, cloud takes over. If the context window is too small, cloud takes over. Total configuration: 18 lines of YAML.
+Two models. One local, one cloud. If local fails for any reason, cloud takes over. If the context window is too small, cloud takes over. Total configuration: 19 lines of YAML.
 
 Point Codex CLI, Cline, and Foundry Toolkit at `http://127.0.0.1:4000/v1`. Done.
 
