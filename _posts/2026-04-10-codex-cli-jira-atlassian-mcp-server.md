@@ -2,7 +2,7 @@
 title: "Codex CLI and Jira: Issue-Driven Development with the Atlassian MCP Server"
 description: "Most engineering teams track work in Jira. Most AI coding agents ignore Jira entirely."
 date: 2026-04-10T12:15:00+00:00
-last_modified_at: 2026-05-29T10:26:09+01:00
+last_modified_at: 2026-05-29T11:51:59+01:00
 tags: ["jira", "atlassian", "mcp", "issue-tracking", "workflow", "project-management", "codex-cli", "automation"]
 ---
 
