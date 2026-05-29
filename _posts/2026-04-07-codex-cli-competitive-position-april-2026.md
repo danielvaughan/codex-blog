@@ -2,7 +2,7 @@
 title: "Codex CLI Competitive Position April 2026: The Road to Parity with Claude Code"
 description: "The AI coding agent market has consolidated rapidly. Three products — Claude Code, GitHub Copilot, and Cursor."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-05-29T10:19:45+01:00
+last_modified_at: 2026-05-29T10:26:09+01:00
 tags:
   - competitive-landscape
   - claude-code
