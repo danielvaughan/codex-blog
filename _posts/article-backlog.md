@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PostgreSQL Development and MCP Servers (2026-05-29 Hourly Article Run)
+
+1. ✅ **Codex CLI for PostgreSQL Development: MCP Servers, Schema Intelligence, Performance Tuning, and Agent-Driven Database Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-postgresql-development-mcp-servers-schema-intelligence-performance-tuning-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered MySQL, MongoDB, Redis, SQLite, DuckDB, Supabase, and Neon branching but no article addressed PostgreSQL directly despite it being the #1 most popular database (Stack Overflow 2025), PostgreSQL 18.4 shipping async I/O with 3x performance gains, five mature MCP server ecosystems (Reference, Postgres MCP Pro with hypothetical index simulation, pgEdge with NL queries and custom YAML tools, MCP-PostgreSQL-Ops with 30+ DBA tools, Neon with copy-on-write branching), and strong Codex CLI integration via codex mcp add
+   - SEO targets: "codex cli postgresql", "postgres mcp server codex", "codex cli database development", "postgres mcp pro codex", "codex cli schema migration", "neon mcp codex cli", "codex cli postgresql performance"
+
+---
+
 ## SolidJS and SolidStart Development (2026-05-29 Hourly Article Run)
 
 1. ✅ **Codex CLI for SolidJS and SolidStart Development: Fine-Grained Reactivity, MCP Tooling, and Agent-Driven Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-solidjs-solidstart-development-fine-grained-reactivity-mcp-agent-workflows.md`
