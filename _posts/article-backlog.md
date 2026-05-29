@@ -8,7 +8,7 @@
    - SEO targets: "mcp server versioning", "mcp backwards compatibility", "mcp server migration", "codex cli mcp upgrade"
 3. ✅ **Business Agents ROI Retrospective: Comparing Agent Outcomes Across Ten Enterprise Domains** — Written 2026-05-29 → `2026-05-29-business-agents-roi-retrospective-comparing-agent-outcomes-across-ten-enterprise-domains.md`
    - SEO targets: "business agent roi", "enterprise agent comparison", "codex cli business automation roi", "agent domain analysis"
-4. 📝 **Codex CLI for Embedded Systems: Arduino, ESP32, Raspberry Pi Pico, and Constrained-Environment Agent Workflows** — Cross-compilation, PlatformIO integration, memory-constrained C/C++ patterns, and hardware-in-the-loop testing
+4. ✅ **Codex CLI for Embedded Systems: Arduino, ESP32, Raspberry Pi Pico, and Constrained-Environment Agent Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-embedded-systems-arduino-esp32-raspberry-pi-pico-constrained-environment-agent-workflows.md`
    - SEO targets: "codex cli arduino", "codex cli esp32", "codex cli embedded", "ai agent embedded systems"
 5. 📝 **Agent-to-Agent Communication Protocols: A2A vs ACP vs MCP Compared** — Deep comparison of Google's A2A, Zed's ACP, and Anthropic's MCP for inter-agent communication, with practical integration patterns
    - SEO targets: "a2a vs acp vs mcp", "agent communication protocols", "codex cli a2a", "agent-to-agent protocol"
