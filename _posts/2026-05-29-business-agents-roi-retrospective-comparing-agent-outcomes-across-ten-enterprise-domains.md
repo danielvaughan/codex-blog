@@ -1,7 +1,7 @@
 ---
 title: "Business Agents ROI Retrospective: Comparing Agent Outcomes Across Ten Enterprise Domains"
 parent: "Articles"
-nav_order: 902
+nav_order: 904
 tags: ["agentic-engineering", "business-agents", "roi", "enterprise-automation", "openai", "agents-sdk", "codex-cli", "retrospective"]
 ---
 

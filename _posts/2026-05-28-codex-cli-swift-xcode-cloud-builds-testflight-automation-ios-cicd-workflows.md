@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows"
 parent: "Articles"
-nav_order: 899
+nav_order: 901
 tags: ["codex-cli", "swift", "xcode-cloud", "testflight", "ios", "ci-cd", "mcp", "xcodebuildmcp", "xcodebuild"]
 ---
 

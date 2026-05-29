@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Vite 8 Development: Rolldown, MCP Servers, and Agent-Driven Frontend Workflows"
 parent: "Articles"
-nav_order: 905
+nav_order: 907
 tags: ["codex-cli", "vite", "rolldown", "oxc", "mcp", "frontend", "build-tools", "vitest", "agent-workflows"]
 ---
 
