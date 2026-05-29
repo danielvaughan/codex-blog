@@ -10,7 +10,7 @@
    - Source: Gap analysis — premium article 08 covers context compaction, but no standalone article on persistent memory architectures (vector stores, knowledge graphs, session replay, Graphiti beyond the intro article); critical for long-running agent workflows
    - SEO targets: "agent memory persistence", "codex cli long-term memory", "rag for agents", "agent knowledge graph", "agent memory patterns"
 
-3. 📝 **Codex CLI for Bazel Builds: Remote Execution, Monorepo Patterns, and Agent-Driven Build Intelligence**
+3. ✅ **Codex CLI for Bazel Builds: Remote Execution, Monorepo Patterns, and Agent-Driven Build Intelligence** — Written 2026-05-30 → `2026-05-30-codex-cli-bazel-builds-remote-execution-monorepo-patterns-agent-driven-build-intelligence.md`
    - Source: Gap analysis — Bazel is the dominant monorepo build system (Google, Meta, Uber); existing articles cover Gradle, Maven, and Nx but not Bazel; no MCP server coverage found; Bazel 8.x with bzlmod and remote execution is agent-relevant
    - SEO targets: "codex cli bazel", "bazel mcp server", "codex cli monorepo build", "bazel agent workflows"
 
