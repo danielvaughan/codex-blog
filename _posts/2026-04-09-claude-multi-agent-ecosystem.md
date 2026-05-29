@@ -2,7 +2,7 @@
 title: "Claude Flow, Ruflo and Anthropic Agent Teams: The Claude Multi-Agent Ecosystem"
 description: "The multi-agent story in the Claude ecosystem has evolved rapidly through early 2026. Three distinct layers have emerged: the community-built orchestration."
 date: 2026-04-08T23:15:00+00:00
-last_modified_at: 2026-05-29T07:07:13+01:00
+last_modified_at: 2026-05-29T08:16:05+01:00
 tags:
   - claude-flow
   - ruflo

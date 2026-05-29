@@ -1,5 +1,13 @@
 # Article Backlog
 
+## R Language Statistical Computing (2026-05-29 Hourly Article Run)
+
+1. ✅ **Codex CLI for R Language Development: MCP Servers, mcptools, btw, and Statistical Computing Agent Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-r-language-development-mcp-servers-mcptools-btw-statistical-computing-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Python data science (Pandas, Polars, Jupyter, Marimo) but no article addressed R despite R 4.6.0 shipping April 2026, Posit's mcptools v0.2.1 on CRAN implementing MCP for R sessions, the btw package providing documentation/environment/devtools tools, rlang-mcp-server enabling headless ggplot2 rendering, r-mcp-data-explorer supporting tidyverse/Arrow/DuckDB workflows, and Posit Connect 2026.04 deploying MCP servers with OAuth 2.1
+   - SEO targets: "codex cli r language", "r mcp server codex", "codex cli rstudio", "mcptools codex cli", "codex cli ggplot2", "r statistical computing agent", "codex cli tidyverse"
+
+---
+
 ## Vite 8 Frontend Development (2026-05-29 Hourly Article Run)
 
 1. ✅ **Codex CLI for Vite 8 Development: Rolldown, MCP Servers, and Agent-Driven Frontend Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-vite-8-development-rolldown-mcp-servers-agent-driven-frontend-workflows.md`
