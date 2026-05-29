@@ -2,9 +2,9 @@
 
 ## Gap-Identified Ideas (2026-05-28 Article Rating Run)
 
-1. 📝 **Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows** — Distinct from the existing SwiftUI development article; covers Xcode Cloud, remote build agents, TestFlight distribution, and App Store Connect automation
+1. ✅ **Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows** — Written 2026-05-28 → `2026-05-28-codex-cli-swift-xcode-cloud-builds-testflight-automation-ios-cicd-workflows.md`
    - SEO targets: "codex cli xcode cloud", "codex cli ios ci", "xcode cloud agent", "codex cli testflight"
-2. 📝 **MCP Server Versioning and Backwards Compatibility: Managing Breaking Changes Across MCP Server Upgrades** — How to version MCP servers, handle schema evolution, and migrate tools without breaking agent workflows
+2. ✅ **MCP Server Versioning and Backwards Compatibility: Managing Breaking Changes Across MCP Server Upgrades** — Written 2026-05-28 → `2026-05-28-mcp-server-versioning-backwards-compatibility-managing-breaking-changes.md`
    - SEO targets: "mcp server versioning", "mcp backwards compatibility", "mcp server migration", "codex cli mcp upgrade"
 3. 📝 **Business Agents ROI Retrospective: Comparing Agent Outcomes Across Ten Enterprise Domains** — Meta-analysis across the 44-53 Business Agents series: which domains deliver the highest ROI, fastest time-to-value, and lowest implementation risk
    - SEO targets: "business agent roi", "enterprise agent comparison", "codex cli business automation roi", "agent domain analysis"
