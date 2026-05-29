@@ -2,7 +2,7 @@
 title: "Codex CLI Deletes Function-Style apply_patch: Freeform Is Now the Only Way"
 description: "PR #21651, merged on 8 May 2026, removes the JSON/function-style apply_patch tool entirely. Freeform is now the sole supported invocation path."
 date: 2026-05-07T23:00:00+00:00
-last_modified_at: 2026-05-29T12:46:45+01:00
+last_modified_at: 2026-05-29T12:51:30+01:00
 tags: [codex-cli, apply_patch, freeform, architecture, tools, v0.130]
 category: deep-dive
 ---

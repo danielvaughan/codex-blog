@@ -1,8 +1,8 @@
 ---
 title: "Planning for Token Meltdown: How to Route Local to Paid Automatically"
-description: "Local models cannot natively decide to escalate. You need a routing layer. LiteLLM running as a local proxy gives you automatic fallback from fast local models to capable cloud models based on failures, latency, or context window limits."
+description: "When model providers stop subsidising token costs, your bill explodes overnight. A routing layer that tries local models first and promotes to cloud only when necessary is how you survive the transition. LiteLLM running as a local proxy gives you automatic fallback based on failures, latency, or context window limits."
 date: 2026-05-29T11:00:00+00:00
-last_modified_at: 2026-05-29T12:46:45+01:00
+last_modified_at: 2026-05-29T12:51:30+01:00
 layout: post
 tags:
   - codex-cli
@@ -19,13 +19,21 @@ tags:
 ![Sketchnote diagram for: Planning for Token Meltdown: How to Route Local to Paid Automatically](/sketchnotes/articles/2026-05-29-planning-for-token-meltdown-local-to-paid-routing.png)
 
 
+## Token meltdown: when subsidies end
+
+Cloud model providers subsidise token costs to win market share. OpenAI, Anthropic and Google all price inference below cost for certain tiers. This will not last. When a provider raises prices, removes a free tier, or deprecates a cheap model, your costs spike overnight. That is token meltdown.
+
+The pattern repeats across the industry. Codex Pro usage caps tightened in early 2025. GPT-4o-mini replaced GPT-3.5-turbo at different price points. Anthropic moved Claude 3 Haiku to legacy status. Each time, teams that depended entirely on cloud inference scrambled.
+
+The mitigation is straightforward: run a local model for the majority of your requests and promote to cloud only when the local model genuinely cannot handle the task. You pay nothing for local inference, and you control when cloud spend happens. The routing layer that makes this automatic is LiteLLM[^litellm] running as a local proxy.
+
 ## The problem: local models cannot escalate themselves
 
 You run a local model for speed and cost. It handles 80 per cent of requests well. Then it hits a task that exceeds its context window, or requires reasoning it cannot produce, or simply times out under load. The request fails. You notice 20 minutes later.
 
 Local models have no native mechanism to say 'this is beyond me, send it to something better.' They either produce an answer (possibly wrong) or fail silently. The user experience degrades without warning.
 
-The fix is a routing layer that sits between your tools and your models, tries the fast local option first, and automatically promotes to a cloud model when the local one fails. LiteLLM[^litellm] running as a local proxy is the best current option for this.
+The fix is a routing layer that sits between your tools and your models, tries the fast local option first, and automatically promotes to a cloud model when the local one fails. When token meltdown arrives and cloud prices double, your exposure is limited to the 10–20 per cent of requests that genuinely need cloud capability.
 
 ## The architecture
 
@@ -48,13 +56,13 @@ Every tool that speaks the OpenAI-compatible API, Codex CLI, Cline, Foundry Tool
 ### Install and start
 
 ```bash
-pip install litellm[proxy]
+pip install 'litellm[proxy]'
 litellm --config config.yaml --port 4000
 ```
 
 ### The configuration file
 
-This config defines three tiers: fast local, smart local, and cloud fallback. The router tries them in order.
+This config defines four tiers: fast local, smart local, cloud fallback, and cloud heavy. The router tries them in order via the fallback chain.
 
 ```yaml
 # config.yaml
@@ -62,14 +70,14 @@ model_list:
   # Tier 1: Fast local (Ollama)
   - model_name: fast-local
     litellm_params:
-      model: ollama/qwen3:8b
+      model: ollama_chat/qwen3:8b
       api_base: http://localhost:11434
       rpm: 120
 
   # Tier 2: Smart local (larger Ollama model)
   - model_name: smart-local
     litellm_params:
-      model: ollama/qwen3:32b
+      model: ollama_chat/qwen3:32b
       api_base: http://localhost:11434
       rpm: 30
 
@@ -88,7 +96,7 @@ model_list:
       rpm: 60
 
 router_settings:
-  routing_strategy: usage-based-routing
+  routing_strategy: simple-shuffle
   num_retries: 2
   timeout: 30
   allowed_fails: 3
@@ -106,7 +114,6 @@ litellm_settings:
     - fast-local: ["smart-local", "cloud-heavy"]
     - smart-local: ["cloud-heavy"]
 
-  num_retries: 2
   request_timeout: 30
 ```
 
@@ -118,13 +125,13 @@ The router promotes to the next tier when:
 
 2. **Timeout.** The local model takes longer than `timeout` seconds. For a fast 8B model, 30 seconds is generous. If it is not done, something is wrong.
 
-3. **Context window exceeded.** The input exceeds the model's context limit. LiteLLM catches the specific error code and uses `context_window_fallbacks` to jump to a model with a larger window, skipping intermediate tiers that would also fail.
+3. **Context window exceeded.** The input exceeds the model's context limit. LiteLLM catches the `ContextWindowExceededError` and uses `context_window_fallbacks` to jump to a model with a larger window, skipping intermediate tiers that would also fail.
 
-4. **Rate limit (429).** If you have multiple users hitting the local model and it returns 429, the router falls through.
+4. **Rate limit (429).** If a cloud model in the chain returns a 429, the router falls through to the next deployment. Ollama itself queues requests rather than rate-limiting, so this trigger applies primarily to cloud tiers.
 
-5. **Repeated failures.** After `allowed_fails` consecutive failures, the deployment enters `cooldown_time` (60 seconds here). During cooldown, all requests route to the next tier automatically.
+5. **Repeated failures.** After `allowed_fails` consecutive failures, the deployment enters cooldown for `cooldown_time` seconds (60 here). During cooldown, all requests route to the next tier automatically.
 
-6. **Content policy violation.** If a local model refuses a legitimate request due to overly conservative filtering, `content_policy_fallbacks` can route to a model with different policies.
+6. **Content policy violation.** If a model refuses a legitimate request due to overly conservative filtering, `content_policy_fallbacks` can route to a model with different policies.
 
 ## Pointing your tools at the proxy
 
@@ -147,7 +154,7 @@ model_provider = "litellm-local"
 codex --profile routed "Refactor the authentication module"
 ```
 
-Codex sends the request to LiteLLM at port 4000. LiteLLM tries the fast local model first. If it fails or times out, the response comes from the cloud, and Codex never knows the difference.
+Codex sends the request to LiteLLM at port 4000. LiteLLM tries the fast local model first. If it fails or times out, the response comes from the cloud, and Codex never knows the difference. Your cloud spend stays near zero until a request genuinely needs it.
 
 ### Cline
 
@@ -163,7 +170,7 @@ The proxy exposes the standard `/v1/chat/completions`, `/v1/completions`, and `/
 
 ## Latency-based routing
 
-The usage-based strategy above routes on failures. Latency-based routing goes further, promoting to cloud when the local model becomes slow under load, not just when it fails:
+The simple-shuffle strategy above routes on failures. Latency-based routing goes further, promoting to cloud when the local model becomes slow under load, not just when it fails:
 
 ```yaml
 router_settings:
@@ -172,15 +179,16 @@ router_settings:
   # Local models are faster when idle, cloud is faster under load
 ```
 
-With latency-based routing, the proxy measures response times across all tiers. When your local GPU is saturated and response times spike from two seconds to 15 seconds, the router automatically shifts traffic to the cloud tier, which is responding in three seconds. When the local model recovers, traffic shifts back.
+With latency-based routing, the proxy measures response times across all tiers. When your local GPU is saturated and response times spike from two seconds to 15 seconds, the router automatically shifts traffic to the cloud tier, which is responding in three seconds. When the local model recovers, traffic shifts back. This means you pay for cloud tokens only during genuine load spikes.
 
 ## Cost tracking
 
-LiteLLM tracks spend per model and per virtual key. Use this to verify the routing works:
+LiteLLM tracks spend per model and per virtual key. Use this to verify the routing works and to monitor your cloud exposure before meltdown arrives:
 
 ```yaml
 litellm_settings:
-  success_callback: ["langfuse"]  # or "prometheus", "datadog"
+  success_callback: ["langfuse"]  # or "datadog"
+  callbacks: ["prometheus"]       # for /metrics endpoint
 
 general_settings:
   master_key: sk-local-proxy-key
@@ -193,25 +201,26 @@ After a week of running, check the dashboard. You want to see:
 - 10–20 per cent promoted to smart-local (cost: zero, but slower)
 - 5–15 per cent falling through to cloud (cost: per-token pricing)
 
-If cloud usage exceeds 20 per cent consistently, either your local model is too small for your workload, or your timeout thresholds are too aggressive.
+If cloud usage exceeds 20 per cent consistently, either your local model is too small for your workload, or your timeout thresholds are too aggressive. When token prices rise, this ratio is your cost multiplier.
 
 ## The meltdown scenario
 
-Token meltdown happens when:
+Token meltdown has two forms.
 
-1. You start a large refactoring task that generates prompts exceeding 32,000 tokens
-2. The local model's context window is 8,192 tokens (many quantised models)
-3. Every request fails with a context window error
-4. Without routing, you manually switch profiles or restart with a different model
-5. With routing, `context_window_fallbacks` catches the error and promotes to cloud within the same request, no interruption
+**Price meltdown:** Your provider doubles token prices or removes a tier. If 100 per cent of your traffic hits the cloud, your bill doubles overnight. With routing, only 5–15 per cent of requests use cloud tokens, so a price doubling increases your total cost by 5–15 per cent, not 100 per cent.
 
-The second meltdown scenario is thermal: your GPU hits thermal limits under sustained load, the local model starts producing garbage or timing out, and the router quietly moves traffic to the cloud until the hardware recovers.
+**Context meltdown:** You start a large refactoring task that generates prompts exceeding 40,000 tokens. A smaller local model with a 32,000-token context window cannot handle the request. Without routing, you manually switch profiles or restart with a different model. With routing, `context_window_fallbacks` catches the error and promotes to cloud within the same request, no interruption.
+
+**Thermal meltdown:** Your GPU hits thermal limits under sustained load, the local model starts producing garbage or timing out, and the router quietly moves traffic to the cloud until the hardware recovers.
+
+In all three cases, the routing layer absorbs the shock automatically. You keep working, and you review the cost dashboard later.
 
 ## What this does not solve
 
 - **Quality routing.** LiteLLM routes on failures, timeouts and latency. It does not route on output quality. If the local model produces a wrong answer confidently, the router has no way to know.
-- **Cost budgets.** You can set spend limits per key, but the router does not stop promoting to cloud when your budget is exhausted. It fails the request instead.
-- **Model selection intelligence.** The complexity router[^auto-routing] adds basic task classification (routing reasoning-heavy requests to capable models), but it is not production-proven for coding workloads yet.
+- **Cost budgets.** You can set spend limits per virtual key, but the router does not stop promoting to cloud when your budget is exhausted. It fails the request instead. You need external alerting on spend thresholds.
+- **Model selection intelligence.** The complexity router[^auto-routing] adds rule-based task classification, scoring requests across seven dimensions (token count, code presence, reasoning markers) to route to appropriate tiers. It adds zero latency (no external API calls) but is not production-proven for coding workloads yet.
+- **Subscription changes.** If your OpenAI API key loses access to a model entirely (tier removal, not just price increase), the fallback chain breaks at that tier. Monitor provider announcements and update your config before deprecation dates.
 
 ## The configuration in practice
 
@@ -221,7 +230,7 @@ For a developer running Codex CLI with a local Ollama instance on a machine with
 model_list:
   - model_name: coding-local
     litellm_params:
-      model: ollama/gpt-oss:120b
+      model: ollama_chat/gpt-oss:120b
       api_base: http://localhost:11434
 
   - model_name: coding-cloud
@@ -237,13 +246,12 @@ litellm_settings:
     - coding-local: ["coding-cloud"]
   context_window_fallbacks:
     - coding-local: ["coding-cloud"]
-  num_retries: 1
   request_timeout: 45
 ```
 
-Two models. One local, one cloud. If local fails for any reason, cloud takes over. If the context window is too small, cloud takes over. Total configuration: 19 lines of YAML.
+Two models. One local, one cloud. If local fails for any reason, cloud takes over. If the context window is too small, cloud takes over. Total configuration: 17 lines of YAML.
 
-Point Codex CLI, Cline, and Foundry Toolkit at `http://127.0.0.1:4000/v1`. Done.
+Point Codex CLI, Cline, and Foundry Toolkit at `http://127.0.0.1:4000/v1`. Done. When token prices rise, you are already protected.
 
 ## Citations
 
