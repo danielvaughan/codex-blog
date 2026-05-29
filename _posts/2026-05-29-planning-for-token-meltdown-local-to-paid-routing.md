@@ -2,7 +2,7 @@
 title: "Planning for Token Meltdown: How to Route Local to Paid Automatically"
 description: "When model providers stop subsidising token costs, your bill explodes overnight. A routing layer that tries local models first and promotes to cloud only when necessary is how you survive the transition. LiteLLM running as a local proxy gives you automatic fallback based on failures, latency, or context window limits."
 date: 2026-05-29T11:00:00+00:00
-last_modified_at: 2026-05-29T12:56:17+01:00
+last_modified_at: 2026-05-29T13:25:12+01:00
 layout: post
 tags:
   - codex-cli
@@ -203,17 +203,6 @@ After a week of running, check the dashboard. You want to see:
 
 If cloud usage exceeds 20 per cent consistently, either your local model is too small for your workload, or your timeout thresholds are too aggressive. When token prices rise, this ratio is your cost multiplier.
 
-## The meltdown scenario
-
-Token meltdown has two forms.
-
-**Price meltdown:** Your provider doubles token prices or removes a tier. If 100 per cent of your traffic hits the cloud, your bill doubles overnight. With routing, only 5–15 per cent of requests use cloud tokens, so a price doubling increases your total cost by 5–15 per cent, not 100 per cent.
-
-**Context meltdown:** You start a large refactoring task that generates prompts exceeding 40,000 tokens. A smaller local model with a 32,000-token context window cannot handle the request. Without routing, you manually switch profiles or restart with a different model. With routing, `context_window_fallbacks` catches the error and promotes to cloud within the same request, no interruption.
-
-**Thermal meltdown:** Your GPU hits thermal limits under sustained load, the local model starts producing garbage or timing out, and the router quietly moves traffic to the cloud until the hardware recovers.
-
-In all three cases, the routing layer absorbs the shock automatically. You keep working, and you review the cost dashboard later.
 
 ## What this does not solve
 
