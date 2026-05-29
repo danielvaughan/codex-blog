@@ -2,7 +2,7 @@
 title: "Planning Mode in Practice: When to Use It and When to Skip It"
 description: "Most developers activate planning mode once, see an agent propose a numbered list, and then leave it on permanently — or switch it off after a frustrating."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-05-28T22:06:53+01:00
+last_modified_at: 2026-05-29T08:34:56+01:00
 summary: "A decision framework for Codex CLI's plan mode: how the Plan→Execute workflow operates, when planning overhead pays off, when it is pure friction, and how PLANS.md extends it to multi-hour autonomous tasks."
 tags:
   - workflow-patterns

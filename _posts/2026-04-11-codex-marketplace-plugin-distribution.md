@@ -2,8 +2,14 @@
 title: "Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command"
 description: "OpenAI's plugin marketplace, launched on 27 March 2026, transforms Codex from a standalone coding agent into an extensible platform. Plugins bundle skills."
 date: 2026-04-11T22:00:00+00:00
-last_modified_at: 2026-05-28T22:06:53+01:00
-tags: ["marketplace", "plugins", "distribution", "skills", "ecosystem", "enterprise"]
+last_modified_at: 2026-05-29T08:34:56+01:00
+tags:
+  - marketplace
+  - plugins
+  - distribution
+  - skills
+  - ecosystem
+  - enterprise
 ---
 
 ![Sketchnote diagram for: Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command](/sketchnotes/articles/2026-04-11-codex-marketplace-plugin-distribution.png)
@@ -12,13 +18,11 @@ tags: ["marketplace", "plugins", "distribution", "skills", "ecosystem", "enterpr
 # Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command
 
 
----
+OpenAI's plugin marketplace, launched on 27 March 2026[^1], turns Codex from a standalone coding agent into an extensible platform. Plugins bundle skills, app integrations and MCP server configurations into installable packages that work across the desktop app, CLI and VS Code extension[^2]. With more than 20 launch-day integrations from partners including Slack, Figma, Notion and Sentry[^1], the marketplace introduces a distribution model that borrows from package managers while adding enterprise governance controls absent from competing tools.
 
-OpenAI's plugin marketplace, launched on 27 March 2026[^1], transforms Codex from a standalone coding agent into an extensible platform. Plugins bundle skills, app integrations, and MCP server configurations into installable packages that work across the desktop app, CLI, and VS Code extension[^2]. With over 20 launch-day integrations from partners including Slack, Figma, Notion, and Sentry[^1], the marketplace introduces a distribution model that borrows from package managers whilst adding enterprise governance controls absent from competing tools.
+This article covers the marketplace architecture, the CLI commands for plugin management, the `marketplace.json` configuration format and enterprise policy controls, everything a senior developer needs to integrate plugins into team workflows. *Updated May 2026 with v0.133.0 to v0.135.0 marketplace improvements.*
 
-This article covers the marketplace architecture, the CLI commands for plugin management, the `marketplace.json` configuration format, and enterprise policy controls — everything a senior developer needs to integrate plugins into team workflows.
-
-## Plugin Architecture
+## Plugin architecture
 
 A Codex plugin is a directory containing a manifest and optional component bundles. The only required file is `.codex-plugin/plugin.json`; everything else is optional[^3].
 
@@ -38,13 +42,13 @@ my-plugin/
 
 Plugins bundle three component types[^2]:
 
-- **Skills** — reusable instruction sets defined in `SKILL.md` files that the agent discovers and executes on demand
-- **Apps** — external service connections (GitHub, Slack, Google Drive, Gmail) that authenticate via OAuth or API tokens
-- **MCP servers** — Model Context Protocol services providing additional tools and shared context
+- **Skills**, reusable instruction sets defined in `SKILL.md` files that the agent discovers and executes on demand
+- **Apps**, external service connections (GitHub, Slack, Google Drive, Gmail) that authenticate via OAuth or API tokens
+- **MCP servers**, Model Context Protocol services providing additional tools and shared context
 
-This tripartite structure means a single plugin can wire up an MCP server, register authentication flows, and provide skills that orchestrate both — without requiring the user to configure anything manually.
+A single plugin can wire up an MCP server, register authentication flows and provide skills that orchestrate both, without requiring the user to configure anything manually.
 
-## The Plugin Manifest
+## The plugin manifest
 
 The `plugin.json` manifest declares metadata and pointers to bundled components[^3]:
 
@@ -67,11 +71,11 @@ The `plugin.json` manifest declares metadata and pointers to bundled components[
 }
 ```
 
-Key constraints: the `name` field must be stable kebab-case (Codex uses it as the plugin identifier), and all paths must be relative to the plugin root, starting with `./`[^3].
+Two constraints: the `name` field must be stable kebab-case (Codex uses it as the plugin identifier), and all paths must be relative to the plugin root, starting with `./`[^3].
 
-## CLI Plugin Management
+## CLI plugin management
 
-### Browsing and Installing
+### Browsing and installing
 
 In the CLI, the `/plugins` slash command opens the plugin browser to search and install curated plugins[^2]. For plugins distributed through Git-hosted marketplaces, the workflow uses two commands:
 
@@ -96,27 +100,27 @@ The marketplace add command accepts GitHub `org/repo` references and supports ve
 /plugin marketplace add acme-corp/codex-plugins#v2.1.0
 ```
 
-### Verification and Status
+### Verification and status
 
-After installation, plugins may expose setup commands. For example, the `codex-plugin-cc` plugin (which bridges Codex into Claude Code) provides[^4]:
+After installation, plugins may expose setup commands. The `codex-plugin-cc` plugin (which bridges Codex into Claude Code) provides[^4]:
 
 ```bash
 /codex:setup      # verify installation and configuration
 /codex:status     # monitor active and recent jobs
 ```
 
-### Disabling and Uninstalling
+### Disabling and uninstalling
 
-Plugins can be disabled without removal via `~/.codex/config.toml`[^2]:
+You can disable plugins without removing them via `~/.codex/config.toml`[^2]:
 
 ```toml
 [plugins."gmail@openai-curated"]
 enabled = false
 ```
 
-To uninstall entirely, reopen the plugin details in the CLI browser and select "Uninstall plugin".
+To uninstall entirely, reopen the plugin details in the CLI browser and select 'Uninstall plugin'.
 
-## Marketplace Configuration
+## Marketplace configuration
 
 Marketplaces are JSON catalogues that expose plugins to Codex. They can be scoped to three levels[^3]:
 
@@ -135,7 +139,7 @@ graph TD
     style D fill:#fff3e0,stroke:#ff9800
 ```
 
-### The marketplace.json Format
+### The marketplace.json format
 
 A marketplace file declares a catalogue of available plugins with their sources and policies[^3]:
 
@@ -174,26 +178,26 @@ A marketplace file declares a catalogue of available plugins with their sources 
 }
 ```
 
-Critical path rules: `source.path` must be relative to the marketplace root, must start with `./`, and must remain inside the marketplace root directory[^3]. This prevents path-traversal issues that could reference arbitrary filesystem locations.
+Critical path rules: `source.path` must be relative to the marketplace root, must start with `./` and must remain inside the marketplace root directory[^3]. This prevents path-traversal issues that could reference arbitrary filesystem locations.
 
-### Scaffolding with the Plugin Creator
+### Scaffolding with the plugin creator
 
-Rather than hand-crafting manifests, Codex ships a built-in `@plugin-creator` skill that scaffolds the directory structure, generates `plugin.json`, and creates a local marketplace entry for testing[^3]. This eliminates the boilerplate friction of getting a new plugin registered.
+Rather than hand-crafting manifests, Codex ships a built-in `@plugin-creator` skill that scaffolds the directory structure, generates `plugin.json` and creates a local marketplace entry for testing[^3]. This eliminates the boilerplate friction of getting a new plugin registered.
 
-## Enterprise Governance
+## Enterprise governance
 
 The marketplace's policy system maps directly to enterprise IT governance patterns. Each plugin entry in `marketplace.json` carries an `installation` policy with three states[^5][^6]:
 
-| Policy | Behaviour | Enterprise Use Case |
+| Policy | Behaviour | Enterprise use case |
 |--------|-----------|-------------------|
-| `INSTALLED_BY_DEFAULT` | Plugin is pre-installed for all users | Standard tooling rollout |
+| `INSTALLED_BY_DEFAULT` | Plugin pre-installed for all users | Standard tooling rollout |
 | `AVAILABLE` | Plugin appears in browser but requires manual install | Approved optional tools |
-| `NOT_AVAILABLE` | Plugin is hidden and blocked | Unapproved or restricted tools |
+| `NOT_AVAILABLE` | Plugin hidden and blocked | Unapproved or restricted tools |
 
 A separate `authentication` field controls when credentials are exchanged with third-party services[^5]:
 
-- `ON_INSTALL` — authenticate immediately during installation
-- `ON_FIRST_USE` — defer authentication until the plugin is actually invoked
+- `ON_INSTALL`, authenticate immediately during installation
+- `ON_FIRST_USE`, defer authentication until the plugin is invoked
 
 ```mermaid
 flowchart LR
@@ -209,11 +213,11 @@ flowchart LR
     style G fill:#ffcdd2,stroke:#d32f2f
 ```
 
-This mirrors the allow-list patterns familiar from mobile device management (MDM) and IDE extension governance[^6]. By committing `marketplace.json` to the repository root, IT teams can version-control plugin policies alongside the code they govern.
+This mirrors the allow-list patterns familiar from mobile device management and IDE extension governance[^6]. Committing `marketplace.json` to the repository root lets IT teams version-control plugin policies alongside the code they govern.
 
-### Practical Governance Workflow
+### Practical governance workflow
 
-For an organisation with 200+ developers, a typical deployment pattern looks like:
+For an organisation with more than 200 developers, a typical deployment pattern:
 
 ```json
 {
@@ -246,9 +250,7 @@ For an organisation with 200+ developers, a typical deployment pattern looks lik
 
 The review bot is mandatory infrastructure; Slack is opt-in for teams that want it; the community tool is explicitly blocked pending security review.
 
-## Comparison with Competing Ecosystems
-
-The Codex plugin marketplace enters a space with established alternatives:
+## Comparison with competing ecosystems
 
 | Feature | Codex Marketplace | Claude Code Skills | Cursor Extensions |
 |---------|------------------|-------------------|-------------------|
@@ -258,26 +260,29 @@ The Codex plugin marketplace enters a space with established alternatives:
 | Self-serve publishing | Coming soon[^5] | Available | Available |
 | Offline/air-gapped | Local marketplace.json | Local plugin repos | Limited |
 
-Codex's JSON-based policy system is its differentiator for enterprise adoption. Claude Code's skill ecosystem (which, notably, can run Codex as a plugin via `codex-plugin-cc`[^4]) offers a more open distribution model but lacks the tiered governance controls that enterprise security teams require.
+Codex's JSON-based policy system is its differentiator for enterprise adoption. Claude Code's skill ecosystem, which can run Codex as a plugin via `codex-plugin-cc`[^4], offers a more open distribution model but lacks the tiered governance controls that enterprise security teams require.
 
-⚠️ Self-serve publishing to the official Codex Plugin Directory is not yet available as of April 2026. OpenAI's documentation states this is "coming soon"[^3].
+Self-serve publishing to the official Codex Plugin Directory is not yet available as of May 2026. OpenAI's documentation states this is 'coming soon'[^3].
 
-## Current Limitations
+## Recent improvements (v0.131.0 to v0.135.0)
 
-- **No official directory publishing** — distribution is currently limited to Git-hosted and local marketplaces[^3]
-- **Plugin management UI** — still described as "in development" in the official documentation[^3]
-- **No dependency resolution** — plugins cannot declare dependencies on other plugins
-- **Cache reliability** — v0.119 included fixes for "more reliable plugin cache refreshes", suggesting earlier instability[^7]
+Codex CLI v0.131.0 introduced the unified mentions system and marketplace-aware CLI commands. v0.133.0 added marketplace-aware list output with installed versions, visible marketplace roots and version-aware plugin sharing. v0.135.0 improved plugin asset discovery with the bundled zsh fork and enhanced `codex doctor` diagnostics for troubleshooting plugin issues.
 
-## Getting Started
+## Current limitations
 
-For teams looking to adopt the marketplace today:
+- **No official directory publishing**, distribution remains limited to Git-hosted and local marketplaces[^3]
+- **No dependency resolution**, plugins cannot declare dependencies on other plugins
+- **Plugin cache**, earlier versions (v0.119) had cache reliability issues; subsequent releases have addressed these[^7]
 
-1. **Create a repo-scoped marketplace** — add `.agents/plugins/marketplace.json` to your repository
-2. **Scaffold a plugin** — use the `@plugin-creator` skill inside Codex to generate the boilerplate
-3. **Set policies** — mark essential plugins as `INSTALLED_BY_DEFAULT`, optional ones as `AVAILABLE`
-4. **Commit and distribute** — the marketplace file travels with the repo, so every clone gets the same plugin configuration
-5. **Iterate** — use `/plugin marketplace add` in the CLI to test external marketplace sources before committing them
+## Getting started
+
+For teams looking to adopt the marketplace:
+
+1. **Create a repo-scoped marketplace**, add `.agents/plugins/marketplace.json` to your repository
+2. **Scaffold a plugin**, use the `@plugin-creator` skill inside Codex to generate the boilerplate
+3. **Set policies**, mark essential plugins as `INSTALLED_BY_DEFAULT`, optional ones as `AVAILABLE`
+4. **Commit and distribute**, the marketplace file travels with the repo, so every clone gets the same plugin configuration
+5. **Iterate**, use `/plugin marketplace add` in the CLI to test external marketplace sources before committing them
 
 ## Citations
 

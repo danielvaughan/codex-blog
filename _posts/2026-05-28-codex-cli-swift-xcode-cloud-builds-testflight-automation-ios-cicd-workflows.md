@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows"
 parent: "Articles"
-nav_order: 899
+nav_order: 901
 tags: ["codex-cli", "swift", "xcode-cloud", "testflight", "ios", "ci-cd", "mcp", "xcodebuildmcp", "xcodebuild"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["codex-cli", "swift", "xcode-cloud", "testflight", "ios", "ci-cd", "mcp",
 
 ---
 
-iOS development has historically been the most GUI-bound major platform. Xcode's build system, provisioning profiles, simulator management, and App Store Connect workflows all conspire to keep you clicking rather than typing. Codex CLI changes that equation. Combined with Xcode 26.3's native agentic coding support[^1], XcodeBuildMCP's 59-tool MCP server[^2], and Xcode Cloud's CI/CD pipeline[^3], you can now run an entire iOS development and release cycle from the terminal — with an AI agent driving the loop.
+iOS development has historically been the most GUI-bound major platform. Xcode's build system, provisioning profiles, simulator management, and App Store Connect workflows all conspire to keep you clicking rather than typing. Codex CLI changes that equation. Combined with Xcode 26.3's native agentic coding support[^1], XcodeBuildMCP's 79-tool MCP server[^2], and Xcode Cloud's CI/CD pipeline[^3], you can now run an entire iOS development and release cycle from the terminal — with an AI agent driving the loop.
 
 This article covers the practical integration points: configuring Codex CLI for `xcodebuild`, wiring up XcodeBuildMCP for deep Xcode automation, automating TestFlight distribution, and orchestrating the lot through Xcode Cloud.
 
@@ -40,7 +40,7 @@ Codex CLI can invoke these directly. The key insight from OpenAI's iOS use-case 
 
 For projects that want to avoid `.xcodeproj` and `.xcworkspace` files entirely, Tuist generates and builds Xcode projects without the GUI[^4]. This is particularly agent-friendly because the project configuration lives in Swift files that Codex can read and modify directly.
 
-## XcodeBuildMCP: 59 Tools for Deep Xcode Automation
+## XcodeBuildMCP: 79 Tools for Deep Xcode Automation
 
 XcodeBuildMCP, now maintained by Sentry[^2], ships as a dual-mode package: a CLI for direct terminal use and an MCP server for AI coding agents. Version 2.0 introduced command-line accessibility alongside the MCP server functionality[^2].
 
@@ -79,7 +79,7 @@ This allows AI agents to run independent build, test, and deploy cycles without 
 
 ### Key Tool Categories
 
-The 59 tools span the full development lifecycle[^2]:
+The 79 tools span the full development lifecycle[^2]:
 
 | Category | Example Tools | Purpose |
 |---|---|---|

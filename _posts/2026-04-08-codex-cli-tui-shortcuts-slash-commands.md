@@ -2,7 +2,7 @@
 title: "Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference"
 description: "Codex CLI's full-screen terminal UI (TUI) is where most interactive work happens. Beneath the chat-style composer sits a dense set of keyboard shortcuts."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-05-28T22:06:53+01:00
+last_modified_at: 2026-05-29T08:34:56+01:00
 tags:
   - reference
   - config-toml
@@ -14,26 +14,28 @@ tags:
 # Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference
 
 
-Codex CLI's full-screen terminal UI (TUI) is where most interactive work happens. Beneath the chat-style composer sits a dense set of keyboard shortcuts, input modifiers, and slash commands that let you control models, review diffs, manage sessions, and configure the agent — all without leaving the terminal[^1]. This reference catalogues every shortcut and slash command available as of April 2026, organised by function.
+Codex CLI's full-screen terminal UI (TUI) is where most interactive work happens. Beneath the chat-style composer sits a dense set of keyboard shortcuts, input modifiers and slash commands that let you control models, review diffs, manage sessions and configure the agent without leaving the terminal[^1]. This reference catalogues every shortcut and slash command available as of May 2026 (v0.135.0), organised by function. *Updated with `/plugins`, `codex doctor`, Vim mode and the current model names.*
 
-## The Composer: Input Shortcuts and Modifiers
+## The composer: input shortcuts and modifiers
 
-The composer is the text-entry area at the bottom of the TUI. Beyond plain text, it supports several input modifiers and keyboard shortcuts that dramatically speed up interaction.
+The composer is the text-entry area at the bottom of the TUI. Beyond plain text, it supports several input modifiers and keyboard shortcuts that speed up interaction.
 
-### Keyboard Shortcuts
+### Keyboard shortcuts
 
 | Shortcut | Action |
 |----------|--------|
 | **Enter** | Send the current prompt. During agent execution, injects new instructions into the running turn (steer mode)[^2] |
 | **Tab** | During agent execution, queues a follow-up prompt for the next turn rather than interrupting the current one[^2] |
-| **Ctrl+G** | Opens the current prompt in your external editor, as defined by the `VISUAL` environment variable (falls back to `EDITOR`)[^3] |
+| **Ctrl+G** | Opens the current prompt in your external editor, as defined by `VISUAL` (falls back to `EDITOR`)[^3] |
 | **Ctrl+L** | Clears the terminal screen without resetting the conversation context[^3] |
 | **Ctrl+C** | Cancels the current operation; press twice to quit the session[^4] |
 | **Ctrl+D** | Exits Codex CLI; press twice to force quit[^4] |
 | **Esc, Esc** | When the composer is empty, double-pressing Escape edits your previous message. Continue pressing to walk back through the transcript[^3] |
 | **Up / Down** | Navigate through draft history in the composer. Codex restores prior draft text and image placeholders[^3] |
 
-### Input Modifiers
+Since v0.135.0, the TUI also supports Vim-style text-object editing when Vim mode is enabled, including word, line-end behaviour and a configurable interrupt-turn binding.
+
+### Input modifiers
 
 Three prefix characters transform composer input before it reaches the model:
 
@@ -56,15 +58,15 @@ flowchart LR
     F -->|Enter| J[Model processes prompt]
 ```
 
-## Slash Commands: Complete Reference
+## Slash commands: complete reference
 
 Type `/` in the composer to open the slash-command popup. Commands are grouped below by function[^1].
 
-### Session Management
+### Session management
 
 | Command | Description |
 |---------|-------------|
-| `/clear` | Clears the terminal, resets the visible transcript, and starts a fresh chat within the same CLI session[^1] |
+| `/clear` | Clears the terminal, resets the visible transcript and starts a fresh chat within the same CLI session[^1] |
 | `/new` | Starts a new conversation inside the same session without leaving the terminal[^1] |
 | `/resume` | Resumes a saved conversation from your session list[^1] |
 | `/fork` | Forks the current conversation into a new thread, preserving the original[^1] |
@@ -73,48 +75,50 @@ Type `/` in the composer to open the slash-command popup. Commands are grouped b
 | `/exit` | Exits the CLI session[^1] |
 | `/quit` | Alias for `/exit`[^1] |
 
-### Model and Configuration
+### Model and configuration
 
 | Command | Description |
 |---------|-------------|
-| `/model` | Opens a picker to choose the active model (e.g. `gpt-5.4`, `gpt-5.3-codex`, `o3`, `o4-mini`) and adjust reasoning effort[^1][^6] |
-| `/fast` | Toggles fast mode for GPT-5.4. Accepts `/fast on`, `/fast off`, or `/fast status`[^1] |
-| `/permissions` | Opens an approval-preset picker: choose between auto, read-only, or full-access modes mid-session[^1] |
+| `/model` | Opens a picker to choose the active model (e.g. `gpt-5.5`, `gpt-5.4`, `gpt-5.4-mini`, `gpt-5.3-codex`, `gpt-5.3-codex-spark`) and adjust reasoning effort[^1][^6] |
+| `/fast` | Toggles fast mode for GPT-5.4. Accepts `/fast on`, `/fast off` or `/fast status`[^1] |
+| `/permissions` | Opens an approval-preset picker: choose between named permission profiles mid-session. Since v0.135.0, displays configured custom profiles[^1] |
 | `/personality` | Changes how Codex communicates (tone, verbosity) without altering system instructions[^1] |
-| `/statusline` | Interactively configures which fields appear in the TUI footer status bar and their order[^1] |
+| `/statusline` | Configures which fields appear in the TUI footer status bar and their order[^1] |
 | `/theme` | Previews and saves syntax-highlighting colour schemes for code blocks in the TUI[^3] |
 | `/experimental` | Toggles experimental features such as subagents on or off[^1] |
 | `/debug-config` | Prints configuration layer order and policy sources for debugging precedence issues[^1] |
 
-### Code and Project Tools
+### Code and project tools
 
 | Command | Description |
 |---------|-------------|
 | `/diff` | Shows the Git diff of the current working tree, including untracked files[^1] |
-| `/review` | Launches a code review of your working tree changes. Supports presets: against a base branch, uncommitted changes, or specific commits[^1][^3] |
+| `/review` | Launches a code review of your working tree changes. Supports presets: against a base branch, uncommitted changes or specific commits[^1][^3] |
 | `/plan` | Switches to plan mode, optionally with a prompt. The agent produces an execution plan without making changes[^1] |
 | `/init` | Generates an `AGENTS.md` scaffold in the current directory, capturing persistent repository instructions[^1] |
 | `/mention` | Attaches a file to the conversation for the model to inspect[^1] |
 
-### Agent and Tool Management
+### Agent and tool management
 
 | Command | Description |
 |---------|-------------|
 | `/agent` | Switches the active agent thread when working with spawned subagents[^1] |
 | `/ps` | Shows experimental background terminals and their recent output[^1] |
-| `/mcp` | Lists all configured Model Context Protocol (MCP) tools available in the session[^1] |
+| `/mcp` | Lists all configured Model Context Protocol tools available in the session[^1] |
 | `/apps` | Browses available apps (connectors) and inserts them into your prompt[^1] |
+| `/plugins` | Opens the plugin browser to search, install and manage marketplace plugins[^1] |
+| `/reload-plugins` | Reloads all installed plugins without restarting the session[^1] |
 
-### Platform and Diagnostics
+### Platform and diagnostics
 
 | Command | Description |
 |---------|-------------|
-| `/status` | Displays the active model, approval policy, writable roots, and current token usage[^1] |
+| `/status` | Displays the active model, approval policy, writable roots and current token usage[^1] |
 | `/feedback` | Sends session logs to the Codex maintainers for diagnostics and bug reports[^1] |
-| `/logout` | Signs out and clears stored credentials — useful on shared machines[^1] |
+| `/logout` | Signs out and clears stored credentials, useful on shared machines[^1] |
 | `/sandbox-add-read-dir` | Grants the sandbox read access to additional directories (Windows-specific)[^1] |
 
-## Steer Mode vs Plan Mode: Enter and Tab Mechanics
+## Steer mode versus plan mode: Enter and Tab mechanics
 
 Understanding the difference between **Enter** and **Tab** during agent execution is essential for effective steering[^2]:
 
@@ -136,12 +140,12 @@ sequenceDiagram
     A->>A: Begins follow-up work
 ```
 
-- **Enter** (steer mode): sends your message immediately, interrupting the agent's current work. Use this for urgent corrections — "stop, don't delete that file" or "use the staging database instead"[^2].
-- **Tab** (queue mode): holds your prompt until the agent finishes its current turn. Use this for follow-up tasks — "after that, run the test suite" or "then update the changelog"[^2].
+- **Enter** (steer mode): sends your message immediately, interrupting the agent's current work. Use this for urgent corrections, 'stop, don't delete that file' or 'use the staging database instead'[^2].
+- **Tab** (queue mode): holds your prompt until the agent finishes its current turn. Use this for follow-up tasks, 'after that, run the test suite' or 'then update the changelog'[^2].
 
-## CLI Subcommands for Non-Interactive Use
+## CLI subcommands for non-interactive use
 
-While not strictly TUI features, these subcommands complement the interactive session and share the same global flags[^7]:
+These subcommands complement the interactive session and share the same global flags[^7]:
 
 | Subcommand | Purpose |
 |------------|---------|
@@ -152,16 +156,18 @@ While not strictly TUI features, these subcommands complement the interactive se
 | `codex apply` / `codex a` | Applies the latest diff from a Cloud task as `git apply`[^7] |
 | `codex cloud` | Browses and manages Cloud tasks from the terminal (experimental)[^7] |
 | `codex mcp` | Manages MCP server configurations[^7] |
+| `codex doctor` | Runs environment, Git, terminal, app-server and thread diagnostics for troubleshooting (enhanced in v0.135.0)[^7] |
+| `codex remote-control` | Starts or manages the remote control daemon for headless/remote sessions[^7] |
 | `codex completion bash\|zsh\|fish` | Generates shell completion scripts[^7] |
 | `codex sandbox` | Runs arbitrary commands under the sandbox policy for testing[^7] |
 
-## Global Flags Worth Knowing
+## Global flags worth knowing
 
 These flags apply to the base `codex` command and propagate to subcommands[^7]:
 
 ```bash
 # Override model for this session
-codex -m gpt-5.3-codex "Refactor the auth module"
+codex -m gpt-5.5 "Refactor the auth module"
 
 # Inline config overrides
 codex -c model_provider="oss" -c sandbox="workspace-write"
@@ -179,7 +185,7 @@ codex -a never "Run the full test suite"
 codex --add-dir /var/log "Search recent error logs"
 ```
 
-## Platform Differences
+## Platform differences
 
 | Feature | macOS | Linux | Windows (WSL) |
 |---------|-------|-------|---------------|
@@ -189,9 +195,9 @@ codex --add-dir /var/log "Search recent error logs"
 | Ctrl+G editor | Respects `VISUAL` / `EDITOR` | Respects `VISUAL` / `EDITOR` | Respects `VISUAL` / `EDITOR`[^3] |
 | Shell completions | bash, zsh, fish | bash, zsh, fish | bash, zsh (via WSL)[^7] |
 
-## Quick-Reference Card
+## Quick-reference card
 
-For daily use, these are the shortcuts worth committing to muscle memory:
+The shortcuts worth committing to muscle memory:
 
 | Action | Shortcut |
 |--------|----------|
@@ -214,7 +220,7 @@ For daily use, these are the shortcuts worth committing to muscle memory:
 
 [^3]: [OpenAI Codex CLI Cheat Sheet — Shortcuts and Commands — ComputingForGeeks](https://computingforgeeks.com/codex-cli-cheat-sheet/)
 
-[^4]: [Codex CLI Cheat Sheet 2026 — Commands & Options — Toolsbase](https://toolsbase.dev/en/reference/codex-commands)
+[^4]: [Codex CLI Cheat Sheet 2026 — Commands and Options — Toolsbase](https://toolsbase.dev/en/reference/codex-commands)
 
 [^5]: [CLI — Codex — OpenAI Developers](https://developers.openai.com/codex/cli)
 

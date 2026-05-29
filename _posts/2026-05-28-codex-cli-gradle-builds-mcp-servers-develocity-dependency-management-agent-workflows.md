@@ -2,7 +2,7 @@
 title: "Codex CLI for Gradle Builds: MCP Servers, Develocity Integration, and Agent-Driven Dependency Management"
 description: "How to integrate Codex CLI with Gradle 9.5 builds using MCP servers for project introspection, task execution, dependency auditing, and Develocity build scan analysis."
 parent: "Articles"
-nav_order: 899
+nav_order: 900
 tags: ["codex-cli", "gradle", "mcp", "develocity", "jvm", "build-tools", "dependency-management", "kotlin"]
 ---
 
