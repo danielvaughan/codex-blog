@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.135.0 Release Guide (2026-05-29 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.135.0 Release Guide: Enhanced Doctor Diagnostics, Vim Text Objects, Memory SQLite Migration, and Python SDK Sandbox Presets** — Written 2026-05-29 → `2026-05-29-codex-cli-v0135-release-guide-enhanced-doctor-vim-text-objects-memory-sqlite-python-sdk-sandbox.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.135.0 shipped 28 May 2026 with enhanced codex doctor diagnostics (environment, Git, terminal, app-server, thread inventory), Vim mode text-object editing and configurable keybindings, memory runtime state migration to dedicated SQLite database, Python SDK Sandbox presets for thread/turn APIs, bundled zsh helper for packaged builds, and /permissions recognising named profiles — no existing article covered this release
+   - SEO targets: "codex cli v0.135.0", "codex doctor diagnostics", "codex cli vim mode", "codex cli sqlite memory", "codex python sdk sandbox", "codex cli release guide", "codex cli v0.135"
+
+---
+
 ## R Language Statistical Computing (2026-05-29 Hourly Article Run)
 
 1. ✅ **Codex CLI for R Language Development: MCP Servers, mcptools, btw, and Statistical Computing Agent Workflows** — Written 2026-05-29 → `2026-05-29-codex-cli-r-language-development-mcp-servers-mcptools-btw-statistical-computing-agent-workflows.md`
