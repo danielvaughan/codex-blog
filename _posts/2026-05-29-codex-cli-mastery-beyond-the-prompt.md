@@ -2,7 +2,7 @@
 title: "Beyond the Prompt: Codex CLI Mastery"
 description: "Most developers treat Codex CLI as a chat box. The real value sits past the prompt, in AGENTS.md, skills, subagents, profiles, MCP servers and directory layout. This guide covers everything between installation and genuine mastery."
 date: 2026-05-29T08:00:00+00:00
-last_modified_at: 2026-05-30T08:14:01+01:00
+last_modified_at: 2026-05-30T08:26:35+01:00
 tags:
   - mastery
   - agents-md
@@ -213,13 +213,14 @@ A skill is a directory containing a `SKILL.md` file[^4]. The Agent Skills standa
     └── test-scaffold.ts
 ```
 
-The `SKILL.md` front matter declares when the skill activates:
+The `SKILL.md` front matter declares the skill's identity and when it should be used. The `name` must match the parent directory name, use only lowercase letters, numbers and hyphens, and stay under 64 characters. The `description` should say both what the skill does and when to activate it — agents use it for automatic matching[^4]:
 
 ```markdown
 ---
 name: tdd
-description: Enforce test-driven development workflow
-trigger: when the user asks to implement a feature or fix a bug
+description: >
+  Enforce test-driven development workflow. Use when implementing a feature
+  or fixing a bug to ensure the red-green-refactor cycle is followed.
 ---
 
 ## Instructions
@@ -231,7 +232,7 @@ trigger: when the user asks to implement a feature or fix a bug
 5. Never skip the red-green-refactor cycle.
 ```
 
-Invoke manually with `/tdd` in the TUI, or let Codex activate it automatically when the trigger matches.
+Invoke manually with `/tdd` in the TUI, or let Codex activate it automatically when the description matches the current task.
 
 ### Skills worth building
 
@@ -254,8 +255,9 @@ This skill runs before every pull request to catch the issues reviewers always f
 ```markdown
 ---
 name: pr-prep
-description: Prepare code for pull request submission
-trigger: when the user says "ready for PR" or "prepare for review"
+description: >
+  Prepare code for pull request submission. Use when the user says
+  "ready for PR", "prepare for review" or wants pre-submission checks.
 ---
 
 ## Instructions
