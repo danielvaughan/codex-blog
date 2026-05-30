@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Nix Development and Reproducible Agent Environments (2026-05-30 Hourly Article Run)
+
+1. ✅ **Codex CLI for Nix Development: mcp-nixos, Flakes, and Reproducible Agent Environments** — Written 2026-05-30 → `2026-05-30-codex-cli-nix-development-mcp-nixos-flakes-reproducible-agent-environments.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Docker, Kubernetes, Terraform, and various build systems but no article addressed Nix/NixOS despite mcp-nixos providing 130K+ package queries, codex-cli-nix flake offering hourly-updated native binaries, numtide/llm-agents.nix packaging 50+ coding agents, microvm.nix enabling ephemeral agent sandboxing, NixOS 25.05 shipping with 137 new modules, and Nix flakes becoming the de facto standard for reproducible development environments
+   - SEO targets: "codex cli nix", "nix mcp server codex", "codex cli nixos", "mcp-nixos codex", "codex cli nix flakes", "nix devshell codex", "reproducible agent environment nix"
+
+---
+
 ## MCP Gateway and Proxy Patterns (2026-05-30 Hourly Article Run)
 
 1. ✅ **MCP Gateway and Proxy Patterns: Aggregating, Securing, and Scaling MCP Servers with Codex CLI** — Written 2026-05-30 → `2026-05-30-mcp-gateway-proxy-patterns-aggregating-securing-scaling-codex-cli.md`
