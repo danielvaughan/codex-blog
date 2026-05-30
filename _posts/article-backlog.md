@@ -14,7 +14,7 @@
    - Source: Gap analysis — Bazel is the dominant monorepo build system (Google, Meta, Uber); existing articles cover Gradle, Maven, and Nx but not Bazel; no MCP server coverage found; Bazel 8.x with bzlmod and remote execution is agent-relevant
    - SEO targets: "codex cli bazel", "bazel mcp server", "codex cli monorepo build", "bazel agent workflows"
 
-4. 📝 **MCP Server Testing Frameworks: Unit Testing, Integration Testing, and Validation of MCP Server Implementations**
+4. ✅ **MCP Server Testing Frameworks: Unit Testing, Integration Testing, and Validation of MCP Server Implementations** — Written 2026-05-30 → `2026-05-30-mcp-server-testing-frameworks-unit-integration-conformance-validation.md`
    - Source: Gap analysis — MCP servers are proliferating but no article covers how to test them; unit testing tool handlers, integration testing with mock clients, conformance validation, snapshot testing of tool schemas
    - SEO targets: "mcp server testing", "test mcp server", "mcp server unit test", "mcp conformance testing"
 

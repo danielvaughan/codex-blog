@@ -2,7 +2,7 @@
 title: "Multi-Agent Orchestration Patterns for Codex CLI"
 description: "Published: 2026-05-18 Source: Addy Osmani — The Code Agent Orchestra ("
 date: 2026-05-17T23:00:00+00:00
-last_modified_at: 2026-05-30T00:06:36+01:00
+last_modified_at: 2026-05-30T02:09:05+01:00
 ---
 
 ![Sketchnote diagram for: Multi-Agent Orchestration Patterns for Codex CLI](/sketchnotes/articles/2026-05-18-multi-agent-orchestration-patterns.png)
