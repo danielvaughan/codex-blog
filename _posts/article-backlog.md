@@ -1,5 +1,13 @@
 # Article Backlog
 
+## LLMOps with Codex CLI (2026-05-30 Hourly Article Run)
+
+1. ✅ **LLMOps with Codex CLI: Prompt Versioning, Eval Pipelines, and Production Observability** — Written 2026-05-30 → `2026-05-30-llmops-with-codex-cli-prompt-versioning-eval-pipelines-observability.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered eval-driven development, observability, and AGENTS.md patterns but no article addressed LLMOps as a unified discipline despite the LLMOps market reaching $7.14B in 2026, Promptfoo shipping a full Codex SDK provider with trajectory assertions, Langfuse MCP server enabling production trace analysis from within Codex CLI, Braintrust MCP providing eval-to-observability integration, and codex exec enabling CI-gated prompt evaluation pipelines
+   - SEO targets: "codex cli llmops", "llmops prompt versioning", "codex cli eval pipeline", "promptfoo codex cli", "langfuse mcp codex", "codex cli observability", "prompt versioning git"
+
+---
+
 ## tRPC v11 and TanStack Type-Safe API Development (2026-05-30 Hourly Article Run)
 
 1. ✅ **Codex CLI for tRPC v11 Development: Type-Safe APIs, TanStack Integration, and MCP-Bridged Agent Workflows** — Written 2026-05-30 → `2026-05-30-codex-cli-trpc-v11-type-safe-api-development-tanstack-mcp-agent-workflows.md`
