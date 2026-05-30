@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP 2026-07-28 Spec RC Migration Guide (2026-05-30 Hourly Article Run)
+
+1. ✅ **The MCP 2026-07-28 Specification RC: What Codex CLI Users Need to Know** — Written 2026-05-30 → `2026-05-30-mcp-2026-07-28-spec-rc-stateless-protocol-codex-cli-migration-guide.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered MCP gateway patterns, MCP server testing, MCP transport, and MCP OAuth but no article addressed the MCP 2026-07-28 specification release candidate despite the RC locking on 21 May 2026 with the final spec shipping 28 July 2026, the stateless protocol core eliminating session management (SEP-2575), three features deprecated (Roots, Sampling, Logging via SEP-2577), the Extensions framework formalising capability governance, Tasks migrating from experimental to extension, and Codex CLI v0.134-0.135 already shipping readOnlyHint parallel execution and OAuth for Streamable HTTP
+   - SEO targets: "mcp specification 2026", "mcp stateless protocol", "codex cli mcp migration", "mcp spec rc", "mcp extensions framework", "mcp tasks extension", "mcp deprecated features"
+
+---
+
 ## LLMOps with Codex CLI (2026-05-30 Hourly Article Run)
 
 1. ✅ **LLMOps with Codex CLI: Prompt Versioning, Eval Pipelines, and Production Observability** — Written 2026-05-30 → `2026-05-30-llmops-with-codex-cli-prompt-versioning-eval-pipelines-observability.md`
