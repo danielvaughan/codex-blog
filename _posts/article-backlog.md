@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ExecPlans and PLANS.md for Multi-Hour Sessions (2026-05-30 Hourly Article Run)
+
+1. ✅ **ExecPlans and PLANS.md: Driving Multi-Hour Autonomous Codex CLI Sessions** — Written 2026-05-30 → `2026-05-30-codex-cli-execplans-plans-md-multi-hour-autonomous-sessions.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered planning mode, spec-driven development, and autonomous execution but no article addressed the official OpenAI ExecPlan/PLANS.md pattern despite it being published in the OpenAI Cookbook, presented at DevDay by Aaron Friel, enabling 7+ hour autonomous sessions, composing with iterative repair loops, and integrating with the code modernisation cookbook workflow
+   - SEO targets: "codex cli execplan", "PLANS.md codex", "codex cli multi-hour session", "codex exec autonomous", "codex cli long running", "execplan template", "codex cli planning"
+
+---
+
 ## MCP 2026-07-28 Spec RC Migration Guide (2026-05-30 Hourly Article Run)
 
 1. ✅ **The MCP 2026-07-28 Specification RC: What Codex CLI Users Need to Know** — Written 2026-05-30 → `2026-05-30-mcp-2026-07-28-spec-rc-stateless-protocol-codex-cli-migration-guide.md`
