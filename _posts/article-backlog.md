@@ -1,5 +1,13 @@
 # Article Backlog
 
+## tRPC v11 and TanStack Type-Safe API Development (2026-05-30 Hourly Article Run)
+
+1. ✅ **Codex CLI for tRPC v11 Development: Type-Safe APIs, TanStack Integration, and MCP-Bridged Agent Workflows** — Written 2026-05-30 → `2026-05-30-codex-cli-trpc-v11-type-safe-api-development-tanstack-mcp-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered GraphQL, REST/OpenAPI, gRPC/Protobuf, and various API patterns but no article addressed tRPC despite tRPC v11 shipping with streaming responses, FormData/binary support, SSE subscriptions, and native TanStack Query v5 integration; trpc-mcp bridging tRPC procedures to MCP tools; TanStack Start reaching RC status with type-safe routing and server functions; and a dedicated tRPC agent skill available on Terminal Skills marketplace
+   - SEO targets: "codex cli trpc", "trpc v11 codex", "trpc mcp server", "codex cli type-safe api", "tanstack start codex cli", "trpc agent development", "codex cli tanstack query"
+
+---
+
 ## Nix Development and Reproducible Agent Environments (2026-05-30 Hourly Article Run)
 
 1. ✅ **Codex CLI for Nix Development: mcp-nixos, Flakes, and Reproducible Agent Environments** — Written 2026-05-30 → `2026-05-30-codex-cli-nix-development-mcp-nixos-flakes-reproducible-agent-environments.md`
