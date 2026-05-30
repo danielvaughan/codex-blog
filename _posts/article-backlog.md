@@ -1,5 +1,13 @@
 # Article Backlog
 
+## React Router 7 Framework Mode (2026-05-30 Hourly Article Run)
+
+1. ✅ **Codex CLI for React Router 7 Development: Framework Mode, MCP Servers, and Full-Stack Agent Workflows** — Written 2026-05-30 → `2026-05-30-codex-cli-react-router-7-framework-mode-mcp-servers-full-stack-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered React, Next.js, Remix migration, Svelte, Vue/Nuxt, Angular, Astro, SolidJS, and HTMX but no article addressed React Router 7 despite it absorbing Remix into framework mode, shipping v7.16.0 on 28 May 2026 with v8 future flag stabilisation, React Router's own AGENTS.md documenting five operational modes, Kent C. Dodds demonstrating interactive MCP endpoints within React Router apps, GitMCP documentation server support, and framework mode becoming the recommended starting point for new React full-stack projects
+   - SEO targets: "codex cli react router 7", "react router framework mode codex", "codex cli react router mcp", "react router 7 agent development", "codex cli full stack react", "react router loaders actions agent"
+
+---
+
 ## Gap-Identified Ideas (2026-05-29 Article Rating Run — Evening)
 
 1. ✅ **Codex CLI for Zig Development: Build System, Cross-Compilation, and Agent Workflows for Systems Programming** — Written 2026-05-29 → `2026-05-29-codex-cli-zig-development-build-system-cross-compilation-agent-workflows.md`
