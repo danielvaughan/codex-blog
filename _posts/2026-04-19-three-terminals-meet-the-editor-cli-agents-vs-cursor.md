@@ -1,9 +1,11 @@
 ---
 title: "Three Terminals Meet the Editor: Codex CLI vs Claude Code vs Gemini CLI vs Cursor"
 date: 2026-04-18T23:00:00+00:00
-last_modified_at: 2026-05-30T10:25:43+01:00
+last_modified_at: 2026-05-30T11:36:53+01:00
 categories: [codex-cli, claude-code, gemini-cli, cursor, comparison, ide, terminal-agents, customisation]
 description: "Cursor 3, released on 2 April 2026, ships parallel cloud agents, a visual design mode, and a tabbed agent window for managing local, cloud."
+parent: "Articles"
+nav_order: 928
 ---
 
 ![Sketchnote diagram for: Three Terminals Meet the Editor: Codex CLI vs Claude Code vs Gemini CLI vs Cursor](/sketchnotes/articles/2026-04-19-three-terminals-meet-the-editor-cli-agents-vs-cursor.png)

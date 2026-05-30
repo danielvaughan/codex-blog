@@ -3,7 +3,7 @@ title: "Codex CLI Multi-Agent Orchestration v2: Complete Guide"
 description: "Codex CLI's multi-agent system lets an orchestrator agent spawn, coordinate, and collect results from multiple subagents. Multi-agent v2 replaces opaque."
 subtitle: "Path-based addressing, structured messaging, and production orchestration patterns"
 date: 2026-04-11T08:00:00+00:00
-last_modified_at: 2026-05-30T10:25:43+01:00
+last_modified_at: 2026-05-30T11:36:53+01:00
 tags:
   - codex-cli
   - multi-agent
@@ -17,6 +17,8 @@ sources:
   - codex-rs/protocol/src/agent_path.rs
   - codex-rs/tui/src/multi_agents.rs
   - https://developers.openai.com/codex
+parent: "Articles"
+nav_order: 921
 ---
 
 ![Sketchnote diagram for: Codex CLI Multi-Agent Orchestration v2: Complete Guide](/sketchnotes/articles/2026-04-11-codex-cli-multi-agent-orchestration-v2-complete-guide.png)
