@@ -267,7 +267,7 @@ async def test_forecast_day_boundaries(client, days, should_pass):
 
 ## Security Considerations
 
-A 2026 Equixly security assessment found 43% of tested MCP implementations had command injection vulnerabilities [^12]. The MCP specification (2025-11-25) recommends tool sandboxing and runtime instrumentation for external function calls [^12]. Your test suite should include:
+A 2026 Equixly security assessment found 43 per cent of tested MCP implementations had command injection vulnerabilities [^12]. The MCP specification (2025-11-25) recommends tool sandboxing and runtime instrumentation for external function calls [^12]. Your test suite should include:
 
 - **Input sanitisation checks** — verify that shell metacharacters, path traversal attempts, and SQL injection payloads are rejected or escaped
 - **Permission boundary tests** — confirm tools cannot access resources outside their declared scope

@@ -10,7 +10,7 @@ tags: ["agent lifecycle", "decommissioning", "security", "governance", "codex cl
 
 ---
 
-Every engineering team has a process for deploying agents. Precious few have a process for killing them. As agentic AI adoption accelerates—Gartner predicts over 40% of agentic AI projects will be cancelled by end of 2027 due to escalating costs, unclear value, or inadequate risk controls [^1]—the question of how to *retire* agents safely becomes as critical as how to build them. A 2026 Cloud Security Alliance survey found that 82% of enterprises have unknown AI agents running in their infrastructure, and 65% have already experienced agent-related security incidents [^2]. Many of those incidents trace back to "ghost agents": decommissioned identities that retain credentials, permissions, or operational hooks long after their purpose has expired [^3].
+Every engineering team has a process for deploying agents. Precious few have a process for killing them. As agentic AI adoption accelerates—Gartner predicts over 40 per cent of agentic AI projects will be cancelled by end of 2027 due to escalating costs, unclear value, or inadequate risk controls [^1]—the question of how to *retire* agents safely becomes as critical as how to build them. A 2026 Cloud Security Alliance survey found that 82 per cent of enterprises have unknown AI agents running in their infrastructure, and 65 per cent have already experienced agent-related security incidents [^2]. Many of those incidents trace back to "ghost agents": decommissioned identities that retain credentials, permissions, or operational hooks long after their purpose has expired [^3].
 
 This article presents a structured decommissioning framework for production agents, with practical guidance for Codex CLI workflows.
 
@@ -239,7 +239,7 @@ For existing deployments, run a ghost agent audit before the problem compounds. 
 2. **Which are still active?** — Cross-reference agent identities against recent invocation logs (last 90 days).
 3. **Which have orphaned credentials?** — Scan for API keys, tokens, and service accounts associated with inactive agents.
 
-Only 21% of organisations report having formal decommissioning processes, and only 19% express high confidence that unused agents are fully removed [^4]. The audit is the first step toward closing that gap.
+Only 21 per cent of organisations report having formal decommissioning processes, and only 19 per cent express high confidence that unused agents are fully removed [^4]. The audit is the first step toward closing that gap.
 
 ## Conclusion
 

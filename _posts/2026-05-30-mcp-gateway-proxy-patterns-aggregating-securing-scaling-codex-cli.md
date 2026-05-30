@@ -16,7 +16,7 @@ This article surveys the gateway and proxy landscape as of mid-2026, compares th
 
 ## Why Gateways Matter Now
 
-Enterprise MCP adoption has crossed 78% in production AI teams, and the public MCP registry lists over 9,400 servers [^1]. A typical senior-developer setup might register a dozen servers — GitHub, Sentry, a database, a documentation service, cloud-provider CLIs, and several internal tools. Without a gateway, each server advertises its full tool schema directly to the model, inflating the system prompt and burning tokens before the first user message arrives.
+Enterprise MCP adoption has crossed 78 per cent in production AI teams, and the public MCP registry lists over 9,400 servers [^1]. A typical senior-developer setup might register a dozen servers — GitHub, Sentry, a database, a documentation service, cloud-provider CLIs, and several internal tools. Without a gateway, each server advertises its full tool schema directly to the model, inflating the system prompt and burning tokens before the first user message arrives.
 
 A Q1 2026 ecosystem survey evaluated 17 gateway, proxy, and aggregator tools [^2]. The core value propositions fall into four categories:
 
@@ -158,8 +158,9 @@ Start the gateway and register it once:
 
 ```bash
 agentgateway --config gateway.yaml &
-codex mcp add gateway -- curl  # not needed; use url config instead
 ```
+
+Then register it in your Codex configuration:
 
 ```toml
 [mcp_servers.agent-gateway]
@@ -170,7 +171,7 @@ url = "http://localhost:8080/mcp"
 
 One of the most impactful gateway patterns in 2026 is **Code Mode**, pioneered by Maxim's Bifrost gateway [^8]. Instead of advertising N tool definitions to the model, the gateway compiles all MCP tools into a Python module and exposes a single `execute_python(code)` tool. The model writes Python that calls the compiled functions; the gateway runs it in a sandbox and returns the result as a single content block.
 
-This collapses the tool-definition tax from N descriptions to one and reduces multi-step tool chains from N round-trips to one. For Codex CLI users with large tool sets, this can cut token costs by 40–60% on tool-heavy sessions [^8].
+This collapses the tool-definition tax from N descriptions to one and reduces multi-step tool chains from N round-trips to one. For Codex CLI users with large tool sets, this can cut token costs by 40–60 per cent on tool-heavy sessions [^8].
 
 ```mermaid
 sequenceDiagram
