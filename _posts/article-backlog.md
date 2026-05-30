@@ -18,7 +18,7 @@
    - Source: Gap analysis — MCP servers are proliferating but no article covers how to test them; unit testing tool handlers, integration testing with mock clients, conformance validation, snapshot testing of tool schemas
    - SEO targets: "mcp server testing", "test mcp server", "mcp server unit test", "mcp conformance testing"
 
-5. 📝 **Agent Decommissioning and Retirement: Lifecycle Management for Production Agents** (Premium candidate)
+5. ✅ **Agent Decommissioning and Retirement: Lifecycle Management for Production Agents** — Written 2026-05-30 → `2026-05-30-agent-decommissioning-retirement-lifecycle-management-production-agents.md`
    - Source: Gap analysis — touched in premium article 40 (The Factory Factory) but deserves standalone treatment; covers agent deprecation policies, knowledge transfer before shutdown, audit trail preservation, cost wind-down, team notification
    - SEO targets: "agent decommissioning", "ai agent lifecycle", "agent retirement", "production agent shutdown"
 
