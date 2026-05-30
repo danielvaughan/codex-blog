@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP Gateway and Proxy Patterns (2026-05-30 Hourly Article Run)
+
+1. ✅ **MCP Gateway and Proxy Patterns: Aggregating, Securing, and Scaling MCP Servers with Codex CLI** — Written 2026-05-30 → `2026-05-30-mcp-gateway-proxy-patterns-aggregating-securing-scaling-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered MCP server management, OAuth, and transport but no article addressed the gateway/proxy layer despite 17+ tools in the ecosystem (agentgateway under Linux Foundation, IBM ContextForge, Microsoft MCP Gateway, Supergateway, MetaMCP, MCPJungle), enterprise MCP adoption crossing 78%, the Code Mode pattern cutting token costs 40-60%, and the 2026-07-28 MCP spec RC making the protocol stateless
+   - SEO targets: "mcp gateway codex cli", "mcp proxy pattern", "mcp aggregator", "agentgateway codex", "mcp server scaling", "codex cli mcp gateway", "mcp tool routing"
+
+---
+
 ## React Router 7 Framework Mode (2026-05-30 Hourly Article Run)
 
 1. ✅ **Codex CLI for React Router 7 Development: Framework Mode, MCP Servers, and Full-Stack Agent Workflows** — Written 2026-05-30 → `2026-05-30-codex-cli-react-router-7-framework-mode-mcp-servers-full-stack-agent-workflows.md`
