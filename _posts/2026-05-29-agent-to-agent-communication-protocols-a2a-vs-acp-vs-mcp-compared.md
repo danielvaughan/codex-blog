@@ -16,7 +16,7 @@ The agentic AI stack in 2026 runs on three protocol acronyms — MCP, A2A, and A
 |--------|-----|-----|-----|
 | **Purpose** | Agent-to-tool connectivity | Agent-to-agent collaboration | Agent communication (merged into A2A) |
 | **Created by** | Anthropic (Nov 2024) | Google (Apr 2025) | IBM Research (2025) |
-| **Current status** | Active — spec 2025-11-25 [^1] | Active — v1.2 (Mar 2026) [^2] | Merged into A2A (Sep 2025) [^3] |
+| **Current status** | Active — spec 2025-11-25 [^1] | Active — v1.0 (early 2026) [^2] | Merged into A2A (Aug 2025) [^3] |
 | **Transport** | JSON-RPC over Streamable HTTP | JSON-RPC 2.0 over HTTPS + SSE | REST/HTTP (historical) |
 | **Governance** | Linux Foundation (Dec 2025) [^1] | Linux Foundation (Jun 2025) [^2] | N/A |
 
