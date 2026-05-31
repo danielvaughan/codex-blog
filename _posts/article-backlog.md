@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Doctor Comprehensive Diagnostics (2026-05-31 Hourly Article Run)
+
+1. ✅ **Codex Doctor: Comprehensive Runtime Diagnostics and Troubleshooting in v0.135** — Written 2026-05-31 → `2026-05-31-codex-doctor-comprehensive-diagnostics-troubleshooting-v0135.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing diagnostic article (2026-04-07) covered v0.118 tracing and sandbox testing but not the substantially enhanced `codex doctor` subcommand shipping in v0.131–v0.135 with environment, Git, terminal, app-server, thread inventory, and connectivity diagnostics.
+   - SEO targets: "codex doctor", "codex cli troubleshooting", "codex cli diagnostics", "codex doctor --json", "codex cli health check", "codex cli support diagnostics", "codex environment validation"
+
+---
+
 ## Shell Scripting with Codex CLI (2026-05-31 Hourly Article Run)
 
 1. ✅ **Codex CLI for Shell Scripting: Agent-Assisted Bash Generation, Testing, and Maintenance** — Written 2026-05-31 → `2026-05-31-codex-cli-shell-scripting-bash-agent-assisted-generation-testing-maintenance.md`
