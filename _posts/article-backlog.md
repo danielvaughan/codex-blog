@@ -5546,3 +5546,12 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered a direct comparison between GitHub Copilot CLI Agent and Codex CLI, despite both now sharing the same GPT-5.3-Codex base model as of May 17, 2026.
    - Scope: Architecture comparison (Rust vs Node.js), sandboxing approaches (OS-level vs worktree isolation), automation surfaces (codex exec/SDK/MCP vs GitHub Actions/fleet/delegate), extensibility (open MCP vs managed marketplace), interactive TUI features, cost models (per-token vs usage-based subscription), decision framework for choosing between tools, convergence trajectory analysis
    - SEO targets: "codex cli vs copilot cli", "github copilot cli agent comparison", "codex cli copilot comparison", "terminal coding agents compared", "gpt-5.3-codex copilot", "codex cli vs github copilot terminal", "coding agent comparison 2026"
+
+## New Articles — Auto-Generated (2026-05-31, Hourly Task)
+
+### Automated Test Maintenance
+
+1. ✅ **Codex CLI for Automated Test Maintenance: Fixing Broken Tests, Updating Snapshots, and Eliminating Flaky Tests** — Written 2026-05-31 → `2026-05-31-codex-cli-automated-test-maintenance-fixing-broken-tests-snapshot-updates-flaky-elimination.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered agent-driven test maintenance workflows (automated CI repair, intelligent snapshot management, flaky test detection/quarantine) despite existing articles on testing in general.
+   - Scope: Test maintenance cost problem (20-50% of QA time), GitHub Actions workflow with codex-action for CI autofix, AGENTS.md constraints for test-only modifications, intelligent snapshot updates with codex exec and --output-schema, PostToolUse hooks for snapshot validation, flaky test detection via static analysis, Playwright quarantine pattern with tag-based filtering, PreToolUse hooks to block retry masking, combined test health automation script, cost considerations with model routing (gpt-5.4-mini vs gpt-5.5), limitations and safety
+   - SEO targets: "codex cli test maintenance", "codex cli fix broken tests", "codex cli snapshot updates", "codex cli flaky tests", "codex cli ci autofix", "automated test repair agent", "codex exec testing", "codex cli jest vitest playwright"
