@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Session History, Local Search, and Knowledge Mining (2026-06-01 Hourly Article Run)
+
+1. ✅ **Codex CLI Session History: Local Search, Rollout Format, and Knowledge Mining** — Written 2026-06-01 → `2026-06-01-codex-cli-session-history-local-search-rollout-format-knowledge-mining.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered cross-surface session sync and conversation memory but no article addressed the v0.134 local conversation history search with content matching, the rollout JSONL format internals, the SQLite metadata layer, practical `jq` extraction patterns for knowledge mining, or third-party cross-provider search tools like cass
+   - SEO targets: "codex cli session history", "codex cli search history", "codex rollout jsonl format", "codex cli resume session", "codex cli session management", "codex cli knowledge mining", "coding agent session search"
+
+---
+
 ## Vercel Skills CLI and the Open Agent Skills Ecosystem (2026-05-31 Hourly Article Run)
 
 1. ✅ **The Vercel Skills CLI and the Open Agent Skills Ecosystem: Installing, Managing, and Publishing Skills for Codex CLI** — Written 2026-05-31 → `2026-05-31-codex-cli-vercel-skills-cli-npx-skills-open-agent-skills-ecosystem.md`
