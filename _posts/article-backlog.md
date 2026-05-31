@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Gartner Magic Quadrant for Enterprise AI Coding Agents (2026-05-31 Hourly Article Run)
+
+1. ✅ **The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What Codex CLI's Leader Positioning Means for Your Team** — Written 2026-05-31 → `2026-05-31-gartner-magic-quadrant-enterprise-ai-coding-agents-codex-cli-leader-positioning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article addressed the inaugural Gartner Magic Quadrant for Enterprise AI Coding Agents (published 20 May 2026, report G00841434) despite OpenAI being named a Leader alongside GitHub and Cursor, the report evaluating 12 vendors, formally distinguishing coding agents from code-completion tools, and establishing governance, sandbox, RBAC, and audit capabilities as enterprise procurement criteria
+   - SEO targets: "gartner magic quadrant codex", "enterprise ai coding agents", "codex cli enterprise", "codex cli governance", "codex cli RBAC", "gartner leader coding agent", "codex enterprise adoption"
+
+---
+
 ## Codex Doctor Comprehensive Diagnostics (2026-05-31 Hourly Article Run)
 
 1. ✅ **Codex Doctor: Comprehensive Runtime Diagnostics and Troubleshooting in v0.135** — Written 2026-05-31 → `2026-05-31-codex-doctor-comprehensive-diagnostics-troubleshooting-v0135.md`
