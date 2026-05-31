@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Computer Use on Windows (2026-05-30 Hourly Article Run)
+
+1. ✅ **Codex Computer Use on Windows: Desktop Automation, QA Testing, and GUI-Driven Agent Workflows** — Written 2026-05-30 → `2026-05-30-codex-computer-use-windows-desktop-automation-qa-testing-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered macOS Computer Use, locked-desktop CUA, and desktop QA testing but no article addressed the Windows Computer Use launch on 29 May 2026 despite Computer Use now working on Windows 11 with foreground takeover, the ezpzai community MCP plugin providing 30+ desktop control tools, the official QA use-case guide documenting structured test plans, and the elevated/unelevated sandbox architecture being unique to Windows
+   - SEO targets: "codex computer use windows", "codex desktop automation windows", "codex qa testing windows", "codex gui testing", "codex computer use plugin", "codex windows desktop agent", "codex app windows computer use"
+
+---
+
 ## ExecPlans and PLANS.md for Multi-Hour Sessions (2026-05-30 Hourly Article Run)
 
 1. ✅ **ExecPlans and PLANS.md: Driving Multi-Hour Autonomous Codex CLI Sessions** — Written 2026-05-30 → `2026-05-30-codex-cli-execplans-plans-md-multi-hour-autonomous-sessions.md`
