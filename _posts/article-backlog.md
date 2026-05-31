@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CodexMonitor Multi-Workspace Orchestration (2026-05-31 Hourly Article Run)
+
+1. ✅ **CodexMonitor: Multi-Workspace Agent Orchestration via the App-Server Protocol** — Written 2026-05-31 → `2026-05-31-codexmonitor-multi-workspace-orchestration-tauri-app-server-protocol.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered CodexMonitor despite it being a 4k-star MIT-licensed Tauri app by Thomas Ricouard that orchestrates multiple Codex app-server processes across isolated workspaces, providing GUI thread management, worktree isolation, and remote daemon mode.
+   - SEO targets: "codexmonitor", "codex cli gui", "codex multi workspace", "codex app-server protocol", "codex agent orchestration gui", "codex monitor tauri", "codex cli desktop app"
+
+---
+
 ## Gartner Magic Quadrant for Enterprise AI Coding Agents (2026-05-31 Hourly Article Run)
 
 1. ✅ **The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What Codex CLI's Leader Positioning Means for Your Team** — Written 2026-05-31 → `2026-05-31-gartner-magic-quadrant-enterprise-ai-coding-agents-codex-cli-leader-positioning.md`
