@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Vercel Skills CLI and the Open Agent Skills Ecosystem (2026-05-31 Hourly Article Run)
+
+1. ✅ **The Vercel Skills CLI and the Open Agent Skills Ecosystem: Installing, Managing, and Publishing Skills for Codex CLI** — Written 2026-05-31 → `2026-05-31-codex-cli-vercel-skills-cli-npx-skills-open-agent-skills-ecosystem.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered the SKILL.md open standard, cross-agent portability, and Codex CLI's built-in skill system but no article specifically addressed the Vercel skills CLI (`npx skills`), the skills.sh directory and leaderboard, practical installation and lifecycle management workflows, skill publishing, or the ecosystem metrics (20.8k GitHub stars, 50+ supported agents, 1.8M installs on top skill)
+   - SEO targets: "npx skills codex", "vercel skills cli", "skills.sh", "codex cli skills install", "agent skills ecosystem", "SKILL.md package manager", "open agent skills"
+
+---
+
 ## CodexMonitor Multi-Workspace Orchestration (2026-05-31 Hourly Article Run)
 
 1. ✅ **CodexMonitor: Multi-Workspace Agent Orchestration via the App-Server Protocol** — Written 2026-05-31 → `2026-05-31-codexmonitor-multi-workspace-orchestration-tauri-app-server-protocol.md`
