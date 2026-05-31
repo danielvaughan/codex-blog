@@ -1,5 +1,69 @@
 # Article Backlog
 
+## Shell Scripting with Codex CLI (2026-05-31 Hourly Article Run)
+
+1. ✅ **Codex CLI for Shell Scripting: Agent-Assisted Bash Generation, Testing, and Maintenance** — Written 2026-05-31 → `2026-05-31-codex-cli-shell-scripting-bash-agent-assisted-generation-testing-maintenance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Unix pipelines with codex exec, CI/CD automation, and various language-specific workflows but no article addressed using Codex CLI for interactive shell script development despite Bash being the connective tissue of every engineering organisation, ShellCheck providing 400+ lint rules for agent enforcement, Bats v1.11.1 enabling structured testing, and shell_environment_policy offering fine-grained control over script execution environments
+   - SEO targets: "codex cli bash script", "codex cli shell scripting", "codex cli shellcheck", "agent assisted bash", "codex cli bats testing", "codex cli posix scripts", "codex cli devops scripts"
+
+---
+
+## Automated Dependency Management and Supply Chain Security (2026-05-31 Hourly Article Run)
+
+1. ✅ **Codex CLI for Automated Dependency Management: Dependabot Agent Assignment, Supply Chain Security, and Remediation Workflows** — Written 2026-05-31 → `2026-05-31-codex-cli-automated-dependency-management-dependabot-agent-assignment-supply-chain-security.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Snyk MCP server security scanning and general supply chain security but no article addressed the Dependabot agent assignment feature launched April 2026, the Socket MCP server for supply chain scoring, or end-to-end dependency remediation pipelines combining these tools with codex exec automation
+   - SEO targets: "codex cli dependabot", "dependabot assign to agent codex", "codex cli dependency management", "socket mcp server codex", "codex cli supply chain security", "codex cli vulnerability remediation", "automated dependency updates codex"
+
+---
+
+## Micro-Frontend Development with Module Federation 2.0 and Nx (2026-05-31 Hourly Article Run)
+
+1. ✅ **Codex CLI for Micro-Frontend Development: Module Federation 2.0, Nx Integration, and Independent Team Deployments** — Written 2026-05-31 → `2026-05-31-codex-cli-micro-frontend-development-module-federation-2-nx-independent-deployments.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Next.js, React, Angular, Svelte, Vue, monorepos, and Nx but no article addressed micro-frontend architecture despite Module Federation 2.0 reaching stable release in April 2026 with cross-bundler support (Webpack, Rspack, Vite, Rollup, Metro), Nx shipping a purpose-built MCP server with project graph awareness, TypeScript type sharing across remote boundaries becoming stable, and micro-frontends being a standard enterprise pattern where cross-team agent coordination and independent deployments create unique workflow demands
+   - SEO targets: "codex cli micro frontend", "codex cli module federation", "module federation 2.0 codex", "codex cli nx micro frontend", "codex cli independent deployment", "micro frontend agent workflow", "codex cli rspack module federation"
+
+---
+
+## Docs-as-Code with Docusaurus, VitePress, and MkDocs (2026-05-31 Hourly Article Run)
+
+1. ✅ **Codex CLI for Docs-as-Code: Docusaurus, VitePress, MkDocs, and Agent-Driven Documentation Pipelines** — Written 2026-05-31 → `2026-05-31-codex-cli-docs-as-code-docusaurus-vitepress-mkdocs-agent-driven-documentation-pipelines.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered API documentation generation, automated code documentation, and Confluence/Notion knowledge base integration but no article addressed static site generators for documentation despite Docusaurus (~3M weekly downloads) shipping a dedicated MCP server plugin, VitePress 2.x having community MCP support, MkDocs Material 9.7.x folding all Insiders features into open source before entering maintenance mode, llms.txt v1.7.0 reaching stable status for AI-readable documentation, and docs-as-code being the standard workflow for developer documentation
+   - SEO targets: "codex cli docs as code", "codex cli docusaurus", "codex cli vitepress", "codex cli mkdocs", "docusaurus mcp server codex", "llms.txt codex cli", "agent driven documentation", "codex cli documentation pipeline"
+
+---
+
+## API Contract Testing with PactFlow, OpenAPI, and Consumer-Driven Workflows (2026-05-31 Hourly Article Run)
+
+1. ✅ **Codex CLI for API Contract Testing: PactFlow, OpenAPI Validation, and Consumer-Driven Workflows** — Written 2026-05-31 → `2026-05-31-codex-cli-api-contract-testing-pactflow-openapi-consumer-driven-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered GraphQL, REST/OpenAPI generation, gRPC/Protobuf, and API documentation but no article addressed API contract testing despite PactFlow shipping an MCP server and five autonomous agent skills, Specmatic providing a dedicated contract testing MCP server, Schemathesis v4.19.0 offering property-based API fuzzing, pact-js v16.5.0 and pact-python v3.4.0 both defaulting to Pact v4 specification, and consumer-driven contracts being critical for agent-assisted microservice development
+   - SEO targets: "codex cli contract testing", "pactflow mcp server", "codex cli pact", "codex cli openapi validation", "consumer driven contracts codex", "specmatic mcp server", "codex cli api testing"
+
+---
+
+## Environment Management Deep Dive (2026-05-31 Hourly Article Run)
+
+1. ✅ **Codex CLI Environment Management: Turn-Scoped Selections, Profiles, Shell Policies, and Multi-Environment Workflows** — Written 2026-05-31 → `2026-05-31-codex-cli-environment-management-turn-scoped-profiles-shell-policy-multi-env-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered configuration profiles, cloud environments, and MCP OAuth but no article consolidated the full environment management surface area despite turn-scoped environment selections landing via PR #18416, MCP per-server env targeting shipping in v0.134, shell_environment_policy controlling secret leakage, and profile-based environment switching being the recommended workflow for multi-environment teams
+   - SEO targets: "codex cli environment management", "codex cli profiles", "codex cli shell environment policy", "codex cli turn-scoped environment", "codex cli dev staging production", "codex cli mcp environment targeting", "codex cli multi-environment workflow"
+
+---
+
+## Codex Cloud Environments Deep Dive (2026-05-31 Hourly Article Run)
+
+1. ✅ **Codex Cloud Environments: Setup Scripts, Container Caching, Secrets, and the codex-universal Image** — Written 2026-05-31 → `2026-05-31-codex-cloud-environments-setup-scripts-caching-secrets-codex-universal.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered cloud vs local workflows (March 2026) and cloud delegation patterns (May 2026) but no article addressed the cloud environment configuration layer in depth despite codex-universal shipping as a public polyglot Docker image on GitHub, 12-hour container caching with automatic invalidation, secrets being scrubbed before agent phase, setup/maintenance script separation, network proxy architecture with per-phase access controls, and the open proposal for scriptable environment lifecycle (issue #24777)
+   - SEO targets: "codex cloud environment", "codex-universal docker", "codex cloud setup script", "codex cloud secrets", "codex cloud container cache", "codex cloud network access", "codex cloud exec environment"
+
+---
+
+## .NET 10 and C# 14 with Aspire and MCP (2026-05-30 Hourly Article Run)
+
+1. ✅ **Codex CLI for .NET 10 and C# 14: Aspire Integration, MCP Servers, and the dotnet/skills Ecosystem** — Written 2026-05-30 → `2026-05-30-codex-cli-dotnet-10-csharp-14-aspire-mcp-servers-skills-ecosystem.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered basic .NET/C# setup (March 2026) and agent skills ecosystem but no article addressed the modern .NET 10/C# 14 development story despite .NET 10 LTS shipping November 2025 with C# 14 extension members and field-backed properties, the dotnet/skills catalogue growing to 13 official plugins maintained by the .NET platform team, the MCP C# SDK reaching v1.2.0 stable, Aspire 13.2 introducing agent-native CLI with detached mode, and the managedcode/dotnet-skills community catalogue reaching 83+ skills
+   - SEO targets: "codex cli dotnet 10", "codex cli csharp 14", "dotnet skills codex", "codex cli aspire", "mcp server csharp codex", "codex cli .net development", "dotnet agent skills codex cli"
+
+---
+
 ## Computer Use on Windows (2026-05-30 Hourly Article Run)
 
 1. ✅ **Codex Computer Use on Windows: Desktop Automation, QA Testing, and GUI-Driven Agent Workflows** — Written 2026-05-30 → `2026-05-30-codex-computer-use-windows-desktop-automation-qa-testing-workflows.md`
