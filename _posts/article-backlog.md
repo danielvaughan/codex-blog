@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Devin vs Codex CLI Enterprise Comparison (2026-06-01 Hourly Article Run)
+
+1. ✅ **Devin vs Codex CLI: Cloud Sandbox vs Local-First Architecture for Enterprise Engineering Teams** — Written 2026-06-01 → `2026-06-01-devin-vs-codex-cli-cloud-sandbox-local-first-architecture-enterprise-comparison.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article compared Devin and Codex CLI despite Devin being a major competitor; existing articles covered Claude Code, Gemini CLI, GitHub Copilot CLI, and other comparisons but not the cloud-sandbox-vs-local-first architectural trade-off with Devin's ACU billing, Playbooks, and Knowledge wiki vs Codex CLI's OS-level sandboxing, MCP ecosystem, and AGENTS.md standard
+   - SEO targets: "devin vs codex cli", "codex cli devin comparison", "cloud sandbox local first coding agent", "devin codex enterprise", "devin ACU vs codex tokens", "ai coding agent architecture comparison 2026"
+
+---
+
 ## Dead Code Detection and Dependency Pruning (2026-06-01 Hourly Article Run)
 
 1. ✅ **Codex CLI for Dead Code Detection and Dependency Pruning: Automated Codebase Cleanup Workflows** — Written 2026-06-01 → `2026-06-01-codex-cli-dead-code-detection-unused-dependency-pruning-automated-codebase-cleanup.md`
