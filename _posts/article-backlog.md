@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex On-Premises: Dell AI Factory Partnership (2026-06-01 Hourly Article Run)
+
+1. ✅ **Codex On-Premises: The Dell AI Factory Partnership and What It Means for Regulated Enterprise Teams** — Written 2026-06-01 → `2026-06-01-codex-on-premises-dell-ai-factory-enterprise-hybrid-deployment-regulated-industries.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the OpenAI-Dell Technologies partnership announced 18 May 2026 at Dell Technologies World, bringing Codex to hybrid and on-premises enterprise environments via Dell AI Factory, Dell AI Data Platform with Starburst integration, PowerEdge XE9680/XE9812 hardware, and the enterprise managed configuration stack (requirements.toml, RBAC, Compliance API) for regulated industries
+   - SEO targets: "codex on-premises", "dell ai factory codex", "codex enterprise deployment", "codex regulated industries", "codex requirements.toml on-premises", "openai dell partnership codex", "codex hybrid deployment"
+
+---
+
 ## Vertical AI Agents: Self-Improving Feedback Loop Pattern (2026-06-01 Hourly Article Run)
 
 1. ✅ **Vertical AI Agents with Codex CLI: The Self-Improving Feedback Loop Pattern** — Written 2026-06-01 → `2026-06-01-codex-cli-vertical-ai-agents-self-improving-feedback-loop-halo-eval-driven-iteration.md`

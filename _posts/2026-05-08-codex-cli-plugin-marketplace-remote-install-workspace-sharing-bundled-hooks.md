@@ -2,7 +2,7 @@
 title: "Codex CLI Plugin Marketplace: Remote Installation, Workspace Sharing, and Bundled Hooks"
 description: "Codex CLI v0.129 shipped comprehensive plugin management, turning the /plugins command into a full marketplace browser. This article covers how plugin."
 date: 2026-05-07T23:00:00+00:00
-last_modified_at: 2026-06-01T20:21:39+01:00
+last_modified_at: 2026-06-01T22:10:33+01:00
 category: plugins
 tags: [codex-cli, plugins, marketplace, hooks, mcp, skills, enterprise]
 source:
