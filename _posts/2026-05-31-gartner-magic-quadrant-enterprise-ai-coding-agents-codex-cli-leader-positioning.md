@@ -8,7 +8,7 @@ tags: ["codex-cli", "gartner", "magic-quadrant", "enterprise", "governance", "co
 # The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What Codex CLI's Leader Positioning Means for Your Team
 
 
-On 20 May 2026, Gartner published the inaugural *Magic Quadrant for Enterprise AI Coding Agents* (report ID G00841434), evaluating 12 vendors across two axes — Ability to Execute and Completeness of Vision [^1]. OpenAI was named a Leader, alongside GitHub (Copilot) and Cursor [^2][^3][^4]. Tabnine landed in the Visionary quadrant [^5]. The report formalises a distinction that matters to every engineering organisation choosing tooling: *coding agents* are no longer code-completion utilities — they are autonomous systems that receive task descriptions, plan work, modify multiple files, run tests, fix failures, and submit pull requests [^6].
+On 20 May 2026, Gartner published the inaugural *Magic Quadrant for Enterprise AI Coding Agents* (report ID G00841434), evaluating 12 vendors across two axes — Ability to Execute and Completeness of Vision [^1]. OpenAI was named a Leader, alongside Anthropic (Claude Code), GitHub (Copilot), and Cursor [^2][^3][^4]. Tabnine landed in the Visionary quadrant [^5]. The report formalises a distinction that matters to every engineering organisation choosing tooling: *coding agents* are no longer code-completion utilities — they are autonomous systems that receive task descriptions, plan work, modify multiple files, run tests, fix failures, and submit pull requests [^6].
 
 This article unpacks the evaluation criteria, maps them to concrete Codex CLI capabilities, and offers a practical adoption checklist for teams weighing enterprise rollout.
 
@@ -88,11 +88,12 @@ Enterprise Codex workspaces expose RBAC through ChatGPT admin settings, with SCI
 
 ## The Competitive Landscape
 
-The three Leaders occupy distinct positions:
+The four Leaders occupy distinct positions:
 
 | Vendor | Key Strength | CLI/Terminal Story | Enterprise Governance |
 |--------|-------------|-------------------|----------------------|
 | **OpenAI (Codex)** | Agentic autonomy, GPT-5.5 reasoning, multi-surface deployment [^2] | First-class open-source CLI with local sandboxing | RBAC, SCIM, requirements.toml, Compliance API |
+| **Anthropic (Claude Code)** | Extended thinking, strong coding benchmarks, safety-focused design | `claude` CLI with native terminal agent | Organisation policies, SSO, audit controls |
 | **GitHub (Copilot)** | Lifecycle integration across issues, PRs, Actions; highest Ability to Execute [^3] | `gh copilot` CLI with GitHub-native integration | GitHub Enterprise policies, audit log streaming |
 | **Cursor** | Furthest Completeness of Vision; 70%+ Fortune 500 adoption [^4] | IDE-native with terminal panel | Workspace-level policies, team admin controls |
 

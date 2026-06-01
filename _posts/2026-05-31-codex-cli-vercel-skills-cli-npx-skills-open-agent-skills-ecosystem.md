@@ -10,7 +10,7 @@ tags: ["codex-cli", "skills", "vercel", "skills-cli", "npx-skills", "SKILL.md", 
 
 ---
 
-Every coding agent ships with a finite instruction set. Skills — modular, reusable instruction bundles packaged as `SKILL.md` files — extend that set without bloating context windows. Vercel's open-source **skills CLI** (`npx skills`) has become the de facto package manager for this ecosystem, accumulating over 20,000 GitHub stars and supporting 50+ agents including Codex CLI, Claude Code, Gemini CLI, GitHub Copilot, and Cursor [^1][^2]. This article covers how the skills system works inside Codex CLI, how to install and manage skills with the Vercel CLI, and how to publish your own.
+Every coding agent ships with a finite instruction set. Skills — modular, reusable instruction bundles packaged as `SKILL.md` files — extend that set without bloating context windows. Vercel's open-source **skills CLI** (`npx skills`) has become the de facto package manager for this ecosystem, accumulating over 20,000 GitHub stars and supporting 27+ agents including Codex CLI, Claude Code, Gemini CLI, GitHub Copilot, and Cursor [^1][^2]. This article covers how the skills system works inside Codex CLI, how to install and manage skills with the Vercel CLI, and how to publish your own.
 
 ## Why Skills Matter
 

@@ -128,7 +128,7 @@ Within an active session, `/resume` opens the session picker without exiting Cod
 
 ## Third-Party Search: cass
 
-For developers who use multiple coding agents, **cass** (coding-agent-session-search) aggregates session histories from 15+ providers — including Codex, Claude Code, Gemini CLI, Cursor, Aider, and Copilot — into a single searchable index[^7].
+For developers who use multiple coding agents, **cass** (coding-agent-session-search) aggregates session histories from 11+ providers — including Codex, Claude Code, Gemini CLI, Cursor, Aider, and Copilot — into a single searchable index[^7].
 
 Key capabilities:
 
@@ -138,8 +138,13 @@ Key capabilities:
 - **Agent-friendly output** via `--robot` and `--json` flags for integration into automated workflows
 
 ```bash
-# Install and index all local sessions
-pip install cass
+# Install via Homebrew (macOS/Linux)
+brew install dicklesworthstone/tap/cass
+
+# Or via shell installer
+curl -fsSL https://raw.githubusercontent.com/Dicklesworthstone/coding_agent_session_search/main/install.sh | bash
+
+# Index all local sessions
 cass index
 
 # Search across all providers
