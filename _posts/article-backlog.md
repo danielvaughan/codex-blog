@@ -1,5 +1,13 @@
 # Article Backlog
 
+## June–July 2026 Model Sunset Migration Checklist (2026-06-01 Hourly Article Run)
+
+1. ✅ **The June–July 2026 Model Sunset: Migrating from GPT-5.2 and GPT-5.2-Codex in Your Codex CLI Workflows** — Written 2026-06-01 → `2026-06-01-codex-cli-june-2026-model-sunset-gpt52-gpt52codex-migration-checklist.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GPT-5.2 retired from Codex platform on 2 June 2026, GitHub Copilot dropping it on 5 June, API shutdown 23 July (gpt-5.2-codex) and 10 August (gpt-5.2-chat-latest); no existing article covered this specific retirement event with actionable config.toml audit scripts, CI/CD pipeline migration steps, profile-based rollout strategy, and the current June 2026 model replacement landscape
+   - SEO targets: "codex cli gpt-5.2 migration", "gpt-5.2 deprecated codex", "codex cli model migration june 2026", "gpt-5.2-codex shutdown", "codex cli gpt-5.5 upgrade", "codex config.toml model update"
+
+---
+
 ## Feature Flags, Maturity Stages, and Experimental Capabilities (2026-06-01 Hourly Article Run)
 
 1. ✅ **Codex CLI Feature Flags in v0.135: Maturity Stages, the codex features Subcommand, and Every Flag That Matters** — Written 2026-06-01 → `2026-06-01-codex-cli-feature-flags-maturity-stages-experimental-capabilities-v0135.md`
