@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Dead Code Detection and Dependency Pruning (2026-06-01 Hourly Article Run)
+
+1. ✅ **Codex CLI for Dead Code Detection and Dependency Pruning: Automated Codebase Cleanup Workflows** — Written 2026-06-01 → `2026-06-01-codex-cli-dead-code-detection-unused-dependency-pruning-automated-codebase-cleanup.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for dead code detection and automated codebase cleanup despite Knip v5 reaching 300k weekly downloads, Vulture gaining an MCP server (April 2026), and Go's official deadcode tool being widely adopted; existing articles covered technical debt reduction and refactoring but not the specific workflow of static-analyser-to-agent-triage-to-automated-removal with structured output schemas and PostToolUse validation hooks
+   - SEO targets: "codex cli dead code", "codex cli unused dependencies", "codex cli knip", "codex cli codebase cleanup", "codex cli vulture dead code", "codex exec code cleanup automation", "dead code detection agent workflow"
+
+---
+
 ## Enterprise Deployment: Managed Configuration, RBAC, and GHES Connector (2026-06-01 Hourly Article Run)
 
 1. ✅ **Codex CLI Enterprise Deployment: Managed Configuration, RBAC, and the GitHub Enterprise Server Connector** — Written 2026-06-01 → `2026-06-01-codex-cli-enterprise-deployment-managed-configuration-rbac-github-enterprise-server-connector.md`
