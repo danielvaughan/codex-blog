@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Cross-Agent Session Portability (2026-06-01 Hourly Article Run)
+
+1. ✅ **Cross-Agent Session Portability: Moving Codex CLI Sessions Between Coding Agents** — Written 2026-06-01 → `2026-06-01-codex-cli-cross-agent-session-portability-continues-casr-handoff.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the `continues` (npm, 1.2k stars) or `casr` (Rust) cross-agent session handoff tools, Codex CLI rollout JSONL format internals for portability, or practical patterns for moving sessions between Codex CLI, Claude Code, Gemini CLI, and 13 other coding agents
+   - SEO targets: "codex cli session portability", "continues npm cross agent", "casr session resume", "codex cli claude code handoff", "cross agent session transfer", "coding agent session format"
+
+---
+
 ## June–July 2026 Model Sunset Migration Checklist (2026-06-01 Hourly Article Run)
 
 1. ✅ **The June–July 2026 Model Sunset: Migrating from GPT-5.2 and GPT-5.2-Codex in Your Codex CLI Workflows** — Written 2026-06-01 → `2026-06-01-codex-cli-june-2026-model-sunset-gpt52-gpt52codex-migration-checklist.md`

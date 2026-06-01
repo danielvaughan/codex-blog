@@ -2,7 +2,7 @@
 title: "Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack"
 description: "Most Codex CLI coverage focuses on Codex consuming MCP servers — wiring in filesystem tools, database connectors, or third-party APIs. Less attention goes."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-06-01T04:17:34+01:00
+last_modified_at: 2026-06-01T06:12:12+01:00
 tags:
   - ecosystem
   - mcp
