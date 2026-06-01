@@ -10,9 +10,9 @@ tags: ["codex-cli", "gartner", "magic-quadrant", "enterprise", "governance", "co
 
 On 20 May 2026, Gartner published its *Magic Quadrant for Enterprise AI Coding Agents* (report ID G00841434), evaluating 12 vendors across two axes — Ability to Execute and Completeness of Vision [^1]. This is the latest iteration of a category Gartner has tracked since its 2024 "AI Code Assistants" reports, now renamed to reflect the shift from completion tools to autonomous agents. OpenAI was named a Leader, alongside Anthropic (Claude Code), GitHub (Copilot), and Cursor [^2][^3][^4]. Tabnine landed in the Visionary quadrant [^5]. The report formalises a distinction that matters to every engineering organisation choosing tooling: *coding agents* are no longer code-completion utilities — they are autonomous systems that receive task descriptions, plan work, modify multiple files, run tests, fix failures, and submit pull requests [^6].
 
-**A note on sourcing:** The full Gartner report is paywalled. Most publicly available analysis comes from vendors celebrating their own positioning — 16 of 22 citations in early coverage traced back to OpenAI or vendor blogs. Readers should weigh the vendor-source concentration accordingly.
+**A note on sourcing and limitations:** The full Gartner report is paywalled. Most publicly available analysis comes from vendors celebrating their own positioning — 16 of 22 citations in early coverage traced back to OpenAI or vendor blogs. This means the "Leaders" narrative is shaped largely by the vendors named as Leaders. Independent verification of Gartner's scoring methodology is not possible without report access, and MQ placement correlates with vendor engagement with the analyst process. This category has evolved through several iterations since Gartner's 2024 "AI Code Assistants" reports; the rename to "Enterprise AI Coding Agents" reflects market maturation, not a new evaluation. Readers should weigh the vendor-source concentration accordingly and treat MQ placement as one input among many, not a definitive ranking.
 
-This article unpacks the evaluation criteria, maps them to concrete Codex CLI capabilities, and offers a practical adoption checklist for teams weighing enterprise rollout.
+This article unpacks the evaluation criteria, maps them to concrete Codex CLI capabilities, and offers a practical adoption checklist for teams weighing enterprise rollout. It is not an endorsement of the MQ methodology.
 
 ## Why This Report Matters
 
@@ -154,7 +154,7 @@ The Gartner Magic Quadrant evaluates enterprise readiness, not developer experie
 
 ## Looking Ahead
 
-The Magic Quadrant for Enterprise AI Coding Agents signals that this market has achieved sufficient maturity for structured enterprise procurement. For Codex CLI users, the practical implication is straightforward: the governance features that enable enterprise adoption — permission profiles, sandbox policies, RBAC, audit logging, and compliance APIs — are already shipping in the CLI. The question is no longer whether coding agents are enterprise-ready, but whether your organisation's adoption framework matches the tooling's capabilities.
+The Magic Quadrant for Enterprise AI Coding Agents signals that analyst firms now consider this market mature enough for structured enterprise procurement. That is a useful data point, not gospel. MQ placement rewards vendor engagement with the analyst process, enterprise sales infrastructure, and geographic reach — none of which correlate perfectly with technical quality or developer experience. For Codex CLI users, the practical implication is narrower than the headline suggests: the governance features that enable enterprise adoption — permission profiles, sandbox policies, RBAC, audit logging, and compliance APIs — are already shipping in the CLI. Use the evaluation criteria as a checklist for your own due diligence, but run your own benchmarks on your own codebase before committing.
 
 ## Citations
 
