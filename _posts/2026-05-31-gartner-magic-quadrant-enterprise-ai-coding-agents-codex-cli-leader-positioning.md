@@ -1,14 +1,16 @@
 ---
-title: "The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What Codex CLI's Leader Positioning Means for Your Team"
+title: "The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What the Evaluation Criteria Mean for Your Team"
 parent: "Articles"
 nav_order: 948
 tags: ["codex-cli", "gartner", "magic-quadrant", "enterprise", "governance", "competitive-landscape", "adoption", "coding-agents", "RBAC", "sandbox", "GPT-5.5"]
 ---
 
-# The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What Codex CLI's Leader Positioning Means for Your Team
+# The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What the Evaluation Criteria Mean for Your Team
 
 
-On 20 May 2026, Gartner published the inaugural *Magic Quadrant for Enterprise AI Coding Agents* (report ID G00841434), evaluating 12 vendors across two axes — Ability to Execute and Completeness of Vision [^1]. OpenAI was named a Leader, alongside Anthropic (Claude Code), GitHub (Copilot), and Cursor [^2][^3][^4]. Tabnine landed in the Visionary quadrant [^5]. The report formalises a distinction that matters to every engineering organisation choosing tooling: *coding agents* are no longer code-completion utilities — they are autonomous systems that receive task descriptions, plan work, modify multiple files, run tests, fix failures, and submit pull requests [^6].
+On 20 May 2026, Gartner published its *Magic Quadrant for Enterprise AI Coding Agents* (report ID G00841434), evaluating 12 vendors across two axes — Ability to Execute and Completeness of Vision [^1]. This is the latest iteration of a category Gartner has tracked since its 2024 "AI Code Assistants" reports, now renamed to reflect the shift from completion tools to autonomous agents. OpenAI was named a Leader, alongside Anthropic (Claude Code), GitHub (Copilot), and Cursor [^2][^3][^4]. Tabnine landed in the Visionary quadrant [^5]. The report formalises a distinction that matters to every engineering organisation choosing tooling: *coding agents* are no longer code-completion utilities — they are autonomous systems that receive task descriptions, plan work, modify multiple files, run tests, fix failures, and submit pull requests [^6].
+
+**A note on sourcing:** The full Gartner report is paywalled. Most publicly available analysis comes from vendors celebrating their own positioning — 16 of 22 citations in early coverage traced back to OpenAI or vendor blogs. Readers should weigh the vendor-source concentration accordingly.
 
 This article unpacks the evaluation criteria, maps them to concrete Codex CLI capabilities, and offers a practical adoption checklist for teams weighing enterprise rollout.
 
@@ -152,7 +154,7 @@ The Gartner Magic Quadrant evaluates enterprise readiness, not developer experie
 
 ## Looking Ahead
 
-The inaugural Magic Quadrant for Enterprise AI Coding Agents signals that this market has achieved sufficient maturity for structured enterprise procurement. For Codex CLI users, the practical implication is straightforward: the governance features that enable enterprise adoption — permission profiles, sandbox policies, RBAC, audit logging, and compliance APIs — are already shipping in the CLI. The question is no longer whether coding agents are enterprise-ready, but whether your organisation's adoption framework matches the tooling's capabilities.
+The Magic Quadrant for Enterprise AI Coding Agents signals that this market has achieved sufficient maturity for structured enterprise procurement. For Codex CLI users, the practical implication is straightforward: the governance features that enable enterprise adoption — permission profiles, sandbox policies, RBAC, audit logging, and compliance APIs — are already shipping in the CLI. The question is no longer whether coding agents are enterprise-ready, but whether your organisation's adoption framework matches the tooling's capabilities.
 
 ## Citations
 
@@ -160,7 +162,7 @@ The inaugural Magic Quadrant for Enterprise AI Coding Agents signals that this m
 
 [^2]: OpenAI, "OpenAI named a Leader in enterprise coding agents by Gartner," 27 May 2026. [https://openai.com/index/gartner-2026-agentic-coding-leader/](https://openai.com/index/gartner-2026-agentic-coding-leader/)
 
-[^3]: GitHub Blog, "GitHub recognized as a Leader in the Gartner Magic Quadrant for Enterprise AI Coding Agents for the third year in a row," May 2026. [https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/](https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/)
+[^3]: GitHub Blog, "GitHub recognized as a Leader in the Gartner Magic Quadrant for Enterprise AI Coding Agents for the third year in a row," May 2026. [https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/](https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/) *Note: GitHub's "third year" claim counts across the predecessor "AI Code Assistants" MQ category, renamed in 2026.*
 
 [^4]: Cursor, "Cursor named a Leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents," May 2026. [https://cursor.com/blog/cursor-leads-gartner-mq-2026](https://cursor.com/blog/cursor-leads-gartner-mq-2026)
 
@@ -199,3 +201,5 @@ The inaugural Magic Quadrant for Enterprise AI Coding Agents signals that this m
 [^21]: GitHub, "openai/codex — Lightweight coding agent that runs in your terminal," accessed May 2026. [https://github.com/openai/codex](https://github.com/openai/codex)
 
 [^22]: OpenAI Developers, "Subagents — Codex," accessed May 2026. [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
+
+[^23]: Anthropic, "Agentic Coding Trends Report," May 2026. Claude Code at 46% developer preference in independent surveys; not included in the Gartner MQ's 12-vendor evaluation.
