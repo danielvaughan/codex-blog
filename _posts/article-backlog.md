@@ -1,5 +1,13 @@
 # Article Backlog
 
+## June 2026 Coding Agent Billing Reset (2026-06-01 Hourly Article Run)
+
+1. ✅ **The June 2026 Coding Agent Billing Reset: What Four Simultaneous Pricing Changes Mean for Your Codex CLI Budget** — Written 2026-06-01 → `2026-06-01-june-2026-coding-agent-billing-reset-openai-github-anthropic-google-pricing-changes-codex-cli-budget.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the confluence of four simultaneous billing changes (OpenAI Pro 5x boost expiry, GitHub Copilot AI Credits launch, Claude Code credit pool split, Gemini CLI shutdown) happening within 18 days of each other in June 2026, with actionable cost optimisation strategies for Codex CLI teams
+   - SEO targets: "codex cli pricing june 2026", "coding agent billing comparison", "codex pro 5x limits", "github copilot ai credits", "claude code credit pool", "gemini cli shutdown migration", "codex cli cost optimisation"
+
+---
+
 ## Context Scoping: .codexignore, File References, Permission Profiles (2026-06-01 Hourly Article Run)
 
 1. ✅ **Codex CLI Context Scoping: .codexignore, File References, Permission Profiles, and Workspace Control** — Written 2026-06-01 → `2026-06-01-codex-cli-context-scoping-codexignore-file-references-permission-profiles-workspace-control.md`
