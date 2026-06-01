@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Vertical AI Agents: Self-Improving Feedback Loop Pattern (2026-06-01 Hourly Article Run)
+
+1. ✅ **Vertical AI Agents with Codex CLI: The Self-Improving Feedback Loop Pattern** — Written 2026-06-01 → `2026-06-01-codex-cli-vertical-ai-agents-self-improving-feedback-loop-halo-eval-driven-iteration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the vertical AI agent self-improving feedback loop pattern demonstrated by OpenAI's Tax AI case study (27 May 2026), combining production traces, practitioner feedback, HALO diagnosis, eval suite generation, and Codex-driven harness iteration for domain-specific agents
+   - SEO targets: "codex cli vertical ai agents", "self-improving agent feedback loop", "codex halo optimization", "codex agent improvement loop", "codex production traces evals", "vertical ai codex cli", "codex eval-driven iteration"
+
+---
+
 ## June 2026 Coding Agent Billing Reset (2026-06-01 Hourly Article Run)
 
 1. ✅ **The June 2026 Coding Agent Billing Reset: What Four Simultaneous Pricing Changes Mean for Your Codex CLI Budget** — Written 2026-06-01 → `2026-06-01-june-2026-coding-agent-billing-reset-openai-github-anthropic-google-pricing-changes-codex-cli-budget.md`
