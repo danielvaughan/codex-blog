@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Verified Operations: Repeatable, Auditable Batch Workflows (2026-06-01 Hourly Article Run)
+
+1. ✅ **Codex CLI for Verified Operations: Building Repeatable, Auditable Batch Workflows** — Written 2026-06-01 → `2026-06-01-codex-cli-verified-operations-repeatable-auditable-batch-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the official "verified operations" use case pattern combining codex exec --output-schema for structured proof, PostToolUse hooks for runtime verification gates, skills for workflow encapsulation, and JSONL audit trails for compliance despite this being an officially documented Codex use case and a growing adoption pattern for operational (non-coding) workflows
+   - SEO targets: "codex cli verified operations", "codex exec batch automation", "codex cli audit trail", "codex output-schema operations", "codex cli repeatable workflows", "codex PostToolUse verification", "codex cli operational automation"
+
+---
+
 ## Devin vs Codex CLI Enterprise Comparison (2026-06-01 Hourly Article Run)
 
 1. ✅ **Devin vs Codex CLI: Cloud Sandbox vs Local-First Architecture for Enterprise Engineering Teams** — Written 2026-06-01 → `2026-06-01-devin-vs-codex-cli-cloud-sandbox-local-first-architecture-enterprise-comparison.md`
