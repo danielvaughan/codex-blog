@@ -285,7 +285,7 @@ npx skills add ./coverage-enforcer -a codex
 
 ## Conclusion
 
-The Vercel skills CLI transforms skill management from manual file copying into a proper package management workflow. For Codex CLI users, the combination of progressive disclosure, hierarchical discovery, and a standardised `SKILL.md` format means you can build a rich, modular instruction set without sacrificing context window budget. With 50+ supported agents and 1.8 million installs on the top skill alone, the open agent skills ecosystem is the closest thing the AI coding agent space has to npm — and it is worth investing in.
+The Vercel skills CLI transforms skill management from manual file copying into a proper package management workflow. For Codex CLI users, the combination of progressive disclosure, hierarchical discovery, and a standardised `SKILL.md` format means you can build a rich, modular instruction set without sacrificing context window budget. With 27+ supported agents and 1.8 million installs on the top skill alone, the open agent skills ecosystem is the closest thing the AI coding agent space has to npm — and it is worth investing in.
 
 ---
 
