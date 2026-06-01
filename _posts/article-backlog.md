@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Session Archiving and Lifecycle Management in v0.136 (2026-06-02 Hourly Article Run)
+
+1. ✅ **Codex CLI Session Archiving: Lifecycle Management, Storage Architecture, and Housekeeping Workflows in v0.136** — Written 2026-06-02 → `2026-06-02-codex-cli-session-archiving-lifecycle-management-v0136.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the session archiving feature introduced in v0.136.0 (1 June 2026), including `/archive` TUI command, `codex archive`/`codex unarchive` CLI subcommands, `archived_sessions/` directory layout, `session_index.jsonl` performance considerations, and practical housekeeping workflows for solo and enterprise teams
+   - SEO targets: "codex cli session archive", "codex archive unarchive", "codex session lifecycle", "codex cli v0.136", "codex archived_sessions", "codex session management", "codex cli housekeeping"
+
+---
+
 ## Codex On-Premises: Dell AI Factory Partnership (2026-06-01 Hourly Article Run)
 
 1. ✅ **Codex On-Premises: The Dell AI Factory Partnership and What It Means for Regulated Enterprise Teams** — Written 2026-06-01 → `2026-06-01-codex-on-premises-dell-ai-factory-enterprise-hybrid-deployment-regulated-industries.md`
