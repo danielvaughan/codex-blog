@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Feature Flags, Maturity Stages, and Experimental Capabilities (2026-06-01 Hourly Article Run)
+
+1. ✅ **Codex CLI Feature Flags in v0.135: Maturity Stages, the codex features Subcommand, and Every Flag That Matters** — Written 2026-06-01 → `2026-06-01-codex-cli-feature-flags-maturity-stages-experimental-capabilities-v0135.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing feature flags article (2026-03-28) covered only a handful of flags before the v0.133-v0.135 feature expansion, no article documented the full Feature enum lifecycle stages (UnderDevelopment → Experimental → Stable → Deprecated → Removed), the `codex features` subcommand, cloud-managed FeatureRequirementsToml enforcement, profile-scoped feature configuration, or the complete v0.135 flag registry including network_proxy structured tables and dependency resolution
+   - SEO targets: "codex cli feature flags", "codex features list", "codex features enable", "codex cli experimental", "codex cli undo feature", "codex cli config features", "codex cli feature maturity stages"
+
+---
+
 ## Session History, Local Search, and Knowledge Mining (2026-06-01 Hourly Article Run)
 
 1. ✅ **Codex CLI Session History: Local Search, Rollout Format, and Knowledge Mining** — Written 2026-06-01 → `2026-06-01-codex-cli-session-history-local-search-rollout-format-knowledge-mining.md`

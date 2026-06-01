@@ -2,7 +2,7 @@
 title: "Codex CLI's Memory and Reach: #Mentions for Cross-Session Context and Waypoints for Multi-Host Execution"
 description: "Two draft PRs opened on April 11, 2026 reveal where Codex CLI is heading: deeper memory and wider reach."
 date: 2026-04-10T23:00:00+00:00
-last_modified_at: 2026-06-01T00:10:24+01:00
+last_modified_at: 2026-06-01T02:30:37+01:00
 categories: [deep-dive]
 tags: [memory, remote-execution, enterprise, multi-agent]
 ---

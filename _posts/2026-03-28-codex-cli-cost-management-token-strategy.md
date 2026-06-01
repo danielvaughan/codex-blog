@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-01T00:10:24+01:00
+last_modified_at: 2026-06-01T02:30:37+01:00
 description: "The biggest surprise in Codex deployments isn't the cost of output tokens — it's the accumulated cost of conversation history."
 substack_status: draft
 tags:
