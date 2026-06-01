@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Enterprise Deployment: Managed Configuration, RBAC, and GHES Connector (2026-06-01 Hourly Article Run)
+
+1. ✅ **Codex CLI Enterprise Deployment: Managed Configuration, RBAC, and the GitHub Enterprise Server Connector** — Written 2026-06-01 → `2026-06-01-codex-cli-enterprise-deployment-managed-configuration-rbac-github-enterprise-server-connector.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the complete enterprise admin deployment workflow combining requirements.toml managed policies, RBAC with custom roles and user groups, and the GitHub Enterprise Server connector for self-hosted repositories despite these features shipping across v0.131-v0.135 and the ChatGPT Enterprise admin console
+   - SEO targets: "codex cli enterprise setup", "codex requirements.toml", "codex managed configuration", "codex rbac enterprise", "codex github enterprise server", "codex admin deployment guide"
+
+---
+
 ## Cross-Agent Session Portability (2026-06-01 Hourly Article Run)
 
 1. ✅ **Cross-Agent Session Portability: Moving Codex CLI Sessions Between Coding Agents** — Written 2026-06-01 → `2026-06-01-codex-cli-cross-agent-session-portability-continues-casr-handoff.md`
