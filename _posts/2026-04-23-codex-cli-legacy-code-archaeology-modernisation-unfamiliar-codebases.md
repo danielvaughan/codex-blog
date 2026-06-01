@@ -4,7 +4,7 @@ description: "Every senior developer has faced it: a critical system written by 
 parent: "Articles"
 nav_order: 384
 date: 2026-04-22T23:00:00+00:00
-last_modified_at: 2026-06-01T14:14:13+01:00
+last_modified_at: 2026-06-01T16:19:04+01:00
 tags: ["legacy-code", "code-archaeology", "modernisation", "onboarding", "AGENTS.md", "ExecPlan", "codex-cli", "refactoring"]
 ---
 

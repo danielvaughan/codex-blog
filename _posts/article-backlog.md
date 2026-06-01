@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Context Scoping: .codexignore, File References, Permission Profiles (2026-06-01 Hourly Article Run)
+
+1. ✅ **Codex CLI Context Scoping: .codexignore, File References, Permission Profiles, and Workspace Control** — Written 2026-06-01 → `2026-06-01-codex-cli-context-scoping-codexignore-file-references-permission-profiles-workspace-control.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a dedicated treatment of .codexignore patterns, the full context scoping stack (workspace roots, permission profiles, @ mentions, project_doc_max_bytes, compaction), or practical defence-in-depth patterns for controlling what the agent sees in large codebases despite .codexignore being mentioned in 6 articles and context management being a top developer pain point
+   - SEO targets: "codex cli codexignore", "codex cli context scoping", "codex cli permission profiles filesystem", "codex cli workspace roots", "codex project_doc_max_bytes", "codex cli file exclusion", "codex cli large codebase context"
+
+---
+
 ## Verified Operations: Repeatable, Auditable Batch Workflows (2026-06-01 Hourly Article Run)
 
 1. ✅ **Codex CLI for Verified Operations: Building Repeatable, Auditable Batch Workflows** — Written 2026-06-01 → `2026-06-01-codex-cli-verified-operations-repeatable-auditable-batch-workflows.md`
