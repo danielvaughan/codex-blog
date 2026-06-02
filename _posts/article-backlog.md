@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex at Five Million Users: Knowledge-Work Explosion and CLI Implications (2026-06-02 Hourly Article Run)
+
+1. ✅ **Codex at Five Million: What the Knowledge-Work Explosion Means for CLI Power Users** — Written 2026-06-02 → `2026-06-02-codex-five-million-users-knowledge-work-explosion-cli-power-user-implications.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the OpenAI "Next Era of Knowledge Work" report published 2 June 2026 announcing Codex has reached 5M weekly active users with knowledge workers at 20% of the base adopting 3x faster than developers, combined with practical CLI implications for rate-limit contention, model-routing profiles, codex exec recipes for data analysis and report generation, parallel-task patterns, and enterprise governance considerations
+   - SEO targets: "codex 5 million users", "codex knowledge work", "codex cli data analysis", "codex exec report generation", "codex knowledge workers", "codex rate limits june 2026", "codex cli analysis pipeline"
+
+---
+
 ## Post-Promotion Rate Limits and Token Economics (2026-06-02 Hourly Article Run)
 
 1. ✅ **Codex CLI After the Pro Boost: Rate Limit Reality, Token Economics, and Cost Optimisation for June 2026** — Written 2026-06-02 → `2026-06-02-codex-cli-post-promotion-rate-limits-token-economics-cost-optimisation-june-2026.md`

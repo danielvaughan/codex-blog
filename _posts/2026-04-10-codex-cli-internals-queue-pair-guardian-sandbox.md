@@ -2,7 +2,7 @@
 title: "Codex CLI Internals: Queue-Pair Protocol, Guardian AI, and 3-OS Sandbox Architecture"
 description: "Codex CLI's public documentation covers configuration, prompting, and model selection well. What it barely touches is the 549,000-line Rust codebase."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-06-02T14:15:23+01:00
+last_modified_at: 2026-06-02T16:18:56+01:00
 tags: ["architecture", "internals", "queue-pair", "guardian-ai", "sandbox", "rust", "codex-rs"]
 ---
 
