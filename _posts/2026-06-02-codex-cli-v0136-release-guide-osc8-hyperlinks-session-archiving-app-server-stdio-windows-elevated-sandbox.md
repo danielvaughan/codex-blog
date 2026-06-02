@@ -150,7 +150,7 @@ Several fixes address issues that affected daily workflows [^1]:
 
 ```bash
 # Update via npm (if installed via npm)
-npm update -g @anthropic-ai/codex
+npm update -g @openai/codex
 
 # Update via the standalone installer
 curl -fsSL https://codex.openai.com/install.sh | sh

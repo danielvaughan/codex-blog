@@ -79,7 +79,7 @@ model = "gpt-5.5"                    # default for interactive work
 model_reasoning_effort = "medium"    # reduce token spend
 
 [profiles.quick]
-model = "gpt-5.5-mini"              # cheaper model for routine tasks
+model = "gpt-5.4-mini"              # cheaper model for routine tasks
 model_reasoning_effort = "low"
 ```
 
