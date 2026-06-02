@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Sites, Annotations, and the June 2026 Business Expansion (2026-06-03 Hourly Article Run)
+
+1. ✅ **Codex Sites, Annotations, and the June 2026 Business Expansion: Six Role-Specific Plugins and the Enterprise Hosting Layer** — Written 2026-06-03 → `2026-06-03-codex-sites-annotations-business-plugins-enterprise-expansion-june-2026.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the 2 June 2026 Codex expansion announcement introducing Sites (Cloudflare-backed hosted interactive apps with D1/R2 storage and workspace identity auth), Annotations (selection-scoped in-place editing for documents, spreadsheets, and slides), and six new role-specific business plugins (Data Analytics, Creative Production, Sales, Product Design, Public Equity Investing, Investment Banking) bundling 62 integrations and 110 automated skills — the most significant non-developer expansion of the Codex platform to date.
+   - SEO targets: "codex sites feature", "codex annotations in-place editing", "codex business plugins", "codex enterprise apps", "codex sites cloudflare", "codex non-developer", "codex data analytics plugin", "codex sales plugin", "codex hosted apps june 2026"
+
+---
+
 ## Codex at Five Million Users: Knowledge-Work Explosion and CLI Implications (2026-06-02 Hourly Article Run)
 
 1. ✅ **Codex at Five Million: What the Knowledge-Work Explosion Means for CLI Power Users** — Written 2026-06-02 → `2026-06-02-codex-five-million-users-knowledge-work-explosion-cli-power-user-implications.md`
