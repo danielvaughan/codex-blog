@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Terminal Ergonomics: File Openers, OSC 8 Hyperlinks, Notifications, Shell Integration (2026-06-02 Hourly Article Run)
+
+1. ✅ **Codex CLI Terminal Ergonomics: File Openers, OSC 8 Hyperlinks, Notifications, and Shell Integration for a Friction-Free Environment** — Written 2026-06-02 → `2026-06-02-codex-cli-terminal-ergonomics-file-openers-osc8-hyperlinks-notifications-shell-integration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a unified treatment of Codex CLI's terminal-layer integration points (file_opener config, v0.136 OSC 8 clickable hyperlinks, TUI and external notification configuration, shell completions, and display settings) despite these being scattered across the config reference and individual release guides
+   - SEO targets: "codex cli file opener", "codex cli osc 8 hyperlinks", "codex cli notifications", "codex cli shell completion", "codex cli terminal config", "codex config.toml tui settings", "codex cli developer experience"
+
+---
+
 ## Codex Model Sunset June-July 2026 (2026-06-02 Hourly Article Run)
 
 1. ✅ **The Codex Model Sunset: June-July 2026 Deprecation Timeline, Migration Paths, and Config Recipes** — Written 2026-06-02 → `2026-06-02-codex-model-sunset-june-july-2026-deprecation-timeline-migration-paths-config-recipes.md`
