@@ -2,7 +2,7 @@
 title: "The AI Complexity Ratchet: Why Agentic Automation Drifts Into the Pit at 200 mph"
 description: "You start with tech stack 1. You iterate — each change feels like an improvement. Then one morning you realise version 1 was way nicer and you miss its."
 date: 2026-04-09T08:19:00+00:00
-last_modified_at: 2026-06-02T12:10:47+01:00
+last_modified_at: 2026-06-02T14:15:23+01:00
 tags:
   - complexity-ratchet
   - simplicity

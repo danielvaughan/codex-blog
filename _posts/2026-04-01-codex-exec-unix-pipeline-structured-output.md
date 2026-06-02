@@ -2,7 +2,7 @@
 title: "Codex CLI as a Unix Pipeline Citizen: stdin, JSONL Streams, and Structured Output"
 description: "Most coverage of Codex CLI focuses on the interactive TUI — the conversational loop where you type a prompt and watch the agent work. But codex exec turns."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-06-02T12:10:47+01:00
+last_modified_at: 2026-06-02T14:15:23+01:00
 tags:
   - ci-cd
   - automation

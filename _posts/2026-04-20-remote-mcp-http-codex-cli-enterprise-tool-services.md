@@ -2,7 +2,7 @@
 title: "Remote HTTP MCP: Codex CLI Completes the Enterprise Tool Services Stack"
 description: "On April 19, 2026, OpenAI engineer Ahmed Ibrahim (@aibrahim-oai) opened a 4-part PR stack (#18581–#18584) that completes remote streamable HTTP MCP support."
 date: 2026-04-19T23:00:00+00:00
-last_modified_at: 2026-06-02T12:10:47+01:00
+last_modified_at: 2026-06-02T14:15:23+01:00
 tags: [codex-cli, mcp, enterprise, remote, http, architecture]
 category: deep-dive
 parent: "Articles"

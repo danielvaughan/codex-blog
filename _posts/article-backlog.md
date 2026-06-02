@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Post-Promotion Rate Limits and Token Economics (2026-06-02 Hourly Article Run)
+
+1. ✅ **Codex CLI After the Pro Boost: Rate Limit Reality, Token Economics, and Cost Optimisation for June 2026** — Written 2026-06-02 → `2026-06-02-codex-cli-post-promotion-rate-limits-token-economics-cost-optimisation-june-2026.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Pro 2x capacity boost expiry on 31 May 2026 and its practical impact on developer workflows, combining the post-promotion rate card reality, token-based credit economics, Fast mode credit penalties, and five concrete optimisation strategies (model routing, prompt caching, API key billing, Bedrock alternative, goal mode token budgets)
+   - SEO targets: "codex pro boost expired", "codex rate limits june 2026", "codex cli cost optimisation", "codex token economics", "codex pro 2x promotion ended", "codex cli model routing cost", "codex prompt caching credits"
+
+---
+
 ## codexui-android Supply Chain Attack: Credential Exfiltration and Codex CLI Defence (2026-06-02 Hourly Article Run)
 
 1. ✅ **The codexui-android Supply Chain Attack: Credential Exfiltration, Anatomy, and Codex CLI Defence Playbook** — Written 2026-06-02 → `2026-06-02-codexui-android-npm-supply-chain-attack-credential-exfiltration-codex-cli-defence.md`
