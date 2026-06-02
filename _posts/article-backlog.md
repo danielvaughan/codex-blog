@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Doctor Diagnostics (2026-06-02 Hourly Article Run)
+
+1. ✅ **Codex CLI Doctor: Diagnostics, Troubleshooting, and Support-Ready Reports** — Written 2026-06-02 → `2026-06-02-codex-cli-doctor-diagnostics-troubleshooting-support-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a dedicated treatment of the `codex doctor` command despite it being a core diagnostic tool since v0.131.0, substantially expanded in v0.135.0, and integrated into OpenAI's support pipeline via auto-attached JSON reports, Sentry tags, and GitHub issue templates
+   - SEO targets: "codex doctor", "codex cli diagnostics", "codex cli troubleshooting", "codex doctor json", "codex debug commands", "codex cli support report", "codex cli environment check"
+
+---
+
 ## Codex on Amazon Bedrock GA (2026-06-02 Hourly Article Run)
 
 1. ✅ **Codex on Amazon Bedrock Goes GA: Configuration, Managed Agents, and the Enterprise Multi-Cloud Pivot** — Written 2026-06-02 → `2026-06-02-codex-cli-amazon-bedrock-ga-managed-agents-enterprise-aws-multi-cloud.md`
