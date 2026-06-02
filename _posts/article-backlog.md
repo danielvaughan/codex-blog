@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Model Sunset June-July 2026 (2026-06-02 Hourly Article Run)
+
+1. ✅ **The Codex Model Sunset: June-July 2026 Deprecation Timeline, Migration Paths, and Config Recipes** — Written 2026-06-02 → `2026-06-02-codex-model-sunset-june-july-2026-deprecation-timeline-migration-paths-config-recipes.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the converging three-wave model deprecation (April CLI picker, June 5 Copilot, July 23 API shutdown) affecting gpt-5-codex, gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini, and gpt-5.2-codex, with practical config.toml migration recipes, CI pipeline updates, and Agents SDK model string changes
+   - SEO targets: "codex model deprecation june 2026", "gpt-5.2-codex deprecated", "codex cli model migration", "codex model sunset july 2026", "gpt-5.3-codex default copilot", "codex config.toml model update", "openai codex api shutdown"
+
+---
+
 ## Codex Doctor Diagnostics (2026-06-02 Hourly Article Run)
 
 1. ✅ **Codex CLI Doctor: Diagnostics, Troubleshooting, and Support-Ready Reports** — Written 2026-06-02 → `2026-06-02-codex-cli-doctor-diagnostics-troubleshooting-support-workflows.md`

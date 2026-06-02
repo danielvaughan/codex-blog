@@ -2,7 +2,7 @@
 title: "The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud"
 description: "Running a single coding agent is yesterday's problem. The 2026 challenge is orchestrating fleets of them — choosing the right coordination model for each."
 date: 2026-04-09T00:13:00+00:00
-last_modified_at: 2026-06-02T07:30:31+01:00
+last_modified_at: 2026-06-02T08:22:08+01:00
 tags:
   - three-tier-orchestration
   - addy-osmani
