@@ -2,7 +2,7 @@
 title: "The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs"
 description: "The openai/codex-action@v1 GitHub Action brings Codex's agentic capabilities into your CI/CD pipelines without requiring manual CLI installation or proxy."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-06-02T10:25:25+01:00
+last_modified_at: 2026-06-02T12:10:47+01:00
 tags:
   - ci-cd
   - github-actions

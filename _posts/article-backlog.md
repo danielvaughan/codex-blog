@@ -1,5 +1,13 @@
 # Article Backlog
 
+## codexui-android Supply Chain Attack: Credential Exfiltration and Codex CLI Defence (2026-06-02 Hourly Article Run)
+
+1. ✅ **The codexui-android Supply Chain Attack: Credential Exfiltration, Anatomy, and Codex CLI Defence Playbook** — Written 2026-06-02 → `2026-06-02-codexui-android-npm-supply-chain-attack-credential-exfiltration-codex-cli-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the codexui-android npm supply chain attack disclosed 27 May 2026 by Aikido Security, which exfiltrated ~/.codex/auth.json refresh tokens via a Sentry-disguised endpoint from a package with 29,000 weekly downloads, with companion Android apps reaching 60,000+ installs on Google Play
+   - SEO targets: "codexui-android supply chain attack", "codex cli credential theft", "codex auth.json security", "npm supply chain codex", "codex cli token exfiltration", "codex cli credential store keyring", "openai codex supply chain defence"
+
+---
+
 ## Terminal Ergonomics: File Openers, OSC 8 Hyperlinks, Notifications, Shell Integration (2026-06-02 Hourly Article Run)
 
 1. ✅ **Codex CLI Terminal Ergonomics: File Openers, OSC 8 Hyperlinks, Notifications, and Shell Integration for a Friction-Free Environment** — Written 2026-06-02 → `2026-06-02-codex-cli-terminal-ergonomics-file-openers-osc8-hyperlinks-notifications-shell-integration.md`
