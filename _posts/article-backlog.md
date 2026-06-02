@@ -1,5 +1,13 @@
 # Article Backlog
 
+## v0.136 Release Guide (2026-06-02 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.136 Release Guide: OSC 8 Hyperlinks, Session Archiving, App-Server Stdio, and the Elevated Windows Sandbox** — Written 2026-06-02 → `2026-06-02-codex-cli-v0136-release-guide-osc8-hyperlinks-session-archiving-app-server-stdio-windows-elevated-sandbox.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a comprehensive v0.136.0 release guide covering all changes: OSC 8 clickable hyperlinks in TUI markdown, table-to-key-value rendering, session archiving, app-server --stdio mode, thread resume with initial turns page, MCP server status visibility, CODEX_API_KEY registration, short-lived WebSocket tokens, /diff Git helper isolation, elevated Windows sandbox alpha, Bedrock region fallback, and Python SDK independent release process
+   - SEO targets: "codex cli v0.136", "codex cli release guide", "codex osc 8 hyperlinks", "codex app-server stdio", "codex elevated windows sandbox", "codex v0.136 changelog", "codex cli upgrade guide"
+
+---
+
 ## Session Archiving and Lifecycle Management in v0.136 (2026-06-02 Hourly Article Run)
 
 1. ✅ **Codex CLI Session Archiving: Lifecycle Management, Storage Architecture, and Housekeeping Workflows in v0.136** — Written 2026-06-02 → `2026-06-02-codex-cli-session-archiving-lifecycle-management-v0136.md`
