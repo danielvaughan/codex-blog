@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex on Amazon Bedrock GA (2026-06-02 Hourly Article Run)
+
+1. ✅ **Codex on Amazon Bedrock Goes GA: Configuration, Managed Agents, and the Enterprise Multi-Cloud Pivot** — Written 2026-06-02 → `2026-06-02-codex-cli-amazon-bedrock-ga-managed-agents-enterprise-aws-multi-cloud.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the 1 June 2026 GA launch of Codex on Amazon Bedrock, the expanded model catalogue (GPT-5.5, GPT-5.4, gpt-oss-120b, gpt-oss-20b), Mantle vs Runtime endpoint paths, Managed Agents on AgentCore with persistent memory and per-agent IAM identities, feature availability matrix (no Fast Mode, no cloud agents, no web search on Bedrock), and the enterprise migration decision framework comparing direct OpenAI vs Bedrock access
+   - SEO targets: "codex on bedrock GA", "codex amazon bedrock setup", "codex bedrock managed agents", "codex cli aws enterprise", "codex bedrock config.toml", "codex multi-cloud deployment", "codex bedrock vs direct openai"
+
+---
+
 ## v0.136 Release Guide (2026-06-02 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.136 Release Guide: OSC 8 Hyperlinks, Session Archiving, App-Server Stdio, and the Elevated Windows Sandbox** — Written 2026-06-02 → `2026-06-02-codex-cli-v0136-release-guide-osc8-hyperlinks-session-archiving-app-server-stdio-windows-elevated-sandbox.md`
