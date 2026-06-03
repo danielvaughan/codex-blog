@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.137 Alpha Preview (2026-06-03 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.137 Alpha: Remote Control Client Management, Skills Extension Architecture, and Code-Mode Image Generation** — Written 2026-06-03 → `2026-06-03-codex-cli-v0137-alpha-preview-remote-control-client-management-skills-extension-code-mode.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the v0.137.0-alpha.4 release (3 June 2026), which introduced: (1) `remoteControl/client/list` and `remoteControl/client/revoke` JSON-RPC methods for account-scoped remote client management without relay enrolment (PR #25785); (2) `codex-skills-extension` crate and `codex-context-fragments` crate establishing the extension architecture for authority-bound skill packages (PRs #25953, #26122); (3) per-turn skill catalogue resolution via turn-input contributors enabling environment-aware skill routing (PR #26106); (4) permission profile modernisation expressing sandbox defaults as observable named profiles (PR #25926); (5) image generation exposure change from `DirectModelOnly` to `Direct` enabling nested code-mode access (PR #25923); (6) Python musllinux wheel publishing decoupled from Rust release pipeline (PR #25906); (7) `close_agent` self-target rejection in Multi-Agents v2 (PR #26144); (8) goal progress accounting serialisation fix (PR #26155); (9) EDU account cloud config eligibility (PR #25963)
+   - SEO targets: "codex cli v0.137 alpha", "codex remote control client management", "codex skills extension architecture", "codex code mode image generation", "codex permission profile", "codex python musllinux wheel", "codex multi-agent v0.137"
+
+---
+
 ## v0.136 Security Hardening (2026-06-03 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.136 Security Hardening: Closing Three Agent Attack Surfaces** — Written 2026-06-03 → `2026-06-03-codex-cli-v0136-security-hardening-exec-server-cswsh-diff-hook-injection-remote-tokens.md`
