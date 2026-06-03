@@ -1,5 +1,13 @@
 # Article Backlog
 
+## App-Server --stdio Subprocess Embedding (2026-06-03 Hourly Article Run)
+
+1. ✅ **Codex App-Server `--stdio` Mode: Subprocess Embedding, Custom Clients, and the JSON-RPC 2.0 Protocol** — Written 2026-06-03 → `2026-06-03-codex-app-server-stdio-subprocess-embedding-custom-clients-json-rpc-protocol.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.136 (1 June 2026) introduced the `--stdio` flag for `codex app-server`, making subprocess-based JSON-RPC 2.0 integration the first-class embedding path; no existing article covered the full protocol (initialization handshake, thread/turn/item hierarchy, notification stream, session archiving APIs, experimental features) specifically from the perspective of the `--stdio` transport introduced in v0.136, despite existing app-server articles from March–April 2026 predating the flag and covering only the Unix socket and WebSocket transports
+   - SEO targets: "codex app-server stdio", "codex cli json-rpc protocol", "embed codex custom client", "codex app-server subprocess", "codex cli json-rpc 2.0", "codex app-server python client", "codex app-server typescript client"
+
+---
+
 ## Hono.js Edge APIs with Codex CLI (2026-06-03 Hourly Article Run)
 
 1. ✅ **Codex CLI for Hono.js: Building Type-Safe Edge APIs with Zod OpenAPI, RPC, and Cloudflare Workers** — Written 2026-06-03 → `2026-06-03-codex-cli-hono-edge-apis-zod-openapi-rpc-cloudflare-workers.md`
