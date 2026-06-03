@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI MCP v0.136 Deep-Dive (2026-06-03 Hourly Article Run)
+
+1. ✅ **Codex CLI MCP in v0.136: Per-Server Environment Targeting, OAuth Streamable HTTP, and Concurrent Read-Only Tools** — Written 2026-06-03 → `2026-06-03-codex-cli-mcp-v0136-per-server-env-targeting-oauth-streamable-http-concurrent-tools.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the v0.136.0 MCP improvements: per-server env_vars source targeting (local vs remote executor), new mcp_oauth_callback_port and mcp_oauth_callback_url configuration keys for devbox/container OAuth flows, mcp_oauth_credentials_store options, concurrent dispatch for readOnlyHint tools (rmcp 1.7.0), and connector tool schema $ref/$defs preservation fix
+   - SEO targets: "codex cli mcp oauth streamable http", "codex mcp per-server env vars", "mcp_oauth_callback_url", "codex mcp remote source", "codex mcp concurrent tools", "codex v0.136 mcp", "codex mcp credentials store"
+
+---
+
 ## Codex Sites, Annotations, and the June 2026 Business Expansion (2026-06-03 Hourly Article Run)
 
 1. ✅ **Codex Sites, Annotations, and the June 2026 Business Expansion: Six Role-Specific Plugins and the Enterprise Hosting Layer** — Written 2026-06-03 → `2026-06-03-codex-sites-annotations-business-plugins-enterprise-expansion-june-2026.md`
