@@ -1,5 +1,13 @@
 # Article Backlog
 
+## openai-codex Python SDK v0.1.0b2 (2026-06-03 Hourly Article Run)
+
+1. ✅ **openai-codex Python SDK v0.1.0b2: Complete API Reference and Practical Patterns** — Written 2026-06-03 → `2026-06-03-openai-codex-python-sdk-v01-complete-api-reference-practical-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — the `openai-codex` PyPI package (v0.1.0b2, released 2026-05-28 with v0.135.0) is a renamed, independently versioned replacement for the earlier `codex_app_server` module; no existing article covered the full beta API surface including `TurnHandle` (mid-turn steering and interruption), `thread_archive`/`thread_unarchive`, `thread_list`, `AsyncCodex` lazy initialisation, `retry_on_overload()`, the complete input type system (TextInput, ImageInput, LocalImageInput, SkillInput, MentionInput), `output_schema` on `thread.run()`, `model_reasoning_effort` config key, and the `openai-codex-cli-bin` pinned runtime dependency mechanism; the March 2026 article covered the old `codex_app_server` module at version 0.2.0
+   - SEO targets: "openai-codex python sdk", "openai-codex pypi", "codex python sdk async", "codex thread run python", "codex sandbox presets python", "codex TurnHandle streaming", "openai_codex AsyncCodex"
+
+---
+
 ## App-Server --stdio Subprocess Embedding (2026-06-03 Hourly Article Run)
 
 1. ✅ **Codex App-Server `--stdio` Mode: Subprocess Embedding, Custom Clients, and the JSON-RPC 2.0 Protocol** — Written 2026-06-03 → `2026-06-03-codex-app-server-stdio-subprocess-embedding-custom-clients-json-rpc-protocol.md`
