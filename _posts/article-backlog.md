@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Security Plugin Deep Dive (2026-06-03 Hourly Article Run)
+
+1. ✅ **Codex Security Plugin: Local Vulnerability Scanning, Diff Review, and Automated Remediation from the CLI** — Written 2026-06-03 → `2026-06-03-codex-security-plugin-local-vulnerability-scanning-diff-review-remediation-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — the only existing Codex Security article (2026-03-31) covered the cloud-based research preview; no article covered the first-party Codex Security plugin that brings four dedicated skills ($codex-security:security-scan, $codex-security:deep-security-scan, $codex-security:security-diff-scan, $codex-security:fix-finding) to the CLI for local repository scanning, diff-scoped PR review, threat-model tuning, and automated remediation with CI pipeline integration via codex-action
+   - SEO targets: "codex security plugin", "codex security scan cli", "codex security diff scan", "codex security plugin ci", "codex vulnerability scanning local", "codex security threat model", "codex security remediation"
+
+---
+
 ## Codex CLI v0.137 Alpha Preview (2026-06-03 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.137 Alpha: Remote Control Client Management, Skills Extension Architecture, and Code-Mode Image Generation** — Written 2026-06-03 → `2026-06-03-codex-cli-v0137-alpha-preview-remote-control-client-management-skills-extension-code-mode.md`
