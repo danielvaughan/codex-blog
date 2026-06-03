@@ -90,18 +90,18 @@ API pricing for gpt-image-2 is token-based[^5]:
 
 | Input type | Rate per million tokens |
 |---|---|
-| Text input | $5.00 |
-| Image input | $8.00 |
-| Cached image input | $2.00 |
-| Output | $30.00 |
+| Text input | \$5.00 |
+| Image input | \$8.00 |
+| Cached image input | \$2.00 |
+| Output | \$30.00 |
 
 Per-image estimates at common resolutions:
 
 | Quality | 1,024 x 1,024 | 1,024 x 1,536 |
 |---|---|---|
-| Low | ~$0.006 | ~$0.017 |
-| Medium | ~$0.042 | ~$0.063 |
-| High | ~$0.211 | ~$0.165 |
+| Low | ~\$0.006 | ~\$0.017 |
+| Medium | ~\$0.042 | ~\$0.063 |
+| High | ~\$0.211 | ~\$0.165 |
 
 Rate limits cap at 250 images per minute for standard accounts. New accounts start at five images per minute[^5].
 

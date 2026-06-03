@@ -93,7 +93,7 @@ Codex CLI's execution strengths lean towards parallelisable throughput. Its clou
 
 On 30 March 2026, OpenAI published `codex-plugin-cc` on GitHub[^8]. The plugin installs as an MCP server inside Claude Code, exposing Codex CLI's capabilities as tools that Claude Code can invoke. It provides two categories of functionality: **review commands** (use one model to write, another to challenge) and **delegation commands** (`/codex:rescue`, `/codex:status`, `/codex:result`, `/codex:cancel`) for managing background Codex tasks from within a Claude Code session[^9].
 
-The strategic calculus is clear. Claude Code reached an estimated $2.5 billion in annualised revenue by early 2026[^9]. Rather than competing for that install base, OpenAI chose to embed inside it — the classic "if you can't beat them, ship a plugin" manoeuvre.
+The strategic calculus is clear. Claude Code reached an estimated \$2.5 billion in annualised revenue by early 2026[^9]. Rather than competing for that install base, OpenAI chose to embed inside it — the classic "if you can't beat them, ship a plugin" manoeuvre.
 
 ## Layer 3: Verification — Cross-Provider Review
 

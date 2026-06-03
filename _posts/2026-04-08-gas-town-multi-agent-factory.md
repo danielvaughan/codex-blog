@@ -2,7 +2,7 @@
 title: "Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI"
 description: "In January 2026, Steve Yegge open-sourced Gas Town — a Go-based multi-agent workspace manager that orchestrates 20–30 parallel Claude Code instances under a."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - gastown
   - steve-yegge
@@ -100,7 +100,7 @@ As of March 2026, Yegge introduced the **Wasteland** — a trust network enablin
 
 ## The Cost Reality
 
-Running Gas Town at full capacity is not cheap. Multiple sources report a token burn rate of approximately **$100 per hour** when operating 12–30 parallel agents [^8][^9]. Yegge himself reportedly exhausted three Claude Code accounts in his launch week [^8]. A full factory setup runs into thousands per month — this is industrial-scale compute, not casual experimentation.
+Running Gas Town at full capacity is not cheap. Multiple sources report a token burn rate of approximately **\$100 per hour** when operating 12–30 parallel agents [^8][^9]. Yegge himself reportedly exhausted three Claude Code accounts in his launch week [^8]. A full factory setup runs into thousands per month — this is industrial-scale compute, not casual experimentation.
 
 ## How Codex CLI Subagents Compare
 
@@ -138,7 +138,7 @@ model = "gpt-5.3-codex"
 | **Isolation** | Separate git worktrees per Polecat | Inherits parent sandbox policies |
 | **Model support** | Claude Code, Copilot, Gemini, Codex | OpenAI models only |
 | **Merge handling** | Dedicated Refinery agent | Manual or parent-managed |
-| **Cost** | ~$100/hr at full capacity | Proportional to thread count |
+| **Cost** | ~\$100/hr at full capacity | Proportional to thread count |
 | **Monitoring** | Witness + Deacon patrol loops | `/agent` command for thread inspection |
 
 ### Built-in Roles vs Gas Town Specialisation
@@ -168,7 +168,7 @@ graph LR
 - You need sustained parallel execution across 10+ agents over hours or days
 - Work must survive agent crashes, context exhaustion, and session restarts
 - You have a large codebase requiring coordinated multi-repository changes
-- You are comfortable with $100+/hr operational costs
+- You are comfortable with \$100+/hr operational costs
 
 **The pragmatic middle ground**: most developers will find Codex CLI's subagent system sufficient for the majority of tasks. Gas Town targets a specific use case — large-scale, sustained, multi-agent operations — that relatively few teams currently need [^3]. As Codex CLI's `max_threads` becomes user-configurable [^11] and external orchestration tools mature, the gap will narrow.
 

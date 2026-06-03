@@ -330,7 +330,7 @@ Honesty demands cataloguing persistent limitations:
 1. **Architectural decisions.** Codex excels at implementing within established patterns but struggles to *choose* between competing architectural approaches. Humans still own design.
 2. **Cross-service reasoning.** Tasks spanning multiple services with different languages and build systems had lower success rates (~60% vs ~85% for single-service tasks).
 3. **Review bandwidth.** The bottleneck shifted from writing code to reviewing it. At 3+ PRs per day per developer, review fatigue became real. ⚠️ This is an underreported problem in agent-first teams.
-4. **Cost.** Running four concurrent agents at `gpt-5.4` pricing is not cheap. The team spent approximately $180/developer/week on API costs, though this was offset by the productivity gains. ⚠️ Exact cost-effectiveness ratio varies significantly by team and project type.
+4. **Cost.** Running four concurrent agents at `gpt-5.4` pricing is not cheap. The team spent approximately \$180/developer/week on API costs, though this was offset by the productivity gains. ⚠️ Exact cost-effectiveness ratio varies significantly by team and project type.
 
 ## The Configuration Stack
 

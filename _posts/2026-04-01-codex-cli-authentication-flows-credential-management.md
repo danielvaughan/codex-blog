@@ -2,7 +2,7 @@
 title: "Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD Credential Management"
 description: "Every Codex CLI session begins with authentication, yet the auth system is one of the least-documented corners of the toolchain. Codex supports three."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - security
   - credential-management
@@ -25,7 +25,7 @@ Before choosing an auth method, understand that Codex CLI operates across two fu
 
 | Method | Billing | Features |
 |---|---|---|
-| **ChatGPT sign-in** | Subscription (Plus $20, Pro $200, Business, Edu, Enterprise) | Full feature set: Codex cloud, fast mode, Codex-Spark, realtime voice |
+| **ChatGPT sign-in** | Subscription (Plus \$20, Pro \$200, Business, Edu, Enterprise) | Full feature set: Codex cloud, fast mode, Codex-Spark, realtime voice |
 | **API key** | Usage-based (per-token, standard API rates) | Core CLI only; no Codex cloud, no fast mode |
 
 ChatGPT sign-in is the default and recommended path for most developers. API key auth is suited to automation pipelines, custom harnesses, or teams that already manage OpenAI API spend through their platform account [^1].

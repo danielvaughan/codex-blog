@@ -13,7 +13,7 @@ tags: ["codex-cli", "open-source", "maintainers", "api-credits", "chatgpt-pro", 
 
 ---
 
-Open-source maintainers do critical infrastructure work — triaging issues, reviewing pull requests, cutting releases, keeping dependencies current — often unpaid and under-tooled. On 7 March 2026 OpenAI announced **Codex for Open Source**, a programme that bundles six months of ChatGPT Pro (with Codex), up to $25,000 in API credits, and conditional access to Codex Security into a single package aimed squarely at the people who keep the software ecosystem running [^1][^2]. This article explains what the programme includes, who qualifies, and — most importantly — how to integrate these resources into real maintainer workflows using Codex CLI.
+Open-source maintainers do critical infrastructure work — triaging issues, reviewing pull requests, cutting releases, keeping dependencies current — often unpaid and under-tooled. On 7 March 2026 OpenAI announced **Codex for Open Source**, a programme that bundles six months of ChatGPT Pro (with Codex), up to \$25,000 in API credits, and conditional access to Codex Security into a single package aimed squarely at the people who keep the software ecosystem running [^1][^2]. This article explains what the programme includes, who qualifies, and — most importantly — how to integrate these resources into real maintainer workflows using Codex CLI.
 
 ## What the Programme Includes
 
@@ -22,7 +22,7 @@ The Codex for Open Source programme delivers three tiers of support [^1][^3]:
 | Benefit | Details |
 |---------|---------|
 | **ChatGPT Pro with Codex** | Six months of full Pro access for day-to-day coding, triage, review, and maintainer workflows |
-| **API Credits** | Grants up to $25,000 from the $1 million Codex Open Source Fund, for projects using Codex in PR review, maintainer automation, or release workflows |
+| **API Credits** | Grants up to \$25,000 from the \$1 million Codex Open Source Fund, for projects using Codex in PR review, maintainer automation, or release workflows |
 | **Codex Security** | Conditional access to OpenAI's vulnerability-scanning agent for repositories that need deeper security coverage |
 
 ChatGPT Pro access is the immediate, lowest-friction benefit: every accepted maintainer gets the interactive Codex agent in the web UI, the desktop app, and the CLI [^1]. The API credits unlock programmatic use via `codex exec`, the TypeScript SDK, or the Responses API — essential for CI/CD automation and batch workflows [^4]. Codex Security access is reviewed case-by-case, reflecting the additional diligence required for security-sensitive scanning [^1].
@@ -42,7 +42,7 @@ However, the programme explicitly welcomes edge cases. The official guidance sta
 3. Provide project details and describe how you intend to use Codex
 4. Accept the Codex for Open Source Programme Terms
 
-Applications are reviewed on a rolling basis — there is no fixed deadline, but the fund is capped at $1 million total, so earlier applications are advisable [^4]. Successful applicants receive immediate access upon approval [^5].
+Applications are reviewed on a rolling basis — there is no fixed deadline, but the fund is capped at \$1 million total, so earlier applications are advisable [^4]. Successful applicants receive immediate access upon approval [^5].
 
 ## Practical Workflows for Maintainers
 
@@ -175,7 +175,7 @@ Profiles keep token spend predictable. Use `o4-mini` with medium reasoning for h
 
 ## Budget Management
 
-The $25,000 API credit grant sounds generous, but sustained CI automation can consume tokens rapidly. Key strategies:
+The \$25,000 API credit grant sounds generous, but sustained CI automation can consume tokens rapidly. Key strategies:
 
 - **Gate on diff size** — skip Codex review for trivial changes (dependency bumps under 10 lines, documentation-only PRs)
 - **Use `--ephemeral`** — avoids writing session rollout files, reducing storage and cleanup overhead [^6]
@@ -195,7 +195,7 @@ The programme is designed to support the maintainers who keep the broader ecosys
 
 ## Current Limitations
 
-- ⚠️ The $1 million fund is finite and first-come-first-served; there is no public dashboard showing remaining capacity
+- ⚠️ The \$1 million fund is finite and first-come-first-served; there is no public dashboard showing remaining capacity
 - ⚠️ Codex Security access is not guaranteed — it is assessed case-by-case based on the repository's security needs [^1]
 - ⚠️ ChatGPT Pro access is for six months; there has been no announcement regarding renewal or extension
 - ⚠️ The programme requires GitHub authentication; projects hosted on GitLab, Codeberg, or other forges are not currently eligible

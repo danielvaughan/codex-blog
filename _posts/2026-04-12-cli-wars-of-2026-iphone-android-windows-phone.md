@@ -2,7 +2,7 @@
 title: "Three Terminals, Three Fates"
 description: "In January 2010, Android outsold iPhone for the first time. It had more carriers, more handsets, and a lower price point."
 date: 2026-04-12T07:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 featured: true
 tags:
   - claude-code
@@ -33,7 +33,7 @@ The comparison is not perfect — no analogy ever is. But the structural dynamic
 
 ## Claude Code: The iPhone Effect
 
-The numbers are hard to argue with. Claude Code has over 2 million weekly active users and is growing fast[^2]. Anthropic's revenue from Claude Code alone has hit $2.5 billion ARR, doubling since the start of 2026[^3]. In the JetBrains developer survey of 10,000+ developers, Claude Code reached 18% work adoption — a 6x increase from 3% just nine months earlier[^4]. The Pragmatic Engineer survey of 15,000 developers found that 46% named Claude Code their "most loved" AI coding tool, more than Cursor and GitHub Copilot combined[^5].
+The numbers are hard to argue with. Claude Code has over 2 million weekly active users and is growing fast[^2]. Anthropic's revenue from Claude Code alone has hit \$2.5 billion ARR, doubling since the start of 2026[^3]. In the JetBrains developer survey of 10,000+ developers, Claude Code reached 18% work adoption — a 6x increase from 3% just nine months earlier[^4]. The Pragmatic Engineer survey of 15,000 developers found that 46% named Claude Code their "most loved" AI coding tool, more than Cursor and GitHub Copilot combined[^5].
 
 But the number that matters most is retention: **41% of Claude Code users return at least three times per week**[^6]. That is not a tool people try and abandon. That is a tool people build habits around.
 
@@ -47,7 +47,7 @@ The March 2026 source code leak is a revealing data point. When Claude Code's 51
 
 The broader Codex platform — CLI, IDE extension, and cloud — has 3 million weekly users as of April 8, 2026[^8]. That number is not directly comparable to Claude Code's 2 million+ weekly CLI users because it aggregates across multiple surfaces, but it signals strong overall traction for OpenAI's coding tools. Codex CLI itself is open source (Apache 2.0, written in Rust), has 75,000 GitHub stars, and ships features at a pace that would exhaust most engineering teams[^9]. Both Codex CLI and Gemini CLI are genuinely open source under Apache 2.0. Claude Code, by contrast, is proprietary — the source is visible on GitHub, but the license reserves all rights to Anthropic[^17]. This matters for the analogy: Android's openness was a strategic weapon, and Codex's is too. Version 0.120.0 landed on April 11 with background agent streaming, MCP output schema support, and hook activity display. Version 0.119.0 the day before brought WebRTC voice, MCP apps, and a 60+ crate workspace extraction.
 
-On raw speed, Codex has a meaningful edge. GPT-5.3 Codex runs at 65–70 tokens per second in standard mode — faster than Opus models, though not the order-of-magnitude gap some benchmarks suggest. The real speed story is GPT-5.3-Codex-Spark on Cerebras hardware, which hits 1,000+ tokens per second[^10]. On Terminal-Bench 2.0, which measures speed-oriented terminal tasks, Codex CLI scores 77.3% against Claude Code's 65.4%[^10]. The sandboxed execution model is genuinely superior for security-conscious workflows. The pricing — free and open source, with API costs starting at $0.75 per million input tokens on GPT-5.4-mini — makes Claude Code's $20/month Max plan look expensive.
+On raw speed, Codex has a meaningful edge. GPT-5.3 Codex runs at 65–70 tokens per second in standard mode — faster than Opus models, though not the order-of-magnitude gap some benchmarks suggest. The real speed story is GPT-5.3-Codex-Spark on Cerebras hardware, which hits 1,000+ tokens per second[^10]. On Terminal-Bench 2.0, which measures speed-oriented terminal tasks, Codex CLI scores 77.3% against Claude Code's 65.4%[^10]. The sandboxed execution model is genuinely superior for security-conscious workflows. The pricing — free and open source, with API costs starting at \$0.75 per million input tokens on GPT-5.4-mini — makes Claude Code's \$20/month Max plan look expensive.
 
 This is the Android advantage. Better specs in specific areas, lower cost, total customisability. And yet.
 
@@ -117,7 +117,7 @@ Build for the tool that earns your trust. The specs will converge. The habits wi
 
 [^2]: Gradually.ai, "Claude Code Statistics 2026," April 2026. Reports 2M+ weekly active users (up from 1.6M earlier in 2026) and 11.3M daily active users.
 
-[^3]: The AI Corner, "Anthropic Passed OpenAI in Revenue: $30B ARR," April 2026. SaaStr, "Anthropic Just Hit $14 Billion in ARR," March 2026. Yahoo Finance, "Anthropic ARR surges to $19 billion on Claude Code strength."
+[^3]: The AI Corner, "Anthropic Passed OpenAI in Revenue: \$30B ARR," April 2026. SaaStr, "Anthropic Just Hit \$14 Billion in ARR," March 2026. Yahoo Finance, "Anthropic ARR surges to \$19 billion on Claude Code strength."
 
 [^4]: JetBrains Research, "Which AI Coding Tools Do Developers Actually Use at Work?" April 2026. Survey of 10,000+ developers. Claude Code 18% work adoption, Codex CLI 3%, Google Antigravity 6%.
 

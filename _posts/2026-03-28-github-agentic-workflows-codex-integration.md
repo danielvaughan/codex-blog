@@ -2,7 +2,7 @@
 title: "GitHub Agentic Workflows: Intent-Driven Repository Automation with Codex"
 description: "GitHub shipped GitHub Agentic Workflows in technical preview on February 13, 2026."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - ci-cd
   - github-actions
@@ -121,13 +121,13 @@ The sandbox constraints are notably tighter than raw GitHub Actions. You cannot 
 
 GitHub Agentic Workflows run on GitHub Actions infrastructure:
 
-- **Actions compute**: $0.002/minute (base rate from January 2026)
+- **Actions compute**: \$0.002/minute (base rate from January 2026)
 - **LLM tokens**: standard API rates for your chosen engine
   - Codex: billed to your OpenAI account
   - Claude: billed to your Anthropic account
   - Copilot CLI: included in Copilot subscription
 
-For simple triage tasks (read issue, add label, post comment), a typical run costs under $0.01 in tokens. Complex code review or documentation tasks may run $0.05–0.20 per run depending on repo size.
+For simple triage tasks (read issue, add label, post comment), a typical run costs under \$0.01 in tokens. Complex code review or documentation tasks may run \$0.05–0.20 per run depending on repo size.
 
 ---
 

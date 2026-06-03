@@ -2,7 +2,7 @@
 title: "Learning Plan for Becoming a Codex CLI Expert"
 description: "Codex CLI is not a chatbot that writes code. It is an agentic coding harness — a system that reads your files, runs commands, makes changes, and works."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - getting-started
   - agents-md
@@ -536,7 +536,7 @@ flowchart TD
 Token costs compound with automation. Build cost awareness into your workflow[^6]:
 
 - **Monitor** — `/status` shows current session token usage. Set `max_tokens_per_session` as a circuit-breaker.
-- **Route** — Use profiles to assign cheaper models to routine tasks. A 5-engineer team using orchestrator/worker model routing costs ~$245/month vs ~$800/month with a single high-end model for everything.
+- **Route** — Use profiles to assign cheaper models to routine tasks. A 5-engineer team using orchestrator/worker model routing costs ~\$245/month vs ~\$800/month with a single high-end model for everything.
 - **Compact** — `/compact` is a financial tool, not just a context tool. It reduces token accumulation in long sessions.
 - **Log** — Use a `postTaskComplete` hook to log token usage per task for monthly cost attribution.
 - **Delegate** — Sub-agents using `gpt-5.4-mini` cost ~4× less than running everything through `gpt-5.4`.

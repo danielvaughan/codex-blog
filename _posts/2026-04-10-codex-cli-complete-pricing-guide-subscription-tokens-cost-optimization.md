@@ -2,7 +2,7 @@
 title: "The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis"
 description: "Every AI coding agent runs on tokens, and tokens cost money. Codex CLI is unique among major AI coding agents: it is open-source, runs locally, and supports."
 date: 2026-04-10T14:30:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 featured: true
 tags:
   - pricing
@@ -45,15 +45,15 @@ As of April 2026, there are four ways to pay for Codex CLI usage[^api-pricing][^
 | Path | How It Works | Rate Limits | Billing |
 |------|-------------|-------------|---------|
 | **Subscription (Plus/Pro)** | Authenticate via ChatGPT account | Rolling 5-hour windows, dynamic limits | Flat monthly fee |
-| **Business Standard Seat** | ChatGPT Business workspace | Plan limits + optional credit top-ups | $20/seat/month + credits |
-| **Business Codex-Only Seat** | Codex access only, no ChatGPT | No rate limits | $0/seat + token consumption |
+| **Business Standard Seat** | ChatGPT Business workspace | Plan limits + optional credit top-ups | \$20/seat/month + credits |
+| **Business Codex-Only Seat** | Codex access only, no ChatGPT | No rate limits | \$0/seat + token consumption |
 | **API Key (Direct)** | OpenAI API key in `config.toml` | Standard API rate limits only | Per-token, pay-as-you-go |
 
 ---
 
 ## Part 2: The Complete Subscription Tier Map
 
-On 9 April 2026, OpenAI announced a new $100/month ChatGPT Pro tier that slots between the $20 Plus plan and the former $200 Pro plan — now rebranded as Pro 20x[^techcrunch-pro]. Combined with the $8 Go tier and the pay-as-you-go Codex-only seats launched on 3 April[^codex-payg], the subscription landscape was comprehensively restructured. Codex now has over 3 million weekly active users — a fivefold increase in three months, with 70% month-over-month growth[^business-today].
+On 9 April 2026, OpenAI announced a new \$100/month ChatGPT Pro tier that slots between the \$20 Plus plan and the former \$200 Pro plan — now rebranded as Pro 20x[^techcrunch-pro]. Combined with the \$8 Go tier and the pay-as-you-go Codex-only seats launched on 3 April[^codex-payg], the subscription landscape was comprehensively restructured. Codex now has over 3 million weekly active users — a fivefold increase in three months, with 70% month-over-month growth[^business-today].
 
 ```mermaid
 graph TD
@@ -82,11 +82,11 @@ graph TD
 
 | Tier | Price | Codex CLI Local Messages (5 hr) | Cloud Tasks | Spark Access | Key Use Case |
 |------|-------|-------------------------------|-------------|--------------|--------------|
-| **Free** | $0 | Limited | — | — | Quick exploration |
-| **Go** | $8/mo | Light | — | — | Lightweight coding tasks |
-| **Plus** | $20/mo | 20-100 (GPT-5.4) / 60-350 (mini) / 30-150 (5.3-Codex) | Limited | — | Daily development |
-| **Pro 5x** | $100/mo | 200-1,000 (GPT-5.4) / 600-3,500 (mini) / 300-1,500 (5.3-Codex) | Available | Research preview | Professional daily use |
-| **Pro 20x** | $200/mo | 400-2,000 (GPT-5.4) / 1,200-7,000 (mini) / 600-3,000 (5.3-Codex) | Available | Research preview | Intensive parallel workflows |
+| **Free** | \$0 | Limited | — | — | Quick exploration |
+| **Go** | \$8/mo | Light | — | — | Lightweight coding tasks |
+| **Plus** | \$20/mo | 20-100 (GPT-5.4) / 60-350 (mini) / 30-150 (5.3-Codex) | Limited | — | Daily development |
+| **Pro 5x** | \$100/mo | 200-1,000 (GPT-5.4) / 600-3,500 (mini) / 300-1,500 (5.3-Codex) | Available | Research preview | Professional daily use |
+| **Pro 20x** | \$200/mo | 400-2,000 (GPT-5.4) / 1,200-7,000 (mini) / 600-3,000 (5.3-Codex) | Available | Research preview | Intensive parallel workflows |
 
 All usage limits operate on a rolling 5-hour window rather than a daily cap[^codex-pricing].
 
@@ -94,8 +94,8 @@ All usage limits operate on a rolling 5-hour window rather than a daily cap[^cod
 
 | Tier | Price | Differentiator |
 |------|-------|---------------|
-| **Business** | $20/seat/mo (down from $25) | Standard seats with Codex usage cap; optional Codex-only seats |
-| **Codex-Only Seat** | Pay-as-you-go (token-based) | No rate limits; billed on consumption; up to $500 promo credits per member[^codex-payg] |
+| **Business** | \$20/seat/mo (down from \$25) | Standard seats with Codex usage cap; optional Codex-only seats |
+| **Codex-Only Seat** | Pay-as-you-go (token-based) | No rate limits; billed on consumption; up to \$500 promo credits per member[^codex-payg] |
 | **Enterprise** | Contact sales | SAML SSO, SCIM, EKM, RBAC, audit logs, data retention, credit pools |
 | **Edu** | Contact sales | Same enterprise security, education pricing |
 
@@ -112,9 +112,9 @@ Developers can bypass subscription tiers entirely by authenticating with an API 
 
 | Plan | Monthly Price | Max Tokens/Month (est.) | Effective $/M Tokens | Best For |
 |------|-------------|------------------------|---------------------|----------|
-| Plus | $20 | ~10M-48M | ~$0.42-2.00 | Light users |
-| Pro 5x | $100 | ~48M-240M | ~$0.42 | Medium users |
-| Pro 20x | $200 | ~192M-960M | ~$0.21 | Heavy users (if under ceiling) |
+| Plus | \$20 | ~10M-48M | ~\$0.42-2.00 | Light users |
+| Pro 5x | \$100 | ~48M-240M | ~\$0.42 | Medium users |
+| Pro 20x | \$200 | ~192M-960M | ~\$0.21 | Heavy users (if under ceiling) |
 
 Plus provides 20-100 GPT-5.4 messages per 5-hour window[^codex-pricing]. At ~8,000 tokens per message and 3 usable windows per day, that is 2.4M-12M tokens/week or ~10M-48M/month. Pro 5x and Pro 20x multiply these limits accordingly.
 
@@ -132,7 +132,7 @@ Fast mode doubles credit consumption across all models[^codex-rate-card].
 
 ### The Pro 5x Sweet Spot
 
-The $100 Pro tier is the headline change for Codex CLI users:
+The \$100 Pro tier is the headline change for Codex CLI users:
 
 **5x the message throughput.** Where Plus gives you 20-100 GPT-5.4 local messages per 5-hour window, Pro 5x gives you 200-1,000[^codex-pricing]. For a typical subagent workflow running an orchestrator plus three workers, that is the difference between hitting the wall mid-afternoon and running comfortably through a full working day.
 
@@ -165,18 +165,18 @@ For Business plan users or anyone using the API directly, per-million-token pric
 
 | Model | Input ($/M) | Cached Input ($/M) | Output ($/M) | Notes |
 |-------|------------|-------------------|-------------|-------|
-| GPT-5.4-pro | $30.00 | — | $180.00 | Reasoning-only, no cache discount |
-| GPT-5.4 (priority) | $5.00 | $0.50 | $30.00 | Guaranteed low-latency SLA |
-| GPT-5.4 | $2.50 | $0.25 | $15.00 | Frontier capability |
-| GPT-5.3-Codex | $1.75 | $0.175 | $14.00 | Code-specialised |
-| GPT-5.3-Codex (priority) | $3.50 | $0.35 | $28.00 | Code-specialised, low-latency |
-| GPT-5.4-mini | $0.75 | $0.075 | $4.50 | The sweet spot for most tasks |
-| GPT-5.4-mini (priority) | $1.50 | $0.15 | $9.00 | Mini with low-latency SLA |
-| GPT-5.4-nano | $0.20 | $0.02 | $1.25 | Batch/scripted work only |
+| GPT-5.4-pro | \$30.00 | — | \$180.00 | Reasoning-only, no cache discount |
+| GPT-5.4 (priority) | \$5.00 | \$0.50 | \$30.00 | Guaranteed low-latency SLA |
+| GPT-5.4 | \$2.50 | \$0.25 | \$15.00 | Frontier capability |
+| GPT-5.3-Codex | \$1.75 | \$0.175 | \$14.00 | Code-specialised |
+| GPT-5.3-Codex (priority) | \$3.50 | \$0.35 | \$28.00 | Code-specialised, low-latency |
+| GPT-5.4-mini | \$0.75 | \$0.075 | \$4.50 | The sweet spot for most tasks |
+| GPT-5.4-mini (priority) | \$1.50 | \$0.15 | \$9.00 | Mini with low-latency SLA |
+| GPT-5.4-nano | \$0.20 | \$0.02 | \$1.25 | Batch/scripted work only |
 
-GPT-5.4-pro at $30/$180 per million tokens (input/output) has **no cached input discount**[^api-pricing]. At heavy volume it costs $12,300/week for just 50M tokens. This model is designed for complex multi-step reasoning — research problems, novel algorithm design — not routine coding tasks. Using it as a default model is a billing catastrophe.
+GPT-5.4-pro at \$30/\$180 per million tokens (input/output) has **no cached input discount**[^api-pricing]. At heavy volume it costs \$12,300/week for just 50M tokens. This model is designed for complex multi-step reasoning — research problems, novel algorithm design — not routine coding tasks. Using it as a default model is a billing catastrophe.
 
-The 90% cached input discount is the most important number in this table. Codex CLI's prefix caching means that in a typical session, 60-80% of input tokens hit the cache. A session that appears to cost $2.50/M input tokens effectively costs $0.50-1.00/M when caching is factored in[^model-selection].
+The 90% cached input discount is the most important number in this table. Codex CLI's prefix caching means that in a typical session, 60-80% of input tokens hit the cache. A session that appears to cost \$2.50/M input tokens effectively costs \$0.50-1.00/M when caching is factored in[^model-selection].
 
 ### Credit-Based Billing (Business / Codex-Only Seats)
 
@@ -218,7 +218,7 @@ Before modelling costs, we need to establish what developers actually use. The f
 | Session startup overhead | 21-22K | Up from 12-15K in earlier versions[^bswen] |
 | Typical session (simple task) | 10K-100K | Industry agentic tool studies[^faros] |
 | Typical session (agent workflow) | 200K-500K | Morph AI coding cost study[^morph] |
-| Baseline session cost (GPT-5.4-mini rates) | $0.45-2.25 | Calculated from session tokens at $0.75/$4.50 per M[^api-pricing] |
+| Baseline session cost (GPT-5.4-mini rates) | \$0.45-2.25 | Calculated from session tokens at \$0.75/\$4.50 per M[^api-pricing] |
 
 A critical finding: **60-80% of tokens in agentic sessions are waste** — spent on finding code, re-reading context, and retrying, not on writing code[^morph]. Shell tool outputs alone account for 90.3% of all tool-output characters[^bswen].
 
@@ -228,12 +228,12 @@ The table below draws from Codex CLI community reports and comparable agentic to
 
 | Developer Profile | Estimated Tokens/Week | Weekly API Cost (5.4-mini) | Monthly API Cost (5.4-mini) | Source |
 |-------------------|----------------------|---------------------------|----------------------------|--------|
-| **Light** (1-2 sessions/day) | ~2M | ~$9 | ~$36 | Community reports, BSWEN[^bswen] |
-| **Medium** (3-5 hours/day) | ~10M | ~$45 | ~$180 | Industry average[^faros][^morph] |
-| **Heavy** (multi-agent workflows) | ~50M | ~$225 | ~$900 | Morph AI, community reports[^morph][^openai-forum] |
-| **Extreme** (documented outlier) | ~300M | ~$1,350 | ~$5,400 | Community case studies[^verdent] |
+| **Light** (1-2 sessions/day) | ~2M | ~\$9 | ~\$36 | Community reports, BSWEN[^bswen] |
+| **Medium** (3-5 hours/day) | ~10M | ~\$45 | ~\$180 | Industry average[^faros][^morph] |
+| **Heavy** (multi-agent workflows) | ~50M | ~\$225 | ~\$900 | Morph AI, community reports[^morph][^openai-forum] |
+| **Extreme** (documented outlier) | ~300M | ~\$1,350 | ~\$5,400 | Community case studies[^verdent] |
 
-Data from comparable agentic coding tools (notably Claude Code, the closest published dataset) shows the **average developer spends $5-8/day** on API-rate usage, with **90% of developers staying below $12/day**[^faros]. Translating these figures to GPT-5.4-mini rates, 90% of developers would consume fewer than ~5M tokens/week.
+Data from comparable agentic coding tools (notably Claude Code, the closest published dataset) shows the **average developer spends \$5-8/day** on API-rate usage, with **90% of developers staying below \$12/day**[^faros]. Translating these figures to GPT-5.4-mini rates, 90% of developers would consume fewer than ~5M tokens/week.
 
 ### Community-Reported Pain Points
 
@@ -243,9 +243,9 @@ Real Codex CLI developer reports confirm these ranges[^bswen][^openai-forum][^re
 - One user exhausting **97% of weekly allowance after just three prompts**
 - A Plus user burning **25% of weekly limit in 30 minutes**
 - A one-line configuration change consuming **~2% of the 5-hour quota**
-- A single GPT-5.4 xHigh prompt on a **7,000-line codebase cost ~$3.50** via API key — 7 minutes of work, ~4M tokens consumed across 34 API requests (each tool execution is a separate request), with auto-compaction mid-session[^reddit-api-cost]
+- A single GPT-5.4 xHigh prompt on a **7,000-line codebase cost ~\$3.50** via API key — 7 minutes of work, ~4M tokens consumed across 34 API requests (each tool execution is a separate request), with auto-compaction mid-session[^reddit-api-cost]
 
-That last data point is particularly revealing: even assuming a generous 90% margin, OpenAI's cost for that single prompt would be ~$0.35 — which means Plus subscribers getting unlimited prompts at $20/month are receiving substantial subsidies.
+That last data point is particularly revealing: even assuming a generous 90% margin, OpenAI's cost for that single prompt would be ~\$0.35 — which means Plus subscribers getting unlimited prompts at \$20/month are receiving substantial subsidies.
 
 ### Token Mix Assumptions
 
@@ -269,16 +269,16 @@ This is the central question. For each type of user, what does the subscription 
 
 | User Type | Tokens/Week | Tokens/Month | Best Subscription | Sub Cost/Month | API Cost/Month (5.4-mini) | Winner | Saving |
 |-----------|------------|-------------|-------------------|---------------|--------------------------|--------|--------|
-| **Light** | 2M | ~8M | Plus ($20) | **$20** | $36 | Sub | $16/mo (44%) |
-| **Medium** | 10M | ~40M | Plus ($20) | **$20** | $180 | Sub | $160/mo (89%) |
-| **Heavy** | 50M | ~200M | Pro 20x ($200) | **$200** | $900 | Sub | $700/mo (78%) |
-| **Extreme** | 300M | ~1.2B | None (ceiling exceeded) | N/A | $5,400 | API only | — |
-| **Team of 10** | 100M | ~400M | Codex-only seats | $0 + tokens | $1,800 | Codex-only | Admin controls |
-| **Team of 50 + CI/CD** | 1B | ~4.3B | Codex-only + Batch | $0 + tokens | $4,500-9,000 | Codex-only | Admin + batch |
+| **Light** | 2M | ~8M | Plus (\$20) | **\$20** | \$36 | Sub | \$16/mo (44%) |
+| **Medium** | 10M | ~40M | Plus (\$20) | **\$20** | \$180 | Sub | \$160/mo (89%) |
+| **Heavy** | 50M | ~200M | Pro 20x (\$200) | **\$200** | \$900 | Sub | \$700/mo (78%) |
+| **Extreme** | 300M | ~1.2B | None (ceiling exceeded) | N/A | \$5,400 | API only | — |
+| **Team of 10** | 100M | ~400M | Codex-only seats | \$0 + tokens | \$1,800 | Codex-only | Admin controls |
+| **Team of 50 + CI/CD** | 1B | ~4.3B | Codex-only + Batch | \$0 + tokens | \$4,500-9,000 | Codex-only | Admin + batch |
 
 **Key findings:**
-- For light and medium users, **subscriptions are massively subsidised** — Plus at $20/month provides $180/month of API-equivalent usage
-- For heavy users consuming up to ~200M tokens/month, **Pro 20x at $200/month still beats API rates** — you get $900 worth of API usage for $200
+- For light and medium users, **subscriptions are massively subsidised** — Plus at \$20/month provides \$180/month of API-equivalent usage
+- For heavy users consuming up to ~200M tokens/month, **Pro 20x at \$200/month still beats API rates** — you get \$900 worth of API usage for \$200
 - The **subscription ceiling breaks at ~960M tokens/month** (~240M/week). Above that, no subscription plan has enough capacity
 - **One billion tokens/week is a team-level volume** — 50 developers plus CI/CD pipelines, not an individual at a keyboard
 
@@ -288,12 +288,12 @@ If you use GPT-5.4 instead of 5.4-mini, the subscription subsidy is even larger 
 
 | User Type | Tokens/Week | API Cost/Month (5.4) | API Cost/Month (5.4-mini) | Best Sub Cost | Sub Saving vs 5.4 | Sub Saving vs mini |
 |-----------|------------|---------------------|--------------------------|--------------|-------------------|-------------------|
-| **Light** | 2M | $120 | $36 | $20 (Plus) | $100 (83%) | $16 (44%) |
-| **Medium** | 10M | $600 | $180 | $20 (Plus) | $580 (97%) | $160 (89%) |
-| **Heavy** | 50M | $3,000 | $900 | $200 (Pro 20x) | $2,800 (93%) | $700 (78%) |
-| **Extreme** | 300M | $18,000 | $5,400 | N/A | API only | API only |
+| **Light** | 2M | \$120 | \$36 | \$20 (Plus) | \$100 (83%) | \$16 (44%) |
+| **Medium** | 10M | \$600 | \$180 | \$20 (Plus) | \$580 (97%) | \$160 (89%) |
+| **Heavy** | 50M | \$3,000 | \$900 | \$200 (Pro 20x) | \$2,800 (93%) | \$700 (78%) |
+| **Extreme** | 300M | \$18,000 | \$5,400 | N/A | API only | API only |
 
-The subsidy on Plus is staggering: a medium user on GPT-5.4 gets **$600 of API value for $20**. This is why OpenAI imposes strict rate limits — the subscription is deliberately priced well below cost.
+The subsidy on Plus is staggering: a medium user on GPT-5.4 gets **\$600 of API value for \$20**. This is why OpenAI imposes strict rate limits — the subscription is deliberately priced well below cost.
 
 ### API Key Cost Per Session
 
@@ -302,20 +302,20 @@ The subsidy on Plus is staggering: a medium user on GPT-5.4 gets **$600 of API v
 - 10,000-30,000 output tokens
 
 **Cost using GPT-5.4 API rates:**
-- Input (uncached): 30K x $2.50/M = $0.075
-- Input (cached): 70K x $0.25/M = $0.018
-- Output: 20K x $15.00/M = $0.30
-- **Total per session: ~$0.39**
+- Input (uncached): 30K x \$2.50/M = \$0.075
+- Input (cached): 70K x \$0.25/M = \$0.018
+- Output: 20K x \$15.00/M = \$0.30
+- **Total per session: ~\$0.39**
 
-At 4-6 sessions per day, that is $1.56-2.34/day or **$31-47/month** — comparable to the $20 Plus subscription but with no rate limits and full control over model selection.
+At 4-6 sessions per day, that is \$1.56-2.34/day or **\$31-47/month** — comparable to the \$20 Plus subscription but with no rate limits and full control over model selection.
 
 **Cost using GPT-5.4-mini API rates:**
-- Input (uncached): 30K x $0.75/M = $0.023
-- Input (cached): 70K x $0.075/M = $0.005
-- Output: 20K x $4.50/M = $0.09
-- **Total per session: ~$0.12**
+- Input (uncached): 30K x \$0.75/M = \$0.023
+- Input (cached): 70K x \$0.075/M = \$0.005
+- Output: 20K x \$4.50/M = \$0.09
+- **Total per session: ~\$0.12**
 
-At 4-6 sessions per day: **$10-14/month**. Cheaper than every subscription except Copilot Free.
+At 4-6 sessions per day: **\$10-14/month**. Cheaper than every subscription except Copilot Free.
 
 ### API Key Costs at 1B Tokens/Week (Team Scale)
 
@@ -323,11 +323,11 @@ No subscription plan can sustain 1B tokens/week. Here is what it costs on the AP
 
 | Model | Weekly Cost | Monthly Cost |
 |-------|-----------|-------------|
-| GPT-5.4 | $3,740 | $14,960 |
-| GPT-5.4-mini | $1,122 | $4,488 |
-| GPT-5.4-nano | $309 | $1,237 |
-| Blended (70/25/5 mini/5.4/nano) | $1,736 | $6,943 |
-| Mini (Batch API) | $561 | $2,244 |
+| GPT-5.4 | \$3,740 | \$14,960 |
+| GPT-5.4-mini | \$1,122 | \$4,488 |
+| GPT-5.4-nano | \$309 | \$1,237 |
+| Blended (70/25/5 mini/5.4/nano) | \$1,736 | \$6,943 |
+| Mini (Batch API) | \$561 | \$2,244 |
 
 ---
 
@@ -359,17 +359,17 @@ The change removed the discount on Extra Usage Credits. Previously, overflow usa
 
 | Billing Layer | How You Access It | Effective Cost | When It Applies |
 |---------------|-------------------|----------------|-----------------|
-| **Subscription quota** | Included with Plus ($20/mo) or Pro ($100/mo) | Massively subsidised | Normal usage within rolling and weekly limits |
+| **Subscription quota** | Included with Plus (\$20/mo) or Pro (\$100/mo) | Massively subsidised | Normal usage within rolling and weekly limits |
 | **Extra Usage Credits** | Optional purchase when quotas are exhausted | Now equal to API rates | Overflow usage only — you must opt in |
 | **Direct API key** | Separate API key in `config.toml` | Standard per-token rates | Always — no quotas, no limits beyond API rate caps |
 
-The subscription quota remains the best deal in the table. A medium user on Plus still gets ~$180/month of API-equivalent value for $20 — that has not changed. The only thing that changed is the price you pay if you voluntarily buy more tokens after exhausting your included allocation.
+The subscription quota remains the best deal in the table. A medium user on Plus still gets ~\$180/month of API-equivalent value for \$20 — that has not changed. The only thing that changed is the price you pay if you voluntarily buy more tokens after exhausting your included allocation.
 
 ### Practical Guidance: When Each Layer Matters
 
-**Plus ($20/month)** is generous for light users but constrains heavy Codex CLI use significantly. Community reports indicate that Plus's 5-hour quota can be consumed in roughly 10 minutes of sustained Codex CLI activity[^reddit-extra-credits].
+**Plus (\$20/month)** is generous for light users but constrains heavy Codex CLI use significantly. Community reports indicate that Plus's 5-hour quota can be consumed in roughly 10 minutes of sustained Codex CLI activity[^reddit-extra-credits].
 
-**Pro ($100/month)** is substantially more generous. One user reported barely reaching 50% of the 5-hour limit after four hours of nonstop use with GPT-5.4 on high effort[^reddit-extra-credits].
+**Pro (\$100/month)** is substantially more generous. One user reported barely reaching 50% of the 5-hour limit after four hours of nonstop use with GPT-5.4 on high effort[^reddit-extra-credits].
 
 **When to use the API instead of a subscription:** if you are a commercial entity that needs predictable, uncapped throughput — or if your usage regularly exceeds Pro's weekly ceiling (~240M tokens/week). For individual developers, the subscription quota still provides significant value.
 
@@ -377,7 +377,7 @@ The subscription quota remains the best deal in the table. A medium user on Plus
 
 ## Part 7: Reasoning Effort — The Second Cost Knob
 
-Every API call to a reasoning model generates two categories of tokens you pay for: the visible output and the hidden reasoning chain the model works through before responding. In Codex CLI, the `model_reasoning_effort` setting directly controls how long that reasoning chain runs — and therefore how much each turn costs[^reasoning-guide]. Getting this setting right is the difference between a productive $5 day and a bewildering $50 one.
+Every API call to a reasoning model generates two categories of tokens you pay for: the visible output and the hidden reasoning chain the model works through before responding. In Codex CLI, the `model_reasoning_effort` setting directly controls how long that reasoning chain runs — and therefore how much each turn costs[^reasoning-guide]. Getting this setting right is the difference between a productive \$5 day and a bewildering \$50 one.
 
 ### How Reasoning Tokens Work
 
@@ -404,7 +404,7 @@ flowchart TD
     style J fill:#6cf,stroke:#333
 ```
 
-The key insight: reasoning tokens are billed at the output token rate. On GPT-5.4, that is 375 credits per million tokens — six times the input rate of 62.50 credits per million[^codex-pricing]. On the API, output tokens for GPT-5.3-Codex cost $14.00 per million versus $1.75 per million for input[^nxcode]. Every additional reasoning token hits at the expensive rate.
+The key insight: reasoning tokens are billed at the output token rate. On GPT-5.4, that is 375 credits per million tokens — six times the input rate of 62.50 credits per million[^codex-pricing]. On the API, output tokens for GPT-5.3-Codex cost \$14.00 per million versus \$1.75 per million for input[^nxcode]. Every additional reasoning token hits at the expensive rate.
 
 ### The Six Effort Levels
 
@@ -421,7 +421,7 @@ Codex CLI supports six reasoning effort values via the Responses API[^codex-conf
 
 These token ranges are approximate and vary significantly by prompt complexity. OpenAI has noted that "a query that uses 500 reasoning tokens on one request might use 5,000 on a slightly different phrasing"[^tokenmix].
 
-The critical benchmark: **xhigh reasoning can use 3-5x more tokens than medium for the same prompt**[^blake-crosley]. On a complex task that already generates substantial reasoning at medium effort, switching to xhigh can push a $0.50 turn past $2.00.
+The critical benchmark: **xhigh reasoning can use 3-5x more tokens than medium for the same prompt**[^blake-crosley]. On a complex task that already generates substantial reasoning at medium effort, switching to xhigh can push a \$0.50 turn past \$2.00.
 
 ### Configuring Reasoning Effort
 
@@ -484,13 +484,13 @@ Most heavy API users should not pick a single model. Here is how different blend
 
 | Strategy | Model Mix | Monthly Cost | vs All-5.4 | vs All-mini |
 |----------|----------|-------------|-----------|------------|
-| All GPT-5.4 | 100% 5.4 | $7,480 | — | +233% |
-| Conservative blend | 50% mini / 40% 5.4 / 10% nano | $4,584 | -39% | +104% |
-| **Recommended blend** | **70% mini / 25% 5.4 / 5% nano** | **$3,472** | **-54%** | **+55%** |
-| Aggressive blend | 85% mini / 10% 5.4 / 5% nano | $2,660 | -64% | +19% |
-| All GPT-5.4-mini | 100% mini | $2,244 | -70% | — |
-| All GPT-5.4-nano | 100% nano | $619 | -92% | -72% |
-| Budget batch | 100% mini (batch/flex) | $1,122 | -85% | -50% |
+| All GPT-5.4 | 100% 5.4 | \$7,480 | — | +233% |
+| Conservative blend | 50% mini / 40% 5.4 / 10% nano | \$4,584 | -39% | +104% |
+| **Recommended blend** | **70% mini / 25% 5.4 / 5% nano** | **\$3,472** | **-54%** | **+55%** |
+| Aggressive blend | 85% mini / 10% 5.4 / 5% nano | \$2,660 | -64% | +19% |
+| All GPT-5.4-mini | 100% mini | \$2,244 | -70% | — |
+| All GPT-5.4-nano | 100% nano | \$619 | -92% | -72% |
+| Budget batch | 100% mini (batch/flex) | \$1,122 | -85% | -50% |
 
 A blended strategy using Codex CLI profiles:
 
@@ -556,10 +556,10 @@ For non-interactive workloads (CI/CD, code review pipelines, bulk refactoring), 
 
 | Model | Standard Monthly (50M/wk) | Batch/Flex Monthly | Savings |
 |-------|--------------------------|-------------------|---------|
-| GPT-5.4 | $7,480 | $3,740 | 50% |
-| GPT-5.4-mini | $2,244 | $1,122 | 50% |
-| GPT-5.4-nano | $619 | $310 | 50% |
-| GPT-5.3-Codex | $6,636 | $3,318 | 50% |
+| GPT-5.4 | \$7,480 | \$3,740 | 50% |
+| GPT-5.4-mini | \$2,244 | \$1,122 | 50% |
+| GPT-5.4-nano | \$619 | \$310 | 50% |
+| GPT-5.3-Codex | \$6,636 | \$3,318 | 50% |
 
 ---
 
@@ -569,12 +569,12 @@ The calculations above assume a 70% cache hit rate on input tokens. This number 
 
 | Usage Pattern | Typical Cache Hit Rate | Impact on Monthly Cost (5.4-mini, 50M/wk) |
 |---------------|----------------------|-------------------------------------------|
-| Long continuous sessions (30+ min) | 75-85% | $1,960-2,100 |
-| Short sessions, same codebase | 60-70% | $2,200-2,400 |
-| Frequent context switches | 30-50% | $2,600-3,000 |
-| Cold starts (new repos, CI/CD) | 5-15% | $3,200-3,600 |
+| Long continuous sessions (30+ min) | 75-85% | \$1,960-2,100 |
+| Short sessions, same codebase | 60-70% | \$2,200-2,400 |
+| Frequent context switches | 30-50% | \$2,600-3,000 |
+| Cold starts (new repos, CI/CD) | 5-15% | \$3,200-3,600 |
 
-The difference between best-case and worst-case caching is **~$1,500/month** on GPT-5.4-mini for a heavy user. For GPT-5.4, the gap widens to **~$4,800/month**.
+The difference between best-case and worst-case caching is **~\$1,500/month** on GPT-5.4-mini for a heavy user. For GPT-5.4, the gap widens to **~\$4,800/month**.
 
 Maximising cache hits is the second most impactful cost lever after model selection:
 
@@ -598,7 +598,7 @@ The token rates for Codex-only seats align with standard API pricing[^codex-rate
 
 ### Standard Business Seats and Codex CLI
 
-A Standard Business seat ($20/month) includes Codex CLI access with the same rate limits as Plus[^codex-rate-card]. Critically, **Codex usage on Standard Business seats does consume from the seat's allocation and is visible to workspace admins** — admins can see per-user credit consumption and set spend limits by seat type or by individual user[^spend-controls]. This means:
+A Standard Business seat (\$20/month) includes Codex CLI access with the same rate limits as Plus[^codex-rate-card]. Critically, **Codex usage on Standard Business seats does consume from the seat's allocation and is visible to workspace admins** — admins can see per-user credit consumption and set spend limits by seat type or by individual user[^spend-controls]. This means:
 
 - Usage is **monitored**: yes, workspace admins see Codex consumption
 - Usage is **capped**: Standard seats are subject to the same 5-hour rolling window limits as Plus
@@ -615,10 +615,10 @@ For heavy users on Business plans, the recommended setup is a Codex-only seat ra
 | Plan | Price | Model Access | Usage |
 |------|-------|-------------|-------|
 | Hobby | Free | Limited models | Limited agent + tab completions |
-| Pro | $20/mo | Frontier models (GPT-5.4, Claude, Gemini) | Extended agent limits |
-| Pro+ | $60/mo | Same models | 3x usage on all models |
-| Ultra | $200/mo | Same models | 20x usage, priority features |
-| Teams | $40/user/mo | Same models | Shared chats, SSO, analytics |
+| Pro | \$20/mo | Frontier models (GPT-5.4, Claude, Gemini) | Extended agent limits |
+| Pro+ | \$60/mo | Same models | 3x usage on all models |
+| Ultra | \$200/mo | Same models | 20x usage, priority features |
+| Teams | \$40/user/mo | Same models | Shared chats, SSO, analytics |
 | Enterprise | Custom | Same models | Pooled usage, SCIM, admin controls |
 
 Cursor's pricing is opaque by design — "extended limits" and "3x usage" give no concrete token budgets. The advantage is model flexibility: Cursor routes to GPT-5.4, Claude Sonnet 4.6, or Gemini depending on the task, and the subscription covers all of them. The disadvantage is that you cannot predict or control costs at the token level[^cursor-pricing].
@@ -627,21 +627,21 @@ Cursor's pricing is opaque by design — "extended limits" and "3x usage" give n
 
 | Plan | Price | Premium Requests | Models |
 |------|-------|-----------------|--------|
-| Free | $0/mo | 50 chat requests/mo | Limited |
-| Pro | $10/mo | 300 premium requests/mo | GPT-5.4, Claude Sonnet |
-| Pro+ | $39/mo | 1,500 premium requests/mo | All models incl. Claude Opus 4, o3 |
-| Business | $19/user/mo | 300 premium/user/mo | Frontier models, org management |
-| Enterprise | $39/user/mo | 1,000 premium/user/mo | All models incl. Opus 4.6, GitHub Spark |
+| Free | \$0/mo | 50 chat requests/mo | Limited |
+| Pro | \$10/mo | 300 premium requests/mo | GPT-5.4, Claude Sonnet |
+| Pro+ | \$39/mo | 1,500 premium requests/mo | All models incl. Claude Opus 4, o3 |
+| Business | \$19/user/mo | 300 premium/user/mo | Frontier models, org management |
+| Enterprise | \$39/user/mo | 1,000 premium/user/mo | All models incl. Opus 4.6, GitHub Spark |
 
-Copilot uses "premium requests" as its unit of consumption. A premium request is a single interaction with a frontier model — not a token count but a request count. Additional premium requests beyond plan limits are billed at $0.04 each. The Pro tier at $10/month is the cheapest entry point to frontier model access across any tool in this comparison[^copilot-plans].
+Copilot uses "premium requests" as its unit of consumption. A premium request is a single interaction with a frontier model — not a token count but a request count. Additional premium requests beyond plan limits are billed at \$0.04 each. The Pro tier at \$10/month is the cheapest entry point to frontier model access across any tool in this comparison[^copilot-plans].
 
 ### Claude Code (Anthropic)
 
 | Plan | Price | Usage | Models |
 |------|-------|-------|--------|
-| Pro | $20/mo | Base rate limits | Claude Sonnet 4.6 |
-| Max 5x | $100/mo | 5x Pro limits (~88K tokens/5hr) | Sonnet 4.6, Opus 4.6 |
-| Max 20x | $200/mo | 20x Pro limits (~220K tokens/5hr) | Sonnet 4.6, Opus 4.6 |
+| Pro | \$20/mo | Base rate limits | Claude Sonnet 4.6 |
+| Max 5x | \$100/mo | 5x Pro limits (~88K tokens/5hr) | Sonnet 4.6, Opus 4.6 |
+| Max 20x | \$200/mo | 20x Pro limits (~220K tokens/5hr) | Sonnet 4.6, Opus 4.6 |
 | Team | Per-seat pricing | Pooled usage | All models, admin |
 | Enterprise | Custom | Custom | All models, SSO, compliance |
 
@@ -649,9 +649,9 @@ Claude Code's API rates per million tokens[^claude-pricing]:
 
 | Model | Input | Output |
 |-------|-------|--------|
-| Claude Opus 4.6 | $5.00 | $25.00 |
-| Claude Sonnet 4.6 | $3.00 | $15.00 |
-| Claude Haiku 4.5 | $1.00 | $5.00 |
+| Claude Opus 4.6 | \$5.00 | \$25.00 |
+| Claude Sonnet 4.6 | \$3.00 | \$15.00 |
+| Claude Haiku 4.5 | \$1.00 | \$5.00 |
 
 Anthropic recently simplified pricing: the full 1M-token context window is now at standard rates for Opus 4.6 and Sonnet 4.6, eliminating the long-context surcharge. Prompt caching (90% savings) and batch API (50% off) can stack for up to 95% cost reduction[^claude-pricing].
 
@@ -659,13 +659,13 @@ Anthropic recently simplified pricing: the full 1M-token context window is now a
 
 | Plan | Price | Usage | Models |
 |------|-------|-------|--------|
-| Free | $0/mo | Light quota (daily/weekly refresh) | Limited models |
-| Pro | $20/mo | Standard allowance (daily/weekly refresh) | All premium models, SWE-1.5 |
-| Max | $200/mo | Heavy quota (daily/weekly refresh) | All premium models, SWE-1.5 |
-| Teams | $40/user/mo | Standard allowance per seat | Admin dashboard, RBAC, SSO |
+| Free | \$0/mo | Light quota (daily/weekly refresh) | Limited models |
+| Pro | \$20/mo | Standard allowance (daily/weekly refresh) | All premium models, SWE-1.5 |
+| Max | \$200/mo | Heavy quota (daily/weekly refresh) | All premium models, SWE-1.5 |
+| Teams | \$40/user/mo | Standard allowance per seat | Admin dashboard, RBAC, SSO |
 | Enterprise | Custom | Unlimited | Hybrid deployment, volume discounts |
 
-Windsurf has moved away from its original credit-based system to a quota model with daily and weekly refreshing allowances. Exact token or request counts are not published. Add-on credits can still be purchased: $10 for 250 (Pro) or $40 for 1,000 (Teams/Enterprise)[^windsurf-pricing].
+Windsurf has moved away from its original credit-based system to a quota model with daily and weekly refreshing allowances. Exact token or request counts are not published. Add-on credits can still be purchased: \$10 for 250 (Pro) or \$40 for 1,000 (Teams/Enterprise)[^windsurf-pricing].
 
 ### The Competitive Mirror: Claude Max
 
@@ -673,13 +673,13 @@ Anthropic's Claude pricing now mirrors OpenAI's structure almost exactly[^claude
 
 | | OpenAI Codex | Anthropic Claude Code |
 |---|---|---|
-| Base tier | Plus $20/mo | Pro $20/mo |
-| Mid tier | Pro 5x $100/mo | Max 5x $100/mo |
-| Top tier | Pro 20x $200/mo | Max 20x $200/mo |
+| Base tier | Plus \$20/mo | Pro \$20/mo |
+| Mid tier | Pro 5x \$100/mo | Max 5x \$100/mo |
+| Top tier | Pro 20x \$200/mo | Max 20x \$200/mo |
 | Usage model | 5-hour rolling window | ~5-hour rolling window |
 | Pay-as-you-go | Codex-only seats (token-based) | API key only |
 
-The structural similarity is not coincidental. Both companies are converging on the same insight: professional developers will pay $100/month for 5x throughput, but the $20-to-$200 jump was losing them to the competitor[^dataconomy].
+The structural similarity is not coincidental. Both companies are converging on the same insight: professional developers will pay \$100/month for 5x throughput, but the \$20-to-\$200 jump was losing them to the competitor[^dataconomy].
 
 Key differentiators remain:
 
@@ -712,20 +712,20 @@ For a team of 50 developers:
 
 | Tool | Plan | Monthly Cost | Annual Cost |
 |------|------|-------------|-------------|
-| Codex CLI | Plus (all users) | $1,000 | $12,000 |
-| Codex CLI | Pro 5x (all users) | $5,000 | $60,000 |
-| Codex CLI | Business (API) | $2,000-8,000 | $24,000-96,000 |
-| Cursor | Teams | $2,000 | $24,000 |
+| Codex CLI | Plus (all users) | \$1,000 | \$12,000 |
+| Codex CLI | Pro 5x (all users) | \$5,000 | \$60,000 |
+| Codex CLI | Business (API) | \$2,000-8,000 | \$24,000-96,000 |
+| Cursor | Teams | \$2,000 | \$24,000 |
 | Cursor | Enterprise | Custom | Custom |
-| GitHub Copilot | Business | $950 | $11,400 |
-| GitHub Copilot | Enterprise | $1,950 | $23,400 |
-| Claude Code | Max 5x (all users) | $5,000 | $60,000 |
-| Windsurf | Teams | $2,000 | $24,000 |
+| GitHub Copilot | Business | \$950 | \$11,400 |
+| GitHub Copilot | Enterprise | \$1,950 | \$23,400 |
+| Claude Code | Max 5x (all users) | \$5,000 | \$60,000 |
+| Windsurf | Teams | \$2,000 | \$24,000 |
 | Windsurf | Enterprise | Custom | Custom |
 
-GitHub Copilot Business at $19/user/month is the cheapest enterprise option. Codex CLI Plus at $20/user is close but lacks centralised management. For teams needing heavy usage with admin controls, Cursor Teams and Windsurf Teams (both $40/user) sit in the middle.
+GitHub Copilot Business at \$19/user/month is the cheapest enterprise option. Codex CLI Plus at \$20/user is close but lacks centralised management. For teams needing heavy usage with admin controls, Cursor Teams and Windsurf Teams (both \$40/user) sit in the middle.
 
-Remember: these costs stack if you use multiple tools. A team running Copilot Business ($19/user) for IDE completions plus Codex CLI Plus ($20/user) for agent tasks pays $39/user — still less than a single Cursor Ultra or Claude Code Max subscription.
+Remember: these costs stack if you use multiple tools. A team running Copilot Business (\$19/user) for IDE completions plus Codex CLI Plus (\$20/user) for agent tasks pays \$39/user — still less than a single Cursor Ultra or Claude Code Max subscription.
 
 ---
 
@@ -737,17 +737,17 @@ Here are practical cost scenarios for a developer running 15-20 substantial agen
 
 | Tool | Plan | Daily Cost | Monthly Cost | Notes |
 |------|------|-----------|-------------|-------|
-| Codex CLI | Plus ($20/mo) | ~$0.67 | $20 | May hit rate limits on heavy days |
-| Codex CLI | Pro 5x ($100/mo) | ~$3.33 | $100 | Comfortable headroom |
-| Codex CLI | API direct | ~$2-8 | $40-160 | Varies by model; caching helps |
-| Cursor | Pro ($20/mo) | ~$0.67 | $20 | May hit "extended limits" |
-| Cursor | Ultra ($200/mo) | ~$6.67 | $200 | 20x usage, priority access |
-| GitHub Copilot | Pro ($10/mo) | ~$0.33 | $10 | 300 requests/mo = 15/workday |
-| GitHub Copilot | Pro+ ($39/mo) | ~$1.30 | $39 | 1,500 requests/mo = 75/workday |
-| Claude Code | Pro ($20/mo) | ~$0.67 | $20 | May hit rate limits |
-| Claude Code | Max 20x ($200/mo) | ~$6.67 | $200 | ~220K tokens/5hr window |
-| Windsurf | Pro ($20/mo) | ~$0.67 | $20 | Daily/weekly refresh quota |
-| Windsurf | Max ($200/mo) | ~$6.67 | $200 | Heavy usage quota |
+| Codex CLI | Plus (\$20/mo) | ~\$0.67 | \$20 | May hit rate limits on heavy days |
+| Codex CLI | Pro 5x (\$100/mo) | ~\$3.33 | \$100 | Comfortable headroom |
+| Codex CLI | API direct | ~\$2-8 | \$40-160 | Varies by model; caching helps |
+| Cursor | Pro (\$20/mo) | ~\$0.67 | \$20 | May hit "extended limits" |
+| Cursor | Ultra (\$200/mo) | ~\$6.67 | \$200 | 20x usage, priority access |
+| GitHub Copilot | Pro (\$10/mo) | ~\$0.33 | \$10 | 300 requests/mo = 15/workday |
+| GitHub Copilot | Pro+ (\$39/mo) | ~\$1.30 | \$39 | 1,500 requests/mo = 75/workday |
+| Claude Code | Pro (\$20/mo) | ~\$0.67 | \$20 | May hit rate limits |
+| Claude Code | Max 20x (\$200/mo) | ~\$6.67 | \$200 | ~220K tokens/5hr window |
+| Windsurf | Pro (\$20/mo) | ~\$0.67 | \$20 | Daily/weekly refresh quota |
+| Windsurf | Max (\$200/mo) | ~\$6.67 | \$200 | Heavy usage quota |
 
 ---
 
@@ -861,40 +861,40 @@ flowchart TD
 ### By Usage Tier
 
 **Light user (~2M tokens/week):**
-- **Recommended:** Plus at $20/month
-- **API equivalent:** ~$36/month (GPT-5.4-mini)
+- **Recommended:** Plus at \$20/month
+- **API equivalent:** ~\$36/month (GPT-5.4-mini)
 - **Why subscription:** 44% cheaper, simpler setup, includes ChatGPT access. You will rarely hit rate limits.
 
 **Medium user (~10M tokens/week):**
-- **Recommended:** Plus at $20/month
-- **API equivalent:** ~$180/month (GPT-5.4-mini)
-- **Why subscription:** 89% cheaper — the biggest subsidy of any tier. If rate limits become frequent, Pro 5x ($100) eliminates the risk and is still 44% cheaper than API.
+- **Recommended:** Plus at \$20/month
+- **API equivalent:** ~\$180/month (GPT-5.4-mini)
+- **Why subscription:** 89% cheaper — the biggest subsidy of any tier. If rate limits become frequent, Pro 5x (\$100) eliminates the risk and is still 44% cheaper than API.
 
 **Heavy individual (~50M tokens/week):**
-- **Recommended:** Pro 20x at $200/month
-- **API equivalent:** ~$900/month (GPT-5.4-mini) or ~$3,000/month (GPT-5.4)
+- **Recommended:** Pro 20x at \$200/month
+- **API equivalent:** ~\$900/month (GPT-5.4-mini) or ~\$3,000/month (GPT-5.4)
 - **Why subscription:** 78% cheaper than mini API rates. If you regularly exceed ~240M tokens/week, switch to an API key with GPT-5.4-mini default and a blended model strategy.
 
 **Extreme individual (~300M tokens/week):**
 - **Recommended:** API key (no subscription has enough capacity)
-- **Cost:** ~$5,400/month on GPT-5.4-mini, or ~$3,472/month with the recommended 70/25/5 blend
+- **Cost:** ~\$5,400/month on GPT-5.4-mini, or ~\$3,472/month with the recommended 70/25/5 blend
 - **Why API:** Pro 20x caps out around ~240M tokens/week. There is no subscription plan that can absorb this volume.
 
 **Team of 10 medium users (~100M tokens/week):**
 - **Recommended:** Codex-only seats on ChatGPT Business
-- **Cost:** ~$1,800/month (API rates, no seat fee)
+- **Cost:** ~\$1,800/month (API rates, no seat fee)
 - **Why Codex-only:** Same API rates as direct API key, but with admin spend controls, per-user monitoring, and centralised billing.
 
 **Team of 50 with CI/CD (~1B tokens/week):**
 - **Recommended:** Codex-only seats (interactive) + Batch API (pipelines)
-- **Cost:** Interactive at mini rates ~$2,250/month + CI/CD on batch ~$2,244/month = **~$4,500/month total**
-- **Why:** Far less than 50 x $200 Pro subscriptions ($10,000/month), with no rate limits and admin controls.
+- **Cost:** Interactive at mini rates ~\$2,250/month + CI/CD on batch ~\$2,244/month = **~\$4,500/month total**
+- **Why:** Far less than 50 x \$200 Pro subscriptions (\$10,000/month), with no rate limits and admin controls.
 
 ### By Workflow
 
-**Solo developer, cost-sensitive:** GitHub Copilot Pro ($10/mo) for completions + Codex CLI on Plus ($20/mo) for agent tasks. Total: $30/month for frontier model access across both workflows.
+**Solo developer, cost-sensitive:** GitHub Copilot Pro (\$10/mo) for completions + Codex CLI on Plus (\$20/mo) for agent tasks. Total: \$30/month for frontier model access across both workflows.
 
-**Solo developer, heavy usage:** Codex CLI on API direct with GPT-5.4-mini as default, GPT-5.4 for complex tasks. Estimated $30-60/month with no rate limits and full model control.
+**Solo developer, heavy usage:** Codex CLI on API direct with GPT-5.4-mini as default, GPT-5.4 for complex tasks. Estimated \$30-60/month with no rate limits and full model control.
 
 **Subagent-heavy workflows:** Pro 5x is the minimum. A typical orchestrator + 3 worker pattern can consume 15-30 messages per turn cycle. At Plus limits (20-100 messages per window), you get 1-6 full cycles. At Pro 5x (200-1,000), you get 13-66.
 
@@ -909,13 +909,13 @@ approval_policy = "full-auto"
 sandbox_mode = "read-only"
 ```
 
-**Enterprise teams (50+ developers):** The Business seat price drop to $20/month makes standard seats cheaper[^codex-payg], whilst Codex-only seats let you allocate budget to the developers and pipelines that need it. Enterprise credit pools enable department-level budgeting without per-developer licensing friction.
+**Enterprise teams (50+ developers):** The Business seat price drop to \$20/month makes standard seats cheaper[^codex-payg], whilst Codex-only seats let you allocate budget to the developers and pipelines that need it. Enterprise credit pools enable department-level budgeting without per-developer licensing friction.
 
-**Team of 10-50, needs admin controls:** GitHub Copilot Business ($19/user) for IDE completions + Codex CLI Business (API) for agent tasks. The combination gives centralised billing, audit logs, and the full agent workflow at moderate cost.
+**Team of 10-50, needs admin controls:** GitHub Copilot Business (\$19/user) for IDE completions + Codex CLI Business (API) for agent tasks. The combination gives centralised billing, audit logs, and the full agent workflow at moderate cost.
 
-**Power user, cost is secondary:** Codex CLI Pro 20x ($200/mo) or Claude Code Max 20x ($200/mo). Both provide the highest usage limits for their respective model ecosystems. Choose based on whether you prefer GPT-5.4 or Claude Sonnet 4.6 as your primary model.
+**Power user, cost is secondary:** Codex CLI Pro 20x (\$200/mo) or Claude Code Max 20x (\$200/mo). Both provide the highest usage limits for their respective model ecosystems. Choose based on whether you prefer GPT-5.4 or Claude Sonnet 4.6 as your primary model.
 
-**Enterprise with compliance requirements:** GitHub Copilot Enterprise ($39/user) for fine-tuning and knowledge base, plus Codex CLI Enterprise for agent workflows with custom limits and SSO. Budget $60-80/user/month total.
+**Enterprise with compliance requirements:** GitHub Copilot Enterprise (\$39/user) for fine-tuning and knowledge base, plus Codex CLI Enterprise for agent workflows with custom limits and SSO. Budget \$60-80/user/month total.
 
 ### Cost Optimisation Checklist
 
@@ -934,17 +934,17 @@ sandbox_mode = "read-only"
 
 ## Key Takeaways
 
-- **Subscriptions are massively subsidised.** Plus at $20/month delivers $180/month of API-equivalent value for a medium user — an 89% subsidy. But the subsidy comes with hard volume ceilings.
-- **The subscription ceiling breaks around ~240M tokens/week.** Below that, Pro 20x at $200/month beats API rates. Above it, the API key is the only option.
+- **Subscriptions are massively subsidised.** Plus at \$20/month delivers \$180/month of API-equivalent value for a medium user — an 89% subsidy. But the subsidy comes with hard volume ceilings.
+- **The subscription ceiling breaks around ~240M tokens/week.** Below that, Pro 20x at \$200/month beats API rates. Above it, the API key is the only option.
 - **One billion tokens/week is a team number,** not an individual one — achievable by 50 developers plus CI/CD automation, not by a single person at a keyboard.
 - **Codex CLI is the only major AI coding agent that supports direct API billing**, giving power users token-level cost control and no rate limits.
 - **Model selection is the largest cost lever on the API:** GPT-5.4-mini at 30% of GPT-5.4's cost handles 70-80% of tasks. A blended strategy saves 54%.
 - **Reasoning effort is the second knob:** the difference between `low` and `xhigh` can be an order of magnitude in cost. Start low, escalate only when needed.
 - **60-80% of tokens in agentic sessions are waste** — spent on context re-reading and retries, not writing code[^morph].
-- **Cache hit rate is a major lever:** the difference between 80% and 15% cache hits is ~$1,500/month on GPT-5.4-mini for a heavy user.
+- **Cache hit rate is a major lever:** the difference between 80% and 15% cache hits is ~\$1,500/month on GPT-5.4-mini for a heavy user.
 - **Codex-only seats** on ChatGPT Business provide API-rate billing with enterprise admin controls — the recommended path for teams.
 - **The Batch API halves costs** for non-interactive workloads.
-- **GitHub Copilot Pro at $10/month** is the cheapest frontier model entry point. Most teams will combine Copilot for completions with Codex CLI for agent tasks.
+- **GitHub Copilot Pro at \$10/month** is the cheapest frontier model entry point. Most teams will combine Copilot for completions with Codex CLI for agent tasks.
 - **Cloud Codex tasks cost 5x local tasks** — run locally for development, reserve cloud for CI/CD.
 - **The Extra Usage Credits change** only affects overflow billing — subscription quotas remain heavily subsidised.
 
@@ -964,19 +964,19 @@ sandbox_mode = "read-only"
 
 [^bswen]: Why Is My Codex CLI Token Usage Suddenly So High? — BSWEN (March 2026). Median context per turn (~96K), p95 (~200K), startup overhead (21-22K), shell output share (90.3%), community reports of single-prompt quota consumption. <https://docs.bswen.com/blog/2026-03-02-codex-cli-token-usage-spike/>
 
-[^faros]: Claude Code Token Limits: A Guide for Engineering Leaders — Faros.ai. Average developer spend $5-8/day, 90% under $12/day. **Note:** this data is from Claude Code (a comparable agentic coding tool); it is used here as the best available proxy for Codex CLI usage patterns. <https://www.faros.ai/blog/claude-code-token-limits>
+[^faros]: Claude Code Token Limits: A Guide for Engineering Leaders — Faros.ai. Average developer spend \$5-8/day, 90% under \$12/day. **Note:** this data is from Claude Code (a comparable agentic coding tool); it is used here as the best available proxy for Codex CLI usage patterns. <https://www.faros.ai/blog/claude-code-token-limits>
 
-[^morph]: The Real Cost of AI Coding in 2026 — Morph. Agent session costs, 60-80% token waste rates, $500-2,000/month for heavy API users, 47-iteration agent loop case study. <https://www.morphllm.com/ai-coding-costs>
+[^morph]: The Real Cost of AI Coding in 2026 — Morph. Agent session costs, 60-80% token waste rates, \$500-2,000/month for heavy API users, 47-iteration agent loop case study. <https://www.morphllm.com/ai-coding-costs>
 
-[^verdent]: Claude Code Pricing 2026: Plans, Token Costs, and Real Usage Estimates — Verdent Guides. Usage tiers (light $2-5/day, medium $6-12/day, heavy $20-60+/day), extreme user case study (10B tokens / 8 months = ~312M tokens/week). **Note:** Claude Code data used as proxy. <https://www.verdent.ai/guides/claude-code-pricing-2026>
+[^verdent]: Claude Code Pricing 2026: Plans, Token Costs, and Real Usage Estimates — Verdent Guides. Usage tiers (light \$2-5/day, medium \$6-12/day, heavy \$20-60+/day), extreme user case study (10B tokens / 8 months = ~312M tokens/week). **Note:** Claude Code data used as proxy. <https://www.verdent.ai/guides/claude-code-pricing-2026>
 
 [^openai-forum]: Codex Usage After the Limit Reset Update — OpenAI Developer Community. Single prompt eating 7% of weekly limits, 97% weekly allowance after three prompts. <https://community.openai.com/t/codex-usage-after-the-limit-reset-update-single-prompt-eats-7-of-weekly-limits-plus-tier/1365284>
 
-[^reddit-api-cost]: The cost of a single prompt when signed in via API key (GPT-5.4 xHigh) — r/codex, u/gigaflops_ (April 2026). Single prompt on 7,000-line codebase: ~$3.50 API cost, ~4M tokens, 34 requests, 7 minutes, GPT-5.4 xHigh with auto-compaction. <https://www.reddit.com/r/codex/comments/the-cost-of-a-single-prompt-when-signed-in-via-api-key-gpt54-xhigh/>
+[^reddit-api-cost]: The cost of a single prompt when signed in via API key (GPT-5.4 xHigh) — r/codex, u/gigaflops_ (April 2026). Single prompt on 7,000-line codebase: ~\$3.50 API cost, ~4M tokens, 34 requests, 7 minutes, GPT-5.4 xHigh with auto-compaction. <https://www.reddit.com/r/codex/comments/the-cost-of-a-single-prompt-when-signed-in-via-api-key-gpt54-xhigh/>
 
 [^reddit-extra-credits]: Please stop with the "Codex Sub Same Cost as API Now" Misinformation — r/codex, u/Decaf_GT (April 2026). Clarification of Extra Usage Credits change: subscription quotas unchanged, only overflow billing moved to API-rate parity. Plus quota consumed in ~10 minutes of Codex CLI use; Pro user at 50% of 5-hour limit after 4 hours nonstop. <https://www.reddit.com/r/codex/comments/please-stop-with-the-codex-sub-same-cost-as-api-now-misinformation/>
 
-[^techcrunch-pro]: TechCrunch, "ChatGPT finally offers $100/month Pro plan," 9 April 2026. <https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/>
+[^techcrunch-pro]: TechCrunch, "ChatGPT finally offers \$100/month Pro plan," 9 April 2026. <https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/>
 
 [^codex-payg]: OpenAI, "Codex now offers pay-as-you-go pricing for teams," 3 April 2026. <https://openai.com/index/codex-flexible-pricing-for-teams/>
 
@@ -988,7 +988,7 @@ sandbox_mode = "read-only"
 
 [^claude-max]: IntuitionLabs, "Claude Max Plan Explained: Pricing, Limits & Features," 2026. <https://intuitionlabs.ai/articles/claude-max-plan-pricing-usage-limits>
 
-[^dataconomy]: Dataconomy, "OpenAI Launches New $100-a-month Pro Plan For ChatGPT," 10 April 2026. <https://dataconomy.com/2026/04/10/openai-launches-new-100-a-month-pro-plan-for-chatgpt/>
+[^dataconomy]: Dataconomy, "OpenAI Launches New \$100-a-month Pro Plan For ChatGPT," 10 April 2026. <https://dataconomy.com/2026/04/10/openai-launches-new-100-a-month-pro-plan-for-chatgpt/>
 
 [^cursor-pricing]: Cursor Pricing — Plans and pricing for Hobby, Pro, Pro+, Ultra, Teams, and Enterprise tiers. <https://www.cursor.com/pricing>
 

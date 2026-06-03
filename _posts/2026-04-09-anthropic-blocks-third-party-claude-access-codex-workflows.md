@@ -2,7 +2,7 @@
 title: "Anthropic Blocks Third-Party Claude Access: What It Means for Multi-Tool Codex Workflows"
 description: "On 4 April 2026, Anthropic flipped a switch that sent shockwaves through the agentic coding community: Claude Pro and Max subscriptions would no longer."
 date: 2026-04-09T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - third-party-access
   - openclaw
@@ -24,7 +24,7 @@ On 4 April 2026, Anthropic flipped a switch that sent shockwaves through the age
 
 Boris Cherny, Head of Claude Code at Anthropic, announced that subscriptions "weren't built for the usage patterns of these third-party tools"[^2]. Enforcement was immediate — no grace period, no phased rollout. Users running OpenClaw instances against their Claude Max subscription woke up to authentication failures and a choice: switch to pay-as-you-go pricing or stop.
 
-The economics made Anthropic's motivation transparent. A single autonomous OpenClaw instance running for a full day could consume $1,000–$5,000 in API-equivalent compute[^3], whilst the Max subscription providing that access cost $200 per month. Industry analysts identified a 5x+ price gap between what heavy agentic users paid under flat subscriptions and what equivalent usage would cost at API rates[^2]. With over 135,000 OpenClaw instances running at the time of the announcement[^2], Anthropic was haemorrhaging compute subsidies.
+The economics made Anthropic's motivation transparent. A single autonomous OpenClaw instance running for a full day could consume \$1,000–\$5,000 in API-equivalent compute[^3], whilst the Max subscription providing that access cost \$200 per month. Industry analysts identified a 5x+ price gap between what heavy agentic users paid under flat subscriptions and what equivalent usage would cost at API rates[^2]. With over 135,000 OpenClaw instances running at the time of the announcement[^2], Anthropic was haemorrhaging compute subsidies.
 
 ### The Timeline That Raised Eyebrows
 
@@ -38,8 +38,8 @@ For users affected by the change, Anthropic offered three paths forward:
 
 | Option | Cost | Notes |
 |--------|------|-------|
-| Pay-as-you-go extra usage | $0.50–$2.00 per task | Billed separately from subscription |
-| Direct API keys | $3/$15 per million tokens (input/output, Sonnet 4.6) | Standard API pricing |
+| Pay-as-you-go extra usage | \$0.50–\$2.00 per task | Billed separately from subscription |
+| Direct API keys | \$3/\$15 per million tokens (input/output, Sonnet 4.6) | Standard API pricing |
 | Pre-purchased bundles | Up to 30% discount | Bulk extra usage credits |
 
 A one-time credit equal to the user's monthly plan amount was redeemable until 17 April[^2]. For hobbyist developers and solo practitioners — the demographic most affected — the cost increase ranged from 10x to 50x their previous monthly spend[^2].
@@ -82,7 +82,7 @@ This is not merely philosophical. It has practical consequences:
 
 ### The Broader Signal: Flat-Rate AI Compute Is Ending
 
-Anthropic is not alone. Google's Gemini now enforces hard caps: free users get 5 prompts daily, AI Pro subscribers receive 100 at $20/month, and AI Ultra subscribers get 500 at $250/month[^9]. Cursor and Replit implemented similar usage restrictions in 2025[^9]. The pattern is unmistakable: every provider that offered "unlimited" access is walking it back as agentic workloads amplify consumption by orders of magnitude.
+Anthropic is not alone. Google's Gemini now enforces hard caps: free users get 5 prompts daily, AI Pro subscribers receive 100 at \$20/month, and AI Ultra subscribers get 500 at \$250/month[^9]. Cursor and Replit implemented similar usage restrictions in 2025[^9]. The pattern is unmistakable: every provider that offered "unlimited" access is walking it back as agentic workloads amplify consumption by orders of magnitude.
 
 ```mermaid
 graph TD
@@ -118,7 +118,7 @@ Rather than routing through a bridge layer like OpenClaw, connect your tools dir
 
 ### 4. Budget for API-First Workflows
 
-Accept that the era of subsidised AI compute is ending. Build your workflow budgets around per-token pricing from the start. For a typical senior developer's daily Codex CLI usage (roughly 2–5 million input tokens and 500K–1M output tokens), expect $10–$30/day at current gpt-5.4 rates — predictable, transparent, and not subject to sudden policy changes.
+Accept that the era of subsidised AI compute is ending. Build your workflow budgets around per-token pricing from the start. For a typical senior developer's daily Codex CLI usage (roughly 2–5 million input tokens and 500K–1M output tokens), expect \$10–\$30/day at current gpt-5.4 rates — predictable, transparent, and not subject to sudden policy changes.
 
 ## The Competitive Landscape in April 2026
 
@@ -135,7 +135,7 @@ Codex CLI and OpenCode — both open-source, both API-first — are the only maj
 
 ## Conclusion
 
-Anthropic's decision to block third-party Claude access is rational from a business perspective — subsidising $5,000/day workloads on a $200/month subscription was never sustainable. But it marks a turning point for the agentic coding ecosystem. The tools that weather this transition best are those that never depended on subsidised access in the first place.
+Anthropic's decision to block third-party Claude access is rational from a business perspective — subsidising \$5,000/day workloads on a \$200/month subscription was never sustainable. But it marks a turning point for the agentic coding ecosystem. The tools that weather this transition best are those that never depended on subsidised access in the first place.
 
 For Codex CLI users, the message is straightforward: your workflow is resilient to vendor policy changes because it was built on transparent, per-token economics from day one. The multi-tool strategy remains viable, but it now requires explicit cost accounting for every Claude-side task. Plan accordingly.
 
@@ -145,7 +145,7 @@ For Codex CLI users, the message is straightforward: your workflow is resilient 
 
 [^2]: [Anthropic blocks OpenClaw from Claude subscriptions in cost crackdown](https://thenextweb.com/news/anthropic-openclaw-claude-subscription-ban-cost) — TNW, April 2026
 
-[^3]: [OpenClaw + Claude Code Costs 2026: API Key vs Pro $20 vs Max $200](https://www.shareuhack.com/en/posts/openclaw-claude-code-oauth-cost) — ShareUHack, April 2026
+[^3]: [OpenClaw + Claude Code Costs 2026: API Key vs Pro \$20 vs Max \$200](https://www.shareuhack.com/en/posts/openclaw-claude-code-oauth-cost) — ShareUHack, April 2026
 
 [^4]: [A Deep Dive Into The Epic Rise Of OpenClaw](https://www.oax.org/2026/03/23/A-Deep-Dive-Into-The-Epic-Rise-of-OpenClaw.html) — OAX Foundation, March 2026
 

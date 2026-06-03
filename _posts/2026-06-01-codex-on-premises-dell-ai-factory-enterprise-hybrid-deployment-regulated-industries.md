@@ -215,7 +215,7 @@ The partnership announcement left significant implementation details unspecified
 
 **Compliance certifications** — FedRAMP, HIPAA, IL5, and SOC 2 status for the on-premises Codex deployment are pending [^4]. Regulated buyers will need these before procurement can proceed. ⚠️
 
-**Pricing** — on-premises pricing has not been disclosed. Cloud Codex runs approximately $100–$200 per developer per month [^8]. On-premises will likely combine hardware capex with per-seat or per-token Codex licensing. ⚠️
+**Pricing** — on-premises pricing has not been disclosed. Cloud Codex runs approximately \$100–\$200 per developer per month [^8]. On-premises will likely combine hardware capex with per-seat or per-token Codex licensing. ⚠️
 
 **Air-gapped support** — the announcement describes "hybrid and on-premises environments" but does not address fully disconnected scenarios [^4]. Current documentation suggests external connectivity remains necessary for baseline model operations. ⚠️
 

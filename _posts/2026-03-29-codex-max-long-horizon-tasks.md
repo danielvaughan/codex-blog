@@ -2,7 +2,7 @@
 title: "GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions"
 description: "Most Codex tasks complete in minutes. But some tasks — a full microservice migration, a large-scale refactor across 50+ files, a days-long debugging session."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - models
   - context-management
@@ -52,9 +52,9 @@ GPT-5.1-Codex-Max scores **79.9%** on SWE-Lancer IC SWE — a significant jump f
 
 ### What is SWE-Lancer?
 
-SWE-Lancer is an OpenAI benchmark of **1,488 real freelance software engineering tasks** sourced from Upwork and Expensify, worth $1 million USD in real-world payouts. Tasks range from $50 bug fixes to $32,000 feature implementations. End-to-end tests are triple-verified by experienced engineers.
+SWE-Lancer is an OpenAI benchmark of **1,488 real freelance software engineering tasks** sourced from Upwork and Expensify, worth \$1 million USD in real-world payouts. Tasks range from \$50 bug fixes to \$32,000 feature implementations. End-to-end tests are triple-verified by experienced engineers.
 
-Why it's more meaningful than SWE-Bench Verified: it uses *real economic value* as the scoring unit. A 79.9% result on SWE-Lancer IC SWE means the model can complete the equivalent of ~$798K worth of freelance IC software engineering tasks — compared to 26.2% (Claude 3.5 Sonnet) and 8.6% (GPT-4o) when the benchmark launched in early 2025.
+Why it's more meaningful than SWE-Bench Verified: it uses *real economic value* as the scoring unit. A 79.9% result on SWE-Lancer IC SWE means the model can complete the equivalent of ~\$798K worth of freelance IC software engineering tasks — compared to 26.2% (Claude 3.5 Sonnet) and 8.6% (GPT-4o) when the benchmark launched in early 2025.
 
 Other benchmark scores (all with compaction + `xhigh` reasoning):
 
@@ -158,6 +158,6 @@ It has been succeeded by `gpt-5.2-codex` (better native compaction) and `gpt-5.3
 ## Citations
 
 - [GPT-5.1-Codex-Max System Card](https://openai.com/index/gpt-5-1-codex-max-system-card/) — safety mitigations, cybersecurity capability assessment
-- [SWE-Lancer Benchmark](https://openai.com/index/swe-lancer/) (OpenAI, Feb 2025) — 1,488 Upwork tasks, $1M valuation, arXiv:2502.12115
+- [SWE-Lancer Benchmark](https://openai.com/index/swe-lancer/) (OpenAI, Feb 2025) — 1,488 Upwork tasks, \$1M valuation, arXiv:2502.12115
 - [Building more with GPT-5.1-Codex-Max](https://openai.com/index/gpt-5-1-codex-max/) — official announcement with benchmark data
 - [VentureBeat: 24-hour task evaluation](https://venturebeat.com/ai/openai-debuts-gpt-5-1-codex-max-coding-model-and-it-already-completed-a-24) — reporting on internal evaluation sessions

@@ -66,7 +66,7 @@ codex -p code "Refactor the auth module to use dependency injection"
 codex exec -p analysis "Analyse @data/sales-q2.csv and produce a summary report"
 ```
 
-GPT-5.3-Codex still edges ahead on pure coding benchmarks (63.1 vs 58.6)[^9], so maintaining separate profiles avoids paying the GPT-5.5 token premium ($5.00/$30.00 per 1M input/output) for tasks where the cheaper model ($1.75/$14.00) performs better[^10].
+GPT-5.3-Codex still edges ahead on pure coding benchmarks (63.1 vs 58.6)[^9], so maintaining separate profiles avoids paying the GPT-5.5 token premium (\$5.00/\$30.00 per 1M input/output) for tasks where the cheaper model (\$1.75/\$14.00) performs better[^10].
 
 ### Roadmap Signal
 

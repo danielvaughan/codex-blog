@@ -63,7 +63,7 @@ When an agent provisions a service, Stripe attests to the user's identity. For n
 
 ### Payment
 
-Stripe tokenises the user's payment method into a Shared Payment Token. The agent never sees card numbers. The provider charges against this token, with a default spending cap of $100 USD per month per provider [^1]. Budget Alerts on the Cloudflare side provide a second layer of financial governance [^1].
+Stripe tokenises the user's payment method into a Shared Payment Token. The agent never sees card numbers. The provider charges against this token, with a default spending cap of \$100 USD per month per provider [^1]. Budget Alerts on the Cloudflare side provide a second layer of financial governance [^1].
 
 ## Connecting Codex CLI to Stripe Projects
 

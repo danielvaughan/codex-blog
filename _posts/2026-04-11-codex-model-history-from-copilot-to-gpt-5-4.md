@@ -2,7 +2,7 @@
 title: "From Codex to GPT-5.4: The Complete History of OpenAI's Code Models"
 description: "In July 2021, OpenAI published a paper describing a GPT-3 model fine-tuned on 159 gigabytes of Python code from 54 million GitHub repositories. They called."
 date: 2026-04-11T06:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - codex
   - history
@@ -234,17 +234,17 @@ Model pricing has decreased dramatically per unit of capability:
 
 | Model | Date | Input / Output (per M tokens) | Relative to Codex-12B |
 |-------|------|------------------------------|----------------------|
-| Codex (davinci) | 2021 | $0.10 / $0.10 (estimated) | Baseline |
-| GPT-3.5-turbo | Mar 2023 | $0.002 / $0.002 | ~50× cheaper |
-| GPT-4 | Mar 2023 | $0.03 / $0.06 | Similar (but far more capable) |
-| GPT-4o | May 2024 | $0.005 / $0.015 | 6× cheaper than GPT-4 |
-| GPT-4o mini | Jul 2024 | $0.00015 / $0.0006 | 100× cheaper than GPT-4 |
-| GPT-4.1 | Apr 2025 | $0.002 / $0.008 | Cheaper than original Codex |
-| GPT-5.4 | Mar 2026 | $2.50 / $15.00 | Premium frontier |
-| GPT-5.4-mini | Mar 2026 | $0.75 / $4.50 | Sweet spot |
-| GPT-5.4-nano | Mar 2026 | $0.20 / $1.25 | Budget |
-| GPT-5.3-Codex | Feb 2026 | $1.75 / $14.00 | Code-specialised value |
-| **GPT-5.5** | **Apr 2026** | **$5.00 / $30.00** | **New frontier (2× GPT-5.4)** |
+| Codex (davinci) | 2021 | \$0.10 / \$0.10 (estimated) | Baseline |
+| GPT-3.5-turbo | Mar 2023 | \$0.002 / \$0.002 | ~50× cheaper |
+| GPT-4 | Mar 2023 | \$0.03 / \$0.06 | Similar (but far more capable) |
+| GPT-4o | May 2024 | \$0.005 / \$0.015 | 6× cheaper than GPT-4 |
+| GPT-4o mini | Jul 2024 | \$0.00015 / \$0.0006 | 100× cheaper than GPT-4 |
+| GPT-4.1 | Apr 2025 | \$0.002 / \$0.008 | Cheaper than original Codex |
+| GPT-5.4 | Mar 2026 | \$2.50 / \$15.00 | Premium frontier |
+| GPT-5.4-mini | Mar 2026 | \$0.75 / \$4.50 | Sweet spot |
+| GPT-5.4-nano | Mar 2026 | \$0.20 / \$1.25 | Budget |
+| GPT-5.3-Codex | Feb 2026 | \$1.75 / \$14.00 | Code-specialised value |
+| **GPT-5.5** | **Apr 2026** | **\$5.00 / \$30.00** | **New frontier (2× GPT-5.4)** |
 
 ## What Changed and What Stayed the Same
 
@@ -292,7 +292,7 @@ On 23 April 2026 — just six weeks after GPT-5.4 — OpenAI released GPT-5.5, i
 
 **What changed:** GPT-5.5 is not just smarter — it is more efficient. OpenAI reports it delivers better results with fewer tokens than GPT-5.4 for most tasks[^29]. Hallucinations dropped by 60% compared to previous versions[^30]. The 400K context window in Codex and up to 12M tokens elsewhere represents a significant expansion. A new Fast mode generates tokens 1.5× faster at 2.5× the cost.
 
-**What it costs:** API pricing doubled from GPT-5.4: $5.00/M input tokens, $30.00/M output tokens[^29]. The efficiency gains — fewer tokens per task — partially offset the price increase for Codex users.
+**What it costs:** API pricing doubled from GPT-5.4: \$5.00/M input tokens, \$30.00/M output tokens[^29]. The efficiency gains — fewer tokens per task — partially offset the price increase for Codex users.
 
 **Why it matters for Codex:** GPT-5.5 rolled out simultaneously to ChatGPT and Codex for Plus, Pro, Business, and Enterprise users. With 4 million active Codex users, this is the largest simultaneous model upgrade in the product's history. Greg Brockman called it "a big step towards more agentic and intuitive computing"[^28].
 

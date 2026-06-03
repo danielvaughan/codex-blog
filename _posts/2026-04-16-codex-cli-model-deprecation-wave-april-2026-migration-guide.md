@@ -40,9 +40,9 @@ After the April 14 retirement, five models remain available in Codex CLI [^6]:
 
 | Model | Context | Input Cost | Output Cost | Best For |
 |---|---|---|---|---|
-| `gpt-5.4` | 1.0M tokens | $2.50/MTok | $15.00/MTok | General-purpose flagship; coding + reasoning + computer use |
-| `gpt-5.4-mini` | 400K tokens | $0.75/MTok | $4.50/MTok | Fast iteration, subagents, lightweight tasks |
-| `gpt-5.3-codex` | 400K tokens | $1.75/MTok | $14.00/MTok | Terminal-first deep coding; highest Terminal-Bench score |
+| `gpt-5.4` | 1.0M tokens | \$2.50/MTok | \$15.00/MTok | General-purpose flagship; coding + reasoning + computer use |
+| `gpt-5.4-mini` | 400K tokens | \$0.75/MTok | \$4.50/MTok | Fast iteration, subagents, lightweight tasks |
+| `gpt-5.3-codex` | 400K tokens | \$1.75/MTok | \$14.00/MTok | Terminal-first deep coding; highest Terminal-Bench score |
 | `gpt-5.3-codex-spark` | 128K tokens | Research preview | Research preview | Near-instant iteration at 1,000+ tok/s (Pro only) |
 | `gpt-5.2` | 200K tokens | Legacy pricing | Legacy pricing | Legacy; retires from ChatGPT on 5 June 2026 |
 
@@ -83,7 +83,7 @@ The practical rule: if you're doing pure terminal-first coding and want to save 
 
 ### GPT-5.4-mini: The Subagent Workhorse
 
-At $0.75 per million input tokens, `gpt-5.4-mini` is 70% cheaper than `gpt-5.4` and runs over 2× faster [^8]. It approaches `gpt-5.4` performance on SWE-Bench Pro and OSWorld-Verified [^8], making it the clear choice for:
+At \$0.75 per million input tokens, `gpt-5.4-mini` is 70% cheaper than `gpt-5.4` and runs over 2× faster [^8]. It approaches `gpt-5.4` performance on SWE-Bench Pro and OSWorld-Verified [^8], making it the clear choice for:
 
 - Subagent workers in multi-agent orchestration
 - CI/CD pipeline tasks via `codex exec`

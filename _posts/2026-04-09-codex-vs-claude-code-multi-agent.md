@@ -2,7 +2,7 @@
 title: "Codex CLI vs Claude Code Multi-Agent: Subagents, Agent Teams and the Protocol Gap"
 description: "The two dominant terminal-native coding agents — OpenAI's Codex CLI and Anthropic's Claude Code — have each shipped multi-agent capabilities, but with."
 date: 2026-04-09T01:14:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - codex-vs-claude
   - subagents
@@ -131,7 +131,7 @@ The benchmarks tell a split story. Raw coding ability on SWE-bench Verified is a
 
 ### Token Efficiency and Cost
 
-OpenAI claims a 4× token efficiency advantage for Codex CLI[^7]. In practice, a complex refactor consuming 1.5M tokens on Codex CLI required 6.2M tokens for a comparable task on Claude Code[^7]. Combined with lower per-token pricing (GPT-5.3-Codex at $1.25/$10 per MTok vs Opus 4.6 at $5/$25 per MTok), Codex works out roughly 10× cheaper per equivalent coding task on API pricing[^7].
+OpenAI claims a 4× token efficiency advantage for Codex CLI[^7]. In practice, a complex refactor consuming 1.5M tokens on Codex CLI required 6.2M tokens for a comparable task on Claude Code[^7]. Combined with lower per-token pricing (GPT-5.3-Codex at \$1.25/\$10 per MTok vs Opus 4.6 at \$5/\$25 per MTok), Codex works out roughly 10× cheaper per equivalent coding task on API pricing[^7].
 
 ### Context Window
 

@@ -21,16 +21,16 @@ Until June 2026, Copilot charged a flat per-seat fee that bundled a monthly allo
 
 | Plan | Monthly Price | Included AI Credits |
 |------|--------------|-------------------|
-| Copilot Pro | $10/user | $10 |
-| Copilot Pro+ | $39/user | $39 |
-| Copilot Business | $19/user | $19 |
-| Copilot Enterprise | $39/user | $39 |
+| Copilot Pro | \$10/user | \$10 |
+| Copilot Pro+ | \$39/user | \$39 |
+| Copilot Business | \$19/user | \$19 |
+| Copilot Enterprise | \$39/user | \$39 |
 
-One AI Credit equals $0.01 USD. Credits are consumed based on token usage — input, output, and cached tokens — at published API rates for each model [^1]. Code completions and Next Edit suggestions remain free and do not consume credits [^1].
+One AI Credit equals \$0.01 USD. Credits are consumed based on token usage — input, output, and cached tokens — at published API rates for each model [^1]. Code completions and Next Edit suggestions remain free and do not consume credits [^1].
 
 ### Promotional Buffer
 
-Business plans receive $30/month and Enterprise plans $70/month in credits during the June–August 2026 promotional period [^1], giving teams a runway to instrument usage before the standard allocations apply.
+Business plans receive \$30/month and Enterprise plans \$70/month in credits during the June–August 2026 promotional period [^1], giving teams a runway to instrument usage before the standard allocations apply.
 
 ### Code Review Hits Actions Minutes
 
@@ -54,7 +54,7 @@ Codex CLI's billing model differs in structure. Here is how the two compare for 
 
 ### Individual Plans
 
-| Feature | Copilot Pro ($10/mo) | Codex CLI via Plus ($20/mo) |
+| Feature | Copilot Pro (\$10/mo) | Codex CLI via Plus (\$20/mo) |
 |---------|---------------------|-----------------------------|
 | Billing model | Token-metered AI Credits | Message-based rolling window |
 | Code completions | Included (free) | N/A (terminal agent, not IDE) |
@@ -64,10 +64,10 @@ Codex CLI's billing model differs in structure. Here is how the two compare for 
 
 ### Business and Enterprise
 
-| Feature | Copilot Business ($19/user) | Codex Business ($25/user) [^6] |
+| Feature | Copilot Business (\$19/user) | Codex Business (\$25/user) [^6] |
 |---------|----------------------------|-------------------------------|
-| Included credits | $19 AI Credits/mo | Token-based credit pool |
-| Credit rates (GPT-5.5, per 1M tokens) | ~$2.50 input / $15 output [^8] | 125 input / 12.50 cached / 750 output credits [^6] |
+| Included credits | \$19 AI Credits/mo | Token-based credit pool |
+| Credit rates (GPT-5.5, per 1M tokens) | ~\$2.50 input / \$15 output [^8] | 125 input / 12.50 cached / 750 output credits [^6] |
 | SSO/SCIM | Yes | Yes (SAML, MFA) |
 | Admin controls | Org-level spending limits | Managed configuration, requirements.toml [^9] |
 | Audit logging | Limited | Compliance API, OTEL integration [^6] |

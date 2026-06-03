@@ -122,11 +122,11 @@ Understanding when subscription credits beat API pricing matters for team budget
 
 | Model | Input (per 1M tokens) | Cached (per 1M) | Output (per 1M) |
 |-------|----------------------|------------------|------------------|
-| GPT-5.5 | $125.00 | $12.50 | $750.00 |
-| GPT-5.4 | $62.50 | $6.25 | $375.00 |
-| GPT-5.4-mini | $18.75 | $1.875 | $113.00 |
+| GPT-5.5 | \$125.00 | \$12.50 | \$750.00 |
+| GPT-5.4 | \$62.50 | \$6.25 | \$375.00 |
+| GPT-5.4-mini | \$18.75 | \$1.875 | \$113.00 |
 
-A typical Codex CLI session consuming 50K input tokens and 10K output tokens on GPT-5.5 costs roughly $13.75 at API rates. A Pro subscriber at $100/month gets 80–400 such sessions included. The break-even sits at approximately 8–10 substantial sessions per month — most active developers exceed this comfortably.
+A typical Codex CLI session consuming 50K input tokens and 10K output tokens on GPT-5.5 costs roughly \$13.75 at API rates. A Pro subscriber at \$100/month gets 80–400 such sessions included. The break-even sits at approximately 8–10 substantial sessions per month — most active developers exceed this comfortably.
 
 ```mermaid
 graph LR

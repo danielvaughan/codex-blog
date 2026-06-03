@@ -22,13 +22,13 @@ Codex now bills on three token categories: **input**, **cached input**, and **ou
 
 | Model | Input ($/1M) | Cached Input ($/1M) | Output ($/1M) | Sweet Spot |
 |-------|-------------|---------------------|---------------|------------|
-| `gpt-5.5` | $5.00 | $0.50 | $30.00 | Complex multi-step reasoning[^2] |
-| `gpt-5.4` | $2.50 | $0.25 | $15.00 | General coding tasks[^2] |
-| `gpt-5.4-mini` | $0.75 | $0.075 | $4.50 | Parallel subagent work[^2] |
-| `gpt-5.4-nano` | $0.20 | $0.02 | $1.25 | Boilerplate, formatting[^2] |
-| `gpt-5.3-codex` | $3.50 | $0.35 | $28.00 | Priority Codex tasks[^2] |
-| `o3` | $2.00 | $0.50 | $8.00 | Hard reasoning problems[^3] |
-| `o4-mini` | $1.10 | $0.275 | $4.40 | Cost-effective reasoning[^3] |
+| `gpt-5.5` | \$5.00 | \$0.50 | \$30.00 | Complex multi-step reasoning[^2] |
+| `gpt-5.4` | \$2.50 | \$0.25 | \$15.00 | General coding tasks[^2] |
+| `gpt-5.4-mini` | \$0.75 | \$0.075 | \$4.50 | Parallel subagent work[^2] |
+| `gpt-5.4-nano` | \$0.20 | \$0.02 | \$1.25 | Boilerplate, formatting[^2] |
+| `gpt-5.3-codex` | \$3.50 | \$0.35 | \$28.00 | Priority Codex tasks[^2] |
+| `o3` | \$2.00 | \$0.50 | \$8.00 | Hard reasoning problems[^3] |
+| `o4-mini` | \$1.10 | \$0.275 | \$4.40 | Cost-effective reasoning[^3] |
 
 The key insight: output tokens cost 6–10× more than input tokens across every model[^2]. A workflow that generates verbose output on `gpt-5.5` will burn budget dramatically faster than one using `o4-mini` for the same reasoning task.
 
@@ -249,13 +249,13 @@ Consider a typical feature implementation session (planning → coding → testi
 
 | Phase | Tokens (in/out) | Model Choice | Estimated Cost |
 |-------|----------------|--------------|---------------|
-| Planning | 50K / 5K | `gpt-5.5` | $0.40 |
-| Implementation | 200K / 30K | `gpt-5.4` | $0.95 |
-| Test writing | 100K / 15K | `gpt-5.4-mini` | $0.14 |
-| Debugging | 80K / 10K | `o4-mini` | $0.13 |
-| **Total** | | **Mixed** | **$1.62** |
+| Planning | 50K / 5K | `gpt-5.5` | \$0.40 |
+| Implementation | 200K / 30K | `gpt-5.4` | \$0.95 |
+| Test writing | 100K / 15K | `gpt-5.4-mini` | \$0.14 |
+| Debugging | 80K / 10K | `o4-mini` | \$0.13 |
+| **Total** | | **Mixed** | **\$1.62** |
 
-Running the same workflow entirely on `gpt-5.5` would cost approximately $4.60 — nearly 3× more[^2]. The mixed approach preserves quality where it matters (planning) whilst keeping costs controlled for mechanical tasks.
+Running the same workflow entirely on `gpt-5.5` would cost approximately \$4.60 — nearly 3× more[^2]. The mixed approach preserves quality where it matters (planning) whilst keeping costs controlled for mechanical tasks.
 
 ## Existing Tools Worth Knowing
 

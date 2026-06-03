@@ -159,7 +159,7 @@ Beyond the first-party governance APIs, a healthy ecosystem of community tools f
 
 **Codextime** takes a team-oriented approach: each developer runs `npx codextime-tracker <userId>`, which streams session data to a shared Supabase dashboard with usage heatmaps, subscription ROI calculations, and cost forecasting [^9].
 
-**SessionWatcher** and **CodexBar** provide macOS menu-bar widgets showing live token consumption, rate limits, burn rate, and time remaining in the current billing window [^10][^11]. At $2.99 one-time, SessionWatcher auto-detects Codex sessions and displays per-model token breakdowns (input, output, cache, reasoning).
+**SessionWatcher** and **CodexBar** provide macOS menu-bar widgets showing live token consumption, rate limits, burn rate, and time remaining in the current billing window [^10][^11]. At \$2.99 one-time, SessionWatcher auto-detects Codex sessions and displays per-model token breakdowns (input, output, cache, reasoning).
 
 **SigNoz** offers a pre-built Codex dashboard template that visualises OTel spans from Codex CLI sessions, including token counts, tool-call latency, and API error rates [^12].
 

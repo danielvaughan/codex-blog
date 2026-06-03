@@ -2,7 +2,7 @@
 title: "Evaluating Codex CLI Agents with Promptfoo: Trajectory Assertions, Cost Guards, and Structured Grading"
 description: "Standard LLM evals check whether a model returns the right text. Agent evals are a different beast entirely: two agents can produce identical final outputs."
 date: 2026-04-11T21:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags: ["evaluation", "promptfoo", "testing", "codex-cli", "trajectory-assertions", "cost-management"]
 ---
 
@@ -194,7 +194,7 @@ The schema is enforced by Codex itself via the Responses API's structured output
 
 ## Cost and Latency Guards
 
-Agentic runs are inherently more expensive than single-turn completions. A security audit might cost $0.10–$0.30 and take 30–120 seconds.[^1] Set explicit thresholds to catch regressions:
+Agentic runs are inherently more expensive than single-turn completions. A security audit might cost \$0.10–\$0.30 and take 30–120 seconds.[^1] Set explicit thresholds to catch regressions:
 
 ```yaml
 tests:

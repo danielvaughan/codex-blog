@@ -13,7 +13,7 @@ tags: ["codex-cli", "model-selection", "gpt-5.5", "gpt-5.4", "gpt-5.3-codex", "g
 
 ---
 
-Three months ago, Codex CLI users chose between GPT-5-Codex and its Spark variant. Today the model picker lists five production options — six if you count GPT-5.5 Pro — each with different context windows, reasoning tiers, authentication requirements, and per-token economics. GPT-5.2 Thinking retires on 5 June[^1], and the promotional 2× usage on the Pro $100 tier expires on 31 May[^2]. If you have not reviewed your `config.toml` model settings recently, now is the time.
+Three months ago, Codex CLI users chose between GPT-5-Codex and its Spark variant. Today the model picker lists five production options — six if you count GPT-5.5 Pro — each with different context windows, reasoning tiers, authentication requirements, and per-token economics. GPT-5.2 Thinking retires on 5 June[^1], and the promotional 2× usage on the Pro \$100 tier expires on 31 May[^2]. If you have not reviewed your `config.toml` model settings recently, now is the time.
 
 This article maps the full Codex CLI model landscape as of May 2026, provides concrete routing rules, and offers ready-to-use configuration recipes for common workflows.
 
@@ -47,23 +47,23 @@ OpenAI's newest frontier model, released 24 April 2026[^3]. It supports a 1,050,
 
 **Critical limitation:** GPT-5.5 requires ChatGPT OAuth sign-in. It is not available with API-key authentication[^4]. This means CI/CD pipelines using `OPENAI_API_KEY` cannot target it. If your workflow relies on `codex exec` with an API key, GPT-5.5 is off the table.
 
-**Long-context pricing trap:** Prompts exceeding 272,000 input tokens trigger 2× input and 1.5× output pricing for the entire session[^5]. A 300k-token session that would cost $1.50 at base rates actually costs $3.00 in input alone.
+**Long-context pricing trap:** Prompts exceeding 272,000 input tokens trigger 2× input and 1.5× output pricing for the entire session[^5]. A 300k-token session that would cost \$1.50 at base rates actually costs \$3.00 in input alone.
 
 ### GPT-5.4
 
 The flagship general-purpose model, combining strong coding with enhanced reasoning[^4]. GPT-5.4 subsumes the capabilities of GPT-5.3-Codex — OpenAI describes it as "the first mainline reasoning model to incorporate the frontier coding capabilities from GPT-5.3-Codex"[^6]. It supports 400,000 tokens of context and the same reasoning effort levels as GPT-5.5.
 
-GPT-5.4 is 47% more token-efficient than GPT-5.3-Codex on complex tasks[^7], meaning its higher per-token cost ($2.50 vs $1.75 per million input tokens) often translates to lower per-task cost. It also wins 4 out of 6 major benchmarks against GPT-5.3-Codex, including SWE-Bench Pro and OSWorld[^7].
+GPT-5.4 is 47% more token-efficient than GPT-5.3-Codex on complex tasks[^7], meaning its higher per-token cost (\$2.50 vs \$1.75 per million input tokens) often translates to lower per-task cost. It also wins 4 out of 6 major benchmarks against GPT-5.3-Codex, including SWE-Bench Pro and OSWorld[^7].
 
 **Key advantage over GPT-5.5:** Full API-key support, making it the strongest model available for headless automation.
 
 ### GPT-5.4-mini
 
-The cost-optimised workhorse at $0.75/$4.50 per million tokens — roughly 6× cheaper than GPT-5.4[^8]. It shares the 400k context window and supports reasoning tokens, but trades peak capability for throughput and latency. Ideal for subagent delegation, fast triage, and high-volume batch work.
+The cost-optimised workhorse at \$0.75/\$4.50 per million tokens — roughly 6× cheaper than GPT-5.4[^8]. It shares the 400k context window and supports reasoning tokens, but trades peak capability for throughput and latency. Ideal for subagent delegation, fast triage, and high-volume batch work.
 
 ### GPT-5.3-Codex
 
-The purpose-built coding specialist, released 5 February 2026[^9]. Despite its age, it still holds a 2.2-point lead on Terminal-Bench 2.0 (77.3% vs 75.1% for GPT-5.4)[^7] — the benchmark most closely aligned with CLI-centric workflows. At $1.75/$14.00 per million tokens[^10], it is 30% cheaper than GPT-5.4 on input tokens.
+The purpose-built coding specialist, released 5 February 2026[^9]. Despite its age, it still holds a 2.2-point lead on Terminal-Bench 2.0 (77.3% vs 75.1% for GPT-5.4)[^7] — the benchmark most closely aligned with CLI-centric workflows. At \$1.75/\$14.00 per million tokens[^10], it is 30% cheaper than GPT-5.4 on input tokens.
 
 GPT-5.3-Codex scored 56.8% on SWE-Bench Pro Public and approximately 80.0% on SWE-Bench Verified[^9]. Its cybersecurity capabilities were classified "High" under OpenAI's Preparedness Framework[^9].
 
@@ -71,7 +71,7 @@ GPT-5.3-Codex scored 56.8% on SWE-Bench Pro Public and approximately 80.0% on SW
 
 ### GPT-5.3-Codex-Spark
 
-A research preview optimised for near-instant iteration[^11]. Text-only, 128k context window, available exclusively to ChatGPT Pro ($200) subscribers. It cannot process images, run computer use, or work through the API. Think of it as a prototype for low-latency pairing — useful for rapid exploratory coding but not for production pipelines.
+A research preview optimised for near-instant iteration[^11]. Text-only, 128k context window, available exclusively to ChatGPT Pro (\$200) subscribers. It cannot process images, run computer use, or work through the API. Think of it as a prototype for low-latency pairing — useful for rapid exploratory coding but not for production pipelines.
 
 ## Routing Decision Tree
 
@@ -169,12 +169,12 @@ This configuration maximises coding capability per token spent. The `high` reaso
 
 | Model | Input ($/1M) | Cached ($/1M) | Output ($/1M) | Context | API Key | Best For |
 |-------|-------------|---------------|---------------|---------|---------|----------|
-| GPT-5.5 | $5.00 | $0.50 | $30.00 | 1.05M | No | Research, computer use |
-| GPT-5.5 Pro | $30.00 | — | $180.00 | 1.05M | No | Maximum capability |
-| GPT-5.4 | $2.50 | $0.25 | $15.00 | 400k | Yes | General-purpose default |
-| GPT-5.4-mini | $0.75 | $0.075 | $4.50 | 400k | Yes | Subagents, batch |
-| GPT-5.3-Codex | $1.75 | $0.175 | $14.00 | 400k | Yes | High-volume terminal coding |
-| Codex-Spark | Included | — | Included | 128k | No | Rapid pairing (Pro $200) |
+| GPT-5.5 | \$5.00 | \$0.50 | \$30.00 | 1.05M | No | Research, computer use |
+| GPT-5.5 Pro | \$30.00 | — | \$180.00 | 1.05M | No | Maximum capability |
+| GPT-5.4 | \$2.50 | \$0.25 | \$15.00 | 400k | Yes | General-purpose default |
+| GPT-5.4-mini | \$0.75 | \$0.075 | \$4.50 | 400k | Yes | Subagents, batch |
+| GPT-5.3-Codex | \$1.75 | \$0.175 | \$14.00 | 400k | Yes | High-volume terminal coding |
+| Codex-Spark | Included | — | Included | 128k | No | Rapid pairing (Pro \$200) |
 
 All API prices are per million tokens[^5][^8][^10]. Codex-Spark is subscription-only with separate rate limits[^11].
 
@@ -235,9 +235,9 @@ The repo-level configuration ensures CI/CD pipelines always target an API-key-co
 
 ## The Promotional Window
 
-Until 31 May 2026, Pro $100 subscribers receive 2× their standard Codex usage — effectively 10× Plus limits instead of the usual 5×[^2]. This makes the current month an unusually cost-effective window for heavy interactive work with GPT-5.5 or GPT-5.4. If you have been deferring large refactoring sessions or codebase-wide migrations, the economics favour doing them now.
+Until 31 May 2026, Pro \$100 subscribers receive 2× their standard Codex usage — effectively 10× Plus limits instead of the usual 5×[^2]. This makes the current month an unusually cost-effective window for heavy interactive work with GPT-5.5 or GPT-5.4. If you have been deferring large refactoring sessions or codebase-wide migrations, the economics favour doing them now.
 
-After 31 May, Pro $100 reverts to 5× Plus limits. Pro $200 retains its 20× multiplier unchanged.
+After 31 May, Pro \$100 reverts to 5× Plus limits. Pro \$200 retains its 20× multiplier unchanged.
 
 ## Looking Ahead
 

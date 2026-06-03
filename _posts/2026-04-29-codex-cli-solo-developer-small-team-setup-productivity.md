@@ -21,8 +21,8 @@ The first decision is which ChatGPT plan to pair with Codex CLI. Three tiers mak
 
 | Plan | Monthly Cost | Codex Rate Multiplier | Best For |
 |------|:-----------:|:---------------------:|----------|
-| Plus | $20 | 1× | Casual use, side projects |
-| Pro | $200 | 5× | Full-time solo development |
+| Plus | \$20 | 1× | Casual use, side projects |
+| Pro | \$200 | 5× | Full-time solo development |
 | API (pay-as-you-go) | Usage-based | No rate windows | CI pipelines, batch work |
 
 The Plus tier gives you 20–100 local messages per five-hour window on GPT-5.4, rising to 60–350 on GPT-5.4-mini [^1]. For a solo developer shipping one feature per day, Plus is often sufficient — provided you manage your model selection (more on that below). Pro's 5× multiplier removes most rate-limit anxiety but costs ten times as much, so it only makes sense if Codex is your primary development tool for several hours daily.
@@ -139,10 +139,10 @@ The key discipline is resisting the urge to use the most powerful model for ever
 
 | Approach | Estimated Monthly Cost | Notes |
 |----------|:---------------------:|-------|
-| Plus + GPT-5.4-mini default | $20 (subscription only) | Sufficient for 4–6 hours daily |
-| Pro + GPT-5.4 default | $200 (subscription only) | Comfortable for 8+ hours daily |
-| API key + GPT-5.2-Codex | ~$5–15 (usage-based) | Best for CI/CD pipelines |
-| API key + GPT-5.5 | ~$50–200 (usage-based) | Only if you need computer use |
+| Plus + GPT-5.4-mini default | \$20 (subscription only) | Sufficient for 4–6 hours daily |
+| Pro + GPT-5.4 default | \$200 (subscription only) | Comfortable for 8+ hours daily |
+| API key + GPT-5.2-Codex | ~\$5–15 (usage-based) | Best for CI/CD pipelines |
+| API key + GPT-5.5 | ~\$50–200 (usage-based) | Only if you need computer use |
 
 For most solo developers shipping web applications, the Plus tier with disciplined model selection costs less per month than a single SaaS tool subscription — and replaces several of them [^2].
 

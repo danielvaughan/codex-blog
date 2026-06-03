@@ -113,8 +113,8 @@ Every token of MCP schema in the prompt is billed as an input token on every API
 For a team running 50 Codex sessions per day with a 5-server MCP configuration:
 
 - **55,000 extra tokens × 50 sessions = 2.75M tokens/day** of MCP overhead
-- At o4-mini input pricing ($1.10/M tokens cached, $2.50/M uncached), that is $3–7/day in pure overhead[^5]
-- At o3 pricing ($2.50/M cached, $10.00/M uncached), that is $7–27/day
+- At o4-mini input pricing (\$1.10/M tokens cached, \$2.50/M uncached), that is \$3–7/day in pure overhead[^5]
+- At o3 pricing (\$2.50/M cached, \$10.00/M uncached), that is \$7–27/day
 
 These are not large absolute numbers, but they are tokens that produce zero value — the model reads 55,000 tokens of tool schemas to potentially use 2–3 tools per session.
 

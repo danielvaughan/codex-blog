@@ -1,20 +1,20 @@
 ---
-title: "The OpenAI Deployment Company: What $4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise"
-description: "On 11 May 2026, OpenAI announced the OpenAI Deployment Company — a majority-owned subsidiary backed by more than $4 billion in initial capital from 19."
+title: "The OpenAI Deployment Company: What \$4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise"
+description: "On 11 May 2026, OpenAI announced the OpenAI Deployment Company — a majority-owned subsidiary backed by more than \$4 billion in initial capital from 19."
 parent: "Articles"
 nav_order: 690
 tags: ["codex-cli", "enterprise", "deployment-company", "forward-deployed-engineers", "tomoro", "governance", "openai"]
 ---
 
-![Sketchnote diagram for: The OpenAI Deployment Company: What $4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise](/sketchnotes/articles/2026-05-12-openai-deployment-company-codex-cli-enterprise-forward-deployed-engineers.png)
+![Sketchnote diagram for: The OpenAI Deployment Company: What \$4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise](/sketchnotes/articles/2026-05-12-openai-deployment-company-codex-cli-enterprise-forward-deployed-engineers.png)
 
 
-# The OpenAI Deployment Company: What $4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise
+# The OpenAI Deployment Company: What \$4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise
 
 
 ---
 
-On 11 May 2026, OpenAI announced the **OpenAI Deployment Company** — a majority-owned subsidiary backed by more than $4 billion in initial capital from 19 investment firms, consultancies, and system integrators[^1]. Hours later, it confirmed the acquisition of **Tomoro**, a UK-based applied-AI engineering firm, absorbing roughly 150 Forward Deployed Engineers (FDEs) and deployment specialists[^2]. The same day, OpenAI published *Running Codex Safely at OpenAI*, a detailed account of how its own engineering organisation deploys Codex internally[^3].
+On 11 May 2026, OpenAI announced the **OpenAI Deployment Company** — a majority-owned subsidiary backed by more than \$4 billion in initial capital from 19 investment firms, consultancies, and system integrators[^1]. Hours later, it confirmed the acquisition of **Tomoro**, a UK-based applied-AI engineering firm, absorbing roughly 150 Forward Deployed Engineers (FDEs) and deployment specialists[^2]. The same day, OpenAI published *Running Codex Safely at OpenAI*, a detailed account of how its own engineering organisation deploys Codex internally[^3].
 
 These three announcements are a single strategic move. OpenAI is no longer content to ship a CLI and let enterprises figure the rest out. It is building the deployment scaffolding — human and technical — to embed Codex directly into enterprise workflows. This article examines what that means for Codex CLI practitioners.
 
@@ -189,7 +189,7 @@ For individual practitioners, the most immediate takeaway is that the configurat
 
 [^3]: OpenAI. "Running Codex safely at OpenAI." *openai.com*, 11 May 2026. [https://openai.com/index/running-codex-safely/](https://openai.com/index/running-codex-safely/)
 
-[^4]: PYMNTS. "OpenAI Launches $4 Billion Company to Accelerate Enterprise AI Adoption." *pymnts.com*, 12 May 2026. [https://www.pymnts.com/news/artificial-intelligence/2026/openai-launches-4-billion-dollar-company-accelerate-enterprise-ai-adoption/](https://www.pymnts.com/news/artificial-intelligence/2026/openai-launches-4-billion-dollar-company-accelerate-enterprise-ai-adoption/)
+[^4]: PYMNTS. "OpenAI Launches \$4 Billion Company to Accelerate Enterprise AI Adoption." *pymnts.com*, 12 May 2026. [https://www.pymnts.com/news/artificial-intelligence/2026/openai-launches-4-billion-dollar-company-accelerate-enterprise-ai-adoption/](https://www.pymnts.com/news/artificial-intelligence/2026/openai-launches-4-billion-dollar-company-accelerate-enterprise-ai-adoption/)
 
 [^5]: Gigged.AI. "The Forward Deployed Engineer: 2026's Hottest Job Title." *gigged.ai*, 2026. [https://gigged.ai/the-forward-deployed-engineer-2026s-hottest-job-title/](https://gigged.ai/the-forward-deployed-engineer-2026s-hottest-job-title/)
 

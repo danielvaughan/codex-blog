@@ -2,7 +2,7 @@
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
 description: "Graph databases and AI agents are a natural fit. An agent's core capability is traversal."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - ecosystem
   - third-party
@@ -51,7 +51,7 @@ This is qualitatively different from a vector store, which stores opaque embeddi
 
 For agent workflows that run in Cloud Run, GitHub Actions, or other ephemeral compute environments, AuraDB — Neo4j's fully managed cloud service — is the path of least resistance. There is no cluster to operate, no bolt port to open, and TLS is on by default.[^2]
 
-AuraDB Free supports graphs up to 200K nodes, which is sufficient for a knowledge base of several thousand documents. The Professional tier starts at $65/GB/month and supports vector search natively, making it suitable for production GraphRAG workloads.
+AuraDB Free supports graphs up to 200K nodes, which is sufficient for a knowledge base of several thousand documents. The Professional tier starts at \$65/GB/month and supports vector search natively, making it suitable for production GraphRAG workloads.
 
 Connection is always via `neo4j+s://` (encrypted, certificate-validated). No extra TLS configuration is required at the driver level.
 

@@ -12,7 +12,7 @@ tags: ["codex-cli", "gpt-5.5", "migration", "effort-tuning", "cost-optimisation"
 # GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments
 
 
-GPT-5.5 — codenamed "Spud" — landed on 23 April 2026, less than two months after GPT-5.4[^1]. It is already the recommended model for most Codex tasks[^2]. The headline numbers are compelling: 88.7% on SWE-bench Verified (up from 82.1%), 82.7% on Terminal-Bench 2.0, and 40% fewer output tokens per Codex task[^3][^4]. The catch? Standard API pricing doubles to $5/$30 per million input/output tokens[^5]. This cookbook walks through migrating your Codex CLI workflows from GPT-5.4 to GPT-5.5 with concrete configuration, effort-tuning strategies, and cost guardrails.
+GPT-5.5 — codenamed "Spud" — landed on 23 April 2026, less than two months after GPT-5.4[^1]. It is already the recommended model for most Codex tasks[^2]. The headline numbers are compelling: 88.7% on SWE-bench Verified (up from 82.1%), 82.7% on Terminal-Bench 2.0, and 40% fewer output tokens per Codex task[^3][^4]. The catch? Standard API pricing doubles to \$5/\$30 per million input/output tokens[^5]. This cookbook walks through migrating your Codex CLI workflows from GPT-5.4 to GPT-5.5 with concrete configuration, effort-tuning strategies, and cost guardrails.
 
 ## What Changed
 
@@ -30,7 +30,7 @@ The Terminal-Bench 2.0 result is the standout for Codex CLI users — it measure
 
 ### Token Efficiency
 
-GPT-5.5 uses approximately 40% fewer output tokens to complete the same Codex task as GPT-5.4[^3]. This partially offsets the doubled per-token pricing. In practice, a task that cost $0.10 on GPT-5.4 might cost roughly $0.12 on GPT-5.5 at standard rates — not the 2× you might expect from the rate card alone.
+GPT-5.5 uses approximately 40% fewer output tokens to complete the same Codex task as GPT-5.4[^3]. This partially offsets the doubled per-token pricing. In practice, a task that cost \$0.10 on GPT-5.4 might cost roughly \$0.12 on GPT-5.5 at standard rates — not the 2× you might expect from the rate card alone.
 
 ### Current Availability
 
@@ -140,10 +140,10 @@ If migrating from an older model (GPT-5.2 or earlier), the migration path docume
 
 | | GPT-5.4 | GPT-5.5 | GPT-5.4-mini |
 |---|---|---|---|
-| **Standard input** | $2.50/M | $5.00/M | Lower |
-| **Standard output** | $15.00/M | $30.00/M | Lower |
-| **Batch input** | $1.25/M | $2.50/M | — |
-| **Batch output** | $7.50/M | $15.00/M | — |
+| **Standard input** | \$2.50/M | \$5.00/M | Lower |
+| **Standard output** | \$15.00/M | \$30.00/M | Lower |
+| **Batch input** | \$1.25/M | \$2.50/M | — |
+| **Batch output** | \$7.50/M | \$15.00/M | — |
 
 Batch pricing for GPT-5.5 is identical to GPT-5.4 standard pricing[^5]. For offline workloads — linting passes, bulk refactoring, test generation — batch mode completely neutralises the price increase.
 
@@ -162,7 +162,7 @@ graph LR
 
 ### Cost Reduction Strategies
 
-1. **Use Batch API for non-interactive work** — at $2.50/$15.00, you get GPT-5.5 quality at GPT-5.4 standard prices[^5].
+1. **Use Batch API for non-interactive work** — at \$2.50/\$15.00, you get GPT-5.5 quality at GPT-5.4 standard prices[^5].
 2. **Drop reasoning effort** — most routine coding tasks work at `low` or `minimal`. Reserve `high`/`xhigh` for planning phases.
 3. **Route with profiles** — use `gpt-5.4-mini` for simple completions and subagent calls, GPT-5.5 for complex tasks.
 4. **Cache aggressively** — cached input tokens on GPT-5.5 are billed at a fraction of standard rate[^5]. Structure your `AGENTS.md` to front-load reusable context.

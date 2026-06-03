@@ -14,7 +14,7 @@ tags: ["codex-cli", "autonomous-agents", "long-sessions", "experimentation", "re
 
 ---
 
-A new open-source framework called Deep Researcher Agent, published by Xiangyue Zhang at the University of Tokyo in April 2026, demonstrates that an LLM agent can run 500+ autonomous experiment cycles over 30+ continuous days at under $0.16 per day in API costs[^1]. The trick is not a bigger model or a longer context window — it is three architectural patterns that any Codex CLI practitioner can adopt today: zero-cost monitoring, constant-size memory, and minimal-toolset worker specialisation.
+A new open-source framework called Deep Researcher Agent, published by Xiangyue Zhang at the University of Tokyo in April 2026, demonstrates that an LLM agent can run 500+ autonomous experiment cycles over 30+ continuous days at under \$0.16 per day in API costs[^1]. The trick is not a bigger model or a longer context window — it is three architectural patterns that any Codex CLI practitioner can adopt today: zero-cost monitoring, constant-size memory, and minimal-toolset worker specialisation.
 
 This article translates the Deep Researcher Agent's architecture into practical Codex CLI configurations, combining it with OpenAI's own long-horizon task guidance[^2] and the thread automations system[^3] to build experimentation loops that run overnight, over weekends, or indefinitely.
 
@@ -44,7 +44,7 @@ graph TD
 
 ### Pillar 1: Zero-Cost Monitoring
 
-The Deep Researcher Agent's most counterintuitive insight is that 90% of an autonomous agent's wall-clock time is spent waiting — for builds, tests, training runs, or deployments[^1]. During these periods, conventional agent loops burn tokens polling for status. The zero-cost monitoring pattern replaces LLM polling with OS-level checks: process liveness verification, GPU/CPU utilisation confirmation, and log file reads. This reduced monitoring costs from approximately $0.50 to $0.08 per 24-hour cycle[^1].
+The Deep Researcher Agent's most counterintuitive insight is that 90% of an autonomous agent's wall-clock time is spent waiting — for builds, tests, training runs, or deployments[^1]. During these periods, conventional agent loops burn tokens polling for status. The zero-cost monitoring pattern replaces LLM polling with OS-level checks: process liveness verification, GPU/CPU utilisation confirmation, and log file reads. This reduced monitoring costs from approximately \$0.50 to \$0.08 per 24-hour cycle[^1].
 
 In Codex CLI, you can replicate this pattern using **thread automations** with a wake-up schedule rather than a continuous session:
 
@@ -202,17 +202,17 @@ codex "Read experiment/MEMORY.md and experiment/results/.
 
 ## Cost Projections
 
-The Deep Researcher Agent achieved $0.08 per 24-hour cycle for monitoring phases and $0.16 average total daily cost including active LLM calls[^1]. Applying similar patterns to Codex CLI:
+The Deep Researcher Agent achieved \$0.08 per 24-hour cycle for monitoring phases and \$0.16 average total daily cost including active LLM calls[^1]. Applying similar patterns to Codex CLI:
 
 | Component | Estimated Cost per Cycle | Notes |
 |-----------|------------------------|-------|
-| Orchestrator planning (gpt-5.4) | ~$0.02 | Short prompt, scoped context |
-| Experimenter execution (gpt-5.4-mini) | ~$0.005 | Minimal tools, small context |
-| Analysis (gpt-5.4) | ~$0.015 | Results comparison only |
-| **Total per cycle** | **~$0.04** | |
-| **24 cycles (6-hour overnight run)** | **~$0.96** | |
+| Orchestrator planning (gpt-5.4) | ~\$0.02 | Short prompt, scoped context |
+| Experimenter execution (gpt-5.4-mini) | ~\$0.005 | Minimal tools, small context |
+| Analysis (gpt-5.4) | ~\$0.015 | Results comparison only |
+| **Total per cycle** | **~\$0.04** | |
+| **24 cycles (6-hour overnight run)** | **~\$0.96** | |
 
-These are estimates based on current `gpt-5.4` pricing ($2.50/M input, $15/M output) and `gpt-5.4-mini` rates[^9]. Actual costs depend on context size and output length. The key saving comes from *not* running the LLM during experiment execution — mirroring the zero-cost monitoring pattern.
+These are estimates based on current `gpt-5.4` pricing (\$2.50/M input, \$15/M output) and `gpt-5.4-mini` rates[^9]. Actual costs depend on context size and output length. The key saving comes from *not* running the LLM during experiment execution — mirroring the zero-cost monitoring pattern.
 
 ## Dry-Run Validation
 

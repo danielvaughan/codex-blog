@@ -83,7 +83,7 @@ graph TD
 
 This is not an OpenAI-only phenomenon. NVIDIA's research on fine-tuning small language models for code review demonstrated that a fine-tuned Llama 3 8B model with LoRA achieved an 18% improvement in severity rating prediction accuracy over its baseline — and outperformed both Llama 3 70B (8× larger) and Nemotron 4 340B Instruct (40× larger) on the same task[^8]. When GPT-4 evaluated explanation quality, the fine-tuned 8B model consistently matched or outperformed these larger competitors[^8].
 
-The economics are compelling. Serving a 7-billion parameter SLM costs 10–30× less than a 70–175 billion parameter frontier model[^9]. Enterprise SLM deployment runs at $0.10–$0.50 per million tokens versus $2–$30 for frontier LLMs[^9]. At scale, these differences compound dramatically.
+The economics are compelling. Serving a 7-billion parameter SLM costs 10–30× less than a 70–175 billion parameter frontier model[^9]. Enterprise SLM deployment runs at \$0.10–\$0.50 per million tokens versus \$2–\$30 for frontier LLMs[^9]. At scale, these differences compound dramatically.
 
 ## Enterprise Implications: The Model Selection Matrix
 

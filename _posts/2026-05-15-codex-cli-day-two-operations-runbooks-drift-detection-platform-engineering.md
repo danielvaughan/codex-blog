@@ -350,7 +350,7 @@ fi
 
 - **`--output-schema` and `--json` are silently ignored when MCP servers are active** in some configurations (tracked at openai/codex#15451) [^11]. Test your exact pipeline configuration before relying on it in production.
 - **PreToolUse hooks do not fire for all tool types** — patches and some MCP calls bypass the hook engine [^6]. Do not treat hooks as a security boundary; use the sandbox policy as the primary enforcement layer.
-- **Token costs accumulate** for scheduled runs. A typical drift check consumes 5,000–15,000 tokens per run. At GPT-5.4 rates, that is roughly $0.10–$0.30 per execution — negligible for daily runs, but it adds up with hourly schedules across multiple environments [^10].
+- **Token costs accumulate** for scheduled runs. A typical drift check consumes 5,000–15,000 tokens per run. At GPT-5.4 rates, that is roughly \$0.10–\$0.30 per execution — negligible for daily runs, but it adds up with hourly schedules across multiple environments [^10].
 - **Context window limits apply.** If your infrastructure state output is large (hundreds of resources), consider pre-filtering with shell commands in the skill instructions rather than passing everything to the model.
 
 ## Conclusion

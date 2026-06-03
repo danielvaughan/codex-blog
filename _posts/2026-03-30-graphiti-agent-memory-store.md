@@ -2,7 +2,7 @@
 title: "Graphiti: Temporal Knowledge Graphs for Agent Memory — Should the Knowledge Flywheel Use It?"
 description: "Graphiti is an open-source Python library (Apache 2.0 licensed, maintained by Zep) for building and querying temporal knowledge graphs designed specifically."
 date: 2026-03-30T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - ecosystem
   - memory
@@ -126,7 +126,7 @@ If using the MCP server approach, one additional Cloud Run service is added (sta
 | Approach | Fit for Flywheel | Notes |
 |---|---|---|
 | **Graphiti on Neo4j** | Strong | Reuses existing AuraDB, temporal reasoning, MCP integration available |
-| **Mem0** | Moderate | Easier setup, Python SDK, but dual-store adds complexity and graph features cost $249/mo on cloud tier |
+| **Mem0** | Moderate | Easier setup, Python SDK, but dual-store adds complexity and graph features cost \$249/mo on cloud tier |
 | **Raw Neo4j (manual)** | Partial | Already in place, but requires hand-authoring every memory schema and query; no temporal reasoning |
 | **LangGraph Memory** | Weak | Tied to LangGraph framework; Flywheel uses Codex CLI, not LangGraph |
 | **No memory layer** | Current state | Simple but agents are amnesiac; same work gets redone; human feedback not reused |

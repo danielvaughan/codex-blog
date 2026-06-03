@@ -1,6 +1,6 @@
 ---
 title: "DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost"
-description: "DeepSeek V4 landed today — 24 April 2026 — and the numbers deserve attention. V4-Pro scores 80.6% on SWE-bench Verified while charging $3.48 per million."
+description: "DeepSeek V4 landed today — 24 April 2026 — and the numbers deserve attention. V4-Pro scores 80.6% on SWE-bench Verified while charging \$3.48 per million."
 parent: "Articles"
 nav_order: 402
 tags: ["codex-cli", "deepseek", "v4", "custom-provider", "cost-optimisation", "benchmarks", "configuration", "model-selection"]
@@ -12,7 +12,7 @@ tags: ["codex-cli", "deepseek", "v4", "custom-provider", "cost-optimisation", "b
 # DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost
 
 
-DeepSeek V4 landed today — 24 April 2026 — and the numbers deserve attention. V4-Pro scores 80.6% on SWE-bench Verified while charging $3.48 per million output tokens[^1]. For comparison, Claude Opus 4.6 scores 80.8% on the same benchmark at $25 per million output tokens[^2]. That is a 7× price gap at near-identical coding performance. This article walks through configuring DeepSeek V4 as a Codex CLI provider, examines where the benchmarks genuinely hold up, and identifies the workflows where GPT-5.5 or Claude remain the better choice.
+DeepSeek V4 landed today — 24 April 2026 — and the numbers deserve attention. V4-Pro scores 80.6% on SWE-bench Verified while charging \$3.48 per million output tokens[^1]. For comparison, Claude Opus 4.6 scores 80.8% on the same benchmark at \$25 per million output tokens[^2]. That is a 7× price gap at near-identical coding performance. This article walks through configuring DeepSeek V4 as a Codex CLI provider, examines where the benchmarks genuinely hold up, and identifies the workflows where GPT-5.5 or Claude remain the better choice.
 
 ## What Shipped
 
@@ -55,15 +55,15 @@ The cost differential is the headline:
 
 | Model | Input (cache miss) | Input (cache hit) | Output |
 |---|---|---|---|
-| **DeepSeek V4-Flash** | $0.14/M | $0.028/M | $0.28/M |
-| **DeepSeek V4-Pro** | $1.74/M | $0.145/M | $3.48/M |
+| **DeepSeek V4-Flash** | \$0.14/M | \$0.028/M | \$0.28/M |
+| **DeepSeek V4-Pro** | \$1.74/M | \$0.145/M | \$3.48/M |
 | GPT-5.4 | — | — | — |
 | GPT-5.5 | ⚠️ credit-based | ⚠️ credit-based | ⚠️ credit-based |
-| Claude Opus 4.6 | $5/M | — | $25/M |
+| Claude Opus 4.6 | \$5/M | — | \$25/M |
 
 Sources: [^1][^2]
 
-A production agentic pipeline processing 50 million output tokens per month costs approximately $174 on V4-Pro versus $1,250 on Claude Opus 4.6[^3]. V4-Flash is even more dramatic — at $0.28/M output, it undercuts GPT-5.4 Nano[^1].
+A production agentic pipeline processing 50 million output tokens per month costs approximately \$174 on V4-Pro versus \$1,250 on Claude Opus 4.6[^3]. V4-Flash is even more dramatic — at \$0.28/M output, it undercuts GPT-5.4 Nano[^1].
 
 ## Configuring Codex CLI for DeepSeek V4
 
@@ -132,7 +132,7 @@ codex exec \
   --output-schema ./ci-schema.json
 ```
 
-For cost-sensitive CI pipelines, V4-Flash at $0.28/M output makes per-commit agent runs economically viable in a way that frontier models do not.
+For cost-sensitive CI pipelines, V4-Flash at \$0.28/M output makes per-commit agent runs economically viable in a way that frontier models do not.
 
 ## Two-Tier Routing: The Practical Architecture
 
@@ -198,7 +198,7 @@ model = "gpt-5.4"
 | Workflow | Recommended Model | Rationale |
 |---|---|---|
 | Feature implementation | V4-Pro | Strong SWE-bench, 7× cheaper than Claude |
-| Unit test generation | V4-Flash | Adequate quality at $0.28/M |
+| Unit test generation | V4-Flash | Adequate quality at \$0.28/M |
 | Complex multi-step debugging | GPT-5.5 | 82.7% Terminal-Bench dominance |
 | CI/CD per-commit checks | V4-Flash | Economic at scale |
 | Security-sensitive code review | GPT-5.5 / Claude Opus 4.7 | Higher precision on nuanced analysis |
@@ -219,7 +219,7 @@ model = "deepseek-v4-pro"   # or "deepseek-v4-flash"
 
 ## Conclusion
 
-DeepSeek V4 does not replace GPT-5.5 — it occupies a different point on the cost-performance curve. At $3.48/M output with 80.6% SWE-bench Verified, V4-Pro is the most cost-effective frontier-adjacent coding model available today. The practical architecture is two-tier: DeepSeek for the 80% of tasks where it matches the frontier, GPT-5.5 for the 20% where Terminal-Bench performance and deep agentic reasoning justify the premium. Configure both providers, define profiles, and let the task complexity guide your routing.
+DeepSeek V4 does not replace GPT-5.5 — it occupies a different point on the cost-performance curve. At \$3.48/M output with 80.6% SWE-bench Verified, V4-Pro is the most cost-effective frontier-adjacent coding model available today. The practical architecture is two-tier: DeepSeek for the 80% of tasks where it matches the frontier, GPT-5.5 for the 20% where Terminal-Bench performance and deep agentic reasoning justify the premium. Configure both providers, define profiles, and let the task complexity guide your routing.
 
 ## Citations
 

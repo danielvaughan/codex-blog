@@ -1,8 +1,8 @@
 ---
 title: "Qwen3.6-35B-A3B: The Local Model That Changes the Agentic Cost Equation"
 description: "Source: Author: Qwen Team (Alibaba Cloud) Published: 2026-04-16 Content age: Current as of April 2026 Tags: local-models, qwen, moe, swe-bench,."
-date: 2026-04-15T23:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+date: 2026-04-16T00:00:00+00:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags: ["local-models", "qwen", "moe", "swe-bench", "agentic-coding", "cost-optimization", "hardware"]
 ---
 
@@ -83,7 +83,7 @@ With Q4 quantization on an M5 Pro Mac (36GB unified memory), the model fits comf
 
 **The hybrid stack gets real.** Article 11 in the premium series argues for routing simple tasks to local models and complex tasks to API models. Qwen3.6 pushes the boundary of "simple" dramatically upward — a model that scores 73.4 on SWE-bench can handle most implementation tasks, reserving API calls for only the most complex architectural reasoning.
 
-**The subsidy trap has an exit.** If Claude Code Max or Codex Pro pricing changes overnight (as happened with OpenClaw), teams running Qwen3.6 locally have a genuine fallback that maintains most of their productivity. The $2,199 M5 Pro Mac pays for itself in under two months of avoided API costs at heavy usage rates.
+**The subsidy trap has an exit.** If Claude Code Max or Codex Pro pricing changes overnight (as happened with OpenClaw), teams running Qwen3.6 locally have a genuine fallback that maintains most of their productivity. The \$2,199 M5 Pro Mac pays for itself in under two months of avoided API costs at heavy usage rates.
 
 ---
 

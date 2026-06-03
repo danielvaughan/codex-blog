@@ -70,9 +70,9 @@ Among the eleven models tested across 25 configurations[^1]:
 
 | Model | Strict Solve % | Erosion | Verbosity | Cost/Checkpoint |
 |-------|---------------|---------|-----------|-----------------|
-| Claude Opus 4.6 | 17.2 | 0.774 | 0.346 | $3.47 |
-| GPT-5.4 | 11.8 | 0.515 | 0.286 | $3.27 |
-| Claude Sonnet 4.6 | 8.5 | 0.703 | 0.313 | $1.92 |
+| Claude Opus 4.6 | 17.2 | 0.774 | 0.346 | \$3.47 |
+| GPT-5.4 | 11.8 | 0.515 | 0.286 | \$3.27 |
+| Claude Sonnet 4.6 | 8.5 | 0.703 | 0.313 | \$1.92 |
 
 GPT-5.4 showed the lowest erosion among frontier models, but still failed every end-to-end problem. Higher solve rates did not correlate with cleaner code — Opus scored highest on correctness yet exhibited the worst erosion[^1].
 
@@ -92,7 +92,7 @@ The results are instructive. Quality-aware prompts shifted the intercept but not
 - Both strategies reduced initial erosion compared to baseline.
 - **But degradation resumed at the same rate regardless of initial quality.**
 
-Worse, cleaner code cost more: GPT-5.4 spent 47.9% more per run under `anti_slop` ($450 vs $304), as the agent invested more tokens in planning and writing cleaner code[^1]. And despite halving erosion and cutting verbosity by a third, paired Wilcoxon signed-rank tests found no statistically significant difference in any solve-rate metric between the three strategies[^1].
+Worse, cleaner code cost more: GPT-5.4 spent 47.9% more per run under `anti_slop` (\$450 vs \$304), as the agent invested more tokens in planning and writing cleaner code[^1]. And despite halving erosion and cutting verbosity by a third, paired Wilcoxon signed-rank tests found no statistically significant difference in any solve-rate metric between the three strategies[^1].
 
 The implication is clear: you cannot prompt your way out of architectural decay. The degradation is structural, not stylistic.
 

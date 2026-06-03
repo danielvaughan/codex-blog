@@ -77,9 +77,9 @@ Both surfaces draw from the same ChatGPT subscription tier[^3]:
 
 | Plan | Monthly Cost | CLI Messages (5h window) | Cloud Tasks |
 |------|-------------|--------------------------|-------------|
-| **Plus** | $20 | 20–100 (GPT-5.4) | Included |
-| **Pro 5×** | $100 | 100–500 | Included |
-| **Pro 20×** | $200+ | 400–2000 | Included |
+| **Plus** | \$20 | 20–100 (GPT-5.4) | Included |
+| **Pro 5×** | \$100 | 100–500 | Included |
+| **Pro 20×** | \$200+ | 400–2000 | Included |
 | **API Key** | Pay-per-token | Unlimited (billed) | Not available |
 
 A critical distinction: **API key users cannot use Cloud features**[^3]. If your workflow depends on `codex cloud exec` in CI pipelines, you need a seat-based plan, not a raw API key.

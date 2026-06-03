@@ -64,7 +64,7 @@ graph LR
 | **Plan mode** | /plan toggle (Shift+Tab)[^15] | Design-First and Requirements-First spec workflows[^9] |
 | **Windows** | Native (DACL sandbox)[^5] | Native (v2.0)[^1] |
 | **Self-update** | `codex update`[^16] | Background auto-update[^1] |
-| **Pricing** | Included in ChatGPT Plus ($20/mo)[^17] | Free (50 credits) / Pro ($20/mo, 1000 credits)[^18] |
+| **Pricing** | Included in ChatGPT Plus (\$20/mo)[^17] | Free (50 credits) / Pro (\$20/mo, 1000 credits)[^18] |
 
 ---
 
@@ -193,9 +193,9 @@ Bundled with ChatGPT subscriptions[^17]:
 
 | Plan | Monthly Cost | Codex Allowance |
 |------|---|---|
-| Plus | $20 | Standard usage |
-| Pro | $200 | 20x Plus usage |
-| Team | $30/user | Shared team limits |
+| Plus | \$20 | Standard usage |
+| Pro | \$200 | 20x Plus usage |
+| Team | \$30/user | Shared team limits |
 | Enterprise | Custom | Unlimited |
 
 API key access charges per-token at standard OpenAI rates. The Pro plan's 2x promotional bonus (10x total usage) runs through 31 May 2026[^17].
@@ -206,16 +206,16 @@ Credit-based pricing[^18]:
 
 | Plan | Monthly Cost | Credits |
 |------|---|---|
-| Free | $0 | 50 |
-| Pro | $20 | 1,000 |
-| Pro+ | $40 | 2,000 |
-| Power | $200 | 10,000 |
+| Free | \$0 | 50 |
+| Pro | \$20 | 1,000 |
+| Pro+ | \$40 | 2,000 |
+| Power | \$200 | 10,000 |
 
-Overage at $0.04/credit on paid plans. Enterprise pricing via AWS IAM Identity Centre integration.
+Overage at \$0.04/credit on paid plans. Enterprise pricing via AWS IAM Identity Centre integration.
 
 ### Practical Cost Comparison
 
-A typical heavy development day might consume 200-400 Kiro credits or the equivalent of $15-30 in Codex token usage. For teams already on ChatGPT Pro, Codex CLI represents zero incremental cost. For AWS-native teams without OpenAI subscriptions, Kiro's $20/month Pro tier is competitive.
+A typical heavy development day might consume 200-400 Kiro credits or the equivalent of \$15-30 in Codex token usage. For teams already on ChatGPT Pro, Codex CLI represents zero incremental cost. For AWS-native teams without OpenAI subscriptions, Kiro's \$20/month Pro tier is competitive.
 
 ---
 

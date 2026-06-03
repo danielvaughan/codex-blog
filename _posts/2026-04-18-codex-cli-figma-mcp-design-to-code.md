@@ -2,7 +2,7 @@
 title: "Figma MCP + Codex CLI: Turning Designs into Code That Fits Your Codebase"
 description: "Figma launched its official MCP server in late 2025 and expanded it with bidirectional capabilities — including the Codex partnership announced on February."
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags: ["figma", "mcp", "codex", "design-to-code", "code-connect", "design-tokens"]
 ---
 
@@ -194,7 +194,7 @@ The MCP server is not free for all Figma users. The access tiers as of April 202
 | Organization | Full or Dev seat | 200 per day |
 | Enterprise | Full or Dev seat | 200 per day |
 
-Dev seats (starting at $12/month on Professional annual) include everything developers need: Dev Mode, code properties, MCP server access, and FigJam. Full seats include design capabilities on top.
+Dev seats (starting at \$12/month on Professional annual) include everything developers need: Dev Mode, code properties, MCP server access, and FigJam. Full seats include design capabilities on top.
 
 The write-to-canvas features are currently free during the beta period but will become a usage-based paid API.
 

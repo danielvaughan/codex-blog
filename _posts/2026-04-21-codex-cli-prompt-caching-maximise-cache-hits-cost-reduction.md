@@ -184,14 +184,14 @@ With the April 2026 token-based pricing[^3]:
 
 | Model | Input (per 1M) | Cached Input (per 1M) | Output (per 1M) |
 |-------|----------------|----------------------|-----------------|
-| GPT-5.3-Codex | $1.75 | $0.875 | $14.00 |
-| GPT-5.4 | $1.25 | $0.625 | $10.00 |
-| GPT-5.3-Codex-Spark | ~$0.75 | ~$0.375 | ~$3.00 |
+| GPT-5.3-Codex | \$1.75 | \$0.875 | \$14.00 |
+| GPT-5.4 | \$1.25 | \$0.625 | \$10.00 |
+| GPT-5.3-Codex-Spark | ~\$0.75 | ~\$0.375 | ~\$3.00 |
 
 At an 85% cache hit rate on a 20-turn session averaging 50,000 input tokens per turn:
 
-- **Without caching**: 1,000,000 input tokens × $1.25/M = $1.25
-- **With 85% cache**: 150,000 × $1.25/M + 850,000 × $0.625/M = $0.19 + $0.53 = **$0.72** (42% savings)
+- **Without caching**: 1,000,000 input tokens × \$1.25/M = \$1.25
+- **With 85% cache**: 150,000 × \$1.25/M + 850,000 × \$0.625/M = \$0.19 + \$0.53 = **\$0.72** (42% savings)
 
 For teams running multiple parallel agents, the savings compound: shared prefixes across agents mean each additional session benefits from caches warmed by previous sessions[^4].
 

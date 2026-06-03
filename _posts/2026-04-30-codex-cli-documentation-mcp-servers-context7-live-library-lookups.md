@@ -44,7 +44,7 @@ args = ["-y", "@upstash/context7-mcp"]
 env = { CONTEXT7_API_KEY = "$CONTEXT7_API_KEY" }
 ```
 
-An API key is optional for basic usage but recommended. Free keys are available from the Context7 dashboard and provide higher rate limits — the free tier dropped from roughly 6,000 to 1,000 requests per month in January 2026[^4], so teams doing heavy development should budget for the $10/month paid plan or self-host.
+An API key is optional for basic usage but recommended. Free keys are available from the Context7 dashboard and provide higher rate limits — the free tier dropped from roughly 6,000 to 1,000 requests per month in January 2026[^4], so teams doing heavy development should budget for the \$10/month paid plan or self-host.
 
 ### How It Works
 
@@ -150,7 +150,7 @@ The documentation MCP space is maturing rapidly. Several alternatives address sp
 |--------|----------|-----------|
 | **Docfork** | Open-source (MIT), 9,000+ libraries, auto-detects and downloads docs[^7] | Newer; smaller community |
 | **Deepcon** | 90% accuracy on contextual benchmarks vs 65% for Context7[^7] | Closed beta |
-| **Nia** (YC-backed) | Indexes codebases, docs, and dependencies; cross-session memory[^7] | $6.2M funding; 15+ tools may be heavy for simple lookups |
+| **Nia** (YC-backed) | Indexes codebases, docs, and dependencies; cross-session memory[^7] | \$6.2M funding; 15+ tools may be heavy for simple lookups |
 | **Grounded Docs** | Fully open-source; runs locally with no network calls[^8] | Manual indexing required |
 
 For most Codex CLI users, Context7 remains the pragmatic default. If you need offline operation or have compliance constraints preventing external API calls, Grounded Docs or a self-hosted Repomix instance are the alternatives to evaluate.

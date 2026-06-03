@@ -2,7 +2,7 @@
 title: "Context Compaction Showdown: How Codex CLI, Claude Code, and 5 Other Agents Handle Full Context Windows"
 description: "Every AI coding agent eventually fills its context window. What happens next — the compaction strategy — determines whether your session gracefully."
 date: 2026-04-10T06:30:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - context-compaction
   - kv-cache
@@ -128,11 +128,11 @@ Pi distinguishes between initial and subsequent compactions with separate prompt
 
 Every compaction event carries a cost that rarely appears in agent documentation: **KV cache invalidation**[^1].
 
-When an LLM provider processes your context, it builds a key-value cache of the attention computations. Subsequent turns that share the same context prefix hit this cache, dramatically reducing both latency and cost. Anthropic's API pricing makes the difference stark: cache reads cost approximately **92% less** than cold reads — $0.019 versus $0.23 for 60,000 tokens[^1].
+When an LLM provider processes your context, it builds a key-value cache of the attention computations. Subsequent turns that share the same context prefix hit this cache, dramatically reducing both latency and cost. Anthropic's API pricing makes the difference stark: cache reads cost approximately **92% less** than cold reads — \$0.019 versus \$0.23 for 60,000 tokens[^1].
 
 Compaction destroys this cache entirely. The summarised context is a new prefix that shares nothing with the previous one, forcing a complete recomputation.
 
-The wasnotwas.com analysis quantified this precisely: **one compaction on a 125,000-token context costs $0.40 — equivalent to approximately 21 follow-up turns at cached rates**[^1].
+The wasnotwas.com analysis quantified this precisely: **one compaction on a 125,000-token context costs \$0.40 — equivalent to approximately 21 follow-up turns at cached rates**[^1].
 
 ```mermaid
 graph LR
@@ -159,7 +159,7 @@ This means the optimal strategy is not to avoid compaction but to **delay it as 
 
 The wasnotwas.com research tested whether injecting a structured preservation checklist before compaction improved summary quality[^1]. The checklist covered seven categories: file paths modified, architectural decisions made, error states encountered, function signatures involved, test results, environment variables, and pending tasks.
 
-The result: summary length increased from 1,643 tokens to 2,455 tokens — a **49% improvement** — at a negligible additional cost of $0.013[^1]. Neither baseline nor nudged variants triggered earlier compaction, as token thresholds are content-blind.
+The result: summary length increased from 1,643 tokens to 2,455 tokens — a **49% improvement** — at a negligible additional cost of \$0.013[^1]. Neither baseline nor nudged variants triggered earlier compaction, as token thresholds are content-blind.
 
 For Codex CLI users, this translates directly to the open-path compaction prompt. For Claude Code users, the "Compact Instructions" section in CLAUDE.md serves the same function[^7].
 
@@ -187,7 +187,7 @@ Research from MIT and Harvard published in February 2026 introduced **Fast KV Co
 2. **Prefer subagents** for tasks exceeding ~30 minutes of active conversation
 3. **Track compaction events** and treat three successive compactions as a signal to restructure your session
 4. **Understand your agent's threshold** — it determines how much context you can accumulate before information loss begins
-5. **Factor KV cache costs** into your workflow decisions — a $0.40 compaction that buys you 21 more cached turns is worthwhile only if you actually need those turns
+5. **Factor KV cache costs** into your workflow decisions — a \$0.40 compaction that buys you 21 more cached turns is worthwhile only if you actually need those turns
 
 ---
 

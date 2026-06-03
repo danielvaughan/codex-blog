@@ -94,18 +94,18 @@ The mitigation is `AGENTS.md`. This project-level configuration file tells Codex
 
 **The concern:** Token costs will eat through budgets, especially for teams.
 
-**The honest answer:** This depends entirely on your access model. Codex CLI is open source and free to run [^10]. In ChatGPT authentication mode (the default), CLI usage draws from your existing subscription — a Plus plan at $20/month covers moderate usage [^11]. Complex refactoring tasks can drain a Plus allocation in 2–4 sessions, at which point you'd need Pro ($200/month) or API key mode [^11].
+**The honest answer:** This depends entirely on your access model. Codex CLI is open source and free to run [^10]. In ChatGPT authentication mode (the default), CLI usage draws from your existing subscription — a Plus plan at \$20/month covers moderate usage [^11]. Complex refactoring tasks can drain a Plus allocation in 2–4 sessions, at which point you'd need Pro (\$200/month) or API key mode [^11].
 
-In API key mode, a documented comparison found a complex task costing approximately $15 with Codex CLI versus $155 with Claude Code via API — a 10× cost difference driven by Codex CLI's token efficiency [^12]. Codex CLI uses roughly 4× fewer tokens than competitors for equivalent tasks [^7].
+In API key mode, a documented comparison found a complex task costing approximately \$15 with Codex CLI versus \$155 with Claude Code via API — a 10× cost difference driven by Codex CLI's token efficiency [^12]. Codex CLI uses roughly 4× fewer tokens than competitors for equivalent tasks [^7].
 
 | Access Mode | Cost | Best For |
 |---|---|---|
-| ChatGPT Plus | $20/month | 10–15 sessions/month |
-| ChatGPT Pro | $200/month | Heavy daily use |
-| API key (codex-mini) | ~$0.75–$3.00/M tokens | Pay-per-use, budget control |
-| API key (GPT-5) | ~$1.25–$10.00/M tokens | Maximum capability |
+| ChatGPT Plus | \$20/month | 10–15 sessions/month |
+| ChatGPT Pro | \$200/month | Heavy daily use |
+| API key (codex-mini) | ~\$0.75–\$3.00/M tokens | Pay-per-use, budget control |
+| API key (GPT-5) | ~\$1.25–\$10.00/M tokens | Maximum capability |
 
-**When the objection holds:** For teams of 20+ developers on Pro subscriptions, monthly costs reach $4,000+. Without tracking whether the tool actually saves engineering time, that's a hard line item to justify. Measure before you commit — track time saved per task for a trial month.
+**When the objection holds:** For teams of 20+ developers on Pro subscriptions, monthly costs reach \$4,000+. Without tracking whether the tool actually saves engineering time, that's a hard line item to justify. Measure before you commit — track time saved per task for a trial month.
 
 ## Objection 6: "I'll Lose My Coding Skills"
 

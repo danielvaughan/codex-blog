@@ -2,7 +2,7 @@
 title: "McAgile: The McDonaldization of Software Development Meets AI Coding Agents"
 description: "In 1993, the sociologist George Ritzer published The McDonaldization of Society, arguing that the principles making McDonald's successful — efficiency."
 date: 2026-04-12T11:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 featured: true
 tags:
   - codex-cli
@@ -58,7 +58,7 @@ AI coding agents demolish the case for this predictability. The toolchain evolve
 
 The most insidious of Ritzer's four pillars. McDonald's replaces human judgment with automated systems: timers that beep when fries are done, assembly-line layouts that dictate worker movement, scripts that standardise customer interaction. The worker becomes an appendage of the machine[^1].
 
-SAFe's control mechanisms are subtler but structurally identical. PI Planning commits teams to work in advance, removing the judgment to reprioritise mid-flight. Jira and ALM tooling enforce process conformity — you cannot create a ticket that does not fit the taxonomy. The certification system ($1,295-$5,000+ per certification) creates compliance through credentialing: you are not qualified to do agile unless a SAFe-authorised instructor says so[^2]. The RTE role exists primarily as a control mechanism, ensuring trains run on the prescribed schedule regardless of whether the destination is correct.
+SAFe's control mechanisms are subtler but structurally identical. PI Planning commits teams to work in advance, removing the judgment to reprioritise mid-flight. Jira and ALM tooling enforce process conformity — you cannot create a ticket that does not fit the taxonomy. The certification system (\$1,295-\$5,000+ per certification) creates compliance through credentialing: you are not qualified to do agile unless a SAFe-authorised instructor says so[^2]. The RTE role exists primarily as a control mechanism, ensuring trains run on the prescribed schedule regardless of whether the destination is correct.
 
 Here is where AI coding agents create an irresolvable contradiction. The entire point of tools like Codex CLI is to *amplify* human judgment — to let a developer express intent ("refactor this module for testability") and have the agent handle implementation. SAFe's control structures do the opposite: they *constrain* human judgment within predetermined channels. An agent running `full-auto` with sandbox guardrails is exercising more autonomous judgment than SAFe allows its human developers.
 

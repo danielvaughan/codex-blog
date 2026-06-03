@@ -2,7 +2,7 @@
 title: "Claude Managed Agents: What Anthropic's Cloud-Hosted Agent Platform Means for Codex CLI"
 description: "On 8 April 2026 Anthropic launched Claude Managed Agents in public beta — a suite of composable APIs for building and deploying cloud-hosted agents at scale."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags: ["claude-managed-agents", "anthropic", "competing-tools", "multi-agent", "cloud-agents", "mcp", "orchestration", "a2a"]
 ---
 ![Sketchnote diagram for: Claude Managed Agents: What Anthropic's Cloud-Hosted Agent Platform Means for Codex CLI](/sketchnotes/articles/2026-04-10-claude-managed-agents-codex-cli.png)
@@ -40,7 +40,7 @@ This distinction matters. The public beta is a single-agent runtime with excelle
 
 ### Pricing
 
-Standard Claude Platform token rates apply, plus **$0.08 per session-hour** for active runtime [^6]. Idle time waiting for input does not count. For a typical 20-minute coding session, the infrastructure surcharge is roughly $0.03 — negligible next to token costs for a Sonnet 4.6 or Opus 4.6 workload.
+Standard Claude Platform token rates apply, plus **\$0.08 per session-hour** for active runtime [^6]. Idle time waiting for input does not count. For a typical 20-minute coding session, the infrastructure surcharge is roughly \$0.03 — negligible next to token costs for a Sonnet 4.6 or Opus 4.6 workload.
 
 ## Architectural Comparison with Codex CLI
 

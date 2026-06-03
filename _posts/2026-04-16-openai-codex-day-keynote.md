@@ -1,8 +1,8 @@
 ---
 title: "OpenAI Codex Day Keynote — Enterprise Adoption and Model Roadmap"
 description: "Source: OpenAI Codex Day event (BloomsYard), in-person talk transcript Author: OpenAI Developer Relations (speaker unnamed) Published: 2026-04-16 Content."
-date: 2026-04-15T23:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+date: 2026-04-16T00:00:00+00:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags: ["codex", "openai", "enterprise-adoption", "gpt-5", "agentic-delegation", "roadmap", "case-studies", "codex-app", "unified-agent-harness"]
 ---
 
@@ -56,7 +56,7 @@ An OpenAI speaker at the Codex Day hackathon event presented Codex adoption metr
 - **3 engineers (grew to 7), 5 months, zero hand-written lines of code**
 - Product now in production serving millions of users
 - Codex wrote ~1 million lines of code across **~500 NPM packages**, 1,500+ PRs merged
-- 3.5 PRs/engineer/day, rising to 5–10 with GPT-5.2; ~1 billion tokens/day (~$2–3K daily)
+- 3.5 PRs/engineer/day, rising to 5–10 with GPT-5.2; ~1 billion tokens/day (~\$2–3K daily)
 - Tasks ran for **24+ hours** continuously (GPT-5.1-Codex-Max system card says "more than 24 hours"; speaker said 36)
 - Mandate: "push Codex as much as possible" — humans focused on architecture, constraints, and code review
 - Source: OpenAI blog <https://openai.com/index/harness-engineering/>; Latent Space podcast <https://www.latent.space/p/harness-eng>

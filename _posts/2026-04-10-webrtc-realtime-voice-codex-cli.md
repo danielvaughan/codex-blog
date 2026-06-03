@@ -2,7 +2,7 @@
 title: "WebRTC Realtime Voice in Codex CLI: Voice Selection, Session Architecture, and Production Readiness"
 description: "As of the April 9 alpha batch, WebRTC is the default realtime transport in Codex CLI . This is not a minor configuration tweak — it rewires how voice flows."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags: ["webrtc", "voice", "realtime", "voice-selection", "gpt-realtime", "transport", "production", "codex-cli"]
 ---
 ![Sketchnote diagram for: WebRTC Realtime Voice in Codex CLI: Voice Selection, Session Architecture, and Production Readiness](/sketchnotes/articles/2026-04-10-webrtc-realtime-voice-codex-cli.png)
@@ -129,9 +129,9 @@ The voice stack runs on `gpt-realtime`, OpenAI's first GA realtime model (releas
 | Output modalities | Text, audio |
 | Transports | WebRTC, WebSocket, SIP |
 | Function calling | ✓ |
-| Audio input pricing | $32 / 1M tokens |
-| Audio output pricing | $64 / 1M tokens |
-| Cached input pricing | $0.40 / 1M tokens |
+| Audio input pricing | \$32 / 1M tokens |
+| Audio output pricing | \$64 / 1M tokens |
+| Cached input pricing | \$0.40 / 1M tokens |
 
 The model processes audio end-to-end — no intermediate speech-to-text step — which preserves vocal nuance, tone, and intent that would be lost in a transcription pipeline [^9]. This matters for coding contexts: when you say "no, revert *that* change," the model hears emphasis and can disambiguate more reliably than a text transcription would allow.
 
@@ -150,13 +150,13 @@ The space-hold timeout was increased to 1 second in CLI 0.117.0 to reduce false 
 
 ## Token Consumption Warning
 
-Voice sessions consume tokens at a substantially higher rate than text interactions. At $32/1M input tokens and $64/1M output tokens for audio, a 10-minute voice coding session can easily burn through credits that would last hours of text-based interaction [^12]. The community has reported "rapid usage limit drain" with voice transcription enabled, potentially due to transcript echo loops where the model re-processes its own output [^12].
+Voice sessions consume tokens at a substantially higher rate than text interactions. At \$32/1M input tokens and \$64/1M output tokens for audio, a 10-minute voice coding session can easily burn through credits that would last hours of text-based interaction [^12]. The community has reported "rapid usage limit drain" with voice transcription enabled, potentially due to transcript echo loops where the model re-processes its own output [^12].
 
 Practical mitigations:
 
 - Use voice for high-level instructions and switch to text for iterative refinement
 - Monitor the `/audio` session duration — there is no automatic timeout
-- Check `gpt-realtime` cached input pricing ($0.40/1M) — repeated context benefits from caching
+- Check `gpt-realtime` cached input pricing (\$0.40/1M) — repeated context benefits from caching
 
 ## What Actually Works Today
 

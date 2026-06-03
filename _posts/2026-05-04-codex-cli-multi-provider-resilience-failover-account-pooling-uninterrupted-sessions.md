@@ -213,7 +213,7 @@ flowchart TD
 | Built-in retry | None | Full | Zero config | Free |
 | Profile switching | Manual switch | Manual | Low | Free |
 | AI gateway | 2–5 ms | Full | Medium | Self-hosted |
-| Account pooling | Negligible | Full | Medium | Free–$19.50 |
+| Account pooling | Negligible | Full | Medium | Free–\$19.50 |
 | Cross-CLI (Hydra) | Cold start | Semi-auto | Low | Free |
 
 ## Production Recommendations

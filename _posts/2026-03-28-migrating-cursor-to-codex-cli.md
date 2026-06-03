@@ -2,7 +2,7 @@
 title: "Migrating from Cursor to Codex CLI"
 description: "Cursor's June 2025 pricing overhaul — replacing predictable 500-request plans with variable credit pools — sent a visible slice of its user base searching."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - competitive-landscape
   - cursor
@@ -19,7 +19,7 @@ Cursor's June 2025 pricing overhaul — replacing predictable 500-request plans 
 
 ## Why Developers Are Moving
 
-Cursor's Pro plan now charges variable credit rates per API call rather than a fixed request count.[^2] At the $20/month tier, effective usage dropped to approximately 225 requests per month for Claude Sonnet-class work — down from the 500 requests the previous model implied.[^3] Tiers escalate to $60/month (Pro+) and $200/month (Ultra) for heavier users.
+Cursor's Pro plan now charges variable credit rates per API call rather than a fixed request count.[^2] At the \$20/month tier, effective usage dropped to approximately 225 requests per month for Claude Sonnet-class work — down from the 500 requests the previous model implied.[^3] Tiers escalate to \$60/month (Pro+) and \$200/month (Ultra) for heavier users.
 
 Beyond price, there's a capability argument. Independent benchmarks found Codex CLI uses roughly **4× fewer tokens** than comparable Claude Code workflows for the same task.[^4] On terminal-specific evaluations (Terminal-Bench 2.0), Codex scores 77.3% against Cursor's Claude backend at 65.4%.[^5] The open-source codebase and zero-dependency Rust binary also appeal to teams with supply-chain restrictions.
 

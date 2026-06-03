@@ -43,9 +43,9 @@ Higher "Overall" is better. Regulatory Burden is scored inversely — 5 means th
 
 **Invoice Matching, Customer Support Triage, Expense Report Processing, Meeting Follow-up.**
 
-These four domains share a critical characteristic: the input data is structured or semi-structured, the process follows a predictable sequence, and the cost of the current manual approach is well-quantified. Invoice matching alone costs $12–$30 per invoice manually, dropping to under $2 with agent-assisted processing[^beancount]. At 5,000 invoices per month, a mid-sized company saves $50,000–$140,000 per year in direct labour costs.
+These four domains share a critical characteristic: the input data is structured or semi-structured, the process follows a predictable sequence, and the cost of the current manual approach is well-quantified. Invoice matching alone costs \$12–\$30 per invoice manually, dropping to under \$2 with agent-assisted processing[^beancount]. At 5,000 invoices per month, a mid-sized company saves \$50,000–\$140,000 per year in direct labour costs.
 
-Customer support triage delivers similarly clear returns. Salesforce reports 66 per cent of service organisations now run AI agents, up from 39 per cent in 2025[^salesforce]. Companies investing in AI customer service see average returns of $3.50 for every $1 spent[^digitalapplied]. The key enabler is that support tickets arrive as text, map cleanly to intent classification, and route through a finite decision tree — precisely the pattern the Agents SDK's handoff mechanism was designed for.
+Customer support triage delivers similarly clear returns. Salesforce reports 66 per cent of service organisations now run AI agents, up from 39 per cent in 2025[^salesforce]. Companies investing in AI customer service see average returns of \$3.50 for every \$1 spent[^digitalapplied]. The key enabler is that support tickets arrive as text, map cleanly to intent classification, and route through a finite decision tree — precisely the pattern the Agents SDK's handoff mechanism was designed for.
 
 Meeting follow-up scores high on time-to-value and low on risk despite modest ROI because the process is entirely internal, the failure mode is benign (a missed action item, not a compliance violation), and the data — meeting transcripts — requires no integration with regulated systems.
 
@@ -74,9 +74,9 @@ quadrantChart
 
 **Employee Onboarding, Sales Lead Qualification, Recruitment Screening, Contract Review.**
 
-These domains offer strong ROI but require cross-system integration or human-in-the-loop workflows that extend time-to-value. Employee onboarding crosses four organisational boundaries (HR, IT, hiring manager, new hire), and a failed first-year hire costs approximately $14,900[^enboarder]. The agent reduces coordination overhead but cannot eliminate the human touchpoints entirely.
+These domains offer strong ROI but require cross-system integration or human-in-the-loop workflows that extend time-to-value. Employee onboarding crosses four organisational boundaries (HR, IT, hiring manager, new hire), and a failed first-year hire costs approximately \$14,900[^enboarder]. The agent reduces coordination overhead but cannot eliminate the human touchpoints entirely.
 
-Recruitment screening is the domain where bias risk is highest. HR departments using AI agents reduce interview coordination time by 34 per cent[^digitalapplied], and Unilever reports $1M+ annual savings with 75 per cent time-to-hire reduction[^masterofcode]. But the EU AI Act classifies employment-related AI as high-risk, requiring conformity assessments, transparency obligations, and human oversight[^euaiact]. Implementation risk is not technical — it is regulatory.
+Recruitment screening is the domain where bias risk is highest. HR departments using AI agents reduce interview coordination time by 34 per cent[^digitalapplied], and Unilever reports \$1M+ annual savings with 75 per cent time-to-hire reduction[^masterofcode]. But the EU AI Act classifies employment-related AI as high-risk, requiring conformity assessments, transparency obligations, and human oversight[^euaiact]. Implementation risk is not technical — it is regulatory.
 
 Contract review delivers high value per unit (a single missed liability clause can cost millions) but requires domain-specific fine-tuning. The 2026 industry consensus is that AI contract review works well for standard clause extraction and deviation flagging but still requires lawyer oversight for novel provisions[^gartner].
 
@@ -84,7 +84,7 @@ Contract review delivers high value per unit (a single missed liability clause c
 
 **Vendor Risk Assessment, Regulatory Change Monitoring.**
 
-These two domains present a paradox: the ROI ceiling is the highest of all ten (a single missed sanctions hit can trigger fines exceeding $10M; a single missed regulatory change can trigger a failed audit), but the implementation risk is also the highest.
+These two domains present a paradox: the ROI ceiling is the highest of all ten (a single missed sanctions hit can trigger fines exceeding \$10M; a single missed regulatory change can trigger a failed audit), but the implementation risk is also the highest.
 
 Vendor risk assessment requires integration with sanctions databases, financial data providers, and certification registries — external systems with varying data quality and availability. Only 13 per cent of companies have reached optimised maturity in third-party risk management[^ey]. The agent is powerful but depends on data infrastructure that most organisations have not built.
 

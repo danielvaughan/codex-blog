@@ -76,7 +76,7 @@ The parallel agent approach is genuinely novel among foundation-lab CLIs. If it 
 
 ## GitHub Copilot: Pricing Restructure and Model Access
 
-GitHub restructured Copilot pricing on 20 April 2026, introducing a consumption-based model alongside the existing subscription tiers[^14]. The most notable change for CLI users: access to Claude Opus 4.7 — widely regarded as the strongest available coding model — is now restricted to Pro+ subscribers at $39/month.
+GitHub restructured Copilot pricing on 20 April 2026, introducing a consumption-based model alongside the existing subscription tiers[^14]. The most notable change for CLI users: access to Claude Opus 4.7 — widely regarded as the strongest available coding model — is now restricted to Pro+ subscribers at \$39/month.
 
 Copilot's agent mode has matured significantly, with metrics dashboards showing task completion rates, token usage, and time-to-resolution. The tool remains the default recommendation for developers already embedded in the GitHub ecosystem, particularly those using GitHub Actions, Codespaces, and the PR review workflow[^14].
 
@@ -139,6 +139,6 @@ The coding agent CLI landscape in late April 2026 is more competitive, more capa
 
 [^13]: xAI, Grok Build announcement, April 2026. Eight parallel agents, Arena Mode, grok-code-fast-1 model. ⚠️ SWE-Bench claim (70.8%) not independently verified at time of writing.
 
-[^14]: GitHub, "Copilot pricing updates," 20 April 2026. Claude Opus 4.7 restricted to Pro+ tier ($39/month), consumption-based pricing introduced.
+[^14]: GitHub, "Copilot pricing updates," 20 April 2026. Claude Opus 4.7 restricted to Pro+ tier (\$39/month), consumption-based pricing introduced.
 
 [^15]: OpenAI, "Advanced Configuration — Codex CLI," [developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced) — extensible provider framework and LiteLLM proxy configuration.

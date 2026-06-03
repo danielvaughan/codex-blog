@@ -1,8 +1,8 @@
 ---
 title: "Fast Books: What AI-Enabled Publishing Can Learn from Fast Fashion and Fast Software"
 description: "In 1989, Zara opened its first store outside Spain. Its secret weapon was not design flair but supply-chain speed: a dress could move from sketch to shop."
-date: 2026-05-07T23:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+date: 2026-05-08T00:00:00+00:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 author: Daniel Vaughan
 category: opinion
 tags: [ai, publishing, fast-fashion, software-development, agentic-engineering]
@@ -139,7 +139,7 @@ A maintained book is not a fast book or a slow book. It is a *living* book — c
 |--------|-------------|---------------|------------|
 | **Volume increase** | Shein: 45x more choices than Zara | CI runs: +59% YoY | US publishing: +32% YoY (2025) |
 | **Quality signal** | Garments worn avg. 7 times | Bug counts: +9% YoY | Amazon: 3/day publishing limit imposed |
-| **Marginal cost** | ~$0.50 per garment (Shein) | ~$0 per line of AI code | ~$0 per AI-generated chapter |
+| **Marginal cost** | ~\$0.50 per garment (Shein) | ~\$0 per line of AI code | ~\$0 per AI-generated chapter |
 | **Time to market** | Shein: 10 days | Vibe-coded MVP: hours | AI book spam: same day |
 | **Counter-movement** | Slow fashion brands | Code review + AI testing | Human Authored Certification |
 

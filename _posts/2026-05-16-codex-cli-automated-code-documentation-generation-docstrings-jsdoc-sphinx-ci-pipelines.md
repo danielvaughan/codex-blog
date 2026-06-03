@@ -257,7 +257,7 @@ default = "gpt-5.4-mini"
 # Override for specific skills or when complexity warrants it
 ```
 
-For batch documentation runs, gpt-5.4-mini keeps costs manageable. At current pricing, documenting a 500-file Python project typically costs under $2 with gpt-5.4-mini versus $8–12 with gpt-5.5 [^11].
+For batch documentation runs, gpt-5.4-mini keeps costs manageable. At current pricing, documenting a 500-file Python project typically costs under \$2 with gpt-5.4-mini versus \$8–12 with gpt-5.5 [^11].
 
 ## Rendering the Output
 

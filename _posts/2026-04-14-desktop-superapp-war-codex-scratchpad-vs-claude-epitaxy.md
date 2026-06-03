@@ -15,7 +15,7 @@ The terminal is no longer enough. As of mid-April 2026, both OpenAI and Anthropi
 
 ## The Catalyst: Why Desktop Matters Now
 
-Codex CLI crossed three million weekly active users on 8 April 2026[^1], with 70% month-over-month growth[^2]. Claude Code has become Anthropic's fastest-growing commercial product, contributing to an estimated $2.5 billion in annualised revenue by early 2026[^3]. Both tools started in the terminal. Both are now expanding outward.
+Codex CLI crossed three million weekly active users on 8 April 2026[^1], with 70% month-over-month growth[^2]. Claude Code has become Anthropic's fastest-growing commercial product, contributing to an estimated \$2.5 billion in annualised revenue by early 2026[^3]. Both tools started in the terminal. Both are now expanding outward.
 
 The reason is straightforward: terminal-based workflows hit a ceiling when developers run multiple agents in parallel. Monitoring six subagent threads via `/agent` in a single terminal session works, but it does not scale to the heterogeneous workflows that enterprise teams increasingly demand — code generation alongside web research alongside chat-based planning. The unit of competition has shifted from model benchmarks to developer workflow integration[^4].
 
@@ -116,7 +116,7 @@ Anthropic's Coordinator Mode treats orchestration as **agent-initiated delegatio
 | Multi-repo | Via worktrees (existing) | Native multi-repo support |
 | Background tasks | Heartbeat-managed agents | ⚠️ Unclear |
 | Desktop platform | macOS (Windows via Store) | macOS, Linux[^12] |
-| Pricing tier | Pro $100/mo (5× Codex), Plus $20/mo | Max $100/mo, Pro $20/mo[^13] |
+| Pricing tier | Pro \$100/mo (5× Codex), Plus \$20/mo | Max \$100/mo, Pro \$20/mo[^13] |
 
 ### The Model Layer
 
@@ -148,7 +148,7 @@ Practically, this means:
 
 ### The Pricing Dimension
 
-Both OpenAI and Anthropic have converged on a $100/month power-user tier — OpenAI's new Pro plan (5× Codex usage, 10× promotional boost through May 31)[^13] and Anthropic's Claude Max[^20]. For teams evaluating which desktop to adopt, the pricing is effectively identical. The decision comes down to workflow preference: user-driven dispatch (Codex) vs agent-driven coordination (Claude).
+Both OpenAI and Anthropic have converged on a \$100/month power-user tier — OpenAI's new Pro plan (5× Codex usage, 10× promotional boost through May 31)[^13] and Anthropic's Claude Max[^20]. For teams evaluating which desktop to adopt, the pricing is effectively identical. The decision comes down to workflow preference: user-driven dispatch (Codex) vs agent-driven coordination (Claude).
 
 ## The Timeline
 
@@ -180,7 +180,7 @@ Both companies indicated desktop releases "as early as next week" as of 13 April
 
 [^12]: Anthropic, "Claude Code," April 2026. [https://docs.anthropic.com/en/docs/claude-code](https://docs.anthropic.com/en/docs/claude-code)
 
-[^13]: 9to5Mac, "OpenAI introduces $100/month Pro plan aimed at Codex users," 9 April 2026. [https://9to5mac.com/2026/04/09/openai-introduces-100-month-pro-plan-aimed-at-codex-users-heres-what-it-includes/](https://9to5mac.com/2026/04/09/openai-introduces-100-month-pro-plan-aimed-at-codex-users-heres-what-it-includes/)
+[^13]: 9to5Mac, "OpenAI introduces \$100/month Pro plan aimed at Codex users," 9 April 2026. [https://9to5mac.com/2026/04/09/openai-introduces-100-month-pro-plan-aimed-at-codex-users-heres-what-it-includes/](https://9to5mac.com/2026/04/09/openai-introduces-100-month-pro-plan-aimed-at-codex-users-heres-what-it-includes/)
 
 [^14]: OpenAI Developers, "Codex Changelog," April 2026. [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
 
@@ -194,4 +194,4 @@ Both companies indicated desktop releases "as early as next week" as of 13 April
 
 [^19]: OpenAI Developers, "Codex CLI Slash Commands," April 2026. [https://developers.openai.com/codex/cli/slash-commands](https://developers.openai.com/codex/cli/slash-commands)
 
-[^20]: CNBC, "OpenAI looks to take on Anthropic with $100 per month ChatGPT Pro subscriptions," 9 April 2026. [https://www.cnbc.com/2026/04/09/openai-chatgpt-pro-subscription-anthropic-claude-code.html](https://www.cnbc.com/2026/04/09/openai-chatgpt-pro-subscription-anthropic-claude-code.html)
+[^20]: CNBC, "OpenAI looks to take on Anthropic with \$100 per month ChatGPT Pro subscriptions," 9 April 2026. [https://www.cnbc.com/2026/04/09/openai-chatgpt-pro-subscription-anthropic-claude-code.html](https://www.cnbc.com/2026/04/09/openai-chatgpt-pro-subscription-anthropic-claude-code.html)

@@ -219,10 +219,10 @@ Technical debt work is token-intensive — the agent reads many files, runs many
 
 | Task | Recommended Model | Typical Cost |
 |---|---|---|
-| Dead code scan (100 files) | gpt-5.4-mini | ~$0.15–0.40 |
-| Single dependency upgrade | gpt-5.4-mini | ~$0.05–0.15 |
-| Large-scale refactor (50 files) | gpt-5.4 | ~$1.50–4.00 |
-| Full weekly sweep | gpt-5.4-mini | ~$0.50–1.50 |
+| Dead code scan (100 files) | gpt-5.4-mini | ~\$0.15–0.40 |
+| Single dependency upgrade | gpt-5.4-mini | ~\$0.05–0.15 |
+| Large-scale refactor (50 files) | gpt-5.4 | ~\$1.50–4.00 |
+| Full weekly sweep | gpt-5.4-mini | ~\$0.50–1.50 |
 
 Use `gpt-5.4-mini` for mechanical debt work — it handles 97% of refactoring tasks at 30% of the flagship cost [^10]. Reserve `gpt-5.4` with `xhigh` reasoning for architectural refactors that require understanding cross-cutting concerns.
 

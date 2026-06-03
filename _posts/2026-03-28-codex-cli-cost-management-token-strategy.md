@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 description: "The biggest surprise in Codex deployments isn't the cost of output tokens — it's the accumulated cost of conversation history."
 substack_status: draft
 tags:
@@ -22,7 +22,7 @@ tags:
 
 The biggest surprise in Codex deployments isn't the cost of output tokens — it's the accumulated cost of conversation history. A session that reads ten files and runs ten tool calls adds 5,000+ tokens to the context on every subsequent API call. In a twenty-call session that's 100,000 extra tokens of history on top of actual output. This is what makes `/compact` a financial decision as well as a quality one.
 
-Every prompt sent through Codex CLI burns tokens — input tokens for context, output tokens for generated code, and (for reasoning models) internal chain-of-thought tokens that never appear on screen but still hit the bill. Understanding exactly where those tokens go is the difference between a $20/month hobby budget and an eye-watering invoice.
+Every prompt sent through Codex CLI burns tokens — input tokens for context, output tokens for generated code, and (for reasoning models) internal chain-of-thought tokens that never appear on screen but still hit the bill. Understanding exactly where those tokens go is the difference between a \$20/month hobby budget and an eye-watering invoice.
 
 ---
 
@@ -56,11 +56,11 @@ As of April 2026, six ChatGPT tiers include Codex access [^sub1] [^sub2]:
 
 | Plan | Monthly Cost | Local Messages (5 hr) | Cloud Tasks (5 hr) | Code Reviews/Week |
 |------|-------------|----------------------|--------------------|--------------------|
-| **Free** | $0 | Limited | — | — |
-| **Go** | $8 | Limited | — | — |
-| **Plus** | $20 | 33–168 (GPT-5.4) / 45–225 (5.3-Codex) | Limited | 10–25 |
-| **Pro** | $200 | 223–1,120 (GPT-5.4) / 300–1,500 (5.3-Codex) | 50–400 | 100–250 |
-| **Business** | $25/user | 15–60 (GPT-5.4) / 20–90 (5.3-Codex) | 5–40 | 15–30 |
+| **Free** | \$0 | Limited | — | — |
+| **Go** | \$8 | Limited | — | — |
+| **Plus** | \$20 | 33–168 (GPT-5.4) / 45–225 (5.3-Codex) | Limited | 10–25 |
+| **Pro** | \$200 | 223–1,120 (GPT-5.4) / 300–1,500 (5.3-Codex) | 50–400 | 100–250 |
+| **Business** | \$25/user | 15–60 (GPT-5.4) / 20–90 (5.3-Codex) | 5–40 | 15–30 |
 | **Enterprise** | Custom | Custom | Custom | Custom |
 
 The ranges reflect message complexity: a simple "add a docstring" costs fewer credits than a multi-file refactor. OpenAI approximates GPT-5.4 local messages at ~7 credits each, GPT-5.3-Codex at ~5 credits, and GPT-5.4-mini at ~2 credits. Cloud tasks average ~34 credits and code reviews ~25 credits [^sub1].
@@ -69,9 +69,9 @@ The ranges reflect message complexity: a simple "add a docstring" costs fewer cr
 
 | Tier | Monthly cost | Best for | API equivalent break-even |
 |---|---|---|---|
-| ChatGPT Plus | $20/user | Individuals, exploratory use | ~50–80 hours/month intensive coding |
-| ChatGPT Team | $25–30/user | Small teams (3–15 devs) | ~60–90 hours/user/month |
-| ChatGPT Pro | $200/user | Power users, agentic workflows | ~200+ hours/month or heavy reasoning model use |
+| ChatGPT Plus | \$20/user | Individuals, exploratory use | ~50–80 hours/month intensive coding |
+| ChatGPT Team | \$25–30/user | Small teams (3–15 devs) | ~60–90 hours/user/month |
+| ChatGPT Pro | \$200/user | Power users, agentic workflows | ~200+ hours/month or heavy reasoning model use |
 | API key mode | Pay-per-token | CI/CD pipelines, automation | N/A — predictable cost at scale |
 | Enterprise | Custom pricing | 50+ devs, compliance requirements | Custom |
 
@@ -85,7 +85,7 @@ API key mode is the right choice when:
 2. **Subagent workers on `gpt-4.1-mini`** — the cheapest path when cost can be instrumented exactly
 3. **Enterprise multi-project billing** where chargeback per team is required
 
-The trap to avoid: using API key mode without `max_tokens_per_session` configured. A single runaway session debugging a large legacy codebase can consume 500K+ tokens — roughly $8–15 in one sitting.
+The trap to avoid: using API key mode without `max_tokens_per_session` configured. A single runaway session debugging a large legacy codebase can consume 500K+ tokens — roughly \$8–15 in one sitting.
 
 ---
 
@@ -95,12 +95,12 @@ When using API key mode, billing is per million tokens. Current rates as of Apri
 
 | Model | Input (per 1M) | Cached Input (per 1M) | Output (per 1M) | Context Window |
 |-------|----------------|----------------------|------------------|----------------|
-| **GPT-5.4** | $2.50 | $1.25 | $10.00 | 256K |
-| **GPT-5.4-mini** | $0.40 | $0.20 | $1.60 | 128K |
-| **GPT-5.3-Codex** | $1.75 | $0.875 | $14.00 | 256K |
-| **codex-mini-latest** | $1.50 | $0.75 | $6.00 | — |
-| **o3** | $2.00 | — | $8.00 | — |
-| **o4-mini** | $1.10 | — | $4.40 | — |
+| **GPT-5.4** | \$2.50 | \$1.25 | \$10.00 | 256K |
+| **GPT-5.4-mini** | \$0.40 | \$0.20 | \$1.60 | 128K |
+| **GPT-5.3-Codex** | \$1.75 | \$0.875 | \$14.00 | 256K |
+| **codex-mini-latest** | \$1.50 | \$0.75 | \$6.00 | — |
+| **o3** | \$2.00 | — | \$8.00 | — |
+| **o4-mini** | \$1.10 | — | \$4.40 | — |
 
 ### Reasoning Tokens: The Hidden Cost
 
@@ -175,8 +175,8 @@ A straightforward "generate a REST endpoint for users with CRUD operations" prom
 
 | Model | Input Cost | Output Cost | **Total** |
 |-------|-----------|-------------|-----------|
-| GPT-5.4 | $0.005 | $0.040 | **$0.045** |
-| GPT-5.4-mini | $0.001 | $0.006 | **$0.007** |
+| GPT-5.4 | \$0.005 | \$0.040 | **\$0.045** |
+| GPT-5.4-mini | \$0.001 | \$0.006 | **\$0.007** |
 
 Using GPT-5.4-mini for routine scaffolding saves ~85% per request.
 
@@ -189,10 +189,10 @@ Approximately 8 hours of active development — refactoring, writing tests, revi
 
 | Model | Input Cost | Output Cost | **Total** |
 |-------|-----------|-------------|-----------|
-| GPT-5.4 | $0.50 | $1.50 | **$2.00** |
-| GPT-5.4-mini | $0.08 | $0.24 | **$0.32** |
+| GPT-5.4 | \$0.50 | \$1.50 | **\$2.00** |
+| GPT-5.4-mini | \$0.08 | \$0.24 | **\$0.32** |
 
-Over 22 working days, that's **$44/month on GPT-5.4** or **$7/month on GPT-5.4-mini** — both cheaper than the Plus subscription with disciplined model selection.
+Over 22 working days, that's **\$44/month on GPT-5.4** or **\$7/month on GPT-5.4-mini** — both cheaper than the Plus subscription with disciplined model selection.
 
 ### Example 3: CI Pipeline Code Review
 
@@ -200,9 +200,9 @@ Running `codex exec review --base main` on a 500-line PR:
 
 - **Input:** ~15,000 tokens (diff + repository context)
 - **Output:** ~3,000 tokens (review comments)
-- **Cost on GPT-5.4:** ~$0.07 per review
+- **Cost on GPT-5.4:** ~\$0.07 per review
 
-At 10 PRs/day across a team, that's roughly **$15/month** — far cheaper than dedicated review tooling.
+At 10 PRs/day across a team, that's roughly **\$15/month** — far cheaper than dedicated review tooling.
 
 ### Example 4: Five-Engineer Team (Orchestrator/Worker Pattern)
 
@@ -211,13 +211,13 @@ At 10 PRs/day across a team, that's roughly **$15/month** — far cheaper than d
 - 2.5 workers per task on `gpt-4.1-mini`: 25K input + 3K output tokens each
 
 **Per-engineer per-day:**
-- Orchestrators: 15 x ($0.08 + $0.032) = **$1.68**
-- Workers: 37.5 x ($0.01 + $0.0048) = **$0.55**
-- Total: **$2.23/day**
+- Orchestrators: 15 x (\$0.08 + \$0.032) = **\$1.68**
+- Workers: 37.5 x (\$0.01 + \$0.0048) = **\$0.55**
+- Total: **\$2.23/day**
 
-**Monthly team cost (22 working days):** $2.23 x 5 x 22 = **~$245/month**
+**Monthly team cost (22 working days):** \$2.23 x 5 x 22 = **~\$245/month**
 
-If workers ran on `gpt-4.1` instead of `gpt-4.1-mini`: ~$750/month (+205%). Model routing matters.
+If workers ran on `gpt-4.1` instead of `gpt-4.1-mini`: ~\$750/month (+205%). Model routing matters.
 
 > **Key heuristic:** If the correct output could be specified before the agent runs, a reasoning-class model is probably unnecessary. If the agent needs to explore solution space and evaluate trade-offs, reasoning models earn their cost.
 
@@ -368,7 +368,7 @@ fi
 """
 ```
 
-Fires when a single session exceeds ~500K tokens (~$1.50–2.00 at current gpt-4.1 rates).
+Fires when a single session exceeds ~500K tokens (~\$1.50–2.00 at current gpt-4.1 rates).
 
 ### In-Session Monitoring with /status
 
@@ -464,28 +464,28 @@ The key insight: **Pro's value is front-loaded towards heavy reasoning model use
 
 | Scenario | Recommended Billing | Estimated Monthly Cost |
 |----------|--------------------|-----------------------|
-| Casual (< 2 hrs/day) | Plus | $20 |
-| Heavy individual (4+ hrs/day) | Pro | $200 |
-| Light API automation | API Key + GPT-5.4-mini | $5–15 |
-| Team (5 devs, moderate use) | Business | $125–150 |
-| CI/CD pipeline reviews | API Key + GPT-5.4 | $15–30 |
+| Casual (< 2 hrs/day) | Plus | \$20 |
+| Heavy individual (4+ hrs/day) | Pro | \$200 |
+| Light API automation | API Key + GPT-5.4-mini | \$5–15 |
+| Team (5 devs, moderate use) | Business | \$125–150 |
+| CI/CD pipeline reviews | API Key + GPT-5.4 | \$15–30 |
 
 ---
 
 ## Key Numbers to Know
 
 - `gpt-4.1-mini` is ~1/5th the cost of `gpt-4.1` for agentic sessions
-- A five-engineer orchestrator/worker team: ~$245/month on API billing
+- A five-engineer orchestrator/worker team: ~\$245/month on API billing
 - Switching workers from `mini` to full: 3x total cost increase
 - Manual `/compact` at 60% context: 30–50% cost reduction per subsequent call
 - `max_tokens_per_session = 200000` is a safe default ceiling for individual devs
 - Codex CLI uses **~4x fewer tokens** than Claude Code for equivalent tasks [^eff1]
 - GPT-5.3-Codex-Spark: **separate credit pool** during research preview — currently free from standard quota [^spark2]
-- Break-even for Plus ($20) vs API key: **~50–80 hours/month** of intensive coding
-- Break-even for Pro ($200) vs API key: primarily justified by **daily reasoning model (o3/o4-mini) usage**
+- Break-even for Plus (\$20) vs API key: **~50–80 hours/month** of intensive coding
+- Break-even for Pro (\$200) vs API key: primarily justified by **daily reasoning model (o3/o4-mini) usage**
 - Local tasks: consistently cheaper than cloud tasks (PR review, Slack/Linear triggers)
-- A `gpt-5.4` session in API mode consuming 500K tokens: approximately **$8–15** without `max_tokens_per_session` guardrails
-- Full-day session on GPT-5.4-mini: **~$0.32/day** ($7/month over 22 days)
+- A `gpt-5.4` session in API mode consuming 500K tokens: approximately **\$8–15** without `max_tokens_per_session` guardrails
+- Full-day session on GPT-5.4-mini: **~\$0.32/day** (\$7/month over 22 days)
 
 ---
 

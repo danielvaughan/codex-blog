@@ -1,8 +1,8 @@
 ---
 title: "Claude Opus 4.7 Launch: What It Means for AI Coding Agents"
 description: "Published: 16 April 2026 Source: anthropic.com/news/claude-opus-4-7"
-date: 2026-04-15T23:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+date: 2026-04-16T00:00:00+00:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 ---
 
 ![Sketchnote diagram for: Claude Opus 4.7 Launch: What It Means for AI Coding Agents](/sketchnotes/articles/2026-04-16-claude-opus-4-7-launch.png)
@@ -15,7 +15,7 @@ last_modified_at: 2026-06-03T10:19:20+01:00
 
 ## Overview
 
-On 16 April 2026, Anthropic released Claude Opus 4.7 (API identifier: `claude-opus-4-7`), the successor to Opus 4.6. Pricing remains unchanged at $5 per million input tokens and $25 per million output tokens -- the same as Opus 4.6 -- making it a capability upgrade rather than a pricing-tier shift.
+On 16 April 2026, Anthropic released Claude Opus 4.7 (API identifier: `claude-opus-4-7`), the successor to Opus 4.6. Pricing remains unchanged at \$5 per million input tokens and \$25 per million output tokens -- the same as Opus 4.6 -- making it a capability upgrade rather than a pricing-tier shift.
 
 Opus 4.7 is available on Claude.ai, the Anthropic API, Amazon Bedrock, Google Cloud Vertex AI, and Microsoft Foundry.
 
@@ -61,8 +61,8 @@ Opus 4.7 ships alongside a new `/ultrareview` slash command in Claude Code that 
 
 | Tier | Input | Output |
 |---|---|---|
-| Opus 4.7 | $5 / MTok | $25 / MTok |
-| Opus 4.6 (unchanged) | $5 / MTok | $25 / MTok |
+| Opus 4.7 | \$5 / MTok | \$25 / MTok |
+| Opus 4.6 (unchanged) | \$5 / MTok | \$25 / MTok |
 
 No pricing change from the previous generation.
 

@@ -2,7 +2,7 @@
 title: "Claude Code Source Leak — What 163K Lines of TypeScript Reveal About Anthropic's Engineering"
 description: "On March 31, 2026, security researcher Chaofan Shou discovered that Anthropics entire Claude Code CLI source code (v2.1.88."
 date: 2026-04-01T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - competitive-landscape
   - claude-code
@@ -132,6 +132,6 @@ The KAIROS discovery is particularly noteworthy — it validates the "persistent
 
 [^3]: [Axios](https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai) — "Anthropic leaked its own Claude source code"
 
-[^4]: [CNBC](https://www.cnbc.com/2026/03/31/anthropic-leak-claude-code-internal-source.html) — Claude Code run-rate revenue >$2.5B as of February 2026
+[^4]: [CNBC](https://www.cnbc.com/2026/03/31/anthropic-leak-claude-code-internal-source.html) — Claude Code run-rate revenue >\$2.5B as of February 2026
 
 [^5]: [Fortune](https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/) — "Second major security breach"

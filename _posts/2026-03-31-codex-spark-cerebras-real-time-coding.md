@@ -2,7 +2,7 @@
 title: "GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second"
 description: "GPT-5.3-Codex-Spark is OpenAI's first model purpose-built for real-time coding iteration, and the first production model served entirely on non-NVIDIA."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - models
   - codex-spark
@@ -44,7 +44,7 @@ The accuracy cost of distillation manifests in specific ways during interactive 
 
 ## The Cerebras WSE-3 and Why It Matters
 
-Codex-Spark is the first fruit of OpenAI's multi-year, $10 billion+ agreement with Cerebras Systems [^3]. The WSE-3 is Cerebras' third-generation wafer-scale chip, packing 4 trillion transistors and the largest on-chip memory of any AI accelerator [^2]. The architecture scales out to thousands of systems, pushing fast memory capacity into the multi-terabyte range [^2].
+Codex-Spark is the first fruit of OpenAI's multi-year, \$10 billion+ agreement with Cerebras Systems [^3]. The WSE-3 is Cerebras' third-generation wafer-scale chip, packing 4 trillion transistors and the largest on-chip memory of any AI accelerator [^2]. The architecture scales out to thousands of systems, pushing fast memory capacity into the multi-terabyte range [^2].
 
 For coding workloads, the key advantage is **latency, not throughput**. Traditional GPU clusters optimise for batch throughput; the WSE-3's on-chip SRAM eliminates the memory-bandwidth bottleneck that causes per-token latency spikes in transformer inference. The result: Spark sustains ~1,000 tokens/s compared to GPT-5.3-Codex's ~65–70 tokens/s — roughly a 15× speed-up [^4].
 
@@ -165,7 +165,7 @@ For truly interactive work (sub-second perceived latency), Spark wins. For tasks
 
 ### Access requirements
 
-Spark is currently available only to ChatGPT Pro subscribers ($200/month) [^1]. API access is rolling out to select design partners [^2]. Users on Plus or Team plans will see the model listed in `/model` but cannot use it — the CLI silently routes to the default model [^7]. Check actual model availability with `/status` rather than `/model` [^8].
+Spark is currently available only to ChatGPT Pro subscribers (\$200/month) [^1]. API access is rolling out to select design partners [^2]. Users on Plus or Team plans will see the model listed in `/model` but cannot use it — the CLI silently routes to the default model [^7]. Check actual model availability with `/status` rather than `/model` [^8].
 
 Because Spark runs on dedicated WSE-3 hardware, it has its own separate rate limit pool — usage does not count against the standard Codex quota. During periods of high demand, OpenAI may apply additional queuing. Broader access, expanded capabilities (larger models, longer context, multimodal input) are on the roadmap for later in 2026 [^15].
 
@@ -280,7 +280,7 @@ For API access (rolling out to design partners), Spark's pricing is significantl
 
 | Model | Input (per 1M tokens) | Output (per 1M tokens) |
 |---|---|---|
-| gpt-5.3-codex-spark | $1.75 | $14.00 |
+| gpt-5.3-codex-spark | \$1.75 | \$14.00 |
 
 ⚠️ API pricing is subject to change as Spark exits research preview.
 

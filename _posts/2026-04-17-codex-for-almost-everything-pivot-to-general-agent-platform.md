@@ -88,13 +88,13 @@ Key details:
 
 | Aspect | Detail |
 |--------|--------|
-| **Pricing** | $500/month enterprise seats[^1] |
-| **Pro tier** | $100/month (10× usage limits vs Plus)[^5] |
+| **Pricing** | \$500/month enterprise seats[^1] |
+| **Pro tier** | \$100/month (10× usage limits vs Plus)[^5] |
 | **Developer API** | Limited alpha[^1] |
 | **Weekly active users** | 3 million (5× growth in three months)[^5] |
 | **Growth rate** | 70% month-over-month usage increase[^5] |
 
-The $500/month enterprise pricing — alongside the sharp drop in legacy RPA firm share prices on 15 April[^1] — signals that OpenAI sees Codex-FAE as a direct replacement for traditional Robotic Process Automation across finance, legal, and operational domains.
+The \$500/month enterprise pricing — alongside the sharp drop in legacy RPA firm share prices on 15 April[^1] — signals that OpenAI sees Codex-FAE as a direct replacement for traditional Robotic Process Automation across finance, legal, and operational domains.
 
 ## What This Means for CLI Users
 
@@ -210,7 +210,7 @@ For production-facing systems, the frameworks remain essential:
 
 **Model-agnostic orchestration.** Codex is locked to OpenAI models. LangChain's Deep Agents framework supports 100+ model providers with multi-tenant deployment and user-level isolation. If your enterprise requires model portability or you are running Claude, Gemini, or open-source models in production, Codex is not an option[^langchain].
 
-**Non-coding business workflows.** While OpenAI positions Codex as a "gateway to enterprise AI agents beyond coding" with ambitions for finance, legal, and operations, this remains aspirational. CrewAI claims 50% of Fortune 500 companies use it for agent orchestration in non-coding domains[^crewai]. The $500/month Codex-FAE enterprise tier targets this gap, but Computer Use and projectless threads are early capabilities, not mature replacements for domain-specific workflow engines.
+**Non-coding business workflows.** While OpenAI positions Codex as a "gateway to enterprise AI agents beyond coding" with ambitions for finance, legal, and operations, this remains aspirational. CrewAI claims 50% of Fortune 500 companies use it for agent orchestration in non-coding domains[^crewai]. The \$500/month Codex-FAE enterprise tier targets this gap, but Computer Use and projectless threads are early capabilities, not mature replacements for domain-specific workflow engines.
 
 **Deterministic enterprise controls.** LangGraph provides durable checkpointing, explicit state machines, and human-in-the-loop gates for scenarios "where failures carry significant costs"[^langgraph]. Codex's approval modes (suggest/auto-edit/full-auto) are coarser-grained than a LangGraph state machine with custom routing logic at every node.
 
@@ -247,13 +247,13 @@ graph LR
 
 | | Custom LangGraph agent | Codex subscription |
 |---|---|---|
-| **Monthly cost (5 developers)** | $500–2,000+ (compute + API + observability + vector DB) | $100–1,000 (5× Plus or Pro seats) |
+| **Monthly cost (5 developers)** | \$500–2,000+ (compute + API + observability + vector DB) | \$100–1,000 (5× Plus or Pro seats) |
 | **Setup time** | Days to weeks | Minutes |
 | **Maintenance** | Ongoing engineering effort | Zero — OpenAI maintains the platform |
 | **Model updates** | Manual integration | Automatic |
 | **Infrastructure** | You manage it | OpenAI manages it |
 
-For a team that was running a LangGraph PR-review agent on AWS — paying for Lambda invocations, a Pinecone index, LangSmith tracing, and the engineering time to keep it running — replacing it with Codex's built-in review at $20/month/developer is an obvious win.
+For a team that was running a LangGraph PR-review agent on AWS — paying for Lambda invocations, a Pinecone index, LangSmith tracing, and the engineering time to keep it running — replacing it with Codex's built-in review at \$20/month/developer is an obvious win.
 
 ### Harness engineering: the alternative paradigm
 
@@ -323,7 +323,7 @@ The key architectural insight: Codex review agents can be specialised via TOML c
 
 OpenAI's own "Harness Engineering" case study is the most dramatic evidence. A team of three engineers (growing to seven) spent five months building a production product serving millions of users — writing zero lines of code themselves. Codex generated approximately one million lines across roughly 500 NPM packages, merging 1,500+ PRs at a rate of 3.5 PRs per engineer per day, rising to 5–10 with GPT-5.2[^harness].
 
-The team consumed approximately one billion tokens per day at a cost of $2–3K daily[^latent_space]. They did not use LangGraph, LangChain, or any external orchestration framework. Their "framework" was AGENTS.md files, architectural constraints, and scheduled entropy-management agents — pure harness engineering.
+The team consumed approximately one billion tokens per day at a cost of \$2–3K daily[^latent_space]. They did not use LangGraph, LangChain, or any external orchestration framework. Their "framework" was AGENTS.md files, architectural constraints, and scheduled entropy-management agents — pure harness engineering.
 
 This is the strongest possible counter-argument to "you need a framework to orchestrate agents at scale." OpenAI's answer: you need a harness, not a framework. And the harness is configuration, not code.
 
@@ -380,7 +380,7 @@ Claude Code's advantage deepens on raw coding capability. But Codex's advantage 
 | **Model** | GPT-5.4 / o4-mini | Claude Opus 4.7 |
 | **SWE-bench direction** | Token efficiency focus | Raw accuracy focus |
 | **Platform play** | Superapp (chat + code + browse + computer use) | Coding-first + Managed Agents cloud |
-| **Enterprise** | $500/mo Codex-FAE autonomous agents | $0.08/hr managed agent runtime |
+| **Enterprise** | \$500/mo Codex-FAE autonomous agents | \$0.08/hr managed agent runtime |
 | **MCP** | 111+ plugins, full MCP support | Native MCP, Channels (Discord/Telegram) |
 | **Open source** | CLI open source (Apache 2.0) | Proprietary |
 | **Vision** | Standard | 3.75MP high-resolution (new) |
@@ -450,7 +450,7 @@ Most teams find the maintenance reduction alone justifies the migration. An AGEN
 OpenAI's Chief Product Officer described Codex-FAE as "a fundamental rearchitecting of what AI can do at work"[^1]. That framing is deliberate. By expanding Codex from a coding agent into a general autonomous platform, OpenAI is:
 
 - **Capturing non-developer knowledge workers** via projectless threads, document generation, and computer use
-- **Replacing RPA incumbents** with Codex-FAE's API-connected autonomous workflows at $500/month
+- **Replacing RPA incumbents** with Codex-FAE's API-connected autonomous workflows at \$500/month
 - **Building a plugin ecosystem** that creates switching costs and network effects
 - **Unifying its product line** into a single superapp that reduces user confusion and increases engagement
 
@@ -483,7 +483,7 @@ For senior developers, the key takeaway is this: Codex is no longer just your co
 [^cisco]: [Cisco and OpenAI Codex Integration Results — AIBase](https://news.aibase.com/news/24796). 20% reduction in build times, 1,500+ engineering hours saved per month, 10–15× defect resolution improvement via CodeWatch. See also: SDxCentral, Digital Watch Observatory.
 [^datadog_case]: [Datadog and Codex — OpenAI official case study](https://openai.com/index/datadog/). More than 1,000 engineers using Codex regularly; 22% of examined incidents where Codex feedback would have made a difference.
 [^codex_subagents]: [Codex Subagents — OpenAI Developers](https://developers.openai.com/codex/subagents). Path-based addressing, structured inter-agent messaging, TOML-based custom agent configuration.
-[^latent_space]: [Harness Engineering — Latent Space Podcast](https://www.latent.space/p/harness-eng), April 7, 2026. Deep dive into the 3-engineer team, token economics (~1B tokens/day, ~$2–3K daily), and PR velocity metrics.
+[^latent_space]: [Harness Engineering — Latent Space Podcast](https://www.latent.space/p/harness-eng), April 7, 2026. Deep dive into the 3-engineer team, token economics (~1B tokens/day, ~\$2–3K daily), and PR velocity metrics.
 [^linux_foundation]: [Linux Foundation Agentic AI Foundation — governance home for MCP and A2A](https://www.linuxfoundation.org/). Co-founded by OpenAI, Anthropic, Google, Microsoft, AWS, and Block.
 [^mcp_toolbox]: MCP Toolbox v1.0: Open-Source Framework for Secure Agentic Data Access. Referenced in [Seroter's Daily Reading List #765](https://seroter.com/), April 16, 2026.
 [^opus47]: [Anthropic releases Claude Opus 4.7 — CNBC](https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html). 13% coding benchmark lift, 3× more production tasks resolved, 3.75MP vision. See also: [AWS Blog](https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/), [GitHub Changelog](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/).

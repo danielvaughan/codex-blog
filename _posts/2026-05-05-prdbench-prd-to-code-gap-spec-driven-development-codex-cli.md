@@ -70,7 +70,7 @@ PRDJudge achieves over 90% human alignment in fixed-interface scenarios and 81.5
 - **Shell interaction:** 82.55%
 - **File comparison:** 84.62% [^2]
 
-The evaluation runs at roughly $2.68 per problem in approximately 7 minutes, compared to 0.5–1 hour for human annotation [^2]. This cost profile makes PRDBench practical for continuous evaluation — something that matters when you are iterating on Codex CLI configurations.
+The evaluation runs at roughly \$2.68 per problem in approximately 7 minutes, compared to 0.5–1 hour for human annotation [^2]. This cost profile makes PRDBench practical for continuous evaluation — something that matters when you are iterating on Codex CLI configurations.
 
 ## Why This Matters for Codex CLI
 

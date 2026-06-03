@@ -2,7 +2,7 @@
 title: "How the Codex CLI Agentic Loop Works in Detail to the Code Level"
 description: "Every time you type a prompt into Codex CLI, a carefully orchestrated machinery of Rust async tasks, streaming API calls, tool dispatchers, and OS-level."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - architecture
   - agent-loop
@@ -193,8 +193,8 @@ Codex structures prompts so that static content (system instructions, tool defin
 
 | Scenario | Cache Hit Rate | Median TTFT | Cost per Request |
 |---|---|---|---|
-| Stable prefixes | 85% | 953 ms | $0.009 |
-| Perturbed prefixes | 0% | 2,727 ms | $0.033 |
+| Stable prefixes | 85% | 953 ms | \$0.009 |
+| Perturbed prefixes | 0% | 2,727 ms | \$0.033 |
 
 That is a **65% latency reduction and 71% cost reduction** from prefix consistency alone.
 

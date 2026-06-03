@@ -2,7 +2,7 @@
 title: "How to Be a Codex CLI Forward Deployed Engineer"
 description: "The forward deployed engineer (FDE) has become the most sought-after role in AI-native companies. Job postings for the position grew 800–1,000% through."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - workflow-patterns
   - team-workflow
@@ -128,7 +128,7 @@ A typical FDE engagement follows a compressed timeline. Where a traditional proj
 
 ## Skills Beyond the Terminal
 
-OpenAI's FDE postings require 7+ years of full-stack engineering experience, with customer-facing experience "highly desirable"[^3]. The role demands travel — up to 50% for the NYC position[^3]. Compensation at OpenAI and Anthropic ranges from $350K to $550K total compensation at mid-to-senior levels[^1].
+OpenAI's FDE postings require 7+ years of full-stack engineering experience, with customer-facing experience "highly desirable"[^3]. The role demands travel — up to 50% for the NYC position[^3]. Compensation at OpenAI and Anthropic ranges from \$350K to \$550K total compensation at mid-to-senior levels[^1].
 
 The skills profile is T-shaped[^1]:
 

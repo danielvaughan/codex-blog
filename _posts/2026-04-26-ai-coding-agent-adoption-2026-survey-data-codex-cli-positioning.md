@@ -141,7 +141,7 @@ Codex CLI teams can close this gap by investing in their AGENTS.md files, skills
 
 GitHub Copilot's 29% adoption rises to 40% in companies with 5,000+ employees[^1]. Enterprise is where bundled, IT-approved tools dominate through procurement convenience rather than technical superiority. Codex's competitive play here is substantial:
 
-- **ChatGPT subscription bundling** — every ChatGPT Plus ($20/month), Team, Business, or Enterprise subscription includes Codex[^5]
+- **ChatGPT subscription bundling** — every ChatGPT Plus (\$20/month), Team, Business, or Enterprise subscription includes Codex[^5]
 - **Managed configuration** via `requirements.toml` pushed through MDM or admin console[^9]
 - **Compliance API** for audit trail export to SIEM systems[^9]
 - **Named enterprise deployments** — NVIDIA (10,000+ developers), Cisco, Ramp, Rakuten, Goldman Sachs[^5]

@@ -215,7 +215,7 @@ Running an LLM on every CI event raises a legitimate cost question. Three levers
 2. **Early exit** — check for documentation-only or CI-config-only changes before invoking `codex exec`. A five-line shell guard avoids an LLM call entirely for changes that cannot affect runtime code.
 3. **Caching the decision** — store `impact.json` as a pipeline artefact. Re-runs of the same commit reuse the cached analysis without a fresh agent call.
 
-At current token-based pricing, a typical monorepo impact analysis with `gpt-5.4-mini` costs under $0.02 per invocation — negligible against the compute saved by skipping unnecessary builds and tests.[^7]
+At current token-based pricing, a typical monorepo impact analysis with `gpt-5.4-mini` costs under \$0.02 per invocation — negligible against the compute saved by skipping unnecessary builds and tests.[^7]
 
 ---
 

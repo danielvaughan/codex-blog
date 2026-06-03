@@ -2,7 +2,7 @@
 title: "SAFe Was Bad for Agility. For AI Coding Agents, It's Worse."
 description: "Jeff Gothelfs recent article SAFe Was Bad for Agility. For AI, Its Catastrophic makes a sharp argument: the Scaled Agile Framework."
 date: 2026-04-12T10:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 featured: true
 tags:
   - codex-cli
@@ -157,7 +157,7 @@ Cagan makes the broader point: feasibility risk has been significantly lowered t
 
 Faros AI's enterprise scaling research identified one factor that differentiates successful enterprise AI coding adoption from the 40% of projects that Gartner predicts will be cancelled: **executive sponsorship that treats adoption as business transformation, not technology deployment**[^11].
 
-The EdTech case study in their research achieved 1,100% growth in AI coding adoption (25 to 300 engineers) in three months, generating $10.6M annual productivity value against $68K tool costs — a 15,324% ROI[^11]. The key was not the tool. It was the willingness to redesign processes around the tool's capabilities rather than constraining the tool to fit existing processes.
+The EdTech case study in their research achieved 1,100% growth in AI coding adoption (25 to 300 engineers) in three months, generating \$10.6M annual productivity value against \$68K tool costs — a 15,324% ROI[^11]. The key was not the tool. It was the willingness to redesign processes around the tool's capabilities rather than constraining the tool to fit existing processes.
 
 One enterprise governance advisor's warning captures the stakes: "I've watched companies go from 'AI is accelerating development' to 'we can't ship features because we don't understand our own systems' in less than 18 months"[^12].
 
@@ -205,7 +205,7 @@ The enterprises that succeed with Codex CLI will be the ones that treat process 
 
 [^10]: Marty Cagan / SVPG, [A Vision For Product Teams](https://www.svpg.com/a-vision-for-product-teams/) and [AI Product Management 2 Years In](https://www.svpg.com/ai-product-management-2-years-in/). Feasibility risk lowered by AI agents; the bottleneck is now direction and learning, not implementation. Product teams must maximise problems-solved, not features-delivered.
 
-[^11]: Faros AI, [Enterprise AI Coding Assistant Adoption: Scaling to Thousands](https://www.faros.ai/blog/enterprise-ai-coding-assistant-adoption-scaling-guide). Launch-Learn-Run framework (18+ weeks). EdTech case study: 1,100% adoption growth, $10.6M productivity value vs $68K cost (15,324% ROI). 21% more tasks, 98% more PRs, 91% more review time. Apiiro: 10× more security findings. Human-in-the-loop architecture for enterprise.
+[^11]: Faros AI, [Enterprise AI Coding Assistant Adoption: Scaling to Thousands](https://www.faros.ai/blog/enterprise-ai-coding-assistant-adoption-scaling-guide). Launch-Learn-Run framework (18+ weeks). EdTech case study: 1,100% adoption growth, \$10.6M productivity value vs \$68K cost (15,324% ROI). 21% more tasks, 98% more PRs, 91% more review time. Apiiro: 10× more security findings. Human-in-the-loop architecture for enterprise.
 
 [^12]: Java Code Geeks, [The AI Coding Assistant Has Been on Your Team for a Year. What Did It Actually Change?](https://www.javacodegeeks.com/2026/04/the-ai-coding-assistant-has-been-on-your-team-for-a-year-what-did-it-actually-change-about-how-we-write-software.html), April 2026. DORA: 25% AI adoption increase → 7.2% delivery stability decrease ("Vacuum Hypothesis"). 48% AI code contains security vulnerabilities. Code duplication 8.3%→12.3%. Refactoring collapsed 25%→<10%. Fortune 50: 1,000→10,000 monthly security findings. 11-week ramp-up for full productivity. Tools are "pair-programmers, not autopilots."
 

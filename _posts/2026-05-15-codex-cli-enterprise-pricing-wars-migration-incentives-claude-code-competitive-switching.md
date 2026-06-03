@@ -98,10 +98,10 @@ For teams considering this approach, the cost model looks roughly as follows:
 
 | Component | Codex (Business) | Claude Code (Team) |
 |-----------|------------------|--------------------|
-| Base cost | $30/user/month [^5] | $30/user/month [^15] |
+| Base cost | \$30/user/month [^5] | \$30/user/month [^15] |
 | Token model | Credits-based [^5] | Usage-based [^15] |
 | Cached input discount | 90% [^5] | ~90% [^15] |
-| Typical monthly cost/dev | $100-200 [^5] | $150-400 [^8] |
+| Typical monthly cost/dev | \$100-200 [^5] | \$150-400 [^8] |
 
 ## What Engineering Leaders Should Do Now
 
@@ -137,7 +137,7 @@ For engineering teams, this means: **take the discounts, avoid the lock-in**. Th
 
 [^7]: IT Pro, "Anthropic is increasing Claude Code usage limits - here's everything you need to know", May 2026. [https://www.itpro.com/software/development/anthropic-claude-code-usage-limits-increase-spacex-compute-deal](https://www.itpro.com/software/development/anthropic-claude-code-usage-limits-increase-spacex-compute-deal)
 
-[^8]: SpectrumAI Lab, "Claude Code vs OpenAI Codex: $20/mo Each but OpenAI Claims 4x Better Efficiency", May 2026. [https://spectrumailab.com/blog/claude-code-vs-openai-codex-comparison-2026](https://spectrumailab.com/blog/claude-code-vs-openai-codex-comparison-2026)
+[^8]: SpectrumAI Lab, "Claude Code vs OpenAI Codex: \$20/mo Each but OpenAI Claims 4x Better Efficiency", May 2026. [https://spectrumailab.com/blog/claude-code-vs-openai-codex-comparison-2026](https://spectrumailab.com/blog/claude-code-vs-openai-codex-comparison-2026)
 
 [^9]: Morphllm, "Codex vs Claude Code (2026): Benchmarks, Agent Teams & Limits Compared", May 2026. [https://www.morphllm.com/comparisons/codex-vs-claude-code](https://www.morphllm.com/comparisons/codex-vs-claude-code)
 

@@ -274,7 +274,7 @@ flowchart TD
 
 ## Cost and Performance Considerations
 
-Release engineering tasks are infrequent and low-volume compared to coding tasks, making them ideal candidates for higher reasoning effort. A typical release pipeline with all five patterns uses approximately 15,000-30,000 input tokens and 3,000-5,000 output tokens per run[^5]. At GPT-5.5 pricing, that's roughly $0.15-0.30 per release — negligible compared to the engineering time saved.
+Release engineering tasks are infrequent and low-volume compared to coding tasks, making them ideal candidates for higher reasoning effort. A typical release pipeline with all five patterns uses approximately 15,000-30,000 input tokens and 3,000-5,000 output tokens per run[^5]. At GPT-5.5 pricing, that's roughly \$0.15-0.30 per release — negligible compared to the engineering time saved.
 
 For projects with very large commit histories between releases (>500 commits), consider:
 

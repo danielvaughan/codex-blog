@@ -69,12 +69,12 @@ On 2 April 2026, OpenAI shifted Codex pricing from per-message to per-token bill
 | Change | Before | After |
 |--------|--------|-------|
 | **Billing unit** | Per message | Per token (input, cached, output) |
-| **Business seat** | $25/month | $20/month |
+| **Business seat** | \$25/month | \$20/month |
 | **Codex-only seats** | Not available | Pay-as-you-go, no fixed fee, no rate limits |
 | **Enterprise** | Seat-based only | Choice of seat-based or pay-as-you-go |
-| **Promotional credits** | None | Up to $500 per team for new Codex-only seats [^10] |
+| **Promotional credits** | None | Up to \$500 per team for new Codex-only seats [^10] |
 
-The Codex-only seat is the critical innovation. Enterprise teams that previously had to provision full ChatGPT seats at $25/month for developers who only needed the coding agent can now add seats with zero fixed cost and pure usage billing [^10]. For a 200-person engineering org where 60% of developers use Codex intermittently, the savings are material.
+The Codex-only seat is the critical innovation. Enterprise teams that previously had to provision full ChatGPT seats at \$25/month for developers who only needed the coding agent can now add seats with zero fixed cost and pure usage billing [^10]. For a 200-person engineering org where 60% of developers use Codex intermittently, the savings are material.
 
 ### 3. The Claude Code Performance Crisis
 
@@ -176,7 +176,7 @@ Codex's growth coincides with Claude Code's performance crisis and Gemini CLI's 
 | Growth (Aug 2025 – Apr 2026, overall) | 10x | OpenAI business update [^5] |
 | GitHub Copilot developers (mid-2025) | 20M+ | GitHub [^6] |
 | OpenAI enterprise revenue share (2026) | 40%+ | OpenAI [^19] |
-| ChatGPT Business seat price | $20/month | OpenAI pricing [^10] |
+| ChatGPT Business seat price | \$20/month | OpenAI pricing [^10] |
 | Codex-only seat price | Pay-as-you-go (no fixed fee) | OpenAI pricing [^10] |
 | Pro promotional limit | 25x Plus (through 31 May 2026) | OpenAI [^16] |
 

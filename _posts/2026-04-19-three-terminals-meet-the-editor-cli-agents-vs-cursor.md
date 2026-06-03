@@ -1,7 +1,7 @@
 ---
 title: "Three Terminals Meet the Editor: Codex CLI vs Claude Code vs Gemini CLI vs Cursor"
-date: 2026-04-18T23:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+date: 2026-04-19T00:00:00+00:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 categories: [codex-cli, claude-code, gemini-cli, cursor, comparison, ide, terminal-agents, customisation]
 description: "Cursor 3, released on 2 April 2026, ships parallel cloud agents, a visual design mode, and a tabbed agent window for managing local, cloud."
 parent: "Articles"
@@ -204,16 +204,16 @@ Cursor's **Notepads** serve a similar role to AGENTS.md sections but are managed
 | Tier | Codex CLI | Claude Code | Gemini CLI | Cursor |
 |------|-----------|-------------|------------|--------|
 | **Free** | — | — | 1,000 req/day | Hobby (limited) |
-| **$20/mo** | Plus | Pro | Gemini Advanced | Pro |
-| **$60/mo** | — | — | — | Pro+ (3x credits) |
-| **$100/mo** | Pro 5x | Max 5x | — | — |
-| **$200/mo** | Pro 20x | Max 20x | — | Ultra (20x usage) |
-| **Team** | Enterprise (custom) | $100/user/mo (Max plan) | Via Google Workspace | $40/user/mo |
+| **\$20/mo** | Plus | Pro | Gemini Advanced | Pro |
+| **\$60/mo** | — | — | — | Pro+ (3x credits) |
+| **\$100/mo** | Pro 5x | Max 5x | — | — |
+| **\$200/mo** | Pro 20x | Max 20x | — | Ultra (20x usage) |
+| **Team** | Enterprise (custom) | \$100/user/mo (Max plan) | Via Google Workspace | \$40/user/mo |
 | **Billing model** | Subscription + API overflow | Subscription + API overflow | Free tier + API pay-as-you-go | Credit-based (monthly pool) |
 
-Cursor's pricing is competitive at the individual level: $20/mo Pro matches the CLI agents' entry tiers. The credit-based billing model, introduced in June 2025, means your monthly allowance depletes based on which model you use. Heavy use of Claude Opus 4.6 through Cursor burns credits faster than using Claude Sonnet.
+Cursor's pricing is competitive at the individual level: \$20/mo Pro matches the CLI agents' entry tiers. The credit-based billing model, introduced in June 2025, means your monthly allowance depletes based on which model you use. Heavy use of Claude Opus 4.6 through Cursor burns credits faster than using Claude Sonnet.
 
-For teams, Cursor at $40/user/mo is cheaper than Claude Code's Team/Max pricing at $100/user/mo, but more expensive than the Codex Plus and Gemini Free combination at $20/user/mo.
+For teams, Cursor at \$40/user/mo is cheaper than Claude Code's Team/Max pricing at \$100/user/mo, but more expensive than the Codex Plus and Gemini Free combination at \$20/user/mo.
 
 ## When Cursor wins
 

@@ -19,7 +19,7 @@ The answer is Docker Sandboxes: a microVM-based isolation product from Docker th
 
 The security community reached consensus years ago: a Linux container is a process isolation mechanism, not a security boundary [^5]. Every container on a host shares the same kernel. A kernel vulnerability is a vulnerability in every container on that machine. Container escapes are a well-documented category of exploit — CVE-2024-21626 (Leaky Vessels) being a recent high-profile example [^6].
 
-MicroVMs break this pattern entirely. Instead of sharing a kernel, each microVM boots its own dedicated Linux kernel inside a hardware-virtualised boundary enforced by the CPU itself (Intel VT-x / AMD-V) [^7]. The VMM attack surface is dramatically smaller: Firecracker's VMM is roughly 83,000 lines of Rust as of March 2026, compared to the Linux kernel's approximately 40 million lines of C [^7]. A VM escape requires a hypervisor CVE — a class of vulnerability so rare it commands $250K–$500K bounties on the exploit market [^7].
+MicroVMs break this pattern entirely. Instead of sharing a kernel, each microVM boots its own dedicated Linux kernel inside a hardware-virtualised boundary enforced by the CPU itself (Intel VT-x / AMD-V) [^7]. The VMM attack surface is dramatically smaller: Firecracker's VMM is roughly 83,000 lines of Rust as of March 2026, compared to the Linux kernel's approximately 40 million lines of C [^7]. A VM escape requires a hypervisor CVE — a class of vulnerability so rare it commands \$250K–\$500K bounties on the exploit market [^7].
 
 ```mermaid
 flowchart TB

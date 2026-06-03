@@ -58,9 +58,9 @@ OpenAI rates the model's cybersecurity capability as **Medium** — it has not c
 |---------------|-------|
 | Context window | 400,000 tokens [^5] |
 | Max output tokens | 128,000 [^5] |
-| Input pricing | $1.75 / 1M tokens [^5] |
-| Cached input pricing | $0.175 / 1M tokens [^5] |
-| Output pricing | $14.00 / 1M tokens [^5] |
+| Input pricing | \$1.75 / 1M tokens [^5] |
+| Cached input pricing | \$0.175 / 1M tokens [^5] |
+| Output pricing | \$14.00 / 1M tokens [^5] |
 | Reasoning effort levels | low, medium, high, xhigh [^5] |
 | Knowledge cutoff | 31 August 2025 [^5] |
 | Image input | Supported [^5] |
@@ -105,7 +105,7 @@ flowchart TD
 ### When GPT-5.2-Codex Is Overkill
 
 - Quick one-off fixes — use GPT-5.4-mini or GPT-5.3-Codex-Spark for sub-second iteration [^6].
-- High-volume batch processing where cost matters — at $1.75/$14.00 per million tokens, GPT-5.2-Codex is roughly 3.5x the cost of Gemini 3 Flash for input tokens [^2].
+- High-volume batch processing where cost matters — at \$1.75/\$14.00 per million tokens, GPT-5.2-Codex is roughly 3.5x the cost of Gemini 3 Flash for input tokens [^2].
 
 ## Configuration
 
@@ -192,10 +192,10 @@ instructions = "Fix the described issue with minimal changes. Run tests after."
 
 | Model | Input ($/1M) | Cached Input ($/1M) | Output ($/1M) | Best For |
 |-------|:------------:|:-------------------:|:--------------:|----------|
-| GPT-5.5 | $125.00 | $12.50 | $750.00 | Computer use, research, breadth |
-| GPT-5.4 | $62.50 | $6.25 | $375.00 | Standard feature development |
-| GPT-5.2-Codex | $1.75 | $0.175 | $14.00 | Long-horizon, security, refactors |
-| GPT-5.3-Codex | $43.75 | $4.375 | $350.00 | Previous-gen coding |
+| GPT-5.5 | \$125.00 | \$12.50 | \$750.00 | Computer use, research, breadth |
+| GPT-5.4 | \$62.50 | \$6.25 | \$375.00 | Standard feature development |
+| GPT-5.2-Codex | \$1.75 | \$0.175 | \$14.00 | Long-horizon, security, refactors |
+| GPT-5.3-Codex | \$43.75 | \$4.375 | \$350.00 | Previous-gen coding |
 | GPT-5.4-mini | — | — | — | Quick fixes, subagents |
 
 The pricing delta is dramatic. GPT-5.2-Codex costs roughly **71x less** on input tokens and **54x less** on output tokens compared to GPT-5.5 [^5] [^9]. For long-running security audits or batch refactoring pipelines, this difference compounds rapidly. The tradeoff is that GPT-5.5 offers broader capabilities (computer use, research workflows) that GPT-5.2-Codex lacks.
@@ -212,7 +212,7 @@ If you are currently using GPT-5.5 or GPT-5.4 and want to evaluate GPT-5.2-Codex
 
 1. **Update Codex CLI** — ensure you are on v0.125+ to access the latest model routing.
 2. **Test on a representative task** — run the same refactor or review task against both models and compare quality, token usage, and wall-clock time.
-3. **Check prompt cache behaviour** — GPT-5.2-Codex's cached input pricing ($0.175/1M) makes repeated similar prompts extremely cost-effective [^5].
+3. **Check prompt cache behaviour** — GPT-5.2-Codex's cached input pricing (\$0.175/1M) makes repeated similar prompts extremely cost-effective [^5].
 4. **Adjust reasoning effort** — start at `high` and only escalate to `xhigh` for security analysis or complex architectural decisions.
 5. **Verify API availability** — if you use `codex exec` with API key authentication, confirm GPT-5.2-Codex is accessible in your account tier [^5].
 

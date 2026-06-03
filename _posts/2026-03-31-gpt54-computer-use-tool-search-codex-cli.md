@@ -2,7 +2,7 @@
 title: "GPT-5.4 Computer Use and Tool Search in Codex CLI: Visual Debugging, Deferred Loading, and /fast Mode"
 description: "GPT-5.4, released on 5 March 2026, is OpenAI's first mainline reasoning model to ship with native computer-use capabilities alongside the frontier coding."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - models
   - model-selection
@@ -64,7 +64,7 @@ If you run multiple MCP servers — Figma, Notion, Slack, GitHub, plus a few cus
 
 ### The Problem
 
-Consider a configuration with two MCP servers exposing 36 tools. The combined schema definitions total roughly 2,500 characters (388 words) per request, yet the tools are relevant for perhaps 5% of queries [^6]. At GPT-5.4's input pricing of $2.50 per million tokens [^7], this overhead adds up across a full working day.
+Consider a configuration with two MCP servers exposing 36 tools. The combined schema definitions total roughly 2,500 characters (388 words) per request, yet the tools are relevant for perhaps 5% of queries [^6]. At GPT-5.4's input pricing of \$2.50 per million tokens [^7], this overhead adds up across a full working day.
 
 ### How Tool Search Works
 

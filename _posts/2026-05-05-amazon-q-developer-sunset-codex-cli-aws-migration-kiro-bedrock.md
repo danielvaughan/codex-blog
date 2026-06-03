@@ -185,15 +185,15 @@ For teams currently on Q Developer Pro planning their transition:
 
 | Plan | Monthly Cost | What You Get |
 |---|---|---|
-| Q Developer Free (ending) | $0 | Limited completions, basic chat |
-| Q Developer Pro (ending) | $19/user | Unlimited completions, agent mode |
-| Codex CLI (ChatGPT Plus) | $20/user | 5× usage multiplier, GPT-5.5 |
-| Codex CLI (ChatGPT Pro) | $100/user | 10× usage (through 31 May), Spark access |
+| Q Developer Free (ending) | \$0 | Limited completions, basic chat |
+| Q Developer Pro (ending) | \$19/user | Unlimited completions, agent mode |
+| Codex CLI (ChatGPT Plus) | \$20/user | 5× usage multiplier, GPT-5.5 |
+| Codex CLI (ChatGPT Pro) | \$100/user | 10× usage (through 31 May), Spark access |
 | Codex CLI (API pay-as-you-go) | Variable | Full control, no multiplier caps |
-| Kiro Free | $0 | 50 agent interactions/month |
-| Kiro Pro | $19/user | 1,000 agent interactions/month |
+| Kiro Free | \$0 | 50 agent interactions/month |
+| Kiro Pro | \$19/user | 1,000 agent interactions/month |
 
-For teams spending $19/user on Q Developer Pro, the direct swap to Codex CLI via ChatGPT Plus at $20/user provides substantially more capability — particularly the full agentic workflow, 400K context window with GPT-5.5, and the skills ecosystem[^11].
+For teams spending \$19/user on Q Developer Pro, the direct swap to Codex CLI via ChatGPT Plus at \$20/user provides substantially more capability — particularly the full agentic workflow, 400K context window with GPT-5.5, and the skills ecosystem[^11].
 
 ## Timeline Decision Framework
 

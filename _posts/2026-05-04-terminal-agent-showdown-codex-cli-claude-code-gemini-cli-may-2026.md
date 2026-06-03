@@ -99,10 +99,10 @@ Cost structures have diverged further in 2026, with each vendor optimising for a
 | Plan | Codex CLI | Claude Code | Gemini CLI |
 |------|-----------|-------------|------------|
 | **Free tier** | API trial credits only | None | 1,000 reqs/day (personal Google account)[^5] |
-| **Entry subscription** | ChatGPT Plus ($20/mo) | Claude Pro ($20/mo) | Google One AI Premium ($22/mo) |
-| **Power tier** | ChatGPT Pro ($200/mo) | Claude Max 20x ($200/mo) | Gemini Advanced ($60/mo) |
-| **API pricing (input)** | $2.50/MTok (GPT-5.5)[^15] | $15/MTok (Opus 4.7)[^16] | $1.25/MTok (2.5 Pro)[^17] |
-| **API pricing (output)** | $10/MTok (GPT-5.5)[^15] | $75/MTok (Opus 4.7)[^16] | $10/MTok (2.5 Pro)[^17] |
+| **Entry subscription** | ChatGPT Plus (\$20/mo) | Claude Pro (\$20/mo) | Google One AI Premium (\$22/mo) |
+| **Power tier** | ChatGPT Pro (\$200/mo) | Claude Max 20x (\$200/mo) | Gemini Advanced (\$60/mo) |
+| **API pricing (input)** | \$2.50/MTok (GPT-5.5)[^15] | \$15/MTok (Opus 4.7)[^16] | \$1.25/MTok (2.5 Pro)[^17] |
+| **API pricing (output)** | \$10/MTok (GPT-5.5)[^15] | \$75/MTok (Opus 4.7)[^16] | \$10/MTok (2.5 Pro)[^17] |
 
 Codex CLI's 4x token-efficiency claim[^9] changes the effective cost calculation considerably. If Codex completes a task in 25% of the tokens Claude Code requires, the per-task cost gap narrows despite Opus 4.7's higher per-token rate being offset by its lower token consumption per task. In practice, most developers on subscription plans find the distinction academic — the monthly cap matters more than per-token rates.
 

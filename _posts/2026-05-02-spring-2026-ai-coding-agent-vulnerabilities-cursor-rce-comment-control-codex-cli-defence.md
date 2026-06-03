@@ -76,7 +76,7 @@ sequenceDiagram
     Attacker->>GitHub: Reads exfiltrated secrets
 ```
 
-The researchers disclosed the vulnerability responsibly to all three vendors. Anthropic classified it at CVSS 9.4 and paid a $100 bounty; Google paid $1,337; GitHub paid $500[^7]. All three have since deployed mitigations, primarily by sanitising PR metadata before injecting it into agent context.
+The researchers disclosed the vulnerability responsibly to all three vendors. Anthropic classified it at CVSS 9.4 and paid a \$100 bounty; Google paid \$1,337; GitHub paid \$500[^7]. All three have since deployed mitigations, primarily by sanitising PR metadata before injecting it into agent context.
 
 ### Why Codex CLI Is Not Affected
 

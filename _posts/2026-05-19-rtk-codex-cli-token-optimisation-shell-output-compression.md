@@ -35,7 +35,7 @@ The economics are straightforward. A typical 30-minute Codex CLI session on a me
 | Git operations | — | 35,000 |
 | **Total** | ~43 | **~118,000** |
 
-On pay-per-token models, that is direct cost. On subscription plans (Codex Pro at $200/month, Claude Max at $200/month), it is indirect cost — you hit rate limits faster, sessions terminate sooner, and long-running agentic tasks lose context mid-flight. Either way, it is waste. The model does not need 4,200 tokens of `git log` output to decide which commit to cherry-pick. It needs the hash and the subject line.
+On pay-per-token models, that is direct cost. On subscription plans (Codex Pro at \$200/month, Claude Max at \$200/month), it is indirect cost — you hit rate limits faster, sessions terminate sooner, and long-running agentic tasks lose context mid-flight. Either way, it is waste. The model does not need 4,200 tokens of `git log` output to decide which commit to cherry-pick. It needs the hash and the subject line.
 
 ## What RTK Does
 
@@ -216,15 +216,15 @@ In a controlled comparison of a real refactoring task — renaming a service met
 
 | Configuration | Tokens | Cost |
 |---|---|---|
-| Vanilla Claude Code | 74,700 | $1.12 |
-| RTK + Serena MCP | 6,960 | $0.10 |
+| Vanilla Claude Code | 74,700 | \$1.12 |
+| RTK + Serena MCP | 6,960 | \$0.10 |
 | **Reduction** | **90.7%** | **91%** |
 
 The 90.7% figure combines RTK (shell-output compression) with Serena MCP (LSP-based code navigation that eliminates unnecessary file reads). The tools are complementary: Serena reduces the number of file reads; RTK compresses the output of every remaining shell command [^9].
 
 ### The Subscription Multiplier
 
-On fixed-cost subscriptions (Codex Pro at $200/month, Claude Max at $200/month), token savings translate to session longevity rather than direct bill reduction. An 80% reduction in shell-output tokens means:
+On fixed-cost subscriptions (Codex Pro at \$200/month, Claude Max at \$200/month), token savings translate to session longevity rather than direct bill reduction. An 80% reduction in shell-output tokens means:
 
 - **Longer sessions** — context fills more slowly, so agentic tasks run further before hitting limits
 - **More sessions per day** — rate limits are reached later
@@ -316,7 +316,7 @@ $ rtk discover
 
 Token estimation uses a 4-character-per-token heuristic (roughly ±10% versus actual LLM tokenisation) [^10]. Precise enough for trend analysis; not precise enough for billing reconciliation.
 
-For enterprise teams, RTK Cloud (currently on waitlist) plans per-developer analytics, project-level reports, rate-limit alerts, and SSO/audit logs at $15/developer/month [^10].
+For enterprise teams, RTK Cloud (currently on waitlist) plans per-developer analytics, project-level reports, rate-limit alerts, and SSO/audit logs at \$15/developer/month [^10].
 
 ## Security Considerations
 

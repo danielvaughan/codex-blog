@@ -2,7 +2,7 @@
 title: "Codex CLI 3 Million Users: Growth Trajectory and What the Usage Limit Reset Strategy Means"
 description: "On 8 April 2026, Sam Altman announced that Codex had crossed three million weekly active users."
 date: 2026-04-09T08:30:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - growth
   - 3-million-users
@@ -89,8 +89,8 @@ The reset strategy serves multiple purposes simultaneously:
 The 3M milestone did not happen in a vacuum. On 3 April, OpenAI restructured Codex pricing[^7]:
 
 - **Codex-only seats** for Business and Enterprise: no fixed seat fee, pure token-based billing, no rate limits[^7]
-- **Business plan price cut**: $25 → $20 per seat per month[^8]
-- **Promotional credits**: up to $500 per team ($100 per new Codex-only team member)[^9]
+- **Business plan price cut**: \$25 → \$20 per seat per month[^8]
+- **Promotional credits**: up to \$500 per team (\$100 per new Codex-only team member)[^9]
 - **Transparent token billing**: usage now tracked as credits per million input/output tokens rather than opaque "message" counts[^7]
 
 For enterprise teams, the combination is compelling: lower base cost, transparent per-token billing, and periodic free limit resets for anyone still on fixed tiers.
@@ -128,7 +128,7 @@ If your team relies on Codex during peak hours, the growth trajectory introduces
 
 ### Cost Modelling
 
-The shift from opaque limits to token-based billing makes cost modelling tractable for the first time. A typical Codex session processes approximately 50K–100K tokens (input + output). With the rate card now published at API-equivalent rates[^15], teams can forecast monthly spend by measuring actual token consumption during a trial period on the $500 promotional credit.
+The shift from opaque limits to token-based billing makes cost modelling tractable for the first time. A typical Codex session processes approximately 50K–100K tokens (input + output). With the rate card now published at API-equivalent rates[^15], teams can forecast monthly spend by measuring actual token consumption during a trial period on the \$500 promotional credit.
 
 ### Enterprise Adoption Signals
 
@@ -164,7 +164,7 @@ The rate-limit complaints suggest the answer is "not yet, not seamlessly." But t
 
 [^7]: [Codex now offers pay-as-you-go pricing for teams — OpenAI](https://openai.com/index/codex-flexible-pricing-for-teams/)
 
-[^8]: [AI Coding: OpenAI Switches Codex to Pay-as-You-Go, Cuts Seat Cost to $20 — WinBuzzer](https://winbuzzer.com/2026/04/04/openai-switches-codex-pay-as-you-go-pricing-cuts-business-seat-cost-xcxwbn/)
+[^8]: [AI Coding: OpenAI Switches Codex to Pay-as-You-Go, Cuts Seat Cost to \$20 — WinBuzzer](https://winbuzzer.com/2026/04/04/openai-switches-codex-pay-as-you-go-pricing-cuts-business-seat-cost-xcxwbn/)
 
 [^9]: [OpenAI Adds Pay-As-You-Go Codex Seats for ChatGPT Business and Enterprise Teams — gHacks](https://www.ghacks.net/2026/04/03/openai-adds-pay-as-you-go-codex-seats-for-chatgpt-business-and-enterprise-teams/)
 

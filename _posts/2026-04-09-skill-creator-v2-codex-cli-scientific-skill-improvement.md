@@ -2,7 +2,7 @@
 title: "Skill Creator V2 and Codex CLI: Scientific Skill Improvement Without the Token Bill"
 description: "Anthropic's Skill Creator V2 — available at skills.sh — promises scientific evaluation of agent skills. It launches parallel sub-agent executions, runs."
 date: 2026-04-09T07:13:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - skill-creator-v2
   - skills-sh
@@ -23,7 +23,7 @@ tags:
 
 Anthropic's Skill Creator V2 — available at [skills.sh](https://skills.sh/anthropics/skills/skill-creator) — promises scientific evaluation of agent skills[^1]. It launches parallel sub-agent executions, runs blind A/B comparisons between skill versions, and delivers percentage improvement scores. The Cisco software-security skill achieved a 1.78× improvement across 23 rule categories. The ElevenLabs text-to-speech skill scored 93% overall with a 1.32× improvement in agent success rate[^2].
 
-Impressive numbers. But the question Alan Hemmings raised cuts straight to the point: is it worth paying $12–$15 in token usage to learn that your skill improved by 11.4%? For a personal formatting helper, that sounds like vanity metrics. For an enterprise skill automating 100 engineer-hours per month, it is a no-brainer.
+Impressive numbers. But the question Alan Hemmings raised cuts straight to the point: is it worth paying \$12–\$15 in token usage to learn that your skill improved by 11.4%? For a personal formatting helper, that sounds like vanity metrics. For an enterprise skill automating 100 engineer-hours per month, it is a no-brainer.
 
 This article examines how to apply the same scientific rigour to Codex CLI skills — without the token bill — and when the full evaluation spend is genuinely justified.
 
@@ -55,7 +55,7 @@ flowchart LR
 
 Each parallel execution spawns independent sub-agent runs with their own token counts[^3]. For a skill with 10 evaluation prompts, that is 20 sub-agent invocations per iteration — and most skills need multiple improvement iterations before the scores plateau. Three rounds of improvement against 10 prompts means 60 sub-agent runs.
 
-The token economics are straightforward: at current Claude Opus 4.6 pricing, a single evaluation run processing substantial code context can cost $2–$5 in tokens. A full improve-evaluate-iterate cycle can easily reach $12–$15[^5].
+The token economics are straightforward: at current Claude Opus 4.6 pricing, a single evaluation run processing substantial code context can cost \$2–\$5 in tokens. A full improve-evaluate-iterate cycle can easily reach \$12–\$15[^5].
 
 For a personal skill that reformats imports or generates commit messages, this expenditure is difficult to justify. The skill works or it does not — you know within two manual tests.
 
@@ -185,7 +185,7 @@ flowchart TD
 
 The corporate-versus-personal divide is not about skill complexity — it is about blast radius.
 
-Alan's example is instructive: a skill that "creates the Jira ticket from an approved template, reads Confluence and ADRs, then delivers the ticket" touches multiple external systems, parses semi-structured data, and produces artefacts that humans act on immediately[^5]. A 15% improvement in that skill's accuracy means fewer incorrect Jira tickets, fewer confused engineers, and fewer manual corrections. At 100 engineer-hours per month, even a $15 evaluation run pays for itself within a single execution.
+Alan's example is instructive: a skill that "creates the Jira ticket from an approved template, reads Confluence and ADRs, then delivers the ticket" touches multiple external systems, parses semi-structured data, and produces artefacts that humans act on immediately[^5]. A 15% improvement in that skill's accuracy means fewer incorrect Jira tickets, fewer confused engineers, and fewer manual corrections. At 100 engineer-hours per month, even a \$15 evaluation run pays for itself within a single execution.
 
 The decision framework:
 
@@ -214,7 +214,7 @@ The `review_model` configuration key is the simplest entry point[^7]. Set it to 
 
 Scientific skill improvement does not require scientific infrastructure. For most Codex CLI users, the combination of diff-based output tracking, cross-model review via `review_model`, and a simple pass/fail log in git provides sufficient rigour to catch regressions and measure improvements over time.
 
-Reserve the full parallel evaluation spend — whether through Skill Creator V2 or a custom multi-agent benchmark harness — for skills where the cost of failure justifies the cost of measurement. A $15 evaluation is not a vanity metric when the skill it improves saves $15,000 per month.
+Reserve the full parallel evaluation spend — whether through Skill Creator V2 or a custom multi-agent benchmark harness — for skills where the cost of failure justifies the cost of measurement. A \$15 evaluation is not a vanity metric when the skill it improves saves \$15,000 per month.
 
 The goal is not to eliminate evaluation cost. It is to match the evaluation investment to the skill's impact.
 

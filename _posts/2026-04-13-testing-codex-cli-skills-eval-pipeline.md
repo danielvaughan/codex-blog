@@ -297,7 +297,7 @@ Not every skill warrants a full three-layer eval. The decision framework from th
 - **Structured SKILL.md with multi-step logic** — build at least Layer 2 (deterministic JSONL checks).
 - **Unattended production skill** — invest in all three layers plus CI gating.
 
-⚠️ The cost of running evals is non-trivial. Each `codex exec` invocation consumes tokens. A 20-prompt eval set with both deterministic and rubric passes runs roughly 40 Codex invocations. At current GPT-5.4-mini rates ($0.75/$4.50 per million tokens) [^9], a typical eval suite costs $2–5 per run. Skillgrade's `--smoke` preset (fewer trials, shorter timeouts) helps manage this during development.
+⚠️ The cost of running evals is non-trivial. Each `codex exec` invocation consumes tokens. A 20-prompt eval set with both deterministic and rubric passes runs roughly 40 Codex invocations. At current GPT-5.4-mini rates (\$0.75/\$4.50 per million tokens) [^9], a typical eval suite costs \$2–5 per run. Skillgrade's `--smoke` preset (fewer trials, shorter timeouts) helps manage this during development.
 
 ## Practical Checklist
 

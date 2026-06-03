@@ -11,7 +11,7 @@ tags: ["open-source", "maintainer", "issue-triage", "pr-review", "codex-for-oss"
 # Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Contributor Automation at Scale
 
 
-Open source maintainers face a compounding problem: issue volumes grow faster than review capacity. A popular project with 50 open issues per week and three active maintainers is perpetually underwater. OpenAI's **Codex for Open Source** programme[^1] — launched in April 2026 with a $1 million fund — signals that the industry recognises this. But the programme's real value is not the credits; it is the workflow patterns that emerge when Codex CLI and Codex Cloud sit between the issue tracker and the merge button.
+Open source maintainers face a compounding problem: issue volumes grow faster than review capacity. A popular project with 50 open issues per week and three active maintainers is perpetually underwater. OpenAI's **Codex for Open Source** programme[^1] — launched in April 2026 with a \$1 million fund — signals that the industry recognises this. But the programme's real value is not the credits; it is the workflow patterns that emerge when Codex CLI and Codex Cloud sit between the issue tracker and the merge button.
 
 This article maps five concrete maintainer workflows onto Codex CLI tooling, drawing on the official GitHub integration[^2], the OpenAI best practices documentation[^3], and early field reports from WordPress and Drupal maintainers[^4].
 
@@ -292,7 +292,7 @@ OpenAI's Codex for Open Source programme[^1] provides three tiers of support for
 
 1. **ChatGPT Pro access** — six months of ChatGPT Pro with Codex for daily coding, triage, review, and maintainer workflows
 2. **Codex Security** — conditional access for repositories requiring deeper vulnerability analysis
-3. **API credits** — funding through the $1M Codex Open Source Fund for projects implementing Codex in PR review, release workflows, or maintainer automation
+3. **API credits** — funding through the \$1M Codex Open Source Fund for projects implementing Codex in PR review, release workflows, or maintainer automation
 
 Eligibility targets core maintainers of widely-used public repositories. Applications are open via the OpenAI submission form[^1].
 

@@ -238,7 +238,7 @@ jobs:
 
 ## Cost and performance considerations
 
-Deployment verification is inherently bounded: the prompt is short, the context is a few API responses, and the output is a constrained JSON verdict. Typical runs consume 2,000–8,000 tokens, costing fractions of a penny with GPT-5.4-mini[^10]. For verification tasks, GPT-5.4-mini (at $0.75/M input, $4.50/M output) offers the best cost-to-quality ratio — the task requires pattern matching and comparison rather than deep reasoning[^10].
+Deployment verification is inherently bounded: the prompt is short, the context is a few API responses, and the output is a constrained JSON verdict. Typical runs consume 2,000–8,000 tokens, costing fractions of a penny with GPT-5.4-mini[^10]. For verification tasks, GPT-5.4-mini (at \$0.75/M input, \$4.50/M output) offers the best cost-to-quality ratio — the task requires pattern matching and comparison rather than deep reasoning[^10].
 
 Set `reasoning_effort = "low"` in your verification profile to reduce latency further[^11]:
 

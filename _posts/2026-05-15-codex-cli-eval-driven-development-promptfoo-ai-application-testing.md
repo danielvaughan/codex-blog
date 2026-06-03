@@ -212,7 +212,7 @@ The `--ci` flag suppresses interactive output and returns a non-zero exit code o
 
 ### Cost-Aware Evaluation
 
-Agent evals can be expensive — Promptfoo's documentation notes typical costs of $0.10–0.30 per security audit case[^8]. Two strategies keep costs manageable:
+Agent evals can be expensive — Promptfoo's documentation notes typical costs of \$0.10–0.30 per security audit case[^8]. Two strategies keep costs manageable:
 
 1. **Cache aggressively during development.** Promptfoo caches responses by default based on prompt template, model, and sandbox settings. Disable only when testing for stability (`PROMPTFOO_CACHE_ENABLED=false`)[^6].
 

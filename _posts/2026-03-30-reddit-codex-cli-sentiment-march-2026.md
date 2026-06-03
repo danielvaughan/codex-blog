@@ -2,7 +2,7 @@
 title: "Reddit Sentiment Monitor: Codex CLI — March 30, 2026"
 description: "Weekly Reddit sentiment monitor for Codex CLI across r/OpenAI, r/MachineLearning, r/programming, r/devops, and r/ArtificialIntelligence."
 date: 2026-03-30T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - opinion
   - community-sentiment
@@ -85,11 +85,11 @@ Reddit and developer blogs consistently report the App cannot yet replace the CL
 
 | Plan | Cost | Daily usage experience |
 |------|------|------------------------|
-| Codex Plus | $20/month | Runs all day without hitting limits |
-| Claude Code Pro | $20/month | Hits limit after 1–2 complex prompts |
-| Two Codex Plus | $40/month | Often outperforms Claude Code Max 5x ($100/month) |
+| Codex Plus | \$20/month | Runs all day without hitting limits |
+| Claude Code Pro | \$20/month | Hits limit after 1–2 complex prompts |
+| Two Codex Plus | \$40/month | Often outperforms Claude Code Max 5x (\$100/month) |
 
-New user offer: $5 free API credits (Plus) / $50 (Pro) for ChatGPT sign-ins to Codex CLI.
+New user offer: \$5 free API credits (Plus) / \$50 (Pro) for ChatGPT sign-ins to Codex CLI.
 
 **GPT-5.4 mini**: Now available in CLI — runs 2x faster and uses only 30% of quota vs GPT-5.4.
 

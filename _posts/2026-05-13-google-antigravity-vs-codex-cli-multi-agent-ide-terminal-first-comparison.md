@@ -131,9 +131,9 @@ This workflow exploits each tool's strength whilst the shared AGENTS.md, skills,
 
 | Plan | Antigravity | Codex CLI |
 |------|------------|-----------|
-| **Free tier** | Yes (rate-limited)[^2] | Requires ChatGPT Plus ($20/month) or API key[^5] |
-| **Pro** | $20/month[^2] | Bundled with ChatGPT Plus ($20/month)[^5] |
-| **Credit packs** | $25 for 2,500 credits[^2] | API usage at standard token rates[^5] |
+| **Free tier** | Yes (rate-limited)[^2] | Requires ChatGPT Plus (\$20/month) or API key[^5] |
+| **Pro** | \$20/month[^2] | Bundled with ChatGPT Plus (\$20/month)[^5] |
+| **Credit packs** | \$25 for 2,500 credits[^2] | API usage at standard token rates[^5] |
 | **Enterprise** | Google Cloud billing | OpenAI enterprise contracts[^5] |
 
 A notable difference: Antigravity's credit-to-token conversion ratio remains undocumented as of May 2026[^2], making cost prediction harder than Codex CLI's transparent per-token API pricing.

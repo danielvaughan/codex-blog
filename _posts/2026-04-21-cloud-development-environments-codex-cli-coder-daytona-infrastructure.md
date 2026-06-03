@@ -267,10 +267,10 @@ Running Codex CLI in CDEs adds infrastructure cost on top of API token spend. Ap
 
 | Component | Monthly Cost (Approx.) |
 |-----------|----------------------|
-| Coder Premium (self-hosted) | $50–100/seat[^4] |
-| Compute (ephemeral, ~4 vCPU per workspace) | $200–500 |
-| API tokens (o3/o4-mini mix) | $500–2,000 |
-| **Total** | **$1,200–3,500** |
+| Coder Premium (self-hosted) | \$50–100/seat[^4] |
+| Compute (ephemeral, ~4 vCPU per workspace) | \$200–500 |
+| API tokens (o3/o4-mini mix) | \$500–2,000 |
+| **Total** | **\$1,200–3,500** |
 
 ⚠️ These figures are indicative and vary significantly based on workload intensity, cloud provider pricing, and model selection.
 

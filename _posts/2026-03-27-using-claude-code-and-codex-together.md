@@ -2,7 +2,7 @@
 title: "Using Claude Code and Codex Together: The Multi-Tool Strategy"
 description: "Claude Code and Codex CLI are not competitors. The practitioners who get the most out of AI-assisted development treat them as complementary tools with."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - competitive-landscape
   - claude-code
@@ -75,14 +75,14 @@ Codex uses two to three times fewer tokens for comparable results, which has dir
 
 ### Usage limits and cost
 
-The same $20/month buys very different daily experiences:
+The same \$20/month buys very different daily experiences:
 
 | Plan | Daily usability | Effective cost for heavy use |
 |------|----------------|------------------------------|
-| Claude Code Pro ($20)[^3] | Hits limits within hours | Requires $100 Max tier = $1,200/yr |
-| Codex Plus ($20) | Runs all day | Stays at $20/month |
+| Claude Code Pro (\$20)[^3] | Hits limits within hours | Requires \$100 Max tier = \$1,200/yr |
+| Codex Plus (\$20) | Runs all day | Stays at \$20/month |
 
-Average Claude Code API spend runs at roughly $6/day for serious development work.[^4] Running both subscriptions at $40/month combined often proves more cost-effective than a $100/month Claude Code Max subscription alone.
+Average Claude Code API spend runs at roughly \$6/day for serious development work.[^4] Running both subscriptions at \$40/month combined often proves more cost-effective than a \$100/month Claude Code Max subscription alone.
 
 ### Context window
 
@@ -317,9 +317,9 @@ For those new to the multi-tool approach:
 
 [^2]: [Codex vs Claude Code (2026): Benchmarks, Agent Teams & Limits Compared — MorphLLM](https://www.morphllm.com/comparisons/codex-vs-claude-code) — SWE-bench Pro: Codex 56.8 per cent vs Claude Code 55.4 per cent (with custom scaffolding)
 
-[^3]: [Claude Code Pricing in 2026: Every Plan Explained — SSD Nodes](https://www.ssdnodes.com/blog/claude-code-pricing-in-2026-every-plan-explained-pro-max-api-teams/) — Pro plan $20/month confirmed; Max plan has two tiers: $100/month (5x Pro) and $200/month (20x Pro)
+[^3]: [Claude Code Pricing in 2026: Every Plan Explained — SSD Nodes](https://www.ssdnodes.com/blog/claude-code-pricing-in-2026-every-plan-explained-pro-max-api-teams/) — Pro plan \$20/month confirmed; Max plan has two tiers: \$100/month (5x Pro) and \$200/month (20x Pro)
 
-[^4]: [Claude Code Pricing: Every Plan, API Cost, and Way to Save Money — Spark Agents](https://www.sparkagents.com/blog/claude-code-pricing) — Roughly $6/day average API spend cited; 90 per cent of users stay under $12/day
+[^4]: [Claude Code Pricing: Every Plan, API Cost, and Way to Save Money — Spark Agents](https://www.sparkagents.com/blog/claude-code-pricing) — Roughly \$6/day average API spend cited; 90 per cent of users stay under \$12/day
 
 [^5]: [Minutes After Claude Opus 4.6 Created A New High Of 65.8% On Terminal Bench 2.0, GPT-5.3-Codex Beat It With 77.3% — OfficeChai](https://officechai.com/ai/minutes-after-claude-opus-4-6-created-a-new-high-of-65-8-on-terminal-bench-2-0-gpt-5-3-codex-beat-it-with-77-3/) — GPT-5.3-Codex 77.3 per cent and Claude Opus 4.6 65.4 per cent on Terminal-Bench 2.0; GPT-5.5 subsequently raised the Codex score to 82.7 per cent
 

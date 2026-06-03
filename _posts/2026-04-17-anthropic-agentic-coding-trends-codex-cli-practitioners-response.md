@@ -13,7 +13,7 @@ tags: ["agentic-coding", "anthropic", "trends-report", "multi-agent", "enterpris
 
 ---
 
-Anthropic's *2026 Agentic Coding Trends Report*, published in March 2026, identifies eight trends reshaping how software gets built [^1]. Drawing on case studies from Rakuten, TELUS, Zapier, and CRED, the report argues that engineering is shifting from direct implementation toward agent orchestration and strategic oversight [^2]. While Anthropic naturally centres the narrative around Claude Code — which hit a $1 billion annualised run rate faster than any previous AI tool [^3] — the trends themselves are tool-agnostic. Every one of them maps directly to Codex CLI capabilities that are shipping today.
+Anthropic's *2026 Agentic Coding Trends Report*, published in March 2026, identifies eight trends reshaping how software gets built [^1]. Drawing on case studies from Rakuten, TELUS, Zapier, and CRED, the report argues that engineering is shifting from direct implementation toward agent orchestration and strategic oversight [^2]. While Anthropic naturally centres the narrative around Claude Code — which hit a \$1 billion annualised run rate faster than any previous AI tool [^3] — the trends themselves are tool-agnostic. Every one of them maps directly to Codex CLI capabilities that are shipping today.
 
 This article walks through each trend, connects it to concrete Codex CLI features, and offers a practitioner's assessment of where the report gets it right, where it oversimplifies, and what it misses entirely.
 
@@ -59,7 +59,7 @@ graph TD
     O -->|final review| D[Human Engineer]
 ```
 
-Where the report undersells this: it does not mention the **cost implication** of multi-agent workflows. Each subagent carries its own context window. A five-agent fan-out on GPT-5.4 can consume $15–30 in a single task [^7]. The `max_threads` and `job_max_runtime_seconds` guardrails in `[agents]` config exist precisely because unconstrained agent spawning is a billing hazard [^6].
+Where the report undersells this: it does not mention the **cost implication** of multi-agent workflows. Each subagent carries its own context window. A five-agent fan-out on GPT-5.4 can consume \$15–30 in a single task [^7]. The `max_threads` and `job_max_runtime_seconds` guardrails in `[agents]` config exist precisely because unconstrained agent spawning is a billing hazard [^6].
 
 ## Trend 3: Agents Go End-to-End
 
@@ -142,7 +142,7 @@ Codex CLI's security surface includes execution policy rules (Starlark-based com
 
 Three significant omissions stand out:
 
-**1. Cost governance.** The report celebrates productivity gains without acknowledging that multi-agent workflows can cost $50–200 per complex task [^7]. Token budgets, model cascading (GPT-5.4 for planning, GPT-5.4-mini for execution), and reasoning effort tuning are essential practitioner concerns that the report ignores entirely.
+**1. Cost governance.** The report celebrates productivity gains without acknowledging that multi-agent workflows can cost \$50–200 per complex task [^7]. Token budgets, model cascading (GPT-5.4 for planning, GPT-5.4-mini for execution), and reasoning effort tuning are essential practitioner concerns that the report ignores entirely.
 
 **2. Context loss in long sessions.** Trend 3 (end-to-end agents) assumes agents maintain perfect context across hours of work. In practice, context compaction is lossy, and agents lose track of earlier decisions [^10]. The compaction-reread loop problem (issue #16812) has been documented in the Codex community and has no clean solution yet [^10].
 
@@ -176,7 +176,7 @@ The gap between Anthropic's vision and daily practice is not a technology proble
 
 [^6]: OpenAI, "Subagents — Codex." [https://developers.openai.com/codex/subagents](https://developers.openai.com/codex/subagents)
 
-[^7]: OpenAI, "Models — Codex." GPT-5.4 pricing at $2.50/$10 per 1M input/output tokens. [https://developers.openai.com/codex/models](https://developers.openai.com/codex/models)
+[^7]: OpenAI, "Models — Codex." GPT-5.4 pricing at \$2.50/\$10 per 1M input/output tokens. [https://developers.openai.com/codex/models](https://developers.openai.com/codex/models)
 
 [^8]: Codex CLI v0.122.0-alpha PRs for goal mode — persistent objectives with token budgets and autonomous continuation. [https://github.com/openai/codex/releases](https://github.com/openai/codex/releases)
 

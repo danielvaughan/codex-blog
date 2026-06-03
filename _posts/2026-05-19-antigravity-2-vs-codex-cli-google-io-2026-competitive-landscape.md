@@ -161,7 +161,7 @@ model = "codex-mini-latest"          # Rapid iteration, lower cost
 
 ## Enterprise and Ecosystem Integration
 
-Antigravity 2.0 deepens Google ecosystem integration: Firebase, Android Studio (via the stable Android CLI), Google AI Studio, and Google Cloud deployment[^1]. The new AI Ultra plan ($249.99/month) provides 5x the usage limits of AI Pro[^13].
+Antigravity 2.0 deepens Google ecosystem integration: Firebase, Android Studio (via the stable Android CLI), Google AI Studio, and Google Cloud deployment[^1]. The new AI Ultra plan (\$249.99/month) provides 5x the usage limits of AI Pro[^13].
 
 Codex CLI integrates with AWS, Azure, GCP, and self-hosted infrastructure[^14]. Enterprise governance features include managed configuration distribution, RBAC, and compliance APIs. The open-source codebase means you can audit every line of the agent loop.
 
@@ -171,7 +171,7 @@ Codex CLI integrates with AWS, Azure, GCP, and self-hosted infrastructure[^14]. 
 | Mobile development | Android CLI + Firebase | Via MCP servers |
 | Enterprise governance | Google Workspace admin | RBAC + managed config |
 | Open source | Proprietary | Open source (Apache 2.0) |
-| Pricing | AI Ultra $249.99/mo | API token-based |
+| Pricing | AI Ultra \$249.99/mo | API token-based |
 
 ## Decision Framework: Who Should Care About 2.0
 

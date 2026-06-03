@@ -32,7 +32,7 @@ Each tool has a distinct personality shaped by its underlying model and executio
 | **Token efficiency** | Higher consumption | ~4× fewer tokens per task[^1] |
 | **SWE-bench** | 80.9% (Agent Teams)[^2] | 69.1% (standalone)[^4] |
 
-Running both at a combined $40/month entry tier gives you complementary coverage: Claude Code for tasks that need deep reasoning and high first-pass accuracy, Codex CLI for volume and autonomy[^1].
+Running both at a combined \$40/month entry tier gives you complementary coverage: Claude Code for tasks that need deep reasoning and high first-pass accuracy, Codex CLI for volume and autonomy[^1].
 
 ---
 
@@ -259,8 +259,8 @@ Running both tools requires some cost awareness:
 
 | Scenario | Estimated Monthly Cost |
 |----------|----------------------|
-| Light use (either tool) | $20 (single subscription)[^1] |
-| Combined daily use | $40 (both subscriptions)[^1] |
+| Light use (either tool) | \$20 (single subscription)[^1] |
+| Combined daily use | \$40 (both subscriptions)[^1] |
 | Heavy API use (MCP bridge) | Variable — monitor via `codex usage` |
 
 To keep MCP bridge costs down, set a lower default reasoning effort for routine tasks and reserve `high` or `xhigh` for complex reviews[^7]:

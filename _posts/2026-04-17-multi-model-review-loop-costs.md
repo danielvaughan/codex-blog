@@ -25,15 +25,15 @@ Before modelling review costs, here are the rates that matter[^3][^4]:
 
 | Model | Input ($/M tokens) | Output ($/M tokens) | Typical Role |
 |---|---|---|---|
-| Claude Opus 4.6 | $5.00 | $25.00 | Deep review |
-| Claude Sonnet 4.6 | $3.00 | $15.00 | Implementation / review |
-| GPT-5.4 | $2.50 | $15.00 | Implementation |
-| o3 | $2.00 | $8.00 | Reasoning-heavy review |
-| o4-mini | $1.10 | $4.40 | Lightweight review |
-| Gemini 2.5 Pro (≤200K) | $1.25 | $10.00 | Review |
-| Gemini 2.5 Flash | $0.30 | $2.50 | Triage / pre-filter |
-| Claude Haiku 4.5 | $1.00 | $5.00 | Triage / SLM judge |
-| GPT-4o Mini | $0.15 | $0.60 | Budget judge |
+| Claude Opus 4.6 | \$5.00 | \$25.00 | Deep review |
+| Claude Sonnet 4.6 | \$3.00 | \$15.00 | Implementation / review |
+| GPT-5.4 | \$2.50 | \$15.00 | Implementation |
+| o3 | \$2.00 | \$8.00 | Reasoning-heavy review |
+| o4-mini | \$1.10 | \$4.40 | Lightweight review |
+| Gemini 2.5 Pro (≤200K) | \$1.25 | \$10.00 | Review |
+| Gemini 2.5 Flash | \$0.30 | \$2.50 | Triage / pre-filter |
+| Claude Haiku 4.5 | \$1.00 | \$5.00 | Triage / SLM judge |
+| GPT-4o Mini | \$0.15 | \$0.60 | Budget judge |
 
 Output tokens cost 3–10× more than input tokens across every provider[^4]. This asymmetry is critical because review workflows are output-heavy: the reviewer generates detailed findings, suggested fixes, and sometimes complete replacement code.
 
@@ -45,30 +45,30 @@ Consider a typical merge request touching 800 lines of code (roughly 12,000 toke
 
 | | Input | Output | Total |
 |---|---|---|---|
-| Round 1 | $0.045 | $0.060 | $0.105 |
-| Round 2 (re-review after fixes) | $0.054 | $0.045 | $0.099 |
-| **Total** | | | **$0.204** |
+| Round 1 | \$0.045 | \$0.060 | \$0.105 |
+| Round 2 (re-review after fixes) | \$0.054 | \$0.045 | \$0.099 |
+| **Total** | | | **\$0.204** |
 
 ### Scenario 2: Two-Model Review (Claude Sonnet + o3)
 
 | | Input | Output | Total |
 |---|---|---|---|
-| Claude Sonnet review | $0.045 | $0.060 | $0.105 |
-| o3 review | $0.030 | $0.032 | $0.062 |
-| Fix + re-review (Sonnet) | $0.054 | $0.045 | $0.099 |
-| **Total** | | | **$0.266** |
+| Claude Sonnet review | \$0.045 | \$0.060 | \$0.105 |
+| o3 review | \$0.030 | \$0.032 | \$0.062 |
+| Fix + re-review (Sonnet) | \$0.054 | \$0.045 | \$0.099 |
+| **Total** | | | **\$0.266** |
 
 ### Scenario 3: Three-Model Review (Claude Opus + GPT-5.4 + Gemini 2.5 Pro)
 
 | | Input | Output | Total |
 |---|---|---|---|
-| Claude Opus review | $0.075 | $0.100 | $0.175 |
-| GPT-5.4 review | $0.038 | $0.060 | $0.098 |
-| Gemini 2.5 Pro review | $0.019 | $0.040 | $0.059 |
-| Fix + re-review (Opus) | $0.090 | $0.075 | $0.165 |
-| **Total** | | | **$0.497** |
+| Claude Opus review | \$0.075 | \$0.100 | \$0.175 |
+| GPT-5.4 review | \$0.038 | \$0.060 | \$0.098 |
+| Gemini 2.5 Pro review | \$0.019 | \$0.040 | \$0.059 |
+| Fix + re-review (Opus) | \$0.090 | \$0.075 | \$0.165 |
+| **Total** | | | **\$0.497** |
 
-At 40 merge requests per developer per month, the three-model loop costs roughly **$20/developer/month** on review alone — before accounting for the implementation tokens. For a 50-person engineering team, that is $1,000/month purely on automated review, or $12,000 annually[^3].
+At 40 merge requests per developer per month, the three-model loop costs roughly **\$20/developer/month** on review alone — before accounting for the implementation tokens. For a 50-person engineering team, that is \$1,000/month purely on automated review, or \$12,000 annually[^3].
 
 ## The Diminishing Returns Cliff
 
@@ -115,7 +115,7 @@ flowchart TD
     style E fill:#F44336,color:#fff
 ```
 
-An SLM triage layer using GPT-4o Mini ($0.15/$0.60 per M tokens) or Haiku 4.5 ($1.00/$5.00) pre-screens every merge request. Only those flagged as potentially problematic — typically 25–35% of routine MRs — proceed to a full frontier-model review. This reduces average review cost from $0.27 (two-model) to approximately $0.09 per MR.
+An SLM triage layer using GPT-4o Mini (\$0.15/\$0.60 per M tokens) or Haiku 4.5 (\$1.00/\$5.00) pre-screens every merge request. Only those flagged as potentially problematic — typically 25–35% of routine MRs — proceed to a full frontier-model review. This reduces average review cost from \$0.27 (two-model) to approximately \$0.09 per MR.
 
 ## Configuring Model Routing in Practice
 
@@ -141,9 +141,9 @@ Based on the cost modelling above, here is a practical allocation framework:
 
 | Budget Tier | Monthly/Dev | Strategy |
 |---|---|---|
-| **Lean** (<$10) | $5–8 | Single model + SLM triage gate |
-| **Standard** ($10–25) | $12–18 | Two-model review (implement + review) with SLM pre-filter |
-| **Premium** ($25–50) | $25–40 | Three-model with gateway routing, full Opus for critical paths |
+| **Lean** (<\$10) | \$5–8 | Single model + SLM triage gate |
+| **Standard** (\$10–25) | \$12–18 | Two-model review (implement + review) with SLM pre-filter |
+| **Premium** (\$25–50) | \$25–40 | Three-model with gateway routing, full Opus for critical paths |
 
 The standard tier delivers the best cost-to-quality ratio for most teams. Reserve the premium tier for regulated industries (fintech, healthcare) where the compliance audit trail of multi-model consensus has value beyond defect detection.
 

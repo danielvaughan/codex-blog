@@ -2,7 +2,7 @@
 title: "Codex Model Lineage: The Context Compaction Breakthrough That Made Long-Horizon Agents Possible"
 description: "If you've been using Codex CLI for agentic work, you've probably hit the wall: a long-running session starts hallucinating earlier decisions."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 summary: "How the GPT-5.x-Codex model family evolved to solve the context problem — and why native compaction changed what agentic coding workflows can actually achieve."
 tags:
   - architecture
@@ -76,7 +76,7 @@ GPT-5.2-Codex uses a **Mixture-of-Experts (MoE) architecture** with sparse activ
 2. Allows specialised "expert" sub-networks for coding, tool use, and cybersecurity to operate independently
 3. Enables the model to be both broad (Tau2-bench tool accuracy) and deep (CVE-Bench security)
 
-This is why the pricing ($1.75/M input, $14/M output) is reasonable for a model that performs at enterprise coding standards.
+This is why the pricing (\$1.75/M input, \$14/M output) is reasonable for a model that performs at enterprise coding standards.
 
 ---
 

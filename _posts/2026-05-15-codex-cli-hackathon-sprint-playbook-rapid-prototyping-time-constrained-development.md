@@ -1,6 +1,6 @@
 ---
 title: "The Codex CLI Hackathon Playbook: Rapid Prototyping Under Time Pressure"
-description: "Sea Limited and OpenAI announced the first regional Codex Hackathon series today, kicking off in Singapore on 6 June 2026 with US$30,000 in API credits for."
+description: "Sea Limited and OpenAI announced the first regional Codex Hackathon series today, kicking off in Singapore on 6 June 2026 with US\$30,000 in API credits for."
 parent: "Articles"
 nav_order: 714
 tags: ["hackathon", "sprint", "rapid-prototyping", "workflow", "subagents", "worktrees", "goal-mode", "fast-mode", "skills", "AGENTS.md"]
@@ -13,7 +13,7 @@ tags: ["hackathon", "sprint", "rapid-prototyping", "workflow", "subagents", "wor
 
 ## Introduction
 
-Sea Limited and OpenAI announced the first regional Codex Hackathon series today, kicking off in Singapore on 6 June 2026 with US$30,000 in API credits for the winning team[^1]. The format is deliberately demanding: teams of three to four must build from scratch on the day — no pre-built code allowed — across three categories: autonomous and adaptive AI, AI-native products, and deep-domain AI[^2].
+Sea Limited and OpenAI announced the first regional Codex Hackathon series today, kicking off in Singapore on 6 June 2026 with US\$30,000 in API credits for the winning team[^1]. The format is deliberately demanding: teams of three to four must build from scratch on the day — no pre-built code allowed — across three categories: autonomous and adaptive AI, AI-native products, and deep-domain AI[^2].
 
 Hackathons reward a very specific skill: shipping a demonstrable product under brutal time constraints. Codex CLI, now at v0.130.0 with subagents, worktrees, goal mode, fast mode, and 30+ slash commands[^3], gives sprint-focused developers an unfair advantage — if they know which levers to pull. This article is the playbook.
 

@@ -21,10 +21,10 @@ Five models are currently available in Codex CLI, documented at the official mod
 
 | Model | Context Window | Input / Cached / Output (per 1M tokens) | SWE-Bench Pro | Terminal-Bench 2.0 | Key Strength |
 |---|---|---|---|---|---|
-| `gpt-5.5` | 1M (922K in + 128K out) | $5.00 / $0.50 / $30.00 | — | 82.7% | Frontier reasoning, research, long-horizon |
-| `gpt-5.4` | 1M (272K standard) | $2.50 / $0.25 / $15.00 | 57.7% | — | Tool use, computer use, professional tasks |
-| `gpt-5.4-mini` | 400K | $0.75 / $0.075 / $4.50 | 54.4% | 60.0% | Fast subagents, high-volume tasks |
-| `gpt-5.3-codex` | 400K | $1.75 / $0.175 / $14.00 | 56.8% | 77.3% | Proven coding workhorse |
+| `gpt-5.5` | 1M (922K in + 128K out) | \$5.00 / \$0.50 / \$30.00 | — | 82.7% | Frontier reasoning, research, long-horizon |
+| `gpt-5.4` | 1M (272K standard) | \$2.50 / \$0.25 / \$15.00 | 57.7% | — | Tool use, computer use, professional tasks |
+| `gpt-5.4-mini` | 400K | \$0.75 / \$0.075 / \$4.50 | 54.4% | 60.0% | Fast subagents, high-volume tasks |
+| `gpt-5.3-codex` | 400K | \$1.75 / \$0.175 / \$14.00 | 56.8% | 77.3% | Proven coding workhorse |
 | `gpt-5.3-codex-spark` | 128K | Research preview (Pro only) | — | — | Real-time iteration at 1,000+ tok/s |
 
 Note: GPT-5.5 applies a 2x input surcharge beyond 272K tokens[^1]. GPT-5.4 applies the same surcharge beyond its 272K standard window[^6]. GPT-5.3-Codex-Spark is text-only and available exclusively to ChatGPT Pro subscribers[^4].
@@ -53,7 +53,7 @@ Pushed to the API on 17 March 2026, GPT-5.4-mini was explicitly designed for the
 
 ### GPT-5.3-Codex: The Proven Specialist
 
-GPT-5.3-Codex (released 5 February 2026) remains a strong choice for pure coding tasks[^7]. At 56.8% on SWE-Bench Pro and 77.3% on Terminal-Bench 2.0, it trades breadth for coding depth — and at $1.75/$14.00 per million tokens, it undercuts GPT-5.4 on cost whilst maintaining competitive coding benchmarks[^7].
+GPT-5.3-Codex (released 5 February 2026) remains a strong choice for pure coding tasks[^7]. At 56.8% on SWE-Bench Pro and 77.3% on Terminal-Bench 2.0, it trades breadth for coding depth — and at \$1.75/\$14.00 per million tokens, it undercuts GPT-5.4 on cost whilst maintaining competitive coding benchmarks[^7].
 
 **Best for:** Pure software engineering tasks where tool-use and computer-use are unnecessary, CI/CD automation via `codex exec`, and cost-sensitive pipelines.
 
@@ -150,12 +150,12 @@ Consider a typical 30-minute coding session consuming approximately 50K input to
 
 | Model | Input Cost | Cached Savings | Output Cost | Total |
 |---|---|---|---|---|
-| `gpt-5.5` | $0.25 | -$0.135 | $0.60 | **$0.715** |
-| `gpt-5.4` | $0.125 | -$0.0675 | $0.30 | **$0.358** |
-| `gpt-5.4-mini` | $0.0375 | -$0.020 | $0.09 | **$0.107** |
-| `gpt-5.3-codex` | $0.0875 | -$0.047 | $0.28 | **$0.320** |
+| `gpt-5.5` | \$0.25 | -\$0.135 | \$0.60 | **\$0.715** |
+| `gpt-5.4` | \$0.125 | -\$0.0675 | \$0.30 | **\$0.358** |
+| `gpt-5.4-mini` | \$0.0375 | -\$0.020 | \$0.09 | **\$0.107** |
+| `gpt-5.3-codex` | \$0.0875 | -\$0.047 | \$0.28 | **\$0.320** |
 
-Over a team of ten developers each running five sessions daily, the difference between routing everything through GPT-5.5 and routing routine work through GPT-5.4-mini adds up to roughly **$150/day** — or **$3,000/month** — in savings.
+Over a team of ten developers each running five sessions daily, the difference between routing everything through GPT-5.5 and routing routine work through GPT-5.4-mini adds up to roughly **\$150/day** — or **\$3,000/month** — in savings.
 
 ## The Prompt Caching Advantage
 

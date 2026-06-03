@@ -16,7 +16,7 @@ This article unpacks the evaluation criteria, maps them to concrete Codex CLI ca
 
 ## Why This Report Matters
 
-Gartner estimates the enterprise AI coding agent market at roughly $9.8–11.0 billion annualised as of April 2026 [^6]. That figure reflects a shift from discretionary developer tooling budgets to strategic platform investments. The Magic Quadrant gives procurement, security, and engineering leadership a shared vocabulary for comparing vendors — and it signals that coding agents have crossed the threshold from experimental to enterprise-critical infrastructure.
+Gartner estimates the enterprise AI coding agent market at roughly \$9.8–11.0 billion annualised as of April 2026 [^6]. That figure reflects a shift from discretionary developer tooling budgets to strategic platform investments. The Magic Quadrant gives procurement, security, and engineering leadership a shared vocabulary for comparing vendors — and it signals that coding agents have crossed the threshold from experimental to enterprise-critical infrastructure.
 
 For Codex CLI users, the report validates capabilities that were already shipping but lacked third-party attestation: sandboxed execution, role-based governance, audit logging, and multi-surface deployment across CLI, IDE, web app, and SDK.
 
@@ -51,7 +51,7 @@ These are not abstract categories — they map directly to configuration surface
 
 ### Pricing Transparency
 
-Codex offers three pricing tiers: ChatGPT Plus ($20/month, limited cloud tasks), Pro ($200/month, higher limits), and Enterprise (custom pricing with SLA commitments) [^7]. The CLI itself is open-source and free to run locally with an API key, where costs follow standard OpenAI API token pricing [^7]. This dual model — subscription for the managed cloud experience, pay-as-you-go for CLI automation — gives teams predictable budgets for interactive work and flexible scaling for batch workflows.
+Codex offers three pricing tiers: ChatGPT Plus (\$20/month, limited cloud tasks), Pro (\$200/month, higher limits), and Enterprise (custom pricing with SLA commitments) [^7]. The CLI itself is open-source and free to run locally with an API key, where costs follow standard OpenAI API token pricing [^7]. This dual model — subscription for the managed cloud experience, pay-as-you-go for CLI automation — gives teams predictable budgets for interactive work and flexible scaling for batch workflows.
 
 ### Security Boundaries
 

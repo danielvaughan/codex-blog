@@ -143,8 +143,8 @@ mycompany-monorepo/
 
 The pricing model directly affects how CLI users operate at enterprise scale [^8]:
 
-- **Plus** ($20/month): Full CLI access, latest models including GPT-5.5, 15-80 local messages per 5-hour window
-- **Pro** (from $100/month): 5x-20x higher rate limits, GPT-5.3-Codex-Spark access; currently doubled usage through 31 May 2026
+- **Plus** (\$20/month): Full CLI access, latest models including GPT-5.5, 15-80 local messages per 5-hour window
+- **Pro** (from \$100/month): 5x-20x higher rate limits, GPT-5.3-Codex-Spark access; currently doubled usage through 31 May 2026
 - **Business** (pay-as-you-go): Credit-based, with standard or usage-based seats, larger cloud VMs, admin controls, SAML SSO
 - **Enterprise**: Priority processing, SCIM, EKM, RBAC, audit logs, data retention and residency controls
 

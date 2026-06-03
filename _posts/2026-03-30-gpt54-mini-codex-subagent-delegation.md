@@ -2,7 +2,7 @@
 title: "GPT-5.4 mini in Codex CLI: Subagent Delegation, Model Routing and the Tiered Inference Architecture"
 description: "OpenAI released GPT-5.4 mini and GPT-5.4 nano on 17 March 2026, and they represent something more significant than two incremental model updates."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - models
   - model-selection
@@ -26,9 +26,9 @@ This article covers the technical specifics: what these models are, where they s
 
 The framing from OpenAI is deliberate: GPT-5.4 handles "planning, coordination, and final judgment", while GPT-5.4 mini subagents handle "narrower subtasks in parallel — like searching a codebase, reviewing a large file, or processing supporting documents"[^2]. This is not a vague aspiration; the token-cost ratios make it concrete.
 
-In Codex, GPT-5.4 mini consumes **30% of the included-limit quota** compared to GPT-5.4[^3]. On the raw API, input tokens cost $0.75/M versus $2.50/M for the flagship[^4]. Running a six-subagent codebase exploration job through mini rather than full GPT-5.4 drops the cost by roughly 3.3×.
+In Codex, GPT-5.4 mini consumes **30% of the included-limit quota** compared to GPT-5.4[^3]. On the raw API, input tokens cost \$0.75/M versus \$2.50/M for the flagship[^4]. Running a six-subagent codebase exploration job through mini rather than full GPT-5.4 drops the cost by roughly 3.3×.
 
-GPT-5.4 nano goes further still: $0.20/M input tokens[^4]. Nano is API-only — it is not available in the Codex app, CLI, or IDE extension at time of writing — so it sits outside the Codex credit system. For teams building their own orchestration layers on top of the Responses API, nano becomes the logical choice for classification, routing decisions, and pattern-matching passes that feed into a Codex agent.
+GPT-5.4 nano goes further still: \$0.20/M input tokens[^4]. Nano is API-only — it is not available in the Codex app, CLI, or IDE extension at time of writing — so it sits outside the Codex credit system. For teams building their own orchestration layers on top of the Responses API, nano becomes the logical choice for classification, routing decisions, and pattern-matching passes that feed into a Codex agent.
 
 ```mermaid
 graph TD
@@ -212,7 +212,7 @@ The sub-agent addresses use the path scheme introduced in v0.117.0: `/root/imple
 
 ## GPT-5.4 nano: API-Only, Ultra-Cheap
 
-Nano ($0.20/M input, $1.25/M output[^4]) is not available in the Codex CLI or app at launch. It exists in the raw Responses API. This makes it relevant for teams who:
+Nano (\$0.20/M input, \$1.25/M output[^4]) is not available in the Codex CLI or app at launch. It exists in the raw Responses API. This makes it relevant for teams who:
 
 - Build their own agent harnesses using the `codex-sdk` Python package and want a cheap routing/classification layer
 - Run pre-processing pipelines (tokenisation checks, language detection, intent classification) before forwarding to a Codex session

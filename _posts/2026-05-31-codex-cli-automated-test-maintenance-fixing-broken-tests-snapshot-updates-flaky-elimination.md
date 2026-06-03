@@ -10,7 +10,7 @@ tags: ["codex-cli", "testing", "test-maintenance", "flaky-tests", "snapshots", "
 
 ---
 
-Test suites decay. A team that starts with 200 tests and 10% maintenance overhead reaches 1,000 tests and 50% maintenance overhead — a ceiling where keeping tests green costs more than the safety they provide[^1]. QA engineers report spending 20–30% of their working week triaging failures that have nothing to do with production bugs[^2]. Flaky tests account for up to 30% of all test failures[^3], and at scale, a team deploying eight times per month with twelve tests breaking per deploy burns roughly $67,200 annually on maintenance alone[^2].
+Test suites decay. A team that starts with 200 tests and 10% maintenance overhead reaches 1,000 tests and 50% maintenance overhead — a ceiling where keeping tests green costs more than the safety they provide[^1]. QA engineers report spending 20–30% of their working week triaging failures that have nothing to do with production bugs[^2]. Flaky tests account for up to 30% of all test failures[^3], and at scale, a team deploying eight times per month with twelve tests breaking per deploy burns roughly \$67,200 annually on maintenance alone[^2].
 
 Codex CLI transforms test maintenance from a manual grind into an agent-driven workflow. This article covers three patterns: automated test repair in CI, intelligent snapshot management, and flaky test detection with quarantine — all using Codex CLI v0.135's current tooling.
 
@@ -284,7 +284,7 @@ git push origin HEAD
 
 Test maintenance tasks are typically low-reasoning-effort work — pattern matching against error messages and updating string literals. Route these to `gpt-5.4-mini` with `model_reasoning_effort = "low"` to minimise spend[^9]. Reserve `gpt-5.5` for complex flakiness root-cause analysis where the agent must reason about concurrency or timing.
 
-A typical maintenance run fixing 5–10 broken assertions consumes 8,000–15,000 tokens (including test file context), costing approximately $0.02–0.05 at current rates[^11].
+A typical maintenance run fixing 5–10 broken assertions consumes 8,000–15,000 tokens (including test file context), costing approximately \$0.02–0.05 at current rates[^11].
 
 ## Limitations and Safety
 

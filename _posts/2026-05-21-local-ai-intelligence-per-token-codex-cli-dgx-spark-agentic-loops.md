@@ -1,8 +1,8 @@
 ---
 title: "Intelligence per Token: Why Your Local AI Needs Agentic Loops, Not Bigger Prompts — and What Codex CLI Already Solved"
 description: "Manolo Remiddis recent video, Your Local AI is Stupid Because Youre Using it Like ChatGPT, articulates a problem that Codex CLIs architecture."
-date: 2026-05-20T23:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+date: 2026-05-21T00:00:00+00:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 category: strategy
 tags: [codex-cli, local-ai, dgx-spark, gx10, agentic-loops, token-efficiency, ollama, open-code, gemma, qwen, strategy]
 source:
@@ -145,9 +145,9 @@ This loop is what Codex CLI does by default. The difference is that with frontie
 
 ## The Economics
 
-Remiddi makes a pragmatic economic argument: frontier models are currently subsidised. The $20/month subscription to GPT-5.5 delivers token volumes that cost OpenAI significantly more to serve. This subsidy will not last indefinitely. Building workflows that depend on cheap frontier tokens creates a dependency on pricing decisions you do not control.
+Remiddi makes a pragmatic economic argument: frontier models are currently subsidised. The \$20/month subscription to GPT-5.5 delivers token volumes that cost OpenAI significantly more to serve. This subsidy will not last indefinitely. Building workflows that depend on cheap frontier tokens creates a dependency on pricing decisions you do not control.
 
-Local models running on owned hardware have a fixed cost (the hardware) and zero marginal cost per token. A DGX Spark at approximately $3,000 generates unlimited tokens at 30-60/second for as long as the hardware operates. For teams that need to run agents 24/7 — overnight test suites, continuous code review, background research — the economics favour local models for volume work and frontier models for high-stakes decisions.
+Local models running on owned hardware have a fixed cost (the hardware) and zero marginal cost per token. A DGX Spark at approximately \$3,000 generates unlimited tokens at 30-60/second for as long as the hardware operates. For teams that need to run agents 24/7 — overnight test suites, continuous code review, background research — the economics favour local models for volume work and frontier models for high-stakes decisions.
 
 Codex CLI's multi-provider architecture (Chapter 5) makes this hybrid model natural. The same pipeline definition works with local models via Ollama, LM Studio, or MLX, and with cloud models via the OpenAI API. Switching between them is a configuration change, not an architecture change.
 

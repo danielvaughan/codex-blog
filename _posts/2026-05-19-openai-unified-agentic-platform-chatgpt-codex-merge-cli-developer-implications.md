@@ -84,7 +84,7 @@ No launch date has been announced for the complete unified product [^4]. This me
 
 ### The IPO Narrative
 
-OpenAI is targeting a public listing as early as Q4 2026, with Goldman Sachs, JPMorgan, and Morgan Stanley advising on the offering at an $852 billion post-money valuation [^2]. A simpler product narrative — one platform, one billing model, one developer experience — appeals to institutional investors who struggle to value fragmented product portfolios.
+OpenAI is targeting a public listing as early as Q4 2026, with Goldman Sachs, JPMorgan, and Morgan Stanley advising on the offering at an \$852 billion post-money valuation [^2]. A simpler product narrative — one platform, one billing model, one developer experience — appeals to institutional investors who struggle to value fragmented product portfolios.
 
 ### The Competitive Response
 

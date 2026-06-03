@@ -2,7 +2,7 @@
 title: "The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud"
 description: "Running a single coding agent is yesterday's problem. The 2026 challenge is orchestrating fleets of them — choosing the right coordination model for each."
 date: 2026-04-09T00:13:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - three-tier-orchestration
   - addy-osmani
@@ -124,7 +124,7 @@ graph LR
     Beads[(Beads<br/>Git-backed<br/>Issue Tracker)] --> Mayor
 ```
 
-The Mayor distributes tasks from Beads (a git-backed issue tracker), Polecats execute in parallel worktrees, and the Witness and Deacon monitor system health[^7]. The cost is real — Yegge has documented token burn rates around $100/hour at full capacity[^8].
+The Mayor distributes tasks from Beads (a git-backed issue tracker), Polecats execute in parallel worktrees, and the Witness and Deacon monitor system health[^7]. The cost is real — Yegge has documented token burn rates around \$100/hour at full capacity[^8].
 
 ### Other Tier 2 Tools
 

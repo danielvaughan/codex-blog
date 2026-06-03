@@ -2,7 +2,7 @@
 title: "codex-plugin-cc: OpenAI Ships Codex Inside Claude Code"
 description: "On March 31, 2026, OpenAI published openai/codex-plugin-cc — an official plugin that lets Claude Code users run Codex reviews and delegate tasks without."
 date: 2026-03-31T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - ecosystem
   - plugins
@@ -45,7 +45,7 @@ Requirements: Node.js 18.18+, ChatGPT subscription or OpenAI API key.
 
 ## Why This Matters Strategically
 
-1. **Ecosystem penetration over platform lock-in.** Claude Code accounts for ~4% of public GitHub commits (~135K/day) and ~$2.5B annualised revenue. OpenAI cannot ignore that install base — so they're embedding Codex *inside* it rather than competing for switching.
+1. **Ecosystem penetration over platform lock-in.** Claude Code accounts for ~4% of public GitHub commits (~135K/day) and ~\$2.5B annualised revenue. OpenAI cannot ignore that install base — so they're embedding Codex *inside* it rather than competing for switching.
 
 2. **Cross-model adversarial review becomes first-class.** The `/codex:adversarial-review` command formalises what power users already do manually: have one model critique another's work. Claude Code authors code; Codex acts as sceptical reviewer. This is the strongest use case — one developer noted: *"Claude more often finds big-picture or taste issues with Codex. And Codex more often finds correctness and code quality issues with Claude."*
 

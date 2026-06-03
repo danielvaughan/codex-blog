@@ -67,7 +67,7 @@ model = "gpt-5.5"
 
 No `model_provider` configuration is needed — this is the zero-configuration path[^6].
 
-**Trade-offs:** No VPC isolation, no IAM integration, no cloud-commit offset. Token costs are transparent — $5.00 input / $30.00 output per million tokens for GPT-5.5[^7]. Fine for developer workstations; unsuitable for enterprises that require data residency guarantees or centralised billing.
+**Trade-offs:** No VPC isolation, no IAM integration, no cloud-commit offset. Token costs are transparent — \$5.00 input / \$30.00 output per million tokens for GPT-5.5[^7]. Fine for developer workstations; unsuitable for enterprises that require data residency guarantees or centralised billing.
 
 ### Path 2: Azure OpenAI Service
 
@@ -267,7 +267,7 @@ The practical advice is simple: configure profiles for multiple providers now, m
 
 [^13]: About Amazon / AWS Blog, "AWS and OpenAI announce expanded partnership," 28 April 2026. [https://www.aboutamazon.com/news/aws/bedrock-openai-models](https://www.aboutamazon.com/news/aws/bedrock-openai-models)
 
-[^14]: tech-insider.org, "OpenAI on AWS Bedrock: $38B Deal Ends Azure Lock-In," 2026. [https://tech-insider.org/openai-amazon-bedrock-38-billion-azure-exclusivity-end-2026/](https://tech-insider.org/openai-amazon-bedrock-38-billion-azure-exclusivity-end-2026/)
+[^14]: tech-insider.org, "OpenAI on AWS Bedrock: \$38B Deal Ends Azure Lock-In," 2026. [https://tech-insider.org/openai-amazon-bedrock-38-billion-azure-exclusivity-end-2026/](https://tech-insider.org/openai-amazon-bedrock-38-billion-azure-exclusivity-end-2026/)
 
 [^15]: OpenAI Developers, "Managed Configuration — Codex." [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced)
 

@@ -19,7 +19,7 @@ This article unpacks what GPT-5.5 Instant changes, how `chat-latest` works at th
 
 ## What Is GPT-5.5 Instant?
 
-GPT-5.5 Instant is the consumer-optimised variant of the GPT-5.5 family. Where `gpt-5.5` targets complex agentic workloads — 1,050,000-token context window, $5/$30 per million input/output tokens, xhigh reasoning support[^3] — the Instant variant prioritises low latency and conciseness for everyday chat.
+GPT-5.5 Instant is the consumer-optimised variant of the GPT-5.5 family. Where `gpt-5.5` targets complex agentic workloads — 1,050,000-token context window, \$5/\$30 per million input/output tokens, xhigh reasoning support[^3] — the Instant variant prioritises low latency and conciseness for everyday chat.
 
 Key improvements over GPT-5.3 Instant[^1][^4]:
 
@@ -140,8 +140,8 @@ These are not interchangeable. The full `gpt-5.5` model and the Instant variant 
 | Context window | 1,050,000 tokens[^3] | ⚠️ Not publicly documented for Instant |
 | Max output tokens | 128,000[^3] | ⚠️ Not publicly documented for Instant |
 | Reasoning effort | Supports xhigh[^3] | Optimised for speed; reasoning depth unclear |
-| Input pricing | $5.00 / 1M tokens[^3] | ⚠️ Separate pricing not yet published |
-| Output pricing | $30.00 / 1M tokens[^3] | ⚠️ Separate pricing not yet published |
+| Input pricing | \$5.00 / 1M tokens[^3] | ⚠️ Separate pricing not yet published |
+| Output pricing | \$30.00 / 1M tokens[^3] | ⚠️ Separate pricing not yet published |
 | Authentication | API key[^3] | API key (via `chat-latest` alias) |
 | Target use case | Complex agentic coding, multi-file refactors, architecture | Quick tasks, chat, lightweight code generation |
 | Behavioural stability | Pinned within family | Moves with each Instant release |

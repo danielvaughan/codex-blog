@@ -225,7 +225,7 @@ For context collection, the plugin chooses between two modes based on diff size:
 
 ## Strategic Significance
 
-The plugin's existence is a strategic calculation by OpenAI. Claude Code has an estimated $2.5 billion in annualised revenue and accounts for roughly 4% of public GitHub commits — approximately 135,000 per day[^4]. Codex CLI has 3 million weekly active users[^11]. Rather than competing for user acquisition, OpenAI creates a Codex touchpoint *inside* Claude Code, capturing usage-based revenue without requiring users to switch primary tools[^4].
+The plugin's existence is a strategic calculation by OpenAI. Claude Code has an estimated \$2.5 billion in annualised revenue and accounts for roughly 4% of public GitHub commits — approximately 135,000 per day[^4]. Codex CLI has 3 million weekly active users[^11]. Rather than competing for user acquisition, OpenAI creates a Codex touchpoint *inside* Claude Code, capturing usage-based revenue without requiring users to switch primary tools[^4].
 
 For practitioners, the strategic implications matter less than the practical value: you get cross-provider review with a single command, using models with genuinely different architectures and failure modes. The plugin is not asking you to abandon Claude Code — it is giving you a second opinion from a different model family on every change you make.
 

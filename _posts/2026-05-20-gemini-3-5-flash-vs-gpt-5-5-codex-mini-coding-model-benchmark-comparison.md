@@ -26,7 +26,7 @@ Google's latest Flash-tier model, generally available from 19 May 2026. Built fo
 
 - **Context window:** 1,048,576 tokens input / 65,536 tokens output [^4]
 - **Speed:** ~4x faster output tokens per second than comparable frontier models [^1]
-- **Pricing:** $1.50 / $9.00 per 1M input/output tokens; cached input at $0.15 [^4]
+- **Pricing:** \$1.50 / \$9.00 per 1M input/output tokens; cached input at \$0.15 [^4]
 
 ### GPT-5.5
 
@@ -34,7 +34,7 @@ OpenAI's current flagship, launched 23 April 2026. A general-purpose frontier mo
 
 - **Context window:** 1,000,000 tokens (922K input / 128K output) [^5]
 - **Speed:** Not publicly benchmarked in tokens/second by OpenAI
-- **Pricing:** $5.00 / $30.00 per 1M input/output tokens; cached input at $0.50 [^6]
+- **Pricing:** \$5.00 / \$30.00 per 1M input/output tokens; cached input at \$0.50 [^6]
 
 ### codex-mini-latest
 
@@ -42,7 +42,7 @@ A fine-tuned variant of o4-mini, optimised for low-latency code Q&A and editing 
 
 - **Context window:** 200K tokens [^3]
 - **Speed:** Optimised for interactive terminal responsiveness
-- **Pricing:** $1.50 / $6.00 per 1M input/output tokens; cached input at $0.375 [^3]
+- **Pricing:** \$1.50 / \$6.00 per 1M input/output tokens; cached input at \$0.375 [^3]
 
 ## Head-to-Head Benchmarks
 
@@ -104,10 +104,10 @@ Cost per million tokens tells one story. Cost per task tells another.
 
 | Model | Input ($/1M) | Output ($/1M) | Cached Input ($/1M) |
 |-------|-------------|---------------|---------------------|
-| codex-mini-latest | **$1.50** | **$6.00** | $0.375 |
-| Gemini 3.5 Flash | **$1.50** | $9.00 | **$0.15** |
-| GPT-5.5 | $5.00 | $30.00 | $0.50 |
-| GPT-5.5 (Batch) | $2.50 | $15.00 | $0.25 |
+| codex-mini-latest | **\$1.50** | **\$6.00** | \$0.375 |
+| Gemini 3.5 Flash | **\$1.50** | \$9.00 | **\$0.15** |
+| GPT-5.5 | \$5.00 | \$30.00 | \$0.50 |
+| GPT-5.5 (Batch) | \$2.50 | \$15.00 | \$0.25 |
 
 ```mermaid
 graph LR

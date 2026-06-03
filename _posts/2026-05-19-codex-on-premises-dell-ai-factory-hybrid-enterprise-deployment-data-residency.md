@@ -66,7 +66,7 @@ The GB10 combines a 20-core Arm CPU (10 Cortex-X925 performance cores, 10 Cortex
 
 | | NVIDIA DGX Spark | Dell Pro Max with GB10 |
 |---|---|---|
-| **Price** | $4,699 (Feb 2026 MSRP) [^13] | $4,600 [^14] |
+| **Price** | \$4,699 (Feb 2026 MSRP) [^13] | \$4,600 [^14] |
 | **Memory** | 128 GB unified LPDDR5X | 128 GB unified LPDDR5X |
 | **OS** | DGX OS (Ubuntu-based) | Ubuntu / DGX OS |
 | **Bundled software** | CUDA, JupyterLab, Docker, AI Workbench | CUDA, JupyterLab, Docker, AI Workbench |
@@ -148,7 +148,7 @@ flowchart TB
     style ORG fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-**Tier 1 — Developer Edge (1 developer):** A single Dell Pro Max or DGX Spark on a developer's desk. Runs open-weight models locally for interactive coding, prototyping, and offline work. Cost: ~$4,600. Break-even versus cloud API costs in 6-12 months of daily use [^13].
+**Tier 1 — Developer Edge (1 developer):** A single Dell Pro Max or DGX Spark on a developer's desk. Runs open-weight models locally for interactive coding, prototyping, and offline work. Cost: ~\$4,600. Break-even versus cloud API costs in 6-12 months of daily use [^13].
 
 **Tier 2 — Team Infrastructure (5-15 developers):** Two GB10 units linked via ConnectX-7 networking, providing 256 GB unified memory and support for models up to 400 billion parameters [^15]. Serves as a shared inference node for a small team, accessible via LM Link or a local API gateway.
 
@@ -240,14 +240,14 @@ Dell claims up to 87% cost reduction over two years compared to equivalent publi
 | Deployment Tier | Cost | Break-Even | Best For |
 |---|---|---|---|
 | **Cloud Codex** (ChatGPT Enterprise) | Per-seat subscription | Immediate (no capex) | < 50 developers, burst workloads |
-| **GB10 Desktop** (Dell Pro Max) | ~$4,600 one-off | 6-12 months vs cloud API [^13] | Individual developers, offline/air-gapped work |
-| **2x GB10 Multi-Node** | ~$9,200 + networking | 4-8 months at team scale | Small teams (5-15 devs) needing shared inference |
+| **GB10 Desktop** (Dell Pro Max) | ~\$4,600 one-off | 6-12 months vs cloud API [^13] | Individual developers, offline/air-gapped work |
+| **2x GB10 Multi-Node** | ~\$9,200 + networking | 4-8 months at team scale | Small teams (5-15 devs) needing shared inference |
 | **Dell AI Factory Rack** | Enterprise pricing | 12-18 months at 500+ devs | Organisation-wide deployment |
 | **Hybrid** (GB10 local + cloud burst) | Mixed | Optimal for 50-500 devs | Routine tasks local, complex tasks cloud |
 
 The cached-token economics matter here too. On-premises inference — whether rack-scale or GB10 — can maintain warm context caches without the 5-minute TTL constraints of OpenAI's hosted prompt caching [^11], potentially reducing effective input costs further for long-running agentic sessions.
 
-For the GB10 specifically: at current cloud API pricing of roughly $2-3/hour for equivalent GPU compute, the device pays for itself in approximately 2,000-2,500 hours of GPU time [^13]. A developer running local inference for 8 hours a day hits break-even in under a year.
+For the GB10 specifically: at current cloud API pricing of roughly \$2-3/hour for equivalent GPU compute, the device pays for itself in approximately 2,000-2,500 hours of GPU time [^13]. A developer running local inference for 8 hours a day hits break-even in under a year.
 
 ## What Platform Teams Should Do Now
 
@@ -259,7 +259,7 @@ The partnership was announced at Dell Technologies World, with expanded PowerRac
 
 2. **Inventory your Dell footprint** — If you already run Dell AI Factory infrastructure, you have a head start. The Codex integration layers on top of existing storage and compute rather than requiring greenfield deployment.
 
-3. **Pilot a GB10 developer workstation** — Before committing to rack-scale infrastructure, purchase a single Dell Pro Max with GB10 ($4,600). Install Ollama or LM Studio, load Qwen3.6-35B-A3B, point Codex CLI at it, and benchmark against your actual codebase. This gives you concrete performance data for your business case in under a week.
+3. **Pilot a GB10 developer workstation** — Before committing to rack-scale infrastructure, purchase a single Dell Pro Max with GB10 (\$4,600). Install Ollama or LM Studio, load Qwen3.6-35B-A3B, point Codex CLI at it, and benchmark against your actual codebase. This gives you concrete performance data for your business case in under a week.
 
 4. **Test your `requirements.toml` portability** — Deploy your enterprise `requirements.toml` and `managed_config.toml` on a test workstation pointing at a local API endpoint. The policy layer should behave identically regardless of the backing inference surface [^7].
 
@@ -269,7 +269,7 @@ The partnership was announced at Dell Technologies World, with expanded PowerRac
 
 - **Do not assume air-gapped means zero OpenAI connectivity** — Model updates, telemetry, and licence verification may still require periodic connectivity. Clarify the exact network requirements before committing to a fully air-gapped architecture. Note that GB10 running open-weight models (Gemma, Qwen) avoids this dependency entirely.
 - **Do not conflate on-premises hosting with automatic compliance** — Running Codex on your own hardware shifts the compliance burden to your organisation's controls. You inherit the audit responsibility.
-- **Do not skip the GB10 pilot** — The most common failure mode in enterprise AI infrastructure is over-provisioning before validating the use case. A $4,600 GB10 answers the question "does local inference work for our workflows?" before a six-figure rack commitment.
+- **Do not skip the GB10 pilot** — The most common failure mode in enterprise AI infrastructure is over-provisioning before validating the use case. A \$4,600 GB10 answers the question "does local inference work for our workflows?" before a six-figure rack commitment.
 - **Do not delay `requirements.toml` adoption** — Whether you deploy on-premises or not, centralised policy enforcement via managed configuration is the foundation of enterprise Codex governance [^7]. Start now.
 
 ## The Broader Pattern: Codex Becomes Infrastructure-Agnostic
@@ -294,7 +294,7 @@ flowchart LR
 
 For platform engineering teams, this means Codex configuration can be genuinely portable across execution surfaces. The same `AGENTS.md`, the same skills, the same hooks, the same `requirements.toml` — deployed on whichever infrastructure meets the organisation's security, latency, and cost requirements.
 
-That portability is the real story behind the Dell announcement. The partnership is not just about hardware. It is about Codex becoming an infrastructure-agnostic coding agent that enterprises can deploy wherever their constraints demand — from a $4,600 box on a developer's desk to a multi-rack AI Factory in a sovereign data centre — without sacrificing the governance, tooling, or developer experience that makes it useful.
+That portability is the real story behind the Dell announcement. The partnership is not just about hardware. It is about Codex becoming an infrastructure-agnostic coding agent that enterprises can deploy wherever their constraints demand — from a \$4,600 box on a developer's desk to a multi-rack AI Factory in a sovereign data centre — without sacrificing the governance, tooling, or developer experience that makes it useful.
 
 ---
 
@@ -324,7 +324,7 @@ That portability is the real story behind the Dell announcement. The partnership
 
 [^12]: NVIDIA, "DGX Spark -- Personal AI Supercomputer Powered by Blackwell," nvidia.com, 2026. [https://www.nvidia.com/en-us/products/workstations/dgx-spark/](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
 
-[^13]: Technetbook, "NVIDIA DGX Spark Price Increases to $4699 Due to Memory Supply Constraints," technetbooks.com, February 2026. [https://www.technetbooks.com/2026/02/nvidia-dgx-spark-price-increases-to.html](https://www.technetbooks.com/2026/02/nvidia-dgx-spark-price-increases-to.html)
+[^13]: Technetbook, "NVIDIA DGX Spark Price Increases to \$4699 Due to Memory Supply Constraints," technetbooks.com, February 2026. [https://www.technetbooks.com/2026/02/nvidia-dgx-spark-price-increases-to.html](https://www.technetbooks.com/2026/02/nvidia-dgx-spark-price-increases-to.html)
 
 [^14]: Dell Technologies, "Dell Pro Max with GB10: Purpose-built for AI Developers," dell.com, 2026. [https://www.dell.com/en-us/blog/dell-pro-max-with-gb10-purpose-built-for-ai-developers/](https://www.dell.com/en-us/blog/dell-pro-max-with-gb10-purpose-built-for-ai-developers/)
 

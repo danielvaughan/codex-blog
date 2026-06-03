@@ -10,7 +10,7 @@ tags: ["codex-cli", "llmops", "prompt-versioning", "evaluation", "observability"
 
 ---
 
-LLMOps — the discipline of deploying, versioning, evaluating, and monitoring large language model applications in production — has matured from a buzzword into a $7.14 billion market in 2026 [^1]. Yet most guides treat it as a platform concern, separate from the coding agent that writes and ships your code. That separation is artificial. Codex CLI sits at the intersection of development and operations: it generates the code, runs the evals, and — via MCP — connects directly to the observability platforms that track production behaviour.
+LLMOps — the discipline of deploying, versioning, evaluating, and monitoring large language model applications in production — has matured from a buzzword into a \$7.14 billion market in 2026 [^1]. Yet most guides treat it as a platform concern, separate from the coding agent that writes and ships your code. That separation is artificial. Codex CLI sits at the intersection of development and operations: it generates the code, runs the evals, and — via MCP — connects directly to the observability platforms that track production behaviour.
 
 This article maps the complete LLMOps loop through Codex CLI: versioning prompts as code, running eval pipelines in CI, tracing agent behaviour in production, and closing the feedback loop.
 
@@ -270,7 +270,7 @@ At the time of writing, Codex CLI stable is at v0.135.0 (28 May 2026) [^10]. Pro
 - **Trace everything.** Langfuse and Braintrust MCP servers give Codex CLI direct access to production telemetry.
 - **Close the loop.** Let the agent that writes code also optimise the prompts that govern it.
 
-The LLMOps market is projected to reach $15.59 billion by 2030 [^1]. The tooling is mature. The integration points exist. The only missing piece is the discipline to wire them together — and with Codex CLI's MCP ecosystem, that wiring is a configuration file away.
+The LLMOps market is projected to reach \$15.59 billion by 2030 [^1]. The tooling is mature. The integration points exist. The only missing piece is the discipline to wire them together — and with Codex CLI's MCP ecosystem, that wiring is a configuration file away.
 
 ## Citations
 

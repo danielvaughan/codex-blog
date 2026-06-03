@@ -52,7 +52,7 @@ A typical search completes in under six seconds across up to 36 tool calls sprea
 | SWE-bench Pro (GPT-5.3 Codex) | 59.1% | 56.0% |
 | SWE-bench Pro (Opus 4.6) | 57.5% | 55.4% |
 | Input tokens per task | -17% | baseline |
-| Per-task cost (Opus 4.6) | $2.51 | $3.06 |
+| Per-task cost (Opus 4.6) | \$2.51 | \$3.06 |
 | Wall-clock time | -28% | baseline |
 | Retrieval F1 | 0.73 | -- |
 
@@ -163,7 +163,7 @@ WarpGrep is not the only RL-trained search subagent. Cognition's SWE-grep, bundl
 |-----------|------------|----------|
 | Availability | MCP server, SDK, API | Windsurf-only |
 | Agent support | Codex CLI, Claude Code, Cursor, VS Code Copilot | Windsurf |
-| Pricing | $0.80/M tokens (input + output) | Bundled with Windsurf subscription |
+| Pricing | \$0.80/M tokens (input + output) | Bundled with Windsurf subscription |
 | Speed | Sub-6s end-to-end | 2,800+ tok/s on Cerebras |
 | Output format | `(file, [start, end])` spans | Full files |
 | Published SWE-bench lift | +2.1 to +3.7 points | Not published |
@@ -206,7 +206,7 @@ This avoids cloning large upstream repositories when you need to understand a de
 
 ## Cost Considerations
 
-At $0.80 per million tokens for both input and output, a typical WarpGrep search costs approximately $0.003 [^4]. Across a full development day with 50-100 searches, the marginal cost is $0.15-0.30. The net effect is typically cost-negative because the main model consumes fewer tokens per task [^2].
+At \$0.80 per million tokens for both input and output, a typical WarpGrep search costs approximately \$0.003 [^4]. Across a full development day with 50-100 searches, the marginal cost is \$0.15-0.30. The net effect is typically cost-negative because the main model consumes fewer tokens per task [^2].
 
 For teams concerned about spend, set a tool-level budget in your AGENTS.md:
 

@@ -276,7 +276,7 @@ Load test generation is a good candidate for model routing. The initial script g
 | Threshold calibration | GPT-5.4-mini | `low` | Simple numeric adjustment |
 | CI pipeline generation | GPT-5.5 | `medium` | YAML structure + tool integration |
 
-For batch generation across multiple services in a monorepo, use `codex exec` with `--model gpt-5.5` at batch API pricing ($2.50/$15.00 per million tokens) — identical to GPT-5.4 standard rates[^11].
+For batch generation across multiple services in a monorepo, use `codex exec` with `--model gpt-5.5` at batch API pricing (\$2.50/\$15.00 per million tokens) — identical to GPT-5.4 standard rates[^11].
 
 ## Limitations
 

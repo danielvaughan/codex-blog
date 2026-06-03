@@ -2,7 +2,7 @@
 title: "Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software"
 description: "You have written a skill for your coding agent. It looks right. It seems to work when you try it."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - ecosystem
   - skills
@@ -171,7 +171,7 @@ In one documented example, the baseline skill scored 81 on evaluation metrics wh
 
 ## The Cost Question
 
-A recurring concern in the community is whether the token cost of evaluation is justified. Running parallel executions with comparator agents can cost between $12 and $15 per evaluation cycle, depending on the model and number of scenarios[^8].
+A recurring concern in the community is whether the token cost of evaluation is justified. Running parallel executions with comparator agents can cost between \$12 and \$15 per evaluation cycle, depending on the model and number of scenarios[^8].
 
 The answer depends on what the skill does:
 
@@ -179,7 +179,7 @@ The answer depends on what the skill does:
 |---|---|---|
 | Personal formatting helper | Probably not worth it | The skill is cheap to rewrite if it breaks |
 | Team-shared code review skill | Worth a single evaluation run | Affects multiple developers daily |
-| Enterprise workflow automation | Worth regular scheduled evaluation | A Jira-to-deployment pipeline that saves 100 engineer-hours per month easily justifies $15 in evaluation tokens |
+| Enterprise workflow automation | Worth regular scheduled evaluation | A Jira-to-deployment pipeline that saves 100 engineer-hours per month easily justifies \$15 in evaluation tokens |
 | Registry-published skill | Essential | You owe it to consumers to prove the skill works |
 
 Tessl's review evaluations are free and run automatically on publish. Task evaluations consume agent tokens but provide the only reliable signal of real-world effectiveness.
@@ -215,7 +215,7 @@ This is the difference between treating skills as static configuration files and
 - Harbor provides the open-source statistical evaluation foundation, running multiple trials to account for inference stochasticity.
 - Skill Creator V2 complements Tessl with parallel sub-agent execution, comparator agents, and benchmark mode for the authoring phase.
 - Codex CLI users can integrate Tessl into their skill lifecycle with `tessl init --agent codex`.
-- The cost of evaluation ($12 to $15 per cycle) is justified for team-shared and enterprise skills, but overkill for simple personal helpers.
+- The cost of evaluation (\$12 to \$15 per cycle) is justified for team-shared and enterprise skills, but overkill for simple personal helpers.
 - Skills degrade over time as models improve. Scheduled evaluation runs detect this before it causes silent performance loss.
 
 ---

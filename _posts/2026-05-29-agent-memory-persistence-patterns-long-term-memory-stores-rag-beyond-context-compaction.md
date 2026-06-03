@@ -65,10 +65,10 @@ On LongMemEval, Zep's Graphiti engine scores 15 points higher than competing sol
 
 Mem0 combines three storage layers — vector search for semantic similarity, graph relationships for entity connections, and key-value storage for fast structured lookups — with a four-scope memory model: `user_id`, `agent_id`, `run_id`, `app_id`, plus an optional `org_id` [^9]. Rather than storing raw conversation chunks, Mem0 runs an extraction phase that distils salient facts into compact natural-language memories.
 
-With 48,000+ GitHub stars and a $24M Series A, Mem0 is the largest standalone agent memory community [^9]. AWS selected it as the exclusive memory provider in the AWS Agent SDK [^10].
+With 48,000+ GitHub stars and a \$24M Series A, Mem0 is the largest standalone agent memory community [^9]. AWS selected it as the exclusive memory provider in the AWS Agent SDK [^10].
 
 **Strengths:** Framework-agnostic (LangChain, CrewAI, AutoGen, custom loops), managed cloud option, multi-scope scoping.
-**Weaknesses:** Graph features locked to Pro tier ($249/month), cloud dependency for full feature set.
+**Weaknesses:** Graph features locked to Pro tier (\$249/month), cloud dependency for full feature set.
 
 ### 4. OS-Level Virtual Memory (Letta / MemGPT)
 

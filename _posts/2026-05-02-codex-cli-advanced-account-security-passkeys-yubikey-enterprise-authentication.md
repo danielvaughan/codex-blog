@@ -191,7 +191,7 @@ codex exec "search this repository and any Docker images for references to auth.
 
 ## The YubiKey Bundle
 
-OpenAI partnered with Yubico to offer a branded 2-pack (YubiKey 5C NFC + YubiKey 5C Nano) for $68 — a meaningful discount over individual retail pricing of approximately $55 per key[^9]. The bundle provides:
+OpenAI partnered with Yubico to offer a branded 2-pack (YubiKey 5C NFC + YubiKey 5C Nano) for \$68 — a meaningful discount over individual retail pricing of approximately \$55 per key[^9]. The bundle provides:
 
 - **5C NFC**: Primary key for mobile and laptop use (USB-C + NFC)
 - **5C Nano**: Backup key that remains inserted in a laptop USB-C port

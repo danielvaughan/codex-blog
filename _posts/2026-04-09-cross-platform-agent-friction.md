@@ -2,7 +2,7 @@
 title: "Cross-Platform Agent Friction: The Five Pain Points Every CLI Tool Shares in April 2026"
 description: "Terminal-based AI coding agents have become the default tool for serious developers in 2026. Codex CLI, Claude Code, Gemini CLI, OpenCode, Kimi CLI, GitHub."
 date: 2026-04-09T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - cross-platform
   - friction-points
@@ -31,9 +31,9 @@ The most emotionally charged friction point across every tool is **cost unpredic
 
 ### The evidence
 
-Codex CLI's billing issues have generated hundreds of GitHub comments. Issue [#15959](https://github.com/openai/codex/issues/15959) documents how a CLI update caused unexpected top-up credit consumption — users with remaining weekly quota found their credits drained to zero[^3]. Issue [#16785](https://github.com/openai/codex/issues/16785) reports arbitrary usage resets resulting in net token loss[^4]. Sub-agent costs compound the problem: issue [#12488](https://github.com/openai/codex/issues/12488) describes a user exceeding their Pro Plan budget by $350 in a single week because cost impact was invisible before sub-agent launch[^5].
+Codex CLI's billing issues have generated hundreds of GitHub comments. Issue [#15959](https://github.com/openai/codex/issues/15959) documents how a CLI update caused unexpected top-up credit consumption — users with remaining weekly quota found their credits drained to zero[^3]. Issue [#16785](https://github.com/openai/codex/issues/16785) reports arbitrary usage resets resulting in net token loss[^4]. Sub-agent costs compound the problem: issue [#12488](https://github.com/openai/codex/issues/12488) describes a user exceeding their Pro Plan budget by \$350 in a single week because cost impact was invisible before sub-agent launch[^5].
 
-Claude Code faces an even more acute crisis. Issue [#38335](https://github.com/anthropic/claude-code/issues/38335) — with hundreds of comments — reports 100% quota drain in 70 minutes to two hours versus normal full-day usage[^2]. The Max plan at $200/month does not exempt users from rate limits during intensive multi-file refactors[^6].
+Claude Code faces an even more acute crisis. Issue [#38335](https://github.com/anthropic/claude-code/issues/38335) — with hundreds of comments — reports 100% quota drain in 70 minutes to two hours versus normal full-day usage[^2]. The Max plan at \$200/month does not exempt users from rate limits during intensive multi-file refactors[^6].
 
 OpenAI describes Codex rate limits in **relative terms** (2x, 6x multipliers) rather than absolute token counts[^7]. This means you cannot predict when you will hit a limit, making it impossible to plan a workday around the tool.
 

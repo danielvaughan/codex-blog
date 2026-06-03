@@ -2,7 +2,7 @@
 title: "Building a Codex Agent Swarm: From 6 Threads to 30 with External Orchestration"
 description: "Codex CLI's built-in subagent system is impressive — up to six concurrent threads with TOML-defined roles, path addressing, and CSV batch processing ."
 date: 2026-04-09T03:16:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - agent-swarm
   - scaling
@@ -268,7 +268,7 @@ Key metrics to track across your swarm:
 
 ## Cost Management for 20+ Parallel Agents
 
-Running 30 agents simultaneously can burn through API budget rapidly. Each agent maintains its own context window, and with GPT-5.3-Codex at current pricing, a 30-agent swarm processing moderately complex tasks (10K tokens input + 5K output per agent) can cost $15–30 per batch [^2].
+Running 30 agents simultaneously can burn through API budget rapidly. Each agent maintains its own context window, and with GPT-5.3-Codex at current pricing, a 30-agent swarm processing moderately complex tasks (10K tokens input + 5K output per agent) can cost \$15–30 per batch [^2].
 
 Mitigation strategies:
 

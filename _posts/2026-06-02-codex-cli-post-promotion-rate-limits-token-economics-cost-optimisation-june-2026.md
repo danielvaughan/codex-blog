@@ -10,7 +10,7 @@ tags: ["codex-cli", "pricing", "rate-limits", "cost-optimisation", "token-econom
 
 ## The Promotion Is Over
 
-On 31 May 2026, the Pro 2x capacity boost quietly expired [^1]. For three months, Pro $100 subscribers enjoyed double the standard Codex capacity — a promotional multiplier that made the tier feel like a bargain. As of 1 June, that multiplier is gone: same price, half the effective headroom [^2]. Developers who built their workflows around the promotional ceiling are now bumping into limits they have never seen before.
+On 31 May 2026, the Pro 2x capacity boost quietly expired [^1]. For three months, Pro \$100 subscribers enjoyed double the standard Codex capacity — a promotional multiplier that made the tier feel like a bargain. As of 1 June, that multiplier is gone: same price, half the effective headroom [^2]. Developers who built their workflows around the promotional ceiling are now bumping into limits they have never seen before.
 
 This article breaks down what actually changed, explains the token economics behind the rate card, and walks through concrete strategies for keeping your velocity up without doubling your spend.
 
@@ -20,7 +20,7 @@ Codex bills on a **credit-per-token** model, introduced on 2 April 2026 to repla
 
 ### Post-Promotion Five-Hour Limits (Local Messages)
 
-| Model | Plus ($20) | Pro 5x ($100) | Pro 20x ($200) |
+| Model | Plus (\$20) | Pro 5x (\$100) | Pro 20x (\$200) |
 |-------|-----------|---------------|----------------|
 | GPT-5.5 | 15–80 | 80–400 | 300–1,600 |
 | GPT-5.4 | 20–100 | 100–500 | 400–2,000 |

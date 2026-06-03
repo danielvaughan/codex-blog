@@ -107,8 +107,8 @@ Managed Agents use Bedrock's standard pricing for the underlying models, with a 
 
 | Model | Bedrock Input ($/1M) | Bedrock Output ($/1M) | Direct OpenAI Input ($/1M) | Direct OpenAI Output ($/1M) |
 |-------|:-------------------:|:--------------------:|:-------------------------:|:--------------------------:|
-| GPT-5.5 | $5.00 | $30.00 | $125.00 | $750.00 |
-| GPT-5.4 | $2.50 | $15.00 | $62.50 | $375.00 |
+| GPT-5.5 | \$5.00 | \$30.00 | \$125.00 | \$750.00 |
+| GPT-5.4 | \$2.50 | \$15.00 | \$62.50 | \$375.00 |
 
 Prompt caching is available at a 90% discount on input tokens [^7]. The dramatic price difference compared to direct OpenAI pricing reflects the cross-provider arrangement — AWS handles billing, infrastructure, and compliance, while OpenAI provides model inference.
 

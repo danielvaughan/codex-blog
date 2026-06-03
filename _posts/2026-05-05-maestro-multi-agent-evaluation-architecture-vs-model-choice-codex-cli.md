@@ -42,7 +42,7 @@ graph TD
 
 ## Finding 1: Architecture Dominates Model Choice
 
-CRAG achieved a **median cost of $0.0010 per task** — more than 10x cheaper than Plan-and-Execute ($0.0126) and LATS ($0.0101) [^1]. Execution time followed the same pattern: 42.8 seconds for CRAG versus 101.5 seconds for Plan-and-Execute [^1]. CRAG also posted the highest average accuracy at **70.6%**, against 48.3% for Plan-and-Execute [^1].
+CRAG achieved a **median cost of \$0.0010 per task** — more than 10x cheaper than Plan-and-Execute (\$0.0126) and LATS (\$0.0101) [^1]. Execution time followed the same pattern: 42.8 seconds for CRAG versus 101.5 seconds for Plan-and-Execute [^1]. CRAG also posted the highest average accuracy at **70.6%**, against 48.3% for Plan-and-Execute [^1].
 
 Switching backend models within the same architecture produced smaller shifts. Architecture dependency for CPU consumption ranged from 9.7% (CRAG) to 1.36% (LATS) to 0.07% (Plan-and-Execute) [^1]. Tool enablement reduced average CPU by only 3.1% and memory by 4.8 MB [^1].
 

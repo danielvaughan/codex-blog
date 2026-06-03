@@ -2,7 +2,7 @@
 title: "The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality"
 description: "Andrej Karpathy posted a thread on April 9, 2026 that crystallised something Codex CLI practitioners have felt for months: the people who use frontier."
 date: 2026-04-10T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags: ["karpathy", "ai-capability-gap", "reinforcement-learning", "agentic-coding", "codex-cli", "frontier-models", "verifiable-rewards", "perception"]
 ---
 ![Sketchnote diagram for: The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality](/sketchnotes/articles/2026-04-10-karpathy-ai-capability-gap-codex-cli.png)
@@ -36,7 +36,7 @@ Karpathy attributes the lopsided progress to two reinforcing factors, and they m
 
 This is why `gpt-5.3-codex` and `gpt-5.4` are so much better at programming than their predecessors: they were trained with RL against verifiable coding benchmarks at a scale and fidelity that is simply not possible for open-ended conversational tasks [^3].
 
-**Factor 2: B2B value concentrates investment.** Enterprise customers pay for coding productivity gains. A model that saves an engineering team 20 hours per week justifies a $200/month subscription hundreds of times over. A model that writes slightly better birthday messages does not. The economic gravity pulls the best researchers, the most compute, and the tightest feedback loops toward the high-value technical domains.
+**Factor 2: B2B value concentrates investment.** Enterprise customers pay for coding productivity gains. A model that saves an engineering team 20 hours per week justifies a \$200/month subscription hundreds of times over. A model that writes slightly better birthday messages does not. The economic gravity pulls the best researchers, the most compute, and the tightest feedback loops toward the high-value technical domains.
 
 For Codex CLI users, this means the tool improves faster than your intuition expects, because the investment flywheel is specifically aimed at the workflows you use it for.
 

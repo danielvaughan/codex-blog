@@ -105,13 +105,13 @@ Grok Build claims a local-first architecture where "all code runs on your machin
 
 | Tier | Codex CLI | Grok Build |
 |---|---|---|
-| Entry subscription | Pro $20/month | SuperGrok Heavy $299/month ($99/month introductory)[^3] |
-| API input tokens | $2.50/M (GPT-5.5)[^15] | $0.20/M (grok-code-fast-1)[^3] |
-| API output tokens | $10.00/M (GPT-5.5)[^15] | $1.50/M[^3] |
+| Entry subscription | Pro \$20/month | SuperGrok Heavy \$299/month (\$99/month introductory)[^3] |
+| API input tokens | \$2.50/M (GPT-5.5)[^15] | \$0.20/M (grok-code-fast-1)[^3] |
+| API output tokens | \$10.00/M (GPT-5.5)[^15] | \$1.50/M[^3] |
 
-Grok Build's API token pricing is aggressively low, but the subscription barrier is steep --- $99/month introductory, rising to $299/month, compared to Codex CLI's $20/month Pro tier[^3]. The eight-agent parallelism also multiplies token consumption. A task that costs N tokens on Codex CLI could cost up to 8N on Grok Build if all sub-agents run to completion, though Arena Mode's early pruning may mitigate this.
+Grok Build's API token pricing is aggressively low, but the subscription barrier is steep --- \$99/month introductory, rising to \$299/month, compared to Codex CLI's \$20/month Pro tier[^3]. The eight-agent parallelism also multiplies token consumption. A task that costs N tokens on Codex CLI could cost up to 8N on Grok Build if all sub-agents run to completion, though Arena Mode's early pruning may mitigate this.
 
-For enterprise teams already on OpenAI's Business or Enterprise plans ($30/user/month), Codex CLI's pricing is bundled into existing contracts. Grok Build requires a separate, premium subscription with no enterprise volume discounts announced.
+For enterprise teams already on OpenAI's Business or Enterprise plans (\$30/user/month), Codex CLI's pricing is bundled into existing contracts. Grok Build requires a separate, premium subscription with no enterprise volume discounts announced.
 
 ## What Codex CLI Users Should Watch
 

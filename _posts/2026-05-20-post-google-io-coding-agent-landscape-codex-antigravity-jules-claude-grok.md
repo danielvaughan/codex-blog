@@ -100,19 +100,19 @@ flowchart LR
 
 | Agent | Entry Tier | Mid Tier | Premium Tier |
 |-------|-----------|----------|--------------|
-| Codex CLI | $20/mo (Plus)[^12] | $100/mo (Pro) | $200/mo (Pro 20x) |
-| Claude Code | $20/mo (Pro)[^13] | $100/mo (Max 5x) | $200/mo (Max 20x) |
-| Grok Build | $99/mo intro ($299 standard)[^3] | — | SuperGrok Heavy |
-| Antigravity 2.0 | $20/mo (AI Pro)[^14] | $100/mo (AI Ultra) | $200/mo (AI Ultra 20x) |
+| Codex CLI | \$20/mo (Plus)[^12] | \$100/mo (Pro) | \$200/mo (Pro 20x) |
+| Claude Code | \$20/mo (Pro)[^13] | \$100/mo (Max 5x) | \$200/mo (Max 20x) |
+| Grok Build | \$99/mo intro (\$299 standard)[^3] | — | SuperGrok Heavy |
+| Antigravity 2.0 | \$20/mo (AI Pro)[^14] | \$100/mo (AI Ultra) | \$200/mo (AI Ultra 20x) |
 | Jules V2 | Included with AI Ultra[^14] | — | — |
 
-The three major platforms (OpenAI, Anthropic, Google) have converged on identical tier structures: $20/$100/$200. Grok Build is the outlier at $99/mo introductory, making it the most expensive entry point for a beta product.
+The three major platforms (OpenAI, Anthropic, Google) have converged on identical tier structures: \$20/\$100/\$200. Grok Build is the outlier at \$99/mo introductory, making it the most expensive entry point for a beta product.
 
 ## Enterprise Considerations
 
 **Codex CLI** offers enterprise governance through config layering (user/project/enterprise TOML files), hook-based policy enforcement, and the `codex doctor` diagnostics command[^4]. The Python SDK (`openai-codex`) supports programmatic integration.
 
-**Claude Code** provides Team plans at $100/seat/month with centralised billing[^13]. Opus 4.7 is available on AWS Bedrock, Google Vertex AI, and Microsoft Foundry[^9].
+**Claude Code** provides Team plans at \$100/seat/month with centralised billing[^13]. Opus 4.7 is available on AWS Bedrock, Google Vertex AI, and Microsoft Foundry[^9].
 
 **Antigravity 2.0** launched the Gemini Enterprise Agent Platform alongside managed agents in the Gemini API[^1]. A single API call provisions a fully sandboxed agent with remote execution.
 
@@ -158,7 +158,7 @@ The earlier three-way comparison[^15] covered Codex CLI, Claude Code, and Gemini
 
 ## Recommendation
 
-For teams choosing in June 2026: **Claude Code remains the safest default** for interactive development — Opus 4.7's self-verification reduces the worst agentic failure modes, the $20 Pro entry point is accessible, and multi-cloud availability (Bedrock, Vertex, Foundry) avoids vendor lock-in. **Codex CLI is the performance pick** if you prioritise benchmark scores and terminal ergonomics. **Antigravity 2.0 is worth evaluating** if you need multi-agent orchestration or are already in Google's ecosystem. **Grok Build** is interesting for large-context monorepo work but too early to recommend for production. **Jules V2** is one to watch — goal-driven development may be the future, but it is not yet the present.
+For teams choosing in June 2026: **Claude Code remains the safest default** for interactive development — Opus 4.7's self-verification reduces the worst agentic failure modes, the \$20 Pro entry point is accessible, and multi-cloud availability (Bedrock, Vertex, Foundry) avoids vendor lock-in. **Codex CLI is the performance pick** if you prioritise benchmark scores and terminal ergonomics. **Antigravity 2.0 is worth evaluating** if you need multi-agent orchestration or are already in Google's ecosystem. **Grok Build** is interesting for large-context monorepo work but too early to recommend for production. **Jules V2** is one to watch — goal-driven development may be the future, but it is not yet the present.
 
 ---
 

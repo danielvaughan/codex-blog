@@ -1,7 +1,7 @@
 ---
 title: "Evaluating Codex Agents: Evals, Long-Horizon Benchmarks, and the 4-File Pattern"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 description: "How to evaluate whether your Codex agent actually did the right thing — from quick skill evals to 25-hour autonomous runs."
 tags:
   - workflow-patterns
@@ -60,7 +60,7 @@ codex exec --repeat 3 "Run the security audit skill" 2>&1 | grep "pass_rate"
 ```
 
 **Cost guardrails:** Set thresholds to catch regressions:
-- A security audit skill should cost < $0.25 and complete in < 30 seconds
+- A security audit skill should cost < \$0.25 and complete in < 30 seconds
 - If latency or cost spikes, the agent is thrashing
 
 ---

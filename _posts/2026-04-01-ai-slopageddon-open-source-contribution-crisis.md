@@ -2,7 +2,7 @@
 title: "AI Slopageddon and the Open-Source Contribution Crisis: How Codex CLI's Invitation-Only Model Signals a New Era"
 description: "In January 2026, three critical open-source projects took unprecedented defensive measures within weeks of each other. cURL shut down its bug bounty."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - opinion
   - open-source
@@ -113,7 +113,7 @@ The programme includes:
 
 - **ChatGPT Pro with Codex** for core maintainers with write access
 - **Codex Security** access (conditional) for vulnerability scanning
-- **API credits** through the $1M Codex Open Source Fund for projects using Codex in PR review, maintainer automation, or release workflows[^8]
+- **API credits** through the \$1M Codex Open Source Fund for projects using Codex in PR review, maintainer automation, or release workflows[^8]
 
 Critically, the programme is tool-agnostic — OpenAI explicitly names OpenCode, Cline, pi, and OpenClaw as supported alternatives[^8]. This positions it as genuine ecosystem support rather than vendor lock-in.
 

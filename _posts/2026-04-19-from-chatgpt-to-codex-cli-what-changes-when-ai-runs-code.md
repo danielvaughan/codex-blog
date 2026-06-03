@@ -165,7 +165,7 @@ Codex CLI does not replace ChatGPT for every coding task. ChatGPT remains the be
 - **You are exploring design options** — brainstorming architecture decisions benefits from dialogue, not autonomous execution
 - **You are working on a machine where you cannot install Codex CLI** — ChatGPT runs in any browser
 - **You want multi-modal input** — pasting screenshots of UI bugs, whiteboard diagrams, or error dialogs into ChatGPT's vision capabilities[^1]
-- **Cost sensitivity** — ChatGPT Plus at $20/month includes generous usage; Codex CLI consumes API credits that scale with usage[^11]
+- **Cost sensitivity** — ChatGPT Plus at \$20/month includes generous usage; Codex CLI consumes API credits that scale with usage[^11]
 
 The practical heuristic: if your task ends with "and verify it works," Codex CLI is the right tool. If your task ends with "and help me understand," ChatGPT is.
 

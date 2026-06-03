@@ -2,7 +2,7 @@
 title: "Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard"
 description: "Running Codex CLI across a fifty-person engineering department is a different proposition from a solo developer experimenting in a side project. Regulated."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - enterprise
   - audit-logs
@@ -107,8 +107,8 @@ Codex pricing operates on a tiered model [^6]:
 
 | Plan | Price | Key Features |
 |------|-------|-------------|
-| Plus | $20/month | CLI, IDE, web, iOS; GPT-5.4 and GPT-5.3-Codex |
-| Pro | $200/month | 6× higher limits; GPT-5.3-Codex-Spark; priority processing |
+| Plus | \$20/month | CLI, IDE, web, iOS; GPT-5.4 and GPT-5.3-Codex |
+| Pro | \$200/month | 6× higher limits; GPT-5.3-Codex-Spark; priority processing |
 | Business | Pay as you go | SAML SSO, MFA, workspace controls, larger cloud VMs |
 | Enterprise | Custom | SCIM, EKM, RBAC, audit logs, data residency, dedicated support |
 

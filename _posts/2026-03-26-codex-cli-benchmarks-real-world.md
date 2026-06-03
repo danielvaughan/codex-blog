@@ -2,7 +2,7 @@
 title: "Codex CLI in Practice: Real-World Benchmarks and What They Mean"
 description: "Benchmark numbers dominate marketing copy, but most developers lack the context to interpret them critically."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - opinion
   - testing
@@ -93,7 +93,7 @@ pip install harbor-framework
 harbor run -d terminal-bench@2.0 --agent codex-cli --model gpt-5.3-codex
 ```
 
-Costs range from roughly **$1 to $100 per full run** depending on model pricing.[^3]
+Costs range from roughly **\$1 to \$100 per full run** depending on model pricing.[^3]
 
 ### Current Scores (March 2026)
 
@@ -187,7 +187,7 @@ For tasks analogous to SWE-bench scenarios (isolated bug fix, single PR scope), 
 
 ### 4. Run your own micro-benchmark
 
-The only benchmark that truly matters is performance on your codebase. Terminal-Bench 2.0 offers a useful template: 5–10 representative tasks from your actual workflows, each with a Docker environment and a deterministic test. Run them against each model and scaffold configuration you're considering. Costs are low enough ($1–10 for a small suite) that this is practical.[^3]
+The only benchmark that truly matters is performance on your codebase. Terminal-Bench 2.0 offers a useful template: 5–10 representative tasks from your actual workflows, each with a Docker environment and a deterministic test. Run them against each model and scaffold configuration you're considering. Costs are low enough (\$1–10 for a small suite) that this is practical.[^3]
 
 ---
 

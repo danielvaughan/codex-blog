@@ -124,7 +124,7 @@ codex "Fine-tune Qwen3-0.6B on open-r1/codeforces-cots using SFT. \
   Maintain a training report. Evaluate with openai_humaneval."
 ```
 
-Codex validates the dataset format, selects appropriate hardware (typically `t4-small` for sub-1B models at ~$0.75/hour), generates the training script with Trackio monitoring, submits the job, and creates a structured report[^7].
+Codex validates the dataset format, selects appropriate hardware (typically `t4-small` for sub-1B models at ~\$0.75/hour), generates the training script with Trackio monitoring, submits the job, and creates a structured report[^7].
 
 ### MCP Server Configuration for ML Tools
 

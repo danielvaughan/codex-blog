@@ -2,7 +2,7 @@
 title: "Codex Cloud vs Codex Local: When to Run in the Cloud"
 description: "Codex ships as two distinct execution surfaces: a local CLI that runs code on your machine."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 summary: "A practical decision guide covering codex cloud exec, environment provisioning, background task patterns, Slack/@Linear triggers, cloud+local hybrid strategies, and the 5x credit cost model."
 tags:
   - cloud
@@ -62,9 +62,9 @@ This makes sense: cloud tasks spin up and warm a container, check out your repo,
 
 | Plan | Local messages (GPT-5.4) | Cloud tasks (GPT-5.3-Codex) | Window |
 |------|--------------------------|------------------------------|--------|
-| Plus ($20/mo) | 33–168 | 10–60 | 5 hours |
-| Pro ($200/mo) | 223–1,120 | 50–400 | 5 hours |
-| Business ($30/user/mo) | 110–560 | Included | 5 hours |
+| Plus (\$20/mo) | 33–168 | 10–60 | 5 hours |
+| Pro (\$200/mo) | 223–1,120 | 50–400 | 5 hours |
+| Business (\$30/user/mo) | 110–560 | Included | 5 hours |
 
 > **Note:** Local and cloud limits share the same 5-hour usage window.[^7] Running cloud tasks during your interactive coding session depletes the same pool as local messages.
 

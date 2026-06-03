@@ -157,7 +157,7 @@ flowchart TD
     E -->|Deny| H[Block spawn]
 ```
 
-For Pro $200 subscribers with 20x limits [^10], this means reviewers can use `fast` tier for deep reasoning whilst workers burn through `flex` tokens for routine implementation — all governed by configuration rather than prompt engineering.
+For Pro \$200 subscribers with 20x limits [^10], this means reviewers can use `fast` tier for deep reasoning whilst workers burn through `flex` tokens for routine implementation — all governed by configuration rather than prompt engineering.
 
 ## Context Baselines for Full-History Forks
 
@@ -268,7 +268,7 @@ The alpha channel is where OpenAI shows its hand. What v0.133.0-alpha signals is
 
 [^9]: [Codex Configuration Reference](https://developers.openai.com/codex/config-reference) — service_tier setting and profiles.<name>.service_tier override.
 
-[^10]: [OpenAI Pricing](https://openai.com/pricing) — Pro $200 tier with 20x limits, restructured April 2026.
+[^10]: [OpenAI Pricing](https://openai.com/pricing) — Pro \$200 tier with 20x limits, restructured April 2026.
 
 [^11]: [GitHub Issue #20077 — openai/codex](https://github.com/openai/codex/issues/20077) — MultiAgentV2 spawn_agent defaults to full-history fork (SpawnAgentForkMode::FullHistory).
 

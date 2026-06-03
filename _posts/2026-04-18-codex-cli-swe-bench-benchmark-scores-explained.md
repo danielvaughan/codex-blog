@@ -168,7 +168,7 @@ sweagent run-batch \
   --instances.slice :10
 ```
 
-This runs the first 10 instances from the dev split with a $2.00 per-instance cost cap[^3]. Scale up the slice as needed, but expect meaningful costs — a full Verified run with a frontier model can exceed $500.
+This runs the first 10 instances from the dev split with a \$2.00 per-instance cost cap[^3]. Scale up the slice as needed, but expect meaningful costs — a full Verified run with a frontier model can exceed \$500.
 
 ### Using kbench for agent harness comparison
 

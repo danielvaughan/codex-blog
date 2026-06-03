@@ -48,21 +48,21 @@ GPT-5.4-mini consumes roughly 3–4 credits per local message compared to GPT-5.
 
 ### 2. GitHub Copilot: AI Credits Replace Premium Requests (1 June)
 
-Also effective today, GitHub Copilot replaces its premium-request model with token-based AI Credits [^2]. Every plan receives a monthly credit pool matched 1:1 with subscription price — Pro ($10/month) gets $10 in credits, Pro+ ($39) gets $39, Business ($19/user) gets $19/user [^2].
+Also effective today, GitHub Copilot replaces its premium-request model with token-based AI Credits [^2]. Every plan receives a monthly credit pool matched 1:1 with subscription price — Pro (\$10/month) gets \$10 in credits, Pro+ (\$39) gets \$39, Business (\$19/user) gets \$19/user [^2].
 
 Code completions and Next Edit Suggestions remain free and do not consume credits [^2]. But agentic features — Copilot coding agent issue assignment, chat with Opus 4.7 or GPT-5.5, and workspace-level tasks — now draw from the credit pool at published API rates [^2].
 
-A promotional flex allotment runs through August 2026: Business customers receive $30/user/month instead of $19, and Enterprise receives $70/user/month instead of $39 [^2]. These flex credits will reduce over time.
+A promotional flex allotment runs through August 2026: Business customers receive \$30/user/month instead of \$19, and Enterprise receives \$70/user/month instead of \$39 [^2]. These flex credits will reduce over time.
 
 **Why Codex CLI teams should care:** If your organisation runs both Copilot (for completions in the IDE) and Codex CLI (for agentic terminal workflows), the new credit-based Copilot pricing makes it easier to compare cost per task directly against Codex CLI's token rates. The arbitrage opportunity is real: a GPT-5.4-mini message in Codex CLI costs approximately 3 credits, whilst the same model through Copilot's agentic mode consumes credits at full API rates [^1][^2].
 
 ### 3. Anthropic Claude Code: Programmatic Credit Pool Split (15 June)
 
-Anthropic announced on 13 May that effective 15 June, programmatic Claude usage — including Claude Code sessions driven via the Agent SDK or CI pipelines — moves off the shared subscription pool and onto a separate monthly credit pool billed at full API rates [^3]. Pro subscribers get $20 of credit, Max 5x gets $100, and Max 20x gets $200 [^3].
+Anthropic announced on 13 May that effective 15 June, programmatic Claude usage — including Claude Code sessions driven via the Agent SDK or CI pipelines — moves off the shared subscription pool and onto a separate monthly credit pool billed at full API rates [^3]. Pro subscribers get \$20 of credit, Max 5x gets \$100, and Max 20x gets \$200 [^3].
 
-This is a significant change for teams running Claude Code alongside Codex CLI in a multi-agent setup. Previously, a Max 20x subscription's generous token allowance could absorb heavy programmatic usage. After 15 June, that same workload costs real dollars at Opus 4.7 rates of $5/$25 per million input/output tokens [^3].
+This is a significant change for teams running Claude Code alongside Codex CLI in a multi-agent setup. Previously, a Max 20x subscription's generous token allowance could absorb heavy programmatic usage. After 15 June, that same workload costs real dollars at Opus 4.7 rates of \$5/\$25 per million input/output tokens [^3].
 
-**Cross-agent budget impact:** Teams using Claude Code as a secondary review agent (a common pattern documented in the Codex CLI knowledge base) should audit their Claude Code programmatic spend before 15 June. A single Opus 4.7 review pass on a 500-line PR can consume 50,000–100,000 tokens, costing $0.25–$2.75 depending on output length [^3].
+**Cross-agent budget impact:** Teams using Claude Code as a secondary review agent (a common pattern documented in the Codex CLI knowledge base) should audit their Claude Code programmatic spend before 15 June. A single Opus 4.7 review pass on a 500-line PR can consume 50,000–100,000 tokens, costing \$0.25–\$2.75 depending on output length [^3].
 
 ### 4. Google Gemini CLI: Complete Shutdown for Free and Individual Users (18 June)
 
@@ -74,15 +74,15 @@ For teams that were supplementing Codex CLI with Gemini CLI for zero-cost second
 
 | Agent | Plan | Monthly Cost | Billing Model | Key Limit |
 |-------|------|-------------|---------------|-----------|
-| **Codex CLI** | Plus | $20 | Token-based credits | 15–80 GPT-5.5 msgs / 5 hrs [^1] |
-| **Codex CLI** | Pro 5x | $100 | Token-based credits | 80–400 GPT-5.5 msgs / 5 hrs [^1] |
-| **Codex CLI** | Business | $30/user | Pay-as-you-go credits | Same as Plus base [^1] |
-| **Claude Code** | Max 5x | $100 | Subscription + credit pool (from 15 June) | ~88k tokens / 5 hrs [^3] |
-| **Claude Code** | Max 20x | $200 | Subscription + credit pool (from 15 June) | ~220k tokens / 5 hrs [^3] |
-| **Copilot** | Pro+ | $39 | AI Credits (from 1 June) | $39 credit pool + flex [^2] |
-| **Copilot** | Business | $19/user | AI Credits (from 1 June) | $30/user flex through Aug [^2] |
-| **Cursor** | Pro | $20 | Subscription + Composer 2.5 tokens | $0.50/$2.50 per M in/out [^6] |
-| **Antigravity** | AI Pro | $19.99 | Compute-based quota | 5-hour refresh, weekly ceiling [^5] |
+| **Codex CLI** | Plus | \$20 | Token-based credits | 15–80 GPT-5.5 msgs / 5 hrs [^1] |
+| **Codex CLI** | Pro 5x | \$100 | Token-based credits | 80–400 GPT-5.5 msgs / 5 hrs [^1] |
+| **Codex CLI** | Business | \$30/user | Pay-as-you-go credits | Same as Plus base [^1] |
+| **Claude Code** | Max 5x | \$100 | Subscription + credit pool (from 15 June) | ~88k tokens / 5 hrs [^3] |
+| **Claude Code** | Max 20x | \$200 | Subscription + credit pool (from 15 June) | ~220k tokens / 5 hrs [^3] |
+| **Copilot** | Pro+ | \$39 | AI Credits (from 1 June) | \$39 credit pool + flex [^2] |
+| **Copilot** | Business | \$19/user | AI Credits (from 1 June) | \$30/user flex through Aug [^2] |
+| **Cursor** | Pro | \$20 | Subscription + Composer 2.5 tokens | \$0.50/\$2.50 per M in/out [^6] |
+| **Antigravity** | AI Pro | \$19.99 | Compute-based quota | 5-hour refresh, weekly ceiling [^5] |
 
 ## Cost Optimisation Strategies for Codex CLI Teams
 
@@ -142,7 +142,7 @@ codex exec "Analyse our CI pipeline configs in .github/workflows/ \
   --output-schema /tmp/claude-usage-schema.json
 ```
 
-For teams spending more than $100/month on Claude Code programmatic calls, the credit pool split may push the total cost above a dedicated Codex CLI Business plan with equivalent throughput.
+For teams spending more than \$100/month on Claude Code programmatic calls, the credit pool split may push the total cost above a dedicated Codex CLI Business plan with equivalent throughput.
 
 ### Use `codex exec` for Budget-Bounded CI Jobs
 
@@ -162,7 +162,7 @@ Pair this with `--output-schema` to get structured, parseable results that integ
 
 ## What About Cursor's Composer 2.5?
 
-Cursor's Composer 2.5 model, launched 18 May 2026, scores 79.8% on SWE-Bench Multilingual at $0.50/$2.50 per million input/output tokens [^6] — roughly 10x cheaper than Opus 4.7 and GPT-5.5 on raw per-token cost. However, Composer 2.5 operates exclusively within Cursor's IDE. It cannot be called from CI pipelines, terminal scripts, or the `codex exec` non-interactive workflow that many teams rely on for automated quality gates.
+Cursor's Composer 2.5 model, launched 18 May 2026, scores 79.8% on SWE-Bench Multilingual at \$0.50/\$2.50 per million input/output tokens [^6] — roughly 10x cheaper than Opus 4.7 and GPT-5.5 on raw per-token cost. However, Composer 2.5 operates exclusively within Cursor's IDE. It cannot be called from CI pipelines, terminal scripts, or the `codex exec` non-interactive workflow that many teams rely on for automated quality gates.
 
 For teams evaluating cost per merged PR rather than cost per million tokens, the comparison is more nuanced. Codex CLI's advantage lies in its scriptability: a single `codex exec` call in a GitHub Action can review, fix, and verify changes without a human opening an IDE. Cursor's advantage lies in interactive development speed within the editor.
 

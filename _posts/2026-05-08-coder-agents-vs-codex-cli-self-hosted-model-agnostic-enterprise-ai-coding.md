@@ -124,7 +124,7 @@ If your compliance regime requires that source code and prompts never leave your
 
 ### For Startup and Mid-Market Teams
 
-Codex CLI's zero-infrastructure model is hard to beat. A team of five can be productive within an hour. The ChatGPT Pro subscription at $200/month per seat gives unlimited access to GPT-5.5 for coding[^12]. Coder Agents requires provisioning infrastructure — worthwhile at scale, but overhead for smaller teams.
+Codex CLI's zero-infrastructure model is hard to beat. A team of five can be productive within an hour. The ChatGPT Pro subscription at \$200/month per seat gives unlimited access to GPT-5.5 for coding[^12]. Coder Agents requires provisioning infrastructure — worthwhile at scale, but overhead for smaller teams.
 
 ### For Platform Engineering Teams
 

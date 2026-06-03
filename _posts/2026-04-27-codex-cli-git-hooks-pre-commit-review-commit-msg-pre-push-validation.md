@@ -419,7 +419,7 @@ Prompt caching [^10] helps when the same AGENTS.md and schema are used repeatedl
 
 ## Cost Considerations
 
-At current pricing (April 2026), `codex-spark` input tokens cost approximately $0.15 per million [^5]. A typical staged diff of 200 lines (~2,000 tokens input) costs roughly **$0.0003 per commit** — negligible even at high commit frequency. The pre-push hook with `gpt-5.4` costs more but runs far less frequently.
+At current pricing (April 2026), `codex-spark` input tokens cost approximately \$0.15 per million [^5]. A typical staged diff of 200 lines (~2,000 tokens input) costs roughly **\$0.0003 per commit** — negligible even at high commit frequency. The pre-push hook with `gpt-5.4` costs more but runs far less frequently.
 
 ⚠️ Exact pricing depends on your plan tier and whether you are using API credits or a ChatGPT subscription. Check the [Codex pricing page](https://openai.com/codex/) for current rates.
 

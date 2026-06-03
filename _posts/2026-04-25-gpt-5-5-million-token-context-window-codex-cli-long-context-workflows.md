@@ -170,16 +170,16 @@ Context is not free. GPT-5.5 pricing at scale:
 
 | Scenario | Input Tokens | Cost (Standard) | Cost (Cached) |
 |----------|-------------|-----------------|---------------|
-| Typical CLI session (50K) | 50,000 | $0.25 | $0.025 |
-| Heavy session (200K) | 200,000 | $1.00 | $0.10 |
-| Near-limit session (400K) | 400,000 | $2.00 | $0.20 |
-| Full API window (1M) | 1,000,000 | $5.00 | $0.50 |
+| Typical CLI session (50K) | 50,000 | \$0.25 | \$0.025 |
+| Heavy session (200K) | 200,000 | \$1.00 | \$0.10 |
+| Near-limit session (400K) | 400,000 | \$2.00 | \$0.20 |
+| Full API window (1M) | 1,000,000 | \$5.00 | \$0.50 |
 
-Standard input pricing is $5 per 1M tokens; cached input is $0.50 per 1M tokens[^8]. The 10× discount on cached tokens is why prompt caching discipline matters even more at large context sizes. Codex CLI's prompt caching works automatically — keep the system prompt, AGENTS.md, and tool definitions stable at the front of the context, and move volatile content (user messages, tool outputs) to the end[^9].
+Standard input pricing is \$5 per 1M tokens; cached input is \$0.50 per 1M tokens[^8]. The 10× discount on cached tokens is why prompt caching discipline matters even more at large context sizes. Codex CLI's prompt caching works automatically — keep the system prompt, AGENTS.md, and tool definitions stable at the front of the context, and move volatile content (user messages, tool outputs) to the end[^9].
 
 ### The Compaction Cost Trade-Off
 
-Every compaction event costs one additional API call. But a compaction that reduces 350K tokens to 80K tokens saves ~$1.35 per subsequent turn at standard rates (or ~$0.14 at cached rates). For sessions with many turns, early compaction **saves** money. For sessions with few turns and large context needs, avoiding compaction preserves accuracy.
+Every compaction event costs one additional API call. But a compaction that reduces 350K tokens to 80K tokens saves ~\$1.35 per subsequent turn at standard rates (or ~\$0.14 at cached rates). For sessions with many turns, early compaction **saves** money. For sessions with few turns and large context needs, avoiding compaction preserves accuracy.
 
 ```mermaid
 graph TD

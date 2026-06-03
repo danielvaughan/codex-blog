@@ -2,7 +2,7 @@
 title: "Oh-My-Codex (OMX): The Community Orchestration Layer That Turns Codex CLI into a Team Runtime"
 description: "Codex CLI's built-in subagent system caps at six concurrent threads with max_threads . For many workflows, that is plenty. But when you need a dozen."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags: ["oh-my-codex", "omx", "orchestration", "multi-agent", "team-runtime", "worktrees", "skills", "hooks", "persistent-state"]
 ---
 
@@ -227,7 +227,7 @@ omx hud --watch
 
 ## Conclusion
 
-OMX fills a genuine gap in the Codex CLI ecosystem: the space between built-in subagents (powerful but capped at six threads) and full external orchestrators like Gas Town (heavy, multi-process, $100/hour token burn). It does so by wrapping rather than replacing Codex CLI, which means you retain sandbox isolation, approval modes, and the entire plugin ecosystem while gaining structured planning, unlimited parallel workers, persistent state, and mixed-provider coordination.
+OMX fills a genuine gap in the Codex CLI ecosystem: the space between built-in subagents (powerful but capped at six threads) and full external orchestrators like Gas Town (heavy, multi-process, \$100/hour token burn). It does so by wrapping rather than replacing Codex CLI, which means you retain sandbox isolation, approval modes, and the entire plugin ecosystem while gaining structured planning, unlimited parallel workers, persistent state, and mixed-provider coordination.
 
 The 20,500-star community endorsement suggests the gap is real. Whether OMX's additional layer of abstraction is worth the complexity depends on the scale of your agentic workflows — but for teams running substantial multi-agent operations, it has become the de facto orchestration standard for Codex CLI.
 

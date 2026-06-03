@@ -213,7 +213,7 @@ Goal Mode's agentic loop consumes tokens continuously. A rough budget framework:
 - **Medium goals** (cross-module migration, ~50 files): 150,000–500,000 tokens
 - **Large goals** (codebase-wide changes, 100+ files): 500,000–2,000,000+ tokens
 
-At GPT-5.5 API pricing, a medium goal might cost $3–10 depending on reasoning effort settings [^9]. The continuation prompt itself adds approximately 462 tokens per turn [^8], which is negligible relative to the work being done.
+At GPT-5.5 API pricing, a medium goal might cost \$3–10 depending on reasoning effort settings [^9]. The continuation prompt itself adds approximately 462 tokens per turn [^8], which is negligible relative to the work being done.
 
 Set your token budget conservatively at first. You can always `/goal resume` to continue where you left off — the persisted goal and its accumulated progress survive across sessions.
 

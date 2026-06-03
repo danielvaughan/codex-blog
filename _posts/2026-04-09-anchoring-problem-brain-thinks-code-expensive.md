@@ -3,7 +3,7 @@ title: "The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive"
 description: "Last year I was at a car boot sale in Saffron Walden. Trestle tables covered in somebody else's past."
 featured: true
 date: 2026-04-09T16:50:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - opinion
   - personal-essay
@@ -40,7 +40,7 @@ My anchor is twenty years of writing code at human speed, at human cost. Every f
 
 The numbers are hard to argue with.
 
-Before AI coding tools, a moderately complex feature took 800-1,200 hours of development time across a team. At blended rates, that's $50,000-$150,000 per feature. Developers — and I've seen the data on this, and it matches my experience — only write code for about 52 minutes per day on average.[^2] The rest is meetings, context-switching, code review, debugging, and staring at a screen trying to remember what you were doing before Slack interrupted you.
+Before AI coding tools, a moderately complex feature took 800-1,200 hours of development time across a team. At blended rates, that's \$50,000-\$150,000 per feature. Developers — and I've seen the data on this, and it matches my experience — only write code for about 52 minutes per day on average.[^2] The rest is meetings, context-switching, code review, debugging, and staring at a screen trying to remember what you were doing before Slack interrupted you.
 
 Now look at what's happened. I run three or four Codex CLI agents in parallel and watch them produce a complete feature — tests, documentation, the lot — in the time it takes me to make a coffee. Not a toy feature. A real one, with edge cases handled and error paths tested. The cost at current API pricing? Fractions of a penny. One dollar buys 14 million tokens — roughly 10.77 million words of output.[^3]
 
@@ -54,29 +54,29 @@ The Psion is a good starting image, but the pattern runs deeper. Walk through an
 
 ### DVDs
 
-DVD sales peaked at $16.6 billion in 2006.[^6] A new release cost £15-£20. By 2007, Netflix had launched digital streaming, and the whole notion of owning a disc started to crack. By 2023, DVD purchases had shrunk 92% from the peak. Netflix mailed its final physical disc on 29 September 2023. By 2024, total physical disc sales had fallen to $959.6 million — a 94.2% decrease from the peak.[^7]
+DVD sales peaked at \$16.6 billion in 2006.[^6] A new release cost £15-£20. By 2007, Netflix had launched digital streaming, and the whole notion of owning a disc started to crack. By 2023, DVD purchases had shrunk 92% from the peak. Netflix mailed its final physical disc on 29 September 2023. By 2024, total physical disc sales had fallen to \$959.6 million — a 94.2% decrease from the peak.[^7]
 
-One seller took 30 DVDs in excellent condition to Half Price Books and was offered $4.00 total. Roughly 10 cents each. The objects still existed. The films on them hadn't changed. But the *cost of access* to those same films had dropped so far that the physical artefact lost essentially all its value.
+One seller took 30 DVDs in excellent condition to Half Price Books and was offered \$4.00 total. Roughly 10 cents each. The objects still existed. The films on them hadn't changed. But the *cost of access* to those same films had dropped so far that the physical artefact lost essentially all its value.
 
 ### CDs to streaming
 
-This one I lived through. I remember buying CDs at £12.99 from Our Price on the high street in the mid-1990s. By the early 2000s, new releases cost £16.99. Worldwide music revenue peaked in 1999 at $23.7 billion, with physical sales accounting for $22.3 billion of that.[^8]
+This one I lived through. I remember buying CDs at £12.99 from Our Price on the high street in the mid-1990s. By the early 2000s, new releases cost £16.99. Worldwide music revenue peaked in 1999 at \$23.7 billion, with physical sales accounting for \$22.3 billion of that.[^8]
 
-Then Napster happened. Between 2001 and 2010, physical music sales declined by more than 60%, wiping out $14 billion in annual revenue. Digital sales grew from zero to about $4 billion in the same period — nowhere near enough to offset the loss. iTunes launched in 2003 with the $0.99-per-track model, itself a massive deflation from $12.99 per album.
+Then Napster happened. Between 2001 and 2010, physical music sales declined by more than 60%, wiping out \$14 billion in annual revenue. Digital sales grew from zero to about \$4 billion in the same period — nowhere near enough to offset the loss. iTunes launched in 2003 with the \$0.99-per-track model, itself a massive deflation from \$12.99 per album.
 
-Spotify launched in 2008. The industry bottomed out in 2014 at a 20-year low of $13.0 billion.[^9] Today, Spotify UK costs £9.99 per month for access to over 100 million songs — roughly the price of a single CD album. Music transitioned from something we *possess* into something we *access*. Researchers describe the shift as a desire to be "emancipated from ownership."[^10]
+Spotify launched in 2008. The industry bottomed out in 2014 at a 20-year low of \$13.0 billion.[^9] Today, Spotify UK costs £9.99 per month for access to over 100 million songs — roughly the price of a single CD album. Music transitioned from something we *possess* into something we *access*. Researchers describe the shift as a desire to be "emancipated from ownership."[^10]
 
 I still have a shelf of CDs in the spare room. I haven't played any of them in years. I can't bring myself to throw them away.
 
 ### Encyclopaedias
 
-The 32-volume printed Encyclopaedia Britannica sold for $1,395-$1,500 per set.[^11] It was a status symbol. Embassies bought it. Upper-middle-class families displayed it. Then Wikipedia launched in 2001, and by March 2012, Britannica's president announced the end of print editions. Today, Britannica survives online at about $70 per year — a 95%+ price reduction. A $1,400 product was replaced by a free alternative.
+The 32-volume printed Encyclopaedia Britannica sold for \$1,395-\$1,500 per set.[^11] It was a status symbol. Embassies bought it. Upper-middle-class families displayed it. Then Wikipedia launched in 2001, and by March 2012, Britannica's president announced the end of print editions. Today, Britannica survives online at about \$70 per year — a 95%+ price reduction. A \$1,400 product was replaced by a free alternative.
 
 The knowledge didn't become less valuable. It became so abundant that charging for access became untenable.
 
 ### Photography
 
-A roll of Portra 400 plus developing plus scanning works out to about $1.17 per frame for 36 exposures.[^12] Every click of the shutter cost real money. You composed carefully. You didn't waste shots. Then the iPhone arrived in 2007, and the marginal cost of a photograph went from roughly a dollar to roughly zero. Kodak filed for bankruptcy in 2012. They saw the transition coming and couldn't adapt.[^13]
+A roll of Portra 400 plus developing plus scanning works out to about \$1.17 per frame for 36 exposures.[^12] Every click of the shutter cost real money. You composed carefully. You didn't waste shots. Then the iPhone arrived in 2007, and the marginal cost of a photograph went from roughly a dollar to roughly zero. Kodak filed for bankruptcy in 2012. They saw the transition coming and couldn't adapt.[^13]
 
 The parallel to code is almost too neat. Like film photography, code used to have a high per-unit cost. Each function, each feature, each line represented real time and money. Now, like digital photos, the marginal cost of generating code approaches zero. But developers still compose as if every keystroke costs a dollar.
 
@@ -142,13 +142,13 @@ The music industry offers the clearest timeline, because the data is comprehensi
 
 The full cycle from CD peak to streaming recovery took approximately 20 years, from 1999 to 2019.[^27]
 
-**Phase 1 — Denial and resistance (1999-2003):** About four years. The industry sued Napster, sued individual file-sharers, tried to maintain the $12.99 album model. Revenue was already declining, but labels insisted on the old economics.
+**Phase 1 — Denial and resistance (1999-2003):** About four years. The industry sued Napster, sued individual file-sharers, tried to maintain the \$12.99 album model. Revenue was already declining, but labels insisted on the old economics.
 
-**Phase 2 — Grudging digital acceptance (2003-2008):** About five years. iTunes launched at $0.99 per track — a massive price concession. Labels licensed reluctantly, with DRM restrictions. Physical sales in freefall, digital unable to compensate.
+**Phase 2 — Grudging digital acceptance (2003-2008):** About five years. iTunes launched at \$0.99 per track — a massive price concession. Labels licensed reluctantly, with DRM restrictions. Physical sales in freefall, digital unable to compensate.
 
-**Phase 3 — Streaming emergence (2008-2014):** About six years. Spotify launched, initially met with industry hostility. Revenue bottomed out in 2014 at $13.0 billion, down from $23.7 billion in 1999. A 15-year, 54% decline from peak.
+**Phase 3 — Streaming emergence (2008-2014):** About six years. Spotify launched, initially met with industry hostility. Revenue bottomed out in 2014 at \$13.0 billion, down from \$23.7 billion in 1999. A 15-year, 54% decline from peak.
 
-**Phase 4 — Streaming acceptance and recovery (2014-2024):** About ten years. Labels finally embraced streaming. Revenue recovered to $17.7 billion in 2024, surpassing the nominal 1999 peak — but still roughly 46% below the 1999 peak in inflation-adjusted terms.
+**Phase 4 — Streaming acceptance and recovery (2014-2024):** About ten years. Labels finally embraced streaming. Revenue recovered to \$17.7 billion in 2024, surpassing the nominal 1999 peak — but still roughly 46% below the 1999 peak in inflation-adjusted terms.
 
 Research on individual consumer adjustment tells a different story. Studies of Spotify adoption identify three psychological periods: short run (weeks 0-1, initial exploration), medium run (weeks 2-24, behaviour adjustment), and long run (week 25 onwards, stable new behaviour).[^28] Individual consumers adjust in about six months. But the *industry* took 15 years to stop fighting the new economics.
 
@@ -296,7 +296,7 @@ It isn't. But my brain hasn't finished updating the price tag.
 
 - **Anchoring bias** causes developers to mentally price code at pre-AI rates, even as AI tools collapse the marginal cost of code generation toward zero.
 - **Four reinforcing biases** — the endowment effect, the IKEA effect, the sunk cost fallacy, and loss aversion — keep the old price tag stuck.
-- **Historical parallels** in DVDs (94% price collapse), CDs to streaming (20-year industry adjustment), encyclopaedias ($1,400 to free), film photography ($1/frame to zero), and PDAs (£500 to £1) all follow the same pattern: new technology makes production nearly free, but human psychology lags by years or decades.
+- **Historical parallels** in DVDs (94% price collapse), CDs to streaming (20-year industry adjustment), encyclopaedias (\$1,400 to free), film photography (\$1/frame to zero), and PDAs (£500 to £1) all follow the same pattern: new technology makes production nearly free, but human psychology lags by years or decades.
 - **The music industry adjustment took 20 years** from CD peak to streaming recovery. Individual consumers adjusted in about 6 months. The software industry is likely somewhere in early Phase 2 of a similar cycle.
 - **Developer identity is entangled with the old economics.** The emotional resistance is real and not entirely irrational — craft, skill, and architectural judgment still matter — but the price of code production is not returning to pre-AI levels.
 - **The practical shift** is from code-as-possession to code-as-access: generate-test-discard workflows, disposable vs. durable code distinctions, and treating regeneration as cheaper than maintenance.

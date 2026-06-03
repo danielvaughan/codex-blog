@@ -2,7 +2,7 @@
 title: "Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics"
 description: "Every Codex CLI session burns tokens. Most developers have a rough sense of the cost—prompts in, completions out—but the reality is more nuanced. System."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - performance
   - token-overhead
@@ -232,11 +232,11 @@ For API key users on token-based billing, representative costs per task at GPT-5
 
 | Task | Input tokens | Output tokens | Approximate cost |
 |------|-------------|---------------|-----------------|
-| Explain a 500-line module | ~15K | ~2K | ~$0.25 |
-| Refactor auth module (10 files) | ~120K | ~30K | ~$2.25 |
-| Full repository audit | ~200K | ~20K | ~$3.00 |
+| Explain a 500-line module | ~15K | ~2K | ~\$0.25 |
+| Refactor auth module (10 files) | ~120K | ~30K | ~\$2.25 |
+| Full repository audit | ~200K | ~20K | ~\$3.00 |
 
-These figures include overhead. Subscription users (Plus at $20/month, Pro at $200/month) pay through message limits rather than per-token, but the same optimisation tactics extend your effective messages per five-hour window[^10].
+These figures include overhead. Subscription users (Plus at \$20/month, Pro at \$200/month) pay through message limits rather than per-token, but the same optimisation tactics extend your effective messages per five-hour window[^10].
 
 ## The optimisation checklist
 

@@ -69,9 +69,9 @@ Devin's Enterprise plan offers VPC deployment with SAML/OIDC SSO and teamspace i
 
 The billing models reflect the architectural differences.
 
-**Devin** charges per ACU (Agentic Computing Unit). One ACU represents roughly 15 minutes of active autonomous work — VM time, model inference, and network bandwidth bundled together [^9]. The Core plan starts at $20/month with ACUs at $2.25 each; the Team plan is $500/month with 250 ACUs at $2.00 each. A typical bug fix consumes 2-3 ACUs ($4.50-$6.75) [^1].
+**Devin** charges per ACU (Agentic Computing Unit). One ACU represents roughly 15 minutes of active autonomous work — VM time, model inference, and network bandwidth bundled together [^9]. The Core plan starts at \$20/month with ACUs at \$2.25 each; the Team plan is \$500/month with 250 ACUs at \$2.00 each. A typical bug fix consumes 2-3 ACUs (\$4.50-\$6.75) [^1].
 
-**Codex CLI** uses token-based billing through ChatGPT subscriptions. The Plus plan ($20/month) includes Codex usage with rate limits. The Pro plan ($200/month) provides higher throughput. API-key usage via `codex exec` is billed per token at standard OpenAI Responses API rates [^10]. A comparable bug fix typically costs $0.20-$1.00 in tokens [^1].
+**Codex CLI** uses token-based billing through ChatGPT subscriptions. The Plus plan (\$20/month) includes Codex usage with rate limits. The Pro plan (\$200/month) provides higher throughput. API-key usage via `codex exec` is billed per token at standard OpenAI Responses API rates [^10]. A comparable bug fix typically costs \$0.20-\$1.00 in tokens [^1].
 
 ```toml
 # Codex CLI: config.toml — control costs with model routing

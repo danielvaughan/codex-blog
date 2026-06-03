@@ -2,7 +2,7 @@
 title: "OpenCode vs Codex CLI: The Open-Source Challenger With 75+ Model Providers"
 description: "The terminal coding agent landscape in 2026 has consolidated around three serious contenders: Claude Code, Codex CLI, and OpenCode. While Claude Code."
 date: 2026-04-09T05:11:00+00:00
-last_modified_at: 2026-06-03T10:19:20+01:00
+last_modified_at: 2026-06-03T11:34:22+01:00
 tags:
   - opencode
   - codex-cli
@@ -94,7 +94,7 @@ The 13% speed advantage for Codex CLI is meaningful in iterative workflows. Howe
 
 On 9 January 2026, Anthropic deployed server-side checks that rejected OAuth tokens from third-party tools, including OpenCode[^13]. The error was unambiguous: *"This credential is only authorized for use with Claude Code and cannot be used for other API requests."*[^14]
 
-Anthropic cited technical instability — unauthorised harnesses introduce bugs and usage patterns that Anthropic cannot diagnose[^13]. The developer community pointed to economics: the $200/month Max subscription offers unlimited usage, but Anthropic controls consumption speed through its official client[^15].
+Anthropic cited technical instability — unauthorised harnesses introduce bugs and usage patterns that Anthropic cannot diagnose[^13]. The developer community pointed to economics: the \$200/month Max subscription offers unlimited usage, but Anthropic controls consumption speed through its official client[^15].
 
 The consequences reshaped the competitive landscape:
 
@@ -111,17 +111,17 @@ This last point is particularly significant: OpenAI saw a strategic opportunity 
 OpenCode itself is free and open-source (MIT licence). Model access follows three paths[^17]:
 
 - **BYOK (Bring Your Own Key)** — free, use any provider's API key
-- **Zen** — pay-as-you-go gateway, from $0.45/1M input tokens (budget models) to $10/1M (Opus)
-- **Black** — $20 / $100 / $200 per month, tiered model access with generous limits
+- **Zen** — pay-as-you-go gateway, from \$0.45/1M input tokens (budget models) to \$10/1M (Opus)
+- **Black** — \$20 / \$100 / \$200 per month, tiered model access with generous limits
 
 ### Codex CLI
 
 Codex CLI requires a ChatGPT subscription[^5]:
 
-- **Plus** — $20/month (limited Codex access)
-- **Pro** — $200/month (full access including Spark)
+- **Plus** — \$20/month (limited Codex access)
+- **Pro** — \$200/month (full access including Spark)
 
-The pricing comparison depends heavily on usage patterns. A developer using OpenCode with a cheap local model pays nothing. A developer wanting Spark-level performance must pay $200/month for ChatGPT Pro.
+The pricing comparison depends heavily on usage patterns. A developer using OpenCode with a cheap local model pays nothing. A developer wanting Spark-level performance must pay \$200/month for ChatGPT Pro.
 
 ## IDE and Desktop Integration
 
