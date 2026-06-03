@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.6 Canary Signals and Developer Readiness (2026-06-03 Hourly Article Run)
+
+1. ✅ **GPT-5.6 Canary Signals and Codex CLI Readiness: A Developer Preparation Guide** — Written 2026-06-03 → `2026-06-03-gpt-5-6-codex-cli-canary-signals-developer-readiness-guide.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the GPT-5.6 canary signals from Codex backend logs (mid-May 2026 single rollout-mapping entry referencing gpt-5.6 discovered by researcher Haider), the 80–89% Polymarket prediction for June 30 release, expected 1.5M token context expansion, ember-alpha/beacon-alpha internal codenames, competitive pressure from Claude Mythos and Gemini 3.5 Pro converging in June, and concrete Codex CLI config.toml preparation patterns including profile-based model routing, `--model` flag pinning in CI, and evaluation baseline methodology
+   - SEO targets: "gpt-5.6 codex cli", "gpt-5.6 release date 2026", "codex cli model routing preparation", "codex config.toml gpt-5.6", "gpt 5.6 canary leak", "codex cli future-proof configuration", "codex model migration june 2026"
+
+---
+
 ## Codex CLI MCP v0.136 Deep-Dive (2026-06-03 Hourly Article Run)
 
 1. ✅ **Codex CLI MCP in v0.136: Per-Server Environment Targeting, OAuth Streamable HTTP, and Concurrent Read-Only Tools** — Written 2026-06-03 → `2026-06-03-codex-cli-mcp-v0136-per-server-env-targeting-oauth-streamable-http-concurrent-tools.md`
