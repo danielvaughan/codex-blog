@@ -35,7 +35,7 @@ pip install openai-codex          # Python >=3.10
 pip install "openai-codex[dev]"   # includes test dependencies
 ```
 
-The package automatically pulls `openai-codex-cli-bin` for your platform.[^3] Three authentication flows are supported:
+The package automatically pulls `openai-codex-cli-bin` for your platform.[^3] Four authentication flows are supported:
 
 ```python
 from openai_codex import Codex

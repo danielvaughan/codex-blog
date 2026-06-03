@@ -303,7 +303,7 @@ stdio connections block rather than disconnect when the consumer is slow.[^2] Th
 - **Advantage:** no data loss from a lagging client — the server naturally pauses
 - **Disadvantage:** a blocked write in the server will stall the entire agent turn
 
-In practice, read from stdout on a dedicated thread or coroutine and never hold the read loop while processing. The server's bounded internal queue returns JSON-RPC error `-32001` (`"Server overloaded; retry later"`) if a WebSocket client saturates it, but stdio clients see back-pressure instead.[^2]
+In practice, read from stdout on a dedicated thread or coroutine and never hold the read loop while processing. The server's bounded internal queue returns JSON-RPC error `-32001` (`"Server overloaded; retry later"`) if a WebSocket client saturates it, but stdio clients see backpressure instead.[^2]
 
 Initialisation errors follow standard JSON-RPC error codes. A second `initialize` call on an already-initialised connection returns `"Already initialized"`. Pre-`initialized` API calls return `"Not initialized"`.
 

@@ -57,7 +57,7 @@ OpenAI's filing of confidential SEC documents on 22 May 2026 targeting a Septemb
 
 ## Building a Future-Proof Codex CLI Configuration
 
-The practical takeaway is straightforward: **make model identity configurable**, not hard-coded. Codex CLI's layered configuration system makes this straightforward.
+The practical takeaway is straightforward: **make model identity configurable**, not hard-coded. Codex CLI's layered configuration system makes this easy.
 
 ### Profile-Based Model Routing
 
