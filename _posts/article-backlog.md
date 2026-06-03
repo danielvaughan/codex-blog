@@ -1,5 +1,13 @@
 # Article Backlog
 
+## v0.136 Security Hardening (2026-06-03 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.136 Security Hardening: Closing Three Agent Attack Surfaces** — Written 2026-06-03 → `2026-06-03-codex-cli-v0136-security-hardening-exec-server-cswsh-diff-hook-injection-remote-tokens.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the three security fixes shipped in v0.136.0 (1 June 2026): (1) exec-server browser-origin WebSocket rejection (blocking CSWSH attacks analogous to CVE-2026-44211 in Cline, CVSS 9.6); (2) /diff Git helper/hook injection prevention via `diff.external=` and `core.hooksPath=/dev/null` overrides (PR #24954, addressing the same attack class as CVE-2026-3854 GitHub RCE); (3) remote-control WebSocket short-lived server token replacement for ChatGPT access tokens, plus CODEX_API_KEY for approved remote hosts, proactive token refresh (PR #23546), and sandboxed command cleanup after interruption (PR #22729)
+   - SEO targets: "codex cli security hardening", "codex exec-server websocket security", "codex diff hook injection", "codex remote control tokens", "codex CODEX_API_KEY", "codex cli CSWSH", "codex git diff security v0.136"
+
+---
+
 ## openai-codex Python SDK v0.1.0b2 (2026-06-03 Hourly Article Run)
 
 1. ✅ **openai-codex Python SDK v0.1.0b2: Complete API Reference and Practical Patterns** — Written 2026-06-03 → `2026-06-03-openai-codex-python-sdk-v01-complete-api-reference-practical-patterns.md`
