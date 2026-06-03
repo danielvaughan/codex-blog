@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Hono.js Edge APIs with Codex CLI (2026-06-03 Hourly Article Run)
+
+1. ✅ **Codex CLI for Hono.js: Building Type-Safe Edge APIs with Zod OpenAPI, RPC, and Cloudflare Workers** — Written 2026-06-03 → `2026-06-03-codex-cli-hono-edge-apis-zod-openapi-rpc-cloudflare-workers.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Hono.js (v4.12.16, April 2026) development workflows with Codex CLI despite Hono being one of the most-downloaded TypeScript web frameworks in 2026, Cloudflare publishing an official Codex agent setup guide, the workers-sdk repo shipping an AGENTS.md, and the @hono/zod-openapi package enabling schema-first routing with automatic OpenAPI generation — a pattern that maps exceptionally well to Codex's type-aware code generation.
+   - SEO targets: "codex cli hono", "hono codex cli", "hono zod openapi codex", "codex cli cloudflare workers hono", "hono rpc codex", "hono testclient codex", "codex cli edge api typescript 2026"
+
+---
+
 ## GPT-5.6 Canary Signals and Developer Readiness (2026-06-03 Hourly Article Run)
 
 1. ✅ **GPT-5.6 Canary Signals and Codex CLI Readiness: A Developer Preparation Guide** — Written 2026-06-03 → `2026-06-03-gpt-5-6-codex-cli-canary-signals-developer-readiness-guide.md`
