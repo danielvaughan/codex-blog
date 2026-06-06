@@ -6121,6 +6121,7 @@ The following gaps were identified during the article-rater review of all premiu
 - **Added:** 2026-06-03
 
 ### 5. Agent-Generated Documentation: Quality and Trust
+- **Status:** ✅ Written 2026-06-07 → `2026-06-07-agent-generated-documentation-quality-trust-codex-cli-verification-patterns.md`
 - **Gap:** Multiple articles cover agent-generated code quality but none covers agent-generated documentation — READMEs, API docs, architectural decision records. Is agent-written documentation trustworthy?
 - **Angle:** Test agent documentation against human-written docs. Measure completeness, accuracy, and reader comprehension.
 - **Priority:** Medium — documentation is a significant agent use case with no quality framework
