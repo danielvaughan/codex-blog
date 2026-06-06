@@ -1,6 +1,6 @@
 ---
 title: "DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost"
-description: "DeepSeek V4 landed today — 24 April 2026 — and the numbers deserve attention. V4-Pro scores 80.6% on SWE-bench Verified while charging \$3.48 per million."
+description: "DeepSeek V4 landed today — 24 April 2026 — and the numbers deserve attention. V4-Pro scores 80.6% on SWE-bench Verified while charging $3.48 per million."
 parent: "Articles"
 nav_order: 402
 tags: ["codex-cli", "deepseek", "v4", "custom-provider", "cost-optimisation", "benchmarks", "configuration", "model-selection"]

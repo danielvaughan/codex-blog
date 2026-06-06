@@ -1,12 +1,12 @@
 ---
-title: "The OpenAI Deployment Company: What \$4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise"
-description: "On 11 May 2026, OpenAI announced the OpenAI Deployment Company — a majority-owned subsidiary backed by more than \$4 billion in initial capital from 19."
+title: "The OpenAI Deployment Company: What $4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise"
+description: "On 11 May 2026, OpenAI announced the OpenAI Deployment Company — a majority-owned subsidiary backed by more than $4 billion in initial capital from 19."
 parent: "Articles"
 nav_order: 690
 tags: ["codex-cli", "enterprise", "deployment-company", "forward-deployed-engineers", "tomoro", "governance", "openai"]
 ---
 
-![Sketchnote diagram for: The OpenAI Deployment Company: What \$4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise](/sketchnotes/articles/2026-05-12-openai-deployment-company-codex-cli-enterprise-forward-deployed-engineers.png)
+![Sketchnote diagram for: The OpenAI Deployment Company: What $4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise](/sketchnotes/articles/2026-05-12-openai-deployment-company-codex-cli-enterprise-forward-deployed-engineers.png)
 
 
 # The OpenAI Deployment Company: What \$4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise

@@ -84,7 +84,7 @@ port = 10001          # default; set to 0 for ephemeral port
 
 When Codex processes a repository, running `/diff` invokes `git diff` under the hood. Git's configuration system allows a repository's `.git/config` to specify custom `diff` helpers, `difftool` executables, and filter drivers. A maliciously crafted repository can therefore arrange for arbitrary binaries to run the moment an agent calls `git diff` — even in a sandboxed session, because the helpers run with the permissions of the sandboxed process, not through the sandbox's exec fence.[^6]
 
-This is a narrower variant of the path exploited by **CVE-2026-3854**, a critical GitHub RCE (March 2026) where repository-controlled `pre-receive` hooks and `custom_hooks_dir` values were weaponised into arbitrary code execution on GitHub's own servers during a `git push`.[^7]
+This is a narrower variant of the path exploited by **CVE-2026-3854**, a high-severity GitHub Enterprise Server RCE (CVSS 3.1: 8.7) where unsanitised push option values were injected into internal service headers, allowing attackers to redirect `custom_hooks_dir` and chain into arbitrary code execution on GitHub's own servers during a `git push`.[^7]
 
 For Codex specifically: an agent opening a public repository and running `/diff` to inspect changes between branches could silently execute attacker-controlled code. This is particularly dangerous in agentic loops where `/diff` output feeds the next planning step.
 
@@ -234,7 +234,7 @@ A healthy output will show:
 | Auth expiry disruption | Generic cloud error at token boundary | Proactive refresh before 5-minute expiry window |
 | Orphan processes on interrupt | Possible process group leaks | Full process-group reap on sandbox teardown |
 
-These are not exotic threat models. CVE-2026-44211 against Cline (CVSS 9.6) demonstrated that CSWSH against AI agent tools is actively being researched and disclosed. CVE-2026-3854 demonstrated that git hook injection via repository configuration is a realistic RCE path. The v0.136 fixes address both classes before they manifest as Codex CVEs.
+These are not exotic threat models. CVE-2026-44211 against Cline (CVSS 9.6) demonstrated that CSWSH against AI agent tools is actively being researched and disclosed. CVE-2026-3854 (CVSS 3.1: 8.7) demonstrated that push-option header injection chaining into git hook redirection is a realistic RCE path. The v0.136 fixes address both classes before they manifest as Codex CVEs.
 
 Update with `codex update` or `npm update -g @openai/codex`.
 

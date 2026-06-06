@@ -1,5 +1,243 @@
 # Article Backlog
 
+## Anthropic IPO and Multi-Provider Strategy (2026-06-06 Hourly Article Run)
+
+1. ✅ **The Anthropic IPO and the Trillion-Dollar Coding Agent Market: What a $965 Billion Valuation Means for Codex CLI's Multi-Provider Strategy** — Written 2026-06-06 → `2026-06-06-anthropic-ipo-trillion-dollar-coding-agent-market-codex-cli-multi-provider-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Anthropic's confidential S-1 filing (1 June 2026), the $965B post-money valuation, the simultaneous GitHub Copilot AI Credits billing shift (1 June 2026), Microsoft MAI-Code-1-Flash (2–3 June 2026), and the combined implications of three major platform vendors redrawing coding agent economics in the same week; the article maps the five-layer portability framework to Codex CLI's config.toml provider system, AGENTS.md cross-tool portability, MCP vendor neutrality, and practical defensive strategies for teams navigating market consolidation
+   - SEO targets: "anthropic ipo codex cli", "coding agent market consolidation 2026", "codex cli multi-provider strategy", "vendor lock-in coding agents", "codex cli provider agnostic", "github copilot ai credits codex", "trillion dollar coding agent market"
+
+---
+
+## Lockdown Mode and Codex CLI Security Architecture (2026-06-06 Hourly Article Run)
+
+1. ✅ **Lockdown Mode, Elevated Risk Labels, and Why Codex CLI Was Already Locked Down: Prompt Injection Defence Across the OpenAI Surface** — Written 2026-06-06 → `2026-06-06-codex-cli-lockdown-mode-prompt-injection-defence-layered-security-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered OpenAI's Lockdown Mode (February 2026, rolled out to all users 5 June 2026), Elevated Risk labels, the "lethal trifecta" framework (Willison), or the systematic comparison between ChatGPT's opt-in network isolation and Codex CLI's default sandbox-first security architecture across five defence layers
+   - SEO targets: "codex cli lockdown mode", "prompt injection defence codex", "codex cli sandbox security", "openai elevated risk labels codex", "codex cli data exfiltration prevention", "codex cli env_allowlist", "lethal trifecta prompt injection"
+
+---
+
+## Microsoft Build 2026 and MAI Models (2026-06-06 Hourly Article Run)
+
+1. ✅ **Microsoft Build 2026 and the MAI Model Family: What MAI-Code-1-Flash, MAI-Thinking-1, and MXC Mean for Codex CLI Developers** — Written 2026-06-06 → `2026-06-06-microsoft-build-2026-mai-code-1-flash-mai-thinking-1-codex-cli-multi-model-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Microsoft Build 2026 (2 June 2026), the seven MAI model family, MAI-Code-1-Flash (5B active / 137B MoE coding model available via OpenRouter), MAI-Thinking-1 (35B active / ~1T reasoning model in private preview), the GitHub Copilot desktop app, Microsoft Execution Containers (MXC) OS-level agent sandbox with OpenAI as launch partner, or the three-stack competitive landscape implications for Codex CLI's provider-agnostic architecture
+   - SEO targets: "microsoft build 2026 codex cli", "mai-code-1-flash codex", "mai-thinking-1 coding model", "codex cli openrouter mai models", "mxc agent sandbox codex", "github copilot app vs codex cli", "multi-model coding agent strategy 2026"
+
+---
+
+## llms.txt Specification and Codex CLI (2026-06-06 Hourly Article Run)
+
+1. ✅ **The llms.txt Specification and Codex CLI: Machine-Readable Documentation for Agent-Assisted Development** — Written 2026-06-06 → `2026-06-06-llms-txt-specification-codex-cli-machine-readable-documentation-agent-context.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the llms.txt specification (Jeremy Howard, September 2024, now at v1.7.0) despite OpenAI shipping both llms.txt and llms-full.txt for Codex documentation, Context7 MCP server indexing llms.txt content from hundreds of libraries, and the specification being actively consumed by IDE agents and MCP integrations; the article covers the specification format, OpenAI's reference implementation, three consumption patterns for Codex CLI (direct fetch, Context7 MCP, custom MCP server), creating llms.txt for your own projects, and the connection to AGENTS.md
+   - SEO targets: "llms.txt codex cli", "machine readable documentation ai agents", "context7 mcp codex", "llms.txt specification 2026", "codex cli documentation context", "llms-full.txt agent development", "llms.txt developer tools"
+
+---
+
+## AI Regulation and Codex CLI (2026-06-06 Hourly Article Run)
+
+1. ✅ **AI Regulation and Codex CLI: The Great American AI Act, EU AI Act Enforcement, and What Enterprise Coding Agent Teams Must Prepare For** — Written 2026-06-06 → `2026-06-06-ai-regulation-codex-cli-great-american-ai-act-eu-ai-act-enterprise-compliance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered AI regulation implications for Codex CLI teams; the Great American AI Act discussion draft was released 4 June 2026, the EU AI Act high-risk enforcement deadline is 2 August 2026, and Colorado SB 189 replaced the original Colorado AI Act on 14 May 2026; the article maps regulatory obligations to Codex CLI's existing compliance tooling (JSONL audit logs, permission profiles, hooks, managed configuration)
+   - SEO targets: "codex cli compliance", "ai coding agent regulation 2026", "EU AI Act coding agents", "Great American AI Act developers", "codex cli audit trail", "ai agent enterprise compliance", "codex cli regulated deployment"
+
+---
+
+## Codex CLI Pull Request Workflows (2026-06-05 Hourly Article Run)
+
+1. ✅ **Codex CLI Pull Request Workflows: Branch to Merge with Agent-Assisted Review and CI Integration** — Written 2026-06-05 → `2026-06-05-codex-cli-pull-request-workflow-branch-to-merge-agent-assisted-review-ci-integration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the complete end-to-end pull request lifecycle as a unified workflow combining git worktree isolation, implementation with AGENTS.md review guidelines, local /review before pushing, codex-action CI gating with structured output schemas, GitHub-native @codex review with automatic reviews, fix-and-push loops, and the decision matrix for which review surface to use at each stage
+   - SEO targets: "codex cli pull request workflow", "codex cli code review", "codex github action pr review", "codex cli worktree branch", "codex review command", "codex cli ci integration", "agent assisted code review github"
+
+---
+
+## Codex CLI Pair Programming (2026-06-05 Hourly Article Run)
+
+1. ✅ **Codex CLI as a Pair Programming Partner: Interactive Workflows, Conversation Patterns, and the Productivity Evidence** — Written 2026-06-05 → `2026-06-05-codex-cli-pair-programming-interactive-workflows-conversation-patterns-productivity.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Codex CLI's interactive TUI as a dedicated pair programming surface; existing articles mentioned pair programming in passing but none provided conversation patterns (plan-implement-review, side-by-side exploration, incremental narrowing), slash command mapping for pairing workflows, reasoning level tuning per turn type, session management for long pairing sessions, or a balanced review of the productivity evidence including the METR counter-study
+   - SEO targets: "codex cli pair programming", "ai pair programming terminal", "codex cli interactive mode", "codex slash commands pairing", "ai pair programming productivity", "codex cli conversation patterns", "codex tui pair programming workflow"
+
+---
+
+## Session Lifecycle Guide (2026-06-05 Hourly Article Run)
+
+1. ✅ **Codex CLI Session Lifecycle: Archive, Resume, Fork, and Compact** — Written 2026-06-05 → `2026-06-05-codex-cli-session-lifecycle-archive-resume-fork-compact-management.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the full session lifecycle as a unified guide, combining the v0.136 archive/unarchive commands, resume and fork workflows, /compact for context management, cross-surface session portability, session hygiene patterns, and practical decision guides for when to resume vs fork
+   - SEO targets: "codex cli session management", "codex archive unarchive", "codex cli resume fork", "codex session lifecycle", "codex compact session", "codex cli session hygiene", "codex session archiving v0.136"
+
+---
+
+## SpaceX-Cursor Acquisition and Codex CLI Competitive Positioning (2026-06-05 Hourly Article Run)
+
+1. ✅ **The SpaceX-Cursor Deal: How a $60 Billion Acquisition Reshapes the Coding Agent Market and What Codex CLI Developers Should Watch** — Written 2026-06-05 → `2026-06-05-spacex-cursor-acquisition-coding-agent-market-codex-cli-competitive-positioning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the SpaceX/xAI $60 billion option to acquire Cursor (Anysphere), the Grok V9-Medium 1.5T-parameter model trained on Cursor data expected mid-June, the emergence of a third vertically-integrated coding agent stack (compute + models + developer surface), competitive positioning implications for Codex CLI's terminal-first multi-provider architecture, or defensive strategies for teams navigating market consolidation
+   - SEO targets: "spacex cursor acquisition codex", "cursor xai grok coding model", "coding agent market consolidation 2026", "codex cli vs cursor competitive analysis", "grok v9 medium coding", "spacex cursor 60 billion", "coding agent vendor lock-in strategy"
+
+---
+
+## Dreaming V3 and Codex CLI Memory Stack (2026-06-05 Hourly Article Run)
+
+1. ✅ **Dreaming V3 and the Codex CLI Memory Stack: What the New Cross-Surface Memory Architecture Means for Developer Workflows** — Written 2026-06-05 → `2026-06-05-dreaming-v3-codex-cli-memory-architecture-cross-surface-persistent-context.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI launched Dreaming V3 on 4 June 2026 as the largest ChatGPT memory architecture overhaul; no existing article covered the three-layer memory stack (Dreaming V3 cloud memory + Codex CLI local memories + Chronicle screen capture), cross-surface memory interaction, configuration tuning for developer workflows, or the convergence trajectory between local and cloud memory systems
+   - SEO targets: "dreaming v3 codex cli", "codex cli memory architecture", "chatgpt dreaming v3 developer", "codex memories configuration", "codex chronicle dreaming", "cross-surface memory codex", "codex cli persistent context"
+
+---
+
+## Gemini CLI Open-Source Trust Crisis (2026-06-05 Hourly Article Run)
+
+1. ✅ **The Gemini CLI Shutdown and the Open-Source Trust Crisis: Portability Lessons Every Codex CLI Developer Should Learn Before June 18** — Written 2026-06-05 → `2026-06-05-gemini-cli-open-source-shutdown-vendor-lock-in-portability-lessons-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the open-source trust implications of the Gemini CLI shutdown as a standalone analysis piece with defensive portability strategies for Codex CLI developers; existing articles covered migration mechanics (May 19) and competitive landscape (June 5) but neither provided a five-layer portability framework, practical checklist, or structural analysis of why Codex CLI's multi-provider architecture offers better resilience than Gemini CLI's single-vendor dependency
+   - SEO targets: "gemini cli shutdown codex", "ai coding agent vendor lock-in", "codex cli portability", "coding agent open source trust", "AGENTS.md cross-tool portability", "codex cli vendor risk mitigation", "gemini cli bait and switch codex alternative"
+
+---
+
+## TDD Governance for Multi-Agent Systems (2026-06-05 Research)
+
+1. ✅ **TDD Governance for Multi-Agent Code Generation — Phase Gating, Bounded Repair, and Prompt-Level Enforcement for Codex CLI** — Written 2026-06-05 → `2026-06-05-tdd-governance-multi-agent-code-generation-prompt-engineering-codex-cli.md`
+   - Source: Daniel's research request; based on arXiv:2604.26615v1 (Hasanli et al., Jyväskylä/Tampere), cross-referenced with TDAD (arXiv:2603.17973) and Elite AI-Assisted Coding practitioner guide
+   - SEO targets: "tdd multi-agent code generation", "agentic tdd governance", "codex cli tdd pipeline", "bounded repair agent loops", "phase gating agent architecture", "test-driven agentic development multi-agent"
+
+2. ✅ **The Three Layers of Agent Testing: Dependency Graphs, Phase Gates, and Bounded Repair** — Written 2026-06-05 → `2026-06-05-three-layers-agent-testing-dependency-graphs-phase-gates-bounded-repair.md`
+   - Synthesis piece combining TDAD, TDD Governance, and practical Elite AI-Assisted Coding patterns into a unified testing architecture for agent pipelines
+
+3. ✅ **Why 'Always Run Tests' in AGENTS.md Makes Things Worse — and What to Write Instead** — Written 2026-06-05 → `2026-06-05-why-always-run-tests-agents-md-makes-things-worse.md`
+   - Provocative practitioner-focused piece drawing on the 63% regression increase finding from TDAD and structural alternatives
+
+---
+
+## Session Forensics (2026-06-05 Hourly Article Run)
+
+1. ✅ **Codex CLI Session Forensics: JSONL Post-Mortems, codex-trace, cass, and ccusage** — Written 2026-06-05 → `2026-06-05-codex-cli-session-forensics-jsonl-post-mortems-codex-trace-cass-ccusage.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered session forensics as a standalone workflow, combining JSONL rollout file format analysis, the codex-trace visual inspector, cross-agent session search with cass, cost attribution with ccusage, jq recipes for ad-hoc queries, OpenTelemetry trace correlation, and structured post-mortem workflows for debugging failed agent sessions
+   - SEO targets: "codex cli session forensics", "codex cli jsonl analysis", "codex-trace session viewer", "codex session post-mortem", "ccusage codex cost", "cass agent session search", "codex cli debugging sessions"
+
+---
+
+## Codex Inside ChatGPT Platform Convergence (2026-06-05 Hourly Article Run)
+
+1. ✅ **Codex Inside ChatGPT: What the Platform Convergence Means for CLI-First Developer Workflows** — Written 2026-06-05 → `2026-06-05-codex-inside-chatgpt-platform-convergence-cli-developer-workflows-unified-agent-surface.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the practical implications of OpenAI's 2 June 2026 announcement to embed Codex inside ChatGPT for CLI developers; existing articles covered the internal reorg memo (May 19) and the broader feature announcement (June 3) but neither analysed the seven-surface architecture, configuration inheritance rules, thread portability mechanics, or actionable guidance for terminal-first developers preparing for cross-surface workflows with non-developer colleagues
+   - SEO targets: "codex inside chatgpt", "codex chatgpt integration cli", "codex platform convergence 2026", "codex app server architecture", "codex cross surface threads", "codex cli chatgpt developer impact", "codex unified platform"
+
+---
+
+## Coding Agent Landscape June 2026 (2026-06-05 Hourly Article Run)
+
+1. ✅ **Coding Agent Landscape, June 2026: How Codex CLI v0.137 Stacks Up Against Copilot Flex, Devin Desktop, Antigravity 2.0, and Kiro** — Written 2026-06-05 → `2026-06-05-coding-agent-landscape-june-2026-codex-cli-copilot-flex-devin-desktop-antigravity-kiro.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the June 2026 competitive landscape shifts: GitHub Copilot's switch to usage-based flex billing (1 June), Windsurf's rebrand to Devin Desktop with ACP support (2 June), Antigravity 2.0's forced legacy CLI deprecation (18 June), Codex CLI v0.137 stable release (4 June), Claude Code's upcoming credit-metered billing (15 June), and Kiro's parallel spec execution; previous competitive analysis was from April 2026 and predated all these changes
+   - SEO targets: "codex cli vs copilot 2026", "coding agent comparison june 2026", "devin desktop vs codex cli", "antigravity 2.0 vs codex", "coding agent pricing 2026", "kiro vs codex cli", "ai coding tools comparison"
+
+---
+
+## Agentic AI Foundation and Codex CLI (2026-06-05 Hourly Article Run)
+
+1. ✅ **The Agentic AI Foundation: What AGENTS.md, MCP, and Linux Foundation Governance Mean for Codex CLI Developers** — Written 2026-06-05 → `2026-06-05-agentic-ai-foundation-agents-md-mcp-linux-foundation-codex-cli-developers.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Agentic AI Foundation (AAIF) formed December 2025 under the Linux Foundation, which now governs AGENTS.md, MCP, and goose with 170+ member organisations; the article covers governance structure, MCP Apps launch, AGENTS.md v1.1 proposal, cross-agent compatibility landscape, and practical steps for Codex CLI teams
+   - SEO targets: "agentic ai foundation", "AAIF codex cli", "AGENTS.md linux foundation", "MCP governance", "AGENTS.md vs CLAUDE.md", "codex cli agents md guide", "agentic ai open standards"
+
+---
+
+## OpenAI June 2026 Platform Deprecations (2026-06-04 Hourly Article Run)
+
+1. ✅ **OpenAI's June 2026 Platform Deprecations: Evals, Agent Builder, and Prompts API Shutdown — What Codex CLI Developers Must Do Before November** — Written 2026-06-04 → `2026-06-04-openai-june-2026-platform-deprecations-evals-agent-builder-prompts-codex-cli-migration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — on 3 June 2026, OpenAI deprecated the Evals dashboard, Agent Builder, and v1/prompts API (all shutting down 30 November 2026), plus three legacy GPT Image models (1 December 2026); no existing article covered the combined deprecation impact on Codex CLI workflows, migration paths (Promptfoo, Datasets, Agents SDK, ChatKit), or the broader signal toward code-first developer-owned patterns
+   - SEO targets: "openai evals deprecation", "agent builder shutdown", "openai prompts api deprecated", "codex cli evals migration", "promptfoo openai migration", "openai november 2026 shutdown", "codex cli platform deprecations"
+
+---
+
+## Codex CLI Visual Workflows and Image Generation (2026-06-04 Hourly Article Run)
+
+1. ✅ **Codex CLI Visual Workflows: Image Input, gpt-image-2 Generation, and Asset Pipelines for v0.137** — Written 2026-06-04 → `2026-06-04-codex-cli-visual-workflows-image-input-gpt-image-2-generation-asset-pipelines-v0137.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing image articles (March and April 2026) predated the v0.136 standalone image generation extension, v0.137 expanded code-mode image tools, and the mature $imagegen skill with chroma-key transparency workflow, structured prompt schema, two-mode operation (built-in vs CLI fallback), and current gpt-image-2 pricing/limits
+   - SEO targets: "codex cli image generation", "codex cli gpt-image-2", "codex imagegen skill", "codex cli screenshot to code", "codex cli visual workflows", "codex cli image input", "codex image generation pricing"
+
+---
+
+## Codex CLI Network Proxy Deep Dive (2026-06-04 Hourly Article Run)
+
+1. ✅ **Codex CLI Network Proxy: Sandboxed Outbound Traffic, Domain Policies, SOCKS5, and MITM Hooks** — Written 2026-06-04 → `2026-06-04-codex-cli-network-proxy-sandboxed-outbound-traffic-domain-policies-socks5-mitm.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a dedicated deep-dive on the `codex-network-proxy` crate architecture, the `features.network_proxy` and `permissions.<name>.network` configuration surfaces, domain matching semantics (exact/wildcard/apex+subdomain), the local protection guard against DNS rebinding, SOCKS5 configuration and limited-mode disablement, MITM hook TLS termination for HTTPS inspection, Unix socket controls for Docker, dynamic policy reloading, OTel auditing integration, and practical recipes for Node.js, Python ML, CI, and enterprise air-gap environments
+   - SEO targets: "codex cli network proxy", "codex cli domain allowlist", "codex sandbox network access", "codex cli SOCKS5 proxy", "codex network policy configuration", "codex cli outbound traffic control", "codex cli MITM hooks"
+
+---
+
+## Codex CLI Power-User Playbook (2026-06-04 Hourly Article Run)
+
+1. ✅ **Codex CLI Power-User Playbook: 15 Non-Obvious Features and Configuration Tricks for v0.137** — Written 2026-06-04 → `2026-06-04-codex-cli-power-user-playbook-non-obvious-features-configuration-tricks-v0137.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article collected non-obvious power-user features (draft restoration on cancellation, --ephemeral, Ctrl+R history search, shell_environment_policy lockdown, model_reasoning_effort gradients, --no-alt-screen, codex doctor --json, codex plugin list --json, .codexignore, /compact pivots, --profile stacking, --output-schema, codex sandbox standalone, parallel web search, project_root_markers) into a single curated cross-cutting guide for experienced developers
+   - SEO targets: "codex cli power user tips", "codex cli hidden features", "codex cli productivity tricks", "codex cli configuration tips v0.137", "codex cli ephemeral exec", "codex cli shell environment policy", "codex cli profile stacking"
+
+---
+
+## Codex CLI + OpenAI Agents SDK Multi-Agent Pipelines (2026-06-04 Hourly Article Run)
+
+1. ✅ **Codex CLI + OpenAI Agents SDK: Building Multi-Agent Pipelines with MCP, Handoffs, and Traces** — Written 2026-06-04 → `2026-06-04-codex-cli-openai-agents-sdk-mcp-server-multi-agent-handoffs-traces-pipelines.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — previous Codex-as-MCP-server article (March 2026) covered v0.117.0 basics; no article covered the current Agents SDK integration surface including multi-agent handoff pipelines, the `codex`/`codex-reply` MCP tool pair, `MCPServerStdio` timeout configuration, per-agent model/sandbox selection, Traces dashboard integration, session continuity via threadId, and practical gotchas for CI/pipeline use
+   - SEO targets: "codex cli agents sdk", "codex mcp server agents sdk", "codex multi-agent pipeline python", "codex cli handoffs traces", "openai agents sdk codex", "codex mcp-server tool", "codex-reply threadId"
+
+---
+
+## Codex CLI Side Conversations and Session Branching (2026-06-04 Hourly Article Run)
+
+1. ✅ **Codex CLI Side Conversations: Ephemeral Forks, Session Branching, and the /side vs /fork Decision Tree** — Written 2026-06-04 → `2026-06-04-codex-cli-side-conversations-ephemeral-forks-session-branching-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the `/side` slash command as a standalone workflow primitive, comparing it to `/fork` and `/review`, with practical patterns for sanity-checking risky changes, exploring errors without context pollution, composing side conversations with review workflows, and thread hygiene guidelines
+   - SEO targets: "codex cli side conversation", "codex /side command", "codex fork vs side", "codex cli session branching", "codex ephemeral fork", "codex cli thread management", "codex /btw command"
+
+---
+
+## Codex Computer Use on Windows (2026-06-04 Daily Research Run)
+
+1. ✅ **Codex Computer Use on Windows: Foreground Desktop Automation with Agent Sandbox Controls** — Written 2026-06-04 → `2026-06-04-codex-computer-use-windows-foreground-desktop-automation-agent-sandbox-permissions.md`
+   - Source: Daily research run — no existing article covered the Computer Use capability on Windows (shipped 29 May 2026 in Codex App v26.527.1), including the foreground-only execution model, permission-prompt security boundary, remote-control integration via app-server v2 RPCs, Windows sandbox provisioning with `--elevated`, practical automation workflows (cross-browser testing, legacy app data extraction, IDE automation, accessibility testing), and geographic restrictions excluding the EEA/UK/Switzerland
+   - SEO targets: "codex computer use windows", "codex desktop automation agent", "codex windows foreground mode", "codex computer use sandbox", "codex remote control windows", "codex windows cross-browser testing", "codex computer use permissions"
+
+---
+
+## Codex CLI Sandbox Subcommand Deep-Dive (2026-06-04 Hourly Article Run)
+
+1. ✅ **Codex CLI `codex sandbox` Subcommand: Running Arbitrary Commands Under Agent-Grade Isolation** — Written 2026-06-04 → `2026-06-04-codex-cli-sandbox-subcommand-standalone-command-isolation-platform-native-security.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the `codex sandbox` subcommand as a standalone command-isolation utility independent of the AI agent loop, including platform-specific invocation (macOS Seatbelt, Linux bubblewrap+seccomp, Windows elevated/unelevated restricted tokens), `--log-denials` debugging, `--permissions-profile` mapping, `--include-managed-config` enterprise policy merge (v0.137), network domain allowlisting, protected path enforcement, and practical recipes for CI hardening and untrusted script auditing
+   - SEO targets: "codex sandbox subcommand", "codex sandbox macos seatbelt", "codex sandbox linux bubblewrap", "codex sandbox windows elevated", "codex cli standalone sandbox", "codex sandbox log denials", "codex sandbox ci pipeline"
+
+---
+
+## Codex CLI Plugin Management from the Terminal (2026-06-04 Hourly Article Run)
+
+1. ✅ **Codex CLI Plugin Management from the Terminal: Marketplace Commands, JSON Output, and Automation Patterns for v0.137** — Written 2026-06-04 → `2026-06-04-codex-cli-plugin-management-terminal-commands-marketplace-json-output-v0137.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a standalone practical guide to the `codex plugin` subcommand tree (marketplace add/list/remove/upgrade, plugin add/remove/list --json), the v0.137 machine-readable JSON output, cached remote catalogue suggestions, plugin deduplication and manifest ordering fixes, and automation patterns for team-wide plugin stack management
+   - SEO targets: "codex plugin list json", "codex plugin marketplace add", "codex cli plugin management", "codex plugin automation", "codex cli plugin commands v0.137", "codex plugin deduplication", "codex marketplace cli"
+
+---
+
+## Codex CLI v0.137.0 Stable Release Guide (2026-06-04 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.137.0 Stable: Cloud Config Bundles, Multi-Agent Runtime Persistence, and Plugin JSON Output** — Written 2026-06-04 → `2026-06-04-codex-cli-v0137-stable-release-cloud-config-bundles-multi-agent-runtime-plugin-json.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.137.0 stable shipped 4 June 2026 and no article covered the stable release; existing article only covered the alpha preview (v0.137.0-alpha.4). New stable features include cloud-managed configuration bundles for Business/Enterprise/EDU workspaces, multi-agent v2 runtime persistence across threads, machine-readable `codex plugin list --json` output with cached remote catalogue suggestions, expanded code-mode web search and image generation tooling, F13-F24 TUI keybindings, and numerous platform and plugin loading fixes
+   - SEO targets: "codex cli v0.137", "codex cli cloud config bundles", "codex managed configuration enterprise", "codex multi-agent runtime persistence", "codex plugin list json", "codex cli EDU workspace", "codex v0.137 release"
+
+---
+
+## Codex CLI v0.136 Production Hardening Checklist (2026-06-04 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.136 Production Hardening Checklist: Security, Performance, and Reliability for Enterprise Teams** — Written 2026-06-04 → `2026-06-04-codex-cli-v0136-production-hardening-checklist-security-performance-reliability-enterprise.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article consolidated the v0.136.0 security fixes (CSWSH exec-server blocking, diff hook injection prevention, remote-control short-lived server tokens), performance tuning (compaction thresholds, tool output limits, service tier), secrets defence (shell_environment_policy, deny_read, network_access), MCP server hardening (per-server env_vars, source targeting, tool allowlists), session archiving, Windows elevated sandbox, and CI/CD integration into a single actionable production checklist for enterprise teams
+   - SEO targets: "codex cli production hardening", "codex cli v0.136 security", "codex cli enterprise checklist", "codex cli sandbox configuration", "codex cli CI/CD security", "codex cli secrets defence", "codex cli production deployment"
+
+---
+
+## Codex CLI Built-In Tool Surface Reference (2026-06-03 Hourly Article Run)
+
+1. ✅ **Codex CLI Built-In Tool Surface: The Complete Reference for v0.136** — Written 2026-06-03 → `2026-06-03-codex-cli-built-in-tool-surface-complete-reference-shell-file-search-image-multi-agent.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a comprehensive reference to the complete set of built-in tools (shell_command, apply_patch, read_file, list_dir, glob_file_search, rg, git, view_image, image_gen, web_search, tool_search, update_plan, spawn_agent, wait_agent, send_input, close_agent, resume_agent, spawn_agents_on_csv, multi_tool_use.parallel) with their parameters, configuration keys, and v0.136 improvements to tool schema documentation
+   - SEO targets: "codex cli built-in tools", "codex cli tool surface", "codex apply_patch tool", "codex cli shell_command", "codex spawn_agent multi-agent", "codex cli tool reference", "codex cli read_file list_dir tools"
+
+---
+
+## Codex CLI Environment Variables Reference (2026-06-03 Hourly Article Run)
+
+1. ✅ **Codex CLI Environment Variables: The Complete Reference for CODEX_HOME, CODEX_API_KEY, and Headless Deployment** — Written 2026-06-03 → `2026-06-03-codex-cli-environment-variables-runtime-configuration-headless-ci-container-deployment.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the complete set of stable public environment variables (CODEX_HOME, CODEX_SQLITE_HOME, CODEX_API_KEY, CODEX_ACCESS_TOKEN, CODEX_CA_CERTIFICATE, SSL_CERT_FILE, CODEX_NON_INTERACTIVE, CODEX_INSTALL_DIR, RUST_LOG) with practical patterns for CI pipelines, Docker containers, multi-instance fleets, and corporate proxy configurations
+   - SEO targets: "codex cli environment variables", "CODEX_API_KEY ci pipeline", "CODEX_HOME configuration", "codex cli docker deployment", "codex cli headless", "codex exec ci environment", "codex cli corporate proxy tls"
+
+---
+
 ## Codex Security Plugin Deep Dive (2026-06-03 Hourly Article Run)
 
 1. ✅ **Codex Security Plugin: Local Vulnerability Scanning, Diff Review, and Automated Remediation from the CLI** — Written 2026-06-03 → `2026-06-03-codex-security-plugin-local-vulnerability-scanning-diff-review-remediation-cli.md`
@@ -5803,3 +6041,58 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
    - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered agent-driven test maintenance workflows (automated CI repair, intelligent snapshot management, flaky test detection/quarantine) despite existing articles on testing in general.
    - Scope: Test maintenance cost problem (20-50% of QA time), GitHub Actions workflow with codex-action for CI autofix, AGENTS.md constraints for test-only modifications, intelligent snapshot updates with codex exec and --output-schema, PostToolUse hooks for snapshot validation, flaky test detection via static analysis, Playwright quarantine pattern with tag-based filtering, PreToolUse hooks to block retry masking, combined test health automation script, cost considerations with model routing (gpt-5.4-mini vs gpt-5.5), limitations and safety
    - SEO targets: "codex cli test maintenance", "codex cli fix broken tests", "codex cli snapshot updates", "codex cli flaky tests", "codex cli ci autofix", "automated test repair agent", "codex exec testing", "codex cli jest vitest playwright"
+
+## Gap Analysis — Article Ideas from Rating Review (2026-06-03)
+
+The following gaps were identified during the article-rater review of all premium and regular articles.
+
+### 1. The Agent Observability Gap
+- **Gap:** No article covers end-to-end observability for agent sessions — structured logging, trace correlation, cost attribution per task, anomaly detection. Article 28 (agent loop) touches internals but not monitoring.
+- **Angle:** "Your Agent Ran for 45 Minutes. Do You Know What It Did?" — observability as the missing layer between security (Article 07) and token economics (Article 11).
+- **Priority:** High — operational gap in the playbook
+- **Added:** 2026-06-03
+
+### 2. The Agent Failure Taxonomy
+- **Status:** ✅ Written 2026-06-03 → `2026-06-03-coding-agent-failure-taxonomy-nist-style-classification-detection-codex-cli.md`
+- **Gap:** AI Slopageddon (10) covers code quality risks but no article systematically catalogues *agent* failure modes (loop divergence, hallucinated tool calls, sandbox escapes, context corruption, silent regression). Debugging Codex Agent Failures (regular) is tactical, not taxonomic.
+- **Angle:** A NIST-style failure taxonomy for coding agents. Classify, name, and provide detection patterns for each failure class.
+- **Priority:** High — would be widely cited
+- **Added:** 2026-06-03
+
+### 3. The Multi-Agent Coordination Problem
+- **Gap:** Hermes (34) covers orchestration but no article deeply analyses what happens when multiple agents modify the same codebase concurrently — merge conflicts, semantic drift, competing architectural decisions.
+- **Angle:** "When Three Agents Edit the Same File" — coordination protocols, lock mechanisms, review gates for concurrent agent work.
+- **Priority:** Medium — becoming relevant as teams scale to multiple concurrent agents
+- **Added:** 2026-06-03
+
+### 4. The Agent Onboarding Curve (Developer Experience)
+- **Gap:** Cognitive Load Paradox (16b) covers exhaustion but no article maps the learning curve for new developers adopting agentic workflows. What does week 1, month 1, quarter 1 look like?
+- **Angle:** Primary research from FDE engagements. Track skill acquisition, confidence, and productivity over time.
+- **Priority:** Medium — valuable for enterprise adoption conversations
+- **Added:** 2026-06-03
+
+### 5. Agent-Generated Documentation: Quality and Trust
+- **Gap:** Multiple articles cover agent-generated code quality but none covers agent-generated documentation — READMEs, API docs, architectural decision records. Is agent-written documentation trustworthy?
+- **Angle:** Test agent documentation against human-written docs. Measure completeness, accuracy, and reader comprehension.
+- **Priority:** Medium — documentation is a significant agent use case with no quality framework
+- **Added:** 2026-06-03
+
+### 6. The Consolidation Piece: "Which Article Should I Read First?"
+- **Gap:** With 57 premium articles and 969 regular articles, new readers have no entry point. No reading guide or navigator exists.
+- **Angle:** A "Start Here" article with learning paths: executive track (3 articles), practitioner track (8 articles), architect track (12 articles).
+- **Priority:** High — directly impacts Substack conversion and reader retention
+- **Added:** 2026-06-03
+
+### 7. Agent Ethics and Professional Responsibility
+- **Gap:** EU AI Act (13) covers regulation but no article addresses the ethical dimensions of agent use: attribution of AI-generated code in open source, professional responsibility when agents cause harm, disclosure obligations.
+- **Angle:** Professional ethics for the agentic era — what IEEE, ACM, and BCS codes of conduct say (and don't say) about delegating engineering judgement to agents.
+- **Priority:** Low — important but niche. Better as a premium think piece than a practical guide.
+- **Added:** 2026-06-03
+
+## Completed — Gap Analysis Picks
+
+### Codex CLI Prompt Library: 20 Battle-Tested Patterns for Code Review, Refactoring, Testing, and Documentation
+- **Status:** ✅ Published
+- **File:** `2026-06-04-codex-cli-prompt-library-battle-tested-patterns-code-review-refactoring-testing-documentation.md`
+- **Gap:** No dedicated prompt library with specific, copy-paste prompts existed despite multiple prompting-principles articles.
+- **Published:** 2026-06-04
