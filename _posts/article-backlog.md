@@ -1,5 +1,37 @@
 # Article Backlog
 
+## Vibe Coding Security Debt (2026-06-06 Hourly Article Run)
+
+1. ✅ **The Vibe Coding Security Debt Crisis: What the CSA Research, Georgia Tech's CVE Tracker, and the 10x Vulnerability Rate Mean for Codex CLI Teams** — Written 2026-06-06 → `2026-06-06-vibe-coding-security-debt-csa-research-ai-generated-cve-surge-codex-cli-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article synthesised the April 2026 CSA Research Note (10x vulnerability rate in Fortune 50 enterprises), Georgia Tech's Vibe Security Radar (74 confirmed AI-tool CVEs), Veracode's cross-model 45% security failure rate, the slopsquatting supply-chain attack vector, and Unit 42's SHIELD framework into a unified defence guide mapped to Codex CLI's sandbox, approval, hooks, and permission profile architecture
+   - SEO targets: "vibe coding security", "AI generated code vulnerabilities 2026", "codex cli security configuration", "CSA vibe coding research", "AI coding CVE surge", "slopsquatting defence codex", "codex cli SAST hooks", "AI code security best practices"
+
+---
+
+## Remote Control and Mobile Pairing (2026-06-06 Hourly Article Run)
+
+1. ✅ **Codex CLI Remote Control and Mobile Pairing: App-Server v2 RPCs, ChatGPT Mobile, and the Remodex Ecosystem** — Written 2026-06-06 → `2026-06-06-codex-cli-remote-control-mobile-pairing-app-server-v2-remodex.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the unified remote-control surface combining v0.137 app-server v2 pairing RPCs (remoteControl/pairing/start, client/list, client/revoke), ChatGPT mobile integration via secure relay, and the Remodex open-source iOS bridge with E2E encryption; existing articles covered app-server architecture, remote SSH development, and WebSocket mode, but none addressed the v0.137+ remote-control primitives, the mobile pairing workflow, the server-token authentication upgrade in v0.136, or the security comparison between the official relay and Remodex's end-to-end encrypted channel
+   - SEO targets: "codex cli remote control", "codex mobile pairing", "codex app-server v2 remote control", "remodex codex iphone", "codex cli mobile access", "codex remote-control pairing RPC", "codex cli approve from phone"
+
+---
+
+## Agent-Ready Repository Architecture (2026-06-06 Hourly Article Run)
+
+1. ✅ **Agent-Ready Repository Architecture: Codebase Patterns That Maximise Codex CLI Productivity** — Written 2026-06-06 → `2026-06-06-agent-ready-repository-architecture-codebase-patterns-codex-cli-productivity.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered codebase architecture patterns specifically optimised for AI coding agent productivity; existing articles covered AGENTS.md authoring, configuration reference, and tool integration, but none addressed the underlying code organisation patterns (vertical feature slices, module size sweet spots, type contracts at boundaries, naming as agent search optimisation, co-located tests as specifications, progressive AGENTS.md disclosure) that determine whether an agent can complete tasks in a single pass; draws on the Marmelab Agent Experience framework, Sourcegraph agentic coding guide, Stanford ACE research, and ETH Zurich AGENTS.md effectiveness study
+   - SEO targets: "codex cli repository structure", "agent-ready codebase architecture", "context engineering developers", "agent-friendly code patterns", "codex cli productivity", "AI coding agent codebase structure", "AGENTS.md best practices"
+
+---
+
+## Command Safety Defence in Depth (2026-06-06 Hourly Article Run)
+
+1. ✅ **Codex CLI Command Safety: Defence in Depth from Shell Injection to Sandbox Containment** — Written 2026-06-06 → `2026-06-06-codex-cli-command-safety-defence-in-depth-shell-injection-sandbox-containment.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the unified four-layer command safety model (OS sandbox, approval policy, command validation, environment filtering), the v0.138 command-safety hardening patches (git helper/hook blocking in /diff, PowerShell parser guard, browser-origin WebSocket rejection), the lessons from CVE-2025-61260 and the BeyondTrust branch name injection, or the community hardening cheat sheet configuration patterns
+   - SEO targets: "codex cli command safety", "codex cli shell injection defence", "codex cli sandbox security architecture", "codex cli command validation v0.138", "codex cli CVE-2025-61260", "codex cli hardening guide", "coding agent command execution security"
+
+---
+
 ## Token Cost Crisis and Cost Defence (2026-06-06 Hourly Article Run)
 
 1. ✅ **The Token Cost Crisis: What Microsoft and Uber's Claude Code Budget Blowouts Teach Every Codex CLI Team About Cost Defence** — Written 2026-06-06 → `2026-06-06-token-cost-crisis-microsoft-uber-claude-code-budget-blowouts-codex-cli-cost-defence.md`
@@ -6068,6 +6100,7 @@ The following gaps were identified during the article-rater review of all premiu
 - **Added:** 2026-06-03
 
 ### 3. The Multi-Agent Coordination Problem
+- **Status:** ✅ Written 2026-06-06 → `2026-06-06-multi-agent-coordination-problem-concurrent-agents-semantic-conflicts-codex-cli.md`
 - **Gap:** Hermes (34) covers orchestration but no article deeply analyses what happens when multiple agents modify the same codebase concurrently — merge conflicts, semantic drift, competing architectural decisions.
 - **Angle:** "When Three Agents Edit the Same File" — coordination protocols, lock mechanisms, review gates for concurrent agent work.
 - **Priority:** Medium — becoming relevant as teams scale to multiple concurrent agents
