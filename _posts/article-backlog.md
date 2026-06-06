@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AI-Ready Code Health and Agent Performance (2026-06-06 Hourly Article Run)
+
+1. ✅ **AI-Ready Code: How Code Health Determines Codex CLI Agent Performance** — Written 2026-06-06 → `2026-06-06-ai-ready-code-health-codescene-research-codex-cli-agent-performance-quality-gates.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered CodeScene's peer-reviewed research (Borg & Tornhill, January 2026) quantifying the relationship between code health metrics and AI agent performance, the 30-60% defect risk increase in unhealthy code, the 35-50% token consumption penalty, the Code Health threshold of 9.4 for safe AI-assisted development, the CodeHealth MCP server integration with Codex CLI, the loveholidays case study scaling to 50% agent-assisted code, or the six operational quality gate patterns mapped to Codex CLI hooks and AGENTS.md
+   - SEO targets: "code health AI agent performance", "codescene codex cli", "AI-ready code quality", "code health MCP server", "agentic coding quality gates", "technical debt AI agents", "codex cli code health"
+
+---
+
 ## Vibe Coding Security Debt (2026-06-06 Hourly Article Run)
 
 1. ✅ **The Vibe Coding Security Debt Crisis: What the CSA Research, Georgia Tech's CVE Tracker, and the 10x Vulnerability Rate Mean for Codex CLI Teams** — Written 2026-06-06 → `2026-06-06-vibe-coding-security-debt-csa-research-ai-generated-cve-surge-codex-cli-defence.md`
