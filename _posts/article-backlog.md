@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Parallel Subagent Architecture Comparison (2026-06-08 Hourly Article Run)
+
+1. ✅ **The Parallel Subagent Race: Codex CLI Multi-Agent v2, Claude Code Dynamic Workflows, and Choosing Your Agent Architecture** — Written 2026-06-08 → `2026-06-08-parallel-subagent-race-codex-cli-multi-agent-v2-claude-dynamic-workflows-architecture-comparison.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the seven-day competitive window between Anthropic's Claude Code Dynamic Workflows launch (Opus 4.8, 28 May 2026, script-generated JavaScript orchestration, 16 concurrent / 1,000 total subagents, context-window isolation) and OpenAI's Codex CLI Multi-Agent v2 runtime (v0.137, 4 June 2026, TOML-defined roles, per-thread runtime persistence, in-context result aggregation), or provided a practical architectural comparison with configuration guidance for choosing between config-driven turn-by-turn orchestration and script-generated parallel fan-out
+   - SEO targets: "codex cli multi-agent v2", "claude code dynamic workflows comparison", "parallel subagent architecture", "codex cli subagents toml", "claude code vs codex cli multi-agent", "coding agent orchestration patterns 2026", "codex cli v0.137 multi-agent"
+
+---
+
 ## Terminal-First HCI Research (2026-06-07 Hourly Article Run)
 
 1. ✅ **Terminal Is All You Need: What HCI Research Reveals About Codex CLI's Terminal-First Advantage** — Written 2026-06-07 → `2026-06-07-terminal-is-all-you-need-hci-research-codex-cli-terminal-first-architecture-advantage.md`
