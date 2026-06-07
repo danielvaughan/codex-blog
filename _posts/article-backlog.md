@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Infrastructure as Code with Codex CLI (2026-06-07 Hourly Article Run)
+
+1. ✅ **Codex CLI for Infrastructure as Code: Terraform MCP, Pulumi Agent Skills, and the Agentic IaC Stack** — Written 2026-06-07 → `2026-06-07-codex-cli-infrastructure-as-code-terraform-mcp-pulumi-agent-skills-agentic-iac.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the unified three-layer agentic IaC stack combining HashiCorp's terraform-mcp-server v0.5.2, Pulumi Agent Skills (8 skills across authoring and migration), TerraShark's anti-hallucination workflow, and Codex CLI's sandbox/approval/hook configuration for safe infrastructure operations; existing articles covered cloud-specific workflows (GCP, AWS Bedrock) and general MCP integration but none addressed the dedicated IaC tooling ecosystem or the Pulumi cognitive efficiency benchmark data
+   - SEO targets: "codex cli terraform", "codex cli infrastructure as code", "terraform mcp server codex", "pulumi agent skills codex cli", "agentic infrastructure 2026", "codex cli iac configuration", "terrashark terraform skill", "AI coding agent terraform"
+
+---
+
 ## Delegation Spectrum and Autonomy Levels (2026-06-07 Hourly Article Run)
 
 1. ✅ **The Codex CLI Delegation Spectrum: Five Levels of Agent Autonomy and How to Configure Each One** — Written 2026-06-07 → `2026-06-07-codex-cli-delegation-spectrum-configuration-autonomy-levels-approval-policy-reasoning-effort.md`
