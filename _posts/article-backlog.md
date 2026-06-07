@@ -6204,3 +6204,43 @@ The following gaps were identified during the article-rater review of all premiu
 - **File:** `2026-06-04-codex-cli-prompt-library-battle-tested-patterns-code-review-refactoring-testing-documentation.md`
 - **Gap:** No dedicated prompt library with specific, copy-paste prompts existed despite multiple prompting-principles articles.
 - **Published:** 2026-06-04
+
+---
+
+## Gap Analysis Picks (identified 2026-06-07)
+
+### 8. Agentic Fatigue and the Verification Gap (Premium Elevation)
+- **Gap:** The regular article (5.0) is the second regular article to achieve a perfect composite. The Sonar 96%/48%/42% data, Evil Martians cognitive debt model, and hooks-as-defence thesis deserve premium treatment.
+- **Angle:** Elevate with burnout metrics framework, organisational policy templates for review load distribution, and a "fatigue budget" model.
+- **Priority:** High — addresses a universal developer pain point. Viral potential.
+- **Added:** 2026-06-07
+
+### 9. The Delegation Spectrum (Premium Elevation)
+- **Gap:** The regular article (5.0) is the definitive answer to the most common Codex CLI question. Five-level framework with ready-to-use profiles.
+- **Angle:** Elevate with enterprise RBAC mapping, migration paths between levels, and audit evidence requirements per level for regulated environments.
+- **Priority:** High — every Codex CLI user needs this. First-read material.
+- **Added:** 2026-06-07
+
+### 10. Agent Skill Supply Chain Crisis (Premium Elevation)
+- **Gap:** The regular article (5.0) is category-defining security research. ClawHavoc/ToxicSkills/SkillSieve synthesis.
+- **Angle:** Elevate with enterprise procurement checklist, automated SkillSieve integration workflow, organisational skill governance policy templates. "OWASP Top 10 for Agent Skills."
+- **Priority:** High — critical for any team using third-party skills.
+- **Added:** 2026-06-07
+
+### 11. The Sustainable Agentic Development Guide (Premium Series)
+- **Gap:** Four articles form a coherent cluster (Agentic Fatigue 5.0, Delegation Spectrum 5.0, Learning Curve 4.5, Cognitive Load Paradox 4.5) but no unified guide treats sustainability as an organisational discipline.
+- **Angle:** Learning curves + delegation calibration + fatigue prevention + cognitive load management as a unified practice with measurement and policy frameworks.
+- **Priority:** Medium — high value but requires significant consolidation effort.
+- **Added:** 2026-06-07
+
+### 12. The IaC Agent Maturity Model
+- **Gap:** Infrastructure as Code article (4.3) documents the tooling stack but no maturity model exists for IaC agent adoption.
+- **Angle:** Five-level maturity from manual Terraform with agent review through to fully delegated provisioning with automated drift detection. Risk assessment per level.
+- **Priority:** Medium — valuable for DevOps teams adopting agents.
+- **Added:** 2026-06-07
+
+### 13. The Agent Onboarding Curriculum
+- **Gap:** Agent Learning Curve article (4.5) defines five phases but provides no structured curriculum.
+- **Angle:** Week-by-week training plan with exercises, config progressions, and assessment criteria for engineering managers deploying team-wide agent adoption.
+- **Priority:** Medium — high practical value for engineering managers.
+- **Added:** 2026-06-07
