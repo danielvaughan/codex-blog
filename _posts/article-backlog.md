@@ -6140,6 +6140,7 @@ The following gaps were identified during the article-rater review of all premiu
 - **Added:** 2026-06-03
 
 ### 4. The Agent Onboarding Curve (Developer Experience)
+- **Status:** ✅ Written 2026-06-07 → `2026-06-07-agent-learning-curve-research-first-eleven-weeks-codex-cli-proficiency-phases.md`
 - **Gap:** Cognitive Load Paradox (16b) covers exhaustion but no article maps the learning curve for new developers adopting agentic workflows. What does week 1, month 1, quarter 1 look like?
 - **Angle:** Primary research from FDE engagements. Track skill acquisition, confidence, and productivity over time.
 - **Priority:** Medium — valuable for enterprise adoption conversations
