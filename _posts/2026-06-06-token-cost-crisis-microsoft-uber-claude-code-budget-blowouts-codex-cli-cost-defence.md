@@ -18,13 +18,13 @@ This article dissects what went wrong, maps the structural differences between C
 
 Microsoft launched a Claude Code pilot inside its Experiences & Devices division in December 2025, the organisation responsible for Windows, Surface, and Microsoft 365 apps [^1]. The goal was straightforward: benchmark Claude Code against GitHub Copilot CLI on production engineering work.
 
-By April 2026, monthly usage rates had climbed to 84–95% of available capacity [^3]. Per-engineer API costs ranged between $500 and $2,000 per month [^1]. The division's annual AI tooling budget was effectively spent by spring. On 2 June 2026, Microsoft confirmed it would discontinue internal Claude Code licences by 30 June, migrating developers back to GitHub Copilot CLI [^1].
+The division's annual AI tooling budget was effectively spent by spring — token-based billing consumed the budget far ahead of schedule [^1]. On 2 June 2026, Microsoft confirmed it would discontinue internal Claude Code licences by 30 June, migrating developers back to GitHub Copilot CLI [^1].
 
-The root cause was not reckless engineers. It was a structural mismatch: flat seat licensing obscured true token consumption, meaning nobody had visibility into per-session costs until the aggregate bill arrived [^4].
+The root cause was not reckless engineers. It was a structural mismatch: flat seat licensing obscured true token consumption, meaning nobody had visibility into per-session costs until the aggregate bill arrived [^4]. The scale at which employees adopted Claude Code — reportedly preferring it to Microsoft's own Copilot — made the cost unsustainable [^3].
 
 ## What Happened at Uber
 
-Uber's story followed a similar arc but with an additional accelerant. The company deployed Claude Code to 5,000 engineers and actively incentivised adoption through an internal leaderboard ranking teams by total AI tool usage [^2]. A single CTO demonstration consumed $1,200 in tokens during a two-hour session — a moment Uber's COO Andrew Macdonald described as a "head-exploding moment" [^2].
+Uber's story followed a similar arc but with an additional accelerant. The company deployed Claude Code to approximately 5,000 engineers, with monthly usage rates reaching 84–95% by April 2026 [^5]. Management actively incentivised adoption through an internal leaderboard ranking teams by total AI tool usage [^2][^5]. Per-engineer API costs ranged between $500 and $2,000 per month [^5]. A single CTO demonstration consumed $1,200 in tokens during a two-hour session — a moment Uber's COO Andrew Macdonald described as a "head-exploding moment" [^5].
 
 By April 2026 the company had burned through its entire 2026 AI coding budget. Macdonald's public admission was striking: "That link is not there yet" — referring to the connection between rising Claude Code usage and measurable product innovation [^2]. Uber's response was a hard $1,500 monthly cap on AI coding tool spend per engineer [^5].
 

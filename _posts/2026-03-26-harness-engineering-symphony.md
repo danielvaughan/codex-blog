@@ -2,7 +2,7 @@
 title: "From Harness Engineering to Symphony: The Autonomous Development Stack"
 description: "On March 5, 2026, OpenAI quietly released a GitHub repository called Symphony. Within three weeks it had 13K stars. ⚠️ [unverified] The concept it embodies."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-06-07T02:17:40+01:00
+last_modified_at: 2026-06-07T03:10:27+01:00
 tags:
   - orchestration
   - team-workflow
