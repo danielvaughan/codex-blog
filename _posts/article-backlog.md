@@ -1,5 +1,13 @@
 # Article Backlog
 
+## BountyBench and ExploitBench Security Benchmarks (2026-06-07 Hourly Article Run)
+
+1. ✅ **BountyBench, ExploitBench, and the Defender's Edge: What Security Benchmarks Reveal About Codex CLI's Vulnerability Patching Superiority** — Written 2026-06-07 → `2026-06-07-bountybench-exploitbench-codex-cli-security-benchmarks-defensive-superiority-vulnerability-patching.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Stanford BountyBench benchmark (Zhang et al., 40 bug bounties across 25 systems, Codex CLI o3-high/o4-mini achieving 90% patch rate vs 47.5%/32.5% exploit rate), CMU's ExploitBench capability ladder (Lee & Brumley, 16-flag decomposition across 41 V8 bugs), the defence-offence asymmetry in coding agents, dollar economics of agent-assisted patching ($14,152–$14,422 bounty value at ~$70–$123 token cost), or practical Codex CLI configuration for systematic security patching workflows using SARIF integration, dedicated profiles, and PostToolUse verification hooks
+   - SEO targets: "bountybench codex cli", "codex cli vulnerability patching", "AI agent security benchmark", "codex cli security patching workflow", "exploitbench coding agent", "automated vulnerability remediation codex", "codex cli defensive coding", "agent-assisted bug bounty patching"
+
+---
+
 ## Agent Skill Supply Chain Crisis (2026-06-07 Hourly Article Run)
 
 1. ✅ **The Agent Skill Supply Chain Crisis: ClawHavoc, ToxicSkills, SkillSieve, and Defending Your Codex CLI Skill Stack** — Written 2026-06-07 → `2026-06-07-agent-skill-supply-chain-crisis-clawhavoc-toxicskills-skillsieve-codex-cli-defence.md`
