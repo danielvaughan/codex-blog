@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The 80% Threshold and Review Workflows (2026-06-07 Hourly Article Run)
+
+1. ✅ **The 80% Threshold: What Anthropic's AI-Builds-Itself Report Means for Your Codex CLI Review Workflows** — Written 2026-06-07 → `2026-06-07-anthropic-80-percent-ai-authored-code-threshold-codex-cli-review-workflows-verification-infrastructure.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Anthropic's June 4, 2026 "When AI Builds Itself" report (80%+ AI-authored merged code, 8× productivity multiplier, 76% success on open-ended problems), the Faros AI Productivity Paradox data (91% PR review time increase, 40% review capacity gap), OpenAI's auto-review metrics (99.1% approval rate, 200× fewer human interruptions, 99.3% prompt injection recall), or the practical mapping of these findings to a four-layer Codex CLI tiered review architecture using auto_review, review_model, hooks, and GitHub cloud review
+   - SEO targets: "codex cli code review automation", "80 percent AI authored code review", "codex cli auto-review configuration", "anthropic when AI builds itself codex", "codex cli review hooks", "AI code review bottleneck", "codex cli review_model", "tiered code review AI"
+
+---
+
 ## BountyBench and ExploitBench Security Benchmarks (2026-06-07 Hourly Article Run)
 
 1. ✅ **BountyBench, ExploitBench, and the Defender's Edge: What Security Benchmarks Reveal About Codex CLI's Vulnerability Patching Superiority** — Written 2026-06-07 → `2026-06-07-bountybench-exploitbench-codex-cli-security-benchmarks-defensive-superiority-vulnerability-patching.md`
