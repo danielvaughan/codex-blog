@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agentic Fatigue and the Verification Gap (2026-06-07 Hourly Article Run)
+
+1. ✅ **Agentic Fatigue and the Verification Gap: Sustainable AI-Assisted Development with Codex CLI** — Written 2026-06-07 → `2026-06-07-agentic-fatigue-verification-gap-codex-cli-sustainable-ai-assisted-development.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article addressed the agentic fatigue phenomenon, the Sonar 2026 verification gap data (96% distrust, 48% verify, 42% AI-committed code), Evil Martians' cognitive debt analysis, Anthropic's delegation gap findings (60% AI-assisted but only 0-20% fully delegated), or the practical mapping of Codex CLI hooks, permission profiles, and exec pipelines as automated verification infrastructure to reduce human review burden
+   - SEO targets: "agentic fatigue codex cli", "AI code verification gap", "developer burnout coding agents", "codex cli hooks automated review", "sustainable AI assisted development", "AI generated code trust", "codex cli permission profiles review automation"
+
+---
+
 ## AI-Ready Code Health and Agent Performance (2026-06-06 Hourly Article Run)
 
 1. ✅ **AI-Ready Code: How Code Health Determines Codex CLI Agent Performance** — Written 2026-06-06 → `2026-06-06-ai-ready-code-health-codescene-research-codex-cli-agent-performance-quality-gates.md`
