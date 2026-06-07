@@ -1,7 +1,7 @@
 ---
 title: "Agent-Generated Documentation: Quality, Trust, and Verification Patterns for Codex CLI Teams"
 parent: "Articles"
-nav_order: 1014
+nav_order: 1014.5
 tags: ["codex-cli", "documentation", "quality", "trust", "hallucination", "verification", "AGENTS.md", "API-docs", "ADR", "changelog"]
 ---
 
