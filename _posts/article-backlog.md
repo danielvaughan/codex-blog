@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Terminal-First HCI Research (2026-06-07 Hourly Article Run)
+
+1. ✅ **Terminal Is All You Need: What HCI Research Reveals About Codex CLI's Terminal-First Advantage** — Written 2026-06-07 → `2026-06-07-terminal-is-all-you-need-hci-research-codex-cli-terminal-first-architecture-advantage.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article synthesised the De Masi CHI 2026 workshop paper "Terminal Is All You Need" (three design properties for human-AI-UI collaboration: representational compatibility, transparency, low participation barriers), the Microsoft Intelligent Terminal 0.1 Build 2026 launch validating terminal-first agent hosting, the METR Cursor 19% productivity decrease study for experienced developers, OSWorld GUI agent benchmark data (12.24% → 72.5%), Terminal-Bench 2.0 scores (GPT-5.5 at 82.7%), or the coding agent convergence trend toward text-based sequential interaction
+   - SEO targets: "codex cli terminal advantage", "terminal coding agent HCI research", "terminal is all you need CHI 2026", "codex cli vs IDE agent", "terminal-first coding agent architecture", "Microsoft Intelligent Terminal codex", "METR cursor productivity study terminal"
+
+---
+
 ## The 80% Threshold and Review Workflows (2026-06-07 Hourly Article Run)
 
 1. ✅ **The 80% Threshold: What Anthropic's AI-Builds-Itself Report Means for Your Codex CLI Review Workflows** — Written 2026-06-07 → `2026-06-07-anthropic-80-percent-ai-authored-code-threshold-codex-cli-review-workflows-verification-infrastructure.md`
