@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Delegation Spectrum and Autonomy Levels (2026-06-07 Hourly Article Run)
+
+1. ✅ **The Codex CLI Delegation Spectrum: Five Levels of Agent Autonomy and How to Configure Each One** — Written 2026-06-07 → `2026-06-07-codex-cli-delegation-spectrum-configuration-autonomy-levels-approval-policy-reasoning-effort.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article mapped the Anthropic delegation gap research (60% AI-assisted, 0-20% fully delegated), METR's controlled productivity experiments, and the Stanford AI Index 2026 productivity data to a unified five-level delegation spectrum with specific Codex CLI configuration profiles (approval_policy, sandbox_mode, model, reasoning_effort) for each level; existing articles covered individual configuration keys, approval modes, and productivity research separately, but none synthesised these into a practitioner framework with ready-to-use named profiles
+   - SEO targets: "codex cli delegation levels", "codex cli approval policy guide", "agent autonomy configuration", "codex cli profiles", "delegation gap coding agents", "codex cli reasoning effort tuning", "AI coding agent autonomy levels"
+
+---
+
 ## Stanford AI Index 2026 and Codex CLI (2026-06-07 Hourly Article Run)
 
 1. ✅ **The Stanford AI Index 2026 and Codex CLI: What SWE-bench at 100%, the Entry-Level Contraction, and the Productivity Paradox Mean for Your Team** — Written 2026-06-07 → `2026-06-07-stanford-ai-index-2026-coding-agent-productivity-entry-level-contraction-codex-cli-implications.md`
