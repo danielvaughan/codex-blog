@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Skill Supply Chain Crisis (2026-06-07 Hourly Article Run)
+
+1. ✅ **The Agent Skill Supply Chain Crisis: ClawHavoc, ToxicSkills, SkillSieve, and Defending Your Codex CLI Skill Stack** — Written 2026-06-07 → `2026-06-07-agent-skill-supply-chain-crisis-clawhavoc-toxicskills-skillsieve-codex-cli-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article synthesised the ClawHavoc campaign (341→824 malicious ClawHub skills), the Snyk ToxicSkills audit (13.4% critical rate, 36.82% any vulnerability), the Liu et al. empirical study of 98,380 skills, the SkillSieve three-layer detection framework (F1 0.920 at $0.006/skill), the Clinejection npm supply chain attack, and the mapping of these findings to Codex CLI's sandbox, approval policy, skill_approval, deny-read, and auto-review defences
+   - SEO targets: "codex cli skill security", "agent skill supply chain attack", "clawhavoc malicious skills", "skillsieve detection framework", "codex cli marketplace security", "malicious SKILL.md defence", "AI agent skill vetting", "codex cli skill approval policy"
+
+---
+
 ## Multi-Model Daily Workflows (2026-06-07 Hourly Article Run)
 
 1. ✅ **Multi-Model Daily Workflows with Codex CLI: Routing GPT-5.5, Spark, Mini, and Open-Weight Models for Cost, Speed, and Quality** — Written 2026-06-07 → `2026-06-07-codex-cli-multi-model-daily-workflows-gpt55-spark-mini-open-weight-cost-quality-routing.md`
