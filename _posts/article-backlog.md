@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Multi-Model Daily Workflows (2026-06-07 Hourly Article Run)
+
+1. ✅ **Multi-Model Daily Workflows with Codex CLI: Routing GPT-5.5, Spark, Mini, and Open-Weight Models for Cost, Speed, and Quality** — Written 2026-06-07 → `2026-06-07-codex-cli-multi-model-daily-workflows-gpt55-spark-mini-open-weight-cost-quality-routing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a unified practitioner's guide to configuring and routing between all four current Codex CLI model tiers (GPT-5.5, GPT-5.4, GPT-5.4-mini, Codex-Spark) plus open-weight alternatives within daily development workflows; existing articles covered model selection (March 2026), dynamic routing (April 2026), and model routing decision frameworks (May 2026), but none synthesised named profiles, review_model, subagent model hierarchies, mid-session /model switching, and open-weight provider configuration into a single practical daily-workflow playbook reflecting the June 2026 model landscape including GPT-5.2/5.3 deprecations
+   - SEO targets: "codex cli model routing", "codex cli multi-model workflow", "codex cli gpt-5.5 vs mini cost", "codex cli named profiles", "codex cli review_model config", "codex cli subagent model configuration", "codex cli open-weight local models"
+
+---
+
 ## Infrastructure as Code with Codex CLI (2026-06-07 Hourly Article Run)
 
 1. ✅ **Codex CLI for Infrastructure as Code: Terraform MCP, Pulumi Agent Skills, and the Agentic IaC Stack** — Written 2026-06-07 → `2026-06-07-codex-cli-infrastructure-as-code-terraform-mcp-pulumi-agent-skills-agentic-iac.md`
