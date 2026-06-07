@@ -6111,6 +6111,7 @@ Reader feedback highlighted that the value of agentic engineering doesn't land f
 The following gaps were identified during the article-rater review of all premium and regular articles.
 
 ### 1. The Agent Observability Gap
+- **Status:** ✅ Written 2026-06-07 → `2026-06-07-agent-observability-gap-codex-cli-opentelemetry-session-tracing-cost-attribution.md`
 - **Gap:** No article covers end-to-end observability for agent sessions — structured logging, trace correlation, cost attribution per task, anomaly detection. Article 28 (agent loop) touches internals but not monitoring.
 - **Angle:** "Your Agent Ran for 45 Minutes. Do You Know What It Did?" — observability as the missing layer between security (Article 07) and token economics (Article 11).
 - **Priority:** High — operational gap in the playbook
