@@ -8,6 +8,7 @@ tags: ["codex-cli", "observability", "opentelemetry", "tracing", "cost-attributi
 # The Agent Observability Gap: Session Tracing, Cost Attribution, and Anomaly Detection with Codex CLI's OpenTelemetry Stack
 
 
+
 ---
 
 Your agent ran for forty-five minutes. It consumed 1.2 million tokens. It touched thirty-seven files. Do you know what it did?

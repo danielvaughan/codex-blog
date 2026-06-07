@@ -1,11 +1,12 @@
 ---
 title: "Agentic Fatigue and the Verification Gap: Sustainable AI-Assisted Development with Codex CLI"
 parent: "Articles"
-nav_order: 1015
+nav_order: 1015.5
 tags: ["codex-cli", "agentic-fatigue", "developer-burnout", "verification-gap", "code-review", "sustainable-development", "hooks", "automation"]
 ---
 
 # Agentic Fatigue and the Verification Gap: Sustainable AI-Assisted Development with Codex CLI
+
 
 
 ---
@@ -18,7 +19,7 @@ The gap between what gets generated and what gets properly reviewed has a name: 
 
 Evil Martians' widely cited analysis frames the mechanics bluntly: AI-first workflows compress the planning-crafting-result cycle into planning-result, eliminating the meditative code-writing phase that provided both comprehension and satisfaction [^2]. Developers report that reviewing AI output requires *more* mental effort than writing code themselves, while providing less fulfilment [^2]. Harvard Business Review research confirms that "cognitive exhaustion from intensive oversight of AI agents is both real and significant" [^2].
 
-Anthropic's 2026 Agentic Coding Trends Report quantifies the delegation paradox: developers use AI in roughly 60% of their work but report being able to *fully delegate* only 0-20% of tasks [^3]. The remaining 40-60% sits in a twilight zone — agent-assisted but human-verified — where fatigue accumulates.
+Anthropic's 2026 Agentic Coding Trends Report quantifies the delegation paradox: developers use AI in roughly 60% of their work but report being able to *fully delegate* only 0–20% of tasks [^3]. The remaining 40–60% sits in a twilight zone — agent-assisted but human-verified — where fatigue accumulates.
 
 ## Anatomy of Agentic Fatigue
 
@@ -190,7 +191,7 @@ The key insight: humans review *reports*, not *code*. The hook system handles li
 
 Evil Martians' research [^2] and the Sonar data [^1] converge on actionable practices:
 
-1. **Limit agent iterations to 3-4 per task.** If the agent has not converged after four attempts, the problem needs human decomposition, not more tokens.
+1. **Limit agent iterations to 3–4 per task.** If the agent has not converged after four attempts, the problem needs human decomposition, not more tokens.
 
 2. **Reserve "craft hours" for manual coding.** Not every task should go through an agent. Deliberately writing code by hand maintains system comprehension and professional satisfaction.
 

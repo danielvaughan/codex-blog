@@ -8,6 +8,7 @@ tags: ["codex-cli", "documentation", "quality", "trust", "hallucination", "verif
 # Agent-Generated Documentation: Quality, Trust, and Verification Patterns for Codex CLI Teams
 
 
+
 ---
 
 Codex CLI can draft a README, generate API reference from route handlers, produce architectural decision records, and keep changelogs current — all from a single prompt. But should you trust what it writes? The State of Docs 2026 report found that 62% of documentation professionals cite hallucinations as their primary concern with AI-generated content [^1], and the Vectara HHEM benchmark shows even the best models hallucinate at 3–5% on summarisation tasks [^2]. Documentation carries a higher accuracy bar than almost any other content type: a single wrong endpoint path or fabricated configuration key sends a developer down a rabbit hole that costs hours.

@@ -8,6 +8,7 @@ tags: ["codex-cli", "delegation", "autonomy", "configuration", "approval-policy"
 # The Codex CLI Delegation Spectrum: Five Levels of Agent Autonomy and How to Configure Each One
 
 
+
 ---
 
 The data is in, and it tells an awkward story. Anthropic's 2026 Agentic Coding Trends Report found that developers use AI in roughly 60% of their work — but report being able to fully delegate only 0–20% of tasks [^1]. The METR productivity studies, redesigned in February 2026, measured a net effect that ranged from modest gains to a statistically insignificant -4% in their controlled experiment [^2]. Meanwhile, the Stanford HAI AI Index 2026 reports SWE-bench Verified scores jumping from 60% to near 100% in a single year [^3].

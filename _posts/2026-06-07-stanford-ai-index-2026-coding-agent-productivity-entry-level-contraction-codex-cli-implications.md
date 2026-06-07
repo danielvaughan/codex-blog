@@ -56,14 +56,14 @@ The data does not say "stop hiring juniors." It says the *shape* of junior work 
 Teams using Codex CLI should reconsider how they structure onboarding:
 
 1. **Specification writing becomes a core skill.** Junior developers who can write a tight `AGENTS.md` section or a well-scoped `codex exec` prompt are more productive than those who can only write boilerplate by hand.
-2. **Review replaces production.** The OpenAI "Building an AI-Native Engineering Team" guide frames the shift explicitly: engineers become "strategic reviewers and decision-makers rather than code generators" [^4].
+2. **Review replaces production.** The OpenAI "Building an AI-Native Engineering Team" guide frames the shift explicitly: engineers become "strategic reviewers and decision-makers rather than code generators" [^3].
 3. **Agent fluency is a hiring signal.** The Stanford data shows that "AI-fluent developers" using tools daily are hired faster than those avoiding AI integration [^2].
 
 ## The Productivity Paradox: 14–26% or 2x?
 
-The Index reports productivity gains of 14–26% in software development, based on controlled studies [^1]. Meanwhile, self-reported surveys consistently produce much higher numbers—METR's May 2026 survey of 349 technical workers found a median 2x self-reported value gain [^5]. Who is right?
+The Index reports productivity gains of 14–26% in software development, based on controlled studies [^1]. Meanwhile, self-reported surveys consistently produce much higher numbers—METR's May 2026 survey of 349 technical workers found a median 2x self-reported value gain [^4]. Who is right?
 
-Both, within their methodological limits. METR's own research has repeatedly found that developers overestimate productivity gains by approximately 40 percentage points on average [^6]. Their February 2026 redesigned study—800+ tasks across 57 developers—showed a -4% measured effect with a confidence interval of -15% to +9%, leading them to conclude that "AI likely provides productivity benefits in early 2026" but that the effect is modest and highly variable [^6].
+Both, within their methodological limits. METR's own research has repeatedly found that developers overestimate productivity gains by approximately 40 percentage points on average [^5]. Their February 2026 redesigned study—800+ tasks across 57 developers—showed a -4% measured effect with a confidence interval of -15% to +9%, leading them to conclude that "AI likely provides productivity benefits in early 2026" but that the effect is modest and highly variable [^5].
 
 The paradox resolves when you stratify by task type:
 
@@ -114,7 +114,7 @@ graph TD
     G --> F
 ```
 
-Codex CLI's managed configuration system—`requirements.toml` for admin-enforced constraints, cloud-managed config bundles for Enterprise workspaces, and JSONL audit logs for every session—maps directly onto this governance gap [^7]. Teams that have not yet deployed `requirements.toml` should treat the Stanford data as a prompt to do so.
+Codex CLI's managed configuration system—`requirements.toml` for admin-enforced constraints, cloud-managed config bundles for Enterprise workspaces, and JSONL audit logs for every session—maps directly onto this governance gap [^6]. Teams that have not yet deployed `requirements.toml` should treat the Stanford data as a prompt to do so.
 
 ## The Trust Divergence and What It Means for Agent Output
 
@@ -165,10 +165,8 @@ The Stanford AI Index 2026 is not a prediction. It is a measurement of where we 
 
 [^3]: OpenAI, "Building an AI-Native Engineering Team," 2026. [https://developers.openai.com/codex/guides/build-ai-native-engineering-team](https://developers.openai.com/codex/guides/build-ai-native-engineering-team)
 
-[^4]: OpenAI, "Building an AI-Native Engineering Team," 2026. [https://developers.openai.com/codex/guides/build-ai-native-engineering-team](https://developers.openai.com/codex/guides/build-ai-native-engineering-team)
+[^4]: METR, "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity," May 2026. [https://metr.org/blog/2026-05-11-ai-usage-survey/](https://metr.org/blog/2026-05-11-ai-usage-survey/)
 
-[^5]: METR, "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity," May 2026. [https://metr.org/blog/2026-05-11-ai-usage-survey/](https://metr.org/blog/2026-05-11-ai-usage-survey/)
+[^5]: METR, "We are Changing our Developer Productivity Experiment Design," February 2026. [https://metr.org/blog/2026-02-24-uplift-update/](https://metr.org/blog/2026-02-24-uplift-update/)
 
-[^6]: METR, "We are Changing our Developer Productivity Experiment Design," February 2026. [https://metr.org/blog/2026-02-24-uplift-update/](https://metr.org/blog/2026-02-24-uplift-update/)
-
-[^7]: OpenAI, "Managed Configuration – Codex," 2026. [https://developers.openai.com/codex/enterprise/managed-configuration](https://developers.openai.com/codex/enterprise/managed-configuration)
+[^6]: OpenAI, "Managed Configuration – Codex," 2026. [https://developers.openai.com/codex/enterprise/managed-configuration](https://developers.openai.com/codex/enterprise/managed-configuration)
