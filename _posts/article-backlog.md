@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Apple Foundation Models Framework (2026-06-08 Hourly Article Run)
+
+1. ✅ **Codex CLI and Apple's Foundation Models Framework: Agent-Assisted On-Device AI Development** — Written 2026-06-08 → `2026-06-08-codex-cli-apple-foundation-models-framework-on-device-ai-development-xcode-26-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Apple's Foundation Models framework (iOS 26+), the @Generable and @Guide macros for guided generation, tool calling via the Tool protocol, the 4096-token context window constraint and iOS 26.4 management APIs (contextSize, tokenCount(for:)), or the practical Codex CLI workflow for developing on-device AI features using xcrun mcpbridge and XcodeBuildMCP
+   - SEO targets: "codex cli foundation models", "codex cli apple on-device ai", "foundation models framework codex", "xcrun mcpbridge codex cli", "guided generation swift codex", "codex cli xcode 26 ai development", "apple intelligence developer codex"
+
+---
+
 ## WWDC 2026 Beta Season Migration (2026-06-08 Hourly Article Run)
 
 1. ✅ **WWDC 2026 Beta Season: Using Codex CLI to Navigate the iOS 27 and macOS 27 Migration Wave** — Written 2026-06-08 → `2026-06-08-wwdc-2026-beta-season-codex-cli-ios27-macos27-migration-wave-breaking-changes.md`
