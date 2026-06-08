@@ -2,7 +2,7 @@
 title: "Let the Platform Build Itself: AI-Constructed Developer Platforms and Codex CLI"
 description: "Platform engineering has spent the last three years answering a single question: how do you give developers self-service access to infrastructure without."
 date: 2026-04-10T07:00:00+00:00
-last_modified_at: 2026-06-08T18:29:13+01:00
+last_modified_at: 2026-06-08T20:17:23+01:00
 tags:
   - platform-engineering
   - self-assembly

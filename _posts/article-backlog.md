@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Inside the Scaffold (2026-06-08 Hourly Article Run)
+
+1. ✅ **Inside the Scaffold: What Academic Research Reveals About Codex CLI's Agent Architecture** — Written 2026-06-08 → `2026-06-08-inside-the-scaffold-academic-research-codex-cli-agent-architecture-taxonomy-harness-engineering.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article synthesised the four 2026 academic papers examining coding agent architectures at source-code level: "Inside the Scaffold" 12-dimension taxonomy of 13 agents (arXiv:2604.03515), "Dive into Claude Code" 98.4% harness vs 1.6% AI logic finding (arXiv:2604.14228), "Impact of AGENTS.md" 28.64% runtime reduction study (arXiv:2601.20404, ICSE 2026), and "Building AI Coding Agents for the Terminal" harness engineering patterns (arXiv:2603.05344), or mapped their findings to practical Codex CLI configuration and workflow decisions
+   - SEO targets: "codex cli agent architecture", "coding agent scaffold taxonomy", "AGENTS.md efficiency research", "codex cli guardian safety", "harness engineering coding agents", "inside the scaffold coding agents", "codex cli architecture academic research"
+
+---
+
 ## The 27% Dividend (2026-06-08 Hourly Article Run)
 
 1. ✅ **The 27% Dividend: How Coding Agents Unlock Previously Uneconomical Work, and Codex CLI Patterns for Capturing It** — Written 2026-06-08 → `2026-06-08-the-27-percent-dividend-coding-agents-unlock-previously-uneconomical-work-codex-cli-patterns.md`
