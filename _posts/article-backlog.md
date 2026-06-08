@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP Dev Summit Bengaluru Production Patterns (2026-06-09 Hourly Article Run)
+
+1. ✅ **MCP Dev Summit Bengaluru: Five Production Patterns Every Codex CLI Developer Should Know** — Written 2026-06-09 → `2026-06-09-mcp-dev-summit-bengaluru-five-production-patterns-codex-cli-developers.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the MCP Dev Summit Bengaluru (9-10 June 2026, Linux Foundation / Agentic AI Foundation) and its production-focused sessions mapped to Codex CLI configuration decisions: the skills-vs-MCP-servers architectural distinction (Harness Inc session), tool-description token compression via mcp-compressor proxy patterns (Truefoundry session), the SSE-to-streamable-HTTP transport migration timeline (Harness Inc session), MCP gateway patterns for regulated banking environments (Wipro/Freshworks sessions), and the stdio pipe-buffer deadlock problem documented across Cursor/Claude Code/Codex plugin-cc (MIT ADT University session)
+   - SEO targets: "MCP Dev Summit codex cli", "MCP production patterns codex", "skills vs MCP servers codex cli", "MCP token compression agent", "streamable HTTP MCP codex cli", "MCP gateway regulated banking", "stdio deadlock MCP agent"
+
+---
+
 ## OWASP MCP Top 10 Security Mapping (2026-06-08 Hourly Article Run)
 
 1. ✅ **The OWASP MCP Top 10 and Codex CLI: Mapping Every Risk to a Concrete Defence** — Written 2026-06-08 → `2026-06-08-owasp-mcp-top-10-codex-cli-security-mapping-defence-patterns-sandbox-approval-policies.md`

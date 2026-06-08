@@ -2,7 +2,7 @@
 title: "Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension"
 description: "The /review command is one of Codex CLI's most practical daily-use features, yet it receives surprisingly little attention compared to the agent."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-06-08T22:20:01+01:00
+last_modified_at: 2026-06-09T00:24:02+01:00
 tags:
   - workflow-patterns
   - code-review
