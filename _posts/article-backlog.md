@@ -1,5 +1,13 @@
 # Article Backlog
 
+## End of Fine-Tuning (2026-06-08 Hourly Article Run)
+
+1. ✅ **The End of Fine-Tuning: What OpenAI's API Wind-Down Means for Your Codex CLI Customisation Strategy** — Written 2026-06-08 → `2026-06-08-end-of-fine-tuning-openai-api-wind-down-codex-cli-customisation-stack-agents-md-skills-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered OpenAI's 7 May 2026 announcement that the self-serve fine-tuning API is being wound down (new orgs blocked immediately, all new jobs blocked by 6 January 2027), the practical mapping of common fine-tuning use cases (style enforcement, domain terminology, output formatting, safety rules) to Codex CLI's four-layer customisation stack (AGENTS.md, skills, hooks, config.toml), the migration checklist for teams transitioning from fine-tuned models, or the strategic implications of the industry shift from model-time training to prompt-time configuration
+   - SEO targets: "codex cli fine-tuning alternative", "openai fine-tuning deprecation codex", "AGENTS.md replace fine-tuning", "codex cli customisation stack", "fine-tuning wind down migration", "codex cli skills hooks customisation", "prompt-based customisation coding agent"
+
+---
+
 ## Design Pattern Refactoring (2026-06-08 Hourly Article Run)
 
 1. ✅ **Codex CLI for Design Pattern Refactoring: Agent-Assisted GoF Patterns, SOLID Enforcement, and Architectural Improvement** — Written 2026-06-08 → `2026-06-08-codex-cli-design-pattern-refactoring-gof-solid-agent-assisted-codebase-improvement.md`
