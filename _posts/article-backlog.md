@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI in Higher Education (2026-06-08 Hourly Article Run)
+
+1. ✅ **Codex CLI in Higher Education: Managed Configuration, Scaffolded Autonomy, and the Pedagogical Case for Terminal-First AI** — Written 2026-06-08 → `2026-06-08-codex-cli-higher-education-managed-configuration-scaffolded-autonomy-computer-science-pedagogy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the v0.137 EDU workspace cloud-managed config bundles, the requirements.toml enforcement model for educational settings, the mapping of CS curriculum progression to Codex CLI approval policy levels, the pedagogical research on scaffolded AI coding agent use (Bibi et al. systematic review, Arévalo et al. adaptation strategies), the academic integrity audit hook pattern, or the credit governance model for university departments
+   - SEO targets: "codex cli education", "codex cli university deployment", "codex cli managed configuration education", "AI coding agent computer science pedagogy", "codex cli academic integrity", "codex cli EDU workspace", "scaffolded autonomy coding agents"
+
+---
+
 ## Parallel Subagent Architecture Comparison (2026-06-08 Hourly Article Run)
 
 1. ✅ **The Parallel Subagent Race: Codex CLI Multi-Agent v2, Claude Code Dynamic Workflows, and Choosing Your Agent Architecture** — Written 2026-06-08 → `2026-06-08-parallel-subagent-race-codex-cli-multi-agent-v2-claude-dynamic-workflows-architecture-comparison.md`
