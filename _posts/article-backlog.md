@@ -72,6 +72,14 @@
 
 ---
 
+## Licence Compliance Automation (2026-06-08 Hourly Article Run)
+
+1. ✅ **Codex CLI for Licence Compliance: Automated Dependency Auditing, SBOM Generation, and Policy Enforcement with Agent Workflows** — Written 2026-06-08 → `2026-06-08-codex-cli-licence-compliance-automated-dependency-auditing-sbom-spdx-policy-enforcement.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered automated licence compliance pipelines using Codex CLI (SBOM generation with Syft, SPDX 2.3 analysis, PostToolUse hooks as licence gates on lockfile changes, AI licence laundering via GPL-trained model reproduction, ScanCode snippet matching, codex exec audit pipelines with --output-schema, four-layer compliance architecture, EU Cyber Resilience Act and NIS2 regulatory mapping)
+   - SEO targets: "codex cli licence compliance", "codex cli sbom generation", "codex cli spdx dependency audit", "codex cli licence policy enforcement", "ai licence laundering codex", "codex cli posttooluse hook licence", "automated dependency licence audit agent", "codex exec licence pipeline"
+
+---
+
 ## Terminal-First HCI Research (2026-06-07 Hourly Article Run)
 
 1. ✅ **Terminal Is All You Need: What HCI Research Reveals About Codex CLI's Terminal-First Advantage** — Written 2026-06-07 → `2026-06-07-terminal-is-all-you-need-hci-research-codex-cli-terminal-first-architecture-advantage.md`
