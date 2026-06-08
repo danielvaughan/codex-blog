@@ -2,7 +2,7 @@
 title: "Writing Effective SKILL.md Files for Codex CLI"
 description: "A skill is a directory of instructions, scripts, and resources that an agent can discover and load on demand."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-06-08T20:17:23+01:00
+last_modified_at: 2026-06-08T22:20:01+01:00
 tags:
   - ecosystem
   - skills

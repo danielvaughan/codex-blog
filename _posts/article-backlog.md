@@ -1,5 +1,13 @@
 # Article Backlog
 
+## OWASP MCP Top 10 Security Mapping (2026-06-08 Hourly Article Run)
+
+1. ✅ **The OWASP MCP Top 10 and Codex CLI: Mapping Every Risk to a Concrete Defence** — Written 2026-06-08 → `2026-06-08-owasp-mcp-top-10-codex-cli-security-mapping-defence-patterns-sandbox-approval-policies.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article mapped the OWASP MCP Top 10 risk categories (MCP01:2025 through MCP10:2025, led by Vandana Verma Sehgal under the OWASP Foundation) to Codex CLI's specific defence mechanisms (OS-native sandboxing via Seatbelt/Bubblewrap/Landlock, approval policies, requirements.toml enforcement, per-server credential scoping, PostToolUse validation hooks, AGENTS.md governance anchoring, OpenTelemetry audit telemetry, cloud-managed config bundles, .codexignore context control), identified remaining gaps (tool schema pinning, JSON-RPC message signing), or provided a practical hardening checklist timed to the MCP Dev Summit Bengaluru (9-10 June 2026) and the Agentic AI Foundation's stewardship of MCP as an open standard
+   - SEO targets: "OWASP MCP Top 10 codex cli", "codex cli MCP security", "MCP tool poisoning defence", "codex cli sandbox security OWASP", "MCP command injection codex", "codex cli security hardening checklist", "OWASP agentic AI security codex"
+
+---
+
 ## Inside the Scaffold (2026-06-08 Hourly Article Run)
 
 1. ✅ **Inside the Scaffold: What Academic Research Reveals About Codex CLI's Agent Architecture** — Written 2026-06-08 → `2026-06-08-inside-the-scaffold-academic-research-codex-cli-agent-architecture-taxonomy-harness-engineering.md`
