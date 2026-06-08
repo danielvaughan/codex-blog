@@ -2,7 +2,7 @@
 title: "Codex Pay-As-You-Go Pricing: Modelling Costs for Multi-Agent Workflows"
 description: "On 2 April 2026, OpenAI replaced Codex's per-message credit system with token-based billing aligned to API usage. The same announcement lowered the annual."
 date: 2026-04-09T13:12:00+00:00
-last_modified_at: 2026-06-08T14:12:23+01:00
+last_modified_at: 2026-06-08T16:27:03+01:00
 tags:
   - pricing
   - pay-as-you-go

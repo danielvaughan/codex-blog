@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The 27% Dividend (2026-06-08 Hourly Article Run)
+
+1. ✅ **The 27% Dividend: How Coding Agents Unlock Previously Uneconomical Work, and Codex CLI Patterns for Capturing It** — Written 2026-06-08 → `2026-06-08-the-27-percent-dividend-coding-agents-unlock-previously-uneconomical-work-codex-cli-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Anthropic's January 2026 finding that 27% of AI-assisted work consists of tasks that would not have been done at all without the agent (200,000 Claude Code transcripts, 132 engineers surveyed, 53 interviews), the economic reframing from acceleration to net-new capacity, the five categories of previously uneconomical work (test coverage expansion, documentation repair, codebase hygiene, internal tooling, exploratory prototyping), or practical Codex CLI patterns (papercut backlog sweep skills, coverage ratchets, subagent exploration fan-out, documentation freshness automations, structured audit pipelines) for systematically capturing this dividend
+   - SEO targets: "codex cli productivity new work", "27 percent AI new tasks anthropic", "codex cli papercut automation", "coding agent previously uneconomical work", "codex cli coverage ratchet", "codex exec automation patterns", "AI coding agent new work dividend"
+
+---
+
 ## Session Lifecycle Management (2026-06-08 Hourly Article Run)
 
 1. ✅ **Codex CLI Session Lifecycle: Archive, Resume, Fork, and Rollout Persistence** — Written 2026-06-08 → `2026-06-08-codex-cli-session-lifecycle-archive-resume-fork-rollout-persistence-management.md`
