@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Doctor Diagnostic Toolkit (2026-06-08 Hourly Article Run)
+
+1. ✅ **Codex Doctor and the Diagnostic Toolkit: A Practitioner's Troubleshooting Guide** — Written 2026-06-08 → `2026-06-08-codex-doctor-diagnostic-toolkit-troubleshooting-guide-environment-connectivity-checks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the `codex doctor` command introduced in v0.131 and expanded in v0.135–v0.137, its five diagnostic sections (Environment, Configuration, Updates, Connectivity, Background Server), output modes (--summary, --json, --all), the ten most common Codex CLI failure patterns with systematic diagnostic-to-fix mappings, CI health gate integration patterns, or the relationship between `codex doctor`, `/feedback`, log analysis, and `codex debug` subcommands as a unified troubleshooting toolkit
+   - SEO targets: "codex doctor", "codex cli troubleshooting", "codex cli diagnostics", "codex cli 401 error fix", "codex cli reconnecting", "codex doctor json", "codex cli common errors", "codex cli debug commands"
+
+---
+
 ## Codex CLI in Higher Education (2026-06-08 Hourly Article Run)
 
 1. ✅ **Codex CLI in Higher Education: Managed Configuration, Scaffolded Autonomy, and the Pedagogical Case for Terminal-First AI** — Written 2026-06-08 → `2026-06-08-codex-cli-higher-education-managed-configuration-scaffolded-autonomy-computer-science-pedagogy.md`
