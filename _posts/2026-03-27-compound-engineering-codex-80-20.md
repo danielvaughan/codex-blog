@@ -3,7 +3,7 @@ title: "Compound Engineering with Codex: The 80/20 Plan-Review Model"
 description: "Based on: every.to/guides/compound-engineering · github.com/EveryInc/compound-engineering-plugin · notes/compound-engineering.md"
 subtitle: "Invert the traditional development ratio — spend 80% on planning and review, 10% on execution, and 10% on compounding knowledge"
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-06-08T10:33:46+01:00
+last_modified_at: 2026-06-08T11:36:21+01:00
 tags:
   - orchestration
   - team-workflow
@@ -151,7 +151,7 @@ The `/ce:review` parallel reviewer pattern — 14 agents simultaneously analysin
 [subagent.security]
 prompt = "Review the diff at $DIFF_PATH for security vulnerabilities. Focus on: injection, auth bypass, secrets exposure."
 
-[subagent.performance]  
+[subagent.performance]
 prompt = "Review the diff at $DIFF_PATH for performance issues. Focus on: N+1 queries, unnecessary allocations, blocking I/O."
 
 # ... (repeat for each reviewer dimension)

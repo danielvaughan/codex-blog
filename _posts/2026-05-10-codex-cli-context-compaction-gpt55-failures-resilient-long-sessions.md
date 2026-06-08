@@ -9,7 +9,6 @@ tags: ["codex-cli", "context-compaction", "gpt-5.5", "long-sessions", "troublesh
 ![Sketchnote diagram for: Codex CLI Context Compaction Under GPT-5.5: Diagnosing Failures, Configuring Fallbacks, and Keeping Long Sessions Alive](/sketchnotes/articles/2026-05-10-codex-cli-context-compaction-gpt55-failures-resilient-long-sessions.png)
 
 
-
 # Codex CLI Context Compaction Under GPT-5.5: Diagnosing Failures, Configuring Fallbacks, and Keeping Long Sessions Alive
 
 

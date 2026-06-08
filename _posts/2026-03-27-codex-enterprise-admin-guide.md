@@ -3,7 +3,7 @@ title: "Codex Enterprise Admin Guide: RBAC, Managed Policies and Compliance API"
 description: "Sources: developers.openai.com/codex/enterprise/admin-setup · developers.openai.com/codex/enterprise/governance · March 2026"
 subtitle: "The platform engineering guide to rolling out Codex CLI at enterprise scale — roles, policy enforcement, and audit logging"
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-06-08T10:33:46+01:00
+last_modified_at: 2026-06-08T11:36:21+01:00
 tags:
   - reference
   - enterprise
@@ -42,7 +42,7 @@ Codex ships with three distinct admin role types, each with different scope:
 
 **Best practice:** Create a dedicated `Codex Admins` group in your identity provider and sync it via SCIM. Grant only members of this group the Codex Admin role. Avoid granting Codex administration to broad workspace Owner groups — it creates audit noise.
 
-**Enable the Codex Admin role:**  
+**Enable the Codex Admin role:**
 Workspace settings → Permissions & roles → Allow members to administer Codex.
 
 ---
@@ -195,7 +195,7 @@ Layer 1: Self-serve visibility
 └── Analytics Dashboard → adoption metrics, usage by team, PR review stats
 
 Layer 2: Automated reporting
-└── Analytics API → daily time-series metrics, per-user breakdowns, 
+└── Analytics API → daily time-series metrics, per-user breakdowns,
                     pipeline into data warehouse, weekly reporting
 
 Layer 3: Audit and investigation

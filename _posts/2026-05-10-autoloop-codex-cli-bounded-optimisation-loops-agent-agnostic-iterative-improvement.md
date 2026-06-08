@@ -9,7 +9,6 @@ tags: ["codex-cli", "autoloop", "autoresearch", "/goal", "eval-driven", "optimis
 ![Sketchnote diagram for: AutoLoop with Codex CLI: Bounded Optimisation Loops for Measurable Codebase Improvement](/sketchnotes/articles/2026-05-10-autoloop-codex-cli-bounded-optimisation-loops-agent-agnostic-iterative-improvement.png)
 
 
-
 # AutoLoop with Codex CLI: Bounded Optimisation Loops for Measurable Codebase Improvement
 
 
