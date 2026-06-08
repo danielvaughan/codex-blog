@@ -1,5 +1,13 @@
 # Article Backlog
 
+## WWDC 2026 Beta Season Migration (2026-06-08 Hourly Article Run)
+
+1. ✅ **WWDC 2026 Beta Season: Using Codex CLI to Navigate the iOS 27 and macOS 27 Migration Wave** — Written 2026-06-08 → `2026-06-08-wwdc-2026-beta-season-codex-cli-ios27-macos27-migration-wave-breaking-changes.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the WWDC 2026 keynote day context (8 June 2026), the five iOS 27 breaking changes (mandatory UIScene lifecycle, Liquid Glass forced adoption, SceneKit deprecation, SiriKit deprecation, actionSheet removal), macOS 27 dropping all Intel Mac support with Rosetta's final general-purpose release, or the practical Codex CLI workflow for systematic platform migration using XcodeBuildMCP, migration-specific AGENTS.md patterns, named profiles, subagent delegation for framework migrations, and PostToolUse build-verification hooks
+   - SEO targets: "wwdc 2026 codex cli", "ios 27 migration codex", "codex cli xcode migration", "UIScene lifecycle migration agent", "liquid glass codex cli", "macos 27 intel dropped", "codex cli xcodebuildmcp migration", "wwdc 2026 breaking changes developer guide"
+
+---
+
 ## Codex Doctor Diagnostic Toolkit (2026-06-08 Hourly Article Run)
 
 1. ✅ **Codex Doctor and the Diagnostic Toolkit: A Practitioner's Troubleshooting Guide** — Written 2026-06-08 → `2026-06-08-codex-doctor-diagnostic-toolkit-troubleshooting-guide-environment-connectivity-checks.md`
