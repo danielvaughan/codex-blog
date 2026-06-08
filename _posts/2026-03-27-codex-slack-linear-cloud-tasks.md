@@ -2,7 +2,7 @@
 title: "Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools"
 description: "When OpenAI shipped Codex to General Availability in early 2026, the headline was a shift in where developers hand off work."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-06-08T12:22:54+01:00
+last_modified_at: 2026-06-08T14:12:23+01:00
 tags:
   - ecosystem
   - third-party

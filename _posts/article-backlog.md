@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Session Lifecycle Management (2026-06-08 Hourly Article Run)
+
+1. ✅ **Codex CLI Session Lifecycle: Archive, Resume, Fork, and Rollout Persistence** — Written 2026-06-08 → `2026-06-08-codex-cli-session-lifecycle-archive-resume-fork-rollout-persistence-management.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article comprehensively covered the v0.136 session archiving commands (codex archive/unarchive), the two-layer persistence architecture (JSONL rollout files + SQLite state DB), the five RolloutItem types and EventPersistenceMode filtering, Zstandard compression of cold rollout files, the fork-before-risk workflow pattern, non-interactive session resume for CI pipelines, or practical session hygiene strategies for teams
+   - SEO targets: "codex cli session archive", "codex cli resume session", "codex cli fork session", "codex rollout JSONL format", "codex cli session management", "codex archive unarchive", "codex cli session lifecycle workflow"
+
+---
+
 ## End of Fine-Tuning (2026-06-08 Hourly Article Run)
 
 1. ✅ **The End of Fine-Tuning: What OpenAI's API Wind-Down Means for Your Codex CLI Customisation Strategy** — Written 2026-06-08 → `2026-06-08-end-of-fine-tuning-openai-api-wind-down-codex-cli-customisation-stack-agents-md-skills-hooks.md`
