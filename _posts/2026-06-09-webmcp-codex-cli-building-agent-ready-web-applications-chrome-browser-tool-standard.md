@@ -9,6 +9,8 @@ tags: ["codex-cli", "webmcp", "mcp", "chrome", "browser", "agents", "web-standar
 # WebMCP and Codex CLI: Building Agent-Ready Web Applications with Chrome's Browser-Tool Standard
 
 
+---
+
 Every browser-based AI agent today operates through the same fragile loop: read pixels or DOM nodes, guess what the interface means, plan a click sequence, hope nothing shifts, and pray the form submits. WebMCP — a proposed W3C open web standard co-developed by Google and Microsoft — replaces that guesswork with declared, machine-callable tools exposed directly through the browser API[^1][^2]. For Codex CLI developers building and testing web applications, this changes the relationship between the agent that writes frontend code and the agent that later consumes it.
 
 ## What WebMCP actually is

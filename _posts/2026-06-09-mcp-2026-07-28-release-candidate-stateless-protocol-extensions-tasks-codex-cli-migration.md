@@ -8,6 +8,8 @@ tags: ["codex-cli", "mcp", "mcp-specification", "stateless-protocol", "extension
 # The MCP 2026-07-28 Release Candidate: What the Stateless Protocol, Extensions, and Tasks Mean for Codex CLI Developers
 
 
+---
+
 The largest revision of the Model Context Protocol since launch landed as a release candidate on 21 May 2026 [^1]. The final specification ships on 28 July 2026, giving SDK maintainers and server authors a ten-week validation window [^1]. For Codex CLI developers, the changes touch MCP server configuration, gateway routing, caching behaviour, distributed tracing, and the deprecation of three primitives you may already rely on.
 
 This article maps every material change in the RC to a concrete Codex CLI configuration or workflow decision.
