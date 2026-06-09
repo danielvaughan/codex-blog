@@ -6446,3 +6446,9 @@ The following gaps were identified during the article-rater review of all premiu
 - **SEO targets:** "symjack codex cli", "symlink hijack coding agent", "codex cli approval prompt security", "symjack rce defence", "codex cli symlink guard hook", "coding agent supply chain attack symlink", "TOCTOU approval prompt coding agent"
 - **File:** `articles/2026-06-09-symjack-symlink-hijack-rce-coding-agents-codex-cli-defence-approval-prompt-supply-chain.md`
 - **Published:** 2026-06-09
+
+### ✅ Codex CLI v0.139: Code-Mode Web Search, MCP Schema Fidelity, and the Fixes That Compound
+- **Source:** No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the v0.139.0 release (9 June 2026), the promotion of web search to a first-class standalone call within code-mode flows (including from nested JavaScript tool calls), the oneOf/allOf JSON Schema preservation for MCP tool definitions, the enhanced codex doctor diagnostics (editor/pager environment details with sensitive value redaction), plugin marketplace cached catalogue responses, or the six production-relevant bug fixes (thread reset preserving cloud-managed requirements, MCP startup warning scoping to subagent threads, sandbox escalation decision persistence, resume/fork argument handling, image edit path accuracy, tilde URL linkification)
+- **SEO targets:** "codex cli v0.139", "codex cli code mode web search", "MCP oneOf allOf schema codex", "codex doctor diagnostics", "codex cli v0.139 release", "codex cli MCP schema fidelity", "codex cli thread reset cloud requirements"
+- **File:** `articles/2026-06-09-codex-cli-v0139-release-guide-code-mode-web-search-mcp-schema-fidelity-doctor-diagnostics.md`
+- **Published:** 2026-06-09
