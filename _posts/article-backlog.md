@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP Ambient Authority and NSA Guidance (2026-06-09 Hourly Article Run)
+
+1. ✅ **MCP Ambient Authority and the NSA's Wake-Up Call: Agent Identity, Intent-Aware Access Control, and Codex CLI's Authorisation Defence Stack** — Written 2026-06-09 → `2026-06-09-mcp-ambient-authority-nsa-guidance-agent-identity-protocol-codex-cli-authorisation-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the NSA's May 2026 MCP security guidance (CSI U/OO/6030316-26), the ambient authority / tool-chaining attack surface (78.3% attack success rate with five connected servers), the Agent Identity Protocol (AIP, arXiv:2603.24775) with Invocation-Bound Capability Tokens and 0.22ms overhead, the MCP Dev Summit Bengaluru sessions on intent-aware access control (Motorola Solutions) and ambient identity (WSO2), the MCP 2026-07-28 RC OAuth 2.1 hardening with mandatory PKCE and resource indicators, or the practical mapping of NSA recommendations to Codex CLI's five-layer defence stack (enabled_tools, per-server env_vars, approval policies, OS-native sandbox, PostToolUse hooks)
+   - SEO targets: "MCP ambient authority codex cli", "NSA MCP security guidance", "agent identity protocol MCP", "MCP tool chaining attack", "codex cli MCP authorisation", "intent-aware access control agent", "MCP OAuth 2.1 PKCE codex cli"
+
+---
+
 ## eBPF Runtime Observability (2026-06-09 Hourly Article Run)
 
 1. ✅ **eBPF Runtime Observability for Codex CLI: AgentSight, Tetragon, and Kernel-Level Agent Monitoring** — Written 2026-06-09 → `2026-06-09-ebpf-runtime-observability-codex-cli-agentsight-tetragon-kernel-level-agent-monitoring.md`
