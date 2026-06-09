@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.138 Release Guide (2026-06-09 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.138: Desktop Handoff, Enterprise Access Tokens, and the Performance Gains That Actually Matter** — Written 2026-06-09 → `2026-06-09-codex-cli-v0138-release-guide-desktop-handoff-access-tokens-performance-plugin-automation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the v0.138.0 release (8 June 2026, 115 changes), the new `/app` CLI-to-Desktop handoff command, v2 personal access tokens for enterprise CI/CD automation with per-user audit attribution, the three targeted performance optimisations (plugin discovery caching, State DB-first session restoration, optimised byte scanning), structured JSON output for plugin add/remove/marketplace operations, or the goal workflow reliability fixes (multiline paste, idle auto-turn exclusion, terminal failure halt)
+   - SEO targets: "codex cli v0.138", "codex cli desktop handoff", "codex access tokens v2", "codex cli performance optimisation", "codex plugin list json", "codex cli enterprise automation", "codex app command"
+
+---
+
 ## MCP Dev Summit Bengaluru Production Patterns (2026-06-09 Hourly Article Run)
 
 1. ✅ **MCP Dev Summit Bengaluru: Five Production Patterns Every Codex CLI Developer Should Know** — Written 2026-06-09 → `2026-06-09-mcp-dev-summit-bengaluru-five-production-patterns-codex-cli-developers.md`
