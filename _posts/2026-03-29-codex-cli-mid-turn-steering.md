@@ -2,7 +2,7 @@
 title: "Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight"
 description: "The default posture for working with agentic tools has always been: write a careful prompt, send it, wait, evaluate the output, and iterate."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-06-09T06:17:22+01:00
+last_modified_at: 2026-06-09T08:14:37+01:00
 tags:
   - workflow-patterns
   - approval-modes

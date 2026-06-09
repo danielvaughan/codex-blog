@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Database Schema Migrations (2026-06-09 Hourly Article Run)
+
+1. ✅ **Codex CLI for Database Schema Migrations: Atlas Skills, Prisma MCP, Neon Branching, and Safety-First Workflows** — Written 2026-06-09 → `2026-06-09-codex-cli-database-schema-migrations-atlas-prisma-neon-branching-safety-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI for database schema migration workflows, the Atlas Agent Skill (nine-rule lifecycle, declarative and versioned workflows, multi-dialect support), Prisma MCP server migration tools (migrate-dev, migrate-status, migrate-reset with enabled_tools scoping), Neon copy-on-write database branching for isolated migration validation, boringSQL/dryrun offline safety analysis, PostToolUse hooks for destructive DDL detection, profile-based migration safety configuration, the MCP ecosystem gap (Flyway, Alembic, golang-migrate, Rails with zero MCP presence), or the decision framework for choosing between skills, MCP servers, and shell commands for migration work
+   - SEO targets: "codex cli database migration", "codex cli atlas skill", "codex cli prisma mcp migrate", "codex cli neon branching schema", "codex cli migration safety hooks", "codex cli schema migration workflow", "database migration mcp server codex"
+
+---
+
 ## The MCP Tax (2026-06-09 Hourly Article Run)
 
 1. ✅ **The MCP Tax: When Shell Commands Beat MCP Servers in Codex CLI Workflows** — Written 2026-06-09 → `2026-06-09-mcp-tax-when-shell-commands-beat-mcp-servers-codex-cli-token-cost-decision-framework.md`
