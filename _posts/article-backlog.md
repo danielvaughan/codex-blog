@@ -6439,3 +6439,10 @@ The following gaps were identified during the article-rater review of all premiu
 - **SEO targets:** codex cli verification, agent code review, PostToolUse hook, PreToolUse guard, auto-review subagent, codex cli testing, agent-generated code quality
 - **File:** `articles/2026-06-09-codex-cli-verification-patterns-ensuring-agent-generated-code-correctness-hooks-review-testing.md`
 - **Published:** 2026-06-09
+
+### ✅ SymJack: The Symlink Hijack That Turns Approval Prompts into Lies — and How Codex CLI's Defence Stack Responds
+- **Source:** Gap analysis across 1043+ existing articles — no article covered the SymJack symlink-hijack RCE attack (Adversa AI, May 2026) confirmed against six major coding agents including Codex CLI, the TOCTOU flaw in approval prompts, Codex CLI's sandbox canonicalisation as partial defence, or the PreToolUse hook-based mitigation for detecting symlink-targeted file operations
+- **Scope:** Three-stage SymJack kill chain (repository poisoning, approval prompt deception, persistent MCP compromise), vendor response comparison, five-layer Codex CLI defence assessment (sandbox canonicalisation, approval policies, PreToolUse/PostToolUse hooks, AGENTS.md trust boundary, .codexignore/writable_roots), practical hardening checklist with hook code examples
+- **SEO targets:** "symjack codex cli", "symlink hijack coding agent", "codex cli approval prompt security", "symjack rce defence", "codex cli symlink guard hook", "coding agent supply chain attack symlink", "TOCTOU approval prompt coding agent"
+- **File:** `articles/2026-06-09-symjack-symlink-hijack-rce-coding-agents-codex-cli-defence-approval-prompt-supply-chain.md`
+- **Published:** 2026-06-09
