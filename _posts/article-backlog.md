@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The MCP Tax (2026-06-09 Hourly Article Run)
+
+1. ✅ **The MCP Tax: When Shell Commands Beat MCP Servers in Codex CLI Workflows** — Written 2026-06-09 → `2026-06-09-mcp-tax-when-shell-commands-beat-mcp-servers-codex-cli-token-cost-decision-framework.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the quantified token cost comparison between shell CLI commands (~200 tokens per operation) and MCP server integrations (4-32x more tokens), the "MCP Tax" of tool definition injection (28,000+ tokens per turn for a 43-tool GitHub MCP server), Scalekit's benchmark data ($3.20/month CLI vs $55.20/month MCP at 10,000 operations), Codex CLI's specific mitigation toolkit (enabled_tools/disabled_tools allow/deny lists, tool namespace exclusion in code mode from v0.138, per-tool approval modes, timeout configuration), the practical decision framework for choosing shell vs MCP (mature CLI existence, single-tenant vs multi-tenant, OAuth requirements, audit trail needs), emerging gap-closing solutions (Anthropic's Tool Search Tool with 85-98% reduction, MCP gateways with 50% reduction, Codex CLI's built-in tool search since v0.119), or the hybrid configuration pattern used in production
+   - SEO targets: "mcp tax codex cli", "mcp vs cli token cost", "codex cli shell vs mcp", "mcp tool definition overhead", "codex cli mcp cost optimisation", "mcp gateway token reduction", "codex cli enabled_tools mcp"
+
+---
+
 ## WebMCP and Codex CLI (2026-06-09 Hourly Article Run)
 
 1. ✅ **WebMCP and Codex CLI: Building Agent-Ready Web Applications with Chrome's Browser-Tool Standard** — Written 2026-06-09 → `2026-06-09-webmcp-codex-cli-building-agent-ready-web-applications-chrome-browser-tool-standard.md`
