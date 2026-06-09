@@ -2,7 +2,7 @@
 title: "Production Guardrails for Codex CLI: What Must Be in Place Before Agents Touch Production Code"
 description: "Codex CLI is a powerful local coding agent, but powerful and production-safe are not synonyms."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-06-09T22:22:28+01:00
+last_modified_at: 2026-06-10T00:22:30+01:00
 tags: ["production-guardrails", "security", "enterprise", "approval-modes", "sandbox", "hooks", "cross-model-review", "cost-controls"]
 ---
 ![Sketchnote diagram for: Production Guardrails for Codex CLI: What Must Be in Place Before Agents Touch Production Code](/sketchnotes/articles/2026-04-10-production-guardrails-codex-cli.png)

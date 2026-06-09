@@ -2,7 +2,7 @@
 title: "The Code Agent Orchestra — Key Insights from Addy Osmani"
 description: "Source: Captured: 2026-05-14"
 date: 2026-05-14T00:00:00+00:00
-last_modified_at: 2026-06-09T22:22:28+01:00
+last_modified_at: 2026-06-10T00:22:30+01:00
 ---
 
 ![Sketchnote diagram for: The Code Agent Orchestra — Key Insights from Addy Osmani](/sketchnotes/articles/2026-05-14-addy-osmani-code-agent-orchestra.png)

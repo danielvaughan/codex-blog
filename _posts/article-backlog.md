@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Wasmer Edge.js Case Study (2026-06-10 Hourly Article Run)
+
+1. ✅ **From One Year to Two Weeks: How Wasmer Built Edge.js with Codex CLI and What Systems Programmers Should Learn from It** — Written 2026-06-10 → `2026-06-10-wasmer-edge-js-case-study-codex-cli-systems-programming-webassembly-runtime-two-weeks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Wasmer Edge.js case study (OpenAI, 3 June 2026), the 10-20x development acceleration building a Node.js v24-compatible WebAssembly-sandboxed runtime in two weeks, the dual-silo architecture (JS engine native + WASIX system call isolation), the NAPI abstraction layer enabling pluggable JS engines, GPT-5.4/5.5 for systems-level debugging including assembly analysis, the guided debugging pattern enabling non-C++ developers to fix runtime bugs, or the practical Codex CLI workflow patterns (goal mode for long-horizon runtime implementation, AGENTS.md for architectural invariants, profile-based sandbox escalation for debugging vs implementation)
+   - SEO targets: "wasmer codex cli case study", "edge.js webassembly codex", "codex cli systems programming", "codex cli runtime development", "codex cli 10x development speed", "webassembly sandbox codex", "codex cli low-level debugging"
+
+---
+
 ## MCP stdio Pipe-Buffer Deadlock (2026-06-09 Hourly Article Run)
 
 1. ✅ **The MCP stdio Pipe-Buffer Deadlock: Diagnosing, Preventing, and Recovering from the Most Common MCP Server Failure in Codex CLI** — Written 2026-06-09 → `2026-06-09-mcp-stdio-pipe-buffer-deadlock-diagnosis-prevention-recovery-codex-cli.md`
