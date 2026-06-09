@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP stdio Pipe-Buffer Deadlock (2026-06-09 Hourly Article Run)
+
+1. ✅ **The MCP stdio Pipe-Buffer Deadlock: Diagnosing, Preventing, and Recovering from the Most Common MCP Server Failure in Codex CLI** — Written 2026-06-09 → `2026-06-09-mcp-stdio-pipe-buffer-deadlock-diagnosis-prevention-recovery-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the stdio pipe-buffer deadlock as a cross-agent failure mode (documented across Codex CLI, Claude Code, Cursor, and codex-plugin-cc), the kernel-level pipe buffer sizes per OS (8 KiB macOS, 64 KiB Linux, 4-64 KiB Windows), the dual-pipe deadlock mechanism (stdout + stderr), the large-response variant (>8 KiB on macOS), the Windows stdin delivery bug (early 2026), Codex CLI-specific prevention patterns (timeout configuration, stderr drain, response chunking, streamable HTTP migration), recovery patterns for interactive/pipeline/CI contexts, or the MCP Dev Summit Bengaluru session on this exact problem
+   - SEO targets: "MCP stdio deadlock codex cli", "MCP server hangs codex", "pipe buffer deadlock MCP", "codex cli MCP timeout", "stdio vs streamable HTTP MCP", "MCP server reliability codex", "codex cli MCP server hang fix"
+
+---
+
 ## MCP Ambient Authority and NSA Guidance (2026-06-09 Hourly Article Run)
 
 1. ✅ **MCP Ambient Authority and the NSA's Wake-Up Call: Agent Identity, Intent-Aware Access Control, and Codex CLI's Authorisation Defence Stack** — Written 2026-06-09 → `2026-06-09-mcp-ambient-authority-nsa-guidance-agent-identity-protocol-codex-cli-authorisation-defence.md`
