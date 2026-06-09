@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP 2026-07-28 Release Candidate (2026-06-09 Hourly Article Run)
+
+1. ✅ **The MCP 2026-07-28 Release Candidate: What the Stateless Protocol, Extensions, and Tasks Mean for Codex CLI Developers** — Written 2026-06-09 → `2026-06-09-mcp-2026-07-28-release-candidate-stateless-protocol-extensions-tasks-codex-cli-migration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the MCP 2026-07-28 release candidate (the largest protocol revision since launch), the stateless protocol core removing initialize/initialized handshake and Mcp-Session-Id (SEP-2575, SEP-2567), required Mcp-Method and Mcp-Name HTTP headers for gateway routing (SEP-2243), caching metadata with ttlMs and cacheScope (SEP-2549), W3C Trace Context standardisation (SEP-414), the first-class Extensions framework with reverse-DNS identifiers (SEP-2133), Tasks migration from experimental core to official extension, MCP Apps extension for interactive HTML UIs, six OAuth/OIDC authorisation hardening SEPs, deprecation of Roots/Sampling/Logging primitives with twelve-month removal runway (SEP-2577), JSON Schema 2020-12 upgrade for tool definitions (SEP-2106), or the practical migration checklist mapping each change to Codex CLI config.toml and workflow decisions
+   - SEO targets: "MCP 2026-07-28 codex cli", "MCP stateless protocol codex", "MCP release candidate migration", "MCP extensions framework codex cli", "MCP tasks extension codex", "MCP caching ttlMs codex cli", "MCP breaking changes 2026 migration"
+
+---
+
 ## Database Schema Migrations (2026-06-09 Hourly Article Run)
 
 1. ✅ **Codex CLI for Database Schema Migrations: Atlas Skills, Prisma MCP, Neon Branching, and Safety-First Workflows** — Written 2026-06-09 → `2026-06-09-codex-cli-database-schema-migrations-atlas-prisma-neon-branching-safety-workflows.md`
