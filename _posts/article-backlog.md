@@ -1,5 +1,13 @@
 # Article Backlog
 
+## WebMCP and Codex CLI (2026-06-09 Hourly Article Run)
+
+1. ✅ **WebMCP and Codex CLI: Building Agent-Ready Web Applications with Chrome's Browser-Tool Standard** — Written 2026-06-09 → `2026-06-09-webmcp-codex-cli-building-agent-ready-web-applications-chrome-browser-tool-standard.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Google's WebMCP proposed W3C open web standard (co-developed with Microsoft), the Chrome 149 origin trial, the two APIs (declarative HTML form annotations with toolname/tooldescription/toolautosubmit attributes, and imperative document.modelContext.registerTool() JavaScript API), how WebMCP differs from Playwright MCP and Chrome DevTools MCP (website-published tools vs external agent control), the security model (origin isolation + permissions policy), practical Codex CLI workflows for scaffolding WebMCP tool declarations alongside UI components, AGENTS.md conventions for WebMCP, or the current adoption reality (no major agent consumes WebMCP tools yet, Chrome-only, publisher opt-in chicken-and-egg problem)
+   - SEO targets: "webmcp codex cli", "webmcp chrome 149 origin trial", "document.modelContext registerTool", "webmcp vs playwright mcp", "agent-ready web applications", "webmcp declarative api html forms", "codex cli browser agent tools"
+
+---
+
 ## Codex CLI v0.138 Release Guide (2026-06-09 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.138: Desktop Handoff, Enterprise Access Tokens, and the Performance Gains That Actually Matter** — Written 2026-06-09 → `2026-06-09-codex-cli-v0138-release-guide-desktop-handoff-access-tokens-performance-plugin-automation.md`
