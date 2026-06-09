@@ -10,7 +10,7 @@ tags: ["stanford-ai-index", "developer-productivity", "swe-bench", "entry-level-
 
 ---
 
-Stanford HAI's eighth annual AI Index Report landed in April 2026 [^1]. At 350-odd pages it covers everything from model transparency to energy consumption, but three findings land directly in the laps of engineering teams running coding agents: SWE-bench Verified scores rising from 60% to near 100% in a single year, entry-level developer positions for workers aged 22–25 falling nearly 20% since 2024, and a persistent paradox between self-reported productivity gains and what controlled studies actually measure. This article unpacks each finding, cross-references the evidence with METR's latest research, and maps the practical implications to Codex CLI configuration and team workflow.
+Stanford HAI's ninth annual AI Index Report landed in April 2026 [^1]. At 350-odd pages it covers everything from model transparency to energy consumption, but three findings land directly in the laps of engineering teams running coding agents: SWE-bench Verified scores rising from 60% to near 100% in a single year, entry-level developer positions for workers aged 22–25 falling nearly 20% since 2024, and a persistent paradox between self-reported productivity gains and what controlled studies actually measure. This article unpacks each finding, cross-references the evidence with METR's latest research, and maps the practical implications to Codex CLI configuration and team workflow.
 
 ## SWE-bench at Near-100%: What the Benchmark Ceiling Means
 
