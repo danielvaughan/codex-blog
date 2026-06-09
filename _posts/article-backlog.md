@@ -6412,3 +6412,14 @@ The following gaps were identified during the article-rater review of all premiu
 - **Angle:** Week-by-week training plan with exercises, config progressions, and assessment criteria for engineering managers deploying team-wide agent adoption.
 - **Priority:** Medium — high practical value for engineering managers.
 - **Added:** 2026-06-07
+
+---
+
+## Batch — 2026-06-09 (Gap Analysis)
+
+### ✅ Codex CLI Verification Patterns: Seven Strategies for Ensuring Agent-Generated Code Actually Works
+- **Source:** Gap analysis across 1039 existing articles — no article covered layered verification patterns (hooks, auto-review, CI pipelines) as a unified framework
+- **Scope:** Seven verification patterns ordered lightest to heaviest: Diff Gate, PostToolUse Hook, PreToolUse Guard, Stop Hook Test Gate, Auto-Review Subagent, Plan-Review-Execute Loop, CI Verification Pipeline. Includes hook JSON configs, TOML settings, YAML CI workflow, and Mermaid flowcharts.
+- **SEO targets:** codex cli verification, agent code review, PostToolUse hook, PreToolUse guard, auto-review subagent, codex cli testing, agent-generated code quality
+- **File:** `articles/2026-06-09-codex-cli-verification-patterns-ensuring-agent-generated-code-correctness-hooks-review-testing.md`
+- **Published:** 2026-06-09
