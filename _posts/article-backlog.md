@@ -1,5 +1,13 @@
 # Article Backlog
 
+## eBPF Runtime Observability (2026-06-09 Hourly Article Run)
+
+1. ✅ **eBPF Runtime Observability for Codex CLI: AgentSight, Tetragon, and Kernel-Level Agent Monitoring** — Written 2026-06-09 → `2026-06-09-ebpf-runtime-observability-codex-cli-agentsight-tetragon-kernel-level-agent-monitoring.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered eBPF-based runtime observability for Codex CLI agents, the AgentSight boundary tracing framework (arXiv:2508.02736, 2.9% overhead, two-stage causal correlation of LLM intent to kernel actions), Cilium Tetragon TracingPolicy patterns for coding agent audit (observation-first approach for non-deterministic workloads), the three-layer defence stack combining OS-native sandboxing with self-reported OTel telemetry and independent kernel-verified audit trails, or practical integration patterns for correlating Codex CLI trace IDs with eBPF process events
+   - SEO targets: "codex cli ebpf observability", "agentsight coding agent monitoring", "tetragon codex cli audit", "ebpf ai agent security", "codex cli kernel monitoring", "runtime observability coding agent", "codex cli independent audit trail"
+
+---
+
 ## MCP 2026-07-28 Release Candidate (2026-06-09 Hourly Article Run)
 
 1. ✅ **The MCP 2026-07-28 Release Candidate: What the Stateless Protocol, Extensions, and Tasks Mean for Codex CLI Developers** — Written 2026-06-09 → `2026-06-09-mcp-2026-07-28-release-candidate-stateless-protocol-extensions-tasks-codex-cli-migration.md`
