@@ -1,5 +1,13 @@
 # Article Backlog
 
+## v0.140 Alpha Signals (2026-06-10 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.140 Alpha Signals: Extensions Unification, Multi-Agent v2 Path Tracking, and Python SDK Goal Routing** — Written 2026-06-10 → `2026-06-10-codex-cli-v0140-alpha-signals-extensions-unification-multi-agent-v2-path-tracking-python-sdk-goals.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.140.0-alpha.2 released 10 June 2026 with 27 commits introducing three architectural shifts: the extensions unification (selectedCapabilityRoots API abstracting skills/plugins/MCP/apps discovery, routing hosted Apps MCP through extensions framework, extension API contract tests), multi-agent v2 path-based activity tracking (replacing legacy nickname events with compact SubAgentActivity events, bounded /agent status surface, direct input rejection for sub-agents), and Python SDK goal routing (private goal operation state, thread-scoped notification routing, goal clear/set RPC wrappers — first of six PRs), plus streamable HTTP initialize retry, SOCKS5 MITM coverage, workspace plugin discovery, and goal completion improvements
+   - SEO targets: "codex cli v0.140", "codex cli extensions api", "codex multi-agent v2 path tracking", "codex python sdk goals", "codex selectedCapabilityRoots", "codex SubAgentActivity event", "codex streamable http retry"
+
+---
+
 ## Context Engineering WSCI Playbook (2026-06-10 Hourly Article Run)
 
 1. ✅ **Context Engineering for Codex CLI in June 2026: The Write-Select-Compress-Isolate Playbook** — Written 2026-06-10 → `2026-06-10-context-engineering-codex-cli-write-select-compress-isolate-june-2026.md`
