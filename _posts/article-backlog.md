@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Assistants API to Responses API Migration (2026-06-10 Hourly Article Run)
+
+1. ✅ **Migrating from the Assistants API to the Responses API with Codex CLI: An Automated Refactoring Playbook for the August 2026 Shutdown** — Written 2026-06-10 → `2026-06-10-assistants-api-to-responses-api-migration-codex-cli-automated-refactoring-august-2026-deadline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered using Codex CLI to automate the Assistants API to Responses API migration before the 26 August 2026 hard shutdown, the five mechanical refactoring patterns (thread creation to conversation creation, run polling to direct response, tool dispatch refactoring, assistant configuration to inline parameters, message retrieval to item access), the AGENTS.md migration anchor pattern, the codex exec migration pipeline with --output-schema inventory scanning, the PostToolUse hook for catching Assistants API regressions, or the strategic implications of the Prompts API also sunsetting on 30 November 2026
+   - SEO targets: "assistants api migration codex cli", "openai assistants api shutdown codex", "responses api migration automated", "codex cli api refactoring", "assistants to responses api codex exec", "openai august 2026 migration codex", "codex cli automated codebase migration"
+
+---
+
 ## ACP and Microsoft Intelligent Terminal (2026-06-10 Hourly Article Run)
 
 1. ✅ **The Agent Client Protocol Arrives in Microsoft Terminal: What ACP Means for Codex CLI and the Multi-Agent IDE Ecosystem** — Written 2026-06-10 → `2026-06-10-agent-client-protocol-microsoft-intelligent-terminal-codex-cli-multi-agent-ide-ecosystem.md`
