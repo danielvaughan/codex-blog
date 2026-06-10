@@ -2,7 +2,7 @@
 title: "The Codex App Server: A Complete Guide to the Protocol That Powers Every Surface"
 description: "Every time you type a prompt in Codex — whether in the terminal, VS Code, the macOS desktop app, or the web interface at chatgpt.com/codex — the same Rust."
 date: 2026-04-15T12:00:00+00:00
-last_modified_at: 2026-06-10T00:22:30+01:00
+last_modified_at: 2026-06-10T02:14:47+01:00
 tags:
   - architecture
   - app-server

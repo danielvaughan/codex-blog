@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Context Engineering WSCI Playbook (2026-06-10 Hourly Article Run)
+
+1. ✅ **Context Engineering for Codex CLI in June 2026: The Write-Select-Compress-Isolate Playbook** — Written 2026-06-10 → `2026-06-10-context-engineering-codex-cli-write-select-compress-isolate-june-2026.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article mapped the industry-standard Write-Select-Compress-Isolate framework (LangChain, Sourcegraph) to Codex CLI's concrete mechanisms (AGENTS.md hierarchy, memories system, tool search, enabled_tools scoping, code-mode web search, automatic compaction, schema compaction in v0.139, subagent isolation, permission profiles, OS-native sandboxes), the three-phase paradigm shift from prompt engineering to context engineering to harness engineering (Karpathy, Fowler), the 30% → 90% success rate improvement from structured context files, the v0.139 external tool output exclusion from memories, or the compounding effects of combining all four strategies
+   - SEO targets: "context engineering codex cli", "write select compress isolate coding agent", "codex cli AGENTS.md context", "context engineering vs prompt engineering", "codex cli memories compaction", "codex cli subagent isolation context", "context engineering playbook 2026"
+
+---
+
 ## Wasmer Edge.js Case Study (2026-06-10 Hourly Article Run)
 
 1. ✅ **From One Year to Two Weeks: How Wasmer Built Edge.js with Codex CLI and What Systems Programmers Should Learn from It** — Written 2026-06-10 → `2026-06-10-wasmer-edge-js-case-study-codex-cli-systems-programming-webassembly-runtime-two-weeks.md`
