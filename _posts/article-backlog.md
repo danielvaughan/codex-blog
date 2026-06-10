@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Miasma Worm Supply Chain Attack (2026-06-10 Hourly Article Run)
+
+1. ✅ **The Miasma Worm Targets Codex CLI: How a Self-Replicating Supply Chain Attack Exploits AI Agent Configuration Files and What You Should Do About It** — Written 2026-06-10 → `2026-06-10-miasma-worm-supply-chain-attack-ai-coding-agents-codex-cli-configuration-file-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Miasma worm (active since 1 June 2026), the self-replicating supply chain attack that disabled 73 Microsoft GitHub repositories on 5 June 2026, the shift from install-time to editor-open-time attack surfaces targeting 15 AI coding agents including Codex CLI, the six-file payload structure (Claude Code SessionStart hooks, Gemini CLI settings, Cursor prompt injection, VS Code folderOpen tasks, npm test hijack, 4.3 MB obfuscated dropper), the three-layer obfuscation (ROT-4 + AES-128-GCM + Bun isolation), the credential harvesting across AWS/Azure/GCP/npm/GitHub, the self-replication via stolen PATs, Codex CLI's four-layer defence assessment (non-executable AGENTS.md, hook trust gates, OS-native sandbox, approval policies), or the open-sourcing of the Miasma toolkit on 9 June 2026
+   - SEO targets: "miasma worm codex cli", "supply chain attack ai coding agents", "codex cli configuration file security", "miasma worm defence", "ai agent hook injection attack", "codex cli supply chain defence", "miasma worm microsoft github"
+
+---
+
 ## Windows Binary Hijacking RCE Chain (2026-06-10 Hourly Article Run)
 
 1. ✅ **The Windows Binary Hijacking Attack Surface in Codex CLI: Cymulate's RCE Chain, the Sandbox Gap, and Practical Defence Patterns** — Written 2026-06-10 → `2026-06-10-codex-cli-windows-binary-hijacking-cymulate-rce-sandbox-escape-defence-patterns.md`
