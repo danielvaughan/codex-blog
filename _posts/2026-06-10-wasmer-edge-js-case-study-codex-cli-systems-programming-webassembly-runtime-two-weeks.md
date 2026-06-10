@@ -186,4 +186,4 @@ Edge.js's performance overhead (5–30% depending on sandbox mode) means it is n
 
 [^7]: OpenAI, "Run long horizon tasks with Codex," developers.openai.com, 2026. [https://developers.openai.com/blog/run-long-horizon-tasks-with-codex](https://developers.openai.com/blog/run-long-horizon-tasks-with-codex)
 
-[^8]: Arévalo et al., "Impact of AGENTS.md on Coding Agent Performance," arXiv:2601.20404, ICSE 2026.
+[^8]: Lulla et al., "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents," arXiv:2601.20404, 2026.

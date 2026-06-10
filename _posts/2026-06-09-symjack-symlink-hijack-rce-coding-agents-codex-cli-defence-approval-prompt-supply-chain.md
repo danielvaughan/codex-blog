@@ -53,7 +53,7 @@ The overwritten configuration registers a new MCP server controlled by the attac
 
 The SymJack disclosure exposes a fundamental architectural problem: **approval prompts verify intent, not effect** [^1]. The OWASP MCP Security Cheat Sheet explicitly requires that consent dialogs display the exact command without truncation and that confirmation UIs for sensitive tool calls cannot be bypassed [^5]. SymJack violates both requirements by exploiting a layer below the prompt — the filesystem itself.
 
-Adversa AI's research found that malicious repositories account for 20–40% of supply-chain attacks [^2], making repository-sourced symlinks a plausible real-world attack vector.
+Malicious open-source packages have grown sharply — over 512,000 were logged in a single year — making repository-sourced symlinks a plausible real-world attack vector.
 
 ## Vendor Responses
 
@@ -66,7 +66,7 @@ The vendor response spectrum ranged from active hardening to silence [^2]:
 | Cursor | Declined — claimed prior knowledge of the issue |
 | xAI (Grok Build) | No response |
 | GitHub (Copilot CLI) | No response |
-| OpenAI (Codex CLI) | ⚠️ No public statement at time of writing; sandbox symlink hardening PRs pre-date the SymJack report |
+| OpenAI (Codex CLI) | ⚠️ Bugcrowd report closed as false positive — OpenAI deemed the attack theoretical, citing the user-approval step; sandbox symlink hardening PRs pre-date the SymJack report |
 
 ## Codex CLI's Defence Layers Against SymJack
 
