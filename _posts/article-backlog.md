@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Terraform and Infrastructure as Code (2026-06-10 Hourly Article Run)
+
+1. ✅ **Codex CLI for Terraform and Infrastructure as Code: The MCP Server, TerraShark, and Agent-Driven IaC Workflows** — Written 2026-06-10 → `2026-06-10-codex-cli-terraform-infrastructure-as-code-mcp-server-terrashark-pulumi-agent-skills.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the practical integration surface between Codex CLI and the Terraform ecosystem, including HashiCorp's official Terraform MCP server (registry tools, workspace management, dual transport), the TerraShark failure-mode-first skill for IaC hallucination prevention (7-step diagnostic workflow, 18 reference files, compliance mappings), Pulumi Agent Skills for Codex CLI (migration, authoring, delegation skill groups), codex exec drift detection pipelines with structured output, AGENTS.md patterns specific to infrastructure repositories, sandbox and network proxy configuration for terraform init/plan/apply workflows, model selection considerations for HCL generation, or the token efficiency tradeoff between HCL and general-purpose IaC languages
+   - SEO targets: "codex cli terraform", "terraform mcp server codex", "codex cli infrastructure as code", "terrashark codex cli", "codex cli terraform hallucination", "codex cli iac workflow", "codex exec terraform drift detection", "pulumi agent skills codex"
+
+---
+
 ## Miasma Worm Supply Chain Attack (2026-06-10 Hourly Article Run)
 
 1. ✅ **The Miasma Worm Targets Codex CLI: How a Self-Replicating Supply Chain Attack Exploits AI Agent Configuration Files and What You Should Do About It** — Written 2026-06-10 → `2026-06-10-miasma-worm-supply-chain-attack-ai-coding-agents-codex-cli-configuration-file-defence.md`
