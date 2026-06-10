@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DevDay 2026 Codex CLI Developer Guide (2026-06-10 Hourly Article Run)
+
+1. ✅ **OpenAI DevDay 2026: What Codex CLI Developers Should Expect and How to Prepare** — Written 2026-06-10 → `2026-06-10-openai-devday-2026-codex-cli-developer-guide-september-announcements-preparation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the OpenAI DevDay 2026 announcement (29 September, San Francisco), the GPT-5.5 + Image Gen weekly ticket contest evaluated by Codex, the strategic context of the S-1 filing coinciding with DevDay timing, the v0.140 alpha signals (extensions unification via selectedCapabilityRoots, multi-agent v2 path tracking with SubAgentActivity events, Python SDK goal routing) as likely DevDay announcements, the historical precedent from DevDay 2025 (Codex GA, GPT-5-Codex, Apps SDK, AgentKit), or practical preparation steps for CLI developers
+   - SEO targets: "openai devday 2026 codex cli", "devday 2026 announcements", "codex cli extensions api devday", "openai devday 2026 tickets", "codex cli devday preparation", "openai developer day 2026 codex", "devday 2026 september san francisco"
+
+---
+
 ## Assistants API to Responses API Migration (2026-06-10 Hourly Article Run)
 
 1. ✅ **Migrating from the Assistants API to the Responses API with Codex CLI: An Automated Refactoring Playbook for the August 2026 Shutdown** — Written 2026-06-10 → `2026-06-10-assistants-api-to-responses-api-migration-codex-cli-automated-refactoring-august-2026-deadline.md`
