@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ACP and Microsoft Intelligent Terminal (2026-06-10 Hourly Article Run)
+
+1. ✅ **The Agent Client Protocol Arrives in Microsoft Terminal: What ACP Means for Codex CLI and the Multi-Agent IDE Ecosystem** — Written 2026-06-10 → `2026-06-10-agent-client-protocol-microsoft-intelligent-terminal-codex-cli-multi-agent-ide-ecosystem.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Microsoft Intelligent Terminal 0.1 (Build 2026, 2 June 2026), the Agent Client Protocol (ACP) reaching cross-vendor adoption with JetBrains, Zed, Neovim, VS Code, and now Microsoft Terminal, Codex CLI's ACP server adapter (codex-acp) bridging the Codex runtime with ACP clients, the ACP vs MCP vs A2A protocol stack layering, the session/new handshake that wires MCP servers through ACP in a single initialisation, multi-agent composition workflows (Codex + Claude + Gemini in parallel ACP threads), or the practical configuration decisions for running Codex CLI as an ACP agent across different editors
+   - SEO targets: "agent client protocol codex cli", "microsoft intelligent terminal codex", "ACP vs MCP codex cli", "codex cli zed acp integration", "multi-agent ide codex cli", "codex-acp adapter", "ACP protocol stack agents"
+
+---
+
 ## v0.140 Alpha Signals (2026-06-10 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.140 Alpha Signals: Extensions Unification, Multi-Agent v2 Path Tracking, and Python SDK Goal Routing** — Written 2026-06-10 → `2026-06-10-codex-cli-v0140-alpha-signals-extensions-unification-multi-agent-v2-path-tracking-python-sdk-goals.md`
