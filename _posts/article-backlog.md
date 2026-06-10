@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Token Consumption Diagnosis and Reduction (2026-06-10 Hourly Article Run)
+
+1. ✅ **Diagnosing and Reducing Codex CLI Token Consumption: A Practitioner's Toolkit for the June 2026 Quota Landscape** — Written 2026-06-10 → `2026-06-10-codex-cli-token-consumption-diagnosis-reduction-quota-drain-practitioner-toolkit.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article unified the diagnostic toolkit (ccusage, tokscale, /status, --json event stream, OTel export) with the seven reduction strategies (enabled_tools scoping, reasoning effort tuning, proactive compaction, short sessions, shell-over-MCP preference, output filtering, disabled_tools in code mode) into a single practitioner guide, timed to the May–June 2026 community quota drain reports and the v0.139 release
+   - SEO targets: "codex cli token consumption", "codex cli quota drain", "codex cli reduce token usage", "ccusage codex", "codex cli MCP tax", "codex cli reasoning effort cost", "codex cli context compaction tokens"
+
+---
+
 ## Terraform and Infrastructure as Code (2026-06-10 Hourly Article Run)
 
 1. ✅ **Codex CLI for Terraform and Infrastructure as Code: The MCP Server, TerraShark, and Agent-Driven IaC Workflows** — Written 2026-06-10 → `2026-06-10-codex-cli-terraform-infrastructure-as-code-mcp-server-terrashark-pulumi-agent-skills.md`
