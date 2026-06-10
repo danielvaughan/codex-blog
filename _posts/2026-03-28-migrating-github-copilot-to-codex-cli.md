@@ -2,7 +2,7 @@
 title: "Migrating from GitHub Copilot to Codex CLI"
 description: "Before we begin: there is a naming trap to navigate. In February 2026, GitHub launched GitHub Copilot CLI."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-10T10:29:14+01:00
+last_modified_at: 2026-06-10T12:15:05+01:00
 tags:
   - competitive-landscape
   - github-copilot

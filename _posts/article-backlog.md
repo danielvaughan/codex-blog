@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Windows Binary Hijacking RCE Chain (2026-06-10 Hourly Article Run)
+
+1. ✅ **The Windows Binary Hijacking Attack Surface in Codex CLI: Cymulate's RCE Chain, the Sandbox Gap, and Practical Defence Patterns** — Written 2026-06-10 → `2026-06-10-codex-cli-windows-binary-hijacking-cymulate-rce-sandbox-escape-defence-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Cymulate Research Labs vulnerability chain (published 20 May 2026) combining prompt injection delivery via web search with Windows executable search-order binary hijacking to achieve host-level RCE outside the Codex sandbox boundary, the two-phase Windows sandbox architecture (unelevated SID/ACL model and elevated CreateProcessAsUser with restricted tokens), the trust boundary failure where the Codex Desktop application's own Git integration resolves binaries from CWD under developer privileges outside the sandbox, the CodexSandboxUsers ACL over-permissioning issue (GitHub #24256 — Modify on C:\ root with inheritance), the contested disclosure timeline (OpenAI closed as "Not Reproducible" on 28 April 2026), or practical defence patterns (elevated sandbox, pinned executable paths, web search domain restrictions, PostToolUse binary write detection hooks, repository clone auditing)
+   - SEO targets: "codex cli windows binary hijacking", "cymulate codex rce vulnerability", "codex cli sandbox escape windows", "codex cli prompt injection rce", "codex windows sandbox security", "binary hijacking coding agent", "codex cli windows defence patterns"
+
+---
+
 ## DevDay 2026 Codex CLI Developer Guide (2026-06-10 Hourly Article Run)
 
 1. ✅ **OpenAI DevDay 2026: What Codex CLI Developers Should Expect and How to Prepare** — Written 2026-06-10 → `2026-06-10-openai-devday-2026-codex-cli-developer-guide-september-announcements-preparation.md`
