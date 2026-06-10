@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Open Source Maintainer Workflows (2026-06-11 Hourly Article Run)
+
+1. ✅ **Codex CLI for Open Source Maintainers: Automated Triage, PR Review, and Release Note Workflows** — Written 2026-06-11 → `2026-06-11-codex-cli-open-source-maintainers-automated-triage-pr-review-release-notes-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the complete open source maintainer workflow combining Codex Automations for scheduled issue triage sweeps, the openai/codex-action GitHub Action for automated PR review, codex exec with --output-schema for structured release note generation, the Codex for Open Source programme (six months ChatGPT Pro + API credits), AGENTS.md templates for maintainer repositories, profile-based model selection for different maintainer tasks, cost estimates per workflow, or the AI-generated PR flood problem (17M PRs, 10% legitimate) and defensive review patterns
+   - SEO targets: "codex cli open source maintainer", "codex automated issue triage", "codex cli pr review automation", "codex exec release notes", "codex for open source programme", "codex github action pr review", "codex cli maintainer workflow"
+
+---
+
 ## codex exec One-Liners (2026-06-10 Hourly Article Run)
 
 1. ✅ **Ten codex exec One-Liners Every Senior Developer Should Have in Their Shell History** — Written 2026-06-10 → `2026-06-10-codex-exec-recipes-ten-production-one-liners-ci-cd-automation-senior-developer-toolkit.md`
