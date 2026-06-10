@@ -2,7 +2,7 @@
 title: "Gemma 4 on Codex CLI vs Claude Code: Same Model, Different Results"
 description: "Joe Njenga recently documented his experience running Gemma 4 with Claude Code. I spent the same week running Gemma 4 with Codex CLI on two machines."
 date: 2026-04-12T12:00:00+00:00
-last_modified_at: 2026-06-10T10:23:10+01:00
+last_modified_at: 2026-06-10T10:29:14+01:00
 featured: true
 tags:
   - codex-cli
