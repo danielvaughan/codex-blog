@@ -1,5 +1,13 @@
 # Article Backlog
 
+## codex exec One-Liners (2026-06-10 Hourly Article Run)
+
+1. ✅ **Ten codex exec One-Liners Every Senior Developer Should Have in Their Shell History** — Written 2026-06-10 → `2026-06-10-codex-exec-recipes-ten-production-one-liners-ci-cd-automation-senior-developer-toolkit.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article collected a practical cookbook of copy-paste-ready `codex exec` one-liners covering CI failure triage, PR description generation, dependency auditing, dead export detection, secret scanning, release notes generation, migration inventory with --output-schema, AGENTS.md linting, MCP token cost benchmarking, and resumable multi-step pipelines, with CI authentication patterns and profile-based configuration
+   - SEO targets: "codex exec recipes", "codex exec one-liners", "codex cli ci/cd automation", "codex exec structured output", "codex exec production scripts", "codex exec github actions", "codex exec resume pipeline"
+
+---
+
 ## OpenAI S-1 IPO Filing Developer Implications (2026-06-10 Hourly Article Run)
 
 1. ✅ **OpenAI's S-1 Filing: What the IPO Path Means for Codex CLI Developers** — Written 2026-06-10 → `2026-06-10-openai-s1-ipo-filing-codex-cli-developer-implications-pricing-platform-risk-preparation.md`
