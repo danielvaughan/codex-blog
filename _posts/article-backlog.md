@@ -6544,6 +6544,7 @@ The following gaps were identified during the article-rater review of all premiu
 - **Added:** 2026-06-03
 
 ### 7. Agent Ethics and Professional Responsibility
+- **Status:** ✅ Written 2026-06-11 → `2026-06-11-agent-ethics-professional-responsibility-codex-cli-attribution-disclosure-eu-ai-act.md`
 - **Gap:** EU AI Act (13) covers regulation but no article addresses the ethical dimensions of agent use: attribution of AI-generated code in open source, professional responsibility when agents cause harm, disclosure obligations.
 - **Angle:** Professional ethics for the agentic era — what IEEE, ACM, and BCS codes of conduct say (and don't say) about delegating engineering judgement to agents.
 - **Priority:** Low — important but niche. Better as a premium think piece than a practical guide.
