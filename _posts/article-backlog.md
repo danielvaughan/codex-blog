@@ -1,5 +1,13 @@
 # Article Backlog
 
+## OpenAI Acquires Ona (Formerly Gitpod) (2026-06-11 Hourly Article Run)
+
+1. ✅ **OpenAI Acquires Ona (Formerly Gitpod): What Persistent Cloud Sandboxes Mean for Codex CLI Developers** — Written 2026-06-11 → `2026-06-11-openai-acquires-ona-gitpod-codex-cli-persistent-cloud-sandboxes-enterprise-agent-execution.md`
+   - Source: No backlog items with 📝 status remained; topic selected from breaking news — OpenAI announced the acquisition of Ona (formerly Gitpod) on 11 June 2026, bringing persistent cloud execution environments and customer-controlled VPC deployment to Codex, representing a fundamental shift from session-bound local sandboxes to multi-day agent execution in cloud environments
+   - SEO targets: "openai acquires ona", "codex cli persistent sessions", "ona formerly gitpod openai", "codex cli cloud sandbox", "codex persistent agent execution", "ona codex enterprise", "openai gitpod acquisition codex"
+
+---
+
 ## Anthropic Eight Agentic Coding Trends Mapped to Codex CLI (2026-06-11 Hourly Article Run)
 
 1. ✅ **Anthropic's Eight Agentic Coding Trends Mapped to Codex CLI: A Practitioner's Configuration Guide** — Written 2026-06-11 → `2026-06-11-anthropic-eight-agentic-coding-trends-mapped-codex-cli-practitioner-configuration-guide.md`
