@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Loop Engineering with Codex CLI (2026-06-11 Hourly Article Run)
+
+1. ✅ **Loop Engineering with Codex CLI: Designing Autonomous Agent Loops That Run While You Sleep** — Written 2026-06-11 → `2026-06-11-loop-engineering-codex-cli-autonomous-agent-loops-automations-subagents-goal-mode.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the emerging loop engineering discipline (Addy Osmani, June 2026), the mapping of the five building blocks (automations, goal mode, worktrees, subagents, skills) to concrete Codex CLI configuration, the maker-verifier subagent pattern for autonomous loops, the memory file state persistence model, the three compounding risks (verification weakness, comprehension debt, cognitive surrender), or the paradigm progression from prompt engineering through context engineering to loop engineering
+   - SEO targets: "loop engineering codex cli", "codex cli autonomous agent loops", "codex automations loop engineering", "codex cli subagent maker verifier", "loop engineering coding agents", "codex goal mode autonomous", "agent loop design codex"
+
+---
+
 ## GitHub Copilot Desktop App vs Codex CLI (2026-06-11 Hourly Article Run)
 
 1. ✅ **GitHub Copilot Desktop App vs Codex CLI: Agent-Native GUI Meets Terminal-First Agent in the June 2026 Showdown** — Written 2026-06-11 → `2026-06-11-github-copilot-desktop-app-vs-codex-cli-agent-native-gui-terminal-first-comparison-june-2026.md`
