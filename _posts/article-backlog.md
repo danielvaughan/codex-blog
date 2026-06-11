@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Anthropic Eight Agentic Coding Trends Mapped to Codex CLI (2026-06-11 Hourly Article Run)
+
+1. ✅ **Anthropic's Eight Agentic Coding Trends Mapped to Codex CLI: A Practitioner's Configuration Guide** — Written 2026-06-11 → `2026-06-11-anthropic-eight-agentic-coding-trends-mapped-codex-cli-practitioner-configuration-guide.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article comprehensively mapped all eight trends from Anthropic's 2026 Agentic Coding Trends Report (orchestration shift, delegation gap, long-running agents, multi-agent systems, cross-organisational adoption, backlog expansion, verification bottleneck, intent as infrastructure) to specific Codex CLI configuration keys, profiles, hooks, AGENTS.md hierarchy, subagent settings, and exec workflows
+   - SEO targets: "anthropic agentic coding trends codex cli", "codex cli orchestration configuration", "delegation gap codex cli", "codex cli verification hooks", "intent as infrastructure AGENTS.md", "codex cli multi-agent configuration", "agentic coding trends 2026 codex"
+
+---
+
 ## Loop Engineering with Codex CLI (2026-06-11 Hourly Article Run)
 
 1. ✅ **Loop Engineering with Codex CLI: Designing Autonomous Agent Loops That Run While You Sleep** — Written 2026-06-11 → `2026-06-11-loop-engineering-codex-cli-autonomous-agent-loops-automations-subagents-goal-mode.md`
