@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GitHub Copilot Desktop App vs Codex CLI (2026-06-11 Hourly Article Run)
+
+1. ✅ **GitHub Copilot Desktop App vs Codex CLI: Agent-Native GUI Meets Terminal-First Agent in the June 2026 Showdown** — Written 2026-06-11 → `2026-06-11-github-copilot-desktop-app-vs-codex-cli-agent-native-gui-terminal-first-comparison-june-2026.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the GitHub Copilot Desktop App technical preview expansion (2 June 2026), the agent-native GUI architecture (My Work dashboard, canvases, Agent Merge, cloud sandboxes, Memory++), the architectural comparison with Codex CLI's terminal-first approach, the multi-model vs single-vendor tradeoff, the dual-stack workflow pattern, approval model differences (PR-as-review-gate vs command-level hooks), or the practical decision framework for choosing between GUI orchestration and terminal composability
+   - SEO targets: "github copilot desktop app vs codex cli", "copilot desktop agent native", "codex cli vs copilot desktop 2026", "agent native gui terminal comparison", "copilot desktop canvases agent merge", "codex cli copilot dual stack"
+
+---
+
 ## Xcode 27 and Codex CLI MCP Bridge (2026-06-11 Hourly Article Run)
 
 1. ✅ **Xcode 27 and Codex CLI: Connecting Apple's MCP Bridge for Agentic iOS and macOS Development** — Written 2026-06-11 → `2026-06-11-xcode-27-codex-cli-mcp-bridge-apple-agentic-coding-ios-macos-development.md`
