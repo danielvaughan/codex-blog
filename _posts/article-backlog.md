@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent-Driven Codebase Rewrites (2026-06-12 Hourly Article Run)
+
+1. ✅ **Agent-Driven Codebase Rewrites: What Bun's Zig-to-Rust Port Teaches Codex CLI Practitioners About Large-Scale Code Translation** — Written 2026-06-12 → `2026-06-12-agent-driven-codebase-rewrites-bun-zig-rust-codex-cli-large-scale-code-translation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Bun Zig-to-Rust million-line agent-driven port (May 2026) as a case study for Codex CLI practitioners, mapping the four-phase translation pattern to Codex CLI primitives (codex exec with --output-schema for inventory, AGENTS.md governance for translation rules, worktree + subagent parallelisation, goal mode for long-running loops, PostToolUse hooks for continuous verification), the unsafe block problem as a verification depth failure, or the practical framework for running large-scale code translations with layered verification beyond test parity
+   - SEO targets: "codex cli code translation", "agent driven codebase rewrite", "bun zig rust codex cli", "large scale code migration agent", "codex cli subagent parallel translation", "codex cli code modernization", "agent code rewrite verification"
+
+---
+
 ## OpenAI Acquires Ona (Formerly Gitpod) (2026-06-11 Hourly Article Run)
 
 1. ✅ **OpenAI Acquires Ona (Formerly Gitpod): What Persistent Cloud Sandboxes Mean for Codex CLI Developers** — Written 2026-06-11 → `2026-06-11-openai-acquires-ona-gitpod-codex-cli-persistent-cloud-sandboxes-enterprise-agent-execution.md`
