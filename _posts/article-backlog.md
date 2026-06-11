@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Multi-Cloud Provider-Agnostic Agent Workflows (2026-06-11 Hourly Article Run)
+
+1. ✅ **Codex CLI Goes Multi-Cloud: Oracle OCI Joins AWS Bedrock and Azure, and What Provider-Agnostic Agent Workflows Look Like in Practice** — Written 2026-06-11 → `2026-06-11-codex-cli-multi-cloud-oracle-oci-aws-bedrock-azure-provider-agnostic-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Oracle OCI partnership announcement (10 June 2026), the multi-cloud distribution strategy combining Oracle OCI Universal Credits, AWS Bedrock GA, and Azure OpenAI Service for Codex CLI, practical custom provider configuration for OCI using the Responses API and oci-genai-auth, profile-based provider switching patterns, the Oracle Autonomous AI Database MCP Server for database-aware agent workflows, the decision framework for choosing between providers based on feature availability and procurement alignment, or the AGENTS.md portability principle across cloud providers
+   - SEO targets: "codex cli multi-cloud", "codex cli oracle oci", "codex cli aws bedrock azure", "codex model provider configuration", "codex cli provider-agnostic", "oracle oci codex universal credits", "codex cli multi-cloud enterprise"
+
+---
+
 ## Terminal-Bench 2.1 Benchmark Landscape (2026-06-11 Hourly Article Run)
 
 1. ✅ **Terminal-Bench 2.1 and the June 2026 Benchmark Landscape: Why the Harness Matters More Than the Model for Codex CLI Developers** — Written 2026-06-11 → `2026-06-11-terminal-bench-2-1-june-2026-benchmark-landscape-codex-cli-harness-engineering-model-scores.md`
