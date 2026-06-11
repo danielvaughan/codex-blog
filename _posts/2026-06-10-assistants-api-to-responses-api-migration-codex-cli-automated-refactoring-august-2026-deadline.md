@@ -8,6 +8,8 @@ tags: ["codex-cli", "assistants-api", "responses-api", "migration", "api-refacto
 # Migrating from the Assistants API to the Responses API with Codex CLI: An Automated Refactoring Playbook for the August 2026 Shutdown
 
 
+---
+
 The Assistants API shuts down permanently on 26 August 2026 [^1]. Every `POST /v1/assistants`, `/v1/threads`, and `/v1/threads/{id}/runs` call will return an error. OpenAI has confirmed there is no extension [^2]. If your codebase still depends on the Assistants API, the clock is running — 77 days remain as of today.
 
 This article shows how to use Codex CLI to systematically migrate an Assistants API integration to the Responses API, covering the object model mapping, the five mechanical refactoring patterns that Codex handles well, and the architectural changes that still need human judgement.

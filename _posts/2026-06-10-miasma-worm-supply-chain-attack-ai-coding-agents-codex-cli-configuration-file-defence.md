@@ -8,7 +8,6 @@ tags: ["codex-cli", "security", "miasma", "supply-chain", "hooks", "AGENTS.md", 
 # The Miasma Worm Targets Codex CLI: How a Self-Replicating Supply Chain Attack Exploits AI Agent Configuration Files and What You Should Do About It
 
 
-
 ---
 
 On 5 June 2026, GitHub disabled 73 repositories across four Microsoft organisations — Azure, Azure-Samples, Microsoft, and MicrosoftDocs — after the Miasma worm planted credential-harvesting payloads in commits designed to detonate the moment a developer opens the repository in an AI coding agent[^1][^2]. Four days later, on 9 June, the full Miasma toolkit source code was published on GitHub, placing the weaponised code within reach of any copycat[^3]. Codex CLI is one of fifteen confirmed targets in Miasma's hook injection array[^3]. This article dissects how the attack works, maps it against Codex CLI's defence stack, and provides a concrete hardening checklist you can apply today.
