@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Terminal-Bench 2.1 Benchmark Landscape (2026-06-11 Hourly Article Run)
+
+1. ✅ **Terminal-Bench 2.1 and the June 2026 Benchmark Landscape: Why the Harness Matters More Than the Model for Codex CLI Developers** — Written 2026-06-11 → `2026-06-11-terminal-bench-2-1-june-2026-benchmark-landscape-codex-cli-harness-engineering-model-scores.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Terminal-Bench 2.1 verified results (published June 9 2026), the Codex CLI + GPT-5.5 #1 ranking at 83.4%, the harness-model decoupling thesis (same GPT-5.5 scoring 83.4% in Codex CLI vs 78.2% in Terminus 2 vs tied-#3 in Agent Security League), the cross-benchmark landscape comparing Terminal-Bench 2.1, SWE-bench Verified/Pro, Agent Security League, and Artificial Analysis composite index, the practical implications for harness engineering over model chasing, or the benchmark convergence trend and cost efficiency analysis
+   - SEO targets: "terminal-bench 2.1 codex cli", "codex cli benchmark scores june 2026", "coding agent benchmark comparison", "harness engineering coding agents", "codex cli vs claude code benchmarks", "terminal-bench leaderboard 2026", "codex cli GPT-5.5 performance"
+
+---
+
 ## Open Source Maintainer Workflows (2026-06-11 Hourly Article Run)
 
 1. ✅ **Codex CLI for Open Source Maintainers: Automated Triage, PR Review, and Release Note Workflows** — Written 2026-06-11 → `2026-06-11-codex-cli-open-source-maintainers-automated-triage-pr-review-release-notes-workflows.md`
