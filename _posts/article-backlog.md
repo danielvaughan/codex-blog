@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Three Migration Paths into Codex CLI (2026-06-11 Hourly Article Run)
+
+1. ✅ **The Three Migration Paths into Codex CLI: Moving Workflows from Claude Code, Claude Cowork, and Gemini CLI Before the June 18 Deadline** — Written 2026-06-11 → `2026-06-11-three-migration-paths-into-codex-cli-claude-code-claude-cowork-gemini-cli-june-2026-consolidation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered all three migration paths (Claude Code, Claude Cowork, Gemini CLI) into Codex CLI together, the new Codex app 26.608 migration flows for Claude Cowork (9 June 2026), the practical configuration mapping across all three tools, the Gemini CLI June 18 shutdown countdown with manual Codex migration steps, the wire_api = "responses" requirement for custom Gemini providers, the dual-stack alternative for teams hedging vendor risk, or the decision framework for choosing consolidation vs multi-agent setups
+   - SEO targets: "codex cli migration claude code", "codex cli claude cowork migration", "gemini cli shutdown codex migration", "coding agent consolidation june 2026", "claude code to codex", "gemini cli to codex cli", "codex cli migration checklist"
+
+---
+
 ## Multi-Cloud Provider-Agnostic Agent Workflows (2026-06-11 Hourly Article Run)
 
 1. ✅ **Codex CLI Goes Multi-Cloud: Oracle OCI Joins AWS Bedrock and Azure, and What Provider-Agnostic Agent Workflows Look Like in Practice** — Written 2026-06-11 → `2026-06-11-codex-cli-multi-cloud-oracle-oci-aws-bedrock-azure-provider-agnostic-agent-workflows.md`
