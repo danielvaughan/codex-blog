@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex exec Structured Output Pipelines (2026-06-11 Hourly Article Run)
+
+1. ✅ **Codex exec Structured Output Pipelines: Building Type-Safe Automation with --output-schema, --json, and Resume** — Written 2026-06-11 → `2026-06-11-codex-exec-structured-output-pipelines-output-schema-json-resume-ci-automation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a unified practitioner guide to the three codex exec output modes (plain stdout, --output-schema for type-safe JSON, --json JSONL event streaming), resumable multi-step pipelines via codex exec resume with --output-schema support (new in v0.139.0), practical CI/CD integration patterns with openai/codex-action@v1, profile-based pipeline configuration, schema design sharp edges, token economics of structured output, stdin piping patterns, or error handling and exit code conventions for production automation
+   - SEO targets: "codex exec structured output", "codex exec output-schema", "codex exec json pipeline", "codex exec resume automation", "codex cli ci cd structured output", "codex exec github actions", "codex cli automation pipeline"
+
+---
+
 ## Three Migration Paths into Codex CLI (2026-06-11 Hourly Article Run)
 
 1. ✅ **The Three Migration Paths into Codex CLI: Moving Workflows from Claude Code, Claude Cowork, and Gemini CLI Before the June 18 Deadline** — Written 2026-06-11 → `2026-06-11-three-migration-paths-into-codex-cli-claude-code-claude-cowork-gemini-cli-june-2026-consolidation.md`
