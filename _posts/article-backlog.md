@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Xcode 27 and Codex CLI MCP Bridge (2026-06-11 Hourly Article Run)
+
+1. ✅ **Xcode 27 and Codex CLI: Connecting Apple's MCP Bridge for Agentic iOS and macOS Development** — Written 2026-06-11 → `2026-06-11-xcode-27-codex-cli-mcp-bridge-apple-agentic-coding-ios-macos-development.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the WWDC 2026 Xcode 27 announcements (June 9-10) from the Codex CLI practitioner perspective, including the native mcpbridge MCP server (`codex mcp add xcode -- xcrun mcpbridge`), the 20 structured Xcode tools exposed via MCP (BuildProject, RunAllTests, ExecuteSnippet, RenderPreview, DocumentationSearch, etc.), the dual-protocol architecture (MCP for capabilities, ACP for authorisation), Apple's seven exportable agent skills in SKILL.md format, the comparison between Xcode built-in agents and Codex CLI as external agent, hybrid development patterns, or the XcodeBuildMCP community alternative comparison
+   - SEO targets: "codex cli xcode 27", "xcode mcp bridge codex", "codex cli ios development", "xcrun mcpbridge codex", "xcode 27 agent integration codex", "codex cli apple mcp", "xcode agentic coding codex cli", "wwdc 2026 codex cli"
+
+---
+
 ## Codex exec Structured Output Pipelines (2026-06-11 Hourly Article Run)
 
 1. ✅ **Codex exec Structured Output Pipelines: Building Type-Safe Automation with --output-schema, --json, and Resume** — Written 2026-06-11 → `2026-06-11-codex-exec-structured-output-pipelines-output-schema-json-resume-ci-automation.md`
