@@ -179,7 +179,7 @@ This reduces switching costs if post-IPO pricing or feature changes make a multi
 
 ## The Competitive Pressure Valve
 
-OpenAI is not filing in a vacuum. Anthropic submitted its own confidential S-1 on 2 June 2026[^15], and Claude Code has captured over 1,000 enterprise accounts spending more than $1 million annually[^11]. Google's Antigravity CLI launches on 18 June[^16]. Cursor's TypeScript SDK entered public beta in April[^17].
+OpenAI is not filing in a vacuum. Anthropic submitted its own confidential S-1 on 1 June 2026[^15], and Claude Code has captured over 1,000 enterprise accounts spending more than $1 million annually[^11]. Google's Antigravity CLI launches on 18 June[^16]. Cursor's TypeScript SDK entered public beta in April[^17].
 
 This competitive density is, paradoxically, the best insurance for CLI developers. A post-IPO OpenAI under quarterly scrutiny cannot afford to alienate its developer base when three well-funded competitors are actively courting the same users. The pricing and deprecation risks outlined above are real, but they are moderated by a market where developers have genuine alternatives.
 
