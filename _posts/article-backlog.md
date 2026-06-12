@@ -7,7 +7,7 @@ The following ideas were identified during the 12 June 2026 article-rater run ba
 1. ✅ **Agent Liability and Insurance: Who Pays When Agent-Generated Code Causes Harm?** — Written 2026-06-12 → `2026-06-12-agent-liability-insurance-who-pays-when-agent-generated-code-causes-harm.md`
    - SEO targets: "ai agent liability insurance", "agent generated code liability", "codex cli professional indemnity", "ai coding agent errors omissions"
 
-2. 📝 **The Agent Memory Audit: A Quarterly Review Checklist for Codex CLI Teams** — Memory Over-Personalisation (4.8) identifies the problem; this article would provide the operational solution. A step-by-step quarterly audit process: export memories, review for staleness, prune per-project leakage, verify consolidation quality, benchmark against memory-free baselines.
+2. ✅ **The Agent Memory Audit: A Quarterly Review Checklist for Codex CLI Teams** — Written 2026-06-12 → `2026-06-12-agent-memory-audit-quarterly-review-checklist-codex-cli-teams.md`
    - SEO targets: "codex cli memory audit", "agent memory review checklist", "codex dreaming memory maintenance", "codex cli memory hygiene"
 
 3. 📝 **Post-Rewrite Verification: Five Layers Beyond "The Tests Pass"** — The Bun Codebase Rewrites article (4.8) demonstrates that test parity is insufficient. A dedicated article mapping five verification layers (type safety, idiomatic analysis, unsafe/FFI audit, performance regression, security scan) with Codex CLI hook and subagent configurations for each.
