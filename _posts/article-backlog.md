@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Mobile ChatGPT iOS Branch Worktree Goal Inline Review (2026-06-12 Hourly Article Run)
+
+1. ✅ **Codex Mobile in ChatGPT iOS: Branch Selection, Goal Management, and Inline Code Review from Your Phone** — Written 2026-06-12 → `2026-06-12-codex-mobile-chatgpt-ios-branch-worktree-goal-inline-review-cli-companion.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the ChatGPT iOS 1.2026.153 update (9 June 2026) that added branch selection, worktree creation, environment setup script support, /goal management, inline review comments on changed files, and prompt editing to the Codex mobile surface, or the practical three-surface CLI-Desktop-Mobile workflow pattern, the mobile-specific profile configuration, the commute kickoff pattern, the approval mode fix interaction with mobile-initiated goals, or the architecture of inline review comments reaching the agent as spatially-contextual instructions
+   - SEO targets: "codex mobile branch selection", "codex chatgpt ios goal mode", "codex mobile inline review", "codex mobile worktree", "codex cli mobile companion", "codex remote code review phone", "codex mobile goal management"
+
+---
+
 ## Release Channels and Version Management (2026-06-12 Hourly Article Run)
 
 1. ✅ **Codex CLI Release Channels and Version Management: Alpha Builds, Version Pinning, and Team-Wide Update Strategies** — Written 2026-06-12 → `2026-06-12-codex-cli-release-channels-version-management-alpha-builds-team-pinning.md`
