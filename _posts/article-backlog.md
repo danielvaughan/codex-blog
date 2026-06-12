@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Memory Over-Personalisation and Sycophancy (2026-06-12 Hourly Article Run)
+
+1. ✅ **Memory Over-Personalisation in Codex CLI: When Your Agent Agrees With You Instead of the Codebase** — Written 2026-06-12 → `2026-06-12-codex-cli-memory-over-personalisation-sycophancy-risk-configuration-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article mapped the OP-Bench over-personalisation research (arXiv 2601.13722, January 2026), the Stanford RLHF sycophancy study (Science, March 2026), and the Mem0/Zep memory compression accuracy findings to Codex CLI's native Dreaming v3 memory system, its configuration surface (generate_memories, use_memories, disable_on_external_context, min_rollout_idle_hours, extract_model, consolidation_model), the Self-ReCheck mitigation pattern, or the practical defence checklist for teams managing memory across multiple projects
+   - SEO targets: "codex cli memory sycophancy", "codex cli over-personalisation", "codex cli memory configuration", "agent memory accuracy degradation", "codex cli dreaming v3 risks", "OP-Bench coding agents", "codex cli memory audit"
+
+---
+
 ## Configuration Anti-Patterns (2026-06-12 Hourly Article Run)
 
 1. ✅ **Codex CLI Configuration Anti-Patterns: Twelve Settings Mistakes That Waste Tokens, Break Sandboxes, and Frustrate Your Agent** — Written 2026-06-12 → `2026-06-12-codex-cli-configuration-anti-patterns-twelve-settings-mistakes-tokens-sandbox-agent-performance.md`
