@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Rate-Limit Reset Banking and Usage Optimisation (2026-06-12 Hourly Article Run)
+
+1. ✅ **Codex CLI Rate-Limit Reset Banking and Usage Optimisation: Managing Agent Costs from the Terminal** — Written 2026-06-12 → `2026-06-12-codex-cli-rate-limit-reset-banking-usage-optimisation-cost-control-profiles-token-budgets.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the rate-limit reset banking mechanism introduced in Codex app 26.609 (11 June 2026), the referral programme for earning banked resets (11-24 June promotion window), the 5-hour rolling window credit arithmetic mapped to CLI config keys (model_reasoning_effort, tool_output_token_limit, model_auto_compact_token_limit, service_tier, model_verbosity), profile-based cost switching patterns (fast/deep/ci), the cached input discount for resumed sessions, the MCP server overhead trimming strategy, or the decision framework for subscription vs API-key billing
+   - SEO targets: "codex cli rate limit reset banking", "codex cli cost optimisation", "codex cli token budget", "codex cli profiles cost control", "codex rate limit reset", "codex cli usage optimisation", "codex cli config cost control"
+
+---
+
 ## Memory Over-Personalisation and Sycophancy (2026-06-12 Hourly Article Run)
 
 1. ✅ **Memory Over-Personalisation in Codex CLI: When Your Agent Agrees With You Instead of the Codebase** — Written 2026-06-12 → `2026-06-12-codex-cli-memory-over-personalisation-sycophancy-risk-configuration-defence.md`
