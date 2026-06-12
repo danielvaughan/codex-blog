@@ -10,13 +10,13 @@ tags: ["codex-cli", "code-translation", "large-scale-migration", "bun", "zig", "
 
 ---
 
-On 14 May 2026, Jarred Sumner merged PR #30412 into Bun's main branch: 1,009,257 lines of Rust across 6,755 commits, translating the JavaScript runtime from Zig to Rust in nine days [^1]. The agents wrote every line. No human typed code. The PR passed 99.8% of Bun's existing test suite [^2].
+On 14 May 2026, Jarred Sumner merged PR #30412 into Bun's main branch: 1,009,257 lines of Rust across 6,755 commits, translating the JavaScript runtime from Zig to Rust in six days [^1]. The agents wrote every line. No human typed code. The PR passed 99.8% of Bun's existing test suite [^2].
 
 Then the community counted: 13,365 `unsafe` blocks [^3].
 
 The Bun port is the first million-line agent-driven rewrite to land in a production runtime. It is also a cautionary tale about what "passing tests" actually proves. This article examines the engineering patterns behind the port, maps them to Codex CLI's feature set, and provides a practitioner's framework for running your own large-scale code translations — without the unsafe hangover.
 
-## The Bun Rewrite: Architecture of a Nine-Day Port
+## The Bun Rewrite: Architecture of a Six-Day Port
 
 Anthropic's internal agent infrastructure drove the translation in four phases [^4]:
 
