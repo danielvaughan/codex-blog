@@ -2,7 +2,7 @@
 title: "Codex CLI Agent Notifications: Desktop Alerts, Audio Chimes, and Multi-Agent Monitoring"
 description: "When you run a single Codex CLI session in the foreground, you see everything happen in real time."
 date: 2026-04-10T13:00:00+00:00
-last_modified_at: 2026-06-12T20:06:41+01:00
+last_modified_at: 2026-06-12T21:40:50+01:00
 tags: ["notifications", "notify-hook", "osc9", "desktop-alerts", "monitoring", "multi-agent", "tui", "config-toml"]
 ---
 
