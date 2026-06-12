@@ -4,7 +4,7 @@
 
 The following ideas were identified during the 12 June 2026 article-rater run based on thematic gaps in the library.
 
-1. 📝 **Agent Liability and Insurance: Who Pays When Agent-Generated Code Causes Harm?** — The Agent Ethics article (4.8) maps professional codes but stops short of the commercial liability question. No article covers professional indemnity insurance implications, contractual liability allocation in MSAs, or the emerging "AI errors and omissions" insurance products. Natural extension of #13 (EU AI Act) and the ethics piece.
+1. ✅ **Agent Liability and Insurance: Who Pays When Agent-Generated Code Causes Harm?** — Written 2026-06-12 → `2026-06-12-agent-liability-insurance-who-pays-when-agent-generated-code-causes-harm.md`
    - SEO targets: "ai agent liability insurance", "agent generated code liability", "codex cli professional indemnity", "ai coding agent errors omissions"
 
 2. 📝 **The Agent Memory Audit: A Quarterly Review Checklist for Codex CLI Teams** — Memory Over-Personalisation (4.8) identifies the problem; this article would provide the operational solution. A step-by-step quarterly audit process: export memories, review for staleness, prune per-project leakage, verify consolidation quality, benchmark against memory-free baselines.
