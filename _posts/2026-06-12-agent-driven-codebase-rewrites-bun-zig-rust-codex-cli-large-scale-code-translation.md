@@ -1,7 +1,7 @@
 ---
 title: "Agent-Driven Codebase Rewrites: What Bun's Zig-to-Rust Port Teaches Codex CLI Practitioners About Large-Scale Code Translation"
 parent: "Articles"
-nav_order: 1073
+nav_order: 1080
 tags: ["codex-cli", "code-translation", "large-scale-migration", "bun", "zig", "rust", "subagents", "worktrees", "multi-agent", "goal-mode", "verification"]
 ---
 

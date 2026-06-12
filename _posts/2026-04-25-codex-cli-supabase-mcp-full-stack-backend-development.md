@@ -4,7 +4,7 @@ description: "Supabase's MCP server exposes over 20 tools that let Codex CLI que
 parent: "Articles"
 nav_order: 412
 date: 2026-04-25T00:00:00+00:00
-last_modified_at: 2026-06-12T06:17:43+01:00
+last_modified_at: 2026-06-12T07:06:37+01:00
 tags: ["codex-cli", "supabase", "mcp", "database", "migrations", "branching", "full-stack", "backend", "config.toml", "security"]
 ---
 

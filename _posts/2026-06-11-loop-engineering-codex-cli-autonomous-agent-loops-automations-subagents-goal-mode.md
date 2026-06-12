@@ -1,7 +1,7 @@
 ---
 title: "Loop Engineering with Codex CLI: Designing Autonomous Agent Loops That Run While You Sleep"
 parent: "Articles"
-nav_order: 1073
+nav_order: 1076
 tags: ["codex-cli", "loop-engineering", "automations", "subagents", "goal-mode", "agent-architecture", "context-engineering"]
 ---
 
