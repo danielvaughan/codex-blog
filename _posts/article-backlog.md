@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Configuration Anti-Patterns (2026-06-12 Hourly Article Run)
+
+1. ✅ **Codex CLI Configuration Anti-Patterns: Twelve Settings Mistakes That Waste Tokens, Break Sandboxes, and Frustrate Your Agent** — Written 2026-06-12 → `2026-06-12-codex-cli-configuration-anti-patterns-twelve-settings-mistakes-tokens-sandbox-agent-performance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article catalogued configuration-level anti-patterns (oversized AGENTS.md, deprecated model pins, danger-full-access on workstations, approval_policy=never without hooks, MCP tool overlap, missing writable_roots, global config creep, ignored compact_prompt/tool_output_token_limit) as a unified checklist, despite 1069 existing articles covering individual configuration topics
+   - SEO targets: "codex cli configuration mistakes", "codex cli anti-patterns", "codex cli config.toml best practices", "AGENTS.md too large", "codex sandbox mode security", "codex cli token waste", "codex cli configuration audit"
+
+---
+
 ## Agent-Driven Codebase Rewrites (2026-06-12 Hourly Article Run)
 
 1. ✅ **Agent-Driven Codebase Rewrites: What Bun's Zig-to-Rust Port Teaches Codex CLI Practitioners About Large-Scale Code Translation** — Written 2026-06-12 → `2026-06-12-agent-driven-codebase-rewrites-bun-zig-rust-codex-cli-large-scale-code-translation.md`
