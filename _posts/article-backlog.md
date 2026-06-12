@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AI Token Price War and Pre-IPO Price Cuts (2026-06-12 Hourly Article Run)
+
+1. ✅ **The AI Token Price War: OpenAI's Pre-IPO Price Cuts, the SpaceX Nasdaq Debut, and What Codex CLI Developers Should Budget For** — Written 2026-06-12 → `2026-06-12-ai-token-price-war-openai-pre-ipo-cuts-spacex-nasdaq-codex-cli-budget-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the SpaceX SPCX Nasdaq debut (12 June 2026), the WSJ report on OpenAI considering drastic token price cuts ahead of its IPO (11 June 2026), the AI mega-IPO pipeline sequencing effect ($3.6T combined SpaceX-xAI + Anthropic + OpenAI), the Grok Build pricing pressure on Codex CLI token economics, the four-cornered competitive landscape post-SpaceX-IPO, or the practical five-step budget preparation checklist for CLI developers ahead of the coming price war
+   - SEO targets: "openai token price cuts", "codex cli pricing 2026", "spacex ipo ai impact", "openai anthropic price war", "codex cli budget strategy", "ai token pricing war", "grok build vs codex pricing"
+
+---
+
 ## Browser Use Developer Mode and CDP Performance (2026-06-12 Hourly Article Run)
 
 1. ✅ **Codex Browser Use Developer Mode: CDP Access, 2x Performance, and What CLI Developers Gain from the June 2026 Browser Overhaul** — Written 2026-06-12 → `2026-06-12-codex-browser-use-developer-mode-cdp-dom-snapshots-2x-performance-cli-frontend-workflows.md`
