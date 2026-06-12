@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Claude Fable 5 Competitive Response and Multi-Model Strategy (2026-06-12 Hourly Article Run)
+
+1. ✅ **Claude Fable 5 Enters the Arena: What Anthropic's Benchmark-Topping Model Means for Codex CLI Multi-Model Strategies** — Written 2026-06-12 → `2026-06-12-claude-fable-5-benchmark-leader-codex-cli-multi-model-strategy-competitive-response.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Claude Fable 5 / Mythos 5 release (9 June 2026), the 80.3% SWE-bench Pro score vs GPT-5.5's 58.6%, the benchmark-harness coupling effect on Terminal-Bench comparisons, the 2x input pricing premium and token-efficiency offset, the practical LiteLLM/Bedrock/OpenRouter proxy configuration for routing Codex CLI through Fable 5, the profile-based multi-model switching pattern, or the decision framework for when alternative models justify the prefix-caching sacrifice
+   - SEO targets: "claude fable 5 codex cli", "claude fable 5 vs gpt-5.5 coding", "codex cli multi-model routing", "claude fable 5 swe-bench", "codex cli alternative models", "codex cli litellm anthropic", "claude fable 5 pricing codex comparison"
+
+---
+
 ## Codex Mobile ChatGPT iOS Branch Worktree Goal Inline Review (2026-06-12 Hourly Article Run)
 
 1. ✅ **Codex Mobile in ChatGPT iOS: Branch Selection, Goal Management, and Inline Code Review from Your Phone** — Written 2026-06-12 → `2026-06-12-codex-mobile-chatgpt-ios-branch-worktree-goal-inline-review-cli-companion.md`
