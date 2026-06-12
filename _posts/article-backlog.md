@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Browser Use Developer Mode and CDP Performance (2026-06-12 Hourly Article Run)
+
+1. ✅ **Codex Browser Use Developer Mode: CDP Access, 2x Performance, and What CLI Developers Gain from the June 2026 Browser Overhaul** — Written 2026-06-12 → `2026-06-12-codex-browser-use-developer-mode-cdp-dom-snapshots-2x-performance-cli-frontend-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Codex app 26.609 (11 June 2026) browser use developer mode with controlled CDP access for performance profiling, the 2x browser use performance improvement via CDP and DOM snapshot optimisations, Windows per-app access controls for Computer Use, the three-tier browser interaction model (Computer Use vs Browser Use + Developer Mode vs Chrome DevTools MCP) as a unified decision framework, or the practical CLI frontend workflow connecting Chrome DevTools MCP to the new app-side browser capabilities
+   - SEO targets: "codex browser use developer mode", "codex CDP access", "codex browser 2x faster", "chrome devtools mcp codex cli", "codex computer use vs browser use", "codex DOM snapshot performance", "codex per-app access controls windows"
+
+---
+
 ## Rate-Limit Reset Banking and Usage Optimisation (2026-06-12 Hourly Article Run)
 
 1. ✅ **Codex CLI Rate-Limit Reset Banking and Usage Optimisation: Managing Agent Costs from the Terminal** — Written 2026-06-12 → `2026-06-12-codex-cli-rate-limit-reset-banking-usage-optimisation-cost-control-profiles-token-budgets.md`

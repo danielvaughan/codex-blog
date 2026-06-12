@@ -2,7 +2,7 @@
 title: "AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance"
 description: "The AGENTS.md file that sits in your repository root has quietly become the most consequential configuration standard in agentic coding."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-06-12T07:06:37+01:00
+last_modified_at: 2026-06-12T08:29:34+01:00
 tags:
   - opinion
   - agents-md
