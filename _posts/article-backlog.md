@@ -6701,3 +6701,9 @@ The following gaps were identified during the article-rater review of all premiu
 - **SEO targets:** "codex cli v0.139", "codex cli code mode web search", "MCP oneOf allOf schema codex", "codex doctor diagnostics", "codex cli v0.139 release", "codex cli MCP schema fidelity", "codex cli thread reset cloud requirements"
 - **File:** `articles/2026-06-09-codex-cli-v0139-release-guide-code-mode-web-search-mcp-schema-fidelity-doctor-diagnostics.md`
 - **Published:** 2026-06-09
+
+### ✅ Codex CLI Exit Codes and Error Handling: Building Resilient Shell Scripts and CI Pipelines Around Agent Failures
+- **Source:** No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Codex CLI's own exit code semantics (0/1/2), JSONL error event detection via `--json`, retry-with-backoff patterns for rate limits and transient API errors, pre-flight validation with `codex login status` and `--strict-config`, GitHub Actions structured output pipelines, Stop hook verification gates, or timeout management with `SIGTERM` graceful shutdown
+- **SEO targets:** "codex cli exit codes", "codex exec error handling", "codex cli CI pipeline", "codex cli retry pattern", "codex exec JSONL error events", "codex cli shell script automation", "codex cli GitHub Actions"
+- **File:** `articles/2026-06-12-codex-cli-exit-codes-error-handling-resilient-shell-scripts-ci-pipeline-automation.md`
+- **Published:** 2026-06-12
