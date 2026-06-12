@@ -1,5 +1,29 @@
 # Article Backlog
 
+## Gap Analysis — New Article Ideas (2026-06-12 Rating Run)
+
+The following ideas were identified during the 12 June 2026 article-rater run based on thematic gaps in the library.
+
+1. 📝 **Agent Liability and Insurance: Who Pays When Agent-Generated Code Causes Harm?** — The Agent Ethics article (4.8) maps professional codes but stops short of the commercial liability question. No article covers professional indemnity insurance implications, contractual liability allocation in MSAs, or the emerging "AI errors and omissions" insurance products. Natural extension of #13 (EU AI Act) and the ethics piece.
+   - SEO targets: "ai agent liability insurance", "agent generated code liability", "codex cli professional indemnity", "ai coding agent errors omissions"
+
+2. 📝 **The Agent Memory Audit: A Quarterly Review Checklist for Codex CLI Teams** — Memory Over-Personalisation (4.8) identifies the problem; this article would provide the operational solution. A step-by-step quarterly audit process: export memories, review for staleness, prune per-project leakage, verify consolidation quality, benchmark against memory-free baselines.
+   - SEO targets: "codex cli memory audit", "agent memory review checklist", "codex dreaming memory maintenance", "codex cli memory hygiene"
+
+3. 📝 **Post-Rewrite Verification: Five Layers Beyond "The Tests Pass"** — The Bun Codebase Rewrites article (4.8) demonstrates that test parity is insufficient. A dedicated article mapping five verification layers (type safety, idiomatic analysis, unsafe/FFI audit, performance regression, security scan) with Codex CLI hook and subagent configurations for each.
+   - SEO targets: "agent code rewrite verification", "codex cli migration verification", "beyond test parity agent code", "code translation quality assurance"
+
+4. 📝 **The Non-Developer's First Week with Codex: A Process Owner's Onboarding Guide** — What About the Interface? (draft, 4.8) maps seven tiers but assumes the reader is a developer choosing an interface. The missing companion piece is written for Karen in Finance: what Codex looks like on day one, how to phrase requests, when to trust and when to escalate, how to read agent output without understanding code.
+   - SEO targets: "codex for non developers", "ai agent business user guide", "codex onboarding non technical", "process owner ai agent guide"
+
+5. 📝 **Agent-Generated Code and Open Source Licence Compliance** — The Ethics article's copyright trilemma section identifies latent OSS licence obligations but does not develop them. A full treatment covering ScanCode/FOSSA/Snyk integration via MCP, AGENTS.md licence constraints, and the emerging case law around AI training data provenance.
+   - SEO targets: "ai generated code license compliance", "codex cli open source license", "agent code license scanning", "ai code copyright compliance"
+
+6. 📝 **Codex CLI for Platform Engineering Teams: Golden Paths, Internal Developer Platforms, and Agent-Ready Templates** — No article covers the intersection of platform engineering (Backstage, Port, Humanitec) and Codex CLI. How do platform teams build golden paths that include agent configuration? How do IDPs expose Codex profiles and AGENTS.md templates?
+   - SEO targets: "codex cli platform engineering", "internal developer platform ai agent", "backstage codex cli integration", "golden path agent configuration"
+
+---
+
 ## Claude Fable 5 Competitive Response and Multi-Model Strategy (2026-06-12 Hourly Article Run)
 
 1. ✅ **Claude Fable 5 Enters the Arena: What Anthropic's Benchmark-Topping Model Means for Codex CLI Multi-Model Strategies** — Written 2026-06-12 → `2026-06-12-claude-fable-5-benchmark-leader-codex-cli-multi-model-strategy-competitive-response.md`
