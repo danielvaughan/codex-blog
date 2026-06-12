@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Release Channels and Version Management (2026-06-12 Hourly Article Run)
+
+1. ✅ **Codex CLI Release Channels and Version Management: Alpha Builds, Version Pinning, and Team-Wide Update Strategies** — Written 2026-06-12 → `2026-06-12-codex-cli-release-channels-version-management-alpha-builds-team-pinning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the end-to-end release channel model (stable vs alpha npm tags, standalone installer behaviour, GitHub binary releases), the v0.140 alpha series rapid cadence (14 builds in 3 days), version pinning strategies for teams (package.json lockfile, container-based, MDM-delivered requirements.toml), the check_for_update_on_startup config key, IDE extension pre-release channels, or the practical decision framework for when to run alpha builds vs stable
+   - SEO targets: "codex cli install specific version", "codex cli alpha build", "codex cli version pinning", "codex cli update channel", "codex cli enterprise version management", "codex cli npm install alpha", "codex cli release cadence"
+
+---
+
 ## AI Token Price War and Pre-IPO Price Cuts (2026-06-12 Hourly Article Run)
 
 1. ✅ **The AI Token Price War: OpenAI's Pre-IPO Price Cuts, the SpaceX Nasdaq Debut, and What Codex CLI Developers Should Budget For** — Written 2026-06-12 → `2026-06-12-ai-token-price-war-openai-pre-ipo-cuts-spacex-nasdaq-codex-cli-budget-strategy.md`
