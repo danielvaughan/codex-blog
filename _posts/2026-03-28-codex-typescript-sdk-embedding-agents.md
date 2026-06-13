@@ -2,7 +2,7 @@
 title: "The Codex TypeScript SDK: Embedding Agents in Your Own Tooling"
 description: "The Codex CLI is powerful in interactive mode, but its real leverage comes when you embed it programmatically. The Codex TypeScript SDK (@openai/codex-sdk)."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-13T12:21:54+01:00
+last_modified_at: 2026-06-13T14:26:55+01:00
 tags:
   - ecosystem
   - typescript-sdk

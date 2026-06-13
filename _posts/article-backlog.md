@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Authentication Paths: ChatGPT Login vs API Key (2026-06-13 Hourly Article Run)
+
+1. ✅ **Codex CLI's Two Worlds: How Your Authentication Path Shapes Billing, Rate Limits, and Model Access in June 2026** — Written 2026-06-13 → `2026-06-13-codex-cli-authentication-paths-chatgpt-login-api-key-billing-rate-limits-model-access.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article provided a unified guide to the two authentication paths (ChatGPT sign-in vs API key), the local Responses API proxy architecture for ChatGPT sessions, the model picker differences after GPT-5.2 removal (12 June), credit-based subscription billing vs pay-per-token API billing with current June 2026 rates, rate-limit rolling windows vs RPM/TPM, the silent model downgrade susceptibility difference, enterprise access tokens as a third path (v0.138), or the hybrid profile strategy for running both paths simultaneously
+   - SEO targets: "codex cli authentication", "codex cli api key vs chatgpt login", "codex cli billing comparison", "codex cli rate limits", "codex cli enterprise access token", "codex cli subscription vs api key", "codex cli authentication path"
+
+---
+
 ## Silent Model Downgrade and GPT-5.5 Quality Regression Defence (2026-06-13 Hourly Article Run)
 
 1. ✅ **The Silent Model Downgrade Problem: Detecting and Defending Against GPT-5.5 Quality Regression in Codex CLI Workflows** — Written 2026-06-13 → `2026-06-13-silent-model-downgrade-detecting-defending-gpt55-quality-regression-codex-cli.md`
