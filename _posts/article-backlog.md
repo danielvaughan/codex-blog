@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Anthropic Overtakes OpenAI in Business Adoption — Platform Hedging (2026-06-13 Hourly Article Run)
+
+1. ✅ **Anthropic Overtakes OpenAI in Business Adoption: What the Ramp AI Index Means for Codex CLI Platform Strategy** — Written 2026-06-13 → `2026-06-13-anthropic-overtakes-openai-business-adoption-codex-cli-vendor-diversification-platform-hedging.md`
+   - Source: No backlog items with 📝 status remained; topic selected from breaking news — Ramp AI Index (May 2026) shows Anthropic at 34.4% business adoption vs OpenAI at 32.3%, the first time Anthropic has led; Claude Code at 4% of GitHub commits ($2.5B run rate); no existing article covered the Ramp crossover, the IDC vs Ramp adoption gap (19% extensive use vs 34.4% breadth), the four-layer dependency analysis for Codex CLI (model, auth, config, MCP), the five-point platform hedging checklist, or the Bedrock multi-cloud factor post-Azure-exclusivity-drop
+   - SEO targets: "codex cli vendor lock-in", "anthropic overtakes openai", "codex cli multi-provider", "codex cli platform strategy", "ramp ai index 2026", "codex cli vendor diversification", "codex cli bedrock alternative"
+
+---
+
 ## Makefile-Driven Codex CLI Workflows (2026-06-13 Hourly Article Run)
 
 1. ✅ **Makefile-Driven Codex CLI: Wrapping Agent Tasks in Reproducible Build Targets** — Written 2026-06-13 → `2026-06-13-codex-cli-makefile-task-runner-reproducible-agent-workflows-developer-productivity.md`
