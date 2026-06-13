@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ChatGPT Advertising and Codex CLI Developer Trust (2026-06-13 Hourly Article Run)
+
+1. ✅ **ChatGPT Advertising Arrives: What Sponsored Recommendations Mean for Codex CLI Developer Trust and Ad-Free Agent Workflows** — Written 2026-06-13 → `2026-06-13-chatgpt-advertising-codex-cli-developer-trust-ad-free-agent-workflows-privacy-policy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the ChatGPT advertising rollout (February 2026 Sponsored Recommendations launch), the April 2026 privacy policy update formalising ad data collection, the LiveRamp conversion-measurement partnership (June 2026), the authentication-path implications for Codex CLI (Free/Go ad exposure vs Plus/Pro/Enterprise exemption vs API key structural separation), the data co-mingling risk from unified account profiles spanning ChatGPT browsing and CLI sessions, profile-based tier separation patterns, or the regulatory context from the 42-state attorneys general investigation
+   - SEO targets: "codex cli advertising", "chatgpt ads developer impact", "codex cli ad-free workflow", "codex cli api key vs chatgpt login ads", "openai privacy policy developers", "codex cli data privacy", "chatgpt sponsored recommendations codex"
+
+---
+
 ## GraphQL Development with Apollo MCP Server (2026-06-13 Hourly Article Run)
 
 1. ✅ **Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Agent-Ready API Design** — Written 2026-06-13 → `2026-06-13-codex-cli-graphql-development-apollo-mcp-server-schema-first-agent-workflows.md`
