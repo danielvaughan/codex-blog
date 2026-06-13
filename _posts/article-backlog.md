@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The 400K LOC Threshold and CodeScaleBench Failure Patterns (2026-06-14 Hourly Article Run)
+
+1. ✅ **The 400K LOC Threshold: What 1,281 Agent Runs Reveal About Codex CLI Performance in Large Codebases** — Written 2026-06-14 → `2026-06-14-400k-loc-threshold-codescalebench-agent-failure-patterns-codex-cli-large-codebase-context-infrastructure.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered Sourcegraph's CodeScaleBench study (1,281 agent runs across 40+ enterprise repositories), the five failure patterns (400K LOC threshold, retrieval precision vs volume, half-finished refactoring, tool thrashing with 96-vs-5 tool call data, and the more-tools paradox), the practical Codex CLI configuration recipes for each pattern (AGENTS.md file maps, Sourcegraph MCP server, Stop hook cross-repo verification, proactive compaction, curated MCP stacks), or the economics argument that context infrastructure investment outperforms model upgrades
+   - SEO targets: "codex cli large codebase", "CodeScaleBench coding agent", "codex cli 400k lines of code", "codex cli tool thrashing", "codex cli context infrastructure", "codex cli Sourcegraph MCP", "codex cli enterprise performance"
+
+---
+
 ## ChatGPT Advertising and Codex CLI Developer Trust (2026-06-13 Hourly Article Run)
 
 1. ✅ **ChatGPT Advertising Arrives: What Sponsored Recommendations Mean for Codex CLI Developer Trust and Ad-Free Agent Workflows** — Written 2026-06-13 → `2026-06-13-chatgpt-advertising-codex-cli-developer-trust-ad-free-agent-workflows-privacy-policy.md`
