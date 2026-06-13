@@ -56,7 +56,7 @@ ScanCode is the open-source heavyweight — it detects licences, copyrights, and
 pip install scancode-toolkit
 
 # Scan a directory for licences
-scancode --licence --copyright --json-pp scan-results.json ./src/
+scancode --license --copyright --json-pp scan-results.json ./src/
 ```
 
 ScanCode's strength is snippet-level detection: it can identify a 15-line function that matches a GPL-licensed original, even when variable names have been changed. This is precisely the failure mode that AI-generated code creates.
@@ -125,7 +125,7 @@ Codex CLI's hook system allows you to run arbitrary commands after tool invocati
 [[hooks]]
 event = "PostToolUse"
 tool = "write_file"
-command = "scancode --licence --only-findings --json /tmp/licence-check.json ${FILE_PATH} && python3 /opt/scripts/check-copyleft.py /tmp/licence-check.json"
+command = "scancode --license --only-findings --json /tmp/licence-check.json ${FILE_PATH} && python3 /opt/scripts/check-copyleft.py /tmp/licence-check.json"
 blocking = true
 ```
 
@@ -140,7 +140,7 @@ sequenceDiagram
 
     Codex->>Codex: write_file(src/utils.ts)
     Codex->>Hook: PostToolUse fires
-    Hook->>SC: scancode --licence src/utils.ts
+    Hook->>SC: scancode --license src/utils.ts
     SC-->>Script: JSON findings
     Script-->>Hook: exit 0 (clean) or exit 1 (copyleft found)
     Hook-->>Codex: Allow commit / Block and explain
@@ -177,8 +177,8 @@ For teams using ScanCode without a SaaS dependency:
 ```bash
 # CI script — fail on any copyleft finding in new/modified files
 git diff --name-only origin/main...HEAD | \
-  xargs scancode --licence --only-findings --json-pp /tmp/scan.json && \
-  jq -e '[.files[].licences[] | select(.category == "Copyleft")] | length == 0' /tmp/scan.json
+  xargs scancode --license --only-findings --json-pp /tmp/scan.json && \
+  jq -e '[.files[].licenses[] | select(.category == "Copyleft")] | length == 0' /tmp/scan.json
 ```
 
 ## The Legal Landscape: What You Cannot Ignore
