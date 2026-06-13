@@ -19,7 +19,7 @@ The following ideas were identified during the 12 June 2026 article-rater run ba
 5. ✅ **Agent-Generated Code and Open Source Licence Compliance** — Written 2026-06-13 → `2026-06-13-agent-generated-code-open-source-licence-compliance.md` — The Ethics article's copyright trilemma section identifies latent OSS licence obligations but does not develop them. A full treatment covering ScanCode/FOSSA/Snyk integration via MCP, AGENTS.md licence constraints, and the emerging case law around AI training data provenance.
    - SEO targets: "ai generated code license compliance", "codex cli open source license", "agent code license scanning", "ai code copyright compliance"
 
-6. 📝 **Codex CLI for Platform Engineering Teams: Golden Paths, Internal Developer Platforms, and Agent-Ready Templates** — No article covers the intersection of platform engineering (Backstage, Port, Humanitec) and Codex CLI. How do platform teams build golden paths that include agent configuration? How do IDPs expose Codex profiles and AGENTS.md templates?
+6. ✅ **Codex CLI for Platform Engineering Teams: Golden Paths, Internal Developer Platforms, and Agent-Ready Templates** — Written 2026-06-13 → `2026-06-13-codex-cli-platform-engineering-golden-paths-idp-agent-ready-templates.md` — No article covers the intersection of platform engineering (Backstage, Port, Humanitec) and Codex CLI. How do platform teams build golden paths that include agent configuration? How do IDPs expose Codex profiles and AGENTS.md templates?
    - SEO targets: "codex cli platform engineering", "internal developer platform ai agent", "backstage codex cli integration", "golden path agent configuration"
 
 ---
