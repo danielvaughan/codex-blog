@@ -1,5 +1,13 @@
 # Article Backlog
 
+## 42-State Attorneys General Investigation and Data Governance (2026-06-13 Hourly Article Run)
+
+1. ✅ **The 42-State Attorneys General Investigation into OpenAI: What Codex CLI Teams Should Audit Now** — Written 2026-06-13 → `2026-06-13-openai-state-attorneys-general-investigation-codex-cli-data-governance-compliance-readiness.md`
+   - Source: No backlog items with 📝 status remained; topic selected from breaking news — 42 state attorneys general served OpenAI with a subpoena on 12 June 2026 demanding records on advertising, consumer data, health data, minors, deep-learning models, and internal policies; no existing article covered the regulatory implications for Codex CLI teams, the five-point compliance audit (data flow mapping, retention/ZDR review, telemetry lockdown, memory hygiene, Compliance API integration), or the enterprise configuration hardening checklist for regulated environments
+   - SEO targets: "openai attorneys general investigation", "codex cli data governance", "codex cli compliance audit", "openai data privacy codex", "codex cli enterprise compliance", "openai regulatory investigation developers", "codex cli telemetry privacy"
+
+---
+
 ## Gap Analysis — New Article Ideas (2026-06-12 Rating Run)
 
 The following ideas were identified during the 12 June 2026 article-rater run based on thematic gaps in the library.
