@@ -2,7 +2,7 @@
 title: "Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions"
 description: "Agentic coding sessions accumulate context fast. A non-trivial refactoring task — reading source files, running tests, writing patches, re-reading updated."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-06-13T10:26:48+01:00
+last_modified_at: 2026-06-13T12:21:54+01:00
 tags:
   - architecture
   - context-management

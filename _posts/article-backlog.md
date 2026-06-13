@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Silent Model Downgrade and GPT-5.5 Quality Regression Defence (2026-06-13 Hourly Article Run)
+
+1. ✅ **The Silent Model Downgrade Problem: Detecting and Defending Against GPT-5.5 Quality Regression in Codex CLI Workflows** — Written 2026-06-13 → `2026-06-13-silent-model-downgrade-detecting-defending-gpt55-quality-regression-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from community pain point — OpenAI's documented silent fallback from GPT-5.5 to mini after 160 messages/3 hours affects ChatGPT-authenticated Codex CLI sessions; 1,000+ verified quality complaints on chatgptdisaster.com; no existing article mapped the authentication-path quality implications, the five defence patterns (model pinning, API key for critical workflows, quality gate hooks, OpenTelemetry monitoring, profile-based tier separation), or the cost-quality decision framework for when to use API key vs ChatGPT login
+   - SEO targets: "codex cli model downgrade", "gpt-5.5 silent switch mini", "codex cli quality regression", "codex cli api key vs chatgpt login", "codex cli model pinning", "gpt-5.5 quality degradation defence", "codex cli output quality monitoring"
+
+---
+
 ## Kimi K2.7-Code Open-Weight Coding Model and Multi-Model Routing (2026-06-13 Hourly Article Run)
 
 1. ✅ **Kimi K2.7-Code Arrives: What Moonshot's Open-Weight Coding Model Means for Codex CLI Multi-Model Routing** — Written 2026-06-13 → `2026-06-13-kimi-k27-code-open-weight-coding-model-codex-cli-multi-model-routing-benchmark-reality-check.md`
