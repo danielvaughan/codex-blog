@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Kimi K2.7-Code Open-Weight Coding Model and Multi-Model Routing (2026-06-13 Hourly Article Run)
+
+1. ✅ **Kimi K2.7-Code Arrives: What Moonshot's Open-Weight Coding Model Means for Codex CLI Multi-Model Routing** — Written 2026-06-13 → `2026-06-13-kimi-k27-code-open-weight-coding-model-codex-cli-multi-model-routing-benchmark-reality-check.md`
+   - Source: No backlog items with 📝 status remained; topic selected from breaking news — Moonshot AI open-sourced Kimi K2.7-Code on 12 June 2026, a 1T-parameter MoE coding model scoring 81.1% on MCPMark Verified (beating Claude Opus 4.8's 76.4%), available via OpenRouter at $0.95/$4.00 per 1M tokens; no existing article covered K2.7-Code's architecture, the benchmark reality gap (all scores proprietary, no SWE-bench Verified), the practical OpenRouter/Moonshot API routing configuration for Codex CLI profiles, the forced-thinking limitation, or the decision framework for when to use open-weight coding models as Codex CLI alternatives
+   - SEO targets: "kimi k2.7 code codex cli", "codex cli open weight model routing", "kimi k2.7 code benchmark review", "codex cli alternative model openrouter", "kimi k2.7 code vs gpt-5.5", "codex cli multi-model profile routing", "kimi k2.7 code mcp tool use"
+
+---
+
 ## 42-State Attorneys General Investigation and Data Governance (2026-06-13 Hourly Article Run)
 
 1. ✅ **The 42-State Attorneys General Investigation into OpenAI: What Codex CLI Teams Should Audit Now** — Written 2026-06-13 → `2026-06-13-openai-state-attorneys-general-investigation-codex-cli-data-governance-compliance-readiness.md`

@@ -2,7 +2,7 @@
 title: "How the Codex CLI Agentic Loop Works in Detail to the Code Level"
 description: "Every time you type a prompt into Codex CLI, a carefully orchestrated machinery of Rust async tasks, streaming API calls, tool dispatchers, and OS-level."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-06-13T08:18:58+01:00
+last_modified_at: 2026-06-13T10:16:20+01:00
 tags:
   - architecture
   - agent-loop
