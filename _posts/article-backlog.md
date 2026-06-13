@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Makefile-Driven Codex CLI Workflows (2026-06-13 Hourly Article Run)
+
+1. ✅ **Makefile-Driven Codex CLI: Wrapping Agent Tasks in Reproducible Build Targets** — Written 2026-06-13 → `2026-06-13-codex-cli-makefile-task-runner-reproducible-agent-workflows-developer-productivity.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered wrapping `codex exec` invocations in Makefile targets, profile-per-target patterns, dependency graphs for composite quality gates (lint-fix → test-gen → review), structured output schema files as build artefacts, Taskfile/Just equivalents, CI integration with `--ephemeral` and `--ignore-user-config`, exit code handling for enforcement vs reporting targets, or the anti-patterns of monolithic targets and hardcoded model flags
+   - SEO targets: "codex cli makefile", "codex exec task runner", "codex cli automation makefile", "codex cli reproducible workflows", "codex cli just taskfile", "codex exec ci build targets", "codex cli developer productivity"
+
+---
+
 ## Authentication Paths: ChatGPT Login vs API Key (2026-06-13 Hourly Article Run)
 
 1. ✅ **Codex CLI's Two Worlds: How Your Authentication Path Shapes Billing, Rate Limits, and Model Access in June 2026** — Written 2026-06-13 → `2026-06-13-codex-cli-authentication-paths-chatgpt-login-api-key-billing-rate-limits-model-access.md`
