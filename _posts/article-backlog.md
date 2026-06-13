@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GraphQL Development with Apollo MCP Server (2026-06-13 Hourly Article Run)
+
+1. ✅ **Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Agent-Ready API Design** — Written 2026-06-13 → `2026-06-13-codex-cli-graphql-development-apollo-mcp-server-schema-first-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Apollo MCP Server integration with Codex CLI (three configuration patterns: pre-defined operations, persisted queries, dynamic introspection), GraphOS MCP Tools for documentation access, mutation security modes (none/explicit/all), demand control with @cost and @listSize directives, schema-first development workflows with codex exec pipelines, Apollo Federation multi-subgraph patterns with --add-dir, the GraphQL AI Working Group's @mock directive proposal, AGENTS.md conventions for GraphQL projects, or the token economics comparison between GraphQL precise fetching and REST fixed response shapes
+   - SEO targets: "codex cli graphql", "apollo mcp server codex", "graphql agent workflow", "codex cli apollo federation", "graphql mcp tools codex", "schema first development codex cli", "graphql api agent security"
+
+---
+
 ## Anthropic Overtakes OpenAI in Business Adoption — Platform Hedging (2026-06-13 Hourly Article Run)
 
 1. ✅ **Anthropic Overtakes OpenAI in Business Adoption: What the Ramp AI Index Means for Codex CLI Platform Strategy** — Written 2026-06-13 → `2026-06-13-anthropic-overtakes-openai-business-adoption-codex-cli-vendor-diversification-platform-hedging.md`
