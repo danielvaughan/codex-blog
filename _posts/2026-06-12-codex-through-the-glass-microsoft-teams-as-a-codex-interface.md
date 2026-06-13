@@ -2,8 +2,8 @@
 title: "Codex Through the Glass: Microsoft Teams as a Codex Interface — The Complete Implementation Guide"
 description: "A comprehensive guide to building a Teams bot that drives Codex app-server sessions, with full code examples, Adaptive Card patterns, approval workflows, and production deployment guidance. Updated with Teams SDK v2, MCP support, and real-world integration patterns."
 date: 2026-06-12T20:00:00+00:00
-last_modified_at: 2026-06-13T20:24:13+01:00
-updated: 2026-06-13T20:30:00+01:00
+last_modified_at: 2026-06-13T20:32:27+01:00
+updated: 2026-06-13T21:15:00+01:00
 series: "Codex Through the Glass"
 series_order: 1
 tags:
@@ -221,7 +221,7 @@ The app-server is the differentiator. Without it, you have a chatbot. With it, y
 | **Azure subscription** | For Azure Bot Service registration (free tier sufficient for development) |
 | **Codex CLI** | v0.139.0+ installed globally: `npm install -g @openai/codex` |
 | **OpenAI account** | API key or ChatGPT auth for the app-server |
-| **Teams Developer CLI** | `npm install -g @microsoft/teams-dev-cli` (preview) |
+| **Teams Developer CLI** | `npm install -g @microsoft/teams.cli` (preview) |
 
 ### Step 1: Register your Teams bot
 
@@ -229,7 +229,7 @@ The Teams Developer CLI automates Azure AD app registration, client secret gener
 
 ```bash
 # Install the CLI
-npm install -g @microsoft/teams-dev-cli
+npm install -g @microsoft/teams.cli
 
 # Register a new bot (creates Azure AD app + bot channel registration)
 teams app create \
@@ -287,7 +287,7 @@ The Teams SDK v2 reduces boilerplate by 70-90% compared to Bot Framework SDK v4.
 ```typescript
 // src/index.ts
 import { App } from '@microsoft/teams.apps';
-import { ExpressAdapter } from '@microsoft/teams.apps/express';
+import { ExpressAdapter } from '@microsoft/teams.apps';
 import express from 'express';
 import dotenv from 'dotenv';
 import { CodexBridge } from './codex-bridge';
@@ -310,7 +310,7 @@ const cards = new CardFactory();
 const store = new ThreadStore();
 
 // Handle incoming messages from Teams users
-app.on('message', async ({ send, activity }) => {
+app.on('message', async ({ reply, activity }) => {
   const conversationId = activity.conversation.id;
   const userText = activity.text?.trim();
   const userName = activity.from.name;
@@ -318,7 +318,7 @@ app.on('message', async ({ send, activity }) => {
   if (!userText) return;
 
   // Send a typing indicator while the agent works
-  await send({ type: 'typing' });
+  await reply({ type: 'typing' });
 
   // Look up or create a Codex thread for this conversation
   let threadId = store.getThread(conversationId);
@@ -336,32 +336,42 @@ app.on('message', async ({ send, activity }) => {
 
     // Format the result as an Adaptive Card
     const card = cards.resultCard(result);
-    await send({ attachments: [card] });
+    await reply({ attachments: [card] });
 
   } catch (error) {
     const errorCard = cards.errorCard(
       'The agent encountered an error. Please try again.',
       error instanceof Error ? error.message : 'Unknown error'
     );
-    await send({ attachments: [errorCard] });
+    await reply({ attachments: [errorCard] });
   }
 });
 
-// Handle Adaptive Card actions (approve/reject buttons)
-app.on('adaptiveCard.action', async ({ send, activity }) => {
+// Handle Adaptive Card actions using verb-specific sub-routes
+// Teams SDK v2 maps 'adaptiveCard/action' invokes to 'card.action' aliases
+// and supports sub-routes per verb: 'card.action.{verb}'
+app.on('card.action.approveAction', async ({ activity }) => {
   const data = activity.value?.action?.data;
-
   if (!data?.approvalId) return;
 
-  if (data.action === 'approve') {
-    await bridge.approveAction(data.approvalId);
-    const card = cards.approvalConfirmationCard(data, 'approved');
-    await send({ attachments: [card] });
-  } else if (data.action === 'reject') {
-    await bridge.rejectAction(data.approvalId);
-    const card = cards.approvalConfirmationCard(data, 'rejected');
-    await send({ attachments: [card] });
-  }
+  await bridge.approveAction(data.approvalId);
+  return {
+    statusCode: 200,
+    type: 'application/vnd.microsoft.adaptive.card',
+    value: cards.approvalConfirmationCard(data, 'approved').content,
+  };
+});
+
+app.on('card.action.rejectAction', async ({ activity }) => {
+  const data = activity.value?.action?.data;
+  if (!data?.approvalId) return;
+
+  await bridge.rejectAction(data.approvalId);
+  return {
+    statusCode: 200,
+    type: 'application/vnd.microsoft.adaptive.card',
+    value: cards.approvalConfirmationCard(data, 'rejected').content,
+  };
 });
 
 // Initialise and start the server
@@ -404,9 +414,9 @@ Working clients exist in Go, Python, TypeScript, Swift, and Kotlin.[^2]
 
 | Transport | Use case | Configuration |
 |-----------|----------|---------------|
-| **stdio** (default) | Local development, single-tenant | `codex app-server --transport stdio` |
-| **WebSocket** | Multi-tenant, remote servers | `codex app-server --transport ws --ws-port 8765` |
-| **Unix socket** | Same-host container communication | WebSocket over Unix socket with HTTP Upgrade |
+| **stdio** (default) | Local development, single-tenant | `codex app-server` (or `--listen stdio://`) |
+| **WebSocket** (experimental) | Multi-tenant, remote servers | `codex app-server --listen ws://127.0.0.1:8765` |
+| **Unix socket** | Same-host container communication | `codex app-server --listen unix:///path/to/socket` |
 
 **Key JSON-RPC methods:**[^2]
 
@@ -481,7 +491,7 @@ export class CodexBridge extends EventEmitter {
 
   async initialize(): Promise<void> {
     // Spawn the Codex app-server as a child process (stdio transport)
-    this.process = spawn('codex', ['app-server', '--transport', 'stdio'], {
+    this.process = spawn('codex', ['app-server'], {
       stdio: ['pipe', 'pipe', 'pipe'],
       env: {
         ...process.env,
@@ -1278,61 +1288,59 @@ Each step uses `Action.Execute` with a `verb` property. The bot's handler return
 When Teams sends an `adaptiveCard/action` invoke for an `Action.Execute` button, your bot must return a specific response format:
 
 ```typescript
-// Handle sequential card navigation
-app.on('adaptiveCard.action', async ({ send, activity }) => {
-  const verb = activity.value?.action?.verb;
+// Handle sequential card navigation with verb-specific sub-routes
+// Each Action.Execute verb gets its own handler — idiomatic Teams SDK v2
+app.on('card.action.approveAction', async ({ activity }) => {
   const data = activity.value?.action?.data;
 
-  switch (verb) {
-    case 'approveAction': {
-      await bridge.approveAction(data.approvalId);
-      store.logApproval(
-        data.approvalId,
-        data.threadId,
-        activity.conversation.id,
-        data.command || '',
-        'approved',
-        activity.from.name
-      );
+  await bridge.approveAction(data.approvalId);
+  store.logApproval(
+    data.approvalId,
+    data.threadId,
+    activity.conversation.id,
+    data.command || '',
+    'approved',
+    activity.from.name
+  );
 
-      // Return a replacement card (Sequential Workflow)
-      return {
-        statusCode: 200,
-        type: 'application/vnd.microsoft.adaptive.card',
-        value: cards.approvalConfirmationCard(data, 'approved').content,
-      };
-    }
+  // Return a replacement card (Sequential Workflow)
+  return {
+    statusCode: 200,
+    type: 'application/vnd.microsoft.adaptive.card',
+    value: cards.approvalConfirmationCard(data, 'approved').content,
+  };
+});
 
-    case 'rejectAction': {
-      await bridge.rejectAction(data.approvalId);
-      store.logApproval(
-        data.approvalId,
-        data.threadId,
-        activity.conversation.id,
-        data.command || '',
-        'rejected',
-        activity.from.name
-      );
+app.on('card.action.rejectAction', async ({ activity }) => {
+  const data = activity.value?.action?.data;
 
-      return {
-        statusCode: 200,
-        type: 'application/vnd.microsoft.adaptive.card',
-        value: cards.approvalConfirmationCard(data, 'rejected').content,
-      };
-    }
+  await bridge.rejectAction(data.approvalId);
+  store.logApproval(
+    data.approvalId,
+    data.threadId,
+    activity.conversation.id,
+    data.command || '',
+    'rejected',
+    activity.from.name
+  );
 
-    case 'reviewIndividual': {
-      // Return the first flagged invoice as a detailed card
-      const firstInvoice = data.invoiceIds?.[0];
-      if (firstInvoice) {
-        return {
-          statusCode: 200,
-          type: 'application/vnd.microsoft.adaptive.card',
-          value: cards.singleInvoiceReviewCard(firstInvoice, data.invoiceIds).content,
-        };
-      }
-      break;
-    }
+  return {
+    statusCode: 200,
+    type: 'application/vnd.microsoft.adaptive.card',
+    value: cards.approvalConfirmationCard(data, 'rejected').content,
+  };
+});
+
+app.on('card.action.reviewIndividual', async ({ activity }) => {
+  const data = activity.value?.action?.data;
+  const firstInvoice = data.invoiceIds?.[0];
+
+  if (firstInvoice) {
+    return {
+      statusCode: 200,
+      type: 'application/vnd.microsoft.adaptive.card',
+      value: cards.singleInvoiceReviewCard(firstInvoice, data.invoiceIds).content,
+    };
   }
 });
 ```
@@ -1442,8 +1450,7 @@ For multi-tenant deployments where multiple Teams conversations need simultaneou
 ```bash
 # Start the Codex app-server with WebSocket transport
 codex app-server \
-  --transport ws \
-  --ws-port 8765 \
+  --listen ws://127.0.0.1:8765 \
   --ws-auth capability-token \
   --ws-token-file /run/secrets/codex-ws-token
 ```
@@ -1599,7 +1606,7 @@ You match incoming supplier invoices against purchase orders.
 
 ### Local development loop
 
-1. Start the Codex app-server: `codex app-server --transport stdio`
+1. Start the Codex app-server: `codex app-server` (stdio is the default)
 2. Start your bot: `npm run dev` (Express on port 3978)
 3. Start a Dev Tunnel: `devtunnel host -p 3978`
 4. Sideload your app manifest into Teams
@@ -1631,7 +1638,7 @@ Use the [Adaptive Cards Designer](https://adaptivecards.microsoft.com/designer.h
 | Component | Effort | Notes |
 |-----------|--------|-------|
 | Teams SDK bot scaffolding | 1 day | Teams Developer CLI + Teams SDK v2. Simpler than Bot Framework v4. |
-| Codex bridge (JSON-RPC client) | 2–3 days | stdio transport for MVP; WebSocket for production. Handle initialise handshake, thread/turn lifecycle, approval protocol. |
+| Codex bridge (JSON-RPC client) | 2–3 days | stdio (default) for MVP; WebSocket (`--listen ws://`) for production. Handle initialise handshake, thread/turn lifecycle, approval protocol. |
 | Adaptive Card templates | 1–2 days | Approval cards, result summaries, invoice tables, error states, sequential workflows. Use Adaptive Cards Designer.[^13] |
 | Thread store + state management | 0.5 days | SQLite schema, conversation reference persistence, approval audit log. |
 | MCP tool servers | Variable | Depends on external systems. 1–3 days per integration (ERP, contracts, etc.) |
