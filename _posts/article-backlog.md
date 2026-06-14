@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Scientific Computing with Codex CLI (2026-06-14 Hourly Article Run)
+
+1. ✅ **Codex CLI for Scientific Computing: From Black Hole Simulations to Reproducible Research Pipelines** — Written 2026-06-14 → `2026-06-14-codex-cli-scientific-computing-research-workflows-simulation-code-reproducible-pipelines.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI published the Chi-kwan Chan black hole simulation case study on 11 June 2026; no existing article covered Codex CLI configuration for scientific computing workflows, AGENTS.md conventions for research codebases (numerical tolerances, reference data protection, mixed-language stacks), reasoning effort profiles for algorithmic vs analysis tasks, ToolUniverse MCP server integration for scientific tools, Jupyter notebook workarounds (percent-format conversion, jupytext, sidebar extension), legacy Fortran modernisation with ExecPlan adapted for scientific code, reproducibility hooks for environment provenance, or the limitations envelope (HPC job management, binary data inspection, GPU profiling, MPI debugging)
+   - SEO targets: "codex cli scientific computing", "codex cli research workflow", "codex cli simulation code", "codex cli AGENTS.md scientific", "codex cli fortran modernisation", "codex cli jupyter notebook", "codex cli reproducible research", "codex cli ToolUniverse MCP"
+
+---
+
 ## Policy-as-Code with Codex CLI (2026-06-14 Hourly Article Run)
 
 1. ✅ **Codex CLI for Policy-as-Code: Agent-Assisted OPA Rego, Kyverno, and Conftest Authoring for Infrastructure Compliance** — Written 2026-06-14 → `2026-06-14-codex-cli-policy-as-code-opa-rego-kyverno-conftest-agent-assisted-compliance-authoring.md`
