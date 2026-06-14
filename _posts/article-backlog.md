@@ -1,5 +1,13 @@
 # Article Backlog
 
+## o3-pro Reasoning Model and Codex CLI Configuration (2026-06-14 Hourly Article Run)
+
+1. ✅ **o3-pro Lands in the API: Configuring Codex CLI for Maximum-Compute Reasoning on the Hardest Problems** — Written 2026-06-14 → `2026-06-14-o3-pro-codex-cli-reasoning-model-hard-problems-configuration-cost-routing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from breaking news — OpenAI released o3-pro to the Responses API on 10 June 2026 alongside an 80% price cut to o3; no existing article covered the o3-pro model specifications (200K context, $20/$80 pricing, no streaming, Responses API only), the three-tier model routing pattern for Codex CLI (GPT-5.5 / o3 / o3-pro), profile-based configuration for reasoning escalation, cost control strategies for high-compute reasoning, the decision framework for when o3-pro's premium is justified, or CI/CD integration patterns for asynchronous architecture review gates
+   - SEO targets: "o3-pro codex cli", "codex cli reasoning model configuration", "o3-pro vs o3 pricing", "codex cli model routing profiles", "o3-pro developer workflow", "codex cli reasoning effort configuration", "o3-pro cost management"
+
+---
+
 ## OpenAI Acquires Ona (Ex-Gitpod) — Persistent Cloud Agents (2026-06-14 Hourly Article Run)
 
 1. ✅ **OpenAI Acquires Ona: What Ex-Gitpod's Persistent Cloud Environments Mean for Codex CLI's Execution Model** — Written 2026-06-14 → `2026-06-14-openai-acquires-ona-gitpod-codex-cli-persistent-cloud-agents-enterprise-execution-environments.md`
