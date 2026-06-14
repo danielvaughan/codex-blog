@@ -6875,3 +6875,9 @@ The following gaps were identified during the article-rater review of all premiu
 - **SEO targets:** "codex cli exit codes", "codex exec error handling", "codex cli CI pipeline", "codex cli retry pattern", "codex exec JSONL error events", "codex cli shell script automation", "codex cli GitHub Actions"
 - **File:** `articles/2026-06-12-codex-cli-exit-codes-error-handling-resilient-shell-scripts-ci-pipeline-automation.md`
 - **Published:** 2026-06-12
+
+### ✅ When Your Codex Agent Says No: Model Refusals, Safety Boundaries, and Practical Workaround Patterns for Codex CLI
+- **Source:** No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the taxonomy of model-level refusals vs harness-level sandbox denials, the five recurring overrefusal patterns (scope escalation, dual-use code, destructive operations, PII generation, context window drift), OpenAI's safe-completions training shift from input-centric to output-centric safety, the FalseReject benchmark (Amazon, 16K prompts, 44 safety categories), Trusted Access for Cyber (TAC) programme and GPT-5.5-Cyber, inline moderation scores in the Responses API, or practical AGENTS.md and config.toml patterns that reduce false-positive refusals without compromising genuine safety controls
+- **SEO targets:** "codex cli model refusals", "codex cli overrefusal workaround", "codex cli safety boundaries", "safe completions GPT-5", "codex cli dual-use code refusal", "AGENTS.md safety context", "trusted access for cyber codex", "codex cli refusal patterns"
+- **File:** `articles/2026-06-14-codex-cli-model-refusals-safety-boundaries-overrefusal-workaround-patterns-safe-completions.md`
+- **Published:** 2026-06-14
