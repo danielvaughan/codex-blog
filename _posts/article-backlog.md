@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Benchmark Convergence and Configuration as Competitive Advantage (2026-06-14 Hourly Article Run)
+
+1. ✅ **Beyond Model Chasing: Why the June 2026 Benchmark Convergence Means Your Codex CLI Configuration Is the Real Competitive Advantage** — Written 2026-06-14 → `2026-06-14-beyond-model-chasing-benchmark-convergence-codex-cli-configuration-competitive-advantage.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the June 2026 benchmark convergence thesis (six models clearing 80% SWE-bench Verified with 0.2-point gaps at the frontier), the harness effect data showing 30-50 percentage point swings from configuration alone on Terminal-Bench 2.0, the CodeScaleBench context infrastructure findings (30% cost reduction and 38% faster execution from MCP server addition without model change), the five configuration levers that outperform model upgrades (AGENTS.md file maps, MCP server curation, named profiles, quality-gate hooks, proactive compaction), or the decision framework for distinguishing model limitations from configuration issues
+   - SEO targets: "codex cli configuration advantage", "coding agent benchmark convergence 2026", "codex cli harness effect", "codex cli configuration vs model", "CodeScaleBench context infrastructure", "codex cli named profiles", "codex cli configuration engineering"
+
+---
+
 ## Inline Moderation Scores and Enterprise Safety Governance (2026-06-14 Hourly Article Run)
 
 1. ✅ **Inline Moderation Scores in the Responses API: Building Safety-Aware Codex CLI Workflows for Enterprise Governance** — Written 2026-06-14 → `2026-06-14-inline-moderation-scores-responses-api-codex-cli-enterprise-safety-governance-hooks.md`
