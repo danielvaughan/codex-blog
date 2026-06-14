@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Legacy Code Modernisation with Codex CLI (2026-06-14 Hourly Article Run)
+
+1. ✅ **Legacy Code Modernisation with Codex CLI: The Strangler Fig Pattern, ExecPlans, and Parity-First Migration Workflows** — Written 2026-06-14 → `2026-06-14-codex-cli-legacy-code-modernisation-strangler-fig-execplan-parity-testing-migration-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the complete legacy code modernisation workflow combining the OpenAI Cookbook's five-phase ExecPlan framework with the strangler fig architectural pattern, characterisation testing as a prerequisite, parity-first validation gates, named profile routing for migration phases (inventory/translate/review), hook-based legacy immutability enforcement, Goal Mode for long-running migration slices, or the practical limitations of agent-assisted modernisation (unstated business knowledge, hidden coupling, load-bearing quirks)
+   - SEO targets: "codex cli legacy modernisation", "codex cli code migration", "codex cli strangler fig pattern", "codex cli ExecPlan", "codex cli parity testing", "codex cli COBOL migration", "legacy code modernisation AI agent"
+
+---
+
 ## Benchmark Convergence and Configuration as Competitive Advantage (2026-06-14 Hourly Article Run)
 
 1. ✅ **Beyond Model Chasing: Why the June 2026 Benchmark Convergence Means Your Codex CLI Configuration Is the Real Competitive Advantage** — Written 2026-06-14 → `2026-06-14-beyond-model-chasing-benchmark-convergence-codex-cli-configuration-competitive-advantage.md`
