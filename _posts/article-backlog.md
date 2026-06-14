@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Inline Moderation Scores and Enterprise Safety Governance (2026-06-14 Hourly Article Run)
+
+1. ✅ **Inline Moderation Scores in the Responses API: Building Safety-Aware Codex CLI Workflows for Enterprise Governance** — Written 2026-06-14 → `2026-06-14-inline-moderation-scores-responses-api-codex-cli-enterprise-safety-governance-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI shipped inline moderation scores in the Responses API on 4 June 2026; no existing article covered the inline moderation parameter mechanics (omni-moderation-latest model, input/output classification, eleven categories), the three Codex CLI hook integration patterns (PostToolUse audit logger, PreToolUse deny gate with score thresholds, API-key wrapper for codex exec pipelines), the enterprise governance architecture connecting hooks to SIEM and Compliance API, requirements.toml policy enforcement for mandating moderation hooks, practical considerations (streaming limitations, refusal false positives, latency impact), or the six-step configuration checklist for teams adopting moderation-aware agent workflows
+   - SEO targets: "codex cli moderation scores", "codex cli enterprise safety governance", "responses api inline moderation", "codex cli hooks moderation", "codex cli compliance audit trail", "codex cli content safety", "codex cli enterprise governance hooks"
+
+---
+
 ## Workspace Agents Credit Pricing — July 6 Budget Preparation (2026-06-14 Hourly Article Run)
 
 1. ✅ **Workspace Agents Credit Pricing Starts July 6: A Codex CLI Practitioner's Budget Preparation Guide** — Written 2026-06-14 → `2026-06-14-workspace-agents-credit-pricing-july-2026-codex-cli-budget-preparation-cost-optimisation.md`
