@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Claude Code GitHub Action RCE Lessons and CI/CD Hardening (2026-06-14 Hourly Article Run)
+
+1. ✅ **Lessons from the Claude Code GitHub Action RCE: Hardening Codex CLI CI/CD Pipelines Against Agent Prompt Injection** — Written 2026-06-14 → `2026-06-14-claude-code-github-action-rce-lessons-codex-cli-ci-cd-pipeline-hardening-prompt-injection-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the Claude Code GitHub Action CVSS 7.8 RCE (checkWritePermissions bypass, OIDC token theft, supply chain pivot via claude-code-action v1.0.94 patch), the "Comment and Control" research showing Claude Code, Gemini CLI Action, and GitHub Copilot Agent all vulnerable to prompt injection via GitHub metadata, the architectural comparison with Codex CLI's codex-action (Responses API proxy credential isolation, drop-sudo default, actor allow-lists without wildcard default), or a comprehensive eight-step CI/CD hardening checklist (SHA pinning, trigger restriction, GITHUB_TOKEN least privilege, read-only sandbox, prompt input sanitisation, agent-last positioning, credential scope separation, exfiltration pattern auditing)
+   - SEO targets: "codex cli github actions security", "codex cli ci/cd hardening", "claude code github action vulnerability", "ai agent prompt injection ci/cd", "codex action security best practices", "coding agent supply chain attack", "codex cli pipeline defence"
+
+---
+
 ## The 400K LOC Threshold and CodeScaleBench Failure Patterns (2026-06-14 Hourly Article Run)
 
 1. ✅ **The 400K LOC Threshold: What 1,281 Agent Runs Reveal About Codex CLI Performance in Large Codebases** — Written 2026-06-14 → `2026-06-14-400k-loc-threshold-codescalebench-agent-failure-patterns-codex-cli-large-codebase-context-infrastructure.md`
