@@ -142,7 +142,7 @@ Override the default models used for memory extraction and consolidation:
 
 ```toml
 [memories]
-extract_model = "gpt-5.3-codex-spark"        # fast extraction
+extract_model = "codex-spark"                # fast extraction
 consolidation_model = "gpt-5.5"              # thorough consolidation
 ```
 

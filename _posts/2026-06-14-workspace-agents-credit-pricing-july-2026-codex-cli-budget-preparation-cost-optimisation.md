@@ -40,7 +40,7 @@ Credits are consumed based on three token categories, with rates varying by mode
 | GPT-5.5 | 125 credits | 12.5 credits | 750 credits |
 | GPT-5.4 | 62.5 credits | 6.25 credits | 375 credits |
 | GPT-5.4 mini | 18.75 credits | 1.875 credits | 113 credits |
-| GPT-5.3-Codex | 43.75 credits | 4.375 credits | 350 credits |
+| Codex-Spark | 3.75 credits | 0.375 credits | 15 credits |
 
 The critical ratio to internalise: **output tokens cost 6× more than input tokens**, and **cached input costs 10× less than fresh input** [^4]. Every cost-optimisation strategy flows from these two facts.
 

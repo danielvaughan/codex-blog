@@ -135,7 +135,7 @@ Wait for all three, then synthesise a unified review.
 
 **Cost-predictable workflows.** The `max_threads` cap and `job_max_runtime_seconds` timeout provide hard ceilings on resource consumption. You know the maximum cost before spawning.
 
-**Heterogeneous model routing.** Each TOML-defined role can specify a different model. Route exploration tasks to `gpt-5.3-codex-spark` and security review to `gpt-5.5` with `model_reasoning_effort = "high"` — all within a single session [^6].
+**Heterogeneous model routing.** Each TOML-defined role can specify a different model. Route exploration tasks to `codex-spark` and security review to `gpt-5.5` with `model_reasoning_effort = "high"` — all within a single session [^6].
 
 **Interactive oversight.** The `/agent` command lets you inspect, stop, or redirect active threads mid-execution. You remain in the loop.
 

@@ -65,12 +65,12 @@ K2.7-Code's cost advantage is genuine, particularly for cache-heavy agentic work
 | Model | Input ($/1M tokens) | Output ($/1M tokens) | Cache Hit ($/1M tokens) |
 |---|---|---|---|
 | Kimi K2.7-Code | $0.95 | $4.00 | $0.19 |
-| GPT-5.3-Codex | ~$3.00 | ~$15.00 | ~$1.50 |
+| GPT-5.5 | $5.00 | $30.00 | $1.25 |
 | Claude Opus 4.8 | $5.00 | $25.00 | $1.25 |
 
 The 30 per cent reduction in thinking tokens compared to K2.6 further compounds savings, since reasoning tokens bill at the output rate of $4.00 per million[^3][^4]. A task that consumed 50K reasoning tokens on K2.6 would consume roughly 35K on K2.7-Code, saving $0.06 per task at scale.
 
-⚠️ GPT-5.3-Codex pricing above is approximate; OpenAI's Codex-lineage API pricing varies by subscription tier and is subject to the credit-based billing system introduced in April 2026.
+⚠️ GPT-5.5 pricing above reflects the standard API rate as of June 2026. Codex CLI users on Pro/Max subscriptions may see different effective rates through the credit-based billing system.
 
 ## Routing Codex CLI Through K2.7-Code
 
@@ -117,7 +117,7 @@ model = "moonshotai/kimi-k2.7-code"
 model_reasoning_effort = "low"
 
 # ~/.codex/profiles/deep.toml — complex refactoring
-model = "gpt-5.3-codex"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 
 # ~/.codex/profiles/review.toml — code review with tool use
@@ -129,7 +129,7 @@ model_reasoning_effort = "medium"
 flowchart TD
     A[Developer Task] --> B{Task Complexity}
     B -->|Lint / format / triage| C[kimi-k27 profile<br/>$0.95/$4.00 per 1M]
-    B -->|Multi-file refactor| D[deep profile<br/>GPT-5.3-Codex]
+    B -->|Multi-file refactor| D[deep profile<br/>GPT-5.5]
     B -->|MCP tool-heavy workflow| E{Independent<br/>benchmarks available?}
     E -->|Yes, validated| F[kimi-k27 profile]
     E -->|No, unvalidated| G[deep profile<br/>until validated]
@@ -161,7 +161,7 @@ Before routing Codex CLI through K2.7-Code for anything beyond experimentation, 
 
 2. **Run your own eval.** Clone a representative repository, define five realistic tasks, and compare K2.7-Code against your current model on completion rate, token cost, and wall-clock time. The VentureBeat reporting confirmed that practitioner results diverged from Moonshot's published gains[^5].
 
-3. **Start with low-stakes profiles.** Use K2.7-Code for linting, formatting, test generation, and code review — tasks where a wrong answer is caught cheaply. Reserve GPT-5.3-Codex or Claude Fable 5 for complex multi-file refactoring until independent validation arrives.
+3. **Start with low-stakes profiles.** Use K2.7-Code for linting, formatting, test generation, and code review — tasks where a wrong answer is caught cheaply. Reserve GPT-5.5 or Codex-Spark for complex multi-file refactoring until independent validation arrives.
 
 4. **Monitor the prefix-caching trade-off.** Codex CLI's native prefix caching works with OpenAI's API. When routing through OpenRouter or Moonshot's endpoint, verify whether cached-input pricing ($0.19/1M) actually applies to your session pattern or whether cache misses dominate.
 

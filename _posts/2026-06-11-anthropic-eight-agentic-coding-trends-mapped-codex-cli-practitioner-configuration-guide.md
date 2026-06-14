@@ -171,7 +171,7 @@ codex exec "Find every exported function in src/ missing JSDoc. \
 Add comprehensive JSDoc with @param, @returns, and @example tags."
 ```
 
-The economics shift when a task that took a developer two hours now takes fifteen minutes of agent time at a fraction of the token cost. Profile-based model routing amplifies this — use `gpt-5.3-codex-spark` for bulk papercut work and reserve `gpt-5.5` for architectural decisions [^8].
+The economics shift when a task that took a developer two hours now takes fifteen minutes of agent time at a fraction of the token cost. Profile-based model routing amplifies this — use `codex-spark` for bulk papercut work and reserve `gpt-5.5` for architectural decisions [^8].
 
 ## Trend 7: Verification as the Bottleneck
 

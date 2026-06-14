@@ -108,7 +108,7 @@ This "write-only" mode lets the system continue capturing context whilst you aud
 
 ## Step 4: Verify Consolidation Quality
 
-Phase 2 consolidation runs a dedicated sub-agent (using `gpt-5.3-codex` by default) that performs incremental diff labelling: tagging memories as Added, Retained, or Removed [^3]. Verify that this process is functioning correctly.
+Phase 2 consolidation runs a dedicated sub-agent (using `codex-spark` by default) that performs incremental diff labelling: tagging memories as Added, Retained, or Removed [^3]. Verify that this process is functioning correctly.
 
 ```mermaid
 flowchart TD
