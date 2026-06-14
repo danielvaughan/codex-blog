@@ -64,7 +64,7 @@ Researcher Aonan Guan's "Comment and Control" disclosure showed this is not a si
 |-------|--------------|----------------------|
 | Claude Code Security Review | PR title injection | `ANTHROPIC_API_KEY` via bash |
 | Gemini CLI Action | Fake "Trusted Content Section" in PR body | `GEMINI_API_KEY` posted as issue comment |
-| GitHub Copilot Agent (SWE Agent) | Issue comment injection | Repository secrets via env dump |
+| GitHub Copilot Agent (SWE Agent) | PR HTML comment injection | Repository secrets via env dump |
 
 The fundamental pattern is identical across all three: untrusted text reaches the model as authoritative context, and the model has access to privileged environment variables [^2]. The Cloud Security Alliance's research note characterised this as a structural vulnerability where "AI agents operating inside CI/CD workflows combine the attack surface of an untrusted text interpreter with the privilege level of a trusted pipeline actor" [^4].
 
@@ -250,7 +250,7 @@ Three developments will shape this space over the coming months:
 
 [^1]: RyotaK, "Poisoning Claude Code: One GitHub Issue to Break the Supply Chain," GMO Flatt Security Research, 1 June 2026. [https://flatt.tech/research/posts/poisoning-claude-code-one-github-issue-to-break-the-supply-chain/](https://flatt.tech/research/posts/poisoning-claude-code-one-github-issue-to-break-the-supply-chain/)
 
-[^2]: Aonan Guan, "Comment and Control: How One Prompt Injection Hit Claude Code, Gemini CLI, and Copilot Agent," Repello AI, June 2026. [https://repello.ai/blog/comment-and-control-claude-code-gemini-copilot-prompt-injection](https://repello.ai/blog/comment-and-control-claude-code-gemini-copilot-prompt-injection)
+[^2]: Aonan Guan, "Comment and Control: How One Prompt Injection Hit Claude Code, Gemini CLI, and Copilot Agent," Repello AI, May 2026 (research disclosed April 2026). [https://repello.ai/blog/comment-and-control-claude-code-gemini-copilot-prompt-injection](https://repello.ai/blog/comment-and-control-claude-code-gemini-copilot-prompt-injection)
 
 [^3]: "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories," The Hacker News, June 2026. [https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html](https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html)
 
