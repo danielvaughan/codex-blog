@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Guaranteed Capacity and Codex CLI Enterprise Strategy (2026-06-15 Hourly Article Run)
+
+1. ✅ **OpenAI's Guaranteed Capacity: What Reserved Compute Means for Codex CLI Teams Running Agents at Scale** — Written 2026-06-15 → `2026-06-15-openai-guaranteed-capacity-reserved-compute-codex-cli-enterprise-service-tier-throughput-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI launched Guaranteed Capacity on 19 May 2026 offering 1-3 year reserved compute commitments with tiered discounts; no existing article covered the Guaranteed Capacity programme mechanics (draw-down commitment model, portfolio flexibility, first-come-first-served allocation), the relationship to the existing service_tier stack in Codex CLI (flex/standard/priority/reserved), the named-profile routing strategy for mapping workloads to processing tiers, the decision framework for when reserved capacity justifies multi-year lock-in vs priority processing, the token economics of model selection as a reservation burn-rate lever, or the preparation checklist connecting config.toml tuning to capacity efficiency
+   - SEO targets: "openai guaranteed capacity codex", "codex cli service tier", "codex cli reserved compute", "openai guaranteed capacity enterprise", "codex cli throughput strategy", "codex cli priority processing", "openai compute reservation codex cli"
+
+---
+
 ## Agent Billing Convergence (2026-06-14 Hourly Article Run)
 
 1. ✅ **The Agent Billing Convergence: Managing Developer Costs as Copilot, Codex, and Claude Code All Move to Usage-Based Pricing** — Written 2026-06-14 → `2026-06-14-agent-billing-convergence-copilot-codex-claude-code-usage-based-pricing-cost-management.md`

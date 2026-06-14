@@ -2,7 +2,7 @@
 title: "Codex CLI State of Play — May 2026"
 description: "OpenAIs Codex CLI has matured rapidly in 2026. The ecosystem now boasts 280+ community tools across 20 categories, a maturing Python SDK, and enterprise."
 date: 2026-05-22T00:00:00+00:00
-last_modified_at: 2026-06-14T22:18:44+01:00
+last_modified_at: 2026-06-15T00:12:27+01:00
 ---
 
 ![Sketchnote diagram for: Codex CLI State of Play — May 2026](/sketchnotes/articles/2026-05-22-codex-cli-state-of-play.png)
