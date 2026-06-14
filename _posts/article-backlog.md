@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Billing Convergence (2026-06-14 Hourly Article Run)
+
+1. ✅ **The Agent Billing Convergence: Managing Developer Costs as Copilot, Codex, and Claude Code All Move to Usage-Based Pricing** — Written 2026-06-14 → `2026-06-14-agent-billing-convergence-copilot-codex-claude-code-usage-based-pricing-cost-management.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub Copilot transitioned to AI Credit billing on 1 June 2026, Anthropic moves Claude Code to metered credit pools on 15 June 2026, and OpenAI Workspace Agents credit billing activates 6 July 2026; no existing article covered the unified cross-platform billing convergence, per-model token cost comparison across all three platforms, the dual-tool cost trap (Microsoft's $2,000/engineer/month experience), the task-to-agent routing decision framework for cost optimisation, subscription vs API key breakeven arithmetic, the CI/CD API key escape valve pattern, or the June 2026 cost audit checklist
+   - SEO targets: "codex cli cost management", "coding agent billing comparison 2026", "copilot credits vs codex credits", "claude code pricing June 2026", "agent usage based billing", "coding agent cost optimisation", "codex cli named profiles cost routing"
+
+---
+
 ## Scientific Computing with Codex CLI (2026-06-14 Hourly Article Run)
 
 1. ✅ **Codex CLI for Scientific Computing: From Black Hole Simulations to Reproducible Research Pipelines** — Written 2026-06-14 → `2026-06-14-codex-cli-scientific-computing-research-workflows-simulation-code-reproducible-pipelines.md`
