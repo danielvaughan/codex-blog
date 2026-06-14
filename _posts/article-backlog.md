@@ -1,5 +1,13 @@
 # Article Backlog
 
+## OpenAI Acquires Ona (Ex-Gitpod) — Persistent Cloud Agents (2026-06-14 Hourly Article Run)
+
+1. ✅ **OpenAI Acquires Ona: What Ex-Gitpod's Persistent Cloud Environments Mean for Codex CLI's Execution Model** — Written 2026-06-14 → `2026-06-14-openai-acquires-ona-gitpod-codex-cli-persistent-cloud-agents-enterprise-execution-environments.md`
+   - Source: No backlog items with 📝 status remained; topic selected from breaking news — OpenAI announced acquisition of Ona (ex-Gitpod, 79-person Kiel-based startup) on 11 June 2026; no existing article covered the acquisition's impact on Codex CLI's execution model, the three-tier execution architecture (local sandbox, cloud task, persistent environment), Ona's CDE-to-agent-infrastructure pivot (September 2025 rebrand), the competitive response to Anthropic's Claude Cowork persistent execution, customer-cloud VPC deployment for regulated industries, the enterprise guardrails layer (audit trails, RBAC, managed secrets), or the practical preparation steps for persistent agent workflows
+   - SEO targets: "openai ona acquisition codex", "codex cli persistent agents", "gitpod ona openai", "codex cli cloud execution environment", "codex cli enterprise persistent environment", "ona codex long running agents", "codex cli customer cloud deployment"
+
+---
+
 ## Claude Code GitHub Action RCE Lessons and CI/CD Hardening (2026-06-14 Hourly Article Run)
 
 1. ✅ **Lessons from the Claude Code GitHub Action RCE: Hardening Codex CLI CI/CD Pipelines Against Agent Prompt Injection** — Written 2026-06-14 → `2026-06-14-claude-code-github-action-rce-lessons-codex-cli-ci-cd-pipeline-hardening-prompt-injection-defence.md`
