@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Policy-as-Code with Codex CLI (2026-06-14 Hourly Article Run)
+
+1. ✅ **Codex CLI for Policy-as-Code: Agent-Assisted OPA Rego, Kyverno, and Conftest Authoring for Infrastructure Compliance** — Written 2026-06-14 → `2026-06-14-codex-cli-policy-as-code-opa-rego-kyverno-conftest-agent-assisted-compliance-authoring.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the complete workflow for using Codex CLI to author, test, and deploy policy-as-code across OPA/Rego, Kyverno, and Conftest frameworks, the "Rego tax" problem identified by Red Hat (March 2026), PostToolUse hooks for inline policy validation, the policy hallucination defence patterns, model selection for logic-programming tasks, CIS benchmark gap analysis automation, or the OPA vs Kyverno vs Cedar decision framework for infrastructure compliance
+   - SEO targets: "codex cli policy as code", "codex cli OPA Rego", "codex cli Kyverno", "codex cli conftest", "agent assisted policy authoring", "codex cli infrastructure compliance", "codex cli kubernetes policy generation", "rego tax AI automation"
+
+---
+
 ## Legacy Code Modernisation with Codex CLI (2026-06-14 Hourly Article Run)
 
 1. ✅ **Legacy Code Modernisation with Codex CLI: The Strangler Fig Pattern, ExecPlans, and Parity-First Migration Workflows** — Written 2026-06-14 → `2026-06-14-codex-cli-legacy-code-modernisation-strangler-fig-execplan-parity-testing-migration-workflows.md`
