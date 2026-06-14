@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Workspace Agents Credit Pricing — July 6 Budget Preparation (2026-06-14 Hourly Article Run)
+
+1. ✅ **Workspace Agents Credit Pricing Starts July 6: A Codex CLI Practitioner's Budget Preparation Guide** — Written 2026-06-14 → `2026-06-14-workspace-agents-credit-pricing-july-2026-codex-cli-budget-preparation-cost-optimisation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from breaking news — OpenAI's free period for Workspace Agents ends 6 July 2026 with credit-based billing taking effect for Business and Enterprise accounts; no existing article covered the credit rate card arithmetic mapped to CLI config.toml levers (named profiles, service_tier flex/fast, tool_output_token_limit, model_auto_compact_token_limit), the 22-day preparation checklist (measure/optimise/govern phases), the admin governance controls (monthly credit limits, requirements.toml policy deployment, analytics dashboard export), the API-key escape valve pattern for CI/CD, or the hybrid subscription-plus-API-key cost strategy
+   - SEO targets: "codex cli workspace agents pricing", "codex workspace agents credit July 2026", "codex cli cost optimisation profiles", "workspace agents budget preparation", "codex cli credit rate card", "codex cli service tier flex", "codex workspace agents enterprise admin"
+
+---
+
 ## o3-pro Reasoning Model and Codex CLI Configuration (2026-06-14 Hourly Article Run)
 
 1. ✅ **o3-pro Lands in the API: Configuring Codex CLI for Maximum-Compute Reasoning on the Hardest Problems** — Written 2026-06-14 → `2026-06-14-o3-pro-codex-cli-reasoning-model-hard-problems-configuration-cost-routing.md`
