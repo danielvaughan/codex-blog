@@ -1,7 +1,7 @@
 ---
 title: "o3-pro Lands in the API: Configuring Codex CLI for Maximum-Compute Reasoning on the Hardest Problems"
 parent: "Articles"
-nav_order: 1099
+nav_order: 1104
 tags: ["codex-cli", "o3-pro", "reasoning-models", "model-routing", "config.toml", "cost-management", "profiles"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "The 400K LOC Threshold: What 1,281 Agent Runs Reveal About Codex CLI Performance in Large Codebases"
 parent: "Articles"
-nav_order: 1096
+nav_order: 1101
 tags: ["codex-cli", "large-codebase", "CodeScaleBench", "context-engineering", "Sourcegraph", "MCP", "performance", "enterprise"]
 ---
 

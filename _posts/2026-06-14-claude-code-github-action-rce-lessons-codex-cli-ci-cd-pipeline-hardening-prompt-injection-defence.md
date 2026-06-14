@@ -1,7 +1,7 @@
 ---
 title: "Lessons from the Claude Code GitHub Action RCE: Hardening Codex CLI CI/CD Pipelines Against Agent Prompt Injection"
 parent: "Articles"
-nav_order: 1097
+nav_order: 1102
 tags: ["security", "ci-cd", "github-actions", "prompt-injection", "supply-chain", "codex-action", "hardening"]
 ---
 
