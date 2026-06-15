@@ -3,7 +3,7 @@ title: "Codex CLI Configuration Complete Guide: Hierarchy, Profiles, and Trust"
 description: "Codex CLI uses a layered configuration system where settings from multiple sources merge together with clear precedence rules."
 subtitle: "6-layer resolution chain, named profiles, project-scoped trust boundaries, and shell environment policy"
 date: 2026-04-16T08:00:00+00:00
-last_modified_at: 2026-06-15T20:26:36+01:00
+last_modified_at: 2026-06-15T20:51:32+01:00
 tags:
   - codex-cli
   - configuration

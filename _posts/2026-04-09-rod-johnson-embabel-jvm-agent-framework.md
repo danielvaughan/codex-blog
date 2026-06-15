@@ -2,7 +2,7 @@
 title: "Rod Johnson Is Back — and He's Bringing Agent AI to the JVM"
 description: "I spent this evening watching Rod Johnson — the creator of the Spring Framework — demo his new AI agent framework, Embabel."
 date: 2026-04-09T19:30:00+00:00
-last_modified_at: 2026-06-15T20:26:36+01:00
+last_modified_at: 2026-06-15T20:51:32+01:00
 classes: wide
 categories: articles
 toc: true
