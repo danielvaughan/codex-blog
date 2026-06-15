@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5-Codex June 14 Refresh and Model Selection (2026-06-15 Hourly Article Run)
+
+1. ✅ **GPT-5-Codex Refreshed: The June 14 Model Update and the Mid-2026 Model Selection Decision Tree for Codex CLI** — Written 2026-06-15 → `2026-06-15-gpt-5-codex-june-14-refresh-model-selection-decision-tree-cli-configuration-pricing-benchmarks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI published "Introducing upgrades to Codex" on 14 June 2026 refreshing GPT-5-Codex as the default for cloud tasks and code review; no existing article covered the June 14 model snapshot update, the four-model decision tree (gpt-5-codex vs gpt-5.5 vs gpt-5.4 vs gpt-5.4-mini) with June 2026 pricing, the competitive context of Anthropic's 15 June billing split, named profile patterns for routing coding/review/goal/research tasks to appropriate models, or the migration checklist from gpt-5.3-codex ahead of the 30 June API deadline
+   - SEO targets: "gpt-5-codex June 2026", "codex cli model selection", "gpt-5-codex vs gpt-5.5", "codex cli named profiles model routing", "gpt-5-codex pricing", "codex cli model decision tree", "gpt-5-codex refresh configuration"
+
+---
+
 ## CircleCI MCP Server and Plugin Integration (2026-06-15 Hourly Article Run)
 
 1. ✅ **Codex CLI and CircleCI: Wiring the MCP Server and Plugin into Your CI/CD Feedback Loop** — Written 2026-06-15 → `2026-06-15-codex-cli-circleci-mcp-server-plugin-ci-cd-pipeline-debugging-flaky-tests-chunk-agent.md`
