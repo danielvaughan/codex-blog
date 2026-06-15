@@ -49,7 +49,7 @@ The cheapest option. Set `service_tier = "flex"` in your `config.toml` or per-pr
 
 ```toml
 # Profile for non-urgent batch work
-[profile.batch-review]
+[profiles.batch-review]
 model = "gpt-5.5"
 service_tier = "flex"
 ```
@@ -66,7 +66,7 @@ Set `service_tier = "priority"` for significantly lower and more consistent late
 
 ```toml
 # Profile for interactive development
-[profile.interactive]
+[profiles.interactive]
 model = "gpt-5.5"
 service_tier = "priority"
 ```
@@ -97,17 +97,17 @@ Named profiles let you assign different service tiers to different workloads wit
 
 ```toml
 # Default: standard for ad-hoc work
-[profile.default]
+[profiles.default]
 model = "gpt-5.5"
 service_tier = "auto"
 
 # CI pipeline: flex for cost savings
-[profile.ci]
+[profiles.ci]
 model = "gpt-5.4-mini"
 service_tier = "flex"
 
 # Production hotfix: priority for speed
-[profile.hotfix]
+[profiles.hotfix]
 model = "gpt-5.5"
 service_tier = "priority"
 ```
@@ -121,7 +121,7 @@ Guaranteed Capacity commitments are drawn down across the entire portfolio [^3].
 | Model | Input (credits/1M tokens) | Cached Input | Output |
 |-------|---------------------------|-------------|--------|
 | GPT-5.5 | 125 | 12.50 | 750 |
-| GPT-5.4 | 62.50 | 6.250 | 375 |
+| GPT-5.4 | 62.50 | 6.25 | 375 |
 | GPT-5.4 mini | 18.75 | 1.875 | 113 |
 
 A team routing bulk code reviews through GPT-5.4 mini instead of GPT-5.5 stretches the same commitment approximately 6.6x further on output tokens. The `model` key in named profiles becomes a direct lever on reservation burn rate.

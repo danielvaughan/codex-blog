@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI in the Multi-Cloud Era: Configuring Model Providers Across AWS Bedrock, Azure OpenAI, Oracle OCI, and Direct OpenAI"
 parent: "Articles"
-nav_order: 1116
+nav_order: 1117
 tags: ["codex-cli", "multi-cloud", "aws-bedrock", "azure-openai", "oracle-oci", "model-providers", "enterprise", "configuration", "config-toml", "post-exclusivity"]
 ---
 
@@ -202,13 +202,13 @@ model = "gpt-5.5"
 model_provider = "openai"
 
 # AWS Bedrock for cost-controlled batch work
-[profile.bedrock-batch]
+[profiles.bedrock-batch]
 model_provider = "amazon-bedrock"
 model = "openai.gpt-5.5"
 model_reasoning_effort = "medium"
 
 # Azure for regulated workloads
-[profile.azure-regulated]
+[profiles.azure-regulated]
 model_provider = "azure"
 model = "gpt-5-codex"
 
@@ -273,7 +273,7 @@ Most enterprise teams will not pick one path exclusively. The emerging pattern i
 model_provider = "openai"
 
 # CI/CD — Bedrock-billed, no cloud features needed
-[profile.ci]
+[profiles.ci]
 model_provider = "amazon-bedrock"
 model = "openai.gpt-5.4-mini"
 model_reasoning_effort = "low"

@@ -1,7 +1,7 @@
 ---
 title: "Five Production Configuration Patterns for Codex CLI in the Post-Subsidy Era: Billing Resilience, Model Routing, and Automation Hygiene for June 2026"
 parent: "Articles"
-nav_order: 1117
+nav_order: 1118
 tags: ["codex-cli", "configuration", "config.toml", "named-profiles", "cost-optimisation", "production-patterns", "billing", "automation", "resilience", "enterprise"]
 ---
 
