@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CircleCI MCP Server and Plugin Integration (2026-06-15 Hourly Article Run)
+
+1. ✅ **Codex CLI and CircleCI: Wiring the MCP Server and Plugin into Your CI/CD Feedback Loop** — Written 2026-06-15 → `2026-06-15-codex-cli-circleci-mcp-server-plugin-ci-cd-pipeline-debugging-flaky-tests-chunk-agent.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article covered the CircleCI MCP Server integration with Codex CLI (sixteen tools including pipeline status, build failure logs, flaky test detection, resource class optimisation, config validation), the Codex plugin's four bundled skills (circleci-builds, circleci-config, circleci-cli, circleci-chunk), the decision framework for MCP server vs plugin, Chunk autonomous agent delegation for CI maintenance, per-tool approval policies for destructive CI operations, or AGENTS.md patterns for CI/CD context
+   - SEO targets: "codex cli circleci", "circleci mcp server codex", "codex cli ci cd integration", "circleci codex plugin", "codex cli pipeline debugging", "circleci chunk agent codex", "codex cli flaky tests circleci"
+
+---
+
 ## AGENTS.md Beyond /init (2026-06-15 Hourly Article Run)
 
 1. ✅ **AGENTS.md Beyond /init: Writing Project Instructions That Actually Reduce Token Spend** — Written 2026-06-15 → `2026-06-15-agents-md-beyond-init-writing-project-instructions-that-reduce-token-spend-hooks-mcp-skills.md`
