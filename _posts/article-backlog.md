@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Production Configuration Patterns for the Post-Subsidy Era (2026-06-15 Hourly Article Run)
+
+1. ✅ **Five Production Configuration Patterns for Codex CLI in the Post-Subsidy Era: Billing Resilience, Model Routing, and Automation Hygiene for June 2026** — Written 2026-06-15 → `2026-06-15-codex-cli-production-configuration-patterns-june-2026-billing-models-automation-resilience.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article consolidated the five production configuration patterns that emerged from the June 2026 billing convergence (Copilot AI Credits 1 June, Claude Code credit split 15 June, Workspace Agents billing 6 July), the Claude Sonnet 4/Opus 4 retirement (15 June), and the reasoning-tier model picker change (10 June) into a unified practitioner playbook with concrete config.toml syntax for billing-surface splits, reasoning-effort ladders, compaction budgets, MCP server curation gates, and graceful degradation chains
+   - SEO targets: "codex cli production configuration", "codex cli billing resilience", "codex cli named profiles cost", "codex cli config.toml patterns", "codex cli post subsidy era", "codex cli compaction budget", "codex cli MCP curation"
+
+---
+
 ## Multi-Cloud Provider Configuration (2026-06-15 Hourly Article Run)
 
 1. ✅ **Codex CLI in the Multi-Cloud Era: Configuring Model Providers Across AWS Bedrock, Azure OpenAI, Oracle OCI, and Direct OpenAI** — Written 2026-06-15 → `2026-06-15-codex-cli-multi-cloud-provider-configuration-aws-bedrock-azure-oracle-post-exclusivity-enterprise.md`

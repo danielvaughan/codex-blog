@@ -2,7 +2,7 @@
 title: "MCP Maturation in Codex CLI: Resource Reads, OutputSchema, Elicitations, and the Full Tool Surface"
 description: "When Codex CLI first shipped MCP support, it was a tools-only affair — connect a server, call its tools, move on. Resources were ignored or caused outright."
 date: 2026-04-11T17:00:00+00:00
-last_modified_at: 2026-06-15T08:26:33+01:00
+last_modified_at: 2026-06-15T10:29:40+01:00
 tags: ["mcp", "resource-reads", "outputSchema", "elicitations", "structured-output", "v0.119.0", "v0.120.0"]
 ---
 
