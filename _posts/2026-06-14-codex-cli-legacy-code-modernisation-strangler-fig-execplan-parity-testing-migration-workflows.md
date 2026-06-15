@@ -1,7 +1,7 @@
 ---
 title: "Legacy Code Modernisation with Codex CLI: The Strangler Fig Pattern, ExecPlans, and Parity-First Migration Workflows"
 parent: "Articles"
-nav_order: 1107
+nav_order: 1108
 tags: ["codex-cli", "legacy-modernisation", "strangler-fig", "execplan", "parity-testing", "code-migration", "COBOL", "refactoring"]
 ---
 
