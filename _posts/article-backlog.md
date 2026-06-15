@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Reasoning Tiers and Cross-Surface Consistency (2026-06-15 Hourly Article Run)
+
+1. ✅ **Codex CLI Reasoning Tiers: Mapping the June 2026 Model Picker to CLI Profiles for Cross-Surface Consistency** — Written 2026-06-15 → `2026-06-15-codex-cli-reasoning-tiers-model-picker-cli-profiles-cross-surface-consistency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI simplified the ChatGPT model picker on 10 June 2026, replacing model names and thinking-level toggles with six reasoning tiers (Instant/Medium/High/Extra High/Pro Standard/Pro Extended); no existing article covered the mapping between these App tiers and Codex CLI config.toml reasoning_effort values, the named-profile configuration patterns for cross-surface consistency, the token economics of each reasoning tier with GPT-5.5 pricing, the plan_mode_reasoning_effort split pattern, the team standardisation playbook for mixed App/CLI usage, or the limitations of replicating Pro Extended compute budgets through CLI API keys
+   - SEO targets: "codex cli reasoning effort", "chatgpt model picker codex cli", "codex cli named profiles reasoning", "codex cli cross surface consistency", "codex cli reasoning tiers mapping", "gpt-5.5 reasoning effort configuration", "codex cli team standardisation profiles"
+
+---
+
 ## Guaranteed Capacity and Codex CLI Enterprise Strategy (2026-06-15 Hourly Article Run)
 
 1. ✅ **OpenAI's Guaranteed Capacity: What Reserved Compute Means for Codex CLI Teams Running Agents at Scale** — Written 2026-06-15 → `2026-06-15-openai-guaranteed-capacity-reserved-compute-codex-cli-enterprise-service-tier-throughput-strategy.md`
