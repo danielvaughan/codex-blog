@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Multi-Cloud Provider Configuration (2026-06-15 Hourly Article Run)
+
+1. ✅ **Codex CLI in the Multi-Cloud Era: Configuring Model Providers Across AWS Bedrock, Azure OpenAI, Oracle OCI, and Direct OpenAI** — Written 2026-06-15 → `2026-06-15-codex-cli-multi-cloud-provider-configuration-aws-bedrock-azure-oracle-post-exclusivity-enterprise.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — the Oracle Universal Credits announcement on 11 June 2026 completed a four-path multi-cloud procurement landscape for Codex CLI (Direct OpenAI, AWS Bedrock GA 1 June 2026, Azure OpenAI via Microsoft Foundry, Oracle OCI); no existing article consolidated all four provider paths with config.toml snippets, authentication mechanics, feature parity matrix, the named-profile multi-provider routing pattern, or the enterprise decision framework for choosing billing paths after Microsoft exclusivity ended on 27 April 2026
+   - SEO targets: "codex cli multi-cloud", "codex cli amazon bedrock configuration", "codex cli azure openai config", "codex cli oracle oci", "codex cli model provider", "codex cli enterprise multi-cloud", "codex cli post exclusivity provider"
+
+---
+
 ## Configuration Testing and Validation (2026-06-15 Hourly Article Run)
 
 1. ✅ **Testing Your Codex CLI Configuration: Validation Commands, Hook Smoke Tests, and CI Pre-Flight Checks** — Written 2026-06-15 → `2026-06-15-codex-cli-configuration-testing-validation-commands-hook-smoke-tests-ci-preflight-checks.md`
