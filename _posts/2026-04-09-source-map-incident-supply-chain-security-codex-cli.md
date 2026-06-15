@@ -2,7 +2,7 @@
 title: "The Source Map Incident: Lessons in Supply Chain Security for Codex CLI Plugin Authors"
 description: "March 31, 2026 was a brutal day for npm ecosystem trust. Two major incidents — one accidental, one malicious — landed within hours of each other, exposing."
 date: 2026-04-09T11:00:00+00:00
-last_modified_at: 2026-06-15T22:25:04+01:00
+last_modified_at: 2026-06-16T00:13:15+01:00
 tags:
   - supply-chain-security
   - source-map

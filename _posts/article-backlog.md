@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.140.0 Stable Release Guide (2026-06-16 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.140.0 Stable Release Guide: Usage Tracking, Session Deletion, Claude Code Import, and Encrypted Credentials** — Written 2026-06-16 → `2026-06-16-codex-cli-v0140-stable-release-guide-usage-tracking-session-deletion-claude-import-encrypted-credentials.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.140.0 shipped stable on 15 June 2026 with six practitioner-facing features (/usage token tracking views, permanent session deletion via codex delete and /delete, selective /import from Claude Code, encrypted credential storage via OS keyring, Amazon Bedrock managed API key authentication, unified @ mentions picker); existing article covered only the alpha signals from 10 June, not the stable feature set
+   - SEO targets: "codex cli v0.140", "codex cli usage tracking", "codex cli session deletion", "codex cli claude code import", "codex cli encrypted credentials keyring", "codex cli bedrock api key", "codex cli unified mentions"
+
+---
+
 ## Cost-Controlled codex exec Automation (2026-06-15 Hourly Article Run)
 
 1. ✅ **Cost-Controlled codex exec: Five Automation Patterns with Token Budgets, Model Routing, and Billing Guards for June 2026** — Written 2026-06-15 → `2026-06-15-codex-exec-cost-controlled-automation-token-budgets-model-routing-billing-guards-ci-cd.md`

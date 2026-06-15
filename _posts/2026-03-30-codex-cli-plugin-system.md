@@ -2,7 +2,7 @@
 title: "Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors"
 description: "Codex CLI v0.117.0 (released March 26, 2026) elevated plugins to a first-class workflow primitive."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-06-15T22:25:04+01:00
+last_modified_at: 2026-06-16T00:13:15+01:00
 tags:
   - ecosystem
   - plugins
