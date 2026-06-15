@@ -38,7 +38,7 @@ Key constraints to be aware of:
 
 ## When o3-pro Earns Its Premium
 
-At $20 / $80 per million tokens (input / output), o3-pro costs 10× more than the post-reduction o3 ($2 / $8) and roughly 13× more than GPT-5.5 on output [^2] [^6]. That premium is justified in a narrow but important set of scenarios:
+At $20 / $80 per million tokens (input / output), o3-pro costs 10× more than the post-reduction o3 ($2 / $8) and roughly 2.7× more than GPT-5.5 on output [^2] [^6]. That premium is justified in a narrow but important set of scenarios:
 
 1. **Logic bugs that defy reproduction** — the kind where you've stared at a stack trace for an hour and the answer requires correlating state across multiple modules. o3-pro's extended reasoning chain catches subtle interactions that shorter chains miss.
 
@@ -144,7 +144,7 @@ Rather than using o3-pro for everything, configure three profiles that route wor
 ```mermaid
 flowchart LR
     A[Developer Task] --> B{Complexity?}
-    B -->|Routine| C["GPT-5.5<br/>$1.50/$6.00 per 1M"]
+    B -->|Routine| C["GPT-5.5<br/>$5.00/$30.00 per 1M"]
     B -->|Reasoning needed| D["o3<br/>$2/$8 per 1M"]
     B -->|Hardest 5%| E["o3-pro<br/>$20/$80 per 1M"]
     C --> F[Fast response<br/>seconds]
