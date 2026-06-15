@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AGENTS.md Beyond /init (2026-06-15 Hourly Article Run)
+
+1. ✅ **AGENTS.md Beyond /init: Writing Project Instructions That Actually Reduce Token Spend** — Written 2026-06-15 → `2026-06-15-agents-md-beyond-init-writing-project-instructions-that-reduce-token-spend-hooks-mcp-skills.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing AGENTS.md articles (April 2026) predate the /init command's June 11 promotion, the Princeton arXiv:2601.20404 study showing 28.6% runtime reduction, the morphllm analysis of 60,000+ repos showing auto-generated files increase costs by 23%, and the six sections the /init scaffold misses (hook policies, MCP server context, skill routing, goal mode boundaries, named profile context, security zones) given the June 2026 feature set
+   - SEO targets: "codex cli agents.md best practices", "codex cli /init command", "agents.md token optimisation", "agents.md vs claude.md", "codex cli project instructions", "agents.md hooks mcp skills", "codex cli agents.md 2026"
+
+---
+
 ## Production Configuration Patterns for the Post-Subsidy Era (2026-06-15 Hourly Article Run)
 
 1. ✅ **Five Production Configuration Patterns for Codex CLI in the Post-Subsidy Era: Billing Resilience, Model Routing, and Automation Hygiene for June 2026** — Written 2026-06-15 → `2026-06-15-codex-cli-production-configuration-patterns-june-2026-billing-models-automation-resilience.md`
