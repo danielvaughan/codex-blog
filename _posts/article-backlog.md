@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Cost-Controlled codex exec Automation (2026-06-15 Hourly Article Run)
+
+1. ✅ **Cost-Controlled codex exec: Five Automation Patterns with Token Budgets, Model Routing, and Billing Guards for June 2026** — Written 2026-06-15 → `2026-06-15-codex-exec-cost-controlled-automation-token-budgets-model-routing-billing-guards-ci-cd.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — all three major coding agent platforms converged on usage-based billing within six weeks (Copilot 1 June, Claude Code 15 June, Workspace Agents 6 July); no existing article consolidated the five practical `codex exec` cost-control patterns (ephemeral lint pass, model-tiered review pipeline, output-schema budget enforcer, JSONL token audit trail, reasoning-effort ladder) into a unified non-interactive automation playbook with working config.toml profiles, shell invocations, cost calculations, and a complete GitHub Actions workflow
+   - SEO targets: "codex exec cost control", "codex cli automation token budget", "codex exec named profiles", "codex cli ci cd cost", "codex exec output-schema", "codex cli reasoning effort cost", "codex exec billing guards"
+
+---
+
 ## OpenAI Partner Network and Codex Specialisation (2026-06-15 Hourly Article Run)
 
 1. ✅ **The OpenAI Partner Network and the Codex Specialisation: What Managed Enterprise Deployments Mean for CLI Developers** — Written 2026-06-15 → `2026-06-15-openai-partner-network-codex-specialisation-enterprise-managed-deployment-cli-configuration.md`
