@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.3-Codex Countdown Migration (2026-06-15 Hourly Article Run)
+
+1. ✅ **The GPT-5.3-Codex Countdown: Migrating Your Codex CLI Configuration Before the June 30 API Deadline** — Written 2026-06-15 → `2026-06-15-gpt-5-3-codex-countdown-migration-codex-cli-configuration-june-30-api-deadline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GPT-5.2 was pulled from ChatGPT on 12 June 2026 without advance notice despite Aug 10 deprecation docs, GPT-5.3-Codex API deadline is 30 June 2026; no existing article covered the accelerated removal timeline, the 7.5x output cost increase from GPT-5.3-Codex to GPT-5.5, the fifteen-day migration checklist for config.toml/profiles/CI pipelines, the GPT-5.4 middle-path cost strategy, or the specific failure modes (HTTP 404) for unmigrated configurations after the deadline
+   - SEO targets: "gpt-5.3-codex sunset", "codex cli model migration June 2026", "gpt-5.2 deprecated codex cli", "codex cli gpt-5.5 migration", "codex cli config.toml model update", "gpt-5.3-codex replacement", "codex cli June 30 deadline"
+
+---
+
 ## Reasoning Tiers and Cross-Surface Consistency (2026-06-15 Hourly Article Run)
 
 1. ✅ **Codex CLI Reasoning Tiers: Mapping the June 2026 Model Picker to CLI Profiles for Cross-Surface Consistency** — Written 2026-06-15 → `2026-06-15-codex-cli-reasoning-tiers-model-picker-cli-profiles-cross-surface-consistency.md`
