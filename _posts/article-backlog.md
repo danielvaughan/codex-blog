@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Configuration Testing and Validation (2026-06-15 Hourly Article Run)
+
+1. ✅ **Testing Your Codex CLI Configuration: Validation Commands, Hook Smoke Tests, and CI Pre-Flight Checks** — Written 2026-06-15 → `2026-06-15-codex-cli-configuration-testing-validation-commands-hook-smoke-tests-ci-preflight-checks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — no existing article consolidated the five built-in configuration validation mechanisms (--strict-config schema validation, codex doctor diagnostics, codex execpolicy check dry-runs, codex sandbox permission verification, hook smoke testing via codex exec) into a unified testing practice, despite 1115 existing articles covering individual configuration topics; the gap is particularly relevant as teams scale from individual CLI usage to managed enterprise deployments where untested configuration becomes an operational liability
+   - SEO targets: "codex cli configuration testing", "codex cli strict-config", "codex doctor ci", "codex execpolicy check", "codex cli pre-flight checks", "codex cli hooks testing", "codex cli configuration validation ci"
+
+---
+
 ## GPT-5.3-Codex Countdown Migration (2026-06-15 Hourly Article Run)
 
 1. ✅ **The GPT-5.3-Codex Countdown: Migrating Your Codex CLI Configuration Before the June 30 API Deadline** — Written 2026-06-15 → `2026-06-15-gpt-5-3-codex-countdown-migration-codex-cli-configuration-june-30-api-deadline.md`
