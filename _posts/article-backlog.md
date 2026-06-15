@@ -1,5 +1,13 @@
 # Article Backlog
 
+## OpenAI Partner Network and Codex Specialisation (2026-06-15 Hourly Article Run)
+
+1. ✅ **The OpenAI Partner Network and the Codex Specialisation: What Managed Enterprise Deployments Mean for CLI Developers** — Written 2026-06-15 → `2026-06-15-openai-partner-network-codex-specialisation-enterprise-managed-deployment-cli-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI launched the Partner Network on 15 June 2026 with $150M investment, 300K certified consultant target, and a Codex specialisation track; no existing article covered the Partner Network announcement, the three-tier partner structure (Select/Advanced/Elite), the Forward Deployed Experts pilot, the Codex specialisation certification, the managed configuration architecture (requirements.toml, MDM integration, cloud-managed policies) from the CLI developer's perspective, or practical guidance for developers operating within partner-managed enterprise constraints
+   - SEO targets: "openai partner network codex", "codex cli enterprise managed configuration", "codex requirements.toml", "codex cli enterprise deployment", "openai partner network specialisation", "codex managed hooks enterprise", "codex cli MDM configuration"
+
+---
+
 ## GPT-5-Codex June 14 Refresh and Model Selection (2026-06-15 Hourly Article Run)
 
 1. ✅ **GPT-5-Codex Refreshed: The June 14 Model Update and the Mid-2026 Model Selection Decision Tree for Codex CLI** — Written 2026-06-15 → `2026-06-15-gpt-5-codex-june-14-refresh-model-selection-decision-tree-cli-configuration-pricing-benchmarks.md`
