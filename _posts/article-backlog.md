@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Twelve-Factor Agent Mapped to Codex CLI (2026-06-16 Hourly Article Run)
+
+1. ✅ **The Twelve-Factor Agent Mapped to Codex CLI: Production Principles and Configuration Patterns for June 2026** — Written 2026-06-16 → `2026-06-16-twelve-factor-agent-mapped-codex-cli-production-principles-configuration-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — the Twelve-Factor Agent methodology (Dex Horthy, AI Engineer World's Fair 2025) has become a widely cited production framework for LLM-powered systems; no existing article mapped its twelve vendor-neutral principles to concrete Codex CLI configuration patterns (config.toml, AGENTS.md, hooks, profiles, subagents, codex exec pipelines), despite 1129 existing articles covering individual features referenced by the factors
+   - SEO targets: "twelve factor agent codex cli", "codex cli production principles", "12 factor agent configuration", "codex cli best practices production", "codex cli architecture patterns", "codex exec structured output", "codex cli approval policies production"
+
+---
+
 ## Slopsquatting Supply Chain Defence (2026-06-16 Hourly Article Run)
 
 1. ✅ **Slopsquatting: How Hallucinated Packages Become Supply Chain Weapons and Five Codex CLI Defences That Stop Them** — Written 2026-06-16 → `2026-06-16-slopsquatting-hallucinated-packages-codex-cli-supply-chain-defence-pretooluse-hooks-lockfile-discipline.md`
