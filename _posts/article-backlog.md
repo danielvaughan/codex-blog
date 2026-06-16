@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Slopsquatting Supply Chain Defence (2026-06-16 Hourly Article Run)
+
+1. ✅ **Slopsquatting: How Hallucinated Packages Become Supply Chain Weapons and Five Codex CLI Defences That Stop Them** — Written 2026-06-16 → `2026-06-16-slopsquatting-hallucinated-packages-codex-cli-supply-chain-defence-pretooluse-hooks-lockfile-discipline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — May 2026 arXiv:2605.17062 study tested five frontier models and found 4.62–6.10% hallucination rates with 127 model-agnostic phantom package names (53 still registrable); CSA published slopsquatting research note in April 2026; Aikido documented real-world incidents (huggingface-cli 30K downloads, react-codeshift 237 repos); no existing article covered the slopsquatting kill chain mapped to Codex CLI's autonomous install surface, the five-layer defence stack (PreToolUse registry gate, execution policy lockfile-only rules, AGENTS.md dependency policy, PostToolUse lockfile auditor, sandbox network isolation), or the cross-registry confusion vector
+   - SEO targets: "slopsquatting codex cli", "codex cli package hallucination defence", "codex cli supply chain security", "PreToolUse hook package install", "codex cli lockfile discipline", "AI hallucinated packages defence", "codex cli dependency security"
+
+---
+
 ## Agentjacking MCP Injection Defence (2026-06-16 Hourly Article Run)
 
 1. ✅ **Agentjacking: How Fake Sentry Errors Hijack Coding Agents and Five Codex CLI Defences That Actually Work** — Written 2026-06-16 → `2026-06-16-agentjacking-sentry-mcp-injection-codex-cli-defence-hooks-sandbox-data-provenance.md`

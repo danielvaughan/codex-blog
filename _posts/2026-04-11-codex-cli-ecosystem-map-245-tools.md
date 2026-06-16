@@ -2,7 +2,7 @@
 title: "The Codex CLI Ecosystem Map: Navigating 245+ Community Tools, Skills and Subagents"
 description: "Twelve months ago, Codex CLI was a single binary with a handful of configuration options. Today, a curated list on the official OpenAI Codex GitHub."
 date: 2026-04-11T17:00:00+00:00
-last_modified_at: 2026-06-16T04:15:44+01:00
+last_modified_at: 2026-06-16T06:21:42+01:00
 tags: ["ecosystem", "community", "skills", "subagents", "plugins", "mcp", "awesome-list", "cross-platform", "tooling", "agent-skills"]
 ---
 
