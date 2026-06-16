@@ -2,7 +2,7 @@
 title: "Codex CLI 0.130.0 and Chrome Extension Launch"
 description: "Captured: 2026-05-14 Sources:"
 date: 2026-05-14T00:00:00+00:00
-last_modified_at: 2026-06-16T00:13:15+01:00
+last_modified_at: 2026-06-16T02:24:12+01:00
 ---
 
 ![Sketchnote diagram for: Codex CLI 0.130.0 and Chrome Extension Launch](/sketchnotes/articles/2026-05-14-codex-cli-0130-and-chrome-extension.png)

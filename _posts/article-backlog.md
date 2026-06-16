@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Fable 5 Export Control and Provider Resilience (2026-06-16 Hourly Article Run)
+
+1. ✅ **The Fable 5 Export Control: What the 72-Hour Model Recall Teaches Codex CLI Teams About Provider Risk and Configuration Resilience** — Written 2026-06-16 → `2026-06-16-fable-5-export-control-shutdown-codex-cli-provider-diversification-regulatory-risk-configuration-resilience.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Anthropic's Fable 5 and Mythos 5 models were recalled by US export control directive on 12 June 2026 after a 72-hour lifespan, marking the first regulatory removal of a commercially deployed AI model; existing June 12 article covered Fable 5 as a benchmark competitor but predated the shutdown; no article covered the export control incident, the developer fallout, the configuration resilience patterns for surviving provider-level regulatory disruption, or the practical Codex CLI multi-provider degradation chain that insulates teams from model recall events
+   - SEO targets: "fable 5 export control", "codex cli provider diversification", "codex cli multi-provider resilience", "fable 5 shutdown developers", "codex cli graceful degradation", "codex cli regulatory risk", "AI model recall developer impact"
+
+---
+
 ## Codex CLI v0.140.0 Stable Release Guide (2026-06-16 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.140.0 Stable Release Guide: Usage Tracking, Session Deletion, Claude Code Import, and Encrypted Credentials** — Written 2026-06-16 → `2026-06-16-codex-cli-v0140-stable-release-guide-usage-tracking-session-deletion-claude-import-encrypted-credentials.md`
