@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agentic Engineering and Intent Architect Paradigm Shift (2026-06-16 Hourly Article Run)
+
+1. ✅ **Agentic Engineering and the Intent Architect: What the Paradigm Shift from Code Author to Outcome Auditor Means for Codex CLI Configuration** — Written 2026-06-16 → `2026-06-16-agentic-engineering-intent-architect-codex-cli-agents-md-hooks-paradigm-shift.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — arXiv:2606.05608 (Cao, 10 June 2026) formally introduces "Agentic Engineering" as a discipline with a four-stage evolution roadmap; LangChain's April 2026 definition formalises multi-agent coordination as digital team members; EvoClaw benchmark (arXiv:2603.13428) exposes 54-point performance cliff between isolated and continuous agent tasks; Squer created dedicated "Intent Engineer" role; no existing article mapped these convergent developments to Codex CLI's AGENTS.md as intent specification, hooks as guardrails, named profiles as intent tiers, or session lifecycle as context management infrastructure for the agentic engineering paradigm
+   - SEO targets: "agentic engineering codex cli", "intent architect coding agent", "AGENTS.md intent specification", "codex cli paradigm shift", "EvoClaw continuous evolution codex", "intent engineering framework codex", "code author to intent architect"
+
+---
+
 ## TEBench Test Evolution Benchmark and Codex CLI Test Maintenance (2026-06-16 Hourly Article Run)
 
 1. ✅ **TEBench and the Test-Stale Blind Spot: What the First Test Evolution Benchmark Means for Codex CLI Test Maintenance** — Written 2026-06-16 → `2026-06-16-tebench-test-evolution-benchmark-codex-cli-stale-test-detection-agents-md-hooks-coverage.md`
