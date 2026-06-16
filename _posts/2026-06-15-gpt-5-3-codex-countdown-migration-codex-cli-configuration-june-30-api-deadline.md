@@ -64,14 +64,14 @@ The migration is not cost-neutral. GPT-5.3-Codex was remarkably cheap for its ca
 
 | Metric | GPT-5.3-Codex | GPT-5.5 | GPT-5.4 |
 |---|---|---|---|
-| Input (per 1M tokens) | $0.75 | $5.00 | $2.50 |
-| Cached input (per 1M tokens) | — | $0.50 | $0.25 |
-| Output (per 1M tokens) | $4.00 | $30.00 | $15.00 |
-| Context window | 200K | 1M | 200K |
+| Input (per 1M tokens) | $1.75 | $5.00 | $2.50 |
+| Cached input (per 1M tokens) | $0.175 | $0.50 | $0.25 |
+| Output (per 1M tokens) | $14.00 | $30.00 | $15.00 |
+| Context window | 400K | 1M | 200K |
 
-GPT-5.5 output tokens cost 7.5x more than GPT-5.3-Codex [^5] [^6]. Even accounting for GPT-5.5's reported efficiency gains — fewer tokens to produce equivalent results [^3] — the cost increase is substantial. For teams running heavy `codex exec` pipelines, the monthly bill will rise unless mitigated.
+GPT-5.5 output tokens cost approximately 2.1x more than GPT-5.3-Codex [^5] [^6]. Even accounting for GPT-5.5's reported efficiency gains — fewer tokens to produce equivalent results [^3] — the cost increase is notable. For teams running heavy `codex exec` pipelines, the monthly bill will rise unless mitigated.
 
-GPT-5.4 sits in the middle at $2.50/$15.00 and remains a strong choice for coding-focused workloads where the million-token context window is unnecessary [^6].
+GPT-5.4 sits in the middle at $2.50/$15.00 — only marginally more expensive than GPT-5.3-Codex — and remains a strong choice for coding-focused workloads where the million-token context window is unnecessary [^6].
 
 ## The Fifteen-Day Migration Checklist
 

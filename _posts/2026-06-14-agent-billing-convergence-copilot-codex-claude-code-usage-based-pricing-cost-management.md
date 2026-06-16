@@ -33,7 +33,7 @@ gantt
 
 ### GitHub Copilot (1 June 2026)
 
-All Copilot plans now include a monthly AI Credit allotment, where 1 credit equals $0.01 USD [^1]. Pro subscribers receive 1,000 credits ($10 effective), Pro+ gets 3,900 ($39), Business 1,900 per seat ($19), and Enterprise 3,900 per seat ($39) [^4]. Code completions and Next Edit Suggestions remain free; chat and agent interactions consume credits at per-model token rates [^1].
+All Copilot plans now include a monthly AI Credit allotment, where 1 credit equals $0.01 USD [^1]. Pro subscribers receive 1,500 total credits ($15 effective, comprising 1,000 base + 500 flex), Pro+ gets 7,000 total ($70, comprising 3,900 base + 3,100 flex), Business 1,900 per seat ($19), and Enterprise 3,900 per seat ($39) [^4]. Code completions and Next Edit Suggestions remain free; chat and agent interactions consume credits at per-model token rates [^1].
 
 ### Claude Code (15 June 2026)
 
@@ -167,7 +167,7 @@ Before defaulting to API keys, check whether subscription credits are actually c
 
 - **Codex Plus ($20/month)**: 15–80 messages per 5-hour window. At GPT-5.5 averaging 5–45 credits per message [^5], the effective floor is roughly 330 credits/month for light users — equivalent to approximately $3.30 in API value. Heavy users extracting 80 messages across multiple windows can reach $36+ in effective value.
 - **Claude Max 5x ($100/month)**: $100 in Claude Code credits. Breaks even against Opus 4.8 API rates at approximately 111 bug-fix tasks per month — roughly five per working day [^7].
-- **Copilot Pro ($10/month)**: 1,000 credits ($10 value). With GPT-5.4 as the default, this covers approximately 7 agent chat sessions before exhaustion [^4].
+- **Copilot Pro ($10/month)**: 1,500 total credits ($15 value, base + flex). With GPT-5.4 as the default, this covers approximately 10 agent chat sessions before exhaustion [^4].
 
 For most individual developers, subscriptions still offer better value than raw API billing. The API key path becomes cheaper only at very high volume or when you need cheaper models not available through subscriptions.
 
