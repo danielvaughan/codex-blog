@@ -2,7 +2,7 @@
 title: "Slopsquatting: How Hallucinated Packages Become Supply Chain Weapons and Five Codex CLI Defences That Stop Them"
 parent: "Articles"
 nav_order: 1126
-tags: ["codex-cli", "slopsquatting", "supply-chain-security", "package-hallucination", "PreToolUse-hooks", "lockfile-discipline", "dependency-management", "agent-security"]
+tags: ["codex-cli", "slopsquatting", "supply-chain-security", "package-hallucination", "pretooluse-hooks", "lockfile-discipline", "dependency-management", "agent-security"]
 ---
 
 # Slopsquatting: How Hallucinated Packages Become Supply Chain Weapons and Five Codex CLI Defences That Stop Them

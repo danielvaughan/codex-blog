@@ -2,7 +2,7 @@
 title: "Agentjacking: How Fake Sentry Errors Hijack Coding Agents and Five Codex CLI Defences That Actually Work"
 parent: "Articles"
 nav_order: 1125
-tags: ["security", "agentjacking", "MCP", "Sentry", "prompt injection", "hooks", "sandbox", "Codex CLI"]
+tags: ["codex-cli", "security", "agentjacking", "mcp", "sentry", "prompt-injection", "hooks", "sandbox", "data-provenance"]
 ---
 
 # Agentjacking: How Fake Sentry Errors Hijack Coding Agents and Five Codex CLI Defences That Actually Work
