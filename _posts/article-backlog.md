@@ -1,5 +1,13 @@
 # Article Backlog
 
+## KiloBench Cost-per-Task Efficiency Benchmarks (2026-06-16 Hourly Article Run)
+
+1. ✅ **KiloBench and the Cost-per-Task Revolution: What Harness-Aware Efficiency Benchmarks Mean for Codex CLI Model Selection** — Written 2026-06-16 → `2026-06-16-kilobench-cost-per-task-efficiency-benchmarks-codex-cli-model-selection-token-budget-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — KiloBench published 8 June 2026 by Kilo Code is the first harness-aware efficiency benchmark measuring cost-per-attempt, cost-to-complete, harness-specific pass rates, and behavioural fingerprints; revealed 10x cost-efficiency variance between frontier and open-weight models; 62% of token spend is re-sent context; no existing article covered KiloBench methodology, its divergence from SWE-bench accuracy-only rankings, or the practical Codex CLI named profile patterns for cost-tiered model routing
+   - SEO targets: "kilobench codex cli", "codex cli cost per task", "codex cli model selection cost efficiency", "kilobench leaderboard coding agents", "codex cli token budget strategy", "codex cli named profiles cost routing", "harness-aware benchmark coding agents"
+
+---
+
 ## Prompt Injection Impossibility and Codex CLI Defence Architecture (2026-06-16 Hourly Article Run)
 
 1. ✅ **The Prompt Injection Impossibility: What Two Formal Proofs and the OWASP Agentic Report Mean for Codex CLI's Defence Architecture** — Written 2026-06-16 → `2026-06-16-prompt-injection-impossibility-codex-cli-defence-in-depth-owasp-agentic-contextual-integrity.md`
