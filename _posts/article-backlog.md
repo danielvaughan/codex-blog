@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Apple Foundation Models Dynamic Profiles and fm CLI (2026-06-16 Hourly Article Run)
+
+1. ✅ **Apple's Foundation Models Dynamic Profiles and the fm CLI: What WWDC 2026 Means for Codex CLI Swift Developers** — Written 2026-06-16 → `2026-06-16-apple-foundation-models-dynamic-profiles-fm-cli-codex-cli-swift-multi-agent-wwdc-2026.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing June 8 article predated the WWDC 2026 Platforms State of the Union (9 June) which introduced Dynamic Profiles (declarative multi-agent orchestration with Baton-Pass, Phone-a-Friend, and Skills patterns), the LanguageModel protocol (unified API for Apple on-device, PCC, Claude, and Gemini models), the `fm` CLI tool with `fm serve` OpenAI-compatible local server, Private Cloud Compute free tier for small developers, vision capabilities, and open-source plans for the framework
+   - SEO targets: "apple foundation models dynamic profiles", "fm cli macOS 27", "codex cli swift foundation models", "apple multi-agent swift", "fm serve openai compatible", "codex cli xcode 27 foundation models", "apple language model protocol swift"
+
+---
+
 ## Twelve-Factor Agent Mapped to Codex CLI (2026-06-16 Hourly Article Run)
 
 1. ✅ **The Twelve-Factor Agent Mapped to Codex CLI: Production Principles and Configuration Patterns for June 2026** — Written 2026-06-16 → `2026-06-16-twelve-factor-agent-mapped-codex-cli-production-principles-configuration-patterns.md`

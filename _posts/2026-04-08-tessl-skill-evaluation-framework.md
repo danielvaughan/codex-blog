@@ -2,7 +2,7 @@
 title: "Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software"
 description: "You have written a skill for your coding agent. It looks right. It seems to work when you try it."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-06-16T08:30:40+01:00
+last_modified_at: 2026-06-16T10:22:25+01:00
 tags:
   - ecosystem
   - skills

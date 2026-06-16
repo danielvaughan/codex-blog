@@ -2,7 +2,7 @@
 title: "Beyond the Prompt: Codex CLI Mastery"
 description: "Most developers treat Codex CLI as a chat box. The real value sits past the prompt, in AGENTS.md, skills, subagents, profiles, MCP servers and directory layout. This guide covers everything between installation and genuine mastery."
 date: 2026-05-29T08:00:00+00:00
-last_modified_at: 2026-06-16T08:30:40+01:00
+last_modified_at: 2026-06-16T10:22:25+01:00
 tags:
   - mastery
   - agents-md
