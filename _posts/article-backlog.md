@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Prompt Injection Impossibility and Codex CLI Defence Architecture (2026-06-16 Hourly Article Run)
+
+1. ✅ **The Prompt Injection Impossibility: What Two Formal Proofs and the OWASP Agentic Report Mean for Codex CLI's Defence Architecture** — Written 2026-06-16 → `2026-06-16-prompt-injection-impossibility-codex-cli-defence-in-depth-owasp-agentic-contextual-integrity.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — two independent formal proofs published within six weeks (arXiv:2605.17634 Abdelnabi–Bagdasarian impossibility via Contextual Integrity, arXiv:2604.06436 Bhatt et al. Defense Trilemma mechanically verified in Lean 4) established that prompt injection in AI agents cannot be fully solved; OWASP State of Agentic AI Security 2.01 (11 June 2026) documented that prompt injection maps to six of ten OWASP Top 10 risks for Agentic Applications; Microsoft "Prompts Become Shells" (May 2026) demonstrated prompt injection → RCE in production; no existing article mapped these convergent results to Codex CLI's four-layer defence-in-depth architecture (sandbox isolation, approval policies, hook pipeline, trust boundaries) or explained why defence-in-depth is the only viable engineering response to an architecturally unfixable flaw
+   - SEO targets: "prompt injection impossibility codex cli", "codex cli defence in depth", "OWASP agentic applications codex cli", "prompt injection unfixable AI agents", "codex cli sandbox security", "defense trilemma prompt injection", "contextual integrity prompt injection"
+
+---
+
 ## Apple Foundation Models Dynamic Profiles and fm CLI (2026-06-16 Hourly Article Run)
 
 1. ✅ **Apple's Foundation Models Dynamic Profiles and the fm CLI: What WWDC 2026 Means for Codex CLI Swift Developers** — Written 2026-06-16 → `2026-06-16-apple-foundation-models-dynamic-profiles-fm-cli-codex-cli-swift-multi-agent-wwdc-2026.md`
