@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Harness Outweighs Model — Benchmark Research Synthesis (2026-06-16 Hourly Article Run)
+
+1. ✅ **When the Harness Outweighs the Model: What Claw-SWE-Bench, Harness-Bench, and UTBoost Mean for Codex CLI Configuration Strategy** — Written 2026-06-16 → `2026-06-16-harness-outweighs-model-claw-swe-bench-harness-bench-utboost-codex-cli-configuration-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — three recent papers (Claw-SWE-Bench arXiv:2606.12344 June 10 2026, Harness-Bench arXiv:2605.27922 May 27 2026, UTBoost ACL 2025 arXiv:2506.09289) independently demonstrate that agent harness design is at least as important as model selection; Claw-SWE-Bench showed 27.4pp spread from harness choice on fixed model and 54.3pp gap between minimal and full adapters; Harness-Bench analysed 5,194 trajectories showing harness-model pairings matter more than model alone; UTBoost found 345 erroneous patches affecting 40.9% of SWE-Bench Lite and 24.4% of SWE-Bench Verified entries; no existing article covered these papers or mapped their findings to practical Codex CLI config.toml, AGENTS.md, hooks, and approval policy patterns
+   - SEO targets: "codex cli harness engineering", "claw-swe-bench codex cli", "harness-bench agent harness", "SWE-bench leaderboard errors", "codex cli configuration vs model selection", "agent harness matters more than model", "codex cli hooks grounding"
+
+---
+
 ## KiloBench Cost-per-Task Efficiency Benchmarks (2026-06-16 Hourly Article Run)
 
 1. ✅ **KiloBench and the Cost-per-Task Revolution: What Harness-Aware Efficiency Benchmarks Mean for Codex CLI Model Selection** — Written 2026-06-16 → `2026-06-16-kilobench-cost-per-task-efficiency-benchmarks-codex-cli-model-selection-token-budget-strategy.md`
