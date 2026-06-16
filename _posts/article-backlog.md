@@ -1,5 +1,13 @@
 # Article Backlog
 
+## EsoLang-Bench Metaprogramming and Codex CLI Configuration (2026-06-16 Hourly Article Run)
+
+1. ✅ **Frontier Agents and Metaprogramming: What EsoLang-Bench Reveals About Codex CLI Reasoning Effort, Tool Budgets, and Strategy Transfer** — Written 2026-06-16 → `2026-06-16-esolang-bench-metaprogramming-codex-cli-reasoning-effort-tool-budgets-strategy-transfer.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — arXiv:2606.10933 (Sharma, Thorat, Chopra, 9 June 2026) tested six coding agents including GPT-5.4 xhigh on the Codex harness against four esoteric languages and found: (1) GPT-5.4 xhigh scored 99.7% mean vs 32.5% for GPT-5.4 mini — a 67.2pp gap from reasoning effort alone; (2) frontier agents independently discovered metaprogramming (writing Python generators rather than target code directly), with 46–63pp drops when forced to author directly; (3) providing reusable helper libraries as context transformed mid-tier agents (Sonnet 12→64, GPT-5.4 mini 5→53 on Brainfuck); (4) EsoLang-Bench produced 88.4pp spread vs SWE-Bench's 6.6pp, exposing benchmark compression; no existing article covered this paper or mapped its findings to Codex CLI reasoning effort configuration, Skills, AGENTS.md strategy transfer, or tool budget implications
+   - SEO targets: "esolang-bench codex cli", "codex cli reasoning effort xhigh", "metaprogramming coding agents", "codex cli niche language configuration", "strategy transfer AGENTS.md skills", "benchmark compression SWE-bench", "codex cli tool budget configuration"
+
+---
+
 ## Harness Outweighs Model — Benchmark Research Synthesis (2026-06-16 Hourly Article Run)
 
 1. ✅ **When the Harness Outweighs the Model: What Claw-SWE-Bench, Harness-Bench, and UTBoost Mean for Codex CLI Configuration Strategy** — Written 2026-06-16 → `2026-06-16-harness-outweighs-model-claw-swe-bench-harness-bench-utboost-codex-cli-configuration-strategy.md`
