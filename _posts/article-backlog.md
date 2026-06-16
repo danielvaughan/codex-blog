@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agentjacking MCP Injection Defence (2026-06-16 Hourly Article Run)
+
+1. ✅ **Agentjacking: How Fake Sentry Errors Hijack Coding Agents and Five Codex CLI Defences That Actually Work** — Written 2026-06-16 → `2026-06-16-agentjacking-sentry-mcp-injection-codex-cli-defence-hooks-sandbox-data-provenance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Tenet Security published agentjacking research on 9 June 2026 documenting a novel attack exploiting Sentry MCP server data-source poisoning to hijack coding agents (85% success rate, 2,388 orgs exposed); CSA published MAESTRO framework mapping on 12 June; no existing article covered the attack chain, the Authorised Intent Chain evasion pattern, the five-layer Codex CLI defence stack (sandbox isolation, PreToolUse hooks for MCP payload inspection, granular approval policies, PostToolUse secret redaction, MCP server inventory auditing), or the broader MCP data-source poisoning pattern
+   - SEO targets: "agentjacking codex cli", "sentry mcp injection", "codex cli mcp security", "coding agent prompt injection defence", "codex cli hooks security", "MCP data source poisoning", "codex cli sandbox agentjacking"
+
+---
+
 ## Fable 5 Export Control and Provider Resilience (2026-06-16 Hourly Article Run)
 
 1. ✅ **The Fable 5 Export Control: What the 72-Hour Model Recall Teaches Codex CLI Teams About Provider Risk and Configuration Resilience** — Written 2026-06-16 → `2026-06-16-fable-5-export-control-shutdown-codex-cli-provider-diversification-regulatory-risk-configuration-resilience.md`
