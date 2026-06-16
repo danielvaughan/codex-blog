@@ -2,7 +2,7 @@
 title: "gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow"
 description: "In late March 2026, OpenAI shipped two new models — gpt-5-codex and gpt-5-codex-mini — announced by @thsottiaux."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-06-16T10:27:46+01:00
+last_modified_at: 2026-06-16T10:34:31+01:00
 tags:
   - models
   - model-selection
