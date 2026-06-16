@@ -1,5 +1,13 @@
 # Article Backlog
 
+## TEBench Test Evolution Benchmark and Codex CLI Test Maintenance (2026-06-16 Hourly Article Run)
+
+1. ✅ **TEBench and the Test-Stale Blind Spot: What the First Test Evolution Benchmark Means for Codex CLI Test Maintenance** — Written 2026-06-16 → `2026-06-16-tebench-test-evolution-benchmark-codex-cli-stale-test-detection-agents-md-hooks-coverage.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — TEBench (arXiv:2605.06125, Shang et al., 7 May 2026) is the first project-level test evolution benchmark, curating 314 instances from 10 Defects4J projects across three evolution types (Test-Breaking, Test-Stale, Test-Missing); evaluated Claude Code, Codex CLI, and OpenCode across six model variants; Codex CLI achieved best overall identification F1 (49.4%) and highest composite update score (72.3%) with 99.2% executability; Test-Stale emerged as the structural blind spot (35.8% F1) because agents' reactive execute-fail-fix loop has no failure signal for semantically outdated tests; no existing article covered TEBench, the test-stale blind spot, or the five Codex CLI configuration patterns (AGENTS.md test evolution policy, PostToolUse coverage hooks, dedicated profiles, static-analysis subagent delegation, scope calibration guards) that address the identified failure modes
+   - SEO targets: "tebench codex cli", "test evolution benchmark coding agents", "stale test detection codex cli", "codex cli test maintenance AGENTS.md", "PostToolUse hook coverage", "codex cli subagent test review", "test evolution automation coding agents"
+
+---
+
 ## EsoLang-Bench Metaprogramming and Codex CLI Configuration (2026-06-16 Hourly Article Run)
 
 1. ✅ **Frontier Agents and Metaprogramming: What EsoLang-Bench Reveals About Codex CLI Reasoning Effort, Tool Budgets, and Strategy Transfer** — Written 2026-06-16 → `2026-06-16-esolang-bench-metaprogramming-codex-cli-reasoning-effort-tool-budgets-strategy-transfer.md`
