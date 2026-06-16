@@ -65,7 +65,7 @@ If the harness effect outweighs the model effect, where should Codex CLI teams i
 
 ### 1. AGENTS.md File Maps for Large Codebases
 
-The CodeScaleBench 400K LOC threshold[^6] showed agents failing on large repositories not because the model lacked capability, but because it lacked *orientation*. An `AGENTS.md` at the repository root that maps module boundaries, key entry points, and naming conventions gives every model — GPT-5.5 or otherwise — a structural advantage no prompt can replicate.
+CodeScaleBench[^6] showed agents getting lost in massive codebases — the baseline agent hit a near two-hour timeout just navigating the Kubernetes monorepo — failing not because the model lacked capability, but because it lacked *orientation*. An `AGENTS.md` at the repository root that maps module boundaries, key entry points, and naming conventions gives every model — GPT-5.5 or otherwise — a structural advantage no prompt can replicate.
 
 ```markdown
 ## Repository Map
@@ -85,39 +85,45 @@ This costs nothing, ships with the repository, and survives model upgrades.
 
 ### 2. MCP Server Selection and Curation
 
-CodeScaleBench also revealed a "more-tools paradox": agents with access to 96 tools performed worse than those with 5 well-chosen tools, because tool thrashing consumed context tokens without contributing to solutions[^6]. The practical implication for Codex CLI:
+CodeScaleBench also found that tool *availability* does not guarantee good tool *selection*: agents overwhelmingly defaulted to keyword search (4,813 calls) and almost never reached for the better semantic option — Deep Search was invoked just 8 times across 602 runs, even when the agents were told outright that it existed[^6]. Piling on MCP servers therefore adds schema-token overhead without changing what the agent actually uses. The practical implication for Codex CLI:
 
 ```toml
 # config.toml — curated MCP stack
+# Sourcegraph MCP is a third-party server (install with `pipx install sourcegraph-mcp`)
 [mcp_servers.sourcegraph]
-command = "npx"
-args = ["-y", "@anthropic/sourcegraph-mcp-server"]
+command = "sourcegraph-mcp"
+env = { SOURCEGRAPH_URL = "https://sourcegraph.example.com", SOURCEGRAPH_TOKEN = "sgp_..." }
 required = true
 
+# GitHub's official remote MCP server, over HTTP transport
 [mcp_servers.github]
-command = "npx"
-args = ["-y", "@anthropic/github-mcp-server"]
+url = "https://api.githubcopilot.com/mcp/"
+bearer_token_env_var = "GITHUB_PAT"
 required = false
 ```
 
-Resist the temptation to install every available MCP server. Each additional server consumes schema tokens at session start and increases the probability of tool thrashing during complex tasks[^7].
+Note that both servers above are external: Sourcegraph's MCP server is published by Sourcegraph, and the remote MCP endpoint is GitHub's own. Resist the temptation to install every available MCP server. Each additional server consumes schema tokens at session start and increases the probability of tool thrashing during complex tasks[^7].
 
 ### 3. Named Profiles for Workflow-Specific Tuning
 
-A single `config.toml` serving every task is the configuration equivalent of using one model for everything. Named profiles let teams tune model, reasoning effort, sandbox policy, and service tier per workflow[^8]:
+A single `config.toml` serving every task is the configuration equivalent of using one model for everything. Named profiles let teams tune model, reasoning effort, sandbox policy, and service tier per workflow[^8]. As of Codex 0.134.0, each profile lives in its own file at `~/.codex/<name>.config.toml` using top-level keys (the older `[profiles.<name>]` tables inside `config.toml` are no longer read by `--profile`):
 
 ```toml
-[profiles.quick]
+# ~/.codex/quick.config.toml
 model = "gpt-5.4-mini"
 model_reasoning_effort = "low"
 service_tier = "flex"
+```
 
-[profiles.deep]
+```toml
+# ~/.codex/deep.config.toml
 model = "gpt-5.5"
 model_reasoning_effort = "high"
 service_tier = "auto"
+```
 
-[profiles.review]
+```toml
+# ~/.codex/review.config.toml
 model = "o3"
 model_reasoning_effort = "high"
 approval_policy = "on-request"
@@ -196,7 +202,7 @@ The competitive advantage has moved from *which model you use* to *how well you 
 
 [^4]: Presenc AI, "Coding Agent Benchmarks 2026 (SWE-Bench, TerminalBench, Live PR)," [https://presenc.ai/research/coding-agent-benchmarks-2026](https://presenc.ai/research/coding-agent-benchmarks-2026)
 
-[^5]: Artificial Analysis, "Coding Agent Index 2026," May 2026; see also Wasowski, J., "Coding Agent Index 2026 — Benchmarking Full Agent Stacks," Medium, [https://medium.com/@wasowski.jarek/coding-agent-index-2026-benchmarking-full-agent-stacks-model-harness-4183305e4b90](https://medium.com/@wasowski.jarek/coding-agent-index-2026-benchmarking-full-agent-stacks-model-harness-4183305e4b90)
+[^5]: Artificial Analysis, "AI Coding Agent Benchmarks & Leaderboard" (Coding Agent Index, launched May 2026), [https://artificialanalysis.ai/agents/coding-agents](https://artificialanalysis.ai/agents/coding-agents)
 
 [^6]: Sourcegraph, "CodeScaleBench: Testing coding agents on large codebases and multi-repo software engineering tasks," [https://sourcegraph.com/blog/codescalebench-testing-coding-agents-on-large-codebases-and-multi-repo-software-engineering-tasks](https://sourcegraph.com/blog/codescalebench-testing-coding-agents-on-large-codebases-and-multi-repo-software-engineering-tasks)
 
