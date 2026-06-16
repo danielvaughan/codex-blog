@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Safer Builders Risky Maintainers — MSR 2026 Breaking Changes (2026-06-17 Hourly Article Run)
+
+1. ✅ **Safer Builders, Risky Maintainers: What the MSR 2026 Breaking Changes Study Means for Codex CLI Refactoring and Maintenance Configuration** — Written 2026-06-17 → `2026-06-17-safer-builders-risky-maintainers-msr-2026-breaking-changes-codex-cli-refactoring-maintenance-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — MSR 2026 Mining Challenge paper "Safer Builders, Risky Maintainers" (arXiv:2603.27524) analysed 7,191 agent PRs and 1,402 human PRs revealing that agents introduce fewer breaking changes overall (3.45% vs 7.40%) but sharply reverse for maintenance tasks (refactor 6.72% vs 4.36%, chore 9.35% vs 4.95%); identified "Confidence Trap" where 10/10 confidence still yields 3.16% breaking changes; no existing article mapped these findings to Codex CLI task-specific profiles, PostToolUse AST hooks, AGENTS.md maintenance guardrails, or confidence-sceptical review workflows
+   - SEO targets: "codex cli breaking changes refactoring", "safer builders risky maintainers codex", "MSR 2026 agentic PRs breaking changes", "codex cli refactoring approval policy", "codex cli maintenance task configuration", "PostToolUse AST hook breaking changes", "agent confidence trap breaking changes"
+
+---
+
 ## Agentic Engineering and Intent Architect Paradigm Shift (2026-06-16 Hourly Article Run)
 
 1. ✅ **Agentic Engineering and the Intent Architect: What the Paradigm Shift from Code Author to Outcome Auditor Means for Codex CLI Configuration** — Written 2026-06-16 → `2026-06-16-agentic-engineering-intent-architect-codex-cli-agents-md-hooks-paradigm-shift.md`
