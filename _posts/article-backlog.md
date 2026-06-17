@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SkillReducer Token-Efficient Skill Authoring (2026-06-17 Hourly Article Run)
+
+1. ✅ **SkillReducer: What the First Large-Scale Skill Bloat Study Means for Codex CLI Token Efficiency** — Written 2026-06-17 → `2026-06-17-skillreducer-token-efficient-skill-authoring-codex-cli-progressive-disclosure-context-bloat.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — SkillReducer (arXiv:2603.29919, Gao et al., March 2026) analysed 55,315 publicly available agent skills and found 26.4% lack routing descriptions, 61.5% of body content is non-actionable, and reference-heavy skills inject tens of thousands of tokens per invocation; achieved 48% description compression and 39% body compression while improving functional quality by 2.8%; cross-model retention 0.965; no existing article mapped SkillReducer's five-category content taxonomy, progressive disclosure architecture, or adversarial delta debugging to Codex CLI SKILL.md authoring, references/ directory structure, effort field, or token cost optimisation patterns
+   - SEO targets: "skillreducer codex cli", "codex cli skill token efficiency", "SKILL.md bloat optimisation", "progressive disclosure agent skills", "codex cli skill authoring best practices", "agent skill compression token cost", "SkillReducer context window optimisation"
+
+---
+
 ## ContextCov Executable Constraints and Codex CLI Hook Enforcement (2026-06-17 Hourly Article Run)
 
 1. ✅ **ContextCov: Turning AGENTS.md into Executable Constraints — What It Means for Codex CLI Hook and Enforcement Strategy** — Written 2026-06-17 → `2026-06-17-contextcov-executable-constraints-agents-md-codex-cli-hooks-enforcement-context-drift.md`
