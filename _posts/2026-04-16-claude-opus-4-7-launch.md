@@ -2,7 +2,7 @@
 title: "Claude Opus 4.7 Launch: What It Means for AI Coding Agents"
 description: "Published: 16 April 2026 Source: anthropic.com/news/claude-opus-4-7"
 date: 2026-04-16T00:00:00+00:00
-last_modified_at: 2026-06-17T22:07:53+01:00
+last_modified_at: 2026-06-18T00:07:00+01:00
 ---
 
 ![Sketchnote diagram for: Claude Opus 4.7 Launch: What It Means for AI Coding Agents](/sketchnotes/articles/2026-04-16-claude-opus-4-7-launch.png)

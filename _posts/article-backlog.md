@@ -7188,7 +7188,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 - **Gap:** Multiple articles now cover benchmark limitations (Harness Outweighs Model 4.8, KiloBench 4.5, UTBoost in the Harness article). No single article provides a practitioner's guide to reading coding agent benchmarks critically — what SWE-bench, Terminal-Bench, CodeScaleBench, and KiloBench actually measure, where they mislead, and how to run your own.
 - **Priority:** Medium — helps readers interpret the benchmark articles.
 
-### 📝 OKF + LLM Wiki Implementation Guide
+### ✅ OKF + LLM Wiki Implementation Guide — Written 2026-06-18 → `2026-06-18-okf-implementation-guide-building-agent-ready-knowledge-bundles-codex-cli-mcp.md`
 - **Gap:** Premium #60 covers OKF specification and context. No article provides a step-by-step implementation guide: building your first OKF bundle, connecting it to Codex CLI via MCP, setting up enrichment agents, and measuring knowledge quality.
 - **Priority:** Medium — practical companion to the premium piece.
 
