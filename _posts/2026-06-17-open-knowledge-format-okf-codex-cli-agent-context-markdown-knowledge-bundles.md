@@ -2,7 +2,7 @@
 title: "Open Knowledge Format and Codex CLI: Giving Your Agent a Knowledge Base It Can Actually Read"
 description: "Google has published an open specification for packaging knowledge as markdown files with YAML frontmatter. It maps directly to patterns Codex CLI already supports — and it formalises what many teams have been doing informally with AGENTS.md, skills, and MCP servers."
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-06-17T07:30:11+01:00
+last_modified_at: 2026-06-17T07:32:26+01:00
 tags:
   - context-engineering
   - mcp
@@ -249,6 +249,53 @@ Add a line to your `AGENTS.md` pointing the agent at the knowledge bundle. From 
 Every time someone explains a business rule in a code review, writes a design decision in a pull request description, or answers a question in Slack that they have answered before — that is a candidate for an OKF concept document. The bundle grows organically, one concept at a time.
 
 Google's own enrichment agent can accelerate this process. It walks a BigQuery dataset and drafts OKF documents automatically, using an LLM to generate descriptions, infer relationships, and crawl documentation URLs for supporting detail.[^1] The same approach works for any structured data source — database schemas, API specifications, configuration files.
+
+---
+
+## The Real Problem: Getting People to Write Things Down
+
+Every knowledge management initiative in the history of software engineering has collided with the same wall: people do not write things down. They know things. They explain things. They answer the same question in Slack for the fourth time. But they do not open a wiki, create a page, choose a template, fill in the metadata, and publish. The activation energy is too high relative to the perceived reward.
+
+This is the elephant in the room for any knowledge format, and OKF deserves credit for confronting it structurally — even if it does not solve it completely.
+
+### What OKF strips away
+
+Most knowledge management systems fail because they ask too much upfront. A Confluence page demands a space, a parent page, a template selection, labels, permissions, and then the content. A SharePoint wiki requires navigating a CMS. Even a well-intentioned internal knowledge base typically requires login, a web interface, and some understanding of the information architecture before you can contribute.
+
+OKF reduces the contribution to the simplest possible unit: create a markdown file, add one YAML field (`type`), write what you know. No web interface. No CMS. No login. No template selection. No permissions dialogue. If you can create a file in your code editor — the tool you already have open — you can contribute to the knowledge base.
+
+```markdown
+---
+type: Business Rule
+---
+
+Refunds over GBP 500 require manual approval from the payments team lead.
+The threshold was set in Q3 2024 after the batch-refund incident.
+```
+
+That is a valid OKF document. One frontmatter field. Two sentences. It captures a business rule that would otherwise live exclusively in one person's head or buried in a Slack thread from eighteen months ago. The `title`, `description`, `tags`, and `timestamp` fields can be added later — or never. The format does not punish incomplete contributions.
+
+### The git workflow advantage
+
+OKF bundles live in the repository, which means contributions follow the workflow developers already use: branch, edit, commit, pull request. A developer who discovers a business rule while debugging can add an OKF document in the same branch as the fix. The knowledge capture happens alongside the work, not as a separate administrative task in a separate tool.
+
+Pull request review provides a natural quality gate. When someone adds a concept document, the rest of the team sees it, can correct it, and can cross-link it to related concepts. The knowledge base improves through the same review process that improves the code.
+
+### Where friction remains
+
+OKF does not solve every documentation problem. Three sources of friction persist:
+
+**Non-developers.** Product managers, domain experts, and operations staff who hold critical knowledge may not use git or code editors. For them, creating a markdown file in a repository is not the "simplest possible unit" — it is a foreign workflow. Tooling that bridges this gap (web-based OKF editors, CMS integrations, Slack-to-OKF bots) does not yet exist at scale.
+
+**Motivation.** Reducing the mechanical cost of contribution does not address the motivational question: why should I write this down? The most effective answer is that the knowledge directly improves the agent's output. When a developer sees Codex CLI produce better code because it consulted the OKF bundle they contributed to, the feedback loop closes. The knowledge is not documentation for a wiki that nobody reads — it is context that visibly improves the tool they use every day.
+
+**Maintenance.** Writing a document once is the easy part. Keeping it accurate as the codebase evolves is the hard part. OKF's `timestamp` field enables staleness detection, and a CI check can flag outdated documents, but the update still requires a human to notice that the business rule changed and to edit the file. Google's enrichment agent can regenerate documents from structured sources, but for knowledge that lives in people's heads — the most valuable kind — there is no substitute for someone taking five minutes to write it down.
+
+### The lowest bar that could possibly work
+
+OKF's design philosophy is worth stating explicitly: it sets the lowest possible bar for contribution and bets that a low bar with some structure produces better results than a high bar with perfect structure. A knowledge base with fifty rough concept documents that developers actually wrote is more useful than a perfectly taxonomised wiki that nobody maintains.
+
+For Codex CLI teams, this means: do not wait for a complete knowledge architecture. Create the `.codex/knowledge/` directory. Write one document about the thing your team explains most often. Reference it from `AGENTS.md`. Let the agent use it. Let the results speak for themselves.
 
 ---
 

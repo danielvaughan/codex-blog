@@ -2,7 +2,7 @@
 title: "Codex CLI and Claude Code Compared: April 2026 Architecture Deep Dive"
 description: "The accidental publication of Claude Code's full source on 31 March 2026 — 512,000 lines of TypeScript exposed via an npm source-map packaging error — made."
 date: 2026-04-09T02:00:00+00:00
-last_modified_at: 2026-06-17T07:30:11+01:00
+last_modified_at: 2026-06-17T07:32:26+01:00
 tags:
   - claude-code-vs-codex
   - architecture-comparison
