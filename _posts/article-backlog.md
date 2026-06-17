@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Context Pruning Research Synthesis — SWE-Pruner, Pichay, ContextBudget (2026-06-17 Hourly Article Run)
+
+1. ✅ **Context Pruning for Coding Agents: What SWE-Pruner, Pichay, and ContextBudget Mean for Codex CLI Token Management** — Written 2026-06-17 → `2026-06-17-context-pruning-research-swe-pruner-pichay-contextbudget-codex-cli-token-management-compaction.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — three independent 2026 papers (SWE-Pruner arXiv:2601.16746 January 2026, Pichay arXiv:2603.09023 March 2026, ContextBudget arXiv:2604.01664 April 2026) converge on context management as a first-class engineering discipline; SWE-Pruner achieved 23-54% token reduction via task-aware neural skimming; Pichay found 21.8% structural waste in 857 production sessions and achieved 93% context reduction with 0.025% fault rate via demand paging; ContextBudget achieved 1.6x gains via budget-aware RL compression; no existing article synthesised these three papers or mapped their findings to Codex CLI's /compact, auto-compaction threshold, AGENTS.md context hints, shell output discipline, and session forking patterns
+   - SEO targets: "codex cli context pruning", "SWE-Pruner codex cli", "codex cli token management research", "Pichay demand paging LLM context", "ContextBudget coding agents", "codex cli compaction threshold tuning", "context window management coding agents 2026"
+
+---
+
 ## Git Context Controller and Codex CLI Session Management (2026-06-17 Hourly Article Run)
 
 1. ✅ **Git Context Controller: What Versioned Agent Memory Means for Codex CLI Session Management** — Written 2026-06-17 → `2026-06-17-git-context-controller-gcc-versioned-memory-codex-cli-session-management-fork-compact-branch.md`
