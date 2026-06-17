@@ -1,5 +1,13 @@
 # Article Backlog
 
+## End of Code Review Research Synthesis — Monperrus, c-CRAB, Trust-Calibrated (2026-06-17 Hourly Article Run)
+
+1. ✅ **The End of Code Review? What Three June 2026 Papers Mean for Codex CLI Review Workflows** — Written 2026-06-17 → `2026-06-17-end-of-code-review-monperrus-crab-trust-calibrated-codex-cli-review-workflows-auto-review-subagent.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — three independent 2026 papers converge on the future of code review: Monperrus (arXiv:2606.13175, 11 June 2026) argues agents have crossed the threshold where mandatory human review is neither effective nor scalable; c-CRAB benchmark (arXiv:2603.23448, Zhang et al.) reveals current review agents cover only ~40% of real-world tasks; Trust-Calibrated Code Review (arXiv:2606.01969, Heander et al. with JetBrains) reframes the problem as trust-calibration with a three-level workflow and seven design constructs; no existing article synthesised these three papers or mapped their findings to Codex CLI's /review, review_model, auto-review subagent, PostToolUse hooks, and named profile patterns for tiered review architecture
+   - SEO targets: "codex cli code review automation", "end of code review coding agents", "codex cli auto-review subagent", "trust calibrated code review", "c-CRAB benchmark codex cli", "codex cli review_model configuration", "tiered code review architecture coding agents"
+
+---
+
 ## Context Pruning Research Synthesis — SWE-Pruner, Pichay, ContextBudget (2026-06-17 Hourly Article Run)
 
 1. ✅ **Context Pruning for Coding Agents: What SWE-Pruner, Pichay, and ContextBudget Mean for Codex CLI Token Management** — Written 2026-06-17 → `2026-06-17-context-pruning-research-swe-pruner-pichay-contextbudget-codex-cli-token-management-compaction.md`
