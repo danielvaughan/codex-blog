@@ -56,10 +56,10 @@ The key difference: GCC commits are *additive* — they create named checkpoints
 
 ```toml
 # config.toml — trigger compaction before context pressure forces lossy truncation
-auto_compact_limit = 150000  # tokens before auto-compaction triggers
+model_auto_compact_token_limit = 150000  # tokens before auto-compaction triggers
 ```
 
-Setting a conservative `auto_compact_limit` ensures compaction runs whilst enough context remains to produce a high-quality summary, rather than waiting until the model is already degrading[^4].
+Setting a conservative `model_auto_compact_token_limit` ensures compaction runs whilst enough context remains to produce a high-quality summary, rather than waiting until the model is already degrading[^4].
 
 ### BRANCH → `codex fork` and Git Worktrees
 
