@@ -7153,3 +7153,42 @@ The following gaps were identified during the article-rater review of all premiu
 - **SEO targets:** "codex cli model refusals", "codex cli overrefusal workaround", "codex cli safety boundaries", "safe completions GPT-5", "codex cli dual-use code refusal", "AGENTS.md safety context", "trusted access for cyber codex", "codex cli refusal patterns"
 - **File:** `articles/2026-06-14-codex-cli-model-refusals-safety-boundaries-overrefusal-workaround-patterns-safe-completions.md`
 - **Published:** 2026-06-14
+
+---
+
+## Gap Analysis — New Article Ideas (Article-Rater 2026-06-17)
+
+The following gaps were identified during the 17 June 2026 article rating review. Topics are ordered by estimated impact.
+
+### 📝 Security Architecture Consolidation (Premium)
+- **Gap:** The library now has twelve security articles averaging 4.7 composite (Miasma Worm 5.0, Agentjacking 5.0, Slopsquatting 5.0, Skill Supply Chain 5.0, Prompt Injection Impossibility 4.8, SymJack 4.8, Windows Binary Hijacking 4.8, MCP Ambient Authority 4.8, BountyBench 4.8, Lockdown Mode 4.6, Command Safety 4.4, OWASP MCP 4.4). No single premium piece synthesises the full threat landscape into a unified security architecture. A "Well-Architected Security for Coding Agents" consolidation — mapping all twelve attack classes to the five-layer defence model from premium #59 — would be the definitive security reference.
+- **Priority:** High — the strongest cluster in the library deserves a capstone piece.
+
+### 📝 Context Engineering Masterclass (Premium)
+- **Gap:** Context engineering is now covered by seven articles (Context Engineering 4.8, Context Pruning 4.6, ContextCov 4.8, SWE-Explore 4.6, GCC 4.3, SkillReducer 4.3, premium #60 OKF 5.0) but no premium piece synthesises the full context engineering discipline — Write, Select, Compress, Isolate, plus OKF knowledge layer — into a single actionable playbook.
+- **Priority:** High — Gartner identifies context engineering as breakout AI capability of 2026.
+
+### 📝 Agent Testing Book Chapter (Premium)
+- **Gap:** Seven testing articles now exist (TDAD 5.0, "Always Run Tests" 4.8, Three Layers 4.8, TDD Governance 4.4, TEBench 4.6, Safer Builders 5.0, End of Code Review 5.0) but no unified premium piece covers the full testing lifecycle from test-driven development through test evolution to review architecture.
+- **Priority:** Medium — strong existing coverage but no capstone.
+
+### 📝 Multi-Provider Resilience Playbook (Premium)
+- **Gap:** The Fable 5 Export Control (5.0) and Gemini CLI Shutdown (4.5) articles document provider-level disruption risks. No premium piece synthesises the full multi-provider resilience strategy — failover chains, model routing, credential management, regulatory risk — into a single playbook.
+- **Priority:** Medium — the Fable 5 article created a new risk category that deserves premium treatment.
+
+### 📝 Benchmark Literacy Guide
+- **Gap:** Multiple articles now cover benchmark limitations (Harness Outweighs Model 4.8, KiloBench 4.5, UTBoost in the Harness article). No single article provides a practitioner's guide to reading coding agent benchmarks critically — what SWE-bench, Terminal-Bench, CodeScaleBench, and KiloBench actually measure, where they mislead, and how to run your own.
+- **Priority:** Medium — helps readers interpret the benchmark articles.
+
+### 📝 OKF + LLM Wiki Implementation Guide
+- **Gap:** Premium #60 covers OKF specification and context. No article provides a step-by-step implementation guide: building your first OKF bundle, connecting it to Codex CLI via MCP, setting up enrichment agents, and measuring knowledge quality.
+- **Priority:** Medium — practical companion to the premium piece.
+
+### 📝 Agent Sycophancy and Confirmation Bias
+- **Gap:** SocSci-Repro-Bench (4.6) documented sycophancy inflating accuracy from 62.1% to 74.1% while degrading non-reproducible task detection from 90% to 60%. The Memory Over-Personalisation article (4.8) touched Stanford 49% sycophancy. No article provides a comprehensive treatment of sycophancy in coding agents — detection, measurement, and defence patterns.
+- **Priority:** Medium — affects every team using agents for decision-support.
+
+### 📝 Esoteric and DSL Language Strategies
+- **Gap:** EsoLang-Bench (4.6) and Programming Languages Still Matter (5.0) document agent performance across unusual languages. No article addresses the practical workflow for teams with proprietary DSLs, internal configuration languages, or specialised domain languages where training data is sparse.
+- **Priority:** Low — niche audience but novel angle.
+
