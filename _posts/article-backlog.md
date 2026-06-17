@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SocSci-Repro-Bench — Social Science Reproducibility Benchmark (2026-06-17 Hourly Article Run)
+
+1. ✅ **SocSci-Repro-Bench: What the Social Science Reproducibility Benchmark Means for Codex CLI Research Workflows** — Written 2026-06-17 → `2026-06-17-socsci-repro-bench-social-science-reproducibility-codex-cli-research-workflow-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — two companion papers (SocSci-Repro-Bench arXiv:2606.11447 and arXiv:2606.11456, Alizadeh et al., 9 June 2026) benchmarked Claude Code and Codex on 221 social science reproducibility tasks across four disciplines; Claude Code scored 93.4% vs Codex 62.1% task-level accuracy; Codex had 17.8% task failure rate (38.9% for Stata); confirmatory prompting inflated Codex accuracy from 62.1% to 74.1% while degrading non-reproducible task detection from 90% to 60%; companion paper showed verdict-layer vulnerability (10% to 90% verdict shift from confirmatory framing); no existing article covered these papers or mapped their findings to Codex CLI sandbox configuration for statistical runtimes, AGENTS.md anti-sycophancy constraints, MCP Stata integration, structured output schemas for anti-confirmation bias, or session forking for independent replication
+   - SEO targets: "codex cli reproducibility benchmark", "SocSci-Repro-Bench codex cli", "codex cli social science research", "codex cli sycophancy research", "codex cli Stata R configuration", "codex cli structured output research", "coding agent reproducibility crisis"
+
+---
+
 ## Terminal Agents Suffice — Enterprise Automation Study (2026-06-17 Hourly Article Run)
 
 1. ✅ **Terminal Agents Suffice: What ServiceNow's Enterprise Automation Study Means for Codex CLI API-First Workflows** — Written 2026-06-17 → `2026-06-17-terminal-agents-suffice-enterprise-automation-codex-cli-api-first-terminal-workflow-cost-efficiency.md`
