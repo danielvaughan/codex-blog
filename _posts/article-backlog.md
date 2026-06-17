@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Terminal Agents Suffice — Enterprise Automation Study (2026-06-17 Hourly Article Run)
+
+1. ✅ **Terminal Agents Suffice: What ServiceNow's Enterprise Automation Study Means for Codex CLI API-First Workflows** — Written 2026-06-17 → `2026-06-17-terminal-agents-suffice-enterprise-automation-codex-cli-api-first-terminal-workflow-cost-efficiency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — ServiceNow Research paper "Terminal Agents Suffice for Enterprise Automation" (arXiv:2604.00073v2, Bechard et al., March 2026) evaluated 729 tasks across ServiceNow, GitLab, and ERPNext comparing web agents, MCP agents, and terminal agents; terminal agents matched or outperformed in 7/12 platform-model combinations at 4-9x lower cost; MCP agents scored only 11.5-16.1% on ServiceNow due to incomplete tool coverage; persistent memory reduced costs by 43.7%; no existing article covered this paper or mapped its findings to Codex CLI codex exec, AGENTS.md API indexing, named profiles, or the terminal-first cost-efficiency argument
+   - SEO targets: "terminal agents suffice codex cli", "codex cli enterprise automation", "codex exec API workflow", "terminal agent vs web agent cost", "codex cli ServiceNow automation", "API-first terminal workflow coding agents", "Terminal-Bench codex cli"
+
+---
+
 ## SWE-Explore Repository Exploration Benchmark (2026-06-17 Hourly Article Run)
 
 1. ✅ **SWE-Explore: What the Repository Exploration Benchmark Means for Codex CLI Search Strategy** — Written 2026-06-17 → `2026-06-17-swe-explore-repository-exploration-benchmark-codex-cli-codebase-navigation-search-strategy.md`
