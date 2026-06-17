@@ -2,7 +2,7 @@
 title: "Open Knowledge Format and Codex CLI: Giving Your Agent a Knowledge Base It Can Actually Read"
 description: "Google has published an open specification for packaging knowledge as markdown files with YAML frontmatter. It maps directly to patterns Codex CLI already supports — and it formalises what many teams have been doing informally with AGENTS.md, skills, and MCP servers."
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-06-17T07:23:31+01:00
+last_modified_at: 2026-06-17T07:30:11+01:00
 tags:
   - context-engineering
   - mcp
@@ -252,6 +252,34 @@ Google's own enrichment agent can accelerate this process. It walks a BigQuery d
 
 ---
 
+## OKF and Tessl: Knowledge Format Versus Knowledge Lifecycle
+
+OKF invites a natural comparison with Tessl, the agent enablement platform that treats skills and context as versioned software artefacts.[^6] Both address the same underlying problem — how to package knowledge so that coding agents can consume it reliably — but they occupy different layers of the stack.
+
+**What each is.** OKF is a *format specification*: a set of conventions for structuring markdown files with YAML frontmatter so that any agent can read them. Tessl is a *lifecycle platform*: a package manager, registry, and evaluation engine for agent skills and context bundles. OKF defines what a knowledge document looks like. Tessl defines how skills and context are built, tested, versioned, distributed, and maintained over time.[^7]
+
+**What each contains.** An OKF bundle is a directory of concept documents — domain knowledge about what things mean (tables, endpoints, metrics, playbooks). A Tessl tile is a bundle of agent context — procedural knowledge about how agents should behave when using a technology, including imports, examples, conventions, and common pitfalls. OKF concepts describe the world. Tessl skills instruct the agent.[^6]
+
+**Where they converge.** Both use markdown with YAML frontmatter as the base format. Both are agent-agnostic — OKF works with any tool that reads markdown; Tessl supports Claude Code, Cursor, Gemini, Codex CLI, Copilot, and others.[^7] Both are designed to be version-controlled in git.
+
+**Where they diverge.** Tessl provides infrastructure that OKF explicitly leaves out: semantic versioning, a central registry (3,000+ indexed skills), automated evaluation that measures whether context actually improves agent performance, and dependency management via manifest files (`tessl.json`).[^7] OKF provides structural conventions that Tessl does not prescribe: typed concepts, cross-links between documents, progressive disclosure via `index.md`, and a separation between links and citations.[^2]
+
+The practical implication for Codex CLI teams is that the two are complementary, not competing:
+
+| Concern | OKF | Tessl |
+|---------|-----|-------|
+| **What it packages** | Domain knowledge (concepts, entities, rules) | Procedural knowledge (skills, conventions, examples) |
+| **Format** | Markdown + YAML frontmatter (OKF spec) | Markdown + YAML frontmatter (Agent Skills spec) |
+| **Distribution** | Git repo, tarball, or subdirectory | Registry (`tessl install`), git, or vendored |
+| **Versioning** | Manual (`timestamp` field) | Semantic versioning in manifest |
+| **Evaluation** | None (format only) | Built-in eval engine (review + task evals) |
+| **Cross-linking** | Markdown links between concepts | References between skills and rules |
+| **Registry** | None | 3,000+ indexed skills |
+
+A team could use OKF bundles for domain knowledge (what your payment API means, what your data schema represents) and Tessl tiles for procedural context (how to write tests in your framework, how to use your internal SDK correctly). The OKF bundle sits in the repository as a knowledge base. The Tessl skills sit in `.tessl/plugins/` as evaluated, versioned instructions. `AGENTS.md` ties them together by telling the agent when to consult each.
+
+---
+
 ## What OKF Means for Context Engineering
 
 Context engineering — the discipline of assembling the right information for an agent at the right time — is solidifying as a core practice.[^4] OKF provides a missing piece: a standard interchange format for the knowledge layer.
@@ -301,3 +329,7 @@ The knowledge your agent needs is already in your organisation. OKF gives it a f
 [^4]: Willison, S. (2026) 'Context Engineering', *simonwillison.net*. Available at: https://simonwillison.net/2026/Jun/Context-Engineering/ (Accessed: 17 June 2026).
 
 [^5]: Google Cloud Platform (2026) 'knowledge-catalog', *GitHub*. Available at: https://github.com/GoogleCloudPlatform/knowledge-catalog (Accessed: 17 June 2026).
+
+[^6]: Tessl (2026) 'Announcing skills on Tessl: the package manager for agent skills', *tessl.io*. Available at: https://tessl.io/blog/skills-are-software-and-they-need-a-lifecycle-introducing-skills-on-tessl/ (Accessed: 17 June 2026).
+
+[^7]: Tessl (2026) 'What is Tessl?', *Tessl Docs*. Available at: https://docs.tessl.io/ (Accessed: 17 June 2026).
