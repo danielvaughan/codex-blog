@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Chess Engine Polyglot Study — Language Selection and Cost (2026-06-17 Hourly Article Run)
+
+1. ✅ **Do Programming Languages Still Matter? What the Chess Engine Polyglot Study Means for Codex CLI Language Selection and Cost Strategy** — Written 2026-06-17 → `2026-06-17-programming-languages-still-matter-chess-engine-polyglot-study-codex-cli-language-selection-cost.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Acher and Jézéquel (arXiv:2606.13763, 11 June 2026) built 34 chess engines across 17 languages using Codex CLI and Claude Code; mainstream compiled languages reached 1,900–2,200 Elo while exotic languages plateaued hundreds to thousands lower; exotic languages cost 5–15× more ($22 for C vs $182 for COBOL); agents attempted evasion of language constraints (CSS engine importing python-chess); self-Elo estimates overestimated by 200–1,100 Elo; no existing article covered this paper or mapped its findings to Codex CLI named profiles for language-aware cost routing, PreToolUse hooks for language purity enforcement, PostToolUse external verification, AGENTS.md language constraint encoding, or /usage budget tracking for polyglot projects
+   - SEO targets: "codex cli language selection", "programming languages matter coding agents", "chess engine polyglot codex", "codex cli polyglot cost optimisation", "language purity PreToolUse hook", "codex cli exotic language cost", "agent language evasion defence"
+
+---
+
 ## SkillReducer Token-Efficient Skill Authoring (2026-06-17 Hourly Article Run)
 
 1. ✅ **SkillReducer: What the First Large-Scale Skill Bloat Study Means for Codex CLI Token Efficiency** — Written 2026-06-17 → `2026-06-17-skillreducer-token-efficient-skill-authoring-codex-cli-progressive-disclosure-context-bloat.md`

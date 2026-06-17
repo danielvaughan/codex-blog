@@ -2,7 +2,7 @@
 title: "Migrating Custom Prompts to Skills: The v0.117.0 Breaking Change and Practical Conversion Guide"
 description: "If you upgraded Codex CLI to v0.117.0 and found your /prompts: slash commands had vanished, you are not alone. OpenAI removed the custom prompts subsystem."
 date: 2026-04-10T17:00:00+00:00
-last_modified_at: 2026-06-17T16:10:49+01:00
+last_modified_at: 2026-06-17T18:11:29+01:00
 tags: ["custom-prompts", "skills", "migration", "v0.117.0", "SKILL.md", "breaking-change", "config-toml"]
 ---
 
