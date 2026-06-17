@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Git Context Controller and Codex CLI Session Management (2026-06-17 Hourly Article Run)
+
+1. ✅ **Git Context Controller: What Versioned Agent Memory Means for Codex CLI Session Management** — Written 2026-06-17 → `2026-06-17-git-context-controller-gcc-versioned-memory-codex-cli-session-management-fork-compact-branch.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Git Context Controller (arXiv:2508.00031v2, Wu et al., revised March 2026) achieved 80.2% on SWE-Bench Verified by structuring agent memory as a versioned file system with COMMIT, BRANCH, MERGE, and CONTEXT operations; ablation showed +6.2pp from structured logging with multi-level retrieval and +2.4pp from branch/merge; no existing article mapped GCC's four operations to Codex CLI's /compact, codex fork, codex resume, and memory primitives, or analysed the ablation data to identify which context strategies Codex CLI practitioners should prioritise
+   - SEO targets: "git context controller codex cli", "codex cli session management versioned memory", "GCC SWE-bench coding agents", "codex cli fork branch context", "agent context versioning", "codex cli compaction vs GCC commit", "structured agent memory management"
+
+---
+
 ## Safer Builders Risky Maintainers — MSR 2026 Breaking Changes (2026-06-17 Hourly Article Run)
 
 1. ✅ **Safer Builders, Risky Maintainers: What the MSR 2026 Breaking Changes Study Means for Codex CLI Refactoring and Maintenance Configuration** — Written 2026-06-17 → `2026-06-17-safer-builders-risky-maintainers-msr-2026-breaking-changes-codex-cli-refactoring-maintenance-configuration.md`

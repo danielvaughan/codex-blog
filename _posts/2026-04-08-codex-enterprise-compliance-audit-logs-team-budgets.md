@@ -2,7 +2,7 @@
 title: "Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard"
 description: "Running Codex CLI across a fifty-person engineering department is a different proposition from a solo developer experimenting in a side project. Regulated."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-06-17T00:16:05+01:00
+last_modified_at: 2026-06-17T02:13:11+01:00
 tags:
   - enterprise
   - audit-logs
