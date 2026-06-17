@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-Explore Repository Exploration Benchmark (2026-06-17 Hourly Article Run)
+
+1. ✅ **SWE-Explore: What the Repository Exploration Benchmark Means for Codex CLI Search Strategy** — Written 2026-06-17 → `2026-06-17-swe-explore-repository-exploration-benchmark-codex-cli-codebase-navigation-search-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — SWE-Explore (arXiv:2606.07297, Zhang et al., 5 June 2026) isolates repository exploration as a standalone benchmark across 848 issues, 203 repositories, and 10 languages; Codex scored 50.3% resolve rate vs Claude Code 48.0% but specialised localiser CoSIL reached 59.3% (near oracle 59.7%); context efficiency correlated r=0.950 with downstream repair; no existing article mapped these findings to Codex CLI AGENTS.md structural hints, MCP indexing servers, line-range read discipline, or exploration budget patterns
+   - SEO targets: "codex cli repository exploration", "SWE-Explore benchmark codex cli", "codex cli codebase navigation search strategy", "context efficiency coding agents", "codex cli MCP code indexing", "repository exploration benchmark 2026", "codex cli AGENTS.md search hints"
+
+---
+
 ## End of Code Review Research Synthesis — Monperrus, c-CRAB, Trust-Calibrated (2026-06-17 Hourly Article Run)
 
 1. ✅ **The End of Code Review? What Three June 2026 Papers Mean for Codex CLI Review Workflows** — Written 2026-06-17 → `2026-06-17-end-of-code-review-monperrus-crab-trust-calibrated-codex-cli-review-workflows-auto-review-subagent.md`
