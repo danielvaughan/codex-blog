@@ -2,7 +2,7 @@
 title: "Git Context Controller: What Versioned Agent Memory Means for Codex CLI Session Management"
 parent: "Articles"
 nav_order: 1136
-tags: ["context-management", "session-lifecycle", "GCC", "SWE-Bench", "compaction", "fork", "branch", "memory", "long-horizon"]
+tags: ["codex-cli", "context-management", "session-lifecycle", "GCC", "SWE-Bench", "compaction", "fork", "branch", "memory", "long-horizon"]
 ---
 
 # Git Context Controller: What Versioned Agent Memory Means for Codex CLI Session Management
@@ -170,7 +170,7 @@ GCC avoids lossy compression entirely by using structured persistence. Codex CLI
 # config.toml
 [profiles.long-session]
 model = "gpt-5.4"
-auto_compact_limit = 120000  # compact well before the 1M ceiling
+model_auto_compact_token_limit = 120000  # compact well before the 1M ceiling
 ```
 
 Research from agent context engineering practitioners suggests that the cost of proactive summarisation is far lower than the cost of recovering from a context-driven failure[^8].
