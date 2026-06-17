@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ContextCov Executable Constraints and Codex CLI Hook Enforcement (2026-06-17 Hourly Article Run)
+
+1. ✅ **ContextCov: Turning AGENTS.md into Executable Constraints — What It Means for Codex CLI Hook and Enforcement Strategy** — Written 2026-06-17 → `2026-06-17-contextcov-executable-constraints-agents-md-codex-cli-hooks-enforcement-context-drift.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — ContextCov (arXiv:2603.00822, Sharma, February 2026 revised May 2026) demonstrated 81% of 723 repositories with Agent Instructions contained constraint violations; achieved 88.3% compliance via executable checks vs 67% prompt-only; synthesised 46,316 checks with 99.997% syntax validity across three enforcement domains (source AST, process shims, architectural validators); companion AGENTS.md impact study (Lulla et al., arXiv:2601.20404) showed 28.64% faster completion with instructions present; no existing article mapped ContextCov's three enforcement domains to Codex CLI's PreToolUse/PostToolUse hooks and auto-review, or documented the compliance escalation from passive instructions to executable constraints
+   - SEO targets: "contextcov codex cli", "agents.md executable constraints", "codex cli hook enforcement", "context drift coding agents", "PreToolUse constraint enforcement", "tree-sitter AST agent compliance", "codex cli agents.md enforcement"
+
+---
+
 ## SocSci-Repro-Bench — Social Science Reproducibility Benchmark (2026-06-17 Hourly Article Run)
 
 1. ✅ **SocSci-Repro-Bench: What the Social Science Reproducibility Benchmark Means for Codex CLI Research Workflows** — Written 2026-06-17 → `2026-06-17-socsci-repro-bench-social-science-reproducibility-codex-cli-research-workflow-configuration.md`
