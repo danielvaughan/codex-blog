@@ -7184,7 +7184,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 - **Gap:** The Fable 5 Export Control (5.0) and Gemini CLI Shutdown (4.5) articles document provider-level disruption risks. No premium piece synthesises the full multi-provider resilience strategy — failover chains, model routing, credential management, regulatory risk — into a single playbook.
 - **Priority:** Medium — the Fable 5 article created a new risk category that deserves premium treatment.
 
-### 📝 Benchmark Literacy Guide
+### ✅ Benchmark Literacy Guide — Written 2026-06-17 → `2026-06-17-benchmark-literacy-guide-reading-coding-agent-benchmarks-critically.md`
 - **Gap:** Multiple articles now cover benchmark limitations (Harness Outweighs Model 4.8, KiloBench 4.5, UTBoost in the Harness article). No single article provides a practitioner's guide to reading coding agent benchmarks critically — what SWE-bench, Terminal-Bench, CodeScaleBench, and KiloBench actually measure, where they mislead, and how to run your own.
 - **Priority:** Medium — helps readers interpret the benchmark articles.
 

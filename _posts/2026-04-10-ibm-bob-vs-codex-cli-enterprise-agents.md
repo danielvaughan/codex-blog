@@ -2,7 +2,7 @@
 title: "IBM Bob vs Codex CLI: Enterprise Agentic Coding Agents Compared"
 description: "IBM Project Bob and OpenAI Codex CLI both call themselves agentic coding tools. They solve fundamentally different problems. Bob is an enterprise IDE built."
 date: 2026-04-10T14:00:00+00:00
-last_modified_at: 2026-06-17T20:13:02+01:00
+last_modified_at: 2026-06-17T22:07:53+01:00
 tags:
   - ibm-bob
   - enterprise
