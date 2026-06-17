@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI Europe EEA Data Residency and GDPR Compliance (2026-06-17 Hourly Article Run)
+
+1. ✅ **Codex CLI in Europe: Data Residency, Bedrock Routing, and GDPR-Compliant Agent Configuration After the EEA Expansion** — Written 2026-06-17 → `2026-06-17-codex-cli-europe-eea-data-residency-gdpr-bedrock-routing-compliance-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI expanded Codex desktop features to EEA/UK/Switzerland on 16 June 2026; Codex CLI v0.140.0 shipped managed Bedrock API-key auth with encrypted credential storage on 15 June 2026; OpenAI EU API endpoint (eu.api.openai.com) provides zero-data-retention processing; EU AI Act Article 50 transparency obligations effective 2 August 2026; no existing article mapped these developments to Codex CLI config.toml EU routing patterns, named profiles for compliance switching, encrypted credential namespaces, AGENTS.md data-handling constraints, or PreToolUse PII screening hooks for GDPR defence
+   - SEO targets: "codex cli europe data residency", "codex cli gdpr configuration", "codex cli eu api endpoint", "codex cli amazon bedrock eu-central-1", "codex cli eea expansion", "gdpr compliant coding agent", "codex cli eu ai act compliance"
+
+---
+
 ## Chess Engine Polyglot Study — Language Selection and Cost (2026-06-17 Hourly Article Run)
 
 1. ✅ **Do Programming Languages Still Matter? What the Chess Engine Polyglot Study Means for Codex CLI Language Selection and Cost Strategy** — Written 2026-06-17 → `2026-06-17-programming-languages-still-matter-chess-engine-polyglot-study-codex-cli-language-selection-cost.md`
