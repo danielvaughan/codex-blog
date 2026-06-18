@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CAID Optimal Parallelism and Codex CLI Subagent Delegation (2026-06-19 Hourly Article Run)
+
+1. ✅ **CAID: What Optimal Parallelism Research Means for Codex CLI Subagent Delegation** — Written 2026-06-19 → `2026-06-19-caid-optimal-parallelism-async-software-engineering-agents-codex-cli-subagent-delegation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — CAID (arXiv:2603.21489, Geng & Neubig, Carnegie Mellon, March 2026) introduces Centralized Asynchronous Isolated Delegation using git worktrees; optimal parallelism peaks at 4 engineers for Commit0-Lite (+6.0pp) and 2 for PaperBench (+6.1pp); performance degrades beyond optimal; weaker models gain disproportionately (+26.3pp MiniMax on PaperBench); soft isolation fails vs physical worktree isolation; sequential-then-parallel fallback costs 3x for marginal gain; no existing article mapped CAID findings to Codex CLI max_threads tuning, named agent roles for delegation quality, sandbox mode enforcement, or the parallelism cliff
+   - SEO targets: "codex cli subagent parallelism", "CAID async software engineering agents", "codex cli max_threads optimal", "coding agent parallelism limit", "codex cli worktree isolation subagents", "multi-agent delegation codex cli", "optimal subagent count coding agents"
+
+---
+
 ## CoDA-Bench Data-Intensive Task Benchmark and Codex CLI File Discovery (2026-06-18 Hourly Article Run)
 
 1. ✅ **CoDA-Bench: What the Data-Intensive Task Benchmark Means for Codex CLI File Discovery and Sandbox Strategy** — Written 2026-06-18 → `2026-06-18-coda-bench-data-intensive-tasks-coding-agents-codex-cli-file-discovery-sandbox-strategy.md`
