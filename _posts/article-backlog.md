@@ -7200,7 +7200,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 - **Gap:** Premium #60 covers OKF specification and context. No article provides a step-by-step implementation guide: building your first OKF bundle, connecting it to Codex CLI via MCP, setting up enrichment agents, and measuring knowledge quality.
 - **Priority:** Medium — practical companion to the premium piece.
 
-### 📝 Agent Sycophancy and Confirmation Bias
+### ✅ Agent Sycophancy and Confirmation Bias — Written 2026-06-18 → `2026-06-18-agent-sycophancy-confirmation-bias-codex-cli-defence-patterns-anti-sycophancy-hooks.md`
 - **Gap:** SocSci-Repro-Bench (4.6) documented sycophancy inflating accuracy from 62.1% to 74.1% while degrading non-reproducible task detection from 90% to 60%. The Memory Over-Personalisation article (4.8) touched Stanford 49% sycophancy. No article provides a comprehensive treatment of sycophancy in coding agents — detection, measurement, and defence patterns.
 - **Priority:** Medium — affects every team using agents for decision-support.
 
