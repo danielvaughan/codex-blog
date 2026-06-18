@@ -7228,7 +7228,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 - **Gap:** SocSci-Repro-Bench (4.6) documented sycophancy inflating accuracy from 62.1% to 74.1% while degrading non-reproducible task detection from 90% to 60%. The Memory Over-Personalisation article (4.8) touched Stanford 49% sycophancy. No article provides a comprehensive treatment of sycophancy in coding agents — detection, measurement, and defence patterns.
 - **Priority:** Medium — affects every team using agents for decision-support.
 
-### 📝 Esoteric and DSL Language Strategies
+### ✅ Esoteric and DSL Language Strategies — Written 2026-06-18 → `2026-06-18-codex-cli-dsl-proprietary-language-strategies-esoteric-language-lessons.md`
 - **Gap:** EsoLang-Bench (4.6) and Programming Languages Still Matter (5.0) document agent performance across unusual languages. No article addresses the practical workflow for teams with proprietary DSLs, internal configuration languages, or specialised domain languages where training data is sparse.
 - **Priority:** Low — niche audience but novel angle.
 
