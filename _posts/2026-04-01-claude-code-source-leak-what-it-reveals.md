@@ -2,7 +2,7 @@
 title: "Claude Code Source Leak — What 163K Lines of TypeScript Reveal About Anthropic's Engineering"
 description: "On March 31, 2026, security researcher Chaofan Shou discovered that Anthropics entire Claude Code CLI source code (v2.1.88."
 date: 2026-04-01T09:00:00+00:00
-last_modified_at: 2026-06-18T02:12:52+01:00
+last_modified_at: 2026-06-18T03:09:00+01:00
 tags:
   - competitive-landscape
   - claude-code

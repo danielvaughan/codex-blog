@@ -14,7 +14,7 @@ tags: ["codex-cli", "slopcodebench", "code-quality", "long-horizon", "session-ma
 
 Most coding agent benchmarks are single-shot: hand the agent an issue, measure whether the patch passes tests, move on. SlopCodeBench (arXiv:2603.24755, Orlanski et al., March 2026, revised May 2026) argues this design systematically hides the quality decay that emerges when agents extend their own code across multiple iterations [^1]. The benchmark comprises 36 problems and 196 checkpoints, each requiring the agent to build on its previous output under evolving specifications — much closer to how real software actually grows [^1].
 
-The results are sobering. No agent fully solves any problem end-to-end. The best performer, Claude Opus 4.6, achieves a 17.2% strict checkpoint solve rate [^1]. Structural erosion — the concentration of complexity into bloated, high-cyclomatic-complexity functions — rises in 77% of trajectories. Verbosity, measured as redundant code flagged by 137 AST-Grep rules plus structural duplication, increases in 75.5% [^1].
+The results are sobering. No agent fully solves any problem end-to-end. The best performer achieves a 14.8% strict checkpoint solve rate [^1]. Structural erosion — the concentration of complexity into bloated, high-cyclomatic-complexity functions — rises in 77% of trajectories. Verbosity, measured as redundant code flagged by 137 AST-Grep rules plus structural duplication, increases in 75.5% [^1].
 
 If you are running Codex CLI on anything longer than a single-shot task, these numbers apply to you.
 
