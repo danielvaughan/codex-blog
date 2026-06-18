@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Coding Agent Adoption Doubled in New GitHub Projects (2026-06-18 Hourly Article Run)
+
+1. ✅ **Agentic Very Much: Coding Agent Adoption Has Doubled in New GitHub Projects — What It Means for Codex CLI Teams** — Written 2026-06-18 → `2026-06-18-agentic-very-much-coding-agent-adoption-doubled-new-github-projects-codex-cli-team-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Robbes et al. (arXiv:2606.07448, 5 June 2026) follow-up to "Agentic Much?" (arXiv:2601.18341) found coding agent adoption more than doubled in newly created GitHub projects; AI-assisted commit proportion also substantially higher; predecessor study measured 15.85–22.60% adoption across 129,134 projects; systematic underdetection acknowledged; no existing article mapped the doubling trend to Codex CLI commit_attribution configuration, AGENTS.md as dual-purpose detection signal, named profiles for adoption phases, or team-level adoption measurement with /usage and ccusage
+   - SEO targets: "coding agent adoption doubled github", "agentic very much codex cli", "codex cli commit attribution configuration", "coding agent adoption rate 2026", "AGENTS.md adoption signal detection", "codex cli team adoption measurement", "agent commit attribution audit trail"
+
+---
+
 ## Agentic PR Rejection Taxonomy and Codex CLI Defence Patterns (2026-06-18 Hourly Article Run)
 
 1. ✅ **Why Nearly Half of Agentic Pull Requests Get Rejected — and How Codex CLI Can Cut the Waste** — Written 2026-06-18 → `2026-06-18-why-agentic-pull-requests-get-rejected-codex-cli-ci-gates-review-hooks-defence.md`
