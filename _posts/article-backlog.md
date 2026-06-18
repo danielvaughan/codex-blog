@@ -7216,7 +7216,7 @@ The following gaps were identified during the article-rater review of all premiu
 
 The following gaps were identified during the 17 June 2026 article rating review. Topics are ordered by estimated impact.
 
-### 📝 Security Architecture Consolidation (Premium)
+### ✅ Security Architecture Consolidation — Written 2026-06-18 → `2026-06-18-well-architected-security-coding-agents-codex-cli-unified-threat-landscape-defence-architecture.md`
 - **Gap:** The library now has twelve security articles averaging 4.7 composite (Miasma Worm 5.0, Agentjacking 5.0, Slopsquatting 5.0, Skill Supply Chain 5.0, Prompt Injection Impossibility 4.8, SymJack 4.8, Windows Binary Hijacking 4.8, MCP Ambient Authority 4.8, BountyBench 4.8, Lockdown Mode 4.6, Command Safety 4.4, OWASP MCP 4.4). No single premium piece synthesises the full threat landscape into a unified security architecture. A "Well-Architected Security for Coding Agents" consolidation — mapping all twelve attack classes to the five-layer defence model from premium #59 — would be the definitive security reference.
 - **Priority:** High — the strongest cluster in the library deserves a capstone piece.
 
