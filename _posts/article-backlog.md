@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.141.0 Noise-Encrypted Remote Executors (2026-06-18 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.141.0: Noise-Encrypted Remote Executors, Cross-Platform Execution, and the Plugin Marketplace** — Written 2026-06-18 → `2026-06-18-codex-cli-v0141-noise-encrypted-remote-executors-cross-platform-plugin-marketplace.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.141.0 released 18 June 2026 with authenticated end-to-end encrypted Noise relay channels for remote executors; cross-platform execution now preserves executor-native working directories and shells across app-server and exec-server boundaries; executor plugins can activate stdio MCP servers per thread; plugin discovery adds created-by-me marketplace and auth-specific curated catalogues; no existing article covered the Noise protocol upgrade, per-thread plugin activation, or the cross-platform path preservation improvements
+   - SEO targets: "codex cli v0.141 noise protocol", "codex cli remote executor encryption", "codex cli noise relay channels", "codex cli cross-platform remote execution", "codex cli plugin marketplace", "codex cli exec-server encrypted", "codex cli remote execution security 2026"
+
+---
+
 ## Metaprogramming EsoLang-Bench and Codex CLI Generator Pipelines (2026-06-18 Hourly Article Run)
 
 1. ✅ **Metaprogramming as Survival Strategy: What the EsoLang-Bench Study Means for Codex CLI Generator Pipelines and Sandbox Configuration** — Written 2026-06-18 → `2026-06-18-metaprogramming-esoteric-languages-frontier-coding-agents-codex-cli-generator-sandbox-strategy.md`
