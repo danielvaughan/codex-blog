@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Metaprogramming EsoLang-Bench and Codex CLI Generator Pipelines (2026-06-18 Hourly Article Run)
+
+1. ✅ **Metaprogramming as Survival Strategy: What the EsoLang-Bench Study Means for Codex CLI Generator Pipelines and Sandbox Configuration** — Written 2026-06-18 → `2026-06-18-metaprogramming-esoteric-languages-frontier-coding-agents-codex-cli-generator-sandbox-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sharma, Thorat, and Chopra (arXiv:2606.10933, June 2026) evaluated six coding agents across four esoteric languages (Brainfuck, Befunge-98, Whitespace, Shakespeare); 88.4pp spread vs 6.6pp on SWE-Bench Verified; top agents independently discover metaprogramming (Python generators) achieving 80/80 vs 27/80 direct authoring on Brainfuck; forbidding metaprogramming causes 63-66% performance collapse; mid-tier agents gain 5.3× from scaffolding (Sonnet 4.6: 12→64 on Brainfuck with helper library); weak agents gain nothing from additional resources; no existing article mapped these findings to Codex CLI AGENTS.md generator pipeline encoding, sandbox interpreter exposure, PreToolUse hook enforcement of generator discipline, or named profiles for capability-matched model selection
+   - SEO targets: "codex cli metaprogramming generator pipeline", "EsoLang-Bench coding agents", "codex cli esoteric language configuration", "metaprogramming coding agents strategy", "codex cli generator sandbox", "frontier agents unfamiliar languages", "codex cli AGENTS.md generator pattern"
+
+---
+
 ## SlopCodeBench Long-Horizon Code Degradation and Codex CLI Session Strategy (2026-06-18 Hourly Article Run)
 
 1. ✅ **SlopCodeBench: What the Long-Horizon Code Degradation Benchmark Means for Codex CLI Session Strategy** — Written 2026-06-18 → `2026-06-18-slopcodebench-long-horizon-code-degradation-codex-cli-session-strategy-erosion-defence.md`
