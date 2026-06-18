@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AgentFixer Failure Taxonomy and Codex CLI Validation Pipelines (2026-06-18 Hourly Article Run)
+
+1. ✅ **AgentFixer: What IBM's Failure Taxonomy Means for Codex CLI Validation Pipelines** — Written 2026-06-18 → `2026-06-18-agentfixer-failure-detection-taxonomy-codex-cli-validation-hooks-structured-output-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — AgentFixer (arXiv:2603.29848, Mulian et al., February 2026, ICSE 2026) introduced 15 failure-detection tools across 6 artifact categories; parsing failures account for 38% of all task failures; mid-tier models gained 7–8pp from validation vs 3pp for frontier models; applied to IBM CUGA on AppWorld (24 tasks) and WebArena (204 samples); no existing article mapped AgentFixer's failure taxonomy to Codex CLI PreToolUse/PostToolUse hooks, --output-schema structured output enforcement, codex doctor diagnostics, or named profiles for validation intensity scaling
+   - SEO targets: "agentfixer codex cli", "codex cli failure detection hooks", "agent parsing failure validation", "codex cli PostToolUse validation", "codex cli structured output schema", "agentfixer failure taxonomy coding agents", "codex cli validation pipeline defence"
+
+---
+
 ## Coding Agent Adoption Doubled in New GitHub Projects (2026-06-18 Hourly Article Run)
 
 1. ✅ **Agentic Very Much: Coding Agent Adoption Has Doubled in New GitHub Projects — What It Means for Codex CLI Teams** — Written 2026-06-18 → `2026-06-18-agentic-very-much-coding-agent-adoption-doubled-new-github-projects-codex-cli-team-configuration.md`
