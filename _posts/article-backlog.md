@@ -1,5 +1,13 @@
 # Article Backlog
 
+## HarnessX Composable Agent Harness Foundry and Codex CLI Configuration Evolution (2026-06-18 Hourly Article Run)
+
+1. ✅ **HarnessX: What the Composable Agent Harness Foundry Means for Codex CLI Configuration Evolution** — Written 2026-06-18 → `2026-06-18-harnessx-composable-evolvable-agent-harness-foundry-codex-cli-configuration-evolution-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — HarnessX (arXiv:2606.14249, Chen et al., 12 June 2026) introduced a composable, trace-driven foundry that evolves agent harnesses automatically via the AEGIS engine; achieved +14.5% average absolute gain across five benchmarks (up to +44.0% for weaker models); nine behavioural dimensions map to Codex CLI config.toml, AGENTS.md, hooks, and named profiles; inverse-scaling pattern shows weaker models benefit most from evolved harnesses; ensemble routing validates named profile task-routing; seesaw constraint formalises anti-regression discipline; no existing article covered HarnessX, the AEGIS evolution pipeline, the inverse-scaling pattern for harness gains, or the composable dimension taxonomy mapped to Codex CLI configuration primitives
+   - SEO targets: "harnessx codex cli", "composable agent harness evolution", "AEGIS harness evolution engine", "codex cli configuration evolution", "agent harness inverse scaling", "codex cli named profiles harness routing", "evolvable agent harness coding agents"
+
+---
+
 ## Codex CLI v0.141.0 Noise-Encrypted Remote Executors (2026-06-18 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.141.0: Noise-Encrypted Remote Executors, Cross-Platform Execution, and the Plugin Marketplace** — Written 2026-06-18 → `2026-06-18-codex-cli-v0141-noise-encrypted-remote-executors-cross-platform-plugin-marketplace.md`
