@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SlopCodeBench Long-Horizon Code Degradation and Codex CLI Session Strategy (2026-06-18 Hourly Article Run)
+
+1. ✅ **SlopCodeBench: What the Long-Horizon Code Degradation Benchmark Means for Codex CLI Session Strategy** — Written 2026-06-18 → `2026-06-18-slopcodebench-long-horizon-code-degradation-codex-cli-session-strategy-erosion-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — SlopCodeBench (arXiv:2603.24755, Orlanski et al., March 2026 revised May 2026) benchmarked 11 coding agents across 36 problems and 196 checkpoints showing no agent solves any problem end-to-end; best checkpoint solve rate 17.2% (Opus 4.6); structural erosion rises in 77% of trajectories; verbosity increases in 75.5%; agent code 2.3x more verbose and 2.0x more eroded than human repos; prompt interventions reduce initial slop by 34.5% but degradation slope unchanged; 47.9% cost increase with zero pass-rate improvement; no existing article mapped these findings to Codex CLI session forking cadence, PostToolUse complexity gates, subagent isolation for long-horizon work, or checkpoint verification with structured output
+   - SEO targets: "slopcodebench codex cli", "coding agent code degradation", "long horizon code quality agents", "codex cli session strategy erosion", "structural erosion coding agents", "codex cli PostToolUse complexity gate", "agent code verbosity defence"
+
+---
+
 ## Codex CLI Europe EEA Data Residency and GDPR Compliance (2026-06-17 Hourly Article Run)
 
 1. ✅ **Codex CLI in Europe: Data Residency, Bedrock Routing, and GDPR-Compliant Agent Configuration After the EEA Expansion** — Written 2026-06-17 → `2026-06-17-codex-cli-europe-eea-data-residency-gdpr-bedrock-routing-compliance-configuration.md`
