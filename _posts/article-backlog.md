@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agentic PR Rejection Taxonomy and Codex CLI Defence Patterns (2026-06-18 Hourly Article Run)
+
+1. ✅ **Why Nearly Half of Agentic Pull Requests Get Rejected — and How Codex CLI Can Cut the Waste** — Written 2026-06-18 → `2026-06-18-why-agentic-pull-requests-get-rejected-codex-cli-ci-gates-review-hooks-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — three converging 2026 studies (Abujadallah et al. arXiv:2606.13468, Nakashima et al. arXiv:2602.04226, Ehsani et al. arXiv:2601.15195) found 46.41% agentic PR rejection rate; 14 rejection reasons in 4 categories; 67.9% lack reviewer feedback; 7 rejection modes unique to agents including AI distrust; rejected PRs touch more files and fail CI more often; no existing article synthesised all three papers or mapped the rejection taxonomy to Codex CLI PostToolUse CI gates, Stop hooks, auto-review, AGENTS.md scope constraints, and named profiles for task-type routing
+   - SEO targets: "agentic pull request rejection", "codex cli PR rejection defence", "coding agent PR failure rate", "codex cli PostToolUse CI gate", "AIDev dataset agentic PRs", "codex cli auto-review PR quality", "why agent PRs get rejected 2026"
+
+---
+
 ## HarnessX Composable Agent Harness Foundry and Codex CLI Configuration Evolution (2026-06-18 Hourly Article Run)
 
 1. ✅ **HarnessX: What the Composable Agent Harness Foundry Means for Codex CLI Configuration Evolution** — Written 2026-06-18 → `2026-06-18-harnessx-composable-evolvable-agent-harness-foundry-codex-cli-configuration-evolution-patterns.md`
