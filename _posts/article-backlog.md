@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CoDA-Bench Data-Intensive Task Benchmark and Codex CLI File Discovery (2026-06-18 Hourly Article Run)
+
+1. ✅ **CoDA-Bench: What the Data-Intensive Task Benchmark Means for Codex CLI File Discovery and Sandbox Strategy** — Written 2026-06-18 → `2026-06-18-coda-bench-data-intensive-tasks-coding-agents-codex-cli-file-discovery-sandbox-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — CoDA-Bench (arXiv:2606.15300, Zhang et al., June 2026, accepted ICML 2026) is the first benchmark jointly evaluating code and data intelligence; 1,009 tasks across 31 Kaggle communities averaging 980.8 files per environment; best agent achieves only 61.1% execution accuracy; oracle experiments show 24-28pp recovery when correct file paths provided; Codex CLI consumes 4.7x more tokens than Claude Code for comparable accuracy; signal-to-noise ratio (not file count) is primary discovery failure predictor; no existing article covered CoDA-Bench or mapped its findings to Codex CLI sandbox readable_roots, AGENTS.md discovery protocols, subagent isolation for discovery-vs-generation, PostToolUse file validation hooks, or named profiles for data-intensive vs code-centric task routing
+   - SEO targets: "coda-bench codex cli", "codex cli data discovery", "coding agent data-intensive tasks", "codex cli file discovery strategy", "data discovery coding agents benchmark", "codex cli sandbox readable roots data", "codex cli token efficiency data tasks"
+
+---
+
 ## AgentFixer Failure Taxonomy and Codex CLI Validation Pipelines (2026-06-18 Hourly Article Run)
 
 1. ✅ **AgentFixer: What IBM's Failure Taxonomy Means for Codex CLI Validation Pipelines** — Written 2026-06-18 → `2026-06-18-agentfixer-failure-detection-taxonomy-codex-cli-validation-hooks-structured-output-defence.md`

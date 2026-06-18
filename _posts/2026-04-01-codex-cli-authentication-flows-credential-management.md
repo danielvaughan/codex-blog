@@ -2,7 +2,7 @@
 title: "Codex CLI Authentication: OAuth, Device Code, API Keys, and CI/CD Credential Management"
 description: "Every Codex CLI session begins with authentication, yet the auth system is one of the least-documented corners of the toolchain. Codex supports three."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-06-18T20:09:01+01:00
+last_modified_at: 2026-06-18T22:11:33+01:00
 tags:
   - security
   - credential-management
