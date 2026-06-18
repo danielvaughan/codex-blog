@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Literacy: A Practitioner's Guide to Reading Coding Agent Benchmarks Critically"
 parent: "Articles"
-nav_order: 1142
+nav_order: 1143
 tags: ["codex-cli", "benchmarks", "swe-bench", "terminal-bench", "kilobench", "codescalebench", "evaluation", "model-selection"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Agent Sycophancy and Confirmation Bias: Defence Patterns for Codex CLI"
 parent: "Articles"
-nav_order: 1148
+nav_order: 1149
 tags: ["codex-cli", "sycophancy", "confirmation-bias", "anti-sycophancy", "hooks", "AGENTS.md", "structured-output", "defence-patterns"]
 ---
 

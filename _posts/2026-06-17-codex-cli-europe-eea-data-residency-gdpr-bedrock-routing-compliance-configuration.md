@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI in Europe: Data Residency, Bedrock Routing, and GDPR-Compliant Agent Configuration After the EEA Expansion"
 parent: "Articles"
-nav_order: 1145
+nav_order: 1146
 tags: ["codex-cli", "europe", "eea", "gdpr", "data-residency", "amazon-bedrock", "compliance", "configuration", "eu-ai-act"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Do Programming Languages Still Matter? What the Chess Engine Polyglot Study Means for Codex CLI Language Selection and Cost Strategy"
 description: "A polyglot study built 34 chess engines in 17 languages using Codex CLI and Claude Code. The results refute 'language doesn't matter' and reveal concrete cost and performance implications for Codex CLI practitioners."
 parent: "Articles"
-nav_order: 1144
+nav_order: 1145
 tags: ["language-selection", "polyglot", "chess-engine", "cost-optimisation", "codex-cli", "model-routing", "agents-md", "benchmarks", "research"]
 ---
 

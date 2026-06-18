@@ -1,7 +1,7 @@
 ---
 title: "OKF Implementation Guide: Building Agent-Ready Knowledge Bundles for Codex CLI via MCP"
 parent: "Articles"
-nav_order: 1146
+nav_order: 1147
 tags: ["codex-cli", "okf", "open-knowledge-format", "mcp", "knowledge-management", "context-engineering", "google-cloud"]
 ---
 

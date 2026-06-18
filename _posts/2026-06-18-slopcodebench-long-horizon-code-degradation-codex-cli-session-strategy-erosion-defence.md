@@ -1,7 +1,7 @@
 ---
 title: "SlopCodeBench: What the Long-Horizon Code Degradation Benchmark Means for Codex CLI Session Strategy"
 parent: "Articles"
-nav_order: 1147
+nav_order: 1148
 tags: ["codex-cli", "slopcodebench", "code-quality", "long-horizon", "session-management", "erosion", "verbosity", "AGENTS-md", "hooks"]
 ---
 
