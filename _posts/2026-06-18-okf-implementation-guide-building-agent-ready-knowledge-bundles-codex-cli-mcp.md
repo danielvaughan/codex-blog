@@ -8,6 +8,8 @@ tags: ["codex-cli", "okf", "open-knowledge-format", "mcp", "knowledge-management
 # OKF Implementation Guide: Building Agent-Ready Knowledge Bundles for Codex CLI via MCP
 
 
+---
+
 Google Cloud published the Open Knowledge Format (OKF) v0.1 specification on 12 June 2026, formalising the "LLM wiki" pattern into a vendor-neutral, agent-readable standard [^1]. The spec is deliberately minimal — one required field, a handful of optional ones, and a directory of Markdown files with YAML frontmatter — yet it unlocks a surprisingly powerful knowledge layer for coding agents.
 
 This article walks through building your first OKF bundle, connecting it to Codex CLI via an MCP server, running Google's reference enrichment agent, and measuring knowledge quality. If you have already read the conceptual coverage in the premium article on OKF and context engineering, this is the hands-on companion.

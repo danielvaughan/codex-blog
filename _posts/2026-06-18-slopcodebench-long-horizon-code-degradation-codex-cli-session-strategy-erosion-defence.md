@@ -115,7 +115,7 @@ Each subagent starts with a clean context window and cannot accumulate
 the degradation patterns that emerge in long-running sessions.
 ```
 
-Subagents start with clean context windows, sidesteping the monotonic degradation the benchmark measures [^5]. The parent agent handles integration, where the scope is narrow enough to resist erosion.
+Subagents start with clean context windows, sidestepping the monotonic degradation the benchmark measures [^5]. The parent agent handles integration, where the scope is narrow enough to resist erosion.
 
 ### 5. Checkpoint Verification with Structured Output
 
