@@ -1,7 +1,7 @@
 ---
 title: "When Coding Agents Should Ask Instead of Guess: What ClarEval and the Uncertainty-Aware Multi-Agent Study Mean for Codex CLI"
 parent: "Articles"
-nav_order: 1159
+nav_order: 1162
 tags: ["codex-cli", "clarification", "ClarEval", "ambiguity", "plan-mode", "AGENTS.md", "approval-modes", "collaborative-agents"]
 ---
 

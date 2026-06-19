@@ -1,7 +1,7 @@
 ---
 title: "The Agent Testing Lifecycle: From Test-Driven Development Through Test Evolution to Review Architecture with Codex CLI"
 parent: "Articles"
-nav_order: 1158
+nav_order: 1161
 tags: ["codex-cli", "testing", "tdd", "test-evolution", "hooks", "review-architecture", "jit-testing", "agent-testing"]
 ---
 

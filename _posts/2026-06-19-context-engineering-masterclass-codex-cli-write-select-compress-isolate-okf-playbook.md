@@ -1,7 +1,7 @@
 ---
 title: "Context Engineering Masterclass: The Write-Select-Compress-Isolate Playbook for Codex CLI"
 parent: "Articles"
-nav_order: 1157
+nav_order: 1160
 tags: ["context-engineering", "codex-cli", "AGENTS.md", "OKF", "compaction", "subagents", "token-efficiency", "advanced"]
 ---
 
