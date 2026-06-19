@@ -1,5 +1,13 @@
 # Article Backlog
 
+## FastContext Repository Explorer and Codex CLI Exploration Strategy (2026-06-20 Hourly Article Run)
+
+1. ✅ **FastContext: What Microsoft's Repository Explorer Means for Codex CLI Exploration Strategy** — Written 2026-06-20 → `2026-06-20-fastcontext-repository-explorer-coding-agents-codex-cli-exploration-subagent-token-reduction.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhang et al. (arXiv:2606.14066, Microsoft Research, June 2026 revised 18 June 2026) introduced FastContext, a dedicated 4B-parameter exploration subagent that separates repository exploration from solving; 4B-RL model cuts main-agent token consumption by up to 60% and lifts SWE-bench resolution rates by up to 5.5pp; outperforms CodeScout-14B at a third the size; trained via SFT on 2,954 Sonnet 4.6 trajectories plus RL with patch-derived rewards; no existing article covered FastContext or mapped its findings to Codex CLI tool_output_token_limit capping, AGENTS.md exploration directives, codex exec pre-exploration pipelines, context compaction prevention-over-compression, named profiles for model right-sizing, or MCP integration for dedicated exploration tools
+   - SEO targets: "fastcontext codex cli", "repository exploration coding agents", "codex cli exploration subagent", "fastcontext microsoft 4B model", "codex cli token reduction exploration", "coding agent context pollution", "codex cli tool_output_token_limit exploration"
+
+---
+
 ## Coding Agents Are "Fixing" Correct Code — FixedBench and Codex CLI Abstain-Before-Patch Discipline (2026-06-19 Hourly Article Run)
 
 1. ✅ **Coding Agents Are "Fixing" Correct Code: What FixedBench Means for Codex CLI Abstain-Before-Patch Discipline** — Written 2026-06-19 → `2026-06-19-coding-agents-fixing-correct-code-fixedbench-codex-cli-abstain-reproduce-before-patch-action-bias.md`
