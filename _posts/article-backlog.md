@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-CI Continuous Integration Maintenance Benchmark and Codex CLI Regression Defence (2026-06-19 Hourly Article Run)
+
+1. ✅ **SWE-CI: What the Continuous Integration Maintenance Benchmark Means for Codex CLI Regression Defence** — Written 2026-06-19 → `2026-06-19-swe-ci-continuous-integration-maintenance-benchmark-codex-cli-evoscore-regression-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — SWE-CI (arXiv:2603.03823, Chen et al., March 2026 revised April 2026) is the first repository-level benchmark built on the CI loop; 100 tasks from 68 Python repositories averaging 233 days and 71 commits; dual-agent Architect/Programmer protocol with up to 20 iterations; EvoScore metric future-weights later iterations to reward maintainability over short-term gains; zero-regression rates below 0.25 for most models (only Claude Opus exceeds 0.5); code style paradox where 15/20 models beat humans on Pylint but all 20 underperform on Maintainability Index; consumed 10B+ tokens; no existing article covered SWE-CI or mapped its findings to Codex CLI PostToolUse regression gates, Stop hook quality thresholds, AGENTS.md architect/programmer separation, named profiles for maintenance routing, or codex exec CI pipeline patterns
+   - SEO targets: "swe-ci codex cli", "codex cli regression defence", "EvoScore coding agent maintainability", "codex cli PostToolUse regression gate", "continuous integration coding agent benchmark", "codex cli maintenance configuration", "agent code maintainability gap"
+
+---
+
 ## Less Context Better Agents: Context Engineering for Codex CLI (2026-06-19 Hourly Article Run)
 
 1. ✅ **Less Context, Better Agents: What the Microsoft Context Engineering Study Means for Codex CLI Session Strategy** — Written 2026-06-19 → `2026-06-19-less-context-better-agents-efficient-context-engineering-codex-cli-pruning-summarisation-strategy.md`
