@@ -196,7 +196,7 @@ Discard:
 
 ### SkillReducer Patterns for AGENTS.md
 
-SkillReducer's analysis of 55,315 agent skills found that 61.5% of body content is non-actionable, and reference-heavy skills inject tens of thousands of tokens per invocation [^12]. Apply the same progressive disclosure pattern to AGENTS.md:
+SkillReducer's analysis of 55,315 agent skills found that over 60% of body content is non-actionable, and reference-heavy skills inject tens of thousands of tokens per invocation [^12]. Apply the same progressive disclosure pattern to AGENTS.md:
 
 **Anti-pattern** — monolithic AGENTS.md:
 ```markdown

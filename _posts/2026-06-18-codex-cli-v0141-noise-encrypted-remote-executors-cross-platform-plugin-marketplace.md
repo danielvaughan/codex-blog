@@ -43,7 +43,7 @@ The problem: once past the SSH tunnel, the relay between app-server and exec-ser
 
 ## What the Noise Protocol Brings
 
-The Noise Protocol Framework, designed by Trevor Perrin and first specified in 2015, is the same cryptographic foundation that secures WireGuard, WhatsApp, and Slack [^6]. It defines a family of handshake patterns built on Diffie-Hellman key agreement, AEAD symmetric encryption (typically ChaCha20-Poly1305 or AES-GCM), and cryptographic hashes (BLAKE2 or SHA-256) [^7].
+The Noise Protocol Framework, designed by Trevor Perrin and first specified in 2015, is the same cryptographic foundation that secures WireGuard, WhatsApp (via the Signal Protocol), and Signal [^6]. It defines a family of handshake patterns built on Diffie-Hellman key agreement, AEAD symmetric encryption (typically ChaCha20-Poly1305 or AES-GCM), and cryptographic hashes (BLAKE2 or SHA-256) [^7].
 
 ### Why Noise Rather Than TLS?
 
