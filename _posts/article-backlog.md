@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Carbon Footprint of Coding Agents and Codex CLI Token Efficiency (2026-06-19 Hourly Article Run)
+
+1. ✅ **The Carbon Footprint of Coding Agents: What 250,000 Tonnes of CO₂ Means for Codex CLI Token Strategy** — Written 2026-06-19 → `2026-06-19-carbon-footprint-coding-agents-codex-cli-token-efficiency-green-software-sustainability.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — CNaught March 2026 analysis estimated 250,000 tonnes CO₂/year from AI coding agents with 5.4× growth in six months; 613g CO₂e per commit; Green Software Foundation SCI for AI specification ratified December 2025; Simon Couch measured 41 Wh per median coding agent session (138× typical query); agentic tasks consume up to 1,000× more tokens than equivalent interactions; 30× variance in token consumption without accuracy correlation; no existing article covered coding agent carbon footprint, SCI for AI measurement standards, or mapped environmental impact to Codex CLI token efficiency levers including named profiles for model routing, context compaction thresholds, prompt caching, bounded retry hooks, codex exec batch mode, or /usage visibility
+   - SEO targets: "coding agent carbon footprint", "codex cli token efficiency sustainability", "AI coding agent CO2 emissions", "SCI for AI coding agents", "codex cli green software", "coding agent energy consumption", "codex cli carbon reduction token strategy"
+
+---
+
 ## SWE-CI Continuous Integration Maintenance Benchmark and Codex CLI Regression Defence (2026-06-19 Hourly Article Run)
 
 1. ✅ **SWE-CI: What the Continuous Integration Maintenance Benchmark Means for Codex CLI Regression Defence** — Written 2026-06-19 → `2026-06-19-swe-ci-continuous-integration-maintenance-benchmark-codex-cli-evoscore-regression-defence.md`
