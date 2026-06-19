@@ -7260,7 +7260,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 - **Gap:** Seven testing articles now exist (TDAD 5.0, "Always Run Tests" 4.8, Three Layers 4.8, TDD Governance 4.4, TEBench 4.6, Safer Builders 5.0, End of Code Review 5.0) but no unified premium piece covers the full testing lifecycle from test-driven development through test evolution to review architecture.
 - **Priority:** Medium — strong existing coverage but no capstone.
 
-### 📝 Multi-Provider Resilience Playbook (Premium)
+### ✅ Multi-Provider Resilience Playbook (Premium) — Written 2026-06-19 → `2026-06-19-multi-provider-resilience-playbook-codex-cli-failover-routing-regulatory-risk-credential-management.md`
 - **Gap:** The Fable 5 Export Control (5.0) and Gemini CLI Shutdown (4.5) articles document provider-level disruption risks. No premium piece synthesises the full multi-provider resilience strategy — failover chains, model routing, credential management, regulatory risk — into a single playbook.
 - **Priority:** Medium — the Fable 5 article created a new risk category that deserves premium treatment.
 
