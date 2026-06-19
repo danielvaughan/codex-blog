@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Less Context Better Agents: Context Engineering for Codex CLI (2026-06-19 Hourly Article Run)
+
+1. ✅ **Less Context, Better Agents: What the Microsoft Context Engineering Study Means for Codex CLI Session Strategy** — Written 2026-06-19 → `2026-06-19-less-context-better-agents-efficient-context-engineering-codex-cli-pruning-summarisation-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Lodha et al. (arXiv:2606.10209, June 2026) evaluated four context-management strategies across 50 enterprise automation tasks showing full history is actively harmful (71% completion) vs recency pruning + summarisation (91.6% completion at 63.9% fewer tokens); cross-validated with Claude Sonnet 4.5; converges with AdaCoM (arXiv:2605.30785), SWE-Pruner (arXiv:2601.16746), and SlopCodeBench findings; no existing article mapped these findings to Codex CLI tool_output_token_limit tuning, model_auto_compact_token_limit thresholds, custom compact_prompt strategies, named profiles for model-specific context policies, or session forking as architectural pruning
+   - SEO targets: "codex cli context engineering", "less context better agents codex cli", "codex cli tool_output_token_limit", "codex cli context compaction tuning", "coding agent context pruning strategy", "codex cli session forking context management", "stale context coding agent failure"
+
+---
+
 ## Record and Replay: Demonstrated Workflows as Reusable Agent Skills (2026-06-19 Hourly Article Run)
 
 1. ✅ **Record and Replay: Turning macOS Demonstrations into Reusable Codex Agent Skills** — Written 2026-06-19 → `2026-06-19-codex-record-and-replay-demonstrated-workflows-reusable-agent-skills-macos.md`
