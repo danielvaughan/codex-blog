@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Record and Replay: Demonstrated Workflows as Reusable Agent Skills (2026-06-19 Hourly Article Run)
+
+1. ✅ **Record and Replay: Turning macOS Demonstrations into Reusable Codex Agent Skills** — Written 2026-06-19 → `2026-06-19-codex-record-and-replay-demonstrated-workflows-reusable-agent-skills-macos.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex app 26.616 (18 June 2026) shipped Record & Replay, a macOS feature that captures demonstrated workflows and generates SKILL.md files following the Open Agent Skills Standard; no existing article covered Record & Replay mechanics, skill generation pipeline, CLI integration patterns for replaying generated skills via codex exec, context budget constraints, regional restrictions (EEA/UK/Switzerland excluded), or the record-on-desktop/replay-on-CLI workflow split
+   - SEO targets: "codex record and replay", "codex cli agent skills", "SKILL.md open standard", "codex demonstrated workflow automation", "codex cli reusable skills", "codex macos computer use skills", "record and replay codex 2026"
+
+---
+
 ## SWE-Chain Chained Release Upgrades and Codex CLI Migration Pipelines (2026-06-19 Hourly Article Run)
 
 1. ✅ **SWE-Chain: What the Chained Release Upgrade Benchmark Means for Codex CLI Migration Pipelines** — Written 2026-06-19 → `2026-06-19-swe-chain-chained-release-upgrades-codex-cli-sequential-migration-pipeline-strategy.md`
