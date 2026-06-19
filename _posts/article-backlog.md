@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Don't Break the Cache: Prompt Caching Research for Codex CLI Cost and Latency Optimisation (2026-06-19 Hourly Article Run)
+
+1. ✅ **Don't Break the Cache: What the Prompt Caching Research Means for Codex CLI Cost and Latency Optimisation** — Written 2026-06-19 → `2026-06-19-dont-break-the-cache-prompt-caching-research-codex-cli-cost-latency-optimisation-agent-loop.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Lumer et al. (arXiv:2601.06007, January 2026) evaluated three prompt caching strategies across OpenAI, Anthropic, and Google on 500+ agent sessions showing 41–80% cost reduction and 13–31% TTFT improvement; naive full-context caching paradoxically increased latency; system-prompt-only caching most consistent; no existing article mapped these findings to Codex CLI model_auto_compact_token_limit tuning, tool_output_token_limit bounding, compact_prompt customisation, AGENTS.md stability requirements, MCP server version pinning, named profiles for cache-aware routing, or the compaction–cache trade-off
+   - SEO targets: "codex cli prompt caching optimisation", "don't break the cache coding agents", "codex cli cost reduction prompt caching", "codex cli latency optimisation", "prompt caching agent loop", "codex cli compaction cache trade-off", "codex cli tool_output_token_limit caching"
+
+---
+
 ## Carbon Footprint of Coding Agents and Codex CLI Token Efficiency (2026-06-19 Hourly Article Run)
 
 1. ✅ **The Carbon Footprint of Coding Agents: What 250,000 Tonnes of CO₂ Means for Codex CLI Token Strategy** — Written 2026-06-19 → `2026-06-19-carbon-footprint-coding-agents-codex-cli-token-efficiency-green-software-sustainability.md`
