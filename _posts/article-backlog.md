@@ -7244,7 +7244,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 - **Gap:** The library now has twelve security articles averaging 4.7 composite (Miasma Worm 5.0, Agentjacking 5.0, Slopsquatting 5.0, Skill Supply Chain 5.0, Prompt Injection Impossibility 4.8, SymJack 4.8, Windows Binary Hijacking 4.8, MCP Ambient Authority 4.8, BountyBench 4.8, Lockdown Mode 4.6, Command Safety 4.4, OWASP MCP 4.4). No single premium piece synthesises the full threat landscape into a unified security architecture. A "Well-Architected Security for Coding Agents" consolidation — mapping all twelve attack classes to the five-layer defence model from premium #59 — would be the definitive security reference.
 - **Priority:** High — the strongest cluster in the library deserves a capstone piece.
 
-### 📝 Context Engineering Masterclass (Premium)
+### ✅ Context Engineering Masterclass (Premium) — Written 2026-06-19 → `2026-06-19-context-engineering-masterclass-codex-cli-write-select-compress-isolate-okf-playbook.md`
 - **Gap:** Context engineering is now covered by seven articles (Context Engineering 4.8, Context Pruning 4.6, ContextCov 4.8, SWE-Explore 4.6, GCC 4.3, SkillReducer 4.3, premium #60 OKF 5.0) but no premium piece synthesises the full context engineering discipline — Write, Select, Compress, Isolate, plus OKF knowledge layer — into a single actionable playbook.
 - **Priority:** High — Gartner identifies context engineering as breakout AI capability of 2026.
 

@@ -2,7 +2,7 @@
 title: "AI Slopageddon and the Open-Source Contribution Crisis: How Codex CLI's Invitation-Only Model Signals a New Era"
 description: "In January 2026, three critical open-source projects took unprecedented defensive measures within weeks of each other. cURL shut down its bug bounty."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-06-19T00:10:08+01:00
+last_modified_at: 2026-06-19T02:10:32+01:00
 tags:
   - opinion
   - open-source
