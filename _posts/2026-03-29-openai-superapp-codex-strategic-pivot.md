@@ -2,7 +2,7 @@
 title: "OpenAI's Superapp Pivot: What the ChatGPT + Codex + Atlas Merger Means for Practitioners"
 description: "On March 19, 2026, The Wall Street Journal published details from an internal OpenAI memo written by Fidji Simo (CEO of Applications) announcing a major."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-06-19T04:08:04+01:00
+last_modified_at: 2026-06-19T06:09:21+01:00
 tags:
   - opinion
   - product-direction

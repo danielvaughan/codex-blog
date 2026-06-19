@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ClarEval and Ask-or-Assume Clarification Studies for Codex CLI (2026-06-19 Hourly Article Run)
+
+1. ✅ **When Coding Agents Should Ask Instead of Guess: What ClarEval and the Uncertainty-Aware Multi-Agent Study Mean for Codex CLI** — Written 2026-06-19 → `2026-06-19-clareval-ask-or-assume-coding-agent-clarification-codex-cli-plan-mode-agents-md.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — ClarEval (arXiv:2603.00187, Li, Wu & Chang, February 2026) benchmarked 11 agents across 2,250 ambiguous programming tasks showing 80pp gap between ambiguous (8.94% Pass@1) and clarified (89.02%); companion paper "Ask or Assume?" (arXiv:2603.26233, Edwards & Schuster, March 2026 revised June 2026) demonstrated multi-agent clarification scaffold achieving 69.40% task resolution vs 54.80% silent baseline on underspecified SWE-bench Verified; no existing article mapped ClarEval's three ambiguity categories and KQC/ATC metrics or the uncertainty-aware multi-agent architecture to Codex CLI plan mode, AGENTS.md clarification directives, suggest mode as collaboration enabler, named profiles for ambiguity intensity, or session forking for clarification-then-implementation workflows
+   - SEO targets: "codex cli clarification", "ClarEval coding agents", "codex cli plan mode ambiguity", "ask or assume coding agents", "codex cli AGENTS.md clarification", "coding agent ambiguity failure rate", "codex cli suggest mode collaboration"
+
+---
+
 ## CAID Optimal Parallelism and Codex CLI Subagent Delegation (2026-06-19 Hourly Article Run)
 
 1. ✅ **CAID: What Optimal Parallelism Research Means for Codex CLI Subagent Delegation** — Written 2026-06-19 → `2026-06-19-caid-optimal-parallelism-async-software-engineering-agents-codex-cli-subagent-delegation.md`
