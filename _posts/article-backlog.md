@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Coding Agents Are "Fixing" Correct Code — FixedBench and Codex CLI Abstain-Before-Patch Discipline (2026-06-19 Hourly Article Run)
+
+1. ✅ **Coding Agents Are "Fixing" Correct Code: What FixedBench Means for Codex CLI Abstain-Before-Patch Discipline** — Written 2026-06-19 → `2026-06-19-coding-agents-fixing-correct-code-fixedbench-codex-cli-abstain-reproduce-before-patch-action-bias.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Gloaguen et al. (arXiv:2605.07769, May 2026, ETH Zurich SRI Lab) introduced FixedBench, 200 human-verified SWE-bench instances where the bug is already fixed; no model exceeded 70% empty-patch success rate; GPT 5.3-Codex scored 68%, Sonnet 4.6 65%, Gemini 3 Pro 36.5%; explicit "abstain if resolved" prompting improved GPT 5.4 mini from 60.5% to 88.5% but created false-abstention failure on partially-fixed issues; no existing article covered FixedBench, the action bias taxonomy, or mapped findings to Codex CLI AGENTS.md reproduction-first directives, plan mode investigation checkpoints, Stop hook cosmetic-patch detection, or named maintenance profiles
+   - SEO targets: "codex cli fixedbench", "coding agents fixing correct code", "codex cli abstain before patch", "action bias coding agents", "codex cli reproduce before fix", "fixedbench empty patch rate", "codex cli maintenance mode action bias"
+
+---
+
 ## Don't Break the Cache: Prompt Caching Research for Codex CLI Cost and Latency Optimisation (2026-06-19 Hourly Article Run)
 
 1. ✅ **Don't Break the Cache: What the Prompt Caching Research Means for Codex CLI Cost and Latency Optimisation** — Written 2026-06-19 → `2026-06-19-dont-break-the-cache-prompt-caching-research-codex-cli-cost-latency-optimisation-agent-loop.md`
