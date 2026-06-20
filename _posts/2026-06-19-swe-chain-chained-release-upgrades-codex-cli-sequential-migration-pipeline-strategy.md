@@ -53,7 +53,7 @@ Chain difficulty varies dramatically, from 23.3% to 68.5% average resolving rate
 
 The implication for Codex CLI is clear: running an entire upgrade chain in a single session is a recipe for compounding errors. Context accumulates, earlier mistakes become invisible, and the agent loses the ability to distinguish its own drift from intentional upstream changes.
 
-The remedy is **one session per version transition**, using `codex fork` to branch from a verified checkpoint:
+The remedy is **one session per version transition**, using `codex fork` to branch from a verified checkpoint [^4] [^5]:
 
 ```bash
 # Transition 1: upgrade from v2.0 to v2.1

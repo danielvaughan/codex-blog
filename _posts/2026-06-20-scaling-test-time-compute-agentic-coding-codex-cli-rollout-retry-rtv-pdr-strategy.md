@@ -82,7 +82,7 @@ Codex CLI already provides a built-in best-of-N mechanism via the `--attempts` f
 codex cloud exec --env ENV_ID --attempts 4 "Refactor the authentication module to use JWT"
 ```
 
-The `--attempts` parameter accepts values 1–4, instructing Codex Cloud to run multiple independent attempts and select the best result [^3]. This is essentially naive best-of-N — the baseline that Kim et al. improved upon.
+The `--attempts` parameter accepts values 1–4, instructing Codex Cloud to run multiple independent attempts and select the best result [^3] [^6]. This is essentially naive best-of-N — the baseline that Kim et al. improved upon.
 
 ### Building RTV-Style Selection with Shell Scripts
 
@@ -121,7 +121,7 @@ Codex CLI's session fork mechanism [^4] provides the sequential scaling primitiv
 codex fork --from 2026-06-20T10-30-00Z-abc123
 ```
 
-The research suggests this is more effective when you **compact before forking** — using `model_auto_compact_token_limit` to strip low-signal context before the fork, mirroring the paper's structured summary approach [^1].
+The research suggests this is more effective when you **compact before forking** — using `model_auto_compact_token_limit` to strip low-signal context before the fork, mirroring the paper's structured summary approach [^1] [^5].
 
 ```toml
 # config.toml — aggressive compaction before fork points
