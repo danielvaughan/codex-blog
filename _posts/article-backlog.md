@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Mastra npm Supply Chain Attack and Codex CLI Postinstall Defence (2026-06-20 Hourly Article Run)
+
+1. ✅ **The Mastra Attack: What a North Korean Supply Chain Compromise of an AI Agent Framework Means for Codex CLI Defence** — Written 2026-06-20 → `2026-06-20-mastra-npm-supply-chain-attack-codex-cli-postinstall-defence-npm-v12-agent-hardening.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sapphire Sleet (North Korean state actor) compromised 142 @mastra npm packages on 17 June 2026 via stale maintainer credential and easy-day-js typosquat with obfuscated postinstall dropper; cross-platform RAT targeted LLM API keys, cloud credentials, CI/CD tokens, and cryptocurrency wallets; 1.1M+ combined weekly downloads affected; npm v12 (July 2026) will block install scripts by default as ecosystem response; no existing article covered the Mastra attack, Sapphire Sleet attribution, npm v12 approve-scripts mechanism, or mapped these findings to Codex CLI sandbox network isolation, PreToolUse hook npm install guards, AGENTS.md dependency policy encoding, lockfile discipline via PostToolUse verification, or npm v12 migration preparation
+   - SEO targets: "mastra npm supply chain attack codex cli", "codex cli postinstall defence", "sapphire sleet ai agent framework", "npm v12 codex cli", "codex cli npm install security", "easy-day-js typosquat codex", "codex cli supply chain hardening npm"
+
+---
+
 ## FastContext Repository Explorer and Codex CLI Exploration Strategy (2026-06-20 Hourly Article Run)
 
 1. ✅ **FastContext: What Microsoft's Repository Explorer Means for Codex CLI Exploration Strategy** — Written 2026-06-20 → `2026-06-20-fastcontext-repository-explorer-coding-agents-codex-cli-exploration-subagent-token-reduction.md`
