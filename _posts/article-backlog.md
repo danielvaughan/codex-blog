@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Before the Pull Request: Multi-Agent Coordination for Codex CLI (2026-06-20 Hourly Article Run)
+
+1. ✅ **Before the Pull Request: What the Multi-Agent Coordination Research Means for Codex CLI Parallel Workflows** — Written 2026-06-20 → `2026-06-20-before-the-pull-request-multi-agent-coordination-codex-cli-grite-duplicate-work-prevention.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sarkar (arXiv:2606.19616, 17 June 2026) introduced grite, a git-native CRDT coordination substrate, and measured 78% duplicate-work rate among 32 concurrent agents without coordination; advisory locks alone only reduced duplicates to 64%; combining locks with shared completion state eliminated duplicate work entirely and tripled goodput; no existing article covered the grite coordination system, the 78% waste measurement, or mapped pre-PR coordination failures to Codex CLI worktree isolation, AGENTS.md coordination directives, PostToolUse conflict detection hooks, named profiles for parallel-aware agents, or subagent task-claim patterns
+   - SEO targets: "codex cli multi-agent coordination", "grite git coordination coding agents", "duplicate work coding agents", "codex cli parallel workflow coordination", "multi-agent duplicate prevention", "before the pull request coding agents", "codex cli worktree coordination hooks"
+
+---
+
 ## MiniMax M3 Open-Weight Frontier Coding Model and Codex CLI Model Routing (2026-06-20 Hourly Article Run)
 
 1. ✅ **MiniMax M3: What the First Open-Weight Model to Beat GPT-5.5 on SWE-Bench Pro Means for Codex CLI Model Routing** — Written 2026-06-20 → `2026-06-20-minimax-m3-open-weight-frontier-coding-model-codex-cli-model-routing-cost-strategy.md`
