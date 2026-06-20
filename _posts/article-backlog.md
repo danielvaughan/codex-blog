@@ -1,5 +1,13 @@
 # Article Backlog
 
+## N-Version Programming with Coding Agents and Codex CLI Multi-Model Resilience (2026-06-20 Hourly Article Run)
+
+1. ✅ **N-Version Programming with Coding Agents: What the Knight–Leveson Replication Means for Codex CLI Multi-Model Resilience** — Written 2026-06-20 → `2026-06-20-n-version-programming-coding-agents-codex-cli-diversity-majority-voting-multi-model-resilience.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ron, Baudry, and Monperrus (arXiv:2606.20158, 18 June 2026) replicated the 1986 Knight–Leveson experiment with 48 AI-generated implementations across 5 agent systems, 23 models, and 3 languages; 1,000,000 randomised test inputs; three-version majority voting reduced mean failures from 387.44 to 130.99 (66.2% reduction); 68.48% of triples exhibited zero failures; common-mode failure z-statistic of 29.20 comprehensively rejects independence; Python shows weakest coupling (z=80.69), Pascal strongest (z=253.30); no existing article covered the Knight–Leveson replication, N-version programming for coding agents, or mapped diversity findings to Codex CLI named profiles for cross-model generation, codex exec parallel generation, PostToolUse voting gates, AGENTS.md specification hardening, or --attempts best-of-N patterns
+   - SEO targets: "n-version programming coding agents", "codex cli multi-model diversity", "codex cli majority voting", "knight leveson coding agents", "codex cli fault tolerance", "codex exec multi-model resilience", "coding agent common-mode failure"
+
+---
+
 ## Before the Pull Request: Multi-Agent Coordination for Codex CLI (2026-06-20 Hourly Article Run)
 
 1. ✅ **Before the Pull Request: What the Multi-Agent Coordination Research Means for Codex CLI Parallel Workflows** — Written 2026-06-20 → `2026-06-20-before-the-pull-request-multi-agent-coordination-codex-cli-grite-duplicate-work-prevention.md`
