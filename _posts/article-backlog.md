@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Noise Protocol Relay Channels in Codex CLI v0.141 (2026-06-20 Hourly Article Run)
+
+1. ✅ **Noise Protocol Relay Channels in Codex CLI v0.141: End-to-End Encrypted Remote Execution** — Written 2026-06-20 → `2026-06-20-codex-cli-v0141-noise-protocol-relay-channels-remote-executor-end-to-end-encrypted-security.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.141.0 (18 June 2026) replaced bearer-token WebSocket transport for remote executors with authenticated, end-to-end encrypted Noise relay channels; cross-platform remote execution now preserves executor-native working directories and shells; Noise Protocol Framework (Trevor Perrin) provides mutual authentication, forward secrecy, identity hiding, and relay opacity — same cryptographic foundation as WireGuard and WhatsApp; no existing article covered the Noise relay channel architecture, the shift from bearer-token to key-based authentication for remote executors, relay opacity for enterprise proxy compliance, or mapped these changes to AGENTS.md remote execution policies, named profiles for environment routing, or CI pipeline key-based authentication patterns
+   - SEO targets: "codex cli noise protocol", "codex cli remote execution encryption", "codex cli v0.141 security", "codex cli end-to-end encrypted remote", "codex cli exec-server noise relay", "codex cli enterprise remote execution security", "noise protocol relay coding agents"
+
+---
+
 ## Scaling Test-Time Compute for Agentic Coding and Codex CLI Retry Strategy (2026-06-20 Hourly Article Run)
 
 1. ✅ **Scaling Test-Time Compute for Agentic Coding: What the Rollout Summary Research Means for Codex CLI Retry Strategy** — Written 2026-06-20 → `2026-06-20-scaling-test-time-compute-agentic-coding-codex-cli-rollout-retry-rtv-pdr-strategy.md`
