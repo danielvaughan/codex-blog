@@ -66,7 +66,7 @@ Microsoft released models at two scales on Hugging Face[^3]:
 
 | Model | Parameters | Training | File-Level F1 |
 |-------|-----------|----------|---------------|
-| FastContext-1.0-4B-SFT | 4B | Supervised | 69.2 |
+| FastContext-1.0-4B-SFT | 4B | Supervised | 70.6 |
 | FastContext-1.0-4B-RL | 4B | SFT + RL | 71.5 |
 | FastContext-1.0-30B-SFT | 30B | Supervised | 73.7 |
 
