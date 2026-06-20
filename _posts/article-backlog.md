@@ -1,5 +1,13 @@
 # Article Backlog
 
+## StaminaBench: Stress-Testing Coding Agents over 100 Turns and Codex CLI Session Strategy (2026-06-20 Hourly Article Run)
+
+1. ✅ **StaminaBench: What Stress-Testing Coding Agents over 100 Turns Means for Codex CLI Session Strategy** — Written 2026-06-20 → `2026-06-20-staminabench-stress-testing-coding-agents-100-turns-codex-cli-session-stamina-harness-retry-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sobal et al. (arXiv:2606.19613, 19 June 2026) introduced StaminaBench, 100-turn procedurally-generated REST API modification sequences across 6 harnesses and 7 open-source LLMs; all models fail within 5-6 turns without feedback; GLM-5 + OpenCode reached 57 turns with R=2 retries (12× improvement); up to 6× variance from harness choice alone; provider-specific harnesses underperformed generic alternatives; infrastructure failures (tool-call formatting, pkill, compaction crashes) dominate over coding bugs at higher retry budgets; no existing article covered StaminaBench or mapped its findings to Codex CLI PostToolUse test hooks as structured feedback, session forking as context refresh, model_auto_compact_token_limit tuning against compaction crashes, AGENTS.md instruction anchoring against progressive disregard, or named profiles for retry-budget routing
+   - SEO targets: "staminabench codex cli", "coding agent stamina 100 turns", "codex cli session strategy long horizon", "codex cli retry budget", "coding agent harness quality", "codex cli PostToolUse test feedback", "staminabench stress test coding agents"
+
+---
+
 ## N-Version Programming with Coding Agents and Codex CLI Multi-Model Resilience (2026-06-20 Hourly Article Run)
 
 1. ✅ **N-Version Programming with Coding Agents: What the Knight–Leveson Replication Means for Codex CLI Multi-Model Resilience** — Written 2026-06-20 → `2026-06-20-n-version-programming-coding-agents-codex-cli-diversity-majority-voting-multi-model-resilience.md`
