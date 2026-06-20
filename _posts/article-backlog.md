@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Scaling Test-Time Compute for Agentic Coding and Codex CLI Retry Strategy (2026-06-20 Hourly Article Run)
+
+1. ✅ **Scaling Test-Time Compute for Agentic Coding: What the Rollout Summary Research Means for Codex CLI Retry Strategy** — Written 2026-06-20 → `2026-06-20-scaling-test-time-compute-agentic-coding-codex-cli-rollout-retry-rtv-pdr-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kim et al. (arXiv:2604.16529, April 2026, Carnegie Mellon/Meta/UW) introduced structured rollout summaries with Recursive Tournament Voting (RTV) and Parallel-Distill-Refine (PDR) for test-time scaling of long-horizon coding agents; Claude 4.5 Opus improved from 70.9% to 77.6% on SWE-Bench Verified and 46.9% to 59.1% on Terminal-Bench v2.0; companion CMU study (arXiv:2602.18998) found context pollution ceiling at 3-7 turns; no existing article covered RTV/PDR methods, structured rollout summaries, or mapped test-time scaling findings to Codex CLI --attempts flag, session forking as PDR, compact_prompt as summary extraction, named profiles for scaling strategy routing, or AGENTS.md retry discipline encoding
+   - SEO targets: "codex cli test-time compute scaling", "codex cli retry strategy", "RTV PDR coding agents", "codex cli rollout summaries", "codex exec attempts best-of-n", "test-time scaling coding agents", "codex cli session fork retry"
+
+---
+
 ## Mastra npm Supply Chain Attack and Codex CLI Postinstall Defence (2026-06-20 Hourly Article Run)
 
 1. ✅ **The Mastra Attack: What a North Korean Supply Chain Compromise of an AI Agent Framework Means for Codex CLI Defence** — Written 2026-06-20 → `2026-06-20-mastra-npm-supply-chain-attack-codex-cli-postinstall-defence-npm-v12-agent-hardening.md`
