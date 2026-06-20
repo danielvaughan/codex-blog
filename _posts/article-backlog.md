@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MiniMax M3 Open-Weight Frontier Coding Model and Codex CLI Model Routing (2026-06-20 Hourly Article Run)
+
+1. ✅ **MiniMax M3: What the First Open-Weight Model to Beat GPT-5.5 on SWE-Bench Pro Means for Codex CLI Model Routing** — Written 2026-06-20 → `2026-06-20-minimax-m3-open-weight-frontier-coding-model-codex-cli-model-routing-cost-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — MiniMax M3 (1 June 2026) is a 229.9B MoE model (9.8B active) scoring 59.0% on SWE-Bench Pro, surpassing GPT-5.5 (58.6%); introduces MiniMax Sparse Attention (MSA) enabling 1M-token context at 1/20th compute of prior generation; priced at $0.30/$1.20 per million tokens (8-12x cheaper than GPT-5.5); no existing article covered MiniMax M3 or mapped its cost-performance profile to Codex CLI named profile routing, config.toml custom provider setup, batch codex exec cost optimisation, or multi-model routing strategy with PostToolUse quality gates
+   - SEO targets: "minimax m3 codex cli", "codex cli model routing strategy", "minimax m3 vs gpt-5.5 coding", "codex cli open weight model provider", "codex cli cost optimisation model routing", "minimax m3 swe-bench pro", "codex cli named profiles model selection"
+
+---
+
 ## Noise Protocol Relay Channels in Codex CLI v0.141 (2026-06-20 Hourly Article Run)
 
 1. ✅ **Noise Protocol Relay Channels in Codex CLI v0.141: End-to-End Encrypted Remote Execution** — Written 2026-06-20 → `2026-06-20-codex-cli-v0141-noise-protocol-relay-channels-remote-executor-end-to-end-encrypted-security.md`
