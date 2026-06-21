@@ -2,7 +2,7 @@
 title: "What Microservices Taught Us About Building AI Coding Agents"
 description: "I attended a microservices talk yesterday at Norfolk Developers. The speaker covered the fundamentals — monoliths versus microservices, RESTful API design."
 date: 2026-04-15T17:00:00+00:00
-last_modified_at: 2026-06-21T12:10:00+01:00
+last_modified_at: 2026-06-21T14:10:22+01:00
 tags:
   - microservices
   - architecture

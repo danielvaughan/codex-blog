@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Interactive Debugging for Coding Agents and Codex CLI Runtime Investigation (2026-06-21 Hourly Article Run)
+
+1. ✅ **Interactive Debugging for Coding Agents: What Debug2Fix and ADI Mean for Codex CLI Runtime Investigation** — Written 2026-06-21 → `2026-06-21-interactive-debugging-coding-agents-debug2fix-adi-codex-cli-subagent-hooks-runtime-investigation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Garg and Huang (arXiv:2602.18571v2, February 2026 revised April 2026) introduced Debug2Fix, a subagent-based interactive debugging framework achieving +21.8% improvement for GPT-5 on GitBug-Java; agents used raw debugger tools in only 9% of instances without subagent encapsulation; weaker models with Debug2Fix matched stronger models without (GPT-5 73.1% vs baseline Claude Sonnet 4.5 75.7%); Xiang et al. (arXiv:2604.24212, FSE 2026) introduced ADI with function-level Frame Lifetime Traces resolving 63.8% of SWE-bench Verified at $1.28/task; ADI improved Mini-SWE-agent by +18.5% on GPT-4o; no existing article covered Debug2Fix, ADI, interactive debugging for coding agents, the tool-underutilisation problem, or mapped these findings to Codex CLI PostToolUse hooks as debug triggers, subagent delegation for investigation, AGENTS.md investigation-first directives, or named debug profiles
+   - SEO targets: "codex cli debugging", "Debug2Fix coding agents", "ADI agent debugging", "codex cli PostToolUse debug hook", "interactive debugging coding agents", "codex cli subagent debugging", "coding agent runtime investigation"
+
+---
+
 ## Coding Benchmarks Are Misaligned with Agentic Software Engineering and Codex CLI Harness Engineering (2026-06-21 Hourly Article Run)
 
 1. ✅ **Coding Benchmarks Are Misaligned: What the Gorinova Position Paper Means for Codex CLI Harness Engineering** — Written 2026-06-21 → `2026-06-21-coding-benchmarks-misaligned-agentic-software-engineering-codex-cli-harness-feedback-loops.md`
