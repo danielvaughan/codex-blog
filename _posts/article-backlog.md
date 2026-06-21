@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Coding Benchmarks Are Misaligned with Agentic Software Engineering and Codex CLI Harness Engineering (2026-06-21 Hourly Article Run)
+
+1. ✅ **Coding Benchmarks Are Misaligned: What the Gorinova Position Paper Means for Codex CLI Harness Engineering** — Written 2026-06-21 → `2026-06-21-coding-benchmarks-misaligned-agentic-software-engineering-codex-cli-harness-feedback-loops.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Gorinova et al. (arXiv:2606.17799, 16 June 2026) identified three symptoms of misalignment between coding benchmarks and agentic software engineering: conflated model-harness scores, single-reference solution bias, and absence of component-level signal; Claude Opus 4.6 shows 20pp variation across harnesses on identical tasks; real-world PR acceptance rates (35-64%) far below benchmark headlines (70%+); no existing article covered the agent harness vs system harness distinction, the three feedback loop speeds (inner/middle/outer), or mapped these findings to Codex CLI PostToolUse component logging, Stop hook middle-loop verification, AGENTS.md policy specification, or named profile harness ablation
+   - SEO targets: "codex cli harness engineering", "coding benchmarks misaligned", "SWE-bench harness variation", "codex cli PostToolUse feedback loop", "agent harness vs system harness", "codex cli benchmark gap", "coding agent real world acceptance rate"
+
+---
+
 ## Early Termination Strategies for Coding Agents and Codex CLI Cost Efficiency (2026-06-21 Hourly Article Run)
 
 1. ✅ **Early Termination Strategies for Coding Agents: What EET and AgentStop Mean for Codex CLI Cost Efficiency** — Written 2026-06-21 → `2026-06-21-early-termination-strategies-coding-agents-codex-cli-cost-efficiency-eet-agentstop-hooks.md`
