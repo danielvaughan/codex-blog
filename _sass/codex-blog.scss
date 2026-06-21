@@ -700,6 +700,53 @@
   }
 }
 
+// ---------- Homepage framework feature ----------
+// Promotes the book by featuring its framework sketchnote in the page-1 intro
+// band. Image links through to Leanpub (with home-framework UTM); caption
+// positions the knowledge base as a companion to the book.
+.framework-feature {
+  margin: 1.75rem 0 0;
+  &__image {
+    display: block;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: $border-radius;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+      display: block;
+    }
+  }
+  &__caption {
+    margin-top: 1rem;
+    text-align: center;
+    p {
+      font-size: 0.95rem;
+      color: $gray-700;
+      line-height: 1.5;
+      margin: 0 auto 0.85rem;
+      max-width: 46rem;
+    }
+    a { text-decoration: underline; }
+  }
+  &__cta {
+    display: inline-block;
+    background: $primary;
+    color: #fff;
+    padding: 0.55rem 1.1rem;
+    border-radius: $border-radius-sm;
+    text-decoration: none !important;
+    font-family: $headings-font-family;
+    font-size: 0.9rem;
+    font-weight: 700;
+    &:hover,
+    &:focus {
+      background: darken($primary, 10%);
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
 // ---------- Topic hub pages ----------
 .topic-description {
   font-size: 1.05rem;

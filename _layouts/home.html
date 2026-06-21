@@ -14,6 +14,16 @@ layout: default
   <div class="container">
     <h2>Codex: an agentic software engineering knowledge base</h2>
     <p>A continuously updated knowledge base for Codex, covering agentic software engineering workflows, configuration and real-world integration. New articles publish as the tool evolves.</p>
+{%- assign framework_url = site.book.leanpub_url | append: "?utm_source=codex-kb&utm_medium=home-framework&utm_campaign=book-widget" -%}
+    <figure class="framework-feature">
+      <a class="framework-feature__image" href="{{ framework_url }}" rel="noopener" target="_blank">
+        <img src="{{ '/assets/images/codex-cli-framework.png' | relative_url }}" alt="The {{ site.book.title | escape }} framework: six parts — Grounding, Guardrails, Scaling up, Production, Practice and Bigger picture — mapping the agentic engineering workflow.">
+      </a>
+      <figcaption class="framework-feature__caption">
+        <p>This knowledge base complements the book <a href="{{ framework_url }}" rel="noopener" target="_blank"><strong>{{ site.book.title | escape }}: {{ site.book.subtitle | escape }}</strong></a>. The map above is the book's framework — every article here goes deeper on a piece of it.</p>
+        <a class="framework-feature__cta" href="{{ framework_url }}" rel="noopener" target="_blank">Get the book <span aria-hidden="true">→</span></a>
+      </figcaption>
+    </figure>
   </div>
 </section>
 {%- endif -%}
@@ -36,7 +46,11 @@ layout: default
         {%- endfor -%}
       </div>
       {%- endif -%}
+      {%- if post.description -%}
+      <p class="post-excerpt">{{ post.description | truncatewords: 30 }}</p>
+      {%- else -%}
       <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {%- endif -%}
     </article>
     {%- endfor -%}
 
