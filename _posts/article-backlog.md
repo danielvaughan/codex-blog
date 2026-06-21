@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Code-Augur and Specification-First Vulnerability Detection for Codex CLI Audit Workflows (2026-06-21 Hourly Article Run)
+
+1. ✅ **Code-Augur and Specification-First Vulnerability Detection: What Grounded Agent Security Means for Codex CLI Audit Workflows** — Written 2026-06-21 → `2026-06-21-code-augur-specification-first-vulnerability-detection-codex-cli-security-plugin-fuzzing-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Luo et al. (arXiv:2606.18619, 17 June 2026) introduced Code-Augur, a specification-first agentic vulnerability detection framework that externalises agent assumptions as in-source assertions and uses guided fuzzing to falsify them; found 22 new vulnerabilities across 7 open-source projects (chisel, Ghost, gpsd, lightway, ntpd-rs, rack, zlib); 16 fixed/confirmed, 2 CVEs assigned (CVE-2026-48113, CVE-2026-34830), $1,400 bug bounty; 34–63% more bugs than Atlantis and Claude Code on AIxCC benchmark; no existing article covered Code-Augur, the specification-first paradigm, invariant falsification as detection method, or mapped these findings to Codex CLI Security Plugin threat modelling, PostToolUse hooks as specification validators, sandbox fuzzing execution, named profiles for security audit discipline, or AGENTS.md specification durability patterns
+   - SEO targets: "codex cli vulnerability detection", "Code-Augur specification inference", "codex cli security plugin audit", "agentic vulnerability detection 2026", "codex cli PostToolUse security hook", "specification-first security scanning", "codex cli fuzzing sandbox"
+
+---
+
 ## Beyond Static Sandboxing: Learned Capability Governance and Codex CLI Least-Privilege Tool Scoping (2026-06-21 Hourly Article Run)
 
 1. ✅ **Beyond Static Sandboxing: What Learned Capability Governance Means for Codex CLI Least-Privilege Tool Scoping** — Written 2026-06-21 → `2026-06-21-beyond-static-sandboxing-learned-capability-governance-codex-cli-least-privilege-tool-scoping.md`
