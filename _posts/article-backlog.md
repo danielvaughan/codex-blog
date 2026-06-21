@@ -1,5 +1,21 @@
 # Article Backlog
 
+## Self-Harness: Autonomous Agent Framework Improvement for Codex CLI (2026-06-21 Hourly Article Run)
+
+1. ✅ **Self-Harness: What Autonomous Agent Framework Improvement Means for Codex CLI AGENTS.md and Hook Optimisation** — Written 2026-06-21 → `2026-06-21-self-harness-autonomous-agent-framework-improvement-codex-cli-agents-md-hooks-iterative-optimisation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhang et al. (arXiv:2606.09498, 8 June 2026) introduced Self-Harness, a three-stage iterative loop (Weakness Mining, Harness Proposal, Proposal Validation) enabling agents to autonomously improve their own operating harness without human engineers or stronger external models; MiniMax M2.5 improved from 40.5% to 61.9% (+52.8%) on Terminal-Bench 2.0; modifications were model-specific (tool-message limits for MiniMax, dependency prechecking for Qwen, environment persistence for GLM); no existing article covered Self-Harness, the regression-gated acceptance criterion, model-specific harness modification patterns, or mapped these findings to Codex CLI AGENTS.md iterative refinement, PostToolUse hooks as runtime harness modifications, codex exec for automated Self-Harness loops, named profiles for model-specific harness tuning, or AGENTS.override.md for per-model guidance
+   - SEO targets: "self-harness codex cli", "autonomous agent harness improvement", "codex cli AGENTS.md optimisation loop", "self-improving coding agent harness", "codex cli PostToolUse harness hooks", "terminal-bench harness engineering", "model-specific AGENTS.md tuning"
+
+---
+
+## Probe-and-Refine Tuning of AGENTS.md Repository Guidance for Codex CLI (2026-06-21 Hourly Article Run)
+
+1. ✅ **Probe-and-Refine Tuning: What Iterative AGENTS.md Optimisation Research Means for Codex CLI** — Written 2026-06-21 → `2026-06-21-probe-and-refine-tuning-agents-md-repository-guidance-codex-cli-iterative-optimisation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Shepard and Albrecht (arXiv:2606.20512, 18 June 2026) introduced probe-and-refine tuning, an iterative procedure that automatically improves repository guidance through synthetic bug-fix experiments using single-shot LLM calls (no agent loop, no RL); achieved 33.0% resolve rate on SWE-bench Verified vs 25.5% unguided baseline (p<0.001); improvement comes from 14.5pp coverage gain not precision; guidance is model-specific — cross-model transfer collapsed to 13.2%; no existing article covered probe-and-refine tuning, the coverage-vs-precision decomposition, step-budget interaction with guidance complexity, cross-model guidance transfer failure, or mapped these findings to Codex CLI AGENTS.md iterative refinement, AGENTS.override.md for model-specific guidance, PostToolUse hooks as guidance validators, codex exec for synthetic probe generation, or named profile budget alignment
+   - SEO targets: "codex cli AGENTS.md optimisation", "probe-and-refine repository guidance", "AGENTS.md tuning coding agents", "codex cli guidance quality", "SWE-bench AGENTS.md performance", "codex cli model-specific guidance", "iterative AGENTS.md refinement"
+
+---
+
 ## Code-Augur and Specification-First Vulnerability Detection for Codex CLI Audit Workflows (2026-06-21 Hourly Article Run)
 
 1. ✅ **Code-Augur and Specification-First Vulnerability Detection: What Grounded Agent Security Means for Codex CLI Audit Workflows** — Written 2026-06-21 → `2026-06-21-code-augur-specification-first-vulnerability-detection-codex-cli-security-plugin-fuzzing-hooks.md`
