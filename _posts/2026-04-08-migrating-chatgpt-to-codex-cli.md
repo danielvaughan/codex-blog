@@ -2,7 +2,7 @@
 title: "Migrating to Codex CLI from ChatGPT: From Chat to Agentic Workflows"
 description: "If you have spent the last two years refining ChatGPT prompts — crafting custom instructions, building up conversation histories, and learning to coax code."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-06-20T14:12:25+01:00
+last_modified_at: 2026-06-21T10:14:33+01:00
 tags:
   - migration
   - chatgpt

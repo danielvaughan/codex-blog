@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Early Termination Strategies for Coding Agents and Codex CLI Cost Efficiency (2026-06-21 Hourly Article Run)
+
+1. ✅ **Early Termination Strategies for Coding Agents: What EET and AgentStop Mean for Codex CLI Cost Efficiency** — Written 2026-06-21 → `2026-06-21-early-termination-strategies-coding-agents-codex-cli-cost-efficiency-eet-agentstop-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Guo et al. (arXiv:2601.05777v2, April 2026) introduced EET achieving 31.8% average cost reduction with +2.7% resolution improvement across three agents on SWE-bench Verified; Pham et al. (arXiv:2605.15206, May 2026) introduced AgentStop achieving 15-20% energy reduction with <5% performance loss via token-level log probability signals; no existing article covered EET or AgentStop or mapped early termination research to Codex CLI Stop hooks as confidence gates, PostToolUse patch quality scoring, rollout_budget token ceilings, named profiles for cost strategy routing, or AGENTS.md termination discipline encoding
+   - SEO targets: "codex cli early termination", "coding agent cost optimisation", "EET experience-driven early termination", "codex cli stop hook cost", "coding agent wasteful computation", "codex cli rollout budget", "AgentStop energy efficiency coding agents"
+
+---
+
 ## StaminaBench: Stress-Testing Coding Agents over 100 Turns and Codex CLI Session Strategy (2026-06-20 Hourly Article Run)
 
 1. ✅ **StaminaBench: What Stress-Testing Coding Agents over 100 Turns Means for Codex CLI Session Strategy** — Written 2026-06-20 → `2026-06-20-staminabench-stress-testing-coding-agents-100-turns-codex-cli-session-stamina-harness-retry-strategy.md`

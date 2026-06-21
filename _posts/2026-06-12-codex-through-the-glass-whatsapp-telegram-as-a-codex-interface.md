@@ -2,7 +2,7 @@
 title: "Codex Through the Glass: WhatsApp and Telegram as a Codex Interface"
 description: "Mobile-first messaging platforms like WhatsApp and Telegram provide the most accessible interface for field workers, distributed teams, and users in markets where these apps dominate."
 date: 2026-06-12T20:07:00+00:00
-last_modified_at: 2026-06-20T14:12:25+01:00
+last_modified_at: 2026-06-21T10:14:33+01:00
 series: "Codex Through the Glass"
 series_order: 8
 tags:
