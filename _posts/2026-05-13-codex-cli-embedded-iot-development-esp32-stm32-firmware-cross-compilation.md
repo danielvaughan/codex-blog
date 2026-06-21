@@ -9,7 +9,6 @@ tags: ["codex-cli", "embedded-systems", "iot", "esp32", "stm32", "firmware", "cr
 ![Sketchnote diagram for: Codex CLI for Embedded and IoT Development: Firmware Generation, Cross-Compilation, and Hardware-Aware Agent Workflows](/sketchnotes/articles/2026-05-13-codex-cli-embedded-iot-development-esp32-stm32-firmware-cross-compilation.png)
 
 
-
 # Codex CLI for Embedded and IoT Development: Firmware Generation, Cross-Compilation, and Hardware-Aware Agent Workflows
 
 

@@ -9,7 +9,6 @@ tags: ["codex-cli", "game-development", "godot", "phaser", "agent-skills", "brow
 ![Sketchnote diagram for: Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills](/sketchnotes/articles/2026-05-10-codex-cli-game-prototyping-godot-phaser-browser-games-agent-skills.png)
 
 
-
 # Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills
 
 

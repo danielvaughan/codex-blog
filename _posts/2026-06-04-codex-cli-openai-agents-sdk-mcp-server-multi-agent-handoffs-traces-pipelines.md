@@ -322,7 +322,7 @@ designer = Agent(
 )
 
 # The Codex session model (passed in instructions)
-# "Call codex with model: gpt-5.3-codex-spark"
+# "Call codex with model: codex-spark"
 # Use Spark for high-throughput file operations
 ```
 

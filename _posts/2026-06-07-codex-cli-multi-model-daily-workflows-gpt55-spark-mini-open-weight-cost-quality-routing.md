@@ -22,7 +22,7 @@ Codex CLI supports four primary models via OpenAI, plus third-party providers fo
 | `gpt-5.5` | $5.00 / $30.00 | $0.50 | Medium | Complex refactors, architecture, multi-file reasoning |
 | `gpt-5.4` | ⚠️ Available but pricing varies | — | Medium | General-purpose coding, tool use |
 | `gpt-5.4-mini` | $0.75 / $4.50 | $0.075 | Fast | Subagents, boilerplate, quick edits, test generation |
-| `gpt-5.3-codex-spark` | Pro subscription only | — | Very fast (~1,000 tok/s) | Real-time pair programming, rapid iteration |
+| `codex-spark` | $0.15 / $0.60 | $0.015 | Very fast (~1,000 tok/s) | Real-time pair programming, rapid iteration |
 
 The cost difference is stark: a typical session on `gpt-5.5` with 45,000 input tokens, 38,000 cached, and 13,000 output costs roughly $0.62 — about the same as a `gpt-5.4-mini` session processing ten times the volume[^3]. Choosing the right model per task is the single highest-leverage cost optimisation available.
 
@@ -72,7 +72,7 @@ model = "gpt-5.4-mini"
 reasoning_effort = "medium"
 
 [profiles.spark]
-model = "gpt-5.3-codex-spark"
+model = "codex-spark"
 reasoning_effort = "medium"
 ```
 
