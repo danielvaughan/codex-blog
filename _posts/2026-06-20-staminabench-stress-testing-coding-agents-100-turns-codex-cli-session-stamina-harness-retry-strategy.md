@@ -131,7 +131,7 @@ codex exec --model gpt-5.5 \
   "Continue implementing the API. Previous state: $(cat .session-checkpoint.md)"
 ```
 
-This mirrors the "context refresh" that StaminaBench implies is necessary — the paper shows agents degrades as history grows, and forking gives you a clean context window [^5][^6].
+This mirrors the "context refresh" that StaminaBench implies is necessary — the paper shows agents degrade as history grows, and forking gives you a clean context window [^5][^6].
 
 ### 3. model_auto_compact_token_limit tuning
 
