@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Tool Misuse and Recovery in Coding Agents (2026-06-22 Hourly Article Run)
+
+1. ✅ **Tool Misuse and Recovery in Coding Agents: What Wink, ToolMisuseBench, and PROBE Mean for Codex CLI Self-Intervention** — Written 2026-06-22 → `2026-06-22-tool-misuse-recovery-wink-toolmisusebench-probe-codex-cli-posttooluse-hooks-self-intervention.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Nanda et al. (arXiv:2602.17037, February 2026) introduced Wink, a lightweight asynchronous self-intervention system achieving 90.93% single-intervention recovery across 10,000+ production trajectories; 29% of trajectories exhibit misbehaviour across three categories (Specification Drift 15.95%, Tool Call Failures 14.02%, Infinite Loops 5.21%); Sigdel and Baral (arXiv:2604.01508, April 2026) introduced ToolMisuseBench with 6,800 deterministic fault-injection tasks covering invalid arguments, interface drift, execution failures, and authorization violations with explicit budget constraints; Zhao et al. (arXiv:2605.08717, May 2026) introduced PROBE with 65.37% diagnosis accuracy and 21.79% recovery rate showing that bounded guidance is necessary for effective recovery; no existing article covered Wink's self-intervention architecture, ToolMisuseBench's budgeted evaluation methodology, PROBE's three-layer telemetry-to-guidance pipeline, or mapped these findings to Codex CLI PostToolUse hooks as tool-call classifiers, Stop hooks as specification-drift detectors, AGENTS.md as specification anchors for bounded recovery, SubagentStart/SubagentStop for isolated investigation, or budget-aware retry patterns in hook scripts
+   - SEO targets: "codex cli tool misuse detection", "Wink self-intervention coding agents", "ToolMisuseBench agent evaluation", "codex cli PostToolUse recovery hook", "coding agent misbehaviour taxonomy", "PROBE failure recovery agents", "codex cli self-intervention pipeline"
+
+---
+
 ## Self-Harness: Autonomous Agent Framework Improvement for Codex CLI (2026-06-21 Hourly Article Run)
 
 1. ✅ **Self-Harness: What Autonomous Agent Framework Improvement Means for Codex CLI AGENTS.md and Hook Optimisation** — Written 2026-06-21 → `2026-06-21-self-harness-autonomous-agent-framework-improvement-codex-cli-agents-md-hooks-iterative-optimisation.md`
