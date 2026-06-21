@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Beyond Static Sandboxing: Learned Capability Governance and Codex CLI Least-Privilege Tool Scoping (2026-06-21 Hourly Article Run)
+
+1. ✅ **Beyond Static Sandboxing: What Learned Capability Governance Means for Codex CLI Least-Privilege Tool Scoping** — Written 2026-06-21 → `2026-06-21-beyond-static-sandboxing-learned-capability-governance-codex-cli-least-privilege-tool-scoping.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sidik et al. (arXiv:2604.11839, April 2026, under review NeurIPS 2026 Agent Safety Workshop) introduced Aethelgard, a four-layer adaptive governance framework achieving 73% tool reduction and 100% dangerous-tool elimination for summarisation tasks on OpenClaw; identified 15× capability overprovisioning ratio; NVIDIA NemoClaw (March 2026) provides kernel-level out-of-process enforcement for OpenClaw agents; no existing article covered the Aethelgard framework, the capability overprovisioning problem quantification, or mapped learned capability governance to Codex CLI named permission profiles, /permissions command (v0.142), MCP enabled_tools allowlisting, PostToolUse hooks as safety routers, or audit-driven profile tightening workflows
+   - SEO targets: "codex cli least privilege", "capability overprovisioning coding agents", "Aethelgard capability governance", "codex cli permission profiles security", "NemoClaw agent sandbox", "codex cli tool scoping", "learned capability governance coding agents"
+
+---
+
 ## Interactive Debugging for Coding Agents and Codex CLI Runtime Investigation (2026-06-21 Hourly Article Run)
 
 1. ✅ **Interactive Debugging for Coding Agents: What Debug2Fix and ADI Mean for Codex CLI Runtime Investigation** — Written 2026-06-21 → `2026-06-21-interactive-debugging-coding-agents-debug2fix-adi-codex-cli-subagent-hooks-runtime-investigation.md`
