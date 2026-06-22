@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Metaprogramming Reflex and Unfamiliar-Language Adaptation for Codex CLI (2026-06-22 Hourly Article Run)
+
+1. ✅ **The Metaprogramming Reflex: What Frontier Coding Agents' Unfamiliar-Language Adaptation Means for Codex CLI Strategy** — Written 2026-06-22 → `2026-06-22-metaprogramming-reflex-frontier-coding-agents-unfamiliar-languages-codex-cli-agents-md-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sharma, Thorat, and Chopra (arXiv:2606.10933, 9 June 2026) evaluated six coding agents on EsoLang-Bench (four esoteric languages, 80 problems each); standard deviation 36.0 vs SWE-bench Verified 2.9 (12× wider spread); strongest agents (GPT-5.4 xhigh 99.7%, Opus 4.6 86.9%) spontaneously adopt metaprogramming — writing Python generators rather than target-language code directly; forbidding metaprogramming drops Opus from 64/80 to 27/80 on Brainfuck; executable helper libraries transfer strategy to mid-tier agents (Sonnet 12→64 on Brainfuck) but not weak agents (Haiku 4→7); no existing article covered EsoLang-Bench, the metaprogramming reflex, causal ablation of generator strategies, or mapped these findings to Codex CLI AGENTS.md generator scaffold directives, named profiles for language-specific model routing, PostToolUse hooks as generator verification gates, or the capability threshold for scaffolding transfer
+   - SEO targets: "codex cli metaprogramming unfamiliar languages", "EsoLang-Bench coding agent benchmark", "coding agent metaprogramming strategy", "codex cli AGENTS.md generator scaffold", "frontier coding agents esoteric languages", "codex cli named profile language routing", "metaprogramming reflex coding agents"
+
+---
+
 ## SABER Operational Safety Benchmark and Codex CLI Workspace Defence (2026-06-22 Hourly Article Run)
 
 1. ✅ **SABER: What the Operational Safety Benchmark Means for Codex CLI Workspace Defence** — Written 2026-06-22 → `2026-06-22-saber-operational-safety-benchmark-coding-agents-codex-cli-workspace-violation-defence.md`
