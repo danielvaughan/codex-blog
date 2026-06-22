@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Tool Affordance Safety Gap (2026-06-22 Hourly Article Run)
+
+1. ✅ **The Tool Affordance Safety Gap: Why Text Alignment Does Not Transfer to Tool-Call Safety and What It Means for Codex CLI** — Written 2026-06-22 → `2026-06-22-tool-affordance-safety-gap-text-alignment-does-not-transfer-codex-cli-defence-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yu, Carroll, and Bentley (arXiv:2603.20320, March 2026) demonstrated tool affordance causes violation rates up to 85% in models with perfect text-only compliance across 1,500 financial transaction scenarios; Cartagena and Teixeira (arXiv:2602.16943, February 2026) built the GAP benchmark with 17,420 samples across six frontier models showing TC-safe rates as low as 21% and 219 text-action divergence cases even under safety-reinforced prompts; Wei et al. (arXiv:2604.01438, April 2026) ClawSafety showed 40-75% attack success rates across 2,520 sandboxed trials with skill instructions being the most dangerous injection vector; no existing article covered the tool affordance safety gap, the convergent finding that text alignment does not transfer to tool-call safety, or mapped these findings to Codex CLI PreToolUse hooks as tool-call-level gates, PostToolUse audit logging, sandbox as catch layer not deterrent, MCP enabled_tools allowlisting, or defence-in-depth patterns
+   - SEO targets: "codex cli tool safety gap", "text alignment tool call safety", "tool affordance safety LLM agents", "codex cli PreToolUse safety hook", "Mind the GAP benchmark agents", "ClawSafety unsafe agents", "codex cli defence in depth safety"
+
+---
+
 ## Tool Misuse and Recovery in Coding Agents (2026-06-22 Hourly Article Run)
 
 1. ✅ **Tool Misuse and Recovery in Coding Agents: What Wink, ToolMisuseBench, and PROBE Mean for Codex CLI Self-Intervention** — Written 2026-06-22 → `2026-06-22-tool-misuse-recovery-wink-toolmisusebench-probe-codex-cli-posttooluse-hooks-self-intervention.md`
