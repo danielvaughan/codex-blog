@@ -206,7 +206,7 @@ Codex CLI's permission profile system already provides the mechanical foundation
 
 ## Citations
 
-[^1]: Sidik, B. et al. "Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents." arXiv:2604.11839, April 2026. [https://arxiv.org/abs/2604.11839](https://arxiv.org/abs/2604.11839)
+[^1]: Sidik, B. & Rokach, L. "Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents." arXiv:2604.11839, April 2026. [https://arxiv.org/abs/2604.11839](https://arxiv.org/abs/2604.11839)
 
 [^2]: HumanLayer. "The Dumb Zone: How Tool Overexposure Degrades Agent Performance." HumanLayer Blog, 2026. Referenced in Codex Knowledge Base coverage of the harness effect.
 
