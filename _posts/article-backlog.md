@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Samsung Codex Enterprise Deployment — Ban to Platform (2026-06-22 Hourly Article Run)
+
+1. ✅ **From Ban to Platform: What Samsung's Codex Enterprise Deployment Teaches About Large-Scale Agent Governance** — Written 2026-06-22 → `2026-06-22-samsung-codex-enterprise-deployment-ban-to-platform-governance-security-lessons-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Samsung Electronics announced global ChatGPT Enterprise and Codex deployment on 21 June 2026, reversing a 2023 generative AI ban after a source code leak; 2,500-employee POC across ChatGPT, Gemini, and Claude; DX division full access vs DS division restricted; DLP prompt inspection; mandatory security training gate; Samsung SDS as first Korean reseller; 800% Korean WAU growth since February 2026; no existing article covered the Samsung deployment, the governance architecture patterns, or mapped the enterprise admin surface (RBAC groups, managed requirements.toml, policy segmentation, Analytics/Compliance APIs) to the Samsung governance layers
+   - SEO targets: "samsung codex enterprise deployment", "codex cli enterprise governance", "samsung chatgpt ban reversal", "codex cli RBAC enterprise", "enterprise agent governance patterns", "codex cli DLP prompt inspection", "samsung openai codex 2026"
+
+---
+
 ## Metaprogramming Reflex and Unfamiliar-Language Adaptation for Codex CLI (2026-06-22 Hourly Article Run)
 
 1. ✅ **The Metaprogramming Reflex: What Frontier Coding Agents' Unfamiliar-Language Adaptation Means for Codex CLI Strategy** — Written 2026-06-22 → `2026-06-22-metaprogramming-reflex-frontier-coding-agents-unfamiliar-languages-codex-cli-agents-md-strategy.md`
