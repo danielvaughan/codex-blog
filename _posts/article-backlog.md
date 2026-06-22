@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The 640 TB SQLite Trace-Log Bug and SSD Endurance (2026-06-22 Hourly Article Run)
+
+1. ✅ **The 640 TB Bug: How Codex CLI's SQLite Trace Logs Threatened SSD Endurance and What It Teaches About Agent-Local Resource Safety** — Written 2026-06-22 → `2026-06-22-codex-cli-sqlite-trace-log-bug-ssd-endurance-640tb-write-amplification-diagnosis-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub issue #28224 (14 June 2026) documented that Codex CLI's SQLite feedback-log sink with global TRACE default wrote ~640 TB/year via continuous insert-prune churn (36,211 rows/15s, 5.5B allocated row IDs vs 681K retained), invisible to standard monitoring because file size remained stable at ~1.2 GB; RUST_LOG bypass meant no user-configurable mitigation; PRs #29432 and #29457 merged 22 June 2026 reducing write volume by ~85%; no existing article covered this bug, the write-amplification mechanics, the RUST_LOG bypass, the tmpfs workaround, SSD health diagnosis with smartctl, or the broader agent-local resource safety blind spot not addressed by SABER or permission profiles
+   - SEO targets: "codex cli sqlite trace log bug", "codex cli SSD endurance 640TB", "codex cli logs_2.sqlite write amplification", "codex cli smartctl SSD health", "coding agent local resource safety", "codex cli RUST_LOG sqlite bypass", "codex cli tmpfs workaround"
+
+---
+
 ## Agent Trajectories as Programs: Behavioural Fingerprinting for Codex CLI (2026-06-22 Hourly Article Run)
 
 1. ✅ **Agent Trajectories as Programs: What Behavioural Fingerprinting Means for Codex CLI Model Routing and Observability** — Written 2026-06-22 → `2026-06-22-agent-trajectories-as-programs-fingerprinting-coding-agent-behaviour-codex-cli-procgrep-model-routing.md`
