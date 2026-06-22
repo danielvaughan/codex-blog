@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Meta Context Engineering and Automated Skill Evolution for Codex CLI (2026-06-22 Hourly Article Run)
+
+1. ✅ **Meta Context Engineering: What Automated Skill Evolution Means for Codex CLI AGENTS.md and Skills Optimisation** — Written 2026-06-22 → `2026-06-22-meta-context-engineering-agentic-skill-evolution-codex-cli-agents-md-skills-automated-optimisation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ye et al. (arXiv:2601.21557, January 2026) introduced Meta Context Engineering (MCE), a bi-level framework separating skill evolution (meta-agent) from context artifact optimisation (base-agent) via agentic crossover; achieved 89.1% average relative improvement over DeepSeek V3.1 baseline in offline settings and 74.1% online, with 13.6× training speedup and adaptive context lengths (1.5K–86K tokens); Zhang et al. (arXiv:2604.01687, April 2026) introduced CoEvoSkills with co-evolutionary verification achieving highest pass rate across Claude Code and Codex baselines; no existing article covered MCE, agentic crossover for skill evolution, co-evolutionary skill verification, or mapped these findings to Codex CLI AGENTS.md as evolvable context skills, progressive skill loading as demand-driven artifact optimisation, named profiles as model-specific skill binding, PostToolUse hooks as evolution telemetry, or codex exec for automated skill evaluation loops
+   - SEO targets: "meta context engineering codex cli", "automated AGENTS.md optimisation", "agentic skill evolution coding agents", "codex cli skills evolution", "CoEvoSkills self-evolving agent skills", "codex cli context engineering automation", "AGENTS.md evolutionary optimisation"
+
+---
+
 ## The Tool Affordance Safety Gap (2026-06-22 Hourly Article Run)
 
 1. ✅ **The Tool Affordance Safety Gap: Why Text Alignment Does Not Transfer to Tool-Call Safety and What It Means for Codex CLI** — Written 2026-06-22 → `2026-06-22-tool-affordance-safety-gap-text-alignment-does-not-transfer-codex-cli-defence-patterns.md`
