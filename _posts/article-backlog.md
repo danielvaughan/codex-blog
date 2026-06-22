@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Thread Handoff and Noise Relay Encrypted Session Continuity (2026-06-22 Hourly Article Run)
+
+1. ✅ **Codex CLI Thread Handoff: Seamless Session Continuity Between Local and Remote Hosts** — Written 2026-06-22 → `2026-06-22-codex-cli-thread-handoff-remote-local-noise-relay-encrypted-session-continuity.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.141.0 (18 June 2026) introduced thread handoff between local and remote hosts with Noise Protocol Framework end-to-end encrypted relay channels; no existing article covered thread handoff as a discrete feature, the Noise relay security architecture, cross-platform working directory preservation across app-server/exec-server boundaries, delegated handoff via second threads, or the interaction between handoff and permission profiles/hooks/AGENTS.md consistency
+   - SEO targets: "codex cli thread handoff", "codex cli remote session continuity", "noise protocol encrypted relay codex", "codex cli local remote handoff", "codex cli v0.141 thread transfer", "codex cli distributed agent runtime"
+
+---
+
 ## Natural-Language Agent Harnesses and Cross-Harness Portability (2026-06-22 Hourly Article Run)
 
 1. ✅ **Natural-Language Agent Harnesses: What NLAH Research, OpenAI's Harness Engineering, and Cross-Agent Portability Mean for Codex CLI AGENTS.md** — Written 2026-06-22 → `2026-06-22-natural-language-agent-harnesses-nlah-agents-md-codex-cli-cross-harness-portability.md`
