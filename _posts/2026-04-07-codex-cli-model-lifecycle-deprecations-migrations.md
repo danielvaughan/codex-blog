@@ -2,7 +2,7 @@
 title: "Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition"
 description: "OpenAI's model release cadence has accelerated dramatically. In the eight months since the original GPT-5-Codex launched in September 2025, we have seen."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-06-22T22:16:15+01:00
+last_modified_at: 2026-06-23T00:11:41+01:00
 tags:
   - models
   - model-lifecycle

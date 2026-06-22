@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.142 Delegation Modes and Token Budgets (2026-06-23 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.142 Delegation Modes and Token Budgets: Governing Multi-Agent Autonomy at Thread and Turn Level** — Written 2026-06-23 → `2026-06-23-codex-cli-v0142-delegation-modes-token-budgets-multi-agent-governance-thread-turn-controls.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.142.0 (22 June 2026) introduced three-tier delegation modes (disabled, explicit-request-only, proactive) configurable at thread and turn level, plus rollout token budgets that track consumption across agent threads with automatic abort-on-exhaustion; GitHub issue #18513 captured longstanding user friction with the binary delegation model; no existing article covered the three delegation modes, turn-level overrides, rollout token budget mechanics, or the interaction between delegation modes and AGENTS.md directives
+   - SEO targets: "codex cli delegation modes", "codex cli v0.142 multi-agent", "codex cli proactive delegation subagents", "codex cli rollout token budget", "codex cli thread turn delegation control", "codex cli subagent governance", "codex cli multi-agent autonomy configuration"
+
+---
+
 ## The 640 TB SQLite Trace-Log Bug and SSD Endurance (2026-06-22 Hourly Article Run)
 
 1. ✅ **The 640 TB Bug: How Codex CLI's SQLite Trace Logs Threatened SSD Endurance and What It Teaches About Agent-Local Resource Safety** — Written 2026-06-22 → `2026-06-22-codex-cli-sqlite-trace-log-bug-ssd-endurance-640tb-write-amplification-diagnosis-defence.md`
