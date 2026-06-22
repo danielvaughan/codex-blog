@@ -28,7 +28,7 @@ Ye et al. (arXiv:2601.21557, January 2026) introduce a bi-level framework that s
 graph TD
     A[Meta-Agent] -->|evolves| B[Context Skills]
     B -->|guide| C[Base-Agent]
-    C -->|optimises| D[Context Artifacts]
+    C -->|optimises| D[Context Artefacts]
     D -->|evaluated against| E[Task Performance]
     E -->|feedback to| A
 
@@ -43,9 +43,9 @@ graph TD
 
 A **context skill** in MCE is a folder containing methodology descriptions, executable scripts, context templates, validation protocols, and dynamic operators [^1]. The meta-agent synthesises new skills by reasoning across task specifications, historical skill performance, and execution traces — a process the authors term **agentic crossover** [^1]. Unlike fixed recombination rules in traditional evolutionary computation, agentic crossover is a deliberative search that inspects workspace folders, identifies success and failure patterns, and composes improved skills.
 
-### The Base-Level: Artifact Optimisation
+### The Base-Level: Artefact Optimisation
 
-The base-agent executes the evolved skills to produce **context artifacts** — represented as files and code rather than predefined schemas [^1]. This flexibility allows programmatic context generation: a skill might emit a condensed codebase summary, a dependency graph, or a set of type signatures, depending on what the meta-agent has learnt works best.
+The base-agent executes the evolved skills to produce **context artefacts** — represented as files and code rather than predefined schemas [^1]. This flexibility allows programmatic context generation: a skill might emit a condensed codebase summary, a dependency graph, or a set of type signatures, depending on what the meta-agent has learnt works best.
 
 ### Results
 
@@ -58,7 +58,7 @@ Tested across five domains (finance, chemistry, medicine, law, AI safety) using 
 | Training speedup | 13.6× | baseline | — |
 | Context length range | 1.5K–86K tokens | fixed | adaptive |
 
-The 89.1% average relative improvement over the base model in offline settings is striking, but equally important is the **context adaptability** finding: MCE-evolved skills produce context artifacts ranging from 1,500 to 86,000 tokens depending on task requirements, rather than using a fixed context budget [^1].
+The 89.1% average relative improvement over the base model in offline settings is striking, but equally important is the **context adaptability** finding: MCE-evolved skills produce context artefacts ranging from 1,500 to 86,000 tokens depending on task requirements, rather than using a fixed context budget [^1].
 
 ---
 
@@ -90,7 +90,7 @@ The key innovation is that the verifier evolves alongside the generator — prev
 
 MCE's context skills are folders of methodology descriptions and templates [^1]. Codex CLI's AGENTS.md is already structurally equivalent: a markdown file that tells the agent how the project works, discovered hierarchically from `~/.codex/AGENTS.md` (global) through the project root down to the current working directory [^3].
 
-The MCE insight suggests treating AGENTS.md not as a static document but as an **evolvable artifact**. A practical implementation:
+The MCE insight suggests treating AGENTS.md not as a static document but as an **evolvable artefact**. A practical implementation:
 
 ```bash
 #!/bin/bash
@@ -253,7 +253,7 @@ This is deliberately simple. MCE's full agentic crossover [^1] involves multi-ge
 
 4. **The infrastructure exists; the orchestration is manual.** Codex CLI's AGENTS.md hierarchy, progressive skill loading, PostToolUse hooks, and `codex exec` provide all the building blocks for automated context evolution. Closing the loop is an engineering exercise, not a research gap.
 
-5. **Adaptive context length beats fixed budgets.** MCE-evolved skills produce 1.5K–86K token artifacts depending on task complexity [^1]. This argues against hard-coding `model_auto_compact_token_limit` and in favour of task-aware compaction strategies.
+5. **Adaptive context length beats fixed budgets.** MCE-evolved skills produce 1.5K–86K token artefacts depending on task complexity [^1]. This argues against hard-coding `model_auto_compact_token_limit` and in favour of task-aware compaction strategies.
 
 ---
 

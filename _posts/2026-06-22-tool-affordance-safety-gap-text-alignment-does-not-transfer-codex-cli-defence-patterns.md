@@ -1,7 +1,7 @@
 ---
 title: "The Tool Affordance Safety Gap: Why Text Alignment Does Not Transfer to Tool-Call Safety and What It Means for Codex CLI"
 parent: "Articles"
-nav_order: 1189
+nav_order: 1193
 tags: ["codex-cli", "safety", "tool-affordance", "alignment", "hooks", "sandbox", "approval-mode", "PostToolUse", "PreToolUse", "research"]
 ---
 
