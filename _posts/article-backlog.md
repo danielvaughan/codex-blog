@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Cross-Session Stored Prompt Injection and Workspace Trojan Backdoors (2026-06-22 Hourly Article Run)
+
+1. ✅ **Cross-Session Stored Prompt Injection and Workspace Trojan Backdoors: What Persistent-State Attacks Mean for Codex CLI Defence** — Written 2026-06-22 → `2026-06-22-cross-session-stored-prompt-injection-workspace-trojan-backdoors-codex-cli-persistent-state-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Xie et al. (arXiv:2606.04425, June 2026) formalised stored prompt injection (SPI) as the agent-native analogue of stored XSS, with SPI-Benchmark showing 32–42% end-to-end ASR across three frontier models and 74–82% E2E-ASR for fact manipulation with 100% activation rates; Tan et al. (arXiv:2605.31042, May 2026) introduced ClawTrojan with 362 multi-step trojan attack scenarios showing 95.5% ASR against GPT-5.4 (near-zero for single-turn benchmarks on same models), with DASGuard defence reducing full-chain ASR to 5.9%; Xie et al. (arXiv:2602.14211, February 2026) demonstrated SkillJect automated poisoned skill generation via trace-driven closed-loop refinement; no existing article covered cross-session stored prompt injection, the SPI taxonomy of persistent context channels, ClawTrojan workspace trojans, trust laundering / delayed activation / fragmented payload patterns, or mapped these findings to Codex CLI sandbox write-scope constraints, opt-in Memories architecture, approval-policy incorporation gates, permission profile deny rules for self-modification, or ephemeral CI/CD workspace patterns
+   - SEO targets: "codex cli stored prompt injection", "cross-session prompt injection agents", "workspace trojan backdoor coding agent", "ClawTrojan agent security", "codex cli persistent state defence", "SkillJect skill injection attack", "codex cli memory security"
+
+---
+
 ## Meta Context Engineering and Automated Skill Evolution for Codex CLI (2026-06-22 Hourly Article Run)
 
 1. ✅ **Meta Context Engineering: What Automated Skill Evolution Means for Codex CLI AGENTS.md and Skills Optimisation** — Written 2026-06-22 → `2026-06-22-meta-context-engineering-agentic-skill-evolution-codex-cli-agents-md-skills-automated-optimisation.md`
