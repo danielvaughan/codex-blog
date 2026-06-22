@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Trajectories as Programs: Behavioural Fingerprinting for Codex CLI (2026-06-22 Hourly Article Run)
+
+1. ✅ **Agent Trajectories as Programs: What Behavioural Fingerprinting Means for Codex CLI Model Routing and Observability** — Written 2026-06-22 → `2026-06-22-agent-trajectories-as-programs-fingerprinting-coding-agent-behaviour-codex-cli-procgrep-model-routing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Oderinwale (arXiv:2606.16988, 15 June 2026) introduced procedural fingerprinting of coding agents using BPE-encoded action traces, achieving 85.7% agent attribution accuracy across ten agent configurations on SWE-Bench; ProcGrep deterministic trajectory search at F1=1.000 and 1.1μs latency vs LLM judges at F1=0.15–0.28; edit streaks (5+ consecutive edits) predict failure at 80% for Moatless+DeepSeek-V3; distilled student–teacher JSD=0.25 vs within-family JSD=0.518; extended-thinking models use fewer procedures (32–35 vs 40–49 for RLHF models); no existing article covered procedural fingerprinting, ProcGrep, edit-streak failure signals, or mapped these findings to Codex CLI PostToolUse hooks as trajectory loggers, named profiles for procedural-compatibility-based model routing, OpenTelemetry spans for ProcGrep-style observability, or Stop hooks for anomaly-triggered early termination
+   - SEO targets: "codex cli agent fingerprinting", "ProcGrep trajectory search coding agents", "codex cli model routing behavioural", "agent trajectory analysis SWE-Bench", "codex cli PostToolUse trajectory logging", "edit streak failure detection coding agent", "codex cli procedural observability"
+
+---
+
 ## Phoenix Safe Issue Resolution and Codex CLI Automation Pipelines (2026-06-22 Hourly Article Run)
 
 1. ✅ **Phoenix and Safe Issue Resolution: What Multi-Agent Safety Controls Mean for Codex CLI Automation Pipelines** — Written 2026-06-22 → `2026-06-22-phoenix-safe-github-issue-resolution-multi-agent-codex-cli-baseline-testing-webhook-safety-controls.md`
