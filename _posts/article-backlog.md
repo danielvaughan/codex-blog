@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SABER Operational Safety Benchmark and Codex CLI Workspace Defence (2026-06-22 Hourly Article Run)
+
+1. ✅ **SABER: What the Operational Safety Benchmark Means for Codex CLI Workspace Defence** — Written 2026-06-22 → `2026-06-22-saber-operational-safety-benchmark-coding-agents-codex-cli-workspace-violation-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hu et al. (arXiv:2606.01317, May 2026) introduced SABER, a 716-task benchmark evaluating operational safety of coding agents in stateful project workspaces through post-hoc environment-state analysis rather than prompt-refusal testing; even the best model (Claude Opus 4.6) showed 54.7% harmful safety-violation rate (HSR) across eight categories (code tampering, data destruction, filesystem destruction, information leakage, network outbound, persistence, privilege escalation, unauthorised access); capability improvements did not reliably improve operational safety; no existing article covered SABER, the workspace-state evaluation methodology, the eight-category violation taxonomy, or mapped these findings to Codex CLI permission profiles, PreToolUse/PostToolUse hooks, network proxy, deny-read rules, and AGENTS.md scope boundaries as layered defences
+   - SEO targets: "SABER benchmark coding agent safety", "codex cli operational safety", "workspace safety violation coding agents", "codex cli permission profile security", "coding agent harmful safety violation rate", "codex cli PreToolUse defence", "stateful workspace agent safety"
+
+---
+
 ## Thread Handoff and Noise Relay Encrypted Session Continuity (2026-06-22 Hourly Article Run)
 
 1. ✅ **Codex CLI Thread Handoff: Seamless Session Continuity Between Local and Remote Hosts** — Written 2026-06-22 → `2026-06-22-codex-cli-thread-handoff-remote-local-noise-relay-encrypted-session-continuity.md`
