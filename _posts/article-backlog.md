@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Phoenix Safe Issue Resolution and Codex CLI Automation Pipelines (2026-06-22 Hourly Article Run)
+
+1. ✅ **Phoenix and Safe Issue Resolution: What Multi-Agent Safety Controls Mean for Codex CLI Automation Pipelines** — Written 2026-06-22 → `2026-06-22-phoenix-safe-github-issue-resolution-multi-agent-codex-cli-baseline-testing-webhook-safety-controls.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Koech et al. (arXiv:2606.20243, 18 June 2026) introduced Phoenix, a six-agent pipeline (Planner, Reproducer, Coder, Tester, Failure Analyst, PR Agent) coordinated by a label-based GitHub webhook state machine with seven layered safety controls and baseline-aware test evaluation; 75% oracle-resolution on 24-instance SWE-bench Lite slice with zero pass-to-pass regressions; 100% correctness preservation across 42 real issues in 14 repositories; no existing article covered Phoenix, the baseline-aware testing methodology, the seven safety control taxonomy, or mapped these findings to Codex CLI subagents, PostToolUse hooks as baseline regression gates, Triggers as webhook state machines, permission profiles as path-traversal and workflow-file guards, or Stop hooks as retry cycle limiters
+   - SEO targets: "codex cli safe issue resolution", "phoenix multi-agent github automation", "baseline-aware test regression codex cli", "codex cli PostToolUse baseline hook", "safe automated issue resolution coding agent", "codex cli triggers webhook state machine", "multi-agent safety controls coding agent"
+
+---
+
 ## Samsung Codex Enterprise Deployment — Ban to Platform (2026-06-22 Hourly Article Run)
 
 1. ✅ **From Ban to Platform: What Samsung's Codex Enterprise Deployment Teaches About Large-Scale Agent Governance** — Written 2026-06-22 → `2026-06-22-samsung-codex-enterprise-deployment-ban-to-platform-governance-security-lessons-codex-cli.md`
