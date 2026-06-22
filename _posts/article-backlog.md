@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Natural-Language Agent Harnesses and Cross-Harness Portability (2026-06-22 Hourly Article Run)
+
+1. ✅ **Natural-Language Agent Harnesses: What NLAH Research, OpenAI's Harness Engineering, and Cross-Agent Portability Mean for Codex CLI AGENTS.md** — Written 2026-06-22 → `2026-06-22-natural-language-agent-harnesses-nlah-agents-md-codex-cli-cross-harness-portability.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Pan et al. (arXiv:2603.25723, March 2026) introduced Natural-Language Agent Harnesses (NLAHs) and Intelligent Harness Runtime (IHR), achieving 74.4% on SWE-bench Verified and 47.2% on OSWorld (vs 30.4% code baseline); module ablation showed self-evolution (+4.8pp), file-backed state (+5.5pp on OSWorld), and surprising degradation from multi-candidate search (-2.4pp) and verifier modules (-8.4pp on OSWorld); OpenAI's harness engineering blog validated progressive disclosure and mechanical enforcement; ECC (200K+ GitHub stars) emerged as the dominant cross-harness framework unifying Claude Code, Codex, Cursor, and Copilot configurations; no existing article covered the NLAH formalisation, the convergence between NLAH theory and AGENTS.md practice, ECC as a cross-harness operational layer, or the ablation-derived implications for AGENTS.md authoring patterns
+   - SEO targets: "codex cli AGENTS.md harness engineering", "natural language agent harness NLAH", "cross-harness portability coding agents", "ECC cross-agent configuration", "AGENTS.md best practices 2026", "codex cli harness engineering guide"
+
+---
+
 ## Cross-Session Stored Prompt Injection and Workspace Trojan Backdoors (2026-06-22 Hourly Article Run)
 
 1. ✅ **Cross-Session Stored Prompt Injection and Workspace Trojan Backdoors: What Persistent-State Attacks Mean for Codex CLI Defence** — Written 2026-06-22 → `2026-06-22-cross-session-stored-prompt-injection-workspace-trojan-backdoors-codex-cli-persistent-state-defence.md`
