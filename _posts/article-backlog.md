@@ -1,5 +1,13 @@
 # Article Backlog
 
+## FeatureBench Complex Feature Development Benchmark (2026-06-23 Hourly Article Run)
+
+1. ✅ **FeatureBench and the Feature Gap: Why Your Codex CLI Agent Aces Bug Fixes but Struggles with Complex Features** — Written 2026-06-23 → `2026-06-23-featurebench-complex-feature-development-benchmark-codex-cli-agent-planning-cross-file-reasoning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — FeatureBench (ICLR 2026, arXiv:2602.10975) evaluated coding agents on end-to-end feature development (avg 790 LoC across 15.7 files) vs isolated bug fixes; Claude Opus 4.5 drops from 74.4% SWE-bench to 11.0% FeatureBench; GPT-5.1-Codex achieves 12.5%; dominant failure modes are cross-file NameError cascades, lazy attribute resolution, and context window saturation; ablation shows 43–50pp improvement from visible tests; no existing article covered FeatureBench, the feature-vs-bugfix performance gap, or mapped its findings to Codex CLI AGENTS.md interface contracts, PostToolUse test hooks, Stop hook compilation checks, delegation modes, and rollout token budgets
+   - SEO targets: "featurebench codex cli", "codex cli complex feature development", "agent bug fix vs feature gap", "codex cli cross-file reasoning", "SWE-bench vs FeatureBench", "codex cli planning mode features", "codex cli PostToolUse test hook feature development"
+
+---
+
 ## Black Duck 97% AI Coding Governance Gap (2026-06-23 Hourly Article Run)
 
 1. ✅ **The 97 Per Cent Problem: Black Duck's AI Coding Governance Gap and How Codex CLI Closes It** — Written 2026-06-23 → `2026-06-23-black-duck-97-percent-ai-coding-adoption-governance-gap-codex-cli-enterprise-controls.md`
