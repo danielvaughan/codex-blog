@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Patch the Planet: Codex-Powered Open-Source Security (2026-06-23 Hourly Article Run)
+
+1. ✅ **Patch the Planet: What OpenAI's Open-Source Security Initiative Means for Codex CLI Defensive Workflows** — Written 2026-06-23 → `2026-06-23-patch-the-planet-openai-codex-gpt55-cyber-open-source-vulnerability-patching-trail-of-bits-cli-security-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI launched Patch the Planet on 22 June 2026, a Daybreak initiative with Trail of Bits, HackerOne, and Calif to find and fix vulnerabilities in 30+ critical open-source projects using GPT-5.5-Cyber and Codex; week one produced hundreds of bugs, 64 PRs, 51 issues across 19 projects with 37 patches merged; GPT-5.5-Cyber benchmarks (CyberGym 85.6%, ExploitGym 39.5%, SEC-bench Pro 69.8%); autonomous fuzzing lab construction; differential testing across crypto implementations; no existing article covered Patch the Planet specifically, the Trail of Bits operational workflow, or mapped the initiative's patterns to Codex CLI AGENTS.md security directives, PostToolUse security hooks, diff-scoped CI scanning with codex exec, security-audit permission profiles, and SARIF export workflows
+   - SEO targets: "patch the planet openai codex", "codex cli security scanning", "GPT-5.5-Cyber vulnerability patching", "codex security plugin CLI", "trail of bits codex open source", "codex cli AGENTS.md security", "codex cli PostToolUse security hook"
+
+---
+
 ## Silent Technical Debt in AI-Generated Code (2026-06-23 Hourly Article Run)
 
 1. ✅ **Silent Technical Debt in AI-Generated Code: What 302,000 Commits Reveal and How Codex CLI Defends Against It** — Written 2026-06-23 → `2026-06-23-silent-technical-debt-ai-generated-code-empirical-evidence-codex-cli-quality-defence-patterns.md`
