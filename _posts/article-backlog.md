@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Silent Technical Debt in AI-Generated Code (2026-06-23 Hourly Article Run)
+
+1. ✅ **Silent Technical Debt in AI-Generated Code: What 302,000 Commits Reveal and How Codex CLI Defends Against It** — Written 2026-06-23 → `2026-06-23-silent-technical-debt-ai-generated-code-empirical-evidence-codex-cli-quality-defence-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Liu et al. (arXiv:2603.28592) analysed 302,579 verified AI-authored commits across 6,299 GitHub repositories finding 484,366 issues (89.3% code smells, 6.0% correctness, 4.7% security) with 22.7% persisting at repo HEAD; Huang et al. (arXiv:2601.21276, MSR 2026) found AI-generated PRs have 1.87× higher code redundancy than human-authored PRs while receiving more positive reviewer sentiment; no existing article covered both studies' convergent finding of silent debt accumulation, the reviewer sentiment bias, or mapped these findings to Codex CLI PostToolUse lint gates targeting the top five AI code smells, AGENTS.md reuse directives, jscpd redundancy detection hooks, Stop hook security scanning, named profiles for debt-prone tasks, or requirements.toml managed hooks for enterprise-wide quality enforcement
+   - SEO targets: "codex cli technical debt AI code", "AI-generated code quality MSR 2026", "codex cli PostToolUse lint gate", "silent technical debt coding agents", "AI code review sentiment bias", "codex cli code quality defence", "AGENTS.md code reuse directives"
+
+---
+
 ## Codex CLI v0.142 Delegation Modes and Token Budgets (2026-06-23 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.142 Delegation Modes and Token Budgets: Governing Multi-Agent Autonomy at Thread and Turn Level** — Written 2026-06-23 → `2026-06-23-codex-cli-v0142-delegation-modes-token-budgets-multi-agent-governance-thread-turn-controls.md`
