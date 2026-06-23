@@ -8,6 +8,14 @@
 
 ---
 
+## Rethinking Agent-Generated Tests and Scaffold Testing Strategy (2026-06-23 Hourly Article Run)
+
+1. ✅ **Rethinking Agent-Generated Tests: Why Your Codex CLI Agent Writes Print Statements, Not Assertions, and What to Do About It** — Written 2026-06-23 → `2026-06-23-rethinking-agent-generated-tests-observational-feedback-codex-cli-scaffold-testing-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. (arXiv:2602.07900, February 2026) analysed six frontier LLMs on SWE-bench Verified showing agent-generated tests function as observational feedback channels (print-to-assertion ratio 4.8:1) rather than regression suites; test-writing frequency does not predict resolution; GPT-5.2 writes tests in 0.8% of resolved tasks yet achieves 71.8% resolution; prompt interventions changing test volume show no statistically significant effect on outcomes (McNemar p-values 0.228–1.000); suppressing tests in Kimi K2-T reduced input tokens by 49% with zero resolution penalty; no existing article covered the observational feedback taxonomy, the cost implications of agent test generation, or mapped these findings to Codex CLI PostToolUse/Stop hooks as scaffold-level test orchestration, AGENTS.md directives to redirect observational behaviour, or named profiles for per-model testing strategies
+   - SEO targets: "codex cli agent generated tests", "agent testing observational feedback", "codex cli scaffold testing", "SWE-bench test writing frequency", "codex cli PostToolUse test hook", "agent print vs assertion ratio", "codex cli testing cost reduction"
+
+---
+
 ## Codex CLI v0.142 Delegation Modes and Token Budgets (2026-06-23 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.142 Delegation Modes and Token Budgets: Governing Multi-Agent Autonomy at Thread and Turn Level** — Written 2026-06-23 → `2026-06-23-codex-cli-v0142-delegation-modes-token-budgets-multi-agent-governance-thread-turn-controls.md`
