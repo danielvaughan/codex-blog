@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MemMorph Memory Poisoning and Codex CLI Memory Integrity Defence (2026-06-23 Hourly Article Run)
+
+1. ✅ **MemMorph and the Memory Poisoning Threat: How Three Fake Memories Hijack Agent Tool Selection — and How Codex CLI Defends** — Written 2026-06-23 → `2026-06-23-memmorph-memory-poisoning-tool-hijacking-llm-agents-codex-cli-memory-integrity-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — MemMorph (ICML 2026, arXiv:2605.26154) is the first attack that biases tool selection by poisoning an agent's long-term memory with just three crafted records disguised as technical facts, incident reports, and operational policies; achieves up to 85.9% attack success rate across 10 agent backbones, 3 benchmarks, and 3 memory-module implementations; retains 54.9–69.8% ASR against perplexity filter, DistilBERT classifier, and GPT-4o-mini auditor defences; no existing article covered MemMorph, the memory poisoning attack class for coding agents, or mapped MemMorph's attack surface to Codex CLI's native Memories architecture, server-side extraction pipeline, external context isolation flag, dual-switch generate/use separation, or temporal gating tunables
+   - SEO targets: "MemMorph codex cli", "memory poisoning agent security", "tool hijacking LLM agent", "codex cli memory integrity", "agent memory attack defence", "codex cli disable_on_external_context", "persistent memory poisoning coding agent"
+
+---
+
 ## Taming the Monorepo — Large Repository Git Performance (2026-06-23 Hourly Article Run)
 
 1. ✅ **Taming the Monorepo: How Codex CLI v0.140 Fixed Git Performance for Large Repositories** — Written 2026-06-23 → `2026-06-23-codex-cli-large-repository-git-performance-fsmonitor-turn-diff-caching-archive-lookup.md`
