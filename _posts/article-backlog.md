@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Time-Aware Agents — Scheduled UTC Reminders and clock.curr_time Tool (2026-06-23 Hourly Article Run)
+
+1. ✅ **Time-Aware Agents: How Codex CLI v0.142 Gives Your Agent a Clock** — Written 2026-06-23 → `2026-06-23-codex-cli-v0142-time-awareness-scheduled-utc-reminders-clock-curr-time-tool-temporal-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.142.0 (22 June 2026) introduced three-part time awareness: configurable current-time reminders injected before model requests (PR #28822, #28824), a callable clock.curr_time tool for on-demand time queries (PR #29011), and an external clock protocol for app-server deployments (PR #28835); temporal blindness research (arXiv:2604.00010, arXiv:2510.23853) confirms LLMs fail at time perception without explicit signals; no existing article covered the current_time_reminder configuration, clock_source system/external modes, the clock.curr_time tool, the fail-closed external clock protocol, or the interaction between time reminders and token budgets/delegation modes
+   - SEO targets: "codex cli time awareness", "codex cli clock.curr_time tool", "codex cli scheduled UTC reminders", "codex cli current_time_reminder config", "LLM temporal blindness coding agent", "codex cli external clock source", "codex cli v0.142 time features"
+
+---
+
 ## Plugin as MCP Host — Per-Thread Stdio Server Activation (2026-06-23 Hourly Article Run)
 
 1. ✅ **Plugin as MCP Host: How Codex CLI v0.141 Turns Plugins into Per-Thread Tool Servers** — Written 2026-06-23 → `2026-06-23-codex-cli-plugin-mcp-host-per-thread-stdio-server-activation-marketplace-discovery.md`
