@@ -1,7 +1,7 @@
 ---
 title: "From Ban to Platform: What Samsung's Codex Enterprise Deployment Teaches About Large-Scale Agent Governance"
 parent: "Articles"
-nav_order: 1189
+nav_order: 1203
 tags: ["codex-cli", "enterprise", "samsung", "governance", "security", "RBAC", "DLP", "deployment", "case-study"]
 ---
 

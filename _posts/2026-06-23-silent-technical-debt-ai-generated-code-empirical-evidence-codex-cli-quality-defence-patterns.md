@@ -1,7 +1,7 @@
 ---
 title: "Silent Technical Debt in AI-Generated Code: What 302,000 Commits Reveal and How Codex CLI Defends Against It"
 parent: "Articles"
-nav_order: 1200
+nav_order: 1202
 tags: ["codex-cli", "technical-debt", "code-quality", "static-analysis", "PostToolUse", "AGENTS.md", "hooks", "code-reuse", "MSR-2026"]
 ---
 
