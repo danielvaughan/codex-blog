@@ -1,7 +1,7 @@
 ---
 title: "FeatureBench and the Feature Gap: Why Your Codex CLI Agent Aces Bug Fixes but Struggles with Complex Features"
 parent: "Articles"
-nav_order: 1203
+nav_order: 1205
 tags: ["codex-cli", "featurebench", "benchmarks", "feature-development", "agent-planning", "cross-file-reasoning", "ICLR-2026"]
 ---
 

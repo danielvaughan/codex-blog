@@ -1,7 +1,7 @@
 ---
 title: "The 97 Per Cent Problem: Black Duck's AI Coding Governance Gap and How Codex CLI Closes It"
 parent: "Articles"
-nav_order: 1203
+nav_order: 1204
 tags: ["codex-cli", "governance", "enterprise", "security", "Black Duck", "AI-generated code", "requirements.toml", "hooks", "approval-policies"]
 ---
 
