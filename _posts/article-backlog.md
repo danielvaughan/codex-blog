@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Plugin as MCP Host — Per-Thread Stdio Server Activation (2026-06-23 Hourly Article Run)
+
+1. ✅ **Plugin as MCP Host: How Codex CLI v0.141 Turns Plugins into Per-Thread Tool Servers** — Written 2026-06-23 → `2026-06-23-codex-cli-plugin-mcp-host-per-thread-stdio-server-activation-marketplace-discovery.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.141.0 (18 June 2026) introduced per-thread plugin MCP activation via PRs #27870 and #27893; plugins declaring stdio MCP servers in `.mcp.json` now have those servers started on demand when selected via `thread/start(selectedCapabilityRoots)`, scoped exclusively to the selecting thread with executor-bound filesystem resolution, stdio-only filtering, and frozen snapshots; v0.142.0 (22 June 2026) reorganised `/plugins` into OpenAI Curated, Workspace, and Shared marketplace sections with turn-level plugin recommendations; no existing article covered the per-thread plugin MCP activation flow, executor-bound resolution security, frozen MCP snapshots, the Curated/Workspace/Shared marketplace reorganisation, or the interaction with requirements.toml PostToolUse hooks for governed plugin MCP tool usage
+   - SEO targets: "codex cli plugin MCP server", "per-thread MCP activation codex", "codex cli plugin stdio server", "codex cli marketplace curated workspace", "codex cli selectedCapabilityRoots", "plugin MCP isolation codex cli", "codex cli v0.141 plugin tools"
+
+---
+
 ## MemMorph Memory Poisoning and Codex CLI Memory Integrity Defence (2026-06-23 Hourly Article Run)
 
 1. ✅ **MemMorph and the Memory Poisoning Threat: How Three Fake Memories Hijack Agent Tool Selection — and How Codex CLI Defends** — Written 2026-06-23 → `2026-06-23-memmorph-memory-poisoning-tool-hijacking-llm-agents-codex-cli-memory-integrity-defence.md`
