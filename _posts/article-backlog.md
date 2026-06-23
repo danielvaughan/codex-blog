@@ -1,5 +1,13 @@
 # Article Backlog
 
+## LlamaFirewall and Codex CLI Guardrail Integration (2026-06-24 Hourly Article Run)
+
+1. ✅ **LlamaFirewall and Codex CLI: Wiring Meta's Three-Scanner Guardrail into Your Agent's Hook Pipeline** — Written 2026-06-24 → `2026-06-24-llamafirewall-codex-cli-guardrail-integration-promptguard-codeshield-agent-alignment-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Meta's LlamaFirewall (arXiv:2505.03574) is a three-scanner open-source guardrail framework (PromptGuard 2, AlignmentCheck, CodeShield) achieving 90% ASR reduction on AgentDojo; no existing article covered LlamaFirewall's architecture, its integration with Codex CLI's PreToolUse/PostToolUse hook pipeline, the defence-in-depth composition with Codex CLI's kernel sandbox, or practical configuration patterns for enterprise managed hooks
+   - SEO targets: "llamafirewall codex cli", "codex cli guardrail hooks", "promptguard codex cli integration", "codeshield codex cli posttooluse", "agent security guardrail framework", "codex cli pretooluse security scanner", "meta llamafirewall coding agent"
+
+---
+
 ## Time-Aware Agents — Scheduled UTC Reminders and clock.curr_time Tool (2026-06-23 Hourly Article Run)
 
 1. ✅ **Time-Aware Agents: How Codex CLI v0.142 Gives Your Agent a Clock** — Written 2026-06-23 → `2026-06-23-codex-cli-v0142-time-awareness-scheduled-utc-reminders-clock-curr-time-tool-temporal-agent-workflows.md`
