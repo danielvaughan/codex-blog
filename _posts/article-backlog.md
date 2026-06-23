@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Agent Security Paradox — CVE-2026-22708 and Codex CLI Sandbox Architecture (2026-06-23 Hourly Article Run)
+
+1. ✅ **The Agent Security Paradox: What CVE-2026-22708 Teaches About Allowlists, Sandbox Architecture, and Why Codex CLI Gets It Right** — Written 2026-06-23 → `2026-06-23-agent-security-paradox-cursor-allowlist-bypass-cve-2026-22708-codex-cli-sandbox-architecture-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — CVE-2026-22708 (Cursor allowlist bypass via shell built-ins enabling environment variable poisoning and RCE); Pillar Security's "Agent Security Paradox" analysis; OWASP State of Agentic AI Security v2.01 (June 2026) tracking 28/53 coding agents with real incident data; allowlist-based security proven architecturally insufficient for autonomous agents; Codex CLI's kernel-level sandbox (Seatbelt/bwrap+seccomp), disabled-by-default networking, domain-filtered proxy, and declarative permission profiles as the correct architectural response; CVE-2025-59532 (Codex sandbox boundary bug, patched v0.39.0) shows fixable boundary bugs vs unfixable architectural gaps; no existing article covered CVE-2026-22708, the allowlist-vs-sandbox architectural comparison, the OWASP v2.01 coding agent attack data, or mapped the Cursor attack chain stage-by-stage to Codex CLI's defence layers
+   - SEO targets: "CVE-2026-22708 cursor allowlist bypass", "codex cli sandbox security", "agent security paradox allowlist", "codex cli permission profiles security", "OWASP agentic AI security coding agents", "codex cli kernel sandbox vs allowlist", "coding agent environment variable poisoning defence"
+
+---
+
 ## FeatureBench Complex Feature Development Benchmark (2026-06-23 Hourly Article Run)
 
 1. ✅ **FeatureBench and the Feature Gap: Why Your Codex CLI Agent Aces Bug Fixes but Struggles with Complex Features** — Written 2026-06-23 → `2026-06-23-featurebench-complex-feature-development-benchmark-codex-cli-agent-planning-cross-file-reasoning.md`
