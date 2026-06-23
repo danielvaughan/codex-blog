@@ -2,7 +2,7 @@
 title: "Claude Code ↔ Codex CLI: Bidirectional MCP Integration"
 description: "The Model Context Protocol (MCP) was designed as a universal interface between AI agents and external tools."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-06-23T12:11:37+01:00
+last_modified_at: 2026-06-23T14:11:10+01:00
 tags: ["mcp", "claude-code", "codex", "integration", "orchestration"]
 ---
 

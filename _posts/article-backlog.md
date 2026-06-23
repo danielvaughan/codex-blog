@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Taming the Monorepo — Large Repository Git Performance (2026-06-23 Hourly Article Run)
+
+1. ✅ **Taming the Monorepo: How Codex CLI v0.140 Fixed Git Performance for Large Repositories** — Written 2026-06-23 → `2026-06-23-codex-cli-large-repository-git-performance-fsmonitor-turn-diff-caching-archive-lookup.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.140.0 (15 June 2026) shipped four performance fixes for large repositories: fsmonitor preservation (PR #26880), duplicate history read elimination, archive lookup acceleration, and turn-diff rendering cache; fsmonitor fix restores Git built-in daemon while blocking external helpers for security; turn-diff tree refs (issue #28241) break libgit2-based clients (SourceTree, TortoiseGit, VS Code remote); worktree pre-flight hang (issue #28381) during AGENTS.override.md scan in 160K-file repos; no existing article covered the v0.140 Git performance fixes, the fsmonitor preservation mechanics, the turn-diff ref format problem, or configuration guidance for monorepo-scale Codex CLI usage
+   - SEO targets: "codex cli large repository performance", "codex cli monorepo git fsmonitor", "codex cli turn-diff caching", "codex cli worktree hang large repo", "codex cli git performance optimization", "codex cli fsmonitor preservation", "codex cli archive lookup performance"
+
+---
+
 ## The Agent Security Paradox — CVE-2026-22708 and Codex CLI Sandbox Architecture (2026-06-23 Hourly Article Run)
 
 1. ✅ **The Agent Security Paradox: What CVE-2026-22708 Teaches About Allowlists, Sandbox Architecture, and Why Codex CLI Gets It Right** — Written 2026-06-23 → `2026-06-23-agent-security-paradox-cursor-allowlist-bypass-cve-2026-22708-codex-cli-sandbox-architecture-defence.md`
