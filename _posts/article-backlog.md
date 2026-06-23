@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Black Duck 97% AI Coding Governance Gap (2026-06-23 Hourly Article Run)
+
+1. ✅ **The 97 Per Cent Problem: Black Duck's AI Coding Governance Gap and How Codex CLI Closes It** — Written 2026-06-23 → `2026-06-23-black-duck-97-percent-ai-coding-adoption-governance-gap-codex-cli-enterprise-controls.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Black Duck / UserEvidence surveyed 831 enterprise engineers (March 2026, published 9 June 2026) finding 97% AI coding adoption but only 30% with full governance; 90% encounter problems with AI-generated code; governed teams report 90% efficiency gains vs 44% ungoverned; 86% want AI agents vetting AI-written code; no existing article mapped this study's findings to Codex CLI's governance stack (requirements.toml, PostToolUse/PreToolUse hooks, Guardian Review, AGENTS.md, named profiles, managed configuration)
+   - SEO targets: "codex cli governance enterprise", "AI coding governance gap", "Black Duck 97 percent AI adoption", "codex cli requirements.toml enterprise policy", "codex cli PostToolUse lint gate", "AI-generated code governance controls", "codex cli managed hooks enterprise"
+
+---
+
 ## Patch the Planet: Codex-Powered Open-Source Security (2026-06-23 Hourly Article Run)
 
 1. ✅ **Patch the Planet: What OpenAI's Open-Source Security Initiative Means for Codex CLI Defensive Workflows** — Written 2026-06-23 → `2026-06-23-patch-the-planet-openai-codex-gpt55-cyber-open-source-vulnerability-patching-trail-of-bits-cli-security-workflows.md`
