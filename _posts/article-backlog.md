@@ -7672,3 +7672,11 @@ The following gaps were identified during the 17 June 2026 article rating review
 - **Gap:** EsoLang-Bench (4.6) and Programming Languages Still Matter (5.0) document agent performance across unusual languages. No article addresses the practical workflow for teams with proprietary DSLs, internal configuration languages, or specialised domain languages where training data is sparse.
 - **Priority:** Low — niche audience but novel angle.
 
+---
+
+## SWE-PolyBench Multi-Language Benchmark and Codex CLI Polyglot Strategy (2026-06-24 Hourly Article Run)
+
+1. ✅ **SWE-PolyBench and the Polyglot Performance Gap: What Multi-Language Benchmarks Reveal About Codex CLI's Real-World Effectiveness** — Written 2026-06-24 → `2026-06-24-swe-polybench-multi-language-benchmark-codex-cli-polyglot-performance-gap-agents-md-language-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Amazon's SWE-PolyBench (arXiv:2504.08703) evaluates coding agents across JavaScript (1,017), TypeScript (729), Python (199), and Java (165) instances from 21 repositories; Python pass rates 9-16pp higher than other languages; multi-file tasks (3+ files) drop below 10% success; CST node-level retrieval metrics reveal navigation as the bottleneck; no existing article covered SWE-PolyBench specifically, the polyglot performance gap with concrete data, or mapped the benchmark findings to Codex CLI per-directory AGENTS.md, PostToolUse compilation hooks, model routing profiles, and subagent decomposition strategies
+   - SEO targets: "SWE-PolyBench codex cli", "multi-language coding agent benchmark", "polyglot agent performance gap", "codex cli AGENTS.md polyglot", "TypeScript agent performance", "Java coding agent benchmark", "SWE-PolyBench results"
+
