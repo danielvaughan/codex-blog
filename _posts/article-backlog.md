@@ -1,5 +1,13 @@
 # Article Backlog
 
+## NIST AI Agent Standards Initiative — Codex CLI Compliance Readiness (2026-06-24 Hourly Article Run)
+
+1. ✅ **The NIST AI Agent Standards Initiative: What It Means for Codex CLI and Your Compliance Roadmap** — Written 2026-06-24 → `2026-06-24-nist-ai-agent-standards-initiative-codex-cli-compliance-readiness-cosais-identity-authorization.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — NIST CAISI launched the AI Agent Standards Initiative (17 February 2026) as the first US government programme for agentic AI interoperability and security standards; COSAiS project extending SP 800-53 with single-agent and multi-agent overlays; NCCoE concept paper proposing OAuth 2.0 RAR/DPoP + SPIFFE/SPIRE + MCP for agent identity and authorization; NIST AI 100-2 E2025 adversarial taxonomy identifying six agent-specific threat categories; AgentDojo-Inspect red-teaming finding 81% task-hijacking success rate; listening sessions (March-April 2026) across healthcare, finance, education sectors; no existing article covered the NIST AI Agent Standards Initiative, COSAiS control overlays mapped to Codex CLI's requirements.toml/sandbox/OTel stack, or the NCCoE identity architecture mapped to Codex CLI's enterprise access tokens, Noise Protocol channels, and permission profiles
+   - SEO targets: "NIST AI agent standards codex cli", "COSAiS SP 800-53 coding agent", "codex cli NIST compliance", "AI agent identity authorization NIST", "codex cli enterprise compliance readiness", "NIST agent security controls", "COSAiS coding agent overlay"
+
+---
+
 ## LLM Agent Communication Protocol Taxonomy — Codex CLI Protocol Stack Architecture (2026-06-24 Hourly Article Run)
 
 1. ✅ **The Protocol Stack Under Your Agent: What a New Taxonomy of LLM Communication Protocols Reveals About Codex CLI's Architecture** — Written 2026-06-24 → `2026-06-24-llm-agent-communication-protocol-taxonomy-codex-cli-protocol-stack-mcp-app-server-architecture.md`

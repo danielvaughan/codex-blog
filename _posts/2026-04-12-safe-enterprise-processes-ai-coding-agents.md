@@ -2,7 +2,7 @@
 title: "SAFe Was Bad for Agility. For AI Coding Agents, It's Worse."
 description: "Jeff Gothelfs recent article SAFe Was Bad for Agility. For AI, Its Catastrophic makes a sharp argument: the Scaled Agile Framework."
 date: 2026-04-12T10:00:00+00:00
-last_modified_at: 2026-06-24T18:10:02+01:00
+last_modified_at: 2026-06-24T20:16:04+01:00
 featured: true
 tags:
   - codex-cli
