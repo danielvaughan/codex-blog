@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SoK Prompt Injection 42 Attack Techniques — Codex CLI Defence Stack Mapping (2026-06-25 Hourly Article Run)
+
+1. ✅ **42 Ways to Hack Your Coding Agent: What the First SoK on Prompt Injection Means for Codex CLI's Defence Stack** — Written 2026-06-25 → `2026-06-25-sok-prompt-injection-42-attack-techniques-agentic-coding-assistants-codex-cli-defence-stack-mapping.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Maloyan & Namiot (arXiv:2601.17548, January 2026) published the first SoK on prompt injection attacks targeting agentic coding assistants, cataloguing 42 distinct attack techniques across a three-dimensional taxonomy (delivery vectors, attack modalities, propagation behaviours), synthesising 78 studies, evaluating 18 defence mechanisms finding 78–93% bypass rates under adaptive attacks, and documenting 30+ CVEs across Claude Code, Cursor, and Copilot; no existing article covered this SoK specifically, its three-dimensional taxonomy, the 42-technique catalogue, or mapped the taxonomy's five attack classes to Codex CLI's kernel sandbox, PreToolUse/PostToolUse hook pipeline, MCP allowlisting, per-thread isolation, network controls, and approval policies
+   - SEO targets: "prompt injection SoK codex cli", "42 attack techniques coding agent", "agentic coding assistant security taxonomy", "codex cli defence in depth prompt injection", "MCP tool poisoning codex cli defence", "coding agent prompt injection bypass rates", "codex cli sandbox hook pipeline security"
+
+---
+
 ## SecureVibeBench Secure Vibe Coding Benchmark — Codex CLI Agent Vulnerability Defence (2026-06-24 Hourly Article Run)
 
 1. ✅ **SecureVibeBench and the Vibe Coding Security Gap: Why Only 23.8 Per Cent of Agent-Generated Code Is Both Correct and Secure — and How Codex CLI's Defence Stack Responds** — Written 2026-06-24 → `2026-06-24-securevibebench-secure-vibe-coding-benchmark-codex-cli-agent-vulnerability-defence-hooks-sandbox.md`

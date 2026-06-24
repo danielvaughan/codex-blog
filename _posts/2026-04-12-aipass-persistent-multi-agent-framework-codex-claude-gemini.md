@@ -2,7 +2,7 @@
 title: "AIPass: Persistent Multi-Agent Collaboration Across Codex CLI, Claude Code, and Gemini CLI"
 description: "Every AI coding CLI session starts from scratch. You open Claude Code, explain the codebase, establish conventions, work through a problem."
 date: 2026-04-12T11:00:00+00:00
-last_modified_at: 2026-06-24T22:10:48+01:00
+last_modified_at: 2026-06-25T00:13:09+01:00
 tags:
   - codex-cli
   - claude-code
