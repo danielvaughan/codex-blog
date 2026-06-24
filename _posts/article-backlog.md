@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AIRQ AI Risk Quadrant — Only 11% of Agents Pass the Security Bar (2026-06-24 Hourly Article Run)
+
+1. ✅ **The AIRQ Report: Only 11 Per Cent of AI Agents Pass the Security Bar — Where Codex CLI Stands** — Written 2026-06-24 → `2026-06-24-airq-ai-risk-quadrant-only-11-percent-agents-pass-security-bar-codex-cli-defence-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Adversa AI's AIRQ (AI Risk Quadrant) report (June 2026) scored 100 production agents across attack surface, blast radius, and defence controls; only 11% reach Fortified Leaders; coding agents rank highest risk on all three axes (autonomous attack surface 8.1, interactive copilots 5.6); 98% exhibit the "lethal trifecta"; tool execution explains 76% of blast radius variation; no coding agent ships real-time egress inspection; Gravitee survey (900+ respondents) finds 88% confirmed/suspected incidents; no existing article covered the AIRQ framework methodology, its specific coding agent findings, or mapped its five defence control stages to Codex CLI's sandbox, hook pipeline, approval policies, and monitoring architecture
+   - SEO targets: "AIRQ codex cli security", "AI agent security risk quadrant", "only 11 percent agents pass security", "coding agent attack surface blast radius", "codex cli defence controls AIRQ", "lethal trifecta AI agent security", "AIRQ fortified leaders coding agent"
+
+---
+
 ## LlamaFirewall and Codex CLI Guardrail Integration (2026-06-24 Hourly Article Run)
 
 1. ✅ **LlamaFirewall and Codex CLI: Wiring Meta's Three-Scanner Guardrail into Your Agent's Hook Pipeline** — Written 2026-06-24 → `2026-06-24-llamafirewall-codex-cli-guardrail-integration-promptguard-codeshield-agent-alignment-hooks.md`

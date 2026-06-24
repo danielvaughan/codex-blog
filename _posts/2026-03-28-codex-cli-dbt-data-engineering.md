@@ -2,7 +2,7 @@
 title: "Codex CLI for dbt and Data Engineering Workflows"
 description: "Data engineering is one of the fastest-growing segments of software development, yet the Codex CLI ecosystem has produced almost no content targeted at data."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-24T00:13:07+01:00
+last_modified_at: 2026-06-24T02:14:42+01:00
 tags:
   - language-guide
   - third-party
