@@ -266,7 +266,7 @@ Not every tool call needs all three scanners. Use hook matchers to target specif
 
 **AlignmentCheck requires reasoning tokens** — if the model does not emit chain-of-thought (e.g., when using `o3-mini` in low-reasoning mode), AlignmentCheck has limited material to audit [^1].
 
-**Adaptive attacks remain a concern** — research from Jatmo (2025) demonstrates that adaptive attackers who know the guardrail architecture can craft inputs that bypass even well-tuned defences, achieving 85%+ ASR against state-of-the-art guardrails when adaptive strategies are employed [^9]. LlamaFirewall's 1.75% ASR was measured against non-adaptive attacks on AgentDojo.
+**Adaptive attacks remain a concern** — research from Zhan et al. (2025) demonstrates that adaptive attackers who know the guardrail architecture can craft inputs that bypass even well-tuned defences, consistently achieving over 50% ASR against state-of-the-art guardrails when adaptive strategies are employed [^9]. LlamaFirewall's 1.75% ASR was measured against non-adaptive attacks on AgentDojo.
 
 **CodeShield coverage is partial** — eight languages with Semgrep + regex rules cannot match the breadth of dedicated SAST tools like Semgrep Pro or SonarQube [^4]. Treat CodeShield as a fast first-pass filter, not a replacement for CI pipeline security scanning.
 

@@ -2,7 +2,7 @@
 title: "Codex App Worktree Lifecycle: Local Environments, Setup Scripts, Handoff, and Automated Cleanup"
 description: "Worktrees are the backbone of parallel agent work in the Codex Desktop App. Every time you open a new thread, start an automation."
 date: 2026-04-11T08:00:00+00:00
-last_modified_at: 2026-06-24T02:14:42+01:00
+last_modified_at: 2026-06-24T03:10:44+01:00
 tags: ["worktrees", "local-environments", "setup-scripts", "handoff", "codex-app", "automation", "configuration"]
 ---
 
