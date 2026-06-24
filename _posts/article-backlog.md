@@ -1,5 +1,13 @@
 # Article Backlog
 
+## LLM Agent Communication Protocol Taxonomy — Codex CLI Protocol Stack Architecture (2026-06-24 Hourly Article Run)
+
+1. ✅ **The Protocol Stack Under Your Agent: What a New Taxonomy of LLM Communication Protocols Reveals About Codex CLI's Architecture** — Written 2026-06-24 → `2026-06-24-llm-agent-communication-protocol-taxonomy-codex-cli-protocol-stack-mcp-app-server-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sander et al. (arXiv:2606.19135, 24 June 2026) published a five-dimension taxonomy of nine LLM agent communication protocols (MCP, A2A, ACP, LAP, ANP, Agora, LMOS, agents.json, agntcy) identifying a communication trilemma (versatility vs efficiency vs portability); no existing article mapped this taxonomy to Codex CLI's three-protocol stack (MCP for tools, app-server JSON-RPC for client communication, A2A/Agents SDK for subagent delegation), analysed how the taxonomy's privacy/policy gap maps to requirements.toml and kernel sandbox, or connected the proposed federated protocol stack model to Codex CLI's layered architecture
+   - SEO targets: "codex cli protocol stack architecture", "LLM agent communication protocol taxonomy", "codex cli MCP app-server A2A", "agent communication trilemma", "codex cli protocol layers", "MCP vs app-server codex cli", "agent protocol taxonomy 2026"
+
+---
+
 ## Salt Security 90% AI-Generated Code Risk — Codex CLI Governance Stack (2026-06-24 Hourly Article Run)
 
 1. ✅ **Nine in Ten Security Leaders Fear AI-Generated Code — How Codex CLI's Governance Stack Addresses the Gap** — Written 2026-06-24 → `2026-06-24-salt-security-90-percent-security-leaders-ai-generated-code-risk-codex-cli-governance-stack.md`
