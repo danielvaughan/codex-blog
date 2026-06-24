@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Exec-Server and MCP Session Resilience — Transient Disconnect Recovery (2026-06-24 Hourly Article Run)
+
+1. ✅ **Session Resilience at Last: How Codex CLI v0.141–v0.142 Stopped Exec-Server and MCP Sessions Dying on Transient Disconnects** — Written 2026-06-24 → `2026-06-24-codex-cli-v0141-v0142-exec-server-mcp-session-resilience-transient-disconnect-recovery.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.141.0 (18 June 2026) and v0.142.0 (22 June 2026) shipped coordinated fixes across PRs #28374, #28512, #28546, #28895 making exec-server processes and stdio MCP sessions survive transient disconnects including signed-URL refresh and retry-safe stdin writes; previously AsyncManagedClient used one-shot initialisation with no Disconnected/Reconnecting lifecycle (issue #11489); stdio MCP servers degraded permanently to Transport closed after any network hiccup (issue #16899); no existing article covered the exec-server/MCP session resilience architecture, the transport-layer reconnection state machine, signed-URL refresh mechanics, retry-safe stdin writes, or the interaction with goal-first thread persistence and Noise Protocol relay channels
+   - SEO targets: "codex cli MCP session resilience", "codex cli exec-server disconnect recovery", "codex cli stdio MCP reconnect", "codex cli transient disconnect survival", "codex cli v0.142 session resilience", "MCP transport closed fix codex", "codex cli signed URL refresh retry"
+
+---
+
 ## ProjDevBench End-to-End Project Development Benchmark (2026-06-24 Hourly Article Run)
 
 1. ✅ **ProjDevBench and the Greenfield Gap: Why Your Codex CLI Agent Tops the Project Development Leaderboard — and Where It Still Falls Short** — Written 2026-06-24 → `2026-06-24-projdevbench-end-to-end-project-development-benchmark-codex-cli-greenfield-agent-architecture-strategy.md`
