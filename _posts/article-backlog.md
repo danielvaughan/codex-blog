@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ProjDevBench End-to-End Project Development Benchmark (2026-06-24 Hourly Article Run)
+
+1. ✅ **ProjDevBench and the Greenfield Gap: Why Your Codex CLI Agent Tops the Project Development Leaderboard — and Where It Still Falls Short** — Written 2026-06-24 → `2026-06-24-projdevbench-end-to-end-project-development-benchmark-codex-cli-greenfield-agent-architecture-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — ProjDevBench (arXiv:2602.01655, February 2026) evaluates six coding agents on end-to-end project development across 20 problems in 8 categories; Codex CLI on GPT-5 leads at 77.85% overall but mean acceptance rate is only 27.38%; agents average 138 turns and 4.81M tokens per problem; dominant failure modes are wrong answer (41.86%), TLE (13.91%), and runtime error (7.01%); strong negative correlation between tokens/turns and score (ρ = -0.734/-0.668); no existing article covered ProjDevBench specifically, the greenfield development performance gap vs SWE-bench, or mapped ProjDevBench failure modes to Codex CLI AGENTS.md specification guidance, PostToolUse compilation hooks, rollout token budgets, and subagent decomposition strategies
+   - SEO targets: "ProjDevBench codex cli", "codex cli greenfield project development", "end-to-end project benchmark coding agent", "codex cli specification AGENTS.md greenfield", "ProjDevBench acceptance rate agent", "coding agent wrong answer specification failure", "codex cli token budget greenfield"
+
+---
+
 ## AIRQ AI Risk Quadrant — Only 11% of Agents Pass the Security Bar (2026-06-24 Hourly Article Run)
 
 1. ✅ **The AIRQ Report: Only 11 Per Cent of AI Agents Pass the Security Bar — Where Codex CLI Stands** — Written 2026-06-24 → `2026-06-24-airq-ai-risk-quadrant-only-11-percent-agents-pass-security-bar-codex-cli-defence-architecture.md`
