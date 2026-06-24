@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SecureVibeBench Secure Vibe Coding Benchmark — Codex CLI Agent Vulnerability Defence (2026-06-24 Hourly Article Run)
+
+1. ✅ **SecureVibeBench and the Vibe Coding Security Gap: Why Only 23.8 Per Cent of Agent-Generated Code Is Both Correct and Secure — and How Codex CLI's Defence Stack Responds** — Written 2026-06-24 → `2026-06-24-securevibebench-secure-vibe-coding-benchmark-codex-cli-agent-vulnerability-defence-hooks-sandbox.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — SecureVibeBench (ACL 2026 Main, Oral; arXiv:2509.22097v5) is the first SWE-bench-level benchmark for secure vibe coding, evaluating five agents across 105 C/C++ tasks from real OSS-Fuzz/ARVO vulnerabilities; best agent (SWE-agent + Claude Sonnet 4.5) achieves only 23.8% correct-and-secure; Codex CLI (GPT-5) scores 17.1%; agents introduce new CWE types not in the dataset; 71.6% of findings are memory-related; CSA tracks AI-generated CVEs climbing from 6 to 35 in Q1 2026; no existing article covered SecureVibeBench specifically, the benchmark's three-dimensional evaluation (functional + dynamic security + static security), or mapped its vulnerability findings to Codex CLI's PostToolUse hooks, MCP-connected SAST scanners, Codex Security commit-level analysis, and kernel sandbox architecture
+   - SEO targets: "SecureVibeBench codex cli", "vibe coding security benchmark", "AI agent generated code vulnerability", "codex cli SAST hooks security", "secure vibe coding benchmark ACL 2026", "coding agent vulnerability rate", "codex cli defence stack security scanning"
+
+---
+
 ## NIST AI Agent Standards Initiative — Codex CLI Compliance Readiness (2026-06-24 Hourly Article Run)
 
 1. ✅ **The NIST AI Agent Standards Initiative: What It Means for Codex CLI and Your Compliance Roadmap** — Written 2026-06-24 → `2026-06-24-nist-ai-agent-standards-initiative-codex-cli-compliance-readiness-cosais-identity-authorization.md`
