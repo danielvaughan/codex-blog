@@ -2,7 +2,7 @@
 title: "Codex CLI for Go Teams: Skills, AGENTS.md and Go 1.26 Workflows"
 description: "Go's explicit error handling, strict formatting conventions, and idiomatic concurrency model make it both an ideal and a demanding language for agentic."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-06-24T08:21:50+01:00
+last_modified_at: 2026-06-24T10:13:31+01:00
 tags:
   - language-guide
   - agents-md

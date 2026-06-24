@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Salt Security 90% AI-Generated Code Risk — Codex CLI Governance Stack (2026-06-24 Hourly Article Run)
+
+1. ✅ **Nine in Ten Security Leaders Fear AI-Generated Code — How Codex CLI's Governance Stack Addresses the Gap** — Written 2026-06-24 → `2026-06-24-salt-security-90-percent-security-leaders-ai-generated-code-risk-codex-cli-governance-stack.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Salt Security / Censuswide surveyed 100 IT security leaders (May 2026) finding 90% concerned about AI-generated code risks, 67% reporting widespread AI coding assistant adoption, 38% still relying on manual review, AI assistants generating nearly half of enterprise code; Salt's 1H 2026 State of AI and API Security Report found 48.9% of organisations blind to machine-to-machine traffic, 78.6% facing increased boardroom scrutiny, only 23.5% finding existing tools effective; Salt Code launched 1 June 2026 as MCP-connected policy enforcement across eight coding assistants; no existing article covered the Salt Security research, Salt Code's MCP integration, or mapped Salt's five governance priorities to Codex CLI's requirements.toml, managed hooks, MCP allowlisting, and kernel sandbox architecture
+   - SEO targets: "codex cli governance enterprise security", "AI-generated code security risk", "Salt Security 90 percent security leaders", "codex cli requirements.toml managed hooks", "AI coding assistant governance gap", "codex cli enterprise policy enforcement", "Salt Code MCP codex cli"
+
+---
+
 ## Exec-Server and MCP Session Resilience — Transient Disconnect Recovery (2026-06-24 Hourly Article Run)
 
 1. ✅ **Session Resilience at Last: How Codex CLI v0.141–v0.142 Stopped Exec-Server and MCP Sessions Dying on Transient Disconnects** — Written 2026-06-24 → `2026-06-24-codex-cli-v0141-v0142-exec-server-mcp-session-resilience-transient-disconnect-recovery.md`
