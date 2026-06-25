@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Personality System: Customising Agent Communication Style"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-25T12:07:59+01:00
+last_modified_at: 2026-06-25T14:13:47+01:00
 description: "Codex CLI's personality system lets you choose how the agent communicates — from terse and execution-focused to conversational and partner-like."
 substack_status: draft
 tags:

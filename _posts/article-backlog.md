@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Asimov Code Comprehension Agent — Retriever-Combiner Architecture vs Codex CLI Codebase Understanding (2026-06-25 Hourly Article Run)
+
+1. ✅ **Asimov and the Comprehension-First Agent: What Reflection AI's Retriever-Combiner Architecture Reveals About Code Understanding — and How Codex CLI Approaches the Same Problem Differently** — Written 2026-06-25 → `2026-06-25-asimov-code-comprehension-agent-retriever-combiner-architecture-codex-cli-codebase-understanding-comparison.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Reflection AI's Asimov (launched July 2025, still early access June 2026) uses a multi-agent retriever-combiner architecture separating retrieval from reasoning, ingesting code + docs + chat + PM tools, with persistent Memories and RBAC; preferred 60-80% over Claude Code in blind tests; no existing article covered Asimov's architecture, the comprehension-first vs generation-first agent paradigm, or compared Asimov's retriever-combiner approach to Codex CLI's AGENTS.md + MCP + search subagent + context compaction comprehension stack
+   - SEO targets: "asimov vs codex cli", "code comprehension agent", "retriever combiner architecture coding agent", "reflection ai asimov codex comparison", "codex cli codebase understanding", "code comprehension vs code generation agent", "AGENTS.md code comprehension"
+
+---
+
 ## SQLite TRACE Logging Bug — 640 TB/Year SSD Write Amplification Detection and Defence (2026-06-25 Hourly Article Run)
 
 1. ✅ **The 640 TB Silent Killer: Anatomy of the Codex CLI SQLite Logging Bug — Detection, Root Cause, and SSD Defence** — Written 2026-06-25 → `2026-06-25-codex-cli-sqlite-trace-logging-bug-640tb-ssd-write-amplification-detection-defence.md`
