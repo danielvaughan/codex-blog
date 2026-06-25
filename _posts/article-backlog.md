@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Junie GA: IDE-Integrated vs Terminal-Native Coding Agents — Codex CLI Comparison (2026-06-25 Hourly Article Run)
+
+1. ✅ **Junie Goes GA: What JetBrains' IDE-Integrated Agent Reveals About the Terminal-Native vs IDE-Native Divide — and Where Codex CLI Stands** — Written 2026-06-25 → `2026-06-25-junie-ga-ide-integrated-vs-terminal-native-coding-agents-codex-cli-comparison.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — JetBrains moved Junie to GA on 17 June 2026 claiming #1 on SWE-Rebench at 61.6% resolved whilst Codex CLI leads Terminal-Bench 2.1 at 83.4%; Junie GA rebuilt on ACP (Agent Communication Protocol) with agentic debugging (autonomous breakpoint, step, inspect, iterate against live runtime), LLM-agnostic BYOK model support, and semantic code model integration; no existing article covered the Junie GA release, the IDE-native vs terminal-native architectural divide, ACP vs MCP protocol comparison, the benchmark divergence explanation, or the sandboxing gap between Codex CLI's kernel sandbox and Junie's unsandboxed execution
+   - SEO targets: "junie vs codex cli", "IDE vs terminal coding agent", "junie GA coding agent", "codex cli terminal-bench", "junie SWE-Rebench", "ACP vs MCP coding agent", "jetbrains junie codex comparison"
+
+---
+
 ## BeyondTrust Phantom Labs Codex GitHub Token Command Injection — Branch Name Vulnerability Defence Architecture (2026-06-25 Hourly Article Run)
 
 1. ✅ **The Branch Name That Stole Your Tokens: Anatomy of the Codex GitHub Token Vulnerability — and What It Teaches About Agent Credential Defence** — Written 2026-06-25 → `2026-06-25-beyondtrust-phantom-labs-codex-github-token-command-injection-branch-name-vulnerability-defence-architecture.md`
