@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex-Maxxing Long-Running Agent Work — Durable Threads, Memory, Heartbeats, Steering, Verifiable Goals (2026-06-25 Hourly Article Run)
+
+1. ✅ **Codex-Maxxing: The Six-Pillar Methodology for Long-Running Agent Work with Durable Threads, Memory, Heartbeats, and Verifiable Goals** — Written 2026-06-25 → `2026-06-25-codex-maxxing-long-running-agent-work-durable-threads-memory-heartbeats-steering-verifiable-goals.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI published "Codex-maxxing for long-running work" (22 June 2026) formalising the six-pillar methodology (durable threads, structured memory, heartbeat automations, mid-turn steering, verifiable goals, artifact inspection) for persistent agent workspaces; Jason Liu's independent codex-maxxing post (May 2026) documented production patterns including Obsidian vault memory, dynamic heartbeat cadence, and chained steering actions; no existing article covered the unified codex-maxxing methodology, the heartbeat automation feature, or the operating loop that ties all six pillars together
+   - SEO targets: "codex-maxxing methodology", "codex cli durable threads", "codex heartbeat automation", "codex cli long-running work", "verifiable goals codex", "codex memory system structured", "codex cli persistent workspace"
+
+---
+
 ## Resource Budgets Beyond Tokens — Disk, I/O, and Process Lifecycle Observability (2026-06-25 Hourly Article Run)
 
 1. ✅ **Beyond Token Budgets: Why Codex CLI Needs Resource Budgets for Disk, I/O, and Process Lifecycle** — Written 2026-06-25 → `2026-06-25-codex-cli-resource-budgets-beyond-tokens-disk-io-process-lifecycle-observability.md`
