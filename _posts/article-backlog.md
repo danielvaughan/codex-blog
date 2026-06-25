@@ -1,5 +1,13 @@
 # Article Backlog
 
+## BeyondTrust Phantom Labs Codex GitHub Token Command Injection — Branch Name Vulnerability Defence Architecture (2026-06-25 Hourly Article Run)
+
+1. ✅ **The Branch Name That Stole Your Tokens: Anatomy of the Codex GitHub Token Vulnerability — and What It Teaches About Agent Credential Defence** — Written 2026-06-25 → `2026-06-25-beyondtrust-phantom-labs-codex-github-token-command-injection-branch-name-vulnerability-defence-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — BeyondTrust Phantom Labs (disclosed March 2026) identified a Critical Priority 1 command injection vulnerability in OpenAI Codex where unsanitised GitHub branch name parameters in the task creation HTTP request allowed arbitrary shell command execution and GitHub OAuth token exfiltration; affected ChatGPT, Codex CLI, SDK, and IDE extension; patched December 2025–February 2026; used Unicode Ideographic Space and ${IFS} bypass techniques; no existing article covered this specific vulnerability, the three-stage kill chain (payload injection, unsanitised shell execution, token exfiltration), or mapped the attack to Codex CLI's five-layer defence stack (kernel sandbox, shell environment policy, PreToolUse hooks, network allow-lists, PostToolUse output audit)
+   - SEO targets: "codex github token vulnerability", "beyondtrust phantom labs codex", "codex cli command injection branch name", "github token theft coding agent", "codex cli credential defence", "agent credential isolation", "codex cli shell injection defence"
+
+---
+
 ## SoK Prompt Injection 42 Attack Techniques — Codex CLI Defence Stack Mapping (2026-06-25 Hourly Article Run)
 
 1. ✅ **42 Ways to Hack Your Coding Agent: What the First SoK on Prompt Injection Means for Codex CLI's Defence Stack** — Written 2026-06-25 → `2026-06-25-sok-prompt-injection-42-attack-techniques-agentic-coding-assistants-codex-cli-defence-stack-mapping.md`
