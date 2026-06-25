@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Gartner 40% Agentic AI Cancellation Warning and Agent-Washing Evaluation (2026-06-26 Hourly Article Run)
+
+1. ✅ **Gartner's 40% Cancellation Warning and the Agent-Washing Problem: How to Evaluate Whether Your Coding Agent Is Genuinely Agentic** — Written 2026-06-26 → `2026-06-26-gartner-40-percent-agentic-ai-project-cancellations-agent-washing-codex-cli-genuine-agentic-coding-evaluation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Gartner predicts 40%+ of agentic AI projects cancelled by end of 2027 due to escalating costs, unclear business value, and inadequate risk controls; Gartner estimates only ~130 of thousands of agentic AI vendors deliver genuine capabilities, with the rest engaged in "agent washing"; no existing article mapped Gartner's three cancellation drivers to the coding agent domain, provided a five-dimension evaluation framework for distinguishing genuinely agentic coding tools from rebranded autocomplete, or connected agent washing to Codex CLI's specific governance features (Goal Mode, kernel sandbox, hook pipeline, rollout token budgets, permission profiles)
+   - SEO targets: "gartner agentic AI project cancellation", "agent washing coding agent", "codex cli genuine agentic evaluation", "agentic AI project failure 40 percent", "coding agent evaluation framework", "codex cli enterprise governance agent washing", "genuine agentic coding tool checklist"
+
+---
+
 ## AA-AgentPerf Agentic Inference Benchmark — Codex CLI Infrastructure and Hardware Selection (2026-06-25 Hourly Article Run)
 
 1. ✅ **AA-AgentPerf and the Infrastructure Bottleneck: What the First Agentic Inference Benchmark Means for Codex CLI at Scale** — Written 2026-06-25 → `2026-06-25-aa-agentperf-first-agentic-inference-benchmark-codex-cli-infrastructure-hardware-agents-per-megawatt.md`
