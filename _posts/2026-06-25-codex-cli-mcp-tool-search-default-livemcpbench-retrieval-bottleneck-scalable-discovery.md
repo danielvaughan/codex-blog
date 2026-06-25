@@ -145,7 +145,7 @@ The 128-tool API limit [^4] is no longer the binding constraint. With tool searc
 
 ## What Remains Unsolved
 
-Tool search addresses retrieval but not **composition**. LiveMCPBench shows that even the best models compose only 2.7–3.4 tools per task [^2]. The next frontier is multi-tool orchestration — teaching agents not just to find individual tools but to chain them into coherent workflows. ⚠️ Whether Codex CLI's subagent delegation (v0.142.0) meaningfully improves composition rates has not been benchmarked against LiveMCPBench's task set.
+Tool search addresses retrieval but not **composition**. LiveMCPBench shows that even the best models compose only 2.71–3.4 tools per task [^2]. The next frontier is multi-tool orchestration — teaching agents not just to find individual tools but to chain them into coherent workflows. ⚠️ Whether Codex CLI's subagent delegation (v0.142.0) meaningfully improves composition rates has not been benchmarked against LiveMCPBench's task set.
 
 ## Citations
 
