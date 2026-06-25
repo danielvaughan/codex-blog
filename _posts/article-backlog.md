@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Hook Convergence — Portable Governance Across Five Coding Agents (2026-06-25 Hourly Article Run)
+
+1. ✅ **The Agent Hook Convergence: How Five Coding Agents Arrived at the Same Extensibility Pattern — and What It Means for Portable Governance** — Written 2026-06-25 → `2026-06-25-agent-hook-convergence-codex-cli-claude-code-gemini-cli-kiro-opencode-portable-governance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — All five major coding agents (Codex CLI, Claude Code, Gemini CLI, Kiro, OpenCode) now ship hook systems with converging architecture: JSON-on-stdin dispatch, exit-code flow control, and PreToolUse/PostToolUse interception points; Endor Labs launched agent governance product (June 2026) using PreToolUse hooks for cross-agent policy enforcement; MCP 2026 roadmap emphasises audit logging and compliance hooks but no standard covers the agent loop lifecycle hook layer; no existing article provided a systematic comparison of all five hook surfaces, the event mapping table, exit-code semantics alignment, configuration format divergences, or the portable governance opportunity for enterprise teams
+   - SEO targets: "coding agent hook comparison", "codex cli hooks vs claude code hooks", "agent hook convergence 2026", "portable agent governance hooks", "PreToolUse PostToolUse cross-agent", "codex cli gemini cli kiro hook comparison", "agent hook interoperability"
+
+---
+
 ## Codex-Maxxing Long-Running Agent Work — Durable Threads, Memory, Heartbeats, Steering, Verifiable Goals (2026-06-25 Hourly Article Run)
 
 1. ✅ **Codex-Maxxing: The Six-Pillar Methodology for Long-Running Agent Work with Durable Threads, Memory, Heartbeats, and Verifiable Goals** — Written 2026-06-25 → `2026-06-25-codex-maxxing-long-running-agent-work-durable-threads-memory-heartbeats-steering-verifiable-goals.md`
