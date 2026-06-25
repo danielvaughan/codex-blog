@@ -2,7 +2,7 @@
 title: "Agent Council: Cross-Model Deliberation for Architecture Decisions"
 description: "Cross-model review loops — where one agent writes code and another reviews it — are now a well-established pattern in agentic workflows."
 date: 2026-04-09T09:14:00+00:00
-last_modified_at: 2026-06-25T10:38:10+01:00
+last_modified_at: 2026-06-25T12:07:59+01:00
 tags:
   - agent-council
   - cross-model

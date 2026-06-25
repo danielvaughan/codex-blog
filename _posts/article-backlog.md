@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SQLite TRACE Logging Bug — 640 TB/Year SSD Write Amplification Detection and Defence (2026-06-25 Hourly Article Run)
+
+1. ✅ **The 640 TB Silent Killer: Anatomy of the Codex CLI SQLite Logging Bug — Detection, Root Cause, and SSD Defence** — Written 2026-06-25 → `2026-06-25-codex-cli-sqlite-trace-logging-bug-640tb-ssd-write-amplification-detection-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub Issue #28224 (14 June 2026) reported Codex CLI's SQLite feedback sink writing ~640 TB/year at hardcoded TRACE level, ignoring RUST_LOG, exhausting consumer SSD endurance (<600 TBW) in under 12 months; insert-delete churn of 36,211 rows/15s with WAL mode write amplification; TRACE logs comprised 70.7% of retained bytes; three PRs (#29432, #29457, #29599) merged reducing volume by ~85% in v0.142.0 and v0.143.0; no existing article covered this bug, the WAL write amplification mechanics, detection via SMART data, or the tmpfs/trigger workarounds
+   - SEO targets: "codex cli SSD write bug", "codex cli SQLite TRACE logging", "codex cli 640 TB SSD", "codex cli logs_2.sqlite write amplification", "codex cli SSD endurance fix", "codex cli v0.142 logging fix"
+
+---
+
 ## MCP Tool Search by Default — LiveMCPBench Retrieval Bottleneck and Scalable Discovery (2026-06-25 Hourly Article Run)
 
 1. ✅ **MCP Tool Search by Default: How Codex CLI Tackles the Retrieval Bottleneck That Defeats Most Coding Agents** — Written 2026-06-25 → `2026-06-25-codex-cli-mcp-tool-search-default-livemcpbench-retrieval-bottleneck-scalable-discovery.md`
