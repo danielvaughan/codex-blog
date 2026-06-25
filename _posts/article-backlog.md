@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Resource Budgets Beyond Tokens — Disk, I/O, and Process Lifecycle Observability (2026-06-25 Hourly Article Run)
+
+1. ✅ **Beyond Token Budgets: Why Codex CLI Needs Resource Budgets for Disk, I/O, and Process Lifecycle** — Written 2026-06-25 → `2026-06-25-codex-cli-resource-budgets-beyond-tokens-disk-io-process-lifecycle-observability.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Developers Digest published "Codex CLI Needs Resource Budgets, Not Just Token Budgets" (June 2026) identifying seven resource dimensions (tokens, disk, I/O, processes, network, CI capacity, human review time) that coding agents consume beyond tokens; the 640 TB/year SQLite TRACE logging bug (Issue #28224) and 140 GB checkpoint blob incident (Issue #29388) demonstrated unmetered local resource consumption; no existing article covered the resource budget framework, proposed `codex doctor resources` diagnostic surface, the four-layer configure-meter-alert-enforce lifecycle for non-token resources, or the gap between OTel model-layer observability and local runtime metering
+   - SEO targets: "codex cli resource budgets", "coding agent disk monitoring", "codex cli sqlite wal budget", "agent runtime observability beyond tokens", "codex cli process lifecycle management", "codex doctor resources", "coding agent operational hygiene"
+
+---
+
 ## Asimov Code Comprehension Agent — Retriever-Combiner Architecture vs Codex CLI Codebase Understanding (2026-06-25 Hourly Article Run)
 
 1. ✅ **Asimov and the Comprehension-First Agent: What Reflection AI's Retriever-Combiner Architecture Reveals About Code Understanding — and How Codex CLI Approaches the Same Problem Differently** — Written 2026-06-25 → `2026-06-25-asimov-code-comprehension-agent-retriever-combiner-architecture-codex-cli-codebase-understanding-comparison.md`

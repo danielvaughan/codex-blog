@@ -2,7 +2,7 @@
 title: "Codex as a GitHub Copilot Coding Agent: Assigning Issues and PRs at Scale"
 description: "OpenAI Codex is no longer just a CLI tool you run locally. As of early 2026, Codex — alongside Claude — is available as a first-class coding agent inside."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-06-25T14:13:47+01:00
+last_modified_at: 2026-06-25T16:16:52+01:00
 tags:
   - ecosystem
   - github-copilot
