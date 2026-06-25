@@ -1,7 +1,7 @@
 ---
 title: "Indexed Web Search: How Codex CLI v0.142 Bridges the Gap Between Cached Safety and Live Freshness"
 parent: "Articles"
-nav_order: 1217
+nav_order: 1218
 tags: ["web-search", "indexed", "security", "prompt-injection", "config.toml", "enterprise", "app-server", "codex-cli", "v0.142"]
 ---
 

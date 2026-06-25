@@ -1,7 +1,7 @@
 ---
 title: "42 Ways to Hack Your Coding Agent: What the First SoK on Prompt Injection Means for Codex CLI's Defence Stack"
 parent: "Articles"
-nav_order: 1221
+nav_order: 1222
 tags: ["codex-cli", "prompt-injection", "security", "SoK", "defence-in-depth", "sandbox", "hooks", "MCP", "attack-taxonomy"]
 ---
 

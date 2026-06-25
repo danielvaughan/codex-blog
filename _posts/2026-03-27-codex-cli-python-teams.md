@@ -2,7 +2,7 @@
 title: "Codex CLI for Python Teams: Configuration, Conventions and Automation"
 description: "Python teams adopting Codex CLI face a familiar problem: out-of-the-box, the agent will reach for pip, pytest directly."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-06-25T06:10:21+01:00
+last_modified_at: 2026-06-25T07:28:26+01:00
 tags:
   - language-guide
   - agents-md

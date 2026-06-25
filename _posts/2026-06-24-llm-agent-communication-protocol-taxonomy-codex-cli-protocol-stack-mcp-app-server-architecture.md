@@ -1,7 +1,7 @@
 ---
 title: "The Protocol Stack Under Your Agent: What a New Taxonomy of LLM Communication Protocols Reveals About Codex CLI's Architecture"
 parent: "Articles"
-nav_order: 1216
+nav_order: 1217
 tags: ["codex-cli", "MCP", "A2A", "agent-protocols", "app-server", "architecture", "multi-agent", "taxonomy"]
 ---
 

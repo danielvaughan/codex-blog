@@ -1,7 +1,7 @@
 ---
 title: "World State Persistence: How Codex CLI Eliminated Context Loss on Session Resume, Fork, and Rollback"
 parent: "Articles"
-nav_order: 1224
+nav_order: 1225
 tags: ["codex-cli", "world-state", "session-management", "persistence", "resume", "fork", "rollback", "context-consistency", "RFC-7386"]
 ---
 

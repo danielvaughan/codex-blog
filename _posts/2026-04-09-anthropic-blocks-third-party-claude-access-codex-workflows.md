@@ -2,7 +2,7 @@
 title: "Anthropic Blocks Third-Party Claude Access: What It Means for Multi-Tool Codex Workflows"
 description: "On 4 April 2026, Anthropic flipped a switch that sent shockwaves through the agentic coding community: Claude Pro and Max subscriptions would no longer."
 date: 2026-04-09T08:00:00+00:00
-last_modified_at: 2026-06-25T06:10:21+01:00
+last_modified_at: 2026-06-25T07:28:26+01:00
 tags:
   - third-party-access
   - openclaw

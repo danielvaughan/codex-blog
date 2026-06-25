@@ -1,7 +1,7 @@
 ---
 title: "NatureBench and the Discovery Gap: Why Your Codex CLI Agent Matches Published SOTA on Only 18 Per Cent of Scientific Tasks"
 parent: "Articles"
-nav_order: 1218
+nav_order: 1219
 tags: ["codex-cli", "naturebench", "benchmark", "scientific-computing", "research-agent", "method-selection", "AGENTS.md", "subagent-delegation"]
 ---
 
