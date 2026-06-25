@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP Tool Search by Default — LiveMCPBench Retrieval Bottleneck and Scalable Discovery (2026-06-25 Hourly Article Run)
+
+1. ✅ **MCP Tool Search by Default: How Codex CLI Tackles the Retrieval Bottleneck That Defeats Most Coding Agents** — Written 2026-06-25 → `2026-06-25-codex-cli-mcp-tool-search-default-livemcpbench-retrieval-bottleneck-scalable-discovery.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.142.2 (25 June 2026) makes MCP tool search the default when servers support it; LiveMCPBench (arXiv:2508.01780v2, revised February 2026) evaluates 12 LLMs across 70 servers/527 tools finding retrieval errors account for ~50% of failures; tool search uses BM25 over ToolSearchEntry.search_text with exact-name match prepending (GitHub #21503 fix); compared with MCP-Zero (active agent-generated discovery, 98% token reduction) and ScaleMCP (retrieval tool + reranking, 5000 servers/140K queries); no existing article covered LiveMCPBench specifically, the v0.142.2 default-on tool search change, the BM25 ranking internals, or the comparison of Codex CLI's approach against ScaleMCP and MCP-Zero
+   - SEO targets: "codex cli mcp tool search", "livemcpbench benchmark", "mcp tool discovery codex", "codex cli deferred tools BM25", "mcp tool retrieval bottleneck", "scalemcp mcp-zero tool search", "codex cli v0.142 tool search default"
+
+---
+
 ## SWE-Bench 5G Telecom Coding Agent Benchmark — Domain Knowledge and AGENTS.md Specification Strategy (2026-06-25 Hourly Article Run)
 
 1. ✅ **SWE-Bench 5G and the Domain Knowledge Wall: What the First Telecom Coding Agent Benchmark Reveals About Specification-Driven Development with Codex CLI** — Written 2026-06-25 → `2026-06-25-swe-bench-5g-telecom-coding-agent-benchmark-codex-cli-domain-knowledge-agents-md-specification-strategy.md`
