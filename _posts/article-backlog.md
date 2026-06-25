@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AA-AgentPerf Agentic Inference Benchmark — Codex CLI Infrastructure and Hardware Selection (2026-06-25 Hourly Article Run)
+
+1. ✅ **AA-AgentPerf and the Infrastructure Bottleneck: What the First Agentic Inference Benchmark Means for Codex CLI at Scale** — Written 2026-06-25 → `2026-06-25-aa-agentperf-first-agentic-inference-benchmark-codex-cli-infrastructure-hardware-agents-per-megawatt.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Artificial Analysis launched AA-AgentPerf (12 June 2026), the first multi-vendor hardware benchmark for agentic inference, replaying real coding agent trajectories (200 turns, 131K tokens) and measuring Agents per Megawatt across NVIDIA Blackwell, Hopper, and AMD MI355X; GB300 NVL72 delivers 20× more concurrent agents per MW than H200; no existing article covered AA-AgentPerf, the Agents/MW metric, SLO tier mapping to Codex CLI modes, or the infrastructure implications for self-hosted and API-based Codex CLI deployments
+   - SEO targets: "AA-AgentPerf benchmark", "agents per megawatt coding agent", "codex cli inference infrastructure", "agentic inference benchmark hardware", "codex cli self-hosted inference scaling", "GB300 coding agent benchmark", "coding agent infrastructure cost"
+
+---
+
 ## Agent Hook Convergence — Portable Governance Across Five Coding Agents (2026-06-25 Hourly Article Run)
 
 1. ✅ **The Agent Hook Convergence: How Five Coding Agents Arrived at the Same Extensibility Pattern — and What It Means for Portable Governance** — Written 2026-06-25 → `2026-06-25-agent-hook-convergence-codex-cli-claude-code-gemini-cli-kiro-opencode-portable-governance.md`
