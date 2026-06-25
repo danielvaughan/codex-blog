@@ -1,5 +1,13 @@
 # Article Backlog
 
+## World State Persistence — Session Resume, Fork, and Rollback Context Consistency (2026-06-25 Hourly Article Run)
+
+1. ✅ **World State Persistence: How Codex CLI Eliminated Context Loss on Session Resume, Fork, and Rollback** — Written 2026-06-25 → `2026-06-25-codex-cli-world-state-persistence-session-resume-fork-rollback-context-consistency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Three coordinated PRs (#29833, #29835, #29837) merged 25 June 2026 shipping a durable WorldState persistence stack replacing lossy TurnContextItem reconstruction with serialisable snapshots and RFC 7386 JSON merge patches; previously session resume/fork/rollback lost section metadata, duplicated file updates, and suppressed environment changes (Issues #8310, #3208, #6449); no existing article covered the WorldState persistence architecture, the three-layer snapshot/patch/replay stack, crash-safe write ordering, or the interaction with compaction baseline resets
+   - SEO targets: "codex cli world state persistence", "codex cli session resume context loss fix", "codex cli fork rollback context consistency", "codex cli RFC 7386 world state", "codex cli WorldState snapshot serialisation", "codex cli session replay persistence stack"
+
+---
+
 ## Junie GA: IDE-Integrated vs Terminal-Native Coding Agents — Codex CLI Comparison (2026-06-25 Hourly Article Run)
 
 1. ✅ **Junie Goes GA: What JetBrains' IDE-Integrated Agent Reveals About the Terminal-Native vs IDE-Native Divide — and Where Codex CLI Stands** — Written 2026-06-25 → `2026-06-25-junie-ga-ide-integrated-vs-terminal-native-coding-agents-codex-cli-comparison.md`
