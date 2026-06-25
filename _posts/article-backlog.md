@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-Bench 5G Telecom Coding Agent Benchmark — Domain Knowledge and AGENTS.md Specification Strategy (2026-06-25 Hourly Article Run)
+
+1. ✅ **SWE-Bench 5G and the Domain Knowledge Wall: What the First Telecom Coding Agent Benchmark Reveals About Specification-Driven Development with Codex CLI** — Written 2026-06-25 → `2026-06-25-swe-bench-5g-telecom-coding-agent-benchmark-codex-cli-domain-knowledge-agents-md-specification-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — SWE-Bench 5G (arXiv:2604.26278, April 2026) is the first benchmark evaluating AI coding agents on 5G core network software across three open-source projects (free5GC/Go, Open5GS/C, Magma/Go+Python) with 210 validated task instances; all four evaluated models diagnose bugs at >91% but resolve only 10-30%; dominant failure mode is incomplete fixes (72-80 instances per model); 3GPP specification context injection yields +16.7% to +25.0% improvement on specification-dependent bugs; no existing article covered this benchmark, the domain knowledge wall in coding agents, or mapped the findings to Codex CLI AGENTS.md specification context, PostToolUse static analysis hooks, and Goal Mode multi-turn iteration
+   - SEO targets: "SWE-Bench 5G codex cli", "telecom coding agent benchmark", "domain knowledge coding agent", "codex cli AGENTS.md specification", "5G core network AI coding", "coding agent domain-specific benchmark", "codex cli Go C typed language patches"
+
+---
+
 ## World State Persistence — Session Resume, Fork, and Rollback Context Consistency (2026-06-25 Hourly Article Run)
 
 1. ✅ **World State Persistence: How Codex CLI Eliminated Context Loss on Session Resume, Fork, and Rollback** — Written 2026-06-25 → `2026-06-25-codex-cli-world-state-persistence-session-resume-fork-rollback-context-consistency.md`
