@@ -205,7 +205,7 @@ The key insight is that the Jevons Paradox makes input metrics (tokens, tasks, g
 
 ## The Uncomfortable Implication
 
-Dario Amodei warned that "AI could wipe out half of all entry-level white-collar jobs and push unemployment to 20% within five years" [^3]. SignalFire's data says the opposite is happening for engineering — for now. The resolution of this tension lies in understanding what Jevons actually predicted: efficiency increases demand for the *resource*, not necessarily for the same *tasks*. The engineers being hired in 2026 are not doing the same work as those hired in 2019. They are orchestrating agents, designing guardrails, specifying goals, and reviewing outputs — work that did not exist at scale three years ago.
+Dario Amodei warned that "AI could wipe out half of all entry-level white-collar jobs and push unemployment to 10–20% within five years" [^3]. SignalFire's data says the opposite is happening for engineering — for now. The resolution of this tension lies in understanding what Jevons actually predicted: efficiency increases demand for the *resource*, not necessarily for the same *tasks*. The engineers being hired in 2026 are not doing the same work as those hired in 2019. They are orchestrating agents, designing guardrails, specifying goals, and reviewing outputs — work that did not exist at scale three years ago.
 
 Codex CLI's architecture — with its layered permission model, explicit delegation controls, and budget governance — is not just a productivity tool. It is infrastructure for the new shape of engineering work that the Jevons Paradox creates.
 
@@ -217,7 +217,7 @@ Codex CLI's architecture — with its layered permission model, explicit delegat
 [^2]: [TechCrunch — "AI was supposed to kill engineering jobs, but new data suggests they're the most resilient"](https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/), 24 June 2026. Based on SignalFire State of Talent Report data.
 [^3]: [Mezha — "SignalFire finds AI has not reduced engineer hiring despite layoffs"](https://mezha.net/eng/bukvy/e632de65_signalfire_finds_ai/), June 2026. Includes quotes from Jensen Huang, Dario Amodei, and Peter McCrory.
 [^4]: [METR — "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity"](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/), July 2025. arXiv:2507.09089.
-[^5]: [METR — "We are Changing our Developer Productivity Experiment Design"](https://metr.org/blog/2026-02-24-uplift-update/), February 2026. Methodology retraction and updated estimates.
+[^5]: [METR — "We are Changing our Developer Productivity Experiment Design"](https://metr.org/blog/2026-02-24-uplift-update/), February 2026. Experimental design change and updated estimates.
 [^6]: [Zylos Research — "Developer Productivity Metrics 2026: From DORA to DevEx and Beyond"](https://zylos.ai/research/2026-02-07-developer-productivity-metrics/), February 2026.
 [^7]: [Index.dev — "Top 100 Developer Productivity Statistics with AI Tools 2026"](https://www.index.dev/blog/developer-productivity-statistics-with-ai-tools), 2026.
 [^8]: [DORA — Google DevOps Research and Assessment](https://dora.dev/insights/), ongoing. DORA four keys framework and annual reports.
