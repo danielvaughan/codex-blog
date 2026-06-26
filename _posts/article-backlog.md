@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Invisible Agent Problem — 180-Million-Repository Census and Codex CLI Attribution (2026-06-27 Hourly Article Run)
+
+1. ✅ **The Invisible Agent Problem: What a 180-Million-Repository Census Reveals About Codex CLI's Footprint in Open Source** — Written 2026-06-27 → `2026-06-27-detecting-ai-coding-agents-open-source-180-million-repo-census-codex-cli-attribution-supply-chain.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Khosravani & Mockus published arXiv:2606.24429 on 23 June 2026, the first validated multi-method census of AI coding agents across 180M+ Git repositories; reveals 30x undercount when using single detection methods; Codex CLI shows 814,522 PR traces but only 843 commit traces due to squash-merge architecture; AGENTS.md went from zero to 134,810 blobs between snapshots; no existing article covered this census, mapped its four behavioural detection types to Codex CLI's architecture, or connected the findings to practical attribution and supply-chain governance for Codex CLI developers
+   - SEO targets: "AI coding agent detection open source", "codex cli attribution supply chain", "180 million repository census coding agents", "AGENTS.md adoption statistics", "AI agent commit attribution", "codex cli governance transparency", "coding agent supply chain trust"
+
+---
+
 ## The Autonomous Execution Convergence — /goal Across Codex CLI, Claude Code, and Grok Build (2026-06-26 Hourly Article Run)
 
 1. ✅ **The Autonomous Execution Convergence: Three Agents, Three Architectures, One /goal Command** — Written 2026-06-26 → `2026-06-26-autonomous-execution-convergence-codex-goal-mode-claude-code-grok-build-goal-architectural-comparison.md`
