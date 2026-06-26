@@ -1,5 +1,13 @@
 # Article Backlog
 
+## RigorBench — Engineering Process Discipline Benchmark and Codex CLI Workflows (2026-06-26 Hourly Article Run)
+
+1. ✅ **RigorBench and the Process Discipline Gap: What the First Engineering Process Benchmark Reveals About Codex CLI Workflows** — Written 2026-06-26 → `2026-06-26-rigorbench-engineering-process-discipline-benchmark-codex-cli-planning-verification-recovery-abstention.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Georgia Tech researchers published RigorBench (arXiv:2606.22678, 21 June 2026), the first benchmark measuring engineering process discipline in coding agents across five pillars (Planning Fidelity, Verification Coverage, Recovery Efficiency, Abstention Quality, Atomic Transition Integrity); found r=0.87 correlation between process discipline and outcome quality; no existing article covered RigorBench, mapped the five pillars to Codex CLI features (plan mode, hooks, token budgets, permission profiles, AGENTS.md), or provided a practical RigorBench-informed configuration
+   - SEO targets: "rigorbench coding agent benchmark", "engineering process discipline codex cli", "coding agent process quality", "rigorbench five pillars", "codex cli planning verification recovery", "agent process discipline benchmark 2026"
+
+---
+
 ## The Cybernetic Harness — Böckeler's Guides-and-Sensors Model Mapped to Codex CLI (2026-06-26 Hourly Article Run)
 
 1. ✅ **The Cybernetic Harness: Mapping Böckeler's Guides-and-Sensors Model to Codex CLI's Hook Pipeline and Human-on-the-Loop Governance** — Written 2026-06-26 → `2026-06-26-cybernetic-harness-model-boeckeler-guides-sensors-codex-cli-hooks-permission-profiles-governance.md`
