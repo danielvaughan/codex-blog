@@ -2,7 +2,7 @@
 title: "The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis"
 description: "Every AI coding agent runs on tokens, and tokens cost money. Codex CLI is unique among major AI coding agents: it is open-source, runs locally, and supports."
 date: 2026-04-10T14:30:00+00:00
-last_modified_at: 2026-06-26T10:39:58+01:00
+last_modified_at: 2026-06-26T11:37:43+01:00
 featured: true
 tags:
   - pricing
@@ -26,9 +26,6 @@ tags:
 ---
 
 ![Sketchnote diagram for: The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis](/sketchnotes/articles/2026-04-10-codex-cli-complete-pricing-guide-subscription-tokens-cost-optimization.png)
-
-
-![Sketchnote diagram for: The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis](/sketchnotes/articles/2026-04-10-codex-cli-token-costs-pricing-comparison.png)
 
 # The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis
 
