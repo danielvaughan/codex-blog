@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Shift to Agentic AI — OpenAI Usage Data, Non-Developer Adoption, Parallel Agents (2026-06-26 Hourly Article Run)
+
+1. ✅ **The Shift to Agentic AI: What OpenAI's Internal Usage Data Reveals About Codex Adoption, Parallel Agent Orchestration, and the Non-Developer Surge** — Written 2026-06-26 → `2026-06-26-openai-shift-to-agentic-ai-evidence-from-codex-usage-data-non-developer-adoption-parallel-agents.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI published "How agents are transforming work" blog post and companion arXiv paper (2606.26959) on 25 June 2026 with first large-scale quantitative data on Codex adoption across three populations (individual, organisational, internal); 70.2% of individual users now submit 1h+ tasks; 99th-percentile OpenAI workers accumulate 71 hours of daily agent runtime across parallel agents; non-developer users grew 137× since August 2025; skill adoption grew from 5.4% to 26.6% in three months; no existing article covered this paper, the adoption data, the concurrent agent orchestration patterns, or the non-developer surge implications for Codex CLI governance
+   - SEO targets: "openai shift to agentic AI codex", "codex usage data 2026", "codex non-developer adoption", "codex parallel agents 71 hours", "agentic AI evidence from codex paper", "codex skill adoption growth", "codex enterprise adoption data"
+
+---
+
 ## ExecPlan Pattern: Plan-Driven Code Migrations with Codex CLI (2026-06-26 Hourly Article Run)
 
 1. ✅ **The ExecPlan Pattern: Plan-Driven Code Migrations with Codex CLI** — Written 2026-06-26 → `2026-06-26-codex-cli-execplan-pattern-plan-driven-code-migration-legacy-modernisation-structured-agent-workflows.md`
