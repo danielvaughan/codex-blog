@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.142 Stable Release Guide (2026-06-26 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.142 Stable Release Guide: Plugin Discovery, Token Budget Governance, Delegation Modes, and the Enterprise Network Stack** — Written 2026-06-26 → `2026-06-26-codex-cli-v0142-stable-release-guide-plugin-discovery-token-budgets-delegation-enterprise-proxy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.142.0 (22 June) through v0.142.2 (25 June) shipped 228 combined changes including curated plugin marketplace with mid-turn recommendations, configurable rollout token budgets across agent threads, three-mode multi-agent delegation controls, Windows and macOS system proxy support (PAC/WPAD), MCP tool search by default, PowerShell AST safety gate, and startup performance engineering; while individual features (delegation modes, time awareness, MCP tool search) had dedicated articles, no comprehensive release guide covered the unified governance and enterprise network stack
+   - SEO targets: "codex cli v0.142 release", "codex cli plugin discovery", "codex cli rollout token budget", "codex cli delegation modes", "codex cli enterprise proxy PAC WPAD", "codex cli v0.142 upgrade guide"
+
+---
+
 ## Codex Remote GA — QR Pairing, Noise-Encrypted Relay, DigitalOcean Plugin, Remote-First Development (2026-06-26 Hourly Article Run)
 
 1. ✅ **Codex Remote Reaches GA: QR Pairing, Noise-Encrypted Relay, and the DigitalOcean Plugin That Provisions Your Cloud Workspace in One Command** — Written 2026-06-26 → `2026-06-26-codex-remote-ga-qr-pairing-noise-relay-digitalocean-plugin-remote-first-development.md`
