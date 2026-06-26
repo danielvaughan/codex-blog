@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Akrites and the AI Vulnerability Flood — Linux Foundation Coalition and Codex CLI Dependency Defence (2026-06-26 Hourly Article Run)
+
+1. ✅ **Akrites and the AI Vulnerability Flood: What the Linux Foundation's Emergency Coalition Means for Codex CLI Developers and Open-Source Dependency Defence** — Written 2026-06-26 → `2026-06-26-akrites-linux-foundation-ai-vulnerability-discovery-codex-cli-open-source-security-dependency-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Linux Foundation launched Akrites on 25 June 2026 with 20 founding members (OpenAI, Anthropic, Google, Microsoft, Amazon, NVIDIA, Red Hat, etc.) to coordinate AI-accelerated vulnerability discovery, upstream patching, and responsible disclosure; establishes shared SIRT, maintainer-of-last-resort role, and CVD process; no existing article covered Akrites, mapped its mechanisms to Codex CLI hook-based dependency auditing, or connected the Codex Security plugin to Akrites-era security workflows
+   - SEO targets: "akrites linux foundation open source security", "codex cli dependency security", "AI vulnerability discovery open source", "akrites codex cli hooks", "open source security AI 2026", "codex security plugin dependency audit"
+
+---
+
 ## RigorBench — Engineering Process Discipline Benchmark and Codex CLI Workflows (2026-06-26 Hourly Article Run)
 
 1. ✅ **RigorBench and the Process Discipline Gap: What the First Engineering Process Benchmark Reveals About Codex CLI Workflows** — Written 2026-06-26 → `2026-06-26-rigorbench-engineering-process-discipline-benchmark-codex-cli-planning-verification-recovery-abstention.md`
