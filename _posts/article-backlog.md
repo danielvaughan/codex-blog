@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Jevons Paradox of AI Coding — Engineering Demand, Productivity Measurement, Codex CLI Governance (2026-06-26 Hourly Article Run)
+
+1. ✅ **The Jevons Paradox of AI Coding: Why Codex CLI Creates More Engineering Work, Not Less — and How to Measure What Matters** — Written 2026-06-26 → `2026-06-26-jevons-paradox-ai-coding-agents-codex-cli-engineering-demand-productivity-measurement.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — SignalFire State of Talent Report (TechCrunch, 24 June 2026) shows engineers comprise 55% of Tech Major new hires (up from 46% in 2019) with early-stage startup engineering hiring up 7%; METR retracted their 19% slowdown finding (February 2026) due to selection bias; DORA data shows 441% increase in PR review time and 31% more unreviewed merges; no existing article connected the Jevons Paradox to coding agent productivity, mapped SignalFire/METR/DORA data to the expanded-scope thesis, or showed how Codex CLI's Goal Mode, permission profiles, rollout token budgets, and multi-agent delegation address Jevons-scale work governance
+   - SEO targets: "jevons paradox coding agents", "AI engineering hiring 2026", "codex cli productivity measurement", "METR study retraction", "engineering demand AI paradox", "codex cli goal mode productivity", "developer productivity metrics agent era"
+
+---
+
 ## Gartner 40% Agentic AI Cancellation Warning and Agent-Washing Evaluation (2026-06-26 Hourly Article Run)
 
 1. ✅ **Gartner's 40% Cancellation Warning and the Agent-Washing Problem: How to Evaluate Whether Your Coding Agent Is Genuinely Agentic** — Written 2026-06-26 → `2026-06-26-gartner-40-percent-agentic-ai-project-cancellations-agent-washing-codex-cli-genuine-agentic-coding-evaluation.md`
