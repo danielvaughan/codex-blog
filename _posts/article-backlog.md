@@ -1,5 +1,13 @@
 # Article Backlog
 
+## OpenAI Jalapeño Inference Chip and Codex CLI Silicon Strategy (2026-06-26 Hourly Article Run)
+
+1. ✅ **OpenAI's Jalapeño Inference Chip: What Purpose-Built Silicon Means for Codex CLI Cost, Latency, and the Coding Agent Hardware Stack** — Written 2026-06-26 → `2026-06-26-openai-jalapeno-inference-chip-codex-cli-coding-agent-cost-latency-silicon-strategy.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI and Broadcom unveiled Jalapeño on 24 June 2026, a TSMC 3nm reticle-sized inference ASIC with eight HBM stacks and systolic array architecture, claiming 50% lower inference cost per token than current GPUs; engineering samples running GPT-5.3-Codex-Spark at production frequency; no existing article covered Jalapeño's architecture, connected it to AA-AgentPerf Agents/MW benchmarks, or analysed implications for Codex CLI cost-per-task economics, rate limits, and self-hosted inference decisions
+   - SEO targets: "openai jalapeño chip", "codex cli inference cost", "jalapeño broadcom inference chip", "coding agent hardware 2026", "openai custom silicon codex", "jalapeño chip coding agents performance"
+
+---
+
 ## Codex CLI v0.142 Stable Release Guide (2026-06-26 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.142 Stable Release Guide: Plugin Discovery, Token Budget Governance, Delegation Modes, and the Enterprise Network Stack** — Written 2026-06-26 → `2026-06-26-codex-cli-v0142-stable-release-guide-plugin-discovery-token-budgets-delegation-enterprise-proxy.md`

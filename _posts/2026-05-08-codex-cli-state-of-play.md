@@ -2,7 +2,7 @@
 title: "Codex CLI State of Play — May 2026"
 description: "Codex CLI is at v0.129.0 (stable, 7 May 2026) with v0.130.0-alpha.5 in pre-release."
 date: 2026-05-08T00:00:00+00:00
-last_modified_at: 2026-06-26T07:07:14+01:00
+last_modified_at: 2026-06-26T08:25:28+01:00
 ---
 
 ![Sketchnote diagram for: Codex CLI State of Play — May 2026](/sketchnotes/articles/2026-05-08-codex-cli-state-of-play.png)
