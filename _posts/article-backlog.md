@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Autonomous Execution Convergence — /goal Across Codex CLI, Claude Code, and Grok Build (2026-06-26 Hourly Article Run)
+
+1. ✅ **The Autonomous Execution Convergence: Three Agents, Three Architectures, One /goal Command** — Written 2026-06-26 → `2026-06-26-autonomous-execution-convergence-codex-goal-mode-claude-code-grok-build-goal-architectural-comparison.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — All three major terminal-native coding agents (Codex CLI, Claude Code, Grok Build) shipped /goal commands within five weeks (May-June 2026) with three distinct architectural approaches: single-model sandbox loop (Codex), split evaluator with Haiku (Claude Code), and multi-model pipeline with Composer 2.5 + Grok Build 0.1 (Grok Build); no existing article covered the autonomous execution convergence, compared the three verification architectures, or mapped the trade-offs for Codex CLI developers
+   - SEO targets: "codex cli goal mode vs claude code goal", "autonomous execution coding agent comparison", "grok build goal mode codex cli", "coding agent autonomous convergence 2026", "goal mode architecture comparison", "codex cli autonomous verification hooks"
+
+---
+
 ## GPT-5.6 Sol, Terra, and Luna Preview — Model Tiers, Pricing, Ultra Mode, and Codex CLI Configuration (2026-06-26 Hourly Article Run)
 
 1. ✅ **GPT-5.6 Sol, Terra, and Luna: What the Three-Tier Model Preview Means for Codex CLI Developers** — Written 2026-06-26 → `2026-06-26-gpt-5-6-sol-terra-luna-preview-codex-cli-model-tiers-pricing-ultra-mode-configuration.md`
