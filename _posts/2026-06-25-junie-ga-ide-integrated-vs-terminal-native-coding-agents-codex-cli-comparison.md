@@ -1,7 +1,7 @@
 ---
 title: "Junie Goes GA: What JetBrains' IDE-Integrated Agent Reveals About the Terminal-Native vs IDE-Native Divide — and Where Codex CLI Stands"
 parent: "Articles"
-nav_order: 1224
+nav_order: 1225
 tags: ["codex-cli", "junie", "jetbrains", "coding-agents", "benchmarks", "comparison", "ide-integration", "terminal-native", "acp", "mcp", "agentic-debugging"]
 ---
 

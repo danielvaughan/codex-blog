@@ -1,7 +1,7 @@
 ---
 title: "Beyond Token Budgets: Why Codex CLI Needs Resource Budgets for Disk, I/O, and Process Lifecycle"
 parent: "Articles"
-nav_order: 1229
+nav_order: 1230
 tags: ["codex-cli", "resource-budgets", "observability", "disk-io", "sqlite-wal", "process-lifecycle", "opentelemetry", "operational-hygiene"]
 ---
 

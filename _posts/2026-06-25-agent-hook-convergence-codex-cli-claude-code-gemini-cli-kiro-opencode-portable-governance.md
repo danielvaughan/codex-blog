@@ -1,7 +1,7 @@
 ---
 title: "The Agent Hook Convergence: How Five Coding Agents Arrived at the Same Extensibility Pattern — and What It Means for Portable Governance"
 parent: "Articles"
-nav_order: 1231
+nav_order: 1232
 tags: ["codex-cli", "claude-code", "gemini-cli", "kiro", "opencode", "hooks", "extensibility", "governance", "enterprise", "portability"]
 ---
 

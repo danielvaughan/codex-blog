@@ -1,7 +1,7 @@
 ---
 title: "Codex Remote Reaches GA: QR Pairing, Noise-Encrypted Relay, and the DigitalOcean Plugin That Provisions Your Cloud Workspace in One Command"
 parent: "Articles"
-nav_order: 1235
+nav_order: 1237
 tags: ["codex-cli", "codex-remote", "remote-development", "noise-protocol", "digitalocean", "qr-pairing", "cloud-workspace", "mobile-development"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "AA-AgentPerf and the Infrastructure Bottleneck: What the First Agentic Inference Benchmark Means for Codex CLI at Scale"
 parent: "Articles"
-nav_order: 1232
+nav_order: 1233
 tags: ["codex-cli", "aa-agentperf", "inference-infrastructure", "agents-per-megawatt", "hardware-benchmark", "self-hosted", "token-economics"]
 ---
 

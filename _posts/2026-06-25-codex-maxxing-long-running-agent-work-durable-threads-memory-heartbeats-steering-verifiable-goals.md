@@ -1,7 +1,7 @@
 ---
 title: "Codex-Maxxing: The Six-Pillar Methodology for Long-Running Agent Work with Durable Threads, Memory, Heartbeats, and Verifiable Goals"
 parent: "Articles"
-nav_order: 1230
+nav_order: 1231
 tags: ["workflow-patterns", "codex-maxxing", "durable-threads", "memory", "heartbeats", "steering", "verifiable-goals", "long-running-tasks", "codex-cli"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.142 Stable Release Guide: Plugin Discovery, Token Budget Governance, Delegation Modes, and the Enterprise Network Stack"
 parent: "Articles"
-nav_order: 1235
+nav_order: 1236
 tags: ["codex-cli", "release-guide", "v0.142", "plugins", "token-budgets", "delegation", "enterprise-proxy", "MCP", "performance"]
 ---
 

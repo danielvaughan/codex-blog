@@ -1,7 +1,7 @@
 ---
 title: "The 640 TB Silent Killer: Anatomy of the Codex CLI SQLite Logging Bug — Detection, Root Cause, and SSD Defence"
 parent: "Articles"
-nav_order: 1228
+nav_order: 1229
 tags: ["codex-cli", "sqlite", "ssd", "write-amplification", "logging", "TRACE", "debugging", "operations", "hardware"]
 ---
 

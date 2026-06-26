@@ -1,7 +1,7 @@
 ---
 title: "Gartner's 40% Cancellation Warning and the Agent-Washing Problem: How to Evaluate Whether Your Coding Agent Is Genuinely Agentic"
 parent: "Articles"
-nav_order: 1233
+nav_order: 1234
 tags: ["codex-cli", "gartner", "agent-washing", "enterprise", "evaluation", "governance", "agentic-ai", "cost-management"]
 ---
 

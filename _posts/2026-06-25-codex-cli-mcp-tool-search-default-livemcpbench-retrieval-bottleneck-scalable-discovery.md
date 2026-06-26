@@ -1,7 +1,7 @@
 ---
 title: "MCP Tool Search by Default: How Codex CLI Tackles the Retrieval Bottleneck That Defeats Most Coding Agents"
 parent: "Articles"
-nav_order: 1227
+nav_order: 1228
 tags: ["codex-cli", "mcp", "tool-search", "tool-discovery", "livemcpbench", "scalemcp", "mcp-zero", "bm25", "deferred-tools", "agent-architecture"]
 ---
 
