@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.6 Sol, Terra, and Luna Preview — Model Tiers, Pricing, Ultra Mode, and Codex CLI Configuration (2026-06-26 Hourly Article Run)
+
+1. ✅ **GPT-5.6 Sol, Terra, and Luna: What the Three-Tier Model Preview Means for Codex CLI Developers** — Written 2026-06-26 → `2026-06-26-gpt-5-6-sol-terra-luna-preview-codex-cli-model-tiers-pricing-ultra-mode-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI announced GPT-5.6 limited preview on 26 June 2026 with three-tier model family (Sol flagship, Terra balanced, Luna fast); Sol introduces ultra reasoning mode with internal sub-agents; cache breakpoints with 30-minute minimum lifespan and 1.25× write / 0.1× read pricing; ~1.5M context window (unconfirmed); government-restricted rollout to ~20 partner organisations under Trump executive order; no existing article covered the actual launch (only a readiness guide from 3 June based on canary signals), the three-tier pricing model, ultra mode mechanics, or the config.toml preparation for tier-based model routing
+   - SEO targets: "GPT-5.6 codex cli", "GPT-5.6 Sol Terra Luna", "GPT-5.6 pricing codex", "codex cli model routing GPT-5.6", "GPT-5.6 ultra mode coding agent", "GPT-5.6 cache breakpoints", "GPT-5.6 preview developer guide"
+
+---
+
 ## Akrites and the AI Vulnerability Flood — Linux Foundation Coalition and Codex CLI Dependency Defence (2026-06-26 Hourly Article Run)
 
 1. ✅ **Akrites and the AI Vulnerability Flood: What the Linux Foundation's Emergency Coalition Means for Codex CLI Developers and Open-Source Dependency Defence** — Written 2026-06-26 → `2026-06-26-akrites-linux-foundation-ai-vulnerability-discovery-codex-cli-open-source-security-dependency-defence.md`
