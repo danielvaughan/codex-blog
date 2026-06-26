@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Cybernetic Harness — Böckeler's Guides-and-Sensors Model Mapped to Codex CLI (2026-06-26 Hourly Article Run)
+
+1. ✅ **The Cybernetic Harness: Mapping Böckeler's Guides-and-Sensors Model to Codex CLI's Hook Pipeline and Human-on-the-Loop Governance** — Written 2026-06-26 → `2026-06-26-cybernetic-harness-model-boeckeler-guides-sensors-codex-cli-hooks-permission-profiles-governance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Birgitta Böckeler (Distinguished Engineer, Thoughtworks) published cybernetic harness model on martinfowler.com (April 2026) with guides/sensors framework; two follow-up Thoughtworks articles extended with sensor taxonomy and human-on-the-loop cybernetics (Wiener, Beer VSM); no existing article mapped the three-dimension regulation model (maintainability, architecture fitness, behaviour) to Codex CLI's PreToolUse/PostToolUse hooks, permission profiles, AGENTS.md, Goal Mode, and rollout token budgets
+   - SEO targets: "harness engineering codex cli", "guides sensors coding agent", "cybernetic harness model codex", "boeckeler harness engineering", "codex cli hooks harness", "human on the loop coding agent", "harnessability codebase design"
+
+---
+
 ## The Shift to Agentic AI — OpenAI Usage Data, Non-Developer Adoption, Parallel Agents (2026-06-26 Hourly Article Run)
 
 1. ✅ **The Shift to Agentic AI: What OpenAI's Internal Usage Data Reveals About Codex Adoption, Parallel Agent Orchestration, and the Non-Developer Surge** — Written 2026-06-26 → `2026-06-26-openai-shift-to-agentic-ai-evidence-from-codex-usage-data-non-developer-adoption-parallel-agents.md`
