@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ExecPlan Pattern: Plan-Driven Code Migrations with Codex CLI (2026-06-26 Hourly Article Run)
+
+1. ✅ **The ExecPlan Pattern: Plan-Driven Code Migrations with Codex CLI** — Written 2026-06-26 → `2026-06-26-codex-cli-execplan-pattern-plan-driven-code-migration-legacy-modernisation-structured-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI published official ExecPlan cookbook and PLANS.md guide documenting a five-phase structured migration framework; no existing article covered the ExecPlan pattern as a standalone methodology, mapped the mandatory document sections, or connected ExecPlans to Codex CLI v0.142 features (rollout token budgets, delegation modes, Goal Mode, hooks)
+   - SEO targets: "codex cli execplan", "codex code migration", "plan-driven code migration codex", "execplan pattern coding agent", "codex legacy modernisation", "codex PLANS.md"
+
+---
+
 ## OpenAI Jalapeño Inference Chip and Codex CLI Silicon Strategy (2026-06-26 Hourly Article Run)
 
 1. ✅ **OpenAI's Jalapeño Inference Chip: What Purpose-Built Silicon Means for Codex CLI Cost, Latency, and the Coding Agent Hardware Stack** — Written 2026-06-26 → `2026-06-26-openai-jalapeno-inference-chip-codex-cli-coding-agent-cost-latency-silicon-strategy.md`

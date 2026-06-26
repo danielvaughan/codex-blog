@@ -2,7 +2,7 @@
 title: "Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud"
 description: "Codex is no longer a single-surface tool. With the CLI, Desktop app (macOS and Windows), IDE extension and Cloud runtime all sharing a unified backend."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-06-26T08:25:28+01:00
+last_modified_at: 2026-06-26T10:18:05+01:00
 tags:
   - cloud
   - codex-cloud
