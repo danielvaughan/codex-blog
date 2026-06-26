@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Remote GA — QR Pairing, Noise-Encrypted Relay, DigitalOcean Plugin, Remote-First Development (2026-06-26 Hourly Article Run)
+
+1. ✅ **Codex Remote Reaches GA: QR Pairing, Noise-Encrypted Relay, and the DigitalOcean Plugin That Provisions Your Cloud Workspace in One Command** — Written 2026-06-26 → `2026-06-26-codex-remote-ga-qr-pairing-noise-relay-digitalocean-plugin-remote-first-development.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex Remote reached general availability on 25 June 2026 with authenticated one-to-one QR pairing, Noise IK encrypted relay channels (v0.141.0), cross-platform executor preservation (v0.142.0), and a new first-party DigitalOcean provisioning plugin; while individual pieces (Noise relay, mobile launch, thread handoff) had been covered in earlier articles, no article covered the GA milestone as a unified product story, the complete relay-to-executor security architecture, or the DigitalOcean plugin that provisions cloud workspaces from within a Codex conversation
+   - SEO targets: "codex remote GA", "codex remote general availability", "codex QR pairing mobile", "codex noise protocol relay", "codex digitalocean plugin", "codex remote development cloud workspace", "codex remote first development"
+
+---
+
 ## Jevons Paradox of AI Coding — Engineering Demand, Productivity Measurement, Codex CLI Governance (2026-06-26 Hourly Article Run)
 
 1. ✅ **The Jevons Paradox of AI Coding: Why Codex CLI Creates More Engineering Work, Not Less — and How to Measure What Matters** — Written 2026-06-26 → `2026-06-26-jevons-paradox-ai-coding-agents-codex-cli-engineering-demand-productivity-measurement.md`
