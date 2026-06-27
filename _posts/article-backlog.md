@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Deterministic Control Plane — Configuration Governance for Codex CLI (2026-06-27 Hourly Article Run)
+
+1. ✅ **The Deterministic Control Plane: Why Your Codex CLI Configuration Needs Supply-Chain Governance** — Written 2026-06-27 → `2026-06-27-deterministic-control-plane-llm-coding-agent-configuration-governance-codex-cli-relaibuild-supply-chain.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Madatha published arXiv:2606.26924 on 26 June 2026, introducing Rel(AI)Build: the first deterministic control plane for LLM coding agent configurations; prevalence study of 10,008 repositories (6,145 agent config files) found 10.1% are SHA-256 exact duplicates across independent repos, 75.5% of cloned config pairs cross organisational boundaries, 58% have single commits, <1% declare permission boundaries; five deterministic mechanisms (supply-chain integrity, permission enforcement, phase-gated lifecycle, multi-target compilation, drift detection); seven IDE target compilation; attack-derived blocklists mapping to Codecov and xz-utils incidents; no existing article covered this paper, mapped its five mechanisms to Codex CLI permission profiles/hooks/requirements.toml, or provided a practical governance checklist
+   - SEO targets: "deterministic control plane coding agent", "codex cli configuration governance", "AGENTS.md supply chain security", "Rel(AI)Build codex cli", "coding agent config drift detection", "codex cli permission profile governance", "agent configuration supply chain integrity"
+
+---
+
 ## AWCP and the Missing Workspace Layer — Filesystem-Level Agent Delegation for Codex CLI (2026-06-27 Hourly Article Run)
 
 1. ✅ **AWCP and the Missing Workspace Layer: What Filesystem-Level Agent Delegation Means for Codex CLI Multi-Agent Workflows** — Written 2026-06-27 → `2026-06-27-awcp-workspace-delegation-protocol-codex-cli-multi-agent-filesystem-collaboration-mcp-a2a.md`
