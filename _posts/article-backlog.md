@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GAIE Governed AI-Assisted Engineering — Graduated Oversight for Codex CLI in Regulated Domains (2026-06-27 Hourly Article Run)
+
+1. ✅ **Governed AI-Assisted Engineering: Mapping GAIE's Graduated Oversight Model to Codex CLI Permission Profiles for Regulated Codebases** — Written 2026-06-27 → `2026-06-27-gaie-governed-ai-assisted-engineering-graduated-oversight-codex-cli-regulated-domains-permission-profiles.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kang (arXiv:2606.22484, 21 June 2026) published the GAIE framework introducing the Oversight Classification Model (OCM), a deterministic decision function classifying code-generation tasks across four dimensions (regulatory impact, customer proximity, reversibility, data sensitivity) into three oversight tiers (human-in-the-loop, human-over-the-loop, automated-with-monitoring); estimates 84–97% velocity retention (central ~91%); maps against BOT, MAS, NIST AI RMF, ISO/IEC 42001, and EU AI Act; no existing article covered GAIE, mapped its three tiers to Codex CLI permission profiles (suggest/auto-edit/full-auto), per-directory AGENTS.md OCM classification, hook-based evidence chains, Plan Mode as RETURN_CONTROL, or named profiles for tier switching
+   - SEO targets: "GAIE codex cli", "governed AI-assisted engineering", "codex cli regulated domains", "oversight classification model coding agent", "codex cli permission profiles compliance", "graduated oversight agentic code generation", "codex cli AGENTS.md regulatory classification"
+
+---
+
 ## The Verification Horizon — Multi-Layer Verification Strategy for Codex CLI (2026-06-27 Hourly Article Run)
 
 1. ✅ **The Verification Horizon: Why No Single Reward Signal Can Keep Your Codex CLI Agent Honest — and How to Build a Multi-Layer Defence** — Written 2026-06-27 → `2026-06-27-verification-horizon-no-silver-bullet-coding-agent-rewards-codex-cli-multi-layer-verification-strategy.md`
