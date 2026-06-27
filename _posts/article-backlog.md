@@ -1,5 +1,13 @@
 # Article Backlog
 
+## BeyondSWE — Coding Agents Beyond Single-Repo Bug Fixing and Codex CLI Mitigation Patterns (2026-06-27 Hourly Article Run)
+
+1. ✅ **BeyondSWE: What Happens When Coding Agents Leave the Single-Repo Comfort Zone — and What Codex CLI Developers Should Do About It** — Written 2026-06-27 → `2026-06-27-beyondswe-benchmark-coding-agents-beyond-single-repo-bug-fixing-codex-cli-cross-repo-domain-migration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. published arXiv:2603.03194 (March 2026, revised May 2026), presenting BeyondSWE: 500 instances from 246 repos spanning four task categories (CrossRepo, DomainFix, DepMigrate, Doc2Repo) along resolution and knowledge scope axes; best agent (Codex + GPT-5.4 xhigh with SearchSWE) achieves 56.65% average; search augmentation regresses in 31.2% of cases; three failure modes (source-level evidence gap, version incompatibility, semantic contamination); no existing article covered BeyondSWE, mapped its four dimensions to Codex CLI AGENTS.md/skills/hooks/phased workflows, or connected SearchSWE's inconsistent gains to practical mitigation patterns
+   - SEO targets: "beyondswe codex cli", "coding agent cross-repo benchmark", "codex cli beyond single repo", "beyondswe dependency migration coding agent", "codex cli domain knowledge skills", "coding agent search augmentation failure modes"
+
+---
+
 ## The Deterministic Control Plane — Configuration Governance for Codex CLI (2026-06-27 Hourly Article Run)
 
 1. ✅ **The Deterministic Control Plane: Why Your Codex CLI Configuration Needs Supply-Chain Governance** — Written 2026-06-27 → `2026-06-27-deterministic-control-plane-llm-coding-agent-configuration-governance-codex-cli-relaibuild-supply-chain.md`
