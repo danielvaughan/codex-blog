@@ -8,7 +8,6 @@ tags: ["codex-cli", "open-source", "attribution", "supply-chain", "agents-md", "
 # The Invisible Agent Problem: What a 180-Million-Repository Census Reveals About Codex CLI's Footprint in Open Source
 
 
-
 ---
 
 On 23 June 2026, researchers Arsham Khosravani and Audris Mockus published the first validated multi-method census of AI coding agent activity across 180 million Git repositories.[^1] The headline finding is stark: traditional bot-detection methods undercount AI agent contributions by a factor of 30. For Codex CLI developers, the implications run deeper than academic interest — they reshape how we think about attribution, supply-chain trust, and the governance AGENTS.md files we ship with every repository.
