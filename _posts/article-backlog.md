@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AWCP and the Missing Workspace Layer — Filesystem-Level Agent Delegation for Codex CLI (2026-06-27 Hourly Article Run)
+
+1. ✅ **AWCP and the Missing Workspace Layer: What Filesystem-Level Agent Delegation Means for Codex CLI Multi-Agent Workflows** — Written 2026-06-27 → `2026-06-27-awcp-workspace-delegation-protocol-codex-cli-multi-agent-filesystem-collaboration-mcp-a2a.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Nie et al. published arXiv:2602.20493 (February 2026), introducing AWCP: the Agent Workspace Collaboration Protocol enabling filesystem-level delegation between heterogeneous agents via four pluggable transports (SSHFS, Archive, Storage, Git); dual state machines (9-state Delegator, 4-state Executor); four-phase lifecycle (Negotiation, Provisioning, Execution, Completion); MCP integration via @awcp/mcp package; ~9,200 lines TypeScript reference implementation; fills the workspace layer gap between MCP (tool access) and A2A (agent messaging); no existing article covered AWCP, mapped workspace delegation to Codex CLI worktree/handoff model, or compared cross-agent filesystem projection with Codex-native parallel execution
+   - SEO targets: "AWCP codex cli", "workspace delegation protocol coding agent", "codex cli multi-agent filesystem collaboration", "AWCP MCP A2A protocol stack", "cross-agent workspace sharing coding", "codex cli worktree vs AWCP delegation"
+
+---
+
 ## Why Agentic PRs Get Rejected — Acceptance Rates, Trust, and Attribution for Codex CLI (2026-06-27 Hourly Article Run)
 
 1. ✅ **Why Agentic PRs Get Rejected: What the First Comparative Study Means for Codex CLI Developers** — Written 2026-06-27 → `2026-06-27-why-agentic-prs-get-rejected-codex-cli-acceptance-rates-trust-attribution-open-source.md`
