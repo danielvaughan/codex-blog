@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Neutral Prompting Attacks — Stealthy Hallucination Steering in Codex CLI Skills (2026-06-28 Hourly Article Run)
+
+1. ✅ **Neutral Prompting Attacks: When Your Codex CLI Skills Become the Supply Chain Weapon — and Three Defences That Close the Gap** — Written 2026-06-28 → `2026-06-28-neutral-prompting-attacks-stealthy-hallucination-steering-codex-cli-skills-packmonitor-supply-chain-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hsu, Yu, Huang & Sakuma published arXiv:2605.29354 (28 May 2026), introducing Neutral Prompting Attack (NPA): semantically benign skill file instructions that elevate package hallucination from 4.54% baseline to 78.99% on Qwen2.5-Coder-32B; evades static, LLM-based, and agent-based defences except Snyk (which NPA-Snyk variant then circumvents at 42.42%); combined with PackMonitor (arXiv:2602.20717) decoding-time zero-hallucination approach; no existing article covered NPA, mapped the skill-level attack vector to Codex CLI plugins/AGENTS.md/hooks, or provided layered PreToolUse + lockfile + provenance defences
+   - SEO targets: "neutral prompting attack codex cli", "NPA package hallucination agent skills", "codex cli skill supply chain attack", "stealthy hallucination steering coding agent", "packmonitor codex cli defence", "codex cli pretooluse package verification hook"
+
+---
+
 ## The Metaprogramming Reflex — Frontier Coding Agents and Unfamiliar Languages for Codex CLI (2026-06-27 Hourly Article Run)
 
 1. ✅ **The Metaprogramming Reflex: How Frontier Coding Agents Survive Languages They Have Never Seen — and What It Means for Codex CLI** — Written 2026-06-27 → `2026-06-27-metaprogramming-reflex-coding-agents-unfamiliar-languages-codex-cli-generator-strategy.md`
