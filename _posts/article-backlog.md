@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Metaprogramming Reflex — Frontier Coding Agents and Unfamiliar Languages for Codex CLI (2026-06-27 Hourly Article Run)
+
+1. ✅ **The Metaprogramming Reflex: How Frontier Coding Agents Survive Languages They Have Never Seen — and What It Means for Codex CLI** — Written 2026-06-27 → `2026-06-27-metaprogramming-reflex-coding-agents-unfamiliar-languages-codex-cli-generator-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sharma, Thorat & Chopra published arXiv:2606.10933 (9 June 2026), evaluating six coding agents on four esoteric languages from EsoLang-Bench; GPT-5.4 xhigh achieved 99.7% mean vs Kimi K2.5 at 11.3% (88.4 pp spread vs SWE-Bench Verified 6.6 pp); strongest agents employ metaprogramming — writing Python generators that emit target-language code; banning metaprogramming dropped Opus from 64/80 to 27/80 on Brainfuck; reference libraries boosted Sonnet from 12/80 to 64/80 while text guidance had no effect; no existing article covered this paper, mapped the metaprogramming reflex to Codex CLI AGENTS.md/skills/sandbox configuration, or connected generator-based strategy transfer to practical agent deployment patterns
+   - SEO targets: "metaprogramming coding agent", "codex cli unfamiliar language strategy", "EsoLang-Bench coding agent benchmark", "codex cli generator pattern AGENTS.md", "coding agent adaptation esoteric languages", "metaprogramming reflex codex cli skills"
+
+---
+
 ## BeyondSWE — Coding Agents Beyond Single-Repo Bug Fixing and Codex CLI Mitigation Patterns (2026-06-27 Hourly Article Run)
 
 1. ✅ **BeyondSWE: What Happens When Coding Agents Leave the Single-Repo Comfort Zone — and What Codex CLI Developers Should Do About It** — Written 2026-06-27 → `2026-06-27-beyondswe-benchmark-coding-agents-beyond-single-repo-bug-fixing-codex-cli-cross-repo-domain-migration.md`
