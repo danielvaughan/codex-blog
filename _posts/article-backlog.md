@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Why Agentic PRs Get Rejected — Acceptance Rates, Trust, and Attribution for Codex CLI (2026-06-27 Hourly Article Run)
+
+1. ✅ **Why Agentic PRs Get Rejected: What the First Comparative Study Means for Codex CLI Developers** — Written 2026-06-27 → `2026-06-27-why-agentic-prs-get-rejected-codex-cli-acceptance-rates-trust-attribution-open-source.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Nakashima et al. published arXiv:2602.04226 (February 2026), the first comparative study of rejected PRs across five coding agents (Codex, Devin, Copilot, Cursor, Claude Code); Codex leads with 85.8% acceptance rate vs 82.6% human baseline; identified seven rejection modes unique to agentic PRs; 67.9% of rejected PRs lack explicit feedback; mapped rejection modes to Codex CLI configuration (attribution, AGENTS.md, permission profiles, hooks); connected to Matplotlib incident and Vouch trust infrastructure
+   - SEO targets: "agentic PR rejection codex cli", "codex cli acceptance rate", "why agent PRs get rejected", "codex cli open source attribution", "coding agent PR trust", "vouch trust system codex"
+
+---
+
 ## AgentAssay Regression Testing — Statistical Verification for Non-Deterministic Codex CLI Agent Workflows (2026-06-27 Hourly Article Run)
 
 1. ✅ **AgentAssay and the Regression Testing Gap: Statistical Verification for Non-Deterministic Codex CLI Agent Workflows** — Written 2026-06-27 → `2026-06-27-agentassay-regression-testing-non-deterministic-codex-cli-agent-workflows-behavioral-fingerprinting.md`
