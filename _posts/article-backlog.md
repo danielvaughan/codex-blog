@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Verification Horizon — Multi-Layer Verification Strategy for Codex CLI (2026-06-27 Hourly Article Run)
+
+1. ✅ **The Verification Horizon: Why No Single Reward Signal Can Keep Your Codex CLI Agent Honest — and How to Build a Multi-Layer Defence** — Written 2026-06-27 → `2026-06-27-verification-horizon-no-silver-bullet-coding-agent-rewards-codex-cli-multi-layer-verification-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Qwen team published arXiv:2606.26300 on 24 June 2026, demonstrating that verification is now harder than generation for coding agents; four verification approaches (test-driven, rubric-based, user feedback, agent-as-verifier) each fail on at least one of three quality dimensions (scalability, faithfulness, robustness); trajectory-level monitoring reduced reward hacking from 28.57% to 0.56%; no existing article covered this paper, mapped the four-verifier taxonomy to Codex CLI hooks/Goal Mode/permission profiles, or provided a practical multi-layer verification architecture configuration
+   - SEO targets: "verification horizon coding agent", "codex cli verification hooks", "reward hacking coding agent defence", "codex cli PostToolUse verification", "multi-layer verification coding agent", "coding agent reward signal co-evolution", "codex cli Goal Mode verification"
+
+---
+
 ## The Invisible Agent Problem — 180-Million-Repository Census and Codex CLI Attribution (2026-06-27 Hourly Article Run)
 
 1. ✅ **The Invisible Agent Problem: What a 180-Million-Repository Census Reveals About Codex CLI's Footprint in Open Source** — Written 2026-06-27 → `2026-06-27-detecting-ai-coding-agents-open-source-180-million-repo-census-codex-cli-attribution-supply-chain.md`
