@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent-as-a-Router — Agentic Model Routing for Codex CLI Multi-Model Workflows (2026-06-27 Hourly Article Run)
+
+1. ✅ **Agent-as-a-Router: What the First Agentic Model Routing Benchmark Means for Codex CLI Multi-Model Workflows** — Written 2026-06-27 → `2026-06-27-agent-as-a-router-agentic-model-routing-coding-tasks-codex-cli-acrouter-coderouterbench.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhou et al. published arXiv:2606.22902 on 24 June 2026, introducing ACRouter (Orchestrator + Verifier + Memory in a C-A-F loop) and CodeRouterBench (~10,000 tasks, 8 frontier models, 10 coding dimensions); ACRouter achieved 49.98% AvgPerf at 2.9× the cost-efficiency of always-Opus; static classifiers collapsed from ~47% to 8.93% on OOD agentic tasks; no existing article covered this paper, CodeRouterBench, the C-A-F loop architecture, or mapped ACRouter's three-layer approach to Codex CLI profiles, hooks, and wrapper scripts
+   - SEO targets: "agent as a router codex cli", "agentic model routing coding tasks", "ACRouter CodeRouterBench", "codex cli multi-model routing profiles", "coding agent model selection benchmark", "cost-efficient model routing coding agent"
+
+---
+
 ## GAIE Governed AI-Assisted Engineering — Graduated Oversight for Codex CLI in Regulated Domains (2026-06-27 Hourly Article Run)
 
 1. ✅ **Governed AI-Assisted Engineering: Mapping GAIE's Graduated Oversight Model to Codex CLI Permission Profiles for Regulated Codebases** — Written 2026-06-27 → `2026-06-27-gaie-governed-ai-assisted-engineering-graduated-oversight-codex-cli-regulated-domains-permission-profiles.md`
