@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Quine and the POSIX Agent — Unix Process Model for LLM Agent Architecture and Codex CLI (2026-06-27 Hourly Article Run)
+
+1. ✅ **Quine and the POSIX Agent: What Mapping LLM Agents to Unix Processes Means for Codex CLI Developers** — Written 2026-06-27 → `2026-06-27-quine-llm-agents-native-posix-processes-codex-cli-unix-process-model-agent-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ke published arXiv:2603.18030 (March 2026, revised April 2026), presenting Quine: a runtime architecture mapping LLM agents to native POSIX processes (PID=identity, stdin/stdout=interface, fork/exec/exit=lifecycle); ~9.8 MB Go binary, four-tool surface (sh, fork, exec, exit), host-guest split architecture; achieved ≥99.6% on MRCR needle-retrieval tasks via exec-based context renewal; no existing article covered Quine, compared POSIX process mappings to Codex CLI's sandbox architecture, or connected fork/exec semantics to subagent delegation patterns
+   - SEO targets: "quine POSIX agent LLM", "codex cli unix process model", "agent as POSIX process", "codex cli sandbox architecture POSIX", "LLM agent fork exec lifecycle", "coding agent process isolation"
+
+---
+
 ## Agent-as-a-Router — Agentic Model Routing for Codex CLI Multi-Model Workflows (2026-06-27 Hourly Article Run)
 
 1. ✅ **Agent-as-a-Router: What the First Agentic Model Routing Benchmark Means for Codex CLI Multi-Model Workflows** — Written 2026-06-27 → `2026-06-27-agent-as-a-router-agentic-model-routing-coding-tasks-codex-cli-acrouter-coderouterbench.md`
