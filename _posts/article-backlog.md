@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AgentAssay Regression Testing — Statistical Verification for Non-Deterministic Codex CLI Agent Workflows (2026-06-27 Hourly Article Run)
+
+1. ✅ **AgentAssay and the Regression Testing Gap: Statistical Verification for Non-Deterministic Codex CLI Agent Workflows** — Written 2026-06-27 → `2026-06-27-agentassay-regression-testing-non-deterministic-codex-cli-agent-workflows-behavioral-fingerprinting.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Bhardwaj published arXiv:2603.02601 (March 2026), presenting AgentAssay: the first token-efficient framework for regression testing non-deterministic AI agent workflows; introduces stochastic three-valued verdicts (PASS/FAIL/INCONCLUSIVE), five-dimensional coverage metrics, behavioural fingerprinting with Hotelling T² regression detection achieving 86% detection power where binary testing achieves 0%, SPRT-based adaptive trial stopping with 78% trial reduction, and mutation testing operators for prompts/tools/models/context; 78-100% cost reduction across 7,605 trials; 10 framework adapters including OpenAI Agents SDK and MCP; no existing article covered AgentAssay, mapped its statistical testing primitives to Codex CLI hooks/codex exec/AGENTS.md mutation testing, or provided a CI/CD integration pattern for behavioural regression gates
+   - SEO targets: "agentassay codex cli", "regression testing coding agent", "non-deterministic agent testing", "behavioural fingerprinting coding agent", "codex cli agent regression CI/CD", "statistical testing AI agent workflows"
+
+---
+
 ## Quine and the POSIX Agent — Unix Process Model for LLM Agent Architecture and Codex CLI (2026-06-27 Hourly Article Run)
 
 1. ✅ **Quine and the POSIX Agent: What Mapping LLM Agents to Unix Processes Means for Codex CLI Developers** — Written 2026-06-27 → `2026-06-27-quine-llm-agents-native-posix-processes-codex-cli-unix-process-model-agent-architecture.md`
