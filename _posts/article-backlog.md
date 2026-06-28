@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Deontic Policies and Runtime Governance — AgenticRei and Codex CLI Permission Model (2026-06-28 Hourly Article Run)
+
+1. ✅ **Deontic Policies and Runtime Governance: What AgenticRei Means for Codex CLI's Permission Model** — Written 2026-06-28 → `2026-06-28-deontic-policies-runtime-governance-agentic-ai-agenticrei-codex-cli-permission-hooks-obligation-lifecycle.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Joshi, Finin, Joshi & Kagal published arXiv:2606.19464 (17 June 2026), introducing AgenticRei: a deontic policy engine using OWL-based Rei framework for runtime governance of agentic AI systems; supports obligations, dispensations, meta-policy conflict resolution, and ontological reasoning that XACML/Rego/Cedar cannot express; sub-10ms latency; mapped to Codex CLI permission profiles, hooks, requirements.toml hierarchy; identified obligation lifecycle gap in hook model; connected to Microsoft Agent Governance Toolkit and EU AI Act August 2026 high-risk provisions
+   - SEO targets: "deontic policies codex cli", "AgenticRei runtime governance coding agent", "codex cli obligation lifecycle hooks", "agentic AI governance OWL ontology", "codex cli permission model obligations", "runtime policy enforcement coding agent"
+
+---
+
 ## Neutral Prompting Attacks — Stealthy Hallucination Steering in Codex CLI Skills (2026-06-28 Hourly Article Run)
 
 1. ✅ **Neutral Prompting Attacks: When Your Codex CLI Skills Become the Supply Chain Weapon — and Three Defences That Close the Gap** — Written 2026-06-28 → `2026-06-28-neutral-prompting-attacks-stealthy-hallucination-steering-codex-cli-skills-packmonitor-supply-chain-defence.md`
