@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Code Maintainability — CodeThread and Codex CLI IEC Drift Defence (2026-06-29 Hourly Article Run)
+
+1. ✅ **Is Agent Code Less Maintainable? What CodeThread Reveals About Codex CLI Output and How to Defend Against Drift** — Written 2026-06-29 → `2026-06-29-agent-code-maintainability-codethread-codex-cli-input-error-contract-drift-posttooluse-quality-gates.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Patel, Hou, Purohit, Xu, Pan, He & Chen published arXiv:2606.21804 (19 June 2026), introducing CodeThread: a framework constructing controlled experiments from repository-level coding benchmarks to isolate authorship as a variable; four frontier agents (Claude 4.5 Sonnet, GPT-5, GLM 4.7, MiniMax M2.5) across four benchmarks (SWE-Bench Verified, Multilingual, Pro, FeatBench); resolve rate drops up to 13.1% when building on agent code; traditional SE metrics (cyclomatic/cognitive complexity, Halstead volume, LLOC) fail to explain; three drift mechanisms: Input/Error Contract drift, downstream code size inflation (1.88x odds), task difficulty inversion; mapped to Codex CLI PostToolUse contract assertion hooks, AGENTS.md error-handling constraints, diff-size budgets, two-pass refactoring with contract lock, permission profile stratification
+   - SEO targets: "agent code maintainability codex cli", "CodeThread benchmark agent code quality", "input error contract drift coding agent", "codex cli PostToolUse quality gates", "agent code less maintainable human code", "codex cli AGENTS.md error handling contracts"
+
+---
+
 ## Over-Privileged Tool Selection — ToolPrivBench and Codex CLI Least-Privilege Defence (2026-06-29 Hourly Article Run)
 
 1. ✅ **Over-Privileged Tool Selection: Why Your Coding Agent Reaches for the Admin Key — and How Codex CLI's Hook Pipeline Stops It** — Written 2026-06-29 → `2026-06-29-over-privileged-tool-selection-llm-agents-toolprivbench-codex-cli-least-privilege-pretooluse-mcp-defence.md`
