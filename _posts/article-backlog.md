@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PI-Hunter Automated Red-Teaming and Prompt Injection Localisation — Codex CLI Hook Defence (2026-06-30 Hourly Article Run)
+
+1. ✅ **PI-Hunter and the Latent Injection Problem: Automated Red-Teaming That Finds What Your Defences Miss — and How to Harden Codex CLI** — Written 2026-06-30 → `2026-06-30-pi-hunter-automated-red-teaming-prompt-injection-localization-codex-cli-pretooluse-posttooluse-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — He, Miculicich, Sharma, Fox, Lee, Tang, Pfister & Le published arXiv:2606.12737 (10 June 2026), introducing PI-Hunter: an automated agentic auditing framework for proactive vulnerability exposure in LLM agents; source-aware seeding achieves 2.5x Source Recall over generic seeding (0.4796 vs 0.1918); evolutionary exploitation discovers latent injections that PIGuard misses entirely (Instruction Recall 0.000 → 0.194); evaluated across 560+ test cases, 11 domains; mapped to Codex CLI PreToolUse/PostToolUse hook pipeline, AGENTS.md source policy declarations, granular approval policy, MCP per-tool approval modes, and defence-in-depth audit loop
+   - SEO targets: "PI-Hunter codex cli", "automated red teaming prompt injection agents", "codex cli PreToolUse PostToolUse injection defence", "latent prompt injection LLM agent", "source-aware red teaming coding agent", "codex cli defence in depth prompt injection"
+
+---
+
 ## CRAB-Bench and Realistic User Simulation — Codex CLI Plan Mode and Constraint Propagation Defence (2026-06-29 Hourly Article Run)
 
 1. ✅ **CRAB-Bench and the Realistic User Problem: Why 61% Pass Rate Exposes the Gap Between Benchmark Saturation and Real-World Agent Capability — and What Codex CLI Developers Should Configure** — Written 2026-06-29 → `2026-06-29-crab-bench-complex-task-dependencies-realistic-user-simulation-codex-cli-plan-mode-constraint-propagation-defence.md`
