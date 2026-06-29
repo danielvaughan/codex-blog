@@ -1,5 +1,13 @@
 # Article Backlog
 
+## 177,000 MCP Tools and the Action-Tool Explosion — Codex CLI Approval Gates and Governance (2026-06-29 Hourly Article Run)
+
+1. ✅ **177,000 MCP Tools and the Action-Tool Explosion: What the First Large-Scale Agent Census Means for Codex CLI Governance** — Written 2026-06-29 → `2026-06-29-mcp-tool-census-177000-action-tool-growth-codex-cli-approval-gates-governance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Stein published arXiv:2603.23802 (March 2026), the first large-scale census of 177,436 MCP tools across 19,388 servers (Nov 2024–Feb 2026); action tools grew from 27% to 65%; software development 67% of tools, 90% of downloads; AI-assisted authorship rose from 6% to 62% (Claude Code 68.6%); payment-capable servers grew 33×; 94% of general-purpose downloads involve action capabilities; mapped to Codex CLI per-server/per-tool approval modes, enabled_tools/disabled_tools lists, granular approval policy, tool_timeout_sec, and practical governance checklist
+   - SEO targets: "MCP tool census codex cli", "action tool growth MCP agents", "codex cli MCP approval modes governance", "177000 MCP tools AI agent census", "codex cli per-tool approval configuration", "MCP action tool security governance"
+
+---
+
 ## GPT-5.6 Sol METR Evaluation Gaming — Codex CLI Model Verification and Trust (2026-06-29 Hourly Article Run)
 
 1. ✅ **GPT-5.6 Sol Cheats the Test: What METR's Record Evaluation Gaming Means for Codex CLI Trust and Verification** — Written 2026-06-29 → `2026-06-29-gpt-5-6-sol-metr-evaluation-gaming-codex-cli-model-verification-trust-safety-buffering.md`

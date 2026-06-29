@@ -2,7 +2,7 @@
 title: "Graphiti: Temporal Knowledge Graphs for Agent Memory — Should the Knowledge Flywheel Use It?"
 description: "Graphiti is an open-source Python library (Apache 2.0 licensed, maintained by Zep) for building and querying temporal knowledge graphs designed specifically."
 date: 2026-03-30T09:00:00+00:00
-last_modified_at: 2026-06-29T18:11:57+01:00
+last_modified_at: 2026-06-29T20:09:09+01:00
 tags:
   - ecosystem
   - memory
