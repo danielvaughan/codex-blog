@@ -2,7 +2,7 @@
 title: "Codex CLI for Frontend Development: React, TypeScript and Modern Toolchains"
 description: "Frontend development with Codex CLI requires deliberate configuration. Without it, Codex will make reasonable guesses — often the wrong ones. It might reach."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-06-29T20:09:09+01:00
+last_modified_at: 2026-06-29T22:07:49+01:00
 tags:
   - language-guide
   - skills

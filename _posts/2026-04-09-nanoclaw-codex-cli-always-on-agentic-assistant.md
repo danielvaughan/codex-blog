@@ -2,7 +2,7 @@
 title: "NanoClaw and Codex CLI: Building an Always-On Agentic Assistant"
 description: "Codex CLI excels at interactive coding sessions and scripted automation via codex exec. But what happens when you need an agent that persists across hours."
 date: 2026-04-09T04:16:00+00:00
-last_modified_at: 2026-06-29T20:09:09+01:00
+last_modified_at: 2026-06-29T22:07:49+01:00
 tags:
   - nanoclaw
   - always-on

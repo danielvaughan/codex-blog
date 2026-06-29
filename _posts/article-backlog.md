@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CRAB-Bench and Realistic User Simulation — Codex CLI Plan Mode and Constraint Propagation Defence (2026-06-29 Hourly Article Run)
+
+1. ✅ **CRAB-Bench and the Realistic User Problem: Why 61% Pass Rate Exposes the Gap Between Benchmark Saturation and Real-World Agent Capability — and What Codex CLI Developers Should Configure** — Written 2026-06-29 → `2026-06-29-crab-bench-complex-task-dependencies-realistic-user-simulation-codex-cli-plan-mode-constraint-propagation-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang, Sivaraman & Li published arXiv:2606.01815 (June 2026), introducing CRAB-Bench: 200 stratified tasks with constraint graphs over interdependent entities, distractor ratios as low as 0.05%, search spaces exceeding 500⁴; best model (DeepSeek V3.2) achieves only 61% pass@1; RUSE realistic user simulation causes drops up to 57% (Qwen3 Coder Next); Information Disclosure dimension most damaging; error acknowledgement drops from 2.7% to 0.3% under realistic users; mapped to Codex CLI plan mode constraint elicitation, AGENTS.md cross-module constraint rules, PostToolUse constraint verification hooks, subagent decomposition with contract handoffs, v0.142.0 token budget circuit breakers
+   - SEO targets: "CRAB-Bench codex cli", "realistic user simulation coding agent", "constraint propagation coding agent benchmark", "codex cli plan mode constraints", "agent task dependency benchmark", "RUSE user simulation LLM agent"
+
+---
+
 ## 177,000 MCP Tools and the Action-Tool Explosion — Codex CLI Approval Gates and Governance (2026-06-29 Hourly Article Run)
 
 1. ✅ **177,000 MCP Tools and the Action-Tool Explosion: What the First Large-Scale Agent Census Means for Codex CLI Governance** — Written 2026-06-29 → `2026-06-29-mcp-tool-census-177000-action-tool-growth-codex-cli-approval-gates-governance.md`
