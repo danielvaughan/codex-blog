@@ -2,7 +2,7 @@
 title: "Codex CLI Triggers: Event-Driven GitHub Automation Beyond CI/CD"
 description: "With the March 2026 release wave, OpenAI shipped five headline features simultaneously: Plugins, Triggers, the Security Agent, Windows support, and GPT-5.4."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-06-29T08:16:54+01:00
+last_modified_at: 2026-06-29T10:10:16+01:00
 tags:
   - ci-cd
   - github-actions
