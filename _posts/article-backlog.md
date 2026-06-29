@@ -1,5 +1,13 @@
 # Article Backlog
 
+## OmniCode Benchmark — Beyond Bug-Fixing: Test Generation, Code Review, and Multilingual Agent Workflows (2026-06-29 Hourly Article Run)
+
+1. ✅ **OmniCode and the Beyond-Bug-Fixing Problem: Configuring Codex CLI for Test Generation, Code Review, and Multilingual Workflows** — Written 2026-06-29 → `2026-06-29-omnicode-benchmark-beyond-bug-fixing-codex-cli-test-generation-code-review-multilingual-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sonwane et al. published arXiv:2602.02262 (February 2026, accepted ACL 2026), introducing OmniCode: 1,794 tasks across Python/Java/C++ and four categories (bug fixing, test generation, code review response, style fixing); test generation catastrophically weak (best 25.0%); Python proficiency does not transfer (Claude 4.6 Sonnet 68.9% Python bug-fix vs 8.0% C++); style fixing introduces more violations than resolved in Java/C++; mapped to Codex CLI AGENTS.md hierarchies, task-specific subagent definitions, PostToolUse lint gates, model routing per language/task, two-pass test generation with /review
+   - SEO targets: "OmniCode benchmark codex cli", "coding agent test generation weakness", "codex cli multilingual agent workflow", "codex cli style fixing lint gate", "beyond bug fixing coding agent", "codex cli task-specific subagents OmniCode"
+
+---
+
 ## Property-Based Testing with Codex CLI — PBT-Bench and Agentic Invariant Discovery (2026-06-29 Hourly Article Run)
 
 1. ✅ **Property-Based Testing with Codex CLI: Agentic Invariant Discovery, Hypothesis Workflows, and What PBT-Bench Reveals About Agent Testing Capabilities** — Written 2026-06-29 → `2026-06-29-property-based-testing-codex-cli-hypothesis-pbt-bench-agentic-invariant-discovery-bug-detection.md`
