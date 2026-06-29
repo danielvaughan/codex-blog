@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SlopCodeBench — Iterative Code Degradation and Codex CLI Anti-Erosion Defences (2026-06-29 Hourly Article Run)
+
+1. ✅ **SlopCodeBench and the Iterative Degradation Problem: Why Your Coding Agent's Code Rots Faster Than Yours — and How Codex CLI's Architecture Fights Back** — Written 2026-06-29 → `2026-06-29-slopcodebench-iterative-code-degradation-coding-agents-codex-cli-erosion-verbosity-subagent-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Orlanski et al. published arXiv:2603.24755 (March 2026, revised May 2026), introducing SlopCodeBench: 20 problems, 93 checkpoints measuring iterative code degradation; erosion rises in 80% of trajectories, verbosity in 89.8%; agent code 2.2× more verbose and 2.2× more eroded than 48 human repos; no agent solves any problem end-to-end; prompt interventions shift intercept but not degradation slope (+47.9% cost, 0 correctness gain); mapped to Codex CLI subagent decomposition, PostToolUse refactoring gates, AGENTS.md architectural invariants, and v0.142.0 token budget circuit breakers
+   - SEO targets: "SlopCodeBench codex cli", "coding agent iterative degradation benchmark", "structural erosion verbosity coding agent", "codex cli subagent code quality defence", "agent code degradation long horizon", "codex cli PostToolUse refactoring gate"
+
+---
+
 ## Agent Code Maintainability — CodeThread and Codex CLI IEC Drift Defence (2026-06-29 Hourly Article Run)
 
 1. ✅ **Is Agent Code Less Maintainable? What CodeThread Reveals About Codex CLI Output and How to Defend Against Drift** — Written 2026-06-29 → `2026-06-29-agent-code-maintainability-codethread-codex-cli-input-error-contract-drift-posttooluse-quality-gates.md`
