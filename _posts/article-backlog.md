@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Over-Privileged Tool Selection — ToolPrivBench and Codex CLI Least-Privilege Defence (2026-06-29 Hourly Article Run)
+
+1. ✅ **Over-Privileged Tool Selection: Why Your Coding Agent Reaches for the Admin Key — and How Codex CLI's Hook Pipeline Stops It** — Written 2026-06-29 → `2026-06-29-over-privileged-tool-selection-llm-agents-toolprivbench-codex-cli-least-privilege-pretooluse-mcp-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yang et al. published arXiv:2606.20023 (18 June 2026), introducing ToolPrivBench: 544 scenarios across eight domains measuring Over-Privileged Tool Use Rate (OPUR); six of eleven models exceeded 30% OPUR; Qwen3-8B at 64.9%, LLaMA-3.1-8B at 55.9%; transient failures amplify escalation; safety alignment does not transfer to least-privilege reasoning; five risk patterns (Authority Escalation, Scope Expansion, Temporal Persistence, Safety Bypass, Data Over-Exposure); mapped to Codex CLI MCP per-tool approval modes, PreToolUse/PostToolUse hook pipeline, and retry-before-escalate defence pattern
+   - SEO targets: "over-privileged tool selection codex cli", "ToolPrivBench LLM agent benchmark", "codex cli least privilege MCP tools", "PreToolUse hook privilege gating", "coding agent tool escalation defence", "codex cli MCP approval modes security"
+
+---
+
 ## Deontic Policies and Runtime Governance — AgenticRei and Codex CLI Permission Model (2026-06-28 Hourly Article Run)
 
 1. ✅ **Deontic Policies and Runtime Governance: What AgenticRei Means for Codex CLI's Permission Model** — Written 2026-06-28 → `2026-06-28-deontic-policies-runtime-governance-agentic-ai-agenticrei-codex-cli-permission-hooks-obligation-lifecycle.md`
