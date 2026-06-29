@@ -4,7 +4,7 @@ description: "As Codex agents grow more capable, the bottleneck shifts from doin
 parent: "Articles"
 nav_order: 1186
 date: 2026-06-22T12:00:00+00:00
-last_modified_at: 2026-06-29T16:09:04+01:00
+last_modified_at: 2026-06-29T18:11:57+01:00
 tags:
   - management-agents
   - orchestration
