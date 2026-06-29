@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Property-Based Testing with Codex CLI — PBT-Bench and Agentic Invariant Discovery (2026-06-29 Hourly Article Run)
+
+1. ✅ **Property-Based Testing with Codex CLI: Agentic Invariant Discovery, Hypothesis Workflows, and What PBT-Bench Reveals About Agent Testing Capabilities** — Written 2026-06-29 → `2026-06-29-property-based-testing-codex-cli-hypothesis-pbt-bench-agentic-invariant-discovery-bug-detection.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Jing et al. published arXiv:2605.15229 (May 2026), introducing PBT-Bench: 100 problems across 40 Python libraries, 365 injected bugs, three difficulty levels; Claude Sonnet 4.6 achieves 83.4% recall; scaffolding helps mid-tier models (+24.5pp) but degrades some frontier models; ensemble union detects 99.5% of bugs; combined with Anthropic's agentic PBT project (984 bug reports, 56% validity, patches merged into NumPy/AWS/HuggingFace) and PGS framework (13.4% improvement over TDD); mapped to Codex CLI AGENTS.md PBT configuration, property-testing skills, PostToolUse hook gates, multi-model ensemble patterns
+   - SEO targets: "property-based testing codex cli", "PBT-Bench coding agent benchmark", "Hypothesis codex cli agent testing", "agentic invariant discovery", "codex cli property testing workflow", "agent-driven bug detection Hypothesis"
+
+---
+
 ## SlopCodeBench — Iterative Code Degradation and Codex CLI Anti-Erosion Defences (2026-06-29 Hourly Article Run)
 
 1. ✅ **SlopCodeBench and the Iterative Degradation Problem: Why Your Coding Agent's Code Rots Faster Than Yours — and How Codex CLI's Architecture Fights Back** — Written 2026-06-29 → `2026-06-29-slopcodebench-iterative-code-degradation-coding-agents-codex-cli-erosion-verbosity-subagent-defence.md`
