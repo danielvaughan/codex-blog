@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Augmentation with Dilution — AI Coding Agent Contributor Ecosystem Impact and Codex CLI Governance (2026-06-30 Hourly Article Run)
+
+1. ✅ **Augmentation with Dilution: What the First Large-Scale Study of AI Coding Agent Impact on Contributor Ecosystems Means for Codex CLI Teams** — Written 2026-06-30 → `2026-06-30-augmentation-with-dilution-ai-coding-agent-contributor-ecosystems-codex-cli-review-onboarding-governance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhang, Jiang & Koziolek published arXiv:2606.26289 (24 June 2026), first large-scale empirical study of 11,097 GitHub repositories (Jan 2023–May 2026) using causal inference to measure AI coding agent impact on contributor ecosystems; newcomer participation share drops 3.7pp (p < 0.001); human participation density declines 1.9% (p = 0.002); review depth increases 5.3%; total contributors unchanged (p = 0.224); combined with Russo arXiv:2606.28235 (930K+ agent PRs, integration friction 2× higher for agent contributions); mapped to Codex CLI AGENTS.md task boundaries, review_model configuration, granular approval policy, token budget governance, multi-agent delegation modes, hierarchical AGENTS.md review guidelines
+   - SEO targets: "augmentation with dilution codex cli", "AI coding agent contributor ecosystem impact", "codex cli newcomer onboarding governance", "codex cli review burden configuration", "agent adoption open source participation", "codex cli AGENTS.md task boundaries governance"
+
+---
+
 ## PI-Hunter Automated Red-Teaming and Prompt Injection Localisation — Codex CLI Hook Defence (2026-06-30 Hourly Article Run)
 
 1. ✅ **PI-Hunter and the Latent Injection Problem: Automated Red-Teaming That Finds What Your Defences Miss — and How to Harden Codex CLI** — Written 2026-06-30 → `2026-06-30-pi-hunter-automated-red-teaming-prompt-injection-localization-codex-cli-pretooluse-posttooluse-defence.md`
