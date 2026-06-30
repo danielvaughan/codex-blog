@@ -1,5 +1,13 @@
 # Article Backlog
 
+## EsoLang-Bench Metaprogramming — Codex CLI Subagent Language Scaffolding (2026-06-30 Hourly Article Run)
+
+1. ✅ **Metaprogramming as Emergent Strategy: What EsoLang-Bench Reveals About Coding Agent Adaptation — and How to Configure Codex CLI Subagents for Language Scaffolding** — Written 2026-06-30 → `2026-06-30-esoteric-language-metaprogramming-coding-agents-esolang-bench-codex-cli-subagent-interpreter-scaffolding.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sharma, Thorat & Chopra published arXiv:2606.10933 (9 June 2026), EsoLang-Bench: six coding agents on four esoteric languages (Brainfuck, Befunge-98, Whitespace, Shakespeare); performance spread 88.4pp (12× SWE-Bench Verified); frontier agents (Opus 4.6, GPT-5.4 xhigh) discover metaprogramming autonomously — Python generators producing target code; blocking metaprogramming drops Opus from 100% to 33.75% on Brainfuck; executable scaffolding transfers strategy to mid-tier models (Sonnet 12→64/80); text-only guidance fails; interpreter budget amplifies existing strategies but cannot create them; mapped to Codex CLI subagent TOML definitions, AGENTS.md language routing, executable skill scaffolding, sandbox interpreter budget, PostToolUse validation hooks
+   - SEO targets: "EsoLang-Bench codex cli", "metaprogramming coding agent strategy", "codex cli subagent language scaffolding", "esoteric language coding agent benchmark", "codex cli generator subagent", "executable scaffolding coding agent transfer"
+
+---
+
 ## SWE-Cycle FullCycle Issue Resolution Benchmark — Codex CLI Subagent Pipeline Configuration (2026-06-30 Hourly Article Run)
 
 1. ✅ **SWE-Cycle and the FullCycle Gap: Why Coding Agents That Ace Isolated Tasks Collapse at End-to-End Issue Resolution — and How to Configure Codex CLI's Subagent Pipeline** — Written 2026-06-30 → `2026-06-30-swe-cycle-fullcycle-issue-resolution-benchmark-codex-cli-subagent-environment-test-generation-pipeline.md`
