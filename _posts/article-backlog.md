@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Over-Mocked Tests and Coding Agents — AGENTS.md Testing Guidance and Mock Control (2026-06-30 Hourly Article Run)
+
+1. ✅ **Over-Mocked Tests and Coding Agents: What 1.2 Million Commits Reveal — and How to Configure Codex CLI's AGENTS.md for Test Quality** — Written 2026-06-30 → `2026-06-30-over-mocked-tests-coding-agents-codex-cli-agents-md-testing-guidance-mock-control.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hora & Robbes published arXiv:2602.00409 (30 January 2026), empirical study of 1.2M commits across 2,168 repos finding agent test commits mock at 36% vs 26% for humans; agents use mock type 95% of the time vs 57% fake and 51% spy usage by humans; GitHub code search found only 12% of CLAUDE.md files mention mock guidance; mapped to Codex CLI AGENTS.md hierarchical instructions, per-directory overrides, PostToolUse hooks for mock density enforcement, codex exec audit pipeline, test double selection guide
+   - SEO targets: "over-mocked tests coding agents codex cli", "codex cli AGENTS.md testing guidance", "coding agent mock control configuration", "test double diversity coding agent", "codex cli PostToolUse mock enforcement", "AGENTS.md test quality rules"
+
+---
+
 ## Human Oversight of Coding Agents in Practice — Four Forms of Oversight Work and Codex CLI Configuration (2026-06-30 Hourly Article Run)
 
 1. ✅ **Human Oversight of Coding Agents in Practice: What 17 Developers Reveal About Oversight Work — and How to Configure Codex CLI for Each Form** — Written 2026-06-30 → `2026-06-30-human-oversight-agentic-systems-practice-codex-cli-four-forms-oversight-heuristics-configuration.md`
