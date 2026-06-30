@@ -2,7 +2,7 @@
 title: "SWE-Cycle and the FullCycle Gap: Why Coding Agents That Ace Isolated Tasks Collapse at End-to-End Issue Resolution — and How to Configure Codex CLI's Subagent Pipeline"
 parent: "Articles"
 nav_order: 1276
-tags: ["SWE-Cycle", "benchmark", "FullCycle", "issue resolution", "Codex CLI", "subagent delegation", "environment reconstruction", "test generation", "PostToolUse hooks", "AGENTS.md"]
+tags: ["SWE-Cycle", "benchmark", "FullCycle", "issue-resolution", "codex-cli", "subagent-delegation", "environment-reconstruction", "test-generation", "PostToolUse-hooks", "AGENTS.md"]
 ---
 
 # SWE-Cycle and the FullCycle Gap: Why Coding Agents That Ace Isolated Tasks Collapse at End-to-End Issue Resolution — and How to Configure Codex CLI's Subagent Pipeline
