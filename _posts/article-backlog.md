@@ -1,5 +1,14 @@
 # Article Backlog
 
+## New Premium Ideas from Article Rating (2026-06-30)
+
+1. 📝 **The Agent Testing Quality Playbook (Premium Consolidation)** — Over-Mocked Tests (5.0) + Three Layers of Agent Testing (4.8). Unified test quality framework: mock diversity, integration balance, test double selection guide, AGENTS.md templates, PostToolUse mock density enforcement.
+2. 📝 **The Oversight Architecture Guide (Premium)** — Human Oversight in Practice (5.0) + Delegation Spectrum (5.0). Four oversight forms mapped to five delegation levels, config profiles, heuristic detection patterns, team-level oversight maturity assessment.
+3. 📝 **The MCP Security Compendium (Premium Consolidation)** — MCP DCI (4.8) + MCP Ambient Authority (4.8) + ChainFuzzer (4.8) + PI-Hunter (4.8). Unified MCP threat model, per-surface defence architecture, four-step audit pipeline, enterprise governance template.
+4. 📝 **The Agent Ecosystem Impact Report (Premium)** — Augmentation with Dilution (4.8) + 180M-Repo Census (5.0) + Why Agentic PRs Get Rejected (4.8). Quantified ecosystem effects, newcomer preservation, contributor diversity metrics, review burden distribution.
+
+---
+
 ## Over-Mocked Tests and Coding Agents — AGENTS.md Testing Guidance and Mock Control (2026-06-30 Hourly Article Run)
 
 1. ✅ **Over-Mocked Tests and Coding Agents: What 1.2 Million Commits Reveal — and How to Configure Codex CLI's AGENTS.md for Test Quality** — Written 2026-06-30 → `2026-06-30-over-mocked-tests-coding-agents-codex-cli-agents-md-testing-guidance-mock-control.md`
