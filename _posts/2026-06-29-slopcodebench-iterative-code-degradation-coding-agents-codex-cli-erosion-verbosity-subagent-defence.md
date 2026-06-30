@@ -14,7 +14,7 @@ Every coding agent benchmark you have seen is lying to you — not through malic
 
 ## What SlopCodeBench Measures
 
-SlopCodeBench comprises 20 problems spanning 93 checkpoints[^1]. Each problem begins with a base specification and evolves through a sequence of requirement changes that force architectural decisions. Agents must extend their own prior solutions without prescribed internal interfaces or visible test suites — exactly the conditions under which real codebases grow.
+SlopCodeBench comprises 36 problems spanning 196 checkpoints[^1]. Each problem begins with a base specification and evolves through a sequence of requirement changes that force architectural decisions. Agents must extend their own prior solutions without prescribed internal interfaces or visible test suites — exactly the conditions under which real codebases grow.
 
 The benchmark tracks two trajectory-level quality signals:
 
@@ -25,18 +25,18 @@ These are not aesthetic preferences. Erosion predicts maintainability failures; 
 
 ## The Numbers
 
-Eleven models were evaluated. No agent solved any problem end-to-end across all checkpoints[^1]. The highest strict checkpoint solve rate was 17.2%, achieved by Claude Opus 4.6[^2].
+Fifteen agents were evaluated. No agent solved any problem end-to-end across all checkpoints[^1]. The highest strict checkpoint solve rate was 14.8%[^2].
 
 ```mermaid
 graph LR
     subgraph "Strict Solve Rates"
-        A["Opus 4.6<br/>17.2%"]
-        B["GPT 5.4<br/>11.8%"]
-        C["Codex variants<br/>5.4–10.8%"]
+        A["Top agent<br/>14.8%"]
+        B["GPT 5.4<br/>~11%"]
+        C["Other agents<br/>5–11%"]
     end
     subgraph "Degradation"
-        D["Erosion rises<br/>80% of trajectories"]
-        E["Verbosity rises<br/>89.8% of trajectories"]
+        D["Erosion rises<br/>77% of trajectories"]
+        E["Verbosity rises<br/>75.5% of trajectories"]
     end
     A --> D
     B --> D
@@ -52,8 +52,8 @@ The degradation metrics tell the real story:
 |--------|-----------|----------------------|-------|
 | Verbosity | 0.33 | 0.15 | 2.2× |
 | Erosion | 0.68 | 0.31 | 2.2× |
-| Trajectories with rising erosion | 80% | Flat/modest | — |
-| Trajectories with rising verbosity | 89.8% | Flat/modest | — |
+| Trajectories with rising erosion | 77% | Flat/modest | — |
+| Trajectories with rising verbosity | 75.5% | Flat/modest | — |
 
 Cyclomatic complexity in main functions grew from 27.1 to 68.2 across checkpoints[^2]. In the worst case, a `circuit_eval` main function expanded to 1,099 lines with a cyclomatic complexity of 285[^2]. Per-checkpoint cost grew 2.9× across problem progress[^2].
 

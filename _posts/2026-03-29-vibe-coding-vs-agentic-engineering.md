@@ -2,7 +2,7 @@
 title: "Vibe Coding vs Agentic Engineering: A Senior Developer's Framework"
 description: "On 2 February 2025, Andrej Karpathy posted a throwaway tweet about a new style of programming he called vibe coding: you fully give in to the vibes."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-06-30T02:10:25+01:00
+last_modified_at: 2026-06-30T03:10:00+01:00
 tags:
   - opinion
   - team-workflow
