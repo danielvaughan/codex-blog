@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent-Native Memory Systems Taxonomy — Codex CLI Memories, Compaction, and MCP Persistence Architecture (2026-06-30 Hourly Article Run)
+
+1. ✅ **Agent-Native Memory Systems: What a 12-System Benchmark Reveals About Memory Architecture — and How to Configure Codex CLI's Memory Stack** — Written 2026-06-30 → `2026-06-30-agent-native-memory-systems-taxonomy-codex-cli-memories-compaction-mcp-persistence-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhou et al. published arXiv:2606.24775 (23 June 2026), first systematic benchmark of 12 agent memory systems across 5 workloads and 11 datasets; four-module decomposition (Extraction, Representation & Storage, Retrieval & Routing, Maintenance); no single architecture dominates; raw content preservation outperforms abstraction (Finding 6); graph-based updates handle knowledge revisions best (Zep 44.4 Substring EM); localized maintenance beats global reorganisation on cost; three efficiency tiers (Efficient 3.6-15.9s, Moderate 28.6s, Expensive 116-155s); mapped to Codex CLI native Memories (v0.128+), context compaction, MCP memory servers (Mem0, Cognee), AGENTS.md as deterministic memory anchor, resume-over-compact strategy, subagent delegation for compaction avoidance, token budget governance (v0.142.0), workload-driven architecture selection framework
+   - SEO targets: "agent native memory system codex cli", "codex cli memory architecture benchmark", "codex cli memories compaction configuration", "agent memory taxonomy coding agent", "codex cli MCP memory server", "codex cli cross-session persistence"
+
+---
+
 ## Proof-Carrying Agent Actions Runtime Governance — Codex CLI Hook Pipeline and Approval Audit (2026-06-30 Hourly Article Run)
 
 1. ✅ **Proof-Carrying Agent Actions: What Runtime-Neutral Governance Means for Codex CLI Hook Pipelines and Approval Audit Trails** — Written 2026-06-30 → `2026-06-30-proof-carrying-agent-actions-runtime-governance-codex-cli-hooks-approval-audit-certificate-pipeline.md`
