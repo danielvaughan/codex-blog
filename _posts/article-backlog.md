@@ -9,6 +9,14 @@
 
 ---
 
+## AgentLens Lucky Pass Problem — Process Quality and Codex CLI Verification Hooks (2026-06-30 Hourly Article Run)
+
+1. ✅ **AgentLens and the Lucky Pass Problem: Why 10.7% of Your Agent's Passing Tests Are Flukes — and How to Configure Codex CLI for Process Quality** — Written 2026-06-30 → `2026-06-30-agentlens-lucky-pass-problem-process-quality-coding-agent-evaluation-codex-cli-verification-hooks-model-routing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sahoo et al. published arXiv:2605.12925 (May 2026), AgentLens framework evaluating 2,614 OpenHands trajectories across 8 model backends on 60 SWE-bench Verified tasks; 10.7% of passing trajectories are Lucky Passes (regression cycles, blind retries, missing verification, temporally disordered reasoning); five Lucky categories (C1 Minimal & Unverified 15.6%, C2 Brute-Force Convergence 34.4%, C3 Incomplete Implementation 33.6%, C4 Excessive Exploration 4.1%, C5 Divergent-but-Valid 12.3%); model rankings shift up to 5 positions when quality-scored vs pass-rated; Lucky trajectories waste 4.2× more steps; mapped to Codex CLI AGENTS.md verification enforcement, PostToolUse hooks, rollout token budgets, named profiles for quality-based model routing, JSONL event stream trajectory monitoring
+   - SEO targets: "AgentLens lucky pass codex cli", "coding agent process quality evaluation", "codex cli PostToolUse verification hooks", "lucky pass problem SWE-bench", "codex cli model routing quality score", "agent trajectory quality analysis"
+
+---
+
 ## Over-Mocked Tests and Coding Agents — AGENTS.md Testing Guidance and Mock Control (2026-06-30 Hourly Article Run)
 
 1. ✅ **Over-Mocked Tests and Coding Agents: What 1.2 Million Commits Reveal — and How to Configure Codex CLI's AGENTS.md for Test Quality** — Written 2026-06-30 → `2026-06-30-over-mocked-tests-coding-agents-codex-cli-agents-md-testing-guidance-mock-control.md`
