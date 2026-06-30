@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP Description-Code Inconsistency and Tool Trust Gap — Codex CLI Defence and Audit Pipeline (2026-06-30 Hourly Article Run)
+
+1. ✅ **MCP Description-Code Inconsistency and the Tool Trust Gap: What Two Studies of 12,000+ MCP Servers Reveal — and How to Defend Codex CLI Pipelines** — Written 2026-06-30 → `2026-06-30-mcp-description-code-inconsistency-tool-trust-gap-codex-cli-defence-audit-pipeline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Shi et al. published arXiv:2606.04769 (3 June 2026), DCIChecker analysis of 19,200 description-code pairs from 2,214 MCP servers finding 9.93% exhibit DCI and 35% of servers contain at least one inconsistent tool; seven-subtype taxonomy (Func-Over 35.4%, Func-Mis 14.64%, Func-Un 9.15%, Func-Am 3.34%, Eff-RO 22.83%, Eff-DL 13.6%, Eff-SM 1.03%); DCIChecker achieves 96.73% F1; Li et al. arXiv:2602.03580 independently found ~13% of 10,240 servers exhibit substantial mismatches enabling undocumented privileged operations; marketplace variation (Smithery 56.6% vs MCPMarket 50.4%); mapped to Codex CLI enabled_tools/disabled_tools allow-lists, per-tool approval_mode escalation, tool_timeout_sec bounds, PostToolUse validation hooks, four-step pre-deployment audit pipeline
+   - SEO targets: "MCP description-code inconsistency codex cli", "MCP tool trust gap security", "codex cli MCP per-tool approval defence", "DCIChecker MCP server audit", "MCP marketplace security comparison", "codex cli MCP tool allow-list configuration"
+
+---
+
 ## Agent-Native Memory Systems Taxonomy — Codex CLI Memories, Compaction, and MCP Persistence Architecture (2026-06-30 Hourly Article Run)
 
 1. ✅ **Agent-Native Memory Systems: What a 12-System Benchmark Reveals About Memory Architecture — and How to Configure Codex CLI's Memory Stack** — Written 2026-06-30 → `2026-06-30-agent-native-memory-systems-taxonomy-codex-cli-memories-compaction-mcp-persistence-architecture.md`
