@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PlanBench-XL Long-Horizon Planning — Codex CLI MCP Retrieval and Recovery Defence (2026-06-30 Hourly Article Run)
+
+1. ✅ **PlanBench-XL and the Massive-Tool Planning Problem: Why Your Agent Retrieves the Right Tool but Picks the Wrong One — and How to Configure Codex CLI's MCP Pipeline** — Written 2026-06-30 → `2026-06-30-planbench-xl-long-horizon-planning-large-tool-ecosystems-codex-cli-mcp-retrieval-recovery-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Liu et al. published arXiv:2606.22388 (21 June 2026), PlanBench-XL: 327 retail tasks across 1,665 tools evaluating long-horizon planning with blocking mechanisms (explicit, implicit, semantically misleading); GPT-5.4 drops from 51.90% to 11.36% under severe blocking; 78% of failures occur despite correct tool retrieval; recency bias (74.1% non-progress calls use recent tools); silent failure value contamination at 42.2%; irrecoverable drift in 71-72% of top-model failures; bidirectional retrieval correlates with success (r=0.800); mapped to Codex CLI MCP enabled_tools/disabled_tools filtering, PostToolUse validation hooks, tool_timeout_sec, rollout token budgets, subagent decomposition, per-tool approval modes
+   - SEO targets: "PlanBench-XL codex cli", "massive tool planning LLM agent", "codex cli MCP tool retrieval defence", "long horizon planning tool ecosystem", "codex cli PostToolUse validation MCP", "agent recency bias tool selection"
+
+---
+
 ## EsoLang-Bench Metaprogramming — Codex CLI Subagent Language Scaffolding (2026-06-30 Hourly Article Run)
 
 1. ✅ **Metaprogramming as Emergent Strategy: What EsoLang-Bench Reveals About Coding Agent Adaptation — and How to Configure Codex CLI Subagents for Language Scaffolding** — Written 2026-06-30 → `2026-06-30-esoteric-language-metaprogramming-coding-agents-esolang-bench-codex-cli-subagent-interpreter-scaffolding.md`
