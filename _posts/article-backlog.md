@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Human Oversight of Coding Agents in Practice — Four Forms of Oversight Work and Codex CLI Configuration (2026-06-30 Hourly Article Run)
+
+1. ✅ **Human Oversight of Coding Agents in Practice: What 17 Developers Reveal About Oversight Work — and How to Configure Codex CLI for Each Form** — Written 2026-06-30 → `2026-06-30-human-oversight-agentic-systems-practice-codex-cli-four-forms-oversight-heuristics-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Dhanorkar, Passi & Vorvoreanu published arXiv:2606.05391 (3 June 2026), qualitative study of 17 experienced developers examining four forms of emergent oversight work (a priori control, co-planning, real-time monitoring, post hoc review); four practical heuristics (plans as proxies, test results guarantee correctness, eyeballing signals issues, trust in unfamiliar contexts); cognitive distance in code review; shift from craftsman to developer-manager model; mapped to Codex CLI AGENTS.md per-directory instructions, config.toml approval_policy/sandbox_mode, requirements.toml enterprise constraints, plan mode and ExecPlan pattern, subagent TOML task decomposition, JSONL event stream monitoring, rollout_token_budget, tool_timeout_sec, PostToolUse hooks, review_model, OpenTelemetry export, named profiles for trust calibration
+   - SEO targets: "human oversight coding agents codex cli", "developer oversight agentic systems practice", "codex cli approval policy oversight configuration", "four forms oversight work coding agent", "coding agent heuristics review shortcuts", "codex cli PostToolUse oversight hooks"
+
+---
+
 ## MCP Description-Code Inconsistency and Tool Trust Gap — Codex CLI Defence and Audit Pipeline (2026-06-30 Hourly Article Run)
 
 1. ✅ **MCP Description-Code Inconsistency and the Tool Trust Gap: What Two Studies of 12,000+ MCP Servers Reveal — and How to Defend Codex CLI Pipelines** — Written 2026-06-30 → `2026-06-30-mcp-description-code-inconsistency-tool-trust-gap-codex-cli-defence-audit-pipeline.md`
