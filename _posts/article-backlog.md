@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-Cycle FullCycle Issue Resolution Benchmark — Codex CLI Subagent Pipeline Configuration (2026-06-30 Hourly Article Run)
+
+1. ✅ **SWE-Cycle and the FullCycle Gap: Why Coding Agents That Ace Isolated Tasks Collapse at End-to-End Issue Resolution — and How to Configure Codex CLI's Subagent Pipeline** — Written 2026-06-30 → `2026-06-30-swe-cycle-fullcycle-issue-resolution-benchmark-codex-cli-subagent-environment-test-generation-pipeline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Guan et al. published arXiv:2605.13139 (May 2026), SWE-Cycle benchmark of 489 instances evaluating coding agents across environment reconstruction, code implementation, verification test generation, and FullCycle end-to-end; best FullCycle solve rate 13.50% (GLM-5.1) vs 40.08% isolated implementation (Claude Sonnet 4.6); cascading failures dominate; SWE-Judge achieves 96.9% human alignment; mapped to Codex CLI subagent delegation pipeline, per-phase model routing, AGENTS.md phase gating, PostToolUse validation hooks, v0.142.0 token budget governance
+   - SEO targets: "SWE-Cycle codex cli", "FullCycle issue resolution coding agent", "codex cli subagent pipeline configuration", "coding agent environment reconstruction benchmark", "codex cli test generation subagent", "cascading failure coding agent pipeline"
+
+---
+
 ## Augmentation with Dilution — AI Coding Agent Contributor Ecosystem Impact and Codex CLI Governance (2026-06-30 Hourly Article Run)
 
 1. ✅ **Augmentation with Dilution: What the First Large-Scale Study of AI Coding Agent Impact on Contributor Ecosystems Means for Codex CLI Teams** — Written 2026-06-30 → `2026-06-30-augmentation-with-dilution-ai-coding-agent-contributor-ecosystems-codex-cli-review-onboarding-governance.md`
