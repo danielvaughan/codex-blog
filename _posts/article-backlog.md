@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Proof-Carrying Agent Actions Runtime Governance — Codex CLI Hook Pipeline and Approval Audit (2026-06-30 Hourly Article Run)
+
+1. ✅ **Proof-Carrying Agent Actions: What Runtime-Neutral Governance Means for Codex CLI Hook Pipelines and Approval Audit Trails** — Written 2026-06-30 → `2026-06-30-proof-carrying-agent-actions-runtime-governance-codex-cli-hooks-approval-audit-certificate-pipeline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang published arXiv:2606.04104 (2 June 2026), PCAA: five-checkpoint governance contract (guard, createAction, recordAssumption, waitForApproval, updateOutcome); four runtime families (gateway, managed platform, framework SDK, tool-hook); four enforceability classes; 96-trace evaluation achieves 1.000 exact accuracy vs 0.583 for static rules; externality-aware 10-tuple context; 0.35ms mean latency; receipt completeness 0.516 across heterogeneous runtimes; ablation shows externality removal drops accuracy to 0.875; mapped to Codex CLI PreToolUse/PostToolUse hooks, three-tier approval_policy, granular approval settings, OpenTelemetry audit export, named profiles for enforceability-class routing, multi-runtime governance gap analysis
+   - SEO targets: "proof-carrying agent actions codex cli", "runtime governance coding agent", "codex cli hooks approval audit trail", "PCAA agent certificate governance", "codex cli PreToolUse PostToolUse governance", "heterogeneous runtime agent audit"
+
+---
+
 ## PlanBench-XL Long-Horizon Planning — Codex CLI MCP Retrieval and Recovery Defence (2026-06-30 Hourly Article Run)
 
 1. ✅ **PlanBench-XL and the Massive-Tool Planning Problem: Why Your Agent Retrieves the Right Tool but Picks the Wrong One — and How to Configure Codex CLI's MCP Pipeline** — Written 2026-06-30 → `2026-06-30-planbench-xl-long-horizon-planning-large-tool-ecosystems-codex-cli-mcp-retrieval-recovery-defence.md`
