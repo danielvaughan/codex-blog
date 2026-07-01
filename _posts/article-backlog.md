@@ -8277,7 +8277,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 ## New Premium Ideas from Article Rating (2026-07-01)
 
-1. 📝 **The Containment Architecture Playbook (Premium Consolidation)** — When the Agent Is the Adversary (4.8) + Revelio Harness-First (4.8) + Hope Is Not a Guardrail (#59, 5.0). Adversary-model containment profiles, graduated trust levels, automated integrity monitoring, containment maturity assessment. No evaluated system satisfies all five Mitchell requirements — that is the gap.
+1. ✅ **The Containment Architecture Playbook (Premium Consolidation)** — When the Agent Is the Adversary (4.8) + Revelio Harness-First (4.8) + Hope Is Not a Guardrail (#59, 5.0). Adversary-model containment profiles, graduated trust levels, automated integrity monitoring, containment maturity assessment. No evaluated system satisfies all five Mitchell requirements — that is the gap. Written 2026-07-01 → `2026-07-01-containment-architecture-playbook-adversary-model-graduated-trust-codex-cli-sandbox-hooks-integrity-monitoring.md`
 
 2. 📝 **The AGENTS.md Evidence-Based Authoring Guide (Premium)** — Rule Taxonomy (4.8) + Coding Agent Misalignment (5.0). Empirically-grounded AGENTS.md templates by five-category taxonomy, evolution playbook from 1,540 events, compliance hooks for 77.78% negative-constraint pattern, quarterly rule audit checklist. Perception-practice gap is the headline.
 
