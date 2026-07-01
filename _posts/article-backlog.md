@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Thread Handoff — Cross-Machine Git Bundle Transfer and Three-Surface Control Plane (2026-07-01 Hourly Article Run)
+
+1. ✅ **Codex Thread Handoff: Cross-Machine Git Bundle Transfer, Worktree Isolation, and the Three-Surface Control Plane** — Written 2026-07-01 → `2026-07-01-codex-thread-handoff-cross-machine-git-bundle-worktree-transfer-remote-cli-desktop.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex App 26.616 (18 June 2026) shipped cross-machine thread handoff; Codex Remote GA (25 June 2026) added QR-authenticated mobile pairing and DigitalOcean plugin; handoff transfers threads with Git state via git bundle over Noise Protocol relay channels (v0.141.0 E2E encryption); creates isolated worktrees on destination preserving existing checkouts; three handoff surfaces: CLI-to-Desktop (codex app, v0.138), Desktop-to-Remote-Host (git bundle transfer), Mobile-via-QR-Relay (approve/steer from phone); .gitignore exclusion prevents secret leakage; .worktreeinclude for dependency files; 15-worktree retention with snapshot-before-delete; thread affinity preserves worktree association across round-trips; mapped to practical patterns (laptop-to-server migrations, CLI investigation then Desktop review, multi-machine CI, DigitalOcean ephemeral compute)
+   - SEO targets: "codex thread handoff remote", "codex cross machine git bundle transfer", "codex cli desktop handoff codex app", "codex remote worktree isolation", "codex mobile QR approval relay", "codex digitalocean droplet workspace handoff"
+
+---
+
 ## GPT-5.6 Sol, Terra, Luna — Three-Tier Model Family and Codex CLI Workflows (2026-07-01 Hourly Article Run)
 
 1. ✅ **GPT-5.6 Sol, Terra, and Luna: What OpenAI's Three-Tier Model Family Means for Codex CLI Workflows** — Written 2026-07-01 → `2026-07-01-gpt-5-6-sol-terra-luna-codex-cli-model-selection-tiered-reasoning-cache-breakpoints.md`
