@@ -8265,3 +8265,13 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI promoted Codex Remote to general availability on 25 June 2026, replacing the previous remote-shell connection approach with authenticated one-to-one QR relay pairing between iOS/Android devices and hosts; available to all paid ChatGPT subscribers (Plus, Pro, Business, Enterprise, Education); shipped alongside first-party DigitalOcean plugin for cloud workspace provisioning; builds on v0.141 Noise Protocol relay channels; thread handoff between hosts; 5 million weekly active users as of June 2026; no existing article covered the GA announcement, QR relay security model change, DigitalOcean plugin architecture, or practical mobile approval workflow patterns with defence-in-depth configuration
    - SEO targets: "codex remote GA", "codex remote QR relay pairing", "codex cli mobile approval workflow", "codex digitalocean plugin remote workspace", "codex remote phone control plane", "codex cli thread handoff remote", "codex remote enterprise security relay"
 
+---
+
+## New Premium Ideas from Article Rating (2026-07-01)
+
+1. 📝 **The Containment Architecture Playbook (Premium Consolidation)** — When the Agent Is the Adversary (4.8) + Revelio Harness-First (4.8) + Hope Is Not a Guardrail (#59, 5.0). Adversary-model containment profiles, graduated trust levels, automated integrity monitoring, containment maturity assessment. No evaluated system satisfies all five Mitchell requirements — that is the gap.
+
+2. 📝 **The AGENTS.md Evidence-Based Authoring Guide (Premium)** — Rule Taxonomy (4.8) + Coding Agent Misalignment (5.0). Empirically-grounded AGENTS.md templates by five-category taxonomy, evolution playbook from 1,540 events, compliance hooks for 77.78% negative-constraint pattern, quarterly rule audit checklist. Perception-practice gap is the headline.
+
+3. 📝 **The Hardware-Augmented Agentic Workflow Guide (Premium)** — Codex Micro (4.5) + Thread Handoff (4.0) + Codex Remote GA. Reference VIA/QMK configurations, surface-switching decision framework, mobile approval ergonomics, developer cockpit specification for three-surface control plane.
+

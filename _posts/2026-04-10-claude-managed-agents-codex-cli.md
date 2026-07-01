@@ -2,7 +2,7 @@
 title: "Claude Managed Agents: What Anthropic's Cloud-Hosted Agent Platform Means for Codex CLI"
 description: "On 8 April 2026 Anthropic launched Claude Managed Agents in public beta — a suite of composable APIs for building and deploying cloud-hosted agents at scale."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-07-01T18:09:36+01:00
+last_modified_at: 2026-07-01T18:15:49+01:00
 tags: ["claude-managed-agents", "anthropic", "competing-tools", "multi-agent", "cloud-agents", "mcp", "orchestration", "a2a"]
 ---
 ![Sketchnote diagram for: Claude Managed Agents: What Anthropic's Cloud-Hosted Agent Platform Means for Codex CLI](/sketchnotes/articles/2026-04-10-claude-managed-agents-codex-cli.png)
