@@ -12,7 +12,7 @@ tags: ["codex-cli", "omnicode", "benchmark", "test-generation", "code-review", "
 
 ## The Comfortable Illusion of Bug-Fixing Benchmarks
 
-Most coding agent benchmarks measure one thing: can the agent fix a bug in a Python repository? SWE-Bench, the benchmark that launched a thousand agent startups, tests precisely this — and agents have become rather good at it. Claude 4.6 Sonnet scores 68.9% on Python bug-fixing tasks via SWE-Agent[^1]. Codex CLI achieves similar figures on SWE-Bench Verified[^2]. The numbers are impressive and, unfortunately, misleading.
+Most coding agent benchmarks measure one thing: can the agent fix a bug in a Python repository? SWE-Bench, the benchmark that launched a thousand agent startups, tests precisely this — and agents have become rather good at it. Claude 4.6 Sonnet scores 68.9% on Python bug-fixing tasks via SWE-Agent [^1]. Codex CLI achieves similar figures on SWE-Bench Verified [^2]. The numbers are impressive and, unfortunately, misleading.
 
 OmniCode, published by Sonwane et al. in February 2026 and accepted to ACL 2026[^1], dismantles this illusion. With 1,794 tasks spanning three programming languages (Python, Java, C++) and four task categories (bug fixing, test generation, code review response, and style fixing), OmniCode reveals that the moment you step outside Python bug-fixing, agent performance collapses — and collapses unevenly.
 
@@ -22,7 +22,7 @@ This article examines what OmniCode's findings mean for Codex CLI users and prov
 
 ## What OmniCode Measures
 
-Unlike SWE-Bench, OmniCode deliberately tests the breadth of real software engineering work[^1]:
+Unlike SWE-Bench, OmniCode deliberately tests the breadth of real software engineering work [^1]:
 
 | Category | Python | C++ | Java | Total |
 |----------|--------|-----|------|-------|
@@ -32,15 +32,15 @@ Unlike SWE-Bench, OmniCode deliberately tests the breadth of real software engin
 | Style Fixing | 144 | 147 | 124 | 415 |
 | **Total** | **963** | **413** | **418** | **1,794** |
 
-Each category is constructed differently. Bug-fixing tasks draw from SWE-Bench Verified and Multi-SWE-Bench. Test generation tasks require the agent to produce tests that pass the gold patch *and* fail against a set of bad patches — a much harder criterion than simple pass/fail. Code review tasks pair synthetically generated LLM reviews with corrective patches. Style-fixing tasks use language-specific linters: pylint for Python, clang-tidy for C++, and PMD for Java[^1].
+Each category is constructed differently. Bug-fixing tasks draw from SWE-Bench Verified and Multi-SWE-Bench. Test generation tasks require the agent to produce tests that pass the gold patch *and* fail against a set of bad patches — a much harder criterion than simple pass/fail. Code review tasks pair synthetically generated LLM reviews with corrective patches. Style-fixing tasks use language-specific linters: pylint for Python, clang-tidy for C++, and PMD for Java [^1].
 
-Crucially, all tasks are manually validated to eliminate ill-defined problems, and synthetically constructed or recently curated to avoid data leakage[^1].
+Crucially, all tasks are manually validated to eliminate ill-defined problems, and synthetically constructed or recently curated to avoid data leakage [^1].
 
 ---
 
 ## The Results: A Capability Map with Canyons
 
-Here are the SWE-Agent results across five models, adapted from the OmniCode evaluation tables[^1]:
+Here are the SWE-Agent results across five models, adapted from the OmniCode evaluation tables [^1]:
 
 ### Python (resolve rate, %)
 
@@ -74,11 +74,11 @@ Here are the SWE-Agent results across five models, adapted from the OmniCode eva
 
 Three patterns leap out:
 
-1. **Test generation is catastrophically weak.** The *best* score across all models and languages is 25.0% (DeepSeek on C++). Most models score below 15%. No model reaches 20% on Python test generation[^1].
-2. **Python proficiency does not transfer.** Claude 4.6 Sonnet scores 68.9% on Python bug-fixing but 8.0% on C++ bug-fixing — an 88% relative drop[^1].
-3. **Style fixing introduces new violations.** In Java and C++, agents produce error ratios exceeding 2.0, meaning they introduce more new style violations than they fix[^1].
+1. **Test generation is catastrophically weak.** The *best* score across all models and languages is 25.0% (DeepSeek on C++). Most models score below 15%. No model reaches 20% on Python test generation [^1].
+2. **Python proficiency does not transfer.** Claude 4.6 Sonnet scores 68.9% on Python bug-fixing but 8.0% on C++ bug-fixing — an 88% relative drop [^1].
+3. **Style fixing introduces new violations.** In Java and C++, agents produce error ratios exceeding 2.0, meaning they introduce more new style violations than they fix [^1].
 
-The correlation analysis is equally telling: bug-fixing and code review performance correlate strongly (Pearson r = 0.921), but test generation correlates weakly with both (r = 0.764), confirming it demands a fundamentally different skill set[^1].
+The correlation analysis is equally telling: bug-fixing and code review performance correlate strongly (Pearson r = 0.921), but test generation correlates weakly with both (r = 0.764), confirming it demands a fundamentally different skill set [^1].
 
 ---
 
@@ -92,7 +92,7 @@ The following sections translate OmniCode's findings into actionable Codex CLI p
 
 ## Pattern 1: Task-Specific AGENTS.md Files
 
-OmniCode demonstrates that different task categories require different agent behaviours. Use the AGENTS.md directory hierarchy to scope instructions per task type[^3][^4]:
+OmniCode demonstrates that different task categories require different agent behaviours. Use the AGENTS.md directory hierarchy to scope instructions per task type [^3][^4]:
 
 ```
 repo-root/
@@ -120,13 +120,13 @@ The `tests/AGENTS.md` file should encode the specific constraints that OmniCode'
 - For Java: run `mvn test -pl <module> -Dtest=<TestClass>` for targeted execution
 ```
 
-This directly addresses OmniCode's finding that weak test generation stems from agents producing superficial tests that pass both correct and incorrect implementations[^1].
+This directly addresses OmniCode's finding that weak test generation stems from agents producing superficial tests that pass both correct and incorrect implementations [^1].
 
 ---
 
 ## Pattern 2: Model Routing by Task and Language
 
-OmniCode reveals that no single model dominates all task-language combinations. DeepSeek-V3.1 leads on C++ and Java tasks but Claude 4.6 Sonnet leads on Python bug-fixing and review[^1]. In Codex CLI, you can route different tasks to different models using subagent definitions[^5][^6]:
+OmniCode reveals that no single model dominates all task-language combinations. DeepSeek-V3.1 leads on C++ and Java tasks but Claude 4.6 Sonnet leads on Python bug-fixing and review [^1]. In Codex CLI, you can route different tasks to different models using subagent definitions [^5][^6]:
 
 ```toml
 # ~/.codex/agents/test-writer.toml
@@ -155,7 +155,7 @@ Prefer modern C++20/23 idioms. Check compilation with both GCC and Clang.
 """
 ```
 
-For ad-hoc model switching during a session, use the `/model` command[^7]:
+For ad-hoc model switching during a session, use the `/model` command [^7]:
 
 ```
 /model gpt-5.5
@@ -167,7 +167,7 @@ The key insight from OmniCode: use your most capable model for test generation a
 
 ## Pattern 3: PostToolUse Hooks for Style Gate Enforcement
 
-OmniCode's style-fixing data is alarming: agents routinely introduce *more* violations than they resolve, particularly in Java and C++[^1]. Codex CLI's hook pipeline provides a defence[^8]:
+OmniCode's style-fixing data is alarming: agents routinely introduce *more* violations than they resolve, particularly in Java and C++[^1]. Codex CLI's hook pipeline provides a defence [^8]:
 
 ```toml
 # In config.toml
@@ -219,7 +219,7 @@ This pattern directly counters the error-ratio problem OmniCode identified: the 
 
 ## Pattern 4: Two-Pass Test Generation with /review
 
-OmniCode's test generation weakness suggests that a single-pass "write tests" prompt is insufficient. Codex CLI's `/review` command enables a two-pass workflow[^7]:
+OmniCode's test generation weakness suggests that a single-pass "write tests" prompt is insufficient. Codex CLI's `/review` command enables a two-pass workflow [^7]:
 
 ```mermaid
 flowchart TD
@@ -234,7 +234,7 @@ flowchart TD
     H --> C
 ```
 
-The review model can be configured separately for higher-quality test assessment[^8]:
+The review model can be configured separately for higher-quality test assessment [^8]:
 
 ```toml
 # config.toml
@@ -253,7 +253,7 @@ catch, (2) flag any test that would pass regardless of implementation correctnes
 
 ## Pattern 5: Multilingual Subagent Decomposition
 
-OmniCode's starkest finding is the Python-to-C++/Java performance cliff. For polyglot repositories, decompose work across language-specialised subagents[^5][^6]:
+OmniCode's starkest finding is the Python-to-C++/Java performance cliff. For polyglot repositories, decompose work across language-specialised subagents [^5][^6]:
 
 ```toml
 # config.toml
@@ -275,7 +275,7 @@ config_file = ".codex/agents/java-worker.toml"
 
 Each worker's TOML file specifies the language-appropriate build commands, linters, and test runners. The orchestrating session routes tasks to the correct subagent rather than attempting cross-language work in a single context window.
 
-This directly mitigates the transfer failure OmniCode documents: Python proficiency in the agent's context does not help with C++ tasks, so isolating them prevents cross-language context pollution[^1].
+This directly mitigates the transfer failure OmniCode documents: Python proficiency in the agent's context does not help with C++ tasks, so isolating them prevents cross-language context pollution [^1].
 
 ---
 
@@ -284,7 +284,7 @@ This directly mitigates the transfer failure OmniCode documents: Python proficie
 Several caveats bear mentioning:
 
 - **SWE-Agent ≠ Codex CLI.** OmniCode evaluates SWE-Agent and Aider, not Codex CLI directly. Codex CLI's sandbox, hook pipeline, and subagent architecture may produce different absolute scores, though the relative capability gaps across task categories are likely to persist. ⚠️
-- **The bad-patch validation criterion matters enormously.** Without it, test generation scores inflate dramatically — Qwen on C++ jumps from 4.5% to 22.7%[^1]. Any internal test quality assessment must include mutation-style validation.
+- **The bad-patch validation criterion matters enormously.** Without it, test generation scores inflate dramatically — Qwen on C++ jumps from 4.5% to 22.7% [^1]. Any internal test quality assessment must include mutation-style validation.
 - **Style-fixing complexity varies by linter configuration.** OmniCode uses default rulesets; stricter or more lenient configurations will shift results.
 - **OmniCode's February 2026 model snapshot predates GPT-5.5.** Current Codex CLI defaults (gpt-5.5, gpt-5-codex) may perform differently on these tasks. ⚠️
 

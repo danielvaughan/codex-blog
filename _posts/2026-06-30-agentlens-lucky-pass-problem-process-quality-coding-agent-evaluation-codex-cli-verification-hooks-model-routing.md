@@ -10,30 +10,30 @@ tags: ["codex-cli", "AgentLens", "lucky-pass", "process-quality", "agent-evaluat
 
 ---
 
-Your coding agent passes the tests. Ship it? Not so fast. A study of 2,614 agent trajectories across eight model backends reveals that **10.7% of passing solutions are Lucky Passes** — tests that pass despite regression cycles, blind retries, missing verification, or temporally disordered reasoning[^1]. Worse, ranking models by pass rate alone produces a leaderboard that disagrees with process-quality rankings by up to five positions[^1]. For teams running Codex CLI in production, this has immediate implications for model selection, hook configuration, and AGENTS.md discipline.
+Your coding agent passes the tests. Ship it? Not so fast. A study of 2,614 agent trajectories across eight model backends reveals that **10.7% of passing solutions are Lucky Passes** — tests that pass despite regression cycles, blind retries, missing verification, or temporally disordered reasoning [^1]. Worse, ranking models by pass rate alone produces a leaderboard that disagrees with process-quality rankings by up to five positions [^1]. For teams running Codex CLI in production, this has immediate implications for model selection, hook configuration, and AGENTS.md discipline.
 
 ## What AgentLens Measures
 
-Sahoo et al. (arXiv:2605.12925, May 2026) introduce AgentLens, a framework that moves beyond binary pass/fail evaluation to assess the *process quality* of coding agent trajectories[^1]. The core insight: two trajectories that produce identical patches can differ radically in how they got there. One may follow a principled explore → implement → verify sequence; the other may thrash through blind retries until something sticks.
+Sahoo et al. (arXiv:2605.12925, May 2026) introduce AgentLens, a framework that moves beyond binary pass/fail evaluation to assess the *process quality* of coding agent trajectories [^1]. The core insight: two trajectories that produce identical patches can differ radically in how they got there. One may follow a principled explore → implement → verify sequence; the other may thrash through blind retries until something sticks.
 
 ### The Four Intent Stages
 
-AgentLens classifies every agent action into one of four cognitive phases[^1]:
+AgentLens classifies every agent action into one of four cognitive phases [^1]:
 
 - **Exploration (E)** — file reading, searching, listing directory contents
 - **Implementation (I)** — source file editing and patch application
 - **Verification (V)** — test execution, error checking, output validation
 - **Orchestration (O)** — bookkeeping, reasoning, planning
 
-Critically, the labelling is **context-sensitive**: a `read_file` call before any patches counts as Exploration, but the same call after Implementation counts as Verification[^1]. A seven-rule cascade achieves κ = 0.933 inter-annotator agreement across seven annotators[^1].
+Critically, the labelling is **context-sensitive**: a `read_file` call before any patches counts as Exploration, but the same call after Implementation counts as Verification [^1]. A seven-rule cascade achieves κ = 0.933 inter-annotator agreement across seven annotators [^1].
 
 ### The Prefix Tree Acceptor
 
-For each task, AgentLens merges k ≥ 2 passing trajectories into a Prefix Tree Acceptor (PTA) — a directed acyclic graph representing known-good solution strategies[^1]. States are matched via a confidence-weighted cascade: exact content hash (1.0), file-scope AST matching (0.90), line-range overlap with ≥ 30% threshold (0.80–0.95), and semantic terminal grouping (0.70–0.85)[^1]. The study found k = 5 provides optimal AUROC (0.777) balancing precision and coverage[^1].
+For each task, AgentLens merges k ≥ 2 passing trajectories into a Prefix Tree Acceptor (PTA) — a directed acyclic graph representing known-good solution strategies [^1]. States are matched via a confidence-weighted cascade: exact content hash (1.0), file-scope AST matching (0.90), line-range overlap with ≥ 30% threshold (0.80–0.95), and semantic terminal grouping (0.70–0.85) [^1]. The study found k = 5 provides optimal AUROC (0.777) balancing precision and coverage [^1].
 
 ### The Quality Score
 
-A composite 0–100 score combines four signals[^1]:
+A composite 0–100 score combines four signals [^1]:
 
 ```
 f(τc, G) = 0.20·Φstruct + 0.15·Φcov + 0.30·(100·Φcoh) + 0.35·(100·Φtemp)
@@ -50,11 +50,11 @@ Thresholds: **Ideal ≥ 70**, **Solid 47–69**, **Lucky < 47**[^1].
 
 ## The Numbers That Should Worry You
 
-Across the 1,815-trajectory evaluation subset (47 PTA-eligible tasks from SWE-bench Verified), AgentLens classifies 229 trajectories as Ideal (20.2%), 785 as Solid (69.1%), and 122 as Lucky (10.7%)[^1].
+Across the 1,815-trajectory evaluation subset (47 PTA-eligible tasks from SWE-bench Verified), AgentLens classifies 229 trajectories as Ideal (20.2%), 785 as Solid (69.1%), and 122 as Lucky (10.7%) [^1].
 
 ### Model Rankings Diverge
 
-The headline finding is that pass-rate rankings and quality-score rankings disagree significantly[^1]:
+The headline finding is that pass-rate rankings and quality-score rankings disagree significantly [^1]:
 
 | Model | Pass % | Pass Rank | Quality Score | Quality Rank | Lucky % |
 |-------|--------|-----------|--------------|--------------|---------|
@@ -67,11 +67,11 @@ The headline finding is that pass-rate rankings and quality-score rankings disag
 | Gemini 2.5 Pro | 42.9% | 7 | 59.2 | 4 | 7.6% |
 | GPT-4o | 34.9% | 8 | 63.4 | **3** | 4.1% |
 
-Claude Opus 4.6 drops from rank 3 to rank 6. GPT-4o climbs from rank 8 to rank 3[^1]. The chi-square association between model and Lucky category is χ²(28) = 102.47, p < 0.0001 — models have strongly characteristic failure modes[^1].
+Claude Opus 4.6 drops from rank 3 to rank 6. GPT-4o climbs from rank 8 to rank 3[^1]. The chi-square association between model and Lucky category is χ²(28) = 102.47, p < 0.0001 — models have strongly characteristic failure modes [^1].
 
 ### The Five Lucky Pass Mechanisms
 
-AgentLens decomposes Lucky Passes into five recurring categories[^1]:
+AgentLens decomposes Lucky Passes into five recurring categories [^1]:
 
 1. **C1: Minimal & Unverified (15.6%)** — overconfident agent produces short trajectories with no verification stage
 2. **C2: Brute-Force Convergence (34.4%)** — the agent lacks a plan and converges through repeated low-coherence attempts
@@ -79,7 +79,7 @@ AgentLens decomposes Lucky Passes into five recurring categories[^1]:
 4. **C4: Excessive Exploration (4.1%)** — unfocused, extended search without termination discipline
 5. **C5: Divergent-but-Valid (12.3%)** — alternative approaches that happen to work but follow no established strategy
 
-The cost is real: Lucky trajectories waste **11.4 steps** on blind retries versus 2.7 in Ideal trajectories — a 4.2× increase[^1].
+The cost is real: Lucky trajectories waste **11.4 steps** on blind retries versus 2.7 in Ideal trajectories — a 4.2× increase [^1].
 
 ## Mapping AgentLens to Codex CLI Configuration
 
@@ -98,7 +98,7 @@ The agent skips verification entirely. Force it:
 - If no tests exist for the changed code, write at least one before marking done
 ```
 
-Combine with a PostToolUse hook that gates on test execution[^2]:
+Combine with a PostToolUse hook that gates on test execution [^2]:
 
 ```bash
 #!/bin/bash
@@ -117,7 +117,7 @@ fi
 
 ### Defence Against C2 (Brute-Force Convergence): Token Budgets and Retry Limits
 
-Brute-force convergence burns tokens on repeated low-coherence attempts. Codex CLI v0.142's configurable rollout token budgets provide a hard stop[^3]:
+Brute-force convergence burns tokens on repeated low-coherence attempts. Codex CLI v0.142's configurable rollout token budgets provide a hard stop [^3]:
 
 ```toml
 # config.toml
@@ -166,7 +166,7 @@ Unfocused search wastes context. AGENTS.md can enforce exploration discipline:
 
 ### Model Routing: Quality Over Pass Rate
 
-The AgentLens data suggests that model selection based on pass rate alone is misleading. For Codex CLI, this informs model routing via named profiles[^4]:
+The AgentLens data suggests that model selection based on pass rate alone is misleading. For Codex CLI, this informs model routing via named profiles [^4]:
 
 ```toml
 # config.toml — quality-optimised profiles
@@ -198,7 +198,7 @@ flowchart TD
 
 ### Trajectory Observability
 
-AgentLens's four-phase intent labelling (E→I→V→O) provides a template for monitoring your own agent runs. Codex CLI's JSONL event stream can be piped to an analysis script that flags disordered sequences[^5]:
+AgentLens's four-phase intent labelling (E→I→V→O) provides a template for monitoring your own agent runs. Codex CLI's JSONL event stream can be piped to an analysis script that flags disordered sequences [^5]:
 
 ```bash
 # Monitor trajectory phase ordering in real time

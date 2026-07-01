@@ -12,15 +12,15 @@ tags: ["codex-cli", "metaprogramming", "esolang-bench", "coding-agents", "subage
 
 ## The Problem with Mainstream Benchmarks
 
-SWE-Bench Verified, Terminal-Bench, LiveCodeBench — the industry's go-to coding agent benchmarks all share the same blind spot. They evaluate agents on familiar territory: mainstream languages, common libraries, public repositories saturated in training data. The performance spread across six frontier agents on SWE-Bench Verified is a mere 6.6 percentage points[^1]. That compressed band tells you very little about how an agent actually reasons when confronted with something genuinely novel.
+SWE-Bench Verified, Terminal-Bench, LiveCodeBench — the industry's go-to coding agent benchmarks all share the same blind spot. They evaluate agents on familiar territory: mainstream languages, common libraries, public repositories saturated in training data. The performance spread across six frontier agents on SWE-Bench Verified is a mere 6.6 percentage points [^1]. That compressed band tells you very little about how an agent actually reasons when confronted with something genuinely novel.
 
-Sharma, Thorat, and Chopra's EsoLang-Bench (arXiv:2606.10933, June 2026) blows that band wide open[^1]. By evaluating six contemporary coding agents on four esoteric programming languages — Brainfuck, Befunge-98, Whitespace, and Shakespeare — the benchmark produces a performance spread of 88.4 percentage points with a standard deviation of 36.0, roughly 12× that of SWE-Bench Verified[^1].
+Sharma, Thorat, and Chopra's EsoLang-Bench (arXiv:2606.10933, June 2026) blows that band wide open [^1]. By evaluating six contemporary coding agents on four esoteric programming languages — Brainfuck, Befunge-98, Whitespace, and Shakespeare — the benchmark produces a performance spread of 88.4 percentage points with a standard deviation of 36.0, roughly 12× that of SWE-Bench Verified [^1].
 
 The finding that matters isn't the spread itself. It's _how_ the strongest agents achieve their scores.
 
 ## The Metaprogramming Discovery
 
-When Claude Opus 4.6 and GPT-5.4 xhigh encounter an unfamiliar language, they don't try to master it. They route around it. Without any explicit prompting, both agents independently discover the same strategy: write a Python programme that generates the target-language source code, debug the generator locally, then submit the output[^1].
+When Claude Opus 4.6 and GPT-5.4 xhigh encounter an unfamiliar language, they don't try to master it. They route around it. Without any explicit prompting, both agents independently discover the same strategy: write a Python programme that generates the target-language source code, debug the generator locally, then submit the output [^1].
 
 Consider the numbers on Brainfuck — the most hostile of the four languages, with its eight-character instruction set and raw memory tape semantics:
 
@@ -33,7 +33,7 @@ Consider the numbers on Brainfuck — the most hostile of the four languages, wi
 | Claude Haiku 4.5 | 5.0% | 24.7% |
 | Kimi K2.5 | 5.0% | 11.3% |
 
-The performance cliff between the top two and the rest is striking. On problem E04, Opus 4.6 first attempted an 1,884-byte hand-written Brainfuck programme that failed all tests, then pivoted to a Python generator producing a 24,500-byte output that passed every test[^1]. The agent didn't learn Brainfuck — it learned to _avoid_ Brainfuck.
+The performance cliff between the top two and the rest is striking. On problem E04, Opus 4.6 first attempted an 1,884-byte hand-written Brainfuck programme that failed all tests, then pivoted to a Python generator producing a 24,500-byte output that passed every test [^1]. The agent didn't learn Brainfuck — it learned to _avoid_ Brainfuck.
 
 ## Causality: Metaprogramming Is the Mechanism
 
@@ -44,16 +44,16 @@ The researchers confirmed this through an ablation study. When metaprogramming w
 | Opus 4.6 | 80/80 | 27/80 | 80/80 | 50/80 |
 | GPT-5.4 xhigh | 79/80 | 29/80 | 80/80 | 63/80 |
 
-Opus drops from 100% to 33.75% on Brainfuck when forced to write directly[^1]. The strategy isn't a nice-to-have; it's the primary capability mechanism on low-level targets.
+Opus drops from 100% to 33.75% on Brainfuck when forced to write directly [^1]. The strategy isn't a nice-to-have; it's the primary capability mechanism on low-level targets.
 
-Host language flexibility was also tested: Opus achieved 64/80 (Python), 63/80 (JavaScript), and 55/80 (Rust) as generator languages on Brainfuck[^1]. Python's marginal advantage confirms it's the familiarity of the host, not a language-specific trick, that drives the strategy.
+Host language flexibility was also tested: Opus achieved 64/80 (Python), 63/80 (JavaScript), and 55/80 (Rust) as generator languages on Brainfuck [^1]. Python's marginal advantage confirms it's the familiarity of the host, not a language-specific trick, that drives the strategy.
 
 ## Strategy Transfer: Scaffolding Works, Advice Doesn't
 
 Can weaker agents adopt the metaprogramming strategy? The researchers tested two approaches:
 
-1. **Text-only guidance** — distilled instructions explaining the strategy. Result: minimal improvement across all agents[^1].
-2. **Reference library** — working helper code (no solutions). Result: dramatic gains for mid-tier models[^1].
+1. **Text-only guidance** — distilled instructions explaining the strategy. Result: minimal improvement across all agents [^1].
+2. **Reference library** — working helper code (no solutions). Result: dramatic gains for mid-tier models [^1].
 
 | Agent | Brainfuck (baseline) | Brainfuck (with library) | Befunge-98 (baseline) | Befunge-98 (with library) |
 |-------|:-------------------:|:----------------------:|:--------------------:|:------------------------:|
@@ -61,7 +61,7 @@ Can weaker agents adopt the metaprogramming strategy? The researchers tested two
 | GPT-5.4 mini | 5/80 | 53/80 | 11/80 | 64/80 |
 | Claude Haiku 4.5 | 4/80 | 7/80 | 4/80 | 4/80 |
 
-The takeaway: executable scaffolds transfer capability; written advice does not. Haiku 4.5 lacked the base reasoning capacity to exploit even the library, remaining near floor[^1].
+The takeaway: executable scaffolds transfer capability; written advice does not. Haiku 4.5 lacked the base reasoning capacity to exploit even the library, remaining near floor [^1].
 
 ```mermaid
 flowchart TD
@@ -80,7 +80,7 @@ flowchart TD
 
 ## Resource Amplification, Not Creation
 
-The paper's interpreter-call budget experiment reveals another asymmetry. Increasing the number of local execution calls from 3 to unlimited improved Opus 4.6's scores substantially, while Haiku 4.5 remained near floor regardless of budget[^1]. Additional tool access amplifies useful strategies that already exist — it cannot create them in agents that lack the reasoning base.
+The paper's interpreter-call budget experiment reveals another asymmetry. Increasing the number of local execution calls from 3 to unlimited improved Opus 4.6's scores substantially, while Haiku 4.5 remained near floor regardless of budget [^1]. Additional tool access amplifies useful strategies that already exist — it cannot create them in agents that lack the reasoning base.
 
 This has direct implications for how you allocate compute. Giving more execution budget to a weak model is waste; giving it to a strong model with a viable strategy is multiplicative.
 
@@ -90,7 +90,7 @@ The EsoLang-Bench findings map cleanly onto Codex CLI's subagent architecture. W
 
 ### 1. Define a Generator Subagent
 
-Create a TOML agent definition that routes unfamiliar-language tasks through a code generation strategy[^2][^3]:
+Create a TOML agent definition that routes unfamiliar-language tasks through a code generation strategy [^2][^3]:
 
 ```toml
 # .codex/agents/lang-generator.toml
@@ -116,7 +116,7 @@ custom DSLs defined in the project AGENTS.md.
 
 ### 2. AGENTS.md Language Routing Rules
 
-In your project's `AGENTS.md`, declare which languages should trigger the generator strategy[^4]:
+In your project's `AGENTS.md`, declare which languages should trigger the generator strategy [^4]:
 
 ```markdown
 ## Language Scaffolding Policy
@@ -133,7 +133,7 @@ rather than authoring directly. Test generated output before committing.
 
 ### 3. Executable Scaffolding via Skills
 
-The strategy transfer data shows that reference libraries work where text instructions fail. Package your generator utilities as Codex CLI skills[^3]:
+The strategy transfer data shows that reference libraries work where text instructions fail. Package your generator utilities as Codex CLI skills [^3]:
 
 ```toml
 # .codex/agents/lang-generator.toml (extended)
@@ -145,7 +145,7 @@ Place working generator templates — not documentation, not comments, but execu
 
 ### 4. Interpreter Budget Allocation
 
-Control execution access through sandbox and approval configuration[^5]. For generator subagents, you want liberal interpreter access:
+Control execution access through sandbox and approval configuration [^5]. For generator subagents, you want liberal interpreter access:
 
 ```toml
 # config.toml
@@ -158,11 +158,11 @@ max_depth = 1
 sandbox_mode = "workspace-write"
 ```
 
-The research shows diminishing returns plateau around 15–30 interpreter calls for frontier models[^1]. For a generator workflow — write, execute, check, iterate — that budget is typically sufficient.
+The research shows diminishing returns plateau around 15–30 interpreter calls for frontier models [^1]. For a generator workflow — write, execute, check, iterate — that budget is typically sufficient.
 
 ### 5. PostToolUse Validation
 
-Add a hook that validates generated output before it enters the codebase[^6]:
+Add a hook that validates generated output before it enters the codebase [^6]:
 
 ```markdown
 ## PostToolUse Hooks (AGENTS.md)
@@ -199,7 +199,7 @@ sequenceDiagram
 
 ## Implications for Model Selection
 
-The EsoLang-Bench spread has a practical consequence for Codex CLI's `model` field in subagent definitions. If a task involves genuine novelty — a language or domain underrepresented in training data — routing it to a mid-tier model is not just suboptimal, it's near-zero. The 88.4pp spread means the difference between a frontier model and a budget model isn't incremental; it's categorical[^1].
+The EsoLang-Bench spread has a practical consequence for Codex CLI's `model` field in subagent definitions. If a task involves genuine novelty — a language or domain underrepresented in training data — routing it to a mid-tier model is not just suboptimal, it's near-zero. The 88.4pp spread means the difference between a frontier model and a budget model isn't incremental; it's categorical [^1].
 
 Configure your agent definitions accordingly:
 

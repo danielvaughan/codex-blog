@@ -173,7 +173,7 @@ Pair this with AGENTS.md constraints that prevent the agent from taking destruct
 
 1. **Start with low-risk repositories** — documentation fixes, isolated bug investigations, test additions
 2. **Use suggest mode** — the agent proposes changes but cannot apply them without approval
-3. **Define mobile-agent policies before usage spreads** — which repositories allow mobile approval, which require desktop review[^12]
+3. **Define mobile-agent policies before usage spreads** — which repositories allow mobile approval, which require desktop review [^12]
 4. **Treat mobile approvals as triage** — if a diff is too complex to review on a phone screen, reject and flag for desktop review
 
 ---
@@ -188,7 +188,7 @@ The relay model means no inbound ports on development machines. This aligns well
 
 - Map the relay dependency in their business continuity plans
 - Test failover behaviour when relay connectivity drops mid-session
-- Evaluate whether Noise Protocol relay channels meet their compliance requirements for data-in-transit[^7]
+- Evaluate whether Noise Protocol relay channels meet their compliance requirements for data-in-transit [^7]
 
 ### Audit trail
 
@@ -198,8 +198,8 @@ Every action approved via mobile flows through the same audit pipeline as deskto
 
 QR pairing is per-device, per-host. Enterprise MDM policies should account for:
 
-- Revoking pairings when devices are lost or decommissioned (use app-server v2 RPCs from v0.137)[^6]
-- Requiring MFA/SSO on the ChatGPT account[^8]
+- Revoking pairings when devices are lost or decommissioned (use app-server v2 RPCs from v0.137) [^6]
+- Requiring MFA/SSO on the ChatGPT account [^8]
 - Restricting which hosts can be paired with mobile devices in sensitive environments
 
 ---

@@ -10,7 +10,7 @@ tags: ["codex-cli", "mcp", "security", "threat-model", "defence-in-depth", "prom
 
 ---
 
-Four independent research streams published between January and June 2026 have mapped the MCP attack surface with unprecedented precision. Description-code inconsistency affects nearly 10% of tool descriptions across 2,214 servers[^1]. Workflow-level fuzzing confirms that 19 of 20 tested agent applications harbour exploitable multi-tool chain vulnerabilities[^2]. Automated red-teaming discovers latent prompt injections that bypass every shipping defence[^3]. And the NSA's first MCP-specific Cybersecurity Information Sheet calls out serialised tool responses and missing privilege isolation as structural risks requiring architectural remediation[^4].
+Four independent research streams published between January and June 2026 have mapped the MCP attack surface with unprecedented precision. Description-code inconsistency affects nearly 10% of tool descriptions across 2,214 servers [^1]. Workflow-level fuzzing confirms that 19 of 20 tested agent applications harbour exploitable multi-tool chain vulnerabilities [^2]. Automated red-teaming discovers latent prompt injections that bypass every shipping defence [^3]. And the NSA's first MCP-specific Cybersecurity Information Sheet calls out serialised tool responses and missing privilege isolation as structural risks requiring architectural remediation [^4].
 
 This compendium consolidates those findings into a single, actionable threat model, maps each threat surface to Codex CLI's layered defence controls, provides a four-step pre-deployment audit pipeline, and offers an enterprise governance template ready for adoption.
 
@@ -18,7 +18,7 @@ This compendium consolidates those findings into a single, actionable threat mod
 
 ## The Unified MCP Threat Model
 
-MCP's attack surface spans five distinct layers. Each layer has been independently validated by at least one 2026 study. The taxonomy below draws on MCP-DPT's defence-placement analysis[^5] and integrates findings from each source study.
+MCP's attack surface spans five distinct layers. Each layer has been independently validated by at least one 2026 study. The taxonomy below draws on MCP-DPT's defence-placement analysis [^5] and integrates findings from each source study.
 
 ```mermaid
 flowchart TB
@@ -42,25 +42,25 @@ flowchart TB
 
 ### Layer 1 — Tool Description Integrity
 
-Shi et al. found that 9.93% of 19,200 description-code pairs exhibit description-code inconsistency (DCI), with 35% of servers containing at least one inconsistent tool[^1]. Their seven-subtype taxonomy identifies overclaimed functionality (35.4%), misclaimed functionality (14.6%), undeclared functionality (9.2%), ambiguous descriptions (3.3%), undeclared state mutations (22.8%), data leakage (13.6%), and resource overconsumption (1.0%)[^1]. Li et al. independently confirmed approximately 13% mismatch rates across 10,240 servers, documenting specific cases of hidden financial trading operations and undisclosed process-kill capabilities[^6].
+Shi et al. found that 9.93% of 19,200 description-code pairs exhibit description-code inconsistency (DCI), with 35% of servers containing at least one inconsistent tool [^1]. Their seven-subtype taxonomy identifies overclaimed functionality (35.4%), misclaimed functionality (14.6%), undeclared functionality (9.2%), ambiguous descriptions (3.3%), undeclared state mutations (22.8%), data leakage (13.6%), and resource overconsumption (1.0%) [^1]. Li et al. independently confirmed approximately 13% mismatch rates across 10,240 servers, documenting specific cases of hidden financial trading operations and undisclosed process-kill capabilities [^6].
 
-DCIChecker achieves 96.73% F1 in automated detection, combining structure-aware static analysis with Direct-Reverse-Arbitration prompting[^1].
+DCIChecker achieves 96.73% F1 in automated detection, combining structure-aware static analysis with Direct-Reverse-Arbitration prompting [^1].
 
 ### Layer 2 — Tool Input Manipulation
 
-ChainFuzzer's static analysis extracts exploitable input vectors from 998 tools across 20 applications[^2]. The framework identifies high-impact operations through strict source-to-sink dataflow evidence, then synthesises stable prompts that drive agents to execute target chains with 95.45% reachability (up from 27.05% baseline)[^2]. Guardrail-aware fuzzing further raises payload trigger rates from 18.20% to 88.60%[^2].
+ChainFuzzer's static analysis extracts exploitable input vectors from 998 tools across 20 applications [^2]. The framework identifies high-impact operations through strict source-to-sink dataflow evidence, then synthesises stable prompts that drive agents to execute target chains with 95.45% reachability (up from 27.05% baseline) [^2]. Guardrail-aware fuzzing further raises payload trigger rates from 18.20% to 88.60% [^2].
 
 ### Layer 3 — Tool Output Contamination
 
-PI-Hunter demonstrates that latent prompt injections embedded in tool outputs survive PIGuard, Spotlight, and MELON defences[^3]. Source-aware seeding achieves 2.5x the Source Recall of generic approaches (0.4796 vs 0.1918)[^3]. Evolutionary exploitation discovers injection paths that static analysis misses entirely, with Instruction Recall rising from 0.000 to 0.194 for previously undetectable payloads[^3].
+PI-Hunter demonstrates that latent prompt injections embedded in tool outputs survive PIGuard, Spotlight, and MELON defences [^3]. Source-aware seeding achieves 2.5x the Source Recall of generic approaches (0.4796 vs 0.1918) [^3]. Evolutionary exploitation discovers injection paths that static analysis misses entirely, with Instruction Recall rising from 0.000 to 0.194 for previously undetectable payloads [^3].
 
 ### Layer 4 — Cross-Tool Chain Exploitation
 
-ChainFuzzer confirms 365 unique, reproducible vulnerabilities across 19 of 20 tested applications, with 302 requiring multi-tool execution[^2]. The critical insight: data produced by one tool persists and becomes input to another, creating exploitable source-to-sink dataflows visible only through tool composition[^2]. Tool-chain extraction achieves 96.49% edge precision[^2].
+ChainFuzzer confirms 365 unique, reproducible vulnerabilities across 19 of 20 tested applications, with 302 requiring multi-tool execution [^2]. The critical insight: data produced by one tool persists and becomes input to another, creating exploitable source-to-sink dataflows visible only through tool composition [^2]. Tool-chain extraction achieves 96.49% edge precision [^2].
 
 ### Layer 5 — Transport and Identity
 
-The NSA CSI (May 2026) flags serialised tool responses carrying malicious payloads, and agents operating across multiple MCP servers lacking adequate privilege isolation[^4]. A 2026 audit found that 40% of MCP servers still require no authentication, 43% carry command-injection vulnerabilities, and 79% handle credentials in plaintext[^7]. The Five Eyes joint guidance on agentic AI services reinforces that authentication and prompt injection defences are required mitigations, not optional hardening[^8].
+The NSA CSI (May 2026) flags serialised tool responses carrying malicious payloads, and agents operating across multiple MCP servers lacking adequate privilege isolation [^4]. A 2026 audit found that 40% of MCP servers still require no authentication, 43% carry command-injection vulnerabilities, and 79% handle credentials in plaintext [^7]. The Five Eyes joint guidance on agentic AI services reinforces that authentication and prompt injection defences are required mitigations, not optional hardening [^8].
 
 ---
 
@@ -152,11 +152,11 @@ granular = {
 }
 ```
 
-For MCP-specific escalation, per-tool approval modes force human review for high-risk operations while allowing automated flow for read-only tools[^10].
+For MCP-specific escalation, per-tool approval modes force human review for high-risk operations while allowing automated flow for read-only tools [^10].
 
 ### Defence 4: Sandbox and Network Isolation
 
-Every Codex sandbox mode starts with network access disabled during the agent phase — where the model executes shell commands and reads files — which is where prompt injection and data exfiltration risks are highest[^10].
+Every Codex sandbox mode starts with network access disabled during the agent phase — where the model executes shell commands and reads files — which is where prompt injection and data exfiltration risks are highest [^10].
 
 ```toml
 # Restrict sandbox to workspace writes only
@@ -191,15 +191,15 @@ flowchart LR
 
 ### Step 1 — DCI Scan
 
-Run DCIChecker or equivalent static analysis against every MCP server in your `config.toml`. Cross-validate tool descriptions against source code. Flag any tool exhibiting Func-Over, Func-Un, or Eff-DL subtypes for immediate review[^1]. Automated scanning at 96.73% F1 means false negatives are rare; false positives are cheap to verify manually[^1].
+Run DCIChecker or equivalent static analysis against every MCP server in your `config.toml`. Cross-validate tool descriptions against source code. Flag any tool exhibiting Func-Over, Func-Un, or Eff-DL subtypes for immediate review [^1]. Automated scanning at 96.73% F1 means false negatives are rare; false positives are cheap to verify manually [^1].
 
 ### Step 2 — Chain Analysis
 
-Map cross-tool dataflows. ChainFuzzer's static extraction identifies source-to-sink paths with 96.49% edge precision[^2]. For each identified chain, ask: does data from Tool A flow into a privileged operation in Tool B without sanitisation? If yes, insert a `PostToolUse` hook between the two operations or split the workflow across separate sandbox sessions.
+Map cross-tool dataflows. ChainFuzzer's static extraction identifies source-to-sink paths with 96.49% edge precision [^2]. For each identified chain, ask: does data from Tool A flow into a privileged operation in Tool B without sanitisation? If yes, insert a `PostToolUse` hook between the two operations or split the workflow across separate sandbox sessions.
 
 ### Step 3 — Injection Probe
 
-Use PI-Hunter's source-aware methodology: enumerate every external data source each tool interacts with, then generate targeted test cases against each source[^3]. Evolutionary exploitation over even a small number of iterations discovers latent injections that static defences miss[^3]. Run probes against your actual Codex CLI configuration — hooks, approval policies, and sandbox settings included — to verify defence coverage.
+Use PI-Hunter's source-aware methodology: enumerate every external data source each tool interacts with, then generate targeted test cases against each source [^3]. Evolutionary exploitation over even a small number of iterations discovers latent injections that static defences miss [^3]. Run probes against your actual Codex CLI configuration — hooks, approval policies, and sandbox settings included — to verify defence coverage.
 
 ### Step 4 — Policy Lock
 
@@ -219,7 +219,7 @@ allowlisted_servers = [
 # All other MCP servers blocked at the enterprise level
 ```
 
-Commit `requirements.toml` to the repository root. Codex CLI enforces these constraints regardless of individual developer `config.toml` settings[^10].
+Commit `requirements.toml` to the repository root. Codex CLI enforces these constraints regardless of individual developer `config.toml` settings [^10].
 
 ---
 
@@ -287,7 +287,7 @@ Monitor `PostToolUse` rejection rates as a leading indicator. A sudden spike sug
 
 ## What the Research Consensus Tells Us
 
-Six months of intensive MCP security research has produced a clear consensus: MCP's flexibility-first design creates structural security gaps that cannot be patched at any single layer[^5]. The NSA's architectural framing is correct — individual deployments cannot patch their way out without defence-in-depth[^4].
+Six months of intensive MCP security research has produced a clear consensus: MCP's flexibility-first design creates structural security gaps that cannot be patched at any single layer [^5]. The NSA's architectural framing is correct — individual deployments cannot patch their way out without defence-in-depth [^4].
 
 The good news: Codex CLI's control surface — tool allow-lists, PreToolUse/PostToolUse hooks, granular approval policies, sandbox isolation, and enterprise `requirements.toml` — provides coverage across all five threat layers. The bad news: none of these controls are enabled by default in a configuration that addresses all layers simultaneously. Security requires deliberate architecture.
 

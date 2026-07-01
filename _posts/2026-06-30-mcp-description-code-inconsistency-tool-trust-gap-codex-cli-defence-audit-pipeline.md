@@ -14,15 +14,15 @@ When Codex CLI invokes an MCP tool, it reads the tool's natural-language descrip
 
 ## The Problem: Descriptions Lie
 
-Shi et al. analysed 19,200 description-code pairs from 2,214 real-world MCP servers and found that **9.93% of tools exhibit description-code inconsistency (DCI)**[^1]. At the server level, **35% of servers contain at least one inconsistent tool**[^1]. The problem is concentrated: a mere 8.27% of servers contribute 60.30% of all problematic tools[^1].
+Shi et al. analysed 19,200 description-code pairs from 2,214 real-world MCP servers and found that **9.93% of tools exhibit description-code inconsistency (DCI)**[^1]. At the server level, **35% of servers contain at least one inconsistent tool**[^1]. The problem is concentrated: a mere 8.27% of servers contribute 60.30% of all problematic tools [^1].
 
-Li et al. independently examined 10,240 MCP servers across 36 categories and found that **approximately 13% exhibit substantial mismatches** enabling undocumented privileged operations, hidden state mutations, or unauthorised financial actions[^2].
+Li et al. independently examined 10,240 MCP servers across 36 categories and found that **approximately 13% exhibit substantial mismatches** enabling undocumented privileged operations, hidden state mutations, or unauthorised financial actions [^2].
 
-These are not theoretical concerns. Li et al. document specific cases: `longport-mcp`, a financial platform, omits `submit_order` and `cancel_order` from its tool descriptions, allowing real trading actions without explicit user awareness[^2]. `zerops-mcp` hides an `updateUser` function capable of modifying user information[^2]. `mcpx-py` contains an undocumented `killtree` function that can forcibly terminate process trees[^2].
+These are not theoretical concerns. Li et al. document specific cases: `longport-mcp`, a financial platform, omits `submit_order` and `cancel_order` from its tool descriptions, allowing real trading actions without explicit user awareness [^2]. `zerops-mcp` hides an `updateUser` function capable of modifying user information [^2]. `mcpx-py` contains an undocumented `killtree` function that can forcibly terminate process trees [^2].
 
 ## A Taxonomy of Inconsistency
 
-Shi et al. classify DCI into two primary categories with seven subtypes[^1]:
+Shi et al. classify DCI into two primary categories with seven subtypes [^1]:
 
 ### Type I: Mismatched Functionality (75.2% of cases)
 
@@ -41,7 +41,7 @@ Shi et al. classify DCI into two primary categories with seven subtypes[^1]:
 | **Eff-DL** (Data Leakage) | 13.6% | Sensitive data transmission to external sinks unmentioned |
 | **Eff-SM** (State Mutation) | 1.03% | Persistent system-state changes omitted |
 
-The most dangerous subtypes are **Func-Un** and **Eff-DL**. A tool described as performing "local PDF-to-Markdown conversion" that silently uploads files to an external service falls into both categories[^1].
+The most dangerous subtypes are **Func-Un** and **Eff-DL**. A tool described as performing "local PDF-to-Markdown conversion" that silently uploads files to an external service falls into both categories [^1].
 
 ## Why Agents Are Uniquely Vulnerable
 
@@ -60,7 +60,7 @@ flowchart LR
     style I fill:#f66,stroke:#333
 ```
 
-Li et al. find significant variation across MCP marketplaces[^2]:
+Li et al. find significant variation across MCP marketplaces [^2]:
 
 - **Smithery**: 56.6% full match rate (highest reliability)
 - **MCP World**: 48.8% full match, but lowest severe mismatch rate (3.0%)
@@ -70,13 +70,13 @@ This means the marketplace you source MCP servers from materially affects your r
 
 ## Detection at Scale: DCIChecker
 
-Shi et al. built DCIChecker, a two-stage detection pipeline[^1]:
+Shi et al. built DCIChecker, a two-stage detection pipeline [^1]:
 
 **Stage 1 — Structure-Aware Extraction** parses tool descriptions and constructs "code bundles" containing the entry function, helper code within depth k=3 of the call graph, and sensitive API calls.
 
 **Stage 2 — Direct-Reverse-Arbitration (DRA) Prompting** runs two complementary LLM judgements: one comparing description-to-code, one comparing code-to-description. Where the two disagree, a neutral arbitration prompt resolves the conflict.
 
-DCIChecker achieves **96.00% precision**, **97.46% recall**, and a **96.73% F1 score** on validated real-world samples[^1]. Li et al.'s MCPDiff framework takes a complementary approach, using Tree-Sitter parsing to construct directed call graphs before running semantic analysis against tool descriptions[^2].
+DCIChecker achieves **96.00% precision**, **97.46% recall**, and a **96.73% F1 score** on validated real-world samples [^1]. Li et al.'s MCPDiff framework takes a complementary approach, using Tree-Sitter parsing to construct directed call graphs before running semantic analysis against tool descriptions [^2].
 
 ## Defending Codex CLI: A Practical Configuration Guide
 
@@ -96,7 +96,7 @@ enabled_tools = ["get_quote", "get_portfolio", "list_positions"]
 disabled_tools = ["submit_order", "cancel_order", "killtree"]
 ```
 
-The `enabled_tools` allow-list runs first; `disabled_tools` is applied after it[^3]. For servers with Func-Un inconsistencies (hidden features), the allow-list is the primary defence — tools not on the list cannot be invoked regardless of what the implementation exposes.
+The `enabled_tools` allow-list runs first; `disabled_tools` is applied after it [^3]. For servers with Func-Un inconsistencies (hidden features), the allow-list is the primary defence — tools not on the list cannot be invoked regardless of what the implementation exposes.
 
 ### Layer 2: Per-Tool Approval Modes
 
@@ -120,7 +120,7 @@ approval_mode = "approve"
 approval_mode = "auto"
 ```
 
-The three approval modes map directly to the DCI risk taxonomy[^3]:
+The three approval modes map directly to the DCI risk taxonomy [^3]:
 
 | Approval Mode | When to Use | DCI Risk Addressed |
 |---------------|------------|-------------------|
@@ -141,7 +141,7 @@ tool_timeout_sec = 15
 startup_timeout_sec = 5
 ```
 
-If the allegedly-local PDF converter is actually uploading to an external service, it will likely exceed a 15-second timeout on large files[^3].
+If the allegedly-local PDF converter is actually uploading to an external service, it will likely exceed a 15-second timeout on large files [^3].
 
 ### Combining All Three Layers
 
@@ -188,7 +188,7 @@ flowchart TD
     L --> M[Deploy to production]
 ```
 
-**Step 1 — Description Audit**: Check whether every tool has a description. Shi et al. found 11.30% of tools lack descriptions entirely[^1]. A missing description is a disqualifying signal.
+**Step 1 — Description Audit**: Check whether every tool has a description. Shi et al. found 11.30% of tools lack descriptions entirely [^1]. A missing description is a disqualifying signal.
 
 **Step 2 — Code Inspection**: For servers you control or can inspect, verify that no undeclared network calls, file-system writes, or state mutations exist. For closed-source servers, treat every tool as potentially inconsistent.
 
@@ -198,13 +198,13 @@ flowchart TD
 
 ## The Marketplace Governance Gap
 
-Both studies identify a systemic governance problem. Li et al. demonstrate that marketplace choice materially affects risk, with Smithery showing 56.6% full match rates versus MCPMarket's weaker 50.4%[^2]. Shi et al. recommend that registries "require verification evidence for publication, display consistency labels, enforce review gates, [and] promote structured metadata standards"[^1].
+Both studies identify a systemic governance problem. Li et al. demonstrate that marketplace choice materially affects risk, with Smithery showing 56.6% full match rates versus MCPMarket's weaker 50.4% [^2]. Shi et al. recommend that registries "require verification evidence for publication, display consistency labels, enforce review gates, [and] promote structured metadata standards"[^1].
 
 Until marketplace governance catches up, the burden falls on individual teams. Codex CLI's configuration primitives — allow-lists, per-tool approval escalation, and timeouts — provide the mechanical controls. The judgement about which tools to trust remains yours.
 
 ## What This Means for Codex CLI Teams
 
-The 177,000-tool MCP ecosystem is growing faster than anyone can audit[^4]. The research quantifies what practitioners have suspected: a meaningful fraction of the tools your agent might invoke do not behave as described. Shi et al.'s finding that 35% of servers contain at least one inconsistent tool[^1] means that if you connect Codex CLI to three MCP servers without vetting, you have a better-than-even chance of exposing your agent to description-code inconsistency.
+The 177,000-tool MCP ecosystem is growing faster than anyone can audit [^4]. The research quantifies what practitioners have suspected: a meaningful fraction of the tools your agent might invoke do not behave as described. Shi et al.'s finding that 35% of servers contain at least one inconsistent tool [^1] means that if you connect Codex CLI to three MCP servers without vetting, you have a better-than-even chance of exposing your agent to description-code inconsistency.
 
 The defence is not to avoid MCP — the productivity gains are real. The defence is to treat MCP tool descriptions with the same scepticism you apply to third-party library documentation: verify before you trust, constrain what you cannot verify, and monitor what you deploy.
 
