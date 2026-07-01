@@ -2,7 +2,7 @@
 title: "How to Be a Codex CLI Forward Deployed Engineer"
 description: "The forward deployed engineer (FDE) has become the most sought-after role in AI-native companies. Job postings for the position grew 800–1,000% through."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-07-01T14:11:02+01:00
+last_modified_at: 2026-07-01T16:16:18+01:00
 tags:
   - workflow-patterns
   - team-workflow
