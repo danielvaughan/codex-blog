@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Structural Codebase Indexing and Codex CLI Agent Workflows (2026-07-01 Hourly Article Run)
+
+1. ✅ **Code Isn't Memory: What Structural Codebase Indexing Means for Codex CLI Agent Workflows** — Written 2026-07-01 → `2026-07-01-code-isnt-memory-structural-codebase-index-coding-agent-codex-cli-mcp-localization-multi-file.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Bhola et al. published arXiv:2606.22417 (June 2026), controlled within-harness ablation of structural codebase index (vector + call-graph + lexical) in SuperCoder harness with Claude Opus 4.7 fixed; 91 instances across Go, Java, Python from SWE-PolyBench Verified and SWE-bench Pro; 40.3pp localization Acc@5 gain (84.5% vs 44.3%, p<0.0001); 8.5pp resolve rate gain (50.4% vs 41.9%, p=0.003); $/solved $2.30 vs $2.84; neutral per-cell cost; Go shows 95.4% vs 44.8% Acc@5; multi-file tasks show 46.4pp localization gap; mapped to Codex CLI MCP-based structural indexing (codebase-memory-mcp, codebase-index), AGENTS.md index-first navigation encoding, PostToolUse grep-ratio monitoring hooks
+   - SEO targets: "structural codebase index codex cli", "code isn't memory coding agent", "codebase indexing MCP server codex", "codex cli localization multi-file", "tree-sitter call-graph agent search", "codex cli MCP codebase-memory"
+
+---
+
 ## Rule Taxonomy and Evolution in AI IDEs — Empirical Configuration and AGENTS.md Compliance (2026-07-01 Hourly Article Run)
 
 1. ✅ **Rule Taxonomy and Evolution in AI IDEs: What 7,310 Mined Rules Reveal About How Developers Configure Coding Agents — and How to Structure Codex CLI's AGENTS.md** — Written 2026-07-01 → `2026-07-01-rule-taxonomy-evolution-ai-ide-agents-md-codex-cli-empirical-configuration-compliance.md`
