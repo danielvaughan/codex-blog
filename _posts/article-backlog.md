@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Revelio and the Harness-First Thesis — Agentic Memory-Safety Vulnerability Detection and Codex CLI Security Workflows (2026-07-01 Hourly Article Run)
+
+1. ✅ **Revelio and the Harness-First Thesis: What Agentic Memory-Safety Vulnerability Detection Means for Codex CLI Security Workflows** — Written 2026-07-01 → `2026-07-01-revelio-agentic-memory-safety-vulnerability-detection-codex-cli-harness-engineering-posttooluse-sanitiser-pipeline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hou et al. published arXiv:2606.22263 (June 2026), Revelio: two-stage agentic framework for memory-safety vulnerability discovery using Claude Haiku 4.5 for hypothesis generation and Claude Sonnet 4.6 for PoV confirmation with deterministic sanitiser validation (ASan/UBSan/MSan); discovered 19 zero-day vulnerabilities (7 CVEs) in OSS-Fuzz projects continuously fuzzed 5-8 years; 0% false positive rate vs 28-60% for Claude Code, Codex, Sorcar baselines; 175 vulns found on CyberGym benchmark vs 55/39/31 for baselines; $42 median cost per project; ablation study shows T1→T3 harness progression doubles vulnerability discovery and eliminates false positives with same model; mapped to Codex CLI PostToolUse sanitiser hooks, PreToolUse safety guards, AGENTS.md two-stage workflow encoding, named profiles for cheap/expensive model routing, multi-agent delegation for hypothesis-confirmation decomposition
+   - SEO targets: "Revelio codex cli vulnerability detection", "agentic memory safety vulnerability discovery", "codex cli PostToolUse sanitiser hooks", "harness engineering coding agent security", "codex cli vulnerability scanning configuration", "agent harness vs model cybersecurity"
+
+---
+
 ## Codex Thread Handoff — Cross-Machine Git Bundle Transfer and Three-Surface Control Plane (2026-07-01 Hourly Article Run)
 
 1. ✅ **Codex Thread Handoff: Cross-Machine Git Bundle Transfer, Worktree Isolation, and the Three-Surface Control Plane** — Written 2026-07-01 → `2026-07-01-codex-thread-handoff-cross-machine-git-bundle-worktree-transfer-remote-cli-desktop.md`
