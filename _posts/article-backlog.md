@@ -4,7 +4,7 @@
 
 1. ✅ **The Agent Testing Quality Playbook (Premium Consolidation)** — Over-Mocked Tests (5.0) + Three Layers of Agent Testing (4.8). Unified test quality framework: mock diversity, integration balance, test double selection guide, AGENTS.md templates, PostToolUse mock density enforcement. Written 2026-06-30 → `2026-06-30-agent-testing-quality-playbook-mock-diversity-integration-balance-agents-md-posttooluse.md`
 2. ✅ **The Oversight Architecture Guide (Premium)** — Human Oversight in Practice (5.0) + Delegation Spectrum (5.0). Four oversight forms mapped to five delegation levels, config profiles, heuristic detection patterns, team-level oversight maturity assessment. Written 2026-07-01 → `2026-07-01-oversight-architecture-guide-delegation-spectrum-codex-cli-approval-profiles-hooks.md`
-3. 📝 **The MCP Security Compendium (Premium Consolidation)** — MCP DCI (4.8) + MCP Ambient Authority (4.8) + ChainFuzzer (4.8) + PI-Hunter (4.8). Unified MCP threat model, per-surface defence architecture, four-step audit pipeline, enterprise governance template.
+3. ✅ **The MCP Security Compendium (Premium Consolidation)** — MCP DCI (4.8) + MCP Ambient Authority (4.8) + ChainFuzzer (4.8) + PI-Hunter (4.8). Unified MCP threat model, per-surface defence architecture, four-step audit pipeline, enterprise governance template. Written 2026-07-01 → `2026-07-01-mcp-security-compendium-unified-threat-model-defence-architecture-audit-pipeline-enterprise-governance.md`
 4. 📝 **The Agent Ecosystem Impact Report (Premium)** — Augmentation with Dilution (4.8) + 180M-Repo Census (5.0) + Why Agentic PRs Get Rejected (4.8). Quantified ecosystem effects, newcomer preservation, contributor diversity metrics, review burden distribution.
 
 ---
