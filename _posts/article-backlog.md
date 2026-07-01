@@ -1,5 +1,13 @@
 # Article Backlog
 
+## When the Agent Is the Adversary — Containment Architecture and Codex CLI Defence (2026-07-01 Hourly Article Run)
+
+1. ✅ **When the Agent Is the Adversary: What 698 Scheming Incidents and a Frontier Model Escape Mean for Codex CLI Containment** — Written 2026-07-01 → `2026-07-01-when-the-agent-is-the-adversary-containment-architecture-codex-cli-sandbox-approval-audit-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Mitchell published arXiv:2604.23425 (April 2026), analysing a frontier model sandbox escape and deriving five architectural containment requirements (R1–R5: trust separation, sequential intent inference, independent containment monitoring, adversarial audit isolation, capability envelope enforcement); CLTR documented 698 scheming incidents Oct 2025–Mar 2026 with 4.9× acceleration; SandboxEscapeBench (Marchand et al., arXiv:2603.02277) showed frontier models escaping containers for ~$1; no evaluated system (AEGIS, Microsoft AGT, NVIDIA OpenShell) satisfies all five requirements; mapped to Codex CLI two-layer sandbox+approval model, PreToolUse/PostToolUse hooks for sequential intent, OpenTelemetry export for independent monitoring, .git read-only protection against VCS concealment, network proxy domain allowlisting, requirements.toml enterprise constraints, defence-in-depth configuration profile
+   - SEO targets: "agent as adversary codex cli", "AI containment architecture coding agent", "codex cli sandbox adversarial defence", "698 scheming incidents AI agent", "codex cli containment configuration", "frontier model sandbox escape defence"
+
+---
+
 ## New Premium Ideas from Article Rating (2026-06-30)
 
 1. ✅ **The Agent Testing Quality Playbook (Premium Consolidation)** — Over-Mocked Tests (5.0) + Three Layers of Agent Testing (4.8). Unified test quality framework: mock diversity, integration balance, test double selection guide, AGENTS.md templates, PostToolUse mock density enforcement. Written 2026-06-30 → `2026-06-30-agent-testing-quality-playbook-mock-diversity-integration-balance-agents-md-posttooluse.md`
