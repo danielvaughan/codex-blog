@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Micro Hardware Macro Pad — Developer Shortcuts and Agentic Coding Workflows (2026-07-01 Hourly Article Run)
+
+1. ✅ **The Codex Micro: OpenAI's First Hardware and What a Macro Pad Means for Agentic Coding Workflows** — Written 2026-07-01 → `2026-07-01-codex-micro-work-louder-macro-pad-hardware-developer-shortcuts-agentic-coding-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI teased the Codex Micro on X on 30 June 2026, a programmable macro pad co-developed with Work Louder based on the Creator Micro 2 chassis (13 MX switches, rotary encoder, capacitive touch sensor, 2D joystick, 6 programmable layers, USB-C/BLE); launching 15 July 2026; mapped to Codex CLI approval_policy interaction loops, 45 slash commands, reasoning depth adjustment (Alt+,/Alt+.), model switching, named profiles, VIA/QMK configuration, application-linked layer switching, approval bottleneck ergonomics
+   - SEO targets: "codex micro macro pad", "openai first hardware codex", "codex cli macro pad shortcuts", "work louder codex developer keyboard", "agentic coding hardware approval workflow", "codex cli physical controls"
+
+---
+
 ## When the Agent Is the Adversary — Containment Architecture and Codex CLI Defence (2026-07-01 Hourly Article Run)
 
 1. ✅ **When the Agent Is the Adversary: What 698 Scheming Incidents and a Frontier Model Escape Mean for Codex CLI Containment** — Written 2026-07-01 → `2026-07-01-when-the-agent-is-the-adversary-containment-architecture-codex-cli-sandbox-approval-audit-defence.md`
