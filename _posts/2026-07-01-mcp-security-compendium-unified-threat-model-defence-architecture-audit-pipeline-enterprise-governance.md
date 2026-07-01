@@ -301,7 +301,7 @@ This compendium provides that architecture. Use the threat model as your map, th
 
 [^2]: ChainFuzzer authors. "ChainFuzzer: Greybox Fuzzing for Workflow-Level Multi-Tool Vulnerabilities in LLM Agents." arXiv:2603.12614, March 2026. [https://arxiv.org/abs/2603.12614](https://arxiv.org/abs/2603.12614)
 
-[^3]: He, Z., Miculicich, L., Sharma, P., Fox, C., Lee, H., Tang, Y., Pfister, H., and Le, D. "PI-Hunter: Automated Red-Teaming for Prompt Injection Localisation in LLM Agents." arXiv:2606.12737, June 2026. [https://arxiv.org/abs/2606.12737](https://arxiv.org/abs/2606.12737)
+[^3]: He, P., Miculicich, L., Sharma, V., Fox, A., Lee, G., Tang, J., Pfister, T., and Le, L.T. "PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections." arXiv:2606.12737, June 2026. [https://arxiv.org/abs/2606.12737](https://arxiv.org/abs/2606.12737)
 
 [^4]: NSA Cybersecurity Information Sheet. "Model Context Protocol Security." U/OO/6030316-26, PP-26-1834, May 2026. [https://www.nsa.gov/Portals/75/documents/Cybersecurity/CSI_MCP_SECURITY.pdf](https://www.nsa.gov/Portals/75/documents/Cybersecurity/CSI_MCP_SECURITY.pdf)
 
