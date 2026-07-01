@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Rule Taxonomy and Evolution in AI IDEs — Empirical Configuration and AGENTS.md Compliance (2026-07-01 Hourly Article Run)
+
+1. ✅ **Rule Taxonomy and Evolution in AI IDEs: What 7,310 Mined Rules Reveal About How Developers Configure Coding Agents — and How to Structure Codex CLI's AGENTS.md** — Written 2026-07-01 → `2026-07-01-rule-taxonomy-evolution-ai-ide-agents-md-codex-cli-empirical-configuration-compliance.md`
+   - Source: No backlog items with status remained; topic selected from gap analysis — Cai et al. published arXiv:2606.12231 (June 2026), mining 7,310 rules from 83 projects, surveying 99 practitioners, analysing 1,540 evolution events; five-category taxonomy with 25 subcategories; perception-practice gap (Architecture rated most important but Code Style dominates actual files); 77.78% of corrective actions are negative constraints; compliance improvement of 22.99% (49.14% to 72.13%); complemented by Jiang et al. MSR '26 (arXiv:2512.18925, 401 Cursor repositories, five-theme taxonomy); mapped to Codex CLI AGENTS.md hierarchical lookup, per-directory overrides, PostToolUse compliance hooks, five-category structuring guide
+   - SEO targets: "AGENTS.md rule taxonomy codex cli", "coding agent rule evolution empirical", "codex cli AGENTS.md compliance improvement", "AI IDE rule categories taxonomy", "AGENTS.md architecture design rules", "coding agent negative constraint pattern"
+
+---
+
 ## Coding Agent Misalignment — 20,574 Sessions Study and Codex CLI Constraint Enforcement Defence (2026-07-01 Hourly Article Run)
 
 1. ✅ **How Coding Agents Fail Their Users: What 20,574 Sessions Reveal About Misalignment — and How to Defend Codex CLI Workflows** — Written 2026-07-01 → `2026-07-01-coding-agent-misalignment-20574-sessions-codex-cli-constraint-enforcement-self-reporting-defence.md`
