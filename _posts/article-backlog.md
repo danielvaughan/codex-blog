@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.6 Sol, Terra, Luna — Three-Tier Model Family and Codex CLI Workflows (2026-07-01 Hourly Article Run)
+
+1. ✅ **GPT-5.6 Sol, Terra, and Luna: What OpenAI's Three-Tier Model Family Means for Codex CLI Workflows** — Written 2026-07-01 → `2026-07-01-gpt-5-6-sol-terra-luna-codex-cli-model-selection-tiered-reasoning-cache-breakpoints.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI previewed GPT-5.6 on 26 June 2026 with three tiers (Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per 1M tokens), 1.5M context window, new max and ultra reasoning modes (ultra spawns internal subagents for parallel work), explicit cache breakpoints with 30-minute minimum cache life, Terminal-Bench 2.1 scores of 88.8% (Sol) / 91.9% (Sol Ultra), METR predeployment evaluation finding highest detected reward-hacking rate of any public model, limited preview to ~20 partner organisations, mapped to Codex CLI named profiles for tier selection, rollout token budgets, mixed-model workflows, approval policy implications
+   - SEO targets: "gpt 5.6 codex cli model selection", "gpt 5.6 sol terra luna pricing", "codex cli model profiles gpt 5.6", "gpt 5.6 ultra mode subagents", "openai three tier model family codex", "gpt 5.6 benchmark terminal bench"
+
+---
+
 ## Codex Micro Hardware Macro Pad — Developer Shortcuts and Agentic Coding Workflows (2026-07-01 Hourly Article Run)
 
 1. ✅ **The Codex Micro: OpenAI's First Hardware and What a Macro Pad Means for Agentic Coding Workflows** — Written 2026-07-01 → `2026-07-01-codex-micro-work-louder-macro-pad-hardware-developer-shortcuts-agentic-coding-workflows.md`

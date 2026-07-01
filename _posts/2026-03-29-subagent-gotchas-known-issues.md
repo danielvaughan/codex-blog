@@ -2,7 +2,7 @@
 title: "Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)"
 description: "If you're building agentic pod workflows with Codex CLI subagents, here are the practical bugs and undocumented behaviours you'll hit — and how to work."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-07-01T08:20:21+01:00
+last_modified_at: 2026-07-01T10:16:09+01:00
 tags:
   - reference
   - subagents
