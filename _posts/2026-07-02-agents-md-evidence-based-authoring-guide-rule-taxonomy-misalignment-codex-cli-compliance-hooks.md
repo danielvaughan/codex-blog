@@ -295,7 +295,7 @@ The evidence is clear: AGENTS.md is not a set-and-forget configuration file. It 
 
 [^3]: Galster, M., Mohsenimofidi, S., Böhme, L., Lulla, J.L., Abubakar, M.A., Treude, C. & Baltes, S. (2026). "A Dataset of Agentic AI Coding Tool Configurations." *arXiv:2605.08435*. [https://arxiv.org/abs/2605.08435](https://arxiv.org/abs/2605.08435)
 
-[^4]: Jiang, Y. et al. (2026). "An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects." *MSR '26 / arXiv:2512.18925*. [https://arxiv.org/abs/2512.18925](https://arxiv.org/abs/2512.18925)
+[^4]: Jiang, S. & Nam, D. (2026). "Beyond the Prompt: An Empirical Study of Cursor Rules." *MSR '26 / arXiv:2512.18925*. [https://arxiv.org/abs/2512.18925](https://arxiv.org/abs/2512.18925)
 
 [^5]: OpenAI. (2026). "Custom instructions with AGENTS.md." *Codex Developer Documentation*. [https://developers.openai.com/codex/guides/agents-md](https://developers.openai.com/codex/guides/agents-md)
 
