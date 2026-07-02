@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Lingering Authority and Revocable Capabilities — PORTICO Epoch-Bound Permission Lifecycle (2026-07-02 Hourly Article Run)
+
+1. ✅ **Lingering Authority and Revocable Capabilities: What PORTICO Reveals About the Permission Gap in Coding Agents — and How Codex CLI's Approval Architecture Compares** — Written 2026-07-02 → `2026-07-02-lingering-authority-revocable-capabilities-coding-agents-codex-cli-portico-epoch-bound-permission-lifecycle.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Santos-Grueiro published arXiv:2606.22504 (June 2026), PORTICO: reference monitor for revocable capabilities with epoch-bound handles and request-grant-invoke lifecycle; four policy elements (initial envelope, grant rules, closure rules, global deny); 0.00 violation rate vs 1.00 for full access and 0.82 for static allowlists; 0/6 stale-write contamination vs 6/6 for non-revoking comparator; 0.87 task success (10pp utility tax); tested on GPT-5.5, Gemini 3.5 Flash, Claude Opus 4.8; visibility filtering reduces wasted planning by 25%; mapped to Codex CLI two-layer sandbox+approval model, subagent delegation as epoch-bound approximation, PreToolUse/PostToolUse hooks as soft closure, per-directory AGENTS.md overrides, enabled_tools/disabled_tools deny rules, granular approval_policy categories
+   - SEO targets: "lingering authority coding agents codex cli", "PORTICO revocable capabilities agent", "codex cli epoch-bound permissions", "agent permission lifecycle revocation", "codex cli approval policy temporal scoping", "revocable capability reference monitor agent"
+
+---
+
 ## ActPlane eBPF OS-Level Policy Enforcement — Kernel Sandbox and IFC for Coding Agent Harnesses (2026-07-02 Hourly Article Run)
 
 1. ✅ **ActPlane and the OS-Level Policy Gap: Why Tool-Call Guardrails Miss Half Your Agent's Violations — and How eBPF Kernel Enforcement Closes the Loop for Codex CLI** — Written 2026-07-02 → `2026-07-02-actplane-ebpf-os-level-policy-enforcement-coding-agent-harnesses-codex-cli-kernel-sandbox-ifc.md`
