@@ -10,7 +10,7 @@ tags: ["codex-micro", "thread-handoff", "codex-remote", "hardware", "VIA", "QMK"
 
 ---
 
-Agentic coding sessions have three bottlenecks that software alone cannot eliminate: the latency of switching approval contexts, the friction of migrating work across machines, and the cognitive load of juggling CLI, Desktop, and mobile surfaces simultaneously. OpenAI's recent hardware and infrastructure releases — the Codex Micro macro pad (launching 15 July 2026)[^1], thread handoff (Codex App 26.616, 18 June 2026)[^2], and Codex Remote GA (25 June 2026)[^3] — converge on a single thesis: the developer cockpit should be a physical, multi-surface control plane.
+Agentic coding sessions have three bottlenecks that software alone cannot eliminate: the latency of switching approval contexts, the friction of migrating work across machines, and the cognitive load of juggling CLI, Desktop, and mobile surfaces simultaneously. OpenAI's recent hardware and infrastructure releases — the Codex Micro macro pad (launching 15 July 2026) [^1], thread handoff (Codex App 26.616, 18 June 2026) [^2], and Codex Remote GA (25 June 2026) [^3] — converge on a single thesis: the developer cockpit should be a physical, multi-surface control plane.
 
 This guide consolidates those three capabilities into reference configurations, switching frameworks, and concrete VIA/QMK layer definitions that turn a keyboard, a desktop app, and a phone into a unified agent-steering interface.
 
@@ -46,14 +46,14 @@ graph LR
 
 ## The Codex Micro: Hardware Specifications
 
-The Codex Micro is a programmable macro pad co-developed with Work Louder, based on the Creator Micro 2 chassis[^1]. Its hardware profile:
+The Codex Micro is a programmable macro pad co-developed with Work Louder, based on the Creator Micro 2 chassis [^1]. Its hardware profile:
 
 - **13 MX-compatible mechanical switches** — hot-swappable, low-profile
 - **Clickable rotary encoder** — maps to reasoning depth, scroll, or model tier cycling
-- **Capacitive touch sensor** — layer cycling across up to six programmable layers[^4]
+- **Capacitive touch sensor** — layer cycling across up to six programmable layers [^4]
 - **2D analogue joystick** — triggers radial menus in supported applications
-- **Connectivity** — USB-C (Base), Bluetooth Low Energy with 2,100 mAh battery (Pro)[^4]
-- **Firmware** — VIA-compatible (QMK-based), plus Work Louder's Input configurator for multi-step macros and application-linked layer switching[^4]
+- **Connectivity** — USB-C (Base), Bluetooth Low Energy with 2,100 mAh battery (Pro) [^4]
+- **Firmware** — VIA-compatible (QMK-based), plus Work Louder's Input configurator for multi-step macros and application-linked layer switching [^4]
 
 ### Reference VIA Layer Definitions
 
@@ -140,7 +140,7 @@ Layers 4 and 5 are left free for project-specific macros — CI triggers, deploy
 
 ## Thread Handoff: The Transfer Mechanism
 
-Thread handoff moves an existing thread and its Git state between surfaces[^2]. The mechanism relies on `git bundle` transfers over Noise Protocol relay channels with end-to-end encryption (v0.141.0)[^5].
+Thread handoff moves an existing thread and its Git state between surfaces [^2]. The mechanism relies on `git bundle` transfers over Noise Protocol relay channels with end-to-end encryption (v0.141.0) [^5].
 
 ### Prerequisites
 
@@ -148,7 +148,7 @@ Before handoff works, both ends must share:
 
 1. **Connected host** — the destination must appear in Settings → Connections
 2. **Matching project** — the same Git repository saved on both machines
-3. **Matching subdirectory** — if working in a monorepo subdirectory, save identical paths on both hosts[^3]
+3. **Matching subdirectory** — if working in a monorepo subdirectory, save identical paths on both hosts [^3]
 
 ### Handoff Patterns
 
@@ -174,28 +174,28 @@ sequenceDiagram
 
 **Pattern 1 — Laptop to Server Migration.** Start an investigation on your laptop. When the task requires heavy compute (large test suites, builds), hand off to a remote host. The Codex Micro's Layer 2 keys make this a single button press rather than a multi-step GUI interaction.
 
-**Pattern 2 — CLI Investigation, Desktop Review.** Use the CLI for rapid exploration, then hand off to Desktop when you need the visual diff queue. The `/app` command (mapped to Layer 0, Key 11) transfers the thread with full Git state[^2].
+**Pattern 2 — CLI Investigation, Desktop Review.** Use the CLI for rapid exploration, then hand off to Desktop when you need the visual diff queue. The `/app` command (mapped to Layer 0, Key 11) transfers the thread with full Git state [^2].
 
-**Pattern 3 — DigitalOcean Ephemeral Compute.** The DigitalOcean plugin provisions a Droplet pre-configured with Codex CLI and common tooling, connects it via SSH, and makes it available as a remote workspace[^6]. Hand off compute-intensive threads, let them run, approve from mobile, and pull results back.
+**Pattern 3 — DigitalOcean Ephemeral Compute.** The DigitalOcean plugin provisions a Droplet pre-configured with Codex CLI and common tooling, connects it via SSH, and makes it available as a remote workspace [^6]. Hand off compute-intensive threads, let them run, approve from mobile, and pull results back.
 
 ### Worktree Isolation
 
-Handoff creates or reuses a Git worktree on the destination, preserving existing checkouts[^2]. The system maintains up to 15 worktrees with snapshot-before-delete semantics, and thread affinity ensures a worktree association survives round-trips between surfaces[^5].
+Handoff creates or reuses a Git worktree on the destination, preserving existing checkouts [^2]. The system maintains up to 15 worktrees with snapshot-before-delete semantics, and thread affinity ensures a worktree association survives round-trips between surfaces [^5].
 
-A `.worktreeinclude` file controls which dependency files transfer with the bundle, while `.gitignore` exclusion prevents secret leakage during cross-machine transfers[^5].
+A `.worktreeinclude` file controls which dependency files transfer with the bundle, while `.gitignore` exclusion prevents secret leakage during cross-machine transfers [^5].
 
 ## Codex Remote GA: Mobile as Approval Surface
 
-Codex Remote reached general availability on 25 June 2026, adding authenticated QR pairing between iOS/Android devices and Mac/Windows hosts[^3]. The security model replaced the previous open-relay approach with one-to-one device pairing.
+Codex Remote reached general availability on 25 June 2026, adding authenticated QR pairing between iOS/Android devices and Mac/Windows hosts [^3]. The security model replaced the previous open-relay approach with one-to-one device pairing.
 
 ### QR Pairing Setup
 
 1. On the host: open Codex App → sidebar → "Set up Codex mobile"
 2. Scan the displayed QR code with your phone's ChatGPT app
 3. Complete authentication (including SSO/MFA if required by your workspace)
-4. The host appears in the mobile Codex project list[^3]
+4. The host appears in the mobile Codex project list [^3]
 
-Connections established since 8 June 2026 remain paired; older connections require re-pairing[^3].
+Connections established since 8 June 2026 remain paired; older connections require re-pairing [^3].
 
 ### Mobile Capabilities
 
@@ -205,7 +205,7 @@ From the mobile surface you can:
 - Send follow-up instructions and steer active work
 - Approve or reject commands and actions
 - Review outputs, diffs, test results, and screenshots
-- Receive push notifications when tasks complete or need attention[^3]
+- Receive push notifications when tasks complete or need attention [^3]
 
 ### The Approval Routing Decision
 
