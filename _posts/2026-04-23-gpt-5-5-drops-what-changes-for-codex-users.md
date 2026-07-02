@@ -2,7 +2,7 @@
 title: "GPT-5.5 Drops: What Changes for Codex Users"
 description: "Six weeks. That is the gap between GPT-5.4 and GPT-5.5. OpenAI released its newest frontier model on 23 April 2026, rolling it out simultaneously to ChatGPT."
 date: 2026-04-23T19:30:00+00:00
-last_modified_at: 2026-07-02T12:09:40+01:00
+last_modified_at: 2026-07-02T14:12:07+01:00
 tags:
   - gpt-5.5
   - model-upgrade

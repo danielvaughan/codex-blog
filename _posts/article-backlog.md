@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Pomona Kaizen Loop — Bloomberg Tiny-Diff Code Quality Agent and Codex CLI Scanning-Repair Workflows (2026-07-02 Hourly Article Run)
+
+1. ✅ **Pomona and the Kaizen Loop: What Bloomberg's Tiny-Diff Code Quality Agent Teaches Us About Building Scanning-Repair Workflows with Codex CLI** — Written 2026-07-02 → `2026-07-02-pomona-kaizen-continuous-code-quality-bloomberg-small-diffs-codex-cli-scanning-repair-loop.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Williams et al. published arXiv:2606.06752 (June 2026), Pomona: Kaizen-inspired two-skill agent loop (Scanning + Repair) for continuous code quality improvement at Bloomberg; 15/17 PRs merged (88.2%); median time-to-close 1h 43m; ~10-line diffs; P1–P4 priority matrix on benefit × ease-of-review; 11/15 required zero human commits; 90% of engineers valued small diffs; preferred 2–3 PRs/week cadence; race condition failure mode; mapped to Codex CLI codex exec read-only scanning + workspace-write repair, AGENTS.md per-module rules, openai/codex-action@v1 GitHub Actions integration, PostToolUse lint validation hooks, rollout_token_budget constraints
+   - SEO targets: "pomona bloomberg code quality codex cli", "kaizen continuous code quality agent", "codex cli scanning repair workflow", "tiny diff code quality agent", "codex cli automated code quality PR", "bloomberg pomona agent architecture codex"
+
+---
+
 ## Lingering Authority and Revocable Capabilities — PORTICO Epoch-Bound Permission Lifecycle (2026-07-02 Hourly Article Run)
 
 1. ✅ **Lingering Authority and Revocable Capabilities: What PORTICO Reveals About the Permission Gap in Coding Agents — and How Codex CLI's Approval Architecture Compares** — Written 2026-07-02 → `2026-07-02-lingering-authority-revocable-capabilities-coding-agents-codex-cli-portico-epoch-bound-permission-lifecycle.md`
