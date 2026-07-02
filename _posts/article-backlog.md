@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MOSAIC-Bench Compositional Vulnerability Induction — Pentester-Framed PostToolUse Defence (2026-07-02 Hourly Article Run)
+
+1. ✅ **MOSAIC-Bench and the Compositional Vulnerability Gap: Why Innocent Tickets Bypass Your Agent's Safety — and How Codex CLI's Hook Pipeline Catches Them** — Written 2026-07-02 → `2026-07-02-mosaic-bench-compositional-vulnerability-induction-coding-agents-codex-cli-pentester-framed-posttooluse-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Steinberg & Gal published arXiv:2605.03952 (May 2026), MOSAIC-Bench: 199 three-stage attack chains across 31 CWE classes, 5 languages, 10 web-app substrates; nine production agents achieve 53–86% end-to-end ASR under ticket staging vs 0–20.4% under direct prompts; only two refusals across all staged runs; code reviewers approve 25.8% of confirmed-vulnerable diffs; pentester-framed review reduces evasion to 3.0–17.6%; open-weight Gemma-4 detects 88.4% at 4.6% FP rate on 608 real PRs; mapped to Codex CLI PostToolUse pentester-framed hooks, cumulative diff review, PreToolUse CWE pattern guards, AGENTS.md compositional security constraints, approval_policy escalation
+   - SEO targets: "MOSAIC-Bench codex cli", "compositional vulnerability coding agent", "codex cli pentester PostToolUse hook", "ticket decomposition agent security", "compositional attack coding agent defence", "codex cli security review framing", "MOSAIC-Bench agent ASR benchmark"
+
+---
+
 ## Tool Description Poisoning and Isolated Planning Defence — Codex CLI MCP Security (2026-07-02 Hourly Article Run)
 
 1. ✅ **Tool Description Poisoning and the Isolated Planning Defence: What Tool-Guard Means for Codex CLI MCP Security** — Written 2026-07-02 → `2026-07-02-tool-description-poisoning-isolated-planning-defence-codex-cli-mcp-tool-guard-approval-hooks.md`
