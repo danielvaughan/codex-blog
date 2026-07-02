@@ -8281,5 +8281,5 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 2. ✅ **The AGENTS.md Evidence-Based Authoring Guide (Premium)** — Rule Taxonomy (4.8) + Coding Agent Misalignment (5.0). Empirically-grounded AGENTS.md templates by five-category taxonomy, evolution playbook from 1,540 events, compliance hooks for 77.78% negative-constraint pattern, quarterly rule audit checklist. Perception-practice gap is the headline. Written 2026-07-02 → `2026-07-02-agents-md-evidence-based-authoring-guide-rule-taxonomy-misalignment-codex-cli-compliance-hooks.md`
 
-3. 📝 **The Hardware-Augmented Agentic Workflow Guide (Premium)** — Codex Micro (4.5) + Thread Handoff (4.0) + Codex Remote GA. Reference VIA/QMK configurations, surface-switching decision framework, mobile approval ergonomics, developer cockpit specification for three-surface control plane.
+3. ✅ **The Hardware-Augmented Agentic Workflow Guide (Premium)** — Codex Micro (4.5) + Thread Handoff (4.0) + Codex Remote GA. Reference VIA/QMK configurations, surface-switching decision framework, mobile approval ergonomics, developer cockpit specification for three-surface control plane. Written 2026-07-02 → `2026-07-02-hardware-augmented-agentic-workflow-guide-codex-micro-thread-handoff-remote-three-surface-control-plane.md`
 
