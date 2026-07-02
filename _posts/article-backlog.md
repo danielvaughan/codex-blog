@@ -8347,3 +8347,11 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 3. ✅ **The Hardware-Augmented Agentic Workflow Guide (Premium)** — Codex Micro (4.5) + Thread Handoff (4.0) + Codex Remote GA. Reference VIA/QMK configurations, surface-switching decision framework, mobile approval ergonomics, developer cockpit specification for three-surface control plane. Written 2026-07-02 → `2026-07-02-hardware-augmented-agentic-workflow-guide-codex-micro-thread-handoff-remote-three-surface-control-plane.md`
 
+---
+
+## Productivity-Reliability Paradox — Specification Governance and the Review Bottleneck (2026-07-02 Hourly Article Run)
+
+1. ✅ **The Productivity-Reliability Paradox: Why 98 Per Cent More Pull Requests Broke Nothing — Except Your Review Pipeline — and How Specification Governance Fixes It with Codex CLI** — Written 2026-07-02 → `2026-07-02-productivity-reliability-paradox-specification-governance-codex-cli-review-bottleneck-quality-gates.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Farrag (arXiv:2605.01160, May 2026) systematic multivocal literature review of 67 sources (2022–2026) defining the Productivity-Reliability Paradox; Faros AI telemetry (10,000+ developers, 1,255 teams): 98% more PRs, 91% longer review times, 154% larger PRs, 9% more bugs; METR RCT (Becker et al. 2025): 19% slowdown for experienced developers; three moderating variables (task abstraction, codebase maturity, developer experience); two amplifying mechanisms (code review bottleneck, context window constraint); Specification Governance Model grounded in Transaction Cost Economics; four governance levels mapped to Codex CLI AGENTS.md, PostToolUse hooks, requirements.toml; GitHub Spec Kit v0.11.0 (93k stars); TDAD pipeline (arXiv:2603.08806); four-month pilot study with 14 engineers showing reduced rollbacks and hotfixes
+   - SEO targets: "productivity reliability paradox AI coding", "codex cli specification governance", "code review bottleneck AI coding agent", "codex cli PostToolUse quality gates", "spec-driven development codex cli", "AI coding productivity paradox DORA", "codex cli AGENTS.md specification governance"
+

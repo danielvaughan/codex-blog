@@ -2,7 +2,7 @@
 title: "Figma MCP + Codex CLI: Turning Designs into Code That Fits Your Codebase"
 description: "Figma launched its official MCP server in late 2025 and expanded it with bidirectional capabilities — including the Codex partnership announced on February."
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-07-02T18:10:21+01:00
+last_modified_at: 2026-07-02T20:14:40+01:00
 tags: ["figma", "mcp", "codex", "design-to-code", "code-connect", "design-tokens"]
 ---
 
