@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Tool Description Poisoning and Isolated Planning Defence — Codex CLI MCP Security (2026-07-02 Hourly Article Run)
+
+1. ✅ **Tool Description Poisoning and the Isolated Planning Defence: What Tool-Guard Means for Codex CLI MCP Security** — Written 2026-07-02 → `2026-07-02-tool-description-poisoning-isolated-planning-defence-codex-cli-mcp-tool-guard-approval-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Shi et al. published arXiv:2606.20922 (June 2026, accepted ICML 2026), Tool-Guard: isolated planning defence against cross-tool description poisoning; three-step mechanism (pre-execution validation, quarantine via Influenced List, isolated re-planning with partitioned tool sets); AgentDojo benchmark: GPT-4o-mini ASR 1.03%, GPT-4o ASR 2.06%, Gemini-2.5-Flash ASR 0.40%, Claude-3.5-Haiku ~0%; 1.45x token overhead, 3.7x latency; ASB benchmark ASR negligible across all models; mapped to Codex CLI five-layer defence (enabled_tools/disabled_tools filtering, per-tool approval_mode escalation, PreToolUse alignment validation hooks, PostToolUse output audit, sandbox network containment), MCP config.toml hardening profile, defence-in-depth configuration recipe
+   - SEO targets: "tool description poisoning codex cli", "MCP tool poisoning defence codex", "codex cli PreToolUse MCP security hooks", "Tool-Guard isolated planning agent", "cross-tool description poisoning defence", "codex cli MCP approval mode hardening"
+
+---
+
 ## Code Cleanliness and Coding Agent Efficiency — Token Cost, Navigation, and Codex CLI Configuration (2026-07-02 Hourly Article Run)
 
 1. ✅ **Does Code Cleanliness Matter for Coding Agents? What 660 Trials Reveal About Token Cost, Navigation, and Codex CLI Configuration** — Written 2026-07-02 → `2026-07-02-code-cleanliness-coding-agents-token-cost-navigation-codex-cli-sonarqube-posttooluse.md`
