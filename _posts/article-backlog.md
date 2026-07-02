@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Self-Healing Orchestration — Failure Taxonomy, Targeted Recovery, and Verifier Hooks (2026-07-02 Hourly Article Run)
+
+1. ✅ **Self-Healing Orchestration for Coding Agents: What Targeted Recovery Teaches Us About Building Resilient Codex CLI Workflows** — Written 2026-07-02 → `2026-07-02-self-healing-orchestration-coding-agents-codex-cli-failure-taxonomy-recovery-hooks-verifier-pipeline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Suresh Babu & Agrawal published arXiv:2606.01416 (May 2026), self-healing agentic orchestrator with seven-class failure taxonomy, eight recovery actions (retry, repair, substitute, replan, refresh, escalate, degrade, terminate), six-dimensional budget mechanism, verifier-guided control loop; 98.8% task success vs 94.5% retry-only and 93.8% full replanning; 0.0% silent failures vs 13.2–17.6% for non-verifying baselines; 97.3% under high-stress fault injection; complemented by Jeong & Shin arXiv:2605.06737 self-healing framework for autonomous agents; mapped to Codex CLI PreToolUse schema guards, PostToolUse failure classification, Stop hook budget circuit breakers, proposed PostToolUseFailure event (Issue #24907), named profiles for resilient workflows
+   - SEO targets: "self-healing codex cli agent", "coding agent failure recovery hooks", "codex cli PostToolUse failure classification", "agent orchestration reliability budget", "codex cli self-healing workflow profile", "targeted recovery coding agent verifier"
+
+---
+
 ## TRACE Correction-to-Enforcement Pipeline — Compiling User Corrections into Runtime Hooks (2026-07-02 Hourly Article Run)
 
 1. ✅ **TRACE and the Correction-to-Enforcement Pipeline: Why Your Coding Agent Keeps Ignoring What You Told It — and How to Fix That with Codex CLI Hooks** — Written 2026-07-02 → `2026-07-02-trace-compiling-user-corrections-runtime-enforcement-coding-agents-codex-cli-hooks-agents-md.md`

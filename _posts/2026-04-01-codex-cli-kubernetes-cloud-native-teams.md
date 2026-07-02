@@ -2,7 +2,7 @@
 title: "Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD"
 description: "Kubernetes YAML is notoriously error-prone. Helm templates add Go template syntax on top. Operator development demands reconciliation loops, CRD schemas."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-07-02T16:09:33+01:00
+last_modified_at: 2026-07-02T18:10:21+01:00
 tags:
   - language-guide
   - kubernetes
