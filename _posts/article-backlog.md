@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ActPlane eBPF OS-Level Policy Enforcement — Kernel Sandbox and IFC for Coding Agent Harnesses (2026-07-02 Hourly Article Run)
+
+1. ✅ **ActPlane and the OS-Level Policy Gap: Why Tool-Call Guardrails Miss Half Your Agent's Violations — and How eBPF Kernel Enforcement Closes the Loop for Codex CLI** — Written 2026-07-02 → `2026-07-02-actplane-ebpf-os-level-policy-enforcement-coding-agent-harnesses-codex-cli-kernel-sandbox-ifc.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zheng et al. published arXiv:2606.25189 (June 2026), ActPlane: eBPF-based IFC policy engine for agent harnesses; 607 OS-enforceable policies from 64 projects show 83% require OS-level enforcement; tool-call baselines detect only 34–40% of violations vs ActPlane 77.2%; IFC DSL with kill/block/notify effects and temporal gates; 1.9–8.4% overhead; OctoBench +9.9 user-query reward; OpenAgentSafety 74% unsafe behaviour prevention; explicit Codex CLI PostToolUse hook and MCP server integration; defence-in-depth configuration recipe layering kernel enforcement beneath Codex CLI sandbox/hooks
+   - SEO targets: "ActPlane codex cli eBPF policy enforcement", "OS-level agent harness security", "codex cli kernel sandbox eBPF", "tool-call guardrail detection gap", "ActPlane IFC DSL agent policy", "eBPF coding agent enforcement", "codex cli PostToolUse ActPlane hook"
+
+---
+
 ## MOSAIC-Bench Compositional Vulnerability Induction — Pentester-Framed PostToolUse Defence (2026-07-02 Hourly Article Run)
 
 1. ✅ **MOSAIC-Bench and the Compositional Vulnerability Gap: Why Innocent Tickets Bypass Your Agent's Safety — and How Codex CLI's Hook Pipeline Catches Them** — Written 2026-07-02 → `2026-07-02-mosaic-bench-compositional-vulnerability-induction-coding-agents-codex-cli-pentester-framed-posttooluse-defence.md`
