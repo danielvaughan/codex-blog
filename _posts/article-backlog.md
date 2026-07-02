@@ -1,5 +1,13 @@
 # Article Backlog
 
+## TRACE Correction-to-Enforcement Pipeline — Compiling User Corrections into Runtime Hooks (2026-07-02 Hourly Article Run)
+
+1. ✅ **TRACE and the Correction-to-Enforcement Pipeline: Why Your Coding Agent Keeps Ignoring What You Told It — and How to Fix That with Codex CLI Hooks** — Written 2026-07-02 → `2026-07-02-trace-compiling-user-corrections-runtime-enforcement-coding-agents-codex-cli-hooks-agents-md.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhou et al. published arXiv:2606.13174 (June 2026), TRACE: Test-time Rule Acquisition and Compiled Enforcement; three-stage pipeline (correction detection via Gemma 4 31B, atomic rule extraction with five-action lifecycle resolver, compiled enforcement with deterministic/semantic/intent tiers); access-compliance gap: Mem0 retrieves preferences but agents violate them 57.5% of the time; ClawArena OOD violation rate reduced from 100% to 2.0%; 42.5s wall-clock overhead; 47-rule deployed library; mapped to Codex CLI PreToolUse/PostToolUse hooks, AGENTS.md hierarchical lookup, session transcript mining, SessionStop hook for automated rule generation, trust model for hook review
+   - SEO targets: "TRACE codex cli user corrections", "coding agent preference violation enforcement", "codex cli PreToolUse PostToolUse correction hooks", "access-compliance gap coding agent", "compiling corrections runtime enforcement codex", "AGENTS.md automated rule generation"
+
+---
+
 ## Pomona Kaizen Loop — Bloomberg Tiny-Diff Code Quality Agent and Codex CLI Scanning-Repair Workflows (2026-07-02 Hourly Article Run)
 
 1. ✅ **Pomona and the Kaizen Loop: What Bloomberg's Tiny-Diff Code Quality Agent Teaches Us About Building Scanning-Repair Workflows with Codex CLI** — Written 2026-07-02 → `2026-07-02-pomona-kaizen-continuous-code-quality-bloomberg-small-diffs-codex-cli-scanning-repair-loop.md`
