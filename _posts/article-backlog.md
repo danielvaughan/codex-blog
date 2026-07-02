@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Code Cleanliness and Coding Agent Efficiency — Token Cost, Navigation, and Codex CLI Configuration (2026-07-02 Hourly Article Run)
+
+1. ✅ **Does Code Cleanliness Matter for Coding Agents? What 660 Trials Reveal About Token Cost, Navigation, and Codex CLI Configuration** — Written 2026-07-02 → `2026-07-02-code-cleanliness-coding-agents-token-cost-navigation-codex-cli-sonarqube-posttooluse.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Trivedi & Schmitt (SonarSource) published arXiv:2605.20049 (May 2026), controlled minimal-pair study of 660 trials with Claude Code across 33 tasks and 6 repository pairs; no statistically significant pass rate difference between clean and messy code; 7-8% fewer tokens on clean code; 34% fewer file revisitations on clean code; multi-module spanning tasks show amplified effects; mapped to Codex CLI SonarQube plugin PostToolUse hooks, AGENTS.md complexity rules, rollout_token_budget profiles, AC/DC closed-loop verification
+   - SEO targets: "code cleanliness coding agents codex cli", "coding agent token cost code quality", "codex cli SonarQube PostToolUse hooks", "cognitive complexity coding agent efficiency", "codex cli AGENTS.md linting rules", "code quality agent navigation cost"
+
+---
+
 ## Structural Codebase Indexing and Codex CLI Agent Workflows (2026-07-01 Hourly Article Run)
 
 1. ✅ **Code Isn't Memory: What Structural Codebase Indexing Means for Codex CLI Agent Workflows** — Written 2026-07-01 → `2026-07-01-code-isnt-memory-structural-codebase-index-coding-agent-codex-cli-mcp-localization-multi-file.md`
