@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Over-Mocking Problem — Agent-Generated Test Quality and Codex CLI Defences (2026-07-03 Hourly Article Run)
+
+1. ✅ **The Over-Mocking Problem: What Empirical Research Reveals About Agent-Generated Test Quality — and How to Defend Your Suite with Codex CLI** — Written 2026-07-03 → `2026-07-03-over-mocking-problem-agent-generated-test-quality-codex-cli-agents-md-mutation-testing-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hora & Robbes published arXiv:2602.00409 (MSR 2026), empirical study of 1.25M commits across 2,168 repos showing agents mock 36% vs humans 26%, Mock object over-reliance (95% vs 91%), Fake under-use (32% vs 57%); Yoshimoto et al. arXiv:2603.13724 (ICSE 2026), 16.4% agent-authored test commits, higher assertion density but lower cyclomatic complexity; MuMuTestUp arXiv:2605.19265 mutation-guided multi-agent test strengthening; mapped to Codex CLI AGENTS.md mock policy, PostToolUse mutation validation hooks, mock ratio auditing, rollout_token_budget cost control
+   - SEO targets: "over-mocking coding agent tests", "codex cli test quality AGENTS.md", "mutation testing agent-generated code", "PostToolUse hook test validation", "coding agent mock ratio empirical study", "AGENTS.md mock policy test doubles"
+
+---
+
 ## Event-Sourced Memory Layers — PROJECTMEM, ESAA-Conversational, and Codex CLI Memory-as-Governance (2026-07-03 Hourly Article Run)
 
 1. ✅ **Event-Sourced Memory Layers for Coding Agents: What PROJECTMEM and ESAA-Conversational Reveal About Memory-as-Governance — and How to Wire Them into Codex CLI** — Written 2026-07-03 → `2026-07-03-event-sourced-memory-layers-coding-agents-projectmem-esaa-codex-cli-pretooluse-governance.md`
