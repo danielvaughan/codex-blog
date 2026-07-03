@@ -98,7 +98,7 @@ Even when the correct rules are in the prompt, compliance sits at 55%. Compiled 
 
 ## Mapping TRACE to Codex CLI
 
-Codex CLI already ships the infrastructure that TRACE's architecture requires [^2][^3]. The mapping is direct:
+Codex CLI already ships the infrastructure that TRACE's architecture requires [^2] [^3]. The mapping is direct:
 
 ```mermaid
 flowchart TB

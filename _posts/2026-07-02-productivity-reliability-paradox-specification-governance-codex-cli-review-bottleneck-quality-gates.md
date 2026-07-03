@@ -14,15 +14,15 @@ tags: ["codex-cli", "productivity-paradox", "specification-governance", "code-re
 
 Your team adopted Codex CLI six months ago. Individual throughput is up. Pull requests are flowing. Everyone feels faster. And yet, lead time is flat, rollbacks haven't budged, and reviewers are drowning.
 
-You are not imagining this. In May 2026, Sabry Farrag of the University of East London published a systematic multivocal literature review spanning 67 sources (January 2022 through April 2026) that gave this phenomenon a name: the **Productivity-Reliability Paradox** (PRP)[^1]. The headline statistics paint an uncomfortable picture:
+You are not imagining this. In May 2026, Sabry Farrag of the University of East London published a systematic multivocal literature review spanning 67 sources (January 2022 through April 2026) that gave this phenomenon a name: the **Productivity-Reliability Paradox** (PRP) [^1]. The headline statistics paint an uncomfortable picture:
 
-- Teams using AI coding tools merge **98% more pull requests**[^2]
-- PR review time increases by **91%**[^2]
-- Average PR size grows by **154%**[^2]
-- Bug counts rise by **9%**[^2]
-- Organisational DORA metrics remain **flat**[^3]
+- Teams using AI coding tools merge **98% more pull requests** [^2]
+- PR review time increases by **91%** [^2]
+- Average PR size grows by **154%** [^2]
+- Bug counts rise by **9%** [^2]
+- Organisational DORA metrics remain **flat** [^3]
 
-Meanwhile, the most methodologically rigorous randomised controlled trial — 16 experienced open-source developers across 246 tasks — found that AI tooling produced a **19% slowdown**, despite developers forecasting a 24% speed-up beforehand and estimating a 20% speed-up afterwards[^4].
+Meanwhile, the most methodologically rigorous randomised controlled trial — 16 experienced open-source developers across 246 tasks — found that AI tooling produced a **19% slowdown**, despite developers forecasting a 24% speed-up beforehand and estimating a 20% speed-up afterwards [^4].
 
 The paradox is real, it is structural, and it will not fix itself.
 
@@ -30,11 +30,11 @@ The paradox is real, it is structural, and it will not fix itself.
 
 ## Anatomy of the Paradox
 
-Farrag identifies **three moderating variables** that determine whether AI-assisted coding delivers genuine gains or amplifies organisational drag[^1]:
+Farrag identifies **three moderating variables** that determine whether AI-assisted coding delivers genuine gains or amplifies organisational drag [^1]:
 
 ### 1. Task Abstraction Level
 
-Well-scoped, self-contained tasks (adding a utility function, writing a data-transfer object) consistently show 20–56% productivity gains across multiple controlled studies[^5]. Cross-cutting changes touching multiple modules — the kind that matter in production systems — show far weaker or negative effects.
+Well-scoped, self-contained tasks (adding a utility function, writing a data-transfer object) consistently show 20–56% productivity gains across multiple controlled studies [^5]. Cross-cutting changes touching multiple modules — the kind that matter in production systems — show far weaker or negative effects.
 
 ### 2. Codebase Maturity
 
@@ -42,7 +42,7 @@ Greenfield projects benefit most. Mature codebases with established conventions,
 
 ### 3. Developer Experience
 
-Senior developers suffer the "verification tax": an average of 4.3 minutes per AI suggestion reviewing code that looks correct but may not be[^1]. Junior developers face a different problem — they accept suggestions they cannot fully evaluate, creating latent defects.
+Senior developers suffer the "verification tax": an average of 4.3 minutes per AI suggestion reviewing code that looks correct but may not be [^1]. Junior developers face a different problem — they accept suggestions they cannot fully evaluate, creating latent defects.
 
 ```mermaid
 graph TD
@@ -66,9 +66,9 @@ graph TD
 
 ### The Two Amplifying Mechanisms
 
-Even where individual gains are real, two mechanisms erode them at the organisational level[^1]:
+Even where individual gains are real, two mechanisms erode them at the organisational level [^1]:
 
-**Code Review Bottleneck.** AI-generated code is plausible by construction, not correct by construction[^1]. Every additional PR requires human review. When generation accelerates without proportional acceleration of the review pipeline, queues grow. The Faros AI 2026 study — doubling the sample to 22,000 developers across 4,000 teams — showed the paradox worsening: bugs per developer up 54%, production incidents per PR tripled[^6].
+**Code Review Bottleneck.** AI-generated code is plausible by construction, not correct by construction [^1]. Every additional PR requires human review. When generation accelerates without proportional acceleration of the review pipeline, queues grow. The Faros AI 2026 study — doubling the sample to 22,000 developers across 4,000 teams — showed the paradox worsening: bugs per developer up 54%, production incidents per PR tripled [^6].
 
 **Context Window Constraint.** Coding agents operate within finite context windows. As sessions lengthen, earlier specification context gets compacted or evicted, causing the agent to drift from the original intent. The semantic distance between what the developer means and what the program does widens silently.
 
@@ -76,9 +76,9 @@ Even where individual gains are real, two mechanisms erode them at the organisat
 
 ## The Specification Governance Model
 
-Farrag's core thesis is pointed: **specification discipline, not model capability, is the binding constraint on AI-assisted software dependability**[^1].
+Farrag's core thesis is pointed: **specification discipline, not model capability, is the binding constraint on AI-assisted software dependability** [^1].
 
-Drawing on Transaction Cost Economics[^7], the paper frames AI code generation as a principal-agent transaction characterised by:
+Drawing on Transaction Cost Economics [^7], the paper frames AI code generation as a principal-agent transaction characterised by:
 
 | Property | Effect |
 |----------|--------|
@@ -90,7 +90,7 @@ This combination makes upfront specification investment economically rational �
 
 ### Four Governance Levels
 
-The Specification Governance Model (SGM) proposes four levels of increasing rigour[^1]:
+The Specification Governance Model (SGM) proposes four levels of increasing rigour [^1]:
 
 ```mermaid
 graph LR
@@ -119,25 +119,25 @@ Two tools validate the SGM framework in practice.
 
 ### GitHub Spec Kit
 
-Released under MIT licence in May 2026 and now at v0.11.0 with 93,000+ GitHub stars[^8], Spec Kit provides a four-phase workflow:
+Released under MIT licence in May 2026 and now at v0.11.0 with 93,000+ GitHub stars [^8], Spec Kit provides a four-phase workflow:
 
 1. **`/speckit.constitution`** — non-negotiable project principles
 2. **`/speckit.specify`** — formal specification of what to build
 3. **`/speckit.plan`** — technical implementation design
 4. **`/speckit.tasks`** — decomposition into verifiable units
 
-Spec Kit works with 30+ coding agents including Codex CLI[^8]. Over 70 community extensions add compliance gates, architecture guards, and visibility hooks.
+Spec Kit works with 30+ coding agents including Codex CLI [^8]. Over 70 community extensions add compliance gates, architecture guards, and visibility hooks.
 
 ### TDAD (Test-Driven AI Agent Definition)
 
-The TDAD pipeline[^9] treats agent prompts as compiled artefacts:
+The TDAD pipeline [^9] treats agent prompts as compiled artefacts:
 
 1. Engineers provide behavioural specifications
 2. **TestSmith** converts specifications to executable tests
 3. **PromptSmith** iteratively refines prompts until tests pass
 4. **MutationSmith** generates faulty prompt variants post-compilation to validate test suite quality
 
-Across 24 independent trials, TDAD achieves[^9]:
+Across 24 independent trials, TDAD achieves [^9]:
 
 - 92% v1 compilation success
 - 97% mean hidden-test pass rate
@@ -148,7 +148,7 @@ Across 24 independent trials, TDAD achieves[^9]:
 
 ## The Pilot Evidence
 
-Farrag ran a four-month within-subject pilot with 14 mid-to-senior engineers across three full-stack projects (React/Node, Vue/NestJS, React/Go microservices)[^1]:
+Farrag ran a four-month within-subject pilot with 14 mid-to-senior engineers across three full-stack projects (React/Node, Vue/NestJS, React/Go microservices) [^1]:
 
 | Metric | Baseline (2 months) | Spec Kit Phase (2 months) |
 |--------|---------------------|---------------------------|
@@ -159,7 +159,7 @@ Farrag ran a four-month within-subject pilot with 14 mid-to-senior engineers acr
 | Developer confidence (Likert 1–5) | 3.1 | 3.9 |
 | Spec authoring overhead | — | 45–90 min per medium feature |
 
-The critical finding: specification-driven workflows **shift verification effort earlier** (spec authorship costs 45–90 minutes) rather than eliminating it. The payoff comes in reduced late-stage regressions and rollbacks[^1].
+The critical finding: specification-driven workflows **shift verification effort earlier** (spec authorship costs 45–90 minutes) rather than eliminating it. The payoff comes in reduced late-stage regressions and rollbacks [^1].
 
 ---
 
@@ -173,7 +173,7 @@ Default Codex CLI behaviour — the agent generates, the developer reviews. Suit
 
 ### Level 2: Natural-Language Specification via AGENTS.md
 
-AGENTS.md files provide hierarchical, repository-scoped natural-language constraints that Codex CLI reads automatically[^10]. Research across 138 repositories found that developer-written AGENTS.md files reduce agent-generated bugs by 35–55%[^11].
+AGENTS.md files provide hierarchical, repository-scoped natural-language constraints that Codex CLI reads automatically [^10]. Research across 138 repositories found that developer-written AGENTS.md files reduce agent-generated bugs by 35–55% [^11].
 
 ```markdown
 <!-- AGENTS.md -->
@@ -190,7 +190,7 @@ AGENTS.md files provide hierarchical, repository-scoped natural-language constra
 
 ### Level 3: Executable Contracts via PostToolUse Hooks
 
-PostToolUse hooks execute after every tool call, enforcing executable contracts in real time[^12]:
+PostToolUse hooks execute after every tool call, enforcing executable contracts in real time [^12]:
 
 ```toml
 # config.toml — executable specification enforcement
@@ -204,7 +204,7 @@ Combined with Spec Kit's `/speckit.tasks` output as a structured specification, 
 
 ### Level 4: Constitutional Governance via requirements.toml
 
-For enterprise environments, `requirements.toml` provides admin-enforced, non-overridable constraints[^13]:
+For enterprise environments, `requirements.toml` provides admin-enforced, non-overridable constraints [^13]:
 
 ```toml
 # requirements.toml — constitutional constraints
@@ -249,7 +249,7 @@ PostToolUse hooks catch specification violations before a PR reaches a human rev
 
 ### 2. Subagent Delegation with Scoped Specifications
 
-Codex CLI's subagent model supports per-directory AGENTS.md files[^10]. Each subagent inherits a narrower specification scope, producing smaller, more reviewable diffs:
+Codex CLI's subagent model supports per-directory AGENTS.md files [^10]. Each subagent inherits a narrower specification scope, producing smaller, more reviewable diffs:
 
 ```markdown
 <!-- services/payments/AGENTS.md -->
@@ -272,7 +272,7 @@ command = "bash -c './scripts/generate-review-brief.sh'"
 
 ## The Practitioner Decision Framework
 
-Adapted from Farrag's governance decision guide and mapped to Codex CLI configuration[^1]:
+Adapted from Farrag's governance decision guide and mapped to Codex CLI configuration [^1]:
 
 | Situation | Governance Level | Codex CLI Configuration |
 |-----------|-----------------|------------------------|
@@ -281,7 +281,7 @@ Adapted from Farrag's governance decision guide and mapped to Codex CLI configur
 | Cross-module refactor | Executable contract | PostToolUse hooks + Spec Kit tasks |
 | Security-critical, regulated | Constitutional | requirements.toml + approval_policy |
 
-**One caveat the paper stresses:** specification authorship cannot replace code literacy. Junior developers must develop dual competency in both implementation and specification authorship[^1]. Using Codex CLI's `suggest` mode — where the agent proposes but the developer decides — provides deliberate practice that `full-auto` mode does not.
+**One caveat the paper stresses:** specification authorship cannot replace code literacy. Junior developers must develop dual competency in both implementation and specification authorship [^1]. Using Codex CLI's `suggest` mode — where the agent proposes but the developer decides — provides deliberate practice that `full-auto` mode does not.
 
 ---
 

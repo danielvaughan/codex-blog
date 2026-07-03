@@ -10,11 +10,11 @@ tags: ["codex-cli", "MCP", "A2A", "ACP", "governance", "enterprise", "multi-agen
 
 ---
 
-The three protocols that dominate agent interoperability — MCP, Google's A2A, and ACP — solve discovery, tool access, and message exchange convincingly. What they do not solve, and what Kang and Diponegoro's systematic gap analysis published on 30 June 2026 makes painfully clear, is *governance*[^1]. For teams running multi-agent Codex CLI fleets in production, the paper's findings land as both a warning and a design brief.
+The three protocols that dominate agent interoperability — MCP, Google's A2A, and ACP — solve discovery, tool access, and message exchange convincingly. What they do not solve, and what Kang and Diponegoro's systematic gap analysis published on 30 June 2026 makes painfully clear, is *governance* [^1]. For teams running multi-agent Codex CLI fleets in production, the paper's findings land as both a warning and a design brief.
 
 ## The Six-Dimension Governance Taxonomy
 
-The authors derive six governance requirements from organisational theory and enterprise standards[^1]:
+The authors derive six governance requirements from organisational theory and enterprise standards [^1]:
 
 | Dimension | What It Requires |
 |---|---|
@@ -25,11 +25,11 @@ The authors derive six governance requirements from organisational theory and en
 | **G5 — Human Escalation** | Protocol-native triggers that route unresolvable disputes to a human authority |
 | **G6 — Audit/Replay** | Tamper-evident, replayable records of the full decision lifecycle |
 
-These are not theoretical niceties. The paper's motivating scenario — five agents collectively deciding whether a proposed architecture meets regulatory requirements — maps directly to enterprise compliance workflows already running in Codex CLI fleets[^2].
+These are not theoretical niceties. The paper's motivating scenario — five agents collectively deciding whether a proposed architecture meets regulatory requirements — maps directly to enterprise compliance workflows already running in Codex CLI fleets [^2].
 
 ## The Score: 0–2 out of 12
 
-Kang and Diponegoro assess five protocols against the taxonomy, scoring each dimension as Supported, Partial, or Absent[^1]:
+Kang and Diponegoro assess five protocols against the taxonomy, scoring each dimension as Supported, Partial, or Absent [^1]:
 
 ```mermaid
 graph LR
@@ -49,17 +49,17 @@ graph LR
 
 The detail is worse than the aggregate:
 
-- **MCP v1.1**: Absent across membership, deliberation, voting, dissent, and human escalation. Only partial audit capability via session state, with no tamper-evidence guarantees[^1].
-- **A2A v1.0.1**: Agent Cards provide partial membership (capability discovery, not admission/removal). Everything else is absent — despite A2A shipping an extension mechanism six months ago, zero governance extensions have been proposed or implemented[^1].
-- **ACP**: Partial membership through communication roles and partial deliberation via bilateral negotiation, but no multilateral reasoning. Voting, dissent, escalation, and audit are all absent[^1].
-- **ANP**: Universally absent — it functions as a routing protocol without governance semantics[^1].
-- **ERC-8004**: Blockchain-native identity registry and audit properties provide partial coverage on G1 and G6, but on-chain latency and cost constraints are incompatible with real-time multi-agent deliberation[^1].
+- **MCP v1.1**: Absent across membership, deliberation, voting, dissent, and human escalation. Only partial audit capability via session state, with no tamper-evidence guarantees [^1].
+- **A2A v1.0.1**: Agent Cards provide partial membership (capability discovery, not admission/removal). Everything else is absent — despite A2A shipping an extension mechanism six months ago, zero governance extensions have been proposed or implemented [^1].
+- **ACP**: Partial membership through communication roles and partial deliberation via bilateral negotiation, but no multilateral reasoning. Voting, dissent, escalation, and audit are all absent [^1].
+- **ANP**: Universally absent — it functions as a routing protocol without governance semantics [^1].
+- **ERC-8004**: Blockchain-native identity registry and audit properties provide partial coverage on G1 and G6, but on-chain latency and cost constraints are incompatible with real-time multi-agent deliberation [^1].
 
 The two dimensions that are *universally absent* across all five protocols — voting (G3) and dissent preservation (G4) — are precisely the ones that enterprise compliance teams ask about first.
 
 ## Extensible Gaps vs Structural Gaps
 
-The paper's most useful contribution is distinguishing remediation difficulty[^1]:
+The paper's most useful contribution is distinguishing remediation difficulty [^1]:
 
 **Extensible gaps** could theoretically be patched via protocol updates. A2A's extension framework is the obvious candidate, yet the zero-extension adoption rate after six months suggests the community does not view governance as a protocol-layer concern.
 
@@ -67,15 +67,15 @@ The paper's most useful contribution is distinguishing remediation difficulty[^1
 
 **Scope-limiting gaps** apply to protocols whose design constraints prevent governance even in theory. ERC-8004's on-chain model cannot support real-time deliberation without fundamental architectural change.
 
-The authors' conclusion is stark: "agent community governance constitutes a missing architectural layer above current interoperability standards"[^1].
+The authors' conclusion is stark: "agent community governance constitutes a missing architectural layer above current interoperability standards" [^1].
 
 ## Where Codex CLI Already Covers the Gaps
 
-Codex CLI does not implement a governance protocol. But its layered architecture — `config.toml` for developer preferences, `requirements.toml` for admin-enforced constraints, `AGENTS.md` for per-directory instructions, and the hook pipeline for runtime enforcement — provides governance primitives that the interoperability protocols lack[^3][^4].
+Codex CLI does not implement a governance protocol. But its layered architecture — `config.toml` for developer preferences, `requirements.toml` for admin-enforced constraints, `AGENTS.md` for per-directory instructions, and the hook pipeline for runtime enforcement — provides governance primitives that the interoperability protocols lack [^3 [^4].
 
 ### G1 — Membership: Subagent Delegation Controls
 
-Since v0.142.0, app-server clients can configure multi-agent delegation as `disabled`, `explicit-request-only`, or `proactive` at thread and turn levels[^5]. Combined with `max_threads` and `max_depth` limits in `config.toml`, this controls which agents can join a workflow and how deeply they can nest[^6]:
+Since v0.142.0, app-server clients can configure multi-agent delegation as `disabled`, `explicit-request-only`, or `proactive` at thread and turn levels [^5]. Combined with `max_threads` and `max_depth` limits in `config.toml`, this controls which agents can join a workflow and how deeply they can nest [^6]:
 
 ```toml
 [agents]
@@ -86,11 +86,11 @@ max_depth = 1       # children can spawn, no deeper recursion
 mode = "explicit-request-only"  # no proactive spawning
 ```
 
-The `enabled_tools` and `disabled_tools` arrays further restrict what capabilities any spawned agent can access — a functional equivalent of role-based membership[^3].
+The `enabled_tools` and `disabled_tools` arrays further restrict what capabilities any spawned agent can access — a functional equivalent of role-based membership [^3].
 
 ### G2 — Deliberation: Structured Hook Pipelines
 
-Codex CLI's `PreToolUse` and `PostToolUse` hooks create a structured evaluation pipeline where multiple checks execute in sequence before any action proceeds[^3]. While not multilateral agent deliberation in the protocol sense, hooks provide the turn-taking and challenge-response structure that the governance taxonomy requires:
+Codex CLI's `PreToolUse` and `PostToolUse` hooks create a structured evaluation pipeline where multiple checks execute in sequence before any action proceeds [^3]. While not multilateral agent deliberation in the protocol sense, hooks provide the turn-taking and challenge-response structure that the governance taxonomy requires:
 
 ```toml
 [[hooks]]
@@ -102,7 +102,7 @@ event = "PostToolUse"
 command = "python3 security-audit.py"
 ```
 
-The auto-review subagent (Guardian) adds a second evaluating agent to the pipeline, creating bilateral deliberation between the primary agent and the security reviewer[^7].
+The auto-review subagent (Guardian) adds a second evaluating agent to the pipeline, creating bilateral deliberation between the primary agent and the security reviewer [^7].
 
 ### G3/G4 — Voting and Dissent: The Remaining Gap
 
@@ -121,11 +121,11 @@ if [ "$APPROVE_COUNT" -lt "$((TOTAL * 2 / 3))" ]; then
 fi
 ```
 
-This is application-layer improvisation — exactly the fragmentation the paper warns against[^1].
+This is application-layer improvisation — exactly the fragmentation the paper warns against [^1].
 
 ### G5 — Human Escalation: Approval Policy Tiers
 
-Codex CLI's granular approval policies map directly to G5. The `approval_policy` configuration provides escalation from autonomous execution through to mandatory human review[^7]:
+Codex CLI's granular approval policies map directly to G5. The `approval_policy` configuration provides escalation from autonomous execution through to mandatory human review [^7]:
 
 ```mermaid
 flowchart TD
@@ -142,11 +142,11 @@ flowchart TD
     I -->|reject| H
 ```
 
-The Guardian's 96.1% malicious-behaviour detection rate while reducing human interruptions by roughly 200x demonstrates that protocol-native escalation can be both safe and practical[^7].
+The Guardian's 96.1% malicious-behaviour detection rate while reducing human interruptions by roughly 200x demonstrates that protocol-native escalation can be both safe and practical [^7].
 
 ### G6 — Audit/Replay: JSONL Event Streams and OpenTelemetry
 
-Every Codex CLI session emits a structured JSONL event stream that records tool calls, approval decisions, hook results, and agent outputs with timestamps[^8]. OpenTelemetry export provides tamper-evident audit trails when connected to an immutable log sink:
+Every Codex CLI session emits a structured JSONL event stream that records tool calls, approval decisions, hook results, and agent outputs with timestamps [^8]. OpenTelemetry export provides tamper-evident audit trails when connected to an immutable log sink:
 
 ```toml
 [telemetry]
@@ -154,7 +154,7 @@ export = "otlp"
 endpoint = "https://otel-collector.internal:4317"
 ```
 
-Combined with `requirements.toml` enforcement — where admins can mandate telemetry export and prevent users from disabling it — this provides stronger audit guarantees than any of the five assessed protocols[^4].
+Combined with `requirements.toml` enforcement — where admins can mandate telemetry export and prevent users from disabling it — this provides stronger audit guarantees than any of the five assessed protocols [^4].
 
 ## The Enterprise Fleet Governance Stack
 
@@ -193,14 +193,14 @@ Layer 1 handles what the protocols do well: tool access, capability discovery, a
 
 ## The MDM Enforcement Path
 
-For organisations deploying Codex CLI at scale, managed device management (MDM) integration closes the policy distribution gap[^4]. macOS deployments via Jamf Pro, Fleet, or Kandji can distribute `requirements.toml` as encoded constraints under the `com.openai.codex` preference domain:
+For organisations deploying Codex CLI at scale, managed device management (MDM) integration closes the policy distribution gap [^4]. macOS deployments via Jamf Pro, Fleet, or Kandji can distribute `requirements.toml` as encoded constraints under the `com.openai.codex` preference domain:
 
 ```
 config_toml_base64    — defaults unless overridden by project config
 requirements_toml_base64 — constraints that reject conflicting user config
 ```
 
-Group-based administration allows different governance policies for different teams — compliance-heavy workflows get stricter delegation controls and mandatory audit export, while internal tooling teams get lighter constraints[^4].
+Group-based administration allows different governance policies for different teams — compliance-heavy workflows get stricter delegation controls and mandatory audit export, while internal tooling teams get lighter constraints [^4].
 
 ## What Needs Building
 
