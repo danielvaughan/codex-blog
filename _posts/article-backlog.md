@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CODESKILL Self-Evolving Skill Banks — RL-Trained Procedural Skill Management for Coding Agents (2026-07-03 Hourly Article Run)
+
+1. ✅ **CODESKILL and Self-Evolving Skill Banks: What RL-Trained Procedural Skill Management Means for Codex CLI Workflows** — Written 2026-07-03 → `2026-07-03-codeskill-self-evolving-skill-banks-coding-agents-codex-cli-rl-procedural-skill-management.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. published arXiv:2605.25430 (May 2026), CODESKILL: multi-granularity procedural skill extraction from coding-agent trajectories, RL-trained skill management policy using GRPO with hybrid reward (quality + execution + alignment), three-stage curriculum (extraction → evolution → maintenance with add/merge/drop), 9.69% average pass-rate improvement over no-skill baseline on EnvBench/SWE-Bench Verified/Terminal-Bench 2, 4.01% over strongest prompt-based baselines, 20% reduction in reasoning steps, cross-architecture transfer to GPT-5.4-mini; companion papers SkillAdaptor arXiv:2606.01311 training-free step-level fault attribution, SkillCAT arXiv:2606.13317 topology-aware skill graph, Skill1 arXiv:2605.06130 unified skill+tool RL; mapped to Codex CLI SKILL.md procedural skills, PostToolUse hooks for event-driven patterns, Record & Replay for trajectory capture, plugin marketplace for skill distribution, named profiles for skill-model routing, rollout traces for execution feedback
+   - SEO targets: "CODESKILL codex cli self-evolving skills", "coding agent skill bank reinforcement learning", "codex cli skill management RL", "procedural skill extraction coding agent", "codex cli SKILL.md self-evolving", "multi-granularity skill bank coding agent"
+
+---
+
 ## Open-Weight Agentic Models — OpenThoughts-Agent, Tmax, and Codex CLI Custom Provider Workflows (2026-07-03 Hourly Article Run)
 
 1. ✅ **Open-Weight Agentic Models Are Closing the Gap: What OpenThoughts-Agent and Tmax Mean for Codex CLI Custom Provider Workflows** — Written 2026-07-03 → `2026-07-03-open-weight-agentic-models-openthoughts-tmax-codex-cli-custom-provider-local-agent-training.md`

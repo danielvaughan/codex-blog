@@ -2,7 +2,7 @@
 title: "Codex CLI Web Search Integration and Knowledge-Augmented Agents"
 description: "Most agentic coding failures are not reasoning failures. They are knowledge failures."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-07-03T12:13:43+01:00
+last_modified_at: 2026-07-03T14:13:55+01:00
 tags:
   - ecosystem
   - mcp
