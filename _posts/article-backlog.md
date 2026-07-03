@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ABTest Behaviour-Driven Fuzzing — Coding Agent Robustness and Codex CLI Defence Patterns (2026-07-03 Hourly Article Run)
+
+1. ✅ **ABTest and Behaviour-Driven Fuzzing: What 647 Fuzzing Cases Reveal About Coding Agent Robustness — and How to Defend Your Codex CLI Workflows** — Written 2026-07-03 → `2026-07-03-abtest-behavior-driven-fuzzing-coding-agents-codex-cli-interaction-patterns-anomaly-detection.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Dai et al. published arXiv:2604.03362v2 (April 2026), ABTest: behaviour-driven fuzzing framework mining 400 developer-confirmed failures from Claude Code, Codex CLI, and Gemini CLI; 47 Interaction Patterns and 128 Action Types taxonomy; 647 repository-grounded fuzzing cases; 1,573 behavioural anomalies flagged, 642 confirmed true anomalies (40.8% precision); Codex CLI GPT-5.1-Codex-Mini 59.9% precision vs GPT-4o-mini 28.4%; three severity tiers (134 critical, 140 expected outcome, 368 minor); >90% repeatability; mapped to Codex CLI PostToolUse validation hooks, AGENTS.md conflict resolution rules, profile-based model routing for robustness, v0.142.5 trace log security fix, PreToolUse conflict detection
+   - SEO targets: "ABTest codex cli fuzzing", "behaviour-driven testing coding agent", "codex cli agent robustness testing", "coding agent anomaly detection fuzzing", "codex cli PostToolUse validation hooks", "interaction pattern fuzzing coding agent"
+
+---
+
 ## CODESKILL Self-Evolving Skill Banks — RL-Trained Procedural Skill Management for Coding Agents (2026-07-03 Hourly Article Run)
 
 1. ✅ **CODESKILL and Self-Evolving Skill Banks: What RL-Trained Procedural Skill Management Means for Codex CLI Workflows** — Written 2026-07-03 → `2026-07-03-codeskill-self-evolving-skill-banks-coding-agents-codex-cli-rl-procedural-skill-management.md`
