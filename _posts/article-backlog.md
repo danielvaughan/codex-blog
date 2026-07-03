@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Governance Decay and Self-Compacting Agents — Context Compaction Safety Constraints (2026-07-03 Hourly Article Run)
+
+1. ✅ **Governance Decay and Self-Compacting Agents: What Happens When Context Compaction Silently Erases Your Safety Constraints** — Written 2026-07-03 → `2026-07-03-governance-decay-self-compacting-agents-context-compaction-safety-constraints-codex-cli-constraint-pinning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen published arXiv:2606.22528 (June 2026), Governance Decay benchmark (ConstraintRot) showing 30–59% constraint violation after compaction across 1,323 episodes and seven model families; Li et al. arXiv:2606.23525 (June 2026) SelfCompact achieving 30–70% token cost reduction with model-driven compaction rubric; Yi et al. arXiv:2605.30785 (May 2026) AdaCoM RL-trained external context manager with Fidelity-Reliability Trade-off; Semenov & Dorofeev arXiv:2606.11213 (May 2026) Context Window Lifecycle structured eviction completing 89 tasks across 80M tokens; Constraint Pinning restores violation rate to 0% at ~47 tokens; mapped to Codex CLI model_auto_compact_token_limit, AGENTS.md as structural constraint pinning, compact_prompt customisation, PostToolUse constraint verification hooks, profile-based threshold tuning, 60% compaction threshold rule
+   - SEO targets: "governance decay context compaction codex cli", "constraint pinning coding agent", "self-compacting agent context management", "codex cli compaction safety constraints", "AGENTS.md constraint pinning equivalent", "context compaction governance violation"
+
+---
+
 ## Sandboxed Coding Agents as Omni-Modal Task Solvers — Multimedia Benchmarks and Codex CLI Tool Orchestration (2026-07-03 Hourly Article Run)
 
 1. ✅ **Sandboxed Coding Agents as Omni-Modal Task Solvers: What Multimedia Benchmarks Reveal About Codex CLI's Tool Orchestration Ceiling** — Written 2026-07-03 → `2026-07-03-sandboxed-coding-agents-omni-modal-task-solvers-codex-cli-multimedia-ffmpeg-tool-orchestration.md`

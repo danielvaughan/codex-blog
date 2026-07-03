@@ -2,7 +2,7 @@
 title: "GPT-5.3-Codex-Spark: The Cerebras-Powered Ultra-Fast Coding Model"
 description: "On 14 January 2026, OpenAI announced a multi-year partnership with Cerebras Systems. Four weeks later, on 12 February 2026, the first concrete output."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-03T06:11:25+01:00
+last_modified_at: 2026-07-03T10:10:40+01:00
 tags:
   - codex-spark
   - model-selection

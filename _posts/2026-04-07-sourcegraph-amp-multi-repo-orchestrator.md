@@ -2,7 +2,7 @@
 title: "Sourcegraph Amp: The Multi-Repo AI Orchestrator Codex CLI Doesn't Compete With (Yet)"
 description: "In December 2025, Sourcegraph spun Amp out as a fully independent company, with co-founder Quinn Slack taking the CEO role at Amp Inc. Less than a year."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-07-03T06:11:25+01:00
+last_modified_at: 2026-07-03T10:10:40+01:00
 tags:
   - competitive-landscape
   - competitor-tools
