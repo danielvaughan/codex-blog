@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Empirical Token Consumption Analysis — Where Tokens Go and Codex CLI Budget Control (2026-07-03 Hourly Article Run)
+
+1. ✅ **Where Do Your Tokens Go? What Empirical Research Reveals About Coding Agent Token Consumption — and How to Control It with Codex CLI** — Written 2026-07-03 → `2026-07-03-where-do-your-tokens-go-empirical-token-consumption-coding-agents-codex-cli-budget-control.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Bai et al. published arXiv:2604.22750 (April 2026), first systematic analysis of token consumption across eight frontier models on SWE-bench Verified; 1000x more tokens than code chat; 30x variance across runs; performance peaks at intermediate cost; Kimi-K2 and Claude Sonnet 4.5 consume 1.5M+ more tokens than GPT-5 without accuracy gain; self-prediction correlation max 0.39; complemented by Salim et al. arXiv:2601.14470 Tokenomics study showing code review at 59.4% of tokens and input tokens at 53.9%; SWE-Pruner arXiv:2601.16746 achieving 23-54% token reduction; mapped to Codex CLI rollout_token_budget hard ceiling, model_auto_compact_token_limit context snowball mitigation, tool_output_token_limit read dominance reduction, profile-based model routing, reasoning effort tuning, flex service tier
+   - SEO targets: "codex cli token consumption cost", "coding agent token budget control", "where do coding agent tokens go", "codex cli rollout_token_budget", "agent token cost optimisation", "empirical token consumption coding agents"
+
+---
+
 ## Self-Healing Orchestration — Failure Taxonomy, Targeted Recovery, and Verifier Hooks (2026-07-02 Hourly Article Run)
 
 1. ✅ **Self-Healing Orchestration for Coding Agents: What Targeted Recovery Teaches Us About Building Resilient Codex CLI Workflows** — Written 2026-07-02 → `2026-07-02-self-healing-orchestration-coding-agents-codex-cli-failure-taxonomy-recovery-hooks-verifier-pipeline.md`
