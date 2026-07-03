@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Event-Sourced Memory Layers — PROJECTMEM, ESAA-Conversational, and Codex CLI Memory-as-Governance (2026-07-03 Hourly Article Run)
+
+1. ✅ **Event-Sourced Memory Layers for Coding Agents: What PROJECTMEM and ESAA-Conversational Reveal About Memory-as-Governance — and How to Wire Them into Codex CLI** — Written 2026-07-03 → `2026-07-03-event-sourced-memory-layers-coding-agents-projectmem-esaa-codex-cli-pretooluse-governance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Malo & Qiu published arXiv:2606.12329 (June 2026), PROJECTMEM: local-first event-sourced memory with five event types (Issue/Attempt/Fix/Decision/Note), 14 MCP tools, deterministic precheck_file judgment gate implementing Memory-as-Governance concept, 800–1,500 token session-start vs 5,000–20,000 stateless baseline; dos Santos Filho published arXiv:2606.23752 (June 2026), ESAA-Conversational: event-sourced cross-agent memory layer with append-only activity.jsonl and deterministic projections (handoff.md, state.md, decisions.md, tasks.json), 570-event case study; mapped to Codex CLI MCP server registration in config.toml, PreToolUse/PostToolUse hooks for event capture and judgment gate, AGENTS.md as static memory complement, native Memories limitations, cross-agent handoff via MCP
+   - SEO targets: "event-sourced memory coding agent codex cli", "PROJECTMEM memory-as-governance", "codex cli PreToolUse judgment gate", "ESAA-Conversational cross-agent memory", "coding agent persistent memory MCP", "event sourcing agent memory governance"
+
+---
+
 ## ABTest Behaviour-Driven Fuzzing — Coding Agent Robustness and Codex CLI Defence Patterns (2026-07-03 Hourly Article Run)
 
 1. ✅ **ABTest and Behaviour-Driven Fuzzing: What 647 Fuzzing Cases Reveal About Coding Agent Robustness — and How to Defend Your Codex CLI Workflows** — Written 2026-07-03 → `2026-07-03-abtest-behavior-driven-fuzzing-coding-agents-codex-cli-interaction-patterns-anomaly-detection.md`
