@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Sandboxed Coding Agents as Omni-Modal Task Solvers — Multimedia Benchmarks and Codex CLI Tool Orchestration (2026-07-03 Hourly Article Run)
+
+1. ✅ **Sandboxed Coding Agents as Omni-Modal Task Solvers: What Multimedia Benchmarks Reveal About Codex CLI's Tool Orchestration Ceiling** — Written 2026-07-03 → `2026-07-03-sandboxed-coding-agents-omni-modal-task-solvers-codex-cli-multimedia-ffmpeg-tool-orchestration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. published arXiv:2606.00579 (May 2026), sandboxed coding agents matching/outperforming native omni-modal models on evidence extraction benchmarks (GPT-5.4 xHigh 75.0% vs Gemini 3.1 Pro 66.1% on OmniGAIA); counterpoint from Heo et al. arXiv:2605.10966 (May 2026) MMTB benchmark showing 3x advantage for native multimedia perception on production tasks (37.1% vs 12.4%); Codex CLI at 16.2% and $7.12/task with 2,620.6k tokens; six-category failure taxonomy; skill injection via log-driven self-distillation at 76.7%; TerminalBench-O 50-task process-level benchmark; mapped to Codex CLI AGENTS.md multimedia processing rules, sandbox writable_roots for media workdirs, tool_output_token_limit for cost control, PostToolUse hooks for extraction validation, codex doctor pre-flight checks
+   - SEO targets: "codex cli multimedia processing", "sandboxed coding agent omni-modal", "codex cli ffmpeg video audio", "coding agent multimedia benchmark MMTB", "codex cli tool orchestration multimedia", "AGENTS.md multimedia processing rules"
+
+---
+
 ## Empirical Token Consumption Analysis — Where Tokens Go and Codex CLI Budget Control (2026-07-03 Hourly Article Run)
 
 1. ✅ **Where Do Your Tokens Go? What Empirical Research Reveals About Coding Agent Token Consumption — and How to Control It with Codex CLI** — Written 2026-07-03 → `2026-07-03-where-do-your-tokens-go-empirical-token-consumption-coding-agents-codex-cli-budget-control.md`
