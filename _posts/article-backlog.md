@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Open-Weight Agentic Models — OpenThoughts-Agent, Tmax, and Codex CLI Custom Provider Workflows (2026-07-03 Hourly Article Run)
+
+1. ✅ **Open-Weight Agentic Models Are Closing the Gap: What OpenThoughts-Agent and Tmax Mean for Codex CLI Custom Provider Workflows** — Written 2026-07-03 → `2026-07-03-open-weight-agentic-models-openthoughts-tmax-codex-cli-custom-provider-local-agent-training.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Raoof et al. published arXiv:2606.24855 (June 2026), OpenThoughts-Agent 100K-example six-stage SFT data pipeline, OpenThinkerAgent-32B achieving 54.0% on SWE-Bench Verified-100 (12.1pp over Nemotron-Terminal-32B); Ivison et al. arXiv:2606.23321 (June 2026) Tmax RL-only terminal agent recipe, Tmax-9B 27.2% on Terminal-Bench 2.0 approaching Claude Haiku 4.5 29.8%, Tmax-27B 42.7% approaching Kimi K2.5 43.2%; mapped to Codex CLI custom provider config.toml, --oss flag, profile-based model routing, rollout_token_budget caps, sandbox hardening for open-weight models, AGENTS.md structural constraints
+   - SEO targets: "open weight agentic model codex cli", "OpenThoughts-Agent codex cli custom provider", "Tmax terminal agent open source", "codex cli local model Ollama config", "open source coding agent training recipe", "codex cli profile model routing open weight"
+
+---
+
 ## Governance Decay and Self-Compacting Agents — Context Compaction Safety Constraints (2026-07-03 Hourly Article Run)
 
 1. ✅ **Governance Decay and Self-Compacting Agents: What Happens When Context Compaction Silently Erases Your Safety Constraints** — Written 2026-07-03 → `2026-07-03-governance-decay-self-compacting-agents-context-compaction-safety-constraints-codex-cli-constraint-pinning.md`
