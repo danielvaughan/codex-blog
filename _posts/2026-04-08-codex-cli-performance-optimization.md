@@ -2,7 +2,7 @@
 title: "Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics"
 description: "Every Codex CLI session burns tokens. Most developers have a rough sense of the cost—prompts in, completions out—but the reality is more nuanced. System."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-07-03T02:10:35+01:00
+last_modified_at: 2026-07-03T03:09:44+01:00
 tags:
   - performance
   - token-overhead

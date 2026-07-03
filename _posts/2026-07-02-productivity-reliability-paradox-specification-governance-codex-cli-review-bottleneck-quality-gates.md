@@ -303,7 +303,7 @@ Forty-five minutes of specification authorship per feature is the tax. Halving y
 
 [^3]: DORA (2024). "Accelerate State of DevOps Report." Survey of 3,000 organisations showing 7.2% delivery stability decrease with high AI adoption. [https://dora.dev/research/](https://dora.dev/research/)
 
-[^4]: Becker, S. et al. (2025). "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity." METR RCT, 16 developers, 246 tasks. [https://arxiv.org/abs/2507.09089](https://arxiv.org/abs/2507.09089)
+[^4]: Becker, J. et al. (2025). "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity." METR RCT, 16 developers, 246 tasks. [https://arxiv.org/abs/2507.09089](https://arxiv.org/abs/2507.09089)
 
 [^5]: Peng, S. et al. (2023). "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot." RCT with 95 developers showing 55–56% faster task completion. [https://arxiv.org/abs/2302.06590](https://arxiv.org/abs/2302.06590)
 
