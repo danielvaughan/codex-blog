@@ -1,5 +1,14 @@
 # Article Backlog
 
+
+## Runtime-Structured Task Decomposition — RSTD and Codex CLI Selective Retry Orchestration (2026-07-04 Hourly Article Run)
+
+1. ✅ **Runtime-Structured Task Decomposition: What RSTD Reveals About Escaping the Monolithic Prompt Trap — and How Codex CLI's Architecture Already Implements It** — Written 2026-07-04 → `2026-07-04-runtime-structured-task-decomposition-rstd-codex-cli-selective-retry-subagent-orchestration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Asthana et al. published arXiv:2605.15425 (May 2026, ACM AI & Agentic Systems Workshop), Runtime-Structured Task Decomposition (RSTD): architectural pattern externalising task structure into executable control flow with schema-validated LLM judgement calls, deterministic orchestration in code, selective retry at subtask granularity; 51.7% lower retry cost vs monolithic (436±132 tokens vs 904±17); static decomposition worse under failure (1,632±145 tokens) due to downstream cascade; Mellea framework evaluation across three configurations; complemented by "Code as Agent Harness" survey (arXiv:2605.18747, 42 researchers) identifying four harness properties (executable, inspectable, stateful, governed); mapped to Codex CLI codex exec non-interactive mode, --output-schema structured validation, custom agents in .codex/agents/ with per-agent model routing, PostToolUse hooks as checkpoint validators, openai/codex-action@v1 GitHub Action for CI decomposition, rollout_token_budget per-agent isolation, AGENTS.md decomposition rules
+   - SEO targets: "RSTD codex cli task decomposition", "runtime structured task decomposition coding agent", "codex cli selective retry subagent", "monolithic prompt coding agent failure", "codex exec schema validation CI", "codex cli subagent orchestration retry isolation"
+
+---
+
 ## The Over-Mocking Problem — Agent-Generated Test Quality and Codex CLI Defences (2026-07-03 Hourly Article Run)
 
 1. ✅ **The Over-Mocking Problem: What Empirical Research Reveals About Agent-Generated Test Quality — and How to Defend Your Suite with Codex CLI** — Written 2026-07-03 → `2026-07-03-over-mocking-problem-agent-generated-test-quality-codex-cli-agents-md-mutation-testing-defence.md`
