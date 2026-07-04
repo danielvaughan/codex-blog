@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## CLI Coding Agent Adoption at Scale — Microsoft Peer-Driven Rollout and Enterprise Strategy (2026-07-04 Hourly Article Run)
+
+1. ✅ **CLI Coding Agent Adoption at Scale: What Microsoft's 24% PR Lift Reveals About Peer-Driven Rollout — and How to Apply It to Your Codex CLI Deployment** — Written 2026-07-04 → `2026-07-04-cli-coding-agent-adoption-microsoft-study-peer-driven-rollout-codex-cli-enterprise-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Murphy-Hill, Butler & Savelieva published arXiv:2607.01418 (July 2026), study of tens of thousands of Microsoft engineers during early-2026 deployment of Claude Code and GitHub Copilot CLI; 24.0% merged PR lift (95% CI +14.5%, +33.7%); skip-level peer usage +216% adoption odds; dose-response from +15% at 3 days/week to +50.1% at 5+ days/week; retention associated with coding activity not demographics; contextualised with Faros AI 22,000-developer paradox study (98% more PRs, 91% longer reviews, 54% more bugs) and Agarwal et al. arXiv:2601.13597 first-tool effect; mapped to Codex CLI profile system, rollout_token_budget diff size control, PostToolUse quality hooks, Guardian auto-review subagent, custom agent definitions, codex exec batch operations
+   - SEO targets: "codex cli enterprise adoption", "cli coding agent adoption microsoft study", "peer-driven rollout coding agent", "codex cli productivity 24 percent PR lift", "enterprise coding agent review bottleneck", "codex cli profiles rollout strategy"
+
+---
+
 ## Coding Benchmarks Misaligned with Agentic Software Engineering — Harness Components and Benchmark-Production Gap (2026-07-04 Hourly Article Run)
 
 1. ✅ **Coding Benchmarks Are Misaligned with Agentic Software Engineering: What the Harness Component Gap Means for Codex CLI Developers** — Written 2026-07-04 → `2026-07-04-coding-benchmarks-misaligned-agentic-software-engineering-codex-cli-harness-components-benchmark-production-gap.md`
