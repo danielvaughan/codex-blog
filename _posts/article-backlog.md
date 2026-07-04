@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Life-Harness Runtime Harness Adaptation — Four Lifecycle Layers and Codex CLI Mapping (2026-07-04 Hourly Article Run)
+
+1. ✅ **Life-Harness and Runtime Harness Adaptation: What a 126-Setting Study Reveals About Improving Frozen LLM Agents Through Interface Engineering — and How Codex CLI Already Implements All Four Lifecycle Layers** — Written 2026-07-04 → `2026-07-04-life-harness-runtime-harness-adaptation-frozen-llm-agents-codex-cli-four-lifecycle-layers.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Xu, Wen & Li published arXiv:2605.22166 (May 2026, revised May 27), Life-Harness: lifecycle-aware runtime harness that improves frozen LLM agents without changing weights; four lifecycle layers (environment contracts, procedural skills, action realisation, trajectory regulation); 116/126 model-environment settings improved, 88.5% average relative gain; cross-backbone transfer from Qwen3-4B-Instruct to 17 other models; evaluated on τ-bench, τ²-bench, AgentBench; complemented by OpenAI Harness Engineering guide, CAAF (arXiv:2604.17025), HarnessX (arXiv:2606.14249); mapped to Codex CLI AGENTS.md as environment contract, SKILL.md as procedural skills, PreToolUse hooks as action realisation, PostToolUse hooks + rollout_token_budget as trajectory regulation, plugin system for harness distribution
+   - SEO targets: "life-harness codex cli runtime adaptation", "harness engineering coding agent four layers", "frozen LLM agent improvement harness", "codex cli hooks skills AGENTS.md lifecycle layers", "runtime harness adaptation deterministic agents", "cross-backbone transfer coding agent harness"
+
+---
+
+
 ## AGENTS.md Structure Doesn't Matter — Factorial Study on Instruction Adherence (2026-07-04 Hourly Article Run)
 
 1. ✅ **AGENTS.md Structure Doesn't Matter: What a 16,050-Observation Factorial Study Reveals About Instruction Adherence** — Written 2026-07-04 → `2026-07-04-agents-md-structure-doesnt-matter-factorial-study-instruction-adherence-codex-cli.md`
