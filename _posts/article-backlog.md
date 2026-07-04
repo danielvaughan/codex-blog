@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Coding Benchmarks Misaligned with Agentic Software Engineering — Harness Components and Benchmark-Production Gap (2026-07-04 Hourly Article Run)
+
+1. ✅ **Coding Benchmarks Are Misaligned with Agentic Software Engineering: What the Harness Component Gap Means for Codex CLI Developers** — Written 2026-07-04 → `2026-07-04-coding-benchmarks-misaligned-agentic-software-engineering-codex-cli-harness-components-benchmark-production-gap.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Gorinova et al. published arXiv:2606.17799 (June 2026), position paper from Tessl identifying three misalignment symptoms in coding benchmarks; Claude Opus 4.6 ranging 58.0–79.8% across harnesses on Terminal-Bench (21.8pp harness-driven variance); 456k agent-authored PRs showing 35–64% acceptance vs >70% benchmark headlines; 32.67% solution leakage in SWE-Bench; five-component system harness framework (tasks, agent harness, environment, context, feedback signals); three-tier feedback categorisation; mapped to Codex CLI config.toml profiles, AGENTS.md cascading hierarchy, PostToolUse hooks as inner/middle/outer-loop feedback, custom agent definitions, /goal persistent objectives, Guardian auto-review, project_doc_max_bytes context tuning
+   - SEO targets: "coding benchmarks misaligned agentic software engineering", "codex cli harness component benchmark gap", "SWE-bench harness scaffold variance", "codex cli harness engineering ROI", "benchmark production gap coding agent", "system harness five components codex cli"
+
+---
+
 ## RepoRescue Compatibility Rescue — Legacy Repository Modernisation and Cross-File Coordination (2026-07-04 Hourly Article Run)
 
 1. ✅ **RepoRescue and the Compatibility Rescue Problem: Why Agents Fail at Cross-File Coordination — and How Codex CLI's Modernisation Workflow Closes the Gap** — Written 2026-07-04 → `2026-07-04-reporescue-compatibility-rescue-legacy-repositories-codex-cli-modernisation-workflow-cross-file-coordination.md`
