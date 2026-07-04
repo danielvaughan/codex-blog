@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## SWE-Chain Chained Package Upgrades — Goal Mode and Sequential Maintenance (2026-07-04 Hourly Article Run)
+
+1. ✅ **SWE-Chain and the Chained Upgrade Problem: Why Your Agent Breaks at Version Three — and How Codex CLI's Goal Mode Keeps the Chain Intact** — Written 2026-07-04 → `2026-07-04-swe-chain-chained-package-upgrades-benchmark-codex-cli-goal-mode-sequential-maintenance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cheng et al. published arXiv:2605.14415 (May 2026), SWE-Chain: benchmark for chained release-level package upgrades across 12 chains, 9 Python packages, 155 version transitions, 1,660 grounded upgrade requirements; Build+Fix evaluation regime; Claude-Opus-4.7 leads at 60.8% resolving, 80.6% precision, 68.5% F1; average across 9 agents only 44.8% resolving; open-weight models degrade sharply on harder chains; cascading error propagation identified as core failure mode; mapped to Codex CLI /goal persistent objectives, chained goals, PostToolUse test validation hooks, AGENTS.md upgrade protocol encoding, codex exec scripted chain orchestration, worktree isolation for safe rollback, rollout_token_budget per-transition cost control
+   - SEO targets: "SWE-Chain codex cli chained upgrades", "coding agent package upgrade benchmark", "codex cli goal mode sequential maintenance", "chained release upgrade coding agent", "codex cli PostToolUse upgrade validation", "cascading error propagation coding agent"
+
+---
+
 ## Life-Harness Runtime Harness Adaptation — Four Lifecycle Layers and Codex CLI Mapping (2026-07-04 Hourly Article Run)
 
 1. ✅ **Life-Harness and Runtime Harness Adaptation: What a 126-Setting Study Reveals About Improving Frozen LLM Agents Through Interface Engineering — and How Codex CLI Already Implements All Four Lifecycle Layers** — Written 2026-07-04 → `2026-07-04-life-harness-runtime-harness-adaptation-frozen-llm-agents-codex-cli-four-lifecycle-layers.md`
