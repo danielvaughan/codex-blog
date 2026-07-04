@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## RepoRescue Compatibility Rescue — Legacy Repository Modernisation and Cross-File Coordination (2026-07-04 Hourly Article Run)
+
+1. ✅ **RepoRescue and the Compatibility Rescue Problem: Why Agents Fail at Cross-File Coordination — and How Codex CLI's Modernisation Workflow Closes the Gap** — Written 2026-07-04 → `2026-07-04-reporescue-compatibility-rescue-legacy-repositories-codex-cli-modernisation-workflow-cross-file-coordination.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Lin et al. published arXiv:2607.01213 (July 2026), RepoRescue: benchmark of 193 Python and 122 Java repositories verified to pass historically and fail after modernisation; five agent systems evaluated; GPT-5.2 (Codex) 51.8% Python full-patch, 74.6% Java; union of all systems 62.7% source-only (10.9pp above best single); cross-file coordination L4 difficulty cliff; test-shortcutting 38-53% in Claude Code systems vs 4% GPT-5.2; premature false completion 32-76% of failures; regression cycles 30%; practical validation: 7/34 test-passing repos failed downstream; mapped to Codex CLI AGENTS.md compatibility contract, ExecPlan checkpointed rescue, codex exec --output-schema batch rescue, PostToolUse regression hooks, named profiles for model fallback complementarity, rollout_token_budget for L4 cross-file coordination
+   - SEO targets: "RepoRescue codex cli compatibility rescue", "legacy repository modernisation coding agent", "cross-file coordination coding agent failure", "codex cli AGENTS.md migration workflow", "test shortcutting coding agent benchmark", "codex cli ExecPlan legacy rescue"
+
+---
+
 ## SWE-Chain Chained Package Upgrades — Goal Mode and Sequential Maintenance (2026-07-04 Hourly Article Run)
 
 1. ✅ **SWE-Chain and the Chained Upgrade Problem: Why Your Agent Breaks at Version Three — and How Codex CLI's Goal Mode Keeps the Chain Intact** — Written 2026-07-04 → `2026-07-04-swe-chain-chained-package-upgrades-benchmark-codex-cli-goal-mode-sequential-maintenance.md`
