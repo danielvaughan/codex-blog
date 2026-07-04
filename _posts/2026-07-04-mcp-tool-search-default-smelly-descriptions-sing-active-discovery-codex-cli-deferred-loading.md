@@ -216,6 +216,6 @@ For today's practice, the actionable advice is straightforward: audit your MCP t
 
 [^6]: OpenAI, "Configuration Reference — Codex," OpenAI Developers, 2026. [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
 
-[^7]: "From REST to MCP: An Empirical Study of API Wrapping and Automated Server Generation for LLM Agents," arXiv:2507.16044, April 2026. [https://arxiv.org/abs/2507.16044](https://arxiv.org/abs/2507.16044)
+[^7]: M. Mastouri, E. Ksontini, A. Barrak, and W. Kessentini, "From REST to MCP: An Empirical Study of API Wrapping and Automated Server Generation for LLM Agents," arXiv:2507.16044, July 2025 (revised April 2026). [https://arxiv.org/abs/2507.16044](https://arxiv.org/abs/2507.16044)
 
 [^8]: H. Li et al., "CODESKILL: Multi-Granularity Procedural Skill Extraction with RL-Trained Skill Management," arXiv:2605.25430, May 2026. [https://arxiv.org/abs/2605.25430](https://arxiv.org/abs/2605.25430)

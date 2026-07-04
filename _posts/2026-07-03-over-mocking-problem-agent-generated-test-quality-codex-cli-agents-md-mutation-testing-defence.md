@@ -232,7 +232,7 @@ The defence is not to stop agents from writing tests. It is to treat test genera
 
 [^1]: A. Hora, R. Robbes, "Are Coding Agents Generating Over-Mocked Tests? An Empirical Study," MSR 2026, arXiv:2602.00409. [https://arxiv.org/abs/2602.00409](https://arxiv.org/abs/2602.00409)
 
-[^2]: S. Yoshimoto, S. Fujita, K. Horikawa, D. Feitosa, Y. Kashiwa, H. Iida, "Testing with AI Agents: An Empirical Study of Test Generation Frequency, Quality, and Coverage," ICSE 2026, arXiv:2603.13724. [https://arxiv.org/abs/2603.13724](https://arxiv.org/abs/2603.13724)
+[^2]: S. Yoshimoto, S. Fujita, K. Horikawa, D. Feitosa, Y. Kashiwa, H. Iida, "Testing with AI Agents: An Empirical Study of Test Generation Frequency, Quality, and Coverage," MSR 2026, arXiv:2603.13724. [https://arxiv.org/abs/2603.13724](https://arxiv.org/abs/2603.13724)
 
 [^3]: Augment Code, "Mutation Testing for AI-Generated Code: A Practical Guide," 2026. [https://www.augmentcode.com/guides/mutation-testing-ai-generated-code](https://www.augmentcode.com/guides/mutation-testing-ai-generated-code)
 
