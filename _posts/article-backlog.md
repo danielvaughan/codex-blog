@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Frontier Coding Agents Use Metaprogramming — EsoLang-Bench and Codex CLI Sandbox Strategy (2026-07-05 Hourly Article Run)
+
+1. ✅ **Frontier Coding Agents Use Metaprogramming to Escape Unfamiliar Languages — What EsoLang-Bench Reveals and How Codex CLI's Sandbox Makes It Work** — Written 2026-07-05 → `2026-07-05-frontier-coding-agents-metaprogramming-unfamiliar-languages-codex-cli-sandbox-execution-strategy-transfer.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sharma, Thorat & Chopra published arXiv:2606.10933 (June 2026), EsoLang-Bench: 80 problems × 4 esoteric languages (Brainfuck, Befunge-98, Whitespace, Shakespeare), 6 agents evaluated; GPT-5.4 xhigh 99.7% mean, Opus 4.6 86.9%; 88.4pp spread vs 6.6pp SWE-Bench; metaprogramming ablation: Opus BF 80%→33.75%, GPT-5.4 xhigh BF 98.8%→36.25%; strategy transfer: Sonnet BF 12→64 with Opus library (+5.3×); cross-host language Python/JS/Rust near-equivalent; mapped to Codex CLI workspace-write sandbox, on-request approval for iterative execution, AGENTS.md strategy encoding, custom agent definitions for model routing, generator library reuse
+   - SEO targets: "coding agent metaprogramming unfamiliar languages", "EsoLang-Bench codex cli sandbox", "agent strategy transfer generator library", "codex cli workspace-write execution loop", "frontier coding agent adaptation esoteric languages", "metaprogramming ablation coding agent benchmark"
+
+---
+
 ## Developer-Agent Misalignment — Seven Failure Forms and Codex CLI Defence (2026-07-04 Hourly Article Run)
 
 1. ✅ **How Coding Agents Fail Their Users: What 20,574 Real-World Sessions Reveal About Misalignment — and How Codex CLI Defends Against the Seven Failure Forms** — Written 2026-07-04 → `2026-07-04-developer-agent-misalignment-20574-sessions-codex-cli-constraint-violation-defence-hooks-approval-policy.md`

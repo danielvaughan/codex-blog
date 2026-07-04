@@ -2,7 +2,7 @@
 title: "Codex Through the Glass: Google Sheets as a Codex Interface"
 description: "How to use Google Sheets and Apps Script as a spreadsheet-native interface to Codex, where every row is a task and every cell is an output."
 date: 2026-06-12T20:02:00+00:00
-last_modified_at: 2026-07-04T22:13:52+01:00
+last_modified_at: 2026-07-05T00:14:00+01:00
 series: "Codex Through the Glass"
 series_order: 3
 tags:
