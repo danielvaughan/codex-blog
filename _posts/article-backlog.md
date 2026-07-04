@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## AGENTS.md Structure Doesn't Matter — Factorial Study on Instruction Adherence (2026-07-04 Hourly Article Run)
+
+1. ✅ **AGENTS.md Structure Doesn't Matter: What a 16,050-Observation Factorial Study Reveals About Instruction Adherence** — Written 2026-07-04 → `2026-07-04-agents-md-structure-doesnt-matter-factorial-study-instruction-adherence-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — McMillan published arXiv:2605.10039 (May 2026), factorial study of four file-structure variables (file size, instruction position, file architecture, contradictions in adjacent files) across 1,650 Claude Code CLI sessions (16,050 function-level observations), two TypeScript codebases, three frontier models (Sonnet 4.6, Opus 4.6, Opus 4.7), five coding tasks; null result: none of the four structural variables or three two-way interactions produced a detectable contrast after multiple-testing correction; task identity was strongest predictor with 26.2pp gap; complemented by Gloaguen et al. arXiv:2601.20404 finding LLM-generated AGENTS.md reduces success by ~3% and increases costs 20%+; mapped to Codex CLI AGENTS.md cascading instruction chain, hooks as deterministic enforcement layer, project_doc_max_bytes configuration, signal density over structure
+   - SEO targets: "AGENTS.md structure doesn't matter", "instruction adherence coding agent empirical study", "AGENTS.md factorial study file structure", "codex cli AGENTS.md best practices evidence", "coding agent configuration file compliance", "AGENTS.md length diminishing returns"
+
+---
+
 ## Runtime-Structured Task Decomposition — RSTD and Codex CLI Selective Retry Orchestration (2026-07-04 Hourly Article Run)
 
 1. ✅ **Runtime-Structured Task Decomposition: What RSTD Reveals About Escaping the Monolithic Prompt Trap — and How Codex CLI's Architecture Already Implements It** — Written 2026-07-04 → `2026-07-04-runtime-structured-task-decomposition-rstd-codex-cli-selective-retry-subagent-orchestration.md`

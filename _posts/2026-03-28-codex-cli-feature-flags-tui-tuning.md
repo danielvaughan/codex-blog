@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Feature Flags and TUI Tuning: The Hidden Configuration Layer"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-04T04:09:08+01:00
+last_modified_at: 2026-07-04T06:11:14+01:00
 description: "Most Codex CLI users configure the obvious knobs — model, approval policy, MCP servers — and leave the rest at defaults."
 substack_status: draft
 tags:
