@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Specialize Roles Mix Deployments — Heterogeneous Agent Teams and Codex CLI Custom Agent Model Routing (2026-07-05 Hourly Article Run)
+
+1. ✅ **Specialize Roles, Mix Deployments: What AgentCARD Reveals About Heterogeneous Agent Teams — and How Codex CLI's Custom Agent Definitions Deliver It** — Written 2026-07-05 → `2026-07-05-specialize-roles-mix-deployments-heterogeneous-agent-teams-codex-cli-custom-agents-model-routing-cost-accuracy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Jiang et al. published arXiv:2606.20629 (June 2026), AgentCARD benchmark across eight domains (AgentBench, TAU-Bench, MultiAgentBench, HAL, MedAgentBench, FinanceBench, SWE-Bench, IMO-Bench); heterogeneous teams achieve up to 44% accuracy gain over cost-equivalent homogeneous teams; hybrid deployment matches strongest homogeneous at 12× lower cost; Shapley-based role diagnostics reveal domain-dependent bottlenecks (planner-bottlenecked vs executor-bottlenecked); mapped to Codex CLI custom agent definitions (.codex/agents/ TOML), per-role model assignment, named profiles for model routing, service_tier flex pricing, Guardian auto-review as verifier role, PostToolUse deterministic gates, rollout_token_budget per-task cost control
+   - SEO targets: "heterogeneous agent teams codex cli", "AgentCARD role specialisation coding agent", "codex cli custom agent definitions model routing", "coding agent cost accuracy Pareto frontier", "Shapley role bottleneck coding agent", "codex cli multi-agent deployment cost optimisation"
+
+---
+
 ## AI Writes Faster Than Humans Can Review — Enterprise 2× Mandate and Codex CLI Guardian Auto-Review Bottleneck Defence (2026-07-05 Hourly Article Run)
 
 1. ✅ **AI Writes Faster Than Humans Can Review: What an Enterprise 2× Mandate Reveals About the Review Bottleneck — and How Codex CLI's Guardian Architecture Absorbs the Load** — Written 2026-07-05 → `2026-07-05-ai-writes-faster-than-humans-review-enterprise-2x-mandate-codex-cli-guardian-auto-review-bottleneck-defence.md`
