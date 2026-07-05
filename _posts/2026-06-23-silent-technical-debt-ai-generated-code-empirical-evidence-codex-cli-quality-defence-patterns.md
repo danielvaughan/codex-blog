@@ -2,9 +2,11 @@
 title: "Silent Technical Debt in AI-Generated Code: What 302,000 Commits Reveal and How Codex CLI Defends Against It"
 parent: "Articles"
 nav_order: 1202
+type: Technical Article
+timestamp: 2026-06-23T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-silent-technical-debt-ai-generated-code-empirical-evidence-codex-cli-quality-defence-patterns"
 tags: ["codex-cli", "technical-debt", "code-quality", "static-analysis", "PostToolUse", "AGENTS.md", "hooks", "code-reuse", "MSR-2026"]
 ---
-
 # Silent Technical Debt in AI-Generated Code: What 302,000 Commits Reveal and How Codex CLI Defends Against It
 
 

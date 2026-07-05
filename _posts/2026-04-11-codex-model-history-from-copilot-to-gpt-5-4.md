@@ -2,7 +2,7 @@
 title: "From Codex to GPT-5.4: The Complete History of OpenAI's Code Models"
 description: "In July 2021, OpenAI published a paper describing a GPT-3 model fine-tuned on 159 gigabytes of Python code from 54 million GitHub repositories. They called."
 date: 2026-04-11T06:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - codex
   - history
@@ -12,8 +12,10 @@ tags:
   - timeline
   - swe-bench
   - humaneval
+type: Technical Article
+timestamp: 2026-04-11T07:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-codex-model-history-from-copilot-to-gpt-5-4"
 ---
-
 ![Sketchnote diagram for: From Codex to GPT-5.4: The Complete History of OpenAI's Code Models](/sketchnotes/articles/2026-04-11-codex-model-history-from-copilot-to-gpt-5-4.png)
 
 # From Codex to GPT-5.4: The Complete History of OpenAI's Code Models

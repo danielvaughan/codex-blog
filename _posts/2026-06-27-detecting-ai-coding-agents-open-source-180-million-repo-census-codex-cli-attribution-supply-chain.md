@@ -2,9 +2,11 @@
 title: "The Invisible Agent Problem: What a 180-Million-Repository Census Reveals About Codex CLI's Footprint in Open Source"
 parent: "Articles"
 nav_order: 1249
+type: Technical Article
+timestamp: 2026-06-27T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-detecting-ai-coding-agents-open-source-180-million-repo-census-codex-cli-attribution-supply-chain"
 tags: ["codex-cli", "open-source", "attribution", "supply-chain", "agents-md", "research", "census", "git", "governance", "transparency"]
 ---
-
 # The Invisible Agent Problem: What a 180-Million-Repository Census Reveals About Codex CLI's Footprint in Open Source
 
 

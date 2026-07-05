@@ -2,9 +2,11 @@
 title: "StaminaBench: What Stress-Testing Coding Agents over 100 Turns Means for Codex CLI Session Strategy"
 parent: "Articles"
 nav_order: 1177
+type: Technical Article
+timestamp: 2026-06-20T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-staminabench-stress-testing-coding-agents-100-turns-codex-cli-session-stamina-harness-retry-strategy"
 tags: ["codex-cli", "staminabench", "long-horizon", "session-management", "context-compaction", "retry-strategy", "harness-design", "benchmarks"]
 ---
-
 # StaminaBench: What Stress-Testing Coding Agents over 100 Turns Means for Codex CLI Session Strategy
 
 

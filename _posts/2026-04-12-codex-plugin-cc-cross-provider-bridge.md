@@ -3,9 +3,11 @@ title: "codex-plugin-cc: OpenAI's Official Cross-Provider Bridge for Claude Code
 description: "On 30 March 2026, OpenAI did something unprecedented in the AI coding tool market: it shipped an official plugin that installs inside a competitor's."
 parent: "Articles"
 nav_order: 262
+type: Technical Article
+timestamp: 2026-04-12T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-plugin-cc-cross-provider-bridge"
 tags: ["codex-plugin-cc", "cross-provider", "claude-code", "review-gate", "adversarial-review", "subagent", "broker", "mcp", "multi-agent"]
 ---
-
 ![Sketchnote diagram for: codex-plugin-cc: OpenAI's Official Cross-Provider Bridge for Claude Code](/sketchnotes/articles/2026-04-12-codex-plugin-cc-cross-provider-bridge.png)
 
 # codex-plugin-cc: OpenAI's Official Cross-Provider Bridge for Claude Code

@@ -2,9 +2,11 @@
 title: "AWCP and the Missing Workspace Layer: What Filesystem-Level Agent Delegation Means for Codex CLI Multi-Agent Workflows"
 parent: "Articles"
 nav_order: 1256
+type: Technical Article
+timestamp: 2026-06-27T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-awcp-workspace-delegation-protocol-codex-cli-multi-agent-filesystem-collaboration-mcp-a2a"
 tags: ["codex-cli", "AWCP", "multi-agent", "workspace-delegation", "MCP", "A2A", "protocol", "interoperability", "worktree", "subagent"]
 ---
-
 # AWCP and the Missing Workspace Layer: What Filesystem-Level Agent Delegation Means for Codex CLI Multi-Agent Workflows
 
 

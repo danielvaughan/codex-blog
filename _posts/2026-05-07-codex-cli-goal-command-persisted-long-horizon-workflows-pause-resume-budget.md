@@ -3,9 +3,11 @@ title: "Codex CLI /goal: Persisted Long-Horizon Workflows with Pause, Resume, an
 description: "Most Codex CLI interactions follow a prompt-diff-done cadence: you describe what you want, approve the plan, and move on."
 parent: "Articles"
 nav_order: 622
+type: Technical Article
+timestamp: 2026-05-07T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-goal-command-persisted-long-horizon-workflows-pause-resume-budget"
 tags: ["codex-cli", "goal-workflows", "long-horizon", "persistence", "token-budgets", "autonomous-agents"]
 ---
-
 ![Sketchnote diagram for: Codex CLI /goal: Persisted Long-Horizon Workflows with Pause, Resume, and Token Budgets](/sketchnotes/articles/2026-05-07-codex-cli-goal-command-persisted-long-horizon-workflows-pause-resume-budget.png)
 
 

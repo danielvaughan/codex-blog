@@ -2,9 +2,11 @@
 title: "Codex CLI with Confluence and Notion: Knowledge-Base MCP Integration"
 parent: "Articles"
 nav_order: 880
+type: Technical Article
+timestamp: 2026-05-27T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-confluence-notion-knowledge-base-mcp-integration"
 tags: ["codex-cli", "mcp", "confluence", "notion", "knowledge-base", "atlassian", "productivity"]
 ---
-
 # Codex CLI with Confluence and Notion: Knowledge-Base MCP Integration
 
 

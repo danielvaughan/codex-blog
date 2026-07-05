@@ -2,9 +2,11 @@
 title: "Codex CLI for Marimo Reactive Notebooks: Agent Pair Programming, marimo pair, and Data Science Workflows"
 parent: "Articles"
 nav_order: 902
+type: Technical Article
+timestamp: 2026-05-28T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-marimo-reactive-notebooks-agent-pair-programming-data-science-workflows"
 tags: ["codex-cli", "marimo", "reactive-notebooks", "agent-pair-programming", "data-science", "marimo-pair", "acp", "python"]
 ---
-
 # Codex CLI for Marimo Reactive Notebooks: Agent Pair Programming, marimo pair, and Data Science Workflows
 
 

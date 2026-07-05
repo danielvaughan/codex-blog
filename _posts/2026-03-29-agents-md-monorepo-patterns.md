@@ -2,12 +2,14 @@
 title: "Advanced AGENTS.md Patterns for Monorepos"
 description: "Monorepos concentrate a large surface area of code under a single Git root, and that concentration creates a fundamental tension for AI coding agents."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - configuration
   - agents-md
+type: Technical Article
+timestamp: 2026-03-29T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-29-agents-md-monorepo-patterns"
 ---
-
 ![Sketchnote diagram for: Advanced AGENTS.md Patterns for Monorepos](/sketchnotes/articles/2026-03-29-agents-md-monorepo-patterns.png)
 
 # Advanced AGENTS.md Patterns for Monorepos

@@ -2,9 +2,11 @@
 title: "Multi-Provider Resilience Playbook: Failover, Routing, and Regulatory Risk Management for Codex CLI"
 parent: "Articles"
 nav_order: 1163
+type: Technical Article
+timestamp: 2026-06-19T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-multi-provider-resilience-playbook-codex-cli-failover-routing-regulatory-risk-credential-management"
 tags: ["codex-cli", "multi-provider", "resilience", "failover", "routing", "regulatory-risk", "gateway", "configuration", "premium"]
 ---
-
 # Multi-Provider Resilience Playbook: Failover, Routing, and Regulatory Risk Management for Codex CLI
 
 

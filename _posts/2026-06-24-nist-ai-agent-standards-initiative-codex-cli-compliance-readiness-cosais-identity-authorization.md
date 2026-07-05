@@ -2,9 +2,11 @@
 title: "The NIST AI Agent Standards Initiative: What It Means for Codex CLI and Your Compliance Roadmap"
 parent: "Articles"
 nav_order: 1220
+type: Technical Article
+timestamp: 2026-06-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-nist-ai-agent-standards-initiative-codex-cli-compliance-readiness-cosais-identity-authorization"
 tags: ["codex-cli", "NIST", "compliance", "security", "enterprise", "AI agent standards", "COSAiS", "SP 800-53", "identity", "authorization", "requirements.toml"]
 ---
-
 # The NIST AI Agent Standards Initiative: What It Means for Codex CLI and Your Compliance Roadmap
 
 

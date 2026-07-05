@@ -2,9 +2,11 @@
 title: "Inside the Scaffold: What Academic Research Reveals About Codex CLI's Agent Architecture"
 parent: "Articles"
 nav_order: 1035
+type: Technical Article
+timestamp: 2026-06-08T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-inside-the-scaffold-academic-research-codex-cli-agent-architecture-taxonomy-harness-engineering"
 tags: ["codex-cli", "agent-architecture", "research", "taxonomy", "harness-engineering", "guardian", "AGENTS.md", "scaffold", "academic", "context-compaction", "safety"]
 ---
-
 # Inside the Scaffold: What Academic Research Reveals About Codex CLI's Agent Architecture
 
 

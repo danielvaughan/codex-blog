@@ -2,9 +2,11 @@
 title: "Codex CLI for Astro Development: Docs MCP, Agent Skills, and Edge-First Workflows on Cloudflare Workers"
 parent: "Articles"
 nav_order: 855
+type: Technical Article
+timestamp: 2026-05-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-astro-development-mcp-server-cloudflare-content-collections-agent-workflows"
 tags: ["codex-cli", "astro", "cloudflare", "mcp", "agent-skills", "content-collections", "edge-computing", "web-development", "AGENTS.md"]
 ---
-
 # Codex CLI for Astro Development: Docs MCP, Agent Skills, and Edge-First Workflows on Cloudflare Workers
 
 

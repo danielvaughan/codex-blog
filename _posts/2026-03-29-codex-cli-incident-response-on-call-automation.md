@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Incident Response: Automating On-Call with Agents"
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 description: "Wire PagerDuty/Datadog alerts into Codex CLI agentic workflows for AI-driven incident investigation and patch generation."
 tags:
   - ecosystem
@@ -12,8 +12,10 @@ tags:
   - datadog
   - on-call-automation
   - production-safety
+type: Technical Article
+timestamp: 2026-03-29T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-29-codex-cli-incident-response-on-call-automation"
 ---
-
 ![Sketchnote diagram for: Codex CLI Incident Response: Automating On-Call with Agents](/sketchnotes/articles/2026-03-29-codex-cli-incident-response-on-call-automation.png)
 
 *Published: 2026-03-29. Primary sources: [Datadog + OpenAI Codex CLI integration blog](https://www.datadoghq.com/blog/openai-datadog-ai-devops-agent/), [Datadog MCP Server docs](https://docs.datadoghq.com/bits_ai/mcp_server/), [Codex Advanced Config](https://developers.openai.com/codex/config-advanced).*

@@ -3,9 +3,11 @@ title: "Codex CLI Context Compaction Under GPT-5.5: Diagnosing Failures, Configu
 description: "Since GPT-5.5 became the default model in Codex CLI, a wave of compaction failures has disrupted long-running sessions for practitioners worldwide. GitHub."
 parent: "Articles"
 nav_order: 653
+type: Technical Article
+timestamp: 2026-05-10T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-context-compaction-gpt55-failures-resilient-long-sessions"
 tags: ["codex-cli", "context-compaction", "gpt-5.5", "long-sessions", "troubleshooting", "config.toml", "hooks"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Context Compaction Under GPT-5.5: Diagnosing Failures, Configuring Fallbacks, and Keeping Long Sessions Alive](/sketchnotes/articles/2026-05-10-codex-cli-context-compaction-gpt55-failures-resilient-long-sessions.png)
 
 

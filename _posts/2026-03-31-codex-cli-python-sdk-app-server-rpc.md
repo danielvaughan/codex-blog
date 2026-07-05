@@ -2,14 +2,16 @@
 title: "Codex CLI Python SDK and v2 App-Server Filesystem RPCs"
 description: "The v0.115.0 release of Codex CLI introduced two major primitives for programmatic control: an experimental Python SDK and a set of v2 filesystem RPCs."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - ecosystem
   - python-sdk
   - app-server
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-31T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-31-codex-cli-python-sdk-app-server-rpc"
 ---
-
 ![Sketchnote diagram for: Codex CLI Python SDK and v2 App-Server Filesystem RPCs](/sketchnotes/articles/2026-03-31-codex-cli-python-sdk-app-server-rpc.png)
 
 # Codex CLI Python SDK and v2 App-Server Filesystem RPCs

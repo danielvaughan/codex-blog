@@ -2,9 +2,11 @@
 title: "Codex CLI Context Scoping: .codexignore, File References, Permission Profiles, and Workspace Control"
 parent: "Articles"
 nav_order: 959
+type: Technical Article
+timestamp: 2026-06-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-context-scoping-codexignore-file-references-permission-profiles-workspace-control"
 tags: ["codex-cli", "context-management", "codexignore", "permission-profiles", "workspace-scoping", "file-references", "security"]
 ---
-
 # Codex CLI Context Scoping: .codexignore, File References, Permission Profiles, and Workspace Control
 
 

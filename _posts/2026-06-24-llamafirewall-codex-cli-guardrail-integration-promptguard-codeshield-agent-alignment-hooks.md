@@ -2,9 +2,11 @@
 title: "LlamaFirewall and Codex CLI: Wiring Meta's Three-Scanner Guardrail into Your Agent's Hook Pipeline"
 parent: "Articles"
 nav_order: 1210
+type: Technical Article
+timestamp: 2026-06-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-llamafirewall-codex-cli-guardrail-integration-promptguard-codeshield-agent-alignment-hooks"
 tags: ["codex-cli", "llamafirewall", "security", "guardrails", "prompt-injection", "codeshield", "hooks", "agent-security", "meta", "open-source"]
 ---
-
 # LlamaFirewall and Codex CLI: Wiring Meta's Three-Scanner Guardrail into Your Agent's Hook Pipeline
 
 

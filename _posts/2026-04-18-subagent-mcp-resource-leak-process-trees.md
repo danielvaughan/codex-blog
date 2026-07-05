@@ -3,9 +3,11 @@ title: "The Subagent Resource Leak Problem: Why MCP Process Trees Accumulate and
 description: "If you run Codex CLI with multiple MCP servers and use subagent workflows, you have almost certainly experienced the symptoms."
 parent: "Articles"
 nav_order: 325
+type: Technical Article
+timestamp: 2026-04-18T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-subagent-mcp-resource-leak-process-trees"
 tags: ["subagents", "mcp", "resource-leak", "debugging", "enterprise", "process-management"]
 ---
-
 ![Sketchnote diagram for: The Subagent Resource Leak Problem: Why MCP Process Trees Accumulate and What McpConnectionManager::shutdown() Fixes](/sketchnotes/articles/2026-04-18-subagent-mcp-resource-leak-process-trees.png)
 
 # The Subagent Resource Leak Problem: Why MCP Process Trees Accumulate and What McpConnectionManager::shutdown() Fixes

@@ -2,9 +2,11 @@
 title: "Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows"
 parent: "Articles"
 nav_order: 901
+type: Technical Article
+timestamp: 2026-05-28T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-swift-xcode-cloud-builds-testflight-automation-ios-cicd-workflows"
 tags: ["codex-cli", "swift", "xcode-cloud", "testflight", "ios", "ci-cd", "mcp", "xcodebuildmcp", "xcodebuild"]
 ---
-
 # Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows
 
 

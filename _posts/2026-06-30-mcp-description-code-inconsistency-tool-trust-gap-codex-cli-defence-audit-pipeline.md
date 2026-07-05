@@ -2,9 +2,11 @@
 title: "MCP Description-Code Inconsistency and the Tool Trust Gap: What Two Studies of 12,000+ MCP Servers Reveal — and How to Defend Codex CLI Pipelines"
 parent: "Articles"
 nav_order: 1281
+type: Technical Article
+timestamp: 2026-06-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-mcp-description-code-inconsistency-tool-trust-gap-codex-cli-defence-audit-pipeline"
 tags: ["codex-cli", "mcp", "security", "tool-trust", "description-code-inconsistency", "governance", "defence-in-depth"]
 ---
-
 # MCP Description-Code Inconsistency and the Tool Trust Gap: What Two Studies of 12,000+ MCP Servers Reveal — and How to Defend Codex CLI Pipelines
 
 

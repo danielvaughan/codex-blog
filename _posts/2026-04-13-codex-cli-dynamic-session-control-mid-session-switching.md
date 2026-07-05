@@ -3,9 +3,11 @@ title: "Dynamic Session Control in Codex CLI: Mid-Session Switching of Models, P
 description: "A Codex CLI session is not a static environment. Every slash command that adjusts the model, the approval policy, the reasoning effort, or the workflow mode."
 parent: "Articles"
 nav_order: 271
+type: Technical Article
+timestamp: 2026-04-13T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-dynamic-session-control-mid-session-switching"
 tags: ["session-control", "/permissions", "/model", "/fast", "/plan", "steer-mode", "adaptive-workflow", "approval-modes", "config-toml", "profiles"]
 ---
-
 ![Sketchnote diagram for: Dynamic Session Control in Codex CLI: Mid-Session Switching of Models, Permissions, and Workflow Modes](/sketchnotes/articles/2026-04-13-codex-cli-dynamic-session-control-mid-session-switching.png)
 
 

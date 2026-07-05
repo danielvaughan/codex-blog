@@ -2,9 +2,11 @@
 title: "SWE-Doctor and the Runtime Diagnosis Gap: Why Bug Reproduction Tests Alone Mislead Your Coding Agent — and How Multi-Faceted Test Generation Closes the Loop for Codex CLI"
 parent: "Articles"
 nav_order: 1309
+type: Technical Article
+timestamp: 2026-07-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-swe-doctor-runtime-diagnosis-bug-reproduction-tests-codex-cli-multi-faceted-test-generation-patch-guidance"
 tags: ["codex-cli", "swe-doctor", "bug-reproduction-tests", "runtime-diagnosis", "automated-program-repair", "SWE-bench", "PostToolUse-hooks", "test-generation", "patch-validation"]
 ---
-
 # SWE-Doctor and the Runtime Diagnosis Gap: Why Bug Reproduction Tests Alone Mislead Your Coding Agent — and How Multi-Faceted Test Generation Closes the Loop for Codex CLI
 
 

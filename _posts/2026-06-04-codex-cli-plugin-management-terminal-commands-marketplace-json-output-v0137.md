@@ -2,9 +2,11 @@
 title: "Codex CLI Plugin Management from the Terminal: Marketplace Commands, JSON Output, and Automation Patterns for v0.137"
 parent: "Articles"
 nav_order: 983
+type: Technical Article
+timestamp: 2026-06-04T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-plugin-management-terminal-commands-marketplace-json-output-v0137"
 tags: ["codex-cli", "plugins", "marketplace", "automation", "codex-plugin", "config.toml", "v0.137", "cli-subcommands", "json-output"]
 ---
-
 # Codex CLI Plugin Management from the Terminal: Marketplace Commands, JSON Output, and Automation Patterns for v0.137
 
 

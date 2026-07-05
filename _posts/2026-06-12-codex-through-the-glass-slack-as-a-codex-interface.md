@@ -2,7 +2,7 @@
 title: "Codex Through the Glass: Slack as a Codex Interface"
 description: "How to build a Slack bot using the Bolt SDK and Socket Mode that drives Codex agent sessions, with Block Kit for approvals and threaded conversations for context."
 date: 2026-06-12T20:01:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 series: "Codex Through the Glass"
 series_order: 2
 tags:
@@ -13,8 +13,10 @@ tags:
   - socket-mode
   - non-developer
   - harness
+type: Technical Article
+timestamp: 2026-06-12T21:01:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-through-the-glass-slack-as-a-codex-interface"
 ---
-
 # Codex Through the Glass: Slack as a Codex Interface
 
 *Series: Codex Through the Glass — Interface Patterns for Non-Developer Users (Part 2 of 8)*

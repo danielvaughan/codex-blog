@@ -2,9 +2,11 @@
 title: "eBPF Runtime Observability for Codex CLI: AgentSight, Tetragon, and Kernel-Level Agent Monitoring"
 parent: "Articles"
 nav_order: 1043
+type: Technical Article
+timestamp: 2026-06-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-ebpf-runtime-observability-codex-cli-agentsight-tetragon-kernel-level-agent-monitoring"
 tags: ["codex-cli", "ebpf", "security", "observability", "agentsight", "tetragon", "runtime-enforcement", "sandbox", "opentelemetry"]
 ---
-
 # eBPF Runtime Observability for Codex CLI: AgentSight, Tetragon, and Kernel-Level Agent Monitoring
 
 

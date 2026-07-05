@@ -3,9 +3,11 @@ title: "The Human Review Bottleneck: Practical Code Review Strategies for Agent 
 description: "AI coding agents have solved the wrong half of the problem. Teams using Codex CLI, Claude Code, and similar tools report generating 98% more pull requests."
 parent: "Articles"
 nav_order: 854
+type: Technical Article
+timestamp: 2026-05-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-human-review-bottleneck-code-review-strategies-agent-output"
 tags: ["code-review", "agent-output", "bottleneck", "codex-cli", "review-workflow", "PR-management", "quality-assurance"]
 ---
-
 # The Human Review Bottleneck: Practical Code Review Strategies for Agent Output
 
 

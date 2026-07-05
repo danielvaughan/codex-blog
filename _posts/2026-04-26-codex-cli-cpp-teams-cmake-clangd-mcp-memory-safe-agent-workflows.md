@@ -3,6 +3,9 @@ title: "Codex CLI for C and C++ Teams: CMake, Clangd MCP, Sanitisers, and Memory
 description: "C and C++ remain the backbone of systems programming — from kernels and game engines to embedded firmware and high-frequency trading platforms."
 parent: "Articles"
 nav_order: 438
+type: Technical Article
+timestamp: 2026-04-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-cpp-teams-cmake-clangd-mcp-memory-safe-agent-workflows"
 tags: ["codex-cli", "c++", "c", "cmake", "clangd", "mcp", "memory-safety", "sanitisers", "agents-md", "hooks", "c++26"]
 ---
 ![Sketchnote diagram for: Codex CLI for C and C++ Teams: CMake, Clangd MCP, Sanitisers, and Memory-Safe Agent Workflows](/sketchnotes/articles/2026-04-26-codex-cli-cpp-teams-cmake-clangd-mcp-memory-safe-agent-workflows.png)

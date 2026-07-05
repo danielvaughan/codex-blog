@@ -3,6 +3,9 @@ title: "Codex CLI for Solo Developers: Maximum Impact from a One-Person Agentic 
 description: "Most Codex CLI guidance assumes you are part of a team with shared configuration, dedicated budgets, and someone else worrying about rate limits."
 parent: "Articles"
 nav_order: 493
+type: Technical Article
+timestamp: 2026-04-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-solo-developer-small-team-setup-productivity"
 tags: ["codex-cli", "solo-developer", "productivity", "configuration", "cost-efficiency", "AGENTS.md", "skills", "workflows"]
 ---
 ![Sketchnote diagram for: Codex CLI for Solo Developers: Maximum Impact from a One-Person Agentic Setup](/sketchnotes/articles/2026-04-29-codex-cli-solo-developer-small-team-setup-productivity.png)

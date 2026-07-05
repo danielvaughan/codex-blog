@@ -2,7 +2,7 @@
 title: "From Harness Engineering to Symphony: The Autonomous Development Stack"
 description: "On March 5, 2026, OpenAI quietly released a GitHub repository called Symphony. Within three weeks it had 13K stars. ⚠️ [unverified] The concept it embodies."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - orchestration
   - team-workflow
@@ -12,8 +12,10 @@ tags:
   - agentic
   - workflow
   - architecture
+type: Technical Article
+timestamp: 2026-03-26T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-26-harness-engineering-symphony"
 ---
-
 ![Sketchnote diagram for: From Harness Engineering to Symphony: The Autonomous Development Stack](/sketchnotes/articles/2026-03-26-harness-engineering-symphony.png)
 
 *Published 2026-03-26. Sources: github.com/openai/symphony, openai.com/index/harness-engineering/, community research.*

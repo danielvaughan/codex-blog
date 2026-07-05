@@ -2,9 +2,11 @@
 title: "Codex CLI for Bazel Builds: Remote Execution, Monorepo Patterns, and Agent-Driven Build Intelligence"
 parent: "Articles"
 nav_order: 915
+type: Technical Article
+timestamp: 2026-05-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-bazel-builds-remote-execution-monorepo-patterns-agent-driven-build-intelligence"
 tags: ["codex-cli", "bazel", "remote-execution", "monorepo", "mcp", "build-systems", "agent-workflows"]
 ---
-
 # Codex CLI for Bazel Builds: Remote Execution, Monorepo Patterns, and Agent-Driven Build Intelligence
 
 

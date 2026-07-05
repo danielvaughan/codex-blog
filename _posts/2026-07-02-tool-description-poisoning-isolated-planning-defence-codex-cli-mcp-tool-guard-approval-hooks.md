@@ -2,9 +2,11 @@
 title: "Tool Description Poisoning and the Isolated Planning Defence: What Tool-Guard Means for Codex CLI MCP Security"
 parent: "Articles"
 nav_order: 1301
+type: Technical Article
+timestamp: 2026-07-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-tool-description-poisoning-isolated-planning-defence-codex-cli-mcp-tool-guard-approval-hooks"
 tags: ["codex-cli", "mcp", "security", "tool-poisoning", "prompt-injection", "Tool-Guard", "isolated-planning", "approval-policy", "hooks"]
 ---
-
 # Tool Description Poisoning and the Isolated Planning Defence: What Tool-Guard Means for Codex CLI MCP Security
 
 

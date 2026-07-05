@@ -2,7 +2,7 @@
 title: "The AI Complexity Ratchet: Why Agentic Automation Drifts Into the Pit at 200 mph"
 description: "You start with tech stack 1. You iterate — each change feels like an improvement. Then one morning you realise version 1 was way nicer and you miss its."
 date: 2026-04-09T08:19:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - complexity-ratchet
   - simplicity
@@ -12,8 +12,10 @@ tags:
   - architectural-intent
   - approval-modes
   - review-loops
+type: Technical Article
+timestamp: 2026-04-09T09:19:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-ai-complexity-ratchet"
 ---
-
 ![Sketchnote diagram for: The AI Complexity Ratchet: Why Agentic Automation Drifts Into the Pit at 200 mph](/sketchnotes/articles/2026-04-09-ai-complexity-ratchet.png)
 
 # The AI Complexity Ratchet: Why Agentic Automation Drifts Into the Pit at 200 mph

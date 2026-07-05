@@ -2,9 +2,11 @@
 title: "The Twelve-Factor Agent Mapped to Codex CLI: Production Principles and Configuration Patterns for June 2026"
 parent: "Articles"
 nav_order: 1127
+type: Technical Article
+timestamp: 2026-06-16T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-twelve-factor-agent-mapped-codex-cli-production-principles-configuration-patterns"
 tags: ["codex-cli", "twelve-factor-agent", "production", "configuration", "best-practices", "architecture", "methodology"]
 ---
-
 # The Twelve-Factor Agent Mapped to Codex CLI: Production Principles and Configuration Patterns for June 2026
 
 

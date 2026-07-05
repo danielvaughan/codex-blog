@@ -3,9 +3,11 @@ title: "Codex CLI for API Integration Testing: Agent-Driven Mock Generation, Con
 description: "Unit tests verify components in isolation. End-to-end tests verify the full stack. Between them sits integration testing — the practice of validating that."
 parent: "Articles"
 nav_order: 717
+type: Technical Article
+timestamp: 2026-05-16T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-api-integration-testing-mock-generation-contract-validation-agent-workflows"
 tags: ["codex-cli", "api-testing", "integration-testing", "mock-generation", "contract-testing", "msw", "wiremock", "nock", "codex-exec", "skills", "structured-output"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for API Integration Testing: Agent-Driven Mock Generation, Contract Validation, and Test Harness Automation](/sketchnotes/articles/2026-05-16-codex-cli-api-integration-testing-mock-generation-contract-validation-agent-workflows.png)
 
 # Codex CLI for API Integration Testing: Agent-Driven Mock Generation, Contract Validation, and Test Harness Automation

@@ -2,9 +2,11 @@
 title: "Testing Your Codex CLI Configuration: Validation Commands, Hook Smoke Tests, and CI Pre-Flight Checks"
 parent: "Articles"
 nav_order: 1116
+type: Technical Article
+timestamp: 2026-06-15T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-configuration-testing-validation-commands-hook-smoke-tests-ci-preflight-checks"
 tags: ["codex-cli", "configuration", "testing", "validation", "hooks", "ci-cd", "codex-doctor", "execpolicy", "permissions", "pre-flight"]
 ---
-
 # Testing Your Codex CLI Configuration: Validation Commands, Hook Smoke Tests, and CI Pre-Flight Checks
 
 

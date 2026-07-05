@@ -2,9 +2,11 @@
 title: "Rule Taxonomy in AI IDEs: What 7,310 Mined Rules Reveal About the Gap Between Developer Intent and AGENTS.md Practice — and How to Close It in Codex CLI"
 parent: "Articles"
 nav_order: 1334
+type: Technical Article
+timestamp: 2026-07-04T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-rule-taxonomy-ai-ides-7310-rules-codex-cli-agents-md-constraint-gap-evolution-patterns"
 tags: ["codex-cli", "AGENTS.md", "rule-taxonomy", "constraint-engineering", "developer-intent", "rule-evolution", "governance"]
 ---
-
 # Rule Taxonomy in AI IDEs: What 7,310 Mined Rules Reveal About the Gap Between Developer Intent and AGENTS.md Practice — and How to Close It in Codex CLI
 
 

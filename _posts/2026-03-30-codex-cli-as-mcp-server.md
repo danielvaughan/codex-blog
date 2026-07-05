@@ -2,14 +2,16 @@
 title: "Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack"
 description: "Most Codex CLI coverage focuses on Codex consuming MCP servers — wiring in filesystem tools, database connectors, or third-party APIs. Less attention goes."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - ecosystem
   - mcp
   - agents-sdk
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-30T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-codex-cli-as-mcp-server"
 ---
-
 ![Sketchnote diagram for: Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack](/sketchnotes/articles/2026-03-30-codex-cli-as-mcp-server.png)
 
 # Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack

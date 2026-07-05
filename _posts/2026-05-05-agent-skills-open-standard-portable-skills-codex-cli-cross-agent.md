@@ -3,9 +3,11 @@ title: "The Agent Skills Open Standard: Writing Portable SKILL.md Files That Wor
 description: "If you have invested time building skills for Codex CLI, you may not realise that those same files already work — unchanged."
 parent: "Articles"
 nav_order: 551
+type: Technical Article
+timestamp: 2026-05-05T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-agent-skills-open-standard-portable-skills-codex-cli-cross-agent"
 tags: ["codex-cli", "agent-skills", "SKILL.md", "open-standard", "cross-agent", "portability", "claude-code", "gemini-cli"]
 ---
-
 ![Sketchnote diagram for: The Agent Skills Open Standard: Writing Portable SKILL.md Files That Work Across Codex CLI, Claude Code, and 30+ Tools](/sketchnotes/articles/2026-05-05-agent-skills-open-standard-portable-skills-codex-cli-cross-agent.png)
 
 

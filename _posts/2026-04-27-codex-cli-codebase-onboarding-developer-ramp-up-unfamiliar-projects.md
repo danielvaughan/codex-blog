@@ -3,6 +3,9 @@ title: "Codebase Onboarding with Codex CLI: Using AI Agents to Ramp Up on Unfami
 description: "Every developer knows the feeling: you join a new team, clone a repository with 800 files across 40 directories, and spend the next fortnight piecing."
 parent: "Articles"
 nav_order: 450
+type: Technical Article
+timestamp: 2026-04-27T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-codebase-onboarding-developer-ramp-up-unfamiliar-projects"
 tags: ["codex-cli", "codebase-onboarding", "developer-experience", "AGENTS.md", "skills", "MCP", "knowledge-graph", "GPT-5.5"]
 ---
 ![Sketchnote diagram for: Codebase Onboarding with Codex CLI: Using AI Agents to Ramp Up on Unfamiliar Projects](/sketchnotes/articles/2026-04-27-codex-cli-codebase-onboarding-developer-ramp-up-unfamiliar-projects.png)

@@ -2,9 +2,11 @@
 title: "The MCP stdio Pipe-Buffer Deadlock: Diagnosing, Preventing, and Recovering from the Most Common MCP Server Failure in Codex CLI"
 parent: "Articles"
 nav_order: 1046
+type: Technical Article
+timestamp: 2026-06-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-mcp-stdio-pipe-buffer-deadlock-diagnosis-prevention-recovery-codex-cli"
 tags: ["mcp", "stdio", "deadlock", "debugging", "reliability", "codex-cli", "production"]
 ---
-
 # The MCP stdio Pipe-Buffer Deadlock: Diagnosing, Preventing, and Recovering from the Most Common MCP Server Failure in Codex CLI
 
 

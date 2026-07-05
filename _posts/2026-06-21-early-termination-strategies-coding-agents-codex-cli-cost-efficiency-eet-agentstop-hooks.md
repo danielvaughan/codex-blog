@@ -2,9 +2,11 @@
 title: "Early Termination Strategies for Coding Agents: What EET and AgentStop Mean for Codex CLI Cost Efficiency"
 parent: "Articles"
 nav_order: 1181
+type: Technical Article
+timestamp: 2026-06-21T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-early-termination-strategies-coding-agents-codex-cli-cost-efficiency-eet-agentstop-hooks"
 tags: ["codex-cli", "cost-optimisation", "early-termination", "EET", "AgentStop", "hooks", "token-budget", "session-management"]
 ---
-
 # Early Termination Strategies for Coding Agents: What EET and AgentStop Mean for Codex CLI Cost Efficiency
 
 

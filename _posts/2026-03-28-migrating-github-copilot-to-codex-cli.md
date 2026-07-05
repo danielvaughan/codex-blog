@@ -2,14 +2,16 @@
 title: "Migrating from GitHub Copilot to Codex CLI"
 description: "Before we begin: there is a naming trap to navigate. In February 2026, GitHub launched GitHub Copilot CLI."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - competitive-landscape
   - github-copilot
   - config-toml
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-28T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-migrating-github-copilot-to-codex-cli"
 ---
-
 ![Sketchnote diagram for: Migrating from GitHub Copilot to Codex CLI](/sketchnotes/articles/2026-03-28-migrating-github-copilot-to-codex-cli.png)
 
 # Migrating from GitHub Copilot to Codex CLI

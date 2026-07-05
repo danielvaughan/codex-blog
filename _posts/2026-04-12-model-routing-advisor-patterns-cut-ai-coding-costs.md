@@ -2,7 +2,7 @@
 title: "Model Routing and Advisor Patterns: How to Cut AI Coding Costs Without Losing Quality"
 description: "Running your most powerful model on every task is the fastest way to burn through your API budget. A one-line grep does not need GPT-5.4 or Opus 4.6."
 date: 2026-04-12T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - codex-cli
   - claude-code
@@ -11,8 +11,10 @@ tags:
   - advisor-strategy
   - subagents
   - orchestration
+type: Technical Article
+timestamp: 2026-04-12T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-model-routing-advisor-patterns-cut-ai-coding-costs"
 ---
-
 ![Sketchnote diagram for: Model Routing and Advisor Patterns: How to Cut AI Coding Costs Without Losing Quality](/sketchnotes/articles/2026-04-12-model-routing-advisor-patterns-cut-ai-coding-costs.png)
 
 Running your most powerful model on every task is the fastest way to burn through your API budget. A one-line grep does not need GPT-5.4 or Opus 4.6. A complex architectural refactor probably does. The challenge is routing the right task to the right model automatically, without manual switching.

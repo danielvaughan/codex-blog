@@ -3,9 +3,11 @@ title: "Codex CLI vs Codex Cloud: When to Use Each"
 description: "OpenAI ships two distinct execution surfaces under the Codex brand: Codex CLI, a Rust-based terminal agent that runs on your machine, and Codex Cloud (also."
 parent: "Articles"
 nav_order: 335
+type: Technical Article
+timestamp: 2026-04-18T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-cli-vs-codex-cloud-when-to-use-each"
 tags: ["codex-cli", "codex-cloud", "architecture", "decision-framework", "workflow"]
 ---
-
 ![Sketchnote diagram for: Codex CLI vs Codex Cloud: When to Use Each](/sketchnotes/articles/2026-04-18-codex-cli-vs-codex-cloud-when-to-use-each.png)
 
 

@@ -2,7 +2,7 @@
 title: "Gemma 4 on Codex CLI vs Claude Code: Same Model, Different Results"
 description: "Joe Njenga recently documented his experience running Gemma 4 with Claude Code. I spent the same week running Gemma 4 with Codex CLI on two machines."
 date: 2026-04-12T12:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 featured: true
 tags:
   - codex-cli
@@ -12,8 +12,10 @@ tags:
   - comparison
   - tool-calling
   - benchmarks
+type: Technical Article
+timestamp: 2026-04-12T13:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-gemma-4-codex-cli-vs-claude-code-local-model-comparison"
 ---
-
 ![Sketchnote diagram for: Gemma 4 on Codex CLI vs Claude Code: Same Model, Different Results](/sketchnotes/articles/2026-04-12-gemma-4-codex-cli-vs-claude-code-local-model-comparison.png)
 
 Joe Njenga recently documented his experience running Gemma 4 with Claude Code[^1]. I spent the same week running Gemma 4 with Codex CLI on two machines — a 24 GB M4 Pro MacBook Pro and a Dell Pro Max GB10 with 128 GB on NVIDIA Blackwell[^2]. We tested the same model family. We reached very different conclusions. The comparison reveals something important about the state of local AI coding in April 2026: the CLI harness matters as much as the model.

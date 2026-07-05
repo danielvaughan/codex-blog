@@ -3,6 +3,9 @@ title: "Browser-in-the-loop testing: Playwright + Chrome DevTools MCP + Codex CL
 description: "Coding agents write code they cannot see running. They generate a component, commit it, and hope the browser agrees. Browser-in-the-loop testing closes that gap."
 parent: "Articles"
 nav_order: 404
+type: Technical Article
+timestamp: 2026-04-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli"
 tags: ["codex-cli", "playwright", "chrome-devtools", "mcp", "browser-testing", "e2e", "automation", "debugging"]
 ---
 ![Sketchnote diagram for: Browser-in-the-loop testing: Playwright + Chrome DevTools MCP + Codex CLI](/sketchnotes/articles/2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli.png)

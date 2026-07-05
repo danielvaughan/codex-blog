@@ -2,14 +2,16 @@
 title: "Intelligence per Token: Why Your Local AI Needs Agentic Loops, Not Bigger Prompts — and What Codex CLI Already Solved"
 description: "Manolo Remiddis recent video, Your Local AI is Stupid Because Youre Using it Like ChatGPT, articulates a problem that Codex CLIs architecture."
 date: 2026-05-21T00:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 category: strategy
 tags: [codex-cli, local-ai, dgx-spark, gx10, agentic-loops, token-efficiency, ollama, open-code, gemma, qwen, strategy]
 source:
   - https://www.youtube.com/watch?v=NC2mE7C4s2c
   - https://developers.openai.com/codex/concepts
+type: Technical Article
+timestamp: 2026-05-21T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-local-ai-intelligence-per-token-codex-cli-dgx-spark-agentic-loops"
 ---
-
 ![Sketchnote diagram for: Intelligence per Token: Why Your Local AI Needs Agentic Loops, Not Bigger Prompts — and What Codex CLI Already Solved](/sketchnotes/articles/2026-05-21-local-ai-intelligence-per-token-codex-cli-dgx-spark-agentic-loops.png)
 
 

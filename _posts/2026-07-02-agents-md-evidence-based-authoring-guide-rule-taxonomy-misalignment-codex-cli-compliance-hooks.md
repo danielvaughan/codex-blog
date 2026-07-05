@@ -3,9 +3,11 @@ title: "The AGENTS.md Evidence-Based Authoring Guide: What Two Empirical Studies
 parent: "Articles"
 nav_order: 1297
 description: "A premium consolidation of rule taxonomy research (7,310 rules, 83 projects) and misalignment analysis (20,574 sessions) into a practical AGENTS.md authoring framework for Codex CLI. Covers the five-category taxonomy, the perception-practice gap, negative-constraint patterns, compliance hooks, evolution playbooks, and quarterly audit checklists."
+type: Technical Article
+timestamp: 2026-07-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-agents-md-evidence-based-authoring-guide-rule-taxonomy-misalignment-codex-cli-compliance-hooks"
 tags: ["agents-md", "rule-taxonomy", "misalignment", "compliance", "codex-cli", "empirical-research", "premium", "configuration", "hooks", "best-practices"]
 ---
-
 # The AGENTS.md Evidence-Based Authoring Guide: What Two Empirical Studies Reveal About Writing Rules That Agents Actually Follow
 
 

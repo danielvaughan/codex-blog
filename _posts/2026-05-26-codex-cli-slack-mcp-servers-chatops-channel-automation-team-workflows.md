@@ -2,9 +2,11 @@
 title: "Codex CLI with Slack MCP Servers: ChatOps, Channel Automation, and Team Notification Workflows"
 parent: "Articles"
 nav_order: 877
+type: Technical Article
+timestamp: 2026-05-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-slack-mcp-servers-chatops-channel-automation-team-workflows"
 tags: ["codex-cli", "slack", "mcp", "chatops", "automation", "team-workflows", "notifications"]
 ---
-
 # Codex CLI with Slack MCP Servers: ChatOps, Channel Automation, and Team Notification Workflows
 
 

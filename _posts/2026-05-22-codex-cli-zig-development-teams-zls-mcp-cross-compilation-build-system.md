@@ -3,9 +3,11 @@ title: "Codex CLI for Zig Development Teams: ZLS MCP Integration, Cross-Compilat
 description: "The Zig ecosystem has matured considerably since the language first appeared in the TIOBE top 50 in late 2025."
 parent: "Articles"
 nav_order: 815
+type: Technical Article
+timestamp: 2026-05-22T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-zig-development-teams-zls-mcp-cross-compilation-build-system"
 tags: ["zig", "systems-programming", "mcp", "cross-compilation", "build-system", "zls", "codex-cli"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Zig Development Teams: ZLS MCP Integration, Cross-Compilation Workflows, and Build System Automation](/sketchnotes/articles/2026-05-22-codex-cli-zig-development-teams-zls-mcp-cross-compilation-build-system.png)
 
 

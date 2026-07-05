@@ -3,9 +3,11 @@ title: "Codex CLI for Event-Driven Architecture: AsyncAPI Contracts, Schema Regi
 description: "Event-driven architecture (EDA) is experiencing a renaissance. The convergence of streaming SQL, AI-powered state views, and the CloudEvents specification."
 parent: "Articles"
 nav_order: 721
+type: Technical Article
+timestamp: 2026-05-16T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-event-driven-architecture-asyncapi-kafka-schema-registry-consumer-generation"
 tags: ["event-driven-architecture", "kafka", "asyncapi", "schema-registry", "codex-cli", "avro", "protobuf", "cloudevents"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Event-Driven Architecture: AsyncAPI Contracts, Schema Registry Workflows, and Consumer Generation](/sketchnotes/articles/2026-05-16-codex-cli-event-driven-architecture-asyncapi-kafka-schema-registry-consumer-generation.png)
 
 # Codex CLI for Event-Driven Architecture: AsyncAPI Contracts, Schema Registry Workflows, and Consumer Generation

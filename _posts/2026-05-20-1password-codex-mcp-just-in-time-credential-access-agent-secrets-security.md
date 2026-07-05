@@ -3,9 +3,11 @@ title: "1Password Environments MCP Server for Codex: Just-in-Time Credential Acc
 description: "On 20 May 2026, 1Password announced its Environments MCP Server for Codex — a purpose-built Model Context Protocol integration that gives coding agents."
 parent: "Articles"
 nav_order: 792
+type: Technical Article
+timestamp: 2026-05-20T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-1password-codex-mcp-just-in-time-credential-access-agent-secrets-security"
 tags: ["codex-cli", "1password", "mcp", "secrets-management", "security", "just-in-time-credentials", "agent-security"]
 ---
-
 ![Sketchnote diagram for: 1Password Environments MCP Server for Codex: Just-in-Time Credential Access for Coding Agents](/sketchnotes/articles/2026-05-20-1password-codex-mcp-just-in-time-credential-access-agent-secrets-security.png)
 
 # 1Password Environments MCP Server for Codex: Just-in-Time Credential Access for Coding Agents

@@ -3,9 +3,11 @@ title: "Codex CLI Multi-Environment Sessions: One Conversation, Many Targets"
 description: "Until May 2026, every Codex CLI session was anchored to a single execution context — one working directory, one sandbox, one filesystem."
 parent: "Articles"
 nav_order: 600
+type: Technical Article
+timestamp: 2026-05-05T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-multi-environment-sessions-one-conversation-many-targets"
 tags: ["codex-cli", "multi-environment", "app-server", "monorepo", "remote-development", "enterprise", "v0.129"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Multi-Environment Sessions: One Conversation, Many Targets](/sketchnotes/articles/2026-05-05-codex-cli-multi-environment-sessions-one-conversation-many-targets.png)
 
 # Codex CLI Multi-Environment Sessions: One Conversation, Many Targets

@@ -2,9 +2,11 @@
 title: "The Coding Agent Failure Taxonomy: A Systematic Classification of How Agents Break"
 parent: "Articles"
 nav_order: 972
+type: Technical Article
+timestamp: 2026-06-03T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-coding-agent-failure-taxonomy-nist-style-classification-detection-codex-cli"
 tags: ["agent-failures", "taxonomy", "reliability", "debugging", "observability", "codex-cli", "production"]
 ---
-
 # The Coding Agent Failure Taxonomy: A Systematic Classification of How Agents Break
 
 

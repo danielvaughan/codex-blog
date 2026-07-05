@@ -2,9 +2,11 @@
 title: "Noise Protocol Relay Channels in Codex CLI v0.141: End-to-End Encrypted Remote Execution"
 parent: "Articles"
 nav_order: 1174
+type: Technical Article
+timestamp: 2026-06-20T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-codex-cli-v0141-noise-protocol-relay-channels-remote-executor-end-to-end-encrypted-security"
 tags: ["codex-cli", "security", "remote-execution", "noise-protocol", "encryption", "v0.141", "exec-server", "enterprise"]
 ---
-
 # Noise Protocol Relay Channels in Codex CLI v0.141: End-to-End Encrypted Remote Execution
 
 

@@ -3,9 +3,11 @@ title: "Safe Dependency Management with Codex CLI: Why AI Agents Get It Wrong an
 description: "Dependency management is one of the most natural tasks to hand to a coding agent. Upgrade React to v20, patch all critical CVEs, migrate from Express."
 parent: "Articles"
 nav_order: 360
+type: Technical Article
+timestamp: 2026-04-20T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-dependency-management-security-lockfile-discipline"
 tags: ["codex-cli", "dependency-management", "security", "supply-chain", "lockfile", "npm", "pip", "cargo", "AGENTS.md"]
 ---
-
 ![Sketchnote diagram for: Safe Dependency Management with Codex CLI: Why AI Agents Get It Wrong and How to Fix It](/sketchnotes/articles/2026-04-20-codex-cli-dependency-management-security-lockfile-discipline.png)
 
 # Safe Dependency Management with Codex CLI: Why AI Agents Get It Wrong and How to Fix It

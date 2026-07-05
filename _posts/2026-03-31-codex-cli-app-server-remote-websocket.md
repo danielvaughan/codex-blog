@@ -2,14 +2,16 @@
 title: "Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment"
 description: "The Codex CLI is typically presented as a local terminal tool, but underneath its TUI sits a full JSON-RPC 2.0 server — the app-server."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - architecture
   - app-server
   - codex-cloud
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-31T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-31-codex-cli-app-server-remote-websocket"
 ---
-
 ![Sketchnote diagram for: Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment](/sketchnotes/articles/2026-03-31-codex-cli-app-server-remote-websocket.png)
 
 # Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment

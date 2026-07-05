@@ -2,7 +2,7 @@
 title: "Codex Through the Glass: Codex Sites as a Codex Interface"
 description: "Codex Sites turns a prompt into a hosted web application on Cloudflare edge infrastructure — the zero-code interface option for internal dashboards and tools."
 date: 2026-06-12T20:04:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 series: "Codex Through the Glass"
 series_order: 5
 tags:
@@ -12,8 +12,10 @@ tags:
   - zero-code
   - internal-tools
   - non-developer
+type: Technical Article
+timestamp: 2026-06-12T21:04:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-through-the-glass-codex-sites-as-a-codex-interface"
 ---
-
 # Codex Through the Glass: Codex Sites as a Codex Interface
 
 *Series: Codex Through the Glass — Interface Patterns for Non-Developer Users (Part 5 of 8)*

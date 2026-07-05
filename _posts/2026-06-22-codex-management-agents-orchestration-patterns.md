@@ -3,12 +3,14 @@ title: "Codex Management Agents: Orchestration Patterns for Multi-Agent Systems"
 parent: "Articles"
 nav_order: 1187
 date: 2026-06-22T00:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 author: Daniel Vaughan
 description: "How OpenAI's Agents SDK enables management agents that coordinate, delegate, and supervise specialist workers — and why the patterns matter more than the framework."
 tags: [codex, agents-sdk, multi-agent, orchestration, management, handoffs]
+type: Technical Article
+timestamp: 2026-06-22
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-codex-management-agents-orchestration-patterns"
 ---
-
 # Codex Management Agents: Orchestration Patterns for Multi-Agent Systems
 
 A single agent can do useful work. But production systems rarely need just one. They need a manager — something that triages incoming tasks, delegates to specialists, monitors progress, and decides when the job is done. OpenAI's Agents SDK now provides first-class support for these management agents, drawing heavily from the patterns that power Codex itself.

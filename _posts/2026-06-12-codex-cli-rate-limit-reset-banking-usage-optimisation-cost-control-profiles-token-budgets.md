@@ -2,9 +2,11 @@
 title: "Codex CLI Rate-Limit Reset Banking and Usage Optimisation: Managing Agent Costs from the Terminal"
 parent: "Articles"
 nav_order: 1079
+type: Technical Article
+timestamp: 2026-06-12T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-cli-rate-limit-reset-banking-usage-optimisation-cost-control-profiles-token-budgets"
 tags: ["codex-cli", "rate-limits", "reset-banking", "cost-optimisation", "profiles", "token-budgets", "pricing", "usage-management"]
 ---
-
 # Codex CLI Rate-Limit Reset Banking and Usage Optimisation: Managing Agent Costs from the Terminal
 
 

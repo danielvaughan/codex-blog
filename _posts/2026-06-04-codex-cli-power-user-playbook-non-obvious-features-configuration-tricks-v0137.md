@@ -3,9 +3,11 @@ title: "Codex CLI Power-User Playbook: 15 Non-Obvious Features and Configuration
 description: "A curated guide to lesser-known Codex CLI capabilities — from draft restoration on prompt cancellation to shell environment lockdown, parallel web search, and machine-readable diagnostics — targeting senior developers who already know the basics."
 parent: "Articles"
 nav_order: 987
+type: Technical Article
+timestamp: 2026-06-04T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-power-user-playbook-non-obvious-features-configuration-tricks-v0137"
 tags: ["codex-cli", "v0.137", "productivity", "power-user", "configuration", "tips", "advanced-workflows"]
 ---
-
 # Codex CLI Power-User Playbook: 15 Non-Obvious Features and Configuration Tricks for v0.137
 
 

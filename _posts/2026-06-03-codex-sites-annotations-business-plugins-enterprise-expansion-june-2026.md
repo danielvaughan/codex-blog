@@ -2,9 +2,11 @@
 title: "Codex Sites, Annotations, and the June 2026 Business Expansion: Six Role-Specific Plugins and the Enterprise Hosting Layer"
 parent: "Articles"
 nav_order: 970
+type: Technical Article
+timestamp: 2026-06-03T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-sites-annotations-business-plugins-enterprise-expansion-june-2026"
 tags: ["codex-sites", "annotations", "business-plugins", "enterprise", "cloudflare-workers", "codex-app", "role-specific-workflows", "hosted-apps", "june-2026"]
 ---
-
 # Codex Sites, Annotations, and the June 2026 Business Expansion: Six Role-Specific Plugins and the Enterprise Hosting Layer
 
 

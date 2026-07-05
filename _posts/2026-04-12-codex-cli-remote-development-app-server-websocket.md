@@ -3,9 +3,11 @@ title: "Remote Development with Codex CLI: App-Server WebSocket Transport, the -
 description: "The shift to remote-first development has been underway for years, but AI coding agents complicate matters. Codex CLI's interactive TUI traditionally."
 parent: "Articles"
 nav_order: 259
+type: Technical Article
+timestamp: 2026-04-12T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-remote-development-app-server-websocket"
 tags: ["remote-development", "app-server", "websocket", "exec-server", "json-rpc", "ssh", "dev-containers", "enterprise"]
 ---
-
 ![Sketchnote diagram for: Remote Development with Codex CLI: App-Server WebSocket Transport, the --remote Flag, and Persistent Agent Sessions](/sketchnotes/articles/2026-04-12-codex-cli-remote-development-app-server-websocket.png)
 
 # Remote Development with Codex CLI: App-Server WebSocket Transport, the --remote Flag, and Persistent Agent Sessions

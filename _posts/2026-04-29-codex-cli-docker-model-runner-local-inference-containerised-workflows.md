@@ -3,6 +3,9 @@ title: "Codex CLI and Docker Model Runner: Containerised Local Inference for Pri
 description: "Running Codex CLI against the OpenAI API is the default path — and for good reason. GPT-5.5's 400K context window, server-side compaction, and prompt."
 parent: "Articles"
 nav_order: 486
+type: Technical Article
+timestamp: 2026-04-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-docker-model-runner-local-inference-containerised-workflows"
 tags: ["codex-cli", "docker-model-runner", "local-models", "ollama", "privacy", "config", "skills", "gpt-oss", "open-weight", "containerised"]
 ---
 ![Sketchnote diagram for: Codex CLI and Docker Model Runner: Containerised Local Inference for Private, Cost-Free Coding Agents](/sketchnotes/articles/2026-04-29-codex-cli-docker-model-runner-local-inference-containerised-workflows.png)

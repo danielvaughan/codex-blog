@@ -2,9 +2,11 @@
 title: "The 97 Per Cent Problem: Black Duck's AI Coding Governance Gap and How Codex CLI Closes It"
 parent: "Articles"
 nav_order: 1204
+type: Technical Article
+timestamp: 2026-06-23T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-black-duck-97-percent-ai-coding-adoption-governance-gap-codex-cli-enterprise-controls"
 tags: ["codex-cli", "governance", "enterprise", "security", "Black Duck", "AI-generated code", "requirements.toml", "hooks", "approval-policies"]
 ---
-
 # The 97 Per Cent Problem: Black Duck's AI Coding Governance Gap and How Codex CLI Closes It
 
 

@@ -2,9 +2,11 @@
 title: "Codex CLI for Tailwind CSS v4: MCP Servers, Agent Skills, and Utility-First Styling Workflows"
 parent: "Articles"
 nav_order: 910
+type: Technical Article
+timestamp: 2026-05-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-tailwind-css-v4-mcp-servers-agent-skills-utility-first-styling-workflows"
 tags: ["codex-cli", "tailwind-css", "mcp", "agent-skills", "frontend", "css", "styling", "design-systems"]
 ---
-
 # Codex CLI for Tailwind CSS v4: MCP Servers, Agent Skills, and Utility-First Styling Workflows
 
 

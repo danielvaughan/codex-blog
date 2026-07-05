@@ -2,14 +2,16 @@
 title: "Codex CLI Configuration Reference: Precedence, All Keys and Inline Overrides"
 description: "Codex CLI's behaviour is governed by a layered configuration system built on TOML files, CLI flags, environment variables, and — in enterprise environments."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - reference
   - config-toml
   - codex-cli
   - configuration
+type: Technical Article
+timestamp: 2026-04-08T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-cli-configuration-reference"
 ---
-
 ![Sketchnote diagram for: Codex CLI Configuration Reference: Precedence, All Keys and Inline Overrides](/sketchnotes/articles/2026-04-08-codex-cli-configuration-reference.png)
 
 # Codex CLI Configuration Reference: Precedence, All Keys and Inline Overrides

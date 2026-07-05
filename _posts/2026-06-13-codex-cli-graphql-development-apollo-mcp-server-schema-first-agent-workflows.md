@@ -2,9 +2,11 @@
 title: "Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Agent-Ready API Design"
 parent: "Articles"
 nav_order: 1099
+type: Technical Article
+timestamp: 2026-06-13T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-codex-cli-graphql-development-apollo-mcp-server-schema-first-agent-workflows"
 tags: ["codex-cli", "graphql", "apollo", "mcp", "schema-first", "api-design", "federation", "agent-workflows"]
 ---
-
 # Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Agent-Ready API Design
 
 

@@ -3,9 +3,11 @@ title: "Codex On-Premises: The Dell AI Factory Partnership, Hybrid Deployment, a
 description: "On 18 May 2026, OpenAI and Dell Technologies announced a collaboration to bring Codex into hybrid and on-premises enterprise environments ."
 parent: "Articles"
 nav_order: 775
+type: Technical Article
+timestamp: 2026-05-19T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-on-premises-dell-ai-factory-hybrid-enterprise-deployment-data-residency"
 tags: ["codex", "enterprise", "on-premises", "Dell", "AI Factory", "hybrid deployment", "data residency", "infrastructure", "compliance", "GB10", "DGX Spark"]
 ---
-
 ![Sketchnote diagram for: Codex On-Premises: The Dell AI Factory Partnership, Hybrid Deployment, and What It Means for Data-Sovereign Enterprises](/sketchnotes/articles/2026-05-19-codex-on-premises-dell-ai-factory-hybrid-enterprise-deployment-data-residency.png)
 
 

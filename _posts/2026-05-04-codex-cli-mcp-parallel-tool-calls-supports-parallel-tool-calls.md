@@ -3,9 +3,11 @@ title: "MCP Parallel Tool Calls in Codex CLI: Unlocking Concurrent Execution wit
 description: "Since v0.121.0, Codex CLI has shipped a quietly powerful configuration flag for MCP servers: supports_parallel_tool_calls. When enabled, it allows tools."
 parent: "Articles"
 nav_order: 542
+type: Technical Article
+timestamp: 2026-05-04T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-mcp-parallel-tool-calls-supports-parallel-tool-calls"
 tags: ["codex-cli", "mcp", "parallel-tool-calls", "performance", "configuration", "concurrency"]
 ---
-
 ![Sketchnote diagram for: MCP Parallel Tool Calls in Codex CLI: Unlocking Concurrent Execution with supports_parallel_tool_calls](/sketchnotes/articles/2026-05-04-codex-cli-mcp-parallel-tool-calls-supports-parallel-tool-calls.png)
 
 

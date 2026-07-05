@@ -2,7 +2,7 @@
 title: "Codex Can See What It Builds: How Browser Use Closes the Verification Loop"
 description: "From Experiment to Enterprise: The Agentic Engineering Playbook — Supplementary Article This article examines how Codex's in-app browser and visual."
 date: 2026-04-24T17:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 layout: premium
 tags:
   - codex-app
@@ -15,6 +15,9 @@ tags:
   - computer-use
   - frontend-development
   - qa-automation
+type: Technical Article
+timestamp: 2026-04-24T18:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-browser-use-closing-the-verification-loop.article"
 ---
 ![Sketchnote diagram for: Codex Can See What It Builds: How Browser Use Closes the Verification Loop](/sketchnotes/articles/2026-04-24-codex-browser-use-closing-the-verification-loop.article.png)
 

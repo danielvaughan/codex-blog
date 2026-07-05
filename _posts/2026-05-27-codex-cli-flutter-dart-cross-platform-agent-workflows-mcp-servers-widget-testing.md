@@ -2,9 +2,11 @@
 title: "Codex CLI for Flutter and Dart: Cross-Platform Agent Workflows, MCP Servers, and Widget Testing"
 parent: "Articles"
 nav_order: 891
+type: Technical Article
+timestamp: 2026-05-27T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-flutter-dart-cross-platform-agent-workflows-mcp-servers-widget-testing"
 tags: ["codex-cli", "flutter", "dart", "mcp", "cross-platform", "widget-testing", "agentic-development"]
 ---
-
 # Codex CLI for Flutter and Dart: Cross-Platform Agent Workflows, MCP Servers, and Widget Testing
 
 

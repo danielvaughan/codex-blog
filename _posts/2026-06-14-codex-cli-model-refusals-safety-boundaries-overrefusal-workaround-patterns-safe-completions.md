@@ -2,9 +2,11 @@
 title: "When Your Codex Agent Says No: Model Refusals, Safety Boundaries, and Practical Workaround Patterns for Codex CLI"
 parent: "Articles"
 nav_order: 1111
+type: Technical Article
+timestamp: 2026-06-14T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-codex-cli-model-refusals-safety-boundaries-overrefusal-workaround-patterns-safe-completions"
 tags: ["safety", "refusals", "overrefusal", "safe-completions", "trusted-access", "configuration", "troubleshooting", "codex-cli"]
 ---
-
 # When Your Codex Agent Says No: Model Refusals, Safety Boundaries, and Practical Workaround Patterns for Codex CLI
 
 

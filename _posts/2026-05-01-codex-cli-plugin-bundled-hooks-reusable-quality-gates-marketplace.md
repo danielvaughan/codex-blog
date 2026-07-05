@@ -3,9 +3,11 @@ title: "Codex CLI Plugin-Bundled Hooks: Distributing Reusable Quality Gates Thro
 description: "Codex CLI's hook system has matured steadily since its graduation to stable status in v0.124. Hooks let you intercept agent actions — blocking dangerous."
 parent: "Articles"
 nav_order: 512
+type: Technical Article
+timestamp: 2026-05-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-plugin-bundled-hooks-reusable-quality-gates-marketplace"
 tags: ["codex-cli", "plugins", "hooks", "marketplace", "quality-gates", "PreToolUse", "PostToolUse", "config.toml", "v0.128", "governance"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Plugin-Bundled Hooks: Distributing Reusable Quality Gates Through the Marketplace](/sketchnotes/articles/2026-05-01-codex-cli-plugin-bundled-hooks-reusable-quality-gates-marketplace.png)
 
 # Codex CLI Plugin-Bundled Hooks: Distributing Reusable Quality Gates Through the Marketplace

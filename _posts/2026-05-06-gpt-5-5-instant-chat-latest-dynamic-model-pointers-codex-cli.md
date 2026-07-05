@@ -3,9 +3,11 @@ title: "GPT-5.5 Instant and chat-latest: Dynamic Model Pointers for Codex CLI De
 description: "On 5 May 2026, OpenAI replaced GPT-5.3 Instant with GPT-5.5 Instant as the default ChatGPT model and simultaneously shipped a new API model alias."
 parent: "Articles"
 nav_order: 615
+type: Technical Article
+timestamp: 2026-05-06T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-gpt-5-5-instant-chat-latest-dynamic-model-pointers-codex-cli"
 tags: ["codex-cli", "gpt-5.5", "chat-latest", "model-selection", "configuration", "dynamic-model-pointer"]
 ---
-
 ![Sketchnote diagram for: GPT-5.5 Instant and chat-latest: Dynamic Model Pointers for Codex CLI Developers](/sketchnotes/articles/2026-05-06-gpt-5-5-instant-chat-latest-dynamic-model-pointers-codex-cli.png)
 
 # GPT-5.5 Instant and chat-latest: Dynamic Model Pointers for Codex CLI Developers

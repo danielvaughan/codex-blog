@@ -3,9 +3,11 @@ title: "Codex CLI Web Search Configuration: Cached vs Live Modes, Domain Allow-L
 description: "Every coding agent eventually needs to look something up. A deprecated API flag, a new framework release, an unfamiliar error code — the model's training."
 parent: "Articles"
 nav_order: 642
+type: Technical Article
+timestamp: 2026-05-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-web-search-configuration-cached-live-domain-allow-lists-prompt-injection-defence"
 tags: ["web-search", "security", "prompt-injection", "configuration", "config.toml", "allowed-domains", "enterprise", "codex-cli"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Web Search Configuration: Cached vs Live Modes, Domain Allow-Lists, and Prompt Injection Defence](/sketchnotes/articles/2026-05-09-codex-cli-web-search-configuration-cached-live-domain-allow-lists-prompt-injection-defence.png)
 
 

@@ -3,9 +3,11 @@ title: "Agent Interoperability Protocols and Codex CLI: MCP, ACP, and A2A in Pra
 description: "Three agent interoperability protocols now compete for the plumbing underneath every coding agent workflow: the Model Context Protocol (MCP) for tool."
 parent: "Articles"
 nav_order: 517
+type: Technical Article
+timestamp: 2026-05-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-agent-interoperability-protocols-mcp-acp-a2a"
 tags: ["codex-cli", "mcp", "acp", "a2a", "agent-interoperability", "protocols", "ide-integration", "multi-agent"]
 ---
-
 ![Sketchnote diagram for: Agent Interoperability Protocols and Codex CLI: MCP, ACP, and A2A in Practice](/sketchnotes/articles/2026-05-01-codex-cli-agent-interoperability-protocols-mcp-acp-a2a.png)
 
 # Agent Interoperability Protocols and Codex CLI: MCP, ACP, and A2A in Practice

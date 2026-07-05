@@ -3,9 +3,11 @@ title: "Git-Backed Team Memory for Coding Agents: From Egregore to Codex Hooks"
 description: "Every developer team already has a shared, versioned, conflict-resolving knowledge store: git. Yet most AI coding agents treat memory as a single-user."
 parent: "Articles"
 nav_order: 326
+type: Technical Article
+timestamp: 2026-04-18T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-git-backed-team-memory-egregore-codex-hooks"
 tags: ["team-memory", "egregore", "shared-cognition", "git-memory", "hooks", "handoff", "multi-agent", "collaboration"]
 ---
-
 ![Sketchnote diagram for: Git-Backed Team Memory for Coding Agents: From Egregore to Codex Hooks](/sketchnotes/articles/2026-04-18-git-backed-team-memory-egregore-codex-hooks.png)
 
 # Git-Backed Team Memory for Coding Agents: From Egregore to Codex Hooks

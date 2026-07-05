@@ -3,9 +3,11 @@ title: "Safer Builders, Risky Maintainers: What the MSR 2026 Breaking Changes St
 description: "AI coding agents introduce fewer breaking changes than humans when generating new code — but the pattern reverses sharply for refactoring and maintenance tasks. Here is how to configure Codex CLI to account for that asymmetry."
 parent: "Articles"
 nav_order: 1135
+type: Technical Article
+timestamp: 2026-06-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-safer-builders-risky-maintainers-msr-2026-breaking-changes-codex-cli-refactoring-maintenance-configuration"
 tags: ["breaking-changes", "refactoring", "maintenance", "MSR-2026", "AIDev", "codex-cli", "AGENTS.md", "hooks", "approval-policy", "code-quality", "empirical-research"]
 ---
-
 # Safer Builders, Risky Maintainers: What the MSR 2026 Breaking Changes Study Means for Codex CLI Refactoring and Maintenance Configuration
 
 

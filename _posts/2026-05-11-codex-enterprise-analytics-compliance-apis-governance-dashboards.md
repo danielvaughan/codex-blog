@@ -3,9 +3,11 @@ title: "Codex Enterprise Analytics and Compliance APIs: Usage Dashboards, Code R
 description: "With Codex now generally available across CLI, IDE extension, App, GitHub, and Slack surfaces , enterprise teams face a familiar question: how do we measure."
 parent: "Articles"
 nav_order: 676
+type: Technical Article
+timestamp: 2026-05-11T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-enterprise-analytics-compliance-apis-governance-dashboards"
 tags: ["codex-cli", "enterprise", "analytics", "compliance", "governance", "SIEM", "API", "dashboards"]
 ---
-
 ![Sketchnote diagram for: Codex Enterprise Analytics and Compliance APIs: Usage Dashboards, Code Review Metrics, and Audit Integration](/sketchnotes/articles/2026-05-11-codex-enterprise-analytics-compliance-apis-governance-dashboards.png)
 
 

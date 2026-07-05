@@ -3,9 +3,11 @@ title: "Inside the Codex App Workspace: PR Review Pane, Task Sidebar, and Artifa
 description: "Platform 26.415, released on 16 April 2026, added three workspace features to the Codex App that shift it from a terminal-with-AI towards a unified."
 parent: "Articles"
 nav_order: 317
+type: Technical Article
+timestamp: 2026-04-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-app-workspace-pr-review-task-sidebar-artifact-viewer"
 tags: ["codex-app", "pr-review", "task-sidebar", "artifact-viewer", "workspace", "developer-workflow", "github", "git-integration", "projectless-chats", "26.415"]
 ---
-
 ![Sketchnote diagram for: Inside the Codex App Workspace: PR Review Pane, Task Sidebar, and Artifact Viewer in Platform 26.415](/sketchnotes/articles/2026-04-17-codex-app-workspace-pr-review-task-sidebar-artifact-viewer.png)
 
 # Inside the Codex App Workspace: PR Review Pane, Task Sidebar, and Artifact Viewer in Platform 26.415

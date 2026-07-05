@@ -2,9 +2,11 @@
 title: "SkillReducer: What the First Large-Scale Skill Bloat Study Means for Codex CLI Token Efficiency"
 parent: "Articles"
 nav_order: 1144
+type: Technical Article
+timestamp: 2026-06-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-skillreducer-token-efficient-skill-authoring-codex-cli-progressive-disclosure-context-bloat"
 tags: ["codex-cli", "skills", "token-efficiency", "SkillReducer", "SKILL.md", "progressive-disclosure", "context-window", "cost-optimisation"]
 ---
-
 # SkillReducer: What the First Large-Scale Skill Bloat Study Means for Codex CLI Token Efficiency
 
 

@@ -3,9 +3,11 @@ title: "The macOS Premium: Which Codex Features Only Work on Apple Hardware"
 description: "Codex CLI markets itself as a cross-platform terminal agent — macOS, Linux, and Windows via WSL2. That's technically true: the core coding agent works."
 parent: "Articles"
 nav_order: 322
+type: Technical Article
+timestamp: 2026-04-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-cli-macos-premium-platform-feature-matrix"
 tags: ["macos", "platform-matrix", "linux", "windows", "sandbox", "seatbelt", "voice", "computer-use"]
 ---
-
 ![Sketchnote diagram for: The macOS Premium: Which Codex Features Only Work on Apple Hardware](/sketchnotes/articles/2026-04-17-codex-cli-macos-premium-platform-feature-matrix.png)
 
 # The macOS Premium: Which Codex Features Only Work on Apple Hardware

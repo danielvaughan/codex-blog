@@ -2,7 +2,7 @@
 title: "The Great Convergence: Why Every AI Coding Agent Now Runs the Same Pipeline"
 description: "I have been tracking over a dozen AI coding agents for months now — OpenAI Codex CLI, Anthropic Claude Code, Google Jules, Cursor, GitHub Copilot Agent."
 date: 2026-04-15T16:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - architecture
   - convergence
@@ -13,8 +13,10 @@ tags:
   - copilot
   - agentic-coding
   - industry-analysis
+type: Technical Article
+timestamp: 2026-04-15T17:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-coding-agent-pipeline-convergence"
 ---
-
 ![Sketchnote diagram for: The Great Convergence: Why Every AI Coding Agent Now Runs the Same Pipeline](/sketchnotes/articles/2026-04-15-coding-agent-pipeline-convergence.png)
 
 # The Great Convergence: Why Every AI Coding Agent Now Runs the Same Pipeline

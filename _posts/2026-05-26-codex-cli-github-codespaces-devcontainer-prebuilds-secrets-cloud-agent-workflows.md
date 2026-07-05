@@ -3,9 +3,11 @@ title: "Codex CLI in GitHub Codespaces: Devcontainer Configuration, Prebuilds, a
 description: "A practical guide to running Codex CLI inside GitHub Codespaces — covering devcontainer.json configuration, the community Codex feature, prebuilds for instant agent startup, secrets management for API keys, machine type selection, sandbox compatibility, and organisation-level governance."
 parent: "Articles"
 nav_order: 879
+type: Technical Article
+timestamp: 2026-05-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-github-codespaces-devcontainer-prebuilds-secrets-cloud-agent-workflows"
 tags: ["codex-cli", "github-codespaces", "devcontainers", "prebuilds", "secrets", "cloud-development", "sandboxing", "enterprise", "governance"]
 ---
-
 # Codex CLI in GitHub Codespaces: Devcontainer Configuration, Prebuilds, and Cloud Agent Workflows
 
 

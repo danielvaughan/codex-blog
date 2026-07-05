@@ -2,9 +2,11 @@
 title: "KiloBench and the Cost-per-Task Revolution: What Harness-Aware Efficiency Benchmarks Mean for Codex CLI Model Selection"
 parent: "Articles"
 nav_order: 1130
+type: Technical Article
+timestamp: 2026-06-16T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-kilobench-cost-per-task-efficiency-benchmarks-codex-cli-model-selection-token-budget-strategy"
 tags: ["codex-cli", "kilobench", "benchmarks", "cost-efficiency", "model-selection", "token-budget", "named-profiles", "finops"]
 ---
-
 # KiloBench and the Cost-per-Task Revolution: What Harness-Aware Efficiency Benchmarks Mean for Codex CLI Model Selection
 
 

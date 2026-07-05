@@ -2,9 +2,11 @@
 title: "Interactive Debugging for Coding Agents: What Debug2Fix and ADI Mean for Codex CLI Runtime Investigation"
 parent: "Articles"
 nav_order: 1183
+type: Technical Article
+timestamp: 2026-06-21T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-interactive-debugging-coding-agents-debug2fix-adi-codex-cli-subagent-hooks-runtime-investigation"
 tags: ["codex-cli", "debugging", "Debug2Fix", "ADI", "subagent", "PostToolUse", "runtime-analysis", "hooks", "coding-agents"]
 ---
-
 # Interactive Debugging for Coding Agents: What Debug2Fix and ADI Mean for Codex CLI Runtime Investigation
 
 

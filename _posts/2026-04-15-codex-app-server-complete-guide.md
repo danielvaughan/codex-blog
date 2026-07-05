@@ -2,7 +2,7 @@
 title: "The Codex App Server: A Complete Guide to the Protocol That Powers Every Surface"
 description: "Every time you type a prompt in Codex — whether in the terminal, VS Code, the macOS desktop app, or the web interface at chatgpt.com/codex — the same Rust."
 date: 2026-04-15T12:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - architecture
   - app-server
@@ -12,8 +12,10 @@ tags:
   - python-sdk
   - remote-development
   - integration
+type: Technical Article
+timestamp: 2026-04-15T13:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-codex-app-server-complete-guide"
 ---
-
 ![Sketchnote diagram for: The Codex App Server: A Complete Guide to the Protocol That Powers Every Surface](/sketchnotes/articles/2026-04-15-codex-app-server-complete-guide.png)
 
 # The Codex App Server: A Complete Guide to the Protocol That Powers Every Surface

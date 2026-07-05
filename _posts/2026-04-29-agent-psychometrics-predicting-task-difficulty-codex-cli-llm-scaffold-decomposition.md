@@ -3,6 +3,9 @@ title: "Agent Psychometrics: Predicting Which Tasks Your Codex CLI Agent Will Ac
 description: "Not every coding task is created equal, and neither is every agent. A new framework out of the ICLR 2026 Workshop on Agents in the Wild formalises something."
 parent: "Articles"
 nav_order: 476
+type: Technical Article
+timestamp: 2026-04-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-agent-psychometrics-predicting-task-difficulty-codex-cli-llm-scaffold-decomposition"
 tags: ["codex-cli", "benchmarks", "research", "harness-engineering", "task-difficulty", "agent-performance", "item-response-theory"]
 ---
 ![Sketchnote diagram for: Agent Psychometrics: Predicting Which Tasks Your Codex CLI Agent Will Ace and Which It Will Botch](/sketchnotes/articles/2026-04-29-agent-psychometrics-predicting-task-difficulty-codex-cli-llm-scaffold-decomposition.png)

@@ -2,9 +2,11 @@
 title: "GPT-5.6 Sol, Terra, and Luna: What OpenAI's Three-Tier Model Family Means for Codex CLI Workflows"
 parent: "Articles"
 nav_order: 1290
+type: Technical Article
+timestamp: 2026-07-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-gpt-5-6-sol-terra-luna-codex-cli-model-selection-tiered-reasoning-cache-breakpoints"
 tags: ["codex-cli", "gpt-5.6", "model-selection", "sol", "terra", "luna", "reasoning", "ultra-mode", "prompt-caching", "cost-optimisation"]
 ---
-
 # GPT-5.6 Sol, Terra, and Luna: What OpenAI's Three-Tier Model Family Means for Codex CLI Workflows
 
 

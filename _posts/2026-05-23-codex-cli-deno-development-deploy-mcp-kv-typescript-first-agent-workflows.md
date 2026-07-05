@@ -3,9 +3,11 @@ title: "Codex CLI for Deno Development: Deploy MCP, Deno KV, and TypeScript-Firs
 description: "Deno 2.8.0 shipped on 22 May 2026 with deno ci, deno pack, lazy-loaded ESM modules, and TypeScript 6.0.3 support . Its security-first permissions model."
 parent: "Articles"
 nav_order: 844
+type: Technical Article
+timestamp: 2026-05-23T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-deno-development-deploy-mcp-kv-typescript-first-agent-workflows"
 tags: ["codex-cli", "deno", "mcp", "deno-deploy", "deno-kv", "typescript", "agent-workflows"]
 ---
-
 # Codex CLI for Deno Development: Deploy MCP, Deno KV, and TypeScript-First Agent Workflows
 
 

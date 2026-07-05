@@ -3,9 +3,11 @@ title: "Chrome DevTools MCP and Codex CLI: Closing the Browser Debugging Gap for
 description: "Every terminal-native coding agent shares one blind spot: the browser. An agent can refactor your React component tree in seconds, but when the rendered."
 parent: "Articles"
 nav_order: 396
+type: Technical Article
+timestamp: 2026-04-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-chrome-devtools-mcp-codex-cli-browser-debugging-frontend-workflows"
 tags: ["codex-cli", "mcp", "chrome-devtools", "frontend", "debugging", "performance", "browser"]
 ---
-
 ![Sketchnote diagram for: Chrome DevTools MCP and Codex CLI: Closing the Browser Debugging Gap for AI Coding Agents](/sketchnotes/articles/2026-04-24-chrome-devtools-mcp-codex-cli-browser-debugging-frontend-workflows.png)
 
 

@@ -2,9 +2,11 @@
 title: "Augmentation with Dilution: What the First Large-Scale Study of AI Coding Agent Impact on Contributor Ecosystems Means for Codex CLI Teams"
 parent: "Articles"
 nav_order: 1275
+type: Technical Article
+timestamp: 2026-06-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-augmentation-with-dilution-ai-coding-agent-contributor-ecosystems-codex-cli-review-onboarding-governance"
 tags: ["codex-cli", "contributor-ecosystems", "augmentation-dilution", "code-review", "newcomer-onboarding", "team-governance", "AGENTS.md", "review-workflows", "open-source"]
 ---
-
 # Augmentation with Dilution: What the First Large-Scale Study of AI Coding Agent Impact on Contributor Ecosystems Means for Codex CLI Teams
 
 

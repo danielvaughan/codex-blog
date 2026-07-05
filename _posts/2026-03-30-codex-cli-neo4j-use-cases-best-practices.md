@@ -2,14 +2,16 @@
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
 description: "Graph databases and AI agents are a natural fit. An agent's core capability is traversal."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - ecosystem
   - third-party
   - memory
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-30T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-codex-cli-neo4j-use-cases-best-practices"
 ---
-
 ![Sketchnote diagram for: Codex CLI and Neo4j: Use Cases and Best Practices](/sketchnotes/articles/2026-03-30-codex-cli-neo4j-use-cases-best-practices.png)
 
 # Codex CLI and Neo4j: Use Cases and Best Practices

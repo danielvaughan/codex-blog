@@ -2,9 +2,11 @@
 title: "Codex CLI for SolidJS and SolidStart Development: Fine-Grained Reactivity, MCP Tooling, and Agent-Driven Workflows"
 parent: "Articles"
 nav_order: 911
+type: Technical Article
+timestamp: 2026-05-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-solidjs-solidstart-development-fine-grained-reactivity-mcp-agent-workflows"
 tags: ["codex-cli", "solidjs", "solidstart", "fine-grained-reactivity", "mcp", "signals", "vitest", "agent-workflows", "frontend"]
 ---
-
 # Codex CLI for SolidJS and SolidStart Development: Fine-Grained Reactivity, MCP Tooling, and Agent-Driven Workflows
 
 

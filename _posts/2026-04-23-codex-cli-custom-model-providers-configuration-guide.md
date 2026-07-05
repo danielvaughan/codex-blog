@@ -3,9 +3,11 @@ title: "Codex CLI Custom Model Providers: The Complete Configuration Guide"
 description: "Codex CLI ships with three built-in providers, but the real power lies in its extensible provider framework. Point Codex at any Responses API endpoint with a custom config.toml block."
 parent: "Articles"
 nav_order: 381
+type: Technical Article
+timestamp: 2026-04-23T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-codex-cli-custom-model-providers-configuration-guide"
 tags: ["codex-cli", "model-providers", "configuration", "azure", "litellm", "multi-cloud", "enterprise"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Custom Model Providers: The Complete Configuration Guide](/sketchnotes/articles/2026-04-23-codex-cli-custom-model-providers-configuration-guide.png)
 
 

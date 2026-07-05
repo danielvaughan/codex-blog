@@ -2,9 +2,11 @@
 title: "Ten codex exec One-Liners Every Senior Developer Should Have in Their Shell History"
 parent: "Articles"
 nav_order: 1065
+type: Technical Article
+timestamp: 2026-06-10T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-codex-exec-recipes-ten-production-one-liners-ci-cd-automation-senior-developer-toolkit"
 tags: ["codex-cli", "codex-exec", "automation", "ci-cd", "one-liners", "non-interactive", "structured-output", "shell-scripting", "developer-productivity"]
 ---
-
 # Ten `codex exec` One-Liners Every Senior Developer Should Have in Their Shell History
 
 

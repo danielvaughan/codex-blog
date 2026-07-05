@@ -2,9 +2,11 @@
 title: "Meta Context Engineering: What Automated Skill Evolution Means for Codex CLI AGENTS.md and Skills Optimisation"
 parent: "Articles"
 nav_order: 1190
+type: Technical Article
+timestamp: 2026-06-22T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-meta-context-engineering-agentic-skill-evolution-codex-cli-agents-md-skills-automated-optimisation"
 tags: ["codex-cli", "context-engineering", "meta-context-engineering", "agents-md", "skills", "automated-optimisation", "agentic-skill-evolution", "CoEvoSkills"]
 ---
-
 # Meta Context Engineering: What Automated Skill Evolution Means for Codex CLI AGENTS.md and Skills Optimisation
 
 

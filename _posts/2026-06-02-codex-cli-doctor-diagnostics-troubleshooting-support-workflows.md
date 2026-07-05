@@ -2,9 +2,11 @@
 title: "Codex CLI Doctor: Diagnostics, Troubleshooting, and Support-Ready Reports"
 parent: "Articles"
 nav_order: 965
+type: Technical Article
+timestamp: 2026-06-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-doctor-diagnostics-troubleshooting-support-workflows"
 tags: ["codex-cli", "diagnostics", "troubleshooting", "codex-doctor", "support", "debugging", "v0.135", "v0.136"]
 ---
-
 # Codex CLI Doctor: Diagnostics, Troubleshooting, and Support-Ready Reports
 
 

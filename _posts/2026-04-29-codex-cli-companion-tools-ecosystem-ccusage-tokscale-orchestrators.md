@@ -3,6 +3,9 @@ title: "The Codex CLI Companion Tools Ecosystem: Token Monitors, Orchestrators, 
 description: "Codex CLI has crossed 75,000 GitHub stars, 14.5 million monthly npm downloads, and three million weekly active users ."
 parent: "Articles"
 nav_order: 487
+type: Technical Article
+timestamp: 2026-04-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-companion-tools-ecosystem-ccusage-tokscale-orchestrators"
 tags: ["codex-cli", "ecosystem", "open-source", "ccusage", "tokscale", "agent-orchestrator", "oh-my-codex", "subagents", "skills", "productivity"]
 ---
 ![Sketchnote diagram for: The Codex CLI Companion Tools Ecosystem: Token Monitors, Orchestrators, and Community Collections](/sketchnotes/articles/2026-04-29-codex-cli-companion-tools-ecosystem-ccusage-tokscale-orchestrators.png)

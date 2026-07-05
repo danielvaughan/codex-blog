@@ -2,9 +2,11 @@
 title: "Is Agent Code Less Maintainable? What CodeThread Reveals About Codex CLI Output and How to Defend Against Drift"
 parent: "Articles"
 nav_order: 1264
+type: Technical Article
+timestamp: 2026-06-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-agent-code-maintainability-codethread-codex-cli-input-error-contract-drift-posttooluse-quality-gates"
 tags: ["codex-cli", "agent-code-maintainability", "codethread", "input-error-contract-drift", "posttooluse-hooks", "code-quality-gates", "swe-bench"]
 ---
-
 # Is Agent Code Less Maintainable? What CodeThread Reveals About Codex CLI Output and How to Defend Against Drift
 
 

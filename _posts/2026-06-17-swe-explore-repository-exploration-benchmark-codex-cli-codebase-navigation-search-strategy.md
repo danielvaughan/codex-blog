@@ -2,9 +2,11 @@
 title: "SWE-Explore: What the Repository Exploration Benchmark Means for Codex CLI Search Strategy"
 parent: "Articles"
 nav_order: 1139
+type: Technical Article
+timestamp: 2026-06-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-swe-explore-repository-exploration-benchmark-codex-cli-codebase-navigation-search-strategy"
 tags: ["codex-cli", "swe-explore", "repository-exploration", "codebase-navigation", "search-strategy", "benchmarks", "context-efficiency", "MCP", "AGENTS.md"]
 ---
-
 # SWE-Explore: What the Repository Exploration Benchmark Means for Codex CLI Search Strategy
 
 

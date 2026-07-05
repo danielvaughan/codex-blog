@@ -1,8 +1,9 @@
 ---
 title: "Article Taxonomy"
 description: "Status: APPLIED — all article files have been updated with these tags."
+type: Technical Article
+resource: "https://danielvaughan.github.io/codex-resources/articles/taxonomy"
 ---
-
 # Article Tag Taxonomy — Proposal (2026-04-08)
 
 > Status: APPLIED — all article files have been updated with these tags.

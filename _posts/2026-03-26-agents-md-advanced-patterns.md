@@ -2,13 +2,15 @@
 title: "AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks"
 description: "The basic three-tier hierarchy (~/.codex/AGENTS.md → repo root → subdirectory) is documented everywhere. This article covers what isn't: override files."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - configuration
   - agents-md
   - config-toml
+type: Technical Article
+timestamp: 2026-03-26T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-26-agents-md-advanced-patterns"
 ---
-
 ![Sketchnote diagram for: AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks](/sketchnotes/articles/2026-03-26-agents-md-advanced-patterns.png)
 
 

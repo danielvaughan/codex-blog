@@ -2,9 +2,11 @@
 title: "OmniCode and the Beyond-Bug-Fixing Problem: Configuring Codex CLI for Test Generation, Code Review, and Multilingual Workflows"
 parent: "Articles"
 nav_order: 1268
+type: Technical Article
+timestamp: 2026-06-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-omnicode-benchmark-beyond-bug-fixing-codex-cli-test-generation-code-review-multilingual-agent-workflows"
 tags: ["codex-cli", "omnicode", "benchmark", "test-generation", "code-review", "multilingual", "agents-md", "subagents", "configuration"]
 ---
-
 # OmniCode and the Beyond-Bug-Fixing Problem: Configuring Codex CLI for Test Generation, Code Review, and Multilingual Workflows
 
 

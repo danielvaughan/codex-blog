@@ -3,9 +3,11 @@ title: "Codex CLI for Visual Regression Testing: Integrating Percy, Chromatic, a
 description: "Visual regression testing — the practice of capturing screenshots and comparing them pixel-by-pixel against approved baselines — has traditionally required."
 parent: "Articles"
 nav_order: 548
+type: Technical Article
+timestamp: 2026-05-05T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-visual-regression-testing-percy-chromatic-playwright-mcp"
 tags: ["visual-regression", "percy", "chromatic", "playwright", "mcp", "storybook", "testing", "ci-cd", "screenshots", "automation"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Visual Regression Testing: Integrating Percy, Chromatic, and Playwright via MCP](/sketchnotes/articles/2026-05-05-codex-cli-visual-regression-testing-percy-chromatic-playwright-mcp.png)
 
 # Codex CLI for Visual Regression Testing: Integrating Percy, Chromatic, and Playwright via MCP

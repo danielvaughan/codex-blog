@@ -3,6 +3,9 @@ title: "Codex CLI for Elixir and Phoenix Teams: Tidewave MCP, AGENTS.md, and Fun
 description: "Elixir and Phoenix occupy a singular position in the AI-assisted development landscape. The BEAM's functional paradigm — immutable data, explicit process."
 parent: "Articles"
 nav_order: 434
+type: Technical Article
+timestamp: 2026-04-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-elixir-phoenix-teams-tidewave-mcp-functional-agent-workflows"
 tags: ["elixir", "phoenix", "liveview", "tidewave", "mcp", "agents-md", "functional-programming", "team-guide"]
 ---
 ![Sketchnote diagram for: Codex CLI for Elixir and Phoenix Teams: Tidewave MCP, AGENTS.md, and Functional Agent Workflows](/sketchnotes/articles/2026-04-26-codex-cli-elixir-phoenix-teams-tidewave-mcp-functional-agent-workflows.png)

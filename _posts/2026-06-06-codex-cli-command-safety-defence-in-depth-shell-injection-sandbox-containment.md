@@ -2,9 +2,11 @@
 title: "Codex CLI Command Safety: Defence in Depth from Shell Injection to Sandbox Containment"
 parent: "Articles"
 nav_order: 1009
+type: Technical Article
+timestamp: 2026-06-06T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-codex-cli-command-safety-defence-in-depth-shell-injection-sandbox-containment"
 tags: ["codex-cli", "security", "command-safety", "sandbox", "shell-injection", "defence-in-depth", "enterprise"]
 ---
-
 # Codex CLI Command Safety: Defence in Depth from Shell Injection to Sandbox Containment
 
 

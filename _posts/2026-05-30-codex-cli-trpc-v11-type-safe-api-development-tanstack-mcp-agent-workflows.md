@@ -2,9 +2,11 @@
 title: "Codex CLI for tRPC v11 Development: Type-Safe APIs, TanStack Integration, and MCP-Bridged Agent Workflows"
 parent: "Articles"
 nav_order: 938
+type: Technical Article
+timestamp: 2026-05-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-trpc-v11-type-safe-api-development-tanstack-mcp-agent-workflows"
 tags: ["codex-cli", "trpc", "trpc-v11", "tanstack", "type-safe-apis", "mcp", "agent-workflows", "typescript", "full-stack"]
 ---
-
 # Codex CLI for tRPC v11 Development: Type-Safe APIs, TanStack Integration, and MCP-Bridged Agent Workflows
 
 

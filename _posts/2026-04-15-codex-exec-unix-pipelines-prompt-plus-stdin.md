@@ -3,9 +3,11 @@ title: "Codex CLI as a Unix Citizen: Prompt-Plus-Stdin, Shell Pipelines, and Com
 description: "The Unix philosophy — small tools, text streams, composable pipelines — has survived every paradigm shift in computing for half a century."
 parent: "Articles"
 nav_order: 283
+type: Technical Article
+timestamp: 2026-04-15T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-codex-exec-unix-pipelines-prompt-plus-stdin"
 tags: ["codex-exec", "stdin", "pipelines", "unix-philosophy", "shell-composition", "automation", "output-schema", "structured-output"]
 ---
-
 ![Sketchnote diagram for: Codex CLI as a Unix Citizen: Prompt-Plus-Stdin, Shell Pipelines, and Composable Agent Workflows](/sketchnotes/articles/2026-04-15-codex-exec-unix-pipelines-prompt-plus-stdin.png)
 
 # Codex CLI as a Unix Citizen: Prompt-Plus-Stdin, Shell Pipelines, and Composable Agent Workflows

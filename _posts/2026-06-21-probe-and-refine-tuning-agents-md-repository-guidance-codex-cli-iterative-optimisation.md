@@ -2,9 +2,11 @@
 title: "Probe-and-Refine Tuning: What Iterative AGENTS.md Optimisation Research Means for Codex CLI"
 parent: "Articles"
 nav_order: 1186
+type: Technical Article
+timestamp: 2026-06-21T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-probe-and-refine-tuning-agents-md-repository-guidance-codex-cli-iterative-optimisation"
 tags: ["codex-cli", "AGENTS.md", "repository-guidance", "probe-and-refine", "context-engineering", "SWE-bench", "coding-agents"]
 ---
-
 # Probe-and-Refine Tuning: What Iterative AGENTS.md Optimisation Research Means for Codex CLI
 
 

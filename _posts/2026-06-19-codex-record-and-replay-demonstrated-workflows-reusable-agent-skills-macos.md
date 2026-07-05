@@ -2,9 +2,11 @@
 title: "Record and Replay: Turning macOS Demonstrations into Reusable Codex Agent Skills"
 parent: "Articles"
 nav_order: 1165
+type: Technical Article
+timestamp: 2026-06-19T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-codex-record-and-replay-demonstrated-workflows-reusable-agent-skills-macos"
 tags: ["codex-cli", "record-and-replay", "agent-skills", "computer-use", "macOS", "automation", "skill-md", "workflow-automation"]
 ---
-
 # Record and Replay: Turning macOS Demonstrations into Reusable Codex Agent Skills
 
 

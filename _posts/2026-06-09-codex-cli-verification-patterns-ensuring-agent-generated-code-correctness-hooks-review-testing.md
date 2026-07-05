@@ -2,9 +2,11 @@
 title: "Codex CLI Verification Patterns: Seven Strategies for Ensuring Agent-Generated Code Actually Works"
 parent: "Articles"
 nav_order: 1044
+type: Technical Article
+timestamp: 2026-06-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-codex-cli-verification-patterns-ensuring-agent-generated-code-correctness-hooks-review-testing"
 tags: ["codex-cli", "verification", "code-quality", "hooks", "testing", "PostToolUse", "auto-review", "security", "workflow-patterns"]
 ---
-
 # Codex CLI Verification Patterns: Seven Strategies for Ensuring Agent-Generated Code Actually Works
 
 

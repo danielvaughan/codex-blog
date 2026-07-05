@@ -3,9 +3,11 @@ title: "Codex Appshots: Screenshot-Driven Context for Developer Workflows on mac
 description: "Codex has always been strongest when given precise context. The @ mention system, AGENTS.md, and image attachments in the CLI all serve the same purpose."
 parent: "Articles"
 nav_order: 811
+type: Technical Article
+timestamp: 2026-05-22T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-appshots-screenshot-driven-context-developer-workflows-macos"
 tags: ["codex", "appshots", "macos", "screenshots", "context", "developer-workflows", "codex-app", "computer-use", "privacy"]
 ---
-
 ![Sketchnote diagram for: Codex Appshots: Screenshot-Driven Context for Developer Workflows on macOS](/sketchnotes/articles/2026-05-22-codex-appshots-screenshot-driven-context-developer-workflows-macos.png)
 
 

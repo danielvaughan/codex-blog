@@ -3,9 +3,11 @@ title: "Migrating from LangChain to Native Agent SDKs: A Codex CLI Perspective"
 description: "By mid-2026, a quiet exodus is underway. Production teams that adopted LangChain in 2023–2024 are rewriting their agent code against vendor-native SDKs."
 parent: "Articles"
 nav_order: 847
+type: Technical Article
+timestamp: 2026-05-23T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-migrating-langchain-langgraph-native-agent-sdks-codex-cli"
 tags: ["codex-cli", "langchain", "langgraph", "openai-agents-sdk", "migration", "agent-frameworks", "mcp"]
 ---
-
 # Migrating from LangChain to Native Agent SDKs: A Codex CLI Perspective
 
 

@@ -2,14 +2,16 @@
 title: "Inside the Codex Sandbox: Platform-Specific Implementation on macOS, Linux and Windows"
 description: "Codex CLI's sandbox is not a single mechanism — it is three distinct OS-native enforcement layers unified behind one policy abstraction. Understanding what."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - architecture
   - sandbox
   - windows
   - codex-cli
+type: Technical Article
+timestamp: 2026-04-08T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-sandbox-platform-implementation"
 ---
-
 ![Sketchnote diagram for: Inside the Codex Sandbox: Platform-Specific Implementation on macOS, Linux and Windows](/sketchnotes/articles/2026-04-08-codex-sandbox-platform-implementation.png)
 
 # Inside the Codex Sandbox: Platform-Specific Implementation on macOS, Linux and Windows

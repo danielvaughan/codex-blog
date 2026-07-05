@@ -3,9 +3,11 @@ title: "Codex CLI and Kubernetes: MCP Servers, Helm Chart Workflows, and Cluster
 description: "Kubernetes development involves a constant dance between YAML manifests, Helm chart templating, cluster state inspection, and debugging misbehaving pods."
 parent: "Articles"
 nav_order: 597
+type: Technical Article
+timestamp: 2026-05-05T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-kubernetes-mcp-servers-helm-charts-cluster-debugging"
 tags: ["codex-cli", "kubernetes", "mcp", "helm", "kubectl", "devops", "cloud-native", "cluster-debugging", "infrastructure"]
 ---
-
 ![Sketchnote diagram for: Codex CLI and Kubernetes: MCP Servers, Helm Chart Workflows, and Cluster Debugging](/sketchnotes/articles/2026-05-05-codex-cli-kubernetes-mcp-servers-helm-charts-cluster-debugging.png)
 
 # Codex CLI and Kubernetes: MCP Servers, Helm Chart Workflows, and Cluster Debugging

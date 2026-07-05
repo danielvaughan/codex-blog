@@ -3,9 +3,11 @@ title: "Reviewing Agent Pull Requests: What 23,000 PRs Reveal About Description 
 description: "More than one in five code reviews on GitHub now involves an AI coding agent . With Codex CLI recording 90 million installs in a single week and the broader."
 parent: "Articles"
 nav_order: 640
+type: Technical Article
+timestamp: 2026-05-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-reviewing-agent-pull-requests-pr-mci-codex-cli-trustworthy-contributions"
 tags: ["codex-cli", "code-review", "pull-requests", "PR-MCI", "agent-trust", "AGENTS.md", "hooks", "code-quality"]
 ---
-
 ![Sketchnote diagram for: Reviewing Agent Pull Requests: What 23,000 PRs Reveal About Description Accuracy and How to Configure Codex CLI for Trustworthy Contributions](/sketchnotes/articles/2026-05-09-reviewing-agent-pull-requests-pr-mci-codex-cli-trustworthy-contributions.png)
 
 

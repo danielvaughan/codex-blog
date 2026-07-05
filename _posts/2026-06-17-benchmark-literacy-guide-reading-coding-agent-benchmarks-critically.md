@@ -2,9 +2,11 @@
 title: "Benchmark Literacy: A Practitioner's Guide to Reading Coding Agent Benchmarks Critically"
 parent: "Articles"
 nav_order: 1143
+type: Technical Article
+timestamp: 2026-06-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-benchmark-literacy-guide-reading-coding-agent-benchmarks-critically"
 tags: ["codex-cli", "benchmarks", "swe-bench", "terminal-bench", "kilobench", "codescalebench", "evaluation", "model-selection"]
 ---
-
 # Benchmark Literacy: A Practitioner's Guide to Reading Coding Agent Benchmarks Critically
 
 

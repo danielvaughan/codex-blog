@@ -3,9 +3,11 @@ title: "DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction
 description: "DeepSeek V4 landed today — 24 April 2026 — and the numbers deserve attention. V4-Pro scores 80.6% on SWE-bench Verified while charging $3.48 per million."
 parent: "Articles"
 nav_order: 402
+type: Technical Article
+timestamp: 2026-04-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-deepseek-v4-codex-cli-provider-frontier-coding-fraction-cost"
 tags: ["codex-cli", "deepseek", "v4", "custom-provider", "cost-optimisation", "benchmarks", "configuration", "model-selection"]
 ---
-
 ![Sketchnote diagram for: DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost](/sketchnotes/articles/2026-04-24-deepseek-v4-codex-cli-provider-frontier-coding-fraction-cost.png)
 
 

@@ -2,9 +2,11 @@
 title: "Codex CLI Enterprise Deployment: Managed Configuration, RBAC, and the GitHub Enterprise Server Connector"
 parent: "Articles"
 nav_order: 955
+type: Technical Article
+timestamp: 2026-06-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-enterprise-deployment-managed-configuration-rbac-github-enterprise-server-connector"
 tags: ["codex-cli", "enterprise", "managed-configuration", "requirements-toml", "rbac", "github-enterprise-server", "governance", "security"]
 ---
-
 # Codex CLI Enterprise Deployment: Managed Configuration, RBAC, and the GitHub Enterprise Server Connector
 
 

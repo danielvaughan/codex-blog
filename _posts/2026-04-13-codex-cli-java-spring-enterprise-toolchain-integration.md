@@ -2,7 +2,7 @@
 title: "Codex CLI in Java Spring Teams: Plugging Into SonarQube, Jira, and Your Existing CI/CD Pipeline"
 description: "Most Codex CLI content assumes you are starting fresh with a JavaScript or Python project. Enterprise Java Spring teams do not start fresh."
 date: 2026-04-13T07:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - codex-cli
   - java
@@ -14,8 +14,10 @@ tags:
   - hooks
   - mcp
   - integration
+type: Technical Article
+timestamp: 2026-04-13T08:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-java-spring-enterprise-toolchain-integration"
 ---
-
 ![Sketchnote diagram for: Codex CLI in Java Spring Teams: Plugging Into SonarQube, Jira, and Your Existing CI/CD Pipeline](/sketchnotes/articles/2026-04-13-codex-cli-java-spring-enterprise-toolchain-integration.png)
 
 Most Codex CLI content assumes you are starting fresh with a JavaScript or Python project. Enterprise Java Spring teams do not start fresh. They have Checkstyle configurations that took two years to agree on, SonarQube quality gates that block every merge, Jira boards with 15 custom fields, and Jenkins pipelines that nobody dares touch. These are not obstacles to AI coding adoption — they are the infrastructure that makes adoption safe.

@@ -1,7 +1,7 @@
 ---
 title: "Evaluating Codex Agents: Evals, Long-Horizon Benchmarks, and the 4-File Pattern"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 description: "How to evaluate whether your Codex agent actually did the right thing — from quick skill evals to 25-hour autonomous runs."
 tags:
   - workflow-patterns
@@ -12,8 +12,10 @@ tags:
   - longcli-bench
   - codex-exec
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-28T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-evaluating-codex-agents-evals-longhorizon"
 ---
-
 ![Sketchnote diagram for: Evaluating Codex Agents: Evals, Long-Horizon Benchmarks, and the 4-File Pattern](/sketchnotes/articles/2026-03-28-evaluating-codex-agents-evals-longhorizon.png)
 
 *Research compiled 2026-03-28. Sources: [OpenAI eval-skills guide](https://developers.openai.com/blog/eval-skills), [Run long horizon tasks with Codex](https://developers.openai.com/blog/run-long-horizon-tasks-with-codex) (Feb 23, 2026), [LongCLI-Bench](https://arxiv.org/abs/2602.14337) (Feb 2026).*

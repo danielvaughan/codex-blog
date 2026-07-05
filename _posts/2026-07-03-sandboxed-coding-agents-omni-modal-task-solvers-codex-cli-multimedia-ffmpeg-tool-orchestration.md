@@ -2,9 +2,11 @@
 title: "Sandboxed Coding Agents as Omni-Modal Task Solvers: What Multimedia Benchmarks Reveal About Codex CLI's Tool Orchestration Ceiling"
 parent: "Articles"
 nav_order: 1313
+type: Technical Article
+timestamp: 2026-07-03T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-sandboxed-coding-agents-omni-modal-task-solvers-codex-cli-multimedia-ffmpeg-tool-orchestration"
 tags: ["codex-cli", "multimedia", "sandbox", "omni-modal", "tool-orchestration", "ffmpeg", "benchmarks", "multimodal"]
 ---
-
 # Sandboxed Coding Agents as Omni-Modal Task Solvers: What Multimedia Benchmarks Reveal About Codex CLI's Tool Orchestration Ceiling
 
 

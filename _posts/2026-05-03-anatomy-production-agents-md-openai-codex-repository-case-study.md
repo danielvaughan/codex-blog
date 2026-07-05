@@ -3,9 +3,11 @@ title: "Anatomy of a Production AGENTS.md: What the openai/codex Repository Teac
 description: "Most AGENTS.md guides tell you what sections to include. Few show you a battle-tested file from a codebase where agents write production code daily."
 parent: "Articles"
 nav_order: 532
+type: Technical Article
+timestamp: 2026-05-03T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-anatomy-production-agents-md-openai-codex-repository-case-study"
 tags: ["agents-md", "codex-cli", "configuration", "open-source", "rust", "case-study", "best-practices", "context-engineering"]
 ---
-
 ![Sketchnote diagram for: Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration](/sketchnotes/articles/2026-05-03-anatomy-production-agents-md-openai-codex-repository-case-study.png)
 
 # Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration

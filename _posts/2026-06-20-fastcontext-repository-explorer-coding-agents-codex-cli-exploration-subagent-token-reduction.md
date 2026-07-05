@@ -2,9 +2,11 @@
 title: "FastContext: What Microsoft's Repository Explorer Means for Codex CLI Exploration Strategy"
 parent: "Articles"
 nav_order: 1171
+type: Technical Article
+timestamp: 2026-06-20T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-fastcontext-repository-explorer-coding-agents-codex-cli-exploration-subagent-token-reduction"
 tags: ["codex-cli", "fastcontext", "repository-exploration", "context-engineering", "token-efficiency", "subagent", "swe-bench", "microsoft-research"]
 ---
-
 # FastContext: What Microsoft's Repository Explorer Means for Codex CLI Exploration Strategy
 
 

@@ -2,9 +2,11 @@
 title: "Codex CLI v0.142 Delegation Modes and Token Budgets: Governing Multi-Agent Autonomy at Thread and Turn Level"
 parent: "Articles"
 nav_order: 1199
+type: Technical Article
+timestamp: 2026-06-23T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-codex-cli-v0142-delegation-modes-token-budgets-multi-agent-governance-thread-turn-controls"
 tags: ["codex-cli", "v0.142", "delegation", "multi-agent", "token-budgets", "subagents", "governance", "orchestration"]
 ---
-
 # Codex CLI v0.142 Delegation Modes and Token Budgets: Governing Multi-Agent Autonomy at Thread and Turn Level
 
 

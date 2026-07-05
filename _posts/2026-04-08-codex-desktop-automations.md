@@ -2,14 +2,16 @@
 title: "Mastering the Codex Desktop App: Automations, Triggers and the Review Queue"
 description: "The Codex Desktop app, launched on 2 February 2026 for macOS, is not simply a GUI wrapper around the CLI. It is a purpose-built command centre for running."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - cloud
   - desktop-app
   - automation
   - codex-cli
+type: Technical Article
+timestamp: 2026-04-08T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-desktop-automations"
 ---
-
 ![Sketchnote diagram for: Mastering the Codex Desktop App: Automations, Triggers and the Review Queue](/sketchnotes/articles/2026-04-08-codex-desktop-automations.png)
 
 # Mastering the Codex Desktop App: Automations, Triggers and the Review Queue

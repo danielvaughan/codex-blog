@@ -2,9 +2,11 @@
 title: "Codex Inside ChatGPT: What the Platform Convergence Means for CLI-First Developer Workflows"
 parent: "Articles"
 nav_order: 993
+type: Technical Article
+timestamp: 2026-06-05T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-codex-inside-chatgpt-platform-convergence-cli-developer-workflows-unified-agent-surface"
 tags: ["codex-cli", "chatgpt", "platform-convergence", "unified-surface", "app-server", "developer-experience", "enterprise", "strategy", "june-2026"]
 ---
-
 # Codex Inside ChatGPT: What the Platform Convergence Means for CLI-First Developer Workflows
 
 

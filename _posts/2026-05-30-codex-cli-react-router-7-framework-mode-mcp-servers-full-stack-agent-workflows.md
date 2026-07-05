@@ -2,9 +2,11 @@
 title: "Codex CLI for React Router 7 Development: Framework Mode, MCP Servers, and Full-Stack Agent Workflows"
 parent: "Articles"
 nav_order: 918
+type: Technical Article
+timestamp: 2026-05-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-react-router-7-framework-mode-mcp-servers-full-stack-agent-workflows"
 tags: ["codex-cli", "react-router", "react-router-7", "framework-mode", "mcp", "full-stack", "ssr", "loaders", "actions", "vite", "typescript"]
 ---
-
 # Codex CLI for React Router 7 Development: Framework Mode, MCP Servers, and Full-Stack Agent Workflows
 
 

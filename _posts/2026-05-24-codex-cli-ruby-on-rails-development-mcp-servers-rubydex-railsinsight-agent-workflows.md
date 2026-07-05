@@ -2,9 +2,11 @@
 title: "Codex CLI for Ruby on Rails Development: Rubydex, RailsInsight, and Convention-Aware Agent Workflows"
 parent: "Articles"
 nav_order: 858
+type: Technical Article
+timestamp: 2026-05-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-ruby-on-rails-development-mcp-servers-rubydex-railsinsight-agent-workflows"
 tags: ["codex-cli", "ruby", "rails", "mcp", "rubydex", "railsinsight", "agent-workflows", "convention-over-configuration"]
 ---
-
 # Codex CLI for Ruby on Rails Development: Rubydex, RailsInsight, and Convention-Aware Agent Workflows
 
 

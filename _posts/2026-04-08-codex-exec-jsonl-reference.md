@@ -2,14 +2,16 @@
 title: "codex exec JSONL Reference: Every Event Type and the Complete Output Schema"
 description: "The codex exec subcommand is the gateway to running Codex CLI in scripts, pipelines, and automation workflows."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - reference
   - automation
   - observability
   - codex-cli
+type: Technical Article
+timestamp: 2026-04-08T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-exec-jsonl-reference"
 ---
-
 ![Sketchnote diagram for: codex exec JSONL Reference: Every Event Type and the Complete Output Schema](/sketchnotes/articles/2026-04-08-codex-exec-jsonl-reference.png)
 
 # codex exec JSONL Reference: Every Event Type and the Complete Output Schema

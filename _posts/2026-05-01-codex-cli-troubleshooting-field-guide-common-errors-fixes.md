@@ -3,9 +3,11 @@ title: "Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Co
 description: "Every Codex CLI practitioner eventually hits an error that halts a session. The frustration is compounded when the error message is terse and the fix is not."
 parent: "Articles"
 nav_order: 515
+type: Technical Article
+timestamp: 2026-05-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-troubleshooting-field-guide-common-errors-fixes"
 tags: ["troubleshooting", "errors", "sandbox", "authentication", "MCP", "rate-limits", "compaction", "diagnostics"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Common Errors](/sketchnotes/articles/2026-05-01-codex-cli-troubleshooting-field-guide-common-errors-fixes.png)
 
 # Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Common Errors

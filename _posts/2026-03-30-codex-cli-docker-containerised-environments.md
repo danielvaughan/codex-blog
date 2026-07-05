@@ -2,14 +2,16 @@
 title: "Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal"
 description: "Docker and Codex CLI have a natural affinity: Docker solves the it works on my machine problem for human developers."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - configuration
   - docker
   - sandbox
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-30T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-codex-cli-docker-containerised-environments"
 ---
-
 ![Sketchnote diagram for: Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal](/sketchnotes/articles/2026-03-30-codex-cli-docker-containerised-environments.png)
 
 # Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal

@@ -3,9 +3,11 @@ title: "GitHub Agent HQ Model Selection: Choosing GPT-5.4 vs GPT-5.3-Codex, Cust
 description: "GitHub's Agent HQ — the platform that lets developers assign coding tasks to Copilot, Claude, and Codex directly from issues, pull requests, and the Agents."
 parent: "Articles"
 nav_order: 282
+type: Technical Article
+timestamp: 2026-04-15T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-github-agent-hq-model-selection-codex-custom-agents"
 tags: ["github", "agent-hq", "model-selection", "codex-agent", "custom-agents", "copilot", "gpt-5.4", "gpt-5.3-codex", "premium-requests"]
 ---
-
 ![Sketchnote diagram for: GitHub Agent HQ Model Selection: Choosing GPT-5.4 vs GPT-5.3-Codex, Custom Agents, and the Multi-Agent GitHub Workflow](/sketchnotes/articles/2026-04-15-github-agent-hq-model-selection-codex-custom-agents.png)
 
 # GitHub Agent HQ Model Selection: Choosing GPT-5.4 vs GPT-5.3-Codex, Custom Agents, and the Multi-Agent GitHub Workflow

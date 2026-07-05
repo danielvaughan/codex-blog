@@ -2,9 +2,11 @@
 title: "Agentic Very Much: Coding Agent Adoption Has Doubled in New GitHub Projects — What It Means for Codex CLI Teams"
 parent: "Articles"
 nav_order: 1157
+type: Technical Article
+timestamp: 2026-06-18T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-agentic-very-much-coding-agent-adoption-doubled-new-github-projects-codex-cli-team-configuration"
 tags: ["codex-cli", "coding-agents", "adoption", "github", "AGENTS.md", "commit-attribution", "team-configuration", "research"]
 ---
-
 # Agentic Very Much: Coding Agent Adoption Has Doubled in New GitHub Projects — What It Means for Codex CLI Teams
 
 

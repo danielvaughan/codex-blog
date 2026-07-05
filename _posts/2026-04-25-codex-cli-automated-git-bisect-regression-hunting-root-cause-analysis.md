@@ -3,9 +3,11 @@ title: "Automated Regression Hunting with Codex CLI: AI-Powered Git Bisect and R
 description: "Git bisect is one of the most powerful debugging tools in any developer's arsenal, yet it remains chronically underused."
 parent: "Articles"
 nav_order: 423
+type: Technical Article
+timestamp: 2026-04-25T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-automated-git-bisect-regression-hunting-root-cause-analysis"
 tags: ["codex-cli", "git-bisect", "regression", "debugging", "automation", "codex-exec", "CI/CD"]
 ---
-
 ![Sketchnote diagram for: Automated Regression Hunting with Codex CLI: AI-Powered Git Bisect and Root Cause Analysis](/sketchnotes/articles/2026-04-25-codex-cli-automated-git-bisect-regression-hunting-root-cause-analysis.png)
 
 # Automated Regression Hunting with Codex CLI: AI-Powered Git Bisect and Root Cause Analysis

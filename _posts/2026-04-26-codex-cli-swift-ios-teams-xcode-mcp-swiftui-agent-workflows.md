@@ -3,6 +3,9 @@ title: "Codex CLI for Swift and iOS Teams: Xcode MCP, SwiftUI Skills, and Agent-
 description: "Apple's integration of agentic coding into Xcode 26.3 in February 2026 transformed how iOS teams work with AI coding agents . Codex CLI now operates as both."
 parent: "Articles"
 nav_order: 447
+type: Technical Article
+timestamp: 2026-04-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-swift-ios-teams-xcode-mcp-swiftui-agent-workflows"
 tags: ["codex-cli", "swift", "ios", "xcode", "swiftui", "mcp", "apple", "mobile", "agent-skills"]
 ---
 ![Sketchnote diagram for: Codex CLI for Swift and iOS Teams: Xcode MCP, SwiftUI Skills, and Agent-Driven Apple Platform Development](/sketchnotes/articles/2026-04-26-codex-cli-swift-ios-teams-xcode-mcp-swiftui-agent-workflows.png)

@@ -2,7 +2,7 @@
 title: "Codex CLI for Mobile Teams: iOS, Android and Xcode 26.3"
 description: "On February 3, 2026, Apple released Xcode 26.3 — described by the iOS developer community as the biggest change to how iOS developers write code since."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 summary: "Xcode 26.3 makes Codex a first-class iOS development agent via MCP. Here's how to configure it — and how to structure Codex-driven workflows for iOS, Android, React Native, and cross-platform teams."
 tags:
   - language-guide
@@ -13,6 +13,9 @@ tags:
   - xcode
   - swift
   - agentic-coding
+type: Technical Article
+timestamp: 2026-03-28T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-cli-mobile-xcode-ios-android"
 ---
 ![Sketchnote diagram for: Codex CLI for Mobile Teams: iOS, Android and Xcode 26.3](/sketchnotes/articles/2026-03-28-codex-cli-mobile-xcode-ios-android.png)
 

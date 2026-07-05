@@ -2,9 +2,11 @@
 title: "Agent-Ready Repository Architecture: Codebase Patterns That Maximise Codex CLI Productivity"
 parent: "Articles"
 nav_order: 1010
+type: Technical Article
+timestamp: 2026-06-06T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-agent-ready-repository-architecture-codebase-patterns-codex-cli-productivity"
 tags: ["codex-cli", "architecture", "agent-experience", "context-engineering", "repository-structure", "AGENTS.md", "testing", "productivity"]
 ---
-
 # Agent-Ready Repository Architecture: Codebase Patterns That Maximise Codex CLI Productivity
 
 

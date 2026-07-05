@@ -3,9 +3,11 @@ title: "Remote SSH and the App-Server Architecture: Running Codex Against Distan
 description: "Professional development rarely happens on a single laptop. GPU rigs, staging clusters, production-like devboxes, and CI runners all live elsewhere. Until."
 parent: "Articles"
 nav_order: 315
+type: Technical Article
+timestamp: 2026-04-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-remote-ssh-app-server-architecture"
 tags: ["remote-development", "ssh", "app-server", "websocket", "codex-cli", "architecture", "security"]
 ---
-
 ![Sketchnote diagram for: Remote SSH and the App-Server Architecture: Running Codex Against Distant Machines](/sketchnotes/articles/2026-04-17-codex-remote-ssh-app-server-architecture.png)
 
 # Remote SSH and the App-Server Architecture: Running Codex Against Distant Machines

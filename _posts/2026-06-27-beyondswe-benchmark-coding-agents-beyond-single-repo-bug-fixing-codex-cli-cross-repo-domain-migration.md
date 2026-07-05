@@ -2,9 +2,11 @@
 title: "BeyondSWE: What Happens When Coding Agents Leave the Single-Repo Comfort Zone — and What Codex CLI Developers Should Do About It"
 parent: "Articles"
 nav_order: 1258
+type: Technical Article
+timestamp: 2026-06-27T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-beyondswe-benchmark-coding-agents-beyond-single-repo-bug-fixing-codex-cli-cross-repo-domain-migration"
 tags: ["codex-cli", "beyondswe", "benchmark", "cross-repo", "domain-specific", "dependency-migration", "agents-md", "coding-agent-evaluation"]
 ---
-
 # BeyondSWE: What Happens When Coding Agents Leave the Single-Repo Comfort Zone — and What Codex CLI Developers Should Do About It
 
 

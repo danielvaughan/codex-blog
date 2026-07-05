@@ -2,9 +2,11 @@
 title: "AgentAssay and the Regression Testing Gap: Statistical Verification for Non-Deterministic Codex CLI Agent Workflows"
 parent: "Articles"
 nav_order: 1254
+type: Technical Article
+timestamp: 2026-06-27T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-agentassay-regression-testing-non-deterministic-codex-cli-agent-workflows-behavioral-fingerprinting"
 tags: ["codex-cli", "testing", "regression-testing", "agentassay", "non-deterministic", "behavioral-fingerprinting", "ci-cd", "hooks", "agent-quality"]
 ---
-
 # AgentAssay and the Regression Testing Gap: Statistical Verification for Non-Deterministic Codex CLI Agent Workflows
 
 

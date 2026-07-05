@@ -2,9 +2,11 @@
 title: "PlanBench-XL and the Massive-Tool Planning Problem: Why Your Agent Retrieves the Right Tool but Picks the Wrong One — and How to Configure Codex CLI's MCP Pipeline"
 parent: "Articles"
 nav_order: 1278
+type: Technical Article
+timestamp: 2026-06-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-planbench-xl-long-horizon-planning-large-tool-ecosystems-codex-cli-mcp-retrieval-recovery-defence"
 tags: ["codex-cli", "mcp", "planbench-xl", "tool-use", "long-horizon-planning", "agent-benchmark", "tool-retrieval", "failure-recovery"]
 ---
-
 # PlanBench-XL and the Massive-Tool Planning Problem: Why Your Agent Retrieves the Right Tool but Picks the Wrong One — and How to Configure Codex CLI's MCP Pipeline
 
 

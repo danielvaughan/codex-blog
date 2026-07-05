@@ -3,6 +3,9 @@ title: "Codex CLI for Internationalization: Automated String Extraction, Transla
 description: "Internationalisation remains one of the most tedious yet business-critical engineering tasks. Hard-coded strings slip through reviews, translation files."
 parent: "Articles"
 nav_order: 456
+type: Technical Article
+timestamp: 2026-04-27T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-internationalization-i18n-automated-string-extraction-translation-workflows"
 tags: ["codex-cli", "i18n", "l10n", "internationalization", "translation", "mcp", "automation", "react-i18next", "next-intl", "better-i18n"]
 ---
 ![Sketchnote diagram for: Codex CLI for Internationalization: Automated String Extraction, Translation MCP Servers, and i18n Workflow Patterns](/sketchnotes/articles/2026-04-27-codex-cli-internationalization-i18n-automated-string-extraction-translation-workflows.png)

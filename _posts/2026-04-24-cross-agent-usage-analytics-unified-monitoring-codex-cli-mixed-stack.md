@@ -3,9 +3,11 @@ title: "Cross-Agent Usage Analytics: Unified Monitoring for Your Mixed Coding Ag
 description: "The average senior developer in 2026 runs two to five coding agents daily — Codex CLI for deep implementation, Claude Code for exploration."
 parent: "Articles"
 nav_order: 400
+type: Technical Article
+timestamp: 2026-04-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-cross-agent-usage-analytics-unified-monitoring-codex-cli-mixed-stack"
 tags: ["codex-cli", "usage-tracking", "cost-management", "observability", "ccusage", "agentsview", "openusage", "multi-agent"]
 ---
-
 ![Sketchnote diagram for: Cross-Agent Usage Analytics: Unified Monitoring for Your Mixed Coding Agent Stack](/sketchnotes/articles/2026-04-24-cross-agent-usage-analytics-unified-monitoring-codex-cli-mixed-stack.png)
 
 

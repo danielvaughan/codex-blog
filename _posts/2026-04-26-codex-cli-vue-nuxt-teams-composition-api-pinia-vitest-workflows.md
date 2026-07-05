@@ -3,6 +3,9 @@ title: "Codex CLI for Vue and Nuxt Teams: Composition API, Pinia, Vitest, and Ag
 description: "Vue 3.6 and Nuxt 4.4 represent the current state of the art for the Vue ecosystem . Combined with Codex CLI v0.125, Vue teams now have a mature."
 parent: "Articles"
 nav_order: 433
+type: Technical Article
+timestamp: 2026-04-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-vue-nuxt-teams-composition-api-pinia-vitest-workflows"
 tags: ["codex-cli", "vue", "nuxt", "pinia", "vitest", "composition-api", "mcp", "agents-md", "frontend"]
 ---
 ![Sketchnote diagram for: Codex CLI for Vue and Nuxt Teams: Composition API, Pinia, Vitest, and Agent-Driven Component Workflows](/sketchnotes/articles/2026-04-26-codex-cli-vue-nuxt-teams-composition-api-pinia-vitest-workflows.png)

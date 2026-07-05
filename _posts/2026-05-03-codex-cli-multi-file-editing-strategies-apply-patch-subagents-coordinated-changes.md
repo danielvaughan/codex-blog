@@ -3,9 +3,11 @@ title: "Codex CLI Multi-File Editing Strategies: Coordinating Changes Across Lar
 description: "Every senior developer knows the pain: a rename that touches forty files, an API migration that ripples through three service boundaries, a framework."
 parent: "Articles"
 nav_order: 539
+type: Technical Article
+timestamp: 2026-05-03T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-multi-file-editing-strategies-apply-patch-subagents-coordinated-changes"
 tags: ["codex-cli", "multi-file-editing", "apply-patch", "subagents", "refactoring", "large-codebase", "best-practices"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Multi-File Editing Strategies: Coordinating Changes Across Large Pull Requests with apply_patch and Subagents](/sketchnotes/articles/2026-05-03-codex-cli-multi-file-editing-strategies-apply-patch-subagents-coordinated-changes.png)
 
 

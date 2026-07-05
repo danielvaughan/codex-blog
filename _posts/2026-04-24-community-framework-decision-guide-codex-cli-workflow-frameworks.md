@@ -3,9 +3,11 @@ title: "Community Framework Decision Guide: Which Workflow Framework Fits Your T
 description: "If you have used Codex CLI for anything beyond single-shot prompts, you have almost certainly hit the now what? moment: your tasks need parallelism."
 parent: "Articles"
 nav_order: 404
+type: Technical Article
+timestamp: 2026-04-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-community-framework-decision-guide-codex-cli-workflow-frameworks"
 tags: ["codex-cli", "workflow", "frameworks", "orchestration", "decision-guide", "multi-agent", "subagents", "oh-my-codex", "langgraph", "agents-sdk"]
 ---
-
 ![Sketchnote diagram for: Community Framework Decision Guide: Which Workflow Framework Fits Your Team](/sketchnotes/articles/2026-04-24-community-framework-decision-guide-codex-cli-workflow-frameworks.png)
 
 

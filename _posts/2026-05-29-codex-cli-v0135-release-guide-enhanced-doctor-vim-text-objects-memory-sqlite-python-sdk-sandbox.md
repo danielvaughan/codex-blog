@@ -2,9 +2,11 @@
 title: "Codex CLI v0.135.0 Release Guide: Enhanced Doctor Diagnostics, Vim Text Objects, Memory SQLite Migration, and Python SDK Sandbox Presets"
 parent: "Articles"
 nav_order: 909
+type: Technical Article
+timestamp: 2026-05-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-v0135-release-guide-enhanced-doctor-vim-text-objects-memory-sqlite-python-sdk-sandbox"
 tags: ["codex-cli", "release-guide", "v0.135.0", "diagnostics", "vim-mode", "sqlite", "python-sdk", "sandbox"]
 ---
-
 # Codex CLI v0.135.0 Release Guide: Enhanced Doctor Diagnostics, Vim Text Objects, Memory SQLite Migration, and Python SDK Sandbox Presets
 
 

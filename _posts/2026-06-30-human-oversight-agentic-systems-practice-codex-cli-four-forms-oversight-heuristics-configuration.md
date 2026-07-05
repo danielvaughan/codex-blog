@@ -2,9 +2,11 @@
 title: "Human Oversight of Coding Agents in Practice: What 17 Developers Reveal About Oversight Work — and How to Configure Codex CLI for Each Form"
 parent: "Articles"
 nav_order: 1277
+type: Technical Article
+timestamp: 2026-06-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-human-oversight-agentic-systems-practice-codex-cli-four-forms-oversight-heuristics-configuration"
 tags: ["codex-cli", "human-oversight", "agentic-systems", "approval-policy", "AGENTS.md", "developer-experience", "oversight-heuristics", "agent-collaboration"]
 ---
-
 # Human Oversight of Coding Agents in Practice: What 17 Developers Reveal About Oversight Work — and How to Configure Codex CLI for Each Form
 
 

@@ -2,9 +2,11 @@
 title: "Agentjacking: How Fake Sentry Errors Hijack Coding Agents and Five Codex CLI Defences That Actually Work"
 parent: "Articles"
 nav_order: 1125
+type: Technical Article
+timestamp: 2026-06-16T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-agentjacking-sentry-mcp-injection-codex-cli-defence-hooks-sandbox-data-provenance"
 tags: ["codex-cli", "security", "agentjacking", "mcp", "sentry", "prompt-injection", "hooks", "sandbox", "data-provenance"]
 ---
-
 # Agentjacking: How Fake Sentry Errors Hijack Coding Agents and Five Codex CLI Defences That Actually Work
 
 

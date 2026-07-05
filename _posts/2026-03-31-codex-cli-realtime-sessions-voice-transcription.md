@@ -2,14 +2,16 @@
 title: "Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config"
 description: "Codex CLI's realtime session layer has matured significantly over the past few weeks. Two PRs — #14556 and #14606, both merged on 13 March 2026 — unified."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - ecosystem
   - voice-input
   - config-toml
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-31T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-31-codex-cli-realtime-sessions-voice-transcription"
 ---
-
 ![Sketchnote: Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config](/sketchnotes/articles/2026-03-31-codex-cli-realtime-sessions-voice-transcription.png)
 
 # Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config

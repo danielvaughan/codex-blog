@@ -3,9 +3,11 @@ title: "Codex CLI and OpenAI Privacy Filter: Preventing PII Leakage in Agent Wor
 description: "When a coding agent reads your codebase, it ingests everything in its context window — configuration files, test fixtures, log samples, database seeds."
 parent: "Articles"
 nav_order: 499
+type: Technical Article
+timestamp: 2026-04-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-privacy-filter-pii-detection-hooks-agent-data-protection"
 tags: ["codex-cli", "privacy-filter", "PII", "security", "hooks", "compliance", "enterprise", "data-protection"]
 ---
-
 ![Sketchnote diagram for: Codex CLI and OpenAI Privacy Filter: Preventing PII Leakage in Agent Workflows with Local On-Device Scanning](/sketchnotes/articles/2026-04-30-codex-cli-privacy-filter-pii-detection-hooks-agent-data-protection.png)
 
 # Codex CLI and OpenAI Privacy Filter: Preventing PII Leakage in Agent Workflows with Local On-Device Scanning

@@ -2,9 +2,11 @@
 title: "Apple's Foundation Models Dynamic Profiles and the fm CLI: What WWDC 2026 Means for Codex CLI Swift Developers"
 parent: "Articles"
 nav_order: 1128
+type: Technical Article
+timestamp: 2026-06-16T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-apple-foundation-models-dynamic-profiles-fm-cli-codex-cli-swift-multi-agent-wwdc-2026"
 tags: ["codex-cli", "apple", "foundation-models", "swift", "wwdc-2026", "dynamic-profiles", "fm-cli", "multi-agent", "xcode-27", "private-cloud-compute"]
 ---
-
 # Apple's Foundation Models Dynamic Profiles and the fm CLI: What WWDC 2026 Means for Codex CLI Swift Developers
 
 

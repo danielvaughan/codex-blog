@@ -3,9 +3,11 @@ title: "Building Codex CLI Plugins: Architecture, Manifests, and Enterprise Dist
 description: "Since their launch on 26 March 2026, Codex plugins have matured from a curiosity into a genuine distribution mechanism for reusable AI workflows."
 parent: "Articles"
 nav_order: 255
+type: Technical Article
+timestamp: 2026-04-12T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-building-codex-plugins-architecture-manifests-distribution"
 tags: ["plugins", "plugin-json", "marketplace", "enterprise", "skills", "mcp", "governance", "distribution"]
 ---
-
 ![Sketchnote diagram for: Building Codex CLI Plugins: Architecture, Manifests, and Enterprise Distribution](/sketchnotes/articles/2026-04-12-building-codex-plugins-architecture-manifests-distribution.png)
 
 # Building Codex CLI Plugins: Architecture, Manifests, and Enterprise Distribution

@@ -2,9 +2,11 @@
 title: "Codex Thread Handoff: Cross-Machine Git Bundle Transfer, Worktree Isolation, and the Three-Surface Control Plane"
 parent: "Articles"
 nav_order: 1291
+type: Technical Article
+timestamp: 2026-07-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-codex-thread-handoff-cross-machine-git-bundle-worktree-transfer-remote-cli-desktop"
 tags: ["codex-cli", "codex-app", "thread-handoff", "remote", "git-worktree", "git-bundle", "cross-machine", "mobile", "control-plane"]
 ---
-
 # Codex Thread Handoff: Cross-Machine Git Bundle Transfer, Worktree Isolation, and the Three-Surface Control Plane
 
 

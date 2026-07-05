@@ -2,9 +2,11 @@
 title: "The 640 TB Bug: How Codex CLI's SQLite Trace Logs Threatened SSD Endurance and What It Teaches About Agent-Local Resource Safety"
 parent: "Articles"
 nav_order: 1198
+type: Technical Article
+timestamp: 2026-06-22T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-codex-cli-sqlite-trace-log-bug-ssd-endurance-640tb-write-amplification-diagnosis-defence"
 tags: ["codex-cli", "sqlite", "ssd-endurance", "trace-logging", "write-amplification", "diagnostics", "local-resource-safety", "RUST_LOG", "smartctl"]
 ---
-
 # The 640 TB Bug: How Codex CLI's SQLite Trace Logs Threatened SSD Endurance and What It Teaches About Agent-Local Resource Safety
 
 

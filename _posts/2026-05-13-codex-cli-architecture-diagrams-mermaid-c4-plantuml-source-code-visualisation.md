@@ -3,9 +3,11 @@ title: "Codex CLI for Generating Architecture Diagrams from Source Code: Mermaid
 description: "Architecture diagrams lie. Not because anyone deliberately drew them wrong, but because code moves faster than documentation. A team refactors a service."
 parent: "Articles"
 nav_order: 700
+type: Technical Article
+timestamp: 2026-05-13T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-architecture-diagrams-mermaid-c4-plantuml-source-code-visualisation"
 tags: ["workflow-patterns", "agents-md", "codex-exec", "skills", "mcp", "ci-cd", "architecture"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Generating Architecture Diagrams from Source Code: Mermaid, C4, and PlantUML Visualisation Workflows](/sketchnotes/articles/2026-05-13-codex-cli-architecture-diagrams-mermaid-c4-plantuml-source-code-visualisation.png)
 
 

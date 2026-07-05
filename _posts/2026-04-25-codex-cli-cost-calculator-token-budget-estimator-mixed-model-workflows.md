@@ -3,9 +3,11 @@ title: "Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-M
 description: "With OpenAI's April 2026 shift to token-based billing for Codex, understanding exactly where your credits go across models like o4-mini, gpt-5.4."
 parent: "Articles"
 nav_order: 404
+type: Technical Article
+timestamp: 2026-04-25T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-cost-calculator-token-budget-estimator-mixed-model-workflows"
 tags: ["codex-cli", "cost-optimisation", "token-budget", "mixed-model", "pricing", "automation"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows](/sketchnotes/articles/2026-04-25-codex-cli-cost-calculator-token-budget-estimator-mixed-model-workflows.png)
 
 

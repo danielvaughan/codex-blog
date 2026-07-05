@@ -2,9 +2,11 @@
 title: "Terminal Agents Suffice: What ServiceNow's Enterprise Automation Study Means for Codex CLI API-First Workflows"
 parent: "Articles"
 nav_order: 1140
+type: Technical Article
+timestamp: 2026-06-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-terminal-agents-suffice-enterprise-automation-codex-cli-api-first-terminal-workflow-cost-efficiency"
 tags: ["codex-cli", "enterprise-automation", "terminal-agents", "API-first", "cost-efficiency", "ServiceNow", "Terminal-Bench", "MCP", "codex-exec"]
 ---
-
 # Terminal Agents Suffice: What ServiceNow's Enterprise Automation Study Means for Codex CLI API-First Workflows
 
 

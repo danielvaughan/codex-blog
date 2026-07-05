@@ -3,9 +3,11 @@ title: "Codex CLI Daily Driver Setup for May 2026: An Opinionated Configuration 
 description: "Codex CLI v0.128 is the most configurable release yet. Between named profiles, persistent memories, configurable keymaps, goal workflows."
 parent: "Articles"
 nav_order: 520
+type: Technical Article
+timestamp: 2026-05-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-codex-cli-daily-driver-setup-may-2026-opinionated-config"
 tags: ["codex-cli", "configuration", "config.toml", "profiles", "daily-driver", "setup", "gpt-5.5", "memories", "mcp", "best-practices"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Daily Driver Setup for May 2026: An Opinionated Configuration Guide](/sketchnotes/articles/2026-05-02-codex-cli-daily-driver-setup-may-2026-opinionated-config.png)
 
 # Codex CLI Daily Driver Setup for May 2026: An Opinionated Configuration Guide

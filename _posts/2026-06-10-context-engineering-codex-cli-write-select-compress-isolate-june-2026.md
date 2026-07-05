@@ -3,9 +3,11 @@ title: "Context Engineering for Codex CLI in June 2026: The Write-Select-Compres
 description: "Context engineering has displaced prompt engineering as the critical discipline for coding agents. Here is the concrete Codex CLI playbook, mapped to the four-strategy framework that the industry has converged on."
 parent: "Articles"
 nav_order: 1050
+type: Technical Article
+timestamp: 2026-06-10T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-context-engineering-codex-cli-write-select-compress-isolate-june-2026"
 tags: ["context-engineering", "codex-cli", "AGENTS.md", "memories", "compaction", "subagents", "MCP", "skills", "harness-engineering"]
 ---
-
 # Context Engineering for Codex CLI in June 2026: The Write-Select-Compress-Isolate Playbook
 
 

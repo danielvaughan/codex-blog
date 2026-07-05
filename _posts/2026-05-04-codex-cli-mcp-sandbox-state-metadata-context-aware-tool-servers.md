@@ -3,9 +3,11 @@ title: "Codex CLI MCP Sandbox-State Metadata: Building Context-Aware Tool Server
 description: "MCP servers connected to Codex CLI traditionally operate without knowledge of their execution context. A database migration tool behaves identically whether."
 parent: "Articles"
 nav_order: 543
+type: Technical Article
+timestamp: 2026-05-04T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-mcp-sandbox-state-metadata-context-aware-tool-servers"
 tags: ["codex-cli", "mcp", "sandbox", "security", "tool-servers", "metadata", "permissions"]
 ---
-
 ![Sketchnote diagram for: Codex CLI MCP Sandbox-State Metadata: Building Context-Aware Tool Servers](/sketchnotes/articles/2026-05-04-codex-cli-mcp-sandbox-state-metadata-context-aware-tool-servers.png)
 
 

@@ -2,14 +2,16 @@
 title: "Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions"
 description: "Codex CLI v0.117.0 (released March 26, 2026) quietly shipped what may be its most significant architectural change to date."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - architecture
   - app-server
   - codex-rs
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-30T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-codex-app-server-tui-architecture-shift"
 ---
-
 ![Sketchnote diagram for: Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions](/sketchnotes/articles/2026-03-30-codex-app-server-tui-architecture-shift.png)
 
 # Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions

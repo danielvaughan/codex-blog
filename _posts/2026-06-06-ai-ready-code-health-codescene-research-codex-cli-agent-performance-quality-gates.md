@@ -2,9 +2,11 @@
 title: "AI-Ready Code: How Code Health Determines Codex CLI Agent Performance"
 parent: "Articles"
 nav_order: 1014
+type: Technical Article
+timestamp: 2026-06-06T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-ai-ready-code-health-codescene-research-codex-cli-agent-performance-quality-gates"
 tags: ["codex-cli", "code-health", "codescene", "mcp", "quality-gates", "technical-debt", "agentic-coding", "research"]
 ---
-
 # AI-Ready Code: How Code Health Determines Codex CLI Agent Performance
 
 

@@ -2,9 +2,11 @@
 title: "Codex CLI for GraphQL Development: Apollo MCP Server, Schema Introspection, and Type-Safe Agent Workflows"
 parent: "Articles"
 nav_order: 855
+type: Technical Article
+timestamp: 2026-05-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-graphql-development-apollo-mcp-schema-introspection-type-safe-workflows"
 tags: ["codex-cli", "graphql", "apollo", "mcp", "schema-introspection", "type-safety", "resolver-generation", "persisted-queries"]
 ---
-
 # Codex CLI for GraphQL Development: Apollo MCP Server, Schema Introspection, and Type-Safe Agent Workflows
 
 

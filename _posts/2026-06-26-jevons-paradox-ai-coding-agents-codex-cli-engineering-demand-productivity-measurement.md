@@ -2,9 +2,11 @@
 title: "The Jevons Paradox of AI Coding: Why Codex CLI Creates More Engineering Work, Not Less — and How to Measure What Matters"
 parent: "Articles"
 nav_order: 1235
+type: Technical Article
+timestamp: 2026-06-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-jevons-paradox-ai-coding-agents-codex-cli-engineering-demand-productivity-measurement"
 tags: ["codex-cli", "productivity", "jevons-paradox", "engineering-hiring", "METR", "DORA", "developer-metrics", "goal-mode"]
 ---
-
 # The Jevons Paradox of AI Coding: Why Codex CLI Creates More Engineering Work, Not Less — and How to Measure What Matters
 
 

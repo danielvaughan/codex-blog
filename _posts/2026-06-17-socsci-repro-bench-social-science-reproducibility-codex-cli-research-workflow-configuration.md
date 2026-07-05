@@ -2,9 +2,11 @@
 title: "SocSci-Repro-Bench: What the Social Science Reproducibility Benchmark Means for Codex CLI Research Workflows"
 parent: "Articles"
 nav_order: 1141
+type: Technical Article
+timestamp: 2026-06-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-socsci-repro-bench-social-science-reproducibility-codex-cli-research-workflow-configuration"
 tags: ["codex-cli", "research-workflows", "reproducibility", "SocSci-Repro-Bench", "social-science", "R", "Stata", "Python", "benchmark", "sycophancy", "configuration"]
 ---
-
 # SocSci-Repro-Bench: What the Social Science Reproducibility Benchmark Means for Codex CLI Research Workflows
 
 

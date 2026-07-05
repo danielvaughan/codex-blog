@@ -3,9 +3,11 @@ title: "Mutation Testing with Codex CLI: Why Your AI-Generated Tests Are Lying a
 description: "AI coding agents are excellent at generating tests that hit every line of your code. They are also excellent at generating tests that assert almost nothing."
 parent: "Articles"
 nav_order: 372
+type: Technical Article
+timestamp: 2026-04-21T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-mutation-testing-codex-cli-ai-generated-tests-quality-verification"
 tags: ["codex-cli", "mutation-testing", "test-quality", "stryker", "pitest", "mutmut", "ai-generated-tests", "verification"]
 ---
-
 ![Sketchnote diagram for: Mutation Testing with Codex CLI: Why Your AI-Generated Tests Are Lying and How to Fix Them](/sketchnotes/articles/2026-04-21-mutation-testing-codex-cli-ai-generated-tests-quality-verification.png)
 
 

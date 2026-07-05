@@ -3,6 +3,9 @@ title: "Codex CLI for PHP and Laravel Teams: Boost MCP, Pest Workflows, and Comp
 description: "PHP powers roughly 75% of websites with a known server-side language, and Laravel remains the dominant framework — Laravel 13 shipped on 17 March 2026 with."
 parent: "Articles"
 nav_order: 425
+type: Technical Article
+timestamp: 2026-04-25T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-php-laravel-teams-boost-mcp-pest-workflows"
 tags: ["codex-cli", "php", "laravel", "boost", "mcp", "pest", "composer", "AGENTS.md", "testing", "phpstan"]
 ---
 ![Sketchnote diagram for: Codex CLI for PHP and Laravel Teams: Boost MCP, Pest Workflows, and Composer Sandbox Patterns](/sketchnotes/articles/2026-04-25-codex-cli-php-laravel-teams-boost-mcp-pest-workflows.png)

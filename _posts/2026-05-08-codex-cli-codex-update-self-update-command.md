@@ -2,15 +2,17 @@
 title: "codex update: Self-Updating the CLI Without Remembering Your Package Manager"
 description: "Codex CLI now ships a built-in codex update command that detects the installation method and applies updates automatically."
 date: 2026-05-08T00:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 category: cli
 tags: [codex-cli, update, installation, devx]
 source:
   - https://developers.openai.com/codex/changelog
   - https://github.com/openai/codex/issues/9274
   - https://github.com/openai/codex/issues/11169
+type: Technical Article
+timestamp: 2026-05-08T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-codex-update-self-update-command"
 ---
-
 ![Sketchnote diagram for: codex update: Self-Updating the CLI Without Remembering Your Package Manager](/sketchnotes/articles/2026-05-08-codex-cli-codex-update-self-update-command.png)
 
 

@@ -2,7 +2,7 @@
 title: "Codex Through the Glass: Microsoft Teams as a Codex Interface — The Complete Implementation Guide"
 description: "A comprehensive guide to building a Teams bot that drives Codex app-server sessions, with full code examples, Adaptive Card patterns, approval workflows, and production deployment guidance. Updated with Teams SDK v2, MCP support, and real-world integration patterns."
 date: 2026-06-12T20:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 updated: 2026-06-13T21:15:00+01:00
 series: "Codex Through the Glass"
 series_order: 1
@@ -106,8 +106,10 @@ citations:
     title: "Teams SDK GitHub Repository"
     url: "https://github.com/microsoft/teams-sdk"
     accessed: 2026-06-13
+type: Technical Article
+timestamp: 2026-06-12T21:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-through-the-glass-microsoft-teams-as-a-codex-interface"
 ---
-
 # Codex Through the Glass: Microsoft Teams as a Codex Interface
 
 *The Complete Implementation Guide*

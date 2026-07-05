@@ -2,9 +2,11 @@
 title: "Cross-Agent Session Portability: Moving Codex CLI Sessions Between Coding Agents"
 parent: "Articles"
 nav_order: 954
+type: Technical Article
+timestamp: 2026-06-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-cross-agent-session-portability-continues-casr-handoff"
 tags: ["codex-cli", "session-portability", "cross-agent", "continues", "casr", "workflow", "multi-agent"]
 ---
-
 # Cross-Agent Session Portability: Moving Codex CLI Sessions Between Coding Agents
 
 

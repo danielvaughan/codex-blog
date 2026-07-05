@@ -2,9 +2,11 @@
 title: "Codex CLI with Biome: Unified Linting and Formatting, Migration from ESLint + Prettier, and Agent-Driven Code Quality"
 parent: "Articles"
 nav_order: 898
+type: Technical Article
+timestamp: 2026-05-28T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-biome-unified-linting-formatting-migration-hooks-mcp-server"
 tags: ["codex-cli", "biome", "linting", "formatting", "eslint", "prettier", "mcp-server", "hooks", "code-quality", "javascript", "typescript"]
 ---
-
 # Codex CLI with Biome: Unified Linting and Formatting, Migration from ESLint + Prettier, and Agent-Driven Code Quality
 
 

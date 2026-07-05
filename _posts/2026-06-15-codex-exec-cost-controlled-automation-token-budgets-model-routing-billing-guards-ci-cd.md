@@ -2,9 +2,11 @@
 title: "Cost-Controlled codex exec: Five Automation Patterns with Token Budgets, Model Routing, and Billing Guards for June 2026"
 parent: "Articles"
 nav_order: 1122
+type: Technical Article
+timestamp: 2026-06-15T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-exec-cost-controlled-automation-token-budgets-model-routing-billing-guards-ci-cd"
 tags: ["codex-cli", "codex-exec", "automation", "cost-control", "token-budgets", "model-routing", "ci-cd", "named-profiles", "billing", "non-interactive"]
 ---
-
 # Cost-Controlled `codex exec`: Five Automation Patterns with Token Budgets, Model Routing, and Billing Guards for June 2026
 
 

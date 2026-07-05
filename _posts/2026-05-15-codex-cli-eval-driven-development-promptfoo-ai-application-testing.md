@@ -3,9 +3,11 @@ title: "Eval-Driven Development with Codex CLI: Building Promptfoo Test Suites f
 description: "Most teams building AI applications still rely on manual spot-checking to validate prompt changes."
 parent: "Articles"
 nav_order: 711
+type: Technical Article
+timestamp: 2026-05-15T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-eval-driven-development-promptfoo-ai-application-testing"
 tags: ["codex-cli", "promptfoo", "evals", "ai-applications", "eval-driven-development", "regression-testing", "prompt-engineering"]
 ---
-
 ![Sketchnote diagram for: Eval-Driven Development with Codex CLI: Building Promptfoo Test Suites for AI Applications](/sketchnotes/articles/2026-05-15-codex-cli-eval-driven-development-promptfoo-ai-application-testing.png)
 
 

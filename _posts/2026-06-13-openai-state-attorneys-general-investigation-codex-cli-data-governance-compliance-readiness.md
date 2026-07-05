@@ -2,9 +2,11 @@
 title: "The 42-State Attorneys General Investigation into OpenAI: What Codex CLI Teams Should Audit Now"
 parent: "Articles"
 nav_order: 1093
+type: Technical Article
+timestamp: 2026-06-13T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-openai-state-attorneys-general-investigation-codex-cli-data-governance-compliance-readiness"
 tags: ["codex-cli", "openai", "compliance", "data-governance", "enterprise", "privacy", "legal", "attorneys-general"]
 ---
-
 # The 42-State Attorneys General Investigation into OpenAI: What Codex CLI Teams Should Audit Now
 
 

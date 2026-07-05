@@ -2,14 +2,16 @@
 title: "Codified Context: The Three-Tier Knowledge Architecture for AI Coding Agents"
 description: "Dumping everything into a single AGENTS.md file works until it doesn't. At some point—typically around 20,000 lines of codebase—you hit the context wall."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - architecture
   - agents-md
   - skills
   - context-management
+type: Technical Article
+timestamp: 2026-04-07T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-07-codified-context-three-tier-knowledge-architecture"
 ---
-
 ![Sketchnote diagram for: Codified Context: The Three-Tier Knowledge Architecture for AI Coding Agents](/sketchnotes/articles/2026-04-07-codified-context-three-tier-knowledge-architecture.png)
 
 # Codified Context: The Three-Tier Knowledge Architecture for AI Coding Agents

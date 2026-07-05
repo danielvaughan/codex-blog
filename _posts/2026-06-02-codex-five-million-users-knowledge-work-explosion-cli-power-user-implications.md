@@ -3,9 +3,11 @@ title: "Codex at Five Million: What the Knowledge-Work Explosion Means for CLI P
 description: "OpenAI's June 2026 report shows Codex has reached 5 million weekly active users with knowledge workers adopting 3x faster than developers. This article examines what the knowledge-work pivot means for Codex CLI practitioners — from rate-limit pressure and model routing to practical exec recipes for data analysis, report generation, and pipeline automation."
 parent: "Articles"
 nav_order: 969
+type: Technical Article
+timestamp: 2026-06-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-five-million-users-knowledge-work-explosion-cli-power-user-implications"
 tags: ["codex-cli", "knowledge-work", "data-analysis", "codex-exec", "rate-limits", "five-million-users", "openai", "automation", "reports", "spreadsheets", "enterprise"]
 ---
-
 # Codex at Five Million: What the Knowledge-Work Explosion Means for CLI Power Users
 
 

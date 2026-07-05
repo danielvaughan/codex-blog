@@ -2,7 +2,7 @@
 title: "Planning for Token Meltdown: How to Route Local to Paid Automatically"
 description: "When model providers stop subsidising token costs, your bill explodes overnight. A routing layer that tries local models first and promotes to cloud only when necessary is how you survive the transition. LiteLLM running as a local proxy gives you automatic fallback based on failures, latency, or context window limits."
 date: 2026-05-29T11:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 layout: post
 tags:
   - codex-cli
@@ -12,8 +12,10 @@ tags:
   - ollama
   - cost-optimisation
   - production-patterns
+type: Technical Article
+timestamp: 2026-05-29T12:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-planning-for-token-meltdown-local-to-paid-routing"
 ---
-
 # Planning for Token Meltdown: How to Route Local to Paid Automatically
 
 ![Sketchnote diagram for: Planning for Token Meltdown: How to Route Local to Paid Automatically](/sketchnotes/articles/2026-05-29-planning-for-token-meltdown-local-to-paid-routing.png)

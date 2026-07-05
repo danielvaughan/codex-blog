@@ -3,9 +3,11 @@ title: "Codex CLI for Data Analysis: From Raw CSV to Stakeholder Report in One A
 description: "Codex CLI started life as a coding agent, but OpenAIs April 2026 Codex for (almost) everything update made the shift explicit: the same agent loop that."
 parent: "Articles"
 nav_order: 646
+type: Technical Article
+timestamp: 2026-05-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-data-analysis-csv-to-stakeholder-report-agent-workflows"
 tags: ["codex-cli", "data-analysis", "codex-exec", "structured-output", "AGENTS.md", "skills", "pandas", "workflows"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Data Analysis: From Raw CSV to Stakeholder Report in One Agent Session](/sketchnotes/articles/2026-05-09-codex-cli-data-analysis-csv-to-stakeholder-report-agent-workflows.png)
 
 

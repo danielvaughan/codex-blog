@@ -2,9 +2,11 @@
 title: "The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What the Evaluation Criteria Mean for Your Team"
 parent: "Articles"
 nav_order: 948
+type: Technical Article
+timestamp: 2026-05-31T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-gartner-magic-quadrant-enterprise-ai-coding-agents-codex-cli-leader-positioning"
 tags: ["codex-cli", "gartner", "magic-quadrant", "enterprise", "governance", "competitive-landscape", "adoption", "coding-agents", "RBAC", "sandbox", "GPT-5.5"]
 ---
-
 # The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What the Evaluation Criteria Mean for Your Team
 
 

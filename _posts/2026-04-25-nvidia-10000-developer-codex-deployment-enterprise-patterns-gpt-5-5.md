@@ -3,9 +3,11 @@ title: "NVIDIA's 10,000-Developer Codex Deployment: Enterprise Patterns for Larg
 description: "On 24 April 2026, NVIDIA revealed that over 10,000 employees across engineering, product, legal, marketing, finance, sales, HR, operations, and developer."
 parent: "Articles"
 nav_order: 409
+type: Technical Article
+timestamp: 2026-04-25T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-nvidia-10000-developer-codex-deployment-enterprise-patterns-gpt-5-5"
 tags: ["codex-cli", "enterprise", "nvidia", "gpt-5-5", "deployment", "security", "case-study"]
 ---
-
 ![Sketchnote diagram for: NVIDIA's 10,000-Developer Codex Deployment: Enterprise Patterns for Large-Scale AI Agent Rollout](/sketchnotes/articles/2026-04-25-nvidia-10000-developer-codex-deployment-enterprise-patterns-gpt-5-5.png)
 
 

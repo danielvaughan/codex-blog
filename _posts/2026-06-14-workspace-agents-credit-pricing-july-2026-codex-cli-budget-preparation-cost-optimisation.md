@@ -2,9 +2,11 @@
 title: "Workspace Agents Credit Pricing Starts July 6: A Codex CLI Practitioner's Budget Preparation Guide"
 parent: "Articles"
 nav_order: 1105
+type: Technical Article
+timestamp: 2026-06-14T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-workspace-agents-credit-pricing-july-2026-codex-cli-budget-preparation-cost-optimisation"
 tags: ["codex-cli", "workspace-agents", "pricing", "credits", "cost-optimisation", "enterprise", "budget"]
 ---
-
 # Workspace Agents Credit Pricing Starts July 6: A Codex CLI Practitioner's Budget Preparation Guide
 
 

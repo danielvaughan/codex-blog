@@ -2,15 +2,17 @@
 title: "Open Knowledge Format and Codex CLI: Giving Your Agent a Knowledge Base It Can Actually Read"
 description: "Google has published an open specification for packaging knowledge as markdown files with YAML frontmatter. It maps directly to patterns Codex CLI already supports — and it formalises what many teams have been doing informally with AGENTS.md, skills, and MCP servers."
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - context-engineering
   - mcp
   - agents-md
   - codex-cli
   - ecosystem
+type: Technical Article
+timestamp: 2026-06-17T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-open-knowledge-format-okf-codex-cli-agent-context-markdown-knowledge-bundles"
 ---
-
 ![Sketchnote diagram for: Open Knowledge Format and Codex CLI: Giving Your Agent a Knowledge Base It Can Actually Read](/sketchnotes/articles/2026-06-17-open-knowledge-format-okf-codex-cli-agent-context-markdown-knowledge-bundles.png)
 
 # Open Knowledge Format and Codex CLI: Giving Your Agent a Knowledge Base It Can Actually Read

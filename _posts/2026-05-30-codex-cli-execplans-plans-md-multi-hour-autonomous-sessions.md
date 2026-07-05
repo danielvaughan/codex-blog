@@ -2,9 +2,11 @@
 title: "ExecPlans and PLANS.md: Driving Multi-Hour Autonomous Codex CLI Sessions"
 parent: "Articles"
 nav_order: 941
+type: Technical Article
+timestamp: 2026-05-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-execplans-plans-md-multi-hour-autonomous-sessions"
 tags: ["execplan", "PLANS.md", "autonomous", "codex-exec", "long-running", "planning", "AGENTS.md", "productivity"]
 ---
-
 # ExecPlans and PLANS.md: Driving Multi-Hour Autonomous Codex CLI Sessions
 
 

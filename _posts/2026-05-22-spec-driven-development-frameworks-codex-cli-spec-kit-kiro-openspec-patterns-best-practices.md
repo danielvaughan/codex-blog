@@ -3,9 +3,11 @@ title: "Spec-Driven Development Frameworks for Codex CLI: Patterns, Best Practic
 description: "Spec-driven development has become the dominant methodology for AI-assisted coding in 2026."
 parent: "Articles"
 nav_order: 830
+type: Technical Article
+timestamp: 2026-05-22T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-spec-driven-development-frameworks-codex-cli-spec-kit-kiro-openspec-patterns-best-practices"
 tags: ["codex-cli", "spec-driven-development", "spec-kit", "kiro", "openspec", "bmad", "tessl", "agents-md", "patterns", "best-practices"]
 ---
-
 ![Sketchnote diagram for: Spec-Driven Development Frameworks for Codex CLI: Patterns, Best Practices, and the 2026 Landscape](/sketchnotes/articles/2026-05-22-spec-driven-development-frameworks-codex-cli-spec-kit-kiro-openspec-patterns-best-practices.png)
 
 

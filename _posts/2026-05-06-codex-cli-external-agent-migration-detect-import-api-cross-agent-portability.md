@@ -3,9 +3,11 @@ title: "Codex CLI External Agent Migration: The Detect/Import API and Cross-Agen
 description: "The terminal coding agent landscape in 2026 is crowded: Codex CLI, Claude Code, Cursor, Gemini CLI, Aider, Copilot CLI, and more."
 parent: "Articles"
 nav_order: 612
+type: Technical Article
+timestamp: 2026-05-06T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-codex-cli-external-agent-migration-detect-import-api-cross-agent-portability"
 tags: ["codex-cli", "migration", "external-agent", "API", "cross-agent", "AGENTS.md", "skills", "MCP", "portability"]
 ---
-
 ![Sketchnote diagram for: Codex CLI External Agent Migration: The Detect/Import API and Cross-Agent Portability](/sketchnotes/articles/2026-05-06-codex-cli-external-agent-migration-detect-import-api-cross-agent-portability.png)
 
 # Codex CLI External Agent Migration: The Detect/Import API and Cross-Agent Portability

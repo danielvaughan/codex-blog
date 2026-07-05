@@ -3,9 +3,11 @@ title: "Codex CLI for API Version Management: Breaking Change Detection, Depreca
 description: "API versioning is one of those problems every senior developer recognises but few teams handle systematically. A field gets renamed, a required parameter."
 parent: "Articles"
 nav_order: 758
+type: Technical Article
+timestamp: 2026-05-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-api-version-management-breaking-change-detection-deprecation-lifecycle"
 tags: ["codex-cli", "api-versioning", "breaking-changes", "oasdiff", "openapi", "deprecation", "codex-exec", "skills", "hooks", "ci-cd"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for API Version Management: Breaking Change Detection, Deprecation Lifecycle, and Version Scaffolding](/sketchnotes/articles/2026-05-17-codex-cli-api-version-management-breaking-change-detection-deprecation-lifecycle.png)
 
 # Codex CLI for API Version Management: Breaking Change Detection, Deprecation Lifecycle, and Version Scaffolding

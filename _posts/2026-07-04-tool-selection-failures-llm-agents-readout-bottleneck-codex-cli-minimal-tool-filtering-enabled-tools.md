@@ -2,9 +2,11 @@
 title: "Tool-Selection Failures and the Readout Bottleneck: Why Your Agent Sees the Right Tool but Picks the Wrong One — and How Codex CLI's Filtering Stack Closes the Gap"
 parent: "Articles"
 nav_order: 1326
+type: Technical Article
+timestamp: 2026-07-04T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-tool-selection-failures-llm-agents-readout-bottleneck-codex-cli-minimal-tool-filtering-enabled-tools"
 tags: ["codex-cli", "tool-selection", "MCP", "enabled_tools", "CMTF", "attention", "readout-bottleneck", "LLM-agents"]
 ---
-
 # Tool-Selection Failures and the Readout Bottleneck: Why Your Agent Sees the Right Tool but Picks the Wrong One — and How Codex CLI's Filtering Stack Closes the Gap
 
 

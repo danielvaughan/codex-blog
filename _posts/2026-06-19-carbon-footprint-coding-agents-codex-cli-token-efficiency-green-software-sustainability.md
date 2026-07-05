@@ -2,9 +2,11 @@
 title: "The Carbon Footprint of Coding Agents: What 250,000 Tonnes of CO₂ Means for Codex CLI Token Strategy"
 parent: "Articles"
 nav_order: 1168
+type: Technical Article
+timestamp: 2026-06-19T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-carbon-footprint-coding-agents-codex-cli-token-efficiency-green-software-sustainability"
 tags: ["codex-cli", "carbon-footprint", "sustainability", "token-efficiency", "green-software", "SCI", "model-routing", "named-profiles"]
 ---
-
 # The Carbon Footprint of Coding Agents: What 250,000 Tonnes of CO₂ Means for Codex CLI Token Strategy
 
 

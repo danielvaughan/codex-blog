@@ -2,9 +2,11 @@
 title: "OpenAI Acquires Ona: What Ex-Gitpod's Persistent Cloud Environments Mean for Codex CLI's Execution Model"
 parent: "Articles"
 nav_order: 1103
+type: Technical Article
+timestamp: 2026-06-14T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-openai-acquires-ona-gitpod-codex-cli-persistent-cloud-agents-enterprise-execution-environments"
 tags: ["codex-cli", "ona", "gitpod", "cloud-development-environments", "persistent-agents", "enterprise", "acquisition", "sandbox", "long-running-tasks"]
 ---
-
 # OpenAI Acquires Ona: What Ex-Gitpod's Persistent Cloud Environments Mean for Codex CLI's Execution Model
 
 

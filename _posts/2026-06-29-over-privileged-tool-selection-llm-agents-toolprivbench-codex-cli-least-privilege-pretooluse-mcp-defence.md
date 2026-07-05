@@ -2,9 +2,11 @@
 title: "Over-Privileged Tool Selection: Why Your Coding Agent Reaches for the Admin Key — and How Codex CLI's Hook Pipeline Stops It"
 parent: "Articles"
 nav_order: 1263
+type: Technical Article
+timestamp: 2026-06-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-over-privileged-tool-selection-llm-agents-toolprivbench-codex-cli-least-privilege-pretooluse-mcp-defence"
 tags: ["codex-cli", "security", "least-privilege", "tool-selection", "MCP", "PreToolUse", "ToolPrivBench", "over-privileged", "hooks"]
 ---
-
 # Over-Privileged Tool Selection: Why Your Coding Agent Reaches for the Admin Key — and How Codex CLI's Hook Pipeline Stops It
 
 

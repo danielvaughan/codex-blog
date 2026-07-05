@@ -3,9 +3,11 @@ title: "Codex CLI v0.121: Marketplace CLI, Agent Identity, and the Road to Plugi
 description: "The v0.121.0-alpha.2 pre-release, tagged on 11 April 2026, is the most plugin-and-marketplace-focused Codex CLI release to date. Whilst v0.119 and v0.120."
 parent: "Articles"
 nav_order: 267
+type: Technical Article
+timestamp: 2026-04-13T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-v0121-marketplace-agent-identity-plugin-distribution"
 tags: ["v0121", "marketplace", "plugin", "agent-identity", "mcp", "guardian", "release-notes"]
 ---
-
 ![Sketchnote diagram for: Codex CLI v0.121: Marketplace CLI, Agent Identity, and the Road to Plugin Distribution](/sketchnotes/articles/2026-04-13-codex-cli-v0121-marketplace-agent-identity-plugin-distribution.png)
 
 

@@ -2,9 +2,11 @@
 title: "Time-Aware Agents: How Codex CLI v0.142 Gives Your Agent a Clock"
 parent: "Articles"
 nav_order: 1209
+type: Technical Article
+timestamp: 2026-06-23T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-codex-cli-v0142-time-awareness-scheduled-utc-reminders-clock-curr-time-tool-temporal-agent-workflows"
 tags: ["codex-cli", "v0.142", "time-awareness", "scheduled-reminders", "clock-curr-time", "temporal-reasoning", "agent-architecture"]
 ---
-
 # Time-Aware Agents: How Codex CLI v0.142 Gives Your Agent a Clock
 
 

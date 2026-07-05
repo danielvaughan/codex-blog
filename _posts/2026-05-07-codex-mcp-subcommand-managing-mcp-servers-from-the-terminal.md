@@ -3,9 +3,11 @@ title: "codex mcp: Managing MCP Servers Entirely from the Terminal"
 description: "The Model Context Protocol gives Codex CLI access to third-party tools — GitHub operations, database queries, documentation lookups, browser automation."
 parent: "Articles"
 nav_order: 620
+type: Technical Article
+timestamp: 2026-05-07T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-mcp-subcommand-managing-mcp-servers-from-the-terminal"
 tags: ["codex-cli", "mcp", "configuration", "oauth", "tooling", "cli-subcommands"]
 ---
-
 ![Sketchnote diagram for: codex mcp: Managing MCP Servers Entirely from the Terminal](/sketchnotes/articles/2026-05-07-codex-mcp-subcommand-managing-mcp-servers-from-the-terminal.png)
 
 

@@ -2,9 +2,11 @@
 title: "Indexed Web Search: How Codex CLI v0.142 Bridges the Gap Between Cached Safety and Live Freshness"
 parent: "Articles"
 nav_order: 1218
+type: Technical Article
+timestamp: 2026-06-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-codex-cli-indexed-web-search-mode-server-gated-url-access-prompt-injection-enterprise-security"
 tags: ["web-search", "indexed", "security", "prompt-injection", "config.toml", "enterprise", "app-server", "codex-cli", "v0.142"]
 ---
-
 # Indexed Web Search: How Codex CLI v0.142 Bridges the Gap Between Cached Safety and Live Freshness
 
 

@@ -2,9 +2,11 @@
 title: "The Agent Learning Curve: What the Research Says About Your First Eleven Weeks with Codex CLI"
 parent: "Articles"
 nav_order: 1015
+type: Technical Article
+timestamp: 2026-06-07T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-agent-learning-curve-research-first-eleven-weeks-codex-cli-proficiency-phases"
 tags: ["productivity", "onboarding", "learning-curve", "adoption", "codex-cli", "research", "developer-experience"]
 ---
-
 # The Agent Learning Curve: What the Research Says About Your First Eleven Weeks with Codex CLI
 
 

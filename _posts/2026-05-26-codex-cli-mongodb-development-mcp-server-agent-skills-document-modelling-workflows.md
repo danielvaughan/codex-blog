@@ -2,9 +2,11 @@
 title: "Codex CLI for MongoDB Development: MCP Server, Agent Skills, and Document Modelling Workflows"
 parent: "Articles"
 nav_order: 873
+type: Technical Article
+timestamp: 2026-05-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-mongodb-development-mcp-server-agent-skills-document-modelling-workflows"
 tags: ["codex-cli", "mongodb", "mcp-server", "agent-skills", "document-database", "atlas", "vector-search", "schema-design"]
 ---
-
 # Codex CLI for MongoDB Development: MCP Server, Agent Skills, and Document Modelling Workflows
 
 

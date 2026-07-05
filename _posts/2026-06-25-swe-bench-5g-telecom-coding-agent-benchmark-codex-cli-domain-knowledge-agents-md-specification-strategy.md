@@ -2,9 +2,11 @@
 title: "SWE-Bench 5G and the Domain Knowledge Wall: What the First Telecom Coding Agent Benchmark Reveals About Specification-Driven Development with Codex CLI"
 parent: "Articles"
 nav_order: 1227
+type: Technical Article
+timestamp: 2026-06-25T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-swe-bench-5g-telecom-coding-agent-benchmark-codex-cli-domain-knowledge-agents-md-specification-strategy"
 tags: ["codex-cli", "swe-bench-5g", "telecom", "5g-core", "domain-knowledge", "agents-md", "specification-driven", "benchmark", "free5gc", "open5gs", "coding-agent"]
 ---
-
 # SWE-Bench 5G and the Domain Knowledge Wall: What the First Telecom Coding Agent Benchmark Reveals About Specification-Driven Development with Codex CLI
 
 

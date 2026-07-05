@@ -2,9 +2,11 @@
 title: "Over-Mocked Tests and Coding Agents: What 1.2 Million Commits Reveal — and How to Configure Codex CLI's AGENTS.md for Test Quality"
 parent: "Articles"
 nav_order: 1282
+type: Technical Article
+timestamp: 2026-06-30T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-over-mocked-tests-coding-agents-codex-cli-agents-md-testing-guidance-mock-control"
 tags: ["testing", "mocking", "test-quality", "AGENTS.md", "codex-cli", "configuration", "test-doubles", "over-mocking", "empirical-study"]
 ---
-
 # Over-Mocked Tests and Coding Agents: What 1.2 Million Commits Reveal — and How to Configure Codex CLI's AGENTS.md for Test Quality
 
 

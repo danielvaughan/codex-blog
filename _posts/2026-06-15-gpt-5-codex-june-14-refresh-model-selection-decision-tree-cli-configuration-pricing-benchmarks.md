@@ -2,9 +2,11 @@
 title: "GPT-5-Codex Refreshed: The June 14 Model Update and the Mid-2026 Model Selection Decision Tree for Codex CLI"
 parent: "Articles"
 nav_order: 1120
+type: Technical Article
+timestamp: 2026-06-15T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-gpt-5-codex-june-14-refresh-model-selection-decision-tree-cli-configuration-pricing-benchmarks"
 tags: ["models", "model-selection", "gpt-5-codex", "codex-cli", "configuration", "pricing", "benchmarks"]
 ---
-
 # GPT-5-Codex Refreshed: The June 14 Model Update and the Mid-2026 Model Selection Decision Tree for Codex CLI
 
 

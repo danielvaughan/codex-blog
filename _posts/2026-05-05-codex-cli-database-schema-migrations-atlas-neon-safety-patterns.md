@@ -3,9 +3,11 @@ title: "Database Schema Migrations with Codex CLI: Atlas Skills, Neon Branching,
 description: "Database schema migrations remain one of the riskiest operations in any engineering workflow."
 parent: "Articles"
 nav_order: 595
+type: Technical Article
+timestamp: 2026-05-05T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-database-schema-migrations-atlas-neon-safety-patterns"
 tags: ["codex-cli", "database", "migrations", "atlas", "neon", "mcp", "schema", "safety", "skills"]
 ---
-
 ![Sketchnote diagram for: Database Schema Migrations with Codex CLI: Atlas Skills, Neon Branching, and Safety Patterns](/sketchnotes/articles/2026-05-05-codex-cli-database-schema-migrations-atlas-neon-safety-patterns.png)
 
 # Database Schema Migrations with Codex CLI: Atlas Skills, Neon Branching, and Safety Patterns

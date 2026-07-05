@@ -3,9 +3,11 @@ title: "OpenAI Daybreak and Codex Security: From Developer Tool to Enterprise Cy
 description: "On 11 May 2026, OpenAI announced Daybreak, an umbrella cybersecurity initiative that bundles frontier AI models, the Codex Security application-security."
 parent: "Articles"
 nav_order: 680
+type: Technical Article
+timestamp: 2026-05-12T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-openai-daybreak-codex-security-enterprise-cyber-defence-platform"
 tags: ["codex-cli", "codex-security", "daybreak", "cybersecurity", "GPT-5.5-Cyber", "enterprise", "vulnerability-management"]
 ---
-
 ![Sketchnote diagram for: OpenAI Daybreak and Codex Security: From Developer Tool to Enterprise Cyber Defence Platform](/sketchnotes/articles/2026-05-12-openai-daybreak-codex-security-enterprise-cyber-defence-platform.png)
 
 

@@ -3,9 +3,11 @@ title: "The Security Decisions AI Agents Make: What Codex and Claude Code Miss W
 description: "Every time you prompt Codex or Claude Code to build me a web app, the agent silently makes dozens of security decisions on your behalf."
 parent: "Articles"
 nav_order: 294
+type: Technical Article
+timestamp: 2026-04-16T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-security-decisions-ai-agents-make-codex-claude-code"
 tags: ["security", "benchmarks", "claude-code", "codex-cli", "agents-md", "cross-model-review", "frameworks", "supply-chain"]
 ---
-
 ![Sketchnote diagram for: The Security Decisions AI Agents Make: What Codex and Claude Code Miss When You Don't Ask](/sketchnotes/articles/2026-04-16-security-decisions-ai-agents-make-codex-claude-code.png)
 
 # The Security Decisions AI Agents Make: What Codex and Claude Code Miss When You Don't Ask

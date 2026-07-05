@@ -3,9 +3,11 @@ title: "WebMCP and Codex CLI: Building Agent-Ready Web Applications with Chrome'
 description: "Google's WebMCP standard lets websites expose structured tools to browser-based AI agents. Here is how Codex CLI developers can implement, test, and benefit from the shift from DOM scraping to declared machine-callable interfaces."
 parent: "Articles"
 nav_order: 1039
+type: Technical Article
+timestamp: 2026-06-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-webmcp-codex-cli-building-agent-ready-web-applications-chrome-browser-tool-standard"
 tags: ["codex-cli", "webmcp", "mcp", "chrome", "browser", "agents", "web-standards", "google", "testing", "frontend"]
 ---
-
 # WebMCP and Codex CLI: Building Agent-Ready Web Applications with Chrome's Browser-Tool Standard
 
 

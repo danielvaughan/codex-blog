@@ -2,7 +2,7 @@
 title: "Stripe's AI Agent Patterns: What Enterprise-Scale Agent Deployment Teaches Codex CLI Users"
 description: "Stripe's engineering team merges over 1,300 AI-authored pull requests every week — none containing human-written code. Their internal system, called."
 date: 2026-04-10T07:30:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - stripe
   - enterprise-agents
@@ -12,6 +12,9 @@ tags:
   - blueprints
   - devbox
   - minions
+type: Technical Article
+timestamp: 2026-04-10T08:30:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-stripe-ai-agent-patterns-enterprise-codex-cli"
 ---
 ![Sketchnote diagram for: Stripe's AI Agent Patterns: What Enterprise-Scale Agent Deployment Teaches Codex CLI Users](/sketchnotes/articles/2026-04-10-stripe-ai-agent-patterns-enterprise-codex-cli.png)
 

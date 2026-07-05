@@ -2,9 +2,11 @@
 title: "Post-Rewrite Verification: Five Layers Beyond 'The Tests Pass'"
 parent: "Articles"
 nav_order: 1089
+type: Technical Article
+timestamp: 2026-06-13T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-post-rewrite-verification-five-layers-beyond-the-tests-pass"
 tags: ["codex-cli", "verification", "code-migration", "static-analysis", "security", "hooks", "subagents", "best-practices"]
 ---
-
 # Post-Rewrite Verification: Five Layers Beyond "The Tests Pass"
 
 

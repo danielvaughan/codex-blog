@@ -2,9 +2,11 @@
 title: "The June 2026 Coding Agent Billing Reset: What Four Simultaneous Pricing Changes Mean for Your Codex CLI Budget"
 parent: "Articles"
 nav_order: 952
+type: Technical Article
+timestamp: 2026-06-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-june-2026-coding-agent-billing-reset-openai-github-anthropic-google-pricing-changes-codex-cli-budget"
 tags: ["codex-cli", "pricing", "billing", "usage-based", "github-copilot", "claude-code", "gemini-cli", "cursor", "budget", "enterprise", "cost-optimisation"]
 ---
-
 # The June 2026 Coding Agent Billing Reset: What Four Simultaneous Pricing Changes Mean for Your Codex CLI Budget
 
 

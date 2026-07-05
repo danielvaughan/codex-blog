@@ -3,9 +3,11 @@ title: "GPT-5.5-Cyber and Codex CLI: Trusted Access, Defensive Workflows, and th
 description: "On 7 May 2026, OpenAI announced GPT-5.5-Cyber — a variant of its frontier model with deliberately reduced guardrails for vetted cyber defenders . The model."
 parent: "Articles"
 nav_order: 675
+type: Technical Article
+timestamp: 2026-05-11T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-gpt-5-5-cyber-codex-cli-trusted-access-defensive-security-workflows"
 tags: ["codex-cli", "gpt-5.5-cyber", "security", "trusted-access", "vulnerability-triage", "patch-validation", "detection-engineering", "cyber-defence"]
 ---
-
 ![Sketchnote diagram for: GPT-5.5-Cyber and Codex CLI: Trusted Access, Defensive Workflows, and the Security-Permissive Model Tier](/sketchnotes/articles/2026-05-11-gpt-5-5-cyber-codex-cli-trusted-access-defensive-security-workflows.png)
 
 

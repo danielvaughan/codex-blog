@@ -2,9 +2,11 @@
 title: "Codex CLI for Hono.js: Building Type-Safe Edge APIs with Zod OpenAPI, RPC, and Cloudflare Workers"
 parent: "Articles"
 nav_order: 973
+type: Technical Article
+timestamp: 2026-06-03T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-hono-edge-apis-zod-openapi-rpc-cloudflare-workers"
 tags: ["codex-cli", "hono", "cloudflare-workers", "edge", "openapi", "zod", "rpc", "typescript", "mcp", "wrangler"]
 ---
-
 # Codex CLI for Hono.js: Building Type-Safe Edge APIs with Zod OpenAPI, RPC, and Cloudflare Workers
 
 

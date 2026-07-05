@@ -3,9 +3,11 @@ title: "Codex CLI Permission Profile Inheritance: Composable Security Policies a
 description: "Permission profiles have been part of Codex CLI since early 2026, but they suffered from a composability problem. Every team that wanted a shared base."
 parent: "Articles"
 nav_order: 812
+type: Technical Article
+timestamp: 2026-05-22T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-permission-profile-inheritance-composable-security-policies-v0133"
 tags: ["codex-cli", "permission-profiles", "security", "sandbox", "inheritance", "v0.133", "enterprise", "config.toml", "requirements.toml", "governance"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Permission Profile Inheritance: Composable Security Policies and List APIs in v0.133](/sketchnotes/articles/2026-05-22-codex-cli-permission-profile-inheritance-composable-security-policies-v0133.png)
 
 

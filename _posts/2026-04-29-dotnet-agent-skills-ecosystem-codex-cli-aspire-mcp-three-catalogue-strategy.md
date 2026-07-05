@@ -3,6 +3,9 @@ title: "The .NET Agent Skills Ecosystem Matures: Aspire MCP, dotnet-artisan, and
 description: "When this blog last covered .NET and Codex CLI in late March, the story was straightforward."
 parent: "Articles"
 nav_order: 488
+type: Technical Article
+timestamp: 2026-04-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-dotnet-agent-skills-ecosystem-codex-cli-aspire-mcp-three-catalogue-strategy"
 tags: ["codex-cli", "dotnet", "csharp", "agent-skills", "aspire", "mcp", "dotnet-artisan", "visual-studio-2026", "net10"]
 ---
 ![Sketchnote diagram for: The .NET Agent Skills Ecosystem Matures: Aspire MCP, dotnet-artisan, and the Three-Catalogue Strategy for Codex CLI](/sketchnotes/articles/2026-04-29-dotnet-agent-skills-ecosystem-codex-cli-aspire-mcp-three-catalogue-strategy.png)

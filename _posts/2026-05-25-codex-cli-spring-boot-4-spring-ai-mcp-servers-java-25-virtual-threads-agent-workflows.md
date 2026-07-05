@@ -2,9 +2,11 @@
 title: "Codex CLI for Spring Boot 4 and Spring AI: Java MCP Servers, Virtual Threads, and Agent-Assisted Development on Java 25"
 parent: "Articles"
 nav_order: 861
+type: Technical Article
+timestamp: 2026-05-25T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-spring-boot-4-spring-ai-mcp-servers-java-25-virtual-threads-agent-workflows"
 tags: ["codex-cli", "spring-boot-4", "spring-ai", "mcp", "java-25", "virtual-threads", "agents-md", "maven", "gradle"]
 ---
-
 # Codex CLI for Spring Boot 4 and Spring AI: Java MCP Servers, Virtual Threads, and Agent-Assisted Development on Java 25
 
 

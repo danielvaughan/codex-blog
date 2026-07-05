@@ -3,9 +3,11 @@ title: "Codex CLI with Backstage MCP: Developer Portal Integration, Golden Path 
 description: "Platform engineering teams invest heavily in Backstage developer portals to provide golden paths — opinionated, streamlined workflows that encode best."
 parent: "Articles"
 nav_order: 750
+type: Technical Article
+timestamp: 2026-05-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-backstage-mcp-developer-portal-golden-path-templates-catalog-integration"
 tags: ["codex-cli", "backstage", "mcp", "developer-portal", "platform-engineering", "golden-paths", "software-templates", "catalog"]
 ---
-
 ![Sketchnote diagram for: Codex CLI with Backstage MCP: Developer Portal Integration, Golden Path Templates, and Catalog-Driven Workflows](/sketchnotes/articles/2026-05-17-codex-cli-backstage-mcp-developer-portal-golden-path-templates-catalog-integration.png)
 
 # Codex CLI with Backstage MCP: Developer Portal Integration, Golden Path Templates, and Catalog-Driven Workflows

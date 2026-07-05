@@ -2,9 +2,11 @@
 title: "OpenAI DevDay 2026: What Codex CLI Developers Should Expect and How to Prepare"
 parent: "Articles"
 nav_order: 1054
+type: Technical Article
+timestamp: 2026-06-10T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-openai-devday-2026-codex-cli-developer-guide-september-announcements-preparation"
 tags: ["codex-cli", "devday", "openai", "developer-events", "platform-strategy", "extensions", "multi-agent"]
 ---
-
 # OpenAI DevDay 2026: What Codex CLI Developers Should Expect and How to Prepare
 
 

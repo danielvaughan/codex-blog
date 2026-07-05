@@ -3,9 +3,11 @@ title: "Codex CLI for SRE Automation: Generating SLO Definitions, Prometheus Ale
 description: "Defining SLOs and translating them into multi-window multi-burn-rate (MWMBR) alerting rules is one of the most error-prone tasks in site reliability."
 parent: "Articles"
 nav_order: 745
+type: Technical Article
+timestamp: 2026-05-16T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-sre-automation-slo-definitions-prometheus-alerting-rules-burn-rate-policies"
 tags: ["codex-cli", "sre", "slo", "prometheus", "alerting", "burn-rate", "observability", "reliability", "sloth", "automation"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for SRE Automation: Generating SLO Definitions, Prometheus Alerting Rules, and Burn-Rate Policies](/sketchnotes/articles/2026-05-16-codex-cli-sre-automation-slo-definitions-prometheus-alerting-rules-burn-rate-policies.png)
 
 # Codex CLI for SRE Automation: Generating SLO Definitions, Prometheus Alerting Rules, and Burn-Rate Policies

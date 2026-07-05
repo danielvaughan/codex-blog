@@ -2,9 +2,11 @@
 title: "Property-Based Testing with Codex CLI: Agentic Invariant Discovery, Hypothesis Workflows, and What PBT-Bench Reveals About Agent Testing Capabilities"
 parent: "Articles"
 nav_order: 1267
+type: Technical Article
+timestamp: 2026-06-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-property-based-testing-codex-cli-hypothesis-pbt-bench-agentic-invariant-discovery-bug-detection"
 tags: ["property-based testing", "Hypothesis", "PBT-Bench", "Codex CLI", "invariant discovery", "agentic testing", "bug detection", "test generation", "AGENTS.md"]
 ---
-
 # Property-Based Testing with Codex CLI: Agentic Invariant Discovery, Hypothesis Workflows, and What PBT-Bench Reveals About Agent Testing Capabilities
 
 

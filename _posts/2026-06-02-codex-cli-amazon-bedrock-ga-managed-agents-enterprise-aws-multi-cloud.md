@@ -2,9 +2,11 @@
 title: "Codex on Amazon Bedrock Goes GA: Configuration, Managed Agents, and the Enterprise Multi-Cloud Pivot"
 parent: "Articles"
 nav_order: 964
+type: Technical Article
+timestamp: 2026-06-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-amazon-bedrock-ga-managed-agents-enterprise-aws-multi-cloud"
 tags: ["codex-cli", "amazon-bedrock", "aws", "enterprise", "multi-cloud", "managed-agents", "agentcore", "configuration"]
 ---
-
 # Codex on Amazon Bedrock Goes GA: Configuration, Managed Agents, and the Enterprise Multi-Cloud Pivot
 
 

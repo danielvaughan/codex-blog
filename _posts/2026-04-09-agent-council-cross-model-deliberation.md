@@ -2,7 +2,7 @@
 title: "Agent Council: Cross-Model Deliberation for Architecture Decisions"
 description: "Cross-model review loops — where one agent writes code and another reviews it — are now a well-established pattern in agentic workflows."
 date: 2026-04-09T09:14:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - agent-council
   - cross-model
@@ -11,8 +11,10 @@ tags:
   - multi-agent
   - peer-review
   - grounded-decisions
+type: Technical Article
+timestamp: 2026-04-09T10:14:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-agent-council-cross-model-deliberation"
 ---
-
 ![Sketchnote diagram for: Agent Council: Cross-Model Deliberation for Architecture Decisions](/sketchnotes/articles/2026-04-09-agent-council-cross-model-deliberation.png)
 
 # Agent Council: Cross-Model Deliberation for Architecture Decisions

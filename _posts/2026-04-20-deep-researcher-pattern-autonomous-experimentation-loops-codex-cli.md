@@ -3,9 +3,11 @@ title: "The Deep Researcher Pattern: Building 24/7 Autonomous Experimentation Lo
 description: "A new open-source framework called Deep Researcher Agent, published by Xiangyue Zhang at the University of Tokyo in April 2026."
 parent: "Articles"
 nav_order: 356
+type: Technical Article
+timestamp: 2026-04-20T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-deep-researcher-pattern-autonomous-experimentation-loops-codex-cli"
 tags: ["codex-cli", "autonomous-agents", "long-sessions", "experimentation", "research", "memory-management", "thread-automations", "cost-optimisation"]
 ---
-
 ![Sketchnote diagram for: The Deep Researcher Pattern: Building 24/7 Autonomous Experimentation Loops with Codex CLI](/sketchnotes/articles/2026-04-20-deep-researcher-pattern-autonomous-experimentation-loops-codex-cli.png)
 
 

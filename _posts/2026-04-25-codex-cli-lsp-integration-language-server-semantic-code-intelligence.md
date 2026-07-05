@@ -3,9 +3,11 @@ title: "LSP Integration for Codex CLI: Bridging the Semantic Code Intelligence G
 description: "Codex CLI is a formidable coding agent, but it navigates your codebase the same way a developer would without an IDE."
 parent: "Articles"
 nav_order: 413
+type: Technical Article
+timestamp: 2026-04-25T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-lsp-integration-language-server-semantic-code-intelligence"
 tags: ["codex-cli", "lsp", "language-server-protocol", "code-intelligence", "mcp", "diagnostics", "refactoring"]
 ---
-
 ![Sketchnote diagram for: LSP Integration for Codex CLI: Bridging the Semantic Code Intelligence Gap](/sketchnotes/articles/2026-04-25-codex-cli-lsp-integration-language-server-semantic-code-intelligence.png)
 
 

@@ -2,9 +2,11 @@
 title: "Open-Weight Agentic Models Are Closing the Gap: What OpenThoughts-Agent and Tmax Mean for Codex CLI Custom Provider Workflows"
 parent: "Articles"
 nav_order: 1315
+type: Technical Article
+timestamp: 2026-07-03T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-open-weight-agentic-models-openthoughts-tmax-codex-cli-custom-provider-local-agent-training"
 tags: ["codex-cli", "open-weight-models", "agentic-training", "custom-providers", "OpenThoughts-Agent", "Tmax", "Ollama", "local-models", "RL-training", "terminal-agents"]
 ---
-
 # Open-Weight Agentic Models Are Closing the Gap: What OpenThoughts-Agent and Tmax Mean for Codex CLI Custom Provider Workflows
 
 

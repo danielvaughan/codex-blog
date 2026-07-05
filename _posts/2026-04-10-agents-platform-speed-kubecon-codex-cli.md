@@ -2,7 +2,7 @@
 title: "Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI"
 description: "At KubeCon EU 2026 in Amsterdam, Whitney Lee (Datadog) and Viktor Farcic (Upbound) delivered Choose Your Own Adventure: AI Meets Internal Developer."
 date: 2026-04-10T06:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - platform-engineering
   - kubecon
@@ -12,6 +12,9 @@ tags:
   - internal-developer-platform
   - mcp
   - agents-md
+type: Technical Article
+timestamp: 2026-04-10T07:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-agents-platform-speed-kubecon-codex-cli"
 ---
 ![Sketchnote diagram for: Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI](/sketchnotes/articles/2026-04-10-agents-platform-speed-kubecon-codex-cli.png)
 

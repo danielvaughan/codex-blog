@@ -3,9 +3,11 @@ title: "Context Budget Gotchas: Eight Ways Your Codex CLI Agent Forgets Mid-Task
 description: "Context is the agent's working memory. When it runs out, the agent does not stop — it forgets. The most dangerous context failures are the ones where the agent continues working confidently on an incomplete mental model."
 parent: "Articles"
 nav_order: 1332
+type: Technical Article
+timestamp: 2026-07-04T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-context-budget-gotchas-when-your-codex-cli-agent-forgets-mid-task-compaction-cache-positioning-bloat"
 tags: ["codex-cli", "context-management", "compaction", "prompt-cache", "token-budget", "working-memory", "anti-patterns", "reliability"]
 ---
-
 # Context Budget Gotchas: Eight Ways Your Codex CLI Agent Forgets Mid-Task and How to Prevent Catastrophic Context Loss
 
 

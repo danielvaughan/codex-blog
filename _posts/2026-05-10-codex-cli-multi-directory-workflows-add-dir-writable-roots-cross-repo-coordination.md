@@ -3,9 +3,11 @@ title: "Codex CLI Multi-Directory Workflows: Coordinating Cross-Repo Changes wit
 description: "Real-world product work rarely fits inside a single directory. A feature ticket that touches a React frontend, a FastAPI backend, and a shared types package."
 parent: "Articles"
 nav_order: 656
+type: Technical Article
+timestamp: 2026-05-10T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-multi-directory-workflows-add-dir-writable-roots-cross-repo-coordination"
 tags: ["codex-cli", "multi-directory", "polyrepo", "writable-roots", "sandbox", "permissions", "cross-repo", "monorepo", "AGENTS.md"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Multi-Directory Workflows: Coordinating Cross-Repo Changes with --add-dir, Writable Roots, and Permission Profiles](/sketchnotes/articles/2026-05-10-codex-cli-multi-directory-workflows-add-dir-writable-roots-cross-repo-coordination.png)
 
 # Codex CLI Multi-Directory Workflows: Coordinating Cross-Repo Changes with --add-dir, Writable Roots, and Permission Profiles

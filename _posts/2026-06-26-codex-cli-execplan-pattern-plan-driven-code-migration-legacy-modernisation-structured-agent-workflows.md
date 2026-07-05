@@ -2,9 +2,11 @@
 title: "The ExecPlan Pattern: Plan-Driven Code Migrations with Codex CLI"
 parent: "Articles"
 nav_order: 1239
+type: Technical Article
+timestamp: 2026-06-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-codex-cli-execplan-pattern-plan-driven-code-migration-legacy-modernisation-structured-agent-workflows"
 tags: ["codex-cli", "execplan", "code-migration", "legacy-modernisation", "agents-md", "structured-workflows", "plan-driven-development"]
 ---
-
 # The ExecPlan Pattern: Plan-Driven Code Migrations with Codex CLI
 
 

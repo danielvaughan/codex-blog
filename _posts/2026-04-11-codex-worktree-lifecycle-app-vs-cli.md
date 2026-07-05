@@ -3,9 +3,11 @@ title: "Codex CLI Worktree Lifecycle: App vs CLI Worktree Management"
 description: "Running multiple Codex agents in parallel is one of the most powerful patterns available to developers today."
 parent: "Articles"
 nav_order: 253
+type: Technical Article
+timestamp: 2026-04-11T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-codex-worktree-lifecycle-app-vs-cli"
 tags: ["worktree", "codex-app", "lifecycle", "cleanup", "workspace", "parallel-agents"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Worktree Lifecycle: App vs CLI Worktree Management](/sketchnotes/articles/2026-04-11-codex-worktree-lifecycle-app-vs-cli.png)
 
 # Codex CLI Worktree Lifecycle: App vs CLI Worktree Management

@@ -2,9 +2,11 @@
 title: "The Metaprogramming Reflex: How Frontier Coding Agents Survive Languages They Have Never Seen — and What It Means for Codex CLI"
 parent: "Articles"
 nav_order: 1259
+type: Technical Article
+timestamp: 2026-06-27T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-metaprogramming-reflex-coding-agents-unfamiliar-languages-codex-cli-generator-strategy"
 tags: ["codex-cli", "metaprogramming", "esoteric-languages", "agent-adaptation", "EsoLang-Bench", "coding-agent-strategy"]
 ---
-
 # The Metaprogramming Reflex: How Frontier Coding Agents Survive Languages They Have Never Seen — and What It Means for Codex CLI
 
 

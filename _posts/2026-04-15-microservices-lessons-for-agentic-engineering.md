@@ -2,7 +2,7 @@
 title: "What Microservices Taught Us About Building AI Coding Agents"
 description: "I attended a microservices talk yesterday at Norfolk Developers. The speaker covered the fundamentals — monoliths versus microservices, RESTful API design."
 date: 2026-04-15T17:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - microservices
   - architecture
@@ -10,8 +10,10 @@ tags:
   - codex-cli
   - software-craft
   - talk-notes
+type: Technical Article
+timestamp: 2026-04-15T18:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-microservices-lessons-for-agentic-engineering"
 ---
-
 ![Sketchnote diagram for: What Microservices Taught Us About Building AI Coding Agents](/sketchnotes/articles/2026-04-15-microservices-lessons-for-agentic-engineering.png)
 
 # What Microservices Taught Us About Building AI Coding Agents

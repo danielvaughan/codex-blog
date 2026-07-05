@@ -3,6 +3,9 @@ title: "Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Cont
 description: "Open source maintainers face a compounding problem: issue volumes grow faster than review capacity. A popular project with 50 open issues per week and three."
 parent: "Articles"
 nav_order: 445
+type: Technical Article
+timestamp: 2026-04-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-open-source-maintainers-triage-review-automation"
 tags: ["open-source", "maintainer", "issue-triage", "pr-review", "codex-for-oss", "github-integration", "codex-cloud", "automation", "code-review", "contributor-onboarding"]
 ---
 ![Sketchnote diagram for: Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Contributor Automation at Scale](/sketchnotes/articles/2026-04-26-codex-cli-open-source-maintainers-triage-review-automation.png)

@@ -3,6 +3,9 @@ title: "Context Engineering for Codex CLI: A Practical Guide to Curating What Yo
 description: "Prompt engineering asks how you phrase a request. Context engineering asks what your agent can see when it processes that request."
 parent: "Articles"
 nav_order: 467
+type: Technical Article
+timestamp: 2026-04-28T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-context-engineering-for-codex-cli-practical-guide"
 tags: ["context-engineering", "codex-cli", "AGENTS.md", "skills", "MCP", "config.toml", "prompt-caching", "harness-engineering"]
 ---
 ![Sketchnote diagram for: Context Engineering for Codex CLI: A Practical Guide to Curating What Your Agent Sees](/sketchnotes/articles/2026-04-28-context-engineering-for-codex-cli-practical-guide.png)

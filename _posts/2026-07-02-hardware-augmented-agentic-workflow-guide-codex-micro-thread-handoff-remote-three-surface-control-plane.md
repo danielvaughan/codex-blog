@@ -2,9 +2,11 @@
 title: "The Hardware-Augmented Agentic Workflow Guide"
 parent: "Articles"
 nav_order: 1299
+type: Technical Article
+timestamp: 2026-07-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-hardware-augmented-agentic-workflow-guide-codex-micro-thread-handoff-remote-three-surface-control-plane"
 tags: ["codex-micro", "thread-handoff", "codex-remote", "hardware", "VIA", "QMK", "macro-pad", "three-surface", "workflow", "premium"]
 ---
-
 # The Hardware-Augmented Agentic Workflow Guide
 
 

@@ -2,9 +2,11 @@
 title: "Codex CLI for Embedded Systems: Arduino, ESP32, Raspberry Pi Pico, and Constrained-Environment Agent Workflows"
 parent: "Articles"
 nav_order: 905
+type: Technical Article
+timestamp: 2026-05-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-embedded-systems-arduino-esp32-raspberry-pi-pico-constrained-environment-agent-workflows"
 tags: ["codex-cli", "embedded-systems", "esp32", "arduino", "raspberry-pi-pico", "platformio", "mcp", "hardware-in-the-loop", "firmware"]
 ---
-
 # Codex CLI for Embedded Systems: Arduino, ESP32, Raspberry Pi Pico, and Constrained-Environment Agent Workflows
 
 

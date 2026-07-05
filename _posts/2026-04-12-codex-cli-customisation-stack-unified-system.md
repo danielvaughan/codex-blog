@@ -3,9 +3,11 @@ title: "The Codex CLI Customisation Stack: How AGENTS.md, Skills, MCP, Subagents
 description: "Codex CLI's customisation surface has grown from a single AGENTS.md file into a five-layer architecture spanning instructions, skills, external tools, agent."
 parent: "Articles"
 nav_order: 257
+type: Technical Article
+timestamp: 2026-04-12T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-customisation-stack-unified-system"
 tags: ["customisation", "agents-md", "skills", "mcp", "subagents", "plugins", "architecture", "config-toml", "project-setup"]
 ---
-
 ![Sketchnote diagram for: The Codex CLI Customisation Stack: How AGENTS.md, Skills, MCP, Subagents, and Plugins Compose Into One System](/sketchnotes/articles/2026-04-12-codex-cli-customisation-stack-unified-system.png)
 
 # The Codex CLI Customisation Stack: How AGENTS.md, Skills, MCP, Subagents, and Plugins Compose Into One System

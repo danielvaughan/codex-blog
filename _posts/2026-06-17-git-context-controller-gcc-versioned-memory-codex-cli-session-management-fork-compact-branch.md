@@ -2,9 +2,11 @@
 title: "Git Context Controller: What Versioned Agent Memory Means for Codex CLI Session Management"
 parent: "Articles"
 nav_order: 1136
+type: Technical Article
+timestamp: 2026-06-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-git-context-controller-gcc-versioned-memory-codex-cli-session-management-fork-compact-branch"
 tags: ["codex-cli", "context-management", "session-lifecycle", "GCC", "SWE-Bench", "compaction", "fork", "branch", "memory", "long-horizon"]
 ---
-
 # Git Context Controller: What Versioned Agent Memory Means for Codex CLI Session Management
 
 

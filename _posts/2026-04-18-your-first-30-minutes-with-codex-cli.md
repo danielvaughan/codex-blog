@@ -3,9 +3,11 @@ title: "Your First 30 Minutes with Codex CLI: From Install to First Fix"
 description: "Thirty minutes. That is all you need to go from zero to watching an AI agent autonomously diagnose a bug, write a fix, run the tests."
 parent: "Articles"
 nav_order: 335
+type: Technical Article
+timestamp: 2026-04-18T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-your-first-30-minutes-with-codex-cli"
 tags: ["codex-cli", "getting-started", "tutorial", "beginner", "agent-loop", "installation"]
 ---
-
 ![Sketchnote diagram for: Your First 30 Minutes with Codex CLI: From Install to First Fix](/sketchnotes/articles/2026-04-18-your-first-30-minutes-with-codex-cli.png)
 
 

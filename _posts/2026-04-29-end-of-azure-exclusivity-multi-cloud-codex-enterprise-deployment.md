@@ -3,6 +3,9 @@ title: "The End of Azure Exclusivity: How OpenAI's Multi-Cloud Pivot Changes the
 description: "On 27 April 2026, Microsoft and OpenAI announced an amended partnership agreement that ended Azure's exclusive right to distribute OpenAI products."
 parent: "Articles"
 nav_order: 494
+type: Technical Article
+timestamp: 2026-04-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-end-of-azure-exclusivity-multi-cloud-codex-enterprise-deployment"
 tags: ["codex-cli", "enterprise", "multi-cloud", "aws", "azure", "bedrock", "strategy", "deployment", "configuration"]
 ---
 ![Sketchnote diagram for: The End of Azure Exclusivity: How OpenAI's Multi-Cloud Pivot Changes the Codex CLI Enterprise Deployment Playbook](/sketchnotes/articles/2026-04-29-end-of-azure-exclusivity-multi-cloud-codex-enterprise-deployment.png)

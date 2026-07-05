@@ -3,9 +3,11 @@ title: "The Agents SDK Harness and Portable Sandbox Manifests: Running Codex Wor
 description: "On April 16, 2026, OpenAI shipped the most significant update to the Agents SDK since its launch: a model-native harness that standardises how agents."
 parent: "Articles"
 nav_order: 318
+type: Technical Article
+timestamp: 2026-04-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-agents-sdk-harness-portable-sandbox-manifests-codex-cli"
 tags: ["agents-sdk", "harness", "sandbox", "manifest", "e2b", "modal", "daytona", "codex-cli", "enterprise", "portable-compute"]
 ---
-
 ![Sketchnote diagram for: The Agents SDK Harness and Portable Sandbox Manifests: Running Codex Workflows Across Seven Compute Providers](/sketchnotes/articles/2026-04-17-agents-sdk-harness-portable-sandbox-manifests-codex-cli.png)
 
 # The Agents SDK Harness and Portable Sandbox Manifests: Running Codex Workflows Across Seven Compute Providers

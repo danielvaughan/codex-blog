@@ -2,9 +2,11 @@
 title: "Codex CLI for Terraform and Infrastructure as Code: The MCP Server, TerraShark, and Agent-Driven IaC Workflows"
 parent: "Articles"
 nav_order: 1057
+type: Technical Article
+timestamp: 2026-06-10T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-codex-cli-terraform-infrastructure-as-code-mcp-server-terrashark-pulumi-agent-skills"
 tags: ["codex-cli", "terraform", "infrastructure-as-code", "mcp", "terrashark", "pulumi", "iac", "devops", "agent-skills"]
 ---
-
 # Codex CLI for Terraform and Infrastructure as Code: The MCP Server, TerraShark, and Agent-Driven IaC Workflows
 
 

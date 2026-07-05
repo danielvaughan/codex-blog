@@ -2,7 +2,7 @@
 title: "Karpathy's LLM Knowledge Bases: The Same Flywheel We've Been Running for Six Weeks"
 description: "On April 11, 2026, Andrej Karpathy posted a detailed description of his workflow for building personal knowledge bases with LLMs. He described raw data."
 date: 2026-04-11T17:30:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - karpathy
   - knowledge-base
@@ -13,8 +13,10 @@ tags:
   - obsidian
   - markdown
   - automation
+type: Technical Article
+timestamp: 2026-04-11T18:30:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-karpathy-llm-knowledge-bases-codex-resources-flywheel"
 ---
-
 ![Sketchnote diagram for: Karpathy's LLM Knowledge Bases: The Same Flywheel We've Been Running for Six Weeks](/sketchnotes/articles/2026-04-11-karpathy-llm-knowledge-bases-codex-resources-flywheel.png)
 
 # Karpathy's LLM Knowledge Bases: The Same Flywheel We've Been Running for Six Weeks

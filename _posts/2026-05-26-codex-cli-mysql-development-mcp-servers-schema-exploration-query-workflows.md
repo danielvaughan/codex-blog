@@ -2,9 +2,11 @@
 title: "Codex CLI for MySQL Development: MCP Servers, Schema Exploration, and Query Workflows on MySQL 9.7"
 parent: "Articles"
 nav_order: 878
+type: Technical Article
+timestamp: 2026-05-26T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-mysql-development-mcp-servers-schema-exploration-query-workflows"
 tags: ["codex-cli", "mysql", "mcp", "database", "schema", "query", "mysql-9.7", "mariadb", "aurora"]
 ---
-
 # Codex CLI for MySQL Development: MCP Servers, Schema Exploration, and Query Workflows on MySQL 9.7
 
 

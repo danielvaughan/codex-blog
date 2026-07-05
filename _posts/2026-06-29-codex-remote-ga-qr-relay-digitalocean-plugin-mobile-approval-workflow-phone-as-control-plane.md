@@ -2,9 +2,11 @@
 title: "Codex Remote GA: QR Relay, DigitalOcean Plugin, and the Phone as Your Agent's Control Plane"
 parent: "Articles"
 nav_order: 1265
+type: Technical Article
+timestamp: 2026-06-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-codex-remote-ga-qr-relay-digitalocean-plugin-mobile-approval-workflow-phone-as-control-plane"
 tags: ["codex-cli", "codex-remote", "mobile", "QR-relay", "DigitalOcean", "remote-development", "security", "enterprise", "approval-workflow"]
 ---
-
 # Codex Remote GA: QR Relay, DigitalOcean Plugin, and the Phone as Your Agent's Control Plane
 
 

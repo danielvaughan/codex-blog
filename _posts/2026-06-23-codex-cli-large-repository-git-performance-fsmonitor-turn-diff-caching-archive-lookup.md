@@ -2,9 +2,11 @@
 title: "Taming the Monorepo: How Codex CLI v0.140 Fixed Git Performance for Large Repositories"
 parent: "Articles"
 nav_order: 1203
+type: Technical Article
+timestamp: 2026-06-23T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-codex-cli-large-repository-git-performance-fsmonitor-turn-diff-caching-archive-lookup"
 tags: ["codex-cli", "performance", "git", "fsmonitor", "monorepo", "large-repository", "turn-diff", "optimisation"]
 ---
-
 # Taming the Monorepo: How Codex CLI v0.140 Fixed Git Performance for Large Repositories
 
 

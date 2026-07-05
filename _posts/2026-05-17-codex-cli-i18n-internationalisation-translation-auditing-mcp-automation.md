@@ -3,9 +3,11 @@ title: "Codex CLI for Internationalisation: Translation Auditing, MCP-Driven Wor
 description: "Internationalisation is one of those concerns that every team agrees matters yet few prioritise until a product manager sends a panicked message about a."
 parent: "Articles"
 nav_order: 753
+type: Technical Article
+timestamp: 2026-05-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-i18n-internationalisation-translation-auditing-mcp-automation"
 tags: ["codex-cli", "i18n", "internationalisation", "translation", "mcp", "automation", "ci-cd", "react-intl", "next-intl", "i18next"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Internationalisation: Translation Auditing, MCP-Driven Workflows, and CI Enforcement](/sketchnotes/articles/2026-05-17-codex-cli-i18n-internationalisation-translation-auditing-mcp-automation.png)
 
 # Codex CLI for Internationalisation: Translation Auditing, MCP-Driven Workflows, and CI Enforcement

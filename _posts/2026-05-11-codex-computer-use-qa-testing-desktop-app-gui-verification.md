@@ -3,9 +3,11 @@ title: "Codex Computer Use for QA Testing: Automated GUI Verification, Desktop A
 description: "Since April 2026, Codex has been able to see, click, and type across any macOS application — turning it from a code-only agent into a full desktop control."
 parent: "Articles"
 nav_order: 673
+type: Technical Article
+timestamp: 2026-05-11T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-computer-use-qa-testing-desktop-app-gui-verification"
 tags: ["codex-cli", "computer-use", "qa-testing", "desktop-automation", "macos", "gui-testing", "visual-regression"]
 ---
-
 ![Sketchnote diagram for: Codex Computer Use for QA Testing: Automated GUI Verification, Desktop App Testing, and Visual Bug Detection](/sketchnotes/articles/2026-05-11-codex-computer-use-qa-testing-desktop-app-gui-verification.png)
 
 

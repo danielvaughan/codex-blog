@@ -3,9 +3,11 @@ title: "Codex CLI for Automated Dependency Auditing: Licence Compliance, SBOM Ge
 description: "Knowing your dependencies have no critical CVEs is only half the supply chain story."
 parent: "Articles"
 nav_order: 361
+type: Technical Article
+timestamp: 2026-05-14T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-dependency-auditing-licence-compliance-sbom-generation-supply-chain-policy"
 tags: ["codex-cli", "sbom", "licence-compliance", "supply-chain", "cyclonedx", "spdx", "syft", "dependency-audit", "AGENTS.md", "codex-exec"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Automated Dependency Auditing: Licence Compliance, SBOM Generation, and Supply Chain Policy Enforcement](/sketchnotes/articles/2026-05-14-codex-cli-dependency-auditing-licence-compliance-sbom-generation-supply-chain-policy.png)
 
 # Codex CLI for Automated Dependency Auditing: Licence Compliance, SBOM Generation, and Supply Chain Policy Enforcement

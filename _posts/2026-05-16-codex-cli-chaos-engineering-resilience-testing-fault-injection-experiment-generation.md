@@ -3,9 +3,11 @@ title: "Codex CLI for Chaos Engineering: Agent-Driven Experiment Generation, Fau
 description: "Production systems fail. The question is whether you discover failure modes through controlled experimentation or through a 3 a.m. page."
 parent: "Articles"
 nav_order: 722
+type: Technical Article
+timestamp: 2026-05-16T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-chaos-engineering-resilience-testing-fault-injection-experiment-generation"
 tags: ["codex-cli", "chaos-engineering", "resilience-testing", "fault-injection", "chaos-mesh", "chaos-toolkit", "kubernetes", "steady-state-hypothesis", "reliability"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Chaos Engineering: Agent-Driven Experiment Generation, Fault Injection Manifests, and Resilience Validation Pipelines](/sketchnotes/articles/2026-05-16-codex-cli-chaos-engineering-resilience-testing-fault-injection-experiment-generation.png)
 
 # Codex CLI for Chaos Engineering: Agent-Driven Experiment Generation, Fault Injection Manifests, and Resilience Validation Pipelines

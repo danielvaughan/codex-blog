@@ -3,6 +3,9 @@ title: "The Codex Native SDK: Embedding Rust-Powered Coding Agents Directly in N
 description: "The official @openai/codex-sdk wraps the Codex CLI binary and talks to it over stdin/stdout JSONL pipes. It works, but the process-spawning overhead."
 parent: "Articles"
 nav_order: 421
+type: Technical Article
+timestamp: 2026-04-25T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-native-sdk-rust-napi-bindings-embed-agents-node-applications"
 tags: ["codex-cli", "native-sdk", "napi-rs", "rust", "typescript", "node.js", "agent-orchestration", "custom-tools"]
 ---
 ![Sketchnote diagram for: The Codex Native SDK: Embedding Rust-Powered Coding Agents Directly in Node.js Applications](/sketchnotes/articles/2026-04-25-codex-native-sdk-rust-napi-bindings-embed-agents-node-applications.png)

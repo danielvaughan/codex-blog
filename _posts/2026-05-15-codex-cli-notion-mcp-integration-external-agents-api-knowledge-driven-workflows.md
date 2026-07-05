@@ -3,9 +3,11 @@ title: "Codex CLI Meets Notion: MCP Integration, the External Agents API, and Kn
 description: "On 13 May 2026, Notion shipped its Developer Platform—Workers, database sync, webhook triggers."
 parent: "Articles"
 nav_order: 713
+type: Technical Article
+timestamp: 2026-05-15T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-notion-mcp-integration-external-agents-api-knowledge-driven-workflows"
 tags: ["codex-cli", "notion", "mcp", "external-agents-api", "knowledge-management", "developer-platform", "workers", "integrations"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Meets Notion: MCP Integration, the External Agents API, and Knowledge-Driven Development Workflows](/sketchnotes/articles/2026-05-15-codex-cli-notion-mcp-integration-external-agents-api-knowledge-driven-workflows.png)
 
 # Codex CLI Meets Notion: MCP Integration, the External Agents API, and Knowledge-Driven Development Workflows

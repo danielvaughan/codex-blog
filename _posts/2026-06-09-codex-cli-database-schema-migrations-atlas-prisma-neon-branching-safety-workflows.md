@@ -2,9 +2,11 @@
 title: "Codex CLI for Database Schema Migrations: Atlas Skills, Prisma MCP, Neon Branching, and Safety-First Workflows"
 parent: "Articles"
 nav_order: 1041
+type: Technical Article
+timestamp: 2026-06-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-codex-cli-database-schema-migrations-atlas-prisma-neon-branching-safety-workflows"
 tags: ["codex-cli", "database", "migrations", "atlas", "prisma", "neon", "mcp", "schema", "safety", "automation"]
 ---
-
 # Codex CLI for Database Schema Migrations: Atlas Skills, Prisma MCP, Neon Branching, and Safety-First Workflows
 
 

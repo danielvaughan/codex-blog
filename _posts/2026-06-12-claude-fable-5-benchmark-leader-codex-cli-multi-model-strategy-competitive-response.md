@@ -2,9 +2,11 @@
 title: "Claude Fable 5 Enters the Arena: What Anthropic's Benchmark-Topping Model Means for Codex CLI Multi-Model Strategies"
 parent: "Articles"
 nav_order: 1085
+type: Technical Article
+timestamp: 2026-06-12T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-claude-fable-5-benchmark-leader-codex-cli-multi-model-strategy-competitive-response"
 tags: ["codex-cli", "claude-fable-5", "claude-mythos-5", "anthropic", "multi-model", "benchmark", "swe-bench", "terminal-bench", "competitive-landscape", "model-routing", "cost-optimisation"]
 ---
-
 # Claude Fable 5 Enters the Arena: What Anthropic's Benchmark-Topping Model Means for Codex CLI Multi-Model Strategies
 
 

@@ -2,9 +2,11 @@
 title: "Codex CLI v0.139: Code-Mode Web Search, MCP Schema Fidelity, and the Fixes That Compound"
 parent: "Articles"
 nav_order: 1048
+type: Technical Article
+timestamp: 2026-06-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-codex-cli-v0139-release-guide-code-mode-web-search-mcp-schema-fidelity-doctor-diagnostics"
 tags: ["codex-cli", "v0.139", "release-guide", "web-search", "mcp", "schema", "codex-doctor", "plugin-marketplace", "bug-fixes", "performance"]
 ---
-
 # Codex CLI v0.139: Code-Mode Web Search, MCP Schema Fidelity, and the Fixes That Compound
 
 

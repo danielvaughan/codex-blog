@@ -3,9 +3,11 @@ title: "Codex CLI Config Lockfiles: Reproducible Agent Sessions with Export, Rep
 description: "Every senior engineer has encountered the it worked on my machine problem with build tools."
 parent: "Articles"
 nav_order: 544
+type: Technical Article
+timestamp: 2026-05-04T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-config-lockfiles-reproducible-agent-sessions"
 tags: ["codex-cli", "configuration", "reproducibility", "lockfiles", "debugging", "CI/CD", "enterprise"]
 ---
-
 ![Sketchnote diagram for: Codex CLI Config Lockfiles: Reproducible Agent Sessions with Export, Replay, and Drift Detection](/sketchnotes/articles/2026-05-04-codex-cli-config-lockfiles-reproducible-agent-sessions.png)
 
 

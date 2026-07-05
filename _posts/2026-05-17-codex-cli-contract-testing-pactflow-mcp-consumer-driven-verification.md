@@ -3,9 +3,11 @@ title: "Codex CLI for Contract Testing: PactFlow MCP Integration, Consumer-Drive
 description: "Consumer-driven contract testing remains the most effective technique for preventing integration failures across microservice boundaries without the overhead."
 parent: "Articles"
 nav_order: 748
+type: Technical Article
+timestamp: 2026-05-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-contract-testing-pactflow-mcp-consumer-driven-verification"
 tags: ["contract-testing", "pactflow", "mcp", "consumer-driven", "pact", "ci-cd", "microservices", "codex-exec"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Contract Testing: PactFlow MCP Integration, Consumer-Driven Test Generation, and CI Verification Pipelines](/sketchnotes/articles/2026-05-17-codex-cli-contract-testing-pactflow-mcp-consumer-driven-verification.png)
 
 # Codex CLI for Contract Testing: PactFlow MCP Integration, Consumer-Driven Test Generation, and CI Verification Pipelines

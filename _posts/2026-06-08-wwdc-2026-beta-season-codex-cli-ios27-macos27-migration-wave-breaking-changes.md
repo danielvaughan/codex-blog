@@ -2,9 +2,11 @@
 title: "WWDC 2026 Beta Season: Using Codex CLI to Navigate the iOS 27 and macOS 27 Migration Wave"
 parent: "Articles"
 nav_order: 1026
+type: Technical Article
+timestamp: 2026-06-08T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-wwdc-2026-beta-season-codex-cli-ios27-macos27-migration-wave-breaking-changes"
 tags: ["codex-cli", "wwdc-2026", "ios-27", "macos-27", "migration", "xcode", "swift", "apple-silicon", "mcp", "xcodebuildmcp"]
 ---
-
 # WWDC 2026 Beta Season: Using Codex CLI to Navigate the iOS 27 and macOS 27 Migration Wave
 
 

@@ -2,9 +2,11 @@
 title: "The Agent Billing Convergence: Managing Developer Costs as Copilot, Codex, and Claude Code All Move to Usage-Based Pricing"
 parent: "Articles"
 nav_order: 1112
+type: Technical Article
+timestamp: 2026-06-14T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-agent-billing-convergence-copilot-codex-claude-code-usage-based-pricing-cost-management"
 tags: ["codex-cli", "pricing", "cost-management", "github-copilot", "claude-code", "usage-based-billing", "enterprise", "credits"]
 ---
-
 # The Agent Billing Convergence: Managing Developer Costs as Copilot, Codex, and Claude Code All Move to Usage-Based Pricing
 
 

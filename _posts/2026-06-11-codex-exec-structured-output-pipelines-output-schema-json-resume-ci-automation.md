@@ -2,9 +2,11 @@
 title: "Codex exec Structured Output Pipelines: Building Type-Safe Automation with --output-schema, --json, and Resume"
 parent: "Articles"
 nav_order: 1070
+type: Technical Article
+timestamp: 2026-06-11T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-codex-exec-structured-output-pipelines-output-schema-json-resume-ci-automation"
 tags: ["codex-cli", "codex-exec", "structured-output", "automation", "CI/CD", "pipelines", "JSON-schema", "JSONL"]
 ---
-
 # Codex exec Structured Output Pipelines: Building Type-Safe Automation with --output-schema, --json, and Resume
 
 

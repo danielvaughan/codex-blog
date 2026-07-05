@@ -3,9 +3,11 @@ title: "Testing Codex CLI Skills: The Official Eval Pipeline with codex exec, JS
 description: "Skills are becoming the primary unit of reusable workflow in Codex CLI. But a skill without evaluation is a guess — you have no idea whether a SKILL.md."
 parent: "Articles"
 nav_order: 270
+type: Technical Article
+timestamp: 2026-04-13T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-testing-codex-cli-skills-eval-pipeline"
 tags: ["skills", "evaluation", "codex-exec", "jsonl", "output-schema", "skillgrade", "ci-cd", "testing", "quality-gates"]
 ---
-
 ![Sketchnote diagram for: Testing Codex CLI Skills: The Official Eval Pipeline with codex exec, JSONL Traces, and Skillgrade](/sketchnotes/articles/2026-04-13-testing-codex-cli-skills-eval-pipeline.png)
 
 

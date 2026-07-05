@@ -2,14 +2,16 @@
 title: "Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions"
 description: "Agentic coding sessions accumulate context fast. A non-trivial refactoring task — reading source files, running tests, writing patches, re-reading updated."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - architecture
   - context-management
   - config-toml
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-31T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-31-codex-cli-context-compaction-architecture"
 ---
-
 ![Sketchnote diagram for: Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions](/sketchnotes/articles/2026-03-31-codex-cli-context-compaction-architecture.png)
 
 # Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions

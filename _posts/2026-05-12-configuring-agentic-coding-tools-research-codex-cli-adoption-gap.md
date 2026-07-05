@@ -3,9 +3,11 @@ title: "How Developers Actually Configure Agentic Coding Tools: What 2,926 Repos
 description: "A new empirical study of nearly three thousand GitHub repositories has quantified something most Codex CLI practitioners have sensed intuitively."
 parent: "Articles"
 nav_order: 683
+type: Technical Article
+timestamp: 2026-05-12T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-configuring-agentic-coding-tools-research-codex-cli-adoption-gap"
 tags: ["codex-cli", "research", "configuration", "AGENTS.md", "skills", "subagents", "adoption", "best-practices"]
 ---
-
 ![Sketchnote diagram for: How Developers Actually Configure Agentic Coding Tools: What 2,926 Repositories Reveal About the Codex CLI Adoption Gap](/sketchnotes/articles/2026-05-12-configuring-agentic-coding-tools-research-codex-cli-adoption-gap.png)
 
 

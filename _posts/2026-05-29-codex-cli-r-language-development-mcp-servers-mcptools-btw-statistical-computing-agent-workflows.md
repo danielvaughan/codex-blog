@@ -2,9 +2,11 @@
 title: "Codex CLI for R Language Development: MCP Servers, mcptools, btw, and Statistical Computing Agent Workflows"
 parent: "Articles"
 nav_order: 908
+type: Technical Article
+timestamp: 2026-05-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-r-language-development-mcp-servers-mcptools-btw-statistical-computing-agent-workflows"
 tags: ["codex-cli", "r-language", "mcp-server", "statistical-computing", "data-science", "posit", "mcptools", "btw", "ggplot2", "tidyverse"]
 ---
-
 # Codex CLI for R Language Development: MCP Servers, mcptools, btw, and Statistical Computing Agent Workflows
 
 

@@ -3,9 +3,11 @@ title: "Codex CLI for Release Management: Changelog Generation, Semantic Version
 description: "Release management remains one of the most error-prone manual processes in software engineering. Developers forget to bump versions, write vague changelog."
 parent: "Articles"
 nav_order: 756
+type: Technical Article
+timestamp: 2026-05-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-release-management-changelog-generation-semantic-versioning-automation"
 tags: ["codex-cli", "release-management", "changelog", "semantic-versioning", "conventional-commits", "ci-cd", "automation", "release-please", "semantic-release"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Release Management: Changelog Generation, Semantic Versioning, and Automated Release Pipelines](/sketchnotes/articles/2026-05-17-codex-cli-release-management-changelog-generation-semantic-versioning-automation.png)
 
 # Codex CLI for Release Management: Changelog Generation, Semantic Versioning, and Automated Release Pipelines

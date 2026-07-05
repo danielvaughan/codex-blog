@@ -3,9 +3,11 @@ title: "AutoLoop with Codex CLI: Bounded Optimisation Loops for Measurable Codeb
 description: "Karpathy's autoresearch project — released in March 2026 and now sitting at 21,000+ GitHub stars."
 parent: "Articles"
 nav_order: 650
+type: Technical Article
+timestamp: 2026-05-10T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-autoloop-codex-cli-bounded-optimisation-loops-agent-agnostic-iterative-improvement"
 tags: ["codex-cli", "autoloop", "autoresearch", "/goal", "eval-driven", "optimisation", "iterative-improvement", "agent-tooling"]
 ---
-
 ![Sketchnote diagram for: AutoLoop with Codex CLI: Bounded Optimisation Loops for Measurable Codebase Improvement](/sketchnotes/articles/2026-05-10-autoloop-codex-cli-bounded-optimisation-loops-agent-agnostic-iterative-improvement.png)
 
 

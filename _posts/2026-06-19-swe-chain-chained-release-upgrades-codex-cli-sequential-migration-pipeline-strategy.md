@@ -3,9 +3,11 @@ title: "SWE-Chain: What the Chained Release Upgrade Benchmark Means for Codex CL
 description: "SWE-Chain benchmarks coding agents on sequential, chained package upgrades — where each transition builds on the agent's prior changes. Its findings on cascading failures, specification quality, and cost efficiency map directly to Codex CLI session strategy, structured output, and sequential pipeline design."
 parent: "Articles"
 nav_order: 1164
+type: Technical Article
+timestamp: 2026-06-19T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-swe-chain-chained-release-upgrades-codex-cli-sequential-migration-pipeline-strategy"
 tags: ["codex-cli", "swe-chain", "dependency-upgrades", "chained-migrations", "session-management", "structured-output", "sequential-pipelines", "benchmarks"]
 ---
-
 # SWE-Chain: What the Chained Release Upgrade Benchmark Means for Codex CLI Migration Pipelines
 
 

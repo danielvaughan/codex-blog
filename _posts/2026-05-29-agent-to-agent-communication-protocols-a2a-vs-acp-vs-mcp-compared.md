@@ -2,9 +2,11 @@
 title: "Agent-to-Agent Communication Protocols: A2A vs ACP vs MCP Compared"
 parent: "Articles"
 nav_order: 906
+type: Technical Article
+timestamp: 2026-05-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-agent-to-agent-communication-protocols-a2a-vs-acp-vs-mcp-compared"
 tags: ["a2a", "acp", "mcp", "agent protocols", "codex cli", "inter-agent communication", "agent-to-agent"]
 ---
-
 # Agent-to-Agent Communication Protocols: A2A vs ACP vs MCP Compared
 
 

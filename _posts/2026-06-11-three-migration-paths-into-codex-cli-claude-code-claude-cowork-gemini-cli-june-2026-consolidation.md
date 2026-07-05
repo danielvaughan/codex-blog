@@ -2,9 +2,11 @@
 title: "The Three Migration Paths into Codex CLI: Moving Workflows from Claude Code, Claude Cowork, and Gemini CLI Before the June 18 Deadline"
 parent: "Articles"
 nav_order: 1069
+type: Technical Article
+timestamp: 2026-06-11T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-three-migration-paths-into-codex-cli-claude-code-claude-cowork-gemini-cli-june-2026-consolidation"
 tags: ["codex-cli", "migration", "claude-code", "claude-cowork", "gemini-cli", "antigravity", "consolidation", "configuration", "june-2026"]
 ---
-
 # The Three Migration Paths into Codex CLI: Moving Workflows from Claude Code, Claude Cowork, and Gemini CLI Before the June 18 Deadline
 
 

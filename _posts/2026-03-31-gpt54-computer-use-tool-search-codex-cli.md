@@ -2,14 +2,16 @@
 title: "GPT-5.4 Computer Use and Tool Search in Codex CLI: Visual Debugging, Deferred Loading, and /fast Mode"
 description: "GPT-5.4, released on 5 March 2026, is OpenAI's first mainline reasoning model to ship with native computer-use capabilities alongside the frontier coding."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - models
   - model-selection
   - plugins
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-31T09:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-31-gpt54-computer-use-tool-search-codex-cli"
 ---
-
 ![Sketchnote diagram for: GPT-5.4 Computer Use and Tool Search in Codex CLI: Visual Debugging, Deferred Loading, and /fast Mode](/sketchnotes/articles/2026-03-31-gpt54-computer-use-tool-search-codex-cli.png)
 
 # GPT-5.4 Computer Use and Tool Search in Codex CLI: Visual Debugging, Deferred Loading, and /fast Mode

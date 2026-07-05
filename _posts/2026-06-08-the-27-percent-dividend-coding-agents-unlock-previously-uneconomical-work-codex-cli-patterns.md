@@ -2,9 +2,11 @@
 title: "The 27% Dividend: How Coding Agents Unlock Previously Uneconomical Work, and Codex CLI Patterns for Capturing It"
 parent: "Articles"
 nav_order: 1033
+type: Technical Article
+timestamp: 2026-06-08T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-the-27-percent-dividend-coding-agents-unlock-previously-uneconomical-work-codex-cli-patterns"
 tags: ["codex-cli", "productivity", "new-work", "anthropic-research", "automation", "codex-exec", "skills", "automations", "technical-debt", "papercuts", "pragmatic-engineer"]
 ---
-
 # The 27% Dividend: How Coding Agents Unlock Previously Uneconomical Work, and Codex CLI Patterns for Capturing It
 
 

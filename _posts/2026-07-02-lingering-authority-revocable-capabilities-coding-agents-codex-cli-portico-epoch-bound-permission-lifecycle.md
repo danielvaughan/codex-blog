@@ -2,9 +2,11 @@
 title: "Lingering Authority and Revocable Capabilities: What PORTICO Reveals About the Permission Gap in Coding Agents — and How Codex CLI's Approval Architecture Compares"
 parent: "Articles"
 nav_order: 1304
+type: Technical Article
+timestamp: 2026-07-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-lingering-authority-revocable-capabilities-coding-agents-codex-cli-portico-epoch-bound-permission-lifecycle"
 tags: ["codex-cli", "security", "permissions", "capabilities", "PORTICO", "revocable-access", "approval-policy", "sandbox", "agent-safety"]
 ---
-
 # Lingering Authority and Revocable Capabilities: What PORTICO Reveals About the Permission Gap in Coding Agents — and How Codex CLI's Approval Architecture Compares
 
 

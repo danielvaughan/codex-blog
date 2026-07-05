@@ -3,9 +3,11 @@ title: "AWS Agent Plugins and the Compound Plugin Pattern: How Cloud Providers A
 description: "On 17 February 2026, AWS Labs open-sourced awslabs/agent-plugins — the first major cloud provider plugin suite purpose-built for AI coding agents ."
 parent: "Articles"
 nav_order: 273
+type: Technical Article
+timestamp: 2026-04-13T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-aws-agent-plugins-compound-plugin-pattern"
 tags: ["aws", "plugins", "compound-plugin", "cloud-infrastructure", "enterprise", "marketplace", "mcp", "iac", "cost-estimation"]
 ---
-
 ![Sketchnote diagram for: AWS Agent Plugins and the Compound Plugin Pattern: How Cloud Providers Are Shipping Production-Grade Agent Skills](/sketchnotes/articles/2026-04-13-aws-agent-plugins-compound-plugin-pattern.png)
 
 # AWS Agent Plugins and the Compound Plugin Pattern: How Cloud Providers Are Shipping Production-Grade Agent Skills

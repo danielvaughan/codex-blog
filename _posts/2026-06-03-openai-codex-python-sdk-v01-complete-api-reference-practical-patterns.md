@@ -2,9 +2,11 @@
 title: "openai-codex Python SDK v0.1.0b2: Complete API Reference and Practical Patterns"
 parent: "Articles"
 nav_order: 975
+type: Technical Article
+timestamp: 2026-06-03T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-openai-codex-python-sdk-v01-complete-api-reference-practical-patterns"
 tags: ["python-sdk", "openai-codex", "async", "sandbox", "thread-api", "codex-cli", "embedding"]
 ---
-
 # openai-codex Python SDK v0.1.0b2: Complete API Reference and Practical Patterns
 
 

@@ -3,6 +3,9 @@ title: "Self-Hosted Code Review Pipelines with Codex CLI: Structured Output Acro
 description: "Codex Cloud's built-in PR review is convenient if your team lives on GitHub. But enterprise teams running GitLab, Azure Repos, Bitbucket, or on-premises."
 parent: "Articles"
 nav_order: 492
+type: Technical Article
+timestamp: 2026-04-29T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-self-hosted-code-review-pipelines-multi-platform-ci-cd"
 tags: ["codex-cli", "code-review", "ci-cd", "github-actions", "gitlab-ci", "azure-devops", "jenkins", "structured-output", "automation"]
 ---
 ![Sketchnote diagram for: Self-Hosted Code Review Pipelines with Codex CLI: Structured Output Across GitHub Actions, GitLab CI, Azure DevOps, and Jenkins](/sketchnotes/articles/2026-04-29-codex-cli-self-hosted-code-review-pipelines-multi-platform-ci-cd.png)

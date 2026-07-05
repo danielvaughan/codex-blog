@@ -3,9 +3,11 @@ title: "Codex CLI for Release Engineering: Automated Changelogs, Semantic Versio
 description: "Release engineering is one of those disciplines that every team acknowledges as important yet few invest in properly. Version bumps are manual, changelogs."
 parent: "Articles"
 nav_order: 411
+type: Technical Article
+timestamp: 2026-04-25T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-release-engineering-changelog-versioning-automation"
 tags: ["codex-cli", "release-engineering", "changelog", "semantic-versioning", "conventional-commits", "automation", "codex-exec", "ci-cd"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for Release Engineering: Automated Changelogs, Semantic Versioning, and Release Note Generation](/sketchnotes/articles/2026-04-25-codex-cli-release-engineering-changelog-versioning-automation.png)
 
 

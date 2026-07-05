@@ -2,9 +2,11 @@
 title: "Agent Trajectories as Programs: What Behavioural Fingerprinting Means for Codex CLI Model Routing and Observability"
 parent: "Articles"
 nav_order: 1197
+type: Technical Article
+timestamp: 2026-06-22T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-agent-trajectories-as-programs-fingerprinting-coding-agent-behaviour-codex-cli-procgrep-model-routing"
 tags: ["codex-cli", "agent-fingerprinting", "model-routing", "observability", "ProcGrep", "SWE-Bench", "PostToolUse", "named-profiles", "telemetry"]
 ---
-
 # Agent Trajectories as Programs: What Behavioural Fingerprinting Means for Codex CLI Model Routing and Observability
 
 

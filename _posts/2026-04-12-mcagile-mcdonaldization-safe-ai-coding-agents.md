@@ -2,7 +2,7 @@
 title: "McAgile: The McDonaldization of Software Development Meets AI Coding Agents"
 description: "In 1993, the sociologist George Ritzer published The McDonaldization of Society, arguing that the principles making McDonald's successful — efficiency."
 date: 2026-04-12T11:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 featured: true
 tags:
   - codex-cli
@@ -12,8 +12,10 @@ tags:
   - process
   - adoption
   - opinion
+type: Technical Article
+timestamp: 2026-04-12T12:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-mcagile-mcdonaldization-safe-ai-coding-agents"
 ---
-
 ![Sketchnote diagram for: McAgile: The McDonaldization of Software Development Meets AI Coding Agents](/sketchnotes/articles/2026-04-12-mcagile-mcdonaldization-safe-ai-coding-agents.png)
 
 In 1993, the sociologist George Ritzer published *The McDonaldization of Society*, arguing that the principles making McDonald's successful — efficiency, calculability, predictability, and control — were colonising every sector of modern life[^1]. Three decades later, his framework explains something that practitioners have felt but struggled to articulate: what happened when the Agile Manifesto met the enterprise consulting industry and became SAFe.

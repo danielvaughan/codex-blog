@@ -3,9 +3,11 @@ title: "Codex CLI + Sentry MCP: From Production Error to Pull Request in One Age
 description: "Production errors should not require a context switch. You should not have to leave your terminal, open a browser tab, navigate to Sentry, read a stack."
 parent: "Articles"
 nav_order: 636
+type: Technical Article
+timestamp: 2026-05-09T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-sentry-mcp-production-error-triage-automated-bug-resolution"
 tags: ["codex-cli", "sentry", "mcp", "error-tracking", "debugging", "production", "automation", "devops"]
 ---
-
 ![Sketchnote diagram for: Codex CLI + Sentry MCP: From Production Error to Pull Request in One Agent Loop](/sketchnotes/articles/2026-05-09-codex-cli-sentry-mcp-production-error-triage-automated-bug-resolution.png)
 
 

@@ -3,9 +3,11 @@ title: "Rule Taxonomy and Evolution in AI IDEs: What 7,310 Mined Rules Reveal Ab
 parent: "Articles"
 nav_order: 1294
 description: "Two empirical studies — 7,310 rules from 83 projects and 401 Cursor repositories — reveal a five-category taxonomy of coding agent rules, a persistent gap between what developers value and what they write, and a 22.99% compliance improvement from iterative evolution. Mapped to Codex CLI AGENTS.md structure, per-directory overrides, and PostToolUse enforcement hooks."
+type: Technical Article
+timestamp: 2026-07-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-rule-taxonomy-evolution-ai-ide-agents-md-codex-cli-empirical-configuration-compliance"
 tags: ["agents-md", "rule-taxonomy", "configuration", "empirical-research", "compliance", "cursor-rules", "best-practices", "evolution"]
 ---
-
 # Rule Taxonomy and Evolution in AI IDEs: What 7,310 Mined Rules Reveal About How Developers Configure Coding Agents — and How to Structure Codex CLI's AGENTS.md
 
 

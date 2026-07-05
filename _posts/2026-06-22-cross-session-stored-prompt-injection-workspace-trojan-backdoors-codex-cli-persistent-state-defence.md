@@ -2,9 +2,11 @@
 title: "Cross-Session Stored Prompt Injection and Workspace Trojan Backdoors: What Persistent-State Attacks Mean for Codex CLI Defence"
 parent: "Articles"
 nav_order: 1191
+type: Technical Article
+timestamp: 2026-06-22T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-cross-session-stored-prompt-injection-workspace-trojan-backdoors-codex-cli-persistent-state-defence"
 tags: ["codex-cli", "security", "prompt-injection", "trojan-backdoor", "workspace-safety", "persistent-state", "cross-session", "AGENTS.md", "sandbox", "memories"]
 ---
-
 # Cross-Session Stored Prompt Injection and Workspace Trojan Backdoors: What Persistent-State Attacks Mean for Codex CLI Defence
 
 

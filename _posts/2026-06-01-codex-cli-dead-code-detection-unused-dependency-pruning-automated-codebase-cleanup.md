@@ -2,9 +2,11 @@
 title: "Codex CLI for Dead Code Detection and Dependency Pruning: Automated Codebase Cleanup Workflows"
 parent: "Articles"
 nav_order: 956
+type: Technical Article
+timestamp: 2026-06-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-dead-code-detection-unused-dependency-pruning-automated-codebase-cleanup"
 tags: ["codex-cli", "dead-code", "unused-dependencies", "knip", "vulture", "codebase-cleanup", "codex-exec", "automation", "hooks"]
 ---
-
 # Codex CLI for Dead Code Detection and Dependency Pruning: Automated Codebase Cleanup Workflows
 
 

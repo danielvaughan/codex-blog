@@ -2,9 +2,11 @@
 title: "The Oversight Architecture Guide: Mapping the Delegation Spectrum to Codex CLI Approval Profiles, Hooks, and Named Configurations"
 parent: "Articles"
 nav_order: 1285
+type: Technical Article
+timestamp: 2026-07-01T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-oversight-architecture-guide-delegation-spectrum-codex-cli-approval-profiles-hooks"
 tags: ["codex-cli", "oversight", "delegation-spectrum", "approval-policy", "named-profiles", "hooks", "governance", "trust-calibration", "autonomy-levels"]
 ---
-
 # The Oversight Architecture Guide: Mapping the Delegation Spectrum to Codex CLI Approval Profiles, Hooks, and Named Configurations
 
 

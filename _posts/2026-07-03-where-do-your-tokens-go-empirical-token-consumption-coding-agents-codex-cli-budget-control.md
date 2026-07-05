@@ -2,9 +2,11 @@
 title: "Where Do Your Tokens Go? What Empirical Research Reveals About Coding Agent Token Consumption — and How to Control It with Codex CLI"
 parent: "Articles"
 nav_order: 1312
+type: Technical Article
+timestamp: 2026-07-03T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-where-do-your-tokens-go-empirical-token-consumption-coding-agents-codex-cli-budget-control"
 tags: ["codex-cli", "token-consumption", "cost-optimisation", "rollout-budget", "model-routing", "SWE-bench", "token-economics"]
 ---
-
 # Where Do Your Tokens Go? What Empirical Research Reveals About Coding Agent Token Consumption — and How to Control It with Codex CLI
 
 

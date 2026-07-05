@@ -2,7 +2,7 @@
 title: "Codex Through the Glass: Retool and Superblocks as a Codex Interface"
 description: "Low-code dashboard platforms like Retool and Superblocks provide the most flexible visual interface to Codex agents, with drag-and-drop UI builders and enterprise data connectors."
 date: 2026-06-12T20:05:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 series: "Codex Through the Glass"
 series_order: 6
 tags:
@@ -13,8 +13,10 @@ tags:
   - dashboard
   - enterprise
   - non-developer
+type: Technical Article
+timestamp: 2026-06-12T21:05:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-through-the-glass-retool-superblocks-as-a-codex-interface"
 ---
-
 # Codex Through the Glass: Retool and Superblocks as a Codex Interface
 
 *Series: Codex Through the Glass — Interface Patterns for Non-Developer Users (Part 6 of 8)*

@@ -2,9 +2,11 @@
 title: "Codex CLI Prompt Library: 20 Battle-Tested Patterns for Code Review, Refactoring, Testing, and Documentation"
 parent: "Articles"
 nav_order: 981
+type: Technical Article
+timestamp: 2026-06-04T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-prompt-library-battle-tested-patterns-code-review-refactoring-testing-documentation"
 tags: ["codex-cli", "prompts", "prompt-engineering", "code-review", "refactoring", "testing", "documentation", "workflows", "productivity", "v0.136"]
 ---
-
 # Codex CLI Prompt Library: 20 Battle-Tested Patterns for Code Review, Refactoring, Testing, and Documentation
 
 

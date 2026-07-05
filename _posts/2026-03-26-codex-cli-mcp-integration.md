@@ -2,14 +2,16 @@
 title: "Codex CLI MCP Integration: Connecting Agents to External Tools"
 description: "There is a pattern I have noticed across thirty years of software infrastructure decisions. A powerful tool ships with a clean interface. Then someone asks."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - ecosystem
   - mcp
   - plugins
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-26T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-26-codex-cli-mcp-integration"
 ---
-
 ![Sketchnote diagram for: Codex CLI MCP Integration: Connecting Agents to External Tools](/sketchnotes/articles/2026-03-26-codex-cli-mcp-integration.png)
 
 # Codex CLI MCP Integration: Connecting Agents to External Tools

@@ -2,9 +2,11 @@
 title: "Codex CLI Session Forensics: JSONL Post-Mortems, codex-trace, cass, and ccusage"
 parent: "Articles"
 nav_order: 994
+type: Technical Article
+timestamp: 2026-06-05T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-codex-cli-session-forensics-jsonl-post-mortems-codex-trace-cass-ccusage"
 tags: ["codex-cli", "session-forensics", "jsonl", "post-mortem", "codex-trace", "cass", "ccusage", "opentelemetry", "debugging", "token-analysis", "observability"]
 ---
-
 # Codex CLI Session Forensics: JSONL Post-Mortems, codex-trace, cass, and ccusage
 
 

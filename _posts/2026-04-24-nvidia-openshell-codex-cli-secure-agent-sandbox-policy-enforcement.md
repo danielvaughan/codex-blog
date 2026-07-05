@@ -3,9 +3,11 @@ title: "NVIDIA OpenShell and Codex CLI: Kernel-Level Sandboxing for Autonomous C
 description: "Codex CLI ships with its own sandbox — a two-axis model combining approval policies and execution constraints ."
 parent: "Articles"
 nav_order: 393
+type: Technical Article
+timestamp: 2026-04-24T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-nvidia-openshell-codex-cli-secure-agent-sandbox-policy-enforcement"
 tags: ["codex-cli", "nvidia", "openshell", "sandbox", "security", "policy-as-code", "enterprise", "agent-governance"]
 ---
-
 ![Sketchnote diagram for: NVIDIA OpenShell and Codex CLI: Kernel-Level Sandboxing for Autonomous Coding Agents](/sketchnotes/articles/2026-04-24-nvidia-openshell-codex-cli-secure-agent-sandbox-policy-enforcement.png)
 
 

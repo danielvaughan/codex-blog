@@ -2,9 +2,11 @@
 title: "Inline Moderation Scores in the Responses API: Building Safety-Aware Codex CLI Workflows for Enterprise Governance"
 parent: "Articles"
 nav_order: 1106
+type: Technical Article
+timestamp: 2026-06-14T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-inline-moderation-scores-responses-api-codex-cli-enterprise-safety-governance-hooks"
 tags: ["codex-cli", "moderation", "responses-api", "enterprise", "governance", "hooks", "compliance", "safety"]
 ---
-
 # Inline Moderation Scores in the Responses API: Building Safety-Aware Codex CLI Workflows for Enterprise Governance
 
 

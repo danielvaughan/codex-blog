@@ -2,7 +2,7 @@
 title: "Let the Platform Build Itself: AI-Constructed Developer Platforms and Codex CLI"
 description: "Platform engineering has spent the last three years answering a single question: how do you give developers self-service access to infrastructure without."
 date: 2026-04-10T07:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - platform-engineering
   - self-assembly
@@ -12,6 +12,9 @@ tags:
   - backstage
   - argocd
   - idp
+type: Technical Article
+timestamp: 2026-04-10T08:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-let-the-platform-build-itself"
 ---
 ![Sketchnote diagram for: Let the Platform Build Itself: AI-Constructed Developer Platforms and Codex CLI](/sketchnotes/articles/2026-04-10-let-the-platform-build-itself.png)
 

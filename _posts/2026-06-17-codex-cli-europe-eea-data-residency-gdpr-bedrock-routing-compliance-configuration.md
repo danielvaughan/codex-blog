@@ -2,9 +2,11 @@
 title: "Codex CLI in Europe: Data Residency, Bedrock Routing, and GDPR-Compliant Agent Configuration After the EEA Expansion"
 parent: "Articles"
 nav_order: 1146
+type: Technical Article
+timestamp: 2026-06-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-codex-cli-europe-eea-data-residency-gdpr-bedrock-routing-compliance-configuration"
 tags: ["codex-cli", "europe", "eea", "gdpr", "data-residency", "amazon-bedrock", "compliance", "configuration", "eu-ai-act"]
 ---
-
 # Codex CLI in Europe: Data Residency, Bedrock Routing, and GDPR-Compliant Agent Configuration After the EEA Expansion
 
 

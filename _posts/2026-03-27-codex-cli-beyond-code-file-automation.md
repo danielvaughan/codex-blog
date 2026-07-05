@@ -2,12 +2,15 @@
 title: "Beyond Code: Codex CLI for File Automation, Image Processing and Browser Tasks"
 description: "Most teams treat Codex CLI purely as a coding assistant — you give it a ticket, it produces a pull request. That framing undersells it. The same codex exec."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - workflow-patterns
   - non-coding
   - automation
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-27T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-27-codex-cli-beyond-code-file-automation"
 ---
 ![Sketchnote diagram for: Beyond Code: Codex CLI for File Automation, Image Processing and Browser Tasks](/sketchnotes/articles/2026-03-27-codex-cli-beyond-code-file-automation.png)
 

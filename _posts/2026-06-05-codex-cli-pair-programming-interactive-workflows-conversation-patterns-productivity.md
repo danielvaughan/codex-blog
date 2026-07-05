@@ -3,9 +3,11 @@ title: "Codex CLI as a Pair Programming Partner: Interactive Workflows, Conversa
 description: "Codex CLI's interactive TUI turns the terminal into a pair programming session. This article maps the slash commands, keyboard shortcuts, and conversation patterns that make the pairing effective — and examines what the productivity research actually shows."
 parent: "Articles"
 nav_order: 978
+type: Technical Article
+timestamp: 2026-06-05T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-codex-cli-pair-programming-interactive-workflows-conversation-patterns-productivity"
 tags: ["codex-cli", "pair-programming", "interactive-mode", "TUI", "slash-commands", "productivity", "conversation-patterns", "session-management", "reasoning-levels"]
 ---
-
 # Codex CLI as a Pair Programming Partner: Interactive Workflows, Conversation Patterns, and the Productivity Evidence
 
 

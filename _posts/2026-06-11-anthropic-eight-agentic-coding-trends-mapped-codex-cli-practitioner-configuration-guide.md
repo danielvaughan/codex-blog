@@ -2,9 +2,11 @@
 title: "Anthropic's Eight Agentic Coding Trends Mapped to Codex CLI: A Practitioner's Configuration Guide"
 parent: "Articles"
 nav_order: 1073
+type: Technical Article
+timestamp: 2026-06-11T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-anthropic-eight-agentic-coding-trends-mapped-codex-cli-practitioner-configuration-guide"
 tags: ["codex-cli", "anthropic", "agentic-coding", "trends", "configuration", "orchestration", "delegation", "verification", "context-engineering", "multi-agent"]
 ---
-
 # Anthropic's Eight Agentic Coding Trends Mapped to Codex CLI: A Practitioner's Configuration Guide
 
 

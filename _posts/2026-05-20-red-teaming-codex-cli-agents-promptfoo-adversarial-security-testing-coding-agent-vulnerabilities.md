@@ -3,9 +3,11 @@ title: "Red-Teaming Codex CLI Agents with Promptfoo: Adversarial Security Testin
 description: "Most teams running Codex CLI in production have evals. Fewer have adversarial evals. The distinction matters: standard evals verify that the agent produces."
 parent: "Articles"
 nav_order: 791
+type: Technical Article
+timestamp: 2026-05-20T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-red-teaming-codex-cli-agents-promptfoo-adversarial-security-testing-coding-agent-vulnerabilities"
 tags: ["codex-cli", "promptfoo", "red-teaming", "security", "adversarial-testing", "coding-agents", "sandbox-escape", "prompt-injection", "enterprise"]
 ---
-
 ![Sketchnote diagram for: Red-Teaming Codex CLI Agents with Promptfoo: Adversarial Security Testing for Coding Agent Workflows](/sketchnotes/articles/2026-05-20-red-teaming-codex-cli-agents-promptfoo-adversarial-security-testing-coding-agent-vulnerabilities.png)
 
 # Red-Teaming Codex CLI Agents with Promptfoo: Adversarial Security Testing for Coding Agent Workflows

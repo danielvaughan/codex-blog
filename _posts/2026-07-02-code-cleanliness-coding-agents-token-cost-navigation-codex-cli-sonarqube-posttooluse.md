@@ -2,9 +2,11 @@
 title: "Does Code Cleanliness Matter for Coding Agents? What 660 Trials Reveal About Token Cost, Navigation, and Codex CLI Configuration"
 parent: "Articles"
 nav_order: 1300
+type: Technical Article
+timestamp: 2026-07-02T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-code-cleanliness-coding-agents-token-cost-navigation-codex-cli-sonarqube-posttooluse"
 tags: ["codex-cli", "code-quality", "sonarqube", "AGENTS.md", "PostToolUse", "token-cost", "cognitive-complexity"]
 ---
-
 # Does Code Cleanliness Matter for Coding Agents? What 660 Trials Reveal About Token Cost, Navigation, and Codex CLI Configuration
 
 

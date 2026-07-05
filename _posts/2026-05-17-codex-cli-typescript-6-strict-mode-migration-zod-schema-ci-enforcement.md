@@ -3,9 +3,11 @@ title: "Codex CLI for TypeScript 6.0 Strict Mode Migration: Incremental Type Saf
 description: "TypeScript 6.0 shipped on 23 March 2026 with strict: true enabled by default. For teams upgrading from 5.x — where strict mode was opt-in — this change."
 parent: "Articles"
 nav_order: 757
+type: Technical Article
+timestamp: 2026-05-17T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-typescript-6-strict-mode-migration-zod-schema-ci-enforcement"
 tags: ["codex-cli", "typescript", "strict-mode", "zod", "migration", "ci-cd", "type-safety", "codex-exec"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for TypeScript 6.0 Strict Mode Migration: Incremental Type Safety, Zod Schema Generation, and CI Enforcement](/sketchnotes/articles/2026-05-17-codex-cli-typescript-6-strict-mode-migration-zod-schema-ci-enforcement.png)
 
 # Codex CLI for TypeScript 6.0 Strict Mode Migration: Incremental Type Safety, Zod Schema Generation, and CI Enforcement

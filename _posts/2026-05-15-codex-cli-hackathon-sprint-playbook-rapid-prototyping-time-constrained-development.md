@@ -3,9 +3,11 @@ title: "The Codex CLI Hackathon Playbook: Rapid Prototyping Under Time Pressure"
 description: "Sea Limited and OpenAI announced the first regional Codex Hackathon series today, kicking off in Singapore on 6 June 2026 with US$30,000 in API credits for."
 parent: "Articles"
 nav_order: 714
+type: Technical Article
+timestamp: 2026-05-15T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-hackathon-sprint-playbook-rapid-prototyping-time-constrained-development"
 tags: ["hackathon", "sprint", "rapid-prototyping", "workflow", "subagents", "worktrees", "goal-mode", "fast-mode", "skills", "AGENTS.md"]
 ---
-
 ![Sketchnote diagram for: The Codex CLI Hackathon Playbook: Rapid Prototyping Under Time Pressure](/sketchnotes/articles/2026-05-15-codex-cli-hackathon-sprint-playbook-rapid-prototyping-time-constrained-development.png)
 
 # The Codex CLI Hackathon Playbook: Rapid Prototyping Under Time Pressure

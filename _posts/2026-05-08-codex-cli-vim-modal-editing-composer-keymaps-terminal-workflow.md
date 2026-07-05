@@ -3,9 +3,11 @@ title: "Vim Modal Editing in the Codex CLI Composer: Configuration, Keymaps, and
 description: "Codex CLI v0.129.0 shipped a feature that terminal-native developers have been requesting since the project's earliest days."
 parent: "Articles"
 nav_order: 627
+type: Technical Article
+timestamp: 2026-05-08T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-vim-modal-editing-composer-keymaps-terminal-workflow"
 tags: ["codex-cli", "vim", "tui", "keymaps", "composer", "terminal-workflow", "v0.129"]
 ---
-
 ![Sketchnote diagram for: Vim Modal Editing in the Codex CLI Composer: Configuration, Keymaps, and Terminal-Native Workflows](/sketchnotes/articles/2026-05-08-codex-cli-vim-modal-editing-composer-keymaps-terminal-workflow.png)
 
 

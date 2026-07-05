@@ -2,9 +2,11 @@
 title: "Scaling Test-Time Compute for Agentic Coding: What the Rollout Summary Research Means for Codex CLI Retry Strategy"
 parent: "Articles"
 nav_order: 1173
+type: Technical Article
+timestamp: 2026-06-20T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-scaling-test-time-compute-agentic-coding-codex-cli-rollout-retry-rtv-pdr-strategy"
 tags: ["codex-cli", "test-time-compute", "rollout-summaries", "best-of-n", "retry-strategy", "RTV", "PDR", "parallel-scaling", "sequential-scaling"]
 ---
-
 # Scaling Test-Time Compute for Agentic Coding: What the Rollout Summary Research Means for Codex CLI Retry Strategy
 
 

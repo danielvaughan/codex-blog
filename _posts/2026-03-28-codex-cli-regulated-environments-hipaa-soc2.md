@@ -2,13 +2,16 @@
 title: "Codex CLI in Regulated Environments: HIPAA, SOC 2, and Financial Services"
 description: "Deploying AI coding agents in healthcare, financial services, or any SOC 2-audited environment introduces obligations that go well beyond performance or."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-05T03:13:50+01:00
+last_modified_at: 2026-07-05T03:43:53+01:00
 tags:
   - security
   - compliance
   - enterprise
   - sandbox
   - codex-cli
+type: Technical Article
+timestamp: 2026-03-28T09:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-cli-regulated-environments-hipaa-soc2"
 ---
 ![Sketchnote diagram for: Codex CLI in Regulated Environments: HIPAA, SOC 2, and Financial Services](/sketchnotes/articles/2026-03-28-codex-cli-regulated-environments-hipaa-soc2.png)
 

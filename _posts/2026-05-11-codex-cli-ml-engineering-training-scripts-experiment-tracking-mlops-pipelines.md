@@ -3,9 +3,11 @@ title: "Codex CLI for ML Engineering: Training Scripts, Experiment Tracking, and
 description: "Machine learning engineering sits at the intersection of software development and experimental science."
 parent: "Articles"
 nav_order: 679
+type: Technical Article
+timestamp: 2026-05-11T00:00:00+00:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-cli-ml-engineering-training-scripts-experiment-tracking-mlops-pipelines"
 tags: ["codex-cli", "machine-learning", "mlops", "mlflow", "experiment-tracking", "pytorch", "hugging-face", "mcp"]
 ---
-
 ![Sketchnote diagram for: Codex CLI for ML Engineering: Training Scripts, Experiment Tracking, and MLOps Pipeline Automation](/sketchnotes/articles/2026-05-11-codex-cli-ml-engineering-training-scripts-experiment-tracking-mlops-pipelines.png)
 
 
