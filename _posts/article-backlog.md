@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Coding Agents Are Guessing — UnderSpecBench Action-Boundary Violations and Codex CLI Approval Architecture Defence (2026-07-05 Hourly Article Run)
+
+1. ✅ **Coding Agents Are Guessing: What UnderSpecBench Reveals About Action-Boundary Violations — and How Codex CLI's Approval Architecture Defends Against Them** — Written 2026-07-05 → `2026-07-05-coding-agents-are-guessing-underspecbench-action-boundary-violations-codex-cli-approval-policy-blast-radius-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ji et al. published arXiv:2607.02294 (July 2026), UnderSpecBench: 69 task families, 2,208 prompt variants across four DevOps domains, three underspecification axes (intent clarity, target certainty, blast radius); five agent×model configurations evaluated; 55.8–67.8% boundary violation rate; target ambiguity drives Safe Success from 67.9% to 8.6%; blast-radius blindness (agents show no restraint difference between sandboxed and production operations); OverScope rates governed by surface topology (bounded-object 14.4–37.6% vs shared control-plane 59.8–77.2%); explicit refusal ≤2.5%; scaffold determines clarification affordance; corroborated by Qu et al. arXiv:2605.18583 OverEager-Gen; mapped to Codex CLI approval_policy graduated enforcement, sandbox workspace-write blast-radius containment, PreToolUse hooks as deterministic boundary blocks, AGENTS.md clarification rules, named permission profiles for surface-specific trust, domain allow-lists, managed requirements.toml enterprise governance
+   - SEO targets: "coding agents guessing underspecification boundary violations", "UnderSpecBench codex cli approval policy defence", "blast radius blindness coding agent DevOps", "codex cli sandbox approval boundary enforcement", "action-boundary violation coding agent harness", "PreToolUse hook deterministic boundary block codex cli"
+
+---
+
 ## Locate-and-Judge Attention-Based Malicious Skill Detection — Codex CLI Plugin Vetting and Marketplace Security (2026-07-05 Hourly Article Run)
 
 1. ✅ **Locate-and-Judge: How Attention-Based Detection Finds Malicious Agent Skills at Marketplace Scale — and How to Harden Your Codex CLI Plugin Stack** — Written 2026-07-05 → `2026-07-05-locate-and-judge-attention-based-malicious-skill-detection-codex-cli-plugin-vetting-marketplace-security.md`
