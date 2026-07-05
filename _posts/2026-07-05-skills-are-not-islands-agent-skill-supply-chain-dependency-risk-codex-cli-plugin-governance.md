@@ -1,8 +1,21 @@
 ---
 title: "Skills Are Not Islands: What 1.43 Million Agent Skills Reveal About Hidden Dependency Risk — and How to Harden Your Codex CLI Plugin Stack"
+description: "What 1.43 million agent skills reveal about hidden dependency risk and how to harden your Codex CLI plugin stack."
+date: 2026-07-04T23:00:00+00:00
+last_modified_at: 2026-07-05T04:29:45+01:00
 parent: "Articles"
 nav_order: 1339
-tags: ["codex-cli", "agent-skills", "supply-chain-security", "dependency-management", "SBOM", "plugin-governance", "SkillDepAnalyzer"]
+tags:
+  - codex-cli
+  - agent-skills
+  - supply-chain-security
+  - dependency-management
+  - SBOM
+  - plugin-governance
+  - SkillDepAnalyzer
+type: Technical Article
+timestamp: 2026-07-05T00:00:00+01:00
+resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-05-skills-are-not-islands-agent-skill-supply-chain-dependency-risk-codex-cli-plugin-governance"
 ---
 
 # Skills Are Not Islands: What 1.43 Million Agent Skills Reveal About Hidden Dependency Risk — and How to Harden Your Codex CLI Plugin Stack
