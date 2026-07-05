@@ -208,7 +208,7 @@ Codex CLI's architecture is designed for exactly this scenario. Hooks, approval 
 
 [^2]: OpenAI. (2026). "Codex CLI Guide: AGENTS.md." OpenAI Developers. [https://developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
 
-[^3]: McMillan, C. (2026). "AGENTS.md Structure Doesn't Matter: A 16,050-Observation Factorial Study." arXiv:2605.10039. [https://arxiv.org/abs/2605.10039](https://arxiv.org/abs/2605.10039)
+[^3]: McMillan, D. (2026). "Instruction Adherence in Coding Agent Configuration Files: A Factorial Study of Four File-Structure Variables." arXiv:2605.10039. [https://arxiv.org/abs/2605.10039](https://arxiv.org/abs/2605.10039)
 
 [^4]: OpenAI. (2026). "Codex CLI Hooks: Events and Policy Engines." OpenAI Developers. [https://developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
 

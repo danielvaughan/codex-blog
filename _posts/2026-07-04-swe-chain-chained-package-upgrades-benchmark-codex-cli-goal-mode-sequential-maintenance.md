@@ -216,7 +216,7 @@ The agents that perform best on SWE-Chain are those with the strongest harness d
 
 ## Citations
 
-[^1]: Cheng, K., Tandon, N., Liu, Z., & Hao, Y. (2026). *SWE-Chain: Benchmarking Coding Agents on Chained Release-Level Package Upgrades*. arXiv:2605.14415. https://arxiv.org/abs/2605.14415
+[^1]: Lam, M.H., Wang, C., Liu, H., Xiao, J., Li, H., Huang, J., Zhuo, T.Y., & Lyu, M.R. (2026). *SWE-Chain: Benchmarking Coding Agents on Chained Release-Level Package Upgrades*. arXiv:2605.14415. https://arxiv.org/abs/2605.14415
 
 [^2]: OpenAI. (2026). *Using Goals in Codex*. OpenAI Developers Cookbook. https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex
 

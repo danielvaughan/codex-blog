@@ -59,7 +59,7 @@ Copilot CLI showed a 2.2× lift versus Claude Code in this specific enterprise c
 
 ## The Productivity Paradox Context
 
-These results sit inside a broader tension. Faros AI's 2026 study of 22,000 developers across 4,000 teams found that heavy AI tool adoption produced 98% more PRs per developer — but PR review time ballooned 91%, bugs per developer increased 54%, and production incidents per PR tripled [^2]. The Microsoft study, by its own admission, examines throughput only: "quality remains unexamined" [^1].
+These results sit inside a broader tension. Faros AI's 2025 study of over 10,000 developers across 1,255 teams found that heavy AI tool adoption produced 98% more PRs per developer — but PR review time ballooned 91%, average PR size increased 154%, and bugs per developer rose 9% [^2]. The Microsoft study, by its own admission, examines throughput only: "quality remains unexamined" [^1].
 
 Agarwal, He, and Vasilescu's longitudinal causal study (arXiv:2601.13597) adds another wrinkle: autonomous coding agents produce large velocity gains only when they are the *first* observable AI tool in a project. Repositories with prior AI IDE usage experience minimal or short-lived throughput increases [^3].
 
@@ -114,7 +114,7 @@ Engineers start with `codex` and graduate to `codex --profile deep-work` as fami
 
 ### Address the Review Bottleneck Before It Forms
 
-The Faros data showing 91% longer review times [^2] means that scaling Codex CLI adoption without scaling review capacity produces a bottleneck. Three Codex CLI mechanisms help:
+The Faros data showing 91% longer review times and 154% larger PRs [^2] means that scaling Codex CLI adoption without scaling review capacity produces a bottleneck. Three Codex CLI mechanisms help:
 
 **Guardian auto-review subagent:** Configure a secondary review agent that pre-screens agent-generated diffs before human review:
 
@@ -204,10 +204,10 @@ The Microsoft study provides the strongest causal evidence to date that CLI codi
 
 [^1]: Murphy-Hill, E., Butler, J., & Savelieva, A. (2026). "Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI." arXiv:2607.01418. [https://arxiv.org/abs/2607.01418](https://arxiv.org/abs/2607.01418)
 
-[^2]: Faros AI. (2026). "The AI Productivity Paradox Research Report." Study of 22,000 developers across 4,000 teams. [https://www.faros.ai/blog/ai-software-engineering](https://www.faros.ai/blog/ai-software-engineering)
+[^2]: Faros AI. (2025). "The AI Productivity Paradox Research Report." Study of over 10,000 developers across 1,255 teams. [https://www.faros.ai/blog/ai-software-engineering](https://www.faros.ai/blog/ai-software-engineering)
 
 [^3]: Agarwal, S., He, H., & Vasilescu, B. (2026). "AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents on Software Development." arXiv:2601.13597. MSR 2026. [https://arxiv.org/abs/2601.13597](https://arxiv.org/abs/2601.13597)
 
 [^4]: OpenAI. (2026). "Codex CLI Configuration Basics." [https://developers.openai.com/codex/config-basic](https://developers.openai.com/codex/config-basic)
 
-[^5]: Williams, E., et al. (2026). "Pomona: Continuous Code Quality Improvement via Small, Automated Changes at Bloomberg." arXiv:2606.06752. [https://arxiv.org/abs/2606.06752](https://arxiv.org/abs/2606.06752)
+[^5]: Williams, D., et al. (2026). "Pomona: Continuous Code Quality Improvement via Small, Automated Changes at Bloomberg." arXiv:2606.06752. [https://arxiv.org/abs/2606.06752](https://arxiv.org/abs/2606.06752)
