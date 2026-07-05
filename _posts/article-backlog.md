@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## TestEvo-Bench Test Co-Evolution — Codex CLI Hook Pipeline and Budget-Aware Test Workflows (2026-07-05 Hourly Article Run)
+
+1. ✅ **TestEvo-Bench and the Test Co-Evolution Problem: Why Agents That Generate Tests Cannot Update Them — and How Codex CLI's Hook Pipeline Closes the Gap** — Written 2026-07-05 → `2026-07-05-testevo-bench-test-code-co-evolution-benchmark-codex-cli-test-generation-update-hooks-budget.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang, Wang & Nie published arXiv:2607.02469 (July 2026), TestEvo-Bench: 746 test generation + 509 test update tasks from 152 Java Maven repos, 59,950 candidate records; four agents evaluated (Claude Code + Opus 4.7, Gemini CLI + Gemini 3.1 Pro, SWE-Agent variants); generation 77.5% pass rate, update 74.6%; divergent failure modes (redundancy 17.4–19.9% in generation, execution failures 19.1–23.8% in update); mutation scores 44.6–57.1%; severe budget sensitivity (Claude Code drops from 70.6% to 21.6% at $0.50 vs Gemini CLI retaining 69.8% at $1); temporal degradation on recent tasks; mapped to Codex CLI AGENTS.md co-evolution protocol encoding, PostToolUse mutation validation hooks, rollout_token_budget per-task cost control, named profiles for model routing by task type, codex exec batch pipeline with --output-schema
+   - SEO targets: "TestEvo-Bench codex cli test co-evolution", "test generation vs test update coding agent", "codex cli PostToolUse mutation testing hooks", "agent test update failure execution compilation", "codex cli rollout_token_budget test budget", "test co-evolution benchmark coding agent"
+
+---
 
 ## Software Delegation Contracts — Codex CLI Guardian Evidence Bundles (2026-07-05 Hourly Article Run)
 
