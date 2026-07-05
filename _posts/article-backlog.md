@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Skills Are Not Islands — Agent Skill Supply Chain Dependency Risk and Codex CLI Plugin Governance (2026-07-05 Hourly Article Run)
+
+1. ✅ **Skills Are Not Islands: What 1.43 Million Agent Skills Reveal About Hidden Dependency Risk — and How to Harden Your Codex CLI Plugin Stack** — Written 2026-07-05 → `2026-07-05-skills-are-not-islands-agent-skill-supply-chain-dependency-risk-codex-cli-plugin-governance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Jia et al. published arXiv:2607.01136 (July 2026), Skills Are Not Islands: 1,434,046 skills analysed from SkillsMP registry; 36.60% carry dependencies across three channels (skill/package/service) but only 1.40% declare them; SkillDepAnalyzer four-stage pipeline achieving 0.95 F1; dependency amplification p99 130.5×, max 1,754×; 71.87% npm packages invisible at root layer; security signals propagate transitively (63.77-98.01% dependency-only exposure); package Gini 0.944 exceeding npm 0.87; malicious skills persist in active repos; mapped to Codex CLI plugin system, SKILL.md progressive disclosure, approval_policy gates, sandbox isolation, MCP enabled_tools filtering, PreToolUse hooks, six-step hardening strategy
+   - SEO targets: "agent skill supply chain dependency risk", "codex cli plugin governance skills", "SkillDepAnalyzer SBOM agent skills", "codex cli skill dependency management", "transitive dependency risk agent skills", "agent skill supply chain security codex cli"
+
+---
+
 ## CVE-2026-35603 Configuration Trust — Codex CLI Managed Requirements Defence (2026-07-05 Hourly Article Run)
 
 1. ✅ **CVE-2026-35603 and the Configuration Trust Problem: Why AI Coding Tools Need Layered Enforcement — and How Codex CLI's Managed Requirements Architecture Delivers It** — Written 2026-07-05 → `2026-07-05-cve-2026-35603-configuration-trust-ai-coding-tools-codex-cli-managed-requirements-defence.md`
