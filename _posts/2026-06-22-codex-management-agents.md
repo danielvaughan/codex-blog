@@ -4,7 +4,7 @@ description: "As Codex agents grow more capable, the bottleneck shifts from doin
 parent: "Articles"
 nav_order: 1186
 date: 2026-06-22T12:00:00+00:00
-last_modified_at: 2026-07-05T10:14:00+01:00
+last_modified_at: 2026-07-05T10:21:44+01:00
 tags:
   - management-agents
   - orchestration
@@ -171,7 +171,7 @@ The management agent can run on different infrastructure from the workers. It mi
 
 ---
 
-## When You Don't Need a Management Agent
+## When You Do Not Need a Management Agent
 
 Not every team needs this. If you have one or two Codex sessions running at a time, a human can easily manage them. Management agents become valuable when:
 
@@ -186,7 +186,7 @@ If your agent usage is ad hoc and exploratory, the overhead of a management laye
 
 ## Where This Is Heading
 
-The Agents SDK team has signalled that multi-agent frameworks are coming in the near weeks and months.[^1] Today, building a management agent means writing the coordination logic yourself with function tools and handoffs. In the near future, expect higher-level abstractions — supervisor agents that can monitor hundreds of workers simultaneously, shared communication channels between agents, and built-in patterns for common workflows like code review pipelines and deployment chains.
+The Agents SDK team has signalled that multi-agent frameworks are coming in the coming weeks and months.[^1] Today, building a management agent means writing the coordination logic yourself with function tools and handoffs. In the near future, expect higher-level abstractions — supervisor agents that can monitor hundreds of workers simultaneously, shared communication channels between agents, and built-in patterns for common workflows like code review pipelines and deployment chains.
 
 The direction is clear: the unit of work in software is shifting from the pull request to the agent task. Management agents are how organisations will handle that shift without drowning in coordination overhead.
 
