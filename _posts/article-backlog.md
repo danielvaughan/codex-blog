@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Reasoning Effort Not Tool Access — First-Try Reliability and Codex CLI Reasoning Configuration (2026-07-06 Hourly Article Run)
+
+1. ✅ **Reasoning Effort, Not Tool Access, Buys First-Try Reliability: What 90 Agent Runs Reveal — and How to Configure Codex CLI's Reasoning Levels** — Written 2026-07-06 → `2026-07-06-reasoning-effort-not-tool-access-first-try-reliability-agentic-code-generation-codex-cli-reasoning-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Mehta published arXiv:2607.02436 (July 2026), observational study of 90 independent agent runs building a real-time retrospective board; 14-criterion functional rubric (42 max points); reasoning High→xHigh improved perfect first-run outcomes 28%→89%, reduced corrective prompts ~5×, cost increase only 9–29%; testing tool added 42–68% cost with no functional score improvement; container deployment 44% first-attempt failure rate as dominant defect; frontier models near-maximum vs local model 24–37 points; design prompts improved visual quality (3.0→4.5) without functional change; mapped to Codex CLI model_reasoning_effort (minimal/low/medium/high/xhigh), plan_mode_reasoning_effort for planning-phase investment, model_reasoning_summary for deliberation visibility, graduated profiles for cost-conscious vs high-stakes vs subagent delegation, rollout_token_budget interaction with reasoning cost
+   - SEO targets: "reasoning effort agentic code generation codex cli", "codex cli model_reasoning_effort configuration", "first-try reliability coding agent reasoning xhigh", "codex cli plan mode reasoning effort", "testing tools cost coding agent no improvement", "container deployment failure coding agent reasoning"
+
+---
+
 ## Coding Agents Are Guessing — UnderSpecBench Action-Boundary Violations and Codex CLI Approval Architecture Defence (2026-07-05 Hourly Article Run)
 
 1. ✅ **Coding Agents Are Guessing: What UnderSpecBench Reveals About Action-Boundary Violations — and How Codex CLI's Approval Architecture Defends Against Them** — Written 2026-07-05 → `2026-07-05-coding-agents-are-guessing-underspecbench-action-boundary-violations-codex-cli-approval-policy-blast-radius-defence.md`
