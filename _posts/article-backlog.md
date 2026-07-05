@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## EvoCode-Bench Multi-Turn Gap — Codex CLI Goal Mode and Workspace Persistence Defence (2026-07-05 Hourly Article Run)
+
+1. ✅ **EvoCode-Bench Exposes the Multi-Turn Gap: Why Coding Agents Degrade Over Iterative Rounds — and How Codex CLI's Goal Mode, Workspace Persistence, and Hook Gates Defend Against It** — Written 2026-07-05 → `2026-07-05-evocode-bench-multi-turn-iterative-coding-agents-codex-cli-goal-mode-workspace-persistence-regression-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Shen et al. published arXiv:2605.24110 (May 2026), EvoCode-Bench: 26 stateful coding tasks, 227 evaluated rounds, 13 agents evaluated; highest-SR agent (Opus 4.6, 78.9) ranks third in persistent execution (44.0 MT@4); SR–MT@4 gap 22–40 points; round-level degradation from 46.7 at round 1 to 7.7 at round 10; tier-dependent failure modes (lower agents miss early requirements, top agents fail on regressions); three interaction styles (explorative, contractual, document-driven); four engineering activities (construction, specification evolution, review-driven, migration); mapped to Codex CLI goal mode verification loops, PostToolUse cumulative test hooks, Stop gate enforcement, AGENTS.md specification persistence, workspace-write sandbox isolation, four-layer multi-turn resilience configuration stack
+   - SEO targets: "EvoCode-Bench multi-turn coding agent benchmark", "codex cli goal mode regression defence", "multi-turn coding agent degradation", "codex cli PostToolUse cumulative test hooks", "workspace persistence coding agent benchmark", "SR MT@4 gap coding agents"
+
+---
+
 ## Skills Are Not Islands — Agent Skill Supply Chain Dependency Risk and Codex CLI Plugin Governance (2026-07-05 Hourly Article Run)
 
 1. ✅ **Skills Are Not Islands: What 1.43 Million Agent Skills Reveal About Hidden Dependency Risk — and How to Harden Your Codex CLI Plugin Stack** — Written 2026-07-05 → `2026-07-05-skills-are-not-islands-agent-skill-supply-chain-dependency-risk-codex-cli-plugin-governance.md`
