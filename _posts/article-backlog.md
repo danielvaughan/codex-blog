@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## AI Writes Faster Than Humans Can Review — Enterprise 2× Mandate and Codex CLI Guardian Auto-Review Bottleneck Defence (2026-07-05 Hourly Article Run)
+
+1. ✅ **AI Writes Faster Than Humans Can Review: What an Enterprise 2× Mandate Reveals About the Review Bottleneck — and How Codex CLI's Guardian Architecture Absorbs the Load** — Written 2026-07-05 → `2026-07-05-ai-writes-faster-than-humans-review-enterprise-2x-mandate-codex-cli-guardian-auto-review-bottleneck-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — He, Agarwal, Denisov-Blanch, Azaletskiy, Koyejo & Vasilescu published arXiv:2607.01904 (July 2026), longitudinal study of 802 developers and 196,212 PRs at a mid-sized B2B company under a documented "2×" mandate (Jun 2025–Apr 2026); per-capita throughput reached 2.09× baseline; within-developer gain 1.46× (conservative) to 1.99× at nine months; accumulating-use channel dominates adoption jump; AI-authored PR share ~90%; per-reviewer load roughly doubled; automated review overtook human review; merge/revert rates flat; review latency is the per-PR AI penalty; corroborated by Khazanchi et al. arXiv:2605.02273 (most AI PRs receive no human review); mapped to Codex CLI Guardian auto-review subagent (200× fewer human approvals), PostToolUse lint/test quality gates, rollout_token_budget diff-size control, AGENTS.md review contracts, named profiles for review-safe workflows
+   - SEO targets: "AI writes faster than humans review codex cli", "enterprise 2x mandate coding agent review bottleneck", "codex cli guardian auto-review throughput", "review bottleneck AI coding tools", "codex cli PostToolUse review quality gates", "automated code review scaling coding agent"
+
+---
+
 ## TestEvo-Bench Test Co-Evolution — Codex CLI Hook Pipeline and Budget-Aware Test Workflows (2026-07-05 Hourly Article Run)
 
 1. ✅ **TestEvo-Bench and the Test Co-Evolution Problem: Why Agents That Generate Tests Cannot Update Them — and How Codex CLI's Hook Pipeline Closes the Gap** — Written 2026-07-05 → `2026-07-05-testevo-bench-test-code-co-evolution-benchmark-codex-cli-test-generation-update-hooks-budget.md`
