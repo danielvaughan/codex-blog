@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Self-GC Object Lifecycle Context Governance — Codex CLI Compaction Configuration (2026-07-05 Hourly Article Run)
+
+1. ✅ **Self-GC and the Object Lifecycle Model: Why Chronological Pruning Destroys Future Dependencies — and How to Configure Codex CLI's Compaction for Structured Context Governance** — Written 2026-07-05 → `2026-07-05-self-gc-self-governing-context-long-horizon-codex-cli-object-lifecycle-compaction-fold-mask-prune.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hao et al. published arXiv:2607.00692 (July 2026), Self-GC: self-governing context framework treating context as indexed recoverable objects with fold/mask/prune operations; 33-session Hard Set evaluation: 84.85% no-impact rate vs 66-70% baselines; 332-session production suite: 91-95% no-impact; 10-15% daytime token reduction in live deployment; six failure-mode categories for dependency destruction; side-channel planner with object-action contract; commit benefit formula accounting for cache disruption; mapped to Codex CLI model_auto_compact_token_limit tuning, tool_output_token_limit ingestion gating, structured compact_prompt dependency preservation, AGENTS.md as persistent sidecar, prefix cache stability via manual /compact timing, profile-based context strategies
+   - SEO targets: "self-gc context governance codex cli", "codex cli compaction configuration long session", "object lifecycle context management coding agent", "codex cli compact_prompt dependency preservation", "chronological pruning destroys dependencies agent", "codex cli prompt cache compaction strategy"
+
+---
+
 ## Cheap Code Costly Judgment — Governance Conversion and Codex CLI Hook Architecture (2026-07-05 Hourly Article Run)
 
 1. ✅ **Cheap Code, Costly Judgment: What a 420 KLOC Case Study Reveals About Governance Conversion — and How Codex CLI's Hook Architecture Operationalises It** — Written 2026-07-05 → `2026-07-05-cheap-code-costly-judgment-governance-conversion-agentic-software-engineering-codex-cli-hooks-approval-policy.md`
