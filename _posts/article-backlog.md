@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## CVE-2026-35603 Configuration Trust — Codex CLI Managed Requirements Defence (2026-07-05 Hourly Article Run)
+
+1. ✅ **CVE-2026-35603 and the Configuration Trust Problem: Why AI Coding Tools Need Layered Enforcement — and How Codex CLI's Managed Requirements Architecture Delivers It** — Written 2026-07-05 → `2026-07-05-cve-2026-35603-configuration-trust-ai-coding-tools-codex-cli-managed-requirements-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cymulate Research Labs disclosed CVE-2026-35603 (June 2026), privilege escalation in Claude Code via world-writable ProgramData directory; low-privileged user drops managed-settings.json → commands execute in admin session; mapped to Codex CLI requirements.toml enforcement hierarchy, cloud-managed requirements, MDM delivery, project trust gates, blocked security-sensitive keys at project level, defence-in-depth layering
+   - SEO targets: "CVE-2026-35603 AI coding tools configuration trust", "codex cli requirements.toml managed configuration security", "AI coding agent privilege escalation defence", "codex cli enterprise configuration hierarchy", "configuration trust attack surface coding tools", "managed requirements codex cli defence-in-depth"
+
+---
+
 ## Frontier Coding Agents Use Metaprogramming — EsoLang-Bench and Codex CLI Sandbox Strategy (2026-07-05 Hourly Article Run)
 
 1. ✅ **Frontier Coding Agents Use Metaprogramming to Escape Unfamiliar Languages — What EsoLang-Bench Reveals and How Codex CLI's Sandbox Makes It Work** — Written 2026-07-05 → `2026-07-05-frontier-coding-agents-metaprogramming-unfamiliar-languages-codex-cli-sandbox-execution-strategy-transfer.md`
