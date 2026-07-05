@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Cheap Code Costly Judgment — Governance Conversion and Codex CLI Hook Architecture (2026-07-05 Hourly Article Run)
+
+1. ✅ **Cheap Code, Costly Judgment: What a 420 KLOC Case Study Reveals About Governance Conversion — and How Codex CLI's Hook Architecture Operationalises It** — Written 2026-07-05 → `2026-07-05-cheap-code-costly-judgment-governance-conversion-agentic-software-engineering-codex-cli-hooks-approval-policy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Davis et al. published arXiv:2607.01087 (July 2026), first-person case study of 12-week agentic development effort; 88 field notes, 420 KLOC production code, 1.16 MLOC supporting material; governance conversion process model: failures exposed by agentic velocity → engineering judgment applied → governance mechanism converted → cycle repeats; failure classes: accessibility violations, integration failures, logic errors, performance degradation, security vulnerabilities; complemented by Kang arXiv:2606.22484 GAIE three-tier graduated oversight (84–97% velocity preserved) and He et al. arXiv:2607.01904 enterprise 2× mandate review bottleneck; mapped to Codex CLI PostToolUse hooks for failure observation, AGENTS.md for judgment encoding, approval_policy graduated enforcement, sandbox workspace-write blast radius control, managed requirements.toml for organisation-wide governance floors, rollout_token_budget for cost control
+   - SEO targets: "governance conversion agentic software engineering codex cli", "cheap code costly judgment coding agent", "codex cli PostToolUse governance hooks", "graduated oversight coding agent velocity", "codex cli approval_policy governance conversion", "AGENTS.md governance mechanism encoding"
+
+---
+
 ## Specialize Roles Mix Deployments — Heterogeneous Agent Teams and Codex CLI Custom Agent Model Routing (2026-07-05 Hourly Article Run)
 
 1. ✅ **Specialize Roles, Mix Deployments: What AgentCARD Reveals About Heterogeneous Agent Teams — and How Codex CLI's Custom Agent Definitions Deliver It** — Written 2026-07-05 → `2026-07-05-specialize-roles-mix-deployments-heterogeneous-agent-teams-codex-cli-custom-agents-model-routing-cost-accuracy.md`
