@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+
+## Software Delegation Contracts — Codex CLI Guardian Evidence Bundles (2026-07-05 Hourly Article Run)
+
+1. ✅ **Software Delegation Contracts: What Reviewability Research Reveals About Trusting Coding Agent Output — and How Codex CLI's Guardian Architecture Delivers It** — Written 2026-07-05 → `2026-07-05-software-delegation-contracts-reviewability-coding-agent-work-codex-cli-guardian-evidence-bundles.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Müller, Hess & Koziolek published arXiv:2606.17099 (June 2026), Software Delegation Contracts: controlled pilot study of 64 agent executions across two model tiers under three conditions (issue prompt, explicit contract, contract + evidence bundle); 192 condition-blinded reviews; evidence sufficiency +0.83 on 5-point scale (p < 0.0001, Cliff's δ = 0.66); reviewer ambiguity decreased (p = 0.035); contracts cost +13% tokens +38% wall-clock; all runs passed acceptance with zero scope violations; changed-file lists, known-limitations, residual-risk sections appeared only with contracts; mapped to Codex CLI Guardian auto-review subagent, permission profiles as authority boundaries, /goal + AGENTS.md as task encoding, --output-schema + PostToolUse hooks as evidence bundle generation, rollout_token_budget for diff size control, Stop hooks for evidence completeness gates
+   - SEO targets: "software delegation contracts coding agent", "codex cli guardian reviewability evidence bundle", "coding agent work package reviewability", "codex cli delegation contract configuration", "AI coding agent review trust verification", "evidence bundle coding agent output"
+
+---
+
 ## EvoCode-Bench Multi-Turn Gap — Codex CLI Goal Mode and Workspace Persistence Defence (2026-07-05 Hourly Article Run)
 
 1. ✅ **EvoCode-Bench Exposes the Multi-Turn Gap: Why Coding Agents Degrade Over Iterative Rounds — and How Codex CLI's Goal Mode, Workspace Persistence, and Hook Gates Defend Against It** — Written 2026-07-05 → `2026-07-05-evocode-bench-multi-turn-iterative-coding-agents-codex-cli-goal-mode-workspace-persistence-regression-defence.md`
