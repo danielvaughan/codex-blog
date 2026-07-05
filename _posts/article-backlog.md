@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Locate-and-Judge Attention-Based Malicious Skill Detection — Codex CLI Plugin Vetting and Marketplace Security (2026-07-05 Hourly Article Run)
+
+1. ✅ **Locate-and-Judge: How Attention-Based Detection Finds Malicious Agent Skills at Marketplace Scale — and How to Harden Your Codex CLI Plugin Stack** — Written 2026-07-05 → `2026-07-05-locate-and-judge-attention-based-malicious-skill-detection-codex-cli-plugin-vetting-marketplace-security.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Etteib, Lunghi & Bissyandé published arXiv:2606.23416 (June 2026), Locate-and-Judge: two-stage malicious skill detector using instruction-following attention patterns; 134,934 skills scanned across Lobehub (102,194), ClawHub (30,228), Skills.sh (2,512); 131 confirmed malicious skills; 95.4% recall, 89.9% precision vs SkillSpector 20% recall, Cisco Scanner 15.4% recall; $34 total cost ($0.00025/skill); six attack categories: credential theft 43%, malicious installer 41%, conversation surveillance 5%, sandbox bypass 5%, C2/tunnel 4%, prompt injection 2%; five coordinated campaigns identified; complemented by MalSkillBench arXiv:2606.07131 (3,944 malicious skills, 108-cell taxonomy, 98.4% recall collapses on instruction-level attacks); mapped to Codex CLI approval_policy gating, PreToolUse behavioural hooks, workspace-write sandbox isolation, network proxy domain filtering, plugin disable toggle, enterprise requirements.toml managed hooks
+   - SEO targets: "malicious agent skill detection codex cli", "locate-and-judge attention skill scanner", "codex cli plugin marketplace security vetting", "PreToolUse hook malicious skill defence", "agent skill supply chain attention detection", "codex cli managed hooks enterprise plugin governance"
+
+---
+
 ## Self-GC Object Lifecycle Context Governance — Codex CLI Compaction Configuration (2026-07-05 Hourly Article Run)
 
 1. ✅ **Self-GC and the Object Lifecycle Model: Why Chronological Pruning Destroys Future Dependencies — and How to Configure Codex CLI's Compaction for Structured Context Governance** — Written 2026-07-05 → `2026-07-05-self-gc-self-governing-context-long-horizon-codex-cli-object-lifecycle-compaction-fold-mask-prune.md`
