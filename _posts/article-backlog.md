@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Correct Code, Vulnerable Dependencies — LLM Version Pinning and Codex CLI Supply-Chain Defence (2026-07-07 Hourly Article Run)
+
+1. ✅ **Correct Code, Vulnerable Dependencies: Why Your LLM Pins Dangerous Library Versions — and How Codex CLI's Hook and Governance Stack Stops Them Shipping** — Written 2026-07-07 → `2026-07-07-correct-code-vulnerable-dependencies-llm-version-pinning-codex-cli-pretooluse-hook-supply-chain-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. published arXiv:2605.06279 (May 2026), PinTrace benchmark: 1,000 Python tasks from Stack Overflow, 10 LLMs evaluated; 36.70–55.70% of tasks contain ≥1 known CVE; 62.75–74.51% Critical/High severity; 72.27–91.37% CVEs disclosed before model knowledge cutoff; version specification rates 26.83–95.18% direct prompting vs 6.45–59.19% manifest files; training-data distribution bias as root cause; mapped to Codex CLI PreToolUse deterministic hooks for pip-audit/npm-audit gating, sandbox workspace-write OS-enforced confinement, network_proxy domain allowlisting, requirements.toml managed hooks for fleet-wide enforcement, AGENTS.md probabilistic constraints, PostToolUse lockfile diff auditing
+   - SEO targets: "correct code vulnerable dependencies codex cli", "LLM version pinning CVE supply chain", "codex cli PreToolUse hook dependency audit", "pip-audit PreToolUse codex cli", "LLM library version vulnerability", "codex cli requirements.toml dependency governance"
+
+---
+
 ## Infinite Agentic Loops — IAL-Scan Unbounded Feedback Paths and Codex CLI Rollout Budget Loop Defence (2026-07-06 Hourly Article Run)
 
 1. ✅ **Infinite Agentic Loops: What IAL-Scan's 68-Failure Audit Reveals About Unbounded Feedback Paths — and How Codex CLI's Budget and Compaction Stack Stops Them** — Written 2026-07-06 → `2026-07-06-infinite-agentic-loops-ial-scan-unbounded-feedback-codex-cli-rollout-budget-loop-defence.md`
