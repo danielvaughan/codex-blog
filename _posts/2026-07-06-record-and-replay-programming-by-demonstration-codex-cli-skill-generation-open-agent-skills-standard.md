@@ -224,7 +224,7 @@ The forty-year journey from Cypher's *Watch What I Do* to Codex's Record & Repla
 
 [^1]: Cypher, A. et al. (1993). *Watch What I Do: Programming by Demonstration*. MIT Press. [Amazon](https://www.amazon.com/Watch-What-Do-Programming-Demonstration/dp/0262032139)
 
-[^2]: Lieberman, H. (2001). *Your Wish Is My Command: Programming By Example*. Morgan Kaufmann. [Semantic Scholar](https://www.semanticscholar.org/paper/Watch-what-I-do:-programming-by-demonstration-Cypher-Halbert/6d32d1f65434d4cc94bd2cee0f5a889fa29d8edd)
+[^2]: Lieberman, H. (2001). *Your Wish Is My Command: Programming By Example*. Morgan Kaufmann. [Semantic Scholar](https://www.semanticscholar.org/paper/Your-Wish-is-My-Command%3A-Programming-By-Example-Lieberman/a255db1dede34e20a2872c435adf33cd810505b2)
 
 [^3]: OpenAI (2026). "Record & Replay — Codex". OpenAI Developers. [developers.openai.com/codex/record-and-replay](https://developers.openai.com/codex/record-and-replay)
 

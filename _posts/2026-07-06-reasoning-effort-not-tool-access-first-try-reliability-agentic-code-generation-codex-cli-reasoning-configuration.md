@@ -183,7 +183,7 @@ These instructions improve aesthetic output without replacing the reasoning inve
 
 The study's finding that frontier models scored near-maximum while a low-cost local model achieved only 24–37 points confirms what Codex CLI's model tiering already implies [^1] [^3]: model capability sets the ceiling, reasoning effort determines how often you reach it.
 
-With Codex CLI's current model lineup — GPT-5.5 as the flagship, GPT-5.4-mini for fast iteration, and GPT-5.3-codex-spark for real-time pairing [^3] — the optimal strategy is not to always use the largest model, but to match model capability to task complexity and then maximise reasoning effort for the planning phase.
+With Codex CLI's current model lineup — GPT-5.5 as the flagship, GPT-5.4-mini for fast iteration, and GPT-5.3-codex-spark for real-time pairing[^3] — the optimal strategy is not to always use the largest model, but to match model capability to task complexity and then maximise reasoning effort for the planning phase.
 
 The data supports a clear hierarchy of investment:
 
