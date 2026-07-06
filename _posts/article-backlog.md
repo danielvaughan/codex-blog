@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Infinite Agentic Loops — IAL-Scan Unbounded Feedback Paths and Codex CLI Rollout Budget Loop Defence (2026-07-06 Hourly Article Run)
+
+1. ✅ **Infinite Agentic Loops: What IAL-Scan's 68-Failure Audit Reveals About Unbounded Feedback Paths — and How Codex CLI's Budget and Compaction Stack Stops Them** — Written 2026-07-06 → `2026-07-06-infinite-agentic-loops-ial-scan-unbounded-feedback-codex-cli-rollout-budget-loop-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hou et al. published arXiv:2607.01641 (July 2026), IAL-Scan static analysis tool: 6,549 LLM agent repositories scanned, 68 confirmed infinite agentic loop failures across 47 projects, 91.9% precision; six-category taxonomy (retry feedback 25.0%, tool-call iteration 23.5%, multi-agent chat 20.6%, workflow loop 13.2%, message reentry 10.3%, runner/delegation/evaluator 7.4%); 95.6% cause API cost exhaustion and model denial of service; LangGraph (33.8%) and AutoGen (32.4%) most affected; ALDG (Agentic Loop Dependence Graph) framework-independent IR; mapped to Codex CLI features.rollout_budget token ceiling, model_auto_compact_token_limit compaction, agents.max_depth/max_threads delegation bounds, tool_output_token_limit state-growth cap, PreToolUse hook deterministic guards, named profiles for risk-tiered loop defence
+   - SEO targets: "infinite agentic loops codex cli", "IAL-Scan unbounded feedback path detection", "codex cli rollout budget loop defence", "LLM agent infinite loop taxonomy", "agentic loop dependence graph static analysis", "codex cli loop protection configuration profiles"
+
+---
+
 ## Context Coupling Problem — Viewer-Editor Separation and Codex CLI Subagent Architecture (2026-07-06 Hourly Article Run)
 
 1. ✅ **The Context Coupling Problem: Why Your Coding Agent's Editing Interface Is Its Biggest Bottleneck — and How Codex CLI's Subagent Architecture Solves It** — Written 2026-07-06 → `2026-07-06-context-coupling-problem-code-editing-agents-codex-cli-subagent-viewer-editor-separation.md`
