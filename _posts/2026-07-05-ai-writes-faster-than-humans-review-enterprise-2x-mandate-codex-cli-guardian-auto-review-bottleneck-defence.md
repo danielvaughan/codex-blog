@@ -79,7 +79,7 @@ The company's observed response was primarily Path 2: automated review absorbed 
 The He et al. findings align with concurrent research:
 
 - **Khazanchi et al. (arXiv:2605.02273)** found that most AI-generated PRs on GitHub receive no human review at all, and when reviewed, interactions are "automation-mediated" rather than direct human feedback [^2]
-- **The Faros AI 22,000-developer study** reported 98% more PRs but 91% longer review times and 54% more bugs in organisations aggressively adopting AI coding tools [^3]
+- **The Faros AI 22,000-developer study** reported 98% more PRs but 91% longer review times, 154% larger average PR size, and 9% more bugs per developer in organisations aggressively adopting AI coding tools [^3]
 - **Storey (2026)** introduced the concept of "cognitive and intent debt" — when code outpaces a team's capacity to absorb its meaning, technical debt compounds invisibly [^4]
 
 The pattern is consistent: AI-driven throughput gains are achievable but they relocate rather than remove work, concentrating it in the review and maintenance phases.
