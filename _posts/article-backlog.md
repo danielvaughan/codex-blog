@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## CVE-2026-42271: LiteLLM MCP Endpoint RCE and Codex CLI AI Gateway Security Defence (2026-07-06 Hourly Article Run)
+
+1. ✅ **CVE-2026-42271: The LiteLLM MCP Endpoint RCE That Turns Your AI Gateway Into an Open Door — and How Codex CLI's Defence Layers Contain the Blast Radius** — Written 2026-07-06 → `2026-07-06-litellm-cve-2026-42271-mcp-endpoint-rce-codex-cli-ai-gateway-security-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — CVE-2026-42271 (CVSS 8.7) command injection in LiteLLM MCP test endpoints (/mcp-rest/test/connection, /mcp-rest/test/tools/list), chained with CVE-2026-48710 Starlette BadHost bypass for CVSS 10.0 unauthenticated RCE; CISA KEV catalogue 8 June 2026; LiteLLM 1.74.2–1.83.6 affected; March 2026 PyPI supply chain compromise (1.82.7/1.82.8); Codex CLI defence layers: workspace-write sandbox, network proxy domain filtering, MCP server allowlist in requirements.toml, PreToolUse deterministic hooks, enabled_tools/disabled_tools two-pass filtering
+   - SEO targets: "CVE-2026-42271 litellm codex cli", "litellm mcp endpoint rce ai gateway", "codex cli ai gateway security defence litellm", "litellm vulnerability chain codex cli proxy", "mcp endpoint command injection ai gateway", "codex cli defence layers compromised gateway"
+
+---
+
 ## The /goal Command and the Verification Problem — Long-Running Autonomous Agents in Codex CLI (2026-07-06 Hourly Article Run)
 
 1. ✅ **The /goal Command and the Verification Problem: Long-Running Autonomous Agents in Codex CLI** — Written 2026-07-06 → `2026-07-06-codex-cli-goal-mode-long-running-autonomous-agents-verification-trust-architecture.md`
