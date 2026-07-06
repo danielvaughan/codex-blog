@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Prompt-Layer Complexity — Hecate Metrics and Codex CLI Configuration Stack Measurement (2026-07-06 Hourly Article Run)
+
+1. ✅ **Prompt-Layer Complexity: What Hecate's 52 Metrics Reveal About the Maintenance Burden Traditional Tools Miss — and How to Measure Your Codex CLI Configuration Stack** — Written 2026-07-06 → `2026-07-06-prompt-layer-complexity-hecate-metrics-codex-cli-agents-md-hooks-maintenance-measurement.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Xu et al. published arXiv:2607.01903 (July 2026), Hecate tool: 52 candidate metrics from 25 complexity dimensions, 118 components from 18 open-source repositories, Prompt-as-Specification Hoare-logic formalism; 10/52 metrics survived size-controlled significance testing; 7 novel metrics (n_mem_refs, n_llm_calls, n_attrs, inject_surf, P_dec_ratio, n_prompts, P_ev); McCabe CC drops from ρ=+0.39 to ρ=+0.06 after size control; mapped to Codex CLI AGENTS.md hierarchy, hooks engine, MCP server injection, config.toml profiles, managed requirements.toml governance, in-TUI hook browser
+   - SEO targets: "prompt layer complexity codex cli", "hecate complexity metrics LLM applications", "AGENTS.md complexity measurement codex", "prompt-as-specification coding agent", "codex cli configuration maintenance metrics", "hook complexity measurement coding agent"
+
+---
+
 ## Performance-Optimisation Benchmarks Are Unreliable — Measurement Noise, Scoring Artefacts, and Codex CLI Validation Workflows (2026-07-06 Hourly Article Run)
 
 1. ✅ **Performance-Optimisation Benchmarks Are Unreliable: What a 740-Task Audit Reveals About Measurement Noise — and How to Build Trustworthy Profiling Workflows in Codex CLI** — Written 2026-07-06 → `2026-07-06-performance-optimisation-benchmarks-unreliable-measurement-noise-codex-cli-validation-hooks-profiling-workflows.md`
