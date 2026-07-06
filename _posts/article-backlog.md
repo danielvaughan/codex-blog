@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Clarification Seeking Amplifies Prompt Injection — ASPI and Codex CLI Approval Policy Defence (2026-07-06 Hourly Article Run)
+
+1. ✅ **Clarification Seeking Amplifies Prompt Injection: What ASPI Reveals About the Ask-Before-Acting Paradox — and How Codex CLI's Approval Architecture Defends Against It** — Written 2026-07-06 → `2026-07-06-clarification-seeking-amplifies-prompt-injection-aspi-codex-cli-approval-policy-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sehwag et al. published arXiv:2605.17324 (May 2026), ASPI benchmark: 728 task-attack scenarios across ten frontier models; clarification-seeking state amplifies attack success from 1.8% to 34.0% (o3) and 2.2% to 35.7% (Gemini-3-Flash); ask_user channel identified as primary vulnerability driver; Claude Opus 4.7 robust across both states; lightweight defences (prompt guard, tool filter) reduce but do not eliminate attack surface; mapped to Codex CLI sandbox workspace-write OS-enforced isolation, approval_policy graduated enforcement, PreToolUse deterministic hooks, network_proxy domain filtering, auto_review subagent context separation
+   - SEO targets: "ASPI clarification prompt injection codex cli", "ask-before-acting prompt injection vulnerability", "codex cli approval policy clarification defence", "clarification seeking amplifies prompt injection agent", "PreToolUse hook deterministic injection defence codex", "auto review subagent context separation codex cli"
+
+---
+
 ## CVE-2026-42271: LiteLLM MCP Endpoint RCE and Codex CLI AI Gateway Security Defence (2026-07-06 Hourly Article Run)
 
 1. ✅ **CVE-2026-42271: The LiteLLM MCP Endpoint RCE That Turns Your AI Gateway Into an Open Door — and How Codex CLI's Defence Layers Contain the Blast Radius** — Written 2026-07-06 → `2026-07-06-litellm-cve-2026-42271-mcp-endpoint-rce-codex-cli-ai-gateway-security-defence.md`
