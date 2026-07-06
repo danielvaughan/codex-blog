@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Token Budget Overruns — 63 Production Incidents and Codex CLI Rollout Budget Defence (2026-07-06 Hourly Article Run)
+
+1. ✅ **Token Budget Overruns: What 63 Production Incidents Reveal About Runaway Agent Costs — and How Codex CLI's Rollout Budget Stops the Bleed** — Written 2026-07-06 → `2026-07-06-token-budget-overruns-63-production-incidents-codex-cli-rollout-budget-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Khan published arXiv:2606.04056 (June 2026), empirical catalogue of 63 confirmed budget-overrun incidents across 21 orchestration frameworks (2023–2026), eight-cluster failure taxonomy (retry amplification, delegation leaks, shadow consumption, cache invalidation storms, orphan continuation, concurrent aliasing, checkpoint amnesia, metric lag); 30/30 Python asyncio overshoot; 1,180-line Rust affine-type mitigation; complemented by Lin et al. arXiv:2606.00198 BAGEN showing r=0.35 performance-budget-awareness correlation and 28–64% early-stopping savings; Ye & Tan arXiv:2601.08815 Agent Contracts 90% token reduction with zero conservation violations; mapped to Codex CLI features.rollout_budget (v0.142.0), limit_tokens hard ceiling, sampling_token_weight/prefill_token_weight cost-proportional accounting, reminder_interval_tokens context injection, model_auto_compact_token_limit compaction gating, single-threaded codex-rs budget accounting, session-scoped subagent aggregation, named profiles for risk-tiered budgets, enterprise requirements.toml managed enforcement
+   - SEO targets: "token budget overrun codex cli", "LLM agent runaway cost production incident", "codex cli rollout token budget configuration", "agent budget overrun 63 incidents catalogue", "codex cli cost control profiles rollout budget", "affine type token budget agent defence"
+
+---
+
 ## Clarification Seeking Amplifies Prompt Injection — ASPI and Codex CLI Approval Policy Defence (2026-07-06 Hourly Article Run)
 
 1. ✅ **Clarification Seeking Amplifies Prompt Injection: What ASPI Reveals About the Ask-Before-Acting Paradox — and How Codex CLI's Approval Architecture Defends Against It** — Written 2026-07-06 → `2026-07-06-clarification-seeking-amplifies-prompt-injection-aspi-codex-cli-approval-policy-defence.md`
