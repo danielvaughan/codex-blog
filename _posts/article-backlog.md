@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Record and Replay: Programming by Demonstration Comes to Codex — and What It Means for the Open Agent Skills Standard (2026-07-06 Hourly Article Run)
+
+1. ✅ **Record and Replay: Programming by Demonstration Comes to Codex — and What It Means for the Open Agent Skills Standard** — Written 2026-07-06 → `2026-07-06-record-and-replay-programming-by-demonstration-codex-cli-skill-generation-open-agent-skills-standard.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — Record & Replay shipped in Codex app 26.616 (18 June 2026); programming by demonstration paradigm applied via reasoning model to generate SKILL.md files from macOS workflow demonstrations; output conforms to Open Agent Skills Standard (agentskills.io) with cross-platform portability across 30+ agent products; progressive disclosure context budgeting; AGENTS.md vs SKILL.md complementary roles; enterprise governance via requirements.toml computer_use toggle
+   - SEO targets: "codex record and replay skill generation", "programming by demonstration AI agent", "SKILL.md open agent skills standard", "codex cli skill creation workflow", "record replay codex macOS demonstration", "open agent skills standard cross-platform"
+
+---
+
 ## Sleeper Attacks on LLM Agents — Persistent State Poisoning and Codex CLI Defence Architecture (2026-07-06 Hourly Article Run)
 
 1. ✅ **Sleeper Attacks on LLM Agents: What Plant-Persist-Trigger Reveals About Persistent State Poisoning — and How Codex CLI's Sandbox, Hook, and Memory Isolation Architecture Defends Against It** — Written 2026-07-06 → `2026-07-06-sleeper-attacks-llm-agents-persistent-state-poisoning-codex-cli-sandbox-hook-memory-isolation-defence.md`
