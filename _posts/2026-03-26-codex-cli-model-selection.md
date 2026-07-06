@@ -2,7 +2,7 @@
 title: "Model Selection in Codex CLI: Current Models and When to Use Each"
 description: "Codex CLI exposes model selection as a first-class concern. You can specify a model on the command line for a single invocation."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-07-06T06:10:14+01:00
+last_modified_at: 2026-07-06T08:27:48+01:00
 tags:
   - model-selection
   - gpt-5-codex

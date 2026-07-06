@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The /goal Command and the Verification Problem — Long-Running Autonomous Agents in Codex CLI (2026-07-06 Hourly Article Run)
+
+1. ✅ **The /goal Command and the Verification Problem: Long-Running Autonomous Agents in Codex CLI** — Written 2026-07-06 → `2026-07-06-codex-cli-goal-mode-long-running-autonomous-agents-verification-trust-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — /goal command shipped in 0.128.0 (30 April 2026), GA in 0.133.0 (21 May 2026); persistent autonomous agent loop with plan-act-test-review-iterate cycle; three-file trust architecture (GOAL.md, VERIFY.md, PROGRESS.md); rollout token budgets in 0.142.0; separate verifier subagent pattern; Codex Remote mobile supervision; meta-prompting for goal construction
+   - SEO targets: "codex cli goal mode autonomous agent", "codex /goal command verification trust", "long-running autonomous coding agent verification", "codex cli rollout token budget goal mode", "three-file trust architecture codex goal", "codex cli verifier subagent pattern"
+
+---
+
 ## Record and Replay: Programming by Demonstration Comes to Codex — and What It Means for the Open Agent Skills Standard (2026-07-06 Hourly Article Run)
 
 1. ✅ **Record and Replay: Programming by Demonstration Comes to Codex — and What It Means for the Open Agent Skills Standard** — Written 2026-07-06 → `2026-07-06-record-and-replay-programming-by-demonstration-codex-cli-skill-generation-open-agent-skills-standard.md`
