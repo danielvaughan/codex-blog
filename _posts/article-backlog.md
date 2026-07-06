@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Performance-Optimisation Benchmarks Are Unreliable — Measurement Noise, Scoring Artefacts, and Codex CLI Validation Workflows (2026-07-06 Hourly Article Run)
+
+1. ✅ **Performance-Optimisation Benchmarks Are Unreliable: What a 740-Task Audit Reveals About Measurement Noise — and How to Build Trustworthy Profiling Workflows in Codex CLI** — Written 2026-07-06 → `2026-07-06-performance-optimisation-benchmarks-unreliable-measurement-noise-codex-cli-validation-hooks-profiling-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. published arXiv:2607.01211 (July 2026), audit of 740 code-optimisation tasks across GSO (102), SWE-Perf (140), SWE-fficiency (498); replayed reference patches on four GCP machine types (Cascade Lake, Milan, Emerald Rapids, Turin); only 39/102 GSO, 11/140 SWE-Perf, 411/498 SWE-fficiency valid across all machines; SWE-Perf median runtime change −0.03% with 43.23× noise-to-signal ratio; scoring-rule disagreement on 9/28 pairwise comparisons (Spearman 0.452); harmonic-mean floor=0.001 concentrates 58.5–82.8% score weight in worst 10 tasks; 384/450 replay-valid tasks already matched by public submissions; complemented by FormulaCode arXiv:2603.16011 (957 bottlenecks, 264.6 workloads/task); mapped to Codex CLI PostToolUse validation hooks, AGENTS.md measurement protocol constraints, codex exec structured profiling pipelines, named performance-engineering profiles, statistical gating scripts
+   - SEO targets: "performance optimisation benchmark unreliable codex cli", "coding agent benchmark measurement noise", "GSO SWE-Perf SWE-fficiency benchmark reliability", "codex cli PostToolUse performance validation hook", "codex cli profiling workflow benchmark", "runtime variability coding agent benchmark audit"
+
+---
+
 ## Token Budget Overruns — 63 Production Incidents and Codex CLI Rollout Budget Defence (2026-07-06 Hourly Article Run)
 
 1. ✅ **Token Budget Overruns: What 63 Production Incidents Reveal About Runaway Agent Costs — and How Codex CLI's Rollout Budget Stops the Bleed** — Written 2026-07-06 → `2026-07-06-token-budget-overruns-63-production-incidents-codex-cli-rollout-budget-defence.md`
