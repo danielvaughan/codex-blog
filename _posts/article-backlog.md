@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Sleeper Attacks on LLM Agents — Persistent State Poisoning and Codex CLI Defence Architecture (2026-07-06 Hourly Article Run)
+
+1. ✅ **Sleeper Attacks on LLM Agents: What Plant-Persist-Trigger Reveals About Persistent State Poisoning — and How Codex CLI's Sandbox, Hook, and Memory Isolation Architecture Defends Against It** — Written 2026-07-06 → `2026-07-06-sleeper-attacks-llm-agents-persistent-state-poisoning-codex-cli-sandbox-hook-memory-isolation-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. published arXiv:2605.28201 (May 2026), "Plant, Persist, Trigger": 1,896 benchmark instances across seven LLMs, three attack strategies (LIP/PIE/PIC), three agent state targets (session/memory/skill); LIP ASR jumps from 11.1% direct to 39.9% persistent; PIC averages 47.8% ASR with Gemini-3.1-Pro reaching 100% on skill attacks; rule-based and guard-filter defences shown insufficient; complemented by arXiv:2605.15338 "Hidden in Memory" showing 99.8% memory poisoning success on GPT-5.5 with 60-89% downstream influence; mapped to Codex CLI sandbox workspace-write OS-enforced confinement, PreToolUse deterministic hooks, memories.disable_on_external_context, enabled_tools MCP filtering, Guardian auto_review risk evaluation, graduated defence profiles
+   - SEO targets: "sleeper attack LLM agent codex cli", "persistent state poisoning coding agent defence", "codex cli PreToolUse hook sleeper attack", "memory poisoning agent defence codex cli", "plant persist trigger coding agent", "codex cli sandbox memory isolation security"
+
+---
+
 ## Structural Codebase Indexing — Knowledge-Graph MCP Server and Codex CLI Navigation (2026-07-06 Hourly Article Run)
 
 1. ✅ **Structural Codebase Indexing: Why grep Is Not Enough — and How to Wire a Knowledge-Graph MCP Server into Codex CLI** — Written 2026-07-06 → `2026-07-06-structural-codebase-indexing-coding-agents-codex-cli-mcp-knowledge-graph-navigation.md`
