@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Structural Codebase Indexing — Knowledge-Graph MCP Server and Codex CLI Navigation (2026-07-06 Hourly Article Run)
+
+1. ✅ **Structural Codebase Indexing: Why grep Is Not Enough — and How to Wire a Knowledge-Graph MCP Server into Codex CLI** — Written 2026-07-06 → `2026-07-06-structural-codebase-indexing-coding-agents-codex-cli-mcp-knowledge-graph-navigation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Bhola et al. published arXiv:2606.22417 (June 2026), "Code Isn't Memory": within-harness ablation on SWE-PolyBench Verified and SWE-bench Pro with Claude Opus 4.7 showing large localisation gain and statistically separated resolve gain from structural codebase index with no cost penalty; Vogel et al. published arXiv:2603.27277 (March 2026), "Codebase-Memory": Tree-Sitter knowledge graph across 158 languages achieving 10× token reduction and 2.1× fewer tool calls at 83% quality; codebase-memory-mcp server shipping 14 tools with sub-ms queries; mapped to Codex CLI MCP config.toml, tool search in v0.142.2, enabled_tools filtering, tool_output_token_limit, AGENTS.md navigation protocol, layered retrieval architecture (grep → AST → LSP → embeddings)
+   - SEO targets: "structural codebase indexing codex cli", "codebase-memory mcp server codex", "codex cli knowledge graph navigation", "tree-sitter coding agent index", "codex cli mcp tool search v0.142", "code localisation coding agent structural index"
+
+---
+
 ## Reasoning Effort Not Tool Access — First-Try Reliability and Codex CLI Reasoning Configuration (2026-07-06 Hourly Article Run)
 
 1. ✅ **Reasoning Effort, Not Tool Access, Buys First-Try Reliability: What 90 Agent Runs Reveal — and How to Configure Codex CLI's Reasoning Levels** — Written 2026-07-06 → `2026-07-06-reasoning-effort-not-tool-access-first-try-reliability-agentic-code-generation-codex-cli-reasoning-configuration.md`
