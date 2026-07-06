@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Context Coupling Problem — Viewer-Editor Separation and Codex CLI Subagent Architecture (2026-07-06 Hourly Article Run)
+
+1. ✅ **The Context Coupling Problem: Why Your Coding Agent's Editing Interface Is Its Biggest Bottleneck — and How Codex CLI's Subagent Architecture Solves It** — Written 2026-07-06 → `2026-07-06-context-coupling-problem-code-editing-agents-codex-cli-subagent-viewer-editor-separation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhang et al. published arXiv:2604.26102 (April 2026), SWE-Edit: context coupling problem identification, viewer-editor subagent decomposition, 60.3% file content reduction, 93.8% recall, +2.1pp resolve rate on SWE-bench Verified, −17.9% cost, 34.5% non-cached input token reduction; GRPO-trained Qwen3-8B adaptive edit format selection; mapped to Codex CLI subagent delegation (agents.max_threads, agents.max_depth), V4A apply_patch context-anchored format, model_auto_compact_token_limit, rollout_budget interaction, explorer subagent pattern
+   - SEO targets: "context coupling problem coding agent codex cli", "SWE-Edit viewer editor subagent separation", "codex cli subagent exploration editing delegation", "V4A apply_patch context anchored editing", "coding agent context pollution token reduction", "codex cli explorer subagent configuration"
+
+---
+
 ## Prompt-Layer Complexity — Hecate Metrics and Codex CLI Configuration Stack Measurement (2026-07-06 Hourly Article Run)
 
 1. ✅ **Prompt-Layer Complexity: What Hecate's 52 Metrics Reveal About the Maintenance Burden Traditional Tools Miss — and How to Measure Your Codex CLI Configuration Stack** — Written 2026-07-06 → `2026-07-06-prompt-layer-complexity-hecate-metrics-codex-cli-agents-md-hooks-maintenance-measurement.md`
