@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Cloak and Detonate — Agent Skill Malware Scanner Evasion and Codex CLI Runtime Defence (2026-07-07 Hourly Article Run)
+
+1. ✅ **Cloak and Detonate: What SkillCloak's 90 Per Cent Scanner Evasion Rate Reveals About Agent Skill Malware — and How Codex CLI's Runtime Defence Layers Close the Gap** — Written 2026-07-07 → `2026-07-07-cloak-and-detonate-agent-skill-malware-scanner-evasion-codex-cli-runtime-defence-skilldetonate.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ji et al. published arXiv:2607.02357 (July 2026), SkillCloak payload-preserving evasion framework with structural obfuscation (homoglyphs, command fragmentation, synonym rotation) and Self-Extracting Skill (SFS) packing; tested 1,613 real-world malicious skills from ClawHub against eight production scanners; SFS packing bypassed >90% (>99% on most); structural obfuscation >80% (96% on hybrid scanner); cloaked skills functioned under Claude Code and Codex CLI with no task-success degradation; proposed SKILLDETONATE runtime auditor: on-demand closure lift + marker-based taint analysis, 97% detection at 2% FPR, 87% on real-world malicious skills; mapped to Codex CLI workspace-write Landlock/Seatbelt sandbox, network_proxy domain allowlisting, destructive tool annotation approval gates, auto_review risk classification, .git/ protected path read-only enforcement, requirements.toml managed MCP server governance
+   - SEO targets: "agent skill malware codex cli", "SkillCloak scanner evasion agent skills", "SKILLDETONATE runtime auditor coding agent", "codex cli skill security sandbox defence", "MCP server malware supply chain agent", "codex cli runtime defence skill malware"
+
+---
+
 ## Verifiable Literate Programming — VLP Human Validation and Codex CLI Hooks/Review Verification (2026-07-07 Hourly Article Run)
 
 1. ✅ **Verifiable Literate Programming: What VLP's Three-Layer Validation Reveals About Human-in-the-Loop Code Review — and How to Wire Equivalent Gates in Codex CLI** — Written 2026-07-07 → `2026-07-07-verifiable-literate-programming-vlp-human-validation-llm-code-codex-cli-hooks-review-verification.md`
