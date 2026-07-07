@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## ClayBuddy Failure Mechanisms — Harness Mitigations and Codex CLI Deterministic Guardrails (2026-07-07 Hourly Article Run)
+
+1. ✅ **ClayBuddy and the Three Failure Mechanisms: What 20 Coding Environments Reveal About Why Agents Break — and How Codex CLI's Harness Already Covers the Fixes** — Written 2026-07-07 → `2026-07-07-claybuddy-coding-agent-failure-mechanisms-harness-mitigations-codex-cli-deterministic-guardrails.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ge & Assis published arXiv:2606.19380 (June 2026), ClayBuddy: three failure mechanisms (underspecification 55–73% violation, capability errors up to 19% directive violations, harness errors 56–70% long-context failures); tested Claude Opus 4.6, GPT-5.4, Gemini 3.1 Pro across 8 evaluations and 20 coding environments; four mitigations (context truncation, two-stage command classifier, deterministic guardrails, immutability daemon); complemented by arXiv:2605.30777 "What Breaks When LLMs Code?" (16,586 GitHub issues, 547 confirmed safety failures, 33-risk-type taxonomy, 59.6% high/critical severity); mapped to Codex CLI model_auto_compact_token_limit, PreToolUse hooks with permissionDecision/updatedInput, workspace-write Landlock/Seatbelt sandbox, named profiles for hardened configuration
+   - SEO targets: "ClayBuddy coding agent failure mechanisms", "codex cli deterministic guardrails harness", "coding agent underspecification capability harness errors", "codex cli PreToolUse command classifier hook", "what breaks when LLMs code operational safety", "codex cli hardened safety profile configuration"
+
+---
+
 ## Visual Codebase Understanding — Multimodal Repository Graphs and Codex CLI Hybrid Exploration (2026-07-07 Hourly Article Run)
 
 1. ✅ **Visual Codebase Understanding: What Multimodal Repository Graphs Reveal About Token-Efficient Exploration — and How to Wire Hybrid Visual Context into Codex CLI** — Written 2026-07-07 → `2026-07-07-visual-codebase-understanding-multimodal-repository-graphs-codex-cli-hybrid-exploration.md`
