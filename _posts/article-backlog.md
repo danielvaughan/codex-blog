@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## API Version Blindness — LibEvoBench Temporal Knowledge Stratification and Codex CLI Documentation MCP Defence (2026-07-07 Hourly Article Run)
+
+1. ✅ **API Version Blindness: What LibEvoBench and Context-Memory Conflicts Reveal About Temporal Knowledge Stratification — and How to Wire Version-Aware Documentation into Codex CLI** — Written 2026-07-07 → `2026-07-07-api-version-blindness-libevobench-temporal-knowledge-stratification-codex-cli-documentation-mcp-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cipollone et al. published arXiv:2606.25402 (June 2026, DL4Code ICML 2026), LibEvoBench: ~125k evaluation samples across 29 versions of PyTorch/NumPy/SciPy, 16k+ APIs tracked; SEUS scores GPT-5.4 86.0, GPT-5.5 85.1, Sonnet 4.6 81.0; documentation adds 10–20 SEUS points but version tags yield zero gain; 7–10 point persistent gap on evolving vs stable APIs; complemented by Ashik et al. arXiv:2604.09515 (April 2026), 270 real-world API updates across 8 Python libraries: 42.55% executable without docs, 66.36% with docs (+56%); context-memory conflict causes 42.1% specification ignoring, 16.4% old API reversion; self-reflection +11.33% executable; mapped to Codex CLI web_search live/cached/indexed modes, MCP documentation servers (Context7), AGENTS.md version contracts, PreToolUse deprecated API hooks, model_reasoning_effort for self-reflection, tools.web_search domain filtering
+   - SEO targets: "API version blindness codex cli", "LibEvoBench temporal knowledge stratification code generation", "codex cli documentation MCP server Context7", "context-memory conflict API evolution LLM", "codex cli web_search live documentation", "version-aware coding agent configuration"
+
+---
+
 ## One Developer Is All You Need — AI-Augmented One-Person Squad and Codex CLI Spec-Driven Subagent Delegation (2026-07-07 Hourly Article Run)
 
 1. ✅ **One Developer Is All You Need: What a Brownfield Case Study Reveals About AI-Augmented Solo Delivery — and How to Wire the One-Person Squad in Codex CLI** — Written 2026-07-07 → `2026-07-07-one-developer-is-all-you-need-ai-augmented-one-person-squad-codex-cli-spec-driven-subagent-delegation.md`
