@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## One Developer Is All You Need — AI-Augmented One-Person Squad and Codex CLI Spec-Driven Subagent Delegation (2026-07-07 Hourly Article Run)
+
+1. ✅ **One Developer Is All You Need: What a Brownfield Case Study Reveals About AI-Augmented Solo Delivery — and How to Wire the One-Person Squad in Codex CLI** — Written 2026-07-07 → `2026-07-07-one-developer-is-all-you-need-ai-augmented-one-person-squad-codex-cli-spec-driven-subagent-delegation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Vilas Boas et al. published arXiv:2605.18461 (May 2026), single-case study at Itaú Unibanco: one staff engineer with four AI agents (StackSpot PM, Devin spec writer, GitHub Copilot core dev, Devin infra builder) delivered 25 user stories in 3 sprints vs planned 6; 90% AI code acceptance on first review; 92.8% backend / 90.3% frontend test coverage; zero post-release defects; >85% cost reduction (R$492k → ~R$67k); 5.4× throughput improvement; specification quality and institutional knowledge identified as binding constraints; complemented by Farrag arXiv:2605.01160 Productivity-Reliability Paradox (20-56% gains vs 19% slowdown, 98% more PRs but 91% longer reviews); mapped to Codex CLI custom agent TOML definitions (.codex/agents/), AGENTS.md specification contracts, plan mode suggest approval, agents.max_threads/max_depth delegation bounds, model_reasoning_effort per-role configuration, rollout_budget cost control
+   - SEO targets: "one developer all you need codex cli", "AI augmented one person squad brownfield", "codex cli custom agent subagent delegation", "spec driven development codex cli", "specification quality binding constraint AI coding", "codex cli AGENTS.md specification contract"
+
+---
+
 ## Overeager Coding Agents — Out-of-Scope Actions and Codex CLI Approval/Sandbox Defence (2026-07-07 Hourly Article Run)
 
 1. ✅ **Overeager Coding Agents: What 7,500 Benign Runs Reveal About Unauthorised Scope Expansion — and How Codex CLI's Approval and Sandbox Architecture Stops It** — Written 2026-07-07 → `2026-07-07-overeager-coding-agents-out-of-scope-actions-codex-cli-approval-sandbox-defence.md`

@@ -2,7 +2,7 @@
 title: "Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript"
 description: "When Anthropic open-sourced Claude Code in late March 2026, the developer community finally got a clear look at the engineering behind one of the most."
 date: 2026-04-01T09:00:00+00:00
-last_modified_at: 2026-07-07T04:13:53+01:00
+last_modified_at: 2026-07-07T06:09:56+01:00
 tags:
   - competitive-landscape
   - claude-code
