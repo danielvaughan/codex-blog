@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Paper Replication with Coding Agents — Scientific ML Verification and Codex CLI Skill Workflow (2026-07-08 Hourly Article Run)
+
+1. ✅ **Paper Replication with Coding Agents: What 158 Matched Targets Reveal About Evidence-Based Scientific Verification — and How to Wire the Workflow in Codex CLI** — Written 2026-07-08 → `2026-07-08-paper-replication-coding-agents-scientific-ml-codex-cli-skill-verification-evidence-workflow.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hans & Bilionis published arXiv:2607.02134 (July 2026), Paper-replication coding-agent skill: claim-target-evidence architecture with four-stage external validation (specification check, progress check, report coverage, completion gate); 12 independent runs across 4 scientific ML papers (PINN-I, PINN-II, SINDy, PIFT); Codex CLI with GPT-5.4 Extra High reasoning; all 158 recorded targets reached MATCHED status; 37/39 scalar observations within paper-reported thresholds; elapsed time 1.2–13.0 hours; complemented by PaperBench (ICML 2025, best agent 21.0%), SocSci-Repro-Bench arXiv:2606.11447 (Claude Code outperformed Codex on 221 social science tasks), NatureBench arXiv:2606.24530; mapped to Codex CLI SKILL.md three-layer architecture, goal mode (GA v0.133.0), PostToolUse/Stop hook validation gates, AGENTS.md replication constraints, rollout_budget token ceiling, named profiles for model/reasoning configuration, model_auto_compact_token_limit workspace-file persistence
+   - SEO targets: "paper replication coding agent codex cli", "scientific ML verification coding agent skill", "codex cli paper-replication SKILL.md workflow", "evidence-based verification coding agent", "PaperBench vs Paper-replication coding agent", "codex cli goal mode scientific replication"
+
+---
+
 ## Cloak and Detonate — Agent Skill Malware Scanner Evasion and Codex CLI Runtime Defence (2026-07-07 Hourly Article Run)
 
 1. ✅ **Cloak and Detonate: What SkillCloak's 90 Per Cent Scanner Evasion Rate Reveals About Agent Skill Malware — and How Codex CLI's Runtime Defence Layers Close the Gap** — Written 2026-07-07 → `2026-07-07-cloak-and-detonate-agent-skill-malware-scanner-evasion-codex-cli-runtime-defence-skilldetonate.md`
