@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Mixed-Model Agent Teams — AgentCARD Role Bottlenecks and Codex CLI Named Profiles (2026-07-07 Hourly Article Run)
+
+1. ✅ **Mixed-Model Agent Teams: What AgentCARD Reveals About Role Bottlenecks — and How to Wire Heterogeneous Workflows in Codex CLI** — Written 2026-07-07 → `2026-07-07-mixed-model-agent-teams-agentcard-role-bottlenecks-codex-cli-named-profiles-heterogeneous-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Jiang et al. published arXiv:2606.20629 (May 2026), AgentCARD role-aware benchmark: heterogeneous teams improve accuracy by up to 44% over cost-equivalent homogeneous teams or match strongest homogeneous team at 12× lower cost; executor role consumes 200× more input tokens and 6× more dollars than planner; Shapley-based role bottleneck diagnostics; domain-dependent optimal assignment; mapped to Codex CLI named profiles for role-to-model switching, custom subagent definitions with per-agent model/reasoning overrides, rollout_budget cost-proportional accounting, model_auto_compact_token_limit, requirements.toml managed enforcement
+   - SEO targets: "mixed model agent team codex cli", "AgentCARD role bottleneck Shapley diagnostics", "codex cli named profiles heterogeneous workflow", "codex cli subagent model assignment", "heterogeneous agent team cost accuracy frontier", "codex cli mixed model cost optimisation"
+
+---
+
 ## Correct Code, Vulnerable Dependencies — LLM Version Pinning and Codex CLI Supply-Chain Defence (2026-07-07 Hourly Article Run)
 
 1. ✅ **Correct Code, Vulnerable Dependencies: Why Your LLM Pins Dangerous Library Versions — and How Codex CLI's Hook and Governance Stack Stops Them Shipping** — Written 2026-07-07 → `2026-07-07-correct-code-vulnerable-dependencies-llm-version-pinning-codex-cli-pretooluse-hook-supply-chain-defence.md`
