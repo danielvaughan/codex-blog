@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## AI Code Sandbox Comparative Security — Engine-Class Isolation and Codex CLI Landlock/Seatbelt Architecture (2026-07-07 Hourly Article Run)
+
+1. ✅ **AI Code Sandbox Security Showdown: What a Five-Product Comparative Study Reveals About Engine-Class Isolation — and Where Codex CLI's Landlock-and-Seatbelt Architecture Sits** — Written 2026-07-07 → `2026-07-07-ai-code-sandbox-comparative-security-codex-cli-landlock-seatbelt-engine-class-isolation-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Andronchik & Lokhmakov published arXiv:2606.08433 (June 2026), 61-page comparative study of five AI-sandbox products (arrakis, e2b, microsandbox, gVisor, daytona) across three engine classes (microVM, userspace kernel, OCI container); six measured axes (attack surface 5–62 syscalls, information leakage 0–10 items, defence-in-depth 0–4 default layers, CVE history 0–4 escape-class in 24 months, patch cadence 0–471+ days downstream lag, fuzzing posture three tiers); complemented by Singh et al. arXiv:2606.18532 AI Sandboxes threat model and taxonomy; mapped to Codex CLI Landlock LSM + seccomp-BPF (Linux), Seatbelt (macOS), restricted tokens (Windows), workspace-write network isolation, approval_policy graduated enforcement, auto_review subagent, PreToolUse hooks, nested Docker/microVM layering
+   - SEO targets: "AI code sandbox comparative security codex cli", "coding agent sandbox engine class microVM gVisor", "codex cli Landlock Seatbelt sandbox architecture", "AI sandbox CVE patch cadence downstream lag", "codex cli defence-in-depth sandbox configuration", "sandbox attack surface syscall comparison coding agent"
+
+---
+
 ## Brittle Test Suites — LLM Test Generation Under Software Evolution and Codex CLI Hook Verification Defence (2026-07-07 Hourly Article Run)
 
 1. ✅ **Brittle Test Suites: What 22,000 Program Variants Reveal About LLM-Generated Tests Under Software Evolution — and How Codex CLI's Hook and Verification Stack Keeps Them Honest** — Written 2026-07-07 → `2026-07-07-brittle-test-suites-llm-test-generation-software-evolution-codex-cli-hook-verification-defence.md`
