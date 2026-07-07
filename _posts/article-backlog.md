@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Vera Safety Testing LLM Agents at Scale — Evidence-Grounded Verification and Codex CLI Defence Layers (2026-07-07 Hourly Article Run)
+
+1. ✅ **Safety Testing at Scale: What Vera's 1,600 Executable Cases Reveal About Agent Vulnerabilities — and How Codex CLI's Defence Layers Hold Up** — Written 2026-07-07 → `2026-07-07-vera-safety-testing-llm-agents-scale-evidence-grounded-verification-codex-cli-defence-layers.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Feng et al. published arXiv:2607.01793 (July 2026), Vera framework: 1,600 executable safety cases, 124 risk categories, 77 attack methods, 30 environment categories; evidence-grounded verification hierarchy (environment state > tool-call records > agent responses); four production frameworks evaluated (OpenClaw, Hermes, Codex CLI, Claude Code); 93.9% average multi-channel ASR; Codex CLI 84.1% overall ASR (second-lowest) but +4.7pp multi-channel vulnerability gap; adaptive steering +20.1pp average gap; Qwen3Guard fine-tuned to 93.0% accuracy; mapped to Codex CLI sandbox workspace-write OS-enforced confinement, approval_policy graduated enforcement, PreToolUse/PostToolUse deterministic hooks, auto_review subagent context separation, network_proxy domain allowlisting, named profiles for Vera-informed defence, requirements.toml managed MCP server governance
+   - SEO targets: "Vera safety testing LLM agents codex cli", "evidence-grounded verification agent safety benchmark", "codex cli multi-channel attack vulnerability", "Vera-Bench 1600 safety cases agent framework", "codex cli defence layers safety testing", "agent safety benchmark evidence-grounded verification"
+
+---
+
 ## AI Code Sandbox Comparative Security — Engine-Class Isolation and Codex CLI Landlock/Seatbelt Architecture (2026-07-07 Hourly Article Run)
 
 1. ✅ **AI Code Sandbox Security Showdown: What a Five-Product Comparative Study Reveals About Engine-Class Isolation — and Where Codex CLI's Landlock-and-Seatbelt Architecture Sits** — Written 2026-07-07 → `2026-07-07-ai-code-sandbox-comparative-security-codex-cli-landlock-seatbelt-engine-class-isolation-architecture.md`
