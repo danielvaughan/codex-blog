@@ -43,7 +43,7 @@ The results:
 | Line coverage | 79.3% | 67.4% | −11.9 pp |
 | Branch coverage | 76.1% | 60.6% | −15.5 pp |
 
-A single-line semantic change collapses a third of the test suite. Worse, more than 99% of the failing SAC tests still pass on the original program while executing the modified region [^1]. The tests are not testing the new behaviour — they are carrying expectations from the old programme baked in during generation. The paper calls this *residual alignment*: the model's weights encode the original programme's behaviour so strongly that regenerated tests inherit those expectations even when the prompt includes the updated code.
+A single-line semantic change collapses a third of the test suite. Worse, more than 99% of the failing SAC tests still pass on the original program while executing the modified region [^1]. The tests are not testing the new behaviour — they are carrying expectations from the old program baked in during generation. The paper calls this *residual alignment*: the model's weights encode the original program's behaviour so strongly that regenerated tests inherit those expectations even when the prompt includes the updated code.
 
 ## Syntax Changes Without Semantic Impact Still Break Tests
 
@@ -55,7 +55,7 @@ Semantic-preserving changes (SPCs) — void loops, redundant else blocks, equiva
 | Line coverage | 79.3% | 73.7% | −5.6 pp |
 | Branch coverage | 76.1% | 69.2% | −6.9 pp |
 
-The test churn numbers are telling: under SPCs, the average evaluation produces 22.7 test-name changes with only an 18.1% match rate against the baseline suite [^1]. The model is not recognising that the programme is semantically identical — it is reacting to the lexical surface, generating substantially different tests for structurally equivalent code.
+The test churn numbers are telling: under SPCs, the average evaluation produces 22.7 test-name changes with only an 18.1% match rate against the baseline suite [^1]. The model is not recognising that the program is semantically identical — it is reacting to the lexical surface, generating substantially different tests for structurally equivalent code.
 
 ## Model Variance Is Extreme
 
@@ -236,7 +236,7 @@ When delegating test generation to subagents, set `model_reasoning_effort` to `h
 ## Key Takeaways
 
 1. **The baseline illusion is real.** 79% coverage and 100% pass rate on unmodified code tells you nothing about test quality under evolution.
-2. **Residual alignment is the dominant failure mode.** 99%+ of SAC test failures stem from inherited expectations about the original programme, not genuine regression detection.
+2. **Residual alignment is the dominant failure mode.** 99%+ of SAC test failures stem from inherited expectations about the original program, not genuine regression detection.
 3. **Syntax sensitivity produces phantom churn.** Semantically identical code changes trigger 22.7 test rewrites per evaluation — noise that obscures real regressions.
 4. **Model selection matters enormously.** A 42-percentage-point spread between best and worst models on SAC resilience means your choice of test-generation model is a first-order reliability decision.
 5. **Hook-based verification is non-negotiable.** PostToolUse test gates, Stop-hook coverage checks, and PreToolUse test-deletion guards provide the deterministic layer that probabilistic test generation cannot.

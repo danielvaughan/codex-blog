@@ -55,7 +55,7 @@ The critical insight: each agent operated at a different trust level, with the h
 
 ## Specification Quality as the Binding Constraint
 
-The study's most striking finding is that **"specification quality and institutional knowledge, not model capability, the binding constraints on one-person squad success"** [^2]. Undocumented legacy integration contracts were the most frequent source of underspecification, leading to rework [^2].
+The study's most striking finding is that **"specification quality and institutional knowledge, not model capability, are the binding constraints on one-person squad success"** [^2]. Undocumented legacy integration contracts were the most frequent source of underspecification, leading to rework [^2].
 
 This aligns precisely with Farrag's independently derived conclusion from a 67-source multivocal review: **"Specification discipline, not model capability, is the binding constraint on AI-assisted software dependability"** [^1]. Farrag identifies three moderating variables — task abstraction, codebase maturity, and developer experience — and two amplifying mechanisms: code review bottlenecks and context window constraints.
 
