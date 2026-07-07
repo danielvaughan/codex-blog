@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Visual Codebase Understanding — Multimodal Repository Graphs and Codex CLI Hybrid Exploration (2026-07-07 Hourly Article Run)
+
+1. ✅ **Visual Codebase Understanding: What Multimodal Repository Graphs Reveal About Token-Efficient Exploration — and How to Wire Hybrid Visual Context into Codex CLI** — Written 2026-07-07 → `2026-07-07-visual-codebase-understanding-multimodal-repository-graphs-codex-cli-hybrid-exploration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ma et al. published arXiv:2606.14061 (June 2026), first systematic empirical study of visual repository representations for coding agents; directed heterogeneous graphs via AST-based static analysis with four relation types (contains, imports, invokes, inherits); Graphviz DOT rendering; evaluated GPT-5-mini, GPT-5.1, Kimi K2.5, Doubao-Seed-2.0-Lite on SWE-bench Verified (500 instances); vision-only degrades accuracy by 13.6–34.1pp; hybrid text+vision achieves 25% input token reduction, 26% cost decrease on GPT-5-mini whilst maintaining accuracy; visual context most effective at fault localisation stage, harmful during repair (-5.0pp) and validation (-3.4pp); complemented by Microsoft FastContext arXiv:2606.14066 (4B–30B exploration subagents, 60% token reduction, +5.5pp resolution); mapped to Codex CLI -i/--image multimodal input, MCP server integration for dynamic graph generation, subagent delegation architecture, AGENTS.md exploration contracts, rollout_budget cost compounding
+   - SEO targets: "visual codebase understanding codex cli", "multimodal repository graphs coding agent", "codex cli hybrid visual exploration token reduction", "fault localisation visual context graph agent", "codex cli MCP graphviz repository graph", "visual repository exploration subagent codex cli"
+
+---
+
 ## Vera Safety Testing LLM Agents at Scale — Evidence-Grounded Verification and Codex CLI Defence Layers (2026-07-07 Hourly Article Run)
 
 1. ✅ **Safety Testing at Scale: What Vera's 1,600 Executable Cases Reveal About Agent Vulnerabilities — and How Codex CLI's Defence Layers Hold Up** — Written 2026-07-07 → `2026-07-07-vera-safety-testing-llm-agents-scale-evidence-grounded-verification-codex-cli-defence-layers.md`

@@ -2,7 +2,7 @@
 title: "Gemma 4 Local Model + Codex CLI: Complete Setup Guide"
 description: "> Run AI coding agents on YOUR hardware -- zero cloud cost, full privacy."
 date: 2026-04-10T00:00:00+00:00
-last_modified_at: 2026-07-07T14:12:39+01:00
+last_modified_at: 2026-07-07T16:10:25+01:00
 type: Technical Article
 timestamp: 2026-04-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-gemma-4-local-model-codex-cli-complete-setup-guide"
