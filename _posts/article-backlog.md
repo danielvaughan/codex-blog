@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Brittle Test Suites — LLM Test Generation Under Software Evolution and Codex CLI Hook Verification Defence (2026-07-07 Hourly Article Run)
+
+1. ✅ **Brittle Test Suites: What 22,000 Program Variants Reveal About LLM-Generated Tests Under Software Evolution — and How Codex CLI's Hook and Verification Stack Keeps Them Honest** — Written 2026-07-07 → `2026-07-07-brittle-test-suites-llm-test-generation-software-evolution-codex-cli-hook-verification-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Haroon et al. published arXiv:2603.23443 (March 2026, FSE 2026), 22,374 program variants across 8 LLMs (GPT-OSS 20B, Nemotron-3-Nano 30B, GPT-5, GPT-5.2, Claude 4.5 Haiku, Claude 4.6 Sonnet, Gemini 2.5-Flash, Gemini 3.1-Pro); baseline 79.3% line / 76.1% branch coverage; SAC pass rate drops to 66.5%, branch coverage to 60.6%; >99% failing SAC tests exhibit residual alignment; SPC pass rate 78.9% with 22.7 test churn per eval; GPT-5 Mini 82.9% SAC resilience vs Nemotron-3-Nano 40.7%; complemented by Berndt et al. arXiv:2601.08998 (ICSE-SEIP 2026), 72/115 flaky LLM-generated tests caused by unguaranteed ordering; mapped to Codex CLI PostToolUse test gates, Stop hook verification, PreToolUse test-deletion guards, AGENTS.md test-first constraints, model_reasoning_effort for semantic resilience, named profiles for test-generation model selection
+   - SEO targets: "brittle LLM test suites codex cli", "LLM test generation software evolution fragility", "codex cli PostToolUse test gate hook", "residual alignment LLM generated tests", "codex cli Stop hook verification gate", "codex cli test deletion guard PreToolUse"
+
+---
+
 ## API Version Blindness — LibEvoBench Temporal Knowledge Stratification and Codex CLI Documentation MCP Defence (2026-07-07 Hourly Article Run)
 
 1. ✅ **API Version Blindness: What LibEvoBench and Context-Memory Conflicts Reveal About Temporal Knowledge Stratification — and How to Wire Version-Aware Documentation into Codex CLI** — Written 2026-07-07 → `2026-07-07-api-version-blindness-libevobench-temporal-knowledge-stratification-codex-cli-documentation-mcp-defence.md`
