@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Verifiable Literate Programming — VLP Human Validation and Codex CLI Hooks/Review Verification (2026-07-07 Hourly Article Run)
+
+1. ✅ **Verifiable Literate Programming: What VLP's Three-Layer Validation Reveals About Human-in-the-Loop Code Review — and How to Wire Equivalent Gates in Codex CLI** — Written 2026-07-07 → `2026-07-07-verifiable-literate-programming-vlp-human-validation-llm-code-codex-cli-hooks-review-verification.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yuan et al. published arXiv:2607.02333 (July 2026), Verifiable Literate Programming (VLP): three-layer validation architecture (NL-Doc documentation, LLM-based mismatch detection, formal verification module); pass@1 improvement from 28.7–73.2% to 65.4–93.5%; complemented by Zhang et al. arXiv:2502.17441 Renaissance of Literate Programming with Interoperable LP (ILP); mapped to Codex CLI plan mode with approval_policy on-request, AGENTS.md intent contracts, auto_review guardian subagent mismatch detection, PostToolUse hooks for type checking/test execution, Stop gate verification, named profiles for VLP-equivalent workflows, requirements.toml fleet-wide governance
+   - SEO targets: "verifiable literate programming codex cli", "VLP human validation LLM code review", "codex cli PostToolUse hooks verification gate", "NL-Doc mismatch detection coding agent", "codex cli auto-review guardian validation", "literate programming LLM code generation verification"
+
+---
+
 ## ClayBuddy Failure Mechanisms — Harness Mitigations and Codex CLI Deterministic Guardrails (2026-07-07 Hourly Article Run)
 
 1. ✅ **ClayBuddy and the Three Failure Mechanisms: What 20 Coding Environments Reveal About Why Agents Break — and How Codex CLI's Harness Already Covers the Fixes** — Written 2026-07-07 → `2026-07-07-claybuddy-coding-agent-failure-mechanisms-harness-mitigations-codex-cli-deterministic-guardrails.md`
