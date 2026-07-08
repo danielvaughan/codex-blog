@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## When Tools Fail — TOOLMAZE Agent Fault Tolerance and Codex CLI PostToolUse Hooks Replanning Resilience (2026-07-08 Hourly Article Run)
+
+1. ✅ **When Tools Fail: What TOOLMAZE Reveals About the Replanning Deficit in LLM Agents — and How to Wire Fault Tolerance into Codex CLI** — Written 2026-07-08 → `2026-07-08-when-tools-fail-toolmaze-agent-fault-tolerance-codex-cli-posttooluse-hooks-replanning-resilience.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhu et al. published arXiv:2606.05806 (June 2026), TOOLMAZE benchmark: 400 base tasks, 270 tools, 2,000 evaluation instances across 2×2 perturbation taxonomy (explicit/implicit × transient/permanent) and four DAG complexity levels; Claude Sonnet 4.6 TSR drops from 77% to 42% under perturbation; PRR 90.61% explicit-transient vs 26.63% implicit-permanent; 37.15pp implicit-explicit gap; fault tolerance scales 3.66× slower than task completion; corroborated by ToolBench-X (arXiv:2606.25819) five-hazard taxonomy and ToolFailBench (arXiv:2607.04686) 1,000 diagnostic tasks; mapped to Codex CLI PostToolUse semantic validation hooks, PreToolUse retry-budget gating, AGENTS.md failure-handling constraints, PostToolUseFailure proposed hook (GitHub #24907), MCP tool search for C2-style rerouting, named profiles for fault-tolerant sessions
+   - SEO targets: "when tools fail LLM agent codex cli", "TOOLMAZE agent fault tolerance benchmark", "codex cli PostToolUse hook tool failure", "agent replanning deficit scaling gap", "implicit tool failure recovery coding agent", "codex cli fault tolerance hooks profile", "tool failure resilience LLM agent benchmark"
+
+---
+
 ## Semantic Transactions for Tool-Using Agents — Cordon and Codex CLI Staged-Effect Approval Rollback (2026-07-08 Hourly Article Run)
 
 1. ✅ **Semantic Transactions for Tool-Using Agents: What Cordon Reveals About the Staged-Effect Gap — and How Codex CLI's Approval-Sandbox Stack Partially Fills It** — Written 2026-07-08 → `2026-07-08-semantic-transactions-tool-using-agents-cordon-codex-cli-staged-effects-approval-rollback.md`
