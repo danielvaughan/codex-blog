@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Agent Data Injection Attacks — Probabilistic Delimiter Poisoning and Codex CLI Trust Boundary Defence (2026-07-08 Hourly Article Run)
+
+1. ✅ **Agent Data Injection: What Probabilistic Delimiter Poisoning Reveals About the Trust Boundary Gap — and How Codex CLI's Layered Defences Respond** — Written 2026-07-08 → `2026-07-08-agent-data-injection-attacks-probabilistic-delimiter-poisoning-codex-cli-sandbox-trust-boundary-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Choi et al. published arXiv:2607.05120 (July 2026), Agent Data Injection (ADI): new IPI category where malicious data masquerades as trusted metadata/context rather than instructions; probabilistic delimiter injection technique exploiting LLM vs deterministic parser interpretation gap; 49.1% baseline ASR against agent systems; model hardening/input guardrails/output guardrails achieve zero improvement; only strict data-flow tracking (0% ASR, 36.5% utility) and randomisation (28.7% ASR, 83.3% utility) partially effective; tested GPT-5.2, GPT-5-mini, Claude Opus 4.5, Claude Sonnet 4.5, Gemini 3 Pro, Gemini 3 Flash; three coding agents (Claude Code, Codex CLI, Gemini CLI) confirmed vulnerable to origin injection and tool-call injection; 157 test cases, 96 user tasks, 108 ADI attacks; mapped to Codex CLI workspace-write sandbox (22.2% ASR), approval_policy graduated enforcement, PreToolUse provenance-checking hooks, network_proxy domain filtering, AGENTS.md constraints (weak against ADI), identified gaps in data-flow taint tracking, delimiter randomisation, provenance attestation
+   - SEO targets: "agent data injection codex cli", "probabilistic delimiter injection coding agent", "ADI vs instruction injection agent security", "codex cli trust boundary defence", "agent data injection sandbox defence", "probabilistic delimiter poisoning LLM agent", "codex cli PreToolUse provenance hook"
+
+---
+
 ## Paper Replication with Coding Agents — Scientific ML Verification and Codex CLI Skill Workflow (2026-07-08 Hourly Article Run)
 
 1. ✅ **Paper Replication with Coding Agents: What 158 Matched Targets Reveal About Evidence-Based Scientific Verification — and How to Wire the Workflow in Codex CLI** — Written 2026-07-08 → `2026-07-08-paper-replication-coding-agents-scientific-ml-codex-cli-skill-verification-evidence-workflow.md`
