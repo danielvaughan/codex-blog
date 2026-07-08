@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Graph-Guided Trajectory Repair — AgentTether and Codex CLI PostToolUse Hooks Repair Memory Runtime Intervention (2026-07-08 Hourly Article Run)
+
+1. ✅ **Graph-Guided Trajectory Repair: What AgentTether Reveals About Diagnosing Agent Failures — and How to Wire Equivalent Recovery into Codex CLI** — Written 2026-07-08 → `2026-07-08-agenttether-graph-guided-trajectory-repair-codex-cli-posttooluse-hooks-repair-memory-runtime-intervention.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhao et al. published arXiv:2607.06273 (July 7, 2026), AgentTether runtime repair framework: Transition Units abstracting decision-execution-feedback cycles, Critical Transition Graph with temporal and dependency edges, dual anomaly detection (offline HGT trained on 21,143 trajectories + real-time Isolation Forest with 25 features), cross-iteration Repair Memory, guarded runtime intervention with intent drift thresholds; tau-bench 261 tasks: 69.11% repair rate (+26.02pp over blind retry), Banking 59.04%, Airline 78.57%, Retail 96.15%; outcome feedback underperforms blind retry at 39.02%; token efficiency 1,197K vs 1,376K; cross-model GPT-5.4 65.12% Banking; mapped to Codex CLI session JSONL trajectory logs, PostToolUse/PostToolUseFailure hooks for drift detection and failure localisation, codex fork for guided retry, history.persistence for Repair Memory, named profiles for diagnostic sessions, PreToolUse permissionDecision for partial guarded intervention
+   - SEO targets: "AgentTether graph-guided trajectory repair codex cli", "codex cli PostToolUse hook failure diagnosis", "critical transition graph agent trajectory", "codex cli repair memory cross-iteration", "agent failure localisation dependency graph", "codex cli session JSONL trajectory analysis diagnostic"
+
+---
+
 ## When Tools Fail — TOOLMAZE Agent Fault Tolerance and Codex CLI PostToolUse Hooks Replanning Resilience (2026-07-08 Hourly Article Run)
 
 1. ✅ **When Tools Fail: What TOOLMAZE Reveals About the Replanning Deficit in LLM Agents — and How to Wire Fault Tolerance into Codex CLI** — Written 2026-07-08 → `2026-07-08-when-tools-fail-toolmaze-agent-fault-tolerance-codex-cli-posttooluse-hooks-replanning-resilience.md`
