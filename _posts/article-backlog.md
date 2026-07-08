@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Code Execution Cost-Effectiveness — Selective Testing and Codex CLI Budget Profiles (2026-07-08 Hourly Article Run)
+
+1. ✅ **To Run or Not to Run: What 7,745 Agent Traces Reveal About the Cost-Effectiveness of Code Execution — and How to Wire Selective Testing into Codex CLI** — Written 2026-07-08 → `2026-07-08-to-run-or-not-to-run-code-execution-cost-effectiveness-coding-agents-codex-cli-selective-test-budget-profiles.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Lin et al. published arXiv:2606.26978 (June 2026, ISSTA 2026), 7,745 agent traces from SWE-bench leaderboard, 3,000 controlled repair attempts across Claude Code (Sonnet 4.5), Codex (GPT-5.2 xhigh), OpenCode (Qwen2.5-Coder-32B); four execution paradigms (prohibited, quota-limited K=1/K=3, budget-guided, unrestricted); average 8.8 test runs per task; restricted execution costs only 1.25pp resolve rate (not statistically significant p>0.05); Claude Code 56-62% token savings; 54-66% of repairs complete in single edit; late-stage execution 72% success vs early-stage 42%; 81-100% of failed cases pass agent validation but fail official eval; mapped to Codex CLI rollout_budget token caps, model_reasoning_effort xhigh as execution substitute, PostToolUse/PreToolUse hooks for selective test gating, named profiles for cost-quality trade-offs, auto_review validation trap mitigation, AGENTS.md testing constraints
+   - SEO targets: "code execution cost effectiveness coding agent", "codex cli selective test execution budget", "to run or not to run program repair", "codex cli rollout budget test cost", "SWE-bench agent execution cost savings", "codex cli named profiles cost quality"
+
+---
+
 ## Agent Data Injection Attacks — Probabilistic Delimiter Poisoning and Codex CLI Trust Boundary Defence (2026-07-08 Hourly Article Run)
 
 1. ✅ **Agent Data Injection: What Probabilistic Delimiter Poisoning Reveals About the Trust Boundary Gap — and How Codex CLI's Layered Defences Respond** — Written 2026-07-08 → `2026-07-08-agent-data-injection-attacks-probabilistic-delimiter-poisoning-codex-cli-sandbox-trust-boundary-defence.md`
