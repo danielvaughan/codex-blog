@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## What Resolve Rate Hides — Trajectory Structure Diagnostics and Codex CLI Anti-Pattern Detection (2026-07-08 Hourly Article Run)
+
+1. ✅ **What Resolve Rate Hides: Trajectory Diagnostics Reveal Why Two 78% Agents Are Nothing Alike — and How to Wire the Insight into Codex CLI** — Written 2026-07-08 → `2026-07-08-what-resolve-rate-hides-trajectory-structure-diagnostics-coding-agents-codex-cli-traceprobe-anti-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Shu et al. published arXiv:2607.06184 (July 7, 2026), TraceProbe framework analysing 2,500 trajectories across five production settings on SWE-bench Verified; nine-type canonical action taxonomy (FILE_READ, FILE_WRITE, SEARCH, COMMAND, PLAN, NAVIGATE, FETCH, AGENT_SPAWN, REASON); five structural anti-pattern detectors (Search Loop 41.1%/56.1%, Re-read Churn 34.0%/44.7%, Tool Oscillation, Redundant Search, Structured Plan Absence); process profiles showing Codex 78.4% vs Claude Code 77.4% with dramatically different step counts (24 vs 27), survived edits (36.2% vs 27.6%), and failed edits (8.0% vs 3.3%); cross-benchmark transfer to SWE-bench Pro 266 tasks; mapped to Codex CLI session JSONL logs, PostToolUse hooks for real-time anti-pattern detection, AGENTS.md trajectory discipline constraints, named profiles for diagnostic sessions, model_auto_compact_token_limit compaction-churn correlation
+   - SEO targets: "what resolve rate hides coding agent", "trajectory diagnostics coding agent codex cli", "TraceProbe anti-pattern detection", "codex cli session JSONL trajectory analysis", "search loop anti-pattern coding agent", "codex cli PostToolUse trajectory monitoring"
+
+---
+
 ## Out-of-Band Prompt Injection Defences — CaMeL, FIDES, Progent and Codex CLI Sandbox-Approval-Hook Stack (2026-07-08 Hourly Article Run)
 
 1. ✅ **Out-of-Band Prompt Injection Defences: What CaMeL, FIDES, and Progent Reveal About Deterministic Agent Security — and How Codex CLI's Sandbox-Approval-Hook Stack Already Implements the Pattern** — Written 2026-07-08 → `2026-07-08-out-of-band-prompt-injection-defences-camel-fides-progent-codex-cli-sandbox-approval-hooks.md`
