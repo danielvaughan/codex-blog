@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Semantic Transactions for Tool-Using Agents — Cordon and Codex CLI Staged-Effect Approval Rollback (2026-07-08 Hourly Article Run)
+
+1. ✅ **Semantic Transactions for Tool-Using Agents: What Cordon Reveals About the Staged-Effect Gap — and How Codex CLI's Approval-Sandbox Stack Partially Fills It** — Written 2026-07-08 → `2026-07-08-semantic-transactions-tool-using-agents-cordon-codex-cli-staged-effects-approval-rollback.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. published arXiv:2606.17573 (June 2026), Cordon transactional runtime system for staging and validating irreversible agent effects; shadow-state engine, effect outbox, recovery log, nine formal invariants; 45/45 adversarial cases intercepted vs 14/45 by existing defences; 22.7% task-time overhead, 23.6–28.4% token savings; τ-bench 87.5%→90.0%; mapped to Codex CLI Landlock/Seatbelt sandbox, approval_policy graduated enforcement, PreToolUse/PostToolUse hooks, git rollback; identified gaps in result-object lineage, effect staging, task-scoped commit/abort boundaries
+   - SEO targets: "semantic transactions tool-using agents codex cli", "cordon staged effects agent security", "codex cli approval policy transaction boundary", "irreversible effect staging LLM agent", "codex cli PreToolUse hook lineage tracking", "agent tool call transaction commit rollback"
+
+---
+
 ## What Resolve Rate Hides — Trajectory Structure Diagnostics and Codex CLI Anti-Pattern Detection (2026-07-08 Hourly Article Run)
 
 1. ✅ **What Resolve Rate Hides: Trajectory Diagnostics Reveal Why Two 78% Agents Are Nothing Alike — and How to Wire the Insight into Codex CLI** — Written 2026-07-08 → `2026-07-08-what-resolve-rate-hides-trajectory-structure-diagnostics-coding-agents-codex-cli-traceprobe-anti-patterns.md`
