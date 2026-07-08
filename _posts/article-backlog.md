@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Proprioceptive Dashboards — VISTA Self-Managed Context and Codex CLI Compaction Visibility (2026-07-08 Hourly Article Run)
+
+1. ✅ **Proprioceptive Dashboards: What VISTA Reveals About Self-Managed Context in LLM Agents — and How to Wire Equivalent Visibility into Codex CLI** — Written 2026-07-08 → `2026-07-08-proprioceptive-dashboard-vista-self-managed-context-llm-agents-codex-cli-compaction-archive-recovery.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Xu, Li & Zhang published arXiv:2606.30005 (June 2026), VISTA (Visible Internal State for Tool Agents): training-free model-agnostic context layer surfacing per-turn dashboard with token cost, recency, access history, remaining budget; typed addressable blocks with five states (visible, pinned, archived, blocked, deleted); byte-identical archive/recovery vs lossy compaction; proprioceptive blindness quantified across Claude Sonnet 4.5 (0.84 median relative error), DeepSeek-V4-Pro, GLM-5, Gemini-3-Flash; LOCA-Bench 75 tasks 128K budget: VISTA 50.7% vs ReAct 22.7% vs Claude Code 42.7%; 57% fewer trajectory tokens than Claude Code; BrowseComp-Plus 58.0% vs 52.0% Claude Code with 45% fewer active tokens; cross-backbone transfer Claude Sonnet 4.5 8.0%→34.7%; formal recoverability proof; mapped to Codex CLI model_auto_compact_token_limit, compact_prompt custom override, tool_output_token_limit, PostToolUse hooks for block metadata injection, AGENTS.md context budget contracts, named profiles for VISTA-equivalent sessions
+   - SEO targets: "proprioceptive dashboard codex cli context management", "VISTA self-managed context LLM agent", "codex cli context compaction visibility dashboard", "LOCA-Bench coding agent context results", "codex cli archive recovery context blocks", "agent proprioceptive blindness context management"
+
+---
+
 ## Forged Reasoning Attacks on Agent Memory — FARMA and Codex CLI Memory Provenance Defence (2026-07-08 Hourly Article Run)
 
 1. ✅ **Forged Reasoning Attacks on Agent Memory: What FARMA Reveals About the Reasoning Store Blind Spot — and How to Wire Provenance Defence in Codex CLI** — Written 2026-07-08 → `2026-07-08-forged-reasoning-attacks-agent-memory-farma-codex-cli-memory-provenance-sentinel-defence.md`
