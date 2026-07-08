@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Out-of-Band Prompt Injection Defences — CaMeL, FIDES, Progent and Codex CLI Sandbox-Approval-Hook Stack (2026-07-08 Hourly Article Run)
+
+1. ✅ **Out-of-Band Prompt Injection Defences: What CaMeL, FIDES, and Progent Reveal About Deterministic Agent Security — and How Codex CLI's Sandbox-Approval-Hook Stack Already Implements the Pattern** — Written 2026-07-08 → `2026-07-08-out-of-band-prompt-injection-defences-camel-fides-progent-codex-cli-sandbox-approval-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Narisetty et al. published arXiv:2606.26479 (June 2026), survey of five out-of-band defence systems (CaMeL, FIDES, Progent, RTBAS, FORGE) organised under classical Biba integrity, reference monitoring, and least-privilege principles; Progent reduced mean ASR from 25.8% to 4.2% under adaptive attack; static benchmark validation warning; mapped to Codex CLI Landlock/Seatbelt kernel sandbox, approval_policy graduated reference monitor, auto_review quarantine inspector, PreToolUse deterministic hooks, network_proxy domain allowlisting; identified gaps in taint tracking, hook coverage for apply_patch/MCP, and adaptive red-teaming
+   - SEO targets: "out-of-band prompt injection defence codex cli", "CaMeL FIDES Progent agent security", "codex cli sandbox approval policy hooks", "deterministic agent security prompt injection", "codex cli PreToolUse hook prompt injection defence", "out-of-band defence LLM agent classical security"
+
+---
+
 ## Proprioceptive Dashboards — VISTA Self-Managed Context and Codex CLI Compaction Visibility (2026-07-08 Hourly Article Run)
 
 1. ✅ **Proprioceptive Dashboards: What VISTA Reveals About Self-Managed Context in LLM Agents — and How to Wire Equivalent Visibility into Codex CLI** — Written 2026-07-08 → `2026-07-08-proprioceptive-dashboard-vista-self-managed-context-llm-agents-codex-cli-compaction-archive-recovery.md`
