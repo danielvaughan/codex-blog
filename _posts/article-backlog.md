@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## De-Idealised Benchmarking — AgentGym2 Real-World Agent Readiness and Codex CLI Tool Discovery Noise Robustness (2026-07-08 Hourly Article Run)
+
+1. ✅ **De-Idealised Benchmarking: What AgentGym2 Reveals About Real-World Agent Readiness — and Where Codex CLI's Architecture Already Closes the Gaps** — Written 2026-07-08 → `2026-07-08-agentgym2-de-idealized-benchmarking-real-world-agent-readiness-codex-cli-tool-discovery-noise-robustness.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Xi et al. published arXiv:2607.05174 (July 6, 2026), AgentGym2 de-idealised benchmark: 437 tasks across 27 domains testing tool discovery, tool composition, noise robustness, and end-to-end workflows; 27-tool general-purpose toolbox; 652 attachment files; GPT-5 46.15% Avg@3 (65.68% Pass@3), Claude Sonnet 4.5 37.17%, Nex-N1-671B 32.19%; five failure modes: insufficient exploration 22.8%, incorrect analysis 24.0%, confirmation bias 24.7%, instruction misinterpretation 27.0%, premature search termination 35.2%; mapped to Codex CLI MCP tool search v0.143.0, AGENTS.md disambiguation constraints, Landlock/Seatbelt sandbox isolation, named profiles for workflow types, rollout_budget token ceiling, model_reasoning_effort xhigh; identified gaps in multimodal tool composition, query error correction, cross-domain discovery
+   - SEO targets: "AgentGym2 de-idealised benchmark codex cli", "real-world agent readiness benchmark", "codex cli MCP tool search discovery", "agent tool discovery benchmark gap", "codex cli noise robustness AGENTS.md", "de-idealised agent evaluation production"
+
+---
+
 ## Balkanised Execution Security — Fragmented Defence Landscape for Coding Agents and Codex CLI Sandbox-Approval-TOCTOU Gaps (2026-07-08 Hourly Article Run)
 
 1. ✅ **Balkanised Execution Security: What 39 Papers Reveal About the Fragmented Defence Landscape for Coding Agents — and Where Codex CLI's Stack Stands** — Written 2026-07-08 → `2026-07-08-balkanised-execution-security-coding-agents-codex-cli-sandbox-approval-toctou-gaps.md`
