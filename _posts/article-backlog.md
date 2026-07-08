@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Forged Reasoning Attacks on Agent Memory — FARMA and Codex CLI Memory Provenance Defence (2026-07-08 Hourly Article Run)
+
+1. ✅ **Forged Reasoning Attacks on Agent Memory: What FARMA Reveals About the Reasoning Store Blind Spot — and How to Wire Provenance Defence in Codex CLI** — Written 2026-07-08 → `2026-07-08-forged-reasoning-attacks-agent-memory-farma-codex-cli-memory-provenance-sentinel-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Karamchandani et al. published arXiv:2607.05029 (July 6, 2026), FARMA (Forged Amplifying Rationale Memory Attack): two-phase attack targeting agent reasoning stores rather than factual knowledge; injection phase plants forged reasoning traces with evasive language and spoofed metadata; amplification phase manufactures corroborating entries defeating consensus-based defences; 100% ASR against EHRAgent, 52% ReAct-QA, 48% RAP; tested GPT-4o-mini, GPT-4o, Llama 3.3 70B; keyword filters and A-MemGuard completely bypassed; SENTINEL five-signal Reasoning Guard reduced ASR to 0% with 0% FPR across 326 benign traces; mapped to Codex CLI ~/.codex/memories/ consolidation pipeline, memories.disable_on_external_context MCP isolation, PreToolUse hook memory-file integrity verification, AGENTS.md reasoning-integrity constraints, named profiles for hardened memory configuration, filesystem-level protection, OWASP ASI06 classification
+   - SEO targets: "FARMA agent memory attack codex cli", "forged reasoning attack LLM agent memory", "SENTINEL reasoning guard agent defence", "codex cli memory poisoning defence", "agent reasoning store attack surface", "codex cli PreToolUse memory provenance hook"
+
+---
+
 ## Code Execution Cost-Effectiveness — Selective Testing and Codex CLI Budget Profiles (2026-07-08 Hourly Article Run)
 
 1. ✅ **To Run or Not to Run: What 7,745 Agent Traces Reveal About the Cost-Effectiveness of Code Execution — and How to Wire Selective Testing into Codex CLI** — Written 2026-07-08 → `2026-07-08-to-run-or-not-to-run-code-execution-cost-effectiveness-coding-agents-codex-cli-selective-test-budget-profiles.md`
