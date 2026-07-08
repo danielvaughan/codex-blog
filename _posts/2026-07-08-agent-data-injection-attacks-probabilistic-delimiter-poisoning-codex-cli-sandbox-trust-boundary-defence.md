@@ -130,7 +130,7 @@ default_policy = "deny"
 
 The graduated `approval_policy` — `suggest`, `auto-edit`, `full-auto` — gates destructive operations behind human confirmation [^4]. For ADI-driven PR merges or code execution, the `suggest` default forces explicit user approval before the agent acts on fabricated tool-call history.
 
-However, approval policy is a probabilistic defence against ADI. If the injected data convinces the agent that a review already occurred, the agent may present the merge as a routine action. The human reviewer then faces the same "plausible cover story" problem documented by Ye et al. — 22 per cent of developers accepted sabotaged code because the explanation looked reasonable [^5].
+However, approval policy is a probabilistic defence against ADI. If the injected data convinces the agent that a review already occurred, the agent may present the merge as a routine action. The human reviewer then faces the same "plausible cover story" problem documented by Ye et al. — 56 per cent of participants still accepted the malicious code even when a safety monitor flagged it [^5].
 
 ```toml
 # Tighten approval for operations involving external data
@@ -238,7 +238,7 @@ Until structural defences arrive, teams can reduce ADI exposure within the curre
 
 [^4]: OpenAI. (2026). "Agent Approvals & Security — Codex CLI." *OpenAI Developers*. [https://developers.openai.com/codex/agent-approvals-security](https://developers.openai.com/codex/agent-approvals-security)
 
-[^5]: Ye, S. et al. (2026). "Coding with the Enemy: Why 94 Per Cent of Developers Miss Agent Sabotage." *arXiv:2606.05647*. Referenced for human oversight failure rates.
+[^5]: Ye, J., Zou, H., Yu, S. & Shi, W. (2026). "Coding with 'Enemy': Can Human Developers Detect AI Agent Sabotage?" *arXiv:2606.05647*. Referenced for human oversight failure rates.
 
 [^6]: OpenAI. (2026). "Configuration Reference — Codex CLI." *OpenAI Developers*. [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
 
