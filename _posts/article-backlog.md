@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Balkanised Execution Security — Fragmented Defence Landscape for Coding Agents and Codex CLI Sandbox-Approval-TOCTOU Gaps (2026-07-08 Hourly Article Run)
+
+1. ✅ **Balkanised Execution Security: What 39 Papers Reveal About the Fragmented Defence Landscape for Coding Agents — and Where Codex CLI's Stack Stands** — Written 2026-07-08 → `2026-07-08-balkanised-execution-security-coding-agents-codex-cli-sandbox-approval-toctou-gaps.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Rashidi published arXiv:2607.05743 (July 7, 2026), systematisation of 39 papers (2023–2026) on execution-layer security for AI coding agents into 17 categories; four root causes (no content/control separation, one-shot authorisation, permitted-not-intended policies, author-constructed adversaries); five cross-cutting gaps (no shared isolation benchmark, 69–98.6% policy bypass rates untested against sandboxes, TOCTOU and MCP poisoning studied separately, policy authoring errors unmeasured, scope creep at 17.1% unaddressed); four confirmed CVEs including CVE-2025-59536 Claude Code CVSS 8.8; SecureVibeBench 23.8% correct-and-secure; Pwn2Own Berlin 2026 Codex exploited three times ($40K/$10K/$20K); mapped to Codex CLI Landlock/Seatbelt sandbox, approval_policy graduated reference monitor, network_proxy domain allowlisting, auto_review, MCP tool search default v0.143.0, PreToolUse hooks; identified gaps in composed-layer evaluation, tool metadata exposure in hooks, intent-scope detection, policy file validation
+   - SEO targets: "balkanised execution security coding agents codex cli", "codex cli sandbox approval TOCTOU gap", "Pwn2Own Berlin 2026 codex exploit", "coding agent security taxonomy 39 papers", "codex cli PreToolUse hook MCP verification", "agent execution security systematisation"
+
+---
+
 ## Graph-Guided Trajectory Repair — AgentTether and Codex CLI PostToolUse Hooks Repair Memory Runtime Intervention (2026-07-08 Hourly Article Run)
 
 1. ✅ **Graph-Guided Trajectory Repair: What AgentTether Reveals About Diagnosing Agent Failures — and How to Wire Equivalent Recovery into Codex CLI** — Written 2026-07-08 → `2026-07-08-agenttether-graph-guided-trajectory-repair-codex-cli-posttooluse-hooks-repair-memory-runtime-intervention.md`
