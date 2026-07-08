@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Cross-Lingual Token Arbitrage — Multilingual Prompt Compression and Codex CLI Context Budget Preprocessing (2026-07-09 Hourly Article Run)
+
+1. ✅ **Cross-Lingual Token Arbitrage: Why Non-English Prompts Cost 3× More — and How to Wire a Preprocessing Middleware into Codex CLI** — Written 2026-07-09 → `2026-07-09-cross-lingual-token-arbitrage-multilingual-prompt-compression-codex-cli-context-budget-preprocessing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Çolak published arXiv:2606.03618 (June 2026, submitted EMNLP 2026), Cross-Lingual Token Arbitrage: local Llama 3.2 3B middleware translating and restructuring non-English prompts before cloud dispatch; three-stage pipeline (cross-lingual translation, structural rewriting into Bi-Block/Tri-Block schema, regex-validated token-budget guard with ≥5% reduction threshold); OMH-Polyglot benchmark 200 instances across Turkish, Arabic, Chinese, code-switched mixes; cl100k_base tokenisation penalty Arabic 3.00×, Chinese 2.41×, Turkish 2.16×; prompt token savings 34–47%, total token savings up to 18.8%; accuracy maintained or improved (+1.17–3.00 pp); outperforms LLMLingua-2 at matched compression (OckScore 99.08 vs 76.91 on GPT-3.5-turbo); 176 ms latency vs 689 ms LLMLingua-2; mapped to Codex CLI PreToolUse hooks (Bash-only, updatedInput not yet supported per GitHub #18491), model_auto_compact_token_limit delayed compaction triggers, compact_prompt English-only summarisation, named profiles for language-specific workflows, plugin marketplace distribution via npm v0.143.0
+   - SEO targets: "cross-lingual token arbitrage codex cli", "multilingual tokenisation cost coding agent", "non-English prompt compression codex cli", "codex cli context budget multilingual", "OMH-Polyglot benchmark multilingual coding", "codex cli PreToolUse hook prompt rewriting"
+
+---
+
 ## De-Idealised Benchmarking — AgentGym2 Real-World Agent Readiness and Codex CLI Tool Discovery Noise Robustness (2026-07-08 Hourly Article Run)
 
 1. ✅ **De-Idealised Benchmarking: What AgentGym2 Reveals About Real-World Agent Readiness — and Where Codex CLI's Architecture Already Closes the Gaps** — Written 2026-07-08 → `2026-07-08-agentgym2-de-idealized-benchmarking-real-world-agent-readiness-codex-cli-tool-discovery-noise-robustness.md`
