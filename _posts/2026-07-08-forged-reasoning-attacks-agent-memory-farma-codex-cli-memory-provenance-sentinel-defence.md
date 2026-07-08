@@ -10,7 +10,7 @@ tags: ["codex-cli", "agent-security", "memory-poisoning", "FARMA", "SENTINEL", "
 
 ---
 
-Persistent memory gives coding agents continuity across sessions. It also gives attackers a surface that existing defences were never designed to protect. On 6 July 2026, Karamchandani et al. published *Your Agent's Memories Are Not Its Own*, introducing the **Forged Amplifying Rationale Memory Attack (FARMA)** — a two-phase technique that plants fabricated reasoning traces into an agent's memory store, then amplifies them until the agent treats the forgeries as its own prior judgements [^1]. The attack achieved 100% success against an electronic health records agent, bypassing every existing defence tested. Only the authors' proposed **SENTINEL** pipeline reduced the attack to 0% success with zero false positives across 326 benign traces [^1].
+Persistent memory gives coding agents continuity across sessions. It also gives attackers a surface that existing defences were never designed to protect. On 6 July 2026, Karamchandani et al. published *Your Agent's Memories Are Not Its Own*, introducing the **Forged Amplifying Rationale Memory Attack (FARMA)** — a two-phase technique that plants fabricated reasoning traces into an agent's memory store, then amplifies them until the agent treats the forgeries as its own prior judgements [^1]. The attack achieved 100 per cent success against an electronic health records agent, bypassing every existing defence tested. Only the authors' proposed **SENTINEL** pipeline reduced the attack to 0 per cent success with zero false positives across 326 benign traces [^1].
 
 This article unpacks FARMA's mechanism, examines where Codex CLI's memory architecture is exposed, and maps concrete defensive wiring using hooks, configuration, and AGENTS.md constraints.
 
@@ -51,7 +51,7 @@ The authors tested FARMA across three agent architectures and three LLMs [^1]:
 | ReAct-QA | Question answering | 52% | 52% | 46% | 6% |
 | RAP | Online shopping | 48% | 48% | 38% | 0% |
 
-Results were consistent across GPT-4o-mini, GPT-4o, and Llama 3.3 70B [^1]. The 100% success rate against EHRAgent — a medical records agent — is particularly concerning given the domain's safety requirements.
+Results were consistent across GPT-4o-mini, GPT-4o, and Llama 3.3 70B [^1]. The 100 per cent success rate against EHRAgent — a medical records agent — is particularly concerning given the domain's safety requirements.
 
 ## SENTINEL: Five-Signal Reasoning Guard
 
@@ -63,7 +63,7 @@ SENTINEL's core component is a **Reasoning Guard** that scores each candidate me
 4. **Implausible Claims (s₄):** Rejects assertions of perfect consistency with large precedent counts
 5. **Structure Check (s₅):** Identifies narrow template-distribution patterns in entry openings
 
-The pipeline achieved 0% false positives across 326 benign traces with sub-millisecond per-write overhead [^1].
+The pipeline achieved 0 per cent false positives across 326 benign traces with sub-millisecond per-write overhead [^1].
 
 ## Where Codex CLI Is Exposed
 

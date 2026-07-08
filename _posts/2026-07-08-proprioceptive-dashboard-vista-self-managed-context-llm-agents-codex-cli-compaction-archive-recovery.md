@@ -86,11 +86,11 @@ LOCA-Bench [^2] is a 75-task suite designed to stress context management under c
 | Active Context Compression | 36.0% | 3.20M |
 | ReAct (baseline) | 22.7% | 3.51M |
 
-A 28 percentage-point gain over ReAct, whilst consuming **57% fewer tokens** than Claude Code [^1]. The dashboard alone — without archive/recovery — accounts for a significant portion of the improvement; without it, accuracy drops to 37.3% [^1].
+A 28 percentage-point gain over ReAct, whilst consuming **57 per cent fewer tokens** than Claude Code [^1]. The dashboard alone — without archive/recovery — accounts for a significant portion of the improvement; without it, accuracy drops to 37.3 per cent [^1].
 
 ### Cross-Backbone Transfer
 
-The same untrained VISTA interface improved all tested models. Claude Sonnet 4.5 jumped from 8.0% to 34.7% — a 4.3× improvement [^1]. The gain persists on stronger backbones, which the authors interpret as latent capability elicitation rather than weak-model compensation.
+The same untrained VISTA interface improved all tested models. Claude Sonnet 4.5 jumped from 8.0 per cent to 34.7 per cent — a 4.3× improvement [^1]. The gain persists on stronger backbones, which the authors interpret as latent capability elicitation rather than weak-model compensation.
 
 ### BrowseComp-Plus (100K-scale Retrieval)
 
@@ -101,11 +101,11 @@ The same untrained VISTA interface improved all tested models. Claude Sonnet 4.5
 | SLIM | 49.3% | 162K |
 | ReAct | 39.3% | 163K |
 
-VISTA achieved higher accuracy with **45% fewer active tokens** than Claude Code [^1].
+VISTA achieved higher accuracy with **45 per cent fewer active tokens** than Claude Code [^1].
 
 ### GAIA (10K-scale, General Assistant)
 
-On shorter trajectories where context pressure is minimal, VISTA tied Claude Code at 72.7% — confirming the approach imposes no penalty when context management is unnecessary [^1].
+On shorter trajectories where context pressure is minimal, VISTA tied Claude Code at 72.7 per cent — confirming the approach imposes no penalty when context management is unnecessary [^1].
 
 ## The Recoverability Theorem
 
@@ -117,7 +117,7 @@ Codex CLI's context management stack already implements several VISTA-adjacent p
 
 ### What Codex CLI Already Has
 
-**Compaction threshold.** `model_auto_compact_token_limit` fires compaction when accumulated tokens exceed a configurable threshold (default ~200K, hard-capped at 90% of the model context window) [^3]. This is the one-way truncation that VISTA aims to replace.
+**Compaction threshold.** `model_auto_compact_token_limit` fires compaction when accumulated tokens exceed a configurable threshold (default ~200K, hard-capped at 90 per cent of the model context window) [^3]. This is the one-way truncation that VISTA aims to replace.
 
 **Custom compaction prompts.** The `compact_prompt` and `experimental_compact_prompt_file` configuration keys allow overriding the default compaction behaviour [^3] — a surface where VISTA-style instructions could be injected.
 
@@ -228,7 +228,7 @@ The VISTA results suggest three concrete enhancements for the Codex CLI roadmap:
 
 2. **Recoverable archives.** Instead of lossy compaction, externalise large blocks to a `.codex/archives/` directory with stable identifiers, accessible via a `recover` tool. VISTA's archive-then-recover loop rescued 8 of 16 tasks that would otherwise have failed [^1].
 
-3. **Agent-directed compaction.** Rather than a fixed threshold trigger, let the model request compaction when it judges the moment is right — informed by the dashboard. The ablation showing auto-archive (44.0%) underperforming agent-directed archive (50.7%) supports this [^1].
+3. **Agent-directed compaction.** Rather than a fixed threshold trigger, let the model request compaction when it judges the moment is right — informed by the dashboard. The ablation showing auto-archive (44.0 per cent) underperforming agent-directed archive (50.7 per cent) supports this [^1].
 
 ## Conclusion
 

@@ -16,7 +16,7 @@ A June 2026 paper from Narisetty et al. (arXiv:2606.26479) surveys five such "ou
 
 ## The In-Band Defence Trap
 
-In-band defences embed security logic inside the model's own reasoning: system prompts that say "ignore injected instructions", fine-tuning on adversarial examples, or output classifiers that scan for suspicious completions. They are easy to deploy and easy to defeat. A 2025 study by 14 researchers from OpenAI, Anthropic, Google DeepMind, and ETH Zurich — "The Attacker Moves Second" — showed that 500 human red-teamers achieved a 100% success rate against every prompt-layer defence tested [^3]. Palo Alto Networks Unit 42 documented 22 distinct injection techniques embedded in ordinary web pages, targeting any agent that processes web content [^4].
+In-band defences embed security logic inside the model's own reasoning: system prompts that say "ignore injected instructions", fine-tuning on adversarial examples, or output classifiers that scan for suspicious completions. They are easy to deploy and easy to defeat. A 2025 study by 14 researchers from OpenAI, Anthropic, Google DeepMind, and ETH Zurich — "The Attacker Moves Second" — showed that 500 human red-teamers achieved a 100 per cent success rate against every prompt-layer defence tested [^3]. Palo Alto Networks Unit 42 documented 22 distinct injection techniques embedded in ordinary web pages, targeting any agent that processes web content [^4].
 
 The conclusion is stark: if the LLM is both the executor and the security boundary, an attacker who controls any input the model reads can control the model's actions.
 
@@ -46,11 +46,11 @@ Microsoft's FIDES (arXiv:2505.23643) applies mandatory integrity labels to every
 
 ### Progent: Privilege-Controlled Reference Monitor
 
-Progent (arXiv:2504.11703) interposes a reference monitor between the agent and its tools, enforcing fine-grained privilege policies that specify which tools may be called, with which arguments, under which conditions [^7]. Narisetty et al.'s evaluation reduced mean attack success from 25.8% to 4.2% — a sixfold decrease — even under hand-crafted adaptive attacks (2.6% success rate) [^2].
+Progent (arXiv:2504.11703) interposes a reference monitor between the agent and its tools, enforcing fine-grained privilege policies that specify which tools may be called, with which arguments, under which conditions [^7]. Narisetty et al.'s evaluation reduced mean attack success from 25.8 per cent to 4.2 per cent — a sixfold decrease — even under hand-crafted adaptive attacks (2.6 per cent success rate) [^2].
 
 ### RTBAS: Dependency Screening
 
-RTBAS (arXiv:2502.08966) adapts information-flow control specifically for tool-based agent systems, using two novel dependency screeners — an LM-as-judge and an attention-based saliency detector — to identify when untrusted data influences a tool call [^8]. It prevents all targeted attacks on AgentDojo with only a 2% utility loss [^8].
+RTBAS (arXiv:2502.08966) adapts information-flow control specifically for tool-based agent systems, using two novel dependency screeners — an LM-as-judge and an attention-based saliency detector — to identify when untrusted data influences a tool call [^8]. It prevents all targeted attacks on AgentDojo with only a 2 per cent utility loss [^8].
 
 ### FORGE: Minimal Permission Grants
 
@@ -58,7 +58,7 @@ FORGE applies least-privilege principles, granting each agent step only the perm
 
 ## The Static Benchmark Warning
 
-Narisetty et al.'s sharpest contribution is methodological. Every system above was validated on AgentDojo — a fixed set of injection attempts. The same methodology made in-band defences look strong until adaptive, defence-aware attacks broke twelve of them at over 90% success [^2]. The paper tested Progent against an open-weight agent (Qwen2.5-7B) on a single H200 and found encouraging resistance, but the authors caution this is "one small-scale data point on a weak model with a single black-box attack template" [^2]. White-box gradient-based attacks (GCG-style) remain entirely unexplored against out-of-band systems.
+Narisetty et al.'s sharpest contribution is methodological. Every system above was validated on AgentDojo — a fixed set of injection attempts. The same methodology made in-band defences look strong until adaptive, defence-aware attacks broke twelve of them at over 90 per cent success [^2]. The paper tested Progent against an open-weight agent (Qwen2.5-7B) on a single H200 and found encouraging resistance, but the authors caution this is "one small-scale data point on a weak model with a single black-box attack template" [^2]. White-box gradient-based attacks (GCG-style) remain entirely unexplored against out-of-band systems.
 
 ## Mapping to Codex CLI's Defence Stack
 
@@ -153,11 +153,11 @@ graph LR
 
 Three weaknesses separate Codex CLI's current implementation from the full out-of-band vision:
 
-1. **No data-flow taint tracking.** CaMeL and FIDES track which variables contain untrusted data and block tainted values from reaching control-flow positions. Codex CLI has no equivalent — the model freely mixes trusted instructions with untrusted tool outputs in its context window. The ADI research (arXiv:2607.05120) confirmed this gap, showing 49.1% baseline attack success against agent systems [^12].
+1. **No data-flow taint tracking.** CaMeL and FIDES track which variables contain untrusted data and block tainted values from reaching control-flow positions. Codex CLI has no equivalent — the model freely mixes trusted instructions with untrusted tool outputs in its context window. The ADI research (arXiv:2607.05120) confirmed this gap, showing 49.1 per cent baseline attack success against agent systems [^12].
 
 2. **Incomplete hook coverage.** PreToolUse hooks fire for shell commands but not for file-edit patches or MCP tool calls [^11]. An injection that triggers `apply_patch` to write malicious code bypasses the deterministic gate entirely.
 
-3. **No adaptive attack testing.** Like the academic systems Narisetty et al. critique, Codex CLI's defences have not been subjected to defence-aware adaptive attacks. The Vera framework (arXiv:2607.01793) found 84.1% overall attack success rate against Codex CLI across 1,600 executable safety cases, with a +4.7 percentage-point vulnerability increase under multi-channel attacks [^13].
+3. **No adaptive attack testing.** Like the academic systems Narisetty et al. critique, Codex CLI's defences have not been subjected to defence-aware adaptive attacks. The Vera framework (arXiv:2607.01793) found 84.1 per cent overall attack success rate against Codex CLI across 1,600 executable safety cases, with a +4.7 percentage-point vulnerability increase under multi-channel attacks [^13].
 
 ## Practical Hardening Configuration
 

@@ -62,9 +62,9 @@ The average gap across all agents and benchmarks is **1.25 percentage points** �
 
 Restricting execution produces dramatic cost reductions:
 
-- **Claude Code (Prohibited vs Unrestricted):** 56–62% token savings, 48–54% wall-clock time savings [^1]
-- **Codex (Quota K=1):** 21–25% token savings with minimal time difference [^1]
-- **OpenCode (Prohibited vs Unrestricted):** 26–68% token savings, 43–67% time savings [^1]
+- **Claude Code (Prohibited vs Unrestricted):** 56–62 per cent token savings, 48–54 per cent wall-clock time savings [^1]
+- **Codex (Quota K=1):** 21–25 per cent token savings with minimal time difference [^1]
+- **OpenCode (Prohibited vs Unrestricted):** 26–68 per cent token savings, 43–67 per cent time savings [^1]
 
 For Claude Code, the prohibited paradigm essentially halves both cost and time whilst losing at most three percentage points of resolve rate.
 
@@ -72,13 +72,13 @@ For Claude Code, the prohibited paradigm essentially halves both cost and time w
 
 The paper offers two explanations for why strong models shrug off execution restrictions.
 
-First, **54–66% of successful repairs complete in a single edit** regardless of paradigm [^1]. When the model's internal world model is accurate enough to produce a correct patch on the first attempt, test execution adds nothing except confirmation — confirmation the official evaluation will provide anyway.
+First, **54–66 per cent of successful repairs complete in a single edit** regardless of paradigm [^1]. When the model's internal world model is accurate enough to produce a correct patch on the first attempt, test execution adds nothing except confirmation — confirmation the official evaluation will provide anyway.
 
 Second, execution benefits concentrate on **specific hard instances** rather than uniformly improving all attempts. The model either "knows" the fix or it does not; iterative test-and-revise helps only a narrow band of cases that sit between trivially correct and fundamentally beyond the model's capability.
 
 ### The Validation Illusion
 
-A sobering finding: **81–100% of failed cases pass the agent's own validation but fail the official evaluation** [^1]. Agents are running tests, seeing green, and submitting broken patches. This is not a testing problem — it is a test selection problem. The agent chooses which tests to run, and it consistently chooses tests that confirm its patch rather than challenge it.
+A sobering finding: **81–100 per cent of failed cases pass the agent's own validation but fail the official evaluation** [^1]. Agents are running tests, seeing green, and submitting broken patches. This is not a testing problem — it is a test selection problem. The agent chooses which tests to run, and it consistently chooses tests that confirm its patch rather than challenge it.
 
 ## Late Beats Early
 
@@ -207,11 +207,11 @@ The paper's findings translate into three actionable rules for Codex CLI practit
 
 **2. Invest in reasoning effort, not execution loops.** If your budget is fixed, spend it on `model_reasoning_effort = "xhigh"` rather than on eight rounds of test-and-revise. The paper shows this produces comparable resolve rates at lower total cost [^1].
 
-**3. Gate execution to late-stage only.** If you do allow test runs, concentrate them in the final third of the conversation. Early-stage execution has a 42% success rate versus 72% for late-stage [^1] — the model needs to understand the problem before tests become useful.
+**3. Gate execution to late-stage only.** If you do allow test runs, concentrate them in the final third of the conversation. Early-stage execution has a 42 per cent success rate versus 72 per cent for late-stage [^1] — the model needs to understand the problem before tests become useful.
 
 ### The Validation Trap
 
-The 81–100% false-positive validation rate [^1] is a warning for anyone relying on agent-reported test results. Codex CLI's `auto_review` subagent and AGENTS.md constraints can partially mitigate this by requiring the agent to run the repository's full test suite rather than cherry-picking tests that confirm its patch [^4]:
+The 81–100 per cent false-positive validation rate [^1] is a warning for anyone relying on agent-reported test results. Codex CLI's `auto_review` subagent and AGENTS.md constraints can partially mitigate this by requiring the agent to run the repository's full test suite rather than cherry-picking tests that confirm its patch [^4]:
 
 ```markdown
 <!-- AGENTS.md -->
@@ -228,7 +228,7 @@ Lin et al. frame their conclusion precisely: "Execution should be treated as a r
 
 For Codex CLI users, the practical consequence is clear: your `config.toml` is a cost-quality dial. The default settings — unrestricted execution, moderate reasoning effort — optimise for convenience, not efficiency. The evidence says you can halve your token spend by restricting execution and raising reasoning effort, with negligible impact on outcomes for frontier models.
 
-The caveat matters: this applies to frontier models on well-structured repositories. Weaker models (the paper's OpenCode results with Qwen2.5-Coder-32B show 7–14% resolve rates regardless of paradigm) and unusual codebases may still benefit from unrestricted execution. Know your model, know your codebase, and configure accordingly.
+The caveat matters: this applies to frontier models on well-structured repositories. Weaker models (the paper's OpenCode results with Qwen2.5-Coder-32B show 7–14 per cent resolve rates regardless of paradigm) and unusual codebases may still benefit from unrestricted execution. Know your model, know your codebase, and configure accordingly.
 
 ---
 
