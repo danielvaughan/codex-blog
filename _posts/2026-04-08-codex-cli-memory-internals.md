@@ -2,7 +2,7 @@
 title: "Codex CLI Memory Internals: Pipelines, Secret Sanitisation and Intelligent Forgetting"
 description: "Codex CLI's memory subsystem is considerably more sophisticated than a flat file of saved notes. Beneath the /m_update slash command sits a multi-phase."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-07-09T22:12:19+01:00
+last_modified_at: 2026-07-10T00:09:58+01:00
 tags:
   - architecture
   - memory

@@ -2,7 +2,7 @@
 title: "The AI Capability Gap: Why Karpathy Says Codex CLI Users Live in a Different Reality"
 description: "Andrej Karpathy posted a thread on April 9, 2026 that crystallised something Codex CLI practitioners have felt for months: the people who use frontier."
 date: 2026-04-10T09:00:00+00:00
-last_modified_at: 2026-07-09T22:12:19+01:00
+last_modified_at: 2026-07-10T00:09:58+01:00
 tags: ["karpathy", "ai-capability-gap", "reinforcement-learning", "agentic-coding", "codex-cli", "frontier-models", "verifiable-rewards", "perception"]
 type: Technical Article
 timestamp: 2026-04-10T10:00:00+01:00

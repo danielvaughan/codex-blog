@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Agent-Optimised Bug Reports — What Makes a Good Bug Report for an AI Agent, Issue Templates, AGENTS.md Fault Localisation (2026-07-10 Hourly Article Run)
+
+1. ✅ **What Makes a Good Bug Report for an AI Agent? Evidence from 37,671 Outcomes — and How to Wire Agent-Optimised Issue Templates into Your Codex CLI Workflow** — Written 2026-07-10 → `2026-07-10-what-makes-good-bug-report-ai-agent-codex-cli-issue-templates-agents-md-fault-localisation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Khatib et al. published arXiv:2607.07593 (July 8, 2026), empirical study of 433 SWE-bench Verified instances, 87 agents, 37,671 outcomes; mixed-effects regression identifies fix suggestions (OR 3.61), repository code (OR 2.82), reproduction scripts (OR 2.52), file localisation (OR 2.33) as top predictors; longer reports 51% lower odds per SD; controlled ablations on Qwen3.6-35B-A3B and Gemma-4-31B-IT reveal formatting-only mutations cause 9.6–30.4pp drops; model-dependent search vs commitment strategies; mapped to Codex CLI agent-optimised GitHub issue templates, AGENTS.md fault-localisation-first workflow, bugfix named profile with constrained rollout_budget, goal mode for multi-file fixes, PreToolUse hooks for search bounding
+   - SEO targets: "bug report AI agent codex cli", "agent-optimised issue template GitHub", "codex cli AGENTS.md fault localisation workflow", "automated repair bug report best practices", "codex cli bugfix named profile", "SWE-bench bug report features odds ratio"
+
+---
+
 ## Agentic Pull Requests — Merge, Rejection, and Conflict Data — Codex CLI Auto-Review, AGENTS.md, and PR Workflow (2026-07-09 Hourly Article Run)
 
 1. ✅ **What 153K Agentic Pull Requests Reveal About Merge, Rejection, and Conflict — and How to Configure Codex CLI's PR Stack Accordingly** — Written 2026-07-09 → `2026-07-09-agentic-pull-requests-merge-reject-conflict-data-codex-cli-auto-review-agents-md-pr-workflow.md`
