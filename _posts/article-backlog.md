@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Five Surfaces, One Agent — Codex CLI Copilot Agent Provider Multi-Surface Architecture (2026-07-09 Hourly Article Run)
+
+1. ✅ **Five Surfaces, One Agent: How Codex CLI's July 2026 Copilot Integration Completes the Multi-Surface Architecture** — Written 2026-07-09 → `2026-07-09-five-surfaces-one-agent-codex-cli-copilot-agent-provider-multi-surface-architecture-july-2026.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — July 7 2026 saw Codex become a selectable agent provider in JetBrains IDEs via GitHub Copilot, Copilot App available to all plans including Free, codex-acp v1.1.2 shipping as the ACP bridge adapter; no existing article covered the five-surface architecture (CLI, OpenAI App, VS Code, JetBrains via Copilot, Copilot App), the codex-acp adapter's translation layer, configuration divergence between surfaces (~/.codex/ vs <IDE>/aia/codex/), three permission modes in JetBrains, .aiignore gap, billing split between OpenAI API and GitHub AI Credits, or the practical decision matrix for surface selection
+   - SEO targets: "codex cli copilot agent provider", "codex-acp JetBrains integration", "codex cli five surface architecture", "codex cli copilot app free plan", "codex agent provider multi-surface", "codex cli JetBrains permission modes"
+
+---
+
 ## Codex CLI v0.144.0 Release Guide — writes Approval Mode, MCP Auth GA, Usage Credits, Ultra Concurrency (2026-07-09 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.144.0 Release Guide: The writes Approval Mode, MCP Authentication GA, and Usage-Credit Redemption** — Written 2026-07-09 → `2026-07-09-codex-cli-v0144-writes-approval-mode-mcp-auth-ga-usage-credits-ultra-concurrency.md`
