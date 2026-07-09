@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Codex CLI v0.143 Stable Release Guide — Remote Plugins by Default, System Proxy, Bedrock GPT-5.6, MCP Tool Search (2026-07-09 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.143 Stable Release Guide: Remote Plugins by Default, System Proxy Support, Bedrock GPT-5.6, and MCP Tool Search as Standard** — Written 2026-07-09 → `2026-07-09-codex-cli-v0143-stable-release-guide-remote-plugins-default-system-proxy-bedrock-gpt56-mcp-tool-search.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.143.0 released 8 July 2026, no existing article covered the release; remote plugins enabled by default removing opt-in flag, richer /plugins catalogue with npm sources and version drift visibility, system proxy PAC/WPAD resolvers completing the v0.142 enterprise proxy stack for Windows and macOS, Amazon Bedrock GPT-5.6 Sol/Terra/Luna with max reasoning effort, MCP tool search as default discovery mechanism, codex remote-control pair for Linux headless pairing, app-server descendant thread listing and history forking, UUID7 thread/turn ID documentation, ConPTY and credential retry fixes
+   - SEO targets: "codex cli v0.143 release guide", "codex cli remote plugins default", "codex cli system proxy PAC WPAD enterprise", "codex cli bedrock gpt-5.6 sol terra luna", "codex cli MCP tool search default", "codex cli remote control pair linux", "codex cli v0.143 migration"
+
+---
+
 ## Recursive Agent Harnesses — Harness Recursion, Subagent Spawning, and Codex CLI Multi-Agent Depth Configuration (2026-07-09 Hourly Article Run)
 
 1. ✅ **Recursive Agent Harnesses: Why Harness Recursion Outperforms Model Recursion and Flat Coding Agents — and How to Configure Codex CLI's Subagent Stack Accordingly** — Written 2026-07-09 → `2026-07-09-recursive-agent-harnesses-harness-recursion-subagent-spawning-codex-cli-multi-agent-depth-configuration.md`
