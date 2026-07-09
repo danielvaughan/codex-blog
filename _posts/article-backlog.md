@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Agentic Pull Requests — Merge, Rejection, and Conflict Data — Codex CLI Auto-Review, AGENTS.md, and PR Workflow (2026-07-09 Hourly Article Run)
+
+1. ✅ **What 153K Agentic Pull Requests Reveal About Merge, Rejection, and Conflict — and How to Configure Codex CLI's PR Stack Accordingly** — Written 2026-07-09 → `2026-07-09-agentic-pull-requests-merge-reject-conflict-data-codex-cli-auto-review-agents-md-pr-workflow.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — synthesises three MSR/AIware 2026 empirical studies: Peralta et al. (arXiv:2605.22534, 11,048 agentic PRs, only 35.7% of rejections are genuine agent failures), Ogenrwot & Businge AgenticFlict (arXiv:2604.03551, 142K+ PRs, 27.67% conflict rate, Codex highest at 32.31%), Fatima et al. (arXiv:2604.24450, 7,416 reviewer-bot comments, high volume degrades resolution time); mapped to Codex CLI auto_review Guardian P0/P1 filtering, AGENTS.md PR guidelines and review guidelines, writes approval mode v0.144.0, granular approval policy, pre-push rebase workflow, diff-scope constraints
+   - SEO targets: "agentic pull request merge reject data codex cli", "codex cli auto review guardian PR workflow", "AgenticFlict merge conflict coding agent", "codex cli AGENTS.md PR guidelines", "agentic PR rejection reasons empirical", "codex cli writes approval mode PR"
+
+---
+
 ## Five Surfaces, One Agent — Codex CLI Copilot Agent Provider Multi-Surface Architecture (2026-07-09 Hourly Article Run)
 
 1. ✅ **Five Surfaces, One Agent: How Codex CLI's July 2026 Copilot Integration Completes the Multi-Surface Architecture** — Written 2026-07-09 → `2026-07-09-five-surfaces-one-agent-codex-cli-copilot-agent-provider-multi-surface-architecture-july-2026.md`
