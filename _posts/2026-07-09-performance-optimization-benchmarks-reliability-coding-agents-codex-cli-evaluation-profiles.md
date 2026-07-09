@@ -41,21 +41,21 @@ Chen et al. replayed official reference patches on four Google Cloud machine con
 
 All machines had 64 vCPUs and 256 GB memory. Reference patches satisfied original validity rules **across all replays** for:
 
-- **GSO:** 39 / 102 tasks (38.2%)
-- **SWE-Perf:** 11 / 140 tasks (7.9%)
-- **SWE-fficiency:** 411 / 498 tasks (82.5%)
+- **GSO:** 39 / 102 tasks (38.2 per cent)
+- **SWE-Perf:** 11 / 140 tasks (7.9 per cent)
+- **SWE-fficiency:** 411 / 498 tasks (82.5 per cent)
 
-SWE-Perf is especially fragile because many reference patches produce near-zero runtime changes. Its median signal was just −0.03%, with a standard-deviation-to-signal ratio of 43.23× [^1]. Put differently, the measurement noise drowns the signal on the majority of tasks.
+SWE-Perf is especially fragile because many reference patches produce near-zero runtime changes. Its median signal was just −0.03 per cent, with a standard-deviation-to-signal ratio of 43.23× [^1]. Put differently, the measurement noise drowns the signal on the majority of tasks.
 
 ### 2. Scoring-Rule Disagreement
 
 Among eight public submissions shared by GSO and SWE-fficiency, the official rankings **disagreed on 9 of 28 pairwise comparisons** [^1]. An agent ranked third on one leaderboard can appear fifth on another — not because it performed differently, but because the aggregation formula weighted tasks differently.
 
-SWE-fficiency's harmonic-mean formula amplifies this: the worst ten tasks carried **58.5–82.8%** of total score weight [^1]. A single near-floor task could carry approximately 33.6% of a submission's weight alone. This means a marginal improvement on one pathological task can vault an agent up the leaderboard while revealing nothing about general optimisation capability.
+SWE-fficiency's harmonic-mean formula amplifies this: the worst ten tasks carried **58.5–82.8 per cent** of total score weight [^1]. A single near-floor task could carry approximately 33.6 per cent of a submission's weight alone. This means a marginal improvement on one pathological task can vault an agent up the leaderboard whilst revealing nothing about general optimisation capability.
 
 ### 3. Near-Saturation
 
-Across 450 replay-valid tasks from GSO and SWE-fficiency combined, at least one public submission matched or beat the reference patch on **85.3%** of tasks, and beat the unoptimised base code on **99.8%** [^1]. The remaining headroom is concentrated in a shrinking tail of difficult tasks — precisely the tasks most affected by runtime variance and scoring-weight distortion.
+Across 450 replay-valid tasks from GSO and SWE-fficiency combined, at least one public submission matched or beat the reference patch on **85.3 per cent** of tasks, and beat the unoptimised base code on **99.8 per cent** [^1]. The remaining headroom is concentrated in a shrinking tail of difficult tasks — precisely the tasks most affected by runtime variance and scoring-weight distortion.
 
 ```mermaid
 graph LR
@@ -116,7 +116,7 @@ Switch between profiles with `codex --profile perf-optimise` or `codex --profile
 
 ### Use Rollout Budgets to Contain Benchmark-Chasing Waste
 
-The saturation finding — 85.3% of tasks already solved by at least one submission — means that throwing more tokens at performance optimisation yields diminishing returns on well-trodden ground. Codex CLI's `rollout_budget` feature (introduced mid-2026) tracks cumulative token spend across agent threads and aborts turns when exhausted [^5]. Set a budget ceiling that matches the economic value of the optimisation, not the theoretical maximum.
+The saturation finding — 85.3 per cent of tasks already solved by at least one submission — means that throwing more tokens at performance optimisation yields diminishing returns on well-trodden ground. Codex CLI's `rollout_budget` feature (introduced mid-2026) tracks cumulative token spend across agent threads and aborts turns when exhausted [^5]. Set a budget ceiling that matches the economic value of the optimisation, not the theoretical maximum.
 
 ```toml
 [features.rollout_budget]
@@ -163,7 +163,7 @@ Chen et al. recommend three concrete steps for benchmark consumers [^1]:
 
 1. **Distinguish cross-machine verified tasks from unstable tasks** — only trust scores on the subset of tasks that reproduce across hardware configurations.
 2. **Show per-task score weight** — reject aggregate numbers that hide pathological weight concentration.
-3. **Compare submissions under aggregation rules that match your use case** — a binary pass/fail gate (GSO-style) answers "can the agent optimise this at all?", while a continuous score (SWE-fficiency-style) answers "by how much?" These are different questions.
+3. **Compare submissions under aggregation rules that match your use case** — a binary pass/fail gate (GSO-style) answers "can the agent optimise this at all?", whilst a continuous score (SWE-fficiency-style) answers "by how much?" These are different questions.
 
 This is not unique to performance benchmarks. The same structural issues — runtime variance, scoring-rule sensitivity, saturation — affect SWE-bench Verified [^7], SWE-bench Pro, and similar functional-correctness benchmarks, though with different magnitudes. The lesson is universal: **treat benchmark scores as noisy signals, not ground truth, and configure your tools accordingly**.
 

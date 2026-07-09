@@ -16,7 +16,7 @@ Most agent safety mechanisms evaluate each tool call in isolation. A single `rm 
 
 Wang et al.'s MAGE framework (arXiv:2605.03228, May 2026) [^2] is the first published defence that tackles this trajectory-level threat using an agentic memory approach. The core insight: maintain a compact, safety-focused "shadow memory" that distils security-critical context across the agent's full execution, then gate every pending action against it.
 
-The results are striking. Against sequential tool-attack chaining (STAC), MAGE reduces attack success rate from 100% to 8.3% using a Qwen3-4B backbone, whilst preserving 94.4% benign utility at a cost of just 7.0K extra tokens per task [^2].
+The results are striking. Against sequential tool-attack chaining (STAC), MAGE reduces attack success rate from 100 per cent to 8.3 per cent using a Qwen3-4B backbone, whilst preserving 94.4 per cent benign utility at a cost of just 7.0K extra tokens per task [^2].
 
 ## How MAGE Works
 
@@ -88,7 +88,7 @@ The shadow memory actually *reduces* token overhead versus judge-only by 1.8× �
 
 ### Environment-as-Adversary: Indirect Prompt Injection
 
-Across five injection attack types on the AgentDojo benchmark (7,682 test cases), MAGE achieves 0.4% average ASR with 73.0% benign utility — outperforming every baseline [^2]:
+Across five injection attack types on the AgentDojo benchmark (7,682 test cases), MAGE achieves 0.4 per cent average ASR with 73.0 per cent benign utility — outperforming every baseline [^2]:
 
 | Defence | PI2 ASR | Avg Benign Utility |
 |---------|---------|--------------------|
@@ -103,7 +103,7 @@ Detection latency averages 0.05 turns — MAGE catches attacks at or immediately
 
 ### Adaptive Attack Resilience
 
-Even under adaptive attacks targeting the shadow memory itself (memory poisoning + judge targeting), MAGE's ASR rises only to 12.5% [^2]. The shadow memory's compressed format makes it harder to manipulate than the full conversation context.
+Even under adaptive attacks targeting the shadow memory itself (memory poisoning + judge targeting), MAGE's ASR rises only to 12.5 per cent [^2]. The shadow memory's compressed format makes it harder to manipulate than the full conversation context.
 
 ## Mapping MAGE to Codex CLI's Defence Stack
 

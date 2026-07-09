@@ -33,9 +33,9 @@ This has a practical implication. If your team includes non-developers who inter
 
 This pattern maps directly to the paper's finding that skills and instructions are being shared across organisational roles [^1].
 
-## The 60.3% Tool Invocation Rate
+## The 60.3 per cent Tool Invocation Rate
 
-In the week preceding 11 June 2026, **60.3% of Codex turns** invoked at least one external tool, compared to **21.9% of ChatGPT turns** [^1]. Codex is fundamentally a tool-using system, not a conversational one.
+In the week preceding 11 June 2026, **60.3 per cent of Codex turns** invoked at least one external tool, compared to **21.9 per cent of ChatGPT turns** [^1]. Codex is fundamentally a tool-using system, not a conversational one.
 
 For CLI users, this means your MCP server configuration is not optional infrastructure — it is the primary interface between Codex and your development environment. Since v0.143.0, MCP tool search is enabled by default [^3], but you still need to wire up the servers that matter:
 
@@ -51,11 +51,11 @@ args = ["-y", "@modelcontextprotocol/server-github"]
 env = { GITHUB_PERSONAL_ACCESS_TOKEN = "..." }
 ```
 
-The paper's 60.3% figure also validates running Codex CLI with `approval_policy = "unless-allow-listed"` rather than blanket auto-approval. When six out of ten turns invoke tools, you want a policy that approves known-safe tools automatically while gating unfamiliar ones [^4].
+The paper's 60.3 per cent figure also validates running Codex CLI with `approval_policy = "unless-allow-listed"` rather than blanket auto-approval. When six out of ten turns invoke tools, you want a policy that approves known-safe tools automatically whilst gating unfamiliar ones [^4].
 
 ## Concurrent Agents: The Power-User Signal
 
-The paper's most revealing statistic is about concurrency. Among OpenAI employees, **28.6% managed five or more concurrent agents weekly** [^1]. The 99th-percentile user accumulated roughly **71 hours of daily runtime** — only possible through heavy parallelism [^1]. The paper notes that power users are "not submitting more requests — they are running more parallel agents" [^2].
+The paper's most revealing statistic is about concurrency. Among OpenAI employees, **28.6 per cent managed five or more concurrent agents weekly** [^1]. The 99th-percentile user accumulated roughly **71 hours of daily runtime** — only possible through heavy parallelism [^1]. The paper notes that power users are "not submitting more requests — they are running more parallel agents" [^2].
 
 This maps directly to Codex CLI's multi-agent patterns. The simplest approach is multiple terminal sessions, but the structured approach uses `codex exec` in parallel:
 
@@ -95,7 +95,7 @@ The paper's data suggests this is not a niche pattern. If a quarter of organisat
 
 ## The Eight-Hour Task Explosion
 
-Perhaps the paper's most consequential finding: the share of individual users submitting tasks estimated to require **more than eight hours** of experienced-human effort grew from **2.1% to 25.6%** — a near-tenfold increase [^1]. Simultaneously, **70.2%** of individual users now submit tasks requiring at least one hour of human effort, up from **35.4%** in December 2025 [^1].
+Perhaps the paper's most consequential finding: the share of individual users submitting tasks estimated to require **more than eight hours** of experienced-human effort grew from **2.1 per cent to 25.6 per cent** — a near-tenfold increase [^1]. Simultaneously, **70.2 per cent** of individual users now submit tasks requiring at least one hour of human effort, up from **35.4 per cent** in December 2025 [^1].
 
 This is the use case Goal Mode was built for. Shipped in v0.128.0 and reaching GA on 21 May 2026 [^5], `/goal` transforms Codex CLI from a single-turn tool into a persistent agentic loop:
 
@@ -120,9 +120,9 @@ compact_prompt = "Summarise progress, open issues, and next steps"
 
 The `rollout_budget` parameter is critical for eight-hour tasks. Without it, a runaway goal can consume your entire token allocation. The paper's data shows this is not a theoretical risk — users are actively submitting day-length tasks [^1].
 
-## Skills: From 5.4% to 26.6% in Three Months
+## Skills: From 5.4 per cent to 26.6 per cent in Three Months
 
-Skills usage among individual users grew from **5.4%** on 1 March to **26.6%** by 11 June 2026 [^1]. Among organisational users, **30.4%** invoked at least one skill. Among OpenAI employees, the figure is **96.2%** [^1].
+Skills usage among individual users grew from **5.4 per cent** on 1 March to **26.6 per cent** by 11 June 2026 [^1]. Among organisational users, **30.4 per cent** invoked at least one skill. Among OpenAI employees, the figure is **96.2 per cent** [^1].
 
 The trajectory is clear: skills are becoming the standard mechanism for encoding reusable workflows. In Codex CLI, skills map to plugins — combinations of hooks, MCP servers, and `AGENTS.md` instructions bundled for reuse [^4]:
 
@@ -144,7 +144,7 @@ codex plugin marketplace add your-org/code-review-skill
 codex plugin list
 ```
 
-The paper's 96.2% adoption among OpenAI employees is the leading indicator. If your team is not building and sharing skills yet, the data suggests you are roughly where the broader ecosystem was in March 2026.
+The paper's 96.2 per cent adoption among OpenAI employees is the leading indicator. If your team is not building and sharing skills yet, the data suggests you are roughly where the broader ecosystem was in March 2026.
 
 ## The Delegation Model: Coordinator, Not Executor
 
@@ -177,7 +177,7 @@ Combined with `approval_policy = "unless-allow-listed"`, this creates a trust bo
 
 ## Runtime Reality: 2.5 Hours Median Daily
 
-The median OpenAI employee runs Codex for **2.5 cumulative hours daily** [^1]. The 99th percentile reached approximately 71 hours through concurrent agents — a figure that increased **88%** since April 2026 [^1].
+The median OpenAI employee runs Codex for **2.5 cumulative hours daily** [^1]. The 99th percentile reached approximately 71 hours through concurrent agents — a figure that increased **88 per cent** since April 2026 [^1].
 
 For practitioners, this means session stability is a production concern. Long-running sessions need:
 
@@ -196,7 +196,7 @@ compact_prompt = "Preserve all file paths, test results, and pending tasks"
 
 ## Limitations and What the Data Does Not Show
 
-The authors are candid about limitations [^1]. OpenAI's internal usage is not representative of typical organisations — their 96.2% skill adoption reflects a company that builds the tool. Complexity estimates are model-predicted, not human-validated. The analysis is restricted to users who opted into data use for training, introducing potential selection bias.
+The authors are candid about limitations [^1]. OpenAI's internal usage is not representative of typical organisations — their 96.2 per cent skill adoption reflects a company that builds the tool. Complexity estimates are model-predicted, not human-validated. The analysis is restricted to users who opted into data use for training, introducing potential selection bias.
 
 The paper also cannot tell us about quality. A tenfold increase in eight-hour task submissions does not mean those tasks are completed successfully. The `rollout_budget` and `auto_review` settings exist precisely because autonomous agents can pursue goals inefficiently or incorrectly. ⚠️ The paper provides no data on task completion rates or output quality for delegated work.
 
