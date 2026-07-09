@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## MAGE Shadow Memory — Long-Horizon Agent Threats and Codex CLI PreToolUse Hooks Safety Distillation (2026-07-09 Hourly Article Run)
+
+1. ✅ **Shadow Memory for Long-Horizon Agent Safety: What MAGE Reveals About Persistent Threat Detection — and How to Wire Equivalent Guardrails into Codex CLI** — Written 2026-07-09 → `2026-07-09-mage-shadow-memory-long-horizon-agent-threats-codex-cli-pretooluse-hooks-safety-distillation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. published arXiv:2605.03228 (May 2026), MAGE (Memory As Guardrail Enforcement): shadow memory framework for long-horizon agent threat detection; shadow stack-inspired safety-focused agentic memory distilling trajectory into compact security context; memory manager + judge architecture with turn-wise GRPO training; STAC attacks reduced from 100% to 8.3% ASR with 94.4% benign utility at 7.0K token overhead; environment-as-adversary 0.4% average ASR across five injection types on AgentDojo (7,682 test cases); adaptive attack resilience at 12.5% ASR; 1.8× token efficiency vs judge-only; outperforms Spotlighting, Repeated-Prompt, PI-Detector, MELON, IPIGuard baselines; mapped to Codex CLI PreToolUse checkpoint gate, PostToolUse shadow memory update, AGENTS.md intent anchor, sandbox hardware backstop, Guardian auto-review second judge, session JSONL trajectory logs; identified gaps in native trajectory-level memory, trained risk scoring, cross-session attack pattern transfer
+   - SEO targets: "MAGE shadow memory codex cli long-horizon threats", "codex cli PreToolUse hook safety guard", "shadow memory agent security trajectory", "long-horizon agent attack defence codex cli", "codex cli PostToolUse shadow memory update", "MAGE guardrail enforcement coding agent"
+
+---
+
 ## The Shift to Agentic AI — OpenAI Usage Data and Codex CLI Practitioner Configuration (2026-07-09 Hourly Article Run)
 
 1. ✅ **The Shift to Agentic AI: What OpenAI's Own Usage Data Reveals — and What It Means for Your Codex CLI Configuration** — Written 2026-07-09 → `2026-07-09-shift-to-agentic-ai-evidence-from-codex-usage-patterns-codex-cli-practitioner-configuration.md`
