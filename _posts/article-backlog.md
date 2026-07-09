@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Codex CLI v0.144.0 Release Guide — writes Approval Mode, MCP Auth GA, Usage Credits, Ultra Concurrency (2026-07-09 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.144.0 Release Guide: The writes Approval Mode, MCP Authentication GA, and Usage-Credit Redemption** — Written 2026-07-09 → `2026-07-09-codex-cli-v0144-writes-approval-mode-mcp-auth-ga-usage-credits-ultra-concurrency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.144.0 released 9 July 2026, no existing article covered the release; new "writes" app-approval mode for MCP/connector tools (auto-approve reads, prompt on writes), MCP tool authentication graduating from experimental to GA, usage-limit reset credits with type and expiration display, ultra reasoning concurrency warning, retired model recovery on thread resume, Intel macOS Code Mode crash fix, terminal control sequence sanitisation, Windows sandbox file deletion fix, WebSocket proxy and custom CA support
+   - SEO targets: "codex cli v0.144 release guide", "codex cli writes approval mode", "codex cli MCP authentication GA", "codex cli usage credits redemption", "codex cli ultra reasoning concurrency warning", "codex cli v0.144 migration"
+
+---
+
 ## Codex CLI v0.143 Stable Release Guide — Remote Plugins by Default, System Proxy, Bedrock GPT-5.6, MCP Tool Search (2026-07-09 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.143 Stable Release Guide: Remote Plugins by Default, System Proxy Support, Bedrock GPT-5.6, and MCP Tool Search as Standard** — Written 2026-07-09 → `2026-07-09-codex-cli-v0143-stable-release-guide-remote-plugins-default-system-proxy-bedrock-gpt56-mcp-tool-search.md`
