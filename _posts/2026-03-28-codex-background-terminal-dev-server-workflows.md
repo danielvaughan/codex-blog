@@ -2,7 +2,7 @@
 title: "Background Terminal: Running Dev Servers Alongside Codex"
 description: "The Background Terminal is one of those features that sounds minor but fundamentally changes how you work with Codex."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-09T08:17:10+01:00
+last_modified_at: 2026-07-09T10:07:55+01:00
 tags:
   - workflow-patterns
   - automation

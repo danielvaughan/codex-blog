@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Performance-Optimisation Benchmark Reliability — Coding Agent Evaluation and Codex CLI Profiles (2026-07-09 Hourly Article Run)
+
+1. ✅ **Are Performance-Optimisation Benchmarks Reliably Measuring Coding Agents? What Practitioners Should Know — and How to Configure Codex CLI Accordingly** — Written 2026-07-09 → `2026-07-09-performance-optimization-benchmarks-reliability-coding-agents-codex-cli-evaluation-profiles.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. published arXiv:2607.01211 (July 1, 2026), auditing GSO, SWE-Perf, SWE-fficiency performance-optimisation benchmarks; cross-machine validity collapse (GSO 39/102, SWE-Perf 11/140, SWE-fficiency 411/498); SWE-Perf median signal −0.03% with 43.23× noise ratio; scoring-rule disagreement 9/28 pairwise comparisons; SWE-fficiency worst 10 tasks carrying 58.5–82.8% score weight; 85.3% saturation on replay-valid tasks; mapped to Codex CLI named profiles for task-granularity model selection, rollout_budget token ceiling, model_reasoning_effort graduated by complexity, AGENTS.md hardware-validation constraints, service_tier matching
+   - SEO targets: "performance optimisation benchmark reliability coding agent", "codex cli evaluation profile configuration", "GSO SWE-Perf SWE-fficiency benchmark reliability", "codex cli rollout budget performance", "coding agent benchmark cross-machine validity"
+
+---
+
 ## MAGE Shadow Memory — Long-Horizon Agent Threats and Codex CLI PreToolUse Hooks Safety Distillation (2026-07-09 Hourly Article Run)
 
 1. ✅ **Shadow Memory for Long-Horizon Agent Safety: What MAGE Reveals About Persistent Threat Detection — and How to Wire Equivalent Guardrails into Codex CLI** — Written 2026-07-09 → `2026-07-09-mage-shadow-memory-long-horizon-agent-threats-codex-cli-pretooluse-hooks-safety-distillation.md`
