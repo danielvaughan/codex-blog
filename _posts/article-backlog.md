@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Recursive Agent Harnesses — Harness Recursion, Subagent Spawning, and Codex CLI Multi-Agent Depth Configuration (2026-07-09 Hourly Article Run)
+
+1. ✅ **Recursive Agent Harnesses: Why Harness Recursion Outperforms Model Recursion and Flat Coding Agents — and How to Configure Codex CLI's Subagent Stack Accordingly** — Written 2026-07-09 → `2026-07-09-recursive-agent-harnesses-harness-recursion-subagent-spawning-codex-cli-multi-agent-depth-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Lumer et al. published arXiv:2606.13643 (June 11, 2026), Recursive Agent Harnesses (RAH): harness recursion where recursive unit is full agent harness with filesystem tools, code execution, planning; parent selects code-execution spawning (asyncio Task() for 6+ entries) or JSON tool-call spawning (1–5 entries); RAH GPT-5 81.36% vs Codex baseline 71.75% (+9.61 pp, 95% CI [4.2, 14.8]); RAH Claude Sonnet 4.5 89.77%; Oolong-Synthetic 199 samples, 13 context buckets to 4M tokens; no shared memory between siblings; depth-3 default; mapped to Codex CLI max_depth (default 1, raise to 3 for recursion), max_threads concurrent cap, spawn_agents_on_csv batch processing, AGENTS.md decomposition policy, prompt caching cost reduction
+   - SEO targets: "recursive agent harness codex cli subagent", "harness recursion coding agent architecture", "codex cli max_depth subagent configuration", "RAH recursive agent spawning parallel", "codex cli multi-agent depth recursion", "harness recursion vs model recursion coding agent"
+
+---
+
 ## Performance-Optimisation Benchmark Reliability — Coding Agent Evaluation and Codex CLI Profiles (2026-07-09 Hourly Article Run)
 
 1. ✅ **Are Performance-Optimisation Benchmarks Reliably Measuring Coding Agents? What Practitioners Should Know — and How to Configure Codex CLI Accordingly** — Written 2026-07-09 → `2026-07-09-performance-optimization-benchmarks-reliability-coding-agents-codex-cli-evaluation-profiles.md`
