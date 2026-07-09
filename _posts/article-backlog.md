@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## ContextSniper Token-Efficient Code Memory — Evidence Retrieval and Codex CLI Context Gate (2026-07-09 Hourly Article Run)
+
+1. ✅ **ContextSniper and the Evidence Packet Pattern: Why 51% Token Savings Don't Cost Resolution Rate — and How to Wire Equivalent Retrieval into Codex CLI** — Written 2026-07-09 → `2026-07-09-contextsniper-token-efficient-code-memory-repository-repair-codex-cli-evidence-retrieval-context-gate.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Luk et al. published arXiv:2607.01916 (July 2026, ICML 2026), ContextSniper: three-level AGFS-backed memory hierarchy (L0 compact abstract, L1 structured overview, L2 full content); hybrid ranker with weighted reciprocal rank fusion (semantic, BM25, ctags, graph relations, ripgrep fallback); intention-aware context gate classifying file reads vs command output; 51.5% token reduction and 36.4% cost reduction on OpenClaw (67.80M→32.91M), 38.9% token reduction on Claude Code (85.97M→52.55M); SWE-bench Lite 50 tasks; 46.4% action count reduction; mapped to Codex CLI tool_output_token_limit ingestion cap, model_auto_compact_token_limit compaction threshold, PreToolUse hooks for evidence filtering, AGENTS.md evidence discipline, named profiles for repair sessions; identified gaps in three-level memory hierarchy with recovery, graph-aware retrieval, intent classification on tool output
+   - SEO targets: "ContextSniper codex cli token-efficient code memory", "evidence packet pattern coding agent", "codex cli tool_output_token_limit repair", "AGFS code memory hierarchy agent", "codex cli context gate evidence retrieval", "token-efficient repository repair coding agent"
+
+---
+
 ## Dependency Steering Attacks and Slopsquatting — Supply-Chain Defence via Codex CLI Sandbox, Approval Policy, and PreToolUse Hooks (2026-07-09 Hourly Article Run)
 
 1. ✅ **Dependency Steering Attacks and Slopsquatting: How Malicious Skills Weaponise Package Hallucinations — and How Codex CLI's Defence Stack Fights Back** — Written 2026-07-09 → `2026-07-09-dependency-steering-attacks-slopsquatting-codex-cli-supply-chain-defence-sandbox-approval-hooks.md`
