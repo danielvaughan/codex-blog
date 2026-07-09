@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Dependency Steering Attacks and Slopsquatting — Supply-Chain Defence via Codex CLI Sandbox, Approval Policy, and PreToolUse Hooks (2026-07-09 Hourly Article Run)
+
+1. ✅ **Dependency Steering Attacks and Slopsquatting: How Malicious Skills Weaponise Package Hallucinations — and How Codex CLI's Defence Stack Fights Back** — Written 2026-07-09 → `2026-07-09-dependency-steering-attacks-slopsquatting-codex-cli-supply-chain-defence-sandbox-approval-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Liu et al. published arXiv:2605.09594 (May 2026), Dependency Steering: malicious Skill artifacts bias coding agents toward attacker-controlled packages during benign tasks; Context-Patch Injection Engine with RAG-guided strategy exploration; 78.57–100% THR on LLM_AT dataset across Llama-3.1-8B, Phi-4-mini, Qwen2.5-Coder 7B/14B/32B; evades 5/6 Skill scanners (Cisco, SkillRisk, SkillCheck); adaptive attacks evade Snyk at 65.52% THR; complemented by Hsu et al. arXiv:2605.29354 Neutral Prompting Attacks (NPA) — benign instructions increase hallucination propensity without explicit malicious intent; slopsquatting real-world incidents: 19.7% hallucination rate across 576K samples, 127 shared hallucinated names, react-codeshift in 237 repos; mapped to Codex CLI sandbox_mode workspace-write (network off by default), features.network_proxy domain allowlisting, approval_policy untrusted/granular gating, PreToolUse hooks for deterministic package-allowlist validation, requirements.toml fleet enforcement, AGENTS.md dependency constraints; identified gaps in registry-side creation-date validation, Skill cryptographic provenance, PostToolUse hallucination detection
+   - SEO targets: "dependency steering attack coding agent codex cli", "slopsquatting package hallucination defence", "codex cli supply chain security sandbox", "malicious agent skill package injection", "codex cli PreToolUse hook package validation", "neutral prompting attack agent skill", "codex cli network proxy dependency allowlist"
+
+---
+
 ## Cross-Lingual Token Arbitrage — Multilingual Prompt Compression and Codex CLI Context Budget Preprocessing (2026-07-09 Hourly Article Run)
 
 1. ✅ **Cross-Lingual Token Arbitrage: Why Non-English Prompts Cost 3× More — and How to Wire a Preprocessing Middleware into Codex CLI** — Written 2026-07-09 → `2026-07-09-cross-lingual-token-arbitrage-multilingual-prompt-compression-codex-cli-context-budget-preprocessing.md`
