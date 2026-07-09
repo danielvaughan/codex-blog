@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Shift to Agentic AI — OpenAI Usage Data and Codex CLI Practitioner Configuration (2026-07-09 Hourly Article Run)
+
+1. ✅ **The Shift to Agentic AI: What OpenAI's Own Usage Data Reveals — and What It Means for Your Codex CLI Configuration** — Written 2026-07-09 → `2026-07-09-shift-to-agentic-ai-evidence-from-codex-usage-patterns-codex-cli-practitioner-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Johnston et al. published arXiv:2606.26959 (June 25, 2026), first large-scale empirical study of agentic AI usage from OpenAI Codex data; 5× weekly active user growth H1 2026; 60.3% Codex turns invoke external tools vs 21.9% ChatGPT; 28.6% OpenAI users run 5+ concurrent agents; 25.6% submit 8+ hour tasks (up from 2.1%); skills usage grew 5.4%→26.6% individual, 96.2% OpenAI; median 2.5 hours daily runtime, 99th percentile 71 hours; mapped to Codex CLI named profiles, goal mode rollout_budget, MCP tool search v0.143.0, plugin marketplace, context compaction, AGENTS.md role-specific sections, auto_review delegation pattern
+   - SEO targets: "shift to agentic AI codex cli configuration", "codex usage data concurrent agents skills", "codex cli goal mode long horizon tasks", "agentic coding workflow configuration guide", "codex cli named profiles concurrent agents"
+
+---
+
 ## ContextSniper Token-Efficient Code Memory — Evidence Retrieval and Codex CLI Context Gate (2026-07-09 Hourly Article Run)
 
 1. ✅ **ContextSniper and the Evidence Packet Pattern: Why 51% Token Savings Don't Cost Resolution Rate — and How to Wire Equivalent Retrieval into Codex CLI** — Written 2026-07-09 → `2026-07-09-contextsniper-token-efficient-code-memory-repository-repair-codex-cli-evidence-retrieval-context-gate.md`
