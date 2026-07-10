@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## ChatGPT Work and the Codex Unification — CLI Developer Guide, Scheduled Tasks, Unified Runtime (2026-07-10 Hourly Article Run)
+
+1. ✅ **ChatGPT Work and the Codex Unification: What the July 9 Merger Means for CLI Developers** — Written 2026-07-10 → `2026-07-10-chatgpt-work-codex-unification-cli-developer-guide-scheduled-tasks-unified-runtime.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI shipped the ChatGPT/Codex/Work desktop unification on 9 July 2026; ChatGPT Work is a new autonomous agent surface powered by GPT-5.6 that produces structured artefacts (spreadsheets, slides, documents, web apps) across 1,400+ plugins; shares the same unified task runtime as Codex CLI; Codex CLI v0.144.0 shipped same day with writes approval mode, MCP interactive auth GA, app-server host auth; no existing article covered the actual launch (vs the June 2026 announcement), the Work agent's operational patterns, the automation decision matrix (Work scheduled tasks vs codex exec), cross-surface session continuity, or the cost management implications of shared metered allocation
+   - SEO targets: "chatgpt work codex cli developer guide", "codex cli chatgpt unification July 2026", "chatgpt work vs codex exec automation", "codex cli writes approval mode", "codex unified runtime architecture", "chatgpt work scheduled tasks developer"
+
+---
+
 ## Knowledge Debt and Agents That Teach — Incidental Learning, Cognitive Debt, SHIELD Principles, and Codex CLI Learning-Aware Configuration (2026-07-10 Hourly Article Run)
 
 1. ✅ **Knowledge Debt and the Agents That Teach: Designing Incidental Learning into Your Codex CLI Workflow** — Written 2026-07-10 → `2026-07-10-knowledge-debt-agents-that-teach-incidental-learning-codex-cli-cognitive-debt-shield-learning-aware-development.md`
