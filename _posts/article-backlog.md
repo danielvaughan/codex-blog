@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Progressive Crystallisation — Agent Exploration to Deterministic Workflows and Codex CLI Cost Reduction (2026-07-10 Hourly Article Run)
+
+1. ✅ **Progressive Crystallisation: How to Turn Codex CLI Exploration into Deterministic, Lower-Cost Workflows** — Written 2026-07-10 → `2026-07-10-progressive-crystallization-agent-exploration-deterministic-workflows-codex-cli-skill-exec-cost-reduction.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Malik published arXiv:2607.07052 (July 8, 2026), Progressive Crystallization: three-stage execution taxonomy (exploration → crystallisation → production) with bidirectional promotion/demotion; production cloud-networking AIOps system shifted from 0% to 45% deterministic execution over eight months; per-incident agent costs reduced by >70%; doubled incident volume handled; 40–70% latency reduction; >95% outcome consistency; mapped to Codex CLI interactive sessions (exploration), Record & Replay and session JSONL extraction (crystallisation), codex exec with named profiles and skills (production), PostToolUse hooks for demotion circuit-breaker, named profiles for stage-specific configuration, --output-schema for structured CI output
+   - SEO targets: "progressive crystallisation codex cli", "agent exploration deterministic workflow", "codex cli cost reduction skills", "codex exec production automation", "crystallise agent workflow codex cli", "codex cli session extraction skill creation"
+
+---
+
 ## Agent-Optimised Bug Reports — What Makes a Good Bug Report for an AI Agent, Issue Templates, AGENTS.md Fault Localisation (2026-07-10 Hourly Article Run)
 
 1. ✅ **What Makes a Good Bug Report for an AI Agent? Evidence from 37,671 Outcomes — and How to Wire Agent-Optimised Issue Templates into Your Codex CLI Workflow** — Written 2026-07-10 → `2026-07-10-what-makes-good-bug-report-ai-agent-codex-cli-issue-templates-agents-md-fault-localisation.md`

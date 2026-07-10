@@ -3,7 +3,7 @@ title: "Codex Enterprise Admin Guide: RBAC, Managed Policies and Compliance API"
 description: "Sources: developers.openai.com/codex/enterprise/admin-setup · developers.openai.com/codex/enterprise/governance · March 2026"
 subtitle: "The platform engineering guide to rolling out Codex CLI at enterprise scale — roles, policy enforcement, and audit logging"
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-07-10T00:09:58+01:00
+last_modified_at: 2026-07-10T02:15:06+01:00
 tags:
   - reference
   - enterprise
