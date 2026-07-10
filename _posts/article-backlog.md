@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## SWE-Router Trajectory-Based Model Routing — Partial-Exploration Escalation, Codex CLI Cost Strategy (2026-07-10 Hourly Article Run)
+
+1. ✅ **SWE-Router and Trajectory-Based Model Routing: What Partial-Exploration Escalation Means for Codex CLI Cost Strategy** — Written 2026-07-10 → `2026-07-10-swe-router-trajectory-based-model-routing-codex-cli-partial-exploration-cost-escalation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Son et al. published arXiv:2607.00053 (June 30, 2026, ICML 2026 DL4Code Workshop), SWE-Router: trajectory-based model routing letting cheap model run K exploratory turns before Bayes-optimal escalation decision; Theorem 4.1 proves partial-trajectory conditioning never harms routing; +15.3pp Route-AUC for deepseek-v3.2→gemini-3-pro-preview, +12pp for gpt-5-mini→gemini-3-pro-preview; synergy effect where routed system resolves tasks strong model alone cannot; K=3 turns optimal; value head on Qwen2.5-Coder-7B-Instruct with LoRA; mapped to Codex CLI named profiles for cheap-first triage, PostToolUse hooks for trajectory monitoring, rollout_budget for exploration capping, codex exec batch routing, reasoning effort as continuous escalation dial
+   - SEO targets: "SWE-Router trajectory routing codex cli", "codex cli model routing cost escalation", "trajectory-based model routing coding agent", "codex cli named profiles triage escalation", "cheap-first model routing coding agent 2026", "codex cli rollout budget exploration routing"
+
+---
+
 ## Codex Remote GA — QR Relay Architecture, Mobile Approvals, SSH Host Connections, CLI Developer Guide (2026-07-10 Hourly Article Run)
 
 1. ✅ **Codex Remote GA: QR Relay Architecture, Mobile Approvals, and the CLI Developer's Setup Guide** — Written 2026-07-10 → `2026-07-10-codex-remote-ga-qr-relay-architecture-mobile-approvals-ssh-host-cli-developer-guide.md`
