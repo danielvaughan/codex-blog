@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Vibe-Coded Application Insecurity — 10,517 Apps Vulnerability Taxonomy, Codex CLI Sandbox Hooks Defence (2026-07-10 Hourly Article Run)
+
+1. ✅ **The Insecurity of Vibe-Coded Applications: What 10,517 Real-World Apps Reveal About Agent Vulnerabilities — and How to Harden Your Codex CLI Workflow** — Written 2026-07-10 → `2026-07-10-vibe-coded-insecurity-10517-apps-vulnerability-patterns-codex-cli-sandbox-hooks-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Deng, Fan, and Meng published arXiv:2606.23130v2 (June 22, 2026), systematic study of 10,517 vibe-coded GitHub applications; 200 deployed apps audited via multi-agent pipeline (Claude Code Sonnet 4.6 + GitHub Copilot GPT-5.3-Codex); 90% contain at least one vulnerability; 1,471 validated vulnerabilities (median 7 per repo); 76.7% Critical/High severity; Broken Access Control in 75.5% of repos (20× OWASP baseline); three defect classes: memory defects 19.5%, objective defects 30.6%, knowledge defects 49.9%; eight failure modes including incomplete change propagation, demo-oriented design, hidden security rules; 32% awareness-action gap; "production-ready" prompt reduces trigger rate 40%→13%; mapped to Codex CLI sandbox deny-by-default network policy, AGENTS.md security anchors, PreToolUse propagation hooks, Guardian auto-review as structural self-check, v0.144.0 writes approval mode
+   - SEO targets: "vibe coding security vulnerabilities codex cli", "vibe-coded application insecurity OWASP", "codex cli sandbox hooks security defence", "agent vulnerability defect taxonomy coding", "codex cli AGENTS.md security hardening", "vibe coding production-ready prompt mitigation"
+
+---
+
 ## Test-Time Harness Evolution — TTHE Self-Improving Coding Agents, Codex CLI AGENTS.md Skills Hooks Evolution (2026-07-10 Hourly Article Run)
 
 1. ✅ **Test-Time Harness Evolution: What TTHE Reveals About Self-Improving Coding Agents — and How to Apply the Same Principles to Your Codex CLI Configuration Stack** — Written 2026-07-10 → `2026-07-10-test-time-harness-evolution-tthe-coding-agent-self-improvement-codex-cli-agents-md-skills-hooks-evolution.md`
