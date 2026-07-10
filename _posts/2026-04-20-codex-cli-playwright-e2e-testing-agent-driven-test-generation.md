@@ -2,7 +2,7 @@
 title: "End-to-End Testing with Codex CLI and Playwright: Agent-Driven Test Generation Pipelines"
 description: "End-to-end test suites are the perennial bottleneck in modern development workflows."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-07-10T08:20:02+01:00
+last_modified_at: 2026-07-10T10:08:46+01:00
 parent: "Articles"
 nav_order: 350
 type: Technical Article

@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Codex as Agent Provider in JetBrains IDEs — ACP Wrapper, Permission Modes, Hooks, and Configuration (2026-07-10 Hourly Article Run)
+
+1. ✅ **Codex as Agent Provider in JetBrains IDEs: The ACP Wrapper Architecture, Permission Modes, and What CLI Developers Need to Know** — Written 2026-07-10 → `2026-07-10-codex-agent-provider-jetbrains-ides-acp-wrapper-copilot-chat-permission-modes-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub announced Codex as selectable agent provider in JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm) on 7 July 2026; ACP wrapper architecture (codex-acp spawns same Codex agent as CLI); three permission modes mapping to CLI sandbox modes; hooks management in Agent Customisations; MCP server browsing/management from IDE; configuration path divergence from CLI (~/.codex/ vs IDE system dir); Autopilot mode; Copilot CLI vs Codex agent provider comparison; .aiignore unsupported; session isolation between surfaces; configuration checklist for CLI developers adding JetBrains surface
+   - SEO targets: "codex agent provider jetbrains IDE", "codex cli jetbrains copilot chat ACP", "codex ACP wrapper architecture JetBrains", "codex jetbrains permission modes hooks", "codex cli JetBrains configuration", "codex vs copilot CLI jetbrains agent"
+
+---
+
 ## Vibe-Coded Application Insecurity — 10,517 Apps Vulnerability Taxonomy, Codex CLI Sandbox Hooks Defence (2026-07-10 Hourly Article Run)
 
 1. ✅ **The Insecurity of Vibe-Coded Applications: What 10,517 Real-World Apps Reveal About Agent Vulnerabilities — and How to Harden Your Codex CLI Workflow** — Written 2026-07-10 → `2026-07-10-vibe-coded-insecurity-10517-apps-vulnerability-patterns-codex-cli-sandbox-hooks-defence.md`
