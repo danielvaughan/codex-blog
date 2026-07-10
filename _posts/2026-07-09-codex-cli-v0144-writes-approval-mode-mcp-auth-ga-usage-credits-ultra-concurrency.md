@@ -189,7 +189,7 @@ The low-latency WebSocket transport now respects system proxies and custom certi
 
 ## Migration Checklist
 
-1. **Update**: `npm update -g @anthropic-ai/codex` or equivalent for your package manager. v0.144 now auto-detects global pnpm installations for updates [^1].
+1. **Update**: `npm update -g @openai/codex` or equivalent for your package manager. v0.144 now auto-detects global pnpm installations for updates [^1].
 2. **Remove experimental flags**: Delete `[experimental] mcp_auth = true` from your config — MCP auth is GA.
 3. **Adopt `writes` mode**: Set `default_tools_approval_mode = "writes"` for MCP servers you trust to read but want gated on mutations.
 4. **Review concurrency settings**: If running parallel subagents with ultra reasoning, expect a warning. Adjust `model_reasoning_effort` or acknowledge the cost.
