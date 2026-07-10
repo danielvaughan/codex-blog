@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## 3,100 Opinions on Code Review in an AI World — Causal Theory, Review as Control Point, Codex CLI Guardian and AGENTS.md (2026-07-10 Hourly Article Run)
+
+1. ✅ **3,100 Opinions on Code Review in an AI World: What the Causal Theory Means for Your Codex CLI Review Stack** — Written 2026-07-10 → `2026-07-10-3100-opinions-code-review-ai-world-causal-theory-codex-cli-review-control-point-guardian-agents-md.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Agarwal, Miller, Kastner, and Vasilescu published arXiv:2607.07980 (July 8, 2026), grey-literature synthesis of 38,709 documents, 3,100 coded opinions into causal model of 26 constructs and 67 relationships (64 directed, 3 contested); organising claim that review is the control point where AI's effect on software quality is decided; agent-authored PRs reviewed less often and merged faster but direction flips under different analysis choices; three contested relationships (thoroughness, volume-attention, trust calibration); knowledge-erosion mechanism; corroborated with LinearB 2026 benchmarks (5.3x pickup delay, 32.7% acceptance rate) and He et al. enterprise 2x mandate (arXiv:2607.01904, 196,212 PRs, 2.09x throughput); mapped to Codex CLI AGENTS.md review guidelines, Guardian four-tier risk classification, v0.144.0 writes approval mode, granular approval_policy trust calibration, named profiles for review depth, model_reasoning_summary for knowledge-transfer preservation, requirements.toml fleet policy
+   - SEO targets: "code review AI world causal theory codex cli", "3100 opinions code review practitioner", "codex cli guardian auto review configuration", "review bottleneck agentic PR codex cli", "codex cli AGENTS.md review guidelines", "trust calibration code review coding agent"
+
+---
+
 ## ChatGPT Work and the Codex Unification — CLI Developer Guide, Scheduled Tasks, Unified Runtime (2026-07-10 Hourly Article Run)
 
 1. ✅ **ChatGPT Work and the Codex Unification: What the July 9 Merger Means for CLI Developers** — Written 2026-07-10 → `2026-07-10-chatgpt-work-codex-unification-cli-developer-guide-scheduled-tasks-unified-runtime.md`
