@@ -26,13 +26,13 @@ Peralta et al. analysed 11,048 closed agentic PRs (refined to 9,799 human-review
 | Workflow constraints (duplicate, superseded, policy) | 31.2% |
 | No observable rationale | 33.1% |
 
-Among merged PRs, 15.4% required explicit reviewer involvement through feedback or direct commits, and 5.5% showed no visible interaction trace at all [^1]. The study also exposed systematic differences across agents: Copilot and Devin PRs were more often embedded in reviewer-mediated workflows, whilst Codex and Cursor PRs were typically merged with minimal interaction [^1].
+Among merged PRs, 15.4 per cent required explicit reviewer involvement through feedback or direct commits, and 5.5 per cent showed no visible interaction trace at all [^1]. The study also exposed systematic differences across agents: Copilot and Devin PRs were more often embedded in reviewer-mediated workflows, whilst Codex and Cursor PRs were typically merged with minimal interaction [^1].
 
 **The practitioner takeaway:** a raw rejection rate is not a reliability metric. If roughly two-thirds of rejections stem from workflow friction or missing context rather than code quality, the lever to pull is upstream specification — not model capability.
 
 ### Merge Conflicts Are Frequent and Agent-Specific
 
-Ogenrwot and Businge built a deterministic merge-simulation pipeline across 142,000+ agentic PRs from 59,000+ repositories, identifying 29,000+ PRs with textual merge conflicts — a conflict rate of **27.67%** — and extracting 336,000+ fine-grained conflict regions [^2]. The conflict rates varied sharply by agent:
+Ogenrwot and Businge built a deterministic merge-simulation pipeline across 142,000+ agentic PRs from 59,000+ repositories, identifying 29,000+ PRs with textual merge conflicts — a conflict rate of **27.67 per cent** — and extracting 336,000+ fine-grained conflict regions [^2]. The conflict rates varied sharply by agent:
 
 | Agent | Conflict rate |
 |---|---|
@@ -83,7 +83,7 @@ flowchart TD
 
 ### 1. Tighten Scope with AGENTS.md to Reduce Conflicts
 
-Codex's 32.31% conflict rate [^2] is driven by large, structurally ambitious diffs landing on stale branches. The primary defence is constraining diff scope in `AGENTS.md`:
+Codex's 32.31 per cent conflict rate [^2] is driven by large, structurally ambitious diffs landing on stale branches. The primary defence is constraining diff scope in `AGENTS.md`:
 
 ```markdown
 ## PR guidelines
@@ -134,7 +134,7 @@ max_files_per_pr = 20
 
 ### 4. Rebase Before Push to Pre-empt Conflicts
 
-Given the 27.67% base conflict rate [^2], a pre-push rebase should be standard practice. In AGENTS.md:
+Given the 27.67 per cent base conflict rate [^2], a pre-push rebase should be standard practice. In AGENTS.md:
 
 ```markdown
 ## Git workflow
@@ -169,7 +169,7 @@ pie title Agentic PR Rejection Reasons (n=717)
     "No observable rationale" : 33.1
 ```
 
-The 31.2% workflow-constraint rejections include duplicates, superseded PRs, and policy violations [^1]. These are preventable with better upstream coordination:
+The 31.2 per cent workflow-constraint rejections include duplicates, superseded PRs, and policy violations [^1]. These are preventable with better upstream coordination:
 
 - **Duplicate prevention:** use `AGENTS.md` to instruct the agent to check for existing PRs addressing the same issue before starting work
 - **Policy compliance:** encode branch-naming conventions, commit-message formats, and required CI checks in `AGENTS.md`
@@ -197,9 +197,9 @@ Codex's minimal-interaction pattern means the quality gate must be **before** th
 
 Based on the combined evidence from all three studies:
 
-1. **Do not use rejection rate as a quality metric.** Only 35.7% of rejections reflect genuine failures [^1]. Track resolution time and reviewer effort instead.
+1. **Do not use rejection rate as a quality metric.** Only 35.7 per cent of rejections reflect genuine failures [^1]. Track resolution time and reviewer effort instead.
 
-2. **Expect and plan for merge conflicts.** At 32.31%, Codex's conflict rate is the highest among major agents [^2]. Short-lived branches and aggressive rebasing are non-negotiable.
+2. **Expect and plan for merge conflicts.** At 32.31 per cent, Codex's conflict rate is the highest among major agents [^2]. Short-lived branches and aggressive rebasing are non-negotiable.
 
 3. **Keep review feedback targeted.** High comment volume correlates with slower resolution [^3]. Codex's P0/P1 filtering is the right default — do not weaken it.
 

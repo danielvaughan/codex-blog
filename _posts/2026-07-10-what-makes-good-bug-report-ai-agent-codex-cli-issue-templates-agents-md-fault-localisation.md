@@ -14,9 +14,9 @@ Bug reports have always mattered. What has changed is who reads them first. As c
 
 ## The Study at a Glance
 
-The paper runs two complementary studies. Study 1 fits a mixed-effects logistic regression across 433 SWE-bench Verified instances resolved by 87 different repair agents — 37,671 total agent–instance outcomes with an overall solve rate of 47.7% [^1]. Study 2 isolates causation through controlled ablation experiments on 283 bug-fix-labelled instances from SWE-bench Pro, testing Qwen3.6-35B-A3B and Gemma-4-31B-IT across 17 mutation conditions with three runs each [^1].
+The paper runs two complementary studies. Study 1 fits a mixed-effects logistic regression across 433 SWE-bench Verified instances resolved by 87 different repair agents — 37,671 total agent–instance outcomes with an overall solve rate of 47.7 per cent [^1]. Study 2 isolates causation through controlled ablation experiments on 283 bug-fix-labelled instances from SWE-bench Pro, testing Qwen3.6-35B-A3B and Gemma-4-31B-IT across 17 mutation conditions with three runs each [^1].
 
-The headline finding inverts conventional wisdom: **natural-language prose clarity contributes little, and longer reports actively harm resolution**. A one-standard-deviation increase in report length correlated with 51% lower odds of resolution [^1].
+The headline finding inverts conventional wisdom: **natural-language prose clarity contributes little, and longer reports actively harm resolution**. A one-standard-deviation increase in report length correlated with 51 per cent lower odds of resolution [^1].
 
 ## What Helps: The Six Features That Move the Needle
 

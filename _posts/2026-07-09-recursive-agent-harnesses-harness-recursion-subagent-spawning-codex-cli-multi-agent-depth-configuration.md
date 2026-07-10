@@ -52,15 +52,15 @@ The paper benchmarks against the Oolong-Synthetic validation split — 199 strat
 | **RAH (GPT-5)** | **81.36%** | Harness recursion |
 | **RAH (Claude Sonnet 4.5)** | **89.77%** | Harness recursion |
 
-RAH with GPT-5 delivers a 9.61-point gain over the Codex baseline (95% CI [4.2, 14.8]) and a 16.98-point gain over RLMs (95% CI [11.5, 22.0]) [^1]. The gains are architectural, not model-dependent — swapping GPT-5 for Claude Sonnet 4.5 pushes accuracy to 89.77% using the identical harness design [^1].
+RAH with GPT-5 delivers a 9.61-point gain over the Codex baseline (95% CI [4.2, 14.8]) and a 16.98-point gain over RLMs (95% CI [11.5, 22.0]) [^1]. The gains are architectural, not model-dependent — swapping GPT-5 for Claude Sonnet 4.5 pushes accuracy to 89.77 per cent using the identical harness design [^1].
 
 ### Per-Category Breakdown
 
-Performance varies by answer type. USER answers reach 87.27%, COMPARISON 89.29%, and LABEL 86.54%. NUMERIC tasks trail at 69.33% due to continuous-quantity scoring penalties on off-by-one errors, while DATE tasks show high variance with only five samples [^1].
+Performance varies by answer type. USER answers reach 87.27 per cent, COMPARISON 89.29 per cent, and LABEL 86.54 per cent. NUMERIC tasks trail at 69.33 per cent due to continuous-quantity scoring penalties on off-by-one errors, whilst DATE tasks show high variance with only five samples [^1].
 
 ### Context Length Scaling
 
-RAH with Claude Sonnet 4.5 maintains above 76% accuracy through 4M tokens — a regime where flat agents collapse [^1]. The recursion naturally decomposes long contexts into manageable subagent workloads rather than attempting single-pass reasoning over the full document.
+RAH with Claude Sonnet 4.5 maintains above 76 per cent accuracy through 4M tokens — a regime where flat agents collapse [^1]. The recursion naturally decomposes long contexts into manageable subagent workloads rather than attempting single-pass reasoning over the full document.
 
 ## Why This Matters for Codex CLI
 
@@ -153,7 +153,7 @@ RAH exposes three failure modes practitioners should watch for [^1]:
 
 1. **Parent skip** — at extreme context lengths, the parent occasionally fails to spawn subagents, collapsing to single-agent behaviour. Mitigate with explicit AGENTS.md instructions mandating decomposition for large inputs.
 2. **Numeric precision** — off-by-one errors in continuous quantities compound through recursive aggregation. Keep numeric extraction in the parent agent where possible.
-3. **Cost scaling** — token costs scale with subagent count and document re-reads. The paper notes prompt caching could reduce costs by up to 80% on long-horizon agentic workloads [^1]. Codex CLI's prompt caching (available since v0.138.0) applies automatically [^6].
+3. **Cost scaling** — token costs scale with subagent count and document re-reads. The paper notes prompt caching could reduce costs by up to 80 per cent on long-horizon agentic workloads [^1]. Codex CLI's prompt caching (available since v0.138.0) applies automatically [^6].
 
 ### AGENTS.md for Recursive Workloads
 

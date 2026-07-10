@@ -14,9 +14,9 @@ Every interactive Codex CLI session burns reasoning tokens. That is the trade-of
 
 ## The Cost Problem with Permanent Exploration
 
-Malik's core observation is stark: AI agents deployed as permanent execution engines are permanent cost centres [^1]. In a production cloud-networking AIOps system, the framework achieved a shift from 0% to 45% deterministic execution over eight months, reducing per-incident agent costs by more than 70% while handling doubled incident volume [^1]. The implication for coding agents is direct: every Codex CLI session that solves a recurring problem — running a migration, fixing a lint category, scaffolding a service — is a candidate for crystallisation.
+Malik's core observation is stark: AI agents deployed as permanent execution engines are permanent cost centres [^1]. In a production cloud-networking AIOps system, the framework achieved a shift from 0 per cent to 45 per cent deterministic execution over eight months, reducing per-incident agent costs by more than 70 per cent whilst handling doubled incident volume [^1]. The implication for coding agents is direct: every Codex CLI session that solves a recurring problem — running a migration, fixing a lint category, scaffolding a service — is a candidate for crystallisation.
 
-The economic model quantifies three cost components: model inference (proportional to reasoning complexity), tool invocations (per-call charges for MCP tools, shell commands, and file operations), and latency (wall-clock time in CI pipelines where minutes cost money) [^1]. Production-stage deterministic paths typically achieve 60–80% cost reduction and 40–70% latency improvement compared with continuous agent exploration [^1].
+The economic model quantifies three cost components: model inference (proportional to reasoning complexity), tool invocations (per-call charges for MCP tools, shell commands, and file operations), and latency (wall-clock time in CI pipelines where minutes cost money) [^1]. Production-stage deterministic paths typically achieve 60–80 per cent cost reduction and 40–70 per cent latency improvement compared with continuous agent exploration [^1].
 
 ## The Three-Stage Execution Taxonomy
 
@@ -175,7 +175,7 @@ Some tasks resist crystallisation:
 - **Architecture decisions** requiring contextual reasoning about trade-offs
 - **First-time integrations** with new APIs or services
 
-The framework's monitoring layer detects these by tracking the ratio of production-path matches to exploration fallbacks [^1]. A healthy system handles 75–85% of requests through production pathways, with the remainder routed to exploration [^1].
+The framework's monitoring layer detects these by tracking the ratio of production-path matches to exploration fallbacks [^1]. A healthy system handles 75–85 per cent of requests through production pathways, with the remainder routed to exploration [^1].
 
 ## Practical Implementation: A Four-Week Crystallisation Sprint
 
@@ -225,7 +225,7 @@ Applying the progressive crystallisation metrics to typical Codex CLI usage:
 | Task throughput | Baseline | 2× [^1] |
 | Outcome consistency | Variable | >95% [^1] |
 
-For a team running 100 Codex CLI tasks per day at an average of $0.50 per task, crystallising 45% of workflows at 70% cost reduction saves approximately $15.75 per day — or roughly $5,750 annually. At enterprise scale with thousands of daily agent invocations, the savings are substantial.
+For a team running 100 Codex CLI tasks per day at an average of $0.50 per task, crystallising 45 per cent of workflows at 70 per cent cost reduction saves approximately $15.75 per day — or roughly $5,750 annually. At enterprise scale with thousands of daily agent invocations, the savings are substantial.
 
 ## Relationship to Existing Patterns
 

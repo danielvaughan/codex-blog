@@ -1,6 +1,6 @@
 ---
 title: "The Invisible Payload: How Unicode TAG-Block Encoding Breaks MCP Approval Dialogs — and Where Codex CLI's Defence Stack Stands"
-description: "Rashidi's arXiv:2607.05744 reveals that a single Unicode encoding trick can slip instructions past every MCP approval dialog while reaching the model unchanged. Eight concealment techniques, three server libraries, zero re-approvals triggered. This article maps the findings to Codex CLI's layered security architecture and identifies what it catches and what it cannot."
+description: "Rashidi's arXiv:2607.05744 reveals that a single Unicode encoding trick can slip instructions past every MCP approval dialog whilst reaching the model unchanged. Eight concealment techniques, three server libraries, zero re-approvals triggered. This article maps the findings to Codex CLI's layered security architecture and identifies what it catches and what it cannot."
 parent: "Articles"
 nav_order: 1394
 type: Technical Article
@@ -22,7 +22,7 @@ This article unpacks the eight concealment techniques, maps them against Codex C
 
 MCP's `tools/list` handshake returns three metadata fields per tool: a `name`, a natural-language `description`, and a JSON `inputSchema` [^2]. The client renders this metadata once, in a one-time approval dialog, then injects it verbatim into the model's context on every subsequent turn. Nothing in the protocol specification requires the rendered approval view and the bytes delivered to the model to match [^1].
 
-This is the approval-view fidelity gap. It exists because approval dialogs render metadata as displayable text, while models receive raw UTF-8 byte streams. Any encoding that lacks a visible glyph in the renderer but survives tokenisation creates an asymmetric channel: the human sees nothing, the model sees everything.
+This is the approval-view fidelity gap. It exists because approval dialogs render metadata as displayable text, whilst models receive raw UTF-8 byte streams. Any encoding that lacks a visible glyph in the renderer but survives tokenisation creates an asymmetric channel: the human sees nothing, the model sees everything.
 
 ```mermaid
 sequenceDiagram
@@ -229,7 +229,7 @@ Rashidi proposes four structural defences that require changes upstream of any i
 3. **Provenance-scoped namespaces** — scope tool identity by server origin, preventing cross-server name shadowing (closes T6)
 4. **Schema values as consent** — treat defaults and enums as instruction channels requiring explicit approval (closes T8)
 
-These align with the eight security invariants proposed by the HCP reference runtime, which blocked all ten modelled attacks while maintaining sub-millisecond policy-check latency [^7]. The MCP specification would need to adopt at least invariants for metadata non-authority and grant-backed approval to close the fidelity gap structurally.
+These align with the eight security invariants proposed by the HCP reference runtime, which blocked all ten modelled attacks whilst maintaining sub-millisecond policy-check latency [^7]. The MCP specification would need to adopt at least invariants for metadata non-authority and grant-backed approval to close the fidelity gap structurally.
 
 ## Practical Implications
 

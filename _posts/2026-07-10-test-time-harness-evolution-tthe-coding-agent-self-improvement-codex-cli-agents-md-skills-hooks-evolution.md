@@ -14,7 +14,7 @@ tags: ["codex-cli", "harness-engineering", "TTHE", "test-time-adaptation", "AGEN
 
 On 9 July 2026, Nie et al. published *TTHE: Test-Time Harness Evolution* (arXiv:2607.08124), a paper that reframes how we think about improving coding agent performance [^1]. The central claim is deceptively simple: instead of fine-tuning the model or swapping to a more expensive one, you can systematically evolve the *harness* — the executable control program surrounding a frozen LLM — using only unlabelled execution traces the agent produces during evaluation.
 
-The results are striking. On a hard 50-question BIRD text-to-SQL slice, a baseline ReAct harness around DeepSeek V4 Flash scored 12.0%; after TTHE's automated evolution loop, the same frozen model reached 50.0% — a 38-point lift with zero weight updates [^1]. Across five domains (text-to-SQL, competitive coding, software engineering, data science, and agentic tool use), TTHE consistently improved fixed baseline harnesses by 6 to 38 percentage points [^1].
+The results are striking. On a hard 50-question BIRD text-to-SQL slice, a baseline ReAct harness around DeepSeek V4 Flash scored 12.0 per cent; after TTHE's automated evolution loop, the same frozen model reached 50.0 per cent — a 38-point lift with zero weight updates [^1]. Across five domains (text-to-SQL, competitive coding, software engineering, data science, and agentic tool use), TTHE consistently improved fixed baseline harnesses by 6 to 38 percentage points [^1].
 
 For Codex CLI practitioners, this matters because every element of the Codex customisation stack — AGENTS.md, skills, hooks, named profiles, and approval policies — constitutes exactly the kind of harness surface that TTHE demonstrates can be optimised through systematic feedback loops.
 
@@ -194,7 +194,7 @@ Activate with `codex --profile debug`, switching the entire harness configuratio
 
 ## The Oracle Gap: Where Automated Evolution Falls Short
 
-TTHE's ablation studies reveal an important limitation. The pool oracle (best candidate in the judge's selection set) reaches 64.0% on BIRD, but the all-candidates oracle (best candidate ever generated) reaches 70.0% [^1]. The 6-point gap represents selection regret — the judge commits suboptimal candidates because proxy signals are imperfect.
+TTHE's ablation studies reveal an important limitation. The pool oracle (best candidate in the judge's selection set) reaches 64.0 per cent on BIRD, but the all-candidates oracle (best candidate ever generated) reaches 70.0 per cent [^1]. The 6-point gap represents selection regret — the judge commits suboptimal candidates because proxy signals are imperfect.
 
 For Codex CLI practitioners, this translates to a practical caution: automated harness evolution through trace analysis is powerful, but human review of evolved configurations remains valuable. The `--print-instructions` flag (available since approximately April 2026 [^2]) lets you inspect the merged AGENTS.md that Codex loaded, providing a review surface equivalent to TTHE's judge inspection.
 

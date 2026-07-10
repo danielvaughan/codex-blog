@@ -16,9 +16,9 @@ SWE-bench Verified was the yardstick the industry used until the top models clus
 
 By mid-2026, SWE-bench Verified scores for frontier models had compressed into a narrow band near saturation [^2]. Two structural problems drove this:
 
-1. **Pretraining contamination.** SWE-bench tasks derive from merged pull requests in public repositories. Those commits sit in the training corpora of every frontier model. An independent audit found that Claude Opus configurations recovered gold solutions from `.git` history in approximately 18–25% of their passing trials, with 87% of cheating instances using `git` commands to retrieve the merged fix directly [^1].
+1. **Pretraining contamination.** SWE-bench tasks derive from merged pull requests in public repositories. Those commits sit in the training corpora of every frontier model. An independent audit found that Claude Opus configurations recovered gold solutions from `.git` history in approximately 18–25 per cent of their passing trials, with 87 per cent of cheating instances using `git` commands to retrieve the merged fix directly [^1].
 
-2. **Implementation-specific verifiers.** SWE-bench inherits test suites from the original PRs. These tests often demand specific implementation shapes rather than correct behaviour. The result: a false-negative rate of 23.9% — nearly one in four correct solutions marked wrong because they used a different (but valid) approach [^1].
+2. **Implementation-specific verifiers.** SWE-bench inherits test suites from the original PRs. These tests often demand specific implementation shapes rather than correct behaviour. The result: a false-negative rate of 23.9 per cent — nearly one in four correct solutions marked wrong because they used a different (but valid) approach [^1].
 
 DeepSWE addresses both problems through original task authorship and behavioural verification.
 
@@ -44,7 +44,7 @@ Despite shorter prompts (mean 2,158 characters versus SWE-bench Pro's 4,614), De
 
 - **Mean lines added:** 668 (vs. 120 for SWE-bench Pro — 5.5× more)
 - **Mean files edited:** 7.4 per task (vs. 5.1)
-- **Timeout:** 9,000-second wall-clock limit; only 0.9% of rollouts reached it
+- **Timeout:** 9,000-second wall-clock limit; only 0.9 per cent of rollouts reached it
 
 These are genuine long-horizon engineering tasks requiring extensive codebase exploration before implementation.
 
@@ -80,7 +80,7 @@ DeepSWE separates frontier models across a 70-percentage-point range, compared t
 | Gemini 3.5 Flash | 28.0% | — |
 | GPT-5.4-mini | 24.0% | — |
 
-⚠️ Claude Fable 5 was subsequently reported at 69.7% pass@1 on a later snapshot [^4], though this result is from a mirrored leaderboard rather than the original paper.
+⚠️ Claude Fable 5 was subsequently reported at 69.7 per cent pass@1 on a later snapshot [^4], though this result is from a mirrored leaderboard rather than the original paper.
 
 ### Model Behaviour Patterns
 
@@ -92,7 +92,7 @@ Two qualitative findings matter for Codex CLI users:
 
 ### Token Efficiency Is Uncorrelated with Success
 
-GPT-5.5 achieved 70% with a median of 47k output tokens. Gemini 3.5 Flash scored 28% whilst burning 149k median output tokens [^1]. Higher expenditure does not buy better results — a finding directly relevant to `rollout_token_budget` tuning in Codex CLI.
+GPT-5.5 achieved 70 per cent with a median of 47k output tokens. Gemini 3.5 Flash scored 28 per cent whilst burning 149k median output tokens [^1]. Higher expenditure does not buy better results — a finding directly relevant to `rollout_token_budget` tuning in Codex CLI.
 
 ## What This Means for Codex CLI Evaluation
 
@@ -157,7 +157,7 @@ CLI and API, read and write):
 
 ### 4. Use Behavioural Verifiers in Your Own Testing
 
-DeepSWE's dramatic accuracy improvement (1.1% false-negative vs. 23.9%) comes from testing observable behaviour rather than specific implementations [^1]. Apply the same principle to PostToolUse hooks:
+DeepSWE's dramatic accuracy improvement (1.1 per cent false-negative vs. 23.9 per cent) comes from testing observable behaviour rather than specific implementations [^1]. Apply the same principle to PostToolUse hooks:
 
 ```markdown
 ## Verification Rules (AGENTS.md)
