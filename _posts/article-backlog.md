@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Test-Time Harness Evolution — TTHE Self-Improving Coding Agents, Codex CLI AGENTS.md Skills Hooks Evolution (2026-07-10 Hourly Article Run)
+
+1. ✅ **Test-Time Harness Evolution: What TTHE Reveals About Self-Improving Coding Agents — and How to Apply the Same Principles to Your Codex CLI Configuration Stack** — Written 2026-07-10 → `2026-07-10-test-time-harness-evolution-tthe-coding-agent-self-improvement-codex-cli-agents-md-skills-hooks-evolution.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Nie et al. published arXiv:2607.08124 (July 9, 2026), TTHE: population-based harness evolution using label-free proxy signals (execution health, round-trip consistency, public-test pass rate); 38-point lift on BIRD text-to-SQL (12.0%→50.0%), 15-point lift on SWE-bench Verified (20.0%→35.0%), 20.9-point lift on claw-eval tool use (48.9%→69.8%); cross-model validation on DeepSeek V4 Flash, MiMo V2.5, Kimi K2.5; evolved harnesses independently discover reproduce-first debugging, root-cause localisation, anti-paralysis failsafe, value grounding; oracle gap analysis (64.0% pool vs 70.0% all-candidates); mapped to Codex CLI AGENTS.md as evolvable prompt template, PreToolUse/PostToolUse hooks as middleware policies, skills as memory seeds, named profiles as runtime configuration, session JSONL as execution traces, --print-instructions for judge inspection, codex exec batch evaluation workflow
+   - SEO targets: "TTHE test-time harness evolution codex cli", "self-improving coding agent harness", "codex cli AGENTS.md evolution feedback", "harness engineering coding agent 2026", "codex cli hooks skills harness improvement", "test-time adaptation coding agent frozen model"
+
+---
+
 ## DeepSWE Benchmark — Long-Horizon Coding Agent Evaluation, Contamination-Free Verifiers, and Codex CLI Evaluation Methodology (2026-07-10 Hourly Article Run)
 
 1. ✅ **DeepSWE and the End of Benchmark Saturation: What 113 Contamination-Free Tasks Reveal About Frontier Coding Agents — and What It Means for Codex CLI Evaluation** — Written 2026-07-10 → `2026-07-10-deepswe-benchmark-long-horizon-coding-agents-codex-cli-evaluation-contamination-free-verifier-methodology.md`
