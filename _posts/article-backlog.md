@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Knowledge Debt and Agents That Teach — Incidental Learning, Cognitive Debt, SHIELD Principles, and Codex CLI Learning-Aware Configuration (2026-07-10 Hourly Article Run)
+
+1. ✅ **Knowledge Debt and the Agents That Teach: Designing Incidental Learning into Your Codex CLI Workflow** — Written 2026-07-10 → `2026-07-10-knowledge-debt-agents-that-teach-incidental-learning-codex-cli-cognitive-debt-shield-learning-aware-development.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Mehra et al. published arXiv:2607.06101 (July 7, 2026), ASE 2026 NIER track: Knowledge Debt concept (developer-level parallel to technical debt), six design principles for learning-aware agent interactions (contextual relevance, minimal disruption, adaptive depth, rationale transparency, spaced reinforcement, ownership preservation), SHIELD multi-agent teaching system; synthesised with Storey's Triple Debt Model (arXiv:2603.22106, technical/cognitive/intent debt), Anthropic's 17% comprehension drop RCT, GitClear's 211M-line code quality study; mapped to Codex CLI model_reasoning_summary detailed mode, AGENTS.md learning anchors, PostToolUse hooks for comprehension checkpoints, named profiles for adaptive depth (learning/review/production), session JSONL as learning audit trail, writes approval mode for ownership preservation
+   - SEO targets: "knowledge debt coding agent codex cli", "agents that teach incidental learning", "cognitive debt AI coding tools", "codex cli learning-aware development", "SHIELD agent teaching system", "codex cli AGENTS.md learning anchors"
+
+---
+
 ## PERFOPT-Bench Performance-Optimisation Benchmark — Agent Stack Attribution, Relay Workflows, Shortcut Audit, and Codex CLI Configuration (2026-07-10 Hourly Article Run)
 
 1. ✅ **PERFOPT-Bench and the Performance-Optimisation Gap: What 12 C-Language Tasks Reveal About Coding Agent Stacks — and How to Wire Relay Workflows into Codex CLI** — Written 2026-07-10 → `2026-07-10-perfopt-bench-performance-optimization-benchmark-coding-agents-codex-cli-relay-shortcut-audit.md`
