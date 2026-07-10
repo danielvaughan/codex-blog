@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## DeepSWE Benchmark — Long-Horizon Coding Agent Evaluation, Contamination-Free Verifiers, and Codex CLI Evaluation Methodology (2026-07-10 Hourly Article Run)
+
+1. ✅ **DeepSWE and the End of Benchmark Saturation: What 113 Contamination-Free Tasks Reveal About Frontier Coding Agents — and What It Means for Codex CLI Evaluation** — Written 2026-07-10 → `2026-07-10-deepswe-benchmark-long-horizon-coding-agents-codex-cli-evaluation-contamination-free-verifier-methodology.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Huang et al. published arXiv:2607.07946 (July 8, 2026), DeepSWE: 113 original tasks across 91 repositories in 5 languages; contamination-free design (original authorship, never-merged solutions, shallow clones); behavioural verifiers with 0.3% false-positive and 1.1% false-negative rates vs SWE-bench Pro's 8.5%/23.9%; GPT-5.5 leads at 70.0% pass@1; 70-point model spread vs 30 on SWE-bench Pro; Claude "one branch shipped" failure pattern; token consumption uncorrelated with success; mapped to Codex CLI codex exec --output-schema private evaluation, named profiles for eval runs, AGENTS.md requirement enumeration for Claude models, rollout_token_budget tuning, behavioural PostToolUse verification patterns
+   - SEO targets: "deepswe benchmark codex cli", "coding agent benchmark contamination-free", "deepswe vs swe-bench pro", "codex cli evaluation methodology", "long-horizon coding agent benchmark 2026", "codex exec private evaluation benchmark"
+
+---
+
 ## Progressive Crystallisation — Agent Exploration to Deterministic Workflows and Codex CLI Cost Reduction (2026-07-10 Hourly Article Run)
 
 1. ✅ **Progressive Crystallisation: How to Turn Codex CLI Exploration into Deterministic, Lower-Cost Workflows** — Written 2026-07-10 → `2026-07-10-progressive-crystallization-agent-exploration-deterministic-workflows-codex-cli-skill-exec-cost-reduction.md`
