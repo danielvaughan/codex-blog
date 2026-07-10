@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Codex Remote GA — QR Relay Architecture, Mobile Approvals, SSH Host Connections, CLI Developer Guide (2026-07-10 Hourly Article Run)
+
+1. ✅ **Codex Remote GA: QR Relay Architecture, Mobile Approvals, and the CLI Developer's Setup Guide** — Written 2026-07-10 → `2026-07-10-codex-remote-ga-qr-relay-architecture-mobile-approvals-ssh-host-cli-developer-guide.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI brought Codex Remote to general availability on 25 June 2026 across all paid ChatGPT tiers; QR relay architecture replaces beta WebSocket direct connection; one-to-one cryptographic pairing between mobile devices and hosts; no inbound connections required; data stays on host; CLI remote-control subcommands (start, stop, pair) with manual pairing codes for headless environments; SSH host connections via ~/.ssh/config; Device Code flow for headless Linux auth; DigitalOcean plugin for disposable cloud hosts; four-plane governance framework for enterprise teams; practical checklist for CLI developers adding mobile approval surface
+   - SEO targets: "codex remote GA QR relay", "codex cli remote-control pair mobile", "codex remote architecture security", "codex ssh host remote connection setup", "codex mobile approval CLI developer", "codex remote headless linux setup 2026"
+
+---
+
 ## Codex as Agent Provider in JetBrains IDEs — ACP Wrapper, Permission Modes, Hooks, and Configuration (2026-07-10 Hourly Article Run)
 
 1. ✅ **Codex as Agent Provider in JetBrains IDEs: The ACP Wrapper Architecture, Permission Modes, and What CLI Developers Need to Know** — Written 2026-07-10 → `2026-07-10-codex-agent-provider-jetbrains-ides-acp-wrapper-copilot-chat-permission-modes-hooks.md`
