@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Specification Grounding and the +38-Point Test Gap — Enumerated Rules, AGENTS.md Test Gates, False-Alarm Reduction (2026-07-11 Hourly Article Run)
+
+1. ✅ **Specification Grounding and the +38-Point Test Gap: Why Your Codex CLI Test Gates Need Enumerated Rules, Not More Tests** — Written 2026-07-11 → `2026-07-11-specification-grounding-test-effectiveness-llm-code-codex-cli-agents-md-test-gates-false-alarm-reduction.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Haeri and Ghelichi published arXiv:2607.06636 (July 7, 2026), controlled experiment showing specification grounding improves LLM code correctness by +38 percentage points over edge-prompted baselines; single prompt line modification; 100% vs 60% final correctness on core tasks; cross-model validation across Claude Haiku/Sonnet/Opus, GPT-5.3-codex (+28pp), Gemini 3.5 Flash (+19pp); p=0.002 significance; false-alarm reduction from 33% to 0%; doubling test quantity yields only 42% vs grounding's 100%; ablation shows content dominates over enumeration structure; property-based testing and AlphaCodium-style loops still fall short; mapped to Codex CLI AGENTS.md enumerated specification rules, PreToolUse hooks for grounding enforcement, PostToolUse verification, codex exec batch testing with --output-schema
+   - SEO targets: "specification grounding codex cli test gates", "AGENTS.md specification rules testing", "codex cli test false alarm reduction", "specification grounding LLM code correctness", "codex cli test-driven development specification", "enumerated rules test effectiveness coding agent"
+
+---
+
 ## 3,100 Opinions on Code Review in an AI World — Causal Theory, Review as Control Point, Codex CLI Guardian and AGENTS.md (2026-07-10 Hourly Article Run)
 
 1. ✅ **3,100 Opinions on Code Review in an AI World: What the Causal Theory Means for Your Codex CLI Review Stack** — Written 2026-07-10 → `2026-07-10-3100-opinions-code-review-ai-world-causal-theory-codex-cli-review-control-point-guardian-agents-md.md`
