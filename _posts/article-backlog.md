@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## PERFOPT-Bench Performance-Optimisation Benchmark — Agent Stack Attribution, Relay Workflows, Shortcut Audit, and Codex CLI Configuration (2026-07-10 Hourly Article Run)
+
+1. ✅ **PERFOPT-Bench and the Performance-Optimisation Gap: What 12 C-Language Tasks Reveal About Coding Agent Stacks — and How to Wire Relay Workflows into Codex CLI** — Written 2026-07-10 → `2026-07-10-perfopt-bench-performance-optimization-benchmark-coding-agents-codex-cli-relay-shortcut-audit.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cui et al. published arXiv:2607.07744 (July 8, 2026), PERFOPT-Bench: 12 C-language performance-optimisation tasks across 7 domains (database, numerical, ML/DL, storage, simulation, linear algebra, text processing, graph analytics); 7 agent stacks tested (OpenCode+GPT-5.5, Codex+GPT-5.5, OpenCode+Opus-4.7, Claude Code+Opus-4.7, OpenCode+GLM-5.1, OpenCode+Kimi-K2.6, OpenCode+DeepSeek-V4 Pro); no single stack dominates; framework matters as much as model (Opus-4.7: OpenCode 23.5× vs Claude Code 1.0× on T11); shortcut exploitation taxonomy (answer synthesis, semantic bypass, build-artefact substitution); relay pilot 1.02–2.48× additional speedup across 8 two-round sequences; mapped to Codex CLI named profiles for perf-opt sessions, session fork/resume as relay primitives, PostToolUse hooks for shortcut detection, AGENTS.md optimisation discipline, session JSONL trajectory audit
+   - SEO targets: "PERFOPT-Bench codex cli performance optimisation", "coding agent performance benchmark 2026", "codex cli relay workflow optimisation", "agent stack attribution performance", "codex cli shortcut exploitation detection", "performance optimisation coding agent named profiles"
+
+---
+
 ## SWE-Router Trajectory-Based Model Routing — Partial-Exploration Escalation, Codex CLI Cost Strategy (2026-07-10 Hourly Article Run)
 
 1. ✅ **SWE-Router and Trajectory-Based Model Routing: What Partial-Exploration Escalation Means for Codex CLI Cost Strategy** — Written 2026-07-10 → `2026-07-10-swe-router-trajectory-based-model-routing-codex-cli-partial-exploration-cost-escalation.md`
