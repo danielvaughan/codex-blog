@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Librarian Pattern — Persistent Search Sub-Agent, Pointer-Only Answers, Multi-Agent Token Waste Reduction (2026-07-12 Hourly Article Run)
+
+1. ✅ **The Librarian Pattern: Why Persistent Search History Cuts Multi-Agent Token Waste — and How to Wire It into Codex CLI** — Written 2026-07-12 → `2026-07-12-librarian-pattern-persistent-search-sub-agent-token-waste-codex-cli-multi-agent-pointer-answers.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cho et al. published arXiv:2605.27787 (May 2026), Librarian persistent search sub-agent for energy-efficient multi-agent SWE systems; tested across SWE-Agent, MetaGPT, ChatDev, MASAI, HyperAgent, BOAD; up to 25% per-episode GPU energy reduction; 40-60% output token reduction via pointer-only answers and persistent search history; output tokens consume 30-1000x more energy than cached input tokens; complemented by FastContext (arXiv:2606.14066) 60% main-agent token reduction and 5.5pp resolution lift; mapped to Codex CLI AGENTS.md exploration discipline, tool_output_token_limit for pointer-like behaviour, rollout_budget per-session caps, PostToolUse hooks for search deduplication, named profiles for exploration vs generation phases, Ultra mode subagent token multiplier
+   - SEO targets: "codex cli multi-agent token waste reduction", "librarian persistent search sub-agent", "codex cli tool_output_token_limit exploration", "pointer-only answers coding agent", "codex cli rollout_budget subagent cost", "multi-agent redundant file exploration token waste"
+
+---
+
 ## Coherence Collapse — TRAJEVAL Trajectory Diagnosis, Strained Coherence Pre-Failure Signals, Codex CLI Checkpoint and Rewind Defence (2026-07-11 Hourly Article Run)
 
 1. ✅ **Coherence Collapse: Why Your Coding Agent Finds the Fix Then Destroys It — and How Codex CLI's Checkpoint Stack Fights Back** — Written 2026-07-11 → `2026-07-11-coherence-collapse-coding-agents-destroy-correct-patches-codex-cli-checkpoint-rewind-defence.md`

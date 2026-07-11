@@ -2,7 +2,7 @@
 title: "OpenCode vs Codex CLI: The Open-Source Challenger With 75+ Model Providers"
 description: "The terminal coding agent landscape in 2026 has consolidated around three serious contenders: Claude Code, Codex CLI, and OpenCode. While Claude Code."
 date: 2026-04-09T05:11:00+00:00
-last_modified_at: 2026-07-11T22:09:21+01:00
+last_modified_at: 2026-07-12T00:12:22+01:00
 tags:
   - opencode
   - codex-cli
