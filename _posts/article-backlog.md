@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Context Pruning and Rollout Budgets — Token Spend Reduction, ContextSniper, SWE-Pruner, Self-GC, LaMR (2026-07-11 Hourly Article Run)
+
+1. ✅ **The 76 Per Cent Problem: Why Your Coding Agent Wastes Three-Quarters of Its Token Budget Reading Files — and How Context Pruning and Rollout Budgets Cut the Bill** — Written 2026-07-11 → `2026-07-11-context-pruning-rollout-budgets-token-spend-codex-cli-contextsniper-swe-pruner-self-gc.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — ContextSniper (arXiv:2607.01916, July 2 2026) 51.5% token reduction / 36.4% cost reduction on SWE-bench Lite with OpenClaw; SWE-Pruner (arXiv:2601.16746, January 2026) 23-54% token reduction with 0.6B neural skimmer; Self-GC (arXiv:2607.00692, July 1 2026) self-governing context lifecycle with fold/mask/prune operations, 91-95% unaffected continuations; LaMR (arXiv:2605.15315, May 2026) multi-rubric latent reasoning, 31% additional token savings; agents spend 67-76% of token budget on file reads; mapped to Codex CLI rollout_budget (v0.142+), model_auto_compact_token_limit, tool_output_token_limit, AGENTS.md context discipline patterns
+   - SEO targets: "codex cli context pruning token budget", "coding agent token waste file reads", "codex cli rollout budget configuration", "ContextSniper token reduction coding agent", "SWE-Pruner context pruning SWE-bench", "codex cli tool_output_token_limit cost reduction"
+
+---
+
 ## Specification Grounding and the +38-Point Test Gap — Enumerated Rules, AGENTS.md Test Gates, False-Alarm Reduction (2026-07-11 Hourly Article Run)
 
 1. ✅ **Specification Grounding and the +38-Point Test Gap: Why Your Codex CLI Test Gates Need Enumerated Rules, Not More Tests** — Written 2026-07-11 → `2026-07-11-specification-grounding-test-effectiveness-llm-code-codex-cli-agents-md-test-gates-false-alarm-reduction.md`
