@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Workflows as Knowledge Objects — Semantic Persistence, Derive/Infer Boundary, Codex CLI Session Audit (2026-07-11 Hourly Article Run)
+
+1. ✅ **Workflows as Knowledge Objects: Why Semantic Persistence and the Derive/Infer Boundary Matter for Your Codex CLI Sessions** — Written 2026-07-11 → `2026-07-11-workflows-as-knowledge-objects-semantic-persistence-derive-infer-boundary-codex-cli-session-audit.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Quinto, Rozzi, and Zanitti published arXiv:2607.08740 (July 9, 2026), Lisp-inspired conceptual model splitting workflow operations into derive (deterministic) and infer (LLM-mediated judgment); five persistent object types (workflow definition, workflow instance, inference record, context snapshot, dependency relation) forming knowledge substrate; live-image thinking from Symbolics Genera applied to agent sessions; complemented by Springdrift auditable persistent runtime (arXiv:2604.04660) with 23-day deployment, and Wang et al. provenance survey (arXiv:2606.04990) with five-dimension tracing framework; Temporal durable execution GA for agent workflows; mapped to Codex CLI session JSONL as append-only knowledge substrate, AGENTS.md as workflow definition, hooks as deterministic control layer, /fork as decision-point branching, OpenTelemetry export for dependency tracing, v0.144 writes approval mode as implicit derive/infer boundary
+   - SEO targets: "codex cli workflow persistence audit", "semantic persistence coding agent sessions", "derive infer boundary LLM workflow", "codex cli session JSONL knowledge objects", "durable execution coding agent audit trail", "codex cli OpenTelemetry provenance tracing"
+
+---
+
 ## Lean4Agent Formal Verification — Dependent-Type Workflow Verification, Codex CLI Hook Stack (2026-07-11 Hourly Article Run)
 
 1. ✅ **Lean4Agent and Formally Verified Agent Workflows: What Dependent-Type Verification Means for Codex CLI's Hook and Specification Stack** — Written 2026-07-11 → `2026-07-11-lean4agent-formal-verification-agent-workflows-codex-cli-pre-post-conditions-typed-guardrails.md`
