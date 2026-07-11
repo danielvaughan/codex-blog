@@ -10,11 +10,11 @@ tags: ["codex-cli", "security", "skills", "plugins", "supply-chain", "SkillHarm"
 
 ---
 
-The April 2026 supply-chain poisoning papers made a splash, but their attack model was straightforward: embed malicious code in a skill file, hope the agent executes it. Static analysis catches most of these. Two newer papers — SkillHarm and the payload-less Semantic Compliance Hijacking (SCH) work — flip the threat model on its head. They demonstrate attacks that contain no executable payload at all, achieving a **0.00% detection rate** against both static and semantic defences [^1]. For anyone running third-party skills or plugins in Codex CLI, the implications are immediate.
+The April 2026 supply-chain poisoning papers made a splash, but their attack model was straightforward: embed malicious code in a skill file, hope the agent executes it. Static analysis catches most of these. Two newer papers — SkillHarm and the payload-less Semantic Compliance Hijacking (SCH) work — flip the threat model on its head. They demonstrate attacks that contain no executable payload at all, achieving a **0.00 per cent detection rate** against both static and semantic defences [^1]. For anyone running third-party skills or plugins in Codex CLI, the implications are immediate.
 
 ## The Old Threat: Explicit Payloads
 
-The first wave of skill poisoning research (BadSkill, SkillJect, the April 2026 arXiv quartet) relied on embedding code — `exec()` calls, shell scripts, obfuscated Python — into skill files [^2]. Detection was a solved-enough problem: AST-based scanners like SkillScan caught 91.61% of direct-injection payloads, and semantic monitors like LLM Guard reached 99.81% [^1]. The structural fingerprint of malicious code gave defenders something to pattern-match against.
+The first wave of skill poisoning research (BadSkill, SkillJect, the April 2026 arXiv quartet) relied on embedding code — `exec()` calls, shell scripts, obfuscated Python — into skill files [^2]. Detection was a solved-enough problem: AST-based scanners like SkillScan caught 91.61 per cent of direct-injection payloads, and semantic monitors like LLM Guard reached 99.81 per cent [^1]. The structural fingerprint of malicious code gave defenders something to pattern-match against.
 
 That assumption no longer holds.
 
@@ -24,9 +24,9 @@ Ning et al. published SkillHarm (arXiv:2606.02540) on 1 June 2026, introducing a
 
 Two attack strategies are central:
 
-**Fixed-Payload Poisoning (FPP)** compromises skill packages before installation. When the agent invokes the skill, the pre-embedded payload fires. FPP achieved an 86.3% success rate across the benchmark [^3].
+**Fixed-Payload Poisoning (FPP)** compromises skill packages before installation. When the agent invokes the skill, the pre-embedded payload fires. FPP achieved an 86.3 per cent success rate across the benchmark [^3].
 
-**Self-Mutating Poisoning (SMP)** is subtler: the skill behaves normally on first invocation but silently modifies its own persistent content — SKILL.md, local scripts, cached state — so that harm activates only on subsequent reuse. SMP reached 69.3% success [^3].
+**Self-Mutating Poisoning (SMP)** is subtler: the skill behaves normally on first invocation but silently modifies its own persistent content — SKILL.md, local scripts, cached state — so that harm activates only on subsequent reuse. SMP reached 69.3 per cent success [^3].
 
 The critical finding: many apparent defence "successes" were actually the agent failing to engage with poisoned files rather than any genuine resistance mechanism [^3]. The agent simply ignored the skill, which is not the same as detecting and blocking an attack.
 
@@ -70,9 +70,9 @@ Liu et al. tested SCH across three agent frameworks (OpenClaw, Claude Code, Code
 | Remote code execution | 30.56% – 67.33% |
 | Partial data leakage | Up to 52.67% |
 
-GPT-5.4 mini showed the highest vulnerability at 62.11% average confidentiality breach — exemplifying what the authors call the **Alignment-Security Paradox**: models trained to be more helpful and compliant with instructions become *more* susceptible to well-crafted semantic deception, not less [^1].
+GPT-5.4 mini showed the highest vulnerability at 62.11 per cent average confidentiality breach — exemplifying what the authors call the **Alignment-Security Paradox**: models trained to be more helpful and compliant with instructions become *more* susceptible to well-crafted semantic deception, not less [^1].
 
-Against both SkillScan (static AST analysis) and LLM Guard (semantic intent monitoring), SCH payloads achieved a **0.00% detection rate** [^1]. The Multi-Skill Automated Optimisation (MS-AO) feedback loop — which iteratively refines failed attacks across up to five optimisation rounds — maintained perfect evasion through all iterations [^1].
+Against both SkillScan (static AST analysis) and LLM Guard (semantic intent monitoring), SCH payloads achieved a **0.00 per cent detection rate** [^1]. The Multi-Skill Automated Optimisation (MS-AO) feedback loop — which iteratively refines failed attacks across up to five optimisation rounds — maintained perfect evasion through all iterations [^1].
 
 ## Why This Matters for Codex CLI
 
@@ -105,7 +105,7 @@ Never use `danger-full-access` with third-party skills [^6].
 
 ### 2. Granular Approval Policy with Skill Approval Enabled
 
-The granular approval policy lets you require human review for skill-script execution while auto-approving lower-risk operations [^6]:
+The granular approval policy lets you require human review for skill-script execution whilst auto-approving lower-risk operations [^6]:
 
 ```toml
 [approval_policy.granular]
@@ -181,7 +181,7 @@ Configuration alone is insufficient. The research points to several operational 
 
 **Pin skill versions.** SMP attacks modify skill content post-installation. Version-pinning and checksumming SKILL.md content between sessions detects silent mutation [^3].
 
-**Prefer curated tiers.** The curated skill tier undergoes OpenAI review, which — while not foolproof — raises the bar significantly above experimental tier skills [^5].
+**Prefer curated tiers.** The curated skill tier undergoes OpenAI review, which — whilst not foolproof — raises the bar significantly above experimental tier skills [^5].
 
 **Monitor session JSONL.** Codex CLI's session logs capture every tool call and its arguments. Regular audit of session JSONL files reveals runtime-generated network calls or file operations that the skill's SKILL.md did not advertise.
 

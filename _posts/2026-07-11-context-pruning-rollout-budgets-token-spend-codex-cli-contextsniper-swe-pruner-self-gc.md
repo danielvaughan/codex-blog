@@ -36,7 +36,7 @@ pie title Token Budget Allocation in a Typical Agent Session
 
 Published in January 2026, SWE-Pruner trains a lightweight **0.6B-parameter neural skimmer** that mimics how human developers selectively skim source code [^5]. Given the current task, the agent formulates an explicit goal hint, and the skimmer dynamically selects relevant lines from surrounding context.
 
-**Results on SWE-Bench Verified:** 23–54 per cent token reduction while maintaining or *improving* success rates. On single-turn tasks (LongCodeQA), compression reaches **14.84×** with minimal performance impact [^5].
+**Results on SWE-Bench Verified:** 23–54 per cent token reduction whilst maintaining or *improving* success rates. On single-turn tasks (LongCodeQA), compression reaches **14.84×** with minimal performance impact [^5].
 
 The key insight: pruning is not just cost reduction — removing irrelevant lines can actually *improve* resolution by reducing attention dilution.
 
@@ -74,7 +74,7 @@ The resolution rate trade-off is modest: 2 percentage points for a 36–27 per c
 Published 1 July 2026, Self-GC treats the context window as a managed heap [^6]. User turns, tool spans, and skill state become **indexed objects** with lifecycles managed by a side-channel planner that proposes three operations:
 
 - **Fold** — compress verbose spans into summaries
-- **Mask** — hide content from the model while keeping it recoverable
+- **Mask** — hide content from the model whilst keeping it recoverable
 - **Prune** — remove content entirely, with sidecar backups
 
 **Production results (332 sessions):** 91.27–94.58 per cent of continuations are unaffected by pruning, versus 77.71–87.46 per cent for heuristic baselines. Real-world deployment reduces daytime average input tokens by **10–15 per cent**, with peak reductions of ~20 per cent [^6].
@@ -125,7 +125,7 @@ model_auto_compact_token_limit = 150000
 model_auto_compact_token_limit_scope = "body_after_prefix"
 ```
 
-Setting `scope` to `body_after_prefix` means only growth *after* the system prompt and AGENTS.md prefix counts towards the threshold. This preserves your instruction context while compacting the exploration history — a crude but effective form of the fold operation that Self-GC formalises [^6].
+Setting `scope` to `body_after_prefix` means only growth *after* the system prompt and AGENTS.md prefix counts towards the threshold. This preserves your instruction context whilst compacting the exploration history — a crude but effective form of the fold operation that Self-GC formalises [^6].
 
 ### Tool Output Token Limit
 
@@ -191,7 +191,7 @@ The Codex CLI approach of `tool_output_token_limit` plus AGENTS.md discipline av
 
 ## What Comes Next
 
-The trajectory is clear. ContextSniper's L0/L1/L2 memory hierarchy [^2] and Self-GC's fold/mask/prune lifecycle [^6] are converging towards a standard **agent context management layer** that sits between the harness and the model. When Codex CLI integrates such a layer — whether through MCP memory servers, native memory APIs, or plugin-based pruners — the `rollout_budget` and `tool_output_token_limit` primitives will remain as the enforcement backstop, while the pruning intelligence moves from AGENTS.md heuristics to learned models.
+The trajectory is clear. ContextSniper's L0/L1/L2 memory hierarchy [^2] and Self-GC's fold/mask/prune lifecycle [^6] are converging towards a standard **agent context management layer** that sits between the harness and the model. When Codex CLI integrates such a layer — whether through MCP memory servers, native memory APIs, or plugin-based pruners — the `rollout_budget` and `tool_output_token_limit` primitives will remain as the enforcement backstop, whilst the pruning intelligence moves from AGENTS.md heuristics to learned models.
 
 Until then, the configuration primitives and AGENTS.md discipline described above give you a 20–40 per cent token reduction with zero external dependencies. The 76 per cent problem is not solved, but it is now well-characterised and practically addressable.
 

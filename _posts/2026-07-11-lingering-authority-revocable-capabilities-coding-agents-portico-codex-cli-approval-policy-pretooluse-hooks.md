@@ -62,7 +62,7 @@ Santos-Grueiro's evaluation across four suites (exposure minimisation, boundary 
 
 The closure mechanism is decisive. In a controlled late-reread slice, PORTICO rejected 10/10 post-closure capability reuses, whilst a non-revoking comparator with identical policies permitted all 10 [^1]. In a stale-effect audit, PORTICO blocked all 6 forbidden writes; the non-revoking variant executed all 6 [^1].
 
-The trade-off is utility: PORTICO's tighter envelope blocked some legitimate proposals (87% task success versus 97% for full access in Suite B), though scope compliance was perfect at 100% [^1].
+The trade-off is utility: PORTICO's tighter envelope blocked some legitimate proposals (87 per cent task success versus 97 per cent for full access in Suite B), though scope compliance was perfect at 100 per cent [^1].
 
 ## Agent libOS: Capabilities as a Runtime Primitive
 
@@ -70,7 +70,7 @@ Agent libOS takes a complementary approach, treating the agent as an **AgentProc
 
 The central invariant is that model-visible affordances (the tools the agent sees) may evolve freely, but resource authority changes only through explicit, audited runtime primitives [^3]. This separates **interface visibility** from **execution authority** at the runtime level rather than at a policy layer.
 
-On 27 versioned deterministic tasks, Agent libOS completed all task plans whilst preventing every modelled unauthorised side effect, with a conservative false-denial rate of 7.0% on allowed effect attempts [^3].
+On 27 versioned deterministic tasks, Agent libOS completed all task plans whilst preventing every modelled unauthorised side effect, with a conservative false-denial rate of 7.0 per cent on allowed effect attempts [^3].
 
 ```mermaid
 graph TD

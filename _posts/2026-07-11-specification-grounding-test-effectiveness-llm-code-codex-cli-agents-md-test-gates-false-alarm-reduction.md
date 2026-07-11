@@ -40,15 +40,15 @@ The effect held across three Claude tiers (Haiku 4.5, Sonnet 4.6, Opus 4.8), all
 
 Cross-vendor replication confirmed the pattern:
 
-- **GPT-5.3-codex**: +28 pp (100% vs 72% final correctness) [^1]
-- **Gemini 3.5 Flash**: +19 pp (92% vs 72%) [^1]
+- **GPT-5.3-codex**: +28 pp (100 per cent vs 72 per cent final correctness) [^1]
+- **Gemini 3.5 Flash**: +19 pp (92 per cent vs 72 per cent) [^1]
 - **Statistical significance**: p = 0.002 across 18 tasks [^1]
 
 ## The False-Alarm Problem You Didn't Know You Had
 
-Detection is only half the story. On trickier behavioural tasks (Excel column names, title-casing, range collapsing), the ungrounded baseline **wrongly rejected correct code 33% of the time** [^1]. All three ungrounded test suites independently assumed `excel_column(0)` should raise an error; the specification states "positive integer" and the reference returns an empty string.
+Detection is only half the story. On trickier behavioural tasks (Excel column names, title-casing, range collapsing), the ungrounded baseline **wrongly rejected correct code 33 per cent of the time** [^1]. All three ungrounded test suites independently assumed `excel_column(0)` should raise an error; the specification states "positive integer" and the reference returns an empty string.
 
-Against production Python standard library code, false alarms rose to 68% for the ungrounded baseline whilst specification-grounded tests held at 0% [^1].
+Against production Python standard library code, false alarms rose to 68 per cent for the ungrounded baseline whilst specification-grounded tests held at 0 per cent [^1].
 
 A test gate that rejects good code a third of the time trains developers to ignore it. This is precisely the dynamic that erodes trust in automated CI gates — and it is entirely preventable.
 
@@ -100,7 +100,7 @@ Rules:
 6. total reflects full dataset count, not page count
 ```
 
-This pattern directly mirrors the experimental setup that achieved 100% correctness. Each enumerated rule becomes one test case, removing the guesswork that causes both missed bugs and false alarms.
+This pattern directly mirrors the experimental setup that achieved 100 per cent correctness. Each enumerated rule becomes one test case, removing the guesswork that causes both missed bugs and false alarms.
 
 ### Hook-Based Enforcement
 
@@ -164,19 +164,19 @@ flowchart LR
 
 ## When Grounding Does Not Help
 
-The researchers tested eight algorithmic logic tasks (sorting, searching, graph traversal) with well-specified behaviour. Natural bug rate: 0% across 45 valid submissions. Grounding showed no benefit [^1].
+The researchers tested eight algorithmic logic tasks (sorting, searching, graph traversal) with well-specified behaviour. Natural bug rate: 0 per cent across 45 valid submissions. Grounding showed no benefit [^1].
 
 The effect is bounded to **specification-completeness defects** — missing input validation, unhandled boundary conditions, ambiguous edge semantics. These are precisely the defects that matter most in production systems and that coding agents handle worst without guidance.
 
 ## Stronger Baselines Still Fall Short
 
-Property-based testing (random inputs + invariants) achieved 28/30 detection but **wrongly rejected the trusted reference implementation** on two tasks, inventing out-of-spec requirements [^1]. An AlphaCodium-style agentic loop (reflect → generate tests → write solution → iteratively fix) running on GPT-5.3-codex achieved 72% correctness — matching the ungrounded baseline but falling well short of grounding's 100% [^1].
+Property-based testing (random inputs + invariants) achieved 28/30 detection but **wrongly rejected the trusted reference implementation** on two tasks, inventing out-of-spec requirements [^1]. An AlphaCodium-style agentic loop (reflect → generate tests → write solution → iteratively fix) running on GPT-5.3-codex achieved 72 per cent correctness — matching the ungrounded baseline but falling well short of grounding's 100 per cent [^1].
 
 The lesson: sophisticated testing strategies without specification content cannot close the gap.
 
 ## Imperfect Specifications Are Still Valuable
 
-Dropping validation rules from the specification degraded detection proportionally (30/30 → 6/30), but the remaining tests stayed 100% accurate [^1]. A noisy specification containing a rule endorsing a bug held detection at 30/30 but dropped tester accuracy to 82.8% [^1].
+Dropping validation rules from the specification degraded detection proportionally (30/30 → 6/30), but the remaining tests stayed 100 per cent accurate [^1]. A noisy specification containing a rule endorsing a bug held detection at 30/30 but dropped tester accuracy to 82.8 per cent [^1].
 
 Partial specifications degrade gracefully. Noisy specifications show their cost as reduced precision rather than silent failure. Both properties make the approach practical for real-world use where specifications are rarely complete or perfectly accurate.
 

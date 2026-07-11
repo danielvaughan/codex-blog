@@ -71,7 +71,7 @@ Unrecoverable operations — external API calls, email sends — are held until 
 
 ## Correctness and Performance
 
-Across one hundred trials on ten contended workloads, MTPO achieved correctness within 5% of serial execution[^2]. The five violations were attributed to agent judgement errors — the LLM misjudged a conflict's relevance — rather than protocol failures. This is a fundamentally different failure mode from 2PL deadlocks or OCC cascading aborts: it degrades gracefully rather than catastrophically.
+Across one hundred trials on ten contended workloads, MTPO achieved correctness within 5 per cent of serial execution[^2]. The five violations were attributed to agent judgement errors — the LLM misjudged a conflict's relevance — rather than protocol failures. This is a fundamentally different failure mode from 2PL deadlocks or OCC cascading aborts: it degrades gracefully rather than catastrophically.
 
 On cold-start scenarios in AIOpsLab, CoAgent grew a 25-tool library online and completed 63 of 71 Kubernetes remediation tasks versus 45 for the bash baseline, at 0.80× the time and 0.86× the cost of serial execution[^2].
 
@@ -156,7 +156,7 @@ flowchart TD
     G[Tool-effect reordering] -->|File writes applied out of order| H[Corrupted state]
 ```
 
-The combination of CoAgent's advisory protocol with Khan's verified detection creates a defence-in-depth approach: MTPO prevents conflicts through advisory notifications, while verified anomaly detection catches the edge cases where agent judgement fails[^2][^7].
+The combination of CoAgent's advisory protocol with Khan's verified detection creates a defence-in-depth approach: MTPO prevents conflicts through advisory notifications, whilst verified anomaly detection catches the edge cases where agent judgement fails[^2][^7].
 
 ## Practical Recommendations
 
