@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## Coherence Collapse — TRAJEVAL Trajectory Diagnosis, Strained Coherence Pre-Failure Signals, Codex CLI Checkpoint and Rewind Defence (2026-07-11 Hourly Article Run)
+
+1. ✅ **Coherence Collapse: Why Your Coding Agent Finds the Fix Then Destroys It — and How Codex CLI's Checkpoint Stack Fights Back** — Written 2026-07-11 → `2026-07-11-coherence-collapse-coding-agents-destroy-correct-patches-codex-cli-checkpoint-rewind-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kim et al. published arXiv:2603.24631 (March 2026, revised May 2026), TRAJEVAL training-free trajectory decomposition into search/read/edit stages across 16,758 trajectories, 3 frameworks (SWE-Agent, OpenHands, LIVE), 7 models; 60-69% of failures occur after agent reaches correct functions; coherence collapse is dominant edit-quality failure at 39.7% SWE-bench Verified and 32.3% PolyBench Verified; 5 bit-identical-to-gold intermediate patches recovered via edit-commit checkpoint; reference-free consensus variant +3.0pp Pass@1 on GPT-5 (p=0.08); complemented by Pandya, Zhang, Lyu arXiv:2606.07889 (June 2026) strained coherence pre-failure signal with 94% flagged failure rate vs 46% unflagged (47pp gap, p=0.003), 94% precision at matched selectivity, median flag at 83-84% trajectory; mapped to Codex CLI /rewind checkpoint restore, /undo in-memory rollback, git worktree isolation, PostToolUse hooks as test-regression collapse detectors, writes approval mode v0.144.0, codex exec parallel consensus via multiple worktrees
+   - SEO targets: "coherence collapse coding agent fix destroys patch", "TRAJEVAL trajectory diagnosis coding agent", "codex cli checkpoint rewind undo defence", "strained coherence pre-failure signal agent", "codex cli PostToolUse hook collapse detection", "edit quality failure coding agent SWE-bench"
+
+---
 
 ## PatchFusion and Pass@k-to-Pass@1 — Deterministic Patch Selection, Ensemble Workflows, Codex CLI Multi-Attempt (2026-07-11 Hourly Article Run)
 
