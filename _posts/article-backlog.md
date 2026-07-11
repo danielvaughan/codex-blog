@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Red-Teaming the Agentic Red-Team — Agent-Phishing Kill Chain, Codex CLI Sandbox and Hooks Defence (2026-07-11 Hourly Article Run)
+
+1. ✅ **Red-Teaming the Agentic Red-Team: What a 97.8% Agent-Phishing Success Rate Means for Your Codex CLI Security Posture** — Written 2026-07-11 → `2026-07-11-red-teaming-agentic-red-team-agent-phishing-kill-chain-codex-cli-sandbox-hooks-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Pasquini et al. published arXiv:2606.24496 (June 2026), first systematic security analysis of 12 offensive security agents (CAI, RedAmon, PentestAgent, DarkMoon, PentAGI, AIRecon, PentestGPT, METATRON, nebula, xalgorix, Artemis, STRIX); agent-phishing technique achieves 97.8% success across Claude Opus 4.8, GPT-5.5, Gemini 3.1 Pro, DeepSeek V4 Pro, GLM-5.1, Kimi K2.6; five-stage kill chain from worker RCE to host compromise; hard persistence on 10/12 systems; 11/12 store API keys in worker containers; RIFT-Bench (arXiv:2606.23927) complements with dynamic red-teaming across 45 agentic systems; mapped to Codex CLI sandbox modes (workspace-write default deny-network), writes approval policy v0.144.0, PreToolUse hooks for network-scope enforcement, AGENTS.md scope declarations, ephemeral git worktree pattern, named profiles for pentest sessions
+   - SEO targets: "red-teaming agentic red-team codex cli", "agent-phishing coding agent security", "codex cli sandbox hooks security defence", "agentic kill chain sandbox escape prevention", "codex cli AGENTS.md security scope declaration", "97.8% agent-phishing success rate defence"
+
+---
+
 ## Lingering Authority and Revocable Capabilities — PORTICO, Agent libOS, Codex CLI Approval Stack (2026-07-11 Hourly Article Run)
 
 1. ✅ **Lingering Authority: Why Your Coding Agent Keeps Permissions It No Longer Needs — and What PORTICO, Agent libOS, and Codex CLI's Approval Stack Can Do About It** — Written 2026-07-11 → `2026-07-11-lingering-authority-revocable-capabilities-coding-agents-portico-codex-cli-approval-policy-pretooluse-hooks.md`
