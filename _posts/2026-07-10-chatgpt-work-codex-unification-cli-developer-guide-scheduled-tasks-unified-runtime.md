@@ -115,7 +115,7 @@ The merger is a desktop app event. Codex CLI v0.144.0 ships independently and co
 
 The CLI release that landed alongside the merger includes features worth adopting:
 
-**`writes` approval mode** — a middle ground between `suggest` (approve everything) and `auto-approve` (approve nothing). In `writes` mode, read-only actions execute automatically while write operations prompt for approval[^3]. This is useful for exploratory sessions where you want the agent to read freely but gate filesystem mutations:
+**`writes` approval mode** — a middle ground between `suggest` (human approves every action) and `auto-approve` (all actions run without prompting). In `writes` mode, read-only actions execute automatically while write operations prompt for approval[^3]. This is useful for exploratory sessions where you want the agent to read freely but gate filesystem mutations:
 
 ```toml
 # config.toml

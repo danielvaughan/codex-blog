@@ -22,7 +22,7 @@ The paper's findings carry a direct message for Codex CLI practitioners: **your 
 
 ## The Benchmark Design
 
-PERFOPT-Bench comprises 12 long-horizon optimisation tasks spanning seven domains, all written in C and compiled with GCC or MSVC [^1]. Task sizes range from approximately 11,000 to 300,000 lines of code, with a median of roughly 15,000 LoC across 272 source files totalling around 668,000 lines [^1].
+PERFOPT-Bench comprises 12 long-horizon optimisation tasks spanning nine domains, all written in C and compiled with GCC or MSVC [^1]. Task sizes range from approximately 11,000 to 300,000 lines of code, with a median of roughly 15,000 LoC across 272 source files totalling around 668,000 lines [^1].
 
 ```mermaid
 graph LR
