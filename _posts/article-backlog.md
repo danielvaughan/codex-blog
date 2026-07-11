@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## CoAgent Concurrency Control — MTPO Protocol, Parallel Multi-Agent Sessions, Advisory Conflict Resolution, Codex CLI Ultra Mode (2026-07-11 Hourly Article Run)
+
+1. ✅ **CoAgent and the Concurrency Problem Your Parallel Agents Are Ignoring: Why MTPO Beats Locks and Rollbacks for Multi-Session Codex CLI Workflows** — Written 2026-07-11 → `2026-07-11-coagent-concurrency-control-multi-agent-coding-codex-cli-mtpo-parallel-sessions-conflict-resolution.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Lyu et al. published arXiv:2606.15376 (June 2026), CoAgent framework with MTPO (Monotonic Trajectory Pre-Order) advisory concurrency control for multi-agent LLM systems; tested on 10 contended workloads (WorkBench office automation, AIOpsLab Kubernetes); 2PL achieves only 1.04× speedup with 0.81 deadlocks/trial; OCC achieves 0.93× (slower than serial) with 1.83× token cost; MTPO achieves 1.4× speedup at 1.15× token cost with near-serial correctness; saga-style inverse operations for write reversal; Khan's verified concurrency anomaly detection (arXiv:2606.17182) complements with 274 Verus proof obligations; mapped to Codex CLI v0.144.0 Ultra mode concurrency warning, git worktree isolation, session fork, PostToolUse hooks as notification channel, AGENTS.md ownership declarations, named profiles for concurrency policy
+   - SEO targets: "codex cli multi-agent concurrency control", "CoAgent MTPO parallel coding agents", "codex cli ultra mode parallel sessions", "multi-agent conflict resolution coding agent", "codex cli worktree parallel agent coordination", "advisory concurrency control LLM agents"
+
+---
+
 ## Context Pruning and Rollout Budgets — Token Spend Reduction, ContextSniper, SWE-Pruner, Self-GC, LaMR (2026-07-11 Hourly Article Run)
 
 1. ✅ **The 76 Per Cent Problem: Why Your Coding Agent Wastes Three-Quarters of Its Token Budget Reading Files — and How Context Pruning and Rollout Budgets Cut the Bill** — Written 2026-07-11 → `2026-07-11-context-pruning-rollout-budgets-token-spend-codex-cli-contextsniper-swe-pruner-self-gc.md`
