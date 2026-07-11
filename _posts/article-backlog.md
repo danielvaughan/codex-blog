@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Experience-Driven Vulnerability Repair — EvoRepair, ContraFix, Codex CLI Security Plugin, PostToolUse Hooks (2026-07-11 Hourly Article Run)
+
+1. ✅ **Experience-Driven Vulnerability Repair: What EvoRepair and ContraFix Reveal About Self-Improving Security Agents — and How to Wire the Patterns into Codex CLI** — Written 2026-07-11 → `2026-07-11-experience-driven-vulnerability-repair-agents-evorepair-contrafix-codex-cli-security-plugin-posttooluse-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — EvoRepair (arXiv:2605.30105, May 2026) cyclic learn-and-repair with five-dimensional experience bank, 93.47% PATCHEVAL / 87.00% SEC-bench / 90.46% combined with GPT-5-mini, outperforms LoopRepair by 39.56%; ContraFix (arXiv:2605.17450v2, May 2026) contrastive runtime analysis with dual-track skill base, 92.0% SEC-bench, 58.2% semantic correctness vs 31.3% baseline, contrastive analysis contributes +26.8pp; mapped to Codex CLI Security plugin local scanning, PostToolUse hooks for evidence collection, session JSONL as experience extraction source, AGENTS.md repair heuristics, sandbox isolation for safe variant execution, codex exec --output-schema for RepairSpec generation, named profiles for vuln-repair sessions
+   - SEO targets: "codex cli vulnerability repair agent experience bank", "EvoRepair experience-based self-evolution security", "ContraFix contrastive runtime analysis vulnerability", "codex cli PostToolUse hooks vulnerability evidence", "codex cli security plugin automated repair", "experience-driven vulnerability repair coding agent"
+
+---
+
 ## Payload-Less Skill Attacks — SkillHarm, Semantic Compliance Hijacking, Codex CLI Plugin Defence (2026-07-11 Hourly Article Run)
 
 1. ✅ **Payload-Less Skill Attacks: What SkillHarm and Semantic Compliance Hijacking Mean for Your Codex CLI Plugin Stack** — Written 2026-07-11 → `2026-07-11-payload-less-skill-attacks-skillharm-semantic-compliance-hijacking-codex-cli-plugin-defence-approval-sandbox.md`
