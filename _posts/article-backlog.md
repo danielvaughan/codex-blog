@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Lean4Agent Formal Verification — Dependent-Type Workflow Verification, Codex CLI Hook Stack (2026-07-11 Hourly Article Run)
+
+1. ✅ **Lean4Agent and Formally Verified Agent Workflows: What Dependent-Type Verification Means for Codex CLI's Hook and Specification Stack** — Written 2026-07-11 → `2026-07-11-lean4agent-formal-verification-agent-workflows-codex-cli-pre-post-conditions-typed-guardrails.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. published arXiv:2606.06523 (June 2026), Lean4Agent framework with FormalAgentLib three-layer verification (structural, static semantic, execution trajectory), 151 types and 611 functions, Hoare-style pre/post-conditions under LLMExec assumption; verification-passing workflows outperform failing ones by 14.80% average on SWE-Bench-Verified hard subset across 5 LLMs (95% CI [10.00%, 19.60%]); LeanEvolve adds 7.47% improvement, formal-guided outperforms pure-LLM by 7.00%; complemented by Type-Checked Compliance (arXiv:2604.01483) microsecond-latency Lean 4 guardrails for financial agents; mapped to Codex CLI AGENTS.md as informal workflow specification, PreToolUse hooks as runtime pre-condition gates, PostToolUse hooks as post-condition verification, SessionStart hooks for static structural validation, requirements.toml for fleet-wide policy consistency
+   - SEO targets: "codex cli formal verification agent workflows", "Lean4Agent dependent type coding agent", "codex cli pre-conditions post-conditions hooks verification", "formally verified agent workflows SWE-Bench", "Lean 4 agent workflow type checking guardrails", "codex cli AGENTS.md formal specification verification"
+
+---
+
 ## From Prompts to Contracts — Harness Engineering, Code-Owned Enforcement, Codex CLI Audit Stack (2026-07-11 Hourly Article Run)
 
 1. ✅ **From Prompts to Contracts: What Harness Engineering Means for Auditable Codex CLI Workflows** — Written 2026-07-11 → `2026-07-11-prompts-to-contracts-harness-engineering-auditable-enterprise-agents-codex-cli-code-owned-enforcement.md`
