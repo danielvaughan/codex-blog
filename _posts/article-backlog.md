@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Payload-Less Skill Attacks — SkillHarm, Semantic Compliance Hijacking, Codex CLI Plugin Defence (2026-07-11 Hourly Article Run)
+
+1. ✅ **Payload-Less Skill Attacks: What SkillHarm and Semantic Compliance Hijacking Mean for Your Codex CLI Plugin Stack** — Written 2026-07-11 → `2026-07-11-payload-less-skill-attacks-skillharm-semantic-compliance-hijacking-codex-cli-plugin-defence-approval-sandbox.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — SkillHarm (arXiv:2606.02540, June 2026) lifecycle-aware attack benchmark with 879 attack samples across 71 skills, FPP 86.3% and SMP 69.3% success rates; SCH payload-less attacks (arXiv:2605.14460, May 2026) achieve 0.00% detection rate against SkillScan and LLM Guard, up to 77.67% confidentiality breach via natural-language compliance directives; mapped to Codex CLI sandbox modes, granular approval_policy with skill_approval, writes approval mode v0.144.0, PreToolUse hooks for semantic monitoring, MCP tool allow-lists, AGENTS.md security constraints, auto_review Guardian
+   - SEO targets: "codex cli skill security payload-less attack", "SkillHarm skill poisoning coding agent", "semantic compliance hijacking codex cli defence", "codex cli plugin supply chain security", "payload-less skill attack LLM agent", "codex cli approval policy skill security"
+
+---
+
 ## CoAgent Concurrency Control — MTPO Protocol, Parallel Multi-Agent Sessions, Advisory Conflict Resolution, Codex CLI Ultra Mode (2026-07-11 Hourly Article Run)
 
 1. ✅ **CoAgent and the Concurrency Problem Your Parallel Agents Are Ignoring: Why MTPO Beats Locks and Rollbacks for Multi-Session Codex CLI Workflows** — Written 2026-07-11 → `2026-07-11-coagent-concurrency-control-multi-agent-coding-codex-cli-mtpo-parallel-sessions-conflict-resolution.md`
