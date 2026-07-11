@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## From Prompts to Contracts — Harness Engineering, Code-Owned Enforcement, Codex CLI Audit Stack (2026-07-11 Hourly Article Run)
+
+1. ✅ **From Prompts to Contracts: What Harness Engineering Means for Auditable Codex CLI Workflows** — Written 2026-07-11 → `2026-07-11-prompts-to-contracts-harness-engineering-auditable-enterprise-agents-codex-cli-code-owned-enforcement.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ahn and Kim published arXiv:2607.08028 (July 9, 2026), four-layer harness-engineering architecture (source, knowledge, control, runtime assembly) with composition boundary for replaceable models; evaluated against 25 Korean listed companies across five corporate groups; 270 model-substitution runs with code-owned checks passing 270/270; enforcement ablation showing prompt-only admits 30/30 adversarial violations while code-owned harness blocks all with 120/120 utility preserved; external guardrails over-refuse at 88/120 utility; fault injection 7/7 detected by dimension-specific validators; mapped to Codex CLI AGENTS.md as source manifest, PreToolUse/PostToolUse hooks as code-owned control layer, granular approval_policy with fail-closed categories, OpenTelemetry trace export for audit completeness, requirements.toml for fleet-wide enforcement, MDM distribution for enterprise governance
+   - SEO targets: "codex cli harness engineering auditable enterprise", "code-owned enforcement prompt compliance LLM agent", "codex cli requirements.toml fleet governance", "harness engineering prompts to contracts coding agent", "codex cli PreToolUse PostToolUse audit hooks", "enterprise LLM agent audit trace codex cli"
+
+---
+
 ## Red-Teaming the Agentic Red-Team — Agent-Phishing Kill Chain, Codex CLI Sandbox and Hooks Defence (2026-07-11 Hourly Article Run)
 
 1. ✅ **Red-Teaming the Agentic Red-Team: What a 97.8% Agent-Phishing Success Rate Means for Your Codex CLI Security Posture** — Written 2026-07-11 → `2026-07-11-red-teaming-agentic-red-team-agent-phishing-kill-chain-codex-cli-sandbox-hooks-defence.md`

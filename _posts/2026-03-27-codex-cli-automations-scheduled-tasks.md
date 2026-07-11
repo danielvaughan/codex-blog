@@ -2,7 +2,7 @@
 title: "Codex CLI Automations and Scheduled Tasks: Background Agent Workflows"
 description: "The first generation of agentic coding tools were interactive by nature: you sat in front of a terminal, issued a prompt, watched the diff land."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-07-11T12:11:19+01:00
+last_modified_at: 2026-07-11T14:12:12+01:00
 summary: "How to build reliable background agent workflows with Codex: Mac app Automations, codex exec for scripted pipelines, worktree isolation, structured JSON output, and error-handling patterns for unattended runs."
 tags:
   - ci-cd
