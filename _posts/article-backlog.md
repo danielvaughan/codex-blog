@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Lingering Authority and Revocable Capabilities — PORTICO, Agent libOS, Codex CLI Approval Stack (2026-07-11 Hourly Article Run)
+
+1. ✅ **Lingering Authority: Why Your Coding Agent Keeps Permissions It No Longer Needs — and What PORTICO, Agent libOS, and Codex CLI's Approval Stack Can Do About It** — Written 2026-07-11 → `2026-07-11-lingering-authority-revocable-capabilities-coding-agents-portico-codex-cli-approval-policy-pretooluse-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Santos-Grueiro published arXiv:2606.22504 (June 2026), PORTICO reference monitor with request-grant-invoke lifecycle, epoch-bound handles, closure predicates for automatic revocation, zero contract-forbidden effects across four evaluation suites, 10/10 post-closure reuse rejections; Agent libOS (arXiv:2606.03895) capability-controlled runtime with AgentProcess abstraction, 0% unauthorised side effects on 27 tasks; Rashidi survey (arXiv:2607.05743) systematising 39 execution-security papers; mapped to Codex CLI v0.144.0 writes approval mode, granular approval_policy, PreToolUse hooks as lightweight monitor, AGENTS.md task scope declarations, named profiles for phase transitions
+   - SEO targets: "codex cli lingering authority capability revocation", "PORTICO revocable capabilities coding agent", "codex cli approval policy granular security", "coding agent capability lifecycle revocation", "codex cli PreToolUse hooks scope enforcement", "Agent libOS capability controlled runtime"
+
+---
+
 ## Experience-Driven Vulnerability Repair — EvoRepair, ContraFix, Codex CLI Security Plugin, PostToolUse Hooks (2026-07-11 Hourly Article Run)
 
 1. ✅ **Experience-Driven Vulnerability Repair: What EvoRepair and ContraFix Reveal About Self-Improving Security Agents — and How to Wire the Patterns into Codex CLI** — Written 2026-07-11 → `2026-07-11-experience-driven-vulnerability-repair-agents-evorepair-contrafix-codex-cli-security-plugin-posttooluse-hooks.md`
