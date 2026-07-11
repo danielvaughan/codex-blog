@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+
+## PatchFusion and Pass@k-to-Pass@1 — Deterministic Patch Selection, Ensemble Workflows, Codex CLI Multi-Attempt (2026-07-11 Hourly Article Run)
+
+1. ✅ **PatchFusion and the Pass@k-to-Pass@1 Problem: Why Your Codex CLI Needs a Patch Selection Strategy** — Written 2026-07-11 → `2026-07-11-patchfusion-pass-k-pass-1-deterministic-patch-selection-codex-cli-multi-attempt-ensemble-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yang et al. published arXiv:2607.01597 (July 2, 2026), PatchFusion deterministic atomic evidence fusion for repair candidate selection; 426/500 SWE-bench Verified, 236/300 SWE-bench Multilingual, 87/371 Defects4J; 3.28ms per bug execution; evidence-constrained fusion retains shared edit atoms; Team Atlanta 2026 ensemble evaluation showing N=3 optimal across 10 agent configurations and 63 real crashes; SWE-Replay (arXiv:2601.22129) efficient test-time scaling with trajectory recycling, 17.4% cost reduction; mapped to Codex CLI --attempts flag (1-4), named profiles for cross-model diversity, PostToolUse hooks for patch validation, codex exec --output-schema for structured diff output, AGENTS.md patch generation protocol
+   - SEO targets: "codex cli patch selection strategy ensemble", "PatchFusion deterministic repair candidate selection", "pass@k pass@1 gap coding agent reliability", "codex cli --attempts best-of-n", "ensemble patching coding agent workflow", "codex cli multi-model patch diversity"
+
+---
+
 ## Workflows as Knowledge Objects — Semantic Persistence, Derive/Infer Boundary, Codex CLI Session Audit (2026-07-11 Hourly Article Run)
 
 1. ✅ **Workflows as Knowledge Objects: Why Semantic Persistence and the Derive/Infer Boundary Matter for Your Codex CLI Sessions** — Written 2026-07-11 → `2026-07-11-workflows-as-knowledge-objects-semantic-persistence-derive-infer-boundary-codex-cli-session-audit.md`
