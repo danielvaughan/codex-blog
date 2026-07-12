@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Constraint Decay — Backend Code Generation Fragility, Structural Enforcement with AGENTS.md and PostToolUse Hooks (2026-07-12 Hourly Article Run)
+
+1. ✅ **Constraint Decay: Why Your Coding Agent Generates Structurally Arbitrary Backends — and How Codex CLI's Enforcement Stack Fights Back** — Written 2026-07-12 → `2026-07-12-constraint-decay-backend-code-generation-fragility-codex-cli-structural-enforcement-agents-md-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Dente, Satriani, and Papotti published arXiv:2605.06445 (May 2026), Constraint Decay phenomenon where structural requirements accumulate causing systematic agent performance decline; 80 greenfield + 20 feature-implementation tasks across 8 web frameworks (Flask, FastAPI, Django, aiohttp, Express, Fastify, Hono, Koa); 7 models including GPT-5-mini, GPT-5.2, MiniMax-M2.5, Kimi-K2.5, Qwen3-Coder-Next; best configurations lose ~30pp assertion pass rate from L0 to L3; OpenHands + Qwen3-Coder-Next drops 73.0% → 27.6% (−45.5pp); strongest L3 config achieves 78.6% A% but only 8.3% pass@1; logic errors 71% of failures; data-layer defects dominate (query composition 25.5%, ORM violations 21.2%, auth misconfiguration 22.6%); lightweight frameworks (Express 51.4%, Flask 49.3%) outperform convention-heavy (Django 25.4%, FastAPI 24.2%); complemented by Governance Decay (arXiv:2606.22528) 30-59% violation after compaction, Omission Constraint Decay (arXiv:2604.20911), Rule Taxonomy (arXiv:2606.12231) intent-practice gap; mapped to Codex CLI AGENTS.md structural specification, PostToolUse hooks for import-boundary and ORM enforcement, writes approval mode v0.144.0, workspace-write sandbox with network allowlist for database constraints
+   - SEO targets: "constraint decay backend code generation codex cli", "codex cli AGENTS.md clean architecture enforcement", "coding agent structural constraint fragility", "codex cli PostToolUse hook architecture verification", "ORM violation detection coding agent", "codex cli writes approval mode constraint defence"
+
+---
+
 ## Agentic Agile-V and SCOPE-V — Verified Engineering Process Control, Codex CLI Structured Verification Hooks (2026-07-12 Hourly Article Run)
 
 1. ✅ **Agentic Agile-V and the SCOPE-V Loop: Moving from Vibe Coding to Verified Engineering with Codex CLI** — Written 2026-07-12 → `2026-07-12-agentic-agile-v-scope-v-verified-engineering-codex-cli-structured-verification-hooks-acceptance-gates.md`
