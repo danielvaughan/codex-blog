@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Agentic Agile-V and SCOPE-V — Verified Engineering Process Control, Codex CLI Structured Verification Hooks (2026-07-12 Hourly Article Run)
+
+1. ✅ **Agentic Agile-V and the SCOPE-V Loop: Moving from Vibe Coding to Verified Engineering with Codex CLI** — Written 2026-07-12 → `2026-07-12-agentic-agile-v-scope-v-verified-engineering-codex-cli-structured-verification-hooks-acceptance-gates.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Koch published arXiv:2605.20456 (May 2026), Agentic Agile-V two-layer framework combining Agile-V lifecycle with SCOPE-V task loop (Specify, Constrain, Orchestrate, Prove, Evolve, Verify); central thesis that engineering process control not prompt engineering is the dominant challenge; conversation discovers intent but structured artefacts required for implementation and evidence required for acceptance; complemented by SWE-Chat (arXiv:2604.20779) showing 44% agent code survival rate and 3x token cost in vibe-coded sessions; mapped to Codex CLI AGENTS.md as task brief, writes approval mode v0.144 as Constrain encoding, rollout_budget as Orchestrate enforcement, PostToolUse/Stop hooks as Prove evidence gates, AGENTS.override.md as Evolve mechanism, SessionStart hooks and codex exec for recurring Verify
+   - SEO targets: "agentic agile-v codex cli verified engineering", "SCOPE-V task loop coding agent", "codex cli writes approval mode verification", "vibe coding vs verified engineering process control", "codex cli PostToolUse acceptance criteria hooks", "structured verification coding agent workflow"
+
+---
+
 ## SWE-Chat Bimodal Coding Patterns — Vibe vs Collaborative, Codex CLI Profiles for Deliberate Mode Selection (2026-07-12 Hourly Article Run)
 
 1. ✅ **SWE-Chat and the Bimodal Reality: Why 41 Per Cent of Sessions Are Pure Vibe Coding — and How Codex CLI Profiles Let You Choose Your Mode Deliberately** — Written 2026-07-12 → `2026-07-12-swe-chat-bimodal-coding-patterns-vibe-collaborative-codex-cli-profiles-token-efficiency-security.md`
