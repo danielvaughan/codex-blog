@@ -47,7 +47,7 @@ Vibe coding appears productive — the agent writes everything. But the numbers 
 - **Code survival:** Only **44% of all agent-produced code** survives into user commits [^1]
 - **Security:** Vibe-coded commits introduce **9× more vulnerabilities** per committed line than human-only code, and **5× more** than collaborative code [^1]
 - **Duration:** The 99.9th-percentile turn duration exceeds **100 minutes**, yet agents rarely pause to ask for clarification [^1]
-- **Pushback:** Users push back against agent outputs in **39% of turns** — regardless of mode [^1]
+- **Pushback:** Users push back against agent outputs in **44% of turns** — regardless of mode [^1]
 
 Collaborative coding achieves the best trade-off across all measured dimensions: cost, quality, security, and code survival rate [^1].
 
@@ -173,9 +173,9 @@ You can also set `CODEX_PROFILE=collaborative` in your shell RC file to make col
 
 ---
 
-## The 39 Per Cent Pushback Problem
+## The 44 Per Cent Pushback Problem
 
-SWE-chat's finding that users push back in 39% of turns [^1] suggests a structural mismatch: agents proceed confidently where humans would pause. The `writes` approval mode introduced in Codex CLI v0.144.0 [^8] offers a middle ground — allowing declared read-only actions while prompting for writes. This maps directly to the collaborative pattern where human judgment gates consequential changes.
+SWE-chat's finding that users push back in 44% of turns [^1] suggests a structural mismatch: agents proceed confidently where humans would pause. The `writes` approval mode introduced in Codex CLI v0.144.0 [^8] offers a middle ground — allowing declared read-only actions while prompting for writes. This maps directly to the collaborative pattern where human judgment gates consequential changes.
 
 ```toml
 # Alternative: writes-only approval (v0.144.0+)
