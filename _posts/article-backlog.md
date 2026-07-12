@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## SecVecCoder Task-Vector Secure Code Generation — Defence-in-Depth Model-Weight Security, Codex CLI Custom Providers (2026-07-12 Hourly Article Run)
+
+1. ✅ **SecVecCoder and the Defence-in-Depth Stack: How Task-Vector Security at the Model Layer Complements Codex CLI's Runtime Protections** — Written 2026-07-12 → `2026-07-12-secveccoder-task-vector-secure-code-generation-codex-cli-defence-in-depth-model-weight-runtime-security.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. published arXiv:2607.07881 (July 9, 2026), SecVecCoder task-vector arithmetic for simultaneously functional and secure code generation; 2.1–36.0pp improvement in sec-pass@1 across six open-source coding LLMs; secure-anchored operator W_base + τ_sec − θ·τ_insec; LPO fine-tuning produces opposed vectors (cosine −0.515 to −0.720) vs SFT aligned vectors (+0.332 to +0.765); 0.68–1.80 GPU-hours training; 0.6% inference overhead; generalises to unseen CWEs up to +39.1pp; mapped to Codex CLI custom model providers (Ollama/vLLM), defence-in-depth stack (model weights → AGENTS.md → PostToolUse hooks → sandbox), writes approval mode, config.toml profiles for secure-dev workflows
+   - SEO targets: "codex cli task vector secure code generation", "SecVecCoder defence-in-depth model security", "codex cli custom model provider security", "task vector arithmetic secure coding agent", "codex cli open-source model security steering", "model weight security coding agent defence"
+
+---
+
 ## TrajSpec Bug Report Specification Bottleneck — Trajectory-Guided Enrichment, Three-Dimension Repair Specifications, Codex CLI Two-Pass Repair Pipeline (2026-07-12 Hourly Article Run)
 
 1. ✅ **TrajSpec and the Specification Bottleneck: Why Your Bug Reports Are the Weakest Link in Agent-Driven Repair — and How Codex CLI Closes the Gap** — Written 2026-07-12 → `2026-07-12-trajspec-bug-report-specification-bottleneck-trajectory-guidance-codex-cli-automated-repair-agents-md-templates.md`
