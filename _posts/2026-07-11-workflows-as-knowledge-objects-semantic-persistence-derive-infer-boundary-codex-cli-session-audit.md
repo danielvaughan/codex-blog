@@ -199,7 +199,7 @@ The gap between Codex CLI's current architecture and the full knowledge-substrat
 | Workflow definition versioning | ⚠️ Partial | AGENTS.md in git provides history |
 | Inference-record classification | ❌ Missing | Hooks can annotate post-hoc |
 
-The v0.144 `writes` approval mode[^11] is an implicit acknowledgement of the derive/infer split: read operations (derive) proceed automatically while write operations (infer-driven mutations) require human confirmation. This is precisely the "executor retains authority over control flow" principle that *Workflow as Knowledge* prescribes.
+The v0.144 `writes` approval mode[^11] is an implicit acknowledgement of the derive/infer split: read operations (derive) proceed automatically whilst write operations (infer-driven mutations) require human confirmation. This is precisely the "executor retains authority over control flow" principle that *Workflow as Knowledge* prescribes.
 
 ## Practical Takeaways
 

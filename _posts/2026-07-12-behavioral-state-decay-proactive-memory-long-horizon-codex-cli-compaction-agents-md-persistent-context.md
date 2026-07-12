@@ -27,13 +27,13 @@ The paper evaluates decay across two benchmarks designed for long-horizon execut
 | Terminal-Bench 2.0 [^2] | 85 containerised command-line tasks | Debugging, compilation, system admin | Procedural memory loss |
 | τ²-Bench | 278 conversational tool-use tasks | Airline, retail, telecom | Policy adherence drift |
 
-Baseline results with Claude Sonnet 4.5 showed 37.6% pass rate on Terminal-Bench 2.0 and 55.0% on τ²-Bench [^1]. A separate study by Gamage quantified that constraint compliance drops from 73% at turn 5 to 33% at turn 16 without memory mitigation [^3] — a trajectory that maps directly to what Codex CLI users report in long sessions [^4].
+Baseline results with Claude Sonnet 4.5 showed 37.6 per cent pass rate on Terminal-Bench 2.0 and 55.0 per cent on τ²-Bench [^1]. A separate study by Gamage quantified that constraint compliance drops from 73 per cent at turn 5 to 33 per cent at turn 16 without memory mitigation [^3] — a trajectory that maps directly to what Codex CLI users report in long sessions [^4].
 
 ---
 
 ## Why Passive Context Compaction Is Insufficient
 
-Codex CLI's built-in compaction fires when accumulated tokens exceed `model_auto_compact_token_limit` [^5]. The system preserves the most recent ~20,000 tokens of user messages while discarding older assistant responses, tool outputs, and file contents [^6].
+Codex CLI's built-in compaction fires when accumulated tokens exceed `model_auto_compact_token_limit` [^5]. The system preserves the most recent ~20,000 tokens of user messages whilst discarding older assistant responses, tool outputs, and file contents [^6].
 
 This mechanism prevents context window overflow, but it is **lossy by design**. Critical consequences:
 
@@ -142,7 +142,7 @@ tool_output_token_limit = 8000          # Cap verbose tool outputs
 # for AGENTS.md + recent operational state
 ```
 
-Lowering the compaction threshold to 80–85% of the context window creates headroom for the post-compaction cycle to re-read AGENTS.md and recent context without immediately triggering another compaction [^6].
+Lowering the compaction threshold to 80–85 per cent of the context window creates headroom for the post-compaction cycle to re-read AGENTS.md and recent context without immediately triggering another compaction [^6].
 
 ### 4. MCP Memory Servers as Persistent Bank
 
@@ -213,7 +213,7 @@ This approximates Phase 2 selective injection: the agent reads accumulated decis
 
 The paper identifies three task properties that amplify behavioral state decay [^1]:
 
-1. **Interleaved subgoals** — Tasks requiring alternation between objectives (e.g. implementing a feature while maintaining backward compatibility) lose coherence fastest.
+1. **Interleaved subgoals** — Tasks requiring alternation between objectives (e.g. implementing a feature whilst maintaining backward compatibility) lose coherence fastest.
 2. **Environment-dependent state** — When correct actions depend on discovered (not specified) facts, those facts decay first during compaction.
 3. **Long diagnostic chains** — Multi-step debugging where each step's outcome constrains the next; procedural memories of failed approaches are critical.
 

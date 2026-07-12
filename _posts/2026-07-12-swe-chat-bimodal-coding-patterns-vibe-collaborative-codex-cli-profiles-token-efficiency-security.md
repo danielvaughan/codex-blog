@@ -28,7 +28,7 @@ SWE-chat identifies three distinct collaboration modes [^1]:
 | **Collaborative** | 36.5% | 1–99% of committed lines | Human and agent jointly contribute |
 | **Vibe coding** | 40.8% | >99% of committed lines | Agent authors virtually everything |
 
-The trajectory is alarming: over the three-month observation window, vibe coding's share **doubled** from 20% to over 40% of sessions [^1].
+The trajectory is alarming: over the three-month observation window, vibe coding's share **doubled** from 20 per cent to over 40 per cent of sessions [^1].
 
 ```mermaid
 pie title Session Distribution by Coding Mode (SWE-chat, n=6000)
@@ -44,10 +44,10 @@ pie title Session Distribution by Coding Mode (SWE-chat, n=6000)
 Vibe coding appears productive — the agent writes everything. But the numbers tell a different story:
 
 - **Token cost:** Vibe coding consumes roughly **3× more tokens per committed line** than collaborative coding [^1]
-- **Code survival:** Only **44% of all agent-produced code** survives into user commits [^1]
+- **Code survival:** Only **44 per cent of all agent-produced code** survives into user commits [^1]
 - **Security:** Vibe-coded commits introduce **9× more vulnerabilities** per committed line than human-only code, and **5× more** than collaborative code [^1]
 - **Duration:** The 99.9th-percentile turn duration exceeds **100 minutes**, yet agents rarely pause to ask for clarification [^1]
-- **Pushback:** Users push back against agent outputs in **44% of turns** — regardless of mode [^1]
+- **Pushback:** Users push back against agent outputs in **44 per cent of turns** — regardless of mode [^1]
 
 Collaborative coding achieves the best trade-off across all measured dimensions: cost, quality, security, and code survival rate [^1].
 
@@ -175,7 +175,7 @@ You can also set `CODEX_PROFILE=collaborative` in your shell RC file to make col
 
 ## The 44 Per Cent Pushback Problem
 
-SWE-chat's finding that users push back in 44% of turns [^1] suggests a structural mismatch: agents proceed confidently where humans would pause. The `writes` approval mode introduced in Codex CLI v0.144.0 [^8] offers a middle ground — allowing declared read-only actions while prompting for writes. This maps directly to the collaborative pattern where human judgment gates consequential changes.
+SWE-chat's finding that users push back in 44 per cent of turns [^1] suggests a structural mismatch: agents proceed confidently where humans would pause. The `writes` approval mode introduced in Codex CLI v0.144.0 [^8] offers a middle ground — allowing declared read-only actions whilst prompting for writes. This maps directly to the collaborative pattern where human judgment gates consequential changes.
 
 ```toml
 # Alternative: writes-only approval (v0.144.0+)
@@ -195,7 +195,7 @@ git log --since="1 week ago" --author="codex" --stat | \
   awk '{sum += $1} END {print "Agent lines this week:", sum}'
 ```
 
-If your ratio is climbing towards 100% without a deliberate decision, it may be time to shift towards the collaborative profile that SWE-chat shows delivers better outcomes per token spent.
+If your ratio is climbing towards 100 per cent without a deliberate decision, it may be time to shift towards the collaborative profile that SWE-chat shows delivers better outcomes per token spent.
 
 ---
 

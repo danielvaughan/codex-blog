@@ -14,7 +14,7 @@ tags: ["codex-cli", "constraint-decay", "backend-code-generation", "AGENTS.md", 
 
 Your coding agent can generate a working CRUD API in seconds. The endpoints respond, the tests pass, and the demo impresses. But ask it to do the same thing inside a four-layer clean architecture with PostgreSQL and SQLAlchemy — the kind of structural specification that any production backend demands — and performance collapses. Not because the agent cannot write code, but because it silently discards the constraints you specified.
 
-Dente, Satriani, and Papotti term this phenomenon **constraint decay**: as structural requirements accumulate, agent performance exhibits a substantial and systematic decline [^1]. Their study, published in May 2026, is the first rigorous quantification of what many senior developers already suspected — that LLM agents optimise for functional correctness while treating architectural constraints as optional suggestions.
+Dente, Satriani, and Papotti term this phenomenon **constraint decay**: as structural requirements accumulate, agent performance exhibits a substantial and systematic decline [^1]. Their study, published in May 2026, is the first rigorous quantification of what many senior developers already suspected — that LLM agents optimise for functional correctness whilst treating architectural constraints as optional suggestions.
 
 ---
 
@@ -62,11 +62,11 @@ The pattern is clear: agents succeed where framework behaviour is explicit and f
 
 ## Root Causes: It Is the Data Layer
 
-Error analysis reveals that **logic errors dominate at approximately 71% of failures** [^1]. Within that category, data-layer defects are the primary culprits:
+Error analysis reveals that **logic errors dominate at approximately 71 per cent of failures** [^1]. Within that category, data-layer defects are the primary culprits:
 
-- **Incorrect query composition:** 25.5% of failures (Qwen3-Coder-Next) [^1]
-- **ORM runtime violations:** 21.2% [^1]
-- **Authentication misconfiguration:** 22.6% [^1]
+- **Incorrect query composition:** 25.5 per cent of failures (Qwen3-Coder-Next) [^1]
+- **ORM runtime violations:** 21.2 per cent [^1]
+- **Authentication misconfiguration:** 22.6 per cent [^1]
 
 This maps to a concrete failure mode: the agent generates route handlers that call the database directly rather than through the specified ORM, or constructs SQLAlchemy queries that compile but produce incorrect results because the agent conflated raw SQL idioms with ORM method chains. The constraint was stated; the agent acknowledged it; the generated code ignores it.
 
@@ -76,7 +76,7 @@ This maps to a concrete failure mode: the agent generates route handlers that ca
 
 Constraint decay is not an academic curiosity. Every production backend has structural constraints — architectural layering, database abstraction, authentication middleware, logging standards, error handling conventions. The Constraint Decay findings align with a broader pattern identified by multiple research groups:
 
-- **Governance Decay** (Chen, arXiv:2606.22528): context compaction raises constraint violation from 0% to 30–59% across seven models because compaction treats standing policies as low-salience content [^2].
+- **Governance Decay** (Chen, arXiv:2606.22528): context compaction raises constraint violation from 0 per cent to 30–59 per cent across seven models because compaction treats standing policies as low-salience content [^2].
 - **Omission Constraint Decay** (arXiv:2604.20911): "don't do X" constraints decay faster than "do X" constraints in long-context sessions [^3].
 - **Rule Taxonomy Gap** (Cai et al., arXiv:2606.12231): mining 7,310 rules across 83 projects shows developers rate architectural constraints highest but rule files are dominated by formatting guidance [^4].
 
@@ -162,11 +162,11 @@ fi
 echo '{"decision":"approve"}'
 ```
 
-This pattern directly addresses the data-layer defects that cause 46.7% of failures in the Constraint Decay study [^1]. The agent writes a repository file with a raw SQL call; the hook rejects it; the agent rewrites using ORM methods.
+This pattern directly addresses the data-layer defects that cause 46.7 per cent of failures in the Constraint Decay study [^1]. The agent writes a repository file with a raw SQL call; the hook rejects it; the agent rewrites using ORM methods.
 
 ### Layer 3: The `writes` Approval Mode
 
-Codex CLI v0.144.0 introduced the `writes` approval mode — a middle ground between `suggest` (approve everything) and `on-request` (approve every tool call) [^8]. In `writes` mode, declared read-only actions proceed automatically while file writes pause for approval:
+Codex CLI v0.144.0 introduced the `writes` approval mode — a middle ground between `suggest` (approve everything) and `on-request` (approve every tool call) [^8]. In `writes` mode, declared read-only actions proceed automatically whilst file writes pause for approval:
 
 ```toml
 # config.toml
@@ -226,7 +226,7 @@ flowchart TD
 
 4. **Wire PostToolUse hooks for your specific architecture.** Generic linting catches syntax issues; architecture-specific hooks catch the data-layer defects that dominate real failures.
 
-5. **Treat `writes` approval mode as your daily driver.** It eliminates approval fatigue for reads while ensuring every generated file passes human review — the last line of defence against constraint decay.
+5. **Treat `writes` approval mode as your daily driver.** It eliminates approval fatigue for reads whilst ensuring every generated file passes human review — the last line of defence against constraint decay.
 
 6. **Test at L3, not L0.** If your CI validates agent output against a fully constrained specification (architectural layering + database + ORM + authentication), you will catch the 30-point gap that functional-only testing misses.
 

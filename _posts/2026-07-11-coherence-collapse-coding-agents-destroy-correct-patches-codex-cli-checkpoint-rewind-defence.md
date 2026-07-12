@@ -16,7 +16,7 @@ Your coding agent located the correct function, generated a patch bit-identical 
 
 Most post-mortem analysis of coding agents treats failure as a black box: the patch was wrong, move on. TRAJEVAL, introduced in arXiv:2603.24631 (March 2026, revised May 2026), decomposes 16,758 agent trajectories across three frameworks — SWE-Agent, OpenHands, and LIVE — and seven language models into reference-patch-aligned **search**, **read**, and **edit** stages [^1]. The decomposition is training-free: it aligns each trajectory step against the known gold patch to determine whether the agent found the right files, read the right functions, and produced the right edits.
 
-The headline finding: **60–69% of failures on SWE-Agent and OpenHands occur after the agent has already reached and edited the correct functions** [^1]. The problem is not finding the code. The problem is what happens next.
+The headline finding: **60–69 per cent of failures on SWE-Agent and OpenHands occur after the agent has already reached and edited the correct functions** [^1]. The problem is not finding the code. The problem is what happens next.
 
 ```mermaid
 flowchart LR
@@ -35,7 +35,7 @@ flowchart LR
 
 ## What Coherence Collapse Actually Looks Like
 
-Coherence collapse is not a single bug. It is a behavioural pattern where the agent generates a correct or near-correct patch mid-trajectory, then continues editing — overwriting, thrashing, or "improving" the working solution into a broken one. Within the edit-quality residual, coherence collapse is the largest single theme: **39.7% on SWE-bench Verified and 32.3% on PolyBench Verified** [^1].
+Coherence collapse is not a single bug. It is a behavioural pattern where the agent generates a correct or near-correct patch mid-trajectory, then continues editing — overwriting, thrashing, or "improving" the working solution into a broken one. Within the edit-quality residual, coherence collapse is the largest single theme: **39.7 per cent on SWE-bench Verified and 32.3 per cent on PolyBench Verified** [^1].
 
 The mechanism typically follows one of three sub-patterns:
 
@@ -59,7 +59,7 @@ Their Claude Sonnet 4.6-based trajectory judge achieves strong predictive power:
 | Precision at matched selectivity | **94%** vs 88% baseline |
 | Median flag position | **83–84%** through trajectory |
 
-The practical implication: if you can detect strained coherence at 83% of the way through a trajectory, you have a window to intervene before the agent destroys its own work [^2].
+The practical implication: if you can detect strained coherence at 83 per cent of the way through a trajectory, you have a window to intervene before the agent destroys its own work [^2].
 
 ## Why This Matters for Codex CLI Users
 
@@ -148,7 +148,7 @@ command = "npm test --silent 2>&1 | tail -5"
 on_failure = "warn"
 ```
 
-The `on_failure = "warn"` setting avoids hard-blocking the agent (which can trigger thrash loops) while surfacing the regression signal. A stricter variant uses `on_failure = "reject"` to prevent the collapsing edit from landing.
+The `on_failure = "warn"` setting avoids hard-blocking the agent (which can trigger thrash loops) whilst surfacing the regression signal. A stricter variant uses `on_failure = "reject"` to prevent the collapsing edit from landing.
 
 ### Writes Approval Mode (v0.144.0)
 
@@ -184,11 +184,11 @@ When two or three attempts converge on the same patch, confidence rises sharply.
 
 ## Key Takeaways
 
-1. **Localisation is solved for capable models.** The bottleneck has shifted to edit quality — 60–69% of failures happen after the agent finds the right code [^1].
+1. **Localisation is solved for capable models.** The bottleneck has shifted to edit quality — 60–69 per cent of failures happen after the agent finds the right code [^1].
 
-2. **Coherence collapse is the dominant edit-quality failure.** At 39.7% of SWE-bench failures, it is the single largest category [^1].
+2. **Coherence collapse is the dominant edit-quality failure.** At 39.7 per cent of SWE-bench failures, it is the single largest category [^1].
 
-3. **Strained coherence is detectable.** A trajectory judge can flag impending collapse with 94% precision at 83% through the trajectory [^2].
+3. **Strained coherence is detectable.** A trajectory judge can flag impending collapse with 94 per cent precision at 83 per cent through the trajectory [^2].
 
 4. **Checkpointing recovers collapsed patches.** All five bit-identical-to-gold intermediate patches were recoverable via edit-commit checkpoints [^1].
 

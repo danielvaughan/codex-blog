@@ -43,7 +43,7 @@ flowchart TD
     P --> C
 ```
 
-On SWE-Bench Verified, integrating the Librarian reduced per-episode GPU energy consumption by up to 25% whilst preserving task resolution rates[^1]. The token savings come almost entirely from suppressed output tokens — the most expensive category in both energy and API billing terms.
+On SWE-Bench Verified, integrating the Librarian reduced per-episode GPU energy consumption by up to 25 per cent whilst preserving task resolution rates[^1]. The token savings come almost entirely from suppressed output tokens — the most expensive category in both energy and API billing terms.
 
 ## Why This Matters for Codex CLI
 
@@ -51,7 +51,7 @@ Codex CLI's architecture already creates the conditions where the Librarian patt
 
 - **Ultra mode** spawns four parallel subagents by default[^5], each independently exploring the repository. Token consumption scales roughly linearly with subagent count[^6].
 - **Subagent delegation** via AGENTS.md or direct prompts triggers independent tool-use sessions, each with its own context window and its own exploration trajectory[^7].
-- **Repository exploration dominates token budgets** — Codex CLI agents spend 67–76% of their token budget on file reads, with the remainder split across reasoning and code generation[^8].
+- **Repository exploration dominates token budgets** — Codex CLI agents spend 67–76 per cent of their token budget on file reads, with the remainder split across reasoning and code generation[^8].
 
 The mismatch is structural: each subagent starts with a blank exploration state, even though the repository structure is identical across all threads.
 
@@ -162,7 +162,7 @@ flowchart LR
     E --> F
 ```
 
-The Librarian research suggests that the theoretical ceiling for output-token reduction is 40–60%[^1]. In practice, combining AGENTS.md exploration discipline with `tool_output_token_limit` capping typically yields 25–40% token savings on multi-agent Codex CLI sessions — consistent with the ContextSniper finding of 36.4% cost reduction on SWE-bench Lite[^8] and the broader pattern that exploration, not generation, is where the money goes.
+The Librarian research suggests that the theoretical ceiling for output-token reduction is 40–60 per cent[^1]. In practice, combining AGENTS.md exploration discipline with `tool_output_token_limit` capping typically yields 25–40 per cent token savings on multi-agent Codex CLI sessions — consistent with the ContextSniper finding of 36.4 per cent cost reduction on SWE-bench Lite[^8] and the broader pattern that exploration, not generation, is where the money goes.
 
 ## When Not to Bother
 

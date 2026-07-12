@@ -97,7 +97,7 @@ sandbox_mode = "read-only"
 sandbox_mode = "danger-full-access"
 ```
 
-For security-testing workflows where the agent *must* reach network targets, the `writes` approval mode (shipped in v0.144.0) lets you grant read-only actions automatically while requiring explicit approval for any write operation [^4]. This is the closest CLI analogue to the paper's "separate orchestrator approval gates for artefact transfer":
+For security-testing workflows where the agent *must* reach network targets, the `writes` approval mode (shipped in v0.144.0) lets you grant read-only actions automatically whilst requiring explicit approval for any write operation [^4]. This is the closest CLI analogue to the paper's "separate orchestrator approval gates for artefact transfer":
 
 ```bash
 codex --sandbox workspace-write \

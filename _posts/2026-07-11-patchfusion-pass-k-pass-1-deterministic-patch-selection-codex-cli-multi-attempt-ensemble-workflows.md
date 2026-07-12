@@ -18,7 +18,7 @@ Your coding agent can solve the bug. The question is whether it will solve the b
 
 Every SWE-bench leaderboard entry reports pass@1: one attempt, one patch, pass or fail. But the same agents evaluated at pass@5 or pass@10 show dramatically higher ceiling performance[^1]. Jha et al. (2026) formalise this as the *reliability gap* — the distance between capability ("can succeed once in k tries") and consistency ("usually succeeds on the first try")[^2].
 
-The gap is not academic. If your CI pipeline dispatches a Codex CLI cloud task to fix a failing test, and the agent generates a semantically incorrect patch 20% of the time — even when a correct patch exists within its sampling distribution — you have a production problem that no amount of prompt tuning will eliminate[^3].
+The gap is not academic. If your CI pipeline dispatches a Codex CLI cloud task to fix a failing test, and the agent generates a semantically incorrect patch 20 per cent of the time — even when a correct patch exists within its sampling distribution — you have a production problem that no amount of prompt tuning will eliminate[^3].
 
 ```mermaid
 graph LR
@@ -67,7 +67,7 @@ Their taxonomy of 145 faulty patches identified five failure modes: altered func
 
 Where PatchFusion operates on a pool of completed candidates, SWE-Replay (January 2026) optimises the *generation* phase itself[^5]. Rather than sampling N independent trajectories from scratch, it maintains an archive of prior attempts and stochastically branches at critical intermediate steps:
 
-- Reduces cost by up to 17.4% while maintaining or improving performance by up to 3.8% on SWE-bench Verified[^5]
+- Reduces cost by up to 17.4 per cent whilst maintaining or improving performance by up to 3.8 per cent on SWE-bench Verified[^5]
 - Bypasses reliance on potentially miscalibrated value models
 - Generalises across agent scaffolds — including those that synthesise custom bash scripts as tools
 
@@ -197,11 +197,11 @@ The economics of multi-attempt generation versus single-shot repair are counteri
 | 3 attempts + PatchFusion | 3× + 3.28ms | ~90–96%[^4] | 3.1–3.3× base |
 | SWE-Replay (3 budget) | ~2.5×[^5] | ~87–92% | 2.7–2.9× base |
 
-The break-even calculation: if a failed patch costs you a review cycle (20 minutes of senior developer time), three attempts with automated selection pays for itself whenever your single-shot failure rate exceeds ~10%.
+The break-even calculation: if a failed patch costs you a review cycle (20 minutes of senior developer time), three attempts with automated selection pays for itself whenever your single-shot failure rate exceeds ~10 per cent.
 
 ## The Semantic Incorrectness Problem
 
-Raw pass rates undercount failures. Team Atlanta found that ~20% of patches passing automated validation contained semantic defects — fixes that mask the symptom without addressing the root cause[^3]. PatchFusion's atomic-edit voting partially addresses this: symptomatic patches tend to be idiosyncratic (each agent suppresses the error differently), while correct patches converge on the same structural change.
+Raw pass rates undercount failures. Team Atlanta found that ~20 per cent of patches passing automated validation contained semantic defects — fixes that mask the symptom without addressing the root cause[^3]. PatchFusion's atomic-edit voting partially addresses this: symptomatic patches tend to be idiosyncratic (each agent suppresses the error differently), whilst correct patches converge on the same structural change.
 
 ```mermaid
 flowchart TD

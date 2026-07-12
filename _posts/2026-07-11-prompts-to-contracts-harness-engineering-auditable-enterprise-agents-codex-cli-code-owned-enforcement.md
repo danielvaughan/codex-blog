@@ -131,7 +131,7 @@ log_user_prompt = true
 endpoint = "https://otel-collector.internal:4317"
 ```
 
-Session JSONL files provide the local trace record, while OpenTelemetry export feeds enterprise observability infrastructure [^3]. Together they satisfy the paper's requirement that "process trace records tool and source states such as live, local, fallback, fixture, or error" [^1].
+Session JSONL files provide the local trace record, whilst OpenTelemetry export feeds enterprise observability infrastructure [^3]. Together they satisfy the paper's requirement that "process trace records tool and source states such as live, local, fallback, fixture, or error" [^1].
 
 ```mermaid
 flowchart LR

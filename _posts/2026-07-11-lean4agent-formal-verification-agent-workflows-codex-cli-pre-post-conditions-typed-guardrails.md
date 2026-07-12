@@ -14,7 +14,7 @@ tags: ["codex-cli", "formal-verification", "lean4", "agent-workflows", "pre-cond
 
 Every Codex CLI workflow ultimately rests on natural-language instructions in `AGENTS.md`. Those instructions shape agent behaviour—what to test, what to avoid, how to declare completion—but they carry no formal guarantees. A misspelled variable name, an unreachable workflow step, or a violated pre-condition surfaces only at runtime, after tokens have been spent and side effects committed.
 
-Lean4Agent [^1], published in June 2026 by Wang et al., tackles this gap head-on. It is the first framework to apply Lean 4's dependent-type system to the formal modelling and verification of agent workflows and execution trajectories. The results are striking: verification-passing workflows outperform failing ones by 14.80% on a hard subset of SWE-Bench-Verified [^1], and the accompanying LeanEvolve refinement loop adds a further 7.47% improvement [^1].
+Lean4Agent [^1], published in June 2026 by Wang et al., tackles this gap head-on. It is the first framework to apply Lean 4's dependent-type system to the formal modelling and verification of agent workflows and execution trajectories. The results are striking: verification-passing workflows outperform failing ones by 14.80 per cent on a hard subset of SWE-Bench-Verified [^1], and the accompanying LeanEvolve refinement loop adds a further 7.47 per cent improvement [^1].
 
 This article examines Lean4Agent's architecture, maps its three verification layers onto Codex CLI's existing specification and hook primitives, and sketches how teams can adopt lightweight formal checks today without waiting for native Lean integration.
 
@@ -74,7 +74,7 @@ The benchmark results across five LLMs on SWE-Bench-Verified's hard 50-problem s
 | Gemma-4-31B | 60.00% | 32.67% | +27.33% |
 | Qwen-3.5-27B | 49.33% | 38.00% | +11.33% |
 
-The 95% confidence interval for the average improvement is [10.00%, 19.60%] [^1]. Formal-guided evolution via LeanEvolve outperformed pure-LLM evolution by 7.00% [^1], demonstrating that localised formal feedback is superior to unconstrained self-repair.
+The 95 per cent confidence interval for the average improvement is [10.00, 19.60 per cent] [^1]. Formal-guided evolution via LeanEvolve outperformed pure-LLM evolution by 7.00 per cent [^1], demonstrating that localised formal feedback is superior to unconstrained self-repair.
 
 ---
 
@@ -246,7 +246,7 @@ Not every Codex CLI workflow warrants theorem proving. The cost-benefit inflecti
 
 ## Looking Ahead
 
-Lean4Agent establishes formal verification of agent workflows as a viable field. The 14.80% average improvement is not marginal—it represents the difference between a coding agent that stumbles through structural inconsistencies and one that operates on a verified foundation.
+Lean4Agent establishes formal verification of agent workflows as a viable field. The 14.80 per cent average improvement is not marginal — it represents the difference between a coding agent that stumbles through structural inconsistencies and one that operates on a verified foundation.
 
 For Codex CLI, the path forward is incremental:
 

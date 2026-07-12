@@ -76,7 +76,7 @@ Codex CLI's layered discovery (`AGENTS.md` at repo root, per-directory overrides
 
 ## Constrain: Writes Approval Mode and Sandbox Boundaries
 
-The Constrain phase sets boundaries: no public API changes unless approved, no unrelated files, no new dependencies without justification[^1]. Codex CLI v0.144 introduced the `writes` approval mode, which allows declared read-only actions while prompting for any write operation[^5]:
+The Constrain phase sets boundaries: no public API changes unless approved, no unrelated files, no new dependencies without justification[^1]. Codex CLI v0.144 introduced the `writes` approval mode, which allows declared read-only actions whilst prompting for any write operation[^5]:
 
 ```toml
 # config.toml — Constrain phase encoding
