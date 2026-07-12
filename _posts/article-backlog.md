@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## TrajSpec Bug Report Specification Bottleneck — Trajectory-Guided Enrichment, Three-Dimension Repair Specifications, Codex CLI Two-Pass Repair Pipeline (2026-07-12 Hourly Article Run)
+
+1. ✅ **TrajSpec and the Specification Bottleneck: Why Your Bug Reports Are the Weakest Link in Agent-Driven Repair — and How Codex CLI Closes the Gap** — Written 2026-07-12 → `2026-07-12-trajspec-bug-report-specification-bottleneck-trajectory-guidance-codex-cli-automated-repair-agents-md-templates.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Al Fahim et al. published arXiv:2607.07882 (July 9, 2026), TrajSpec three-stage bug report specification refinement using trajectory guidance; Pass@1 from 41% to 59.67% (GPT-5-mini) and 41% to 71% (Agentless) and 47% to 72% (AutoCodeRover) on SWE-bench Lite; three-stage pipeline: trajectory collection, hierarchical evidence abstraction (failure mechanism, behavioural requirement, implementation scope at three granularity levels), repository-based review; ablation shows both hierarchy (−20.11pp without) and review (−19.55pp without) critically contribute; $0.087 enrichment cost with 24% downstream token reduction; mapped to Codex CLI AGENTS.md bug-fix protocol templates, codex exec --output-schema for structured investigation, PostToolUse hooks for scope validation, two-pass model routing (Luna/Terra for investigation/repair), openai/codex-action@v1 GitHub Actions integration
+   - SEO targets: "codex cli bug report specification enrichment", "TrajSpec trajectory guidance automated repair", "codex cli two-pass repair workflow", "AGENTS.md bug fix protocol template", "codex exec output-schema investigation", "bug report specification bottleneck coding agent", "codex cli PostToolUse scope validation hooks"
+
+---
+
 ## Performance Engineering with Profiling MCP Servers — CodSpeed, pprof-analyzer, Flamegraph Analysis, Automated Optimise-Measure Loop (2026-07-12 Hourly Article Run)
 
 1. ✅ **Performance Engineering with Codex CLI: Profiling MCP Servers, Flamegraph Analysis, and the Automated Optimise-Measure Loop** — Written 2026-07-12 → `2026-07-12-codex-cli-performance-engineering-profiling-mcp-servers-flamegraph-optimise-measure-loop.md`
