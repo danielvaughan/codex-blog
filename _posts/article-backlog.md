@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+
+## Dependency Incident Audits — PackageGate Supply Chain Defence, Sandbox Lockfile Hardening (2026-07-12 Hourly Article Run)
+
+1. ✅ **Dependency Incident Audits with Codex CLI: From PackageGate to Hardened Lockfile Defence** — Written 2026-07-12 → `2026-07-12-dependency-incident-audits-codex-cli-packagegate-supply-chain-sandbox-lockfile-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI official dependency incident audit use case (learn.chatgpt.com/use-cases/dependency-incident-audits), PackageGate six zero-days in npm/pnpm/vlt/Bun (January 2026, Koi Security), Shai-Hulud/TeamPCP stolen OIDC token campaign (active through May 2026), PR #19163 hardening package-manager install policy (merged April 2026), Codex CLI sandbox workspace-write network-disabled default, domain allowlist for controlled registry access, AGENTS.md audit constraints encoding, transcript-based compliance artefacts
+   - SEO targets: "codex cli dependency incident audit", "PackageGate supply chain codex cli", "codex cli sandbox lockfile security", "dependency audit workflow coding agent", "codex cli network allowlist registry", "supply chain advisory codex cli sandbox", "package manager hardening codex cli"
+
+---
+
 ## Behavioral State Decay — Proactive Memory for Long-Horizon Agents, Codex CLI Compaction and Persistent Context (2026-07-12 Hourly Article Run)
 
 1. ✅ **Behavioral State Decay: Why Your Coding Agent Forgets Mid-Task — and How Proactive Memory Patterns Fix It in Codex CLI** — Written 2026-07-12 → `2026-07-12-behavioral-state-decay-proactive-memory-long-horizon-codex-cli-compaction-agents-md-persistent-context.md`
