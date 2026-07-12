@@ -2,6 +2,14 @@
 
 
 
+## Programmatic Tool Calling — GPT-5.6 JavaScript Orchestration, Fewer Round-Trips, Token Cost Reduction (2026-07-12 Hourly Article Run)
+
+1. ✅ **Programmatic Tool Calling: How GPT-5.6's JavaScript Orchestration Layer Cuts Codex CLI Round-Trips and Token Costs** — Written 2026-07-12 → `2026-07-12-programmatic-tool-calling-gpt56-codex-cli-javascript-orchestration-fewer-roundtrips-token-cost.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GPT-5.6 GA on July 9, 2026 shipped Programmatic Tool Calling as a new Responses API feature; model writes JavaScript in isolated V8 runtime to coordinate tools with loops, conditions, and parallel execution; fewer model round-trips, fewer tokens in context, less coherence collapse risk; allowed_callers parameter controls tool eligibility; MCP server compatibility; Codex CLI v0.144 uses Responses API internally; direct relevance to rollout_budget, AGENTS.md workflow encoding, and cost-per-task economics
+   - SEO targets: "codex cli programmatic tool calling GPT-5.6", "programmatic tool calling fewer round-trips", "GPT-5.6 JavaScript tool orchestration codex", "codex cli token cost reduction programmatic", "allowed_callers programmatic tool configuration", "codex cli V8 runtime tool coordination"
+
+---
+
 ## Dependency Incident Audits — PackageGate Supply Chain Defence, Sandbox Lockfile Hardening (2026-07-12 Hourly Article Run)
 
 1. ✅ **Dependency Incident Audits with Codex CLI: From PackageGate to Hardened Lockfile Defence** — Written 2026-07-12 → `2026-07-12-dependency-incident-audits-codex-cli-packagegate-supply-chain-sandbox-lockfile-defence.md`
