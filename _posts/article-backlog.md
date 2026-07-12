@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## Performance Engineering with Profiling MCP Servers — CodSpeed, pprof-analyzer, Flamegraph Analysis, Automated Optimise-Measure Loop (2026-07-12 Hourly Article Run)
+
+1. ✅ **Performance Engineering with Codex CLI: Profiling MCP Servers, Flamegraph Analysis, and the Automated Optimise-Measure Loop** — Written 2026-07-12 → `2026-07-12-codex-cli-performance-engineering-profiling-mcp-servers-flamegraph-optimise-measure-loop.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — existing articles covered Codex CLI token/cost performance optimisation and benchmark scores but no article addressed using Codex CLI as a performance engineering tool for application-level profiling, flamegraph analysis, memory leak detection, or automated optimise-measure loops despite three MCP profiling servers (CodSpeed MCP with codspeed-optimize/codspeed-setup-harness skills, pprof-analyzer with memory leak detection, Profiler-MCP for Go pprof) being available; CodSpeed CLI released January 2026 with simulation/walltime/memory modes; pprof-analyzer 5,100+ downloads with CPU/heap/goroutine/mutex/block profiles; mapped to Codex CLI MCP config.toml, PostToolUse hooks for regression gates, AGENTS.md methodology constraints, rollout_budget for token control, sandbox network allowlist for localhost profiling endpoints
+   - SEO targets: "codex cli performance profiling MCP server", "codex cli flamegraph analysis automated", "codspeed optimize agent skill codex", "pprof-analyzer MCP Go profiling codex cli", "codex cli automated optimise-measure loop", "performance engineering coding agent workflow"
+
+---
 
 ## Responses API Multi-Agent Beta — Server-Side Subagent Spawning, Parallel Coordination, Codex CLI Configuration (2026-07-12 Hourly Article Run)
 
