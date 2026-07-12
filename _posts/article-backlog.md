@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Span-Level Hallucination Detection — LettuceDetect, Code and Tool Output Verification, Codex CLI PostToolUse Integration (2026-07-13 Hourly Article Run)
+
+1. ✅ **Span-Level Hallucination Detection for Code and Tool Output: Wiring LettuceDetect into Your Codex CLI Verification Stack** — Written 2026-07-13 → `2026-07-13-span-level-hallucination-detection-code-tool-output-codex-cli-posttooluse-verification-lettucedetect.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kovács et al. published arXiv:2607.00895 (July 1, 2026), LettuceDetect unified benchmark for span-level hallucination detection over code, tool output, and documents; 74,285 examples across 5 source types; fine-tuned Qwen3.5-2B achieves 0.689 span-F1 unified and 0.602 on code-agent (vs 0.17 for prior NL-only detector, 0.21 for zero-shot LLM judges); 18,524 code examples from SWE-bench with function/fragment/edit renderings; 13 hallucination subcategories; zero-shot judges fail on code due to context truncation, non-verbatim generation, and clean-patch false flagging; mapped to Codex CLI PostToolUse hooks for real-time patch verification, auto-review Guardian subagent integration via MCP tool, CI/CD pipeline gates with codex exec and openai/codex-action, AGENTS.md grounding constraints, tool_output_token_limit context budget, threshold-based blocking vs logging
+   - SEO targets: "codex cli hallucination detection code", "span-level hallucination detection coding agent", "LettuceDetect codex cli PostToolUse", "code patch verification agent", "codex cli auto-review hallucination", "tool output verification coding agent", "fabricated method detection codex cli"
+
+---
+
+
 ## The Dialogue Gap — Interactive Coding Agent Evaluation, Dialogue-SWEBench, SWE-Together, Codex CLI Collaborative Architecture (2026-07-12 Hourly Article Run)
 
 1. ✅ **The Dialogue Gap: Why Better Models Don't Make Better Coding Partners — and How Codex CLI's Interactive Architecture Closes It** — Written 2026-07-12 → `2026-07-12-dialogue-gap-interactive-coding-agents-codex-cli-dialogue-swebench-swe-together-collaborative-architecture.md`
