@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## SWE-Chat Bimodal Coding Patterns — Vibe vs Collaborative, Codex CLI Profiles for Deliberate Mode Selection (2026-07-12 Hourly Article Run)
+
+1. ✅ **SWE-Chat and the Bimodal Reality: Why 41 Per Cent of Sessions Are Pure Vibe Coding — and How Codex CLI Profiles Let You Choose Your Mode Deliberately** — Written 2026-07-12 → `2026-07-12-swe-chat-bimodal-coding-patterns-vibe-collaborative-codex-cli-profiles-token-efficiency-security.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Baumann et al. published arXiv:2604.20779 (April 2026, SALT-NLP Stanford), SWE-chat first large-scale dataset of 6,000 real coding agent sessions from open-source developers; 63,000+ user prompts and 355,000 agent tool calls; bimodal distribution: 40.8% vibe coding (>99% agent-authored), 36.5% collaborative, 22.7% human-only; vibe coding doubled from 20% to 40% over three-month window; vibe coding 3x token cost per committed line; only 44% agent code survives into commits; 9x more vulnerabilities in vibe-coded vs human-only; 39% user pushback rate; mapped to Codex CLI named profiles for deliberate mode selection, approval_mode auto-edit/full-auto/suggest/writes, rollout_budget, PostToolUse security hooks, sandbox network allowlist, AGENTS.md mode guidance encoding
+   - SEO targets: "SWE-chat bimodal coding patterns codex cli", "vibe coding vs collaborative coding agent", "codex cli named profiles mode switching", "coding agent token efficiency collaborative", "vibe coding security vulnerabilities 9x", "codex cli approval mode deliberate selection"
+
+---
+
 ## The Librarian Pattern — Persistent Search Sub-Agent, Pointer-Only Answers, Multi-Agent Token Waste Reduction (2026-07-12 Hourly Article Run)
 
 1. ✅ **The Librarian Pattern: Why Persistent Search History Cuts Multi-Agent Token Waste — and How to Wire It into Codex CLI** — Written 2026-07-12 → `2026-07-12-librarian-pattern-persistent-search-sub-agent-token-waste-codex-cli-multi-agent-pointer-answers.md`
