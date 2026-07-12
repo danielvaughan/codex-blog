@@ -2,6 +2,14 @@
 
 
 
+## Responses API Multi-Agent Beta — Server-Side Subagent Spawning, Parallel Coordination, Codex CLI Configuration (2026-07-12 Hourly Article Run)
+
+1. ✅ **The Responses API Multi-Agent Beta: How Server-Side Subagent Spawning Changes Codex CLI's Parallelism Model** — Written 2026-07-12 → `2026-07-12-responses-api-multi-agent-beta-codex-cli-server-side-subagent-spawning-parallel-coordination.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GPT-5.6 GA on July 9, 2026 shipped Multi-Agent Beta in the Responses API; model spawns cooperative subagents server-side within a single request; spawn_agent/followup_task/send_message primitives; max_concurrent_subagents default 3; hierarchical agent paths; distinct from CLI-level max_threads/max_depth client-side orchestration; Codex CLI exposes via [features] multi_agent = true in config.toml; Ultra mode spawns subagents proactively; token cost multiplier 2-3x; sandbox and approval policy inherited uniformly; WebSocket recommended for coordination latency
+   - SEO targets: "codex cli responses api multi-agent beta", "server-side subagent spawning GPT-5.6", "codex cli multi_agent config", "responses api spawn_agent coordination", "codex cli server-side vs client-side parallelism", "GPT-5.6 cooperative subagents codex cli configuration"
+
+---
+
 ## Programmatic Tool Calling — GPT-5.6 JavaScript Orchestration, Fewer Round-Trips, Token Cost Reduction (2026-07-12 Hourly Article Run)
 
 1. ✅ **Programmatic Tool Calling: How GPT-5.6's JavaScript Orchestration Layer Cuts Codex CLI Round-Trips and Token Costs** — Written 2026-07-12 → `2026-07-12-programmatic-tool-calling-gpt56-codex-cli-javascript-orchestration-fewer-roundtrips-token-cost.md`
