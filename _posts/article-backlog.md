@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## The Dialogue Gap — Interactive Coding Agent Evaluation, Dialogue-SWEBench, SWE-Together, Codex CLI Collaborative Architecture (2026-07-12 Hourly Article Run)
+
+1. ✅ **The Dialogue Gap: Why Better Models Don't Make Better Coding Partners — and How Codex CLI's Interactive Architecture Closes It** — Written 2026-07-12 → `2026-07-12-dialogue-gap-interactive-coding-agents-codex-cli-dialogue-swebench-swe-together-collaborative-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Dialogue-SWEBench (arXiv:2606.13995, June 2026) first benchmark for dialogue-driven coding agents using persona-grounded user simulator; schema-guided agent improves 3–14% over baselines; SWE-Together (arXiv:2606.29957, June 30, 2026) curates 109 tasks from 11,260 real user-agent sessions measuring corrective feedback turns; key finding: better coding models do not always correspond to better dialogue models; three failure modes (clarification avoidance, correction blindness, over-questioning); mapped to Codex CLI plan mode, ask_user_question structured dialogue tool, /side conversations, interactive vs exec boundary, AGENTS.md dialogue directives, writes approval mode, PostToolUse hook feedback as automated corrections
+   - SEO targets: "dialogue gap coding agents codex cli", "interactive coding agent evaluation", "Dialogue SWE-Bench codex cli", "SWE-Together interactive benchmark", "codex cli plan mode dialogue", "ask_user_question codex cli", "coding agent corrective feedback turns"
+
+---
+
+
 ## SecVecCoder Task-Vector Secure Code Generation — Defence-in-Depth Model-Weight Security, Codex CLI Custom Providers (2026-07-12 Hourly Article Run)
 
 1. ✅ **SecVecCoder and the Defence-in-Depth Stack: How Task-Vector Security at the Model Layer Complements Codex CLI's Runtime Protections** — Written 2026-07-12 → `2026-07-12-secveccoder-task-vector-secure-code-generation-codex-cli-defence-in-depth-model-weight-runtime-security.md`
