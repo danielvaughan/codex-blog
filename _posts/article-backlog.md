@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Behavioral State Decay — Proactive Memory for Long-Horizon Agents, Codex CLI Compaction and Persistent Context (2026-07-12 Hourly Article Run)
+
+1. ✅ **Behavioral State Decay: Why Your Coding Agent Forgets Mid-Task — and How Proactive Memory Patterns Fix It in Codex CLI** — Written 2026-07-12 → `2026-07-12-behavioral-state-decay-proactive-memory-long-horizon-codex-cli-compaction-agents-md-persistent-context.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wu et al. published arXiv:2607.08716 (July 9, 2026), Proactive Memory Agent for Long-Horizon Agents; identifies behavioral state decay where decision-relevant information stops influencing agent behaviour even when present in context; two-phase memory agent architecture with structured bank (status/knowledge/procedural) and selective intervention; +8.3pp Terminal-Bench 2.0, +6.8pp τ²-Bench over baseline; selective intervention outperforms passive retrieval, always-inject, and Mem0; Qwen3.5-27B open-weight memory policy transfers to frozen larger models; mapped to Codex CLI AGENTS.md as knowledge memory encoding, PostToolUse hooks as state-consistency detectors, model_auto_compact_token_limit headroom configuration, MCP memory servers as persistent bank, named profiles for long-session decay mitigation
+   - SEO targets: "behavioral state decay codex cli", "codex cli compaction memory loss", "proactive memory coding agent long session", "codex cli AGENTS.md persistent context", "context compaction state decay mitigation", "codex cli PostToolUse state consistency hooks", "long-horizon coding agent memory architecture"
+
+---
+
 ## Constraint Decay — Backend Code Generation Fragility, Structural Enforcement with AGENTS.md and PostToolUse Hooks (2026-07-12 Hourly Article Run)
 
 1. ✅ **Constraint Decay: Why Your Coding Agent Generates Structurally Arbitrary Backends — and How Codex CLI's Enforcement Stack Fights Back** — Written 2026-07-12 → `2026-07-12-constraint-decay-backend-code-generation-fragility-codex-cli-structural-enforcement-agents-md-hooks.md`
