@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## ScopeJudge Pre-Execution Gating — Static Policy Failure, LLM Judge, Codex CLI PreToolUse Approval Scope Enforcement (2026-07-13 Hourly Article Run)
+
+1. ✅ **ScopeJudge and Pre-Execution Gating: Why Static Policies Fail at Scope Enforcement — and How Codex CLI's PreToolUse Hooks Already Solve the Hard Part** — Written 2026-07-13 → `2026-07-13-scopejudge-pre-execution-gating-offensive-security-agents-codex-cli-pretooluse-approval-scope-enforcement.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Caldwell et al. published arXiv:2607.07774 (July 8, 2026), ScopeJudge pre-execution gating framework using trusted LLM judge to review tool calls before execution; 4,897 labelled tool calls from 100 trajectories across 5 agent families with 7.7% natural scope violation rate; Fleiss κ=0.64 inter-grader agreement; static policy recall collapses to near zero without request context; GLM-5.2 open-weight judge reaches F1=0.66 beating best proprietary (0.60) at ~1/3 cost; human expert F1=0.78; five transcript strategies from static to full trajectory; two operating points (cost-sensitive vs recall-first); mapped to Codex CLI PreToolUse hooks as deterministic static gate (exit code 2 blocks), granular approval_policy as intent-conditioned gating, Guardian auto-review subagent as LLM judge, PostToolUse audit hooks, AGENTS.md scope encoding, writes approval mode, rollout_budget cost ceiling
+   - SEO targets: "ScopeJudge pre-execution gating codex cli", "codex cli PreToolUse scope enforcement", "static policy failure agent scope", "codex cli Guardian auto-review scope judge", "pre-execution gating offensive security agent", "codex cli approval_policy granular scope", "LLM judge scope enforcement coding agent"
+
+---
+
+
 ## ChainSWE Multi-Bug Sequential Maintenance — Chain Degradation, Context Strategy, Codex CLI Session Management (2026-07-13 Hourly Article Run)
 
 1. ✅ **ChainSWE and the 70% Drop: Why Sequential Bug-Fixing Breaks Every Coding Agent — and How to Wire Chain-Resilient Maintenance into Codex CLI** — Written 2026-07-13 → `2026-07-13-chainswe-multi-bug-sequential-maintenance-benchmark-codex-cli-chain-degradation-context-strategy.md`
