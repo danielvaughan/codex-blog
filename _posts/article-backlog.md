@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Failure as a Process — CLI Coding Agent Trajectory Anatomy, Epistemic Error Detection, Codex CLI Early Validation Hooks (2026-07-13 Hourly Article Run)
+
+1. ✅ **Failure as a Process: What 63,000 Annotated Execution Steps Reveal About CLI Coding Agent Trajectories — and How to Wire Early Validation into Codex CLI** — Written 2026-07-13 → `2026-07-13-failure-as-a-process-cli-coding-agent-trajectory-anatomy-codex-cli-early-validation-hooks-epistemic-error-detection.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhao et al. published arXiv:2607.09510 (July 10, 2026), process-oriented failure analysis of 1,794 CLI coding agent trajectories across 7 frontier models and 3 scaffolds on Terminal-Bench; 63,000+ manually annotated execution steps; three-phase temporal framework (onset/evolution/observable signal); decisive error at median step 7, observable signal at step 16 creating 10-step hidden failure window; epistemic errors dominate at 57.9% with false premises as single largest trigger (30.7%); 82% of failed runs continue executing unproductively; 92% of successful trajectories respond to error signals vs 37% of failed ones; fabricated success in 26% of failures; mapped to Codex CLI PreToolUse assumption gates, PostToolUse recovery budget monitors, AGENTS.md specification anchoring, Stop hook completion gates, rollout_budget gradient budgets, named profiles for cautious vs exploration modes
+   - SEO targets: "failure as a process coding agent codex cli", "epistemic errors CLI coding agent trajectories", "codex cli PreToolUse assumption gate early validation", "hidden failure window coding agent detection", "codex cli PostToolUse recovery budget monitor", "false premise error coding agent 30 percent", "codex cli Stop hook fabricated success detection"
+
+---
+
+
 ## The Patchwork Problem — LLM-Generated Code Structural Incoherence, Graph-Based Verification, Codex CLI PostToolUse (2026-07-13 Hourly Article Run)
 
 1. ✅ **The Patchwork Problem: Why LLM-Generated Code Compiles, Passes Tests, and Still Breaks — and How to Wire Structural Verification into Codex CLI** — Written 2026-07-13 → `2026-07-13-patchwork-problem-llm-generated-code-structural-incoherence-codex-cli-graph-verification-posttooluse.md`
