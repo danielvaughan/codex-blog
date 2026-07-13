@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## ChainSWE Multi-Bug Sequential Maintenance — Chain Degradation, Context Strategy, Codex CLI Session Management (2026-07-13 Hourly Article Run)
+
+1. ✅ **ChainSWE and the 70% Drop: Why Sequential Bug-Fixing Breaks Every Coding Agent — and How to Wire Chain-Resilient Maintenance into Codex CLI** — Written 2026-07-13 → `2026-07-13-chainswe-multi-bug-sequential-maintenance-benchmark-codex-cli-chain-degradation-context-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Jin et al. published arXiv:2607.02606 (July 1, 2026), ChainSWE first benchmark evaluating coding agents on sequential dependent bug fixes within shared codebases; 304 tasks across 100 chains in 54 Python repositories; 38% relative decline Oracle→Sequential per-bug accuracy (58.9%→36.5%); up to 70% degradation at chain position 3; 48% of downstream failures are chain errors (self-inflicted from prior positions); overshoot:undershoot ratio 9:1; raw history carry-over (−33%) outperforms summarisation (−40%) and sub-agent delegation (−41%); 7 frontier models evaluated including GPT-4.5, Claude-Opus-4.7, DeepSeek-V4-Pro; mapped to Codex CLI --resume session continuity, model_auto_compact_token_limit compaction control, AGENTS.md patch scope constraints, rollout_budget chain cost ceiling, PostToolUse patch scope verification hooks, multi-model profile routing by chain position
+   - SEO targets: "ChainSWE multi-bug benchmark codex cli", "sequential bug fixing coding agent degradation", "chain error overshoot undershoot coding agent", "codex cli session resume chain maintenance", "context strategy sequential maintenance agent", "codex cli AGENTS.md patch scope constraint", "multi-bug maintenance benchmark 70 percent drop"
+
+---
+
+
 ## Configuration Smells Across AGENTS.md and SKILL.md — Detection, Remediation, Codex CLI Configuration Stack (2026-07-13 Hourly Article Run)
 
 1. ✅ **Configuration Smells Across AGENTS.md and SKILL.md: What 338 Files Reveal About How We Misconfigure Coding Agents** — Written 2026-07-13 → `2026-07-13-configuration-smells-agents-md-skill-md-codex-cli-detection-remediation-lint-leakage-context-bloat.md`

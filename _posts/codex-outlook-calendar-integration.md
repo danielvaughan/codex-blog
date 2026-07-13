@@ -2,7 +2,7 @@
 title: "Codex and Outlook Calendar: Five Ways to Connect Your Agent to Microsoft 365 Scheduling"
 description: "ChatGPT has native Outlook connectors baked into the product. As of April 16, 2026, the Codex Desktop App does too."
 date: 2026-04-28T00:00:00+00:00
-last_modified_at: 2026-07-13T18:14:37+01:00
+last_modified_at: 2026-07-13T20:10:15+01:00
 layout: article
 tags:
   - codex-cli
