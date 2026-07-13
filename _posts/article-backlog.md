@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Inside the Skill Market — 11,497 SE Skills, Lifecycle Gaps, Reusable Agent Workflows (2026-07-14 Hourly Article Run)
+
+1. ✅ **Inside the Skill Market: What 11,497 SE Skills Reveal About the Gaps in Our Agent Workflows — and How to Fill Them with Codex CLI** — Written 2026-07-14 → `2026-07-14-inside-the-skill-market-11497-se-skills-codex-cli-lifecycle-gaps-reusable-agent-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cao et al. published arXiv:2607.09065 (July 10, 2026), first large-scale empirical study of 11,497 SE-related skills across four public marketplaces; 775,790 initial skills filtered to final dataset; 63.8% instruction-only with no executable code; 65.4% of skills concentrated in three code-centric lifecycle stages (Implementation 25.0%, Testing 21.3%, Code Review 19.1%); Requirements (2.2%), Release (3.2%), Deployment (5.3%) severely underserved; 19.6% of ClawHub skills flagged suspicious by both scanners; only 6.3% cross-marketplace overlap; average skill 2,078 tokens; most skills never updated after initial release; mapped to Codex CLI progressive-disclosure loading, six-level skill precedence stack, SKILL.md scripts/ directory, config.toml disable mechanism, $skill-installer vetting
+   - SEO targets: "codex cli skill market analysis", "agent skills lifecycle coverage gaps", "SKILL.md best practices codex cli", "codex cli reusable agent workflows", "SE skills taxonomy coding agent", "codex cli skill security vetting", "agent skills underserved lifecycle stages"
+
+---
+
+
 ## ScopeJudge Pre-Execution Gating — Static Policy Failure, LLM Judge, Codex CLI PreToolUse Approval Scope Enforcement (2026-07-13 Hourly Article Run)
 
 1. ✅ **ScopeJudge and Pre-Execution Gating: Why Static Policies Fail at Scope Enforcement — and How Codex CLI's PreToolUse Hooks Already Solve the Hard Part** — Written 2026-07-13 → `2026-07-13-scopejudge-pre-execution-gating-offensive-security-agents-codex-cli-pretooluse-approval-scope-enforcement.md`
