@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## The Patchwork Problem — LLM-Generated Code Structural Incoherence, Graph-Based Verification, Codex CLI PostToolUse (2026-07-13 Hourly Article Run)
+
+1. ✅ **The Patchwork Problem: Why LLM-Generated Code Compiles, Passes Tests, and Still Breaks — and How to Wire Structural Verification into Codex CLI** — Written 2026-07-13 → `2026-07-13-patchwork-problem-llm-generated-code-structural-incoherence-codex-cli-graph-verification-posttooluse.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Mothukuri and Parizi published arXiv:2607.08981 (July 9, 2026), formalising "patchwork problem" where LLM-generated code is locally correct but globally incoherent; eight-category failure taxonomy (SRF, PIA, DHI, BCI, RCF, CFC, CCV, SSR); 67 structural failures across 336 generations, 97% evade type checking/testing/SAST; model divergence statistically significant (χ²=25.1, p=2.73×10⁻⁷); cross-cutting tasks 44.6% failure incidence vs 16.1% single-file; external validation on 43 real-world repos: 1,152 findings, 81.4% repository incidence; graph-based verification framework at 47ms median per-file; mapped to Codex CLI PostToolUse hooks for real-time structural gates, AGENTS.md cross-file constraint encoding, codex exec CI pipeline integration, multi-model profile failure-aware routing
+   - SEO targets: "patchwork problem LLM generated code codex cli", "structural incoherence AI code verification", "codex cli PostToolUse structural verification hooks", "dependency hallucination detection codex cli", "cross-file contract violations coding agent", "AGENTS.md structural integrity constraints", "CI pipeline structural verification AI code"
+
+---
+
+
 ## Tool-Making Agents — Compiled Validated Tools, Latency Reduction, Codex CLI Skills Self-Evolving Reusable Workflows (2026-07-13 Hourly Article Run)
 
 1. ✅ **Tool-Making Agents: How Compiling Repeated Operations into Validated Tools Cuts Latency by 42% — and What Codex CLI's Skills System Already Gets Right** — Written 2026-07-13 → `2026-07-13-tool-making-agents-compiled-validated-tools-latency-codex-cli-skills-self-evolving-reusable-workflows.md`
