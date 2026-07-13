@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Performance Optimisation Measurement Problem — Benchmark Fragility, Framework–Model Entanglement, Trustworthy Speedup Verification (2026-07-13 Hourly Article Run)
+
+1. ✅ **The Performance Optimisation Measurement Problem: Why Your Agent's Speedup Numbers Might Be Meaningless — and How to Build Trustworthy Optimisation Workflows with Codex CLI** — Written 2026-07-13 → `2026-07-13-performance-optimisation-measurement-problem-benchmarks-unreliable-codex-cli-trustworthy-speedup-verification.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. published arXiv:2607.01211 (July 1, 2026), cross-machine replay of 740 performance-optimisation tasks across GSO, SWE-Perf, SWE-fficiency; only 39/102 GSO, 11/140 SWE-Perf, 411/498 SWE-fficiency tasks valid across machine types; leaderboard scoring disagreements on 9/28 pairwise comparisons; Cui et al. published arXiv:2607.07744 (July 8, 2026), PERFOPT-Bench with 12 tasks, 7 agent stacks (GPT-5.5/Opus-4.7/GLM-5.1/Kimi-K2.6/DeepSeek-V4 Pro under OpenCode/Codex/Claude Code); no single stack dominated; framework altered speedup profile for same LLM; shortcut exploitation (492.8× claimed → 13.1× verified); relay pilot recovered 1.02–2.48× additional gains; mapped to Codex CLI --attempts multi-solution generation, cross-model relay with codex exec, PostToolUse hooks as shortcut detectors, AGENTS.md measurement protocol encoding, cross-machine replay verification, config.toml perf-opt profiles
+   - SEO targets: "performance optimisation benchmark reliability codex cli", "coding agent speedup measurement problem", "PERFOPT-Bench codex cli framework comparison", "codex cli PostToolUse performance verification hooks", "GSO SWE-Perf benchmark fragility agent", "codex cli cross-machine replay verification", "performance optimisation shortcut exploitation detection"
+
+---
+
+
 ## Workflow-Level Jailbreak Bypass — Refused in Chat Written in Code, Artefact-Aware Defence, Codex CLI Sandbox and PostToolUse (2026-07-13 Hourly Article Run)
 
 1. ✅ **Refused in Chat, Written in Code: Why Workflow-Level Jailbreaks Bypass Every Model — and Where Codex CLI's Artifact-Aware Defences Stand** — Written 2026-07-13 → `2026-07-13-refused-in-chat-written-in-code-workflow-level-jailbreak-ide-coding-agents-codex-cli-artifact-defence.md`
