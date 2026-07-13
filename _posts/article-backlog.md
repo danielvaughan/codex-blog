@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Configuration Smells Across AGENTS.md and SKILL.md — Detection, Remediation, Codex CLI Configuration Stack (2026-07-13 Hourly Article Run)
+
+1. ✅ **Configuration Smells Across AGENTS.md and SKILL.md: What 338 Files Reveal About How We Misconfigure Coding Agents** — Written 2026-07-13 → `2026-07-13-configuration-smells-agents-md-skill-md-codex-cli-detection-remediation-lint-leakage-context-bloat.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — dos Santos et al. published arXiv:2606.15828 (June 2026), first systematic catalog of 6 AGENTS.md configuration smells across 100 repos (91% contain ≥1 smell); Lint Leakage 62%, Context Bloat 42%, Skill Leakage 35%, Init Fossilisation 24%; co-occurrence analysis shows Conflicting Instructions + Skill Leakage → Context Bloat at 83% confidence; companion study arXiv:2607.01456 (July 2026) catalogs 26 SKILL.md smells across 238 skills.sh files (99.6% contain ≥1 smell, avg 10.5 per file); Rationalization Loophole 94%, Buried Gotchas 81%, Execute Without a Plan 78%; longitudinal analysis of 142 skills over 35 weeks shows no systematic smell reduction; mapped to Codex CLI layered AGENTS.md discovery, on-demand skill loading, PostToolUse hooks, config.toml profiles, project_doc_max_bytes budget, --print-instructions audit
+   - SEO targets: "AGENTS.md configuration smells codex cli", "SKILL.md smells coding agent", "lint leakage context bloat agents md", "codex cli AGENTS.md best practices audit", "configuration smells coding agent detection", "skill leakage agents md remediation", "init fossilisation agents md codex cli"
+
+---
+
+
 ## SCATE Lazy Test Generation — Contextual Bandit Supervision, Coverage Loops, Codex CLI PostToolUse (2026-07-13 Hourly Article Run)
 
 1. ✅ **Lazy Test Generation and the Supervision Gap: What SCATE's Contextual Bandit Approach Reveals About Coding Agent Coverage — and How to Wire Iterative Test Loops into Codex CLI** — Written 2026-07-13 → `2026-07-13-scate-lazy-test-generation-contextual-bandit-supervision-codex-cli-posttooluse-coverage-loops.md`
