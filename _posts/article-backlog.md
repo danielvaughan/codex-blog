@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Tool-Making Agents — Compiled Validated Tools, Latency Reduction, Codex CLI Skills Self-Evolving Reusable Workflows (2026-07-13 Hourly Article Run)
+
+1. ✅ **Tool-Making Agents: How Compiling Repeated Operations into Validated Tools Cuts Latency by 42% — and What Codex CLI's Skills System Already Gets Right** — Written 2026-07-13 → `2026-07-13-tool-making-agents-compiled-validated-tools-latency-codex-cli-skills-self-evolving-reusable-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kujanpää et al. published arXiv:2607.08010 (July 9, 2026), tool-making pipeline compiles repeated SOP steps into validated versioned tools for production LLM agents; deployed in Amazon fulfilment centre alarm triage against 44-node SOP; p50 latency −42%, error rate −53% (GLM-4.5-Air), output tokens −58%, sub-agent turns −45%; test-repair loop with reflector LLM achieves 94.5% pass@1; 800K token one-time generation cost serves multiple deployment models; mapped to Codex CLI SKILL.md reusable workflows, Record and Replay automated synthesis, codex exec deterministic production runtime, PostToolUse hooks, AGENTS.md tool-making protocol, multi-model config.toml routing
+   - SEO targets: "tool-making agents codex cli skills", "compiled validated tools latency reduction coding agent", "codex cli SKILL.md reusable workflow", "self-evolving agent tool pipeline", "codex cli record and replay skill generation", "deterministic tool validation coding agent", "codex exec production runtime skills"
+
+---
+
+
 ## Performance Optimisation Measurement Problem — Benchmark Fragility, Framework–Model Entanglement, Trustworthy Speedup Verification (2026-07-13 Hourly Article Run)
 
 1. ✅ **The Performance Optimisation Measurement Problem: Why Your Agent's Speedup Numbers Might Be Meaningless — and How to Build Trustworthy Optimisation Workflows with Codex CLI** — Written 2026-07-13 → `2026-07-13-performance-optimisation-measurement-problem-benchmarks-unreliable-codex-cli-trustworthy-speedup-verification.md`
