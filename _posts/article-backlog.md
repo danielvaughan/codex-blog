@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## SCATE Lazy Test Generation — Contextual Bandit Supervision, Coverage Loops, Codex CLI PostToolUse (2026-07-13 Hourly Article Run)
+
+1. ✅ **Lazy Test Generation and the Supervision Gap: What SCATE's Contextual Bandit Approach Reveals About Coding Agent Coverage — and How to Wire Iterative Test Loops into Codex CLI** — Written 2026-07-13 → `2026-07-13-scate-lazy-test-generation-contextual-bandit-supervision-codex-cli-posttooluse-coverage-loops.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Gu, Nashid, and Mesbah published arXiv:2607.08983 (July 9, 2026), SCATE formulates agent test supervision as contextual bandit; identifies lazy generation where agents prematurely terminate at 50.5% line coverage; three-action routing (Default/Analysis/Stop); seven-feature context vector (LOC, WMC, RFC, line coverage, branch coverage, missed complexity); 82.8% line coverage vs 50.5% single-shot (+32.3pp) on 120 Defects4J classes; $0.693 per class cost; Claude Code variant reaches 90.3% line coverage; outperforms naive 8-iteration loop and Panta baseline; structural ceiling at WMC ≥ 163; mapped to Codex CLI PostToolUse coverage gates, AGENTS.md test protocol stop conditions, rollout_budget cost ceiling, codex exec CI integration, MCP server for bandit policy
+   - SEO targets: "codex cli lazy test generation supervision", "SCATE contextual bandit test coverage", "codex cli PostToolUse coverage gate hook", "coding agent lazy generation coverage plateau", "codex cli iterative test generation loop", "AGENTS.md test stop condition protocol", "codex cli rollout budget test generation"
+
+---
+
+
 ## ProjAgent Procedural Similarity Retrieval — Repository-Level Code Generation, Codex CLI Context Retrieval Strategy (2026-07-13 Hourly Article Run)
 
 1. ✅ **Beyond Lexical Matching: How Procedural Similarity Retrieval Outperforms Traditional Context Selection — and What It Means for Codex CLI's Repository Strategy** — Written 2026-07-13 → `2026-07-13-projagent-procedural-similarity-retrieval-repository-level-code-generation-codex-cli-context-retrieval-strategy.md`
