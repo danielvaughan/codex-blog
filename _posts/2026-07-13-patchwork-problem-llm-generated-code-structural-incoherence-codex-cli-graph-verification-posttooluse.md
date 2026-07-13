@@ -12,7 +12,7 @@ tags: ["codex-cli", "code-quality", "structural-verification", "static-analysis"
 
 ---
 
-Your agent writes a FastAPI endpoint. It compiles. The tests pass. mypy is happy. Three days later, production crashes because the endpoint references a Pydantic model field that does not exist anywhere in the repository. Mothukuri and Parizi call this the **patchwork problem**: code that is locally correct but globally incoherent[^1]. Their July 2026 study formalises the failure class, builds an eight-category taxonomy, and demonstrates that **97% of these structural failures evade type checking, test suites, and SAST entirely**[^1].
+Your agent writes a FastAPI endpoint. It compiles. The tests pass. mypy is happy. Three days later, production crashes because the endpoint references a Pydantic model field that does not exist anywhere in the repository. Mothukuri and Parizi call this the **patchwork problem**: code that is locally correct but globally incoherent[^1]. Their July 2026 study formalises the failure class, builds an eight-category taxonomy, and demonstrates that **97 per cent of these structural failures evade type checking, test suites, and SAST entirely**[^1].
 
 This article unpacks the taxonomy, maps each failure category to Codex CLI's verification stack, and shows how to wire graph-based structural checks into your workflow using PostToolUse hooks, AGENTS.md constraints, and CI gates with `codex exec`.
 
@@ -55,9 +55,9 @@ For Codex CLI users who route between models via `config.toml` profiles (say, Lu
 
 Failure incidence scales sharply with task scope[^1]:
 
-- **L1 (single-file):** 16.1% incidence
-- **L2 (multi-file):** 13.4% incidence
-- **L3 (cross-cutting):** 44.6% incidence
+- **L1 (single-file):** 16.1 per cent incidence
+- **L2 (multi-file):** 13.4 per cent incidence
+- **L3 (cross-cutting):** 44.6 per cent incidence
 
 Cross-cutting tasks — those spanning configuration, routing, and schema boundaries — are nearly three times more likely to produce structural failures than contained tasks. This is precisely the territory where Codex CLI's multi-file `apply_patch` operations and subagent delegation operate.
 
@@ -88,11 +88,11 @@ graph TD
     J & K & L & M & N & O & P & Q --> R[Structural<br/>Verification Report]
 ```
 
-Performance is practical: **median per-file analysis takes 47 milliseconds**[^1]. Graph construction dominates at 99.8% of per-file time. The largest repository in their evaluation (435 files, 70K LOC) completed in 233 seconds[^1].
+Performance is practical: **median per-file analysis takes 47 milliseconds**[^1]. Graph construction dominates at 99.8 per cent of per-file time. The largest repository in their evaluation (435 files, 70K LOC) completed in 233 seconds[^1].
 
-## External Validation: 81.4% of Real AI-Generated Repositories Affected
+## External Validation: 81.4 per cent of Real AI-Generated Repositories Affected
 
-The researchers validated against 43 real-world AI-generated repositories, analysing 1,581 files and detecting **1,152 structural findings** across **81.4% of repositories**[^1]. The breakdown: 474 Dependency Hallucination, 270 Resource Coherence, 177 Phantom Internal API, 148 Configuration Incoherence, and 62 Symbol Resolution findings[^1].
+The researchers validated against 43 real-world AI-generated repositories, analysing 1,581 files and detecting **1,152 structural findings** across **81.4 per cent of repositories**[^1]. The breakdown: 474 Dependency Hallucination, 270 Resource Coherence, 177 Phantom Internal API, 148 Configuration Incoherence, and 62 Symbol Resolution findings[^1].
 
 This is not a lab curiosity. If you ship AI-generated code without structural verification, you are statistically likely to ship patchwork failures.
 
@@ -156,7 +156,7 @@ AGENTS.md directives shape agent behaviour before generation occurs[^4]. Encode 
   in a single apply_patch call.
 ```
 
-The research on AGENTS.md effectiveness shows hand-authored, specific directives reduce agent errors by 29% in median runtime and 17% in output token consumption[^5]. "Write clean code" changes nothing; "verify imports against the manifest before committing" changes behaviour.
+The research on AGENTS.md effectiveness shows hand-authored, specific directives reduce agent errors by 29 per cent in median runtime and 17 per cent in output token consumption[^5]. "Write clean code" changes nothing; "verify imports against the manifest before committing" changes behaviour.
 
 ### 3. codex exec in CI: Automated Structural Verification
 
@@ -207,7 +207,7 @@ match_tools = ["apply_patch", "bash"]
 # For single-file tasks, use the lightweight import checker
 ```
 
-Route cross-cutting tasks (L3 complexity, 44.6% failure incidence) through the full structural verification profile, whilst allowing simpler tasks through a lighter-weight gate.
+Route cross-cutting tasks (L3 complexity, 44.6 per cent failure incidence) through the full structural verification profile, whilst allowing simpler tasks through a lighter-weight gate.
 
 ## Building Practical Detectors
 
@@ -258,15 +258,15 @@ This has direct implications for Codex CLI's `tool_output_token_limit` setting. 
 
 ## What This Means for Your Workflow
 
-The patchwork problem is not a model problem — it is a verification gap. Standard CI catches roughly 3% of structural failures in LLM-generated code[^1]. The remaining 97% pass every gate you have and break in production.
+The patchwork problem is not a model problem — it is a verification gap. Standard CI catches roughly 3 per cent of structural failures in LLM-generated code[^1]. The remaining 97 per cent pass every gate you have and break in production.
 
 Three immediate actions:
 
 1. **Add a dependency hallucination check** to your PostToolUse hooks. This single detector addresses the highest-volume failure category (474/1,152 findings in external validation)[^1].
 
-2. **Encode cross-file contract rules in AGENTS.md.** Tell the agent to update all consumers when changing a producer's interface. The 44.6% failure rate on cross-cutting tasks drops when the agent is constrained to handle both sides of an interface change in a single patch.
+2. **Encode cross-file contract rules in AGENTS.md.** Tell the agent to update all consumers when changing a producer's interface. The 44.6 per cent failure rate on cross-cutting tasks drops when the agent is constrained to handle both sides of an interface change in a single patch.
 
-3. **Run structural verification in CI alongside type checking.** The paper's framework achieves 97% precision at 47ms median per-file cost[^1]. There is no performance excuse for skipping it.
+3. **Run structural verification in CI alongside type checking.** The paper's framework achieves 97 per cent precision at 47ms median per-file cost[^1]. There is no performance excuse for skipping it.
 
 The patchwork problem is structural, measurable, and fixable. The tools exist. The question is whether your pipeline uses them.
 

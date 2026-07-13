@@ -1,16 +1,16 @@
 ---
-title: "Tool-Making Agents: How Compiling Repeated Operations into Validated Tools Cuts Latency by 42% — and What Codex CLI's Skills System Already Gets Right"
+title: "Tool-Making Agents: How Compiling Repeated Operations into Validated Tools Cuts Latency by 42 per cent — and What Codex CLI's Skills System Already Gets Right"
 parent: "Articles"
 nav_order: 1434
 tags: ["codex-cli", "tool-making", "self-evolving-agents", "skills", "latency", "deterministic-tools", "SKILL.md", "codex-exec", "production-agents"]
 ---
 
-# Tool-Making Agents: How Compiling Repeated Operations into Validated Tools Cuts Latency by 42% — and What Codex CLI's Skills System Already Gets Right
+# Tool-Making Agents: How Compiling Repeated Operations into Validated Tools Cuts Latency by 42 per cent — and What Codex CLI's Skills System Already Gets Right
 
 
 ---
 
-Every production LLM agent has the same dirty secret: it regenerates code for the same procedural steps on every single request. A new paper from Amazon's Fulfillment Technologies & Robotics team quantifies the cost of that waste — and demonstrates a tool-making pipeline that compiles repeated SOP steps into validated, versioned tools before deployment, cutting p50 latency by 42% and end-to-end error rates by up to 53%[^1]. The architecture maps surprisingly well to what Codex CLI's skills system already provides, and it reveals where the CLI's tooling still has gaps.
+Every production LLM agent has the same dirty secret: it regenerates code for the same procedural steps on every single request. A new paper from Amazon's Fulfillment Technologies & Robotics team quantifies the cost of that waste — and demonstrates a tool-making pipeline that compiles repeated SOP steps into validated, versioned tools before deployment, cutting p50 latency by 42 per cent and end-to-end error rates by up to 53 per cent[^1]. The architecture maps surprisingly well to what Codex CLI's skills system already provides, and it reveals where the CLI's tooling still has gaps.
 
 ## The Problem: Regeneration Waste in Procedural Agents
 
@@ -44,14 +44,14 @@ The improvements are substantial:
 
 | Metric | Baseline | Tool-Augmented | Improvement |
 |--------|----------|----------------|-------------|
-| p50 latency | — | −42% | tool calls via sub-agent[^1] |
-| Output tokens per alarm | 14,998 | 6,225 | −58%[^1] |
-| Sub-agent turns | 33.7 | 18.7 | −45%[^1] |
-| Code-generation tokens | — | — | −80%[^1] |
-| Error rate (GLM-4.5-Air) | 1.7% | 0.7% | −53%[^1] |
-| Error rate (Qwen3 32B) | 2.8% | 1.8% | −36%[^1] |
+| p50 latency | — | −42 per cent | tool calls via sub-agent[^1] |
+| Output tokens per alarm | 14,998 | 6,225 | −58 per cent[^1] |
+| Sub-agent turns | 33.7 | 18.7 | −45 per cent[^1] |
+| Code-generation tokens | — | — | −80 per cent[^1] |
+| Error rate (GLM-4.5-Air) | 1.7 per cent | 0.7 per cent | −53 per cent[^1] |
+| Error rate (Qwen3 32B) | 2.8 per cent | 1.8 per cent | −36 per cent[^1] |
 
-A further architectural simplification — replacing the sub-agent with direct tool calls from the main agent — delivers an additional 62% p50 latency reduction[^1]. The entire 44-tool library costs 800K tokens to generate once and serves multiple deployment models without regeneration[^1].
+A further architectural simplification — replacing the sub-agent with direct tool calls from the main agent — delivers an additional 62 per cent p50 latency reduction[^1]. The entire 44-tool library costs 800K tokens to generate once and serves multiple deployment models without regeneration[^1].
 
 ## Where Codex CLI's Skills System Already Delivers
 
@@ -77,7 +77,7 @@ Codex CLI loads skill metadata — name, description, file path — at startup, 
 
 ### Record and Replay as Automated Synthesis
 
-The Record and Replay feature, shipped on 18 June 2026 for macOS, automates the data-collection stage[^4]. You perform a task once while Codex watches, and it drafts a `SKILL.md` that captures intent rather than coordinates[^4]. This is conceptually the same as the paper's execution-trace grounding — the agent observes real interactions to synthesise a reusable procedure.
+The Record and Replay feature, shipped on 18 June 2026 for macOS, automates the data-collection stage[^4]. You perform a task once whilst Codex watches, and it drafts a `SKILL.md` that captures intent rather than coordinates[^4]. This is conceptually the same as the paper's execution-trace grounding — the agent observes real interactions to synthesise a reusable procedure.
 
 ### `codex exec` as the Production Runtime
 
@@ -99,7 +99,7 @@ You can approximate this with `codex exec` in a CI loop, but it requires manual 
 
 ### 2. Structured Fallback with Maintained Capability
 
-The paper deliberately includes 25% tool-disabled trajectories during agent fine-tuning to maintain robust fallback to code generation when tools fail[^1]. Codex CLI's fallback is implicit — if a skill does not match, the agent reasons from scratch — but there is no mechanism to ensure the agent's code-generation capability does not degrade as the skill library grows. The skill-loading system is additive, not substitutive, which partially mitigates this, but no tooling exists to measure fallback quality.
+The paper deliberately includes 25 per cent tool-disabled trajectories during agent fine-tuning to maintain robust fallback to code generation when tools fail[^1]. Codex CLI's fallback is implicit — if a skill does not match, the agent reasons from scratch — but there is no mechanism to ensure the agent's code-generation capability does not degrade as the skill library grows. The skill-loading system is additive, not substitutive, which partially mitigates this, but no tooling exists to measure fallback quality.
 
 ### 3. Cross-Model Tool Portability
 
@@ -153,7 +153,7 @@ When a task has been performed identically three or more times:
 5. Include a fallback instruction for when the skill's assumptions break
 ```
 
-This mirrors the paper's finding that specification quality is the primary bottleneck — clarifying ambiguous procedure text raised tool pass@1 from 94.5% to 99.9%[^1].
+This mirrors the paper's finding that specification quality is the primary bottleneck — clarifying ambiguous procedure text raised tool pass@1 from 94.5 per cent to 99.9 per cent[^1].
 
 ## The Broader Implication
 
@@ -161,7 +161,7 @@ The paper's core finding is not about alarm triage. It is about a fundamental ar
 
 Codex CLI's skills system already implements the compile-and-reuse half of this principle. The validate-and-repair half remains manual. As the skill ecosystem matures — the Codex plugin marketplace already hosts hundreds of community skills[^7], and the `$skill-creator` meta-skill automates initial generation[^2] — the gap between manual skill authoring and automated tool-making will narrow.
 
-The question is whether it narrows from the skills side (adding validation frameworks to `SKILL.md`) or from the model side (models that automatically identify repeated reasoning and propose skill extraction). The paper suggests both: the offline tool-maker uses a stronger model, while the production agent uses the compiled output. Codex CLI's multi-model architecture — routing between GPT-5.6, o4-mini, and open-weight models via `config.toml` profiles[^8] — is already positioned for exactly this split.
+The question is whether it narrows from the skills side (adding validation frameworks to `SKILL.md`) or from the model side (models that automatically identify repeated reasoning and propose skill extraction). The paper suggests both: the offline tool-maker uses a stronger model, whilst the production agent uses the compiled output. Codex CLI's multi-model architecture — routing between GPT-5.6, o4-mini, and open-weight models via `config.toml` profiles[^8] — is already positioned for exactly this split.
 
 ## Citations
 

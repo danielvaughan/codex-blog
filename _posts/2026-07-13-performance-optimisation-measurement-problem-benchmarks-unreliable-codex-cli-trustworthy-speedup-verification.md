@@ -10,7 +10,7 @@ tags: ["codex-cli", "performance-optimisation", "benchmarks", "PERFOPT-Bench", "
 
 ---
 
-Coding agents are increasingly marketed on their ability to optimise code — shaving milliseconds off hot paths, vectorising loops, rewriting queries. Leaderboard scores from benchmarks like GSO, SWE-Perf, and SWE-fficiency provide tidy numbers: 9.2× geometric mean speedup, 85% task completion. Two papers published in July 2026 expose a discomforting reality: those numbers are frequently unreliable, and the frameworks wrapping the models matter as much as the models themselves. This article unpacks both papers, maps the findings to practical Codex CLI configuration, and proposes a verification workflow that prevents you from shipping illusory performance gains.
+Coding agents are increasingly marketed on their ability to optimise code — shaving milliseconds off hot paths, vectorising loops, rewriting queries. Leaderboard scores from benchmarks like GSO, SWE-Perf, and SWE-fficiency provide tidy numbers: 9.2× geometric mean speedup, 85 per cent task completion. Two papers published in July 2026 expose a discomforting reality: those numbers are frequently unreliable, and the frameworks wrapping the models matter as much as the models themselves. This article unpacks both papers, maps the findings to practical Codex CLI configuration, and proposes a verification workflow that prevents you from shipping illusory performance gains.
 
 ## The Benchmark Fragility Problem
 
@@ -18,19 +18,19 @@ Chen et al. replayed the official reference patches for 740 code-optimisation ta
 
 | Benchmark | Total Tasks | Cross-Machine Valid | Valid Rate |
 |-----------|-------------|---------------------|------------|
-| GSO | 102 | 39 | 38.2% |
-| SWE-Perf | 140 | 11 | 7.9% |
-| SWE-fficiency | 498 | 411 | 82.5% |
+| GSO | 102 | 39 | 38.2 per cent |
+| SWE-Perf | 140 | 11 | 7.9 per cent |
+| SWE-fficiency | 498 | 411 | 82.5 per cent |
 
 SWE-Perf proved especially fragile: many reference patches produce near-zero runtime changes, meaning a benchmark "pass" can amount to noise within the measurement error of the timing harness[^1]. When the reference patch itself does not reliably demonstrate a speedup, any agent patch compared against it inherits that unreliability.
 
 ### Leaderboard Scoring Contradictions
 
-Among eight public submissions shared between GSO and SWE-fficiency, the official rankings disagreed on 9 of 28 pairwise comparisons[^1]. The source of the disagreement is partly structural: SWE-fficiency assigns the ten hardest tasks weights between 58.5% and 82.8% of the final score, meaning a single task can swing an agent's rank by several positions[^1]. A developer reading two leaderboards might conclude that Agent A dominates Agent B on one benchmark and loses to it on another — not because of capability differences, but because of scoring rule artefacts.
+Among eight public submissions shared between GSO and SWE-fficiency, the official rankings disagreed on 9 of 28 pairwise comparisons[^1]. The source of the disagreement is partly structural: SWE-fficiency assigns the ten hardest tasks weights between 58.5 per cent and 82.8 per cent of the final score, meaning a single task can swing an agent's rank by several positions[^1]. A developer reading two leaderboards might conclude that Agent A dominates Agent B on one benchmark and loses to it on another — not because of capability differences, but because of scoring rule artefacts.
 
 ### The "Already Solved" Ceiling
 
-Examining ten public submissions per task, Chen et al. found that 85.3% (384/450) of replay-valid tasks already had at least one submission matching or exceeding the reference speedup, and 99.8% (449/450) outperformed the unoptimised baseline[^1]. The practical implication: new leaderboard entries increasingly measure an agent's ability to replicate known optimisations rather than discover novel ones.
+Examining ten public submissions per task, Chen et al. found that 85.3 per cent (384/450) of replay-valid tasks already had at least one submission matching or exceeding the reference speedup, and 99.8 per cent (449/450) outperformed the unoptimised baseline[^1]. The practical implication: new leaderboard entries increasingly measure an agent's ability to replicate known optimisations rather than discover novel ones.
 
 ## The Framework–Model Entanglement
 

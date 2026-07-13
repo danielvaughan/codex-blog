@@ -128,7 +128,7 @@ type = "mcp"
 server = "lettucedetect-mcp"
 ```
 
-This approach leverages the Guardian's existing four-tier risk classification (low/medium/high/critical) while adding span-level evidence to its assessment[^4]. The Guardian sees both the full conversation context *and* the LettuceDetect output, enabling informed escalation decisions.
+This approach leverages the Guardian's existing four-tier risk classification (low/medium/high/critical) whilst adding span-level evidence to its assessment[^4]. The Guardian sees both the full conversation context *and* the LettuceDetect output, enabling informed escalation decisions.
 
 ### Layer 3: CI/CD Pipeline Gates
 
@@ -210,7 +210,7 @@ For teams without dedicated GPU infrastructure, the 307M-parameter LettuceDetect
 
 ### False Positive Management
 
-The code-agent example-F1 of 0.835 means roughly 16.5% of clean code examples may be incorrectly flagged[^1]. For PostToolUse hooks, this suggests using a confidence threshold above 0.8 for blocking and logging all detections above 0.6 for human review:
+The code-agent example-F1 of 0.835 means roughly 16.5 per cent of clean code examples may be incorrectly flagged[^1]. For PostToolUse hooks, this suggests using a confidence threshold above 0.8 for blocking and logging all detections above 0.6 for human review:
 
 ```python
 # verify_patch.py — threshold configuration
@@ -262,7 +262,7 @@ Several constraints deserve acknowledgement:
 
 - **Synthetic labels**: Most training labels derive from synthetic injection; only the code test set (2,038 examples) received human review[^1]
 - **Final-answer only**: The benchmark measures final-answer verification, not full agent trajectory hallucinations[^1]
-- **Code-agent remains hardest**: 0.602 span-F1 means ~40% of hallucinated spans in code go undetected
+- **Code-agent remains hardest**: 0.602 span-F1 means ~40 per cent of hallucinated spans in code go undetected
 - **Context dependency**: Detection quality degrades if the grounding context is incomplete or truncated
 
 ⚠️ LettuceDetect should be treated as one layer in a defence-in-depth stack, not a standalone guarantee. It complements — not replaces — Codex CLI's sandbox isolation, approval policies, and test-suite gates.
