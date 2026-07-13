@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## ProjAgent Procedural Similarity Retrieval — Repository-Level Code Generation, Codex CLI Context Retrieval Strategy (2026-07-13 Hourly Article Run)
+
+1. ✅ **Beyond Lexical Matching: How Procedural Similarity Retrieval Outperforms Traditional Context Selection — and What It Means for Codex CLI's Repository Strategy** — Written 2026-07-13 → `2026-07-13-projagent-procedural-similarity-retrieval-repository-level-code-generation-codex-cli-context-retrieval-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen, Imani, and Ahmed published arXiv:2607.08691 (July 9, 2026), ProjAgent introduces procedural similarity as retrieval signal for repository-level code generation; reasoning-subspace projections from LLM hidden states via SVD decomposition; three-phase agentic workflow (offline preprocessing, procedural context retrieval, semantic retrieval); conservative static analysis feedback loop up to 10 iterations; REPOCOD benchmark 980 problems from 11 Python repositories; 41.14% Pass@1 vs 34.52% previous SOTA (SpecAgent); ablation shows procedural retrieval contributes 15.38% of total gain; projection mechanism achieves 97.9%+ rejection precision but only 3.6-6.7% promotion precision requiring LLM verification second stage; mapped to Codex CLI file references context scoping, MCP tool search deferred loading, AGENTS.md as procedural knowledge encoding, PostToolUse hooks as feedback loops, project_doc_max_bytes context budget management
+   - SEO targets: "procedural similarity retrieval codex cli", "repository-level code generation coding agent", "ProjAgent REPOCOD benchmark codex cli", "codex cli context retrieval strategy", "reasoning subspace projection code retrieval", "codex cli AGENTS.md procedural knowledge", "PostToolUse hooks static analysis feedback"
+
+---
+
+
 ## Failure as a Process — CLI Coding Agent Trajectory Anatomy, Epistemic Error Detection, Codex CLI Early Validation Hooks (2026-07-13 Hourly Article Run)
 
 1. ✅ **Failure as a Process: What 63,000 Annotated Execution Steps Reveal About CLI Coding Agent Trajectories — and How to Wire Early Validation into Codex CLI** — Written 2026-07-13 → `2026-07-13-failure-as-a-process-cli-coding-agent-trajectory-anatomy-codex-cli-early-validation-hooks-epistemic-error-detection.md`
