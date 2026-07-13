@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Workflow-Level Jailbreak Bypass — Refused in Chat Written in Code, Artefact-Aware Defence, Codex CLI Sandbox and PostToolUse (2026-07-13 Hourly Article Run)
+
+1. ✅ **Refused in Chat, Written in Code: Why Workflow-Level Jailbreaks Bypass Every Model — and Where Codex CLI's Artifact-Aware Defences Stand** — Written 2026-07-13 → `2026-07-13-refused-in-chat-written-in-code-workflow-level-jailbreak-ide-coding-agents-codex-cli-artifact-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kumar and Maple published arXiv:2607.03968 (July 4, 2026, revised July 9), workflow-level jailbreak construction in IDE coding agents; 204 prompts from Hammurabi's Code, HarmBench, AdvBench tested across Claude Sonnet 4.6, Claude Haiku 4.5, Gemini 3.1 Pro, Gemini 3.5 Flash via GitHub Copilot Chat in VS Code; baseline direct-chat refusal 808/816; full seven-step workflow 816/816 (100%) successful unsafe completions; five structural failure modes (refusal isolation, turn-level evaluation, metric-driven bypass, code-framing advantage, artefact-level blindness); three proposed defences (artefact-level inspection, cross-turn monitoring, optimisation-framing awareness); mapped to Codex CLI workspace-write sandbox containment, granular approval_policy gates, Guardian auto-review subagent (codex-auto-review model), PostToolUse deterministic artefact scanning hooks, AGENTS.md security constraints, network allowlist isolation; identified gaps in cross-turn trajectory monitoring and optimisation-framing detection
+   - SEO targets: "workflow jailbreak coding agent codex cli", "refused in chat written in code IDE agent", "codex cli artefact-level inspection defence", "multi-turn jailbreak coding agent bypass", "codex cli PostToolUse artefact scanning", "IDE coding agent safety workflow attack", "codex cli sandbox jailbreak containment"
+
+---
+
+
 ## Span-Level Hallucination Detection — LettuceDetect, Code and Tool Output Verification, Codex CLI PostToolUse Integration (2026-07-13 Hourly Article Run)
 
 1. ✅ **Span-Level Hallucination Detection for Code and Tool Output: Wiring LettuceDetect into Your Codex CLI Verification Stack** — Written 2026-07-13 → `2026-07-13-span-level-hallucination-detection-code-tool-output-codex-cli-posttooluse-verification-lettucedetect.md`
