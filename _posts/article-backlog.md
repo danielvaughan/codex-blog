@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Blind Obedience and Irrecoverable Semantic Collapse — Instruction Guards, PreToolUse Hooks, Codex CLI Defence Stack (2026-07-14 Hourly Article Run)
+
+1. ✅ **Obey, Diverge, Collapse: Why Code LLMs Follow Wrong Instructions — and How to Wire Instruction Guards into Codex CLI** — Written 2026-07-14 → `2026-07-14-obey-diverge-collapse-blind-obedience-incorrect-instructions-code-llms-codex-cli-pretooluse-instruction-guard.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Jaiswal et al. published arXiv:2607.04537 (July 5, 2026), "Obey, Diverge, Collapse" study of blind obedience to incorrect instructions in code LLMs; 538 RunBugRun problems under paired correct/incorrect instruction conditions; McNemar's test all five models p < 0.001; B/C ratio 9.2× (blind obedience 9.2 times more frequent than lucky fixes); GPT-5-Codex: 68/538 blind obedience rate; Ghost Errors — syntactically valid semantic corruptions invisible to standard validation; majority never recovered across five self-guided repair passes; recovery plateau at pass 2; three behavioural modes (Obey, Diverge, Collapse); mapped to Codex CLI PreToolUse instruction validation hooks, PostToolUse semantic drift detection with systemMessage injection, AGENTS.md specification anchoring and stop conditions, rollout_budget cost ceiling for collapse prevention, layered defence pattern
+   - SEO targets: "blind obedience code LLM codex cli", "ghost errors semantic collapse coding agent", "codex cli PreToolUse instruction guard", "irrecoverable code semantic collapse", "codex cli PostToolUse drift detection", "AGENTS.md stop conditions blind obedience", "instruction validation coding agent hook"
+
+---
+
+
 ## SWE-Review Closed-Loop Agentic Code Review — Generate-Review-Revise, Guardian Auto-Review, PR Workflow (2026-07-14 Hourly Article Run)
 
 1. ✅ **SWE-Review and the Closed-Loop Imperative: Why Generate-Review-Revise Outperforms One-Shot PR Generation — and How Codex CLI's Guardian Auto-Review Already Closes the Gap** — Written 2026-07-14 → `2026-07-14-swe-review-closed-loop-agentic-code-review-generate-review-revise-codex-cli-guardian-auto-review-pr-workflow.md`
