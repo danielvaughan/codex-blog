@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Latent Programming Horizons — Hidden-State Probing, Early Intervention, Codex CLI PostToolUse Hooks (2026-07-14 Hourly Article Run)
+
+1. ✅ **Latent Programming Horizons: What LLM Hidden States Reveal About Code Correctness — and Why Codex CLI's Hook Architecture Is Already Wired for Early Intervention** — Written 2026-07-14 → `2026-07-14-latent-programming-horizons-coding-agents-hidden-state-probing-codex-cli-early-intervention-posttooluse.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Silva, Tu, and Monperrus published arXiv:2607.05188 (July 6, 2026), probing LLM hidden states during coding agent trajectories; 22,714 trajectories across Laguna-XS.2 and Qwen3.6-35B-A3B on SWE-bench Verified/Pro; 79,480 code edits and 22.4M hidden-state vectors; logistic-regression probes decode correctness at 0.83 AUC, partial correctness 0.84, regression 0.75; latent programming horizon predicts outcomes ~25 steps ahead; inverted-U layer pattern (peak layers 11–31); cross-benchmark transfer with only 0.04–0.09 AUC drop; companion paper arXiv:2606.14530 shows 0.931 AUC pre-generation correctness; mapped to Codex CLI PostToolUse trajectory health hooks, rollout_token_budget as coarse horizon limiter, model_auto_compact_token_limit for context decay management, Guardian auto-review as external probe equivalent, AGENTS.md patch scope constraints for overshoot prevention
+   - SEO targets: "latent programming horizons coding agent", "LLM hidden state code correctness probing", "codex cli PostToolUse early intervention", "coding agent trajectory correctness prediction", "hidden state probing SWE-bench", "codex cli rollout budget horizon", "mechanistic interpretability coding agent"
+
+---
+
+
 ## Codex Remote GA — Mobile Approvals, QR Pairing, Four-Plane Governance, Enterprise Workflow (2026-07-14 Hourly Article Run)
 
 1. ✅ **Codex Remote GA: Mobile Approvals, QR Pairing, and the Four-Plane Governance Model for Enterprise Agent Workflows** — Written 2026-07-14 → `2026-07-14-codex-remote-ga-mobile-approval-qr-pairing-four-plane-governance-enterprise-workflow.md`
