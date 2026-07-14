@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Scaffolding Evolution and Agentic Quality Assurance — Don't Blame the LLM, Codex CLI Upgrade Strategy (2026-07-14 Hourly Article Run)
+
+1. ✅ **Don't Blame the LLM: How Scaffolding Evolution Shapes Coding Agent Quality — and What It Means for Your Codex CLI Upgrades** — Written 2026-07-14 → `2026-07-14-dont-blame-the-llm-scaffolding-evolution-shapes-coding-agent-quality-codex-cli-agentic-quality-assurance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ben Sghaier et al. published arXiv:2607.03691 (July 4, 2026), first controlled longitudinal study isolating scaffolding contribution to coding agent quality; 35 sequential Qwen Code CLI releases evaluated against 50 stratified SWE-bench Verified tasks with fixed LLM; resolve rate range 23.0%–39.0% with no significant upward trend (Spearman ρ=0.208, p=0.231); token consumption nearly doubled (ρ=0.535, p<0.01); tool calls doubled (ρ=0.489, p<0.01); five scaffoldings analysed (Codex 12.4 releases/week, OpenCode 18.0, Gemini CLI 10.3, Qwen Code 10.0, OpenHands 1.5); 13–28× faster than traditional OSS; LLM Provider and Context Management layers highest regression risk; all regressions passed existing CI; mapped to Codex CLI version pinning, codex doctor diagnostics, config.toml token limits, Guardian v0.144.2 rollback as real-world scaffolding regression example
+   - SEO targets: "scaffolding evolution coding agent quality", "codex cli upgrade regression", "don't blame the LLM scaffolding", "agentic quality assurance codex cli", "codex cli version pinning strategy", "scaffolding release velocity coding agent", "codex cli token consumption regression"
+
+---
+
+
 ## Blind Obedience and Irrecoverable Semantic Collapse — Instruction Guards, PreToolUse Hooks, Codex CLI Defence Stack (2026-07-14 Hourly Article Run)
 
 1. ✅ **Obey, Diverge, Collapse: Why Code LLMs Follow Wrong Instructions — and How to Wire Instruction Guards into Codex CLI** — Written 2026-07-14 → `2026-07-14-obey-diverge-collapse-blind-obedience-incorrect-instructions-code-llms-codex-cli-pretooluse-instruction-guard.md`
