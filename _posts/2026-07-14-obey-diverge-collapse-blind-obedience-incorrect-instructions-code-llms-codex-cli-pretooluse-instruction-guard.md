@@ -18,7 +18,7 @@ Jaiswal et al. published "Obey, Diverge, Collapse" (arXiv:2607.04537, July 2026)
 
 The results are stark. Using McNemar's test on paired binary outcomes, all five evaluated models (GPT-5-Codex, Claude-4.5-Sonnet, Qwen-3, GLM-4.7, Kimi-K2.5) reached p < 0.001, confirming that blind obedience is systematic rather than random variation [^1]. The B/C ratio — blind obedience cases versus lucky-fix cases — averaged 9.2×, meaning models followed incorrect instructions and introduced errors roughly nine times more often than they accidentally produced correct code despite wrong guidance [^1].
 
-For GPT-5-Codex specifically, the McNemar contingency table showed: 450 problems passed under both conditions, 68 exhibited blind obedience (passed T1, failed T2), only 9 showed lucky fixes, and 11 failed both [^1]. That 68/538 blind obedience rate — 12.6% — may sound manageable until you consider what happens next.
+For GPT-5-Codex specifically, the McNemar contingency table showed: 450 problems passed under both conditions, 68 exhibited blind obedience (passed T1, failed T2), only 9 showed lucky fixes, and 11 failed both [^1]. That 68/538 blind obedience rate — 12.6 per cent — may sound manageable until you consider what happens next.
 
 ## Ghost Errors and the Collapse Cascade
 
@@ -158,7 +158,7 @@ Before implementing any fix based on an error message:
    the test assertions
 ```
 
-This pattern — encoding stop conditions directly into instruction files — addresses the paper's core finding that 82% of failed runs continue executing unproductively [^4]. By giving the agent explicit permission to stop, you break the obedience loop.
+This pattern — encoding stop conditions directly into instruction files — addresses the paper's core finding that 82 per cent of failed runs continue executing unproductively [^4]. By giving the agent explicit permission to stop, you break the obedience loop.
 
 ### Rollout Budget: Cost Ceiling for Collapse Prevention
 

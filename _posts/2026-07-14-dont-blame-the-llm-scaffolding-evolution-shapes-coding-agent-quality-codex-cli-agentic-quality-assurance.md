@@ -59,7 +59,7 @@ But velocity has a cost.
 
 The researchers fixed the underlying LLM and evaluated 35 sequential releases of Qwen Code CLI against 50 stratified SWE-bench Verified tasks. The results are striking:
 
-- **Resolve rate range:** 23.0% to 39.0% (mean 30.5%) [^1]
+- **Resolve rate range:** 23.0 per cent to 39.0 per cent (mean 30.5 per cent) [^1]
 - **No statistically significant upward trend:** Spearman ρ = 0.208, p = 0.231 [^1]
 - **Token consumption nearly doubled** over the release window (Spearman ρ = 0.535, p < 0.01) [^1]
 - **Tool calls more than doubled** without corresponding resolve improvements (Spearman ρ = 0.489, p < 0.01) [^1]
@@ -129,7 +129,7 @@ codex doctor
 codex doctor --json
 ```
 
-While `codex doctor` checks environment health rather than agentic quality, it surfaces configuration drift that may correlate with behaviour changes — particularly around provider settings, proxy configuration, and sandbox state.
+Whilst `codex doctor` checks environment health rather than agentic quality, it surfaces configuration drift that may correlate with behaviour changes — particularly around provider settings, proxy configuration, and sandbox state.
 
 ### 3. Build Your Own Agentic Quality Gate
 

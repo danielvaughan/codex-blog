@@ -36,9 +36,9 @@ The authors construct SWE-Review-Bench from 1,384 candidate PRs derived from 500
 
 | Generator | Instances | Baseline Resolve Rate |
 |-----------|-----------|----------------------|
-| GLM-5 | 500 | 72.2% |
-| Qwen3-Coder-30B-A3B | 462 | 50.9% |
-| Qwen3-30B-A3B | 422 | 27.5% |
+| GLM-5 | 500 | 72.2 per cent |
+| Qwen3-Coder-30B-A3B | 462 | 50.9 per cent |
+| Qwen3-30B-A3B | 422 | 27.5 per cent |
 
 This stratification matters. A reviewer that only improves already-strong PRs would be a curiosity; one that lifts weak generators by double-digit points is an engineering multiplier.
 
@@ -48,18 +48,18 @@ The headline results are striking [^1]:
 
 | Coding Model | Baseline RR | Post-Loop RR | Improvement |
 |-------------|-------------|-------------|-------------|
-| Qwen3-30B-A3B | 27.5% | 56.9% | **+29.4 pp** |
-| Qwen3-Coder-30B-A3B | 50.9% | 68.8% | **+17.9 pp** |
-| GLM-5 | 72.2% | 75.4% | **+3.2 pp** |
+| Qwen3-30B-A3B | 27.5 per cent | 56.9 per cent | **+29.4 pp** |
+| Qwen3-Coder-30B-A3B | 50.9 per cent | 68.8 per cent | **+17.9 pp** |
+| GLM-5 | 72.2 per cent | 75.4 per cent | **+3.2 pp** |
 
-The pattern is consistent: weaker generators benefit disproportionately. A 27.5% baseline more than doubles. Even the strongest generator, already at 72.2%, gains 3.2 points — meaningful at the frontier where every point is hard-won.
+The pattern is consistent: weaker generators benefit disproportionately. A 27.5 per cent baseline more than doubles. Even the strongest generator, already at 72.2 per cent, gains 3.2 points — meaningful at the frontier where every point is hard-won.
 
 ### Agentic Review vs. Single-Turn Review
 
 The paper also compares agentic review (where the reviewer can explore the repository) against single-turn fixed-context review (where the reviewer sees only the diff and surrounding context). On Qwen3-30B-A3B PRs [^1]:
 
-- **Decision Accuracy**: 89.4% (agentic) vs. roughly 65–70% (single-turn)
-- **Resolve Rate after Revision (RRR)**: 52.6% (agentic) vs. 44.1% (single-turn)
+- **Decision Accuracy**: 89.4 per cent (agentic) vs. roughly 65–70 per cent (single-turn)
+- **Resolve Rate after Revision (RRR)**: 52.6 per cent (agentic) vs. 44.1 per cent (single-turn)
 
 The gap widens on harder instances, reaching approximately 20 percentage points on the most difficult tertile. Repository exploration is not a luxury — it is what separates a useful reviewer from a coin flip.
 
@@ -69,12 +69,12 @@ One of the paper's most practical findings concerns test-time scaling. Given a f
 
 Using Qwen3-30B-A3B with an 8B reviewer model [^1]:
 
-- **Reviewer-gated iterative revision**: 38.4% resolve rate (2.44 average samples consumed)
+- **Reviewer-gated iterative revision**: 38.4 per cent resolve rate (2.44 average samples consumed)
 - **Baseline (5 independent samples)**: lower resolve rate at full sample cost
 
-At a larger budget (K=16 samples), reviewer-guided selection reaches 32.3% compared with 25.6% for SWE-Lego-Verifier and 18.8% for a Critic baseline — while consuming only 8.9 average samples, a **44% reduction** in compute [^1].
+At a larger budget (K=16 samples), reviewer-guided selection reaches 32.3 per cent compared with 25.6 per cent for SWE-Lego-Verifier and 18.8 per cent for a Critic baseline — whilst consuming only 8.9 average samples, a **44 per cent reduction** in compute [^1].
 
-For Qwen3-Coder-30B-A3B, the reviewer achieves 48.1% vs. 44.4% for the verifier at K=16, consuming just 6.0 samples — a **62.5% reduction** [^1].
+For Qwen3-Coder-30B-A3B, the reviewer achieves 48.1 per cent vs. 44.4 per cent for the verifier at K=16, consuming just 6.0 samples — a **62.5 per cent reduction** [^1].
 
 The implication is clear: a reviewer that can reject bad candidates early and guide revisions is strictly more efficient than brute-force sampling and verification.
 
@@ -82,10 +82,10 @@ The implication is clear: a reviewer that can reject bad candidates early and gu
 
 The authors curate SWE-Review-Traj, a dataset of 8,914 decision-correct trajectories (filtered from 14,156 initial trajectories) [^1]. Fine-tuning Qwen3-8B on this data produces dramatic improvements:
 
-- **Completion Rate**: 4.1% → 84.2%
-- **Decision Accuracy**: 49.0% → 68.7%
+- **Completion Rate**: 4.1 per cent → 84.2 per cent
+- **Decision Accuracy**: 49.0 per cent → 68.7 per cent
 
-Mixed training combining issue-resolution and review trajectories unlocks a self-contained single-model loop: at the 3k+3k scale, the fine-tuned 8B model achieves 34.8% resolve rate on sample 1, scaling to 44.0% at sample 5, with a cumulative oracle of 47.2% [^1].
+Mixed training combining issue-resolution and review trajectories unlocks a self-contained single-model loop: at the 3k+3k scale, the fine-tuned 8B model achieves 34.8 per cent resolve rate on sample 1, scaling to 44.0 per cent at sample 5, with a cumulative oracle of 47.2 per cent [^1].
 
 ## Mapping to Codex CLI's Guardian Auto-Review
 
@@ -183,13 +183,13 @@ This suggests two directions for the Guardian:
 1. **Deeper context on denial**: when the Guardian denies an action, providing repository-aware context (not just "this looks risky") would improve the primary agent's revision quality — SWE-Review's structured diagnosis is the template
 2. **PR-level review feeding back to session-level constraints**: SWE-Review shows that review trajectories improve issue-resolution models through mixed training [^1]. Codex could feed automated PR review findings back into AGENTS.md constraints, closing the loop between post-hoc review and upfront guidance
 
-⚠️ The Guardian's v0.144.2 policy rollback [^8] — restoring the previous prompt after a regression — highlights the fragility of reviewer prompting. SWE-Review's fine-tuned 8B reviewer achieved 68.7% decision accuracy; it remains unclear whether the `codex-auto-review` model exceeds this threshold, as OpenAI has not published comparable benchmarks.
+⚠️ The Guardian's v0.144.2 policy rollback [^8] — restoring the previous prompt after a regression — highlights the fragility of reviewer prompting. SWE-Review's fine-tuned 8B reviewer achieved 68.7 per cent decision accuracy; it remains unclear whether the `codex-auto-review` model exceeds this threshold, as OpenAI has not published comparable benchmarks.
 
 ## Key Takeaways
 
 1. **The open-loop tax is real**: one-shot PR generation leaves 29.4 percentage points of resolve rate on the table for weaker models [^1]
-2. **Agentic review beats fixed-context review**: repository exploration pushes decision accuracy from roughly 65–70% to 89.4% [^1]
-3. **Review-guided revision is compute-efficient**: 44–62.5% fewer samples consumed compared with brute-force verification [^1]
+2. **Agentic review beats fixed-context review**: repository exploration pushes decision accuracy from roughly 65–70 per cent to 89.4 per cent [^1]
+3. **Review-guided revision is compute-efficient**: 44–62.5 per cent fewer samples consumed compared with brute-force verification [^1]
 4. **Codex CLI already has the primitives**: Guardian auto-review (action-level), `@codex review` (PR-level), `rollout_budget` (cost ceiling), and AGENTS.md (review guidelines) compose into a closed-loop system [^2] [^5] [^6]
 5. **The gap is depth**: SWE-Review's agentic reviewer explores the repository before each decision; the Guardian currently does not
 

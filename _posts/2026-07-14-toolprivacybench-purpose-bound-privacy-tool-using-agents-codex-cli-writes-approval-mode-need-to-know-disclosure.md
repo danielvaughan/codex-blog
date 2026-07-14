@@ -14,7 +14,7 @@ tags: ["codex-cli", "privacy", "ToolPrivacyBench", "approval-policy", "writes-mo
 
 Your coding agent completes the ticket, passes every test, and pushes clean code. Everything looks right — until you audit the tool-call trajectory and discover that a customer's payment credentials were needlessly routed through a ticketing system, or that a medical condition was embedded in a team handoff note no one authorised.
 
-Hu et al. formalised this failure mode in *ToolPrivacyBench* [^1], a benchmark of 2,150 privacy-sensitive business workflows designed to audit **purpose-bound information flow** across multi-tool trajectories. Their central finding is stark: task success rates across nine evaluated agents ranged from 92.23% to 97.70%, yet the Multi-Tool Privacy Over-Disclosure Index (MT-POI) remained stubbornly between 19.19 and 28.04 [^1]. Successful execution and appropriate disclosure are orthogonal dimensions.
+Hu et al. formalised this failure mode in *ToolPrivacyBench* [^1], a benchmark of 2,150 privacy-sensitive business workflows designed to audit **purpose-bound information flow** across multi-tool trajectories. Their central finding is stark: task success rates across nine evaluated agents ranged from 92.23 per cent to 97.70 per cent, yet the Multi-Tool Privacy Over-Disclosure Index (MT-POI) remained stubbornly between 19.19 and 28.04 [^1]. Successful execution and appropriate disclosure are orthogonal dimensions.
 
 This article examines what ToolPrivacyBench reveals about the structural privacy gap in tool-using agents and maps each finding to Codex CLI's permission stack — including the new `writes` approval mode shipped in v0.144.0 [^2].
 

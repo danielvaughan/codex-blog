@@ -78,11 +78,11 @@ The results are striking:
 
 Dockerless also outperforms four frontier LLM judges used zero-shot: GPT-5.4 (75.9 AUC), GLM-5 (73.2), Kimi-K2.5 (70.7), and DeepSeek-V3.2 [^1].
 
-When used as a reward signal for RL post-training, the fully environment-free pipeline produces a model that achieves 62.0% resolve rate on SWE-bench Verified, 50.0% on Multilingual, and 35.2% on Pro — matching environment-based post-training and surpassing the Qwen3.5-9B baseline by 2.4, 8.7, and 2.9 points respectively [^1].
+When used as a reward signal for RL post-training, the fully environment-free pipeline produces a model that achieves 62.0 per cent resolve rate on SWE-bench Verified, 50.0 per cent on Multilingual, and 35.2 per cent on Pro — matching environment-based post-training and surpassing the Qwen3.5-9B baseline by 2.4, 8.7, and 2.9 points respectively [^1].
 
 ### The SFT Data Quality Effect
 
-A telling ablation: training on all 16,000 unfiltered trajectories yields 58.8% (below the 59.6% baseline). Dockerless-filtered 4,000 trajectories reach 60.6%, matching the environment-based 4,000-trajectory selection. Random 4,000 selection manages only 58.2% [^1]. The verifier's value is not just in judging patches at inference time — it curates better training data.
+A telling ablation: training on all 16,000 unfiltered trajectories yields 58.8 per cent (below the 59.6 per cent baseline). Dockerless-filtered 4,000 trajectories reach 60.6 per cent, matching the environment-based 4,000-trajectory selection. Random 4,000 selection manages only 58.2 per cent [^1]. The verifier's value is not just in judging patches at inference time — it curates better training data.
 
 ### Where Environment-Free Falls Short
 
@@ -158,7 +158,7 @@ esac
 
 ## The Broader Shift: From Execution to Judgement
 
-Dockerless represents a broader trend in coding-agent research: replacing expensive execution with cheaper judgement. The 7.2% wall-clock overhead for Dockerless reward computation — compared to the ~2,308 seconds average rollout time [^1] — suggests that verification is not the bottleneck. The agent's thinking time dominates.
+Dockerless represents a broader trend in coding-agent research: replacing expensive execution with cheaper judgement. The 7.2 per cent wall-clock overhead for Dockerless reward computation — compared to the ~2,308 seconds average rollout time [^1] — suggests that verification is not the bottleneck. The agent's thinking time dominates.
 
 For Codex CLI developers, this reframes the verification question. Rather than asking "how do I run the full test suite after every change?", ask "what evidence would convince me this patch is correct, and can I gather that evidence without executing anything?"
 
@@ -170,7 +170,7 @@ The answer, for interpreted languages at least, is increasingly yes.
 2. **Verification improves training data.** Dockerless-filtered SFT trajectories match environment-based selection quality, demonstrating that a good verifier is also a good data curator [^1].
 3. **Compiled languages still need compilers.** Rust and C show 7–13 point gaps without execution environments [^1]. Wire compiler checks into PostToolUse hooks for these languages.
 4. **Codex CLI's existing architecture is already environment-free.** The kernel-level sandbox, PostToolUse hooks, Guardian auto-review, and MCP tool servers provide all the building blocks for a Dockerless-style verification pipeline [^2][^3][^6].
-5. **The bottleneck is rollout time, not verification time.** At 7.2% of wall-clock overhead, verification is cheap [^1]. Add it liberally.
+5. **The bottleneck is rollout time, not verification time.** At 7.2 per cent of wall-clock overhead, verification is cheap [^1]. Add it liberally.
 
 ---
 

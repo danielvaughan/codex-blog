@@ -34,7 +34,7 @@ The researchers cast a wide net before filtering aggressively:
 | Intersection of both filters | 13,564 |
 | Final dataset (after removing deleted repos) | 11,497 |
 
-Cross-marketplace overlap was remarkably low — only **722 skills (6.3%)** appeared across more than one platform [^3]. The skill ecosystem is heavily siloed; developers publishing on one marketplace rarely cross-list.
+Cross-marketplace overlap was remarkably low — only **722 skills (6.3 per cent)** appeared across more than one platform [^3]. The skill ecosystem is heavily siloed; developers publishing on one marketplace rarely cross-list.
 
 ---
 
@@ -51,28 +51,28 @@ pie title Skill Functional Forms
     "Library / Application" : 3.1
 ```
 
-The dominance of instruction-only skills (63.8%) is the paper's most provocative finding from a practitioner standpoint. Nearly two-thirds of skills are pure natural-language prompts with no executable code — meaning the agent has no deterministic fallback when the LLM misinterprets the instruction. Only **10.5%** contain scripts, and a mere **3.9%** define multi-step agent workflows [^3].
+The dominance of instruction-only skills (63.8 per cent) is the paper's most provocative finding from a practitioner standpoint. Nearly two-thirds of skills are pure natural-language prompts with no executable code — meaning the agent has no deterministic fallback when the LLM misinterprets the instruction. Only **10.5 per cent** contain scripts, and a mere **3.9 per cent** define multi-step agent workflows [^3].
 
 For Codex CLI users, this maps directly to the skill architecture: a SKILL.md with only prose instructions versus one that includes a `scripts/` directory with executable helpers [^4]. The official guidance is clear — "prioritize instructions over scripts unless deterministic behavior is required" [^4] — but the study suggests the community has over-indexed on instructions at the expense of verifiability.
 
 ---
 
-## The Lifecycle Imbalance: 65.4% in Three Stages
+## The Lifecycle Imbalance: 65.4 per cent in Three Stages
 
 The paper maps all 11,497 skills against an eight-stage SE lifecycle taxonomy. The distribution is sharply skewed [^3]:
 
 | Lifecycle Stage | Skills | Share |
 |---|---|---|
-| Implementation | 2,875 | 25.0% |
-| Testing | 2,446 | 21.3% |
-| Code Review | 2,198 | 19.1% |
-| Plan & Design | 1,511 | 13.1% |
-| Maintenance & Operations | 1,240 | 10.8% |
-| Deployment | 609 | 5.3% |
-| Release | 363 | 3.2% |
-| Requirements | 255 | 2.2% |
+| Implementation | 2,875 | 25.0 per cent |
+| Testing | 2,446 | 21.3 per cent |
+| Code Review | 2,198 | 19.1 per cent |
+| Plan & Design | 1,511 | 13.1 per cent |
+| Maintenance & Operations | 1,240 | 10.8 per cent |
+| Deployment | 609 | 5.3 per cent |
+| Release | 363 | 3.2 per cent |
+| Requirements | 255 | 2.2 per cent |
 
-Three code-centric stages — Implementation, Testing, and Code Review — account for **65.4%** of all skills. Requirements engineering sits at just 2.2%, and Release at 3.2%. The implication is clear: the community builds skills for activities LLMs already handle reasonably well, while neglecting the high-context, cross-system activities where structured skill guidance would add the most value.
+Three code-centric stages — Implementation, Testing, and Code Review — account for **65.4 per cent** of all skills. Requirements engineering sits at just 2.2 per cent, and Release at 3.2 per cent. The implication is clear: the community builds skills for activities LLMs already handle reasonably well, whilst neglecting the high-context, cross-system activities where structured skill guidance would add the most value.
 
 ```mermaid
 graph LR
@@ -99,13 +99,13 @@ graph LR
 
 ## Activity-Level Analysis: The Top Three Dominate
 
-At finer granularity, the study identifies a 20-activity taxonomy. The top three activities alone — Code Review, Test Automation, and Security Auditing — account for **35.5%** of all task assignments [^3]:
+At finer granularity, the study identifies a 20-activity taxonomy. The top three activities alone — Code Review, Test Automation, and Security Auditing — account for **35.5 per cent** of all task assignments [^3]:
 
 - **Code Review**: 2,877 skills
 - **Test Automation**: 2,343 skills
 - **Security Auditing**: 1,970 skills
 
-Meanwhile, Dependency Management (346 skills), LLM Agent Development (270 skills), and Data Engineering (176 skills) remain thinly covered. The long tail suggests that the skill ecosystem serves generalists writing boilerplate review and test skills, while domain-specific expertise — the kind that would genuinely differentiate an agent's output — remains scarce.
+Meanwhile, Dependency Management (346 skills), LLM Agent Development (270 skills), and Data Engineering (176 skills) remain thinly covered. The long tail suggests that the skill ecosystem serves generalists writing boilerplate review and test skills, whilst domain-specific expertise — the kind that would genuinely differentiate an agent's output — remains scarce.
 
 ---
 
@@ -115,28 +115,28 @@ The paper also audits structural completeness across six elements [^3]:
 
 | Element | Presence |
 |---|---|
-| Frontmatter (name, description) | 97.8% |
-| Commands | 79.3% |
-| Verification steps | 73.7% |
-| Workflow structure | 60.1% |
-| Usage guidance | 51.3% |
-| Examples | 50.1% |
+| Frontmatter (name, description) | 97.8 per cent |
+| Commands | 79.3 per cent |
+| Verification steps | 73.7 per cent |
+| Workflow structure | 60.1 per cent |
+| Usage guidance | 51.3 per cent |
+| Examples | 50.1 per cent |
 
-Nearly half of all skills lack concrete examples, and 40% have no defined workflow structure. Skills without verification steps (26.3%) give the agent no mechanism to confirm success — a pattern the configuration-smells literature has separately identified as a quality risk [^5].
+Nearly half of all skills lack concrete examples, and 40 per cent have no defined workflow structure. Skills without verification steps (26.3 per cent) give the agent no mechanism to confirm success — a pattern the configuration-smells literature has separately identified as a quality risk [^5].
 
-Token length analysis reveals most skills are compact: the average is **2,078 tokens**, with 90% under 4,150 tokens [^3]. This fits within Codex CLI's progressive-disclosure budget — approximately 2% of the model's context window for the initial skill list, with full SKILL.md content loaded only on selection [^4].
+Token length analysis reveals most skills are compact: the average is **2,078 tokens**, with 90 per cent under 4,150 tokens [^3]. This fits within Codex CLI's progressive-disclosure budget — approximately 2 per cent of the model's context window for the initial skill list, with full SKILL.md content loaded only on selection [^4].
 
 ---
 
-## Security: The 19.6% Problem
+## Security: The 19.6 per cent Problem
 
-Perhaps the most alarming finding concerns skill safety. On ClawHub, **19.6% of skills** were flagged as suspicious by *both* VirusTotal and SkillSpector [^3]. Additionally:
+Perhaps the most alarming finding concerns skill safety. On ClawHub, **19.6 per cent of skills** were flagged as suspicious by *both* VirusTotal and SkillSpector [^3]. Additionally:
 
-- Only **23%** of skills passed instruction-scope checks cleanly (53% received notes, 24% raised concerns)
-- Only **33%** handled credentials without concern
-- **68%** passed install-mechanism checks
+- Only **23 per cent** of skills passed instruction-scope checks cleanly (53 per cent received notes, 24 per cent raised concerns)
+- Only **33 per cent** handled credentials without concern
+- **68 per cent** passed install-mechanism checks
 
-On SkillNet, cost awareness scored **0.2% "Good"**, and executability scored just **0.5% "Good"** [^3]. The ecosystem's quality controls remain immature — skills are easy to publish but difficult to vet.
+On SkillNet, cost awareness scored **0.2 per cent "Good"**, and executability scored just **0.5 per cent "Good"** [^3]. The ecosystem's quality controls remain immature — skills are easy to publish but difficult to vet.
 
 ---
 
@@ -168,7 +168,7 @@ This layered approach lets teams share deployment and release skills at the repo
 
 Based on the paper's findings, here are practical SKILL.md patterns for the three most underserved lifecycle stages.
 
-**Requirements Gathering Skill (2.2% coverage):**
+**Requirements Gathering Skill (2.2 per cent coverage):**
 
 ```markdown
 ---
@@ -195,7 +195,7 @@ description: >
 - Ambiguous items are explicitly flagged
 ```
 
-**Release Checklist Skill (3.2% coverage):**
+**Release Checklist Skill (3.2 per cent coverage):**
 
 ```markdown
 ---
@@ -220,7 +220,7 @@ scripts/check-version-consistency.sh
 scripts/generate-release-notes.sh
 ```
 
-**Deployment Validation Skill (5.3% coverage):**
+**Deployment Validation Skill (5.3 per cent coverage):**
 
 ```markdown
 ---
@@ -258,7 +258,7 @@ Until marketplace vetting improves, treat third-party skills as untrusted code. 
 
 The study found that most skills "stopped being updated after their initial release" [^3]. On ClawHub, **969 skills** had only a single version ever published, whilst only **12 skills** exceeded 20 versions [^3]. Growth spiked in January 2026 (2,042 skill updates) but the overall pattern suggests a write-once culture.
 
-This echoes the configuration-smells research from dos Santos et al. [^5], which found "Init Fossilisation" in 24% of AGENTS.md files — configuration written at project inception and never updated. The same pattern appears in skills: developers create them for an immediate need and rarely maintain them as dependencies, APIs, and best practices evolve.
+This echoes the configuration-smells research from dos Santos et al. [^5], which found "Init Fossilisation" in 24 per cent of AGENTS.md files — configuration written at project inception and never updated. The same pattern appears in skills: developers create them for an immediate need and rarely maintain them as dependencies, APIs, and best practices evolve.
 
 For Codex CLI users, the practical takeaway is version-pinning discipline. If you install a third-party skill via `$skill-installer`, track when you last reviewed its content. A skill written for GPT-5.2-Codex [^6] may encode assumptions that no longer hold when the default model updates.
 
@@ -270,9 +270,9 @@ The Skill Market paper provides the first empirical baseline for where the agent
 
 1. **Write skills for the gaps, not the peaks.** The community has saturated Implementation, Testing, and Code Review. The highest-value contributions now lie in Requirements, Release, and Deployment skills — precisely the stages where structured guidance prevents the costliest errors.
 
-2. **Add scripts and verification.** With 63.8% of skills being instruction-only and 26.3% lacking verification steps, skills that include executable scripts and explicit success criteria will outperform the median by design.
+2. **Add scripts and verification.** With 63.8 per cent of skills being instruction-only and 26.3 per cent lacking verification steps, skills that include executable scripts and explicit success criteria will outperform the median by design.
 
-3. **Treat marketplace skills as untrusted.** A 19.6% suspicious-flagging rate across dual scanners means nearly one in five publicly available skills warrants scrutiny. Use Codex CLI's disable mechanism, review SKILL.md content, and prefer skills from the official OpenAI curated set [^7] or your own team's repository.
+3. **Treat marketplace skills as untrusted.** A 19.6 per cent suspicious-flagging rate across dual scanners means nearly one in five publicly available skills warrants scrutiny. Use Codex CLI's disable mechanism, review SKILL.md content, and prefer skills from the official OpenAI curated set [^7] or your own team's repository.
 
 The skill ecosystem is growing fast — 775,790 entries across four marketplaces in under a year — but growth without quality and lifecycle balance produces noise, not capability. The developers who build skills for the underserved stages, with executable verification and proper maintenance, will define what "agent-assisted software engineering" actually means in practice.
 
