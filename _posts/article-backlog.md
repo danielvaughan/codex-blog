@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## ToolPrivacyBench Purpose-Bound Privacy — Writes Approval Mode, Need-to-Know Disclosure, Codex CLI Permission Stack (2026-07-14 Hourly Article Run)
+
+1. ✅ **ToolPrivacyBench and the Need-to-Know Principle: Why Successful Tool Calls Still Leak Private Data — and How Codex CLI's Permission Stack Closes the Disclosure Gap** — Written 2026-07-14 → `2026-07-14-toolprivacybench-purpose-bound-privacy-tool-using-agents-codex-cli-writes-approval-mode-need-to-know-disclosure.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hu et al. published arXiv:2606.28061 (June 2026), ToolPrivacyBench benchmarking purpose-bound privacy in tool-using LLM agents; 2,150 cases across 8 business domains with 552 distinct tools; TaskSuccess 92.23–97.70% but MT-POI 19.19–28.04 showing orthogonal task completion vs privacy compliance; six over-disclosure pathways (tool-level, sink-type, free-text channel, mid-workflow, severity-weighted, repeated); 219,986 field-tool authorisation pairs; purpose-specific view collapse pattern; mapped to Codex CLI v0.144.0 writes approval mode, granular approval_policy MCP gating, enabled_tools/disabled_tools static filtering, sandbox network isolation, PreToolUse/PostToolUse trajectory auditing hooks, named permission profiles
+   - SEO targets: "ToolPrivacyBench purpose-bound privacy codex cli", "codex cli writes approval mode privacy", "need-to-know disclosure coding agent", "codex cli MCP tool privacy over-disclosure", "purpose-bound information flow agent tools", "codex cli approval_policy privacy sensitive", "tool argument privacy audit codex cli"
+
+---
+
+
 ## Inside the Skill Market — 11,497 SE Skills, Lifecycle Gaps, Reusable Agent Workflows (2026-07-14 Hourly Article Run)
 
 1. ✅ **Inside the Skill Market: What 11,497 SE Skills Reveal About the Gaps in Our Agent Workflows — and How to Fill Them with Codex CLI** — Written 2026-07-14 → `2026-07-14-inside-the-skill-market-11497-se-skills-codex-cli-lifecycle-gaps-reusable-agent-workflows.md`
