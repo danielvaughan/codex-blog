@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Cheap Code, Costly Judgment — Governance Conversion, Failure Classes, Codex CLI Hook Architecture (2026-07-14 Hourly Article Run)
+
+1. ✅ **Cheap Code, Costly Judgment: Governance Conversion in Agentic Software Engineering — and How Codex CLI's Hook Architecture Makes It Mechanical** — Written 2026-07-14 → `2026-07-14-cheap-code-costly-judgment-governance-conversion-agentic-software-engineering-codex-cli-hooks-agents-md.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Davis et al. published arXiv:2607.01087 (July 1, 2026), first-person case study of governable agentic software engineering; 12-week development effort by single expert engineer; 88 contemporaneous field notes; 420 KLOC production code; 1.16 MLOC tests/lints/tooling; governance conversion process model explaining how agentic velocity surfaces structural failure classes; engineering judgment converts failures into durable governance mechanisms; controls discovered from failures visible only during agentic work (contrast to predetermined compliance); five structural failure classes (hallucinated validation, budget-pressure shortcuts, context bloat, fake-passing tests, terminal failure); mapped to Codex CLI PreToolUse/PostToolUse hooks as mechanical governance encoding, AGENTS.md as fossilised judgment accumulation, writes approval mode as graduated trust, Guardian auto-review as LLM judge backstop, hook coverage gaps requiring hybrid enforcement, deny-only hook constraint as governance feature
+   - SEO targets: "cheap code costly judgment codex cli", "governance conversion agentic software engineering", "codex cli hooks governance enforcement", "structural failure classes coding agent", "AGENTS.md governance conversion codex cli", "agentic engineering judgment tax", "codex cli PreToolUse PostToolUse governance"
+
+---
+
+
 ## Latent Programming Horizons — Hidden-State Probing, Early Intervention, Codex CLI PostToolUse Hooks (2026-07-14 Hourly Article Run)
 
 1. ✅ **Latent Programming Horizons: What LLM Hidden States Reveal About Code Correctness — and Why Codex CLI's Hook Architecture Is Already Wired for Early Intervention** — Written 2026-07-14 → `2026-07-14-latent-programming-horizons-coding-agents-hidden-state-probing-codex-cli-early-intervention-posttooluse.md`
