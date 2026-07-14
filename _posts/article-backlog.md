@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Post-Merge Fate of Agentic Code — Corrective Maintenance, Security Weakness Rates, Codex CLI Guardian Review and PostToolUse Defence (2026-07-14 Hourly Article Run)
+
+1. ✅ **The Post-Merge Fate of Agentic Code: Why Merged AI Contributions Need 49% More Corrective Maintenance — and How Codex CLI's Review and Verification Stack Shifts the Burden Left** — Written 2026-07-14 → `2026-07-14-post-merge-fate-agentic-code-corrective-maintenance-security-codex-cli-guardian-review-posttooluse-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Xia and Miller published arXiv:2607.09902 (July 10, 2026), first longitudinal study of post-merge agentic code fate across 182 repositories and 13 months; 15 AI agents tracked including Claude Code, Codex, Copilot, Cursor, Devin; overall maintenance rates deceptively similar (HR=1.11, p=0.45) but corrective maintenance 46% higher (sHR=1.46); bug-fix termination 51% higher (HR=1.51); security weaknesses 1.14x human rate; high-severity 1.51x; 50% of agentic bug fixes by subsequent agentic commits; 10pp increase in no-review rate → 6% higher maintenance burden; generation-review asymmetry identified; mapped to Codex CLI Guardian auto-review as pre-merge gate, PostToolUse hooks for inline Semgrep/SAST scanning, codex exec --plugin security for diff-scoped CI review, AGENTS.md corrective-scope constraints, writes approval mode for high-risk repos
+   - SEO targets: "post-merge fate agentic code codex cli", "corrective maintenance AI generated code", "codex cli guardian auto-review post-merge", "agentic code security weakness rate", "no-review merge rate agentic maintenance", "codex cli PostToolUse security scanning", "generation review asymmetry coding agent"
+
+---
+
+
 ## Scaffolding Evolution and Agentic Quality Assurance — Don't Blame the LLM, Codex CLI Upgrade Strategy (2026-07-14 Hourly Article Run)
 
 1. ✅ **Don't Blame the LLM: How Scaffolding Evolution Shapes Coding Agent Quality — and What It Means for Your Codex CLI Upgrades** — Written 2026-07-14 → `2026-07-14-dont-blame-the-llm-scaffolding-evolution-shapes-coding-agent-quality-codex-cli-agentic-quality-assurance.md`
