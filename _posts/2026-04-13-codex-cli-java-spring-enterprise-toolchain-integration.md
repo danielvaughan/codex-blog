@@ -2,7 +2,7 @@
 title: "Codex CLI in Java Spring Teams: Plugging Into SonarQube, Jira, and Your Existing CI/CD Pipeline"
 description: "Most Codex CLI content assumes you are starting fresh with a JavaScript or Python project. Enterprise Java Spring teams do not start fresh."
 date: 2026-04-13T07:00:00+00:00
-last_modified_at: 2026-07-14T20:10:59+01:00
+last_modified_at: 2026-07-14T22:10:33+01:00
 tags:
   - codex-cli
   - java

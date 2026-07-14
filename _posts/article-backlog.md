@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## AgentCheck MCP Fault Injection — Tool Reliability, PreToolUse/PostToolUse Hardening, Codex CLI (2026-07-14 Hourly Article Run)
+
+1. ✅ **AgentCheck and MCP Fault Injection: Why Your Tools Fail Silently — and How to Harden Codex CLI's MCP Stack Before It Matters** — Written 2026-07-14 → `2026-07-14-agentcheck-mcp-fault-injection-tool-reliability-codex-cli-pretooluse-posttooluse-hardening.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Mazumder and Lia published arXiv:2607.11098 (July 14, 2026), AgentCheck open-source workbench turning MCP servers into fault-injection intervention surfaces; 12 fault types across three categories (Tool Execution, Data Quality, Security); 120 scenarios across five agents; DeepSeek v4-pro best at 105/120, Llama 3.3-70b weakest at 77/120; silent data-quality failures dominant weakness; retry mitigation lifts timeout from 30% to 100% but stale/contradiction faults barely improve; Cohen's κ 0.78-0.87 for LLM judge alignment; mapped to Codex CLI MCP server configuration (required flag, startup_timeout_sec, tool_timeout_sec), enabled_tools/disabled_tools allow/deny lists, per-tool approval_mode (auto/prompt/writes/approve), PreToolUse hooks for argument validation and injection filtering, PostToolUse hooks for response quality validation, kernel-level sandbox as exfiltration backstop, Guardian auto-review as final output gate
+   - SEO targets: "AgentCheck MCP fault injection codex cli", "codex cli MCP tool reliability hardening", "MCP server fault types silent failure", "codex cli PreToolUse PostToolUse MCP hooks", "tool response validation coding agent", "MCP server approval_mode codex cli", "agent tool fault injection testing"
+
+---
+
+
 ## Proactivity, Not Just Autonomy — Insight Policy, Interruption Cost, Codex CLI Automations and Learning Lift (2026-07-14 Hourly Article Run)
 
 1. ✅ **Proactivity, Not Just Autonomy: Why Your Coding Agent's Insight Policy Matters More Than Its Tool Count — and How to Wire It into Codex CLI** — Written 2026-07-14 → `2026-07-14-proactivity-not-autonomy-insight-policy-coding-agents-codex-cli-automations-interruption-cost-learning-lift.md`

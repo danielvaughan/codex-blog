@@ -2,7 +2,7 @@
 title: "Codex CLI in Practice: Real-World Benchmarks and What They Mean"
 description: "Benchmark numbers dominate marketing copy, but most developers lack the context to interpret them critically."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-07-14T20:10:59+01:00
+last_modified_at: 2026-07-14T22:10:33+01:00
 tags:
   - opinion
   - testing

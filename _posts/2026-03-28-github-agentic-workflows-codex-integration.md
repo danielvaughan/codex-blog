@@ -2,7 +2,7 @@
 title: "GitHub Agentic Workflows: Intent-Driven Repository Automation with Codex"
 description: "GitHub shipped GitHub Agentic Workflows in technical preview on February 13, 2026."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-14T20:10:59+01:00
+last_modified_at: 2026-07-14T22:10:33+01:00
 tags:
   - ci-cd
   - github-actions
