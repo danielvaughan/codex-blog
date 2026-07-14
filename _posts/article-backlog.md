@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## SWE-Review Closed-Loop Agentic Code Review — Generate-Review-Revise, Guardian Auto-Review, PR Workflow (2026-07-14 Hourly Article Run)
+
+1. ✅ **SWE-Review and the Closed-Loop Imperative: Why Generate-Review-Revise Outperforms One-Shot PR Generation — and How Codex CLI's Guardian Auto-Review Already Closes the Gap** — Written 2026-07-14 → `2026-07-14-swe-review-closed-loop-agentic-code-review-generate-review-revise-codex-cli-guardian-auto-review-pr-workflow.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. published arXiv:2607.06065 (July 7, 2026), SWE-Review framework for closed-loop issue resolution via agentic code review; SWE-Review-Bench 1,384 PRs from 500 SWE-bench Verified issues across three generators; generate-review-revise loop lifts Qwen3-30B-A3B from 27.5% to 56.9% (+29.4pp), Qwen3-Coder-30B-A3B from 50.9% to 68.8% (+17.9pp); agentic review 89.4% decision accuracy vs ~65-70% single-turn; reviewer-gated revision consumes 44-62.5% fewer samples than brute-force verification; SWE-Review-Traj 8,914 trajectories; fine-tuned Qwen3-8B completion rate 4.1%→84.2%; mapped to Codex CLI Guardian auto-review (codex-auto-review model), @codex review GitHub integration, AGENTS.md review guidelines, rollout_budget token ceiling, codex exec headless review-fix CI pipeline, v0.144.2 Guardian policy rollback
+   - SEO targets: "SWE-Review closed-loop agentic code review codex cli", "generate-review-revise coding agent", "codex cli guardian auto-review closed loop", "agentic code review resolve rate improvement", "codex cli automated PR review workflow", "SWE-Review-Bench agentic reviewer", "test-time scaling code review agent"
+
+---
+
+
 ## Dockerless Environment-Free Patch Verification — Sandbox Strategy, PostToolUse Hooks, Codex CLI (2026-07-14 Hourly Article Run)
 
 1. ✅ **Dockerless Patch Verification: Why Environment-Free Judgement Outperforms Open-Source Verifiers by 14 AUC Points — and What It Means for Codex CLI's Sandbox Strategy** — Written 2026-07-14 → `2026-07-14-dockerless-environment-free-patch-verification-coding-agents-codex-cli-sandbox-posttooluse-hooks.md`
