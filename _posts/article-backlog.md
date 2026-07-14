@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Long-Horizon-Terminal-Bench Dense Reward Grading — Goal Mode, Token Budget, Long-Task Strategy, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **Long-Horizon-Terminal-Bench and the Completion Cliff: Why 64 Per Cent of Agent Runs Make Real Progress but Only 4 Per Cent Finish — and How to Configure Codex CLI for Long-Horizon Survival** — Written 2026-07-15 → `2026-07-15-long-horizon-terminal-bench-dense-reward-grading-codex-cli-goal-mode-token-budget-long-task-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. published arXiv:2607.08964 (July 13, 2026), Long-Horizon-Terminal-Bench: 46 tasks across nine categories with dense subtask-based grading; 17 frontier models evaluated; 64.6% of runs make real partial progress but only 4.3% pass@R≥0.95; GPT-5.5 leads at 15.2% with fewest tokens (4.16M); mean 9.9M tokens, 231 episodes, 85.3 minutes per task; 79% timeout dominance; 14 false finishes at R≥0.75; near-misses 2.4× more frequent than full passes; mapped to Codex CLI Goal mode persistent loops, rollout_budget token tracking, model_auto_compact_token_limit context decay management, AGENTS.md milestone checkpoints, PostToolUse verification hooks, subagent delegation for isolated verification, GPT-5.6 Sol model selection, named profiles for long-horizon configuration
+   - SEO targets: "long-horizon terminal bench codex cli", "codex cli goal mode long task configuration", "dense reward grading coding agent benchmark", "codex cli rollout_budget token tracking", "agent completion cliff long-horizon", "codex cli long-horizon survival strategy", "LHTB coding agent benchmark 2026"
+
+---
+
+
 ## AgentCheck MCP Fault Injection — Tool Reliability, PreToolUse/PostToolUse Hardening, Codex CLI (2026-07-14 Hourly Article Run)
 
 1. ✅ **AgentCheck and MCP Fault Injection: Why Your Tools Fail Silently — and How to Harden Codex CLI's MCP Stack Before It Matters** — Written 2026-07-14 → `2026-07-14-agentcheck-mcp-fault-injection-tool-reliability-codex-cli-pretooluse-posttooluse-hardening.md`
