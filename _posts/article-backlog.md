@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Dockerless Environment-Free Patch Verification — Sandbox Strategy, PostToolUse Hooks, Codex CLI (2026-07-14 Hourly Article Run)
+
+1. ✅ **Dockerless Patch Verification: Why Environment-Free Judgement Outperforms Open-Source Verifiers by 14 AUC Points — and What It Means for Codex CLI's Sandbox Strategy** — Written 2026-07-14 → `2026-07-14-dockerless-environment-free-patch-verification-coding-agents-codex-cli-sandbox-posttooluse-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zeng et al. published arXiv:2606.28436 (June 2026), Dockerless environment-free agentic patch verifier; two-stage pipeline (question generation + binary judgement) on Qwen3.5-9B backbone; 81.0 AUC on SWE-bench Verified (+14.3 over best open-source); 72.1 AUC on Multi-SWE-bench Flash; outperforms GPT-5.4, GLM-5, Kimi-K2.5 zero-shot judges; 62.0%/50.0%/35.2% resolve rates on Verified/Multilingual/Pro matching env-based post-training; Rust +7.0 and C +13.3 point gaps for compiled languages; 7.2% wall-clock overhead; mapped to Codex CLI kernel-level sandbox (Seatbelt/Landlock/seccomp), PostToolUse hooks as verification gates, Guardian auto-review as LLM judge, MCP tool servers as evidence-gathering agents, AGENTS.md scope encoding
+   - SEO targets: "dockerless patch verification codex cli", "environment-free coding agent verification", "codex cli PostToolUse verification gate", "agentic patch verifier SWE-bench", "codex cli sandbox verification strategy", "environment-free RL reward coding agent", "codex cli Guardian auto-review verification"
+
+---
+
+
 ## ToolPrivacyBench Purpose-Bound Privacy — Writes Approval Mode, Need-to-Know Disclosure, Codex CLI Permission Stack (2026-07-14 Hourly Article Run)
 
 1. ✅ **ToolPrivacyBench and the Need-to-Know Principle: Why Successful Tool Calls Still Leak Private Data — and How Codex CLI's Permission Stack Closes the Disclosure Gap** — Written 2026-07-14 → `2026-07-14-toolprivacybench-purpose-bound-privacy-tool-using-agents-codex-cli-writes-approval-mode-need-to-know-disclosure.md`
