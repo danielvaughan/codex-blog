@@ -2,7 +2,7 @@
 title: "Security Hardening Your Codex CLI Setup"
 description: "Codex CLI gives agents broad reach into your filesystem, shell environment, and network. That power comes with real attack surface."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-07-14T12:10:23+01:00
+last_modified_at: 2026-07-14T14:08:44+01:00
 tags:
   - security
   - sandbox

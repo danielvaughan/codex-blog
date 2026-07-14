@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Codex Remote GA — Mobile Approvals, QR Pairing, Four-Plane Governance, Enterprise Workflow (2026-07-14 Hourly Article Run)
+
+1. ✅ **Codex Remote GA: Mobile Approvals, QR Pairing, and the Four-Plane Governance Model for Enterprise Agent Workflows** — Written 2026-07-14 → `2026-07-14-codex-remote-ga-mobile-approval-qr-pairing-four-plane-governance-enterprise-workflow.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex Remote reached general availability on June 25, 2026 across all paid ChatGPT plans; authenticated one-to-one QR pairing between iOS/Android and Mac/Windows hosts; secure relay architecture (no open ports/VPN); mobile capabilities include start/continue tasks, approve/reject actions, review diffs/screenshots/test output; DigitalOcean plugin for disposable cloud hosts; four-plane governance model (Identity, Execution, Approval, Cost) from TheRouter.ai analysis; SSH host auto-detection and private-key support from mobile (July 6 iOS update); enterprise workspace admin controls; hooks for remote-specific governance; operational risks including unattended agent sessions, ghost hosts, proxy edge cases
+   - SEO targets: "codex remote general availability mobile approval", "codex cli QR pairing security model", "codex remote enterprise governance four-plane", "codex cli mobile approval workflow", "codex remote DigitalOcean cloud host plugin", "codex cli remote SSH host configuration", "codex remote approval plane governance"
+
+---
+
+
 ## Post-Merge Fate of Agentic Code — Corrective Maintenance, Security Weakness Rates, Codex CLI Guardian Review and PostToolUse Defence (2026-07-14 Hourly Article Run)
 
 1. ✅ **The Post-Merge Fate of Agentic Code: Why Merged AI Contributions Need 49% More Corrective Maintenance — and How Codex CLI's Review and Verification Stack Shifts the Burden Left** — Written 2026-07-14 → `2026-07-14-post-merge-fate-agentic-code-corrective-maintenance-security-codex-cli-guardian-review-posttooluse-defence.md`
