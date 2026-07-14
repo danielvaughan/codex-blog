@@ -177,7 +177,7 @@ The approach also raises questions about Codex CLI's architecture: could a PreTo
 
 [^1]: Chen, Q., Imani, A., & Ahmed, I. (2026). "ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation." arXiv:2607.08691. [https://arxiv.org/abs/2607.08691](https://arxiv.org/abs/2607.08691)
 
-[^2]: Luo, Y., Xu, B., & Chen, Y. (2024). "Can Language Models Replace Programmers? REPOCOD Says 'Not Yet'." arXiv:2410.21647. [https://arxiv.org/abs/2410.21647](https://arxiv.org/abs/2410.21647)
+[^2]: Liang, S., Hu, Y., Jiang, N., & Tan, L. (2024). "Can Language Models Replace Programmers? REPOCOD Says 'Not Yet'." arXiv:2410.21647. [https://arxiv.org/abs/2410.21647](https://arxiv.org/abs/2410.21647)
 
 [^3]: OpenAI. (2026). "Codex CLI Documentation: Context Scoping." [https://developers.openai.com/codex/overview](https://developers.openai.com/codex/overview)
 

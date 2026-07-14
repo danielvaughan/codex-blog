@@ -2,7 +2,7 @@
 title: "Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows"
 description: "Code review is where most AI coding tools stop short. Codex CLI closes the loop by providing automated review at every stage of the Git workflow."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-07-14T02:12:21+01:00
+last_modified_at: 2026-07-14T03:10:55+01:00
 tags:
   - workflow-patterns
   - code-review
