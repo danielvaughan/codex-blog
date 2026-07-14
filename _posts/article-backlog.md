@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Proactivity, Not Just Autonomy — Insight Policy, Interruption Cost, Codex CLI Automations and Learning Lift (2026-07-14 Hourly Article Run)
+
+1. ✅ **Proactivity, Not Just Autonomy: Why Your Coding Agent's Insight Policy Matters More Than Its Tool Count — and How to Wire It into Codex CLI** — Written 2026-07-14 → `2026-07-14-proactivity-not-autonomy-insight-policy-coding-agents-codex-cli-automations-interruption-cost-learning-lift.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Bui and Evangelopoulos published arXiv:2605.06717 (May 7, 2026), position paper defining three-level proactivity taxonomy (Reactive, Scheduled, Situation-Aware) for coding agents; five observability criteria (O1–O5); all audited contemporary agents (Cursor, Copilot, Jules, Claude Code Routines) cluster at Level 2; three proposed metrics (Insight Decision Quality, Context Grounding Score, Learning Lift); Kuo et al. arXiv:2601.10253 (IUI '26) five-day field study of 15 developers showing 52% engagement at workflow boundaries vs 62% mid-task dismissal, 45.4s vs 101.4s interpretation time; Li et al. arXiv:2605.05700 ProCodeBench benchmark with 1,246 developers showing simulation-reality gap in proactive intent prediction; Lepine et al. arXiv:2505.10742 cognitive load study showing extraneous load 3× stronger than intrinsic load, model-initiated task switching as strongest performance predictor; mapped to Codex CLI Automations with RFC 5545 RRULE scheduling, /goal persistent objectives, Guardian auto-review as Level 2 gate, /app handoff and Codex Remote mobile approval as notification channels, PostToolUse hooks for feedback logging and policy adaptation, AGENTS.md silence encoding, JSONL+OpenTelemetry audit trail
+   - SEO targets: "proactivity not autonomy coding agent", "codex cli insight policy interruption cost", "coding agent proactivity taxonomy levels", "codex cli automations scheduled tasks proactive", "insight decision quality coding agent metric", "learning lift coding agent feedback", "codex cli AGENTS.md silence policy"
+
+---
+
+
 ## Cheap Code, Costly Judgment — Governance Conversion, Failure Classes, Codex CLI Hook Architecture (2026-07-14 Hourly Article Run)
 
 1. ✅ **Cheap Code, Costly Judgment: Governance Conversion in Agentic Software Engineering — and How Codex CLI's Hook Architecture Makes It Mechanical** — Written 2026-07-14 → `2026-07-14-cheap-code-costly-judgment-governance-conversion-agentic-software-engineering-codex-cli-hooks-agents-md.md`
