@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Hallucinated Skill Recommendation — Plugin Marketplace Supply-Chain Defence, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **Skills That Don't Exist: What 15,000 Prompts Reveal About Hallucinated Skill Recommendation — and How to Defend Your Codex CLI Plugin Stack** — Written 2026-07-15 → `2026-07-15-skills-that-dont-exist-hallucinated-skill-recommendation-codex-cli-plugin-marketplace-supply-chain-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yuan, Guo, Dong, Wang, and Liu published arXiv:2607.12340 (July 14, 2026), first large-scale measurement of skill name hallucination; 15,000 prompts across 12 configurations (4 standalone LLMs, 8 agents); 36.0% hallucination rate for LLMs, 36.9% for agents, 43.1% on real developer questions; 5,669 distinct fabricated names; names repeat across prompts and models giving attackers reliable hijack targets; retrieval grounding defence cuts hallucination from 40.8% to 3.2% but correct recommendation drops to ~1 in 6; ecosystem-level structural changes required: registry-level name reservations, verified recommendation pipelines; mapped to Codex CLI plugin suggestion allowlist (requirements.toml), MCP server identity pinning, hook approval policy, Landlock/Seatbelt sandbox containment, /plugins browser verification, managed marketplace source restrictions
+   - SEO targets: "hallucinated skill recommendation codex cli", "skill name hallucination supply chain attack", "codex cli plugin allowlist defence", "slopsquatting skills plugins codex cli", "plugin marketplace supply chain security", "codex cli requirements.toml plugin allowlist", "hallucinated plugin name registry defence"
+
+---
+
+
 ## Tool Surface Restriction and Cost Control — execute_code Ablation, MCP Configuration, Codex CLI (2026-07-15 Hourly Article Run)
 
 1. ✅ **When Does Restricting Your Agent's Tool Surface Actually Help? What the execute_code Ablation Means for Codex CLI Cost Control** — Written 2026-07-15 → `2026-07-15-when-does-restricting-coding-agent-tool-surface-help-execute-code-only-codex-cli-cost-mcp-configuration.md`
