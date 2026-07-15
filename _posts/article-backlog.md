@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Software Supply Chains Are Dead — Use-Case-Oriented Regeneration, Dependency Replacement, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **Software Supply Chains Are Dead: What Use-Case-Oriented Regeneration Means for Codex CLI Dependency Strategy** — Written 2026-07-15 → `2026-07-15-software-supply-chains-dead-use-case-regeneration-codex-cli-dependency-replacement-local-synthesis.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Singla and Davis published arXiv:2607.13021 (July 14, 2026), accepted at ESEM 2026 Emerging Results; use-case-oriented regeneration workflow replacing narrow dependencies with AI-synthesised local code; 180 repository-dependency pairs across 9 JS/TS deps; 99.8% behavioural preservation (166/180 perfect); 93.1% API surface reduction; 14 failures in semantic edge cases (semver, deep cloning, instanceof, framework integration); Claude Opus agentic process for static call-site identification, localised synthesis, import rewriting, and iterative validation; Sonatype reports 1.23M malicious packages, 454K new in 2025; H1 2026 saw 37 campaigns and 497 malicious packages (4.5× prior year); mapped to Codex CLI codex exec non-interactive regeneration, workspace-write sandbox, AGENTS.md dependency policy, PreToolUse hooks for dependency-install interception, PostToolUse differential testing, GPT-5.6 Sol/Terra model selection, scheduled automation for upstream advisory monitoring
+   - SEO targets: "software supply chains dead regeneration codex cli", "use-case-oriented dependency regeneration AI", "codex cli dependency replacement local synthesis", "AI code generation replace npm dependency", "codex cli supply chain security regeneration", "dependency removal coding agent workflow", "codex cli PreToolUse dependency hook"
+
+---
+
+
 ## Line-Anchored Feedback — Token Cost and Correctness in Code Editing, Codex CLI Apply-Patch Pipeline (2026-07-15 Hourly Article Run)
 
 1. ✅ **Line-Anchored Feedback: How Structured Edit Feedback Cuts Tokens by 58 Per Cent and What It Means for Codex CLI's Apply-Patch Pipeline** — Written 2026-07-15 → `2026-07-15-line-anchored-feedback-token-cost-correctness-code-editing-codex-cli-apply-patch-agents-md-review.md`
