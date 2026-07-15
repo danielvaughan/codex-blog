@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 Canary Signals and Codex CLI Readiness: A Developer Preparation Guide"
 parent: "Articles"
-nav_order: 972
+nav_order: 1532
 type: Technical Article
 timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-gpt-5-6-codex-cli-canary-signals-developer-readiness-guide"

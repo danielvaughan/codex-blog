@@ -2,7 +2,7 @@
 title: "Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI"
 description: "The single most frustrating friction point in any interactive coding agent is waiting. You know exactly what you want to do next — toggle fast mode, compact."
 parent: "Articles"
-nav_order: 347
+nav_order: 1474
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-codex-cli-slash-command-queueing-fire-and-forget-workflows"

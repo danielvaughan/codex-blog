@@ -2,7 +2,7 @@
 title: "Codex CLI's Extension-First Architecture: Guardian as a Plugin, Namespaced Extensions, and Modular Governance"
 description: "The v0.131 alpha track (May 9–13 2026) reveals a fundamental architectural shift inside Codex CLI: core features that were once monolithic internal."
 parent: "Articles"
-nav_order: 699
+nav_order: 1508
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-extension-first-architecture-guardian-namespaced-plugins-modular-governance"

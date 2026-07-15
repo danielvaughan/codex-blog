@@ -1,7 +1,7 @@
 ---
 title: "The Patchwork Problem: Why LLM-Generated Code Compiles, Passes Tests, and Still Breaks — and How to Wire Structural Verification into Codex CLI"
 parent: "Articles"
-nav_order: 1435
+nav_order: 1557
 type: Technical Article
 timestamp: 2026-07-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-13-patchwork-problem-llm-generated-code-structural-incoherence-codex-cli-graph-verification-posttooluse"

@@ -2,7 +2,7 @@
 title: "Codex CLI + Terraform/IaC: Infrastructure Agent Patterns"
 description: "Infrastructure as code demands precision that most AI coding assistants struggle to deliver. Terraform's declarative semantics, provider-specific resource."
 parent: "Articles"
-nav_order: 359
+nav_order: 1482
 type: Technical Article
 timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-terraform-iac-infrastructure-agent-patterns"

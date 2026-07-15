@@ -2,7 +2,7 @@
 title: "v0.124 Hooks Migration Guide: From hooks.json to Inline config.toml"
 description: "Codex CLI v0.124.0, released on 23 April 2026, marks hooks as stable and introduces inline hook definitions directly inside config.toml and requirements.toml."
 parent: "Articles"
-nav_order: 404
+nav_order: 1486
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-hooks-migration-guide-hooks-json-to-inline-config-toml"

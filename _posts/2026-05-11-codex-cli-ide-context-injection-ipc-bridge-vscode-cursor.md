@@ -2,7 +2,7 @@
 title: "Codex CLI /ide Context Injection: Bridging Your Terminal and Editor Through IPC"
 description: "Terminal-native developers have long faced an awkward choice: use the Codex IDE extension for editor context, or use the CLI for its richer TUI."
 parent: "Articles"
-nav_order: 678
+nav_order: 1505
 type: Technical Article
 timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-cli-ide-context-injection-ipc-bridge-vscode-cursor"

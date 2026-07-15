@@ -2,7 +2,7 @@
 title: "Secure MCP Tunnel: Connecting Codex CLI to Private MCP Servers Without Opening Inbound Ports"
 description: "Enterprise teams running internal MCP servers — wrapping proprietary databases, CI systems, or compliance tools — face a persistent tension."
 parent: "Articles"
-nav_order: 789
+nav_order: 1516
 type: Technical Article
 timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-secure-mcp-tunnel-codex-cli-private-server-enterprise-outbound-only-tunnel-client"

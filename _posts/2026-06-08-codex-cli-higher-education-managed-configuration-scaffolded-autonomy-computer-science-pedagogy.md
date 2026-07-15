@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI in Higher Education: Managed Configuration, Scaffolded Autonomy, and the Pedagogical Case for Terminal-First AI"
 parent: "Articles"
-nav_order: 1023
+nav_order: 1537
 type: Technical Article
 timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-higher-education-managed-configuration-scaffolded-autonomy-computer-science-pedagogy"

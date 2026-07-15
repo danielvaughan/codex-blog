@@ -2,7 +2,7 @@
 title: "Codex CLI Doctor: The New First-Class Diagnostics Command in v0.131.0"
 description: "Codex CLI v0.131.0, released on 18 May 2026, introduces codex doctor — a single subcommand that runs support-ready diagnostics across six categories."
 parent: "Articles"
-nav_order: 766
+nav_order: 1514
 type: Technical Article
 timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-doctor-diagnostics-v0131-troubleshooting-runtime-auth-network"

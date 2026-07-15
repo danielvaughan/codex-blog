@@ -1,7 +1,7 @@
 ---
 title: "Codex Computer Use on Windows: Desktop Automation, QA Testing, and GUI-Driven Agent Workflows"
 parent: "Articles"
-nav_order: 941
+nav_order: 1525
 type: Technical Article
 timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-computer-use-windows-desktop-automation-qa-testing-workflows"

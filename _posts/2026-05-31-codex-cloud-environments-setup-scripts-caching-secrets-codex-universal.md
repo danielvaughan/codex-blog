@@ -1,7 +1,7 @@
 ---
 title: "Codex Cloud Environments: Setup Scripts, Container Caching, Secrets, and the codex-universal Image"
 parent: "Articles"
-nav_order: 942
+nav_order: 1526
 type: Technical Article
 timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cloud-environments-setup-scripts-caching-secrets-codex-universal"

@@ -2,7 +2,7 @@
 title: "Codex CLI for Nix Development: MCP-NixOS, Reproducible Environments, and Flake-Native Agent Workflows"
 description: "Nix sits at the intersection of package management, environment reproducibility, and system configuration."
 parent: "Articles"
-nav_order: 835
+nav_order: 1518
 type: Technical Article
 timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-nix-development-mcp-nixos-reproducible-environments-flake-workflows"

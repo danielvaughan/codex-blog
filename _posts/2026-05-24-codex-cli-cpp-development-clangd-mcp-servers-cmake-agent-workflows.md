@@ -2,7 +2,7 @@
 title: "Codex CLI for C/C++ Development: Clangd MCP Servers, CMake Integration, and Systems Programming Agent Workflows"
 description: "C and C++ codebases present unique challenges for AI coding agents: complex build systems, header dependency graphs, platform-specific preprocessor."
 parent: "Articles"
-nav_order: 847
+nav_order: 1519
 type: Technical Article
 timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-cpp-development-clangd-mcp-servers-cmake-agent-workflows"

@@ -2,7 +2,7 @@
 title: "CODESKILL and Self-Evolving Skill Banks: What RL-Trained Procedural Skill Management Means for Codex CLI Workflows"
 description: "CODESKILL demonstrates that coding agents improve by 9.69% when equipped with RL-managed procedural skill banks extracted from past trajectories. Here is how to build the same feedback loop with Codex CLI skills, plugins, and hooks."
 parent: "Articles"
-nav_order: 1316
+nav_order: 1544
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-codeskill-self-evolving-skill-banks-coding-agents-codex-cli-rl-procedural-skill-management"

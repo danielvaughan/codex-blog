@@ -2,7 +2,7 @@
 title: "Codex CLI and Terraform: Agent Skills, MCP Servers, and Infrastructure-as-Code Workflows"
 description: "Infrastructure as Code is one of the highest-stakes domains for AI-assisted development. A hallucinated resource argument in a Terraform plan can provision."
 parent: "Articles"
-nav_order: 273
+nav_order: 1463
 type: Technical Article
 timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-terraform-agent-skills-mcp-iac-workflows"

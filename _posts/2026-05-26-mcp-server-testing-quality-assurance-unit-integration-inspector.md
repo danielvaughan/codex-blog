@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Testing and Quality Assurance: Unit Tests, Integration Flows, and the Inspector Workflow"
 parent: "Articles"
-nav_order: 877
+nav_order: 1522
 type: Technical Article
 timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-mcp-server-testing-quality-assurance-unit-integration-inspector"

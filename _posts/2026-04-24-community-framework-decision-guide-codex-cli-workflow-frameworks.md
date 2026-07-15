@@ -2,7 +2,7 @@
 title: "Community Framework Decision Guide: Which Workflow Framework Fits Your Team"
 description: "If you have used Codex CLI for anything beyond single-shot prompts, you have almost certainly hit the now what? moment: your tasks need parallelism."
 parent: "Articles"
-nav_order: 404
+nav_order: 1487
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-community-framework-decision-guide-codex-cli-workflow-frameworks"

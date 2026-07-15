@@ -2,9 +2,9 @@
 title: "Codex CLI HIPAA Compliance in 2026: The Regulated Workspace Exclusion and What It Means"
 description: "If your organisation processes Protected Health Information (PHI) and you are evaluating Codex CLI, there is a critical distinction buried in OpenAI's."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-07-15T06:13:26+01:00
+last_modified_at: 2026-07-15T07:07:37+01:00
 parent: "Articles"
-nav_order: 352
+nav_order: 1481
 type: Technical Article
 timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-hipaa-compliance-2026-regulated-workspace-exclusion"

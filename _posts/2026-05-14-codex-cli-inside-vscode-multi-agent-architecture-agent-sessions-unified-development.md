@@ -2,7 +2,7 @@
 title: "Codex CLI Inside VS Code's Multi-Agent Architecture: Agent Sessions, Model Selection, and the Unified Development Experience"
 description: "For months, terminal-native developers ran Codex CLI in one window, Claude Code in another, and kept Copilot humming in VS Code — three separate tools."
 parent: "Articles"
-nav_order: 698
+nav_order: 1507
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-inside-vscode-multi-agent-architecture-agent-sessions-unified-development"
