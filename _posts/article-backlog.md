@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Tool Surface Restriction and Cost Control — execute_code Ablation, MCP Configuration, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **When Does Restricting Your Agent's Tool Surface Actually Help? What the execute_code Ablation Means for Codex CLI Cost Control** — Written 2026-07-15 → `2026-07-15-when-does-restricting-coding-agent-tool-surface-help-execute-code-only-codex-cli-cost-mcp-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yang, Yu, and Desell published arXiv:2607.10569 (July 12, 2026), accepted at Agentic SE (SE 3.0) Workshop at KDD 2026; three-arm ablation (baseline/bash-only/code-only) × 2 agents (Claude Code, Codex CLI) × 2 task regimes (93 synthetic computation, 100 SWE-bench Mini); pass rates statistically invariant (≤3pp Δ); cache-adjusted cost swings: Computation/Claude −24.6% (p=7.37×10⁻¹⁴), Modification/Codex −19.9% (p=2.02×10⁻⁹); Codex CLI batching mechanism 17.1 vs 22.9 tool calls; bash-only costliest on SWE-bench/Codex (+4.83%, p=0.005); mapped to Codex CLI config.toml enabled_tools/disabled_tools, named profiles for tool surface switching, MCP server scoping, cache-adjusted cost monitoring
+   - SEO targets: "codex cli tool surface cost optimisation", "execute_code only coding agent", "codex cli enabled_tools disabled_tools", "MCP tool restriction cost savings codex cli", "tool surface ablation coding agent", "codex cli named profiles tool configuration", "cache-adjusted cost coding agent"
+
+---
+
+
 ## Long-Horizon-Terminal-Bench Dense Reward Grading — Goal Mode, Token Budget, Long-Task Strategy, Codex CLI (2026-07-15 Hourly Article Run)
 
 1. ✅ **Long-Horizon-Terminal-Bench and the Completion Cliff: Why 64 Per Cent of Agent Runs Make Real Progress but Only 4 Per Cent Finish — and How to Configure Codex CLI for Long-Horizon Survival** — Written 2026-07-15 → `2026-07-15-long-horizon-terminal-bench-dense-reward-grading-codex-cli-goal-mode-token-budget-long-task-strategy.md`
