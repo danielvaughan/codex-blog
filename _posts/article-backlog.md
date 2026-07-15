@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## AutoTrace Interprocedural Vulnerability Trigger Localization — Evidence-Gated MCP Security, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **AutoTrace and Evidence-Gated Trigger Localization: Why Finding the Vulnerability Is Not Enough — You Need the Causal Chain, and Codex CLI Can Walk It** — Written 2026-07-15 → `2026-07-15-autotrace-interprocedural-vulnerability-trigger-localization-codex-cli-evidence-gated-mcp-security.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zibaeirad, Vieira, and Zimmermann published arXiv:2607.12058 (July 15, 2026), AutoTrace: agentic interprocedural vulnerability trigger localization using code property graphs and multi-layer evidence gates; 75.0% VulnHit on InterPVD benchmark vs CodeQL 8.6% and Fortify 13.0%; five-stage pipeline with hard admissibility gates separating agent proposals from deterministic acceptance; SinkTrace-Bench 1,542 samples across 771 matched pairs at $0.65/CVE; frontier model TNR 7-31% on matched pairs exposing inability to distinguish reachable from unreachable sinks; ships as MCP server and VS Code extension; mapped to Codex CLI MCP server configuration, PreToolUse hooks for CVE-triggered analysis, PostToolUse verification of trigger elimination, AGENTS.md evidence-first repair protocol, subagent delegation with extended token budgets for deep interprocedural analysis
+   - SEO targets: "AutoTrace codex cli vulnerability trigger localization", "interprocedural vulnerability MCP server codex cli", "evidence-gated trigger localization coding agent", "code property graph vulnerability tracing", "codex cli PreToolUse CVE trigger hook", "SinkTrace-Bench frontier model vulnerability", "codex cli MCP security tool configuration"
+
+---
+
+
 ## Complexity-Aware Execution and Cost Control — E3 Framework, ACRR, Reasoning Effort, Model Routing, Codex CLI (2026-07-15 Hourly Article Run)
 
 1. ✅ **Do AI Agents Know When a Task Is Simple? What E3's Complexity-Aware Execution Means for Codex CLI Cost Control** — Written 2026-07-15 → `2026-07-15-do-ai-agents-know-task-simple-complexity-aware-execution-e3-codex-cli-reasoning-effort-model-routing-cost.md`

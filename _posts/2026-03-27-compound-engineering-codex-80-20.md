@@ -3,7 +3,7 @@ title: "Compound Engineering with Codex: The 80/20 Plan-Review Model"
 description: "Based on: every.to/guides/compound-engineering · github.com/EveryInc/compound-engineering-plugin · notes/compound-engineering.md"
 subtitle: "Invert the traditional development ratio — spend 80% on planning and review, 10% on execution, and 10% on compounding knowledge"
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-07-15T14:12:18+01:00
+last_modified_at: 2026-07-15T16:12:14+01:00
 tags:
   - orchestration
   - team-workflow
