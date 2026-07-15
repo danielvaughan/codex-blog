@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Line-Anchored Feedback — Token Cost and Correctness in Code Editing, Codex CLI Apply-Patch Pipeline (2026-07-15 Hourly Article Run)
+
+1. ✅ **Line-Anchored Feedback: How Structured Edit Feedback Cuts Tokens by 58 Per Cent and What It Means for Codex CLI's Apply-Patch Pipeline** — Written 2026-07-15 → `2026-07-15-line-anchored-feedback-token-cost-correctness-code-editing-codex-cli-apply-patch-agents-md-review.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Lamberti published arXiv:2607.12713 (July 14, 2026), first controlled experiment isolating line-anchoring effect on AI code editing while holding feedback content constant; 6,552 paired runs across 7 models (Claude Opus, Claude Sonnet, 5 local); 57.5% token reduction for Sonnet, 22.5% for Opus; 24-80% savings on files ≥100 lines; pooled correctness +2.0pp; local coder models gain 5-7pp; Sonnet correctness trade-off −4.5pp for token savings; contract compliance boundary separates frontier (100%) from local models (0-33%) on SEARCH/REPLACE format; harness-side patch application triples local model correctness; mapped to Codex CLI V4A apply_patch architecture, AGENTS.md line-anchored instruction encoding, tool_output_token_limit budgeting, named model profiles for file-size tiers, PostToolUse syntax validation hooks, Guardian auto-review v0.144.2 as quality gate
+   - SEO targets: "line-anchored feedback codex cli token cost", "codex cli apply patch V4A token efficiency", "structured code edit feedback LLM", "codex cli AGENTS.md edit instructions", "token cost correctness trade-off code editing", "harness-side patch application coding agent", "codex cli PostToolUse syntax validation"
+
+---
+
+
 ## Hallucinated Skill Recommendation — Plugin Marketplace Supply-Chain Defence, Codex CLI (2026-07-15 Hourly Article Run)
 
 1. ✅ **Skills That Don't Exist: What 15,000 Prompts Reveal About Hallucinated Skill Recommendation — and How to Defend Your Codex CLI Plugin Stack** — Written 2026-07-15 → `2026-07-15-skills-that-dont-exist-hallucinated-skill-recommendation-codex-cli-plugin-marketplace-supply-chain-defence.md`
