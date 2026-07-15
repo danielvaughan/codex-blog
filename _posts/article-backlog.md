@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Beyond Test Presence — Agent-Generated Test Quality and Robustness, Flakiness, Edge Coverage, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **Beyond Test Presence: What 204,000 Test Files Reveal About Agent-Generated Test Quality — and How to Harden Codex CLI's Testing Output** — Written 2026-07-16 → `2026-07-16-beyond-test-presence-agent-generated-test-quality-robustness-codex-cli-flakiness-edge-coverage-hermetic-testing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Jhanglani, Desai, Kansara, and AlOmar published arXiv:2607.12068 (July 15, 2026), large-scale study of 204,673 test files (24,941 human-authored, 179,732 agent-generated) from AIDev dataset; assertion strength 85.4% agent vs 88.1% human; unknown assertion rate 11.6% agent vs 1.5% human; edge-case Variety Score 0.62 agent vs 0.32 human; flakiness candidate rate 0.41 agent vs 0.30 human; non-determinism 5.2% vs 3.1%, file I/O 4.4% vs 3.5%; rigour-reliability paradox; mapped to Codex CLI AGENTS.md test conventions encoding, PostToolUse hooks for automated flakiness detection via 3x re-run, Stop hook assertion audit gate, sandbox_workspace_write hermetic enforcement, named profiles for test-gen model routing
+   - SEO targets: "agent-generated test quality codex cli", "flaky tests coding agent prevention", "codex cli PostToolUse test flakiness hook", "agent test edge-case coverage variety score", "codex cli AGENTS.md test conventions", "hermetic testing sandbox coding agent", "beyond test presence agent test robustness"
+
+---
+
+
 ## GuardFall Shell Injection Bypass — Kernel-Level Sandbox Defence, Codex CLI (2026-07-15 Hourly Article Run)
 
 1. ✅ **GuardFall and the Shell Injection Illusion: Why Text-Based Command Filters Fail Every Coding Agent — and How Codex CLI's Kernel-Level Sandbox Renders the Entire Attack Class Irrelevant** — Written 2026-07-15 → `2026-07-15-guardfall-shell-injection-bypass-open-source-coding-agents-codex-cli-kernel-sandbox-defence.md`
