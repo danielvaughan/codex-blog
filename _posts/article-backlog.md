@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## TerraRepair Tool-Grounded IaC Repair — Schema Lookup, Terraform, Checkov, Trivy, MCP, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **TerraRepair and Tool-Grounded IaC Repair: Why Schema Lookup Matters More Than Scanner Feedback — and How to Wire Terraform Repair Agents into Codex CLI** — Written 2026-07-15 → `2026-07-15-terrarepair-tool-grounded-llm-agent-infrastructure-as-code-repair-codex-cli-mcp-terraform-checkov-trivy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Mengistu, Di Rocco, Nguyen, and Di Ruscio published arXiv:2607.11390 (July 15, 2026), accepted at ESEM 2026; TerraRepair tool-grounded LLM agent for Terraform IaC repair; 713 findings across TerraGoat and KaiMonkey vulnerable-by-design repos; Checkov fix rate 78.4% vs 26.6% baseline (+51.8pp), Trivy 72.4% vs 44.8% (+27.6pp); three grounding tools (schema_lookup, graph_query, scanner_run); leave-one-out ablation: schema_lookup −21.7pp, graph_query −15.6pp, scanner_run −1.1pp; 25.4% escalation rate with 82.7% due to missing external context; gpt-4o-mini model; 78.9% semantic audit correctness; mapped to Codex CLI MCP server configuration for AWS Terraform and Security Scanner servers, PreToolUse hooks for terraform validate, PostToolUse hooks for Checkov re-verification, AGENTS.md Terraform repair protocol, writes approval mode for IaC repos, TerraShark skill for schema grounding
+   - SEO targets: "TerraRepair codex cli terraform repair", "tool-grounded IaC repair agent", "codex cli MCP terraform checkov", "schema lookup vs scanner verification agent", "codex cli PreToolUse terraform validate", "infrastructure as code LLM agent repair", "codex cli AGENTS.md terraform protocol"
+
+---
+
+
 ## CoACT Observation Compression — Token Cost, Context Management, Next-Action Preservation, Codex CLI (2026-07-15 Hourly Article Run)
 
 1. ✅ **CoACT and Observation Compression: Cutting Coding Agent Token Costs by a Third Without Losing Effectiveness — and What It Means for Codex CLI Context Management** — Written 2026-07-15 → `2026-07-15-coact-observation-compression-coding-agents-codex-cli-token-cost-context-management-next-action-preservation.md`
