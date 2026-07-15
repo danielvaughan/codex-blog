@@ -14,7 +14,7 @@ tags: ["codex-cli", "long-horizon", "terminal-bench", "goal-mode", "token-budget
 
 Most coding-agent benchmarks grade on a single bit: did the agent solve the task or not? That framing flatters short tasks and punishes long ones. A 90-minute debugging session that correctly identifies the root cause, writes a partial fix, and runs tests — but times out before the final commit — scores identically to an agent that crashes on line one.
 
-Long-Horizon-Terminal-Bench (LHTB), published by Li et al. on 13 July 2026[^1], replaces that binary with **dense subtask-based grading**, and the results rewrite the narrative on agent capability. The headline finding: across 17 frontier models and 46 tasks, 64.6 per cent of runs make real partial progress, yet only 4.3 per cent cross the 0.95 reward threshold[^1]. The gap between "making progress" and "finishing" is the completion cliff, and it is the dominant failure mode of every terminal agent tested.
+Long-Horizon-Terminal-Bench (LHTB), published by Li et al. on 13 July 2026[^1], replaces that binary with **dense subtask-based grading**, and the results rewrite the narrative on agent capability. The headline finding: across 15 frontier models and 46 tasks, 64.6 per cent of runs make real partial progress, yet only 4.3 per cent cross the 0.95 reward threshold[^1]. The gap between "making progress" and "finishing" is the completion cliff, and it is the dominant failure mode of every terminal agent tested.
 
 This article unpacks the benchmark, maps its failure modes to Codex CLI's configuration surface, and provides concrete `config.toml` patterns for surviving long-horizon tasks.
 
@@ -53,7 +53,7 @@ The critical design decision: tasks demand **hundreds of episodes and 30–90+ m
 | DeepSeek V4 Pro | 6.5% (3/46) | — | 14.45M | 321 | — |
 | MiniMax M3 | 6.5% (3/46) | — | 20.20M | 314 | — |
 | Qwen3.7 Max | 4.3% | — | 6.13M | 218 | — |
-| **Mean (all 17)** | **4.3%** | **1.7%** | **9.66M** | **228** | **$2.47–$27.57** |
+| **Mean (all 15)** | **4.3%** | **1.7%** | **9.66M** | **228** | **$2.47–$27.57** |
 
 *Source: Li et al., Table 2[^1]*
 

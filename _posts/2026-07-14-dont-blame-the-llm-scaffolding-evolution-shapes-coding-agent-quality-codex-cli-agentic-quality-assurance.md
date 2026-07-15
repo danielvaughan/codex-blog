@@ -180,7 +180,7 @@ Codex CLI's 12.4 releases per week places it second only to OpenCode in the stud
 
 This velocity is what enables rapid feature delivery — system proxy support, remote control GA, plugin enhancements, and Guardian policy improvements all shipped within weeks of each other in June–July 2026 [^3]. But it also means that the scaffolding you relied on last Tuesday may behave differently from the one you installed this morning.
 
-The companion taxonomy paper by the same research group identifies 12 architectural dimensions across three layers — control architecture, tool and environment interface, and resource management — that differ fundamentally across scaffoldings [^5]. Different scaffolding architectures differ in ways that affect cost, reliability, and failure modes, even when wrapping the same model.
+The companion taxonomy paper by the same research group identifies 12 architectural dimensions across three layers — control architecture, tool and environment interface, and resource management — that differ fundamentally across scaffoldings [^2]. Different scaffolding architectures differ in ways that affect cost, reliability, and failure modes, even when wrapping the same model.
 
 ## The Path Forward
 

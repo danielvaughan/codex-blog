@@ -174,4 +174,4 @@ The practical takeaway is not "always restrict tools" or "always use every tool.
 
 [^4]: OpenAI. (2026). "Developer Commands — Codex CLI." *ChatGPT Learn*. [https://developers.openai.com/codex/cli/reference](https://developers.openai.com/codex/cli/reference)
 
-[^5]: Ben Sghaier, M. et al. (2026). "Don't Blame the LLM: Scaffolding Evolution Shapes Coding Agent Quality." *arXiv:2607.03691*. [https://arxiv.org/abs/2607.03691](https://arxiv.org/abs/2607.03691)
+[^5]: Ben Sghaier, O. et al. (2026). "Don't Blame the LLM: Scaffolding Evolution Shapes Coding Agent Quality." *arXiv:2607.03691*. [https://arxiv.org/abs/2607.03691](https://arxiv.org/abs/2607.03691)
