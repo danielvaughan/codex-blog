@@ -10,6 +10,15 @@
 ---
 
 
+## CT-Repair Multi-Perspective Agentic Program Repair — CPG, TEG, Evidence-Guided Hooks, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **CT-Repair and Multi-Perspective Evidence: Why Throwing More Patches at Bugs Does Not Work — and How to Wire Evidence-Guided Repair into Codex CLI** — Written 2026-07-15 → `2026-07-15-ct-repair-multi-perspective-agentic-program-repair-codex-cli-cpg-teg-evidence-guided-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Huang, Xu, and Zhang published arXiv:2607.12605 (July 14, 2026), CT-Repair: three FSM-guided agents analyse bugs from static, dynamic, and hybrid perspectives using Code Property Graphs and Temporal Execution Graphs; 854 Java bugs from Defects4J v3.0; 489 bugs repaired (mixed model), 388 with GPT-5.4-mini; multi-perspective adds 99 bugs over best single perspective; 94.85% candidate method scope reduction; 55.97% runtime record reduction; outperforms RepairAgent by 30 bugs and ReinFix by 19; mapped to Codex CLI PreToolUse evidence-gathering hooks, PostToolUse patch validation, subagent delegation for multi-perspective analysis, AGENTS.md evidence-first repair protocol, rollout_budget tuning for repair context
+   - SEO targets: "CT-Repair codex cli multi-perspective repair", "code property graph temporal execution graph program repair", "codex cli evidence-guided bug fix", "multi-perspective agentic program repair", "codex cli PreToolUse repair hooks", "codex cli subagent bug repair delegation", "Defects4J v3.0 CT-Repair results"
+
+---
+
+
 ## Distributed Attacks in Persistent-State AI Control — Multi-PR Gradual Evasion, Codex CLI Defence (2026-07-15 Hourly Article Run)
 
 1. ✅ **Distributed Attacks in Persistent-State AI Control: Why Gradual Code Poisoning Evades Your Review Agent — and How to Harden Codex CLI Against Multi-PR Evasion** — Written 2026-07-15 → `2026-07-15-distributed-attacks-persistent-state-ai-control-iterative-vibecoding-codex-cli-multi-pr-gradual-evasion-defence.md`
