@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## CoACT Observation Compression — Token Cost, Context Management, Next-Action Preservation, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **CoACT and Observation Compression: Cutting Coding Agent Token Costs by a Third Without Losing Effectiveness — and What It Means for Codex CLI Context Management** — Written 2026-07-15 → `2026-07-15-coact-observation-compression-coding-agents-codex-cli-token-cost-context-management-next-action-preservation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen, Zhu, Zhang, and Li published arXiv:2607.02911 (July 3, 2026), CoACT: action-preserving observation compression for coding agents using next-action preservation (NAP); 33% average token reduction across three agentic models on SWE-bench Verified; Qwen3.5-35B-A3B 36% token reduction with +3.5pp pass@1 improvement; Gemini3-Flash 38% token reduction with +4.0pp pass@1 improvement; trained lightweight Qwen3.5-4B compressor with LoRA; outperforms LLMLingua-2, LongCodeZip, SWE-Pruner baselines; complementary with trajectory-level compression (AgentDiet) for 43% combined cost reduction; mapped to Codex CLI tool_output_token_limit, model_auto_compact_token_limit, rollout_budget, AGENTS.md observation discipline, PostToolUse hooks for observation filtering
+   - SEO targets: "CoACT observation compression codex cli", "coding agent token cost reduction", "next-action preservation observation compression", "codex cli tool_output_token_limit tuning", "observation compression SWE-bench coding agent", "codex cli context management token savings", "action-preserving compression coding agent"
+
+---
+
+
 ## AutoTrace Interprocedural Vulnerability Trigger Localization — Evidence-Gated MCP Security, Codex CLI (2026-07-15 Hourly Article Run)
 
 1. ✅ **AutoTrace and Evidence-Gated Trigger Localization: Why Finding the Vulnerability Is Not Enough — You Need the Causal Chain, and Codex CLI Can Walk It** — Written 2026-07-15 → `2026-07-15-autotrace-interprocedural-vulnerability-trigger-localization-codex-cli-evidence-gated-mcp-security.md`
