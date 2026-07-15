@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Complexity-Aware Execution and Cost Control — E3 Framework, ACRR, Reasoning Effort, Model Routing, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **Do AI Agents Know When a Task Is Simple? What E3's Complexity-Aware Execution Means for Codex CLI Cost Control** — Written 2026-07-15 → `2026-07-15-do-ai-agents-know-task-simple-complexity-aware-execution-e3-codex-cli-reasoning-effort-model-routing-cost.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yin and Feng published arXiv:2607.13034 (July 14, 2026), E3 (Estimate, Execute, Expand) framework for complexity-aware agent execution; Agent Cognitive Redundancy Ratio (ACRR) formalisation; MSE-Bench 121 tasks: 85% cost reduction and 91% token reduction vs maximum-context-first at 100% success; ACRR peaks at 22.1 on simplest tasks; ablation: removing Expand drops success to 85.1%, removing Estimate raises cost 20%; GPT-4o LLM-Case validation; mapped to Codex CLI named profiles for tiered model/reasoning-effort selection, rollout_token_budget as expansion ceiling, AGENTS.md scope constraints, enabled_tools/disabled_tools for mechanical scope restriction, codex doctor diagnostics for informal ACRR monitoring
+   - SEO targets: "complexity-aware coding agent execution codex cli", "E3 estimate execute expand coding agent", "codex cli reasoning effort cost optimisation", "agent cognitive redundancy ratio ACRR", "codex cli named profiles cost control", "minimum sufficient execution coding agent", "codex cli model routing task complexity"
+
+---
+
+
 ## Distributed Attacks in Persistent-State AI Control — Multi-PR Gradual Evasion, Codex CLI Defence (2026-07-15 Hourly Article Run)
 
 1. ✅ **Distributed Attacks in Persistent-State AI Control: Why Gradual Code Poisoning Evades Your Review Agent — and How to Harden Codex CLI Against Multi-PR Evasion** — Written 2026-07-15 → `2026-07-15-distributed-attacks-persistent-state-ai-control-iterative-vibecoding-codex-cli-multi-pr-gradual-evasion-defence.md`
