@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## GuardFall Shell Injection Bypass — Kernel-Level Sandbox Defence, Codex CLI (2026-07-15 Hourly Article Run)
+
+1. ✅ **GuardFall and the Shell Injection Illusion: Why Text-Based Command Filters Fail Every Coding Agent — and How Codex CLI's Kernel-Level Sandbox Renders the Entire Attack Class Irrelevant** — Written 2026-07-15 → `2026-07-15-guardfall-shell-injection-bypass-open-source-coding-agents-codex-cli-kernel-sandbox-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Adversa AI disclosed GuardFall (June 30, 2026), shell-interpretation bypass affecting 10 of 11 surveyed open-source coding agents (~548,000 combined GitHub stars); five bypass classes (quote removal, $IFS expansion, command substitution, base64 pipeline encoding, alternative destructive argv shapes); affected: Hermes, opencode, Goose, Cline, Roo-Code, Aider, Plandex, Open Interpreter, OpenHands, SWE-agent; Continue sole survivor via bash-aware tokenisation; fundamental canonicalisation gap between text-based filter inspection and bash shell expansion/execution; mapped to Codex CLI Landlock+seccomp-BPF (Linux) and Seatbelt sandbox-exec (macOS) kernel-level enforcement that operates on syscall arguments not command strings, three sandbox modes (read-only/workspace-write/danger-full-access), approval_policy graduated enforcement, Guardian auto-review subagent, PreToolUse hooks as supplementary validation, network_proxy domain allowlisting, defence-in-depth architecture
+   - SEO targets: "GuardFall shell injection codex cli", "coding agent shell bypass kernel sandbox", "codex cli Landlock Seatbelt sandbox defence", "text-based command filter bypass agent", "open-source coding agent shell injection", "codex cli kernel sandbox vs application filter", "GuardFall bypass classes defence"
+
+---
+
+
 ## TerraRepair Tool-Grounded IaC Repair — Schema Lookup, Terraform, Checkov, Trivy, MCP, Codex CLI (2026-07-15 Hourly Article Run)
 
 1. ✅ **TerraRepair and Tool-Grounded IaC Repair: Why Schema Lookup Matters More Than Scanner Feedback — and How to Wire Terraform Repair Agents into Codex CLI** — Written 2026-07-15 → `2026-07-15-terrarepair-tool-grounded-llm-agent-infrastructure-as-code-repair-codex-cli-mcp-terraform-checkov-trivy.md`
