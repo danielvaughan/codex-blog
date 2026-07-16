@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Version as Security Boundary — Fleet Governance, Backslash 12 Fixes, Version Floor, MDM, requirements.toml, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **Your Codex CLI Version Is a Security Boundary: What 12 Fixes in 7 Weeks Reveal About Agent Fleet Governance** — Written 2026-07-16 → `2026-07-16-codex-cli-version-as-security-boundary-fleet-governance-backslash-12-fixes-version-floor-mdm-requirements-toml.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Backslash Security (Eli Rapoport, June 23, 2026) published forensic analysis of 12 security-relevant fixes across 7 weeks of Codex CLI stable releases (v0.128.0–v0.141.0); five vulnerability classes (untrusted repo code execution via /diff git helpers, read-deny bypass through safe commands and escalation, local WebSocket origin exposure, long-lived credential leakage, PostToolUse hook enforcement failure); version-floor concept where pinned versions preserve old trust boundaries; mapped to Codex CLI requirements.toml fleet enforcement, MDM com.openai.codex preference domain distribution, codex update self-update command, CI/CD version gate scripts, cloud-managed policies via ChatGPT workspace admin, v0.144.5 dangerous-command detection, v0.145.0-alpha further hardening
+   - SEO targets: "codex cli version security boundary fleet", "codex cli security fixes backslash", "version floor agent governance codex cli", "codex cli requirements.toml fleet enforcement", "codex cli MDM managed configuration", "agent version governance enterprise", "codex cli PostToolUse hook enforcement fix"
+
+---
+
+
 ## Agentic Code Review Efficiency–Quality Paradox — Guardian Auto-Review, Collaboration Patterns, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **From Human-Centric to Agentic Code Review: What 1.02 Million Pull Requests Reveal About the Efficiency–Quality Paradox — and How to Configure Codex CLI's Guardian to Avoid the Traps** — Written 2026-07-16 → `2026-07-16-from-human-centric-to-agentic-code-review-efficiency-quality-paradox-codex-cli-guardian-auto-review-collaboration-patterns.md`
