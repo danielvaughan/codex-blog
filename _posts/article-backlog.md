@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## ProfMalPlus Agent-Coordinated Malicious NPM Detection — Supply Chain Defence, PreToolUse Hooks, Sandbox, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **ProfMalPlus and Agent-Coordinated Malicious Package Detection: What 597 Zero-Day NPM Threats Reveal About Supply Chain Defence — and How to Harden Codex CLI Workflows Against Dependency Poisoning** — Written 2026-07-16 → `2026-07-16-profmalplus-agent-coordinated-malicious-npm-detection-codex-cli-supply-chain-defence-pretooluse-sandbox-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Huang, Zhao, Chen, Wu, Zhou, Cao, Hu, Hu, and Peng published arXiv:2607.13965 (July 16, 2026), ProfMalPlus agent-coordinated malicious NPM package detection via object-sensitive behaviour graphs and static-dynamic analysis synergy; 98.1% F1-score outperforming five baselines by 3.5–52.6%; 16.5% false-positive rate (lowest among compared systems); 597 previously unknown malicious packages identified over three months, all confirmed and removed from npm; five coordinated agents (Local Behaviour Judge, Global Behaviour Judge, Router, Third-Party Enrichment, Localisation); 88.9% line-level F1-score for malicious code localisation; mapped to Codex CLI PreToolUse hooks for npm install interception, Landlock/Seatbelt kernel sandbox as containment layer, PostToolUse hooks for npm audit verification, network_proxy domain allowlisting, requirements.toml fleet-level dependency governance, AGENTS.md dependency policy encoding, Guardian auto-review for dependency diff review, approval_policy graduated escalation
+   - SEO targets: "ProfMalPlus malicious npm detection codex cli", "agent-coordinated supply chain defence coding agent", "codex cli PreToolUse npm install interception", "malicious package detection multi-agent", "codex cli sandbox supply chain defence", "npm supply chain attack defence coding agent", "codex cli dependency governance hooks"
+
+---
+
+
 ## Instruction Hierarchy Breaks in Reasoning Models — Self-Monitoring, PreToolUse Hooks, AGENTS.md Conflict Resolution, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **Where Instruction Hierarchy Breaks: What Reasoning Model Failures Mean for Codex CLI's Defence Stack** — Written 2026-07-16 → `2026-07-16-instruction-hierarchy-breaks-reasoning-models-codex-cli-self-monitoring-pretooluse-agents-md-conflict-resolution.md`
