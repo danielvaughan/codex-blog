@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Token-Flow Firewall — Semantic Runtime Auditing, Boundary-Aware Hooks, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **Token-Flow Firewall and Semantic Runtime Auditing: Why Pre-Execution Boundary Inspection Matters for Persistent Coding Agents — and How to Build It with Codex CLI Hooks** — Written 2026-07-16 → `2026-07-16-token-flow-firewall-semantic-runtime-auditing-persistent-agents-codex-cli-pretooluse-posttooluse-boundary-aware-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang, Zhang, Zhang, Guo, and Cheng published arXiv:2607.08395 (July 9, 2026), TokenWall runtime defence framework for persistent AI agents; three boundary types (context, authority, capability); three-layer inspection (deterministic precheck, local semantic auditor Qwen3-4B, fallback arbitration Qwen3.6-Plus); attack success rate 12.5% vs ClawKeeper 14.7%; benign pass rate 97.4% with 0.0% human intervention; 0.69s benign latency; CIK-Bench 88 attack cases; mapped to Codex CLI PreToolUse hooks for deterministic precheck and semantic auditing, PostToolUse for source-sink audit records, PermissionRequest for authority boundary, managed hooks via requirements.toml for enterprise deployment, escalation thresholds
+   - SEO targets: "token-flow firewall codex cli", "semantic runtime auditing coding agent", "codex cli PreToolUse boundary inspection", "persistent agent security token flow", "codex cli PostToolUse audit trail", "TokenWall semantic firewall hooks", "boundary-aware security codex cli hooks"
+
+---
+
+
 ## Beyond Test Presence — Agent-Generated Test Quality and Robustness, Flakiness, Edge Coverage, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **Beyond Test Presence: What 204,000 Test Files Reveal About Agent-Generated Test Quality — and How to Harden Codex CLI's Testing Output** — Written 2026-07-16 → `2026-07-16-beyond-test-presence-agent-generated-test-quality-robustness-codex-cli-flakiness-edge-coverage-hermetic-testing.md`
