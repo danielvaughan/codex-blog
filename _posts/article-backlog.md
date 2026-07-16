@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Agentic Code Review Efficiency–Quality Paradox — Guardian Auto-Review, Collaboration Patterns, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **From Human-Centric to Agentic Code Review: What 1.02 Million Pull Requests Reveal About the Efficiency–Quality Paradox — and How to Configure Codex CLI's Guardian to Avoid the Traps** — Written 2026-07-16 → `2026-07-16-from-human-centric-to-agentic-code-review-efficiency-quality-paradox-codex-cli-guardian-auto-review-collaboration-patterns.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhong, Noei, Adams, and Zou published arXiv:2607.13196 (July 14, 2026), large-scale study of 1.02 million reviewed PRs across 207 GitHub projects from May 2022 to February 2026; three adoption practices (gradual 46%, rapid LLM 22%, rapid agent 32%); rapid LLM adoption produced no efficiency gain and +8pp smell increase; gradual adoption −2.5 days/KLOC, rapid agent −4.5 days/KLOC; Review Buddies smell +26pp under rapid LLM; ten collaboration patterns identified; no pattern beats human-only on both efficiency and quality; 93.75% agentic validation (360/384 sampled PRs); mapped to Codex CLI Guardian auto-review policy, approval_policy graduated trust, AGENTS.md review protocol encoding, PostToolUse hooks for review smell detection, requirements.toml fleet-level guardian_policy_config, circuit-breaker escalation logic
+   - SEO targets: "agentic code review efficiency quality codex cli", "codex cli Guardian auto-review collaboration patterns", "review buddies smell coding agent", "codex cli approval policy graduated trust", "human-centric agentic code review 1 million PRs", "codex cli PostToolUse review smell detection", "code review paradox AI agent quality"
+
+---
+
+
 ## Agent Security Is a Systems Problem — Untrusted Model, Kernel Sandbox, Complete Mediation, TCB Architecture, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **Agent Security Is a Systems Problem: Why Treating the Model as Untrusted Changes Everything — and How Codex CLI Already Implements the Architecture** — Written 2026-07-16 → `2026-07-16-agent-security-systems-problem-untrusted-model-codex-cli-kernel-sandbox-complete-mediation-tcb-architecture.md`
