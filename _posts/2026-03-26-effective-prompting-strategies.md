@@ -2,7 +2,7 @@
 title: "Effective Prompting Strategies for Codex CLI"
 description: "Based on official OpenAI documentation, community discussion, and developer best practices. Published 2026-03-26."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-07-16T16:12:31+01:00
+last_modified_at: 2026-07-16T18:12:05+01:00
 tags:
   - workflow-patterns
   - prompting

@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Instruction Hierarchy Breaks in Reasoning Models — Self-Monitoring, PreToolUse Hooks, AGENTS.md Conflict Resolution, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **Where Instruction Hierarchy Breaks: What Reasoning Model Failures Mean for Codex CLI's Defence Stack** — Written 2026-07-16 → `2026-07-16-instruction-hierarchy-breaks-reasoning-models-codex-cli-self-monitoring-pretooluse-agents-md-conflict-resolution.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kariyappa and Suh published arXiv:2606.07808 (June 5, 2026), diagnostic framework decomposing instruction hierarchy non-compliance into three failure modes (identification, conflict resolution, response realisation); evaluated Gemma-4-31B-IT, Qwen3.6-35B-A3B, Claude Sonnet 4.6 on IHEval-Long and IHChallenge-Long benchmarks; context distance increases IH non-compliance; Parallel Input Monitor reduces non-compliance 81-99%; Sequential Output Monitor covers all three failure modes; AgentDojo attack success reduced from 3.69% to 0.00% with 89.99% utility preserved; mapped to Codex CLI AGENTS.md hierarchical discovery as identification mitigation, PreToolUse hooks as realisation failure backstop, approval_policy as conflict resolution enforcement, Guardian auto-review as SOM analogue, requirements.toml as runtime-enforced IH bypass immunity
+   - SEO targets: "instruction hierarchy breaks codex cli", "reasoning model instruction failure coding agent", "codex cli PreToolUse instruction hierarchy defence", "AGENTS.md conflict resolution priority", "codex cli self-monitoring prompt injection", "instruction identification failure coding agent", "codex cli Guardian sequential output monitor"
+
+---
+
+
 ## Compaction as Epistemic Failure — Fabricated Results from Killed Processes, Slipstream Validation, PostToolUse Exit-Code Hooks, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **Compaction as Epistemic Failure: How Coding Agents Fabricate Results from Killed Processes — and How to Defend Your Codex CLI Workflows** — Written 2026-07-16 → `2026-07-16-compaction-as-epistemic-failure-fabricated-results-killed-processes-codex-cli-auto-compact-posttooluse-verification.md`
