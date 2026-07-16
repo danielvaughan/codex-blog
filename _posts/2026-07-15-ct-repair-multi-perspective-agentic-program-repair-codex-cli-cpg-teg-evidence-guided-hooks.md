@@ -14,7 +14,7 @@ Most coding agents treat bug repair as a generation problem: read the failing te
 
 ## The Problem with Patch-Sampling Loops
 
-The prevailing approach to LLM-based automated program repair scales by sampling: generate N candidate patches, run the test suite against each, keep the first that passes. RepairAgent (ICSE 2025) introduced autonomous tool selection but still repaired 164 bugs on Defects4J v1.2/v2.0 with a fixed prompt-and-retry loop [^2]. ReinFix improved on this by retrieving historical bug-fix ingredients, reaching 241 bugs across both Defects4J versions [^3].
+The prevailing approach to LLM-based automated program repair scales by sampling: generate N candidate patches, run the test suite against each, keep the first that passes. RepairAgent (ICSE 2025) introduced autonomous tool selection, repairing 164 bugs on Defects4J v1.2/v2.0 with a fixed prompt-and-retry loop [^2]. On the larger Defects4J v3.0 benchmark (854 bugs), RepairAgent reaches approximately 358 bugs [^1]. ReinFix improved on this by retrieving historical bug-fix ingredients, reaching 241 bugs across both earlier Defects4J versions [^3].
 
 Both approaches share a structural limitation: raw execution traces are too large and repetitive to serve as effective model context, and repeated sampling produces redundant implementations without advancing root-cause analysis [^1]. CT-Repair's contribution is demonstrating that the bottleneck is not generation capacity but evidence quality.
 
@@ -62,11 +62,11 @@ Evaluated on 854 Java bugs from Defects4J v3.0 [^1]:
 
 | Configuration | Bugs Repaired | Delta vs RepairAgent |
 |---|---|---|
-| CT-Repair (mixed model) | 489 | +325 |
-| CT-Repair (GPT-5.4-mini only) | 388 | +224 |
+| CT-Repair (mixed model) | 489 | +131 |
+| CT-Repair (GPT-5.4-mini only) | 388 | +30 |
 | Best single perspective | 390 | — |
 | Multi-perspective (all three) | 489 | +99 vs best single |
-| RepairAgent | ~164 | baseline |
+| RepairAgent (on v3.0) | ~358 | baseline |
 | ReinFix | ~369 | — |
 
 The 99-bug gap between the best single perspective and the combined multi-perspective approach is the paper's core finding: static-only and dynamic-only analyses each miss fault classes that the other catches, and the hybrid perspective captures interaction faults invisible to either [^1].
