@@ -149,7 +149,7 @@ echo '{"decision":"approve"}'
 
 ### Sandbox Isolation for Hermetic Testing
 
-Codex CLI's `sandbox_workspace_write` mode blocks network access and restricts file system writes to the project directory [^4]. This is precisely the hermetic environment the paper argues agents need. Tests that rely on external network calls or write to system paths will fail immediately in the sandbox rather than producing a flaky test that passes locally and fails in CI [^4].
+Codex CLI's `workspace-write` sandbox mode blocks network access and restricts file system writes to the project directory [^4]. This is precisely the hermetic environment the paper argues agents need. Tests that rely on external network calls or write to system paths will fail immediately in the sandbox rather than producing a flaky test that passes locally and fails in CI [^4].
 
 ```toml
 # config.toml — enforce hermetic test execution
