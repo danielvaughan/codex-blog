@@ -2,7 +2,7 @@
 title: "Codex CLI Permission Profiles: Built-in Sandbox Modes, Custom Profiles, and the Two-Layer Security Model"
 description: "Codex CLI implements a two-layer security model: sandbox enforcement controls what the agent can technically do."
 date: 2026-05-08T00:00:00+00:00
-last_modified_at: 2026-07-16T20:11:03+01:00
+last_modified_at: 2026-07-16T22:09:50+01:00
 category: security
 tags: [codex-cli, permissions, sandbox, security, enterprise, configuration]
 source:

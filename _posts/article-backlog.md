@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Refactoring Runaway — Tangled Refactorings, RefUntangle, Scope Guard, PreToolUse/PostToolUse, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **Refactoring Runaway: What 3,691 Agent Patches Reveal About Tangled Refactorings — and How to Defend Your Codex CLI Workflows** — Written 2026-07-16 → `2026-07-16-refactoring-runaway-tangled-refactorings-coding-agents-codex-cli-refuntangle-scope-guard-pretooluse-posttooluse.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Tian, Zhang, Xiao, Wang, Kondo, Chen, and Kamei published arXiv:2605.22526 (May 21, 2026), empirical study of 3,691 agent patches across 12 LLMs and 3 agent frameworks (SWE-agent, Agentless, OpenHands) on Multi-SWE-bench; 21.43% agent tangled-refactoring ratio vs 36.72% human but 73 vs 46 distinct types; method-level refactorings reduce compilation odds by 58% (OR=0.42 p<0.001); removal-oriented refactorings beneficial (OR=4.56 p=0.002); RefUntangle two-stage pipeline improves compilability from 19.34% to 38.33%; mapped to Codex CLI AGENTS.md scope constraints, PreToolUse scope-guard hooks, PostToolUse diff-audit hooks, Guardian auto-review as RefUntangle analogue, requirements.toml fleet enforcement, named profiles for model routing by tangled-refactoring rate
+   - SEO targets: "refactoring runaway codex cli", "tangled refactorings coding agent", "codex cli PreToolUse scope guard", "RefUntangle agent patch refinement", "codex cli AGENTS.md scope constraints", "agent refactoring compilability reduction", "codex cli PostToolUse diff audit"
+
+---
+
+
 ## ProfMalPlus Agent-Coordinated Malicious NPM Detection — Supply Chain Defence, PreToolUse Hooks, Sandbox, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **ProfMalPlus and Agent-Coordinated Malicious Package Detection: What 597 Zero-Day NPM Threats Reveal About Supply Chain Defence — and How to Harden Codex CLI Workflows Against Dependency Poisoning** — Written 2026-07-16 → `2026-07-16-profmalplus-agent-coordinated-malicious-npm-detection-codex-cli-supply-chain-defence-pretooluse-sandbox-hooks.md`

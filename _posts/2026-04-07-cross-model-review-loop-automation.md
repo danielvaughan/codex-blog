@@ -2,7 +2,7 @@
 title: "Automating the Cross-Model Review Loop: Three Levels from SKILL.md to Multi-AI Pipeline"
 description: "The cross-model review pattern — where one AI writes code and a structurally different AI reviews it — has become a core quality practice in agentic."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-07-16T20:11:03+01:00
+last_modified_at: 2026-07-16T22:09:50+01:00
 tags:
   - workflow-patterns
   - code-review
