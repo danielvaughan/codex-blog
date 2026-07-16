@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Agent Security Is a Systems Problem — Untrusted Model, Kernel Sandbox, Complete Mediation, TCB Architecture, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **Agent Security Is a Systems Problem: Why Treating the Model as Untrusted Changes Everything — and How Codex CLI Already Implements the Architecture** — Written 2026-07-16 → `2026-07-16-agent-security-systems-problem-untrusted-model-codex-cli-kernel-sandbox-complete-mediation-tcb-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Christodorescu, Fernandes, Hooda, Jha, Rehberger, Chaudhuri et al. published arXiv:2605.18991 (May 2026), position paper from Google, UC San Diego, UW-Madison, Cornell, Meta FAIR, Gray Swan AI; five foundational systems security principles (least privilege, TCB tamper resistance, complete mediation, secure information flow, human weak link mitigation); eleven real-world agent attacks analysed; three open research challenges (instruction-data separation, verifiable policy generation, information-flow control with label explosion); mapped to Codex CLI Landlock+seccomp-BPF/Seatbelt kernel sandbox as least privilege, requirements.toml as immutable TCB, PreToolUse/PostToolUse hooks as reference monitor for complete mediation, network_proxy domain allowlist and tool_output_token_limit for partial information flow, writes approval mode and Guardian auto-review for human weak link mitigation, AGENTS.md as advisory vs hooks as enforcement distinction
+   - SEO targets: "agent security systems problem codex cli", "untrusted model kernel sandbox coding agent", "codex cli complete mediation reference monitor", "TCB tamper resistance coding agent", "codex cli PreToolUse security hooks", "information flow control coding agent", "agent security five principles codex cli"
+
+---
+
+
 ## Single-Human Oversight Bottleneck — Early Adoption of Agentic Coding Tools, GitHub PR Analysis, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **The Single-Human Oversight Bottleneck: What 25,000 Agentic Pull Requests Reveal About Adoption — and How Codex CLI Teams Can Break Through It** — Written 2026-07-16 → `2026-07-16-early-adoption-agentic-coding-tools-github-single-human-oversight-bottleneck-codex-cli-team-scaling.md`
