@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Single-Human Oversight Bottleneck — Early Adoption of Agentic Coding Tools, GitHub PR Analysis, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **The Single-Human Oversight Bottleneck: What 25,000 Agentic Pull Requests Reveal About Adoption — and How Codex CLI Teams Can Break Through It** — Written 2026-07-16 → `2026-07-16-early-adoption-agentic-coding-tools-github-single-human-oversight-bottleneck-codex-cli-team-scaling.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Raida and Hou published arXiv:2607.14037 (July 15, 2026), empirical study of 25,264 agentic PRs across 2,361 GitHub repositories; median repository generates 1-2 agentic PRs per quarter; 88.7% of agentic PRs overseen by single human; five collaboration models identified; 42.27% of projects with participation ratios below 5%; only 25 projects (1%) exceed 36-PR industry benchmark; small projects (1-5 contributors) average 50.2 agentic PRs; Kruskal-Wallis H=1,211.79 p<0.001 η²=0.6157; mapped to Codex CLI Guardian auto-review as first-pass reviewer, AGENTS.md review guidelines for distributed policy, writes approval mode v0.144.0 for graduated trust, OpenTelemetry review load visibility, sandbox constraints for independent reviewer confidence
+   - SEO targets: "agentic coding tool adoption github", "single human oversight coding agent", "codex cli Guardian auto-review team", "agentic PR collaboration patterns", "codex cli team review scaling", "coding agent adoption bottleneck", "codex cli AGENTS.md review policy"
+
+---
+
+
 ## Self-Improving Coding Agents — Accumulated Behavioural Rules, Closed-Loop Review-Driven Learning, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **Self-Improving Coding Agents Through Accumulated Behavioural Rules: What a Closed-Loop Framework Means for Your AGENTS.md** — Written 2026-07-16 → `2026-07-16-self-improving-coding-agents-accumulated-behavioral-rules-closed-loop-codex-cli-agents-md-review-driven-learning.md`
