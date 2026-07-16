@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Self-Improving Coding Agents — Accumulated Behavioural Rules, Closed-Loop Review-Driven Learning, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **Self-Improving Coding Agents Through Accumulated Behavioural Rules: What a Closed-Loop Framework Means for Your AGENTS.md** — Written 2026-07-16 → `2026-07-16-self-improving-coding-agents-accumulated-behavioral-rules-closed-loop-codex-cli-agents-md-review-driven-learning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Aggarwal and Ghalaty published arXiv:2607.13091 (July 13, 2026), closed-loop framework where human review comments become persistent behavioural rules; five-section instruction file (behavioural rules, code standards, self-review checklist, anti-patterns, workflow rules); deployed across 35+ microservices platform with 50,000+ LOC infrastructure; rule growth from 5 to 18 behavioural rules plus 15+ code standards over four weeks; 0% recurrence rate across 9 error classes with 74 post-rule exposures; knowledge sources: 39% human PR reviewers, 22% automated bots, 22% self-discovered, 17% production errors; specificity ratio improved 0.60→0.78; ~6,250 tokens context cost; mapped to Codex CLI AGENTS.md hierarchical file discovery, --print-instructions debugging, PostToolUse hooks for mechanical enforcement, Guardian auto-review v0.144.2, memories layer as graduation path, project_doc_max_bytes constraint, monotonic growth and origin tracking principles
+   - SEO targets: "self-improving coding agent accumulated rules codex cli", "AGENTS.md review-driven learning closed loop", "codex cli behavioural rules code review", "zero recurrence coding agent instruction file", "accumulated behavioral rules coding agent memory", "codex cli PostToolUse review enforcement", "self-review checklist AGENTS.md codex cli"
+
+---
+
+
 ## Inference Economics — Cloud vs On-Premise Enterprise Coding Agents, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **Inference Economics of Enterprise Coding Agents: Cloud vs On-Premise LLMs and What the Numbers Mean for Codex CLI Deployments** — Written 2026-07-16 → `2026-07-16-inference-economics-enterprise-coding-agents-cloud-on-premise-codex-cli-provider-profiles-cost-quality-tradeoff.md`
