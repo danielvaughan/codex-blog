@@ -161,13 +161,13 @@ showing test output. If tests fail, fix the issue before proceeding.
 
 Skills launch into implementation without requiring the agent to produce an intermediate plan [^2]. Codex CLI's plan mode (`suggest` approval policy) exists precisely for this [^3]:
 
-```markdown
+````markdown
 ## Workflow
 1. Before writing any code, produce a numbered plan in a ```markdown block
 2. Wait for user approval of the plan
 3. Implement each step, referencing the plan step number
 4. After completion, verify against the original plan
-```
+````
 
 ### Never Asks Human (77%)
 
