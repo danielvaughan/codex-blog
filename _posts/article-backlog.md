@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Inference Economics — Cloud vs On-Premise Enterprise Coding Agents, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **Inference Economics of Enterprise Coding Agents: Cloud vs On-Premise LLMs and What the Numbers Mean for Codex CLI Deployments** — Written 2026-07-16 → `2026-07-16-inference-economics-enterprise-coding-agents-cloud-on-premise-codex-cli-provider-profiles-cost-quality-tradeoff.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Peng, Lin, and Lee published arXiv:2607.13080 (July 13, 2026), industrial longitudinal case study comparing Claude Opus 4.7/4.8 (API) vs GLM-5.1/5.2 (on-premise NVFP4 on Blackwell); 99.3% prompt-cache hit rate reducing API to $0.57/1M tokens vs $2.83 amortised on-premise; Fix Commit Ratio 45.9% API vs 74.9% on-premise; defect odds 2.6–4.9× higher local; TCO −40.1% shared GPU but +43.8% dedicated; mapped to Codex CLI model_providers config, named profiles for task-based routing, rollout_budget per provider, AGENTS.md routing policy, wire_api responses requirement, command-based auth for enterprise
+   - SEO targets: "inference economics enterprise coding agents codex cli", "cloud vs on-premise coding agent cost", "codex cli model provider profiles", "prompt caching coding agent cost reduction", "fix commit ratio coding agent quality", "GLM-5.2 on-premise codex cli", "codex cli enterprise cost quality tradeoff"
+
+---
+
+
 ## Token-Flow Firewall — Semantic Runtime Auditing, Boundary-Aware Hooks, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **Token-Flow Firewall and Semantic Runtime Auditing: Why Pre-Execution Boundary Inspection Matters for Persistent Coding Agents — and How to Build It with Codex CLI Hooks** — Written 2026-07-16 → `2026-07-16-token-flow-firewall-semantic-runtime-auditing-persistent-agents-codex-cli-pretooluse-posttooluse-boundary-aware-hooks.md`
