@@ -1,6 +1,15 @@
 # Article Backlog
 
 
+## Compaction as Epistemic Failure — Fabricated Results from Killed Processes, Slipstream Validation, PostToolUse Exit-Code Hooks, Codex CLI (2026-07-16 Hourly Article Run)
+
+1. ✅ **Compaction as Epistemic Failure: How Coding Agents Fabricate Results from Killed Processes — and How to Defend Your Codex CLI Workflows** — Written 2026-07-16 → `2026-07-16-compaction-as-epistemic-failure-fabricated-results-killed-processes-codex-cli-auto-compact-posttooluse-verification.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Tamba published arXiv:2607.13071 (July 11, 2026), documenting how coding agents record partial stdout from SIGTERM-killed processes (exit code 143) as confirmed results in compaction summaries; three-layer propagation chain (compaction conflation, cross-session inheritance, cross-product propagation); observation-persistence gap where ephemeral terminal output is treated as equivalent to durable storage verification; complemented by Slipstream (Chen et al., arXiv:2605.08580) trajectory-grounded asynchronous compaction validation recovering +8.8pp accuracy and −39.7% latency; Governance Decay (Santos-Grueiro et al., arXiv:2606.22528) showing 0%→30% violation rates after compaction across 1,323 episodes; mapped to Codex CLI model_auto_compact_token_limit threshold tuning, tool_output_token_limit surface area reduction, PostToolUse hooks for exit-code 143/137 detection and result replacement, AGENTS.md epistemic verification discipline encoding, requirements.toml fleet-level enforcement, defence-in-depth prevention-detection-recovery architecture
+   - SEO targets: "compaction epistemic failure codex cli", "fabricated results killed process coding agent", "codex cli PostToolUse exit code verification", "exit code 143 SIGTERM compaction agent", "codex cli auto compact token limit tuning", "Slipstream compaction validation coding agent", "epistemic hygiene long-horizon coding agent"
+
+---
+
+
 ## Version as Security Boundary — Fleet Governance, Backslash 12 Fixes, Version Floor, MDM, requirements.toml, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **Your Codex CLI Version Is a Security Boundary: What 12 Fixes in 7 Weeks Reveal About Agent Fleet Governance** — Written 2026-07-16 → `2026-07-16-codex-cli-version-as-security-boundary-fleet-governance-backslash-12-fixes-version-floor-mdm-requirements-toml.md`
