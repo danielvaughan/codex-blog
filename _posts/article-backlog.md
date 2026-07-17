@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Project Config Files as Invisible Vendor Lock-In — AGENTS.md, CLAUDE.md, .cursorrules, Switching Costs, Codex CLI (2026-07-17 Hourly Article Run)
+
+1. ✅ **Project Config Files as Invisible Vendor Lock-In: AGENTS.md, CLAUDE.md, .cursorrules, and the Switching Costs Nobody Talks About** — Written 2026-07-17 → `2026-07-17-project-config-files-invisible-vendor-lock-in-agents-md-claude-md-cursorrules-codex-cli-switching-costs-portability.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Claude.md vs codex.md — How Project Configuration Files Create Invisible Vendor Lock-In" (High priority, added 2026-07-14); AGENTS.md adopted by 60,000+ repositories under AAIF governance since December 2025; Claude Code reads CLAUDE.md not AGENTS.md natively; rule taxonomy study (arXiv:2606.12231) found 23% of rules are tool-specific; Gloaguen et al. (arXiv:2601.20404) found developer-written instruction files reduce bugs by 35–55%; three layers of lock-in (format, semantic, institutional); bridge strategies including @AGENTS.md import, project_doc_fallback_filenames config, layered architecture; AAIF v1.0 roadmap; practical recommendations for Codex CLI users
+   - SEO targets: "AGENTS.md vs CLAUDE.md vendor lock-in", "codex cli switching costs project configuration", "AGENTS.md CLAUDE.md bridge strategy", "coding agent project config portability", "AGENTS.md v1.0 AAIF specification", "codex cli project_doc_fallback_filenames CLAUDE.md", "invisible vendor lock-in coding agents"
+
+---
+
 ## TraceLab Coding Agent Workload Characterisation — Prefix Cache, Compaction, Token Budgets, Codex CLI (2026-07-17 Hourly Article Run)
 
 1. ✅ **TraceLab and the Anatomy of a Coding Agent Workload: What 350,000 LLM Steps Reveal About Prefix Caching, Compaction, and Token Budgets — and How to Tune Your Codex CLI Accordingly** — Written 2026-07-17 → `2026-07-17-tracelab-coding-agent-workload-characterisation-codex-cli-prefix-cache-compaction-token-budget-serving.md`
