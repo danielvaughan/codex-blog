@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## TraceLab Coding Agent Workload Characterisation — Prefix Cache, Compaction, Token Budgets, Codex CLI (2026-07-17 Hourly Article Run)
+
+1. ✅ **TraceLab and the Anatomy of a Coding Agent Workload: What 350,000 LLM Steps Reveal About Prefix Caching, Compaction, and Token Budgets — and How to Tune Your Codex CLI Accordingly** — Written 2026-07-17 → `2026-07-17-tracelab-coding-agent-workload-characterisation-codex-cli-prefix-cache-compaction-token-budget-serving.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhu, Jacob, Ma, Pan, Wang, Krishnamurthy, and Kasikci published arXiv:2606.30560 (June 29, 2026), TraceLab: first public trace of 4,265 coding-agent sessions from 43 developers using Claude Code and Codex across 23 model versions over 9 months; 350,000 LLM steps, 432,510 tool calls; four workload characteristics (long autonomous loops, long context short output with 120K median prefix vs 220 median output, diverse heavily-tailed tool calls with top 3 accounting for 80%+, 95.7% prefix cache hit rate but only 84.4% on user-initiated steps); prefix tokens dominate cost at 59.5% despite 10x cache discount; 5.3x prefill amplification; compaction in 18.4% of Codex sessions vs 4.5% Claude Code; 92.3% of session time is human thinking; four serving optimisations proposed; complemented by Leyline arXiv:2606.01065 KV cache directives and SMetric arXiv:2607.08565 session-centric scheduling; mapped to Codex CLI model_auto_compact_token_limit tuning, model_auto_compact_token_limit_scope body_after_prefix, tool_output_token_limit capping, service_tier flex stacking with cache discount, named profiles for session-type routing, compaction avoidance strategies
+   - SEO targets: "TraceLab coding agent workload codex cli", "prefix cache hit rate coding agent", "codex cli compaction cost cache invalidation", "coding agent token budget optimisation", "codex cli model_auto_compact_token_limit tuning", "LLM serving coding agent workload", "prefix cache eviction human thinking time codex cli"
+
+---
+
 ## Destructive Command Defence in Depth — is_dangerous_command, cc-safety-net, dcg, PreToolUse Hooks, Codex CLI (2026-07-17 Hourly Article Run)
 
 1. ✅ **Destructive Command Defence in Depth: Codex CLI's Built-In Guards, cc-safety-net, and the PreToolUse Hook Ecosystem** — Written 2026-07-17 → `2026-07-17-destructive-command-defence-in-depth-codex-cli-is-dangerous-command-cc-safety-net-dcg-pretooluse-hooks.md`
