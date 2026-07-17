@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The AGENTS.md Maturity Curve — Configuration Evolution, Lean Instructions, Rule Accumulation, Codex CLI (2026-07-17 Hourly Article Run)
+
+1. ✅ **The AGENTS.md Maturity Curve: How Project Configuration Files Evolve from Wish Lists to Battle-Tested Context** — Written 2026-07-17 → `2026-07-17-agents-md-maturity-curve-codex-cli-configuration-evolution-lean-instructions-rule-accumulation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The agents.md Maturity Curve" (High priority, added 2026-07-16); Gloaguen et al. (arXiv:2601.20404) found AGENTS.md reduces runtime 28.64% and output tokens 16.58% when human-written and lean; LLM-generated files reduce success in 5/8 settings and inflate costs 20–23%; research across 2,500+ repos found 150-line diminishing returns threshold; four-stage maturity model (wish list → reactive patches → pruned & modular → institutional memory); Codex CLI v0.144.5 project_doc_max_bytes 32 KiB default; AGENTS.override.md mechanism; directory-scoped splitting for monorepos; accumulation trap feedback loop; practical audit via --print-instructions
+   - SEO targets: "AGENTS.md maturity curve codex cli", "agents.md best practices 2026", "agents.md rule accumulation anti-pattern", "codex cli agents.md configuration evolution", "agents.md diminishing returns 150 lines", "lean agents.md institutional memory", "agents.md pruning audit codex cli"
+
+---
+
 ## Project Config Files as Invisible Vendor Lock-In — AGENTS.md, CLAUDE.md, .cursorrules, Switching Costs, Codex CLI (2026-07-17 Hourly Article Run)
 
 1. ✅ **Project Config Files as Invisible Vendor Lock-In: AGENTS.md, CLAUDE.md, .cursorrules, and the Switching Costs Nobody Talks About** — Written 2026-07-17 → `2026-07-17-project-config-files-invisible-vendor-lock-in-agents-md-claude-md-cursorrules-codex-cli-switching-costs-portability.md`
