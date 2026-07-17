@@ -1,7 +1,7 @@
 ---
 title: "Agent Security Is a Systems Problem: Why Treating the Model as Untrusted Changes Everything — and How Codex CLI Already Implements the Architecture"
 parent: "Articles"
-nav_order: 1575
+nav_order: 1584
 tags: ["codex-cli", "security", "sandbox", "agent-architecture", "systems-security", "prompt-injection", "trust-boundary", "Landlock", "Seatbelt", "seccomp"]
 ---
 
