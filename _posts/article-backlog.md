@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The 8 Million User Surge — Growth, Rate Limits, Context Window Cuts, CLI Developer Strategies (2026-07-17 Hourly Article Run)
+
+1. ✅ **The 8 Million User Surge: What Codex's Explosive Growth Means for Your CLI Workflows** — Written 2026-07-17 → `2026-07-17-codex-8-million-user-surge-growth-rate-limits-context-window-cuts-cli-developer-strategies.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex and ChatGPT Work reached 8 million active users by 14 July 2026, up from 1 million in February (7x growth in 5 months); final 2 million arrived in 3 days after GPT-5.6 GA on 9 July; three simultaneous launches (GPT-5.6 default, Codex merged into ChatGPT desktop, ChatGPT Work); context window reduced from 353K to 258K effective tokens (Issue #32806) despite 1.05M advertised; four rate limit interventions in launch week; 5-hour limit suspended temporarily; Sam Altman warned of "inference scaling hiccups"; Anthropic responded with 50% Claude Code limit bump; mapped to Codex CLI config.toml cache optimisation, model_auto_compact_token_limit tuning, named profiles for load-aware routing, service_tier flex cost stacking, codex exec off-peak scheduling, JSONL token consumption monitoring
+   - SEO targets: "codex 8 million users growth", "codex rate limit surge GPT-5.6", "codex context window reduced 258K", "codex cli rate limit optimisation 2026", "codex cli cache hit rate surge", "GPT-5.6 sol codex infrastructure scaling", "codex cli named profiles load routing"
+
+---
+
 ## After the Merger — Codex-to-ChatGPT Desktop Unification, CLI Migration, codex app Detection Bug, Workarounds (2026-07-17 Hourly Article Run)
 
 1. ✅ **After the Merger: Navigating the Codex-to-ChatGPT Desktop Unification from the CLI** — Written 2026-07-17 → `2026-07-17-codex-chatgpt-unified-desktop-app-cli-migration-codex-app-detection-workarounds.md`
