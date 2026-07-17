@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Destructive Command Defence in Depth — is_dangerous_command, cc-safety-net, dcg, PreToolUse Hooks, Codex CLI (2026-07-17 Hourly Article Run)
+
+1. ✅ **Destructive Command Defence in Depth: Codex CLI's Built-In Guards, cc-safety-net, and the PreToolUse Hook Ecosystem** — Written 2026-07-17 → `2026-07-17-destructive-command-defence-in-depth-codex-cli-is-dangerous-command-cc-safety-net-dcg-pretooluse-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.144.5 (16 July 2026) expanded is_dangerous_command for additional forced rm forms with clearer rejection reasons; cc-safety-net (kenryu42) reached seven supported agent CLIs with semantic command parsing, recursive interpreter analysis to 10 levels, fail-closed strict mode, JSONL audit logging with secret redaction; Destructive Command Guard (dcg, Dicklesworthstone) provides Rust/SIMD-accelerated regex with 50 modular detection packs covering filesystem, git, databases, cloud, Kubernetes, CI/CD, heredoc scanning; codex-protect (vanzan01) provides minimal Codex-specific two-layer guard blocking publishing actions; mapped to three-layer defence-in-depth model (kernel sandbox + PreToolUse hooks + built-in guards), fail-open vs fail-closed architectural decision, requirements.toml fleet enforcement, fleet audit log aggregation
+   - SEO targets: "codex cli destructive command defence", "cc-safety-net codex cli PreToolUse hook", "dcg destructive command guard coding agent", "codex cli is_dangerous_command v0.144.5", "PreToolUse hook ecosystem coding agents", "codex cli defence in depth sandbox hooks", "fail-closed fail-open PreToolUse hook"
+
+---
+
 ## Phantom Guardrails — Fabricated Safety Rules, Warrant-Aware Acceptance, AGENTS.md Hygiene, Codex CLI (2026-07-17 Hourly Article Run)
 
 1. ✅ **Phantom Guardrails: When Self-Improving Agents Fabricate Safety Rules — and How to Defend Your Codex CLI Instruction Stack** — Written 2026-07-17 → `2026-07-17-phantom-guardrails-fabricated-safety-rules-self-improving-agents-codex-cli-warrant-aware-acceptance-agents-md-hygiene.md`
