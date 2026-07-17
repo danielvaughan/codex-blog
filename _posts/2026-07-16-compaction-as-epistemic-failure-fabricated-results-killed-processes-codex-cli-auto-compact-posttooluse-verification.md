@@ -67,7 +67,7 @@ Slipstream's solution — running compaction asynchronously in parallel with con
 
 ### Governance Decay Compounds the Risk
 
-Santos-Grueiro et al.'s ConstraintRot benchmark shows that compaction does not just lose operational facts — it also silently erases safety constraints. Across 1,323 episodes and seven model families, violation rates rose from 0% with the policy in full context to 30% after compaction, reaching 59% for some models [^3]. Their Constraint Pinning defence — re-injecting ~47 pinned tokens (less than 0.5% of context) — restores violation to 0% [^3].
+Chen's ConstraintRot benchmark shows that compaction does not just lose operational facts — it also silently erases safety constraints. Across 1,323 episodes and seven model families, violation rates rose from 0% with the policy in full context to 30% after compaction, reaching 59% for some models [^3]. Their Constraint Pinning defence — re-injecting ~47 pinned tokens (less than 0.5% of context) — restores violation to 0% [^3].
 
 The implication for epistemic failure is clear: if compaction can erase "do not delete production databases," it can certainly erase "this process was killed before completion."
 
@@ -227,7 +227,7 @@ The compaction mechanism is not broken. It is doing exactly what it was designed
 
 [^2]: Chen, Z., Pan, R., Dai, Y., & Netravali, R. (2026). "Slipstream: Trajectory-Grounded Compaction Validation for Long-Horizon Agents." arXiv:2605.08580. [https://arxiv.org/abs/2605.08580](https://arxiv.org/abs/2605.08580)
 
-[^3]: Santos-Grueiro, I. et al. (2026). "Governance Decay: How Context Compaction Silently Erases Safety Constraints in Long-Horizon LLM Agents." arXiv:2606.22528. [https://arxiv.org/abs/2606.22528](https://arxiv.org/abs/2606.22528)
+[^3]: Chen, S. (2026). "Governance Decay: How Context Compaction Silently Erases Safety Constraints in Long-Horizon LLM Agents." arXiv:2606.22528. [https://arxiv.org/abs/2606.22528](https://arxiv.org/abs/2606.22528)
 
 [^4]: OpenAI. (2026). "Codex CLI Configuration Reference — model_auto_compact_token_limit." [https://developers.openai.com/codex/cli/reference](https://developers.openai.com/codex/cli/reference)
 

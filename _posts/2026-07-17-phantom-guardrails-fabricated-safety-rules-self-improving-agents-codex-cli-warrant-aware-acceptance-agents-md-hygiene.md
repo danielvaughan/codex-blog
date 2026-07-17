@@ -234,7 +234,7 @@ Rules that cannot be traced to an actual violation are phantom candidates. They 
 
 ## Connection to Governance Decay
 
-The phantom guardrails finding complements Santos-Grueiro et al.'s work on governance decay [^6], which demonstrated 0% to 30% violation rates after context compaction across 1,323 episodes. While governance decay erodes existing rules, phantom guardrails *add* unwarranted ones. Both phenomena distort the instruction stack — one by subtraction, the other by addition. A robust Codex CLI governance strategy must defend against both directions.
+The phantom guardrails finding complements Chen's work on governance decay [^6], which demonstrated 0% to 30% violation rates after context compaction across 1,323 episodes. While governance decay erodes existing rules, phantom guardrails *add* unwarranted ones. Both phenomena distort the instruction stack — one by subtraction, the other by addition. A robust Codex CLI governance strategy must defend against both directions.
 
 ## Key Takeaways
 
@@ -254,7 +254,7 @@ The phantom guardrails paper is a reminder that the direction of instruction-sta
 
 ## Citations
 
-[^1]: Wang, S., Qian, P., Lin, Y., Xu, J., Chen, Y., Jiang, X., Liu, L., & Yu, H. (2026). "Phantom Guardrails: Invented Failures in Self-Improving Agent Harnesses." arXiv:2607.13083. [https://arxiv.org/abs/2607.13083](https://arxiv.org/abs/2607.13083)
+[^1]: Wang, S., Qian, P., Lin, Y., Xu, J., Chen, Y., Jiang, X., Liu, L., & Yu, H. (2026). "Phantom Guardrails: When Self-Improving Agent Harnesses Fix Failures That Never Happened." arXiv:2607.13083. [https://arxiv.org/abs/2607.13083](https://arxiv.org/abs/2607.13083)
 
 [^2]: Cui, J., et al. (2024). "OR-Bench: An Over-Refusal Benchmark for Large Language Models." arXiv:2405.20947. [https://arxiv.org/abs/2405.20947](https://arxiv.org/abs/2405.20947)
 
@@ -264,4 +264,4 @@ The phantom guardrails paper is a reminder that the direction of instruction-sta
 
 [^5]: OpenAI. (2026). "Codex CLI Configuration Reference." [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
 
-[^6]: Santos-Grueiro, F., et al. (2026). "Governance Decay in Long-Horizon Agent Workflows." arXiv:2606.22528. [https://arxiv.org/abs/2606.22528](https://arxiv.org/abs/2606.22528)
+[^6]: Chen, S. (2026). "Governance Decay: How Context Compaction Silently Erases Safety Constraints in Long-Horizon LLM Agents." arXiv:2606.22528. [https://arxiv.org/abs/2606.22528](https://arxiv.org/abs/2606.22528)
