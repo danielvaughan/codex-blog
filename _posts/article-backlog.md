@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Agent Hacks Agent — Automated Red-Teaming, Vulnerability Concept Graph, Codex CLI PreToolUse Defence (2026-07-18 Hourly Article Run)
+
+1. ✅ **Agent Hacks Agent: What Automated Red-Teaming and the Vulnerability Concept Graph Mean for Your Codex CLI Defence Posture** — Written 2026-07-18 → `2026-07-18-agent-hacks-agent-automated-red-teaming-vulnerability-concept-graph-codex-cli-pretooluse-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Mao, Zheng, and Wang published arXiv:2607.11698 (July 13, 2026), AHA framework for automated red-teaming of production coding agents; Vulnerability Concept Graph (VCG) stores reusable vulnerability knowledge as mechanism-level concepts; tested against Claude Code and Codex across three scenarios (AgentHazard, AgentDyn, DTap); frozen VCG outperforms strongest baseline by 14.2pp; eight vulnerability families including Claimed Authorisation (16/18 settings); 88% cross-model transfer; mapped to Codex CLI sandbox as blast-radius containment, PreToolUse hooks targeting enabling conditions, Guardian auto-review as Reflector analogue, requirements.toml fleet enforcement, defence-in-depth composition
+   - SEO targets: "agent hacks agent codex cli", "automated red teaming coding agent", "vulnerability concept graph codex cli", "codex cli PreToolUse security hooks", "claimed authorisation prompt injection", "AHA red teaming framework", "codex cli defence in depth red team"
+
+---
+
 ## The 8 Million User Surge — Growth, Rate Limits, Context Window Cuts, CLI Developer Strategies (2026-07-17 Hourly Article Run)
 
 1. ✅ **The 8 Million User Surge: What Codex's Explosive Growth Means for Your CLI Workflows** — Written 2026-07-17 → `2026-07-17-codex-8-million-user-surge-growth-rate-limits-context-window-cuts-cli-developer-strategies.md`
