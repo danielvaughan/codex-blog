@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## SWE-MeM Adaptive Memory Management — Learned Compaction, GRPO, Codex CLI (2026-07-17 Hourly Article Run)
+
+1. ✅ **SWE-MeM and the Case for Learned Compaction: What Adaptive Memory Management Means for Codex CLI Sessions** — Written 2026-07-17 → `2026-07-17-swe-mem-adaptive-memory-management-coding-agents-codex-cli-compaction-learned-compression-grpo.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Gao et al. published arXiv:2606.28434 (June 30, 2026), SWE-MeM training framework for proactive and on-demand memory management in coding agents; 60.2% resolve rate on SWE-Bench Verified with 30B model at 94.7% token usage vs baseline; Memory-aware GRPO with trajectory splitting and step-level credit masks; selective span compression outperforms threshold-based methods which inflate token usage to 203.9%; complemented by Self-GC arXiv:2607.00692 (43.95% prefix pruning, 91-95% no-impact rate) and Proprioceptive Dashboard arXiv:2606.30005; mapped to Codex CLI model_auto_compact_token_limit tuning, model_auto_compact_token_limit_scope body_after_prefix, tool_output_token_limit capping, named profiles for session-type routing, service_tier flex cache discount stacking
+   - SEO targets: "SWE-MeM adaptive memory codex cli", "codex cli compaction learned compression", "adaptive memory management coding agents", "codex cli model_auto_compact_token_limit tuning", "SWE-MeM GRPO memory management", "coding agent context compaction cost", "selective span compression codex cli"
+
+---
+
 ## The AGENTS.md Maturity Curve — Configuration Evolution, Lean Instructions, Rule Accumulation, Codex CLI (2026-07-17 Hourly Article Run)
 
 1. ✅ **The AGENTS.md Maturity Curve: How Project Configuration Files Evolve from Wish Lists to Battle-Tested Context** — Written 2026-07-17 → `2026-07-17-agents-md-maturity-curve-codex-cli-configuration-evolution-lean-instructions-rule-accumulation.md`
