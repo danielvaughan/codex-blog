@@ -190,10 +190,6 @@ Related work reinforces this trajectory: *Leyline* (arXiv:2606.01065, June 2026)
 
 [^2]: Ma, B., Eitzinger, J., & Köstler, H. (2026). *Leyline: KV Cache Directives for Agentic Inference*. arXiv:2606.01065. [https://arxiv.org/abs/2606.01065](https://arxiv.org/abs/2606.01065)
 
-[^3]: arXiv:2607.08565. (2026). *SMetric: Rethink LLM Scheduling for Serving Agents with Balanced Session-centric Scheduling*. [https://arxiv.org/abs/2607.08565](https://arxiv.org/abs/2607.08565)
+[^3]: Li, Y. et al. (2026). *SMetric: Rethink LLM Scheduling for Serving Agents with Balanced Session-centric Scheduling*. arXiv:2607.08565. [https://arxiv.org/abs/2607.08565](https://arxiv.org/abs/2607.08565)
 
 [^4]: OpenAI. (2026). *Prompt Caching in Codex CLI*. OpenAI Developer Documentation. [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced)
-
-[^5]: OpenAI. (2026). *Configuration Reference — Codex CLI*. OpenAI Developer Documentation. [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
-
-[^6]: OpenAI. (2026). *Codex CLI Changelog*. [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
