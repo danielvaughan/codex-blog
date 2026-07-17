@@ -1,6 +1,23 @@
 # Article Backlog
 
 
+## Phantom Guardrails — Fabricated Safety Rules, Warrant-Aware Acceptance, AGENTS.md Hygiene, Codex CLI (2026-07-17 Hourly Article Run)
+
+1. ✅ **Phantom Guardrails: When Self-Improving Agents Fabricate Safety Rules — and How to Defend Your Codex CLI Instruction Stack** — Written 2026-07-17 → `2026-07-17-phantom-guardrails-fabricated-safety-rules-self-improving-agents-codex-cli-warrant-aware-acceptance-agents-md-hygiene.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang, Qian, Lin, Xu, Chen, Jiang, Liu, and Yu published arXiv:2607.13083 (July 13, 2026), demonstrating that LLM-based harness optimisers fabricate guardrails for non-existent failures at 25% rate (15/60) when three conditions co-occur: genre-shaped patterns, unstated rule completeness, and failure-presupposing instructions; Counterfactual Fabrication Lab with byte-exact oracle; fabrication invisible to suppression-only metrics; three independent fixes each reduce to 0/60; mapped to Codex CLI AGENTS.md rule accumulation hygiene, Guardian auto-review phantom detection, PostToolUse warrant-aware acceptance hooks, requirements.toml fleet-level instruction governance, mixed-model validation workflows, governance decay complementarity
+   - SEO targets: "phantom guardrails codex cli", "self-improving agent fabricated rules", "codex cli AGENTS.md rule accumulation", "warrant-aware acceptance coding agent", "codex cli instruction hygiene", "phantom guardrails self-improving harness", "codex cli PostToolUse warrant check"
+
+---
+
+## GPT-5.6 on Amazon Bedrock — Multi-Cloud Provider Configuration, Enterprise Reasoning, Codex CLI (2026-07-17 Hourly Article Run)
+
+1. ✅ **GPT-5.6 on Amazon Bedrock: Configuring Codex CLI for Multi-Cloud Model Access with Sol, Terra, and Luna** — Written 2026-07-17 → `2026-07-17-gpt-5-6-sol-terra-luna-amazon-bedrock-codex-cli-multi-cloud-provider-configuration-enterprise-reasoning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — AWS announced GPT-5.6 Sol, Terra, and Luna GA on Amazon Bedrock (13 July 2026) via bedrock-mantle endpoint; 272K context window vs 1.5M OpenAI-direct; 90% prompt-cache discount; IAM-native authentication; Sol introduces 7-level reasoning effort with max; Standard tier only at GA; Responses API only; mapped to Codex CLI config.toml model_providers configuration, named profiles for multi-provider routing, requirements.toml fleet enforcement for Bedrock-only access, AGENTS.md model routing policy encoding, project_doc_max_bytes context management
+   - SEO targets: "GPT-5.6 Amazon Bedrock codex cli", "codex cli multi-cloud model provider configuration", "bedrock mantle GPT-5.6 sol terra luna", "codex cli amazon bedrock enterprise", "GPT-5.6 reasoning effort max bedrock", "codex cli profile multi-provider routing", "bedrock prompt caching codex cli enterprise"
+
+---
+
+
 ## Refactoring Runaway — Tangled Refactorings, RefUntangle, Scope Guard, PreToolUse/PostToolUse, Codex CLI (2026-07-16 Hourly Article Run)
 
 1. ✅ **Refactoring Runaway: What 3,691 Agent Patches Reveal About Tangled Refactorings — and How to Defend Your Codex CLI Workflows** — Written 2026-07-16 → `2026-07-16-refactoring-runaway-tangled-refactorings-coding-agents-codex-cli-refuntangle-scope-guard-pretooluse-posttooluse.md`
