@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## DigitalOcean Cloud Workspace Plugin — Codex Remote, Droplet Provisioning, Codex CLI (2026-07-17 Hourly Article Run)
+
+1. ✅ **From Prompt to Droplet: Using the DigitalOcean Plugin to Provision Cloud Workspaces for Codex Remote** — Written 2026-07-17 → `2026-07-17-codex-cli-digitalocean-cloud-workspace-plugin-remote-droplet-provisioning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — DigitalOcean CodexPlugin (github.com/digitalocean/CodexPlugin) provisions Droplets from Codex Universal marketplace image (ID 233103029, Ubuntu 24.04 LTS) as remote SSH workspaces; Codex Remote reached GA 25 June 2026 with QR-authenticated pairing; plugin uses OAuth (no API tokens), ed25519 keygen, SSH config rendering, cloud-init polling; Codex Universal ships Python 3.12, Node 20, Rust 1.87, Go 1.23, Docker, plus Ruby/PHP/Java/Swift/Bun/Bazelisk/Erlang/Elixir; CODEX_ENV_* runtime version overrides; per-second billing from Jan 2026; manual host registration required (no programmatic endpoint); mapped to overnight migration, CI debugging sandbox, and multi-cloud agent patterns
+   - SEO targets: "codex cli digitalocean plugin cloud workspace", "codex remote digitalocean droplet provisioning", "codex universal image marketplace", "codex cli remote cloud development environment", "digitalocean codex plugin setup guide", "codex remote QR pairing cloud workspace", "codex cli disposable dev environment droplet"
+
+---
+
 ## SWE-MeM Adaptive Memory Management — Learned Compaction, GRPO, Codex CLI (2026-07-17 Hourly Article Run)
 
 1. ✅ **SWE-MeM and the Case for Learned Compaction: What Adaptive Memory Management Means for Codex CLI Sessions** — Written 2026-07-17 → `2026-07-17-swe-mem-adaptive-memory-management-coding-agents-codex-cli-compaction-learned-compression-grpo.md`
