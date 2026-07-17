@@ -2,7 +2,7 @@
 title: "Claude Code's query-engine.ts vs Codex CLI's codex-rs: Comparing Agent Loop Architectures"
 description: "Every agentic coding tool reduces to the same fundamental pattern: send a prompt, stream a response, execute tool calls, feed results back, repeat."
 date: 2026-04-09T15:00:00+00:00
-last_modified_at: 2026-07-17T18:18:06+01:00
+last_modified_at: 2026-07-17T20:08:02+01:00
 tags:
   - architecture
   - agent-loop

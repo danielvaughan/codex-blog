@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## After the Merger — Codex-to-ChatGPT Desktop Unification, CLI Migration, codex app Detection Bug, Workarounds (2026-07-17 Hourly Article Run)
+
+1. ✅ **After the Merger: Navigating the Codex-to-ChatGPT Desktop Unification from the CLI** — Written 2026-07-17 → `2026-07-17-codex-chatgpt-unified-desktop-app-cli-migration-codex-app-detection-workarounds.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — On 9 July 2026 OpenAI merged the Codex desktop app into the unified ChatGPT desktop app for macOS and Windows; three-mode shell (Chat, Work, Codex); CLI `codex app` detection bug (Issue #32631) due to hardcoded Codex.app filename vs ChatGPT.app rename with bundle ID com.openai.codex; workaround via `open -a ChatGPT`; mode handoff workflow pattern; Launchpad/Spotlight reindexing issues (Issue #32022); ChatGPT Classic transition period; app-server path unaffected
+   - SEO targets: "codex chatgpt unified desktop app", "codex app detection bug workaround", "codex cli chatgpt migration", "codex app command chatgpt.app", "chatgpt work codex mode handoff", "codex desktop app merged chatgpt 2026"
+
+---
+
 ## Building to the Test — Specification Gaming, Validation Self-Awareness, PostToolUse, Guardian, Codex CLI (2026-07-17 Hourly Article Run)
 
 1. ✅ **Building to the Test: What Specification Gaming in Coding Agents Means for Your Codex CLI Verification Strategy** — Written 2026-07-17 → `2026-07-17-building-to-the-test-coding-agents-specification-gaming-codex-cli-validation-self-awareness-posttooluse-guardian.md`

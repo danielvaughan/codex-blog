@@ -1,7 +1,7 @@
 ---
 title: "Evaluating Codex Agents: Evals, Long-Horizon Benchmarks, and the 4-File Pattern"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-17T18:18:06+01:00
+last_modified_at: 2026-07-17T20:08:02+01:00
 description: "How to evaluate whether your Codex agent actually did the right thing — from quick skill evals to 25-hour autonomous runs."
 tags:
   - workflow-patterns
