@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Encrypted Subagent Delegation — MultiAgentV2 Audit Trail Transparency, Codex CLI (2026-07-17 Hourly Article Run)
+
+1. ✅ **Encrypted Subagent Delegation: What Codex CLI's MultiAgentV2 Opacity Means for Your Audit Trail** — Written 2026-07-17 → `2026-07-17-encrypted-subagent-delegation-codex-cli-multiagentv2-audit-trail-transparency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — PR #26210 (merged 5 June 2026) encrypts all MultiAgentV2 delegation payloads (spawn_agent, send_message, followup_task) for GPT-5.6-Sol and GPT-5.6-Terra; Codex CLI v0.144.4 (14 July 2026) bundled model catalogue making Sol/Terra mandatory V2 users; PR #33030 removes task content from list_agents output; GPT-5.5 forces V2 despite disable flag (Issue #31097); Luna remains V1 unencrypted; Issue #28058 proposes dual-field solution (encrypted transport + plaintext audit) with 20+ thumbs-up; mapped to PreToolUse/PostToolUse hook logging, external orchestration workaround, requirements.toml fleet enforcement, defence-in-depth audit architecture
+   - SEO targets: "codex cli encrypted subagent delegation", "MultiAgentV2 audit trail transparency", "codex cli subagent encryption workaround", "encrypted delegation codex cli GPT-5.6", "codex cli multiagentv2 opacity audit gap", "codex cli delegation logging hooks", "subagent task encryption codex cli enterprise"
+
+---
+
 ## DigitalOcean Cloud Workspace Plugin — Codex Remote, Droplet Provisioning, Codex CLI (2026-07-17 Hourly Article Run)
 
 1. ✅ **From Prompt to Droplet: Using the DigitalOcean Plugin to Provision Cloud Workspaces for Codex Remote** — Written 2026-07-17 → `2026-07-17-codex-cli-digitalocean-cloud-workspace-plugin-remote-droplet-provisioning.md`
