@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Physical Agent Control Surfaces — Codex Micro, Hardware Moats, Developer Ergonomics (2026-07-19 Hourly Article Run)
+
+1. ✅ **Physical Agent Control Surfaces: What OpenAI's Codex Micro Reveals About the Human-Agent Interface** — Written 2026-07-19 → `2026-07-19-codex-micro-physical-control-surfaces-ai-coding-agents-hardware-moat-developer-ergonomics.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Physical Agent Control Surfaces -- What OpenAI's Codex Micro Reveals" (High priority, added 2026-07-18); OpenAI Codex Micro $230 macropad co-designed with Work Louder; 13 mechanical switches, rotary reasoning dial, analogue joystick, 6 RGB Agent Keys; ChatGPT desktop-only status integration limitation; AgentDeck open-source multi-agent physical controller; hardware moat strategy; terminal-first developer alternatives; QMK/VIA macro binding for Codex CLI profiles
+   - SEO targets: "codex micro review", "codex micro hardware developer", "AI coding agent control surface", "codex micro vs agentdeck", "physical control AI coding", "codex micro chatgpt desktop limitation", "hardware moat AI coding tools"
+
+---
+
 ## Steering vs Dispatching — The Two Agent Interaction Patterns Every Developer Needs (2026-07-18 Hourly Article Run)
 
 1. ✅ **Steering vs Dispatching: The Two Agent Interaction Patterns Every Developer Needs** — Written 2026-07-18 → `2026-07-18-steering-vs-dispatching-two-agent-interaction-patterns-codex-cli-claude-code-workflow-selection.md`
