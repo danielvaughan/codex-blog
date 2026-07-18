@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Windows Sandbox Architecture — Restricted Tokens, Synthetic SIDs, PowerShell AST Safety, Elevated/Unelevated Modes (2026-07-18 Hourly Article Run)
+
+1. ✅ **The Windows Sandbox Deep Dive: How Codex CLI Isolates Agent Workloads with Restricted Tokens, Synthetic SIDs, and PowerShell AST Safety** — Written 2026-07-18 → `2026-07-18-codex-cli-windows-sandbox-architecture-powershell-ast-safety-elevated-unelevated-appcontainer-restricted-tokens.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI published engineering deep-dive on Windows sandbox (May 2026); rejected AppContainer, Windows Sandbox, and MIC; built custom isolation from SIDs, ACLs, and WRITE_RESTRICTED tokens; two-tier architecture: elevated mode (CodexSandboxOffline/Online dedicated users + firewall rules) and unelevated mode (restricted token under current user); PowerShell AST safety classifier forces approval for opaque/uninspectable regions (v0.142.2); PR #24946 gated PowerShell parsing behind #[cfg(windows)] to prevent pre-sandbox execution on macOS/Linux; v0.144.5 expanded dangerous-command detection including PowerShell Remove-Item patterns; zero existing articles on Windows/PowerShell in knowledge base
+   - SEO targets: "codex cli windows sandbox architecture", "codex cli powershell AST safety", "codex cli elevated unelevated sandbox", "codex cli restricted tokens SIDs windows", "codex cli windows enterprise security", "codex cli AppContainer alternative", "powershell safety classifier codex cli"
+
+---
+
 ## Kimi K3 — Largest Open-Weight Model, Coding Benchmarks, Multi-Provider Model Routing, Codex CLI (2026-07-18 Hourly Article Run)
 
 1. ✅ **Kimi K3 and the Largest Open-Weight Model Yet: What 2.8 Trillion Parameters Mean for Your Codex CLI Multi-Provider Strategy** — Written 2026-07-18 → `2026-07-18-kimi-k3-largest-open-weight-model-coding-benchmarks-codex-cli-multi-provider-model-routing-strategy.md`
