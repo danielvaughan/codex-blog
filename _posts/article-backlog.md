@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Device Code Phishing and Codex CLI OAuth Authentication Defence (2026-07-18 Hourly Article Run)
+
+1. ✅ **Device Code Phishing and Your Codex CLI: What the 37x Surge in OAuth Abuse Means for Developer Authentication Security** — Written 2026-07-18 → `2026-07-18-device-code-phishing-codex-cli-oauth-authentication-defence-credential-storage-headless-security.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Push Security documented 37.5x increase in device code phishing pages across 14 PhaaS kits in 2026; DEBULL campaign (late June–July 2026) weaponised Microsoft device-code flow with GraphSpy post-exploitation; PR #31648 (merged 8 July 2026) clarified Codex CLI device-code phishing warning; mapped to Codex CLI auth methods (OAuth, device code, API key), credential storage modes (file/keyring/auto/ephemeral), requirements.toml fleet enforcement, CI/CD API key best practices, workspace-level device code disablement
+   - SEO targets: "device code phishing codex cli", "codex cli authentication security", "codex cli device-auth phishing defence", "codex cli auth.json credential storage", "oauth device code phishing developer tools 2026", "codex cli headless authentication security", "requirements.toml credential storage enforcement"
+
+---
+
 ## Codex Micro — OpenAI's First Hardware, Tactile Agent Control, CLI Implications (2026-07-18 Hourly Article Run)
 
 1. ✅ **Codex Micro: What OpenAI's First Hardware Product Means for Tactile Agent Control** — Written 2026-07-18 → `2026-07-18-codex-micro-openai-first-hardware-macropad-agent-keys-tactile-coding-agent-control.md`
