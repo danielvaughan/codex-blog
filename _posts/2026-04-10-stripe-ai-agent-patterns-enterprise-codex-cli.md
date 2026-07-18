@@ -2,7 +2,7 @@
 title: "Stripe's AI Agent Patterns: What Enterprise-Scale Agent Deployment Teaches Codex CLI Users"
 description: "Stripe's engineering team merges over 1,300 AI-authored pull requests every week — none containing human-written code. Their internal system, called."
 date: 2026-04-10T07:30:00+00:00
-last_modified_at: 2026-07-18T03:09:57+01:00
+last_modified_at: 2026-07-18T04:11:01+01:00
 tags:
   - stripe
   - enterprise-agents

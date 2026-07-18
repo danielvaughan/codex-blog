@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Codex Micro — OpenAI's First Hardware, Tactile Agent Control, CLI Implications (2026-07-18 Hourly Article Run)
+
+1. ✅ **Codex Micro: What OpenAI's First Hardware Product Means for Tactile Agent Control** — Written 2026-07-18 → `2026-07-18-codex-micro-openai-first-hardware-macropad-agent-keys-tactile-coding-agent-control.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI launched Codex Micro on 15 July 2026, a $230 programmable macropad built with Work Louder; 13 mechanical keys, rotary encoder, planar joystick, capacitive touch sensor; six RGB Agent Keys showing live agent status (idle/thinking/complete/needs-input/error); reasoning depth dial; four-direction joystick for workflow shortcuts; Bluetooth and USB-C; 6 programmable layers via VIA/QMK; integrates with ChatGPT desktop app not CLI directly; community reaction polarised on price vs DIY alternatives; mapped to CLI TUI keybindings, /app handoff, multi-agent supervision patterns, enterprise agent observability
+   - SEO targets: "codex micro macropad", "openai first hardware codex", "codex micro agent keys", "codex micro work louder", "tactile agent control codex", "codex micro cli developer", "codex micro reasoning dial"
+
+---
+
 ## Hedwig Dynamic Autonomy — Learned Trust, Adaptive Approval Policy, Codex CLI (2026-07-18 Hourly Article Run)
 
 1. ✅ **Hedwig and the Case for Dynamic Autonomy: What Learned Trust Means for Codex CLI Approval Policies** — Written 2026-07-18 → `2026-07-18-hedwig-dynamic-autonomy-coding-agents-codex-cli-adaptive-approval-policy-learned-trust.md`
