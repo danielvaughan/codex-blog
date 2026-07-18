@@ -146,11 +146,11 @@ Hedwig addresses this partially through its end-of-session transparency report, 
 
 Until Codex CLI ships a learned-policy feature, developers can approximate dynamic autonomy with existing tools:
 
-1. **Use named profiles as pseudo-adaptive modes.** Create `[profile.cautious]` and `[profile.trusted]` in `config.toml` with different `approval_policy` and `sandbox_mode` settings. Switch between them based on task context rather than committing to one mode per session.
+1. **Use named profiles as pseudo-adaptive modes.** Create `[profiles.cautious]` and `[profiles.trusted]` in `config.toml` with different `approval_policy` and `sandbox_mode` settings. Switch between them based on task context rather than committing to one mode per session.
 
 2. **Review and prune smart approval rules weekly.** The `default.rules` file accumulates prefix rules that may no longer reflect your current trust boundaries [^4]. Treat it as a living policy document.
 
-3. **Layer Guardian with manual approval.** Set `approval_policy = "unless-allowed"` with Guardian enabled to get model-judged risk assessment before the approval prompt reaches you [^5]. This simulates the middle band of Hedwig's three-tier cascade.
+3. **Layer Guardian with manual approval.** Set `approval_policy = "unless-allow-listed"` with Guardian enabled to get model-judged risk assessment before the approval prompt reaches you [^5]. This simulates the middle band of Hedwig's three-tier cascade.
 
 4. **Track your own approval patterns.** Session JSONL logs in `~/.codex/sessions/` record every approval and denial [^6]. A simple script counting approval rates per file path would reveal where your trust already exceeds your configured autonomy level.
 
