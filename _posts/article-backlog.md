@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Codex Automations as Lightweight CI — Scheduled Agents, GitHub Actions Boundary, Unsupervised Risk (2026-07-18 Hourly Article Run)
+
+1. ✅ **Codex Automations as Lightweight CI: Where Scheduled Agents Replace Pipelines — and Where They Must Not** — Written 2026-07-18 → `2026-07-18-codex-automations-lightweight-ci-scheduled-agents-github-actions-boundary-unsupervised-risk.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Codex Automations as Lightweight CI" (Medium priority, added 2026-07-18); desktop app automations (worktree mode, local mode, RFC 5545 scheduling) vs codex exec CI primitive; openai/codex-action@v1 GitHub Action with three sandbox modes and drop-sudo safety; six structural elements for effective automations; three failure modes (compounding retries, worktree accumulation, stale repeated findings); Cline February 2026 npm publish incident as cautionary tale; IBM X-Force 4× supply chain compromise increase; decision framework for traditional CI vs Codex automation; named profiles, turn/token budgets, requirements.toml fleet governance; report-first principle — automations should report, traditional CI should enforce
+   - SEO targets: "codex automations lightweight CI", "codex exec github actions CI", "codex scheduled tasks CI replacement", "codex automation vs github actions", "codex cli unsupervised agent risk", "codex automation worktree mode CI", "codex-action sandbox modes CI pipeline"
+
+---
+
 ## Windows Sandbox Architecture — Restricted Tokens, Synthetic SIDs, PowerShell AST Safety, Elevated/Unelevated Modes (2026-07-18 Hourly Article Run)
 
 1. ✅ **The Windows Sandbox Deep Dive: How Codex CLI Isolates Agent Workloads with Restricted Tokens, Synthetic SIDs, and PowerShell AST Safety** — Written 2026-07-18 → `2026-07-18-codex-cli-windows-sandbox-architecture-powershell-ast-safety-elevated-unelevated-appcontainer-restricted-tokens.md`
