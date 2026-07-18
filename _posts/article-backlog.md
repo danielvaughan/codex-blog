@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Guardian False-Positive Crisis — Safety Classifier Blocking Legitimate Development, Trusted Access Workarounds (2026-07-18 Hourly Article Run)
+
+1. ✅ **The Guardian False-Positive Crisis: When Codex CLI's Safety Classifier Blocks Legitimate Development — and How to Fight Back** — Written 2026-07-18 → `2026-07-18-guardian-false-positive-crisis-safety-classifier-blocking-legitimate-development-codex-cli-trusted-access-workarounds.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Between May and July 2026, multiple GitHub issues (#12171, #19738, #23381, #28015, #32225, #32468) documented Codex CLI's cyber-risk classifier generating false positives that blocked legitimate development work; v0.144.0 (9 July 2026) Guardian prompting regression classified normal git push to private repos as data exfiltration; v0.144.2 (13 July 2026) emergency rollback restored previous Guardian auto-review policy; OpenAI Trusted Access for Cyber programme offers lower classifier sensitivity but has application backlog and scope gaps; mapped to session hygiene patterns, vocabulary substitution, codex exec non-interactive mode, AGENTS.md file-based context, named profiles for security work, requirements.toml fleet policy
+   - SEO targets: "codex cli guardian false positive", "codex cli safety classifier blocking", "codex cli cyber-risk flag legitimate work", "trusted access for cyber codex cli", "codex cli v0.144 guardian regression", "codex cli security professional false positive", "guardian auto-review false positive workaround"
+
+---
+
 ## Device Code Phishing and Codex CLI OAuth Authentication Defence (2026-07-18 Hourly Article Run)
 
 1. ✅ **Device Code Phishing and Your Codex CLI: What the 37x Surge in OAuth Abuse Means for Developer Authentication Security** — Written 2026-07-18 → `2026-07-18-device-code-phishing-codex-cli-oauth-authentication-defence-credential-storage-headless-security.md`
