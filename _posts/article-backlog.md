@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Kimi K3 — Largest Open-Weight Model, Coding Benchmarks, Multi-Provider Model Routing, Codex CLI (2026-07-18 Hourly Article Run)
+
+1. ✅ **Kimi K3 and the Largest Open-Weight Model Yet: What 2.8 Trillion Parameters Mean for Your Codex CLI Multi-Provider Strategy** — Written 2026-07-18 → `2026-07-18-kimi-k3-largest-open-weight-model-coding-benchmarks-codex-cli-multi-provider-model-routing-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Moonshot AI released Kimi K3 on 16 July 2026, 2.8T parameter MoE model (896 experts, 16 active), 1M context window, MXFP4 quantisation, open weights promised 27 July; topped Arena.ai Frontend Code at 1,679 Elo; DeepSWE 67.5, Terminal-Bench 88.3, FrontierSWE 81.2, SWE Marathon 42.0; OpenAI Chat Completions-compatible API at api.moonshot.ai/v1; available via OpenRouter; mapped to Codex CLI custom model_providers config.toml, named profiles for A/B routing, self-hosted vLLM path for data sovereignty; Simon Willison pelican benchmark critique on agentic tool calling gap
+   - SEO targets: "kimi k3 codex cli", "codex cli multi-provider model routing", "kimi k3 coding benchmarks", "codex cli custom provider config", "open weight model codex cli", "kimi k3 openai compatible api codex", "codex cli model selection strategy"
+
+---
+
 ## The Prover Is the Judge — Verified Security Software, Ada/SPARK, Verifier-Driven Feedback Loop, Codex CLI (2026-07-18 Hourly Article Run)
 
 1. ✅ **The Prover Is the Judge: What Verified Security Software from AI Coding Agents Means for Your Codex CLI Verification Strategy** — Written 2026-07-18 → `2026-07-18-prover-is-the-judge-verified-security-software-coding-agents-ada-spark-codex-cli-verifier-driven-feedback-loop.md`

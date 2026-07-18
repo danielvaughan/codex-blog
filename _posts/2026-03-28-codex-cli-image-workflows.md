@@ -2,7 +2,7 @@
 title: "Working with Images in Codex CLI: Attaching, Inspecting and Generating Visual Assets"
 description: "Codex CLI began life as a terminal coding agent focused entirely on text: source files, shell commands, test output. The releases shipped across March 2026."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-18T10:35:49+01:00
+last_modified_at: 2026-07-18T12:12:45+01:00
 summary: "Codex CLI v0.115.0–v0.117.0 shipped a full multimodal image pipeline: full-resolution inspection, a view_image tool that returns URLs in code mode, and image-generation history that survives session resume. This article covers every entry point, the code-mode image API, and practical use cases for visual development workflows."
 tags:
   - workflow-patterns
