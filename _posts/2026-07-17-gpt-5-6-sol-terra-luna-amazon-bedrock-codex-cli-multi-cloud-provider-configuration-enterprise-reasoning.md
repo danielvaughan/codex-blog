@@ -19,7 +19,7 @@ This article walks through the practical configuration, compares the Bedrock sur
 
 Running GPT-5.6 through Bedrock is not simply "the same model on different infrastructure." Three differences matter at the practitioner level:
 
-1. **Context window divergence.** OpenAI-direct exposes the full 1.5M-token context window [^2]. Bedrock currently serves 272K tokens [^3]. If your workflow depends on large-context ingestion — full-repository indexing, long rollout histories — this cap is a hard constraint you must plan around.
+1. **Context window divergence.** OpenAI-direct exposes the full 1.05M-token context window [^2]. Bedrock currently serves 272K tokens [^3]. If your workflow depends on large-context ingestion — full-repository indexing, long rollout histories — this cap is a hard constraint you must plan around.
 
 2. **Billing consolidation.** Bedrock usage counts towards existing AWS spend commitments (EDPs, credits, reserved capacity) [^4]. For organisations already committed to AWS, this can represent significant savings compared to a separate OpenAI contract.
 
@@ -104,7 +104,7 @@ codex --profile bedrock "refactor the authentication module"
 codex --profile openai-sol "review the migration plan for correctness"
 ```
 
-This pattern routes routine work through AWS billing while reserving OpenAI-direct Sol (with its full 1.5M context window) for tasks that demand it.
+This pattern routes routine work through AWS billing while reserving OpenAI-direct Sol (with its full 1.05M context window) for tasks that demand it.
 
 ## Prompt Caching: The 90% Discount
 
@@ -126,7 +126,7 @@ Saving: ~84%
 
 ## The 272K Context Constraint
 
-The most significant difference between Bedrock and OpenAI-direct is the context window: 272K versus 1.5M tokens [^2] [^3]. This has practical implications for Codex CLI workflows:
+The most significant difference between Bedrock and OpenAI-direct is the context window: 272K versus 1.05M tokens [^2] [^3]. This has practical implications for Codex CLI workflows:
 
 ```mermaid
 flowchart LR
@@ -192,7 +192,7 @@ These constraints mean Codex CLI's image generation workflows (GPT-Image-2 integ
 For most enterprise Codex CLI deployments, the optimal configuration is:
 
 1. **Default to Bedrock Terra** — covers 80%+ of daily development work, consolidates billing, uses IAM auth
-2. **Profile for OpenAI-direct Sol** — reserved for complex tasks needing full 1.5M context or `max` reasoning
+2. **Profile for OpenAI-direct Sol** — reserved for complex tasks needing full 1.05M context or `max` reasoning
 3. **Luna on Bedrock for subagent delegation** — fast, cheap, ideal for classification, test generation, and boilerplate tasks
 4. **Monitor the 272K boundary** — set `project_doc_max_bytes` conservatively and track context usage via `/usage`
 

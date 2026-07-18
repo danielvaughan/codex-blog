@@ -2,7 +2,7 @@
 title: "The Codex Python SDK: Embedding Agents in Python Applications"
 description: "The Codex CLI ships with an official Python SDK — codex_app_server — that lets you drive the agent programmatically from Python scripts, pipelines."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-07-18T02:13:46+01:00
+last_modified_at: 2026-07-18T03:09:57+01:00
 tags:
   - ecosystem
   - python-sdk
