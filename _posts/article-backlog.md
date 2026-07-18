@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Hedwig Dynamic Autonomy — Learned Trust, Adaptive Approval Policy, Codex CLI (2026-07-18 Hourly Article Run)
+
+1. ✅ **Hedwig and the Case for Dynamic Autonomy: What Learned Trust Means for Codex CLI Approval Policies** — Written 2026-07-18 → `2026-07-18-hedwig-dynamic-autonomy-coding-agents-codex-cli-adaptive-approval-policy-learned-trust.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Shukla, Feng, Wang, Rostami, and Zhang published arXiv:2605.11495 (May 12, 2026, ACM CAIS 2026 demo track), Hedwig CLI tool for dynamic autonomy in coding agents; online logistic regression with 13-dimensional feature vector; three-tier approval cascade (silent/flag/check-in); per-repository coefficient persistence; warm-start initialisation; 1.00 recall vs Claude Code's 0.50 on cautious persona; complemented by Dhanorkar et al. arXiv:2606.05391 on four forms of oversight work; mapped to Codex CLI static approval_policy modes, smart approvals prefix rules, Guardian auto-review, named profiles, per-repo learned policy architecture
+   - SEO targets: "hedwig dynamic autonomy codex cli", "codex cli adaptive approval policy", "learned trust coding agent", "codex cli approval fatigue dynamic", "dynamic autonomy coding agents", "hedwig coding agent learned policy", "codex cli per-repository trust model"
+
+---
+
 ## Agent Hacks Agent — Automated Red-Teaming, Vulnerability Concept Graph, Codex CLI PreToolUse Defence (2026-07-18 Hourly Article Run)
 
 1. ✅ **Agent Hacks Agent: What Automated Red-Teaming and the Vulnerability Concept Graph Mean for Your Codex CLI Defence Posture** — Written 2026-07-18 → `2026-07-18-agent-hacks-agent-automated-red-teaming-vulnerability-concept-graph-codex-cli-pretooluse-defence.md`
