@@ -9,6 +9,14 @@
 
 ---
 
+## The Writes Mode Permission Primitive — Reads Without Asking, Writes With Consent, Least Privilege, Enterprise Governance (2026-07-18 Hourly Article Run)
+
+1. ✅ **The Writes Mode Permission Primitive: Why Reads Without Asking and Writes With Consent Changes Everything for Codex CLI Enterprise Deployments** — Written 2026-07-18 → `2026-07-18-codex-cli-writes-mode-permission-primitive-reads-without-asking-writes-with-consent-least-privilege.md`
+   - Source: article-ideas.md — "The Writes Mode Permission Primitive — Reads Without Asking, Writes With Consent" (High priority, added 2026-07-13); approval_policy "on-request" combined with sandbox_mode "workspace-write" implements mutation-boundary consent; maps to OWASP Agentic Top 10 2026 principle of least privilege; two-layer security model (kernel sandbox + approval policy); named profiles for context-sensitive permission switching; requirements.toml fleet enforcement; granular approval_policy object; comparison with Claude Code four-tier risk classification
+   - SEO targets: "codex cli writes mode permission", "codex cli approval_policy on-request writes", "codex cli least privilege enterprise", "writes mode coding agent permission primitive", "codex cli read write consent boundary", "codex cli enterprise permission governance", "approval_policy granular codex cli"
+
+---
+
 ## The Prover Is the Judge — Verified Security Software, Ada/SPARK, Verifier-Driven Feedback Loop, Codex CLI (2026-07-18 Hourly Article Run)
 
 1. ✅ **The Prover Is the Judge: What Verified Security Software from AI Coding Agents Means for Your Codex CLI Verification Strategy** — Written 2026-07-18 → `2026-07-18-prover-is-the-judge-verified-security-software-coding-agents-ada-spark-codex-cli-verifier-driven-feedback-loop.md`
