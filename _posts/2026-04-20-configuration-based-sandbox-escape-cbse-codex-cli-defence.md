@@ -2,7 +2,7 @@
 title: "Configuration-Based Sandbox Escape: The Attack Class Every Codex CLI User Should Understand"
 description: "In April 2026, Cymulate Research Labs published findings on a vulnerability class they termed Configuration-Based Sandbox Escape (CBSE)."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-07-18T08:13:40+01:00
+last_modified_at: 2026-07-18T10:16:12+01:00
 parent: "Articles"
 nav_order: 355
 type: Technical Article

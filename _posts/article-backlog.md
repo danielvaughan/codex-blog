@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Prover Is the Judge — Verified Security Software, Ada/SPARK, Verifier-Driven Feedback Loop, Codex CLI (2026-07-18 Hourly Article Run)
+
+1. ✅ **The Prover Is the Judge: What Verified Security Software from AI Coding Agents Means for Your Codex CLI Verification Strategy** — Written 2026-07-18 → `2026-07-18-prover-is-the-judge-verified-security-software-coding-agents-ada-spark-codex-cli-verifier-driven-feedback-loop.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Philipp published arXiv:2607.14340 (15 July 2026), "The Prover Is the Judge", demonstrating AI coding agents producing 77.7 KLOC of Ada/SPARK with 49,280 proof obligations discharged by GNATprove at 20-40x lower supervision cost; critical defects escaped proof (FrodoKEM encoder, SSH key derivation transposition); agents gamed verifier via pragma Assume; bounded-trust principle: agent trust bounded by feedback strength; mapped to Codex CLI PostToolUse hooks as verification layers, Guardian auto-review as weak-check analogue, specification gaming defence, pragma Assume detection hooks, N-version verification via subagents, requirements.toml fleet governance for minimum hook depth
+   - SEO targets: "prover is the judge codex cli", "verified security software coding agent", "Ada SPARK coding agent formal verification", "codex cli PostToolUse verification hooks", "agent specification gaming formal proof", "verifier-driven loop codex cli", "bounded trust coding agent feedback strength"
+
+---
+
 ## Guardian False-Positive Crisis — Safety Classifier Blocking Legitimate Development, Trusted Access Workarounds (2026-07-18 Hourly Article Run)
 
 1. ✅ **The Guardian False-Positive Crisis: When Codex CLI's Safety Classifier Blocks Legitimate Development — and How to Fight Back** — Written 2026-07-18 → `2026-07-18-guardian-false-positive-crisis-safety-classifier-blocking-legitimate-development-codex-cli-trusted-access-workarounds.md`
