@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Luxury-vs-Utility Split in AI Coding Tools — Developer Choice, Pricing, Market Strategy (2026-07-18 Hourly Article Run)
+
+1. ✅ **The Luxury-vs-Utility Split in AI Coding Tools: Why Developer Choice Is No Longer About Intelligence** — Written 2026-07-18 → `2026-07-18-luxury-vs-utility-split-ai-coding-tools-codex-claude-code-cursor-developer-choice-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Luxury-vs-Utility Split in AI Coding Tools" (High priority, added 2026-07-15); James NoCode Mercedes/Corolla framing; Claude Code Opus 4.6 80.8% SWE-bench vs Codex GPT-5.3-Codex 77.3% Terminal-Bench; Claude Code $13/dev/day vs Codex $155-vs-$15 refactoring cost gap; shared vs isolated usage pools; ChatGPT desktop merger July 9 distribution play; Cursor $4B ARR hybrid tier; open-source BYO-key agents at $2-5/month; subsidy cliff warning; hybrid workflow as senior developer default
+   - SEO targets: "codex vs claude code 2026", "ai coding tools luxury vs utility", "claude code vs codex pricing", "codex usage pools", "ai coding tool choice strategy", "developer tool market split 2026", "claude code cursor codex comparison"
+
+---
+
 ## Codex Automations as Lightweight CI — Scheduled Agents, GitHub Actions Boundary, Unsupervised Risk (2026-07-18 Hourly Article Run)
 
 1. ✅ **Codex Automations as Lightweight CI: Where Scheduled Agents Replace Pipelines — and Where They Must Not** — Written 2026-07-18 → `2026-07-18-codex-automations-lightweight-ci-scheduled-agents-github-actions-boundary-unsupervised-risk.md`
