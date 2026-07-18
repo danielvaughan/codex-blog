@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Steering vs Dispatching — The Two Agent Interaction Patterns Every Developer Needs (2026-07-18 Hourly Article Run)
+
+1. ✅ **Steering vs Dispatching: The Two Agent Interaction Patterns Every Developer Needs** — Written 2026-07-18 → `2026-07-18-steering-vs-dispatching-two-agent-interaction-patterns-codex-cli-claude-code-workflow-selection.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Steering vs Dispatching: The Two Agent Patterns Every Developer Needs" (High priority, added 2026-07-11); Nate B. Jones steering-vs-dispatching framing; Anthropic 400K session study (70/20 planning/execution split, expertise multiplier effect); conversation theatre vs completion theatre failure modes; composition pattern (steer→decompose→dispatch→review); Codex CLI named profiles for each pattern; requirements.toml fleet enforcement; MindStudio comparative analysis; agentmaxxing practice
+   - SEO targets: "steering vs dispatching coding agent", "codex cli claude code workflow patterns", "agent interaction patterns developer 2026", "steering dispatching agent workflow", "codex cli named profiles steering dispatching", "claude code steering pattern", "codex dispatching parallel agents"
+
+---
+
 ## The Luxury-vs-Utility Split in AI Coding Tools — Developer Choice, Pricing, Market Strategy (2026-07-18 Hourly Article Run)
 
 1. ✅ **The Luxury-vs-Utility Split in AI Coding Tools: Why Developer Choice Is No Longer About Intelligence** — Written 2026-07-18 → `2026-07-18-luxury-vs-utility-split-ai-coding-tools-codex-claude-code-cursor-developer-choice-strategy.md`
