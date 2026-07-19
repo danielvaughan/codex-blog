@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Codex Automations as Lightweight CI — Scheduled Agents, codex exec, GitHub Actions (2026-07-19 Hourly Article Run)
+
+1. ✅ **Codex Automations as Lightweight CI: When Scheduled Agents Replace Your Pipeline** — Written 2026-07-19 → `2026-07-19-codex-automations-lightweight-ci-scheduled-agents-codex-exec-github-actions.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Codex Automations as Lightweight CI" (Medium priority, added 2026-07-18); OpenAI Codex App Automations panel; codex exec non-interactive mode; openai/codex-action@v1 GitHub Action; Codex Triggers event-driven webhooks; --sandbox policies; --output-schema structured output; /goal persistent agentic loops; hybrid CI pattern layering Codex atop traditional pipelines
+   - SEO targets: "codex automations CI pipeline", "codex exec GitHub Actions", "codex scheduled tasks automation", "openai codex-action CI", "codex triggers event-driven", "codex lightweight CI replacement", "codex exec non-interactive"
+
+---
+
 ## MCP as Observation Layer — Event-Stream Architecture, Record and Replay Internals, Skill Synthesis (2026-07-19 Hourly Article Run)
 
 1. ✅ **MCP as Observation Layer: How Record and Replay Turns the Model Context Protocol from Tool Caller into Event-Stream Backbone** — Written 2026-07-19 → `2026-07-19-mcp-as-observation-layer-record-replay-event-stream-codex-cli-skill-synthesis-architecture.md`
