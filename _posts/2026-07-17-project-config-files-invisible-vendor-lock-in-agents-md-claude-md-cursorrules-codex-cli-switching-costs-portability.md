@@ -1,7 +1,7 @@
 ---
 title: "Project Config Files as Invisible Vendor Lock-In: AGENTS.md, CLAUDE.md, .cursorrules, and the Switching Costs Nobody Talks About"
 parent: "Articles"
-nav_order: 1584
+nav_order: 1606
 tags: ["codex-cli", "AGENTS.md", "CLAUDE.md", ".cursorrules", "vendor-lock-in", "switching-costs", "portability", "configuration", "enterprise"]
 ---
 
