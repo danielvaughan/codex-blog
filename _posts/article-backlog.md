@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## MCP as Observation Layer — Event-Stream Architecture, Record and Replay Internals, Skill Synthesis (2026-07-19 Hourly Article Run)
+
+1. ✅ **MCP as Observation Layer: How Record and Replay Turns the Model Context Protocol from Tool Caller into Event-Stream Backbone** — Written 2026-07-19 → `2026-07-19-mcp-as-observation-layer-record-replay-event-stream-codex-cli-skill-synthesis-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "MCP as the Backbone of Record & Replay" (High priority, added 2026-07-07); event-stream MCP server architecture (event_stream_start/status/stop tools); macOS accessibility API + input event monitoring; events.jsonl semantic capture format; SKILL.md synthesis pipeline; MCP observation pattern beyond tool calling; two-surface architecture (desktop recording + CLI execution); Open Agent Skills portability; connector substitution problem; MCP 2026 roadmap event-driven patterns
+   - SEO targets: "codex record replay MCP architecture", "event-stream MCP server codex", "MCP observation pattern agent", "codex SKILL.md synthesis pipeline", "MCP beyond tool calling", "codex accessibility API recording", "event-stream MCP server skill creation"
+
+---
+
 ## Agent Skill Security — Lifecycle Threat Model, SKILL.md Supply Chain, Codex CLI Defence Stack (2026-07-19 Hourly Article Run)
 
 1. ✅ **Agent Skill Security: The Lifecycle Threat Model Every Codex CLI Developer Needs** — Written 2026-07-19 → `2026-07-19-agent-skill-security-lifecycle-threat-model-codex-cli-skillmd-plugin-supply-chain-defence.md`
