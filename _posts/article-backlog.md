@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The QA Loop Pattern — Computer Use + Success Criteria as Automated Testing (2026-07-19 Hourly Article Run)
+
+1. ✅ **The QA Loop Pattern: Computer Use + Success Criteria as an Automated Testing Framework** — Written 2026-07-19 → `2026-07-19-qa-loop-pattern-computer-use-success-criteria-automated-testing-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The QA Loop Pattern: Computer Use + Success Criteria as an Automated Testing Framework" (High priority, added 2026-07-13); OpenAI Computer Use QA documentation; compozy/codex-loop three limiter modes (min/rounds/goal); Block Engineering testing pyramid for AI agents; Slack agentic E2E testing (InfoQ July 2026); self-scoring unreliability; context refresh mechanism; two-surface workflow (App + CLI); 80-90% reliability threshold
+   - SEO targets: "codex computer use QA testing", "QA loop pattern codex cli", "automated testing AI agent 2026", "codex-loop plugin QA", "computer use testing framework", "agent QA testing pyramid", "codex cli visual testing loop"
+
+---
+
 ## Supervised vs Unsupervised Code — Engineering Metrics Beyond AI Authorship (2026-07-19 Hourly Article Run)
 
 1. ✅ **Supervised vs Unsupervised Code: The Metric That Replaces 'Percentage Written by AI'** — Written 2026-07-19 → `2026-07-19-supervised-vs-unsupervised-code-new-metric-ai-coding-agents-codex-cli-engineering-leadership.md`
