@@ -22,7 +22,7 @@ K3 is a sparse mixture-of-experts transformer with three proprietary innovations
 - **Attention Residuals** add skip connections across attention layers
 - **Stable LatentMoE** with Quantile Balancing routes tokens across 896 experts, activating 16 per forward pass
 
-Weights ship in MXFP4 (weights) and MXFP8 (activations), trained with quantisation-aware fine-tuning from the SFT stage onward [^1]. The practical upshot: the full model runs on eight H200 GPUs rather than the sixteen you would expect for a 2.8T dense model.
+Weights ship in MXFP4 (weights) and MXFP8 (activations), trained with quantisation-aware fine-tuning from the SFT stage onward [^1]. Moonshot recommends a supernode with at least 64 accelerators for deployment [^4], though the MXFP4 quantisation significantly reduces memory requirements compared to full-precision weights.
 
 ```mermaid
 graph LR
@@ -163,7 +163,7 @@ This pattern gives you empirical data on model quality within your own codebase 
 
 K3's open-weight release, promised for 27 July [^1], will allow self-hosting on enterprise infrastructure. For organisations running Codex CLI behind air-gapped networks or with data-sovereignty requirements, this is significant. You would point Codex CLI at a local vLLM instance serving K3 with the same `[model_providers]` block pattern shown above.
 
-The MXFP4 quantisation means the model fits on a single 8×H200 node [^1]. That is expensive hardware, but it is hardware you control — no tokens leave your network, no third-party data processing agreements required. Moonshot has already contributed KDA prefill cache support to the vLLM project [^1], reducing the self-hosting friction.
+Moonshot recommends at least 64 accelerators for production deployment [^4], making self-hosting a significant infrastructure commitment. That is expensive hardware, but it is hardware you control — no tokens leave your network, no third-party data processing agreements required. Moonshot has already contributed KDA prefill cache support to the vLLM project [^1], reducing the self-hosting friction.
 
 ## Practical Recommendations
 

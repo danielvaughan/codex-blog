@@ -24,7 +24,7 @@ The trajectory tells a story of compounding demand:
 | April 2026 | 3 million | First major milestone; Sam Altman commits to resetting limits at each million-user increment[^3] |
 | Early June 2026 | 5 million | Steady organic growth |
 | 9 July 2026 | — | GPT-5.6 GA; Codex merged into ChatGPT desktop; ChatGPT Work launches |
-| 12 July 2026 | 6 million | Announced by Tibo Sottiaux, engineering lead for Codex[^2] |
+| 12 July 2026 | 6 million | Announced by Tibo Sottiaux, Codex lead at OpenAI[^2] |
 | ~13 July 2026 | 7 million | Roughly 24 hours later[^1] |
 | 14 July 2026 | 8 million | Three days after 6 million[^2] |
 
