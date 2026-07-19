@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Taste as the New Technical Debt — Design Abstraction, AI Code Generation, Human Frontier (2026-07-19 Hourly Article Run)
+
+1. ✅ **Taste as the New Technical Debt: Why Design Abstraction Is the Last Human Frontier in AI-Generated Codebases** — Written 2026-07-19 → `2026-07-19-taste-as-technical-debt-design-abstraction-ai-code-generation-codex-cli-human-frontier.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Taste as the New Technical Debt: Why Design Abstraction Layers Are the Last Human Frontier" (High priority, added 2026-07-12); Andrew Ambrosino Lenny's Podcast (June 2026) taste-as-scarce-resource thesis; arXiv:2604.06373 design issues in AI IDE-generated projects; arXiv:2510.10165 AI-assisted programming decreasing experienced developer productivity; Augment Code AI technical debt research; Codex CLI AGENTS.md and approval modes as taste governance mechanisms; change amplification ratio metric; semantic duplication; rebrand survival rate
+   - SEO targets: "AI code generation technical debt 2026", "taste in software engineering AI", "design abstraction AI coding agents", "codex cli design system", "AI generated code architectural coherence", "taste debt measurement", "human frontier AI coding"
+
+---
+
 ## The QA Loop Pattern — Computer Use + Success Criteria as Automated Testing (2026-07-19 Hourly Article Run)
 
 1. ✅ **The QA Loop Pattern: Computer Use + Success Criteria as an Automated Testing Framework** — Written 2026-07-19 → `2026-07-19-qa-loop-pattern-computer-use-success-criteria-automated-testing-codex-cli.md`
