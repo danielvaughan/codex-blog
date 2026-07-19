@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Supervised vs Unsupervised Code — Engineering Metrics Beyond AI Authorship (2026-07-19 Hourly Article Run)
+
+1. ✅ **Supervised vs Unsupervised Code: The Metric That Replaces 'Percentage Written by AI'** — Written 2026-07-19 → `2026-07-19-supervised-vs-unsupervised-code-new-metric-ai-coding-agents-codex-cli-engineering-leadership.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Supervised vs Unsupervised Code: The New Metric Replacing 'Percentage Written by AI'" (High priority, added 2026-07-12); Andrew Ambrosino Lenny's Podcast supervised/unsupervised framing; Augment Code "Why AI Agent Metrics Lie" research; METR RCT 39-percentage-point perception gap; Anthropic 2026 Agentic Coding Trends 60% usage but 0-20% full delegation; Codex CLI approval modes as supervision instrument; steering ratio; reversibility heuristic
+   - SEO targets: "supervised vs unsupervised AI code", "AI code metrics 2026", "engineering leadership AI measurement", "codex cli supervision levels", "AI code quality metrics", "steering ratio engineering", "code turnover rate AI"
+
+---
+
 ## The AGENTS.md Maturity Curve — Project Context Evolution, Decision Tables, Living Contracts (2026-07-19 Hourly Article Run)
 
 1. ✅ **The AGENTS.md Maturity Curve: How Project Context Evolves from Wish List to Force Multiplier** — Written 2026-07-19 → `2026-07-19-agents-md-maturity-curve-evolution-project-context-codex-cli.md`
