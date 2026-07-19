@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The AGENTS.md Maturity Curve — Project Context Evolution, Decision Tables, Living Contracts (2026-07-19 Hourly Article Run)
+
+1. ✅ **The AGENTS.md Maturity Curve: How Project Context Evolves from Wish List to Force Multiplier** — Written 2026-07-19 → `2026-07-19-agents-md-maturity-curve-evolution-project-context-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The agents.md Maturity Curve" (High priority, added 2026-07-16); Augment Code empirical research on AGENTS.md quality; four-stage maturity model (wish list → constraint set → decision engine → living contract); 32 KiB truncation as #1 production issue; decision tables as strongest single pattern; Linux Foundation AAIF standardisation; --print-instructions debugging; anti-patterns (prose, contradictions, vague qualifiers)
+   - SEO targets: "agents.md best practices 2026", "agents.md maturity model", "codex cli agents.md evolution", "agents.md decision tables", "agents.md anti-patterns", "agents.md truncation fix", "AAIF agents.md standard"
+
+---
+
 ## Physical Agent Control Surfaces — Codex Micro, Hardware Moats, Developer Ergonomics (2026-07-19 Hourly Article Run)
 
 1. ✅ **Physical Agent Control Surfaces: What OpenAI's Codex Micro Reveals About the Human-Agent Interface** — Written 2026-07-19 → `2026-07-19-codex-micro-physical-control-surfaces-ai-coding-agents-hardware-moat-developer-ergonomics.md`
