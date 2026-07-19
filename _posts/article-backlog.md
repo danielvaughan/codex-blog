@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Building Block Economy — Agent-Native Tools, Composable Services, Developer Role Shift (2026-07-19 Hourly Article Run)
+
+1. ✅ **The Building Block Economy: How Agent-Native Tools Are Reshaping What It Means to Build Software** — Written 2026-07-19 → `2026-07-19-building-block-economy-agent-native-tools-composable-services-codex-cli-developer-role-shift.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Building Block Economy: How Agent-Native Tools Are Reshaping 'Building From Scratch'" (Medium priority, added 2026-07-13); Vercel Marketplace Agents + Services taxonomy; Convex agent-aware components; MCP 970x download growth to 97M/month; Supabase MCP 20+ tools; Codex CLI config.toml MCP declarations; Fortune "supervisor class" developer role shift; AI SDK 7 composable agent interface; MCP 2026 roadmap composable skills; composition failure modes (version drift, abstraction leakage, selection bias, cost compounding)
+   - SEO targets: "agent native building blocks 2026", "codex cli mcp composition", "developer role shift architect selector", "vercel agent marketplace composable", "mcp composable services codex", "building block economy AI coding", "agent native tools developer workflow"
+
+---
+
 ## Codex Automations as Lightweight CI — Scheduled Agents, codex exec, GitHub Actions (2026-07-19 Hourly Article Run)
 
 1. ✅ **Codex Automations as Lightweight CI: When Scheduled Agents Replace Your Pipeline** — Written 2026-07-19 → `2026-07-19-codex-automations-lightweight-ci-scheduled-agents-codex-exec-github-actions.md`
