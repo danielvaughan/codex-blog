@@ -2,7 +2,7 @@
 title: "Codex CLI + Figma MCP: Design-to-Code Workflows"
 description: "The handoff from designer to developer has always been an expensive boundary. Figma's Model Context Protocol server."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-07-19T12:06:53+01:00
+last_modified_at: 2026-07-19T14:06:09+01:00
 tags:
   - ecosystem
   - mcp

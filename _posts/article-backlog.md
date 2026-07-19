@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Record and Replay: Demonstration Over Prompting — Skill Creation, SKILL.md, Portability (2026-07-19 Hourly Article Run)
+
+1. ✅ **Record and Replay: Why Demonstration Is Replacing Prompting for Agent Skill Creation** — Written 2026-07-19 → `2026-07-19-record-and-replay-demonstration-over-prompting-codex-skill-creation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Demonstration Over Prompting — Why Showing Beats Telling for Agent Skills" (High priority, added 2026-07-15); OpenAI Record and Replay shipped June 18 2026 in Codex app v26.616; SKILL.md natural-language intent capture vs coordinate-level RPA; Agent Skills open standard portability across 30+ tools; compound reliability problem (66% OSWorld, 85% per-step → 20% end-to-end); two-surface workflow (desktop recorder + CLI execution); prompt engineer displacement thesis
+   - SEO targets: "codex record and replay 2026", "SKILL.md format specification", "demonstration vs prompting agent skills", "codex record replay vs RPA", "agent skill portability open standard", "codex desktop skill creation CLI"
+
+---
+
 ## Token Burn as Computing Paradigm Indicator — Usage Metrics, Developer Productivity (2026-07-19 Hourly Article Run)
 
 1. ✅ **Token Burn as Computing Paradigm Indicator: What Your Consumption Metrics Actually Reveal** — Written 2026-07-19 → `2026-07-19-token-burn-computing-paradigm-indicator-codex-cli-usage-metrics-developer-productivity.md`
