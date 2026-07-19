@@ -2,7 +2,7 @@
 title: "Goose by Block: MCP-Native Architecture and What Codex CLI Can Learn"
 description: "Goose — originally codename goose from Block (the company behind Square and Cash App)."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-07-19T14:06:09+01:00
+last_modified_at: 2026-07-19T16:11:37+01:00
 tags:
   - competitive-landscape
   - competitor-tools

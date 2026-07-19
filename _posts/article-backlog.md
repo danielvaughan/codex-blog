@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Agent Skill Security — Lifecycle Threat Model, SKILL.md Supply Chain, Codex CLI Defence Stack (2026-07-19 Hourly Article Run)
+
+1. ✅ **Agent Skill Security: The Lifecycle Threat Model Every Codex CLI Developer Needs** — Written 2026-07-19 → `2026-07-19-agent-skill-security-lifecycle-threat-model-codex-cli-skillmd-plugin-supply-chain-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Badhe & Tiwari arXiv:2607.13987 (July 15, 2026) SkillSec-Eval lifecycle-aware framework, 327 real-world skills, six-stage threat taxonomy (authoring/storage/retrieval/selection/execution/evolution); Saha et al. arXiv:2605.11418 SKILL.md semantic supply-chain attacks (86% retrieval manipulation, 77.6% selection bias); SkillSafetyBench arXiv:2605.12015 155 adversarial cases; mapped to Codex CLI requirements.toml skill allowlisting, BFS discovery with depth-6 traversal, allow_implicit_invocation flag, Landlock/Seatbelt sandbox, approval_policy modes, Guardian auto-review, PreToolUse/PostToolUse hooks, MDM fleet governance; identified structural gap in pre-context metadata poisoning
+   - SEO targets: "codex cli skill security lifecycle", "SKILL.md supply chain attack defence", "agent skill security threat model 2026", "codex cli plugin security hardening", "SkillSec-Eval framework coding agent", "codex cli requirements.toml skill allowlist", "skill lifecycle security coding agent"
+
+---
+
 ## Record and Replay: Demonstration Over Prompting — Skill Creation, SKILL.md, Portability (2026-07-19 Hourly Article Run)
 
 1. ✅ **Record and Replay: Why Demonstration Is Replacing Prompting for Agent Skill Creation** — Written 2026-07-19 → `2026-07-19-record-and-replay-demonstration-over-prompting-codex-skill-creation.md`
