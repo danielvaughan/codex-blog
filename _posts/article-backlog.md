@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Writes Mode Permission Primitive — Read-Write Approval Gap, MCP Annotations, Least Privilege (2026-07-20 Hourly Article Run)
+
+1. ✅ **The Writes Mode Permission Primitive: How Codex CLI Finally Solved the Read-Write Approval Gap** — Written 2026-07-20 → `2026-07-20-writes-mode-permission-primitive-codex-cli-approval-least-privilege.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Writes Mode Permission Primitive — Reads Without Asking, Writes With Consent" (High priority, added 2026-07-13); PR #30482 merged 7 July 2026 adding writes to AppToolApproval; readOnlyHint MCP tool annotation consumption; pessimistic default for unannotated tools; no persistent approval memory; named profiles for code review; enterprise fleet governance via requirements.toml min_approval_mode
+   - SEO targets: "codex cli writes approval mode", "codex cli permission primitive 2026", "MCP tool annotations approval", "codex cli least privilege", "codex cli read write approval", "writes mode enterprise governance", "codex cli approval modes explained"
+
+---
+
 ## The Building Block Economy — Agent-Native Tools, Composable Services, Developer Role Shift (2026-07-19 Hourly Article Run)
 
 1. ✅ **The Building Block Economy: How Agent-Native Tools Are Reshaping What It Means to Build Software** — Written 2026-07-19 → `2026-07-19-building-block-economy-agent-native-tools-composable-services-codex-cli-developer-role-shift.md`
