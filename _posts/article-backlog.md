@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Token Burn as Computing Paradigm Indicator — Usage Metrics, Developer Productivity (2026-07-19 Hourly Article Run)
+
+1. ✅ **Token Burn as Computing Paradigm Indicator: What Your Consumption Metrics Actually Reveal** — Written 2026-07-19 → `2026-07-19-token-burn-computing-paradigm-indicator-codex-cli-usage-metrics-developer-productivity.md`
+   - Source: article-ideas.md — "Token Burn as Computing Paradigm Indicator" (Medium priority, added 2026-07-16); Nate B Jones 860M tokens/day delegation loop; Tokscale global leaderboard and 3D contribution graphs; ccusage v20.0.17 local analytics for 15+ agents; Codex CLI /usage command (v0.140.0); enterprise cost $150-250/developer/month; Microsoft budget exhaustion incident; prompt caching 59% cost reduction; agentic workflows 10-100x more tokens than chat
+   - SEO targets: "codex cli token usage tracking", "token burn developer productivity 2026", "AI coding agent cost metrics", "tokscale leaderboard", "ccusage token analytics", "codex cli /usage command", "agent-first development paradigm"
+
+---
+
 ## The Super App Gambit — Codex ChatGPT Merger, Agent IDE War, Distribution Strategy (2026-07-19 Hourly Article Run)
 
 1. ✅ **The Super App Gambit: What Codex's Absorption into ChatGPT Means for the Agent IDE War** — Written 2026-07-19 → `2026-07-19-super-app-gambit-codex-chatgpt-merger-agent-ide-war-distribution-strategy.md`
