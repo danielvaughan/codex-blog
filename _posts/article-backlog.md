@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Super App Gambit — Codex ChatGPT Merger, Agent IDE War, Distribution Strategy (2026-07-19 Hourly Article Run)
+
+1. ✅ **The Super App Gambit: What Codex's Absorption into ChatGPT Means for the Agent IDE War** — Written 2026-07-19 → `2026-07-19-super-app-gambit-codex-chatgpt-merger-agent-ide-war-distribution-strategy.md`
+   - Source: article-ideas.md — "The Super App Gambit — What Codex's Absorption into ChatGPT Means for the Agent IDE War" (High priority, added 2026-07-13); OpenAI 9 July 2026 merger of Codex into ChatGPT desktop app; ChatGPT Work launch; Microsoft Copilot super app bundling; Claude Code standalone specialist strategy; Cursor $4B ARR and SpaceX $60B acquisition; GitHub Copilot market share decline from 67% to 51%; JetBrains AI Pulse survey adoption data; DMA regulatory implications; Codex CLI v0.144.6 unchanged by merger; named profiles for GUI vs CLI workflow separation
+   - SEO targets: "codex chatgpt merger super app", "agent IDE war 2026", "codex vs claude code distribution", "chatgpt super app strategy coding", "openai codex bundling distribution", "claude code specialist vs super app", "codex cli chatgpt desktop workflow"
+
+---
+
 ## Taste as the New Technical Debt — Design Abstraction, AI Code Generation, Human Frontier (2026-07-19 Hourly Article Run)
 
 1. ✅ **Taste as the New Technical Debt: Why Design Abstraction Is the Last Human Frontier in AI-Generated Codebases** — Written 2026-07-19 → `2026-07-19-taste-as-technical-debt-design-abstraction-ai-code-generation-codex-cli-human-frontier.md`
