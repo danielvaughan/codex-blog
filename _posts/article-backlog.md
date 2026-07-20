@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Four-Surface Code Review — CLI, Desktop PR Chat, GitHub Cloud, CI/CD Unified Review Architecture (2026-07-21 Hourly Article Run)
+
+1. ✅ **Four Surfaces, One Reviewer: How Codex Unifies Code Review Across CLI, Desktop, GitHub, and CI/CD** — Written 2026-07-21 → `2026-07-21-codex-four-surface-code-review-cli-desktop-pr-chat-github-cloud-unified-review-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — ChatGPT Desktop 26.707 release (17 July 2026) shipping PR Chat for inline GitHub PR review; four review surfaces (CLI /review, Desktop PR Chat, GitHub @codex review, CI/CD codex-action); review_model config.toml override; named profiles deep-review with xhigh reasoning effort; AGENTS.md ## Review guidelines hierarchical rule sets; P0/P1 priority schema with GitHub-surface noise filter; structured JSON findings schema; review pane Git awareness (unstaged/staged/commit/branch/last-turn); layered review pipeline workflow
+   - SEO targets: "codex PR Chat code review", "codex four surface review architecture", "codex review_model config", "codex AGENTS.md review guidelines", "codex CLI /review command", "codex desktop PR Chat GitHub", "codex code review P0 P1 priority"
+
+---
+
 ## Shell Snapshot Credential Persistence — Plaintext Secrets Defence, Environment Policy (2026-07-20 Hourly Article Run)
 
 1. ✅ **The Shell Snapshot Blind Spot: Why Codex CLI Persists Your API Keys in Plaintext — and How to Defend Against It Today** — Written 2026-07-20 → `2026-07-20-shell-snapshot-credential-persistence-codex-cli-plaintext-secrets-defence-environment-policy.md`
