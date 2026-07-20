@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Comment and Control — CI/CD Prompt Injection, Claude Code Action Supply Chain Attack, Codex CLI GitHub Actions Defence (2026-07-20 Hourly Article Run)
+
+1. ✅ **Comment and Control: How a Single GitHub Issue Broke Three AI Agent CI/CD Pipelines — and What Codex CLI's Proxy Architecture Gets Right** — Written 2026-07-20 → `2026-07-20-comment-and-control-ci-cd-prompt-injection-claude-code-action-codex-cli-github-actions-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — GMO Flatt Security RyotaK disclosure of Claude Code GitHub Action supply chain vulnerability (CVSS 7.8, $4,800 bounty); checkWritePermissions [bot] suffix bypass; allowed_non_write_users wildcard misconfiguration; /proc/self/environ OIDC token exfiltration; Cline npm token theft in-the-wild February 2026; VentureBeat Comment and Control simultaneous compromise of Claude Code, Gemini CLI Action, and Copilot Coding Agent; Microsoft Threat Intelligence analysis; Cloud Security Alliance Agents Rule of Two; Codex codex-action@v1 Responses API proxy credential isolation; drop-sudo irreversible privilege dropping; allow-users/allow-bots actor gating; sandbox modes; Anthropic fix in claude-code-action v1.0.94; GITHUB_TOKEN scope restriction; OIDC federation migration
+   - SEO targets: "comment and control prompt injection github actions", "claude code github action supply chain attack", "codex cli github action security proxy", "CI/CD prompt injection AI coding agent", "codex-action security architecture", "agents rule of two CI/CD", "github actions AI agent prompt injection defence"
+
+---
+
 ## The Agentic Blast Radius — GPT-5.6 Sol File Deletions, Codex CLI Sandbox Defence (2026-07-20 Hourly Article Run)
 
 1. ✅ **The Agentic Blast Radius: Why GPT-5.6 Sol's File Deletions Prove the Sandbox Was Never Optional** — Written 2026-07-20 → `2026-07-20-agentic-blast-radius-gpt56-sol-file-deletions-codex-cli-sandbox-defence.md`
