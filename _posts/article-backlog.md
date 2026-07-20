@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## UnderSpecBench — Coding Agents Guessing on DevOps Tasks, Action-Boundary Violations, Codex CLI Approval Defence (2026-07-20 Hourly Article Run)
+
+1. ✅ **Coding Agents Are Guessing: What UnderSpecBench Reveals About DevOps Safety — and How Codex CLI's Approval Architecture Defends Against It** — Written 2026-07-20 → `2026-07-20-underspecbench-coding-agents-guessing-devops-action-boundary-violations-codex-cli-approval-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current research — Ji et al. arXiv:2607.02294 (July 2, 2026) UnderSpecBench benchmark; 69 task families, 2,208 prompt variants, 55.8-67.8% action-boundary violation rate across OpenCode, Claude Code, and Codex; target underspecification drives 75.1% wrong-target at highest level; blast-radius warnings ineffective; shared control-plane OverScope 59.8-77.2%; same model (Codex-5.1-mini) asks user 31.8% under native harness vs 10.5% under OpenCode; companion paper arXiv:2607.02389 Steerability via Constraints 54.5%→90.9% reviewer recall; mapped to Codex CLI AGENTS.md target binding, approval_policy tiers, sandbox_mode, writes mode (v0.144.0), PreToolUse hooks, requirements.toml fleet governance, named profiles
+   - SEO targets: "UnderSpecBench codex cli", "coding agents guessing DevOps", "action boundary violations coding agent", "codex cli approval policy DevOps", "underspecified instructions coding agent safety", "codex cli DevOps production defence", "target underspecification coding agent"
+
+---
+
 ## Comment and Control — CI/CD Prompt Injection, Claude Code Action Supply Chain Attack, Codex CLI GitHub Actions Defence (2026-07-20 Hourly Article Run)
 
 1. ✅ **Comment and Control: How a Single GitHub Issue Broke Three AI Agent CI/CD Pipelines — and What Codex CLI's Proxy Architecture Gets Right** — Written 2026-07-20 → `2026-07-20-comment-and-control-ci-cd-prompt-injection-claude-code-action-codex-cli-github-actions-defence.md`
