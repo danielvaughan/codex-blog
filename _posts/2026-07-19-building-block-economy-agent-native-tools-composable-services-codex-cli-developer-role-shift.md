@@ -185,7 +185,7 @@ The developer who thrives in the building block economy is not the one who knows
 
 [^5]: OpenAI Developers, "Model Context Protocol | ChatGPT Learn," 2026. [https://developers.openai.com/codex/mcp](https://developers.openai.com/codex/mcp)
 
-[^6]: Vercel, "AI SDK 6," 2026. [https://vercel.com/blog/ai-sdk-6](https://vercel.com/blog/ai-sdk-6) (Note: AI SDK 7 details sourced from Vercel's Agent Stack documentation)
+[^6]: Vercel, "AI SDK 7," 25 June 2026. [https://vercel.com/blog/ai-sdk-7](https://vercel.com/blog/ai-sdk-7)
 
 [^7]: Fortune, "The supervisor class: how AI agents are remaking the developer's career," March 2026. [https://fortune.com/2026/03/31/ai-agents-vibe-coding-developer-skills-supervisor-class/](https://fortune.com/2026/03/31/ai-agents-vibe-coding-developer-skills-supervisor-class/)
 

@@ -42,7 +42,7 @@ An agent operating within a 272,000-token input window [^3] cannot hold an entir
 
 ### Training rewards completion, not simplification
 
-LLMs are trained on code that was written, not code that was deleted. The training signal overwhelmingly rewards producing new tokens. Refactoring — which at its core means reducing or reorganising tokens — runs against the gradient. The agentic refactoring study by Wyrich et al. confirmed this empirically: agents performed refactoring in 26.1% of commits, but 78% of those were low-level consistency edits (variable renaming, formatting) rather than design-level simplification [^4].
+LLMs are trained on code that was written, not code that was deleted. The training signal overwhelmingly rewards producing new tokens. Refactoring — which at its core means reducing or reorganising tokens — runs against the gradient. The agentic refactoring study by Horikawa et al. confirmed this empirically: agents performed refactoring in 26.1% of commits, but 78% of those were low-level consistency edits (variable renaming, formatting) rather than design-level simplification [^4].
 
 ### Additive changes are safer in sandbox environments
 
@@ -64,7 +64,7 @@ flowchart TD
 
 ## Agentic Entropy: The Hidden Cost
 
-Chakraborty et al. coined the term *agentic entropy* in their April 2026 paper to describe a subtler problem than raw complexity metrics capture [^6]. Traditional diff-based code review shows *what* changed but hides the planning steps, tool-call sequences, and cross-file reasoning that drove the agent's decisions. When an agent refactors without deep semantic understanding of why code was structured a particular way, it can introduce *structural fragility* — code that passes unit tests but fails under production edge cases [^6].
+Casserini et al. coined the term *agentic entropy* in their April 2026 paper to describe a subtler problem than raw complexity metrics capture [^6]. Traditional diff-based code review shows *what* changed but hides the planning steps, tool-call sequences, and cross-file reasoning that drove the agent's decisions. When an agent refactors without deep semantic understanding of why code was structured a particular way, it can introduce *structural fragility* — code that passes unit tests but fails under production edge cases [^6].
 
 This connects to what researchers at five independent institutions simultaneously identified in early 2026: *comprehension debt* [^7]. AI coding tools generate code 5–7× faster than developers can understand it. The debt does not appear in velocity dashboards or sprint reviews. It surfaces six to eighteen months later when nobody can confidently modify, debug, or own the code.
 
@@ -193,17 +193,17 @@ Every hour saved on implementation must fund at least fifteen minutes of complex
 
 ## Citations
 
-[^1]: He, C., Miller, C., Vasilescu, B., & Herbsleb, J. (2026). "Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects." *Proceedings of the 23rd International Conference on Mining Software Repositories (MSR '26)*, Rio de Janeiro, Brazil. [https://cmustrudel.github.io/papers/msr2026he.pdf](https://cmustrudel.github.io/papers/msr2026he.pdf)
+[^1]: He, H., Miller, C., Agarwal, S., Kästner, C., & Vasilescu, B. (2026). "Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects." *Proceedings of the 23rd International Conference on Mining Software Repositories (MSR '26)*, Rio de Janeiro, Brazil. [https://cmustrudel.github.io/papers/msr2026he.pdf](https://cmustrudel.github.io/papers/msr2026he.pdf)
 
 [^2]: GitClear. (2026). "The Maintainability Gap: 2026 AI Code Quality Research." [https://www.gitclear.com/the_ai_code_quality_maintainability_gap](https://www.gitclear.com/the_ai_code_quality_maintainability_gap)
 
 [^3]: OpenAI. (2026). "Codex CLI Changelog — v0.144.6." GPT-5.6 Sol, Terra, and Luna context windows corrected to 272,000 input tokens. [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
 
-[^4]: Wyrich, M., et al. (2025). "Agentic Refactoring: An Empirical Study of AI Coding Agents." arXiv:2511.04824. [https://arxiv.org/abs/2511.04824](https://arxiv.org/abs/2511.04824)
+[^4]: Horikawa, K., Li, H., Kashiwa, Y., Adams, B., Iida, H., & Hassan, A.E. (2025). "Agentic Refactoring: An Empirical Study of AI Coding Agents." arXiv:2511.04824. [https://arxiv.org/abs/2511.04824](https://arxiv.org/abs/2511.04824)
 
 [^5]: OpenAI. (2026). "Codex CLI Documentation." [https://developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
 
-[^6]: Chakraborty, S., et al. (2026). "Beyond the 'Diff': Addressing Agentic Entropy in Agentic Software Development." arXiv:2604.16323. [https://arxiv.org/abs/2604.16323](https://arxiv.org/abs/2604.16323)
+[^6]: Casserini, M., Facchini, A., & Ferrario, A. (2026). "Beyond the 'Diff': Addressing Agentic Entropy in Agentic Software Development." arXiv:2604.16323. [https://arxiv.org/abs/2604.16323](https://arxiv.org/abs/2604.16323)
 
 [^7]: StepTo. (2026). "Comprehension Debt: The AI Code Crisis Your Metrics Are Completely Missing." [https://stepto.net/blog/comprehension-debt-ai-code-understanding-2026](https://stepto.net/blog/comprehension-debt-ai-code-understanding-2026)
 
