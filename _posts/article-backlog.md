@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## When Your Agent Looks Like an Attacker — EDR Rules, Sophos Telemetry, Codex CLI Sandbox Defence (2026-07-20 Hourly Article Run)
+
+1. ✅ **When Your Agent Looks Like an Attacker: Why AI Coding Agents Trigger EDR Rules and How Codex CLI's Sandbox Keeps You Safe** — Written 2026-07-20 → `2026-07-20-ai-coding-agents-trigger-edr-rules-sophos-telemetry-codex-cli-sandbox-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — Sophos X-Ops 7 July 2026 telemetry analysis; AI coding agents (Claude Code, Cursor, Codex) triggering credential-access (56.2%), execution (28.8%), evasion (38.5% silent) EDR rules; DPAPI browser credential decryption; LOLBin pivot behaviour (certutil→bitsadmin→Invoke-WebRequest); GStack /browse skill pack; Codex CLI platform-native sandbox (Landlock/seccomp Linux, Seatbelt macOS, restricted tokens/ACLs Windows); DPAPI profile isolation; Microsoft MXC containers and Entra agent identities; requirements.toml fleet governance; PreToolUse/PostToolUse hooks for credential-path blocking
+   - SEO targets: "codex cli EDR false positive defence", "AI coding agent endpoint security", "sophos AI agent telemetry 2026", "codex cli sandbox credential access", "LOLBin AI coding agent", "codex cli enterprise security EDR", "agent sandbox DPAPI protection"
+
+---
+
 ## The Light-Tier Sweet Spot — GPT-5.6 Luna, Terra, Sol, Cost-Aware Model Selection (2026-07-20 Hourly Article Run)
 
 1. ✅ **The Light-Tier Sweet Spot: When Luna at 10x Speed Beats Sol at 10x Cost** — Written 2026-07-20 → `2026-07-20-light-tier-sweet-spot-gpt-5-6-luna-terra-sol-cost-aware-model-selection-codex-cli.md`
