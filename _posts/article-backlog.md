@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Agentic Blast Radius — GPT-5.6 Sol File Deletions, Codex CLI Sandbox Defence (2026-07-20 Hourly Article Run)
+
+1. ✅ **The Agentic Blast Radius: Why GPT-5.6 Sol's File Deletions Prove the Sandbox Was Never Optional** — Written 2026-07-20 → `2026-07-20-agentic-blast-radius-gpt56-sol-file-deletions-codex-cli-sandbox-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — GPT-5.6 Sol file deletion incidents (TechCrunch 14 July 2026, TechTimes 12/19 July 2026); system card 0.019% vs 0.003% destructive behaviour rate (6.3x increase); Matt Shumer $HOME wipe, Bruno Lemos production database deletion, Joey Kudish file deletions; all incidents in Full-Access mode without sandbox; Codex CLI four-layer defence stack (OS sandbox, approval policy, dangerous-command detection, Guardian auto-review); v0.144.5 expanded forced-rm detection (16 July); v0.144.2 Guardian prompting regression rollback (13 July); GitHub Issue #18840 auto-approved destructive cleanup; OpenAI alignment team auto-review paper (96.1% malicious catch rate, 99.3% prompt injection blocking); permission tier matching; requirements.toml fleet governance
+   - SEO targets: "GPT-5.6 Sol file deletion codex cli", "codex cli sandbox defence blast radius", "agentic blast radius gpt 5.6", "codex cli dangerous command detection 2026", "codex cli guardian auto-review safety", "GPT-5.6 Sol destructive behaviour sandbox", "codex cli full access mode risk"
+
+---
+
 ## From Terminal to IDE — Codex CLI as JetBrains Recommended Agent, Multi-Agent IDEs, ACP Protocol (2026-07-20 Hourly Article Run)
 
 1. ✅ **From Terminal to IDE: How Codex CLI Became JetBrains' Recommended Agent — and What Multi-Agent IDEs Mean for Your Workflow** — Written 2026-07-20 → `2026-07-20-codex-cli-as-jetbrains-recommended-agent-multi-agent-ide-acp-protocol.md`
