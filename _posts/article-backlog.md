@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## From Terminal to IDE — Codex CLI as JetBrains Recommended Agent, Multi-Agent IDEs, ACP Protocol (2026-07-20 Hourly Article Run)
+
+1. ✅ **From Terminal to IDE: How Codex CLI Became JetBrains' Recommended Agent — and What Multi-Agent IDEs Mean for Your Workflow** — Written 2026-07-20 → `2026-07-20-codex-cli-as-jetbrains-recommended-agent-multi-agent-ide-acp-protocol.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — JetBrains made Codex recommended agent June 2026; GitHub Copilot shipped Codex as agent provider 7 July 2026; Agent Client Protocol (ACP) JSON-RPC 2.0 open standard; benchmark results (Java 43.9%, C# 62.6%, Python 20.2% solve rates); Codex vs Junie vs Claude vs Copilot operation modes; config.toml and AGENTS.md carry-over; JetBrains Air multi-agent orchestration; ACP vs MCP complementary protocols; ACP Registry; task-appropriate routing patterns
+   - SEO targets: "codex cli jetbrains recommended agent", "agent client protocol ACP codex", "multi-agent IDE workflow 2026", "codex cli jetbrains integration", "ACP vs MCP coding agent", "jetbrains codex claude junie comparison", "codex cli IDE agent provider"
+
+---
+
 ## The Context Window Gap — GPT-5.6 Advertised vs Effective Budget, Compaction Strategy (2026-07-20 Hourly Article Run)
 
 1. ✅ **The Context Window Gap: Why Codex CLI Caps GPT-5.6's Million-Token Window at 272K — and Why That's Sensible Engineering** — Written 2026-07-20 → `2026-07-20-context-window-gap-codex-cli-gpt56-advertised-vs-effective-budget-compaction-strategy.md`
