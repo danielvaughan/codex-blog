@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Light-Tier Sweet Spot — GPT-5.6 Luna, Terra, Sol, Cost-Aware Model Selection (2026-07-20 Hourly Article Run)
+
+1. ✅ **The Light-Tier Sweet Spot: When Luna at 10x Speed Beats Sol at 10x Cost** — Written 2026-07-20 → `2026-07-20-light-tier-sweet-spot-gpt-5-6-luna-terra-sol-cost-aware-model-selection-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Light-Tier Sweet Spot — When 'Good Enough' at 10x Speed Beats 'Perfect' at 10x Cost" (Medium priority, added 2026-07-14); GPT-5.6 Sol/Terra/Luna three-tier pricing ($5/$30, $2.50/$15, $1/$6 per 1M tokens); Artificial Analysis cost-per-task benchmarks ($1.04 Sol, $0.55 Terra, $0.21 Luna); Terminal-Bench 2.1 scores (88.8% Sol, 84.3% Luna); MRCR long-context gap (91.5% Sol vs 41.3% Luna); Pareto frontier analysis; named profiles for tiered selection; escalation pattern; reasoning effort as second cost lever; rollout token budgets (v0.144.0)
+   - SEO targets: "codex cli model selection cost", "gpt 5.6 luna vs sol cost", "codex cli named profiles model tier", "cost aware model selection coding agent", "luna terra sol codex workflow", "light tier sweet spot coding agent 2026"
+
+---
+
 ## The Three Parallel-Work Primitives in Codex CLI — /agent, /fork, /side, Concurrency (2026-07-20 Hourly Article Run)
 
 1. ✅ **The Three Parallel-Work Primitives in Codex CLI: /agent, /fork, and /side** — Written 2026-07-20 → `2026-07-20-three-parallel-work-primitives-codex-cli-agent-fork-side-concurrency.md`
