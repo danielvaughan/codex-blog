@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Complexity Creep — AI Coding Agents, Codebase Entropy, Refactoring Defence (2026-07-20 Hourly Article Run)
+
+1. ✅ **Complexity Creep: Why AI Coding Agents Add More Than They Simplify** — Written 2026-07-20 → `2026-07-20-complexity-creep-ai-coding-agents-codebase-entropy-codex-cli-refactoring-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Complexity Creep: Why All AI Models Increase Codebase Complexity and What to Do About It" (Medium priority, added 2026-07-12); He et al. MSR 2026 "Speed at the Cost of Quality" 806 repos 41% complexity increase; GitClear 2026 Maintainability Gap 623M code changes 81% duplication rise; arXiv:2604.16323 "Beyond the Diff" agentic entropy; arXiv:2606.20882 Substrate Collapse authorship metrics invalidation; comprehension debt 5-7x generation vs understanding gap; arXiv:2511.04824 agentic refactoring 26.1% low-level edits; Codex CLI AGENTS.md complexity constraints, PostToolUse hooks, named refactoring profiles, scheduled complexity audits
+   - SEO targets: "AI coding agent complexity increase", "codex cli complexity management", "agentic entropy codebase", "AI code duplication problem 2026", "comprehension debt AI coding", "codex cli refactoring profile", "AI technical debt evidence 2026"
+
+---
+
 ## The Writes Mode Permission Primitive — Read-Write Approval Gap, MCP Annotations, Least Privilege (2026-07-20 Hourly Article Run)
 
 1. ✅ **The Writes Mode Permission Primitive: How Codex CLI Finally Solved the Read-Write Approval Gap** — Written 2026-07-20 → `2026-07-20-writes-mode-permission-primitive-codex-cli-approval-least-privilege.md`
