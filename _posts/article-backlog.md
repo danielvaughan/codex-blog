@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Harness Hypothesis — Co-Developing Model and Tooling, Organisational Design (2026-07-20 Hourly Article Run)
+
+1. ✅ **The Harness Hypothesis: Why Co-Developing Model and Tooling Under One Team Produces Better Agents** — Written 2026-07-20 → `2026-07-20-harness-hypothesis-co-developing-model-tooling-better-agents-codex-cli-organisational-design.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Harness Hypothesis: Why Co-Developing Model and Tooling Under One Team Produces Better Agents" (Medium priority, added 2026-07-13); OpenAI 3-person team 1M lines 1500 PRs harness engineering pilot; Martin Fowler harness engineering framework; Bustamante model-harness fit research; Terminal-Bench 2.0 harness-only +13.7pp gains; Endor Labs 26-point harness gap; wire contract problem (edit ops, subagent dispatch, memory writes, citation tags); five-layer production harness; deletion principle; Codex CLI AGENTS.md, PostToolUse hooks, named profiles
+   - SEO targets: "harness engineering codex cli", "model harness fit 2026", "agent harness architecture", "codex cli harness best practices", "harness hypothesis organisational design", "co-design model tooling agents", "wire contract AI coding agent"
+
+---
+
 ## Complexity Creep — AI Coding Agents, Codebase Entropy, Refactoring Defence (2026-07-20 Hourly Article Run)
 
 1. ✅ **Complexity Creep: Why AI Coding Agents Add More Than They Simplify** — Written 2026-07-20 → `2026-07-20-complexity-creep-ai-coding-agents-codebase-entropy-codex-cli-refactoring-defence.md`
