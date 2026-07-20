@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Shell Snapshot Credential Persistence — Plaintext Secrets Defence, Environment Policy (2026-07-20 Hourly Article Run)
+
+1. ✅ **The Shell Snapshot Blind Spot: Why Codex CLI Persists Your API Keys in Plaintext — and How to Defend Against It Today** — Written 2026-07-20 → `2026-07-20-shell-snapshot-credential-persistence-codex-cli-plaintext-secrets-defence-environment-policy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current security research — GitHub Issue #30971 (3 July 2026) and #32327 (11 July 2026) documenting shell_snapshots persisting secret env vars with PWD/OLDPWD-only denylist; codex-rs/core/src/shell_snapshot.rs EXCLUDED_EXPORT_VARS constant; macOS credential-helper trigger during snapshot creation; GitGuardian State of Secrets Sprawl 2026 (28.65M secrets, 81% AI-service leak surge, 3.2% AI-assisted commit leak rate); Claude Code cross-session credential leakage Issue #72274; Netwrix plaintext credential storage research across AI coding agents; shell_environment_policy inherit modes (all/core/none), automatic KEY/SECRET/TOKEN filter, exclude patterns, processing pipeline; community patch with exact + pattern denylist, regression tests; requirements.toml fleet governance; Infisical Agent Vault credential broker pattern
+   - SEO targets: "codex cli shell snapshot credential leak", "codex cli plaintext secrets persistence", "shell_environment_policy codex cli security", "AI coding agent credential storage risk", "codex cli secrets defence environment policy", "shell snapshot secret environment variables codex", "codex cli inherit core none security"
+
+---
+
 ## UnderSpecBench — Coding Agents Guessing on DevOps Tasks, Action-Boundary Violations, Codex CLI Approval Defence (2026-07-20 Hourly Article Run)
 
 1. ✅ **Coding Agents Are Guessing: What UnderSpecBench Reveals About DevOps Safety — and How Codex CLI's Approval Architecture Defends Against It** — Written 2026-07-20 → `2026-07-20-underspecbench-coding-agents-guessing-devops-action-boundary-violations-codex-cli-approval-defence.md`
