@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Context Window Gap — GPT-5.6 Advertised vs Effective Budget, Compaction Strategy (2026-07-20 Hourly Article Run)
+
+1. ✅ **The Context Window Gap: Why Codex CLI Caps GPT-5.6's Million-Token Window at 272K — and Why That's Sensible Engineering** — Written 2026-07-20 → `2026-07-20-context-window-gap-codex-cli-gpt56-advertised-vs-effective-budget-compaction-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — v0.144.6 corrected GPT-5.6 context windows to 272K on 18 July 2026; GitHub Issue #32806 community backlash over 353K→258K regression; 1.05M advertised vs 272K effective; three-tier allocation (400K session→272K input→258K effective); lost-in-the-middle research; quadratic cost scaling; compaction architecture comparison (Codex CLI single-layer vs Claude Code three-tier vs OpenCode stepped governance); MCP schema overhead per turn; config.toml context management keys
+   - SEO targets: "codex cli context window gap", "GPT-5.6 context window 272K", "codex cli compaction strategy", "advertised vs effective context window LLM", "codex cli token management 2026", "context window budget codex cli", "lost in the middle coding agent"
+
+---
+
 ## When Your Agent Looks Like an Attacker — EDR Rules, Sophos Telemetry, Codex CLI Sandbox Defence (2026-07-20 Hourly Article Run)
 
 1. ✅ **When Your Agent Looks Like an Attacker: Why AI Coding Agents Trigger EDR Rules and How Codex CLI's Sandbox Keeps You Safe** — Written 2026-07-20 → `2026-07-20-ai-coding-agents-trigger-edr-rules-sophos-telemetry-codex-cli-sandbox-defence.md`

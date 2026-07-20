@@ -2,7 +2,7 @@
 title: "codex-plugin-cc: OpenAI Ships Codex Inside Claude Code"
 description: "On March 31, 2026, OpenAI published openai/codex-plugin-cc — an official plugin that lets Claude Code users run Codex reviews and delegate tasks without."
 date: 2026-03-31T09:00:00+00:00
-last_modified_at: 2026-07-20T10:32:42+01:00
+last_modified_at: 2026-07-20T12:17:21+01:00
 tags:
   - ecosystem
   - plugins
