@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Three Parallel-Work Primitives in Codex CLI — /agent, /fork, /side, Concurrency (2026-07-20 Hourly Article Run)
+
+1. ✅ **The Three Parallel-Work Primitives in Codex CLI: /agent, /fork, and /side** — Written 2026-07-20 → `2026-07-20-three-parallel-work-primitives-codex-cli-agent-fork-side-concurrency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Three Parallel-Work Primitives in Codex CLI" (Medium-High priority, added 2026-07-20); /side ephemeral forks (v0.122.0+); /fork persistent conversation branches with worktree isolation; /agent thread switching; subagent infrastructure (max_threads, max_depth, worker/explorer/default types); composition patterns (Plan→Fresh-Implement→Side-Verify); comparison with Claude Code background agents and dynamic workflows
+   - SEO targets: "codex cli parallel work primitives", "codex cli /fork /side /agent", "codex cli concurrency workflow", "codex cli thread switching", "parallel agent work codex 2026", "codex cli worktree fork isolation"
+
+---
+
 ## The Harness Hypothesis — Co-Developing Model and Tooling, Organisational Design (2026-07-20 Hourly Article Run)
 
 1. ✅ **The Harness Hypothesis: Why Co-Developing Model and Tooling Under One Team Produces Better Agents** — Written 2026-07-20 → `2026-07-20-harness-hypothesis-co-developing-model-tooling-better-agents-codex-cli-organisational-design.md`
