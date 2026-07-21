@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Behind the Corporate Firewall — System Proxy PAC/WPAD, Multi-Provider Model Routing, Enterprise Deployment (2026-07-21 Hourly Article Run)
+
+1. ✅ **Behind the Corporate Firewall: How Codex CLI Conquered PAC, WPAD, and Multi-Provider Model Routing** — Written 2026-07-21 → `2026-07-21-codex-cli-behind-the-corporate-firewall-system-proxy-pac-wpad-model-providers-enterprise-deployment.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — v0.143.0 (late June 2026) system proxy support for macOS and Windows; PRs #26708 (Windows) and #26709 (macOS) adding PAC/WPAD resolution; SystemConfiguration/CFNetworkCopyProxiesForURL on macOS; WinHttpGetIEProxyConfigForCurrentUser on Windows; respect_system_proxy feature flag; SHA-256 URL cache keys; UnsupportedProxyScheme loud failure; features.network_proxy sandbox domain allowlists; model_provider multi-cloud routing (Bedrock, Azure, custom gateways); command-backed auth token refresh; project-scope security boundary preventing base_url override; requirements.toml fleet governance via MDM; codex doctor enterprise diagnostics
+   - SEO targets: "codex cli corporate firewall deployment", "codex cli PAC WPAD system proxy", "codex cli enterprise network configuration", "codex cli Amazon Bedrock model provider", "codex cli Azure OpenAI configuration", "codex cli requirements.toml fleet governance", "codex cli proxy enterprise 2026"
+
+---
+
 ## Four-Surface Code Review — CLI, Desktop PR Chat, GitHub Cloud, CI/CD Unified Review Architecture (2026-07-21 Hourly Article Run)
 
 1. ✅ **Four Surfaces, One Reviewer: How Codex Unifies Code Review Across CLI, Desktop, GitHub, and CI/CD** — Written 2026-07-21 → `2026-07-21-codex-four-surface-code-review-cli-desktop-pr-chat-github-cloud-unified-review-architecture.md`
