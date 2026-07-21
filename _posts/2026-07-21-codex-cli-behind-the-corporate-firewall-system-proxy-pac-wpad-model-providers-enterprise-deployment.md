@@ -12,7 +12,7 @@ tags: ["codex-cli", "enterprise", "proxy", "PAC", "WPAD", "model-provider", "Bed
 
 AI coding agents work brilliantly on a developer's home Wi-Fi. Getting them through a corporate network — with intercepting proxies, PAC scripts, WPAD auto-discovery, custom certificate authorities, and compliance requirements routing traffic through approved cloud providers — is another matter entirely. Until recently, Codex CLI was no exception: enterprise teams either punched holes in their firewall or gave up.
 
-Version 0.143.0, released in late June 2026, changed that[^1]. Codex now routes both authentication and Responses API traffic through macOS and Windows system proxies, including PAC and WPAD autoconfiguration. Combined with its mature `model_provider` system for routing inference through Amazon Bedrock, Azure OpenAI, or custom gateways, Codex CLI is now deployable on locked-down corporate networks without bespoke workarounds.
+Version 0.143.0, released on 8 July 2026, changed that[^1]. Codex now routes both authentication and Responses API traffic through macOS and Windows system proxies, including PAC and WPAD autoconfiguration. Combined with its mature `model_provider` system for routing inference through Amazon Bedrock, Azure OpenAI, or custom gateways, Codex CLI is now deployable on locked-down corporate networks without bespoke workarounds.
 
 This article walks through the full enterprise network configuration stack: system proxy resolution, sandboxed network policy, multi-provider model routing, and fleet governance via `requirements.toml`.
 

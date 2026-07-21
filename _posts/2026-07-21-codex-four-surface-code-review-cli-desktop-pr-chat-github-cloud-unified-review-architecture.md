@@ -10,7 +10,7 @@ tags: ["codex-cli", "code-review", "PR-Chat", "review-surfaces", "AGENTS.md", "r
 
 ---
 
-Code review tooling has historically been bolted onto one surface at a time — a linter in CI, a bot on pull requests, a keyboard shortcut in the IDE. Codex has taken a different approach. As of the 26.707 ChatGPT Desktop release on 17 July 2026 [^1], the platform now provides a coherent review experience across four distinct surfaces: the terminal `/review` command, the desktop PR Chat pane, the GitHub cloud `@codex review` trigger, and the `codex-action` CI/CD integration. Each surface addresses a different stage of the development lifecycle, yet all share the same reviewer engine, the same `AGENTS.md` guidelines, and the same priority schema.
+Code review tooling has historically been bolted onto one surface at a time — a linter in CI, a bot on pull requests, a keyboard shortcut in the IDE. Codex has taken a different approach. As of the 26.707 ChatGPT Desktop release on 9 July 2026 [^1], the platform now provides a coherent review experience across four distinct surfaces: the terminal `/review` command, the desktop PR Chat pane, the GitHub cloud `@codex review` trigger, and the `codex-action` CI/CD integration. Each surface addresses a different stage of the development lifecycle, yet all share the same reviewer engine, the same `AGENTS.md` guidelines, and the same priority schema.
 
 This article maps those four surfaces, explains how they interconnect, and shows the configuration that makes them useful in practice.
 

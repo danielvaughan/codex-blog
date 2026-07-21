@@ -12,7 +12,7 @@ tags: ["codex-cli", "gpt-5.6", "luna", "terra", "sol", "model-selection", "cost-
 
 GPT-5.6 shipped to general availability on 9 July 2026 with three tiers: Sol ($5/$30 per 1M input/output tokens), Terra ($2.50/$15), and Luna ($1/$6) [^1]. The instinct is to reach for Sol — the flagship — and stay there. That instinct is expensive and, for most Codex CLI workflows, wrong.
 
-Luna costs roughly 80% less per solved task than Sol [^2]. On Terminal-Bench 2.1, the benchmark most relevant to CLI agent work, Luna scores 84.3% against Sol's 88.8% [^3]. That 4.5-point gap disappears entirely when you factor in what matters for iterative development: cost per revision cycle, not score per single attempt.
+Luna costs roughly 80% less per solved task than Sol [^2]. On Terminal-Bench 2.1, the benchmark most relevant to CLI agent work, Luna scores 84.7% against Sol's 88.8% [^3]. That 4.1-point gap disappears entirely when you factor in what matters for iterative development: cost per revision cycle, not score per single attempt.
 
 This article explores when to use each tier, how to wire tiered model selection into Codex CLI workflows, and why the cheapest model that clears the quality bar is almost always the right first choice.
 

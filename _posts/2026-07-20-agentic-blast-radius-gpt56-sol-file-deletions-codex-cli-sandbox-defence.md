@@ -212,7 +212,7 @@ The sandbox was never optional. Sol just proved it.
 
 ## Citations
 
-[^1]: K. Ye, "OpenAI's new flagship model deletes files on its own, people keep warning," *TechCrunch*, 14 July 2026. [https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/](https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/)
+[^1]: Julie Bort, "OpenAI's new flagship model deletes files on its own, people keep warning," *TechCrunch*, 14 July 2026. [https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/](https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/)
 
 [^2]: "GPT-5.6 Sol's Shell Bug Wiped a Mac: OpenAI Had Flagged the Risk 16 Days Earlier," *TechTimes*, 12 July 2026. [https://www.techtimes.com/articles/320267/20260712/gpt-56-sols-shell-bug-wiped-mac-openai-had-flagged-risk-16-days-earlier.htm](https://www.techtimes.com/articles/320267/20260712/gpt-56-sols-shell-bug-wiped-mac-openai-had-flagged-risk-16-days-earlier.htm)
 
