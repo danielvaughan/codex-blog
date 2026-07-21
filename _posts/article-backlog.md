@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## PhantomSkill and VulMask — Agent Skill Supply-Chain Attack, Codex CLI Sandbox Runtime Defence (2026-07-21 Hourly Article Run)
+
+1. ✅ **PhantomSkill and VulMask: Why Static Scanners Miss Agent Skill Malware — and How Codex CLI's Runtime Stack Catches What They Cannot** — Written 2026-07-21 → `2026-07-21-phantomskill-vulmask-agent-skill-supply-chain-attack-codex-cli-sandbox-runtime-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current research — Lin & Yu arXiv:2606.19191 (17 June 2026) PhantomSkill supply-chain attack framework targeting agent skill auxiliary resources; VulMask payload rewriting (58.8% ASR on GPT-5.5, 96.6% utility preserved, 11.4% warning rate); four attack objectives (credential exfiltration 52.9%, command execution 57.1%, agent manipulation 60.0%, destruction 79.2%); Cisco LLM scanner drops from 100% to 76.3% detection under VulMask; Ji et al. arXiv:2607.02357 (2 July 2026) Cloak and Detonate: SkillCloak structural obfuscation (96% bypass on Cisco hybrid) and SFS Packing (99.8% bypass on 5/6 static scanners); 1,613 malicious skills from OpenClaw; SkillDetonate runtime auditor (97% detection at 2% FP, stable under obfuscation); mapped to Codex CLI Landlock/Seatbelt sandbox, approval_policy MCP gating, enabled_tools/disabled_tools filtering, requirements.toml fleet MCP allowlist, PreToolUse/PostToolUse hooks, Guardian auto-review
+   - SEO targets: "PhantomSkill VulMask agent skill malware codex cli", "agent skill supply chain attack defence", "codex cli MCP tool approval security", "SkillCloak scanner evasion coding agent", "codex cli sandbox runtime skill defence", "VulMask vulnerability masking coding agent", "SkillDetonate runtime detection agent skills"
+
+---
+
 ## Behind the Corporate Firewall — System Proxy PAC/WPAD, Multi-Provider Model Routing, Enterprise Deployment (2026-07-21 Hourly Article Run)
 
 1. ✅ **Behind the Corporate Firewall: How Codex CLI Conquered PAC, WPAD, and Multi-Provider Model Routing** — Written 2026-07-21 → `2026-07-21-codex-cli-behind-the-corporate-firewall-system-proxy-pac-wpad-model-providers-enterprise-deployment.md`
