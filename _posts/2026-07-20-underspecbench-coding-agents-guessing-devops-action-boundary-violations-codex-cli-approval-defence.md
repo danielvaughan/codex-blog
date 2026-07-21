@@ -1,7 +1,7 @@
 ---
 title: "Coding Agents Are Guessing: What UnderSpecBench Reveals About DevOps Safety — and How Codex CLI's Approval Architecture Defends Against It"
 parent: "Articles"
-nav_order: 1619
+nav_order: 1633
 tags: ["codex-cli", "underspecbench", "devops-safety", "approval-policy", "action-boundary-violations", "production-safety", "agents-md", "coding-agent-research"]
 ---
 

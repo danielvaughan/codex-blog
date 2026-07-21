@@ -2,7 +2,7 @@
 title: "GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions"
 description: "Most Codex tasks complete in minutes. But some tasks — a full microservice migration, a large-scale refactor across 50+ files, a days-long debugging session."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-07-21T06:11:51+01:00
+last_modified_at: 2026-07-21T07:07:44+01:00
 tags:
   - models
   - context-management
