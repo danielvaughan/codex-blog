@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Bad Memory — Persistent Memory File Prompt Injection, AGENTS.md Trust Tiers, Codex CLI Defence (2026-07-21 Hourly Article Run)
+
+1. ✅ **Bad Memory: Why Pre-Planted Payloads in Agent Memory Files Succeed Where External Injection Fails — and How Codex CLI's Trust Tiers and Memory Pipeline Defend Against It** — Written 2026-07-21 → `2026-07-21-bad-memory-prompt-injection-persistent-memory-files-codex-cli-agents-md-trust-tiers-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current research — Gadgil et al. arXiv:2607.14611 (16 July 2026) Bad Memory: prompt injection via persistent memory files in Codex and Claude Code; four models tested (Haiku 4.5, Opus 4.7, GPT-5.2, GPT-5.5); three attack objectives (credential exfiltration, unauthorised tool use, brand targeting); mean ASR 23.3%-63.3%; persistence paradox: Opus 96.7% payload persistence despite 0% credential exfil execution; multi-session compounding Haiku credential exfil 60%→100%; chaining six attack sequences; three file tiers (auto-loaded AGENTS.md/CLAUDE.md, referenced knowledge, universal behaviour); mapped to Codex CLI project trust boundaries, memory pipeline sanitisation, disable_on_external_context, sandbox isolation, PreToolUse hooks, requirements.toml fleet governance, named profiles for model pinning
+   - SEO targets: "bad memory prompt injection codex cli", "AGENTS.md memory poisoning defence", "codex cli persistent memory attack", "memory file prompt injection coding agent", "codex cli trust tiers memory defence", "persistent state prompt injection agent 2026", "codex cli memory pipeline sanitisation"
+
+---
+
 ## PhantomSkill and VulMask — Agent Skill Supply-Chain Attack, Codex CLI Sandbox Runtime Defence (2026-07-21 Hourly Article Run)
 
 1. ✅ **PhantomSkill and VulMask: Why Static Scanners Miss Agent Skill Malware — and How Codex CLI's Runtime Stack Catches What They Cannot** — Written 2026-07-21 → `2026-07-21-phantomskill-vulmask-agent-skill-supply-chain-attack-codex-cli-sandbox-runtime-defence.md`
