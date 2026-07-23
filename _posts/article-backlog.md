@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Realtime V3 Audio Architecture — Frameless Bidi, Audio Persistence, Responses API Unification (2026-07-23 Hourly Article Run)
+
+1. ✅ **From WebRTC V2 to Realtime V3: How Codex CLI's Audio Architecture Grew Up in v0.145.0** — Written 2026-07-23 → `2026-07-23-codex-cli-realtime-v3-audio-inputs-streaming-voice-architecture.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — v0.145.0 (21 July 2026) Realtime V3 streaming and audio inputs; PRs #33261 (frameless bidi), #33856 (V3 handoff output streaming), #33923 (audio input protocol variants), #33932 (Responses API audio forwarding), #34067 (session seeding with text history), #34080 (audio output in dynamic tools and code mode), #34385 (audio preservation across history and tool outputs); OpenAI Realtime API GA with gpt-realtime-2.1, WebRTC/WebSocket/SIP transports, reasoning.effort configuration; p95 latency 25% reduction; incremental Markdown rendering; Codex Remote GA context
+   - SEO targets: "codex cli realtime v3 streaming", "codex cli audio input voice architecture", "codex cli v0.145.0 realtime", "frameless bidi codex cli audio", "codex cli voice pair programming 2026", "realtime v3 responses api audio unification", "codex cli persistent audio history"
+
+---
+
 ## Bad Memory — Persistent Memory File Prompt Injection, AGENTS.md Trust Tiers, Codex CLI Defence (2026-07-21 Hourly Article Run)
 
 1. ✅ **Bad Memory: Why Pre-Planted Payloads in Agent Memory Files Succeed Where External Injection Fails — and How Codex CLI's Trust Tiers and Memory Pipeline Defend Against It** — Written 2026-07-21 → `2026-07-21-bad-memory-prompt-injection-persistent-memory-files-codex-cli-agents-md-trust-tiers-defence.md`
