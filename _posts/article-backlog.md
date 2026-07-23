@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## MCP Cold-Start Non-Blocking Startup — OAuth Timeout, Tool Catalog Reuse, Reliability (2026-07-23 Hourly Article Run)
+
+1. ✅ **The MCP Cold-Start Problem: How Codex CLI v0.145 Stopped Optional Servers from Holding Your Session Hostage** — Written 2026-07-23 → `2026-07-23-codex-cli-mcp-cold-start-non-blocking-startup-oauth-timeout-tool-catalog-reliability.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — v0.145.0 (21 July 2026) MCP startup reliability fixes; PRs #32229, #32781, #32825, #33184, #33297 (non-blocking tool listing, OAuth timeout coverage, serialised OAuth refreshes, tool catalog reuse); GitHub Issues #29321 (MCP startup should not block tool listing), #21318 (MCP startup/tool discovery blocks first turn), #22072 (startup_timeout_sec does not cover OAuth bootstrap), #28556 (slow startup with many MCPs), #24397 (startup blocks on MCP/App connector); PR #28234 (tool timeout increased to 300s); configuration best practices for required/optional servers, startup_timeout_sec tuning, OAuth graceful degradation, RUST_LOG trace diagnostics
+   - SEO targets: "codex cli MCP cold start fix", "codex cli MCP non-blocking startup", "codex cli MCP OAuth timeout", "codex cli MCP tool catalog reuse", "codex cli v0.145 MCP reliability", "codex cli MCP startup blocking fix", "codex cli MCP startup_timeout_sec OAuth"
+
+---
+
 ## Paginated Thread History — SQLite Materialisation, Session Resume, Occurrence Search, Memories (2026-07-23 Hourly Article Run)
 
 1. ✅ **Paginated Thread History: How Codex CLI Finally Made Session Resume Scale** — Written 2026-07-23 → `2026-07-23-codex-cli-paginated-thread-history-sqlite-session-resume-search-memories.md`
