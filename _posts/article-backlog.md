@@ -1,6 +1,22 @@
 # Article Backlog
 
 
+## TRACE User Corrections Runtime Enforcement — Preference Compliance, Hooks, tellonce Skill (2026-07-24 Hourly Article Run)
+
+1. ✅ **Tell Me Once: How TRACE Compiles User Corrections into Runtime Enforcement — and What It Means for Codex CLI's Hook Stack** — Written 2026-07-24 → `2026-07-24-trace-user-corrections-runtime-enforcement-codex-cli-hooks-preference-compliance-tellonce.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhou et al. arXiv:2606.13174 (June 2026) TRACE: Test-time Rule Acquisition and Compiled Enforcement; preference compliance gap quantified at 57.5% violation with Mem0; three-stage pipeline (detection/extraction via Gemma 4 31B, lifecycle resolution with five actions, compilation to runtime checks); three enforcement tiers (deterministic, semantic, intent-level); ClawArena benchmark 62 scenario templates; ID violation 100%→37.6%, OOD violation 100%→2.0%; MemoryArena ID violation 100%→60.5%; tellonce deployable skill running on Claude Code, Codex CLI, GitHub Copilot CLI; mapped to Codex CLI PreToolUse/PostToolUse hooks, AGENTS.md layered discovery, requirements.toml fleet governance
+   - SEO targets: "TRACE user corrections runtime enforcement codex cli", "codex cli preference compliance hooks", "tellonce skill coding agent enforcement", "codex cli PreToolUse hook preference verifier", "user correction compilation coding agent", "TRACE ClawArena preference violation", "codex cli AGENTS.md vs hooks enforcement"
+
+---
+
+## Goal Mode — Long-Horizon Autonomous Workflows, Ralph Loop, Token Budgets, Cross-Session Persistence (2026-07-23 Hourly Article Run)
+
+1. ✅ **Goal Mode: How Codex CLI Turns a Single Objective into Hours of Autonomous Work** — Written 2026-07-23 → `2026-07-23-codex-cli-goal-mode-long-horizon-autonomous-workflows-ralph-loop-token-budgets.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — /goal command shipped in v0.128.0 (April 2026), enabled by default in v0.133.0 (PRs #23300, #23685, #23696, #23732), refined in v0.145.0 with multi-day duration output, clearer validation, and Multi-Agent V2 composition; five lifecycle states (pursuing, paused, achieved, unmet, budget_limited); five-layer PR series (#18073–#18077); Ralph loop execution pattern; token budget advisory mechanism with continuation and budget_limit prompt templates; app-server JSON-RPC persistence (thread/goal/set, get, clear); cross-session state survival; comparison with Claude Code session-only model
+   - SEO targets: "codex cli goal mode", "codex cli /goal command", "codex cli ralph loop autonomous coding", "codex cli long-horizon tasks token budget", "codex cli goal pause resume", "codex cli autonomous workflow 2026", "codex cli goal mode vs claude code"
+
+---
+
 ## MCP Cold-Start Non-Blocking Startup — OAuth Timeout, Tool Catalog Reuse, Reliability (2026-07-23 Hourly Article Run)
 
 1. ✅ **The MCP Cold-Start Problem: How Codex CLI v0.145 Stopped Optional Servers from Holding Your Session Hostage** — Written 2026-07-23 → `2026-07-23-codex-cli-mcp-cold-start-non-blocking-startup-oauth-timeout-tool-catalog-reliability.md`
