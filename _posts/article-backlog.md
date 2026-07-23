@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Paginated Thread History — SQLite Materialisation, Session Resume, Occurrence Search, Memories (2026-07-23 Hourly Article Run)
+
+1. ✅ **Paginated Thread History: How Codex CLI Finally Made Session Resume Scale** — Written 2026-07-23 → `2026-07-23-codex-cli-paginated-thread-history-sqlite-session-resume-search-memories.md`
+   - Source: No backlog items with 📝 status remained; topic selected from current news — v0.145.0 (21 July 2026) experimental paginated thread history; PRs #32234 (SQLite materialisation), #32246 (reverse JSONL scanning), #33364 (paginated history core), #33907 (occurrence search), #34085 (legacy view compatibility), #34229 (persisted thread names), #34386 (memory consolidation and sub-agent preservation), #34390 (copy-on-write history snapshots), #34407 (rollout lineage resolution), #32332 (ordinals for paginated rollout records); session lifecycle six stages; Multi-Agent V2 stabilisation; /import expansion for Cursor and Claude Code migration
+   - SEO targets: "codex cli paginated thread history", "codex cli session resume scale", "codex cli SQLite thread store", "codex cli occurrence search sessions", "codex cli thread naming", "codex cli v0.145.0 session management", "codex cli copy-on-write fork history"
+
+---
+
 ## Realtime V3 Audio Architecture — Frameless Bidi, Audio Persistence, Responses API Unification (2026-07-23 Hourly Article Run)
 
 1. ✅ **From WebRTC V2 to Realtime V3: How Codex CLI's Audio Architecture Grew Up in v0.145.0** — Written 2026-07-23 → `2026-07-23-codex-cli-realtime-v3-audio-inputs-streaming-voice-architecture.md`
