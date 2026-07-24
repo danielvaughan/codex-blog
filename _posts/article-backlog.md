@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Multi-Folder Projects — Primary Folder, Writable Roots, Cross-Repo Workspace Configuration (2026-07-24 Hourly Article Run)
+
+1. ✅ **Multi-Folder Projects in Codex: How Primary Folders, Writable Roots, and Cross-Repo Workspaces Actually Work** — Written 2026-07-24 → `2026-07-24-codex-multi-folder-projects-primary-folder-writable-roots-cross-repo-workspace-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex app build 26.715 (23 July 2026) multi-folder projects with primary folder; CLI --add-dir and writable_roots since v0.124.0; GitHub Issue #27943 (37 thumbs-up); sandbox enforcement via Seatbelt/Bubblewrap/DACL; codex-multi-workspace Rust crate for Docker-based workspaces; Claude Code --add-dir and /add-dir comparison; AGENTS.md discovery across multiple roots; per-folder permission profiles; context window pressure constraints
+   - SEO targets: "codex multi-folder projects", "codex primary folder configuration", "codex writable_roots config.toml", "codex --add-dir multiple directories", "codex cross-repo workspace", "codex desktop multi-folder", "codex vs claude code multi-directory"
+
+---
+
 ## Multi-Agent V2 Encrypted Delegation — Auditability Gap, Enterprise Compliance, EU AI Act (2026-07-24 Hourly Article Run)
 
 1. ✅ **The Encrypted Delegation Problem: Why Codex CLI's Multi-Agent V2 Hides What Your Sub-Agents Were Told — and What It Means for Enterprise Audit Trails** — Written 2026-07-24 → `2026-07-24-codex-cli-multi-agent-v2-encrypted-delegation-auditability-gap-enterprise-compliance.md`
