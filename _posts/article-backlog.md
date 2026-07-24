@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## OpenAI Presence — Codex as Enterprise Voice/Chat Agent Improvement Engine (2026-07-24 Hourly Article Run)
+
+1. ✅ **OpenAI Presence: How Codex Became the Improvement Engine for Enterprise Voice and Chat Agents** — Written 2026-07-24 → `2026-07-24-openai-presence-codex-powered-enterprise-voice-chat-agents-improvement-loop-beyond-code.md`
+   - Source: No backlog items with 📝 status remained; topic selected from breaking news — OpenAI Presence announced 22 July 2026; managed enterprise platform for production voice/chat agents; Codex-powered improvement loop analyses production sessions and proposes behaviour changes; GPT-5.6 Sol/Terra/Luna foundation; six-component architecture (policies, guardrails, approved actions, simulations, graders, Codex improvement); BBVA, SoftBank, IAG design partners; DeployCo $4B+ FDE-led deployment model; 75% issue resolution without human escalation on 1-888-GPT-0090; architectural parallels with Codex CLI hooks, AGENTS.md, requirements.toml, eval framework; competitive positioning vs Sierra, Twilio Agent Connect, LiveKit, Amazon Connect
+   - SEO targets: "openai presence codex enterprise agents", "openai presence voice chat agent platform", "codex improvement loop enterprise agents", "openai presence vs sierra twilio", "codex meta-agent enterprise deployment", "openai presence guardrails testing", "codex beyond code enterprise voice agents"
+
+---
+
 ## The Ultra Mode Trade-Off — Reasoning Budgets, Sub-Agent Cost, Task Routing (2026-07-24 Hourly Article Run)
 
 1. ✅ **The Ultra Mode Trade-Off: When Bigger Reasoning Budgets Backfire in Codex CLI** — Written 2026-07-24 → `2026-07-24-codex-cli-ultra-mode-trade-off-reasoning-budgets-subagent-cost-task-routing.md`
