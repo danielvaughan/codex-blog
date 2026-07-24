@@ -2,7 +2,7 @@
 title: "Codex CLI 0.130.0 and Chrome Extension Launch"
 description: "Captured: 2026-05-14 Sources:"
 date: 2026-05-14T00:00:00+00:00
-last_modified_at: 2026-07-24T10:16:03+01:00
+last_modified_at: 2026-07-24T10:25:38+01:00
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-0130-and-chrome-extension"
