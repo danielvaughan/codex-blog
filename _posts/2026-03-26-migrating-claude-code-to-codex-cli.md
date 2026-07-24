@@ -2,7 +2,7 @@
 title: "Migrating a Workflow from Claude Code to Codex CLI"
 description: "Full replacement is rarely the right call. This guide covers what maps cleanly between Claude Code and Codex CLI, what requires re-engineering, and what."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-07-24T20:07:45+01:00
+last_modified_at: 2026-07-24T22:06:36+01:00
 tags:
   - competitive-landscape
   - claude-code

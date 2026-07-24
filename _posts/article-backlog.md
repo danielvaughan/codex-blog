@@ -4,7 +4,7 @@
 
 1. ✅ **The Multi-Agent V2 Governance Playbook** — Written 2026-07-24 → `2026-07-24-codex-cli-multi-agent-v2-governance-playbook.md`
 
-2. 📝 **The Preference Engineering Playbook** — Synthesise TRACE Compiled Enforcement (4.8), Bad Memory (5.0), and Memory Over-Personalisation (4.8). Preference lifecycle framework (capture -> compile -> enforce -> audit -> prune). AGENTS.md + hooks integration templates. Memory hygiene protocol with trust tiers.
+2. ✅ **The Preference Engineering Playbook** — Written 2026-07-24 → `2026-07-24-preference-engineering-playbook-codex-cli-trace-compiled-enforcement-memory-hygiene-trust-tiers.md`
 
 3. 📝 **The Voice-First Agent Orchestration Guide** — Synthesise GPT-Live Voice Control (4.2), OpenAI Presence (4.5), and Realtime V3 Audio (4.3). Unified voice architecture from CLI to enterprise. Voice-directed multi-agent workflow patterns. Enterprise voice agent deployment checklist.
 
