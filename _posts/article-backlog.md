@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Writes App-Approval Mode — MCP Tool Annotations, readOnlyHint, Approval Flow (2026-07-24 Hourly Article Run)
+
+1. ✅ **The Writes Mode: How Codex CLI's Newest Approval Tier Uses MCP Annotations to Let Reads Fly and Gate Writes** — Written 2026-07-24 → `2026-07-24-codex-cli-writes-app-approval-mode-mcp-tool-annotations-read-only-hint-approval-flow.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.144.0 (9 July 2026) writes app-approval mode; PR #30482 (zamoshchin-openai, merged 7 July 2026); AppToolApproval enum extension (auto/prompt/writes); MCP tool annotations readOnlyHint, destructiveHint, idempotentHint, openWorldHint from 2025-03-26 spec revision; conservative defaults (destructiveHint: true, readOnlyHint: false); session/persistent approval choices disabled in writes mode; [apps._default].default_tools_approval_mode config key; two-layer security model (sandbox capability vs approval consent); Guardian auto-review integration
+   - SEO targets: "codex cli writes approval mode", "codex cli MCP readOnlyHint approval", "codex cli app tool approval writes", "MCP tool annotations codex cli approval flow", "codex cli v0.144 writes mode configuration", "codex cli approval policy MCP tools", "codex cli read-only hint skip approval"
+
+---
+
 ## TRACE User Corrections Runtime Enforcement — Preference Compliance, Hooks, tellonce Skill (2026-07-24 Hourly Article Run)
 
 1. ✅ **Tell Me Once: How TRACE Compiles User Corrections into Runtime Enforcement — and What It Means for Codex CLI's Hook Stack** — Written 2026-07-24 → `2026-07-24-trace-user-corrections-runtime-enforcement-codex-cli-hooks-preference-compliance-tellonce.md`
