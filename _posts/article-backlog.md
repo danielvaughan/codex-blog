@@ -2,7 +2,7 @@
 
 ## Gap Ideas from Article Rating (2026-07-24)
 
-1. 📝 **The Multi-Agent V2 Governance Playbook** — Synthesise Encrypted Delegation (4.6), Sub-Agent Model Routing (4.6), and Multi-Agent Coordination Problem (4.8) into a unified V2 governance framework. Decision tree for V1 vs V2. EU AI Act compliance checklist. Fleet cost-governance dashboard specification.
+1. ✅ **The Multi-Agent V2 Governance Playbook** — Written 2026-07-24 → `2026-07-24-codex-cli-multi-agent-v2-governance-playbook.md`
 
 2. 📝 **The Preference Engineering Playbook** — Synthesise TRACE Compiled Enforcement (4.8), Bad Memory (5.0), and Memory Over-Personalisation (4.8). Preference lifecycle framework (capture -> compile -> enforce -> audit -> prune). AGENTS.md + hooks integration templates. Memory hygiene protocol with trust tiers.
 
