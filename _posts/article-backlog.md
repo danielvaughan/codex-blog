@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Multi-Agent V2 Encrypted Delegation — Auditability Gap, Enterprise Compliance, EU AI Act (2026-07-24 Hourly Article Run)
+
+1. ✅ **The Encrypted Delegation Problem: Why Codex CLI's Multi-Agent V2 Hides What Your Sub-Agents Were Told — and What It Means for Enterprise Audit Trails** — Written 2026-07-24 → `2026-07-24-codex-cli-multi-agent-v2-encrypted-delegation-auditability-gap-enterprise-compliance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — PR #26210 (merged 5 June 2026) encrypted MultiAgentV2 inter-agent communication; InterAgentCommunication.encrypted_content populated, plaintext content left empty; Issue #28058 (Ignat Remizov, 13 June 2026) documenting audit regression; Issue #31097 (4 July 2026) GPT-5.5/Sol/Terra forcing V2 despite config override; Issue #27331 spawn_agent encrypted-tools 400 errors; three V2 communication tools (spawn_agent, send_message, followup_task); Remizov fork with six commits implementing encrypted-with-audit delivery policy; EU AI Act Article 14 human oversight and Article 12 traceability, high-risk enforcement deadline 2 August 2026; Claude Code --verbose-agents and SubagentStop hook contrast; InfoWorld and TechTimes coverage July 2026
+   - SEO targets: "codex cli multi-agent v2 encrypted delegation audit", "codex cli sub-agent auditability gap", "codex cli MultiAgentV2 encryption enterprise compliance", "codex cli encrypted delegation EU AI Act", "codex cli spawn_agent audit trail", "multi-agent transparency codex cli", "codex cli InterAgentCommunication encrypted_content"
+
+---
+
 ## v0.145 /import Expansion — Cursor + Claude Code Migration, MCP Servers, Project-Scoped Memories (2026-07-24 Hourly Article Run)
 
 1. ✅ **The /import Expansion in v0.145: How Codex CLI Now Swallows Cursor and Claude Code Whole** — Written 2026-07-24 → `2026-07-24-codex-cli-v0145-import-command-cursor-claude-code-migration-mcp-servers-memories-settings.md`
