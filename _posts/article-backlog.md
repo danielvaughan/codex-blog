@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## v0.145 /import Expansion — Cursor + Claude Code Migration, MCP Servers, Project-Scoped Memories (2026-07-24 Hourly Article Run)
+
+1. ✅ **The /import Expansion in v0.145: How Codex CLI Now Swallows Cursor and Claude Code Whole** — Written 2026-07-24 → `2026-07-24-codex-cli-v0145-import-command-cursor-claude-code-migration-mcp-servers-memories-settings.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.145.0 (21 July 2026) expanded /import command; PRs #31672, #33411, #33426, #33444; Cursor migration support added alongside Claude Code; twelve configuration surface mapping (5 clean transfers, 4 reshapes, 3 breaks); project-scoped memories migration with deduplication; MCP server JSON-to-TOML translation; Streamable HTTP mcp-proxy bridging; session history 50-item/30-day cap; local TUI-only constraint
+   - SEO targets: "codex cli /import cursor migration", "codex cli v0.145 import claude code cursor", "codex cli migrate MCP servers cursor", "codex cli project memories migration", "cursor to codex cli migration guide", "codex cli import settings MCP plugins sessions", "claude code to codex cli /import 2026"
+
+---
+
 ## Writes App-Approval Mode — MCP Tool Annotations, readOnlyHint, Approval Flow (2026-07-24 Hourly Article Run)
 
 1. ✅ **The Writes Mode: How Codex CLI's Newest Approval Tier Uses MCP Annotations to Let Reads Fly and Gate Writes** — Written 2026-07-24 → `2026-07-24-codex-cli-writes-app-approval-mode-mcp-tool-annotations-read-only-hint-approval-flow.md`
