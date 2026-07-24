@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## Sub-Agent Model Routing — Multi-Agent V2 Hidden Schema, Cost Control, Configuration (2026-07-24 Hourly Article Run)
+
+1. ✅ **Sub-Agent Model Routing in Multi-Agent V2: Why Your Sol Orchestrator Spawns Seven Copies of Itself — and How to Fix It** — Written 2026-07-24 → `2026-07-24-codex-cli-sub-agent-model-routing-multi-agent-v2-hidden-schema-cost-control-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md and community issues — GitHub Issues #31814 (Sol cannot specify subagent models), #32031 (critical UX regression: hidden schema), #20077 (fork rejects overrides), #22250 (cannot overwrite subagent model); hide_spawn_agent_metadata defaults to true stripping model/reasoning_effort/agent_type/service_tier from spawn_agent schema; 380.9M token incident from uniform Sol spawning; fork_turns default rejects override parameters; config.toml fix with hide_spawn_agent_metadata = false; agents.default_subagent_model; custom agent TOML files with model pinning; three-tier Sol/Terra/Luna layout; ChatGPT auth complication; v0.145.0 stabilisation
+   - SEO targets: "codex cli sub-agent model routing", "codex cli multi-agent v2 hidden schema", "codex cli hide_spawn_agent_metadata", "codex cli default_subagent_model config", "codex cli spawn_agent model override", "codex cli sol terra luna sub-agent cost", "codex cli multi-agent model selection fix"
+
+---
+
 ## GPT-Live Voice Control — Full-Duplex Desktop Agent Orchestration, Multi-Agent Coordination, Hands-Free Coding (2026-07-24 Hourly Article Run)
 
 1. ✅ **Hands-Free Agent Orchestration: How GPT-Live Brings Full-Duplex Voice Control to Codex on the Desktop** — Written 2026-07-24 → `2026-07-24-codex-gpt-live-voice-control-desktop-multi-agent-coordination-hands-free-coding.md`
