@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## GPT-Live Voice Control — Full-Duplex Desktop Agent Orchestration, Multi-Agent Coordination, Hands-Free Coding (2026-07-24 Hourly Article Run)
+
+1. ✅ **Hands-Free Agent Orchestration: How GPT-Live Brings Full-Duplex Voice Control to Codex on the Desktop** — Written 2026-07-24 → `2026-07-24-codex-gpt-live-voice-control-desktop-multi-agent-coordination-hands-free-coding.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md and breaking news — ChatGPT Voice desktop launch 23 July 2026; GPT-Live full-duplex architecture (GPT-Live-1 + GPT-Live-1 mini); background reasoning delegation to GPT-5.5; voice-directed multi-agent thread management in Codex; Appshots screen context integration; hotkey configuration; separate five-hour rolling voice usage allowance; 10M weekly active users across Codex and ChatGPT Work; comparison with CLI Realtime V3 (v0.145.0); no competing coding agent has voice; enterprise ambient listening and audit considerations
+   - SEO targets: "codex gpt-live voice control", "chatgpt voice desktop codex", "codex hands-free coding", "gpt-live full-duplex voice agent", "codex voice multi-agent coordination", "chatgpt voice developer workflow", "codex desktop voice orchestration 2026"
+
+---
+
 ## Multi-Folder Projects — Primary Folder, Writable Roots, Cross-Repo Workspace Configuration (2026-07-24 Hourly Article Run)
 
 1. ✅ **Multi-Folder Projects in Codex: How Primary Folders, Writable Roots, and Cross-Repo Workspaces Actually Work** — Written 2026-07-24 → `2026-07-24-codex-multi-folder-projects-primary-folder-writable-roots-cross-repo-workspace-configuration.md`
