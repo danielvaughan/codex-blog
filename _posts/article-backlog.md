@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## The Ultra Mode Trade-Off — Reasoning Budgets, Sub-Agent Cost, Task Routing (2026-07-24 Hourly Article Run)
+
+1. ✅ **The Ultra Mode Trade-Off: When Bigger Reasoning Budgets Backfire in Codex CLI** — Written 2026-07-24 → `2026-07-24-codex-cli-ultra-mode-trade-off-reasoning-budgets-subagent-cost-task-routing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — GPT-5.6 Sol Ultra mode cooperative sub-agents; 6-12x token multiplier; Terminal-Bench 2.1 lift 88.8%→91.9%; five-hour allowance exhaustion in 20 minutes; reasoning effort spectrum none/low/medium/high/xhigh/max/Ultra; rollout_token_budget PRs #28746 and #28494; named profile task routing; decision framework for parallelisable vs tightly-coupled tasks; PreToolUse hook firing rate changes; $0.65 vs $2.35 single-task cost comparison; $150-$375/day heavy Ultra usage
+   - SEO targets: "codex cli ultra mode trade-off", "codex cli reasoning budget cost", "GPT-5.6 sol ultra subagent token cost", "codex cli reasoning effort configuration", "codex cli ultra mode when to use", "codex cli rollout token budget", "codex cli ultra vs max reasoning effort"
+
+---
+
 ## Sub-Agent Model Routing — Multi-Agent V2 Hidden Schema, Cost Control, Configuration (2026-07-24 Hourly Article Run)
 
 1. ✅ **Sub-Agent Model Routing in Multi-Agent V2: Why Your Sol Orchestrator Spawns Seven Copies of Itself — and How to Fix It** — Written 2026-07-24 → `2026-07-24-codex-cli-sub-agent-model-routing-multi-agent-v2-hidden-schema-cost-control-configuration.md`
