@@ -6,7 +6,7 @@
 
 2. ✅ **The Preference Engineering Playbook** — Written 2026-07-24 → `2026-07-24-preference-engineering-playbook-codex-cli-trace-compiled-enforcement-memory-hygiene-trust-tiers.md`
 
-3. 📝 **The Voice-First Agent Orchestration Guide** — Synthesise GPT-Live Voice Control (4.2), OpenAI Presence (4.5), and Realtime V3 Audio (4.3). Unified voice architecture from CLI to enterprise. Voice-directed multi-agent workflow patterns. Enterprise voice agent deployment checklist.
+3. ✅ **The Voice-First Agent Orchestration Guide** — Written 2026-07-25 → `2026-07-25-voice-first-agent-orchestration-guide-codex-cli-gpt-live-presence-realtime-v3.md`
 
 ---
 
