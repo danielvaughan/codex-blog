@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## MemRepair Hierarchical Memory Vulnerability Repair — Codex CLI Security Plugin, PostToolUse, Memory-Driven Patching (2026-07-24 Hourly Article Run)
+
+1. ✅ **MemRepair and the Memory-Driven Vulnerability Fix: What Hierarchical Repair Memory Means for Codex CLI Security Workflows** — Written 2026-07-24 → `2026-07-24-memrepair-hierarchical-memory-vulnerability-repair-codex-cli-security-plugin-posttooluse-memory-driven-patching.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Liu et al. arXiv:2605.17444 (May 2026) MemRepair three-layer hierarchical memory (History-Fix, Security-Pattern, Refinement-Trajectory); SEC-Bench 58.0%, PatchEval 58.2%, Multi-SWE-bench C++ 30.58%; outperforms OpenHands, SWE-agent, InfCode-C++; mapped to Codex CLI security plugin four skills, built-in memory two-phase pipeline, PostToolUse hooks for sanitiser validation, Guardian auto-review four-tier risk classification, AGENTS.md security memory directives, goal mode for iterative repair campaigns, named profile configuration; complementary KeaRepair (arXiv:2607.00820) and ContraFix (arXiv:2605.17450) convergence on memory-augmented repair
+   - SEO targets: "MemRepair codex cli vulnerability repair", "hierarchical memory vulnerability repair agent", "codex cli security plugin memory workflow", "codex cli PostToolUse sanitiser hook", "memory-driven vulnerability patching codex cli", "SEC-Bench PatchEval coding agent repair", "codex cli Guardian auto-review security"
+
+---
+
 ## OpenAI Presence — Codex as Enterprise Voice/Chat Agent Improvement Engine (2026-07-24 Hourly Article Run)
 
 1. ✅ **OpenAI Presence: How Codex Became the Improvement Engine for Enterprise Voice and Chat Agents** — Written 2026-07-24 → `2026-07-24-openai-presence-codex-powered-enterprise-voice-chat-agents-improvement-loop-beyond-code.md`
