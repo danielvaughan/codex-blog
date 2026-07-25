@@ -1,5 +1,13 @@
 # Article Backlog
 
+## IssueTrojanBench Malicious Issue Requests — Coding Agent Guardrails, Codex CLI Sandbox Defence, Supply Chain (2026-07-25 Hourly Article Run)
+
+1. ✅ **IssueTrojanBench and the Malicious Issue Attack Surface: What 4,176 Adversarial Runs Reveal About Your Coding Agent's Guardrails — and How Codex CLI's Sandbox Changes the Calculus** — Written 2026-07-25 → `2026-07-25-issuetrojanbench-malicious-issue-requests-coding-agents-codex-cli-sandbox-defence-supply-chain-guardrails.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Singh, Yang, Chen arXiv:2607.20759 (22 July 2026) IssueTrojanBench 696 adversarial artifacts across 4,176 runs testing Cursor, Claude Code, Codex Desktop; 66.5% overall guardrail penetration; four attack categories (supply chain 96.6%, config poisoning 84.7%, persistence hooks 59.8%, resource exhaustion 24.9%); six delivery vectors; GPT models broadly vulnerable (84.8%) vs Sonnet 4.6 (41.1%); agent-level defences negligible; mapped to Codex CLI workspace-write sandbox, seccomp-BPF/Seatbelt network isolation, approval_policy suggest default, requirements.toml fleet governance, PreToolUse/PostToolUse hooks, Guardian auto-review, config hierarchy immutability; identified residual risks in full-auto + network-enabled configurations
+   - SEO targets: "IssueTrojanBench codex cli defence", "malicious issue coding agent guardrails", "codex cli sandbox supply chain defence", "IssueTrojanBench 66.5% guardrail penetration", "codex cli network isolation malicious issues", "coding agent issue tracker attack surface", "codex cli PreToolUse supply chain validation"
+
+---
+
 ## ChatGPT Voice GPT-Live Desktop — Full-Duplex Agent Orchestration, Appshots, Multi-Thread Steering (2026-07-25 Hourly Article Run)
 
 1. ✅ **ChatGPT Voice Meets Codex: Full-Duplex Agent Orchestration from the Desktop** — Written 2026-07-25 → `2026-07-25-chatgpt-voice-gpt-live-codex-desktop-full-duplex-agent-orchestration-appshots.md`
