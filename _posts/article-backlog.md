@@ -1,5 +1,13 @@
 # Article Backlog
 
+## HalluSquatting Agentic Botnets — Adversarial Hallucination Squatting, Codex CLI Sandbox, Network Proxy, PreToolUse Defence (2026-07-25 Hourly Article Run)
+
+1. ✅ **HalluSquatting and the Agentic Botnet: How Adversarial Hallucination Squatting Turns Your Coding Agent into a Compromised Node — and How Codex CLI's Defence Stack Responds** — Written 2026-07-25 → `2026-07-25-hallusquatting-agentic-botnets-adversarial-hallucination-squatting-codex-cli-sandbox-network-proxy-pretooluse-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Spira et al. arXiv:2607.07433 (8 July 2026) HalluSquatting two-phase kill chain (context poisoning + RCE); 92.4% mean hallucination rate on trending repositories; tested six agents (Cursor, Windsurf, Copilot Chat, Cline, Gemini CLI, OpenClaw); 20-65% RCE rates on repository squatting; 40-100% RCE on skill squatting; universal adversarial triggers transferable across model families; self-referential hallucination in 40/60 combinations; web search reduces hallucination to 93.4% correct; mapped to Codex CLI sandbox network isolation (workspace-write default), codex-network-proxy domain allowlisting, approval_policy request_permissions fail-closed, PreToolUse hooks for clone URL verification, Guardian auto-review bilateral deliberation, AGENTS.md dependency provenance constraints, requirements.toml fleet enforcement; identified setup-script network gap
+   - SEO targets: "HalluSquatting codex cli defence", "agentic botnet coding agent", "adversarial hallucination squatting codex cli", "codex cli sandbox network isolation hallusquatting", "coding agent supply chain botnet", "codex cli pretooluse clone verification", "HalluSquatting RCE coding agent defence"
+
+---
+
 ## SkillSec-Eval Lifecycle-Aware Skill Security — Admission, Retrieval, Runtime, Evolution Defence Gaps (2026-07-25 Hourly Article Run)
 
 1. ✅ **SkillSec-Eval and the Lifecycle Attack Surface: What 327 Real-World Skills Reveal About Codex CLI's Defence Gaps** — Written 2026-07-25 → `2026-07-25-skillsec-eval-lifecycle-aware-skill-security-codex-cli-admission-retrieval-runtime-evolution-defence.md`
