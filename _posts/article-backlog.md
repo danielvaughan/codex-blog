@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex as JetBrains Agent Provider — ACP Protocol, Hooks, MCP Server Management, Configuration (2026-07-25 Hourly Article Run)
+
+1. ✅ **Codex as JetBrains Agent Provider: How ACP, Hooks, and MCP Server Management Turn Your IDE into a Multi-Agent Control Plane** — Written 2026-07-25 → `2026-07-25-codex-cli-jetbrains-agent-provider-acp-protocol-hooks-mcp-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub Changelog 7 July 2026 announced Codex as first-class agent provider in JetBrains IDEs via ACP wrapper; JetBrains designated Codex as recommended default agent June 2026 with benchmark data (353 tasks, 39.9% weighted solve rate at $0.1387/task); ACP JSON-RPC 2.0 over stdio architecture with codex-acp wrapper binary; three authentication pathways (JetBrains AI, ChatGPT account, BYOK); hooks management in Agent Customisations GUI with /create-hook slash command; MCP server management with marketplace browsing, status monitoring, workspace-level .github/mcp.json; three approval tiers (Default, Bypass, Autopilot preview); built-in JetBrains MCP server 20+ IDE tools; shared config.toml/AGENTS.md/requirements.toml across all four surfaces; v0.144.5 dangerous-command detection expansion; GPT-5.6 model migration in v0.145.0
+   - SEO targets: "codex cli jetbrains agent provider", "codex ACP protocol jetbrains", "codex jetbrains IDE integration 2026", "codex vs junie jetbrains agent", "codex jetbrains hooks MCP configuration", "ACP agent client protocol codex", "codex jetbrains approval policy autopilot"
+
+---
+
 ## Gap Ideas from Article Rating (2026-07-24)
 
 1. ✅ **The Multi-Agent V2 Governance Playbook** — Written 2026-07-24 → `2026-07-24-codex-cli-multi-agent-v2-governance-playbook.md`
