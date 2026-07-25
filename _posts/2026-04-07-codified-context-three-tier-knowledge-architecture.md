@@ -2,7 +2,7 @@
 title: "Codified Context: The Three-Tier Knowledge Architecture for AI Coding Agents"
 description: "Dumping everything into a single AGENTS.md file works until it doesn't. At some point—typically around 20,000 lines of codebase—you hit the context wall."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-07-25T10:16:20+01:00
+last_modified_at: 2026-07-25T10:25:42+01:00
 tags:
   - architecture
   - agents-md

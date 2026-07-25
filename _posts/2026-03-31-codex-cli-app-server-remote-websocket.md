@@ -2,7 +2,7 @@
 title: "Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment"
 description: "The Codex CLI is typically presented as a local terminal tool, but underneath its TUI sits a full JSON-RPC 2.0 server — the app-server."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-07-25T10:16:20+01:00
+last_modified_at: 2026-07-25T10:25:42+01:00
 tags:
   - architecture
   - app-server
