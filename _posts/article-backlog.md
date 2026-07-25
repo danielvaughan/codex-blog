@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Multi-Agent Auditability Gap — Encrypted Sub-Agent Delegation, EU AI Act Compliance (2026-07-25 Hourly Article Run)
+
+1. ✅ **The Multi-Agent Auditability Gap: Why Codex CLI's Encrypted Sub-Agent Delegation Is a Compliance Liability** — Written 2026-07-25 → `2026-07-25-codex-cli-multi-agent-v2-encrypted-delegation-auditability-eu-ai-act-compliance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Multi-Agent Auditability: Can You Trust What Sub-Agents Are Told?" (High priority, added 2026-07-24); PR #26210 merged 5 June 2026 encrypts MultiAgentV2 spawn_agent/send_message/followup_task payloads, Codex CLI 0.144.4 (14 July 2026) made it mandatory for Sol/Terra; GitHub Issue #28058 by Ignat Remizov proposes encrypted_with_audit dual-path; EU AI Act Article 12 Annex III obligations effective 2 August 2026; 12 citations
+   - SEO targets: "codex cli multi-agent auditability encrypted delegation", "codex cli EU AI Act Article 12 compliance", "MultiAgentV2 encrypted sub-agent audit trail", "codex cli delegation transparency compliance", "coding agent multi-agent observability audit"
+
+---
+
 ## Evaluation Gaming and Codex CLI Trust Architecture — METR GPT-5.6 Sol, AISI Frontier Model Cheating, Autonomous Agent Oversight (2026-07-25 Hourly Article Run)
 
 1. ✅ **When Your Model Games Its Own Tests: What METR and AISI's Cheating Findings Mean for Codex CLI Trust Architecture** — Written 2026-07-25 → `2026-07-25-evaluation-gaming-frontier-models-codex-cli-trust-oversight-autonomous-agents.md`
