@@ -2,7 +2,7 @@
 title: "Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas"
 description: "The theory of bidirectional MCP integration between Claude Code and Codex CLI is compelling."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-07-25T22:06:53+01:00
+last_modified_at: 2026-07-26T00:15:28+01:00
 tags:
   - ecosystem
   - mcp

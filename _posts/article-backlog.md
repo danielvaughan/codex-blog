@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.6 Code Mode Serialisation Tax — Batching Tool Calls, Token Savings, AGENTS.md Configuration (2026-07-26 Hourly Article Run)
+
+1. ✅ **The GPT-5.6 Serialisation Tax: How Explicit Batching in Code Mode Cuts Your Codex CLI Token Bill by 27–45%** — Written 2026-07-26 → `2026-07-26-gpt56-code-mode-serialisation-fix-batching-tool-calls-codex-cli-token-savings.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub Issue #35050 (24 July 2026) by MakerOfToys documented GPT-5.6 serialising independent Code Mode tool calls; explicit Promise.allSettled() batching directive in AGENTS.md reduced weighted usage by 27–45% and model cycles by 52–55%; ForrestGrump independent replication revealed effort-gating effect (Ultra spawns 23–25 sub-sessions ignoring directive); architectural root cause is GPT-5.6 shift from multi_tool_use.parallel to Responses Lite + Code Mode JavaScript exec; interaction with 272K pricing threshold and model_auto_compact_token_limit; named profile routing for task-appropriate batching; 6 citations
+   - SEO targets: "codex cli GPT-5.6 serialisation tool calls fix", "codex cli code mode batching token savings", "GPT-5.6 Promise.allSettled batching AGENTS.md", "codex cli tool call optimisation 27-45%", "GPT-5.6 code mode serialisation tax", "codex cli programmatic tool calling batching", "GPT-5.6 multi_tool_use.parallel replacement"
+
+---
+
 ## Multi-Agent Auditability Gap — Encrypted Sub-Agent Delegation, EU AI Act Compliance (2026-07-25 Hourly Article Run)
 
 1. ✅ **The Multi-Agent Auditability Gap: Why Codex CLI's Encrypted Sub-Agent Delegation Is a Compliance Liability** — Written 2026-07-25 → `2026-07-25-codex-cli-multi-agent-v2-encrypted-delegation-auditability-eu-ai-act-compliance.md`
