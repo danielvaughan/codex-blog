@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SkillSec-Eval Lifecycle-Aware Skill Security — Admission, Retrieval, Runtime, Evolution Defence Gaps (2026-07-25 Hourly Article Run)
+
+1. ✅ **SkillSec-Eval and the Lifecycle Attack Surface: What 327 Real-World Skills Reveal About Codex CLI's Defence Gaps** — Written 2026-07-25 → `2026-07-25-skillsec-eval-lifecycle-aware-skill-security-codex-cli-admission-retrieval-runtime-evolution-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Badhe & Tiwari arXiv:2607.13987 (15 July 2026) SkillSec-Eval lifecycle-aware framework evaluating 327 real-world skills across five stages (storage/admission, semantic retrieval, planner selection, execution runtime, skill evolution); rules-only admission 52.9% malicious pass-through vs hybrid 7.9%; keyword stuffing 46.59%→7.83%; Sybil attacks 93.20%→26.59%; runtime taint tracking 66.67% accuracy, 23% residual attack success; evolution detection 92.5% with 37.0% FP; mapped to Codex CLI skills config, plugin MCP tool gating, enabled_tools/disabled_tools, approval_policy.granular.skill_approval, sandbox workspace-write, network proxy domain allowlisting, Guardian auto-review, PreToolUse/PostToolUse hooks, requirements.toml fleet enforcement; identified structural gaps at admission (no SKILL.md validation), evolution (no re-validation), and runtime semantic paraphrasing bypass; complemented by Snyk ToxicSkills (26.1% vulnerability rate across 3,984 skills) and arXiv:2604.02837 threat taxonomy
+   - SEO targets: "SkillSec-Eval codex cli skill security", "agent skill lifecycle security codex cli", "codex cli skill admission defence", "skill supply chain codex cli defence stack", "codex cli SKILL.md security validation", "agent skill evolution re-validation codex cli", "SkillSec-Eval 327 skills lifecycle attack surface"
+
+---
+
 ## The 272K Tripwire — GPT-5.6 Context Window Pricing Threshold, Auto-Compaction, Cost Defence (2026-07-25 Hourly Article Run)
 
 1. ✅ **The 272K Tripwire: How GPT-5.6's Context Window Cap Silently Doubles Your Codex CLI Bill** — Written 2026-07-25 → `2026-07-25-codex-cli-gpt-5-6-272k-context-window-pricing-threshold-auto-compaction-cost-defence.md`
