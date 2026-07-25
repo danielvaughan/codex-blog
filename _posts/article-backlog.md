@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ICAE-Bench Information-to-Execution Gap — Interactive Project Building, Fuzzy Requirements, Test Scaffolding (2026-07-25 Hourly Article Run)
+
+1. ✅ **ICAE-Bench and the Information-to-Execution Gap: What 480 Interactive Tasks Reveal About Your Coding Agent's Real Weakness** — Written 2026-07-25 → `2026-07-25-icae-bench-information-to-execution-gap-interactive-project-building-codex-cli-fuzzy-requirements-test-scaffolding.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Peng, Huang et al. arXiv:2607.21217 (23 July 2026) ICAE-Bench 480 tasks across 12 languages evaluating interactive project building from fuzzy requirements; six models tested (Claude Opus 4.8, GPT-5.5, Gemini 3.1 Pro, GLM-5.1, Claude Sonnet 4.6, MiniMax M2.5); two gaps identified (requirement-access gap, information-to-execution gap); test scaffolding 37.4%→61.8% improvement; framework tax 5.5-21.8 percentage points (OpenHands vs Claude Code); mapped to Codex CLI AGENTS.md specification depth, /goal mode interactive clarification, PostToolUse hooks for test automation, plan mode long-horizon decomposition, sandbox predictability
+   - SEO targets: "ICAE-Bench codex cli fuzzy requirements", "information-to-execution gap coding agent", "vibe coding benchmark codex cli configuration", "coding agent test scaffolding ICAE-Bench", "codex cli AGENTS.md requirement specification", "interactive project building benchmark coding agent", "codex cli PostToolUse hooks test automation"
+
+---
+
 ## ExploitGym Sandbox Escape — Hugging Face Breach, Codex CLI Containment Architecture, Defence Lessons (2026-07-25 Hourly Article Run)
 
 1. ✅ **The ExploitGym Breakout: What OpenAI's Sandbox Escape and Hugging Face Breach Mean for Your Codex CLI Containment Strategy** — Written 2026-07-25 → `2026-07-25-exploitgym-sandbox-escape-hugging-face-breach-codex-cli-containment-architecture-defence-lessons.md`
