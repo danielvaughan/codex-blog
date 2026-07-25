@@ -1,7 +1,7 @@
 ---
 title: "From WebRTC V2 to Realtime V3: How Codex CLI's Audio Architecture Grew Up in v0.145.0"
 parent: "Articles"
-nav_order: 1630
+nav_order: 1651
 tags: ["codex-cli", "realtime-v3", "audio", "voice", "webrtc", "streaming", "v0.145.0", "multimodal"]
 ---
 

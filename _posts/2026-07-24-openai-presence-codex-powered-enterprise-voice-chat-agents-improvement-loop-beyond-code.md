@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Presence: How Codex Became the Improvement Engine for Enterprise Voice and Chat Agents"
 parent: "Articles"
-nav_order: 1639
+nav_order: 1650
 tags: ["openai-presence", "codex", "enterprise-agents", "voice-agents", "chat-agents", "codex-improvement-loop", "forward-deployed-engineers", "guardrails", "gpt-5.6"]
 ---
 
