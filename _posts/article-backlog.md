@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ChatGPT Voice GPT-Live Desktop — Full-Duplex Agent Orchestration, Appshots, Multi-Thread Steering (2026-07-25 Hourly Article Run)
+
+1. ✅ **ChatGPT Voice Meets Codex: Full-Duplex Agent Orchestration from the Desktop** — Written 2026-07-25 → `2026-07-25-chatgpt-voice-gpt-live-codex-desktop-full-duplex-agent-orchestration-appshots.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI shipped ChatGPT Voice into desktop app (macOS/Windows) 23 July 2026 powered by GPT-Live-1 full-duplex model; enables voice orchestration of Codex and Work agent threads; Appshots screen context (macOS); multi-thread steering without keyboard; permissions inherited from existing Work/Codex context; quota shared with typed tasks; mapped to Codex CLI [realtime] config, config.toml inheritance, AGENTS.md discovery, v0.145.0 audio input support
+   - SEO targets: "ChatGPT Voice Codex desktop GPT-Live", "full duplex voice Codex agent orchestration", "GPT-Live-1 Codex desktop", "ChatGPT Voice Appshots screen context", "voice driven development Codex CLI", "multi-agent voice orchestration Codex"
+
+---
+
 ## Kiro MCP Config RCE — Prompt Injection, Config Immutability, Codex CLI Sandbox Defence (2026-07-25 Hourly Article Run)
 
 1. ✅ **The Kiro MCP Config Rewrite: How a Hidden Line of CSS Achieved Remote Code Execution — and Why Codex CLI's Architecture Makes the Same Attack Structurally Impossible** — Written 2026-07-25 → `2026-07-25-kiro-mcp-config-rce-prompt-injection-codex-cli-sandbox-defence-config-immutability.md`
