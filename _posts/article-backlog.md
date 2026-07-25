@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Kiro MCP Config RCE — Prompt Injection, Config Immutability, Codex CLI Sandbox Defence (2026-07-25 Hourly Article Run)
+
+1. ✅ **The Kiro MCP Config Rewrite: How a Hidden Line of CSS Achieved Remote Code Execution — and Why Codex CLI's Architecture Makes the Same Attack Structurally Impossible** — Written 2026-07-25 → `2026-07-25-kiro-mcp-config-rce-prompt-injection-codex-cli-sandbox-defence-config-immutability.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Intezer disclosed CVE-2026-10591 (CVSS 8.8) on 22 July 2026; Kiro agentic IDE fsWrite to ~/.kiro/settings/mcp.json without approval + auto-reload = RCE via hidden CSS prompt injection; six-step kill chain from documentation page to reverse shell; mapped to Codex CLI OS-level sandbox (Bubblewrap/Seatbelt/AppContainer), network isolation default-off, independent approval_policy, requirements.toml fleet enforcement, PreToolUse hooks; structural comparison showing four independent defence layers vs single approval gate
+   - SEO targets: "Kiro MCP config RCE codex cli defence", "CVE-2026-10591 codex cli sandbox", "prompt injection MCP config rewrite", "codex cli config immutability sandbox", "agentic IDE RCE prompt injection defence", "codex cli vs kiro security architecture", "MCP server config protection codex cli"
+
+---
+
 ## ICAE-Bench Information-to-Execution Gap — Interactive Project Building, Fuzzy Requirements, Test Scaffolding (2026-07-25 Hourly Article Run)
 
 1. ✅ **ICAE-Bench and the Information-to-Execution Gap: What 480 Interactive Tasks Reveal About Your Coding Agent's Real Weakness** — Written 2026-07-25 → `2026-07-25-icae-bench-information-to-execution-gap-interactive-project-building-codex-cli-fuzzy-requirements-test-scaffolding.md`
