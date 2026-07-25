@@ -2,7 +2,7 @@
 title: "Codex CLI 3 Million Users: Growth Trajectory and What the Usage Limit Reset Strategy Means"
 description: "On 8 April 2026, Sam Altman announced that Codex had crossed three million weekly active users."
 date: 2026-04-09T08:30:00+00:00
-last_modified_at: 2026-07-25T10:11:24+01:00
+last_modified_at: 2026-07-25T10:16:20+01:00
 tags:
   - growth
   - 3-million-users
