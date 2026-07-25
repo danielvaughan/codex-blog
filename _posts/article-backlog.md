@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The 272K Tripwire — GPT-5.6 Context Window Pricing Threshold, Auto-Compaction, Cost Defence (2026-07-25 Hourly Article Run)
+
+1. ✅ **The 272K Tripwire: How GPT-5.6's Context Window Cap Silently Doubles Your Codex CLI Bill** — Written 2026-07-25 → `2026-07-25-codex-cli-gpt-5-6-272k-context-window-pricing-threshold-auto-compaction-cost-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GPT-5.6 family launched 9 July 2026 with 1.05M context window but 272K pricing threshold applying 2× input and 1.5× output multiplier to ENTIRE request; v0.144.5 catalogue originally reported 372K context window allowing sessions to silently cross boundary; v0.144.6 corrected to 272K; GitHub Issues #32486 and #32806 documenting community impact; model_auto_compact_token_limit = 250000 defence; Multi-Agent V2 sub-agent amplification via hide_spawn_agent_metadata; named profiles for tier routing; competitive context vs Gemini/Claude/Grok 1M windows without multipliers
+   - SEO targets: "codex cli GPT-5.6 272K pricing threshold", "codex cli context window cost", "GPT-5.6 higher-usage band 2x pricing", "codex cli auto-compaction 272K", "codex cli model_auto_compact_token_limit", "GPT-5.6 Sol context window cap", "codex cli cost defence configuration"
+
+---
+
 ## Codex as JetBrains Agent Provider — ACP Protocol, Hooks, MCP Server Management, Configuration (2026-07-25 Hourly Article Run)
 
 1. ✅ **Codex as JetBrains Agent Provider: How ACP, Hooks, and MCP Server Management Turn Your IDE into a Multi-Agent Control Plane** — Written 2026-07-25 → `2026-07-25-codex-cli-jetbrains-agent-provider-acp-protocol-hooks-mcp-configuration.md`
