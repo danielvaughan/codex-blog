@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Model Routing Patterns — Sol, Terra, Luna Decision Framework (2026-07-26 Hourly Article Run)
+
+1. ✅ **Model Routing Patterns for Codex CLI: A Sol, Terra, Luna Decision Framework** — Written 2026-07-26 → `2026-07-26-codex-cli-model-routing-patterns-gpt56-sol-terra-luna-decision-framework.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Model Routing Patterns for Coding Agents: Sol, Terra, Luna Decision Framework" (High priority, added 2026-07-25); GPT-5.6 three-tier pricing ($5/$30 Sol, $2.50/$15 Terra, $1/$6 Luna); named profile routing via config.toml; benchmark gap analysis (2–4 points Terra vs Sol); Luna 41.3% MRCR long-context weakness; subagent routing limitation Issue #31814; Programmatic Tool Calling V8 runtime; Max vs Ultra reasoning modes; SDLC routing table; 60% cost reduction model; 5 citations
+   - SEO targets: "codex cli model routing Sol Terra Luna", "GPT-5.6 model selection framework", "codex cli named profiles model routing", "Sol vs Terra vs Luna coding agents", "codex cli cost optimisation model tiers", "GPT-5.6 tier decision framework"
+
+---
+
 ## Rollout Token Budgets — Session-Level Cost Control, Multi-Agent Enforcement (2026-07-26 Hourly Article Run)
 
 1. ✅ **Rollout Token Budgets: How Codex CLI's Session-Level Cost Control Finally Stops Runaway Agent Spend** — Written 2026-07-26 → `2026-07-26-codex-cli-rollout-token-budgets-session-cost-control-multi-agent-enforcement.md`
