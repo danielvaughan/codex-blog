@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Do Auto-Generated AGENTS.md Files Actually Help? — /init, Research Evidence, Context Engineering (2026-07-26 Hourly Article Run)
+
+1. ✅ **Do Auto-Generated AGENTS.md Files Actually Help? What Four Studies Reveal About /init, Context Bloat, and the Real Cost of Repository Guidance** — Written 2026-07-26 → `2026-07-26-do-auto-generated-agents-md-files-actually-help-codex-cli-init-research-evidence-context-engineering.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Do Auto-Generated AGENTS.md Files Actually Help?" (High priority, added 2026-07-21); Gloaguen et al. arXiv:2602.11988 (ETH Zurich, Feb 2026) context files do not improve task success, +20% inference cost; Lulla et al. arXiv:2601.20404 (ICSE JAWs 2026) human-authored AGENTS.md 28.64% runtime reduction, 16.58% token reduction; McMillan arXiv:2605.10039 (May 2026) 1,650 sessions, no structural variable produced detectable effect; Shepard & Albrecht arXiv:2606.20512 (June 2026) probe-and-refine 33.0% vs 25.5% unguided; Addy Osmani "Stop Using /init" (March 2026); Codex CLI 32 KiB limit, --print-instructions, three-tier layering; 6 citations
+   - SEO targets: "codex cli AGENTS.md auto-generated init research", "AGENTS.md context bloat token cost", "codex cli init effectiveness study", "auto-generated AGENTS.md performance", "AGENTS.md best practices research evidence 2026", "codex cli context engineering AGENTS.md"
+
+---
+
 ## System Proxy, PAC, and WPAD — Corporate Network Enterprise Deployment (2026-07-26 Hourly Article Run)
 
 1. ✅ **System Proxy, PAC, and WPAD: How Codex CLI Finally Speaks Your Corporate Network's Language** — Written 2026-07-26 → `2026-07-26-codex-cli-system-proxy-pac-wpad-corporate-network-enterprise-deployment.md`
