@@ -80,13 +80,13 @@ Regulated industries need to demonstrate that AI systems operate within defined 
 
 ## The EU AI Act Collision
 
-The timing is not coincidental in its awkwardness. The EU AI Act's Annex III obligations, including Article 12's logging requirements, take effect on 2 August 2026 — eighteen days after Codex CLI 0.144.4 made encrypted delegation mandatory for its most capable models [^2].
+The timing is not coincidental in its awkwardness. The EU AI Act's Annex III obligations, including Article 12's logging requirements, were originally scheduled for 2 August 2026. However, the EU AI Omnibus amendment — politically agreed on 7 May 2026 — postponed these high-risk obligations to **2 December 2027** [^2]. The delay buys time, but it does not remove the compliance requirement. Teams building audit infrastructure now will be better positioned when the deadline arrives.
 
 Article 12 requires that high-risk AI systems "shall technically allow for the automatic recording of events (logs) over the lifetime of the system" [^9]. The logs must capture inputs, outputs, and decision points sufficient for "full traceability" [^9].
 
 Whether a coding agent qualifies as "high-risk" under Annex III depends on deployment context. But for teams building safety-critical software, medical device firmware, or financial systems, the argument that their AI coding tool is high-risk is straightforward [^10].
 
-The penalty for non-compliance: up to €15 million or 3% of worldwide annual turnover, whichever is higher [^2].
+The penalty for non-compliance, once the postponed deadline arrives: up to €15 million or 3% of worldwide annual turnover, whichever is higher [^2].
 
 ### What Article 12 Requires vs What Codex Provides
 
@@ -169,7 +169,7 @@ This is not solely a Codex CLI problem. Any multi-agent system that encrypts, su
 
 The difference is that Codex CLI's gap is documented, public, and has a proposed fix. That makes it the best place to establish the principle: **in multi-agent coding systems, encrypted delivery and operator auditability are not mutually exclusive, and both are required**.
 
-The EU AI Act formalises this principle into law in eight days. The question is whether the tooling will catch up.
+The EU AI Act will formalise this principle into law when the postponed Annex III obligations take effect on 2 December 2027. The delay provides a window, but the question remains whether the tooling will catch up.
 
 ---
 

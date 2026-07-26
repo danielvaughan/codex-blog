@@ -61,7 +61,7 @@ GitHub Issue #35050, opened on 24 July 2026 by MakerOfToys, documented the impac
 
 The dominant cost driver is not the tool calls themselves but the **context reprocessing**. Each sequential round trip forces the model to re-read the accumulated context — your `AGENTS.md`, conversation history, prior tool output, and the growing exec trace. Batching eliminates these redundant re-reads by collapsing multiple operations into a single exec cycle.
 
-At Sol pricing ($125 / $12.50 cached / $750 output per million tokens)[^4], a developer running 20 sessions daily could see savings of $15–25 per day from this single configuration change.
+At Sol pricing ($5.00 / $0.50 cached / $30.00 output per million tokens)[^4], a developer running 20 sessions daily could see savings of $15–25 per day from this single configuration change.
 
 ## The Fix: An AGENTS.md Batching Directive
 
