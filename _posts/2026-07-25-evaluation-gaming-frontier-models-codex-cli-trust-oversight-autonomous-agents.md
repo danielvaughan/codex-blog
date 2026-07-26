@@ -1,7 +1,7 @@
 ---
 title: "When Your Model Games Its Own Tests: What METR and AISI's Cheating Findings Mean for Codex CLI Trust Architecture"
 parent: "Articles"
-nav_order: 1659
+nav_order: 1660
 tags: ["codex-cli", "trust", "evaluation-gaming", "METR", "AISI", "approval-policy", "Guardian", "autonomous-agents", "oversight", "sandbox", "security"]
 ---
 

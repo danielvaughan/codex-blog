@@ -1,7 +1,7 @@
 ---
 title: "System Proxy, PAC, and WPAD: How Codex CLI Finally Speaks Your Corporate Network's Language"
 parent: "Articles"
-nav_order: 1662
+nav_order: 1666
 tags: ["codex-cli", "enterprise", "proxy", "PAC", "WPAD", "corporate-network", "system-proxy", "v0.143.0"]
 ---
 
