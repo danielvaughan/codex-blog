@@ -1,5 +1,13 @@
 # Article Backlog
 
+## System Proxy, PAC, and WPAD — Corporate Network Enterprise Deployment (2026-07-26 Hourly Article Run)
+
+1. ✅ **System Proxy, PAC, and WPAD: How Codex CLI Finally Speaks Your Corporate Network's Language** — Written 2026-07-26 → `2026-07-26-codex-cli-system-proxy-pac-wpad-corporate-network-enterprise-deployment.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.143.0 (8 July 2026) added OS-native system proxy resolution via PR #26708 (Windows WinHTTP) and PR #26709 (macOS SystemConfiguration/CFNetwork); PR #31335 extended to Responses API; respect_system_proxy config flag; PAC script execution with 5s timeout; WPAD auto-discovery; SHA-256 cached PAC decisions; interaction with managed network proxy allow_upstream_proxy; enterprise MDM deployment via requirements.toml; 7 citations
+   - SEO targets: "codex cli system proxy PAC WPAD enterprise", "codex cli respect_system_proxy corporate network", "codex cli v0.143.0 system proxy", "codex cli corporate proxy PAC WPAD deployment", "codex cli enterprise network proxy configuration"
+
+---
+
 ## GuardFall and ShellSieve Denylist Fragility — OS-Level Sandbox Defence, Coding Agent Security (2026-07-26 Hourly Article Run)
 
 1. ✅ **GuardFall and ShellSieve: Why Denylist-Based Security Is a Losing Strategy for Coding Agents — and How Codex CLI's OS-Level Sandbox Changes the Calculus** — Written 2026-07-26 → `2026-07-26-guardfall-shellsieve-denylist-fragility-coding-agents-codex-cli-os-level-sandbox-defence.md`
