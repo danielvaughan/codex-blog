@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GuardFall and ShellSieve Denylist Fragility — OS-Level Sandbox Defence, Coding Agent Security (2026-07-26 Hourly Article Run)
+
+1. ✅ **GuardFall and ShellSieve: Why Denylist-Based Security Is a Losing Strategy for Coding Agents — and How Codex CLI's OS-Level Sandbox Changes the Calculus** — Written 2026-07-26 → `2026-07-26-guardfall-shellsieve-denylist-fragility-coding-agents-codex-cli-os-level-sandbox-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Adversa AI GuardFall disclosure (30 June 2026) bypassed 10 of 11 open-source coding agents (548K combined GitHub stars) using five shell bypass classes (quote removal, $IFS expansion, command substitution, base64 pipe chain, alternative argv shapes); Chen & Lin arXiv:2606.15549 ShellSieve LLM pipeline analysed 1,709 denylists (13,332 rules), found 69.0–98.6% fragile; mapped to Codex CLI OS-level sandbox (Bubblewrap/Seatbelt/Restricted Tokens), seccomp-BPF syscall filtering, approval_policy, Guardian auto-review, is_dangerous_command as UX layer not security boundary; architectural argument for kernel-level enforcement vs application-level pattern matching; 7 citations
+   - SEO targets: "GuardFall codex cli sandbox defence", "ShellSieve denylist fragility coding agents", "codex cli OS-level sandbox vs denylist", "shell injection bypass AI coding agents", "codex cli Bubblewrap seccomp security", "denylist fragility coding agent security 2026", "GuardFall 10 of 11 agents bypass"
+
+---
+
 ## GPT-5.6 Code Mode Serialisation Tax — Batching Tool Calls, Token Savings, AGENTS.md Configuration (2026-07-26 Hourly Article Run)
 
 1. ✅ **The GPT-5.6 Serialisation Tax: How Explicit Batching in Code Mode Cuts Your Codex CLI Token Bill by 27–45%** — Written 2026-07-26 → `2026-07-26-gpt56-code-mode-serialisation-fix-batching-tool-calls-codex-cli-token-savings.md`
