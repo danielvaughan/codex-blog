@@ -8,6 +8,7 @@ timestamp: 2026-07-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-26-gpt56-code-mode-serialisation-fix-batching-tool-calls-codex-cli-token-savings"
 tags: ["gpt-5.6", "code-mode", "token-optimisation", "programmatic-tool-calling", "cost-management", "agents-md", "configuration", "performance"]
 ---
+
 # The GPT-5.6 Serialisation Tax: How Explicit Batching in Code Mode Cuts Your Codex CLI Token Bill by 27–45%
 
 
