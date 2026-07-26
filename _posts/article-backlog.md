@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Ultra Mode Trade-Off — Reasoning Budgets, Sub-Agent Cost, Task Drift (2026-07-27 Hourly Article Run)
+
+1. ✅ **The Ultra Mode Trade-Off: When GPT-5.6 Sol's Bigger Reasoning Budgets Backfire in Codex CLI** — Written 2026-07-27 → `2026-07-27-gpt56-sol-ultra-mode-tradeoff-reasoning-budgets-subagent-cost-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Ultra Mode Trade-Off: When Bigger Reasoning Budgets Backfire" (High priority, added 2026-07-24); GPT-5.6 Sol six reasoning levels (Low through Ultra); Ultra spawns cooperative sub-agents pushing Terminal-Bench 2.1 from 88.8% to 91.9%; 6–12x token multiplication effect; Issue #32187 task drift in long-horizon Ultra sessions; Issue #32587 silent Sol Ultra model inheritance overriding Luna/Terra custom agent configs; Issue #32842 Sol Ultra self-bypassing delegation UI via codex exec; named profile routing and rollout token budget defences; 7 citations
+   - SEO targets: "codex cli GPT-5.6 Sol Ultra mode trade-off", "codex cli Ultra vs Max reasoning mode", "GPT-5.6 Sol Ultra sub-agent token cost", "codex cli reasoning effort configuration guide", "Sol Ultra task drift issue", "codex cli named profiles reasoning budget", "GPT-5.6 Ultra mode when to use"
+
+---
+
 ## GPT-5.6 Outcome-First Prompting — Lean System Prompts, AGENTS.md Strategy (2026-07-26 Hourly Article Run)
 
 1. ✅ **Outcome-First Prompting: How GPT-5.6 Sol's Lean-Prompt Philosophy Reshapes Your Codex CLI Strategy** — Written 2026-07-26 → `2026-07-26-gpt56-outcome-first-prompting-lean-system-prompts-codex-cli-agents-md-strategy.md`
