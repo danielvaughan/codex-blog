@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Shared Agentic Credit Pool — 5-Hour Limit Removal, Quota Architecture, Budget Defence (2026-07-26 Hourly Article Run)
+
+1. ✅ **The Shared Agentic Credit Pool: How OpenAI's Quota Architecture Silently Drains Your Codex CLI Budget — and What the 5-Hour Limit Removal Actually Changes** — Written 2026-07-26 → `2026-07-26-codex-cli-shared-agentic-credit-pool-quota-architecture-5-hour-limit-removal-budget-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — 12 July 2026 temporary 5-hour limit removal; shared agentic credit pool across ChatGPT Work, Codex, Excel, Workspace Agents; Issue #30918 anomalous 5.7%/min drain rate; Issue #34035 community request for permanent removal (124+ reactions); tier-specific quota ranges (Plus 1×, Pro $100 5×, Pro $200 20×); token credit pricing (Sol 125/750, Terra 62.50/375, Luna 25/150 credits/M tokens); named profile model routing defence; auto-compaction 272K threshold guard; banked reset mechanism; two-stage ChatGPT/Codex workflow; 11 citations
+   - SEO targets: "codex cli shared agentic credit pool", "codex cli 5-hour limit removed", "codex cli quota architecture budget defence", "codex cli named profiles model routing cost", "codex cli banked reset quota management", "shared credit pool ChatGPT Work Codex"
+
+---
+
 ## GPT-5.6 Sol Context Window Cap and July Latency Regression (2026-07-26 Hourly Article Run)
 
 1. ✅ **The 272K Reality: How GPT-5.6 Sol's Context Window Cap and July Latency Regression Expose Codex CLI's Infrastructure Limits** — Written 2026-07-26 → `2026-07-26-codex-cli-gpt56-sol-context-window-cap-272k-latency-regression-infrastructure-limits.md`
