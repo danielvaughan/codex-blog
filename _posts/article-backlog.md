@@ -1,5 +1,13 @@
 # Article Backlog
 
+## v0.145 Terminal Rendering Pipeline — Incremental Markdown, Inline Visualisation Links, Performance (2026-07-26 Hourly Article Run)
+
+1. ✅ **Inside v0.145's Terminal Rendering Pipeline: How Incremental Markdown, Inline Visualisation Links, and Bounded Output Fixed Codex CLI's Long-Session Performance** — Written 2026-07-26 → `2026-07-26-codex-cli-v0145-terminal-rendering-pipeline-incremental-markdown-inline-visualization-performance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.145.0 (21 July 2026) shipped incremental Markdown rendering with segment-based caching (PRs #34045, #34049, #34216, #34223, #34359), secure clickable inline visualisation links (PRs #33925, #34217, #34346), and bounded command output; addresses Issues #18693 (desktop performance collapse), #9290 (input lag), #30007 (mixed-language rendering), #17922 (OSC 8 hyperlinks); 7 citations
+   - SEO targets: "codex cli v0.145 terminal rendering performance", "codex cli incremental markdown rendering", "codex cli inline visualization links", "codex cli long session performance fix", "codex cli OSC 8 visualization", "codex cli bounded command output"
+
+---
+
 ## Paginated Thread History — SQLite-Backed Session Architecture, Search, Resume, Persisted Names, Memories (2026-07-26 Hourly Article Run)
 
 1. ✅ **Paginated Thread History: How Codex CLI v0.145's SQLite-Backed Session Architecture Transforms Resume, Search, and Memory** — Written 2026-07-26 → `2026-07-26-codex-cli-paginated-thread-history-sqlite-search-resume-persisted-names-memories.md`
