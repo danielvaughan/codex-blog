@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.6 Sol Context Window Cap and July Latency Regression (2026-07-26 Hourly Article Run)
+
+1. ✅ **The 272K Reality: How GPT-5.6 Sol's Context Window Cap and July Latency Regression Expose Codex CLI's Infrastructure Limits** — Written 2026-07-26 → `2026-07-26-codex-cli-gpt56-sol-context-window-cap-272k-latency-regression-infrastructure-limits.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub Issue #34225 documenting 3.3× latency regression (17.95s → 59.26s mean, 32.58s → 154.13s P90) from 12–19 July 2026; Issue #32806 context window reduction from 353K to 258K effective tokens vs 1.05M advertised; v0.144.6 "corrected" metadata to 272K; 272K as billing boundary (2× input pricing above threshold); model_context_window override breaks auto-compaction (Issue #16068); profile-scoped overrides silently ignored (Issue #14456); practical mitigations via model_auto_compact_token_limit and model routing; 11 citations
+   - SEO targets: "codex cli GPT-5.6 Sol context window 272K cap", "codex cli latency regression July 2026", "codex cli model_auto_compact_token_limit config", "GPT-5.6 Sol 258K effective context window", "codex cli performance degradation 3x slowdown", "codex cli context window override workaround"
+
+---
+
 ## Responses Lite Wire Format — GPT-5.6 Tool Visibility, Azure Provider Compatibility (2026-07-26 Hourly Article Run)
 
 1. ✅ **Responses Lite Explained: How GPT-5.6's Wire Format Reshapes Tool Dispatch in Codex CLI — and Why Azure Users Hit a Wall** — Written 2026-07-26 → `2026-07-26-codex-cli-responses-lite-wire-format-gpt56-tool-visibility-azure-provider-compatibility.md`
