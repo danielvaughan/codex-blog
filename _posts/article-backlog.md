@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Paginated Thread History — SQLite-Backed Session Architecture, Search, Resume, Persisted Names, Memories (2026-07-26 Hourly Article Run)
+
+1. ✅ **Paginated Thread History: How Codex CLI v0.145's SQLite-Backed Session Architecture Transforms Resume, Search, and Memory** — Written 2026-07-26 → `2026-07-26-codex-cli-paginated-thread-history-sqlite-search-resume-persisted-names-memories.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.145.0 (21 July 2026) shipped experimental paginated thread history replacing full-thread loading with cursor-based SQLite pagination; four new JSON-RPC methods (thread/list, thread/turns/list, thread/items/list, thread/searchOccurrences); three item view modes (notLoaded, summary, full); persisted thread names via thread/name/set; sub-agent thread tree navigation via parentThreadId/ancestorThreadId filters; memory extraction pipeline integration; state_5.sqlite corruption recovery (Issues #21750, #22452, #27363); PRs #21566, #23534, #27750, #28671, #26662; historyMode: "paginated" thread creation; 8 citations
+   - SEO targets: "codex cli paginated thread history v0.145", "codex cli sqlite session architecture", "codex cli thread search occurrence", "codex cli persisted thread names", "codex cli thread resume pagination", "codex cli state_5.sqlite thread store", "codex cli sub-agent thread tree"
+
+---
+
 ## Model Routing Patterns — Sol, Terra, Luna Decision Framework (2026-07-26 Hourly Article Run)
 
 1. ✅ **Model Routing Patterns for Codex CLI: A Sol, Terra, Luna Decision Framework** — Written 2026-07-26 → `2026-07-26-codex-cli-model-routing-patterns-gpt56-sol-terra-luna-decision-framework.md`
