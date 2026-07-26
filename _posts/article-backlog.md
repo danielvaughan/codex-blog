@@ -1,5 +1,14 @@
 # Article Backlog
 
+## GPT-5.6 Outcome-First Prompting — Lean System Prompts, AGENTS.md Strategy (2026-07-26 Hourly Article Run)
+
+1. ✅ **Outcome-First Prompting: How GPT-5.6 Sol's Lean-Prompt Philosophy Reshapes Your Codex CLI Strategy** — Written 2026-07-26 → `2026-07-26-gpt56-outcome-first-prompting-lean-system-prompts-codex-cli-agents-md-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md gap analysis — OpenAI published GPT-5.6 prompting guide (9 July 2026) inverting GPT-5.5-era verbose scaffolding; internal coding-agent evals showed lean prompts improved scores 10–15%, cut tokens 41–66%, cut costs 33–67%; GPT-5.6 Sol described as "proactive and persistent" by default; mapped to AGENTS.md 32 KiB budget, named profiles, reasoning effort configuration, broad delegation pattern; 5 citations
+   - SEO targets: "GPT-5.6 outcome-first prompting codex cli", "codex cli lean system prompts GPT-5.6", "AGENTS.md GPT-5.6 migration strategy", "stop over-prompting GPT-5.6 Sol", "codex cli prompting guide 2026", "GPT-5.6 Sol lean AGENTS.md best practices"
+
+---
+
+
 ## v0.145 Terminal Rendering Pipeline — Incremental Markdown, Inline Visualisation Links, Performance (2026-07-26 Hourly Article Run)
 
 1. ✅ **Inside v0.145's Terminal Rendering Pipeline: How Incremental Markdown, Inline Visualisation Links, and Bounded Output Fixed Codex CLI's Long-Session Performance** — Written 2026-07-26 → `2026-07-26-codex-cli-v0145-terminal-rendering-pipeline-incremental-markdown-inline-visualization-performance.md`
