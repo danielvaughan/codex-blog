@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Rollout Token Budgets — Session-Level Cost Control, Multi-Agent Enforcement (2026-07-26 Hourly Article Run)
+
+1. ✅ **Rollout Token Budgets: How Codex CLI's Session-Level Cost Control Finally Stops Runaway Agent Spend** — Written 2026-07-26 → `2026-07-26-codex-cli-rollout-token-budgets-session-cost-control-multi-agent-enforcement.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — PRs #28746, #28494, #28707, #29423 (June–July 2026) implementing shared RolloutBudgetState ledger across all agent threads; [features.rollout_budget] config with enabled, limit_tokens, sampling_token_weight, prefill_token_weight, reminder_at_remaining_tokens; TurnAborted soft boundary enforcement; no cross-thread Op::Interrupt fanout; compaction charges against budget; fleet enforcement via requirements.toml; interaction with auto-compaction, named profiles, shared agentic credit pool; 8 citations
+   - SEO targets: "codex cli rollout token budget", "codex cli session cost control", "codex cli token budget multi-agent", "codex cli TurnAborted budget enforcement", "codex cli features.rollout_budget config", "codex cli requirements.toml token limit"
+
+---
+
 ## Shared Agentic Credit Pool — 5-Hour Limit Removal, Quota Architecture, Budget Defence (2026-07-26 Hourly Article Run)
 
 1. ✅ **The Shared Agentic Credit Pool: How OpenAI's Quota Architecture Silently Drains Your Codex CLI Budget — and What the 5-Hour Limit Removal Actually Changes** — Written 2026-07-26 → `2026-07-26-codex-cli-shared-agentic-credit-pool-quota-architecture-5-hour-limit-removal-budget-defence.md`
