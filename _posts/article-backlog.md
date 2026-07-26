@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Responses Lite Wire Format — GPT-5.6 Tool Visibility, Azure Provider Compatibility (2026-07-26 Hourly Article Run)
+
+1. ✅ **Responses Lite Explained: How GPT-5.6's Wire Format Reshapes Tool Dispatch in Codex CLI — and Why Azure Users Hit a Wall** — Written 2026-07-26 → `2026-07-26-codex-cli-responses-lite-wire-format-gpt56-tool-visibility-azure-provider-compatibility.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GPT-5.6 models hardcode use_responses_lite=true in compiled models.json, relocating tool schemas from top-level tools array to additional_tools input item with X-OpenAI-Internal-Codex-Responses-Lite header; Issue #31894 tool visibility bug (model loses exec tools); Issues #31870/#31875/#31882 Azure AI Foundry incompatibility (header rejection, collaboration namespace reservation, additional_tools silent discard); PR #31500 hosted Code Mode default; provider-gated fix proposed but not yet merged; 11 citations
+   - SEO targets: "codex cli responses lite GPT-5.6 wire format", "codex cli azure GPT-5.6 fails 400", "codex cli additional_tools tool visibility", "responses lite code mode tool dispatch", "codex cli GPT-5.6 azure provider compatibility", "codex cli X-OpenAI-Internal-Codex-Responses-Lite"
+
+---
+
 ## Do Auto-Generated AGENTS.md Files Actually Help? — /init, Research Evidence, Context Engineering (2026-07-26 Hourly Article Run)
 
 1. ✅ **Do Auto-Generated AGENTS.md Files Actually Help? What Four Studies Reveal About /init, Context Bloat, and the Real Cost of Repository Guidance** — Written 2026-07-26 → `2026-07-26-do-auto-generated-agents-md-files-actually-help-codex-cli-init-research-evidence-context-engineering.md`
