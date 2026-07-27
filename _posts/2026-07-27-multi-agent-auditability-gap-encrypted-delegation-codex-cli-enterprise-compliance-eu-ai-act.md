@@ -1,7 +1,7 @@
 ---
 title: "The Multi-Agent Auditability Gap: Why Encrypted Delegation Blinds Your Debugging — and What It Means for Enterprise Compliance"
 parent: "Articles"
-nav_order: 1675
+nav_order: 1676
 tags: ["codex-cli", "multi-agent", "auditability", "encrypted-delegation", "enterprise", "compliance", "EU-AI-Act", "debugging", "transparency"]
 ---
 

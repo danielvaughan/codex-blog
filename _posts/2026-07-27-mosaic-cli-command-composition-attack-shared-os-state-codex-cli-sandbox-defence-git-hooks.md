@@ -1,7 +1,7 @@
 ---
 title: "MOSAIC and the Command-Composition Kill Chain: How Individually Benign CLI Commands Combine Through Shared OS State to Breach Coding Agents — and Where Codex CLI's Sandbox Draws the Line"
 parent: "Articles"
-nav_order: 1674
+nav_order: 1675
 type: Technical Article
 timestamp: 2026-07-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-27-mosaic-cli-command-composition-attack-shared-os-state-codex-cli-sandbox-defence-git-hooks"
