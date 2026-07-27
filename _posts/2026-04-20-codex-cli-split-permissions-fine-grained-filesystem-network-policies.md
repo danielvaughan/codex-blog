@@ -2,7 +2,7 @@
 title: "Codex CLI Split Permissions: Fine-Grained Filesystem and Network Policies"
 description: "The three-mode sandbox (read-only, workspace-write, danger-full-access) that shipped with early Codex CLI versions works well for solo developers, but falls."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-07-27T20:08:03+01:00
+last_modified_at: 2026-07-27T22:07:25+01:00
 parent: "Articles"
 nav_order: 1478
 type: Technical Article

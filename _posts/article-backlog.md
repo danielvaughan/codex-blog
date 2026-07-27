@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Do Auto-Generated AGENTS.md Files Actually Help? (2026-07-27 Hourly Article Run)
+
+1. ✅ **Do Auto-Generated AGENTS.md Files Actually Help? What Three Studies Say About Instruction File Effectiveness** — Written 2026-07-27 → `2026-07-27-do-auto-generated-agents-md-files-actually-help-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Do Auto-Generated AGENTS.md Files Actually Help?" (High priority, added 2026-07-21); Lulla et al. arXiv:2601.20404 (January 2026) 28.64% runtime reduction with AGENTS.md but efficiency only; Gloaguen et al. arXiv:2602.11988 (February 2026) ETH Zurich finding LLM-generated files decrease success by 3% and increase cost by 20%; dos Santos et al. arXiv:2606.15828 (June 2026) 91% of files carry configuration smells; 62% Lint Leakage, 42% Context Bloat; /init limitations Issue #21932; 32 KiB budget; practical template; CLAUDE.md bridging; 6 citations
+   - SEO targets: "codex cli AGENTS.md auto-generated effectiveness", "AGENTS.md vs hand-written coding agent", "auto-generated AGENTS.md performance study", "AGENTS.md configuration smells", "codex cli /init AGENTS.md quality", "AGENTS.md best practices 2026"
+
+---
+
 ## Model Routing Patterns — Sol, Terra, Luna Decision Framework for Codex CLI (2026-07-27 Hourly Article Run)
 
 1. ✅ **Model Routing Patterns for Coding Agents: A Sol, Terra, Luna Decision Framework** — Written 2026-07-27 → `2026-07-27-gpt56-sol-terra-luna-model-routing-patterns-codex-cli-decision-framework.md`
