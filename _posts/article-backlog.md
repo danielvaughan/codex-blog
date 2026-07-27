@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Nine Outages in Seven Days — Codex CLI API Outage Resilience, Multi-Provider Failover, Gateway Routing (2026-07-27 Hourly Article Run)
+
+1. ✅ **Nine Outages in Seven Days: Building Codex CLI Resilience with Multi-Provider Failover** — Written 2026-07-27 → `2026-07-27-codex-cli-api-outage-resilience-multi-provider-failover-gateway-routing-defensive-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — StatusGator July 2026 incident log (9 incidents in 7 days, 166 incidents in 9 months); biscuit_baker_service_me_circuit_open 503 errors; 24-hour ChatGPT outage 23 July; 11-hour Codex outage 24 July; native config.toml multi-provider (Azure, Bedrock); Portkey gateway failover with circuit breakers (Palo Alto acquisition 30 April 2026); Bifrost gateway governance; named profile failover patterns; rollout token budgets as circuit breakers; codex doctor diagnostics; requirements.toml fleet enforcement; 7 citations
+   - SEO targets: "codex cli outage resilience multi-provider failover", "codex cli Azure Bedrock fallback configuration", "codex cli Portkey Bifrost gateway failover", "OpenAI outage July 2026 codex impact", "codex cli defensive configuration provider routing", "codex cli requirements.toml fleet resilience"
+
+---
+
 ## The Meta-Harness Pattern — Orchestrating Codex CLI and Claude Code as Sub-Agents Through Pi (2026-07-27 Hourly Article Run)
 
 1. ✅ **The Meta-Harness Pattern: Orchestrating Codex CLI and Claude Code as Sub-Agents Through Pi** — Written 2026-07-27 → `2026-07-27-meta-harness-pattern-orchestrating-codex-claude-code-pi-sub-agents.md`
