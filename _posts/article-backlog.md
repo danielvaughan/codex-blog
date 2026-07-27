@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Multi-Agent Auditability Gap — Encrypted Delegation, Enterprise Compliance, EU AI Act (2026-07-27 Hourly Article Run)
+
+1. ✅ **The Multi-Agent Auditability Gap: Why Encrypted Delegation Blinds Your Debugging — and What It Means for Enterprise Compliance** — Written 2026-07-27 → `2026-07-27-multi-agent-auditability-gap-encrypted-delegation-codex-cli-enterprise-compliance-eu-ai-act.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Multi-Agent Auditability: Can You Trust What Sub-Agents Are Told?" (High priority, added 2026-07-24); PR #26210 merged 5 June 2026 encrypting MultiAgentV2 inter-agent message payloads; v0.138.0 (8 June 2026) first stable release with encryption; v0.144.4 (14 July 2026) mandating V2 for Sol and Terra; Issue #28058 (Ignat Remizov, 13 June 2026) proposing dual-field encrypted_with_audit architecture; three affected tools (spawn_agent, send_message, followup_task); PR #33030 removing task content from list_agents; Luna V1 unaffected; EU AI Act Article 12 broad enforcement 2 August 2026; FINRA 2026 three novel agent risks; four practical mitigations (Luna routing, AGENTS.md pre-delegation logging, PostToolUse hooks, fork); 7 citations
+   - SEO targets: "codex cli multi-agent auditability encrypted delegation", "codex cli encrypted sub-agent instructions audit", "multi-agent V2 debugging transparency codex cli", "EU AI Act Article 12 coding agent compliance", "codex cli Issue 28058 audit trail", "encrypted delegation enterprise compliance coding agent", "codex cli multi-agent debugging audit gap"
+
+---
+
 ## MOSAIC CLI Command-Composition Attack — Shared OS State, Git Hooks, Sandbox Defence (2026-07-27 Hourly Article Run)
 
 1. ✅ **MOSAIC and the Command-Composition Kill Chain: How Individually Benign CLI Commands Combine Through Shared OS State to Breach Coding Agents — and Where Codex CLI's Sandbox Draws the Line** — Written 2026-07-27 → `2026-07-27-mosaic-cli-command-composition-attack-shared-os-state-codex-cli-sandbox-defence-git-hooks.md`
