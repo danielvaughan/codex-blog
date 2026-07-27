@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Next-Generation Context Compaction — Slipstream, SelfCompact, CompactionRL (2026-07-28 Hourly Article Run)
+
+1. ✅ **Next-Generation Context Compaction: What Slipstream, SelfCompact, and CompactionRL Reveal About Keeping Long-Horizon Coding Agents on Track** — Written 2026-07-28 → `2026-07-28-next-generation-context-compaction-slipstream-selfcompact-compactionrl-codex-cli-long-horizon-sessions.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. arXiv:2605.08580 (May 2026) Slipstream async compaction validation with trajectory-grounded judge, +8.8pp SWE-bench, -39.7% latency; Li et al. arXiv:2606.23525 (June 2026) SelfCompact model-initiated compaction at semantic boundaries, +18.1pp maths, 30-70% cost reduction; Li et al. arXiv:2607.05378 (July 2026) CompactionRL joint RL training for compaction, +7.0pp SWE-bench GLM-4.5-Air, deployed in GLM-5.2 training; governance decay arXiv:2606.22528 constraint erasure 0→30% post-compaction; mapped to Codex CLI model_auto_compact_token_limit, tool_output_token_limit, named profiles, rollout budgets, AGENTS.md constraint redundancy; 6 citations
+   - SEO targets: "codex cli context compaction Slipstream", "SelfCompact coding agent context management", "CompactionRL reinforcement learning compaction", "codex cli model_auto_compact_token_limit tuning", "long-horizon coding agent compaction 2026", "context compaction validation coding agents"
+
+---
+
 ## Do Auto-Generated AGENTS.md Files Actually Help? (2026-07-27 Hourly Article Run)
 
 1. ✅ **Do Auto-Generated AGENTS.md Files Actually Help? What Three Studies Say About Instruction File Effectiveness** — Written 2026-07-27 → `2026-07-27-do-auto-generated-agents-md-files-actually-help-codex-cli.md`
