@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MOSAIC CLI Command-Composition Attack — Shared OS State, Git Hooks, Sandbox Defence (2026-07-27 Hourly Article Run)
+
+1. ✅ **MOSAIC and the Command-Composition Kill Chain: How Individually Benign CLI Commands Combine Through Shared OS State to Breach Coding Agents — and Where Codex CLI's Sandbox Draws the Line** — Written 2026-07-27 → `2026-07-27-mosaic-cli-command-composition-attack-shared-os-state-codex-cli-sandbox-defence-git-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wu, Wang, Zhang, Nan, Wang arXiv:2607.02857 (3 July 2026) MOSAIC knowledge-guided CLI command-composition attack framework; 454 confirmed CVE/advisory entries distilled into 13 command-state families; 96.59% ASR across 2,525 trials; five CLI agents tested (Claude Code 96.63%, Codex CLI 95.84%, Gemini CLI 97.43%, GitHub Copilot 96.24%, Trae Agent 96.83%); five backend LLMs; six capability classes; five representative defences all fail (PromptGuard 2 0%, Progent 0%, CaMeL 0%, Semgrep 9.9pp, AlignmentCheck 14.06pp); LLM-only generation 8.91% vs structured knowledge 100% validity; mapped to Codex CLI Landlock/seccomp-BPF/Seatbelt kernel sandbox, .git/hooks read-only in workspace-write, network isolation default-off, PreToolUse hooks for hook-path modification blocking, Guardian auto-review, requirements.toml fleet governance; 7 citations
+   - SEO targets: "MOSAIC command composition attack codex cli", "CLI command-composition risk coding agent", "codex cli sandbox git hooks defence", "shared OS state coding agent vulnerability", "MOSAIC 96% attack success coding agents", "codex cli kernel sandbox CCR defence", "command composition kill chain coding agent"
+
+---
+
 ## Friendly Fire Exploit — Defensive Code Review RCE, Sandbox Defence, Untrusted Repos (2026-07-27 Hourly Article Run)
 
 1. ✅ **The Friendly Fire Exploit: How Defensive Code Review Becomes Remote Code Execution — and Why Codex CLI's Default Posture Blocks the Kill Chain** — Written 2026-07-27 → `2026-07-27-friendly-fire-exploit-defensive-code-review-rce-codex-cli-sandbox-defence-untrusted-repos.md`
