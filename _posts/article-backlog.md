@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Meta-Harness Pattern — Orchestrating Codex CLI and Claude Code as Sub-Agents Through Pi (2026-07-27 Hourly Article Run)
+
+1. ✅ **The Meta-Harness Pattern: Orchestrating Codex CLI and Claude Code as Sub-Agents Through Pi** — Written 2026-07-27 → `2026-07-27-meta-harness-pattern-orchestrating-codex-claude-code-pi-sub-agents.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Meta-Harness Pattern: Orchestrating Codex and Claude Code as Sub-Agents via Pi" (High priority, added 2026-07-27); pi-flow (kky42) cross-harness delegation with profile-based routing to Pi/Codex/Claude backends; pi-agent-harness (Baryon Labs) six orchestration patterns (pipeline, fan-out/fan-in, expert pool, producer-reviewer, supervisor, hierarchical); Ben Davis YouTube demo (2026-07-24) first practical Pi meta-harness routing Sol for computer use and Fable for architecture; workspace file handoffs; headless API for CI; security model with backend allowlisting; context transfer limitations; 7 citations
+   - SEO targets: "pi-flow codex cli claude code meta-harness", "Pi coding agent orchestrate sub-agents", "multi-agent coding harness Pi Codex Claude", "pi-flow profile routing codex claude code", "meta-harness pattern coding agents 2026", "cross-harness agent delegation Pi"
+
+---
+
 ## SkillCorpus Open Skill Ecosystem Quality, Curation, and Codex CLI Skill Management (2026-07-27 Hourly Article Run)
 
 1. ✅ **SkillCorpus and the 821K Skill Audit: What Crawling the Open Skill Ecosystem Reveals About Quality, Curation, and Your Codex CLI Skill Stack** — Written 2026-07-27 → `2026-07-27-skillcorpus-open-skill-ecosystem-quality-curation-codex-cli-skill-management.md`
