@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Voice-Driven Development — Codex CLI Realtime V3, GPT-Live, Hands-Free Coding Agent Orchestration (2026-07-27 Hourly Article Run)
+
+1. ✅ **Voice-Driven Development: How Codex CLI's Realtime V3 and ChatGPT Desktop Voice Reshape the Hands-Free Coding Loop** — Written 2026-07-27 → `2026-07-27-voice-driven-development-codex-cli-gpt-live-realtime-v3-hands-free-coding-agent-orchestration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Voice-Driven Development: Can You Actually Build Software by Talking?" (High priority, added 2026-07-26); Codex CLI v0.145.0 (21 July 2026) shipped Realtime V3 streaming with audio inputs and tool outputs (PRs #33261, #33856, #33932, #34080, #34385); ChatGPT Desktop v26.715 (23 July 2026) GPT-Live full-duplex voice wired to Codex and Work agents; two-layer architecture (CLI push-to-talk vs desktop full-duplex); [realtime] TOML config transcription and conversational modes; Spokenly MCP server for extended voice interactions; macOS Appshots visual context; limitations (Linux gap, hardcoded spacebar, quota sharing, precision ceiling); defence-in-depth named profile configuration; 6 citations
+   - SEO targets: "codex cli voice driven development", "codex cli realtime V3 voice streaming", "GPT-Live codex voice hands-free coding", "ChatGPT desktop voice codex agent orchestration", "codex cli push-to-talk configuration", "codex cli voice pair programming", "voice driven development coding agent 2026"
+
+---
+
 ## Nine Outages in Seven Days — Codex CLI API Outage Resilience, Multi-Provider Failover, Gateway Routing (2026-07-27 Hourly Article Run)
 
 1. ✅ **Nine Outages in Seven Days: Building Codex CLI Resilience with Multi-Provider Failover** — Written 2026-07-27 → `2026-07-27-codex-cli-api-outage-resilience-multi-provider-failover-gateway-routing-defensive-configuration.md`
