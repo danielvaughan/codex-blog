@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Session Persistence: Resume, Fork, and Analytics"
 date: 2026-04-13T00:00:00+00:00
-last_modified_at: 2026-07-27T08:19:04+01:00
+last_modified_at: 2026-07-27T10:22:13+01:00
 updated: 2026-04-13
 slug: codex-cli-session-persistence-resume-fork-analytics
 tags:

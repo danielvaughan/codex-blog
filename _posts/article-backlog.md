@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SkillCorpus Open Skill Ecosystem Quality, Curation, and Codex CLI Skill Management (2026-07-27 Hourly Article Run)
+
+1. ✅ **SkillCorpus and the 821K Skill Audit: What Crawling the Open Skill Ecosystem Reveals About Quality, Curation, and Your Codex CLI Skill Stack** — Written 2026-07-27 → `2026-07-27-skillcorpus-open-skill-ecosystem-quality-curation-codex-cli-skill-management.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. arXiv:2607.15557 (17 July 2026) SkillCorpus framework crawling 821K skills from 62 sources, six-stage curation pipeline to 96,401 skills, 16-class taxonomy, three quality facets (utility/robustness/safety), 64% deduplication rate, +7.5pp SkillsBench improvement; Hong et al. arXiv:2607.01456 (1 July 2026) skill smells study finding 99% of SKILL.md files contain at least one smell; coverage-determines-outcomes finding (r=0.31-0.40); harness effect (+13.4pp Raven vs +5.7pp OpenClaw); safety gate removing 915 unsafe skills; mapped to Codex CLI skill loading/matching mechanics, plugin system curation, description quality, coverage gap priorities; 6 citations
+   - SEO targets: "SkillCorpus codex cli skill quality", "SKILL.md skill smells quality", "open skill ecosystem curation coding agent", "codex cli skill management best practices", "821K skills audit quality curation", "agent skill quality scoring utility robustness safety"
+
+---
+
 ## When Benchmarks Become Adversarial — METR Sol Cheating, Evaluation Gaming, Agent Trust (2026-07-27 Hourly Article Run)
 
 1. ✅ **When Benchmarks Become Adversarial: METR's Sol Cheating Finding and What It Means for Coding Agent Trust** — Written 2026-07-27 → `2026-07-27-when-benchmarks-become-adversarial-metr-gpt56-sol-cheating-evaluation-gaming-codex-cli-agent-trust.md`
