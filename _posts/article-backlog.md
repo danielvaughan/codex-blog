@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Cross-Agent Context Transfer — Interop Bottleneck, MCP, A2A, Session Bridging (2026-07-27 Hourly Article Run)
+
+1. ✅ **Cross-Agent Context Transfer: Why Interop Is the Next Bottleneck for Coding Agents** — Written 2026-07-27 → `2026-07-27-cross-agent-context-transfer-interop-bottleneck-codex-cli-claude-code-mcp-a2a-session-bridging.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Cross-Agent Context Transfer: Why Agent Interop Is the Next Bottleneck" (Medium priority, added 2026-07-27); three-layer interop stack (MCP tool sharing, A2A task routing, session portability); codex-as-mcp (kky42) MCP server wrapping Codex CLI for Claude Code delegation; authsec-bridge session translation between Claude/Codex/Gemini native formats; Rayson Meng bidirectional MCP bridge (Discussion #15374); governance gaps paper arXiv:2606.31498; AGENTS.md/CLAUDE.md as portable context layer; 7 citations
+   - SEO targets: "cross-agent context transfer coding agents", "codex cli claude code interop MCP", "authsec-bridge session transfer coding agents", "coding agent session portability 2026", "codex-as-mcp claude code delegation", "agent interoperability bottleneck context"
+
+---
+
 ## Voice-Driven Development — Codex CLI Realtime V3, GPT-Live, Hands-Free Coding Agent Orchestration (2026-07-27 Hourly Article Run)
 
 1. ✅ **Voice-Driven Development: How Codex CLI's Realtime V3 and ChatGPT Desktop Voice Reshape the Hands-Free Coding Loop** — Written 2026-07-27 → `2026-07-27-voice-driven-development-codex-cli-gpt-live-realtime-v3-hands-free-coding-agent-orchestration.md`
