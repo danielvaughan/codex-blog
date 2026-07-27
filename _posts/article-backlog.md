@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Friendly Fire Exploit — Defensive Code Review RCE, Sandbox Defence, Untrusted Repos (2026-07-27 Hourly Article Run)
+
+1. ✅ **The Friendly Fire Exploit: How Defensive Code Review Becomes Remote Code Execution — and Why Codex CLI's Default Posture Blocks the Kill Chain** — Written 2026-07-27 → `2026-07-27-friendly-fire-exploit-defensive-code-review-rce-codex-cli-sandbox-defence-untrusted-repos.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — AI Now Institute published Friendly Fire exploit brief (8 July 2026) demonstrating RCE via prompt injection in repository documentation against Claude Code auto-mode (v2.1.116–2.1.199) and Codex CLI auto-review (v0.142.4); three-stage kill chain (camouflage layer, README prompt injection, agent-triggered execution); tested against geopy library; transferred unchanged across Claude Sonnet 4.6, Sonnet 5, Opus 4.8, GPT-5.5; mapped to Codex CLI four-layer defence (workspace-write network isolation, kernel sandbox Bubblewrap/Seatbelt, suggest approval policy, PreToolUse hooks); CVE-2026-39861 and CVE-2026-25725 Claude Code sandbox escapes cited as chaining risk; practical named profile configuration for untrusted review; broader pattern mapped to HalluSquatting and IssueTrojanBench; 9 citations
+   - SEO targets: "Friendly Fire exploit codex cli defence", "defensive code review RCE coding agent", "codex cli untrusted repository review", "Friendly Fire AI Now Institute coding agent", "codex cli sandbox defence prompt injection", "untrusted codebase code review agent security", "codex cli PreToolUse hook untrusted review"
+
+---
+
 ## Ultra Mode Trade-Off — Reasoning Budgets, Sub-Agent Cost, Task Drift (2026-07-27 Hourly Article Run)
 
 1. ✅ **The Ultra Mode Trade-Off: When GPT-5.6 Sol's Bigger Reasoning Budgets Backfire in Codex CLI** — Written 2026-07-27 → `2026-07-27-gpt56-sol-ultra-mode-tradeoff-reasoning-budgets-subagent-cost-codex-cli.md`
