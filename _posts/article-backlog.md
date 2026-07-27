@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Model Routing Patterns — Sol, Terra, Luna Decision Framework for Codex CLI (2026-07-27 Hourly Article Run)
+
+1. ✅ **Model Routing Patterns for Coding Agents: A Sol, Terra, Luna Decision Framework** — Written 2026-07-27 → `2026-07-27-gpt56-sol-terra-luna-model-routing-patterns-codex-cli-decision-framework.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Model Routing Patterns for Coding Agents: Sol, Terra, Luna Decision Framework" (High priority, added 2026-07-25); GPT-5.6 GA 9 July 2026 three-tier family; Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per 1M tokens; Artificial Analysis Coding Agent Index Sol 80 / Terra 77.4 / Luna 74.6; programmatic tool calling 24% token reduction; named profile configuration; sub-agent inheritance problem (Sol Ultra children inherit parent model); fleet enforcement via requirements.toml; reasoning effort six-level matrix; cost modelling worked example; 6 citations
+   - SEO targets: "codex cli model routing Sol Terra Luna", "GPT-5.6 Sol Terra Luna decision framework", "codex cli named profiles model selection", "GPT-5.6 tier cost comparison coding agent", "codex cli config.toml model routing", "Sol Terra Luna task routing guide 2026"
+
+---
+
 ## Cross-Agent Context Transfer — Interop Bottleneck, MCP, A2A, Session Bridging (2026-07-27 Hourly Article Run)
 
 1. ✅ **Cross-Agent Context Transfer: Why Interop Is the Next Bottleneck for Coding Agents** — Written 2026-07-27 → `2026-07-27-cross-agent-context-transfer-interop-bottleneck-codex-cli-claude-code-mcp-a2a-session-bridging.md`
