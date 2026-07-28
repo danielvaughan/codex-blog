@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Week of Sandbox Escapes — Pillar Security Cross-Tool Research (2026-07-28 Hourly Article Run)
+
+1. ✅ **The Week of Sandbox Escapes: What Pillar Security's Cross-Tool Research Means for Codex CLI Users** — Written 2026-07-28 → `2026-07-28-week-of-sandbox-escapes-pillar-security-codex-cli-cursor-gemini-docker-socket-git-hooks-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Pillar Security (Cohen, Lisichkin, Fogel) July 2026 "Week of Sandbox Escapes" series; seven sandbox bypasses across Cursor (3), Codex CLI (1), Gemini CLI (1), Antigravity (2); four failure classes (denylist complexity, configuration-as-code, command allowlist weakness, privileged daemon access); Docker socket GHSA-v4xv-rqh3-w9mc; CVE-2026-48124 Cursor hooks CVSS 8.5; Codex CLI git allowlist patched v0.95.0; indirect escape via trusted host components; trust boundary mapping defence; PreToolUse hooks, network isolation, requirements.toml fleet enforcement; 5 citations
+   - SEO targets: "week of sandbox escapes codex cli", "pillar security sandbox escape coding agents", "docker socket sandbox escape codex cursor gemini", "codex cli git allowlist bypass defence", "trust boundary mapping coding agents", "indirect sandbox escape configuration-as-code"
+
+---
+
 ## CodeRescue Budget-Calibrated Recovery Routing — Model Escalation, Rollout Token Budgets (2026-07-28 Hourly Article Run)
 
 1. ✅ **CodeRescue and Budget-Calibrated Recovery Routing: When Your Codex CLI Agent Should Retry Cheap and When It Should Escalate** — Written 2026-07-28 → `2026-07-28-coderescue-budget-calibrated-recovery-routing-coding-agents-codex-cli-model-escalation-rollout-token-budgets.md`
