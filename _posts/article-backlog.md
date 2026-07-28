@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Tokenmaxxing — Programming Language Token Cost, Context Budget, Language-Aware Profiles (2026-07-29 Hourly Article Run)
+
+1. ✅ **Tokenmaxxing: Why Your Coding Agent Burns 69% More Tokens in Rust Than Python — and What Codex CLI Developers Should Do About It** — Written 2026-07-29 → `2026-07-29-tokenmaxxing-programming-language-choice-coding-agent-token-cost-codex-cli-context-budget-language-efficiency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wu, Anderson & Guha arXiv:2607.22807 (July 24, 2026) 2,000 agent trajectories across five models (GPT-5.5, Claude Sonnet 4.6, Qwen3.6, GLM-5.2, Gemma-4) and four languages (Python, Java, Rust, OCaml); mixed-effects model shows OCaml 1.28–1.69× Python baseline, Rust 1.07–1.57×; twelve behavioural span taxonomy; post-success waste up to 3.6× tokens after first correct solution; Python-first prototyping in unfamiliar languages; mapped to Codex CLI model_auto_compact_token_limit, tool_output_token_limit, named profiles, per-project .codex/config.toml, AGENTS.md post-success constraints, GPT-5.6 272k context; 4 citations
+   - SEO targets: "tokenmaxxing coding agent programming language", "codex cli token cost by language", "codex cli named profiles language", "programming language token efficiency coding agent", "codex cli rust token overhead", "language-aware token budget codex cli"
+
+---
+
 ## China's Three-Tier Authority Framework — Permission Modes, Compliance Mapping, Regulatory Defence (2026-07-28 Hourly Article Run)
 
 1. ✅ **China's Three-Tier Authority Framework for AI Agents: How Codex CLI's Permission Architecture Maps to the World's First Agent Regulation** — Written 2026-07-28 → `2026-07-28-china-three-tier-authority-framework-ai-agents-codex-cli-permission-modes-compliance-mapping.md`
