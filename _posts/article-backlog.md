@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Cue-Anchored Working Memory — Harness-Owned Deterministic Injection, Compaction Decay, Codex CLI Memory Defence (2026-07-28 Hourly Article Run)
+
+1. ✅ **Delivery, Not Storage: Why Cue-Anchored Working Memory Changes How You Think About Codex CLI's Memory Stack** — Written 2026-07-28 → `2026-07-28-cue-anchored-working-memory-harness-property-coding-agents-codex-cli-compaction-decay-deterministic-injection.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Saha arXiv:2607.20972 (July 23, 2026) two-tier memory model (documents vs brain memory); zero voluntary memory operations across 114 turns; cue-anchored trigger vocabulary (path, symbol, semantic, event, temporal); compaction decay probe 138 cycles; all-or-nothing summariser selection; arm N confabulation under memory denial; 139 audit-logged injections 138/138 reliability; mapped to Codex CLI memory extraction pipeline, AGENTS.md compaction survival, UserPromptSubmit/PreToolUse hooks, PostCompact hook gap (Issues #16098, #19061), model_auto_compact_token_limit, named profiles; 6 citations
+   - SEO targets: "cue-anchored working memory codex cli", "codex cli compaction decay memory loss", "harness-owned memory injection coding agent", "codex cli PostCompact hook memory", "voluntary memory failure coding agent zero operations", "codex cli memory compaction resilience"
+
+---
+
 ## Token Reduction Is Not Cost Reduction — Prompt-Cache Economics, tool_output_token_limit, Compaction Billing (2026-07-28 Hourly Article Run)
 
 1. ✅ **Token Reduction Is Not Cost Reduction: What 2,848 Billed Runs Reveal About Prompt-Cache Economics in Coding Agents** — Written 2026-07-28 → `2026-07-28-token-reduction-is-not-cost-reduction-prompt-cache-economics-codex-cli-tool-output-compaction-billing.md`
