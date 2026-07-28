@@ -1,5 +1,13 @@
 # Article Backlog
 
+## China's Three-Tier Authority Framework — Permission Modes, Compliance Mapping, Regulatory Defence (2026-07-28 Hourly Article Run)
+
+1. ✅ **China's Three-Tier Authority Framework for AI Agents: How Codex CLI's Permission Architecture Maps to the World's First Agent Regulation** — Written 2026-07-28 → `2026-07-28-china-three-tier-authority-framework-ai-agents-codex-cli-permission-modes-compliance-mapping.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — CAC/NDRC/MIIT Implementation Opinions effective 15 July 2026; three-tier decision authority (human-only, approval-required, autonomous); action sensitivity and reversibility classification; mapped to Codex CLI suggest/auto-edit/full-auto permission modes; requirements.toml fleet enforcement; Guardian auto-review; PostToolUse audit hooks; AGENTS.md tier documentation; kernel-level sandbox scope enforcement; 6 citations
+   - SEO targets: "china three tier authority AI agents codex cli", "codex cli permission modes compliance regulation", "china AI agent regulation coding agents", "codex cli approval policy regulatory compliance", "three tier decision authority coding agent", "china implementation opinions intelligent agents codex"
+
+---
+
 ## Cue-Anchored Working Memory — Harness-Owned Deterministic Injection, Compaction Decay, Codex CLI Memory Defence (2026-07-28 Hourly Article Run)
 
 1. ✅ **Delivery, Not Storage: Why Cue-Anchored Working Memory Changes How You Think About Codex CLI's Memory Stack** — Written 2026-07-28 → `2026-07-28-cue-anchored-working-memory-harness-property-coding-agents-codex-cli-compaction-decay-deterministic-injection.md`
