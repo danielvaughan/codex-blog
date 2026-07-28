@@ -1,5 +1,13 @@
 # Article Backlog
 
+## When Agents Collide — Agent PR Merge Conflicts, Concurrent Coding Agents, Worktree Isolation (2026-07-28 Hourly Article Run)
+
+1. ✅ **When Agents Collide: What 33,596 Pull Requests Reveal About Merge Conflicts in Multi-Agent Development** — Written 2026-07-28 → `2026-07-28-agent-pr-merge-conflicts-concurrent-coding-agents-codex-cli-worktree-isolation-coordination-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Xu, Subramanian & Karthik arXiv:2607.04697 (July 2026) AIDev-pop dataset 33,596 PRs across 2,807 repos; 40.2% repos with co-active agent PR pairs; 79.4% of agent PRs temporally overlapping; cross-agent conflict rate 41.7% vs intra-agent 19.8%; AgenticFlict dataset (AIware 2026) 142K PRs 27.67% conflict rate; conflict taxonomy (content 57.6%, modify/delete 26.8%, add/add 15.1%); 84.4% source code conflicts; mapped to Codex CLI worktree isolation, multi-agent V2, PostToolUse hooks, claim protocol pattern, requirements.toml; 6 citations
+   - SEO targets: "coding agent merge conflict rates", "codex cli multi-agent merge conflicts", "agent PR conflict prevention worktree", "cross-agent merge conflict 41 percent", "parallel coding agents coordination", "codex cli worktree isolation defence"
+
+---
+
 ## Terminal-Level Agent Orchestration — Herdr Socket API vs SDK-Based Multi-Agent Coordination (2026-07-28 Hourly Article Run)
 
 1. ✅ **Terminal-Level Agent Orchestration: Herdr's Socket API vs SDK-Based Multi-Agent Coordination for Codex CLI** — Written 2026-07-28 → `2026-07-28-herdr-terminal-level-agent-orchestration-socket-api-codex-cli-multi-agent-multiplexer.md`
