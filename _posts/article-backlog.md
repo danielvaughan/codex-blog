@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Claim Plane and Pre-Write Admission Control — ChangeIntent, Scope Promotion, Parallel Agent Coordination (2026-07-28 Hourly Article Run)
+
+1. ✅ **Claim Plane and Pre-Write Admission Control: Why Parallel Coding Agents Need Coordination Before the First Keystroke** — Written 2026-07-28 → `2026-07-28-claim-plane-pre-write-admission-control-parallel-coding-agents-codex-cli-changeintent-scope-promotion.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Nikolaev arXiv:2607.21909 (July 24, 2026) Claim Plane pre-write admission control architecture; ChangeIntent versioned declarations; atomic admission with five rules; dynamic scope promotion for contingent mutations; CooperBench 6-pair evaluation (6/6 static, 3/6 parallel); mapped to Codex CLI Multi-Agent V2 v0.145.0, worktree isolation, PostToolUse hooks, AGENTS.md scope assignment, requirements.toml; comparison with ACP v1.30, ActPlane, RelAIBuild deterministic control plane; 7 citations
+   - SEO targets: "claim plane parallel coding agents", "codex cli pre-write admission control", "ChangeIntent coding agent coordination", "parallel agent merge conflict prevention", "codex cli multi-agent scope enforcement", "claim plane scope promotion coding agents"
+
+---
+
 ## GhostApproval and the Symlink Trust Boundary — Sandbox Defence, apply_patch, CWE-451 (2026-07-28 Hourly Article Run)
 
 1. ✅ **GhostApproval and the Symlink Trust Boundary: Why Codex CLI's Sandbox Stops What Other Agents Cannot** — Written 2026-07-28 → `2026-07-28-ghostapproval-symlink-trust-boundary-codex-cli-sandbox-apply-patch-defence.md`
