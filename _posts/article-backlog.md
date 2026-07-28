@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ClarifyCodeBench and the Clarification Gap — Ambiguous Requirements, Plan Mode, AGENTS.md Elicitation Defence (2026-07-28 Hourly Article Run)
+
+1. ✅ **ClarifyCodeBench and the Clarification Gap: Why Your Codex CLI Agent Writes Wrong Code from Ambiguous Prompts** — Written 2026-07-28 → `2026-07-28-clarifycodesbench-ambiguous-requirements-clarification-gap-codex-cli-plan-mode-agents-md-elicitation-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Fang et al. arXiv:2607.00711 (July 2026) ClarifyCodeBench benchmark 419 ambiguous tasks; ten ambiguity types; TKQR and ORA metrics; six frontier LLMs tested; DeepSeek-V3.2 leads clarification (TKQR 0.30); Claude Sonnet 4.5 averages 0.29 clarification turns; pass@1 drops 8-20 pts under ambiguity; multi-ambiguity cliff (triple ambiguity ~0%); mapped to Codex CLI Plan mode, AGENTS.md conventions, AskUserQuestion tool, reverse interview pattern, named profiles; 5 citations
+   - SEO targets: "ClarifyCodeBench codex cli ambiguous requirements", "codex cli plan mode clarification gap", "AGENTS.md reduce ambiguity coding agent", "clarification gap coding agent pass rate", "codex cli requirement elicitation defence", "ambiguous prompt coding agent accuracy drop"
+
+---
+
 ## Codex Remote from Beta to GA — Noise-Encrypted Relay, QR Pairing, Headless Agent Services (2026-07-28 Hourly Article Run)
 
 1. ✅ **Codex Remote from Beta to GA: Noise-Encrypted Relay, QR Pairing, and Headless Agent Services** — Written 2026-07-28 → `2026-07-28-codex-remote-ga-noise-encrypted-relay-qr-pairing-mobile-agent-control-headless-ci-cd.md`
