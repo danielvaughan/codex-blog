@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Terminal-Level Agent Orchestration — Herdr Socket API vs SDK-Based Multi-Agent Coordination (2026-07-28 Hourly Article Run)
+
+1. ✅ **Terminal-Level Agent Orchestration: Herdr's Socket API vs SDK-Based Multi-Agent Coordination for Codex CLI** — Written 2026-07-28 → `2026-07-28-herdr-terminal-level-agent-orchestration-socket-api-codex-cli-multi-agent-multiplexer.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Terminal-Level Agent Orchestration: Herdr's Socket API vs SDK-Based Multi-Agent Coordination" (High priority, added 2026-07-28); Herdr v0.4.0 (21.6k GitHub stars, March 2026 first release, Rust single binary); Unix socket API with newline-delimited JSON (pane.split, agent.wait, events.subscribe); five semantic agent states (idle/working/blocked/done/unknown); plugin system with herdr-plugin.toml manifests; environment injection (HERDR_SOCKET_PATH); three-layer comparison (terminal/SDK/platform); Codex CLI Multi-Agent V2 structured messaging; Pi-flow cross-vendor routing; combined workflow pattern using Herdr as runtime layer and Codex V2 as semantic layer; 5 citations
+   - SEO targets: "herdr codex cli terminal orchestration", "herdr socket API agent orchestration", "herdr vs tmux agent multiplexer", "codex cli multi-agent terminal orchestration", "agent-aware terminal multiplexer 2026", "herdr codex cli claude code parallel agents"
+
+---
+
 ## The Week of Sandbox Escapes — Pillar Security Cross-Tool Research (2026-07-28 Hourly Article Run)
 
 1. ✅ **The Week of Sandbox Escapes: What Pillar Security's Cross-Tool Research Means for Codex CLI Users** — Written 2026-07-28 → `2026-07-28-week-of-sandbox-escapes-pillar-security-codex-cli-cursor-gemini-docker-socket-git-hooks-defence.md`
