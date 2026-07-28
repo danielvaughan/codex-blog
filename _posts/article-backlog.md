@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Remote from Beta to GA — Noise-Encrypted Relay, QR Pairing, Headless Agent Services (2026-07-28 Hourly Article Run)
+
+1. ✅ **Codex Remote from Beta to GA: Noise-Encrypted Relay, QR Pairing, and Headless Agent Services** — Written 2026-07-28 → `2026-07-28-codex-remote-ga-noise-encrypted-relay-qr-pairing-mobile-agent-control-headless-ci-cd.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex Remote GA 25 June 2026; Noise IK protocol (Curve25519, ChaCha20-Poly1305, BLAKE2s); QR one-to-one authenticated pairing; codex remote-control headless daemon v0.130.0; JSON-RPC 2.0 app-server protocol; thread pagination API; DigitalOcean plugin cloud workspace provisioning; manual pairing codes v0.143.0; five-layer security model; CI/CD and Slack integration patterns; 6 citations
+   - SEO targets: "codex remote GA noise encrypted relay", "codex cli remote control mobile phone", "codex remote-control headless agent service", "codex cli QR pairing setup", "codex remote DigitalOcean plugin", "codex cli JSON-RPC automation CI/CD"
+
+---
+
 ## When Agents Collide — Agent PR Merge Conflicts, Concurrent Coding Agents, Worktree Isolation (2026-07-28 Hourly Article Run)
 
 1. ✅ **When Agents Collide: What 33,596 Pull Requests Reveal About Merge Conflicts in Multi-Agent Development** — Written 2026-07-28 → `2026-07-28-agent-pr-merge-conflicts-concurrent-coding-agents-codex-cli-worktree-isolation-coordination-defence.md`
