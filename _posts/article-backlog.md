@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CodeRescue Budget-Calibrated Recovery Routing — Model Escalation, Rollout Token Budgets (2026-07-28 Hourly Article Run)
+
+1. ✅ **CodeRescue and Budget-Calibrated Recovery Routing: When Your Codex CLI Agent Should Retry Cheap and When It Should Escalate** — Written 2026-07-28 → `2026-07-28-coderescue-budget-calibrated-recovery-routing-coding-agents-codex-cli-model-escalation-rollout-token-budgets.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — He et al. arXiv:2607.19338 (July 2026) CodeRescue budget-calibrated recovery routing with Conformal Risk Control; three recovery actions (reflect/replan/escalate); 81.7% solve rate at 35% of always-escalate cost; 28% failures cheaply recoverable; tested on APPS, TACO, BigCodeBench, LiveCodeBench, CodeContests; AgentDebugX arXiv:2607.18754 failure attribution; mapped to Codex CLI named profiles Sol/Terra/Luna, rollout token budgets, PostToolUse hooks, PostToolUseFailure Issue #24907, multi-agent V2 escalation delegation; 7 citations
+   - SEO targets: "coderescue codex cli recovery routing", "codex cli model escalation Sol Terra Luna", "budget-calibrated recovery coding agent", "codex cli rollout token budget failure recovery", "coding agent cheap retry vs escalate", "conformal risk control coding agent", "codex cli PostToolUseFailure hook"
+
+---
+
 ## Next-Generation Context Compaction — Slipstream, SelfCompact, CompactionRL (2026-07-28 Hourly Article Run)
 
 1. ✅ **Next-Generation Context Compaction: What Slipstream, SelfCompact, and CompactionRL Reveal About Keeping Long-Horizon Coding Agents on Track** — Written 2026-07-28 → `2026-07-28-next-generation-context-compaction-slipstream-selfcompact-compactionrl-codex-cli-long-horizon-sessions.md`
