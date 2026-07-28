@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GhostApproval and the Symlink Trust Boundary — Sandbox Defence, apply_patch, CWE-451 (2026-07-28 Hourly Article Run)
+
+1. ✅ **GhostApproval and the Symlink Trust Boundary: Why Codex CLI's Sandbox Stops What Other Agents Cannot** — Written 2026-07-28 → `2026-07-28-ghostapproval-symlink-trust-boundary-codex-cli-sandbox-apply-patch-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wiz Research GhostApproval disclosure 8 July 2026; symlink trust-boundary flaw affecting six AI coding assistants (Amazon Q, Cursor, Antigravity, Augment, Windsurf, Claude Code); CWE-451 approval-prompt misrepresentation; CVE-2026-12958 Amazon Q, CVE-2026-50549 Cursor CVSS 9.8; Codex CLI sandbox blocks via apply_patch canonical-path resolution; workspace-write allowlist enforcement; PR #21819 symlink escape tests May 2026; SymJack prior art; requirements.toml fleet enforcement; 5 citations
+   - SEO targets: "GhostApproval codex cli symlink sandbox", "codex cli symlink trust boundary defence", "GhostApproval AI coding assistant vulnerability 2026", "codex cli apply_patch symlink escape", "symlink sandbox escape coding agent", "CWE-451 approval prompt AI coding agent"
+
+---
+
 ## ClarifyCodeBench and the Clarification Gap — Ambiguous Requirements, Plan Mode, AGENTS.md Elicitation Defence (2026-07-28 Hourly Article Run)
 
 1. ✅ **ClarifyCodeBench and the Clarification Gap: Why Your Codex CLI Agent Writes Wrong Code from Ambiguous Prompts** — Written 2026-07-28 → `2026-07-28-clarifycodesbench-ambiguous-requirements-clarification-gap-codex-cli-plan-mode-agents-md-elicitation-defence.md`
