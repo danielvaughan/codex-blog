@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Token Reduction Is Not Cost Reduction — Prompt-Cache Economics, tool_output_token_limit, Compaction Billing (2026-07-28 Hourly Article Run)
+
+1. ✅ **Token Reduction Is Not Cost Reduction: What 2,848 Billed Runs Reveal About Prompt-Cache Economics in Coding Agents** — Written 2026-07-28 → `2026-07-28-token-reduction-is-not-cost-reduction-prompt-cache-economics-codex-cli-tool-output-compaction-billing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Weinberger & Hozez arXiv:2607.12161 (July 2026) 2,908 provider-billed Claude Code runs; cache traffic 87% of reconstructed cost; 38% tool-output compression increased costs 6.8%; Pearson r=0.154 token-reduction vs cost-change; anchor destruction 27/40→15/40 patch success; mapped to Codex CLI tool_output_token_limit, model_auto_compact_token_limit, named profiles, prompt cache preservation, GPT-5.6 272k context window; 6 citations
+   - SEO targets: "token reduction not cost reduction coding agents", "codex cli prompt cache economics", "tool_output_token_limit codex cli cost", "prompt cache invalidation coding agent cost", "codex cli compaction cost billing", "success-adjusted billed cost coding agent"
+
+---
+
 ## Claim Plane and Pre-Write Admission Control — ChangeIntent, Scope Promotion, Parallel Agent Coordination (2026-07-28 Hourly Article Run)
 
 1. ✅ **Claim Plane and Pre-Write Admission Control: Why Parallel Coding Agents Need Coordination Before the First Keystroke** — Written 2026-07-28 → `2026-07-28-claim-plane-pre-write-admission-control-parallel-coding-agents-codex-cli-changeintent-scope-promotion.md`
