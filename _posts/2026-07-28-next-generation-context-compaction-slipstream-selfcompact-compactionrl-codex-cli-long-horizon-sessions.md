@@ -109,7 +109,7 @@ CompactionRL was subsequently deployed in training GLM-5.2, a 750-billion-parame
 
 ## The Safety Dimension: Governance Decay
 
-These innovations must be read alongside a critical June 2026 finding: Ganguli, Raghunathan, and colleagues demonstrated that compaction *systematically erases safety constraints* [^5]. Their ConstraintRot benchmark showed that across 1,323 episodes and seven model families, policy violations rose from 0% with full context to 30% after compaction — reaching 59% for some models [^5].
+These innovations must be read alongside a critical June 2026 finding: Chen demonstrated that compaction *systematically erases safety constraints* [^5]. Their ConstraintRot benchmark showed that across 1,323 episodes and seven model families, policy violations rose from 0% with full context to 30% after compaction — reaching 59% for some models [^5].
 
 Their proposed fix, *constraint pinning* (copying governance rules into an excluded buffer that survives compaction), is orthogonal to the three strategies above but essential for any production deployment. None of Slipstream, SelfCompact, or CompactionRL explicitly address governance preservation — a gap worth watching.
 
@@ -192,6 +192,6 @@ In the meantime, the research provides a clear framework for tuning: compact ear
 
 [^4]: Y. Li, Z. Hou, Y. Jing, J. Tang, Y. Dong, "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents," arXiv:2607.05378, July 2026. [https://arxiv.org/abs/2607.05378](https://arxiv.org/abs/2607.05378)
 
-[^5]: "Governance Decay: How Context Compaction Silently Erases Safety Constraints in Long-Horizon LLM Agents," arXiv:2606.22528, June 2026. [https://arxiv.org/abs/2606.22528](https://arxiv.org/abs/2606.22528)
+[^5]: S. Chen, "Governance Decay: How Context Compaction Silently Erases Safety Constraints in Long-Horizon LLM Agents," arXiv:2606.22528, June 2026. [https://arxiv.org/abs/2606.22528](https://arxiv.org/abs/2606.22528)
 
 [^6]: OpenAI, "Advanced Configuration — Codex CLI," [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced), accessed July 2026.
