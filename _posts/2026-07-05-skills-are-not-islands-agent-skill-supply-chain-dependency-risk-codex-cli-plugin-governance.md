@@ -2,7 +2,7 @@
 title: "Skills Are Not Islands: What 1.43 Million Agent Skills Reveal About Hidden Dependency Risk — and How to Harden Your Codex CLI Plugin Stack"
 description: "What 1.43 million agent skills reveal about hidden dependency risk and how to harden your Codex CLI plugin stack."
 date: 2026-07-04T23:00:00+00:00
-last_modified_at: 2026-07-29T06:10:20+01:00
+last_modified_at: 2026-07-29T08:17:44+01:00
 parent: "Articles"
 nav_order: 1339
 tags:

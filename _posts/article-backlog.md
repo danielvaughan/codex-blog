@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Mise en Place for Agentic Coding — Context Fluency, Deliberate Preparation, Task Decomposition (2026-07-29 Hourly Article Run)
+
+1. ✅ **Mise en Place for Agentic Coding: How Deliberate Preparation and Context Fluency Transform Your Codex CLI Workflow** — Written 2026-07-29 → `2026-07-29-mise-en-place-agentic-coding-context-fluency-codex-cli-deliberate-preparation-task-decomposition.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zigler arXiv:2605.05400 (May 2026, VibeX 2026 workshop co-located with EASE 2026); three-phase MEP methodology (contextual grounding, collaborative specification, task decomposition); context fluency concept with four components (decomposition, specification, constraint definition, domain encoding); hackathon case study: 64 task records, 43 closed at median 5.9min, 8,496 lines TypeScript, zero structural refactoring; planning-to-code ratio 1.10:1; preparation-to-execution ratio 5.7:1; mapped to Codex CLI AGENTS.md contextual grounding, Plan mode collaborative specification, Multi-Agent V2 + worktree isolation parallel execution, named profiles (architect/worker), multi-folder projects, prompt-cache economics; 5 citations
+   - SEO targets: "mise en place agentic coding codex cli", "context fluency codex cli AGENTS.md", "codex cli deliberate preparation task decomposition", "mise en place coding agent methodology", "codex cli plan mode specification workflow", "context engineering deliberate preparation coding agent"
+
+---
+
 ## Microsoft CLI Coding Agent Adoption Study — Enterprise Rollout, Social Network Peer Visibility, Codex CLI Configuration (2026-07-29 Hourly Article Run)
 
 1. ✅ **What 24% More Merged PRs Tells Us About Rolling Out Codex CLI: Lessons from Microsoft's CLI Coding Agent Study** — Written 2026-07-29 → `2026-07-29-microsoft-cli-coding-agent-adoption-study-codex-cli-enterprise-rollout-social-network-peer-visibility.md`
