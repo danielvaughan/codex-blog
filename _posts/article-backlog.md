@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Executor-Provided Skills — Remote Skill Discovery, Platform Extension, Cloud CI/CD (2026-07-29 Hourly Article Run)
+
+1. ✅ **Executor-Provided Skills in Codex CLI v0.146: How Remote Environments Now Contribute Skills to Your Agent** — Written 2026-07-29 → `2026-07-29-executor-provided-skills-codex-cli-v0146-remote-skill-discovery-platform-extension-cloud-ci-cd.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.146.0 released 2026-07-29; executor skill discovery PR #35184; resource reads for explicit executor skills PR #35198; extension-rendered skill catalog metrics PR #35597; selectedCapabilityRoots contract from PR #27184 (June 2026); three-layer architecture (app-server, core runtime, executor extension); explicit-only skills with resource_access metadata; package boundary enforcement; no filesystem fallback safety model; context budget controls with omission/truncation metrics; mapped to cloud workspace providers, CI/CD runners, IDE backends; 7 citations
+   - SEO targets: "executor-provided skills codex cli v0.146", "codex cli remote skill discovery platform extension", "selectedCapabilityRoots codex cli executor", "codex cli cloud CI/CD skill injection", "codex cli skills platform extension architecture", "executor skills SKILL.md remote environments codex"
+
+---
+
 ## Mise en Place for Agentic Coding — Context Fluency, Deliberate Preparation, Task Decomposition (2026-07-29 Hourly Article Run)
 
 1. ✅ **Mise en Place for Agentic Coding: How Deliberate Preparation and Context Fluency Transform Your Codex CLI Workflow** — Written 2026-07-29 → `2026-07-29-mise-en-place-agentic-coding-context-fluency-codex-cli-deliberate-preparation-task-decomposition.md`
