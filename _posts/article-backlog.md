@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Scientific Computing Field Report — Codex CLI Genomics, Rust Rewrite, Verification Delegation (2026-07-29 Hourly Article Run)
+
+1. ✅ **From Implementation to Verification: What OpenAI's Scientific Computing Field Report Reveals About Codex CLI's Role in Legacy Code Modernisation** — Written 2026-07-29 → `2026-07-29-scientific-computing-agentic-ai-field-report-codex-cli-genomics-rust-rewrite-verification-delegation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI field report published 28 July 2026; eight agent-assisted scientific computing projects in life sciences; five Codex-only, three Codex+Claude Code; 60× RNA-seq QC speedup; 20,000-line C/C++ to Rust genome aligner rewrite at 99.8% parity; GPU-native genome simulator 1,610s→27s; cyvcf2 build modernisation; MHCflurry packaging; rustar-aligner community stewardship; human role shift to task definition, verification, and higher-level judgement; mapped to Codex CLI approval modes, AGENTS.md verification patterns, sandbox mode selection, goal mode, rollout token budgets, model selection for scientific workloads; 6 citations
+   - SEO targets: "openai scientific computing agentic AI codex", "codex cli genomics rust rewrite", "codex cli scientific computing verification", "agent-assisted legacy code modernisation", "codex cli goal mode scientific code", "coding agent delegation verification pattern"
+
+---
+
 ## Tokenmaxxing — Programming Language Token Cost, Context Budget, Language-Aware Profiles (2026-07-29 Hourly Article Run)
 
 1. ✅ **Tokenmaxxing: Why Your Coding Agent Burns 69% More Tokens in Rust Than Python — and What Codex CLI Developers Should Do About It** — Written 2026-07-29 → `2026-07-29-tokenmaxxing-programming-language-choice-coding-agent-token-cost-codex-cli-context-budget-language-efficiency.md`
