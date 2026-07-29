@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Proxy Hardening v0.143–v0.146 — PAC, WPAD, System Proxy, Route-Aware HTTP, Enterprise Corporate Network (2026-07-30 Hourly Article Run)
+
+1. ✅ **Proxy Hardening in Codex CLI v0.143–v0.146: PAC, WPAD, and the Route-Aware HTTP Client That Finally Makes Corporate Networks Work** — Written 2026-07-30 → `2026-07-30-codex-cli-proxy-hardening-v143-v146-pac-wpad-system-proxy-route-aware-http-enterprise-corporate-network.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — comprehensive proxy hardening across v0.143–v0.146; Windows system proxy resolver (WinHTTP, PAC/WPAD) PR #26708; macOS system proxy resolver (SCDynamicStore, CFNetworkCopyProxiesForURL) PR #26709; SystemProxyDecision contract; SHA-256 URL hashing for privacy; respect_system_proxy config key; route-aware HttpClientFactory unifying auth/API/plugin/MCP/remote/WebSocket traffic; proxy-aware WebSocket transport PR #31441; CARGO_HTTP_CAINFO support; codex doctor proxy diagnostics; macOS binary signing and notarisation; firewall allow-listing; SOCKS5 limitations; 6 citations
+   - SEO targets: "codex cli proxy hardening corporate network", "codex cli PAC WPAD system proxy", "codex cli respect_system_proxy config", "codex cli enterprise proxy configuration", "codex cli route-aware HTTP client", "codex cli v0.146 proxy WebSocket MCP"
+
+---
+
 ## v0.146.0 Session Management — Named Sessions, Thread Pinning, Side Conversations, Forking (2026-07-29 Hourly Article Run)
 
 1. ✅ **Session Management in Codex CLI v0.146: Named Sessions, Thread Pinning, and the End of Context Amnesia** — Written 2026-07-29 → `2026-07-29-codex-cli-v0146-session-management-named-sessions-thread-pinning-side-conversations-forking.md`
