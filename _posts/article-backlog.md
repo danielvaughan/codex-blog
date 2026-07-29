@@ -1,5 +1,13 @@
 # Article Backlog
 
+## IH-Benchmark — Instruction Hierarchy Robustness, Tool-Output Trust, Codex CLI Defence (2026-07-29 Hourly Article Run)
+
+1. ✅ **IH-Benchmark and the Instruction Hierarchy Gap: Why Your Codex CLI Agent Obeys Rogue Tool Outputs More Than You Think** — Written 2026-07-29 → `2026-07-29-ih-benchmark-instruction-hierarchy-robustness-coding-agents-codex-cli-tool-output-trust-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — McCauley, Kan & Martin arXiv:2607.25987 (July 28, 2026) IH-Benchmark; 37 models tested; 44 constraint families across five domains; System≻User vs User≻Tool conflict surfaces; Claude Opus 4.6 98.2% vs Qwen 3 20.5%; coding domain collapse (Grok 4.20 97.6% S>U → 27.1% U>T); subtle failures at 50% compliance vs overt at 88-97%; mapped to Codex CLI instruction hierarchy (system prompt, requirements.toml, AGENTS.md, tool outputs), sandbox_mode, approval_policy, PreToolUse hooks, shell_environment_policy, model selection; 6 citations
+   - SEO targets: "IH-Benchmark instruction hierarchy codex cli", "codex cli tool output trust instruction hierarchy", "instruction hierarchy robustness coding agents", "codex cli rogue tool output defence", "User Tool conflict coding agent compliance", "IH-Benchmark coding domain collapse"
+
+---
+
 ## Router-Side Injection — Third-Party API Router Security, Provider Integrity, Codex CLI Defence Stack (2026-07-29 Hourly Article Run)
 
 1. ✅ **Router-Side Injection: Why Third-Party API Routers Are the Blind Spot in Your Coding Agent's Security Model** — Written 2026-07-29 → `2026-07-29-router-side-injection-third-party-api-routers-coding-agents-codex-cli-provider-integrity-defence.md`
