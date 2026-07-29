@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agentic Delegation and the Language Frontier — Activation Band, Polyglot Production Expansion, Codex CLI Configuration (2026-07-29 Hourly Article Run)
+
+1. ✅ **Agentic Delegation and the Language Frontier: What 57 Million Changed Files Reveal About How Codex CLI Expands Your Production Range** — Written 2026-07-29 → `2026-07-29-agentic-delegation-language-frontier-codex-cli-activation-band-polyglot-developer-production-expansion.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Quispe & Xu arXiv:2605.25438v2 (revised July 7, 2026) 5,346 GitHub developers, 57 million changed files; activation band concept — unfamiliar languages feasible only through agentic delegation; active languages +2.5 (baseline 0.9), newly used languages +1.2, Shannon entropy +0.38; effects survive excluding Claude-coauthored commits; mapped to Codex CLI named profiles (native/activation/exploration), AGENTS.md language-specific verification instructions, Sol vs Luna model selection for activation band, tokenmaxxing implications, sandbox mode for unfamiliar build tools, enterprise rollout code review implications; 6 citations
+   - SEO targets: "agentic delegation language frontier codex cli", "codex cli activation band unfamiliar languages", "codex cli polyglot developer production expansion", "codex cli named profiles language tiers", "AGENTS.md language-specific verification coding agent", "agentic delegation production frontier skill frontier"
+
+---
+
 ## Scientific Computing Field Report — Codex CLI Genomics, Rust Rewrite, Verification Delegation (2026-07-29 Hourly Article Run)
 
 1. ✅ **From Implementation to Verification: What OpenAI's Scientific Computing Field Report Reveals About Codex CLI's Role in Legacy Code Modernisation** — Written 2026-07-29 → `2026-07-29-scientific-computing-agentic-ai-field-report-codex-cli-genomics-rust-rewrite-verification-delegation.md`
