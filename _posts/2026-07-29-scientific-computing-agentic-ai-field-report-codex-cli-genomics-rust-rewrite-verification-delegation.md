@@ -68,7 +68,7 @@ For a Rust rewrite of this scale, the Codex CLI configuration needs careful thou
 
 ```toml
 # .codex/config.toml — Rust migration profile
-[profiles.rust-migration]
+[profile.rust-migration]
 model = "gpt-5.6-sol"
 model_auto_compact_token_limit = 200000
 tool_output_token_limit = 30000

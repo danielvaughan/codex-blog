@@ -92,7 +92,7 @@ This caps individual tool output contributions to the context [^2]. Rust compile
 
 ```toml
 # Rust-optimised profile
-[profiles.rust-work]
+[profile.rust-work]
 tool_output_token_limit = 20000   # accommodate verbose rustc errors
 model = "gpt-5.6-terra"
 ```
@@ -104,17 +104,17 @@ Codex CLI's named profile system [^4] — invoked with `codex --profile <name>` 
 ```toml
 # ~/.codex/config.toml
 
-[profiles.python-default]
+[profile.python-default]
 model = "gpt-5.6-luna"
 model_auto_compact_token_limit = 220000
 tool_output_token_limit = 12000
 
-[profiles.rust-deep]
+[profile.rust-deep]
 model = "gpt-5.6-terra"
 model_auto_compact_token_limit = 180000
 tool_output_token_limit = 20000
 
-[profiles.ocaml-careful]
+[profile.ocaml-careful]
 model = "gpt-5.5"
 model_auto_compact_token_limit = 160000
 tool_output_token_limit = 16000

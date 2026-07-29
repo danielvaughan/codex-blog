@@ -91,9 +91,9 @@ For specifications that must persist across sessions, write the output to a `PLA
 
 ```toml
 # ~/.codex/config.toml — default to plan mode for complex work
-[profiles.architect]
+[profile.architect]
 model = "gpt-5.6-sol"
-approval_mode = "suggest"
+approval_policy = "suggest"
 ```
 
 ### Phase 3: Task Decomposition
@@ -165,15 +165,15 @@ Here is a practical configuration that operationalises the three MEP phases:
 # ~/.codex/config.toml
 
 # Phase 1 & 2: Use Sol for grounding and specification work
-[profiles.architect]
+[profile.architect]
 model = "gpt-5.6-sol"
-approval_mode = "suggest"
+approval_policy = "suggest"
 model_reasoning_effort = "high"
 
 # Phase 3: Use Luna for fast parallel task execution
-[profiles.worker]
+[profile.worker]
 model = "gpt-5.6-luna"
-approval_mode = "auto-edit"
+approval_policy = "auto-edit"
 model_reasoning_effort = "medium"
 ```
 
