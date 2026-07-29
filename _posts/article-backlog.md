@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Failure as a Process — CLI Agent Trajectory Anatomy, Early Validation, Epistemic Error Defence (2026-07-29 Hourly Article Run)
+
+1. ✅ **Failure as a Process: What 1,794 CLI Agent Trajectories Reveal About Where Codex CLI Must Intervene** — Written 2026-07-29 → `2026-07-29-failure-as-a-process-cli-coding-agent-trajectory-anatomy-codex-cli-early-validation-epistemic-error-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhao, Li, Li, Zhao, Barr, Sarro & Ye arXiv:2607.09510 (July 10, 2026); 1,794 annotated trajectories from 3,843 runs; 63,000+ execution steps; seven frontier models (Claude Sonnet 4, GPT-5, Gemini 2.5 Pro, Qwen3 Coder 480B, DeepSeek V3.2, Kimi K2 Instruct, Devstral 2); three scaffolds (OpenHands, MiniSWE, Terminus2); Terminal-Bench 2.1; three-timestamp decomposition (t_err median step 7, t_lock median step 12, t_obs median step 16); epistemic errors 57.9% of failures; false premises 30.7%; fix window median 1 step; observability lag ~10 steps; mapped to Codex CLI AGENTS.md verification instructions, PreToolUse hooks, approval_policy, sandbox_mode, context budget limits, PostToolUse fabrication detection, named profiles; 5 citations
+   - SEO targets: "failure as a process coding agent trajectories", "codex cli epistemic error defence", "CLI coding agent failure anatomy", "codex cli PreToolUse early validation", "Terminal-Bench failure trajectory analysis", "codex cli false premise prevention"
+
+---
+
 ## Governance Conversion — Cheap Code Costly Judgment, Failure-Driven Controls, Codex CLI Configuration (2026-07-29 Hourly Article Run)
 
 1. ✅ **Cheap Code, Costly Judgment: What Governance Conversion Means for Your Codex CLI Configuration** — Written 2026-07-29 → `2026-07-29-cheap-code-costly-judgment-governance-conversion-codex-cli-agentic-engineering-failure-driven-controls.md`
