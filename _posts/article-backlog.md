@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Router-Side Injection — Third-Party API Router Security, Provider Integrity, Codex CLI Defence Stack (2026-07-29 Hourly Article Run)
+
+1. ✅ **Router-Side Injection: Why Third-Party API Routers Are the Blind Spot in Your Coding Agent's Security Model** — Written 2026-07-29 → `2026-07-29-router-side-injection-third-party-api-routers-coding-agents-codex-cli-provider-integrity-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Fu et al. arXiv:2607.23624 (July 26, 2026) SIDEL framework; four injection levels (response substitution, append, LLM-polished, distribution alignment); four agents tested (Claude Code, Codex, Cursor, OpenCode); 0% baseline defence success rate across all agents and permission modes; LiteLLM supply-chain compromise March 2026; UCSB/UCSD 428 public router audit; mapped to Codex CLI config.toml provider trust boundaries, openai_base_url project-level restrictions, sandbox_mode workspace-write, approval_policy on-request, shell_environment_policy credential exclusion, PreToolUse hooks, named profiles for risk segmentation; 6 citations
+   - SEO targets: "router-side injection coding agents", "third-party API router security codex cli", "SIDEL framework coding agent defence", "LiteLLM supply chain compromise coding agents", "codex cli provider integrity defence", "API router trust gap coding agent security"
+
+---
+
 ## Codex Security CLI — Open-Source Vulnerability Scanning, Validation, Fix Generation, CI/CD Integration (2026-07-29 Hourly Article Run)
 
 1. ✅ **Codex Security CLI: OpenAI's Open-Source Security Agent That Finds, Validates, and Fixes Vulnerabilities** — Written 2026-07-29 → `2026-07-29-codex-security-cli-open-source-vulnerability-scanning-validation-fix-generation-ci-cd-integration.md`
