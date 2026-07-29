@@ -61,9 +61,9 @@ Codex Remote uses the **Noise IK** (Initiator Knows) handshake pattern, completi
 | Key exchange | Curve25519 Diffie-Hellman |
 | Symmetric encryption | ChaCha20-Poly1305 (AEAD) |
 | Hash function | BLAKE2s |
-| Key derivation | HKDF-SHA256 |
+| Key derivation | HKDF-BLAKE2s |
 
-Both sides derive directional ChaCha20-Poly1305 keys via HKDF-SHA256. Every message is wrapped in an encrypted envelope with monotonic counters for replay protection [^2]. The initiator (your phone or a second Codex instance) already knows the host's static public key from the pairing step, which is what makes the one-RTT handshake possible and prevents unknown-host attacks.
+Both sides derive directional ChaCha20-Poly1305 keys via HKDF-BLAKE2s. Every message is wrapped in an encrypted envelope with monotonic counters for replay protection [^2]. The initiator (your phone or a second Codex instance) already knows the host's static public key from the pairing step, which is what makes the one-RTT handshake possible and prevents unknown-host attacks.
 
 The practical upshot: the relay is a dumb pipe. It can see connection metadata — session IDs, device IDs, handshake control messages — but the payloads are ciphertext.
 
