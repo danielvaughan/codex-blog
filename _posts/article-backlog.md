@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Microsoft CLI Coding Agent Adoption Study — Enterprise Rollout, Social Network Peer Visibility, Codex CLI Configuration (2026-07-29 Hourly Article Run)
+
+1. ✅ **What 24% More Merged PRs Tells Us About Rolling Out Codex CLI: Lessons from Microsoft's CLI Coding Agent Study** — Written 2026-07-29 → `2026-07-29-microsoft-cli-coding-agent-adoption-study-codex-cli-enterprise-rollout-social-network-peer-visibility.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Murphy-Hill, Butler & Savelieva arXiv:2607.01418 (July 1, 2026) tens of thousands of Microsoft engineers, four-month window; CausalImpact +24.0% merged PRs (95% CI +14.5%, +33.7%); social network spread — skip-level peers +216% odds, manager +82%, reviewer peers +54%; retention tracks coding activity not demographics; dose-response convex 1-day +15% to 5+-day +50.1%; mapped to Codex CLI named profiles phased rollout, requirements.toml fleet governance, AGENTS.md as peer-visibility artefact, /usage telemetry, champion-seeded adoption; 5 citations
+   - SEO targets: "microsoft cli coding agent adoption study codex cli", "codex cli enterprise rollout social network", "24 percent more merged PRs coding agent", "codex cli requirements toml fleet governance", "peer visibility coding agent adoption", "codex cli named profiles phased rollout"
+
+---
+
 ## Agentic Delegation and the Language Frontier — Activation Band, Polyglot Production Expansion, Codex CLI Configuration (2026-07-29 Hourly Article Run)
 
 1. ✅ **Agentic Delegation and the Language Frontier: What 57 Million Changed Files Reveal About How Codex CLI Expands Your Production Range** — Written 2026-07-29 → `2026-07-29-agentic-delegation-language-frontier-codex-cli-activation-band-polyglot-developer-production-expansion.md`
