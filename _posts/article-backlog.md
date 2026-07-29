@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Security CLI — Open-Source Vulnerability Scanning, Validation, Fix Generation, CI/CD Integration (2026-07-29 Hourly Article Run)
+
+1. ✅ **Codex Security CLI: OpenAI's Open-Source Security Agent That Finds, Validates, and Fixes Vulnerabilities** — Written 2026-07-29 → `2026-07-29-codex-security-cli-open-source-vulnerability-scanning-validation-fix-generation-ci-cd-integration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI open-sourced Codex Security CLI on 29 July 2026 under Apache-2.0; @openai/codex-security npm v0.1.1; agentic scanning with project-specific threat modelling and sandbox validation; 74% true-positive rate vs 28% Snyk SAST and 20% Semgrep; standard and deep scan modes; diff and working-tree scanning; bulk-scan with CSV inventory; SARIF/CSV/JSON output; LLM-backed semantic finding matching; fix PR generation (18/23 merged unmodified); TypeScript SDK; StackHawk agent skills integration; codex-security.toml configuration; usage-based pricing $0.018/1K lines; mapped to Codex CLI PostToolUse hooks, StackHawk plugin marketplace integration; 6 citations
+   - SEO targets: "codex security CLI open source", "openai codex security vulnerability scanning", "codex security vs snyk semgrep", "codex security CI/CD SARIF integration", "codex security fix generation PR", "codex security bulk scan enterprise", "codex security CLI codex CLI integration"
+
+---
+
 ## Executor-Provided Skills — Remote Skill Discovery, Platform Extension, Cloud CI/CD (2026-07-29 Hourly Article Run)
 
 1. ✅ **Executor-Provided Skills in Codex CLI v0.146: How Remote Environments Now Contribute Skills to Your Agent** — Written 2026-07-29 → `2026-07-29-executor-provided-skills-codex-cli-v0146-remote-skill-discovery-platform-extension-cloud-ci-cd.md`
