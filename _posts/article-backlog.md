@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Governance Conversion — Cheap Code Costly Judgment, Failure-Driven Controls, Codex CLI Configuration (2026-07-29 Hourly Article Run)
+
+1. ✅ **Cheap Code, Costly Judgment: What Governance Conversion Means for Your Codex CLI Configuration** — Written 2026-07-29 → `2026-07-29-cheap-code-costly-judgment-governance-conversion-codex-cli-agentic-engineering-failure-driven-controls.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Davis, Amusuo, Singla, Çakar & Davis arXiv:2607.01087 (July 2026) 12-week case study; 88 field notes, 420 KLOC production code, 1.16 MLOC governance material; governance conversion process model — agentic velocity surfaces structural failure classes converted into durable governance mechanisms; 2.76:1 governance-to-code ratio; mapped to Codex CLI requirements.toml fleet enforcement, approval_policy escalation, sandbox_mode containment, AGENTS.md compaction-surviving governance, PreToolUse/PostToolUse hooks, shell_environment_policy credential exclusion, named profiles; 6 citations
+   - SEO targets: "cheap code costly judgment codex cli", "governance conversion agentic coding agent", "codex cli requirements toml governance", "failure-driven controls coding agent", "agentic engineering governance conversion", "codex cli governance configuration stack"
+
+---
+
 ## IH-Benchmark — Instruction Hierarchy Robustness, Tool-Output Trust, Codex CLI Defence (2026-07-29 Hourly Article Run)
 
 1. ✅ **IH-Benchmark and the Instruction Hierarchy Gap: Why Your Codex CLI Agent Obeys Rogue Tool Outputs More Than You Think** — Written 2026-07-29 → `2026-07-29-ih-benchmark-instruction-hierarchy-robustness-coding-agents-codex-cli-tool-output-trust-defence.md`
