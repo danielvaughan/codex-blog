@@ -1,5 +1,13 @@
 # Article Backlog
 
+## v0.146.0 Session Management — Named Sessions, Thread Pinning, Side Conversations, Forking (2026-07-29 Hourly Article Run)
+
+1. ✅ **Session Management in Codex CLI v0.146: Named Sessions, Thread Pinning, and the End of Context Amnesia** — Written 2026-07-29 → `2026-07-29-codex-cli-v0146-session-management-named-sessions-thread-pinning-side-conversations-forking.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.146.0 released 29 July 2026; named sessions via /new and /clear commands; thread pinning with /pin and /unpin; non-destructive side conversation switching; thread forking with paginated history and --temporary flag; config.toml session settings (auto_name, max_pinned, persist_sides); integration with Multi-Agent V2 path-based addressing; Agent Plugins manifests; Remote Code Mode WebSocket; proxy hardening; skill budget warnings; enterprise controls; 7 citations
+   - SEO targets: "codex cli v0.146 session management", "codex cli named sessions thread pinning", "codex cli side conversations switching", "codex cli thread forking paginated history", "codex cli session management workflow", "codex cli v0.146 release features"
+
+---
+
 ## Failure as a Process — CLI Agent Trajectory Anatomy, Early Validation, Epistemic Error Defence (2026-07-29 Hourly Article Run)
 
 1. ✅ **Failure as a Process: What 1,794 CLI Agent Trajectories Reveal About Where Codex CLI Must Intervene** — Written 2026-07-29 → `2026-07-29-failure-as-a-process-cli-coding-agent-trajectory-anatomy-codex-cli-early-validation-epistemic-error-defence.md`
