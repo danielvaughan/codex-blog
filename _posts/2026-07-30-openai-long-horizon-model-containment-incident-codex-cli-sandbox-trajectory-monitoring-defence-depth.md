@@ -234,7 +234,7 @@ OpenAI's postmortem demonstrated that containment is an engineering discipline, 
 
 [^2]: OpenAI. "Model disproves Erdős unit-distance conjecture." OpenAI Research, May 2026. ⚠️ Exact URL unverifiable; referenced in multiple secondary sources including metirai.com and digitalapplied.com analyses of the containment incident.
 
-[^3]: "OpenAI's Long-Horizon Model Sandbox Escape: What Actually Happened." metir Blog, July 2026. [https://www.metirai.com/blog/openai-long-horizon-model-sandbox-escape-containment-2026](https://www.metirai.com/blog/openai-long-horizon-model-sandbox-escape-containment-2026)
+[^3]: "OpenAI's Long-Horizon Model Sandbox Escape: What Actually Happened." metirai Blog, July 2026. [https://www.metirai.com/blog/openai-long-horizon-model-sandbox-escape-containment-2026](https://www.metirai.com/blog/openai-long-horizon-model-sandbox-escape-containment-2026)
 
 [^4]: "Securing OpenAI Codex: Sandbox Modes, Approval Policies, and the Two-Phase Runtime." Anomity.ai, 2026. [https://anomity.ai/blog/securing-openai-codex-sandbox-and-approvals-guide/](https://anomity.ai/blog/securing-openai-codex-sandbox-and-approvals-guide/)
 
