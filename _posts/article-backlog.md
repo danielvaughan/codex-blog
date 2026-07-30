@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Copilot Code Review GA with Agent Skills and MCP — Combined Review Pipeline with Codex CLI (2026-07-30 Hourly Article Run)
+
+1. ✅ **Copilot Code Review Goes GA with Agent Skills and MCP: Building a Combined Review Pipeline with Codex CLI** — Written 2026-07-30 → `2026-07-30-copilot-code-review-ga-agent-skills-mcp-codex-cli-combined-review-pipeline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub Copilot code review agent skills and MCP servers went GA 29 July 2026 for all plan tiers; SKILL.md format with YAML frontmatter; agent skills activate based on relevance signals; MCP tool calls restricted to read-only; GitHub and Playwright MCP servers enabled by default; instruction hierarchy (copilot-instructions.md, AGENTS.md, path-specific instructions, SKILL.md, MCP context); reviews run on GitHub Actions infrastructure; combined pipeline with Codex CLI /review pre-commit and Copilot PR review; AGENTS.md as shared instruction layer; config.toml review_model and profile configuration; attribution system for skill/MCP provenance; 5 citations
+   - SEO targets: "copilot code review agent skills mcp codex cli", "SKILL.md copilot code review configuration", "copilot mcp code review generally available", "codex cli copilot combined review pipeline", "AGENTS.md SKILL.md code review instructions", "copilot code review agent skills configuration 2026"
+
+---
+
 ## GPT-5.6 Price Restructuring — Luna 80% Cut, Sol Fast Mode, Model Routing Cost Optimisation (2026-07-30 Hourly Article Run)
 
 1. ✅ **GPT-5.6 Price Restructuring: Luna Down 80%, Sol Fast Mode, and What It Means for Your Codex CLI Model Routing** — Written 2026-07-30 → `2026-07-30-gpt56-price-restructuring-luna-80-percent-cut-codex-cli-model-routing-cost-optimisation.md`
