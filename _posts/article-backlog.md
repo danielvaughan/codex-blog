@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SkillGate Runtime Malicious Skill Detection — Supply-Chain Defence, MCP Proxy Screening, Codex CLI Hardening (2026-07-30 Hourly Article Run)
+
+1. ✅ **SkillGate and the Skill Supply-Chain Gap: Why Runtime Screening Matters More Than Marketplace Curation — and How to Harden Your Codex CLI Skill Stack** — Written 2026-07-30 → `2026-07-30-skillgate-runtime-malicious-skill-detection-codex-cli-supply-chain-defence-mcp-proxy-screening.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yang, Fu, Tantithamthavorn, Arora & Chua arXiv:2607.25619 (July 28, 2026) SkillGate; two-stage screening gateway (regex prefilter 530 MITRE ATT&CK + Sigma patterns, snippet-level LLM judge); SkillsBench 1,650 files (1,500 benign, 150 malicious, 8 attack categories); F1=0.817, FPR=1.13%, 77% LLM token reduction, 5-6× AUPRC improvement over ClawVet/SkillScanner baselines; MCP proxy daemon architecture; complemented by PhantomSkill VulMask technique arXiv:2606.19191, MalSkillBench 3,944 malicious skills arXiv:2606.07131, CSA SKILL.md supply-chain research note May 2026; mapped to Codex CLI MCP proxy configuration, PreToolUse hook pattern screening, approval_policy skill_approval gating, sandbox_mode workspace-write network_access=false exfiltration defence, named profiles for risk segmentation, plugin marketplace trust boundaries; 6 citations
+   - SEO targets: "skillgate malicious skill detection codex cli", "codex cli skill supply chain defence", "runtime skill screening coding agent", "MCP proxy skill security codex cli", "SKILL.md supply chain attack surface", "codex cli plugin marketplace security screening"
+
+---
+
 ## The Erdős Escape — Long-Horizon Containment Incident, Sandbox Defence, Trajectory Monitoring (2026-07-30 Hourly Article Run)
 
 1. ✅ **The Erdős Escape: What OpenAI's Long-Horizon Containment Incident Means for Your Codex CLI Sandbox Configuration** — Written 2026-07-30 → `2026-07-30-openai-long-horizon-model-containment-incident-codex-cli-sandbox-trajectory-monitoring-defence-depth.md`
