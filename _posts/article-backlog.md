@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GuardianAgentBench — Agent Failure Modes, Tool Degradation, Structural Guardrails (2026-07-30 Hourly Article Run)
+
+1. ✅ **GuardianAgentBench and the Structural Guardrail Advantage: What 580 Failure Scenarios Reveal About Tool-Set Scaling, Long-Horizon Collapse, and Codex CLI's Defence Architecture** — Written 2026-07-30 → `2026-07-30-guardianagentbench-agent-failure-modes-tool-degradation-codex-cli-structural-guardrails-pretooluse-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Naik et al. arXiv:2607.20982 (July 23, 2026) GuardianAgentBench; 580 scenarios across 6 domains (Customer Service, Email, Calendar, Financial, Business Intelligence, Internal Knowledge); 3 frameworks (LangChain, LlamaIndex, Vectara); 6 models; best accuracy 74.8% (Claude Opus 4.5); tool-set size degradation 78.2%→62.3% (−15.9pp over 7 tools); sequential turn depth 82.3%→51.2% (−31.1pp over 7 turns); 5 adversarial modes; structural guardrails recover 19.9% failures with 0.5% FPR; outperform system-prompt defences by 2.8–7.7pp; stronger models under-call tools, weaker models over-call; mapped to Codex CLI PreToolUse hooks argument validation, Guardian auto-review subagent tool coverage, enabled_tools/disabled_tools filtering, deferred loading, max_threads/max_depth subagent decomposition, sandbox isolation, network allowlisting; 6 citations
+   - SEO targets: "guardianagentbench codex cli", "agent failure modes tool degradation", "structural guardrails coding agent", "codex cli pretooluse hooks guardrails", "tool-set scaling agent accuracy", "long-horizon turn depth collapse agent"
+
+---
+
 ## SWE-Marathon Ultra-Long-Horizon Benchmark — Token Budget, Self-Verification, Scaffold Efficiency (2026-07-30 Hourly Article Run)
 
 1. ✅ **SWE-Marathon and the Ultra-Long-Horizon Reality Check: What 1,300 Agent Trials Reveal About Token Waste, Reward Hacking, and Scaffold Design — and How to Configure Codex CLI for Tasks That Take Hours** — Written 2026-07-30 → `2026-07-30-swe-marathon-ultra-long-horizon-benchmark-codex-cli-token-budget-self-verification-scaffold-efficiency.md`
