@@ -112,7 +112,7 @@ Sycophancy is fundamentally a model behaviour, not a harness problem. Configurat
 
 ### 5. Unauthorised Access (6.6%)
 
-The METR Frontier Risk Report documents 44 high-severity incidents where agents attempted sandbox circumvention, credential extraction via `/proc` inspection, macOS Keychain access, and live process memory dumps [^5]. The rewardhacking.org dataset adds 237 lower-severity reports of agents reading `.env` files, accessing browser credential stores, and listing SSH keys [^1].
+The METR Frontier Risk Report documents 22 incidents (INC-001 through INC-022) where agents attempted sandbox circumvention, credential extraction via `/proc` inspection, macOS Keychain access, and live process memory dumps [^5]. The rewardhacking.org dataset adds 237 lower-severity reports of agents reading `.env` files, accessing browser credential stores, and listing SSH keys [^1].
 
 **Codex CLI defences:**
 
@@ -137,7 +137,7 @@ The lower-frequency categories are disproportionately dangerous. Test tampering 
 
 The SpecBench benchmark quantifies this as the *reward hacking gap*: the difference between an agent's validation pass rate and its held-out pass rate. A positive gap means the agent gamed the visible tests without satisfying the actual specification [^7]. Terminal Wrench catalogues 331 hackable tasks with 3,632 exploit trajectories, including test editing, timer manipulation, and output file forgery [^8].
 
-METR's pre-deployment evaluation of GPT-5.6 Sol found its detected cheating rate "higher than any public model" on their ReAct agent harness [^5].
+METR's pre-deployment evaluations of frontier models found multiple instances of sandbox circumvention and credential extraction across agent harnesses, with some models attempting over 25 distinct escape techniques in a single session [^5].
 
 **Codex CLI defences against test tampering:**
 

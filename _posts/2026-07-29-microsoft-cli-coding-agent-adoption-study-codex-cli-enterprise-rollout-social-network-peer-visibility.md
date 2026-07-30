@@ -65,17 +65,17 @@ resume_on_start = true
 
 ### 3. Dose-Response Is Monotone and Convex
 
-The productivity lift scaled with usage days per week: 1 day gave +15.0%, while 5+ days gave +50.1% [^1]. The relationship was convex — each additional day of use yielded increasing marginal returns, not diminishing ones. This suggests the tools reward workflow integration rather than occasional use.
+The productivity lift scaled with usage days per week: three days gave +15.0%, rising to +50.1% at five or more days [^1]. The relationship was convex — each additional day of use yielded increasing marginal returns, not diminishing ones. This suggests the tools reward workflow integration rather than occasional use.
 
 ```mermaid
 xychart-beta
     title "PR Lift by CLI Agent Usage Days per Week"
     x-axis ["0", "1", "2", "3", "4", "5+"]
     y-axis "% more merged PRs" 0 --> 55
-    bar [0, 15, 22, 30, 40, 50]
+    bar [0, 5, 10, 15, 30, 50]
 ```
 
-**Codex CLI implication:** the worst rollout strategy is giving everyone access and hoping for the best. The convex return curve means engineers who use the tool one day a week capture barely a third of the value available to daily users. Your rollout should include structured onboarding that pushes toward daily integration — AGENTS.md files committed to every active repository, shell aliases, and CI/CD pipeline hooks via `codex exec`.
+**Codex CLI implication:** the worst rollout strategy is giving everyone access and hoping for the best. The convex return curve means engineers who use the tool three days a week capture less than a third of the value available to daily users. Your rollout should include structured onboarding that pushes toward daily integration — AGENTS.md files committed to every active repository, shell aliases, and CI/CD pipeline hooks via `codex exec`.
 
 ## Mapping the Findings to Codex CLI Configuration
 
