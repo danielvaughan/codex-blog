@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.6 Price Restructuring — Luna 80% Cut, Sol Fast Mode, Model Routing Cost Optimisation (2026-07-30 Hourly Article Run)
+
+1. ✅ **GPT-5.6 Price Restructuring: Luna Down 80%, Sol Fast Mode, and What It Means for Your Codex CLI Model Routing** — Written 2026-07-30 → `2026-07-30-gpt56-price-restructuring-luna-80-percent-cut-codex-cli-model-routing-cost-optimisation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI restructured GPT-5.6 pricing 30 July 2026; Luna −80% ($0.20/$1.20 per MTok), Terra −20% ($2/$12), Sol unchanged ($5/$30); Sol Fast mode new tier at $12.50/$75 with 2.5× throughput; Luna now 25× cheaper than Sol; estimated cost per task Luna $0.61 vs Terra $3.96 vs Sol $8.39; competitive context (Luna undercuts Claude Sonnet 4.6 15× on input); config.toml model routing, named profiles, subagent overrides, managed_config.toml fleet defaults, OpenTelemetry cost segmentation; 6 citations
+   - SEO targets: "gpt-5.6 price cut codex cli", "luna 80 percent cheaper codex cli model routing", "codex cli model cost optimisation gpt-5.6", "sol fast mode codex cli", "gpt-5.6 terra luna pricing codex cli config", "codex cli named profiles model tier routing"
+
+---
+
 ## Skill Context Budget Pressure — v0.146 Retention Improvements, Truncation Strategies, Profile-Based Skill Sets (2026-07-30 Hourly Article Run)
 
 1. ✅ **The 2% Ceiling: How Codex CLI's Skill Context Budget Works, Why Your Skills Get Truncated, and What v0.146 Changes** — Written 2026-07-30 → `2026-07-30-codex-cli-skill-context-budget-pressure-v0146-retention-truncation-profile-strategies.md`
