@@ -1,5 +1,13 @@
 # Article Backlog
 
+## LongCat-2.0 — Meituan Open-Source Agentic Coding Model, Codex CLI Custom Provider Configuration (2026-07-31 Hourly Article Run)
+
+1. ✅ **LongCat-2.0: Configuring Meituan's 1.6T Open-Source Agentic Coding Model as a Codex CLI Provider** — Written 2026-07-31 → `2026-07-31-longcat-2-0-meituan-open-source-agentic-coding-model-codex-cli-custom-provider-openrouter-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Meituan LongCat-2.0 released 30 June 2026 under MIT licence; 1.6T MoE architecture, ~48B active parameters per token; native 1M context window via LongCat Sparse Attention; SWE-bench Pro 59.5 (vs GPT-5.5 58.6, Claude Sonnet 5 63.2); trained on 50,000+ Chinese ASIC accelerators; $0.75/$2.95 per MTok standard pricing; ran anonymously as "Owl Alpha" on OpenRouter; config.toml custom provider setup via OpenRouter and direct LongCat API; named profiles for model routing; sub-agent overrides; million-token context advantage over GPT-5.6 272K cap; jurisdictional risk considerations; 6 citations
+   - SEO targets: "longcat 2.0 codex cli configuration", "codex cli custom model provider openrouter longcat", "longcat 2.0 benchmark swe-bench codex cli", "meituan agentic coding model codex cli", "codex cli million token context longcat", "codex cli named profiles model routing longcat"
+
+---
+
 ## Copilot Code Review GA with Agent Skills and MCP — Combined Review Pipeline with Codex CLI (2026-07-30 Hourly Article Run)
 
 1. ✅ **Copilot Code Review Goes GA with Agent Skills and MCP: Building a Combined Review Pipeline with Codex CLI** — Written 2026-07-30 → `2026-07-30-copilot-code-review-ga-agent-skills-mcp-codex-cli-combined-review-pipeline.md`
