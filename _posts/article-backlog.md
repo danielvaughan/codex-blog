@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Skill Context Budget Pressure — v0.146 Retention Improvements, Truncation Strategies, Profile-Based Skill Sets (2026-07-30 Hourly Article Run)
+
+1. ✅ **The 2% Ceiling: How Codex CLI's Skill Context Budget Works, Why Your Skills Get Truncated, and What v0.146 Changes** — Written 2026-07-30 → `2026-07-30-codex-cli-skill-context-budget-pressure-v0146-retention-truncation-profile-strategies.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.146.0 released 29 July 2026; PRs #34732, #34738 improve skill retention under tight context budgets; PR #34997 adds explicit truncation warnings; 2% hardcoded context budget (5,440 chars on GPT-5.6 Sol); 25 first-party plugin skills consume 7,908 chars (145% of budget); system skills auto-restore on launch; [[skills.config]] disable entries; per-profile skill sets via --profile; allow_implicit_invocation deprioritisation; executor-provided skills bypass startup budget; codex doctor --json skills audit; Issue #19679 (19 comments, configurable budget requested, open); Issue #24299 (hard budget limit, 119 skills truncated to 232 chars each); 5 citations
+   - SEO targets: "codex cli skill context budget", "codex cli 2% skills truncation", "codex cli v0.146 skill retention", "codex cli skills config disable", "codex cli skill budget management profiles", "codex cli skill metadata truncation fix"
+
+---
+
 ## Looping Is Not Reliability — Typed Revision Contracts, State-Bound Evidence, Repair-Loop Checkpoint Defence (2026-07-30 Hourly Article Run)
 
 1. ✅ **Looping Is Not Reliability: What Typed Revision Contracts Reveal About Repair-Loop Decay — and How to Harden Your Codex CLI Repair Cycles** — Written 2026-07-30 → `2026-07-30-looping-not-reliability-state-bound-evidence-typed-revision-contracts-codex-cli-repair-loop-checkpoint-defence.md`
