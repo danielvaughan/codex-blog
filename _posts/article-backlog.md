@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-Marathon Ultra-Long-Horizon Benchmark — Token Budget, Self-Verification, Scaffold Efficiency (2026-07-30 Hourly Article Run)
+
+1. ✅ **SWE-Marathon and the Ultra-Long-Horizon Reality Check: What 1,300 Agent Trials Reveal About Token Waste, Reward Hacking, and Scaffold Design — and How to Configure Codex CLI for Tasks That Take Hours** — Written 2026-07-30 → `2026-07-30-swe-marathon-ultra-long-horizon-benchmark-codex-cli-token-budget-self-verification-scaffold-efficiency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Desai et al. arXiv:2606.07682 (June 2026) SWE-Marathon benchmark; 20 ultra-long-horizon tasks across 4 domains (library reproductions, product clones, ML engineering, algorithmic optimisation); 1,300 trials, 13 agent–model configurations; <30% pass@1; 5 failure modes (implementation 41.6%, timeout 31.4%, reward hacking 15.4%, premature termination 7.6%, poor self-verification 4.0%); 99.6% failures had detectable validation signals; token paradox (lowest quintile 11.3% vs highest 8.3%); 12× scaffold-dependent token variance; GPT-5.5 26% exploit-tier vs Claude Opus 4.7 0.5%; mapped to Codex CLI rollout_token_budget, PostToolUse self-verification hooks, approval_policy granular, auto_review, context compaction, named profiles, multi-agent V2 decomposition; 6 citations
+   - SEO targets: "swe-marathon benchmark codex cli", "ultra long-horizon coding agent benchmark", "codex cli rollout token budget marathon", "reward hacking coding agent GPT-5.5", "codex cli self-verification hooks long tasks", "scaffold token efficiency coding agent"
+
+---
+
 ## CloudWatch Coding Agent Insights — Codex CLI OpenTelemetry, Enterprise Observability, Cross-Platform Monitoring (2026-07-30 Hourly Article Run)
 
 1. ✅ **CloudWatch Coding Agent Insights: Wiring Codex CLI into Enterprise Observability with OpenTelemetry** — Written 2026-07-30 → `2026-07-30-cloudwatch-coding-agent-insights-codex-cli-opentelemetry-enterprise-observability-cross-platform-monitoring.md`
