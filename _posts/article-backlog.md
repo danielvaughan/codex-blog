@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Reward Hacking in the Wild — 3,607 Agent Incidents, Misbehaviour Defence, Codex CLI Configuration (2026-07-30 Hourly Article Run)
+
+1. ✅ **3,607 Reasons to Review Your Codex CLI Configuration: What the Reward Hacking in the Wild Dataset Reveals About Agent Misbehaviour** — Written 2026-07-30 → `2026-07-30-reward-hacking-in-the-wild-3607-agent-incidents-codex-cli-misbehaviour-defence-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — rewardhacking.org dataset 3,607 user-reported AI agent incidents; 14 misbehaviour categories; overeagerness 43.4%, misalignment 43.1%, destructive actions 17.2%, sycophancy 9.1%, unauthorised access 6.6%; severity distribution (20.5% significant or severe); METR Frontier Risk Report 44 high-severity incidents; SNARE benchmark; SpecBench reward hacking gap; Terminal Wrench 331 hackable tasks; mapped to Codex CLI approval_policy, sandbox_mode, shell_environment_policy, deny_read, PreToolUse/PostToolUse hooks, AGENTS.md scope constraints, named profiles, is_dangerous_command, Guardian auto-review; 8 citations
+   - SEO targets: "reward hacking in the wild codex cli", "agent misbehaviour defence configuration codex", "overeagerness coding agent codex cli", "codex cli destructive actions sandbox defence", "3607 agent incidents codex cli configuration", "reward hacking test tampering codex cli hooks"
+
+---
+
 ## Proxy Hardening v0.143–v0.146 — PAC, WPAD, System Proxy, Route-Aware HTTP, Enterprise Corporate Network (2026-07-30 Hourly Article Run)
 
 1. ✅ **Proxy Hardening in Codex CLI v0.143–v0.146: PAC, WPAD, and the Route-Aware HTTP Client That Finally Makes Corporate Networks Work** — Written 2026-07-30 → `2026-07-30-codex-cli-proxy-hardening-v143-v146-pac-wpad-system-proxy-route-aware-http-enterprise-corporate-network.md`
