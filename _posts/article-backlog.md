@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Looping Is Not Reliability — Typed Revision Contracts, State-Bound Evidence, Repair-Loop Checkpoint Defence (2026-07-30 Hourly Article Run)
+
+1. ✅ **Looping Is Not Reliability: What Typed Revision Contracts Reveal About Repair-Loop Decay — and How to Harden Your Codex CLI Repair Cycles** — Written 2026-07-30 → `2026-07-30-looping-not-reliability-state-bound-evidence-typed-revision-contracts-codex-cli-repair-loop-checkpoint-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Gao, Yang & Yang arXiv:2607.24604 (July 27, 2026); 900 three-revision trajectories across 30 HumanEval repairs; correctness drops from 82% after 1 revision to 67.3% after 2; ever-correct rate 84.7%; stale-trace harm 34/135 correct starts vs 4/135 with current traces (−22.2pp, p=0.0337); 540-rollout policy eliminates correct-start harm; evidence-bound typed loop contract with state binding, checkpoint preservation, auditable admission receipts; mapped to Codex CLI PostToolUse state-binding hooks, Stop checkpoint gates, AGENTS.md repair loop rules, model_auto_compact_token_limit stale-trace prevention, approval_policy on-request revision gating, auto_review, JSONL+OpenTelemetry audit; 6 citations
+   - SEO targets: "looping not reliability codex cli", "typed revision contracts coding agent", "repair loop degradation coding agent", "codex cli PostToolUse state binding hooks", "stale trace revision degradation agent", "codex cli repair loop checkpoint defence"
+
+---
+
 ## Databricks Internal Coding Benchmark — Model & Harness Selection, Cost-Quality Pareto, Codex CLI Configuration (2026-07-30 Hourly Article Run)
 
 1. ✅ **Databricks' Internal Coding Benchmark: What a Multi-Million-Line Codebase Reveals About Model and Harness Selection for Codex CLI** — Written 2026-07-30 → `2026-07-30-databricks-internal-coding-benchmark-multi-million-line-codebase-codex-cli-model-harness-selection-cost-quality.md`
