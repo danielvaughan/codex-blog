@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CloudWatch Coding Agent Insights — Codex CLI OpenTelemetry, Enterprise Observability, Cross-Platform Monitoring (2026-07-30 Hourly Article Run)
+
+1. ✅ **CloudWatch Coding Agent Insights: Wiring Codex CLI into Enterprise Observability with OpenTelemetry** — Written 2026-07-30 → `2026-07-30-cloudwatch-coding-agent-insights-codex-cli-opentelemetry-enterprise-observability-cross-platform-monitoring.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — AWS CloudWatch Coding Agent Insights launched 20 July 2026; pre-built dashboards for OpenTelemetry metrics from Claude Code, OpenAI Codex, GitHub Copilot; two setup paths (bearer token direct-to-OTLP, enterprise SSO/SigV4 via local collector); config.toml [otel.metrics_exporter] section; OTEL_RESOURCE_ATTRIBUTES for identity segmentation; Azure Monitor Application Insights equivalent with Grafana dashboards; Grafana dashboard ID 25266; OpenTelemetry GenAI semantic conventions v1.41; managed_config.toml and requirements.toml integration for fleet telemetry enforcement; token budget right-sizing, approval bottleneck detection, model routing feedback, tool call anomaly detection; 6 citations
+   - SEO targets: "cloudwatch coding agent insights codex cli", "codex cli opentelemetry metrics cloudwatch", "codex cli enterprise observability otel", "coding agent insights azure monitor grafana", "codex cli config.toml otel metrics exporter", "codex cli fleet telemetry enterprise rollout"
+
+---
+
 ## SkillGate Runtime Malicious Skill Detection — Supply-Chain Defence, MCP Proxy Screening, Codex CLI Hardening (2026-07-30 Hourly Article Run)
 
 1. ✅ **SkillGate and the Skill Supply-Chain Gap: Why Runtime Screening Matters More Than Marketplace Curation — and How to Harden Your Codex CLI Skill Stack** — Written 2026-07-30 → `2026-07-30-skillgate-runtime-malicious-skill-detection-codex-cli-supply-chain-defence-mcp-proxy-screening.md`
