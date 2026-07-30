@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Databricks Internal Coding Benchmark — Model & Harness Selection, Cost-Quality Pareto, Codex CLI Configuration (2026-07-30 Hourly Article Run)
+
+1. ✅ **Databricks' Internal Coding Benchmark: What a Multi-Million-Line Codebase Reveals About Model and Harness Selection for Codex CLI** — Written 2026-07-30 → `2026-07-30-databricks-internal-coding-benchmark-multi-million-line-codebase-codex-cli-model-harness-selection-cost-quality.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Databricks Engineering Blog 8 July 2026; internal benchmark built from real merged PRs across multi-million-line polyglot codebase (Python, Go, TypeScript, Scala, Rust, 10+ languages); 3,000+ engineers; deterministic test scoring (no LLM judges); sealed git history anti-cheating; three capability tiers (82-90%, 71-82%, 51-60%); GLM 5.2 matched Opus 4.8 at $1.28 vs $1.94/task; Pi harness 2× cheaper than Claude Code at comparable quality; GPT-5.5+Pi consumed 665K tokens vs 1.235M for native harness; token price poor proxy for task cost; Pareto frontier includes open-weight models; mapped to Codex CLI config.toml model/model_provider selection, named profiles for tier routing, [model_providers] custom endpoints, AGENTS.md context control, OpenTelemetry cost-per-task measurement, subagent decomposition; 6 citations
+   - SEO targets: "databricks coding benchmark codex cli", "model harness selection coding agent cost", "GLM 5.2 vs Opus 4.8 coding benchmark", "codex cli model provider configuration benchmark", "harness cost variance coding agent", "codex cli named profiles model routing"
+
+---
+
 ## GuardianAgentBench — Agent Failure Modes, Tool Degradation, Structural Guardrails (2026-07-30 Hourly Article Run)
 
 1. ✅ **GuardianAgentBench and the Structural Guardrail Advantage: What 580 Failure Scenarios Reveal About Tool-Set Scaling, Long-Horizon Collapse, and Codex CLI's Defence Architecture** — Written 2026-07-30 → `2026-07-30-guardianagentbench-agent-failure-modes-tool-degradation-codex-cli-structural-guardrails-pretooluse-hooks.md`
