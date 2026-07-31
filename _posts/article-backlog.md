@@ -1,5 +1,13 @@
 # Article Backlog
 
+## NBER Production Hierarchy Attenuation — Writing Code vs. Shipping Code, Codex CLI Verification and Release Workflows (2026-07-31 Hourly Article Run)
+
+1. ✅ **Writing Code vs. Shipping Code: What the NBER Production Hierarchy Study Means for Your Codex CLI Release Workflows** — Written 2026-07-31 → `2026-07-31-writing-code-vs-shipping-code-nber-production-hierarchy-attenuation-codex-cli-verification-release-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — NBER Working Paper 35275 (May 2026) by Demirer, Musolff & Yang; 100,000+ GitHub developers matched with Microsoft AI telemetry; three AI tool generations (autocomplete +40%, interactive +140%, autonomous +180% commits); production hierarchy attenuation to +50% projects and +30% releases; 741% LOC increase but ~10% per-developer shipping increase; elasticity of substitution 0.25 (strong complements); weak-link / O-ring production theory; app marketplace validation (submissions up, engagement flat); mapped to Codex CLI auto_review subagent, PostToolUse test hooks, named release profiles, PreToolUse deploy guards, rollout_token_budget, OpenTelemetry production feedback; 6 citations
+   - SEO targets: "NBER writing code shipping code codex cli", "production hierarchy attenuation AI coding agents", "codex cli release workflow verification bottleneck", "180 percent commits 30 percent releases AI coding", "codex cli auto review release pipeline", "weak link hypothesis AI coding tools codex cli"
+
+---
+
 ## MCP 2026-07-28 Final Specification — Stateless Core, Tasks Extension, MCP Apps, Codex CLI Migration (2026-07-31 Hourly Article Run)
 
 1. ✅ **MCP 2026-07-28 Final Specification Ships: Stateless Core, Tasks Extension, MCP Apps, and What Your Codex CLI Configuration Needs Now** — Written 2026-07-31 → `2026-07-31-mcp-2026-07-28-final-specification-stateless-core-tasks-apps-codex-cli-migration.md`
