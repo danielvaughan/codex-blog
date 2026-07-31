@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-bench Reliability Crisis — PAIChecker, Change2Task, Benchmark Vacuum, Codex CLI Evaluation (2026-07-31 Hourly Article Run)
+
+1. ✅ **The SWE-bench Reliability Crisis: PAIChecker, Change2Task, and What the Benchmark Vacuum Means for Codex CLI Evaluation** — Written 2026-07-31 → `2026-07-31-swe-bench-reliability-crisis-paichecker-change2task-codex-cli-evaluation-benchmark-vacuum.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — PAIChecker (arXiv:2607.28587, ASE 2026) finds 13.6% PR-issue misalignment in SWE-bench Verified across five patterns and eleven scenarios; Change2Task (arXiv:2607.28591) achieves 79.6% verified task construction from merged PRs with 98.0% outcome match; OpenAI abandoned SWE-bench Verified Feb 2026 (59% flawed tests) and retracted SWE-bench Pro Jul 2026 (30% broken tasks); METR found ~50% of passing PRs wouldn't be merged by maintainers (+24.2pp grader inflation); benchmark vacuum with no consensus replacement; mapped to Codex CLI config.toml evaluation profiles, AGENTS.md effect on benchmark scores, Terminal-Bench 2.1 alternative, internal evaluation set construction; 6 citations
+   - SEO targets: "SWE-bench reliability crisis codex cli", "PAIChecker PR issue misalignment benchmark", "Change2Task verified task construction", "codex cli evaluation benchmark vacuum", "SWE-bench Pro retracted broken tasks", "codex cli benchmark evaluation profile"
+
+---
+
 ## GPT-5.6 Sol Self-Optimising Inference Stack — Triton/Gluon Kernel Rewrites, Speculative Decoding, Codex CLI Cost Impact (2026-07-31 Hourly Article Run)
 
 1. ✅ **GPT-5.6 Sol Rewrote Its Own Inference Stack: What the First Self-Optimising Model Means for Codex CLI Developers** — Written 2026-07-31 → `2026-07-31-gpt-56-sol-self-optimising-inference-stack-codex-triton-gluon-kernel-rewrite-speculative-decoding.md`
