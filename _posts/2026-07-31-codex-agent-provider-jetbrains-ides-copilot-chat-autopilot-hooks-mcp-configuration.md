@@ -77,7 +77,7 @@ The JetBrains integration exposes three approval settings for Copilot CLI sessio
 | **Bypass Approvals** | Auto-approved | Surfaced to developer | Trusted repositories |
 | **Autopilot** (Preview) | Auto-approved | Auto-responded | Fully autonomous sessions |
 
-These map to the CLI's `approval_policy` values. If you have `approval_policy = "on-request"` in your `config.toml`, Default Approvals honours that. Bypass maps to `"never"`, and Autopilot adds automatic clarification handling on top.
+These map to the CLI's `approval_policy` values [^6]. If you have `approval_policy = "on-request"` in your `config.toml`, Default Approvals honours that. Bypass maps to `"never"`, and Autopilot adds automatic clarification handling on top.
 
 ### Sandbox Modes and Workspace Roots
 
