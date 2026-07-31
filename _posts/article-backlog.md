@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP 2026-07-28 Final Specification — Stateless Core, Tasks Extension, MCP Apps, Codex CLI Migration (2026-07-31 Hourly Article Run)
+
+1. ✅ **MCP 2026-07-28 Final Specification Ships: Stateless Core, Tasks Extension, MCP Apps, and What Your Codex CLI Configuration Needs Now** — Written 2026-07-31 → `2026-07-31-mcp-2026-07-28-final-specification-stateless-core-tasks-apps-codex-cli-migration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — MCP 2026-07-28 final specification published 28 July 2026 after ten-week RC validation; stateless core removes initialize/initialized handshake and Mcp-Session-Id header; _meta object carries protocol version/client identity/capabilities on every request; server/discover RPC replaces handshake capability exchange; Mcp-Method and Mcp-Name headers enable gateway routing without JSON body parsing; response caching with ttlMs and cacheScope on list endpoints; Multi Round-Trip Requests (MRTR) with resultType field (complete/input_required); Tasks extension graduated to io.modelcontextprotocol/tasks with tasks/get polling, tasks/update mid-flight input, tasks/cancel; MCP Apps (SEP-1865) interactive HTML iframes with graceful text fallback; RFC 9207 issuer validation; DCR deprecated in favour of CIMD; Roots, Sampling, Logging, HTTP+SSE deprecated with 12-month window; Codex CLI v0.146.0 registers 2026-07-28 feature flag; 6 citations
+   - SEO targets: "MCP 2026-07-28 final specification codex cli", "MCP stateless protocol codex cli migration", "MCP Tasks extension codex cli configuration", "MCP Apps interactive UI codex cli", "MCP 2026-07-28 breaking changes migration guide", "codex cli MCP stateless core tasks polling"
+
+---
+
 ## Codex Agent Provider in JetBrains IDEs — Copilot Chat, Autopilot, Hooks, MCP Configuration (2026-07-31 Hourly Article Run)
 
 1. ✅ **Codex as Agent Provider in JetBrains IDEs: Configuration, Permission Modes, Hooks, and MCP Server Management** — Written 2026-07-31 → `2026-07-31-codex-agent-provider-jetbrains-ides-copilot-chat-autopilot-hooks-mcp-configuration.md`
