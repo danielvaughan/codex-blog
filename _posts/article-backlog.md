@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Custom Code Review Rules in AGENTS.md — Review Governance, Coverage Scoping, Codex CLI Integration (2026-07-31 Hourly Article Run)
+
+1. ✅ **Custom Code Review Rules in AGENTS.md: How Repository-Specific Invariants Lift Codex Review Coverage from 58% to 98%** — Written 2026-07-31 → `2026-07-31-custom-code-review-rules-agents-md-codex-review-governance-coverage-scoping.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI Developers Blog "Custom Code Review rules for Codex" (July 2026); ## Code Review Rules section in AGENTS.md; evaluation metrics: 98% coverage vs 58.3% baseline; Restraint, Retention, Actionability dimensions; rawResponseItem wire protocol breaking-change example; nested directory-scoped rule placement; 88 AGENTS.md files in OpenAI Codex repo; 32 KiB default project_doc_max_bytes; integration with /review CLI command and @codex review GitHub trigger; four rule-writing principles (consequential invariants, scoping, safe paths, durability); three-change validation methodology; 6 citations
+   - SEO targets: "codex code review rules AGENTS.md", "custom review rules codex cli", "AGENTS.md code review section configuration", "codex review coverage 98 percent", "codex cli /review custom rules", "nested AGENTS.md code review scoping"
+
+---
+
 ## NBER Production Hierarchy Attenuation — Writing Code vs. Shipping Code, Codex CLI Verification and Release Workflows (2026-07-31 Hourly Article Run)
 
 1. ✅ **Writing Code vs. Shipping Code: What the NBER Production Hierarchy Study Means for Your Codex CLI Release Workflows** — Written 2026-07-31 → `2026-07-31-writing-code-vs-shipping-code-nber-production-hierarchy-attenuation-codex-cli-verification-release-workflows.md`
