@@ -123,11 +123,11 @@ Opus 5's effort parameter deserves specific attention because it changes how you
 
 | Effort Level | Behaviour | Use Case |
 |---|---|---|
-| `low` | Minimal deliberation, fast responses | Trivial edits, renames |
-| `medium_low` | Light reasoning | Simple refactors |
-| `medium` | Balanced thinking | Code review, bug triage |
-| `high` | Deep multi-step reasoning | Architecture, complex features |
-| `max` | Maximum compute budget | Novel algorithm design |
+| `low` | Most efficient, significant token savings | Trivial edits, renames, subagents |
+| `medium` | Balanced approach, moderate token savings | Simple refactors, cost-sensitive agentic work |
+| `high` | Default level, high capability | Code review, complex reasoning, bug triage |
+| `xhigh` | Extended capability for long-horizon work | Long-running agentic and coding tasks (30+ min) |
+| `max` | Absolute maximum, no token constraints | Novel algorithm design, deepest reasoning |
 
 Unlike GPT-5.6's reasoning effort, which gates a separate reasoning phase, Opus 5's adaptive system interleaves thinking *between* tool calls [^1]. This means the model can reassess its plan after seeing each tool result — effectively thinking while acting rather than thinking then acting.
 

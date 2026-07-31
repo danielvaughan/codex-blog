@@ -2,7 +2,7 @@
 title: "The Codex CLI JavaScript REPL: Stateful Scripting Inside Your Agent Session"
 description: "The Codex CLI's shell execution model is stateless by design — each shell tool call spins up a fresh process, runs a command, and tears down. That works."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-07-31T02:16:10+01:00
+last_modified_at: 2026-07-31T03:10:13+01:00
 tags:
   - workflow-patterns
   - automation
