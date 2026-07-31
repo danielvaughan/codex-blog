@@ -1,5 +1,13 @@
 # Article Backlog
 
+## BrowserStack Test Companion + Codex CLI Agentic Testing Pipeline (2026-07-31 Hourly Article Run)
+
+1. ✅ **BrowserStack Test Companion and Codex CLI: Closing the Verification Gap with Agentic Testing Pipelines** — Written 2026-07-31 → `2026-07-31-browserstack-test-companion-codex-cli-agentic-testing-pipeline-mcp-posttooluse-verification-gap.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — BrowserStack Test Companion launched 29 July 2026; purpose-built agentic testing for IDE; supports Playwright, Cypress, Selenium, Appium, WebdriverIO, TestNG; IDE extensions for VS Code, JetBrains, Cursor, Antigravity; 1,000+ teams, 4× faster test lifecycle; BrowserStack MCP server integration with Codex CLI; PostToolUse hooks for automatic test triggering; NBER 180% commits vs 30% releases verification gap; combined code-generation + test-generation pipeline; AGENTS.md testing requirements; cost considerations with GPT-5.6 Luna pricing; 6 citations
+   - SEO targets: "browserstack test companion codex cli", "codex cli testing pipeline mcp posttooluse", "agentic testing codex cli browserstack", "verification gap coding agents testing", "browserstack mcp server codex cli integration", "codex cli posttooluse hooks testing automation"
+
+---
+
 ## SWE-bench Reliability Crisis — PAIChecker, Change2Task, Benchmark Vacuum, Codex CLI Evaluation (2026-07-31 Hourly Article Run)
 
 1. ✅ **The SWE-bench Reliability Crisis: PAIChecker, Change2Task, and What the Benchmark Vacuum Means for Codex CLI Evaluation** — Written 2026-07-31 → `2026-07-31-swe-bench-reliability-crisis-paichecker-change2task-codex-cli-evaluation-benchmark-vacuum.md`
