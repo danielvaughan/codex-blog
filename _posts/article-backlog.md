@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Agent Provider in JetBrains IDEs — Copilot Chat, Autopilot, Hooks, MCP Configuration (2026-07-31 Hourly Article Run)
+
+1. ✅ **Codex as Agent Provider in JetBrains IDEs: Configuration, Permission Modes, Hooks, and MCP Server Management** — Written 2026-07-31 → `2026-07-31-codex-agent-provider-jetbrains-ides-copilot-chat-autopilot-hooks-mcp-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex launched as Copilot agent provider in JetBrains IDEs (public preview) 7 July 2026; supports IntelliJ IDEA, PyCharm, WebStorm; three approval modes (Default/Bypass/Autopilot); spawns Codex CLI binary as agent process; full config.toml parity with CLI; hooks management in Agent Customisations editor; MCP server management (command + HTTP types); .github/mcp.json workspace servers; comparison with JetBrains AI Assistant integration (Jan 2026); sandbox_mode inheritance; known issue LLM-24906 config overwrite; profile-based configuration patterns; 6 citations
+   - SEO targets: "codex agent provider jetbrains ides", "codex cli jetbrains copilot chat autopilot", "codex jetbrains hooks mcp configuration", "codex agent provider intellij pycharm webstorm", "codex cli jetbrains permission modes sandbox", "codex copilot agent provider jetbrains setup 2026"
+
+---
+
 ## Claude Opus 5 — Custom Provider Configuration, Adaptive Thinking, Multi-Model Routing (2026-07-31 Hourly Article Run)
 
 1. ✅ **Claude Opus 5 Lands: Configuring Codex CLI as a Multi-Model Routing Layer with Anthropic's New Frontier** — Written 2026-07-31 → `2026-07-31-claude-opus-5-codex-cli-custom-provider-configuration-adaptive-thinking-model-routing.md`
