@@ -2,7 +2,7 @@
 title: "The Agentic Engineering Pod: Three Roles, One Shared Context Layer"
 description: "Traditional software team structures were not designed for agentic delivery. They are built around specialisations: product managers own requirements."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-07-31T18:16:28+01:00
+last_modified_at: 2026-07-31T20:17:48+01:00
 tags:
   - orchestration
   - team-workflow

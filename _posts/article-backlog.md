@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ChatGPT for Academic Researchers Programme — Codex CLI Scientific Workflows, MCP Tool Chains, Research Automation (2026-07-31 Hourly Article Run)
+
+1. ✅ **ChatGPT for Academic Researchers: Configuring Codex CLI for Scientific Workflows, MCP Tool Chains, and Reproducible Research Automation** — Written 2026-07-31 → `2026-07-31-chatgpt-academic-researchers-programme-codex-cli-scientific-workflows-configuration-research-automation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI announced ChatGPT for Academic Researchers 31 July 2026; 100,000 researchers get free GPT-5.6 Sol Pro + Codex access through 2027; 10,000 initial rollout at IAS, ENS; $250M commitment; 75+ life-sciences skills; connectors to PubMed, UniProt, ChEMBL, genomic databases, satellite imagery; ToolUniverse MCP server 600+ scientific tools; business-grade privacy (data excluded from training by default); config.toml research profiles, AGENTS.md domain context, PostToolUse validation hooks, deny_read data governance, named profiles for tiered model routing; codex exec batch analysis; 6 citations
+   - SEO targets: "chatgpt academic researchers codex cli", "codex cli scientific research configuration", "codex cli MCP tooluniverse scientific tools", "openai 100000 researchers codex", "codex cli research workflow AGENTS.md", "codex cli reproducible research automation"
+
+---
+
 ## BrowserStack Test Companion + Codex CLI Agentic Testing Pipeline (2026-07-31 Hourly Article Run)
 
 1. ✅ **BrowserStack Test Companion and Codex CLI: Closing the Verification Gap with Agentic Testing Pipelines** — Written 2026-07-31 → `2026-07-31-browserstack-test-companion-codex-cli-agentic-testing-pipeline-mcp-posttooluse-verification-gap.md`
