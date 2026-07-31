@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.4 Retirement August 31 — Codex CLI Migration to GPT-5.6 Terra and Luna (2026-08-01 Hourly Article Run)
+
+1. ✅ **GPT-5.4 Retires on 31 August: The Codex CLI Migration Checklist for GPT-5.6 Terra and Luna** — Written 2026-08-01 → `2026-08-01-gpt-54-retirement-august-31-codex-cli-migration-gpt56-terra-luna-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI announced 31 July 2026 that GPT-5.4 and GPT-5.4 mini retire from Codex on 31 August 2026 for ChatGPT-authenticated users; migration to GPT-5.6 Terra (replaces GPT-5.4) and Luna (replaces GPT-5.4 mini); Terra outperforms on SWE-bench Pro (+5.7pp), DeepSWE 1.1 (+18pp), long-context (+55.5pp Graphwalks); Luna outperforms on all shared benchmarks vs GPT-5.4 mini; post-30 July pricing: Terra $2/$12 (20% cheaper than GPT-5.4), Luna $0.20/$1.20 (73% cheaper than GPT-5.4 mini); config.toml migration, named profiles, review_model, CI/CD pipelines, managed_config.toml enterprise updates, subagent model overrides, codex doctor verification; 6 citations
+   - SEO targets: "gpt-5.4 retirement codex cli", "codex cli migration gpt-5.6 terra luna", "gpt-5.4 august 31 retirement migration", "codex cli model configuration gpt-5.6", "gpt-5.4 mini replacement gpt-5.6 luna", "codex cli named profiles model routing migration"
+
+---
+
 ## China AI Agent Regulation Three-Tier Decision Authority — Codex CLI Approval Policy Compliance Mapping (2026-07-31 Hourly Article Run)
 
 1. ✅ **China's Three-Tier AI Agent Regulation and Codex CLI: Mapping the Implementation Opinions to approval_policy, Sandbox Modes, and Audit Hooks** — Written 2026-07-31 → `2026-07-31-china-ai-agent-regulation-three-tier-decision-authority-codex-cli-approval-policy-compliance-mapping.md`

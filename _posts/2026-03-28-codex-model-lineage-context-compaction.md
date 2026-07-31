@@ -2,7 +2,7 @@
 title: "Codex Model Lineage: The Context Compaction Breakthrough That Made Long-Horizon Agents Possible"
 description: "If you've been using Codex CLI for agentic work, you've probably hit the wall: a long-running session starts hallucinating earlier decisions."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-07-31T22:17:39+01:00
+last_modified_at: 2026-08-01T00:14:24+01:00
 summary: "How the GPT-5.x-Codex model family evolved to solve the context problem — and why native compaction changed what agentic coding workflows can actually achieve."
 tags:
   - architecture
