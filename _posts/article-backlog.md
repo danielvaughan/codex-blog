@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.6 Sol Self-Optimising Inference Stack — Triton/Gluon Kernel Rewrites, Speculative Decoding, Codex CLI Cost Impact (2026-07-31 Hourly Article Run)
+
+1. ✅ **GPT-5.6 Sol Rewrote Its Own Inference Stack: What the First Self-Optimising Model Means for Codex CLI Developers** — Written 2026-07-31 → `2026-07-31-gpt-56-sol-self-optimising-inference-stack-codex-triton-gluon-kernel-rewrite-speculative-decoding.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GPT-5.6 Sol autonomously rewrote production GPU kernels in Triton/Gluon inside Codex; first confirmed case of frontier model optimising own serving stack; 20% end-to-end serving cost reduction; speculative-decoding draft model redesigned through hundreds of experiments (+15% token-generation efficiency); FpSan floating-point sanitiser open-source validation; Luna 80% price cut ($0.20/$1.20 per MTok); auto-review upgraded to Luna at 10× lower cost; Sol post-trained Luna via RLAIF; config.toml model routing profiles; sub-agent model overrides for tiered pricing; 6 citations
+   - SEO targets: "GPT-5.6 Sol self-optimising inference Codex", "Sol GPU kernel rewrite Triton Gluon", "Codex CLI model routing Luna price drop", "GPT-5.6 speculative decoding optimisation", "Sol rewrote own inference stack Codex CLI", "Codex CLI auto-review Luna cost reduction"
+
+---
+
 ## Codex Security CLI Open Source — Agentic Vulnerability Scanning, CI/CD, SARIF, TypeScript SDK (2026-07-31 Hourly Article Run)
 
 1. ✅ **Codex Security CLI Goes Open Source: Wiring Agentic Vulnerability Scanning into Your CI/CD Pipeline** — Written 2026-07-31 → `2026-07-31-codex-security-cli-open-source-apache-2-vulnerability-scanning-ci-cd-sarif-sdk-pre-commit.md`
