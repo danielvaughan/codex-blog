@@ -1,5 +1,13 @@
 # Article Backlog
 
+## China AI Agent Regulation Three-Tier Decision Authority — Codex CLI Approval Policy Compliance Mapping (2026-07-31 Hourly Article Run)
+
+1. ✅ **China's Three-Tier AI Agent Regulation and Codex CLI: Mapping the Implementation Opinions to approval_policy, Sandbox Modes, and Audit Hooks** — Written 2026-07-31 → `2026-07-31-china-ai-agent-regulation-three-tier-decision-authority-codex-cli-approval-policy-compliance-mapping.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — CAC/NDRC/MIIT Implementation Opinions on AI Agents effective 15 July 2026; world's first binding AI agent regulation; three-tier decision authority (human-only, approval-required, autonomous); maps to Codex CLI approval_policy (untrusted, on-request, never, granular) and sandbox_mode (read-only, workspace-write, danger-full-access); mandatory audit trails via PostToolUse hooks; PreToolUse gate for Tier 1 blocking; named profiles in config.toml encoding regulatory tiers; sector-specific filing for finance/healthcare; liability on deploying organisation; AGENTS.md as pre-deployment authorisation policy; 6 citations
+   - SEO targets: "china ai agent regulation codex cli", "codex cli approval policy compliance", "three tier decision authority ai agents", "codex cli regulatory compliance configuration", "china implementation opinions intelligent agents codex", "codex cli audit hooks regulatory compliance"
+
+---
+
 ## ChatGPT for Academic Researchers Programme — Codex CLI Scientific Workflows, MCP Tool Chains, Research Automation (2026-07-31 Hourly Article Run)
 
 1. ✅ **ChatGPT for Academic Researchers: Configuring Codex CLI for Scientific Workflows, MCP Tool Chains, and Reproducible Research Automation** — Written 2026-07-31 → `2026-07-31-chatgpt-academic-researchers-programme-codex-cli-scientific-workflows-configuration-research-automation.md`
