@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Claude Opus 5 — Custom Provider Configuration, Adaptive Thinking, Multi-Model Routing (2026-07-31 Hourly Article Run)
+
+1. ✅ **Claude Opus 5 Lands: Configuring Codex CLI as a Multi-Model Routing Layer with Anthropic's New Frontier** — Written 2026-07-31 → `2026-07-31-claude-opus-5-codex-cli-custom-provider-configuration-adaptive-thinking-model-routing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Anthropic Claude Opus 5 released 24 July 2026; model ID claude-opus-5; $5/$25 per MTok (unchanged from Opus 4.8); 1M context window, 128K synchronous output; adaptive thinking with five-level effort parameter and interleaved reasoning between tool calls; Frontier-Bench v0.1 43.3% vs GPT-5.6 Sol 34.4% (+26% relative); SWE-bench Verified 96.0%; ARC-AGI-3 30.2% (3.9× Sol); config.toml OpenRouter provider configuration with auth.command catalogue refresh; named profiles for model routing (architect/review/quick); sub-agent model overrides (Opus 5 orchestrator, Terra workers); effort-level tuning; benchmark-driven routing heuristic; gateway latency and wire-protocol caveats; 6 citations
+   - SEO targets: "claude opus 5 codex cli configuration", "codex cli custom provider anthropic openrouter", "claude opus 5 vs gpt-5.6 sol coding agent", "codex cli named profiles model routing claude", "claude opus 5 adaptive thinking codex cli", "codex cli multi-model routing anthropic openai"
+
+---
+
 ## LongCat-2.0 — Meituan Open-Source Agentic Coding Model, Codex CLI Custom Provider Configuration (2026-07-31 Hourly Article Run)
 
 1. ✅ **LongCat-2.0: Configuring Meituan's 1.6T Open-Source Agentic Coding Model as a Codex CLI Provider** — Written 2026-07-31 → `2026-07-31-longcat-2-0-meituan-open-source-agentic-coding-model-codex-cli-custom-provider-openrouter-configuration.md`
