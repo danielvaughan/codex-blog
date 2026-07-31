@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Security CLI Open Source — Agentic Vulnerability Scanning, CI/CD, SARIF, TypeScript SDK (2026-07-31 Hourly Article Run)
+
+1. ✅ **Codex Security CLI Goes Open Source: Wiring Agentic Vulnerability Scanning into Your CI/CD Pipeline** — Written 2026-07-31 → `2026-07-31-codex-security-cli-open-source-apache-2-vulnerability-scanning-ci-cd-sarif-sdk-pre-commit.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — @openai/codex-security v0.1.1 released 29 July 2026 under Apache 2.0; three-stage agentic pipeline (find → validate-in-sandbox → patch); gpt-5.6-sol default model with xhigh reasoning effort; four mandatory scan artefacts (scan-manifest.json, findings.json, coverage.json, report.md); diff-scoped/full-repo/working-tree/selected-path scan modes; --knowledge-base contextual threat modelling; SARIF/CSV/JSON export; pre-commit hook via install-hook; bulk-scan with --workers concurrency; TypeScript SDK with typed findings and AbortSignal; --max-cost soft cap with observed 46% overruns; independent cost testing $1.46–$8.54 per scan; SQLite workbench history with root-cause matching; exit code 2 prevents false-green CI; Node.js 22+ and Python 3.10+ requirements; 6 citations
+   - SEO targets: "codex security cli open source", "codex security cli ci/cd sarif integration", "openai codex security vulnerability scanning", "codex security cli github actions", "codex security typescript sdk", "codex security cli pre-commit hook cost"
+
+---
+
 ## Custom Code Review Rules in AGENTS.md — Review Governance, Coverage Scoping, Codex CLI Integration (2026-07-31 Hourly Article Run)
 
 1. ✅ **Custom Code Review Rules in AGENTS.md: How Repository-Specific Invariants Lift Codex Review Coverage from 58% to 98%** — Written 2026-07-31 → `2026-07-31-custom-code-review-rules-agents-md-codex-review-governance-coverage-scoping.md`
