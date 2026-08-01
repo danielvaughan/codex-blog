@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Grok Build Open Source Apache 2.0 — Architecture, ACP, Tool Porting, Terminal Agent Wars (2026-08-01 Hourly Article Run)
+
+1. ✅ **Grok Build Goes Open Source: What xAI's 840,000-Line Rust Release Means for Codex CLI Developers** — Written 2026-08-01 → `2026-08-01-grok-build-open-source-apache-2-codex-cli-architecture-acp-tool-porting-terminal-agent-wars.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — xAI open-sourced Grok Build under Apache 2.0 on 16 July 2026; ~840,000 lines of Rust; ACP (Agent Client Protocol) as public JSON-RPC wire vs Codex CLI's Responses API; tool-layer convergence with Codex CLI tools ported verbatim (apply_patch, grep_files, list_dir, read_file) with Apache §4(b) attribution; config.toml convergence; up to 8 parallel subagents in separate Git worktrees vs Codex CLI shared-context model; leader mode for multi-client sessions; source-transparent but no external contributions; competitive landscape with Codex CLI, Grok Build, Claude Code; 6 citations
+   - SEO targets: "grok build open source codex cli", "grok build vs codex cli architecture", "agent client protocol ACP codex", "grok build apache 2.0 tool porting", "terminal coding agent comparison 2026", "grok build rust agent harness codex cli"
+
+---
+
 ## Atlas Sunset 9 August — Browser-Agent Migration to Codex CLI, Playwright MCP, ChatGPT Desktop (2026-08-01 Hourly Article Run)
 
 1. ✅ **Atlas Sunsets on 9 August: Migrating Browser-Agent Workflows to Codex CLI, Playwright MCP, and the ChatGPT Desktop App** — Written 2026-08-01 → `2026-08-01-atlas-sunset-august-9-codex-cli-browser-agent-migration-chatgpt-desktop-playwright-mcp.md`
