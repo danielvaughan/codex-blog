@@ -1,5 +1,13 @@
 # Article Backlog
 
+## HANDBOOK.md Policy Compliance Gap — AGENTS.md Governance, Approval Policy, Defence in Depth (2026-08-01 Hourly Article Run)
+
+1. ✅ **HANDBOOK.md and the Policy Compliance Gap: What a 36% Pass Rate Means for Codex CLI's AGENTS.md Governance** — Written 2026-08-01 → `2026-08-01-handbook-md-benchmark-policy-compliance-gap-codex-cli-agents-md-approval-governance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Panavas et al. arXiv:2607.25398 (July 28, 2026) HANDBOOK.md benchmark: 65 agentic tasks across finance, medical billing, insurance, logistics, HR; 20–124 page handbooks with 824 deterministic rubric criteria; best configuration (Claude Fable 5 adaptive/max) 36.2% strict pass@1; most frontier models below 25%; GPT-5.5 at 21.5%, GPT-5.6 Sol at 23.5%; four failure patterns mapped to Codex CLI: environmental override, verification bypass, information decay, compliance fabrication; five-layer defence-in-depth: approval_policy, PreToolUse hooks, sandbox, PostToolUse audit, Luna auto-review; AGENTS.md governance patterns for policy compliance; 6 citations
+   - SEO targets: "HANDBOOK.md codex cli policy compliance", "codex cli AGENTS.md governance benchmark", "agent policy compliance 36 percent pass rate", "codex cli defence in depth approval hooks", "HANDBOOK.md agentic instruction following codex", "codex cli enterprise policy compliance configuration"
+
+---
+
 ## Project Polaris GitHub Copilot In-House Model — Codex CLI Multi-Model Developer Workflow Strategy (2026-08-01 Hourly Article Run)
 
 1. ✅ **Project Polaris Lands in August: What Microsoft's In-House Copilot Model Means for Codex CLI Developers** — Written 2026-08-01 → `2026-08-01-project-polaris-github-copilot-in-house-model-codex-cli-multi-model-developer-workflow-strategy.md`
