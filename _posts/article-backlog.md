@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Databricks Unity AI Gateway and Codex CLI — Agent Bricks, Managed MCP Servers, ucode CLI (2026-08-01 Hourly Article Run)
+
+1. ✅ **Databricks Unity AI Gateway and Codex CLI: Governed Enterprise Data Access via Agent Bricks, Managed MCP Servers, and the ucode CLI** — Written 2026-08-01 → `2026-08-01-databricks-unity-ai-gateway-agent-bricks-codex-cli-governed-enterprise-data-mcp-ucode.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — DAIS 2026 (16 June) announced Unity AI Gateway for coding agents with centralised governance; five managed MCP servers (Genie One, Genie Agent, AI Search, Databricks SQL, UC Functions) backed by Unity Catalog; ucode CLI handles OAuth and auto-writes config.toml for Codex CLI; Databricks as model provider with auth.command token refresh; per-user budgets across multiple coding agents; runtime guardrails and audit logging; Labs MCP server deprecated; 5 citations
+   - SEO targets: "codex cli databricks unity ai gateway", "databricks mcp server codex cli", "ucode codex cli configuration", "databricks agent bricks codex", "unity catalog mcp codex cli", "databricks coding agent governance"
+
+---
+
 ## GPT-5.4 Retirement August 31 — Codex CLI Migration to GPT-5.6 Terra and Luna (2026-08-01 Hourly Article Run)
 
 1. ✅ **GPT-5.4 Retires on 31 August: The Codex CLI Migration Checklist for GPT-5.6 Terra and Luna** — Written 2026-08-01 → `2026-08-01-gpt-54-retirement-august-31-codex-cli-migration-gpt56-terra-luna-configuration.md`
