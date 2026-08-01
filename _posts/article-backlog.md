@@ -1,5 +1,13 @@
 # Article Backlog
 
+## TUA-Bench General-Purpose Terminal Agent Benchmark — Beyond Coding, Office & Scientific Workflows (2026-08-01 Hourly Article Run)
+
+1. ✅ **TUA-Bench and the General-Purpose Terminal Agent: What 120 Non-Coding Tasks Reveal About Codex CLI's Next Frontier** — Written 2026-08-01 → `2026-08-01-tua-bench-general-purpose-terminal-agent-benchmark-codex-cli-beyond-coding-office-scientific-workflows.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. arXiv:2606.28480 (June 26, 2026) TUA-Bench: 120 real-world tasks across five families (Office & Productivity, Web & Information, System & Software Ops, Scientific & Engineering, Multimedia & Design); PhD-level expert validation; execution-based scoring; Claude Code + Opus 4.8 at 65.8%, Codex CLI + GPT-5.5 at 64.7%; harness effect persists beyond coding (3.7pp swing from scaffold); reasoning effort diminishing returns (2.3pp for 2x cost); Office & Productivity hardest family; config.toml patterns for general-purpose terminal work; named profiles for task-family routing; MCP server gap analysis; 7 citations
+   - SEO targets: "TUA-Bench codex cli general purpose terminal agent", "codex cli non-coding tasks benchmark", "terminal agent beyond coding office productivity", "codex cli general purpose configuration", "TUA-Bench terminal use agents benchmark 2026", "codex cli scientific workflow configuration"
+
+---
+
 ## HANDBOOK.md Policy Compliance Gap — AGENTS.md Governance, Approval Policy, Defence in Depth (2026-08-01 Hourly Article Run)
 
 1. ✅ **HANDBOOK.md and the Policy Compliance Gap: What a 36% Pass Rate Means for Codex CLI's AGENTS.md Governance** — Written 2026-08-01 → `2026-08-01-handbook-md-benchmark-policy-compliance-gap-codex-cli-agents-md-approval-governance.md`
