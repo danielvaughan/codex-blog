@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CORE-Bench Code Retrieval Gap — grep vs Embedding Search, Retrieval Funnel, MCP Layers (2026-08-01 Hourly Article Run)
+
+1. ✅ **CORE-Bench and the Code Retrieval Gap: Why Your Agent's grep Habit Isn't Enough — and How to Build a Retrieval Funnel in Codex CLI** — Written 2026-08-01 → `2026-08-01-core-bench-code-retrieval-agentic-coding-codex-cli-grep-embedding-search-retrieval-funnel.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhang et al. arXiv:2606.11864v2 (July 2026) CORE-Bench: three-level code retrieval benchmark (172K queries L1, 5,061 queries L2, 2,580 queries L3 with 106K relevance labels); 67–72% NDCG drop from snippet matching to issue-to-edit localisation; code-specific embedding models do not close gap; SFT on 53,301 PRs yields +56–62% improvement; cross-level correlation weak; query rewriting counterproductive; mapped to Codex CLI grep-first architecture, four-layer retrieval funnel (grep → ast-grep → LSP → CodeRAG), MCP server configuration for each layer, AGENTS.md search strategy specification, WarpGrep RL-trained search MCP; 7 citations
+   - SEO targets: "CORE-Bench codex cli code retrieval", "codex cli grep vs embedding search", "code retrieval agentic coding benchmark", "codex cli retrieval funnel MCP", "coding agent code search architecture", "codex cli ast-grep LSP semantic search"
+
+---
+
 ## PRO-LONG Programmatic Memory — Lossless Session Logs, Compaction Tradeoff, Long-Horizon Tasks (2026-08-01 Hourly Article Run)
 
 1. ✅ **PRO-LONG and the Lossless Memory Thesis: What Programmatic Session Logs Mean for Codex CLI's Compaction Tradeoff** — Written 2026-08-01 → `2026-08-01-pro-long-programmatic-memory-lossless-session-logs-codex-cli-compaction-tradeoff-long-horizon-tasks.md`
