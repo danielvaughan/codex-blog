@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ACM Agentic Context Management — Lossless External Memory, Agent-Directed Compaction, Long-Horizon Tasks (2026-08-02 Hourly Article Run)
+
+1. ✅ **ACM and the Agentic Context Management Thesis: Why Your Agent Should Decide When to Compress — and How to Build Lossless External Memory for Codex CLI** — Written 2026-08-02 → `2026-08-02-acm-agentic-context-management-long-horizon-tasks-codex-cli-compaction-external-memory-retrieval.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. arXiv:2607.23809 (July 26, 2026) ACM: Agentic Context Management for Long Horizon Tasks; Meta/CMU; equips agents with manage_context and query_memory tools for autonomous compression; lossless external memory store; 27% relative improvement on BrowseComp-Plus, 16% on DeepSearchQA, 8% on SWE-Bench Verified; 20% peak token reduction; post-training pipeline with teacher demonstrations; complements Dadhich arXiv:2607.21503 five-primitive lifecycle framework; mapped to Codex CLI model_auto_compact_token_limit, MCP-based memory server, AGENTS.md context governance, PostToolUse indexing hooks, session JSONL as retrieval store; 7 citations
+   - SEO targets: "ACM agentic context management codex cli", "codex cli lossless compaction external memory", "agent-directed context compression long horizon", "codex cli MCP memory server pattern", "agentic context management coding agent", "codex cli model_auto_compact_token_limit ACM"
+
+---
+
 ## TUA-Bench General-Purpose Terminal Agent Benchmark — Beyond Coding, Office & Scientific Workflows (2026-08-01 Hourly Article Run)
 
 1. ✅ **TUA-Bench and the General-Purpose Terminal Agent: What 120 Non-Coding Tasks Reveal About Codex CLI's Next Frontier** — Written 2026-08-01 → `2026-08-01-tua-bench-general-purpose-terminal-agent-benchmark-codex-cli-beyond-coding-office-scientific-workflows.md`
