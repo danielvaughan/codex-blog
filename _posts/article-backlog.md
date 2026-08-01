@@ -1,5 +1,13 @@
 # Article Backlog
 
+## EU AI Act Enforcement Day — Article 50 Transparency, Digital Omnibus Deferral, Codex CLI Developer Compliance (2026-08-01 Hourly Article Run)
+
+1. ✅ **EU AI Act Enforcement Day: What Article 50 Transparency Actually Requires from Codex CLI Developers After the Digital Omnibus** — Written 2026-08-01 → `2026-08-01-eu-ai-act-enforcement-day-codex-cli-article-50-transparency-digital-omnibus-developer-compliance.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — EU AI Act Article 50 transparency obligations enforceable 2 August 2026; Digital Omnibus deferred high-risk Articles 9-17 to December 2027/August 2028; Article 50(2) watermarking deferred to December 2026 for pre-August systems; source code explicitly exempt from Article 50(2); standalone docs, README, PR descriptions in scope; five-question classification test; PostToolUse hooks for Article 12 audit logging; managed configuration for enterprise compliance; penalties up to €35M/7% turnover; 6 citations
+   - SEO targets: "EU AI Act codex cli developer compliance", "article 50 transparency codex cli", "EU AI Act source code exempt", "codex cli audit logging EU AI Act", "digital omnibus AI act deferral codex", "EU AI Act enforcement August 2026 coding agents"
+
+---
+
 ## Grok Build Open Source Apache 2.0 — Architecture, ACP, Tool Porting, Terminal Agent Wars (2026-08-01 Hourly Article Run)
 
 1. ✅ **Grok Build Goes Open Source: What xAI's 840,000-Line Rust Release Means for Codex CLI Developers** — Written 2026-08-01 → `2026-08-01-grok-build-open-source-apache-2-codex-cli-architecture-acp-tool-porting-terminal-agent-wars.md`
