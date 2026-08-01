@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PRO-LONG Programmatic Memory — Lossless Session Logs, Compaction Tradeoff, Long-Horizon Tasks (2026-08-01 Hourly Article Run)
+
+1. ✅ **PRO-LONG and the Lossless Memory Thesis: What Programmatic Session Logs Mean for Codex CLI's Compaction Tradeoff** — Written 2026-08-01 → `2026-08-01-pro-long-programmatic-memory-lossless-session-logs-codex-cli-compaction-tradeoff-long-horizon-tasks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Fox et al. arXiv:2607.20064 (July 2026) PRO-LONG: minimal context-management framework with lossless structured logs.txt; agent searches with grep/Python; 18pp improvement over no-log baseline on ARC-AGI-3; 4.2–5.8× fewer tokens than specialised harnesses; 97.4% best@2 with Fable 5 at $1,750; beats WorldModeler (600-line prompt, 2 subagents), Schema (12 MCP tools), Arcgentica (4 specialised agents); ablation: read-only 23.1%, +grep 27.2%, +Python 38.3%, +write 41.2%; mapped to Codex CLI session JSONL persistence, model_auto_compact_token_limit, subagent decomposition, AGENTS.md decision logging, codex resume paginated history, filesystem-as-memory pattern; 6 citations
+   - SEO targets: "PRO-LONG codex cli programmatic memory", "codex cli compaction tradeoff lossless", "codex cli session log search grep", "long horizon coding agent memory management", "codex cli AGENTS.md decision log", "programmatic memory vs context compaction"
+
+---
+
 ## PERFOPT-Bench Performance Optimisation Gap — Verified Speedup, Shortcut Exploitation, Relay Pilot, Codex CLI Profiling Workflows (2026-08-01 Hourly Article Run)
 
 1. ✅ **PERFOPT-Bench and the Performance Optimisation Gap: Why Your Coding Agent's Speedups Might Be Illusory — and How to Build Verified Optimisation Workflows with Codex CLI** — Written 2026-08-01 → `2026-08-01-perfopt-bench-performance-optimisation-coding-agents-codex-cli-profiling-speedup-verification.md`
