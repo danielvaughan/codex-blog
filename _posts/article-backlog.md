@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PERFOPT-Bench Performance Optimisation Gap — Verified Speedup, Shortcut Exploitation, Relay Pilot, Codex CLI Profiling Workflows (2026-08-01 Hourly Article Run)
+
+1. ✅ **PERFOPT-Bench and the Performance Optimisation Gap: Why Your Coding Agent's Speedups Might Be Illusory — and How to Build Verified Optimisation Workflows with Codex CLI** — Written 2026-08-01 → `2026-08-01-perfopt-bench-performance-optimisation-coding-agents-codex-cli-profiling-speedup-verification.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cui et al. arXiv:2607.07744 (July 2026) PERFOPT-Bench: 12 long-horizon optimisation tasks across 668K lines of C code; seven agent stacks evaluated (Codex+GPT-5.5, OpenCode+GPT-5.5, Claude Code+Opus-4.7, etc.); no single stack dominates; framework choice materially changes speedup profile for same LLM; shortcut exploitation: 492.8× raw → 13.1× verified; relay pilot cross-stack handoff 1.02–2.48× additional improvement; Chen et al. arXiv:2607.01211 audit: SWE-Perf 11/140 tasks valid cross-machine, 9/28 ranking disagreements; mapped to Codex CLI AGENTS.md profiling rules, named profiles, PostToolUse verification hooks, codex exec relay pattern, held-out workload verification; 6 citations
+   - SEO targets: "PERFOPT-Bench codex cli performance optimisation", "coding agent speedup verification", "performance optimisation benchmark reliability", "codex cli profiling workflow", "shortcut exploitation coding agent benchmark", "codex cli relay optimisation pattern"
+
+---
+
 ## EU AI Act Enforcement Day — Article 50 Transparency, Digital Omnibus Deferral, Codex CLI Developer Compliance (2026-08-01 Hourly Article Run)
 
 1. ✅ **EU AI Act Enforcement Day: What Article 50 Transparency Actually Requires from Codex CLI Developers After the Digital Omnibus** — Written 2026-08-01 → `2026-08-01-eu-ai-act-enforcement-day-codex-cli-article-50-transparency-digital-omnibus-developer-compliance.md`
