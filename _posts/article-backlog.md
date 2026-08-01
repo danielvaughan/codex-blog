@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.146 Multi-Folder Projects, Primary Folder Discovery, Voice-Driven Agent Orchestration (2026-08-01 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.146: Multi-Folder Projects, Primary Folder Discovery, and Voice-Driven Agent Orchestration** — Written 2026-08-01 → `2026-08-01-codex-cli-v0146-multi-folder-projects-primary-folder-cross-repo-voice-websocket.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.146.0 released 29 July 2026; multi-folder project support with primary/secondary folder model; AGENTS.md, config.toml, skills discovery from primary folder only; secondary folders readable/writable but not config-authoritative; ChatGPT Voice powered by GPT-Live with dual-model delegation (GPT-Live + GPT-5.6 Terra); WebSocket transport for remote Code Mode hosts; standalone web search for custom model providers; Agent Plugins manifests for Bedrock and Claude Code marketplaces; 7 citations
+   - SEO targets: "codex cli multi-folder projects", "codex v0.146 multi-folder", "codex cli primary folder configuration", "codex cli cross-repo development", "chatgpt voice codex desktop", "codex cli websocket remote code mode"
+
+---
+
 ## Databricks Unity AI Gateway and Codex CLI — Agent Bricks, Managed MCP Servers, ucode CLI (2026-08-01 Hourly Article Run)
 
 1. ✅ **Databricks Unity AI Gateway and Codex CLI: Governed Enterprise Data Access via Agent Bricks, Managed MCP Servers, and the ucode CLI** — Written 2026-08-01 → `2026-08-01-databricks-unity-ai-gateway-agent-bricks-codex-cli-governed-enterprise-data-mcp-ucode.md`
