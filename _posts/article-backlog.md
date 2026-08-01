@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Atlas Sunset 9 August — Browser-Agent Migration to Codex CLI, Playwright MCP, ChatGPT Desktop (2026-08-01 Hourly Article Run)
+
+1. ✅ **Atlas Sunsets on 9 August: Migrating Browser-Agent Workflows to Codex CLI, Playwright MCP, and the ChatGPT Desktop App** — Written 2026-08-01 → `2026-08-01-atlas-sunset-august-9-codex-cli-browser-agent-migration-chatgpt-desktop-playwright-mcp.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI announced Atlas browser shutdown on 9 August 2026, nine months after October 2025 launch; browser-agent capabilities consolidating into ChatGPT Desktop App (built-in browser, Computer Use, multi-tab), ChatGPT Work (cloud-hosted agent tasks), and Codex CLI + Playwright MCP (developer localhost preview, accessibility snapshots, form interaction); migration decision matrix for seven workflow categories; AGENTS.md patterns for browser-agent workflows; sandbox network_proxy_allowed_domains configuration for localhost access; data export checklist; architectural lesson on stable vs volatile integration surfaces; 6 citations
+   - SEO targets: "atlas sunset codex cli migration", "codex cli playwright mcp browser automation", "atlas browser shutdown august 2026", "codex cli browser agent workflow", "chatgpt desktop browser replacement atlas", "playwright mcp localhost codex cli"
+
+---
+
 ## Codex CLI v0.146 Multi-Folder Projects, Primary Folder Discovery, Voice-Driven Agent Orchestration (2026-08-01 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.146: Multi-Folder Projects, Primary Folder Discovery, and Voice-Driven Agent Orchestration** — Written 2026-08-01 → `2026-08-01-codex-cli-v0146-multi-folder-projects-primary-folder-cross-repo-voice-websocket.md`

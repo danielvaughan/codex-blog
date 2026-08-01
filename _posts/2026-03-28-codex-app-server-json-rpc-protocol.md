@@ -2,7 +2,7 @@
 title: "The Codex App-Server: Building Custom Integrations with the JSON-RPC Protocol"
 description: "Every surface where Codex runs — the web app, the macOS desktop app, the VS Code extension, the CLI itself — is powered by the same underlying harness."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-08-01T04:08:58+01:00
+last_modified_at: 2026-08-01T06:09:24+01:00
 tags:
   - architecture
   - app-server
