@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Project Polaris GitHub Copilot In-House Model — Codex CLI Multi-Model Developer Workflow Strategy (2026-08-01 Hourly Article Run)
+
+1. ✅ **Project Polaris Lands in August: What Microsoft's In-House Copilot Model Means for Codex CLI Developers** — Written 2026-08-01 → `2026-08-01-project-polaris-github-copilot-in-house-model-codex-cli-multi-model-developer-workflow-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Microsoft Project Polaris MoE coding model replaces GPT-4 Turbo as default GitHub Copilot engine August 2026; automatic migration with three-month fallback to November; Maia 200 3nm accelerators 30% better perf/dollar; unaudited HumanEval/MBPP gains especially Rust/Haskell; multi-agent VS Code public preview parallel subagents isolated context; Copilot Workspace GA; complementary not competing with Codex CLI terminal layer; config.toml multi-model stack with Terra/Luna/Opus 5 profiles; Copilot API proxy experimental path; four-vendor model strategy landscape; 7 citations
+   - SEO targets: "project polaris codex cli developer workflow", "github copilot polaris august 2026 migration", "copilot vs codex cli multi-model strategy", "project polaris mixture of experts coding model", "codex cli config multi-model copilot polaris", "github copilot maia accelerator polaris performance"
+
+---
+
 ## CORE-Bench Code Retrieval Gap — grep vs Embedding Search, Retrieval Funnel, MCP Layers (2026-08-01 Hourly Article Run)
 
 1. ✅ **CORE-Bench and the Code Retrieval Gap: Why Your Agent's grep Habit Isn't Enough — and How to Build a Retrieval Funnel in Codex CLI** — Written 2026-08-01 → `2026-08-01-core-bench-code-retrieval-agentic-coding-codex-cli-grep-embedding-search-retrieval-funnel.md`
