@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DeepSeek V4-Flash-0731 — Native Codex Support, MIT Open Weights, Agent Economics (2026-08-02 Hourly Article Run)
+
+1. ✅ **DeepSeek V4-Flash-0731: Native Codex Support, Open Weights, and the Agent Economics Question** — Written 2026-08-02 → `2026-08-02-deepseek-v4-flash-0731-native-codex-support-mit-open-weight-agent-economics-configuration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — DeepSeek released V4-Flash-0731 on 31 July 2026; 284B MoE (13B active) retrained checkpoint with native Responses API support for Codex CLI; MIT-licensed weights on Hugging Face; beats V4-Pro-Preview on 9 agent benchmarks; Terminal-Bench 2.1: 82.7 (vs 56.9 preview); DeepSWE: 54.4 (vs 7.3); pricing: $0.14/M input, $0.28/M output; config.toml with wire_api = "responses"; named profiles for model routing; agent economics: cost per accepted task vs cost per token; reproducibility caveats (proprietary harness); self-hosting path; multi-provider strategy; 7 citations
+   - SEO targets: "deepseek v4-flash codex cli configuration", "deepseek v4 flash 0731 codex support", "codex cli custom provider deepseek config.toml", "deepseek open weight coding agent economics", "codex cli multi-provider model routing deepseek", "deepseek v4-flash vs gpt-5.6 terra coding agent"
+
+---
+
 ## Codex Security CLI Open Source — Apache 2.0, Scanning Harness, CI Gating, Pre-Commit Workflow (2026-08-02 Hourly Article Run)
 
 1. ✅ **Codex Security CLI Goes Open Source: A Practitioner's Guide to the Scanning Harness, CI Gating, and Pre-Commit Workflow** — Written 2026-08-02 → `2026-08-02-codex-security-cli-open-source-apache-vulnerability-scanning-ci-cd-pre-commit-workflow.md`
