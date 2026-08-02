@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Code Modernisation with Codex CLI — ExecPlan Pattern, Parity Testing, Locksmith Loop, Legacy Migration (2026-08-02 Hourly Article Run)
+
+1. ✅ **Code Modernisation with Codex CLI: The ExecPlan Pattern for Legacy Codebase Migration** — Written 2026-08-02 → `2026-08-02-code-modernisation-codex-cli-legacy-codebase-execplan-parity-testing-cobol-migration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI official cookbook documents five-phase ExecPlan methodology for legacy codebase modernisation; COBOL-to-Java as running example; 79% of modernisation projects fail; AI-generated code covers 70-80% of conversion; 55% developer productivity gain; Locksmith Loop (Ferenczi et al. arXiv:2607.28271, July 2026) achieves 91.90% branch coverage for deterministic COBOL-to-Java validation off-mainframe; mapped to Codex CLI config.toml named profiles for phase switching, AGENTS.md modernisation rules, approval_policy governance, GPT-5.6 Terra/Sol/Luna model routing per phase; 6 citations
+   - SEO targets: "codex cli code modernisation legacy", "codex cli ExecPlan pattern", "codex cli COBOL migration parity testing", "legacy codebase modernisation coding agent", "codex cli enterprise code modernisation", "locksmith loop COBOL Java validation"
+
+---
+
 ## Sign in with ChatGPT — Identity Platform, OAuth, Plugin-Authenticated MCP, Codex CLI Developer Strategy (2026-08-02 Hourly Article Run)
 
 1. ✅ **Sign in with ChatGPT: What OpenAI's Identity Platform Play Means for Codex CLI Developers** — Written 2026-08-02 → `2026-08-02-sign-in-with-chatgpt-identity-platform-codex-cli-oauth-developer-authentication-strategy.md`
