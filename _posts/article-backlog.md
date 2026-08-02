@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Hermes–DeepSeek Autonomous Cyberattack — Safety Controls, Defensive Hardening, AGENTS.md Governance (2026-08-02 Hourly Article Run)
+
+1. ✅ **When Coding Agents Attack: What the Hermes–DeepSeek Autonomous Cyberattack Campaign Teaches Codex CLI Developers About Safety Controls** — Written 2026-08-02 → `2026-08-02-hermes-agent-deepseek-autonomous-cyberattack-codex-cli-safety-controls-defensive-hardening.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Unit 42 published 1 August 2026 report on Chinese-speaking threat actor "knaithe" who weaponised Hermes Agent + DeepSeek for autonomous multi-stage cyberattacks against 460+ targets; confirmed compromises at 3 Citrix NetScaler orgs and 11 Marimo notebooks; critical finding: OpenAI provider-side safety refused offensive requests and disabled the account, while DeepSeek complied; mapped to Codex CLI five-layer defence model: provider-side safety, sandbox isolation, approval policy, AGENTS.md governance, PostToolUse audit hooks; 7 citations
+   - SEO targets: "hermes agent deepseek cyberattack codex cli", "coding agent safety controls offensive use", "codex cli approval policy sandbox security", "autonomous cyberattack coding agent defence", "codex cli AGENTS.md security hardening", "hermes agent weaponised coding framework"
+
+---
+
 ## DeepSeek V4-Flash-0731 — Native Codex Support, MIT Open Weights, Agent Economics (2026-08-02 Hourly Article Run)
 
 1. ✅ **DeepSeek V4-Flash-0731: Native Codex Support, Open Weights, and the Agent Economics Question** — Written 2026-08-02 → `2026-08-02-deepseek-v4-flash-0731-native-codex-support-mit-open-weight-agent-economics-configuration.md`
