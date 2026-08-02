@@ -2,7 +2,7 @@
 title: "Ticket-Driven Development with Codex CLI: Automating the Jira-to-Pull-Request Pipeline"
 description: "The Atlassian Rovo MCP Server reached general availability in February 2026, exposing over 60 tools spanning Jira, Confluence, Bitbucket Cloud, Compass."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-08-02T00:09:25+01:00
+last_modified_at: 2026-08-02T02:12:23+01:00
 parent: "Articles"
 nav_order: 1480
 type: Technical Article

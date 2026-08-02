@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Pacing the Frontier — RSI Governance, Model Pinning, Vendor Risk for Codex CLI Developers (2026-08-02 Hourly Article Run)
+
+1. ✅ **Pacing the Frontier: What the RSI Letter Means for Codex CLI Developers** — Written 2026-08-02 → `2026-08-02-pacing-the-frontier-recursive-self-improvement-codex-cli-developer-governance-model-pinning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — 1,178 frontier lab employees signed "Pacing the Frontier" letter 28 July 2026 requesting US government support for international AI development pacing tools; OpenAI and Anthropic endorsed as companies; GPT-5.6 Sol demonstrated RSI by autonomously rewriting GPU kernels via Codex (20% cost reduction), redesigning speculative decoding (15% efficiency), and post-training Luna from underspecified prompt (80% price cut); Anthropic June 2026 RSI research: 80% AI-generated code, 8× engineer productivity, task autonomy doubling every 4 months; mapped to Codex CLI model-version pinning, cross-provider profiles, AGENTS.md ML pipeline safety rules, audit-logging hooks, capability-degradation continuity planning; vendor risk reframing: multi-sourcing fails against industry-wide coordination; 11 citations
+   - SEO targets: "pacing the frontier codex cli developers", "recursive self-improvement codex cli governance", "codex cli model version pinning vendor risk", "GPT-5.6 Sol RSI GPU kernel rewrite codex", "AI development pacing coding agents", "codex cli capability degradation continuity plan"
+
+---
+
 ## ACM Agentic Context Management — Lossless External Memory, Agent-Directed Compaction, Long-Horizon Tasks (2026-08-02 Hourly Article Run)
 
 1. ✅ **ACM and the Agentic Context Management Thesis: Why Your Agent Should Decide When to Compress — and How to Build Lossless External Memory for Codex CLI** — Written 2026-08-02 → `2026-08-02-acm-agentic-context-management-long-horizon-tasks-codex-cli-compaction-external-memory-retrieval.md`
