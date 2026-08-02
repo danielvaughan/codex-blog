@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Security CLI Open Source — Apache 2.0, Scanning Harness, CI Gating, Pre-Commit Workflow (2026-08-02 Hourly Article Run)
+
+1. ✅ **Codex Security CLI Goes Open Source: A Practitioner's Guide to the Scanning Harness, CI Gating, and Pre-Commit Workflow** — Written 2026-08-02 → `2026-08-02-codex-security-cli-open-source-apache-vulnerability-scanning-ci-cd-pre-commit-workflow.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI open-sourced @openai/codex-security npm package under Apache 2.0 on 29 July 2026; 2.1k GitHub stars; CLI provides scan (full repo, path, diff, working-tree), validate, patch, findings management, bulk-scan, SARIF export; harness architecture: dedup across runs, false-positive tracking, budget controls via --max-cost, severity gating via --fail-on-severity, SQLite workbench for historical scan tracking; CI/CD integration with GitHub Actions and SARIF upload; pre-commit hook via install-hook; --knowledge-base for threat model grounding; community cost concerns ($13 failed scans, no resume); 4 citations
+   - SEO targets: "codex security cli open source", "codex security CI/CD integration", "codex security pre-commit hook", "codex security SARIF export", "codex security scanning harness", "openai codex security apache 2.0"
+
+---
+
 ## Code Modernisation with Codex CLI — ExecPlan Pattern, Parity Testing, Locksmith Loop, Legacy Migration (2026-08-02 Hourly Article Run)
 
 1. ✅ **Code Modernisation with Codex CLI: The ExecPlan Pattern for Legacy Codebase Migration** — Written 2026-08-02 → `2026-08-02-code-modernisation-codex-cli-legacy-codebase-execplan-parity-testing-cobol-migration.md`
