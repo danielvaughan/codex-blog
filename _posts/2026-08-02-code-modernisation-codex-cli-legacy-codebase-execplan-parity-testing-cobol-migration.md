@@ -138,7 +138,7 @@ Ferenczi et al. (July 2026) introduced the *Locksmith Loop*, an agentic method f
 
 1. Instruments both COBOL source and generated Java with mocks.
 2. Uses *Witness Search* to discover input combinations that exercise different program branches.
-3. Applies mutations while preserving programme behaviour.
+3. Applies mutations while preserving program behaviour.
 4. Identifies *Locked Paragraphs* — conditions blocking deeper exploration.
 
 The results are significant: 91.90% branch coverage on a production-like COBOL application, with generated Java matching the COBOL reference under deterministic parity checks in all accepted test cases [^3].
@@ -246,5 +246,3 @@ This is where the 30% reduction in unnecessary code rewriting effort compounds [
 [^4]: "GPT-5.6 Price Restructuring," OpenAI, July 2026. GPT-5.6 Luna at $0.20/$1.20 per million tokens, Terra at $2/$12, Sol at $5/$30. [https://openai.com/index/previewing-gpt-5-6-sol/](https://openai.com/index/previewing-gpt-5-6-sol/)
 
 [^5]: "Custom instructions with AGENTS.md," OpenAI Codex Documentation, 2026. [https://developers.openai.com/codex/guides/agents-md](https://developers.openai.com/codex/guides/agents-md)
-
-[^6]: "Codex CLI Code Modernisation Cookbook," OpenAI GitHub, 2026. [https://github.com/openai/openai-cookbook/blob/main/examples/codex/code_modernization.md](https://github.com/openai/openai-cookbook/blob/main/examples/codex/code_modernization.md)

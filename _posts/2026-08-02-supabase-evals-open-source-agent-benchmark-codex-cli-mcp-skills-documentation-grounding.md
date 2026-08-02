@@ -10,7 +10,7 @@ tags: ["supabase", "evals", "benchmark", "mcp", "skills", "documentation-groundi
 
 ---
 
-On 1 August 2026 Supabase open-sourced **supabase/evals**, an Apache-2.0 benchmark framework that scores how well coding agents — Claude Code, Codex CLI, and OpenCode — perform on real Supabase tasks [^1]. Unlike synthetic benchmarks such as SWE-Bench or Terminal-Bench, Supabase Evals boots a full hosted-like Supabase stack inside containers, hands the agent a live MCP server and CLI project, and grades the result with a hybrid of deterministic checks and LLM-as-judge [^2].
+On 1 August 2026 Supabase open-sourced **supabase/evals**, an Apache-2.0 benchmark framework that scores how well coding agents — Claude Code, Codex CLI, and OpenCode — perform on real Supabase tasks [^1][^6]. Unlike synthetic benchmarks such as SWE-Bench or Terminal-Bench, Supabase Evals boots a full hosted-like Supabase stack inside containers, hands the agent a live MCP server and CLI project, and grades the result with a hybrid of deterministic checks and LLM-as-judge [^2].
 
 The headline numbers matter less than the structural finding beneath them: **agents that have access to documentation tools routinely ignore them**, and raw model capability is not the binding constraint — contextual awareness is.
 
