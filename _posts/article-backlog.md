@@ -1,5 +1,13 @@
 # Article Backlog
 
+## OpenAI Astra Multi-Agent Model — Long-Horizon Coding, Formal Verification, Developer Implications (2026-08-02 Hourly Article Run)
+
+1. ✅ **OpenAI Astra and the Multi-Agent Horizon: What a Model That Works for Days Means for Codex CLI Developers** — Written 2026-08-02 → `2026-08-02-openai-astra-multi-agent-model-long-horizon-codex-cli-formal-verification-lean4-developer-implications.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI revealed Astra on 1 August 2026; next major model family designed for multi-agent coordination over hours/days; solved ten decade-old mathematical problems at ~$2,000 compute cost; Lean 4 machine-checkable proofs in openai/ten-proofs Apache 2.0 repository; Sam Altman previewed to US senators 29-30 July; first model requiring CFT framework safety review; mapped to Codex CLI multi-agent v2 config.toml profiles, AGENTS.md delegation governance, long-horizon context management, formal verification workflows, budget controls; 7 citations
+   - SEO targets: "openai astra codex cli multi-agent", "astra model long horizon coding agent", "codex cli formal verification lean4", "openai astra multi-agent architecture developer", "codex cli long horizon governance configuration", "astra GPT-6 codex cli developer preparation"
+
+---
+
 ## Developer Liability for Autonomous Agent Actions — CFAA, AB 316, Audit Trail Defence Configuration (2026-08-02 Hourly Article Run)
 
 1. ✅ **Developer Liability for Autonomous Agent Actions: What the Hugging Face Breach, CFAA, and AB 316 Mean for Your Codex CLI Configuration** — Written 2026-08-02 → `2026-08-02-developer-liability-autonomous-agent-actions-codex-cli-cfaa-ab316-audit-trail-defence-configuration.md`
