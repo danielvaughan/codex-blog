@@ -1,7 +1,7 @@
 ---
 title: "PRO-LONG and the Lossless Memory Thesis: What Programmatic Session Logs Mean for Codex CLI's Compaction Tradeoff"
 parent: "Articles"
-nav_order: 1731
+nav_order: 1732
 tags: ["codex-cli", "PRO-LONG", "context-management", "compaction", "session-persistence", "long-horizon", "programmatic-memory", "ARC-AGI-3"]
 ---
 

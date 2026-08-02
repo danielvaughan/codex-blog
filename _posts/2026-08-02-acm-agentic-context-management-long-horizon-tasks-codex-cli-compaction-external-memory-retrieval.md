@@ -1,7 +1,7 @@
 ---
 title: "ACM and the Agentic Context Management Thesis: Why Your Agent Should Decide When to Compress — and How to Build Lossless External Memory for Codex CLI"
 parent: "Articles"
-nav_order: 1643
+nav_order: 1740
 tags: ["context-management", "compaction", "external-memory", "long-horizon", "ACM", "config.toml", "MCP", "session-management"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "TUA-Bench and the General-Purpose Terminal Agent: What 120 Non-Coding Tasks Reveal About Codex CLI's Next Frontier"
 parent: "Articles"
-nav_order: 1735
+nav_order: 1736
 tags: ["codex-cli", "tua-bench", "benchmark", "terminal-agent", "general-purpose", "office-productivity", "scientific-workflows", "non-coding", "harness-engineering"]
 ---
 

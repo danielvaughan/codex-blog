@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.146: Multi-Folder Projects, Primary Folder Discovery, and Voice-Driven Agent Orchestration"
 parent: "Articles"
-nav_order: 1727
+nav_order: 1728
 tags: ["codex-cli", "multi-folder", "v0.146", "primary-folder", "voice", "websocket", "cross-repo", "monorepo", "polyrepo"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Grok Build Goes Open Source: What xAI's 840,000-Line Rust Release Means for Codex CLI Developers"
 parent: "Articles"
-nav_order: 1726
+nav_order: 1727
 tags: ["grok-build", "open-source", "architecture", "ACP", "terminal-agents", "competitive-landscape", "codex-cli"]
 ---
 
