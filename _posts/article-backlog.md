@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Sign in with ChatGPT — Identity Platform, OAuth, Plugin-Authenticated MCP, Codex CLI Developer Strategy (2026-08-02 Hourly Article Run)
+
+1. ✅ **Sign in with ChatGPT: What OpenAI's Identity Platform Play Means for Codex CLI Developers** — Written 2026-08-02 → `2026-08-02-sign-in-with-chatgpt-identity-platform-codex-cli-oauth-developer-authentication-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI launched Sign in with ChatGPT beta 29 July 2026 across Airtable, GitLab, HubSpot, Notion, Supabase, Vercel; OAuth 2.0 flow sharing name/email/photo only; bidirectional plugin authentication enabling ChatGPT agent execution within partner services; ChatGPT-hosted MCP servers now use session authentication; identity platform positioning against Google/Apple/Microsoft SSO; 600M+ MAU identity substrate; Codex CLI auth routing implications (ChatGPT OAuth vs API key); plugin-authenticated MCP pattern; hybrid authentication profiles; AGENTS.md plugin connection documentation; 7 citations
+   - SEO targets: "sign in with chatgpt codex cli", "openai identity platform developer", "codex cli chatgpt oauth authentication", "sign in with chatgpt plugin mcp", "codex cli sign in with chatgpt configuration", "openai sso identity provider developer tools"
+
+---
+
 ## Supabase Evals — Documentation Grounding Problem, Product-Specific Agent Benchmark, MCP Skills (2026-08-02 Hourly Article Run)
 
 1. ✅ **Supabase Evals and the Documentation Grounding Problem: What a Product-Specific Agent Benchmark Reveals About Codex CLI Skill Design** — Written 2026-08-02 → `2026-08-02-supabase-evals-open-source-agent-benchmark-codex-cli-mcp-skills-documentation-grounding.md`
