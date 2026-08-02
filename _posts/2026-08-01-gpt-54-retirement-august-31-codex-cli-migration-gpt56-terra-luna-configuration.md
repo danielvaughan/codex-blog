@@ -40,7 +40,7 @@ Terra is not a compromise. On the benchmarks that correlate with real-world codi
 | BrowseComp | 82.7% | 87.5% | +4.8pp |
 | Graphwalks BFS >128k | 21.4% | 76.9% | +55.5pp |
 
-The long-context performance gap (Graphwalks BFS >128k) is particularly relevant for Codex CLI sessions that accumulate substantial tool-call history before compaction triggers. Terra also expands the context window from 1.0M to 1.1M tokens [^2].
+The long-context performance gap (Graphwalks BFS >128k) is particularly relevant for Codex CLI sessions that accumulate substantial tool-call history before compaction triggers. Terra also expands the context window from 1.0M to 1.05M tokens [^2].
 
 GPT-5.4 edges ahead only on MMMU-Pro (81.2% vs 80.7%) and Toolathlon (specific scores vary by configuration) [^2] — neither of which is a primary concern for terminal-based coding workflows.
 
