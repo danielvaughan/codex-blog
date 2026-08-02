@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Supabase Evals — Documentation Grounding Problem, Product-Specific Agent Benchmark, MCP Skills (2026-08-02 Hourly Article Run)
+
+1. ✅ **Supabase Evals and the Documentation Grounding Problem: What a Product-Specific Agent Benchmark Reveals About Codex CLI Skill Design** — Written 2026-08-02 → `2026-08-02-supabase-evals-open-source-agent-benchmark-codex-cli-mcp-skills-documentation-grounding.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Supabase open-sourced supabase/evals (Apache-2.0) on 1 August 2026; benchmarks Claude Code, Codex CLI, OpenCode on real Supabase tasks in containerised hosted-like stack with live MCP server; three-dimensional scenario design (products × topics × stages); hybrid scoring (deterministic + LLM-as-judge); key finding: MCP alone insufficient — Claude Opus scored 58% baseline, dropped to 50% with MCP-only, rose to 67% with skills; documentation grounding problem: agents ignore search_docs tool despite availability; skill description rewording improved activation from 10% to 60%; Opus 5 and Kimi K3 scored 100% unaided on Build stage; mapped to Codex CLI Supabase MCP config, AGENTS.md procedural instructions, three-layer documentation grounding stack, plugin install workflow; 6 citations
+   - SEO targets: "supabase evals codex cli agent benchmark", "documentation grounding problem coding agent", "codex cli supabase MCP skills configuration", "supabase agent benchmark open source", "agent skills vs MCP documentation grounding", "codex cli product-specific agent benchmark"
+
+---
+
 ## Pacing the Frontier — RSI Governance, Model Pinning, Vendor Risk for Codex CLI Developers (2026-08-02 Hourly Article Run)
 
 1. ✅ **Pacing the Frontier: What the RSI Letter Means for Codex CLI Developers** — Written 2026-08-02 → `2026-08-02-pacing-the-frontier-recursive-self-improvement-codex-cli-developer-governance-model-pinning.md`
