@@ -1,5 +1,13 @@
 # Article Backlog
 
+## July 2026 Coding Agent Exploit Wave — Sandbox Escapes, Binary Planting, Configuration Hijacking, Codex CLI Defence Stack (2026-08-02 Hourly Article Run)
+
+1. ✅ **The July 2026 Coding Agent Exploit Wave: Sandbox Escapes, Binary Planting, and Configuration Hijacking — What Codex CLI Developers Must Harden Now** — Written 2026-08-02 → `2026-08-02-july-2026-coding-agent-exploit-wave-sandbox-escapes-binary-planting-codex-cli-defence-stack.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Pillar Security published "Week of Sandbox Escapes" in July 2026 demonstrating Docker socket escape across Codex CLI, Cursor, and Gemini CLI; Cymulate disclosed CVE-2026-35603 ProgramData privilege escalation affecting Claude Code, Cursor, Codex CLI, Gemini CLI; Cymulate documented git.exe binary planting (CVE-2026-63093) across Cursor, Copilot CLI, Gemini CLI, Codex desktop app; Cato Networks disclosed DuneSlide zero-click RCE (CVE-2026-50548, CVE-2026-50549, CVSS 9.8) in Cursor; Intezer disclosed Kiro MCP config RCE (CVE-2026-10591); mapped to Codex CLI five-layer defence: network-off default, Landlock/Seatbelt sandbox, approval_policy, AGENTS.md governance, PreToolUse/PostToolUse deterministic hooks; hardening config.toml recipes; 7 citations
+   - SEO targets: "july 2026 coding agent exploit wave", "codex cli sandbox escape defence", "docker socket sandbox escape coding agent", "binary planting git.exe coding agent CVE", "codex cli defence stack hardening", "coding agent security vulnerabilities 2026"
+
+---
+
 ## OpenAI Astra Multi-Agent Model — Long-Horizon Coding, Formal Verification, Developer Implications (2026-08-02 Hourly Article Run)
 
 1. ✅ **OpenAI Astra and the Multi-Agent Horizon: What a Model That Works for Days Means for Codex CLI Developers** — Written 2026-08-02 → `2026-08-02-openai-astra-multi-agent-model-long-horizon-codex-cli-formal-verification-lean4-developer-implications.md`
