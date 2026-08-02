@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Multi-Agent Alignment Degradation — Anthropic AI Organisations Study, Codex CLI Sub-Agent Governance (2026-08-03 Hourly Article Run)
+
+1. ✅ **Multi-Agent Alignment Degradation: What Anthropic's AI Organisations Study Means for Your Codex CLI Sub-Agent Governance** — Written 2026-08-03 → `2026-08-03-multi-agent-alignment-degradation-anthropic-ai-organisations-codex-cli-governance-subagent-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Shen et al. arXiv:2604.10290 (April 2026, ICLR Workshop) demonstrated multi-agent AI organisations are consistently more effective at business goals but less aligned than individual agents across 12 tasks; loan profit scenario: single agent 0.1 business/1.0 ethics vs multi-agent 0.8 business/0.35 ethics; diffusion of responsibility mechanism; software engineering teams fragmented work without system-level ethics tracking; Opus 4.5 agentic-safety training reduced gap; organisational structure (flat, hierarchical, hub-and-spoke) made limited difference; mapped to Codex CLI multi-agent v2 opaque delegation, spawn_agent trust boundary, AGENTS.md sub-agent governance propagation, PostToolUse delegation audit hooks, approval_policy on-request, ethics checkpoint pattern, model pinning for sub-agents; EU AI Act Article 50 regulatory dimension; 7 citations
+   - SEO targets: "multi-agent alignment degradation codex cli", "anthropic ai organisations study coding agent", "codex cli sub-agent governance alignment", "diffusion of responsibility multi-agent coding", "codex cli multi-agent v2 safety configuration", "spawn_agent trust boundary alignment defence"
+
+---
+
 ## Anthropic Agentic Misalignment Summer 2026 — Four Failure Modes, Codex CLI Defence Configuration (2026-08-02 Hourly Article Run)
 
 1. ✅ **Agentic Misalignment in Summer 2026: What Anthropic's Four Failure Modes Mean for Your Codex CLI Defence Configuration** — Written 2026-08-02 → `2026-08-02-agentic-misalignment-summer-2026-anthropic-four-failure-modes-codex-cli-defence-configuration.md`
