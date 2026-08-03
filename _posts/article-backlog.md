@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Cortex 2026 Benchmark — AI Faster Not Better, Codex CLI Quality Gates, Change Failure Rate Defence (2026-08-03 Hourly Article Run)
+
+1. ✅ **AI Made Engineering Faster but Not Better: What the Cortex 2026 Benchmark Means for Your Codex CLI Quality Gates** — Written 2026-08-03 → `2026-08-03-cortex-2026-benchmark-ai-faster-not-better-codex-cli-quality-gates-change-failure-rate-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cortex 2026 Benchmark Report (50+ engineering leaders surveyed): PRs per author +20% YoY, incidents per PR +23.5%, change failure rate +30%; CodeRabbit State of AI vs Human Code Generation (470 PRs): AI PRs contain 10.83 issues vs 6.45 human (1.7×), 2.74× more XSS, 1.4× critical issues; Kusari analysis: AI-assisted devs introduce security findings at 10× rate, privilege escalation +322%, architectural flaws +153%; only 32% of orgs have formal AI policies with enforcement; mapped to Codex CLI approval_policy (on-request/unless-allow-listed), Guardian auto-review subagent, PostToolUse deterministic hooks (test/lint/security), sandbox workspace-write with domain allowlist, AGENTS.md ownership and quality codification, codex-security CLI integration; DX AI Measurement Framework three-dimension tracking (utilisation/impact/cost); complete quality-gated config.toml profile recipe; 6 citations
+   - SEO targets: "cortex 2026 benchmark codex cli quality gates", "AI faster not better coding agent", "codex cli change failure rate defence", "incidents per pull request AI coding agent", "codex cli PostToolUse quality hooks", "codex cli approval policy quality governance"
+
+---
+
 ## Multi-Agent Alignment Degradation — Anthropic AI Organisations Study, Codex CLI Sub-Agent Governance (2026-08-03 Hourly Article Run)
 
 1. ✅ **Multi-Agent Alignment Degradation: What Anthropic's AI Organisations Study Means for Your Codex CLI Sub-Agent Governance** — Written 2026-08-03 → `2026-08-03-multi-agent-alignment-degradation-anthropic-ai-organisations-codex-cli-governance-subagent-defence.md`
