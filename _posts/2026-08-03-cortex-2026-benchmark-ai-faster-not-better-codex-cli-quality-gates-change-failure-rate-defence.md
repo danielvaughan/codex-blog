@@ -25,7 +25,7 @@ CodeRabbit's "State of AI vs Human Code Generation" report, analysing 470 open-s
 | Issues per PR | 6.45 | 10.83 | 1.7× |
 | Critical issues | baseline | 1.4× more | — |
 | Major issues | baseline | 1.7× more | — |
-| XSS vulnerabilities | baseline | 2.74× more | — |
+| Security issues | baseline | 2.74× more | — |
 | Logic/correctness errors | baseline | 1.75× more | — |
 
 Kusari's analysis adds further weight: AI-assisted developers produce commits at three to four times the rate of their peers but introduce security findings at 10× the rate [^3]. Privilege escalation paths spiked 322 per cent; architectural design flaws rose 153 per cent [^3].

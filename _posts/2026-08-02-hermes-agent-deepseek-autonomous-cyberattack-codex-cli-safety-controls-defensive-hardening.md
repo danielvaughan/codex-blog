@@ -10,7 +10,7 @@ tags: ["codex-cli", "security", "hermes-agent", "deepseek", "autonomous-attack",
 
 ---
 
-The tools we build with are now the tools others attack with. On 1 August 2026, Palo Alto Networks' Unit 42 published a detailed report on a Chinese-speaking threat actor — operating under the aliases *knaithe* and *KnYuan* from Zhuhai — who wired the DeepSeek open-weight model into the Hermes Agent open-source framework and directed it via Telegram to autonomously enumerate, evaluate, and exploit over 460 internet-facing systems [^1]. The campaign confirmed compromises at three Citrix NetScaler organisations and eleven Marimo notebook instances [^1].
+The tools we build with are now the tools others attack with. On 30 July 2026, Palo Alto Networks' Unit 42 published a detailed report on a Chinese-speaking threat actor — operating under the aliases *knaithe* and *KnYuan* from Zhuhai — who wired the DeepSeek open-weight model into the Hermes Agent open-source framework and directed it via Telegram to autonomously enumerate, evaluate, and exploit over 460 internet-facing systems [^1]. The campaign confirmed compromises at three Citrix NetScaler organisations and eleven Marimo notebook instances [^1].
 
 This is not a hypothetical scenario. It is the first publicly documented case of a coding agent framework being weaponised for autonomous multi-stage cyberattacks — and the defensive lessons map directly onto how every Codex CLI developer configures their own agent stack.
 
@@ -164,7 +164,7 @@ Every `approval_policy`, every `sandbox` setting, every `requirements.toml` cons
 
 ## Citations
 
-[^1]: Palo Alto Networks Unit 42, "Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks," 1 August 2026. [https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/](https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/)
+[^1]: Palo Alto Networks Unit 42, "Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks," 30 July 2026. [https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/](https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/)
 
 [^2]: Nous Research, "Hermes Agent — Open-Source AI Agent Framework," February 2026. [https://github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 

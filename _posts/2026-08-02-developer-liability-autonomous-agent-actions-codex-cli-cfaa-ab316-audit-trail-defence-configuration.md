@@ -32,7 +32,7 @@ The *Amazon v. Perplexity* preliminary injunction (March 2026) established prece
 
 ### EU AI Act Article 50: Transparency on Enforcement Day
 
-The EU AI Act's Article 50 transparency obligations became enforceable on 2 August 2026 [^4]. Deployers of AI systems must ensure that persons interacting with the system are informed they are interacting with AI. For Codex CLI developers shipping agent-generated code, pull request descriptions, documentation, and commit messages fall within scope [^4]. Penalties reach €35 million or 7% of global annual turnover [^4].
+The EU AI Act's Article 50 transparency obligations became enforceable on 2 August 2026 [^4]. Deployers of AI systems must ensure that persons interacting with the system are informed they are interacting with AI. For Codex CLI developers shipping agent-generated code, pull request descriptions, documentation, and commit messages fall within scope [^4]. Penalties for transparency violations reach €15 million or 3% of global annual turnover [^4].
 
 ## The Four-Company Liability Chain
 
