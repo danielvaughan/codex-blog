@@ -1,5 +1,13 @@
 # Article Backlog
 
+## August 2026 Deprecation Wave — o3, GPT-5.4, Atlas, Assistants API, Codex CLI Migration Checklist (2026-08-03 Hourly Article Run)
+
+1. ✅ **The August 2026 Deprecation Wave: Four Sunsets in One Month and What Codex CLI Developers Must Migrate Now** — Written 2026-08-03 → `2026-08-03-august-2026-deprecation-wave-o3-gpt54-atlas-assistants-api-codex-cli-migration-checklist.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — four concurrent OpenAI deprecations in August 2026: Atlas browser shutdown (9 Aug), Assistants API removal (26 Aug), o3 retirement from ChatGPT (26 Aug), GPT-5.4/5.4-mini removal from Codex ChatGPT auth (31 Aug); GPT-5.6 family (Sol/Terra/Luna) as replacement tier; December 2026 follow-on deprecations for GPT-5 snapshots and o3 API snapshots; migration recipes for config.toml, named profiles, CI/CD overrides, requirements.toml fleet constraints; completions-responses-migration-pack tooling; compound risk analysis; 10-item migration checklist; 7 citations
+   - SEO targets: "august 2026 deprecation wave codex cli", "o3 retirement codex cli migration", "gpt-5.4 deprecation gpt-5.6 terra luna", "atlas browser deprecation codex cli", "assistants api shutdown migration", "codex cli model migration checklist august 2026"
+
+---
+
 ## Cortex 2026 Benchmark — AI Faster Not Better, Codex CLI Quality Gates, Change Failure Rate Defence (2026-08-03 Hourly Article Run)
 
 1. ✅ **AI Made Engineering Faster but Not Better: What the Cortex 2026 Benchmark Means for Your Codex CLI Quality Gates** — Written 2026-08-03 → `2026-08-03-cortex-2026-benchmark-ai-faster-not-better-codex-cli-quality-gates-change-failure-rate-defence.md`
