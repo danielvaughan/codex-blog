@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Software Factory Pattern — Agent Pipelines, Autonomous Development, Codex CLI Governance (2026-08-03 Hourly Article Run)
+
+1. ✅ **The Software Factory Pattern: Building Agent Pipelines for Autonomous Development with Codex CLI** — Written 2026-08-03 → `2026-08-03-software-factory-pattern-agent-pipelines-autonomous-development-codex-cli-governance-worktree-isolation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Software Factory Pattern: Agent Pipelines for Autonomous Development" (High priority, added 2026-08-03); Factory by Owain Lewis (Go control plane, SQLite, worktree isolation, Codex/Claude Code runtimes); BCG Platinion agentic software factory (3-5× productivity, five pillars, intent-driven operating model); Tessl dark factory pattern (five-level maturity, L3-L4 production norm); Dan Shapiro five-level framework; codex exec non-interactive mode; codex-action GitHub Actions; PostToolUse verification hooks; codex-security scanning; AGENTS.md factory governance; requirements.toml fleet enforcement; session JSONL audit trail; EU AI Act Article 50; graduated trust ladder from L3 to L5; 7 citations
+   - SEO targets: "software factory pattern codex cli", "agent pipeline autonomous development codex", "dark factory coding agent maturity", "codex exec software factory worktree", "codex cli full-auto governance factory", "agentic software factory BCG codex cli", "codex cli requirements.toml fleet factory"
+
+---
+
 ## August 2026 Deprecation Wave — o3, GPT-5.4, Atlas, Assistants API, Codex CLI Migration Checklist (2026-08-03 Hourly Article Run)
 
 1. ✅ **The August 2026 Deprecation Wave: Four Sunsets in One Month and What Codex CLI Developers Must Migrate Now** — Written 2026-08-03 → `2026-08-03-august-2026-deprecation-wave-o3-gpt54-atlas-assistants-api-codex-cli-migration-checklist.md`
