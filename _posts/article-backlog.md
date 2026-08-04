@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Voice-Driven Development — Push-to-Talk, Realtime V3, GPT-Live Full Duplex, Developer Workflow Patterns (2026-08-04 Hourly Article Run)
+
+1. ✅ **Voice-Driven Development: From Push-to-Talk to Full-Duplex GPT-Live in Codex** — Written 2026-08-04 → `2026-08-04-voice-driven-development-codex-cli-gpt-live-full-duplex-push-to-talk-realtime-v3.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Voice-Driven Development: Can You Actually Build Software by Talking?" (High priority, added 2026-07-26); CLI push-to-talk v0.105.0 (Feb 2026) with cpal/webrtc-vad/Whisper; [realtime] config.toml block (Mar 2026) with conversational/transcription modes; WebRTC V2 migration v0.119.0 (Apr 2026); Realtime V3 streaming conversations v0.145.0 (Jul 2026); GPT-Live full-duplex desktop app 26.715 (23 Jul 2026); Appshots screen context integration; multi-thread voice orchestration; voice strengths (orchestration, code review, architecture) vs liabilities (precise syntax, technical terminology, CI environments, self-interruption loops); three configuration patterns; 6 citations
+   - SEO targets: "codex cli voice driven development", "gpt-live codex full duplex voice coding", "codex cli push-to-talk realtime v3 webrtc", "voice coding agent developer productivity 2026", "codex cli realtime config.toml voice", "codex desktop gpt-live appshots voice orchestration"
+
+---
+
 ## Appshots Visual Context Primitive — Context-Aware Screenshots, Accessibility API, CLI Gap, Cross-Agent Comparison (2026-08-04 Hourly Article Run)
 
 1. ✅ **Appshots: Context-Aware Screenshots and the Visual Context Primitive That Changes How Codex Sees Your Work** — Written 2026-08-04 → `2026-08-04-codex-appshots-context-aware-screenshots-visual-context-coding-agent-ux-primitive.md`
