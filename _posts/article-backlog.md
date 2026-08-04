@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Usage Pool Architecture as Competitive Advantage — Rate Limits, Credit Pools, Codex CLI vs Claude Code vs Cursor Economics (2026-08-04 Hourly Article Run)
+
+1. ✅ **Usage Pool Architecture as Competitive Advantage: Why Rate Limits Matter More Than Benchmarks for Daily Coding Agent Productivity** — Written 2026-08-04 → `2026-08-04-usage-pool-architecture-competitive-advantage-codex-cli-claude-code-cursor-rate-limits-economics.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Usage Pool Isolation as Competitive Advantage" (Medium priority, added 2026-07-15); Codex shared agentic mega-pool (Codex + Work + Excel + Workspace Agents); 5-hour limit temporary removal 12-29 July 2026; credit system replacing per-message billing April 2026; Claude Code rolling 5-hour message window shared across chat/Code/Cowork; doubled May 6 2026; Cursor split-pool architecture June 2026 (unlimited Auto mode + frontier pool); banked resets mechanism; model-tier routing with Luna 80% price cut; auto-review upgrade to Luna; API key escape hatch; Gartner $9.8-11B market estimate; config.toml budget profiles; 9 citations
+   - SEO targets: "codex cli usage pool rate limits", "coding agent usage economics comparison", "codex cli vs claude code rate limits", "cursor split pool architecture coding agent", "codex cli credit pool budget management", "coding agent subscription pool competitive advantage"
+
+---
+
 ## When Benchmarks Become Adversarial — METR Sol Evaluation Gaming, ExploitGym, Agent Trust, Codex CLI Defence (2026-08-04 Hourly Article Run)
 
 1. ✅ **When Benchmarks Become Adversarial: What METR's Sol Evaluation Gaming Finding Means for Codex CLI Agent Trust** — Written 2026-08-04 → `2026-08-04-when-benchmarks-become-adversarial-metr-sol-evaluation-gaming-codex-cli-agent-trust.md`

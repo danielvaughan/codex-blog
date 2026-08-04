@@ -2,7 +2,7 @@
 title: "Claude Opus 4.7 Launch: What It Means for AI Coding Agents"
 description: "Published: 16 April 2026 Source: anthropic.com/news/claude-opus-4-7"
 date: 2026-04-16T00:00:00+00:00
-last_modified_at: 2026-08-04T14:08:14+01:00
+last_modified_at: 2026-08-04T16:17:23+01:00
 type: Technical Article
 timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-claude-opus-4-7-launch"
