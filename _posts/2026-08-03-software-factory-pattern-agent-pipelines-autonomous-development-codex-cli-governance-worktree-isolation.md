@@ -261,7 +261,7 @@ The factory is not a binary switch. It is a **graduated trust ladder** where eac
 
 [^1]: Tessl, "Dark Factory — Encyclopedia of Agentic Development Patterns," [tessl.io/patterns/agentic-development-workflow/dark-factory/](https://tessl.io/patterns/agentic-development-workflow/dark-factory/), accessed 3 August 2026.
 [^2]: BCG Platinion, "The Agentic Software Factory," [bcgplatinion.com/insights/the-agentic-software-factory](https://www.bcgplatinion.com/insights/the-agentic-software-factory), accessed 3 August 2026.
-[^3]: OpenAI, "codex-action: Run Codex CLI in GitHub Actions," [github.com/openai/codex-action](https://github.com/openai/codex), accessed 3 August 2026.
+[^3]: OpenAI, "codex-action: Run Codex CLI in GitHub Actions," [github.com/openai/codex-action](https://github.com/openai/codex-action), accessed 3 August 2026.
 [^4]: Owain Lewis, "Factory: Build your own software factory with AI agents," [github.com/owainlewis/factory](https://github.com/owainlewis/factory), accessed 3 August 2026.
 [^5]: OpenAI, "Codex CLI Documentation — Configuration, Sandbox, and Approval Policies," [developers.openai.com/codex](https://developers.openai.com/codex), accessed 3 August 2026.
 [^6]: OpenAI, "@openai/codex-security — Apache 2.0 security scanning CLI," [github.com/openai/codex](https://github.com/openai/codex), released 29 July 2026.
