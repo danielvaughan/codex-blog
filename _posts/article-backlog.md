@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GitLost and Agentic Workflow Injection — Prompt Injection, CI/CD Defence, Codex CLI GitHub Actions Hardening (2026-08-04 Hourly Article Run)
+
+1. ✅ **GitLost and the Agentic Workflow Injection Threat: What GitHub's Private Repository Leak Means for Your Codex CLI CI/CD Pipelines** — Written 2026-08-04 → `2026-08-04-gitlost-agentic-workflow-injection-prompt-injection-codex-cli-github-actions-ci-cd-defence.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Noma Security disclosed GitLost on 6 July 2026: indirect prompt injection in GitHub Agentic Workflows leaking private repository data via crafted public issues; "Additionally" single-word guardrail bypass; lethal trifecta (cross-repo access + untrusted input + public output path); Aikido Security PromptPwnd class affecting Fortune 500 companies; Clinejection npm supply chain compromise (Feb 2026, ~4,000 machines); GitInject academic taxonomy (arXiv:2606.09935); codex-action security documentation treating AGENTS.md as untrusted in PR workflows; five-layer Codex CLI defence mapping: sandbox workspace-write, network isolation, approval_policy on-request/writes, PreToolUse deterministic hooks, permission-profile output restriction; hardening recipes for config.toml CI profiles, workflow trigger scoping, AGENTS.md CI security rules; EU AI Act Article 9/14 regulatory context; 6 citations
+   - SEO targets: "gitlost codex cli github actions defence", "agentic workflow injection prompt injection codex", "codex-action security CI/CD hardening", "prompt injection github actions coding agent", "codex cli PreToolUse hooks CI pipeline security", "github agentic workflows private repo leak defence"
+
+---
+
 ## Software Factory Pattern — Agent Pipelines, Autonomous Development, Codex CLI Governance (2026-08-03 Hourly Article Run)
 
 1. ✅ **The Software Factory Pattern: Building Agent Pipelines for Autonomous Development with Codex CLI** — Written 2026-08-03 → `2026-08-03-software-factory-pattern-agent-pipelines-autonomous-development-codex-cli-governance-worktree-isolation.md`
