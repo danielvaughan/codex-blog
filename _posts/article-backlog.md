@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Overnight Agent Pattern — Autonomous Scheduled Development Infrastructure with Codex CLI (2026-08-04 Hourly Article Run)
+
+1. ✅ **The Overnight Agent Pattern: Infrastructure for Continuous Autonomous Development with Codex CLI** — Written 2026-08-04 → `2026-08-04-overnight-agent-pattern-codex-cli-autonomous-scheduled-development-infrastructure-vps-cron-exec.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "The Overnight Agent Pattern: Infrastructure for Continuous AI-Driven Code Improvement" (Medium priority, added 2026-07-30); Greptile analysis showing 27.6% autonomous agent-authored PRs (up from 0.86% Feb 2025); codex exec headless mode with --sandbox workspace-write, --json JSONL streaming, --ephemeral; Goal Mode GA May 2026 with persistent /goal resume and token budgets; worktree isolation pattern; four-layer architecture (task queue, orchestrator, monitoring, output); Leon van Zyl VPS+cron reference architecture; Karpathy AutoResearch metric-driven loop (89 experiments/7.5 hours); fleet sizing (5-7 laptop, 20-30 VM, 50+ large VM); model routing Luna/Terra/Sol by task tier; AGENTS.md overnight constitution; codex-action GitHub Actions alternative; failure modes and mitigations; amux guide patterns; 7 citations
+   - SEO targets: "overnight agent pattern codex cli", "codex exec autonomous scheduled development", "codex cli overnight VPS cron agent", "codex cli goal mode overnight budget", "autonomous coding agent infrastructure 2026", "codex cli fleet overnight worktree isolation"
+
+---
+
 ## Usage Pool Architecture as Competitive Advantage — Rate Limits, Credit Pools, Codex CLI vs Claude Code vs Cursor Economics (2026-08-04 Hourly Article Run)
 
 1. ✅ **Usage Pool Architecture as Competitive Advantage: Why Rate Limits Matter More Than Benchmarks for Daily Coding Agent Productivity** — Written 2026-08-04 → `2026-08-04-usage-pool-architecture-competitive-advantage-codex-cli-claude-code-cursor-rate-limits-economics.md`
