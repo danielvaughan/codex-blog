@@ -1,5 +1,13 @@
 # Article Backlog
 
+## What 220,000 Pull Requests Reveal — Agentic PR Task Routing, Test Coverage Gaps, Codex CLI Configuration (2026-08-04 Hourly Article Run)
+
+1. ✅ **What 220,000 Pull Requests Reveal About Where Coding Agents Actually Excel — and Where They Fall Short** — Written 2026-08-04 → `2026-08-04-what-220000-pull-requests-reveal-agentic-pr-task-routing-codex-cli-test-coverage-gaps.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — three July 2026 empirical studies on agentic pull requests: Mazloomzadeh et al. (arXiv:2607.21832) 220,612 PRs from 489 repos, 9,428 agentic PRs across five agents, Claude 84.3% merge rate, Codex 73.5%, infrastructure >90% merge vs semantic tasks <50%; Dipongkor et al. (arXiv:2607.18057) 4,882 PRs test coverage analysis, only 49.6% include tests, error-handling 86% miss rate Java / 81% Python; Raida & Hou (arXiv:2607.14037, KDD 2026) 25,264 PRs, median 1-2 agentic PRs per quarter, single-reviewer dominance; mapped to Codex CLI AGENTS.md task routing rules, named profiles for model routing by task tier (Luna/Terra/Sol), PostToolUse coverage enforcement hooks, Guardian auto-review four-layer pipeline, task-suitability spectrum configuration; 6 citations
+   - SEO targets: "agentic pull request merge rate codex cli", "coding agent task routing AGENTS.md", "codex cli PostToolUse test coverage hooks", "AI coding agent test coverage gap", "220000 pull requests coding agent study", "codex cli task-aware model routing"
+
+---
+
 ## Local Preflight for Cloud Agents — Small Models as Quality Gates for Codex CLI (2026-08-04 Hourly Article Run)
 
 1. ✅ **Local Preflight for Cloud Agents: Small Models as Quality Gates for Codex CLI** — Written 2026-08-04 → `2026-08-04-local-preflight-small-models-quality-gates-codex-cli-needle-hybrid-cloud-edge-agent-routing.md`
