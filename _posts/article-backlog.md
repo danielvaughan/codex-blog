@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Verification Inversion — Generation Easy, Verification Hard, Codex CLI Constraints Research (2026-08-05 Hourly Article Run)
+
+1. ✅ **The Verification Inversion: Why Generation Became Easy, Verification Became Hard, and What the Research Says You Should Do About It** — Written 2026-08-05 → `2026-08-05-verification-inversion-generation-easy-verification-hard-codex-cli-constraints-research.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Qwen Team "Verification Horizon" paper (arXiv:2606.26300, June 2026) formalising the inversion of the generation/verification asymmetry; Winninger "Steerability via Constraints" (arXiv:2607.02389, ICML 2026) showing traditional engineering constraints raise backdoor recall from 54.5% to 90.9%; AxDafny formal verification (arXiv:2606.32007) achieving 92.7% verification success; DevOps.com industry perspective by Rajasekaran; Signadot engineering team analysis by Iyer; mapped to Codex CLI four-layer verification stack (sandbox, permission profiles, PostToolUse hooks, AGENTS.md conventions); 6 citations
+   - SEO targets: "verification inversion coding agent codex cli", "verification horizon qwen team codex cli", "steerability constraints ICML 2026 coding agent", "codex cli PostToolUse verification hooks", "coding agent verification bottleneck 2026", "codex cli sandbox permission profile verification stack"
+
+---
+
 ## What 220,000 Pull Requests Reveal — Agentic PR Task Routing, Test Coverage Gaps, Codex CLI Configuration (2026-08-04 Hourly Article Run)
 
 1. ✅ **What 220,000 Pull Requests Reveal About Where Coding Agents Actually Excel — and Where They Fall Short** — Written 2026-08-04 → `2026-08-04-what-220000-pull-requests-reveal-agentic-pr-task-routing-codex-cli-test-coverage-gaps.md`
