@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Local Preflight for Cloud Agents — Small Models as Quality Gates for Codex CLI (2026-08-04 Hourly Article Run)
+
+1. ✅ **Local Preflight for Cloud Agents: Small Models as Quality Gates for Codex CLI** — Written 2026-08-04 → `2026-08-04-local-preflight-small-models-quality-gates-codex-cli-needle-hybrid-cloud-edge-agent-routing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "Local Preflight for Cloud Agents: Small Models as Quality Gates" (Medium priority, added 2026-07-30); Sharan Babu OpenAI Build Week presentation; Cactus Compute Needle 26M-parameter 14MB tool-calling model; Zylos AI hybrid cloud-edge architecture research (70-80% of agent queries handled locally); three-stage preflight pipeline (validation, classification, context enrichment); four production routing patterns (sidecar, confidence cascade, privacy-tiered, inference gateway); agent runtime decomposition trend; config.toml model routing integration; 6 citations
+   - SEO targets: "codex cli local preflight small model quality gate", "needle 26m model codex cli preflight routing", "hybrid cloud edge coding agent architecture", "codex cli task classification local model", "small language model coding agent preflight validation", "codex cli needle sidecar confidence cascade routing"
+
+---
+
 ## The Overnight Agent Pattern — Autonomous Scheduled Development Infrastructure with Codex CLI (2026-08-04 Hourly Article Run)
 
 1. ✅ **The Overnight Agent Pattern: Infrastructure for Continuous Autonomous Development with Codex CLI** — Written 2026-08-04 → `2026-08-04-overnight-agent-pattern-codex-cli-autonomous-scheduled-development-infrastructure-vps-cron-exec.md`
