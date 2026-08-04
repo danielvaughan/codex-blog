@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Appshots Visual Context Primitive — Context-Aware Screenshots, Accessibility API, CLI Gap, Cross-Agent Comparison (2026-08-04 Hourly Article Run)
+
+1. ✅ **Appshots: Context-Aware Screenshots and the Visual Context Primitive That Changes How Codex Sees Your Work** — Written 2026-08-04 → `2026-08-04-codex-appshots-context-aware-screenshots-visual-context-coding-agent-ux-primitive.md`
+   - Source: No backlog items with 📝 status remained; topic selected from article-ideas.md — "App Shots: Context-Aware Screenshots as the Next Coding Agent UX Primitive" (High priority, added 2026-07-24); hybrid capture via ScreenCaptureKit bitmap + macOS Accessibility API semantic tree; off-screen text extraction; CLI cannot create Appshots but can resume threads containing them; two-surface workflow pattern (App capture → CLI fix); Computer Use + Browser Use + Appshots visual context stack; Locked Computer Use overnight pattern; Goal Mode GA; security gaps (no PII masking, off-screen sensitive data exposure); Voice integration July 2026; cross-agent comparison (Codex vs Cursor vs Claude Code); practical patterns for visual bug reports, API documentation context injection, cross-surface debugging; 7 citations
+   - SEO targets: "codex appshots visual context coding agent", "codex cli appshots accessibility api screencapturekit", "appshots vs screenshot coding agent context", "codex cli computer use appshots workflow", "codex visual context primitive developer ux", "appshots codex cli gap two-surface workflow"
+
+---
+
 ## GitLost and Agentic Workflow Injection — Prompt Injection, CI/CD Defence, Codex CLI GitHub Actions Hardening (2026-08-04 Hourly Article Run)
 
 1. ✅ **GitLost and the Agentic Workflow Injection Threat: What GitHub's Private Repository Leak Means for Your Codex CLI CI/CD Pipelines** — Written 2026-08-04 → `2026-08-04-gitlost-agentic-workflow-injection-prompt-injection-codex-cli-github-actions-ci-cd-defence.md`
