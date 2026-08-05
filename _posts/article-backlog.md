@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.146 Session Orchestration — Named Threads, Pinning, Forking, Side Conversations (2026-08-05 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.146 Session Orchestration: Named Threads, Pinning, Forking, and Side Conversations** — Written 2026-08-05 → `2026-08-05-codex-cli-v0146-session-orchestration-named-threads-pinning-forking-side-conversations.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.146.0 (29 July 2026) session orchestration toolkit: named sessions via /new and /clear, pinned threads with priority ordering, persistent side conversations (upgraded from ephemeral /side in v0.122), thread forking with paginated history and history_base chains, temporary forks, goal inheritance for forked threads, config.toml [sessions] configuration; DeepWiki architecture analysis of codex-thread-store crate, LocalThreadStore, RolloutRecorder, StateDbHandle; 6 citations
+   - SEO targets: "codex cli v0.146 named sessions thread management", "codex cli pinned threads side conversations workflow", "codex cli thread forking paginated history", "codex cli session orchestration named threads pinning", "codex cli /new /clear named session workflow", "codex cli v0.146 session management productivity"
+
+---
+
 ## RepoMirage and the Repository Context Reasoning Gap — Exploration Drift, Structural Scaffolding, Codex CLI (2026-08-05 Hourly Article Run)
 
 1. ✅ **RepoMirage and the Repository Context Reasoning Gap: Why Your Coding Agent Explores Everything and Understands Nothing** — Written 2026-08-05 → `2026-08-05-repomirage-repository-context-reasoning-gap-coding-agents-codex-cli-exploration-drift-structural-scaffolding.md`

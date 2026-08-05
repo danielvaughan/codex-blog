@@ -2,7 +2,7 @@
 title: "Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal"
 description: "Docker and Codex CLI have a natural affinity: Docker solves the it works on my machine problem for human developers."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-08-05T16:11:06+01:00
+last_modified_at: 2026-08-05T18:09:03+01:00
 tags:
   - configuration
   - docker
