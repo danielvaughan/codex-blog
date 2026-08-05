@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-Touch Workspace State Awareness Gap — Counter-Edits, Shared-Workspace Collaboration, Codex CLI Hardening (2026-08-05 Hourly Article Run)
+
+1. ✅ **SWE-Touch and the Workspace State Awareness Gap: Why Your Coding Agent Breaks When You Touch the Code — and How to Harden Codex CLI for Shared-Workspace Collaboration** — Written 2026-08-05 → `2026-08-05-swe-touch-workspace-state-awareness-coding-agents-counter-edits-codex-cli-shared-workspace-collaboration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Tan et al. arXiv:2608.02499 (August 3, 2026) SWE-Touch benchmark: counter-edits to task-relevant code lower average resolve rate by 7.7pp on SWE-bench Verified; three failure modes (stale code retention, blind overwrite, unvalidated merge); nine coding models evaluated; degradation persists on SWE-Bench Pro and DeepSWE longer-horizon tasks; complemented by SWE-Together (arXiv:2606.29957) and SWE-Interact (arXiv:2606.30573); mapped to Codex CLI codex-file-watcher crate, PostToolUse workspace drift detection hooks, AGENTS.md reconciliation rules, approval_policy write gates, multi-folder project configuration, PreToolUse re-read-before-write pattern; 7 citations
+   - SEO targets: "swe-touch workspace state awareness codex cli", "coding agent counter-edits shared workspace", "codex cli PostToolUse workspace drift detection", "coding agent collaborative benchmark swe-touch", "codex cli file watcher workspace awareness", "shared workspace coding agent failure modes"
+
+---
+
 ## The Verification Inversion — Generation Easy, Verification Hard, Codex CLI Constraints Research (2026-08-05 Hourly Article Run)
 
 1. ✅ **The Verification Inversion: Why Generation Became Easy, Verification Became Hard, and What the Research Says You Should Do About It** — Written 2026-08-05 → `2026-08-05-verification-inversion-generation-easy-verification-hard-codex-cli-constraints-research.md`
