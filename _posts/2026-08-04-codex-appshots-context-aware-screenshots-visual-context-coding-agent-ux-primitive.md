@@ -71,7 +71,7 @@ There is no `take_appshot` endpoint in the Codex CLI, no SDK method, and no MCP 
 
 ## Appshots, Computer Use, and the Visual Context Stack
 
-Appshots arrived three weeks after Computer Use Agent (CUA) shipped on 16 April 2026 [^4]. The two features serve different purposes but compose into a visual development stack:
+Appshots arrived five weeks after Computer Use Agent (CUA) shipped on 16 April 2026 [^4]. The two features serve different purposes but compose into a visual development stack:
 
 | Feature | Trigger | Scope | Use Case |
 |---------|---------|-------|----------|
