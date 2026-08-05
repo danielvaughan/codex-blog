@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Security CLI Open Source — Apache 2.0, Agentic SAST, Merge-Path CI/CD (2026-08-06 Hourly Article Run)
+
+1. ✅ **Codex Security CLI Goes Open Source: Building Agentic SAST into Your Merge Path** — Written 2026-08-06 → `2026-08-06-codex-security-cli-open-source-apache-2-merge-path-agentic-sast-ci-cd-pipeline.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI open-sourced @openai/codex-security CLI and TypeScript SDK under Apache 2.0 (July 2026); agentic SAST scanning vs pattern-based tools; six CLI commands (scan, bulk-scan, scans, export, validate/patch, install-hook); gpt-5.6-sol default model; four mandatory artefacts (scan-manifest.json, findings.json, coverage.json, report.md); CI/CD merge-gate integration with severity thresholds; diff-scoped PR scanning for cost control; bulk-scan with parallel workers; local SQLite workbench; open client / closed scanner architecture; 4 citations
+   - SEO targets: "codex security cli open source apache 2.0", "agentic sast codex security merge gate", "codex security cli ci cd pipeline integration", "codex security vs semgrep codeql", "openai codex security scan command", "codex security cli bulk scan enterprise"
+
+---
+
 ## HyperAgent Tool-Schema Hypergraphs and Codex CLI MCP Tool Discovery (2026-08-05 Hourly Article Run)
 
 1. ✅ **HyperAgent and the Tool-Schema Hypergraph: What Deficit-Oriented Planning Means for Codex CLI Tool Discovery** — Written 2026-08-05 → `2026-08-05-hyperagent-tool-schema-hypergraphs-codex-cli-mcp-tool-discovery-deficit-oriented-planning.md`
