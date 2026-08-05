@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Coding Agents as Test-Suite Auditors — Adversarial Test Generation, Certification Chains, Codex CLI PostToolUse Verification (2026-08-05 Hourly Article Run)
+
+1. ✅ **Coding Agents as Test-Suite Auditors: What 906 Accepted-but-Buggy Submissions Reveal About Your Test Coverage — and How to Build Adversarial Test Pipelines with Codex CLI** — Written 2026-08-05 → `2026-08-05-coding-agents-test-suite-auditors-adversarial-test-generation-codex-cli-posttooluse-verification.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Xie et al. arXiv:2608.01715 (August 3, 2026) coding agents as test-suite auditors: target-blind adversarial test generation; 589 Codex-certified accepted-but-buggy AtCoder submissions from 20,375 audited; five-agent union floor 906; false discovery rate ≤1.87%; cov@50 0.952 on 41 post-cutoff Codeforces problems; certification chain (consensus oracle, brute-force settlement, input legality, deterministic re-judging); five agents (Codex/GPT-5.4, Claude Code/Opus 4.8, Antigravity/Gemini 3.1 Pro, OpenCode/DeepSeek V4 Pro, mini-SWE-agent/DeepSeek V4 Pro); mapped to Codex CLI codex exec --output-schema adversarial generation, PostToolUse hooks for input validation, multi-profile consensus oracle pipeline, AGENTS.md test-audit workflow encoding; 5 citations
+   - SEO targets: "coding agent test suite auditor codex cli", "adversarial test generation coding agent", "accepted-but-buggy submissions test coverage", "codex cli PostToolUse test validation hooks", "multi-agent consensus test oracle codex cli", "adversarial testing CI pipeline codex exec"
+
+---
+
 ## GPT-5.6 Model Migration Playbook — Luna, Terra, Sol Config Profiles and Task Routing (2026-08-05 Hourly Article Run)
 
 1. ✅ **The GPT-5.6 Migration Playbook: Configuring Codex CLI for Luna, Terra and Sol Before the August Deadline** — Written 2026-08-05 → `2026-08-05-gpt-5-6-model-migration-codex-cli-luna-terra-sol-config-profiles-task-routing.md`
