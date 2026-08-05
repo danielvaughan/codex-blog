@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-Bench-CL and the Continual Learning Gap — Catastrophic Forgetting, Memory Strategy, Codex CLI (2026-08-05 Hourly Article Run)
+
+1. ✅ **SWE-Bench-CL and the Continual Learning Gap: Why Your Coding Agent Forgets What Your Repository Learned Last Month** — Written 2026-08-05 → `2026-08-05-swe-bench-cl-continual-learning-coding-agents-catastrophic-forgetting-codex-cli-memory-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Joshi et al. arXiv:2507.00014 SWE-Bench-CL: first continual learning benchmark for coding agents; 273 tasks across 8 Python repos; chronologically ordered issue sequences; continual learning metrics (ACC, Forgetting, Forward/Backward Transfer, Tool-Use Efficiency, CL-F1); Jaccard similarity 0.1114 showing low task overlap; prompt poisoning semantic drift ~0.45; LangGraph-based evaluation framework with FAISS-backed semantic memory; mapped to Codex CLI memory strategy (AGENTS.md as curated long-term memory, native memory pruning, domain-aware compaction prompts), three-layer memory architecture, compact_prompt customisation, memory hygiene; 7 citations
+   - SEO targets: "swe-bench-cl continual learning coding agent", "catastrophic forgetting coding agent codex cli", "coding agent memory strategy evolving repository", "codex cli memory pruning compaction strategy", "continual learning benchmark coding agents 2026", "swe-bench-cl forward transfer agents-md"
+
+---
+
 ## Coding Agents as Test-Suite Auditors — Adversarial Test Generation, Certification Chains, Codex CLI PostToolUse Verification (2026-08-05 Hourly Article Run)
 
 1. ✅ **Coding Agents as Test-Suite Auditors: What 906 Accepted-but-Buggy Submissions Reveal About Your Test Coverage — and How to Build Adversarial Test Pipelines with Codex CLI** — Written 2026-08-05 → `2026-08-05-coding-agents-test-suite-auditors-adversarial-test-generation-codex-cli-posttooluse-verification.md`
