@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.6 Model Migration Playbook — Luna, Terra, Sol Config Profiles and Task Routing (2026-08-05 Hourly Article Run)
+
+1. ✅ **The GPT-5.6 Migration Playbook: Configuring Codex CLI for Luna, Terra and Sol Before the August Deadline** — Written 2026-08-05 → `2026-08-05-gpt-5-6-model-migration-codex-cli-luna-terra-sol-config-profiles-task-routing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — GPT-5.4 and GPT-5.4 mini retiring from Codex on 31 August 2026; GPT-5.6 Sol/Terra/Luna three-tier family released 9 July 2026; config.toml migration, named profiles for task-aware routing, reasoning effort orthogonality, project-level overrides, plan availability, benchmark comparisons (SWE-bench Pro, Terminal-Bench 2.1); 5 citations
+   - SEO targets: "gpt-5.6 codex cli migration", "codex cli config.toml gpt-5.6 luna terra sol", "gpt-5.4 deprecation codex august 2026", "codex cli named profiles model routing", "gpt-5.6 sol terra luna benchmark coding agent"
+
+---
+
 ## Real-Time Failure Detection for Coding Agents — Lightweight Monitors, Deterministic Verification, Codex CLI PostToolUse Telemetry (2026-08-05 Hourly Article Run)
 
 1. ✅ **Real-Time Failure Detection for Coding Agents: What Ultra-Lightweight Monitors Mean for Codex CLI Session Reliability** — Written 2026-08-05 → `2026-08-05-real-time-failure-detection-lightweight-monitors-coding-agents-codex-cli-posttooluse-telemetry-repair.md`
