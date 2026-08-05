@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.146.1 Least-Privilege Runtime — Per-Session Limits, Plugin Boundaries, Turn Permissions (2026-08-05 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.146.1 Least-Privilege Runtime: Per-Session Execution Limits, Agent Plugin Boundaries, and Turn-Scoped Permissions** — Written 2026-08-05 → `2026-08-05-codex-cli-v01461-least-privilege-runtime-isolation-per-session-limits-plugin-boundaries-turn-permissions.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.146.1 (5 August 2026) six merged PRs forming coherent least-privilege runtime isolation wave: per-session code-mode execution limits (#37114) with max_yield_time_ms and capability negotiation, Agent Plugin runtime boundaries (#37027) with capability filtering/MCP data isolation/redirect security/instruction caps, turn-scoped permissions (#37040/#37038/#37031) anchoring context and discovery to individual turn environments, managed authentication enforcement (#37132) with pre-bootstrap policy application and intersection-based composition, safer cyber-model auto-review defaults (#37057) backported for GPT-5.6 Sol, Luna-based Guardian reviews (#37103); 11 citations
+   - SEO targets: "codex cli v0.146.1 runtime isolation least privilege", "codex cli per-session execution limits code-mode", "codex cli agent plugin runtime boundaries", "codex cli turn-scoped permissions environment profile", "codex cli managed authentication requirements.toml", "codex cli cyber-capable model auto-review defaults"
+
+---
+
 ## Codex CLI v0.146 Session Orchestration — Named Threads, Pinning, Forking, Side Conversations (2026-08-05 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.146 Session Orchestration: Named Threads, Pinning, Forking, and Side Conversations** — Written 2026-08-05 → `2026-08-05-codex-cli-v0146-session-orchestration-named-threads-pinning-forking-side-conversations.md`
