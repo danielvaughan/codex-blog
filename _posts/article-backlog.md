@@ -1,5 +1,13 @@
 # Article Backlog
 
+## HyperAgent Tool-Schema Hypergraphs and Codex CLI MCP Tool Discovery (2026-08-05 Hourly Article Run)
+
+1. ✅ **HyperAgent and the Tool-Schema Hypergraph: What Deficit-Oriented Planning Means for Codex CLI Tool Discovery** — Written 2026-08-05 → `2026-08-05-hyperagent-tool-schema-hypergraphs-codex-cli-mcp-tool-discovery-deficit-oriented-planning.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhai et al. arXiv:2608.02650 (July 31, 2026) HyperAgent: tool-schema hypergraph framework for tool-use planning; directed hyperedges from input-schema to output-schema nodes; deficit-oriented expansion algorithm with beam search; AppWorld benchmark 67.1% TGC vs ReAct 48.8%; reduced API calls and token consumption; mapped to Codex CLI BM25 tool search (v0.142.2), MCP outputSchema (v0.119.0), executor-provided skill discovery (v0.146.0), Agent Plugin capability filtering (v0.146.1), AGENTS.md composition rules, PostToolUse schema validation hooks; 7 citations
+   - SEO targets: "hyperagent tool-schema hypergraph codex cli", "codex cli MCP tool discovery planning", "deficit-oriented tool planning coding agent", "codex cli tool selection optimisation MCP", "tool-schema hypergraph agent planning 2026", "codex cli BM25 tool search schema-aware planning"
+
+---
+
 ## Codex CLI v0.146.1 Least-Privilege Runtime — Per-Session Limits, Plugin Boundaries, Turn Permissions (2026-08-05 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.146.1 Least-Privilege Runtime: Per-Session Execution Limits, Agent Plugin Boundaries, and Turn-Scoped Permissions** — Written 2026-08-05 → `2026-08-05-codex-cli-v01461-least-privilege-runtime-isolation-per-session-limits-plugin-boundaries-turn-permissions.md`
