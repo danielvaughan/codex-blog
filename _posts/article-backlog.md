@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Real-Time Failure Detection for Coding Agents — Lightweight Monitors, Deterministic Verification, Codex CLI PostToolUse Telemetry (2026-08-05 Hourly Article Run)
+
+1. ✅ **Real-Time Failure Detection for Coding Agents: What Ultra-Lightweight Monitors Mean for Codex CLI Session Reliability** — Written 2026-08-05 → `2026-08-05-real-time-failure-detection-lightweight-monitors-coding-agents-codex-cli-posttooluse-telemetry-repair.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Dubey arXiv:2608.02464 (August 2026) ultra-lightweight telemetry monitors: ESN ensemble with CUSUM alarms at ~200 microseconds/step; 71% failure detection at 5% false-alarm budget (AUROC 0.872); deterministic verification 60% detection at zero false positives; rollback repair recovers 45% of failures (52% → 73% success); horizon advantage +0.40 at ≥9 steps; calibration non-transfer across models; judge measured p_detect 0.548 vs stipulated 0.90; mapped to Codex CLI PostToolUse hooks, OpenTelemetry integration, exec --json streaming, hook coverage gap (issue #20204), Goal Mode long-horizon sessions; 5 citations
+   - SEO targets: "real-time failure detection coding agent codex cli", "ultra-lightweight monitor coding agent PostToolUse", "deterministic verification coding agent zero false positive", "codex cli PostToolUse telemetry failure repair", "coding agent failure detection rollback repair", "echo state network CUSUM coding agent monitor"
+
+---
+
 ## LoopsBench and the DAG-Shaped Future of Loop Engineering — Regression Obligations, Outer Continuation, Codex CLI Goal Mode (2026-08-05 Hourly Article Run)
 
 1. ✅ **LoopsBench and the DAG-Shaped Future of Loop Engineering: What the First Dependency-Aware Long-Horizon Benchmark Reveals About Codex CLI Session Strategy** — Written 2026-08-05 → `2026-08-05-loopsbench-loop-engineering-benchmark-dag-regression-obligations-codex-cli-goal-mode-long-horizon.md`
