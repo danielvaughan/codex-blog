@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Model or Harness — Interaction-Centric Failure Taxonomy, Root-Cause Attribution, Codex CLI Harness Debugging (2026-08-05 Hourly Article Run)
+
+1. ✅ **Model or Harness? Using the Interaction-Centric Failure Taxonomy to Debug Your Codex CLI Workflows** — Written 2026-08-05 → `2026-08-05-model-or-harness-interaction-centric-failure-taxonomy-codex-cli-agent-debugging-root-cause-attribution.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Raj et al. arXiv:2607.28802 (July 28, 2026) interaction-centric taxonomy: 41 failure modes across 9 components (User/Harness/Environment families), fault-side attribution (36 model-side, 5 harness/environment-side), Cohen's κ=0.76 LLM-judge agreement; complemented by MAST taxonomy (arXiv:2606.08162), 20,574-session misalignment study (arXiv:2605.29442), Inside the Scaffold architecture taxonomy (arXiv:2604.03515), LIFE-Harness 88.5% improvement across 17 backbones; mapped to Codex CLI PostToolUse hooks, AGENTS.md constraint rules, config.toml compaction/model settings, sandbox configuration, PreToolUse re-read hooks, codex-file-watcher crate; 8 citations
+   - SEO targets: "model or harness agent failure taxonomy codex cli", "interaction-centric failure taxonomy coding agent", "codex cli harness engineering debugging", "agent failure root cause attribution codex cli", "PostToolUse hooks failure detection codex cli", "harness-side vs model-side agent failure fix"
+
+---
+
 ## SWE-Touch Workspace State Awareness Gap — Counter-Edits, Shared-Workspace Collaboration, Codex CLI Hardening (2026-08-05 Hourly Article Run)
 
 1. ✅ **SWE-Touch and the Workspace State Awareness Gap: Why Your Coding Agent Breaks When You Touch the Code — and How to Harden Codex CLI for Shared-Workspace Collaboration** — Written 2026-08-05 → `2026-08-05-swe-touch-workspace-state-awareness-coding-agents-counter-edits-codex-cli-shared-workspace-collaboration.md`
