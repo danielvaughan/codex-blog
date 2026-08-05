@@ -1,5 +1,13 @@
 # Article Backlog
 
+## LoopsBench and the DAG-Shaped Future of Loop Engineering — Regression Obligations, Outer Continuation, Codex CLI Goal Mode (2026-08-05 Hourly Article Run)
+
+1. ✅ **LoopsBench and the DAG-Shaped Future of Loop Engineering: What the First Dependency-Aware Long-Horizon Benchmark Reveals About Codex CLI Session Strategy** — Written 2026-08-05 → `2026-08-05-loopsbench-loop-engineering-benchmark-dag-regression-obligations-codex-cli-goal-mode-long-horizon.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. arXiv:2608.00267 (July 31, 2026) LoopsBench: 112 tasks, 5,300+ development units, 8 languages, 9 domains, DAG-based dependency structure with median depth 6; best resolve rate 25.00% (Opus 4.7/Claude Code/outer continuation); 16.96% without continuation; regression rate 7.11%; edge F1 0.71 for plan quality; dynamic workflows 97.96 rounds vs goal-based 32-35 rounds; complemented by Osmani loop engineering framework (June 2026), Macedo loop-replacement paper (arXiv:2607.00038); mapped to Codex CLI Goal Mode /goal continuation, PostToolUse regression hooks, AGENTS.md dependency ordering, config.toml compaction strategy, model routing by dependency depth; 7 citations
+   - SEO targets: "loopsbench loop engineering benchmark codex cli", "dag dependency coding agent long-horizon benchmark", "codex cli goal mode outer continuation loop engineering", "regression obligation coding agent benchmark", "loop engineering codex cli session strategy", "loopsbench resolve rate coding agent 2026"
+
+---
+
 ## Model or Harness — Interaction-Centric Failure Taxonomy, Root-Cause Attribution, Codex CLI Harness Debugging (2026-08-05 Hourly Article Run)
 
 1. ✅ **Model or Harness? Using the Interaction-Centric Failure Taxonomy to Debug Your Codex CLI Workflows** — Written 2026-08-05 → `2026-08-05-model-or-harness-interaction-centric-failure-taxonomy-codex-cli-agent-debugging-root-cause-attribution.md`
