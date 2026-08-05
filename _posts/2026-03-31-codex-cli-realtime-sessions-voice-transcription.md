@@ -2,7 +2,7 @@
 title: "Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config"
 description: "Codex CLI's realtime session layer has matured significantly over the past few weeks. Two PRs — #14556 and #14606, both merged on 13 March 2026 — unified."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-08-05T14:16:35+01:00
+last_modified_at: 2026-08-05T16:11:06+01:00
 tags:
   - ecosystem
   - voice-input

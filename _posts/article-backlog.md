@@ -1,5 +1,13 @@
 # Article Backlog
 
+## RepoMirage and the Repository Context Reasoning Gap — Exploration Drift, Structural Scaffolding, Codex CLI (2026-08-05 Hourly Article Run)
+
+1. ✅ **RepoMirage and the Repository Context Reasoning Gap: Why Your Coding Agent Explores Everything and Understands Nothing** — Written 2026-08-05 → `2026-08-05-repomirage-repository-context-reasoning-gap-coding-agents-codex-cli-exploration-drift-structural-scaffolding.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. arXiv:2605.26177 RepoMirage: perturbation-based evaluation suite on SWE-Bench Verified; three semantics-preserving perturbations (dependency-path indirection, runtime-target masking, local-value externalisation); resolve rates drop 66.8% → 49.78% (Perturb) and 66.8% → 25.25% (Extend); exploration drift phenomenon; eight frontier models tested; RepoAnchor structure-first two-stage workflow; complemented by SWE-Explore (arXiv:2606.07297) and Probe-and-Refine Tuning (arXiv:2606.20512); mapped to Codex CLI AGENTS.md structural navigation rules, explorer subagent role, PostToolUse drift detection hooks, MCP structural knowledge graphs; 6 citations
+   - SEO targets: "repomirage repository context reasoning codex cli", "exploration drift coding agent codex cli", "repoanchor structure-first workflow coding agent", "codex cli AGENTS.md structural navigation", "repository context reasoning gap coding agent 2026", "codex cli explorer subagent structural scaffolding"
+
+---
+
 ## SWE-Bench-CL and the Continual Learning Gap — Catastrophic Forgetting, Memory Strategy, Codex CLI (2026-08-05 Hourly Article Run)
 
 1. ✅ **SWE-Bench-CL and the Continual Learning Gap: Why Your Coding Agent Forgets What Your Repository Learned Last Month** — Written 2026-08-05 → `2026-08-05-swe-bench-cl-continual-learning-coding-agents-catastrophic-forgetting-codex-cli-memory-strategy.md`
