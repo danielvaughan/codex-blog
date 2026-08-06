@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Rollout Token Budgets — Shared Accounting, Weighted Limits, Turn Abortion (2026-08-06 Hourly Article Run)
+
+1. ✅ **Codex CLI Rollout Token Budgets: Shared Accounting, Weighted Limits, and Graceful Turn Abortion** — Written 2026-08-06 → `2026-08-06-codex-cli-rollout-token-budgets-shared-accounting-weighted-limits-turn-abortion.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.147 alpha line (August 2026) introduces shared rollout token budgets via four PRs (#28746 configuration, #28494 accounting and reminders, #28707 turn abortion, #29423 threshold configuration); [features.rollout_budget] config.toml section; weighted token accounting (sampling vs prefill); model-visible budget reminders with coalesced delivery; soft turn abortion via CodexErr::TurnAborted; sub-agent shared ledger; practical configuration patterns for exploratory, CI/CD, and mixed-model workflows; 8 citations
+   - SEO targets: "codex cli rollout token budget configuration", "codex cli shared token budget multi-agent", "codex cli turn abortion budget exhausted", "codex cli v0.147 rollout budget weighted accounting", "codex cli cost control session budget", "codex cli features.rollout_budget config.toml"
+
+---
+
 ## AGENTS.md Ablation Study — Context Files, Correctness vs Efficiency, Codex CLI Workflow (2026-08-06 Hourly Article Run)
 
 1. ✅ **Do Context Files Actually Help? What a 288-Run Ablation Study Reveals About AGENTS.md, Correctness, and Your Codex CLI Workflow** — Written 2026-08-06 → `2026-08-06-do-context-files-help-coding-agents-agents-md-ablation-study-codex-cli-correctness-vs-efficiency.md`
