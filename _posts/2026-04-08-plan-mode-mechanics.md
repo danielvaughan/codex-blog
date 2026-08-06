@@ -2,7 +2,7 @@
 title: "Plan Mode Mechanics: Enter vs Tab, Syntax Highlighting and Inline Editing"
 description: "Codex CLI's terminal interface has evolved well beyond a simple prompt-and-response loop. Between plan mode, steer mode, and a rich set of TUI enhancements."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-08-06T12:13:47+01:00
+last_modified_at: 2026-08-06T14:12:14+01:00
 tags:
   - workflow-patterns
   - planning

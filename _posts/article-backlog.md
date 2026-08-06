@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Long-Horizon-Terminal-Bench — Dense Reward Grading, Codex CLI Goal Mode, Session Strategy (2026-08-06 Hourly Article Run)
+
+1. ✅ **Long-Horizon-Terminal-Bench: What Dense Reward Grading Reveals About Your Codex CLI Session Strategy** — Written 2026-08-06 → `2026-08-06-long-horizon-terminal-bench-dense-reward-grading-codex-cli-goal-mode-session-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. arXiv:2607.08964 (July 9, 2026) Long-Horizon-Terminal-Bench: 46 tasks across 9 categories; 17 frontier models tested; 9.8M avg tokens per task; 239 avg episodes; 88.9 min avg execution; Grok 4.5 best at 28.3% pass@0.95; GPT-5.6 Sol and GPT-5.5 at 15.2%; 79% failures from timeout exhaustion; false finishes at R≥0.75; weak self-verification; dense reward methodology with subtask decomposition; mapped to Codex CLI Goal Mode, v0.147 rollout token budgets, multi-agent V2 delegation, PostToolUse verification hooks, AGENTS.md planning scaffold; 5 citations
+   - SEO targets: "long-horizon-terminal-bench codex cli goal mode", "dense reward grading coding agent benchmarks", "codex cli long-horizon session strategy token budget", "coding agent timeout exhaustion false finish", "codex cli multi-agent delegation long tasks", "terminal agent benchmark dense rewards 2026"
+
+---
+
 ## RepoComplianceBench — Coding Agents' Compliance with AI Contribution Rules, Open-Source Governance, Codex CLI Disclosure (2026-08-06 Hourly Article Run)
 
 1. ✅ **RepoComplianceBench: Why Your Coding Agent Ignores Open-Source Contribution Rules — and What Codex CLI Practitioners Can Do About It** — Written 2026-08-06 → `2026-08-06-repo-compliance-bench-coding-agents-ai-contribution-rules-open-source-codex-cli-disclosure-governance.md`
