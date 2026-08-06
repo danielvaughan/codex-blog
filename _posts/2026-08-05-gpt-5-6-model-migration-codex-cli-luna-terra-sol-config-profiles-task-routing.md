@@ -19,8 +19,10 @@ On 9 July 2026 OpenAI released GPT-5.6 as a three-tier family[^2]:
 | Tier | Model string | Input / Output per 1M tokens | Sweet spot |
 |------|-------------|------------------------------|------------|
 | **Sol** | `gpt-5.6-sol` | $5 / $30 | Ambiguous changes, unfamiliar repos, architecture decisions |
-| **Terra** | `gpt-5.6-terra` | $2.50 / $15 | Everyday implementation, investigation, refactoring |
-| **Luna** | `gpt-5.6-luna` | $1 / $6 | Well-specified fixes, transformation, classification, volume work |
+| **Terra** | `gpt-5.6-terra` | $2 / $12 | Everyday implementation, investigation, refactoring |
+| **Luna** | `gpt-5.6-luna` | $0.20 / $1.20 | Well-specified fixes, transformation, classification, volume work |
+
+> **Note:** These prices reflect the 30 July 2026 price cut. At launch on 9 July 2026, Terra was $2.50 / $15 and Luna was $1 / $6. Sol pricing is unchanged[^6].
 
 All three share a 1 million token context window, a 128,000 token maximum output, and a knowledge cutoff of 16 February 2026[^2]. The naming convention is deliberate: the numeral identifies the generation; the name identifies a durable capability tier that advances on its own cadence[^3].
 
@@ -32,7 +34,7 @@ The numbers worth knowing for a coding-agent context:
 - **Terminal-Bench 2.1**: Sol 88.8% (91.9% in ultra mode); Luna 82.5% — within a point of GPT-5.5[^4].
 - **Artificial Analysis Coding Agent Index**: Sol sets the state of the art at 80[^4].
 
-Luna scoring 82.5% on Terminal-Bench at one-fifth the price of Sol is the key figure for migration planning: many tasks that previously ran on GPT-5.4 mini can move to Luna with better results and lower cost.
+Luna scoring 82.5% on Terminal-Bench at a fraction of the price of Sol is the key figure for migration planning: many tasks that previously ran on GPT-5.4 mini can move to Luna with better results and lower cost.
 
 ## The Migration Map
 
@@ -237,7 +239,7 @@ If you have a hard dependency on GPT-5.4 behaviour — for example, a fine-tuned
 
 ## Conclusion
 
-The GPT-5.6 migration is less about swapping one model string for another and more about adopting the tiered model as a routing strategy. Luna at $1/$6 per million tokens covers the volume work that previously required GPT-5.4 mini. Terra matches or exceeds GPT-5.4 at a competitive price point. Sol is there for the tasks where capability matters more than cost. Named profiles make the routing explicit and repeatable. Update your configs, grep for stale model strings, and test before the deadline.
+The GPT-5.6 migration is less about swapping one model string for another and more about adopting the tiered model as a routing strategy. Luna at $0.20/$1.20 per million tokens covers the volume work that previously required GPT-5.4 mini. Terra at $2/$12 matches or exceeds GPT-5.4 at a competitive price point. Sol is there for the tasks where capability matters more than cost. Named profiles make the routing explicit and repeatable. Update your configs, grep for stale model strings, and test before the deadline.
 
 ## Citations
 
@@ -250,3 +252,5 @@ The GPT-5.6 migration is less about swapping one model string for another and mo
 [^4]: BuildFastWithAI, "GPT-5.6 Review: Sol, Terra, Luna Tested (2026)," [https://www.buildfastwithai.com/blogs/gpt-5-6-sol-terra-luna-review-2026](https://www.buildfastwithai.com/blogs/gpt-5-6-sol-terra-luna-review-2026)
 
 [^5]: Majestic Labs, "Codex CLI config.toml Guide 2026," [https://majesticlabs.dev/blog/202607/codex-cli-configuration-guide](https://majesticlabs.dev/blog/202607/codex-cli-configuration-guide)
+
+[^6]: OpenAI, "Advancing the price-performance frontier with GPT-5.6," 30 July 2026. [https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/)
