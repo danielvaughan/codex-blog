@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Failure as a Process — CLI Coding Agent Trajectory Anatomy, Early Intervention in Codex CLI (2026-08-06 Hourly Article Run)
+
+1. ✅ **Failure as a Process: What 63,000 Annotated Execution Steps Reveal About CLI Coding Agent Trajectories — and How to Intervene Earlier in Codex CLI** — Written 2026-08-06 → `2026-08-06-failure-as-a-process-cli-coding-agent-trajectory-anatomy-codex-cli-early-intervention.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhao et al. arXiv:2607.09510 (July 10, 2026) 1,794 trajectories across 7 frontier models and 3 scaffolds; 63,000+ annotated steps; three-phase failure framework (t_err/t_lock/t_obs); decisive errors at median step 7; observability lag of ~10 steps; epistemic errors 57.9% (false premises 30.7%); 26% fabrication rate; 71% successful runs encounter errors; mapped to Codex CLI PreToolUse/PostToolUse hooks, AGENTS.md specification scaffolding, approval mode recovery gates, auto-review fabrication defence, v0.146.1 Luna-based auto-review; 5 citations
+   - SEO targets: "coding agent failure trajectory analysis codex cli", "CLI coding agent failure process early intervention", "epistemic errors coding agents false premises", "codex cli PreToolUse hook failure prevention", "coding agent trajectory anatomy observability lag", "codex cli auto-review fabrication detection"
+
+---
+
 ## Long-Horizon-Terminal-Bench — Dense Reward Grading, Codex CLI Goal Mode, Session Strategy (2026-08-06 Hourly Article Run)
 
 1. ✅ **Long-Horizon-Terminal-Bench: What Dense Reward Grading Reveals About Your Codex CLI Session Strategy** — Written 2026-08-06 → `2026-08-06-long-horizon-terminal-bench-dense-reward-grading-codex-cli-goal-mode-session-strategy.md`
