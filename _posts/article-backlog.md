@@ -1,5 +1,37 @@
 # Article Backlog
 
+## BulkPR-Bench — Queue-Level Governance, Interacting Pull Requests, Codex CLI Multi-Agent Merge Queue Coordination (2026-08-07 Hourly Article Run)
+
+1. ✅ **BulkPR-Bench: Why Your Multi-Agent PR Queue Is a Governance Problem — and What Codex CLI Developers Should Do About It** — Written 2026-08-07 → `2026-08-07-bulkpr-bench-queue-level-governance-interacting-pull-requests-codex-cli-multi-agent-merge-queue-coordination.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Xiong, Zhao, Zhang et al. arXiv:2608.02685 (August 3, 2026) BulkPR-Bench: first benchmark for queue-level PR governance; 581 candidate PRs across 18 real repositories (Python/Go/TypeScript); rolling-release protocol with buffered batching K=32; seven relation families (pairwise/higher-order conflicts, dependencies, all-or-none, must-reject, duplicates, superseding); Claude Opus 4.8 best at 66.6% RDS; GPT-5.4 best Global-SGY at 13.0%; only 8/324 runs achieved Exact Completion; 69.8% runs ended with unsafe commits; critical-relation recall 35.2%-57.7%; 22.3-50.2pp headroom with gold relations; mapped to Codex CLI Multi-Agent V2 worktree isolation, AGENTS.md dependency specification, PostToolUse merge-safety hooks, GitHub merge queue integration, cross-agent conflict rates (41.7% vs 19.8%); 5 citations
+   - SEO targets: "BulkPR-Bench codex cli multi-agent merge queue", "codex cli multi-agent PR governance coordination", "pull request queue-level governance benchmark 2026", "codex cli PostToolUse merge safety hooks", "multi-agent PR conflict detection coding agents", "codex cli worktree isolation merge queue strategy"
+
+---
+
+## ContinualSkillBench — LLM Agent Skill Evolution, Codex CLI Skill Architecture, Consolidation Gap (2026-08-06 Hourly Article Run)
+
+1. ✅ **ContinualSkillBench: Can Your Coding Agent Actually Learn From Experience — and What Codex CLI's Skill Architecture Gets Right** — Written 2026-08-06 → `2026-08-06-continualskillbench-llm-agent-skill-evolution-codex-cli-skill-architecture-consolidation-gap.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Guan et al. arXiv:2608.03874 (August 4, 2026) ContinualSkillBench: dynamic evaluation framework for in-context continual skill learning; 500 subtasks across 5 domains; 3 frontier models (GPT-4o, GPT-5.3-Codex, Claude 4.7 Opus); 16.9% aggregate sequential gain; ICL matches explicit skill maintenance (0.605 vs 0.602); GPT-5.3-Codex compact ~205 skills vs GPT-4o fragmented ~384; mapped to Codex CLI two-phase skill loading, four-scope precedence (Repo/User/System/Admin), BFS discovery with safety limits, SKILL.md human-curated format, agentskills.io open standard; complemented by SkillLearnBench COLM'26 and SkillRevise; 5 citations
+   - SEO targets: "ContinualSkillBench codex cli skill evolution", "codex cli SKILL.md skill architecture consolidation", "LLM agent continual skill learning benchmark 2026", "codex cli skill discovery two-phase loading", "agent skill library fragmentation consolidation gap", "codex cli skill reuse practices curation"
+
+---
+
+## PerfAgent — Profiler-Guided Iterative Refinement, Codex CLI Performance Optimisation PostToolUse Hooks (2026-08-06 Hourly Article Run)
+
+1. ✅ **PerfAgent and the Profiler Feedback Loop: Why Your Coding Agent Stops at Shallow Speedups — and How to Build an Iterative Optimisation Workflow in Codex CLI** — Written 2026-08-06 → `2026-08-06-perfagent-profiler-guided-iterative-refinement-codex-cli-performance-optimization-postooluse-hooks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Deng et al. arXiv:2607.19653 (July 22, 2026) PerfAgent: profiler-guided verifier-in-the-loop workflow for repository-level code optimisation; three failure modes (missing bottlenecks, premature termination, insufficient validation); py-spy 100Hz sampling with LLM-condensed hotspot summaries; θ=5 iteration loop controller retaining best correct patch; pytest-testmon selective validation (66-99% test reduction); GSO 19.6%→39.2% Opt@1 (2×), SWE-fficiency-Lite 26%→74% (2.8×); outperforms oracle best@5 at 2-3× lower cost ($2.88 vs $11.01/task); 48% cross-abstraction-boundary modifications vs 31% baseline; mapped to Codex CLI PostToolUse hooks for profiler feedback injection, AGENTS.md iterative loop specification, pytest-testmon integration, named profiles for optimisation workflows, rollout token budget configuration, GPT-5.6 Sol for cross-boundary reasoning; 7 citations
+   - SEO targets: "PerfAgent codex cli performance optimisation", "profiler-guided coding agent iterative refinement", "codex cli PostToolUse profiler hook", "coding agent performance optimisation benchmark", "py-spy profiler feedback coding agent", "codex cli AGENTS.md optimisation workflow", "profiler feedback vs test-time scaling agent cost"
+
+---
+
+## IssueTrojanBench — Malicious Issue Injection, Coding Agent Guardrails, Codex CLI Sandbox Defence (2026-08-06 Hourly Article Run)
+
+1. ✅ **IssueTrojanBench: 66.5% of Malicious Issues Bypass Coding Agent Guardrails — What Codex CLI's Sandbox Architecture Gets Right** — Written 2026-08-06 → `2026-08-06-issuetrojanbench-malicious-issue-injection-coding-agents-codex-cli-sandbox-defence-supply-chain-guardrails.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Singh, Yang & Chen arXiv:2607.20759 (July 22, 2026) IssueTrojanBench: 4,176 runs across Codex Desktop, Cursor, Claude Code; four attack categories (supply chain 96.6%, policy bypass 84.7%, persistent hooks 59.8%, resource exhaustion 24.9%); six delivery vectors; 66.5% overall penetration; 0% agent-level blocking; 82.9% model-level refusal; GPT-5.3 Codex 84.8% vulnerable vs Sonnet 4.6 41.1%; mapped to Codex CLI sandbox (Landlock/Seatbelt/seccomp-BPF), requirements.toml network allowlisting, PreToolUse/PostToolUse hooks, approval mode, sensitive path read-only enforcement; 5 citations
+   - SEO targets: "issuetrojanbench malicious issue coding agent", "codex cli sandbox defence supply chain attack", "coding agent guardrail bypass malicious issues", "codex cli PreToolUse hook issue security", "malicious github issue coding agent benchmark 2026", "codex cli network isolation supply chain poisoning"
+
+---
+
 ## Failure as a Process — CLI Coding Agent Trajectory Anatomy, Early Intervention in Codex CLI (2026-08-06 Hourly Article Run)
 
 1. ✅ **Failure as a Process: What 63,000 Annotated Execution Steps Reveal About CLI Coding Agent Trajectories — and How to Intervene Earlier in Codex CLI** — Written 2026-08-06 → `2026-08-06-failure-as-a-process-cli-coding-agent-trajectory-anatomy-codex-cli-early-intervention.md`

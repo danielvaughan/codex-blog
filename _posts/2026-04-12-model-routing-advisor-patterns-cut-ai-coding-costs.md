@@ -2,7 +2,7 @@
 title: "Model Routing and Advisor Patterns: How to Cut AI Coding Costs Without Losing Quality"
 description: "Running your most powerful model on every task is the fastest way to burn through your API budget. A one-line grep does not need GPT-5.4 or Opus 4.6."
 date: 2026-04-12T08:00:00+00:00
-last_modified_at: 2026-08-06T16:09:59+01:00
+last_modified_at: 2026-08-07T00:19:18+01:00
 tags:
   - codex-cli
   - claude-code
