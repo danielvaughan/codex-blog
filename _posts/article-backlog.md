@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Black Hat 2026 Agent Framework CVEs — Codex CLI Sandbox Architecture Defence and MCP Server Supply Chain (2026-08-06 Hourly Article Run)
+
+1. ✅ **Black Hat 2026: Eleven Agent Framework CVEs and Why Codex CLI's Sandbox-First Architecture Dodges the Worst of Them** — Written 2026-08-06 → `2026-08-06-black-hat-2026-agent-framework-vulnerabilities-codex-cli-sandbox-architecture-defence-mcp-server-supply-chain.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Check Point researchers Yarden Porat and Shahar Tal presented "No Tools Required: Post-Injection Exploitation Across AI Agent Frameworks" at Black Hat USA 2026 (5 August 2026); 11 vulnerabilities across LangChain, LangGraph, CrewAI, AutoGen, Microsoft Agent Framework, Google ADK; CVE-2025-67644 SQLite injection, CVE-2026-28277 msgpack deserialisation RCE, CVE-2026-27022 Redis injection; three attack techniques: delayed-execution injection, cross-agent propagation, persistent memory poisoning; $17,133.70 bounties; mapped to Codex CLI Rust-native sandbox architecture (Landlock/Seatbelt/restricted tokens), MCP server dependency auditing, PreToolUse hooks, requirements.toml fleet allowlisting; 8 citations
+   - SEO targets: "black hat 2026 agent framework vulnerabilities codex cli", "codex cli sandbox architecture security", "langchain langgraph CVE agent framework", "MCP server supply chain security codex cli", "agent framework deserialization RCE defence", "codex cli landlock seatbelt sandbox vs framework"
+
+---
+
 ## Meta Muse Code Beta — Persistent Agents, Terminal Agent Landscape, Codex CLI Competitive Analysis (2026-08-06 Hourly Article Run)
 
 1. ✅ **Meta Muse Code Enters the Terminal Agent Wars: Persistent Background Agents, Replay-Safe Event Logs, and What It Means for Your Codex CLI Workflow** — Written 2026-08-06 → `2026-08-06-meta-muse-code-beta-persistent-agents-codex-cli-terminal-agent-landscape-competitive-analysis.md`
