@@ -188,4 +188,4 @@ For Codex CLI users, the practical upshot is clear: keep your `AGENTS.md` lean, 
 
 [^4]: T. Gloaguen, N. Mündler, M. Müller, V. Raychev, and M. Vechev, "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?" arXiv:2602.11988, February 2026. ETH Zurich / SRI Lab. [https://arxiv.org/abs/2602.11988](https://arxiv.org/abs/2602.11988)
 
-[^5]: "Context Engineering Research: Papers & Benchmarks (2026)," I. Woszapar, 2026. [https://www.iwoszapar.com/p/context-engineering-research-2026](https://www.iwoszapar.com/p/context-engineering-research-2026)
+[^5]: I. Woszapar, "Context Engineering Research: Papers & Benchmarks (2026)," 2026. [https://www.iwoszapar.com/p/context-engineering-research-2026](https://www.iwoszapar.com/p/context-engineering-research-2026) — Background survey referenced during research.
