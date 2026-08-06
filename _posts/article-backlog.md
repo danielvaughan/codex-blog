@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AGENTS.md Ablation Study — Context Files, Correctness vs Efficiency, Codex CLI Workflow (2026-08-06 Hourly Article Run)
+
+1. ✅ **Do Context Files Actually Help? What a 288-Run Ablation Study Reveals About AGENTS.md, Correctness, and Your Codex CLI Workflow** — Written 2026-08-06 → `2026-08-06-do-context-files-help-coding-agents-agents-md-ablation-study-codex-cli-correctness-vs-efficiency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Khatri arXiv:2607.27250 (July 28, 2026) 288-run ablation study across Claude Code (claude-sonnet-4-6) and Codex CLI (gpt-5.5); three context strategies (none, always-on, selective); 17 tasks from 3 Python repos; correctness bounded to ≤10-15pp via TOST; reconciled with Lulla et al. (2601.20404) efficiency findings and Gloaguen et al. (2602.11988) ETH Zurich study; agent-specific difficulty (Spearman ρ=0.75); practical AGENTS.md template and model routing recommendations; 5 citations
+   - SEO targets: "AGENTS.md effectiveness correctness ablation study", "context files coding agents empirical evidence", "codex cli AGENTS.md efficiency vs correctness", "AGENTS.md ablation two-agent study 2026", "context engineering coding agents research", "codex cli model routing vs context files"
+
+---
+
 ## Black Hat 2026 Agent Framework CVEs — Codex CLI Sandbox Architecture Defence and MCP Server Supply Chain (2026-08-06 Hourly Article Run)
 
 1. ✅ **Black Hat 2026: Eleven Agent Framework CVEs and Why Codex CLI's Sandbox-First Architecture Dodges the Worst of Them** — Written 2026-08-06 → `2026-08-06-black-hat-2026-agent-framework-vulnerabilities-codex-cli-sandbox-architecture-defence-mcp-server-supply-chain.md`
