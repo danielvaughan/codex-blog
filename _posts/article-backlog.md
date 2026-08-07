@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Active-SWE — Proactive Bug Fixing, Coding Agent Discovery Workflows, Codex CLI Scan/Review Pipeline (2026-08-07 Hourly Article Run)
+
+1. ✅ **Active-SWE: Why Your Coding Agent Waits for Bug Reports — and How to Build a Proactive Discovery Workflow in Codex CLI** — Written 2026-08-07 → `2026-08-07-active-swe-proactive-bug-fixing-coding-agents-codex-cli-scan-review-discovery-workflow.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. arXiv:2608.04682 (August 5, 2026) Active-SWE: first benchmark for proactive bug fixing without issue reports; 1,663 tasks across 6 bug categories and 8 programming languages; difficulty-aware task formulation pipeline; dual-track evaluation (recorded bug resolution + potential bug discovery); state-of-the-art agents show limited proactive performance; complemented by ChainSWE (arXiv:2607.02606) multi-bug performance drop up to 70%, developer-agent misalignment study (arXiv:2605.29442) 20,574 sessions; mapped to Codex CLI /review command, AGENTS.md proactive directives, MCP static analysis integration, PostToolUse verification hooks, codex exec CI pipeline scanning; 6 citations
+   - SEO targets: "Active-SWE proactive bug fixing coding agent benchmark", "codex cli proactive code review scan workflow", "coding agent bug discovery without issue reports", "codex cli AGENTS.md proactive review directives", "proactive bug detection coding agent benchmark 2026", "codex cli PostToolUse verification bug fixing"
+
+---
+
 ## Agentic Coding in the Wild — GitHub Copilot Production Traces, KV Cache, Session Strategy (2026-08-07 Hourly Article Run)
 
 1. ✅ **Agentic Coding in the Wild: What 13.5 Million Production Sessions Reveal About Your Codex CLI Session Strategy** — Written 2026-08-07 → `2026-08-07-agentic-coding-in-the-wild-github-copilot-production-traces-codex-cli-session-strategy.md`
