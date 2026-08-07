@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AGENTS.md Efficiency Impact — ICSE 2026 JAWs Study, Token Savings, Runtime Reduction (2026-08-07 Hourly Article Run)
+
+1. ✅ **AGENTS.md Pays for Itself: What the ICSE 2026 JAWs Efficiency Study Means for Your Codex CLI Token Budget** — Written 2026-08-07 → `2026-08-07-agents-md-efficiency-impact-icse-2026-jaws-codex-cli-token-savings-runtime-reduction.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Lulla et al. (arXiv:2601.20404) ICSE 2026 JAWs study: 10 repositories, 124 paired PR tasks, GPT-5.2-Codex; 28.64% median runtime reduction (98.57s→70.34s); 16.58% median output token reduction (2,925→2,440); Wilcoxon signed-rank p<0.05; exploration tax mechanism; six core content sections; mapped to Codex CLI AGENTS.md hierarchical discovery, monorepo nested patterns, project_doc_max_bytes 32 KiB cap, ROI calculation for GPT-5.6 Terra pricing; complemented by ACF evolution study (arXiv:2606.25257) and structural codebase indexing (arXiv:2606.22417); 6 citations
+   - SEO targets: "AGENTS.md efficiency impact codex cli token savings", "ICSE 2026 AGENTS.md coding agent runtime reduction", "AGENTS.md best practices codex cli token budget", "agent context file efficiency benchmark 2026", "codex cli AGENTS.md monorepo configuration", "AGENTS.md ROI token cost reduction coding agent"
+
+---
+
 ## MCP 2026-07-28 Stateless Protocol — Codex CLI Paginated Discovery, Multi-Round Requests, Migration (2026-08-07 Hourly Article Run)
 
 1. ✅ **MCP 2026-07-28: What the Stateless Protocol Overhaul Means for Your Codex CLI MCP Servers** — Written 2026-08-07 → `2026-08-07-mcp-2026-07-28-stateless-protocol-codex-cli-paginated-discovery-multi-round-requests-migration.md`
