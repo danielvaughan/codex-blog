@@ -2,7 +2,7 @@
 title: "Skill Creator V2 and Codex CLI: Scientific Skill Improvement Without the Token Bill"
 description: "Anthropic's Skill Creator V2 — available at skills.sh — promises scientific evaluation of agent skills. It launches parallel sub-agent executions, runs."
 date: 2026-04-09T07:13:00+00:00
-last_modified_at: 2026-08-07T06:07:52+01:00
+last_modified_at: 2026-08-07T07:06:30+01:00
 tags:
   - skill-creator-v2
   - skills-sh
