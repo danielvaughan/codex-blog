@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Token Reduction Is Not Cost Reduction — Prompt-Cache Economics, Codex CLI Cost Strategy (2026-08-07 Hourly Article Run)
+
+1. ✅ **Token Reduction Is Not Cost Reduction: What Prompt-Cache Economics Mean for Your Codex CLI Cost Strategy** — Written 2026-08-07 → `2026-08-07-token-reduction-is-not-cost-reduction-prompt-cache-economics-codex-cli-cost-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Weinberger & Hozez arXiv:2607.12161 (July 13, 2026, revised August 2, 2026) "Token Reduction Is Not Cost Reduction": 2,908 Claude Code runs across 103 tasks and 7 repositories; 38.4% tool-output token reduction yielded +6.8% billed cost increase; prompt-cache traffic dominates at ~87% of reconstructed cost (~80% of actual bill); 94% of input tokens locked in system prompts/tool definitions; only 6% accessible to user-side compression; SWE-bench Go tasks: compression destroyed verbatim edit anchors reducing patch application from 27/40 to 15/40; Headroom open-source compressor increased costs by 48.4%; mapped to Codex CLI tool_output_token_limit conservative settings, model_auto_compact_limit cache preservation, AGENTS.md trajectory reduction, named profiles for GPT-5.6 Sol/Terra/Luna model routing, GPT-5.6 cache write pricing (1.25x uncached input), CPS (cost per successful execution) as decision-grade metric; 6 citations
+   - SEO targets: "token reduction is not cost reduction codex cli", "codex cli prompt cache economics cost strategy", "prompt caching coding agent cost optimisation 2026", "codex cli tool_output_token_limit cache preservation", "coding agent context compression backfire cost increase", "codex cli GPT-5.6 cache write pricing model routing"
+
+---
+
 ## Permission Denied — Policy-Graded Coding Agents in Hardened Environments, Codex CLI Enterprise Sandbox Profiles (2026-08-07 Hourly Article Run)
 
 1. ✅ **Permission Denied: What Policy-Graded Benchmarking Reveals About Your Coding Agent in Hardened Environments — and How to Configure Codex CLI's Sandbox for the Real World** — Written 2026-08-07 → `2026-08-07-permission-denied-policy-graded-coding-agents-hardened-environments-codex-cli-enterprise-sandbox-profiles.md`

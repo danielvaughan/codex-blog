@@ -2,7 +2,7 @@
 title: "Gemini CLI Subagents: Multi-Agent Orchestration Arrives"
 description: "Source: Google Developers Blog Author: Google Published: 2026-04-15 Content age: Current — announced April 15, 2026 Tags: gemini-cli, subagents,."
 date: 2026-04-15T00:00:00+00:00
-last_modified_at: 2026-08-07T18:18:49+01:00
+last_modified_at: 2026-08-07T20:08:15+01:00
 type: Technical Article
 timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-gemini-cli-subagents-launch"
