@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Permission Denied — Policy-Graded Coding Agents in Hardened Environments, Codex CLI Enterprise Sandbox Profiles (2026-08-07 Hourly Article Run)
+
+1. ✅ **Permission Denied: What Policy-Graded Benchmarking Reveals About Your Coding Agent in Hardened Environments — and How to Configure Codex CLI's Sandbox for the Real World** — Written 2026-08-07 → `2026-08-07-permission-denied-policy-graded-coding-agents-hardened-environments-codex-cli-enterprise-sandbox-profiles.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Davidovich et al. arXiv:2608.02670 (August 2, 2026) Permission Denied: first policy-graded evaluation of coding agents under enterprise hardening; 12 model-harness bundles on Terminal-Bench 2.1 across three nested policy levels (Control, Non-root, NIST-derived High); 18.3pp max success loss (Claude Sonnet 5), 167.3% max cost inflation (Grok 4.5); 82/89 tasks remain solvable under strictest policy; agents grind (59% timeout, 37% wrong solution) rather than quit; 26% token inflation on hardened passes; model ranking is policy-dependent; Boundary-Bench open-source hardening plugin; mapped to Codex CLI permission profiles (:read-only/:workspace/:danger-full-access), requirements.toml fleet enforcement, PreToolUse/PostToolUse hooks, named profiles for policy-dependent model selection, rollout token budget right-sizing, tool_output_token_limit for denial-retry capping; 6 citations
+   - SEO targets: "permission denied coding agents hardened environments codex cli", "codex cli sandbox permission profiles enterprise", "policy-graded evaluation coding agents NIST", "codex cli requirements.toml fleet security", "coding agent hardened environment benchmark 2026", "codex cli PreToolUse hook permission denied guidance"
+
+---
+
 ## Active-SWE — Proactive Bug Fixing, Coding Agent Discovery Workflows, Codex CLI Scan/Review Pipeline (2026-08-07 Hourly Article Run)
 
 1. ✅ **Active-SWE: Why Your Coding Agent Waits for Bug Reports — and How to Build a Proactive Discovery Workflow in Codex CLI** — Written 2026-08-07 → `2026-08-07-active-swe-proactive-bug-fixing-coding-agents-codex-cli-scan-review-discovery-workflow.md`
