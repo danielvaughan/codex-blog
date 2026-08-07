@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agentic Coding in the Wild — GitHub Copilot Production Traces, KV Cache, Session Strategy (2026-08-07 Hourly Article Run)
+
+1. ✅ **Agentic Coding in the Wild: What 13.5 Million Production Sessions Reveal About Your Codex CLI Session Strategy** — Written 2026-08-07 → `2026-08-07-agentic-coding-in-the-wild-github-copilot-production-traces-codex-cli-session-strategy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Liu et al. arXiv:2608.00101 (July 30, 2026) first production-scale characterisation of coding agent workloads; 3.2M users, 13.5M sessions, 761M LLM calls, 95T prompt tokens from GitHub Copilot June 2026 telemetry; 275:1 input-to-output token ratio; KV cache 10-minute cliff (>95% hit rate under 2 min idle, 0-5% beyond 10 min); context compaction in 7.8% sessions consuming 22% turn time and destroying 66.1% cache hit rate; 4× compute amplification from tool failures; five user archetypes spanning 50× token range; mapped to Codex CLI named profiles, prompt caching strategy, context compaction threshold, PostToolUse hooks, multi-agent delegation; 6 citations
+   - SEO targets: "agentic coding production traces codex cli session strategy", "KV cache coding agent turn boundary idle time", "context compaction cost codex cli token budget", "coding agent failure retry compute amplification", "codex cli named profiles user archetypes token cost", "GitHub Copilot production workload characterisation 2026"
+
+---
+
 ## AGENTS.md Efficiency Impact — ICSE 2026 JAWs Study, Token Savings, Runtime Reduction (2026-08-07 Hourly Article Run)
 
 1. ✅ **AGENTS.md Pays for Itself: What the ICSE 2026 JAWs Efficiency Study Means for Your Codex CLI Token Budget** — Written 2026-08-07 → `2026-08-07-agents-md-efficiency-impact-icse-2026-jaws-codex-cli-token-savings-runtime-reduction.md`
