@@ -2,7 +2,7 @@
 title: "Codex Plugin Discovery: @Mentions, the In-TUI Browser and Marketplace Navigation"
 description: "On 26 March 2026, Codex v0.117.0 shipped plugins as a first-class workflow. Skills, MCP server configurations and third-party app integrations — previously."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-08-07T03:12:41+01:00
+last_modified_at: 2026-08-07T04:14:19+01:00
 tags:
   - ecosystem
   - plugins

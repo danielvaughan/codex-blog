@@ -1,5 +1,13 @@
 # Article Backlog
 
+## VulnGym — Repository-Level Vulnerability Detection, Business-Logic Flaws, Codex CLI Security Scanning (2026-08-07 Hourly Article Run)
+
+1. ✅ **VulnGym and the Business-Logic Blindspot: What Repository-Level Vulnerability Benchmarks Reveal About Coding Agent Security Scanning** — Written 2026-08-07 → `2026-08-07-vulngym-repository-level-vulnerability-detection-coding-agents-codex-cli-security-scanning-business-logic-flaws.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ji et al. arXiv:2608.02001 (August 3, 2026) VulnGym: Tencent Wukong Code Security Team benchmark; 184 advisories, 408 vulnerability entries across 38 projects/23 repos; 71.2% business-logic flaws (broken authorisation, missing access control, privilege escalation, agent capability bypass); 28.8% traditional vulnerabilities; line-level entry points, critical operations, cross-module traces; advisory-level and entry-level recall metrics; current agents limited in both detection and trace construction; mapped to Codex CLI three-layer security (Codex Security CLI scan/diff/hook, PreToolUse/PostToolUse hooks, AGENTS.md security directives); 5 citations
+   - SEO targets: "VulnGym repository-level vulnerability detection coding agents", "codex cli security scanning business-logic vulnerabilities", "business-logic vulnerability benchmark coding agent 2026", "codex security cli PostToolUse vulnerability hooks", "coding agent vulnerability detection recall benchmark", "codex cli AGENTS.md security directives authorisation"
+
+---
+
 ## Scrouting — Cost-Aware Model Routing, Repository Scouting, Codex CLI Sol/Terra/Luna Task Routing (2026-08-07 Hourly Article Run)
 
 1. ✅ **Scrouting: What Cost-Aware Repository Scouting Means for Your Codex CLI Model Routing Strategy** — Written 2026-08-07 → `2026-08-07-scrouting-cost-aware-model-routing-repository-scouting-codex-cli-sol-terra-luna-task-routing.md`
