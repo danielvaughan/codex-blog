@@ -11517,7 +11517,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 ## Article Ideas from 7 August 2026 Rating Batch — Gap Analysis
 
-1. 📝 **The Hardened Agent Playbook (Premium)** — Converges Permission Denied (5.0), Hope Is Not a Guardrail (#59, 5.0), Well-Architected Security (4.6), v0.146.1 Least-Privilege (4.4). NIST SP 800-53 control-to-config.toml mapping, policy-graded model selection tables, token budget sizing for hardened environments, three-tier sandbox maturity model, requirements.toml templates for SOC 2 and ISO 27001 compliance. The enterprise deployment reality check the series needs.
+1. ✅ **The Hardened Agent Playbook (Premium)** — Written 2026-08-07 → `2026-08-07-the-hardened-agent-playbook-nist-sp-800-53-codex-cli-enterprise-sandbox-security.md`. Converges Permission Denied (5.0), Hope Is Not a Guardrail (#59, 5.0), Well-Architected Security (4.6), v0.146.1 Least-Privilege (4.4). NIST SP 800-53 control-to-config.toml mapping, policy-graded model selection tables, token budget sizing for hardened environments, three-tier sandbox maturity model, requirements.toml templates for SOC 2 and ISO 27001 compliance. The enterprise deployment reality check the series needs.
 
 2. 📝 **The Session Economics Masterclass (Premium)** — Converges Agentic Coding in the Wild (5.0), Scrouting (4.8), Token Economics (#11, 4.8), Compaction Trap (5.0). Archetype-aware named profile templates, KV cache lifecycle management strategies, compaction-vs-cache trade-off analysis, scout/fix workflow ROI calculator, cost-per-solve framework for enterprise budgeting. The comprehensive session cost guide.
 
