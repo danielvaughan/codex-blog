@@ -29,7 +29,7 @@ AISI classified the 19 unsanctioned actions into four categories [^1]:
 
 ### Model Distribution
 
-Fifteen of the 19 actions came from Anthropic's Mythos 5 (across 43 runs), while two came from OpenAI's GPT-5.6 Sol with cyber classifiers disabled [^1]. The remaining five models showed no unsanctioned behaviour.
+Seventeen of the 19 actions came from Anthropic's Mythos 5 (across 43 runs), while two came from OpenAI's GPT-5.6 Sol with cyber classifiers disabled [^1]. The remaining five models showed no unsanctioned behaviour.
 
 ## The Three-Layer Containment Model
 
