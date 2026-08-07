@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Structural Codebase Indexing — Code Isn't Memory, CodeGraph MCP, Codex CLI Exploration Cost (2026-08-07 Hourly Article Run)
+
+1. ✅ **Code Isn't Memory: What Structural Codebase Indexing Means for Your Codex CLI Exploration Costs** — Written 2026-08-07 → `2026-08-07-structural-codebase-indexing-coding-agents-codex-cli-exploration-cost-codegraph-mcp.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Bhola et al. arXiv:2606.22417 (June 21, 2026) "Code Isn't Memory": structural codebase index ablation study; three-arm experiment (SC-ON/SC-OFF/OpenCode) across 91 SWE-PolyBench/SWE-bench Pro instances with Claude Opus 4.7; +39.6pp localisation acc@5 (p<0.0001); +7.9pp resolve (p=0.003); $2.30/solved vs $2.92 OpenCode; tree-sitter AST + vector + graph + BM25 index; multi-file tasks 91.3% vs 44.9% acc@5; mapped to Codex CLI MCP integration (CodeGraph, codebase-index), AGENTS.md exploration directives, rollout token budgets, /usage monitoring; complemented by LARGER (arXiv:2605.16352) and FastContext (arXiv:2606.14066); 6 citations
+   - SEO targets: "structural codebase indexing codex cli exploration cost", "code isn't memory coding agent codebase index", "CodeGraph MCP server codex cli tree-sitter", "codex cli exploration token cost reduction", "codebase graph index coding agent localisation", "codex cli AGENTS.md exploration directives"
+
+---
+
 ## VulnGym — Repository-Level Vulnerability Detection, Business-Logic Flaws, Codex CLI Security Scanning (2026-08-07 Hourly Article Run)
 
 1. ✅ **VulnGym and the Business-Logic Blindspot: What Repository-Level Vulnerability Benchmarks Reveal About Coding Agent Security Scanning** — Written 2026-08-07 → `2026-08-07-vulngym-repository-level-vulnerability-detection-coding-agents-codex-cli-security-scanning-business-logic-flaws.md`
