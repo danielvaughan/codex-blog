@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP 2026-07-28 Stateless Protocol — Codex CLI Paginated Discovery, Multi-Round Requests, Migration (2026-08-07 Hourly Article Run)
+
+1. ✅ **MCP 2026-07-28: What the Stateless Protocol Overhaul Means for Your Codex CLI MCP Servers** — Written 2026-08-07 → `2026-08-07-mcp-2026-07-28-stateless-protocol-codex-cli-paginated-discovery-multi-round-requests-migration.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — MCP 2026-07-28 specification (28 July 2026) largest revision since protocol launch; stateless protocol core eliminating sessions, initialize handshake, and Mcp-Session-Id; mandatory Mcp-Method and Mcp-Name routing headers; Multi Round-Trip Requests (MRTR) replacing server-initiated sampling/elicitation; cacheable list responses with ttlMs and cacheScope; server/discover RPC; twelve-month deprecation of Roots, Sampling, Logging, HTTP+SSE; Tasks moved to extension; authorization hardening (RFC 9207, CIMD); Codex CLI v0.147.0 opt-in support with paginated discovery, multi-round requests, non-blocking server startup; migration checklist for custom MCP servers; 6 citations
+   - SEO targets: "MCP 2026-07-28 stateless protocol codex cli", "codex cli MCP paginated discovery migration", "MCP stateless specification multi-round requests MRTR", "codex cli MCP server configuration 2026-07-28", "MCP protocol session removal stateless migration guide", "codex cli MCP cacheable tool discovery"
+
+---
+
 ## Codex CLI v0.147.0 Release — --approve-for-me, MCP 2026-07-28 Protocol, Project Trust Gates (2026-08-07 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.147.0: --approve-for-me, MCP 2026-07-28 Protocol, Project Trust Gates, and the End of --full-auto** — Written 2026-08-07 → `2026-08-07-codex-cli-v0147-release-approve-for-me-mcp-2026-07-28-project-trust-plugin-search-secrets-redaction.md`
