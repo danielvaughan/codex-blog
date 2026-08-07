@@ -89,7 +89,7 @@ A new `server/discover` RPC lets clients fetch server capabilities on demand[^1]
 
 ## What Got Deprecated
 
-Three features are formally deprecated with a twelve-month support window[^1]:
+Five features are formally deprecated with a twelve-month support window[^1]:
 
 | Feature | Replacement |
 |---|---|
