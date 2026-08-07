@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.147.0 Release — --approve-for-me, MCP 2026-07-28 Protocol, Project Trust Gates (2026-08-07 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.147.0: --approve-for-me, MCP 2026-07-28 Protocol, Project Trust Gates, and the End of --full-auto** — Written 2026-08-07 → `2026-08-07-codex-cli-v0147-release-approve-for-me-mcp-2026-07-28-project-trust-plugin-search-secrets-redaction.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.147.0 released 7 August 2026; new --approve-for-me CLI flag for auto-review delegation; MCP 2026-07-28 protocol support with paginated discovery, multi-round requests, non-blocking server startup; project trust gates blocking config injection in untrusted repos; portable Agent Plugin search across four catalogue scopes; secrets and bearer token redaction in conversation replay; removal of deprecated --full-auto flag; Cursor skills import; Bedrock cached web search and remote compaction; 6 citations
+   - SEO targets: "codex cli v0.147.0 release features", "codex cli approve-for-me auto-review flag", "MCP 2026-07-28 protocol codex cli paginated discovery", "codex cli project trust gate credential security", "codex cli plugin search portable agent plugins", "codex cli secrets redaction bearer token conversation replay"
+
+---
+
 ## Structural Codebase Indexing — Code Isn't Memory, CodeGraph MCP, Codex CLI Exploration Cost (2026-08-07 Hourly Article Run)
 
 1. ✅ **Code Isn't Memory: What Structural Codebase Indexing Means for Your Codex CLI Exploration Costs** — Written 2026-08-07 → `2026-08-07-structural-codebase-indexing-coding-agents-codex-cli-exploration-cost-codegraph-mcp.md`
