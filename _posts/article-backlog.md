@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Scrouting — Cost-Aware Model Routing, Repository Scouting, Codex CLI Sol/Terra/Luna Task Routing (2026-08-07 Hourly Article Run)
+
+1. ✅ **Scrouting: What Cost-Aware Repository Scouting Means for Your Codex CLI Model Routing Strategy** — Written 2026-08-07 → `2026-08-07-scrouting-cost-aware-model-routing-repository-scouting-codex-cli-sol-terra-luna-task-routing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Bhola, Krishnan & NS arXiv:2608.04804 (August 5, 2026) Scrouting/SuperScout: cost-aware routing by scouting the repository first; LoRA-fine-tuned Qwen2.5-Coder-7B searcher (SuperScout-7B); ~4KB structured handoff with implicated files, reproduction specs, dead ends; sandbox verify-then-strip gate (only 20% reproduction claims genuine); résumé router using hidden states + logistic regression; 159/266 SWE-bench Pro Python at $0.230/solve vs Claude Opus 4.6 solo $1.274/solve (82% cost reduction); searcher GPU cost <0.5¢/task; hidden states improve routing (+34.3% savings) but handoff text degrades it; mapped to Codex CLI Sol/Terra/Luna three-tier model architecture, named profiles for scout/fix workflows, AGENTS.md routing rules, PostToolUse verification hooks, rollout token budgets, multi-agent scouting patterns; 7 citations
+   - SEO targets: "scrouting cost-aware model routing codex cli", "codex cli Sol Terra Luna model routing strategy", "SuperScout repository scouting coding agent", "cost-aware coding agent routing SWE-bench Pro", "codex cli named profiles task routing", "repository scouting structured handoff coding agent", "codex cli model routing cost optimisation"
+
+---
+
 ## BulkPR-Bench — Queue-Level Governance, Interacting Pull Requests, Codex CLI Multi-Agent Merge Queue Coordination (2026-08-07 Hourly Article Run)
 
 1. ✅ **BulkPR-Bench: Why Your Multi-Agent PR Queue Is a Governance Problem — and What Codex CLI Developers Should Do About It** — Written 2026-08-07 → `2026-08-07-bulkpr-bench-queue-level-governance-interacting-pull-requests-codex-cli-multi-agent-merge-queue-coordination.md`
