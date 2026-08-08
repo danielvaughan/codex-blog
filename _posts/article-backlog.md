@@ -1,5 +1,13 @@
 # Article Backlog
 
+## RepoProbe Edit Bias — Architecture-Aware Repository Comprehension, Codex CLI Exploration and Plan Mode (2026-08-08 Hourly Article Run)
+
+1. ✅ **RepoProbe and Edit Bias: Why Your Coding Agent Reaches for the Keyboard Before It Understands the Architecture — and How Codex CLI's Exploration Stack Fights Back** — Written 2026-08-08 → `2026-08-08-repoprobe-edit-bias-architecture-aware-repository-comprehension-codex-cli-exploration-plan-mode.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yang et al. arXiv:2608.04783 (August 6, 2026, accepted at ASE 2026) RepoProbe: architecture-aware repository comprehension benchmark; 500 validated Q&A pairs from 50 repositories across 15 programming languages; 20 models evaluated; GPT-5.2 best at 62.7% overall, 26.0% perfect solve; Edit Bias defined as premature code modification instead of architectural understanding (10.4-24.0% of failures); five failure modes (Misinterpretation 32.7%, Shallow Explanation 28.2%, Context Miss 18.9%, Edit Bias 15.8%, Hallucination 3.7%); Checklist-Based Verification Protocol reducing evaluation standard deviation from 2.9-3.5% to 1.5-2.4%; mapped to Codex CLI Plan Mode as edit-bias circuit breaker, AGENTS.md exploration directives, CodeGraph MCP structural context, PostToolUse comprehension verification hooks, named profiles for exploration vs implementation; 6 citations
+   - SEO targets: "RepoProbe edit bias codex cli", "architecture-aware repository comprehension coding agent", "codex cli plan mode exploration edit bias", "RepoProbe ASE 2026 benchmark", "codex cli AGENTS.md exploration directives architecture", "coding agent architectural understanding failure modes"
+
+---
+
 ## Token Reduction Is Not Cost Reduction — Prompt-Cache Economics, Codex CLI Cost Strategy (2026-08-07 Hourly Article Run)
 
 1. ✅ **Token Reduction Is Not Cost Reduction: What Prompt-Cache Economics Mean for Your Codex CLI Cost Strategy** — Written 2026-08-07 → `2026-08-07-token-reduction-is-not-cost-reduction-prompt-cache-economics-codex-cli-cost-strategy.md`
