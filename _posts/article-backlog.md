@@ -1,5 +1,13 @@
 # Article Backlog
 
+## EA-Graph and Upstream Drift — Artifact-Anchored Verification Memory, Cross-Session Trust, Codex CLI Memories (2026-08-08 Hourly Article Run)
+
+1. ✅ **EA-Graph and the Upstream Drift Problem: Why Your Coding Agent's Memories Go Stale — and How Artifact-Anchored Verification Fixes Cross-Session Trust** — Written 2026-08-08 → `2026-08-08-ea-graph-artifact-anchored-verification-memory-coding-agents-upstream-drift-codex-cli-memories-cross-session.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Hsu, Chi & Everett arXiv:2608.04278 (August 4, 2026) EA-Graph: tripartite graph G=(V,A,OPS) for artifact-anchored verification memory; sub-path granularity (store,path,subpath) identity; alias resolution to leaf definitions; two independent lattices (evidence: UNKNOWN<PARTIAL<PROVEN, freshness: FRESH/STALE); content-hash freshness over anchored spans not whole files; hard refusal on STALE; UNPROVABLE as terminal state; 42 sessions across 7 worlds, 2 model tiers (Haiku/Sonnet), 3 memory conditions; Haiku ANCHOR median F1=1.000 vs PROSE 0.270 vs NONE 0.286 (p=0.0156); PROSE no better than NONE (p=1.000); ANCHOR·Haiku matched NONE·Sonnet; repair gap: 10% Haiku vs 76-85% Sonnet; file-level invalidation marks 88/96 behaviours suspect when 17 affected; mapped to Codex CLI memories content-hash anchoring, model routing Luna/Terra capability boost with structured memory, AGENTS.md verification-vs-remediation separation, PostToolUse drift detection hooks, sub-path granularity for codex exec verification pipelines; 6 citations
+   - SEO targets: "EA-Graph artifact-anchored verification memory codex cli", "upstream drift coding agent cross-session memory", "codex cli memories stale verification content hash", "artifact-anchored memory coding agent Haiku Sonnet", "codex cli PostToolUse drift detection hook", "cross-session verification memory coding agent 2026"
+
+---
+
 ## DreamGuard and the Trajectory Blind Spot — Risk-Aware World Model, Long-Horizon Guardrails, Codex CLI PreToolUse Safety (2026-08-08 Hourly Article Run)
 
 1. ✅ **DreamGuard and the Trajectory Blind Spot: Why Your Per-Action Guardrails Miss Long-Horizon Risks — and What a Risk-Aware World Model Means for Codex CLI Safety** — Written 2026-08-08 → `2026-08-08-dreamguard-trajectory-aware-runtime-guardrail-codex-cli-pretooluse-long-horizon-risk-world-model.md`
