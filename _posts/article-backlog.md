@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Why Retrying Fails — Context Contamination, CCRM, Codex CLI Session Forking and Clean Restart Strategy (2026-08-08 Hourly Article Run)
+
+1. ✅ **Why Retrying Fails: What Context Contamination Means for Your Codex CLI Retry Strategy** — Written 2026-08-08 → `2026-08-08-why-retrying-fails-context-contamination-llm-agent-pipelines-codex-cli-session-forking-clean-restart.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yang arXiv:2605.08563 (May 8, 2026) Context-Contaminated Restart Model (CCRM); first formal theory of cross-attempt context pollution; cascade ratio ε₁/ε₀ = 7.1 fitted from SWE-bench Verified data; IID model overestimates pass@3 by 17.4pp (98.6% vs 81.2%); clean-restart dominance theorem yields ~21% more tasks resolved on identical budget; optimal budget allocation formula T* and K*; phase transition where retry overhead diverges to infinity; mapped to Codex CLI /fork for clean context, codex exec fresh invocations, compact_prompt failure-discarding configuration, named profiles for cascade-sensitive vs deep-explore tasks, AGENTS.md retry discipline directives; 6 citations
+   - SEO targets: "why retrying fails context contamination codex cli", "CCRM context contaminated restart model coding agent", "codex cli session forking clean restart retry strategy", "context contamination LLM agent pipeline cascade ratio", "codex cli compact_prompt failure traces retry", "coding agent retry strategy clean context budget allocation"
+
+---
+
 ## Agent Plugins 1.0 Open Standard — Portable Skills, MCP Packaging, Codex CLI Plugin Strategy (2026-08-08 Hourly Article Run)
 
 1. ✅ **Agent Plugins 1.0: What the New Open Standard Means for Your Codex CLI Plugin Strategy** — Written 2026-08-08 → `2026-08-08-agent-plugins-1-0-open-standard-codex-cli-portable-skills-mcp-packaging.md`
