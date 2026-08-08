@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DCAS and Scaffold Lock-In — Decoupling CLI Agent Scaffolding, Cross-Scaffold Transfer, Codex CLI Plan Mode Strategy (2026-08-08 Hourly Article Run)
+
+1. ✅ **DCAS and the Scaffold Lock-In Problem: Why Your Fine-Tuned Coding Agent Forgets How to Plan When You Change Tools — and What Codex CLI's Architecture Does About It** — Written 2026-08-08 → `2026-08-08-dcas-decoupling-cli-agent-scaffolding-internalize-planning-codex-cli-cross-scaffold-transfer-plan-mode.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Thangarajah, Chen & Hassan arXiv:2608.06113 (August 6, 2026) DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds; models fine-tuned on OpenHands trajectories degrade under non-training scaffolds; base models show no such divergence; explicit planning (pre-execution artefacts) vs implicit planning (structural conventions) empirically separable; DCAS interception layer enables cross-scaffold evaluation and planning-aware trajectory collection; planning quality is high-leverage component with gains exceeding cross-scaffold drops; complementary evidence from Ding et al. arXiv:2608.05156 Scaffold-Mediated Post-Training (+8.1pp FeatureBench, 85.2% distillation retention); mapped to Codex CLI Plan Mode as explicit planning infrastructure, plan_mode_reasoning_effort configuration, AGENTS.md as scaffold-independent instruction, named profiles for scaffold-aware model routing, Agent Plugins v0.147.0 as portable planning artefacts; 6 citations
+   - SEO targets: "DCAS decoupling CLI agent scaffolding codex cli", "scaffold lock-in coding agent fine-tuning transfer", "codex cli plan mode explicit planning cross-scaffold", "scaffold-mediated post-training coding agent skills", "codex cli AGENTS.md scaffold-independent planning", "cross-scaffold transfer coding agent fine-tuning degradation"
+
+---
+
 ## Why Retrying Fails — Context Contamination, CCRM, Codex CLI Session Forking and Clean Restart Strategy (2026-08-08 Hourly Article Run)
 
 1. ✅ **Why Retrying Fails: What Context Contamination Means for Your Codex CLI Retry Strategy** — Written 2026-08-08 → `2026-08-08-why-retrying-fails-context-contamination-llm-agent-pipelines-codex-cli-session-forking-clean-restart.md`
