@@ -1,5 +1,13 @@
 # Article Backlog
 
+## When Policies Change Probabilities — Modular Auto-Review, Guardian Risk Estimation, Codex CLI --approve-for-me (2026-08-09 Hourly Article Run)
+
+1. ✅ **When Policies Change Probabilities: What Modular Decision Theory Means for Your Codex CLI Auto-Review Configuration** — Written 2026-08-09 → `2026-08-09-when-policies-change-probabilities-modular-auto-review-codex-cli-approve-for-me-guardian-risk-estimation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kudum et al. arXiv:2608.02677 (August 2, 2026) "When Policies Change Probabilities: Modular Decision-Making for LLM Code Review"; 15,792 responses across 720 patches from 360 SWE-rebench issues; four deployed reviewers (DeepSeek-V4-Pro, Grok-4.3, Mistral-medium-3.5, GPT-5.5/Codex CLI 0.145.0); policy prompt change (equal-cost to 10:1 false-accept) shifted failure probabilities by −6.8pp to −9.6pp on identical patches; GPT-5.5/Codex worst at −9.6pp and 8.5% exact agreement; modular pipeline (risk-only reviewer + Gemini 3.5 Flash monitor + coded controller) reduces mean loss by 0.073/issue; accepts 58-68% at equal costs, 0% at 10:1; mapped to Codex CLI --approve-for-me flag (v0.147.0), Guardian auto-review GPT-5.4 Thinking separation, approval_policy.granular cost-threshold enforcement in code, requirements.toml fleet policy, AGENTS.md risk-vs-cost separation, GPT-5.4 deprecation (31 August) migration implications; 4 citations
+   - SEO targets: "when policies change probabilities codex cli auto-review", "codex cli approve-for-me guardian modular review", "LLM code reviewer probability policy contamination", "codex cli auto-review guardian risk estimation", "modular decision-making LLM code review", "codex cli approval_policy granular cost separation"
+
+---
+
 ## Minimal Context for Coding Agents — What Context Does a Coding Agent Need to Act, Codex CLI Context Pipeline (2026-08-08 Hourly Article Run)
 
 1. ✅ **What Context Does a Coding Agent Actually Need to Act? Why Less Beats More — and How to Configure Codex CLI Accordingly** — Written 2026-08-08 → `2026-08-08-what-context-does-a-coding-agent-need-to-act-minimal-context-codex-cli-tool-output-token-limit-compaction.md`
