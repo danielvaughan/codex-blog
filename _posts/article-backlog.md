@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Plugins 1.0 Open Standard — Portable Skills, MCP Packaging, Codex CLI Plugin Strategy (2026-08-08 Hourly Article Run)
+
+1. ✅ **Agent Plugins 1.0: What the New Open Standard Means for Your Codex CLI Plugin Strategy** — Written 2026-08-08 → `2026-08-08-agent-plugins-1-0-open-standard-codex-cli-portable-skills-mcp-packaging.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Agent Plugins 1.0.0 specification published 6 August 2026 by OpenAI, Microsoft, AWS, Anysphere (Cursor), and Vercel; vendor-neutral packaging of Agent Skills and MCP server configurations into distributable plugin directories; plugin.json closed schema with 10 permitted top-level fields; three MCP transports (stdio, streamable-http, legacy sse); ${PLUGIN_ROOT} and ${PLUGIN_DATA} variable expansion; path containment and symlink rejection; failure isolation (broken components don't disable others); six launch clients (ChatGPT, Codex CLI, Cursor, GitHub Copilot, VS Code, Kiro); Codex CLI v0.147.0 four catalogue scopes (local/personal/workspace/remote), runtime boundaries, capability filtering; seven deferred security areas including provenance verification and secret handling; 6 citations
+   - SEO targets: "agent plugins 1.0 open standard codex cli", "codex cli plugin strategy portable skills mcp", "agent plugins specification plugin.json mcp.json", "codex cli v0.147.0 plugin search catalogue scopes", "agent plugins cross-client portable format 2026", "codex cli agent plugin runtime boundaries security"
+
+---
+
 ## Instruction Stacking Collapse — AGENTS.md Rule Conflicts, Prompt Compilation, Codex CLI Instruction Budget (2026-08-08 Hourly Article Run)
 
 1. ✅ **Instruction Stacking Collapse: Why Your AGENTS.md Rules Fight Each Other — and How Prompt Compilation Helps Weaker Models Survive** — Written 2026-08-08 → `2026-08-08-instruction-stacking-collapse-agents-md-rule-conflicts-codex-cli-prompt-compilation-instruction-budget.md`
