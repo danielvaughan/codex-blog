@@ -2,7 +2,7 @@
 title: "Codex CLI Guardian Approval: Configuring Auto-Review Policies"
 description: "Every developer who has spent a day in on-request mode knows the pattern: approve, approve, approve, glance-approve, approve-without-reading. That reflexive."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-08-08T14:10:12+01:00
+last_modified_at: 2026-08-08T16:11:01+01:00
 parent: "Articles"
 nav_order: 354
 type: Technical Article

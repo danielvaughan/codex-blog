@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CodeGrep and the File Discovery Tax — RL-Trained Retrieval Agent, Precision Threshold, Codex CLI Token Efficiency (2026-08-08 Hourly Article Run)
+
+1. ✅ **CodeGrep and the File Discovery Tax: What an RL-Trained Retrieval Agent Reveals About Your Codex CLI Token Budget** — Written 2026-08-08 → `2026-08-08-codegrep-rl-trained-retrieval-agent-coding-agents-codex-cli-file-discovery-token-efficiency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. arXiv:2608.05886 (August 6, 2026) CodeGrep: 14B parameter retrieval agent trained with GRPO on 67,074 OpenHands trajectories; Qwen3-14B-Instruct base; three read-only tools (grep/glob/read) with 8 parallel calls per turn; CATM pipeline mines 31,977 training samples without human annotation; Git worktree RL environment replaces Docker; precision threshold finding: BM25 (0.375 precision) hurts downstream (-0.6pp resolve, +21% tokens), Jina (0.445) neutral, CodeGrep (0.677) helps (+1.2pp resolve, -19% tokens); advantage-layer signal placement 3.4x lower KL drift than reward-layer; mapped to Codex CLI MCP codebase indexing (CodeGraph), tool search deferred loading, tool_output_token_limit, AGENTS.md exploration directives, named profiles for scout/fix workflows, rollout token budgets; 8 citations
+   - SEO targets: "CodeGrep RL retrieval agent codex cli", "file discovery tax coding agent token efficiency", "precision threshold retrieval coding agent", "codex cli codebase indexing MCP CodeGraph", "codex cli file discovery AGENTS.md exploration", "retrieval agent GRPO coding agent SWE-bench", "codex cli scout fix named profiles token savings"
+
+---
+
 ## DCAS and Scaffold Lock-In — Decoupling CLI Agent Scaffolding, Cross-Scaffold Transfer, Codex CLI Plan Mode Strategy (2026-08-08 Hourly Article Run)
 
 1. ✅ **DCAS and the Scaffold Lock-In Problem: Why Your Fine-Tuned Coding Agent Forgets How to Plan When You Change Tools — and What Codex CLI's Architecture Does About It** — Written 2026-08-08 → `2026-08-08-dcas-decoupling-cli-agent-scaffolding-internalize-planning-codex-cli-cross-scaffold-transfer-plan-mode.md`
