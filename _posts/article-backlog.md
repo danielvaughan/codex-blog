@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AgentExecutor — Partial Code Execution, Agentic Context Generation, Codex CLI Sandbox Snippet Strategy (2026-08-08 Hourly Article Run)
+
+1. ✅ **AgentExecutor and the Missing Context Problem: What Multi-Agent Partial Code Execution Means for Your Codex CLI Sandbox Strategy** — Written 2026-08-08 → `2026-08-08-agentexecutor-partial-code-execution-agentic-context-generation-codex-cli-sandbox-snippet-environment.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. arXiv:2608.05959 (August 6, 2026, accepted at ASE 2026) AgentExecutor: three-agent partial code execution pipeline (EnvAgent/RefAgent/EvoAgent); 462 Stack Overflow snippets + 1,000 open-source functions; 94% statement coverage (+19.9% vs Treefix); 80.3% execution time reduction; 56.6% cost reduction; 52.1% fewer LLM invocations; coverage-aware dynamic pruning maintaining/improving coverage in 98.5% of cases; GPT-5 nano for environment prep, GPT-5 mini for exploration/evolution; prefix evolution via program synthesis; mapped to Codex CLI sandbox architecture (Seatbelt/Landlock+seccomp), codex exec workflow, model routing (Luna for env setup, Terra for exploration), PostToolUse execution feedback hooks, AGENTS.md exploration-failure directives, aggressive compaction for execution loops; 6 citations
+   - SEO targets: "AgentExecutor partial code execution codex cli", "codex cli sandbox code snippet execution strategy", "multi-agent partial code execution ASE 2026", "codex cli PostToolUse execution feedback hooks", "agentic context generation missing dependencies", "codex cli model routing execution tasks Luna Terra"
+
+---
+
 ## RepoProbe Edit Bias — Architecture-Aware Repository Comprehension, Codex CLI Exploration and Plan Mode (2026-08-08 Hourly Article Run)
 
 1. ✅ **RepoProbe and Edit Bias: Why Your Coding Agent Reaches for the Keyboard Before It Understands the Architecture — and How Codex CLI's Exploration Stack Fights Back** — Written 2026-08-08 → `2026-08-08-repoprobe-edit-bias-architecture-aware-repository-comprehension-codex-cli-exploration-plan-mode.md`
