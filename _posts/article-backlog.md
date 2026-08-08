@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DreamGuard and the Trajectory Blind Spot — Risk-Aware World Model, Long-Horizon Guardrails, Codex CLI PreToolUse Safety (2026-08-08 Hourly Article Run)
+
+1. ✅ **DreamGuard and the Trajectory Blind Spot: Why Your Per-Action Guardrails Miss Long-Horizon Risks — and What a Risk-Aware World Model Means for Codex CLI Safety** — Written 2026-08-08 → `2026-08-08-dreamguard-trajectory-aware-runtime-guardrail-codex-cli-pretooluse-long-horizon-risk-world-model.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Lin et al. arXiv:2608.05695 (August 6, 2026) DreamGuard: risk-aware world model runtime guardrail for LLM agents; Recurrent State-Space Model (RSSM) with 1024-dim GRU + 32-dim stochastic component; frozen Qwen3-4B embeddings; dual risk signals (immediate-hazard and prefix-risk with decay ρ=1.5, horizon K=3); bounded Noisy-Or fusion with EMA (β=0.65) and sliding window (W=4); 96.4% F1 on SafetyDrift, 82.9% F1 on ASSE-Security; 25ms average latency (250.6× faster than GuardAgent); ablation shows removing world model drops F1 to 74.7% and inflates FPR to 73.7%; mapped to Codex CLI PreToolUse hooks as stateful sidecar, outcome-oriented AGENTS.md constraints, trajectory-aware monitoring for --approve-for-me mode, permission profile defence layers; 6 citations
+   - SEO targets: "DreamGuard trajectory guardrail codex cli", "codex cli PreToolUse long-horizon risk world model", "trajectory-aware runtime guardrail coding agent", "codex cli per-action guardrail blind spot", "risk-aware world model agent safety 25ms latency", "codex cli AGENTS.md outcome-oriented safety constraints"
+
+---
+
 ## CodeGrep and the File Discovery Tax — RL-Trained Retrieval Agent, Precision Threshold, Codex CLI Token Efficiency (2026-08-08 Hourly Article Run)
 
 1. ✅ **CodeGrep and the File Discovery Tax: What an RL-Trained Retrieval Agent Reveals About Your Codex CLI Token Budget** — Written 2026-08-08 → `2026-08-08-codegrep-rl-trained-retrieval-agent-coding-agents-codex-cli-file-discovery-token-efficiency.md`
