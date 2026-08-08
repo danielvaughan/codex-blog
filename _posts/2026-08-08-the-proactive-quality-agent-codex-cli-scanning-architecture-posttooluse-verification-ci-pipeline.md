@@ -228,7 +228,7 @@ Do NOT mark a task as complete until:
 3. No high-severity security findings remain unresolved
 ```
 
-The ICSE 2026 JAWs study demonstrated that well-structured AGENTS.md files reduce median runtime by 28.64% and output tokens by 16.58% [^6]. Proactive directives add marginal token cost but prevent the far more expensive scenario of discovering defects after merge.
+The Lulla et al. study demonstrated that well-structured AGENTS.md files reduce median runtime by 28.64% and output tokens by 16.58% [^6]. Proactive directives add marginal token cost but prevent the far more expensive scenario of discovering defects after merge.
 
 ---
 
@@ -316,6 +316,6 @@ Honesty demands acknowledging the gaps:
 
 [^5]: OpenAI. (2026). "Codex Security CLI — Open Source Release." GitHub: openai/codex-security. [https://github.com/openai/codex-security](https://github.com/openai/codex-security)
 
-[^6]: Lulla, S. et al. (2026). "JAWs: Just AGENTS.md Works." ICSE 2026. arXiv:2601.20404. [https://arxiv.org/abs/2601.20404](https://arxiv.org/abs/2601.20404)
+[^6]: Lulla, J.L., Mohsenimofidi, S., Galster, M., Zhang, J.M., Baltes, S. & Treude, C. (2026). "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents." arXiv:2601.20404. [https://arxiv.org/abs/2601.20404](https://arxiv.org/abs/2601.20404)
 
 [^7]: Semgrep MCP Server. "Integrate Static Code Analysis Seamlessly." [https://mcpmarket.com/server/semgrep](https://mcpmarket.com/server/semgrep)

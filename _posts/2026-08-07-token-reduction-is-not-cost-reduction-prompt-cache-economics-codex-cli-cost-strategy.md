@@ -12,7 +12,7 @@ tags: ["codex-cli", "cost-optimisation", "prompt-caching", "token-reduction", "c
 
 Every Codex CLI practitioner has the same instinct: trim tool output, compress context, shave tokens — and watch costs fall. A rigorous empirical study published in July 2026 demonstrates that this instinct is wrong, and sometimes actively harmful.
 
-Weinberger and Hozez's *Token Reduction Is Not Cost Reduction* analysed 2,908 Claude Code runs across 103 tasks and seven repositories, discovering that removing 38.4% of tool-output tokens **increased** billed costs by 6.8% [^1]. The mechanism is prompt-cache pricing — and it reshapes how you should think about cost optimisation in Codex CLI.
+Weinberger and Hozez's *Token Reduction Is Not Cost Reduction* analysed 2,908 provider-billed executions (2,848 Claude Code runs) across 103 tasks and seven repositories, discovering that removing 38.4% of tool-output tokens **increased** billed costs by 6.8% [^1]. The mechanism is prompt-cache pricing — and it reshapes how you should think about cost optimisation in Codex CLI.
 
 ## The Four-Component Cost Model
 
@@ -127,7 +127,7 @@ If you must compact, use `/compact` manually at a natural task boundary rather t
 
 The study's core recommendation is to evaluate cost using **success-adjusted billed cost per execution** (CPS), not token counts [^1]. For Codex CLI practitioners, this translates to:
 
-1. **Reduce unnecessary turns** — Write precise AGENTS.md directives that eliminate exploratory file reads. The ICSE 2026 JAWs study showed well-crafted AGENTS.md files reduce median runtime by 28.64% and output tokens by 16.58% [^5].
+1. **Reduce unnecessary turns** — Write precise AGENTS.md directives that eliminate exploratory file reads. The Lulla et al. study showed well-crafted AGENTS.md files reduce median runtime by 28.64% and output tokens by 16.58% [^5].
 
 2. **Front-load context** — Include relevant file paths and architectural context in your prompt rather than letting the agent discover them. Every discovery turn retransmits the entire cached prefix.
 
@@ -191,6 +191,6 @@ The PointFive study's recommended metric — cost per successful execution — s
 
 [^4]: Liu, Y. et al. (2026) "Agentic Coding in the Wild: A Large-Scale Study of LLM Agent Workloads", arXiv:2608.00101. Available at: [https://arxiv.org/abs/2608.00101](https://arxiv.org/abs/2608.00101)
 
-[^5]: Lulla, A. et al. (2026) "JAWs: Just AGENTS.md Works — Efficiency Impact of Agent Context Files", ICSE 2026, arXiv:2601.20404. Available at: [https://arxiv.org/abs/2601.20404](https://arxiv.org/abs/2601.20404)
+[^5]: Lulla, J.L., Mohsenimofidi, S., Galster, M., Zhang, J.M., Baltes, S. & Treude, C. (2026). "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents." arXiv:2601.20404. [https://arxiv.org/abs/2601.20404](https://arxiv.org/abs/2601.20404)
 
 [^6]: PointFive (2026) "PointFive Research Finds Cutting AI Tokens Can Actually Increase Costs", PR Newswire, August 2026. Available at: [https://www.prnewswire.com/news-releases/pointfive-research-finds-cutting-ai-tokens-can-actually-increase-costs-302844453.html](https://www.prnewswire.com/news-releases/pointfive-research-finds-cutting-ai-tokens-can-actually-increase-costs-302844453.html)

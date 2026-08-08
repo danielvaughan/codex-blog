@@ -79,7 +79,7 @@ When asked to scan or review the codebase:
 - Do NOT modify files unless explicitly asked — report findings only
 ```
 
-This exploits the finding from the ICSE 2026 JAWs study that structured agent context files reduce exploration waste by 28.64% in median runtime [^4]. By constraining the search space, you reduce the probability of the wrong-project-diagnosis failures that Active-SWE exposes.
+This exploits the finding from the Lulla et al. study that structured agent context files reduce exploration waste by 28.64% in median runtime [^4]. By constraining the search space, you reduce the probability of the wrong-project-diagnosis failures that Active-SWE exposes.
 
 ### Step 2: Use `/review` for Structured Discovery
 
@@ -176,7 +176,7 @@ For Codex CLI users today, the practical takeaway is architectural: compose `/re
 
 [^3]: Tang, Z. et al. (2026). "How Coding Agents Fail Their Users: A Large-Scale Analysis of Developer-Agent Misalignment in 20,574 Real-World Sessions." *arXiv:2605.29442*. [https://arxiv.org/abs/2605.29442](https://arxiv.org/abs/2605.29442)
 
-[^4]: Lulla, V. et al. (2026). "JAWs: Just AGENTS.md Works — Measuring the Effect of Agent Context Files on Coding Agent Efficiency." *ICSE 2026*. *arXiv:2601.20404*. [https://arxiv.org/abs/2601.20404](https://arxiv.org/abs/2601.20404)
+[^4]: Lulla, J.L., Mohsenimofidi, S., Galster, M., Zhang, J.M., Baltes, S. & Treude, C. (2026). "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents." *arXiv:2601.20404*. [https://arxiv.org/abs/2601.20404](https://arxiv.org/abs/2601.20404)
 
 [^5]: OpenAI. (2026). "Codex CLI Features." *ChatGPT Learn*. [https://developers.openai.com/codex/cli/features](https://developers.openai.com/codex/cli/features)
 
