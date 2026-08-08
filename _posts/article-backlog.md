@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Minimal Context for Coding Agents — What Context Does a Coding Agent Need to Act, Codex CLI Context Pipeline (2026-08-08 Hourly Article Run)
+
+1. ✅ **What Context Does a Coding Agent Actually Need to Act? Why Less Beats More — and How to Configure Codex CLI Accordingly** — Written 2026-08-08 → `2026-08-08-what-context-does-a-coding-agent-need-to-act-minimal-context-codex-cli-tool-output-token-limit-compaction.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Sam-Bodden arXiv:2607.09691 (June 2026) "What Context Does a Coding Agent Actually Need to Act?"; oracle-localisation approach on SWE-bench Verified 70 instances; binary keep/drop (19.3K tokens, 35.7% resolve) outperforms full source (93.7K tokens, 27.1% resolve); natural-language summaries answer 4/45 vs 27/45 behavioural questions; temperature-zero noise floor ~9%; mapped to Codex CLI tool_output_token_limit tuning, compact_prompt code-preservation, AGENTS.md exploration directives against summarisation, CodeGraph MCP localisation investment, named profiles for surgical vs exploration context, post-compaction file re-read validation; 6 citations
+   - SEO targets: "what context coding agent needs codex cli", "minimal context coding agent resolution rate", "codex cli tool_output_token_limit context tuning", "coding agent context less is more SWE-bench", "codex cli compact_prompt code preservation", "context engineering coding agent find vs act"
+
+---
+
 ## EA-Graph and Upstream Drift — Artifact-Anchored Verification Memory, Cross-Session Trust, Codex CLI Memories (2026-08-08 Hourly Article Run)
 
 1. ✅ **EA-Graph and the Upstream Drift Problem: Why Your Coding Agent's Memories Go Stale — and How Artifact-Anchored Verification Fixes Cross-Session Trust** — Written 2026-08-08 → `2026-08-08-ea-graph-artifact-anchored-verification-memory-coding-agents-upstream-drift-codex-cli-memories-cross-session.md`
