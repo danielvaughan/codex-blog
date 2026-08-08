@@ -195,4 +195,5 @@ The instruction budget is real. Treat it like a token budget — finite, measura
 
 [^5]: OpenAI (2026) "Codex CLI Configuration Reference", Codex CLI Documentation. Available at: [https://learn.chatgpt.com/docs/codex/cli](https://learn.chatgpt.com/docs/codex/cli)
 
-[^6]: OpenAI (2026) "Codex CLI v0.147.0 Release Notes", GitHub Releases. Available at: [https://github.com/openai/codex/releases/tag/rust-v0.147.0](https://github.com/openai/codex/releases/tag/rust-v0.147.0)
+<!-- [^6] removed: orphan citation — not referenced in article body -->
+<!-- [^6]: OpenAI (2026) "Codex CLI v0.147.0 Release Notes", GitHub Releases. Available at: https://github.com/openai/codex/releases/tag/rust-v0.147.0 -->
