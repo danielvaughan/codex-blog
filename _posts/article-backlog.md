@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Instruction Stacking Collapse — AGENTS.md Rule Conflicts, Prompt Compilation, Codex CLI Instruction Budget (2026-08-08 Hourly Article Run)
+
+1. ✅ **Instruction Stacking Collapse: Why Your AGENTS.md Rules Fight Each Other — and How Prompt Compilation Helps Weaker Models Survive** — Written 2026-08-08 → `2026-08-08-instruction-stacking-collapse-agents-md-rule-conflicts-codex-cli-prompt-compilation-instruction-budget.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Anand & Chattaraj arXiv:2608.02639 (July 31, 2026) Instruction Stacking Collapse: 22 deterministic instructions across 6 categories; instruction-following degrades sigmoidally from ~96% (single) to 20.1% (GPT-5-mini at 20 stacked); JSON format constraint conflicts with 9 other instructions; ~12% of satisfiable pairs show behavioural conflicts; instruction compiler recovers +11.0 pp for GPT-5-mini (d=+0.43) but −1.2 pp for Sonnet 4.6; recovery inversely correlated with capability (ρ=−0.85); mapped to Codex CLI AGENTS.md instruction hierarchy, config.toml orthogonality, model-specific compiled instruction profiles for Luna tier, instruction budget concept, PostToolUse boundary for tool-call vs natural-language constraints, category-aware directive pruning; 6 citations
+   - SEO targets: "instruction stacking collapse codex cli agents md", "codex cli AGENTS.md rule conflicts prompt compilation", "instruction following degradation coding agents 2026", "codex cli instruction budget GPT-5.6 Luna", "prompt compilation weaker models coding agent", "AGENTS.md directive pruning instruction stacking"
+
+---
+
 ## AgentExecutor — Partial Code Execution, Agentic Context Generation, Codex CLI Sandbox Snippet Strategy (2026-08-08 Hourly Article Run)
 
 1. ✅ **AgentExecutor and the Missing Context Problem: What Multi-Agent Partial Code Execution Means for Your Codex CLI Sandbox Strategy** — Written 2026-08-08 → `2026-08-08-agentexecutor-partial-code-execution-agentic-context-generation-codex-cli-sandbox-snippet-environment.md`

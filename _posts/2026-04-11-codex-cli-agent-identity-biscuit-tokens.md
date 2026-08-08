@@ -2,7 +2,7 @@
 title: "Agent Identity in Codex CLI: The use_agent_identity Feature Flag, Biscuit Tokens, and Verified Multi-Agent Trust"
 description: "Multi-agent architectures have an attribution problem. When three subagents collaborate on a pull request."
 date: 2026-04-11T22:00:00+00:00
-last_modified_at: 2026-08-08T06:10:11+01:00
+last_modified_at: 2026-08-08T08:20:54+01:00
 tags: ["agent-identity", "biscuit-tokens", "enterprise", "multi-agent", "trust", "guardian", "verification", "use-agent-identity"]
 type: Technical Article
 timestamp: 2026-04-11T23:00:00+01:00
