@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GSE Globally Reusable Skills for Coding Agents — Skill Fragmentation, Cluster Consolidation, Replay Verification, Codex CLI Skill Architecture (2026-08-09 Hourly Article Run)
+
+1. ✅ **GSE and the Skill Fragmentation Problem: Why Your Coding Agent's Learned Skills Overfit — and How Globalized Skill Evolution Maps to Codex CLI's Skill Architecture** — Written 2026-08-09 → `2026-08-09-gse-globally-reusable-skills-coding-agents-codex-cli-skill-evolution-cluster-consolidation-replay-verification.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Yang et al. arXiv:2608.06153 (August 6, 2026) GSE: Globalized Skill Evolution framework; Skill Relation Graph G=(V,E) with dependency/co-usage/conflict edge types; cluster-based consolidation abstracting reusable capabilities from local updates; replay-driven verification preventing overfitting; OpenHands bug-revealing test generation F1 0.31 vs Trace2Skill 0.19 (+63.2%); OpenHands false-positive filtering F1 0.70 vs 0.43 (+62.8%); recall 0.95 vs 0.84; ByteDance industrial deployment F1 +61.4% (0.43→0.71); ablation: removing SRG drops F1 0.70→0.59, removing generalisation drops 0.70→0.54; DeepSeek-V4-Flash LLM; evaluated on OpenHands and mini-SWE-agent; mapped to Codex CLI SKILL.md progressive disclosure, four-scope skill precedence, Agent Plugin catalogue distribution v0.147.0, codex exec replay verification, named profiles for skill-sensitive model routing, description-field conflict encoding; complemented by CODESKILL arXiv:2605.25430 (+9.69pp RL skill extraction), SkillComposer arXiv:2606.06079, MetaSkill-Evolve arXiv:2607.05297; 6 citations
+   - SEO targets: "GSE globally reusable skills coding agents codex cli", "codex cli skill evolution fragmentation consolidation", "skill relation graph coding agent overfit", "codex cli SKILL.md skill bank management", "cluster-based skill consolidation replay verification", "codex cli agent plugin skill distribution"
+
+---
+
 ## Ledger Execution State Runtime Layer — Inform-Govern Architecture, Context Compaction, Codex CLI PostToolUse (2026-08-09 Hourly Article Run)
 
 1. ✅ **Ledger and the Execution State Blindspot: Why Your Long-Horizon Coding Agent Forgets What It Already Knows — and How to Build an Inform-Govern Layer in Codex CLI** — Written 2026-08-09 → `2026-08-09-ledger-execution-state-runtime-layer-long-horizon-coding-agents-codex-cli-context-compaction-posttooluse-inform-govern.md`
