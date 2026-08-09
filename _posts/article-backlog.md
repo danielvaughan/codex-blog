@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AssertMate and the Assertion Quality Gap — Multi-Perspective Test Assertion Generation, Mutation-Guided Quality, Codex CLI PostToolUse (2026-08-09 Hourly Article Run)
+
+1. ✅ **AssertMate and the Assertion Quality Gap: Why Your Coding Agent's Tests Pass but Catch Nothing — and How Multi-Perspective Assertion Generation Maps to Codex CLI** — Written 2026-08-09 → `2026-08-09-assertmate-multi-perspective-test-assertion-generation-coding-agents-codex-cli-posttooluse-mutation-guided-quality.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. arXiv:2608.05822 (August 6, 2026) "Agent-Based Test Assertion Generation via Diverse Perspective Aggregation" (ESEM 2026); three-component architecture: actual value construction via static analysis, multi-perspective expected value prediction (code gen + RAG + CoT agents), LLM-as-a-Judge selection; 100% compilation rate; ~68% mutation score vs EvoSuite 58%, Randoop 52%, manual 64%; ablation: removing perspective aggregation drops to 61%, removing refinement drops to 64%; complemented by "Rethinking the Value of Agent-Generated Tests" arXiv:2602.07900 finding print-statement dominance over assertions, MutGen arXiv:2506.02954 mutation-guided feedback, SWE-ABS arXiv:2603.00520 inflated benchmark rates; mapped to Codex CLI PostToolUse hooks for mutation-score gating, AGENTS.md assertion policy directives, named profiles for test-generation focus, approval_policy for test file modification gates; 7 citations
+   - SEO targets: "AssertMate test assertion generation codex cli", "codex cli PostToolUse hook mutation testing quality gate", "multi-perspective assertion generation coding agent", "agent test assertion quality mutation score", "codex cli AGENTS.md test assertion policy", "coding agent assertion weakening prevention"
+
+---
+
 ## SpecBox and the Sandbox Cold-Start Tax — Speculative Prewarming, MCP Tool Latency, Codex CLI Agent Serving (2026-08-09 Hourly Article Run)
 
 1. ✅ **SpecBox and the Sandbox Cold-Start Tax: Why Your MCP Tool Calls Stall — and What Speculative Prewarming Means for Codex CLI Agent Serving** — Written 2026-08-09 → `2026-08-09-specbox-speculative-sandbox-scheduling-llm-agent-serving-codex-cli-mcp-cold-start-prewarming.md`
