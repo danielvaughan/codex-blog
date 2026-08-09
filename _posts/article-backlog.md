@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SafeClawBench and the Semantic–Sandbox Harm Gap — Two-Layer Security, PreToolUse Hooks, Approval Policy (2026-08-09 Hourly Article Run)
+
+1. ✅ **SafeClawBench and the Semantic–Sandbox Gap: Why 84% of Real Agent Harm Passes Your Text-Level Safety Checks — and What Codex CLI's Two-Layer Architecture Does About It** — Written 2026-08-09 → `2026-08-09-safeclawbench-semantic-vs-sandbox-harm-gap-codex-cli-two-layer-security-pretooluse-approval-policy.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Tian et al. arXiv:2606.18356 (June 2026) "SafeClawBench: Separating Semantic, Audit-Evidence, and Sandbox Harm in Tool-Using LLM Agents"; 600 adversarial tasks across 6 attack families (DPI, IPI, TRI, MPI, MEX, ADI); 5 frontier models (GPT-5.5, Claude Opus 4.7, Qwen3.6-Plus, GLM-5.1, Kimi K2.5); semantic failure 9.0%-44.2%; critical finding: 291/347 (83.9%) sandbox harms pass semantic check; D3 layered defence reduces CoreFail 28.0%→9.1%; mapped to Codex CLI two-layer security (sandbox enforcement + approval policy), PreToolUse hooks as programmable interception, granular approval_policy configuration, two-phase runtime (setup/agent), AGENTS.md outcome constraints, OpenTelemetry audit integration; 5 citations
+   - SEO targets: "SafeClawBench semantic sandbox harm gap codex cli", "codex cli two-layer security sandbox approval policy", "semantic vs sandbox harm tool-using agents", "codex cli PreToolUse hook safety check", "agent security semantic refusal bypass sandbox harm", "codex cli approval_policy granular sandbox enforcement"
+
+---
+
 ## ScrubJay-MEM and Temporal Memory Decay — Type-Conditioned Perishability, Retention Pipeline, Cross-Session Memory (2026-08-09 Hourly Article Run)
 
 1. ✅ **ScrubJay-MEM and the Temporal Decay Problem: Why Your Coding Agent Treats Every Memory as Equally Fresh — and How Type-Conditioned Perishability Maps to Codex CLI's Retention Pipeline** — Written 2026-08-09 → `2026-08-09-scrubjay-mem-temporal-memory-decay-coding-agents-codex-cli-perishability-retention-cross-session.md`
