@@ -1,5 +1,13 @@
 # Article Backlog
 
+## IDK Filter and the Confident Hallucination Problem — Uncertainty-Aware Tool-Call Filtering, PreToolUse Hooks, Approval Policy Abstention (2026-08-10 Hourly Article Run)
+
+1. ✅ **The IDK Filter and the Confident Hallucination Problem: Why Your Coding Agent Calls the Wrong Tool With Full Confidence — and How Uncertainty-Aware Filtering Maps to Codex CLI** — Written 2026-08-10 → `2026-08-10-idk-filter-confident-hallucination-tool-calling-uncertainty-codex-cli-pretooluse-approval-policy-abstention.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Broecker et al. arXiv:2607.04034 (July 4, 2026) "The 'I Don't Know' Filter: Enhancing Agentic Reliability in Function Calling"; IDK Score metric IDKS=(C-I)/N rewarding abstention over incorrect calls; three-tier feature extraction (whitebox/greybox/blackbox); random forest classifier on repeated-generation variance; Llama-3.2-3B IDK Score 0.342→0.541 on APIGen (+58%); cross-model transfer with minimal degradation; complemented by Ye et al. arXiv:2604.22985 UQ for Function-Calling (AST-based clustering outperforms Semantic Entropy), Zhou et al. arXiv:2606.06976 TRUST uncertainty-aligned RL (standard RL weakens uncertainty separation), Healy et al. arXiv:2601.05214 internal representations for tool-selection hallucination detection (86.4% accuracy); mapped to Codex CLI PreToolUse hooks as interception point for uncertainty gating, approval_policy.granular cost-threshold enforcement, AGENTS.md abstention directives, named profiles for model routing by uncertainty calibration quality, repeated-generation pattern for high-stakes operations, layered defence (consistency check + postcondition verification + human escalation + sandbox); 7 citations
+   - SEO targets: "IDK filter tool calling uncertainty codex cli", "codex cli PreToolUse hook uncertainty gate tool call", "confident hallucination function calling coding agent", "codex cli approval_policy uncertainty abstention", "uncertainty quantification LLM function calling agent", "tool call hallucination detection coding agent 2026"
+
+---
+
 ## AssertMate and the Assertion Quality Gap — Multi-Perspective Test Assertion Generation, Mutation-Guided Quality, Codex CLI PostToolUse (2026-08-09 Hourly Article Run)
 
 1. ✅ **AssertMate and the Assertion Quality Gap: Why Your Coding Agent's Tests Pass but Catch Nothing — and How Multi-Perspective Assertion Generation Maps to Codex CLI** — Written 2026-08-09 → `2026-08-09-assertmate-multi-perspective-test-assertion-generation-coding-agents-codex-cli-posttooluse-mutation-guided-quality.md`
