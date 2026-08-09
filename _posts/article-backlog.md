@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ScrubJay-MEM and Temporal Memory Decay — Type-Conditioned Perishability, Retention Pipeline, Cross-Session Memory (2026-08-09 Hourly Article Run)
+
+1. ✅ **ScrubJay-MEM and the Temporal Decay Problem: Why Your Coding Agent Treats Every Memory as Equally Fresh — and How Type-Conditioned Perishability Maps to Codex CLI's Retention Pipeline** — Written 2026-08-09 → `2026-08-09-scrubjay-mem-temporal-memory-decay-coding-agents-codex-cli-perishability-retention-cross-session.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Bhandari et al. arXiv:2608.04746 (August 5, 2026) "Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems"; What-Where-When memory encoding with perishability coefficient π; four memory types (Stable π=0.02–0.10, Procedural π=0.2–0.4, Task-Specific π=0.5–0.7, Ephemeral π=0.8–0.95); exponential decay U=V·exp(-π·(t-t_i)/τ); four-signal retrieval fusion (semantic, context, temporal, graph) with query-adaptive weights; Retroactive Contextual Integration at O(1) LLM calls vs A-MEM O(N); Temporal Generalisation Test benchmark with GenGap metric; ScrubJay-MEM GenGap +0.108 vs Dense+recency -0.046; ablating type-conditioned decay collapses GenGap by 5.7×; EventQA-64k F1 61.58 vs Mem0 58.92 (+2.66); mapped to Codex CLI max_unused_days uniform retention gap, AGENTS.md as π≈0 stable store, named profiles for context isolation, memory hygiene commands, sprint-cadence max_unused_days tuning; 8 citations
+   - SEO targets: "ScrubJay-MEM temporal memory decay codex cli", "codex cli memory perishability type-conditioned retention", "agent memory temporal decay coding agent cross-session", "codex cli max_unused_days memory retention tuning", "type-conditioned perishability coding agent memory", "codex cli AGENTS.md stable knowledge memory separation"
+
+---
+
 ## Agent Plans and Task-Oriented Artifacts — Plan Mode Structure, Implementation Steps, File Locations, Validation (2026-08-09 Hourly Article Run)
 
 1. ✅ **Agent Plans and the Task Artifact Gap: What 85 Plan Files Reveal About How Developers Actually Guide Coding Agents — and How to Structure Your Codex CLI Plans** — Written 2026-08-09 → `2026-08-09-agent-plans-task-oriented-artifacts-codex-cli-plan-mode-implementation-steps-file-locations-validation.md`
