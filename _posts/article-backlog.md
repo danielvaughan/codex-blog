@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AdaptEval and the Code Adaptation Gap — Snippet Integration, AGENTS.md Policy, Plan Mode, Multi-Agent (2026-08-09 Hourly Article Run)
+
+1. ✅ **AdaptEval and the Code Adaptation Gap: Why Your Coding Agent Botches Snippet Integration — and How to Configure Codex CLI for Policy-Aligned Adaptation** — Written 2026-08-09 → `2026-08-09-adapteval-code-snippet-adaptation-gap-llm-coding-agents-codex-cli-agents-md-plan-mode-multi-agent.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Rong et al. arXiv:2601.04540 (January 2026) AdaptEval: first benchmark for code snippet adaptation; 164 tasks, 523 adaptations across 38 types in 3 categories (Method Signature, Logic Customisation, Refactoring); GPT-4o best at 59.15% task pass@1; 20.31% gap between Method Signature and Logic Customisation; explicit step-by-step instructions yield +34.84pp; code-specific LLMs underperform general-purpose; AssertionError dominant failure mode; reasoning LLMs show self-doubt refusal; complemented by AdaptAgent arXiv:2608.04459 (ASE 2026) multi-agent domain-guided reasoning framework with five specialised agents; ablation confirms planning critical for exception-handling; mapped to Codex CLI AGENTS.md as adaptation policy layer, Plan Mode for multi-step adaptations, named profiles with system_prompt_suffix encoding step-by-step instruction pattern, PostToolUse hooks for compiler verification loop, GPT-5.6 Terra model routing for adaptation tasks; 6 citations
+   - SEO targets: "AdaptEval code snippet adaptation codex cli", "codex cli AGENTS.md code adaptation policy", "LLM code snippet integration benchmark 2026", "codex cli plan mode adaptation workflow", "code adaptation gap coding agent instruction-following", "AdaptAgent multi-agent code adaptation ASE 2026"
+
+---
+
 ## SafeClawBench and the Semantic–Sandbox Harm Gap — Two-Layer Security, PreToolUse Hooks, Approval Policy (2026-08-09 Hourly Article Run)
 
 1. ✅ **SafeClawBench and the Semantic–Sandbox Gap: Why 84% of Real Agent Harm Passes Your Text-Level Safety Checks — and What Codex CLI's Two-Layer Architecture Does About It** — Written 2026-08-09 → `2026-08-09-safeclawbench-semantic-vs-sandbox-harm-gap-codex-cli-two-layer-security-pretooluse-approval-policy.md`
