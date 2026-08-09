@@ -1,5 +1,13 @@
 # Article Backlog
 
+## LangChoiceBench and Python Over-Selection Bias — Language Directives, Named Profiles, Codex CLI AGENTS.md (2026-08-09 Hourly Article Run)
+
+1. ✅ **LangChoiceBench and the Python Over-Selection Problem: Why Your Coding Agent Defaults to Python When It Shouldn't — and How to Fix It in Codex CLI** — Written 2026-08-09 → `2026-08-09-langchoicebench-python-over-selection-bias-llm-coding-agents-codex-cli-agents-md-language-directive.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Twist et al. arXiv:2608.06041 (August 6, 2026) "LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs"; 28 projects across 7 software domains; 25 LLMs evaluated; 9,826 reasoning traces analysed; Python heavily over-selected; recommendation-implementation consistency low; smaller open-weight models show stronger Python preference; "phantom evidence" failure mode where models fabricate justifications for Python; extends earlier "LLMs Love Python" (arXiv:2503.17181) finding 90-97% Python in benchmarks, 83% recommendation contradictions; mapped to Codex CLI AGENTS.md explicit language-policy directives, named profiles with system_prompt_suffix language constraints, PostToolUse hooks for file-extension enforcement, prompt engineering against phantom evidence, model tier selection for language diversity; 7 citations
+   - SEO targets: "LangChoiceBench Python bias codex cli", "codex cli AGENTS.md language directive override Python", "phantom evidence LLM language selection coding agent", "Python over-selection coding agent fix", "codex cli named profiles language constraint", "LLM Python bias code generation 2026"
+
+---
+
 ## When Policies Change Probabilities — Modular Auto-Review, Guardian Risk Estimation, Codex CLI --approve-for-me (2026-08-09 Hourly Article Run)
 
 1. ✅ **When Policies Change Probabilities: What Modular Decision Theory Means for Your Codex CLI Auto-Review Configuration** — Written 2026-08-09 → `2026-08-09-when-policies-change-probabilities-modular-auto-review-codex-cli-approve-for-me-guardian-risk-estimation.md`
