@@ -54,7 +54,7 @@ flowchart TD
 
 ## Why This Happens: Training-Data Distribution Is the Root Cause
 
-The bias traces to a straightforward source: Python dominates LLM training corpora. GitHub's 2025 Octoverse report placed Python as the most-used language on the platform [^3]. Stack Overflow's 2025 Developer Survey found Python as the most popular language for the third consecutive year [^4]. When a model's training data is 40–60% Python by volume, the prior probability of generating Python in any ambiguous context is overwhelming.
+The bias traces to a straightforward source: Python dominates LLM training corpora. GitHub's 2025 Octoverse report placed Python as the most-used language on the platform [^3]. Stack Overflow's 2025 Developer Survey ranked Python fourth overall (57.9%) behind JavaScript (66%), HTML/CSS (61.9%), and SQL (58.6%), but noted a 7-percentage-point year-on-year adoption increase — the largest of any top language [^4]. When a model's training data is 40–60% Python by volume, the prior probability of generating Python in any ambiguous context is overwhelming.
 
 Fine-tuning and RLHF stages compound the problem. Code-generation benchmarks (HumanEval, MBPP, LiveCodeBench) primarily test Python, creating an optimisation target that rewards Python fluency disproportionately [^2]. Models that score well on these benchmarks are selected for deployment, reinforcing the cycle.
 
