@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Plans and Task-Oriented Artifacts — Plan Mode Structure, Implementation Steps, File Locations, Validation (2026-08-09 Hourly Article Run)
+
+1. ✅ **Agent Plans and the Task Artifact Gap: What 85 Plan Files Reveal About How Developers Actually Guide Coding Agents — and How to Structure Your Codex CLI Plans** — Written 2026-08-09 → `2026-08-09-agent-plans-task-oriented-artifacts-codex-cli-plan-mode-implementation-steps-file-locations-validation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Abubakar et al. arXiv:2608.04661 (August 5, 2026) "An Exploratory Study of Agent Plans for Agentic AI Coding Tools in Open-Source Software"; ESEM 2026 Emerging Results; 36,710 repositories screened; 85 Markdown plan files across 10 repos; 72 in .cursor/plans/, 13 in .claude/plans/, 0 in .gemini/plans/; 77.6% from single repo (forcedotcom/salesforcedx-vscode); three-pillar structure: implementation steps (82 headings, 54 files), files and locations (68 headings, 46 files), testing and validation (57 headings, 40 files); 91.8% single-commit ephemeral artefacts; 43.1% AI co-authorship signals; SWEBOK mapping: maintenance 27.1%, construction 21.2%, testing 14.1%, quality 14.1%; zero security-oriented plans; mapped to Codex CLI plan mode (Shift+Tab / /plan), .codex/plans/ persistence, plan_mode_reasoning_effort configuration, named profiles for architect/builder workflows, context clearing before execution (CCRM), AGENTS.md planning convention directives; 6 citations
+   - SEO targets: "agent plans coding agents codex cli plan mode", "codex cli plan file structure implementation steps", "task-oriented artifacts coding agent ESEM 2026", "codex cli plan mode reasoning effort configuration", "developer agent plan three pillars validation", "agent plan ephemeral artifact commit strategy"
+
+---
+
 ## GSE Globally Reusable Skills for Coding Agents — Skill Fragmentation, Cluster Consolidation, Replay Verification, Codex CLI Skill Architecture (2026-08-09 Hourly Article Run)
 
 1. ✅ **GSE and the Skill Fragmentation Problem: Why Your Coding Agent's Learned Skills Overfit — and How Globalized Skill Evolution Maps to Codex CLI's Skill Architecture** — Written 2026-08-09 → `2026-08-09-gse-globally-reusable-skills-coding-agents-codex-cli-skill-evolution-cluster-consolidation-replay-verification.md`
