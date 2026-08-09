@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Ledger Execution State Runtime Layer — Inform-Govern Architecture, Context Compaction, Codex CLI PostToolUse (2026-08-09 Hourly Article Run)
+
+1. ✅ **Ledger and the Execution State Blindspot: Why Your Long-Horizon Coding Agent Forgets What It Already Knows — and How to Build an Inform-Govern Layer in Codex CLI** — Written 2026-08-09 → `2026-08-09-ledger-execution-state-runtime-layer-long-horizon-coding-agents-codex-cli-context-compaction-posttooluse-inform-govern.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. arXiv:2608.00808 (August 2026) "Turning Interaction History into Execution State: A Runtime Layer for Long-Horizon Coding Agents"; deterministic Ledger system tracking observation records, modification state, and command records; dual inform/govern paths; SWE-bench Verified 500 instances; GPT-5 mini +8.0pp (56.2%→64.2%), MiniMax M2.5 +5.2pp (75.8%→81.0%), OpenAI Codex +3.4pp (74.8%→78.2%); 24–32% cost reduction; 53.1% input token reduction for MiniMax; govern contributes resolution gains, inform drives token reduction; mapped to Codex CLI PostToolUse hooks as govern path, AGENTS.md as inform path, model_auto_compact_token_limit configuration, compact_prompt state preservation, named profiles for model-dependent state tracking, rollout token budgets; 7 citations
+   - SEO targets: "Ledger execution state codex cli long-horizon", "codex cli PostToolUse hook execution state tracking", "interaction history execution state coding agent", "codex cli context compaction state preservation", "inform govern path coding agent runtime layer", "codex cli long-horizon session redundant re-execution"
+
+---
+
 ## LangChoiceBench and Python Over-Selection Bias — Language Directives, Named Profiles, Codex CLI AGENTS.md (2026-08-09 Hourly Article Run)
 
 1. ✅ **LangChoiceBench and the Python Over-Selection Problem: Why Your Coding Agent Defaults to Python When It Shouldn't — and How to Fix It in Codex CLI** — Written 2026-08-09 → `2026-08-09-langchoicebench-python-over-selection-bias-llm-coding-agents-codex-cli-agents-md-language-directive.md`
