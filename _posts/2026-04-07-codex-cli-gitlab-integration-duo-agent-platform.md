@@ -2,7 +2,7 @@
 title: "Codex CLI on GitLab: Duo Agent Platform, CI/CD Pipelines, and MCP Integration"
 description: "While Codex CLI's GitHub integration has received extensive coverage — from openai/codex-action to issue assignment via Copilot — GitLab teams have been."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-08-09T18:12:07+01:00
+last_modified_at: 2026-08-09T20:12:56+01:00
 tags:
   - ci-cd
   - gitlab

@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SpecBox and the Sandbox Cold-Start Tax — Speculative Prewarming, MCP Tool Latency, Codex CLI Agent Serving (2026-08-09 Hourly Article Run)
+
+1. ✅ **SpecBox and the Sandbox Cold-Start Tax: Why Your MCP Tool Calls Stall — and What Speculative Prewarming Means for Codex CLI Agent Serving** — Written 2026-08-09 → `2026-08-09-specbox-speculative-sandbox-scheduling-llm-agent-serving-codex-cli-mcp-cold-start-prewarming.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhang et al. arXiv:2607.23933 (July 27, 2026) "SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving"; three techniques: intent-aware sandbox prewarming (keyword + semantic dual router, 97.9% hit rate), stochastic sandbox prefetching (Markov model over Sandbox Dependency Graph, per-turn latency 540→97ms), semantic result caching (37.4% hit rate, 2.91× speedup); 2.9× P99 latency reduction vs on-demand; 45.9% peak memory reduction vs reserved; mapped to Codex CLI PreToolUse hooks for prewarming, PostToolUse hooks for SDG prefetching, MCP SDK 3.0.0 middleware for semantic caching, codex exec CI/CD container scheduling, Codex Remote cloud serving, OpenTelemetry trajectory training; 7 citations
+   - SEO targets: "SpecBox speculative sandbox scheduling codex cli", "codex cli MCP sandbox cold-start prewarming", "speculative sandbox scheduling LLM agent serving", "codex cli PreToolUse sandbox prewarming hook", "MCP tool call latency reduction agent serving", "codex cli sandbox cold-start elimination SDG"
+
+---
+
 ## Verified Tool Calls and the Non-Atomic Failure Gap — PostToolUse Verification, Idempotency Keys, Verify-Before-Retry (2026-08-09 Hourly Article Run)
 
 1. ✅ **Verified Tool Calls and the Non-Atomic Failure Gap: Why Your Coding Agent Retries Blindly — and How to Wire Postcondition Verification into Codex CLI** — Written 2026-08-09 → `2026-08-09-verified-tool-calls-non-atomic-failures-llm-agents-codex-cli-posttooluse-verify-before-retry-idempotency.md`
