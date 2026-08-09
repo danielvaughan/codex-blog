@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CodeSentinel and the Code-Context Injection Surface — Three-Layer Defence, PreToolUse, Tree-sitter Sanitisation (2026-08-09 Hourly Article Run)
+
+1. ✅ **CodeSentinel and the Code-Context Injection Surface: Why Comments, Strings, and Dead Code Are Your Agent's Blind Spot — and How to Build a Three-Layer Defence in Codex CLI** — Written 2026-08-09 → `2026-08-09-codesentinel-three-layer-code-context-prompt-injection-defense-codex-cli-pretooluse-tree-sitter-sanitisation.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cheng et al. arXiv:2606.19235 (June 2026) CodeSentinel: first inference-time three-layer sanitiser for code-context indirect prompt injection; Tree-sitter CST parsing targeting four node types (comments, string literals, identifiers, decoy blocks); Layer 1 regex + structural pre-filtering, Layer 2 CST-guided Dynamic Min-K% statistical anomaly detection, Layer 3 node perturbation analysis with JSD measurement; 0.80 average node-level F1 across six attack families (INSEC, Flashboom, XOXO, ShadowCode, CoTDeceptor, ITGen); outperforms CodeGarrison (0.70), DePA (0.51), KillBadCode (0.30); AUROC 0.82; complemented by IterInject arXiv:2605.24659 (5/9 targets fully compromised on Claude Code) and MOSAIC arXiv:2607.02857 (96.59% CLI command composition attack success); mapped to Codex CLI PreToolUse hooks as Layer 1 regex scanner, MCP server Tree-sitter sanitisation as Layer 2, Guardian auto-review as Layer 3 proxy, sandbox enforcement as backstop, AGENTS.md outcome constraints, approval_policy defence-in-depth configuration; 7 citations
+   - SEO targets: "CodeSentinel code-context prompt injection codex cli", "codex cli PreToolUse hook prompt injection defense", "indirect prompt injection code comments strings", "Tree-sitter code sanitisation coding agent", "code-context injection surface codex cli defence", "CodeSentinel three-layer defence coding agent", "codex cli sandbox prompt injection backstop"
+
+---
+
 ## AdaptEval and the Code Adaptation Gap — Snippet Integration, AGENTS.md Policy, Plan Mode, Multi-Agent (2026-08-09 Hourly Article Run)
 
 1. ✅ **AdaptEval and the Code Adaptation Gap: Why Your Coding Agent Botches Snippet Integration — and How to Configure Codex CLI for Policy-Aligned Adaptation** — Written 2026-08-09 → `2026-08-09-adapteval-code-snippet-adaptation-gap-llm-coding-agents-codex-cli-agents-md-plan-mode-multi-agent.md`
