@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Verified Tool Calls and the Non-Atomic Failure Gap — PostToolUse Verification, Idempotency Keys, Verify-Before-Retry (2026-08-09 Hourly Article Run)
+
+1. ✅ **Verified Tool Calls and the Non-Atomic Failure Gap: Why Your Coding Agent Retries Blindly — and How to Wire Postcondition Verification into Codex CLI** — Written 2026-08-09 → `2026-08-09-verified-tool-calls-non-atomic-failures-llm-agents-codex-cli-posttooluse-verify-before-retry-idempotency.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Mansoor, Phadke & Rana arXiv:2608.02645 (July 31, 2026) "Verified Tool Calls Improve LLM Agent Reliability Under Non-Atomic Failures"; lightweight verification-aware tool wrapper with postcondition verification, verify-before-retry logic, and idempotency keys; four non-atomic failure modes (timeout-after-dispatch, delayed visibility, partial success, stale conflicts); baseline duplicate rate 72–76% at high fault → wrapper reduces to 20%; task success 64% → 100%; verification drives most improvement per ablation; mapped to Codex CLI PostToolUse hooks as postcondition verifiers, PreToolUse hooks for idempotency key injection, AGENTS.md retry policy directives, sandbox as blast radius limiter, approval_policy as human gate for state-mutating API calls, --approve-for-me automated review as verification layer; 6 citations
+   - SEO targets: "verified tool calls non-atomic failures codex cli", "codex cli PostToolUse hook postcondition verification", "verify-before-retry coding agent reliability", "codex cli idempotency key PreToolUse hook", "non-atomic tool call failures LLM agent duplicate actions", "codex cli tool verification reliability pattern"
+
+---
+
 ## CodeSentinel and the Code-Context Injection Surface — Three-Layer Defence, PreToolUse, Tree-sitter Sanitisation (2026-08-09 Hourly Article Run)
 
 1. ✅ **CodeSentinel and the Code-Context Injection Surface: Why Comments, Strings, and Dead Code Are Your Agent's Blind Spot — and How to Build a Three-Layer Defence in Codex CLI** — Written 2026-08-09 → `2026-08-09-codesentinel-three-layer-code-context-prompt-injection-defense-codex-cli-pretooluse-tree-sitter-sanitisation.md`
