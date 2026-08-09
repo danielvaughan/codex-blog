@@ -233,5 +233,3 @@ The complete absence of security-oriented plans is noteworthy but may reflect th
 [^4]: OpenAI (2026). "Plan / Spec Mode" — GitHub Discussion #7355. [https://github.com/openai/codex/discussions/7355](https://github.com/openai/codex/discussions/7355)
 
 [^5]: Yang, C. (2026). "Context-Contaminated Restart Model." arXiv:2605.08563. [https://arxiv.org/abs/2605.08563](https://arxiv.org/abs/2605.08563)
-
-[^6]: Thangarajah, K., Chen, B. & Hassan, A.E. (2026). "DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds." arXiv:2608.06113. [https://arxiv.org/abs/2608.06113](https://arxiv.org/abs/2608.06113)
