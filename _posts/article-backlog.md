@@ -1,5 +1,13 @@
 # Article Backlog
 
+## OneDayAgent and the Long-Horizon Harness — Decompose-Verify-Repair, Subagent Isolation, Context Compaction, Goal Mode (2026-08-10 Hourly Article Run)
+
+1. ✅ **OneDayAgent and the Long-Horizon Harness: Why Decompose-Verify-Repair Beats Growing a Single Session — and How to Wire It into Codex CLI** — Written 2026-08-10 → `2026-08-10-onedayagent-long-horizon-harness-decompose-verify-repair-codex-cli-subagent-context-compaction-goal-mode.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zheng et al. arXiv:2608.05013 (August 4, 2026) "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents"; three-capability harness: task decomposition into bounded subtasks, execution memory with summarised truncation and automatic context compression, global verification and repair against original intent; AgentIF-OneDay benchmark 104 tasks, score 0.821 vs Manus 0.645 and AutoClaw 0.799; transfers across 5 backend LLMs without tuning; verification-only ablation matches decomposition score gain at 67% lower latency; mapped to Codex CLI subagents as fresh-context executors, context compaction as execution memory, PostToolUse hooks as verification gate, goal mode as persistent original intent, AGENTS.md decomposition directives, named profiles for long-horizon configuration; 6 citations
+   - SEO targets: "OneDayAgent codex cli long horizon harness", "codex cli subagent task decomposition verify repair", "long horizon coding agent harness decompose verify", "codex cli goal mode verification original intent", "codex cli context compaction long session subagent", "OneDayAgent AgentIF-OneDay benchmark autonomous agent"
+
+---
+
 ## Cheap Code, Costly Judgment — Governance Conversion, Failure Classes, Test-to-Code Ratio, Codex CLI Governance Layers (2026-08-10 Hourly Article Run)
 
 1. ✅ **Cheap Code, Costly Judgment: Governance Conversion for Agentic Software Engineering with Codex CLI** — Written 2026-08-10 → `2026-08-10-cheap-code-costly-judgment-governance-conversion-agentic-software-engineering-codex-cli.md`
