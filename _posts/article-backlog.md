@@ -1,5 +1,13 @@
 # Article Backlog
 
+## TRACE and Context Compression Instability — Boundary-Local Verification, Compaction Reliability (2026-08-10 Hourly Article Run)
+
+1. ✅ **TRACE and the Context Compression Instability Problem: Why Summarisation Breaks Long-Horizon Agents — and How Boundary-Local Verification Fixes It for Codex CLI** — Written 2026-08-10 → `2026-08-10-trace-context-compression-instability-long-horizon-agents-codex-cli-boundary-local-verification-compaction-reliability.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Min, Wu, Darbari, Chen & Hong arXiv:2608.06503 (August 6, 2026) "Toward Reliable Context Compression for Long-Horizon Agents: An Empirical Study of Execution Instability"; TRACE verifier-guided framework: boundary-local evaluation via paired closed-loop continuations, regression detection (blocked actions +0.108, repeated exploration +0.031), preference-guided prompt optimisation; 77.1% accuracy / 67.3% Pass² vs 71.4% / 59.5% best baseline; cross-model transfer MiniMax-M3 → Kimi-K2.7-Code 84.5% accuracy exceeding uncompressed 82.7%; mapped to Codex CLI compact_prompt optimisation, PostToolUse hooks for compression drift detection, AGENTS.md constraint pinning outside compaction window, model_auto_compact_token_limit tuning; complemented by Governance Decay arXiv:2606.22528 and CoACT arXiv:2607.02911; 5 citations
+   - SEO targets: "TRACE context compression instability codex cli", "codex cli context compaction reliability boundary-local verification", "context compression execution instability long-horizon agent", "codex cli compact_prompt optimisation action preservation", "TRACE verifier-guided compression coding agent", "codex cli PostToolUse compression drift detection"
+
+---
+
 ## Cross-Benchmark Generalization in Agentic RL — Model Selection, Transfer Learning, Dense Rewards (2026-08-10 Hourly Article Run)
 
 1. ✅ **Cross-Benchmark Generalization in Agentic RL: Why Training on Office Tasks Makes Coding Agents Better — and What It Means for Codex CLI Model Selection** — Written 2026-08-10 → `2026-08-10-cross-benchmark-generalization-agentic-rl-long-horizon-codex-cli-model-selection-transfer.md`
