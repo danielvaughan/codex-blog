@@ -1,5 +1,13 @@
 # Article Backlog
 
+## LivePlan and Online Corrective Steering — Deterministic Drift Detection, LLM Advisory, PostToolUse Hooks (2026-08-10 Hourly Article Run)
+
+1. ✅ **LivePlan and Online Corrective Steering: Why Deterministic Drift Detection Plus LLM Advisory Beats Global Replanning — and How to Wire It into Codex CLI** — Written 2026-08-10 → `2026-08-10-liveplan-online-monitoring-corrective-steering-programming-agents-codex-cli-posttooluse-drift-detection-advisor.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Liu et al. arXiv:2608.06701 (August 7, 2026) "Online Monitoring and Corrective Steering of Programming Agents"; two-component LivePlan system: deterministic rule-based monitor (Graphectory + Langutory trajectory representations) + LLM advisor (next-step recommendation, not global replan); blocking drifts (plan violation, premature patching, skip patching, skip validation) vs non-blocking drifts (thought/action oscillation, stagnation, repeated actions); SWE-bench Pro-Python DeepSeek-V3 +12.33pp (21.76%→34.09%), Gemini-2.5-Flash +15.24pp (13.17%→28.41%), MiniMax-M2.5 +5.45pp; SWE-bench Verified similar gains; SAGE global replan −2.97pp confirms replanning hurts; advisor cost $0.01–$0.06/instance; 7,752 trajectories evaluated; mapped to Codex CLI PostToolUse hooks as deterministic monitor (exit code 2 steering), PreToolUse hooks as blocking phase gates, AGENTS.md as phase policy, named profiles for executor/advisor model tiering, drift-monitor.py with Graphectory-equivalent action log; complemented by TACT arXiv:2605.05980 activation steering and SWE-PRM arXiv:2509.02360 periodic process reward; 6 citations
+   - SEO targets: "LivePlan corrective steering coding agent codex cli", "codex cli PostToolUse hook drift detection steering", "deterministic trajectory monitoring programming agent", "codex cli drift monitor phase gate hooks", "LivePlan SWE-bench corrective steering agent reliability", "coding agent trajectory drift detection advisor pattern"
+
+---
+
 ## OneDayAgent and the Long-Horizon Harness — Decompose-Verify-Repair, Subagent Isolation, Context Compaction, Goal Mode (2026-08-10 Hourly Article Run)
 
 1. ✅ **OneDayAgent and the Long-Horizon Harness: Why Decompose-Verify-Repair Beats Growing a Single Session — and How to Wire It into Codex CLI** — Written 2026-08-10 → `2026-08-10-onedayagent-long-horizon-harness-decompose-verify-repair-codex-cli-subagent-context-compaction-goal-mode.md`
