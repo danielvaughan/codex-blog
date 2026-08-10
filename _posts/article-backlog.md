@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Cross-Benchmark Generalization in Agentic RL — Model Selection, Transfer Learning, Dense Rewards (2026-08-10 Hourly Article Run)
+
+1. ✅ **Cross-Benchmark Generalization in Agentic RL: Why Training on Office Tasks Makes Coding Agents Better — and What It Means for Codex CLI Model Selection** — Written 2026-08-10 → `2026-08-10-cross-benchmark-generalization-agentic-rl-long-horizon-codex-cli-model-selection-transfer.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Mehta, Ritchie, Panavas & Chen arXiv:2608.00181 (July 31, 2026) "Cross-Benchmark Generalization in Long-Horizon Agents"; Qwen3.5-122B-A10B fine-tuned via SFT+RL (GSPO) on 363 MCP tasks across 27 categories (0 coding tasks); transfer to 5 external benchmarks: Toolathlon +9.6pp, SWE-Bench Pro +5.8pp, τ²-Bench +5.3pp, BFCL-V4 +3.5pp, Terminal-Bench 2 +2.8pp; dense rewards increased usable signal from 16.8%→82.7%; four transferable behavioural patterns: deliberate goal formation, working state establishment, parent objective maintenance, completion verification; mapped to Codex CLI named profiles for model selection, AGENTS.md as structural scaffolding, codex exec --output-schema for dense evaluation, PostToolUse hooks for per-criterion verification; 4 citations
+   - SEO targets: "cross-benchmark generalization agentic RL codex cli", "codex cli model selection agentic capability transfer", "dense reward evaluation coding agent harness", "agentic RL transfer learning SWE-bench coding", "codex cli named profiles long-horizon model selection", "cross-benchmark transfer tool-use coding agent"
+
+---
+
 ## Don't Blame the Model — Scaffolding Evolution, Harness Regression Testing, Codex CLI Quality (2026-08-10 Hourly Article Run)
 
 1. ✅ **Don't Blame the Model: How Scaffolding Evolution Shapes Coding Agent Quality — and What It Means for Codex CLI Users** — Written 2026-08-10 → `2026-08-10-dont-blame-the-model-scaffolding-evolution-coding-agent-quality-codex-cli-harness-regression-testing.md`
