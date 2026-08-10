@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Don't Blame the Model — Scaffolding Evolution, Harness Regression Testing, Codex CLI Quality (2026-08-10 Hourly Article Run)
+
+1. ✅ **Don't Blame the Model: How Scaffolding Evolution Shapes Coding Agent Quality — and What It Means for Codex CLI Users** — Written 2026-08-10 → `2026-08-10-dont-blame-the-model-scaffolding-evolution-coding-agent-quality-codex-cli-harness-regression-testing.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ben Sghaier et al. arXiv:2607.03691 (July 4, 2026) "Don't Blame the Large Language Model: How Agent Harness Evolution Shapes Coding Agent Quality"; first controlled longitudinal study isolating harness contribution by fixing LLM and varying harness across 35 sequential Qwen Code CLI releases (3,500 executions); five harness landscape study: Codex 12.4 releases/week, OpenCode 18.0, Gemini CLI 10.3, Qwen Code 10.0, OpenHands 1.5 — 13–28× faster than VS Code/GitHub CLI baselines; resolve rate 23–39% with no significant trend (ρ=0.208, p=0.231); token consumption +70% (391K→668K, ρ=0.743, p<0.0001); failed tasks 2.7× tokens, 1.8× tool calls; high-risk zones: LLM Provider + Context Management layers; low-risk: Security + Extensibility; complemented by Wang et al. arXiv:2607.12227 (harness evolution vs test-time scaling overfitting), Zhou et al. arXiv:2608.03392 (self-evolving coding agents), Böckeler (martinfowler.com) guide/sensor harness engineering framework; mapped to Codex CLI version pinning, local eval sets, AGENTS.md as version-controlled harness config, PostToolUse hooks as computational sensors, token efficiency monitoring, named profiles for harness isolation; 6 citations
+   - SEO targets: "codex cli scaffolding evolution quality regression", "agent harness regression testing codex cli", "don't blame the model harness quality coding agent", "codex cli upgrade regression testing benchmark", "scaffolding evolution coding agent quality SWE-bench", "codex cli harness version pinning quality assurance"
+
+---
+
 ## PMCoder and the Plan-Memory Coupling — Bidirectional Phase-Aware Retrieval, Execution Grounding, Episodic Memory (2026-08-10 Hourly Article Run)
 
 1. ✅ **PMCoder and the Plan-Memory Coupling: Why Bidirectional Phase-Aware Retrieval Beats Flat Context — and How to Wire It into Codex CLI** — Written 2026-08-10 → `2026-08-10-pmcoder-planning-episodic-memory-software-issue-resolution-codex-cli-phase-retrieval-execution-grounding.md`
