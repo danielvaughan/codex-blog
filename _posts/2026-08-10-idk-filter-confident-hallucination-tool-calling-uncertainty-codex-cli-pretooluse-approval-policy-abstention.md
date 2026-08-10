@@ -209,5 +209,3 @@ The broader lesson: the tool-calling interface's structured output format — wh
 [^5]: Codex CLI Hooks Reference — PreToolUse & PostToolUse hook architecture. [https://agenticcontrolplane.com/blog/codex-cli-hooks-reference](https://agenticcontrolplane.com/blog/codex-cli-hooks-reference)
 
 [^6]: OpenAI (2026). Codex CLI v0.147.0 Release Notes — approval_policy.granular, --approve-for-me, Agent Plugin search. [https://www.gradually.ai/en/changelogs/codex-cli/](https://www.gradually.ai/en/changelogs/codex-cli/)
-
-[^7]: Ye et al. (2026). UQ for Function-Calling — finding that AST-based clustering of tool-call outputs enables tighter uncertainty bounds than text-level Semantic Entropy. arXiv:2604.22985. [https://arxiv.org/abs/2604.22985](https://arxiv.org/abs/2604.22985)

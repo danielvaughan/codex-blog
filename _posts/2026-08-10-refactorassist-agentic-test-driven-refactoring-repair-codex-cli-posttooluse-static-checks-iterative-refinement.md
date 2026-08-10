@@ -65,7 +65,7 @@ Three deterministic passes address the mechanically fixable failures [^1]:
 2. **Syntax correction** — stack-based validation ensures balanced brackets and parentheses.
 3. **Structural correction** — identifies type mismatches and incompatible method signatures.
 
-This stage alone lifts the cumulative pass rate from 68.4% to 80.3% — a 11.9 percentage point gain with zero LLM calls [^1].
+This stage alone lifts the cumulative pass rate from 68.4% to 80.3% — an 11.9 percentage point gain with zero LLM calls [^1].
 
 ### Stage 2: Agentic Refinement
 

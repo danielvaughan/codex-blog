@@ -82,7 +82,7 @@ codex plugin update
 
 ### Plugin Isolation Hardening
 
-v0.147.0 tightens security in two important ways:
+v0.147.0 tightens security in three important ways:
 
 1. **Symlink skipping** — plugin installation now skips symlinks entirely, preventing symlink-traversal attacks that could escape the plugin directory [^1].
 2. **Network denial on policy failure** — if a plugin's policy update fails (e.g. a malformed `requirements.toml`), network access is denied rather than falling back to permissive defaults [^1].
