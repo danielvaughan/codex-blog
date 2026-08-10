@@ -2,7 +2,7 @@
 title: "Debugging Codex Agent Failures: A Systematic Troubleshooting Guide"
 description: "Codex CLI agent failures cluster into a small number of recognisable patterns. Most failures are not random — they have consistent causes and systematic."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-08-10T14:12:24+01:00
+last_modified_at: 2026-08-10T16:10:26+01:00
 tags:
   - reference
   - context-management

@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PMCoder and the Plan-Memory Coupling — Bidirectional Phase-Aware Retrieval, Execution Grounding, Episodic Memory (2026-08-10 Hourly Article Run)
+
+1. ✅ **PMCoder and the Plan-Memory Coupling: Why Bidirectional Phase-Aware Retrieval Beats Flat Context — and How to Wire It into Codex CLI** — Written 2026-08-10 → `2026-08-10-pmcoder-planning-episodic-memory-software-issue-resolution-codex-cli-phase-retrieval-execution-grounding.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Zhang, Zhang & Huang arXiv:2608.06811 (August 7, 2026) "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution"; PMCoder architecture: hierarchical phase planner (Exploration→Hypothesis→Implementation→Verification state machine) + episodic memory with phase-conditioned MMR retrieval (IDF-weighted lexical + code-structure graph scoring); bidirectional coupling: phase→retrieval budget/diversity, sub-task→anchor keywords, memory stats→stuck detection/replanning, verdict→plan state; SWE-bench Verified Qwen3-Coder-30B +25 resolved (+5.0pp, 28.5%→33.5%, p<0.001); 2×2 ablation: super-additive interaction +10.3 instances (+2.1pp, F(1,8)=10.92, p=0.011); failed-action recurrence 0.50×, empty-patch exits 0.33×, context exhaustion 0.45×; cross-model: DeepSeek-V4-Flash +3.2pp, Claude Haiku 4.5 +2.8pp; OpenHands port +4.6pp; execution grounding via reproduction scripts (90% pass in resolved vs 28% unresolved); complemented by Arjmandi arXiv:2608.04066 commitment/binding drift dissociation and Haeri arXiv:2607.06636 specification grounding; mapped to Codex CLI plan mode as phase structure, PostToolUse hooks as memory capture + verification gate (exit 2 steering), AGENTS.md as phase policy + stuck detection rules + retrieval directives, named profiles for model tiering per phase; 6 citations
+   - SEO targets: "PMCoder planning episodic memory codex cli", "codex cli phase-conditioned retrieval episodic memory", "bidirectional plan-memory coupling coding agent", "codex cli PostToolUse execution grounding verification", "episodic memory phase-aware retrieval SWE-bench", "codex cli AGENTS.md phase policy stuck detection"
+
+---
+
 ## LivePlan and Online Corrective Steering — Deterministic Drift Detection, LLM Advisory, PostToolUse Hooks (2026-08-10 Hourly Article Run)
 
 1. ✅ **LivePlan and Online Corrective Steering: Why Deterministic Drift Detection Plus LLM Advisory Beats Global Replanning — and How to Wire It into Codex CLI** — Written 2026-08-10 → `2026-08-10-liveplan-online-monitoring-corrective-steering-programming-agents-codex-cli-posttooluse-drift-detection-advisor.md`
