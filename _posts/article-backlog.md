@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PIMiner and the Instruction Hierarchy Gap — Transferable Prompt Injection, Layered Codex CLI Defence (2026-08-11 Hourly Article Run)
+
+1. ✅ **PIMiner and the Instruction Hierarchy Gap: Why Transferable Prompt Injection Attacks Reach 87% Success — and How Codex CLI's Layered Defences Hold the Line** — Written 2026-08-11 → `2026-08-11-piminer-transferable-prompt-injection-red-teaming-instruction-hierarchy-codex-cli-pretooluse-defence-strategy-library.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang, Yin, Geng & Jia arXiv:2608.05108 (August 5, 2026) "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming"; PIMiner strategy-library approach: training-phase strategy abstraction + test-time transfer with ~10 queries; ASR Gemini-2.5-Pro 76.2%/86.7%, GPT-5.1 61.9%/53.3%, Claude Sonnet 4.5 42.9%/40.0% on IPIArena/AgentDojo; Kariyappa & Suh arXiv:2606.07808 "Where Instruction Hierarchy Breaks" — three failure categories (identification, conflict resolution, response realisation), training-free parallel/sequential monitors reducing non-compliance 81–99% static / 45% adaptive; mapped to Codex CLI sandbox_mode kernel-enforced blast radius, PreToolUse hooks as deterministic policy gates, approval_policy untrusted mode, AGENTS.md as version-controlled governance, named profiles for graduated trust; 6 citations
+   - SEO targets: "PIMiner prompt injection red teaming codex cli", "codex cli PreToolUse hook prompt injection defence", "instruction hierarchy failure reasoning model coding agent", "codex cli sandbox prompt injection blast radius", "transferable prompt injection attack strategy library", "codex cli approval_policy untrusted defence in depth"
+
+---
+
 ## TRACE and Context Compression Instability — Boundary-Local Verification, Compaction Reliability (2026-08-10 Hourly Article Run)
 
 1. ✅ **TRACE and the Context Compression Instability Problem: Why Summarisation Breaks Long-Horizon Agents — and How Boundary-Local Verification Fixes It for Codex CLI** — Written 2026-08-10 → `2026-08-10-trace-context-compression-instability-long-horizon-agents-codex-cli-boundary-local-verification-compaction-reliability.md`
