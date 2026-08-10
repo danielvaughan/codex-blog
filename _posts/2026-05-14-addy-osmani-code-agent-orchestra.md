@@ -2,7 +2,7 @@
 title: "The Code Agent Orchestra — Key Insights from Addy Osmani"
 description: "Source: Captured: 2026-05-14"
 date: 2026-05-14T00:00:00+00:00
-last_modified_at: 2026-08-10T00:08:46+01:00
+last_modified_at: 2026-08-10T02:13:56+01:00
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-addy-osmani-code-agent-orchestra"

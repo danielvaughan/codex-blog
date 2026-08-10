@@ -2,7 +2,7 @@
 title: "Reasoning Effort Tuning: Minimal to xhigh for Cost and Speed"
 description: "Codex CLI's reasoning engine has a single knob that dramatically affects cost, speed, and quality: model_reasoning_effort."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-08-10T00:08:46+01:00
+last_modified_at: 2026-08-10T02:13:56+01:00
 summary: "How to tune model_reasoning_effort and plan_mode_reasoning_effort for every workflow. The five levels explained with real cost/speed tradeoffs and subagent economics."
 tags:
   - models

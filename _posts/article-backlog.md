@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Addressable Recall Compaction and Lossless Context Management — ObsStore, Citation Stubs, On-Demand Recall, PostToolUse Archival (2026-08-10 Hourly Article Run)
+
+1. ✅ **Addressable Recall Compaction: Why Lossless Context Management Changes the Game for Codex CLI Long Sessions** — Written 2026-08-10 → `2026-08-10-addressable-recall-compaction-lossless-context-management-codex-cli-long-sessions-observation-store.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Dang et al. arXiv:2607.25066 (July 27, 2026) "Addressable Recall Compaction for Long Context-Window Control in AI Agents"; three-component architecture: append-only observation store (SHA-1 hashed, 8-char hex IDs), bounded active view with citation stubs, on-demand _recall mechanism; Needle-in-Haystack accuracy 99.00% (8B) / 99.80% (32B) vs best baseline 79.57% / 96.67%; LongBench-v2 Hard 27.47% / 32.47% vs baselines; HBM bandwidth reduction 38.8–73.5%; formal lossless guarantee (Theorem 1); complemented by Colaco & Lahjouji arXiv:2607.08032 rate–distortion framework for memory compaction; mapped to Codex CLI PostToolUse hooks as observation archival entry point, MCP server as recall interface, AGENTS.md recall directives, named profiles for compaction strategy selection; 6 citations
+   - SEO targets: "addressable recall compaction codex cli", "lossless context compaction coding agent", "codex cli observation store long session", "ARC compaction lossless context management", "codex cli PostToolUse archival hook", "context window compaction lossless recall agent"
+
+---
+
 ## IDK Filter and the Confident Hallucination Problem — Uncertainty-Aware Tool-Call Filtering, PreToolUse Hooks, Approval Policy Abstention (2026-08-10 Hourly Article Run)
 
 1. ✅ **The IDK Filter and the Confident Hallucination Problem: Why Your Coding Agent Calls the Wrong Tool With Full Confidence — and How Uncertainty-Aware Filtering Maps to Codex CLI** — Written 2026-08-10 → `2026-08-10-idk-filter-confident-hallucination-tool-calling-uncertainty-codex-cli-pretooluse-approval-policy-abstention.md`
