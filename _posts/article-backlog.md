@@ -1,5 +1,13 @@
 # Article Backlog
 
+## LongHorizon-Harness and the Manage-Execute-Audit Loop — Fresh-Context Execution, Verified State, Long-Horizon Tasks (2026-08-10 Hourly Article Run)
+
+1. ✅ **LongHorizon-Harness and the Manage-Execute-Audit Loop: Why Fresh-Context Execution with Verified State Beats Growing a Single Session — and How to Wire It into Codex CLI** — Written 2026-08-10 → `2026-08-10-longhorizon-harness-manage-execute-audit-codex-cli-fresh-context-verified-state-long-horizon-tasks.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ma et al. arXiv:2608.01964 (August 3, 2026) "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks"; three-role Manage-Execute-Audit architecture: manager maintains verified state and determines next subtask, executor operates with fresh context per round, auditor independently verifies environment state before locking progress; WeaveBench 51.8%→80.7% (+28.9pp), Terminal-Bench 2.1 69.7%→77.2% (+7.5pp), OSWorld 2.0 2.8%→8.3% (3.0×); no model retraining required; complemented by Ning et al. arXiv:2608.05446 EvoHarness-RL (96.9% ALFWorld with learned harness policies); mapped to Codex CLI subagent isolation as fresh-context executor, PostToolUse hooks as auditor, AGENTS.md as manager instructions, verified.md as persistent state store, model tiering (Sol/Terra) for role-specific cost optimisation; 8 citations
+   - SEO targets: "LongHorizon-Harness codex cli", "manage execute audit loop coding agent", "fresh context execution verified state", "codex cli long horizon tasks harness", "context drift verified state management", "codex cli subagent fresh context auditor pattern"
+
+---
+
 ## Addressable Recall Compaction and Lossless Context Management — ObsStore, Citation Stubs, On-Demand Recall, PostToolUse Archival (2026-08-10 Hourly Article Run)
 
 1. ✅ **Addressable Recall Compaction: Why Lossless Context Management Changes the Game for Codex CLI Long Sessions** — Written 2026-08-10 → `2026-08-10-addressable-recall-compaction-lossless-context-management-codex-cli-long-sessions-observation-store.md`
