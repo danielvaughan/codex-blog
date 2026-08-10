@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Cheap Code, Costly Judgment — Governance Conversion, Failure Classes, Test-to-Code Ratio, Codex CLI Governance Layers (2026-08-10 Hourly Article Run)
+
+1. ✅ **Cheap Code, Costly Judgment: Governance Conversion for Agentic Software Engineering with Codex CLI** — Written 2026-08-10 → `2026-08-10-cheap-code-costly-judgment-governance-conversion-agentic-software-engineering-codex-cli.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Davis et al. arXiv:2607.01087 (July 1, 2026) "Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering"; 12-week case study, 420 KLOC production code, 1.16 MLOC tests/lints/docs (2.76:1 ratio), 88 field notes; middle-range theory of governance conversion: controls discovered from failures visible only during agentic work, not prescribed in advance; five structural failure classes (hallucinated correctness, budget-pressure shortcuts, context bloat, fake-passing tests, terminal failures); mapped to Codex CLI AGENTS.md as governance policy layer, approval_policy graduated autonomy, PostToolUse hooks as verification gates, PreToolUse hooks as pre-execution enforcement, sandbox as blast radius limiter, codex exec + CI/CD as automated governance; 6 citations
+   - SEO targets: "cheap code costly judgment codex cli governance", "governance conversion agentic software engineering", "codex cli approval_policy graduated autonomy governance", "agentic coding failure classes governance mechanisms", "test-to-code ratio agentic development 2.76", "codex cli PostToolUse verification gate governance conversion"
+
+---
+
 ## RefactorAssist and the Refactoring Reliability Gap — Agentic Test-Driven Repair, Static Checks, Iterative Refinement (2026-08-10 Hourly Article Run)
 
 1. ✅ **RefactorAssist and the Refactoring Reliability Gap: Why 1 in 4 LLM Refactorings Fail Silently — and How Test-Driven Agentic Repair Maps to Codex CLI** — Written 2026-08-10 → `2026-08-10-refactorassist-agentic-test-driven-refactoring-repair-codex-cli-posttooluse-static-checks-iterative-refinement.md`
