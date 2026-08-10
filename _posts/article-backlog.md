@@ -1,5 +1,13 @@
 # Article Backlog
 
+## RefactorAssist and the Refactoring Reliability Gap — Agentic Test-Driven Repair, Static Checks, Iterative Refinement (2026-08-10 Hourly Article Run)
+
+1. ✅ **RefactorAssist and the Refactoring Reliability Gap: Why 1 in 4 LLM Refactorings Fail Silently — and How Test-Driven Agentic Repair Maps to Codex CLI** — Written 2026-08-10 → `2026-08-10-refactorassist-agentic-test-driven-refactoring-repair-codex-cli-posttooluse-static-checks-iterative-refinement.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Cordeiro, Noei & Zou arXiv:2608.00924 (August 2, 2026) "RefactorAssist: Agentic Refinement for Reliable Code Refactoring"; eight failure categories in LLM refactorings (context misunderstanding 24.3%, incorrect renaming 15.3%, added functionality 13.7%); two-stage pipeline: deterministic static repair (import restoration, bracket balancing, type-mismatch patching) + iterative test-driven agentic refinement (up to 10 iterations); cumulative pass rate 68.4%→94.2%; explanation-aware diagnosis repairs 70.8% vs 39.7% diff+log only; RAG hurts repair accuracy; mapped to Codex CLI PostToolUse hooks as verification gate, AGENTS.md refactoring policy constraints, sandbox workspace-write isolation, named profiles for refactoring workflows, iteration cap at 3 for cost efficiency; 6 citations
+   - SEO targets: "RefactorAssist agentic refactoring repair codex cli", "codex cli PostToolUse hook refactoring verification", "LLM refactoring failure categories test-driven repair", "codex cli AGENTS.md refactoring policy scope constraints", "agentic iterative code refactoring repair loop", "static repair LLM refactoring coding agent"
+
+---
+
 ## Codex CLI v0.147.0: Portable Agent Plugins, Multi-Catalog Federation, and --approve-for-me (2026-08-10 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.147.0: Portable Agent Plugins, Multi-Catalog Federation, and the --approve-for-me Flag** — Written 2026-08-10 → `2026-08-10-codex-cli-v0147-portable-agent-plugins-multi-catalog-federation-approve-for-me-conversation-sections.md`
