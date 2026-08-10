@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.147.0: Portable Agent Plugins, Multi-Catalog Federation, and --approve-for-me (2026-08-10 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.147.0: Portable Agent Plugins, Multi-Catalog Federation, and the --approve-for-me Flag** — Written 2026-08-10 → `2026-08-10-codex-cli-v0147-portable-agent-plugins-multi-catalog-federation-approve-for-me-conversation-sections.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — v0.147.0 released 7 August 2026; portable Agent Plugins with four-tier catalog federation (local, personal, workspace, remote); /plugins TUI and codex plugin marketplace search merge results across all tiers; catalog item limit raised to 2,048; plugin isolation hardening (symlink skipping, network denial on policy failure, strict tool name collision errors); --approve-for-me flag for automatic review without manual interruption; persistent conversation sections with paginated transcript browsing; Cursor skill migration; secret redaction from terminal history; --full-auto flag removed (breaking change); MCP SDK 3.0.0; 6 citations
+   - SEO targets: "codex cli v0.147.0 agent plugins", "codex cli portable agent plugins multi-catalog", "codex cli approve-for-me flag automatic review", "codex cli plugin catalog federation", "codex cli conversation sections", "codex cli plugin isolation hardening security"
+
+---
+
 ## LongHorizon-Harness and the Manage-Execute-Audit Loop — Fresh-Context Execution, Verified State, Long-Horizon Tasks (2026-08-10 Hourly Article Run)
 
 1. ✅ **LongHorizon-Harness and the Manage-Execute-Audit Loop: Why Fresh-Context Execution with Verified State Beats Growing a Single Session — and How to Wire It into Codex CLI** — Written 2026-08-10 → `2026-08-10-longhorizon-harness-manage-execute-audit-codex-cli-fresh-context-verified-state-long-horizon-tasks.md`

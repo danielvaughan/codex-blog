@@ -2,7 +2,7 @@
 title: "Codex CLI for Jupyter Notebooks and Scientific Python"
 description: "Jupyter notebooks are the lingua franca of scientific Python, yet the .ipynb format is one of the environments where Codex CLI historically performs least."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-08-10T04:13:13+01:00
+last_modified_at: 2026-08-10T06:09:24+01:00
 tags:
   - language-guide
   - agents-md
