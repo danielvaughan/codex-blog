@@ -1,5 +1,13 @@
 # Article Backlog
 
+## RETRACE and Independent Patch Verification — Bidirectional Reconstruction, PostToolUse Reconciliation (2026-08-11 Hourly Article Run)
+
+1. ✅ **RETRACE and Independent Patch Verification: Why Bidirectional Reconstruction Catches What Self-Refinement Misses — and How to Wire It into Codex CLI** — Written 2026-08-11 → `2026-08-11-retrace-independent-patch-verification-bidirectional-reconstruct-verify-coding-agents-codex-cli-posttooluse-reconciliation.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. arXiv:2608.08950 (August 2026) "Independent Patch Verification for Coding Agents with a Bidirectional Reconstruct-and-Verify Framework"; RETRACE three-stage architecture: forward reconstruction (repair rationale from issue+trajectory), backward reconstruction (problem inference from patch alone, issue withheld), reconciliation (alignment check + revision diagnosis); SWE-bench Verified GPT-5-mini +7.0pp (56.2%→63.2%), MiniMax M2.5 +3.6pp (75.8%→79.4%); cross-scaffold OpenHands GPT-5-mini +19.2pp; ablation: forward+backward super-additive +10.8pp vs +6.7pp each alone; cost parity via 90.8-96.7% cache hit rates; Self-Refine baseline degrades −1.4pp/−1.8pp; mapped to Codex CLI PostToolUse hooks as backward reconstruction gate (exit 2 steering), AGENTS.md as reconciliation policy, named profiles for tiered verification intensity; 5 citations
+   - SEO targets: "RETRACE independent patch verification codex cli", "codex cli PostToolUse backward reconstruction verification", "bidirectional patch verification coding agent SWE-bench", "codex cli AGENTS.md reconciliation policy verification", "independent patch verification coding agent self-refinement", "codex cli named profiles tiered verification intensity"
+
+---
+
 ## Ouroboros and Self-Developing Agents — Reviewed Core Evolution, Constitutional Governance, Codex CLI Plugin Safety (2026-08-11 Hourly Article Run)
 
 1. ✅ **Ouroboros and the Self-Developing Agent: Why Reviewed Core Evolution Changes the Game — and How Codex CLI's Governance Layers Compare** — Written 2026-08-11 → `2026-08-11-ouroboros-self-developing-coding-agent-reviewed-evolution-codex-cli-agents-md-constitutional-governance-plugin-safety.md`
