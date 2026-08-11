@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Ouroboros and Self-Developing Agents — Reviewed Core Evolution, Constitutional Governance, Codex CLI Plugin Safety (2026-08-11 Hourly Article Run)
+
+1. ✅ **Ouroboros and the Self-Developing Agent: Why Reviewed Core Evolution Changes the Game — and How Codex CLI's Governance Layers Compare** — Written 2026-08-11 → `2026-08-11-ouroboros-self-developing-coding-agent-reviewed-evolution-codex-cli-agents-md-constitutional-governance-plugin-safety.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Razzhigaev et al. arXiv:2608.08311 (August 8, 2026) "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution"; self-modifying agent architecture with swarm coordination (Repository Scout, Research Lane, Builder, Adversarial Eye, Verifier, Review Panel); two evolution modes (recursive free evolution, experience-driven evolution); 161-day Hope experiment; Terminal-Bench 2.1 86.74%, OSWorld-Verified 90.69%, SWE-bench Pro statistical tie with Codex CLI; complemented by Zhou et al. arXiv:2608.03392 self-evolving coding agent taxonomy (framework/memory/skills/tools/models/collaboration) and Huang et al. arXiv:2604.16968 safety risks in experience-driven self-evolving agents (execution bias, experience contamination); mapped to Codex CLI AGENTS.md as constitutional governance, Agent Plugins (v0.147.0) as controlled self-extension vs self-modification, PreToolUse/PostToolUse hooks as review gates, --approve-for-me Guardian auto-review, kernel sandbox as blast radius limiter; 5 citations
+   - SEO targets: "Ouroboros self-developing coding agent codex cli", "codex cli AGENTS.md constitutional governance self-evolving agent", "self-evolving coding agent safety reviewed evolution", "codex cli Agent Plugins controlled self-extension", "Ouroboros reviewed core evolution benchmark results", "codex cli governance layers self-modifying agent safety"
+
+---
+
 ## GPT-5.4 August Sunset — Migration Checklist, Config Recipes, Scheduled Tasks (2026-08-11 Hourly Article Run)
 
 1. ✅ **GPT-5.4 Retires from Codex on 31 August: A Migration Checklist for Config, Agents, and Scheduled Tasks** — Written 2026-08-11 → `2026-08-11-gpt-5-4-august-sunset-codex-cli-migration-gpt-5-6-terra-luna-config-recipes-scheduled-tasks.md`
