@@ -2,7 +2,7 @@
 title: "From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern"
 description: "Codex CLI is a formidable single-agent tool, but shipping a production feature typically involves design, frontend, backend, and testing — work that maps."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-08-11T10:15:16+01:00
+last_modified_at: 2026-08-11T10:36:04+01:00
 tags:
   - orchestration
   - agents-sdk
