@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Prompt-Induced Waste and Bounded-Efficiency Prompts — Token Cost Control, AGENTS.md Anti-Waste Policy (2026-08-12 Hourly Article Run)
+
+1. ✅ **Prompt-Induced Waste in Coding Agents: Why Your Instructions Are Burning Tokens — and How Bounded-Efficiency Prompts Cut the Bill in Codex CLI** — Written 2026-08-12 → `2026-08-12-prompt-induced-waste-coding-agents-bounded-efficiency-codex-cli-agents-md-token-cost-control.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Weinberger & Hozez arXiv:2608.01347v3 (August 2, 2026) "Same Task, Different Work: Prompt-Induced Waste in Coding Agents"; 4,644 runs across 24 tasks and 7 reasoning models; three waste mechanisms (branch tournaments 2.4–7.4× tokens, verification loops 18.25× worst case, misdirection 4.2× deliberation); bounded-efficiency template eliminates waste at 0.98–1.06× baseline; harness amplification 5–30× cost range; mapped to Codex CLI AGENTS.md anti-waste policy, config.toml model_auto_compact_token_limit and tool_output_token_limit, named profiles for cost-tiered workflows, PostToolUse hooks as verification-loop tripwire; 6 citations
+   - SEO targets: "prompt-induced waste coding agents codex cli", "codex cli AGENTS.md bounded efficiency token cost", "coding agent token waste branch tournament verification loop", "codex cli named profiles cost-tiered workflows", "bounded-efficiency prompt template coding agent", "codex cli PostToolUse hook verification loop detection"
+
+---
+
 ## Agentic Posture Vulnerability (APV) and the No-CVE Gap — Sandbox, Approval Policy, PreToolUse Closure (2026-08-11 Hourly Article Run)
 
 1. ✅ **The Vulnerability With No CVE: Why Agentic Posture Vulnerabilities Need a New Management Framework — and How Codex CLI Already Closes Most of Them** — Written 2026-08-11 → `2026-08-11-agentic-posture-vulnerability-apv-no-cve-coding-agent-security-codex-cli-sandbox-approval-pretooluse-closure.md`
