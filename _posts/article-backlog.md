@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-RPG and the Requirement Clarification Bottleneck — Plan Mode, AGENTS.md, Implicit Requirements (2026-08-11 Hourly Article Run)
+
+1. ✅ **SWE-RPG and the Requirement Clarification Bottleneck: Why Coding Agents Fail Before They Write a Single Line — and How Codex CLI's Plan Mode Closes the Gap** — Written 2026-08-11 → `2026-08-11-swe-rpg-unified-issue-resolution-benchmark-requirement-clarification-planning-code-generation-codex-cli-plan-mode-agents-md.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zhou et al. arXiv:2608.09072 (August 10, 2026) "A Unified Issue Resolution Benchmark for Requirement Clarification, Planning, and Code Generation for Coding Agents"; SWE-RPG 163 tasks from 31 repos (85 Java, 78 Python); six clarification dimensions (C1-C6); requirement clarification failures 24.5-46.0% of runs vs planning 5.5-17.8% vs code-gen 7.4-37.4%; average resolve rate 31.5%; best OpenCode+Kimi-K3 49.7%; complemented by ClarifyCodeBench arXiv:2607.00711 and REAgent arXiv:2604.06861; mapped to Codex CLI plan mode as clarification gate, AGENTS.md as implicit requirement specification (C4-C6 encoding), structured prompts with acceptance criteria per dimension; 6 citations
+   - SEO targets: "SWE-RPG requirement clarification benchmark codex cli", "codex cli plan mode implicit requirement recovery", "requirement clarification bottleneck coding agent", "codex cli AGENTS.md implicit requirements specification", "SWE-RPG six clarification dimensions coding agent", "codex cli plan mode clarification gate workflow"
+
+---
+
 ## DevIntent and the Implicit Intent Violation Problem — AGENTS.md Specification Defence, PostToolUse Verification (2026-08-11 Hourly Article Run)
 
 1. ✅ **DevIntent and the Implicit Intent Violation Problem: Why Your Coding Agent Passes Every Test but Builds the Wrong Thing — and How to Defend Against It in Codex CLI** — Written 2026-08-11 → `2026-08-11-devintent-implicit-intent-violation-llm-code-generation-codex-cli-agents-md-specification-defence.md`
