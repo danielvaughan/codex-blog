@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DevIntent and the Implicit Intent Violation Problem — AGENTS.md Specification Defence, PostToolUse Verification (2026-08-11 Hourly Article Run)
+
+1. ✅ **DevIntent and the Implicit Intent Violation Problem: Why Your Coding Agent Passes Every Test but Builds the Wrong Thing — and How to Defend Against It in Codex CLI** — Written 2026-08-11 → `2026-08-11-devintent-implicit-intent-violation-llm-code-generation-codex-cli-agents-md-specification-defence.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Haing, Vidra & Setty arXiv:2608.07614 (August 7, 2026) "DevIntent: How Much Does LLM-Generated Code Violate Developer Intent?"; Intent Violation Rate (IVR) metric; Claude Sonnet 4.6 94.3% pass rate but 54.5% IVR, GPT-4.1 92.7% pass but 63.5% IVR; bimodal distribution (95.7% at poles); C2 hidden constraint 42.9%/44.1% failure rate; complemented by AssumptionMiner arXiv:2607.22898 (F1 0.816 assumption extraction) and Lahiri arXiv:2603.17150 Intent Formalization grand challenge; mapped to Codex CLI AGENTS.md as intent specification, PostToolUse hooks as verification gates (exit 2 steering), acceptance criteria in prompts, named profiles for verification intensity, plan mode as assumption enumeration; 5 citations
+   - SEO targets: "DevIntent intent violation rate codex cli", "codex cli AGENTS.md implicit intent specification defence", "LLM code generation intent violation bimodal", "codex cli PostToolUse intent verification hook", "implicit requirements violation coding agent 2026", "AssumptionMiner codex cli assumption layer"
+
+---
+
 ## SWE-Bench ProMax and Multilingual Refactoring — Cross-File Coordination, Polyglot Agent Evaluation (2026-08-11 Hourly Article Run)
 
 1. ✅ **SWE-Bench ProMax and the Multilingual Refactoring Challenge: Why Cross-File Coordination Exposes Coding Agent Limits — and What It Means for Codex CLI Polyglot Workflows** — Written 2026-08-11 → `2026-08-11-swe-bench-promax-multilingual-refactoring-benchmark-codex-cli-cross-file-coordination-polyglot-agent-evaluation.md`
