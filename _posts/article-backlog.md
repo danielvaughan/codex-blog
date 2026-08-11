@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AgentLTL and Temporal Logic for Procedural Compliance — Trace Verification, PreToolUse Policy Enforcement (2026-08-11 Hourly Article Run)
+
+1. ✅ **AgentLTL and Temporal Logic for Procedural Compliance: Why Deterministic Trace Verification Beats LLM Judges — and How to Wire It into Codex CLI** — Written 2026-08-11 → `2026-08-11-agentltl-temporal-logic-procedural-compliance-codex-cli-pretooluse-trace-verification-policy-enforcement.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Elkoussy & Perez arXiv:2607.02599 (July 1, 2026) "AgentLTL: A Trace-Verification Framework for Measuring, Enforcing, and Training Procedural Compliance in Tool-Using LLM Agents"; FO-LTL specification language with four constraint categories (ordering, branching, iteration, grounding); block-and-warn online enforcement improved compliance on 5/7 models; finetuning with compliance reward +38pp accuracy, +17.5pp compliance on held-out patterns including unseen tool aliases; complemented by MANTRA arXiv:2605.06334 SMT-validated compliance benchmarks; mapped to Codex CLI PreToolUse hooks as online gate, PostToolUse for trace logging, AGENTS.md as policy source, named profiles for graduated enforcement; 5 citations
+   - SEO targets: "AgentLTL temporal logic procedural compliance codex cli", "codex cli PreToolUse hook temporal logic policy gate", "deterministic trace verification tool-using agent compliance", "codex cli AGENTS.md temporal compliance policy FO-LTL", "AgentLTL block-and-warn online enforcement coding agent", "codex cli hooks trace verification procedural compliance"
+
+---
+
 ## PIMiner and the Instruction Hierarchy Gap — Transferable Prompt Injection, Layered Codex CLI Defence (2026-08-11 Hourly Article Run)
 
 1. ✅ **PIMiner and the Instruction Hierarchy Gap: Why Transferable Prompt Injection Attacks Reach 87% Success — and How Codex CLI's Layered Defences Hold the Line** — Written 2026-08-11 → `2026-08-11-piminer-transferable-prompt-injection-red-teaming-instruction-hierarchy-codex-cli-pretooluse-defence-strategy-library.md`
