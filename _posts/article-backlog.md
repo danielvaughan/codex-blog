@@ -1,5 +1,13 @@
 # Article Backlog
 
+## OpenCodeReview and Deterministic Code Review — Rule-Guided Dispatch, Grounded Review, Independent Reflection (2026-08-11 Hourly Article Run)
+
+1. ✅ **OpenCodeReview and the Determinism Dividend: Why Rule-Guided Dispatch Plus Independent Reflection Beats Unconstrained Agent Review — and How to Wire It into Codex CLI** — Written 2026-08-11 → `2026-08-11-opencodereview-deterministic-code-review-agent-codex-cli-rule-dispatch-grounded-review-independent-reflection.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. arXiv:2608.09290 (August 10, 2026) "OpenCodeReview: Determinism over Non-Determinism for Cost-Effective Agent-Based Code Review"; three-stage deterministic architecture: rule-guided dispatch (four-tier priority chain with glob-based path patterns), grounded file review (bounded ReAct loop with curated six-tool set, file-level SubAgent parallelism), independent reflection (falsification-first filtering with asymmetric information boundary); AACR-Bench 200 PRs, 10 languages, 1,505 expert-verified comments; Claude 4.6 Opus SEM-F1 25.10% vs Claude Code 11.57% (2.17×); 5–15× fewer tokens; precision-first operating region; mapped to Codex CLI AGENTS.md layered rule dispatch, PreToolUse hooks for tool bounding, Guardian auto-review as independent reflector, tool_output_token_limit and model_auto_compact_token_limit for token efficiency, named profiles for review workflows; 6 citations
+   - SEO targets: "OpenCodeReview deterministic code review codex cli", "codex cli AGENTS.md rule-guided review dispatch", "deterministic agent code review precision recall", "codex cli Guardian auto-review independent reflection", "AACR-Bench code review benchmark SEM-F1", "codex cli bounded tool access review token efficiency"
+
+---
+
 ## ACEM and Agentic Cost Estimation — Revision Factor, Context Factor, Token Budget Forecasting (2026-08-11 Hourly Article Run)
 
 1. ✅ **ACEM and the End of COCOMO for Agentic Work: Why Traditional Cost Estimation Breaks Down — and How to Forecast Codex CLI Token Budgets with the Revision Factor** — Written 2026-08-11 → `2026-08-11-acem-cost-estimation-model-agentic-software-engineering-codex-cli-token-budget-forecasting.md`
