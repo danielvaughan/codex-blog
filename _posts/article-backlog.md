@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-Bench ProMax and Multilingual Refactoring — Cross-File Coordination, Polyglot Agent Evaluation (2026-08-11 Hourly Article Run)
+
+1. ✅ **SWE-Bench ProMax and the Multilingual Refactoring Challenge: Why Cross-File Coordination Exposes Coding Agent Limits — and What It Means for Codex CLI Polyglot Workflows** — Written 2026-08-11 → `2026-08-11-swe-bench-promax-multilingual-refactoring-benchmark-codex-cli-cross-file-coordination-polyglot-agent-evaluation.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Shi et al. arXiv:2608.09802 (August 2026, COLM 2026) "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring"; 170 expert-curated instances across 7 languages (Python, Java, TypeScript, Go, C, C++, Rust) from 70 repositories; avg 11.4 files and 261.6 LOC per patch; GPT-5.2 best at 41.2% on OpenHands scaffold; scaffold effect nearly halves scores; cost analysis shows 20× cost gap for 2.3pp difference; addresses SWE-bench Verified 59.4% flawed test problem; mapped to Codex CLI named profiles for per-language model routing, AGENTS.md refactoring constraints, subagent decomposition, PostToolUse build verification gates, token budget controls; 6 citations
+   - SEO targets: "SWE-Bench ProMax multilingual refactoring benchmark codex cli", "codex cli polyglot multi-file refactoring agent evaluation", "SWE-bench ProMax 41% resolve rate cross-file", "codex cli named profiles language-specific model routing refactoring", "multilingual code refactoring coding agent benchmark 2026", "codex cli AGENTS.md refactoring constraints subagent decomposition"
+
+---
+
 ## Codex Security CLI Open Source — Find-Validate-Patch Pipeline, SARIF, CI Integration (2026-08-11 Hourly Article Run)
 
 1. ✅ **Codex Security CLI Goes Open Source: The Find-Validate-Patch Pipeline That Replaces Your SAST Noise** — Written 2026-08-11 → `2026-08-11-codex-security-cli-open-source-find-validate-patch-sarif-ci-pipeline.md`
