@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agentic Posture Vulnerability (APV) and the No-CVE Gap — Sandbox, Approval Policy, PreToolUse Closure (2026-08-11 Hourly Article Run)
+
+1. ✅ **The Vulnerability With No CVE: Why Agentic Posture Vulnerabilities Need a New Management Framework — and How Codex CLI Already Closes Most of Them** — Written 2026-08-11 → `2026-08-11-agentic-posture-vulnerability-apv-no-cve-coding-agent-security-codex-cli-sandbox-approval-pretooluse-closure.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Aharon, Amir & Noga arXiv:2608.05884 (August 6, 2026) "The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents"; Agentic Posture Vulnerability (APV) as task-conditioned vulnerability-management abstraction; six recurring patterns (unsafe agency config, unreviewed capability, over-broad connectors, unmediated credentials, unobserved execution, collapsed boundaries); five-function control-and-closure matrix (Discover, Bound, Mediate, Observe, Verify); five-stage lifecycle; field vignette DROP TABLE on production; operationalises OWASP LLM06:2025 Excessive Agency; mapped to Codex CLI sandbox_mode + approval_policy, PreToolUse hooks as plugin allowlist gate, named profiles as environment boundaries, PostToolUse audit logging, codex doctor as posture discovery; complemented by Yang et al. arXiv:2608.05223 malicious skill files 95.5% exploitation rate; 5 citations
+   - SEO targets: "agentic posture vulnerability APV codex cli", "codex cli sandbox approval policy security APV", "vulnerability with no CVE coding agent", "codex cli PreToolUse hook plugin allowlist security", "OWASP LLM06 excessive agency codex cli defence", "codex cli named profiles environment boundary security"
+
+---
+
 ## SWE-RPG and the Requirement Clarification Bottleneck — Plan Mode, AGENTS.md, Implicit Requirements (2026-08-11 Hourly Article Run)
 
 1. ✅ **SWE-RPG and the Requirement Clarification Bottleneck: Why Coding Agents Fail Before They Write a Single Line — and How Codex CLI's Plan Mode Closes the Gap** — Written 2026-08-11 → `2026-08-11-swe-rpg-unified-issue-resolution-benchmark-requirement-clarification-planning-code-generation-codex-cli-plan-mode-agents-md.md`
