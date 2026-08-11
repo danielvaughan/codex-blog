@@ -258,5 +258,3 @@ The broader lesson extends beyond code review: the highest-impact improvement to
 [^4]: OpenAI, "Codex CLI Documentation — Configuration Reference," 2026. [https://github.com/openai/codex](https://github.com/openai/codex)
 
 [^5]: OpenAI, "Codex CLI v0.146.1 Release Notes," August 2026. [https://github.com/openai/codex/releases/tag/rust-v0.146.1](https://github.com/openai/codex/releases/tag/rust-v0.146.1)
-
-[^6]: Alibaba, "OpenCodeReview GitHub Repository," 2026. [https://github.com/alibaba/open-code-review](https://github.com/alibaba/open-code-review)

@@ -239,5 +239,3 @@ The gap between "we have hooks" and "we have formal compliance" is smaller than 
 [^3]: OpenAI (2026) "Hooks – Codex CLI." *OpenAI Developer Documentation*. Available at: [https://developers.openai.com/codex/hooks](https://developers.openai.com/codex/hooks)
 
 [^4]: OpenAI (2026) "Codex CLI Configuration Reference." *OpenAI Developer Documentation*. Available at: [https://developers.openai.com/codex/configuration](https://developers.openai.com/codex/configuration)
-
-[^5]: Zylos Research (2026) "Runtime Verification and Temporal Logic for AI Agent Safety." Available at: [https://zylos.ai/research/2026-03-15-runtime-verification-temporal-logic-ai-agent-safety/](https://zylos.ai/research/2026-03-15-runtime-verification-temporal-logic-ai-agent-safety/)
