@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Security CLI Open Source — Find-Validate-Patch Pipeline, SARIF, CI Integration (2026-08-11 Hourly Article Run)
+
+1. ✅ **Codex Security CLI Goes Open Source: The Find-Validate-Patch Pipeline That Replaces Your SAST Noise** — Written 2026-08-11 → `2026-08-11-codex-security-cli-open-source-find-validate-patch-sarif-ci-pipeline.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI open-sourced @openai/codex-security (Apache 2.0) on 13 July 2026; agentic contextual analyser using gpt-5.6-sol with three-stage find-validate-patch pipeline; SARIF export for GitHub/GitLab Code Scanning integration; severity-gated CI with three-value exit code contract (0/1/2); pre-commit hooks via install-hook; bulk-scan for organisation-wide campaigns; knowledge-base ingestion for threat models; TypeScript SDK with AbortSignal support; multi-provider support (Bedrock, Fireworks, OpenRouter); complementary to deterministic SAST, not replacement; 5 citations
+   - SEO targets: "codex security cli open source 2026", "codex security SARIF CI integration", "openai codex security find validate patch", "codex security cli pre-commit hook", "codex security bulk scan organisation", "agentic vulnerability scanning codex security"
+
+---
+
 ## RETRACE and Independent Patch Verification — Bidirectional Reconstruction, PostToolUse Reconciliation (2026-08-11 Hourly Article Run)
 
 1. ✅ **RETRACE and Independent Patch Verification: Why Bidirectional Reconstruction Catches What Self-Refinement Misses — and How to Wire It into Codex CLI** — Written 2026-08-11 → `2026-08-11-retrace-independent-patch-verification-bidirectional-reconstruct-verify-coding-agents-codex-cli-posttooluse-reconciliation.md`
