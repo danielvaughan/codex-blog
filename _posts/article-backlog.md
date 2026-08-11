@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ACEM and Agentic Cost Estimation — Revision Factor, Context Factor, Token Budget Forecasting (2026-08-11 Hourly Article Run)
+
+1. ✅ **ACEM and the End of COCOMO for Agentic Work: Why Traditional Cost Estimation Breaks Down — and How to Forecast Codex CLI Token Budgets with the Revision Factor** — Written 2026-08-11 → `2026-08-11-acem-cost-estimation-model-agentic-software-engineering-codex-cli-token-budget-forecasting.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — El-Ramly arXiv:2608.02582 (August 3, 2026) "ACEM: A Cost Estimation Model for Agentic Software Engineering"; three-part cost decomposition (C_LLM + C_HITL + C_infra); Revision Factor (RF) modelling token overhead from retries; Context Factor (CF) capturing escalating context cost; HITL Intensity Score (HIS) four-level oversight classification; bridges Use Case Points, Story Points, Function Points to token estimates; complemented by Bai et al. arXiv:2604.22750 (1000× token consumption, 30× variance) and Ben Sghaier et al. arXiv:2607.03691 (failed tasks 2.7× tokens); mapped to Codex CLI config.toml model_auto_compact_token_limit and tool_output_token_limit for CF control, PostToolUse hooks for RF reduction, named profiles for HIS-level encoding, GPT-5.6-Terra/Luna model routing; 7 citations
+   - SEO targets: "ACEM cost estimation agentic software engineering codex cli", "codex cli token budget forecasting revision factor", "COCOMO replacement agentic AI cost model", "codex cli named profiles cost tiers", "revision factor context factor token economics", "codex cli PostToolUse hooks cost control"
+
+---
+
 ## AgentLTL and Temporal Logic for Procedural Compliance — Trace Verification, PreToolUse Policy Enforcement (2026-08-11 Hourly Article Run)
 
 1. ✅ **AgentLTL and Temporal Logic for Procedural Compliance: Why Deterministic Trace Verification Beats LLM Judges — and How to Wire It into Codex CLI** — Written 2026-08-11 → `2026-08-11-agentltl-temporal-logic-procedural-compliance-codex-cli-pretooluse-trace-verification-policy-enforcement.md`
