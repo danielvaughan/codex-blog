@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.4 August Sunset — Migration Checklist, Config Recipes, Scheduled Tasks (2026-08-11 Hourly Article Run)
+
+1. ✅ **GPT-5.4 Retires from Codex on 31 August: A Migration Checklist for Config, Agents, and Scheduled Tasks** — Written 2026-08-11 → `2026-08-11-gpt-5-4-august-sunset-codex-cli-migration-gpt-5-6-terra-luna-config-recipes-scheduled-tasks.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI changelog 31 July 2026 announced GPT-5.4 and GPT-5.4 mini retirement from ChatGPT-auth Codex on 31 August 2026; replacement map gpt-5.4→gpt-5.6-terra, gpt-5.4-mini→gpt-5.6-luna; seven locations where model refs hide (user config, project config, named profiles, custom agents, scheduled tasks, CI/CD, env vars); tiered routing recipes (Luna default, Terra review, Sol architect); known gotchas (reasoning effort automation bug #13536, --full-auto removal, cache invalidation); verification steps; 6 citations
+   - SEO targets: "codex cli gpt-5.4 sunset migration august 2026", "codex cli gpt-5.6 terra luna config.toml", "codex cli model deprecation migration checklist", "gpt-5.4 replacement gpt-5.6-terra codex", "codex cli scheduled tasks model migration", "codex cli named profiles tiered model routing"
+
+---
+
 ## OpenCodeReview and Deterministic Code Review — Rule-Guided Dispatch, Grounded Review, Independent Reflection (2026-08-11 Hourly Article Run)
 
 1. ✅ **OpenCodeReview and the Determinism Dividend: Why Rule-Guided Dispatch Plus Independent Reflection Beats Unconstrained Agent Review — and How to Wire It into Codex CLI** — Written 2026-08-11 → `2026-08-11-opencodereview-deterministic-code-review-agent-codex-cli-rule-dispatch-grounded-review-independent-reflection.md`
