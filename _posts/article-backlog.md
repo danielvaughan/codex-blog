@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Bitter Lesson of Tool Calling — Programmatic vs JSON Tool Use, MCP, Agent Architecture (2026-08-12 Hourly Article Run)
+
+1. ✅ **The Bitter Lesson of Tool Calling: Why Programmatic Tool Use Outperforms JSON — and What It Means for Codex CLI** — Written 2026-08-12 → `2026-08-12-bitter-lesson-tool-calling-programmatic-vs-json-codex-cli-mcp-agent-tool-use.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Patel, Sen, Lumer & Subbiah arXiv:2608.06370 (August 6, 2026) "The Bitter Lesson of Tool Calling"; 14 models on BFCL v4 (309 entries, 8 task categories); programmatic tool calling (typed Python stubs) matched or exceeded JSON in 11/14 models; GPT-5.6-Terra +10.6pp, GPT-5.6-Sol +10.6pp; chaining advantage +15.4pp at chains ≥12; fan-out parallelism 100% vs 0% JSON at N=100; context rot resistance +5.5% PTC vs −2.3% JSON under 128-schema flooding; older models (GPT-4o, GPT-4.1, GPT-5.4-mini) fail due to newline encoding bug; mapped to Codex CLI MCP tool proliferation resistance, AGENTS.md code-based orchestration directives, MCP server design with typed stubs, config.toml model selection for PTC-capable models; 6 citations
+   - SEO targets: "bitter lesson tool calling programmatic JSON codex cli", "codex cli MCP tool calling programmatic vs JSON", "programmatic tool calling BFCL benchmark 2026", "codex cli AGENTS.md tool orchestration policy", "JSON tool calling context rot MCP schema flooding", "codex cli MCP server typed Python stubs design"
+
+---
+
 ## Self-Reflective APIs and Structured Error Recovery for Coding Agents — PostToolUse Hooks, Recovery Payloads (2026-08-12 Hourly Article Run)
 
 1. ✅ **Self-Reflective APIs: Why Structured Error Recovery Beats Plain English for Coding Agents — and How to Build It into Codex CLI** — Written 2026-08-12 → `2026-08-12-self-reflective-apis-structured-error-recovery-coding-agents-codex-cli-posttooluse-hooks.md`
