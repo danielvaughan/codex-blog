@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SpecPath and Specification-Path Sensitivity — Requirement Revision History, Contract-Equivalence, Codex CLI Plan Mode Defence (2026-08-12 Hourly Article Run)
+
+1. ✅ **SpecPath and Specification-Path Sensitivity: Why Your Coding Agent Fails When Requirements Evolve — Even When the Final Spec Is Identical** — Written 2026-08-12 → `2026-08-12-specpath-specification-path-sensitivity-coding-agents-requirement-revision-history-codex-cli-plan-mode-agents-md.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wu et al. arXiv:2608.09799 (August 11, 2026) "SpecPath: Testing Coding Agents Across Contract-Equivalent Specification Histories"; specification-path sensitivity failure mode where contract-equivalent revision histories produce different implementations; 1,470 planned executions across 5 tasks, 7 models, 2 scaffolds, 7 conditions; aggregate FCR stable (78.8% direct vs 78.7% average non-direct); Conditional Path Violation 36.4% (95% CI 25.6–45.1%); 35/100 direct-success blocks fail on ≥1 equivalent history; Duplicate CPV 18.3%, Override 10.8%, Cancellation 14.1%, Split 12.2%; scaffold moderation (Mini-swe-agent 43.0% vs OpenHands 30.7%); mapped to Codex CLI plan mode as contract-resolution gate, AGENTS.md as consolidated specification channel, iterative prompt structuring, PostToolUse contract verification hooks, named profiles for specification complexity; 6 citations
+   - SEO targets: "SpecPath specification-path sensitivity codex cli", "codex cli plan mode requirement evolution defence", "specification-path sensitivity coding agent failure", "codex cli AGENTS.md consolidated specification", "contract-equivalent revision history coding agent", "codex cli iterative requirement robustness"
+
+---
+
 ## Agentic Configuration Management (ACM) — Framework-Independent Governance for Codex CLI (2026-08-12 Hourly Article Run)
 
 1. ✅ **Agentic Configuration Management: What a Framework-Independent Governance Model Means for Your Codex CLI Config Stack** — Written 2026-08-12 → `2026-08-12-agentic-configuration-management-acm-framework-independent-governance-codex-cli-config-toml-requirements-toml-enterprise.md`
