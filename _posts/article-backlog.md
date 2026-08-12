@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SecTDD and Security Tests as Executable Specifications — CWE Feedback, PostToolUse Structured Repair (2026-08-12 Hourly Article Run)
+
+1. ✅ **SecTDD and Security Tests as Executable Specifications: Why Showing Tests Upfront Boosts Secure Code Generation by 19 Percentage Points — and How to Wire It into Codex CLI** — Written 2026-08-12 → `2026-08-12-sectdd-security-tests-executable-specifications-llm-code-generation-codex-cli-posttooluse-cwe-feedback-repair.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Liang et al. arXiv:2608.09740 (August 10, 2026) "Security Tests as Executable Specifications for LLM Code Generation: Benefits, Trade-offs, and Coverage Limits"; SecTDD controlled scaffold with behaviour-partitioned test sets; 2,705 trajectories, 31 task instances, 3 secure-code benchmarks, 16 CWE categories, 2 model families; upfront test visibility +19.3pp joint functional-and-security success (7/9 conditions improved, 2 harmed); structured feedback 80 repairs 0 regressions vs raw 83 repairs 3 regressions; coverage ceiling — visible tests passing does not guarantee hidden test family success; mapped to Codex CLI AGENTS.md security test gate directives, PostToolUse hooks with CWE-categorised structured feedback (exit 2 steering), named profiles for tiered security verification (dev/review/security-audit), @openai/codex-security integration; 7 citations
+   - SEO targets: "SecTDD security tests executable specifications codex cli", "codex cli PostToolUse CWE structured feedback repair", "secure code generation test visibility 19pp uplift", "codex cli AGENTS.md security test gate", "codex cli named profiles tiered security verification", "LLM secure code generation coverage ceiling hidden tests"
+
+---
+
 ## Prompt-Induced Waste and Bounded-Efficiency Prompts — Token Cost Control, AGENTS.md Anti-Waste Policy (2026-08-12 Hourly Article Run)
 
 1. ✅ **Prompt-Induced Waste in Coding Agents: Why Your Instructions Are Burning Tokens — and How Bounded-Efficiency Prompts Cut the Bill in Codex CLI** — Written 2026-08-12 → `2026-08-12-prompt-induced-waste-coding-agents-bounded-efficiency-codex-cli-agents-md-token-cost-control.md`
