@@ -171,6 +171,3 @@ The paper's 99.3% excess reduction is the kind of result that should change dail
 
 [^4]: OpenAI. (2026). "Codex CLI Configuration Reference — config.toml." [https://github.com/openai/codex/blob/main/codex-rs/config.md](https://github.com/openai/codex/blob/main/codex-rs/config.md)
 
-[^5]: Gloaguen, V. et al. (2026). "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?" arXiv:2602.11988. [https://arxiv.org/abs/2602.11988](https://arxiv.org/abs/2602.11988)
-
-[^6]: Lulla, A. et al. (2026). "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents." arXiv:2601.20404. [https://arxiv.org/abs/2601.20404](https://arxiv.org/abs/2601.20404)

@@ -205,7 +205,7 @@ The waste is prompt-shaped. So is the fix.
 
 [^1]: Weinberger, S. & Hozez, A. (2026). "Same Task, Different Work: Prompt-Induced Waste in Coding Agents — A Preregistered Two-Harness Benchmark." *arXiv:2608.01347v3*. [https://arxiv.org/abs/2608.01347](https://arxiv.org/abs/2608.01347)
 
-[^2]: Jimenez, C. E. et al. (2026). "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents." *arXiv:2601.20404*. [https://arxiv.org/abs/2601.20404](https://arxiv.org/abs/2601.20404)
+[^2]: Lulla, A. et al. (2026). "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents." *arXiv:2601.20404*. [https://arxiv.org/abs/2601.20404](https://arxiv.org/abs/2601.20404)
 
 [^3]: OpenAI. (2026). "Codex CLI Configuration Reference." *Codex CLI Documentation*. [https://learn.chatgpt.com/docs/codex/configuration](https://learn.chatgpt.com/docs/codex/configuration)
 

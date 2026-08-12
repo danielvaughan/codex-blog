@@ -185,5 +185,3 @@ For Codex CLI practitioners, the actionable takeaway is not to abandon JSON tool
 [^4]: Model Context Protocol Specification (2026). [https://modelcontextprotocol.io/specification](https://modelcontextprotocol.io/specification)
 
 [^5]: OpenAI. (2026). "Codex CLI v0.147.0 Release Notes." [https://github.com/openai/codex/releases](https://github.com/openai/codex/releases)
-
-[^6]: DAIR.AI. (2026). "The Bitter Lesson of Tool Calling — Summary." [https://x.com/dair_ai/status/2086846794840019178](https://x.com/dair_ai/status/2086846794840019178)
