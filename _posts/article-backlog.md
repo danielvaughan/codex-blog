@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Catastrophic Remembering and AGENTS.md Instruction Bloat — Prompt Comments, Latent Reasoning, Pruning (2026-08-12 Hourly Article Run)
+
+1. ✅ **Catastrophic Remembering: Why Your AGENTS.md Keeps Growing and How Prompt Comments Fix It** — Written 2026-08-12 → `2026-08-12-catastrophic-remembering-agents-md-instruction-bloat-prompt-comments-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Chakrabarti arXiv:2608.11095 (August 12, 2026) "Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding"; 247,694 instruction lifetimes across 1,867 repos; +226% lifetime growth, +4.9 net instructions per commit; deletion hazard declining with age (−0.032/commit log-slope); wholesale rewrites regrow to 91.5% within 10 commits; prompt comments encoding latent reasoning eliminate 99.3% of excess instructions (IFEval inversion, 51 steps); WildIFEval replication shows +11.6pp satisfaction recovery; mapped to Codex CLI AGENTS.md layered hierarchy, HTML comment annotations, project_doc_max_bytes budget, --print-instructions audit, AGENTS.override.md for temporary instructions; 6 citations
+   - SEO targets: "catastrophic remembering AGENTS.md codex cli", "codex cli AGENTS.md instruction bloat prompt comments", "AGENTS.md growing instructions pruning latent reasoning", "codex cli AGENTS.md maintenance prompt comments fix", "catastrophic remembering agentic coding 2026", "codex cli AGENTS.md token budget instruction management"
+
+---
+
 ## Personalized Skills vs Generic Skills for Coding Agents — AGENTS.md, SKILL.md, Plugin Catalog Evidence (2026-08-12 Hourly Article Run)
 
 1. ✅ **Do Personalized Skills Help Coding Agents? Why Generic Guidance Outperforms Developer-Specific Preferences — and What It Means for Your AGENTS.md and Skill Catalog in Codex CLI** — Written 2026-08-12 → `2026-08-12-personalized-skills-coding-agents-generic-beats-personal-codex-cli-agents-md-skill-catalog-evidence.md`

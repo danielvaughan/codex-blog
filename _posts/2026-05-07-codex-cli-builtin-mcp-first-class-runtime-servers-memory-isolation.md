@@ -2,7 +2,7 @@
 title: "Codex CLI's Built-in MCPs Just Became First-Class Runtime Servers — What It Means for Memory and Plugins"
 description: "On 7 May 2026, Codex CLI merged PR #21356, authored by jif-oai, which fundamentally rearchitects how built-in MCP servers (like the memories server) run."
 date: 2026-05-07T00:00:00+00:00
-last_modified_at: 2026-08-12T04:10:19+01:00
+last_modified_at: 2026-08-12T06:10:23+01:00
 tags: [codex-cli, mcp, architecture, memory, plugins, v0.129]
 status: draft
 type: Technical Article
