@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Understanding the Architecture of Coding Agents — Ark Research Prototype, Agentic Loop Taxonomy, Codex CLI Design (2026-08-12 Hourly Article Run)
+
+1. ✅ **Understanding the Architecture of Coding Agents: What a Minimal Research Prototype Reveals About Codex CLI's Design** — Written 2026-08-12 → `2026-08-12-understanding-architecture-coding-agents-ark-research-prototype-codex-cli-agentic-loop-taxonomy.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Valente arXiv:2608.10934 (August 11, 2026) "Understanding the Architecture of Coding Agents: An Exploratory Study Using a Research Prototype"; nine core architectural components (agentic loop, system prompt, tools, memory, context, error handling, security mechanisms, tracing, LLM integration); Ark minimal prototype 1,471 LOC, 5 tools, 80% ArkBench success rate, <$0.50 total cost; Rombaut taxonomy (arXiv:2604.03515) 12 dimensions across 3 layers (control architecture, tool/environment interface, resource management); compared Ark vs Codex CLI vs OpenCode; mapped to Codex CLI AGENTS.md as system prompt, config.toml sandbox_mode as security layer, model_auto_compact_token_limit as context compaction, MCP as dynamic tool discovery, PostToolUse hooks as verification gates, named profiles as multi-model routing; 6 citations
+   - SEO targets: "coding agent architecture codex cli", "codex cli agentic loop ReAct architecture", "Ark coding agent research prototype taxonomy", "codex cli architectural components nine layers", "Rombaut taxonomy coding agent scaffold", "codex cli AGENTS.md system prompt architecture"
+
+---
+
 ## SpecPath and Specification-Path Sensitivity — Requirement Revision History, Contract-Equivalence, Codex CLI Plan Mode Defence (2026-08-12 Hourly Article Run)
 
 1. ✅ **SpecPath and Specification-Path Sensitivity: Why Your Coding Agent Fails When Requirements Evolve — Even When the Final Spec Is Identical** — Written 2026-08-12 → `2026-08-12-specpath-specification-path-sensitivity-coding-agents-requirement-revision-history-codex-cli-plan-mode-agents-md.md`
