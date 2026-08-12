@@ -88,7 +88,7 @@ v0.147.0 tightens security in three important ways:
 2. **Network denial on policy failure** — if a plugin's policy update fails (e.g. a malformed `requirements.toml`), network access is denied rather than falling back to permissive defaults [^1].
 3. **Strict tool name collision errors** — two plugins registering the same tool name now produces a hard error rather than silently shadowing. This is configured centrally via the new tool registry collision policy [^1].
 
-These mitigations address real supply-chain risks. A Snyk audit of 3,984 agent skills found that 13.4% contained critical security issues including credential theft payloads [^3], and Bharadwaj et al.'s research demonstrated payload-less semantic compliance hijacking with attack success rates up to 77.67% for confidentiality breaches and 67.33% for remote code execution, with a 0% detection rate by existing skill-scanning tools [^4]. Codex's approach — deny-by-default isolation, hard collision errors, and symlink prohibition — raises the bar significantly.
+These mitigations address real supply-chain risks. A Snyk audit of 3,984 agent skills found that 13.4% contained critical security issues including credential theft payloads [^3], and Liu et al.'s research demonstrated payload-less semantic compliance hijacking with attack success rates up to 77.67% for confidentiality breaches and 67.33% for remote code execution, with a 0% detection rate by existing skill-scanning tools [^4]. Codex's approach — deny-by-default isolation, hard collision errors, and symlink prohibition — raises the bar significantly.
 
 ## The `--approve-for-me` Flag
 
@@ -203,7 +203,7 @@ v0.147.0 is a maturity release. The plugin system graduates from "works on my ma
 
 [^3]: BeyondScale, "LLM Plugin Security: Agent Skill Supply Chain Attacks," beyondscale.tech, 2026. [https://beyondscale.tech/blog/llm-agent-skill-marketplace-poisoning](https://beyondscale.tech/blog/llm-agent-skill-marketplace-poisoning)
 
-[^4]: Bharadwaj et al., "Exploiting LLM Agent Supply Chains via Payload-less Skills," arXiv:2605.14460, May 2026. [https://arxiv.org/abs/2605.14460](https://arxiv.org/abs/2605.14460)
+[^4]: Liu, X., Zhao, Y., Hu, X. & Xia, X., "Exploiting LLM Agent Supply Chains via Payload-less Skills," arXiv:2605.14460, May 2026. [https://arxiv.org/abs/2605.14460](https://arxiv.org/abs/2605.14460)
 
 [^5]: OpenAI, "Codex CLI Security Architecture," OpenAI Documentation, 2026. [https://openai.com/codex/docs/security](https://openai.com/codex/docs/security)
 

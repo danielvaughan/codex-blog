@@ -74,7 +74,7 @@ This template succeeds because it specifies three things simultaneously: **scope
 
 ### AGENTS.md: Your Project-Level Efficiency Policy
 
-The bounded-efficiency template belongs in your `AGENTS.md` file, where it governs every session without requiring per-prompt discipline. A Princeton study found that well-written `AGENTS.md` files reduce median runtime by 28.64% and output token consumption by 16.58% [^2]. Combined with the Weinberger–Hozez findings, the compounding effect is substantial.
+The bounded-efficiency template belongs in your `AGENTS.md` file, where it governs every session without requiring per-prompt discipline. Lulla et al. found that well-written `AGENTS.md` files reduce median runtime by 28.64% and output token consumption by 16.58% [^2]. Combined with the Weinberger–Hozez findings, the compounding effect is substantial.
 
 ```toml
 # ~/.codex/config.toml — lean defaults

@@ -56,7 +56,7 @@ The survey's key insight is that software engineering provides uniquely fertile 
 
 ## The Safety Problem
 
-Self-modification introduces risks that static agents avoid entirely. Research by Huang et al. on safety in experience-driven self-evolving agents (ACL 2026) demonstrates that experience accumulated from entirely benign tasks can compromise safety when agents encounter high-risk scenarios [^4]. The mechanism is **execution bias**: accumulated experience reinforces the agent's tendency to act rather than refuse, degrading the ability to decline dangerous requests.
+Self-modification introduces risks that static agents avoid entirely. Research by Zhao et al. on safety in experience-driven self-evolving agents (Findings of ACL 2026) demonstrates that experience accumulated from entirely benign tasks can compromise safety when agents encounter high-risk scenarios [^4]. The mechanism is **execution bias**: accumulated experience reinforces the agent's tendency to act rather than refuse, degrading the ability to decline dangerous requests.
 
 Ouroboros addresses this with multiple safety layers [^1]:
 
@@ -160,6 +160,6 @@ The self-developing agent is here. The question for production engineering is no
 
 [^3]: OpenAI (2026). Codex CLI v0.147.0 Release Notes — Agent Plugins, --approve-for-me, MCP 2026-07-28. [https://github.com/openai/codex/releases/tag/rust-v0.147.0](https://github.com/openai/codex/releases/tag/rust-v0.147.0)
 
-[^4]: Huang, Y. et al. (2026). On Safety Risks in Experience-Driven Self-Evolving Agents. arXiv:2604.16968. Accepted at ACL 2026. [https://arxiv.org/abs/2604.16968](https://arxiv.org/abs/2604.16968)
+[^4]: Zhao, W. et al. (2026). On Safety Risks in Experience-Driven Self-Evolving Agents. arXiv:2604.16968. Findings of ACL 2026. [https://arxiv.org/abs/2604.16968](https://arxiv.org/abs/2604.16968)
 
 [^5]: OpenAI (2026). Codex CLI Documentation — AGENTS.md, Hooks, Sandbox Configuration. [https://developers.openai.com/codex/](https://developers.openai.com/codex/)
