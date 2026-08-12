@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Credential Exfiltration Defence in Depth — Activation Probes, Honeytokens, Shell Environment Policy (2026-08-12 Hourly Article Run)
+
+1. ✅ **Credential Exfiltration Defence in Depth: From Activation Probes to Codex CLI's Shell Environment Policy** — Written 2026-08-12 → `2026-08-12-credential-exfiltration-defence-depth-coding-agents-codex-cli-activation-probes-honeytokens-shell-environment-policy.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Chauhan & Revankar arXiv:2606.04141 (June 2026) "Caught in the Act(ivation)": CIFT activation probes AUROC 0.998/F1 0.990, DP-Honey canary precision/recall 1.000, Nimbus multi-turn detection 0.90; Chen et al. arXiv:2604.03070 (April 2026) credential leakage in 520/17,022 skills, 73.5% from debug logging; Black Hat USA 2026 CI/CD secrets disclosure CVE-2026-12537; mapped to Codex CLI shell_environment_policy, sandbox network_access, PreToolUse/PostToolUse hooks, v0.147.0 secret redaction; identified gaps: no multi-turn leakage accounting, no honeytoken injection, no pre-output intent detection; 7 citations
+   - SEO targets: "credential exfiltration coding agent defence codex cli", "codex cli shell_environment_policy credential protection", "activation probes credential detection LLM agent", "codex cli PreToolUse hook secret redaction", "honeytoken canary credential exfiltration agent", "codex cli sandbox network policy credential leakage"
+
+---
+
 ## Understanding the Architecture of Coding Agents — Ark Research Prototype, Agentic Loop Taxonomy, Codex CLI Design (2026-08-12 Hourly Article Run)
 
 1. ✅ **Understanding the Architecture of Coding Agents: What a Minimal Research Prototype Reveals About Codex CLI's Design** — Written 2026-08-12 → `2026-08-12-understanding-architecture-coding-agents-ark-research-prototype-codex-cli-agentic-loop-taxonomy.md`
