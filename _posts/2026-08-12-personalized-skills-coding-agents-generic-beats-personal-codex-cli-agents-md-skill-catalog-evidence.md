@@ -1,7 +1,7 @@
 ---
 title: "Do Personalized Skills Help Coding Agents? Why Generic Guidance Outperforms Developer-Specific Preferences — and What It Means for Your AGENTS.md and Skill Catalog in Codex CLI"
 parent: "Articles"
-nav_order: 1751
+nav_order: 1752
 tags: ["codex-cli", "AGENTS.md", "skills", "personalization", "generic-skills", "SKILL.md", "agent-plugins", "developer-preferences", "SWE-chat", "coding-agent-configuration"]
 ---
 
