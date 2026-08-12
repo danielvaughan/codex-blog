@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Personalized Skills vs Generic Skills for Coding Agents — AGENTS.md, SKILL.md, Plugin Catalog Evidence (2026-08-12 Hourly Article Run)
+
+1. ✅ **Do Personalized Skills Help Coding Agents? Why Generic Guidance Outperforms Developer-Specific Preferences — and What It Means for Your AGENTS.md and Skill Catalog in Codex CLI** — Written 2026-08-12 → `2026-08-12-personalized-skills-coding-agents-generic-beats-personal-codex-cli-agents-md-skill-catalog-evidence.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Huang, Du & Lan arXiv:2608.10319 (August 10, 2026) "Do Personalized Skills Help Coding Agents?"; 206 real-world sessions from 13 developers (SWE-chat dataset); four conditions (no-skill, personalised, other-developer, generic); generic skills +3.78 points (50.95% win rate) vs personalised +0.97 (p=.399 not significant); personalisation only effective with ≥6 relevant prior sessions (+10.17); skills increase compute cost (tool calls 8.47→9.46) without reducing interaction; mapped to Codex CLI AGENTS.md as generic skill layer, personal ~/.codex/skills/ for narrow specialisations only, workspace plugins for team pooling, v0.147.0 multi-catalog federation; 6 citations
+   - SEO targets: "personalized skills coding agents codex cli", "codex cli AGENTS.md generic vs personalized skills", "coding agent SKILL.md developer preferences evidence", "codex cli workspace plugin catalog skill sharing", "generic skills outperform personalized coding agent 2026", "codex cli skill configuration best practices evidence"
+
+---
+
 ## SecTDD and Security Tests as Executable Specifications — CWE Feedback, PostToolUse Structured Repair (2026-08-12 Hourly Article Run)
 
 1. ✅ **SecTDD and Security Tests as Executable Specifications: Why Showing Tests Upfront Boosts Secure Code Generation by 19 Percentage Points — and How to Wire It into Codex CLI** — Written 2026-08-12 → `2026-08-12-sectdd-security-tests-executable-specifications-llm-code-generation-codex-cli-posttooluse-cwe-feedback-repair.md`
