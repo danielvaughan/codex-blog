@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agentic Configuration Management (ACM) — Framework-Independent Governance for Codex CLI (2026-08-12 Hourly Article Run)
+
+1. ✅ **Agentic Configuration Management: What a Framework-Independent Governance Model Means for Your Codex CLI Config Stack** — Written 2026-08-12 → `2026-08-12-agentic-configuration-management-acm-framework-independent-governance-codex-cli-config-toml-requirements-toml-enterprise.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Quessada-Vial (PwC) arXiv:2608.11166 (August 11, 2026) "Agentic Configuration Management"; framework-independent governance model with typed Agentic Configuration Items (ACIs), immutable versioning, four interconnected graphs (Configuration, Evolution, Assurance, Runtime), monotonic impact propagation with four policies (blocking, warning, informational, none); 27 governance scenarios across 9 quantitative impact cases; semantic projection adapters for LangGraph, CrewAI, and OpenAI Agents SDK producing governance-equivalent representations; mapped to Codex CLI config.toml six-layer merge precedence, requirements.toml fail-closed enforcement, managed_config.toml cloud/MDM delivery, MCP server allowlist validation, PreToolUse/PostToolUse hooks as governance gates, codex doctor as discovery tool, feature flags as lifecycle gates; identified gaps: no immutable revision history, no cross-surface dependency graph, no assurance graph, no release baselines; 6 citations
+   - SEO targets: "agentic configuration management codex cli", "codex cli configuration governance enterprise", "ACM framework-independent config governance", "codex cli requirements.toml impact propagation", "agentic configuration items versioning governance", "codex cli config.toml dependency management enterprise"
+
+---
+
 ## The Bitter Lesson of Tool Calling — Programmatic vs JSON Tool Use, MCP, Agent Architecture (2026-08-12 Hourly Article Run)
 
 1. ✅ **The Bitter Lesson of Tool Calling: Why Programmatic Tool Use Outperforms JSON — and What It Means for Codex CLI** — Written 2026-08-12 → `2026-08-12-bitter-lesson-tool-calling-programmatic-vs-json-codex-cli-mcp-agent-tool-use.md`
