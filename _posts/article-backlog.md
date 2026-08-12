@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Persistent Recursive Worlds and Autonomous Software Evolution — Genesis, Session Lifecycle, Long-Horizon Agent Architecture (2026-08-12 Hourly Article Run)
+
+1. ✅ **Persistent Recursive Worlds and Autonomous Software Evolution: What a 250k-Line Compiler Built by Finite-Lived Agents Means for Codex CLI's Session Architecture** — Written 2026-08-12 → `2026-08-12-persistent-recursive-worlds-autonomous-software-evolution-genesis-codex-cli-session-lifecycle-long-horizon-agent-architecture.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Huang, Liang, Zheng & Cheng arXiv:2608.10450 (August 11, 2026) "Persistent Recursive Worlds Enable Autonomous Software Evolution"; Genesis framework with finite-lived agents against persistent recursive worlds (accepted version + repository path); 250k-line Rust C compiler across 1,000+ episodes, 120+ hours, US$44 total cost using DeepSeek V4 Flash; complete c-testsuite and most LLVM/Csmith tests passed; GLM 5.2 compiler maintained full test performance through agent replacement; 13 MESA Fortran modules (100k+ lines) → 90k Rust lines with 1.55×–6.87× speedups; mapped to Codex CLI session lifecycle (create/work/compact/archive/restore), AGENTS.md as world state, PostToolUse hooks as acceptance gates, session fork as recursive delegation, context compaction as episode boundary, named profiles for cost-optimised model routing; identified gaps: inter-episode negative knowledge transfer, concurrent episode coordination, acceptance gate coverage; 7 citations
+   - SEO targets: "persistent recursive worlds coding agent codex cli", "codex cli session lifecycle long-horizon development", "Genesis autonomous software evolution finite-lived agents", "codex cli episode-based workflow context compaction", "long-horizon coding agent persistent world architecture", "codex cli AGENTS.md persistent state session archive"
+
+---
+
 ## Shared Organisational Memory for Enterprise Coding Agents — Hooks, MCP, Knowledge Curation Pipeline (2026-08-12 Hourly Article Run)
 
 1. ✅ **Shared Organisational Memory for Enterprise Coding Agents: What a Production Deployment Reveals About Knowledge Capture in Codex CLI** — Written 2026-08-12 → `2026-08-12-shared-organizational-memory-enterprise-coding-agents-codex-cli-hooks-mcp-knowledge-curation.md`
