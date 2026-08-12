@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GitSkills and the 3.7 Million Skill Files — Agent Skill Ecosystem, Plugin Catalog, Reuse Patterns (2026-08-13 Hourly Article Run)
+
+1. ✅ **GitSkills and the 3.7 Million Skill Files: What the Largest Agent Skill Dataset Reveals About Codex CLI's Plugin Ecosystem** — Written 2026-08-13 → `2026-08-13-gitskills-dataset-3-7m-skill-files-agent-skill-ecosystem-codex-cli-plugin-catalog-reuse-patterns.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Destefanis, Graziotin, Vaccargiu & Ortu arXiv:2608.10906 (August 11, 2026) "GitSkills: A Dataset of Agent Skills on GitHub"; 3,797,117 SKILL.md files from 282,200 repositories, 195,841 owners; 1,877,981 distinct contents, 50.5% verbatim duplicates; spread via folder copying not package managers; five research dimensions (adoption velocity, format standardisation, reuse genealogy, NL software metrics, maintenance/security); mapped to Codex CLI v0.147.0 multi-catalog federation (local/personal/workspace/remote), Agent Plugins 1.0 specification, .agents/skills/ vendor-neutral path, requirements.toml governance, plugin marketplace search; identified gaps: no skill signing, no dependency resolution, no selection telemetry; 7 citations
+   - SEO targets: "GitSkills dataset SKILL.md codex cli", "agent skill ecosystem 3.7 million files GitHub", "codex cli plugin catalog federation skill reuse", "SKILL.md duplication agent skills governance", "Agent Plugins 1.0 codex cli skill distribution", "codex cli skill authoring best practices 2026"
+
+---
+
 ## Persistent Recursive Worlds and Autonomous Software Evolution — Genesis, Session Lifecycle, Long-Horizon Agent Architecture (2026-08-12 Hourly Article Run)
 
 1. ✅ **Persistent Recursive Worlds and Autonomous Software Evolution: What a 250k-Line Compiler Built by Finite-Lived Agents Means for Codex CLI's Session Architecture** — Written 2026-08-12 → `2026-08-12-persistent-recursive-worlds-autonomous-software-evolution-genesis-codex-cli-session-lifecycle-long-horizon-agent-architecture.md`
