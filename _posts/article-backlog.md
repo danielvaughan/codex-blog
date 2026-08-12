@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Self-Reflective APIs and Structured Error Recovery for Coding Agents — PostToolUse Hooks, Recovery Payloads (2026-08-12 Hourly Article Run)
+
+1. ✅ **Self-Reflective APIs: Why Structured Error Recovery Beats Plain English for Coding Agents — and How to Build It into Codex CLI** — Written 2026-08-12 → `2026-08-12-self-reflective-apis-structured-error-recovery-coding-agents-codex-cli-posttooluse-hooks.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Canedo & Chethan arXiv:2606.05037 (June 2026) "Self-Reflective APIs: Structure Beats Verbosity for AI Agent Recovery"; 270 attempts across 3 LLMs (claude-haiku-4-5, claude-sonnet-4-6, gpt-4o-mini); three error-response modes (traditional, verbose, reflective); reflective mode +36.7–40.0pp task-completion over verbose on Anthropic models (p≤0.0022); 1.8–2.2× token efficiency; mean retries 1.3–2.0 vs 4.0–4.6 traditional; not significant on gpt-4o-mini (p=0.435); mapped to Codex CLI PostToolUse hooks with additionalContext injection, exit code 2 steering, AGENTS.md recovery directives, MCP server reflective error configuration; 6 citations
+   - SEO targets: "self-reflective APIs coding agent error recovery", "codex cli PostToolUse structured error feedback", "structured error recovery AI agent tool use", "codex cli hook error recovery suggestions", "self-reflective API pattern coding agent 2026", "codex cli AGENTS.md tool error recovery protocol"
+
+---
+
 ## Catastrophic Remembering and AGENTS.md Instruction Bloat — Prompt Comments, Latent Reasoning, Pruning (2026-08-12 Hourly Article Run)
 
 1. ✅ **Catastrophic Remembering: Why Your AGENTS.md Keeps Growing and How Prompt Comments Fix It** — Written 2026-08-12 → `2026-08-12-catastrophic-remembering-agents-md-instruction-bloat-prompt-comments-codex-cli.md`
