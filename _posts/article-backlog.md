@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Shared Organisational Memory for Enterprise Coding Agents — Hooks, MCP, Knowledge Curation Pipeline (2026-08-12 Hourly Article Run)
+
+1. ✅ **Shared Organisational Memory for Enterprise Coding Agents: What a Production Deployment Reveals About Knowledge Capture in Codex CLI** — Written 2026-08-12 → `2026-08-12-shared-organizational-memory-enterprise-coding-agents-codex-cli-hooks-mcp-knowledge-curation.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Dhanyamraju & Raghav arXiv:2608.00122 (July 31, 2026) "Shared Organizational Memory for Enterprise Coding Agents: System Design and Deployment Snapshot"; three-stage lifecycle (collection via PostToolUse/Stop hooks, curation via five-agent pipeline, consumption via MCP/REST); 900 contributions → 483 productive (53.7%) → 1,144 curated memories, 2.37 per productive learning; 96.2% with semantic links across 35 tools; security gate 80.4% appropriate, 0% unsafe; trust scoring Bayesian-smoothed B=(vR+mC)/(v+m); three retrieval modes (Fast/Normal/Deep Research); mapped to Codex CLI PostToolUse hooks, native Memories v0.128, MCP SDK 3.0.0, AGENTS.md routing, requirements.toml security policy; identified gaps: scoped capture surface, indirect feedback, injection risk, missing provenance; 5 citations
+   - SEO targets: "shared organisational memory coding agents codex cli", "codex cli PostToolUse hook knowledge capture enterprise", "enterprise coding agent memory MCP curation pipeline", "codex cli organisational knowledge persistence hooks", "shared memory enterprise coding agent deployment", "codex cli team knowledge base MCP retrieval"
+
+---
+
 ## Credential Exfiltration Defence in Depth — Activation Probes, Honeytokens, Shell Environment Policy (2026-08-12 Hourly Article Run)
 
 1. ✅ **Credential Exfiltration Defence in Depth: From Activation Probes to Codex CLI's Shell Environment Policy** — Written 2026-08-12 → `2026-08-12-credential-exfiltration-defence-depth-coding-agents-codex-cli-activation-probes-honeytokens-shell-environment-policy.md`
