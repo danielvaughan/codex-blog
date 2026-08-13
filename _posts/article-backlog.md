@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Influence Tactics and Prompt Framing in LLM Code Generation — Pressure, Rational Persuasion, AGENTS.md Tone (2026-08-13 Hourly Article Run)
+
+1. ✅ **Do Influence Tactics Matter? What 123,000 Prompt Variations Reveal About Framing Effects in LLM Code Generation — and What It Means for Your AGENTS.md** — Written 2026-08-13 → `2026-08-13-influence-tactics-prompt-framing-llm-code-generation-codex-cli-agents-md-pressure-rational-persuasion.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Deaconu et al. Empirical Software Engineering 32 (2026) 13, arXiv:2608.11513 (August 11, 2026) "Do Influence Tactics Matter? Investigating Prompt Framing Effects in LLM Code Generation"; 7 influence tactics from Yukl & Falbe taxonomy operationalised via IBQ-G; ~123,435 LiveCodeBench + ~56,745 SWE-bench Verified generations across 5 open-weight models (Llama 3.1 8B, Llama 3.3 70B, Llama 4 Maverick, DeepSeek R1, Qwen 3 32B); Pressure framing reduces correctness (p=0.002) and increases security warnings (p<0.001, Cohen's d up to 0.30); Legitimating framing increases inline comments (p=0.03); model architecture dominates (ηp² 0.10-0.13 vs 0.015-0.02 for tactics); SWE-bench shows no significant tactic effects on correctness; mapped to Codex CLI AGENTS.md instruction tone, named profiles for model routing, PostToolUse security hooks as compensation for pressure-framed instructions, config.toml approval_policy; 6 citations
+   - SEO targets: "influence tactics prompt framing LLM code generation codex cli", "codex cli AGENTS.md tone pressure rational persuasion", "prompt framing security vulnerabilities coding agent", "codex cli AGENTS.md best practices instruction framing", "Yukl Falbe influence tactics LLM code generation", "codex cli PostToolUse hook security pressure framing compensation"
+
+---
+
 ## MemSecBench Memory Poisoning Lifecycle — Write-Execute-Forget Protocol, Seven Checkpoints, Codex CLI Defence Stack (2026-08-13 Hourly Article Run)
 
 1. ✅ **MemSecBench and the Memory Poisoning Lifecycle: Why 84 Per Cent of Malicious Memories Persist — and How Codex CLI's Defence Stack Intervenes at Each Checkpoint** — Written 2026-08-13 → `2026-08-13-memsecbench-agent-memory-poisoning-lifecycle-codex-cli-memory-integrity-defence-write-execute-forget.md`
