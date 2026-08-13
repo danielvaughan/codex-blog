@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Verified Tool Calls and Non-Atomic Failures — Postcondition Verification, Idempotency, Codex CLI PostToolUse Hooks (2026-08-13 Hourly Article Run)
+
+1. ✅ **Verified Tool Calls and Non-Atomic Failures: What a Postcondition Wrapper Teaches Us About Codex CLI's PostToolUse Hooks** — Written 2026-08-13 → `2026-08-13-verified-tool-calls-non-atomic-failures-llm-agent-reliability-codex-cli-posttooluse-postcondition-verification.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Mansoor, Phadke & Rana arXiv:2608.02645 (July 31, 2026) "Verified Tool Calls Improve LLM Agent Reliability Under Non-Atomic Failures"; four non-atomic failure modes (timeout, delayed visibility, partial success, conflict) at three fault levels; lightweight verification wrapper with postcondition verification, verify-before-retry logic, and idempotency keys; 300 agent runs using Gemini Flash-Lite in LangGraph ReAct loop; task success +36pp at high fault (64% → 100%); duplicate actions −52pp (72% → 20%); ablation confirms verification as dominant factor (58% → ~80%); mapped to Codex CLI PostToolUse hooks exit code 2 feedback, additionalContext injection, hooks.json configuration, AGENTS.md behavioural instructions; identified gaps: no native idempotency-key support, no per-tool retry budget, no cross-turn state tracking; 6 citations
+   - SEO targets: "verified tool calls non-atomic failures codex cli", "codex cli PostToolUse hook postcondition verification", "LLM agent tool reliability non-atomic failure modes", "codex cli hooks idempotency key retry verification", "PostToolUse exit code 2 verified tool calls", "codex cli tool call verification MCP postcondition"
+
+---
+
 ## The Devil Is in the Interface — Tool Architecture, Coding Agent Behaviour, Codex CLI Tool Surface Design (2026-08-13 Hourly Article Run)
 
 1. ✅ **The Devil Is in the Interface: What 11,700 Trajectories Reveal About How Tool Architecture Shapes Coding Agent Behaviour — and What It Means for Codex CLI** — Written 2026-08-13 → `2026-08-13-devil-in-the-interface-tool-architecture-shapes-coding-agent-behaviour-codex-cli-tool-surface-design.md`
