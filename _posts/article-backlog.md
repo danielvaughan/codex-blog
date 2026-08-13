@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Context Compaction Theory — Formal Analysis, Bounded Context Windows, Selection vs Generation, Communication Complexity (2026-08-13 Hourly Article Run)
+
+1. ✅ **Context Compaction Theory: What a Formal Analysis of Bounded Context Windows Means for Your Codex CLI Sessions** — Written 2026-08-13 → `2026-08-13-context-compaction-theory-formal-analysis-bounded-context-windows-codex-cli-selection-generation-communication-complexity.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Tirmazi, Markelon, Bishop & Mitzenmacher arXiv:2608.01326 (August 2, 2026) "Context Compaction Theory"; first formal treatment of context compaction for LLM agents; two game-theoretic frameworks (Context Selection Game, Context Generation Game); equivalence to one-way communication complexity; generation provably beats selection by Θ(log n) factor; empirical evaluation of Anthropic's compaction endpoint shows near-random-guess error on set membership queries vs Bloom filter baseline; set disjointness Ω(N·m) lower bound for dependency auditing; mapped to Codex CLI model_auto_compact_token_limit, compact_prompt configuration, PostToolUse hooks for state persistence, repeated compaction degradation; 6 citations
+   - SEO targets: "context compaction theory codex cli", "codex cli context window compaction formal analysis", "context selection vs generation coding agent", "communication complexity context compaction LLM agent", "codex cli compact_prompt configuration long sessions", "context compaction degradation repeated compaction coding agent"
+
+---
+
 ## AgenTag Open-World Agent Attribution — Behavioural Fingerprints, PR Governance, Commit Attribution (2026-08-13 Hourly Article Run)
 
 1. ✅ **AgenTag and Open-World Agent Attribution: Why PR Descriptions Reveal More Than Code Diffs — and What It Means for Codex CLI Commit Governance** — Written 2026-08-13 → `2026-08-13-agentag-attribution-ai-coding-agents-behavioral-fingerprints-codex-cli-commit-attribution-pr-governance.md`
