@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AgenTag Open-World Agent Attribution — Behavioural Fingerprints, PR Governance, Commit Attribution (2026-08-13 Hourly Article Run)
+
+1. ✅ **AgenTag and Open-World Agent Attribution: Why PR Descriptions Reveal More Than Code Diffs — and What It Means for Codex CLI Commit Governance** — Written 2026-08-13 → `2026-08-13-agentag-attribution-ai-coding-agents-behavioral-fingerprints-codex-cli-commit-attribution-pr-governance.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Ghaleb arXiv:2608.00966 (August 2, 2026) "AgenTag: Attribution of AI Coding Agents from Behavioral Fingerprints"; 33,580 agentic PRs from 5 agents (OpenAI Codex, GitHub Copilot, Devin, Cursor, Claude Code) + 6,618 human PRs; multimodal contrastive learning framework; weighted F1 0.96 agent identification; PR text + commit messages F1 0.89 vs code diffs alone F1 0.59 — text dominates code in attribution; open-world unseen agent detection AUC 0.84; marker-stripped F1 drops only 0.026; 5% dataset contamination in "human" labels; mapped to Codex CLI commit_attribution config, AGENTS.md as communication style governor, PostToolUse hooks for PR description governance, named profiles for model routing; 6 citations
+   - SEO targets: "AgenTag attribution AI coding agents codex cli", "codex cli commit attribution behavioural fingerprints", "PR description agent identification coding agent", "codex cli Co-Authored-By governance attribution", "open-world agent attribution contrastive learning", "coding agent fingerprint PR text commit messages"
+
+---
+
 ## Deep Agentic Search vs Semantic Search — Subagent Delegation, Context Rot, Repository Code QA (2026-08-13 Hourly Article Run)
 
 1. ✅ **Deep Agentic Search vs Semantic Search: Why Delegating Code Exploration to Subagents Costs More and Finds Less — and What It Means for Your Codex CLI Search Strategy** — Written 2026-08-13 → `2026-08-13-deep-agentic-search-vs-semantic-search-repository-code-qa-codex-cli-subagent-delegation-context-rot.md`
