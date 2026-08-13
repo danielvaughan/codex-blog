@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Unreliable in Practice — 86,726 LLM Code Errors, PostToolUse Verification, Memory Safety (2026-08-13 Hourly Article Run)
+
+1. ✅ **Unreliable in Practice? What 86,726 LLM Code Errors Reveal About Codex CLI Verification Strategy** — Written 2026-08-13 → `2026-08-13-unreliable-in-practice-llm-generated-code-errors-codex-cli-posttooluse-verification-memory-safety-input-validation.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Nogueira, Vieira & Campos arXiv:2608.00661 (August 2026, accepted ISSRE 2026) "Unreliable in Practice? A Comprehensive Study of Errors in LLM-Generated Code"; 86,726 error samples from 7 LLMs across C, C++, Java, Rust via PROBE/CodeNet dataset; 14 compilation and 15 runtime error categories; missing imports 35-57% of compilation errors, out-of-bounds 28-60% of runtime errors, overflow 44% in Rust; iterative feedback fixes only 4.5% of boundary errors; mapped to Codex CLI PostToolUse compilation hooks, AGENTS.md validation rules, sanitiser-enabled test hooks, language choice as verification strategy; 6 citations
+   - SEO targets: "LLM generated code errors codex cli verification", "codex cli PostToolUse hook compilation check", "LLM code reliability memory safety input validation", "codex cli AGENTS.md code quality rules", "unreliable LLM code ISSRE 2026 codex cli", "coding agent error taxonomy verification strategy"
+
+---
+
 ## CARE Pre-Execution Command Verification — Static-First Shell Verifier, PreToolUse Hooks, Provenance-Backed Rules (2026-08-13 Hourly Article Run)
 
 1. ✅ **CARE and Pre-Execution Command Verification: What a Static-First Shell Verifier Means for Codex CLI's PreToolUse Hooks** — Written 2026-08-13 → `2026-08-13-care-pre-execution-command-verification-shell-llm-agents-codex-cli-pretooluse-hooks-static-verification.md`
