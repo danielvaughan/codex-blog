@@ -12,13 +12,13 @@ tags: ["codex-cli", "security", "memory-poisoning", "MemSecBench", "agent-memory
 
 ---
 
-Most agent memory security research treats poisoning as a binary event: an attacker writes something malicious, the agent acts on it. MemSecBench, published by Chen et al. in July 2026, rejects this framing entirely[^1]. Instead, it traces malicious semantics across a full **Write–Execute–Forget lifecycle** through seven checkpoints, evaluating 310 cases across 24 system configurations. The headline finding: 84.2 per cent of poisoned memories persist through the write stage, and 50.3 per cent complete the full kill chain to produce externally verifiable harm[^1].
+Most agent memory security research treats poisoning as a binary event: an attacker writes something malicious, the agent acts on it. MemSecBench, published by Chen et al. in July 2026, rejects this framing entirely [^1]. Instead, it traces malicious semantics across a full **Write–Execute–Forget lifecycle** through seven checkpoints, evaluating 310 cases across 24 system configurations. The headline finding: 84.2 per cent of poisoned memories persist through the write stage, and 50.3 per cent complete the full kill chain to produce externally verifiable harm [^1].
 
 This article maps MemSecBench's lifecycle model to Codex CLI's memory architecture — from native Memories and AGENTS.md through to PostToolUse hooks and sandbox boundaries — identifying where each defence layer intervenes and where gaps remain.
 
 ## The Lifecycle Model: Write–Execute–Forget
 
-Previous benchmarks like MemMorph focused on a single transition: memory injection leading to tool hijacking[^2]. MemSecBench expands this into a three-stage protocol with seven discrete checkpoints[^1]:
+Previous benchmarks like MemMorph focused on a single transition: memory injection leading to tool hijacking [^2]. MemSecBench expands this into a three-stage protocol with seven discrete checkpoints [^1]:
 
 ```mermaid
 graph LR
@@ -36,13 +36,13 @@ graph LR
     end
 ```
 
-Each checkpoint demands distinct evidence. W1 requires the memory interface to accept a write. W2 requires backend entries to express the target malicious semantics. E1 requires retrieved memory to retain core malicious elements during recall. E2 — the critical adoption checkpoint — requires the agent to use the poisoned memory as its operative basis. E3 requires externally verifiable consequences: file modifications, API calls, or service records[^1].
+Each checkpoint demands distinct evidence. W1 requires the memory interface to accept a write. W2 requires backend entries to express the target malicious semantics. E1 requires retrieved memory to retain core malicious elements during recall. E2 — the critical adoption checkpoint — requires the agent to use the poisoned memory as its operative basis. E3 requires externally verifiable consequences: file modifications, API calls, or service records [^1].
 
-The Forget stage adds F1 (malicious semantics removed) and F2 (benign memories preserved). This dual requirement matters: 86.3 per cent of poisoned cases pass F1, but only 62.5 per cent pass F2, creating a 30.2 percentage-point gap where repair destroys legitimate knowledge[^1].
+The Forget stage adds F1 (malicious semantics removed) and F2 (benign memories preserved). This dual requirement matters: 86.3 per cent of poisoned cases pass F1, but only 62.5 per cent pass F2, creating a 30.2 percentage-point gap where repair destroys legitimate knowledge [^1].
 
 ## The Numbers That Matter
 
-MemSecBench evaluates 310 cases across a 2×4×3 configuration matrix: two agent harnesses (OpenClaw, Hermes), four memory backends (Native, Mem0, Mem0-Graph, A-MEM), and three LLM backends (DeepSeek-V4-Pro, MiniMax-M3, GPT-5.5)[^1].
+MemSecBench evaluates 310 cases across a 2×4×3 configuration matrix: two agent harnesses (OpenClaw, Hermes), four memory backends (Native, Mem0, Mem0-Graph, A-MEM), and three LLM backends (DeepSeek-V4-Pro, MiniMax-M3, GPT-5.5) [^1].
 
 | Metric | Rate | Interpretation |
 |---|---|---|
@@ -51,15 +51,15 @@ MemSecBench evaluates 310 cases across a 2×4×3 configuration matrix: two agent
 | Memory Exploitation (MESR) | 59.6% | Of poisoned cases, how many produce harm |
 | Selective Repair (SRSR) | 56.1% | Of poisoned cases, how many can be cleanly repaired |
 
-The adoption checkpoint (E2) is the primary bottleneck: recall exposure reaches 76.1 per cent but adoption drops to 53.7 per cent[^1]. This 22.4-point contraction represents the moment where model-level reasoning either accepts or rejects the poisoned context — and it is the single largest opportunity for defensive intervention.
+The adoption checkpoint (E2) is the primary bottleneck: recall exposure reaches 76.1 per cent but adoption drops to 53.7 per cent [^1]. This 22.4-point contraction represents the moment where model-level reasoning either accepts or rejects the poisoned context — and it is the single largest opportunity for defensive intervention.
 
 ### No Backend Is Uniformly Safe
 
-A critical finding for teams selecting memory infrastructure: no backend demonstrates uniform safety advantages across all metrics[^1]. A-MEM under OpenClaw/DeepSeek shows a 16.1-point improvement in E2E-ASR and a 41.3-point improvement in selective repair versus Native. But Mem0 effects reverse across configurations — under Hermes/MiniMax-M3, it *increases* E2E-ASR from 34.8 to 48.7 per cent[^1]. Attack resistance and recovery capability are independent requirements.
+A critical finding for teams selecting memory infrastructure: no backend demonstrates uniform safety advantages across all metrics [^1]. A-MEM under OpenClaw/DeepSeek shows a 16.1-point improvement in E2E-ASR and a 41.3-point improvement in selective repair versus Native. But Mem0 effects reverse across configurations — under Hermes/MiniMax-M3, it *increases* E2E-ASR from 34.8 to 48.7 per cent [^1]. Attack resistance and recovery capability are independent requirements.
 
 ## Four Entry Routes for Poisoned Memories
 
-MemSecBench categorises attack carriers into four entry routes[^1]:
+MemSecBench categorises attack carriers into four entry routes [^1]:
 
 | Carrier | Cases | Share | Codex CLI Exposure |
 |---|---|---|---|
@@ -68,17 +68,17 @@ MemSecBench categorises attack carriers into four entry routes[^1]:
 | Workspace file | 54 | 17.4% | Repository files, AGENTS.md modifications |
 | External content | 54 | 17.4% | Web search results, fetched URLs |
 
-Each carrier maps to a distinct Codex CLI attack surface. Supply-chain tool poisoning exploits MCP server responses that feed into the memory extraction pipeline. Workspace file poisoning targets the repository-level AGENTS.md files that Codex CLI automatically reads at session start[^3]. External content poisoning leverages cached or indexed web search results that enter the conversation context[^4].
+Each carrier maps to a distinct Codex CLI attack surface. Supply-chain tool poisoning exploits MCP server responses that feed into the memory extraction pipeline. Workspace file poisoning targets the repository-level AGENTS.md files that Codex CLI automatically reads at session start [^3]. External content poisoning leverages cached or indexed web search results that enter the conversation context [^4].
 
 ## Mapping MemSecBench Checkpoints to Codex CLI's Defence Stack
 
 ### W1–W2: Write and Persistence — The Memory Pipeline
 
-Codex CLI's native Memories system, introduced in v0.128, uses a two-phase extraction-and-consolidation pipeline backed by SQLite[^5]. After a session ends, the system extracts durable insights and writes them to `~/.codex/memories/`. Built-in scrubbing removes credentials and obvious secrets before any memory reaches disc[^5].
+Codex CLI's native Memories system, introduced in v0.128, uses a two-phase extraction-and-consolidation pipeline backed by SQLite [^5]. After a session ends, the system extracts durable insights and writes them to `~/.codex/memories/`. Built-in scrubbing removes credentials and obvious secrets before any memory reaches disk [^5].
 
-**Defence surface at W1:** The extraction pipeline itself acts as the first filter. Unlike raw key-value memory backends, Codex CLI's pipeline passes session content through a summarisation model that can strip overtly malicious directives. However, MemSecBench's factual and episodic record types — disguised as legitimate operational statistics or past-case summaries — are designed to survive exactly this kind of semantic filtering[^1].
+**Defence surface at W1:** The extraction pipeline itself acts as the first filter. Unlike raw key-value memory backends, Codex CLI's pipeline passes session content through a summarisation model that can strip overtly malicious directives. However, MemSecBench's factual and episodic record types — disguised as legitimate operational statistics or past-case summaries — are designed to survive exactly this kind of semantic filtering [^1].
 
-**Defence surface at W2:** The 30-day retention policy provides a natural expiry boundary. Memories that go unrecalled for 30 days are pruned automatically[^5]. This limits the persistence window for dormant poisoned memories but does nothing against memories that are actively recalled within that window.
+**Defence surface at W2:** The 30-day retention policy provides a natural expiry boundary. Memories that go unrecalled for 30 days are pruned automatically [^5]. This limits the persistence window for dormant poisoned memories but does nothing against memories that are actively recalled within that window.
 
 **Configuration hardening:**
 
@@ -94,17 +94,17 @@ Reducing the rollout window shortens the exposure period, though the optimal val
 
 ### E1: Recall Exposure — Retrieval Filtering
 
-When a new session starts, Codex CLI retrieves relevant memories based on the current task context. MemSecBench shows 76.1 per cent recall exposure from 84.2 per cent persistence — meaning even simple retrieval ranking drops some poisoned content[^1].
+When a new session starts, Codex CLI retrieves relevant memories based on the current task context. MemSecBench shows 76.1 per cent recall exposure from 84.2 per cent persistence — meaning even simple retrieval ranking drops some poisoned content [^1].
 
 Codex CLI's retrieval mechanism uses semantic similarity to match stored memories against the current conversation. Teams can reduce recall exposure by:
 
 1. **Scoping memories to projects** — project-level memory isolation prevents cross-project contamination
-2. **Using `codex memory list` and `codex memory delete`** to audit and prune suspicious entries[^5]
-3. **Configuring `project_doc_max_bytes`** in config.toml to limit the total context budget available for memory injection[^3]
+2. **Using `codex memory list` and `codex memory delete`** to audit and prune suspicious entries [^5]
+3. **Configuring `project_doc_max_bytes`** in config.toml to limit the total context budget available for memory injection [^3]
 
 ### E2: Adoption — The Critical Bottleneck
 
-The 22.4-point drop from recall to adoption is where model reasoning provides its strongest natural defence. MemSecBench identifies three adoption failure modes[^1]:
+The 22.4-point drop from recall to adoption is where model reasoning provides its strongest natural defence. MemSecBench identifies three adoption failure modes [^1]:
 
 - **Scope/condition failure** — the poisoned memory's applicability conditions do not match the downstream task
 - **Provenance/authority failure** — the model questions the source authority of the recalled memory
@@ -126,7 +126,7 @@ These directives inject competing context that forces the model to evaluate rath
 
 Even when a poisoned memory is adopted, Codex CLI's sandbox and hook pipeline can prevent externalisation — the point where harm becomes externally verifiable.
 
-**Sandbox isolation:** The default `workspace-write` sandbox restricts file writes to the current workspace and disables network access[^3]. This constrains the E3 attack surface:
+**Sandbox isolation:** The default `workspace-write` sandbox restricts file writes to the current workspace and disables network access [^3]. This constrains the E3 attack surface:
 
 ```toml
 # config.toml
@@ -136,9 +136,9 @@ sandbox_mode = "workspace-write"
 network_access = false
 ```
 
-A poisoned memory directing the agent to exfiltrate data via HTTP is blocked at the network boundary. One directing file modifications outside the workspace is blocked by the Landlock/Seatbelt sandbox[^3].
+A poisoned memory directing the agent to exfiltrate data via HTTP is blocked at the network boundary. One directing file modifications outside the workspace is blocked by the Landlock/Seatbelt sandbox [^3].
 
-**PostToolUse verification hooks:** For attacks within the sandbox boundary — say, a poisoned memory that directs the agent to write a backdoor into the project's source code — PostToolUse hooks provide deterministic interception[^6]:
+**PostToolUse verification hooks:** For attacks within the sandbox boundary — say, a poisoned memory that directs the agent to write a backdoor into the project's source code — PostToolUse hooks provide deterministic interception [^6]:
 
 ```toml
 # .codex/hooks.toml
@@ -151,11 +151,11 @@ timeout_ms = 5000
 
 The hook runs after every shell command, scanning for patterns consistent with the MemSecBench threat taxonomy: unexpected network calls, credential access, or out-of-scope file modifications.
 
-**The `--approve-for-me` flag consideration:** Codex CLI v0.147.0 introduced `--approve-for-me` for routing approval requests through automatic review rather than manual human intervention[^4]. In memory-poisoning scenarios, this flag removes the human checkpoint at E2–E3. Teams operating in high-trust environments should weigh the automation benefit against the reduced human oversight at the adoption boundary.
+**The `--approve-for-me` flag consideration:** Codex CLI v0.147.0 introduced `--approve-for-me` for routing approval requests through automatic review rather than manual human intervention [^4]. In memory-poisoning scenarios, this flag removes the human checkpoint at E2–E3. Teams operating in high-trust environments should weigh the automation benefit against the reduced human oversight at the adoption boundary.
 
 ### F1–F2: Selective Repair — The Recovery Gap
 
-MemSecBench's most striking finding is the asymmetric repair gap: removing malicious memories (F1) succeeds in 86.3 per cent of cases, but preserving benign memories (F2) succeeds in only 62.5 per cent[^1]. Collateral damage to legitimate knowledge is the dominant failure mode, not incomplete malicious removal.
+MemSecBench's most striking finding is the asymmetric repair gap: removing malicious memories (F1) succeeds in 86.3 per cent of cases, but preserving benign memories (F2) succeeds in only 62.5 per cent [^1]. Collateral damage to legitimate knowledge is the dominant failure mode, not incomplete malicious removal.
 
 Codex CLI's current repair tooling is manual:
 
@@ -170,7 +170,7 @@ codex memory delete <memory-id>
 codex memory clear
 ```
 
-The problem maps directly to MemSecBench's F2 finding: `codex memory clear` achieves perfect F1 (all malicious content removed) but zero F2 (all benign content also destroyed). Selective deletion via `codex memory delete` requires the operator to correctly identify which memories are poisoned — a task that MemSecBench's evidence-based adjudication shows requires checkpoint-specific evaluation, not human intuition[^1].
+The problem maps directly to MemSecBench's F2 finding: `codex memory clear` achieves perfect F1 (all malicious content removed) but zero F2 (all benign content also destroyed). Selective deletion via `codex memory delete` requires the operator to correctly identify which memories are poisoned — a task that MemSecBench's evidence-based adjudication shows requires checkpoint-specific evaluation, not human intuition [^1].
 
 ```mermaid
 graph TD
@@ -191,21 +191,21 @@ graph TD
 
 ### Gap 1: No Write-Stage Validation Gate
 
-Codex CLI's memory extraction pipeline performs secret scrubbing but lacks a semantic validation gate that evaluates whether extracted memories contain adversarial directives[^5]. MemSecBench's 84.2 per cent write persistence rate demonstrates that current extraction pipelines across all tested backends fail to filter malicious semantics at the write boundary[^1].
+Codex CLI's memory extraction pipeline performs secret scrubbing but lacks a semantic validation gate that evaluates whether extracted memories contain adversarial directives [^5]. MemSecBench's 84.2 per cent write persistence rate demonstrates that current extraction pipelines across all tested backends fail to filter malicious semantics at the write boundary [^1].
 
 A PreToolUse-style hook at the memory write boundary — intercepting each candidate memory before it reaches SQLite — would provide a deterministic checkpoint analogous to the shell command approval gate.
 
 ### Gap 2: No Provenance Tracking
 
-MemSecBench categorises memories by carrier (user interaction, supply-chain tool, workspace file, external content) because provenance determines risk[^1]. Codex CLI's native Memories system stores extracted insights without recording their source session, the tools involved, or the input that triggered extraction[^5]. Without provenance, operators cannot prioritise memories from high-risk carriers (external content, MCP server responses) for audit.
+MemSecBench categorises memories by carrier (user interaction, supply-chain tool, workspace file, external content) because provenance determines risk [^1]. Codex CLI's native Memories system stores extracted insights without recording their source session, the tools involved, or the input that triggered extraction [^5]. Without provenance, operators cannot prioritise memories from high-risk carriers (external content, MCP server responses) for audit.
 
 ### Gap 3: No Automated Selective Repair
 
-The 30.2 percentage-point gap between F1 and F2 in MemSecBench indicates that selective repair is an unsolved problem across all tested configurations[^1]. Codex CLI provides only manual deletion and full clearing. An automated repair workflow — quarantine suspected memories, verify benign memories against a known-good baseline, selectively restore — does not exist in the current architecture.
+The 30.2 percentage-point gap between F1 and F2 in MemSecBench indicates that selective repair is an unsolved problem across all tested configurations [^1]. Codex CLI provides only manual deletion and full clearing. An automated repair workflow — quarantine suspected memories, verify benign memories against a known-good baseline, selectively restore — does not exist in the current architecture.
 
 ### Gap 4: No Cross-Session Poisoning Detection
 
-MemSecBench's Execute stage deliberately presents downstream tasks in independent sessions to test cross-session contamination[^1]. Codex CLI's memory system is designed for exactly this cross-session persistence. No mechanism currently detects when a memory extracted from session N produces anomalous behaviour in session N+1.
+MemSecBench's Execute stage deliberately presents downstream tasks in independent sessions to test cross-session contamination [^1]. Codex CLI's memory system is designed for exactly this cross-session persistence. No mechanism currently detects when a memory extracted from session N produces anomalous behaviour in session N+1.
 
 ## Practical Defence Configuration
 

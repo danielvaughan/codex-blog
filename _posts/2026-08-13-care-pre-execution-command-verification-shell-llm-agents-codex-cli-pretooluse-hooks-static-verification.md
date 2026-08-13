@@ -117,7 +117,7 @@ Codex CLI's PostToolUse hooks provide the natural extension point. A session-awa
 A minimal CARE-style PreToolUse hook for Codex CLI would follow this structure in `hooks.json`:
 
 ```toml
-# ~/.codex/hooks.json (simplified)
+# ~/.codex/hooks.toml (simplified)
 [[hooks]]
 event = "PreToolUse"
 command_type = "shell"

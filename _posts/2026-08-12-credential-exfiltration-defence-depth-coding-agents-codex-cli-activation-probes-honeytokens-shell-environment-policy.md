@@ -73,7 +73,7 @@ Even with `inherit = "all"`, Codex applies an automatic filter that strips any v
 
 ### Sandbox Network Policy: Stop Credentials Leaving
 
-If a credential does reach a subprocess despite environment filtering (for example, read from a `.env` file on disc), the sandbox network policy provides a second barrier [^5]:
+If a credential does reach a subprocess despite environment filtering (for example, read from a `.env` file on disk), the sandbox network policy provides a second barrier [^5]:
 
 ```toml
 [sandbox]
@@ -148,7 +148,7 @@ The `inject` table is worth noting — it lets you provide non-sensitive variabl
 
 The research highlights three gaps in Codex CLI's current credential defence:
 
-1. **No multi-turn leakage accounting.** Nimbus tracks cumulative information flow across conversation turns; Codex CLI hooks are stateless per-invocation. A determined attacker could exfiltrate a 40-character API key two characters at a time across twenty tool calls, and no single hook invocation would flag it. Stateful hook implementations that persist a leakage budget to disc would partially close this gap.
+1. **No multi-turn leakage accounting.** Nimbus tracks cumulative information flow across conversation turns; Codex CLI hooks are stateless per-invocation. A determined attacker could exfiltrate a 40-character API key two characters at a time across twenty tool calls, and no single hook invocation would flag it. Stateful hook implementations that persist a leakage budget to disk would partially close this gap.
 
 2. **No honeytoken injection.** Codex CLI could inject canary credentials into the agent's environment and monitor for their appearance in tool calls or network requests. The DP-Honey approach achieves perfect precision and recall [^3], and injecting canaries via `[shell_environment_policy.inject]` is already mechanically possible.
 

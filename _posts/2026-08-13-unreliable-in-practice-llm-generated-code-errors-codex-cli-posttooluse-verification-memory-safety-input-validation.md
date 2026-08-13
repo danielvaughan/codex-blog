@@ -80,7 +80,7 @@ graph TD
 A PostToolUse hook that compiles after every file write catches the dominant error class (missing imports + type mismatches) at near-zero cost [^4]. For a Rust project:
 
 ```toml
-# .codex/hooks.json
+# .codex/hooks.toml
 [hooks.post_tool_use]
 command = "cargo check --message-format=short 2>&1 | head -20"
 on_file_types = ["rs"]
@@ -92,7 +92,7 @@ For C/C++ projects, replace with `gcc -fsyntax-only` or `clang -fsyntax-only`. F
 
 The study shows that out-of-bounds and overflow errors survive iterative feedback. Static analysers catch what the model cannot self-correct:
 
-```toml
+```markdown
 # AGENTS.md excerpt
 ## Code Quality Requirements
 - All C/C++ code must pass `cppcheck --enable=all --error-exitcode=1`
