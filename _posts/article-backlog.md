@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Devil Is in the Interface — Tool Architecture, Coding Agent Behaviour, Codex CLI Tool Surface Design (2026-08-13 Hourly Article Run)
+
+1. ✅ **The Devil Is in the Interface: What 11,700 Trajectories Reveal About How Tool Architecture Shapes Coding Agent Behaviour — and What It Means for Codex CLI** — Written 2026-08-13 → `2026-08-13-devil-in-the-interface-tool-architecture-shapes-coding-agent-behaviour-codex-cli-tool-surface-design.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Xu et al. arXiv:2608.11386 (August 11, 2026) "The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior"; six tool architectures (BashOnly, Atomic, NLSearch, Python CodeAct, HypoTrack, Scratchpad) compared across 11,700 trajectories on SWE-bench Live; three actors (Qwen3Coder-30B, Kimi K2.5, Claude Sonnet 4.5); Atomic tools improve pass^9 consistency 4.7× for weakest model; NLSearch increases relevant file access 11%+; Python CodeAct achieves 41.6% fewer steps and 56.3% lower token usage; cognitive scaffolding tools show limited effect; mapped to Codex CLI shell executor as BashOnly baseline, MCP servers as Atomic/NLSearch equivalents, AGENTS.md compound-operation directives for CodeAct efficiency, native Memories as active vs passive scaffolding, PreToolUse/PostToolUse hooks as error-reduction layer; 6 citations
+   - SEO targets: "tool architecture coding agent behaviour codex cli", "codex cli MCP tool surface design structured tools", "CodeAct Python interface coding agent token efficiency", "codex cli tool consistency pass rate SWE-bench", "cognitive scaffolding tools coding agent limited effect", "codex cli AGENTS.md compound operation tool architecture"
+
+---
+
 ## Influence Tactics and Prompt Framing in LLM Code Generation — Pressure, Rational Persuasion, AGENTS.md Tone (2026-08-13 Hourly Article Run)
 
 1. ✅ **Do Influence Tactics Matter? What 123,000 Prompt Variations Reveal About Framing Effects in LLM Code Generation — and What It Means for Your AGENTS.md** — Written 2026-08-13 → `2026-08-13-influence-tactics-prompt-framing-llm-code-generation-codex-cli-agents-md-pressure-rational-persuasion.md`
