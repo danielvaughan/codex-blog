@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Tool Architecture Shapes Coding Agent Behaviour — Agent Plugins 1.0, Atomic Interfaces, CodeAct Efficiency (2026-08-14 Hourly Article Run)
+
+1. ✅ **The Devil Is in the Interface: How Tool Architecture Shapes Your Codex CLI Agent's Behaviour** — Written 2026-08-14 → `2026-08-14-tool-architecture-shapes-coding-agent-behaviour-codex-cli-agent-plugins-interface-design-atomic-codeact.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Xu et al. arXiv:2608.11386 (August 11, 2026) "The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior"; 11,700 trajectories across 6 tool architectures (BashOnly, Atomic, NLSearch, Python/CodeAct, HypoTrack, Scratchpad) and 3 actors (Qwen3Coder-30B, Kimi K2.5, Claude Sonnet 4.5) on SWE-bench Live (65 instances, 25 repos); Atomic structured interfaces 4.7× consistency gain; NLSearch 11%+ file recall improvement; CodeAct 56.3% token reduction and 41.6% fewer steps; cognitive scaffolding null result; mapped to Codex CLI v0.147.0 Agent Plugins 1.0 (plugin.json, skills/, mcp.json), four-scope federated catalogue (local/personal/workspace/remote), MCP server tool packaging, compound interaction skill design; 6 citations
+   - SEO targets: "tool architecture coding agent behaviour codex cli", "codex cli agent plugins 1.0 interface design", "atomic vs codeact tool interface coding agent", "codex cli plugin.json mcp.json structured tools", "tool architecture consistency SWE-bench coding agent", "agent plugins portable format codex cli v0.147"
+
+---
+
 ## WorkBuddy Bench Multi-Domain Benchmark — Contamination Resistance, Harness Sensitivity, Domain-Specific Model Routing (2026-08-13 Hourly Article Run)
 
 1. ✅ **WorkBuddy Bench and the Contamination-Resistant Multi-Domain Benchmark: Why the Harness Is Not a Neutral Instrument — and What 260 Tasks Reveal for Codex CLI Developers** — Written 2026-08-13 → `2026-08-13-workbuddy-bench-multi-domain-coding-agent-benchmark-contamination-resistant-harness-sensitivity-codex-cli.md`
