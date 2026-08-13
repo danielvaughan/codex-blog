@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MemSecBench Memory Poisoning Lifecycle — Write-Execute-Forget Protocol, Seven Checkpoints, Codex CLI Defence Stack (2026-08-13 Hourly Article Run)
+
+1. ✅ **MemSecBench and the Memory Poisoning Lifecycle: Why 84 Per Cent of Malicious Memories Persist — and How Codex CLI's Defence Stack Intervenes at Each Checkpoint** — Written 2026-08-13 → `2026-08-13-memsecbench-agent-memory-poisoning-lifecycle-codex-cli-memory-integrity-defence-write-execute-forget.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. arXiv:2607.27080 (July 2026) "MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair"; 310 cases across 24 configurations (2 agent harnesses × 4 memory backends × 3 LLM backends); Write-Execute-Forget protocol with 7 lifecycle checkpoints; MPSR 84.2%, E2E-ASR 50.3%, MESR 59.6%, SRSR 56.1%; adoption checkpoint E2 as critical bottleneck (76.1% → 53.7%); selective repair gap F1 86.3% vs F2 62.5% (30.2pp collateral damage); four carrier types (user interaction 43.5%, supply-chain tool 21.6%, workspace file 17.4%, external content 17.4%); mapped to Codex CLI native Memories v0.128 extraction pipeline, AGENTS.md adoption-resistance directives, sandbox workspace-write containment at E3, PostToolUse hooks as externalisation gates, v0.147.0 --approve-for-me trade-off; identified gaps: no write-stage validation gate, no provenance tracking, no automated selective repair, no cross-session poisoning detection; 6 citations
+   - SEO targets: "MemSecBench agent memory poisoning codex cli", "codex cli memory security lifecycle defence", "agent memory poisoning Write-Execute-Forget protocol", "codex cli PostToolUse hook memory integrity", "memory poisoning selective repair coding agent", "codex cli native memories security hardening"
+
+---
+
 ## Unreliable in Practice — 86,726 LLM Code Errors, PostToolUse Verification, Memory Safety (2026-08-13 Hourly Article Run)
 
 1. ✅ **Unreliable in Practice? What 86,726 LLM Code Errors Reveal About Codex CLI Verification Strategy** — Written 2026-08-13 → `2026-08-13-unreliable-in-practice-llm-generated-code-errors-codex-cli-posttooluse-verification-memory-safety-input-validation.md`
