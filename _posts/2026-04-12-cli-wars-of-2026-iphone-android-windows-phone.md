@@ -2,7 +2,7 @@
 title: "Three Terminals, Three Fates"
 description: "In January 2010, Android outsold iPhone for the first time. It had more carriers, more handsets, and a lower price point."
 date: 2026-04-12T07:00:00+00:00
-last_modified_at: 2026-08-13T06:14:00+01:00
+last_modified_at: 2026-08-13T07:07:12+01:00
 featured: true
 tags:
   - claude-code

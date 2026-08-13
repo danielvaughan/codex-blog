@@ -1,7 +1,7 @@
 ---
 title: "SpecPath and Specification-Path Sensitivity: Why Your Coding Agent Fails When Requirements Evolve — Even When the Final Spec Is Identical"
 parent: "Articles"
-nav_order: 1755
+nav_order: 1756
 tags: ["codex-cli", "specification-path-sensitivity", "SpecPath", "requirement-evolution", "plan-mode", "AGENTS.md", "coding-agent-robustness", "contract-equivalence"]
 ---
 
