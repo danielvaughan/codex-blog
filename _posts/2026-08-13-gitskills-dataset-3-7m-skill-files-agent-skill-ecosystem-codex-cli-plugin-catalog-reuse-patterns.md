@@ -163,4 +163,4 @@ The GitSkills dataset gives the agent skill ecosystem its first large-scale empi
 
 [^6]: SkillsMP. (2026). *Agent Skills Marketplace*. [https://github.com/topics/skill-md](https://github.com/topics/skill-md)
 
-[^7]: Chakrabarti, A. (2026). *Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding*. arXiv:2608.11095. [https://arxiv.org/abs/2608.11095](https://arxiv.org/abs/2608.11095)
+[^7]: Chakrabarti, K. (2026). *Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding*. arXiv:2608.11095. [https://arxiv.org/abs/2608.11095](https://arxiv.org/abs/2608.11095)

@@ -168,4 +168,4 @@ Valente's work highlights three areas where even production agents have gaps:
 
 [^5]: OpenAI (2026). "Codex CLI v0.147.0 Release Notes." [https://github.com/openai/codex/releases/tag/rust-v0.147.0](https://github.com/openai/codex/releases/tag/rust-v0.147.0)
 
-[^6]: Patel, A., Sen, A., Lumer, N. & Subbiah, S. (2026). "The Bitter Lesson of Tool Calling." arXiv:2608.06370. [https://arxiv.org/abs/2608.06370](https://arxiv.org/abs/2608.06370)
+[^6]: Patel, I., Sen, S., Lumer, E. & Subbiah, V.K. (2026). "The Bitter Lesson of Tool Calling." arXiv:2608.06370. [https://arxiv.org/abs/2608.06370](https://arxiv.org/abs/2608.06370)
