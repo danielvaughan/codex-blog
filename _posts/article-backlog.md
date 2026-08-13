@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Balkanisation of Execution-Security Research — TOCTOU, Scope Creep, Policy Enforcement, Sandbox Defence Stack (2026-08-13 Hourly Article Run)
+
+1. ✅ **The Balkanisation of Execution-Security Research: What Five Cross-Cutting Gaps Mean for Your Codex CLI Defence Stack** — Written 2026-08-13 → `2026-08-13-balkanization-execution-security-coding-agents-codex-cli-sandbox-toctou-scope-creep-policy-enforcement.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Rashidi arXiv:2607.05743 (July 2026) "The Balkanization of Execution-Security Research for AI Coding Agents"; 39 papers (2023-2026) systematised into 17 categories; five cross-cutting gaps (isolation vs access-control benchmarking, policy enforcement 69-98% bypass rates, TOCTOU/MCP vocabulary separation, honest policy-author assumption, scope creep up to 17.1% overeager rate); four confirmed CVEs in production harnesses; Pwn2Own Berlin 2026 US$1.3M payout across 47 zero-days; mapped to Codex CLI sandbox_mode layering, PreToolUse/PostToolUse hooks, requirements.toml fail-closed, AGENTS.md policy surface, approval_policy scope-creep defence, MCP 2026-07-28 protocol; identified gaps: no integrated layer evaluation, no MCP re-validation, no policy linting, no scope-boundary enforcement; 6 citations
+   - SEO targets: "balkanisation execution security coding agents codex cli", "codex cli TOCTOU MCP sandbox defence stack", "scope creep overeager coding agent codex cli", "policy enforcement bypass denylist codex cli hooks", "codex cli PreToolUse sandbox isolation access control", "execution security cross-cutting gaps coding agent 2026"
+
+---
+
 ## Context Compaction Theory — Formal Analysis, Bounded Context Windows, Selection vs Generation, Communication Complexity (2026-08-13 Hourly Article Run)
 
 1. ✅ **Context Compaction Theory: What a Formal Analysis of Bounded Context Windows Means for Your Codex CLI Sessions** — Written 2026-08-13 → `2026-08-13-context-compaction-theory-formal-analysis-bounded-context-windows-codex-cli-selection-generation-communication-complexity.md`
