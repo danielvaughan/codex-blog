@@ -2,7 +2,7 @@
 title: "GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions"
 description: "Most Codex tasks complete in minutes. But some tasks — a full microservice migration, a large-scale refactor across 50+ files, a days-long debugging session."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-08-13T10:27:09+01:00
+last_modified_at: 2026-08-13T11:38:26+01:00
 tags:
   - models
   - context-management
@@ -137,7 +137,7 @@ Monitor via the Codex app sidebar — the thread will show compaction events as 
 ## When NOT to Use Codex-Max
 
 - **Short, bounded tasks**: The model's compaction overhead adds latency on tasks that would finish in a single context window anyway. Use `gpt-5-codex` or `gpt-5.3-codex-spark` for these.
-- **Subagent workers**: Use `gpt-5.4-mini` or `gpt-5-codex` for parallel worker subagents in your agentic pod. Reserve Codex-Max for the orchestrator or for standalone long-running jobs. See [Subagent Model Routing: Mini for Workers](#).
+- **Subagent workers**: Use `gpt-5.4-mini` or `gpt-5-codex` for parallel worker subagents in your agentic pod. Reserve Codex-Max for the orchestrator or for standalone long-running jobs. See [Subagent Design best practices](#).
 - **Interactive sessions**: If you're steering the agent in real time, shorter context windows keep you in the loop. Codex-Max's strength is *autonomous* long-horizon runs.
 
 ---
