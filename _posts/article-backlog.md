@@ -1,5 +1,13 @@
 # Article Backlog
 
+## WorkBuddy Bench Multi-Domain Benchmark — Contamination Resistance, Harness Sensitivity, Domain-Specific Model Routing (2026-08-13 Hourly Article Run)
+
+1. ✅ **WorkBuddy Bench and the Contamination-Resistant Multi-Domain Benchmark: Why the Harness Is Not a Neutral Instrument — and What 260 Tasks Reveal for Codex CLI Developers** — Written 2026-08-13 → `2026-08-13-workbuddy-bench-multi-domain-coding-agent-benchmark-contamination-resistant-harness-sensitivity-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Cai et al. arXiv:2607.20911 (July 2026) "Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction"; 260 tasks across 4 domains (Code 80, Web 70, Office 50, Security 60); 7 models (Claude Opus 4.8, GPT-5.5, GLM-5.2, HY-3, MiniMax-M3, DeepSeek-V4-Pro/Flash) under 2 harnesses (CodeBuddy Code, Claude Code); contamination-resistant reverse-engineering construction; harness sensitivity finding — mean 8.6pp shift on Security, GPT-5.5 vs GLM-5.2 rankings flip between harnesses; GLM-5.2 tops Security as only open-weight leader; Claude Opus 4.8 13 Security refusals; GPT-5.5 lowest token budget (6.9k) with competitive scores; five-layer anti-cheat on Security subset; mapped to Codex CLI named profiles domain-specific model routing, config.toml harness as performance variable, AGENTS.md/hooks.json/sandbox_mode as harness components, PostToolUse verification for Office failures, GPT-5.4 deprecation migration; 6 citations
+   - SEO targets: "WorkBuddy Bench multi-domain coding agent benchmark codex cli", "contamination resistant benchmark coding agent 2026", "harness sensitivity coding agent benchmark score", "codex cli named profiles domain-specific model routing", "GLM-5.2 security benchmark open-weight coding agent", "codex cli config.toml harness performance variable"
+
+---
+
 ## Balkanisation of Execution-Security Research — TOCTOU, Scope Creep, Policy Enforcement, Sandbox Defence Stack (2026-08-13 Hourly Article Run)
 
 1. ✅ **The Balkanisation of Execution-Security Research: What Five Cross-Cutting Gaps Mean for Your Codex CLI Defence Stack** — Written 2026-08-13 → `2026-08-13-balkanization-execution-security-coding-agents-codex-cli-sandbox-toctou-scope-creep-policy-enforcement.md`
