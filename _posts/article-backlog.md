@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Deep Agentic Search vs Semantic Search — Subagent Delegation, Context Rot, Repository Code QA (2026-08-13 Hourly Article Run)
+
+1. ✅ **Deep Agentic Search vs Semantic Search: Why Delegating Code Exploration to Subagents Costs More and Finds Less — and What It Means for Your Codex CLI Search Strategy** — Written 2026-08-13 → `2026-08-13-deep-agentic-search-vs-semantic-search-repository-code-qa-codex-cli-subagent-delegation-context-rot.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Rafiei Oskooei et al. arXiv:2608.01507 (August 2, 2026) "Deep Agentic Search for Repository-Level Code Question Answering: An Empirical Study"; 720 questions across 15 Python repositories (13K–861K LOC), 4 frontier models (Gemini 2.5 Flash/Pro, Gemini 3 Flash, Qwen3-235B); semantic search 65.2% pass rate vs deep agentic search 46.2% (+19pp), 2.3× lower cost; 41.8% of deep search failures from coordination breakdown at planner-to-subagent handoff; 91% of coordination failures produce fluent confident wrong answers (silent failures); effort paradox — longer trajectories correlate with lower pass rates; mapped to Codex CLI MCP tool search (v0.142.2 default), code-index-mcp semantic indexing, subagent delegation (v0.107.0+), config.toml max_threads/max_depth/tool_output_token_limit, AGENTS.md search strategy hierarchy, PostToolUse grounding verification hooks; 6 citations
+   - SEO targets: "deep agentic search vs semantic search codex cli", "codex cli subagent delegation code search", "context rot coding agent subagent", "semantic search repository code QA coding agent", "codex cli MCP code index search strategy", "coordination breakdown subagent delegation silent failure"
+
+---
+
 ## Verified Tool Calls and Non-Atomic Failures — Postcondition Verification, Idempotency, Codex CLI PostToolUse Hooks (2026-08-13 Hourly Article Run)
 
 1. ✅ **Verified Tool Calls and Non-Atomic Failures: What a Postcondition Wrapper Teaches Us About Codex CLI's PostToolUse Hooks** — Written 2026-08-13 → `2026-08-13-verified-tool-calls-non-atomic-failures-llm-agent-reliability-codex-cli-posttooluse-postcondition-verification.md`
