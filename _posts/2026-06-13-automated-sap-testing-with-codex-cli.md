@@ -2,7 +2,7 @@
 title: "Automated SAP Testing with Codex CLI: An Agent-Driven Approach"
 description: "How to use Codex CLI to generate, maintain, and execute automated tests across SAP's four testing layers — OData APIs, BAPIs/RFCs, Fiori UI, and SAP GUI — with practical code examples, MCP integration patterns, and guidance on navigating SAP's April 2026 API policy."
 date: 2026-06-13T20:00:00+00:00
-last_modified_at: 2026-08-13T00:10:34+01:00
+last_modified_at: 2026-08-13T02:09:58+01:00
 tags:
   - codex-cli
   - sap

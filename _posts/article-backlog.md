@@ -1,5 +1,13 @@
 # Article Backlog
 
+## CARE Pre-Execution Command Verification — Static-First Shell Verifier, PreToolUse Hooks, Provenance-Backed Rules (2026-08-13 Hourly Article Run)
+
+1. ✅ **CARE and Pre-Execution Command Verification: What a Static-First Shell Verifier Means for Codex CLI's PreToolUse Hooks** — Written 2026-08-13 → `2026-08-13-care-pre-execution-command-verification-shell-llm-agents-codex-cli-pretooluse-hooks-static-verification.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Liu et al. arXiv:2607.21642 (July 2026, accepted ISSRE 2026) "CARE: Pre-Execution Command Verification for Shell-Executing LLM Agents"; three-stage pipeline (Canonicalization, Attribution L1-L5, Resolution); 139 provenance-backed rules (92 MITRE ATT&CK, 31 GTFOBins, 16 manual); 85.64% F1, 0.91% FPR, 2.32ms latency; static-only profile 84.99% F1 at 0.34ms; reduced RedCode-gen harm rate from 74.83% to 37.33%; mapped to Codex CLI PreToolUse hooks, exit-code 2 steering, sandbox_mode layering, hooks.json configuration, additionalContext feedback; identified gaps: single-command scope (no session-level composition detection), generator-judge self-consistency bias; 6 citations
+   - SEO targets: "CARE pre-execution command verification codex cli", "codex cli PreToolUse hook shell command verification", "static shell command verification coding agent", "MITRE ATT&CK provenance rules codex cli hooks", "pre-execution shell verifier LLM agent security", "codex cli command-level mediation static analysis"
+
+---
+
 ## GitSkills and the 3.7 Million Skill Files — Agent Skill Ecosystem, Plugin Catalog, Reuse Patterns (2026-08-13 Hourly Article Run)
 
 1. ✅ **GitSkills and the 3.7 Million Skill Files: What the Largest Agent Skill Dataset Reveals About Codex CLI's Plugin Ecosystem** — Written 2026-08-13 → `2026-08-13-gitskills-dataset-3-7m-skill-files-agent-skill-ecosystem-codex-cli-plugin-catalog-reuse-patterns.md`
