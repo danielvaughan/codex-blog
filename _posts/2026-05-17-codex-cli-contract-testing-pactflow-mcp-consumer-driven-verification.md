@@ -14,13 +14,26 @@ tags: ["contract-testing", "pactflow", "mcp", "consumer-driven", "pact", "ci-cd"
 
 
 
----
-
 ## Introduction
 
-Consumer-driven contract testing remains the most effective technique for preventing integration failures across microservice boundaries without the overhead of full end-to-end test suites[^1]. The 2026 release of the SmartBear MCP Server and PactFlow Agent Skills brings contract testing directly into AI coding agents — including Codex CLI[^2]. This article covers the complete workflow: configuring the PactFlow MCP server in Codex CLI, generating consumer tests interactively and via `codex exec`, running provider verification, and building CI gates with `can-i-deploy`.
+Consumer-driven contract testing prevents integration failures across microservice boundaries without the overhead of full end-to-end test suites[^1]. The SmartBear MCP Server and PactFlow Agent Skills, released in 2026, bring contract testing directly into AI coding agents, including Codex CLI[^2]. This article covers the complete workflow: configuring the PactFlow MCP server in Codex CLI, generating consumer tests interactively and via `codex exec`, running provider verification, and building CI gates with `can-i-deploy`.
 
-## Architecture Overview
+A key point for community users: the SmartBear MCP server works with both PactFlow Cloud *and* the open-source Pact Broker[^3]. Core capabilities such as `can-i-deploy`, contract publishing, verification, environment tracking, and webhook management all work against a self-hosted OSS broker. AI-powered features, including test generation, test review, bi-directional contract testing, team metrics, and audit logs, require a PactFlow Cloud account[^3]. The table below summarises the split.
+
+| Capability | OSS Pact Broker | PactFlow Cloud |
+|-----------|:-:|:-:|
+| `can-i-deploy` / matrix queries | Yes | Yes |
+| Contract publishing and verification | Yes | Yes |
+| Environment and deployment recording | Yes | Yes |
+| Webhook configuration | Yes | Yes |
+| Pacticipant and version management | Yes | Yes |
+| AI test generation (`contract-testing_generate_pact_test`) | No | Yes |
+| AI test review (`contract-testing_review_pact_test`) | No | Yes |
+| Bi-directional contract testing (BDCT) | No | Yes |
+| Team metrics and audit log | No | Yes |
+| Administration (users, teams, roles) | No | Yes |
+
+## Architecture overview
 
 ```mermaid
 flowchart LR
@@ -46,17 +59,17 @@ flowchart LR
     J --> E
 ```
 
-The SmartBear MCP server exposes `contract-testing_*` tools that provide direct access to the PactFlow broker: matrix queries, provider state retrieval, AI-powered test generation, and deployment tracking[^3]. Codex CLI connects to this server via the standard MCP stdio transport, giving the agent full contract testing capabilities within the TUI session or headless `codex exec` runs.
+The SmartBear MCP server exposes `contract-testing_*` tools that provide direct access to the Pact Broker: matrix queries, provider state retrieval, AI-powered test generation (PactFlow Cloud only), and deployment tracking[^3]. Codex CLI connects to this server via the standard MCP stdio transport, giving the agent full contract testing capabilities within the TUI session or headless `codex exec` runs. For OSS broker users, the agent can still query the matrix, publish contracts, record deployments, and run `can-i-deploy` checks, covering the core contract testing lifecycle without a paid account.
 
-## Configuring the PactFlow MCP Server
+## Configuring the PactFlow MCP server
 
 ### Prerequisites
 
 - Node.js 20+ installed in your sandbox environment[^4]
-- A PactFlow Cloud account or self-hosted Pact Broker
-- API token from your PactFlow settings page
+- A PactFlow Cloud account *or* a self-hosted open-source Pact Broker
+- API token from your PactFlow settings page, or basic auth credentials for the OSS broker
 
-### Global Configuration
+### Global configuration
 
 Add the SmartBear MCP server to `~/.codex/config.toml`:
 
@@ -72,7 +85,9 @@ PACT_BROKER_BASE_URL = "https://yourorg.pactflow.io"
 PACT_BROKER_TOKEN = "your-api-token"
 ```
 
-### Project-Scoped Configuration
+For a self-hosted OSS broker, point `PACT_BROKER_BASE_URL` at your broker's URL and use `PACT_BROKER_USERNAME` and `PACT_BROKER_PASSWORD` instead of a token if your broker uses basic authentication.
+
+### Project-scoped configuration
 
 For team-shared configuration, place `.codex/config.toml` in your repository root. The project must be marked as trusted for Codex to load project-scoped MCP servers[^5]:
 
@@ -92,9 +107,9 @@ enabled_tools = [
 PACT_BROKER_BASE_URL = "https://yourorg.pactflow.io"
 ```
 
-Note the use of `enabled_tools` to restrict which contract-testing capabilities the agent can invoke — a sensible default for preventing accidental deployment recordings in development.
+Note the use of `enabled_tools` to restrict which contract-testing capabilities the agent can invoke. This is a sensible default for preventing accidental deployment recordings in development. If you are using the OSS broker, remove `contract-testing_generate_pact_test` and `contract-testing_review_pact_test` from the list, as these require PactFlow Cloud.
 
-### Verify Configuration
+### Verify configuration
 
 In the TUI, run `/mcp` to confirm the SmartBear server is connected and its tools are discoverable.
 
@@ -108,11 +123,13 @@ npx skills add pactflow/pactflow-agent-skills --scope project
 
 This installs three skill files into `.codex/skills/`:
 
-- **Drift** — OpenAPI conformance testing and test case authoring
-- **OpenAPI Parser** — Handles complex schema constructs (anyOf/oneOf/allOf, discriminators, polymorphic $ref chains)
-- **PactFlow** — Full lifecycle management: test generation, contract publishing, provider verification, deployment tracking
+- **Drift**, for OpenAPI conformance testing and test case authoring (PactFlow Cloud only)
+- **OpenAPI Parser**, which handles complex schema constructs such as anyOf/oneOf/allOf, discriminators, and polymorphic $ref chains
+- **PactFlow**, covering full lifecycle management: test generation, contract publishing, provider verification, and deployment tracking
 
-## Encoding Standards in AGENTS.md
+The OpenAPI Parser and the core PactFlow lifecycle skill work with both OSS and Cloud brokers. The Drift skill requires PactFlow Cloud.
+
+## Encoding standards in AGENTS.md
 
 Define your contract testing conventions in `AGENTS.md` so the agent follows team practices consistently:
 
@@ -123,12 +140,12 @@ Define your contract testing conventions in `AGENTS.md` so the agent follows tea
 - Consumer tests live in `src/__tests__/contracts/`
 - Use `like()` matchers for response body fields; never assert exact values
 - Provider states follow the naming convention: `{entity} with id {id} exists`
-- All pacts publish to PactFlow with the git branch as the consumer version tag
+- All pacts publish to the broker with the git branch as the consumer version tag
 - Run `can-i-deploy` before any deployment to staging or production
 - Record deployments with `contract-testing_record_deployment` after successful rollout
 ```
 
-## Interactive Consumer Test Generation
+## Interactive consumer test generation
 
 Within a TUI session, the agent can generate consumer tests by combining MCP tool access with its code generation capabilities:
 
@@ -139,12 +156,14 @@ Within a TUI session, the agent can generate consumer tests by combining MCP too
 
 The agent will:
 
-1. Call `contract-testing_fetch_provider_states` to retrieve existing states from PactFlow, preventing duplication[^7]
+1. Call `contract-testing_fetch_provider_states` to retrieve existing states from the broker, preventing duplication[^7]
 2. Generate a complete consumer test with appropriate matchers (`like()`, `eachLike()`, `term()`)
 3. Include the provider state setup matching existing conventions
 4. Write the test file to the configured contracts directory
 
-### Example Generated Output
+If you are on PactFlow Cloud, the agent can also call `contract-testing_generate_pact_test` for AI-assisted generation directly from the broker. On the OSS broker, the agent generates the test using its own code generation capabilities with context from the MCP-fetched provider states.
+
+### Example generated output
 
 ```typescript
 import { pactWith } from "jest-pact";
@@ -183,7 +202,7 @@ pactWith(
 );
 ```
 
-## Batch Test Generation with codex exec
+## Batch test generation with codex exec
 
 For teams adopting contract testing across an existing codebase, `codex exec` enables non-interactive batch generation[^8]:
 
@@ -191,9 +210,9 @@ For teams adopting contract testing across an existing codebase, `codex exec` en
 codex exec \
   "Audit all API client calls in src/clients/ that lack Pact consumer tests. \
    For each missing contract, generate a consumer test following the patterns \
-   in src/__tests__/contracts/. Use existing provider states from PactFlow." \
-  --model gpt-5.5 \
-  --approval-mode full-auto
+   in src/__tests__/contracts/. Use existing provider states from the broker." \
+  --model gpt-5.6-sol \
+  --sandbox workspace-write
 ```
 
 For structured reporting, combine with `--output-schema`:
@@ -236,12 +255,12 @@ codex exec \
   "Generate missing contract tests for all API clients" \
   --output-schema ./contract-audit-schema.json \
   -o ./contract-audit-results.json \
-  --model gpt-5.5
+  --model gpt-5.6-sol
 ```
 
-⚠️ Note: `--output-schema` and MCP tools may conflict when active simultaneously in certain CLI versions — the final structured generation turn may need tools stripped. Check issue #15451 for current status[^9].
+Note: `--output-schema` and MCP tools may conflict when active simultaneously in certain CLI versions, as the final structured generation turn may need tools stripped. Check issue #15451 for current status[^9].
 
-## Provider Verification Workflow
+## Provider verification workflow
 
 Provider verification confirms that the provider API fulfils the contracts written by consumers. Codex can generate the verification configuration:
 
@@ -276,7 +295,7 @@ new Verifier({
 }).verifyProvider();
 ```
 
-## CI/CD Pipeline Integration
+## CI/CD pipeline integration
 
 ```mermaid
 flowchart TD
@@ -292,7 +311,7 @@ flowchart TD
     I --> K[Record Deployment]
 ```
 
-### GitHub Actions Workflow
+### GitHub Actions workflow
 
 {% raw %}
 ```yaml
@@ -342,8 +361,8 @@ jobs:
             "Check all API clients have corresponding Pact tests. Report gaps." \
             --output-schema ./schemas/contract-audit.json \
             -o ./reports/contract-gaps.json \
-            --model o4-mini \
-            --approval-mode read-only
+            --model gpt-5.6-luna \
+            --sandbox read-only
       - uses: actions/upload-artifact@v4
         with:
           name: contract-audit
@@ -351,18 +370,18 @@ jobs:
 ```
 {% endraw %}
 
-## Model Selection
+## Model selection
 
-| Task | Recommended Model | Rationale |
+| Task | Recommended model | Rationale |
 |------|------------------|-----------|
-| Consumer test generation | gpt-5.5 | Strongest code accuracy for matcher patterns[^10] |
-| Contract coverage audit | o4-mini | Sufficient for file scanning; lower cost |
-| Provider verification setup | gpt-5.5 | Requires understanding of authentication flows |
-| can-i-deploy diagnostics | o4-mini | Structured output; simple analysis |
+| Consumer test generation | gpt-5.6-sol | Strongest code accuracy for matcher patterns[^10] |
+| Contract coverage audit | gpt-5.6-luna | Sufficient for file scanning at lower cost |
+| Provider verification setup | gpt-5.6-sol | Requires understanding of authentication flows |
+| can-i-deploy diagnostics | gpt-5.6-luna | Structured output with straightforward analysis |
 
-## Test Review with MCP
+## Test review with MCP
 
-The `contract-testing_review_pact_test` tool provides AI-powered review of existing tests against Pact best practices[^3]. In the TUI:
+The `contract-testing_review_pact_test` tool provides AI-powered review of existing tests against Pact best practices[^3]. This feature requires PactFlow Cloud. In the TUI:
 
 ```
 > Review all Pact tests in src/__tests__/contracts/ for best-practice violations
@@ -375,40 +394,52 @@ The agent calls the MCP review tool and returns severity-ranked findings with li
 - Provider states that duplicate existing broker entries
 - Overly broad regex matchers that would pass invalid data
 
-## Anti-Patterns
+For OSS broker users, the agent can still review tests manually by reading the test files and applying Pact best practices from the installed Agent Skills, though without the broker-side AI analysis that PactFlow Cloud provides.
 
-1. **Generating without validating** — Always run the generated consumer tests before publishing. The agent may produce syntactically correct but logically flawed interactions.
+## Anti-patterns
 
-2. **Skipping provider states** — Tests without proper provider states create brittle verification. Always fetch existing states from the broker first.
+1. **Generating without validating.** Always run the generated consumer tests before publishing. The agent may produce syntactically correct but logically flawed interactions.
 
-3. **Over-matching with exact values** — Pact tests should verify structure, not specific data. Use `like()` matchers for response bodies.
+2. **Skipping provider states.** Tests without proper provider states create brittle verification. Always fetch existing states from the broker first.
 
-4. **Trusting can-i-deploy without understanding the matrix** — A green `can-i-deploy` only confirms compatibility with deployed versions. It does not guarantee the provider handles edge cases correctly.
+3. **Over-matching with exact values.** Pact tests should verify structure, not specific data. Use `like()` matchers for response bodies.
 
-5. **Recording deployments prematurely** — Only record after a successful health check in the target environment. The agent should never auto-record deployments without explicit approval.
+4. **Trusting can-i-deploy without understanding the matrix.** A green `can-i-deploy` only confirms compatibility with deployed versions. It does not guarantee the provider handles edge cases correctly.
 
-## Known Limitations
+5. **Recording deployments prematurely.** Only record after a successful health check in the target environment. The agent should never auto-record deployments without explicit approval.
 
-- **Sandbox network isolation**: The SmartBear MCP server requires outbound HTTPS access to `*.pactflow.io`. Ensure your Codex sandbox configuration allows this[^5].
-- **`--output-schema` and MCP conflict**: Structured output generation may produce malformed JSON when MCP tools remain active during the final response turn[^9].
-- **Provider verification requires a running service**: Codex cannot verify providers without network access to a running instance — use `codex exec` outside the sandbox for verification tasks.
+## Known limitations
+
+- **Sandbox network isolation**: the SmartBear MCP server requires outbound HTTPS access to your broker, whether `*.pactflow.io` or your self-hosted URL. Ensure your Codex sandbox configuration allows this[^5].
+- **`--output-schema` and MCP conflict**: structured output generation may produce malformed JSON when MCP tools remain active during the final response turn[^9].
+- **Provider verification requires a running service**: Codex cannot verify providers without network access to a running instance. Use `codex exec` outside the sandbox for verification tasks.
 - **Message contracts**: Kafka/SQS message contract generation requires domain knowledge beyond what the MCP tools expose; the agent relies on AGENTS.md conventions for these.
+- **OSS broker limitations**: AI test generation, AI test review, BDCT, drift detection, team metrics, and administration tools are unavailable on the open-source Pact Broker. The agent falls back to its own code generation capabilities for test authoring.
 
 ## Conclusion
 
-The PactFlow MCP integration transforms Codex CLI from a code generation tool into a contract testing workflow engine. By combining the SmartBear MCP server's direct broker access with `codex exec` batch generation and AGENTS.md-encoded team standards, teams can achieve comprehensive contract coverage across microservice boundaries without manual test authoring overhead. The key is encoding your team's conventions clearly and letting the agent fetch existing state from PactFlow rather than generating contracts in isolation.
-
----
+The PactFlow MCP integration turns Codex CLI into a contract testing workflow engine. By combining the SmartBear MCP server's broker access with `codex exec` batch generation and AGENTS.md-encoded team standards, teams can achieve comprehensive contract coverage across microservice boundaries without manual test authoring overhead. The integration works with both PactFlow Cloud and the open-source Pact Broker, with core lifecycle operations, including publishing, verification, `can-i-deploy`, and deployment recording, fully supported on the OSS tier. AI-powered test generation and review remain PactFlow Cloud features. The key is encoding your team's conventions clearly and letting the agent fetch existing state from the broker rather than generating contracts in isolation.
 
 ## Citations
 
-[^1]: Pact Foundation, "Introduction to Pact," https://docs.pact.io/ — accessed 2026-05-17
-[^2]: PactFlow, "Introducing the PactFlow MCP Server: AI-Powered Contract Testing, Now in Your IDE," https://pactflow.io/blog/pactflow-mcp-server/ — accessed 2026-05-17
-[^3]: SmartBear, "Contract Testing with PactFlow | SmartBear MCP Server," https://developer.smartbear.com/smartbear-mcp/docs/contract-testing-with-pactflow — accessed 2026-05-17
-[^4]: SmartBear, "smartbear-mcp GitHub repository," https://github.com/SmartBear/smartbear-mcp — accessed 2026-05-17
-[^5]: OpenAI, "Model Context Protocol – Codex CLI," https://developers.openai.com/codex/mcp — accessed 2026-05-17
-[^6]: Pact Foundation, "PactFlow Agent Skills — Installation," https://docs.pact.io/ai_tools/installation — accessed 2026-05-17
-[^7]: Pact Foundation, "PactFlow AI Assistant Skill," https://docs.pact.io/ai_tools/pactflow-skill — accessed 2026-05-17
-[^8]: OpenAI, "Non-interactive mode – Codex CLI," https://developers.openai.com/codex/noninteractive — accessed 2026-05-17
-[^9]: GitHub Issue #15451, "[Bug] --json and --output-schema are silently ignored when tools/MCP servers are active," https://github.com/openai/codex/issues/15451 — accessed 2026-05-17
-[^10]: OpenAI, "Best practices – Codex CLI," https://developers.openai.com/codex/learn/best-practices — accessed 2026-05-17
+[^1]: Pact Foundation, 'Introduction to Pact,' https://docs.pact.io/ — accessed 2026-05-17
+
+[^2]: PactFlow, 'Introducing the PactFlow MCP Server: AI-Powered Contract Testing, Now in Your IDE,' https://pactflow.io/blog/pactflow-mcp-server/ — accessed 2026-05-17
+
+[^3]: SmartBear, 'Contract Testing with PactFlow | SmartBear MCP Server,' https://docs.pact.io/ai_tools/smartbear-mcp — accessed 2026-05-17
+
+[^4]: SmartBear, 'smartbear-mcp GitHub repository,' https://github.com/SmartBear/smartbear-mcp — accessed 2026-05-17
+
+[^5]: OpenAI, 'Model Context Protocol,' https://learn.chatgpt.com/docs/mcp — accessed 2026-05-17
+
+[^6]: Pact Foundation, 'PactFlow Agent Skills: Installation,' https://docs.pact.io/ai_tools/installation — accessed 2026-05-17
+
+[^7]: Pact Foundation, 'PactFlow AI Assistant Skill,' https://docs.pact.io/ai_tools/pactflow-skill — accessed 2026-05-17
+
+[^8]: OpenAI, 'Non-interactive mode,' https://learn.chatgpt.com/docs/noninteractive — accessed 2026-05-17
+
+[^9]: GitHub Issue #15451, '[Bug] --json and --output-schema are silently ignored when tools/MCP servers are active,' https://github.com/openai/codex/issues/15451 — accessed 2026-05-17
+
+[^10]: OpenAI, 'Best practices,' https://learn.chatgpt.com/docs/best-practices — accessed 2026-05-17
+
+[^11]: PactFlow, 'PactFlow vs OSS Self-Hosted Pact Broker,' https://pactflow.io/oss/ — accessed 2026-08-14

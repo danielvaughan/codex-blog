@@ -10,15 +10,13 @@ tags: ["codex-cli", "testing", "test-maintenance", "flaky-tests", "snapshots", "
 # Codex CLI for Automated Test Maintenance: Fixing Broken Tests, Updating Snapshots, and Eliminating Flaky Tests
 
 
----
+Test suites decay. A team that starts with 200 tests and 10 per cent maintenance overhead reaches 1,000 tests and 50 per cent maintenance overhead, a ceiling where keeping tests green costs more than the safety they provide[^1]. QA engineers report spending 20 to 30 per cent of their working week triaging failures that have nothing to do with production bugs[^2]. Flaky tests drive a disproportionate share of that waste[^3], and at scale a team deploying eight times per month with twelve tests breaking per deploy burns roughly $67,200 annually on maintenance alone[^2].
 
-Test suites decay. A team that starts with 200 tests and 10% maintenance overhead reaches 1,000 tests and 50% maintenance overhead — a ceiling where keeping tests green costs more than the safety they provide[^1]. QA engineers report spending 20–30% of their working week triaging failures that have nothing to do with production bugs[^2]. Flaky tests account for up to 30% of all test failures[^3], and at scale, a team deploying eight times per month with twelve tests breaking per deploy burns roughly \$67,200 annually on maintenance alone[^2].
+Codex CLI turns test maintenance from a manual grind into an agent-driven workflow. This article covers three patterns: automated test repair in CI, intelligent snapshot management, and flaky test detection with quarantine, all using Codex CLI's current tooling.
 
-Codex CLI transforms test maintenance from a manual grind into an agent-driven workflow. This article covers three patterns: automated test repair in CI, intelligent snapshot management, and flaky test detection with quarantine — all using Codex CLI v0.135's current tooling.
+## The test maintenance problem
 
-## The Test Maintenance Problem
-
-Test maintenance is not test writing. Writing new tests is creative work. Maintenance is reactive drudgery: a renamed API field breaks 40 assertions; a CSS refactor invalidates 15 snapshots; a timing-dependent test passes locally but fails in CI. The fix is usually trivial but finding it requires context-switching from feature work.
+Test maintenance is not test writing. Writing new tests is creative work. Maintenance is reactive drudgery: a renamed API field breaks 40 assertions; a CSS refactor invalidates 15 snapshots; a timing-dependent test passes locally but fails in CI. The fix is usually trivial, but finding it requires context-switching from feature work.
 
 ```mermaid
 flowchart TD
@@ -34,9 +32,9 @@ flowchart TD
     H --> I
 ```
 
-Codex CLI handles all three branches. The key insight: AGENTS.md constraints ensure the agent fixes the *test*, not the *implementation*, unless explicitly instructed otherwise.
+Codex CLI handles all three branches. The key insight: AGENTS.md constraints ensure the agent fixes the *test*, not the *implementation*, unless you explicitly instruct otherwise.
 
-## Pattern 1: Automated Test Repair in CI
+## Pattern 1: automated test repair in CI
 
 The OpenAI Cookbook documents a GitHub Actions workflow that triggers Codex when CI fails, generates a minimal fix, and opens a pull request[^4]. Here is a production-hardened version:
 
@@ -90,9 +88,9 @@ jobs:
 ```
 {% endraw %}
 
-The critical constraint is the instruction: *never fix production code*. Without this, agents will happily "fix" a failing test by changing the function under test[^5].
+The critical constraint is the instruction: *never fix production code*. Without this, agents will happily 'fix' a failing test by changing the function under test[^5].
 
-### AGENTS.md for Test Repair
+### AGENTS.md for test repair
 
 Encode test maintenance boundaries permanently in your repository:
 
@@ -117,11 +115,11 @@ Encode test maintenance boundaries permanently in your repository:
 - All test fixes must preserve the original test's intent
 ```
 
-AGENTS.md guidance alone achieves roughly 25–40% compliance from agents; the same rules enforced as runtime hooks hit closer to 95%[^6].
+AGENTS.md guidance alone achieves roughly 25 to 40 per cent compliance from agents; the same rules enforced as runtime hooks hit closer to 95 per cent[^6].
 
-## Pattern 2: Intelligent Snapshot Management
+## Pattern 2: intelligent snapshot management
 
-Snapshot tests are the highest-maintenance category. A single component refactor can invalidate dozens of `.snap` files. The naive approach — running `jest --updateSnapshot` — accepts *all* changes blindly. Codex CLI enables a selective approach:
+Snapshot tests are the highest-maintenance category. A single component refactor can invalidate dozens of `.snap` files. The naive approach, running `jest --updateSnapshot`, accepts *all* changes blindly. Codex CLI enables a selective approach:
 
 ```bash
 codex exec "Run 'npx vitest run' and identify snapshot failures. \
@@ -159,9 +157,9 @@ The `--output-schema` flag produces machine-readable JSON for downstream tooling
 }
 ```
 
-### PostToolUse Hook for Snapshot Validation
+### PostToolUse hook for snapshot validation
 
-Prevent blind snapshot acceptance with a hook that verifies each update:
+You can prevent blind snapshot acceptance with a hook that surfaces each update:
 
 ```toml
 # config.toml
@@ -178,11 +176,11 @@ fi
 
 This surfaces snapshot changes during the agent's execution, making unintended updates visible in the session log.
 
-## Pattern 3: Flaky Test Detection and Quarantine
+## Pattern 3: flaky test detection and quarantine
 
-Flaky tests — those that pass or fail non-deterministically — are the most insidious maintenance burden. The 2026 consensus is clear: quarantine, do not retry[^8]. Retries discard signal; quarantine preserves it.
+Flaky tests, those that pass or fail non-deterministically, are the most insidious maintenance burden. The 2026 consensus is clear: quarantine, do not retry[^8]. Retries discard signal; quarantine preserves it.
 
-### Detection with Codex Exec
+### Detection with codex exec
 
 Run a flakiness scan as a scheduled automation:
 
@@ -193,14 +191,14 @@ codex exec "Analyse the test suite for flakiness indicators: \
 3. Find tests with race conditions (async operations without proper awaits). \
 4. Check git history for tests that have been retried or skipped in the last 30 days. \
 Report each finding with file, line, and recommended fix." \
-  --model gpt-5.4-mini \
+  --model gpt-5.6-luna \
   -o /tmp/flaky-report.json \
   --output-schema ./schemas/flaky-report.json
 ```
 
-Using `gpt-5.4-mini` keeps costs low for this analytical task — no code generation required[^9].
+Using `gpt-5.6-luna` keeps costs low for this analytical task, where no code generation is required[^9].
 
-### Quarantine Workflow
+### Quarantine workflow
 
 Once detected, quarantine flaky tests without losing visibility:
 
@@ -237,7 +235,7 @@ export default defineConfig({
 });
 ```
 
-### Automated Quarantine with a PreToolUse Hook
+### PreToolUse hook to block retry masking
 
 Block agents from retrying flaky tests instead of fixing them:
 
@@ -255,7 +253,25 @@ fi
 
 Exit code 2 blocks the tool call and feeds the reason back to the model[^10].
 
-## Combining Patterns: The Test Health Automation
+## Complementary tooling: self-healing tests with Shiplight
+
+The patterns above fix tests *after* they break. Shiplight[^13] takes a different approach: preventing breakage in the first place through self-healing test automation.
+
+Shiplight is an agent-native testing platform that integrates with Codex CLI through MCP. Its intent-cache-heal pattern stores the semantic purpose of each test step as natural language intent rather than a brittle CSS selector. When a UI refactor breaks a locator, the AI re-resolves the correct element from the live DOM using that intent, updates the locator cache, and the test continues without human intervention.
+
+The integration works through a standard MCP server configuration:
+
+```toml
+[mcp_servers.shiplight]
+command = "npx"
+args = ["-y", "@shiplight/mcp@latest"]
+```
+
+Once connected, Codex can generate intent-based YAML tests that live in your repository and run in CI through Playwright. When the agent makes a code change, it opens a real browser, walks the flow it changed, and the successful verification is written as a YAML test file. If the UI later changes, the self-healing layer resolves the new element without failing the test.
+
+This complements the reactive patterns in this article. Codex CLI's test repair and quarantine workflows handle failures after they occur. Shiplight reduces the volume of failures that reach the repair stage by eliminating the most common cause: locator brittleness after UI changes[^14].
+
+## Combining patterns: the test health automation
 
 Wire all three patterns into a weekly scheduled automation:
 
@@ -276,47 +292,51 @@ For flaky: add a @flaky tag and move to quarantine config. \
 For upstream-drift: update mocks to match current API contracts. \
 Never modify production source files. \
 Commit each category as a separate commit with conventional commit messages." \
-  --config sandbox_mode="workspace-write"
+  --sandbox workspace-write
 
 # 3. Push results
 git push origin HEAD
 ```
 
-## Cost Considerations
+## Cost considerations
 
-Test maintenance tasks are typically low-reasoning-effort work — pattern matching against error messages and updating string literals. Route these to `gpt-5.4-mini` with `model_reasoning_effort = "low"` to minimise spend[^9]. Reserve `gpt-5.5` for complex flakiness root-cause analysis where the agent must reason about concurrency or timing.
+Test maintenance tasks are typically low-reasoning-effort work, pattern matching against error messages and updating string literals. Route these to `gpt-5.6-luna` with `model_reasoning_effort = "low"` to minimise spend[^9]. Reserve `gpt-5.6-terra` or `gpt-5.6-sol` for complex flakiness root-cause analysis where the agent must reason about concurrency or timing.
 
-A typical maintenance run fixing 5–10 broken assertions consumes 8,000–15,000 tokens (including test file context), costing approximately \$0.02–0.05 at current rates[^11].
+A typical maintenance run fixing five to ten broken assertions consumes 8,000 to 15,000 tokens, including test file context, costing approximately $0.02 to $0.05 at current rates[^11].
 
-## Limitations and Safety
+## Limitations and safety
 
-- **False confidence**: An agent updating a test assertion may mask a genuine regression. Always review auto-generated PRs before merging.
-- **Context ceiling**: Large test files (>500 lines) approach compaction territory. Split monolithic test files for better agent performance.
-- **Snapshot semantics**: Codex cannot evaluate visual correctness of rendered component snapshots — it reasons about structure, not pixels. Use visual regression tools (Percy, Chromatic) for visual assertions[^12].
-- **Shared state**: Agents struggle with test isolation bugs caused by global singletons or database state leakage between tests.
+- **False confidence**: an agent updating a test assertion may mask a genuine regression. Always review auto-generated PRs before merging.
+- **Context ceiling**: large test files exceeding 500 lines approach compaction territory. Split monolithic test files for better agent performance.
+- **Snapshot semantics**: Codex cannot evaluate visual correctness of rendered component snapshots. It reasons about structure, not pixels. Use visual regression tools such as Percy, Chromatic, or Shiplight for visual assertions[^12].
+- **Shared state**: agents struggle with test isolation bugs caused by global singletons or database state leakage between tests.
 
 ## Citations
 
-[^1]: Ali El-Shayeb, "The hidden test automation maintenance cost consuming 50% of QA time," *QA meets AI (Medium)*, May 2026. https://medium.com/qa-flow/the-hidden-test-automation-maintenance-cost-consuming-50-of-qa-time-a8a462cd9084
+[^1]: Ali El-Shayeb, 'The hidden test automation maintenance cost consuming 50 per cent of QA time,' *QA meets AI (Medium)*, May 2026. https://medium.com/qa-flow/the-hidden-test-automation-maintenance-cost-consuming-50-of-qa-time-a8a462cd9084
 
-[^2]: Diffie, "The True Cost of Test Maintenance (And How to Cut It)," 2026. https://diffie.ai/blog/true-cost-of-test-maintenance
+[^2]: Diffie, 'The True Cost of Test Maintenance (And How to Cut It),' 2026. https://diffie.ai/blog/true-cost-of-test-maintenance
 
-[^3]: ACCELQ, "Flaky Tests in 2026 – How to Identify, Fix, and Prevent Them," 2026. https://www.accelq.com/blog/flaky-tests/
+[^3]: ACCELQ, 'Flaky Tests in 2026: How to Identify, Fix, and Prevent Them,' 2026. https://www.accelq.com/blog/flaky-tests/
 
-[^4]: OpenAI, "Use Codex CLI to automatically fix CI failures," *OpenAI Cookbook*, 2026. https://developers.openai.com/cookbook/examples/codex/autofix-github-actions
+[^4]: OpenAI, 'Use Codex CLI to automatically fix CI failures,' *OpenAI Cookbook*, 2026. https://developers.openai.com/cookbook/examples/codex/autofix-github-actions
 
-[^5]: Claude Skills Hub, "Auto Fix Tests Skill," 2026. https://claudeskills.info/skill/fix-tests/ — Documents the pattern of fixing tests without modifying business logic.
+[^5]: Claude Skills Hub, 'Auto Fix Tests Skill,' 2026. https://claudeskills.info/skill/fix-tests/
 
-[^6]: OpenAI, "Custom instructions with AGENTS.md," *Codex Developers*, 2026. https://developers.openai.com/codex/guides/agents-md
+[^6]: OpenAI, 'Custom instructions with AGENTS.md,' *Codex Developers*, 2026. https://learn.chatgpt.com/docs/agents-md
 
-[^7]: OpenAI, "Non-interactive mode," *Codex Developers*, 2026. https://developers.openai.com/codex/noninteractive — Documents `--output-schema` for structured JSON output.
+[^7]: OpenAI, 'Non-interactive mode,' *Codex Developers*, 2026. https://learn.chatgpt.com/docs/noninteractive
 
-[^8]: Trunk.io, "How to avoid and detect flaky tests in Vitest," 2026. https://trunk.io/blog/how-to-avoid-and-detect-flaky-tests-in-vitest
+[^8]: Trunk.io, 'How to avoid and detect flaky tests in Vitest,' 2026. https://trunk.io/blog/how-to-avoid-and-detect-flaky-tests-in-vitest
 
-[^9]: OpenAI, "Models – Codex," *Codex Developers*, 2026. https://developers.openai.com/codex/models — Model selection guidance: gpt-5.4-mini for lighter tasks.
+[^9]: OpenAI, 'Models,' *Codex Developers*, 2026. https://learn.chatgpt.com/docs/models
 
-[^10]: OpenAI, "Hooks," *Codex Developers*, 2026. https://developers.openai.com/codex/hooks — Exit code 2 blocks tool execution and provides feedback.
+[^10]: OpenAI, 'Hooks,' *Codex Developers*, 2026. https://learn.chatgpt.com/docs/hooks
 
-[^11]: OpenAI, "Pricing – Codex," *Codex Developers*, 2026. https://developers.openai.com/codex/pricing
+[^11]: OpenAI, 'Pricing,' *Codex Developers*, 2026. https://learn.chatgpt.com/docs/pricing
 
-[^12]: BrowserStack, "How to Detect and Avoid Playwright Flaky Tests in 2026," 2026. https://www.browserstack.com/guide/playwright-flaky-tests
+[^12]: BrowserStack, 'How to Detect and Avoid Playwright Flaky Tests in 2026,' 2026. https://www.browserstack.com/guide/playwright-flaky-tests
+
+[^13]: Shiplight, 'Self-Healing and Auto-Healing Test Automation Explained,' 2026. https://www.shiplight.ai/blog/what-is-self-healing-test-automation
+
+[^14]: Shiplight, 'Add Automated Testing to Cursor, Copilot and Codex,' 2026. https://www.shiplight.ai/blog/add-testing-to-ai-coding-tools-cursor-copilot-codex
