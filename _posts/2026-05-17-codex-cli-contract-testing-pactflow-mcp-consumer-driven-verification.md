@@ -18,7 +18,7 @@ tags: ["contract-testing", "pactflow", "mcp", "consumer-driven", "pact", "ci-cd"
 
 Consumer-driven contract testing prevents integration failures across microservice boundaries without the overhead of full end-to-end test suites[^1]. The SmartBear MCP Server and PactFlow Agent Skills, released in 2026, bring contract testing directly into AI coding agents, including Codex CLI[^2]. This article covers the complete workflow: configuring the PactFlow MCP server in Codex CLI, generating consumer tests interactively and via `codex exec`, running provider verification, and building CI gates with `can-i-deploy`.
 
-A key point for community users: the SmartBear MCP server works with both PactFlow Cloud *and* the open-source Pact Broker[^3]. Core capabilities such as `can-i-deploy`, contract publishing, verification, environment tracking, and webhook management all work against a self-hosted OSS broker. AI-powered features, including test generation, test review, bi-directional contract testing, team metrics, and audit logs, require a PactFlow Cloud account[^3]. The table below summarises the split.
+A key point for community users: the SmartBear MCP server works with both PactFlow Cloud *and* the open-source Pact Broker[^3][^11]. Core capabilities such as `can-i-deploy`, contract publishing, verification, environment tracking, and webhook management all work against a self-hosted OSS broker. AI-powered features, including test generation, test review, bi-directional contract testing, team metrics, and audit logs, require a PactFlow Cloud account[^3]. The table below summarises the split.
 
 | Capability | OSS Pact Broker | PactFlow Cloud |
 |-----------|:-:|:-:|

@@ -90,7 +90,7 @@ Test commands referenced in AGENTS.md tell Codex what defines "done" for the pro
 Each verification cycle maps to a Codex CLI PostToolUse hook [^3]. A hook that runs after every file write can enforce compile checks, lint passes, or custom verification scripts:
 
 ```toml
-# hooks.json
+# config.toml
 [hooks.post_tool_use]
 command = "bash scripts/verify-spec-compliance.sh"
 exit_code_behavior = "stop_on_failure"

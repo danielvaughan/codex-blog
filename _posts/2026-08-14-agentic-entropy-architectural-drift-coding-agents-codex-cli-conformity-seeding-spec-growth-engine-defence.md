@@ -54,7 +54,7 @@ Testing GPT-5 mini, Haiku 4.5, and Grok Code Fast 1 on realistic multi-step task
 
 The security implication is stark: "environmental signals can override explicit constraints in ways that appear exploitable" [^2]. An attacker who understands which architectural constraints oppose model values can craft repository contents that accelerate entropy in precisely those areas.
 
-## Three Pillars of Process-Oriented Explainability
+## Three Pillars of Process-Oriented Explainability (PoE)
 
 Casserini et al. propose a framework built on three pillars that provide **intent-level telemetry** — visibility into the reasoning process, not just the code output [^1]:
 
