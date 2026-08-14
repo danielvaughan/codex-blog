@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Consent Integrity and the Lies-in-the-Loop Attack — WYSIWYS, GhostApproval, --approve-for-me (2026-08-14 Hourly Article Run)
+
+1. ✅ **Consent Integrity and the Lies-in-the-Loop Attack: Why Your Approval Dialog Is Not a Security Boundary — and What Codex CLI's --approve-for-me Actually Defends** — Written 2026-08-14 → `2026-08-14-consent-integrity-approval-forgery-lies-in-the-loop-codex-cli-approve-for-me-ghostapproval-trusted-path.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Weng arXiv:2606.02668 (June 2026) "What You Approve Is What Executes: Consent Integrity for Black-Box LLM Agents"; Lies-in-the-Loop (LITL) attack taxonomy (summary poisoning, padding/scroll-out, encoding/obfuscation, TOCTOU swaps); WYSIWYS adaptation for agent approval channels; four consent integrity conditions (truthful rendering, faithfulness, trusted path, bind-to-execution); CIM prototype evaluation (GTFOBins 90% flagged/10% silent pass, tldr-pages 95.9% flagged/4.1% silent pass); Wiz GhostApproval disclosure July 2026 (6 agents, CVE-2026-12958, CVE-2026-50549); mapped to Codex CLI v0.147.0 --approve-for-me flag, Guardian auto-review, approval_policy, PreToolUse/PostToolUse hooks, sandbox_mode, project trust prompts; identified gaps: no symlink resolution in approval display, no static danger-fact enumeration, terminal-session trusted-path weakness; 5 citations
+   - SEO targets: "consent integrity coding agent approval dialog", "lies-in-the-loop LITL attack codex cli", "GhostApproval symlink ai coding agent", "codex cli approve-for-me guardian auto-review", "WYSIWYS agent approval security boundary", "codex cli approval_policy consent integrity trusted path"
+
+---
+
 ## Cyber-Capable Models and Evaluation Containment — Auto-Review Defaults, Approval Policy, Astra Disclosure (2026-08-14 Hourly Article Run)
 
 1. ✅ **Cyber-Capable Models and the Evaluation Containment Problem: What Codex CLI's Safer Auto-Review Defaults Actually Defend Against** — Written 2026-08-14 → `2026-08-14-cyber-capable-models-codex-cli-auto-review-evaluation-containment-safer-defaults-approval-policy.md`
