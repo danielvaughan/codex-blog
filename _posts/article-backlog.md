@@ -1,5 +1,13 @@
 # Article Backlog
 
+## IssueTrojanBench Malicious Issue Requests — 66.5% Penetration Rate, Four Attack Categories, Codex CLI Trust Defence (2026-08-14 Hourly Article Run)
+
+1. ✅ **IssueTrojanBench and Malicious Issue Requests: Why 66.5% of Adversarial Payloads Penetrate Your Coding Agent — and How Codex CLI's Trust Boundaries Fight Back** — Written 2026-08-14 → `2026-08-14-issuetrojanbench-malicious-issue-requests-coding-agents-codex-cli-sandbox-trust-defence.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Singh, Yang & Chen arXiv:2607.20759 (July 22, 2026) "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests"; 4,176 adversarial runs across 3 agents (Cursor, Claude Code, Codex Desktop) with GPT-5.3/5.4 and Sonnet 4.6; four attack categories (supply chain poisoning 96.6%, config poisoning 84.7%, persistence hooks 59.8%, resource exhaustion 24.9%); six delivery vectors; 66.5% overall penetration; 0% agent-framework rejections — all defences from model-level refusal; mapped to Codex CLI v0.147.0 project trust boundaries, sandbox_mode, approval_policy, PreToolUse hooks, AGENTS.md behavioural directives; GPT-5.4 retirement and GPT-5.6-terra migration impact; identified gaps: PreToolUse only intercepts shell, no semantic payload analysis, no input trust classification, no cross-turn chain detection; 6 citations
+   - SEO targets: "IssueTrojanBench malicious issue requests coding agent", "codex cli trust boundary sandbox defence malicious issues", "supply chain poisoning coding agent 96 percent", "codex cli PreToolUse hooks malicious issue defence", "agent framework zero rejection IssueTrojanBench", "codex cli AGENTS.md security rules untrusted issues"
+
+---
+
 ## Four-Layer Agentic Vulnerability Taxonomy — 85-Paper Systematic Review, Attack-Defence Imbalance, Defence Stack Mapping (2026-08-14 Hourly Article Run)
 
 1. ✅ **The Four-Layer Agentic Vulnerability Taxonomy: What an 85-Paper Systematic Review Reveals About Your Codex CLI Defence Stack** — Written 2026-08-14 → `2026-08-14-four-layer-agentic-vulnerability-taxonomy-codex-cli-defence-stack-attack-defence-imbalance.md`

@@ -2,7 +2,7 @@
 title: "OpenAI Codex Day Keynote — Enterprise Adoption and Model Roadmap"
 description: "Source: OpenAI Codex Day event (BloomsYard), in-person talk transcript Author: OpenAI Developer Relations (speaker unnamed) Published: 2026-04-16 Content."
 date: 2026-04-16T00:00:00+00:00
-last_modified_at: 2026-08-14T10:58:09+01:00
+last_modified_at: 2026-08-14T12:08:57+01:00
 type: Technical Article
 timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-openai-codex-day-keynote"
