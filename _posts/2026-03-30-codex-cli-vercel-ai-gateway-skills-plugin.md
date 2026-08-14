@@ -2,7 +2,7 @@
 title: "Codex CLI and Vercel: AI Gateway, Skills and the Vercel Plugin Ecosystem"
 description: "Vercel's investment in AI coding agents reached critical mass in March 2026 with two distinct — but complementary — integration surfaces for Codex CLI teams."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-08-14T20:11:32+01:00
+last_modified_at: 2026-08-14T22:09:30+01:00
 tags:
   - ecosystem
   - third-party

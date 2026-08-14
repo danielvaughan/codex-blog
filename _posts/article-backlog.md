@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ToolHazard Adversarial Environment Synthesis — Indirect Prompt Injection, Injection Timing, Alignment Training, Codex CLI Defence Stack (2026-08-14 Hourly Article Run)
+
+1. ✅ **ToolHazard and Adversarial Environment Synthesis: What 87 Stress-Test Tasks Reveal About Indirect Prompt Injection in Tool-Using Agents — and How Codex CLI's Layered Defences Respond** — Written 2026-08-14 → `2026-08-14-toolhazard-adversarial-environment-synthesis-indirect-prompt-injection-codex-cli-pretooluse-sandbox-defence.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Mou et al. arXiv:2608.11878 (August 12, 2026) "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents"; three-module framework (Environment Simulator, Attacker Agent, User Simulator); ToolHazard-Bench 87 tasks across 28 environments with 512 tools, averaging 15.56 steps and 18.75 candidate tools per task; six injection strategies; seven models tested (GPT-5, GPT-4.1, Gemini-3.1-Pro, DeepSeek-V3.2, Qwen3-8B, Qwen3-4B); highest ASR 75.57% (GPT-4.1), GPT-5 59.14%; earlier injection timing and tail-end field placement increase ASR; ToolHazard-Align 1,040 attack instances for SFT+RL alignment training; Qwen3-8B ASR −50% on ToolHazard-Bench and −37% on AgentDojo with preserved benign utility; mapped to Codex CLI v0.147.0 PostToolUse hooks full-field scanning, sandbox_mode blast-radius control, approval_policy tool-selection defence, enabled_tools catalogue restriction, AGENTS.md behavioural directives; identified gaps: no cross-turn injection state tracking, no goal-drift monitoring, no tool-call anomaly detection; 5 citations
+   - SEO targets: "ToolHazard adversarial environment coding agent codex cli", "indirect prompt injection tool return values codex cli", "codex cli PostToolUse hooks injection scanning defence", "ToolHazard-Bench agent hijacking attack success rate", "codex cli sandbox approval_policy injection defence", "adversarial alignment training coding agent ToolHazard-Align"
+
+---
+
 ## Vero Benchmark — Formally Verified Software Repositories, Proof Synthesis, PostToolUse Verification Hooks (2026-08-14 Hourly Article Run)
 
 1. ✅ **Vero and the Verified Software Gap: What a 43-Instance Benchmark Reveals About Coding Agents and Formal Proof — and How Codex CLI's Verification Hooks Close the Distance** — Written 2026-08-14 → `2026-08-14-vero-benchmark-formally-verified-software-repositories-coding-agents-codex-cli-proof-synthesis-posttooluse-verification.md`
