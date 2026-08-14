@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Four-Layer Agentic Vulnerability Taxonomy — 85-Paper Systematic Review, Attack-Defence Imbalance, Defence Stack Mapping (2026-08-14 Hourly Article Run)
+
+1. ✅ **The Four-Layer Agentic Vulnerability Taxonomy: What an 85-Paper Systematic Review Reveals About Your Codex CLI Defence Stack** — Written 2026-08-14 → `2026-08-14-four-layer-agentic-vulnerability-taxonomy-codex-cli-defence-stack-attack-defence-imbalance.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Hossain, Hossain & Ansari arXiv:2608.10530 (August 11, 2026) "On Understanding, Identifying, and Mitigating Vulnerabilities in Agentic Large Language Models"; PRISMA 2020-compliant systematic review of 85 papers (743 screened) across six databases; four-layer taxonomy (perception/brain/action/interaction) covering 13 vulnerability types; 3.9:1 attack-defence research ratio; perception-layer dominance at 66% vs action-layer at 4.7%; mapped to Codex CLI v0.147.0 sandbox_mode, PreToolUse/PostToolUse hooks, auto-review, approval_policy, AGENTS.md trust prompts, MCP 3.0.0, multi-agent delegation; identified gaps: no cross-turn reasoning verification, no runtime behavioural anomaly detection, no MCP message authentication, no graduated privilege boundaries; 5 citations
+   - SEO targets: "agentic LLM vulnerability taxonomy codex cli", "four-layer agent security taxonomy perception brain action interaction", "codex cli defence stack attack defence imbalance 3.9:1", "codex cli sandbox PreToolUse action layer security", "agentic vulnerability systematic review codex cli 2026", "cross-layer vulnerability propagation coding agent defence"
+
+---
+
 ## Consent Integrity and the Lies-in-the-Loop Attack — WYSIWYS, GhostApproval, --approve-for-me (2026-08-14 Hourly Article Run)
 
 1. ✅ **Consent Integrity and the Lies-in-the-Loop Attack: Why Your Approval Dialog Is Not a Security Boundary — and What Codex CLI's --approve-for-me Actually Defends** — Written 2026-08-14 → `2026-08-14-consent-integrity-approval-forgery-lies-in-the-loop-codex-cli-approve-for-me-ghostapproval-trusted-path.md`
