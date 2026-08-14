@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Security Degradation in Iterative LLM Repair — 5,968 Timelines, Regression Detection, PostToolUse Hooks, Iteration Budget (2026-08-14 Hourly Article Run)
+
+1. ✅ **Does Fixing Break Security? What 5,968 Iterative LLM Repair Timelines Reveal About Security Regression — and How Codex CLI's PostToolUse Hooks Defend Your Iteration Loop** — Written 2026-08-14 → `2026-08-14-security-degradation-iterative-llm-repair-iac-codex-cli-posttooluse-regression-detection-iteration-budget.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Agyekum & Santos arXiv:2608.13404 (August 14, 2026) "Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair"; 5,968 scenario timelines from IaC-Eval benchmark; 15 configurations (Gemini 2.0 Flash, Mistral Large Latest) × 4 prompting strategies × 3 temperatures; dual-detection framework (standard 13.8% vs strict 3.3% regression rates); 30 CIS Benchmark checks; resource restructuring drives 68-79% of regressions; iteration-3 optimal stopping point (83.1% pass rate); 36.6% self-correction within 1.2 iterations; 2.6× code churn and 4.9× check volatility as regression predictors; RAG paradox (higher standard but zero strict regressions); mapped to Codex CLI v0.147.0 PostToolUse hooks exit code 2 feedback, additionalContext injection, hooks.json security scanner integration, --approve-for-me Guardian auto-review, AGENTS.md minimal-patch directives, token budget iteration control; 5 citations
+   - SEO targets: "security degradation iterative LLM repair codex cli", "codex cli PostToolUse hooks security regression detection", "iterative repair security regression coding agent", "codex cli iteration budget security regression defence", "IaC-Eval security regression iterative LLM repair 2026", "codex cli hooks.json security scanner regression check"
+
+---
+
 ## Skill Harnessing Architectural Patterns — Ten-Pattern Reference Architecture, Agent Plugins 1.0, Supply Chain Mediation Execution (2026-08-14 Hourly Article Run)
 
 1. ✅ **Skill Harnessing Patterns: What a Ten-Pattern Reference Architecture Reveals About Your Codex CLI Agent Plugins Strategy** — Written 2026-08-14 → `2026-08-14-skill-harnessing-architectural-patterns-codex-cli-agent-plugins-reference-architecture-supply-chain-mediation-execution.md`
