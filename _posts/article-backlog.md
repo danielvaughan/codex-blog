@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Vero Benchmark — Formally Verified Software Repositories, Proof Synthesis, PostToolUse Verification Hooks (2026-08-14 Hourly Article Run)
+
+1. ✅ **Vero and the Verified Software Gap: What a 43-Instance Benchmark Reveals About Coding Agents and Formal Proof — and How Codex CLI's Verification Hooks Close the Distance** — Written 2026-08-14 → `2026-08-14-vero-benchmark-formally-verified-software-repositories-coding-agents-codex-cli-proof-synthesis-posttooluse-verification.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Ye et al. arXiv:2608.13522 (August 13, 2026) "Vero: Can AI Agents Build Formally Verified Software Repositories?"; 43 multi-module instances across Python, Dafny, Verus, Coq; strongest agent solved 27/43 (62.8%); 0% on hardest cryptographic/distributed-systems instances; three failure modes (proof fragmentation, specification drift, tactic hallucination); vericoding success rates Dafny 82%, Verus 44%, Lean 27%; Aria contrast (4,257 Iris lemmas); mapped to Codex CLI v0.147.0 PostToolUse hooks exit code 2 proof-checker feedback, hooks.json verifier integration, sandbox_mode write_deny specification protection, AGENTS.md verification directives, four-level verification spectrum; 5 citations
+   - SEO targets: "vero benchmark formally verified coding agent", "codex cli PostToolUse hooks formal verification proof checker", "vericoding coding agent dafny verus coq 2026", "codex cli hooks.json proof verification integration", "specification drift coding agent formal proof", "codex cli sandbox verification hooks proof synthesis"
+
+---
+
 ## DARC Selective Self-Correction — Failure Taxonomy, PostToolUse Diagnostic Hooks, Recovery Budget (2026-08-14 Hourly Article Run)
 
 1. ✅ **Diagnosis Before Recovery: What DARC's Selective Self-Correction Means for Your Codex CLI Error-Handling Strategy** — Written 2026-08-14 → `2026-08-14-diagnosis-before-recovery-darc-selective-self-correction-codex-cli-posttooluse-hooks-failure-taxonomy-recovery-budget.md`
