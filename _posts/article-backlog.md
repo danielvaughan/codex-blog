@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Skill Harnessing Architectural Patterns — Ten-Pattern Reference Architecture, Agent Plugins 1.0, Supply Chain Mediation Execution (2026-08-14 Hourly Article Run)
+
+1. ✅ **Skill Harnessing Patterns: What a Ten-Pattern Reference Architecture Reveals About Your Codex CLI Agent Plugins Strategy** — Written 2026-08-14 → `2026-08-14-skill-harnessing-architectural-patterns-codex-cli-agent-plugins-reference-architecture-supply-chain-mediation-execution.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Xia et al. arXiv:2606.20631 (May 29, 2026) "Harnessing Agent Skills: Architectural Patterns and a Reference Architecture for Skill-Mediated LLM Agents"; 209 practitioner-stream + 133 academic-stream skill-practice rows from 37 systems and 51 papers; ten architectural patterns (five core, five supporting) across four responsibility layers (Supply Chain, Mediation, Execution Control, Evidence & Feedback); mapped to Codex CLI v0.147.0 Agent Plugins 1.0, four-scope catalogue federation, plugin-bundled hooks, runtime boundary enforcement, sandbox_mode, approval_policy, PostToolUse hooks, Memories, AGENTS.md; identified gaps: no skill-level SBOM, no cryptographic admission gates, no behavioural contracts in plugin.json, no co-evolution governance; 6 citations
+   - SEO targets: "skill harnessing patterns codex cli agent plugins", "codex cli agent plugins 1.0 reference architecture patterns", "skill-mediated LLM agent architectural patterns codex cli", "codex cli plugin scope cascade authority separation", "agent plugins runtime skill bill of materials SBOM", "codex cli PostToolUse hooks skill contract verification"
+
+---
+
 ## IssueTrojanBench Malicious Issue Requests — 66.5% Penetration Rate, Four Attack Categories, Codex CLI Trust Defence (2026-08-14 Hourly Article Run)
 
 1. ✅ **IssueTrojanBench and Malicious Issue Requests: Why 66.5% of Adversarial Payloads Penetrate Your Coding Agent — and How Codex CLI's Trust Boundaries Fight Back** — Written 2026-08-14 → `2026-08-14-issuetrojanbench-malicious-issue-requests-coding-agents-codex-cli-sandbox-trust-defence.md`
