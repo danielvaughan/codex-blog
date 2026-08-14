@@ -2,7 +2,7 @@
 title: "Inside the Codex Windows Sandbox: Restricted Tokens, Synthetic SIDs, and the Four-Layer Execution Architecture"
 description: "On 13 May 2026 OpenAI published an engineering deep-dive titled Building a safe, effective sandbox to enable Codex on Windows ."
 parent: "Articles"
-nav_order: 705
+nav_order: 396
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-windows-sandbox-engineering-restricted-tokens-acls-elevated-architecture"

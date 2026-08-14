@@ -2,7 +2,7 @@
 title: "Codex CLI Enterprise Observability: Choosing and Configuring Grafana Cloud, SigNoz, Dynatrace, and Opik"
 description: "Codex CLI has shipped opt-in OpenTelemetry export since v0.107.0, but the documentation stops at heres how to configure an OTLP endpoint ."
 parent: "Articles"
-nav_order: 537
+nav_order: 286
 type: Technical Article
 timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-enterprise-observability-platforms-grafana-signoz-dynatrace-opik"

@@ -2,7 +2,7 @@
 title: "MCP Tool Namespace Unification: Fixing the Silent Tool-Not-Found Bug"
 description: "If you ran a multi-server MCP configuration in Codex CLI prior to v0.121.0, you may have encountered a particularly frustrating class of bug: the model."
 parent: "Articles"
-nav_order: 290
+nav_order: 41
 type: Technical Article
 timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-mcp-tool-namespace-unification"

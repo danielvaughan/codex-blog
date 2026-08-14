@@ -2,7 +2,7 @@
 title: "Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Type-Safe Agent Patterns"
 description: "GraphQL APIs occupy an unusual position in the coding agent landscape. The typed schema, introspection capabilities, and operation-level granularity that."
 parent: "Articles"
-nav_order: 432
+nav_order: 181
 type: Technical Article
 timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-graphql-development-apollo-mcp-schema-first-workflows"

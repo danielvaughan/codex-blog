@@ -2,7 +2,7 @@
 title: "Agent-Aware Terminals for Codex CLI: Choosing the Right Terminal Emulator in the AI Coding Era"
 description: "Codex CLI runs in a terminal. That much is obvious. What is less obvious — and increasingly consequential."
 parent: "Articles"
-nav_order: 495
+nav_order: 244
 type: Technical Article
 timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-agent-aware-terminals-codex-cli-warp-cmux-ghostty-choosing-terminal-emulator"

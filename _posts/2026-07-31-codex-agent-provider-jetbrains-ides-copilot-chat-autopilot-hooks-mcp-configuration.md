@@ -1,7 +1,7 @@
 ---
 title: "Codex as Agent Provider in JetBrains IDEs: Configuration, Permission Modes, Hooks, and MCP Server Management"
 parent: "Articles"
-nav_order: 1715
+nav_order: 1340
 tags: ["codex-cli", "jetbrains", "intellij", "pycharm", "webstorm", "agent-provider", "copilot", "autopilot", "hooks", "mcp", "configuration"]
 ---
 

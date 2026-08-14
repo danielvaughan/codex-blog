@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI MCP in v0.136: Per-Server Environment Targeting, OAuth Streamable HTTP, and Concurrent Read-Only Tools"
 parent: "Articles"
-nav_order: 971
+nav_order: 621
 type: Technical Article
 timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-mcp-v0136-per-server-env-targeting-oauth-streamable-http-concurrent-tools"

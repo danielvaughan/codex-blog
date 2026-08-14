@@ -1,7 +1,7 @@
 ---
 title: "Migrating from the Assistants API to the Responses API with Codex CLI: An Automated Refactoring Playbook for the August 2026 Shutdown"
 parent: "Articles"
-nav_order: 1053
+nav_order: 703
 type: Technical Article
 timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-assistants-api-to-responses-api-migration-codex-cli-automated-refactoring-august-2026-deadline"

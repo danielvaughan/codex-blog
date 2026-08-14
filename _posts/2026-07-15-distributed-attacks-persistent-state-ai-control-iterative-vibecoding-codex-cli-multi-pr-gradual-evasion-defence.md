@@ -1,7 +1,7 @@
 ---
 title: "Distributed Attacks in Persistent-State AI Control: Why Gradual Code Poisoning Evades Your Review Agent — and How to Harden Codex CLI Against Multi-PR Evasion"
 parent: "Articles"
-nav_order: 1572
+nav_order: 1188
 tags: ["codex-cli", "security", "distributed-attacks", "persistent-state", "ai-control", "gradual-evasion", "guardian-auto-review", "network-proxy", "sandbox", "hooks"]
 ---
 

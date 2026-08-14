@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI and Domain-Specific Languages: Practical Strategies for Teams With Proprietary or Sparse-Training Languages"
 parent: "Articles"
-nav_order: 1153
+nav_order: 798
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-codex-cli-dsl-proprietary-language-strategies-esoteric-language-lessons"

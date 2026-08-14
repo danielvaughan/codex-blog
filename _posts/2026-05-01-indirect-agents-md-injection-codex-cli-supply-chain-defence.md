@@ -2,7 +2,7 @@
 title: "Indirect AGENTS.md Injection: How Malicious Dependencies Hijack Your Codex CLI Agent and How to Stop Them"
 description: "Your AGENTS.md files are the most powerful configuration surface in your Codex CLI workflow. They load before any agent work begins, persist for the entire."
 parent: "Articles"
-nav_order: 510
+nav_order: 259
 type: Technical Article
 timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-indirect-agents-md-injection-codex-cli-supply-chain-defence"

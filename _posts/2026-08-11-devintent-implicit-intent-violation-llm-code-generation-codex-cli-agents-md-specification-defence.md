@@ -1,7 +1,7 @@
 ---
 title: "DevIntent and the Implicit Intent Violation Problem: Why Your Coding Agent Passes Every Test but Builds the Wrong Thing — and How to Defend Against It in Codex CLI"
 parent: "Articles"
-nav_order: 1827
+nav_order: 1474
 tags: ["codex-cli", "developer-intent", "intent-violation", "implicit-requirements", "AGENTS.md", "specification", "acceptance-criteria", "PostToolUse", "testing", "LLM-code-generation"]
 ---
 

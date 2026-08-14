@@ -1,7 +1,7 @@
 ---
 title: "Rethinking Agent-Generated Tests: Why Your Codex CLI Agent Writes Print Statements, Not Assertions, and What to Do About It"
 parent: "Articles"
-nav_order: 1200
+nav_order: 842
 type: Technical Article
 timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-rethinking-agent-generated-tests-observational-feedback-codex-cli-scaffold-testing-strategy"

@@ -2,7 +2,7 @@
 title: "The Node.js-Free Codex CLI: Rust Binary Installer and Enterprise Deployment"
 description: "In May 2025, OpenAI announced the rewrite of Codex CLI from TypeScript to Rust. By early 2026, the Rust implementation became the default experience."
 parent: "Articles"
-nav_order: 304
+nav_order: 54
 type: Technical Article
 timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-nodejs-free-codex-cli-rust-binary-installer-enterprise-deployment"

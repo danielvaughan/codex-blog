@@ -1,7 +1,7 @@
 ---
 title: "The Codex Micro: OpenAI's First Hardware and What a Macro Pad Means for Agentic Coding Workflows"
 parent: "Articles"
-nav_order: 1289
+nav_order: 926
 type: Technical Article
 timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-codex-micro-work-louder-macro-pad-hardware-developer-shortcuts-agentic-coding-workflows"

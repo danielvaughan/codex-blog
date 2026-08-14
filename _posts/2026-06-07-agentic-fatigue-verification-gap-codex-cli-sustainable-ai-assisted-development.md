@@ -1,7 +1,7 @@
 ---
 title: "Agentic Fatigue and the Verification Gap: Sustainable AI-Assisted Development with Codex CLI"
 parent: "Articles"
-nav_order: 1015.5
+nav_order: 667.5
 type: Technical Article
 timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-agentic-fatigue-verification-gap-codex-cli-sustainable-ai-assisted-development"

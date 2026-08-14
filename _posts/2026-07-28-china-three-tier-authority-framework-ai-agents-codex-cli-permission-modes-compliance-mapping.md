@@ -1,7 +1,7 @@
 ---
 title: "China's Three-Tier Authority Framework for AI Agents: How Codex CLI's Permission Architecture Maps to the World's First Agent Regulation"
 parent: "Articles"
-nav_order: 1694
+nav_order: 1314
 tags: ["codex-cli", "regulation", "compliance", "permission-modes", "china", "ai-agents", "enterprise", "governance", "sandbox", "approval-policy"]
 ---
 

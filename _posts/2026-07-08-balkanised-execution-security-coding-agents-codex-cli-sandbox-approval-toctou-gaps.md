@@ -1,7 +1,7 @@
 ---
 title: "Balkanised Execution Security: What 39 Papers Reveal About the Fragmented Defence Landscape for Coding Agents — and Where Codex CLI's Stack Stands"
 parent: "Articles"
-nav_order: 1385
+nav_order: 1011
 tags: ["codex-cli", "security", "sandbox", "TOCTOU", "approval-policy", "MCP", "execution-security", "agent-safety", "Pwn2Own"]
 ---
 

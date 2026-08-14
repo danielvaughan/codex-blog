@@ -2,11 +2,11 @@
 title: "Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent"
 description: "Published: 2026-05-22 Sources: OpenAI Computer Use docs, OpenAI Use Cases, OpenAI Changelog v26.519, TestingCatalog coverage, Knightli enterprise access."
 date: 2026-05-22T00:00:00+00:00
-last_modified_at: 2026-08-14T06:08:46+01:00
+last_modified_at: 2026-08-14T07:06:07+01:00
 tags: [codex-cli, computer-use, cua, remote-desktop, locked-mac, codex-mobile, macos, enterprise, security]
 seo: "codex computer use locked mac, codex CUA remote desktop, codex gui agent macos, codex mobile computer use, codex locked screen agent, codex desktop automation safeguards"
 parent: "Articles"
-nav_order: 937
+nav_order: 587
 type: Technical Article
 timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-computer-use-locked-mac-remote-desktop-agent-cua-mobile-safeguards"

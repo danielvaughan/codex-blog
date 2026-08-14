@@ -1,7 +1,7 @@
 ---
 title: "SkillCorpus and the 821K Skill Audit: What Crawling the Open Skill Ecosystem Reveals About Quality, Curation, and Your Codex CLI Skill Stack"
 parent: "Articles"
-nav_order: 1678
+nav_order: 1292
 type: Technical Article
 timestamp: 2026-07-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-27-skillcorpus-open-skill-ecosystem-quality-curation-codex-cli-skill-management"

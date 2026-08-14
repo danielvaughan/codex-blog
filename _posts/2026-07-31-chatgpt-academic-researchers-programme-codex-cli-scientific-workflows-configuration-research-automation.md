@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT for Academic Researchers: Configuring Codex CLI for Scientific Workflows, MCP Tool Chains, and Reproducible Research Automation"
 parent: "Articles"
-nav_order: 1723
+nav_order: 1351
 type: Technical Article
 timestamp: 2026-07-31T00:00:00+00:00
 tags: ["codex-cli", "scientific-research", "academic", "MCP", "data-analysis", "reproducibility", "AGENTS.md", "config.toml", "GPT-5.6", "life-sciences"]

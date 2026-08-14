@@ -1,7 +1,7 @@
 ---
 title: "Paginated Thread History: How Codex CLI v0.145's SQLite-Backed Session Architecture Transforms Resume, Search, and Memory"
 parent: "Articles"
-nav_order: 1689
+nav_order: 1305
 type: Technical Article
 timestamp: 2026-07-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-26-codex-cli-paginated-thread-history-sqlite-search-resume-persisted-names-memories"

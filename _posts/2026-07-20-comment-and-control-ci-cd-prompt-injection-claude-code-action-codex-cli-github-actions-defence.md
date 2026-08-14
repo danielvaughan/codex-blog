@@ -1,7 +1,7 @@
 ---
 title: "Comment and Control: How a Single GitHub Issue Broke Three AI Agent CI/CD Pipelines — and What Codex CLI's Proxy Architecture Gets Right"
 parent: "Articles"
-nav_order: 1621
+nav_order: 1239
 tags: ["codex-cli", "security", "ci-cd", "prompt-injection", "github-actions", "supply-chain", "claude-code", "codex-action"]
 ---
 

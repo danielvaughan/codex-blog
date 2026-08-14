@@ -1,7 +1,7 @@
 ---
 title: "The Ultra Mode Trade-Off: When Bigger Reasoning Budgets Backfire in Codex CLI"
 parent: "Articles"
-nav_order: 1649
+nav_order: 1266
 type: Technical Article
 timestamp: 2026-07-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-24-codex-cli-ultra-mode-trade-off-reasoning-budgets-subagent-cost-task-routing"

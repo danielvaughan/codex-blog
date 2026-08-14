@@ -2,7 +2,7 @@
 title: "Codex CLI for Architectural Fitness Functions: Dependency Analysis, Circular Detection, and Automated Boundary Enforcement"
 description: "Every team starts with clean module boundaries. Six months later, a service layer imports a controller utility, a domain model references an HTTP client."
 parent: "Articles"
-nav_order: 752
+nav_order: 424
 type: Technical Article
 timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-architectural-fitness-functions-dependency-analysis-boundary-enforcement"

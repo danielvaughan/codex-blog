@@ -2,7 +2,7 @@
 title: "Codex CLI and Storybook MCP: Agent-Driven Component Development, Story Generation, and Visual Testing"
 description: "Front-end teams spend a disproportionate amount of time on the mechanical parts of component development: writing stories, documenting props, building."
 parent: "Articles"
-nav_order: 444
+nav_order: 193
 type: Technical Article
 timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-storybook-mcp-component-development-story-generation-visual-testing"

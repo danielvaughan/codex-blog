@@ -1,7 +1,7 @@
 ---
 title: "Recursive Agent Harnesses: Why Harness Recursion Outperforms Model Recursion and Flat Coding Agents — and How to Configure Codex CLI's Subagent Stack Accordingly"
 parent: "Articles"
-nav_order: 1393
+nav_order: 1019
 tags: ["codex-cli", "subagents", "recursive-agent-harness", "harness-recursion", "multi-agent", "parallel-orchestration", "RAH"]
 ---
 

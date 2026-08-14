@@ -1,7 +1,7 @@
 ---
 title: "Agent Testing Frameworks: Unit and Integration Testing for Agent Behaviour"
 parent: "Articles"
-nav_order: 869
+nav_order: 519
 type: Technical Article
 timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-agent-testing-frameworks-unit-integration-testing-agent-behaviour"

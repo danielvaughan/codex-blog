@@ -1,7 +1,7 @@
 ---
 title: "SWE-Chat and the Bimodal Reality: Why 41 Per Cent of Sessions Are Pure Vibe Coding — and How Codex CLI Profiles Let You Choose Your Mode Deliberately"
 parent: "Articles"
-nav_order: 1418
+nav_order: 1044
 tags: ["codex-cli", "SWE-chat", "vibe-coding", "collaborative-coding", "named-profiles", "token-efficiency", "security", "configuration", "approval-policy"]
 ---
 

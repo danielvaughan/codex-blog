@@ -2,7 +2,7 @@
 title: "MCP Schema Bloat and System Prompt Tax: Performance Impact of Tool Definitions"
 description: "Every MCP server you connect to Codex CLI injects its full tool manifest — JSON schemas with parameter descriptions, type annotations, enum constraints."
 parent: "Articles"
-nav_order: 379
+nav_order: 128
 type: Technical Article
 timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-mcp-schema-bloat-system-prompt-tax-tool-definition-performance"

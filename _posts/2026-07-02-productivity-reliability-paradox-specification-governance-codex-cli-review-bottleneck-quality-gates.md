@@ -1,7 +1,7 @@
 ---
 title: "The Productivity-Reliability Paradox: Why 98 Per Cent More Pull Requests Broke Nothing — Except Your Review Pipeline — and How Specification Governance Fixes It with Codex CLI"
 parent: "Articles"
-nav_order: 1308
+nav_order: 944
 type: Technical Article
 timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-productivity-reliability-paradox-specification-governance-codex-cli-review-bottleneck-quality-gates"

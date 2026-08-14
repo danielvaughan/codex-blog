@@ -2,7 +2,7 @@
 title: "What 33,000 Agentic Pull Requests Reveal: Empirical Lessons for Codex CLI Practitioners"
 description: "AI coding agents are no longer experimental curiosities — they now submit hundreds of thousands of pull requests to real repositories every month."
 parent: "Articles"
-nav_order: 328
+nav_order: 77
 type: Technical Article
 timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-empirical-research-agentic-pull-requests-codex-cli"

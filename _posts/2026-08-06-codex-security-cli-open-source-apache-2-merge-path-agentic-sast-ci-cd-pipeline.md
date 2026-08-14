@@ -2,7 +2,7 @@
 title: "Codex Security CLI Goes Open Source: Building Agentic SAST into Your Merge Path"
 description: "OpenAI open-sourced the Codex Security CLI and TypeScript SDK under Apache 2.0 in July 2026. This article dissects its architecture, compares it with pattern-based SAST tools, and shows how to wire it into CI/CD merge gates."
 parent: "Articles"
-nav_order: 1768
+nav_order: 1412
 type: Technical Article
 timestamp: 2026-08-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-06-codex-security-cli-open-source-apache-2-merge-path-agentic-sast-ci-cd-pipeline"

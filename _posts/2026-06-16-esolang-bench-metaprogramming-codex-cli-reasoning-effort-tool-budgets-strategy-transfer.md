@@ -1,7 +1,7 @@
 ---
 title: "Frontier Agents and Metaprogramming: What EsoLang-Bench Reveals About Codex CLI Reasoning Effort, Tool Budgets, and Strategy Transfer"
 parent: "Articles"
-nav_order: 1132
+nav_order: 777
 type: Technical Article
 timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-esolang-bench-metaprogramming-codex-cli-reasoning-effort-tool-budgets-strategy-transfer"

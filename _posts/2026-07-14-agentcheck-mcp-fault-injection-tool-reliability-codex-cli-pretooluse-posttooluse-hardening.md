@@ -1,7 +1,7 @@
 ---
 title: "AgentCheck and MCP Fault Injection: Why Your Tools Fail Silently — and How to Harden Codex CLI's MCP Stack Before It Matters"
 parent: "Articles"
-nav_order: 1454
+nav_order: 1070
 tags: ["codex-cli", "mcp", "fault-injection", "tool-reliability", "agentcheck", "pretooluse", "posttooluse", "hooks", "testing", "agent-hardening"]
 ---
 

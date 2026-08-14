@@ -2,7 +2,7 @@
 title: "Codex CLI Skills for OSS Maintenance: Lessons from OpenAI's Own Agents SDK Repositories"
 description: "OpenAI practises what it preaches. In March 2026 the company published a detailed case study showing how Codex CLI skills transformed maintenance of its two."
 parent: "Articles"
-nav_order: 593
+nav_order: 305
 type: Technical Article
 timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-skills-oss-maintenance-openai-agents-sdk-case-study"

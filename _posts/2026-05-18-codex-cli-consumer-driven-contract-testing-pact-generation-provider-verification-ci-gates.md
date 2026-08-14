@@ -2,7 +2,7 @@
 title: "Codex CLI for Consumer-Driven Contract Testing: Pact Generation, Provider Verification, and CI Contract Gates"
 description: "Consumer-driven contract testing solves one of the thorniest problems in microservice architectures: how do you know your services are compatible before."
 parent: "Articles"
-nav_order: 767
+nav_order: 439
 type: Technical Article
 timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-consumer-driven-contract-testing-pact-generation-provider-verification-ci-gates"

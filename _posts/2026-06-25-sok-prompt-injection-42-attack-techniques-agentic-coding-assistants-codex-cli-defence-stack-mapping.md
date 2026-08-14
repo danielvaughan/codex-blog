@@ -1,7 +1,7 @@
 ---
 title: "42 Ways to Hack Your Coding Agent: What the First SoK on Prompt Injection Means for Codex CLI's Defence Stack"
 parent: "Articles"
-nav_order: 1222
+nav_order: 864
 type: Technical Article
 timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-sok-prompt-injection-42-attack-techniques-agentic-coding-assistants-codex-cli-defence-stack-mapping"

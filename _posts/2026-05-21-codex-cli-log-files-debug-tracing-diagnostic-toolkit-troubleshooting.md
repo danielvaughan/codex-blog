@@ -2,7 +2,7 @@
 title: "Codex CLI Log Files and Debug Tracing: The Complete Diagnostic Toolkit for When Sessions Fail"
 description: "Something broke. The agent hung mid-refactor, an MCP server silently disconnected, or authentication failed three turns into a goal workflow."
 parent: "Articles"
-nav_order: 802
+nav_order: 468
 type: Technical Article
 timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-log-files-debug-tracing-diagnostic-toolkit-troubleshooting"

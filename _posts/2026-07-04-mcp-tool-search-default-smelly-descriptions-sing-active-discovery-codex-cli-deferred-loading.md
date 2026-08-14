@@ -1,7 +1,7 @@
 ---
 title: "MCP Tool Search Goes Default: What Smelly Descriptions, SING Active Discovery, and Deferred Loading Mean for Your Codex CLI Tool Stack"
 parent: "Articles"
-nav_order: 1319
+nav_order: 955
 type: Technical Article
 timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-mcp-tool-search-default-smelly-descriptions-sing-active-discovery-codex-cli-deferred-loading"

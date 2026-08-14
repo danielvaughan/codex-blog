@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Vite 8 Development: Rolldown, MCP Servers, and Agent-Driven Frontend Workflows"
 parent: "Articles"
-nav_order: 907
+nav_order: 557
 type: Technical Article
 timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-vite-8-development-rolldown-mcp-servers-agent-driven-frontend-workflows"

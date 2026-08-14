@@ -1,7 +1,7 @@
 ---
 title: "Governance Gaps in Agent Interoperability Protocols: What MCP, A2A, and ACP Cannot Express — and How Codex CLI's Layered Architecture Fills the Void"
 parent: "Articles"
-nav_order: 1311
+nav_order: 947
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-governance-gaps-agent-interoperability-protocols-mcp-a2a-acp-codex-cli-enterprise-fleet-governance"

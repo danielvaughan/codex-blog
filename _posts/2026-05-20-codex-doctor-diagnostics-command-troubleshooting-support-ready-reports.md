@@ -2,7 +2,7 @@
 title: "codex doctor: The Diagnostics Command That Replaces Manual Log Archaeology"
 description: "Before Codex CLI v0.131.0, diagnosing a broken installation meant spelunking through ~/.codex/log/codex-tui.log, manually inspecting auth.json token expiry."
 parent: "Articles"
-nav_order: 796
+nav_order: 462
 type: Technical Article
 timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-codex-doctor-diagnostics-command-troubleshooting-support-ready-reports"

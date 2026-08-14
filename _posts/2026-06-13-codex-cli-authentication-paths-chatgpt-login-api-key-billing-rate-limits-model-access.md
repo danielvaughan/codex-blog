@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI's Two Worlds: How Your Authentication Path Shapes Billing, Rate Limits, and Model Access in June 2026"
 parent: "Articles"
-nav_order: 1096
+nav_order: 741
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-codex-cli-authentication-paths-chatgpt-login-api-key-billing-rate-limits-model-access"

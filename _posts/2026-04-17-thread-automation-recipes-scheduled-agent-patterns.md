@@ -2,7 +2,7 @@
 title: "Thread Automation Recipes: 15 Scheduled Agent Patterns for Daily Development"
 description: "With thread automations landing in Codex 26.415 on 16 April 2026, teams now have a native mechanism for heartbeat-style recurring agent execution that."
 parent: "Articles"
-nav_order: 321
+nav_order: 70
 type: Technical Article
 timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-thread-automation-recipes-scheduled-agent-patterns"

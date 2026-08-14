@@ -2,7 +2,7 @@
 title: "Codex Appshots: Screenshot-Driven Context for Developer Workflows on macOS"
 description: "Codex has always been strongest when given precise context. The @ mention system, AGENTS.md, and image attachments in the CLI all serve the same purpose."
 parent: "Articles"
-nav_order: 811
+nav_order: 475
 type: Technical Article
 timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-appshots-screenshot-driven-context-developer-workflows-macos"

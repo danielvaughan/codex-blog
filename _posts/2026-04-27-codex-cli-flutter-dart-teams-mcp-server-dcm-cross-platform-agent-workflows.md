@@ -2,7 +2,7 @@
 title: "Codex CLI for Flutter and Dart Teams: MCP Server, DCM, and Agent-Driven Cross-Platform Development"
 description: "Flutters widget-based architecture, Darts strong type system, and the frameworks rapid feedback loop (hot reload."
 parent: "Articles"
-nav_order: 455
+nav_order: 204
 type: Technical Article
 timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-flutter-dart-teams-mcp-server-dcm-cross-platform-agent-workflows"

@@ -1,7 +1,7 @@
 ---
 title: "MCP Gateway and Proxy Patterns: Aggregating, Securing, and Scaling MCP Servers with Codex CLI"
 parent: "Articles"
-nav_order: 919
+nav_order: 569
 type: Technical Article
 timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-mcp-gateway-proxy-patterns-aggregating-securing-scaling-codex-cli"

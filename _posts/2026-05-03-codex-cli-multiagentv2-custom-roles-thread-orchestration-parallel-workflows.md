@@ -2,7 +2,7 @@
 title: "Codex CLI MultiAgentV2: Custom Roles, Thread Orchestration, and Production Parallel Workflows"
 description: "Codex CLI's subagent system moved from a simple fire-and-forget spawner to a governed orchestration layer with the introduction of MultiAgentV2 in v0.128.0."
 parent: "Articles"
-nav_order: 535
+nav_order: 284
 type: Technical Article
 timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-multiagentv2-custom-roles-thread-orchestration-parallel-workflows"

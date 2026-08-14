@@ -2,7 +2,7 @@
 title: "Policy-as-Code for Coding Agents: From the OpenAI Governance Cookbook to Codex CLI guardrails"
 description: "Every organisation deploying coding agents hits the same wall: security wants to audit, legal wants guardrails, and engineering wants to ship."
 parent: "Articles"
-nav_order: 330
+nav_order: 79
 type: Technical Article
 timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-policy-as-code-governance-cookbook-codex-cli-guardrails"

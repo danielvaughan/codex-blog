@@ -1,7 +1,7 @@
 ---
 title: "The IDK Filter and the Confident Hallucination Problem: Why Your Coding Agent Calls the Wrong Tool With Full Confidence — and How Uncertainty-Aware Filtering Maps to Codex CLI"
 parent: "Articles"
-nav_order: 1721
+nav_order: 1348
 tags: ["codex-cli", "tool-calling", "uncertainty", "hallucination", "IDK-filter", "PreToolUse", "approval-policy", "abstention", "function-calling", "production-reliability"]
 ---
 

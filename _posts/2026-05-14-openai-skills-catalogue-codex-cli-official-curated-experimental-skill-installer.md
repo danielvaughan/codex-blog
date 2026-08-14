@@ -2,7 +2,7 @@
 title: "The Official OpenAI Skills Catalogue: System, Curated, and Experimental Skills for Codex CLI"
 description: "OpenAI maintains a public skills catalogue at openai/skills — a repository of packaged agent instructions, scripts, and resources that extend Codex CLI with."
 parent: "Articles"
-nav_order: 703
+nav_order: 394
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-openai-skills-catalogue-codex-cli-official-curated-experimental-skill-installer"

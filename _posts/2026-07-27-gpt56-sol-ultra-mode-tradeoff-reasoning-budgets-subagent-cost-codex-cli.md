@@ -1,7 +1,7 @@
 ---
 title: "The Ultra Mode Trade-Off: When GPT-5.6 Sol's Bigger Reasoning Budgets Backfire in Codex CLI"
 parent: "Articles"
-nav_order: 1673
+nav_order: 1287
 tags: ["codex-cli", "gpt-5.6", "sol-ultra", "reasoning-effort", "sub-agents", "cost-management", "named-profiles", "token-economics"]
 ---
 

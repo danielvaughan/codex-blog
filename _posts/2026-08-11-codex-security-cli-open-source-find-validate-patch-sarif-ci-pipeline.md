@@ -1,7 +1,7 @@
 ---
 title: "Codex Security CLI Goes Open Source: The Find-Validate-Patch Pipeline That Replaces Your SAST Noise"
 parent: "Articles"
-nav_order: 1831
+nav_order: 1478
 tags: ["codex-cli", "codex-security", "security", "SARIF", "SAST", "CI/CD", "open-source", "vulnerability-scanning"]
 ---
 

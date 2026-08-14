@@ -1,7 +1,7 @@
 ---
 title: "The Over-Mocking Problem: What Empirical Research Reveals About Agent-Generated Test Quality — and How to Defend Your Suite with Codex CLI"
 parent: "Articles"
-nav_order: 1318
+nav_order: 954
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-over-mocking-problem-agent-generated-test-quality-codex-cli-agents-md-mutation-testing-defence"

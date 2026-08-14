@@ -1,7 +1,7 @@
 ---
 title: "The MCP Security Compendium: A Unified Threat Model, Per-Surface Defence Architecture, and Enterprise Governance Template for Codex CLI"
 parent: "Articles"
-nav_order: 1286
+nav_order: 923
 type: Technical Article
 timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-mcp-security-compendium-unified-threat-model-defence-architecture-audit-pipeline-enterprise-governance"

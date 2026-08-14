@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Unreal Engine 5.7: MCP Servers, Blueprint Workflows, and Agent-Driven Game Development"
 parent: "Articles"
-nav_order: 899
+nav_order: 549
 type: Technical Article
 timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-unreal-engine-5-7-game-development-mcp-servers-blueprint-agent-workflows"

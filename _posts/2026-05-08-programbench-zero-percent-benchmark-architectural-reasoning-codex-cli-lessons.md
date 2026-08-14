@@ -2,7 +2,7 @@
 title: "ProgramBench and the Zero-Percent Problem: What a Cleanroom Benchmark Reveals About Architectural Reasoning in Codex CLI"
 description: "On 5 May 2026, researchers from Meta Superintelligence Labs, Stanford, and Harvard published ProgramBench."
 parent: "Articles"
-nav_order: 632
+nav_order: 337
 type: Technical Article
 timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-programbench-zero-percent-benchmark-architectural-reasoning-codex-cli-lessons"

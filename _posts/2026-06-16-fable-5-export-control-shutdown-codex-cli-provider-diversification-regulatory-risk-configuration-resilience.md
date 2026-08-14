@@ -1,7 +1,7 @@
 ---
 title: "The Fable 5 Export Control: What the 72-Hour Model Recall Teaches Codex CLI Teams About Provider Risk and Configuration Resilience"
 parent: "Articles"
-nav_order: 1124
+nav_order: 769
 type: Technical Article
 timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-fable-5-export-control-shutdown-codex-cli-provider-diversification-regulatory-risk-configuration-resilience"

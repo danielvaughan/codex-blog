@@ -2,7 +2,7 @@
 title: "The OpenAI Deployment Company: What $4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise"
 description: "On 11 May 2026, OpenAI announced the OpenAI Deployment Company — a majority-owned subsidiary backed by more than $4 billion in initial capital from 19."
 parent: "Articles"
-nav_order: 690
+nav_order: 381
 type: Technical Article
 timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-openai-deployment-company-codex-cli-enterprise-forward-deployed-engineers"

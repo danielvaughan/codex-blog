@@ -1,7 +1,7 @@
 ---
 title: "The Multi-Agent V2 Governance Playbook: From Encrypted Delegation to Fleet Cost Control"
 parent: "Articles"
-nav_order: 1641
+nav_order: 1258
 tags: ["codex-cli", "multi-agent", "governance", "cost-control", "EU-AI-Act", "config.toml", "enterprise"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Codex CLI for Production Log Analysis: Root Cause Pipelines with codex exec, MCP Observability Servers, and Structured Triage Reports"
 description: "Production incidents rarely announce themselves with a single, readable error. They arrive as thousands of log lines across multiple services, peppered with."
 parent: "Articles"
-nav_order: 511
+nav_order: 260
 type: Technical Article
 timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-production-log-analysis-root-cause-mcp-pipelines"

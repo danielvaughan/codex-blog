@@ -1,7 +1,7 @@
 ---
 title: "The Shared Agentic Credit Pool: How OpenAI's Quota Architecture Silently Drains Your Codex CLI Budget — and What the 5-Hour Limit Removal Actually Changes"
 parent: "Articles"
-nav_order: 1670
+nav_order: 1284
 tags: ["codex-cli", "quota", "credit-pool", "budget", "5-hour-limit", "cost-management", "config.toml", "profiles", "model-routing"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Agent Ethics and Professional Responsibility: Attribution, Disclosure, and Accountability When Delegating Engineering Judgement to Codex CLI"
 parent: "Articles"
-nav_order: 1074
+nav_order: 719
 type: Technical Article
 timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-agent-ethics-professional-responsibility-codex-cli-attribution-disclosure-eu-ai-act"

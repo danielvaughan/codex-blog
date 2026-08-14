@@ -1,7 +1,7 @@
 ---
 title: "SABER: What the Operational Safety Benchmark Means for Codex CLI Workspace Defence"
 parent: "Articles"
-nav_order: 1194
+nav_order: 836
 type: Technical Article
 timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-saber-operational-safety-benchmark-coding-agents-codex-cli-workspace-violation-defence"

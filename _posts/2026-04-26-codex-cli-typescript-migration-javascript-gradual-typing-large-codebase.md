@@ -2,7 +2,7 @@
 title: "JavaScript-to-TypeScript Migration with Codex CLI: Gradual Typing Strategies for Large Codebases"
 description: "Migrating a JavaScript codebase to TypeScript remains one of the most requested — and most dreaded — modernisation tasks in 2026."
 parent: "Articles"
-nav_order: 439
+nav_order: 188
 type: Technical Article
 timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-typescript-migration-javascript-gradual-typing-large-codebase"

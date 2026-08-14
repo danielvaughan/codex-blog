@@ -2,7 +2,7 @@
 title: "The OpenAI Developer Docs MCP Server: Giving Codex CLI Live Access to Its Own Documentation"
 description: "Documentation MCP servers have become essential infrastructure for coding agents. Context7 indexes thousands of third-party libraries; Repomix serves."
 parent: "Articles"
-nav_order: 602
+nav_order: 314
 type: Technical Article
 timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-openai-developer-docs-mcp-server-live-documentation-agent-context"

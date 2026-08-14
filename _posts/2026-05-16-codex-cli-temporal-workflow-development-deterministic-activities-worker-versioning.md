@@ -2,7 +2,7 @@
 title: "Codex CLI for Temporal Workflow Development: Deterministic Workflow Generation, Activity Scaffolding, and Worker Versioning"
 description: "Temporal's durable execution model demands strict determinism in workflow definitions — a constraint that makes AI-assisted code generation both."
 parent: "Articles"
-nav_order: 741
+nav_order: 414
 type: Technical Article
 timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-temporal-workflow-development-deterministic-activities-worker-versioning"

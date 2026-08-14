@@ -1,7 +1,7 @@
 ---
 title: "HyperAgent and the Tool-Schema Hypergraph: What Deficit-Oriented Planning Means for Codex CLI Tool Discovery"
 parent: "Articles"
-nav_order: 1766
+nav_order: 1407
 tags: ["codex-cli", "mcp", "tool-discovery", "hyperagent", "tool-schema-hypergraph", "deficit-oriented-planning", "research"]
 ---
 

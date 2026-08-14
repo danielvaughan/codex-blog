@@ -1,7 +1,7 @@
 ---
 title: "Do Influence Tactics Matter? What 123,000 Prompt Variations Reveal About Framing Effects in LLM Code Generation — and What It Means for Your AGENTS.md"
 parent: "Articles"
-nav_order: 1765
+nav_order: 1406
 tags: ["codex-cli", "AGENTS.md", "prompt-engineering", "influence-tactics", "code-generation", "security", "prompt-framing"]
 ---
 

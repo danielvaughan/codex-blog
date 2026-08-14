@@ -1,7 +1,7 @@
 ---
 title: "Codex Browser Use Developer Mode: CDP Access, 2x Performance, and What CLI Developers Gain from the June 2026 Browser Overhaul"
 parent: "Articles"
-nav_order: 1080
+nav_order: 725
 type: Technical Article
 timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-browser-use-developer-mode-cdp-dom-snapshots-2x-performance-cli-frontend-workflows"

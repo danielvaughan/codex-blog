@@ -1,7 +1,7 @@
 ---
 title: "MemSecBench and the Memory Poisoning Lifecycle: Why 84 Per Cent of Malicious Memories Persist — and How Codex CLI's Defence Stack Intervenes at Each Checkpoint"
 parent: "Articles"
-nav_order: 1840
+nav_order: 1488
 type: Technical Article
 timestamp: 2026-08-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-13-memsecbench-agent-memory-poisoning-lifecycle-codex-cli-memory-integrity-defence-write-execute-forget"

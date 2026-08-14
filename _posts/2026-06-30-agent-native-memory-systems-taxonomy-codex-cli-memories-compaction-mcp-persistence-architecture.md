@@ -1,7 +1,7 @@
 ---
 title: "Agent-Native Memory Systems: What a 12-System Benchmark Reveals About Memory Architecture — and How to Configure Codex CLI's Memory Stack"
 parent: "Articles"
-nav_order: 1280
+nav_order: 917
 type: Technical Article
 timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-agent-native-memory-systems-taxonomy-codex-cli-memories-compaction-mcp-persistence-architecture"

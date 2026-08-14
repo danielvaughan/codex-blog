@@ -1,7 +1,7 @@
 ---
 title: "When Does Restricting Your Agent's Tool Surface Actually Help? What the execute_code Ablation Means for Codex CLI Cost Control"
 parent: "Articles"
-nav_order: 1456
+nav_order: 1072
 tags: ["codex-cli", "tool-surface", "MCP", "cost-optimisation", "execute_code", "config.toml", "enabled_tools", "ablation-study"]
 ---
 

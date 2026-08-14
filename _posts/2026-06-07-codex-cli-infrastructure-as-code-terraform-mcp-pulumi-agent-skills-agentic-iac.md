@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Infrastructure as Code: Terraform MCP, Pulumi Agent Skills, and the Agentic IaC Stack"
 parent: "Articles"
-nav_order: 1019
+nav_order: 671
 type: Technical Article
 timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-codex-cli-infrastructure-as-code-terraform-mcp-pulumi-agent-skills-agentic-iac"

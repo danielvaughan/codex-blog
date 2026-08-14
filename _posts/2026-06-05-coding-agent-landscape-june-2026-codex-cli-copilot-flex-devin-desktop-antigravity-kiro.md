@@ -1,7 +1,7 @@
 ---
 title: "Coding Agent Landscape, June 2026: How Codex CLI v0.137 Stacks Up Against Copilot Flex, Devin Desktop, Antigravity 2.0, and Kiro"
 parent: "Articles"
-nav_order: 992
+nav_order: 642
 type: Technical Article
 timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-coding-agent-landscape-june-2026-codex-cli-copilot-flex-devin-desktop-antigravity-kiro"

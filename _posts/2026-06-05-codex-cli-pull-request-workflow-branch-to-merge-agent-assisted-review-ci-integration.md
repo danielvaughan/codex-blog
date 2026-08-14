@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Pull Request Workflows: Branch to Merge with Agent-Assisted Review and CI Integration"
 parent: "Articles"
-nav_order: 1002
+nav_order: 652
 type: Technical Article
 timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-codex-cli-pull-request-workflow-branch-to-merge-agent-assisted-review-ci-integration"

@@ -2,7 +2,7 @@
 title: "Codex App Computer Use: Background GUI Automation on macOS Without Surrendering Your Desktop"
 description: "On 16 April 2026, OpenAI shipped Computer Use in the Codex desktop app (version 26.415), enabling agents to operate macOS applications by seeing the screen."
 parent: "Articles"
-nav_order: 1468
+nav_order: 1084
 type: Technical Article
 timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-app-computer-use-macos-background-gui-automation"

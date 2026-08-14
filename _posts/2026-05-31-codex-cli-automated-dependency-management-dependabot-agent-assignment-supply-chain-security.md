@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Automated Dependency Management: Dependabot Agent Assignment, Supply Chain Security, and Remediation Workflows"
 parent: "Articles"
-nav_order: 947
+nav_order: 597
 type: Technical Article
 timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-automated-dependency-management-dependabot-agent-assignment-supply-chain-security"

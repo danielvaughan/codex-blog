@@ -1,7 +1,7 @@
 ---
 title: "Outcome-First Prompting: How GPT-5.6 Sol's Lean-Prompt Philosophy Reshapes Your Codex CLI Strategy"
 parent: "Articles"
-nav_order: 1668
+nav_order: 1282
 tags: ["codex-cli", "gpt-5.6", "prompting", "agents-md", "system-prompts", "cost-optimisation", "outcome-first"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Agent Sandbox Comparison Matrix: Codex Seatbelt vs NVIDIA OpenShell vs Docker sbx"
 description: "Autonomous coding agents need guardrails. Give a model unrestricted shell access and it will eventually rm -rf something you care about, exfiltrate."
 parent: "Articles"
-nav_order: 405
+nav_order: 154
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-agent-sandbox-comparison-codex-seatbelt-openshell-docker-sbx"

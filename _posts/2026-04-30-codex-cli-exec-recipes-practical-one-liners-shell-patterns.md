@@ -2,7 +2,7 @@
 title: "Codex CLI exec Recipes: Practical One-Liners and Shell Patterns for Daily Development"
 description: "The interactive TUI gets most of the attention, but codex exec is where Codex CLI earns its keep in professional workflows. It runs Codex non-interactively."
 parent: "Articles"
-nav_order: 508
+nav_order: 257
 type: Technical Article
 timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-exec-recipes-practical-one-liners-shell-patterns"

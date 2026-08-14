@@ -2,7 +2,7 @@
 title: "Codex CLI for gRPC and Protocol Buffer Development: Schema-First Workflows with buf, Code Generation, and Contract Safety"
 description: "Protocol Buffers and gRPC remain the backbone of inter-service communication in serious distributed systems."
 parent: "Articles"
-nav_order: 674
+nav_order: 365
 type: Technical Article
 timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-cli-grpc-protobuf-schema-first-development-buf-service-stubs"

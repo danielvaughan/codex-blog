@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Mobile CI/CD: Fastlane MCP, Bitrise MCP, and App Store Connect Workflows"
 parent: "Articles"
-nav_order: 878
+nav_order: 528
 type: Technical Article
 timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-mobile-ci-cd-fastlane-mcp-bitrise-app-store-connect-workflows"

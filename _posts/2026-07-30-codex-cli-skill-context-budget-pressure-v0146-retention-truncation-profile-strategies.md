@@ -1,7 +1,7 @@
 ---
 title: "The 2% Ceiling: How Codex CLI's Skill Context Budget Works, Why Your Skills Get Truncated, and What v0.146 Changes"
 parent: "Articles"
-nav_order: 1710
+nav_order: 1335
 tags: ["codex-cli", "skills", "context-budget", "v0.146", "configuration", "enterprise", "plugin-management"]
 ---
 

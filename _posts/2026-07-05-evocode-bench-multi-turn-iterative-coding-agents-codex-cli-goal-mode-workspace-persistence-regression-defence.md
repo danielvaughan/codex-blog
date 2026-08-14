@@ -1,7 +1,7 @@
 ---
 title: "EvoCode-Bench Exposes the Multi-Turn Gap: Why Coding Agents Degrade Over Iterative Rounds — and How Codex CLI's Goal Mode, Workspace Persistence, and Hook Gates Defend Against It"
 parent: "Articles"
-nav_order: 1341
+nav_order: 971
 type: Technical Article
 timestamp: 2026-07-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-05-evocode-bench-multi-turn-iterative-coding-agents-codex-cli-goal-mode-workspace-persistence-regression-defence"

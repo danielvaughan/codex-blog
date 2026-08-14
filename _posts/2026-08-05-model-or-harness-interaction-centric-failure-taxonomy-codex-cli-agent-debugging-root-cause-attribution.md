@@ -1,7 +1,7 @@
 ---
 title: "Model or Harness? Using the Interaction-Centric Failure Taxonomy to Debug Your Codex CLI Workflows"
 parent: "Articles"
-nav_order: 1762
+nav_order: 1402
 tags: ["codex-cli", "agent-failures", "debugging", "taxonomy", "harness-engineering", "PostToolUse", "hooks", "root-cause-attribution"]
 ---
 

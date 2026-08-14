@@ -1,7 +1,7 @@
 ---
 title: "Agent-Generated Documentation: Quality, Trust, and Verification Patterns for Codex CLI Teams"
 parent: "Articles"
-nav_order: 1014.5
+nav_order: 665.5
 type: Technical Article
 timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-agent-generated-documentation-quality-trust-codex-cli-verification-patterns"

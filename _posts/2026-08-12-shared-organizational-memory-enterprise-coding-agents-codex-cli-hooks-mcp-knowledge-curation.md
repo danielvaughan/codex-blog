@@ -1,7 +1,7 @@
 ---
 title: "Shared Organisational Memory for Enterprise Coding Agents: What a Production Deployment Reveals About Knowledge Capture in Codex CLI"
 parent: "Articles"
-nav_order: 1836
+nav_order: 1483
 tags: ["codex-cli", "organisational-memory", "enterprise", "hooks", "MCP", "knowledge-management", "curation-pipeline", "PostToolUse", "memory-retrieval"]
 ---
 

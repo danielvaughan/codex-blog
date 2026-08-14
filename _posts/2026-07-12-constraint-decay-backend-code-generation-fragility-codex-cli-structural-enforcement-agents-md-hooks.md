@@ -1,7 +1,7 @@
 ---
 title: "Constraint Decay: Why Your Coding Agent Generates Structurally Arbitrary Backends — and How Codex CLI's Enforcement Stack Fights Back"
 parent: "Articles"
-nav_order: 1420
+nav_order: 1046
 tags: ["codex-cli", "constraint-decay", "backend-code-generation", "AGENTS.md", "structural-constraints", "clean-architecture", "ORM", "PostToolUse-hooks"]
 ---
 

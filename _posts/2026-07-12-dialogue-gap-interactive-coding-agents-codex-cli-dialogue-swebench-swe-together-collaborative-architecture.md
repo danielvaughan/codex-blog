@@ -1,7 +1,7 @@
 ---
 title: "The Dialogue Gap: Why Better Models Don't Make Better Coding Partners — and How Codex CLI's Interactive Architecture Closes It"
 parent: "Articles"
-nav_order: 1430
+nav_order: 1053
 tags: ["codex-cli", "dialogue", "interactive-coding", "swe-bench", "benchmarks", "agent-collaboration", "tui", "plan-mode", "ask-user-question"]
 ---
 

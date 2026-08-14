@@ -1,7 +1,7 @@
 ---
 title: "Agent-as-a-Router: What the First Agentic Model Routing Benchmark Means for Codex CLI Multi-Model Workflows"
 parent: "Articles"
-nav_order: 1252
+nav_order: 891
 type: Technical Article
 timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-agent-as-a-router-agentic-model-routing-coding-tasks-codex-cli-acrouter-coderouterbench"

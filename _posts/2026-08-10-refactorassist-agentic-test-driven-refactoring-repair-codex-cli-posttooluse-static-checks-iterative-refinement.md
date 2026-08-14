@@ -1,7 +1,7 @@
 ---
 title: "RefactorAssist and the Refactoring Reliability Gap: Why 1 in 4 LLM Refactorings Fail Silently — and How Test-Driven Agentic Repair Maps to Codex CLI"
 parent: "Articles"
-nav_order: 1817
+nav_order: 1461
 tags: ["codex-cli", "refactoring", "agentic-repair", "PostToolUse", "test-driven", "static-analysis", "iterative-refinement", "reliability"]
 ---
 

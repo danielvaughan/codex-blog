@@ -1,7 +1,7 @@
 ---
 title: "The Agent Ecosystem Impact Report: Augmentation, Dilution, and Rejection Across 180 Million Repositories"
 parent: "Articles"
-nav_order: 1287
+nav_order: 924
 type: Technical Article
 timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-agent-ecosystem-impact-report-augmentation-dilution-180m-census-agentic-pr-rejection-codex-cli"

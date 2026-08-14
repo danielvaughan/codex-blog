@@ -1,7 +1,7 @@
 ---
 title: "OpenAI's Guaranteed Capacity: What Reserved Compute Means for Codex CLI Teams Running Agents at Scale"
 parent: "Articles"
-nav_order: 1113
+nav_order: 758
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-openai-guaranteed-capacity-reserved-compute-codex-cli-enterprise-service-tier-throughput-strategy"

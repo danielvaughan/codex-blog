@@ -1,7 +1,7 @@
 ---
 title: "PhantomSkill and VulMask: Why Static Scanners Miss Agent Skill Malware — and How Codex CLI's Runtime Stack Catches What They Cannot"
 parent: "Articles"
-nav_order: 1625
+nav_order: 1243
 tags: ["codex-cli", "security", "supply-chain", "MCP", "skills", "VulMask", "PhantomSkill", "sandbox", "runtime-detection"]
 ---
 

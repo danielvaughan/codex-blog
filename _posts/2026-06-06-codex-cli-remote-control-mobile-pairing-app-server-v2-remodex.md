@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Remote Control and Mobile Pairing: App-Server v2 RPCs, ChatGPT Mobile, and the Remodex Ecosystem"
 parent: "Articles"
-nav_order: 1011
+nav_order: 661
 type: Technical Article
 timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-codex-cli-remote-control-mobile-pairing-app-server-v2-remodex"

@@ -2,7 +2,7 @@
 title: "Codex CLI as an MCP Server: Multi-Agent Orchestration with the OpenAI Agents SDK"
 description: "Codex CLI is a capable coding agent in its own right, but its real power emerges when you stop thinking of it as a terminal tool and start treating it as an."
 parent: "Articles"
-nav_order: 648
+nav_order: 353
 type: Technical Article
 timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-agents-sdk-mcp-server-multi-agent-orchestration"

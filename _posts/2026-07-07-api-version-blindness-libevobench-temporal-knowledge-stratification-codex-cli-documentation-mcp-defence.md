@@ -1,7 +1,7 @@
 ---
 title: "API Version Blindness: What LibEvoBench and Context-Memory Conflicts Reveal About Temporal Knowledge Stratification — and How to Wire Version-Aware Documentation into Codex CLI"
 parent: "Articles"
-nav_order: 1368
+nav_order: 994
 type: Technical Article
 timestamp: 2026-07-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-07-api-version-blindness-libevobench-temporal-knowledge-stratification-codex-cli-documentation-mcp-defence"

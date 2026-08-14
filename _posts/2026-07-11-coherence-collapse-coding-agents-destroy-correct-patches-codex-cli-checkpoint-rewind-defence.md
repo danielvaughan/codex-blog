@@ -1,7 +1,7 @@
 ---
 title: "Coherence Collapse: Why Your Coding Agent Finds the Fix Then Destroys It — and How Codex CLI's Checkpoint Stack Fights Back"
 parent: "Articles"
-nav_order: 1416
+nav_order: 1042
 tags: ["codex-cli", "coherence-collapse", "TRAJEVAL", "checkpoint", "rewind", "undo", "agent-failures", "SWE-bench", "strained-coherence", "edit-quality"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "The Mastra Attack: What a North Korean Supply Chain Compromise of an AI Agent Framework Means for Codex CLI Defence"
 parent: "Articles"
-nav_order: 1172
+nav_order: 817
 type: Technical Article
 timestamp: 2026-06-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-mastra-npm-supply-chain-attack-codex-cli-postinstall-defence-npm-v12-agent-hardening"

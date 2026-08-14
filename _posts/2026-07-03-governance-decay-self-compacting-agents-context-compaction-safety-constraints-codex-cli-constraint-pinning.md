@@ -1,7 +1,7 @@
 ---
 title: "Governance Decay and Self-Compacting Agents: What Happens When Context Compaction Silently Erases Your Safety Constraints"
 parent: "Articles"
-nav_order: 1314
+nav_order: 950
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-governance-decay-self-compacting-agents-context-compaction-safety-constraints-codex-cli-constraint-pinning"

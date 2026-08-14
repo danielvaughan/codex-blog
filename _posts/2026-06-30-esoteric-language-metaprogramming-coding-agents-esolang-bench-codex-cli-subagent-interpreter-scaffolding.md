@@ -1,7 +1,7 @@
 ---
 title: "Metaprogramming as Emergent Strategy: What EsoLang-Bench Reveals About Coding Agent Adaptation — and How to Configure Codex CLI Subagents for Language Scaffolding"
 parent: "Articles"
-nav_order: 1277
+nav_order: 914
 type: Technical Article
 timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-esoteric-language-metaprogramming-coding-agents-esolang-bench-codex-cli-subagent-interpreter-scaffolding"

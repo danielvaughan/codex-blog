@@ -2,7 +2,7 @@
 title: "Codex CLI at One Year: From Research Preview to 3 Million Weekly Active Users"
 description: "On 16 April 2025, OpenAI quietly released an open-source terminal coding agent called Codex CLI."
 parent: "Articles"
-nav_order: 284
+nav_order: 36
 type: Technical Article
 timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-codex-cli-at-one-year-from-research-preview-to-3-million-users"

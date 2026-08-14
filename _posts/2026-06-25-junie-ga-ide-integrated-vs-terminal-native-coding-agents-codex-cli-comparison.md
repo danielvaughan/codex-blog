@@ -1,7 +1,7 @@
 ---
 title: "Junie Goes GA: What JetBrains' IDE-Integrated Agent Reveals About the Terminal-Native vs IDE-Native Divide — and Where Codex CLI Stands"
 parent: "Articles"
-nav_order: 1225
+nav_order: 867
 type: Technical Article
 timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-junie-ga-ide-integrated-vs-terminal-native-coding-agents-codex-cli-comparison"

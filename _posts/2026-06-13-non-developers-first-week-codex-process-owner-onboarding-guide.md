@@ -1,7 +1,7 @@
 ---
 title: "The Non-Developer's First Week with Codex: A Process Owner's Onboarding Guide"
 parent: "Articles"
-nav_order: 1090
+nav_order: 735
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-non-developers-first-week-codex-process-owner-onboarding-guide"

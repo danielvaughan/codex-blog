@@ -1,7 +1,7 @@
 ---
 title: "What 24% More Merged PRs Tells Us About Rolling Out Codex CLI: Lessons from Microsoft's CLI Coding Agent Study"
 parent: "Articles"
-nav_order: 1698
+nav_order: 1318
 tags: ["codex-cli", "enterprise-rollout", "adoption", "productivity", "microsoft", "cli-coding-agents", "peer-visibility", "requirements-toml", "named-profiles"]
 ---
 

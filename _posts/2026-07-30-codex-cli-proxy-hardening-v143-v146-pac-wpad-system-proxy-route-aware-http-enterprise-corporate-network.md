@@ -1,7 +1,7 @@
 ---
 title: "Proxy Hardening in Codex CLI v0.143–v0.146: PAC, WPAD, and the Route-Aware HTTP Client That Finally Makes Corporate Networks Work"
 parent: "Articles"
-nav_order: 1702
+nav_order: 1324
 tags: ["codex-cli", "proxy", "enterprise", "PAC", "WPAD", "corporate-network", "system-proxy", "config.toml", "security"]
 ---
 

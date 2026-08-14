@@ -2,7 +2,7 @@
 title: "The Reasoning Trap: Why Higher Reasoning Effort Increases Tool Hallucination and How to Defend Your Codex CLI Workflows"
 description: "A paper presented at ICLR 2026 in Rio de Janeiro this week — The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucination."
 parent: "Articles"
-nav_order: 485
+nav_order: 234
 type: Technical Article
 timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-reasoning-trap-tool-hallucination-codex-cli-reasoning-effort-defence"

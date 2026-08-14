@@ -1,7 +1,7 @@
 ---
 title: "Long-Horizon-Terminal-Bench and the Completion Cliff: Why 64 Per Cent of Agent Runs Make Real Progress but Only 4 Per Cent Finish — and How to Configure Codex CLI for Long-Horizon Survival"
 parent: "Articles"
-nav_order: 1455
+nav_order: 1071
 tags: ["codex-cli", "long-horizon", "terminal-bench", "goal-mode", "token-budget", "dense-reward", "agent-benchmarks", "context-management"]
 ---
 

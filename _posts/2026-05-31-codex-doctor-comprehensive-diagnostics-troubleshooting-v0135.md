@@ -1,7 +1,7 @@
 ---
 title: "Codex Doctor: Comprehensive Runtime Diagnostics and Troubleshooting in v0.135"
 parent: "Articles"
-nav_order: 1528
+nav_order: 1144
 type: Technical Article
 timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-doctor-comprehensive-diagnostics-troubleshooting-v0135"

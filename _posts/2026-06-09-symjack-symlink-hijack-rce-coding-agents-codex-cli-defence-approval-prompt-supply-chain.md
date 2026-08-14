@@ -2,7 +2,7 @@
 title: "SymJack: The Symlink Hijack That Turns Approval Prompts into Lies — and How Codex CLI's Defence Stack Responds"
 description: "Adversa AI's SymJack attack exploits a TOCTOU flaw in approval prompts to overwrite agent configuration via disguised symlinks. Six major coding agents confirmed vulnerable. Here is how the attack works and what Codex CLI's sandbox, hooks, and configuration layers do about it."
 parent: "Articles"
-nav_order: 1047
+nav_order: 697
 type: Technical Article
 timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-symjack-symlink-hijack-rce-coding-agents-codex-cli-defence-approval-prompt-supply-chain"

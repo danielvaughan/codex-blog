@@ -2,7 +2,7 @@
 title: "Codex CLI Model Catalogue Architecture: Providers, Discovery, and Debugging Model Resolution"
 description: "When Codex CLI launches a session, it must resolve which model to use, where to send inference requests, and what capabilities that model supports — context."
 parent: "Articles"
-nav_order: 591
+nav_order: 303
 type: Technical Article
 timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-model-catalogue-architecture-providers-discovery-debug"

@@ -2,7 +2,7 @@
 title: "Codex CLI Hooks: Lifecycle Governance with PreToolUse, PostToolUse, and Enterprise Enforcement"
 description: "Codex CLI's hooks system provides a programmable interception layer over the agent's tool execution lifecycle. Every shell command, file edit, and MCP tool."
 parent: "Articles"
-nav_order: 747
+nav_order: 420
 type: Technical Article
 timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-hooks-lifecycle-pretooluse-posttooluse-governance-enforcement"

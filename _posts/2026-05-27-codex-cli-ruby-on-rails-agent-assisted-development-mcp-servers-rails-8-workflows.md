@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Ruby on Rails: Agent-Assisted Development, MCP Servers, and Rails 8 Workflows"
 parent: "Articles"
-nav_order: 890
+nav_order: 540
 type: Technical Article
 timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-ruby-on-rails-agent-assisted-development-mcp-servers-rails-8-workflows"

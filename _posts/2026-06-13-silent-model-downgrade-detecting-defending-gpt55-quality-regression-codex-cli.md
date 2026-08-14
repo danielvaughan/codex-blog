@@ -1,7 +1,7 @@
 ---
 title: "The Silent Model Downgrade Problem: Detecting and Defending Against GPT-5.5 Quality Regression in Codex CLI Workflows"
 parent: "Articles"
-nav_order: 1095
+nav_order: 740
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-silent-model-downgrade-detecting-defending-gpt55-quality-regression-codex-cli"

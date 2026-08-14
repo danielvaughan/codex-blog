@@ -2,7 +2,7 @@
 title: "Codex CLI TUI Customisation: Keymaps, Themes, Status Lines and Terminal Titles"
 description: "Codex CLI's terminal user interface ships with sensible defaults, but developers who spend hours inside the TUI each day quickly want control over."
 parent: "Articles"
-nav_order: 547
+nav_order: 296
 type: Technical Article
 timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-tui-customisation-keymaps-themes-status-lines"

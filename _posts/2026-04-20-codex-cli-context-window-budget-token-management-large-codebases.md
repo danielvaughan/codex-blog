@@ -2,7 +2,7 @@
 title: "The Model Context Window Budget: Practical Token Management for Large Codebases"
 description: "Every agentic coding session is a budgeting exercise. Your model has a finite context window."
 parent: "Articles"
-nav_order: 362
+nav_order: 111
 type: Technical Article
 timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-context-window-budget-token-management-large-codebases"

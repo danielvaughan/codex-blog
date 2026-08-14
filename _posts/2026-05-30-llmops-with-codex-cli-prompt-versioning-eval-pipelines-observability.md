@@ -1,7 +1,7 @@
 ---
 title: "LLMOps with Codex CLI: Prompt Versioning, Eval Pipelines, and Production Observability"
 parent: "Articles"
-nav_order: 939
+nav_order: 589
 type: Technical Article
 timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-llmops-with-codex-cli-prompt-versioning-eval-pipelines-observability"

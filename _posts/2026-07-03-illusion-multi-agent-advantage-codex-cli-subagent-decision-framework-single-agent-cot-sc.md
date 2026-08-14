@@ -1,7 +1,7 @@
 ---
 title: "The Illusion of Multi-Agent Advantage: When Codex CLI Subagents Help and When a Single Agent Wins"
 parent: "Articles"
-nav_order: 1317
+nav_order: 953
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-illusion-multi-agent-advantage-codex-cli-subagent-decision-framework-single-agent-cot-sc"

@@ -1,7 +1,7 @@
 ---
 title: "ICAE-Bench and the Information-to-Execution Gap: What 480 Interactive Tasks Reveal About Your Coding Agent's Real Weakness"
 parent: "Articles"
-nav_order: 1655
+nav_order: 1272
 tags: ["codex-cli", "ICAE-Bench", "benchmarks", "vibe-coding", "fuzzy-requirements", "AGENTS.md", "test-scaffolding", "interactive-agents", "information-to-execution-gap"]
 ---
 

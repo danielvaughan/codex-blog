@@ -1,7 +1,7 @@
 ---
 title: "Metaprogramming as Survival Strategy: What the EsoLang-Bench Study Means for Codex CLI Generator Pipelines and Sandbox Configuration"
 parent: "Articles"
-nav_order: 1150
+nav_order: 795
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-metaprogramming-esoteric-languages-frontier-coding-agents-codex-cli-generator-sandbox-strategy"

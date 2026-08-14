@@ -2,7 +2,7 @@
 title: "Codex as a Proactive Teammate: Thread Automations, Scheduled Monitoring, and Durable Views"
 description: "Most developers still treat Codex as a reactive tool: open a session, issue a prompt, close the session."
 parent: "Articles"
-nav_order: 1512
+nav_order: 1128
 type: Technical Article
 timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-proactive-teammate-thread-automations-scheduled-monitoring-durable-views"

@@ -2,7 +2,7 @@
 title: "Codex CLI with Linear MCP: Sprint Automation, Issue Decomposition, and Cycle-Driven Development"
 description: "Senior developers who live in the terminal face a context-switching tax every time they tab into a browser to check sprint status, decompose an epic."
 parent: "Articles"
-nav_order: 754
+nav_order: 426
 type: Technical Article
 timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-linear-mcp-sprint-automation-issue-decomposition-cycle-workflows"

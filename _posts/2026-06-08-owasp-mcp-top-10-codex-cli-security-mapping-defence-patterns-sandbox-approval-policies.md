@@ -1,7 +1,7 @@
 ---
 title: "The OWASP MCP Top 10 and Codex CLI: Mapping Every Risk to a Concrete Defence"
 parent: "Articles"
-nav_order: 1036
+nav_order: 686
 type: Technical Article
 timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-owasp-mcp-top-10-codex-cli-security-mapping-defence-patterns-sandbox-approval-policies"

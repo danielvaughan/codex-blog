@@ -1,7 +1,7 @@
 ---
 title: "Persistent Recursive Worlds and Autonomous Software Evolution: What a 250k-Line Compiler Built by Finite-Lived Agents Means for Codex CLI's Session Architecture"
 parent: "Articles"
-nav_order: 1837
+nav_order: 1484
 tags: ["codex-cli", "long-horizon", "persistent-worlds", "session-lifecycle", "context-compaction", "autonomous-evolution", "Genesis", "agent-architecture"]
 ---
 

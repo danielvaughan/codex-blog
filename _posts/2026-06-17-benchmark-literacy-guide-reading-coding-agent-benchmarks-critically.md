@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Literacy: A Practitioner's Guide to Reading Coding Agent Benchmarks Critically"
 parent: "Articles"
-nav_order: 1143
+nav_order: 788
 type: Technical Article
 timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-benchmark-literacy-guide-reading-coding-agent-benchmarks-critically"

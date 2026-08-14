@@ -1,7 +1,7 @@
 ---
 title: "Neutral Prompting Attacks: When Your Codex CLI Skills Become the Supply Chain Weapon — and Three Defences That Close the Gap"
 parent: "Articles"
-nav_order: 1261
+nav_order: 900
 type: Technical Article
 timestamp: 2026-06-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-28-neutral-prompting-attacks-stealthy-hallucination-steering-codex-cli-skills-packmonitor-supply-chain-defence"

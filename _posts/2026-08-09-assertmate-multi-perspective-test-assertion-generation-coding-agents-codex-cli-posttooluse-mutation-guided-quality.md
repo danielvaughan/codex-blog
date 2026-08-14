@@ -1,7 +1,7 @@
 ---
 title: "AssertMate and the Assertion Quality Gap: Why Your Coding Agent's Tests Pass but Catch Nothing — and How Multi-Perspective Assertion Generation Maps to Codex CLI"
 parent: "Articles"
-nav_order: 1720
+nav_order: 1346
 tags: ["codex-cli", "test-generation", "assertions", "mutation-testing", "agent-quality", "PostToolUse", "AGENTS.md", "AssertMate"]
 ---
 

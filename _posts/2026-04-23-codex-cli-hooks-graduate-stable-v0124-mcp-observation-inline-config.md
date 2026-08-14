@@ -2,7 +2,7 @@
 title: "Codex CLI Hooks Graduate to Stable: MCP Observation, Inline Config, and Auto-Review in v0.124"
 description: "With the release of Codex CLI v0.124.0 on 23 April 2026, hooks have officially graduated from experimental to stable."
 parent: "Articles"
-nav_order: 382
+nav_order: 131
 type: Technical Article
 timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-codex-cli-hooks-graduate-stable-v0124-mcp-observation-inline-config"

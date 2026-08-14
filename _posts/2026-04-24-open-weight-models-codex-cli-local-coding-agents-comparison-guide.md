@@ -2,7 +2,7 @@
 title: "Open-Weight Models for Codex CLI: Choosing the Right Local Coding Agent in 2026"
 description: "The open-weight model landscape for agentic coding has shifted dramatically in the past six months."
 parent: "Articles"
-nav_order: 392
+nav_order: 141
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-open-weight-models-codex-cli-local-coding-agents-comparison-guide"

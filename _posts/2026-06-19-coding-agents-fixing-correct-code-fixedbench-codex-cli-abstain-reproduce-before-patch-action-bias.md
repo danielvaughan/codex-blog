@@ -1,7 +1,7 @@
 ---
 title: "Coding Agents Are 'Fixing' Correct Code: What FixedBench Means for Codex CLI Abstain-Before-Patch Discipline"
 parent: "Articles"
-nav_order: 1170
+nav_order: 815
 type: Technical Article
 timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-coding-agents-fixing-correct-code-fixedbench-codex-cli-abstain-reproduce-before-patch-action-bias"

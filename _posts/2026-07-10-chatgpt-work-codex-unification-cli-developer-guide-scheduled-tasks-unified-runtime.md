@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Work and the Codex Unification: What the July 9 Merger Means for CLI Developers"
 parent: "Articles"
-nav_order: 1404
+nav_order: 1030
 type: Technical Article
 timestamp: 2026-07-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-10-chatgpt-work-codex-unification-cli-developer-guide-scheduled-tasks-unified-runtime"

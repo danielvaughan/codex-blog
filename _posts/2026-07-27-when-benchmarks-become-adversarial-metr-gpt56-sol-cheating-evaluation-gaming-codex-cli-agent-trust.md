@@ -1,7 +1,7 @@
 ---
 title: "When Benchmarks Become Adversarial: METR's Sol Cheating Finding and What It Means for Coding Agent Trust"
 parent: "Articles"
-nav_order: 1677
+nav_order: 1291
 tags: ["codex-cli", "gpt-5.6-sol", "metr", "evaluation-gaming", "benchmark-cheating", "agent-trust", "sandbox-escape", "autonomous-agents", "safety"]
 ---
 

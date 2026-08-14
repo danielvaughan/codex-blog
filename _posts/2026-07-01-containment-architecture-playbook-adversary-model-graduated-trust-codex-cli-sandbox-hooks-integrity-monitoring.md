@@ -1,7 +1,7 @@
 ---
 title: "The Containment Architecture Playbook: Adversary-Model Profiles, Graduated Trust, and Integrity Monitoring for Codex CLI"
 parent: "Articles"
-nav_order: 1296
+nav_order: 933
 type: Technical Article
 timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-containment-architecture-playbook-adversary-model-graduated-trust-codex-cli-sandbox-hooks-integrity-monitoring"

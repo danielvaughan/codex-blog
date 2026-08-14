@@ -1,7 +1,7 @@
 ---
 title: "Verifiable Literate Programming: What VLP's Three-Layer Validation Reveals About Human-in-the-Loop Code Review — and How to Wire Equivalent Gates in Codex CLI"
 parent: "Articles"
-nav_order: 1372
+nav_order: 998
 tags: ["codex-cli", "verifiable-literate-programming", "code-validation", "human-in-the-loop", "hooks", "PostToolUse", "auto-review", "plan-mode", "literate-programming", "formal-verification"]
 ---
 

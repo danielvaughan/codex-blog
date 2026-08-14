@@ -2,7 +2,7 @@
 title: "Automated Accessibility Testing with Codex CLI: WCAG Compliance from Code Generation to CI Gate"
 description: "As of 24 April 2026 the US Title II ADA deadline requires public entities serving populations of 50,000 or more to meet WCAG 2.1 Level AA conformance."
 parent: "Articles"
-nav_order: 407
+nav_order: 156
 type: Technical Article
 timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-accessibility-testing-wcag-compliance-axe-mcp"

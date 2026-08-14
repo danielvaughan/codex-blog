@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.134.0 Release Guide: Conversation History Search, MCP Concurrency, and Profile Migration"
 parent: "Articles"
-nav_order: 885
+nav_order: 535
 type: Technical Article
 timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-v0134-release-guide-conversation-history-search-mcp-concurrency-profile-migration"

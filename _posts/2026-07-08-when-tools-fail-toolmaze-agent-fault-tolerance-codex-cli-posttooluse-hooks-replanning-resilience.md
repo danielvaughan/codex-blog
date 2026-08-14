@@ -1,7 +1,7 @@
 ---
 title: "When Tools Fail: What TOOLMAZE Reveals About the Replanning Deficit in LLM Agents — and How to Wire Fault Tolerance into Codex CLI"
 parent: "Articles"
-nav_order: 1383
+nav_order: 1009
 tags: ["codex-cli", "tool-failure", "fault-tolerance", "TOOLMAZE", "replanning", "PostToolUse", "hooks", "agent-resilience", "ToolBench-X"]
 ---
 

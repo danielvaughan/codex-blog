@@ -2,7 +2,7 @@
 title: "Codex CLI Web Search Configuration: Cached vs Live Modes, Domain Allow-Lists, and Prompt Injection Defence"
 description: "Every coding agent eventually needs to look something up. A deprecated API flag, a new framework release, an unfamiliar error code — the model's training."
 parent: "Articles"
-nav_order: 642
+nav_order: 347
 type: Technical Article
 timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-web-search-configuration-cached-live-domain-allow-lists-prompt-injection-defence"

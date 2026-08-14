@@ -2,7 +2,7 @@
 title: "Codex Mobile: Remote Agent Control from Your Phone via the ChatGPT App"
 description: "On 14 May 2026, OpenAI shipped Codex inside the ChatGPT mobile app for iPhone, iPad, and Android — rolling it out in preview across all plans, including."
 parent: "Articles"
-nav_order: 1511
+nav_order: 1127
 type: Technical Article
 timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-mobile-chatgpt-app-relay-architecture-remote-agent-control"

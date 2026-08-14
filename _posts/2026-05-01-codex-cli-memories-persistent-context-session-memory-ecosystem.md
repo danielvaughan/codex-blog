@@ -2,7 +2,7 @@
 title: "Codex CLI Memories: Native Session Persistence, Third-Party Memory MCP Servers, and Cross-Session Context Strategies"
 description: "Every Codex CLI session starts with a blank slate. AGENTS.md and skills provide static context — project conventions, coding standards, tool preferences."
 parent: "Articles"
-nav_order: 516
+nav_order: 265
 type: Technical Article
 timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-memories-persistent-context-session-memory-ecosystem"

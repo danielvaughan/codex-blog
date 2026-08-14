@@ -1,7 +1,7 @@
 ---
 title: "Dependency Steering Attacks and Slopsquatting: How Malicious Skills Weaponise Package Hallucinations — and How Codex CLI's Defence Stack Fights Back"
 parent: "Articles"
-nav_order: 1388
+nav_order: 1014
 tags: ["codex-cli", "security", "supply-chain", "dependency-steering", "slopsquatting", "package-hallucination", "sandbox", "approval-policy", "hooks"]
 ---
 

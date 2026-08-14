@@ -1,7 +1,7 @@
 ---
 title: "The Vercel Skills CLI and the Open Agent Skills Ecosystem: Installing, Managing, and Publishing Skills for Codex CLI"
 parent: "Articles"
-nav_order: 1529
+nav_order: 1145
 type: Technical Article
 timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-vercel-skills-cli-npx-skills-open-agent-skills-ecosystem"

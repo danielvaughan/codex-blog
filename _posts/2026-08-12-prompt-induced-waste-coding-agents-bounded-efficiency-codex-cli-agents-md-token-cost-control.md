@@ -1,7 +1,7 @@
 ---
 title: "Prompt-Induced Waste in Coding Agents: Why Your Instructions Are Burning Tokens — and How Bounded-Efficiency Prompts Cut the Bill in Codex CLI"
 parent: "Articles"
-nav_order: 1754
+nav_order: 1388
 tags: ["codex-cli", "prompt-induced-waste", "token-efficiency", "AGENTS.md", "bounded-efficiency", "reasoning-models", "cost-control", "prompt-engineering"]
 ---
 

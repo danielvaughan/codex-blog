@@ -2,7 +2,7 @@
 title: "Transferring ChatGPT Conversations to Codex CLI"
 description: "Many developers start their thinking in ChatGPT — brainstorming architecture, researching APIs, sketching out approaches with web search — then need to hand."
 parent: "Articles"
-nav_order: 334
+nav_order: 83
 type: Technical Article
 timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-transferring-chatgpt-conversations-to-codex-cli"

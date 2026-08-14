@@ -1,7 +1,7 @@
 ---
 title: "Addressable Recall Compaction: Why Lossless Context Management Changes the Game for Codex CLI Long Sessions"
 parent: "Articles"
-nav_order: 1722
+nav_order: 1350
 tags: ["codex-cli", "context-compaction", "arc", "lossless-memory", "long-sessions", "observation-store", "addressable-recall", "context-window", "agent-memory"]
 ---
 

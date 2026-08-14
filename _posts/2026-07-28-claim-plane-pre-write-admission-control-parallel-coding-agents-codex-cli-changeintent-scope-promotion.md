@@ -1,7 +1,7 @@
 ---
 title: "Claim Plane and Pre-Write Admission Control: Why Parallel Coding Agents Need Coordination Before the First Keystroke"
 parent: "Articles"
-nav_order: 1589
+nav_order: 1206
 tags: ["codex-cli", "multi-agent", "parallel-agents", "coordination", "claim-plane", "worktrees", "merge-conflicts", "changeintent", "admission-control"]
 ---
 

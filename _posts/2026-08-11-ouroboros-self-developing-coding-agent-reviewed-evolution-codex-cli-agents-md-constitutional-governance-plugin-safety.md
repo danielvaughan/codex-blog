@@ -1,7 +1,7 @@
 ---
 title: "Ouroboros and the Self-Developing Agent: Why Reviewed Core Evolution Changes the Game — and How Codex CLI's Governance Layers Compare"
 parent: "Articles"
-nav_order: 1829
+nav_order: 1476
 tags: ["codex-cli", "ouroboros", "self-evolving-agents", "agent-safety", "governance", "AGENTS.md", "agent-plugins", "reviewed-evolution"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "The June–July 2026 Model Sunset: Migrating from GPT-5.2 and GPT-5.2-Codex in Your Codex CLI Workflows"
 parent: "Articles"
-nav_order: 953
+nav_order: 603
 type: Technical Article
 timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-june-2026-model-sunset-gpt52-gpt52codex-migration-checklist"

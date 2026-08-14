@@ -1,7 +1,7 @@
 ---
 title: "Beyond Token Budgets: Why Codex CLI Needs Resource Budgets for Disk, I/O, and Process Lifecycle"
 parent: "Articles"
-nav_order: 1230
+nav_order: 872
 type: Technical Article
 timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-codex-cli-resource-budgets-beyond-tokens-disk-io-process-lifecycle-observability"

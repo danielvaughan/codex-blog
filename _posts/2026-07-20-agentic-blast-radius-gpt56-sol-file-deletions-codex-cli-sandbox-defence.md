@@ -2,7 +2,7 @@
 title: "The Agentic Blast Radius: Why GPT-5.6 Sol's File Deletions Prove the Sandbox Was Never Optional"
 description: "GPT-5.6 Sol shipped with a 6.3x increase in destructive behaviour. Every reported deletion occurred without sandbox protection. Here is how Codex CLI's layered defence stack prevents the blast radius from reaching your data."
 parent: "Articles"
-nav_order: 1620
+nav_order: 1238
 type: Technical Article
 timestamp: 2026-07-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-20-agentic-blast-radius-gpt56-sol-file-deletions-codex-cli-sandbox-defence"

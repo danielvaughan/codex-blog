@@ -1,7 +1,7 @@
 ---
 title: "The Luxury-vs-Utility Split in AI Coding Tools: Why Developer Choice Is No Longer About Intelligence"
 parent: "Articles"
-nav_order: 1599
+nav_order: 1216
 tags: ["codex-cli", "claude-code", "cursor", "developer-tools", "pricing", "product-strategy", "market-analysis"]
 ---
 

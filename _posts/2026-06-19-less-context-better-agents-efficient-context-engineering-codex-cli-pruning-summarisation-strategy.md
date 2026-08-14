@@ -1,7 +1,7 @@
 ---
 title: "Less Context, Better Agents: What the Microsoft Context Engineering Study Means for Codex CLI Session Strategy"
 parent: "Articles"
-nav_order: 1166
+nav_order: 811
 type: Technical Article
 timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-less-context-better-agents-efficient-context-engineering-codex-cli-pruning-summarisation-strategy"

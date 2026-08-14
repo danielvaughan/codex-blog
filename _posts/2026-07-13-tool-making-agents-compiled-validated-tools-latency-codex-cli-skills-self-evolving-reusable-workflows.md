@@ -1,7 +1,7 @@
 ---
 title: "Tool-Making Agents: How Compiling Repeated Operations into Validated Tools Cuts Latency by 42 per cent — and What Codex CLI's Skills System Already Gets Right"
 parent: "Articles"
-nav_order: 1434
+nav_order: 1057
 tags: ["codex-cli", "tool-making", "self-evolving-agents", "skills", "latency", "deterministic-tools", "SKILL.md", "codex-exec", "production-agents"]
 ---
 

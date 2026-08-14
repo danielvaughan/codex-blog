@@ -1,7 +1,7 @@
 ---
 title: "Terminal Is All You Need: What HCI Research Reveals About Codex CLI's Terminal-First Advantage"
 parent: "Articles"
-nav_order: 1536
+nav_order: 1152
 type: Technical Article
 timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-terminal-is-all-you-need-hci-research-codex-cli-terminal-first-architecture-advantage"

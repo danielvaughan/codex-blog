@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Configuration Anti-Patterns: Twelve Settings Mistakes That Waste Tokens, Break Sandboxes, and Frustrate Your Agent"
 parent: "Articles"
-nav_order: 1077
+nav_order: 722
 type: Technical Article
 timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-cli-configuration-anti-patterns-twelve-settings-mistakes-tokens-sandbox-agent-performance"

@@ -2,7 +2,7 @@
 title: "The Silent Guessing Problem: Why AI Coding Agents Don't Ask Clarifying Questions and What AMBIG-SWE Means for Codex CLI"
 description: "A Carnegie Mellon research team has published one of the most practically important findings for agentic coding in 2026: when given ambiguous instructions."
 parent: "Articles"
-nav_order: 277
+nav_order: 29
 type: Technical Article
 timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-ambig-swe-silent-guessing-problem-codex-cli"

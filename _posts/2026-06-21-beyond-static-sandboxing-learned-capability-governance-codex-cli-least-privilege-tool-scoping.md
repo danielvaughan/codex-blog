@@ -1,7 +1,7 @@
 ---
 title: "Beyond Static Sandboxing: What Learned Capability Governance Means for Codex CLI Least-Privilege Tool Scoping"
 parent: "Articles"
-nav_order: 1184
+nav_order: 826
 type: Technical Article
 timestamp: 2026-06-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-beyond-static-sandboxing-learned-capability-governance-codex-cli-least-privilege-tool-scoping"

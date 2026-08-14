@@ -2,7 +2,7 @@
 title: "SlopCodeBench and Code Quality Degradation: Defending Against Architectural Decay in Long-Horizon Codex CLI Sessions"
 description: "Every practitioner who has run Codex CLI for more than an hour on an evolving feature has felt it."
 parent: "Articles"
-nav_order: 482
+nav_order: 231
 type: Technical Article
 timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-slopcodebench-code-quality-degradation-codex-cli-long-horizon-defence"

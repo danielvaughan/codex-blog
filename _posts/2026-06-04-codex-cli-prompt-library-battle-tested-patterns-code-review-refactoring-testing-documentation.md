@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Prompt Library: 20 Battle-Tested Patterns for Code Review, Refactoring, Testing, and Documentation"
 parent: "Articles"
-nav_order: 981
+nav_order: 631
 type: Technical Article
 timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-prompt-library-battle-tested-patterns-code-review-refactoring-testing-documentation"

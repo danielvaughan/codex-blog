@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Design Pattern Refactoring: Agent-Assisted GoF Patterns, SOLID Enforcement, and Architectural Improvement"
 parent: "Articles"
-nav_order: 1030
+nav_order: 680
 type: Technical Article
 timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-design-pattern-refactoring-gof-solid-agent-assisted-codebase-improvement"

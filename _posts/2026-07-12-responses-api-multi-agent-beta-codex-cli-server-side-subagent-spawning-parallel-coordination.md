@@ -1,7 +1,7 @@
 ---
 title: "The Responses API Multi-Agent Beta: How Server-Side Subagent Spawning Changes Codex CLI's Parallelism Model"
 parent: "Articles"
-nav_order: 1427
+nav_order: 1050
 type: Technical Article
 timestamp: 2026-07-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-12-responses-api-multi-agent-beta-codex-cli-server-side-subagent-spawning-parallel-coordination"

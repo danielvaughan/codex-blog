@@ -2,7 +2,7 @@
 title: "Codex CLI v0.133 Extension Lifecycle Events: Building Observability Plugins with SubagentStart, ToolExecution, and TurnMetadata"
 description: "Before v0.133, Codex CLI's hook system gave plugins six interception points: SessionStart, PreToolUse, PostToolUse, PermissionRequest, UserPromptSubmit."
 parent: "Articles"
-nav_order: 813
+nav_order: 477
 type: Technical Article
 timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-v0133-extension-lifecycle-events-observability-plugins-subagent-tool-turn-metadata"

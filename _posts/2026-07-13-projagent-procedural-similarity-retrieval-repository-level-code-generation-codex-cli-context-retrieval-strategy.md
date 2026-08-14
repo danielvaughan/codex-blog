@@ -1,7 +1,7 @@
 ---
 title: "Beyond Lexical Matching: How Procedural Similarity Retrieval Outperforms Traditional Context Selection — and What It Means for Codex CLI's Repository Strategy"
 parent: "Articles"
-nav_order: 1560
+nav_order: 1176
 tags: ["codex-cli", "repository-level-code-generation", "procedural-similarity", "context-retrieval", "ProjAgent", "RAG", "REPOCOD"]
 ---
 

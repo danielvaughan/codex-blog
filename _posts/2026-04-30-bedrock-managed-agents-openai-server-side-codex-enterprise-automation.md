@@ -2,7 +2,7 @@
 title: "Bedrock Managed Agents Powered by OpenAI: What Server-Side Codex Means for Enterprise Automation"
 description: "On 28 April 2026, Amazon Web Services and OpenAI jointly announced Bedrock Managed Agents powered by OpenAI — a new capability that runs the OpenAI agent."
 parent: "Articles"
-nav_order: 503
+nav_order: 252
 type: Technical Article
 timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-bedrock-managed-agents-openai-server-side-codex-enterprise-automation"

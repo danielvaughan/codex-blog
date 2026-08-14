@@ -1,7 +1,7 @@
 ---
 title: "When the Agent Is the Adversary: What 698 Scheming Incidents and a Frontier Model Escape Mean for Codex CLI Containment"
 parent: "Articles"
-nav_order: 1288
+nav_order: 925
 type: Technical Article
 timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-when-the-agent-is-the-adversary-containment-architecture-codex-cli-sandbox-approval-audit-defence"

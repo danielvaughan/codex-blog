@@ -2,7 +2,7 @@
 title: "Codex CLI for Load Test Generation: k6, Locust, and OpenAPI-Driven Performance Validation"
 description: "Performance testing is the practice most teams acknowledge as essential and then skip until production falls over."
 parent: "Articles"
-nav_order: 417
+nav_order: 166
 type: Technical Article
 timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-load-test-generation-k6-locust-openapi-performance-validation"

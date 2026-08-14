@@ -2,7 +2,7 @@
 title: "Workspace Agents and Codex Slack Integration: From CLI Automations to Team-Shared Agentic Workflows"
 description: "On 22 April 2026, OpenAI launched workspace agents — shared, persistent agents powered by Codex that run in the cloud and integrate directly into Slack."
 parent: "Articles"
-nav_order: 385
+nav_order: 134
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-workspace-agents-codex-cli-slack-team-shared-agentic-workflows"

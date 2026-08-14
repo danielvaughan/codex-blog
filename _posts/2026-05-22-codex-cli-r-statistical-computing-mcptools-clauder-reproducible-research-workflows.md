@@ -2,7 +2,7 @@
 title: "Codex CLI for R and Statistical Computing: mcptools, ClaudeR, and Reproducible Research Workflows"
 description: "R remains the lingua franca of statistical computing, biostatistics, and quantitative social science. Yet most AI coding-agent content targets Python."
 parent: "Articles"
-nav_order: 836
+nav_order: 486
 type: Technical Article
 timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-r-statistical-computing-mcptools-clauder-reproducible-research-workflows"

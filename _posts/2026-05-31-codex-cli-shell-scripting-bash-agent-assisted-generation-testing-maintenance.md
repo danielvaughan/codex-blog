@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Shell Scripting: Agent-Assisted Bash Generation, Testing, and Maintenance"
 parent: "Articles"
-nav_order: 1527
+nav_order: 1143
 type: Technical Article
 timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-shell-scripting-bash-agent-assisted-generation-testing-maintenance"

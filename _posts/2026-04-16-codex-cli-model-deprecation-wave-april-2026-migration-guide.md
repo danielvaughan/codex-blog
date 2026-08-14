@@ -2,7 +2,7 @@
 title: "The April 2026 Model Deprecation Wave: Migrating Your Codex CLI Configuration"
 description: "On 14 April 2026, OpenAI completed the largest model retirement in Codex CLI's history. Six models — gpt-5.2-codex, gpt-5.1-codex-mini, gpt-5.1-codex-max."
 parent: "Articles"
-nav_order: 296
+nav_order: 47
 type: Technical Article
 timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-cli-model-deprecation-wave-april-2026-migration-guide"

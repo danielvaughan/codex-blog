@@ -1,7 +1,7 @@
 ---
 title: "Self-Reflective APIs: Why Structured Error Recovery Beats Plain English for Coding Agents — and How to Build It into Codex CLI"
 parent: "Articles"
-nav_order: 1749
+nav_order: 1379
 tags: ["codex-cli", "self-reflective-apis", "error-recovery", "PostToolUse", "hooks", "structured-feedback", "tool-use", "agent-reliability"]
 ---
 

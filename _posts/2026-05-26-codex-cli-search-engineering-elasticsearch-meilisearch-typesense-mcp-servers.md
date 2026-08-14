@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Search Engineering: Elasticsearch, Meilisearch, and Typesense MCP Servers"
 parent: "Articles"
-nav_order: 875
+nav_order: 525
 type: Technical Article
 timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-search-engineering-elasticsearch-meilisearch-typesense-mcp-servers"

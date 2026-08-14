@@ -1,7 +1,7 @@
 ---
 title: "The Protocol Stack Under Your Agent: What a New Taxonomy of LLM Communication Protocols Reveals About Codex CLI's Architecture"
 parent: "Articles"
-nav_order: 1217
+nav_order: 859
 type: Technical Article
 timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-llm-agent-communication-protocol-taxonomy-codex-cli-protocol-stack-mcp-app-server-architecture"

@@ -1,7 +1,7 @@
 ---
 title: "From One Year to Two Weeks: How Wasmer Built Edge.js with Codex CLI and What Systems Programmers Should Learn from It"
 parent: "Articles"
-nav_order: 1049
+nav_order: 699
 type: Technical Article
 timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-wasmer-edge-js-case-study-codex-cli-systems-programming-webassembly-runtime-two-weeks"

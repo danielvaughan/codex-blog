@@ -1,7 +1,7 @@
 ---
 title: "OpenCodeReview and the Determinism Dividend: Why Rule-Guided Dispatch Plus Independent Reflection Beats Unconstrained Agent Review — and How to Wire It into Codex CLI"
 parent: "Articles"
-nav_order: 1826
+nav_order: 1471
 tags: ["codex-cli", "code-review", "determinism", "opencodereview", "aacr-bench", "precision", "signal-to-noise", "agent-architecture", "hooks"]
 ---
 

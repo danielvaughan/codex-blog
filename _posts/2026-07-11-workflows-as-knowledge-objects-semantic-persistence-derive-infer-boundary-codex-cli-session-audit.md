@@ -1,7 +1,7 @@
 ---
 title: "Workflows as Knowledge Objects: Why Semantic Persistence and the Derive/Infer Boundary Matter for Your Codex CLI Sessions"
 parent: "Articles"
-nav_order: 1414
+nav_order: 1040
 tags: ["codex-cli", "workflow-persistence", "session-audit", "derive-infer", "semantic-persistence", "AGENTS.md", "JSONL", "durable-execution"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Configurable TUI Keymaps in Codex CLI: Custom Keyboard Shortcuts for Every Context"
 description: "Codex CLI 0.128.0 shipped configurable TUI keymaps on 30 April 2026, closing one of the longest-running feature requests in the repository."
 parent: "Articles"
-nav_order: 601
+nav_order: 313
 type: Technical Article
 timestamp: 2026-05-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-codex-cli-configurable-tui-keymaps-custom-keyboard-shortcuts"

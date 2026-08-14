@@ -2,7 +2,7 @@
 title: "RTK and Codex CLI: Killing Token Waste at the Shell Boundary"
 description: "Run git log --oneline -20 in a Codex CLI session and watch what happens. Twenty commit hashes, twenty author names, twenty dates, twenty subject lines."
 parent: "Articles"
-nav_order: 780
+nav_order: 449
 type: Technical Article
 timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-rtk-codex-cli-token-optimisation-shell-output-compression"

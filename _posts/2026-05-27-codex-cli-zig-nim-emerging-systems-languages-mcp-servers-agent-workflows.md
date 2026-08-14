@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Zig and Nim: MCP Servers, Agent Skills, and Emerging Systems Language Workflows"
 parent: "Articles"
-nav_order: 881
+nav_order: 531
 type: Technical Article
 timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-zig-nim-emerging-systems-languages-mcp-servers-agent-workflows"

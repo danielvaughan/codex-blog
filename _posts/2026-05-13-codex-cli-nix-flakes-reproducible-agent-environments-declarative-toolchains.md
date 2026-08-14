@@ -2,7 +2,7 @@
 title: "Codex CLI on NixOS: Reproducible Agent Environments with Nix Flakes, Declarative Toolchains, and Hermetic Development Shells"
 description: "Every senior engineer has encountered the works on my machine problem. With AI coding agents."
 parent: "Articles"
-nav_order: 695
+nav_order: 386
 type: Technical Article
 timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-nix-flakes-reproducible-agent-environments-declarative-toolchains"

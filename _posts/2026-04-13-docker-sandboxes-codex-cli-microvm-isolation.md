@@ -2,7 +2,7 @@
 title: "Docker Sandboxes for Codex CLI: MicroVM Isolation, the sbx CLI, and When to Use External Sandboxing"
 description: "Codex CLI ships with one of the strongest built-in sandboxes in the AI coding agent space — Landlock plus seccomp on Linux, Seatbelt on macOS, restricted."
 parent: "Articles"
-nav_order: 272
+nav_order: 25
 type: Technical Article
 timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-docker-sandboxes-codex-cli-microvm-isolation"

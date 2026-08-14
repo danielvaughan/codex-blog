@@ -2,7 +2,7 @@
 title: "SWE-PolyBench and the Polyglot Performance Gap: What Multi-Language Benchmarks Reveal About Codex CLI's Real-World Effectiveness"
 description: "Amazon's SWE-PolyBench exposes a stark performance gap when coding agents move beyond Python. Here is what the data means for Codex CLI users working in JavaScript, TypeScript, and Java — and how to close the gap with language-aware configuration."
 parent: "Articles"
-nav_order: 1214
+nav_order: 856
 type: Technical Article
 timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-swe-polybench-multi-language-benchmark-codex-cli-polyglot-performance-gap-agents-md-language-strategy"

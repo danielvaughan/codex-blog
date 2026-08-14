@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.136 Production Hardening Checklist: Security, Performance, and Reliability for Enterprise Teams"
 parent: "Articles"
-nav_order: 980
+nav_order: 630
 type: Technical Article
 timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-v0136-production-hardening-checklist-security-performance-reliability-enterprise"

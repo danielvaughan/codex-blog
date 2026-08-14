@@ -2,7 +2,7 @@
 title: "Kiro CLI 2.0 vs Codex CLI: Spec-Driven Development Meets Terminal-First Autonomy"
 description: "The terminal agent landscape shifted again this week. AWS released Kiro CLI 2.0 with headless mode, Windows support, and a refreshed terminal UI — the same."
 parent: "Articles"
-nav_order: 550
+nav_order: 299
 type: Technical Article
 timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-kiro-cli-2-vs-codex-cli-spec-driven-terminal-first-comparison"

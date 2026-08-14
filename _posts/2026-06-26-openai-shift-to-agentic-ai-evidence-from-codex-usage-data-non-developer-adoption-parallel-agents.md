@@ -1,7 +1,7 @@
 ---
 title: "The Shift to Agentic AI: What OpenAI's Internal Usage Data Reveals About Codex Adoption, Parallel Agent Orchestration, and the Non-Developer Surge"
 parent: "Articles"
-nav_order: 1240
+nav_order: 882
 type: Technical Article
 timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-openai-shift-to-agentic-ai-evidence-from-codex-usage-data-non-developer-adoption-parallel-agents"

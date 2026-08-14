@@ -1,7 +1,7 @@
 ---
 title: "Graph-Guided Trajectory Repair: What AgentTether Reveals About Diagnosing Agent Failures — and How to Wire Equivalent Recovery into Codex CLI"
 parent: "Articles"
-nav_order: 1384
+nav_order: 1010
 tags: ["codex-cli", "agent-reliability", "trajectory-repair", "AgentTether", "PostToolUse-hooks", "repair-memory", "runtime-intervention", "critical-transition-graph", "failure-localisation"]
 ---
 

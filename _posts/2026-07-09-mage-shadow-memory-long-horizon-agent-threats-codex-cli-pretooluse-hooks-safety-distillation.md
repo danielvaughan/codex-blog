@@ -1,7 +1,7 @@
 ---
 title: "Shadow Memory for Long-Horizon Agent Safety: What MAGE Reveals About Persistent Threat Detection — and How to Wire Equivalent Guardrails into Codex CLI"
 parent: "Articles"
-nav_order: 1391
+nav_order: 1017
 tags: ["codex-cli", "agent-security", "shadow-memory", "long-horizon-threats", "pretooluse-hooks", "prompt-injection", "MAGE", "guardrails"]
 ---
 

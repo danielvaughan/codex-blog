@@ -1,7 +1,7 @@
 ---
 title: "Cross-Benchmark Generalization in Agentic RL: Why Training on Office Tasks Makes Coding Agents Better — and What It Means for Codex CLI Model Selection"
 parent: "Articles"
-nav_order: 1823
+nav_order: 1467
 tags: ["codex-cli", "agentic-rl", "cross-benchmark", "generalization", "model-selection", "long-horizon", "transfer-learning", "named-profiles"]
 ---
 

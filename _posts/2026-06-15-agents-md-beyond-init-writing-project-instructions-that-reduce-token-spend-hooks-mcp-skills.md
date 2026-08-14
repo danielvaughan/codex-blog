@@ -1,7 +1,7 @@
 ---
 title: "AGENTS.md Beyond /init: Writing Project Instructions That Actually Reduce Token Spend"
 parent: "Articles"
-nav_order: 1119
+nav_order: 764
 description: "The /init scaffold is a starting point, not a destination. This guide covers the sections /init misses — hook policies, MCP server context, skill routing, goal boundaries — and the Princeton evidence that well-written AGENTS.md files cut runtime by 29% and tokens by 17%."
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00

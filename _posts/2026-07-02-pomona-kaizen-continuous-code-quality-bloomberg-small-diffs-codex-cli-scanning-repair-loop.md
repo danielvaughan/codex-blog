@@ -1,7 +1,7 @@
 ---
 title: "Pomona and the Kaizen Loop: What Bloomberg's Tiny-Diff Code Quality Agent Teaches Us About Building Scanning-Repair Workflows with Codex CLI"
 parent: "Articles"
-nav_order: 1305
+nav_order: 941
 type: Technical Article
 timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-pomona-kaizen-continuous-code-quality-bloomberg-small-diffs-codex-cli-scanning-repair-loop"

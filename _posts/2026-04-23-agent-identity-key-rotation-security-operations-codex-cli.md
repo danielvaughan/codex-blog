@@ -2,7 +2,7 @@
 title: "Agent Identity Key Rotation and Security Operations for Codex CLI"
 description: "The v0.123 release of Codex CLI introduced AuthMode::AgentIdentity, giving each agent its own Ed25519 key pair and replacing forwarded bearer tokens with."
 parent: "Articles"
-nav_order: 380
+nav_order: 129
 type: Technical Article
 timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-agent-identity-key-rotation-security-operations-codex-cli"

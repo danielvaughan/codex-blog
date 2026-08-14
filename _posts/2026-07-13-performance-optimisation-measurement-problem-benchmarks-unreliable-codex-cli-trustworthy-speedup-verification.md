@@ -1,7 +1,7 @@
 ---
 title: "The Performance Optimisation Measurement Problem: Why Your Agent's Speedup Numbers Might Be Meaningless — and How to Build Trustworthy Optimisation Workflows with Codex CLI"
 parent: "Articles"
-nav_order: 1433
+nav_order: 1056
 tags: ["codex-cli", "performance-optimisation", "benchmarks", "PERFOPT-Bench", "GSO", "SWE-Perf", "speedup-verification", "profiling", "PostToolUse-hooks"]
 ---
 

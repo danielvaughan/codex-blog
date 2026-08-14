@@ -2,7 +2,7 @@
 title: "PMCoder and the Plan-Memory Coupling: Why Bidirectional Phase-Aware Retrieval Beats Flat Context — and How to Wire It into Codex CLI"
 description: "PMCoder couples hierarchical planning with episodic memory so that the current phase shapes what the agent remembers and accumulated evidence triggers replanning. Here is how to map that architecture to Codex CLI hooks, AGENTS.md, and plan mode."
 parent: "Articles"
-nav_order: 1821
+nav_order: 1465
 tags: ["codex-cli", "PMCoder", "episodic-memory", "planning", "phase-retrieval", "execution-grounding", "SWE-bench", "PostToolUse", "AGENTS.md", "context-management"]
 ---
 

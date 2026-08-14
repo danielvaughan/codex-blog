@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Firebase Development: MCP Server, Agent Skills, and Full-Stack Workflows"
 parent: "Articles"
-nav_order: 864
+nav_order: 514
 type: Technical Article
 timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-firebase-development-mcp-server-agent-skills-fullstack-workflows"

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Session Lifecycle: Archive, Resume, Fork, and Rollout Persistence"
 parent: "Articles"
-nav_order: 1032
+nav_order: 682
 type: Technical Article
 timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-session-lifecycle-archive-resume-fork-rollout-persistence-management"

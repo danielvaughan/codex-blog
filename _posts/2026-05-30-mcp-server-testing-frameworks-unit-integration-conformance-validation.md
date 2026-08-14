@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Testing Frameworks: Unit Testing, Integration Testing, and Conformance Validation"
 parent: "Articles"
-nav_order: 916
+nav_order: 566
 type: Technical Article
 timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-mcp-server-testing-frameworks-unit-integration-conformance-validation"

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Exit Codes and Error Handling: Building Resilient Shell Scripts and CI Pipelines Around Agent Failures"
 parent: "Articles"
-nav_order: 1086
+nav_order: 731
 type: Technical Article
 timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-cli-exit-codes-error-handling-resilient-shell-scripts-ci-pipeline-automation"

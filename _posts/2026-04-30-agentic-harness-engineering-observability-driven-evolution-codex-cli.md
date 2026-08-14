@@ -2,7 +2,7 @@
 title: "Agentic Harness Engineering: What Observability-Driven Evolution Means for Your Codex CLI Configuration"
 description: "A paper published on 29 April 2026 by Lin et al. introduces Agentic Harness Engineering (AHE), a closed-loop framework that automatically evolves."
 parent: "Articles"
-nav_order: 504
+nav_order: 253
 type: Technical Article
 timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-agentic-harness-engineering-observability-driven-evolution-codex-cli"

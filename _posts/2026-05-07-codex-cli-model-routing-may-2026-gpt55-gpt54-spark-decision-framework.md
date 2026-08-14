@@ -2,7 +2,7 @@
 title: "Codex CLI Model Routing in May 2026: GPT-5.5, GPT-5.4, Codex-Spark, and When to Use Each"
 description: "The model lineup available to Codex CLI developers has changed materially since March 2026. GPT-5.5 arrived in late April as the new frontier, GPT-5.4."
 parent: "Articles"
-nav_order: 619
+nav_order: 324
 type: Technical Article
 timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-model-routing-may-2026-gpt55-gpt54-spark-decision-framework"

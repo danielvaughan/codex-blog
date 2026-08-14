@@ -1,7 +1,7 @@
 ---
 title: "Well-Architected Security for Coding Agents: A Unified Threat Landscape and Defence Architecture for Codex CLI"
 parent: "Articles"
-nav_order: 1155
+nav_order: 800
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-well-architected-security-coding-agents-codex-cli-unified-threat-landscape-defence-architecture"

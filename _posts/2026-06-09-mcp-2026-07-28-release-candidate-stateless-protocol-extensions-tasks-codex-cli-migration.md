@@ -1,7 +1,7 @@
 ---
 title: "The MCP 2026-07-28 Release Candidate: What the Stateless Protocol, Extensions, and Tasks Mean for Codex CLI Developers"
 parent: "Articles"
-nav_order: 1042
+nav_order: 692
 type: Technical Article
 timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-mcp-2026-07-28-release-candidate-stateless-protocol-extensions-tasks-codex-cli-migration"

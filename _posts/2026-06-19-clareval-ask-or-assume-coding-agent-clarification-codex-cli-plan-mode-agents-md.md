@@ -1,7 +1,7 @@
 ---
 title: "When Coding Agents Should Ask Instead of Guess: What ClarEval and the Uncertainty-Aware Multi-Agent Study Mean for Codex CLI"
 parent: "Articles"
-nav_order: 1162
+nav_order: 807
 type: Technical Article
 timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-clareval-ask-or-assume-coding-agent-clarification-codex-cli-plan-mode-agents-md"

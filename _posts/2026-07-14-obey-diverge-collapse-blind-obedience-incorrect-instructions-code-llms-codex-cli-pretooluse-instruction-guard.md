@@ -1,7 +1,7 @@
 ---
 title: "Obey, Diverge, Collapse: Why Code LLMs Follow Wrong Instructions — and How to Wire Instruction Guards into Codex CLI"
 parent: "Articles"
-nav_order: 1440
+nav_order: 1063
 tags: ["codex-cli", "blind-obedience", "code-llm", "ghost-errors", "semantic-collapse", "PreToolUse", "instruction-validation", "AGENTS.md", "self-repair"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Don't Break the Cache: What the Prompt Caching Research Means for Codex CLI Cost and Latency Optimisation"
 parent: "Articles"
-nav_order: 1169
+nav_order: 814
 type: Technical Article
 timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-dont-break-the-cache-prompt-caching-research-codex-cli-cost-latency-optimisation-agent-loop"

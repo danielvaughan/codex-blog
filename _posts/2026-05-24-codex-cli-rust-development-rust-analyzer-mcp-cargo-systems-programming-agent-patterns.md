@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Rust Development: rust-analyzer MCP, Cargo MCP, and Systems Programming Agent Patterns"
 parent: "Articles"
-nav_order: 857
+nav_order: 507
 type: Technical Article
 timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-rust-development-rust-analyzer-mcp-cargo-systems-programming-agent-patterns"

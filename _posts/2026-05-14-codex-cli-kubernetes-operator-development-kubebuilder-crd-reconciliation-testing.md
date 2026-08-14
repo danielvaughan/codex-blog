@@ -2,7 +2,7 @@
 title: "Codex CLI for Kubernetes Operator Development: Scaffolding CRDs, Writing Reconciliation Loops, and Testing with envtest"
 description: "Building a Kubernetes operator is one of the most structurally demanding tasks in cloud-native Go development. You need a Custom Resource Definition that."
 parent: "Articles"
-nav_order: 708
+nav_order: 399
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-kubernetes-operator-development-kubebuilder-crd-reconciliation-testing"

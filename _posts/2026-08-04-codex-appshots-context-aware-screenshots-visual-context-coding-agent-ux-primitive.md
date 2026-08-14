@@ -1,7 +1,7 @@
 ---
 title: "Appshots: Context-Aware Screenshots and the Visual Context Primitive That Changes How Codex Sees Your Work"
 parent: "Articles"
-nav_order: 1754
+nav_order: 1387
 tags: ["codex-cli", "appshots", "visual-context", "computer-use", "accessibility-api", "screencapturekit", "macos", "developer-ux", "context-engineering"]
 ---
 

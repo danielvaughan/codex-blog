@@ -2,7 +2,7 @@
 title: "Dynamic Model Routing in Codex CLI: Mid-Session Switching, /fast Mode, and Service Tier Workflows"
 description: "Not every turn in a Codex CLI session demands the same model, the same speed, or the same reasoning depth. A planning pass benefits from deep deliberation."
 parent: "Articles"
-nav_order: 264
+nav_order: 17
 type: Technical Article
 timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-dynamic-model-routing-mid-session-switching"

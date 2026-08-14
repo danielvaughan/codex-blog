@@ -1,7 +1,7 @@
 ---
 title: "CodeSentinel and the Code-Context Injection Surface: Why Comments, Strings, and Dead Code Are Your Agent's Blind Spot — and How to Build a Three-Layer Defence in Codex CLI"
 parent: "Articles"
-nav_order: 1813
+nav_order: 1457
 tags: ["codex-cli", "security", "prompt-injection", "CodeSentinel", "PreToolUse", "Tree-sitter", "code-context", "defence-in-depth"]
 ---
 

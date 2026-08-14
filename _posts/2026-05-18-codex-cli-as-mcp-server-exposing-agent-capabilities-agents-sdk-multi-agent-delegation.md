@@ -2,7 +2,7 @@
 title: "Codex CLI as an MCP Server: Exposing Agent Capabilities to the Agents SDK and Other MCP Clients"
 description: "Most developers know Codex CLI as an MCP client — it connects to external MCP servers like Linear, Supabase, or Apollo to pull tools into its agent loop."
 parent: "Articles"
-nav_order: 766
+nav_order: 438
 type: Technical Article
 timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-as-mcp-server-exposing-agent-capabilities-agents-sdk-multi-agent-delegation"

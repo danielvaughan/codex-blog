@@ -1,7 +1,7 @@
 ---
 title: "Agent Sycophancy and Confirmation Bias: Defence Patterns for Codex CLI"
 parent: "Articles"
-nav_order: 1149
+nav_order: 794
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-agent-sycophancy-confirmation-bias-codex-cli-defence-patterns-anti-sycophancy-hooks"

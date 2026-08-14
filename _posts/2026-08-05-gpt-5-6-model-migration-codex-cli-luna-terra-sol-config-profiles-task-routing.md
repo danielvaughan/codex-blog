@@ -1,7 +1,7 @@
 ---
 title: "The GPT-5.6 Migration Playbook: Configuring Codex CLI for Luna, Terra and Sol Before the August Deadline"
 parent: "Articles"
-nav_order: 1764
+nav_order: 1404
 tags: ["codex-cli", "gpt-5.6", "model-migration", "config.toml", "named-profiles", "luna", "terra", "sol", "deprecation"]
 ---
 

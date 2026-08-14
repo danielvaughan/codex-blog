@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI + OpenAI Agents SDK: Building Multi-Agent Pipelines with MCP, Handoffs, and Traces"
 parent: "Articles"
-nav_order: 986
+nav_order: 636
 type: Technical Article
 timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-openai-agents-sdk-mcp-server-multi-agent-handoffs-traces-pipelines"

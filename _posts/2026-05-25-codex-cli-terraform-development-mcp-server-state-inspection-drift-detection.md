@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Terraform Development: terraform-mcp-server, State Inspection, and Infrastructure Drift Detection"
 parent: "Articles"
-nav_order: 860
+nav_order: 510
 type: Technical Article
 timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-terraform-development-mcp-server-state-inspection-drift-detection"

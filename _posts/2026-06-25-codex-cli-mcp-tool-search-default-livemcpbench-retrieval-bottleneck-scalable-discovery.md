@@ -1,7 +1,7 @@
 ---
 title: "MCP Tool Search by Default: How Codex CLI Tackles the Retrieval Bottleneck That Defeats Most Coding Agents"
 parent: "Articles"
-nav_order: 1228
+nav_order: 870
 type: Technical Article
 timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-codex-cli-mcp-tool-search-default-livemcpbench-retrieval-bottleneck-scalable-discovery"

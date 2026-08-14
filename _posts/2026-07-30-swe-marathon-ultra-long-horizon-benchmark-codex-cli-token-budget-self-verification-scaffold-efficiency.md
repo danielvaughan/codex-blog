@@ -1,7 +1,7 @@
 ---
 title: "SWE-Marathon and the Ultra-Long-Horizon Reality Check: What 1,300 Agent Trials Reveal About Token Waste, Reward Hacking, and Scaffold Design — and How to Configure Codex CLI for Tasks That Take Hours"
 parent: "Articles"
-nav_order: 1706
+nav_order: 1331
 tags: ["codex-cli", "swe-marathon", "benchmark", "long-horizon", "token-budget", "reward-hacking", "self-verification", "scaffold-efficiency"]
 ---
 

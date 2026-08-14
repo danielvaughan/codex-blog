@@ -2,7 +2,7 @@
 title: "Google Antigravity vs Codex CLI: Multi-Agent IDE Meets Terminal-First Agent in the 2026 Coding Wars"
 description: "Google Antigravity landed in public preview on 20 November 2025 and has since grown into the most serious IDE-native challenger to terminal-first agents."
 parent: "Articles"
-nav_order: 696
+nav_order: 387
 type: Technical Article
 timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-google-antigravity-vs-codex-cli-multi-agent-ide-terminal-first-comparison"

@@ -2,7 +2,7 @@
 title: "Codex CLI for Database Schema Migrations: Safe Evolution Patterns with Prisma, Drizzle, and MCP"
 description: "Database schema migrations sit at the intersection of high consequence and low tolerance for error."
 parent: "Articles"
-nav_order: 832
+nav_order: 482
 type: Technical Article
 timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-database-schema-migrations-prisma-drizzle-mcp-safe-evolution-patterns"

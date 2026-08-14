@@ -1,7 +1,7 @@
 ---
 title: "Codex Doctor and the Diagnostic Toolkit: A Practitioner's Troubleshooting Guide"
 parent: "Articles"
-nav_order: 1025
+nav_order: 677
 type: Technical Article
 timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-doctor-diagnostic-toolkit-troubleshooting-guide-environment-connectivity-checks"

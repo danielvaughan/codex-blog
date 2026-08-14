@@ -1,7 +1,7 @@
 ---
 title: "Makefile-Driven Codex CLI: Wrapping Agent Tasks in Reproducible Build Targets"
 parent: "Articles"
-nav_order: 1097
+nav_order: 742
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-codex-cli-makefile-task-runner-reproducible-agent-workflows-developer-productivity"

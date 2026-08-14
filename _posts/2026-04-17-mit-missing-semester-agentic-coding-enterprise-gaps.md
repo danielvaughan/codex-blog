@@ -2,7 +2,7 @@
 title: "What MIT Gets Right (and Misses) About Agentic Coding: From Missing Semester to Enterprise Patterns"
 description: "In January 2026, MIT's Missing Semester of Your CS Education course added a dedicated Agentic Coding lecture to its curriculum. For a course that has spent."
 parent: "Articles"
-nav_order: 320
+nav_order: 69
 type: Technical Article
 timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-mit-missing-semester-agentic-coding-enterprise-gaps"

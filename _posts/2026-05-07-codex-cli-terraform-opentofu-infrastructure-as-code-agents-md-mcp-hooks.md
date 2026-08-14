@@ -2,7 +2,7 @@
 title: "Codex CLI for Terraform and OpenTofu Teams: MCP Servers, Safety Hooks, and AGENTS.md Patterns for Infrastructure as Code"
 description: "Infrastructure as code occupies an unusual position in the AI-assisted coding landscape. The blast radius of a bad change is not a failing test or a broken."
 parent: "Articles"
-nav_order: 623
+nav_order: 328
 type: Technical Article
 timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-terraform-opentofu-infrastructure-as-code-agents-md-mcp-hooks"

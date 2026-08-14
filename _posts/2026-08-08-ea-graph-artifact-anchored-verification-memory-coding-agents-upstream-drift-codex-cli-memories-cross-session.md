@@ -1,7 +1,7 @@
 ---
 title: "EA-Graph and the Upstream Drift Problem: Why Your Coding Agent's Memories Go Stale — and How Artifact-Anchored Verification Fixes Cross-Session Trust"
 parent: "Articles"
-nav_order: 1797
+nav_order: 1446
 tags: ["codex-cli", "ea-graph", "verification-memory", "upstream-drift", "cross-session", "memories", "artifact-anchored", "content-hash", "coding-agents"]
 ---
 

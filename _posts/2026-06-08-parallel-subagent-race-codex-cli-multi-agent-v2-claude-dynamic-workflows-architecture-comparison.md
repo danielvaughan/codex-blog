@@ -2,7 +2,7 @@
 title: "The Parallel Subagent Race: Codex CLI Multi-Agent v2, Claude Code Dynamic Workflows, and Choosing Your Agent Architecture"
 description: "Two fundamentally different multi-agent architectures shipped within seven days of each other. This article dissects Codex CLI's config-driven Multi-Agent v2 runtime (v0.137, 4 June 2026) against Claude Code's script-generated Dynamic Workflows (Opus 4.8, 28 May 2026), compares their orchestration models, and provides practical guidance for choosing between them."
 parent: "Articles"
-nav_order: 1024
+nav_order: 676
 type: Technical Article
 timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-parallel-subagent-race-codex-cli-multi-agent-v2-claude-dynamic-workflows-architecture-comparison"

@@ -1,7 +1,7 @@
 ---
 title: "ACEM and the End of COCOMO for Agentic Work: Why Traditional Cost Estimation Breaks Down — and How to Forecast Codex CLI Token Budgets with the Revision Factor"
 parent: "Articles"
-nav_order: 1827
+nav_order: 1473
 tags: ["codex-cli", "cost-estimation", "ACEM", "token-economics", "COCOMO", "named-profiles", "budget-forecasting"]
 ---
 

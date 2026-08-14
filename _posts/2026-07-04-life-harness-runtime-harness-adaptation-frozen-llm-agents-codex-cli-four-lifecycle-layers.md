@@ -1,7 +1,7 @@
 ---
 title: "Life-Harness and Runtime Harness Adaptation: What a 126-Setting Study Reveals About Improving Frozen LLM Agents Through Interface Engineering — and How Codex CLI Already Implements All Four Lifecycle Layers"
 parent: "Articles"
-nav_order: 1322
+nav_order: 958
 type: Technical Article
 timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-life-harness-runtime-harness-adaptation-frozen-llm-agents-codex-cli-four-lifecycle-layers"

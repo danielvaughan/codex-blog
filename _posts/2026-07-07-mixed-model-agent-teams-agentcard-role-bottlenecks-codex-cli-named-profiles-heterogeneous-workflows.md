@@ -2,7 +2,7 @@
 title: "Mixed-Model Agent Teams: What AgentCARD Reveals About Role Bottlenecks — and How to Wire Heterogeneous Workflows in Codex CLI"
 description: "AgentCARD's Shapley diagnostics show heterogeneous agent teams beat homogeneous setups by up to 44% accuracy or 12× lower cost. Here is how to replicate that advantage with Codex CLI named profiles and custom subagent definitions."
 parent: "Articles"
-nav_order: 1365
+nav_order: 991
 type: Technical Article
 timestamp: 2026-07-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-07-mixed-model-agent-teams-agentcard-role-bottlenecks-codex-cli-named-profiles-heterogeneous-workflows"

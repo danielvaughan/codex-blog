@@ -1,7 +1,7 @@
 ---
 title: "Your Codex CLI Version Is a Security Boundary: What 12 Fixes in 7 Weeks Reveal About Agent Fleet Governance"
 parent: "Articles"
-nav_order: 1575
+nav_order: 1191
 type: Technical Article
 timestamp: 2026-07-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-16-codex-cli-version-as-security-boundary-fleet-governance-backslash-12-fixes-version-floor-mdm-requirements-toml"

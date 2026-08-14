@@ -1,7 +1,7 @@
 ---
 title: "Self-Healing Orchestration for Coding Agents: What Targeted Recovery Teaches Us About Building Resilient Codex CLI Workflows"
 parent: "Articles"
-nav_order: 1307
+nav_order: 943
 type: Technical Article
 timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-self-healing-orchestration-coding-agents-codex-cli-failure-taxonomy-recovery-hooks-verifier-pipeline"

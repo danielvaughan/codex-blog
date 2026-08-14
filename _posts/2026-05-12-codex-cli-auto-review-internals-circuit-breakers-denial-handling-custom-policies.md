@@ -2,7 +2,7 @@
 title: "Codex CLI Auto-Review Internals: Circuit Breakers, Denial Handling, and Custom Policy Authoring"
 description: "On 11 May 2026, OpenAI published a dedicated auto-review documentation page covering the reviewer lifecycle, trigger conditions."
 parent: "Articles"
-nav_order: 681
+nav_order: 372
 type: Technical Article
 timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-auto-review-internals-circuit-breakers-denial-handling-custom-policies"

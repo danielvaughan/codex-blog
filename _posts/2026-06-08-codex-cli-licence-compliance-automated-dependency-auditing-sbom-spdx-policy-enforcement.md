@@ -2,7 +2,7 @@
 title: "Codex CLI for Licence Compliance: Automated Dependency Auditing, SBOM Generation, and Policy Enforcement with Agent Workflows"
 description: "Open source components make up 80-90% of modern applications, yet licence compliance remains a manual, error-prone process in most organisations. This article shows how to wire Codex CLI into a systematic licence auditing pipeline using SBOM generators, SPDX analysis, PostToolUse hooks, and exec-mode enforcement gates."
 parent: "Articles"
-nav_order: 1034
+nav_order: 684
 type: Technical Article
 timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-licence-compliance-automated-dependency-auditing-sbom-spdx-policy-enforcement"

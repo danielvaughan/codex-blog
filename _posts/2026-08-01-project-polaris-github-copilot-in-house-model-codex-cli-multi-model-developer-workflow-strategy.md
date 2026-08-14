@@ -1,7 +1,7 @@
 ---
 title: "Project Polaris Lands in August: What Microsoft's In-House Copilot Model Means for Codex CLI Developers"
 parent: "Articles"
-nav_order: 1734
+nav_order: 1363
 tags: ["project-polaris", "github-copilot", "codex-cli", "multi-model", "microsoft", "maia", "mixture-of-experts", "developer-workflow"]
 ---
 

@@ -2,7 +2,7 @@
 title: "MCP Elicitations in Codex CLI: Human-in-the-Loop Structured Input for Agent Workflows"
 description: "Until Codex CLI v0.129, MCP servers were strictly one-directional during tool execution: the model called a tool, the server ran it, the result came back."
 parent: "Articles"
-nav_order: 626
+nav_order: 331
 type: Technical Article
 timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-mcp-elicitations-human-in-the-loop-structured-input"

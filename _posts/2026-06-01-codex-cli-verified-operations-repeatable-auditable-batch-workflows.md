@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Verified Operations: Building Repeatable, Auditable Batch Workflows"
 parent: "Articles"
-nav_order: 958
+nav_order: 608
 type: Technical Article
 timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-verified-operations-repeatable-auditable-batch-workflows"

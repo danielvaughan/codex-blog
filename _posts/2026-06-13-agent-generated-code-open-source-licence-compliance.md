@@ -1,7 +1,7 @@
 ---
 title: "Agent-Generated Code and Open Source Licence Compliance"
 parent: "Articles"
-nav_order: 1091
+nav_order: 736
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-agent-generated-code-open-source-licence-compliance"

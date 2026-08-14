@@ -2,7 +2,7 @@
 title: "Codex Android Remote Control: Managing Desktop Agent Sessions from Your Phone"
 description: "An APK teardown of ChatGPT for Android v1.2026.125, reported by Android Authority on 8 May 2026, reveals an upcoming feature allowing users to remotely."
 parent: "Articles"
-nav_order: 649
+nav_order: 354
 type: Technical Article
 timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-android-remote-control-chatgpt-mobile-desktop-agent-sessions"

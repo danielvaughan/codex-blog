@@ -1,7 +1,7 @@
 ---
 title: "MCP Tool Poisoning and Codex CLI: Attack Taxonomy, Defence Patterns, and Production Hardening"
 parent: "Articles"
-nav_order: 888
+nav_order: 538
 type: Technical Article
 timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-mcp-tool-poisoning-codex-cli-defence-patterns-hook-gating-registry-trust"

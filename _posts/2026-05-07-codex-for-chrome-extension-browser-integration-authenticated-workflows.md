@@ -2,7 +2,7 @@
 title: "Codex for Chrome: Browser Integration for Authenticated Workflows"
 description: "Codex has always been strongest in the terminal and the editor. But a surprising number of developer tasks live behind a browser login — updating a Jira."
 parent: "Articles"
-nav_order: 624
+nav_order: 329
 type: Technical Article
 timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-for-chrome-extension-browser-integration-authenticated-workflows"

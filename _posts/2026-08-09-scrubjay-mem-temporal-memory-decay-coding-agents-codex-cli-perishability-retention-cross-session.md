@@ -1,7 +1,7 @@
 ---
 title: "ScrubJay-MEM and the Temporal Decay Problem: Why Your Coding Agent Treats Every Memory as Equally Fresh — and How Type-Conditioned Perishability Maps to Codex CLI's Retention Pipeline"
 parent: "Articles"
-nav_order: 1811
+nav_order: 1454
 tags: ["codex-cli", "memory", "temporal-decay", "perishability", "cross-session", "ScrubJay-MEM", "agent-memory", "retention"]
 ---
 

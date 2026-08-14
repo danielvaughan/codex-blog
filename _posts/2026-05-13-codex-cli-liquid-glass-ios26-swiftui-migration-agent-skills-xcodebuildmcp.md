@@ -2,7 +2,7 @@
 title: "Migrating SwiftUI Apps to Liquid Glass with Codex CLI: Agent Skills, XcodeBuildMCP, and iOS 26 Workflows"
 description: "Apple's Liquid Glass design language, introduced at WWDC 2025 and shipping with iOS 26, represents the most significant visual overhaul since iOS 7's flat."
 parent: "Articles"
-nav_order: 693
+nav_order: 384
 type: Technical Article
 timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-liquid-glass-ios26-swiftui-migration-agent-skills-xcodebuildmcp"

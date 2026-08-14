@@ -1,7 +1,7 @@
 ---
 title: "The Three Layers of Agent Testing: Dependency Graphs, Phase Gates, and Bounded Repair"
 parent: "Articles"
-nav_order: 996
+nav_order: 646
 type: Technical Article
 timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-three-layers-agent-testing-dependency-graphs-phase-gates-bounded-repair"

@@ -1,7 +1,7 @@
 ---
 title: "Agentic Engineering and the Intent Architect: What the Paradigm Shift from Code Author to Outcome Auditor Means for Codex CLI Configuration"
 parent: "Articles"
-nav_order: 1134
+nav_order: 779
 type: Technical Article
 timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-agentic-engineering-intent-architect-codex-cli-agents-md-hooks-paradigm-shift"

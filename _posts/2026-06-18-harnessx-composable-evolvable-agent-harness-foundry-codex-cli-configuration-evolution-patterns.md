@@ -1,7 +1,7 @@
 ---
 title: "HarnessX: What the Composable Agent Harness Foundry Means for Codex CLI Configuration Evolution"
 parent: "Articles"
-nav_order: 1152
+nav_order: 797
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-harnessx-composable-evolvable-agent-harness-foundry-codex-cli-configuration-evolution-patterns"

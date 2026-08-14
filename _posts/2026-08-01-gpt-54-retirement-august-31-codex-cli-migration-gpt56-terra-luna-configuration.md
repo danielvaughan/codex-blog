@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.4 Retires on 31 August: The Codex CLI Migration Checklist for GPT-5.6 Terra and Luna"
 parent: "Articles"
-nav_order: 1725
+nav_order: 1354
 tags: ["codex-cli", "gpt-5.4", "gpt-5.6", "model-retirement", "migration", "terra", "luna", "config.toml", "named-profiles", "pricing"]
 ---
 

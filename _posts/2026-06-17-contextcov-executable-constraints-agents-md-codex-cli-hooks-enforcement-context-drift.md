@@ -1,7 +1,7 @@
 ---
 title: "ContextCov: Turning AGENTS.md into Executable Constraints — What It Means for Codex CLI Hook and Enforcement Strategy"
 parent: "Articles"
-nav_order: 1142
+nav_order: 787
 type: Technical Article
 timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-contextcov-executable-constraints-agents-md-codex-cli-hooks-enforcement-context-drift"

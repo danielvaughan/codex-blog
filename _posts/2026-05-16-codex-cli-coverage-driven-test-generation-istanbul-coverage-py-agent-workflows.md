@@ -2,7 +2,7 @@
 title: "Coverage-Driven Test Generation with Codex CLI: Closing Gaps Using Istanbul, Coverage.py, and Agent Workflows"
 description: "Every engineering team has coverage gaps — untested error handlers, edge-case branches nobody thought to exercise, and legacy modules with zero assertions."
 parent: "Articles"
-nav_order: 718
+nav_order: 409
 type: Technical Article
 timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-coverage-driven-test-generation-istanbul-coverage-py-agent-workflows"

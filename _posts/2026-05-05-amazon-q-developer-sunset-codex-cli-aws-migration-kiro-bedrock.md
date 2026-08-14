@@ -2,7 +2,7 @@
 title: "The Amazon Q Developer Sunset: Migration Paths for AWS Teams Moving to Codex CLI, Kiro, or Bedrock"
 description: "On 30 April 2026, AWS announced that Amazon Q Developer IDE plugins and paid subscriptions will reach end of support on 30 April 2027."
 parent: "Articles"
-nav_order: 549
+nav_order: 298
 type: Technical Article
 timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-amazon-q-developer-sunset-codex-cli-aws-migration-kiro-bedrock"

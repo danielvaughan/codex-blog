@@ -1,7 +1,7 @@
 ---
 title: "SkillSec-Eval and the Lifecycle Attack Surface: What 327 Real-World Skills Reveal About Codex CLI's Defence Gaps"
 parent: "Articles"
-nav_order: 1646
+nav_order: 1263
 tags: ["codex-cli", "security", "agent-skills", "SkillSec-Eval", "lifecycle-security", "MCP", "supply-chain", "defence-in-depth"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Thread Handoff: Seamless Session Continuity Between Local and Remote Hosts"
 parent: "Articles"
-nav_order: 1189
+nav_order: 831
 type: Technical Article
 timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-codex-cli-thread-handoff-remote-local-noise-relay-encrypted-session-continuity"

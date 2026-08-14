@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.140.0 Stable Release Guide: Usage Tracking, Session Deletion, Claude Code Import, and Encrypted Credentials"
 parent: "Articles"
-nav_order: 1123
+nav_order: 768
 type: Technical Article
 timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-codex-cli-v0140-stable-release-guide-usage-tracking-session-deletion-claude-import-encrypted-credentials"

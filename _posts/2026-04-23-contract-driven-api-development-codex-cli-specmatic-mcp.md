@@ -2,7 +2,7 @@
 title: "Contract-Driven API Development with Codex CLI: Using Specmatic MCP for Spec-First Full-Stack Builds"
 description: "Most agentic coding workflows suffer from the same failure mode: the agent generates code that compiles, passes its own tests."
 parent: "Articles"
-nav_order: 383
+nav_order: 132
 type: Technical Article
 timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-contract-driven-api-development-codex-cli-specmatic-mcp"

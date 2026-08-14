@@ -1,7 +1,7 @@
 ---
 title: "The Agentic AI Foundation: What AGENTS.md, MCP, and Linux Foundation Governance Mean for Codex CLI Developers"
 parent: "Articles"
-nav_order: 991
+nav_order: 641
 type: Technical Article
 timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-agentic-ai-foundation-agents-md-mcp-linux-foundation-codex-cli-developers"

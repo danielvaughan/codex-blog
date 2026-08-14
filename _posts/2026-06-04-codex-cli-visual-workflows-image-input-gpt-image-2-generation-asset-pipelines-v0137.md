@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Visual Workflows: Image Input, gpt-image-2 Generation, and Asset Pipelines for v0.137"
 parent: "Articles"
-nav_order: 989
+nav_order: 639
 type: Technical Article
 timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-visual-workflows-image-input-gpt-image-2-generation-asset-pipelines-v0137"

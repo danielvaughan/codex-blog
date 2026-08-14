@@ -1,7 +1,7 @@
 ---
 title: "SWE-Router and Trajectory-Based Model Routing: What Partial-Exploration Escalation Means for Codex CLI Cost Strategy"
 parent: "Articles"
-nav_order: 1403
+nav_order: 1029
 type: Technical Article
 timestamp: 2026-07-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-10-swe-router-trajectory-based-model-routing-codex-cli-partial-exploration-cost-escalation"

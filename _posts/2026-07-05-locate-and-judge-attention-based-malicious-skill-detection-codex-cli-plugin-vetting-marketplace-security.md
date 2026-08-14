@@ -1,7 +1,7 @@
 ---
 title: "Locate-and-Judge: How Attention-Based Detection Finds Malicious Agent Skills at Marketplace Scale — and How to Harden Your Codex CLI Plugin Stack"
 parent: "Articles"
-nav_order: 1352
+nav_order: 978
 type: Technical Article
 timestamp: 2026-07-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-05-locate-and-judge-attention-based-malicious-skill-detection-codex-cli-plugin-vetting-marketplace-security"

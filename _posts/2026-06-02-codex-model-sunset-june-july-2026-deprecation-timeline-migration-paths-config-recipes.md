@@ -1,7 +1,7 @@
 ---
 title: "The Codex Model Sunset: June–July 2026 Deprecation Timeline, Migration Paths, and Config Recipes"
 parent: "Articles"
-nav_order: 1531
+nav_order: 1147
 type: Technical Article
 timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-model-sunset-june-july-2026-deprecation-timeline-migration-paths-config-recipes"

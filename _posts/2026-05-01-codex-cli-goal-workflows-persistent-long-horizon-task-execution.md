@@ -2,7 +2,7 @@
 title: "Codex CLI /goal Workflows: Persistent Long-Horizon Task Execution in v0.128"
 description: "Until v0.128, every Codex CLI interaction followed the same cadence: prompt, execute, wait for the next prompt."
 parent: "Articles"
-nav_order: 514
+nav_order: 263
 type: Technical Article
 timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-goal-workflows-persistent-long-horizon-task-execution"

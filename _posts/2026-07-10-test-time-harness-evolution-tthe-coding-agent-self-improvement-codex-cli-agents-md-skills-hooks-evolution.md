@@ -1,7 +1,7 @@
 ---
 title: "Test-Time Harness Evolution: What TTHE Reveals About Self-Improving Coding Agents — and How to Apply the Same Principles to Your Codex CLI Configuration Stack"
 parent: "Articles"
-nav_order: 1400
+nav_order: 1026
 tags: ["codex-cli", "harness-engineering", "TTHE", "test-time-adaptation", "AGENTS.md", "skills", "hooks", "self-improvement", "agent-evolution"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.143 Stable Release Guide: Remote Plugins by Default, System Proxy Support, Bedrock GPT-5.6, and MCP Tool Search as Standard"
 parent: "Articles"
-nav_order: 1395
+nav_order: 1021
 type: Technical Article
 timestamp: 2026-07-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-09-codex-cli-v0143-stable-release-guide-remote-plugins-default-system-proxy-bedrock-gpt56-mcp-tool-search"

@@ -1,7 +1,7 @@
 ---
 title: "OpenAI's June 2026 Platform Deprecations: Evals, Agent Builder, and Prompts API Shutdown — What Codex CLI Developers Must Do Before November"
 parent: "Articles"
-nav_order: 990
+nav_order: 640
 type: Technical Article
 timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-openai-june-2026-platform-deprecations-evals-agent-builder-prompts-codex-cli-migration"

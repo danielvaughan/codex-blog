@@ -2,7 +2,7 @@
 title: "Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills"
 description: "Game prototyping rewards fast iteration above all else. You need to get a concept on screen, playtest it, throw away what fails, and refine what sticks."
 parent: "Articles"
-nav_order: 652
+nav_order: 357
 type: Technical Article
 timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-game-prototyping-godot-phaser-browser-games-agent-skills"

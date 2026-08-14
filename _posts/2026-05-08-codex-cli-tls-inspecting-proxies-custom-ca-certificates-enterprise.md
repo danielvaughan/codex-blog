@@ -2,7 +2,7 @@
 title: "Codex CLI Behind TLS-Inspecting Proxies: Custom CA Certificates for Enterprise Networks"
 description: "Enterprise networks rarely let HTTPS traffic pass uninspected. Appliances from Zscaler, Palo Alto Networks, Fortinet, and others terminate TLS connections."
 parent: "Articles"
-nav_order: 630
+nav_order: 335
 type: Technical Article
 timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-tls-inspecting-proxies-custom-ca-certificates-enterprise"

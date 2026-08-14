@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for .NET 10 and C# 14: Aspire Integration, MCP Servers, and the dotnet/skills Ecosystem"
 parent: "Articles"
-nav_order: 942
+nav_order: 592
 type: Technical Article
 timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-dotnet-10-csharp-14-aspire-mcp-servers-skills-ecosystem"

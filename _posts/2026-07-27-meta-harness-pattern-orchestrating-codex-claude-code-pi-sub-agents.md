@@ -1,7 +1,7 @@
 ---
 title: "The Meta-Harness Pattern: Orchestrating Codex CLI and Claude Code as Sub-Agents Through Pi"
 parent: "Articles"
-nav_order: 1679
+nav_order: 1293
 tags: ["codex-cli", "claude-code", "pi", "multi-agent", "orchestration", "meta-harness", "sub-agents", "model-routing"]
 ---
 

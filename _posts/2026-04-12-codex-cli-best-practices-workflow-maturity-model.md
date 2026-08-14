@@ -2,7 +2,7 @@
 title: "The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model"
 description: "OpenAI recently published a canonical best practices guide at developers.openai.com/codex/learn/best-practices."
 parent: "Articles"
-nav_order: 261
+nav_order: 14
 type: Technical Article
 timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-best-practices-workflow-maturity-model"

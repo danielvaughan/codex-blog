@@ -1,7 +1,7 @@
 ---
 title: "ProjDevBench and the Greenfield Gap: Why Your Codex CLI Agent Tops the Project Development Leaderboard — and Where It Still Falls Short"
 parent: "Articles"
-nav_order: 1212
+nav_order: 854
 type: Technical Article
 timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-projdevbench-end-to-end-project-development-benchmark-codex-cli-greenfield-agent-architecture-strategy"

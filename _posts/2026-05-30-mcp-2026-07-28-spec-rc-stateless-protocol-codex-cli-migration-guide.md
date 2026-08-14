@@ -1,7 +1,7 @@
 ---
 title: "The MCP 2026-07-28 Specification RC: What Codex CLI Users Need to Know"
 parent: "Articles"
-nav_order: 940
+nav_order: 590
 type: Technical Article
 timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-mcp-2026-07-28-spec-rc-stateless-protocol-codex-cli-migration-guide"

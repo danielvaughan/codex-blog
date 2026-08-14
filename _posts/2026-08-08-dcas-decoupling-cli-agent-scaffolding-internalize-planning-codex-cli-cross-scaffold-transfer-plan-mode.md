@@ -1,7 +1,7 @@
 ---
 title: "DCAS and the Scaffold Lock-In Problem: Why Your Fine-Tuned Coding Agent Forgets How to Plan When You Change Tools — and What Codex CLI's Architecture Does About It"
 parent: "Articles"
-nav_order: 1797
+nav_order: 1445
 tags: ["codex-cli", "DCAS", "scaffolding", "plan-mode", "cross-scaffold-transfer", "fine-tuning", "agent-architecture", "harness-engineering"]
 ---
 

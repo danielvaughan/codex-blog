@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI and CircleCI: Wiring the MCP Server and Plugin into Your CI/CD Feedback Loop"
 parent: "Articles"
-nav_order: 1114
+nav_order: 759
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-circleci-mcp-server-plugin-ci-cd-pipeline-debugging-flaky-tests-chunk-agent"

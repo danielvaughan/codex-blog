@@ -1,7 +1,7 @@
 ---
 title: "Usage Pool Architecture as Competitive Advantage: Why Rate Limits Matter More Than Benchmarks for Daily Coding Agent Productivity"
 parent: "Articles"
-nav_order: 1757
+nav_order: 1393
 tags: ["codex-cli", "usage-economics", "rate-limits", "claude-code", "cursor", "pricing", "developer-productivity", "credit-pools"]
 ---
 

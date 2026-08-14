@@ -2,7 +2,7 @@
 title: "Custom CUDA Kernels with Codex CLI: The Hugging Face Agent Skill for GPU Programming"
 description: "Writing custom CUDA kernels has traditionally been the domain of a small cadre of GPU specialists. The barrier is high: you need to understand warp-level."
 parent: "Articles"
-nav_order: 687
+nav_order: 378
 type: Technical Article
 timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-cuda-kernels-huggingface-agent-skill-gpu-programming"

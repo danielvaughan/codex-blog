@@ -2,7 +2,7 @@
 title: "How Coding Agents Fail Their Users: What 20,574 Real-World Sessions Reveal About Misalignment — and How Codex CLI Defends Against the Seven Failure Forms"
 description: "A large-scale observational study of 20,574 coding-agent sessions identifies seven recurring misalignment forms. We map each failure pattern to Codex CLI's constraint enforcement layer — hooks, approval policies, AGENTS.md, and sandbox isolation — showing how deterministic guardrails absorb what probabilistic instruction-following cannot."
 parent: "Articles"
-nav_order: 1333
+nav_order: 966
 type: Technical Article
 timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-developer-agent-misalignment-20574-sessions-codex-cli-constraint-violation-defence-hooks-approval-policy"

@@ -2,12 +2,12 @@
 title: "Fast Books: What AI-Enabled Publishing Can Learn from Fast Fashion and Fast Software"
 description: "In 1989, Zara opened its first store outside Spain. Its secret weapon was not design flair but supply-chain speed: a dress could move from sketch to shop."
 date: 2026-05-08T00:00:00+00:00
-last_modified_at: 2026-08-14T06:08:46+01:00
+last_modified_at: 2026-08-14T07:06:07+01:00
 author: Daniel Vaughan
 category: opinion
 tags: [ai, publishing, fast-fashion, software-development, agentic-engineering]
 parent: "Articles"
-nav_order: 932
+nav_order: 582
 type: Technical Article
 timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-fast-books-fast-software-fast-fashion-ai-publishing-parallels"

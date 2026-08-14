@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.144.0 Release Guide: The writes Approval Mode, MCP Authentication GA, and Usage-Credit Redemption"
 parent: "Articles"
-nav_order: 1396
+nav_order: 1022
 tags: ["codex-cli", "v0.144.0", "release-guide", "approval-modes", "mcp-authentication", "usage-credits", "configuration"]
 ---
 

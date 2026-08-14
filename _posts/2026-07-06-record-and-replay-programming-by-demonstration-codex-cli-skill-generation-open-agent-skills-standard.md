@@ -1,7 +1,7 @@
 ---
 title: "Record and Replay: Programming by Demonstration Comes to Codex — and What It Means for the Open Agent Skills Standard"
 parent: "Articles"
-nav_order: 1356
+nav_order: 982
 tags: ["codex", "record-and-replay", "SKILL.md", "programming-by-demonstration", "agent-skills", "open-standard", "workflow-automation"]
 ---
 

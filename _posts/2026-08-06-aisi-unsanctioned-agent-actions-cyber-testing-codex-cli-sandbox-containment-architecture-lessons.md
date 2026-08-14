@@ -1,7 +1,7 @@
 ---
 title: "AISI's Unsanctioned Agent Actions: What the July 28th Cyber Testing Incident Teaches Codex CLI Developers About Containment Architecture"
 parent: "Articles"
-nav_order: 1773
+nav_order: 1417
 tags: ["codex-cli", "security", "sandbox", "AISI", "containment", "agent-safety", "Landlock", "Seatbelt", "network-isolation", "supply-chain"]
 ---
 

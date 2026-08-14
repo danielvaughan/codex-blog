@@ -2,7 +2,7 @@
 title: "Hermetic codex exec Runs: Isolation Flags, Deterministic Configuration, and Reproducible CI Pipelines"
 description: "Every developer who has debugged a works on my machine CI failure knows the pain of non-deterministic builds."
 parent: "Articles"
-nav_order: 428
+nav_order: 177
 type: Technical Article
 timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-exec-hermetic-runs-isolation-flags-reproducible-ci-pipelines"

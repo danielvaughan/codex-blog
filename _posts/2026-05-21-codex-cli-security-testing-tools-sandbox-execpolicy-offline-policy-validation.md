@@ -2,7 +2,7 @@
 title: "Codex CLI Security Testing Tools: codex sandbox, codex execpolicy, and Offline Policy Validation"
 description: "Codex CLI ships two subcommands that most developers never discover: codex sandbox and codex execpolicy check. Together, they let you validate your security."
 parent: "Articles"
-nav_order: 804
+nav_order: 470
 type: Technical Article
 timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-security-testing-tools-sandbox-execpolicy-offline-policy-validation"

@@ -2,7 +2,7 @@
 title: "Codex Computer Use on Windows: Foreground Desktop Automation with Agent Sandbox Controls"
 description: "On 29 May 2026, OpenAI shipped Computer Use for Windows in Codex App v26.527.1 — giving the agent the ability to see, click, and type inside Windows desktop applications. This article covers the technical architecture, the foreground-only execution model, sandbox constraints, permission boundaries, remote-control integration, and the geographic restrictions that exclude Europe at launch."
 parent: "Articles"
-nav_order: 1535
+nav_order: 1151
 type: Technical Article
 timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-computer-use-windows-foreground-desktop-automation-agent-sandbox-permissions"

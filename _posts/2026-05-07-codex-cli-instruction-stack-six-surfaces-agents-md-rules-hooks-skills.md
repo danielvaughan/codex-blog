@@ -2,7 +2,7 @@
 title: "The Codex CLI Instruction Stack: How Six Configuration Surfaces Shape Agent Behaviour"
 description: "Codex CLI does not read a single instruction file. It assembles a composite instruction set from six distinct surfaces, each with its own scope, precedence."
 parent: "Articles"
-nav_order: 621
+nav_order: 326
 type: Technical Article
 timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-instruction-stack-six-surfaces-agents-md-rules-hooks-skills"

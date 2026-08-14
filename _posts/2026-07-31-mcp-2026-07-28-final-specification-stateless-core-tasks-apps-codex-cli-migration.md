@@ -1,7 +1,7 @@
 ---
 title: "MCP 2026-07-28 Final Specification Ships: Stateless Core, Tasks Extension, MCP Apps, and What Your Codex CLI Configuration Needs Now"
 parent: "Articles"
-nav_order: 1716
+nav_order: 1341
 type: Technical Article
 timestamp: 2026-07-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-31-mcp-2026-07-28-final-specification-stateless-core-tasks-apps-codex-cli-migration"

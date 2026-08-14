@@ -1,7 +1,7 @@
 ---
 title: "Terminal-Level Agent Orchestration: Herdr's Socket API vs SDK-Based Multi-Agent Coordination for Codex CLI"
 parent: "Articles"
-nav_order: 1686
+nav_order: 1300
 tags: ["codex-cli", "herdr", "multi-agent", "terminal-multiplexer", "socket-api", "orchestration", "agent-aware-terminal"]
 ---
 

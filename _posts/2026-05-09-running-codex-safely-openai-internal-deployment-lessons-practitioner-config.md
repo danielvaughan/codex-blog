@@ -2,7 +2,7 @@
 title: "Running Codex Safely: What OpenAI's Internal Deployment Reveals and How to Mirror It in Your Own Config"
 description: "On 8 May 2026, OpenAI published Running Codex safely at OpenAI — a rare look at the controls, boundaries and telemetry the Codex team itself uses when."
 parent: "Articles"
-nav_order: 638
+nav_order: 343
 type: Technical Article
 timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-running-codex-safely-openai-internal-deployment-lessons-practitioner-config"

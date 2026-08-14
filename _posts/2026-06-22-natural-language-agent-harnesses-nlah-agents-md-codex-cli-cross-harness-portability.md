@@ -1,7 +1,7 @@
 ---
 title: "Natural-Language Agent Harnesses: What NLAH Research, OpenAI's Harness Engineering, and Cross-Agent Portability Mean for Codex CLI AGENTS.md"
 parent: "Articles"
-nav_order: 1192
+nav_order: 834
 type: Technical Article
 timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-natural-language-agent-harnesses-nlah-agents-md-codex-cli-cross-harness-portability"

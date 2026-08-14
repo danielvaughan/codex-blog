@@ -1,7 +1,7 @@
 ---
 title: "Phantom Guardrails: When Self-Improving Agents Fabricate Safety Rules — and How to Defend Your Codex CLI Instruction Stack"
 parent: "Articles"
-nav_order: 1581
+nav_order: 1197
 tags: ["codex-cli", "agents-md", "phantom-guardrails", "self-improving-agents", "guardian", "pretooluse", "posttooluse", "instruction-hygiene", "warrant-aware-acceptance", "rule-accumulation"]
 ---
 

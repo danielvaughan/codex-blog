@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Built-In Tool Surface: The Complete Reference for v0.136"
 parent: "Articles"
-nav_order: 979
+nav_order: 629
 type: Technical Article
 timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-built-in-tool-surface-complete-reference-shell-file-search-image-multi-agent"

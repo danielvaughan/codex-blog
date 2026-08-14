@@ -2,7 +2,7 @@
 title: "PRDBench and the PRD-to-Code Gap: Why Building From Specs Is Harder Than Fixing Bugs"
 description: "Most coding agent benchmarks ask a deceptively narrow question: can the agent fix this bug? SWE-bench and its variants hand the model a failing test and a."
 parent: "Articles"
-nav_order: 599
+nav_order: 311
 type: Technical Article
 timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-prdbench-prd-to-code-gap-spec-driven-development-codex-cli"

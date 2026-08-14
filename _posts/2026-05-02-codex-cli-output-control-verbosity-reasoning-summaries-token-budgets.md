@@ -2,7 +2,7 @@
 title: "Codex CLI Output Control: Tuning Verbosity, Reasoning Summaries, and Token Budgets for Every Workflow"
 description: "Codex CLI ships with sensible defaults, but those defaults assume a single use case: interactive development with moderate explanation. In practice, senior."
 parent: "Articles"
-nav_order: 530
+nav_order: 279
 type: Technical Article
 timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-codex-cli-output-control-verbosity-reasoning-summaries-token-budgets"

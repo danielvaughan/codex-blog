@@ -1,7 +1,7 @@
 ---
 title: "PatchFusion and the Pass@k-to-Pass@1 Problem: Why Your Codex CLI Needs a Patch Selection Strategy"
 parent: "Articles"
-nav_order: 1415
+nav_order: 1041
 type: Technical Article
 timestamp: 2026-07-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-11-patchfusion-pass-k-pass-1-deterministic-patch-selection-codex-cli-multi-attempt-ensemble-workflows"

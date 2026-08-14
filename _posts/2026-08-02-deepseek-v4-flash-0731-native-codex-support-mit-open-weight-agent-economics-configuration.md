@@ -2,7 +2,7 @@
 title: "DeepSeek V4-Flash-0731: Native Codex Support, Open Weights, and the Agent Economics Question"
 description: "DeepSeek's retrained V4-Flash-0731 ships with native Responses API support for Codex CLI, MIT-licensed weights, and benchmark scores that beat the company's own flagship — but cost per accepted task matters more than cost per token."
 parent: "Articles"
-nav_order: 1745
+nav_order: 1374
 type: Technical Article
 timestamp: 2026-08-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-02-deepseek-v4-flash-0731-native-codex-support-mit-open-weight-agent-economics-configuration"

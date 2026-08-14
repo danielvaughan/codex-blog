@@ -2,7 +2,7 @@
 title: "Codex CLI for Performance Profiling and Optimisation: Agent-Driven Bottleneck Discovery, pprof Analysis, and Automated Fix Generation"
 description: "Performance profiling remains one of the most cognitively demanding tasks in software engineering. Interpreting flame graphs, correlating CPU hotspots with."
 parent: "Articles"
-nav_order: 746
+nav_order: 419
 type: Technical Article
 timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-performance-profiling-optimisation-pprof-pyspy-clinic-automated-workflows"

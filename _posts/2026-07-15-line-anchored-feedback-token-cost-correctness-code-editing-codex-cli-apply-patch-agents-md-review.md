@@ -1,7 +1,7 @@
 ---
 title: "Line-Anchored Feedback: How Structured Edit Feedback Cuts Tokens by 58 Per Cent and What It Means for Codex CLI's Apply-Patch Pipeline"
 parent: "Articles"
-nav_order: 1458
+nav_order: 1074
 tags: ["codex-cli", "token-efficiency", "code-editing", "line-anchored-feedback", "apply-patch", "V4A", "AGENTS.md", "cost-optimisation", "code-review"]
 ---
 

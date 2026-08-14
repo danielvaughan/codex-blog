@@ -1,7 +1,7 @@
 ---
 title: "Proactivity, Not Just Autonomy: Why Your Coding Agent's Insight Policy Matters More Than Its Tool Count — and How to Wire It into Codex CLI"
 parent: "Articles"
-nav_order: 1446
+nav_order: 1069
 tags: ["codex-cli", "proactivity", "autonomy", "insight-policy", "interruption-cost", "developer-experience", "automations", "cognitive-load", "scheduled-tasks", "DevEx"]
 ---
 

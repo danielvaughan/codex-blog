@@ -1,7 +1,7 @@
 ---
 title: "AgentLens and the Lucky Pass Problem: Why 10.7% of Your Agent's Passing Tests Are Flukes — and How to Configure Codex CLI for Process Quality"
 parent: "Articles"
-nav_order: 1283
+nav_order: 920
 type: Technical Article
 timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-agentlens-lucky-pass-problem-process-quality-coding-agent-evaluation-codex-cli-verification-hooks-model-routing"

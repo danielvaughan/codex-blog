@@ -1,7 +1,7 @@
 ---
 title: "Loop Engineering with Codex CLI: Designing Autonomous Agent Loops That Run While You Sleep"
 parent: "Articles"
-nav_order: 1076
+nav_order: 721
 type: Technical Article
 timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-loop-engineering-codex-cli-autonomous-agent-loops-automations-subagents-goal-mode"

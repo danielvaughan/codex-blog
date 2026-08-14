@@ -2,7 +2,7 @@
 title: "Codex CLI Execution Policy Rules: Starlark-Based Command Governance, Smart Approvals, and Enterprise Allowlists"
 description: "Every time Codex CLI proposes a shell command, something has to decide whether that command runs silently, pauses for approval, or gets blocked outright."
 parent: "Articles"
-nav_order: 5
+nav_order: 1
 type: Technical Article
 timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-execution-policy-rules-starlark-command-governance-enterprise-allowlists"

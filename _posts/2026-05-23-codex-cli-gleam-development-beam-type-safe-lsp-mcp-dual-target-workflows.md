@@ -2,7 +2,7 @@
 title: "Codex CLI for Gleam Development: Type-Safe BEAM Agents, LSP-MCP Bridge, and Dual-Target Workflows"
 description: "Gleam occupies a distinctive niche in the language ecosystem: a statically-typed, functional language that compiles to both Erlang (for the BEAM VM) and."
 parent: "Articles"
-nav_order: 839
+nav_order: 489
 type: Technical Article
 timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-gleam-development-beam-type-safe-lsp-mcp-dual-target-workflows"

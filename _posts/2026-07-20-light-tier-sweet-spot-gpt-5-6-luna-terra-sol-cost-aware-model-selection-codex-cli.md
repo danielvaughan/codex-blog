@@ -1,7 +1,7 @@
 ---
 title: "The Light-Tier Sweet Spot: When Luna at 10x Speed Beats Sol at 10x Cost"
 parent: "Articles"
-nav_order: 1617
+nav_order: 1235
 tags: ["codex-cli", "gpt-5.6", "luna", "terra", "sol", "model-selection", "cost-optimisation", "named-profiles", "token-economics"]
 ---
 

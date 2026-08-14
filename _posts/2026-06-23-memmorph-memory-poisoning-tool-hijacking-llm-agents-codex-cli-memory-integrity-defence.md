@@ -1,7 +1,7 @@
 ---
 title: "MemMorph and the Memory Poisoning Threat: How Three Fake Memories Hijack Agent Tool Selection — and How Codex CLI Defends"
 parent: "Articles"
-nav_order: 1207
+nav_order: 849
 type: Technical Article
 timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-memmorph-memory-poisoning-tool-hijacking-llm-agents-codex-cli-memory-integrity-defence"

@@ -1,7 +1,7 @@
 ---
 title: "TokenPilot and the Cache Invalidation Trap: Why Aggressive Context Pruning Can Cost More — and How to Configure Codex CLI's Compaction for Prompt Cache Efficiency"
 parent: "Articles"
-nav_order: 1310
+nav_order: 946
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-tokenpilot-cache-efficient-context-management-codex-cli-prompt-cache-compaction-eviction-cost"

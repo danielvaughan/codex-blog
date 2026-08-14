@@ -1,7 +1,7 @@
 ---
 title: "Agent Retirement and Decommissioning: The Missing Lifecycle Phase"
 parent: "Articles"
-nav_order: 871
+nav_order: 521
 type: Technical Article
 timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-agent-retirement-decommissioning-missing-lifecycle-phase"

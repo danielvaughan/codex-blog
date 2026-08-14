@@ -2,7 +2,7 @@
 title: "The Codex Subscription API: Programmatic Access to GPT-5.5 Through Your ChatGPT Plan"
 description: "When OpenAI launched GPT-5.5 on 23 April 2026, a curious limitation accompanied the announcement: the model is available only through ChatGPT subscription."
 parent: "Articles"
-nav_order: 389
+nav_order: 138
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-subscription-api-programmatic-access-gpt-5-5-chatgpt-plan"

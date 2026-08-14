@@ -1,7 +1,7 @@
 ---
 title: "Agent Instruction Files: AGENTS.md, CLAUDE.md, and Cross-Tool Portability with Codex CLI"
 parent: "Articles"
-nav_order: 889
+nav_order: 539
 type: Technical Article
 timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-agent-instruction-files-agents-md-claude-md-cross-tool-portability-codex-cli"

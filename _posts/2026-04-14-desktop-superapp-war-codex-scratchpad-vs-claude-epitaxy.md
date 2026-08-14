@@ -2,7 +2,7 @@
 title: "The Desktop Superapp War: Codex Scratchpad vs Claude Code Epitaxy"
 description: "The terminal is no longer enough. As of mid-April 2026, both OpenAI and Anthropic are racing to consolidate their fragmented tool ecosystems into unified."
 parent: "Articles"
-nav_order: 279
+nav_order: 31
 type: Technical Article
 timestamp: 2026-04-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-14-desktop-superapp-war-codex-scratchpad-vs-claude-epitaxy"

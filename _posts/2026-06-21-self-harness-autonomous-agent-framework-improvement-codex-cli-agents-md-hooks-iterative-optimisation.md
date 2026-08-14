@@ -1,7 +1,7 @@
 ---
 title: "Self-Harness: What Autonomous Agent Framework Improvement Means for Codex CLI AGENTS.md and Hook Optimisation"
 parent: "Articles"
-nav_order: 1187
+nav_order: 829
 type: Technical Article
 timestamp: 2026-06-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-self-harness-autonomous-agent-framework-improvement-codex-cli-agents-md-hooks-iterative-optimisation"

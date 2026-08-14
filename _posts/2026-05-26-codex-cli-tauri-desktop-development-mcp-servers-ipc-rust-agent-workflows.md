@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Tauri Desktop Development: MCP Servers, IPC Debugging, and Cross-Platform Agent Workflows"
 parent: "Articles"
-nav_order: 1521
+nav_order: 1137
 type: Technical Article
 timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-tauri-desktop-development-mcp-servers-ipc-rust-agent-workflows"

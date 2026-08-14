@@ -1,7 +1,7 @@
 ---
 title: "MCP Dev Summit Bengaluru: Five Production Patterns Every Codex CLI Developer Should Know"
 parent: "Articles"
-nav_order: 1037
+nav_order: 687
 type: Technical Article
 timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-mcp-dev-summit-bengaluru-five-production-patterns-codex-cli-developers"

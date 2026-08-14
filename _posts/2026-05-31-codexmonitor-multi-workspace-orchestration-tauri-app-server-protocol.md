@@ -1,7 +1,7 @@
 ---
 title: "CodexMonitor: Multi-Workspace Agent Orchestration via the App-Server Protocol"
 parent: "Articles"
-nav_order: 949
+nav_order: 599
 type: Technical Article
 timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codexmonitor-multi-workspace-orchestration-tauri-app-server-protocol"

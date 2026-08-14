@@ -1,7 +1,7 @@
 ---
 title: "The AGENTS.md Evidence-Based Authoring Guide: What Two Empirical Studies Reveal About Writing Rules That Agents Actually Follow"
 parent: "Articles"
-nav_order: 1297
+nav_order: 934
 description: "A premium consolidation of rule taxonomy research (7,310 rules, 83 projects) and misalignment analysis (20,574 sessions) into a practical AGENTS.md authoring framework for Codex CLI. Covers the five-category taxonomy, the perception-practice gap, negative-constraint patterns, compliance hooks, evolution playbooks, and quarterly audit checklists."
 type: Technical Article
 timestamp: 2026-07-02T00:00:00+00:00

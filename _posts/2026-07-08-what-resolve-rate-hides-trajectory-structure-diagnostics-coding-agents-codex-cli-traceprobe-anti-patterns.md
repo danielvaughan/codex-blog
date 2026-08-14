@@ -1,7 +1,7 @@
 ---
 title: "What Resolve Rate Hides: Trajectory Diagnostics Reveal Why Two 78% Agents Are Nothing Alike — and How to Wire the Insight into Codex CLI"
 parent: "Articles"
-nav_order: 1381
+nav_order: 1007
 type: Technical Article
 timestamp: 2026-07-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-08-what-resolve-rate-hides-trajectory-structure-diagnostics-coding-agents-codex-cli-traceprobe-anti-patterns"

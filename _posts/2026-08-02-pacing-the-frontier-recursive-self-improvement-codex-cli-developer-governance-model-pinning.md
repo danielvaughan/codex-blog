@@ -1,7 +1,7 @@
 ---
 title: "Pacing the Frontier: What the RSI Letter Means for Codex CLI Developers"
 parent: "Articles"
-nav_order: 1737
+nav_order: 1366
 tags: ["pacing-the-frontier", "recursive-self-improvement", "RSI", "codex-cli", "governance", "model-pinning", "vendor-risk", "GPT-5.6-Sol", "AI-safety"]
 ---
 

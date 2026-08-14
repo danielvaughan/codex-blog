@@ -1,7 +1,7 @@
 ---
 title: "Token Reduction Is Not Cost Reduction: What Prompt-Cache Economics Mean for Your Codex CLI Cost Strategy"
 parent: "Articles"
-nav_order: 1790
+nav_order: 1435
 tags: ["codex-cli", "cost-optimisation", "prompt-caching", "token-reduction", "context-compression", "GPT-5.6", "agent-economics"]
 ---
 

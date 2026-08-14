@@ -2,7 +2,7 @@
 title: "Error Recovery and Rollback Patterns for Codex CLI: Git Safety Nets for Agentic Workflows"
 description: "Coding agents move fast. A single Codex CLI session can touch thirty files in under a minute, and when something goes wrong."
 parent: "Articles"
-nav_order: 427
+nav_order: 176
 type: Technical Article
 timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-error-recovery-rollback-patterns-git-safety-nets"

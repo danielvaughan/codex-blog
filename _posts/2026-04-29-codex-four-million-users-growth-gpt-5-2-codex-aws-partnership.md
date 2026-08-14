@@ -2,7 +2,7 @@
 title: "Codex at Four Million: What Three Weeks of Hypergrowth Reveals About the Agentic Coding Market"
 description: "On 28 April 2026, the OpenAI-AWS partnership announcement casually confirmed that more than 4 million people now use Codex every week ."
 parent: "Articles"
-nav_order: 484
+nav_order: 233
 type: Technical Article
 timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-four-million-users-growth-gpt-5-2-codex-aws-partnership"

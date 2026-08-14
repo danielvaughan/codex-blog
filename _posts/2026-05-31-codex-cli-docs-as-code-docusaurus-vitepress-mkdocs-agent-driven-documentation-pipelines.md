@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Docs-as-Code: Docusaurus, VitePress, MkDocs, and Agent-Driven Documentation Pipelines"
 parent: "Articles"
-nav_order: 945
+nav_order: 595
 type: Technical Article
 timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-docs-as-code-docusaurus-vitepress-mkdocs-agent-driven-documentation-pipelines"

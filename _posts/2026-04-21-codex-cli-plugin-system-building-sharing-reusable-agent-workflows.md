@@ -2,7 +2,7 @@
 title: "Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows"
 description: "Codex CLI v0.122 elevated plugins from an app-only curiosity to a first-class workflow primitive across the entire Codex surface."
 parent: "Articles"
-nav_order: 364
+nav_order: 113
 type: Technical Article
 timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-plugin-system-building-sharing-reusable-agent-workflows"

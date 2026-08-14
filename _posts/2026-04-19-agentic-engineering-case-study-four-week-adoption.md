@@ -2,7 +2,7 @@
 title: "I Used This Setup → This Is What Changed: An Agentic Engineering Case Study"
 description: "Agentic engineering promises a fundamental shift in how software gets built. But promises are cheap. What actually changes when you commit to an agent-first."
 parent: "Articles"
-nav_order: 340
+nav_order: 89
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-agentic-engineering-case-study-four-week-adoption"

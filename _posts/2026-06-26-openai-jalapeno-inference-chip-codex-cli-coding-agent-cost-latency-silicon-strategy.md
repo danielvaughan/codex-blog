@@ -1,7 +1,7 @@
 ---
 title: "OpenAI's Jalapeño Inference Chip: What Purpose-Built Silicon Means for Codex CLI Cost, Latency, and the Coding Agent Hardware Stack"
 parent: "Articles"
-nav_order: 1238
+nav_order: 880
 type: Technical Article
 timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-openai-jalapeno-inference-chip-codex-cli-coding-agent-cost-latency-silicon-strategy"

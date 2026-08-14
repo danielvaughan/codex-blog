@@ -1,7 +1,7 @@
 ---
 title: "GitLost and the Agentic Workflow Injection Threat: What GitHub's Private Repository Leak Means for Your Codex CLI CI/CD Pipelines"
 parent: "Articles"
-nav_order: 1753
+nav_order: 1385
 tags: ["codex-cli", "security", "prompt-injection", "github-actions", "ci-cd", "agentic-workflows", "gitlost", "supply-chain"]
 ---
 

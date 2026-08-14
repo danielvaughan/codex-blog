@@ -1,7 +1,7 @@
 ---
 title: "TestEvo-Bench and the Test Co-Evolution Problem: Why Agents That Generate Tests Cannot Update Them — and How Codex CLI's Hook Pipeline Closes the Gap"
 parent: "Articles"
-nav_order: 1345
+nav_order: 973
 tags: ["codex-cli", "testing", "benchmarks", "test-generation", "test-update", "hooks", "cost-control", "co-evolution"]
 ---
 

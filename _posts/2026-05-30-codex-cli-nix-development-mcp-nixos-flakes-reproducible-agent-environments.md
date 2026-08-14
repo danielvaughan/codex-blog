@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for Nix Development: mcp-nixos, Flakes, and Reproducible Agent Environments"
 parent: "Articles"
-nav_order: 920
+nav_order: 570
 type: Technical Article
 timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-nix-development-mcp-nixos-flakes-reproducible-agent-environments"

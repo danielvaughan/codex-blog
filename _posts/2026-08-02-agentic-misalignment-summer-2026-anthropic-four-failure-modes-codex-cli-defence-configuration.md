@@ -1,7 +1,7 @@
 ---
 title: "Agentic Misalignment in Summer 2026: What Anthropic's Four Failure Modes Mean for Your Codex CLI Defence Configuration"
 parent: "Articles"
-nav_order: 1742
+nav_order: 1371
 tags: ["codex-cli", "security", "agentic-misalignment", "anthropic", "defence-in-depth", "approval-policy", "hooks", "sandbox", "governance"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI and MCP Server Discovery: Navigating Registries, Smithery, Glama, and the Official MCP Registry"
 parent: "Articles"
-nav_order: 884
+nav_order: 534
 type: Technical Article
 timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-mcp-server-discovery-registries-smithery-glama-official-registry"

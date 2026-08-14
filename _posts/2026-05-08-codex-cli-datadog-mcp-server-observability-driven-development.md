@@ -2,7 +2,7 @@
 title: "Codex CLI + Datadog MCP Server: Observability-Driven Development from Your Terminal"
 description: "On-call pages arrive at 03:00. You SSH into a jumpbox, open three browser tabs — Datadog dashboards, APM traces, log explorer — and start cross-referencing."
 parent: "Articles"
-nav_order: 633
+nav_order: 338
 type: Technical Article
 timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-datadog-mcp-server-observability-driven-development"

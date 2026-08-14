@@ -1,7 +1,7 @@
 ---
 title: "RepoMirage and the Repository Context Reasoning Gap: Why Your Coding Agent Explores Everything and Understands Nothing"
 parent: "Articles"
-nav_order: 1766
+nav_order: 1408
 tags: ["codex-cli", "repomirage", "repository-context-reasoning", "exploration-drift", "structural-scaffolding", "repoanchor", "swe-bench", "agents-md", "codebase-navigation"]
 ---
 

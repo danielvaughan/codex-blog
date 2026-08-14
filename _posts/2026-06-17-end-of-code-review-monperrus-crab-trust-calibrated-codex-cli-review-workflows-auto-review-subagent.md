@@ -1,7 +1,7 @@
 ---
 title: "The End of Code Review? What Three June 2026 Papers Mean for Codex CLI Review Workflows"
 parent: "Articles"
-nav_order: 1138
+nav_order: 783
 type: Technical Article
 timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-end-of-code-review-monperrus-crab-trust-calibrated-codex-cli-review-workflows-auto-review-subagent"

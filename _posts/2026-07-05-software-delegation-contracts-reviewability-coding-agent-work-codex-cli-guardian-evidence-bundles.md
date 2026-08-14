@@ -1,7 +1,7 @@
 ---
 title: "Software Delegation Contracts: What Reviewability Research Reveals About Trusting Coding Agent Output — and How Codex CLI's Guardian Architecture Delivers It"
 parent: "Articles"
-nav_order: 1342
+nav_order: 972
 tags: ["codex-cli", "delegation-contracts", "reviewability", "guardian", "auto-review", "evidence-bundles", "software-engineering-research"]
 ---
 

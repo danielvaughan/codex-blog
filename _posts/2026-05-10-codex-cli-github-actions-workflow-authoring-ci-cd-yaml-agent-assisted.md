@@ -2,7 +2,7 @@
 title: "Codex CLI for GitHub Actions Workflow Authoring: Agent-Assisted CI/CD Configuration, Failure Diagnosis, and Pipeline Optimisation"
 description: "Most coverage of Codex CLI and GitHub Actions focuses on running Codex inside CI via openai/codex-action@v1 . That is a solved problem. The unsolved problem."
 parent: "Articles"
-nav_order: 655
+nav_order: 360
 type: Technical Article
 timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-github-actions-workflow-authoring-ci-cd-yaml-agent-assisted"

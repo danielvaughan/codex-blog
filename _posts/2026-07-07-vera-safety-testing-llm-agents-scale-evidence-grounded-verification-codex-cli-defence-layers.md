@@ -2,7 +2,7 @@
 title: "Safety Testing at Scale: What Vera's 1,600 Executable Cases Reveal About Agent Vulnerabilities — and How Codex CLI's Defence Layers Hold Up"
 description: "Vera-Bench evaluates four production agent frameworks across 124 risk categories with evidence-grounded verification. Codex CLI's sandbox, hooks, and approval architecture provide measurable containment — but multi-channel attacks still breach 95.8% of scenarios."
 parent: "Articles"
-nav_order: 1371
+nav_order: 997
 type: Technical Article
 timestamp: 2026-07-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-07-vera-safety-testing-llm-agents-scale-evidence-grounded-verification-codex-cli-defence-layers"

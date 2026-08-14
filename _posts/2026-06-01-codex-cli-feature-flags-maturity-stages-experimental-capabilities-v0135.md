@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Feature Flags in v0.135: Maturity Stages, the codex features Subcommand, and Every Flag That Matters"
 parent: "Articles"
-nav_order: 952
+nav_order: 602
 type: Technical Article
 timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-feature-flags-maturity-stages-experimental-capabilities-v0135"

@@ -1,7 +1,7 @@
 ---
 title: "LoopsBench and the DAG-Shaped Future of Loop Engineering: What the First Dependency-Aware Long-Horizon Benchmark Reveals About Codex CLI Session Strategy"
 parent: "Articles"
-nav_order: 1763
+nav_order: 1403
 type: Technical Article
 timestamp: 2026-08-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-05-loopsbench-loop-engineering-benchmark-dag-regression-obligations-codex-cli-goal-mode-long-horizon"

@@ -2,7 +2,7 @@
 title: "Running GPT-OSS with Codex CLI: A Complete Guide to Local Inference via Ollama, LM Studio, and MLX"
 description: "OpenAI's release of GPT-OSS — two open-weight models under the Apache 2.0 licence — changed the economics of agentic coding overnight."
 parent: "Articles"
-nav_order: 540
+nav_order: 289
 type: Technical Article
 timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-gpt-oss-local-models-ollama-lm-studio-mlx-setup-guide"

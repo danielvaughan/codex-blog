@@ -1,7 +1,7 @@
 ---
 title: "To Run or Not to Run: What 7,745 Agent Traces Reveal About the Cost-Effectiveness of Code Execution — and How to Wire Selective Testing into Codex CLI"
 parent: "Articles"
-nav_order: 1377
+nav_order: 1003
 tags: ["codex-cli", "cost-optimisation", "code-execution", "program-repair", "SWE-bench", "testing", "token-budget", "named-profiles"]
 ---
 

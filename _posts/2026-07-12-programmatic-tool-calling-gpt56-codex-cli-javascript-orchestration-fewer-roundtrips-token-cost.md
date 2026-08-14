@@ -1,7 +1,7 @@
 ---
 title: "Programmatic Tool Calling: How GPT-5.6's JavaScript Orchestration Layer Cuts Codex CLI Round-Trips and Token Costs"
 parent: "Articles"
-nav_order: 1426
+nav_order: 1049
 type: Technical Article
 timestamp: 2026-07-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-12-programmatic-tool-calling-gpt56-codex-cli-javascript-orchestration-fewer-roundtrips-token-cost"

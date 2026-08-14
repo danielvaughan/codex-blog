@@ -2,7 +2,7 @@
 title: "The Automated Review-Fix Loop: CodeRabbit, Cross-Provider Review, and Closing the Quality Gap in Agent-Generated Code"
 description: "Agent-generated code ships fast, but quality remains the bottleneck. The Hacker News consensus on Codex is blunt: the code can be quite sloppy and."
 parent: "Articles"
-nav_order: 313
+nav_order: 63
 type: Technical Article
 timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-automated-review-fix-loop-coderabbit-cross-provider-quality-gates"

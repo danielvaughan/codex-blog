@@ -1,7 +1,7 @@
 ---
 title: "177,000 MCP Tools and the Action-Tool Explosion: What the First Large-Scale Agent Census Means for Codex CLI Governance"
 parent: "Articles"
-nav_order: 1272
+nav_order: 909
 type: Technical Article
 timestamp: 2026-06-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-mcp-tool-census-177000-action-tool-growth-codex-cli-approval-gates-governance"

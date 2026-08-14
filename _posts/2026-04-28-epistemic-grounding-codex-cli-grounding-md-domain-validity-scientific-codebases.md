@@ -2,7 +2,7 @@
 title: "Epistemic Grounding for Codex CLI: Using GROUNDING.md to Enforce Domain Validity in Scientific and Regulated Codebases"
 description: "Coding agents are excellent at satisfying user intent. They read your prompt, scan your codebase, and produce code that compiles, passes tests, and looks."
 parent: "Articles"
-nav_order: 470
+nav_order: 219
 type: Technical Article
 timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-epistemic-grounding-codex-cli-grounding-md-domain-validity-scientific-codebases"

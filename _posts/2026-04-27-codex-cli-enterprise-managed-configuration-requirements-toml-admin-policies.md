@@ -2,7 +2,7 @@
 title: "Codex CLI Enterprise Managed Configuration: requirements.toml, managed_config.toml, and Admin-Enforced Policies"
 description: "Deploying Codex CLI to a team of five developers is straightforward — everyone edits their own config.toml and moves on."
 parent: "Articles"
-nav_order: 462
+nav_order: 211
 type: Technical Article
 timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-enterprise-managed-configuration-requirements-toml-admin-policies"

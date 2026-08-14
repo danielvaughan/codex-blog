@@ -2,7 +2,7 @@
 title: "Codex CLI v0.125: Permission Profile Persistence, App-Server Unix Sockets, and Rollout Tracing"
 description: "Version 0.125.0, released on 24 April 2026, ships 22 features, 14 improvements, and 24 bug fixes across 69 total changes. Three themes dominate: permission."
 parent: "Articles"
-nav_order: 406
+nav_order: 155
 type: Technical Article
 timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-v0125-permission-profile-persistence-app-server-unix-sockets-rollout-tracing"

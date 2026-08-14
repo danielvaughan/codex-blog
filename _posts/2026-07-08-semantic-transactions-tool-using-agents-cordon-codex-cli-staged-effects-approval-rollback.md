@@ -1,7 +1,7 @@
 ---
 title: "Semantic Transactions for Tool-Using Agents: What Cordon Reveals About the Staged-Effect Gap — and How Codex CLI's Approval-Sandbox Stack Partially Fills It"
 parent: "Articles"
-nav_order: 1382
+nav_order: 1008
 tags: ["codex-cli", "agent-security", "semantic-transactions", "cordon", "approval-policy", "sandbox", "rollback", "tool-safety", "irreversible-effects", "hooks"]
 ---
 

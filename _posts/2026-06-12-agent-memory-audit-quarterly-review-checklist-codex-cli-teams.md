@@ -1,7 +1,7 @@
 ---
 title: "The Agent Memory Audit: A Quarterly Review Checklist for Codex CLI Teams"
 parent: "Articles"
-nav_order: 1088
+nav_order: 733
 type: Technical Article
 timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-agent-memory-audit-quarterly-review-checklist-codex-cli-teams"

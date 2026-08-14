@@ -1,7 +1,7 @@
 ---
 title: "Five Production Configuration Patterns for Codex CLI in the Post-Subsidy Era: Billing Resilience, Model Routing, and Automation Hygiene for June 2026"
 parent: "Articles"
-nav_order: 1118
+nav_order: 763
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-production-configuration-patterns-june-2026-billing-models-automation-resilience"

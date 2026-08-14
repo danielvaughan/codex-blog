@@ -2,7 +2,7 @@
 title: "Codex CLI and Turborepo: Agent-Aware Builds, Task Caching, and Remote Cache Integration"
 description: "Turborepo 2.8 and 2.9 introduced first-class support for AI coding agents, making it the first major JavaScript build tool to explicitly optimise for agentic."
 parent: "Articles"
-nav_order: 265
+nav_order: 18
 type: Technical Article
 timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-turborepo-agent-aware-builds"

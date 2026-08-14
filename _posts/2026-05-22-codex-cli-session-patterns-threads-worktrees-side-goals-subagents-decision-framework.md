@@ -2,7 +2,7 @@
 title: "Codex CLI Session Patterns: A Decision Framework for Threads, Worktrees, /side, Goals, and Subagents"
 description: "Codex CLI v0.133 ships with five distinct session patterns, each designed for a different shape of work. Choosing the wrong pattern does not break anything."
 parent: "Articles"
-nav_order: 834
+nav_order: 484
 type: Technical Article
 timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-session-patterns-threads-worktrees-side-goals-subagents-decision-framework"

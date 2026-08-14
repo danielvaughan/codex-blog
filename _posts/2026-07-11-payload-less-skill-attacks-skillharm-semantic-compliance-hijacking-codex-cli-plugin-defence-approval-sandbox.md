@@ -1,7 +1,7 @@
 ---
 title: "Payload-Less Skill Attacks: What SkillHarm and Semantic Compliance Hijacking Mean for Your Codex CLI Plugin Stack"
 parent: "Articles"
-nav_order: 1409
+nav_order: 1035
 tags: ["codex-cli", "security", "skills", "plugins", "supply-chain", "SkillHarm", "SCH", "MCP", "approval-policy", "sandbox"]
 ---
 

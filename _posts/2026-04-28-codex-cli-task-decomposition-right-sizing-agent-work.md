@@ -2,7 +2,7 @@
 title: "Task Decomposition for Codex CLI: Right-Sizing Agent Work for Reliability, Speed, and Cost"
 description: "The single biggest determinant of whether a Codex CLI session succeeds or spirals into wasted tokens is not the model you pick."
 parent: "Articles"
-nav_order: 466
+nav_order: 215
 type: Technical Article
 timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-codex-cli-task-decomposition-right-sizing-agent-work"

@@ -2,7 +2,7 @@
 title: "Codex CLI v0.137.0 Stable: Cloud Config Bundles, Multi-Agent Runtime Persistence, and Plugin JSON Output"
 description: "v0.137.0 shipped stable on 4 June 2026, graduating alpha features and adding enterprise cloud-managed configuration bundles, multi-agent v2 runtime persistence across threads, machine-readable plugin listings, expanded code-mode tooling, and TUI ergonomic improvements."
 parent: "Articles"
-nav_order: 982
+nav_order: 632
 type: Technical Article
 timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-v0137-stable-release-cloud-config-bundles-multi-agent-runtime-plugin-json"

@@ -1,7 +1,7 @@
 ---
 title: "The codexui-android Supply Chain Attack: Credential Exfiltration, Anatomy, and Codex CLI Defence Playbook"
 parent: "Articles"
-nav_order: 967
+nav_order: 617
 type: Technical Article
 timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codexui-android-npm-supply-chain-attack-credential-exfiltration-codex-cli-defence"

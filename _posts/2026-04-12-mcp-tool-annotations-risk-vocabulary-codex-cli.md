@@ -2,7 +2,7 @@
 title: "MCP Tool Annotations as Risk Vocabulary: How Codex CLI Uses Hints to Drive Approval Decisions"
 description: "Every MCP server exposes tools. Some tools read a database schema. Others delete production tables. Without a shared language for expressing this."
 parent: "Articles"
-nav_order: 263
+nav_order: 16
 type: Technical Article
 timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-mcp-tool-annotations-risk-vocabulary-codex-cli"

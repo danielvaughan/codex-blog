@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.136 Security Hardening: Closing Three Agent Attack Surfaces"
 parent: "Articles"
-nav_order: 976
+nav_order: 626
 type: Technical Article
 timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-v0136-security-hardening-exec-server-cswsh-diff-hook-injection-remote-tokens"

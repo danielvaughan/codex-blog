@@ -1,7 +1,7 @@
 ---
 title: "Context Compaction Theory: What a Formal Analysis of Bounded Context Windows Means for Your Codex CLI Sessions"
 parent: "Articles"
-nav_order: 1845
+nav_order: 1495
 tags: ["context compaction", "context window", "communication complexity", "Codex CLI", "long sessions", "token management", "formal methods"]
 ---
 

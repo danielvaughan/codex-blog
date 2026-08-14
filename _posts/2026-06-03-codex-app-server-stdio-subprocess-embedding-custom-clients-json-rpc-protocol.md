@@ -1,7 +1,7 @@
 ---
 title: "Codex App-Server --stdio Mode: Subprocess Embedding, Custom Clients, and the JSON-RPC 2.0 Protocol"
 parent: "Articles"
-nav_order: 974
+nav_order: 624
 type: Technical Article
 timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-app-server-stdio-subprocess-embedding-custom-clients-json-rpc-protocol"

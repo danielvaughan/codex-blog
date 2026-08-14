@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for PostgreSQL Development: MCP Servers, Schema Intelligence, Performance Tuning, and Agent-Driven Database Workflows"
 parent: "Articles"
-nav_order: 1524
+nav_order: 1140
 type: Technical Article
 timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-postgresql-development-mcp-servers-schema-intelligence-performance-tuning-agent-workflows"

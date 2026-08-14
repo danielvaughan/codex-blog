@@ -1,7 +1,7 @@
 ---
 title: "AgentLTL and Temporal Logic for Procedural Compliance: Why Deterministic Trace Verification Beats LLM Judges — and How to Wire It into Codex CLI"
 parent: "Articles"
-nav_order: 1826
+nav_order: 1470
 tags: ["codex-cli", "AgentLTL", "temporal-logic", "procedural-compliance", "PreToolUse", "trace-verification", "policy-enforcement", "LTL", "hooks", "MANTRA"]
 ---
 

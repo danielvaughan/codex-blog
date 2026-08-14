@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Build 2026 and the MAI Model Family: What MAI-Code-1-Flash, MAI-Thinking-1, and MXC Mean for Codex CLI Developers"
 parent: "Articles"
-nav_order: 1005
+nav_order: 655
 type: Technical Article
 timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-microsoft-build-2026-mai-code-1-flash-mai-thinking-1-codex-cli-multi-model-strategy"

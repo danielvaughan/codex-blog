@@ -1,7 +1,7 @@
 ---
 title: "The GPT-5.3-Codex Countdown: Migrating Your Codex CLI Configuration Before the June 30 API Deadline"
 parent: "Articles"
-nav_order: 1115
+nav_order: 760
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-gpt-5-3-codex-countdown-migration-codex-cli-configuration-june-30-api-deadline"

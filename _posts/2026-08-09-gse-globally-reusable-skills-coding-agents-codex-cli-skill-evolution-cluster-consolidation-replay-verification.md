@@ -1,7 +1,7 @@
 ---
 title: "GSE and the Skill Fragmentation Problem: Why Your Coding Agent's Learned Skills Overfit — and How Globalized Skill Evolution Maps to Codex CLI's Skill Architecture"
 parent: "Articles"
-nav_order: 1809
+nav_order: 1452
 tags: ["codex-cli", "skill-evolution", "GSE", "coding-agents", "SKILL.md", "agent-plugins", "reusable-skills", "cluster-consolidation"]
 ---
 

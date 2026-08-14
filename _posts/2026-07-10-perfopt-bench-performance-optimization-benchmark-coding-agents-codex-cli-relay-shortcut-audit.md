@@ -1,7 +1,7 @@
 ---
 title: "PERFOPT-Bench and the Performance-Optimisation Gap: What 12 C-Language Tasks Reveal About Coding Agent Stacks — and How to Wire Relay Workflows into Codex CLI"
 parent: "Articles"
-nav_order: 1553
+nav_order: 1169
 tags: ["codex-cli", "performance-optimisation", "benchmark", "PERFOPT-Bench", "relay", "agent-stack", "shortcut-exploitation", "trajectory-audit", "named-profiles"]
 ---
 

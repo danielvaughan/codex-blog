@@ -1,7 +1,7 @@
 ---
 title: "OKF Implementation Guide: Building Agent-Ready Knowledge Bundles for Codex CLI via MCP"
 parent: "Articles"
-nav_order: 1147
+nav_order: 792
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-okf-implementation-guide-building-agent-ready-knowledge-bundles-codex-cli-mcp"

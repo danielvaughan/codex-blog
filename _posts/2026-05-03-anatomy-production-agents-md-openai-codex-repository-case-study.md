@@ -2,7 +2,7 @@
 title: "Anatomy of a Production AGENTS.md: What the openai/codex Repository Teaches About Agent-Aware Codebase Configuration"
 description: "Most AGENTS.md guides tell you what sections to include. Few show you a battle-tested file from a codebase where agents write production code daily."
 parent: "Articles"
-nav_order: 532
+nav_order: 281
 type: Technical Article
 timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-anatomy-production-agents-md-openai-codex-repository-case-study"

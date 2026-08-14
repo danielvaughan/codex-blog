@@ -1,7 +1,7 @@
 ---
 title: "When Policies Change Probabilities: What Modular Decision Theory Means for Your Codex CLI Auto-Review Configuration"
 parent: "Articles"
-nav_order: 1806
+nav_order: 1449
 tags: ["codex-cli", "auto-review", "guardian", "approve-for-me", "decision-theory", "modular-review", "risk-estimation", "security"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "The Voice-First Agent Orchestration Guide: Unifying GPT-Live, OpenAI Presence, and Realtime V3 in Codex CLI"
 parent: "Articles"
-nav_order: 1643
+nav_order: 1260
 tags: ["codex-cli", "voice", "GPT-Live", "OpenAI Presence", "Realtime V3", "agent-orchestration", "enterprise"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns"
 description: "Long-running Codex CLI sessions are now routine. Multi-hour debugging marathons, /goal workflows spanning entire feature branches, and agentic refactoring."
 parent: "Articles"
-nav_order: 1509
+nav_order: 1125
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality"

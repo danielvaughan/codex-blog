@@ -1,7 +1,7 @@
 ---
 title: "GuardianAgentBench and the Structural Guardrail Advantage: What 580 Failure Scenarios Reveal About Tool-Set Scaling, Long-Horizon Collapse, and Codex CLI's Defence Architecture"
 parent: "Articles"
-nav_order: 1707
+nav_order: 1332
 tags: ["codex-cli", "guardrails", "benchmarks", "tool-selection", "agent-safety", "pretooluse-hooks", "guardian-auto-review", "long-horizon", "structural-defence"]
 ---
 

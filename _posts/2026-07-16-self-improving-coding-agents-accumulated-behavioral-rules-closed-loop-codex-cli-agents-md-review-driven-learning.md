@@ -1,7 +1,7 @@
 ---
 title: "Self-Improving Coding Agents Through Accumulated Behavioural Rules: What a Closed-Loop Framework Means for Your AGENTS.md"
 parent: "Articles"
-nav_order: 1571
+nav_order: 1187
 tags: ["codex-cli", "agents-md", "behavioural-rules", "self-improving-agents", "code-review", "closed-loop-learning", "agent-memory"]
 ---
 

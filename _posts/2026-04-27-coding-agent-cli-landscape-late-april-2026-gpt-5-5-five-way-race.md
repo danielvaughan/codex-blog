@@ -2,7 +2,7 @@
 title: "The Coding Agent CLI Landscape in Late April 2026: GPT-5.5, Five-Way Competition, and What Changed This Month"
 description: "Two weeks ago, the coding agent CLI market was a three-horse race. Today it is five — and the dynamics have shifted more in April 2026 than in any month."
 parent: "Articles"
-nav_order: 454
+nav_order: 203
 type: Technical Article
 timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-coding-agent-cli-landscape-late-april-2026-gpt-5-5-five-way-race"

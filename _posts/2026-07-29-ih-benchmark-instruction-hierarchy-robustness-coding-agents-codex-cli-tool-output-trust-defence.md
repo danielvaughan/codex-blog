@@ -1,7 +1,7 @@
 ---
 title: "IH-Benchmark and the Instruction Hierarchy Gap: Why Your Codex CLI Agent Obeys Rogue Tool Outputs More Than You Think"
 parent: "Articles"
-nav_order: 1702
+nav_order: 1323
 tags: ["codex-cli", "instruction-hierarchy", "security", "tool-output-trust", "IH-Benchmark", "prompt-injection", "AGENTS.md", "hooks"]
 ---
 

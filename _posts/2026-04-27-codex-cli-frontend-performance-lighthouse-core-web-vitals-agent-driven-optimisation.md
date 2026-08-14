@@ -2,7 +2,7 @@
 title: "Codex CLI for Frontend Performance Optimisation: Lighthouse MCP, Core Web Vitals Skills, and Agent-Driven Performance Budgets"
 description: "Only 47% of websites reach Googles good Core Web Vitals thresholds in 2026. INP remains the most commonly failed metric."
 parent: "Articles"
-nav_order: 448
+nav_order: 197
 type: Technical Article
 timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-frontend-performance-lighthouse-core-web-vitals-agent-driven-optimisation"

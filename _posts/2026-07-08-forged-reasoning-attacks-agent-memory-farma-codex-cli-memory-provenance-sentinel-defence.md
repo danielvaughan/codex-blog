@@ -1,7 +1,7 @@
 ---
 title: "Forged Reasoning Attacks on Agent Memory: What FARMA Reveals About the Reasoning Store Blind Spot — and How to Wire Provenance Defence in Codex CLI"
 parent: "Articles"
-nav_order: 1378
+nav_order: 1004
 tags: ["codex-cli", "agent-security", "memory-poisoning", "FARMA", "SENTINEL", "reasoning-integrity", "persistent-memory", "PreToolUse-hooks", "memory-provenance"]
 ---
 

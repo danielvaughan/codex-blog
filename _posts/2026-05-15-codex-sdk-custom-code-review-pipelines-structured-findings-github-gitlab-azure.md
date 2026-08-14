@@ -2,7 +2,7 @@
 title: "Building Custom Code Review Pipelines with the Codex SDK: Structured Findings Across GitHub, GitLab, and Azure DevOps"
 description: "Codex ships with built-in GitHub pull request review — enable it in settings and every PR gets an automatic @codex review pass ."
 parent: "Articles"
-nav_order: 712
+nav_order: 403
 type: Technical Article
 timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-sdk-custom-code-review-pipelines-structured-findings-github-gitlab-azure"

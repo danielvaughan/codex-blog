@@ -2,7 +2,7 @@
 title: "Codex CLI Cloud Delegation Workflows: Plan Locally, Execute Remotely, Apply Diffs"
 description: "Codex Cloud runs agent tasks inside isolated containers on OpenAI's infrastructure, each with your repository checked out and dependencies installed."
 parent: "Articles"
-nav_order: 774
+nav_order: 446
 type: Technical Article
 timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-cloud-delegation-workflows-plan-locally-execute-remotely-apply-diffs"

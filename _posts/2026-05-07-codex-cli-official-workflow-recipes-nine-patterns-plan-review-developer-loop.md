@@ -2,7 +2,7 @@
 title: "Codex CLI Official Workflow Recipes: Nine Patterns That Structure the Developer Loop"
 description: "OpenAI's developer documentation now includes a dedicated Workflows page that codifies nine canonical patterns for using Codex CLI across the software."
 parent: "Articles"
-nav_order: 618
+nav_order: 323
 type: Technical Article
 timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-official-workflow-recipes-nine-patterns-plan-review-developer-loop"

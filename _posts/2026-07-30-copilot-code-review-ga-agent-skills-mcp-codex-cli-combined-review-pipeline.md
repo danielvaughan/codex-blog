@@ -1,7 +1,7 @@
 ---
 title: "Copilot Code Review Goes GA with Agent Skills and MCP: Building a Combined Review Pipeline with Codex CLI"
 parent: "Articles"
-nav_order: 1712
+nav_order: 1337
 tags: ["codex-cli", "github-copilot", "code-review", "agent-skills", "mcp", "SKILL.md", "review-pipeline", "automation"]
 ---
 

@@ -2,7 +2,7 @@
 title: "GitHub Agent HQ Model Selection: Choosing GPT-5.4 vs GPT-5.3-Codex, Custom Agents, and the Multi-Agent GitHub Workflow"
 description: "GitHub's Agent HQ — the platform that lets developers assign coding tasks to Copilot, Claude, and Codex directly from issues, pull requests, and the Agents."
 parent: "Articles"
-nav_order: 282
+nav_order: 34
 type: Technical Article
 timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-github-agent-hq-model-selection-codex-custom-agents"

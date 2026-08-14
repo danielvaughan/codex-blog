@@ -1,7 +1,7 @@
 ---
 title: "RETRACE and Independent Patch Verification: Why Bidirectional Reconstruction Catches What Self-Refinement Misses — and How to Wire It into Codex CLI"
 parent: "Articles"
-nav_order: 1830
+nav_order: 1477
 tags: ["codex-cli", "patch-verification", "RETRACE", "bidirectional-reconstruction", "PostToolUse", "coding-agents", "SWE-bench", "independent-verification"]
 ---
 

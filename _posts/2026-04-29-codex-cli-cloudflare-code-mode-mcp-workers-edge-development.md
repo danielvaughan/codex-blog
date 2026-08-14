@@ -2,7 +2,7 @@
 title: "Codex CLI and Cloudflare: Code Mode MCP, Dynamic Workers, and Edge Development Workflows"
 description: "Cloudflare's Agents Week (14–20 April 2026) shipped more than twenty product launches aimed squarely at AI agent infrastructure. The centrepiece for Codex."
 parent: "Articles"
-nav_order: 479
+nav_order: 228
 type: Technical Article
 timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-cloudflare-code-mode-mcp-workers-edge-development"

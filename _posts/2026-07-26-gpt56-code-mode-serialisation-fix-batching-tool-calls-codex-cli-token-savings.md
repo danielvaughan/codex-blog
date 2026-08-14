@@ -1,7 +1,7 @@
 ---
 title: "The GPT-5.6 Serialisation Tax: How Explicit Batching in Code Mode Cuts Your Codex CLI Token Bill by 27–45%"
 parent: "Articles"
-nav_order: 1664
+nav_order: 1278
 description: "GPT-5.6 silently serialises independent tool calls in Code Mode instead of batching them. A community-discovered AGENTS.md directive using Promise.allSettled() reduced weighted usage by 27–45% and model cycles by over 50%. This article explains the architectural root cause and the fix."
 type: Technical Article
 timestamp: 2026-07-26T00:00:00+00:00

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI with Dagger: Container-Use MCP, Programmable Pipelines, and LLM-Native CI/CD"
 parent: "Articles"
-nav_order: 882
+nav_order: 532
 type: Technical Article
 timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-dagger-container-use-programmable-pipelines-llm-agent-ci-cd"

@@ -1,7 +1,7 @@
 ---
 title: "Why Nearly Half of Agentic Pull Requests Get Rejected — and How Codex CLI Can Cut the Waste"
 parent: "Articles"
-nav_order: 1154
+nav_order: 799
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-why-agentic-pull-requests-get-rejected-codex-cli-ci-gates-review-hooks-defence"

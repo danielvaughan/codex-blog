@@ -2,7 +2,7 @@
 title: "Microsoft APM: The Package Manager for AI Agents and What It Means for Codex CLI Teams"
 description: "Every software team has solved dependency management for application code — package.json, requirements.txt, Cargo.toml. But agent configuration remains."
 parent: "Articles"
-nav_order: 614
+nav_order: 319
 type: Technical Article
 timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-microsoft-apm-agent-package-manager-codex-cli-reproducible-agent-configuration"

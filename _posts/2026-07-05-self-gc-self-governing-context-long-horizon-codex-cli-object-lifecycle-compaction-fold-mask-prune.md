@@ -1,7 +1,7 @@
 ---
 title: "Self-GC and the Object Lifecycle Model: Why Chronological Pruning Destroys Future Dependencies — and How to Configure Codex CLI's Compaction for Structured Context Governance"
 parent: "Articles"
-nav_order: 1351
+nav_order: 977
 tags: ["codex-cli", "context-management", "compaction", "self-gc", "long-horizon-agents", "token-efficiency", "prompt-cache", "object-lifecycle"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Session Lifecycle: Archive, Resume, Fork, and Compact"
 parent: "Articles"
-nav_order: 1001
+nav_order: 651
 type: Technical Article
 timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-codex-cli-session-lifecycle-archive-resume-fork-compact-management"

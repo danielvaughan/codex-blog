@@ -1,7 +1,7 @@
 ---
 title: "Paper Replication with Coding Agents: What 158 Matched Targets Reveal About Evidence-Based Scientific Verification — and How to Wire the Workflow in Codex CLI"
 parent: "Articles"
-nav_order: 1375
+nav_order: 1001
 type: Technical Article
 timestamp: 2026-07-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-08-paper-replication-coding-agents-scientific-ml-codex-cli-skill-verification-evidence-workflow"

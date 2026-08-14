@@ -1,7 +1,7 @@
 ---
 title: "The llms.txt Specification and Codex CLI: Machine-Readable Documentation for Agent-Assisted Development"
 parent: "Articles"
-nav_order: 1004
+nav_order: 654
 type: Technical Article
 timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-llms-txt-specification-codex-cli-machine-readable-documentation-agent-context"

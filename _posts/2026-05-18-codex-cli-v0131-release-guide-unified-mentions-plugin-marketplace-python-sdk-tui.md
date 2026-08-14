@@ -2,7 +2,7 @@
 title: "Codex CLI v0.131.0 Release Guide: Unified Mentions, Plugin Marketplace CLI, Python SDK Migration, and TUI Overhaul"
 description: "Codex CLI v0.131.0 shipped on 18 May 2026, landing the same day OpenAI announced its Dell AI Factory partnership to bring Codex into on-premises enterprise."
 parent: "Articles"
-nav_order: 769
+nav_order: 441
 type: Technical Article
 timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-v0131-release-guide-unified-mentions-plugin-marketplace-python-sdk-tui"

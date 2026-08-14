@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Terminal Ergonomics: File Openers, OSC 8 Hyperlinks, Notifications, and Shell Integration for a Friction-Free Environment"
 parent: "Articles"
-nav_order: 966
+nav_order: 616
 type: Technical Article
 timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-terminal-ergonomics-file-openers-osc8-hyperlinks-notifications-shell-integration"

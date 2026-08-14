@@ -1,7 +1,7 @@
 ---
 title: "The Agent Client Protocol Arrives in Microsoft Terminal: What ACP Means for Codex CLI and the Multi-Agent IDE Ecosystem"
 parent: "Articles"
-nav_order: 1052
+nav_order: 702
 type: Technical Article
 timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-agent-client-protocol-microsoft-intelligent-terminal-codex-cli-multi-agent-ide-ecosystem"

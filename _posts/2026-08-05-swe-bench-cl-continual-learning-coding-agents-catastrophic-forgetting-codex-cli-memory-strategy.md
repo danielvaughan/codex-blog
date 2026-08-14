@@ -1,7 +1,7 @@
 ---
 title: "SWE-Bench-CL and the Continual Learning Gap: Why Your Coding Agent Forgets What Your Repository Learned Last Month"
 parent: "Articles"
-nav_order: 1765
+nav_order: 1405
 tags: ["codex-cli", "swe-bench-cl", "continual-learning", "catastrophic-forgetting", "memory", "agents-md", "benchmark", "long-horizon"]
 ---
 

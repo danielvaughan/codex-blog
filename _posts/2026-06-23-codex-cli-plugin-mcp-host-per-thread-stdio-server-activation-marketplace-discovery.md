@@ -1,7 +1,7 @@
 ---
 title: "Plugin as MCP Host: How Codex CLI v0.141 Turns Plugins into Per-Thread Tool Servers"
 parent: "Articles"
-nav_order: 1208
+nav_order: 850
 type: Technical Article
 timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-codex-cli-plugin-mcp-host-per-thread-stdio-server-activation-marketplace-discovery"

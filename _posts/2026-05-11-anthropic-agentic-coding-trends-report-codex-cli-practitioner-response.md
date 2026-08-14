@@ -2,7 +2,7 @@
 title: "Anthropic's 2026 Agentic Coding Trends Report: What It Means for Codex CLI Practitioners"
 description: "Anthropic published their 2026 Agentic Coding Trends Report in late April, drawing on case studies from Rakuten, TELUS, Zapier, CRED."
 parent: "Articles"
-nav_order: 678
+nav_order: 369
 type: Technical Article
 timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-anthropic-agentic-coding-trends-report-codex-cli-practitioner-response"

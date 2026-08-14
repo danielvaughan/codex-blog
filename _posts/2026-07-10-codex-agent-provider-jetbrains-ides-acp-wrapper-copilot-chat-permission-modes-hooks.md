@@ -1,7 +1,7 @@
 ---
 title: "Codex as Agent Provider in JetBrains IDEs: The ACP Wrapper Architecture, Permission Modes, and What CLI Developers Need to Know"
 parent: "Articles"
-nav_order: 1402
+nav_order: 1028
 type: Technical Article
 timestamp: 2026-07-10T00:00:00+00:00
 tags: ["codex-cli", "jetbrains", "acp", "ide-integration", "github-copilot", "hooks", "mcp", "enterprise"]

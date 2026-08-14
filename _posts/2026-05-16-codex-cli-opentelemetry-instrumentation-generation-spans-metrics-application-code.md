@@ -2,7 +2,7 @@
 title: "Codex CLI for OpenTelemetry Instrumentation: Agent-Driven Span Generation, Metrics Scaffolding, and Observability Pipelines"
 description: "Existing Codex CLI observability coverage focuses on monitoring the agent itself — exporting traces from Codex sessions to backends like Grafana or SigNoz."
 parent: "Articles"
-nav_order: 744
+nav_order: 417
 type: Technical Article
 timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-opentelemetry-instrumentation-generation-spans-metrics-application-code"

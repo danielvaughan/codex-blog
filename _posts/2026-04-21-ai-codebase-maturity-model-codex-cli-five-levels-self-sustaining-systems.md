@@ -2,7 +2,7 @@
 title: "The AI Codebase Maturity Model: Mapping Five Levels of Agent Autonomy to Codex CLI"
 description: "Most teams plateau at prompt-and-review. They install Codex CLI, generate a few fixes, manually inspect the diffs."
 parent: "Articles"
-nav_order: 373
+nav_order: 122
 type: Technical Article
 timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-ai-codebase-maturity-model-codex-cli-five-levels-self-sustaining-systems"

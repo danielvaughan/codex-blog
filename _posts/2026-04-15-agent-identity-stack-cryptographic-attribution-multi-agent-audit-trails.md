@@ -2,7 +2,7 @@
 title: "Agent Identity Stack Complete: Cryptographic Attribution for Multi-Agent Audit Trails"
 description: "Codex CLI v0.121.0, released today, ships two PRs that introduce a use_agent_identity feature flag and the ability to register agent identities behind it ."
 parent: "Articles"
-nav_order: 289
+nav_order: 40
 type: Technical Article
 timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-agent-identity-stack-cryptographic-attribution-multi-agent-audit-trails"

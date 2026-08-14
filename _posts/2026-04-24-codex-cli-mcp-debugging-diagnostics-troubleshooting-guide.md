@@ -2,7 +2,7 @@
 title: "MCP Debugging and Diagnostics in Codex CLI: The Complete Troubleshooting Guide"
 description: "Model Context Protocol servers are the primary extension mechanism for Codex CLI, connecting agents to external tools, APIs, and data sources."
 parent: "Articles"
-nav_order: 390
+nav_order: 139
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-mcp-debugging-diagnostics-troubleshooting-guide"

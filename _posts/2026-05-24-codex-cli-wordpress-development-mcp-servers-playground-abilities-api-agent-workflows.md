@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI for WordPress Development: MCP Adapter, Playground, and Agent-Driven Plugin Workflows on WordPress 7.0"
 parent: "Articles"
-nav_order: 856
+nav_order: 506
 type: Technical Article
 timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-wordpress-development-mcp-servers-playground-abilities-api-agent-workflows"

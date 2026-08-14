@@ -1,7 +1,7 @@
 ---
 title: "o3-pro Lands in the API: Configuring Codex CLI for Maximum-Compute Reasoning on the Hardest Problems"
 parent: "Articles"
-nav_order: 1104
+nav_order: 749
 type: Technical Article
 timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-o3-pro-codex-cli-reasoning-model-hard-problems-configuration-cost-routing"

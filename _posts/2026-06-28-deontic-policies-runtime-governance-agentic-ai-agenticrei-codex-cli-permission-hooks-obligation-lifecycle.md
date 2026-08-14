@@ -1,7 +1,7 @@
 ---
 title: "Deontic Policies and Runtime Governance: What AgenticRei Means for Codex CLI's Permission Model"
 parent: "Articles"
-nav_order: 1262
+nav_order: 901
 type: Technical Article
 timestamp: 2026-06-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-28-deontic-policies-runtime-governance-agentic-ai-agenticrei-codex-cli-permission-hooks-obligation-lifecycle"
