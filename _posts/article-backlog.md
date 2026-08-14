@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Patch Verbosity and RECAP Refinement — Post-Generation Patch Minimisation, PostToolUse Hooks, AGENTS.md Directives (2026-08-15 Hourly Article Run)
+
+1. ✅ **Patch Verbosity and the RECAP Refinement Adapter: Why Your Codex CLI Patches Are Twice the Size of Human Ones — and What to Do About It** — Written 2026-08-15 → `2026-08-15-patch-verbosity-recap-refinement-codex-cli-agents-md-posttooluse-hooks-minimal-patch-quality.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Luo et al. arXiv:2608.13292 (August 2026) "Refine After Generation: Toward Correct and Concise Patches"; median patch inflation +121.78% total changes, +80.91% net changes, +43.99% cyclomatic complexity vs developer patches on SWE-bench Verified; RECAP three-component adapter (Collector, Filter, Refiner) using Qwen-3.5-27B with SFT+DPO two-phase training on 5,540 instances; three deployment policies (UR, JGR, OGR); tested across Agentless, SWE-agent, Moatless, OpenHands; aggregate reduction from +242.14% to +18.55% total changes; +23 to +42 additional resolved instances per host; mapped to Codex CLI v0.147.0 AGENTS.md structural minimality directives, PostToolUse hooks exit code 2 patch-size gate, hooks.json refinement loop, --approve-for-me Guardian auto-review, approval_policy, config.toml profiles; identified gaps: no built-in diff-complexity analysis, no cross-patch learning in Memories, no RECAP-style plugin in catalogue; 5 citations
+
+---
+
 ## ToolHazard Adversarial Environment Synthesis — Indirect Prompt Injection, Injection Timing, Alignment Training, Codex CLI Defence Stack (2026-08-14 Hourly Article Run)
 
 1. ✅ **ToolHazard and Adversarial Environment Synthesis: What 87 Stress-Test Tasks Reveal About Indirect Prompt Injection in Tool-Using Agents — and How Codex CLI's Layered Defences Respond** — Written 2026-08-14 → `2026-08-14-toolhazard-adversarial-environment-synthesis-indirect-prompt-injection-codex-cli-pretooluse-sandbox-defence.md`
