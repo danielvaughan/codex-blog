@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DARC Selective Self-Correction — Failure Taxonomy, PostToolUse Diagnostic Hooks, Recovery Budget (2026-08-14 Hourly Article Run)
+
+1. ✅ **Diagnosis Before Recovery: What DARC's Selective Self-Correction Means for Your Codex CLI Error-Handling Strategy** — Written 2026-08-14 → `2026-08-14-diagnosis-before-recovery-darc-selective-self-correction-codex-cli-posttooluse-hooks-failure-taxonomy-recovery-budget.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. arXiv:2608.11772 (August 12, 2026) "Diagnosis Before Recovery: Turning Agent Failures into Selective Self-Correction"; DARC three-stage pipeline (failure diagnosis, intervention restriction, policy distillation); three failure categories (action validity, procedure breadth, format precision); +50.75pp ALFWorld gain, +29.65pp AppWorld gain; 92.9% invalid action reduction; 54.2% environment step reduction; 10× policy search-space reduction; mismatched recovery worse than none (94.50% → 37.75% on XBRL Finance); mapped to Codex CLI v0.147.0 PostToolUse hooks exit code 2, AGENTS.md recovery directives, sandbox verification, token budget cost control; 5 citations
+   - SEO targets: "DARC selective self-correction codex cli", "codex cli PostToolUse hooks failure diagnosis recovery", "agent self-correction failure taxonomy codex cli", "codex cli error recovery budget selective correction", "diagnosis before recovery coding agent PostToolUse hooks", "codex cli AGENTS.md failure class intervention restriction"
+
+---
+
 ## Security Degradation in Iterative LLM Repair — 5,968 Timelines, Regression Detection, PostToolUse Hooks, Iteration Budget (2026-08-14 Hourly Article Run)
 
 1. ✅ **Does Fixing Break Security? What 5,968 Iterative LLM Repair Timelines Reveal About Security Regression — and How Codex CLI's PostToolUse Hooks Defend Your Iteration Loop** — Written 2026-08-14 → `2026-08-14-security-degradation-iterative-llm-repair-iac-codex-cli-posttooluse-regression-detection-iteration-budget.md`
