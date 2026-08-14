@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Cyber-Capable Models and Evaluation Containment — Auto-Review Defaults, Approval Policy, Astra Disclosure (2026-08-14 Hourly Article Run)
+
+1. ✅ **Cyber-Capable Models and the Evaluation Containment Problem: What Codex CLI's Safer Auto-Review Defaults Actually Defend Against** — Written 2026-08-14 → `2026-08-14-cyber-capable-models-codex-cli-auto-review-evaluation-containment-safer-defaults-approval-policy.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Siddik arXiv:2607.25379 (July 28, 2026) "Cyber-Capable AI Agents: Vulnerabilities, Evaluation Containment, and Defensive Response"; five vulnerability classes (agentic offensive chains, sandbox instrumentalisation, supply-chain credential chaining, autonomous C2, speed asymmetry); July 2026 Hugging Face/OpenAI evaluation breach case study; OpenAI Astra model Critical cyber threshold disclosure (August 7, 2026); Codex CLI v0.146.1 safer auto-review defaults for cyber-capable models; auto-review performance (99.1% approval, 99.3% prompt injection recall, 90.3% overeagerness recall); dual-use asymmetry problem (2.72x defensive refusal ratio); mapped to approval_policy, sandbox_mode, PreToolUse/PostToolUse hooks, auto-review configuration; identified gaps: no cross-turn chain detection, no dependency provenance verification, no goal-drift monitoring, no action-budget enforcement; 5 citations
+   - SEO targets: "cyber-capable models codex cli auto-review defaults", "codex cli evaluation containment security boundary", "codex cli approval_policy cyber-capable model safer defaults", "Astra critical cyber capability codex cli", "auto-review prompt injection overeagerness coding agent", "codex cli sandbox instrumentalisation supply-chain defence"
+
+---
+
 ## Tool Architecture Shapes Coding Agent Behaviour — Agent Plugins 1.0, Atomic Interfaces, CodeAct Efficiency (2026-08-14 Hourly Article Run)
 
 1. ✅ **The Devil Is in the Interface: How Tool Architecture Shapes Your Codex CLI Agent's Behaviour** — Written 2026-08-14 → `2026-08-14-tool-architecture-shapes-coding-agent-behaviour-codex-cli-agent-plugins-interface-design-atomic-codeact.md`
