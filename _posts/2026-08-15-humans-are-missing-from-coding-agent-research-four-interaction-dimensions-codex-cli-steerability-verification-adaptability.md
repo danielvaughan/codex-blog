@@ -35,7 +35,7 @@ Task alignment measures the distance between the user's intended specification a
 ### Where Codex CLI falls short
 
 - No **user modelling**. Codex CLI does not track individual developer preferences, expertise levels, or interaction patterns across sessions. The paper calls for user simulators trained on GitHub interaction data; Codex CLI has no equivalent.
-- No **intent clarification protocol**. When a prompt is ambiguous, the agent proceeds with its best guess rather than asking a structured clarification question. SWE-chat data shows that users push back in 39% of sessions, yet agents almost never stop to check [^4].
+- No **intent clarification protocol**. When a prompt is ambiguous, the agent proceeds with its best guess rather than asking a structured clarification question. SWE-chat data shows that users push back in 39% of turns, yet agents almost never stop to check [^4].
 
 ## Dimension 2: Steerability
 
@@ -117,7 +117,7 @@ The "Humans are Missing" framework does not exist in isolation. Two complementar
 
 | Dataset | Scale | Key finding |
 |---------|-------|-------------|
-| SWE-chat [^4] | 6,000 sessions, 63,000 prompts, 355,000 tool calls | In 41% of sessions, agents author virtually all committed code; users push back in 39% of sessions |
+| SWE-chat [^4] | 6,000 sessions, 63,000 prompts, 355,000 tool calls | In 41% of sessions, agents author virtually all committed code; users push back in 39% of turns |
 | Developer-Agent Misalignment Study [^6] | 20,574 sessions, 1,639 repositories | 91.49% of visible resolutions require explicit user correction; misalignment patterns persist across adjacent sessions |
 
 Together, these datasets demonstrate that the four-dimension gap is not theoretical — it manifests in measurable user friction at production scale.
