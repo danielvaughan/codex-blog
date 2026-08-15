@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Self-Evolving Coding Agents Taxonomy — Memories, Skills, Hooks, Agent Plugins, Evolution Patterns (2026-08-16 Hourly Article Run)
+
+1. ✅ **Self-Evolving Coding Agents: What a Five-Category Taxonomy Reveals About Codex CLI's Evolution Primitives — and Where the Gaps Remain** — Written 2026-08-16 → `2026-08-16-self-evolving-coding-agents-taxonomy-codex-cli-memories-skills-hooks-agent-plugins-evolution-patterns.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zhou, Hu, Shang & Zhang arXiv:2608.03392 (August 2026) "Self-Evolving Coding Agents"; first systematic survey of coding agents that improve through experience; five-category taxonomy (framework, memory, skill/tool, model, workflow evolution); three temporal patterns (task-time, post-task, stage-wise); three evidence types (outcome, environmental, trajectory-derived); complemented by Socratic-SWE arXiv:2606.07412 trace-derived agent skills 50.40% SWE-bench Verified; mapped to Codex CLI v0.147.0 Memories system, SKILL.md, Agent Plugins 1.0, PostToolUse hooks, JSONL traces, TOML subagent definitions; identified gaps: no automated skill promotion from trajectories, no memory curation/TTL/repo-scoping, no task-adaptive workflow topology mutation; 6 citations
+   - SEO targets: "self-evolving coding agents codex cli", "codex cli memories skills evolution taxonomy", "agent self-evolution coding taxonomy 2026", "codex cli agent plugins skill promotion", "trace-derived skills coding agent codex cli", "memory curation TTL coding agent evolution"
+
+---
+
 ## Distilling Reasoning Traces into Advisory Prompts — AGENTS.md, Reasoning Effort, SKILL.md (2026-08-15 Hourly Article Run)
 
 1. ✅ **Distilling Reasoning Traces into Advisory Prompts: What the Faisal–Devanbu–Ahmed Pipeline Means for Your AGENTS.md and Reasoning Effort Configuration** — Written 2026-08-15 → `2026-08-15-distilling-reasoning-traces-advisory-prompts-codex-cli-agents-md-reasoning-effort-skills.md`
