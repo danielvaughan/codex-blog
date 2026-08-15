@@ -1,5 +1,13 @@
 # Article Backlog
 
+## GPT-5.6 Sol Ultrafast Preview — 14x Inference Speed, Cerebras Wafer-Scale Engine, Codex CLI Latency Implications (2026-08-15 Hourly Article Run)
+
+1. ✅ **GPT-5.6 Sol Ultrafast Preview: What 14× Inference Speed Means for Your Codex CLI Workflows** — Written 2026-08-15 → `2026-08-15-gpt-5-6-sol-ultrafast-preview-14x-inference-speed-codex-cli-cerebras-wafer-scale-coding-agent-latency.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI announced Ultrafast mode on 13 August 2026; GPT-5.6 Sol at up to 14× Standard speed via Cerebras Wafer-Scale Engine; 750 output tokens/s; limited preview, no pricing; maps to Codex CLI named profiles, service_tier parameter, subagent coordination latency, PostToolUse feedback loop tightening, interactive steer mode; Spark-to-Ultrafast lineage (dedicated model → speed tier on flagship); 6 citations
+   - SEO targets: "GPT-5.6 Sol Ultrafast codex cli", "codex cli Cerebras inference speed 14x", "Ultrafast mode coding agent latency", "codex cli named profiles speed tier", "GPT-5.6 Sol 750 tokens per second", "codex cli subagent Ultrafast coordination"
+
+---
+
 ## SWE-Touch Shared Workspace Counter-Edits — Workspace State Awareness, Git Worktree Isolation, Writes Mode (2026-08-15 Hourly Article Run)
 
 1. ✅ **SWE-Touch and the Shared Workspace Problem: What Happens When You Edit Code While Your Agent Is Working — and How Codex CLI's Isolation Primitives Respond** — Written 2026-08-15 → `2026-08-15-swe-touch-shared-workspace-counter-edits-coding-agents-codex-cli-worktree-writes-mode-state-awareness.md`
