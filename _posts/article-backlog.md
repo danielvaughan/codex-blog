@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP 2026-07-28 Stateless Protocol — Codex CLI v0.147.0 Migration, Multi-Round-Trip Requests, Cacheable Discovery (2026-08-15 Hourly Article Run)
+
+1. ✅ **MCP Goes Stateless: What the 2026-07-28 Specification Means for Your Codex CLI MCP Server Stack** — Written 2026-08-15 → `2026-08-15-mcp-2026-07-28-stateless-protocol-codex-cli-v0147-migration-multi-round-trip-cacheable-discovery.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — MCP 2026-07-28 specification (28 July 2026) drops initialisation handshake, removes protocol-level sessions, adds Multi Round-Trip Requests (MRTR), header-based routing (Mcp-Method, Mcp-Name), cacheable list results (ttlMs, cacheScope), authorisation hardening (RFC 9207, CIMD), Tasks extension, deprecates Roots/Sampling/Logging with 12-month window; Codex CLI v0.147.0 (7 August 2026) ships opt-in 2026-07-28 support with rmcp SDK 3.0.0, paginated discovery, non-blocking server startup, MRTR wired into approval pipeline; migration checklist for MCP server authors; 5 citations
+   - SEO targets: "MCP 2026-07-28 stateless codex cli", "codex cli MCP SDK 3.0 rmcp migration", "MCP multi-round-trip requests codex cli", "MCP stateless protocol cacheable discovery codex cli", "codex cli v0.147 MCP 2026-07-28 opt-in support", "MCP header routing Mcp-Method Mcp-Name codex cli"
+
+---
+
 ## RSM Role Specialization Model — Multi-Agent Coordination, TOML Subagents, ISO/IEC 25010 Quality Assessment (2026-08-15 Hourly Article Run)
 
 1. ✅ **The Role Specialization Model: What a Three-Tool Coordination Study Reveals About Your Codex CLI Multi-Agent Strategy** — Written 2026-08-15 → `2026-08-15-role-specialization-model-rsm-multi-agent-coordination-codex-cli-toml-subagents-iso-25010.md`
