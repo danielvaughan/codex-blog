@@ -2,7 +2,7 @@
 title: "Staying Engaged with Your Codebase in an Agentic World"
 description: "There is a specific feeling that sets in about two weeks after you start delegating heavily to Codex."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-08-15T06:09:09+01:00
+last_modified_at: 2026-08-15T07:06:53+01:00
 tags:
   - opinion
   - team-workflow

@@ -2,7 +2,7 @@
 title: "Codex CLI with Playwright MCP: Browser Automation Through Accessibility Snapshots"
 description: "Playwright MCP gives Codex CLI real browser access through structured accessibility snapshots rather than screenshots, enabling agent-driven verification, form testing, and test generation at a fraction of the token cost."
 parent: "Articles"
-nav_order: 900
+nav_order: 1510
 type: Technical Article
 timestamp: 2026-08-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-14-codex-cli-playwright-mcp-browser-automation-accessibility-snapshots-testing"
