@@ -1,5 +1,13 @@
 # Article Backlog
 
+## RSM Role Specialization Model — Multi-Agent Coordination, TOML Subagents, ISO/IEC 25010 Quality Assessment (2026-08-15 Hourly Article Run)
+
+1. ✅ **The Role Specialization Model: What a Three-Tool Coordination Study Reveals About Your Codex CLI Multi-Agent Strategy** — Written 2026-08-15 → `2026-08-15-role-specialization-model-rsm-multi-agent-coordination-codex-cli-toml-subagents-iso-25010.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Fernández-y-Fernández & Aguilar-Cisneros arXiv:2608.12311 (August 12, 2026) "The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development"; three tools (Antigravity/Gemini, Gemini CLI, Qwen Code) coordinated via explicit role assignment; Python climate-data visualisation case study; three research questions on coordination, deviations, and ISO/IEC 25010 quality; role drift, context loss, and unilateral architectural decisions as deviation categories; mapped to Codex CLI v0.147.0 TOML agent definitions, sandbox inheritance, multi-agent delegation modes, AGENTS.md shared context, config.toml concurrency control, model-to-task routing (Terra/Sol/o4-mini); identified gaps: no cross-agent context propagation, no deviation detection, no integration-level quality gates; 6 citations
+   - SEO targets: "RSM role specialization model codex cli multi-agent", "codex cli TOML subagent role coordination", "multi-agent coding workflow role assignment codex cli", "codex cli multi-agent context propagation gap", "role drift deviation coding agent coordination", "codex cli ISO 25010 multi-agent quality assessment"
+
+---
+
 ## GPT-5.6 Sol Ultrafast Preview — 14x Inference Speed, Cerebras Wafer-Scale Engine, Codex CLI Latency Implications (2026-08-15 Hourly Article Run)
 
 1. ✅ **GPT-5.6 Sol Ultrafast Preview: What 14× Inference Speed Means for Your Codex CLI Workflows** — Written 2026-08-15 → `2026-08-15-gpt-5-6-sol-ultrafast-preview-14x-inference-speed-codex-cli-cerebras-wafer-scale-coding-agent-latency.md`
