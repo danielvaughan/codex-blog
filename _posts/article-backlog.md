@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Distilling Reasoning Traces into Advisory Prompts — AGENTS.md, Reasoning Effort, SKILL.md (2026-08-15 Hourly Article Run)
+
+1. ✅ **Distilling Reasoning Traces into Advisory Prompts: What the Faisal–Devanbu–Ahmed Pipeline Means for Your AGENTS.md and Reasoning Effort Configuration** — Written 2026-08-15 → `2026-08-15-distilling-reasoning-traces-advisory-prompts-codex-cli-agents-md-reasoning-effort-skills.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Faisal, Devanbu & Ahmed arXiv:2608.00437 (August 2026) "Distilling Reasoning Traces into Advisory Prompts for Software Engineering Tasks"; four-stage pipeline (paired baseline, delta-case diagnosis, prompt synthesis, held-out eval); four student models (Qwen3-4B, Qwen3-8B, Gemma-4-E2B-it, Gemma-4-E4B-it); five SE benchmarks; 19/20 comparisons positive; mean +3.1pp accuracy gain; 58.6% output token savings; exception prediction +11.5pp best result; cross-model transfer positive on 3/5 tasks; mapped to Codex CLI v0.147.0 AGENTS.md as advisory prompt mechanism, model_reasoning_effort config, named profiles, SKILL.md for task-specific advisories, rollout files for failure collection; 6 citations
+   - SEO targets: "distilling reasoning traces advisory prompts codex cli", "codex cli AGENTS.md advisory prompt patterns reasoning effort", "reasoning distillation coding agent SKILL.md", "codex cli model_reasoning_effort advisory prompts cost savings", "advisory prompt software engineering coding agent", "codex cli reasoning effort named profiles advisory instructions"
+
+---
+
 ## APPA and the Taint Confinement Problem — Context Branching, Security Labels, Codex CLI Security Model (2026-08-15 Hourly Article Run)
 
 1. ✅ **APPA and the Taint Confinement Problem: Why Context Branching Beats Permanent Tainting — and What It Means for Codex CLI's Security Model** — Written 2026-08-15 → `2026-08-15-appa-agentic-permissions-policy-algebra-taint-confinement-codex-cli-context-branching-security-labels.md`
