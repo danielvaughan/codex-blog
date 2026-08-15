@@ -1,5 +1,13 @@
 # Article Backlog
 
+## All Smoke, No Alarm — Oracle Signals in Agent-Authored Tests, PostToolUse Assertion Quality, Mutation Testing (2026-08-15 Hourly Article Run)
+
+1. ✅ **All Smoke, No Alarm: What 86,000 Agent-Authored Test Patches Reveal About Oracle Quality — and How to Stop Codex CLI Writing Empty Tests** — Written 2026-08-15 → `2026-08-15-all-smoke-no-alarm-oracle-signals-agent-authored-tests-codex-cli-posttooluse-assertion-quality-verification.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Banik, Chowdhury & Shamim arXiv:2606.18168 (June 2026) "All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code"; 86,156 test patches from 33,596 agent-authored PRs across 2,807 GitHub repos; five agents (OpenAI Codex, GitHub Copilot, Devin, Cursor, Claude Code); 80.2% weak/absent oracle signals; eight-category taxonomy (W1–W5 weak, S1–S3 strong); Claude Code 67% strong-oracle on new files vs OpenAI Codex 18%; merge paradox (weak merge 72.6% raw but OR=1.28 for strong under regression); feature work only 18.2% strong oracles; mapped to Codex CLI v0.147.0 AGENTS.md oracle directives, PostToolUse hooks exit code 2 oracle gate, Stop hook mutation-score gate, Guardian --approve-for-me auto-review loop; identified gaps: no native assertion-density metric, no per-subagent oracle profiling, no cross-session oracle-quality memory; 6 citations
+   - SEO targets: "oracle signals agent-authored tests codex cli", "codex cli PostToolUse hooks assertion quality gate", "weak oracle coding agent test quality 2026", "codex cli AGENTS.md test oracle directive", "agent-authored test verification mutation testing codex cli", "all smoke no alarm oracle signals coding agent"
+
+---
+
 ## Keepalive Economics — Prompt Cache Eviction During Idle Pauses, Codex CLI Cost Optimisation (2026-08-15 Hourly Article Run)
 
 1. ✅ **Keepalive Economics: What Prompt Cache Eviction During Idle Pauses Costs Your Codex CLI Sessions — and How to Stop Bleeding Tokens** — Written 2026-08-15 → `2026-08-15-keepalive-economics-prompt-cache-eviction-agentic-workloads-codex-cli-idle-pause-cost-optimisation.md`
