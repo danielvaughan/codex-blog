@@ -1,5 +1,13 @@
 # Article Backlog
 
+## TestEvo-Bench Test and Code Co-Evolution — Test Generation, Test Update, Mutation Scoring, Redundancy, Cost-Constrained Collapse, Codex CLI PostToolUse Hooks (2026-08-15 Hourly Article Run)
+
+1. ✅ **TestEvo-Bench and the Test Co-Evolution Problem: What 1,255 Real-World Tasks Reveal About Coding Agents and Test Maintenance — and How to Wire Codex CLI for It** — Written 2026-08-15 → `2026-08-15-testevo-bench-test-code-co-evolution-benchmark-codex-cli-test-maintenance-hooks-agents-md.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wang, Wang & Nie arXiv:2607.02469 (July 2026) "TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution"; 746 test generation + 509 test update tasks from 152 Java repos; four agent configs (Claude Code/Opus 4.7, Gemini CLI/3.1 Pro, SWE-Agent variants); 77.5% gen success, 74.6% update success; 20% redundancy rate; mutation scores 55-57% gen, 44-46% update; cost-constrained collapse (Claude Code drops 26pp at $1 cap); mapped to Codex CLI v0.147.0 PostToolUse hooks mutation-aware gates, AGENTS.md cross-revision directives, config.toml budget profiles; identified gaps: no native cross-revision validation, no mutation-aware quality metrics, no assertion-level redundancy detection, no test co-evolution tracking in Memories; 5 citations
+   - SEO targets: "TestEvo-Bench test co-evolution coding agent codex cli", "codex cli PostToolUse hooks mutation testing test quality", "test generation test update benchmark coding agents 2026", "codex cli AGENTS.md test maintenance co-evolution directives", "redundant test detection coding agent mutation score", "codex cli test quality gate hooks test co-evolution"
+
+---
+
 ## PRISMS Sparse Neuron Detection — Tool-Use Failures, Validity, Over-calling, Missing, Activation Steering, Codex CLI PostToolUse (2026-08-15 Hourly Article Run)
 
 1. ✅ **A Few Neurons Reveal Tool-Use Failures: What PRISMS Means for Your Codex CLI Defence Stack** — Written 2026-08-15 → `2026-08-15-prisms-sparse-neuron-detection-tool-use-failures-codex-cli-posttooluse-validity-overcalling-steering.md`
