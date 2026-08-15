@@ -23,7 +23,7 @@ The benchmark defines two tracks [^1]:
 - **Test Generation** (746 tasks): given a code diff that introduces new behaviour, write tests that pass on the new code but fail on the old. A test that passes on both is classified as *redundant* — syntactically valid but semantically useless.
 - **Test Update** (509 tasks): given code changes that break existing tests, adapt those tests so they pass again without losing fault-detection capability.
 
-Tasks are mined from adjacent commits with a maximum twelve-hour gap, filtered through RefactoringMiner to exclude pure refactorings, and validated with cross-revision execution triples to confirm feasibility [^1].
+Tasks are mined from adjacent commits with a maximum twelve-hour gap, filtered through RefactoringMiner to exclude pure refactorings, and validated with cross-revision execution triples to confirm feasibility [^1] [^4].
 
 ```mermaid
 flowchart LR
@@ -216,7 +216,7 @@ TestEvo-Bench's contribution is not just another leaderboard — it reframes tes
 - **Profile your budget sensitivity.** If you are using `token_budget` constraints, test whether your model+prompt combination degrades gracefully or collapses. TestEvo-Bench shows this varies enormously by configuration.
 - **Treat test co-evolution as a separate task type.** Do not assume that an agent skilled at bug fixes will maintain tests well. TestEvo-Bench demonstrates that test update (adapting existing tests) and test generation (writing new ones) are distinct capabilities with different failure profiles.
 
-The benchmark's live-evaluation design — mining fresh tasks from ongoing commit histories — also suggests a model for internal evaluation: periodically running Codex CLI against your own recent commits to measure test co-evolution quality, rather than relying on static benchmarks that age out.
+The benchmark's live-evaluation design — mining fresh tasks from ongoing commit histories — also suggests a model for internal evaluation: periodically running Codex CLI against your own recent commits to measure test co-evolution quality, rather than relying on static benchmarks that age out [^5].
 
 ## Citations
 

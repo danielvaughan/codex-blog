@@ -141,7 +141,7 @@ Exit code 2 feeds the violation message back into the model's context via `addit
 
 ### 3. Approval Policy: Human-in-the-Loop Refinement Gate
 
-For high-stakes repositories, the `--approve-for-me` flag with Guardian auto-review acts as an oracle-guided filter [^4]. Guardian evaluates each proposed tool call and can reject patches that appear unnecessarily broad. Combined with `approval_policy: "on-failure"`, the agent must seek explicit approval when its patch exceeds expected bounds:
+For high-stakes repositories, the `--approve-for-me` flag with Guardian auto-review acts as an oracle-guided filter [^4]. Guardian evaluates each proposed tool call and can reject patches that appear unnecessarily broad. Combined with `approval_policy: "on-failure"`, the agent must seek explicit approval when its patch exceeds expected bounds [^5]:
 
 ```toml
 # config.toml
