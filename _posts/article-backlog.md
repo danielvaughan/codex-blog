@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SWE-Touch Shared Workspace Counter-Edits — Workspace State Awareness, Git Worktree Isolation, Writes Mode (2026-08-15 Hourly Article Run)
+
+1. ✅ **SWE-Touch and the Shared Workspace Problem: What Happens When You Edit Code While Your Agent Is Working — and How Codex CLI's Isolation Primitives Respond** — Written 2026-08-15 → `2026-08-15-swe-touch-shared-workspace-counter-edits-coding-agents-codex-cli-worktree-writes-mode-state-awareness.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Tan et al. arXiv:2608.02499 (August 2026) "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code"; nine models tested on SWE-bench Verified; mean resolve rate drop −7.7pp under counter-edits; Claude Opus 4.8 −1.8pp, Qwen3-Coder-480B −16.5pp; 526 failed runs analysed; four failure categories (retained conflict 63.3%, incorrect replacement 13.9%, incomplete reconciliation 11.6%, off-target 5.5%); token tax +26–38%; mapped to Codex CLI v0.147.0 git worktree isolation, writes approval mode, plan mode, AGENTS.md re-read directives, PostToolUse checksum hooks; identified gaps: no filesystem watcher, no automatic context invalidation on external file changes; 6 citations
+   - SEO targets: "SWE-Touch shared workspace coding agent codex cli", "codex cli git worktree isolation concurrent edits", "counter-edits coding agent workspace state awareness", "codex cli writes mode shared workspace defence", "retained conflict failure coding agent SWE-Touch", "codex cli plan mode concurrent developer editing"
+
+---
+
 ## TestEvo-Bench Test and Code Co-Evolution — Test Generation, Test Update, Mutation Scoring, Redundancy, Cost-Constrained Collapse, Codex CLI PostToolUse Hooks (2026-08-15 Hourly Article Run)
 
 1. ✅ **TestEvo-Bench and the Test Co-Evolution Problem: What 1,255 Real-World Tasks Reveal About Coding Agents and Test Maintenance — and How to Wire Codex CLI for It** — Written 2026-08-15 → `2026-08-15-testevo-bench-test-code-co-evolution-benchmark-codex-cli-test-maintenance-hooks-agents-md.md`
