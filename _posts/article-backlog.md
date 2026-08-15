@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PRISMS Sparse Neuron Detection — Tool-Use Failures, Validity, Over-calling, Missing, Activation Steering, Codex CLI PostToolUse (2026-08-15 Hourly Article Run)
+
+1. ✅ **A Few Neurons Reveal Tool-Use Failures: What PRISMS Means for Your Codex CLI Defence Stack** — Written 2026-08-15 → `2026-08-15-prisms-sparse-neuron-detection-tool-use-failures-codex-cli-posttooluse-validity-overcalling-steering.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Ke et al. arXiv:2608.00218 (July 2026) "A Few Neurons Reveal When LLMs Misuse Tools: Sparse Detection and Selective Steering for Reliable Tool Use"; PRISMS closed-loop framework; three failure types (validity, over-calling, missing); L1-regularised logistic detector over WANDA-ranked MLP neurons; 1–128 neurons per failure type; ROC-AUC 0.86–1.00; gated activation steering reduces pooled over-calling 80% (0.131→0.026) and lifts capability accuracy +14.2pp (0.689→0.831); six models across Qwen3, Llama 3.1, Gemma 3; chain-of-thought relocates signals to think-boundary; mapped to Codex CLI v0.147.0 enabled_tools catalogue restriction, approval_policy, PostToolUse hooks, AGENTS.md directives, sandbox_mode; identified gaps: no pre-execution validity gate, no adaptive over-calling suppression, no missing-call detection; 5 citations
+   - SEO targets: "PRISMS sparse neuron tool-use failures codex cli", "codex cli PostToolUse hooks tool validity detection", "over-calling missing tool-use LLM agent codex cli", "activation steering tool-use failures coding agent", "codex cli tool-use defence stack PRISMS neuron detection", "sparse detection gated steering codex cli tool reliability"
+
+---
+
 ## Humans Are Missing from AI Coding Agent Research — Four Interaction Dimensions, Steerability, Verification, Adaptability (2026-08-15 Hourly Article Run)
 
 1. ✅ **Humans Are Missing from Coding Agent Research: What Four Interaction Dimensions Reveal About Codex CLI's Design — and Where It Still Falls Short** — Written 2026-08-15 → `2026-08-15-humans-are-missing-from-coding-agent-research-four-interaction-dimensions-codex-cli-steerability-verification-adaptability.md`
