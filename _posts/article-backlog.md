@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Keepalive Economics — Prompt Cache Eviction During Idle Pauses, Codex CLI Cost Optimisation (2026-08-15 Hourly Article Run)
+
+1. ✅ **Keepalive Economics: What Prompt Cache Eviction During Idle Pauses Costs Your Codex CLI Sessions — and How to Stop Bleeding Tokens** — Written 2026-08-15 → `2026-08-15-keepalive-economics-prompt-cache-eviction-agentic-workloads-codex-cli-idle-pause-cost-optimisation.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Khailo arXiv:2607.19214 (July 2026) "Keeping the Cache Warm Pays: Keepalive Economics for Agentic Workloads"; measured cache eviction across Anthropic, OpenAI, Google, DeepSeek; client-side keepalive at 240s interval cuts post-pause costs 12.5×; break-even at ~46 min (Anthropic) / ~36 min (OpenAI); 30s conventional interval wastes 8× more than optimal; mapped to Codex CLI v0.147.0 agent loop idle points (approval waits, long tool execution, Guardian auto-review, MCP MRTR); mitigation via auto-edit, resume, tool_output_token_limit, GPT-5.6 longer TTL; identified gaps: no cache_keepalive_interval config, no per-tool-call keepalive toggle, no break-even horizon reporting in codex doctor; 6 citations
+   - SEO targets: "codex cli prompt cache eviction keepalive", "agentic workload cache TTL idle pause cost", "codex cli token economics cache warm", "keepalive economics prompt caching agent loop", "codex cli approval wait cache eviction mitigation", "prompt cache keepalive interval coding agent cost"
+
+---
+
 ## MCP 2026-07-28 Stateless Protocol — Codex CLI v0.147.0 Migration, Multi-Round-Trip Requests, Cacheable Discovery (2026-08-15 Hourly Article Run)
 
 1. ✅ **MCP Goes Stateless: What the 2026-07-28 Specification Means for Your Codex CLI MCP Server Stack** — Written 2026-08-15 → `2026-08-15-mcp-2026-07-28-stateless-protocol-codex-cli-v0147-migration-multi-round-trip-cacheable-discovery.md`

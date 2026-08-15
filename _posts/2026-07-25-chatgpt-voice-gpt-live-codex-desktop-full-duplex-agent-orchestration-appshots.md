@@ -2,7 +2,7 @@
 title: "ChatGPT Voice Meets Codex: Full-Duplex Agent Orchestration from the Desktop"
 description: "GPT-Live brings full-duplex voice to the ChatGPT desktop app, enabling developers to orchestrate Codex and Work agents by voice, steer multi-threaded tasks, and share screen context via Appshots — all without touching the keyboard."
 date: 2026-07-25T08:00:00+00:00
-last_modified_at: 2026-08-15T14:08:29+01:00
+last_modified_at: 2026-08-15T16:09:51+01:00
 parent: "Articles"
 nav_order: 1274
 tags: ["voice", "gpt-live", "desktop", "codex", "agent-orchestration"]
