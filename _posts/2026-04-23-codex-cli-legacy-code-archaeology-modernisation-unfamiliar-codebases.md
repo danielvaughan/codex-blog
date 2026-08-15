@@ -4,7 +4,7 @@ description: "Every senior developer has faced it: a critical system written by 
 parent: "Articles"
 nav_order: 133
 date: 2026-04-23T00:00:00+00:00
-last_modified_at: 2026-08-15T10:15:21+01:00
+last_modified_at: 2026-08-15T10:26:59+01:00
 type: Technical Article
 timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-codex-cli-legacy-code-archaeology-modernisation-unfamiliar-codebases"
