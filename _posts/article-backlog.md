@@ -1,5 +1,13 @@
 # Article Backlog
 
+## APPA and the Taint Confinement Problem — Context Branching, Security Labels, Codex CLI Security Model (2026-08-15 Hourly Article Run)
+
+1. ✅ **APPA and the Taint Confinement Problem: Why Context Branching Beats Permanent Tainting — and What It Means for Codex CLI's Security Model** — Written 2026-08-15 → `2026-08-15-appa-agentic-permissions-policy-algebra-taint-confinement-codex-cli-context-branching-security-labels.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kravchenko et al. arXiv:2607.24625 (July 2026) "Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents"; AISec '26; APPA framework: engine-managed context branching + prospective acquisition enforcement; two-monoid model (checked-actions monoid over security labels, log monoid over events); bench-corp 14 scenarios × 4 models (GPT-5.6 Luna, Gemini 3.5 Flash-Lite, Qwen 3.6 35B, GPT-4o); exfiltration ASR 31-50% → 0-7%; utility recovery via branching +16-26pp on 3/4 models; formal proofs: Theorem 6.1 branch taint confinement, Proposition 3.1 label collapse, Theorem 5.1 call-scoped release; mapped to Codex CLI v0.147.0 PreToolUse hooks as prospective gates, PostToolUse as sanitisers, approval_policy tiers as coarse labels, --approve-for-me as delegated authority, git worktree isolation as context branching analogue; identified gaps: no formal taint tracking, no engine-managed context branching at conversation level, no prospective remedy planning with Authorize/Accept semantics; 4 citations
+   - SEO targets: "APPA taint confinement codex cli security", "codex cli context branching security labels taint tracking", "agentic permissions policy algebra coding agent", "codex cli PreToolUse hook prospective security gate", "information flow control LLM agent context branching", "codex cli security model taint confinement APPA"
+
+---
+
 ## All Smoke, No Alarm — Oracle Signals in Agent-Authored Tests, PostToolUse Assertion Quality, Mutation Testing (2026-08-15 Hourly Article Run)
 
 1. ✅ **All Smoke, No Alarm: What 86,000 Agent-Authored Test Patches Reveal About Oracle Quality — and How to Stop Codex CLI Writing Empty Tests** — Written 2026-08-15 → `2026-08-15-all-smoke-no-alarm-oracle-signals-agent-authored-tests-codex-cli-posttooluse-assertion-quality-verification.md`
