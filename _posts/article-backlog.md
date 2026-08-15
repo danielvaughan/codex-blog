@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Humans Are Missing from AI Coding Agent Research — Four Interaction Dimensions, Steerability, Verification, Adaptability (2026-08-15 Hourly Article Run)
+
+1. ✅ **Humans Are Missing from Coding Agent Research: What Four Interaction Dimensions Reveal About Codex CLI's Design — and Where It Still Falls Short** — Written 2026-08-15 → `2026-08-15-humans-are-missing-from-coding-agent-research-four-interaction-dimensions-codex-cli-steerability-verification-adaptability.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. arXiv:2608.12355 (August 2026) "Position: Humans are Missing from AI Coding Agent Research"; four interaction dimensions (task alignment, steerability, verification, adaptability); 84% developer adoption but ~50% distrust; over 50% resolved patches show functional discrepancies; SWE-chat 6,000 sessions show 39% user pushback; 20,574-session misalignment study shows 91.49% require explicit user correction; mapped to Codex CLI v0.147.0 AGENTS.md as externalised user model, steer mode, four-tier approval spectrum, Guardian auto-review, PostToolUse verification hooks, Memories, Agent Plugins, conversation sections, named profiles; identified gaps: no user modelling, no proactive control-point exposure, no task-aware verification artefacts, no closed-loop behavioural adaptation, no memory poisoning defence; 6 citations
+   - SEO targets: "humans missing coding agent research codex cli", "codex cli steerability verification adaptability", "human-centred coding agent four dimensions", "codex cli AGENTS.md user model interaction quality", "task alignment steerability verification coding agent", "codex cli human oversight interaction framework"
+
+---
+
 ## Patch Verbosity and RECAP Refinement — Post-Generation Patch Minimisation, PostToolUse Hooks, AGENTS.md Directives (2026-08-15 Hourly Article Run)
 
 1. ✅ **Patch Verbosity and the RECAP Refinement Adapter: Why Your Codex CLI Patches Are Twice the Size of Human Ones — and What to Do About It** — Written 2026-08-15 → `2026-08-15-patch-verbosity-recap-refinement-codex-cli-agents-md-posttooluse-hooks-minimal-patch-quality.md`
