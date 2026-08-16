@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Programmatic Skill Learning — SpeedRunner, Wake-Sleep Trajectory Analysis, Cost Reduction (2026-08-16 Hourly Article Run)
+
+1. ✅ **Programmatic Skill Learning and the SpeedRunner Thesis: What Wake-Sleep Trajectory Analysis Means for Your Codex CLI Skill Library and Token Budget** — Written 2026-08-16 → `2026-08-16-programmatic-skill-learning-speedrunner-cost-reduction-codex-cli-skill-md-trajectory-analysis-wake-sleep.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Huang, Wang, Wang, Jurayj, Gutiérrez, Khashabi & Andrews arXiv:2608.11338 (August 2026) "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost"; SpeedRunner wake-sleep cycle with trajectory analysis and skill library refactoring; only method whose cost decreases over training; BabyAI output tokens to 1/8th baseline; Crafter 3× lower than OPO/ASI; distribution shift: −3.3pp performance but −27.1% cost vs ASI +4.4pp but +40.6% cost; ~40 functions vs ASI ~160; cross-model robustness across GPT-5.4-mini, Gemini-3-Flash, Qwen-3.5-27B; mapped to Codex CLI v0.147.0 SKILL.md, Agent Plugins 1.0, JSONL session traces, Memories, config.toml tool_output_token_limit, PostToolUse hooks; identified gaps: no trajectory-to-skill pipeline, no library refactoring, no cross-session call-graph analysis, no cost-aware skill evaluation, no wake-sleep automation; 6 citations
+   - SEO targets: "programmatic skill learning codex cli cost reduction", "codex cli SKILL.md executable skills token budget", "SpeedRunner wake-sleep trajectory coding agent", "codex cli agent plugins skill library refactoring", "trajectory analysis session JSONL skill synthesis codex cli", "coding agent cost decrease programmatic skills"
+
+---
+
 ## Requirements-Augmented Generation — Cascade Verification, Conformal Risk Control, AGENTS.md as Requirements Corpus (2026-08-16 Hourly Article Run)
 
 1. ✅ **Requirements-Augmented Generation and Trustworthy Acceptance Testing: What Calibrated Cascade Judgments Mean for Your Codex CLI Verification Workflow** — Written 2026-08-16 → `2026-08-16-requirements-augmented-generation-trustworthy-acceptance-testing-codex-cli-agents-md-posttooluse-cascade-verification.md`
