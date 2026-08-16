@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DarwinX Evolved Harness Thesis — Configuration Evolution, Skills, Profiles, Hooks (2026-08-16 Hourly Article Run)
+
+1. ✅ **DarwinX and the Evolved Harness Thesis: What Population-Based Natural Selection Over Agent Configurations Means for Your Codex CLI Skills, Profiles, and Hooks** — Written 2026-08-16 → `2026-08-16-darwinx-evolving-agent-harnesses-natural-selection-codex-cli-configuration-evolution-skills-profiles.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zhang, Dai, Tan, Yang, Mullur, Hoang, Hu, Zhu, Mui, Savarese, Xu & Chen arXiv:2608.07545 (July 2026) "DarwinX: Evolving Agent Harnesses Through Natural Selection"; population-based selection over harness variants with frozen LLM; preserve-and-extend contract (net gain + bounded regression); Terminal-Bench 2.1 +7.7pp to 83.2% avg@5; WebArena-Infinity 43.5% → 93.0% audit-clean pass@1; SWE-bench Verified 84.2% cross-benchmark transfer unchanged; TerminalWorld 68.3% held-out (proxy overfitting gap); evolved verification-contract skills family; mapped to Codex CLI v0.147.0 AGENTS.md, SKILL.md, named profiles, PreToolUse/PostToolUse hooks, config.toml, MCP servers, OpenTelemetry; identified gaps: no automated fitness evaluation, no preserve-and-extend enforcement, no archive lineage tracking, no cross-specialist merging, no failure-signal distillation; 6 citations
+   - SEO targets: "DarwinX evolving agent harnesses codex cli", "codex cli configuration evolution natural selection", "harness evolution coding agent performance", "codex cli named profiles population selection", "verification contract pattern codex cli hooks", "agent harness evolution skills profiles config"
+
+---
+
 ## Malicious Skill Files Risk Assessment — Agent Plugins Supply Chain Security, MITRE ATT&CK, PreToolUse Hooks (2026-08-16 Hourly Article Run)
 
 1. ✅ **Malicious Skill Files and the Agent Plugins Supply Chain: What 2,826 Adversarial Skills Reveal About Your Codex CLI Plugin Security Posture** — Written 2026-08-16 → `2026-08-16-malicious-skill-files-risk-assessment-codex-cli-agent-plugins-supply-chain-security.md`
