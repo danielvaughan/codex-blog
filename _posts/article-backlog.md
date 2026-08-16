@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Small Critic Models for Code Agent Steering — Guardian, PostToolUse Hooks, Intra-Trajectory Feedback (2026-08-17 Hourly Article Run)
+
+1. ✅ **Steer, Don't Solve: What Small Critic Models Mean for Your Codex CLI Guardian and Hook Strategy** — Written 2026-08-17 → `2026-08-17-steer-dont-solve-small-critic-models-large-code-agents-codex-cli-guardian-posttooluse-hooks-intra-trajectory-feedback.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Gandhi, Xie, Naik, Zhu & Rose arXiv:2606.21811 (June 2026) "Steer, Don't Solve: Training Small Critic Models for Large Code Agents"; Qwen3-8B critic trained via SFT on Claude Opus 4.6 teacher trajectories; +3.8 to +5.2pp on SWE-bench Verified; 30–92× cheaper than teacher; Pareto-dominates unguided baseline on Qwen3-Next-80B-A3B (25.2% vs 20.8% at $0.04 vs $0.11); cross-agent transfer to unseen agents; concise strategy-level prompts outperform detailed action-level prompts in distillation; mapped to Codex CLI v0.147.0 Guardian auto-review subagent, PostToolUse hooks exit code 2 steering, TOML agent definitions as critic slots, AGENTS.md strategic directives, GPT-5.6 Sol/Terra/Luna tier pairing; identified gaps: no native intra-trajectory review loop, no trajectory serialisation API for hooks, no budget-aware submission pressure; 6 citations
+   - SEO targets: "small critic model code agent codex cli", "codex cli guardian PostToolUse hooks steering", "intra-trajectory feedback coding agent critic", "codex cli strategy critic TOML agent definition", "SWE-bench critic model cost reduction", "codex cli AGENTS.md strategic directives critic"
+
+---
+
 ## DeltaBox Millisecond Sandbox Checkpoint/Rollback — State Exploration, SWE-bench MCTS, Codex CLI Sandbox Gaps (2026-08-16 Hourly Article Run)
 
 1. ✅ **DeltaBox and the Millisecond Checkpoint Problem: What Change-Based Sandbox State Management Means for Codex CLI's Exploration Budget** — Written 2026-08-16 → `2026-08-16-deltabox-millisecond-sandbox-checkpoint-rollback-codex-cli-state-exploration-swe-bench-mcts-landlock-seatbelt.md`
