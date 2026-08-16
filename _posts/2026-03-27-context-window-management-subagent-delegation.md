@@ -2,7 +2,7 @@
 title: "Context Window Management: Avoiding Compaction with Sub-Agent Delegation"
 description: "Long Codex sessions degrade. Not catastrophically — the model does not forget your instructions — but its reliability erodes as the context fills with tool."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-08-16T06:08:09+01:00
+last_modified_at: 2026-08-16T07:06:45+01:00
 tags:
   - architecture
   - context-management
