@@ -1,5 +1,13 @@
 # Article Backlog
 
+## RECAP Patch Verbosity and Post-Generation Refinement — AGENTS.md, PostToolUse Hooks, Diff Review (2026-08-16 Hourly Article Run)
+
+1. ✅ **Refine After Generation: What RECAP Reveals About Patch Verbosity in Coding Agents — and How to Defend Against It in Codex CLI** — Written 2026-08-16 → `2026-08-16-refine-after-generation-recap-patch-verbosity-concise-patches-codex-cli-agents-md-posttooluse-hooks-diff-review.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Luo, Keung, Shi, Sun, Yang, Yang & Tian arXiv:2608.13292 (August 2026) "Refine After Generation: Toward Correct and Concise Patches in LLM-based Program Repair"; 28 APR approaches benchmarked on SWE-bench Verified; median +121.78% total changes, +80.91% net changes, +43.99% cyclomatic complexity vs developer patches; four root causes (iterative refinement +406%, performance tier, context scope, minimality prompts ineffective); RECAP two-phase training (SFT curriculum + DPO) on QWen-3.5-27B; reduced verbosity from +242.14% to +4.24%; preserved/improved resolution (+42 instances on SWE-agent); mapped to Codex CLI v0.147.0 AGENTS.md structural constraints vs ineffective minimality prompts, PostToolUse hooks as diff-auditing Filter, --approve-for-me guardian as Refiner analogue, /diff as manual review, named profiles for repair tasks; identified gaps: no automated verbosity metrics, no post-generation refinement pipeline, no preference-aligned patch training, no per-session verbosity tracking, no structured context restriction; 6 citations
+   - SEO targets: "RECAP patch verbosity codex cli", "codex cli patch minimality AGENTS.md ineffective", "post-generation refinement coding agent patches", "codex cli PostToolUse hooks diff audit verbosity", "SWE-bench patch size bloat coding agents", "codex cli diff review patch conciseness"
+
+---
+
 ## DarwinX Evolved Harness Thesis — Configuration Evolution, Skills, Profiles, Hooks (2026-08-16 Hourly Article Run)
 
 1. ✅ **DarwinX and the Evolved Harness Thesis: What Population-Based Natural Selection Over Agent Configurations Means for Your Codex CLI Skills, Profiles, and Hooks** — Written 2026-08-16 → `2026-08-16-darwinx-evolving-agent-harnesses-natural-selection-codex-cli-configuration-evolution-skills-profiles.md`
