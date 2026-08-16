@@ -1,7 +1,7 @@
 ---
 title: "Self-Evolving Coding Agents: What a Five-Category Taxonomy Reveals About Codex CLI's Evolution Primitives — and Where the Gaps Remain"
 parent: "Articles"
-nav_order: 1512
+nav_order: 1517
 tags: ["self-evolving-agents", "codex-cli", "memories", "skills", "agent-plugins", "hooks", "taxonomy", "coding-agent-evolution"]
 ---
 
@@ -113,7 +113,7 @@ mkdir -p "$CANDIDATES_DIR"
 
 # Extract repeated patterns from session trajectory
 # (simplified — a production version would use structured analysis)
-if grep -c "PATTERN_REPEATED" "$TRAJECTORY_FILE" -gt 2; then
+if [ "$(grep -c "PATTERN_REPEATED" "$TRAJECTORY_FILE")" -gt 2 ]; then
     cp "$TRAJECTORY_FILE" "$CANDIDATES_DIR/$(date +%Y%m%d-%H%M%S).md"
     echo "Skill candidate recorded for manual review"
     exit 0

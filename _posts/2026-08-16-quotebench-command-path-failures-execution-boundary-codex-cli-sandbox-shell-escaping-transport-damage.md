@@ -1,7 +1,7 @@
 ---
 title: "QuoteBench and the Command-Path Problem: Why Your Codex CLI Agent's Shell Commands Break Between Generation and Execution"
 parent: "Articles"
-nav_order: 1514
+nav_order: 1519
 tags: ["codex-cli", "quotebench", "command-path-failures", "shell-escaping", "execution-boundary", "sandbox", "transport-damage", "agent-evaluation"]
 ---
 

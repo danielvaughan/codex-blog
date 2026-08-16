@@ -1,7 +1,7 @@
 ---
 title: "Refine After Generation: What RECAP Reveals About Patch Verbosity in Coding Agents — and How to Defend Against It in Codex CLI"
 parent: "Articles"
-nav_order: 1513
+nav_order: 1520
 tags: ["codex-cli", "patch-verbosity", "RECAP", "automated-program-repair", "SWE-bench", "AGENTS.md", "PostToolUse-hooks", "diff-review", "patch-minimality", "DPO"]
 ---
 
@@ -64,7 +64,7 @@ RECAP addresses verbosity by treating it as a post-generation concern rather tha
 
 1. **Collector** — standardises the interface between the host APR system and the refiner, gathering the original patch, issue context, and repository state
 2. **Filter** — decides whether refinement should proceed, supporting both oracle-guided and fully automated deployment modes
-3. **Refiner** — a specialised small LLM (QWen-3.5-27B) that generates a concise replacement patch
+3. **Refiner** — a specialised small LLM (Qwen3.5-27B) that generates a concise replacement patch
 
 ### Two-Phase Training
 
