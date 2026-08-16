@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Malicious Skill Files Risk Assessment — Agent Plugins Supply Chain Security, MITRE ATT&CK, PreToolUse Hooks (2026-08-16 Hourly Article Run)
+
+1. ✅ **Malicious Skill Files and the Agent Plugins Supply Chain: What 2,826 Adversarial Skills Reveal About Your Codex CLI Plugin Security Posture** — Written 2026-08-16 → `2026-08-16-malicious-skill-files-risk-assessment-codex-cli-agent-plugins-supply-chain-security.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Yang, Fu, Tantithamthavorn, Arora & Chua arXiv:2608.05223 (August 2026) "Towards a Risk Assessment of Malicious Skill Files in Coding Agents"; 2,826 adversarial skill files from 471 ART shell commands across 11 MITRE ATT&CK tactics; Gemini CLI 95.5–96.1% exploitation, Qwen Code 71.6–74.0%; explicit safety recognition only 1.99%; complemented by SkillHarm (86.3% fixed-payload, 69.3% self-mutating), DDIPE supply-chain poisoning (11.6–33.5%), PhantomSkill auxiliary-resource injection; mapped to Codex CLI v0.147.0 Agent Plugins 1.0 federated catalog, symlink skipping, network deny-on-failure, sandbox inheritance, PreToolUse hooks as execution-time guards, removal of --full-auto; identified gaps: no semantic mismatch detection, no cryptographic provenance, no per-plugin sandbox scoping, no runtime behavioural anomaly detection, no mutation-aware re-validation; 6 citations
+   - SEO targets: "malicious skill files coding agent codex cli", "codex cli agent plugins security supply chain", "skill file prompt injection MITRE ATT&CK codex cli", "codex cli PreToolUse hooks skill guard", "agent plugins 1.0 supply chain poisoning defence", "codex cli plugin sandbox symlink security"
+
+---
+
 ## QuoteBench Command-Path Failures — Execution Boundary, Sandbox Shell Escaping, Transport Damage (2026-08-16 Hourly Article Run)
 
 1. ✅ **QuoteBench and the Command-Path Problem: Why Your Codex CLI Agent's Shell Commands Break Between Generation and Execution** — Written 2026-08-16 → `2026-08-16-quotebench-command-path-failures-execution-boundary-codex-cli-sandbox-shell-escaping-transport-damage.md`
