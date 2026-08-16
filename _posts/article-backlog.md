@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Requirements-Augmented Generation — Cascade Verification, Conformal Risk Control, AGENTS.md as Requirements Corpus (2026-08-16 Hourly Article Run)
+
+1. ✅ **Requirements-Augmented Generation and Trustworthy Acceptance Testing: What Calibrated Cascade Judgments Mean for Your Codex CLI Verification Workflow** — Written 2026-08-16 → `2026-08-16-requirements-augmented-generation-trustworthy-acceptance-testing-codex-cli-agents-md-posttooluse-cascade-verification.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wang, Arora, Xie, Liu, Tantithamthavorn, Aleti & Jiang arXiv:2608.12970 (August 2026) "Requirements-Augmented Generation for Trustworthy Acceptance Testing of LLM-Based Software"; REAG three-stage framework (intention elicitation, requirements-augmented oracle generation with ICRALM retrieval, confidence-calibrated cascade judgment); 98.8% human agreement at α=0.14, 86% coverage; 31.7% cost-efficiency over single-judge baselines; retrieval precision as primary oracle bottleneck; conformal risk control for threshold calibration; mapped to Codex CLI v0.147.0 AGENTS.md as requirements corpus, PostToolUse hooks as cascade tiers, approval_policy as risk tolerance α, named profiles as tier selectors, --approve-for-me as permissive α; identified gaps: no adaptive requirements retrieval, no multi-model cascade verification, no confidence quantification, no conformal calibration pipeline, no persona-aware test generation; 6 citations
+   - SEO targets: "requirements-augmented generation codex cli", "codex cli acceptance testing AGENTS.md requirements", "cascade verification PostToolUse hooks codex cli", "conformal risk control coding agent verification", "codex cli approval policy risk tolerance calibration", "test oracle quality AGENTS.md retrieval precision"
+
+---
+
 ## Computer History Ambient Memory Pipeline — Skysight, Skill Synthesis, Developer Privacy (2026-08-16 Hourly Article Run)
 
 1. ✅ **Computer History and the Ambient Memory Pipeline: What macOS Interaction Events Mean for Your Codex CLI Memories, Skills, and Privacy Posture** — Written 2026-08-16 → `2026-08-16-computer-history-ambient-memory-codex-cli-skysight-skill-synthesis-developer-privacy-workflow-detection.md`
