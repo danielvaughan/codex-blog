@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Tool Architecture Shapes Coding Agent Behaviour — enabled_tools, MCP Granularity, Cognitive Scaffolding (2026-08-16 Hourly Article Run)
+
+1. ✅ **The Devil Is in the Interface: How Tool Architecture Shapes Coding Agent Behaviour — and What It Means for Your Codex CLI Tool Stack** — Written 2026-08-16 → `2026-08-16-devil-in-the-interface-tool-architecture-shapes-coding-agent-behaviour-codex-cli-enabled-tools-mcp-granularity.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Xu et al. arXiv:2608.11386 (August 2026) "The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior"; six architectures (BashOnly, Atomic, NLSearch, Python, HypoTrack, Scratchpad); three actors (Qwen3Coder-30B, Kimi K2.5, Claude Sonnet 4.5); 11,700 trajectories; Atomic up to 4.7× consistency improvement; NLSearch +11% relevant file access; Python CodeAct 41.6% fewer steps and 56.3% lower token usage; cognitive scaffolding tools limited effect; mapped to Codex CLI v0.147.0 enabled_tools catalogue restriction, MCP server granularity design, tool search since v0.145, tool_output_token_limit, AGENTS.md as system context vs discretionary tool, Memories retrieval persistence, Agent Plugins 1.0 architectural choices; 6 citations
+   - SEO targets: "tool architecture coding agent codex cli", "codex cli enabled_tools MCP granularity", "tool design coding agent behaviour consistency", "codex cli tool search MCP discovery", "cognitive scaffolding coding agent limited effect", "codex cli tool architecture token efficiency"
+
+---
+
 ## Self-Evolving Coding Agents Taxonomy — Memories, Skills, Hooks, Agent Plugins, Evolution Patterns (2026-08-16 Hourly Article Run)
 
 1. ✅ **Self-Evolving Coding Agents: What a Five-Category Taxonomy Reveals About Codex CLI's Evolution Primitives — and Where the Gaps Remain** — Written 2026-08-16 → `2026-08-16-self-evolving-coding-agents-taxonomy-codex-cli-memories-skills-hooks-agent-plugins-evolution-patterns.md`
