@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PEEK Orientation Cache — Context Map Architecture, Memories Gaps, AGENTS.md Structuring (2026-08-16 Hourly Article Run)
+
+1. ✅ **PEEK and the Orientation Cache: What a Context Map Architecture Reveals About Codex CLI's Memory Gaps — and How to Close Them** — Written 2026-08-16 → `2026-08-16-peek-context-map-orientation-cache-codex-cli-memories-agents-md-long-session-cost-efficiency.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Gu, Zhang, Khattab & Madden arXiv:2605.19932 (May 2026) "PEEK: Context Map as an Orientation Cache for Long-Context LLM Agents"; three-module cache controller (Distiller, Cartographer, Evictor); context map as constant-sized orientation prefix; OOLONG +7.8 to +15.0pp over ACE with 1.7–5.8× cost reduction; CL-bench +6.0–14.0pp solving rate; generalises across GPT-5.5, Qwen3-Coder-Next-FP8, and OpenAI Codex; mapped to Codex CLI v0.147.0 Memories (partial Distiller), AGENTS.md (static context map), conversation sections (manual Cartography), tool_output_token_limit (coarse Evictor); identified gaps: no automated context map generation, no entry-level eviction, no cross-session map continuity, no trajectory-derived tagging; practical mitigations via structured AGENTS.md, PostToolUse orientation logging, manual memory pruning; 6 citations
+   - SEO targets: "PEEK orientation cache codex cli", "codex cli context map memories gaps", "orientation knowledge coding agent context management", "codex cli AGENTS.md structured context map", "PEEK Distiller Cartographer Evictor coding agent", "codex cli long session cost efficiency context cache"
+
+---
+
 ## RECAP Patch Verbosity and Post-Generation Refinement — AGENTS.md, PostToolUse Hooks, Diff Review (2026-08-16 Hourly Article Run)
 
 1. ✅ **Refine After Generation: What RECAP Reveals About Patch Verbosity in Coding Agents — and How to Defend Against It in Codex CLI** — Written 2026-08-16 → `2026-08-16-refine-after-generation-recap-patch-verbosity-concise-patches-codex-cli-agents-md-posttooluse-hooks-diff-review.md`
