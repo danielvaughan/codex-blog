@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Always-On Agents — Persistent State Governance, Memory Lifecycle, AOEP Diagnostic Axes (2026-08-16 Hourly Article Run)
+
+1. ✅ **Always-On Agents and the Governance Gap: What a 435-Paper Survey of Persistent State Reveals About Codex CLI's Memory Lifecycle** — Written 2026-08-16 → `2026-08-16-always-on-agents-persistent-state-governance-codex-cli-memories-lifecycle-aoep-diagnostic-axes.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Ding, Nannapaneni, Liu & Zhang arXiv:2606.30306 (June 2026) "Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents"; 435-paper corpus; six diagnostic axes (authority, scope, mutability, provenance, recoverability, actionability); nine-phase lifecycle; AOEP-v0 evaluation protocol scoring mutation and recovery obligations; 78% of literature addresses scope/actionability, <19% addresses authority/recoverability; mapped to Codex CLI v0.147.0 Memories two-phase pipeline, memory_summary.md recall, MEMORY.md consolidation, 30-day decay, Computer History/Skysight ambient memories, Agent Plugins 1.0 shared context, conversation sections; identified gaps: no memory versioning, no per-plugin memory isolation, no audit trail, no structured forgetting, no provenance traceability; practical mitigations via git-tracked memories, PostToolUse audit hooks, AGENTS.md governance directives; 6 citations
+   - SEO targets: "always-on agents codex cli persistent state governance", "codex cli memory lifecycle governance gap", "AOEP evaluation protocol coding agent state", "codex cli memories versioning provenance audit", "persistent state governance coding agent 2026", "codex cli memory consolidation MEMORY.md governance"
+
+---
+
 ## Programmatic Skill Learning — SpeedRunner, Wake-Sleep Trajectory Analysis, Cost Reduction (2026-08-16 Hourly Article Run)
 
 1. ✅ **Programmatic Skill Learning and the SpeedRunner Thesis: What Wake-Sleep Trajectory Analysis Means for Your Codex CLI Skill Library and Token Budget** — Written 2026-08-16 → `2026-08-16-programmatic-skill-learning-speedrunner-cost-reduction-codex-cli-skill-md-trajectory-analysis-wake-sleep.md`
