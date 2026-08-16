@@ -1,5 +1,13 @@
 # Article Backlog
 
+## QuoteBench Command-Path Failures — Execution Boundary, Sandbox Shell Escaping, Transport Damage (2026-08-16 Hourly Article Run)
+
+1. ✅ **QuoteBench and the Command-Path Problem: Why Your Codex CLI Agent's Shell Commands Break Between Generation and Execution** — Written 2026-08-16 → `2026-08-16-quotebench-command-path-failures-execution-boundary-codex-cli-sandbox-shell-escaping-transport-damage.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Li, Zhang, Tresp & Yang arXiv:2608.13547 (August 2026) "QuoteBench: How Matched Scores Can Hide Command-Path Failures"; 56 one-shot Bash tasks across 14 incident families; crossed design separating generation contract from execution transport; transport damage 55.4–73.2pp when raw-path replies replayed through nested bash -c boundary; matched gap masks opposing damage/compensation (GPT-5.6-sol −3.6pp gap hides −64.3pp damage + 60.7pp compensation); Kendall rank correlation only 0.57 between raw and nested orderings; mapped to Codex CLI v0.147.0 sandbox EXEC_WRAPPER interception, MCP shell-tool-mcp JSON serialisation, remote-control WebSocket transport, shell_environment_policy, AGENTS.md escaping directives, PostToolUse hooks escaping validation; identified gaps: no transport-damage telemetry, no per-MCP-server escaping audit, no automatic heredoc promotion, no execution-path disclosure; 6 citations
+   - SEO targets: "quotebench command-path failures codex cli", "codex cli shell escaping transport damage sandbox", "execution boundary coding agent bash interpolation", "codex cli MCP shell tool escaping", "matched score masking coding agent evaluation", "codex cli sandbox wrapper command path escaping"
+
+---
+
 ## Tool Architecture Shapes Coding Agent Behaviour — enabled_tools, MCP Granularity, Cognitive Scaffolding (2026-08-16 Hourly Article Run)
 
 1. ✅ **The Devil Is in the Interface: How Tool Architecture Shapes Coding Agent Behaviour — and What It Means for Your Codex CLI Tool Stack** — Written 2026-08-16 → `2026-08-16-devil-in-the-interface-tool-architecture-shapes-coding-agent-behaviour-codex-cli-enabled-tools-mcp-granularity.md`
