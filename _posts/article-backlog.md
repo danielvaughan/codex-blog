@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DeltaBox Millisecond Sandbox Checkpoint/Rollback — State Exploration, SWE-bench MCTS, Codex CLI Sandbox Gaps (2026-08-16 Hourly Article Run)
+
+1. ✅ **DeltaBox and the Millisecond Checkpoint Problem: What Change-Based Sandbox State Management Means for Codex CLI's Exploration Budget** — Written 2026-08-16 → `2026-08-16-deltabox-millisecond-sandbox-checkpoint-rollback-codex-cli-state-exploration-swe-bench-mcts-landlock-seatbelt.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Dong, He, Liu, Hou, Du, Xu, Yu, Yang, Xia & Chen arXiv:2605.22781 (May 2026) "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback"; DeltaFS layered overlayfs with ioctl freeze + DeltaCR incremental CRIU + fork template pool; 14 ms checkpoint, 5 ms restore vs Docker 48–1350 ms, CRIU 118–532 ms, Firecracker 200–2000 ms; SWE-bench MCTS overhead reduced from 47–77% to 3–6%; mapped to Codex CLI v0.147.0 Seatbelt/Bubblewrap/Landlock/Restricted Tokens isolation, process_exec_tool_call per-execution model, RolloutRecorder replay-only, git worktree isolation, AGENTS.md exploration directives, PostToolUse state guards, --approve-for-me; identified gaps: no speculative execution, no sandbox-level checkpoint/restore, no search-tree integration, no process-level rollback, rollout files replay-only; 6 citations
+   - SEO targets: "DeltaBox sandbox checkpoint rollback codex cli", "codex cli sandbox state exploration MCTS", "millisecond checkpoint coding agent sandbox", "codex cli Landlock Seatbelt checkpoint restore", "DeltaFS DeltaCR coding agent state management", "sandbox checkpoint rollback SWE-bench coding agent"
+
+---
+
 ## Always-On Agents — Persistent State Governance, Memory Lifecycle, AOEP Diagnostic Axes (2026-08-16 Hourly Article Run)
 
 1. ✅ **Always-On Agents and the Governance Gap: What a 435-Paper Survey of Persistent State Reveals About Codex CLI's Memory Lifecycle** — Written 2026-08-16 → `2026-08-16-always-on-agents-persistent-state-governance-codex-cli-memories-lifecycle-aoep-diagnostic-axes.md`
