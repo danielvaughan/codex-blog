@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Computer History Ambient Memory Pipeline — Skysight, Skill Synthesis, Developer Privacy (2026-08-16 Hourly Article Run)
+
+1. ✅ **Computer History and the Ambient Memory Pipeline: What macOS Interaction Events Mean for Your Codex CLI Memories, Skills, and Privacy Posture** — Written 2026-08-16 → `2026-08-16-computer-history-ambient-memory-codex-cli-skysight-skill-synthesis-developer-privacy-workflow-detection.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI Computer History feature (13 August 2026) replacing Chronicle; macOS Accessibility API event capture; Skysight pipeline (event buffer → ephemeral Codex summarisation → Markdown memories in ~/.codex/memories/extensions/skysight/); skill synthesis from repeated workflow patterns; integration with Codex CLI v0.147.0 Memories, conversation sections, Agent Plugins 1.0, --approve-for-me; privacy analysis (unencrypted local storage, credential exposure, prompt injection via memories, cross-context leakage); EEA/UK/Switzerland exclusion at launch; gaps: macOS only, no terminal event capture, no memory curation TTL, no API-key session support; 6 citations
+   - SEO targets: "computer history codex cli ambient memory", "codex cli skysight memories skill synthesis", "computer history macos codex developer privacy", "codex cli computer history workflow detection automation", "ambient memory pipeline coding agent macOS", "computer history chronicle replacement codex cli memories"
+
+---
+
 ## PEEK Orientation Cache — Context Map Architecture, Memories Gaps, AGENTS.md Structuring (2026-08-16 Hourly Article Run)
 
 1. ✅ **PEEK and the Orientation Cache: What a Context Map Architecture Reveals About Codex CLI's Memory Gaps — and How to Close Them** — Written 2026-08-16 → `2026-08-16-peek-context-map-orientation-cache-codex-cli-memories-agents-md-long-session-cost-efficiency.md`
