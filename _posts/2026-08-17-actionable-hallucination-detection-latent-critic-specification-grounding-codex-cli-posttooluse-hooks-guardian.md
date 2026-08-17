@@ -214,5 +214,3 @@ For Codex CLI practitioners working with v0.147.0:
 [^4]: Cai, Y. et al. (2026). "Rule Taxonomy and Evolution in AI IDEs: A Mining and Survey Study." arXiv:2606.12231. [https://arxiv.org/abs/2606.12231](https://arxiv.org/abs/2606.12231)
 
 [^5]: OpenAI. (2026). GPT-5.6 Sol, Terra, and Luna: Model Documentation. [https://openai.com/index/gpt-5-6/](https://openai.com/index/gpt-5-6/)
-
-[^6]: Codex CLI Hooks: Complete Guide to Events, Policy Engines and Production Patterns. Codex Knowledge Base. [https://codex.danielvaughan.com/2026/04/15/codex-cli-hooks-complete-guide-events-policy-patterns/](https://codex.danielvaughan.com/2026/04/15/codex-cli-hooks-complete-guide-events-policy-patterns/)

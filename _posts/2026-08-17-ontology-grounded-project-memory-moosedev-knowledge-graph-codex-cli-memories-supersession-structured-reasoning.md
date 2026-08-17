@@ -188,5 +188,3 @@ The paper's honest assessment of capture discipline as the primary adoption barr
 [^4]: OpenAI, "AGENTS.md Documentation," Codex CLI Docs, 2026. [https://developers.openai.com/codex/local-config/](https://developers.openai.com/codex/local-config/)
 
 [^5]: TensorBlock, "Awesome MCP Servers: Knowledge Management and Memory," GitHub, 2026. [https://github.com/TensorBlock/awesome-mcp-servers/blob/main/docs/knowledge-management--memory.md](https://github.com/TensorBlock/awesome-mcp-servers/blob/main/docs/knowledge-management--memory.md)
-
-[^6]: Mem0, "How Memory Works in Codex CLI," Mem0 Blog, 2026. [https://mem0.ai/blog/how-memory-works-in-codex-cli](https://mem0.ai/blog/how-memory-works-in-codex-cli)

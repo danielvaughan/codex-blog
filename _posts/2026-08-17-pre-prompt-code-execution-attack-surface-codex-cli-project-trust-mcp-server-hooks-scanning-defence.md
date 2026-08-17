@@ -256,5 +256,3 @@ The "before the first prompt" attack surface is real, documented, and already ex
 [^4]: Codex Insider. (2026). "projects.\<path\>.trust_level — Codex config." [https://codexinsider.com/config/projects-trust-level/](https://codexinsider.com/config/projects-trust-level/)
 
 [^5]: DeepWiki. (2026). "Sandboxing Implementation — openai/codex." [https://deepwiki.com/openai/codex/5.6-sandboxing-implementation](https://deepwiki.com/openai/codex/5.6-sandboxing-implementation)
-
-[^6]: Check Point Research. (2025). "OpenAI Codex CLI Vulnerability: Command Injection (CVE-2025-61260)." [https://research.checkpoint.com/2025/openai-codex-cli-command-injection-vulnerability/](https://research.checkpoint.com/2025/openai-codex-cli-command-injection-vulnerability/)

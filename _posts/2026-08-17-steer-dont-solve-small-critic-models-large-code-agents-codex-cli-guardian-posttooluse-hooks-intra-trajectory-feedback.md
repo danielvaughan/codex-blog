@@ -209,5 +209,3 @@ The paper's transfer results suggest that a Luna-class critic trained on Terra o
 [^4]: OpenAI. (2026). "Codex CLI Custom Agent Definitions: Building Specialised Subagents with TOML Configuration." [https://openai.com/codex/docs/custom-agents](https://openai.com/codex/docs/custom-agents)
 
 [^5]: OpenAI. (2026). "Codex CLI v0.147.0 CHANGELOG — JSONL Session Traces, RolloutRecorder." [https://github.com/openai/codex/blob/main/CHANGELOG.md](https://github.com/openai/codex/blob/main/CHANGELOG.md)
-
-[^6]: OpenAI. (2026). "GPT-5.6 Sol, Terra, Luna Model Tiers — Pricing and Capabilities." [https://developers.openai.com/codex/models](https://developers.openai.com/codex/models)

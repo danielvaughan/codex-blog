@@ -8,6 +8,8 @@ tags: ["codex-cli", "linux", "desktop", "chatgpt-work", "wayland", "electron", "
 # Codex on Linux at Last: What the Desktop Preview Means for CLI Developers
 
 
+---
+
 On 11 August 2026, OpenAI shipped the ChatGPT desktop app for Linux in public preview, bringing Chat, Work, and Codex into a single native-ish window on Ubuntu, Debian, and Fedora [^1]. For the majority of Codex CLI users who already run Linux, the obvious question is: *does this change anything, or is it just a GUI wrapper I do not need?*
 
 The answer sits somewhere between the two. The desktop app fills specific workflow gaps — visual project management, artifact inspection, parallel session oversight — while introducing its own friction points that CLI-native developers should understand before adopting it.
