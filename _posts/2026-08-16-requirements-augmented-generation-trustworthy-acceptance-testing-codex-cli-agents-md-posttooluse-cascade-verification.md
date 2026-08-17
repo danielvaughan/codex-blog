@@ -1,7 +1,7 @@
 ---
 title: "Requirements-Augmented Generation and Trustworthy Acceptance Testing: What Calibrated Cascade Judgments Mean for Your Codex CLI Verification Workflow"
 parent: "Articles"
-nav_order: 1518
+nav_order: 1518.3
 tags: ["codex-cli", "acceptance-testing", "requirements-augmented-generation", "REAG", "AGENTS.md", "PostToolUse-hooks", "cascade-verification", "conformal-risk-control", "test-oracle", "approval-policy"]
 ---
 

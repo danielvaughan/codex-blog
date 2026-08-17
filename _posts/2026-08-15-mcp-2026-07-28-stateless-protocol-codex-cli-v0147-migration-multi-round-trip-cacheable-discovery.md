@@ -1,7 +1,7 @@
 ---
 title: "MCP Goes Stateless: What the 2026-07-28 Specification Means for Your Codex CLI MCP Server Stack"
 parent: "Articles"
-nav_order: 1512
+nav_order: 1512.1
 tags: ["codex-cli", "mcp", "mcp-2026-07-28", "stateless", "multi-round-trip", "rmcp", "sdk-3.0", "migration"]
 ---
 
