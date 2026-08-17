@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Strategic Forgetting and Utility-Driven Memory Survival — SF-AMS, Hierarchical Retention, Codex CLI Memories Consolidation (2026-08-17 Hourly Article Run)
+
+1. ✅ **Strategic Forgetting and Utility-Driven Memory Survival: What SF-AMS Reveals About Codex CLI's Memory Consolidation Gap** — Written 2026-08-17 → `2026-08-17-strategic-forgetting-sf-ams-utility-driven-memory-survival-codex-cli-memories-consolidation-hierarchical-retention.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Yang, Li, Shen, Zhou, Zhang, Li & Zhang arXiv:2607.22562 (May 2026) "SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent"; four-stage closed-loop pipeline (ingestion/perception, value-guided control, hierarchical storage, retrieval-response integration); Composite Importance Scoring integrating semantic salience and entity-type priors; survival potential dynamics with decay coefficient and diversity modulation; four-layer hierarchical store (Core 0% forgetting, Important 14.85%, Secondary 39.83%, Irrelevant 64.74%); LoCoMo multi-hop +9.65 F1, temporal +6.91 F1; LongMemEval-s 68.52% accuracy; 46.7% LLM call reduction vs LangMem; formal retrieval priority guarantee; mapped to Codex CLI v0.147.0 Memories two-phase pipeline, usage_count/last_usage tracking, max_unused_days pruning, memory_summary.md 5,000-token budget, MEMORY.md grep retrieval, AGENTS.md static context; identified gaps: no composite importance scoring, no hierarchical retention tiers, no retrieval feedback loop, no redundancy detection, no formal survival guarantee; mitigations via manual AGENTS.md tiering, PostToolUse memory scoring hooks, scheduled memory audits, named profile retention policies; 6 citations
+   - SEO targets: "SF-AMS strategic forgetting codex cli memories", "codex cli memory consolidation hierarchical retention", "utility-driven memory survival coding agent", "codex cli memory_summary.md importance scoring gap", "hierarchical memory store coding agent forgetting", "codex cli AGENTS.md manual memory tiering"
+
+---
+
 ## AgentDebugX Failure Observability, Attribution, and Recovery — OTLP Traces, Rollout Debugging Loop (2026-08-17 Hourly Article Run)
 
 1. ✅ **AgentDebugX and the Closed-Loop Debugging Gap: What Detect-Attribute-Recover-Rerun Means for Your Codex CLI Observability Stack** — Written 2026-08-17 → `2026-08-17-agentdebugx-failure-observability-attribution-recovery-codex-cli-otlp-traces-rollout-debugging-loop.md`
