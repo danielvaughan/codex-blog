@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Ontology-Grounded Project Memory — MOOSEDev, Knowledge Graph, Codex CLI Memories, Supersession, Structured Reasoning (2026-08-17 Hourly Article Run)
+
+1. ✅ **Ontology-Grounded Project Memory and the Structured Reasoning Gap: What MOOSEDev Reveals About Codex CLI's Flat Memory Model** — Written 2026-08-17 → `2026-08-17-ontology-grounded-project-memory-moosedev-knowledge-graph-codex-cli-memories-supersession-structured-reasoning.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Adam arXiv:2608.13662 (August 2026) "Ontology-Grounded Project Memory for Coding Agents"; MOOSEDev neurosymbolic engine with OWL ontologies (9+11 classes, 51 properties) and SHACL validation; knowledge graph with typed supersession chains, lifecycle status, provenance; 835-record evaluation: set completeness 1.00 vs 0.18 vector, negation 0.98 vs 0.06, supersession 0.98 vs 0.27; relevance retrieval parity (0.82 vs 0.67-0.90); 100% currency accuracy across 40 reversal trials; MCP interface with four tool groups; mapped to Codex CLI v0.147.0 Memories two-phase pipeline, MEMORY.md flat consolidation, 30-day recency decay, AGENTS.md as static context, MCP server integration path; identified gaps: no typed relationships, no supersession tracking, no set completeness queries, no negation queries, no auditable reasoning trace; capture discipline as primary adoption barrier; 6 citations
+   - SEO targets: "ontology grounded project memory codex cli", "codex cli memories structured reasoning gap", "MOOSEDev knowledge graph coding agent memory", "codex cli supersession tracking memory", "structured vs vector memory coding agent", "codex cli MCP memory server knowledge graph"
+
+---
+
 ## Pre-Prompt Code Execution Attack Surface — Project Trust, MCP Server Auto-Start, Hooks, Scanning Defence (2026-08-17 Hourly Article Run)
 
 1. ✅ **Before the First Prompt: Pre-Prompt Code Execution Risks in Codex CLI and How to Defend Against Them** — Written 2026-08-17 → `2026-08-17-pre-prompt-code-execution-attack-surface-codex-cli-project-trust-mcp-server-hooks-scanning-defence.md`

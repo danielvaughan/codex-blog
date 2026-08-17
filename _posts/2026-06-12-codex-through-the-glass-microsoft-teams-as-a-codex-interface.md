@@ -2,7 +2,7 @@
 title: "Codex Through the Glass: Microsoft Teams as a Codex Interface — The Complete Implementation Guide"
 description: "A comprehensive guide to building a Teams bot that drives Codex app-server sessions, with full code examples, Adaptive Card patterns, approval workflows, and production deployment guidance. Updated with Teams SDK v2, MCP support, and real-world integration patterns."
 date: 2026-06-12T20:00:00+00:00
-last_modified_at: 2026-08-17T08:18:18+01:00
+last_modified_at: 2026-08-17T10:15:02+01:00
 updated: 2026-06-13T21:15:00+01:00
 series: "Codex Through the Glass"
 series_order: 1
