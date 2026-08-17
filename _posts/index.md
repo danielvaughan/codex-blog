@@ -1,13 +1,13 @@
 ---
 title: Articles Index
-description: "Last updated: 2026-07-15 Total articles rated: 1,453+"
+description: "Last updated: 2026-08-17 Total articles rated: 1,855+"
 nav_order: 1
 ---
 
 # Articles Index
 
-**Last updated:** 2026-07-15
-**Total articles rated:** 1,453+
+**Last updated:** 2026-08-17
+**Total articles rated:** 1,855+
 
 > **Note:** For detailed per-article ratings of articles published after May 2026, see [`resources/article-ratings.md`](../resources/article-ratings.md), which contains the comprehensive batch-by-batch ratings index with notes and gap analysis.
 
