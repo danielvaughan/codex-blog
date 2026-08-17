@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Actionable Hallucination Detection — Latent Critic, Specification-Grounding, PostToolUse Hooks, Guardian (2026-08-17 Hourly Article Run)
+
+1. ✅ **Actionable Hallucination Detection and the Latent Critic: What Real-Time Specification-Grounding Means for Your Codex CLI Hook and Guardian Strategy** — Written 2026-08-17 → `2026-08-17-actionable-hallucination-detection-latent-critic-specification-grounding-codex-cli-posttooluse-hooks-guardian.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Vijayvargiya & Lokesh arXiv:2608.10430 (August 2026) "Actionable Hallucination Detection: Translating Latent Uncertainty into Agentic Critique"; Samsung Research America; Latent Critic LoRA adapter (rank 64) operates concurrently during frozen base model generation; 0.966 ID AUROC, 0.925 OOD AUROC; <10 ms latency vs 884 ms external judge vs >12 s semantic entropy; specification-grounding distinct from factual hallucination (51.1% hallucinated values appear in context, 26.8% grounded values absent lexically); specific feedback yields 37.0% recovery rate vs 23.9% generic blocking; mechanistic analysis: layer 32 activation patching forces ungrounded classification 96% of time; mapped to Codex CLI v0.147.0 PostToolUse hooks exit code 2 as specific feedback channel, Guardian auto-review as external judge analogue, AGENTS.md as specification surface, PreToolUse hooks as pre-dispatch grounding gate, MCP tool server as adapter hosting path; identified gaps: no concurrent detection layer, no parameter-level grounding feedback schema, no context serialisation for hooks, no adapter injection path in API-hosted models; 6 citations
+   - SEO targets: "actionable hallucination detection codex cli", "latent critic specification grounding coding agent", "codex cli PostToolUse hooks hallucination detection", "specification grounding vs factual hallucination coding agent", "codex cli guardian auto-review latent critic", "LoRA adapter concurrent hallucination detection agent"
+
+---
+
 ## Small Critic Models for Code Agent Steering — Guardian, PostToolUse Hooks, Intra-Trajectory Feedback (2026-08-17 Hourly Article Run)
 
 1. ✅ **Steer, Don't Solve: What Small Critic Models Mean for Your Codex CLI Guardian and Hook Strategy** — Written 2026-08-17 → `2026-08-17-steer-dont-solve-small-critic-models-large-code-agents-codex-cli-guardian-posttooluse-hooks-intra-trajectory-feedback.md`
