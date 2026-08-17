@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Canary Tools and Tool-Selection Reasoning Diagnosis — Capability Mirage, MCP PreToolUse Hooks, Allowlist Defence (2026-08-17 Hourly Article Run)
+
+1. ✅ **Canary Tools and the Tool-Selection Reasoning Gap: What Diagnostic Probes Reveal About Your Codex CLI MCP Stack** — Written 2026-08-17 → `2026-08-17-canary-tools-diagnosing-tool-selection-reasoning-codex-cli-mcp-pretooluse-hooks-capability-mirage-defence.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Anand & Chattaraj arXiv:2608.04719 (August 2026) "Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools"; six-type canary taxonomy (semantic decoy, parameter trap, capability mirage, prerequisite blindness, temporal decoy, granularity trap); 8,640 primary runs + 2,880 ablation runs across 8 models; 36x CSR spread (Opus 4.8: 0.010, Llama 3.1 8B: 0.378); capability mirage dominant frontier failure mode (0.216 avg); recovery rates 82% Opus vs 18% Llama; recovered trapped runs 52% success vs 16% unrecovered; CSR correlates with task failure (rho=-0.34); tier ≠ safety (GPT-4.1 most susceptible hosted model); mapped to Codex CLI v0.147.0 MCP tool search (v0.142.2), PreToolUse hooks partial coverage, enabled_tools/disabled_tools, approval policies, named profiles; identified gaps: no capability-claim validation, no schema-based duplicate detection, no prerequisite verification, no recency metadata weighting, no post-selection verification loop; hardening playbook: PreToolUse allowlist hook, scoped profiles, PostToolUse schema validation, AGENTS.md tool-selection directives, MCP description audit; 6 citations
+   - SEO targets: "canary tools codex cli tool selection", "capability mirage MCP tool selection agent", "codex cli PreToolUse hooks tool allowlist defence", "diagnosing tool selection reasoning coding agent", "codex cli MCP tool discovery capability mirage", "tool selection robustness canary diagnostic probe"
+
+---
+
 ## Strategic Forgetting and Utility-Driven Memory Survival — SF-AMS, Hierarchical Retention, Codex CLI Memories Consolidation (2026-08-17 Hourly Article Run)
 
 1. ✅ **Strategic Forgetting and Utility-Driven Memory Survival: What SF-AMS Reveals About Codex CLI's Memory Consolidation Gap** — Written 2026-08-17 → `2026-08-17-strategic-forgetting-sf-ams-utility-driven-memory-survival-codex-cli-memories-consolidation-hierarchical-retention.md`
