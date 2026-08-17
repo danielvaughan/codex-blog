@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Second Thought — Parallel Reasoning in Idle Windows, Auxiliary Branches, Codex CLI ReAct Latency (2026-08-17 Hourly Article Run)
+
+1. ✅ **Second Thought and the Reasoning Idle Window: What Parallel Auxiliary Branches Mean for Codex CLI Latency and Turn Efficiency** — Written 2026-08-17 → `2026-08-17-second-thought-parallel-reasoning-idle-windows-codex-cli-react-latency-auxiliary-branches-swe-bench.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Sun, Yang, Lyu, Shi & Lo arXiv:2608.13667 (August 2026) "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe"; NeSy 2026 Industry Track; four auxiliary branches (Check, Recall, Rehearse, Alternative) spawned during reasoning idle window; evaluated on DeepSeek-V4-Flash, Qwen3.6-Plus, MiniMax-M3 across SWE-Bench Pro (150), Terminal-Bench 2.1 (89), τ³-bench (97); main-thread decoding reduced up to 43% (avg 20%); Pass@1 stable or improved (+12.4, +10.2 pp in two pairs); turn counts reduced across all nine pairs; 10.9% median wall-clock improvement; 66-181% API cost overhead from cached prefix reads; mapped to Codex CLI v0.147.0 disaggregated Rust execution, multi-agent subagents, streaming API, hooks system, model_auto_compact_token_limit, AGENTS.md; identified gaps: no intra-turn parallelism, no branch taxonomy in hooks, no atomic-thought harvesting, no cost-aware branch gating; integration paths via AGENTS.md rehearsal prompts, PostToolUse recall hooks, subagent branch emulation, MCP rehearse server; 6 citations
+   - SEO targets: "second thought parallel reasoning codex cli", "reasoning idle window coding agent ReAct latency", "codex cli auxiliary branches turn efficiency", "parallel reasoning during tool execution coding agent", "codex cli idle window optimisation subagent branches", "second thought arxiv 2608.13667 swe-bench pro results"
+
+---
+
 ## Canary Tools and Tool-Selection Reasoning Diagnosis — Capability Mirage, MCP PreToolUse Hooks, Allowlist Defence (2026-08-17 Hourly Article Run)
 
 1. ✅ **Canary Tools and the Tool-Selection Reasoning Gap: What Diagnostic Probes Reveal About Your Codex CLI MCP Stack** — Written 2026-08-17 → `2026-08-17-canary-tools-diagnosing-tool-selection-reasoning-codex-cli-mcp-pretooluse-hooks-capability-mirage-defence.md`
