@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Pre-Prompt Code Execution Attack Surface — Project Trust, MCP Server Auto-Start, Hooks, Scanning Defence (2026-08-17 Hourly Article Run)
+
+1. ✅ **Before the First Prompt: Pre-Prompt Code Execution Risks in Codex CLI and How to Defend Against Them** — Written 2026-08-17 → `2026-08-17-pre-prompt-code-execution-attack-surface-codex-cli-project-trust-mcp-server-hooks-scanning-defence.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Datadog Security Labs report (3 August 2026) by Nick Frichette demonstrating pre-prompt code execution in coding agents via project-scoped MCP server auto-start and environment variable poisoning; mapped to Codex CLI v0.147.0 trust model evolution (v0.122.0 untrusted blocking, v0.129.0 hook hashing, v0.131.0 startup interstitial, v0.147.0 symlink blocking); identified gap: MCP server processes inherit parent privileges outside tool-call sandbox, no per-server approval prompt; practical scanning playbook with ripgrep commands, pre-trust audit script, disposable environment recipe, auditd monitoring; supply chain context (Contagious Interview campaign, MAL-2026-3648 npm hooks); 6 citations
+   - SEO targets: "pre-prompt code execution codex cli", "codex cli project trust MCP server security", "before first prompt coding agent attack surface", "codex cli MCP server sandbox gap", "coding agent supply chain attack project trust", "codex cli pre-trust scanning playbook"
+
+---
+
 ## Codex Linux Desktop Preview — CLI Developer Guide, ChatGPT Work, Electron, Wayland, Project Integration (2026-08-17 Hourly Article Run)
 
 1. ✅ **Codex on Linux at Last: What the Desktop Preview Means for CLI Developers** — Written 2026-08-17 → `2026-08-17-codex-linux-desktop-preview-cli-developer-guide-chatgpt-work-electron-wayland-project-integration.md`
