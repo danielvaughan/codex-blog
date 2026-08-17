@@ -2,7 +2,7 @@
 title: "Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas"
 description: "The theory of bidirectional MCP integration between Claude Code and Codex CLI is compelling."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-08-17T10:28:21+01:00
+last_modified_at: 2026-08-17T11:34:52+01:00
 tags:
   - ecosystem
   - mcp
@@ -371,17 +371,3 @@ flowchart TD
 [^11]: OpenAI. "Codex CLI Configuration Reference." <https://developers.openai.com/codex/config-reference>
 
 [^12]: Anthropic. "Connect Claude Code to tools via MCP." Claude Code Documentation. <https://code.claude.com/docs/en/mcp>
-
-## Citations
-
-- OpenAI. "Model Context Protocol — Codex." <https://developers.openai.com/codex/mcp>
-- GitHub, openai/codex. Issue #8580 — conversationId missing. <https://github.com/openai/codex/issues/8580>
-- GitHub, openai/codex. Issue #8388 — codex-reply unusable. <https://github.com/openai/codex/issues/8388>
-- GitHub, openai/codex. Issue #5660 — conversation metadata omitted. <https://github.com/openai/codex/issues/5660>
-- OpenAI. "Use Codex with the Agents SDK." <https://developers.openai.com/codex/guides/agents-sdk>
-- tuannvm. "Codex MCP Server — Session Management Docs." <https://docs.tuannvm.com/codex-mcp-server/docs/session-management>
-- tuannvm. "Codex MCP Server — API Reference." <https://docs.tuannvm.com/codex-mcp-server/docs/api-reference>
-- LobeHub. "claude-codex-bridge MCP Server." <https://lobehub.com/mcp/user-claude-codex-bridge>
-- abhishekgahlot2. "codex-claude-bridge on GitHub." <https://github.com/abhishekgahlot2/codex-claude-bridge>
-- mkXultra. "ai-cli-mcp on GitHub." <https://github.com/mkXultra/claude-code-mcp/>
-- Anthropic. "Connect Claude Code to tools via MCP." <https://code.claude.com/docs/en/mcp>
