@@ -2,7 +2,7 @@
 title: "Google Agents CLI vs Codex CLI: Two Visions of Agent Development from the Terminal"
 description: "This comparison hinges on a single architectural insight: Codex CLI IS the coding agent; Google Agents CLI builds agents ON Google Cloud. They occupy."
 date: 2026-05-20T00:00:00+00:00
-last_modified_at: 2026-08-17T22:07:30+01:00
+last_modified_at: 2026-08-18T00:07:06+01:00
 categories: [competitive-analysis, google, agent-platform]
 tags: [agents-cli, google-cloud, adk, codex-cli, agent-platform, deployment, enterprise]
 type: Technical Article
