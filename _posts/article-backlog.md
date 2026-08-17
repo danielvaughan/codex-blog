@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Safety as a Runtime Contract — Preventive–Evidential Enforcement, Sandbox, Hooks, Guardian, Evidence Chain (2026-08-17 Hourly Article Run)
+
+1. ✅ **Agent Safety as a Runtime Contract: What Preventive–Evidential Enforcement Means for Your Codex CLI Sandbox, Hook, and Guardian Strategy** — Written 2026-08-17 → `2026-08-17-agent-safety-runtime-contract-preventive-evidential-codex-cli-sandbox-hooks-guardian-evidence-chain.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Ng, Han, Zhang & Wang arXiv:2608.11274 (August 2026) "Agent Safety Should Be a Runtime Contract"; two-face architecture: preventive face (sandboxes, permission gates, output filters, trajectory monitors) and evidential face (test exit codes, file diffs, commit hashes, citation lookups); 52-incident survey, 32 false-completion audit cases, trajectory-schema audit of 12 public agent systems; only 2/12 systems implement submission gates; 28,560-paper proceedings audit shows 8–12× training-vs-deployment publication imbalance; mapped to Codex CLI v0.147.0 Seatbelt/Landlock/Bubblewrap sandbox as structural preventive, approval policies as permission gates, Guardian auto-review as detective+corrective, PreToolUse hooks as pre-dispatch gates, PostToolUse hooks as partial evidential bridge; identified gaps: no evidence-chain composition, no submission gate, no tamper-evident trajectory hash chain, no hard-evidence-vs-self-report enforcement; 6 citations
+   - SEO targets: "agent safety runtime contract codex cli", "codex cli preventive evidential safety enforcement", "codex cli sandbox hooks guardian evidence chain", "runtime contract vs training alignment coding agent", "codex cli submission gate evidence chain", "agent safety deployment harness codex cli"
+
+---
+
 ## Actionable Hallucination Detection — Latent Critic, Specification-Grounding, PostToolUse Hooks, Guardian (2026-08-17 Hourly Article Run)
 
 1. ✅ **Actionable Hallucination Detection and the Latent Critic: What Real-Time Specification-Grounding Means for Your Codex CLI Hook and Guardian Strategy** — Written 2026-08-17 → `2026-08-17-actionable-hallucination-detection-latent-critic-specification-grounding-codex-cli-posttooluse-hooks-guardian.md`
