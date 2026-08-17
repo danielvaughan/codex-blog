@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AgentDebugX Failure Observability, Attribution, and Recovery — OTLP Traces, Rollout Debugging Loop (2026-08-17 Hourly Article Run)
+
+1. ✅ **AgentDebugX and the Closed-Loop Debugging Gap: What Detect-Attribute-Recover-Rerun Means for Your Codex CLI Observability Stack** — Written 2026-08-17 → `2026-08-17-agentdebugx-failure-observability-attribution-recovery-codex-cli-otlp-traces-rollout-debugging-loop.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zhu, Ye, Han et al. arXiv:2607.18754 (July 2026) "AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents"; DARR closed loop (Detect, Attribute, Recover, Rerun); DeepDebug multi-turn root-cause diagnosis with global read, structure-guided investigation, cross-examination; 19-mode failure taxonomy across planning/memory/tool-use/verification/coordination; Who&When benchmark 28.8% exact agent-and-step attribution vs 21.7% baseline; GAIA 13/73 repairs vs 4-6 baselines, 55.8%→63.6% accuracy; Error Hub for reusable failure-diagnosis-repair bundles; Python library, CLI, web console, agentic skill; OpenTelemetry GenAI export path; mapped to Codex CLI v0.147.0 OTLP spans, rollout JSONL files, turn analytics, PostToolUse hooks exit code 2, Guardian auto-review, --approve-for-me, /resume, Memories; identified gaps: no typed failure taxonomy, no automated root-cause attribution over rollout traces, no structured recovery pipeline, no checkpoint-and-branch rerun, no project-scoped failure memory; integration paths via MCP server wrapper, PostToolUse deterministic rule packs, Error Hub to Memories bridge; 6 citations
+   - SEO targets: "AgentDebugX codex cli failure observability", "codex cli debugging root cause attribution", "detect attribute recover rerun coding agent", "codex cli rollout JSONL failure diagnosis", "DeepDebug multi-turn root cause coding agent", "codex cli PostToolUse hooks failure taxonomy"
+
+---
+
 ## Ontology-Grounded Project Memory — MOOSEDev, Knowledge Graph, Codex CLI Memories, Supersession, Structured Reasoning (2026-08-17 Hourly Article Run)
 
 1. ✅ **Ontology-Grounded Project Memory and the Structured Reasoning Gap: What MOOSEDev Reveals About Codex CLI's Flat Memory Model** — Written 2026-08-17 → `2026-08-17-ontology-grounded-project-memory-moosedev-knowledge-graph-codex-cli-memories-supersession-structured-reasoning.md`
