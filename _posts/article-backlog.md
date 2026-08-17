@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex Linux Desktop Preview — CLI Developer Guide, ChatGPT Work, Electron, Wayland, Project Integration (2026-08-17 Hourly Article Run)
+
+1. ✅ **Codex on Linux at Last: What the Desktop Preview Means for CLI Developers** — Written 2026-08-17 → `2026-08-17-codex-linux-desktop-preview-cli-developer-guide-chatgpt-work-electron-wayland-project-integration.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — OpenAI shipped ChatGPT desktop app for Linux in public preview (11 August 2026); Electron-based, .deb/.rpm packages for Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44, x64+ARM64; Chat/Work/Codex in one app; missing Computer Use, Record & Replay, Appshots on Linux; CLI project integration gap (CLI sessions don't appear in desktop project list); Wayland defaults to X11 with scaling issues; community codex-desktop-linux project adds 30+ enhancements including Computer Use, AppImage, Arch/NixOS support; two-surface architecture analysis: CLI for scriptable/automated work, desktop for visual oversight and Work-mode tasks; shared config.toml and AGENTS.md; shared agentic credit pool; 6 citations
+   - SEO targets: "codex linux desktop preview cli developer", "chatgpt desktop linux codex wayland electron", "codex cli vs desktop linux two surface workflow", "codex linux desktop preview known issues wayland", "codex-desktop-linux unofficial community build", "codex linux desktop cli project integration gap"
+
+---
+
 ## Agent Safety as a Runtime Contract — Preventive–Evidential Enforcement, Sandbox, Hooks, Guardian, Evidence Chain (2026-08-17 Hourly Article Run)
 
 1. ✅ **Agent Safety as a Runtime Contract: What Preventive–Evidential Enforcement Means for Your Codex CLI Sandbox, Hook, and Guardian Strategy** — Written 2026-08-17 → `2026-08-17-agent-safety-runtime-contract-preventive-evidential-codex-cli-sandbox-hooks-guardian-evidence-chain.md`
