@@ -2,7 +2,7 @@
 title: "Codex CLI Memory Extensions: Cross-Session Persistence Lands in Main"
 description: "PR #16276 merged April 9, 2026 — the most strategically significant feature in weeks."
 date: 2026-04-10T05:00:00+00:00
-last_modified_at: 2026-08-18T18:10:20+01:00
+last_modified_at: 2026-08-18T20:11:53+01:00
 status: published
 research_date: 2026-04-10T06:00:00+01:00
 tags:

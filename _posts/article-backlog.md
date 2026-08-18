@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Data as Code — Confused Deputy, Rollout JSONL Safety Instruction Execution, Windows Shell Backtick (2026-08-18 Hourly Article Run)
+
+1. ✅ **Data as Code: How Codex CLI's Own Safety Instructions Became a Confused Deputy Attack on Windows** — Written 2026-08-18 → `2026-08-18-data-as-code-confused-deputy-codex-cli-rollout-jsonl-safety-instruction-execution-windows-shell-backtick.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — GitHub Issue #36937 (August 2026) Codex CLI placed rollout JSONL path in Bash program position; Git Bash interpreted JSONL as shell input; Markdown backticks in bundled gpt-5.6-sol safety instructions parsed as command substitutions; prohibition example `rm -rf $HOME` executed literally deleting Windows HOME directory; confused deputy pattern (Hardy 1988) applied to coding agent data-plane/control-plane boundary violation; not prompt injection — content authored by OpenAI in models.json; related Issue #37419 silent deletion of 417 session transcripts; existing mitigations: dangerous-command detection, /diff hook isolation (PR #23546), PowerShell classifier scoping (PR #24946), Windows sandbox restricted tokens; identified gaps: no data file execution guard, no rollout file integrity boundary, no safety instruction serialisation policy, no silent failure detection; defensive playbook with PostToolUse hooks, AGENTS.md file safety rules, read-only session inspection patterns; 8 citations
+   - SEO targets: "codex cli confused deputy rollout JSONL", "data as code safety instruction execution coding agent", "codex cli windows shell backtick command substitution", "rollout JSONL safety instructions deleted home directory", "codex cli data plane control plane boundary", "confused deputy attack coding agent session files"
+
+---
+
 ## Langfuse Codex Observability Plugin — Tracing Agent Turns, Tool Calls, Cost Tracking, Production Debugging (2026-08-18 Hourly Article Run)
 
 1. ✅ **The Langfuse Codex Observability Plugin: Tracing Agent Turns, Tool Calls, and Token Spend from Your Terminal to a Dashboard** — Written 2026-08-18 → `2026-08-18-langfuse-codex-observability-plugin-tracing-agent-turns-tool-calls-cost-tracking-production-debugging.md`
