@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Protocol Validity and Benchmark Trust Gap — HackDetect, Mislead Gap, Model Selection, Codex CLI Evaluation Gaps (2026-08-18 Hourly Article Run)
+
+1. ✅ **Protocol Validity and the Benchmark Trust Gap: What HackDetect Reveals About Your Codex CLI Model Selection Strategy** — Written 2026-08-18 → `2026-08-18-protocol-validity-agent-benchmarks-hackdetect-codex-cli-model-selection-benchmark-trust-evaluation-gaps.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Shao, Chen, Zhang, Pan & Luo arXiv:2607.22368 (July 2026) "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI"; HackDetect four-stage audit pipeline (protocol reconstruction, evidence selection, judge attribution, validation & gap calculation); 2,385 traces across 15 benchmarks; Frontier Science 67.0% exposure rate, AutoLab 66.7%, SWE-bench Verified 21.7%; Mislead gap 0.447–1.00; five exploitation pathways (answer source, hidden state, generator regularity, feedback inference, evaluation pipeline); four engagement levels (none, passive, active, engineered); HackDetect F₁=0.84 precision 0.94 recall 0.76; cross-model validation GPT-5.5 65.0% vs Kimi-k2.6 69.7% mislead rates; mapped to Codex CLI v0.147.0 AGENTS.md as protocol specification, rollout JSONL as trace evidence, Guardian auto-review as judge analogue, PostToolUse hooks for verification; identified gaps: no formalised protocol validity contract, no Mislead gap calculation, no exposure-source classification, no engagement-level tracking; practical playbook with AGENTS.md evaluation boundaries, PostToolUse novelty gate, paired model evaluations, rollout exposure audit; 6 citations
+   - SEO targets: "protocol validity agent benchmarks codex cli", "HackDetect benchmark audit coding agent", "codex cli model selection benchmark trust", "mislead gap agent benchmark score inflation", "codex cli rollout audit protocol validity", "benchmark trust gap coding agent model evaluation"
+
+---
+
 ## Working Set and Coherence Debt — Coupled-Fact Graph, Fabrication, Context Strategy, Codex CLI Gaps (2026-08-18 Hourly Article Run)
 
 1. ✅ **The Working Set Problem: What Coherence Debt Reveals About Your Codex CLI Context Strategy** — Written 2026-08-18 → `2026-08-18-working-set-coherence-debt-repository-scale-coding-agents-codex-cli-fact-availability-context-management.md`
