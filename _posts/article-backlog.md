@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Egress Gates and the Prompt Data Boundary — Hamza Proxy, Codex CLI Secrets Masking, Presidio, Audit Trail (2026-08-19 Hourly Article Run)
+
+1. ✅ **Egress Gates and the Prompt Data Boundary: How Hamza Closes the Gap Codex CLI's Built-In Redaction Cannot** — Written 2026-08-19 → `2026-08-19-egress-gates-hamza-proxy-codex-cli-secrets-masking-presidio-audit-enterprise-data-protection.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Hamza (GitHub softcane/hamza) open-source egress gate proxy for CLI coding agents (Codex CLI, Claude Code); three detection engines (secret scanner, Presidio NER, registered-value detector); deterministic placeholder masking (<SECRET_1>, <EMAIL_1>); privacy-safe audit trail with Prometheus metrics and Grafana dashboard; Codex CLI v0.147.0 built-in redaction (codex-secrets::redact_secrets, deny-read sandbox rules) covers agent-internal controls but cannot inspect final HTTP payload; three classes of data that slip through: pre-ingested content, inline credentials in source, personal data in fixtures; Hamza config.toml base_url routing; defence-in-depth layering; enterprise compliance gap (SOC 2, ISO 27001 evidence); known limitations: Java 25 dependency, single-host deployment, no response inspection; 5 citations
+   - SEO targets: "codex cli egress gate secrets masking proxy", "hamza proxy codex cli claude code secrets", "codex cli secrets redaction v0.147 limitations", "coding agent egress gate presidio PII masking", "codex cli enterprise data protection audit trail", "hamza egress proxy coding agent setup guide"
+
+---
+
 ## Data as Code — Confused Deputy, Rollout JSONL Safety Instruction Execution, Windows Shell Backtick (2026-08-18 Hourly Article Run)
 
 1. ✅ **Data as Code: How Codex CLI's Own Safety Instructions Became a Confused Deputy Attack on Windows** — Written 2026-08-18 → `2026-08-18-data-as-code-confused-deputy-codex-cli-rollout-jsonl-safety-instruction-execution-windows-shell-backtick.md`
