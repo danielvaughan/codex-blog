@@ -244,6 +244,3 @@ The paper audited 2,385 traces and found exposure in up to 67% of them. Your rol
 
 [^4]: OpenAI, "Codex CLI Configuration Reference — AGENTS.md," 2026. [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
 
-[^5]: OpenAI, "ChatGPT & Codex Changelog," August 2026. [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
-
-[^6]: Memeburn, "GPT 5.6 Model Comparison: Benchmarks, Pricing & What They Hide," July 2026. [https://memeburn.com/gpt-5-6-model-comparison-benchmarks-pricing-safety/](https://memeburn.com/gpt-5-6-model-comparison-benchmarks-pricing-safety/)

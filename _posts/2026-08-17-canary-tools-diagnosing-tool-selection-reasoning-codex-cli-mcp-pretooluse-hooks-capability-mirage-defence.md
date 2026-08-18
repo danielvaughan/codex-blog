@@ -8,6 +8,7 @@ tags: ["codex-cli", "mcp", "tool-selection", "canary-tools", "pretooluse-hooks",
 # Canary Tools and the Tool-Selection Reasoning Gap: What Diagnostic Probes Reveal About Your Codex CLI MCP Stack
 
 
+
 ---
 
 Your Codex CLI session might be calling the wrong MCP tool right now and you would never know. Not because the tool fails — it runs fine, returns plausible output, and the agent carries on. The selection was simply wrong: a semantic lookalike, an over-scoped variant, or a tool whose inflated description promised more than it delivers.
@@ -226,4 +227,3 @@ flowchart LR
 
 [^5]: Vaughan, D. (2026). "Codex CLI MCP Server Management: CLI Commands, OAuth Flows, Streamable HTTP, and Production Configuration Patterns." Codex Knowledge Base. [https://codex.danielvaughan.com/2026/05/19/codex-cli-mcp-server-management-cli-commands-oauth-streamable-http-production-patterns/](https://codex.danielvaughan.com/2026/05/19/codex-cli-mcp-server-management-cli-commands-oauth-streamable-http-production-patterns/)
 
-[^6]: Vaughan, D. (2026). "Tool Selection Failures in LLM Agents: The Readout Bottleneck." Codex Knowledge Base. [https://codex.danielvaughan.com/2026/07/04/tool-selection-failures-llm-agents-readout-bottleneck-codex-cli-minimal-tool-filtering-enabled-tools/](https://codex.danielvaughan.com/2026/07/04/tool-selection-failures-llm-agents-readout-bottleneck-codex-cli-minimal-tool-filtering-enabled-tools/)

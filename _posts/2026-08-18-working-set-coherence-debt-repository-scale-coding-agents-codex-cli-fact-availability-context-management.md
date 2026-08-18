@@ -221,6 +221,3 @@ The paper's title borrows from operating-systems theory for good reason: just as
 
 [^4]: CodeGraph (2026). *Local-first code intelligence for AI coding agents*. [https://github.com/nicobailey/codegraph](https://github.com/nicobailey/codegraph)
 
-[^5]: Semenov, A. & Dorofeev, S. (2026). *Beyond Compaction: Structured Context Eviction for Long-Horizon Agents*. arXiv:2606.11213. [https://arxiv.org/abs/2606.11213](https://arxiv.org/abs/2606.11213)
-
-[^6]: Codebase-Memory (2026). *Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP*. arXiv:2603.27277. [https://arxiv.org/abs/2603.27277](https://arxiv.org/abs/2603.27277)

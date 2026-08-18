@@ -282,6 +282,3 @@ fi
 
 [^4]: Langfuse, "codex-observability-plugin — OpenAI Codex plugin that traces agent turns, tool calls, and subagents to Langfuse," *GitHub*, 2026. [https://github.com/langfuse/codex-observability-plugin](https://github.com/langfuse/codex-observability-plugin)
 
-[^5]: OpenAI, Microsoft, AWS, Anysphere, Vercel, "Agent Plugins 1.0.0 Specification," 6 August 2026. [https://agentplugins.dev](https://agentplugins.dev)
-
-[^6]: Coralogix, "Codex CLI Integration — AI Observability," *Coralogix Docs*, 2026. [https://coralogix.com/docs/integrations/ai-observability/codex-cli/](https://coralogix.com/docs/integrations/ai-observability/codex-cli/)

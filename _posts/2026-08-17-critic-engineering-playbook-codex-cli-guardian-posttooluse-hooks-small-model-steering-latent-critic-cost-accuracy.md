@@ -8,6 +8,7 @@ tags: ["codex-cli", "guardian", "PostToolUse-hooks", "critic-models", "hallucina
 # The Critic Engineering Playbook: Building Steering and Detection Layers for Codex CLI
 
 
+
 ---
 
 Coding agents fail in predictable ways: they hallucinate API calls, pick the wrong tool from an MCP stack, or charge down a dead-end strategy for six turns before realising the test suite is red. The emerging answer is not to retrain the agent but to bolt on a **critic layer** — a smaller, cheaper model that watches the primary agent's trajectory and steers it back on course in real time.

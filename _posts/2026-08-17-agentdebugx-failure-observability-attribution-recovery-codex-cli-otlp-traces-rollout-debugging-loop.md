@@ -8,6 +8,7 @@ tags: ["codex-cli", "observability", "debugging", "AgentDebugX", "DeepDebug", "f
 # AgentDebugX and the Closed-Loop Debugging Gap: What Detect-Attribute-Recover-Rerun Means for Your Codex CLI Observability Stack
 
 
+
 ---
 
 When a Codex CLI session fails, the diagnostic surface you reach for — OTLP spans, rollout JSONL files, `codex doctor --json` — tells you *what* happened and roughly *when*. What it cannot tell you is *which earlier step actually caused the failure*, nor can it propose a concrete recovery. Zhu, Ye, Han et al.'s AgentDebugX (arXiv:2607.18754, July 2026) formalises exactly that missing layer: a closed Detect-Attribute-Recover-Rerun loop that turns passive traces into actionable root-cause diagnoses and structured retry directives[^1]. This article maps AgentDebugX's architecture against Codex CLI v0.147.0's observability features, identifies the gaps, and sketches practical integration paths.
