@@ -1,5 +1,13 @@
 # Article Backlog
 
+## The Recall Trap — Retriever Optimisation Paradox, Context Budget, File Depth, Issue Resolution (2026-08-18 Hourly Article Run)
+
+1. ✅ **The Recall Trap: Why Maximising Retrieval Recall Hurts Your Codex CLI Issue Resolution Rate** — Written 2026-08-18 → `2026-08-18-the-recall-trap-retriever-optimisation-paradox-codex-cli-context-budget-file-depth-issue-resolution.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Adkins & Trapaidze arXiv:2608.14838 (August 2026) "The Recall Trap: A Recall-Maximizing Retriever Configuration Reduces Issue Resolution"; controlled SWE-bench Verified experiment toggling deduplication flag on fixed 12-slot context packs; GPT-5.6 +7.6pp resolution (39.2%→46.8%, p=0.0003) when disabling deduplication (lower recall, higher depth); Qwen3.6-27B replication +3.6pp; anchor dose metric correlating within-file context density to task success; BM25 reversal -3.2pp confirming retrieval-method dependency; mapped to Codex CLI v0.147.0 model_auto_compact_token_limit, tool_output_token_limit, MCP tool search, AGENTS.md retrieval directives, PostToolUse hooks, named profiles; depth-first configuration playbook with retrieval mode switching; 6 citations
+   - SEO targets: "recall trap codex cli retrieval context budget", "retriever optimisation paradox coding agent", "codex cli tool_output_token_limit depth first", "anchor dose file depth issue resolution", "codex cli context budget retrieval recall", "recall precision trade-off coding agent SWE-bench"
+
+---
+
 ## Zero-Replay Debugging and Event Knowledge Graph — BranchPoint-Latent, Rollout Trace, Counterfactual Budget Allocation (2026-08-18 Hourly Article Run)
 
 1. ✅ **Zero-Replay Debugging and the Event Knowledge Graph: What BranchPoint-Latent Means for Your Codex CLI Rollout Traces** — Written 2026-08-18 → `2026-08-18-zero-replay-debugging-event-knowledge-graph-codex-cli-rollout-trace-counterfactual-budget-allocation.md`
