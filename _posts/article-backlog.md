@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Zero-Replay Debugging and Event Knowledge Graph — BranchPoint-Latent, Rollout Trace, Counterfactual Budget Allocation (2026-08-18 Hourly Article Run)
+
+1. ✅ **Zero-Replay Debugging and the Event Knowledge Graph: What BranchPoint-Latent Means for Your Codex CLI Rollout Traces** — Written 2026-08-18 → `2026-08-18-zero-replay-debugging-event-knowledge-graph-codex-cli-rollout-trace-counterfactual-budget-allocation.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Kang, Cha & Weon arXiv:2606.14805 (June 2026) "Knowledge-Based Zero-Replay Debugging of Multi-Agent LLM Traces"; event knowledge graph G=(V,E,A) with five typed attribute categories (routing, memory, tool-use, uncertainty, latent evidence); BranchPoint-Latent gradient-boosted learning-to-rank predictor over 13 features; 37 trace families, 163,815 events; Branch Recall@5 from 0.73 to 0.93 at zero oracle-replay cost; mapped to Codex CLI v0.147.0 rollout JSONL persistence, RolloutItem typed events, rollout-trace diagnostic crate, OTLP spans, SQLite metadata index; identified gaps: no typed causal edges in rollout format, no uncertainty/latent evidence attributes, no graph-aware querying; practical post-processing workflow with NetworkX graph construction from rollout JSONL; 6 citations
+   - SEO targets: "zero-replay debugging codex cli rollout traces", "event knowledge graph agent trace debugging", "BranchPoint-Latent codex cli rollout JSONL", "codex cli rollout-trace debug reduction", "counterfactual replay budget coding agent", "zero-replay debugging multi-agent LLM traces"
+
+---
+
 ## Skill Lifecycle Observability and Run Panorama — Evidence-Calibrated Runtime Reconstruction, Plugin Instrumentation Gap, OTLP Traces (2026-08-18 Hourly Article Run)
 
 1. ✅ **Skill Lifecycle Observability and the Run Panorama: What Evidence-Calibrated Runtime Reconstruction Reveals About Codex CLI's Plugin Instrumentation Gap** — Written 2026-08-18 → `2026-08-18-skill-lifecycle-observability-run-panorama-evidence-calibrated-runtime-reconstruction-codex-cli-plugin-instrumentation-gap.md`
