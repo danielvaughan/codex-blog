@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Working Set and Coherence Debt — Coupled-Fact Graph, Fabrication, Context Strategy, Codex CLI Gaps (2026-08-18 Hourly Article Run)
+
+1. ✅ **The Working Set Problem: What Coherence Debt Reveals About Your Codex CLI Context Strategy** — Written 2026-08-18 → `2026-08-18-working-set-coherence-debt-repository-scale-coding-agents-codex-cli-fact-availability-context-management.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Mohammadi, Klein, Chadha, Arora & Bindschaedler arXiv:2608.16630 (August 2026) "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks"; coupled-fact graph model with two-channel availability (recent context + parametric memory); 154 closed-book trials 0/12 vs 299/300 front-loaded at 9+/12; linear damage model with zero-deviation confirmation; 12.8× token efficiency gap across harnesses at identical quality; fabrication vs abstention rates (Opus 100% blocking, Codex 0%); stale conventions worse than no conventions (0% vs 33%); mapped to Codex CLI v0.147.0 AGENTS.md fact pinning, Memories persistence, model_auto_compact_token_limit compaction, MCP tool search, PostToolUse hooks, subagent partitioning; identified gaps: no coupled-fact tracking, no fabrication detection, no refetch-rate optimisation, compaction without notification; practical playbook with AGENTS.md working-set declaration, PostToolUse import validation, front-loading migration rules, subagent fact-boundary partitioning; 6 citations
+   - SEO targets: "working set coding agent codex cli", "coherence debt repository scale coding agent", "codex cli context management fact availability", "coupled fact graph coding agent working set", "codex cli AGENTS.md working set declaration", "coding agent fabrication detection context eviction"
+
+---
+
 ## Self-Evolving Coding Agents Taxonomy — Five Evolution Dimensions, Memories, Hooks, Plugins, Codex CLI Gaps (2026-08-18 Hourly Article Run)
 
 1. ✅ **Self-Evolving Coding Agents: What a Five-Dimension Taxonomy Reveals About Codex CLI's Evolution Gaps** — Written 2026-08-18 → `2026-08-18-self-evolving-coding-agents-taxonomy-codex-cli-memories-hooks-plugins-evolution-dimensions.md`
