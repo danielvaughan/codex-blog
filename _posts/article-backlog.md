@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Skill Lifecycle Observability and Run Panorama — Evidence-Calibrated Runtime Reconstruction, Plugin Instrumentation Gap, OTLP Traces (2026-08-18 Hourly Article Run)
+
+1. ✅ **Skill Lifecycle Observability and the Run Panorama: What Evidence-Calibrated Runtime Reconstruction Reveals About Codex CLI's Plugin Instrumentation Gap** — Written 2026-08-18 → `2026-08-18-skill-lifecycle-observability-run-panorama-evidence-calibrated-runtime-reconstruction-codex-cli-plugin-instrumentation-gap.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Gao arXiv:2608.08793 (August 2026) "Evidence-Calibrated Runtime Reconstruction for Agent Skills Across Heterogeneous Coding Agents"; eight-stage skill lifecycle (Request→Discovery→Activation→Instructions→Resources→Execution→Artifacts→Outcome); Run Panorama four evidence grades (Observed, Derived, Inferred, Experimental); 126 executions across 6 repository profiles, 3 coding agents (Codex v0.145.0, OpenCode v1.18.5, Qoder v1.1.10), 7 conditions; Codex produced 0/42 reconstructable Skill runs despite perfect oracle responses; Panorama view eliminated 18/18 clean-case false positives; known-rule graph 126/126 contract compliance vs graph+model 89/126 citation entailment; mapped to Codex CLI v0.147.0 OTLP spans, Agent Plugins 1.0 four-tier catalogue, PostToolUse hooks, Guardian auto-review, Langfuse/Dynatrace integrations; identified gaps: no per-skill span grouping, no lifecycle stage events, no evidence-grade metadata, no discovery/instruction/resource/artifact boundary tracking; practical hookup strategy with stage-boundary hooks and evidence-graded structured logging; 6 citations
+   - SEO targets: "skill lifecycle observability codex cli", "Run Panorama evidence-calibrated runtime coding agent", "codex cli plugin instrumentation gap OTLP", "evidence-calibrated runtime reconstruction agent skills", "codex cli PostToolUse lifecycle boundary hooks", "skill lifecycle eight stages coding agent observability"
+
+---
+
 ## Protocol Validity and Benchmark Trust Gap — HackDetect, Mislead Gap, Model Selection, Codex CLI Evaluation Gaps (2026-08-18 Hourly Article Run)
 
 1. ✅ **Protocol Validity and the Benchmark Trust Gap: What HackDetect Reveals About Your Codex CLI Model Selection Strategy** — Written 2026-08-18 → `2026-08-18-protocol-validity-agent-benchmarks-hackdetect-codex-cli-model-selection-benchmark-trust-evaluation-gaps.md`
