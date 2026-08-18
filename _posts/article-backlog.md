@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Langfuse Codex Observability Plugin — Tracing Agent Turns, Tool Calls, Cost Tracking, Production Debugging (2026-08-18 Hourly Article Run)
+
+1. ✅ **The Langfuse Codex Observability Plugin: Tracing Agent Turns, Tool Calls, and Token Spend from Your Terminal to a Dashboard** — Written 2026-08-18 → `2026-08-18-langfuse-codex-observability-plugin-tracing-agent-turns-tool-calls-cost-tracking-production-debugging.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Langfuse codex-observability-plugin (GitHub langfuse/codex-observability-plugin); Stop hook pipeline reading rollout JSONL transcripts; five observation types (turn trace, generation, tool span, subagent thread, session); sidecar deduplication for /resume; LANGFUSE_CODEX_* scoped environment variables; deterministic trace IDs for CI; cost attribution per developer/project/model via Langfuse pricing tables; evaluation scoring (LLM-as-judge, exact match, human annotation); team governance dashboards; known gaps: session context files not captured, hook-based tracing user-disablable; 6 citations
+   - SEO targets: "langfuse codex cli observability plugin", "codex cli tracing agent turns tool calls", "langfuse codex cost tracking per developer", "codex cli production debugging traces", "langfuse codex plugin setup guide", "codex cli observability dashboard token spend"
+
+---
+
 ## ATLAS Automata Learning for Agent Strategy Discovery — Finite-State Models, Rollout Traces, Explainability (2026-08-18 Hourly Article Run)
 
 1. ✅ **ATLAS and Automata Learning for Agent Strategy Discovery: What Finite-State Models Mean for Your Codex CLI Rollout Traces** — Written 2026-08-18 → `2026-08-18-atlas-automata-learning-agent-strategy-discovery-codex-cli-rollout-traces-explainability-finite-state-models.md`
