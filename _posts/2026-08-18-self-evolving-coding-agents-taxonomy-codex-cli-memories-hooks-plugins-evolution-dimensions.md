@@ -94,7 +94,7 @@ The survey highlights systems like CODESKILL that automatically distil reusable 
 
 Codex CLI consumes API-hosted models (currently GPT-5.6 Sol, Terra, and Luna tiers) [^5]. There is no mechanism to fine-tune or update model weights from session feedback. This is architecturally expected for an API-consuming client, but it means the most powerful evolution dimension — where agents like SWE-RL update their own policies from executable test feedback — is structurally unavailable [^1].
 
-**What is available**: model *selection* evolves manually. The upcoming deprecation of GPT-5.4 on 31 August 2026 forces a configuration migration to GPT-5.6 Terra/Luna [^5]. Named profiles in `config.toml` allow per-project model selection, and `model_auto_compact_token_limit` manages context pressure — but none of this constitutes self-evolution.
+**What is available**: model *selection* evolves manually. GPT-5.4 and GPT-5.4-mini are being removed from Codex for ChatGPT sign-in users on 31 August 2026, though the models remain available via the OpenAI API and Codex sessions authenticated with an API key [^5]. For ChatGPT-authenticated users, this requires a configuration migration to GPT-5.6 Terra/Luna. Named profiles in `config.toml` allow per-project model selection, and `model_auto_compact_token_limit` manages context pressure — but none of this constitutes self-evolution.
 
 ### Dimension 5: Workflow and topology self-evolution — constrained
 

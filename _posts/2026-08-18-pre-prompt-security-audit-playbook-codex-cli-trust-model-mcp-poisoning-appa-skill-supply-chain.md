@@ -58,7 +58,7 @@ Since v0.129.0, Codex hashes hook files and alerts on changes, and v0.131.0 adde
 
 ### 3. MCP Tool Description Poisoning
 
-MCPTox's evaluation across 1,312 malicious test cases covering 10 risk categories demonstrated that tool-poisoning attacks embed malicious instructions in a tool's metadata during registration [^2]. The agent then follows these instructions during normal operation. Critically, more capable models — with superior instruction-following — were more compliant with malicious metadata, achieving attack success rates up to 72.8% [^2].
+MCPTox's evaluation across 1,312 malicious test cases covering 11 risk categories demonstrated that tool-poisoning attacks embed malicious instructions in a tool's metadata during registration [^2]. The agent then follows these instructions during normal operation. Critically, more capable models — with superior instruction-following — were more compliant with malicious metadata, achieving attack success rates up to 72.8% [^2].
 
 For Codex CLI, this means that any MCP server whose tool descriptions you haven't audited could instruct the model to exfiltrate data, modify code silently, or escalate privileges.
 
@@ -66,7 +66,7 @@ For Codex CLI, this means that any MCP server whose tool descriptions you haven'
 
 Yang et al.'s risk assessment framework mapped 471 real-world shell commands into 2,826 malicious skill files across 11 MITRE ATT&CK tactics [^3]. Their Document-Driven Implicit Payload Execution (DDIPE) technique embeds malicious logic within code examples and configuration templates in skill documentation. Since agents reuse these examples during normal tasks, the payload executes without explicit prompts.
 
-The PhantomSkill research documented 157 confirmed malicious skills containing 632 distinct vulnerabilities across community registries [^5].
+The PhantomSkill research documented 157 confirmed malicious skills containing 632 distinct vulnerabilities across community registries [^7].
 
 ## The APPA Formal Model: Why Taint Isolation Matters
 
@@ -249,3 +249,5 @@ Despite improvements through v0.147.0, several gaps remain:
 [^5]: Snyk (2026). "ToxicSkills: Malicious AI Agent Skills — ClawHub Supply Chain Compromise." *Snyk Blog*. [https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/)
 
 [^6]: Kravchenko, A., Liventsev, V., Konstantinov, I., Iskhakov, I. & Kukuy, M. (2026). "Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents." *arXiv:2607.24625*, 27 July 2026. [https://arxiv.org/abs/2607.24625](https://arxiv.org/abs/2607.24625)
+
+[^7]: PhantomSkill. (2026). "PhantomSkill: Malicious Code Injection in Agent Skill Ecosystems." *arXiv:2606.19191*, June 2026. [https://arxiv.org/abs/2606.19191](https://arxiv.org/abs/2606.19191)
