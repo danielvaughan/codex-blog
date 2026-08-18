@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Self-Evolving Coding Agents Taxonomy — Five Evolution Dimensions, Memories, Hooks, Plugins, Codex CLI Gaps (2026-08-18 Hourly Article Run)
+
+1. ✅ **Self-Evolving Coding Agents: What a Five-Dimension Taxonomy Reveals About Codex CLI's Evolution Gaps** — Written 2026-08-18 → `2026-08-18-self-evolving-coding-agents-taxonomy-codex-cli-memories-hooks-plugins-evolution-dimensions.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zhou, Hu, Shang & Zhang arXiv:2608.03392 (August 2026) "Self-Evolving Coding Agents"; five-dimension object-centred taxonomy (Framework, Memory, Skill & Tool, Model, Workflow & Topology self-evolution); 35+ representative systems analysed including SICA, SWE-Exp, CODESKILL, Self-play SWE-RL, AFlow, EvoAgentX; three temporal patterns (task-time, post-task, stage-wise); three evidence sources (outcome, environmental, trajectory-derived); mapped to Codex CLI v0.147.0 Memories two-phase pipeline, PostToolUse hooks, Agent Plugins 1.0 federated catalogs, AGENTS.md as soft-framework layer, Guardian auto-review, subagent topology, GPT-5.6 model tiers; identified gaps: no composite importance scoring, no trajectory-derived evidence extraction, no automatic skill distillation, no model self-evolution (structural API constraint), no adaptive workflow topology; practical mitigations via trajectory logging hooks, memory validation gates, evolving AGENTS.md directives; 6 citations
+   - SEO targets: "self-evolving coding agents taxonomy codex cli", "codex cli memories evolution gaps", "self-evolving agent five dimensions coding", "codex cli hooks skill evolution trajectory", "coding agent self-improvement taxonomy 2026", "codex cli agent plugins skill distillation evolution"
+
+---
+
 ## Second Thought — Parallel Reasoning in Idle Windows, Auxiliary Branches, Codex CLI ReAct Latency (2026-08-17 Hourly Article Run)
 
 1. ✅ **Second Thought and the Reasoning Idle Window: What Parallel Auxiliary Branches Mean for Codex CLI Latency and Turn Efficiency** — Written 2026-08-17 → `2026-08-17-second-thought-parallel-reasoning-idle-windows-codex-cli-react-latency-auxiliary-branches-swe-bench.md`
