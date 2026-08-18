@@ -1,5 +1,13 @@
 # Article Backlog
 
+## ATLAS Automata Learning for Agent Strategy Discovery — Finite-State Models, Rollout Traces, Explainability (2026-08-18 Hourly Article Run)
+
+1. ✅ **ATLAS and Automata Learning for Agent Strategy Discovery: What Finite-State Models Mean for Your Codex CLI Rollout Traces** — Written 2026-08-18 → `2026-08-18-atlas-automata-learning-agent-strategy-discovery-codex-cli-rollout-traces-explainability-finite-state-models.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Lopez-Miguel, Happe, Cito, Bartocci, Könighofer & Tappler arXiv:2608.14352 (August 2026) "ATLAS: Discovering Agent Strategies through LLM-Guided Abstraction and Automata Learning"; ACM/IEEE MODELS 2026; three-stage LLM-driven trace abstraction pipeline (categorisation, normalisation, per-trace labelling); Alergia state-merging algorithm for probabilistic finite-state model inference; 12 vulnerable Linux machines with DeepSeek V4 Flash; 57-state raw traces compressed to 7-state models; knowledge transfer Ministral-8b 5%→28.3%, Ministral-14b 1.7%→38.3% via dynamic symbolic guidance; mapped to Codex CLI v0.147.0 rollout JSONL RolloutItem typed events, OTLP spans, PostToolUse hooks, named profiles, AGENTS.md strategy directives; identified gaps: no abstract category labels in rollout events, no automata learning integration, no strategy model viewer, PostToolUse hook limited to exit codes; practical pipeline with AALpy Alergia, Python rollout parser, strategy-to-AGENTS.md encoding; 6 citations
+   - SEO targets: "ATLAS automata learning codex cli rollout traces", "agent strategy discovery finite state models", "codex cli rollout JSONL explainability", "automata learning coding agent traces", "Alergia state merging agent behaviour", "codex cli agent strategy model extraction"
+
+---
+
 ## The Recall Trap — Retriever Optimisation Paradox, Context Budget, File Depth, Issue Resolution (2026-08-18 Hourly Article Run)
 
 1. ✅ **The Recall Trap: Why Maximising Retrieval Recall Hurts Your Codex CLI Issue Resolution Rate** — Written 2026-08-18 → `2026-08-18-the-recall-trap-retriever-optimisation-paradox-codex-cli-context-budget-file-depth-issue-resolution.md`
