@@ -182,9 +182,3 @@ The expanded SearchQA analysis across eight models reinforces the sparsity findi
 [^2]: OpenAI. (2026). "Codex CLI v0.148.0 Release Notes." GitHub Releases. [https://github.com/openai/codex/releases/tag/rust-v0.148.0](https://github.com/openai/codex/releases/tag/rust-v0.148.0)
 
 [^3]: OpenAI. (2026). "Codex CLI Documentation: Hooks, AGENTS.md, and Named Profiles." [https://developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
-
-[^4]: Zhou, H., Hu, H., Shang, Y. & Zhang, Q. (2026). "Self-Evolving Coding Agents." arXiv:2608.03392. [https://arxiv.org/abs/2608.03392](https://arxiv.org/abs/2608.03392)
-
-[^5]: Codex CLI Guide 2026. "Setup, Sandbox, AGENTS.md & MCP." [https://blakecrosley.com/guides/codex](https://blakecrosley.com/guides/codex)
-
-[^6]: Mem0. (2026). "Codex CLI Memory: How It Works." [https://mem0.ai/blog/how-memory-works-in-codex-cli](https://mem0.ai/blog/how-memory-works-in-codex-cli)
