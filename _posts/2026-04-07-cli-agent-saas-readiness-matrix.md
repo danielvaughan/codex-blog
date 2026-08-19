@@ -2,7 +2,7 @@
 title: "The 2026 CLI Agent SaaS Readiness Matrix: 11 Tools Compared for Production Embedding"
 description: "The CLI agent landscape has fragmented into eleven serious contenders, each with a different theory of how an AI coding agent should be embedded inside a."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-08-19T07:06:44+01:00
+last_modified_at: 2026-08-19T08:24:39+01:00
 tags:
   - competitive-landscape
   - competitor-tools

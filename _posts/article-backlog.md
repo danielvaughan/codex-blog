@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Spec-Driven Test Generation — Contract Reasoning, Pre-conditions, Post-conditions, AGENTS.md, PostToolUse Hooks (2026-08-19 Hourly Article Run)
+
+1. ✅ **Spec-Driven Test Generation: What Contract Reasoning Reveals About Your Codex CLI Test Workflow** — Written 2026-08-19 → `2026-08-19-spec-driven-test-generation-contract-reasoning-codex-cli-agents-md-preconditions-postconditions-test-quality.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Tufano et al. arXiv:2608.17177 (August 2026) "Grounding AI Agents in Contracts: Spec-Driven Test Generation"; LLM agents document pre-conditions, post-conditions, and undefined behaviours before generating tests; 9.8pp bug detection improvement, 2.5pp branch coverage gain; 77.8% wins over baselines in LLM-judged quality; mapped to Codex CLI v0.148.0 AGENTS.md contract specification directives, PostToolUse hooks for contract verification, async hooks for background analysis, named profiles for spec-driven testing, Playwright integration for e2e; practical contract-to-test pipeline with Mermaid flow; gap analysis: no built-in contract format, no contract-to-test coverage metric, hooks warn but don't block; 6 citations
+   - SEO targets: "spec-driven test generation codex cli", "contract reasoning pre-conditions post-conditions coding agent", "codex cli AGENTS.md test generation protocol", "codex cli PostToolUse hook contract verification", "spec-driven testing LLM coding agent", "codex cli named profiles test generation workflow"
+
+---
+
 ## Engineering Reliable Coding Agents — System Around the Model, Dependency Chain, Gated Practices (2026-08-19 Hourly Article Run)
 
 1. ✅ **Engineering Reliable Coding Agents: What 206 Gated Practices Reveal About the System Around Your Model** — Written 2026-08-19 → `2026-08-19-engineering-reliable-coding-agents-system-around-model-codex-cli-harness-dependency-chain-gated-practices.md`
