@@ -1,5 +1,13 @@
 # Article Backlog
 
+## TDD-Agent — Dual-Track Co-Refinement, Tests as Reasoning Artefacts, PostToolUse Verification (2026-08-20 Hourly Article Run)
+
+1. ✅ **TDD-Agent and Dual-Track Co-Refinement: Why Tests as Evolving Reasoning Artefacts Change Your Codex CLI Workflow** — Written 2026-08-20 → `2026-08-20-tdd-agent-test-driven-reasoning-code-generation-codex-cli-dual-track-co-refinement-posttooluse-hooks.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Yu et al. arXiv:2608.16742 (August 2026) "TDD-Agent: Test-Driven Reasoning for Code Generation"; two-phase architecture (test-first specification, dual-track co-refinement); LiveCodeBench 224 problems GPT-5-mini 53.08%→70.04% (+17pp), RepoEval 455 problems GPT-5-mini 61.31%→78.24% (+16.93pp over mini-SWE-agent); ablation: removing test co-evolution costs 8-11pp; matched failure mode (locally consistent, globally incorrect); complemented by Hasanli et al. arXiv:2604.26615 TDD Governance PROMPT-SE 2026; mapped to Codex CLI v0.148.0 AGENTS.md test-first directives, PostToolUse exit code 2 verification gates, named profiles for phase separation (workspace-read test-spec, workspace-write implement), Stop hook convergence verification; identified gaps: no structured failure diagnosis (code vs test bug), no built-in mutation testing integration, no per-artefact version tracking, no diminishing-returns detection; 6 citations
+   - SEO targets: "TDD-Agent dual-track co-refinement codex cli", "test-driven reasoning code generation coding agent", "codex cli PostToolUse test verification hooks", "tests as reasoning artefacts coding agent", "codex cli AGENTS.md test-first directive TDD", "dual-track test code co-evolution coding agent"
+
+---
+
 ## AgentChaosBench — Runtime Fault Detection from Telemetry, Guardrail Bypass, Structured Traces (2026-08-19 Hourly Article Run)
 
 1. ✅ **AgentChaosBench: Why Runtime Fault Detection from Telemetry Remains Unsolved — and What It Means for Your Codex CLI Observability Stack** — Written 2026-08-19 → `2026-08-19-agentchaosbench-runtime-fault-detection-telemetry-codex-cli-rollout-otlp-guardrail-bypass-structured-traces.md`
