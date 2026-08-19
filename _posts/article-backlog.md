@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Feedback Dynamics in Self-Evolving Agent Skills — Sparse Search, Failure Feedback, Validation Gates, Codex CLI Memories (2026-08-19 Hourly Article Run)
+
+1. ✅ **Feedback Dynamics in Self-Evolving Agent Skills: Why Failures Matter More Than Successes for Your Codex CLI Memories Pipeline** — Written 2026-08-19 → `2026-08-19-feedback-dynamics-self-evolving-agent-skills-codex-cli-memories-posttooluse-validation-sparse-search.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Liu et al. arXiv:2608.02636 (July 2026) "Rethinking Self-Evolving Agent Skills: Feedback Dynamics over Multiple Rounds"; 42 feedback runs across 14 model–benchmark settings; only 55 of 388 candidates (14.2%) establish byte-distinct validation bests; all 11 evolved selections include failed trajectories, success-only produces zero selections; SpreadsheetBench +35.6pp (GPT-5.5), +37.7pp (Gemini 3.1 Pro), +28.8pp (DeepSeek V4-Pro); test-time Parallel Sampling 30.96pp behind evolved skill on SpreadsheetBench; 8-model SearchQA analysis 7/8 improved; mapped to Codex CLI v0.148.0 Memories pipeline validation gap, PostToolUse hooks failure-priority feedback, AGENTS.md as evolved skill artefact, named profiles for model-dependent evolution, async hooks for non-blocking evolution; 6 citations
+   - SEO targets: "self-evolving agent skills feedback dynamics codex cli", "codex cli memories validation gate failure feedback", "sparse skill evolution coding agent PostToolUse hooks", "feedback composition failure trajectory coding agent", "codex cli skill evolution round budget strategy", "self-evolving skills test-time compute persistent evolution"
+
+---
+
 ## Spec-Driven Test Generation — Contract Reasoning, Pre-conditions, Post-conditions, AGENTS.md, PostToolUse Hooks (2026-08-19 Hourly Article Run)
 
 1. ✅ **Spec-Driven Test Generation: What Contract Reasoning Reveals About Your Codex CLI Test Workflow** — Written 2026-08-19 → `2026-08-19-spec-driven-test-generation-contract-reasoning-codex-cli-agents-md-preconditions-postconditions-test-quality.md`
