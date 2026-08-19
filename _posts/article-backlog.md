@@ -1,5 +1,13 @@
 # Article Backlog
 
+## MCP Registry Description Drift — 89-Day Measurement, Born Stale, Tool Search Trust Model, Revalidation (2026-08-19 Hourly Article Run)
+
+1. ✅ **MCP Registry Description Drift: What an 89-Day Measurement Study Means for Your Codex CLI Tool Search Trust Model** — Written 2026-08-19 → `2026-08-19-mcp-registry-description-drift-89-day-measurement-codex-cli-tool-search-staleness-revalidation.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Bharti arXiv:2608.00997v2 (August 2026) "Registry Descriptions Go Stale Unevenly: An 89-Day Measurement of Model Context Protocol Drift"; 120 observations over 88.6 days tracking 19,099 distinct MCP servers (3,510→18,966); 30-day descriptor change rate 11.87%, description-text-only 3.32%; 747/18,543 verdicts stale, 51% born stale (instrument lag) vs 49% aged after judgement; drift-ranked re-auditing at top-5% budget catches only 12.8% of all changers (43-51% are new arrivals invisible to history); tool-count changes 93.6% increases, tail 4.7×; three production changes deployed July 29; mapped to Codex CLI v0.148.0 MCP tool search, PreToolUse hooks, PostToolUse hooks, Agent Plugins federated catalogues, config.toml server pinning; gaps: no description-hash binding on tool search, no tool-count change notification, no revalidation cadence config, no staleness metadata in plugin catalogue; 6 citations
+   - SEO targets: "MCP registry description drift codex cli", "born stale MCP audit verdicts coding agent", "codex cli tool search trust model revalidation", "MCP registry 89 day measurement staleness", "codex cli PreToolUse freshness gate MCP", "MCP tool count expansion silent growth coding agent"
+
+---
+
 ## DyCoder and Partial Dependency Graphs — On-Demand Dependency Traversal, Context Retrieval, Repository-Level Code Generation (2026-08-19 Hourly Article Run)
 
 1. ✅ **DyCoder and Partial Dependency Graphs: What On-Demand Dependency Traversal Means for Your Codex CLI Context Strategy** — Written 2026-08-19 → `2026-08-19-dycoder-partial-dependency-graph-context-retrieval-repository-level-code-generation-codex-cli-mcp-tool-search.md`
