@@ -1,5 +1,13 @@
 # Article Backlog
 
+## LoopsBench and Loop Engineering — Long-Horizon Benchmarks, DAG-Aware Evaluation, Regression Obligations, Context Renewal (2026-08-19 Hourly Article Run)
+
+1. ✅ **LoopsBench and Loop Engineering: What Long-Horizon Benchmarks Reveal About Your Codex CLI Goal Mode Workflows** — Written 2026-08-19 → `2026-08-19-loopsbench-loop-engineering-long-horizon-coding-agents-codex-cli-goal-mode-dag-regression-context-renewal.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. arXiv:2608.00267v2 (August 2026) "LoopsBench: From Harness Engineering to Loop Engineering in Benchmarking Coding Agent"; 112 tasks, 8 languages, 9 domains, 5,300+ development units; dependency DAG evaluation with ready frontier and regression obligations; Opus-4.7 + Claude Code best at 25.00% resolve rate; Codex CLI leads loop comparison at 18.75% RR, 49.06% TPR, 0.49 depth with fixed GPT-5.4; planning fidelity Edge F1 0.67 for Codex; regression rate 4.83%; outer continuation boosts resolve rate ~8pp; patch inflation 1.58-2.54x; mapped to Codex CLI v0.148.0 goal mode, session fork, model_auto_compact_token_limit, PostToolUse hooks, /status cost reporting; gaps: no regression obligation mechanism, no DAG-aware planning, goal prompt stripped during compaction, no patch size control, no loop-level telemetry; 6 citations
+   - SEO targets: "loopsbench loop engineering codex cli", "long-horizon coding agent benchmark DAG", "codex cli goal mode loop engineering", "coding agent regression obligations context renewal", "loopsbench harness engineering vs loop engineering", "codex cli long-horizon task configuration"
+
+---
+
 ## Feedback Dynamics in Self-Evolving Agent Skills — Sparse Search, Failure Feedback, Validation Gates, Codex CLI Memories (2026-08-19 Hourly Article Run)
 
 1. ✅ **Feedback Dynamics in Self-Evolving Agent Skills: Why Failures Matter More Than Successes for Your Codex CLI Memories Pipeline** — Written 2026-08-19 → `2026-08-19-feedback-dynamics-self-evolving-agent-skills-codex-cli-memories-posttooluse-validation-sparse-search.md`
