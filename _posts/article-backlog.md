@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Engineering Reliable Coding Agents — System Around the Model, Dependency Chain, Gated Practices (2026-08-19 Hourly Article Run)
+
+1. ✅ **Engineering Reliable Coding Agents: What 206 Gated Practices Reveal About the System Around Your Model** — Written 2026-08-19 → `2026-08-19-engineering-reliable-coding-agents-system-around-model-codex-cli-harness-dependency-chain-gated-practices.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Jarmak arXiv:2608.13867 (August 2026) 314-page monograph; 206 reliability records (193 gated practices incl. 56 in depth, 13 research leads); six-layer dependency chain (task construction, execution environment, retrieval, state management, verification, observability); repair asymmetry principle; mapped to Codex CLI v0.148.0 AGENTS.md, sandbox fail-closed, MCP tool search, Memories, auto-compaction, Guardian auto-review, PostToolUse hooks, rollout JSONL, OTLP, Langfuse plugin; identified gaps: no compaction notification event, no non-compactable context segments, Guardian reviews actions not claims, no evidence-graded rollout format, no causal edge tracking; practical six-point reliability audit checklist; 7 citations
+   - SEO targets: "engineering reliable coding agents codex cli", "coding agent reliability dependency chain harness", "codex cli gated practices verification observability", "repair asymmetry coding agent harness engineering", "codex cli guardian verification gap claim-level", "coding agent system around model Jarmak 2026"
+
+---
+
 ## Codex CLI v0.148.0 Release — Markdown Export, Async Hooks, Cost Visibility, Bedrock Runtime (2026-08-19 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.148.0: Markdown Export, Async Hooks, Cost Visibility, and Bedrock Runtime** — Written 2026-08-19 → `2026-08-19-codex-cli-v0148-release-markdown-export-async-hooks-mcp-cost-visibility-bedrock-runtime-session-fork.md`
