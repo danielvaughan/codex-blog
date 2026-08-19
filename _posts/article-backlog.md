@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Hallucination Snowball and Multi-Agent Error Propagation — Boundary Verification, Guardian, PostToolUse (2026-08-19 Hourly Article Run)
+
+1. ✅ **The Hallucination Snowball: What Multi-Agent Error Propagation Means for Your Codex CLI Subagent Pipelines** — Written 2026-08-19 → `2026-08-19-hallucination-snowball-multi-agent-error-propagation-codex-cli-subagent-boundary-verification-guardian-posttooluse.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Singh & Pawar arXiv:2608.14588 (ICML FAGEN 2026) "The Hallucination Snowball: Modeling Error Propagation as State Transitions in Multi-Agent LLM Pipelines"; four-state Markov model (Raw Fact, Derived, Narrative, Invisible); escape probabilities 24.6%→48.3%→89.3%; GPT-4o detection drops 72.0%→50.9% across four stages; 23.7% undetected survival rate; boundary verification reduces survival from 58.4% to 16.2% (Cohen's h = −0.911); complementary Jamshidi et al. arXiv:2606.07937 "Hallucination Cascade" showing refinement cost (factual accuracy 0.789→0.769); mapped to Codex CLI v0.147.0 multi_agent_v2 six orchestration tools, Guardian auto-review (action-level not claim-level), PostToolUse hooks (tool calls not send_message), AGENTS.md directives, rollout JSONL, model_auto_compact_token_limit; identified gaps: no send_message hook event, Guardian reviews actions not factual claims, no hallucination state metadata in rollout format, compaction destroys verification evidence; practical boundary verification playbook with claim-sourcing AGENTS.md directives, orchestrator routing pattern, PostToolUse verification hooks, optimal verification budget allocation (60/30/10 split); 6 citations
+   - SEO targets: "hallucination snowball codex cli multi-agent", "error propagation subagent pipeline verification", "codex cli boundary verification PostToolUse hooks", "hallucination cascade multi-agent coding agent", "codex cli Guardian auto-review claim verification gap", "multi-agent hallucination detection verification budget"
+
+---
+
 ## Egress Gates and the Prompt Data Boundary — Hamza Proxy, Codex CLI Secrets Masking, Presidio, Audit Trail (2026-08-19 Hourly Article Run)
 
 1. ✅ **Egress Gates and the Prompt Data Boundary: How Hamza Closes the Gap Codex CLI's Built-In Redaction Cannot** — Written 2026-08-19 → `2026-08-19-egress-gates-hamza-proxy-codex-cli-secrets-masking-presidio-audit-enterprise-data-protection.md`
