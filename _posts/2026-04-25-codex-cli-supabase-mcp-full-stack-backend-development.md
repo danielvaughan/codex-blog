@@ -4,7 +4,7 @@ description: "Supabase's MCP server exposes over 20 tools that let Codex CLI que
 parent: "Articles"
 nav_order: 161
 date: 2026-04-25T00:00:00+00:00
-last_modified_at: 2026-08-19T02:14:10+01:00
+last_modified_at: 2026-08-19T03:09:40+01:00
 type: Technical Article
 timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-supabase-mcp-full-stack-backend-development"
