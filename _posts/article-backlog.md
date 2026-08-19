@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DyCoder and Partial Dependency Graphs — On-Demand Dependency Traversal, Context Retrieval, Repository-Level Code Generation (2026-08-19 Hourly Article Run)
+
+1. ✅ **DyCoder and Partial Dependency Graphs: What On-Demand Dependency Traversal Means for Your Codex CLI Context Strategy** — Written 2026-08-19 → `2026-08-19-dycoder-partial-dependency-graph-context-retrieval-repository-level-code-generation-codex-cli-mcp-tool-search.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Liu et al. arXiv:2608.01927 (August 2026, ASE 2026) "Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation"; DyRetriever two-stage LLM-driven partial dependency graph traversal (entry-point selection, multi-hop reasoning up to 10 hops); DyCoder combines dependency + similarity retrieval; CoderEval 25.63% relative Pass@1 improvement, DevEval 59.73%; 7.4x faster than static-graph baselines (RepoScope); 93.22% dependency identification accuracy; $0.0039/function cost; ablation shows removing DyRetriever drops DevEval 45-51%; mapped to Codex CLI v0.148.0 MCP tool search, model_auto_compact_token_limit, tool_output_token_limit, AGENTS.md dependency-first directives, PostToolUse hooks for dependency validation; gaps: Python only, no built-in dependency MCP server, no GPT-5.x evaluation; 6 citations
+   - SEO targets: "DyCoder partial dependency graph codex cli", "repository-level code generation context retrieval", "codex cli dependency-first context strategy MCP", "DyRetriever multi-hop reasoning coding agent", "partial dependency graph vs similarity retrieval", "codex cli AGENTS.md dependency traversal directive"
+
+---
+
 ## LoopsBench and Loop Engineering — Long-Horizon Benchmarks, DAG-Aware Evaluation, Regression Obligations, Context Renewal (2026-08-19 Hourly Article Run)
 
 1. ✅ **LoopsBench and Loop Engineering: What Long-Horizon Benchmarks Reveal About Your Codex CLI Goal Mode Workflows** — Written 2026-08-19 → `2026-08-19-loopsbench-loop-engineering-long-horizon-coding-agents-codex-cli-goal-mode-dag-regression-context-renewal.md`
