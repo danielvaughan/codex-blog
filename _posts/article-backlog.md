@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.148.0 Release — Markdown Export, Async Hooks, Cost Visibility, Bedrock Runtime (2026-08-19 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.148.0: Markdown Export, Async Hooks, Cost Visibility, and Bedrock Runtime** — Written 2026-08-19 → `2026-08-19-codex-cli-v0148-release-markdown-export-async-hooks-mcp-cost-visibility-bedrock-runtime-session-fork.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.148.0 released 18 August 2026 with 393 changes (25 features, 64 bug fixes, 7 perf, 3 security); /export slash command for Markdown session export to clipboard or file; codex exec fork CLI subcommand for session forking; archive/restore in resume picker; draft prompts during TUI init; estimated cost in /status, status lines, terminal titles; Amazon Bedrock Runtime as built-in provider with AWS profile/region/GPT-5.6 routing; async hooks (background, non-blocking, up to 8 concurrent); MCP tool invocation from hook handlers; model switch reliability fix; session resume fidelity fix; sandbox fail-closed on Linux and Windows; 8 citations
+   - SEO targets: "codex cli v0.148.0 release features", "codex cli markdown export /export command", "codex cli async hooks MCP tool invocation", "codex cli cost visibility /status estimated cost", "codex cli amazon bedrock runtime built-in provider", "codex cli session fork exec fork archive"
+
+---
+
 ## Hallucination Snowball and Multi-Agent Error Propagation — Boundary Verification, Guardian, PostToolUse (2026-08-19 Hourly Article Run)
 
 1. ✅ **The Hallucination Snowball: What Multi-Agent Error Propagation Means for Your Codex CLI Subagent Pipelines** — Written 2026-08-19 → `2026-08-19-hallucination-snowball-multi-agent-error-propagation-codex-cli-subagent-boundary-verification-guardian-posttooluse.md`
