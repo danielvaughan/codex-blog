@@ -1,5 +1,13 @@
 # Article Backlog
 
+## AgentChaosBench — Runtime Fault Detection from Telemetry, Guardrail Bypass, Structured Traces (2026-08-19 Hourly Article Run)
+
+1. ✅ **AgentChaosBench: Why Runtime Fault Detection from Telemetry Remains Unsolved — and What It Means for Your Codex CLI Observability Stack** — Written 2026-08-19 → `2026-08-19-agentchaosbench-runtime-fault-detection-telemetry-codex-cli-rollout-otlp-guardrail-bypass-structured-traces.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zhang et al. arXiv:2608.14680 (August 2026) "When Agentic Executions Fail: Detecting and Localizing Runtime Faults from Telemetry"; AgentChaosBench benchmark with 275 sanitised traces (250 faulty, 25 controls); 5 heterogeneous A2A+MCP applications; 10 fault types across 4 categories (availability, performance, control/routing, data/policy); zero-shot LLM detectors achieve only 24.8% top-1 fault-type accuracy (DeepSeek-v4-pro); joint type+location classification tops at 22%; guardrail bypass 0-1/25 top-3 recall even with reference traces; structured trace view reduces inference cost 8.6×; scale improves no-fault recognition (4%→96%) but not fault classification; mapped to Codex CLI v0.148.0 rollout JSONL, OTLP spans, codex doctor, Guardian auto-review; identified gaps: no structured diagnostic view, no guardrail-decision telemetry, no fault-type vocabulary in rollout events, no reference-trace comparison mechanism; practical pipeline with PostToolUse hooks, structured-view generation, guardrail-decision logging, reference-trace tagging; 6 citations
+   - SEO targets: "AgentChaosBench runtime fault detection codex cli", "codex cli telemetry fault diagnosis rollout JSONL", "guardrail bypass detection coding agent telemetry", "structured trace view agent observability codex cli", "codex cli OTLP fault localisation runtime", "agent runtime fault classification benchmark telemetry"
+
+---
+
 ## Multi-Agent Coordination Measurement — Temporal Networks, Handshake Overhead, File Channel, Coordinator Myth (2026-08-19 Hourly Article Run)
 
 1. ✅ **When Agents Coordinate: What 1,902 Temporal-Network Runs Reveal About Your Codex CLI Multi-Agent Costs** — Written 2026-08-19 → `2026-08-19-when-agents-coordinate-temporal-network-multi-agent-coding-codex-cli-handshake-overhead-file-channel-coordinator-myth.md`
