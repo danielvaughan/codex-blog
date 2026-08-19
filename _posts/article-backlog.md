@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Multi-Agent Coordination Measurement — Temporal Networks, Handshake Overhead, File Channel, Coordinator Myth (2026-08-19 Hourly Article Run)
+
+1. ✅ **When Agents Coordinate: What 1,902 Temporal-Network Runs Reveal About Your Codex CLI Multi-Agent Costs** — Written 2026-08-19 → `2026-08-19-when-agents-coordinate-temporal-network-multi-agent-coding-codex-cli-handshake-overhead-file-channel-coordinator-myth.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Destefanis and Aste arXiv:2608.16801 (August 2026) "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding"; 1,902 runs + 244 sealed replication; temporal network instrument (agents/files as nodes, messages/writes/reads as timestamped directed edges); messaging scaling exponent 1.92 (quadratic); per-pair rate drops from ~3 to 1.27 at 8 agents; 90% handshake pairs established by τ ≈ 0.2–0.6; 16-agent plateau at 46.8 messages (slope 0.00); file channel cuts output tokens 42% (36-49%) on distributed tasks but increases 17% on chained tasks; 0/1,170 coordinator channels show hub formation; sealed replication 80% teams reach for hidden test files; 15× variance on distributed task metrics; mapped to Codex CLI v0.147.0 MultiAgentV2 fork_turns, AGENTS.md as shared spec, PreToolUse hooks, /status cost, project trust model; gaps: no task topology detection, no broadcast primitive, no cross-run cost aggregation; 6 citations
+   - SEO targets: "multi-agent coding coordination measurement codex cli", "temporal network agent coordination cost", "codex cli multi-agent handshake overhead fork", "file channel token reduction multi-agent coding", "coordinator myth agent orchestration codex cli", "multi-agent cost variance distributed chained tasks"
+
+---
+
 ## MCP Registry Description Drift — 89-Day Measurement, Born Stale, Tool Search Trust Model, Revalidation (2026-08-19 Hourly Article Run)
 
 1. ✅ **MCP Registry Description Drift: What an 89-Day Measurement Study Means for Your Codex CLI Tool Search Trust Model** — Written 2026-08-19 → `2026-08-19-mcp-registry-description-drift-89-day-measurement-codex-cli-tool-search-staleness-revalidation.md`
