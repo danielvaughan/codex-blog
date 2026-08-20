@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Adversarial Review — Structured Disagreement, False Consensus, Guardian, Multi-Agent Code Review (2026-08-20 Hourly Article Run)
+
+1. ✅ **Adversarial Review: Why Structured Disagreement Beats Consensus in Your Codex CLI Code Review Pipeline** — Written 2026-08-20 → `2026-08-20-adversarial-review-structured-disagreement-false-consensus-codex-cli-guardian-multi-agent-code-review.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Qiu & Gill arXiv:2608.18167 (August 2026, ICML DL4C Workshop) "Adversarial Review: Structured Disagreement for Grounded Agentic Code Review"; three-agent protocol (main, reviewer, critic); 87% LiveCodeBench pass rate with 3 agents vs MARS 82% with 5; false-consensus failure mode (over-decomposition F1=0.250, capitulation F1=0.286); text-constrained AR achieves highest SWE-PRBench F1 (0.533); AGREE/DISAGREE_EVIDENCE/DISAGREE_CONCERN verdict taxonomy; complemented by Okawa arXiv:2608.02827 (ICML 2026) phase transition to collective bias under conformity pressure; mapped to Codex CLI v0.148.0 Guardian auto-review (single-reviewer limitation), multi_agent_v2 subagent spawning, AGENTS.md review protocol, PostToolUse hooks as review gates, named profiles for phase separation; gaps: no native review state machine, no verdict schema enforcement, no adaptive activation, subagents share model by default; 5 citations
+   - SEO targets: "adversarial review structured disagreement codex cli", "false consensus code review multi-agent LLM", "codex cli Guardian auto-review false consensus limitation", "structured disagreement protocol coding agent review", "codex cli multi-agent code review AGENTS.md", "adversarial review AGREE DISAGREE verdict taxonomy"
+
+---
+
 ## Formal-Method-Guided Vibe Coding — Forge Verification Loop, Dafny, Isabelle, PostToolUse Safety Gates (2026-08-20 Hourly Article Run)
 
 1. ✅ **Formal-Method-Guided Vibe Coding: What the Forge Verification Loop Means for Safety-Critical Work in Codex CLI** — Written 2026-08-20 → `2026-08-20-formal-method-guided-vibe-coding-forge-verification-loop-codex-cli-posttooluse-safety-critical-dafny-isabelle.md`
