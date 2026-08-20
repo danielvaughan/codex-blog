@@ -190,7 +190,7 @@ Three categories of fixes in v0.148.0 deserve attention from production users [^
 
 ```bash
 # Update via npm
-npm update -g @anthropic-ai/codex
+npm update -g @openai/codex
 
 # Verify version
 codex --version
