@@ -1,5 +1,13 @@
 # Article Backlog
 
+## RADAR at Meta — Risk-Calibrated Auto-Review, Guardian Pipeline, Approval Modes, Review Bottleneck (2026-08-20 Hourly Article Run)
+
+1. ✅ **RADAR at Meta: What Risk-Calibrated Auto-Review Means for Your Codex CLI Guardian Pipeline** — Written 2026-08-20 → `2026-08-20-meta-radar-risk-aware-diff-auto-review-codex-cli-guardian-approval-modes-review-bottleneck.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Adams, Banga et al. arXiv:2605.30208 (May 2026) "Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review Efficiency"; 535K+ diffs reviewed, 331K+ landed; revert rate 1/3 of human-reviewed (p<1e-16); production incident rate 1/50 (p<1e-6); multi-stage funnel with Diff Risk Score ML model, LLM Automated Code Review (confidence ≥8/10), deterministic validation; 105.9% YoY LoC growth with 80%+ from agentic AI; P25→P50 threshold calibration yields 60.31% auto-approve rate; RACER runbooks 3K diffs/week with per-runbook risk history, daily limits, denylist; mapped to Codex CLI v0.148.0 Guardian auto-review (binary gate limitation), approval modes as coarse risk tiers, PostToolUse hooks as deterministic validation, PreToolUse hooks as eligibility gates, AGENTS.md review protocol with three-tier classification; identified gaps: no per-action risk scoring, no file-path-aware approval routing, no structured review categories, no cross-session revert tracking; 5 citations
+   - SEO targets: "RADAR Meta risk-aware code review codex cli", "codex cli Guardian auto-review risk calibration", "review bottleneck AI coding agent RADAR pipeline", "codex cli approval modes risk-calibrated routing", "automated code review risk scoring coding agent", "codex cli PostToolUse deterministic validation review"
+
+---
+
 ## Adversarial Review — Structured Disagreement, False Consensus, Guardian, Multi-Agent Code Review (2026-08-20 Hourly Article Run)
 
 1. ✅ **Adversarial Review: Why Structured Disagreement Beats Consensus in Your Codex CLI Code Review Pipeline** — Written 2026-08-20 → `2026-08-20-adversarial-review-structured-disagreement-false-consensus-codex-cli-guardian-multi-agent-code-review.md`
