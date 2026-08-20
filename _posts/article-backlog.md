@@ -1,5 +1,12 @@
 # Article Backlog
 
+## SkillForge — Self-Distilling Project-Specific Knowledge, Entity-Grounded Skills, AGENTS.md, Memories (2026-08-20 Hourly Article Run)
+
+1. ✅ **SkillForge and Self-Distilling Project Knowledge: Why Your Codex CLI Agent Needs Repository Familiarity Before It Starts Working** — Written 2026-08-20 → `2026-08-20-skillforge-self-distilling-project-specific-knowledge-codex-cli-agents-md-memories-skills-entity-grounded-issue-resolution.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. arXiv:2608.18933 (August 2026) "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution"; proactive knowledge acquisition via test-driven issue synthesis; dual-level entity-grounded skill distillation (global diagnostic + local intervention); SWE-bench Verified +5.8pp (DeepSeek-V3.2), +5.6pp (GPT-5-mini); SWE-bench Pro +5.8pp/+4.1pp; cross-model skill transfer erases gains entirely; moderate retrieval (k=5) outperforms exhaustive; mapped to Codex CLI v0.148.0 AGENTS.md as static diagnostic knowledge, Memories as emergent entity knowledge (5K token cap limitation), project-scoped skills as packaged playbooks; identified gaps: no automated issue synthesis from test coverage, no entity-level skill indexing, no cross-model skill incompatibility detection, no retrieval budgeting for project skills; complemented by CODESKILL (arXiv:2605.25430) and LOOP Skill Engine; 6 citations
+
+---
+
 ## Jagged Frontier — Coding Agent Robustness, Semantics-Preserving Transformations, Scaffold-Model Interaction (2026-08-20 Hourly Article Run)
 
 1. ✅ **The Jagged Frontier: Why Your Coding Agent's Robustness Depends on Scaffold and Model Together** — Written 2026-08-20 → `2026-08-20-jagged-frontier-coding-agent-robustness-semantics-preserving-transformations-codex-cli-scaffold-model-interaction.md`
