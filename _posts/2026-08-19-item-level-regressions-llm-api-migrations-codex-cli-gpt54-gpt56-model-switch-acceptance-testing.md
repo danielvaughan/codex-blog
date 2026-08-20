@@ -1,7 +1,7 @@
 ---
 title: "What Aggregate Scores Miss: How Item-Level Regressions in LLM API Migrations Affect Your Codex CLI Model Switch"
 parent: "Articles"
-nav_order: 1845
+nav_order: 1847
 tags: ["codex-cli", "model-migration", "GPT-5.4", "GPT-5.6", "item-level-regression", "benchmark", "named-profiles", "PostToolUse", "acceptance-testing"]
 ---
 

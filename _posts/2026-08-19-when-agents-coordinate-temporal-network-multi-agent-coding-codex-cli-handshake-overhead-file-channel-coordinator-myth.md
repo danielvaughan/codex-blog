@@ -1,7 +1,7 @@
 ---
 title: "When Agents Coordinate: What 1,902 Temporal-Network Runs Reveal About Your Codex CLI Multi-Agent Costs"
 parent: "Articles"
-nav_order: 1843
+nav_order: 1845
 tags: ["codex-cli", "multi-agent", "coordination", "temporal-network", "handshake-overhead", "file-channel", "orchestration", "token-cost"]
 ---
 

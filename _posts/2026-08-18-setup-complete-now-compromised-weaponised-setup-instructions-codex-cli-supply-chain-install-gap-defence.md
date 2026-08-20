@@ -1,7 +1,7 @@
 ---
 title: "Setup Complete, Now You Are Compromised: What Weaponised Setup Instructions Reveal About Codex CLI's Install Gap"
 parent: "Articles"
-nav_order: 1834
+nav_order: 1835
 tags: ["codex-cli", "supply-chain", "security", "package-management", "PreToolUse", "sandbox", "dependency-attacks"]
 ---
 
