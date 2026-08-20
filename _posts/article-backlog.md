@@ -1,5 +1,13 @@
 # Article Backlog
 
+## One Gate Is Not Enough — Composing Stateful Pre-Action Controls, Remediation Coupling, Regate Protocol (2026-08-20 Hourly Article Run)
+
+1. ✅ **One Gate Is Not Enough: Why Composing Pre-Action Controls Matters for Your Codex CLI Hook Pipeline** — Written 2026-08-20 → `2026-08-20-one-gate-is-not-enough-composing-stateful-pre-action-controls-codex-cli-hooks-guardian-remediation-coupling.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Besanson arXiv:2608.18360 (August 2026) "One Gate Is Not Enough: Composing Stateful Pre-Action Controls for Agentic AI"; remediation-induced control coupling formalised; remediate-and-regate protocol (two-phase re-evaluation); 86/243 grid points where evidence substitution and resource downroute operators do not commute; evidence buffer poisoning 14.70 poisoned substitutions per seed (95% CI [13.21, 16.19]); linear-family lemma proving weighted aggregation admits vetoed profiles; CH1-CH6 challenges met across 30 pre-registered seeds; non-compensatory min operator for veto soundness; mapped to Codex CLI v0.148.0 PreToolUse hooks updatedInput rewriting, exit code 2 veto semantics, Guardian auto-review, sandbox policies, PostToolUse hooks, hook ordering as governance semantics; identified gaps: no regate after remediation, no remediation provenance in rollout events, no memory integrity predicates, hook chain ordering undocumented as security-relevant; practical two-layer hook architecture approximating regate protocol; 6 citations
+   - SEO targets: "composing pre-action controls codex cli hooks", "remediation-induced control coupling coding agent", "codex cli PreToolUse hook ordering security", "remediate-and-regate protocol agentic AI", "codex cli hook composition governance semantics", "pre-action control veto min operator coding agent"
+
+---
+
 ## (Im)Paired Programming — Productivity-Understanding Gap, Comprehension Verification, Cognitive Offloading (2026-08-20 Hourly Article Run)
 
 1. ✅ **(Im)Paired Programming: The Productivity-Understanding Gap and What It Means for Your Codex CLI Workflow** — Written 2026-08-20 → `2026-08-20-impaired-programming-coding-agents-productivity-understanding-gap-codex-cli-comprehension-verification-cognitive-offloading.md`
