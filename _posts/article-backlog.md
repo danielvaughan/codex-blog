@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Jagged Frontier — Coding Agent Robustness, Semantics-Preserving Transformations, Scaffold-Model Interaction (2026-08-20 Hourly Article Run)
+
+1. ✅ **The Jagged Frontier: Why Your Coding Agent's Robustness Depends on Scaffold and Model Together** — Written 2026-08-20 → `2026-08-20-jagged-frontier-coding-agent-robustness-semantics-preserving-transformations-codex-cli-scaffold-model-interaction.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Mahmud et al. arXiv:2608.18389 (August 2026) "A Jagged Frontier: Evaluating Robustness of Code Agents to Semantics-Preserving Transformations"; 14 SPTs (rewrites + inert insertions); 54 SWE-bench instances; 2 scaffolds (mini-SWE agent, OpenCode) × 4 models (Opus 4.5, Kimi K2.5, MiniMax M2.5, Qwen 3.6-27B); 6/16 configurations show significant degradation up to 6.7pp; jagged frontier — Qwen most robust under mini-SWE (0.2pp) but most brittle under OpenCode (5.5pp); simpler scaffold more robust; effort inflation up to 22.9% token cost; complemented by Starace arXiv:2606.08529 scaffold effects on GAIA (28pp accuracy swing); mapped to Codex CLI v0.148.0 AGENTS.md scaffold simplicity, PostToolUse effort monitoring hooks, named profiles for robustness testing, PreToolUse scope guards; identified gaps: no perturbation-aware evaluation mode, no effort-inflation alerting, no scaffold-comparison tooling, no codebase-style profiling; 6 citations
+   - SEO targets: "jagged frontier coding agent robustness codex cli", "semantics-preserving transformations coding agent perturbation", "scaffold effects model robustness coding agent", "codex cli AGENTS.md scaffold simplicity robustness", "coding agent effort inflation perturbation token cost", "codex cli named profiles robustness testing"
+
+---
+
 ## SpecFirst and Behavioural Specification Elicitation — Dedicated Discovery Phase, AGENTS.md, Spec-Driven Development, ProgramBench (2026-08-20 Hourly Article Run)
 
 1. ✅ **SpecFirst and Behavioural Specification Elicitation: Why a Dedicated Discovery Phase Before Code Changes Your Codex CLI Outcomes** — Written 2026-08-20 → `2026-08-20-specfirst-behavioral-specification-elicitation-codex-cli-agents-md-spec-driven-development-programbench.md`
