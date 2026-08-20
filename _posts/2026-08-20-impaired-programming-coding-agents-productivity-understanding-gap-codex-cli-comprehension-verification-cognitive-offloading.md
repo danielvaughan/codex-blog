@@ -54,7 +54,7 @@ Codex CLI's layered configuration system — AGENTS.md directives, PreToolUse an
 
 The simplest defence is an AGENTS.md directive that forces the agent to explain before proceeding:
 
-```toml
+```markdown
 # AGENTS.md — comprehension-first directives
 
 ## Workflow Rules
@@ -145,7 +145,7 @@ The mechanism is straightforward: when an agent handles debugging autonomously �
 
 For Codex CLI, the mitigation is architectural:
 
-```toml
+```markdown
 # AGENTS.md — debugging comprehension rules
 
 ## Debugging Protocol
