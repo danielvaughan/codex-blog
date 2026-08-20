@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Backdoor Decontamination Dynamics — Open-Weight Model Trust, Defensive Poisoning, PreToolUse (2026-08-20 Hourly Article Run)
+
+1. ✅ **Backdoor Decontamination Dynamics: What 115 Experiments Reveal About Trusting Open-Weight Models in Your Codex CLI Pipeline** — Written 2026-08-20 → `2026-08-20-backdoor-decontamination-dynamics-llm-agents-codex-cli-open-weight-model-trust-defensive-poisoning-pretooluse.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Huang et al. arXiv:2608.11295 (August 2026) "Backdoor Decontamination Dynamics in LLM Agents"; 115 experiments on AgentDyn; defensive poisoning erases ~56% of original backdoors; decontaminating one known backdoor clears 87% co-resident unknowns (52/60); J-lens visualisation shows trigger recognition persists at intermediate layers despite benign execution restoration; complemented by Pallakonda et al. arXiv:2603.03371 "Sleeper Cell" (99.6% attack success rate on temporal triggers); mapped to Codex CLI v0.148.0 config.toml model providers, Ollama/LM Studio open-weight support, PreToolUse hooks, sandbox locked-down mode, AGENTS.md constraints, Guardian auto-review; identified gaps: no model-weight attestation, no per-session model-identity metadata in rollout JSONL, PreToolUse cannot inspect model internals, no decontamination tooling integration, Guardian reviews actions not model provenance; practical defence-in-depth playbook with hash verification, behavioural anomaly detection, provenance logging; 6 citations
+   - SEO targets: "backdoor decontamination LLM agents codex cli", "open-weight model trust codex cli security", "defensive poisoning coding agent backdoor removal", "codex cli PreToolUse hook backdoor detection", "sleeper cell temporal backdoor tool-calling LLM", "codex cli open-weight model supply chain security"
+
+---
+
 ## Humans Missing from Coding Agent Research — Human-Centred Interaction, Steerability, Verifiability, Adaptability (2026-08-20 Hourly Article Run)
 
 1. ✅ **Humans Are Missing from Coding Agent Research: What Four Interaction Dimensions Mean for Your Codex CLI Workflow** — Written 2026-08-20 → `2026-08-20-humans-missing-from-coding-agent-research-human-centred-interaction-codex-cli-steerability-verifiability-adaptability.md`
