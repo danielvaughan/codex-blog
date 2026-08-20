@@ -1,5 +1,13 @@
 # Article Backlog
 
+## (Im)Paired Programming — Productivity-Understanding Gap, Comprehension Verification, Cognitive Offloading (2026-08-20 Hourly Article Run)
+
+1. ✅ **(Im)Paired Programming: The Productivity-Understanding Gap and What It Means for Your Codex CLI Workflow** — Written 2026-08-20 → `2026-08-20-impaired-programming-coding-agents-productivity-understanding-gap-codex-cli-comprehension-verification-cognitive-offloading.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Balepur et al. arXiv:2607.26375 (July 2026) "(Im)Paired Programming: Coding Agents Improve Productivity but Harm Understanding"; 54-student study, 35pp task correctness improvement but lower comprehension scores; Anthropic coding skills study (52 junior engineers) AI group 50% vs hand-coding 67% (Cohen's d=0.738, p=0.01); CHI 2026 "Code with Me or for Me?" (arXiv:2507.08149) 35% correctness gain at 50% user effort, 55% preferred copilots for understanding; low-effort interaction patterns (AI delegation, progressive reliance) linked to worst comprehension; high-scoring patterns (generation-then-comprehension, conceptual inquiry) retain knowledge; mapped to Codex CLI AGENTS.md comprehension-first directives, PostToolUse exit code 2 explanation hooks, approval mode selection by domain familiarity, /export session transcripts as learning artefacts, named profiles for seniority-differentiated configuration; gaps: no built-in comprehension metrics, compaction destroys explanations, no difficulty-adaptive approval mode, Guardian reviews actions not claims; 6 citations
+   - SEO targets: "coding agents productivity understanding gap codex cli", "impaired programming comprehension verification hooks", "codex cli AGENTS.md explanation directives cognitive offloading", "coding agent deskilling comprehension verification", "codex cli approval mode comprehension tradeoff", "developer understanding AI coding agents research 2026"
+
+---
+
 ## TDD-Agent — Dual-Track Co-Refinement, Tests as Reasoning Artefacts, PostToolUse Verification (2026-08-20 Hourly Article Run)
 
 1. ✅ **TDD-Agent and Dual-Track Co-Refinement: Why Tests as Evolving Reasoning Artefacts Change Your Codex CLI Workflow** — Written 2026-08-20 → `2026-08-20-tdd-agent-test-driven-reasoning-code-generation-codex-cli-dual-track-co-refinement-posttooluse-hooks.md`
