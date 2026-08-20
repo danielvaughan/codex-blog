@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Formal-Method-Guided Vibe Coding — Forge Verification Loop, Dafny, Isabelle, PostToolUse Safety Gates (2026-08-20 Hourly Article Run)
+
+1. ✅ **Formal-Method-Guided Vibe Coding: What the Forge Verification Loop Means for Safety-Critical Work in Codex CLI** — Written 2026-08-20 → `2026-08-20-formal-method-guided-vibe-coding-forge-verification-loop-codex-cli-posttooluse-safety-critical-dafny-isabelle.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wei et al. arXiv:2606.22413v2 (June 2026) "Formal-Method-Guided Vibe Coding: Closing the Verification Loop on AI-Generated Safety-Critical Software Through Model-Driven Engineering"; Forge 7-phase pipeline with Dafny deductive verification, FDR4 CSP refinement, Isabelle Z-Machine theorem proving; 0/30 cold baseline convergence vs 15/15 with verification feedback; median 2 iterations; three case studies (SRanger 23 requirements, LRE 51 requirements, Chemical Detector 81 requirements); complemented by Vericoding benchmark (12,504 tasks, 82.2% Dafny success) and VeriContest (946 problems); mapped to Codex CLI v0.148.0 PostToolUse hooks exit code 2 as verification gates, AGENTS.md coding constraints, named profiles for safety-critical isolation, async hooks for long-running Isabelle proofs; identified gaps: no MDE transformation toolchain, no structured correction prompt format, no iteration budget control, no traceability chain, no vacuity audit, PostToolUse cannot undo writes; 6 citations
+   - SEO targets: "formal verification codex cli vibe coding", "forge pipeline dafny isabelle coding agent", "codex cli PostToolUse formal verification gate", "safety-critical software AI code generation", "codex cli AGENTS.md formal verification constraints", "formal-method-guided vibe coding verification loop"
+
+---
+
 ## Backdoor Decontamination Dynamics — Open-Weight Model Trust, Defensive Poisoning, PreToolUse (2026-08-20 Hourly Article Run)
 
 1. ✅ **Backdoor Decontamination Dynamics: What 115 Experiments Reveal About Trusting Open-Weight Models in Your Codex CLI Pipeline** — Written 2026-08-20 → `2026-08-20-backdoor-decontamination-dynamics-llm-agents-codex-cli-open-weight-model-trust-defensive-poisoning-pretooluse.md`
