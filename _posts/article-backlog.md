@@ -1,5 +1,12 @@
 # Article Backlog
 
+## AgentRewind — Recoverable Execution, Aligned Checkpoints, Session Fork, MettleBench (2026-08-21 Hourly Article Run)
+
+1. ✅ **AgentRewind and Recoverable Execution: Why Your Long-Horizon Coding Agent Needs Aligned Checkpoints — and How Codex CLI's Session Fork Gets You Halfway There** — Written 2026-08-21 → `2026-08-21-agentrewind-recoverable-execution-long-horizon-coding-agents-codex-cli-session-fork-checkpoint-rollback-mettlebench.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zhuang et al. arXiv:2608.14380 (August 2026) "AgentRewind: Recoverable Execution for Long-Horizon LLM Agents"; dual-state alignment problem (context + environment); aligned checkpoint-and-rollback framework; recovery summary injection for informed retries; MettleBench benchmark for partial-progress evaluation on long-horizon engineering tasks; mapped to Codex CLI v0.148.0 session checkpoints, codex exec fork, PostToolUse exit code 2 error detection, sandbox locked-down mode, AGENTS.md commit discipline; complemented by DeltaBox arXiv:2605.22781 (OS-level millisecond checkpoint/rollback); identified gaps: no environment-state snapshots in session checkpoints, no automated recovery loop, no recovery summary injection on resume, no partial-progress metrics in rollout JSONL; 5 citations
+
+---
+
 ## Security Debt of Autonomous Coding Agents — Credential Leakage, Supply Chain Integrity, PostToolUse Defence (2026-08-20 Hourly Article Run)
 
 1. ✅ **Trust but Verify: What 4,022 Agent-Generated Pull Requests Reveal About Security Debt — and How to Defend Your Codex CLI Pipeline** — Written 2026-08-20 → `2026-08-20-trust-but-verify-security-debt-autonomous-coding-agents-codex-cli-credential-leakage-supply-chain-posttooluse-defence.md`
