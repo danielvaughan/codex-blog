@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Security Debt of Autonomous Coding Agents — Credential Leakage, Supply Chain Integrity, PostToolUse Defence (2026-08-20 Hourly Article Run)
+
+1. ✅ **Trust but Verify: What 4,022 Agent-Generated Pull Requests Reveal About Security Debt — and How to Defend Your Codex CLI Pipeline** — Written 2026-08-20 → `2026-08-20-trust-but-verify-security-debt-autonomous-coding-agents-codex-cli-credential-leakage-supply-chain-posttooluse-defence.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Sakib, Banik & Jadliwala arXiv:2607.12428 (July 2026, KDD 2026 AgenticSE Workshop) "Trust but Verify? Uncovering the Security Debt of Autonomous Coding Agents"; AIDev dataset 4,022 PRs, 16,112 file changes, 5 coding agents; 38.9% of agent PRs contain ≥1 security smell; supply chain integrity 82.3% of all smells (7,160 instances); 81.1% genuine leaked secrets bypass review; humans commit 67.6% of genuine leaked secrets (review fatigue); Copilot 45.5% flagging vs Codex 34.9%; JavaScript 55.3% vs Python 31.8%; CI workflows/Dockerfiles 36% dirty rate; LLM-as-judge 0.908 precision, 0.836 F1; mapped to Codex CLI v0.148.0 sandbox deny_read/deny_write, codex-secrets::redact_secrets, PostToolUse hooks with gitleaks/exit code 2, PreToolUse scope guards for IaC files, AGENTS.md security constraints, --approve-for-me scoping; identified gaps: no file-path-aware approval routing, no security-smell vocabulary in rollout events, no review-fatigue detection, no cross-PR smell aggregation, Guardian reviews actions not provenance; 6 citations
+
+---
+
 ## SkillForge — Self-Distilling Project-Specific Knowledge, Entity-Grounded Skills, AGENTS.md, Memories (2026-08-20 Hourly Article Run)
 
 1. ✅ **SkillForge and Self-Distilling Project Knowledge: Why Your Codex CLI Agent Needs Repository Familiarity Before It Starts Working** — Written 2026-08-20 → `2026-08-20-skillforge-self-distilling-project-specific-knowledge-codex-cli-agents-md-memories-skills-entity-grounded-issue-resolution.md`
