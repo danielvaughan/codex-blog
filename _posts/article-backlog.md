@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Humans Missing from Coding Agent Research — Human-Centred Interaction, Steerability, Verifiability, Adaptability (2026-08-20 Hourly Article Run)
+
+1. ✅ **Humans Are Missing from Coding Agent Research: What Four Interaction Dimensions Mean for Your Codex CLI Workflow** — Written 2026-08-20 → `2026-08-20-humans-missing-from-coding-agent-research-human-centred-interaction-codex-cli-steerability-verifiability-adaptability.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wang et al. arXiv:2608.12355 (July 2026) "Position: Humans are Missing from AI Coding Agent Research"; four interaction dimensions (task alignment, steerability, verifiability, adaptability); 84% adoption vs 3% high trust (SO 2026); 91.49% misalignment episodes require explicit user correction (20,574-session study); patch bloat >50% functional discrepancies on SWE-bench; mapped to Codex CLI v0.148.0 AGENTS.md, approval modes, PreToolUse/PostToolUse hooks, session fork, /export, Guardian, Memories, named profiles; gaps: no user modelling, no proactive decision exposure, no claim-level verification, no correction-pattern learning; practical human-centred config.toml profile with scope-creep detection hook; 5 citations
+   - SEO targets: "humans missing coding agent research codex cli", "coding agent interaction dimensions steerability verifiability", "codex cli human-centred workflow approval modes", "developer trust AI coding tools 84% adoption 3% trust", "codex cli AGENTS.md task alignment specification", "coding agent verification gap claim-level guardian"
+
+---
+
 ## One Gate Is Not Enough — Composing Stateful Pre-Action Controls, Remediation Coupling, Regate Protocol (2026-08-20 Hourly Article Run)
 
 1. ✅ **One Gate Is Not Enough: Why Composing Pre-Action Controls Matters for Your Codex CLI Hook Pipeline** — Written 2026-08-20 → `2026-08-20-one-gate-is-not-enough-composing-stateful-pre-action-controls-codex-cli-hooks-guardian-remediation-coupling.md`
