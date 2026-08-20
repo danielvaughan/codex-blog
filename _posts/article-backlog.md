@@ -1,5 +1,13 @@
 # Article Backlog
 
+## SpecFirst and Behavioural Specification Elicitation — Dedicated Discovery Phase, AGENTS.md, Spec-Driven Development, ProgramBench (2026-08-20 Hourly Article Run)
+
+1. ✅ **SpecFirst and Behavioural Specification Elicitation: Why a Dedicated Discovery Phase Before Code Changes Your Codex CLI Outcomes** — Written 2026-08-20 → `2026-08-20-specfirst-behavioral-specification-elicitation-codex-cli-agents-md-spec-driven-development-programbench.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. arXiv:2607.27167 (July 2026) "SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch"; two-phase pipeline separating spec agent from synthesis agent; four probing patterns (boundary, error-path, combinatorial flag, output-format); six-section SPEC.md format outperforms freeform and OpenSpec; 200 ProgramBench instances; GPT-5.5-high 59.02%→65.14% (+10.4%), Qwen3.5-397B 33.66%→40.84% (+21.3%); hard tasks +29.9% relative; ≥95% pass rate 1.5%→6.5% (4× improvement); 9.4–18.5% probing coverage improvement; 48–130% cost overhead but GPT-5.4-mini synthesis cost -17%; F4 execution fault dominant failure (52%); complemented by Abenhaim arXiv:2608.12440 specification-first 189-file refactoring 717K-line codebase $2,430 zero bugs; mapped to Codex CLI v0.148.0 AGENTS.md as specification contract, named profiles for phase separation, PostToolUse hooks as specification gates, /export and session fork for context handoff, Memories for specification pinning; identified gaps: no built-in spec command, no structured specification schema, no cross-phase context guarantee, no probing coverage metrics, compaction erases specifications; 6 citations
+   - SEO targets: "SpecFirst specification elicitation codex cli", "spec-driven development coding agent AGENTS.md", "behavioural specification before code synthesis", "codex cli specification phase separation profiles", "ProgramBench specification elicitation improvement", "codex cli PostToolUse specification gate hook"
+
+---
+
 ## RADAR at Meta — Risk-Calibrated Auto-Review, Guardian Pipeline, Approval Modes, Review Bottleneck (2026-08-20 Hourly Article Run)
 
 1. ✅ **RADAR at Meta: What Risk-Calibrated Auto-Review Means for Your Codex CLI Guardian Pipeline** — Written 2026-08-20 → `2026-08-20-meta-radar-risk-aware-diff-auto-review-codex-cli-guardian-approval-modes-review-bottleneck.md`
