@@ -1,5 +1,13 @@
 # Article Backlog
 
+## PRAXIS — Graph-Grounded Tacit Knowledge, Domain Code Generation, AGENTS.md, Memories, Dependency Graph (2026-08-21 Hourly Article Run)
+
+1. ✅ **PRAXIS and Graph-Grounded Tacit Knowledge: Why Your Domain Codebase Defeats General-Purpose Agents — and How to Close the Gap in Codex CLI** — Written 2026-08-21 → `2026-08-21-praxis-graph-grounded-tacit-knowledge-domain-code-generation-codex-cli-agents-md-memories-dependency-graph.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Jiang et al. arXiv:2608.19784 (August 2026) "PRAXIS: Graph-Grounded Tacit Knowledge for Domain Code Generation"; three-stage pipeline (simulated development practice, structured knowledge acquisition, dependency-graph-grounded organisation, proactive injection); KoCo-Bench Pass@1 32.06% vs 19.08% OpenHands baseline (+68% relative); AInsteinBench Hard +7.5pp; four tacit knowledge categories (business rules 34.7%, API patterns 24.0%, interface contracts 22.7%, error-handling conventions 14.7%); four-field knowledge units (trigger, content, evidence, confidence); 4-hop bidirectional dependency-graph propagation; confidence threshold θ=0.7; ablation: practice removal −4.58pp, graph organisation −3.81pp, proactive injection −3.82pp; human eval 4.28/5 truthfulness; 82% knowledge utilisation; mapped to Codex CLI v0.148.0 AGENTS.md as static tacit knowledge approximation, Memories as flat unstructured layer, MCP dependency-graph server opportunity; compared with SkillForge (arXiv:2608.18933) complementary diagnostic/intervention skills; identified gaps: no structured knowledge units, no dependency-graph indexing, no practice mode, no confidence decay, no interaction-triggered injection; 5 citations
+   - SEO targets: "PRAXIS tacit knowledge domain code generation codex cli", "codex cli AGENTS.md tacit knowledge domain codebase", "graph-grounded knowledge injection coding agent", "codex cli memories dependency graph structured knowledge", "domain-specific coding agent business rules interface contracts", "tacit knowledge extraction practice-based coding agent"
+
+---
+
 ## HANDBOOK.md Benchmark — Long-Context Agentic Instruction Following, Policy Compliance, AGENTS.md Governance (2026-08-21 Hourly Article Run)
 
 1. ✅ **HANDBOOK.md and the Instruction-Following Gap: What 824 Rubric Criteria Reveal About Whether Agents Actually Obey Your Policy Documents — and What It Means for AGENTS.md** — Written 2026-08-21 → `2026-08-21-handbook-md-benchmark-long-context-agentic-instruction-following-codex-cli-agents-md-policy-compliance.md`
