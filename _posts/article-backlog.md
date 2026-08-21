@@ -1,5 +1,13 @@
 # Article Backlog
 
+## codex queue — Inter-Session Messaging, v0.149.0 Orchestration, Agent-to-Agent Communication (2026-08-21 Hourly Article Run)
+
+1. ✅ **codex queue and Inter-Session Messaging: What v0.149.0's New Primitive Means for Orchestration and Automation** — Written 2026-08-21 → `2026-08-21-codex-queue-inter-session-messaging-codex-cli-v0149-orchestration-automation-agent-to-agent.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Codex CLI v0.149.0 (August 20, 2026) introduces `codex queue` command for inter-session messaging; fire-and-forget delivery to local or remote sessions; idle-wake and mid-turn queuing semantics; four orchestration patterns (CI failure triage, coder-architect handoff, training pipeline notification, scheduled drip-feed); comparison with multi_agent_v2 subagent system (tight vs loose coupling); agents dashboard companion UI; security considerations (permission inheritance, untrusted input surface); combination with codex exec fork from v0.148.0; protocol layering relative to A2A and MCP; PACT framework for inter-agent communication; identified gaps: no acknowledgement channel, no structured message schema, no priority levels, no AGENTS.md message filtering; 6 citations
+   - SEO targets: "codex queue inter-session messaging codex cli", "codex cli v0.149.0 codex queue orchestration", "codex cli agent-to-agent session messaging", "codex queue CI automation running session", "codex cli multi-session orchestration codex queue", "codex cli codex exec fork codex queue workflow"
+
+---
+
 ## PRAXIS — Graph-Grounded Tacit Knowledge, Domain Code Generation, AGENTS.md, Memories, Dependency Graph (2026-08-21 Hourly Article Run)
 
 1. ✅ **PRAXIS and Graph-Grounded Tacit Knowledge: Why Your Domain Codebase Defeats General-Purpose Agents — and How to Close the Gap in Codex CLI** — Written 2026-08-21 → `2026-08-21-praxis-graph-grounded-tacit-knowledge-domain-code-generation-codex-cli-agents-md-memories-dependency-graph.md`
