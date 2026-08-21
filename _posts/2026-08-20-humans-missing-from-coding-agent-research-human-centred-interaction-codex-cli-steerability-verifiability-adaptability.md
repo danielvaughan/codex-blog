@@ -1,7 +1,7 @@
 ---
 title: "Humans Are Missing from Coding Agent Research: What Four Interaction Dimensions Mean for Your Codex CLI Workflow"
 parent: "Articles"
-nav_order: 1851
+nav_order: 1854
 tags: ["codex-cli", "human-centred-ai", "coding-agents", "steerability", "verifiability", "adaptability", "task-alignment", "interaction-design", "developer-trust"]
 ---
 

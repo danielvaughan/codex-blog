@@ -1,7 +1,7 @@
 ---
 title: "Formal-Method-Guided Vibe Coding: What the Forge Verification Loop Means for Safety-Critical Work in Codex CLI"
 parent: "Articles"
-nav_order: 1853
+nav_order: 1856
 tags: ["codex-cli", "formal-verification", "safety-critical", "vibe-coding", "forge", "dafny", "isabelle", "fdr4", "posttooluse-hooks", "agents-md", "named-profiles", "verification-loop"]
 ---
 

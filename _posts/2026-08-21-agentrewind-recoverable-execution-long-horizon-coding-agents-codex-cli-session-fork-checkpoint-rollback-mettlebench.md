@@ -1,7 +1,7 @@
 ---
 title: "AgentRewind and Recoverable Execution: Why Your Long-Horizon Coding Agent Needs Aligned Checkpoints — and How Codex CLI's Session Fork Gets You Halfway There"
 parent: "Articles"
-nav_order: 1857
+nav_order: 1860
 tags: ["codex-cli", "AgentRewind", "checkpoint", "rollback", "recoverable-execution", "long-horizon", "session-fork", "MettleBench", "error-propagation", "aligned-state"]
 ---
 

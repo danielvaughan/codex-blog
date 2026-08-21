@@ -1,7 +1,7 @@
 ---
 title: "RADAR at Meta: What Risk-Calibrated Auto-Review Means for Your Codex CLI Guardian Pipeline"
 parent: "Articles"
-nav_order: 1849
+nav_order: 1851
 tags: ["codex-cli", "guardian", "auto-review", "RADAR", "risk-calibration", "code-review", "approval-modes", "hooks", "review-bottleneck", "Meta"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Adversarial Review: Why Structured Disagreement Beats Consensus in Your Codex CLI Code Review Pipeline"
 parent: "Articles"
-nav_order: 1854
+nav_order: 1857
 tags: ["codex-cli", "code-review", "multi-agent", "guardian", "adversarial-review", "false-consensus", "structured-disagreement"]
 ---
 

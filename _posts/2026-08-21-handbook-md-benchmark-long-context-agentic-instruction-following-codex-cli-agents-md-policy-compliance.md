@@ -1,7 +1,7 @@
 ---
 title: "HANDBOOK.md and the Instruction-Following Gap: What 824 Rubric Criteria Reveal About Whether Agents Actually Obey Your Policy Documents — and What It Means for AGENTS.md"
 parent: "Articles"
-nav_order: 1858
+nav_order: 1862
 tags: ["codex-cli", "AGENTS.md", "instruction-following", "benchmark", "HANDBOOK.md", "long-context", "policy-compliance", "MCP", "agent-governance"]
 ---
 
