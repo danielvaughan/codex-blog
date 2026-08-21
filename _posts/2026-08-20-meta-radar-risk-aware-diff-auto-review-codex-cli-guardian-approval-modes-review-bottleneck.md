@@ -10,7 +10,7 @@ tags: ["codex-cli", "guardian", "auto-review", "RADAR", "risk-calibration", "cod
 
 ---
 
-AI-assisted coding at Meta increased lines of code per developer by 105.9% year-over-year, with agentic AI responsible for over 80% of that growth[^1]. The share of diffs receiving timely review declined in lockstep. Meta's answer — RADAR (Risk Aware Diff Auto Review) — reviewed 535,000+ diffs and landed 331,000+ with a production incident rate one-fiftieth that of human-reviewed code[^1]. If you run Codex CLI with Guardian auto-review as your sole quality gate, RADAR's architecture exposes both what that gate does well and where it falls short.
+AI-assisted coding at Meta increased lines of code per human-landed diff by 105.9% year-over-year, with agentic AI responsible for over 80% of that growth[^1]. The share of diffs receiving timely review declined in lockstep. Meta's answer — RADAR (Risk Aware Diff Auto Review) — reviewed 535,000+ diffs and landed 331,000+ with a production incident rate one-fiftieth that of human-reviewed code[^1]. If you run Codex CLI with Guardian auto-review as your sole quality gate, RADAR's architecture exposes both what that gate does well and where it falls short.
 
 ## The Review Bottleneck Is Real
 

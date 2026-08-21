@@ -14,7 +14,7 @@ Autonomous coding agents ship code fast. The uncomfortable question is whether t
 
 ## The Study: 16,112 File Changes Under the Microscope
 
-Sakib, Banik, and Jadliwala examined the AIDev dataset — 4,022 pull requests spanning 16,112 file changes produced by five autonomous coding agents, including OpenAI Codex and GitHub Copilot.[^1] They classified security smells into six categories using a validated LLM-as-judge framework (two open-source quantised models: Qwen3.6-35B and Gemma-4-26B) corroborated by independent double-blind manual coding with third-author adjudication. Their judge achieved 0.908 precision and 0.836 F1 against the human gold standard (Cohen's kappa 0.789).[^1]
+Sakib, Banik, and Jadliwala examined the AIDev dataset — 4,022 pull requests spanning 16,112 file changes produced by five autonomous coding agents, including OpenAI Codex and GitHub Copilot.[^1] They classified security smells into six categories using a validated LLM-as-judge framework (two open-source quantised models: Qwen3.6-35B-A3B and Gemma-4-26B-A4B) corroborated by independent double-blind manual coding with third-author adjudication. Their judge achieved 0.908 precision and 0.836 F1 against the human gold standard (Cohen's kappa 0.789).[^1]
 
 The headline: **38.9% of agent-generated pull requests contained at least one security smell**.
 
@@ -208,4 +208,4 @@ The velocity that autonomous coding agents deliver is real. The security debt th
 
 [^5]: Governance Decay research. arXiv:2606.22528. "Governance Decay: How Context Compaction Silently Erases Safety Constraints in Long-Horizon LLM Agents." [https://arxiv.org/abs/2606.22528](https://arxiv.org/abs/2606.22528)
 
-[^6]: Adams, S., Banga, T. et al. (2026). "Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review Efficiency." arXiv:2605.30208. [https://arxiv.org/abs/2605.30208](https://arxiv.org/abs/2605.30208)
+[^6]: Adams, C., Banga, A.S. et al. (2026). "Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review Efficiency." arXiv:2605.30208. [https://arxiv.org/abs/2605.30208](https://arxiv.org/abs/2605.30208)
