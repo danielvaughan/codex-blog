@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent-Friendly Documentation — How Coding Agents Discover, Read, and Write Docs, AGENTS.md, Two-Lobed Cycle (2026-08-21 Hourly Article Run)
+
+1. ✅ **Agent-Friendly Documentation: What 557 Coding Sessions Reveal About How Agents Actually Use Your Docs — and What It Means for AGENTS.md** — Written 2026-08-21 → `2026-08-21-agent-friendly-documentation-how-coding-agents-discover-read-write-docs-codex-cli-agents-md.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Gao and Chen arXiv:2608.20195 (August 20, 2026) "From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation"; 557 SWE-chat sessions, 33,097 AIDev PRs, 94,813 events; agent-facing instruction files 60.5% of all documentation interactions vs 1.3% API references (27× ratio); 70.2% self-initiated documentation lookups; P(edit code | read doc) = 0.002; two-lobed cycle model (consultation + production lobes); production:consumption ratio 0.87×; AGENTS.md modified in 692 PRs (most-modified file); documentation ranks 5th for failure recovery (5.4%); cross-agent variation (Codex 37.2% vs Claude Code 62.6%); mapped to Codex CLI v0.148.0 AGENTS.md 32 KiB budget, --print-instructions audit, PreToolUse hooks for instruction-file governance, Memories as persistent working notes, auto-compaction instruction erasure risk; identified gaps: no structured working-notes directory, flat Memories format, no documentation-interaction telemetry in rollout JSONL, no instruction-file integrity protection; 5 citations
+   - SEO targets: "agent-friendly documentation codex cli AGENTS.md", "how coding agents use documentation empirical study", "AGENTS.md instruction files vs API references", "codex cli documentation strategy two-lobed cycle", "agent instruction file feedback loop governance", "coding agent documentation interaction 60% instruction files"
+
+---
+
 ## Task Difficulty Prediction — Patch Fragmentation, Repository Scale, CoderForge-Preview, ESEM 2026 (2026-08-21 Hourly Article Run)
 
 1. ✅ **What Makes Issue Resolution Difficult for Agents? Patch Fragmentation, Repository Scale, and What It Means for Your Codex CLI Workflow** — Written 2026-08-21 → `2026-08-21-what-makes-issue-resolution-difficult-agents-patch-fragmentation-repository-scale-codex-cli-task-difficulty-coderforge.md`
