@@ -198,7 +198,7 @@ HANDBOOK.md tests enterprise policy compliance — HR handbooks, billing procedu
 
 But the failure patterns are domain-independent. An agent that promotes a self-approver to bypass a financial threshold is exhibiting the same reasoning failure as an agent that ignores an AGENTS.md constraint against modifying `package-lock.json`. The mechanism — proximate context displacing standing authority — is identical.
 
-The 36.2% ceiling on strict compliance should calibrate expectations for anyone relying on instruction files as their primary governance mechanism. AGENTS.md is necessary but not sufficient. The structural enforcement layer — sandbox policies, hooks, approval modes — is where the actual safety margin lives.
+The 36.2% ceiling on strict compliance should calibrate expectations for anyone relying on instruction files as their primary governance mechanism [^5]. AGENTS.md is necessary but not sufficient. The structural enforcement layer — sandbox policies, hooks, approval modes — is where the actual safety margin lives.
 
 ## Citations
 

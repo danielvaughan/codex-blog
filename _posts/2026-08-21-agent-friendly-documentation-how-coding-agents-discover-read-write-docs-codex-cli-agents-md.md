@@ -211,7 +211,7 @@ The data supports five concrete actions for Codex CLI users:
 
 5. **Audit with --print-instructions.** Verify that what the agent actually loads matches your intended behavioural directives, not accumulated prose.
 
-Documentation now has two audiences with measurably different behaviours [^1]. The newer audience writes almost as much as it reads, ignores your API references, and loops through instruction files rather than following a linear journey. Your AGENTS.md should be written for *that* audience.
+Documentation now has two audiences with measurably different behaviours [^1]. The newer audience writes almost as much as it reads, ignores your API references, and loops through instruction files rather than following a linear journey. Your AGENTS.md — which is evolving towards a cross-tool standard [^5] — should be written for *that* audience.
 
 ## Citations
 

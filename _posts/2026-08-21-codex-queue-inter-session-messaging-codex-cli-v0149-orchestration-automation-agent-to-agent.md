@@ -1,7 +1,7 @@
 ---
 title: "codex queue and Inter-Session Messaging: What v0.149.0's New Primitive Means for Orchestration and Automation"
 parent: "Articles"
-nav_order: 1863
+nav_order: 1865
 tags: ["codex-cli", "codex-queue", "inter-session-messaging", "orchestration", "automation", "agent-to-agent", "v0.149.0", "multi-agent", "CI/CD"]
 ---
 
