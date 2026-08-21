@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Task Difficulty Prediction — Patch Fragmentation, Repository Scale, CoderForge-Preview, ESEM 2026 (2026-08-21 Hourly Article Run)
+
+1. ✅ **What Makes Issue Resolution Difficult for Agents? Patch Fragmentation, Repository Scale, and What It Means for Your Codex CLI Workflow** — Written 2026-08-21 → `2026-08-21-what-makes-issue-resolution-difficult-agents-patch-fragmentation-repository-scale-codex-cli-task-difficulty-coderforge.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Al-Haque and Johnson arXiv:2608.18280 (August 2026, ESEM 2026) "What Makes Software Issue Resolution Tasks Difficult for Agents?"; 258K trajectories from CoderForge-Preview; AUC 0.863 difficulty prediction from static features; patch fragmentation (lines deleted, num hunks, hunk gap) and repository scale (top-level dir count) dominate; prompt features negligible except mid-band tasks where referential/coordination/attachment ambiguity matter; layered difficulty structure; mapped to Codex CLI v0.148.0 task decomposition, AGENTS.md repository navigation constraints, model_reasoning_effort calibration, PreToolUse difficulty hooks; complemented by Jagged Frontier arXiv:2608.18389 (scaffold-model difficulty profiles differ); 5 citations
+
+---
+
 ## AgentRewind — Recoverable Execution, Aligned Checkpoints, Session Fork, MettleBench (2026-08-21 Hourly Article Run)
 
 1. ✅ **AgentRewind and Recoverable Execution: Why Your Long-Horizon Coding Agent Needs Aligned Checkpoints — and How Codex CLI's Session Fork Gets You Halfway There** — Written 2026-08-21 → `2026-08-21-agentrewind-recoverable-execution-long-horizon-coding-agents-codex-cli-session-fork-checkpoint-rollback-mettlebench.md`
