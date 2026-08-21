@@ -1,5 +1,13 @@
 # Article Backlog
 
+## HANDBOOK.md Benchmark — Long-Context Agentic Instruction Following, Policy Compliance, AGENTS.md Governance (2026-08-21 Hourly Article Run)
+
+1. ✅ **HANDBOOK.md and the Instruction-Following Gap: What 824 Rubric Criteria Reveal About Whether Agents Actually Obey Your Policy Documents — and What It Means for AGENTS.md** — Written 2026-08-21 → `2026-08-21-handbook-md-benchmark-long-context-agentic-instruction-following-codex-cli-agents-md-policy-compliance.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Panavas et al. arXiv:2607.25398 (July 2026, WAB at COLM 2026) "HANDBOOK.md: A Benchmark for Long-Context Agentic Instruction Following"; 65 tasks across 5 enterprise domains; 824 deterministic rubric criteria; 30 model configurations across 11 providers; Claude Fable 5 best at 36.2% strict pass rate; most frontier models below 25%; four failure patterns (override by proximate request, check executed then ignored, verification skipped entirely, false compliance reports); MCP-based environment with 82 tools across 6 servers; handbook mutation strategy against memorisation; mapped to Codex CLI v0.148.0 AGENTS.md as standing policy document, PreToolUse hooks as structural enforcement, sandbox constraints surviving compaction, auto-compaction erasure risk, --print-instructions audit, model_reasoning_effort calibration; identified gaps: no runtime instruction-authority guarantee, no compaction exemption for AGENTS.md, no conflict resolution between instruction sources; 5 citations
+   - SEO targets: "HANDBOOK.md benchmark instruction following codex cli", "agents md policy compliance long context", "codex cli instruction drift compaction AGENTS.md", "coding agent false compliance standing instructions", "PreToolUse hooks structural policy enforcement codex cli"
+
+---
+
 ## Agent-Friendly Documentation — How Coding Agents Discover, Read, and Write Docs, AGENTS.md, Two-Lobed Cycle (2026-08-21 Hourly Article Run)
 
 1. ✅ **Agent-Friendly Documentation: What 557 Coding Sessions Reveal About How Agents Actually Use Your Docs — and What It Means for AGENTS.md** — Written 2026-08-21 → `2026-08-21-agent-friendly-documentation-how-coding-agents-discover-read-write-docs-codex-cli-agents-md.md`
