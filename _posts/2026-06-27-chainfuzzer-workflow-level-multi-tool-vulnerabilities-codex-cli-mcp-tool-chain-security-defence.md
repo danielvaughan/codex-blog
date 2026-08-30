@@ -5,7 +5,7 @@ timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-chainfuzzer-workflow-level-multi-tool-vulnerabilities-codex-cli-mcp-tool-chain-security-defence"
 tags: ["codex-cli", "security", "MCP", "tool-chain", "ChainFuzzer", "PreToolUse", "PostToolUse", "hooks", "multi-tool-vulnerabilities", "supply-chain"]
 date: 2026-06-27T09:00:00+00:00
-last_modified_at: 2026-08-30T22:08:42+01:00
+last_modified_at: 2026-08-31T00:10:57+01:00
 ---
 # ChainFuzzer and the Multi-Tool Kill Chain: Why Single-Tool Security Is Not Enough for Codex CLI's MCP Workflows
 

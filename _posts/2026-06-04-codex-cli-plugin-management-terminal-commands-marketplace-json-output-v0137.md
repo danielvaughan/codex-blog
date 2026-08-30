@@ -5,7 +5,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-plugin-management-terminal-commands-marketplace-json-output-v0137"
 tags: ["codex-cli", "plugins", "marketplace", "automation", "codex-plugin", "config.toml", "v0.137", "cli-subcommands", "json-output"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-08-30T22:08:42+01:00
+last_modified_at: 2026-08-31T00:10:57+01:00
 ---
 # Codex CLI Plugin Management from the Terminal: Marketplace Commands, JSON Output, and Automation Patterns for v0.137
 

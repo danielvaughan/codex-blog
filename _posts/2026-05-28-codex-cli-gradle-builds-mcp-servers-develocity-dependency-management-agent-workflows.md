@@ -6,7 +6,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-gradle-builds-mcp-servers-develocity-dependency-management-agent-workflows"
 tags: ["codex-cli", "gradle", "mcp", "develocity", "jvm", "build-tools", "dependency-management", "kotlin"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-08-30T22:08:42+01:00
+last_modified_at: 2026-08-31T00:10:57+01:00
 ---
 # Codex CLI for Gradle Builds: MCP Servers, Develocity Integration, and Agent-Driven Dependency Management
 

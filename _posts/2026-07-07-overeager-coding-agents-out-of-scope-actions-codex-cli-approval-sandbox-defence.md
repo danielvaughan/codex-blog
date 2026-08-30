@@ -1,7 +1,7 @@
 ---
 title: "Overeager Coding Agents: What 7,500 Benign Runs Reveal About Unauthorised Scope Expansion — and How Codex CLI's Approval and Sandbox Architecture Stops It"
 date: 2026-07-07T09:00:00+00:00
-last_modified_at: 2026-08-30T22:08:42+01:00
+last_modified_at: 2026-08-31T00:10:57+01:00
 tags: ["codex-cli", "security", "overeager-agents", "scope-creep", "approval-policy", "sandbox", "AGENTS.md", "OverEager-Bench", "SNARE"]
 ---
 

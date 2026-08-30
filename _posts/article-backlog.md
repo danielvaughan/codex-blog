@@ -1,6 +1,15 @@
 # Article Backlog
 
-## Agents Don't Paginate — First-Chunk Inclusion, Tool-Output Truncation, Codex CLI (2026-08-30 Hourly Article Run)
+
+## Codex CLI Permission Hardening — `--full-auto` Removed, `untrusted` Retired, Fail-Closed Sandboxes (2026-08-31 Hourly Article Run)
+
+1. ✅ **Codex CLI Permission Hardening: `--full-auto` Removed, `untrusted` Retired, Fail-Closed Sandboxes** — Written 2026-08-31 → `2026-08-31-codex-cli-sandbox-permission-hardening-full-auto-removed-untrusted-retired-fail-closed.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — three permission hardening changes across v0.149.0–0.152.0-alpha: (1) PR #36054 final removal of `--full-auto` from `codex exec` (was deprecated in v0.128.0 via PR #20133); (2) PR #39630 retirement of `untrusted` approval policy in v0.149.0 (20 August 2026), sessions with `approval_policy = "untrusted"` now fail immediately; (3) v0.150.0 fail-closed sandbox enforcement on Linux + Windows — previously UNRESOLVABLE path evaluations fell through to allowed; migration paths: `--full-auto` → `--sandbox workspace-write --ask-for-approval never`, `untrusted` → `on-request` + exec policy rules in `~/.codex/rules/default.rules`; 5 citations; 1,344 words
+   - SEO targets: "codex cli full-auto removed migration workspace-write 2026", "codex cli untrusted approval policy retired v0.149 on-request", "codex cli sandbox fail-closed linux windows v0.150", "codex exec PR 36054 full-auto removal", "codex cli approval policy migration CI CD 2026"
+
+---
+
+# Agents Don't Paginate — First-Chunk Inclusion, Tool-Output Truncation, Codex CLI (2026-08-30 Hourly Article Run)
 
 1. ✅ **Agents Don't Paginate: First-Chunk Inclusion Is What Drives Tool-Response Accuracy** — Written 2026-08-30 → `2026-08-30-agents-dont-paginate-first-chunk-selection-tool-responses-codex-cli.md`
    - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Petrova, Mazniak & State (arXiv:2608.26130, August 2026) "Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses"; production corpus from publicly released MCP middleware (Claude Code/Cursor/Codex CLI/Aider): zero agent-initiated second-chunk requests observed; formulates first-chunk selection as 0/1 knapsack; six value functions tested on 500 SWE-bench Verified tasks — FIFO baseline 24.2% p₁, Priority-KW +10.8pp (p=3.9×10⁻⁸), Priority-ALL underperforms Priority-KW by −4.8pp (p=0.001); central negative result: downstream accuracy deltas −2.8 to +2.2pp across 5 models, none significant; insight: first-chunk *inclusion* drives accuracy, rank within chunk does not; mapped to Codex CLI: tool_output_token_limit as primary inclusion dial, on_mcp_tool_result hook (v0.151.0) as keyword-filter gate before budget enforcement, line-based vs token-based truncation history (issues #6426, #6544, #20861); 5 citations; ~1,505 words

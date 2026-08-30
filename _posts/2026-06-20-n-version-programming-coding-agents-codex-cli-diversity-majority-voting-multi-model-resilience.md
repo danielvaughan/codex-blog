@@ -5,7 +5,7 @@ timestamp: 2026-06-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-n-version-programming-coding-agents-codex-cli-diversity-majority-voting-multi-model-resilience"
 tags: ["codex-cli", "n-version-programming", "software-diversity", "fault-tolerance", "multi-model", "majority-voting", "resilience", "codex-exec", "named-profiles"]
 date: 2026-06-20T09:00:00+00:00
-last_modified_at: 2026-08-30T22:08:42+01:00
+last_modified_at: 2026-08-31T00:10:57+01:00
 ---
 # N-Version Programming with Coding Agents: What the Knight–Leveson Replication Means for Codex CLI Multi-Model Resilience
 

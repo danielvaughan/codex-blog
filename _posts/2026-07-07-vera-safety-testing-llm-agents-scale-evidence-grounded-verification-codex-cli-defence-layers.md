@@ -6,7 +6,7 @@ timestamp: 2026-07-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-07-vera-safety-testing-llm-agents-scale-evidence-grounded-verification-codex-cli-defence-layers"
 tags: ["codex-cli", "security", "safety-testing", "Vera", "benchmark", "sandbox", "hooks", "approval-policy", "evidence-grounded-verification"]
 date: 2026-07-07T09:00:00+00:00
-last_modified_at: 2026-08-30T22:08:42+01:00
+last_modified_at: 2026-08-31T00:10:57+01:00
 ---
 
 # Safety Testing at Scale: What Vera's 1,600 Executable Cases Reveal About Agent Vulnerabilities — and How Codex CLI's Defence Layers Hold Up
