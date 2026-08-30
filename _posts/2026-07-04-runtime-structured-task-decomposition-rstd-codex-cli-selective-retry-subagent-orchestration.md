@@ -1,11 +1,11 @@
 ---
 title: "Runtime-Structured Task Decomposition: What RSTD Reveals About Escaping the Monolithic Prompt Trap — and How Codex CLI's Architecture Already Implements It"
-parent: "Articles"
-nav_order: 957
 type: Technical Article
 timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-runtime-structured-task-decomposition-rstd-codex-cli-selective-retry-subagent-orchestration"
 tags: ["codex-cli", "task-decomposition", "RSTD", "subagents", "selective-retry", "orchestration", "CI", "PostToolUse"]
+date: 2026-07-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Runtime-Structured Task Decomposition: What RSTD Reveals About Escaping the Monolithic Prompt Trap — and How Codex CLI's Architecture Already Implements It
 

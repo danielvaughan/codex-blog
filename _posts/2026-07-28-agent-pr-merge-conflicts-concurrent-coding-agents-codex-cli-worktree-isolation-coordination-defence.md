@@ -1,7 +1,7 @@
 ---
 title: "When Agents Collide: What 33,596 Pull Requests Reveal About Merge Conflicts in Multi-Agent Development"
-parent: "Articles"
-nav_order: 1302
+date: 2026-07-28T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "merge-conflicts", "multi-agent", "parallel-development", "worktree-isolation", "git", "coordination"]
 ---
 
@@ -189,7 +189,7 @@ sequenceDiagram
 The Xu et al. study hypothesises three downstream costs of uncoordinated agent concurrency that most teams are not measuring [^1]:
 
 1. **Wasted CI compute** — every conflicting PR that triggers a CI run before being discovered as unmergeable burns pipeline minutes. At cross-agent conflict rates of 41.7%, nearly half of cross-agent CI runs may be wasted.
-2. **Token budget depletion** — automated conflict resolution attempts (whether by the original agent or a dedicated resolver) consume tokens. Given GPT-5.6 Sol pricing at $5/$30 per million tokens [^5], a complex structural conflict requiring multiple resolution attempts could cost $1–5 in tokens alone.
+2. **Token budget depletion** — automated conflict resolution attempts (whether by the original agent or a dedicated resolver) consume tokens. Given GPT-5.6 Sol pricing at \$5/\$30 per million tokens [^5], a complex structural conflict requiring multiple resolution attempts could cost \$1–5 in tokens alone.
 3. **Maintainer fatigue** — the study found that most agentic PRs pass through a single human reviewer. When that reviewer must also manually resolve structural conflicts that agents cannot handle, the productivity gains from parallel agents erode rapidly.
 
 ## Practical Recommendations

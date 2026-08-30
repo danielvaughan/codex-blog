@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI and Sentry MCP: Closed-Loop Error Triage and Automated Fix Pipelines"
 description: "Production errors are a fact of engineering life, but the manual loop of receive alert → open Sentry → read stack trace → find code → hypothesise → fix →."
-parent: "Articles"
-nav_order: 171
 type: Technical Article
 timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-sentry-mcp-closed-loop-error-triage-fix-pipelines"
 tags: ["codex-cli", "sentry", "mcp", "error-triage", "debugging", "seer", "automation", "codex-exec", "hooks", "production-monitoring"]
+date: 2026-04-25T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI and Sentry MCP: Closed-Loop Error Triage and Automated Fix Pipelines](/sketchnotes/articles/2026-04-25-codex-cli-sentry-mcp-closed-loop-error-triage-fix-pipelines.png)
 

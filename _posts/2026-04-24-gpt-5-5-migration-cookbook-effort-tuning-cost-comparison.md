@@ -1,12 +1,12 @@
 ---
 title: "GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments"
 description: "GPT-5.5 — codenamed Spud — landed on 23 April 2026, less than two months after GPT-5.4. It is already the recommended model for most Codex tasks."
-parent: "Articles"
-nav_order: 152
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-gpt-5-5-migration-cookbook-effort-tuning-cost-comparison"
 tags: ["codex-cli", "gpt-5.5", "migration", "effort-tuning", "cost-optimisation", "model-selection", "reasoning", "configuration"]
+date: 2026-04-24T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments](/sketchnotes/articles/2026-04-24-gpt-5-5-migration-cookbook-effort-tuning-cost-comparison.png)
 

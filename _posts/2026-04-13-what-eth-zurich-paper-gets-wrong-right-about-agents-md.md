@@ -1,12 +1,12 @@
 ---
 title: "What the ETH Zurich Paper Gets Wrong (and Right) About AGENTS.md"
 description: "In February 2026, researchers at ETH Zurich published a paper that sent shockwaves through the AI-assisted development community: Evaluating AGENTS.md."
-parent: "Articles"
-nav_order: 1076
 type: Technical Article
 timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-what-eth-zurich-paper-gets-wrong-right-about-agents-md"
 tags: ["agents-md", "research", "eth-zurich", "best-practices", "enterprise", "context-files", "cost-optimisation"]
+date: 2026-04-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: What the ETH Zurich Paper Gets Wrong (and Right) About AGENTS.md](/sketchnotes/articles/2026-04-13-what-eth-zurich-paper-gets-wrong-right-about-agents-md.png)
 

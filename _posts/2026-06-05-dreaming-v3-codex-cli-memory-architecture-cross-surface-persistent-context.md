@@ -1,12 +1,12 @@
 ---
 title: "Dreaming V3 and the Codex CLI Memory Stack: What the New Cross-Surface Memory Architecture Means for Developer Workflows"
 description: "OpenAI's Dreaming V3 memory architecture, launched 4 June 2026, introduces automatic background memory synthesis across ChatGPT surfaces. This article examines how Dreaming V3 connects to Codex CLI's local memories, Chronicle screen capture, and the emerging three-layer memory stack for cross-surface developer workflows."
-parent: "Articles"
-nav_order: 649
 type: Technical Article
 timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-dreaming-v3-codex-cli-memory-architecture-cross-surface-persistent-context"
 tags: ["codex", "dreaming-v3", "memories", "chronicle", "cross-surface", "memory-architecture", "persistent-context", "developer-workflows"]
+date: 2026-06-05T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Dreaming V3 and the Codex CLI Memory Stack: What the New Cross-Surface Memory Architecture Means for Developer Workflows
 

@@ -1,7 +1,7 @@
 ---
 title: "The Voice-First Agent Orchestration Guide: Unifying GPT-Live, OpenAI Presence, and Realtime V3 in Codex CLI"
-parent: "Articles"
-nav_order: 1260
+date: 2026-07-25T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "voice", "GPT-Live", "OpenAI Presence", "Realtime V3", "agent-orchestration", "enterprise"]
 ---
 
@@ -207,7 +207,7 @@ Voice support in Codex CLI carries several constraints worth noting[^7][^10]:
 
 ## What Comes Next
 
-The convergence of GPT-Live, Realtime V3, and Presence points toward a future where voice is the primary orchestration interface for coding agents. The Codex Micro hardware control surface ($230, six illuminated keys) already ships with a dedicated voice-activation key[^13]. As Realtime V3 matures and Presence opens beyond its current FDE-led deployment model, expect voice-directed agent orchestration to move from novelty to default workflow.
+The convergence of GPT-Live, Realtime V3, and Presence points toward a future where voice is the primary orchestration interface for coding agents. The Codex Micro hardware control surface (\$230, six illuminated keys) already ships with a dedicated voice-activation key[^13]. As Realtime V3 matures and Presence opens beyond its current FDE-led deployment model, expect voice-directed agent orchestration to move from novelty to default workflow.
 
 For now, the practical path is clear: configure `[realtime]` for V3 conversational mode, add voice directives to `AGENTS.md`, wire up Spokenly for mid-task Q&A, and start talking to your agents.
 

@@ -1,11 +1,11 @@
 ---
 title: "Coding Agent Landscape, June 2026: How Codex CLI v0.137 Stacks Up Against Copilot Flex, Devin Desktop, Antigravity 2.0, and Kiro"
-parent: "Articles"
-nav_order: 642
 type: Technical Article
 timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-coding-agent-landscape-june-2026-codex-cli-copilot-flex-devin-desktop-antigravity-kiro"
 tags: ["codex-cli", "competitive-analysis", "copilot", "devin-desktop", "antigravity", "kiro", "cursor", "claude-code", "pricing", "june-2026"]
+date: 2026-06-05T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Coding Agent Landscape, June 2026: How Codex CLI v0.137 Stacks Up Against Copilot Flex, Devin Desktop, Antigravity 2.0, and Kiro
 
@@ -27,7 +27,7 @@ Terminal-native agent with a cloud sandbox execution model. v0.137.0 runs GPT-5.
 
 ### GitHub Copilot (Microsoft/GitHub)
 
-As of 1 June, every Copilot plan bills on GitHub AI Credits at $0.01 per credit[^1]. Pro ($10/month) includes a $15 effective allowance during the flex-allotment window (June–September); Pro+ ($39/month) gets $70; the new Max tier ($100/month) provides 20,000 credits[^8]. Copilot's advantage remains GitHub-native integration — issues, PRs, Actions, code owners — plus multi-model selection across GPT-5.5, Claude Opus 4.8, and Gemini models[^1].
+As of 1 June, every Copilot plan bills on GitHub AI Credits at \$0.01 per credit[^1]. Pro (\$10/month) includes a \$15 effective allowance during the flex-allotment window (June–September); Pro+ (\$39/month) gets \$70; the new Max tier (\$100/month) provides 20,000 credits[^8]. Copilot's advantage remains GitHub-native integration — issues, PRs, Actions, code owners — plus multi-model selection across GPT-5.5, Claude Opus 4.8, and Gemini models[^1].
 
 ### Devin Desktop (Cognition)
 
@@ -39,15 +39,15 @@ Shipped at I/O 2026 on 19 May as a five-component suite: desktop app, CLI (writt
 
 ### Kiro (AWS)
 
-The spec-driven IDE from AWS introduced parallel Spec task execution in May, claiming a 4x throughput improvement[^6]. Kiro's differentiator is structural: before writing code, it generates a requirements document, a design document, and a task list, then works through them methodically[^10]. Pricing is credit-based: Free (50 credits), Pro ($20/month, 1,000 credits), Pro+ ($40/month, 2,000 credits), Power ($200/month, 10,000 credits)[^6].
+The spec-driven IDE from AWS introduced parallel Spec task execution in May, claiming a 4x throughput improvement[^6]. Kiro's differentiator is structural: before writing code, it generates a requirements document, a design document, and a task list, then works through them methodically[^10]. Pricing is credit-based: Free (50 credits), Pro (\$20/month, 1,000 credits), Pro+ (\$40/month, 2,000 credits), Power (\$200/month, 10,000 credits)[^6].
 
 ### Claude Code (Anthropic)
 
-Terminal-native like Codex CLI, defaulting to Claude Opus 4.8 since 28 May[^11]. Anthropic's headline cost figure is $13 per developer per active day on average, with 90% of users below $30[^5]. The 15 June billing change splits programmatic usage (Agent SDK, `claude -p`, GitHub Actions) onto separate credit pools metered at API rates — $20 for Pro, $100 for Max 5x, $200 for Max 20x, with no rollover[^5].
+Terminal-native like Codex CLI, defaulting to Claude Opus 4.8 since 28 May[^11]. Anthropic's headline cost figure is \$13 per developer per active day on average, with 90% of users below \$30[^5]. The 15 June billing change splits programmatic usage (Agent SDK, `claude -p`, GitHub Actions) onto separate credit pools metered at API rates — \$20 for Pro, \$100 for Max 5x, \$200 for Max 20x, with no rollover[^5].
 
 ### Cursor (Anysphere)
 
-The largest community of any AI IDE, Cursor launched Composer 2.5 (its in-house model) on 18 May, benchmarking competitively against Opus 4.7 and GPT-5.5 at significantly lower token costs ($0.50/$2.50 per million tokens)[^9]. Pricing spans Hobby (free), Pro ($20/month), Pro+ ($60/month), Ultra ($200/month), and Teams ($40/user/month)[^12]. Auto-mode completions are unlimited; premium model access draws from the credit pool.
+The largest community of any AI IDE, Cursor launched Composer 2.5 (its in-house model) on 18 May, benchmarking competitively against Opus 4.7 and GPT-5.5 at significantly lower token costs (\$0.50/\$2.50 per million tokens)[^9]. Pricing spans Hobby (free), Pro (\$20/month), Pro+ (\$60/month), Ultra (\$200/month), and Teams (\$40/user/month)[^12]. Auto-mode completions are unlimited; premium model access draws from the credit pool.
 
 ---
 
@@ -88,7 +88,7 @@ Key architectural differences that matter in practice:
 
 ## Pricing: The New Maths
 
-The shift to usage-based billing across the industry makes direct comparison harder, but the pattern is clear: the $20/month entry point is now standard, and heavy agentic use costs $100–$200/month regardless of tool.
+The shift to usage-based billing across the industry makes direct comparison harder, but the pattern is clear: the \$20/month entry point is now standard, and heavy agentic use costs \$100–\$200/month regardless of tool.
 
 ```mermaid
 graph TD
@@ -107,11 +107,11 @@ For a ten-developer team on annual billing:
 
 | Tool | Plan | Annual cost |
 |------|------|-------------|
-| Copilot Business | $19/seat/month | $2,280 |
-| Kiro Pro | $20/seat/month | $2,400 |
-| Cursor Teams | $32/seat/month (annual) | $3,840 |
-| Codex Business | $20/seat/month | $2,400 |
-| Devin Desktop Teams | $40/user/month | $4,800 |
+| Copilot Business | \$19/seat/month | \$2,280 |
+| Kiro Pro | \$20/seat/month | \$2,400 |
+| Cursor Teams | \$32/seat/month (annual) | \$3,840 |
+| Codex Business | \$20/seat/month | \$2,400 |
+| Devin Desktop Teams | \$40/user/month | \$4,800 |
 
 These figures represent base costs. Agentic usage — cloud tasks, parallel agents, premium model requests — adds variable spend on top. Codex CLI's token-based billing (switched 2 April 2026) aligns costs more transparently with actual model consumption than the credit-abstraction systems used by Cursor and Kiro[^13].
 
@@ -123,7 +123,7 @@ These figures represent base costs. Agentic usage — cloud tasks, parallel agen
 
 **Choose Claude Code when** you value Anthropic's safety-first approach, need the 1M-token context window for large codebase analysis, or prefer Opus 4.8's reasoning depth. Watch the 15 June billing change — programmatic usage costs may surprise teams accustomed to subscription-pool pricing[^5].
 
-**Choose Copilot when** your team lives in GitHub. The issue-to-PR pipeline, Actions integration, and native code-review hooks are unmatched. The flex-allotment window (June–September) makes this the cheapest entry point at $10/month effective[^1].
+**Choose Copilot when** your team lives in GitHub. The issue-to-PR pipeline, Actions integration, and native code-review hooks are unmatched. The flex-allotment window (June–September) makes this the cheapest entry point at \$10/month effective[^1].
 
 **Choose Cursor when** you want an IDE-first experience with the broadest model selection. Composer 2.5's price-performance ratio is compelling, and the Build in Parallel feature suits large refactoring tasks[^12].
 

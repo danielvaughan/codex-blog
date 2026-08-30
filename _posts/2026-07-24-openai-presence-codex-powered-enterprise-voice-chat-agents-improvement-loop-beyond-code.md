@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Presence: How Codex Became the Improvement Engine for Enterprise Voice and Chat Agents"
-parent: "Articles"
-nav_order: 1267
+date: 2026-07-24T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["openai-presence", "codex", "enterprise-agents", "voice-agents", "chat-agents", "codex-improvement-loop", "forward-deployed-engineers", "guardrails", "gpt-5.6"]
 ---
 
@@ -77,7 +77,7 @@ The parallel is not accidental. Presence and Codex CLI share architectural DNA. 
 
 ### 3. Forward Deployed Engineers Are the Deployment Model
 
-Presence is explicitly **not self-serve** [^1]. Deployments require OpenAI's Forward Deployed Engineers (FDEs) or certified systems integrators from the OpenAI Deployment Company (DeployCo), the $4 billion+ venture backed by TPG, BBVA, Goldman Sachs, SoftBank, and others [^13].
+Presence is explicitly **not self-serve** [^1]. Deployments require OpenAI's Forward Deployed Engineers (FDEs) or certified systems integrators from the OpenAI Deployment Company (DeployCo), the \$4 billion+ venture backed by TPG, BBVA, Goldman Sachs, SoftBank, and others [^13].
 
 This is the same FDE-led model that has driven Codex enterprise adoption since early 2026 [^14]. The implication for CLI developers: if your organisation is already working with OpenAI FDEs on Codex, Presence deployments will likely use the same team and the same configuration patterns.
 
@@ -193,7 +193,7 @@ For Codex CLI developers, the message is clear: you are not just learning a codi
 
 [^13]: OpenAI, "OpenAI launches the OpenAI Deployment Company," May 2026. [https://openai.com/index/openai-launches-the-deployment-company/](https://openai.com/index/openai-launches-the-deployment-company/)
 
-[^14]: Let's Data Science, "OpenAI Launches $4B Deployment Company With TPG, Buys Tomoro," 11 May 2026. [https://letsdatascience.com/blog/openai-deployment-company-4b-tpg-tomoro-may-11-2026](https://letsdatascience.com/blog/openai-deployment-company-4b-tpg-tomoro-may-11-2026)
+[^14]: Let's Data Science, "OpenAI Launches \$4B Deployment Company With TPG, Buys Tomoro," 11 May 2026. [https://letsdatascience.com/blog/openai-deployment-company-4b-tpg-tomoro-may-11-2026](https://letsdatascience.com/blog/openai-deployment-company-4b-tpg-tomoro-may-11-2026)
 
 [^15]: BBVA, "BBVA joins DeployCo, OpenAI's new company to accelerate AI enterprise transformation," 2026. [https://www.bbva.com/en/innovation/bbva-joins-deployco-openais-new-company-to-accelerate-ai-enterprise-transformation/](https://www.bbva.com/en/innovation/bbva-joins-deployco-openais-new-company-to-accelerate-ai-enterprise-transformation/)
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex as JetBrains Agent Provider: How ACP, Hooks, and MCP Server Management Turn Your IDE into a Multi-Agent Control Plane"
-parent: "Articles"
-nav_order: 1261
+date: 2026-07-25T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "jetbrains", "acp", "agent-client-protocol", "ide-integration", "mcp", "hooks", "junie", "configuration"]
 ---
 
@@ -163,11 +163,11 @@ JetBrains evaluated multiple agents before designating Codex as the recommended 
 | Python solve rate | 20.2% |
 | Weighted average | 39.9% |
 | Median latency | 170.40s |
-| Median cost per task | $0.1387 |
+| Median cost per task | \$0.1387 |
 
 These numbers predate GPT-5.6 — Sol and Terra should improve them substantially. The key differentiator is not raw solve rate but the configuration surface: Codex brings sandbox isolation, hooks, MCP federation, and `AGENTS.md` governance that Junie lacks [^9][^10]. For enterprise teams that need auditable, policy-constrained agent execution, Codex is the only option in the JetBrains ecosystem that provides OS-level sandboxing via Seatbelt (macOS), Bubblewrap (Linux), or restricted tokens (Windows) [^11].
 
-Junie remains competitive on cost flexibility ($100/user/year for JetBrains AI Pro) and benefits from deeper IDE-native refactoring [^10]. The pragmatic approach: use both. ACP's agent picker makes switching per-task trivial.
+Junie remains competitive on cost flexibility (\$100/user/year for JetBrains AI Pro) and benefits from deeper IDE-native refactoring [^10]. The pragmatic approach: use both. ACP's agent picker makes switching per-task trivial.
 
 ## Model Selection Post-GPT-5.6
 

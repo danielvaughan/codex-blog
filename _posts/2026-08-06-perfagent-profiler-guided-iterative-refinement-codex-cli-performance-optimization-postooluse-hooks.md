@@ -1,7 +1,7 @@
 ---
 title: "PerfAgent and the Profiler Feedback Loop: Why Your Coding Agent Stops at Shallow Speedups — and How to Build an Iterative Optimisation Workflow in Codex CLI"
-parent: "Articles"
-nav_order: 1423
+date: 2026-08-06T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "performance-optimisation", "perfagent", "profiler-guided", "PostToolUse", "iterative-refinement", "py-spy", "benchmarks"]
 ---
 
@@ -83,7 +83,7 @@ The numbers are compelling:
 | GSO (102 tasks) | 19.6% Opt@1, 88.2% correct | 39.2% Opt@1, 96.1% correct | 2.0× |
 | SWE-fficiency-Lite (100 tasks) | 26% Opt@1, 82% correct | 74% Opt@1, 90% correct | 2.8× |
 
-PerfAgent also outperformed an oracle best-of-five baseline (which simply runs the agent five times and picks the best result) at 2–3× lower cost — $2.88 versus $11.01 per task on GSO [^2]. The gains come from better feedback, not more compute.
+PerfAgent also outperformed an oracle best-of-five baseline (which simply runs the agent five times and picks the best result) at 2–3× lower cost — \$2.88 versus \$11.01 per task on GSO [^2]. The gains come from better feedback, not more compute.
 
 On cross-abstraction-boundary tasks (where the fix requires modifying C/C++/Cython/Rust), PerfAgent modified low-level code in 48 per cent of instances versus 31 per cent for OpenHands. On the 60 non-Python-only GSO tasks, success jumped from 11.7 per cent to 31.7 per cent [^2].
 
@@ -203,7 +203,7 @@ codex --profile perf-opt "Optimise the hot path in src/parser.py — target 3× 
 
 ## The Cost Advantage of Feedback Over Sampling
 
-PerfAgent's most striking finding challenges a common assumption about agentic performance: that running the agent more times (test-time scaling) is the path to better results. On GSO, PerfAgent's profiler-guided feedback at $2.88 per task outperformed an oracle best-of-five at $11.01 per task [^2].
+PerfAgent's most striking finding challenges a common assumption about agentic performance: that running the agent more times (test-time scaling) is the path to better results. On GSO, PerfAgent's profiler-guided feedback at \$2.88 per task outperformed an oracle best-of-five at \$11.01 per task [^2].
 
 ```mermaid
 graph LR
@@ -266,7 +266,7 @@ PerfAgent also tested with Kimi-K2 (an open-source model), achieving 5.9 per cen
 2. **Start with AGENTS.md, not hooks.** The specification scaffolding alone captures most of PerfAgent's loop discipline. Add PostToolUse hooks once the workflow is validated.
 3. **Use Sol for optimisation tasks.** Cross-abstraction-boundary optimisation requires strong reasoning. GPT-5.6 Terra is insufficient for C/Cython hotspot analysis; Sol's deeper reasoning justifies the cost premium [^7].
 4. **Set explicit iteration targets.** PerfAgent's θ=5 is a sensible starting point. Encode "iterate at least 3 times" in AGENTS.md.
-5. **Budget for feedback, not parallelism.** A $3 single-agent run with profiler feedback outperforms a $11 five-way parallel run. Configure rollout budgets accordingly.
+5. **Budget for feedback, not parallelism.** A \$3 single-agent run with profiler feedback outperforms a \$11 five-way parallel run. Configure rollout budgets accordingly.
 
 ---
 

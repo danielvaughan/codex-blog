@@ -1,7 +1,7 @@
 ---
 title: "ContextSniper and the Evidence Packet Pattern: Why 51 per cent Token Savings Don't Cost Resolution Rate — and How to Wire Equivalent Retrieval into Codex CLI"
-parent: "Articles"
-nav_order: 1015
+date: 2026-07-09T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "context-management", "token-efficiency", "code-repair", "ICML-2026", "ContextSniper", "evidence-retrieval", "SWE-bench"]
 ---
 
@@ -80,7 +80,7 @@ On a 50-task SWE-bench Lite subset [^1]:
 | Agent | Token Reduction | Cost Reduction | Resolution Rate (Baseline → ContextSniper) | Action Count Reduction |
 |-------|----------------|----------------|---------------------------------------------|----------------------|
 | OpenClaw | 51.5% (67.80M → 32.91M) | 36.4% | 26.0% → 24.0% | 46.4% |
-| Claude Code | 38.9% (85.97M → 52.55M) | 27.3% ($15.09 → $10.97) | 32.0% → 30.0% | — |
+| Claude Code | 38.9% (85.97M → 52.55M) | 27.3% (\$15.09 → \$10.97) | 32.0% → 30.0% | — |
 
 The 2-percentage-point resolution drop is within the confidence interval for a 50-task sample. The action count reduction is arguably the more telling metric: the agent executes 46.4 per cent fewer tool calls because it no longer needs to re-read files or re-run searches to recover evidence lost to compaction [^1].
 

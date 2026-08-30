@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI for Platform Engineering Teams: Golden Paths, Internal Developer Platforms, and Agent-Ready Templates"
-parent: "Articles"
-nav_order: 737
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-codex-cli-platform-engineering-golden-paths-idp-agent-ready-templates"
 tags: ["codex-cli", "platform-engineering", "golden-paths", "backstage", "internal-developer-platform", "AGENTS.md", "MCP", "templates"]
+date: 2026-06-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI for Platform Engineering Teams: Golden Paths, Internal Developer Platforms, and Agent-Ready Templates
 

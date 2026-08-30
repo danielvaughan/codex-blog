@@ -1,11 +1,11 @@
 ---
 title: "GitHub Copilot Desktop App vs Codex CLI: Agent-Native GUI Meets Terminal-First Agent in the June 2026 Showdown"
-parent: "Articles"
-nav_order: 717
 type: Technical Article
 timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-github-copilot-desktop-app-vs-codex-cli-agent-native-gui-terminal-first-comparison-june-2026"
 tags: ["codex-cli", "github-copilot", "copilot-desktop", "agent-native", "comparison", "competitive-landscape", "architecture"]
+date: 2026-06-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # GitHub Copilot Desktop App vs Codex CLI: Agent-Native GUI Meets Terminal-First Agent in the June 2026 Showdown
 
@@ -174,7 +174,7 @@ This pattern eliminates the false binary. Use each tool where its architecture p
 
 ## Pricing Implications
 
-The cost structures differ significantly. Copilot Desktop rides on your existing Copilot subscription (Pro at $10/month, Pro+ at $39/month, or Enterprise pricing)[^1]. Codex CLI costs land on the OpenAI API meter — per-token billing tied to your ChatGPT plan or API key[^5]. For teams already paying for GitHub Enterprise with Copilot, the Desktop app is effectively included. For developers who prefer pay-per-use without a subscription ceiling, Codex CLI's token-based model offers more granular cost control.
+The cost structures differ significantly. Copilot Desktop rides on your existing Copilot subscription (Pro at \$10/month, Pro+ at \$39/month, or Enterprise pricing)[^1]. Codex CLI costs land on the OpenAI API meter — per-token billing tied to your ChatGPT plan or API key[^5]. For teams already paying for GitHub Enterprise with Copilot, the Desktop app is effectively included. For developers who prefer pay-per-use without a subscription ceiling, Codex CLI's token-based model offers more granular cost control.
 
 ## What This Means for the Market
 

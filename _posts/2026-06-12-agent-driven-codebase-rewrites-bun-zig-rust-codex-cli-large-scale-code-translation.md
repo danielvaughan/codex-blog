@@ -1,11 +1,11 @@
 ---
 title: "Agent-Driven Codebase Rewrites: What Bun's Zig-to-Rust Port Teaches Codex CLI Practitioners About Large-Scale Code Translation"
-parent: "Articles"
-nav_order: 727
 type: Technical Article
 timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-agent-driven-codebase-rewrites-bun-zig-rust-codex-cli-large-scale-code-translation"
 tags: ["codex-cli", "code-translation", "large-scale-migration", "bun", "zig", "rust", "subagents", "worktrees", "multi-agent", "goal-mode", "verification"]
+date: 2026-06-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Agent-Driven Codebase Rewrites: What Bun's Zig-to-Rust Port Teaches Codex CLI Practitioners About Large-Scale Code Translation
 
@@ -213,7 +213,7 @@ A million-line translation is token-intensive. Rough estimates for Codex CLI wit
 - **Per-module translation**: ~200K input tokens (source + context), ~150K output tokens
 - **Compiler feedback loops**: 3-5 iterations at ~50K tokens each
 
-For a 100-module codebase, budget approximately 40-60M tokens total. At current GPT-5.5 pricing, that is roughly $300-500 in API credits — or covered by a ChatGPT Pro subscription's included Codex usage if you spread the work across sessions [^15].
+For a 100-module codebase, budget approximately 40-60M tokens total. At current GPT-5.5 pricing, that is roughly \$300-500 in API credits — or covered by a ChatGPT Pro subscription's included Codex usage if you spread the work across sessions [^15].
 
 Use profile-based model routing to reduce costs on boilerplate translation [^16]:
 

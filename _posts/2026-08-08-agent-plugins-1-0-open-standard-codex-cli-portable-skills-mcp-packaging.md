@@ -1,7 +1,7 @@
 ---
 title: "Agent Plugins 1.0: What the New Open Standard Means for Your Codex CLI Plugin Strategy"
-parent: "Articles"
-nav_order: 1443
+date: 2026-08-08T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "agent-plugins", "mcp", "agent-skills", "open-standard", "plugin-architecture", "portability"]
 ---
 
@@ -36,7 +36,7 @@ graph TD
 
 A plugin is a **directory**, not an archive. This is a deliberate design choice — you can inspect it with `ls`, `cat`, and `git diff` before loading it[^5].
 
-```
+```bash
 my-plugin/
 ├── plugin.json          # Manifest (required)
 ├── skills/

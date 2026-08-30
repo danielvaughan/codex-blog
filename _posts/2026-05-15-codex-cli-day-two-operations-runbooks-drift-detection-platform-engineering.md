@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI for Day-Two Operations: Runbooks, Drift Detection, and Platform Engineering Automation"
 description: "Most Codex CLI coverage focuses on writing and reviewing code. But senior platform engineers and SREs have a different problem: the grind of day-two."
-parent: "Articles"
-nav_order: 401
 type: Technical Article
 timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-day-two-operations-runbooks-drift-detection-platform-engineering"
 tags: ["codex-cli", "platform-engineering", "SRE", "day-2-operations", "runbooks", "drift-detection", "automation", "skills", "codex-exec"]
+date: 2026-05-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Day-Two Operations: Runbooks, Drift Detection, and Platform Engineering Automation](/sketchnotes/articles/2026-05-15-codex-cli-day-two-operations-runbooks-drift-detection-platform-engineering.png)
 

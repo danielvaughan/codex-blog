@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI for Go Development Teams: gopls MCP, Agent Skills, and Go 1.26 Workflows"
 description: "Go teams adopting Codex CLI face a specific configuration challenge: the language's strong conventions around error handling, concurrency, and module."
-parent: "Articles"
-nav_order: 466
 type: Technical Article
 timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-for-go-development-teams-gopls-mcp-skills-agents-md-workflows"
 tags: ["codex-cli", "go", "golang", "gopls", "mcp", "agents-md", "skills", "go-1.26", "development-workflow"]
+date: 2026-05-21T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Go Development Teams: gopls MCP, Agent Skills, and Go 1.26 Workflows](/sketchnotes/articles/2026-05-21-codex-cli-for-go-development-teams-gopls-mcp-skills-agents-md-workflows.png)
 

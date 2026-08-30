@@ -1,11 +1,11 @@
 ---
 title: "KiloBench and the Cost-per-Task Revolution: What Harness-Aware Efficiency Benchmarks Mean for Codex CLI Model Selection"
-parent: "Articles"
-nav_order: 775
 type: Technical Article
 timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-kilobench-cost-per-task-efficiency-benchmarks-codex-cli-model-selection-token-budget-strategy"
 tags: ["codex-cli", "kilobench", "benchmarks", "cost-efficiency", "model-selection", "token-budget", "named-profiles", "finops"]
+date: 2026-06-16T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # KiloBench and the Cost-per-Task Revolution: What Harness-Aware Efficiency Benchmarks Mean for Codex CLI Model Selection
 
@@ -18,7 +18,7 @@ KiloBench, published on 8 June 2026 by the Kilo Code team, is the first benchmar
 
 ## Why Accuracy-Only Benchmarks Mislead
 
-The standard benchmark loop — run a model against a task set, report pass@1 — implicitly assumes that all successful completions cost the same. They do not. A model that explores extensively before acting, reading dozens of files and running speculative commands, burns context tokens that never appear in the final diff. A model that retries three times at $0.10 per attempt costs more than one that succeeds once at $0.40.
+The standard benchmark loop — run a model against a task set, report pass@1 — implicitly assumes that all successful completions cost the same. They do not. A model that explores extensively before acting, reading dozens of files and running speculative commands, burns context tokens that never appear in the final diff. A model that retries three times at \$0.10 per attempt costs more than one that succeeds once at \$0.40.
 
 KiloBench's own analysis of production Kilo Code sessions found that re-sent context accounts for 62% of the total bill, with actual useful reasoning output comprising just 11% [^3]. That ratio holds across harnesses. Codex CLI sessions exhibit the same pattern: system prompts, tool definitions, MCP server schemas, reasoning traces, and context compaction all burn tokens invisibly [^4].
 
@@ -34,7 +34,7 @@ The complete financial cost of a single task run, including reasoning tokens, co
 
 ### Cost to Complete
 
-The total spend required to get one successful completion. A model with a 50% pass-rate at $0.10 per attempt has a cost-to-complete of $0.20 on average. A model with a 90% pass-rate at $0.40 per attempt has a cost-to-complete of $0.44. The cheaper-per-attempt model is not cheaper.
+The total spend required to get one successful completion. A model with a 50% pass-rate at \$0.10 per attempt has a cost-to-complete of \$0.20 on average. A model with a 90% pass-rate at \$0.40 per attempt has a cost-to-complete of \$0.44. The cheaper-per-attempt model is not cheaper.
 
 ### Harness-Specific Pass Rate
 
@@ -63,12 +63,12 @@ The initial KiloBench leaderboard, drawn from 89 real-world Terminal-Bench tasks
 
 | Model | Pass Rate | Cost per Attempt | Cost Efficiency Ratio |
 |-------|-----------|-----------------|----------------------|
-| GPT-5.5 | 74.2% | $72.63 | 1.0x (baseline) |
-| Claude Opus 4.7 | 70.1% | $100.51 | 0.7x |
-| Claude Opus 4.8 | 67.6% | $85.19 | 0.8x |
-| Grok Build 0.1 | 50.6% | $30.70 | 1.6x |
-| MiMo-V2.5-Pro | 47.6% | $4.92 | 9.5x |
-| MiniMax M3 | 47.6% | $10.35 | 4.5x |
+| GPT-5.5 | 74.2% | \$72.63 | 1.0x (baseline) |
+| Claude Opus 4.7 | 70.1% | \$100.51 | 0.7x |
+| Claude Opus 4.8 | 67.6% | \$85.19 | 0.8x |
+| Grok Build 0.1 | 50.6% | \$30.70 | 1.6x |
+| MiMo-V2.5-Pro | 47.6% | \$4.92 | 9.5x |
+| MiniMax M3 | 47.6% | \$10.35 | 4.5x |
 
 GPT-5.5 leads on raw accuracy, but MiMo-V2.5-Pro delivers nearly ten times the efficiency when measured by cost per percentage point of pass-rate [^6]. For tasks where a 47.6% first-attempt success rate is acceptable — lint passes, documentation generation, straightforward refactors — the open-weight model is an order of magnitude cheaper.
 
@@ -149,7 +149,7 @@ reasoning_effort = "medium"
 
 ### 2. Context Compaction Thresholds
 
-Long sessions trigger automatic context compaction, which reduces the carried context but costs a compaction turn. A compaction from 350K to 80K tokens saves approximately $1.35 per subsequent turn at standard rates [^8]. For bulk tasks, start fresh sessions rather than accumulating context:
+Long sessions trigger automatic context compaction, which reduces the carried context but costs a compaction turn. A compaction from 350K to 80K tokens saves approximately \$1.35 per subsequent turn at standard rates [^8]. For bulk tasks, start fresh sessions rather than accumulating context:
 
 ```bash
 # Prefer: fresh session per task in CI
@@ -252,7 +252,7 @@ The benchmark wars are over. The efficiency wars are just beginning.
 
 [^7]: Codex CLI prompt caching documentation, cached tokens at ~10% of uncached rate, [https://codex.danielvaughan.com/2026/04/21/codex-cli-prompt-caching-maximise-cache-hits-cost-reduction/](https://codex.danielvaughan.com/2026/04/21/codex-cli-prompt-caching-maximise-cache-hits-cost-reduction/)
 
-[^8]: Codex CLI context compaction architecture, 350K-to-80K compaction saving ~$1.35/turn, [https://codex.danielvaughan.com/2026/03/31/codex-cli-context-compaction-architecture/](https://codex.danielvaughan.com/2026/03/31/codex-cli-context-compaction-architecture/)
+[^8]: Codex CLI context compaction architecture, 350K-to-80K compaction saving ~\$1.35/turn, [https://codex.danielvaughan.com/2026/03/31/codex-cli-context-compaction-architecture/](https://codex.danielvaughan.com/2026/03/31/codex-cli-context-compaction-architecture/)
 
 [^9]: Codex CLI v0.140.0 release, `/usage` tracking views, [https://releasebot.io/updates/openai/codex](https://releasebot.io/updates/openai/codex)
 

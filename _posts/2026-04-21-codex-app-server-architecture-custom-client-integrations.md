@@ -1,12 +1,12 @@
 ---
 title: "Codex App Server Architecture: Building Custom Client Integrations with JSON-RPC"
 description: "The Codex App Server is the protocol layer that decouples OpenAI's coding agent logic from its client surfaces."
-parent: "Articles"
-nav_order: 115
 type: Technical Article
 timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-app-server-architecture-custom-client-integrations"
 tags: ["codex-cli", "app-server", "JSON-RPC", "integration", "architecture", "WebSocket", "IDE"]
+date: 2026-04-21T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex App Server Architecture: Building Custom Client Integrations with JSON-RPC](/sketchnotes/articles/2026-04-21-codex-app-server-architecture-custom-client-integrations.png)
 

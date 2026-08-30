@@ -1,11 +1,11 @@
 ---
 title: "StaminaBench: What Stress-Testing Coding Agents over 100 Turns Means for Codex CLI Session Strategy"
-parent: "Articles"
-nav_order: 822
 type: Technical Article
 timestamp: 2026-06-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-staminabench-stress-testing-coding-agents-100-turns-codex-cli-session-stamina-harness-retry-strategy"
 tags: ["codex-cli", "staminabench", "long-horizon", "session-management", "context-compaction", "retry-strategy", "harness-design", "benchmarks"]
+date: 2026-06-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # StaminaBench: What Stress-Testing Coding Agents over 100 Turns Means for Codex CLI Session Strategy
 
@@ -215,7 +215,7 @@ graph TB
 
 ## Cost reality check
 
-A single GLM-5 + OpenCode configuration consumed 4.5 billion input tokens and 7.5 million output tokens across the full benchmark [^1]. At frontier closed-source pricing, equivalent runs would cost approximately $13.6K (Claude Sonnet 4.6) to $22.7K (GPT-5.5) per configuration [^1]. This underscores why retry budgets must be bounded — unlimited retries are not just ineffective beyond five attempts, they are ruinously expensive.
+A single GLM-5 + OpenCode configuration consumed 4.5 billion input tokens and 7.5 million output tokens across the full benchmark [^1]. At frontier closed-source pricing, equivalent runs would cost approximately \$13.6K (Claude Sonnet 4.6) to \$22.7K (GPT-5.5) per configuration [^1]. This underscores why retry budgets must be bounded — unlimited retries are not just ineffective beyond five attempts, they are ruinously expensive.
 
 ## Practical checklist
 

@@ -1,12 +1,12 @@
 ---
 title: "CSV Batch Processing with spawn_agents_on_csv: Map-Reduce Workflows for Codex CLI"
 description: "Codex CLI's subagent system handles ad-hoc parallelism well — spawn a few workers, fan out, collect results."
-parent: "Articles"
-nav_order: 251
 type: Technical Article
 timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-csv-batch-processing-spawn-agents-on-csv-parallel-audits"
 tags: ["codex-cli", "subagents", "csv-batch", "spawn_agents_on_csv", "parallel-processing", "automation", "map-reduce"]
+date: 2026-04-30T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: CSV Batch Processing with spawn_agents_on_csv: Map-Reduce Workflows for Codex CLI](/sketchnotes/articles/2026-04-30-codex-cli-csv-batch-processing-spawn-agents-on-csv-parallel-audits.png)
 

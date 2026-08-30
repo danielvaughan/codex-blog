@@ -1,11 +1,16 @@
 ---
 title: "The DNA of Coding Agents: Codex CLI vs Gemini CLI vs Claude Code vs Pi — System Prompts Compared"
 date: 2026-04-19T00:00:00+00:00
-last_modified_at: 2026-08-21T10:37:17+01:00
-categories: [codex-cli, gemini-cli, claude-code, pi, system-prompts, architecture, local-models]
+last_modified_at: 2026-08-30T20:10:28+01:00
+tags:
+  - codex-cli
+  - gemini-cli
+  - claude-code
+  - pi
+  - system-prompts
+  - architecture
+  - local-models
 description: "The system prompt is the soul of a coding agent. It is the document that transforms a general-purpose language model into an opinionated software engineer."
-parent: "Articles"
-nav_order: 577
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-system-prompts-compared-codex-gemini-claude-code"

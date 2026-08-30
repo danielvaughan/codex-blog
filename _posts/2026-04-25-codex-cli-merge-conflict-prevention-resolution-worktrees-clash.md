@@ -1,12 +1,12 @@
 ---
 title: "Merge Conflict Prevention and Resolution with Codex CLI: Worktrees, Clash, and Integration Strategies"
 description: "Running multiple Codex CLI agents in parallel is now standard practice for teams shipping at speed."
-parent: "Articles"
-nav_order: 164
 type: Technical Article
 timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-merge-conflict-prevention-resolution-worktrees-clash"
 tags: ["codex-cli", "git", "merge-conflicts", "worktrees", "parallel-agents", "clash", "integration"]
+date: 2026-04-25T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Merge Conflict Prevention and Resolution with Codex CLI: Worktrees, Clash, and Integration Strategies](/sketchnotes/articles/2026-04-25-codex-cli-merge-conflict-prevention-resolution-worktrees-clash.png)
 

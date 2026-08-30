@@ -1,12 +1,12 @@
 ---
 title: "Running Multiple Codex Agent Instances: Parallel Orchestration Patterns"
 description: "Running a single Codex CLI agent is powerful. Running several in parallel — each tackling an independent slice of your codebase — transforms your throughput."
-parent: "Articles"
-nav_order: 81
 type: Technical Article
 timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-running-multiple-codex-agents-parallel-orchestration"
 tags: ["codex-cli", "parallel-agents", "orchestration", "git-worktrees", "tmux", "subagents", "multi-agent"]
+date: 2026-04-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Running Multiple Codex Agent Instances: Parallel Orchestration Patterns](/sketchnotes/articles/2026-04-18-running-multiple-codex-agents-parallel-orchestration.png)
 

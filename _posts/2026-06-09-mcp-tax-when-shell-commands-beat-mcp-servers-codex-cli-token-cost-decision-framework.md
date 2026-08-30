@@ -1,11 +1,11 @@
 ---
 title: "The MCP Tax: When Shell Commands Beat MCP Servers in Codex CLI Workflows"
-parent: "Articles"
-nav_order: 690
 type: Technical Article
 timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-mcp-tax-when-shell-commands-beat-mcp-servers-codex-cli-token-cost-decision-framework"
 tags: ["codex-cli", "mcp", "token-cost", "shell", "cli", "performance", "architecture", "cost-optimisation"]
+date: 2026-06-09T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The MCP Tax: When Shell Commands Beat MCP Servers in Codex CLI Workflows
 
@@ -21,7 +21,7 @@ Scalekit's benchmark of 10,000 operations across identical tasks produced stark 
 | Metric | Shell CLI | MCP Server |
 |--------|-----------|------------|
 | Tokens per operation | ~200 | 800-6,400 |
-| Monthly cost (10k ops) | $3.20 | $55.20 |
+| Monthly cost (10k ops) | \$3.20 | \$55.20 |
 | Success rate | 100% | 72% (raw) / ~99% (gateway) |
 
 The most extreme case was Microsoft Graph: an MCP integration consumed 145,000 tokens for what the CLI achieved in 4,150 — a 35x difference [^1].
@@ -110,7 +110,7 @@ flowchart TD
 
 - **A mature CLI exists.** `git`, `gh`, `kubectl`, `aws`, `gcloud`, `terraform`, `docker`, and `npm` are maintained by their respective vendors, updated within days of API changes, and familiar to every model from training data [^5].
 - **You are operating single-tenant.** Solo developers and CI pipelines authenticate once via environment variables — no OAuth dance required.
-- **Volume is high.** At 10,000 operations per month, the cost difference is $3.20 vs $55.20 [^1]. At enterprise scale, the MCP Tax compounds.
+- **Volume is high.** At 10,000 operations per month, the cost difference is \$3.20 vs \$55.20 [^1]. At enterprise scale, the MCP Tax compounds.
 - **You need Unix composition.** Piping `kubectl get pods -o json | jq '.items[] | select(.status.phase=="Pending")'` executes in a single shell call. The equivalent MCP workflow requires multiple tool invocations across separate turns.
 
 ### Choose MCP Servers When

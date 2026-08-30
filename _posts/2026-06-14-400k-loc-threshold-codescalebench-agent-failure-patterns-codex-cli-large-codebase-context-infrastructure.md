@@ -1,11 +1,11 @@
 ---
 title: "The 400K LOC Threshold: What 1,281 Agent Runs Reveal About Codex CLI Performance in Large Codebases"
-parent: "Articles"
-nav_order: 746
 type: Technical Article
 timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-400k-loc-threshold-codescalebench-agent-failure-patterns-codex-cli-large-codebase-context-infrastructure"
 tags: ["codex-cli", "large-codebase", "CodeScaleBench", "context-engineering", "Sourcegraph", "MCP", "performance", "enterprise"]
+date: 2026-06-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The 400K LOC Threshold: What 1,281 Agent Runs Reveal About Codex CLI Performance in Large Codebases
 
@@ -187,7 +187,7 @@ Two servers — one for code intelligence, one for Git history — often outperf
 
 ## The Economics: Context Infrastructure vs. Model Upgrades
 
-The Sourcegraph findings carry a clear cost implication. Organisations cannot improve agent performance by upgrading to a more expensive frontier model if the bottleneck is retrieval infrastructure [^6]. The 30% cost reduction from proper tooling [^2] dwarfs the savings from switching between GPT-5.5 ($5/$30 per million tokens) [^9] and o4-mini ($1.10/$4.40 per million tokens) [^10].
+The Sourcegraph findings carry a clear cost implication. Organisations cannot improve agent performance by upgrading to a more expensive frontier model if the bottleneck is retrieval infrastructure [^6]. The 30% cost reduction from proper tooling [^2] dwarfs the savings from switching between GPT-5.5 (\$5/\$30 per million tokens) [^9] and o4-mini (\$1.10/\$4.40 per million tokens) [^10].
 
 ```mermaid
 graph TD

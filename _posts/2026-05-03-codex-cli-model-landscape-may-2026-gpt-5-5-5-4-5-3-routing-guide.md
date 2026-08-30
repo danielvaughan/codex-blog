@@ -1,12 +1,12 @@
 ---
 title: "The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide"
 description: "Three months ago, Codex CLI users chose between GPT-5-Codex and its Spark variant. Today the model picker lists five production options — six if you count."
-parent: "Articles"
-nav_order: 280
 type: Technical Article
 timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-model-landscape-may-2026-gpt-5-5-5-4-5-3-routing-guide"
 tags: ["codex-cli", "model-selection", "gpt-5.5", "gpt-5.4", "gpt-5.3-codex", "gpt-5.4-mini", "codex-spark", "pricing", "reasoning-effort", "model-routing", "cost-optimisation"]
+date: 2026-05-03T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: The Codex CLI Model Landscape in May 2026: A Practitioner's Routing Guide](/sketchnotes/articles/2026-05-03-codex-cli-model-landscape-may-2026-gpt-5-5-5-4-5-3-routing-guide.png)
 

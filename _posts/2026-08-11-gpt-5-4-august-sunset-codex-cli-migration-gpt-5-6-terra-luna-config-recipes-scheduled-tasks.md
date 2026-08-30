@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.4 Retires from Codex on 31 August: A Migration Checklist for Config, Agents, and Scheduled Tasks"
-parent: "Articles"
-nav_order: 1475
+date: 2026-08-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "model-deprecation", "gpt-5.4", "gpt-5.6-terra", "gpt-5.6-luna", "migration", "config.toml", "scheduled-tasks", "named-profiles"]
 ---
 
@@ -38,8 +38,8 @@ The GPT-5.6 family shipped to general availability on 9 July 2026 with three tie
 
 | Retiring Model | Replacement | Input / Output per 1M Tokens | Change |
 |---|---|---|---|
-| `gpt-5.4` | `gpt-5.6-terra` | $2.00 / $12.00 | 20% cheaper, stronger [^4] |
-| `gpt-5.4-mini` | `gpt-5.6-luna` | $0.20 / $1.20 | 73–80% cheaper, stronger [^4] |
+| `gpt-5.4` | `gpt-5.6-terra` | \$2.00 / \$12.00 | 20% cheaper, stronger [^4] |
+| `gpt-5.4-mini` | `gpt-5.6-luna` | \$0.20 / \$1.20 | 73–80% cheaper, stronger [^4] |
 
 These are not renamed models. GPT-5.6 Terra and Luna are distinct model generations that score higher than their GPT-5.4 predecessors on every major coding benchmark [^3]. Luna alone beats Claude Opus 4.8 on both the Artificial Analysis Coding Agent Index (74.6 vs 72.5) and DeepSWE (67.2% vs 59.0%) [^4]. The migration is not a compromise — it is a strict upgrade.
 
@@ -227,7 +227,7 @@ gantt
 2. **Replace the slugs.** `gpt-5.4` → `gpt-5.6-terra`, `gpt-5.4-mini` → `gpt-5.6-luna`.
 3. **Test your automations.** Run every scheduled task and `codex exec` script manually once to confirm they work with the new model.
 4. **Commit project configs.** Push updated `.codex/config.toml` to shared repositories so teammates inherit the fix.
-5. **Consider tiered routing.** If you have been using GPT-5.4 for everything, now is a good time to adopt Luna as your default and Terra/Sol for complex work — Luna at $0.20/$1.20 per million tokens is dramatically cheaper than GPT-5.4 was [^4].
+5. **Consider tiered routing.** If you have been using GPT-5.4 for everything, now is a good time to adopt Luna as your default and Terra/Sol for complex work — Luna at \$0.20/\$1.20 per million tokens is dramatically cheaper than GPT-5.4 was [^4].
 
 The migration is mechanical and the replacement models are strictly better. The only risk is missing a reference and having a workflow fail silently on 1 September. Spend thirty minutes now; save yourself a debugging session later.
 

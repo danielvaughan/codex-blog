@@ -1,11 +1,11 @@
 ---
 title: "OpenAI's Guaranteed Capacity: What Reserved Compute Means for Codex CLI Teams Running Agents at Scale"
-parent: "Articles"
-nav_order: 758
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-openai-guaranteed-capacity-reserved-compute-codex-cli-enterprise-service-tier-throughput-strategy"
 tags: ["codex-cli", "guaranteed-capacity", "reserved-compute", "enterprise", "service-tier", "cost-management", "throughput", "rate-limits"]
+date: 2026-06-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # OpenAI's Guaranteed Capacity: What Reserved Compute Means for Codex CLI Teams Running Agents at Scale
 
@@ -147,7 +147,7 @@ Not every team running Codex CLI needs reserved compute. The programme targets a
 
 - **CI/CD pipelines run Codex on every PR** — high-volume, predictable traffic that benefits from throughput guarantees and is vulnerable to `429` errors during peak hours
 - **Multi-agent orchestration is in production** — subagent workflows with `agents.max_threads = 6` can generate burst traffic that exceeds standard rate limits [^9]
-- **Your monthly API spend exceeds $50,000** — at this scale, the multi-year discount likely outweighs the commitment risk, and capacity certainty becomes a reliability requirement
+- **Your monthly API spend exceeds \$50,000** — at this scale, the multi-year discount likely outweighs the commitment risk, and capacity certainty becomes a reliability requirement
 - **You cannot tolerate silent downgrades** — ChatGPT-authenticated sessions already face silent fallback from GPT-5.5 to mini after 160 messages [^10]; API-key workflows with reserved capacity eliminate this category of risk entirely
 
 ### You Probably Do Not Need It If
@@ -170,7 +170,7 @@ flowchart TD
 
 ## The Infrastructure Context
 
-OpenAI's Guaranteed Capacity launch is not isolated. The company has contracted over 10 GW of US AI infrastructure capacity through partnerships with Oracle ($300 billion over 5 years starting 2027), AWS ($38 billion over 7 years), NVIDIA, Broadcom, and AMD [^3]. The confidential S-1 filing on 10 June 2026 adds IPO pressure to demonstrate predictable, contracted revenue [^11].
+OpenAI's Guaranteed Capacity launch is not isolated. The company has contracted over 10 GW of US AI infrastructure capacity through partnerships with Oracle (\$300 billion over 5 years starting 2027), AWS (\$38 billion over 7 years), NVIDIA, Broadcom, and AMD [^3]. The confidential S-1 filing on 10 June 2026 adds IPO pressure to demonstrate predictable, contracted revenue [^11].
 
 For Codex CLI teams, this context matters for two reasons:
 

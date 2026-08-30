@@ -1,11 +1,11 @@
 ---
 title: "Multi-Model Daily Workflows with Codex CLI: Routing GPT-5.5, Spark, Mini, and Open-Weight Models for Cost, Speed, and Quality"
-parent: "Articles"
-nav_order: 672
 type: Technical Article
 timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-codex-cli-multi-model-daily-workflows-gpt55-spark-mini-open-weight-cost-quality-routing"
 tags: ["codex-cli", "model-routing", "gpt-5.5", "gpt-5.4-mini", "codex-spark", "open-weight", "cost-optimisation", "multi-model", "config-toml", "profiles", "subagents"]
+date: 2026-06-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Multi-Model Daily Workflows with Codex CLI: Routing GPT-5.5, Spark, Mini, and Open-Weight Models for Cost, Speed, and Quality
 
@@ -21,12 +21,12 @@ Codex CLI supports four primary models via OpenAI, plus third-party providers fo
 
 | Model | Input / Output (per 1M tokens) | Cached Input | Latency | Sweet Spot |
 |-------|-------------------------------|--------------|---------|------------|
-| `gpt-5.5` | $5.00 / $30.00 | $0.50 | Medium | Complex refactors, architecture, multi-file reasoning |
+| `gpt-5.5` | \$5.00 / \$30.00 | \$0.50 | Medium | Complex refactors, architecture, multi-file reasoning |
 | `gpt-5.4` | ⚠️ Available but pricing varies | — | Medium | General-purpose coding, tool use |
-| `gpt-5.4-mini` | $0.75 / $4.50 | $0.075 | Fast | Subagents, boilerplate, quick edits, test generation |
-| `codex-spark` | $0.15 / $0.60 | $0.015 | Very fast (~1,000 tok/s) | Real-time pair programming, rapid iteration |
+| `gpt-5.4-mini` | \$0.75 / \$4.50 | \$0.075 | Fast | Subagents, boilerplate, quick edits, test generation |
+| `codex-spark` | \$0.15 / \$0.60 | \$0.015 | Very fast (~1,000 tok/s) | Real-time pair programming, rapid iteration |
 
-The cost difference is stark: a typical session on `gpt-5.5` with 45,000 input tokens, 38,000 cached, and 13,000 output costs roughly $0.62 — about the same as a `gpt-5.4-mini` session processing ten times the volume[^3]. Choosing the right model per task is the single highest-leverage cost optimisation available.
+The cost difference is stark: a typical session on `gpt-5.5` with 45,000 input tokens, 38,000 cached, and 13,000 output costs roughly \$0.62 — about the same as a `gpt-5.4-mini` session processing ten times the volume[^3]. Choosing the right model per task is the single highest-leverage cost optimisation available.
 
 ```mermaid
 flowchart TD

@@ -1,12 +1,12 @@
 ---
 title: "Learned Capability Governance: What Aethelgard Means for Codex Permission Profiles"
 description: "A summarisation task receives the same shell execution, subagent spawning, and credential access capabilities as a code deployment task. Sidik and Rokach."
-parent: "Articles"
-nav_order: 97
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-learned-capability-governance-aethelgard-codex-permission-profiles"
 tags: ["security", "permission-profiles", "capability-governance", "aethelgard", "hooks", "least-privilege", "enterprise", "codex-cli"]
+date: 2026-04-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Learned Capability Governance: What Aethelgard Means for Codex Permission Profiles](/sketchnotes/articles/2026-04-19-learned-capability-governance-aethelgard-codex-permission-profiles.png)
 

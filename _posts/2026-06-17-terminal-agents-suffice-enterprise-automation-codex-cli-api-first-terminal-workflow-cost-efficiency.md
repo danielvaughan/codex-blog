@@ -1,11 +1,11 @@
 ---
 title: "Terminal Agents Suffice: What ServiceNow's Enterprise Automation Study Means for Codex CLI API-First Workflows"
-parent: "Articles"
-nav_order: 785
 type: Technical Article
 timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-terminal-agents-suffice-enterprise-automation-codex-cli-api-first-terminal-workflow-cost-efficiency"
 tags: ["codex-cli", "enterprise-automation", "terminal-agents", "API-first", "cost-efficiency", "ServiceNow", "Terminal-Bench", "MCP", "codex-exec"]
+date: 2026-06-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Terminal Agents Suffice: What ServiceNow's Enterprise Automation Study Means for Codex CLI API-First Workflows
 
@@ -65,11 +65,11 @@ The cost differential is where the terminal approach truly dominates:
 
 | Platform | Terminal Cost/Task | Web Cost/Task | Ratio |
 |----------|:-----------------:|:-------------:|:-----:|
-| **ServiceNow** | $0.78–$1.94 | $4.21–$4.49 | 4–6× cheaper |
-| **GitLab** | $0.28–$0.50 | $0.85–$0.88 | 2–3× cheaper |
-| **ERPNext** | $0.46–$0.72 | $3.63–$6.49 | 5–9× cheaper |
+| **ServiceNow** | \$0.78–\$1.94 | \$4.21–\$4.49 | 4–6× cheaper |
+| **GitLab** | \$0.28–\$0.50 | \$0.85–\$0.88 | 2–3× cheaper |
+| **ERPNext** | \$0.46–\$0.72 | \$3.63–\$6.49 | 5–9× cheaper |
 
-The Gemini 2.5 Pro terminal configuration reached 77.5% overall accuracy at $0.09 per task [^1] — an order of magnitude below web-agent costs for comparable accuracy.
+The Gemini 2.5 Pro terminal configuration reached 77.5% overall accuracy at \$0.09 per task [^1] — an order of magnitude below web-agent costs for comparable accuracy.
 
 ## Why Terminal Agents Win: The API Directness Advantage
 

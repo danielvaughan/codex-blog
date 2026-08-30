@@ -1,12 +1,12 @@
 ---
 title: "Voice-Driven Development in Codex CLI: From Push-to-Talk to Realtime V2 WebRTC"
 description: "Terminal-based coding agents have spent the past year competing on context windows, tool use, and autonomy modes. But the interface itself — typing prompts."
-parent: "Articles"
-nav_order: 66
 type: Technical Article
 timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-cli-voice-realtime-webrtc-push-to-talk"
 tags: ["voice", "realtime", "webrtc", "push-to-talk", "wispr", "tui", "audio", "config-toml"]
+date: 2026-04-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Voice-Driven Development in Codex CLI: From Push-to-Talk to Realtime V2 WebRTC](/sketchnotes/articles/2026-04-17-codex-cli-voice-realtime-webrtc-push-to-talk.png)
 

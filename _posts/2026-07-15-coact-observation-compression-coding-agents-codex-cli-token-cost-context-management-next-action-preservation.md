@@ -1,7 +1,7 @@
 ---
 title: "CoACT and Observation Compression: Cutting Coding Agent Token Costs by a Third Without Losing Effectiveness — and What It Means for Codex CLI Context Management"
-parent: "Articles"
-nav_order: 1181
+date: 2026-07-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "observation-compression", "token-cost", "context-management", "CoACT", "SWE-bench", "next-action-preservation", "compaction", "tool-output"]
 ---
 
@@ -111,7 +111,7 @@ When the context window fills beyond `model_auto_compact_token_limit` — defaul
 model_auto_compact_token_limit = 150000
 ```
 
-CoACT's results suggest these two compression levels are complementary. The paper shows that combining CoACT with AgentDiet (a trajectory-level compressor) reduced total cost from $45.65 to $25.88 [^1] — a 43% reduction beyond what either technique achieves alone.
+CoACT's results suggest these two compression levels are complementary. The paper shows that combining CoACT with AgentDiet (a trajectory-level compressor) reduced total cost from \$45.65 to \$25.88 [^1] — a 43% reduction beyond what either technique achieves alone.
 
 ```mermaid
 flowchart LR

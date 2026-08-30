@@ -1,11 +1,11 @@
 ---
 title: "TokenPilot and the Cache Invalidation Trap: Why Aggressive Context Pruning Can Cost More — and How to Configure Codex CLI's Compaction for Prompt Cache Efficiency"
-parent: "Articles"
-nav_order: 946
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-tokenpilot-cache-efficient-context-management-codex-cli-prompt-cache-compaction-eviction-cost"
 tags: ["codex-cli", "context-management", "prompt-caching", "token-cost", "compaction", "eviction", "cache-efficiency", "research"]
+date: 2026-07-03T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # TokenPilot and the Cache Invalidation Trap: Why Aggressive Context Pruning Can Cost More — and How to Configure Codex CLI's Compaction for Prompt Cache Efficiency
 
@@ -68,19 +68,19 @@ TokenPilot was evaluated on PinchBench and Claw-Eval using GPT-5.4-mini as the b
 
 | Mode | System | Score | Cost | Cache Miss (M tokens) |
 |---|---|---|---|---|
-| Isolated | Vanilla (no management) | 80.5 | $8.31 | 6.18 |
-| Isolated | TokenPilot | **81.0** | **$3.22** | 8.89 |
-| Continuous | Vanilla | 79.2 | $7.24 | 25.02 |
-| Continuous | TokenPilot | **81.3** | **$2.79** | 8.55 |
+| Isolated | Vanilla (no management) | 80.5 | \$8.31 | 6.18 |
+| Isolated | TokenPilot | **81.0** | **\$3.22** | 8.89 |
+| Continuous | Vanilla | 79.2 | \$7.24 | 25.02 |
+| Continuous | TokenPilot | **81.3** | **\$2.79** | 8.55 |
 
 ### Claw-Eval Results
 
 | Mode | System | Score | Cost | Cache Miss (M tokens) |
 |---|---|---|---|---|
-| Isolated | Vanilla | 64.5 | $5.16 | 4.64 |
-| Isolated | TokenPilot | 63.1 | **$2.27** | 1.15 |
-| Continuous | Vanilla | 63.4 | $81.52 | 21.98 |
-| Continuous | TokenPilot | 60.8 | **$10.58** | 9.93 |
+| Isolated | Vanilla | 64.5 | \$5.16 | 4.64 |
+| Isolated | TokenPilot | 63.1 | **\$2.27** | 1.15 |
+| Continuous | Vanilla | 63.4 | \$81.52 | 21.98 |
+| Continuous | TokenPilot | 60.8 | **\$10.58** | 9.93 |
 
 The headline: **61% cost reduction in isolated mode, up to 87% in continuous mode**, with competitive or improved task performance [^4]. The continuous-mode savings are particularly relevant for Codex CLI, where long sessions with dozens of tool calls are the norm.
 
@@ -90,9 +90,9 @@ The ablation study on PinchBench continuous mode isolates each component's contr
 
 | Configuration | Score | Cost | Cache Miss (M) |
 |---|---|---|---|
-| Vanilla | 79.2 | $7.24 | 5.94 |
-| + Global Compaction only | 79.9 | $4.22 | 1.59 |
-| + Global + Local Eviction | **81.3** | **$2.79** | 1.55 |
+| Vanilla | 79.2 | \$7.24 | 5.94 |
+| + Global Compaction only | 79.9 | \$4.22 | 1.59 |
+| + Global + Local Eviction | **81.3** | **\$2.79** | 1.55 |
 
 Global compaction alone cuts cache misses by 73%. Adding lifecycle eviction reduces cache reads by 65% on top. Neither layer works as well in isolation.
 

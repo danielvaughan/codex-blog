@@ -1,11 +1,11 @@
 ---
 title: "Beyond Model Chasing: Why the June 2026 Benchmark Convergence Means Your Codex CLI Configuration Is the Real Competitive Advantage"
-parent: "Articles"
-nav_order: 752
 type: Technical Article
 timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-beyond-model-chasing-benchmark-convergence-codex-cli-configuration-competitive-advantage"
 tags: ["codex-cli", "benchmarks", "configuration", "model-selection", "harness-engineering", "context-infrastructure", "profiles", "Terminal-Bench", "SWE-bench", "competitive-advantage"]
+date: 2026-06-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Beyond Model Chasing: Why the June 2026 Benchmark Convergence Means Your Codex CLI Configuration Is the Real Competitive Advantage
 
@@ -47,7 +47,7 @@ Sourcegraph's CodeScaleBench evaluated 370 tasks across 40+ repositories and nin
 
 - **File recall** jumped from 0.127 to 0.277 with MCP-augmented search
 - **Cross-repository precision** went from essentially zero (0.007) to 0.471
-- **Per-task cost** dropped from $0.73 to $0.51
+- **Per-task cost** dropped from \$0.73 to \$0.51
 
 These gains came from adding a single MCP server providing code search, not from changing the model. The agent was Claude in both cases; only the context infrastructure changed.
 

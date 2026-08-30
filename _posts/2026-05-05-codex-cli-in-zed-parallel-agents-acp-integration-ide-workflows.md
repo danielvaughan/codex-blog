@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI in Zed 1.0: Parallel Agents, ACP Integration, and Multi-Agent IDE Workflows"
 description: "Zed 1.0 shipped on 29 April 2026 with parallel agents as its headline AI feature. You can now run Codex CLI alongside Claude Agent, Gemini CLI."
-parent: "Articles"
-nav_order: 308
 type: Technical Article
 timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-in-zed-parallel-agents-acp-integration-ide-workflows"
 tags: ["codex-cli", "zed", "acp", "agent-client-protocol", "parallel-agents", "ide-integration", "multi-agent", "codex-acp"]
+date: 2026-05-05T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI in Zed 1.0: Parallel Agents, ACP Integration, and Multi-Agent IDE Workflows](/sketchnotes/articles/2026-05-05-codex-cli-in-zed-parallel-agents-acp-integration-ide-workflows.png)
 

@@ -1,11 +1,11 @@
 ---
 title: "Claude Fable 5 Enters the Arena: What Anthropic's Benchmark-Topping Model Means for Codex CLI Multi-Model Strategies"
-parent: "Articles"
-nav_order: 730
 type: Technical Article
 timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-claude-fable-5-benchmark-leader-codex-cli-multi-model-strategy-competitive-response"
 tags: ["codex-cli", "claude-fable-5", "claude-mythos-5", "anthropic", "multi-model", "benchmark", "swe-bench", "terminal-bench", "competitive-landscape", "model-routing", "cost-optimisation"]
+date: 2026-06-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Claude Fable 5 Enters the Arena: What Anthropic's Benchmark-Topping Model Means for Codex CLI Multi-Model Strategies
 
@@ -61,10 +61,10 @@ The cost arithmetic is straightforward but consequential at scale.
 
 | Model | Input (per 1M tokens) | Output (per 1M tokens) | Cached Input |
 |---|---|---|---|
-| GPT-5.5 | $5.00 | $30.00 | $0.50 (90% discount) |
-| Claude Fable 5 | $10.00 | $50.00 | Not disclosed [^6] |
-| GPT-5.5 Pro | $30.00 | $180.00 | N/A |
-| Codex-mini-latest | $1.50 | $6.00 | — |
+| GPT-5.5 | \$5.00 | \$30.00 | \$0.50 (90% discount) |
+| Claude Fable 5 | \$10.00 | \$50.00 | Not disclosed [^6] |
+| GPT-5.5 Pro | \$30.00 | \$180.00 | N/A |
+| Codex-mini-latest | \$1.50 | \$6.00 | — |
 
 Fable 5 costs 2x GPT-5.5 on input and 1.67x on output [^6]. On raw sticker price, GPT-5.5 is the cheaper model for equivalent throughput.
 
@@ -163,7 +163,7 @@ flowchart TD
 ### Use codex-mini-latest or Spark when:
 
 - Speed matters more than depth: scaffolding, boilerplate, quick lookups
-- Budget is the primary constraint: at $1.50/$6.00 per million tokens, mini is 3.3x cheaper than GPT-5.5 on input [^10]
+- Budget is the primary constraint: at \$1.50/\$6.00 per million tokens, mini is 3.3x cheaper than GPT-5.5 on input [^10]
 
 ## The Competitive Pressure on Codex CLI
 

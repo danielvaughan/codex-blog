@@ -1,11 +1,11 @@
 ---
 title: "AA-AgentPerf and the Infrastructure Bottleneck: What the First Agentic Inference Benchmark Means for Codex CLI at Scale"
-parent: "Articles"
-nav_order: 875
 type: Technical Article
 timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-aa-agentperf-first-agentic-inference-benchmark-codex-cli-infrastructure-hardware-agents-per-megawatt"
 tags: ["codex-cli", "aa-agentperf", "inference-infrastructure", "agents-per-megawatt", "hardware-benchmark", "self-hosted", "token-economics"]
+date: 2026-06-25T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # AA-AgentPerf and the Infrastructure Bottleneck: What the First Agentic Inference Benchmark Means for Codex CLI at Scale
 
@@ -140,7 +140,7 @@ graph LR
 
 ## The Cost Dimension AA-AgentPerf Exposes
 
-The Agents/MW metric is fundamentally an economics metric. At enterprise scale, inference power consumption dominates operational cost. Current estimates put agentic coding workloads at $150–$250 per developer per month for Claude Code, with power users significantly exceeding that band [^5]. Codex CLI's token consumption is comparable.
+The Agents/MW metric is fundamentally an economics metric. At enterprise scale, inference power consumption dominates operational cost. Current estimates put agentic coding workloads at \$150–\$250 per developer per month for Claude Code, with power users significantly exceeding that band [^5]. Codex CLI's token consumption is comparable.
 
 The 20× efficiency gap between Blackwell and Hopper translates directly to cost per agent-hour. For organisations evaluating whether to run inference internally or consume API credits, AA-AgentPerf provides the first hardware-specific data to inform that calculation rather than relying on API pricing alone.
 
@@ -172,7 +172,7 @@ The benchmark has deliberate scope limitations worth noting:
 
 [^4]: NVIDIA, "NVIDIA Achieves Leading Agentic Coding Performance on First Agentic AI Benchmark," NVIDIA Technical Blog, June 2026. [https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark/](https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark/)
 
-[^5]: MorphLLM, "AI Coding Costs (2026): Claude vs Codex vs Gemini, Real Monthly Spend From Token Math ($20 to $1,000+)," 2026. [https://www.morphllm.com/ai-coding-costs](https://www.morphllm.com/ai-coding-costs)
+[^5]: MorphLLM, "AI Coding Costs (2026): Claude vs Codex vs Gemini, Real Monthly Spend From Token Math (\$20 to \$1,000+)," 2026. [https://www.morphllm.com/ai-coding-costs](https://www.morphllm.com/ai-coding-costs)
 
 [^6]: OpenAI, "Changelog — Codex," OpenAI Developers, June 2026. [https://developers.openai.com/codex/changelog](https://developers.openai.com/codex/changelog)
 

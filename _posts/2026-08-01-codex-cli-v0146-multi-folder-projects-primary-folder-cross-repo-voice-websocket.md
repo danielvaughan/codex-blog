@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.146: Multi-Folder Projects, Primary Folder Discovery, and Voice-Driven Agent Orchestration"
-parent: "Articles"
-nav_order: 1357
+date: 2026-08-01T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "multi-folder", "v0.146", "primary-folder", "voice", "websocket", "cross-repo", "monorepo", "polyrepo"]
 ---
 
@@ -102,7 +102,7 @@ Voice minutes operate on rolling five-hour cycles, separate from Codex task budg
 | Plan | Voice Window | Codex Tasks |
 |------|-------------|-------------|
 | Plus | 15–30 min / 5 hr | Metered |
-| Pro ($200/mo) | Unlimited minutes | Still metered |
+| Pro (\$200/mo) | Unlimited minutes | Still metered |
 | Business / Enterprise | 45 min / 5 hr | Credit-based |
 
 ### Limitations Worth Noting

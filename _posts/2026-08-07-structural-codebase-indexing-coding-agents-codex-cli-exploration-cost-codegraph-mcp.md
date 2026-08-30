@@ -1,7 +1,7 @@
 ---
 title: "Code Isn't Memory: What Structural Codebase Indexing Means for Your Codex CLI Exploration Costs"
-parent: "Articles"
-nav_order: 1428
+date: 2026-08-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "codebase-indexing", "code-graph", "MCP", "exploration", "tree-sitter", "cost-optimisation"]
 ---
 
@@ -30,8 +30,8 @@ The results were unambiguous.
 |--------|-----------------|--------------------|--------------------|
 | Resolve % | 50.4 | 41.9 | 45.3 |
 | Localisation acc@5 | 84.5% | 44.3% | 75.3% |
-| $/solved | $2.30 | $2.84 | $2.92 |
-| $/cell mean | $1.15 | $1.19 | $1.32 |
+| $/solved | \$2.30 | \$2.84 | \$2.92 |
+| $/cell mean | \$1.15 | \$1.19 | \$1.32 |
 | Mean turns | 28.3 | 36.2 | 36.0 |
 | Mean tokens | 10.1k | 11.1k | 14.0k |
 

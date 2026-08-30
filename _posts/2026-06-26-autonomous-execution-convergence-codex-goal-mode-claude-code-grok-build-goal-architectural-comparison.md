@@ -1,11 +1,11 @@
 ---
 title: "The Autonomous Execution Convergence: Three Agents, Three Architectures, One /goal Command"
-parent: "Articles"
-nav_order: 887
 type: Technical Article
 timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-autonomous-execution-convergence-codex-goal-mode-claude-code-grok-build-goal-architectural-comparison"
 tags: ["codex-cli", "goal-mode", "autonomous-execution", "claude-code", "grok-build", "convergence", "architecture", "competitive-analysis"]
+date: 2026-06-26T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The Autonomous Execution Convergence: Three Agents, Three Architectures, One /goal Command
 
@@ -110,7 +110,7 @@ Key differentiators:
 - **Arena Mode heritage**: Grok Build's earlier Arena Mode — which scores and ranks competing outputs before developer review — influences the verification philosophy[^14]. The verification pass treats the agent's own output with the same scepticism it would apply to a competitor's.
 - **Agent Dashboard**: the `grok dashboard` command (or `Ctrl+\`) provides a single screen for managing multiple concurrent goal sessions, with sessions sorted by state and blocker-first ordering[^15].
 
-The weakness is cost: a SuperGrok Heavy subscription ($300/month) is required for full `/goal` access[^16], and the multi-model pipeline burns tokens at both the planning and execution tiers. The 2-million-token context window from the underlying Grok-4.20 Beta infrastructure enables extended workflows but multiplies spend on long goals[^16].
+The weakness is cost: a SuperGrok Heavy subscription (\$300/month) is required for full `/goal` access[^16], and the multi-model pipeline burns tokens at both the planning and execution tiers. The 2-million-token context window from the underlying Grok-4.20 Beta infrastructure enables extended workflows but multiplies spend on long goals[^16].
 
 ## The Verification Problem
 
@@ -186,7 +186,7 @@ Three takeaways:
 
 **Self-verification is not enough.** Codex CLI's single-model architecture means you should always pair Goal Mode with `PostToolUse` hooks that run external verification. The model checking its own work is necessary but insufficient — hooks close the gap.
 
-**Token budgets are your primary cost control.** Unlike Claude Code's negligible evaluator overhead or Grok Build's expensive multi-model pipeline, Codex CLI's cost scales linearly with a single model. The `rollout_token_budget` is not optional in production — it is the difference between a $2 goal and a $200 one.
+**Token budgets are your primary cost control.** Unlike Claude Code's negligible evaluator overhead or Grok Build's expensive multi-model pipeline, Codex CLI's cost scales linearly with a single model. The `rollout_token_budget` is not optional in production — it is the difference between a \$2 goal and a \$200 one.
 
 **The sandbox advantage is real.** Codex CLI is the only agent that runs autonomous execution inside a kernel-level sandbox with no opt-out. Claude Code uses container isolation; Grok Build's sandboxing during `/goal` execution is not publicly documented[^16]. For regulated environments, this is not a minor distinction.
 

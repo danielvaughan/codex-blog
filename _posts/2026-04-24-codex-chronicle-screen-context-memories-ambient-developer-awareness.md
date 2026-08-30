@@ -1,12 +1,12 @@
 ---
 title: "Codex Chronicle and Screen-Context Memories: Ambient Developer Awareness for AI Coding Agents"
 description: "On 20 April 2026, OpenAI shipped Chronicle as a research preview inside the Codex macOS app . The feature augments Codex's existing memory system with."
-parent: "Articles"
-nav_order: 146
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-chronicle-screen-context-memories-ambient-developer-awareness"
 tags: ["codex", "chronicle", "memories", "screen-context", "ambient-awareness", "privacy", "mcp", "open-chronicle", "macOS"]
+date: 2026-04-24T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex Chronicle and Screen-Context Memories: Ambient Developer Awareness for AI Coding Agents](/sketchnotes/articles/2026-04-24-codex-chronicle-screen-context-memories-ambient-developer-awareness.png)
 

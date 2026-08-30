@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI Reasoning Tiers: Mapping the June 2026 Model Picker to CLI Profiles for Cross-Surface Consistency"
-parent: "Articles"
-nav_order: 1154
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-reasoning-tiers-model-picker-cli-profiles-cross-surface-consistency"
 tags: ["codex-cli", "reasoning-effort", "model-picker", "named-profiles", "cross-surface", "config-toml", "gpt-5.5", "cost-optimisation", "enterprise"]
+date: 2026-06-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI Reasoning Tiers: Mapping the June 2026 Model Picker to CLI Profiles for Cross-Surface Consistency
 
@@ -105,7 +105,7 @@ The `/effort` slash command allows mid-session switching without restarting[^9]:
 
 ## The Token Economics of Each Tier
 
-Understanding the cost implications is essential for budget-conscious teams. GPT-5.5 pricing sits at $5.00 per million input tokens and $30.00 per million output tokens[^10]. Reasoning tokens — the hidden "thinking" tokens the model generates internally — count as output tokens but are not visible in the response[^3].
+Understanding the cost implications is essential for budget-conscious teams. GPT-5.5 pricing sits at \$5.00 per million input tokens and \$30.00 per million output tokens[^10]. Reasoning tokens — the hidden "thinking" tokens the model generates internally — count as output tokens but are not visible in the response[^3].
 
 ```mermaid
 graph LR
@@ -125,7 +125,7 @@ The multipliers above are approximate and task-dependent. A simple code formatti
 
 ### Cached Input Discount
 
-GPT-5.5 cached input tokens cost $0.50 per million — a 90% discount on standard input pricing[^10]. For teams running repeated sessions against the same codebase, this makes `high` and `xhigh` significantly more affordable on second and subsequent turns, since AGENTS.md files, system prompts, and tool definitions all hit the cache.
+GPT-5.5 cached input tokens cost \$0.50 per million — a 90% discount on standard input pricing[^10]. For teams running repeated sessions against the same codebase, this makes `high` and `xhigh` significantly more affordable on second and subsequent turns, since AGENTS.md files, system prompts, and tool definitions all hit the cache.
 
 ## Plan Mode Reasoning Effort
 
@@ -237,7 +237,7 @@ The simplified model picker is a usability improvement for casual ChatGPT users,
 
 [^9]: Codex Knowledge Base, "Reasoning Effort Tuning: Minimal to xhigh for Cost and Speed", [https://codex.danielvaughan.com/2026/03/27/reasoning-effort-tuning/](https://codex.danielvaughan.com/2026/03/27/reasoning-effort-tuning/)
 
-[^10]: OpenAI, "API Pricing — GPT-5.5: $5/$30 per 1M tokens", [https://openai.com/api/pricing/](https://openai.com/api/pricing/)
+[^10]: OpenAI, "API Pricing — GPT-5.5: \$5/\$30 per 1M tokens", [https://openai.com/api/pricing/](https://openai.com/api/pricing/)
 
 [^11]: OpenAI, "Codex CLI — requirements.toml policy enforcement", [https://developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
 

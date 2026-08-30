@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI in the Multi-Cloud Era: Configuring Model Providers Across AWS Bedrock, Azure OpenAI, Oracle OCI, and Direct OpenAI"
-parent: "Articles"
-nav_order: 762
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-multi-cloud-provider-configuration-aws-bedrock-azure-oracle-post-exclusivity-enterprise"
 tags: ["codex-cli", "multi-cloud", "aws-bedrock", "azure-openai", "oracle-oci", "model-providers", "enterprise", "configuration", "config-toml", "post-exclusivity"]
+date: 2026-06-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI in the Multi-Cloud Era: Configuring Model Providers Across AWS Bedrock, Azure OpenAI, Oracle OCI, and Direct OpenAI
 
@@ -301,7 +301,7 @@ The multi-cloud era does not change what Codex CLI does. It changes who pays for
 
 ## Citations
 
-[^1]: TechCrunch, "OpenAI ends Microsoft legal peril over its $50B Amazon deal," 27 April 2026. [https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/](https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/)
+[^1]: TechCrunch, "OpenAI ends Microsoft legal peril over its \$50B Amazon deal," 27 April 2026. [https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/](https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/)
 
 [^2]: AWS, "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock," April 2026. [https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/](https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/)
 

@@ -1,12 +1,12 @@
 ---
 title: "Hook Gotchas: Seven PreToolUse and PostToolUse Timing Mistakes That Break Deterministic Enforcement in Codex CLI"
 description: "Hooks are the deterministic enforcement layer that makes agent compliance guaranteed rather than probable. But misconfiguring hook timing, scope, and exit codes silently downgrades your guardrails from ironclad to advisory."
-parent: "Articles"
-nav_order: 963
 type: Technical Article
 timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-hook-gotchas-pretooluse-posttooluse-codex-cli-deterministic-enforcement-timing-mistakes"
 tags: ["codex-cli", "hooks", "PreToolUse", "PostToolUse", "deterministic-enforcement", "anti-patterns", "security", "guardrails"]
+date: 2026-07-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Hook Gotchas: Seven PreToolUse and PostToolUse Timing Mistakes That Break Deterministic Enforcement in Codex CLI
 

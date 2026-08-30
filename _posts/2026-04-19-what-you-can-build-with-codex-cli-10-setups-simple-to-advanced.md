@@ -1,12 +1,12 @@
 ---
 title: "What You Can Build with Codex CLI: 10 Real-World Setups from Simple to Advanced"
 description: "Developers evaluating Codex CLI often ask the same question: what can I actually do with it? The answer depends on how deep you want to go. Codex CLI scales."
-parent: "Articles"
-nav_order: 88
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-what-you-can-build-with-codex-cli-10-setups-simple-to-advanced"
 tags: ["codex-cli", "setups", "workflows", "getting-started", "architecture", "multi-agent", "MCP", "CI/CD"]
+date: 2026-04-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: What You Can Build with Codex CLI: 10 Real-World Setups from Simple to Advanced](/sketchnotes/articles/2026-04-19-what-you-can-build-with-codex-cli-10-setups-simple-to-advanced.png)
 

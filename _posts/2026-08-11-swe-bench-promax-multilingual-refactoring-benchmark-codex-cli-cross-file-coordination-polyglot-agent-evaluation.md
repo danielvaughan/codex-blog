@@ -1,7 +1,7 @@
 ---
 title: "SWE-Bench ProMax and the Multilingual Refactoring Challenge: Why Cross-File Coordination Exposes Coding Agent Limits — and What It Means for Codex CLI Polyglot Workflows"
-parent: "Articles"
-nav_order: 1472
+date: 2026-08-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["swe-bench-promax", "benchmark", "multilingual", "refactoring", "codex-cli", "cross-file", "polyglot", "evaluation"]
 ---
 
@@ -69,7 +69,7 @@ Critically, issue descriptions were rewritten from scratch to provide "precise, 
 
 ## Agent Performance: 41.2% Ceiling
 
-Two evaluation scaffolds were tested — **mini-swe-agent** (minimal: file viewing, editing, searching, bash) and **OpenHands** (richer sandboxed runtime) — each with a 300-step and $10-cost limit per instance [^2].
+Two evaluation scaffolds were tested — **mini-swe-agent** (minimal: file viewing, editing, searching, bash) and **OpenHands** (richer sandboxed runtime) — each with a 300-step and \$10-cost limit per instance [^2].
 
 ```mermaid
 graph LR
@@ -96,7 +96,7 @@ Several observations stand out:
 
 1. **The scaffold matters enormously.** GPT-5.2 tops OpenHands at 41.2% but drops to 21.8% on mini-swe-agent — nearly halved. The harness is not a neutral container; it is a co-author of the result [^2].
 
-2. **Cost does not correlate with success.** Claude Sonnet 4.6 spends $4.77 per instance for 38.8% on OpenHands, while GLM-5 achieves the same 36.5% for $0.24 — a 20× cost difference for a 2.3 percentage point gap [^2]. Human analysis revealed that higher spending typically reflected "unproductive edit-revert cycles rather than genuine progress" [^2].
+2. **Cost does not correlate with success.** Claude Sonnet 4.6 spends \$4.77 per instance for 38.8% on OpenHands, while GLM-5 achieves the same 36.5% for \$0.24 — a 20× cost difference for a 2.3 percentage point gap [^2]. Human analysis revealed that higher spending typically reflected "unproductive edit-revert cycles rather than genuine progress" [^2].
 
 3. **No agent breaks 50%.** The best result (41.2%) means nearly 60% of well-specified, expert-curated refactoring tasks remain unsolved. This is an unsaturated benchmark by design.
 
@@ -163,7 +163,7 @@ The `AGENTS.md` file can encode refactoring constraints that prevent the edit-re
 
 ### Token Budget Awareness
 
-ProMax's cost data — $4.77 per instance for Claude Sonnet 4.6 versus $0.24 for GLM-5 at comparable resolve rates — reinforces the importance of Codex CLI's token controls:
+ProMax's cost data — \$4.77 per instance for Claude Sonnet 4.6 versus \$0.24 for GLM-5 at comparable resolve rates — reinforces the importance of Codex CLI's token controls:
 
 ```toml
 [profiles.refactor-budget]

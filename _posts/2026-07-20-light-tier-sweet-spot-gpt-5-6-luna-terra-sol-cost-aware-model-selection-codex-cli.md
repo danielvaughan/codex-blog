@@ -1,7 +1,7 @@
 ---
 title: "The Light-Tier Sweet Spot: When Luna at 10x Speed Beats Sol at 10x Cost"
-parent: "Articles"
-nav_order: 1235
+date: 2026-07-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "gpt-5.6", "luna", "terra", "sol", "model-selection", "cost-optimisation", "named-profiles", "token-economics"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["codex-cli", "gpt-5.6", "luna", "terra", "sol", "model-selection", "cost-
 
 ---
 
-GPT-5.6 shipped to general availability on 9 July 2026 with three tiers: Sol ($5/$30 per 1M input/output tokens), Terra ($2.50/$15), and Luna ($1/$6) [^1]. The instinct is to reach for Sol — the flagship — and stay there. That instinct is expensive and, for most Codex CLI workflows, wrong.
+GPT-5.6 shipped to general availability on 9 July 2026 with three tiers: Sol (\$5/\$30 per 1M input/output tokens), Terra (\$2.50/\$15), and Luna (\$1/\$6) [^1]. The instinct is to reach for Sol — the flagship — and stay there. That instinct is expensive and, for most Codex CLI workflows, wrong.
 
 Luna costs roughly 80% less per solved task than Sol [^2]. On Terminal-Bench 2.1, the benchmark most relevant to CLI agent work, Luna scores 84.7% against Sol's 88.8% [^3]. That 4.1-point gap disappears entirely when you factor in what matters for iterative development: cost per revision cycle, not score per single attempt.
 
@@ -20,7 +20,7 @@ This article explores when to use each tier, how to wire tiered model selection 
 
 Benchmark leaderboards report accuracy per attempt. Developers work in revision loops. The distinction matters.
 
-Artificial Analysis measured cost per solved task across the GPT-5.6 family: Sol at $1.04, Terra at $0.55, Luna at $0.21 [^2]. Luna delivers roughly 24 benchmark points per estimated API dollar, compared with 4.5 for Claude Opus 4.8 and 3.2 for Claude Fable 5 [^3]. That is not a marginal difference — it is an order-of-magnitude efficiency gap.
+Artificial Analysis measured cost per solved task across the GPT-5.6 family: Sol at \$1.04, Terra at \$0.55, Luna at \$0.21 [^2]. Luna delivers roughly 24 benchmark points per estimated API dollar, compared with 4.5 for Claude Opus 4.8 and 3.2 for Claude Fable 5 [^3]. That is not a marginal difference — it is an order-of-magnitude efficiency gap.
 
 But cost per task is itself a partial picture. In practice, a developer using Luna can run five attempts for the price of one Sol attempt. If even one of those five succeeds, Luna wins on total spend. For well-scoped tasks — the kind that dominate daily work — first-attempt success rates are high enough that Luna rarely needs all five.
 
@@ -68,7 +68,7 @@ Sol's 88.8% Terminal-Bench score and 62.6% OSWorld score reflect genuine multi-s
 
 ## Terra: The Awkward Middle
 
-Terra occupies an interesting position. At $2.50/$15 per 1M tokens, it delivers GPT-5.5-class performance at half the cost [^5]. On most benchmarks, it sits within 2-3 points of Sol — close enough that the quality difference is invisible in practice. On Agents' Last Exam, Terra scores 50.4 against Sol's 53.6 [^5].
+Terra occupies an interesting position. At \$2.50/\$15 per 1M tokens, it delivers GPT-5.5-class performance at half the cost [^5]. On most benchmarks, it sits within 2-3 points of Sol — close enough that the quality difference is invisible in practice. On Agents' Last Exam, Terra scores 50.4 against Sol's 53.6 [^5].
 
 The awkwardness: Luna and Sol consistently occupy the Pareto frontier ahead of Terra [^2]. Each offers either greater intelligence at equal cost or equivalent performance at lower expense. Terra is the sensible default for developers who want one model and refuse to think about it further. But developers willing to route tasks get better economics from a Luna-plus-Sol combination.
 
@@ -135,7 +135,7 @@ In practice, this means:
 3. **Escalate to Terra** if Luna's output is structurally correct but lacks nuance
 4. **Escalate to Sol** only for genuine complexity — security review, architectural refactoring, multi-system integration
 
-This pattern compounds dramatically over a working day. A developer running 40-50 Codex tasks daily (not unusual for heavy agent users [^7]) saves roughly $30-40 per day by defaulting to Luna instead of Sol. Over a month, that is $600-800 — enough to fund additional Pro-tier seats or simply reduce the team's AI tooling budget.
+This pattern compounds dramatically over a working day. A developer running 40-50 Codex tasks daily (not unusual for heavy agent users [^7]) saves roughly \$30-40 per day by defaulting to Luna instead of Sol. Over a month, that is \$600-800 — enough to fund additional Pro-tier seats or simply reduce the team's AI tooling budget.
 
 ## Reasoning Effort: The Other Lever
 

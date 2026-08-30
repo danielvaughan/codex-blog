@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI for Scala Development Teams: Metals MCP, sbt, and Idiomatic Functional Workflows"
 description: "Dedicated language-specific Codex CLI articles exist for Go, Rust, Ruby/Rails, Python/Django/FastAPI, C/C++, Elixir/Phoenix, Swift, Kotlin/Android."
-parent: "Articles"
-nav_order: 469
 type: Technical Article
 timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-for-scala-development-teams-metals-mcp-sbt-functional-agent-workflows"
 tags: ["codex-cli", "scala", "scala-3", "metals", "mcp", "sbt", "functional-programming", "agents-md", "development-workflow"]
+date: 2026-05-21T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Scala Development Teams: Metals MCP, sbt, and Idiomatic Functional Workflows](/sketchnotes/articles/2026-05-21-codex-cli-for-scala-development-teams-metals-mcp-sbt-functional-agent-workflows.png)
 

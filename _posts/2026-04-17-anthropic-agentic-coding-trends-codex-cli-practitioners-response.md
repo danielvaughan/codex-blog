@@ -1,12 +1,12 @@
 ---
 title: "Anthropic's Eight Agentic Coding Trends Through a Codex CLI Lens: A Practitioner's Response"
 description: "Anthropic's 2026 Agentic Coding Trends Report, published in March 2026, identifies eight trends reshaping how software gets built . Drawing on case studies."
-parent: "Articles"
-nav_order: 62
 type: Technical Article
 timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-anthropic-agentic-coding-trends-codex-cli-practitioners-response"
 tags: ["agentic-coding", "anthropic", "trends-report", "multi-agent", "enterprise", "competitive-analysis", "codex-cli", "practitioner-guide"]
+date: 2026-04-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Anthropic's Eight Agentic Coding Trends Through a Codex CLI Lens: A Practitioner's Response](/sketchnotes/articles/2026-04-17-anthropic-agentic-coding-trends-codex-cli-practitioners-response.png)
 

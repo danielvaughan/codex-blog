@@ -1,7 +1,7 @@
 ---
 title: "AgentChaosBench: Why Runtime Fault Detection from Telemetry Remains Unsolved — and What It Means for Your Codex CLI Observability Stack"
-parent: "Articles"
-nav_order: 1846
+date: 2026-08-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "observability", "fault-detection", "telemetry", "OTLP", "rollout-JSONL", "guardrail-bypass", "AgentChaosBench", "runtime-faults", "structured-traces"]
 ---
 
@@ -145,7 +145,7 @@ This creates an external guardrail-decision log that compensates for the missing
 
 For critical workflows, tag known-good session IDs in your AGENTS.md:
 
-```markdown
+```md
 ## Reference Traces
 
 | Workflow | Reference Session ID | Date |

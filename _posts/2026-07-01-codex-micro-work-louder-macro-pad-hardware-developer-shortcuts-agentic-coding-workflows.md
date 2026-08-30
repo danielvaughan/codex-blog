@@ -1,11 +1,11 @@
 ---
 title: "The Codex Micro: OpenAI's First Hardware and What a Macro Pad Means for Agentic Coding Workflows"
-parent: "Articles"
-nav_order: 926
 type: Technical Article
 timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-codex-micro-work-louder-macro-pad-hardware-developer-shortcuts-agentic-coding-workflows"
 tags: ["codex-micro", "hardware", "work-louder", "macro-pad", "developer-workflows", "codex-cli", "agentic-coding", "shortcuts", "TUI", "approval-gates"]
+date: 2026-07-01T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The Codex Micro: OpenAI's First Hardware and What a Macro Pad Means for Agentic Coding Workflows
 
@@ -32,7 +32,7 @@ The Codex Micro is built on Work Louder's **Creator Micro 2** chassis [^4]. That
 | Frame | CNC aluminium frame, PMMA shell |
 | Platform support | macOS, Windows, Linux, iOS, Android |
 
-The Creator Micro 2 Base retails at $144 and the Pro at $174 [^5]. Neither OpenAI nor Work Louder has published Codex Micro-specific pricing ahead of the 15 July reveal [^2].
+The Creator Micro 2 Base retails at \$144 and the Pro at \$174 [^5]. Neither OpenAI nor Work Louder has published Codex Micro-specific pricing ahead of the 15 July reveal [^2].
 
 The device supports two configuration tools: Work Louder's proprietary **Input configurator** (application-linked layer switching, multi-step macros) and the open-source **VIA configurator** built on QMK firmware, which allows real-time key remapping without reflashing [^5].
 
@@ -157,7 +157,7 @@ Developers interested in hardware-accelerated Codex workflows should:
 1. **Audit your approval patterns.** Run a session with `CODEX_LOG_LEVEL=trace` and count approval events. If you approve more than 20 actions per session, a dedicated approval key saves measurable time.
 2. **Identify your top 10 slash commands.** Map them to a VIA layer now, on whatever hardware you have.
 3. **Consider your `approval_policy`.** If you are running `suggest` mode purely because you lack a fast approval mechanism, the Codex Micro may allow you to remain in `suggest` while matching the throughput of `auto-edit`.
-4. **Wait for pricing.** The Creator Micro 2 Base at $144 is a known quantity [^5]. The Codex Micro may carry a premium, or it may ship with Codex-specific firmware profiles that justify the cost.
+4. **Wait for pricing.** The Creator Micro 2 Base at \$144 is a known quantity [^5]. The Codex Micro may carry a premium, or it may ship with Codex-specific firmware profiles that justify the cost.
 
 The full reveal is 15 July 2026. Until then, the takeaway is clear: OpenAI considers the human-agent interaction surface important enough to ship physical hardware for it.
 

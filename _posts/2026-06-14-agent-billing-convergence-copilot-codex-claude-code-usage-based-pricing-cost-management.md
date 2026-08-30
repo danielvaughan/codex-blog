@@ -1,11 +1,11 @@
 ---
 title: "The Agent Billing Convergence: Managing Developer Costs as Copilot, Codex, and Claude Code All Move to Usage-Based Pricing"
-parent: "Articles"
-nav_order: 757
 type: Technical Article
 timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-agent-billing-convergence-copilot-codex-claude-code-usage-based-pricing-cost-management"
 tags: ["codex-cli", "pricing", "cost-management", "github-copilot", "claude-code", "usage-based-billing", "enterprise", "credits"]
+date: 2026-06-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The Agent Billing Convergence: Managing Developer Costs as Copilot, Codex, and Claude Code All Move to Usage-Based Pricing
 
@@ -35,11 +35,11 @@ gantt
 
 ### GitHub Copilot (1 June 2026)
 
-All Copilot plans now include a monthly AI Credit allotment, where 1 credit equals $0.01 USD [^1]. Pro subscribers receive 1,500 total credits ($15 effective, comprising 1,000 base + 500 flex), Pro+ gets 7,000 total ($70, comprising 3,900 base + 3,100 flex), Business 1,900 per seat ($19), and Enterprise 3,900 per seat ($39) [^4]. Code completions and Next Edit Suggestions remain free; chat and agent interactions consume credits at per-model token rates [^1].
+All Copilot plans now include a monthly AI Credit allotment, where 1 credit equals \$0.01 USD [^1]. Pro subscribers receive 1,500 total credits (\$15 effective, comprising 1,000 base + 500 flex), Pro+ gets 7,000 total (\$70, comprising 3,900 base + 3,100 flex), Business 1,900 per seat (\$19), and Enterprise 3,900 per seat (\$39) [^4]. Code completions and Next Edit Suggestions remain free; chat and agent interactions consume credits at per-model token rates [^1].
 
 ### Claude Code (15 June 2026)
 
-Anthropic is shifting Agent SDK, headless CLI, and GitHub Actions usage to dedicated credit pools billed at full API rates [^2]. Pro subscribers receive $20 in Claude Code credits, Max 5x gets $100, and Max 20x gets $200 [^2]. Unused credits do not roll over. Interactive Claude Code usage within the IDE remains on the standard subscription limits.
+Anthropic is shifting Agent SDK, headless CLI, and GitHub Actions usage to dedicated credit pools billed at full API rates [^2]. Pro subscribers receive \$20 in Claude Code credits, Max 5x gets \$100, and Max 20x gets \$200 [^2]. Unused credits do not roll over. Interactive Claude Code usage within the IDE remains on the standard subscription limits.
 
 ### OpenAI Workspace Agents (6 July 2026)
 
@@ -51,17 +51,17 @@ The pricing spread across platforms is substantial. The table below shows per-mi
 
 | Platform | Default Model | Input ($/1M) | Output ($/1M) | Cached Input ($/1M) |
 |----------|--------------|-------------|---------------|-------------------|
-| Codex (API key) | GPT-5.5 | $5.00 | $30.00 | $0.50 |
+| Codex (API key) | GPT-5.5 | \$5.00 | \$30.00 | \$0.50 |
 | Codex (Workspace) | GPT-5.5 | 125 credits | 750 credits | 12.50 credits |
-| Copilot | GPT-5.4 | $2.50 | $15.00 | $0.25 |
-| Copilot | GPT-5.5 | $5.00 | $30.00 | $0.50 |
-| Claude Code | Sonnet 4.6 | $3.00 | $15.00 | $0.30 |
-| Claude Code | Opus 4.8 | $5.00 | $25.00 | $0.50 |
-| Gemini CLI (via Copilot) | Gemini 3.5 Flash | $1.50 | $9.00 | $0.15 |
+| Copilot | GPT-5.4 | \$2.50 | \$15.00 | \$0.25 |
+| Copilot | GPT-5.5 | \$5.00 | \$30.00 | \$0.50 |
+| Claude Code | Sonnet 4.6 | \$3.00 | \$15.00 | \$0.30 |
+| Claude Code | Opus 4.8 | \$5.00 | \$25.00 | \$0.50 |
+| Gemini CLI (via Copilot) | Gemini 3.5 Flash | \$1.50 | \$9.00 | \$0.15 |
 
 [^6] [^7]
 
-The cheapest agentic path for routine tasks is GPT-5.4 nano on Copilot at $0.20/$1.25, or DeepSeek V4 Flash at $0.14/$0.28 via third-party routing [^7]. The most expensive is Claude Fable 5 at $10.00/$50.00 — a 179x spread on output pricing [^7].
+The cheapest agentic path for routine tasks is GPT-5.4 nano on Copilot at \$0.20/\$1.25, or DeepSeek V4 Flash at \$0.14/\$0.28 via third-party routing [^7]. The most expensive is Claude Fable 5 at \$10.00/\$50.00 — a 179x spread on output pricing [^7].
 
 ### Real-World Task Costs
 
@@ -69,14 +69,14 @@ Using realistic workload profiles (bug fix: 400K cumulative input tokens at 75% 
 
 | Task | Sonnet 4.6 | GPT-5.5 (Codex) | GPT-5.4 (Copilot) | Gemini 3.5 Flash |
 |------|-----------|-----------------|-------------------|-----------------|
-| Bug fix | $0.54 | $0.88 | $0.44 | $0.26 |
-| Feature | $2.28 | $3.70 | $1.85 | $1.09 |
+| Bug fix | \$0.54 | \$0.88 | \$0.44 | \$0.26 |
+| Feature | \$2.28 | \$3.70 | \$1.85 | \$1.09 |
 
-A developer averaging five bug fixes and two features per day would consume roughly $7.26/day on Sonnet 4.6, $11.80 on GPT-5.5, or $4.48 on Gemini 3.5 Flash. Monthly costs at this cadence: $145–$236 on Claude Code, $96–$236 on Copilot, or $90–$236 on Codex [^7].
+A developer averaging five bug fixes and two features per day would consume roughly \$7.26/day on Sonnet 4.6, \$11.80 on GPT-5.5, or \$4.48 on Gemini 3.5 Flash. Monthly costs at this cadence: \$145–\$236 on Claude Code, \$96–\$236 on Copilot, or \$90–\$236 on Codex [^7].
 
 ## The Dual-Tool Cost Trap
 
-Most teams do not use a single agent. Microsoft's own divisions reportedly faced approximately $2,000 per engineer per month in Claude Code token billing before migrating heavy usage to flat-rate Copilot Enterprise at $39 per seat [^7]. The lesson: agent costs compound silently across platforms.
+Most teams do not use a single agent. Microsoft's own divisions reportedly faced approximately \$2,000 per engineer per month in Claude Code token billing before migrating heavy usage to flat-rate Copilot Enterprise at \$39 per seat [^7]. The lesson: agent costs compound silently across platforms.
 
 ```mermaid
 flowchart TD
@@ -122,7 +122,7 @@ Invoke with `codex --profile quick "fix the typo in README"`. The difference bet
 
 ### 2. Maximise Cache Hits
 
-Prompt caching reduces effective input costs by up to 10x on OpenAI models (from $5.00 to $0.50 per million tokens for GPT-5.5) [^6]. Three practices that improve cache hit rates:
+Prompt caching reduces effective input costs by up to 10x on OpenAI models (from \$5.00 to \$0.50 per million tokens for GPT-5.5) [^6]. Three practices that improve cache hit rates:
 
 - **Stable system prompts**: keep AGENTS.md and skill instructions consistent across sessions so the prefix remains cacheable.
 - **Ordered context**: place static context (file maps, coding standards) before dynamic context (current diff, user prompt).
@@ -167,9 +167,9 @@ For unified monitoring, the `ccusage` community tool aggregates token consumptio
 
 Before defaulting to API keys, check whether subscription credits are actually cheaper:
 
-- **Codex Plus ($20/month)**: 15–80 messages per 5-hour window. At GPT-5.5 averaging 5–45 credits per message [^5], the effective floor is roughly 330 credits/month for light users — equivalent to approximately $3.30 in API value. Heavy users extracting 80 messages across multiple windows can reach $36+ in effective value.
-- **Claude Max 5x ($100/month)**: $100 in Claude Code credits. Breaks even against Opus 4.8 API rates at approximately 111 bug-fix tasks per month — roughly five per working day [^7].
-- **Copilot Pro ($10/month)**: 1,500 total credits ($15 value, base + flex). With GPT-5.4 as the default, this covers approximately 10 agent chat sessions before exhaustion [^4].
+- **Codex Plus (\$20/month)**: 15–80 messages per 5-hour window. At GPT-5.5 averaging 5–45 credits per message [^5], the effective floor is roughly 330 credits/month for light users — equivalent to approximately \$3.30 in API value. Heavy users extracting 80 messages across multiple windows can reach \$36+ in effective value.
+- **Claude Max 5x (\$100/month)**: \$100 in Claude Code credits. Breaks even against Opus 4.8 API rates at approximately 111 bug-fix tasks per month — roughly five per working day [^7].
+- **Copilot Pro (\$10/month)**: 1,500 total credits (\$15 value, base + flex). With GPT-5.4 as the default, this covers approximately 10 agent chat sessions before exhaustion [^4].
 
 For most individual developers, subscriptions still offer better value than raw API billing. The API key path becomes cheaper only at very high volume or when you need cheaper models not available through subscriptions.
 

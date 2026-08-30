@@ -1,7 +1,7 @@
 ---
 title: "DyCoder and Partial Dependency Graphs: What On-Demand Dependency Traversal Means for Your Codex CLI Context Strategy"
-parent: "Articles"
-nav_order: 1843
+date: 2026-08-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "context-retrieval", "dependency-graph", "repository-level-code-generation", "MCP", "DyCoder", "DyRetriever", "RAG"]
 ---
 
@@ -80,7 +80,7 @@ DyCoder was evaluated with three LLMs across two benchmarks [^1]:
 
 Two patterns stand out. First, the improvement is **model-dependent**: Qwen3-Coder-30B shows 14.65–30.99% gains whilst GPT-4o-mini shows 7.5–9.0% [^1]. Stronger reasoning models extract more value from dependency context. Second, the combined retrieval (DyRetriever + similarity) consistently outperforms either method alone, confirming **strong complementarity** between the two retrieval strategies [^1].
 
-The cost per function is approximately $0.0039 in LLM API calls [^1], making the approach economically viable even for large repositories.
+The cost per function is approximately \$0.0039 in LLM API calls [^1], making the approach economically viable even for large repositories.
 
 ## What This Means for Codex CLI
 
@@ -169,7 +169,7 @@ Several limitations constrain direct application to Codex CLI workflows:
 
 - **Python only**: DyCoder has been evaluated exclusively on Python repositories [^1]. Codex CLI operates across all languages, and dependency resolution varies significantly between ecosystems (Python imports vs. Go packages vs. Rust crate modules).
 - **No built-in dependency MCP server**: Codex CLI ships no dependency-graph tool. Users must build or install one.
-- **LLM cost at scale**: At $0.0039 per function [^1], generating 1,000 functions costs roughly $3.90 in retrieval alone — manageable, but not negligible for CI pipelines generating code at volume.
+- **LLM cost at scale**: At \$0.0039 per function [^1], generating 1,000 functions costs roughly \$3.90 in retrieval alone — manageable, but not negligible for CI pipelines generating code at volume.
 - **Hallucination in dependency identification**: Despite 93.22% accuracy [^1], the remaining ~7% of incorrectly identified dependencies could introduce misleading context. The post-processing validation step is essential but imperfect.
 
 ⚠️ The paper does not evaluate DyCoder with GPT-5.x models or within an agentic loop where the agent can iteratively refine its retrieval. Performance in a multi-turn Codex CLI session may differ from the single-shot evaluation reported.

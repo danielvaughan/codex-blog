@@ -1,7 +1,7 @@
 ---
 title: "Steering vs Dispatching: The Two Agent Interaction Patterns Every Developer Needs"
-parent: "Articles"
-nav_order: 1217
+date: 2026-07-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "claude-code", "agent-patterns", "steering", "dispatching", "workflow", "developer-productivity", "agentic-coding"]
 ---
 
@@ -180,6 +180,6 @@ The code does not care whether you steered the agent or dispatched it. It only c
 
 [^9]: OpenAI. (2026). "Configuration Reference." Codex CLI documentation describing `approval_policy` values including `on-request`. [https://developers.openai.com/codex/config-reference](https://developers.openai.com/codex/config-reference)
 
-[^10]: OpenAI. (2026). GPT-5.6 model tiers: Sol ($5/$30 per 1M tokens), Terra ($2.50/$15), Luna ($1/$6). Pricing referenced from OpenAI API documentation.
+[^10]: OpenAI. (2026). GPT-5.6 model tiers: Sol (\$5/\$30 per 1M tokens), Terra (\$2.50/\$15), Luna (\$1/\$6). Pricing referenced from OpenAI API documentation.
 
 [^11]: OpenAI. (2026). "Config basics." Codex CLI documentation describing `requirements.toml` for fleet-level configuration enforcement. [https://developers.openai.com/codex/local-config/](https://developers.openai.com/codex/local-config/)

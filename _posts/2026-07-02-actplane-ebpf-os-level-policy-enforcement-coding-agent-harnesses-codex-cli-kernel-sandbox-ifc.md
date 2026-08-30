@@ -1,11 +1,11 @@
 ---
 title: "ActPlane and the OS-Level Policy Gap: Why Tool-Call Guardrails Miss Half Your Agent's Violations — and How eBPF Kernel Enforcement Closes the Loop for Codex CLI"
-parent: "Articles"
-nav_order: 939
 type: Technical Article
 timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-actplane-ebpf-os-level-policy-enforcement-coding-agent-harnesses-codex-cli-kernel-sandbox-ifc"
 tags: ["codex-cli", "security", "eBPF", "sandbox", "policy-enforcement", "agent-harness", "information-flow-control", "ActPlane", "OS-level", "kernel"]
+date: 2026-07-02T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # ActPlane and the OS-Level Policy Gap: Why Tool-Call Guardrails Miss Half Your Agent's Violations — and How eBPF Kernel Enforcement Closes the Loop for Codex CLI
 
@@ -220,7 +220,7 @@ ActPlane is not a silver bullet. Several constraints merit attention:
 - **Linux-only**: eBPF requires Linux kernel 5.8+ with BTF. macOS and Windows — where many developers run Codex CLI locally — are unsupported [^2]. ⚠️ Whether a userspace fallback mode is planned remains unconfirmed.
 - **Root required**: Loading eBPF programs requires `CAP_BPF + CAP_SYS_ADMIN` or root, which may conflict with enterprise security policies [^2].
 - **False positive rate**: The 16% false-positive rate on safe tasks in OpenAgentSafety suggests that overly conservative rules can impede legitimate agent actions [^1].
-- **Policy authoring burden**: While LLM-generated policy translation costs only $0.028 per policy versus ~$11 for manual authoring [^1], the DSL still requires understanding information-flow semantics.
+- **Policy authoring burden**: While LLM-generated policy translation costs only \$0.028 per policy versus ~\$11 for manual authoring [^1], the DSL still requires understanding information-flow semantics.
 - **Domain hierarchy complexity**: The hierarchical policy domain model (child domains inherit parent rules, cannot weaken them) adds conceptual overhead for multi-team configurations [^1].
 
 ---

@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI for Data Engineering: dbt, Airflow, and Pipeline Generation"
 description: "Data engineering workflows—building dbt models, orchestrating Airflow DAGs, validating data quality—are repetitive, context-heavy, and ripe for agentic."
-parent: "Articles"
-nav_order: 109
 type: Technical Article
 timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-data-engineering-dbt-airflow-pipeline-generation"
 tags: ["codex-cli", "data-engineering", "dbt", "airflow", "mcp", "pipeline-generation", "agent-skills"]
+date: 2026-04-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Data Engineering: dbt, Airflow, and Pipeline Generation](/sketchnotes/articles/2026-04-20-codex-cli-data-engineering-dbt-airflow-pipeline-generation.png)
 

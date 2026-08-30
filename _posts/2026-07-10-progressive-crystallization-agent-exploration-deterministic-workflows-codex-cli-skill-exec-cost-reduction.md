@@ -1,7 +1,7 @@
 ---
 title: "Progressive Crystallisation: How to Turn Codex CLI Exploration into Deterministic, Lower-Cost Workflows"
-parent: "Articles"
-nav_order: 1024
+date: 2026-07-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "progressive-crystallisation", "skills", "codex-exec", "cost-optimisation", "deterministic-workflows", "CI-CD", "session-extraction", "AIOps"]
 ---
 
@@ -225,7 +225,7 @@ Applying the progressive crystallisation metrics to typical Codex CLI usage:
 | Task throughput | Baseline | 2× [^1] |
 | Outcome consistency | Variable | >95% [^1] |
 
-For a team running 100 Codex CLI tasks per day at an average of $0.50 per task, crystallising 45 per cent of workflows at 70 per cent cost reduction saves approximately $15.75 per day — or roughly $5,750 annually. At enterprise scale with thousands of daily agent invocations, the savings are substantial.
+For a team running 100 Codex CLI tasks per day at an average of \$0.50 per task, crystallising 45 per cent of workflows at 70 per cent cost reduction saves approximately \$15.75 per day — or roughly \$5,750 annually. At enterprise scale with thousands of daily agent invocations, the savings are substantial.
 
 ## Relationship to Existing Patterns
 

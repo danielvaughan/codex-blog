@@ -1,12 +1,12 @@
 ---
 title: "The Verification Inversion: Why Generation Became Easy, Verification Became Hard, and What the Research Says You Should Do About It"
 description: "Two June 2026 papers reframe the coding agent bottleneck: the Qwen Team's Verification Horizon shows no reward function stays effective as models improve, while Winninger's ICML paper proves old-school constraints raise backdoor recall from 54.5% to 90.9%. Here is what both mean for your Codex CLI configuration."
-parent: "Articles"
-nav_order: 1398
 type: Technical Article
 timestamp: 2026-08-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-05-verification-inversion-generation-easy-verification-hard-codex-cli-constraints-research"
 tags: ["verification", "code-review", "research", "codex-cli", "quality-gates", "hooks", "sandbox", "constraints", "formal-verification"]
+date: 2026-08-05T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The Verification Inversion: Why Generation Became Easy, Verification Became Hard, and What the Research Says You Should Do About It
 

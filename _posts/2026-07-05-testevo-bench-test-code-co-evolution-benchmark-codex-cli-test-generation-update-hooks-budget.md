@@ -1,7 +1,7 @@
 ---
 title: "TestEvo-Bench and the Test Co-Evolution Problem: Why Agents That Generate Tests Cannot Update Them — and How Codex CLI's Hook Pipeline Closes the Gap"
-parent: "Articles"
-nav_order: 973
+date: 2026-07-05T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "testing", "benchmarks", "test-generation", "test-update", "hooks", "cost-control", "co-evolution"]
 ---
 
@@ -86,15 +86,15 @@ This aligns with the broader "benchmark tests are not strong enough" finding fro
 
 ## Budget Sensitivity: Gemini Shrugs, Claude Collapses
 
-The cost analysis is the most operationally relevant finding. At the default $3 per-task budget, Claude Code achieves 70.6% (generation) and 86.1% (update). At $1, it drops to 44.2% and 54.8%. At $0.50, it collapses to 21.6% generation [^1].
+The cost analysis is the most operationally relevant finding. At the default \$3 per-task budget, Claude Code achieves 70.6% (generation) and 86.1% (update). At \$1, it drops to 44.2% and 54.8%. At \$0.50, it collapses to 21.6% generation [^1].
 
-Gemini CLI, by contrast, is "markedly more robust": at $1 it retains 69.8% generation and 85.8% update. SWE-Agent + Claude is the most fragile, collapsing to 3.0% generation and 1.1% update at $0.50 [^1].
+Gemini CLI, by contrast, is "markedly more robust": at \$1 it retains 69.8% generation and 85.8% update. SWE-Agent + Claude is the most fragile, collapsing to 3.0% generation and 1.1% update at \$0.50 [^1].
 
 | Budget | Claude Code Gen | Claude Code Upd | Gemini CLI Gen | Gemini CLI Upd |
 |--------|----------------|-----------------|----------------|----------------|
-| $3.00 | 70.6% | 86.1% | 71.3% | 86.6% |
-| $1.00 | 44.2% | 54.8% | 69.8% | 85.8% |
-| $0.50 | 21.6% | — | — | — |
+| \$3.00 | 70.6% | 86.1% | 71.3% | 86.6% |
+| \$1.00 | 44.2% | 54.8% | 69.8% | 85.8% |
+| \$0.50 | 21.6% | — | — | — |
 
 This means budget decisions are not merely cost optimisation — they are correctness decisions. An enterprise running test co-evolution at scale needs to know where the performance cliff lives for its chosen model.
 
@@ -235,7 +235,7 @@ The mutation scores also depend on PIT (the Java mutation testing framework) [^3
 
 1. **Separate your test generation and test update workflows.** They fail differently and need different configurations.
 2. **Pass rate is necessary but not sufficient.** Enforce mutation score thresholds via PostToolUse hooks to catch the 43–55% of passing tests that would miss real bugs.
-3. **Budget your test tasks explicitly.** Claude-class models show steep performance cliffs below $1/task; Gemini-class models degrade gracefully. Use `rollout_token_budget` to enforce limits and named profiles to route accordingly.
+3. **Budget your test tasks explicitly.** Claude-class models show steep performance cliffs below \$1/task; Gemini-class models degrade gracefully. Use `rollout_token_budget` to enforce limits and named profiles to route accordingly.
 4. **Expect temporal degradation.** Agent-written tests for recently shipped code will be weaker. Plan for human review on the newest surfaces.
 5. **Use AGENTS.md to encode the redundancy check.** The single highest-impact intervention for test generation is requiring the agent to verify its test fails on the pre-change revision.
 

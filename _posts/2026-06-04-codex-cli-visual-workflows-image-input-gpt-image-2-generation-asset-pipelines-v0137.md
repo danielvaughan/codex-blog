@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI Visual Workflows: Image Input, gpt-image-2 Generation, and Asset Pipelines for v0.137"
-parent: "Articles"
-nav_order: 639
 type: Technical Article
 timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-visual-workflows-image-input-gpt-image-2-generation-asset-pipelines-v0137"
 tags: ["codex-cli", "image-generation", "gpt-image-2", "visual-workflows", "imagegen-skill", "v0.137"]
+date: 2026-06-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI Visual Workflows: Image Input, gpt-image-2 Generation, and Asset Pipelines for v0.137
 
@@ -196,8 +196,8 @@ Image generation sits within the same credit system as text-based Codex usage, b
 | Plan | Image Generation | Rate |
 |---|---|---|
 | Free | Not available | — |
-| Plus ($20/month) | Included | Standard limits |
-| Pro ($100+/month) | Included | 5×–20× limits |
+| Plus (\$20/month) | Included | Standard limits |
+| Pro (\$100+/month) | Included | 5×–20× limits |
 | Business | Included | Standard limits |
 | Enterprise/EDU | Included | Flexible |
 | API Key | API pricing | Per-token [^7] |

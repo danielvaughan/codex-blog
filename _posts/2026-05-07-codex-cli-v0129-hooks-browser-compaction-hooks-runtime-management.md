@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI v0.129: The /hooks Browser, Compaction Hooks, and Runtime Hook Management"
 description: "Codex CLI v0.129.0, released on 7 May 2026, ships three hook-related capabilities that developers have been requesting since the hooks engine stabilised in."
-parent: "Articles"
-nav_order: 1114
 type: Technical Article
 timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-v0129-hooks-browser-compaction-hooks-runtime-management"
 tags: ["codex-cli", "hooks", "compaction", "v0.129", "context-management", "long-sessions", "developer-experience"]
+date: 2026-05-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI v0.129: The /hooks Browser, Compaction Hooks, and Runtime Hook Management](/sketchnotes/articles/2026-05-07-codex-cli-v0129-hooks-browser-compaction-hooks-runtime-management.png)
 

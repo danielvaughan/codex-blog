@@ -1,18 +1,18 @@
 ---
 title: "Locate-and-Judge: How Attention-Based Detection Finds Malicious Agent Skills at Marketplace Scale — and How to Harden Your Codex CLI Plugin Stack"
-parent: "Articles"
-nav_order: 978
 type: Technical Article
 timestamp: 2026-07-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-05-locate-and-judge-attention-based-malicious-skill-detection-codex-cli-plugin-vetting-marketplace-security"
 tags: ["codex-cli", "security", "malicious-skills", "plugin-marketplace", "attention-detection", "supply-chain", "PreToolUse", "hooks", "skill-vetting", "locate-and-judge"]
+date: 2026-07-05T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Locate-and-Judge: How Attention-Based Detection Finds Malicious Agent Skills at Marketplace Scale — and How to Harden Your Codex CLI Plugin Stack
 
 
 ---
 
-The agent skill ecosystem now has its own malware scanners — and the most effective one does not read skills the way you would expect. In June 2026, researchers at the University of Luxembourg published *Locate-and-Judge*, a two-stage detection system that uses instruction-following attention patterns to surface the most suspicious spans of a skill before a judge LLM inspects them[^1]. Deployed across 134,934 skills from three public marketplaces, it confirmed 131 malicious skills — nearly twice the number caught by scanning full skill content — at a cost of $34 total[^1]. For Codex CLI teams installing third-party plugins from Lobehub, ClawHub, or Skills.sh, this article explains what the research found, why attention-based detection works, and how to build equivalent defences into your plugin governance stack.
+The agent skill ecosystem now has its own malware scanners — and the most effective one does not read skills the way you would expect. In June 2026, researchers at the University of Luxembourg published *Locate-and-Judge*, a two-stage detection system that uses instruction-following attention patterns to surface the most suspicious spans of a skill before a judge LLM inspects them[^1]. Deployed across 134,934 skills from three public marketplaces, it confirmed 131 malicious skills — nearly twice the number caught by scanning full skill content — at a cost of \$34 total[^1]. For Codex CLI teams installing third-party plugins from Lobehub, ClawHub, or Skills.sh, this article explains what the research found, why attention-based detection works, and how to build equivalent defences into your plugin governance stack.
 
 ## The Problem: Skills Are Instructions, Not Data
 
@@ -72,7 +72,7 @@ The 131 confirmed malicious skills broke down into six attack categories[^1]:
 | C2 and remote tunnel | 3 | 4% |
 | Prompt injection | 2 | 2% |
 
-Five coordinated campaigns sharing infrastructure were identified across the flagged skills[^1]. The total API cost for scanning all 134,934 skills was $34 — roughly $0.00025 per skill[^1].
+Five coordinated campaigns sharing infrastructure were identified across the flagged skills[^1]. The total API cost for scanning all 134,934 skills was \$34 — roughly \$0.00025 per skill[^1].
 
 ## Comparison with Existing Scanners
 
@@ -192,7 +192,7 @@ flowchart LR
     E -->|Uncertain| H[Install with<br/>untrusted approval]
 ```
 
-The key economics make this viable at any scale: at $0.00025 per skill, scanning a 10,000-skill marketplace costs $2.50[^1]. The K=5 configuration offers the best cost-recall trade-off at 458 tokens per skill and 0.940 F1[^1].
+The key economics make this viable at any scale: at \$0.00025 per skill, scanning a 10,000-skill marketplace costs \$2.50[^1]. The K=5 configuration offers the best cost-recall trade-off at 458 tokens per skill and 0.940 F1[^1].
 
 ## Known Limitations
 
@@ -204,7 +204,7 @@ Additionally, the MalSkillBench findings show that no single detector covers the
 
 The progression from SkillSpector's 20% recall to Locate-and-Judge's 95.4% recall mirrors what happened in traditional malware detection: signature-based scanning gives way to behavioural analysis[^1]. For Codex CLI teams, the practical takeaway is that marketplace curation and keyword filtering are necessary but insufficient. The real defence is layered: approval policy gates → PreToolUse behavioural hooks → sandbox isolation → enterprise-managed enforcement → continuous scanning of installed skills.
 
-The $34 scan of 134,934 skills proves that comprehensive vetting is no longer a cost problem. It is an integration problem — and Codex CLI's hook architecture provides the integration points.
+The \$34 scan of 134,934 skills proves that comprehensive vetting is no longer a cost problem. It is an integration problem — and Codex CLI's hook architecture provides the integration points.
 
 ## Citations
 

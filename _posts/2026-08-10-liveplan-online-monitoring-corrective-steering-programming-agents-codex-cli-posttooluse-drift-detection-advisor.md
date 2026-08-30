@@ -1,7 +1,7 @@
 ---
 title: "LivePlan and Online Corrective Steering: Why Deterministic Drift Detection Plus LLM Advisory Beats Global Replanning — and How to Wire It into Codex CLI"
-parent: "Articles"
-nav_order: 1464
+date: 2026-08-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "liveplan", "corrective-steering", "drift-detection", "PostToolUse", "hooks", "trajectory-monitoring", "agent-reliability"]
 ---
 
@@ -82,7 +82,7 @@ Liu et al. evaluated LivePlan across three executor models on SWE-bench Verified
 | Gemini-2.5-Flash | 37.80% | 48.40% | +10.60pp |
 | MiniMax-M2.5 | 74.20% | 79.20% | +5.00pp |
 
-Two findings stand out. First, the largest gains appear on weaker models — Gemini-2.5-Flash sees +15.24pp on Pro-Python versus +5.45pp for MiniMax-M2.5. The monitor compensates for models that drift more frequently. Second, the advisor cost is negligible: $0.01–$0.06 per instance on average [^1].
+Two findings stand out. First, the largest gains appear on weaker models — Gemini-2.5-Flash sees +15.24pp on Pro-Python versus +5.45pp for MiniMax-M2.5. The monitor compensates for models that drift more frequently. Second, the advisor cost is negligible: \$0.01–\$0.06 per instance on average [^1].
 
 ### Ablation: Why LivePlan Beats Alternatives
 
@@ -283,7 +283,7 @@ Three takeaways for Codex CLI practitioners:
 
 2. **Do not replan globally.** SAGE's negative result (−2.97pp) confirms what experienced developers intuit: throwing away the plan and starting over usually makes things worse. Targeted next-step advice is more effective.
 
-3. **Weaker models benefit most.** If you are running GPT-5.6 Luna for cost efficiency, a drift monitor with Terra-tier advisory catches the errors Luna's lighter reasoning misses — for an additional $0.01–$0.06 per instance.
+3. **Weaker models benefit most.** If you are running GPT-5.6 Luna for cost efficiency, a drift monitor with Terra-tier advisory catches the errors Luna's lighter reasoning misses — for an additional \$0.01–\$0.06 per instance.
 
 ## Citations
 

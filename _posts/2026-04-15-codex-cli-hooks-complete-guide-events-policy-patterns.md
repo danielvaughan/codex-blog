@@ -2,7 +2,7 @@
 title: "Codex CLI Hooks: Complete Guide to Events, Policy Engines and Production Patterns"
 slug: codex-cli-hooks-complete-guide-events-policy-patterns
 date: "2026-04-15T00:00:00+00:00"
-last_modified_at: 2026-08-21T10:37:17+01:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 updated: "2026-04-18"
 author: "Seb (codex.quest)"
 description: >
@@ -31,8 +31,6 @@ sources:
     url: "https://github.com/openai/codex/blob/main/codex-rs/core/src/hook_runtime.rs"
   - title: "OpenAI Codex CLI documentation"
     url: "https://github.com/openai/codex"
-parent: "Articles"
-nav_order: 574
 type: Technical Article
 timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-codex-cli-hooks-complete-guide-events-policy-patterns"

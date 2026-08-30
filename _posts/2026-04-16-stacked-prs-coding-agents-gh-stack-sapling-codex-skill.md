@@ -1,12 +1,12 @@
 ---
 title: "Stacked PRs Meet Coding Agents: GitHub gh stack, Sapling, and the codex-pr-body Skill Pattern"
 description: "On 13 April 2026 GitHub shipped native stacked pull requests in private preview . The same week, OpenAI's team merged a new project skill — codex-pr-body."
-parent: "Articles"
-nav_order: 1082
 type: Technical Article
 timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-stacked-prs-coding-agents-gh-stack-sapling-codex-skill"
 tags: ["stacked-prs", "gh-stack", "sapling", "codex-pr-body", "official-skill", "wave-orchestration", "github"]
+date: 2026-04-16T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Stacked PRs Meet Coding Agents: GitHub gh stack, Sapling, and the codex-pr-body Skill Pattern](/sketchnotes/articles/2026-04-16-stacked-prs-coding-agents-gh-stack-sapling-codex-skill.png)
 

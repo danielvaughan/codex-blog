@@ -1,11 +1,11 @@
 ---
 title: "OpenAI's June 2026 Platform Deprecations: Evals, Agent Builder, and Prompts API Shutdown — What Codex CLI Developers Must Do Before November"
-parent: "Articles"
-nav_order: 640
 type: Technical Article
 timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-openai-june-2026-platform-deprecations-evals-agent-builder-prompts-codex-cli-migration"
 tags: ["codex-cli", "openai", "deprecation", "evals", "agent-builder", "prompts-api", "migration", "promptfoo", "agents-sdk", "platform-changes"]
+date: 2026-06-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # OpenAI's June 2026 Platform Deprecations: Evals, Agent Builder, and Prompts API Shutdown — What Codex CLI Developers Must Do Before November
 
@@ -63,7 +63,7 @@ OpenAI's stated rationale: prompt content belongs in your codebase where it bene
 
 The managed Evals dashboard and its backing API (`v1/evals`) let teams define evaluation configurations, upload test datasets with ground-truth labels, run model outputs through graders (string-match, model-graded, custom), and track results over time [^5]. OpenAI now recommends two alternatives: the newer **Datasets** feature for teams staying within the OpenAI ecosystem, and **Promptfoo** for those wanting an open-source, vendor-neutral framework [^2] [^6].
 
-Promptfoo's position is notable: OpenAI acquired the company in March 2026 at an $86M valuation, though Ian Webster has committed to keeping it MIT-licensed and vendor-neutral [^7].
+Promptfoo's position is notable: OpenAI acquired the company in March 2026 at an \$86M valuation, though Ian Webster has committed to keeping it MIT-licensed and vendor-neutral [^7].
 
 ### 3. Agent Builder
 

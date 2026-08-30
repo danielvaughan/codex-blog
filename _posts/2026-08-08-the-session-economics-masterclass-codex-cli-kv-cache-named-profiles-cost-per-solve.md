@@ -1,7 +1,7 @@
 ---
 title: "The Session Economics Masterclass: KV Cache Lifecycle, Named Profiles, and Cost-Per-Solve Budgeting for Codex CLI"
-parent: "Articles"
-nav_order: 1437
+date: 2026-08-08T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "session-economics", "kv-cache", "named-profiles", "cost-per-solve", "prompt-caching", "compaction", "model-routing", "GPT-5.6"]
 ---
 
@@ -18,10 +18,10 @@ Before optimising anything, understand what you are actually paying for. Under G
 
 | Component | Sol | Terra | Luna |
 |-----------|-----|-------|------|
-| Uncached input | $5.00/M | $2.00/M | $0.20/M |
-| Cached input (read) | $0.50/M | $0.20/M | $0.02/M |
-| Cache write premium | $6.25/M (1.25×) | $2.50/M (1.25×) | $0.25/M (1.25×) |
-| Output | $30.00/M | $12.00/M | $1.20/M |
+| Uncached input | \$5.00/M | \$2.00/M | \$0.20/M |
+| Cached input (read) | \$0.50/M | \$0.20/M | \$0.02/M |
+| Cache write premium | \$6.25/M (1.25×) | \$2.50/M (1.25×) | \$0.25/M (1.25×) |
+| Output | \$30.00/M | \$12.00/M | \$1.20/M |
 
 The Weinberger & Hozez study demonstrated that prompt-cache traffic accounts for approximately 87% of reconstructed cost — roughly 80% of the actual bill[^3]. This means the dominant cost lever is not *reducing tokens* but *maximising cache hits*. Their compression experiments across 2,908 Claude Code runs showed that a 38.4% tool-output token reduction actually *increased* billed cost by 6.8%, because compression destroyed the exact-prefix match that caching requires.
 
@@ -48,7 +48,7 @@ Three critical thresholds emerge:
 
 2. **The ten-minute cliff.** Beyond ten minutes of idle time, cache hit rates collapse to near zero[^1]. A developer who steps away for a coffee break returns to a cold session. The next turn pays the full uncached input rate on the entire conversation history, plus the 1.25× cache write premium to re-establish the prefix[^5].
 
-3. **The compaction trap.** Context compaction — triggered when usage exceeds `model_auto_compact_token_limit` (default: 80% of the 272k window) — summarises the conversation but produces a *new* prefix that shares nothing with the previous one[^4]. A single compaction on a 125,000-token context costs approximately $0.40 at Terra rates, equivalent to roughly 21 follow-up turns at cached rates[^4]. Worse, it can trigger a compaction spiral: summarised context → more work → threshold hit again → another compaction.
+3. **The compaction trap.** Context compaction — triggered when usage exceeds `model_auto_compact_token_limit` (default: 80% of the 272k window) — summarises the conversation but produces a *new* prefix that shares nothing with the previous one[^4]. A single compaction on a 125,000-token context costs approximately \$0.40 at Terra rates, equivalent to roughly 21 follow-up turns at cached rates[^4]. Worse, it can trigger a compaction spiral: summarised context → more work → threshold hit again → another compaction.
 
 ### Practical Cache Management
 
@@ -79,7 +79,7 @@ Create profile files at `~/.codex/<name>.config.toml` and invoke with `--profile
 
 ### Scout Profile — Repository Exploration
 
-The Scrouting study demonstrated that a lightweight searcher model produces a ~4KB structured handoff containing implicated files, reproduction specifications, and dead ends[^2]. This scouting phase costs less than $0.005 per task on a fine-tuned 7B model — but using Codex CLI, Luna serves the same purpose:
+The Scrouting study demonstrated that a lightweight searcher model produces a ~4KB structured handoff containing implicated files, reproduction specifications, and dead ends[^2]. This scouting phase costs less than \$0.005 per task on a fine-tuned 7B model — but using Codex CLI, Luna serves the same purpose:
 
 ```toml
 # ~/.codex/scout.config.toml
@@ -89,7 +89,7 @@ tool_output_token_limit = 8000
 model_auto_compact_token_limit = 100000
 ```
 
-Use this for initial bug triage, codebase exploration, and issue analysis. Luna at $0.20/M input means a 50,000-token scouting session costs roughly $0.01 uncached, or $0.001 cached.
+Use this for initial bug triage, codebase exploration, and issue analysis. Luna at \$0.20/M input means a 50,000-token scouting session costs roughly \$0.01 uncached, or \$0.001 cached.
 
 ### Fix Profile — Implementation
 
@@ -103,7 +103,7 @@ tool_output_token_limit = 16000
 model_auto_compact_token_limit = 200000
 ```
 
-Terra at $2.00/M input delivers strong code generation at 10× Luna's cost but 2.5× cheaper than Sol. For most implementation tasks, Terra offers the optimal cost-quality trade-off.
+Terra at \$2.00/M input delivers strong code generation at 10× Luna's cost but 2.5× cheaper than Sol. For most implementation tasks, Terra offers the optimal cost-quality trade-off.
 
 ### Deep Profile — Complex Cross-Boundary Work
 
@@ -117,11 +117,11 @@ tool_output_token_limit = 20000
 model_auto_compact_token_limit = 220000
 ```
 
-Sol at $5.00/M input is justified only when the task's complexity demands it — architectural refactoring, multi-module dependency changes, or security-critical modifications.
+Sol at \$5.00/M input is justified only when the task's complexity demands it — architectural refactoring, multi-module dependency changes, or security-critical modifications.
 
 ### The Scout/Fix Workflow
 
-Combining profiles into a two-phase workflow maps directly to the Scrouting paper's finding that structured handoffs from a cheap searcher to an expensive fixer reduced cost-per-solve by 82% (from $1.274 to $0.230 on SWE-bench Pro Python)[^2]:
+Combining profiles into a two-phase workflow maps directly to the Scrouting paper's finding that structured handoffs from a cheap searcher to an expensive fixer reduced cost-per-solve by 82% (from \$1.274 to \$0.230 on SWE-bench Pro Python)[^2]:
 
 ```mermaid
 graph TD
@@ -144,9 +144,9 @@ Consider two configurations solving 100 tasks:
 
 | Configuration | Token cost | Tasks solved | CPS |
 |---------------|-----------|-------------|-----|
-| Sol for everything | $127.40 | 85 | $1.50 |
-| Scout(Luna) + Fix(Terra) | $52.00 | 78 | $0.67 |
-| Scout(Luna) + Deep(Sol) for hard tasks only | $71.00 | 83 | $0.86 |
+| Sol for everything | \$127.40 | 85 | \$1.50 |
+| Scout(Luna) + Fix(Terra) | \$52.00 | 78 | \$0.67 |
+| Scout(Luna) + Deep(Sol) for hard tasks only | \$71.00 | 83 | \$0.86 |
 
 The scout/fix workflow achieves 55% lower CPS despite solving fewer tasks in absolute terms. Adding Sol only for tasks the scout flags as complex recovers most of the solve rate at a fraction of the cost.
 
@@ -171,9 +171,9 @@ For teams running Codex CLI at scale, session economics compound. A five-develop
 
 | Strategy | Daily cost (est.) | Monthly cost (est.) | Annual cost (est.) |
 |----------|-------------------|--------------------|--------------------|
-| Sol for all sessions | $200–$400 | $4,000–$8,000 | $48,000–$96,000 |
-| Terra default | $40–$100 | $800–$2,000 | $9,600–$24,000 |
-| Scout/Fix routing | $20–$60 | $400–$1,200 | $4,800–$14,400 |
+| Sol for all sessions | \$200–\$400 | \$4,000–\$8,000 | \$48,000–\$96,000 |
+| Terra default | \$40–\$100 | \$800–\$2,000 | \$9,600–\$24,000 |
+| Scout/Fix routing | \$20–\$60 | \$400–\$1,200 | \$4,800–\$14,400 |
 
 These estimates assume average session lengths from the Copilot telemetry data[^1] and post-July 2026 GPT-5.6 pricing[^5]. Actual costs vary with codebase size, task complexity, and cache hit rates.
 

@@ -1,7 +1,7 @@
 ---
 title: "The Balkanisation of Execution-Security Research: What Five Cross-Cutting Gaps Mean for Your Codex CLI Defence Stack"
-parent: "Articles"
-nav_order: 1492
+date: 2026-08-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "security", "sandbox", "TOCTOU", "scope-creep", "policy-enforcement", "execution-security", "defence-in-depth"]
 ---
 
@@ -63,7 +63,7 @@ approval_policy = "unless-allow-listed"
 
 PreToolUse hooks then act as a fine-grained capability gate, inspecting each command before execution and returning exit code 2 to block it with feedback[^2]. This layered model is precisely what the paper argues is needed but never evaluated in any single study.
 
-**The gap for Codex CLI:** no published work measures whether Codex CLI's PreToolUse hooks add measurable security beyond its sandbox containment, or whether they introduce approval fatigue that degrades the isolation benefit. The Pwn2Own Berlin 2026 coding-agents category — which paid out US$1,298,250 across 47 unique zero-days — suggests the threat model is real enough to warrant such evaluation[^1].
+**The gap for Codex CLI:** no published work measures whether Codex CLI's PreToolUse hooks add measurable security beyond its sandbox containment, or whether they introduce approval fatigue that degrades the isolation benefit. The Pwn2Own Berlin 2026 coding-agents category — which paid out US\$1,298,250 across 47 unique zero-days — suggests the threat model is real enough to warrant such evaluation[^1].
 
 ## Gap 2: Policy Enforcement Fragility — 69% to 98% Bypass Rates
 

@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI Enterprise Managed Configuration: Cloud Policies, Group-Based Enforcement, and Compliance Governance"
 description: "Enterprise teams adopting Codex CLI face a governance challenge that individual developers never encounter: how do you enforce security policies across."
-parent: "Articles"
-nav_order: 1117
 type: Technical Article
 timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-cli-enterprise-managed-configuration-cloud-policies-group-enforcement-compliance"
 tags: ["codex-cli", "enterprise", "managed-configuration", "requirements-toml", "compliance", "governance", "RBAC", "MDM", "security"]
+date: 2026-05-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Enterprise Managed Configuration: Cloud Policies, Group-Based Enforcement, and Compliance Governance](/sketchnotes/articles/2026-05-11-codex-cli-enterprise-managed-configuration-cloud-policies-group-enforcement-compliance.png)
 

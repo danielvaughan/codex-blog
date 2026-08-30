@@ -1,7 +1,7 @@
 ---
 title: "CodeGrep and the File Discovery Tax: What an RL-Trained Retrieval Agent Reveals About Your Codex CLI Token Budget"
-parent: "Articles"
-nav_order: 1438
+date: 2026-08-08T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "CodeGrep", "retrieval", "token-efficiency", "file-discovery", "GRPO", "codebase-indexing", "SWE-bench", "MCP", "CodeGraph"]
 ---
 
@@ -83,7 +83,7 @@ Codex CLI does not embed CodeGrep, but its architecture includes several feature
 
 Codex CLI's MCP integration supports structural codebase indexing tools like CodeGraph [^2], which exposes nine query tools — `codegraph_search`, `codegraph_context`, `codegraph_callers`, `codegraph_callees`, and others — over the Model Context Protocol [^3]. These provide pre-built AST-indexed answers rather than ad-hoc grep traversal.
 
-The "Code Isn't Memory" study (Bhola et al., June 2026) demonstrated that tree-sitter AST + vector + graph + BM25 indexing yielded +39.6 percentage points localisation accuracy and +7.9pp resolve rate on SWE-PolyBench/SWE-bench Pro, at $2.30 per solved task versus $2.92 for unindexed approaches [^4]. Multi-file tasks showed the largest gain: 91.3% versus 44.9% acc@5.
+The "Code Isn't Memory" study (Bhola et al., June 2026) demonstrated that tree-sitter AST + vector + graph + BM25 indexing yielded +39.6 percentage points localisation accuracy and +7.9pp resolve rate on SWE-PolyBench/SWE-bench Pro, at \$2.30 per solved task versus \$2.92 for unindexed approaches [^4]. Multi-file tasks showed the largest gain: 91.3% versus 44.9% acc@5.
 
 Configure MCP codebase indexing in `config.toml`:
 
@@ -141,7 +141,7 @@ The JAWs efficiency study (ICSE 2026) showed that well-structured AGENTS.md file
 
 ### Named Profiles for Scout/Fix Workflows
 
-The Scrouting paper (Bhola et al., August 2026) takes a similar two-phase approach to CodeGrep: a small model scouts the repository, then a larger model fixes the issue. Their SuperScout-7B searcher reduced cost per solve by 82% ($0.230 versus $1.274) on SWE-bench Pro Python [^8].
+The Scrouting paper (Bhola et al., August 2026) takes a similar two-phase approach to CodeGrep: a small model scouts the repository, then a larger model fixes the issue. Their SuperScout-7B searcher reduced cost per solve by 82% (\$0.230 versus \$1.274) on SWE-bench Pro Python [^8].
 
 Codex CLI's named profiles support this pattern natively:
 

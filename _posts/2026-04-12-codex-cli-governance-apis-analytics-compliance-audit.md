@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI Governance APIs: Analytics Dashboard, Compliance Exports, and the Enterprise Audit Pipeline"
 description: "Codex CLI ships three distinct data pipelines — client-side analytics, the Analytics API, and the Compliance API."
-parent: "Articles"
-nav_order: 9
 type: Technical Article
 timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-governance-apis-analytics-compliance-audit"
 tags: ["governance", "analytics-api", "compliance-api", "audit-trail", "enterprise", "privacy", "telemetry", "managed-configuration", "observability"]
+date: 2026-04-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Governance APIs: Analytics Dashboard, Compliance Exports, and the Enterprise Audit Pipeline](/sketchnotes/articles/2026-04-12-codex-cli-governance-apis-analytics-compliance-audit.png)
 

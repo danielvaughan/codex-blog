@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI Goes Multi-Cloud: Oracle OCI Joins AWS Bedrock and Azure, and What Provider-Agnostic Agent Workflows Look Like in Practice"
-parent: "Articles"
-nav_order: 713
 type: Technical Article
 timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-codex-cli-multi-cloud-oracle-oci-aws-bedrock-azure-provider-agnostic-agent-workflows"
 tags: ["codex-cli", "multi-cloud", "oracle-oci", "aws-bedrock", "azure", "model-providers", "enterprise", "configuration"]
+date: 2026-06-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI Goes Multi-Cloud: Oracle OCI Joins AWS Bedrock and Azure, and What Provider-Agnostic Agent Workflows Look Like in Practice
 
@@ -18,7 +18,7 @@ This article examines what the multi-cloud distribution strategy means for CLI-f
 
 ## The Strategic Picture: Why OpenAI Went Multi-Cloud
 
-OpenAI's infrastructure commitments tell the story: roughly $250 billion to Microsoft Azure, $300 billion to Oracle, and $38 billion to AWS in multi-year capacity agreements [^4]. The exclusivity that defined the early commercial AI era — where Azure was the sole distribution channel — ended in late 2025 when the Microsoft partnership was restructured [^5].
+OpenAI's infrastructure commitments tell the story: roughly \$250 billion to Microsoft Azure, \$300 billion to Oracle, and \$38 billion to AWS in multi-year capacity agreements [^4]. The exclusivity that defined the early commercial AI era — where Azure was the sole distribution channel — ended in late 2025 when the Microsoft partnership was restructured [^5].
 
 The architectural split matters for CLI developers:
 
@@ -297,11 +297,11 @@ The multi-cloud era for coding agents has arrived. Your `config.toml` is the onl
 
 [^3]: Microsoft, "Azure OpenAI Service documentation," learn.microsoft.com, 2026. [https://learn.microsoft.com/en-us/azure/ai-services/openai/](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
 
-[^4]: Artificial Intelligence News, "OpenAI spreads $600B cloud AI bet across AWS, Oracle, Microsoft," artificialintelligence-news.com, 2026. [https://www.artificialintelligence-news.com/news/openai-spreads-600b-cloud-ai-bet-aws-oracle-microsoft/](https://www.artificialintelligence-news.com/news/openai-spreads-600b-cloud-ai-bet-aws-oracle-microsoft/)
+[^4]: Artificial Intelligence News, "OpenAI spreads \$600B cloud AI bet across AWS, Oracle, Microsoft," artificialintelligence-news.com, 2026. [https://www.artificialintelligence-news.com/news/openai-spreads-600b-cloud-ai-bet-aws-oracle-microsoft/](https://www.artificialintelligence-news.com/news/openai-spreads-600b-cloud-ai-bet-aws-oracle-microsoft/)
 
-[^5]: Tech Insider, "OpenAI on AWS Bedrock: $38B Deal Ends Azure Lock-In," tech-insider.org, 2026. [https://tech-insider.org/openai-amazon-bedrock-38-billion-azure-exclusivity-end-2026/](https://tech-insider.org/openai-amazon-bedrock-38-billion-azure-exclusivity-end-2026/)
+[^5]: Tech Insider, "OpenAI on AWS Bedrock: \$38B Deal Ends Azure Lock-In," tech-insider.org, 2026. [https://tech-insider.org/openai-amazon-bedrock-38-billion-azure-exclusivity-end-2026/](https://tech-insider.org/openai-amazon-bedrock-38-billion-azure-exclusivity-end-2026/)
 
-[^6]: InfoQ, "OpenAI Secures AWS Distribution for Frontier Platform in $110B Multi-Cloud Deal," infoq.com, March 2026. [https://www.infoq.com/news/2026/03/openai-aws-frontier-stateful/](https://www.infoq.com/news/2026/03/openai-aws-frontier-stateful/)
+[^6]: InfoQ, "OpenAI Secures AWS Distribution for Frontier Platform in \$110B Multi-Cloud Deal," infoq.com, March 2026. [https://www.infoq.com/news/2026/03/openai-aws-frontier-stateful/](https://www.infoq.com/news/2026/03/openai-aws-frontier-stateful/)
 
 [^7]: OpenAI Developers, "Use Codex with Amazon Bedrock," developers.openai.com, 2026. [https://developers.openai.com/codex/amazon-bedrock](https://developers.openai.com/codex/amazon-bedrock)
 

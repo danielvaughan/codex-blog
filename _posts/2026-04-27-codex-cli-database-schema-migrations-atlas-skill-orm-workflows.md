@@ -1,12 +1,12 @@
 ---
 title: "Database Schema Migrations with Codex CLI: Atlas Skills, ORM Workflows, and Agent-Driven Migration Pipelines"
 description: "Database schema migrations sit at an uncomfortable intersection: they demand precision (a wrong column drop is irreversible), context awareness (what does."
-parent: "Articles"
-nav_order: 209
 type: Technical Article
 timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-database-schema-migrations-atlas-skill-orm-workflows"
 tags: ["codex-cli", "database", "migrations", "atlas", "skills", "orm", "drizzle", "prisma", "sqlalchemy", "mcp", "postgres"]
+date: 2026-04-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Database Schema Migrations with Codex CLI: Atlas Skills, ORM Workflows, and Agent-Driven Migration Pipelines](/sketchnotes/articles/2026-04-27-codex-cli-database-schema-migrations-atlas-skill-orm-workflows.png)
 

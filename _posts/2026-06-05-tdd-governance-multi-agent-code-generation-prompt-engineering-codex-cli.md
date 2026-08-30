@@ -1,12 +1,12 @@
 ---
 title: "TDD Governance for Multi-Agent Code Generation — Phase Gating, Bounded Repair, and Prompt-Level Enforcement for Codex CLI"
 description: "A new framework from the University of Jyväskylä treats TDD not as a suggestion but as an enforceable control architecture for multi-agent coding systems. Here's what it means for Codex CLI workflows."
-parent: "Articles"
-nav_order: 645
 type: Technical Article
 timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-tdd-governance-multi-agent-code-generation-prompt-engineering-codex-cli"
 tags: ["tdd", "multi-agent", "prompt-engineering", "governance", "code-generation", "codex-cli", "testing", "agent-architecture"]
+date: 2026-06-05T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # TDD Governance for Multi-Agent Code Generation — Phase Gating, Bounded Repair, and Prompt-Level Enforcement for Codex CLI
 

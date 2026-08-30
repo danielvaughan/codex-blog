@@ -1,7 +1,7 @@
 ---
 title: "The 8 Million User Surge: What Codex's Explosive Growth Means for Your CLI Workflows"
-parent: "Articles"
-nav_order: 1207
+date: 2026-07-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "growth", "rate-limits", "context-window", "GPT-5.6", "infrastructure", "cost-optimisation"]
 ---
 
@@ -160,7 +160,7 @@ codex --profile light "Add docstrings to utils.py"
 codex --profile batch "Update copyright headers across the repo"
 ```
 
-GPT-5.6 Sol is 54% more token-efficient on coding tasks than GPT-5.5[^4], but that efficiency gain is irrelevant if you are queued behind eight million other users. Terra at `$2.50/$15` per million tokens handles routine tasks at half the cost and typically lower latency during peak hours[^4].
+GPT-5.6 Sol is 54% more token-efficient on coding tasks than GPT-5.5[^4], but that efficiency gain is irrelevant if you are queued behind eight million other users. Terra at `\$2.50/\$15` per million tokens handles routine tasks at half the cost and typically lower latency during peak hours[^4].
 
 ### 4. Schedule `codex exec` Pipelines Off-Peak
 
@@ -195,7 +195,7 @@ codex exec --json "Your task here" 2>/dev/null \
 
 The fundamental economic challenge is straightforward: automated workloads consume resources faster than humans can[^3]. A developer typing prompts is constrained by typing speed and thinking time — TraceLab data shows 92.3% of session time is human thinking[^9]. But `codex exec` pipelines, GitHub Actions workflows, and multi-agent orchestrations have no such constraint. They will consume whatever quota is available, as fast as infrastructure allows.
 
-OpenAI's $122 billion funding round (March 2026) enables significant adoption subsidies[^3], but the question of whether heavy agent usage can produce attractive margins remains open. The current rate limit policy — generous resets to drive adoption, with future tightening implied — is a deliberate strategy, not a permanent state[^3].
+OpenAI's \$122 billion funding round (March 2026) enables significant adoption subsidies[^3], but the question of whether heavy agent usage can produce attractive margins remains open. The current rate limit policy — generous resets to drive adoption, with future tightening implied — is a deliberate strategy, not a permanent state[^3].
 
 ```mermaid
 graph TD

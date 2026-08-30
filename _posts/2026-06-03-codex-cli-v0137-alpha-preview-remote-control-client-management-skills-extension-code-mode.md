@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI v0.137 Alpha: Remote Control Client Management, Skills Extension Architecture, and Code-Mode Image Generation"
 description: "v0.137.0-alpha.4 landed on npm on 3 June 2026. This preview unpacks the six most significant development directions: remote-control client revocation without relay enrolment, a dedicated skills extension crate, per-turn skill catalogue resolution, permission-profile modernisation, image generation inside code-mode sessions, and decoupled Python SDK wheel publishing."
-parent: "Articles"
-nav_order: 627
 type: Technical Article
 timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-v0137-alpha-preview-remote-control-client-management-skills-extension-code-mode"
 tags: ["codex-cli", "v0.137", "alpha", "remote-control", "skills-extension", "image-generation", "permission-profiles", "multi-agent", "python-sdk"]
+date: 2026-06-03T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI v0.137 Alpha: Remote Control Client Management, Skills Extension Architecture, and Code-Mode Image Generation
 

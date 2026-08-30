@@ -1,11 +1,11 @@
 ---
 title: "AGENTS.md Structure Doesn't Matter: What a 16,050-Observation Factorial Study Reveals About Instruction Adherence"
-parent: "Articles"
-nav_order: 3
 type: Technical Article
 timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-agents-md-structure-doesnt-matter-factorial-study-instruction-adherence-codex-cli"
 tags: ["AGENTS.md", "instruction adherence", "empirical research", "Codex CLI", "configuration", "coding agents"]
+date: 2026-07-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # AGENTS.md Structure Doesn't Matter: What a 16,050-Observation Factorial Study Reveals About Instruction Adherence
 

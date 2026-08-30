@@ -1,11 +1,11 @@
 ---
 title: "SWE-Router and Trajectory-Based Model Routing: What Partial-Exploration Escalation Means for Codex CLI Cost Strategy"
-parent: "Articles"
-nav_order: 1029
 type: Technical Article
 timestamp: 2026-07-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-10-swe-router-trajectory-based-model-routing-codex-cli-partial-exploration-cost-escalation"
 tags: ["codex-cli", "model-routing", "cost-optimisation", "SWE-Router", "trajectory-routing", "named-profiles", "config.toml", "reasoning-effort"]
+date: 2026-07-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # SWE-Router and Trajectory-Based Model Routing: What Partial-Exploration Escalation Means for Codex CLI Cost Strategy
 
@@ -48,7 +48,7 @@ The paper evaluates two weak–strong pairings on SWE-bench Verified:
 | deepseek-v3.2 | gemini-3-pro-preview | 0.627 | 0.750 | +15.3 pp |
 | gpt-5-mini | gemini-3-pro-preview | 0.549 | 0.694 | +12.0 pp |
 
-Training data came from SWE-Smith (~1,700 trajectories per model), with repository-disjoint train/validation/test splits. Total collection cost ranged from $105 to $608 depending on the model[^1].
+Training data came from SWE-Smith (~1,700 trajectories per model), with repository-disjoint train/validation/test splits. Total collection cost ranged from \$105 to \$608 depending on the model[^1].
 
 ### The Synergy Effect
 

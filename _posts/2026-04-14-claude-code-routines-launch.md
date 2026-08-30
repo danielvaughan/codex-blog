@@ -1,12 +1,12 @@
 ---
 title: "Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud"
 description: "Anthropic launched Claude Code Routines on 14 April 2026 — saved Claude Code configurations (a prompt, one or more repositories."
-parent: "Articles"
-nav_order: 46
 type: Technical Article
 timestamp: 2026-04-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-14-claude-code-routines-launch"
 tags: ["claude-code", "routines", "competitor-update", "autonomous-agents", "scheduled-tasks", "cloud-execution", "github-triggers", "mcp-connectors"]
+date: 2026-04-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud](/sketchnotes/articles/2026-04-14-claude-code-routines-launch.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "Verified Tool Calls and the Non-Atomic Failure Gap: Why Your Coding Agent Retries Blindly — and How to Wire Postcondition Verification into Codex CLI"
-parent: "Articles"
-nav_order: 1458
+date: 2026-08-09T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "verified-tool-calls", "non-atomic-failures", "PostToolUse", "idempotency", "agent-reliability", "verify-before-retry"]
 ---
 

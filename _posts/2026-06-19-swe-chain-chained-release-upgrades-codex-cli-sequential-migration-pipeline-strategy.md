@@ -1,12 +1,12 @@
 ---
 title: "SWE-Chain: What the Chained Release Upgrade Benchmark Means for Codex CLI Migration Pipelines"
 description: "SWE-Chain benchmarks coding agents on sequential, chained package upgrades — where each transition builds on the agent's prior changes. Its findings on cascading failures, specification quality, and cost efficiency map directly to Codex CLI session strategy, structured output, and sequential pipeline design."
-parent: "Articles"
-nav_order: 809
 type: Technical Article
 timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-swe-chain-chained-release-upgrades-codex-cli-sequential-migration-pipeline-strategy"
 tags: ["codex-cli", "swe-chain", "dependency-upgrades", "chained-migrations", "session-management", "structured-output", "sequential-pipelines", "benchmarks"]
+date: 2026-06-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # SWE-Chain: What the Chained Release Upgrade Benchmark Means for Codex CLI Migration Pipelines
 
@@ -103,7 +103,7 @@ The structured output forces the agent to self-report on breaking changes resolv
 
 ### 3. Cost Does Not Guarantee Performance
 
-SWE-Chain's cost data reveals a counterintuitive pattern: Claude-Opus-4.7 consumes $150.39 per chain (350.7M tokens, 3.13 hours), whilst GPT-5.5 achieves comparable results at $131.34 (184.7M tokens, 3.23 hours) [^1]. The token-to-performance ratio favours GPT-5.5 — nearly half the tokens for a 3.7pp resolving gap.
+SWE-Chain's cost data reveals a counterintuitive pattern: Claude-Opus-4.7 consumes \$150.39 per chain (350.7M tokens, 3.13 hours), whilst GPT-5.5 achieves comparable results at \$131.34 (184.7M tokens, 3.23 hours) [^1]. The token-to-performance ratio favours GPT-5.5 — nearly half the tokens for a 3.7pp resolving gap.
 
 More striking is that GPT-5.3-Codex, a smaller model, outperforms GPT-5.4 by 4.3pp resolving at lower cost [^1]. This aligns with the broader pattern observed in HarnessX research: model-specific harness tuning matters more than raw model capability for structured tasks [^2].
 

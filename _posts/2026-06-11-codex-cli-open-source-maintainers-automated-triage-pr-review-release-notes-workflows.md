@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI for Open Source Maintainers: Automated Triage, PR Review, and Release Note Workflows"
-parent: "Articles"
-nav_order: 711
 type: Technical Article
 timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-codex-cli-open-source-maintainers-automated-triage-pr-review-release-notes-workflows"
 tags: ["codex-cli", "open-source", "maintainer-workflows", "issue-triage", "pr-review", "release-notes", "automations", "codex-exec", "github-action"]
+date: 2026-06-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI for Open Source Maintainers: Automated Triage, PR Review, and Release Note Workflows
 
@@ -18,7 +18,7 @@ Codex CLI, particularly since the v0.139 stable release (9 June 2026) [^2], offe
 
 ## The Codex for Open Source Programme
 
-Before diving into workflows, it is worth noting that OpenAI launched the **Codex for Open Source** programme in March 2026 [^3]. Core maintainers of widely-used public projects can apply for six months of ChatGPT Pro with Codex (roughly $1,200 in value), API credits through the Open Source Fund, and conditional access to Codex Security [^3]. Eligibility is based on repository usage, ecosystem importance, and evidence of active maintenance — not raw star counts [^4].
+Before diving into workflows, it is worth noting that OpenAI launched the **Codex for Open Source** programme in March 2026 [^3]. Core maintainers of widely-used public projects can apply for six months of ChatGPT Pro with Codex (roughly \$1,200 in value), API credits through the Open Source Fund, and conditional access to Codex Security [^3]. Eligibility is based on repository usage, ecosystem importance, and evidence of active maintenance — not raw star counts [^4].
 
 If you maintain an open source project with meaningful adoption, apply at [openai.com/form/codex-for-oss](https://openai.com/form/codex-for-oss/) before investing time in configuration.
 
@@ -308,9 +308,9 @@ Activate with `codex --profile triage` or `CODEX_PROFILE=triage` [^10].
 
 For projects on the Codex for Open Source programme, API credits offset most costs [^3]. For projects funding their own usage:
 
-- A daily triage sweep over 50 issues with `o4-mini` at `low` reasoning effort typically costs under $0.10 per run [^11].
-- PR reviews vary widely — simple changes cost a few cents, whilst large refactors touching dozens of files can reach $1–2 per review.
-- Release note generation from a few hundred commits is typically under $0.05.
+- A daily triage sweep over 50 issues with `o4-mini` at `low` reasoning effort typically costs under \$0.10 per run [^11].
+- PR reviews vary widely — simple changes cost a few cents, whilst large refactors touching dozens of files can reach \$1–2 per review.
+- Release note generation from a few hundred commits is typically under \$0.05.
 
 Set a `max_tokens` ceiling in your automation configuration to prevent runaway costs on unexpectedly large inputs.
 

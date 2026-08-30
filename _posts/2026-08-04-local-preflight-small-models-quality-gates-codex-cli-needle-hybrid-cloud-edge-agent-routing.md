@@ -1,7 +1,7 @@
 ---
 title: "Local Preflight for Cloud Agents: Small Models as Quality Gates for Codex CLI"
-parent: "Articles"
-nav_order: 1396
+date: 2026-08-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "small-language-models", "preflight", "quality-gates", "needle", "hybrid-architecture", "edge-inference", "model-routing", "cost-optimisation"]
 ---
 
@@ -29,17 +29,17 @@ Research from Zylos AI's hybrid architecture study found that **70–80% of LLM 
 
 Cactus Compute's Needle model, released in May 2026, distils Gemini's tool-calling capability into a 26-million-parameter model weighing just 14 MB at INT4 quantisation [^2]. The architecture is deliberately minimal:
 
-```
-┌─────────────────────────────────────────┐
-│          Simple Attention Network       │
-├─────────────────────────────────────────┤
-│  Encoder: 12 layers, GQA + RoPE        │
-│  Decoder: 8 layers, cross-attention     │
-│  No feed-forward layers anywhere        │
-│  Vocab: 8,192 BPE tokens               │
-│  Norm: Zero-centred RMSNorm            │
-│  Gated residual connections             │
-└─────────────────────────────────────────┘
+```mermaid
+block-beta
+  columns 1
+  title["**Simple Attention Network**"]:::title
+  enc["Encoder: 12 layers — GQA + RoPE"]
+  dec["Decoder: 8 layers — cross-attention"]
+  noff["No feed-forward layers anywhere"]
+  vocab["Vocab: 8,192 BPE tokens"]
+  norm["Norm: zero-centred RMSNorm"]
+  res["Gated residual connections"]
+  classDef title fill:#f0f0f0,stroke:#999
 ```
 
 The key insight: **tool calling is fundamentally retrieval-and-assembly, not reasoning** [^3]. Needle does not need to understand code semantics — it needs to parse a task description, match it against available tool schemas, and emit a structured function call. By eliminating feed-forward layers entirely, the model achieves 6,000 tokens/second prefill and 1,200 tokens/second decode on consumer hardware [^2].
@@ -137,7 +137,7 @@ A centralised routing service (LiteLLM or Bifrost) manages all tier decisions, a
 
 ## Cost Impact
 
-The economics are straightforward. Zylos AI's research found that organisations processing 1 million monthly agent tasks save approximately 70% by routing 70% of calls locally — dropping from $48K–$240K/month to $14K–$72K/month [^1]. For individual developers, the maths scales proportionally: reclaiming rate-limit headroom for tasks that genuinely need frontier reasoning. Hardware breakeven occurs within 1–2 months; for developers already running Ollama or LM Studio, the marginal cost is effectively zero.
+The economics are straightforward. Zylos AI's research found that organisations processing 1 million monthly agent tasks save approximately 70% by routing 70% of calls locally — dropping from \$48K–\$240K/month to \$14K–\$72K/month [^1]. For individual developers, the maths scales proportionally: reclaiming rate-limit headroom for tasks that genuinely need frontier reasoning. Hardware breakeven occurs within 1–2 months; for developers already running Ollama or LM Studio, the marginal cost is effectively zero.
 
 ## Implementing a Preflight Layer for Codex CLI
 

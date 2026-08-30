@@ -1,12 +1,12 @@
 ---
 title: "Measuring Codex CLI's Impact on Your Team: DORA Metrics, Token Telemetry, and the AI Productivity Paradox"
 description: "Your team adopted Codex CLI three months ago. Pull requests are up. Developers report feeling faster."
-parent: "Articles"
-nav_order: 352
 type: Technical Article
 timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-measuring-codex-cli-impact-dora-metrics-token-telemetry-ai-productivity-paradox"
 tags: ["codex-cli", "developer-productivity", "DORA-metrics", "telemetry", "analytics", "measurement", "enterprise"]
+date: 2026-05-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Measuring Codex CLI's Impact on Your Team: DORA Metrics, Token Telemetry, and the AI Productivity Paradox](/sketchnotes/articles/2026-05-10-measuring-codex-cli-impact-dora-metrics-token-telemetry-ai-productivity-paradox.png)
 

@@ -1,12 +1,12 @@
 ---
 title: "The Invisible Payload: How Unicode TAG-Block Encoding Breaks MCP Approval Dialogs — and Where Codex CLI's Defence Stack Stands"
 description: "Rashidi's arXiv:2607.05744 reveals that a single Unicode encoding trick can slip instructions past every MCP approval dialog whilst reaching the model unchanged. Eight concealment techniques, three server libraries, zero re-approvals triggered. This article maps the findings to Codex CLI's layered security architecture and identifies what it catches and what it cannot."
-parent: "Articles"
-nav_order: 1020
 type: Technical Article
 timestamp: 2026-07-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-09-unicode-tag-block-mcp-tool-poisoning-approval-view-fidelity-gap-codex-cli-defence-stack"
 tags: ["codex-cli", "mcp", "security", "tool-poisoning", "unicode", "approval-policy", "pretooluse-hooks", "defence-in-depth"]
+date: 2026-07-09T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 
 # The Invisible Payload: How Unicode TAG-Block Encoding Breaks MCP Approval Dialogs — and Where Codex CLI's Defence Stack Stands

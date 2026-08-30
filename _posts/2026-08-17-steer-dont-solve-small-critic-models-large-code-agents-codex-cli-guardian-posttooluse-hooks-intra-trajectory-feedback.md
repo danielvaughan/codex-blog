@@ -1,7 +1,7 @@
 ---
 title: "Steer, Don't Solve: What Small Critic Models Mean for Your Codex CLI Guardian and Hook Strategy"
-parent: "Articles"
-nav_order: 1812
+date: 2026-08-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "critic-models", "guardian", "PostToolUse-hooks", "intra-trajectory-feedback", "SWE-bench", "code-agent-steering", "cost-optimisation"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["codex-cli", "critic-models", "guardian", "PostToolUse-hooks", "intra-tra
 
 End-to-end agent training is expensive, and it plateaus. The strategy-level reasoning a coding agent needs to navigate a repository — when to switch files, when to abandon a failing approach, when to re-read the specification — gets drowned out by the sheer volume of code-level execution signals during joint optimisation [^1]. Gandhi, Xie, Naik, Zhu, and Rose at Carnegie Mellon University propose a cleaner separation: freeze the agent, bolt on a small critic that steers it mid-run, and let each component do what it does best.
 
-Their paper, *Steer, Don't Solve: Training Small Critic Models for Large Code Agents* (arXiv:2606.21811, June 2026), demonstrates that a Qwen3-8B critic, trained via supervised fine-tuning on teacher trajectories, delivers +3.8 to +5.2 percentage-point gains on SWE-bench Verified at 30–92× lower cost than the frontier teacher [^1]. On Qwen3-Next-80B-A3B, the critic-guided system is simultaneously more accurate (25.2% vs. 20.8%) and cheaper ($0.04 vs. $0.11 per instance) because steering shortens trajectories [^1].
+Their paper, *Steer, Don't Solve: Training Small Critic Models for Large Code Agents* (arXiv:2606.21811, June 2026), demonstrates that a Qwen3-8B critic, trained via supervised fine-tuning on teacher trajectories, delivers +3.8 to +5.2 percentage-point gains on SWE-bench Verified at 30–92× lower cost than the frontier teacher [^1]. On Qwen3-Next-80B-A3B, the critic-guided system is simultaneously more accurate (25.2% vs. 20.8%) and cheaper (\$0.04 vs. \$0.11 per instance) because steering shortens trajectories [^1].
 
 If you use Codex CLI's Guardian auto-review subagent, PostToolUse hooks, or TOML agent definitions, this paper maps directly onto your existing toolchain.
 
@@ -53,11 +53,11 @@ The steering signal is not agent-specific. Strategy-level patterns — when to s
 
 ### Cost inversion
 
-On Qwen3-Next-80B-A3B, adding the critic reduces total cost from $0.11 to $0.04 per instance because shorter trajectories offset the $0.003–$0.010 critic overhead [^1]. The critic-guided system Pareto-dominates the unguided baseline on both accuracy and cost.
+On Qwen3-Next-80B-A3B, adding the critic reduces total cost from \$0.11 to \$0.04 per instance because shorter trajectories offset the \$0.003–\$0.010 critic overhead [^1]. The critic-guided system Pareto-dominates the unguided baseline on both accuracy and cost.
 
 ### Teacher distillation efficiency
 
-The frontier teacher (Claude Opus 4.6) achieves 51.4% resolve rate but costs $0.96 per instance in critic overhead alone [^1]. The trained Qwen3-8B critic captures enough of the teacher's steering signal to deliver meaningful gains at 30–92× lower cost.
+The frontier teacher (Claude Opus 4.6) achieves 51.4% resolve rate but costs \$0.96 per instance in critic overhead alone [^1]. The trained Qwen3-8B critic captures enough of the teacher's steering signal to deliver meaningful gains at 30–92× lower cost.
 
 ## Mapping to Codex CLI: Three Integration Points
 

@@ -1,12 +1,12 @@
 ---
 title: "MCP readOnlyHint in Codex CLI: Tool-Level Concurrent Execution Without the Server Flag"
 description: "Codex CLI v0.134.0 ships tool-granular concurrency for MCP servers via readOnlyHint annotations. A deep-dive into how it differs from supports_parallel_tool_calls, how to annotate your own servers, and the performance and safety trade-offs."
-parent: "Articles"
-nav_order: 537
 type: Technical Article
 timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-mcp-readonlyhint-concurrent-tool-execution-annotations-parallelism"
 tags: ["codex-cli", "mcp", "readOnlyHint", "tool-annotations", "concurrency", "performance", "v0.134"]
+date: 2026-05-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # MCP readOnlyHint in Codex CLI: Tool-Level Concurrent Execution Without the Server Flag
 

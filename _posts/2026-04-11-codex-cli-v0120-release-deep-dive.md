@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI v0.120 Release Deep Dive"
 description: "Codex CLI v0.120.0 landed on 11 April 2026, one day after the feature-heavy v0.119.0 release that brought Realtime V2 voice sessions and richer MCP App."
-parent: "Articles"
-nav_order: 5
 type: Technical Article
 timestamp: 2026-04-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-codex-cli-v0120-release-deep-dive"
 tags: ["v0.120", "release-notes", "background-agent", "hooks", "mcp-outputschema", "guardian", "tui", "realtime-v2"]
+date: 2026-04-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI v0.120 Release Deep Dive](/sketchnotes/articles/2026-04-11-codex-cli-v0120-release-deep-dive.png)
 

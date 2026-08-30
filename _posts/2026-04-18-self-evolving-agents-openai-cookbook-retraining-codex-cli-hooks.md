@@ -1,12 +1,12 @@
 ---
 title: "Self-Evolving Agents in Practice: Implementing the OpenAI Cookbook Retraining Loop with Codex CLI Hooks"
 description: "Most agentic systems plateau after proof-of-concept. The agent handles the happy path, but edge cases accumulate, prompts drift, and performance quietly."
-parent: "Articles"
-nav_order: 78
 type: Technical Article
 timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-self-evolving-agents-openai-cookbook-retraining-codex-cli-hooks"
 tags: ["self-evolving", "retraining", "hooks", "metaprompt", "skill-crystallisation", "prompt-versioning", "genericagent", "evolver"]
+date: 2026-04-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Self-Evolving Agents in Practice: Implementing the OpenAI Cookbook Retraining Loop with Codex CLI Hooks](/sketchnotes/articles/2026-04-18-self-evolving-agents-openai-cookbook-retraining-codex-cli-hooks.png)
 

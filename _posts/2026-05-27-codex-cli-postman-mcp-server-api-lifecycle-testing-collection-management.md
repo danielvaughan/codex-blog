@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI with the Postman MCP Server: API Lifecycle Automation, Collection Management, and Test Workflows"
-parent: "Articles"
-nav_order: 536
 type: Technical Article
 timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-postman-mcp-server-api-lifecycle-testing-collection-management"
 tags: ["codex-cli", "postman", "mcp", "api-testing", "api-lifecycle", "collections", "environments", "mock-servers", "monitors"]
+date: 2026-05-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI with the Postman MCP Server: API Lifecycle Automation, Collection Management, and Test Workflows
 

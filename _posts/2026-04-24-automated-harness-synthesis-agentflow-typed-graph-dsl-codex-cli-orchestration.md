@@ -1,12 +1,12 @@
 ---
 title: "Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration"
 description: "Two independent research papers dropped within 48 hours of each other in late April 2026, and together they crystallise a thesis that practitioners have."
-parent: "Articles"
-nav_order: 135
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-automated-harness-synthesis-agentflow-typed-graph-dsl-codex-cli-orchestration"
 tags: ["codex-cli", "agent-harness", "orchestration", "AgentFlow", "DSL", "multi-agent", "subagents", "AGENTS.md"]
+date: 2026-04-24T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration](/sketchnotes/articles/2026-04-24-automated-harness-synthesis-agentflow-typed-graph-dsl-codex-cli-orchestration.png)
 

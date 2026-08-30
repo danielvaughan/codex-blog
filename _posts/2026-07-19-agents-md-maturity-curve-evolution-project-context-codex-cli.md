@@ -1,7 +1,7 @@
 ---
 title: "The AGENTS.md Maturity Curve: How Project Context Evolves from Wish List to Force Multiplier"
-parent: "Articles"
-nav_order: 1221
+date: 2026-07-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["agents-md", "configuration", "developer-workflow", "codex-cli", "maturity-model"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Automated SAP Testing with Codex CLI: An Agent-Driven Approach"
 description: "How to use Codex CLI to generate, maintain, and execute automated tests across SAP's four testing layers — OData APIs, BAPIs/RFCs, Fiori UI, and SAP GUI — with practical code examples, MCP integration patterns, and guidance on navigating SAP's April 2026 API policy."
 date: 2026-06-13T20:00:00+00:00
-last_modified_at: 2026-08-21T10:37:17+01:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags:
   - codex-cli
   - sap
@@ -132,7 +132,7 @@ Dedicated tools are good at what they do. Here is what they are not good at:
 
 **Coverage gaps.** Most SAP organisations test the UI. Few test the APIs systematically. Fewer still test BAPI/RFC integrations end to end. Codex can generate API contract tests from OData metadata documents without anyone writing a test plan.[^10]
 
-**Cost.** A Tricentis Tosca licence for SAP can run to six figures annually. Codex CLI is $20/month for Pro, and the API costs for test generation are fractional.[^16]
+**Cost.** A Tricentis Tosca licence for SAP can run to six figures annually. Codex CLI is \$20/month for Pro, and the API costs for test generation are fractional.[^16]
 
 This is not an either/or decision. The most effective pattern is Codex generating tests that run alongside your existing suite — filling the gaps, not replacing the framework.
 

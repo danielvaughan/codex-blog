@@ -1,7 +1,7 @@
 ---
 title: "Outcome-First Prompting: How GPT-5.6 Sol's Lean-Prompt Philosophy Reshapes Your Codex CLI Strategy"
-parent: "Articles"
-nav_order: 1282
+date: 2026-07-26T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "gpt-5.6", "prompting", "agents-md", "system-prompts", "cost-optimisation", "outcome-first"]
 ---
 
@@ -197,7 +197,7 @@ The numbers from OpenAI's internal testing are striking [^2]:
 | Total tokens | Baseline | −41–66% | Significant savings |
 | Total cost | Baseline | −33–67% | Direct budget impact |
 
-At GPT-5.6 Sol pricing ($5 input / $30 output per million tokens) [^5], a team running 50 Codex sessions daily could save **$200–400/month** purely by trimming system prompts — before any task-level routing optimisation.
+At GPT-5.6 Sol pricing (\$5 input / \$30 output per million tokens) [^5], a team running 50 Codex sessions daily could save **\$200–400/month** purely by trimming system prompts — before any task-level routing optimisation.
 
 ---
 

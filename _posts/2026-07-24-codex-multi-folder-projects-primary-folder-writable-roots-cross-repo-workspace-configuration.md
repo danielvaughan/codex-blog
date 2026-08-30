@@ -1,11 +1,11 @@
 ---
 title: "Multi-Folder Projects in Codex: How Primary Folders, Writable Roots, and Cross-Repo Workspaces Actually Work"
 description: "Codex now supports multi-folder projects across CLI and desktop. This article maps the full configuration surface — from --add-dir and writable_roots to the new primary folder model — and compares it with Claude Code's approach."
-parent: "Articles"
-nav_order: 1264
 type: Technical Article
 timestamp: 2026-07-24T00:00:00+00:00
 tags: ["codex", "multi-folder", "workspace", "writable-roots", "sandbox", "configuration", "monorepo", "cross-repo", "primary-folder", "codex-app"]
+date: 2026-07-24T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 
 # Multi-Folder Projects in Codex: How Primary Folders, Writable Roots, and Cross-Repo Workspaces Actually Work

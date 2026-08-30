@@ -1,11 +1,11 @@
 ---
 title: "Coding Benchmarks Are Misaligned: What the Gorinova Position Paper Means for Codex CLI Harness Engineering"
-parent: "Articles"
-nav_order: 824
 type: Technical Article
 timestamp: 2026-06-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-coding-benchmarks-misaligned-agentic-software-engineering-codex-cli-harness-feedback-loops"
 tags: ["codex-cli", "benchmarks", "harness-engineering", "SWE-bench", "system-harness", "feedback-loops", "PostToolUse", "AGENTS.md"]
+date: 2026-06-21T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Coding Benchmarks Are Misaligned: What the Gorinova Position Paper Means for Codex CLI Harness Engineering
 

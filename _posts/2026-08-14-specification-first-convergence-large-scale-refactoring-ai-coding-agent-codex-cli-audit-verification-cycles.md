@@ -1,7 +1,7 @@
 ---
 title: "Specification-First Convergence: What a 189-File Refactoring with Zero Post-Deployment Bugs Teaches Us About Codex CLI's Audit-Verification Workflow"
-parent: "Articles"
-nav_order: 1499
+date: 2026-08-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "specification-driven-development", "refactoring", "AGENTS.md", "verification", "audit-cycles", "large-codebase", "convergence"]
 ---
 
@@ -58,7 +58,7 @@ The convergence criterion was deliberately conservative: **two consecutive verif
 
 ### The Result
 
-Three days of elapsed time. $2,430 in compute cost. Zero bugs observed across the initial deployment and approximately thirty subsequent sessions [^1].
+Three days of elapsed time. \$2,430 in compute cost. Zero bugs observed across the initial deployment and approximately thirty subsequent sessions [^1].
 
 ## Mapping to Codex CLI: The Infrastructure Already Exists
 
@@ -180,7 +180,7 @@ flowchart LR
 The case study has clear constraints that should temper enthusiasm:
 
 - **Single-operator protocol.** One developer, one agent. Multi-agent delegation (Codex CLI v0.107.0+) introduces coordination failures that the protocol does not address [^6].
-- **Cost ceiling.** $2,430 for a single refactoring is viable for high-value architectural changes but not for routine feature work. ⚠️ Cost scaling for larger codebases remains unverified.
+- **Cost ceiling.** \$2,430 for a single refactoring is viable for high-value architectural changes but not for routine feature work. ⚠️ Cost scaling for larger codebases remains unverified.
 - **French-language session logs.** The 1,500+ pages of published logs are in French, limiting reproducibility verification by the broader community [^1].
 - **No automated convergence tooling.** The protocol was executed manually. Codex CLI provides the primitives (hooks, profiles, AGENTS.md) but no built-in convergence loop. ⚠️ The shell script above is illustrative, not battle-tested.
 

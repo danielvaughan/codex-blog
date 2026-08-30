@@ -1,7 +1,7 @@
 ---
 title: "Codex Automations as Lightweight CI: When Scheduled Agents Replace Your Pipeline"
-parent: "Articles"
-nav_order: 1248
+date: 2026-07-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "automations", "ci-cd", "codex-exec", "github-actions", "scheduled-tasks", "triggers"]
 ---
 
@@ -167,7 +167,7 @@ Traditional pipelines remain superior for:
 - **Reproducibility guarantees** — identical inputs must produce identical outputs
 - **Cost-sensitive high-frequency runs** — per-commit checks at scale burn tokens rapidly
 
-The `codex exec` invocation carries inference cost. At current Codex CLI pricing (v0.144.6), a typical triage task consuming 10-20K tokens costs roughly $0.02-0.05 per run[^6]. Daily is fine; per-commit on a busy monorepo is not.
+The `codex exec` invocation carries inference cost. At current Codex CLI pricing (v0.144.6), a typical triage task consuming 10-20K tokens costs roughly \$0.02-0.05 per run[^6]. Daily is fine; per-commit on a busy monorepo is not.
 
 ## The Hybrid Pattern
 

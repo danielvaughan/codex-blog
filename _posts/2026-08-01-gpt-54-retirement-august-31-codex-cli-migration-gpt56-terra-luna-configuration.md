@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.4 Retires on 31 August: The Codex CLI Migration Checklist for GPT-5.6 Terra and Luna"
-parent: "Articles"
-nav_order: 1354
+date: 2026-08-01T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "gpt-5.4", "gpt-5.6", "model-retirement", "migration", "terra", "luna", "config.toml", "named-profiles", "pricing"]
 ---
 
@@ -64,10 +64,10 @@ Following the 30 July 2026 price restructuring [^4], migration delivers both bet
 
 | Model | Input (per MTok) | Output (per MTok) |
 |---|---|---|
-| GPT-5.4 (retiring) | $2.50 | $15.00 |
-| **GPT-5.6 Terra** | **$2.00** | **$12.00** |
-| GPT-5.4 mini (retiring) | $0.75 | $4.50 |
-| **GPT-5.6 Luna** | **$0.20** | **$1.20** |
+| GPT-5.4 (retiring) | \$2.50 | \$15.00 |
+| **GPT-5.6 Terra** | **\$2.00** | **\$12.00** |
+| GPT-5.4 mini (retiring) | \$0.75 | \$4.50 |
+| **GPT-5.6 Luna** | **\$0.20** | **\$1.20** |
 
 Terra saves 20% on both input and output tokens compared with GPT-5.4. Luna saves 73% on input and 73% on output compared with GPT-5.4 mini [^4]. For teams that were using GPT-5.4 mini as a cost-conscious default, Luna is now nearly four times cheaper whilst being measurably more capable.
 

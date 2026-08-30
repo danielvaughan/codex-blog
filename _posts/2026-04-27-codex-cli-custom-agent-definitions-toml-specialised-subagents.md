@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI Custom Agent Definitions: Building Specialised Subagents with TOML Configuration"
 description: "Codex CLI ships with three built-in agent types — default, worker, and explorer — but the real power emerges when you define your own . Custom agent."
-parent: "Articles"
-nav_order: 206
 type: Technical Article
 timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-custom-agent-definitions-toml-specialised-subagents"
 tags: ["codex-cli", "custom-agents", "subagents", "toml", "multi-agent", "configuration", "orchestration"]
+date: 2026-04-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Custom Agent Definitions: Building Specialised Subagents with TOML Configuration](/sketchnotes/articles/2026-04-27-codex-cli-custom-agent-definitions-toml-specialised-subagents.png)
 

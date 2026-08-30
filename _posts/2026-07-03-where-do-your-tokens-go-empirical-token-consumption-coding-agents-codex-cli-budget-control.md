@@ -1,18 +1,18 @@
 ---
 title: "Where Do Your Tokens Go? What Empirical Research Reveals About Coding Agent Token Consumption — and How to Control It with Codex CLI"
-parent: "Articles"
-nav_order: 948
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-where-do-your-tokens-go-empirical-token-consumption-coding-agents-codex-cli-budget-control"
 tags: ["codex-cli", "token-consumption", "cost-optimisation", "rollout-budget", "model-routing", "SWE-bench", "token-economics"]
+date: 2026-07-03T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Where Do Your Tokens Go? What Empirical Research Reveals About Coding Agent Token Consumption — and How to Control It with Codex CLI
 
 
 ---
 
-The agentic coding revolution has a bill attached. Microsoft's Experiences + Devices division reportedly ordered engineers off Claude Code by June 2026 after per-engineer token costs hit roughly $2,000 per month, exhausting the annual AI budget months early [^1]. Uber's CTO disclosed that the firm burnt through its entire 2026 AI budget on coding agents in four months [^1]. Goldman Sachs projects that agentic AI could drive a 24-fold increase in token consumption by 2030, reaching 120 quadrillion tokens per month [^2].
+The agentic coding revolution has a bill attached. Microsoft's Experiences + Devices division reportedly ordered engineers off Claude Code by June 2026 after per-engineer token costs hit roughly \$2,000 per month, exhausting the annual AI budget months early [^1]. Uber's CTO disclosed that the firm burnt through its entire 2026 AI budget on coding agents in four months [^1]. Goldman Sachs projects that agentic AI could drive a 24-fold increase in token consumption by 2030, reaching 120 quadrillion tokens per month [^2].
 
 The instinct is to blame profligate usage. Two recent empirical studies — Bai et al.'s *How Do AI Agents Spend Your Money?* and Salim et al.'s *Tokenomics* — suggest the real problem is structural. Understanding *where* tokens go changes how you configure your agent. This article maps their findings onto Codex CLI's cost-control surface.
 

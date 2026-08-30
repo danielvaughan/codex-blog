@@ -1,7 +1,7 @@
 ---
 title: "Inference Economics of Enterprise Coding Agents: Cloud vs On-Premise LLMs and What the Numbers Mean for Codex CLI Deployments"
-parent: "Articles"
-nav_order: 1186
+date: 2026-07-16T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "inference-economics", "enterprise", "cloud-vs-on-premise", "cost-optimisation", "prompt-caching", "model-providers", "GLM-5", "token-budget"]
 ---
 
@@ -29,7 +29,7 @@ Peng et al. compared two configurations over two consecutive 28-day periods in a
 |---|---|---|
 | **Model** | Claude Opus 4.7/4.8 via Claude Code | GLM-5.1/5.2 (Opencode), NVFP4 quantised |
 | **Hardware** | — | NVIDIA Blackwell GPUs |
-| **Effective cost/1M tokens** | $0.57 (cached) | $2.83 (amortised) |
+| **Effective cost/1M tokens** | \$0.57 (cached) | \$2.83 (amortised) |
 | **Fix Commit Ratio** | 45.9% | 74.9% |
 | **Defect odds ratio** | 1× (baseline) | 2.6–4.9× per difficulty tier |
 | **TCO (shared GPU)** | Baseline | −40.1% |
@@ -41,7 +41,7 @@ The Fix Commit Ratio measures the proportion of commits that exist solely to rep
 
 The study recorded a **99.3% prompt-cache hit rate** on the API path [^1]. OpenAI's own documentation confirms that cached input tokens are billed at roughly 10% of the uncached rate — for example, 6.25 credits per million tokens versus 62.50 uncached for GPT-5.4 [^2]. Codex CLI's agent loop architecture naturally maximises cache hits because each turn extends the same conversation prefix [^3].
 
-For the on-premise path, the $2.83 per million tokens includes amortised GPU capital, power, cooling, and ops labour — costs that vanish from an API invoice but exist nonetheless [^1].
+For the on-premise path, the \$2.83 per million tokens includes amortised GPU capital, power, cooling, and ops labour — costs that vanish from an API invoice but exist nonetheless [^1].
 
 ### Why On-Premise Was Cheaper Overall (Sometimes)
 

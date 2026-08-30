@@ -1,12 +1,12 @@
 ---
 title: "Prompting GPT-5.5 in Codex CLI: Outcome-First Instructions, AGENTS.md Patterns, and Reasoning Effort Tuning"
 description: "GPT-5.5 landed in Codex CLI in late April 2026 as OpenAI's newest frontier model, bringing stronger planning, tool use, and multi-step follow-through."
-parent: "Articles"
-nav_order: 350
 type: Technical Article
 timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-prompting-gpt-5-5-in-codex-cli-outcome-first-agents-md-reasoning-effort"
 tags: ["codex-cli", "gpt-5.5", "prompting", "AGENTS.md", "reasoning-effort", "configuration", "best-practices"]
+date: 2026-05-09T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Prompting GPT-5.5 in Codex CLI: Outcome-First Instructions, AGENTS.md Patterns, and Reasoning Effort Tuning](/sketchnotes/articles/2026-05-09-prompting-gpt-5-5-in-codex-cli-outcome-first-agents-md-reasoning-effort.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "SWE-MeM and the Case for Learned Compaction: What Adaptive Memory Management Means for Codex CLI Sessions"
-parent: "Articles"
-nav_order: 1226
+date: 2026-07-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "context-management", "compaction", "SWE-MeM", "memory-management", "token-efficiency", "GRPO", "long-horizon-agents"]
 ---
 
@@ -18,7 +18,7 @@ Codex CLI's auto-compaction is threshold-based. When accumulated tokens exceed `
 
 This works, but it has three well-documented costs:
 
-1. **Cache invalidation.** Compaction changes the prefix, destroying the prompt cache. At an 85% cache hit rate, a single compaction on a 125,000-token context costs roughly $0.40 — equivalent to 21 follow-up turns at cached rates [^3].
+1. **Cache invalidation.** Compaction changes the prefix, destroying the prompt cache. At an 85% cache hit rate, a single compaction on a 125,000-token context costs roughly \$0.40 — equivalent to 21 follow-up turns at cached rates [^3].
 2. **Information loss.** Static summarisation treats all trajectory steps equally. Lengthy execution logs and irrelevant file reads receive the same compression weight as critical code inspections performed early in the session [^1].
 3. **Cascading compaction.** If the threshold is set too low relative to essential context, the summary itself can exceed the threshold, triggering an immediate second compaction [^2].
 

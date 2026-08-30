@@ -1,11 +1,11 @@
 ---
 title: "EU AI Act Enforcement Day: What Article 50 Transparency Actually Requires from Codex CLI Developers After the Digital Omnibus"
-parent: "Articles"
-nav_order: 1359
 type: Technical Article
 timestamp: 2026-08-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-01-eu-ai-act-enforcement-day-codex-cli-article-50-transparency-digital-omnibus-developer-compliance"
 tags: ["codex-cli", "EU AI Act", "Article 50", "transparency", "compliance", "regulation", "Digital Omnibus", "hooks", "audit-trail", "enterprise"]
+date: 2026-08-01T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # EU AI Act Enforcement Day: What Article 50 Transparency Actually Requires from Codex CLI Developers After the Digital Omnibus
 

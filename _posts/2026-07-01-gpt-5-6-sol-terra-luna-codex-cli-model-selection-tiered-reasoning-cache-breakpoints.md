@@ -1,11 +1,11 @@
 ---
 title: "GPT-5.6 Sol, Terra, and Luna: What OpenAI's Three-Tier Model Family Means for Codex CLI Workflows"
-parent: "Articles"
-nav_order: 927
 type: Technical Article
 timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-gpt-5-6-sol-terra-luna-codex-cli-model-selection-tiered-reasoning-cache-breakpoints"
 tags: ["codex-cli", "gpt-5.6", "model-selection", "sol", "terra", "luna", "reasoning", "ultra-mode", "prompt-caching", "cost-optimisation"]
+date: 2026-07-01T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # GPT-5.6 Sol, Terra, and Luna: What OpenAI's Three-Tier Model Family Means for Codex CLI Workflows
 
@@ -22,9 +22,9 @@ GPT-5.6 introduces three model identifiers [^3]:
 
 | Model | API identifier | Input (per 1M tokens) | Output (per 1M tokens) | Context window |
 |-------|---------------|----------------------|------------------------|----------------|
-| Sol | `gpt-5.6-sol` | $5.00 | $30.00 | 1.5M tokens |
-| Terra | `gpt-5.6-terra` | $2.50 | $15.00 | 1.5M tokens |
-| Luna | `gpt-5.6-luna` | $1.00 | $6.00 | 1.5M tokens |
+| Sol | `gpt-5.6-sol` | \$5.00 | \$30.00 | 1.5M tokens |
+| Terra | `gpt-5.6-terra` | \$2.50 | \$15.00 | 1.5M tokens |
+| Luna | `gpt-5.6-luna` | \$1.00 | \$6.00 | 1.5M tokens |
 
 All three tiers share a 1.5-million-token context window, up from GPT-5.5's 1 million [^4]. The pricing structure is straightforward: Sol costs roughly 2× Terra and 5× Luna on input tokens, with even steeper multipliers on output.
 
@@ -150,9 +150,9 @@ The pricing spread is significant. For a typical Codex CLI session generating 50
 
 | Tier | Output cost | Relative |
 |------|------------|----------|
-| Sol | $15.00 | 5× |
-| Terra | $7.50 | 2.5× |
-| Luna | $3.00 | 1× |
+| Sol | \$15.00 | 5× |
+| Terra | \$7.50 | 2.5× |
+| Luna | \$3.00 | 1× |
 
 Ultra mode amplifies Sol's costs further because multiple subagents generate independent reasoning and output tokens — a single ultra call can consume substantially more than a standard `max` call on the same prompt [^5].
 

@@ -1,7 +1,7 @@
 ---
 title: "Meta Muse Code Enters the Terminal Agent Wars: Persistent Background Agents, Replay-Safe Event Logs, and What It Means for Your Codex CLI Workflow"
-parent: "Articles"
-nav_order: 1413
+date: 2026-08-06T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "meta", "muse-code", "muse-spark", "terminal-agent", "competitive-analysis", "persistent-agents", "worktree-isolation", "benchmarks"]
 ---
 
@@ -72,18 +72,18 @@ Muse Code's most provocative move is its two-tier pricing structure [^7]:
 
 | Token Type | Price per 1M tokens |
 |-----------|-------------------|
-| Input | $1.25 |
-| Cached Input | $0.15 |
-| Output | $4.25 |
+| Input | \$1.25 |
+| Cached Input | \$0.15 |
+| Output | \$4.25 |
 | Rate limit | 3,000 RPM |
 
 **Contributor Tier:**
 
 | Token Type | Price per 1M tokens |
 |-----------|-------------------|
-| Input | $0.10 |
-| Cached Input | $0.002 |
-| Output | $0.20 |
+| Input | \$0.10 |
+| Cached Input | \$0.002 |
+| Output | \$0.20 |
 | Rate limit | 60 RPM |
 
 The contributor tier offers a **12.5× discount on input** and **21.25× discount on output** in exchange for granting Meta permission to train future models on your prompts and completions [^7]. This is a land-and-expand play: acquire a large developer base at negligible cost, harvest agentic trajectory data — the planning, tool-use, and debugging sequences that are the most valuable training signal in 2026 — then compete on capability at scale.
@@ -178,7 +178,7 @@ For Codex CLI teams, the practical takeaway is straightforward: the features tha
 
 [^6]: Wall St Engine via X, "META RELEASES MUSE CODE IN BETA — Spark 1.2 scored 82.9% on Terminal-Bench 2.1," 5 August 2026; independent Terminal-Bench 2.1 leaderboard data from morphllm.com. [https://x.com/wallstengine/status/2085082333661864398](https://x.com/wallstengine/status/2085082333661864398)
 
-[^7]: BigGo Finance, "Meta launches Muse Code: an AI coding agent with persistent background agents and a $0.30/1M token data-sharing tier," 5 August 2026. [https://finance.biggo.com/news/202608052250_Meta_launches_Muse_Code_AI_coding_agent](https://finance.biggo.com/news/202608052250_Meta_launches_Muse_Code_AI_coding_agent)
+[^7]: BigGo Finance, "Meta launches Muse Code: an AI coding agent with persistent background agents and a \$0.30/1M token data-sharing tier," 5 August 2026. [https://finance.biggo.com/news/202608052250_Meta_launches_Muse_Code_AI_coding_agent](https://finance.biggo.com/news/202608052250_Meta_launches_Muse_Code_AI_coding_agent)
 
 [^8]: Codex Knowledge Base, "Codex CLI v0.146 Session Orchestration: Named Threads, Pinning, Forking, and Side Conversations," 5 August 2026. [https://codex.danielvaughan.com/2026/08/05/codex-cli-v0146-session-orchestration-named-threads-pinning-forking-side-conversations/](https://codex.danielvaughan.com/2026/08/05/codex-cli-v0146-session-orchestration-named-threads-pinning-forking-side-conversations/)
 

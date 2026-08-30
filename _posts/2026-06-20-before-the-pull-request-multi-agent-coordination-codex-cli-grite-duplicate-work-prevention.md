@@ -1,12 +1,12 @@
 ---
 title: "Before the Pull Request: What the Multi-Agent Coordination Research Means for Codex CLI Parallel Workflows"
 description: "Sarkar's grite research reveals that 78% of multi-agent coding effort is wasted on duplicate work without coordination. This article maps the findings to Codex CLI's subagent, worktree, and hook patterns for preventing coordination failures."
-parent: "Articles"
-nav_order: 821
 type: Technical Article
 timestamp: 2026-06-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-before-the-pull-request-multi-agent-coordination-codex-cli-grite-duplicate-work-prevention"
 tags: ["multi-agent", "coordination", "grite", "duplicate-work", "worktrees", "subagents", "parallel-execution", "codex-cli", "hooks", "AGENTS.md"]
+date: 2026-06-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Before the Pull Request: What the Multi-Agent Coordination Research Means for Codex CLI Parallel Workflows
 

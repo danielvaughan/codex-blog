@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI for Performance Profiling and Optimisation: MCP-Driven Flamegraphs, Bottleneck Analysis, and Automated Fix Loops"
 description: "Performance profiling has always been a two-phase problem: first you collect data, then you interpret it. The interpretation phase — staring at flame."
-parent: "Articles"
-nav_order: 488
 type: Technical Article
 timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-performance-profiling-optimisation-mcp-flamegraph-bottleneck-workflows"
 tags: ["codex-cli", "performance", "profiling", "flamegraph", "MCP", "optimisation", "pprof", "CodSpeed", "bottleneck"]
+date: 2026-05-23T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Performance Profiling and Optimisation: MCP-Driven Flamegraphs, Bottleneck Analysis, and Automated Fix Loops](/sketchnotes/articles/2026-05-23-codex-cli-performance-profiling-optimisation-mcp-flamegraph-bottleneck-workflows.png)
 

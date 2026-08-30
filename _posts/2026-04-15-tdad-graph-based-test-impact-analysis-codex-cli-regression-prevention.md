@@ -1,12 +1,12 @@
 ---
 title: "TDAD and Graph-Based Test Impact Analysis: Cutting Codex CLI Regressions by 70%"
 description: "Autonomous coding agents resolve issues faster than most developers expect. What they also do — with uncomfortable regularity — is break things that already."
-parent: "Articles"
-nav_order: 37
 type: Technical Article
 timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-tdad-graph-based-test-impact-analysis-codex-cli-regression-prevention"
 tags: ["tdad", "test-impact-analysis", "regression-prevention", "agent-skills", "swe-bench", "ast", "graph-rag", "codex-cli", "testing"]
+date: 2026-04-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: TDAD and Graph-Based Test Impact Analysis: Cutting Codex CLI Regressions by 70%](/sketchnotes/articles/2026-04-15-tdad-graph-based-test-impact-analysis-codex-cli-regression-prevention.png)
 

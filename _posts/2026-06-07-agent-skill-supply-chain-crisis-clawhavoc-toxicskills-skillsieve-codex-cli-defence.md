@@ -1,11 +1,11 @@
 ---
 title: "The Agent Skill Supply Chain Crisis: ClawHavoc, ToxicSkills, SkillSieve, and Defending Your Codex CLI Skill Stack"
-parent: "Articles"
-nav_order: 673
 type: Technical Article
 timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-agent-skill-supply-chain-crisis-clawhavoc-toxicskills-skillsieve-codex-cli-defence"
 tags: ["codex-cli", "security", "supply-chain", "agent-skills", "clawhavoc", "toxicskills", "skillsieve", "malicious-skills", "marketplace-security", "skill-vetting"]
+date: 2026-06-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The Agent Skill Supply Chain Crisis: ClawHavoc, ToxicSkills, SkillSieve, and Defending Your Codex CLI Skill Stack
 
@@ -87,7 +87,7 @@ flowchart TD
 
 **Layer 3** convenes a jury of three LLMs that vote independently and engage in structured debate when they disagree[^2].
 
-The framework achieves an F1 score of 0.920 (precision 0.912, recall 0.929) at a cost of $0.006 per skill assessment, and runs on hardware as modest as a $440 ARM single-board computer[^2]. An optional XGBoost fast-track reduces LLM calls by 32% with only a 1.6-point F1 reduction whilst maintaining perfect recall[^2].
+The framework achieves an F1 score of 0.920 (precision 0.912, recall 0.929) at a cost of \$0.006 per skill assessment, and runs on hardware as modest as a \$440 ARM single-board computer[^2]. An optional XGBoost fast-track reduces LLM calls by 32% with only a 1.6-point F1 reduction whilst maintaining perfect recall[^2].
 
 ## Codex CLI's Built-In Defences
 

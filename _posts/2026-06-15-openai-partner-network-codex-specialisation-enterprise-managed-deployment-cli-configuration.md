@@ -1,16 +1,16 @@
 ---
 title: "The OpenAI Partner Network and the Codex Specialisation: What Managed Enterprise Deployments Mean for CLI Developers"
-parent: "Articles"
-nav_order: 766
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-openai-partner-network-codex-specialisation-enterprise-managed-deployment-cli-configuration"
 tags: ["codex-cli", "enterprise", "partner-network", "managed-configuration", "requirements-toml", "MDM", "deployment", "governance"]
+date: 2026-06-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The OpenAI Partner Network and the Codex Specialisation: What Managed Enterprise Deployments Mean for CLI Developers
 
 
-On 15 June 2026 OpenAI announced the **Partner Network**, a `$150 million` programme to certify a large cohort of consultants and channel enterprise AI deployments through global systems integrators.[^1] The programme introduces four specialisation tracks, Codex, cybersecurity, API and agent transformation, each designed to help customers identify partners with proven capability in a specific product area.[^1][^2] For CLI developers, this changes what your daily environment looks like: the constraints you work within will increasingly come not from your own `config.toml` but from centrally managed policies pushed by certified partners and enterprise administrators.
+On 15 June 2026 OpenAI announced the **Partner Network**, a `\$150 million` programme to certify a large cohort of consultants and channel enterprise AI deployments through global systems integrators.[^1] The programme introduces four specialisation tracks, Codex, cybersecurity, API and agent transformation, each designed to help customers identify partners with proven capability in a specific product area.[^1][^2] For CLI developers, this changes what your daily environment looks like: the constraints you work within will increasingly come not from your own `config.toml` but from centrally managed policies pushed by certified partners and enterprise administrators.
 
 This article unpacks the announcement, maps the managed configuration architecture that underpins partner deployments, and offers practical guidance for CLI developers operating inside those constraints.
 
@@ -206,9 +206,9 @@ For CLI developers, the takeaway is pragmatic: learn the managed configuration s
 
 [^1]: OpenAI, "Introducing the OpenAI Partner Network," 15 June 2026. [https://openai.com/index/introducing-openai-partner-network/](https://openai.com/index/introducing-openai-partner-network/)
 
-[^2]: Dataconomy, "OpenAI Unveils First Official Partner Program With $150M Backing," 15 June 2026. [https://dataconomy.com/2026/06/15/openai-launches-150-million-partner-network/](https://dataconomy.com/2026/06/15/openai-launches-150-million-partner-network/)
+[^2]: Dataconomy, "OpenAI Unveils First Official Partner Program With \$150M Backing," 15 June 2026. [https://dataconomy.com/2026/06/15/openai-launches-150-million-partner-network/](https://dataconomy.com/2026/06/15/openai-launches-150-million-partner-network/)
 
-[^3]: CIOandLeader, "OpenAI Launches Partner Network Backed by $150M Investment," 15 June 2026. [https://www.cioandleader.com/technology/openai-launches-partner-network-backed-by-150m-investment](https://www.cioandleader.com/technology/openai-launches-partner-network-backed-by-150m-investment)
+[^3]: CIOandLeader, "OpenAI Launches Partner Network Backed by \$150M Investment," 15 June 2026. [https://www.cioandleader.com/technology/openai-launches-partner-network-backed-by-150m-investment](https://www.cioandleader.com/technology/openai-launches-partner-network-backed-by-150m-investment)
 
 [^4]: OpenAI, "Managed configuration: Codex," OpenAI Developers, accessed 15 June 2026. [https://developers.openai.com/codex/enterprise/managed-configuration](https://developers.openai.com/codex/enterprise/managed-configuration)
 

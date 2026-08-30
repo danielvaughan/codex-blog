@@ -1,11 +1,11 @@
 ---
 title: "Kimi K2.7-Code Arrives: What Moonshot's Open-Weight Coding Model Means for Codex CLI Multi-Model Routing"
-parent: "Articles"
-nav_order: 739
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-kimi-k27-code-open-weight-coding-model-codex-cli-multi-model-routing-benchmark-reality-check"
 tags: ["codex-cli", "kimi-k2.7-code", "multi-model", "open-weight", "moonshot-ai", "litellm", "openrouter", "mcp", "benchmark", "model-routing"]
+date: 2026-06-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Kimi K2.7-Code Arrives: What Moonshot's Open-Weight Coding Model Means for Codex CLI Multi-Model Routing
 
@@ -66,11 +66,11 @@ K2.7-Code's cost advantage is genuine, particularly for cache-heavy agentic work
 
 | Model | Input ($/1M tokens) | Output ($/1M tokens) | Cache Hit ($/1M tokens) |
 |---|---|---|---|
-| Kimi K2.7-Code | $0.95 | $4.00 | $0.19 |
-| GPT-5.5 | $5.00 | $30.00 | $1.25 |
-| Claude Opus 4.8 | $5.00 | $25.00 | $1.25 |
+| Kimi K2.7-Code | \$0.95 | \$4.00 | \$0.19 |
+| GPT-5.5 | \$5.00 | \$30.00 | \$1.25 |
+| Claude Opus 4.8 | \$5.00 | \$25.00 | \$1.25 |
 
-The 30 per cent reduction in thinking tokens compared to K2.6 further compounds savings, since reasoning tokens bill at the output rate of $4.00 per million[^3][^4]. A task that consumed 50K reasoning tokens on K2.6 would consume roughly 35K on K2.7-Code, saving $0.06 per task at scale.
+The 30 per cent reduction in thinking tokens compared to K2.6 further compounds savings, since reasoning tokens bill at the output rate of \$4.00 per million[^3][^4]. A task that consumed 50K reasoning tokens on K2.6 would consume roughly 35K on K2.7-Code, saving \$0.06 per task at scale.
 
 ⚠️ GPT-5.5 pricing above reflects the standard API rate as of June 2026. Codex CLI users on Pro/Max subscriptions may see different effective rates through the credit-based billing system.
 
@@ -165,7 +165,7 @@ Before routing Codex CLI through K2.7-Code for anything beyond experimentation, 
 
 3. **Start with low-stakes profiles.** Use K2.7-Code for linting, formatting, test generation, and code review — tasks where a wrong answer is caught cheaply. Reserve GPT-5.5 or Codex-Spark for complex multi-file refactoring until independent validation arrives.
 
-4. **Monitor the prefix-caching trade-off.** Codex CLI's native prefix caching works with OpenAI's API. When routing through OpenRouter or Moonshot's endpoint, verify whether cached-input pricing ($0.19/1M) actually applies to your session pattern or whether cache misses dominate.
+4. **Monitor the prefix-caching trade-off.** Codex CLI's native prefix caching works with OpenAI's API. When routing through OpenRouter or Moonshot's endpoint, verify whether cached-input pricing (\$0.19/1M) actually applies to your session pattern or whether cache misses dominate.
 
 5. **Track the MCPMark advantage.** The 81.1 per cent MCPMark Verified score is genuinely notable for tool-use workflows[^2][^3]. If your Codex CLI setup relies heavily on MCP servers — database connectors, Terraform providers, Kubernetes operators — K2.7-Code's tool invocation accuracy may deliver real value even before SWE-bench numbers land.
 

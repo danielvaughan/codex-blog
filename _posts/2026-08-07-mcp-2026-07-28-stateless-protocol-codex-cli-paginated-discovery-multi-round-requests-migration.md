@@ -1,7 +1,7 @@
 ---
 title: "MCP 2026-07-28: What the Stateless Protocol Overhaul Means for Your Codex CLI MCP Servers"
-parent: "Articles"
-nav_order: 1430
+date: 2026-08-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "mcp", "model-context-protocol", "stateless", "protocol", "migration", "paginated-discovery", "multi-round-requests"]
 ---
 

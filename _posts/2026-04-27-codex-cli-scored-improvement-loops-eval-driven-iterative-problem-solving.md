@@ -1,12 +1,12 @@
 ---
 title: "Scored Improvement Loops with Codex CLI: Eval-Driven Iterative Problem-Solving"
 description: "Some problems refuse to yield to a single prompt. Generating a production-quality SVG illustration, tuning a complex regex pipeline, or optimising a layout."
-parent: "Articles"
-nav_order: 212
 type: Technical Article
 timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-scored-improvement-loops-eval-driven-iterative-problem-solving"
 tags: ["codex-cli", "evaluation", "scored-loops", "LLM-as-judge", "optimisation", "advanced-workflows", "GPT-5.5"]
+date: 2026-04-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Scored Improvement Loops with Codex CLI: Eval-Driven Iterative Problem-Solving](/sketchnotes/articles/2026-04-27-codex-cli-scored-improvement-loops-eval-driven-iterative-problem-solving.png)
 

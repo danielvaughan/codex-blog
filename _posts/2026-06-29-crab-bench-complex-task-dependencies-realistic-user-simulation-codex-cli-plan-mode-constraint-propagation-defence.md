@@ -1,11 +1,11 @@
 ---
 title: "CRAB-Bench and the Realistic User Problem: Why 61% Pass Rate Exposes the Gap Between Benchmark Saturation and Real-World Agent Capability — and What Codex CLI Developers Should Configure"
-parent: "Articles"
-nav_order: 910
 type: Technical Article
 timestamp: 2026-06-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-crab-bench-complex-task-dependencies-realistic-user-simulation-codex-cli-plan-mode-constraint-propagation-defence"
 tags: ["crab-bench", "realistic-user-simulation", "task-dependencies", "codex-cli", "plan-mode", "constraint-propagation", "RUSE", "agent-evaluation", "tau-bench"]
+date: 2026-06-29T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # CRAB-Bench and the Realistic User Problem: Why 61% Pass Rate Exposes the Gap Between Benchmark Saturation and Real-World Agent Capability — and What Codex CLI Developers Should Configure
 

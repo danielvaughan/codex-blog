@@ -1,7 +1,7 @@
 ---
 title: "Codex Micro: What OpenAI's First Hardware Product Means for Tactile Agent Control"
-parent: "Articles"
-nav_order: 1210
+date: 2026-07-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-micro", "hardware", "macropad", "agent-keys", "work-louder", "tactile-control", "developer-workflow", "openai-hardware"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["codex-micro", "hardware", "macropad", "agent-keys", "work-louder", "tact
 
 ---
 
-On 15 July 2026, OpenAI shipped its first branded hardware product: the **Codex Micro**, a $230 programmable macropad built in collaboration with boutique keyboard manufacturer Work Louder [^1][^2]. Thirteen mechanical keys, a rotary encoder, a planar joystick, and six RGB-backlit "Agent Keys" — all housed in a CNC-milled aluminium-and-polycarbonate chassis. It is, depending on your perspective, either a long-overdue tactile control surface for multi-agent workflows or an expensive novelty that software shortcuts already handle.
+On 15 July 2026, OpenAI shipped its first branded hardware product: the **Codex Micro**, a \$230 programmable macropad built in collaboration with boutique keyboard manufacturer Work Louder [^1][^2]. Thirteen mechanical keys, a rotary encoder, a planar joystick, and six RGB-backlit "Agent Keys" — all housed in a CNC-milled aluminium-and-polycarbonate chassis. It is, depending on your perspective, either a long-overdue tactile control surface for multi-agent workflows or an expensive novelty that software shortcuts already handle.
 
 This article examines the hardware itself, how it maps to Codex agent orchestration, what it implies for CLI-centric developers, and whether the concept of dedicated physical controls for AI agents has legs.
 
@@ -156,15 +156,15 @@ Whether dedicated agent controllers become a product category or remain a niche 
 
 ## Citations
 
-[^1]: "OpenAI's first gadget is the $230 Codex Micro macropad," *The New Stack*, 15 July 2026. [https://thenewstack.io/openai-codex-micro-macropad/](https://thenewstack.io/openai-codex-micro-macropad/)
+[^1]: "OpenAI's first gadget is the \$230 Codex Micro macropad," *The New Stack*, 15 July 2026. [https://thenewstack.io/openai-codex-micro-macropad/](https://thenewstack.io/openai-codex-micro-macropad/)
 
 [^2]: "OpenAI launches a physical keypad for controlling agents," *Engadget*, 15 July 2026. [https://www.engadget.com/2215952/openai-launches-a-physical-keypad-for-controlling-agents/](https://www.engadget.com/2215952/openai-launches-a-physical-keypad-for-controlling-agents/)
 
 [^3]: Work Louder, "Codex Micro," product page, accessed 18 July 2026. [https://worklouder.cc/codex-micro](https://worklouder.cc/codex-micro)
 
-[^4]: "OpenAI's $230 'Codex Micro': Supervising AI Agents at Your Desk with 13 Keys," *XenoSpectrum*, 15 July 2026. [https://xenospectrum.com/en/openai-codex-micro-agent-controller/](https://xenospectrum.com/en/openai-codex-micro-agent-controller/)
+[^4]: "OpenAI's \$230 'Codex Micro': Supervising AI Agents at Your Desk with 13 Keys," *XenoSpectrum*, 15 July 2026. [https://xenospectrum.com/en/openai-codex-micro-agent-controller/](https://xenospectrum.com/en/openai-codex-micro-agent-controller/)
 
-[^5]: "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex," *TechCrunch*, 15 July 2026. [https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/)
+[^5]: "Amid hardware legal battle, OpenAI releases a \$230 keyboard for Codex," *TechCrunch*, 15 July 2026. [https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/)
 
 [^6]: OpenAI, "Developer commands — Codex CLI reference," *ChatGPT Learn*, accessed 18 July 2026. [https://developers.openai.com/codex/cli/reference](https://developers.openai.com/codex/cli/reference)
 

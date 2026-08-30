@@ -1,12 +1,12 @@
 ---
 title: "Codex For Almost Everything: OpenAI's Pivot from Coding Tool to General Agent Platform"
 description: "When OpenAI published Codex For Almost Everything on 14 April 2026, it signalled the most significant brand repositioning since the platform launched as."
-parent: "Articles"
-nav_order: 61
 type: Technical Article
 timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-for-almost-everything-pivot-to-general-agent-platform"
 tags: ["codex-for-everything", "superapp", "computer-use", "atlas-browser", "platform-positioning", "strategic", "general-agent", "langraph", "langchain", "crewai", "agent-frameworks", "harness-engineering", "rpa-replacement"]
+date: 2026-04-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex For Almost Everything: OpenAI's Pivot from Coding Tool to General Agent Platform](/sketchnotes/articles/2026-04-17-codex-for-almost-everything-pivot-to-general-agent-platform.png)
 

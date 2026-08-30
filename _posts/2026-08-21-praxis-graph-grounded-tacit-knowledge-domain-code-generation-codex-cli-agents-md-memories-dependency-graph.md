@@ -1,7 +1,7 @@
 ---
 title: "PRAXIS and Graph-Grounded Tacit Knowledge: Why Your Domain Codebase Defeats General-Purpose Agents — and How to Close the Gap in Codex CLI"
-parent: "Articles"
-nav_order: 1866
+date: 2026-08-21T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "AGENTS.md", "tacit-knowledge", "domain-code-generation", "dependency-graph", "PRAXIS", "memories", "knowledge-injection", "project-knowledge"]
 ---
 

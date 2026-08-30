@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI and Domain-Specific Languages: Practical Strategies for Teams With Proprietary or Sparse-Training Languages"
-parent: "Articles"
-nav_order: 798
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-codex-cli-dsl-proprietary-language-strategies-esoteric-language-lessons"
 tags: ["codex-cli", "dsl", "domain-specific-languages", "AGENTS.md", "hooks", "PreToolUse", "MCP", "esoteric-languages", "language-strategy"]
+date: 2026-06-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI and Domain-Specific Languages: Practical Strategies for Teams With Proprietary or Sparse-Training Languages
 
@@ -18,7 +18,7 @@ If your team maintains a proprietary DSL, an internal configuration language, or
 
 EsoLang-Bench evaluated frontier models across five esoteric languages (Brainfuck, Befunge-98, Whitespace, Unlambda, Shakespeare) where training data is 5,000 to 100,000x scarcer than Python [^1]. The same 80 problems that reach 100% accuracy in Python score between 0% and 11% in esoteric languages — an 88.4 percentage-point spread that mainstream benchmarks like SWE-Bench Verified compress into a 6.6pp band [^3].
 
-The Chess Engine Polyglot study reinforces this from a cost perspective: building chess engines across 17 languages, mainstream compiled languages (C, Rust, Go) reached 1,900–2,200 Elo, whilst exotic languages plateaued hundreds to thousands of Elo points lower — at 5–15x the cost ($22 for C versus $182 for COBOL) [^2].
+The Chess Engine Polyglot study reinforces this from a cost perspective: building chess engines across 17 languages, mainstream compiled languages (C, Rust, Go) reached 1,900–2,200 Elo, whilst exotic languages plateaued hundreds to thousands of Elo points lower — at 5–15x the cost (\$22 for C versus \$182 for COBOL) [^2].
 
 Microsoft's own analysis of AI coding agents with DSLs confirms the pattern: initial accuracy on domain-specific languages typically starts below 20%, but with targeted interventions — injecting curated examples and explicit domain rules — accuracy can reach up to 85% [^4].
 
@@ -236,7 +236,7 @@ print(json.dumps({}))
 
 ## Strategy 6: Named Profiles for Cost-Aware Language Routing
 
-The Chess Engine Polyglot study's cost data — $22 for C versus $182 for COBOL [^2] — reveals that exotic languages consume dramatically more tokens. Codex CLI's named profiles let you route DSL work to cost-appropriate models:
+The Chess Engine Polyglot study's cost data — \$22 for C versus \$182 for COBOL [^2] — reveals that exotic languages consume dramatically more tokens. Codex CLI's named profiles let you route DSL work to cost-appropriate models:
 
 ```toml
 # ~/.codex/config.toml

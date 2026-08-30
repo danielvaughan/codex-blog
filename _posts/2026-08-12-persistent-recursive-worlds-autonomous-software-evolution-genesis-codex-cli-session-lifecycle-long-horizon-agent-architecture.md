@@ -1,7 +1,7 @@
 ---
 title: "Persistent Recursive Worlds and Autonomous Software Evolution: What a 250k-Line Compiler Built by Finite-Lived Agents Means for Codex CLI's Session Architecture"
-parent: "Articles"
-nav_order: 1484
+date: 2026-08-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "long-horizon", "persistent-worlds", "session-lifecycle", "context-compaction", "autonomous-evolution", "Genesis", "agent-architecture"]
 ---
 
@@ -15,7 +15,7 @@ tags: ["codex-cli", "long-horizon", "persistent-worlds", "session-lifecycle", "c
 
 Every coding agent eventually hits a wall. Context windows fill, sessions timeout, and accumulated state evaporates. A single Codex CLI session can run for up to seven hours before context compaction becomes unsustainable [^1], yet real software projects span weeks, months, or years. The dominant limitation of AI agents in 2026 is not intelligence — it is continuity [^2].
 
-Huang, Liang, Zheng, and Cheng's "Persistent Recursive Worlds Enable Autonomous Software Evolution" (arXiv:2608.10450, August 11, 2026) confronts this gap directly [^3]. Their Genesis system produced a 250,000-line Rust-based C compiler across 120+ hours and over 1,000 agent episodes, at a total cost of US$44 in model-token charges. A separate experiment converted 13 MESA stellar astrophysics modules — over 100,000 lines of legacy Fortran — into nearly 90,000 lines of Rust, achieving median performance speedups between 1.55× and 6.87× across six numerical workloads [^3].
+Huang, Liang, Zheng, and Cheng's "Persistent Recursive Worlds Enable Autonomous Software Evolution" (arXiv:2608.10450, August 11, 2026) confronts this gap directly [^3]. Their Genesis system produced a 250,000-line Rust-based C compiler across 120+ hours and over 1,000 agent episodes, at a total cost of US\$44 in model-token charges. A separate experiment converted 13 MESA stellar astrophysics modules — over 100,000 lines of legacy Fortran — into nearly 90,000 lines of Rust, achieving median performance speedups between 1.55× and 6.87× across six numerical workloads [^3].
 
 The architectural insight is deceptively simple: make the *project* persistent, not the *agent*.
 
@@ -63,7 +63,7 @@ The compiler result is particularly striking. Using DeepSeek V4 Flash as the und
 - Built approximately 250,000 tracked lines of a Rust-based C compiler [^3]
 - Passed the complete c-testsuite and most LLVM and Csmith property-based tests [^3]
 - Consumed over 1,000 agent episodes across 120+ hours [^3]
-- Cost US$44 in total model-token charges [^3]
+- Cost US\$44 in total model-token charges [^3]
 
 A second compiler implementation using GLM 5.2 maintained full test performance despite repeated agent replacement [^3], demonstrating that model portability is a natural consequence of the architecture — the persistent world encodes the project state, not the agent's memory.
 
@@ -146,7 +146,7 @@ This ensures that each agent episode can only advance the codebase through passi
 
 ## The Cost Equation
 
-Genesis's US$44 for a 250,000-line compiler challenges the economics of single-session development. Current Codex CLI pricing with `o3` or `o4-mini` makes sustained multi-hour sessions expensive, particularly when context compaction triggers repeated summarisation passes.
+Genesis's US\$44 for a 250,000-line compiler challenges the economics of single-session development. Current Codex CLI pricing with `o3` or `o4-mini` makes sustained multi-hour sessions expensive, particularly when context compaction triggers repeated summarisation passes.
 
 The episode-based model offers a different cost profile:
 
@@ -176,7 +176,7 @@ graph LR
 
 Each compaction pass consumes tokens to summarise the existing context, and the summarised output is itself lossy. Episode boundaries, by contrast, externalise state to the repository and `AGENTS.md` — no tokens wasted on re-summarisation, and no information lost.
 
-Genesis used DeepSeek V4 Flash at US$44 for 120+ hours. Even accounting for Codex CLI's typically higher per-token costs with `o3`, an episode-based workflow with cheap models for routine tasks and expensive models for architectural decisions — achievable via Codex CLI's named profiles [^7] — could substantially reduce total cost for long-horizon projects.
+Genesis used DeepSeek V4 Flash at US\$44 for 120+ hours. Even accounting for Codex CLI's typically higher per-token costs with `o3`, an episode-based workflow with cheap models for routine tasks and expensive models for architectural decisions — achievable via Codex CLI's named profiles [^7] — could substantially reduce total cost for long-horizon projects.
 
 ## Practical Implementation: Episode-Based Codex CLI Workflow
 

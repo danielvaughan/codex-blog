@@ -1,18 +1,18 @@
 ---
 title: "DeepSeek V4-Flash-0731: Native Codex Support, Open Weights, and the Agent Economics Question"
 description: "DeepSeek's retrained V4-Flash-0731 ships with native Responses API support for Codex CLI, MIT-licensed weights, and benchmark scores that beat the company's own flagship — but cost per accepted task matters more than cost per token."
-parent: "Articles"
-nav_order: 1374
 type: Technical Article
 timestamp: 2026-08-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-02-deepseek-v4-flash-0731-native-codex-support-mit-open-weight-agent-economics-configuration"
 tags: ["codex-cli", "deepseek", "v4-flash", "custom-provider", "cost-optimisation", "benchmarks", "configuration", "open-weights", "agent-economics"]
+date: 2026-08-02T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 
 # DeepSeek V4-Flash-0731: Native Codex Support, Open Weights, and the Agent Economics Question
 
 
-On 31 July 2026 DeepSeek released V4-Flash-0731, a retrained checkpoint of its 284-billion-parameter mixture-of-experts model that does two things the April preview could not: it speaks the OpenAI Responses API natively, and it beats DeepSeek's own V4-Pro-Preview on nine published agent and coding benchmarks[^1]. The weights sit on Hugging Face under MIT, meaning you can run them on-premise or route through the DeepSeek API at $0.14 per million input tokens[^2]. For Codex CLI users, the integration story is now a six-line config.toml edit rather than an adapter layer.
+On 31 July 2026 DeepSeek released V4-Flash-0731, a retrained checkpoint of its 284-billion-parameter mixture-of-experts model that does two things the April preview could not: it speaks the OpenAI Responses API natively, and it beats DeepSeek's own V4-Pro-Preview on nine published agent and coding benchmarks[^1]. The weights sit on Hugging Face under MIT, meaning you can run them on-premise or route through the DeepSeek API at \$0.14 per million input tokens[^2]. For Codex CLI users, the integration story is now a six-line config.toml edit rather than an adapter layer.
 
 This article walks through what changed in the retrain, how to configure Codex CLI as a provider, where the benchmark numbers genuinely hold up, and why cost per accepted task — not cost per token — is the metric that matters.
 
@@ -136,11 +136,11 @@ The raw token economics are compelling[^2]:
 
 | | Cached Input | Uncached Input | Output |
 |--|-------------|----------------|--------|
-| DeepSeek V4-Flash | $0.0028/M | $0.14/M | $0.28/M |
+| DeepSeek V4-Flash | \$0.0028/M | \$0.14/M | \$0.28/M |
 
 DeepSeek has announced but not yet activated peak-hour pricing at 2× regular rates during specified Beijing-time windows[^2].
 
-A worked example: a 20-million-token agent run at a 3:1 input-to-output blend costs approximately $3.50 before cache discounts[^5]. The same run on GPT-5.6 Terra would cost substantially more.
+A worked example: a 20-million-token agent run at a 3:1 input-to-output blend costs approximately \$3.50 before cache discounts[^5]. The same run on GPT-5.6 Terra would cost substantially more.
 
 But token price is a misleading proxy for agent cost. As the analysis from NxCode correctly frames it: **cost per accepted task is the important ratio, not cost per token**[^5]. A three-pence failed run repeated ten times exceeds a one-pound successful run. A model that drafts a correct patch but consumes forty minutes of senior review may be more expensive than its invoice suggests.
 

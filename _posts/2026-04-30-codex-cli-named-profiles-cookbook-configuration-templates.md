@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates"
 description: "Named profiles are one of the most underused features in Codex CLI. Instead of juggling CLI flags or maintaining separate config files."
-parent: "Articles"
-nav_order: 250
 type: Technical Article
 timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-named-profiles-cookbook-configuration-templates"
 tags: ["codex-cli", "configuration", "profiles", "config.toml", "workflow", "productivity", "cost-optimisation"]
+date: 2026-04-30T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates](/sketchnotes/articles/2026-04-30-codex-cli-named-profiles-cookbook-configuration-templates.png)
 

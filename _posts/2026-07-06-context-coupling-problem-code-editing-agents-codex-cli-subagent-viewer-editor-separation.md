@@ -1,7 +1,7 @@
 ---
 title: "The Context Coupling Problem: Why Your Coding Agent's Editing Interface Is Its Biggest Bottleneck — and How Codex CLI's Subagent Architecture Solves It"
-parent: "Articles"
-nav_order: 988
+date: 2026-07-06T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "code-editing", "subagents", "context-coupling", "SWE-Edit", "apply-patch", "V4A", "context-window", "coding-agents"]
 ---
 
@@ -61,7 +61,7 @@ On SWE-bench Verified (500 instances), the combined viewer–editor architecture
 | Metric | Baseline | SWE-Edit | Delta |
 |--------|----------|----------|-------|
 | Resolve rate | 69.9% | 72.0% | +2.1 pp |
-| Total cost | $243.70 | $200.10 | −17.9% |
+| Total cost | \$243.70 | \$200.10 | −17.9% |
 | Edit success | 93.4% | 96.9% | +3.5 pp |
 | Non-cached input tokens | 276.7K | 181.3K | −34.5% |
 

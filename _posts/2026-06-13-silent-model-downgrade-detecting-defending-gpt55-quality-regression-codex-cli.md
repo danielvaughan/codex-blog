@@ -1,11 +1,11 @@
 ---
 title: "The Silent Model Downgrade Problem: Detecting and Defending Against GPT-5.5 Quality Regression in Codex CLI Workflows"
-parent: "Articles"
-nav_order: 740
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-silent-model-downgrade-detecting-defending-gpt55-quality-regression-codex-cli"
 tags: ["codex-cli", "model-quality", "gpt-5.5", "observability", "configuration", "authentication", "regression-detection", "production"]
+date: 2026-06-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The Silent Model Downgrade Problem: Detecting and Defending Against GPT-5.5 Quality Regression in Codex CLI Workflows
 
@@ -71,7 +71,7 @@ The ChatGPT login path routes requests through OpenAI's consumer infrastructure.
 
 API key authentication routes requests through the OpenAI Platform API. You are billed per token, but you receive the model you requested. Response headers include the model identifier that actually served the request. There is no silent fallback to a cheaper variant [^8][^9].
 
-The trade-off is cost. A ChatGPT Plus subscription at $20/month provides 160 GPT-5.5 messages per three hours. The equivalent API usage at GPT-5.5 rates can reach $100-200/month for an active developer [^10].
+The trade-off is cost. A ChatGPT Plus subscription at \$20/month provides 160 GPT-5.5 messages per three hours. The equivalent API usage at GPT-5.5 rates can reach \$100-200/month for an active developer [^10].
 
 ## Defence Pattern 1: Pin the Model Explicitly
 
@@ -179,7 +179,7 @@ codex -p interactive
 OPENAI_API_KEY="$YOUR_PLATFORM_KEY" codex -p critical
 ```
 
-This pattern acknowledges reality: most developers cannot justify $200/month in API costs for every session. Reserve the guaranteed path for work that matters.
+This pattern acknowledges reality: most developers cannot justify \$200/month in API costs for every session. Reserve the guaranteed path for work that matters.
 
 ## What OpenAI Is Doing About Quality Monitoring
 
@@ -249,7 +249,7 @@ The long-term fix is likely a dedicated Codex API tier that provides the conveni
 
 [^9]: OpenAI API Documentation, "Deprecations," [https://platform.openai.com/docs/deprecations](https://platform.openai.com/docs/deprecations) — Documents dated model snapshots and version pinning for API access.
 
-[^10]: Morphllm, "Codex Pricing (2026)," [https://www.morphllm.com/codex-pricing](https://www.morphllm.com/codex-pricing) — Community cost analysis documenting $100-200/month per developer at API rates.
+[^10]: Morphllm, "Codex Pricing (2026)," [https://www.morphllm.com/codex-pricing](https://www.morphllm.com/codex-pricing) — Community cost analysis documenting \$100-200/month per developer at API rates.
 
 [^11]: OpenAI Developers, "Config basics — Codex," [https://developers.openai.com/codex/config-basic](https://developers.openai.com/codex/config-basic) — Documents the chat-latest dynamic model pointer.
 

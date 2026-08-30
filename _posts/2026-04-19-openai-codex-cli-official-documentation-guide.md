@@ -1,12 +1,12 @@
 ---
 title: "OpenAI Codex CLI Official Documentation Guide (2026)"
 description: "The official Codex CLI documentation has grown considerably since the tool's open-source debut in mid-2025."
-parent: "Articles"
-nav_order: 95
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-openai-codex-cli-official-documentation-guide"
 tags: ["codex-cli", "documentation", "getting-started", "reference", "configuration", "models", "MCP"]
+date: 2026-04-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: OpenAI Codex CLI Official Documentation Guide (2026)](/sketchnotes/articles/2026-04-19-openai-codex-cli-official-documentation-guide.png)
 

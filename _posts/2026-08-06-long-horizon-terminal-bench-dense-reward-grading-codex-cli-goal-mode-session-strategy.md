@@ -1,7 +1,7 @@
 ---
 title: "Long-Horizon-Terminal-Bench: What Dense Reward Grading Reveals About Your Codex CLI Session Strategy"
-parent: "Articles"
-nav_order: 1419
+date: 2026-08-06T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "benchmarks", "long-horizon", "terminal-bench", "goal-mode", "session-management", "dense-rewards", "token-budgets"]
 ---
 
@@ -61,9 +61,9 @@ LHTB tests 17 frontier models. The cost-performance spread is striking:
 
 | Model | Pass@0.95 | Mean Reward | Avg Cost/Task |
 |-------|-----------|-------------|---------------|
-| Grok 4.5 | 28.3% | 0.51 | ~$11 |
-| GPT-5.6 Sol | 15.2% | — | ~$21 |
-| GPT-5.5 | 15.2% | — | ~$21 |
+| Grok 4.5 | 28.3% | 0.51 | ~\$11 |
+| GPT-5.6 Sol | 15.2% | — | ~\$21 |
+| GPT-5.5 | 15.2% | — | ~\$21 |
 | MiniMax M3 | 6.5% | 0.27 | — |
 | DeepSeek V4 Pro | 6.5% | — | — |
 | GPT-5.3 Codex | 4.3% | — | — |
@@ -188,7 +188,7 @@ LHTB's core insight extends beyond benchmarking. In production workflows, adopti
 - **Decompose before executing.** Break `/goal` objectives into subtasks with explicit verification criteria, mirroring LHTB's subtask grading.
 - **Budget for partial progress.** Configure token budgets assuming the agent will achieve 50-75% of the objective, not 100%. Design for graceful handoff.
 - **Verify incrementally.** Use PostToolUse hooks and AGENTS.md instructions to enforce checkpoint verification, preventing false finishes.
-- **Route models to task complexity.** LHTB shows GPT-5.6 Sol at $21/task versus Hy3 at $3.6/task [^1]. Use Sol for planning and coordination; delegate execution subtasks to cheaper models via multi-agent V2.
+- **Route models to task complexity.** LHTB shows GPT-5.6 Sol at \$21/task versus Hy3 at \$3.6/task [^1]. Use Sol for planning and coordination; delegate execution subtasks to cheaper models via multi-agent V2.
 
 The benchmark's Spearman correlation of ρ = 0.74 between pass rate and mean reward [^1] confirms that dense progress tracking is a reliable proxy for eventual success. Agents that make steady partial progress are the ones that eventually pass — and Codex CLI's session management, token budgets, and hook system give you the controls to push your agents further along that curve.
 

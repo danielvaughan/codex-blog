@@ -1,11 +1,11 @@
 ---
 title: "The Responses API Multi-Agent Beta: How Server-Side Subagent Spawning Changes Codex CLI's Parallelism Model"
-parent: "Articles"
-nav_order: 1050
 type: Technical Article
 timestamp: 2026-07-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-12-responses-api-multi-agent-beta-codex-cli-server-side-subagent-spawning-parallel-coordination"
 tags: ["codex-cli", "gpt-5.6", "responses-api", "multi-agent", "subagents", "parallel-execution", "configuration", "architecture"]
+date: 2026-07-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The Responses API Multi-Agent Beta: How Server-Side Subagent Spawning Changes Codex CLI's Parallelism Model
 
@@ -127,7 +127,7 @@ Not every task benefits from server-side multi-agent. The model will spawn subag
 
 ## Token Cost Implications
 
-Server-side multi-agent multiplies token consumption. Each spawned subagent performs its own reasoning, consuming input and output tokens independently.[^3] With GPT-5.6 Sol at $5/$30 per million tokens (input/output), a three-subagent workflow can easily triple per-task cost versus a sequential approach.[^5]
+Server-side multi-agent multiplies token consumption. Each spawned subagent performs its own reasoning, consuming input and output tokens independently.[^3] With GPT-5.6 Sol at \$5/\$30 per million tokens (input/output), a three-subagent workflow can easily triple per-task cost versus a sequential approach.[^5]
 
 The `rollout_budget` configuration provides a hard ceiling:
 
@@ -220,7 +220,7 @@ This doesn't obsolete client-side orchestration. The two approaches are compleme
 
 [^4]: OpenAI, "Advanced Configuration — Codex CLI," ChatGPT Learn, July 2026. [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced)
 
-[^5]: OpenAI, "GPT-5.6 Pricing — Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per 1M tokens," OpenAI Platform, July 2026. [https://openai.com/pricing](https://openai.com/pricing)
+[^5]: OpenAI, "GPT-5.6 Pricing — Sol \$5/\$30, Terra \$2.50/\$15, Luna \$1/\$6 per 1M tokens," OpenAI Platform, July 2026. [https://openai.com/pricing](https://openai.com/pricing)
 
 [^6]: Codex Knowledge Base, "GPT-5.6 Sol, Terra, and Luna: What the Three-Tier Model Preview Means for Codex CLI Developers," 26 June 2026. [https://codex.danielvaughan.com/2026/06/26/gpt-5-6-sol-terra-luna-preview-codex-cli-model-tiers-pricing-ultra-mode-configuration/](https://codex.danielvaughan.com/2026/06/26/gpt-5-6-sol-terra-luna-preview-codex-cli-model-tiers-pricing-ultra-mode-configuration/)
 

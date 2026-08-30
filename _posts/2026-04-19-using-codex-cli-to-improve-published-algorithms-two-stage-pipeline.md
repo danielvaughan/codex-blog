@@ -1,12 +1,12 @@
 ---
 title: "Using Codex CLI to Improve Published Algorithms: A Two-Stage Pipeline"
 description: "A recent paper by Suwannik (April 2026) demonstrates something that should give every research-oriented developer pause."
-parent: "Articles"
-nav_order: 94
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-using-codex-cli-to-improve-published-algorithms-two-stage-pipeline"
 tags: ["codex-cli", "claude-code", "algorithm-improvement", "research", "agentic-engineering", "iterative-refinement"]
+date: 2026-04-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Using Codex CLI to Improve Published Algorithms: A Two-Stage Pipeline](/sketchnotes/articles/2026-04-19-using-codex-cli-to-improve-published-algorithms-two-stage-pipeline.png)
 

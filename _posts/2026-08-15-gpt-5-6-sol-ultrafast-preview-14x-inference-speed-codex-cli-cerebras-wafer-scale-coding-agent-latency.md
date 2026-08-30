@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 Sol Ultrafast Preview: What 14× Inference Speed Means for Your Codex CLI Workflows"
-parent: "Articles"
-nav_order: 1510.1
+date: 2026-08-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "gpt-5.6-sol", "ultrafast", "cerebras", "inference-speed", "model-routing", "named-profiles", "service-tier", "coding-agent-latency"]
 ---
 
@@ -163,7 +163,7 @@ Not every task benefits from 14× speed. The value proposition depends on intera
 
 ## The Economics Question
 
-Standard GPT-5.6 Sol pricing is $5 input / $30 output per million tokens [^1]. Ultrafast pricing is **completely undisclosed** — no list price, no premium multiple, no volume commitments [^1].
+Standard GPT-5.6 Sol pricing is \$5 input / \$30 output per million tokens [^1]. Ultrafast pricing is **completely undisclosed** — no list price, no premium multiple, no volume commitments [^1].
 
 For context, the existing Fast tier carries approximately a 1.5× premium over Standard for supported models. If Ultrafast follows a similar pattern at, say, 2–3× the Standard rate, the cost-per-solve calculus changes significantly:
 
@@ -178,7 +178,7 @@ graph TD
     style E fill:#fff3cd,stroke:#856404
 ```
 
-⚠️ The $60–90/M output figure is speculative, based on historical tier premium ratios. Actual pricing may differ substantially.
+⚠️ The \$60–90/M output figure is speculative, based on historical tier premium ratios. Actual pricing may differ substantially.
 
 The key insight is that speed and cost are now independently tunable dimensions. Named profiles in Codex CLI already support this pattern: route interactive work to a speed-optimised profile, route autonomous work to a cost-optimised one.
 

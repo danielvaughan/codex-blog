@@ -1,12 +1,12 @@
 ---
 title: "Coder Agents vs Codex CLI: Self-Hosted, Model-Agnostic Agent Infrastructure and What It Means for Enterprise AI Coding"
 description: "On 6 May 2026, Coder Technologies released Coder Agents to public beta — a native AI coding agent that runs entirely on customer-owned infrastructure and."
-parent: "Articles"
-nav_order: 340
 type: Technical Article
 timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-coder-agents-vs-codex-cli-self-hosted-model-agnostic-enterprise-ai-coding"
 tags: ["codex-cli", "coder-agents", "enterprise", "self-hosted", "model-agnostic", "governance", "infrastructure", "ai-coding-agents", "comparison"]
+date: 2026-05-08T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Coder Agents vs Codex CLI: Self-Hosted, Model-Agnostic Agent Infrastructure and What It Means for Enterprise AI Coding](/sketchnotes/articles/2026-05-08-coder-agents-vs-codex-cli-self-hosted-model-agnostic-enterprise-ai-coding.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "LongHorizon-Harness and the Manage-Execute-Audit Loop: Why Fresh-Context Execution with Verified State Beats Growing a Single Session — and How to Wire It into Codex CLI"
-parent: "Articles"
-nav_order: 1352
+date: 2026-08-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "long-horizon", "context-drift", "verified-state", "manage-execute-audit", "subagents", "fresh-context", "harness-engineering", "terminal-bench"]
 ---
 
@@ -228,7 +228,7 @@ auditor = 600
 model = "gpt-5.6-terra"  # Cheaper model for execution
 ```
 
-Note the role-specific model assignment: Sol for planning and auditing, Terra for execution. This matches Codex CLI's model tiering — Sol ($5/$30 per million tokens) for complex reasoning, Terra ($2/$12) for straightforward implementation tasks [^8].
+Note the role-specific model assignment: Sol for planning and auditing, Terra for execution. This matches Codex CLI's model tiering — Sol (\$5/\$30 per million tokens) for complex reasoning, Terra (\$2/\$12) for straightforward implementation tasks [^8].
 
 ## When to Use This Pattern
 

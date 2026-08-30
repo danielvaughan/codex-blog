@@ -1,11 +1,11 @@
 ---
 title: "From Ban to Platform: What Samsung's Codex Enterprise Deployment Teaches About Large-Scale Agent Governance"
-parent: "Articles"
-nav_order: 845
 type: Technical Article
 timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-samsung-codex-enterprise-deployment-ban-to-platform-governance-security-lessons-codex-cli"
 tags: ["codex-cli", "enterprise", "samsung", "governance", "security", "RBAC", "DLP", "deployment", "case-study"]
+date: 2026-06-22T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # From Ban to Platform: What Samsung's Codex Enterprise Deployment Teaches About Large-Scale Agent Governance
 

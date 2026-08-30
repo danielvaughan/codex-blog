@@ -1,11 +1,11 @@
 ---
 title: "The GPT-5.3-Codex Countdown: Migrating Your Codex CLI Configuration Before the June 30 API Deadline"
-parent: "Articles"
-nav_order: 760
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-gpt-5-3-codex-countdown-migration-codex-cli-configuration-june-30-api-deadline"
 tags: ["codex-cli", "gpt-5.3-codex", "gpt-5.2", "model-deprecation", "migration", "config.toml", "gpt-5.5", "pricing"]
+date: 2026-06-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The GPT-5.3-Codex Countdown: Migrating Your Codex CLI Configuration Before the June 30 API Deadline
 
@@ -66,14 +66,14 @@ The migration is not cost-neutral. GPT-5.3-Codex was remarkably cheap for its ca
 
 | Metric | GPT-5.3-Codex | GPT-5.5 | GPT-5.4 |
 |---|---|---|---|
-| Input (per 1M tokens) | $1.75 | $5.00 | $2.50 |
-| Cached input (per 1M tokens) | $0.175 | $0.50 | $0.25 |
-| Output (per 1M tokens) | $14.00 | $30.00 | $15.00 |
+| Input (per 1M tokens) | \$1.75 | \$5.00 | \$2.50 |
+| Cached input (per 1M tokens) | \$0.175 | \$0.50 | \$0.25 |
+| Output (per 1M tokens) | \$14.00 | \$30.00 | \$15.00 |
 | Context window | 400K | 1M | 200K |
 
 GPT-5.5 output tokens cost approximately 2.1x more than GPT-5.3-Codex [^5] [^6]. Even accounting for GPT-5.5's reported efficiency gains — fewer tokens to produce equivalent results [^3] — the cost increase is notable. For teams running heavy `codex exec` pipelines, the monthly bill will rise unless mitigated.
 
-GPT-5.4 sits in the middle at $2.50/$15.00 — only marginally more expensive than GPT-5.3-Codex — and remains a strong choice for coding-focused workloads where the million-token context window is unnecessary [^6].
+GPT-5.4 sits in the middle at \$2.50/\$15.00 — only marginally more expensive than GPT-5.3-Codex — and remains a strong choice for coding-focused workloads where the million-token context window is unnecessary [^6].
 
 ## The Fifteen-Day Migration Checklist
 
@@ -220,7 +220,7 @@ Update your team's development setup guide with the new model defaults. If you u
 
 ## The GPT-5.4 Middle Path
 
-Not every workload justifies GPT-5.5's pricing. GPT-5.4 at $2.50/$15.00 per million tokens is 3.3x cheaper on input and 2x cheaper on output than GPT-5.5, whilst still delivering strong coding performance [^6]. The trade-off is a 200K context window versus GPT-5.5's million-token capacity.
+Not every workload justifies GPT-5.5's pricing. GPT-5.4 at \$2.50/\$15.00 per million tokens is 3.3x cheaper on input and 2x cheaper on output than GPT-5.5, whilst still delivering strong coding performance [^6]. The trade-off is a 200K context window versus GPT-5.5's million-token capacity.
 
 ```mermaid
 flowchart TD

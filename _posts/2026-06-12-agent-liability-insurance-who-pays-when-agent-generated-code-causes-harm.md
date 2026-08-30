@@ -1,11 +1,11 @@
 ---
 title: "Agent Liability and Insurance: Who Pays When Agent-Generated Code Causes Harm?"
-parent: "Articles"
-nav_order: 732
 type: Technical Article
 timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-agent-liability-insurance-who-pays-when-agent-generated-code-causes-harm"
 tags: ["codex-cli", "liability", "insurance", "legal", "EU AI Act", "professional indemnity", "AGENTS.md", "risk management"]
+date: 2026-06-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Agent Liability and Insurance: Who Pays When Agent-Generated Code Causes Harm?
 
@@ -59,7 +59,7 @@ For development consultancies and software houses, this means your next policy r
 
 The retreat of traditional carriers has created space for specialist insurers. **Testudo**, launched in January 2026 by former Goldman Sachs technologists and backed by Lloyd's Lab, offers a claims-made product targeting enterprises deploying generative AI[^7]. Key details:
 
-- **Capacity:** $9.25 million per insured (expanded March 2026), with a (re)insurance panel including Apollo, Atrium, and QBE[^8]
+- **Capacity:** \$9.25 million per insured (expanded March 2026), with a (re)insurance panel including Apollo, Atrium, and QBE[^8]
 - **Coverage:** Defence costs and third-party liabilities arising from generative AI outputs — copyright infringement, bodily injury from reliance on AI guidance, financial loss from negligent misstatements[^7]
 - **Distribution:** Excess and surplus lines basis with A+ Superior A.M. Best-rated capacity via Underwriters at Lloyd's[^7]
 
@@ -193,7 +193,7 @@ The Kiro outage demonstrated what happens when an agent operates without adequat
 
 [^7]: S&P Global, "As insurers retreat from AI risk, one startup plans to fill the gap," February 2026. [https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/2/as-insurers-retreat-from-ai-risk-one-startup-plans-to-fill-the-gap-97375264](https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/2/as-insurers-retreat-from-ai-risk-one-startup-plans-to-fill-the-gap-97375264)
 
-[^8]: Fintech Global, "Testudo expands AI liability capacity to $9.25m," March 2026. [https://fintech.global/2026/03/09/testudo-expands-ai-liability-capacity-to-9-25m/](https://fintech.global/2026/03/09/testudo-expands-ai-liability-capacity-to-9-25m/)
+[^8]: Fintech Global, "Testudo expands AI liability capacity to \$9.25m," March 2026. [https://fintech.global/2026/03/09/testudo-expands-ai-liability-capacity-to-9-25m/](https://fintech.global/2026/03/09/testudo-expands-ai-liability-capacity-to-9-25m/)
 
 [^9]: Risk & Insurance, "Traditional Insurance Leaves Enterprises Exposed as AI Liability Claims Surge." [https://riskandinsurance.com/traditional-insurance-leaves-enterprises-exposed-as-ai-liability-claims-surge/](https://riskandinsurance.com/traditional-insurance-leaves-enterprises-exposed-as-ai-liability-claims-surge/)
 

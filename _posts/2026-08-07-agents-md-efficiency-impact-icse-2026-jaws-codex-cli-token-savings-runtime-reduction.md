@@ -1,7 +1,7 @@
 ---
 title: "AGENTS.md Pays for Itself: What the ICSE 2026 JAWs Efficiency Study Means for Your Codex CLI Token Budget"
-parent: "Articles"
-nav_order: 1431
+date: 2026-08-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["AGENTS.md", "efficiency", "token-savings", "runtime", "ICSE-2026", "codex-cli", "research", "configuration"]
 ---
 
@@ -148,7 +148,7 @@ This file is 22 lines. It eliminates the need for the agent to read `package.jso
 
 For monorepos, Codex CLI supports nested AGENTS.md files. Place a root-level file for cross-cutting conventions and per-package files for service-specific guidance [^4]:
 
-```
+```bash
 repo-root/
 ├── AGENTS.md              # Global: Git workflow, CI, shared style
 ├── packages/
@@ -162,17 +162,17 @@ The agent walks up the directory tree and combines every AGENTS.md it encounters
 
 ### ROI Calculation
 
-The study's numbers translate directly to cost savings. For a team of five developers, each running 20 agent tasks daily on GPT-5.6 Terra ($2.50/$15 per 1M input/output tokens) [^5]:
+The study's numbers translate directly to cost savings. For a team of five developers, each running 20 agent tasks daily on GPT-5.6 Terra (\$2.50/\$15 per 1M input/output tokens) [^5]:
 
 | Metric | Daily Without | Daily With | Daily Saving |
 |--------|--------------|------------|-------------|
 | Output tokens | 114,896 | 91,829 | 23,067 tokens |
-| Output cost | $1.72 | $1.38 | $0.35 |
+| Output cost | \$1.72 | \$1.38 | \$0.35 |
 | Input tokens | 7,060,200 | 6,373,020 | 687,180 tokens |
-| Input cost | $17.65 | $15.93 | $1.72 |
+| Input cost | \$17.65 | \$15.93 | \$1.72 |
 | Runtime | 54.3 min | 43.3 min | 11.0 min |
 
-Over a year (250 working days), that is approximately **$517 in token savings** and **45.8 hours of recovered agent runtime** — from a file that takes 15 minutes to write [^1] [^5].
+Over a year (250 working days), that is approximately **\$517 in token savings** and **45.8 hours of recovered agent runtime** — from a file that takes 15 minutes to write [^1] [^5].
 
 ⚠️ These projections extrapolate from the study's small-PR findings to a broader task mix. Larger, more complex tasks may show different efficiency profiles; the study explicitly acknowledges this limitation [^1].
 

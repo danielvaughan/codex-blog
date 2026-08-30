@@ -1,7 +1,7 @@
 ---
 title: "CodeRescue and Budget-Calibrated Recovery Routing: When Your Codex CLI Agent Should Retry Cheap and When It Should Escalate"
-parent: "Articles"
-nav_order: 1298
+date: 2026-07-28T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "coderescue", "recovery-routing", "model-escalation", "rollout-token-budgets", "sol-terra-luna", "cost-optimisation", "conformal-risk-control", "failure-recovery", "named-profiles"]
 ---
 
@@ -89,7 +89,7 @@ reasoning_effort = "high"
 # Full-power solve from scratch
 ```
 
-Luna at $1/$6 per 1M tokens handles the reflect action. Terra at $2.50/$15 covers replanning. Sol at $5/$30 serves as the escalation tier [^3]. This maps to CodeRescue's finding that cheap models with execution feedback rescue 28% of failures that escalation cannot [^1].
+Luna at \$1/\$6 per 1M tokens handles the reflect action. Terra at \$2.50/\$15 covers replanning. Sol at \$5/\$30 serves as the escalation tier [^3]. This maps to CodeRescue's finding that cheap models with execution feedback rescue 28% of failures that escalation cannot [^1].
 
 ### Rollout Token Budgets as the Lambda Knob
 

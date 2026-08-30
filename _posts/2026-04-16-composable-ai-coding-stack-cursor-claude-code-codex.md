@@ -1,12 +1,12 @@
 ---
 title: "The Composable AI Coding Stack: How Cursor, Claude Code, and Codex Became Three Layers"
 description: "Nobody planned this architecture. Cursor, Claude Code, and Codex CLI were built by three separate companies with three separate business models."
-parent: "Articles"
-nav_order: 44
 type: Technical Article
 timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-composable-ai-coding-stack-cursor-claude-code-codex"
 tags: ["composable-stack", "convergence", "orchestration", "cursor", "claude-code", "codex-cli", "industry-analysis"]
+date: 2026-04-16T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: The Composable AI Coding Stack: How Cursor, Claude Code, and Codex Became Three Layers](/sketchnotes/articles/2026-04-16-composable-ai-coding-stack-cursor-claude-code-codex.png)
 

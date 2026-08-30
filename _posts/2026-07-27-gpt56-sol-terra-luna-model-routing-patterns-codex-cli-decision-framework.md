@@ -1,7 +1,7 @@
 ---
 title: "Model Routing Patterns for Coding Agents: A Sol, Terra, Luna Decision Framework"
-parent: "Articles"
-nav_order: 1296
+date: 2026-07-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "gpt-5.6", "sol", "terra", "luna", "model-routing", "named-profiles", "token-economics", "config.toml"]
 ---
 
@@ -20,9 +20,9 @@ All three models share a 1-million-token context window and 128,000-token maximu
 
 | Tier | Model ID | Input (per 1M tokens) | Output (per 1M tokens) | Reasoning Depth |
 |------|----------|----------------------|------------------------|-----------------|
-| Sol | `gpt-5.6-sol` | $5.00 | $30.00 | Deepest — six effort levels (Low through Ultra) |
-| Terra | `gpt-5.6-terra` | $2.50 | $15.00 | Balanced — competitive with GPT-5.5 |
-| Luna | `gpt-5.6-luna` | $1.00 | $6.00 | Shallowest — optimised for speed and volume |
+| Sol | `gpt-5.6-sol` | \$5.00 | \$30.00 | Deepest — six effort levels (Low through Ultra) |
+| Terra | `gpt-5.6-terra` | \$2.50 | \$15.00 | Balanced — competitive with GPT-5.5 |
+| Luna | `gpt-5.6-luna` | \$1.00 | \$6.00 | Shallowest — optimised for speed and volume |
 
 The bare `gpt-5.6` API alias routes to Sol [^3]. Developers who accept the default without configuring routing are paying flagship prices for every task — including docstring generation and boilerplate scaffolding.
 
@@ -132,13 +132,13 @@ Consider a typical day of Codex CLI usage across a moderately complex codebase:
 
 | Task | Tier | Est. Input Tokens | Est. Output Tokens | Cost |
 |------|------|-------------------|-------------------|------|
-| Morning architecture review | Sol | 200K | 50K | $2.50 |
-| 4 feature implementations | Terra | 800K | 200K | $5.00 |
-| Bulk test generation | Luna | 400K | 300K | $2.20 |
-| 2 PR reviews | Terra | 300K | 80K | $1.95 |
-| **Total** | | **1.7M** | **630K** | **$11.65** |
+| Morning architecture review | Sol | 200K | 50K | \$2.50 |
+| 4 feature implementations | Terra | 800K | 200K | \$5.00 |
+| Bulk test generation | Luna | 400K | 300K | \$2.20 |
+| 2 PR reviews | Terra | 300K | 80K | \$1.95 |
+| **Total** | | **1.7M** | **630K** | **\$11.65** |
 
-The same workload on Sol alone would cost approximately $19.90 — a 71% premium for marginal quality improvement on the bounded tasks. Over a month of weekday usage, that gap compounds to roughly $165.
+The same workload on Sol alone would cost approximately \$19.90 — a 71% premium for marginal quality improvement on the bounded tasks. Over a month of weekday usage, that gap compounds to roughly \$165.
 
 ## Reasoning Effort as the Second Axis
 

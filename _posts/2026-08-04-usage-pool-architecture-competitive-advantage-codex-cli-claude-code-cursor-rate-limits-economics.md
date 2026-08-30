@@ -1,7 +1,7 @@
 ---
 title: "Usage Pool Architecture as Competitive Advantage: Why Rate Limits Matter More Than Benchmarks for Daily Coding Agent Productivity"
-parent: "Articles"
-nav_order: 1393
+date: 2026-08-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "usage-economics", "rate-limits", "claude-code", "cursor", "pricing", "developer-productivity", "credit-pools"]
 ---
 
@@ -28,10 +28,10 @@ Plan allocations differ dramatically:
 
 | Plan | Monthly Cost | Weekly Multiplier | Pool Scope |
 |------|-------------|-------------------|------------|
-| Plus | $20 | 1× | Shared across all agentic features |
-| Pro 5× | $100 | 5× | Same shared pool, higher ceiling |
-| Pro 20× | $200 | 20× | Same shared pool, highest ceiling |
-| Business | $20/seat | Per-workspace | Codex seats frozen since 24 June 2026 |
+| Plus | \$20 | 1× | Shared across all agentic features |
+| Pro 5× | \$100 | 5× | Same shared pool, higher ceiling |
+| Pro 20× | \$200 | 20× | Same shared pool, highest ceiling |
+| Business | \$20/seat | Per-workspace | Codex seats frozen since 24 June 2026 |
 | Enterprise | Custom | Org-wide credit pool | Pay-per-use, no fixed caps |
 
 The credit system, which replaced per-message billing on 2 April 2026 [^4], prices models by tier: Sol at 125 credits per million input tokens (12.5 cached), Terra at 62.5 (6.25 cached), and Luna at 25 (2.5 cached). A single Sol task can consume 5–40 credits depending on complexity. Five minutes of Sol in Ultra mode has been observed to drain a Plus account from 70% to fully depleted [^1].
@@ -55,14 +55,14 @@ This split is architecturally significant. Auto mode — which handles the major
 
 | Plan | Monthly Cost | Auto Mode | Frontier Pool |
 |------|-------------|-----------|---------------|
-| Pro | $20 | Unlimited | $20 pool |
-| Pro+ | $60 | Unlimited | $60 pool |
-| Ultra | $200 | Unlimited | $200 pool |
-| Teams | $40/seat | Unlimited | Shared pool across seats |
+| Pro | \$20 | Unlimited | \$20 pool |
+| Pro+ | \$60 | Unlimited | \$60 pool |
+| Ultra | \$200 | Unlimited | \$200 pool |
+| Teams | \$40/seat | Unlimited | Shared pool across seats |
 
 ## Why Architecture Matters More Than Price
 
-The headline prices look comparable — $20/month entry across all three tools. But the **effective throughput** varies enormously because of pool architecture:
+The headline prices look comparable — \$20/month entry across all three tools. But the **effective throughput** varies enormously because of pool architecture:
 
 ```mermaid
 graph TD
@@ -124,7 +124,7 @@ The auto-review upgrade to GPT-5.6 Luna, announced in early August 2026, also re
 
 Claude Code users should batch complex agent sessions and schedule them to align with window boundaries. The rolling 5-hour reset means a developer who exhausts their window at 10 a.m. regains full capacity by 3 p.m. — enough for an afternoon session.
 
-The Max 20× plan at $200/month provides roughly 900 messages per window. For comparison, a typical multi-file refactoring session consumes 30–50 messages. This gives power users 18–30 substantial sessions per 5-hour window — generally sufficient for a full workday.
+The Max 20× plan at \$200/month provides roughly 900 messages per window. For comparison, a typical multi-file refactoring session consumes 30–50 messages. This gives power users 18–30 substantial sessions per 5-hour window — generally sufficient for a full workday.
 
 ### Cursor: Staying in Auto
 
@@ -140,7 +140,7 @@ All three tools offer an escape from subscription pools through direct API acces
 
 API pricing removes the pool constraint entirely — you pay per token with no weekly ceiling. For heavy users, this can be more economical than subscription plans:
 
-- A developer consuming $150/month in API tokens pays less than Pro 20× ($200) whilst facing no weekly limits
+- A developer consuming \$150/month in API tokens pays less than Pro 20× (\$200) whilst facing no weekly limits
 - API usage supports prompt caching (platform-wide cache hit rates have risen from 52% to 86% in 2026 [^8]), further reducing effective costs
 - No contention with chat, Work, or other agentic surfaces
 
@@ -148,7 +148,7 @@ The trade-off: API billing lacks the predictability of fixed subscriptions, and 
 
 ## The Competitive Implication
 
-Usage pool architecture is becoming a decisive factor in enterprise adoption. Gartner estimates the enterprise AI coding agents market at $9.8–11.0 billion annualised as of April 2026 [^8], with average per-engineer costs of $92/month. At those volumes, pool architecture determines whether an organisation's investment delivers sustained productivity or periodic blackouts.
+Usage pool architecture is becoming a decisive factor in enterprise adoption. Gartner estimates the enterprise AI coding agents market at \$9.8–11.0 billion annualised as of April 2026 [^8], with average per-engineer costs of \$92/month. At those volumes, pool architecture determines whether an organisation's investment delivers sustained productivity or periodic blackouts.
 
 Cursor's split-pool model currently offers the most sustainable architecture for daily throughput. Codex's shared mega-pool trades simplicity for contention risk, partially mitigated by model-tier routing and banked resets. Claude Code's rolling window offers natural recovery but penalises complex multi-step sessions.
 

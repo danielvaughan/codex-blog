@@ -1,7 +1,7 @@
 ---
 title: "Understanding the Architecture of Coding Agents: What a Minimal Research Prototype Reveals About Codex CLI's Design"
-parent: "Articles"
-nav_order: 1481
+date: 2026-08-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "architecture", "agentic-loop", "ReAct", "coding-agents", "Ark", "taxonomy", "tool-execution", "context-management"]
 ---
 
@@ -92,7 +92,7 @@ Codex CLI's architectural advantage emerges in three areas:
 
 ## What Ark Proves: Minimalism Works (Up to a Point)
 
-Ark is implemented in 13 Python files totalling 1,471 lines of code [^1]. It solves 8 of 10 ArkBench tasks using `gpt-5.4-mini`, averaging 23.5 seconds and 3,342 tokens per task at a total cost under $0.50. The two failures are both incomplete-propagation problems: a bug fix that catches the wrong exception type, and a rename refactoring that misses some call sites.
+Ark is implemented in 13 Python files totalling 1,471 lines of code [^1]. It solves 8 of 10 ArkBench tasks using `gpt-5.4-mini`, averaging 23.5 seconds and 3,342 tokens per task at a total cost under \$0.50. The two failures are both incomplete-propagation problems: a bug fix that catches the wrong exception type, and a rename refactoring that misses some call sites.
 
 This confirms what the taxonomy predicts. The *Control Architecture* layer is essentially solved — every agent uses the same ReAct loop. The differentiation happens in *Tool and Environment Interface* and *Resource Management*. Ark's failures are tool-coverage failures: with only keyword search (`find_text`), it cannot reliably trace all references to a renamed function across a codebase. Production agents like Codex CLI compensate with richer search tools, AST-aware navigation, and the ability to run linters and type checkers as verification gates.
 

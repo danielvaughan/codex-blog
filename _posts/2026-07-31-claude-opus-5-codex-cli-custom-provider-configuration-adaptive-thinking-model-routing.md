@@ -1,7 +1,7 @@
 ---
 title: "Claude Opus 5 Lands: Configuring Codex CLI as a Multi-Model Routing Layer with Anthropic's New Frontier"
-parent: "Articles"
-nav_order: 1339
+date: 2026-07-31T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "claude-opus-5", "custom-provider", "model-routing", "named-profiles", "openrouter", "adaptive-thinking", "config.toml"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["codex-cli", "claude-opus-5", "custom-provider", "model-routing", "named-
 
 ---
 
-Anthropic shipped Claude Opus 5 on 24 July 2026, and the benchmarks are hard to ignore: 43.3% on Frontier-Bench v0.1 (agentic coding), 96.0% on SWE-bench Verified, and 30.2% on ARC-AGI-3 — roughly four times GPT-5.6 Sol's 7.8% on the same novel-reasoning suite [^1][^2]. At $5/$25 per million input/output tokens — unchanged from Opus 4.8 — the model slots into a pricing tier that undercuts Sol on output ($25 vs $30 per MTok) whilst carrying a 1M-token context window and up to 128K synchronous output tokens [^3].
+Anthropic shipped Claude Opus 5 on 24 July 2026, and the benchmarks are hard to ignore: 43.3% on Frontier-Bench v0.1 (agentic coding), 96.0% on SWE-bench Verified, and 30.2% on ARC-AGI-3 — roughly four times GPT-5.6 Sol's 7.8% on the same novel-reasoning suite [^1][^2]. At \$5/\$25 per million input/output tokens — unchanged from Opus 4.8 — the model slots into a pricing tier that undercuts Sol on output (\$25 vs \$30 per MTok) whilst carrying a 1M-token context window and up to 128K synchronous output tokens [^3].
 
 None of that matters, though, unless you can actually route Codex CLI tasks to it. This article walks through the provider configuration, named-profile model routing, and the practical considerations of running an Anthropic model inside OpenAI's harness.
 
@@ -22,7 +22,7 @@ The headline numbers tell one story; the architectural differences tell another.
 
 **Frontier-Bench lead.** On Anthropic's multi-step agentic coding evaluation, Opus 5 leads GPT-5.6 Sol by 8.9 percentage points (43.3% vs 34.4%) — a 26% relative advantage on exactly the workload Codex CLI orchestrates: plan, edit, run, fix [^2].
 
-**Cost-per-task arithmetic.** With cache reads at $0.50 per MTok and output at $25 per MTok, Opus 5 is roughly 1.1× cheaper per token on a blended 3:1 input/output basis compared to Sol [^4]. Over a fleet of agents, that delta compounds.
+**Cost-per-task arithmetic.** With cache reads at \$0.50 per MTok and output at \$25 per MTok, Opus 5 is roughly 1.1× cheaper per token on a blended 3:1 input/output basis compared to Sol [^4]. Over a fleet of agents, that delta compounds.
 
 The counterpoint is equally clear: GPT-5.6 Sol leads TerminalBench 2.1 at 91.9% (Ultra) and has native integration — no gateway required, no wire-protocol translation, no catalogue-refresh workarounds [^5]. The pragmatic answer is not to choose one model but to route both through named profiles.
 
@@ -99,7 +99,7 @@ codex --profile review "review the changes in this PR for security issues"
 codex --profile quick "write a bash script to rotate log files older than 7 days"
 ```
 
-This pattern lets you exploit each model's strengths: Sol's TerminalBench dominance for shell-heavy automation, Opus 5's Frontier-Bench lead for multi-step architectural work, and Luna's $0.20/$1.20 pricing for commodity tasks [^5][^4].
+This pattern lets you exploit each model's strengths: Sol's TerminalBench dominance for shell-heavy automation, Opus 5's Frontier-Bench lead for multi-step architectural work, and Luna's \$0.20/\$1.20 pricing for commodity tasks [^5][^4].
 
 ## Sub-Agent Model Overrides
 
@@ -115,7 +115,7 @@ model = "gpt-5.6-terra"
 model_provider = "openai"
 ```
 
-This puts Opus 5 in the planning seat — where its adaptive thinking and Frontier-Bench advantage pay off — whilst sub-agents execute file edits and shell commands through GPT-5.6 Terra at $2/$12 per MTok. The orchestrator reasons; the workers execute.
+This puts Opus 5 in the planning seat — where its adaptive thinking and Frontier-Bench advantage pay off — whilst sub-agents execute file edits and shell commands through GPT-5.6 Terra at \$2/\$12 per MTok. The orchestrator reasons; the workers execute.
 
 ## The Adaptive Thinking Model
 
@@ -159,7 +159,7 @@ The benchmark landscape as of late July 2026 suggests a clear routing heuristic:
 | ARC-AGI-3 | 30.2% | 7.8% | Opus 5 (3.9×) |
 | TerminalBench 2.1 | — | 91.9% (Ultra) | Sol |
 | Context window | 1M | 1.05M | Sol (marginally) |
-| Output | $25/MTok | $30/MTok | Opus 5 |
+| Output | \$25/MTok | \$30/MTok | Opus 5 |
 
 The pattern: **Opus 5 for reasoning-heavy, multi-file agentic work; Sol for terminal-native, shell-command-heavy automation** [^2][^5]. If your Codex CLI usage is predominantly `codex exec` in CI pipelines running shell scripts, Sol remains the stronger native choice. If you are using Codex for architectural refactors, complex feature implementation, or long autonomous runs, the Frontier-Bench gap justifies the gateway overhead.
 

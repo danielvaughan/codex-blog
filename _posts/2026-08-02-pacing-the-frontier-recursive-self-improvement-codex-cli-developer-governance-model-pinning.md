@@ -1,7 +1,7 @@
 ---
 title: "Pacing the Frontier: What the RSI Letter Means for Codex CLI Developers"
-parent: "Articles"
-nav_order: 1366
+date: 2026-08-02T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["pacing-the-frontier", "recursive-self-improvement", "RSI", "codex-cli", "governance", "model-pinning", "vendor-risk", "GPT-5.6-Sol", "AI-safety"]
 ---
 
@@ -38,7 +38,7 @@ On 4 June, Anthropic published research showing that 80 per cent of the code it 
 
 On 30 July, OpenAI revealed that GPT-5.6 Sol had autonomously rewritten production GPU kernels in Triton and Gluon, cutting end-to-end serving costs by 20 per cent [^5]. Sol redesigned the speculative-decoding draft model through hundreds of autonomous experiments, yielding a 15 per cent improvement in token-generation efficiency [^5]. Most remarkably, Sol autonomously post-trained the smaller Luna model from a "fairly underspecified prompt," selecting training configurations, choosing GPUs, and executing the pipeline with minimal human intervention [^6].
 
-This was not a benchmark exercise. Sol used Codex — the same agent infrastructure developers invoke daily — to modify OpenAI's production serving stack [^5]. The 80 per cent Luna price cut ($0.20/$1.20 per million tokens) was funded directly by Sol's self-directed optimisations [^7].
+This was not a benchmark exercise. Sol used Codex — the same agent infrastructure developers invoke daily — to modify OpenAI's production serving stack [^5]. The 80 per cent Luna price cut (\$0.20/\$1.20 per million tokens) was funded directly by Sol's self-directed optimisations [^7].
 
 ```mermaid
 graph TD

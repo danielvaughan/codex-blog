@@ -1,11 +1,11 @@
 ---
 title: "Five Surfaces, One Agent: How Codex CLI's July 2026 Copilot Integration Completes the Multi-Surface Architecture"
-parent: "Articles"
-nav_order: 1166
 type: Technical Article
 timestamp: 2026-07-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-09-five-surfaces-one-agent-codex-cli-copilot-agent-provider-multi-surface-architecture-july-2026"
 tags: ["codex-cli", "copilot", "jetbrains", "codex-acp", "agent-provider", "multi-surface", "architecture", "copilot-app", "july-2026"]
+date: 2026-07-09T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Five Surfaces, One Agent: How Codex CLI's July 2026 Copilot Integration Completes the Multi-Surface Architecture
 
@@ -102,7 +102,7 @@ Key capabilities relevant to Codex CLI practitioners:
 
 ### Availability and Cost
 
-Since 7 July 2026, the Copilot App is available on every plan, including Copilot Free[^1]. Free users receive 50 premium requests per month. Each agent-mode prompt costs one premium request; Copilot coding agent invocations (cloud-based) typically consume 30–50 premium requests[^10]. As of June 2026, Copilot billing moved to AI Credits (1 credit = $0.01), so practitioners should factor in the per-invocation cost when choosing between direct CLI usage (billed against OpenAI API credits) and Copilot-mediated Codex sessions (billed against GitHub AI credits)[^10].
+Since 7 July 2026, the Copilot App is available on every plan, including Copilot Free[^1]. Free users receive 50 premium requests per month. Each agent-mode prompt costs one premium request; Copilot coding agent invocations (cloud-based) typically consume 30–50 premium requests[^10]. As of June 2026, Copilot billing moved to AI Credits (1 credit = \$0.01), so practitioners should factor in the per-invocation cost when choosing between direct CLI usage (billed against OpenAI API credits) and Copilot-mediated Codex sessions (billed against GitHub AI credits)[^10].
 
 ## The Decision Matrix: Which Surface, When?
 

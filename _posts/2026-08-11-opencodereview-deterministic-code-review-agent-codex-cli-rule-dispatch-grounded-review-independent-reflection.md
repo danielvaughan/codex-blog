@@ -1,7 +1,7 @@
 ---
 title: "OpenCodeReview and the Determinism Dividend: Why Rule-Guided Dispatch Plus Independent Reflection Beats Unconstrained Agent Review — and How to Wire It into Codex CLI"
-parent: "Articles"
-nav_order: 1471
+date: 2026-08-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "code-review", "determinism", "opencodereview", "aacr-bench", "precision", "signal-to-noise", "agent-architecture", "hooks"]
 ---
 
@@ -106,7 +106,7 @@ Codex CLI already has the configuration surfaces to implement each of OpenCodeRe
 
 Codex CLI's layered `AGENTS.md` discovery provides a direct analogue to OpenCodeReview's four-tier rule chain[^4]:
 
-```
+```bash
 repo-root/
 ├── AGENTS.md                    # Project-level rules (tier 2)
 ├── src/

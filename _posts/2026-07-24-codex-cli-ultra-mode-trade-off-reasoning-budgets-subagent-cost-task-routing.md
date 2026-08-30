@@ -1,11 +1,11 @@
 ---
 title: "The Ultra Mode Trade-Off: When Bigger Reasoning Budgets Backfire in Codex CLI"
-parent: "Articles"
-nav_order: 1266
 type: Technical Article
 timestamp: 2026-07-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-24-codex-cli-ultra-mode-trade-off-reasoning-budgets-subagent-cost-task-routing"
 tags: ["codex-cli", "ultra-mode", "gpt-5.6", "sol", "reasoning-effort", "token-budget", "cost-control", "sub-agents", "task-routing", "july-2026"]
+date: 2026-07-24T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 
 # The Ultra Mode Trade-Off: When Bigger Reasoning Budgets Backfire in Codex CLI
@@ -41,7 +41,7 @@ flowchart TD
     I --> J
 ```
 
-Each sub-agent is a separate model call at Sol's output pricing of $30 per million tokens.[^4] A task that costs $0.65 on base Sol can reach $2.35 with three cooperating sub-agents — a 3.6x multiplier on a modest task.[^5] On larger codebases with six to twelve sub-agents, the multiplier climbs to 6–12x, pushing individual sessions to $30–$75.[^3]
+Each sub-agent is a separate model call at Sol's output pricing of \$30 per million tokens.[^4] A task that costs \$0.65 on base Sol can reach \$2.35 with three cooperating sub-agents — a 3.6x multiplier on a modest task.[^5] On larger codebases with six to twelve sub-agents, the multiplier climbs to 6–12x, pushing individual sessions to \$30–\$75.[^3]
 
 ## The Reasoning Effort Spectrum
 
@@ -169,17 +169,17 @@ The framework reduces to three questions:
 
 ## The Pricing Reality
 
-At Sol's $5/$30 per million tokens (input/output), the cost differences are stark:[^4]
+At Sol's \$5/\$30 per million tokens (input/output), the cost differences are stark:[^4]
 
 | Scenario | Reasoning Level | Typical Tokens | Estimated Cost |
 |----------|----------------|----------------|----------------|
-| Variable rename across 5 files | `low` | 15,000 | $0.05 |
-| Feature implementation, single module | `high` | 80,000 | $0.45 |
-| Complex bug diagnosis | `max` | 200,000 | $1.20 |
-| 20-file migration | Ultra | 900,000 | $5.50 |
-| Large codebase refactor | Ultra | 1,800,000 | $12.00 |
+| Variable rename across 5 files | `low` | 15,000 | \$0.05 |
+| Feature implementation, single module | `high` | 80,000 | \$0.45 |
+| Complex bug diagnosis | `max` | 200,000 | \$1.20 |
+| 20-file migration | Ultra | 900,000 | \$5.50 |
+| Large codebase refactor | Ultra | 1,800,000 | \$12.00 |
 
-A developer using Ultra extensively can reach $150–$375 per day.[^3] The same developer using `max` reasoning selectively and dropping to Terra for routine work might spend $20–$40. The difference compounds across a team.
+A developer using Ultra extensively can reach \$150–\$375 per day.[^3] The same developer using `max` reasoning selectively and dropping to Terra for routine work might spend \$20–\$40. The difference compounds across a team.
 
 ## Practical Recommendations
 

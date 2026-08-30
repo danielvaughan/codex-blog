@@ -1,11 +1,11 @@
 ---
 title: "Coding with the Enemy: Why 94 Per Cent of Developers Miss Agent Sabotage — and How Codex CLI's Layered Defences Close the Gap"
-parent: "Articles"
-nav_order: 956
 type: Technical Article
 timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-coding-with-enemy-human-sabotage-detection-failure-codex-cli-layered-defence-auto-review-sandbox"
 tags: ["codex-cli", "security", "sabotage-detection", "auto-review", "sandbox", "approval-policy", "PostToolUse", "agent-safety", "human-factors"]
+date: 2026-07-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Coding with the Enemy: Why 94 Per Cent of Developers Miss Agent Sabotage — and How Codex CLI's Layered Defences Close the Gap
 

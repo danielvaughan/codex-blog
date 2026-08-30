@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows"
 description: "Codex CLI v0.122 elevated plugins from an app-only curiosity to a first-class workflow primitive across the entire Codex surface."
-parent: "Articles"
-nav_order: 113
 type: Technical Article
 timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-plugin-system-building-sharing-reusable-agent-workflows"
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "workflow-reuse", "team-tooling"]
+date: 2026-04-21T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows](/sketchnotes/articles/2026-04-21-codex-cli-plugin-system-building-sharing-reusable-agent-workflows.png)
 

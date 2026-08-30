@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 on Amazon Bedrock: Configuring Codex CLI for Multi-Cloud Model Access with Sol, Terra, and Luna"
-parent: "Articles"
-nav_order: 1196
+date: 2026-07-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "gpt-5.6", "amazon-bedrock", "multi-cloud", "sol", "terra", "luna", "enterprise", "model-providers", "reasoning-effort", "config.toml", "prompt-caching"]
 ---
 
@@ -29,9 +29,9 @@ Running GPT-5.6 through Bedrock is not simply "the same model on different infra
 
 | Tier | Bedrock Model ID | Context (Bedrock) | Input / 1M tokens | Output / 1M tokens | Cached Input / 1M tokens | Reasoning Effort |
 |------|-------------------|--------------------|--------------------|---------------------|--------------------------|------------------|
-| Sol | `openai.gpt-5.6-sol` | 272K | $5.00 | $30.00 | $0.50 | none → max (7 levels) |
-| Terra | `openai.gpt-5.6-terra` | 272K | $2.50 | $15.00 | $0.25 | none → xhigh |
-| Luna | `openai.gpt-5.6-luna` | 272K | $1.00 | $6.00 | $0.10 | none → high |
+| Sol | `openai.gpt-5.6-sol` | 272K | \$5.00 | \$30.00 | \$0.50 | none → max (7 levels) |
+| Terra | `openai.gpt-5.6-terra` | 272K | \$2.50 | \$15.00 | \$0.25 | none → xhigh |
+| Luna | `openai.gpt-5.6-luna` | 272K | \$1.00 | \$6.00 | \$0.10 | none → high |
 
 **Regions available at GA:** us-east-1 (N. Virginia), us-east-2 (Ohio) for all tiers; us-west-2 (Oregon) for Terra and Luna [^3] [^6].
 
@@ -112,7 +112,7 @@ Bedrock's prompt caching uses explicit cache breakpoints, similar to OpenAI's na
 
 - Cached input is billed at a **90% discount** from standard input pricing
 - Cache entries remain available for reuse for at least 30 minutes
-- Cache writes carry a small premium (Sol: $6.25/1M tokens)
+- Cache writes carry a small premium (Sol: \$6.25/1M tokens)
 
 For Codex CLI sessions, where system prompts (AGENTS.md content, project documentation) remain stable across turns, this discount compounds quickly. A typical session with a 50K-token system prompt that runs 20 turns saves roughly:
 

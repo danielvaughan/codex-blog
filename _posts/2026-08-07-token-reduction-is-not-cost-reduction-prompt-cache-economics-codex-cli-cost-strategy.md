@@ -1,7 +1,7 @@
 ---
 title: "Token Reduction Is Not Cost Reduction: What Prompt-Cache Economics Mean for Your Codex CLI Cost Strategy"
-parent: "Articles"
-nav_order: 1435
+date: 2026-08-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "cost-optimisation", "prompt-caching", "token-reduction", "context-compression", "GPT-5.6", "agent-economics"]
 ---
 
@@ -131,7 +131,7 @@ The study's core recommendation is to evaluate cost using **success-adjusted bil
 
 2. **Front-load context** — Include relevant file paths and architectural context in your prompt rather than letting the agent discover them. Every discovery turn retransmits the entire cached prefix.
 
-3. **Use named profiles for model routing** — Route simple tasks to GPT-5.6 Luna ($0.20/M input, $0.02/M cached) and reserve Sol ($5.00/M input, $0.50/M cached) for complex multi-file reasoning [^2]. The cost difference is 25×, which dwarfs any token-compression saving.
+3. **Use named profiles for model routing** — Route simple tasks to GPT-5.6 Luna (\$0.20/M input, \$0.02/M cached) and reserve Sol (\$5.00/M input, \$0.50/M cached) for complex multi-file reasoning [^2]. The cost difference is 25×, which dwarfs any token-compression saving.
 
 ```toml
 # Named profiles for cost-aware routing

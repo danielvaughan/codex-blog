@@ -1,12 +1,12 @@
 ---
 title: "AWS AgentCore's Managed Harness and Coding Skills: What They Mean for Codex CLI Teams"
 description: "On 22 April 2026, AWS announced three additions to Amazon Bedrock AgentCore: a managed agent harness, a dedicated AgentCore CLI, and pre-built coding skills."
-parent: "Articles"
-nav_order: 137
 type: Technical Article
 timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-aws-agentcore-managed-harness-codex-cli-enterprise-agent-deployment"
 tags: ["codex-cli", "aws", "amazon-bedrock", "agentcore", "enterprise", "managed-harness", "agent-deployment", "infrastructure"]
+date: 2026-04-24T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: AWS AgentCore's Managed Harness and Coding Skills: What They Mean for Codex CLI Teams](/sketchnotes/articles/2026-04-24-aws-agentcore-managed-harness-codex-cli-enterprise-agent-deployment.png)
 

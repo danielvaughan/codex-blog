@@ -1,7 +1,7 @@
 ---
 title: "Comment and Control: How a Single GitHub Issue Broke Three AI Agent CI/CD Pipelines — and What Codex CLI's Proxy Architecture Gets Right"
-parent: "Articles"
-nav_order: 1239
+date: 2026-07-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "security", "ci-cd", "prompt-injection", "github-actions", "supply-chain", "claude-code", "codex-action"]
 ---
 
@@ -44,7 +44,7 @@ Once the agent processed a prompt-injected issue body, the attacker's payload co
 
 ### The Supply Chain Cascade
 
-The most severe consequence was recursive: `anthropics/claude-code-action` itself used a vulnerable agent-mode workflow. A successful exploit against Anthropic's own repository would inject malicious code into the action's source, propagating to every downstream repository depending on it [^3]. The vulnerability received a CVSS v4.0 score of 7.8 and a $4,800 bounty [^3].
+The most severe consequence was recursive: `anthropics/claude-code-action` itself used a vulnerable agent-mode workflow. A successful exploit against Anthropic's own repository would inject malicious code into the action's source, propagating to every downstream repository depending on it [^3]. The vulnerability received a CVSS v4.0 score of 7.8 and a \$4,800 bounty [^3].
 
 ```mermaid
 flowchart TD

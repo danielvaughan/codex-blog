@@ -1,11 +1,11 @@
 ---
 title: "SlopCodeBench: What the Long-Horizon Code Degradation Benchmark Means for Codex CLI Session Strategy"
-parent: "Articles"
-nav_order: 793
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-slopcodebench-long-horizon-code-degradation-codex-cli-session-strategy-erosion-defence"
 tags: ["codex-cli", "slopcodebench", "code-quality", "long-horizon", "session-management", "erosion", "verbosity", "AGENTS-md", "hooks"]
+date: 2026-06-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # SlopCodeBench: What the Long-Horizon Code Degradation Benchmark Means for Codex CLI Session Strategy
 
@@ -53,7 +53,7 @@ The SlopCodeBench authors tested two prompt interventions on GPT models [^1]:
 - **anti_slop**: explicitly instructs the agent to avoid god functions, unnecessary defensive checks, and verbose patterns
 - **plan_first**: requires the agent to outline its approach before writing code
 
-The anti_slop prompt reduced initial verbosity by up to 34.5%, a meaningful improvement at the first checkpoint [^1]. However, the degradation slope remained statistically identical across all strategies. The intercept drops; the gradient does not [^1]. Worse, the anti_slop prompt increased costs by 47.9% on GPT 5.4 ($304 to $450 per full trajectory) without improving pass rates (p > 0.05) [^1].
+The anti_slop prompt reduced initial verbosity by up to 34.5%, a meaningful improvement at the first checkpoint [^1]. However, the degradation slope remained statistically identical across all strategies. The intercept drops; the gradient does not [^1]. Worse, the anti_slop prompt increased costs by 47.9% on GPT 5.4 (\$304 to \$450 per full trajectory) without improving pass rates (p > 0.05) [^1].
 
 This finding has a direct implication for Codex CLI users: adding quality instructions to your prompt or AGENTS.md will improve the starting quality of agent output but will not prevent cumulative decay across a long session. You need structural interventions, not just better words.
 

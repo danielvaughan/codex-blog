@@ -1,11 +1,11 @@
 ---
 title: "Proof-Carrying Agent Actions: What Runtime-Neutral Governance Means for Codex CLI Hook Pipelines and Approval Audit Trails"
-parent: "Articles"
-nav_order: 916
 type: Technical Article
 timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-proof-carrying-agent-actions-runtime-governance-codex-cli-hooks-approval-audit-certificate-pipeline"
 tags: ["codex-cli", "proof-carrying-agent-actions", "runtime-governance", "hooks", "approval-policy", "audit-trail", "PCAA", "security", "PreToolUse", "PostToolUse", "OpenTelemetry"]
+date: 2026-06-30T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Proof-Carrying Agent Actions: What Runtime-Neutral Governance Means for Codex CLI Hook Pipelines and Approval Audit Trails
 

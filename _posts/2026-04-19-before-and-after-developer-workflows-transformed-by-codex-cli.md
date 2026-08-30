@@ -1,12 +1,12 @@
 ---
 title: "Before and After: 5 Developer Workflows Transformed by Codex CLI"
 description: "Every developer has workflows they endure rather than enjoy — the 45-minute bug-fix cycle, the mind-numbing PR review backlog, the test coverage debt that."
-parent: "Articles"
-nav_order: 85
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-before-and-after-developer-workflows-transformed-by-codex-cli"
 tags: ["codex-cli", "workflows", "automation", "productivity", "codex-exec", "ci-cd", "code-review", "refactoring"]
+date: 2026-04-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Before and After: 5 Developer Workflows Transformed by Codex CLI](/sketchnotes/articles/2026-04-19-before-and-after-developer-workflows-transformed-by-codex-cli.png)
 

@@ -1,11 +1,11 @@
 ---
 title: "Anthropic Overtakes OpenAI in Business Adoption: What the Ramp AI Index Means for Codex CLI Platform Strategy"
-parent: "Articles"
-nav_order: 743
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-anthropic-overtakes-openai-business-adoption-codex-cli-vendor-diversification-platform-hedging"
 tags: ["codex-cli", "anthropic", "openai", "platform-strategy", "vendor-diversification", "multi-model", "competitive-landscape", "enterprise", "claude-code", "ramp-ai-index"]
+date: 2026-06-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Anthropic Overtakes OpenAI in Business Adoption: What the Ramp AI Index Means for Codex CLI Platform Strategy](/sketchnotes/articles/2026-06-13-anthropic-overtakes-openai-business-adoption-codex-cli-vendor-diversification-platform-hedging.png)
 
@@ -16,7 +16,7 @@ tags: ["codex-cli", "anthropic", "openai", "platform-strategy", "vendor-diversif
 
 ## The Crossover Nobody Expected This Soon
 
-For the first time since the generative AI race began, more American businesses are paying for Anthropic's Claude than for OpenAI's ChatGPT. The May 2026 Ramp AI Index — drawn from spending data across more than 50,000 US businesses — shows Anthropic at 34.4% adoption versus OpenAI at 32.3%[^1]. Anthropic climbed from 0.03% in June 2023 to this position in under three years[^2]. Claude Code alone now generates over $2.5 billion in annualised revenue and accounts for roughly 4% of all public GitHub commits[^3][^4].
+For the first time since the generative AI race began, more American businesses are paying for Anthropic's Claude than for OpenAI's ChatGPT. The May 2026 Ramp AI Index — drawn from spending data across more than 50,000 US businesses — shows Anthropic at 34.4% adoption versus OpenAI at 32.3%[^1]. Anthropic climbed from 0.03% in June 2023 to this position in under three years[^2]. Claude Code alone now generates over \$2.5 billion in annualised revenue and accounts for roughly 4% of all public GitHub commits[^3][^4].
 
 This is not an abstract market-share statistic. If you run Codex CLI as your primary coding agent, the platform beneath your workflows just lost its market-share lead. That does not mean you should panic — but it does mean you should think carefully about platform risk, provider optionality, and where your configuration surface creates hard dependencies.
 
@@ -237,7 +237,7 @@ The businesses that thrive through platform transitions are not the ones that pr
 
 [^3]: [Claude Code is the Inflection Point — SemiAnalysis](https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point) — 4% of GitHub commits authored by Claude Code; 20% projected by year-end 2026.
 
-[^4]: [Deedy Das on X — Anthropic at $14B run rate](https://x.com/deedydas/status/2022028789321281930) — Claude Code at $2.5B run rate, 4% of GitHub commits, $1M+ customers 40x'd year-over-year.
+[^4]: [Deedy Das on X — Anthropic at \$14B run rate](https://x.com/deedydas/status/2022028789321281930) — Claude Code at \$2.5B run rate, 4% of GitHub commits, \$1M+ customers 40x'd year-over-year.
 
 [^5]: [IDC FERS Survey, March 2026 — via The Register](https://www.theregister.com/ai-and-ml/2026/06/11/claude-is-ready-for-its-corporate-close-up/5254565) — 42% of enterprises use OpenAI; only 19% use Claude extensively.
 

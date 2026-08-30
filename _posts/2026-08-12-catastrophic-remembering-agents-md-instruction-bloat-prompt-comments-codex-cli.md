@@ -1,7 +1,7 @@
 ---
 title: "Catastrophic Remembering: Why Your AGENTS.md Keeps Growing and How Prompt Comments Fix It"
-parent: "Articles"
-nav_order: 1382
+date: 2026-08-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "agents-md", "context-engineering", "prompt-maintenance", "catastrophic-remembering", "instruction-bloat"]
 ---
 
@@ -110,7 +110,7 @@ Codex CLI strips HTML comments before injecting `AGENTS.md` content into the mod
 
 Rather than letting a root `AGENTS.md` grow unbounded, split instructions by concern. Codex CLI walks from the Git root to the current working directory, loading one file per level [^2]:
 
-```
+```bash
 repo/
 ├── AGENTS.md                    # Global: style, commit conventions
 ├── backend/

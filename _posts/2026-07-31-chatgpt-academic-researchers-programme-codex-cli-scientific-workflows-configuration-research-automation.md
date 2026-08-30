@@ -1,10 +1,10 @@
 ---
 title: "ChatGPT for Academic Researchers: Configuring Codex CLI for Scientific Workflows, MCP Tool Chains, and Reproducible Research Automation"
-parent: "Articles"
-nav_order: 1351
 type: Technical Article
 timestamp: 2026-07-31T00:00:00+00:00
 tags: ["codex-cli", "scientific-research", "academic", "MCP", "data-analysis", "reproducibility", "AGENTS.md", "config.toml", "GPT-5.6", "life-sciences"]
+date: 2026-07-31T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 
 # ChatGPT for Academic Researchers: Configuring Codex CLI for Scientific Workflows, MCP Tool Chains, and Reproducible Research Automation
@@ -236,7 +236,7 @@ codex --profile statistics
 codex --profile literature
 ```
 
-This tiered approach is particularly important under the programme's usage limits. Luna at $0.20/$1.20 per million tokens handles literature queries and data formatting at a fraction of Sol's cost, preserving the elevated quota for computationally demanding tasks [^4].
+This tiered approach is particularly important under the programme's usage limits. Luna at \$0.20/\$1.20 per million tokens handles literature queries and data formatting at a fraction of Sol's cost, preserving the elevated quota for computationally demanding tasks [^4].
 
 ## The Reproducibility Architecture
 
@@ -273,7 +273,7 @@ These controls compose with the programme's default privacy guarantees to create
 
 ## What This Means for Research Computing
 
-The ChatGPT for Academic Researchers programme is OpenAI's most direct bid to embed frontier models into the scientific method. The $250 million commitment through 2027 signals sustained investment rather than a promotional gesture [^1]. For researchers, the practical question is whether Codex CLI can replace or augment existing computational notebooks and batch processing pipelines.
+The ChatGPT for Academic Researchers programme is OpenAI's most direct bid to embed frontier models into the scientific method. The \$250 million commitment through 2027 signals sustained investment rather than a promotional gesture [^1]. For researchers, the practical question is whether Codex CLI can replace or augment existing computational notebooks and batch processing pipelines.
 
 The answer depends on configuration. An unconfigured Codex CLI session is a conversational code generator. A properly configured instance — with domain-specific AGENTS.md, MCP-connected scientific databases, PostToolUse validation hooks, and sandbox-enforced data governance — becomes a research automation layer that produces reproducible, version-controlled, auditable outputs.
 

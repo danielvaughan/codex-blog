@@ -1,11 +1,11 @@
 ---
 title: "Quine and the POSIX Agent: What Mapping LLM Agents to Unix Processes Means for Codex CLI Developers"
-parent: "Articles"
-nav_order: 892
 type: Technical Article
 timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-quine-llm-agents-native-posix-processes-codex-cli-unix-process-model-agent-architecture"
 tags: ["codex-cli", "agent-architecture", "posix", "process-model", "quine", "unix", "sandbox", "subagents", "orchestration"]
+date: 2026-06-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Quine and the POSIX Agent: What Mapping LLM Agents to Unix Processes Means for Codex CLI Developers
 

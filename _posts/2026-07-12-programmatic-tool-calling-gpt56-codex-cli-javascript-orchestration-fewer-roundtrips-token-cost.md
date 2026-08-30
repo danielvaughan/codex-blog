@@ -1,11 +1,11 @@
 ---
 title: "Programmatic Tool Calling: How GPT-5.6's JavaScript Orchestration Layer Cuts Codex CLI Round-Trips and Token Costs"
-parent: "Articles"
-nav_order: 1049
 type: Technical Article
 timestamp: 2026-07-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-12-programmatic-tool-calling-gpt56-codex-cli-javascript-orchestration-fewer-roundtrips-token-cost"
 tags: ["codex-cli", "gpt-5.6", "programmatic-tool-calling", "javascript", "tool-orchestration", "token-cost", "responses-api", "performance", "mcp"]
+date: 2026-07-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Programmatic Tool Calling: How GPT-5.6's JavaScript Orchestration Layer Cuts Codex CLI Round-Trips and Token Costs
 
@@ -178,7 +178,7 @@ The token economics are straightforward. Consider a workflow that previously req
 | Sequential tool calling | ~4,000 | ~4,000 | ~8,000 |
 | Programmatic calling | ~800 | ~600 | ~1,400 |
 
-The savings compound with `rollout_budget` — at Sol's $5/$30 per million tokens, a session that previously consumed $0.24 in intermediate processing drops to approximately $0.04.[^1] [^6]
+The savings compound with `rollout_budget` — at Sol's \$5/\$30 per million tokens, a session that previously consumed \$0.24 in intermediate processing drops to approximately \$0.04.[^1] [^6]
 
 ⚠️ Exact savings vary significantly by workflow. Tasks with small intermediate outputs or those requiring judgment between steps may see minimal improvement.
 

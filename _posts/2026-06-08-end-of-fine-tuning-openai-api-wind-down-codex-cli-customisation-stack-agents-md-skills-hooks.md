@@ -1,11 +1,11 @@
 ---
 title: "The End of Fine-Tuning: What OpenAI's API Wind-Down Means for Your Codex CLI Customisation Strategy"
-parent: "Articles"
-nav_order: 681
 type: Technical Article
 timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-end-of-fine-tuning-openai-api-wind-down-codex-cli-customisation-stack-agents-md-skills-hooks"
 tags: ["codex-cli", "fine-tuning", "customisation", "AGENTS.md", "skills", "hooks", "configuration", "GPT-5.5", "prompt-engineering", "migration"]
+date: 2026-06-08T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The End of Fine-Tuning: What OpenAI's API Wind-Down Means for Your Codex CLI Customisation Strategy
 
@@ -18,7 +18,7 @@ For Codex CLI practitioners, this shift is less disruptive than it first appears
 
 ## Why OpenAI Is Retiring Fine-Tuning
 
-OpenAI's stated rationale is straightforward: newer base models have become capable enough to make fine-tuning unnecessary for most use cases[^2]. GPT-5.5, launched on 23 April 2026 at $5/$30 per million input/output tokens[^3], is substantially better at following instructions and maintaining output formats than its predecessors. The official guidance now reads: "Start with gpt-5.5 for new work, and use reasoning model guidance to tune outcome-level instructions, reasoning effort, and verbosity"[^4].
+OpenAI's stated rationale is straightforward: newer base models have become capable enough to make fine-tuning unnecessary for most use cases[^2]. GPT-5.5, launched on 23 April 2026 at \$5/\$30 per million input/output tokens[^3], is substantially better at following instructions and maintaining output formats than its predecessors. The official guidance now reads: "Start with gpt-5.5 for new work, and use reasoning model guidance to tune outcome-level instructions, reasoning effort, and verbosity"[^4].
 
 The economics reinforce this. Fine-tuning required training compute, data curation, evaluation pipelines, and ongoing model management. Prompt-based approaches — system prompts with examples, structured outputs, retrieval-augmented generation — deliver comparable results at lower operational overhead[^2]. For coding agent workflows specifically, the customisation mechanisms built into Codex CLI already operate at the prompt and tool layer, making the fine-tuning wind-down largely academic.
 

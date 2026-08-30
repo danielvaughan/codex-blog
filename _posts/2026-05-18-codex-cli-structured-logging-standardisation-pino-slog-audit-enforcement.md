@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI for Structured Logging Standardisation: Auditing, Migration, and CI Enforcement"
 description: "Inconsistent logging is one of those problems that nobody prioritises until a production incident demands it."
-parent: "Articles"
-nav_order: 432
 type: Technical Article
 timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-structured-logging-standardisation-pino-slog-audit-enforcement"
 tags: ["codex-cli", "structured-logging", "pino", "slog", "observability", "AGENTS.md", "codex-exec", "hooks", "skills", "CI"]
+date: 2026-05-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Structured Logging Standardisation: Auditing, Migration, and CI Enforcement](/sketchnotes/articles/2026-05-18-codex-cli-structured-logging-standardisation-pino-slog-audit-enforcement.png)
 

@@ -1,11 +1,11 @@
 ---
 title: "Sandboxed Coding Agents as Omni-Modal Task Solvers: What Multimedia Benchmarks Reveal About Codex CLI's Tool Orchestration Ceiling"
-parent: "Articles"
-nav_order: 949
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-sandboxed-coding-agents-omni-modal-task-solvers-codex-cli-multimedia-ffmpeg-tool-orchestration"
 tags: ["codex-cli", "multimedia", "sandbox", "omni-modal", "tool-orchestration", "ffmpeg", "benchmarks", "multimodal"]
+date: 2026-07-03T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Sandboxed Coding Agents as Omni-Modal Task Solvers: What Multimedia Benchmarks Reveal About Codex CLI's Tool Orchestration Ceiling
 
@@ -22,7 +22,7 @@ Chen et al.'s "Sandboxed Coding Agents are Competitive Omni-modal Task Solvers" 
 
 The mechanism is straightforward: rather than ingesting entire media streams, the agent writes code to extract only the evidence it needs — a specific frame, a transcript segment, an OCR crop — converting omni-modal tasks into information retrieval problems [^1].
 
-One month earlier, Heo et al.'s "MMTB: Evaluating Terminal Agents on Multimedia-File Tasks" (arXiv:2605.10966, May 2026) reached the opposite conclusion. Their 105-task benchmark showed Codex CLI (GPT-5.2) scoring just 16.2% binary success at $7.12 per task, while Gemini 3.1 Pro with full multimedia access through their Terminus-MM harness achieved 37.1% — a 3x improvement over text-only baselines [^2].
+One month earlier, Heo et al.'s "MMTB: Evaluating Terminal Agents on Multimedia-File Tasks" (arXiv:2605.10966, May 2026) reached the opposite conclusion. Their 105-task benchmark showed Codex CLI (GPT-5.2) scoring just 16.2% binary success at \$7.12 per task, while Gemini 3.1 Pro with full multimedia access through their Terminus-MM harness achieved 37.1% — a 3x improvement over text-only baselines [^2].
 
 These are not contradictory results. They measure different things, and the gap between them maps directly to how you configure Codex CLI for multimedia work.
 

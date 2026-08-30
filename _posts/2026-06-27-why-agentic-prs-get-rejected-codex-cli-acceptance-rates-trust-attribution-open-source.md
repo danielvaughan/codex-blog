@@ -1,11 +1,11 @@
 ---
 title: "Why Agentic PRs Get Rejected: What the First Comparative Study Means for Codex CLI Developers"
-parent: "Articles"
-nav_order: 894
 type: Technical Article
 timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-why-agentic-prs-get-rejected-codex-cli-acceptance-rates-trust-attribution-open-source"
 tags: ["codex-cli", "agentic-prs", "open-source", "pull-requests", "trust", "attribution", "code-review", "research"]
+date: 2026-06-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Why Agentic PRs Get Rejected: What the First Comparative Study Means for Codex CLI Developers
 

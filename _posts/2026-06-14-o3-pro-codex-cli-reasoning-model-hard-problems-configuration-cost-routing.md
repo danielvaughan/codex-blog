@@ -1,18 +1,18 @@
 ---
 title: "o3-pro Lands in the API: Configuring Codex CLI for Maximum-Compute Reasoning on the Hardest Problems"
-parent: "Articles"
-nav_order: 749
 type: Technical Article
 timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-o3-pro-codex-cli-reasoning-model-hard-problems-configuration-cost-routing"
 tags: ["codex-cli", "o3-pro", "reasoning-models", "model-routing", "config.toml", "cost-management", "profiles"]
+date: 2026-06-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # o3-pro Lands in the API: Configuring Codex CLI for Maximum-Compute Reasoning on the Hardest Problems
 
 
 ---
 
-On 10 June 2026, OpenAI added **o3-pro** to the Responses API — a high-compute variant of o3 that trades latency and cost for substantially better accuracy on the problems where standard models stumble [^1]. The same day, OpenAI slashed o3's own pricing by roughly 80 per cent, dropping input costs from $10 to $2 per million tokens and output from $40 to $8 [^2]. Together, the two moves reshape the reasoning-model economics for Codex CLI users: o3 is now cheap enough for routine reasoning work, and o3-pro exists for the tasks where consistency matters more than speed.
+On 10 June 2026, OpenAI added **o3-pro** to the Responses API — a high-compute variant of o3 that trades latency and cost for substantially better accuracy on the problems where standard models stumble [^1]. The same day, OpenAI slashed o3's own pricing by roughly 80 per cent, dropping input costs from \$10 to \$2 per million tokens and output from \$40 to \$8 [^2]. Together, the two moves reshape the reasoning-model economics for Codex CLI users: o3 is now cheap enough for routine reasoning work, and o3-pro exists for the tasks where consistency matters more than speed.
 
 This article explains what o3-pro actually is, when it earns its premium over GPT-5.5 and standard o3, how to configure Codex CLI profiles to route work to it, and how to keep costs under control when a single response can consume tens of thousands of output tokens.
 
@@ -40,7 +40,7 @@ Key constraints to be aware of:
 
 ## When o3-pro Earns Its Premium
 
-At $20 / $80 per million tokens (input / output), o3-pro costs 10× more than the post-reduction o3 ($2 / $8) and roughly 2.7× more than GPT-5.5 on output [^2] [^6]. That premium is justified in a narrow but important set of scenarios:
+At \$20 / \$80 per million tokens (input / output), o3-pro costs 10× more than the post-reduction o3 (\$2 / \$8) and roughly 2.7× more than GPT-5.5 on output [^2] [^6]. That premium is justified in a narrow but important set of scenarios:
 
 1. **Logic bugs that defy reproduction** — the kind where you've stared at a stack trace for an hour and the answer requires correlating state across multiple modules. o3-pro's extended reasoning chain catches subtle interactions that shorter chains miss.
 
@@ -123,7 +123,7 @@ The `resume --last` command finds the newest matching session through the state 
 
 ## Cost Control Strategies
 
-A single o3-pro response solving a complex problem can easily generate 20,000–50,000 output tokens of reasoning chain plus answer. At $80 per million output tokens, that is $1.60–$4.00 per response. Without guardrails, costs accumulate quickly.
+A single o3-pro response solving a complex problem can easily generate 20,000–50,000 output tokens of reasoning chain plus answer. At \$80 per million output tokens, that is \$1.60–\$4.00 per response. Without guardrails, costs accumulate quickly.
 
 ### Token Budget Limits
 
@@ -194,7 +194,7 @@ Codex CLI v0.137.0 added monthly credit limits display [^12]. Use it to track o3
 codex credits
 ```
 
-For API key users, set billing alerts at the OpenAI dashboard to avoid surprise costs. A reasonable starting budget for a team experimenting with o3-pro is $50–$100 per developer per month, with the understanding that most work stays on cheaper models.
+For API key users, set billing alerts at the OpenAI dashboard to avoid surprise costs. A reasonable starting budget for a team experimenting with o3-pro is \$50–\$100 per developer per month, with the understanding that most work stays on cheaper models.
 
 ## o3-pro in CI/CD Pipelines
 
@@ -213,14 +213,14 @@ Pair this with the exit code handling patterns from `codex exec` — a non-zero 
 
 ## The o3 Price Drop: Practical Impact
 
-The 80 per cent o3 price reduction on 10 June deserves attention in its own right [^2]. At $2 / $8 per million tokens, o3 is now priced below where GPT-4o sat at its launch. This makes extended reasoning accessible for everyday development:
+The 80 per cent o3 price reduction on 10 June deserves attention in its own right [^2]. At \$2 / \$8 per million tokens, o3 is now priced below where GPT-4o sat at its launch. This makes extended reasoning accessible for everyday development:
 
 | Use Case | Model | Estimated Cost per Task |
 |---|---|---|
-| Generate unit tests | GPT-5.5 | $0.02–$0.05 |
-| Debug complex logic bug | o3 | $0.05–$0.15 |
-| Architecture review | o3-pro | $1.50–$4.00 |
-| Batch security audit (50 files) | o3 | $0.50–$1.50 |
+| Generate unit tests | GPT-5.5 | \$0.02–\$0.05 |
+| Debug complex logic bug | o3 | \$0.05–\$0.15 |
+| Architecture review | o3-pro | \$1.50–\$4.00 |
+| Batch security audit (50 files) | o3 | \$0.50–\$1.50 |
 
 The repriced o3 is the new default recommendation for any task where you previously would have reached for `model_reasoning_effort = "high"` on GPT-5.5. It reasons better and now costs comparably.
 
@@ -255,7 +255,7 @@ The key insight: **o3-pro is not a better version of GPT-5.5 — it is a special
 1. **Create the profile**: `~/.codex/o3-pro.config.toml` with the configuration shown above.
 2. **Test on a known-hard problem**: pick a bug or architecture question that your team has struggled with recently.
 3. **Compare results**: run the same prompt through GPT-5.5, o3, and o3-pro. Note where o3-pro's answer diverges — that is where the extra compute adds value.
-4. **Set billing alerts**: at the OpenAI dashboard, configure a $50 monthly alert for o3-pro usage.
+4. **Set billing alerts**: at the OpenAI dashboard, configure a \$50 monthly alert for o3-pro usage.
 5. **Document in AGENTS.md**: add a section noting which problem categories warrant o3-pro escalation, so the pattern survives team turnover.
 
 ---

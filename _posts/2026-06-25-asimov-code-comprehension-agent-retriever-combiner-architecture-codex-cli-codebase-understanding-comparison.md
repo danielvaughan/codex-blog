@@ -1,11 +1,11 @@
 ---
 title: "Asimov and the Comprehension-First Agent: What Reflection AI's Retriever-Combiner Architecture Reveals About Code Understanding — and How Codex CLI Approaches the Same Problem Differently"
-parent: "Articles"
-nav_order: 865
 type: Technical Article
 timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-asimov-code-comprehension-agent-retriever-combiner-architecture-codex-cli-codebase-understanding-comparison"
 tags: ["codex-cli", "asimov", "reflection-ai", "code-comprehension", "retriever-combiner", "codebase-understanding", "agent-architecture", "context-engineering"]
+date: 2026-06-25T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Asimov and the Comprehension-First Agent: What Reflection AI's Retriever-Combiner Architecture Reveals About Code Understanding — and How Codex CLI Approaches the Same Problem Differently
 
@@ -71,7 +71,7 @@ In blind testing with maintainers of major open-source projects, Asimov's answer
 
 ### Current Limitations
 
-As of June 2026, Asimov remains in early access with selective team onboarding[^5]. The waitlist has been active since July 2025 and general availability has not been announced. Asimov currently uses third-party models rather than Reflection AI's own, though the company states it is "actively training our own models to improve Asimov's performance"[^2]. Reflection AI's $25 billion valuation and SpaceX computing partnership suggest significant infrastructure investment[^6], but the product itself remains pre-GA.
+As of June 2026, Asimov remains in early access with selective team onboarding[^5]. The waitlist has been active since July 2025 and general availability has not been announced. Asimov currently uses third-party models rather than Reflection AI's own, though the company states it is "actively training our own models to improve Asimov's performance"[^2]. Reflection AI's \$25 billion valuation and SpaceX computing partnership suggest significant infrastructure investment[^6], but the product itself remains pre-GA.
 
 ## How Codex CLI Approaches Code Comprehension
 
@@ -202,9 +202,9 @@ For teams working today, the practical approach is clear: invest in `AGENTS.md` 
 
 [^4]: Asimov data source integration and Memories feature. [DevOps.com — Beyond Code Generation](https://devops.com/beyond-code-generation-how-asimov-is-transforming-engineering-team-collaboration/)
 
-[^5]: Asimov availability status as of June 2026. [Turing Post — Inside Reflection AI: The $20B Open-Model Startup That Has Yet to Ship](https://www.turingpost.com/p/reflectionai)
+[^5]: Asimov availability status as of June 2026. [Turing Post — Inside Reflection AI: The \$20B Open-Model Startup That Has Yet to Ship](https://www.turingpost.com/p/reflectionai)
 
-[^6]: Reflection AI SpaceX computing partnership and valuation. [Startup Fortune — SpaceX lands a $6.3 billion computing deal with Reflection AI](https://startupfortune.com/spacex-lands-a-63-billion-computing-deal-with-reflection-ai-and-is-quietly-becoming-the-infrastructure-backbone-of-frontier-ai/)
+[^6]: Reflection AI SpaceX computing partnership and valuation. [Startup Fortune — SpaceX lands a \$6.3 billion computing deal with Reflection AI](https://startupfortune.com/spacex-lands-a-63-billion-computing-deal-with-reflection-ai-and-is-quietly-becoming-the-infrastructure-backbone-of-frontier-ai/)
 
 [^7]: Codex CLI context window and tool use architecture. [OpenAI Developers — CLI Features](https://developers.openai.com/codex/cli/features)
 

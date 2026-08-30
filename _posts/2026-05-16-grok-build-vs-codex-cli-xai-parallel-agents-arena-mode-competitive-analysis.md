@@ -1,12 +1,12 @@
 ---
 title: "Grok Build Enters the Ring: How xAI's Parallel-Agent CLI Compares to Codex CLI"
 description: "On 14 May 2026, Elon Musk posted a broad call for beta testers of Grok Build, xAI's first terminal-native coding agent. The tool enters a market dominated."
-parent: "Articles"
-nav_order: 410
 type: Technical Article
 timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-grok-build-vs-codex-cli-xai-parallel-agents-arena-mode-competitive-analysis"
 tags: ["codex-cli", "grok-build", "xai", "competitive-analysis", "parallel-agents", "arena-mode", "cli-agents", "acp", "benchmarks", "pricing"]
+date: 2026-05-16T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Grok Build Enters the Ring: How xAI's Parallel-Agent CLI Compares to Codex CLI](/sketchnotes/articles/2026-05-16-grok-build-vs-codex-cli-xai-parallel-agents-arena-mode-competitive-analysis.png)
 

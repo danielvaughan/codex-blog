@@ -1,7 +1,7 @@
 ---
 title: "Knowledge Debt and the Agents That Teach: Designing Incidental Learning into Your Codex CLI Workflow"
-parent: "Articles"
-nav_order: 1168
+date: 2026-07-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "knowledge-debt", "cognitive-debt", "incidental-learning", "AGENTS.md", "hooks", "developer-skills", "SHIELD"]
 ---
 

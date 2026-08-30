@@ -1,7 +1,7 @@
 ---
 title: "The Ultra Mode Trade-Off: When GPT-5.6 Sol's Bigger Reasoning Budgets Backfire in Codex CLI"
-parent: "Articles"
-nav_order: 1287
+date: 2026-07-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "gpt-5.6", "sol-ultra", "reasoning-effort", "sub-agents", "cost-management", "named-profiles", "token-economics"]
 ---
 
@@ -41,14 +41,14 @@ The critical distinction: Max gives one agent more time to think about a single,
 
 ## The Token Multiplication Effect
 
-Each sub-agent runs its own model instance at Sol's rates ($5 per million input tokens, $30 per million output tokens)[^1]. A standard Codex session typically consumes 50,000–150,000 tokens. An Ultra session spawning four sub-agents on the same task can consume 300,000–900,000 tokens — a **6–12x multiplier** on aggregate token usage[^3].
+Each sub-agent runs its own model instance at Sol's rates (\$5 per million input tokens, \$30 per million output tokens)[^1]. A standard Codex session typically consumes 50,000–150,000 tokens. An Ultra session spawning four sub-agents on the same task can consume 300,000–900,000 tokens — a **6–12x multiplier** on aggregate token usage[^3].
 
 | Session Type | Typical Token Range | Estimated Cost (Sol Rates) |
 |---|---|---|
-| Standard (Medium effort) | 50K–150K | $0.25–$4.50 |
-| Max (single deep reasoning) | 150K–400K | $4.50–$12.00 |
-| Ultra (4 sub-agents) | 300K–900K | $9.00–$27.00 |
-| Ultra (large codebase, extended) | 600K–1.8M | $30.00–$75.00 |
+| Standard (Medium effort) | 50K–150K | \$0.25–\$4.50 |
+| Max (single deep reasoning) | 150K–400K | \$4.50–\$12.00 |
+| Ultra (4 sub-agents) | 300K–900K | \$9.00–\$27.00 |
+| Ultra (large codebase, extended) | 600K–1.8M | \$30.00–\$75.00 |
 
 For Pro subscribers sharing a credit pool across ChatGPT Work, Codex, and Workspace Agents, 5–10 Ultra-mode tasks can exhaust a 5-hour allocation that would otherwise support 75–400 standard-effort tasks[^3].
 
@@ -62,7 +62,7 @@ This is not a random bug. Ultra's sub-agent architecture distributes agency acro
 
 ### Silent Model Inheritance
 
-Issue #32587 reveals a compounding problem: sub-agents silently inherit the parent's Sol Ultra model regardless of custom agent configuration[^5]. A parent session configured to delegate routine work to Luna High (at $1/$6 per million tokens) will instead spawn every child as Sol Ultra. The `spawn_agent` tool exposes only `task_name`, `message`, and `fork_turns` — lacking `model` and `reasoning_effort` fields entirely.
+Issue #32587 reveals a compounding problem: sub-agents silently inherit the parent's Sol Ultra model regardless of custom agent configuration[^5]. A parent session configured to delegate routine work to Luna High (at \$1/\$6 per million tokens) will instead spawn every child as Sol Ultra. The `spawn_agent` tool exposes only `task_name`, `message`, and `fork_turns` — lacking `model` and `reasoning_effort` fields entirely.
 
 ```mermaid
 graph LR
@@ -169,7 +169,7 @@ model_reasoning_effort = "medium"
 
 ### The Terra Escape Valve
 
-For tasks that don't require Sol's depth, GPT-5.6 Terra at $2.50/$15 per million tokens delivers 2–4 benchmark points below Sol at half the price[^1]. A `cheap` profile routing routine work to Terra High often outperforms Sol Low on quality while costing less than Sol Medium.
+For tasks that don't require Sol's depth, GPT-5.6 Terra at \$2.50/\$15 per million tokens delivers 2–4 benchmark points below Sol at half the price[^1]. A `cheap` profile routing routine work to Terra High often outperforms Sol Low on quality while costing less than Sol Medium.
 
 ## Practical Recommendations
 

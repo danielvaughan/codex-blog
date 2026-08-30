@@ -1,11 +1,11 @@
 ---
 title: "Codex-Maxxing: The Six-Pillar Methodology for Long-Running Agent Work with Durable Threads, Memory, Heartbeats, and Verifiable Goals"
-parent: "Articles"
-nav_order: 873
 type: Technical Article
 timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-codex-maxxing-long-running-agent-work-durable-threads-memory-heartbeats-steering-verifiable-goals"
 tags: ["workflow-patterns", "codex-maxxing", "durable-threads", "memory", "heartbeats", "steering", "verifiable-goals", "long-running-tasks", "codex-cli"]
+date: 2026-06-25T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex-Maxxing: The Six-Pillar Methodology for Long-Running Agent Work with Durable Threads, Memory, Heartbeats, and Verifiable Goals
 

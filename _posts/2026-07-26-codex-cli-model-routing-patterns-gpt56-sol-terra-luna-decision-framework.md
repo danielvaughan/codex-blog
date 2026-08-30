@@ -1,7 +1,7 @@
 ---
 title: "Model Routing Patterns for Codex CLI: A Sol, Terra, Luna Decision Framework"
-parent: "Articles"
-nav_order: 1307
+date: 2026-07-26T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "GPT-5.6", "model-routing", "Sol", "Terra", "Luna", "named-profiles", "cost-optimisation", "decision-framework"]
 ---
 
@@ -10,11 +10,11 @@ tags: ["codex-cli", "GPT-5.6", "model-routing", "Sol", "Terra", "Luna", "named-p
 
 ---
 
-GPT-5.6's three-tier model family — Sol at $5/$30, Terra at $2.50/$15, and Luna at $1/$6 per million tokens [^1] — turns model selection from a one-time decision into a routing problem. The right tier depends on the task, not the project. This article builds a practical decision framework for Codex CLI developers who want to stop paying Sol prices for Luna-grade work.
+GPT-5.6's three-tier model family — Sol at \$5/\$30, Terra at \$2.50/\$15, and Luna at \$1/\$6 per million tokens [^1] — turns model selection from a one-time decision into a routing problem. The right tier depends on the task, not the project. This article builds a practical decision framework for Codex CLI developers who want to stop paying Sol prices for Luna-grade work.
 
 ## The Three Tiers in Practice
 
-OpenAI positions Sol as the flagship for "hardest agent tasks, frontier benchmarks, long-horizon coding," Terra as the everyday workhorse matching GPT-5.5 at half the price, and Luna as the high-volume option for latency-sensitive or budget-constrained loops [^1]. The pricing spread is dramatic: a task that costs $1 on Luna costs $5 on Sol — a 5× multiplier on output tokens.
+OpenAI positions Sol as the flagship for "hardest agent tasks, frontier benchmarks, long-horizon coding," Terra as the everyday workhorse matching GPT-5.5 at half the price, and Luna as the high-volume option for latency-sensitive or budget-constrained loops [^1]. The pricing spread is dramatic: a task that costs \$1 on Luna costs \$5 on Sol — a 5× multiplier on output tokens.
 
 But raw pricing tells only half the story. The benchmark gaps between tiers are narrower than the cost gaps:
 
@@ -161,7 +161,7 @@ Each tier supports two reasoning modes that further influence routing decisions:
 - **Max**: single-agent deep reasoning, adding 2–4 benchmark points. Use for non-parallelisable tasks requiring careful sequential thought [^1].
 - **Ultra**: spawns up to four parallel agents, adding 1.8–3.1 points at approximately 3× the cost. Only justified when the task naturally decomposes into independent subtasks [^2].
 
-The practical calculus on Terminal-Bench 2.1: single-agent Sol scores 88.8% at roughly $1.70, whilst Sol Ultra reaches 91.9% at approximately $5.00 [^2]. That is a 3× cost increase for a 3.1-point gain — worth it for production-critical work, wasteful for iteration.
+The practical calculus on Terminal-Bench 2.1: single-agent Sol scores 88.8% at roughly \$1.70, whilst Sol Ultra reaches 91.9% at approximately \$5.00 [^2]. That is a 3× cost increase for a 3.1-point gain — worth it for production-critical work, wasteful for iteration.
 
 ## A Practical SDLC Routing Table
 
@@ -183,8 +183,8 @@ Mapping the framework onto a typical software development lifecycle:
 
 For a team running 1,000 Codex CLI tasks per week with an even distribution across the SDLC phases above, naive Sol-for-everything versus routed tiers produces roughly the following cost profile (assuming 50K average output tokens per task):
 
-- **All-Sol**: 1,000 × 50K × $30/1M = **$1,500/week**
-- **Routed** (20% Sol, 60% Terra, 20% Luna): (200 × $30 + 600 × $15 + 200 × $6) × 50K/1M = **$600/week**
+- **All-Sol**: 1,000 × 50K × \$30/1M = **\$1,500/week**
+- **Routed** (20% Sol, 60% Terra, 20% Luna): (200 × \$30 + 600 × \$15 + 200 × \$6) × 50K/1M = **\$600/week**
 
 That is a 60% cost reduction with minimal quality trade-off on the tasks that matter [^2].
 

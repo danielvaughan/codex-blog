@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI v0.146 Session Orchestration: Named Threads, Pinning, Forking, and Side Conversations"
 description: "Codex CLI v0.146.0 shipped a complete session orchestration toolkit — named sessions, pinned threads, thread forking with paginated history, and persistent side conversations. This article breaks down the architecture, commands, and workflows that turn session management from an afterthought into a first-class engineering discipline."
-parent: "Articles"
-nav_order: 1410
 type: Technical Article
 timestamp: 2026-08-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-05-codex-cli-v0146-session-orchestration-named-threads-pinning-forking-side-conversations"
 tags: ["codex-cli", "session-management", "thread-forking", "named-sessions", "pinned-threads", "side-conversations", "v0.146", "productivity"]
+date: 2026-08-05T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 
 # Codex CLI v0.146 Session Orchestration: Named Threads, Pinning, Forking, and Side Conversations

@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 Price Restructuring: Luna Down 80%, Sol Fast Mode, and What It Means for Your Codex CLI Model Routing"
-parent: "Articles"
-nav_order: 1336
+date: 2026-07-30T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "gpt-5.6", "pricing", "model-routing", "cost-optimisation", "luna", "terra", "sol", "config.toml", "named-profiles"]
 ---
 
@@ -18,16 +18,16 @@ The table below compares launch-day pricing with the new rates, effective immedi
 
 | Model | Input (launch) | Output (launch) | Input (new) | Output (new) | Change |
 |-------|----------------|------------------|-------------|--------------|--------|
-| **Sol** | $5.00/MTok | $30.00/MTok | $5.00/MTok | $30.00/MTok | — |
-| **Sol Fast** | — | — | $12.50/MTok | $75.00/MTok | New tier |
-| **Terra** | $2.50/MTok | $15.00/MTok | $2.00/MTok | $12.00/MTok | −20% |
-| **Luna** | $1.00/MTok | $6.00/MTok | $0.20/MTok | $1.20/MTok | −80% |
+| **Sol** | \$5.00/MTok | \$30.00/MTok | \$5.00/MTok | \$30.00/MTok | — |
+| **Sol Fast** | — | — | \$12.50/MTok | \$75.00/MTok | New tier |
+| **Terra** | \$2.50/MTok | \$15.00/MTok | \$2.00/MTok | \$12.00/MTok | −20% |
+| **Luna** | \$1.00/MTok | \$6.00/MTok | \$0.20/MTok | \$1.20/MTok | −80% |
 
 OpenAI attributed the reductions to a 20% drop in end-to-end serving costs and a 15% improvement in token-generation efficiency achieved during internal development[^3].
 
 ### Competitive Context
 
-Luna at $0.20/$1.20 per MTok now undercuts every major frontier competitor on raw token price. For reference, Claude Sonnet 4.6 sits at $3.00/$15.00[^4], and Gemini 2.5 Pro charges $1.25/$10.00. Luna is 15× cheaper on input tokens than Sonnet 4.6, though the quality gap on complex reasoning tasks remains real.
+Luna at \$0.20/\$1.20 per MTok now undercuts every major frontier competitor on raw token price. For reference, Claude Sonnet 4.6 sits at \$3.00/\$15.00[^4], and Gemini 2.5 Pro charges \$1.25/\$10.00. Luna is 15× cheaper on input tokens than Sonnet 4.6, though the quality gap on complex reasoning tasks remains real.
 
 ## Why This Matters for Codex CLI
 
@@ -118,7 +118,7 @@ A session that spawns six parallel Luna subagents now costs roughly what a singl
 
 ## Sol Fast Mode: When Latency Is the Bottleneck
 
-The new Sol Fast tier ($12.50/$75.00 per MTok) delivers up to 2.5× throughput — reportedly around 750 tokens per second[^2]. This is the first time OpenAI has sold speed as an explicit paid tier rather than a queue priority.
+The new Sol Fast tier (\$12.50/\$75.00 per MTok) delivers up to 2.5× throughput — reportedly around 750 tokens per second[^2]. This is the first time OpenAI has sold speed as an explicit paid tier rather than a queue priority.
 
 For Codex CLI, Sol Fast is relevant in two scenarios:
 
@@ -141,19 +141,19 @@ Raw token prices do not tell the full story. Different models consume different 
 
 | Model + Effort | Task Completion | Cost/Task | Steps |
 |----------------|----------------|-----------|-------|
-| Sol (max) | 73% | $8.39 | 61 |
-| Terra (max) | 70% | $4.95 | 76 |
-| Luna (max) | 67% | $3.03 | 102 |
+| Sol (max) | 73% | \$8.39 | 61 |
+| Terra (max) | 70% | \$4.95 | 76 |
+| Luna (max) | 67% | \$3.03 | 102 |
 
 With the new pricing, these per-task costs shift:
 
 | Model + Effort | Estimated New Cost/Task | Change |
 |----------------|------------------------|--------|
-| Sol (max) | ~$8.39 | — |
-| Terra (max) | ~$3.96 | −20% |
-| Luna (max) | ~$0.61 | −80% |
+| Sol (max) | ~\$8.39 | — |
+| Terra (max) | ~\$3.96 | −20% |
+| Luna (max) | ~\$0.61 | −80% |
 
-Luna at $0.61 per task changes the economics fundamentally. You can run five Luna attempts for less than one Terra attempt, which opens up speculative execution patterns: spawn multiple Luna agents with different approaches and keep the best result.
+Luna at \$0.61 per task changes the economics fundamentally. You can run five Luna attempts for less than one Terra attempt, which opens up speculative execution patterns: spawn multiple Luna agents with different approaches and keep the best result.
 
 ```mermaid
 graph TD
@@ -174,7 +174,7 @@ For ChatGPT Pro and Team subscribers using Codex, the price cuts translate to ad
 
 ### For Solo Developers
 
-Switch your default model from Terra to Luna with `high` reasoning effort. At $0.61 per task, Luna is cheap enough for exploratory coding where you previously would have hesitated. Reserve Terra for sessions where Luna demonstrably struggles — typically multi-file architectural changes and complex debugging.
+Switch your default model from Terra to Luna with `high` reasoning effort. At \$0.61 per task, Luna is cheap enough for exploratory coding where you previously would have hesitated. Reserve Terra for sessions where Luna demonstrably struggles — typically multi-file architectural changes and complex debugging.
 
 ### For Teams with Managed Configuration
 
@@ -196,7 +196,7 @@ This gives developers a sensible default whilst allowing profile overrides for h
 
 ### For CI/CD Pipelines
 
-Luna at $0.20 per MTok input makes Codex CLI viable for tasks that were previously too expensive to automate: generating changelog entries, writing migration guides, or producing test stubs for every PR. The cost of running Luna in a GitHub Action is now comparable to a linter.
+Luna at \$0.20 per MTok input makes Codex CLI viable for tasks that were previously too expensive to automate: generating changelog entries, writing migration guides, or producing test stubs for every PR. The cost of running Luna in a GitHub Action is now comparable to a linter.
 
 ### Monitor with OpenTelemetry
 
@@ -213,7 +213,7 @@ The `OTEL_RESOURCE_ATTRIBUTES` field lets you segment costs by model, profile, a
 
 Three price restructurings in three weeks signals that the frontier model pricing war is accelerating. Chinese open-weight models from DeepSeek and Alibaba have compressed margins, and OpenAI is responding by making its lower tiers aggressively competitive whilst preserving Sol's premium positioning[^3].
 
-For Codex CLI users, the practical takeaway is straightforward: re-evaluate your model routing. The tier boundaries that made sense on 9 July no longer hold. Luna is no longer "the cheap model you use for trivial tasks" — at $0.20 per MTok, it is cheap enough to be your default for everything except the genuinely hard problems where Sol's reasoning depth pays for itself.
+For Codex CLI users, the practical takeaway is straightforward: re-evaluate your model routing. The tier boundaries that made sense on 9 July no longer hold. Luna is no longer "the cheap model you use for trivial tasks" — at \$0.20 per MTok, it is cheap enough to be your default for everything except the genuinely hard problems where Sol's reasoning depth pays for itself.
 
 ## Citations
 

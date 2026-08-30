@@ -1,11 +1,11 @@
 ---
 title: "Agent Trajectories as Programs: What Behavioural Fingerprinting Means for Codex CLI Model Routing and Observability"
-parent: "Articles"
-nav_order: 839
 type: Technical Article
 timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-agent-trajectories-as-programs-fingerprinting-coding-agent-behaviour-codex-cli-procgrep-model-routing"
 tags: ["codex-cli", "agent-fingerprinting", "model-routing", "observability", "ProcGrep", "SWE-Bench", "PostToolUse", "named-profiles", "telemetry"]
+date: 2026-06-22T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Agent Trajectories as Programs: What Behavioural Fingerprinting Means for Codex CLI Model Routing and Observability
 
@@ -114,13 +114,13 @@ The performance and cost data from the paper make a compelling case for task-awa
 
 | Model | Resolution Rate | Avg Steps | Cost/Task |
 |-------|----------------|-----------|-----------|
-| Claude-4 | 59.0% | 64.8 | $2.02 |
-| Claude-3.7-thinking | 50.7% | 33.6 | $1.53 |
-| DeepSeek-R1 (DARS) | 47.0% | 24.0 | $5.17 |
-| Agentless + Claude-3.5 | 40.7% | 13.0 | $1.23 |
-| Moatless + DeepSeek-V3 | 30.7% | 13.1 | $0.06 |
+| Claude-4 | 59.0% | 64.8 | \$2.02 |
+| Claude-3.7-thinking | 50.7% | 33.6 | \$1.53 |
+| DeepSeek-R1 (DARS) | 47.0% | 24.0 | \$5.17 |
+| Agentless + Claude-3.5 | 40.7% | 13.0 | \$1.23 |
+| Moatless + DeepSeek-V3 | 30.7% | 13.1 | \$0.06 |
 
-Claude-4 resolves the most tasks but takes 64.8 steps on average. For bounded, well-localised fixes, Agentless achieves 40.7% resolution in just 13 steps at $1.23 per task [^1]. Codex CLI's named profiles let you encode this routing logic:
+Claude-4 resolves the most tasks but takes 64.8 steps on average. For bounded, well-localised fixes, Agentless achieves 40.7% resolution in just 13 steps at \$1.23 per task [^1]. Codex CLI's named profiles let you encode this routing logic:
 
 ```toml
 [profile.deep-fix]

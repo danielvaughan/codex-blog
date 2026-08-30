@@ -1,7 +1,6 @@
 ---
 title: Articles Index
 description: "Last updated: 2026-08-17 Total articles rated: 1,855+"
-nav_order: 1
 ---
 
 # Articles Index

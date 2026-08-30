@@ -1,7 +1,7 @@
 ---
 title: "Black Hat 2026: Eleven Agent Framework CVEs and Why Codex CLI's Sandbox-First Architecture Dodges the Worst of Them"
-parent: "Articles"
-nav_order: 1414
+date: 2026-08-06T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "security", "black-hat-2026", "agent-framework-vulnerabilities", "sandbox", "landlock", "seatbelt", "mcp-server-security", "supply-chain", "langchain", "crewai", "autogen"]
 ---
 
@@ -26,11 +26,11 @@ The eleven vulnerabilities span six frameworks [^2]. Two received CVEs with patc
 | LangGraph (SQLite checkpointer) | SQL injection in `get_state_history()` | Checkpoint manipulation → RCE chain | CVE-2025-67644 [^3] |
 | LangGraph (msgpack deserialisation) | Insecure deserialisation of checkpoint data | Remote code execution | CVE-2026-28277 [^3] |
 | LangGraph (Redis checkpointer) | Redis injection | Similar to SQLite vector | CVE-2026-27022 [^3] |
-| Microsoft Agent Framework | Checkpoint deserialisation | Cross-session RCE via prompt injection | $10,000 bounty, no CVE [^2] |
-| Google ADK | Hidden dev assistant with unauthenticated API | File write → import-time code execution | $3,133.70 bounty [^2] |
+| Microsoft Agent Framework | Checkpoint deserialisation | Cross-session RCE via prompt injection | \$10,000 bounty, no CVE [^2] |
+| Google ADK | Hidden dev assistant with unauthenticated API | File write → import-time code execution | \$3,133.70 bounty [^2] |
 | CrewAI / AutoGen / Semantic Kernel | Memory stores, planning loops, serialisation | Various RCE and data exfiltration vectors | Disclosed, details pending [^1] |
 
-Total bounties awarded: $17,133.70 [^2].
+Total bounties awarded: \$17,133.70 [^2].
 
 ### Three Attack Techniques
 

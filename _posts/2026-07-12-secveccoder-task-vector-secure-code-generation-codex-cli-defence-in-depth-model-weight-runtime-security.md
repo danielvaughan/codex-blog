@@ -1,7 +1,7 @@
 ---
 title: "SecVecCoder and the Defence-in-Depth Stack: How Task-Vector Security at the Model Layer Complements Codex CLI's Runtime Protections"
-parent: "Articles"
-nav_order: 1052
+date: 2026-07-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "security", "task-vectors", "secure-code-generation", "defence-in-depth", "model-weight-arithmetic", "SecVecCoder", "open-source-models", "custom-providers", "PostToolUse-hooks"]
 ---
 

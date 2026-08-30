@@ -1,7 +1,7 @@
 ---
 title: "BrowserStack Test Companion and Codex CLI: Closing the Verification Gap with Agentic Testing Pipelines"
-parent: "Articles"
-nav_order: 1349
+date: 2026-07-31T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "browserstack", "test-companion", "mcp", "testing", "posttooluse", "hooks", "agentic-testing", "verification", "ci-cd"]
 ---
 
@@ -208,7 +208,7 @@ This architecture addresses the verification gap by making testing a continuous 
 
 BrowserStack Test Companion requires a BrowserStack subscription beyond your Codex CLI costs. ⚠️ Exact pricing for Test Companion has not been publicly disclosed as of 31 July 2026. Factor this into your per-task cost calculations when using `rollout_token_budget` in `config.toml`.
 
-The MCP server calls consume Codex CLI tokens for each tool invocation. A typical test-generation-and-execution cycle adds roughly 2,000–5,000 tokens per source file change. With GPT-5.6 Luna at $0.20/$1.20 per MTok [^5], the marginal cost is negligible — but it compounds across large refactoring sessions.
+The MCP server calls consume Codex CLI tokens for each tool invocation. A typical test-generation-and-execution cycle adds roughly 2,000–5,000 tokens per source file change. With GPT-5.6 Luna at \$0.20/\$1.20 per MTok [^5], the marginal cost is negligible — but it compounds across large refactoring sessions.
 
 ### Avoiding Feedback Loops
 

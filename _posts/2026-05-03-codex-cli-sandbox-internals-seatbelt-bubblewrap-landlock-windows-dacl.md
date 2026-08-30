@@ -1,11 +1,19 @@
 ---
 title: "Codex CLI Sandbox Internals: How Seatbelt, Bubblewrap, Landlock and Windows DACL Keep Agent Commands in Check"
 description: "When Codex CLI runs a shell command on your behalf, it does not simply call exec and hope for the best. Every command executes inside a platform-native."
-parent: "Articles"
-nav_order: 1110
 type: Technical Article
 timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-sandbox-internals-seatbelt-bubblewrap-landlock-windows-dacl"
+date: 2026-05-03T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
+tags:
+  - codex-cli
+  - sandbox
+  - security
+  - internals
+  - seatbelt
+  - bubblewrap
+  - landlock
 ---
 ![Sketchnote diagram for: Codex CLI Sandbox Internals: How Seatbelt, Bubblewrap, Landlock and Windows DACL Keep Agent Commands in Check](/sketchnotes/articles/2026-05-03-codex-cli-sandbox-internals-seatbelt-bubblewrap-landlock-windows-dacl.png)
 

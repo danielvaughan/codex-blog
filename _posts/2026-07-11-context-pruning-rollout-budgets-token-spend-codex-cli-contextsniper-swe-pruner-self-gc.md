@@ -1,7 +1,7 @@
 ---
 title: "The 76 Per Cent Problem: Why Your Coding Agent Wastes Three-Quarters of Its Token Budget Reading Files — and How Context Pruning and Rollout Budgets Cut the Bill"
-parent: "Articles"
-nav_order: 1033
+date: 2026-07-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "context-pruning", "token-budget", "rollout-budget", "cost-optimisation", "ContextSniper", "SWE-Pruner", "Self-GC", "LaMR", "context-engineering"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["codex-cli", "context-pruning", "token-budget", "rollout-budget", "cost-o
 
 ---
 
-Every coding agent has the same expensive habit: it reads far more code than it needs. Four independent research teams have now quantified the waste, and the numbers are damning. Agents spend **67–76 per cent** of their total token budget on file reads, broad searches, and terminal output where useful evidence is buried in noise [^1][^2]. On a frontier model charging $5 per million input tokens, that means roughly $3.80 of every $5 buys nothing but attention dilution.
+Every coding agent has the same expensive habit: it reads far more code than it needs. Four independent research teams have now quantified the waste, and the numbers are damning. Agents spend **67–76 per cent** of their total token budget on file reads, broad searches, and terminal output where useful evidence is buried in noise [^1][^2]. On a frontier model charging \$5 per million input tokens, that means roughly \$3.80 of every \$5 buys nothing but attention dilution.
 
 This article examines the four main context-pruning strategies published between January and July 2026, then maps each one onto the token-management primitives that Codex CLI already ships — `rollout_budget`, `model_auto_compact_token_limit`, and `tool_output_token_limit` — so you can start cutting spend today without waiting for external memory layers.
 
@@ -110,7 +110,7 @@ prefill_token_weight = 0.1
 
 Key configuration choices:
 
-- **`limit_tokens`** — The hard ceiling. Set this based on your per-task dollar budget. At $5/M input tokens, 500K tokens ≈ $2.50 worst case.
+- **`limit_tokens`** — The hard ceiling. Set this based on your per-task dollar budget. At \$5/M input tokens, 500K tokens ≈ \$2.50 worst case.
 - **`prefill_token_weight`** — Setting this to `0.1` means prefill (cached/prompt) tokens count at one-tenth their face value, reflecting their lower actual cost on most providers [^7].
 - **`reminder_interval_tokens`** — Defaults to 10 per cent of `limit_tokens`. The agent receives a budget reminder at each interval, enabling it to self-regulate before hitting the hard stop [^9].
 
@@ -185,7 +185,7 @@ graph TD
 
 Every pruning strategy trades some resolution rate for cost savings. ContextSniper loses 2 percentage points on SWE-bench Lite [^2]. Self-GC maintains 91–95 per cent unaffected continuations but not 100 per cent [^6]. SWE-Pruner is the exception — it occasionally *improves* resolution by removing distractors [^5].
 
-The practical question is whether the cost savings justify the resolution trade-off at your scale. If you run 100 agent tasks per day at $2.50 each, a 36 per cent cost reduction (ContextSniper's OpenClaw result) saves **$90 per day** against a 2-point resolution drop. For most teams, that arithmetic favours pruning.
+The practical question is whether the cost savings justify the resolution trade-off at your scale. If you run 100 agent tasks per day at \$2.50 each, a 36 per cent cost reduction (ContextSniper's OpenClaw result) saves **\$90 per day** against a 2-point resolution drop. For most teams, that arithmetic favours pruning.
 
 The Codex CLI approach of `tool_output_token_limit` plus AGENTS.md discipline avoids the trade-off entirely for a different reason: it does not prune after retrieval — it prevents over-retrieval in the first place. The resolution rate impact depends on how well your AGENTS.md instructions match the task, which is why the specification grounding research [^10] matters here too.
 

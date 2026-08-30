@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI's Two Worlds: How Your Authentication Path Shapes Billing, Rate Limits, and Model Access in June 2026"
-parent: "Articles"
-nav_order: 741
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-codex-cli-authentication-paths-chatgpt-login-api-key-billing-rate-limits-model-access"
 tags: ["codex-cli", "authentication", "billing", "rate-limits", "api-key", "chatgpt-login", "enterprise", "cost-management", "configuration"]
+date: 2026-06-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI's Two Worlds: How Your Authentication Path Shapes Billing, Rate Limits, and Model Access in June 2026
 
@@ -84,15 +84,15 @@ API-key sessions bill at standard OpenAI Platform rates[^10]:
 
 | Model | Input ($/1M) | Cached Input ($/1M) | Output ($/1M) |
 |-------|-------------|--------------------|----|
-| GPT-5.5 | $5.00 | $0.50 | $30.00 |
-| GPT-5.4 | $2.50 | $0.25 | $15.00 |
-| GPT-5.3-Codex | $1.75 | $0.175 | $14.00 |
+| GPT-5.5 | \$5.00 | \$0.50 | \$30.00 |
+| GPT-5.4 | \$2.50 | \$0.25 | \$15.00 |
+| GPT-5.3-Codex | \$1.75 | \$0.175 | \$14.00 |
 
 ⚠️ These rates are as of June 2026 and are subject to the pre-IPO pricing adjustments OpenAI has signalled[^11].
 
 ### The break-even calculation
 
-For light usage (fewer than 8 substantial sessions per month), API key billing is typically cheaper. At 8–50 sessions per month, Plus at $20/month wins. Beyond 50 sessions, Pro at $100/month delivers the best unit economics[^5]. The cached input discount (50–90% off depending on path) shifts this calculation significantly for long-running agentic sessions that maintain stable prompt prefixes[^12].
+For light usage (fewer than 8 substantial sessions per month), API key billing is typically cheaper. At 8–50 sessions per month, Plus at \$20/month wins. Beyond 50 sessions, Pro at \$100/month delivers the best unit economics[^5]. The cached input discount (50–90% off depending on path) shifts this calculation significantly for long-running agentic sessions that maintain stable prompt prefixes[^12].
 
 ## Rate Limits: Rolling Windows vs RPM/TPM
 
@@ -104,9 +104,9 @@ ChatGPT-authenticated sessions use **five-hour activity windows** rather than fi
 
 | Plan | GPT-5.5 messages/5h | GPT-5.4 messages/5h | GPT-5.4 mini/5h |
 |------|---------------------|---------------------|-----------------|
-| Plus ($20) | 15–80 | 20–100 | 60–350 |
-| Pro 5x ($100) | 80–400 | 100–500 | 300–1750 |
-| Pro 20x ($200) | 300–1600 | 400–2000 | 1200–7000 |
+| Plus (\$20) | 15–80 | 20–100 | 60–350 |
+| Pro 5x (\$100) | 80–400 | 100–500 | 300–1750 |
+| Pro 20x (\$200) | 300–1600 | 400–2000 | 1200–7000 |
 
 The range reflects message complexity — simple queries consume less than complex multi-tool agent turns[^9].
 

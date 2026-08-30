@@ -1,7 +1,7 @@
 ---
 title: "The August 2026 Deprecation Wave: Four Sunsets in One Month and What Codex CLI Developers Must Migrate Now"
-parent: "Articles"
-nav_order: 1381
+date: 2026-08-03T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "deprecation", "migration", "o3", "gpt-5.4", "gpt-5.6", "atlas", "assistants-api", "config.toml"]
 ---
 
@@ -103,7 +103,7 @@ This is the sunset most likely to catch Codex CLI users off guard. On 31 August,
 | `gpt-5.4` | `gpt-5.6-terra` | Balanced — large-scale business work |
 | `gpt-5.4-mini` | `gpt-5.6-luna` | Fast — summarisation, automation |
 
-The GPT-5.6 family launched on 9 July 2026 in three tiers: Sol (flagship, $5/$30 per 1M tokens), Terra (balanced, $2.50/$15), and Luna (fast, $1/$6) [^6]. On 30 July, OpenAI reduced Luna's price by 80% and Terra's by 20%, making the migration a net cost reduction for most workloads [^6].
+The GPT-5.6 family launched on 9 July 2026 in three tiers: Sol (flagship, \$5/\$30 per 1M tokens), Terra (balanced, \$2.50/\$15), and Luna (fast, \$1/\$6) [^6]. On 30 July, OpenAI reduced Luna's price by 80% and Terra's by 20%, making the migration a net cost reduction for most workloads [^6].
 
 ### Migration Recipe
 

@@ -1,11 +1,11 @@
 ---
 title: "Interactive Debugging for Coding Agents: What Debug2Fix and ADI Mean for Codex CLI Runtime Investigation"
-parent: "Articles"
-nav_order: 825
 type: Technical Article
 timestamp: 2026-06-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-interactive-debugging-coding-agents-debug2fix-adi-codex-cli-subagent-hooks-runtime-investigation"
 tags: ["codex-cli", "debugging", "Debug2Fix", "ADI", "subagent", "PostToolUse", "runtime-analysis", "hooks", "coding-agents"]
+date: 2026-06-21T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Interactive Debugging for Coding Agents: What Debug2Fix and ADI Mean for Codex CLI Runtime Investigation
 
@@ -95,7 +95,7 @@ The agent requests an FLT for a function of interest and receives the entire exe
 
 ### Results
 
-ADI's standalone agent (FramePilot) resolved **63.8% of SWE-bench Verified** tasks at an average cost of **$1.28 per task**[^2]. When integrated as a plug-and-play component into existing agents:
+ADI's standalone agent (FramePilot) resolved **63.8% of SWE-bench Verified** tasks at an average cost of **\$1.28 per task**[^2]. When integrated as a plug-and-play component into existing agents:
 
 | Agent | Base Model | Improvement |
 |-------|-----------|-------------|

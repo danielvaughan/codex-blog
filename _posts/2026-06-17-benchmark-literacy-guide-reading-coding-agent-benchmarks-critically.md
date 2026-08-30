@@ -1,11 +1,11 @@
 ---
 title: "Benchmark Literacy: A Practitioner's Guide to Reading Coding Agent Benchmarks Critically"
-parent: "Articles"
-nav_order: 788
 type: Technical Article
 timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-benchmark-literacy-guide-reading-coding-agent-benchmarks-critically"
 tags: ["codex-cli", "benchmarks", "swe-bench", "terminal-bench", "kilobench", "codescalebench", "evaluation", "model-selection"]
+date: 2026-06-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Benchmark Literacy: A Practitioner's Guide to Reading Coding Agent Benchmarks Critically
 
@@ -76,7 +76,7 @@ KiloBench, from the Kilo open-source agent project, directly addresses the cost 
 3. **Harness-specific pass rate** — success within Kilo's framework
 4. **Behavioural fingerprints** — exploration patterns, command style, token consumption
 
-The critical insight: re-sent context accounts for **62% of the total bill** in agent loops [^9]. A model scoring 80% at $2 per task may deliver worse value than one scoring 75% at $0.20. One developer reported $4,200 in API fees over a single weekend of autonomous refactoring [^9].
+The critical insight: re-sent context accounts for **62% of the total bill** in agent loops [^9]. A model scoring 80% at \$2 per task may deliver worse value than one scoring 75% at \$0.20. One developer reported \$4,200 in API fees over a single weekend of autonomous refactoring [^9].
 
 **For Codex CLI users**, KiloBench's cost-to-completion metric maps directly to the `/usage` command and `--max-cost` flag. If you are choosing between `o4-mini` and a larger model for a refactoring sprint, KiloBench-style cost-per-task analysis tells you more than raw SWE-bench scores.
 

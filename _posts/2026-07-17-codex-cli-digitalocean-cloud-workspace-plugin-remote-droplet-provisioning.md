@@ -1,7 +1,7 @@
 ---
 title: "From Prompt to Droplet: Using the DigitalOcean Plugin to Provision Cloud Workspaces for Codex Remote"
-parent: "Articles"
-nav_order: 1202
+date: 2026-07-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "digitalocean", "codex-remote", "cloud-workspace", "droplet", "plugin", "remote-development", "ssh"]
 ---
 
@@ -60,7 +60,7 @@ The image sources from `ghcr.io/openai/codex-universal`, pinned by digest for re
 | Minimum viable | 2 | 4 GB | 50 GB |
 | Recommended | 4 | 8 GB | 80 GB |
 
-The recommended 4 vCPU / 8 GB configuration costs approximately $48/month or $0.071/hour on DigitalOcean's per-second billing (minimum charge $0.01 or 60 seconds, whichever is higher) [^5]. For short-lived sessions — spin up, run a migration, tear down — costs can stay well under a dollar.
+The recommended 4 vCPU / 8 GB configuration costs approximately \$48/month or \$0.071/hour on DigitalOcean's per-second billing (minimum charge \$0.01 or 60 seconds, whichever is higher) [^5]. For short-lived sessions — spin up, run a migration, tear down — costs can stay well under a dollar.
 
 ### Customising Language Versions
 
@@ -172,7 +172,7 @@ Trust flows through the ChatGPT account. There is no separate relay credential. 
 
 The Codex Universal image mounts a persistent workspace directory at `/root/workspace` on the host, mapped to `/workspace` inside the container [^4]. This survives container restarts but not Droplet deletion.
 
-Droplets are billed per second until you delete them [^5] [^2]. There is no auto-shutdown. If you forget a Droplet running overnight at the recommended spec, that is roughly $1.70 — not catastrophic, but it accumulates. Consider:
+Droplets are billed per second until you delete them [^5] [^2]. There is no auto-shutdown. If you forget a Droplet running overnight at the recommended spec, that is roughly \$1.70 — not catastrophic, but it accumulates. Consider:
 
 - **Tagging Droplets** with a `codex-ephemeral` tag and running a nightly cleanup script via the DigitalOcean API
 - **Using the plugin's `droplet-delete` tool** from Codex itself: ask Codex to tear down the workspace when you are done

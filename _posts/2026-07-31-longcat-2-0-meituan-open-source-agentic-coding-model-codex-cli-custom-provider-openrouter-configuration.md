@@ -1,7 +1,7 @@
 ---
 title: "LongCat-2.0: Configuring Meituan's 1.6T Open-Source Agentic Coding Model as a Codex CLI Provider"
-parent: "Articles"
-nav_order: 1338
+date: 2026-07-31T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "longcat-2.0", "meituan", "open-source", "custom-model-providers", "openrouter", "config.toml", "agentic-coding", "mixture-of-experts", "model-routing"]
 ---
 
@@ -48,11 +48,11 @@ This is where LongCat-2.0 changes the calculus:
 
 | Model | Input (per MTok) | Output (per MTok) | Approx. Cost per Coding Task |
 |-------|:----------------:|:------------------:|:----------------------------:|
-| LongCat-2.0 (standard) | $0.75 | $2.95 | ~$1.10 |
-| LongCat-2.0 (promo) | $0.30 | $1.20 | ~$0.45 |
-| GPT-5.6 Luna | $0.20 | $1.20 | ~$0.61 |
-| GPT-5.6 Terra | $2.00 | $12.00 | ~$3.96 |
-| Claude Sonnet 4.6 | $3.00 | $15.00 | ~$5.20 |
+| LongCat-2.0 (standard) | \$0.75 | \$2.95 | ~\$1.10 |
+| LongCat-2.0 (promo) | \$0.30 | \$1.20 | ~\$0.45 |
+| GPT-5.6 Luna | \$0.20 | \$1.20 | ~\$0.61 |
+| GPT-5.6 Terra | \$2.00 | \$12.00 | ~\$3.96 |
+| Claude Sonnet 4.6 | \$3.00 | \$15.00 | ~\$5.20 |
 
 At promotional pricing, LongCat-2.0 undercuts everything except GPT-5.6 Luna on raw token cost. At standard pricing, it sits between Luna and Terra — but with SWE-bench Pro performance closer to Terra's tier [^4].
 

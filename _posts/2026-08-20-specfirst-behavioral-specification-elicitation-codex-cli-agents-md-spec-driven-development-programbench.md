@@ -1,7 +1,7 @@
 ---
 title: "SpecFirst and Behavioural Specification Elicitation: Why a Dedicated Discovery Phase Before Code Changes Your Codex CLI Outcomes"
-parent: "Articles"
-nav_order: 1858
+date: 2026-08-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "specification-driven-development", "AGENTS.md", "SpecFirst", "ProgramBench", "behavioural-specification", "spec-agent", "two-phase-synthesis", "requirements-engineering"]
 ---
 
@@ -178,7 +178,7 @@ The practical question is when to apply it. Not every task warrants a full speci
 
 ### Specification-First at Scale
 
-A complementary case study by Abenhaim demonstrates what specification-first convergence looks like on production codebases. Working on a 717,725-line TypeScript application, an AI agent completed a cross-cutting architectural refactoring across 189 files using 14 specification refinement cycles and 31 audit passes, identifying 201 defects before execution — with zero bugs observed in subsequent sessions[^6]. The total cost was USD $2,430 over three days[^6]. The key enabler was not model capability but process structure: iterative specification refinement followed by systematic verification.
+A complementary case study by Abenhaim demonstrates what specification-first convergence looks like on production codebases. Working on a 717,725-line TypeScript application, an AI agent completed a cross-cutting architectural refactoring across 189 files using 14 specification refinement cycles and 31 audit passes, identifying 201 defects before execution — with zero bugs observed in subsequent sessions[^6]. The total cost was USD \$2,430 over three days[^6]. The key enabler was not model capability but process structure: iterative specification refinement followed by systematic verification.
 
 ## Gaps in Codex CLI
 

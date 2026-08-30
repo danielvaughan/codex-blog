@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI for Infrastructure as Code: Terraform MCP, Pulumi Agent Skills, and the Agentic IaC Stack"
-parent: "Articles"
-nav_order: 671
 type: Technical Article
 timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-codex-cli-infrastructure-as-code-terraform-mcp-pulumi-agent-skills-agentic-iac"
 tags: ["codex-cli", "infrastructure-as-code", "terraform", "pulumi", "mcp", "agent-skills", "devops", "iac"]
+date: 2026-06-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI for Infrastructure as Code: Terraform MCP, Pulumi Agent Skills, and the Agentic IaC Stack
 
@@ -210,7 +210,7 @@ match_tools = ["shell"]
 
 ## The Cognitive Efficiency Trade-Off
 
-Pulumi's benchmark data reveals a counterintuitive finding[^4]. Terraform HCL produces 21–33% fewer output tokens in initial generation — Claude Opus 4.6 used 2,007 tokens for Terraform versus 2,555 for Pulumi TypeScript. But when the task involves refactoring into reusable components, the picture inverts. Pulumi required 20% fewer tokens for refactoring, and the total pipeline cost (including self-repair cycles) was 41% cheaper with Pulumi TypeScript ($0.146 versus $0.249 with Claude Opus 4.6)[^4].
+Pulumi's benchmark data reveals a counterintuitive finding[^4]. Terraform HCL produces 21–33% fewer output tokens in initial generation — Claude Opus 4.6 used 2,007 tokens for Terraform versus 2,555 for Pulumi TypeScript. But when the task involves refactoring into reusable components, the picture inverts. Pulumi required 20% fewer tokens for refactoring, and the total pipeline cost (including self-repair cycles) was 41% cheaper with Pulumi TypeScript (\$0.146 versus \$0.249 with Claude Opus 4.6)[^4].
 
 The explanation: TypeScript's compiler provides structured error messages that agents can act on directly. HCL's `terraform plan` output is designed for human operators, not machine consumption.
 

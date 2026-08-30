@@ -1,12 +1,12 @@
 ---
 title: "Detached Subagent Patterns for Codex CLI: Context-Free Orchestration Beyond Built-in Fork Semantics"
 description: "Codex CLI's built-in subagent system uses fork semantics: child agents inherit the parent's context window, sandbox policy, and runtime overrides ."
-parent: "Articles"
-nav_order: 458
 type: Technical Article
 timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-detached-subagent-patterns-codex-cli-context-free-orchestration-community-tools"
 tags: ["codex-cli", "subagents", "multi-agent", "orchestration", "context-isolation", "community-tools", "detached-processes"]
+date: 2026-05-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Detached Subagent Patterns for Codex CLI: Context-Free Orchestration Beyond Built-in Fork Semantics](/sketchnotes/articles/2026-05-20-detached-subagent-patterns-codex-cli-context-free-orchestration-community-tools.png)
 

@@ -1,11 +1,11 @@
 ---
 title: "Legacy Code Modernisation with Codex CLI: The Strangler Fig Pattern, ExecPlans, and Parity-First Migration Workflows"
-parent: "Articles"
-nav_order: 753
 type: Technical Article
 timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-codex-cli-legacy-code-modernisation-strangler-fig-execplan-parity-testing-migration-workflows"
 tags: ["codex-cli", "legacy-modernisation", "strangler-fig", "execplan", "parity-testing", "code-migration", "COBOL", "refactoring"]
+date: 2026-06-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Legacy Code Modernisation with Codex CLI: The Strangler Fig Pattern, ExecPlans, and Parity-First Migration Workflows
 
@@ -179,7 +179,7 @@ codex --profile translate exec "Translate the billing service to Python..."
 codex --profile review exec "Review the translated billing service for architectural issues..."
 ```
 
-The o3-pro model, released to the Responses API on 10 June 2026 at $20/$80 per million tokens (input/output), is particularly suited to the review phase where maximum-compute reasoning justifies the premium[^8].
+The o3-pro model, released to the Responses API on 10 June 2026 at \$20/\$80 per million tokens (input/output), is particularly suited to the review phase where maximum-compute reasoning justifies the premium[^8].
 
 ### Goal Mode for Long-Running Migrations
 
@@ -292,6 +292,6 @@ For each of these, the answer is the same: document it in the ExecPlan before as
 
 [^7]: Agensi, "Best Testing Skills for Codex CLI: QA & Test Generation (2026)," 2026. [https://www.agensi.io/learn/best-testing-skills-codex-cli](https://www.agensi.io/learn/best-testing-skills-codex-cli)
 
-[^8]: OpenAI, "o3-pro model release," June 2026. Model available via Responses API at $20/$80 per million tokens. ⚠️ Pricing confirmed from multiple sources but may have changed since publication.
+[^8]: OpenAI, "o3-pro model release," June 2026. Model available via Responses API at \$20/\$80 per million tokens. ⚠️ Pricing confirmed from multiple sources but may have changed since publication.
 
 [^9]: OpenAI, "Codex CLI v0.133 release — Goal Mode GA," May 2026. [https://releasebot.io/updates/openai/codex](https://releasebot.io/updates/openai/codex)

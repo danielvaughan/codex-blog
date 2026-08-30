@@ -1,11 +1,11 @@
 ---
 title: "Memory Over-Personalisation in Codex CLI: When Your Agent Agrees With You Instead of the Codebase"
-parent: "Articles"
-nav_order: 723
 type: Technical Article
 timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-cli-memory-over-personalisation-sycophancy-risk-configuration-defence"
 tags: ["memory", "sycophancy", "over-personalisation", "dreaming", "configuration", "agent-quality", "codex-cli"]
+date: 2026-06-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Memory Over-Personalisation in Codex CLI: When Your Agent Agrees With You Instead of the Codebase
 

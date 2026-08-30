@@ -1,12 +1,12 @@
 ---
 title: "Agentic Loop Gotchas: Six Stop-Condition and Error-Propagation Mistakes That Cause Silent Failures in Codex CLI"
 description: "An agentic loop is simple in theory — call the model, execute tools, feed results back, repeat until done. In practice, mishandling stop conditions and error propagation creates agents that silently stop too early, loop forever, or proceed on corrupted state."
-parent: "Articles"
-nav_order: 964
 type: Technical Article
 timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-agentic-loop-gotchas-stop-conditions-error-propagation-codex-cli-is-error-field-silent-failures"
 tags: ["codex-cli", "agentic-loop", "stop-reason", "error-handling", "is-error", "anti-patterns", "reliability", "goal-mode"]
+date: 2026-07-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Agentic Loop Gotchas: Six Stop-Condition and Error-Propagation Mistakes That Cause Silent Failures in Codex CLI
 

@@ -1,11 +1,11 @@
 ---
 title: "Diagnosing and Reducing Codex CLI Token Consumption: A Practitioner's Toolkit for the June 2026 Quota Landscape"
-parent: "Articles"
-nav_order: 708
 type: Technical Article
 timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-codex-cli-token-consumption-diagnosis-reduction-quota-drain-practitioner-toolkit"
 tags: ["codex-cli", "token-consumption", "quota-management", "cost-optimisation", "ccusage", "reasoning-effort", "MCP-tax", "context-compaction", "observability"]
+date: 2026-06-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Diagnosing and Reducing Codex CLI Token Consumption: A Practitioner's Toolkit for the June 2026 Quota Landscape
 
@@ -110,7 +110,7 @@ args = ["-y", "@modelcontextprotocol/server-github"]
 enabled_tools = ["get_file_contents", "search_code", "create_pull_request"]
 ```
 
-A 93-tool GitHub server drops from ~55,000 tokens of schema overhead to ~3,000 when scoped to three tools. Scalekit's benchmarks show this reduces per-operation cost from $55.20/month to under $5 [^3].
+A 93-tool GitHub server drops from ~55,000 tokens of schema overhead to ~3,000 when scoped to three tools. Scalekit's benchmarks show this reduces per-operation cost from \$55.20/month to under \$5 [^3].
 
 ### Strategy 2: Tune Reasoning Effort by Task
 
@@ -210,7 +210,7 @@ A well-optimised configuration typically shows:
 | Tokens per turn (median) | 45,000 | 12,000 | 73% |
 | Compaction events per session | 3–5 | 0–1 | 80% |
 | Reasoning tokens (routine tasks) | 8,000 | 2,500 | 69% |
-| Monthly API cost (10K operations) | $55 | $8 | 85% |
+| Monthly API cost (10K operations) | \$55 | \$8 | 85% |
 
 *Figures based on Scalekit benchmarks and community reports* [^3] [^5].
 
@@ -241,7 +241,7 @@ flowchart TD
 
 [^2]: GitHub Issue #26512, "Pro 5x: weekly limit dropped after June 1; quota drains passively even when not using Codex," June 2026. [https://github.com/openai/codex/issues/26512](https://github.com/openai/codex/issues/26512)
 
-[^3]: Scalekit, "The MCP Tax," May 2026; referenced in community benchmarks showing $3.20/month CLI vs $55.20/month MCP at 10,000 operations.
+[^3]: Scalekit, "The MCP Tax," May 2026; referenced in community benchmarks showing \$3.20/month CLI vs \$55.20/month MCP at 10,000 operations.
 
 [^4]: GitHub Issue #19001, "Add RTK Directly Into Codex CLI to Reduce Token Usage 60–90% by Filtering Shell Command Output," 2026. [https://github.com/openai/codex/issues/19001](https://github.com/openai/codex/issues/19001)
 

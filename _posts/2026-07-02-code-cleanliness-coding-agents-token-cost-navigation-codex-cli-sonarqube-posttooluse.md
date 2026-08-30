@@ -1,11 +1,11 @@
 ---
 title: "Does Code Cleanliness Matter for Coding Agents? What 660 Trials Reveal About Token Cost, Navigation, and Codex CLI Configuration"
-parent: "Articles"
-nav_order: 936
 type: Technical Article
 timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-code-cleanliness-coding-agents-token-cost-navigation-codex-cli-sonarqube-posttooluse"
 tags: ["codex-cli", "code-quality", "sonarqube", "AGENTS.md", "PostToolUse", "token-cost", "cognitive-complexity"]
+date: 2026-07-02T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Does Code Cleanliness Matter for Coding Agents? What 660 Trials Reveal About Token Cost, Navigation, and Codex CLI Configuration
 
@@ -46,7 +46,7 @@ The operational metrics tell a different story entirely:
 | File revisitations | **34% fewer** on clean code | Agent navigates more efficiently |
 | Lines edited | Comparable | Patch size is task-determined |
 
-Agents working on cleaner code consume 7–8% fewer tokens [^1]. At scale, this is material. Consider a team running 500 agent tasks per week at an average cost of $2 per task: an 8% reduction saves roughly $4,160 annually — just from maintaining code quality standards.
+Agents working on cleaner code consume 7–8% fewer tokens [^1]. At scale, this is material. Consider a team running 500 agent tasks per week at an average cost of \$2 per task: an 8% reduction saves roughly \$4,160 annually — just from maintaining code quality standards.
 
 The file revisitation finding is arguably more revealing. A 34% reduction means the agent backtracks significantly less when the codebase is well-structured [^1]. Each revisitation represents wasted context window capacity and additional API calls. In Codex CLI, where `rollout_token_budget` caps total token spend per thread, fewer revisitations mean more budget available for actual reasoning.
 

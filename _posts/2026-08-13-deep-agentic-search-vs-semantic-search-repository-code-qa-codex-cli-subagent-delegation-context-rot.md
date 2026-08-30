@@ -1,7 +1,7 @@
 ---
 title: "Deep Agentic Search vs Semantic Search: Why Delegating Code Exploration to Subagents Costs More and Finds Less — and What It Means for Your Codex CLI Search Strategy"
-parent: "Articles"
-nav_order: 1493
+date: 2026-08-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "code-search", "subagent-delegation", "context-rot", "semantic-search", "MCP", "repository-navigation", "SWE-QA"]
 ---
 
@@ -77,7 +77,7 @@ All four paired McNemar and Wilcoxon tests remained significant after false disc
 
 | Metric | Semantic | Deep | Ratio |
 |--------|----------|------|-------|
-| Mean cost per question | $0.32 | $0.74 | 2.3× |
+| Mean cost per question | \$0.32 | \$0.74 | 2.3× |
 | Input tokens (Qwen) | 34K | 761K | 22.4× |
 
 Semantic occupied the upper-left (higher accuracy, lower cost) region of the efficiency frontier for every model tested [^1].

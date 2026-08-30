@@ -1,7 +1,7 @@
 ---
 title: "Token Budget Overruns: What 63 Production Incidents Reveal About Runaway Agent Costs — and How Codex CLI's Rollout Budget Stops the Bleed"
-parent: "Articles"
-nav_order: 985
+date: 2026-07-06T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "token-budgets", "cost-control", "production-incidents", "rollout-budget", "agent-safety", "affine-types"]
 ---
 
@@ -25,7 +25,7 @@ The Token Budgets catalogue [^1] documents incidents from 2023 to 2026, each bac
 | Orphan continuation | Agent continues after task completion | Goal achieved but verification loop keeps running |
 | Concurrent aliasing | Multiple threads share a single budget counter | Race condition allows double-spend |
 | Checkpoint amnesia | Budget state lost on session recovery | Resumed session starts with fresh budget |
-| Metric lag | Usage dashboard updates lag behind actual spend | Operator sees $50 when actual spend is $400 |
+| Metric lag | Usage dashboard updates lag behind actual spend | Operator sees \$50 when actual spend is \$400 |
 
 The Python asyncio evaluation in the paper is particularly stark: 30 out of 30 concurrent agent runs overshot their allocated budget when using standard counter-based tracking [^1]. The problem is not careless engineering — it is that mutable shared state is fundamentally unsuited to budget enforcement in concurrent, delegating systems.
 
@@ -132,7 +132,7 @@ For teams adopting Codex CLI's rollout budget in production:
 
 1. **Start with monitoring, not enforcement.** Set `limit_tokens` to 2× your expected maximum session cost for two weeks. Review the actual distribution before tightening.
 
-2. **Weight tokens by cost, not count.** If your model charges $15/M for output and $5/M for input, set `sampling_token_weight = 3.0` and `prefill_token_weight = 1.0` to get cost-proportional budgeting.
+2. **Weight tokens by cost, not count.** If your model charges \$15/M for output and \$5/M for input, set `sampling_token_weight = 3.0` and `prefill_token_weight = 1.0` to get cost-proportional budgeting.
 
 3. **Use profiles for risk tiers.** CI runs get tight budgets. Interactive exploration gets generous ones. Goal mode gets the tightest budget with frequent reminders.
 

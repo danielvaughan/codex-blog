@@ -1,7 +1,7 @@
 ---
 title: "RETRACE and Independent Patch Verification: Why Bidirectional Reconstruction Catches What Self-Refinement Misses — and How to Wire It into Codex CLI"
-parent: "Articles"
-nav_order: 1477
+date: 2026-08-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "patch-verification", "RETRACE", "bidirectional-reconstruction", "PostToolUse", "coding-agents", "SWE-bench", "independent-verification"]
 ---
 
@@ -93,10 +93,10 @@ Despite the additional reasoning stages, RETRACE maintains cost parity through h
 
 | Model | Method | Tokens | Cache Hit | Cost/Issue |
 |---|---|---|---|---|
-| GPT-5-mini | Baseline | 26.3K | 45.6% | $0.07 |
-| GPT-5-mini | RETRACE | 60.6K | 90.8% | $0.06 |
-| MiniMax M2.5 | Baseline | 123.3K | 94.6% | $0.07 |
-| MiniMax M2.5 | RETRACE | 78.0K | 96.7% | $0.05 |
+| GPT-5-mini | Baseline | 26.3K | 45.6% | \$0.07 |
+| GPT-5-mini | RETRACE | 60.6K | 90.8% | \$0.06 |
+| MiniMax M2.5 | Baseline | 123.3K | 94.6% | \$0.07 |
+| MiniMax M2.5 | RETRACE | 78.0K | 96.7% | \$0.05 |
 
 The high cache hit rates arise because RETRACE's staged prompts reuse substantial portions of the original context. Net result: more verification, same cost.
 

@@ -1,11 +1,11 @@
 ---
 title: "Phoenix and Safe Issue Resolution: What Multi-Agent Safety Controls Mean for Codex CLI Automation Pipelines"
-parent: "Articles"
-nav_order: 838
 type: Technical Article
 timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-phoenix-safe-github-issue-resolution-multi-agent-codex-cli-baseline-testing-webhook-safety-controls"
 tags: ["codex-cli", "phoenix", "multi-agent", "safety", "github-automation", "baseline-testing", "webhooks", "issue-resolution", "subagents", "PostToolUse"]
+date: 2026-06-22T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Phoenix and Safe Issue Resolution: What Multi-Agent Safety Controls Mean for Codex CLI Automation Pipelines
 

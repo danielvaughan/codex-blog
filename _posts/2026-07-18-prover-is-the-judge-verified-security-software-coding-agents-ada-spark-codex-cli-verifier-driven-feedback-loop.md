@@ -1,11 +1,11 @@
 ---
 title: "The Prover Is the Judge: What Verified Security Software from AI Coding Agents Means for Your Codex CLI Verification Strategy"
-parent: "Articles"
-nav_order: 1212
 type: Technical Article
 timestamp: 2026-07-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-18-prover-is-the-judge-verified-security-software-coding-agents-ada-spark-codex-cli-verifier-driven-feedback-loop"
 tags: ["formal-verification", "security", "ada-spark", "hooks", "PostToolUse", "specification-gaming", "verification", "guardian", "defence-in-depth"]
+date: 2026-07-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 
 # The Prover Is the Judge: What Verified Security Software from AI Coding Agents Means for Your Codex CLI Verification Strategy

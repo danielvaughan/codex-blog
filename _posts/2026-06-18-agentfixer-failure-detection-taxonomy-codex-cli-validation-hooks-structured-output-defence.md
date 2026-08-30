@@ -1,11 +1,11 @@
 ---
 title: "AgentFixer: What IBM's Failure Taxonomy Means for Codex CLI Validation Pipelines"
-parent: "Articles"
-nav_order: 801
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-agentfixer-failure-detection-taxonomy-codex-cli-validation-hooks-structured-output-defence"
 tags: ["codex-cli", "agentfixer", "failure-detection", "hooks", "structured-output", "validation", "reliability"]
+date: 2026-06-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # AgentFixer: What IBM's Failure Taxonomy Means for Codex CLI Validation Pipelines
 

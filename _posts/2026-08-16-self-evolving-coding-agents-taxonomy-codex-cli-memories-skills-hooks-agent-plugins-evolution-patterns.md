@@ -1,7 +1,7 @@
 ---
 title: "Self-Evolving Coding Agents: What a Five-Category Taxonomy Reveals About Codex CLI's Evolution Primitives — and Where the Gaps Remain"
-parent: "Articles"
-nav_order: 1517
+date: 2026-08-16T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["self-evolving-agents", "codex-cli", "memories", "skills", "agent-plugins", "hooks", "taxonomy", "coding-agent-evolution"]
 ---
 
@@ -72,7 +72,7 @@ The gap is in memory *curation*. SWE-Exp and EvoCoder distinguish general from r
 
 Skills (`~/.agents/skills/`) are SKILL.md files that Codex loads automatically when the task matches [^4]. Agent Plugins 1.0, shipped in v0.147.0, extend this with a portable packaging standard: a `plugin.json` manifest bundling Agent Skills and MCP server configurations into a searchable, installable unit [^5].
 
-```
+```bash
 ~/.agents/plugins/
 └── my-plugin/
     ├── plugin.json          # Manifest: name, version, skills, MCP servers

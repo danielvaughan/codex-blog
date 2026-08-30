@@ -1,18 +1,18 @@
 ---
 title: "MiniMax M3: What the First Open-Weight Model to Beat GPT-5.5 on SWE-Bench Pro Means for Codex CLI Model Routing"
-parent: "Articles"
-nav_order: 820
 type: Technical Article
 timestamp: 2026-06-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-minimax-m3-open-weight-frontier-coding-model-codex-cli-model-routing-cost-strategy"
 tags: ["codex-cli", "minimax-m3", "open-weight-models", "model-routing", "swe-bench", "cost-optimisation", "named-profiles"]
+date: 2026-06-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # MiniMax M3: What the First Open-Weight Model to Beat GPT-5.5 on SWE-Bench Pro Means for Codex CLI Model Routing
 
 
 ---
 
-On 1 June 2026, Shanghai-based MiniMax released M3 — a 229.9-billion-parameter Mixture-of-Experts model with 9.8 billion parameters active per token, a one-million-token context window, and native multimodal support for text, image, and video input [^1]. Its headline claim: 59.0% on SWE-Bench Pro, edging past both GPT-5.5 (58.6%) and Gemini 3.1 Pro on the benchmark that has become the de facto measure of agentic coding capability [^2]. At $0.30 per million input tokens and $1.20 per million output tokens on OpenRouter — roughly 8-12x cheaper than GPT-5.5 — M3 forces a recalculation of every Codex CLI model routing decision [^3].
+On 1 June 2026, Shanghai-based MiniMax released M3 — a 229.9-billion-parameter Mixture-of-Experts model with 9.8 billion parameters active per token, a one-million-token context window, and native multimodal support for text, image, and video input [^1]. Its headline claim: 59.0% on SWE-Bench Pro, edging past both GPT-5.5 (58.6%) and Gemini 3.1 Pro on the benchmark that has become the de facto measure of agentic coding capability [^2]. At \$0.30 per million input tokens and \$1.20 per million output tokens on OpenRouter — roughly 8-12x cheaper than GPT-5.5 — M3 forces a recalculation of every Codex CLI model routing decision [^3].
 
 This article examines the benchmark results in context, unpacks the architectural innovations that make M3's long-context performance practical, and provides concrete Codex CLI configuration recipes for integrating M3 into a multi-model routing strategy.
 
@@ -65,12 +65,12 @@ The pricing gap between M3 and GPT-5.5 is the most immediately actionable findin
 
 | | MiniMax M3 (OpenRouter) | GPT-5.5 (OpenAI) | Ratio |
 |-|------------------------|-------------------|-------|
-| Input (per 1M tokens) | $0.30 | $5.00 | 16.7x cheaper |
-| Output (per 1M tokens) | $1.20 | $30.00 | 25.0x cheaper |
+| Input (per 1M tokens) | \$0.30 | \$5.00 | 16.7x cheaper |
+| Output (per 1M tokens) | \$1.20 | \$30.00 | 25.0x cheaper |
 
-MiniMax also offers subscription tiers through its own platform: Plus ($20/month, ~1.7B tokens), Max ($50/month, ~5.1B tokens), and Ultra ($120/month, ~9.8B tokens) [^1]. For teams running batch operations via `codex exec`, the per-token API pricing through OpenRouter is typically more economical.
+MiniMax also offers subscription tiers through its own platform: Plus (\$20/month, ~1.7B tokens), Max (\$50/month, ~5.1B tokens), and Ultra (\$120/month, ~9.8B tokens) [^1]. For teams running batch operations via `codex exec`, the per-token API pricing through OpenRouter is typically more economical.
 
-The cost arithmetic is simple. A typical Codex CLI session consuming 100,000 input tokens and 20,000 output tokens costs approximately $0.17 with GPT-5.5 versus $0.05 with M3. Over 50 sessions per day, that is $8.50 versus $2.50 — a saving of $180 per developer per month.
+The cost arithmetic is simple. A typical Codex CLI session consuming 100,000 input tokens and 20,000 output tokens costs approximately \$0.17 with GPT-5.5 versus \$0.05 with M3. Over 50 sessions per day, that is \$8.50 versus \$2.50 — a saving of \$180 per developer per month.
 
 ## Configuring M3 as a Codex CLI Provider
 

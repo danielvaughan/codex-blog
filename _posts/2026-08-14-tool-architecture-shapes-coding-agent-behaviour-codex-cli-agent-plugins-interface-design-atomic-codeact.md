@@ -1,7 +1,7 @@
 ---
 title: "The Devil Is in the Interface: How Tool Architecture Shapes Your Codex CLI Agent's Behaviour"
-parent: "Articles"
-nav_order: 1489
+date: 2026-08-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "tool-architecture", "agent-plugins", "interface-design", "CodeAct", "MCP", "SWE-bench"]
 ---
 
@@ -77,7 +77,7 @@ This is a cautionary finding for teams building Codex CLI plugins that provide "
 
 Agent Plugins 1.0, published 6 August 2026 [^3], is the packaging standard that makes tool architecture decisions distributable. A plugin is a directory with three components:
 
-```
+```bash
 my-plugin/
 ├── plugin.json          # Manifest (name + version required)
 ├── skills/

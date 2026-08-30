@@ -1,7 +1,7 @@
 ---
 title: "Active-SWE: Why Your Coding Agent Waits for Bug Reports — and How to Build a Proactive Discovery Workflow in Codex CLI"
-parent: "Articles"
-nav_order: 1433
+date: 2026-08-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["active-swe", "proactive-bug-fixing", "codex-cli", "benchmark", "code-review", "code-quality", "AGENTS.md", "security-scanning"]
 ---
 

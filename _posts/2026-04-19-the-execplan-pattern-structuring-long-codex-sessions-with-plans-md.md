@@ -1,12 +1,12 @@
 ---
 title: "The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md"
 description: "The single biggest determinant of whether a Codex session completes a complex task or drifts into incoherence is not the model — it is the planning."
-parent: "Articles"
-nav_order: 1093
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-the-execplan-pattern-structuring-long-codex-sessions-with-plans-md"
 tags: ["codex-cli", "planning", "ExecPlan", "PLANS.md", "long-horizon", "AGENTS.md", "durable-memory", "workflow"]
+date: 2026-04-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md](/sketchnotes/articles/2026-04-19-the-execplan-pattern-structuring-long-codex-sessions-with-plans-md.png)
 

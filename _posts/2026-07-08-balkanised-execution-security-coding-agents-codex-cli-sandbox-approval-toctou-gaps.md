@@ -1,7 +1,7 @@
 ---
 title: "Balkanised Execution Security: What 39 Papers Reveal About the Fragmented Defence Landscape for Coding Agents — and Where Codex CLI's Stack Stands"
-parent: "Articles"
-nav_order: 1011
+date: 2026-07-08T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "security", "sandbox", "TOCTOU", "approval-policy", "MCP", "execution-security", "agent-safety", "Pwn2Own"]
 ---
 
@@ -80,11 +80,11 @@ Execution provenance work measured that prompt phrasing alone raised Claude Code
 
 The paper's theoretical gaps became tangible at Pwn2Own Berlin 2026 (14–16 May), where the AI Toolchain category included Coding Agents for the first time [^4]. OpenAI Codex was exploited three separate times by three different research teams:
 
-- Compass Security used a single CWE-150 (Improper Neutralisation of Escape, Meta, or Control Sequences) bug to exploit Codex, earning $40,000 [^4].
-- Doyensec's maitai targeted Codex using a technique that was previously known to the vendor ($10,000) [^4].
-- Viettel Cyber Security exploited Claude Code using a similarly vendor-known technique ($20,000) [^4].
+- Compass Security used a single CWE-150 (Improper Neutralisation of Escape, Meta, or Control Sequences) bug to exploit Codex, earning \$40,000 [^4].
+- Doyensec's maitai targeted Codex using a technique that was previously known to the vendor (\$10,000) [^4].
+- Viettel Cyber Security exploited Claude Code using a similarly vendor-known technique (\$20,000) [^4].
 
-The total payout across all categories reached $1,298,250 for 47 zero-days [^4]. The confirmed CVEs affecting production agent harnesses include CVE-2025-53773 (command injection in GitHub Copilot, CVSS 7.8), CVE-2025-59536 (Claude Code startup trust-dialog bypass, CVSS 8.8), and CVE-2026-21852 (Claude Code project-load data exfiltration, CVSS 7.5) [^1].
+The total payout across all categories reached \$1,298,250 for 47 zero-days [^4]. The confirmed CVEs affecting production agent harnesses include CVE-2025-53773 (command injection in GitHub Copilot, CVSS 7.8), CVE-2025-59536 (Claude Code startup trust-dialog bypass, CVSS 8.8), and CVE-2026-21852 (Claude Code project-load data exfiltration, CVSS 7.5) [^1].
 
 ## How Codex CLI's Security Stack Maps to the Taxonomy
 
@@ -226,4 +226,4 @@ The execution-security research exists. The defences exist. What is missing is t
 
 [^6]: OpenAI. (2026). *Codex CLI v0.143.0 Release Notes*. [https://github.com/openai/codex/releases/tag/rust-v0.143.0](https://github.com/openai/codex/releases/tag/rust-v0.143.0)
 
-[^7]: BleepingComputer. (2026). *Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026*. [https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/](https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/)
+[^7]: BleepingComputer. (2026). *Hackers earn \$1,298,250 for 47 zero-days at Pwn2Own Berlin 2026*. [https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/](https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/)

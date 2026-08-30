@@ -1,7 +1,7 @@
 ---
 title: "Keepalive Economics: What Prompt Cache Eviction During Idle Pauses Costs Your Codex CLI Sessions — and How to Stop Bleeding Tokens"
-parent: "Articles"
-nav_order: 1509.1
+date: 2026-08-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "prompt-caching", "cache-eviction", "keepalive", "token-economics", "cost-optimisation", "agentic-workloads", "prefix-cache", "TTL"]
 ---
 
@@ -93,11 +93,11 @@ The hourly cost of maintaining a 100k-token prefix warm at the optimal interval 
 
 | Provider | Hourly rental cost |
 |---|---|
-| Anthropic | $0.45/hour |
-| OpenAI | $0.19/hour |
-| DeepSeek | $0.04/hour |
+| Anthropic | \$0.45/hour |
+| OpenAI | \$0.19/hour |
+| DeepSeek | \$0.04/hour |
 
-Against a Codex CLI session that triggers a cold re-prefill every 10 minutes on a 100k-token conversation, the keepalive strategy saves roughly $2–4 per hour on Anthropic-routed models and $0.50–1.50 on OpenAI models.
+Against a Codex CLI session that triggers a cold re-prefill every 10 minutes on a 100k-token conversation, the keepalive strategy saves roughly \$2–4 per hour on Anthropic-routed models and \$0.50–1.50 on OpenAI models.
 
 ---
 

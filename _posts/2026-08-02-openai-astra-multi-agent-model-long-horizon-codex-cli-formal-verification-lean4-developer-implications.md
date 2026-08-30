@@ -1,16 +1,16 @@
 ---
 title: "OpenAI Astra and the Multi-Agent Horizon: What a Model That Works for Days Means for Codex CLI Developers"
-parent: "Articles"
-nav_order: 1377
 type: Technical Article
 timestamp: 2026-08-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-02-openai-astra-multi-agent-model-long-horizon-codex-cli-formal-verification-lean4-developer-implications"
 tags: ["codex-cli", "openai", "astra", "multi-agent", "long-horizon", "formal-verification", "lean4", "GPT-5.6", "model-architecture", "developer-strategy"]
+date: 2026-08-02T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # OpenAI Astra and the Multi-Agent Horizon: What a Model That Works for Days Means for Codex CLI Developers
 
 
-On 1 August 2026, OpenAI announced the first results from Astra, the company's next major model family [^1]. Researcher Noam Brown, who worked on the test-time reasoning technology behind the system, commented on the achievement on X [^1]. The headline: an internal version of Astra solved ten mathematical problems that had been open for at least a decade — spanning group theory, coding theory, quantum complexity, lattice cryptography, and high-dimensional geometry — at a total compute cost of roughly $2,000 at current Sol API rates [^2]. The proofs shipped as machine-checkable Lean 4 certificates in the public `openai/ten-proofs` repository under Apache 2.0 [^3].
+On 1 August 2026, OpenAI announced the first results from Astra, the company's next major model family [^1]. Researcher Noam Brown, who worked on the test-time reasoning technology behind the system, commented on the achievement on X [^1]. The headline: an internal version of Astra solved ten mathematical problems that had been open for at least a decade — spanning group theory, coding theory, quantum complexity, lattice cryptography, and high-dimensional geometry — at a total compute cost of roughly \$2,000 at current Sol API rates [^2]. The proofs shipped as machine-checkable Lean 4 certificates in the public `openai/ten-proofs` repository under Apache 2.0 [^3].
 
 The mathematics is striking, but the architecture behind it matters more to Codex CLI practitioners. Astra is not GPT-5.6 with longer context. It is a different model class designed for multi-agent coordination over extended time horizons — hours or days rather than minutes [^4]. That design philosophy has direct implications for how we configure, govern, and reason about coding agents.
 
@@ -71,7 +71,7 @@ The `openai/ten-proofs` repository is small — one `.lean` file per result — 
 
 This establishes Lean 4 as the standard format for AI-generated formal proofs. For Codex CLI developers, this matters in three domains:
 
-1. **Smart contract verification** — Formal proofs of contract invariants become feasible at $2,000 compute budgets rather than six-figure research grants
+1. **Smart contract verification** — Formal proofs of contract invariants become feasible at \$2,000 compute budgets rather than six-figure research grants
 2. **Security protocol proofs** — Cryptographic property verification can be automated and machine-checked
 3. **Specification-to-proof pipelines** — An `AGENTS.md` file that instructs the agent to produce Lean 4 certificates alongside implementation code creates a verifiable development workflow
 
@@ -171,13 +171,13 @@ Astra is not available and may not be for months. But the patterns it represents
 4. **Review budget controls**: multi-day agent runs at Sol rates can accumulate significant costs; ensure `max_cost_usd` ceilings are in your profiles
 5. **Pin your current models**: when Astra ships (as GPT-6, GPT-5.7, or something else), you want explicit model pinning in `config.toml` rather than floating defaults that auto-upgrade
 
-The $2,000 price tag for solving decade-old mathematical conjectures rewrites what "funded lab" means [^2]. When that same capability points at codebases instead of group theory, the developers who have their governance, context management, and verification pipelines already in place will be the ones who benefit most.
+The \$2,000 price tag for solving decade-old mathematical conjectures rewrites what "funded lab" means [^2]. When that same capability points at codebases instead of group theory, the developers who have their governance, context management, and verification pipelines already in place will be the ones who benefit most.
 
 ## Citations
 
 [^1]: Brown, N. "Introducing Astra." OpenAI, 1 August 2026. [https://openai.com/index/introducing-astra/](https://openai.com/index/introducing-astra/) — Announcement of the Astra model family with multi-agent, long-horizon capabilities.
 
-[^2]: OpenAI. "Ten Open Problems Solved by Astra." openai/ten-proofs, GitHub, 1 August 2026. [https://github.com/openai/ten-proofs](https://github.com/openai/ten-proofs) — Apache 2.0 repository of Lean 4 certificates for ten decade-old mathematical proofs; compute cost approximately $2,000 at Sol API rates.
+[^2]: OpenAI. "Ten Open Problems Solved by Astra." openai/ten-proofs, GitHub, 1 August 2026. [https://github.com/openai/ten-proofs](https://github.com/openai/ten-proofs) — Apache 2.0 repository of Lean 4 certificates for ten decade-old mathematical proofs; compute cost approximately \$2,000 at Sol API rates.
 
 [^3]: OpenAI. "ten-proofs: Lean certificates accompanying proofs in mathematics and theoretical computer science." GitHub, 1 August 2026. [https://github.com/openai/ten-proofs](https://github.com/openai/ten-proofs) — Repository structure, Lean 4.32.0 build instructions, and mathlib dependency.
 

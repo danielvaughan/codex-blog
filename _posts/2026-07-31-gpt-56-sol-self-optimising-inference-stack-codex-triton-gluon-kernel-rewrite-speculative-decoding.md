@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 Sol Rewrote Its Own Inference Stack: What the First Self-Optimising Model Means for Codex CLI Developers"
-parent: "Articles"
-nav_order: 1345
+date: 2026-07-31T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["GPT-5.6", "Sol", "inference", "Triton", "Gluon", "speculative-decoding", "self-optimisation", "Codex CLI", "GPU kernels", "cost reduction"]
 ---
 
@@ -64,10 +64,10 @@ For developers, this loop has a practical consequence: **cost reductions in the 
 
 | Tier | Input (per MTok) | Output (per MTok) | Change |
 |------|------------------|--------------------|--------|
-| Luna | $0.20 | $1.20 | −80 % |
-| Terra | $2.00 | $12.00 | −20 % |
-| Sol | $5.00 | $30.00 | unchanged |
-| Sol Fast | $12.50 | $75.00 | new tier |
+| Luna | \$0.20 | \$1.20 | −80 % |
+| Terra | \$2.00 | \$12.00 | −20 % |
+| Sol | \$5.00 | \$30.00 | unchanged |
+| Sol Fast | \$12.50 | \$75.00 | new tier |
 
 ### Configuring Model Routing After the Price Drop
 
@@ -141,7 +141,7 @@ The third point is particularly striking: Sol did not merely optimise its own se
 
 **Kernel correctness.** FpSan catches floating-point errors, but the validation surface for AI-generated GPU code is still maturing. ⚠️ OpenAI has not published detailed metrics on FpSan's false-negative rate or the number of kernel candidates rejected during Sol's optimisation campaign.
 
-**Competitive pressure.** Luna at $0.20/MTok input now undercuts DeepSeek and costs roughly one-fifth of Anthropic's Claude Haiku 4.5 on input tokens [^6]. This shifts the cost calculus for any Codex CLI user routing tasks through custom providers.
+**Competitive pressure.** Luna at \$0.20/MTok input now undercuts DeepSeek and costs roughly one-fifth of Anthropic's Claude Haiku 4.5 on input tokens [^6]. This shifts the cost calculus for any Codex CLI user routing tasks through custom providers.
 
 ## Conclusion
 

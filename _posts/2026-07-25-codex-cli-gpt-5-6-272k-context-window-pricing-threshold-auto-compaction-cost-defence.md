@@ -1,7 +1,7 @@
 ---
 title: "The 272K Tripwire: How GPT-5.6's Context Window Cap Silently Doubles Your Codex CLI Bill"
-parent: "Articles"
-nav_order: 1262
+date: 2026-07-25T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "gpt-5.6", "context-window", "pricing", "cost-control", "auto-compaction", "configuration"]
 ---
 
@@ -20,17 +20,17 @@ GPT-5.6 ships in three tiers. Standard pricing per million tokens [^2]:
 
 | Model | Input | Cached Read | Output |
 |-------|-------|-------------|--------|
-| Sol | $5.00 | $0.50 | $30.00 |
-| Terra | $2.50 | $0.25 | $15.00 |
-| Luna | $1.00 | $0.10 | $6.00 |
+| Sol | \$5.00 | \$0.50 | \$30.00 |
+| Terra | \$2.50 | \$0.25 | \$15.00 |
+| Luna | \$1.00 | \$0.10 | \$6.00 |
 
 Cross 272K input tokens and the **long-context** multiplier activates [^2]:
 
 | Model | Input (2×) | Cached Read (2×) | Output (1.5×) |
 |-------|-----------|-------------------|---------------|
-| Sol | $10.00 | $1.00 | $45.00 |
-| Terra | $5.00 | $0.50 | $22.50 |
-| Luna | $2.00 | $0.20 | $9.00 |
+| Sol | \$10.00 | \$1.00 | \$45.00 |
+| Terra | \$5.00 | \$0.50 | \$22.50 |
+| Luna | \$2.00 | \$0.20 | \$9.00 |
 
 The critical detail: the multiplier applies to the **full request**, not the tokens above 272K [^2]. A 280K-token prompt costs the same per-token rate as a 500K-token prompt — both hit the 2× band. There is no gradual ramp.
 
@@ -92,7 +92,7 @@ model = "gpt-5.6-sol"
 model_auto_compact_token_limit = 250000
 ```
 
-Launch with `codex --profile review` to stay on Terra's $2.50/M input rate for code reviews, reserving Sol for genuinely complex reasoning tasks [^9].
+Launch with `codex --profile review` to stay on Terra's \$2.50/M input rate for code reviews, reserving Sol for genuinely complex reasoning tasks [^9].
 
 ### 3. Pin Sub-Agent Models
 
@@ -135,14 +135,14 @@ This caps reasoning tokens independently of context, preventing the combined tot
 Consider a typical Sol session that drifts to 300K input tokens before compaction, generating 50K output tokens:
 
 **Standard band (under 272K):**
-- Input: 300K × $5.00/M = $1.50
-- Output: 50K × $30.00/M = $1.50
-- **Total: $3.00**
+- Input: 300K × \$5.00/M = \$1.50
+- Output: 50K × \$30.00/M = \$1.50
+- **Total: \$3.00**
 
 **Higher-usage band (over 272K):**
-- Input: 300K × $10.00/M = $3.00
-- Output: 50K × $45.00/M = $2.25
-- **Total: $5.25**
+- Input: 300K × \$10.00/M = \$3.00
+- Output: 50K × \$45.00/M = \$2.25
+- **Total: \$5.25**
 
 That is a **75% cost increase** for the same work, triggered by just 28K tokens of overshoot. Over a full day of heavy Sol usage, the difference compounds rapidly. Community reports describe teams seeing 40-60% bill increases after upgrading to GPT-5.6 with unchanged workflows [^6].
 

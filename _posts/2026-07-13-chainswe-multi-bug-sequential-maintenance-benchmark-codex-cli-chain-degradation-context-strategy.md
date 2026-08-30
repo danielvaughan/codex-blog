@@ -1,7 +1,7 @@
 ---
 title: "ChainSWE and the 70% Drop: Why Sequential Bug-Fixing Breaks Every Coding Agent — and How to Wire Chain-Resilient Maintenance into Codex CLI"
-parent: "Articles"
-nav_order: 1058
+date: 2026-07-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "chainswe", "benchmark", "multi-bug", "sequential-maintenance", "context-degradation", "session-management", "AGENTS.md", "compaction", "chain-error"]
 ---
 
@@ -133,7 +133,7 @@ This directly addresses the 40% "broke working code" failure mode by enforcing r
 
 ### Rollout Budget as Chain Cost Ceiling
 
-ChainSWE reports chain costs ranging from $0.20 to $6.80 per chain [^2]. Codex CLI's rollout budget feature provides a hard ceiling:
+ChainSWE reports chain costs ranging from \$0.20 to \$6.80 per chain [^2]. Codex CLI's rollout budget feature provides a hard ceiling:
 
 ```toml
 [features.rollout_budget]

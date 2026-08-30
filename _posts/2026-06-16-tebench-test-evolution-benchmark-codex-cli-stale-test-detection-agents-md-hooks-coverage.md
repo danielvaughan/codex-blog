@@ -1,11 +1,11 @@
 ---
 title: "TEBench and the Test-Stale Blind Spot: What the First Test Evolution Benchmark Means for Codex CLI Test Maintenance"
-parent: "Articles"
-nav_order: 778
 type: Technical Article
 timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-tebench-test-evolution-benchmark-codex-cli-stale-test-detection-agents-md-hooks-coverage"
 tags: ["TEBench", "test evolution", "Codex CLI", "test maintenance", "stale tests", "AGENTS.md", "hooks", "PostToolUse", "code coverage", "JaCoCo", "Defects4J"]
+date: 2026-06-16T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # TEBench and the Test-Stale Blind Spot: What the First Test Evolution Benchmark Means for Codex CLI Test Maintenance
 

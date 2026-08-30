@@ -1,7 +1,7 @@
 ---
 title: "The Langfuse Codex Observability Plugin: Tracing Agent Turns, Tool Calls, and Token Spend from Your Terminal to a Dashboard"
-parent: "Articles"
-nav_order: 1833
+date: 2026-08-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "langfuse", "observability", "tracing", "opentelemetry", "plugin", "cost-tracking", "debugging"]
 ---
 
@@ -148,7 +148,7 @@ Set a unique seed per session (a commit SHA or CI job ID works well) and you can
 
 ### Cost Attribution
 
-Langfuse multiplies token counts by its built-in model pricing table and aggregates cost per trace, user, model, and time period [^4]. With GPT-5.6 Sol at $5/$30 per million tokens and Luna at $1/$6 [^5], knowing which developers are routing work through Sol when Luna would suffice is no longer a guess — it's a dashboard filter.
+Langfuse multiplies token counts by its built-in model pricing table and aggregates cost per trace, user, model, and time period [^4]. With GPT-5.6 Sol at \$5/\$30 per million tokens and Luna at \$1/\$6 [^5], knowing which developers are routing work through Sol when Luna would suffice is no longer a guess — it's a dashboard filter.
 
 Tag traces with `LANGFUSE_CODEX_TAGS` to slice cost by project, sprint, or task type.
 

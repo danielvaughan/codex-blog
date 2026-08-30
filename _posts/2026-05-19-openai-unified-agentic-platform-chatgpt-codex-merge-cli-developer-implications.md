@@ -1,12 +1,12 @@
 ---
 title: "OpenAI's Unified Agentic Platform: What the ChatGPT-Codex Merger Means for CLI Developers"
 description: "On 16 May 2026, OpenAI co-founder and president Greg Brockman circulated an internal memo confirming that ChatGPT, Codex."
-parent: "Articles"
-nav_order: 451
 type: Technical Article
 timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-openai-unified-agentic-platform-chatgpt-codex-merge-cli-developer-implications"
 tags: ["openai", "codex-cli", "chatgpt", "unified-platform", "strategy", "developer-experience", "agentic", "brockman", "ipo"]
+date: 2026-05-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: OpenAI's Unified Agentic Platform: What the ChatGPT-Codex Merger Means for CLI Developers](/sketchnotes/articles/2026-05-19-openai-unified-agentic-platform-chatgpt-codex-merge-cli-developer-implications.png)
 

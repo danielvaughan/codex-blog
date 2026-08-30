@@ -1,11 +1,11 @@
 ---
 title: "GPT-5.6 Sol, Terra, and Luna: What the Three-Tier Model Preview Means for Codex CLI Developers"
-parent: "Articles"
-nav_order: 886
 type: Technical Article
 timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-gpt-5-6-sol-terra-luna-preview-codex-cli-model-tiers-pricing-ultra-mode-configuration"
 tags: ["codex-cli", "gpt-5.6", "sol", "terra", "luna", "model-routing", "config.toml", "pricing", "ultra-mode", "cache-breakpoints", "model-migration", "june-2026"]
+date: 2026-06-26T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # GPT-5.6 Sol, Terra, and Luna: What the Three-Tier Model Preview Means for Codex CLI Developers
 
@@ -22,17 +22,17 @@ OpenAI has moved from a single model with optional reasoning-effort knobs to a t
 
 | Model | Position | Pricing (per 1M tokens) | Target Use Case |
 |-------|----------|------------------------|-----------------|
-| **Sol** | Flagship | $5 input / $30 output | Complex agentic tasks, multi-hour coding, cybersecurity |
-| **Terra** | Balanced | $2.50 input / $15 output | Everyday development, comparable to GPT-5.5 at 2× lower cost |
-| **Luna** | Fast | $1 input / $6 output | Subagents, linting, quick edits, high-volume batch work |
+| **Sol** | Flagship | \$5 input / \$30 output | Complex agentic tasks, multi-hour coding, cybersecurity |
+| **Terra** | Balanced | \$2.50 input / \$15 output | Everyday development, comparable to GPT-5.5 at 2× lower cost |
+| **Luna** | Fast | \$1 input / \$6 output | Subagents, linting, quick edits, high-volume batch work |
 
 Cache writes across all three tiers are billed at 1.25× the uncached input rate, whilst cached reads receive a 90% discount with a guaranteed 30-minute minimum cache lifespan.[^1]
 
 ### How This Reshapes Cost-per-Task
 
-Terra at $2.50/$15 per million tokens delivers GPT-5.5-class performance at half the price.[^1] For teams already running Codex CLI against GPT-5.5 ($5/$30), switching the default model to Terra for routine work halves the token bill without measurable quality loss on standard development tasks.
+Terra at \$2.50/\$15 per million tokens delivers GPT-5.5-class performance at half the price.[^1] For teams already running Codex CLI against GPT-5.5 (\$5/\$30), switching the default model to Terra for routine work halves the token bill without measurable quality loss on standard development tasks.
 
-Luna at $1/$6 opens a category that GPT-5.3-Codex-Spark previously occupied alone: cheap, fast inference for subagents, hooks, and high-volume batch operations. At roughly one-fifth of Sol's cost, Luna becomes the natural choice for the six concurrent subagent slots that Codex CLI supports.[^4]
+Luna at \$1/\$6 opens a category that GPT-5.3-Codex-Spark previously occupied alone: cheap, fast inference for subagents, hooks, and high-volume batch operations. At roughly one-fifth of Sol's cost, Luna becomes the natural choice for the six concurrent subagent slots that Codex CLI supports.[^4]
 
 ```mermaid
 graph TD

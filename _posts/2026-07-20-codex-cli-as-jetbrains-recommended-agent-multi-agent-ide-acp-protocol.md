@@ -1,7 +1,7 @@
 ---
 title: "From Terminal to IDE: How Codex CLI Became JetBrains' Recommended Agent — and What Multi-Agent IDEs Mean for Your Workflow"
-parent: "Articles"
-nav_order: 1237
+date: 2026-07-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "jetbrains", "agent-client-protocol", "acp", "multi-agent-ide", "junie", "claude-agent", "ide-integration", "developer-workflow"]
 ---
 
@@ -24,13 +24,13 @@ The evaluation covered real-world software engineering tasks with automated test
 
 | Language | Tasks | Codex Solve Rate | Codex Median Cost | Codex Median Latency |
 |----------|-------|-------------------|--------------------|-----------------------|
-| Java     | 225   | 43.9%             | $0.1292            | 124s                  |
-| C#       | 38    | 62.6%             | $0.1152            | 143s                  |
-| Python   | 90    | 20.2%             | $0.1724            | 298s                  |
+| Java     | 225   | 43.9%             | \$0.1292            | 124s                  |
+| C#       | 38    | 62.6%             | \$0.1152            | 143s                  |
+| Python   | 90    | 20.2%             | \$0.1724            | 298s                  |
 
 The closest competitor was **Junie** (powered by Gemini 3 Flash), which scored marginally higher on Java (45.2%) but lower on C# (58.7%) and Python (15.6%). Weighted across all three ecosystems, Codex edged ahead at 39.9% versus Junie's 39.1% [^1]. Claude Agent and Copilot were evaluated but did not reach the shortlist.
 
-Configurations exceeding $20/month for the top 2% of users were eliminated outright — a constraint that excluded several high-reasoning-effort model tiers [^1]. The result: GPT-4o with medium reasoning became the Codex configuration shipped to all JetBrains AI subscribers.
+Configurations exceeding \$20/month for the top 2% of users were eliminated outright — a constraint that excluded several high-reasoning-effort model tiers [^1]. The result: GPT-4o with medium reasoning became the Codex configuration shipped to all JetBrains AI subscribers.
 
 An online A/B test with real users validated the offline numbers by measuring engagement, agent-switching frequency, and return-to-chat rates [^1].
 

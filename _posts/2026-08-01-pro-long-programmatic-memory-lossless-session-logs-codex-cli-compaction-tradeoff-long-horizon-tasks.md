@@ -1,7 +1,7 @@
 ---
 title: "PRO-LONG and the Lossless Memory Thesis: What Programmatic Session Logs Mean for Codex CLI's Compaction Tradeoff"
-parent: "Articles"
-nav_order: 1361
+date: 2026-08-01T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "PRO-LONG", "context-management", "compaction", "session-persistence", "long-horizon", "programmatic-memory", "ARC-AGI-3"]
 ---
 
@@ -20,7 +20,7 @@ The results on the full ARC-AGI-3 public game set are striking:
 
 - **18.0 percentage-point improvement** over the same coding agents without the log[^1]
 - **4.2–5.8× fewer billed tokens** than specialised harnesses (WorldModeler, Schema, Arcgentica) while matching or exceeding their accuracy[^1]
-- **97.4% best@2** with Fable 5 at $1,750 total cost, versus Schema's $6,447 for comparable performance[^1]
+- **97.4% best@2** with Fable 5 at \$1,750 total cost, versus Schema's \$6,447 for comparable performance[^1]
 
 The key insight is deceptively simple: reducing what you save at write time makes retrieval easier, but discards details whose relevance becomes apparent only in hindsight. PRO-LONG sidesteps this by treating history as a searchable database rather than something to compress.
 

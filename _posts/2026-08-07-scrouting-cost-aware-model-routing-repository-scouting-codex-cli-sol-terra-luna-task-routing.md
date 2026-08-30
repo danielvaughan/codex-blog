@@ -1,7 +1,7 @@
 ---
 title: "Scrouting: What Cost-Aware Repository Scouting Means for Your Codex CLI Model Routing Strategy"
-parent: "Articles"
-nav_order: 1426
+date: 2026-08-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "model-routing", "cost-optimisation", "SuperScout", "SWE-bench-Pro", "Sol", "Terra", "Luna", "named-profiles", "research"]
 ---
 
@@ -36,7 +36,7 @@ flowchart LR
     F --> H
 ```
 
-The searcher's GPU bill was $1.13 across all 266 SWE-bench Pro Python evaluations — less than half a cent per task[^1]. That is the cost of a single frontier API call for many repositories.
+The searcher's GPU bill was \$1.13 across all 266 SWE-bench Pro Python evaluations — less than half a cent per task[^1]. That is the cost of a single frontier API call for many repositories.
 
 ## The Numbers That Matter
 
@@ -44,8 +44,8 @@ On the full Python slice of SWE-bench Pro (266 tasks) under the benchmark's offi
 
 | System | Solves | Cost/Solve | Relative Cost |
 |--------|--------|-----------|---------------|
-| Claude Opus 4.6 (solo) | 158 | $1.274 | 1.00× |
-| SuperScout (routed) | 159 | $0.230 | 0.18× |
+| Claude Opus 4.6 (solo) | 158 | \$1.274 | 1.00× |
+| SuperScout (routed) | 159 | \$0.230 | 0.18× |
 
 SuperScout matches the best single model whilst spending 82% less per solve. The four frontier fixers in the routing pool — Claude Opus 4.6, GPT-5.2, Kimi K2.5, and Gemini 3 Flash — each bring different strengths, but the handoff itself drives the result rather than the routing decision[^1].
 
@@ -147,9 +147,9 @@ Codex CLI's named profile system achieves something analogous at the configurati
 
 ## What Scrouting Gets Wrong (and What Codex CLI Should Learn Anyway)
 
-The paper's own ablation reveals an uncomfortable finding: a no-router ablation — Kimi K2.5 with handoff but no routing — achieves identical performance (159/266) at effectively the same cost ($0.227 vs $0.230 per solve)[^1]. The router collapses to cost allocation on this particular benchmark because solve sets are heavily nested (0.77–0.94 Jaccard overlap between fixers).
+The paper's own ablation reveals an uncomfortable finding: a no-router ablation — Kimi K2.5 with handoff but no routing — achieves identical performance (159/266) at effectively the same cost (\$0.227 vs \$0.230 per solve)[^1]. The router collapses to cost allocation on this particular benchmark because solve sets are heavily nested (0.77–0.94 Jaccard overlap between fixers).
 
-This does *not* mean routing is worthless. It means that on SWE-bench Pro's Python slice, the fixer pool is too homogeneous for routing to differentiate. In production, where cost differentials between Sol ($15.00/M output tokens) and Luna ($1.20/M output tokens[^4]) are 12.5×, routing carries genuine economic weight even when accuracy is similar.
+This does *not* mean routing is worthless. It means that on SWE-bench Pro's Python slice, the fixer pool is too homogeneous for routing to differentiate. In production, where cost differentials between Sol (\$15.00/M output tokens) and Luna (\$1.20/M output tokens[^4]) are 12.5×, routing carries genuine economic weight even when accuracy is similar.
 
 The actionable takeaway: **invest in the handoff, not the router**. A structured scouting pass that narrows context before the expensive model sees the task delivers most of the value. The routing decision is secondary.
 

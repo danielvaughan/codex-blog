@@ -1,11 +1,11 @@
 ---
 title: "OpenAI DevDay 2026: What Codex CLI Developers Should Expect and How to Prepare"
-parent: "Articles"
-nav_order: 704
 type: Technical Article
 timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-openai-devday-2026-codex-cli-developer-guide-september-announcements-preparation"
 tags: ["codex-cli", "devday", "openai", "developer-events", "platform-strategy", "extensions", "multi-agent"]
+date: 2026-06-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # OpenAI DevDay 2026: What Codex CLI Developers Should Expect and How to Prepare
 
@@ -24,7 +24,7 @@ DevDay 2025 (6 October, San Francisco) was the event where Codex graduated from 
 - **Apps SDK** — allowing interactive applications inside ChatGPT [^6]
 - **AgentKit** — a no-code builder for autonomous agents [^6]
 
-Romain Huet's keynote demo was itself built almost entirely by Codex CLI, running multiple parallel sessions to ship an initial version in an afternoon [^7]. Tickets were $650 [^8].
+Romain Huet's keynote demo was itself built almost entirely by Codex CLI, running multiple parallel sessions to ship an initial version in an afternoon [^7]. Tickets were \$650 [^8].
 
 ## The Strategic Context for 2026
 
@@ -125,7 +125,7 @@ pip install codex-sdk --pre
 
 ### Register for Notifications
 
-Sign-ups are open at [openai.com/devday](https://openai.com/devday/) for notifications when full ticket applications open [^1]. Based on 2025 pricing, expect tickets around $650 [^8].
+Sign-ups are open at [openai.com/devday](https://openai.com/devday/) for notifications when full ticket applications open [^1]. Based on 2025 pricing, expect tickets around \$650 [^8].
 
 ## The Bigger Picture
 

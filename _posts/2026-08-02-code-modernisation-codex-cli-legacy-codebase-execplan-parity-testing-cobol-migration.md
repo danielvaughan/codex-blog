@@ -1,7 +1,7 @@
 ---
 title: "Code Modernisation with Codex CLI: The ExecPlan Pattern for Legacy Codebase Migration"
-parent: "Articles"
-nav_order: 1372
+date: 2026-08-02T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "code-modernisation", "legacy-migration", "ExecPlan", "COBOL", "parity-testing", "AGENTS.md", "enterprise"]
 ---
 
@@ -167,7 +167,7 @@ mode = "workspace-write"          # Codex needs to create modern/ directory tree
 max_concurrent_threads_per_session = 4  # Parallel module modernisation
 ```
 
-For the analysis-heavy phases (0–3), GPT-5.6 Terra provides the best cost-to-reasoning ratio at $2/$12 per million tokens [^4]. For Phase 4 implementation, consider switching to Sol for complex cross-file refactoring, particularly when business logic spans multiple COBOL programs linked by copybooks.
+For the analysis-heavy phases (0–3), GPT-5.6 Terra provides the best cost-to-reasoning ratio at \$2/\$12 per million tokens [^4]. For Phase 4 implementation, consider switching to Sol for complex cross-file refactoring, particularly when business logic spans multiple COBOL programs linked by copybooks.
 
 ### Named profiles for phase switching
 
@@ -243,6 +243,6 @@ This is where the 30% reduction in unnecessary code rewriting effort compounds [
 
 [^3]: Ferenczi, A. et al., "Agentic Method for Deterministic Validation of Legacy Code Migration," arXiv:2607.28271, July 2026. [https://arxiv.org/abs/2607.28271](https://arxiv.org/abs/2607.28271)
 
-[^4]: "GPT-5.6 Price Restructuring," OpenAI, July 2026. GPT-5.6 Luna at $0.20/$1.20 per million tokens, Terra at $2/$12, Sol at $5/$30. [https://openai.com/index/previewing-gpt-5-6-sol/](https://openai.com/index/previewing-gpt-5-6-sol/)
+[^4]: "GPT-5.6 Price Restructuring," OpenAI, July 2026. GPT-5.6 Luna at \$0.20/\$1.20 per million tokens, Terra at \$2/\$12, Sol at \$5/\$30. [https://openai.com/index/previewing-gpt-5-6-sol/](https://openai.com/index/previewing-gpt-5-6-sol/)
 
 [^5]: "Custom instructions with AGENTS.md," OpenAI Codex Documentation, 2026. [https://developers.openai.com/codex/guides/agents-md](https://developers.openai.com/codex/guides/agents-md)

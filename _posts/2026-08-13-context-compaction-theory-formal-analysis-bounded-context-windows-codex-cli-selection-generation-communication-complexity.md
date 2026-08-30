@@ -1,7 +1,7 @@
 ---
 title: "Context Compaction Theory: What a Formal Analysis of Bounded Context Windows Means for Your Codex CLI Sessions"
-parent: "Articles"
-nav_order: 1495
+date: 2026-08-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["context compaction", "context window", "communication complexity", "Codex CLI", "long sessions", "token management", "formal methods"]
 ---
 
@@ -82,7 +82,7 @@ The theory provides concrete guidance for how you configure your Codex CLI sessi
 
 ### Trigger compaction earlier, not later
 
-The paper's cost analysis quantifies what practitioners already suspect: re-deriving a 100,000-token summary from an 800,000-token history costs approximately $13 and takes ~26 minutes on a frontier model [^1]. This is why agents use compacted context forwarding rather than recomputation — and why triggering compaction *early* preserves more information per compaction event.
+The paper's cost analysis quantifies what practitioners already suspect: re-deriving a 100,000-token summary from an 800,000-token history costs approximately \$13 and takes ~26 minutes on a frontier model [^1]. This is why agents use compacted context forwarding rather than recomputation — and why triggering compaction *early* preserves more information per compaction event.
 
 Codex CLI's recommended practice is to set `model_auto_compact_token_limit` to roughly 60% of the effective window [^2], well below the hard 90% ceiling:
 

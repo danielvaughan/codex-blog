@@ -1,7 +1,7 @@
 ---
 title: "Kimi K3 and the Largest Open-Weight Model Yet: What 2.8 Trillion Parameters Mean for Your Codex CLI Multi-Provider Strategy"
-parent: "Articles"
-nav_order: 1214
+date: 2026-07-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "kimi-k3", "moonshot-ai", "multi-provider", "model-routing", "open-weights", "coding-benchmarks", "config-toml"]
 ---
 
@@ -108,9 +108,9 @@ K3's pricing looks competitive until you examine the detail [^1] [^3]:
 
 | Tier | Price per MTok |
 |---|---|
-| Cache-hit input | $0.30 |
-| Cache-miss input | $3.00 |
-| Output | $15.00 |
+| Cache-hit input | \$0.30 |
+| Cache-miss input | \$3.00 |
+| Output | \$15.00 |
 
 Moonshot reports cache-hit rates above 90% on coding workloads [^1], which drops effective input cost dramatically. But Artificial Analysis found that K3 consumed 130 million tokens across their evaluation suite — roughly double the median of 63 million — and generates output at 62 tokens per second, below the median 72 [^3]. High output pricing combined with high verbosity can produce surprisingly large bills.
 
@@ -171,7 +171,7 @@ Moonshot recommends at least 64 accelerators for production deployment [^4], mak
 
 2. **Use profiles for A/B testing.** Run the same prompt through your current model and K3, then compare outputs. Your test suite is a better evaluator than any leaderboard.
 
-3. **Watch the output token bill.** K3's verbosity and high output pricing ($15/MTok) can surprise you. Monitor token usage via `codex --json` output or your provider's dashboard.
+3. **Watch the output token bill.** K3's verbosity and high output pricing (\$15/MTok) can surprise you. Monitor token usage via `codex --json` output or your provider's dashboard.
 
 4. **Wait for independent harness results.** Moonshot's self-reported scores use KimiCode harness. Until independent groups reproduce results with standard harnesses, treat the numbers as indicative [^4] [^5].
 

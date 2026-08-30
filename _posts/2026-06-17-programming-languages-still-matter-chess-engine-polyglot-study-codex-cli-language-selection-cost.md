@@ -1,12 +1,12 @@
 ---
 title: "Do Programming Languages Still Matter? What the Chess Engine Polyglot Study Means for Codex CLI Language Selection and Cost Strategy"
 description: "A polyglot study built 34 chess engines in 17 languages using Codex CLI and Claude Code. The results refute 'language doesn't matter' and reveal concrete cost and performance implications for Codex CLI practitioners."
-parent: "Articles"
-nav_order: 790
 type: Technical Article
 timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-programming-languages-still-matter-chess-engine-polyglot-study-codex-cli-language-selection-cost"
 tags: ["language-selection", "polyglot", "chess-engine", "cost-optimisation", "codex-cli", "model-routing", "agents-md", "benchmarks", "research"]
+date: 2026-06-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Do Programming Languages Still Matter? What the Chess Engine Polyglot Study Means for Codex CLI Language Selection and Cost Strategy
 
@@ -63,18 +63,18 @@ Mainstream compiled languages cluster in the 1,900–2,200 Elo band. Esoteric, l
 
 ## Finding 2: The 5–15× Cost Multiplier
 
-The cost data is stark. The entire corpus of 34 engines cost approximately $680 in API spend across hundreds of sessions[^3], but the per-engine distribution reveals a dramatic skew:
+The cost data is stark. The entire corpus of 34 engines cost approximately \$680 in API spend across hundreds of sessions[^3], but the per-engine distribution reveals a dramatic skew:
 
 | Language Category | Typical Prompts | Canonical Cost (USD) | Debug-Prompt Fraction |
 |---|---|---|---|
-| Mainstream (C, Rust, C++) | 3–33 | $20–$113 | Low (<0.3) |
-| Legacy/esoteric (COBOL, Brainfuck, LaTeX) | 25–55 | $60–$480 | High (>0.4) |
+| Mainstream (C, Rust, C++) | 3–33 | \$20–\$113 | Low (<0.3) |
+| Legacy/esoteric (COBOL, Brainfuck, LaTeX) | 25–55 | \$60–\$480 | High (>0.4) |
 
 Specific examples from the paper[^2]:
-- **Pure C / Codex:** 4 prompts, $22.25
-- **COBOL / Claude Code:** 46 prompts, $181.62
-- **Brainfuck / Claude Code:** 51 prompts, $57.60
-- **LaTeX / Codex (replication):** 15 prompts, $170.26
+- **Pure C / Codex:** 4 prompts, \$22.25
+- **COBOL / Claude Code:** 46 prompts, \$181.62
+- **Brainfuck / Claude Code:** 51 prompts, \$57.60
+- **LaTeX / Codex (replication):** 15 prompts, \$170.26
 
 Exotic languages multiply costs 5–15× over mainstream baselines[^2]. More than 40% of prompts in non-mainstream sessions were debugging prompts rather than feature prompts. The agents spent disproportionate effort on compilation errors, runtime quirks, and language-specific impedance mismatches.
 
@@ -192,7 +192,7 @@ codex --profile exotic
 # /usage weekly
 ```
 
-The study's canonical cost of $22 for a Pure C engine versus $182 for COBOL[^2] maps directly to the 8× multiplier you should budget when planning migration or cross-compilation work.
+The study's canonical cost of \$22 for a Pure C engine versus \$182 for COBOL[^2] maps directly to the 8× multiplier you should budget when planning migration or cross-compilation work.
 
 ### PostToolUse Verification Hooks
 

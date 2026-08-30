@@ -1,7 +1,7 @@
 ---
 title: "TestEvo-Bench and the Test Co-Evolution Problem: What 1,255 Real-World Tasks Reveal About Coding Agents and Test Maintenance — and How to Wire Codex CLI for It"
-parent: "Articles"
-nav_order: 1508
+date: 2026-08-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "test-co-evolution", "TestEvo-Bench", "test-generation", "test-update", "AGENTS.md", "PostToolUse-hooks", "mutation-testing", "coverage", "benchmark"]
 ---
 
@@ -73,9 +73,9 @@ On successfully passing tasks, agent-generated tests achieve mutation kill rates
 
 ### 3. Cost-Constrained Collapse
 
-Under a $1 per-task budget cap, success rates collapse unevenly [^1]:
+Under a \$1 per-task budget cap, success rates collapse unevenly [^1]:
 
-| Configuration | Gen Success (default) | Gen Success ($1 cap) | Update Success (default) | Update Success ($1 cap) |
+| Configuration | Gen Success (default) | Gen Success (\$1 cap) | Update Success (default) | Update Success (\$1 cap) |
 |---|---|---|---|---|
 | Claude Code / Opus 4.7 | 70.6% | 44.2% | 86.1% | 54.8% |
 | Gemini CLI / 3.1 Pro | 71.3% | 69.8% | 86.6% | 85.8% |
@@ -177,7 +177,7 @@ These directives encode the same cross-revision validation that TestEvo-Bench's 
 
 ### Budget-Aware Model Selection
 
-TestEvo-Bench's cost analysis shows per-task costs ranging from $0.33 (Gemini CLI) to $1.77 (SWE-Agent/Opus) for test generation [^1]. Codex CLI's `config.toml` profiles allow budget-sensitive model routing:
+TestEvo-Bench's cost analysis shows per-task costs ranging from \$0.33 (Gemini CLI) to \$1.77 (SWE-Agent/Opus) for test generation [^1]. Codex CLI's `config.toml` profiles allow budget-sensitive model routing:
 
 ```toml
 # config.toml — named profiles for test tasks
@@ -192,7 +192,7 @@ approval_policy = "unless-allow-listed"
 token_budget = 32000
 ```
 
-The TestEvo-Bench data suggests that cheaper models with integrated harnesses (Gemini CLI at $0.33/task) outperform expensive models with generic harnesses (SWE-Agent/Opus at $1.77/task) [^1]. For Codex CLI, this argues for investing in richer `AGENTS.md` directives and hooks rather than scaling to larger models for test maintenance tasks.
+The TestEvo-Bench data suggests that cheaper models with integrated harnesses (Gemini CLI at \$0.33/task) outperform expensive models with generic harnesses (SWE-Agent/Opus at \$1.77/task) [^1]. For Codex CLI, this argues for investing in richer `AGENTS.md` directives and hooks rather than scaling to larger models for test maintenance tasks.
 
 ### Temporal Degradation and Live Evaluation
 

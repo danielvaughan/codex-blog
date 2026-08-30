@@ -1,7 +1,7 @@
 ---
 title: "The Shared Agentic Credit Pool: How OpenAI's Quota Architecture Silently Drains Your Codex CLI Budget — and What the 5-Hour Limit Removal Actually Changes"
-parent: "Articles"
-nav_order: 1284
+date: 2026-07-26T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "quota", "credit-pool", "budget", "5-hour-limit", "cost-management", "config.toml", "profiles", "model-routing"]
 ---
 
@@ -52,9 +52,9 @@ Credit consumption varies dramatically by model family. The following table refl
 
 | Plan | GPT-5.6 Sol (5h) | GPT-5.6 Terra (5h) | GPT-5.6 Luna (5h) | Multiplier |
 |------|-------------------|---------------------|--------------------|------------|
-| Plus ($20) | 15–90 | 20–110 | 50–280 | 1× |
-| Pro $100 | 75–450 | 100–550 | 250–1,400 | 5× |
-| Pro $200 | 300–1,800 | 400–2,200 | 1,000–5,600 | 20× |
+| Plus (\$20) | 15–90 | 20–110 | 50–280 | 1× |
+| Pro \$100 | 75–450 | 100–550 | 250–1,400 | 5× |
+| Pro \$200 | 300–1,800 | 400–2,200 | 1,000–5,600 | 20× |
 | Business | Plus-equivalent | Plus-equivalent | Plus-equivalent | 1× |
 
 ⚠️ With the 5-hour window temporarily removed, these ranges now represent approximate consumption capacity within a rolling period rather than hard boundaries. The weekly cap remains the binding constraint.

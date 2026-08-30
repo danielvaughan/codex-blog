@@ -1,7 +1,7 @@
 ---
 title: "The 272K Reality: How GPT-5.6 Sol's Context Window Cap and July Latency Regression Expose Codex CLI's Infrastructure Limits"
-parent: "Articles"
-nav_order: 1283
+date: 2026-07-26T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "GPT-5.6", "context-window", "performance", "latency", "infrastructure", "config.toml", "compaction", "pricing", "Sol"]
 ---
 
@@ -186,7 +186,7 @@ model = "gpt-5.6-terra"
 model = "gpt-5.6-sol"
 ```
 
-Terra shares the same 272K context window but at $2.50/$15 per million tokens versus Sol's $5/$30 [^10], and during the July regression, Terra latencies were less severely affected — likely because the surge demand disproportionately targeted Sol.
+Terra shares the same 272K context window but at \$2.50/\$15 per million tokens versus Sol's \$5/\$30 [^10], and during the July regression, Terra latencies were less severely affected — likely because the surge demand disproportionately targeted Sol.
 
 ---
 

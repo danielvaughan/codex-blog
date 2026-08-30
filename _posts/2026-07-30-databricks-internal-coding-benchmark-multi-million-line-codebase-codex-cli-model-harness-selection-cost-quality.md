@@ -1,7 +1,7 @@
 ---
 title: "Databricks' Internal Coding Benchmark: What a Multi-Million-Line Codebase Reveals About Model and Harness Selection for Codex CLI"
-parent: "Articles"
-nav_order: 1333
+date: 2026-07-30T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "benchmarks", "model-selection", "harness", "cost-optimisation", "GLM-5.2", "enterprise"]
 ---
 
@@ -38,7 +38,7 @@ Models clustered into three distinct capability tiers[^1][^3]:
 | **Middle** | 71–82% | Sonnet 4.6, Sonnet 5, GPT-5.4 |
 | **Bottom** | 51–60% | GPT-5.4-mini, Haiku 4.5 |
 
-The headline result: GLM 5.2, an open-weight model from Zhipu AI, matched Opus 4.8 — statistically tied at approximately 87.5% pass rate — whilst costing $1.28 per task against Opus's $1.94[^3]. Databricks subsequently made GLM 5.2 their default daily-driver coding model[^4].
+The headline result: GLM 5.2, an open-weight model from Zhipu AI, matched Opus 4.8 — statistically tied at approximately 87.5% pass rate — whilst costing \$1.28 per task against Opus's \$1.94[^3]. Databricks subsequently made GLM 5.2 their default daily-driver coding model[^4].
 
 ## Token Price Is a Poor Proxy for Task Cost
 
@@ -152,7 +152,7 @@ The Databricks benchmark has known limitations worth noting:
 
 - **Task complexity skew**: 61% of tasks were medium complexity, 19% low, and only 12% high[^3]. Ultra-long-horizon tasks — the kind that SWE-Marathon evaluates — are underrepresented.
 - **Edit tool failures**: HN discussion noted that Pi harness experiences "significant Edit tool call failures" with newer models, requiring investigation[^6]. ⚠️ This may affect reproducibility with the latest model versions.
-- **Enterprise cost models**: subscription-based pricing (e.g., Claude Code Pro) can change the cost calculus versus API pricing[^6]. The $1.28/task figure assumes API rates.
+- **Enterprise cost models**: subscription-based pricing (e.g., Claude Code Pro) can change the cost calculus versus API pricing[^6]. The \$1.28/task figure assumes API rates.
 - **Single codebase**: results from Databricks' specific codebase may not generalise to all architectures or languages.
 
 ## Key Takeaways

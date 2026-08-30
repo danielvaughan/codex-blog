@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Agent-Ready API Design"
-parent: "Articles"
-nav_order: 744
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-codex-cli-graphql-development-apollo-mcp-server-schema-first-agent-workflows"
 tags: ["codex-cli", "graphql", "apollo", "mcp", "schema-first", "api-design", "federation", "agent-workflows"]
+date: 2026-06-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Agent-Ready API Design
 
@@ -290,7 +290,7 @@ For a practical comparison using Codex CLI's `tool_output_token_limit`:
 | REST `GET /users/123` | ~800 | All 25 fields |
 | GraphQL `{ user(id: "123") { name email role } }` | ~120 | 3 requested fields |
 
-Over a session with 50 API calls, that difference compounds: ~40,000 tokens saved, roughly $0.16 at current GPT-5.5 output rates [^6].
+Over a session with 50 API calls, that difference compounds: ~40,000 tokens saved, roughly \$0.16 at current GPT-5.5 output rates [^6].
 
 ## Practical Checklist
 

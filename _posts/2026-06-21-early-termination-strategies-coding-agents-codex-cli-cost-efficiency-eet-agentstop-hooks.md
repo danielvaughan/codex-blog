@@ -1,11 +1,11 @@
 ---
 title: "Early Termination Strategies for Coding Agents: What EET and AgentStop Mean for Codex CLI Cost Efficiency"
-parent: "Articles"
-nav_order: 823
 type: Technical Article
 timestamp: 2026-06-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-early-termination-strategies-coding-agents-codex-cli-cost-efficiency-eet-agentstop-hooks"
 tags: ["codex-cli", "cost-optimisation", "early-termination", "EET", "AgentStop", "hooks", "token-budget", "session-management"]
+date: 2026-06-21T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Early Termination Strategies for Coding Agents: What EET and AgentStop Mean for Codex CLI Cost Efficiency
 
@@ -216,7 +216,7 @@ AgentStop's use of token-level log probabilities provides a complementary signal
 
 The combined message from EET and AgentStop is clear: **not all agent computation is useful computation, and knowing when to stop is as important as knowing what to do**. Codex CLI's hook system, token budgets, and named profiles provide the mechanical layer. What practitioners need to supply is the judgement layer — experience stores, confidence thresholds, and task-appropriate termination policies encoded in Stop hooks and AGENTS.md directives.
 
-The 31.8% average cost reduction from EET [^2] translates directly to budget headroom. At current GPT-5.5 pricing, a team running 100 agent sessions per day at an average of $2.50 per session would save approximately $2,385 per month — enough to fund an additional 950 sessions at the same quality level.
+The 31.8% average cost reduction from EET [^2] translates directly to budget headroom. At current GPT-5.5 pricing, a team running 100 agent sessions per day at an average of \$2.50 per session would save approximately \$2,385 per month — enough to fund an additional 950 sessions at the same quality level.
 
 ---
 

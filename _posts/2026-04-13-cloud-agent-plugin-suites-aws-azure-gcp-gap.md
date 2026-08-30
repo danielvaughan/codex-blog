@@ -1,12 +1,12 @@
 ---
 title: "Cloud Agent Plugin Suites: AWS Led, Azure Followed, and the GCP Gap"
 description: "In February 2026, AWS Labs open-sourced awslabs/agent-plugins — the first major cloud provider plugin suite built for AI coding agents . Five weeks later."
-parent: "Articles"
-nav_order: 28
 type: Technical Article
 timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-cloud-agent-plugin-suites-aws-azure-gcp-gap"
 tags: ["azure", "gcp", "aws", "plugins", "cloud-infrastructure", "enterprise", "compound-plugin", "mcp", "codex-cli", "skills"]
+date: 2026-04-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Cloud Agent Plugin Suites: AWS Led, Azure Followed, and the GCP Gap](/sketchnotes/articles/2026-04-13-cloud-agent-plugin-suites-aws-azure-gcp-gap.png)
 

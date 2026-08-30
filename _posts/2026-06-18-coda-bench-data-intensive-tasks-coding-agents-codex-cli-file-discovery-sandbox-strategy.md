@@ -1,11 +1,11 @@
 ---
 title: "CoDA-Bench: What the Data-Intensive Task Benchmark Means for Codex CLI File Discovery and Sandbox Strategy"
-parent: "Articles"
-nav_order: 803
 type: Technical Article
 timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-coda-bench-data-intensive-tasks-coding-agents-codex-cli-file-discovery-sandbox-strategy"
 tags: ["codex-cli", "CoDA-Bench", "data-discovery", "file-discovery", "sandbox", "data-science", "ICML-2026", "benchmark", "GPT-5.5", "coding-agents"]
+date: 2026-06-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # CoDA-Bench: What the Data-Intensive Task Benchmark Means for Codex CLI File Discovery and Sandbox Strategy
 
@@ -28,8 +28,8 @@ Seven agent configurations were tested. The results are sobering:
 |---|---|---|---|---|---|
 | Mini-SWE-Agent | GPT-5.5 | 83.0% | 61.1% | — | — |
 | OpenHands | GPT-5.5 | 82.1% | 59.7% | — | — |
-| Codex CLI | GPT-5.5 | 74.9% | 60.3% | 380,558 | $1.39 |
-| Claude Code | Sonnet 4.6 | 77.9% | 53.8% | 81,714 | $0.11 |
+| Codex CLI | GPT-5.5 | 74.9% | 60.3% | 380,558 | \$1.39 |
+| Claude Code | Sonnet 4.6 | 77.9% | 53.8% | 81,714 | \$0.11 |
 | Claude Code | Opus 4.7 | 77.3% | 51.9% | — | — |
 
 On CoDA-Hard, Codex CLI scored 61.4% discovery accuracy and 47.9% execution accuracy [^1].
@@ -188,7 +188,7 @@ codex --profile data-analysis "Analyse the Q2 revenue data"
 codex --profile code-fix "Fix the failing unit tests in src/auth"
 ```
 
-The cost difference is material. CoDA-Bench shows Codex CLI spending $1.39 per data task versus Claude Code's $0.11 [^1]. Profile-aware routing — using `gpt-5.4-mini` for code fixes and reserving `gpt-5.5` with high reasoning effort for data tasks — can reduce aggregate spend substantially.
+The cost difference is material. CoDA-Bench shows Codex CLI spending \$1.39 per data task versus Claude Code's \$0.11 [^1]. Profile-aware routing — using `gpt-5.4-mini` for code fixes and reserving `gpt-5.5` with high reasoning effort for data tasks — can reduce aggregate spend substantially.
 
 ## The Signal-to-Noise Problem
 

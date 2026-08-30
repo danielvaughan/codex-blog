@@ -1,12 +1,12 @@
 ---
 title: "Mixed-Model Agent Teams: What AgentCARD Reveals About Role Bottlenecks — and How to Wire Heterogeneous Workflows in Codex CLI"
 description: "AgentCARD's Shapley diagnostics show heterogeneous agent teams beat homogeneous setups by up to 44% accuracy or 12× lower cost. Here is how to replicate that advantage with Codex CLI named profiles and custom subagent definitions."
-parent: "Articles"
-nav_order: 991
 type: Technical Article
 timestamp: 2026-07-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-07-mixed-model-agent-teams-agentcard-role-bottlenecks-codex-cli-named-profiles-heterogeneous-workflows"
 tags: ["codex-cli", "mixed-model", "multi-agent", "cost-optimisation", "named-profiles", "subagents", "agentcard"]
+date: 2026-07-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 
 # Mixed-Model Agent Teams: What AgentCARD Reveals About Role Bottlenecks — and How to Wire Heterogeneous Workflows in Codex CLI
@@ -49,9 +49,9 @@ graph LR
 
 AgentCARD's Shapley decomposition reveals that the executor role processes vastly more tokens than any other role — it reads source files, generates patches, runs tools, and ingests their output [^1]. In Codex CLI terms, the executor is the main session loop: the agent that calls `apply_patch`, reads file contents, and runs shell commands.
 
-This maps directly to OpenAI's token pricing structure, where output tokens cost 6–10× more than input tokens across every model tier[^2]. A heavyweight model in the executor seat multiplies costs across every tool call. Conversely, a cheaper model with strong instruction-following but lower reasoning overhead (such as `gpt-5.4-mini` at $0.75/$4.50 per million input/output tokens) can handle the bulk of file manipulation at a fraction of the cost [^2].
+This maps directly to OpenAI's token pricing structure, where output tokens cost 6–10× more than input tokens across every model tier[^2]. A heavyweight model in the executor seat multiplies costs across every tool call. Conversely, a cheaper model with strong instruction-following but lower reasoning overhead (such as `gpt-5.4-mini` at \$0.75/\$4.50 per million input/output tokens) can handle the bulk of file manipulation at a fraction of the cost [^2].
 
-The planner and verifier roles, by contrast, process far fewer tokens but require higher reasoning fidelity — precisely the sweet spot for models like `o3` ($2.00/$8.00) or `gpt-5.5` with elevated reasoning effort [^2] [^3].
+The planner and verifier roles, by contrast, process far fewer tokens but require higher reasoning fidelity — precisely the sweet spot for models like `o3` (\$2.00/\$8.00) or `gpt-5.5` with elevated reasoning effort [^2] [^3].
 
 ## Codex CLI's Heterogeneous Team Primitives
 
@@ -238,9 +238,9 @@ codex --profile review \
   "/review"
 ```
 
-The planning phase might consume 15,000 tokens on `o3` at $0.03 input + $0.12 output ≈ **$0.15**. The execution phase processes 200,000 tokens on `gpt-5.4-mini` at $0.15 input + $0.90 output ≈ **$1.05**. The review phase uses 30,000 tokens on `gpt-5.5` at $0.15 input + $0.90 output ≈ **$1.05**. Total: roughly **$2.25**.
+The planning phase might consume 15,000 tokens on `o3` at \$0.03 input + \$0.12 output ≈ **\$0.15**. The execution phase processes 200,000 tokens on `gpt-5.4-mini` at \$0.15 input + \$0.90 output ≈ **\$1.05**. The review phase uses 30,000 tokens on `gpt-5.5` at \$0.15 input + \$0.90 output ≈ **\$1.05**. Total: roughly **\$2.25**.
 
-Running the entire workflow homogeneously on `gpt-5.5` would cost approximately $5.00 input + $6.00 output ≈ **$11.00** — a 4.9× premium for, according to AgentCARD's findings, no accuracy gain and potentially *lower* accuracy if `gpt-5.5` underperforms `o3` on planning tasks [^1] [^2].
+Running the entire workflow homogeneously on `gpt-5.5` would cost approximately \$5.00 input + \$6.00 output ≈ **\$11.00** — a 4.9× premium for, according to AgentCARD's findings, no accuracy gain and potentially *lower* accuracy if `gpt-5.5` underperforms `o3` on planning tasks [^1] [^2].
 
 ## Managed Enforcement for Teams
 

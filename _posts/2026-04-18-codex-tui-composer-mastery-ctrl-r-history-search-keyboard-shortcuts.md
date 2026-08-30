@@ -1,12 +1,12 @@
 ---
 title: "Mastering the Codex TUI Composer: Ctrl+R History Search, Kill Ring, and Power-User Shortcuts"
 description: "The Codex CLI's TUI composer — the input area where you type prompts — is far more capable than it appears. With v0.121.0 shipping Ctrl+R reverse history."
-parent: "Articles"
-nav_order: 76
 type: Technical Article
 timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-tui-composer-mastery-ctrl-r-history-search-keyboard-shortcuts"
 tags: ["tui", "composer", "ctrl-r", "history-search", "keyboard-shortcuts", "prompt-iteration", "v0.121.0", "productivity"]
+date: 2026-04-18T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Mastering the Codex TUI Composer: Ctrl+R History Search, Kill Ring, and Power-User Shortcuts](/sketchnotes/articles/2026-04-18-codex-tui-composer-mastery-ctrl-r-history-search-keyboard-shortcuts.png)
 

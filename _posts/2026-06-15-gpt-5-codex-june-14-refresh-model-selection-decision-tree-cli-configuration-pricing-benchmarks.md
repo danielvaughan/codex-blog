@@ -1,11 +1,11 @@
 ---
 title: "GPT-5-Codex Refreshed: The June 14 Model Update and the Mid-2026 Model Selection Decision Tree for Codex CLI"
-parent: "Articles"
-nav_order: 765
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-gpt-5-codex-june-14-refresh-model-selection-decision-tree-cli-configuration-pricing-benchmarks"
 tags: ["models", "model-selection", "gpt-5-codex", "codex-cli", "configuration", "pricing", "benchmarks"]
+date: 2026-06-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # GPT-5-Codex Refreshed: The June 14 Model Update and the Mid-2026 Model Selection Decision Tree for Codex CLI
 
@@ -40,9 +40,9 @@ The core specifications, drawn from the API model card [^4]:
 | Model ID | `gpt-5-codex` |
 | Context window | 400,000 tokens |
 | Maximum output tokens | 128,000 tokens |
-| Input pricing | $1.25 / 1M tokens |
-| Cached input pricing | $0.125 / 1M tokens |
-| Output pricing | $10.00 / 1M tokens |
+| Input pricing | \$1.25 / 1M tokens |
+| Cached input pricing | \$0.125 / 1M tokens |
+| Output pricing | \$10.00 / 1M tokens |
 | Input modalities | Text, images |
 | Output modalities | Text |
 | Reasoning tokens | Supported |
@@ -83,9 +83,9 @@ graph TD
 | Model | Input / 1M | Output / 1M | Cached input / 1M | Best for |
 |-------|-----------|------------|-------------------|----------|
 | `gpt-5.4-mini` | ⚠️ Varies | ⚠️ Varies | ⚠️ Varies | Fast, cheap subagent work |
-| `gpt-5-codex` | $1.25 | $10.00 | $0.125 | Coding tasks, code review, Goal Mode |
-| `gpt-5.4` | $2.50 | $15.00 | ⚠️ Not confirmed | General-purpose with strong coding |
-| `gpt-5.5` | $5.00 | $30.00 | $2.50 | Complex reasoning, research, frontier |
+| `gpt-5-codex` | \$1.25 | \$10.00 | \$0.125 | Coding tasks, code review, Goal Mode |
+| `gpt-5.4` | \$2.50 | \$15.00 | ⚠️ Not confirmed | General-purpose with strong coding |
+| `gpt-5.5` | \$5.00 | \$30.00 | \$2.50 | Complex reasoning, research, frontier |
 
 GPT-5-Codex is 50% cheaper on input and 33% cheaper on output than GPT-5.4, and 75% cheaper on input and 67% cheaper on output than GPT-5.5 [^4] [^8]. For pure coding tasks, this pricing advantage compounds rapidly during Goal Mode sessions that may run for hours.
 
@@ -196,9 +196,9 @@ GPT-5-Codex is optimised for coding. It is not the best choice for:
 
 ## The Competitive Context
 
-The timing of this refresh is not accidental. On 15 June 2026, Anthropic's Claude Code billing splits programmatic usage into a separate, capped credit pool at full API rates [^2]. A Pro subscriber receives $20/month in agentic credits — roughly 1.3 million output tokens with Claude Opus 4.6 at $15/M output.
+The timing of this refresh is not accidental. On 15 June 2026, Anthropic's Claude Code billing splits programmatic usage into a separate, capped credit pool at full API rates [^2]. A Pro subscriber receives \$20/month in agentic credits — roughly 1.3 million output tokens with Claude Opus 4.6 at \$15/M output.
 
-By contrast, $20 buys 2 million output tokens with GPT-5-Codex at $10/M output — a 54% advantage in raw throughput. For teams evaluating their agentic coding budget, GPT-5-Codex's pricing makes sustained Goal Mode sessions materially cheaper than the Claude Code alternative on a per-token basis.
+By contrast, \$20 buys 2 million output tokens with GPT-5-Codex at \$10/M output — a 54% advantage in raw throughput. For teams evaluating their agentic coding budget, GPT-5-Codex's pricing makes sustained Goal Mode sessions materially cheaper than the Claude Code alternative on a per-token basis.
 
 ---
 

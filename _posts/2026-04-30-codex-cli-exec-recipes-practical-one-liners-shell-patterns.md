@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI exec Recipes: Practical One-Liners and Shell Patterns for Daily Development"
 description: "The interactive TUI gets most of the attention, but codex exec is where Codex CLI earns its keep in professional workflows. It runs Codex non-interactively."
-parent: "Articles"
-nav_order: 257
 type: Technical Article
 timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-exec-recipes-practical-one-liners-shell-patterns"
 tags: ["codex-exec", "shell-patterns", "automation", "one-liners", "unix-pipelines", "CI/CD", "developer-productivity", "v0.128"]
+date: 2026-04-30T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI exec Recipes: Practical One-Liners and Shell Patterns for Daily Development](/sketchnotes/articles/2026-04-30-codex-cli-exec-recipes-practical-one-liners-shell-patterns.png)
 

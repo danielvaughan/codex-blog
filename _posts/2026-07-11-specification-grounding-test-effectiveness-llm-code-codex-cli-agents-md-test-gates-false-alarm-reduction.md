@@ -1,7 +1,7 @@
 ---
 title: "Specification Grounding and the +38-Point Test Gap: Why Your Codex CLI Test Gates Need Enumerated Rules, Not More Tests"
-parent: "Articles"
-nav_order: 1032
+date: 2026-07-11T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "specification-grounding", "testing", "AGENTS.md", "hooks", "test-driven-development", "false-alarm-reduction", "code-quality"]
 ---
 
@@ -144,7 +144,7 @@ print('Specification coverage check complete.')
 
 ## The Cost Equation
 
-Specification grounding adds almost no compute over the ungrounded baseline. Both `spec` and `free+` arms make three model calls of similar size — roughly $6–7 per 1,000 tasks [^1]. Closing the same gap through model scaling alone costs approximately 2.2× the tokens [^1].
+Specification grounding adds almost no compute over the ungrounded baseline. Both `spec` and `free+` arms make three model calls of similar size — roughly \$6–7 per 1,000 tasks [^1]. Closing the same gap through model scaling alone costs approximately 2.2× the tokens [^1].
 
 The real cost sits in specification authoring. But this is a cost most teams should already be paying. The binding constraint is not writing rules but *knowing the correct edge semantics* [^1] — domain knowledge that should exist somewhere in your team regardless of whether an AI agent is involved.
 

@@ -1,11 +1,11 @@
 ---
 title: "SkillReducer: What the First Large-Scale Skill Bloat Study Means for Codex CLI Token Efficiency"
-parent: "Articles"
-nav_order: 789
 type: Technical Article
 timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-skillreducer-token-efficient-skill-authoring-codex-cli-progressive-disclosure-context-bloat"
 tags: ["codex-cli", "skills", "token-efficiency", "SkillReducer", "SKILL.md", "progressive-disclosure", "context-window", "cost-optimisation"]
+date: 2026-06-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # SkillReducer: What the First Large-Scale Skill Bloat Study Means for Codex CLI Token Efficiency
 
@@ -38,7 +38,7 @@ The headline finding: **only 38.5% of skill body content consists of actionable 
 
 ### The Cost of Bloat
 
-A typical 10,000-token skill costs $0.03–$0.15 per invocation depending on the model [^2]. At scale, this adds up rapidly. The study found that 100 skills from the SkillHub marketplace collectively contained 1.67 million tokens across 505 files [^2] — a significant context budget even for models with large windows.
+A typical 10,000-token skill costs \$0.03–\$0.15 per invocation depending on the model [^2]. At scale, this adds up rapidly. The study found that 100 skills from the SkillHub marketplace collectively contained 1.67 million tokens across 505 files [^2] — a significant context budget even for models with large windows.
 
 ### Compression Without Regression
 

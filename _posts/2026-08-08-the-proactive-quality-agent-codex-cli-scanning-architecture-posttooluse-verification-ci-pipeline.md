@@ -1,7 +1,7 @@
 ---
 title: "The Proactive Quality Agent: Building a Unified Scanning Architecture in Codex CLI"
-parent: "Articles"
-nav_order: 1439
+date: 2026-08-08T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "proactive-quality", "security-scanning", "PostToolUse-hooks", "AGENTS.md", "MCP", "CI-pipeline", "VulnGym", "Active-SWE", "Codex-Security-CLI"]
 ---
 
@@ -266,7 +266,7 @@ Track these metrics per repository:
 | Mean time to remediation | Finding timestamps vs fix commits | < 48 hours |
 | Test coverage delta per PR | Coverage reports | ≥ 0% (never decrease) |
 | PostToolUse hook trigger rate | Hook logs | Monitor for anomalies |
-| Scan cost per PR | Codex Security CLI budget reports | < $3.00 |
+| Scan cost per PR | Codex Security CLI budget reports | < \$3.00 |
 | False positive rate | Developer feedback on findings | < 20% |
 
 The false positive rate is the metric that determines whether developers trust or ignore the system. The Codex Security CLI documentation explicitly acknowledges non-deterministic results [^5]. Track false positives aggressively and tune severity thresholds accordingly.

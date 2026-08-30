@@ -1,7 +1,7 @@
 ---
 title: "Rollout Token Budgets: How Codex CLI's Session-Level Cost Control Finally Stops Runaway Agent Spend"
-parent: "Articles"
-nav_order: 1285
+date: 2026-07-26T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "token-budgets", "cost-control", "multi-agent", "enterprise", "configuration", "rollout-budget"]
 ---
 
@@ -219,7 +219,7 @@ The practical recommendation: start with a generous budget, monitor the reminder
 
 [^5]: OpenAI Codex CLI Configuration Reference — `model_auto_compact_token_limit` documentation. [https://learn.chatgpt.com/docs/config-file/config-reference](https://learn.chatgpt.com/docs/config-file/config-reference)
 
-[^6]: OpenAI token credit pricing and shared agentic credit pool — Plus, Pro $100, Pro $200 tier allocations. [https://learn.chatgpt.com/docs/changelog](https://learn.chatgpt.com/docs/changelog)
+[^6]: OpenAI token credit pricing and shared agentic credit pool — Plus, Pro \$100, Pro \$200 tier allocations. [https://learn.chatgpt.com/docs/changelog](https://learn.chatgpt.com/docs/changelog)
 
 [^7]: OpenAI Codex CLI Configuration Reference — `features.rollout_budget` section. [https://learn.chatgpt.com/docs/config-file/config-reference](https://learn.chatgpt.com/docs/config-file/config-reference)
 

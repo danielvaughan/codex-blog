@@ -1,7 +1,7 @@
 ---
 title: "Token Burn as Computing Paradigm Indicator: What Your Consumption Metrics Actually Reveal"
-parent: "Articles"
-nav_order: 1247
+date: 2026-07-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "token-usage", "developer-productivity", "inference-economics", "metrics", "paradigm-shift"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["codex-cli", "token-usage", "developer-productivity", "inference-economic
 
 ---
 
-One developer burned 860 million tokens in a single day through Codex [^1]. Another team's monthly OpenAI bill hit $1.3 million — 603 billion tokens across 7.6 million requests [^2]. These numbers sound alarming until you reframe the question: is token consumption a cost to minimise, or a leading indicator of a fundamental shift in how developers work?
+One developer burned 860 million tokens in a single day through Codex [^1]. Another team's monthly OpenAI bill hit \$1.3 million — 603 billion tokens across 7.6 million requests [^2]. These numbers sound alarming until you reframe the question: is token consumption a cost to minimise, or a leading indicator of a fundamental shift in how developers work?
 
 The answer, as with most interesting questions, is both. But the emerging ecosystem of token-tracking tools, competitive leaderboards, and usage analytics suggests that "token burn rate" is becoming the developer equivalent of what CPU cycles were in the 1990s — the primitive unit of computational work that defines a generation.
 
@@ -74,10 +74,10 @@ Each transition followed the same pattern: the new unit of work was initially ex
 
 Several data points support the inflection thesis:
 
-1. **Cost per token has fallen 10× in 18 months** — GPT-4 Turbo launched at $10/$30 per million tokens; GPT-5.5 operates at $2.50/$15 [^7]
+1. **Cost per token has fallen 10× in 18 months** — GPT-4 Turbo launched at \$10/\$30 per million tokens; GPT-5.5 operates at \$2.50/\$15 [^7]
 2. **Prompt caching delivers 90% discounts** on repeated context, fundamentally changing the economics of agentic workflows [^3]
 3. **Agentic workflows consume 10-100× more tokens than chat** because full context resends on every tool call [^8] — yet adoption is accelerating, not retreating
-4. **Enterprise spend is normalising** at $150–$250/developer/month as a standard line item [^9]
+4. **Enterprise spend is normalising** at \$150–\$250/developer/month as a standard line item [^9]
 
 ## Healthy vs Unhealthy Burn Profiles
 
@@ -130,7 +130,7 @@ graph LR
     G -->|"60-90% reduction possible"| D
 ```
 
-Microsoft's Experiences + Devices division reportedly ordered engineers off Claude Code by June 2026 after token billing hit approximately $2,000 per engineer per month, exhausting the annual AI budget early [^10]. This isn't evidence that agent-first development is unsustainable — it's evidence that unmanaged delegation without cost-aware routing is unsustainable.
+Microsoft's Experiences + Devices division reportedly ordered engineers off Claude Code by June 2026 after token billing hit approximately \$2,000 per engineer per month, exhausting the annual AI budget early [^10]. This isn't evidence that agent-first development is unsustainable — it's evidence that unmanaged delegation without cost-aware routing is unsustainable.
 
 The optimisation playbook is well-documented: prompt caching alone can cut spend by 59%, model routing achieves 97.7% of frontier accuracy at 61% of cost, and output compression reduces tokens by 65% on average [^3] [^8].
 

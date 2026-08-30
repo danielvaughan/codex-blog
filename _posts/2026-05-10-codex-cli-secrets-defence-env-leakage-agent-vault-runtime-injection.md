@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI Secrets Defence: Preventing .env Leakage with shell_environment_policy, agent-env, and Infisical Agent Vault"
 description: "AI coding agents read your project files to provide context-aware assistance. That same context-gathering behaviour means they can silently ingest .env."
-parent: "Articles"
-nav_order: 1120
 type: Technical Article
 timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-secrets-defence-env-leakage-agent-vault-runtime-injection"
 tags: ["codex-cli", "security", "secrets-management", "environment-variables", "agent-vault", "shell-environment-policy"]
+date: 2026-05-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Secrets Defence: Preventing .env Leakage with shell_environment_policy, agent-env, and Infisical Agent Vault](/sketchnotes/articles/2026-05-10-codex-cli-secrets-defence-env-leakage-agent-vault-runtime-injection.png)
 

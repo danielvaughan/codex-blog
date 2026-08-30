@@ -1,11 +1,11 @@
 ---
 title: "The 42-State Attorneys General Investigation into OpenAI: What Codex CLI Teams Should Audit Now"
-parent: "Articles"
-nav_order: 738
 type: Technical Article
 timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-openai-state-attorneys-general-investigation-codex-cli-data-governance-compliance-readiness"
 tags: ["codex-cli", "openai", "compliance", "data-governance", "enterprise", "privacy", "legal", "attorneys-general"]
+date: 2026-06-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The 42-State Attorneys General Investigation into OpenAI: What Codex CLI Teams Should Audit Now
 
@@ -25,7 +25,7 @@ The subpoena is sweeping. It demands documentation across six domains [^1][^2]:
 5. **Deep-learning models** — training data provenance, model behaviour, and safety controls
 6. **Internal policies** — the gap between documented policy and operational practice
 
-The investigation compounds existing legal pressure: Florida's civil complaint alleging ChatGPT endangered children [^4], Canada's PIPEDA investigation into OpenAI's personal-information handling [^5], and the looming IPO — potentially valued at $1 trillion and targeted for September 2026 [^2] — which makes regulatory uncertainty a material risk.
+The investigation compounds existing legal pressure: Florida's civil complaint alleging ChatGPT endangered children [^4], Canada's PIPEDA investigation into OpenAI's personal-information handling [^5], and the looming IPO — potentially valued at \$1 trillion and targeted for September 2026 [^2] — which makes regulatory uncertainty a material risk.
 
 ## Why This Matters for CLI Developers
 

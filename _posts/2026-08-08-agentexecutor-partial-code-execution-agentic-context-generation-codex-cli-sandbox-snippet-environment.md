@@ -1,7 +1,7 @@
 ---
 title: "AgentExecutor and the Missing Context Problem: What Multi-Agent Partial Code Execution Means for Your Codex CLI Sandbox Strategy"
-parent: "Articles"
-nav_order: 1441
+date: 2026-08-08T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "sandbox", "code-execution", "AgentExecutor", "ASE-2026", "partial-code", "environment-management", "multi-agent", "context-generation"]
 ---
 
@@ -143,7 +143,7 @@ For Codex CLI users working with unfamiliar codebases, the lesson is clear: exec
 
 1. **Separate environment preparation from code generation** — Use a dedicated prompt or AGENTS.md section for dependency resolution before attempting execution
 2. **Track failed resolution attempts** — AgentExecutor's pruning works because it remembers what did not work; configure your AGENTS.md to enforce the same discipline
-3. **Route environment tasks to Luna** — Package installation and virtual environment setup do not need frontier reasoning; the August 2026 Luna price cut to $0.20/M input makes this nearly free [^4]
+3. **Route environment tasks to Luna** — Package installation and virtual environment setup do not need frontier reasoning; the August 2026 Luna price cut to \$0.20/M input makes this nearly free [^4]
 4. **Use `codex exec` with `--sandbox workspace-write`** — The deprecated `--full-auto` flag is gone as of v0.147.0; `workspace-write` provides the isolation AgentExecutor assumes without the security exposure [^6]
 5. **Set aggressive compaction for execution loops** — If the agent is iterating on a failing snippet, old failed attempts actively harm context quality; compact early
 
@@ -155,7 +155,7 @@ For Codex CLI users working with unfamiliar codebases, the lesson is clear: exec
 
 [^3]: OpenAI. (2026). Codex CLI Sandbox Architecture — Seatbelt (macOS) and Landlock + seccomp (Linux) isolation. [https://github.com/openai/codex](https://github.com/openai/codex)
 
-[^4]: OpenAI. (2026). GPT-5.6 Luna pricing: $0.20/M input, $1.20/M output (post 30 July 2026 price reduction). [https://x.com/OpenAI/status/2082878180478910571](https://x.com/OpenAI/status/2082878180478910571)
+[^4]: OpenAI. (2026). GPT-5.6 Luna pricing: \$0.20/M input, \$1.20/M output (post 30 July 2026 price reduction). [https://x.com/OpenAI/status/2082878180478910571](https://x.com/OpenAI/status/2082878180478910571)
 
 [^5]: Zhang, S. et al. (2026). "SWE-Explore: Benchmarking How Coding Agents Explore Repositories." 848 instances, 10 languages, 203 repositories. arXiv:2606.07297. [https://arxiv.org/abs/2606.07297](https://arxiv.org/abs/2606.07297)
 

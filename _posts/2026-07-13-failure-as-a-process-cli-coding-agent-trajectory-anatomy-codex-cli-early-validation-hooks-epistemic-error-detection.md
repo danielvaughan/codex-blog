@@ -1,7 +1,7 @@
 ---
 title: "Failure as a Process: What 63,000 Annotated Execution Steps Reveal About CLI Coding Agent Trajectories — and How to Wire Early Validation into Codex CLI"
-parent: "Articles"
-nav_order: 1172
+date: 2026-07-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "failure-analysis", "execution-trajectories", "epistemic-errors", "hooks", "early-validation", "terminal-bench", "agent-reliability"]
 ---
 
@@ -221,7 +221,7 @@ flowchart TD
 
 ## Implications for Token Economics
 
-The paper's finding that 82 per cent of failed runs continue executing unproductively has direct cost implications [^1]. On GPT-5.6 Terra pricing at $2.50/$15 per million input/output tokens [^4], a failed trajectory that runs its full 27-step median wastes roughly 20 steps of computation. With Codex CLI's `rollout_budget` configuration, you already have a mechanism to cap total token spend per session [^5]. But the research suggests a smarter approach: rather than a flat budget cap, implement a *gradient budget* where the per-step allowance decreases after the recovery monitor detects repeated failures.
+The paper's finding that 82 per cent of failed runs continue executing unproductively has direct cost implications [^1]. On GPT-5.6 Terra pricing at \$2.50/\$15 per million input/output tokens [^4], a failed trajectory that runs its full 27-step median wastes roughly 20 steps of computation. With Codex CLI's `rollout_budget` configuration, you already have a mechanism to cap total token spend per session [^5]. But the research suggests a smarter approach: rather than a flat budget cap, implement a *gradient budget* where the per-step allowance decreases after the recovery monitor detects repeated failures.
 
 Codex CLI's named profiles in `config.toml` make this practical — a `[profile.cautious]` configuration with aggressive hooks and tight recovery budgets for high-risk tasks, versus a `[profile.exploration]` with looser constraints for open-ended work [^5].
 

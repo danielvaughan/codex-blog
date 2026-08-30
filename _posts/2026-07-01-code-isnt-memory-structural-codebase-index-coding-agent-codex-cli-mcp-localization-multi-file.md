@@ -1,11 +1,11 @@
 ---
 title: "Code Isn't Memory: What Structural Codebase Indexing Means for Codex CLI Agent Workflows"
-parent: "Articles"
-nav_order: 932
 type: Technical Article
 timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-code-isnt-memory-structural-codebase-index-coding-agent-codex-cli-mcp-localization-multi-file"
 tags: ["codex-cli", "codebase-indexing", "structural-search", "MCP", "localization", "multi-file", "agent-architecture", "tree-sitter", "call-graph"]
+date: 2026-07-01T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Code Isn't Memory: What Structural Codebase Indexing Means for Codex CLI Agent Workflows
 
@@ -58,8 +58,8 @@ The headline result is a 40-point localization accuracy gap. With the structural
 | Recall@5 | 0.611 | 0.330 | +0.281 | <0.0001 |
 | Mean turns | 28.3 | 36.2 | −7.9 | <0.0001 |
 | Mean tokens (k) | 10.1 | 11.1 | −1.0 | 0.027 |
-| $/solved | $2.30 | $2.84 | −$0.54 | — |
-| $/cell | $1.15 | $1.19 | −$0.04 | 0.73 |
+| $/solved | \$2.30 | \$2.84 | −\$0.54 | — |
+| $/cell | \$1.15 | \$1.19 | −\$0.04 | 0.73 |
 
 The per-cell cost is statistically indistinguishable — the index does not make individual tasks more expensive [^1]. But because the agent resolves more tasks, the cost per successful solve drops by 19%. The agent also completes tasks in fewer turns (28.3 vs 36.2), meaning fewer round-trips through the model and fewer opportunities for the reasoning chain to derail.
 

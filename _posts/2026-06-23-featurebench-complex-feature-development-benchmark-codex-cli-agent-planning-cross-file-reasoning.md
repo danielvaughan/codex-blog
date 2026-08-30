@@ -1,11 +1,11 @@
 ---
 title: "FeatureBench and the Feature Gap: Why Your Codex CLI Agent Aces Bug Fixes but Struggles with Complex Features"
-parent: "Articles"
-nav_order: 847
 type: Technical Article
 timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-featurebench-complex-feature-development-benchmark-codex-cli-agent-planning-cross-file-reasoning"
 tags: ["codex-cli", "featurebench", "benchmarks", "feature-development", "agent-planning", "cross-file-reasoning", "ICLR-2026"]
+date: 2026-06-23T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # FeatureBench and the Feature Gap: Why Your Codex CLI Agent Aces Bug Fixes but Struggles with Complex Features
 
@@ -48,7 +48,7 @@ The full benchmark results reveal a consistent pattern — no agent configuratio
 | OpenHands + DeepSeek-V3.2 | 6.7% | 5.5% | 3.1M |
 | OpenHands + Qwen3-Coder | 6.7% | 3.5% | 2.0M |
 
-Two numbers stand out. First, the token consumption: Codex burns 6.6 million input tokens per task at a 12.5% success rate [^1]. That is roughly $13–20 per attempt at current GPT-5.1-Codex pricing ⚠️. Second, the from-scratch penalty: L2 tasks (implementing features without existing codebase structure) drop success rates to 5.9–8.8%, compared with 11.4–13.9% for L1 incremental tasks [^1].
+Two numbers stand out. First, the token consumption: Codex burns 6.6 million input tokens per task at a 12.5% success rate [^1]. That is roughly \$13–20 per attempt at current GPT-5.1-Codex pricing ⚠️. Second, the from-scratch penalty: L2 tasks (implementing features without existing codebase structure) drop success rates to 5.9–8.8%, compared with 11.4–13.9% for L1 incremental tasks [^1].
 
 ## Why Bug Fixes Are Easy and Features Are Hard
 

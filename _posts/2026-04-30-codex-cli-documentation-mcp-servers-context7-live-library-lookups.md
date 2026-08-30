@@ -1,12 +1,12 @@
 ---
 title: "Documentation MCP Servers for Codex CLI: Context7, Repomix, and Live Library Lookups"
 description: "Every coding agent hallucinates API calls eventually. The model's training data has a cutoff, libraries ship breaking changes quarterly, and the agent."
-parent: "Articles"
-nav_order: 255
 type: Technical Article
 timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-documentation-mcp-servers-context7-live-library-lookups"
 tags: ["codex-cli", "MCP", "context7", "repomix", "documentation", "library-lookups", "developer-productivity", "hallucination-prevention"]
+date: 2026-04-30T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Documentation MCP Servers for Codex CLI: Context7, Repomix, and Live Library Lookups](/sketchnotes/articles/2026-04-30-codex-cli-documentation-mcp-servers-context7-live-library-lookups.png)
 

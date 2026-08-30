@@ -1,12 +1,12 @@
 ---
 title: "Iterative Repair Loops with Codex CLI: The Review-Repair-Validate Pattern for Self-Correcting Agent Workflows"
 description: "Single-pass agent runs are fragile. Hand an agent a migration task or a documentation refresh."
-parent: "Articles"
-nav_order: 375
 type: Technical Article
 timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-iterative-repair-loops-review-repair-validate-self-correcting-workflows"
 tags: ["codex-cli", "codex-exec", "iterative-repair", "structured-output", "agent-patterns", "automation", "self-healing", "validation"]
+date: 2026-05-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Iterative Repair Loops with Codex CLI: The Review-Repair-Validate Pattern for Self-Correcting Agent Workflows](/sketchnotes/articles/2026-05-12-codex-cli-iterative-repair-loops-review-repair-validate-self-correcting-workflows.png)
 

@@ -1,16 +1,16 @@
 ---
 title: "Codex CLI for Automated Test Maintenance: Fixing Broken Tests, Updating Snapshots, and Eliminating Flaky Tests"
-parent: "Articles"
-nav_order: 600
 type: Technical Article
 timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-automated-test-maintenance-fixing-broken-tests-snapshot-updates-flaky-elimination"
 tags: ["codex-cli", "testing", "test-maintenance", "flaky-tests", "snapshots", "ci-cd", "jest", "vitest", "playwright", "codex-exec", "hooks", "agents-md"]
+date: 2026-05-31T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI for Automated Test Maintenance: Fixing Broken Tests, Updating Snapshots, and Eliminating Flaky Tests
 
 
-Test suites decay. A team that starts with 200 tests and 10 per cent maintenance overhead reaches 1,000 tests and 50 per cent maintenance overhead, a ceiling where keeping tests green costs more than the safety they provide[^1]. QA engineers report spending 20 to 30 per cent of their working week triaging failures that have nothing to do with production bugs[^2]. Flaky tests drive a disproportionate share of that waste[^3], and at scale a team deploying eight times per month with twelve tests breaking per deploy burns roughly $67,200 annually on maintenance alone[^2].
+Test suites decay. A team that starts with 200 tests and 10 per cent maintenance overhead reaches 1,000 tests and 50 per cent maintenance overhead, a ceiling where keeping tests green costs more than the safety they provide[^1]. QA engineers report spending 20 to 30 per cent of their working week triaging failures that have nothing to do with production bugs[^2]. Flaky tests drive a disproportionate share of that waste[^3], and at scale a team deploying eight times per month with twelve tests breaking per deploy burns roughly \$67,200 annually on maintenance alone[^2].
 
 Codex CLI turns test maintenance from a manual grind into an agent-driven workflow. This article covers three patterns: automated test repair in CI, intelligent snapshot management, and flaky test detection with quarantine, all using Codex CLI's current tooling.
 
@@ -302,7 +302,7 @@ git push origin HEAD
 
 Test maintenance tasks are typically low-reasoning-effort work, pattern matching against error messages and updating string literals. Route these to `gpt-5.6-luna` with `model_reasoning_effort = "low"` to minimise spend[^9]. Reserve `gpt-5.6-terra` or `gpt-5.6-sol` for complex flakiness root-cause analysis where the agent must reason about concurrency or timing.
 
-A typical maintenance run fixing five to ten broken assertions consumes 8,000 to 15,000 tokens, including test file context, costing approximately $0.02 to $0.05 at current rates[^11].
+A typical maintenance run fixing five to ten broken assertions consumes 8,000 to 15,000 tokens, including test file context, costing approximately \$0.02 to \$0.05 at current rates[^11].
 
 ## Limitations and safety
 

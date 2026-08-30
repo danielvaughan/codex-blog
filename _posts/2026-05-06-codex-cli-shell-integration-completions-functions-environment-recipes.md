@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI Shell Integration: Completions, Functions, Environment Policies and Productivity Recipes"
 description: "Codex CLI runs in your terminal, yet most guides skip the glue that makes it feel native: shell completions, wrapper functions, environment variable."
-parent: "Articles"
-nav_order: 316
 type: Technical Article
 timestamp: 2026-05-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-codex-cli-shell-integration-completions-functions-environment-recipes"
 tags: ["codex-cli", "shell", "zsh", "bash", "fish", "completions", "shell-functions", "environment", "productivity", "automation"]
+date: 2026-05-06T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Shell Integration: Completions, Functions, Environment Policies and Productivity Recipes](/sketchnotes/articles/2026-05-06-codex-cli-shell-integration-completions-functions-environment-recipes.png)
 

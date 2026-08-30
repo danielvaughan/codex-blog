@@ -1,7 +1,7 @@
 ---
 title: "The Multi-Agent V2 Governance Playbook: From Encrypted Delegation to Fleet Cost Control"
-parent: "Articles"
-nav_order: 1258
+date: 2026-07-24T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "multi-agent", "governance", "cost-control", "EU-AI-Act", "config.toml", "enterprise"]
 ---
 
@@ -84,7 +84,7 @@ multi_agent_version = 1
 
 By default, `hide_spawn_agent_metadata` is set to `true` in V2 [^3]. Despite its innocuous name, this setting removes `model`, `reasoning_effort`, `agent_type`, and `service_tier` from the model-visible `spawn_agent` schema. The result: the orchestrator cannot specify a cheaper model for sub-agents, so every sub-agent inherits the parent's model.
 
-A Sol orchestrator spawning six parallel sub-agents — all running Sol — produced a 380.9 million token session documented in Issue #31814 [^4]. At current pricing, that is roughly $2,500 for a single task.
+A Sol orchestrator spawning six parallel sub-agents — all running Sol — produced a 380.9 million token session documented in Issue #31814 [^4]. At current pricing, that is roughly \$2,500 for a single task.
 
 ### The Fix: Three-Tier Model Layout
 
@@ -141,9 +141,9 @@ The three-tier layout dramatically reduces costs for typical orchestration sessi
 
 | Scenario | Token Cost (approx.) | Duration |
 |----------|---------------------|----------|
-| 6× Sol sub-agents (default) | $12–25 per task | Fast |
-| 3-tier Sol/Terra/Luna | $2–5 per task | Comparable |
-| Single Sol, no sub-agents | $0.65–2.35 per task | Slower |
+| 6× Sol sub-agents (default) | \$12–25 per task | Fast |
+| 3-tier Sol/Terra/Luna | \$2–5 per task | Comparable |
+| Single Sol, no sub-agents | \$0.65–2.35 per task | Slower |
 
 ### Fleet Cost Dashboard
 

@@ -1,12 +1,12 @@
 ---
 title: "The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic"
 description: "Your coding agent just wrote a purchasing module, ran all the tests, and reported success. The code compiles, the API calls return 200s, and the database."
-parent: "Articles"
-nav_order: 98
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-asymmetric-feedback-problem-coding-agents-business-logic"
 tags: ["codex-cli", "enterprise", "business-logic", "verification", "hooks", "agent-failure-modes", "subagents"]
+date: 2026-04-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic](/sketchnotes/articles/2026-04-19-asymmetric-feedback-problem-coding-agents-business-logic.png)
 

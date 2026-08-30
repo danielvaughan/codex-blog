@@ -1,7 +1,7 @@
 ---
 title: "Agentic Delegation and the Language Frontier: What 57 Million Changed Files Reveal About How Codex CLI Expands Your Production Range"
-parent: "Articles"
-nav_order: 1317
+date: 2026-07-29T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "agentic-delegation", "polyglot", "language-frontier", "activation-band", "AGENTS.md", "named-profiles", "model-selection"]
 ---
 

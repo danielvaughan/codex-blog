@@ -1,12 +1,12 @@
 ---
 title: "Codex Access Tokens: Enterprise CI/CD Authentication with Workspace Identity"
 description: "On 5 May 2026 OpenAI shipped Codex access tokens — a new credential type that lets ChatGPT Business and Enterprise workspace members generate long-lived."
-parent: "Articles"
-nav_order: 1126
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-access-tokens-enterprise-ci-cd-workspace-authentication-non-interactive"
 tags: ["codex-cli", "enterprise", "authentication", "ci-cd", "access-tokens", "automation", "security"]
+date: 2026-05-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex Access Tokens: Enterprise CI/CD Authentication with Workspace Identity](/sketchnotes/articles/2026-05-14-codex-access-tokens-enterprise-ci-cd-workspace-authentication-non-interactive.png)
 

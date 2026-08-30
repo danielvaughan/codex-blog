@@ -1,12 +1,12 @@
 ---
 title: "Interaction Smells in Codex CLI Sessions: Recognising and Fixing Multi-Turn Prompt Anti-Patterns"
 description: "Every senior developer knows about code smells — structural patterns that hint at deeper problems. A March 2026 empirical study from Zhang et al. introduces."
-parent: "Articles"
-nav_order: 239
 type: Technical Article
 timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-interaction-smells-codex-cli-multi-turn-prompt-anti-patterns"
 tags: ["codex-cli", "prompting", "best-practices", "research", "multi-turn", "session-quality", "interaction-smells"]
+date: 2026-04-29T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Interaction Smells in Codex CLI Sessions: Recognising and Fixing Multi-Turn Prompt Anti-Patterns](/sketchnotes/articles/2026-04-29-interaction-smells-codex-cli-multi-turn-prompt-anti-patterns.png)
 

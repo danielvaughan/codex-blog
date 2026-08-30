@@ -1,11 +1,11 @@
 ---
 title: "Coding Benchmarks Are Misaligned with Agentic Software Engineering: What the Harness Component Gap Means for Codex CLI Developers"
-parent: "Articles"
-nav_order: 962
 type: Technical Article
 timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-coding-benchmarks-misaligned-agentic-software-engineering-codex-cli-harness-components-benchmark-production-gap"
 tags: ["benchmarks", "harness-engineering", "SWE-bench", "Terminal-Bench", "AGENTS.md", "codex-cli", "evaluation"]
+date: 2026-07-04T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Coding Benchmarks Are Misaligned with Agentic Software Engineering: What the Harness Component Gap Means for Codex CLI Developers
 

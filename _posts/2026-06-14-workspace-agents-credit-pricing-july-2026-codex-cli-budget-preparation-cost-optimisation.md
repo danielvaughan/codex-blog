@@ -1,11 +1,11 @@
 ---
 title: "Workspace Agents Credit Pricing Starts July 6: A Codex CLI Practitioner's Budget Preparation Guide"
-parent: "Articles"
-nav_order: 750
 type: Technical Article
 timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-workspace-agents-credit-pricing-july-2026-codex-cli-budget-preparation-cost-optimisation"
 tags: ["codex-cli", "workspace-agents", "pricing", "credits", "cost-optimisation", "enterprise", "budget"]
+date: 2026-06-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Workspace Agents Credit Pricing Starts July 6: A Codex CLI Practitioner's Budget Preparation Guide
 
@@ -48,7 +48,7 @@ The critical ratio to internalise: **output tokens cost 6× more than input toke
 
 ### What a Typical Run Costs
 
-A GPT-5.5 Workspace Agent run consuming 20,000 fresh input tokens, 80,000 cached input tokens, and 5,000 output tokens costs approximately **7.25 credits** [^2]. Across a team, typical monthly spend falls between **$100 and $200 per developer** depending on model selection and usage intensity [^5].
+A GPT-5.5 Workspace Agent run consuming 20,000 fresh input tokens, 80,000 cached input tokens, and 5,000 output tokens costs approximately **7.25 credits** [^2]. Across a team, typical monthly spend falls between **\$100 and \$200 per developer** depending on model selection and usage intensity [^5].
 
 ## CLI Configuration Levers That Cut Spend
 
@@ -214,7 +214,7 @@ The workspace agent pricing transition is not a crisis — it is a signal to tre
 
 [^3]: [Codex CLI Authentication Paths: ChatGPT Login vs API Key](https://codex.danielvaughan.com/2026/06/13/codex-cli-authentication-paths-chatgpt-login-api-key-billing-rate-limits-model-access/) — Codex Knowledge Base, 13 June 2026
 
-[^4]: [Codex Pricing (2026): Free vs $20 Plus vs $100 Pro, with Credit Burn Rates and Real Session Costs](https://www.morphllm.com/codex-pricing) — Morph, June 2026
+[^4]: [Codex Pricing (2026): Free vs \$20 Plus vs \$100 Pro, with Credit Burn Rates and Real Session Costs](https://www.morphllm.com/codex-pricing) — Morph, June 2026
 
 [^5]: [OpenAI Codex Pricing Explained: Credits, Seats, Fast Mode, and What Teams Actually Pay in 2026](https://nerova.ai/costs-roi/openai-codex-pricing-explained-2026) — Nerova, 2026
 

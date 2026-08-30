@@ -1,12 +1,12 @@
 ---
 title: "The openai-codex Python SDK: Embedding a Programmable Agent Runtime in Your Python Applications"
 description: "Most developers interact with Codex CLI through the TUI or codex exec. But a parallel effort has been landing in the openai/codex repository over the past."
-parent: "Articles"
-nav_order: 376
 type: Technical Article
 timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-openai-codex-python-sdk-embedding-programmable-agent-runtime"
 tags: ["codex-cli", "python-sdk", "app-server", "json-rpc", "automation", "embedding", "async", "structured-output", "agent-runtime"]
+date: 2026-05-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: The openai-codex Python SDK: Embedding a Programmable Agent Runtime in Your Python Applications](/sketchnotes/articles/2026-05-12-openai-codex-python-sdk-embedding-programmable-agent-runtime.png)
 

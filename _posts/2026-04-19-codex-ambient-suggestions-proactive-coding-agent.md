@@ -1,12 +1,12 @@
 ---
 title: "Ambient Suggestions: When Your Coding Agent Starts Thinking Ahead"
 description: "Coding agents have traditionally been reactive: you type a prompt, the agent responds."
-parent: "Articles"
-nav_order: 1089
 type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-codex-ambient-suggestions-proactive-coding-agent"
 tags: ["codex-cli", "ambient-suggestions", "proactive-agent", "hooks", "automations", "context-aware", "developer-experience"]
+date: 2026-04-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Ambient Suggestions: When Your Coding Agent Starts Thinking Ahead](/sketchnotes/articles/2026-04-19-codex-ambient-suggestions-proactive-coding-agent.png)
 

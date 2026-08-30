@@ -1,11 +1,11 @@
 ---
 title: "Junie Goes GA: What JetBrains' IDE-Integrated Agent Reveals About the Terminal-Native vs IDE-Native Divide — and Where Codex CLI Stands"
-parent: "Articles"
-nav_order: 867
 type: Technical Article
 timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-junie-ga-ide-integrated-vs-terminal-native-coding-agents-codex-cli-comparison"
 tags: ["codex-cli", "junie", "jetbrains", "coding-agents", "benchmarks", "comparison", "ide-integration", "terminal-native", "acp", "mcp", "agentic-debugging"]
+date: 2026-06-25T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Junie Goes GA: What JetBrains' IDE-Integrated Agent Reveals About the Terminal-Native vs IDE-Native Divide — and Where Codex CLI Stands
 
@@ -141,7 +141,7 @@ codex --model gpt-5.5
 | Dimension | Junie | Codex CLI |
 |-----------|-------|----------|
 | Free tier | None | Yes (limited)[^9] |
-| Entry price | $100/user/year (AI Pro)[^9] | $8/month (Go plan)[^10] |
+| Entry price | \$100/user/year (AI Pro)[^9] | \$8/month (Go plan)[^10] |
 | Enterprise | Seat-based licensing | Token-based with organisational controls[^10] |
 | BYOK savings | Full control over model costs | N/A — OpenAI models only |
 | Billing model | Fixed per-user annual | Per-token with cached input discounts[^10] |

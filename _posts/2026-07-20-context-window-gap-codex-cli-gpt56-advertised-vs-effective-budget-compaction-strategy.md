@@ -1,7 +1,7 @@
 ---
 title: "The Context Window Gap: Why Codex CLI Caps GPT-5.6's Million-Token Window at 272K — and Why That's Sensible Engineering"
-parent: "Articles"
-nav_order: 1236
+date: 2026-07-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "context-window", "GPT-5.6", "token-management", "compaction", "configuration"]
 ---
 
@@ -39,7 +39,7 @@ Filling a million-token window with code does not give you a million tokens of u
 
 ### 2. Quadratic Cost Scaling
 
-Attention mechanisms scale quadratically with sequence length [^7]. Doubling the context quadruples memory costs. At GPT-5.6 Sol pricing ($5/$30 per million input/output tokens [^1]), a single million-token prompt costs $5 in input alone — before the model writes a line of code. In an iterative coding session with 20 turns, the cumulative cost becomes prohibitive without aggressive context management.
+Attention mechanisms scale quadratically with sequence length [^7]. Doubling the context quadruples memory costs. At GPT-5.6 Sol pricing (\$5/\$30 per million input/output tokens [^1]), a single million-token prompt costs \$5 in input alone — before the model writes a line of code. In an iterative coding session with 20 turns, the cumulative cost becomes prohibitive without aggressive context management.
 
 ### 3. Compaction Reliability
 

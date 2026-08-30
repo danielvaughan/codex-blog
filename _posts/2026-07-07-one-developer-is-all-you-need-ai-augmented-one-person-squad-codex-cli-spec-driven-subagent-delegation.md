@@ -1,7 +1,7 @@
 ---
 title: "One Developer Is All You Need: What a Brownfield Case Study Reveals About AI-Augmented Solo Delivery — and How to Wire the One-Person Squad in Codex CLI"
-parent: "Articles"
-nav_order: 993
+date: 2026-07-07T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "one-person-squad", "spec-driven-development", "subagent-delegation", "custom-agents", "brownfield", "productivity", "AGENTS.md"]
 ---
 
@@ -31,7 +31,7 @@ One staff engineer with eight years of experience (four within the institution),
 | Integration tests passing | 113 (100%) |
 | End-to-end tests passing | 65 (100%) |
 | Post-release defects | 0 |
-| Cost reduction (incl. tooling) | >85% (R$492k → ~R$67k) |
+| Cost reduction (incl. tooling) | >85% (R\$492k → ~R\$67k) |
 
 The single post-validation defect was an accessibility issue — not a logic or integration failure [^2].
 

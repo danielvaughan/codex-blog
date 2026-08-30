@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI Slash Commands Complete Reference: All 45 Commands in v0.131"
 description: "Codex CLI v0.131.0 ships with 45 slash commands — more than triple the count from early 2026. Most guides still reference the original dozen. This article."
-parent: "Articles"
-nav_order: 452
 type: Technical Article
 timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-slash-commands-complete-reference-v0131-45-commands"
 tags: ["codex-cli", "slash-commands", "tui", "reference", "v0.131", "keyboard-shortcuts", "workflow"]
+date: 2026-05-19T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Slash Commands Complete Reference: All 45 Commands in v0.131](/sketchnotes/articles/2026-05-19-codex-cli-slash-commands-complete-reference-v0131-45-commands.png)
 

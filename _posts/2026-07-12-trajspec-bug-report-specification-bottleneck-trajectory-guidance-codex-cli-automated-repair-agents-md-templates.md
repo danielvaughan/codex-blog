@@ -1,7 +1,7 @@
 ---
 title: "TrajSpec and the Specification Bottleneck: Why Your Bug Reports Are the Weakest Link in Agent-Driven Repair — and How Codex CLI Closes the Gap"
-parent: "Articles"
-nav_order: 1051
+date: 2026-07-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "bug-reports", "automated-repair", "TrajSpec", "specification-enrichment", "AGENTS.md", "SWE-bench", "trajectory-analysis", "codex-exec"]
 ---
 
@@ -69,9 +69,9 @@ Agentless uses decomposed fault localisation; AutoCodeRover uses integrated sear
 
 ## Cost economics
 
-TrajSpec's pre-processing is cheap. With GPT-5-mini, report generation costs $0.087 per instance (224K input, 16K output tokens). The downstream repair cost actually *decreases* by 24% in input tokens because the agent wastes fewer turns on exploration [^1]. With MiniMax M2.5, the total overhead drops to $0.019 per instance [^1].
+TrajSpec's pre-processing is cheap. With GPT-5-mini, report generation costs \$0.087 per instance (224K input, 16K output tokens). The downstream repair cost actually *decreases* by 24% in input tokens because the agent wastes fewer turns on exploration [^1]. With MiniMax M2.5, the total overhead drops to \$0.019 per instance [^1].
 
-For Codex CLI users paying per token, this arithmetic is compelling: spend $0.09 enriching the specification, save more than that on repair, and triple the success rate.
+For Codex CLI users paying per token, this arithmetic is compelling: spend \$0.09 enriching the specification, save more than that on repair, and triple the success rate.
 
 ## Mapping TrajSpec to Codex CLI
 
@@ -204,7 +204,7 @@ The paper does not evaluate TrajSpec with Codex CLI specifically, though the age
 2. **Structure your bug reports around three dimensions**: failure mechanism, behavioural requirement, implementation scope. Encode this in AGENTS.md.
 3. **Use two-pass repair workflows**: cheap investigation model, then capable repair model. The investigation pays for itself in reduced downstream exploration.
 4. **Validate agent claims against the repository** before they reach the patch stage. PostToolUse hooks or a dedicated review step catch scope creep early.
-5. **Automate the pipeline** with `codex exec` and GitHub Actions. The $0.09 enrichment cost per instance is negligible against the repair success gains.
+5. **Automate the pipeline** with `codex exec` and GitHub Actions. The \$0.09 enrichment cost per instance is negligible against the repair success gains.
 
 ---
 

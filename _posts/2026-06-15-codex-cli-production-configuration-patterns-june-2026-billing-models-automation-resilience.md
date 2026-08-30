@@ -1,11 +1,11 @@
 ---
 title: "Five Production Configuration Patterns for Codex CLI in the Post-Subsidy Era: Billing Resilience, Model Routing, and Automation Hygiene for June 2026"
-parent: "Articles"
-nav_order: 763
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-production-configuration-patterns-june-2026-billing-models-automation-resilience"
 tags: ["codex-cli", "configuration", "config.toml", "named-profiles", "cost-optimisation", "production-patterns", "billing", "automation", "resilience", "enterprise"]
+date: 2026-06-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Five Production Configuration Patterns for Codex CLI in the Post-Subsidy Era
 
@@ -104,7 +104,7 @@ flowchart LR
 
 ### The Economics
 
-The cost spread across these tiers is substantial. GPT-5.4-mini at minimal reasoning costs roughly $0.75 per million input tokens with caching, whilst o3-pro at xhigh reasoning runs at $20/$80 per million tokens[^6]. A developer who routes 70% of tasks to the `instant` or `standard` profiles and reserves `deep` and `architect` for genuine complexity can reduce monthly agent spend by 40–60% without measurable quality loss on routine work[^8].
+The cost spread across these tiers is substantial. GPT-5.4-mini at minimal reasoning costs roughly \$0.75 per million input tokens with caching, whilst o3-pro at xhigh reasoning runs at \$20/\$80 per million tokens[^6]. A developer who routes 70% of tasks to the `instant` or `standard` profiles and reserves `deep` and `architect` for genuine complexity can reduce monthly agent spend by 40–60% without measurable quality loss on routine work[^8].
 
 The `plan_mode_reasoning_effort` key in the `deep` profile is a deliberate asymmetry: planning benefits disproportionately from higher reasoning, whilst execution often proceeds well at the profile's base level[^9].
 

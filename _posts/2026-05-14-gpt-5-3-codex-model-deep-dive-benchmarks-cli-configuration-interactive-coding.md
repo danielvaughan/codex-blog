@@ -1,12 +1,12 @@
 ---
 title: "GPT-5.3-Codex Deep Dive: Benchmarks, CLI Configuration, and Interactive Coding Workflows"
 description: "GPT-5.3-Codex landed on 5 February 2026 as OpenAI's flagship coding model, promising industry-leading agentic performance alongside a 25 % speed improvement."
-parent: "Articles"
-nav_order: 395
 type: Technical Article
 timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-gpt-5-3-codex-model-deep-dive-benchmarks-cli-configuration-interactive-coding"
 tags: ["gpt-5.3-codex", "model-selection", "benchmarks", "cli-configuration", "interactive-coding", "codex-spark"]
+date: 2026-05-14T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: GPT-5.3-Codex Deep Dive: Benchmarks, CLI Configuration, and Interactive Coding Workflows](/sketchnotes/articles/2026-05-14-gpt-5-3-codex-model-deep-dive-benchmarks-cli-configuration-interactive-coding.png)
 

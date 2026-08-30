@@ -1,12 +1,12 @@
 ---
 title: "Rapid Prototyping with Codex CLI: From Screenshot to Working Application"
 description: "Design handoff has always been a bottleneck. Designers produce pixel-perfect mocks; developers spend hours interpreting spacing tokens and hover states from."
-parent: "Articles"
-nav_order: 180
 type: Technical Article
 timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-rapid-prototyping-screenshot-to-working-application"
 tags: ["codex-cli", "rapid-prototyping", "screenshot-to-code", "multimodal", "image-input", "frontend", "design-to-code", "playwright", "browser", "ui-iteration"]
+date: 2026-04-26T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Rapid Prototyping with Codex CLI: From Screenshot to Working Application](/sketchnotes/articles/2026-04-26-codex-cli-rapid-prototyping-screenshot-to-working-application.png)
 

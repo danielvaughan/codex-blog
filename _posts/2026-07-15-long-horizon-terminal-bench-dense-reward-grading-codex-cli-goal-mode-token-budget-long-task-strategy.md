@@ -1,7 +1,7 @@
 ---
 title: "Long-Horizon-Terminal-Bench and the Completion Cliff: Why 64 Per Cent of Agent Runs Make Real Progress but Only 4 Per Cent Finish — and How to Configure Codex CLI for Long-Horizon Survival"
-parent: "Articles"
-nav_order: 1071
+date: 2026-07-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "long-horizon", "terminal-bench", "goal-mode", "token-budget", "dense-reward", "agent-benchmarks", "context-management"]
 ---
 
@@ -48,12 +48,12 @@ The critical design decision: tasks demand **hundreds of episodes and 30–90+ m
 
 | Model | Pass@R≥0.95 | Pass@R=1.0 | Mean Tokens/Task | Mean Episodes | Cost/Task (USD) |
 |-------|-------------|------------|-------------------|---------------|-----------------|
-| GPT-5.5 | 15.2% (7/46) | 10.9% | 4.16M | 208 | ~$12.50 |
+| GPT-5.5 | 15.2% (7/46) | 10.9% | 4.16M | 208 | ~\$12.50 |
 | Kimi K2.7 Code | 6.5% (3/46) | — | 8.54M | 183 | — |
 | DeepSeek V4 Pro | 6.5% (3/46) | — | 14.45M | 321 | — |
 | MiniMax M3 | 6.5% (3/46) | — | 20.20M | 314 | — |
 | Qwen3.7 Max | 4.3% | — | 6.13M | 218 | — |
-| **Mean (all 15)** | **4.3%** | **1.7%** | **9.66M** | **228** | **$2.47–$27.57** |
+| **Mean (all 15)** | **4.3%** | **1.7%** | **9.66M** | **228** | **\$2.47–\$27.57** |
 
 *Source: Li et al., Table 2[^1]*
 

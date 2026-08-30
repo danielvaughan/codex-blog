@@ -1,12 +1,12 @@
 ---
 title: "The Real Cost of Multi-Model Review Loops"
 description: "Cross-model review — writing code with one agent and reviewing it with another — has become the de facto quality pattern in agentic coding workflows."
-parent: "Articles"
-nav_order: 1085
 type: Technical Article
 timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-multi-model-review-loop-costs"
 tags: ["cost-analysis", "multi-model", "review-loops", "enterprise", "budget", "slm-judge", "model-routing"]
+date: 2026-04-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: The Real Cost of Multi-Model Review Loops](/sketchnotes/articles/2026-04-17-multi-model-review-loop-costs.png)
 

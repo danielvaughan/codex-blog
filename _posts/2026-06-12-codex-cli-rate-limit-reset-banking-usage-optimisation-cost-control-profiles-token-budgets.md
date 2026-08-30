@@ -1,11 +1,11 @@
 ---
 title: "Codex CLI Rate-Limit Reset Banking and Usage Optimisation: Managing Agent Costs from the Terminal"
-parent: "Articles"
-nav_order: 724
 type: Technical Article
 timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-cli-rate-limit-reset-banking-usage-optimisation-cost-control-profiles-token-budgets"
 tags: ["codex-cli", "rate-limits", "reset-banking", "cost-optimisation", "profiles", "token-budgets", "pricing", "usage-management"]
+date: 2026-06-12T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Codex CLI Rate-Limit Reset Banking and Usage Optimisation: Managing Agent Costs from the Terminal
 
@@ -30,9 +30,9 @@ The practical implication: a burst of heavy agent work at 09:00 means your windo
 
 | Plan | GPT-5.5 | GPT-5.4 | GPT-5.4-mini |
 |------|---------|---------|--------------|
-| Plus ($20/mo) | 15–80 messages | 20–100 | 60–350 |
-| Pro 5x ($100/mo) | 80–400 | 100–500 | 300–1,750 |
-| Pro 20x ($200/mo) | 300–1,600 | 400–2,000 | 1,200–7,000 |
+| Plus (\$20/mo) | 15–80 messages | 20–100 | 60–350 |
+| Pro 5x (\$100/mo) | 80–400 | 100–500 | 300–1,750 |
+| Pro 20x (\$200/mo) | 300–1,600 | 400–2,000 | 1,200–7,000 |
 
 The ranges reflect message complexity — a single-line prompt costs fewer credits than a multi-file refactoring instruction with tool output[^2].
 

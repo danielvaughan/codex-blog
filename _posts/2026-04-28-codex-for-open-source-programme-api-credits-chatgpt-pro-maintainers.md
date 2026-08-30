@@ -1,12 +1,12 @@
 ---
 title: "Codex for Open Source: What the Programme Offers Maintainers and How to Make the Most of It"
 description: "Open-source maintainers do critical infrastructure work — triaging issues, reviewing pull requests, cutting releases, keeping dependencies current — often."
-parent: "Articles"
-nav_order: 220
 type: Technical Article
 timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-codex-for-open-source-programme-api-credits-chatgpt-pro-maintainers"
 tags: ["codex-cli", "open-source", "maintainers", "api-credits", "chatgpt-pro", "codex-security", "oss-fund", "automation"]
+date: 2026-04-28T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex for Open Source: What the Programme Offers Maintainers and How to Make the Most of It](/sketchnotes/articles/2026-04-28-codex-for-open-source-programme-api-credits-chatgpt-pro-maintainers.png)
 

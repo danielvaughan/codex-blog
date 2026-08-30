@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI Dynamic Tools: Building Custom Client-Side Tool Handlers via the App-Server Protocol"
 description: "Every MCP server and built-in skill in Codex CLI runs server-side — the agent invokes it, the sandbox executes it, and results flow back through the turn."
-parent: "Articles"
-nav_order: 363
 type: Technical Article
 timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-dynamic-tools-custom-client-side-tool-handlers-app-server-protocol"
 tags: ["codex-cli", "app-server", "dynamic-tools", "integration", "sdk", "json-rpc", "advanced"]
+date: 2026-05-10T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Dynamic Tools: Building Custom Client-Side Tool Handlers via the App-Server Protocol](/sketchnotes/articles/2026-05-10-codex-cli-dynamic-tools-custom-client-side-tool-handlers-app-server-protocol.png)
 

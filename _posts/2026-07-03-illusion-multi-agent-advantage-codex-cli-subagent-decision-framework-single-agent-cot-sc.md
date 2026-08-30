@@ -1,11 +1,11 @@
 ---
 title: "The Illusion of Multi-Agent Advantage: When Codex CLI Subagents Help and When a Single Agent Wins"
-parent: "Articles"
-nav_order: 953
 type: Technical Article
 timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-illusion-multi-agent-advantage-codex-cli-subagent-decision-framework-single-agent-cot-sc"
 tags: ["codex-cli", "multi-agent", "subagents", "single-agent", "CoT-SC", "orchestration", "cost-efficiency", "decision-framework"]
+date: 2026-07-03T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The Illusion of Multi-Agent Advantage: When Codex CLI Subagents Help and When a Single Agent Wins
 
@@ -154,7 +154,7 @@ For most workflows, reducing `max_threads` from the default 6 to 3 or 4 limits t
 
 The cost arithmetic is straightforward. Codex CLI subagents consume tokens across every spawned thread — there is no free parallelism [^2]. A fan-out to six subagents on a task that a single agent handles at 57% accuracy will cost roughly 6× more tokens for a potential improvement of 4–6 percentage points [^1].
 
-At current GPT-5.4 pricing ($5/$30 per 1M input/output tokens) [^6], a single-agent session consuming 50K tokens costs approximately $0.25–$1.50 depending on output ratio. A six-thread fan-out on the same task: $1.50–$9.00. Over hundreds of daily invocations, this compounds.
+At current GPT-5.4 pricing (\$5/\$30 per 1M input/output tokens) [^6], a single-agent session consuming 50K tokens costs approximately \$0.25–\$1.50 depending on output ratio. A six-thread fan-out on the same task: \$1.50–\$9.00. Over hundreds of daily invocations, this compounds.
 
 The Guardian subagent is the exception: its persistent session and prompt cache reuse mean the incremental cost per approval is minimal compared to the security value it provides [^3].
 

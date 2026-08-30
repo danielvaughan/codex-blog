@@ -1,11 +1,11 @@
 ---
 title: "The AIRQ Report: Only 11 Per Cent of AI Agents Pass the Security Bar — Where Codex CLI Stands"
-parent: "Articles"
-nav_order: 853
 type: Technical Article
 timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-airq-ai-risk-quadrant-only-11-percent-agents-pass-security-bar-codex-cli-defence-architecture"
 tags: ["codex-cli", "security", "airq", "agent-security", "sandbox", "risk-scoring", "defence-controls", "lethal-trifecta"]
+date: 2026-06-24T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # The AIRQ Report: Only 11 Per Cent of AI Agents Pass the Security Bar — Where Codex CLI Stands
 

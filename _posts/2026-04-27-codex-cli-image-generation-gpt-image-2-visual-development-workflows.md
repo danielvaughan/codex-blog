@@ -1,12 +1,12 @@
 ---
 title: "Image generation in Codex CLI: gpt-image-2, the $imagegen skill, and visual development workflows"
 description: "gpt-image-2 turned Codex CLI from a text-only terminal agent into a design-to-code loop. This article covers the architecture, configuration, practical workflows, and cost realities of generating and iterating on images without leaving the terminal."
-parent: "Articles"
-nav_order: 202
 type: Technical Article
 timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-image-generation-gpt-image-2-visual-development-workflows"
 tags: ["codex-cli", "image-generation", "gpt-image-2", "imagegen", "frontend-design", "visual-workflows", "figma", "playwright", "prototyping"]
+date: 2026-04-27T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Image generation in Codex CLI: gpt-image-2, the $imagegen skill, and visual development workflows](/sketchnotes/articles/2026-04-27-codex-cli-image-generation-gpt-image-2-visual-development-workflows.png)
 

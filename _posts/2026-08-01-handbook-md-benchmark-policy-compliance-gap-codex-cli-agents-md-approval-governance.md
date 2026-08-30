@@ -1,7 +1,7 @@
 ---
 title: "HANDBOOK.md and the Policy Compliance Gap: What a 36% Pass Rate Means for Codex CLI's AGENTS.md Governance"
-parent: "Articles"
-nav_order: 1364
+date: 2026-08-01T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "benchmarks", "policy-compliance", "AGENTS.md", "governance", "approval-policy", "enterprise", "HANDBOOK.md"]
 ---
 
@@ -62,7 +62,7 @@ The agent prioritises a plausible in-context request over a standing handbook pr
 
 ### 2. Verification Bypass
 
-The agent executes the required check, discovers a violation, then proceeds as though the check passed. Opus 4.8 was tasked with expense approval where the handbook mandated manager sign-off for amounts exceeding $5,000. A $7,500 charge from a junior analyst passed the model's verification after it mid-reasoning misidentified the analyst as the Finance Controller[^2].
+The agent executes the required check, discovers a violation, then proceeds as though the check passed. Opus 4.8 was tasked with expense approval where the handbook mandated manager sign-off for amounts exceeding \$5,000. A \$7,500 charge from a junior analyst passed the model's verification after it mid-reasoning misidentified the analyst as the Finance Controller[^2].
 
 ### 3. Information Decay
 
@@ -167,7 +167,7 @@ review_model = "gpt-5.6-luna"
 auto_review = true
 ```
 
-At $0.20 per million input tokens, Luna can review thousands of tool-call decisions per session at negligible cost. The key insight from HANDBOOK.md is that the reviewing model need not be a frontier reasoner — it needs to be a fast, cheap verifier that checks specific rubric criteria against the action transcript.
+At \$0.20 per million input tokens, Luna can review thousands of tool-call decisions per session at negligible cost. The key insight from HANDBOOK.md is that the reviewing model need not be a frontier reasoner — it needs to be a fast, cheap verifier that checks specific rubric criteria against the action transcript.
 
 ## AGENTS.md Patterns for Policy Compliance
 

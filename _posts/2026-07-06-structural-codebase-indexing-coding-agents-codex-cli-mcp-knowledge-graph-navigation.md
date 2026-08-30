@@ -1,7 +1,7 @@
 ---
 title: "Structural Codebase Indexing: Why grep Is Not Enough — and How to Wire a Knowledge-Graph MCP Server into Codex CLI"
-parent: "Articles"
-nav_order: 980
+date: 2026-07-06T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "codebase-indexing", "mcp", "knowledge-graph", "tree-sitter", "navigation", "tool-search", "structural-search"]
 ---
 

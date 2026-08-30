@@ -1,11 +1,11 @@
 ---
 title: "AI Regulation and Codex CLI: The Great American AI Act, EU AI Act Enforcement, and What Enterprise Coding Agent Teams Must Prepare For"
-parent: "Articles"
-nav_order: 653
 type: Technical Article
 timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-ai-regulation-codex-cli-great-american-ai-act-eu-ai-act-enterprise-compliance"
 tags: ["codex-cli", "regulation", "compliance", "enterprise", "EU AI Act", "Great American AI Act", "audit-trail", "governance"]
+date: 2026-06-06T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # AI Regulation and Codex CLI: The Great American AI Act, EU AI Act Enforcement, and What Enterprise Coding Agent Teams Must Prepare For
 
@@ -36,12 +36,12 @@ graph TD
 
 ### The Great American AI Act
 
-The draft targets **large frontier developers** — entities exceeding $500 million in annual revenue [^1]. These companies must:
+The draft targets **large frontier developers** — entities exceeding \$500 million in annual revenue [^1]. These companies must:
 
-- Publish safety frameworks assessing whether models pose "catastrophic risk" (defined as foreseeable risk of death or injury to 50+ people, or $1 billion+ in property damage) [^4]
+- Publish safety frameworks assessing whether models pose "catastrophic risk" (defined as foreseeable risk of death or injury to 50+ people, or \$1 billion+ in property damage) [^4]
 - Retain a NIST-licensed **Independent Verification Organisation** (IVO) for semi-annual compliance audits [^4]
 - Report critical safety incidents to the government [^1]
-- Face penalties of up to **$1 million per day** for non-compliance [^4]
+- Face penalties of up to **\$1 million per day** for non-compliance [^4]
 
 Crucially, the bill **preempts state laws on AI model development for three years** whilst preserving state authority to regulate how AI systems are **deployed** [^1]. This means California's AB 2013 training data transparency requirements and portions of SB 942 content watermarking rules would be frozen [^4].
 

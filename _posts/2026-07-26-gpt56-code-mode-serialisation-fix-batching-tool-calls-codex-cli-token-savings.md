@@ -1,12 +1,12 @@
 ---
 title: "The GPT-5.6 Serialisation Tax: How Explicit Batching in Code Mode Cuts Your Codex CLI Token Bill by 27–45%"
-parent: "Articles"
-nav_order: 1278
 description: "GPT-5.6 silently serialises independent tool calls in Code Mode instead of batching them. A community-discovered AGENTS.md directive using Promise.allSettled() reduced weighted usage by 27–45% and model cycles by over 50%. This article explains the architectural root cause and the fix."
 type: Technical Article
 timestamp: 2026-07-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-26-gpt56-code-mode-serialisation-fix-batching-tool-calls-codex-cli-token-savings"
 tags: ["gpt-5.6", "code-mode", "token-optimisation", "programmatic-tool-calling", "cost-management", "agents-md", "configuration", "performance"]
+date: 2026-07-26T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 
 # The GPT-5.6 Serialisation Tax: How Explicit Batching in Code Mode Cuts Your Codex CLI Token Bill by 27–45%
@@ -62,7 +62,7 @@ GitHub Issue #35050, opened on 24 July 2026 by MakerOfToys, documented the impac
 
 The dominant cost driver is not the tool calls themselves but the **context reprocessing**. Each sequential round trip forces the model to re-read the accumulated context — your `AGENTS.md`, conversation history, prior tool output, and the growing exec trace. Batching eliminates these redundant re-reads by collapsing multiple operations into a single exec cycle.
 
-At Sol pricing ($5.00 / $0.50 cached / $30.00 output per million tokens)[^4], a developer running 20 sessions daily could see savings of $15–25 per day from this single configuration change.
+At Sol pricing (\$5.00 / \$0.50 cached / \$30.00 output per million tokens)[^4], a developer running 20 sessions daily could see savings of \$15–25 per day from this single configuration change.
 
 ## The Fix: An AGENTS.md Batching Directive
 

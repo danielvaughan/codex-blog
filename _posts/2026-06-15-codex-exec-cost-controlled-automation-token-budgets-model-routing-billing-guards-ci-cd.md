@@ -1,11 +1,11 @@
 ---
 title: "Cost-Controlled codex exec: Five Automation Patterns with Token Budgets, Model Routing, and Billing Guards for June 2026"
-parent: "Articles"
-nav_order: 767
 type: Technical Article
 timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-exec-cost-controlled-automation-token-budgets-model-routing-billing-guards-ci-cd"
 tags: ["codex-cli", "codex-exec", "automation", "cost-control", "token-budgets", "model-routing", "ci-cd", "named-profiles", "billing", "non-interactive"]
+date: 2026-06-15T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 # Cost-Controlled `codex exec`: Five Automation Patterns with Token Budgets, Model Routing, and Billing Guards for June 2026
 
@@ -20,7 +20,7 @@ This article presents five concrete `codex exec` patterns that keep non-interact
 
 Interactive Codex sessions have natural cost brakes: a human watches the output, hits `/compact` when the context grows, and stops the session when the task is done. Non-interactive `codex exec` runs have none of these. A misconfigured CI job can burn through an entire monthly credit allocation in a single pipeline run [^4].
 
-The arithmetic is stark. A GPT-5.5 session that consumes 50,000 input tokens and generates 10,000 output tokens costs roughly $0.55 per run [^5]. Run that across 200 pull requests per week and the monthly bill exceeds $440 — before counting reasoning tokens, which GPT-5.5 generates at the output rate of $30 per million tokens [^5]. Switching the same workload to GPT-5.4-mini drops the per-run cost to approximately $0.08, an 85% reduction [^5].
+The arithmetic is stark. A GPT-5.5 session that consumes 50,000 input tokens and generates 10,000 output tokens costs roughly \$0.55 per run [^5]. Run that across 200 pull requests per week and the monthly bill exceeds \$440 — before counting reasoning tokens, which GPT-5.5 generates at the output rate of \$30 per million tokens [^5]. Switching the same workload to GPT-5.4-mini drops the per-run cost to approximately \$0.08, an 85% reduction [^5].
 
 ```mermaid
 flowchart LR
@@ -65,7 +65,7 @@ CODEX_API_KEY="$OPENAI_CI_KEY" \
 
 The `--ephemeral` flag prevents session files from accumulating on CI runners [^6]. The `read-only` sandbox ensures the agent cannot modify the workspace, and `hide_agent_reasoning = true` suppresses reasoning token output in the JSONL stream without affecting model behaviour [^7].
 
-**Cost profile:** At GPT-5.4-mini rates ($0.75/M input, $4.50/M output), a typical 20,000-token input with 2,000-token output costs roughly $0.024 per run [^5].
+**Cost profile:** At GPT-5.4-mini rates (\$0.75/M input, \$4.50/M output), a typical 20,000-token input with 2,000-token output costs roughly \$0.024 per run [^5].
 
 ## Pattern 2: The Model-Tiered Review Pipeline
 
@@ -125,7 +125,7 @@ CODEX_API_KEY="$OPENAI_CI_KEY" \
 
 The `--json` flag emits JSONL events to stdout, including `turn.completed` events with `usage` fields that report `input_tokens`, `output_tokens`, and `reasoning_tokens` [^6]. Pipe through `jq` to extract per-turn token counts for cost attribution.
 
-**Cost profile:** Light reviews at ~$0.02, standard at ~$0.23, deep at ~$0.55. If 80% of PRs are light, 15% standard, and 5% deep, the blended average is approximately $0.06 per PR review.
+**Cost profile:** Light reviews at ~\$0.02, standard at ~\$0.23, deep at ~\$0.55. If 80% of PRs are light, 15% standard, and 5% deep, the blended average is approximately \$0.06 per PR review.
 
 ## Pattern 3: The Output-Schema Budget Enforcer
 
@@ -172,7 +172,7 @@ CODEX_API_KEY="$OPENAI_CI_KEY" \
     "Review the staged changes. Return structured findings."
 ```
 
-The `maxLength` constraints in the schema are advisory — the model respects them as formatting guidance — but they reliably reduce output verbosity by 40–60% compared to free-form responses [^8]. On GPT-5.4 at $15/M output tokens, shaving 3,000 tokens off a typical review saves $0.045 per run.
+The `maxLength` constraints in the schema are advisory — the model respects them as formatting guidance — but they reliably reduce output verbosity by 40–60% compared to free-form responses [^8]. On GPT-5.4 at \$15/M output tokens, shaving 3,000 tokens off a typical review saves \$0.045 per run.
 
 ## Pattern 4: The JSONL Token Audit Trail
 
@@ -238,7 +238,7 @@ fi
 
 ## Pattern 5: The Reasoning-Effort Ladder
 
-The `model_reasoning_effort` setting controls how many reasoning tokens the model generates before producing its visible response [^7]. This is the single most effective cost lever for `codex exec` automation, because reasoning tokens are billed at the output rate — $30/M for GPT-5.5, $15/M for GPT-5.4 [^5].
+The `model_reasoning_effort` setting controls how many reasoning tokens the model generates before producing its visible response [^7]. This is the single most effective cost lever for `codex exec` automation, because reasoning tokens are billed at the output rate — \$30/M for GPT-5.5, \$15/M for GPT-5.4 [^5].
 
 ```mermaid
 graph TD
@@ -261,12 +261,12 @@ The cost impact is substantial. On GPT-5.5:
 
 | Reasoning Effort | Typical Reasoning Tokens | Reasoning Cost (per run) |
 |---|---|---|
-| `low` | ~500 | $0.015 |
-| `medium` | ~2,000 | $0.060 |
-| `high` | ~5,000 | $0.150 |
-| `xhigh` | ~10,000+ | $0.300+ |
+| `low` | ~500 | \$0.015 |
+| `medium` | ~2,000 | \$0.060 |
+| `high` | ~5,000 | \$0.150 |
+| `xhigh` | ~10,000+ | \$0.300+ |
 
-For a CI pipeline running 100 `codex exec` invocations per day, the difference between `low` and `xhigh` reasoning effort is roughly $855 per month in reasoning tokens alone [^5].
+For a CI pipeline running 100 `codex exec` invocations per day, the difference between `low` and `xhigh` reasoning effort is roughly \$855 per month in reasoning tokens alone [^5].
 
 **Profile pattern for graduated reasoning:**
 
@@ -379,8 +379,8 @@ The post-subsidy era rewards teams that treat `codex exec` configuration as infr
 [^1]: GitHub Blog, "Copilot AI Credits billing", 1 June 2026. [https://github.blog/changelog/2026-06-01-copilot-billing-update/](https://github.blog/changelog/2026-06-01-copilot-billing-update/)
 [^2]: Anthropic, "Claude subscription billing split", 15 June 2026. [https://www.anthropic.com/news/claude-code-billing-june-2026](https://www.anthropic.com/news/claude-code-billing-june-2026)
 [^3]: OpenAI, "Workspace Agents credit billing", announced May 2026; effective 6 July 2026. [https://openai.com/index/introducing-workspace-agents-in-chatgpt/](https://openai.com/index/introducing-workspace-agents-in-chatgpt/)
-[^4]: Microsoft engineering report: internal Copilot + agent usage reached $2,000/engineer/month before budget controls were implemented. Reported in multiple June 2026 analyses. ⚠️ Exact figure sourced from secondary reporting.
-[^5]: OpenAI API Pricing, June 2026. GPT-5.5: $5.00/M input, $30.00/M output. GPT-5.4: $2.50/M input, $15.00/M output. GPT-5.4-mini: $0.75/M input, $4.50/M output. [https://openai.com/api/pricing/](https://openai.com/api/pricing/)
+[^4]: Microsoft engineering report: internal Copilot + agent usage reached \$2,000/engineer/month before budget controls were implemented. Reported in multiple June 2026 analyses. ⚠️ Exact figure sourced from secondary reporting.
+[^5]: OpenAI API Pricing, June 2026. GPT-5.5: \$5.00/M input, \$30.00/M output. GPT-5.4: \$2.50/M input, \$15.00/M output. GPT-5.4-mini: \$0.75/M input, \$4.50/M output. [https://openai.com/api/pricing/](https://openai.com/api/pricing/)
 [^6]: OpenAI Developers, "Non-interactive mode – Codex CLI", June 2026. [https://developers.openai.com/codex/noninteractive](https://developers.openai.com/codex/noninteractive)
 [^7]: OpenAI Developers, "Advanced Configuration – Codex CLI", June 2026. [https://developers.openai.com/codex/config-advanced](https://developers.openai.com/codex/config-advanced)
 [^8]: Output token reduction from schema constraints is an observed pattern; exact percentages vary by task type. ⚠️ Based on practitioner reports rather than controlled benchmarks.

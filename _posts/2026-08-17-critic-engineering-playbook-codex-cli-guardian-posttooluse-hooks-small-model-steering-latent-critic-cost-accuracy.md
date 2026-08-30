@@ -1,7 +1,7 @@
 ---
 title: "The Critic Engineering Playbook: Building Steering and Detection Layers for Codex CLI"
-parent: "Articles"
-nav_order: 1823
+date: 2026-08-17T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "guardian", "PostToolUse-hooks", "critic-models", "hallucination-detection", "cost-optimisation", "premium"]
 ---
 
@@ -23,7 +23,7 @@ The alternative is **intra-trajectory feedback**: a lightweight critic that revi
 
 - **+3.8 to +5.2 percentage points** on SWE-bench Verified across CWM-32B and two Qwen agents
 - **30–92× cheaper** than the teacher model
-- **Pareto-dominant** on Qwen3-Next-80B-A3B: 25.2% accuracy at $0.04 per task vs 20.8% at $0.11 unguided [^1]
+- **Pareto-dominant** on Qwen3-Next-80B-A3B: 25.2% accuracy at \$0.04 per task vs 20.8% at \$0.11 unguided [^1]
 
 Crucially, the critic transfers across agents it was never trained on. Error categories describe failure modes shared across models, so a critic trained on CWM-32B transfers to Qwen3-Next-80B-A3B and Qwen3-32B without retraining [^1].
 
@@ -172,9 +172,9 @@ quadrantChart
 For a typical Codex CLI session:
 
 - **PostToolUse shell script**: essentially free — runs locally, no API calls
-- **Guardian auto-review**: uses `codex-auto-review` model, roughly $0.001–0.003 per review [^3]
-- **Small SFT critic (Qwen3-8B)**: 30–92× cheaper than a teacher model, ~$0.04 per full task [^1]
-- **Full external judge (GPT-5.5)**: ~$0.11+ per task, diminishing marginal returns [^1]
+- **Guardian auto-review**: uses `codex-auto-review` model, roughly \$0.001–0.003 per review [^3]
+- **Small SFT critic (Qwen3-8B)**: 30–92× cheaper than a teacher model, ~\$0.04 per full task [^1]
+- **Full external judge (GPT-5.5)**: ~\$0.11+ per task, diminishing marginal returns [^1]
 
 The optimal stack layers these from cheapest to most expensive: deterministic hooks catch the obvious failures, Guardian catches policy violations, and a small critic model handles strategy-level steering for complex tasks.
 

@@ -1,7 +1,7 @@
 ---
 title: "Lazy Test Generation and the Supervision Gap: What SCATE's Contextual Bandit Approach Reveals About Coding Agent Coverage — and How to Wire Iterative Test Loops into Codex CLI"
-parent: "Articles"
-nav_order: 1174
+date: 2026-07-13T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 tags: ["codex-cli", "testing", "coverage", "PostToolUse", "hooks", "contextual-bandit", "lazy-generation", "SCATE", "agents.md", "cost-control"]
 ---
 
@@ -54,10 +54,10 @@ Key results with Gemini CLI (gemini-3.1-flash-lite) [^1]:
 - **Line coverage**: 82.8% vs 50.5% single-shot (+32.3 percentage points)
 - **Branch coverage**: 74.7% vs 43.8% single-shot (+30.9 percentage points)
 - **Mutation score**: 64.7%
-- **Cost**: $0.693 per class, 15.1 minutes average
+- **Cost**: \$0.693 per class, 15.1 minutes average
 - **Max iterations**: K_max = 10, average trajectory length 7.9
 
-With Claude Code (claude-4-5-haiku), coverage rose to 90.3% line and 84.9% branch at $1.143 per class [^1].
+With Claude Code (claude-4-5-haiku), coverage rose to 90.3% line and 84.9% branch at \$1.143 per class [^1].
 
 Crucially, SCATE outperformed both a naive 8-iteration fixed loop (77.3% line) and the non-agentic Panta baseline (77.2% line) [^1], demonstrating that intelligent action selection — not merely more iterations — drives coverage gains.
 

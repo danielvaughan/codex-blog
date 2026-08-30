@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI v0.132.0 Release Guide: Python SDK Authentication, exec resume --output-schema, and Performance Gains"
 description: "Codex CLI v0.132.0 shipped on 20 May 2026 with a release that prioritises two themes: making the Python SDK a proper first-class citizen for programmatic."
-parent: "Articles"
-nav_order: 457
 type: Technical Article
 timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-codex-cli-v0132-release-guide-python-sdk-auth-exec-resume-schema-performance"
 tags: ["codex-cli", "release", "v0.132.0", "python-sdk", "authentication", "exec-resume", "performance", "automation"]
+date: 2026-05-20T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI v0.132.0 Release Guide: Python SDK Authentication, exec resume --output-schema, and Performance Gains](/sketchnotes/articles/2026-05-20-codex-cli-v0132-release-guide-python-sdk-auth-exec-resume-schema-performance.png)
 

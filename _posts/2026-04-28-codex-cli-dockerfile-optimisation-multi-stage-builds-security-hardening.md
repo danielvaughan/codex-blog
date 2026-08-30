@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI for Dockerfile Optimisation: Multi-Stage Builds, Layer Caching, and Security Hardening"
 description: "Dockerfiles look simple. They are deceptively hard to get right. A naively written Dockerfile for a Node.js application can produce a 1.2 GB image with a."
-parent: "Articles"
-nav_order: 222
 type: Technical Article
 timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-codex-cli-dockerfile-optimisation-multi-stage-builds-security-hardening"
 tags: ["codex-cli", "docker", "dockerfile", "multi-stage-build", "container-security", "devops", "gpt-5.5"]
+date: 2026-04-28T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Dockerfile Optimisation: Multi-Stage Builds, Layer Caching, and Security Hardening](/sketchnotes/articles/2026-04-28-codex-cli-dockerfile-optimisation-multi-stage-builds-security-hardening.png)
 

@@ -1,12 +1,12 @@
 ---
 title: "Codex CLI in GitHub Actions: Best Practices, Limitations, and Gotchas"
 description: "The openai/codex-action@v1 GitHub Action transforms Codex CLI from an interactive developer tool into a CI/CD workhorse — reviewing pull requests."
-parent: "Articles"
-nav_order: 481
 type: Technical Article
 timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-github-actions-best-practices-limitations-gotchas"
 tags: ["codex-cli", "github-actions", "ci-cd", "automation", "sandbox", "security", "best-practices"]
+date: 2026-05-22T09:00:00+00:00
+last_modified_at: 2026-08-30T20:10:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI in GitHub Actions: Best Practices, Limitations, and Gotchas](/sketchnotes/articles/2026-05-22-codex-cli-github-actions-best-practices-limitations-gotchas.png)
 
