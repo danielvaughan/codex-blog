@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agents Don't Paginate — First-Chunk Inclusion, Tool-Output Truncation, Codex CLI (2026-08-30 Hourly Article Run)
+
+1. ✅ **Agents Don't Paginate: First-Chunk Inclusion Is What Drives Tool-Response Accuracy** — Written 2026-08-30 → `2026-08-30-agents-dont-paginate-first-chunk-selection-tool-responses-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Petrova, Mazniak & State (arXiv:2608.26130, August 2026) "Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses"; production corpus from publicly released MCP middleware (Claude Code/Cursor/Codex CLI/Aider): zero agent-initiated second-chunk requests observed; formulates first-chunk selection as 0/1 knapsack; six value functions tested on 500 SWE-bench Verified tasks — FIFO baseline 24.2% p₁, Priority-KW +10.8pp (p=3.9×10⁻⁸), Priority-ALL underperforms Priority-KW by −4.8pp (p=0.001); central negative result: downstream accuracy deltas −2.8 to +2.2pp across 5 models, none significant; insight: first-chunk *inclusion* drives accuracy, rank within chunk does not; mapped to Codex CLI: tool_output_token_limit as primary inclusion dial, on_mcp_tool_result hook (v0.151.0) as keyword-filter gate before budget enforcement, line-based vs token-based truncation history (issues #6426, #6544, #20861); 5 citations; ~1,505 words
+   - SEO targets: "agents don't paginate first chunk selection tool responses arXiv 2608.26130", "codex cli tool_output_token_limit inclusion truncation 2026", "MCP tool response first chunk precision-at-1 SWE-bench", "on_mcp_tool_result hook keyword filter codex cli v0.151.0", "LLM agent pagination zero second chunk production corpus"
+
+---
+
 ## Codex CLI v0.151.0 — MCP Extension Middleware, Grace Periods, Subagent Budget Accounting (2026-08-30 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.151.0: MCP Extension Middleware, Configurable Grace Periods, and Subagent Budget Accounting** — Written 2026-08-30 → `2026-08-30-codex-cli-v0151-mcp-extension-middleware-grace-period-subagent-budget.md`

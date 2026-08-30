@@ -5,7 +5,7 @@ timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-gpt-5-6-sol-terra-luna-codex-cli-model-selection-tiered-reasoning-cache-breakpoints"
 tags: ["codex-cli", "gpt-5.6", "model-selection", "sol", "terra", "luna", "reasoning", "ultra-mode", "prompt-caching", "cost-optimisation"]
 date: 2026-07-01T09:00:00+00:00
-last_modified_at: 2026-08-30T20:10:28+01:00
+last_modified_at: 2026-08-30T22:08:42+01:00
 ---
 # GPT-5.6 Sol, Terra, and Luna: What OpenAI's Three-Tier Model Family Means for Codex CLI Workflows
 

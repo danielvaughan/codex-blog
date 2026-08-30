@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 Sol Rewrote Its Own Inference Stack: What the First Self-Optimising Model Means for Codex CLI Developers"
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-08-30T20:10:28+01:00
+last_modified_at: 2026-08-30T22:08:42+01:00
 tags: ["GPT-5.6", "Sol", "inference", "Triton", "Gluon", "speculative-decoding", "self-optimisation", "Codex CLI", "GPU kernels", "cost reduction"]
 ---
 

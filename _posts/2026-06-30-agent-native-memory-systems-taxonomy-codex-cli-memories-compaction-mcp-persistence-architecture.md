@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-agent-native-memory-systems-taxonomy-codex-cli-memories-compaction-mcp-persistence-architecture"
 tags: ["codex-cli", "agent-memory", "memory-systems", "compaction", "persistence", "MCP", "AGENTS.md", "session-management"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-08-30T20:10:28+01:00
+last_modified_at: 2026-08-30T22:08:42+01:00
 ---
 # Agent-Native Memory Systems: What a 12-System Benchmark Reveals About Memory Architecture — and How to Configure Codex CLI's Memory Stack
 

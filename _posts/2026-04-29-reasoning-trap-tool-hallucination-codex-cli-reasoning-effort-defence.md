@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-reasoning-trap-tool-hallucination-codex-cli-reasoning-effort-defence"
 tags: ["reasoning-effort", "tool-hallucination", "MCP", "reliability", "config.toml", "GPT-5.5", "research"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-08-30T20:10:28+01:00
+last_modified_at: 2026-08-30T22:08:42+01:00
 ---
 ![Sketchnote diagram for: The Reasoning Trap: Why Higher Reasoning Effort Increases Tool Hallucination and How to Defend Your Codex CLI Workflows](/sketchnotes/articles/2026-04-29-reasoning-trap-tool-hallucination-codex-cli-reasoning-effort-defence.png)
 

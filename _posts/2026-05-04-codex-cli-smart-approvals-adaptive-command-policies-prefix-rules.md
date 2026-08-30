@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-smart-approvals-adaptive-command-policies-prefix-rules"
 tags: ["smart-approvals", "approval-policy", "prefix-rules", "execpolicy", "starlark", "guardian", "auto-review", "security", "configuration", "enterprise"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-08-30T20:10:28+01:00
+last_modified_at: 2026-08-30T22:08:42+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Smart Approvals: How Adaptive Command Policies and Prefix Rules Eliminate Approval Fatigue](/sketchnotes/articles/2026-05-04-codex-cli-smart-approvals-adaptive-command-policies-prefix-rules.png)
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-coding-agent-failure-taxonomy-nist-style-classification-detection-codex-cli"
 tags: ["agent-failures", "taxonomy", "reliability", "debugging", "observability", "codex-cli", "production"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-08-30T20:10:28+01:00
+last_modified_at: 2026-08-30T22:08:42+01:00
 ---
 # The Coding Agent Failure Taxonomy: A Systematic Classification of How Agents Break
 
