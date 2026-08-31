@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-nix-development-mcp-nixos-flakes-reproducible-agent-environments"
 tags: ["codex-cli", "nix", "nixos", "mcp", "flakes", "reproducible-builds", "devshell", "microvm", "agent-sandbox"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-08-31T00:10:57+01:00
+last_modified_at: 2026-08-31T02:16:22+01:00
 ---
 # Codex CLI for Nix Development: mcp-nixos, Flakes, and Reproducible Agent Environments
 

@@ -1,7 +1,7 @@
 ---
 title: "Voice-Driven Development: How Codex CLI's Realtime V3 and ChatGPT Desktop Voice Reshape the Hands-Free Coding Loop"
 date: 2026-07-27T09:00:00+00:00
-last_modified_at: 2026-08-31T00:10:57+01:00
+last_modified_at: 2026-08-31T02:16:22+01:00
 tags: ["codex-cli", "voice", "GPT-Live", "realtime-v3", "hands-free", "developer-workflow", "ChatGPT-Voice", "push-to-talk", "agent-orchestration"]
 ---
 

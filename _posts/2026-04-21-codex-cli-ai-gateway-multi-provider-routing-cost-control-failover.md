@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-ai-gateway-multi-provider-routing-cost-control-failover"
 tags: ["codex-cli", "ai-gateway", "multi-provider", "cost-control", "bifrost", "litellm", "openrouter", "failover", "enterprise"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-08-31T00:10:57+01:00
+last_modified_at: 2026-08-31T02:16:22+01:00
 ---
 ![Sketchnote diagram for: Routing Codex CLI Through AI Gateways: Multi-Provider Access, Cost Control, and Failover](/sketchnotes/articles/2026-04-21-codex-cli-ai-gateway-multi-provider-routing-cost-control-failover.png)
 
