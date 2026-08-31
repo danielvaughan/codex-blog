@@ -1,6 +1,16 @@
 # Article Backlog
 
 
+## Codex CLI v0.152 Alpha Preview (2026-08-31 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.152 Alpha Preview: Rate-Limit Banners, Package-Style MCP Names, Vim Search, and the Model Catalog Instruction Split** — Written 2026-08-31 → `2026-08-31-codex-cli-v0152-alpha-preview-rate-limit-banners-package-mcp-names-vim-search-model-catalog.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.152.0-alpha.1 through alpha.6 (29–31 August 2026); five PRs merged: #41742 actionable rate-limit banners above composer (account/rateLimits/read, fallback model switch, input pause-not-drop), #41700 package-style MCP server names (colons, @, /, periods, quoting in config.toml hints), #41586 Vim search motions (/, ?, n, N, operator composition d/c/y, draft-local Unicode-safe matching, footer query rendering, tui.keymap.vim_search config), #41457 + #41461 proactive multi-agent instructions sourced from model catalog (Ultra reasoning effort, absent=fallback, empty=suppress, refreshes on model switch), #41660 Guardian authorization preserved across compaction (serialised into handoff metadata, session-scoped not disk-persisted); 8 citations; ~1,320 words
+   - SEO targets: "codex cli v0.152 alpha rate limit banner TUI 2026", "codex CLI package-style MCP server names npm scoped 2026", "codex CLI vim search motions composer 2026", "codex CLI model catalog proactive multi-agent instructions Ultra reasoning", "Guardian authorization compaction preservation codex CLI"
+
+---
+
+
+
 ## codex agents Dashboard — v0.149.0 Multi-Agent Session Management (2026-08-31 Hourly Article Run)
 
 1. ✅ **The `codex agents` Dashboard: Managing Parallel Sessions Without the Terminal-Tab Overhead** — Written 2026-08-31 → `2026-08-31-codex-agents-dashboard-v0149-multi-agent-session-management.md`

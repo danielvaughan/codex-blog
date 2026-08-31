@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-bedrock-managed-agents-openai-server-side-codex-enterprise-automation"
 tags: ["codex-cli", "amazon-bedrock", "managed-agents", "enterprise", "aws", "server-side", "agentcore", "security", "ci-cd"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-08-31T04:08:53+01:00
+last_modified_at: 2026-08-31T06:14:22+01:00
 ---
 ![Sketchnote diagram for: Bedrock Managed Agents Powered by OpenAI: What Server-Side Codex Means for Enterprise Automation](/sketchnotes/articles/2026-04-30-bedrock-managed-agents-openai-server-side-codex-enterprise-automation.png)
 

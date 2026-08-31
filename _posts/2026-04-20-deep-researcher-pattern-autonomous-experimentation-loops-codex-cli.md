@@ -6,7 +6,7 @@ timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-deep-researcher-pattern-autonomous-experimentation-loops-codex-cli"
 tags: ["codex-cli", "autonomous-agents", "long-sessions", "experimentation", "research", "memory-management", "thread-automations", "cost-optimisation"]
 date: 2026-04-20T09:00:00+00:00
-last_modified_at: 2026-08-31T04:08:53+01:00
+last_modified_at: 2026-08-31T06:14:22+01:00
 ---
 ![Sketchnote diagram for: The Deep Researcher Pattern: Building 24/7 Autonomous Experimentation Loops with Codex CLI](/sketchnotes/articles/2026-04-20-deep-researcher-pattern-autonomous-experimentation-loops-codex-cli.png)
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-embedded-systems-firmware-teams-hardware-in-the-loop"
 tags: ["codex-cli", "embedded-systems", "firmware", "hardware-in-the-loop", "RTOS", "AGENTS.md", "sandbox", "cross-compilation"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-08-31T04:08:53+01:00
+last_modified_at: 2026-08-31T06:14:22+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Embedded Systems and Firmware Teams: Hardware-in-the-Loop, RTOS Patterns, and Agent-Driven Bring-Up](/sketchnotes/articles/2026-04-26-codex-cli-embedded-systems-firmware-teams-hardware-in-the-loop.png)
 

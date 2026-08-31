@@ -5,7 +5,7 @@ timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-memmorph-memory-poisoning-tool-hijacking-llm-agents-codex-cli-memory-integrity-defence"
 tags: ["codex-cli", "security", "memory-poisoning", "MemMorph", "tool-hijacking", "ICML-2026", "agent-security", "persistent-memory", "defence-patterns"]
 date: 2026-06-23T09:00:00+00:00
-last_modified_at: 2026-08-31T04:08:53+01:00
+last_modified_at: 2026-08-31T06:14:22+01:00
 ---
 # MemMorph and the Memory Poisoning Threat: How Three Fake Memories Hijack Agent Tool Selection — and How Codex CLI Defends
 
