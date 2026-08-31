@@ -5,7 +5,7 @@ timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-terminal-is-all-you-need-hci-research-codex-cli-terminal-first-architecture-advantage"
 tags: ["codex-cli", "terminal", "hci-research", "developer-experience", "productivity", "architecture", "design-properties"]
 date: 2026-06-07T09:00:00+00:00
-last_modified_at: 2026-08-31T11:36:07+01:00
+last_modified_at: 2026-08-31T12:12:02+01:00
 ---
 # Terminal Is All You Need: What HCI Research Reveals About Codex CLI's Terminal-First Advantage
 

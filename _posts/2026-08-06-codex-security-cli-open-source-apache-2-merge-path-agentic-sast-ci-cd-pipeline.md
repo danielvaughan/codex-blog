@@ -6,7 +6,7 @@ timestamp: 2026-08-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-06-codex-security-cli-open-source-apache-2-merge-path-agentic-sast-ci-cd-pipeline"
 tags: ["codex-security", "open-source", "SAST", "CI/CD", "security", "merge-gate", "agentic-scanning", "apache-2.0"]
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-08-31T11:36:07+01:00
+last_modified_at: 2026-08-31T12:12:02+01:00
 ---
 
 # Codex Security CLI Goes Open Source: Building Agentic SAST into Your Merge Path

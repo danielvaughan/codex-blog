@@ -5,7 +5,7 @@ timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-jevons-paradox-ai-coding-agents-codex-cli-engineering-demand-productivity-measurement"
 tags: ["codex-cli", "productivity", "jevons-paradox", "engineering-hiring", "METR", "DORA", "developer-metrics", "goal-mode"]
 date: 2026-06-26T09:00:00+00:00
-last_modified_at: 2026-08-31T11:36:07+01:00
+last_modified_at: 2026-08-31T12:12:02+01:00
 ---
 # The Jevons Paradox of AI Coding: Why Codex CLI Creates More Engineering Work, Not Less — and How to Measure What Matters
 

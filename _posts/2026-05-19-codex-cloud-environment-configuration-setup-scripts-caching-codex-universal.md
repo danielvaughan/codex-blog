@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cloud-environment-configuration-setup-scripts-caching-codex-universal"
 tags: ["codex-cli", "codex-cloud", "cloud-environments", "setup-scripts", "container-caching", "codex-universal", "docker", "devops", "ci-cd"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-08-31T11:36:07+01:00
+last_modified_at: 2026-08-31T12:12:02+01:00
 ---
 ![Sketchnote diagram for: Codex Cloud Environment Configuration: Setup Scripts, Container Caching, and the codex-universal Image](/sketchnotes/articles/2026-05-19-codex-cloud-environment-configuration-setup-scripts-caching-codex-universal.png)
 

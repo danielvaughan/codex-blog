@@ -5,7 +5,7 @@ timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cloud-environments-setup-scripts-caching-secrets-codex-universal"
 tags: ["codex-cloud", "cloud-environments", "codex-universal", "setup-scripts", "container-caching", "secrets", "network-proxy", "docker", "ci-cd"]
 date: 2026-05-31T09:00:00+00:00
-last_modified_at: 2026-08-31T11:36:07+01:00
+last_modified_at: 2026-08-31T12:12:02+01:00
 ---
 # Codex Cloud Environments: Setup Scripts, Container Caching, Secrets, and the codex-universal Image
 

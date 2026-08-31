@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-technical-debt-reduction-automated-refactoring"
 tags: ["technical-debt", "refactoring", "dead-code", "dependency-upgrades", "agents-md", "subagents", "codex-exec", "ci-cd", "automation"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-08-31T11:36:07+01:00
+last_modified_at: 2026-08-31T12:12:02+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Technical Debt Reduction: Automated Refactoring, Dead Code Detection, and Dependency Upgrades](/sketchnotes/articles/2026-04-13-codex-cli-technical-debt-reduction-automated-refactoring.png)
 
