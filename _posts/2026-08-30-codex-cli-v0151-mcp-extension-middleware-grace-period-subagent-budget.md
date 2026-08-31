@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.151.0: MCP Extension Middleware, Configurable Grace Periods, and Subagent Budget Accounting"
 date: 2026-08-30T12:00:00+00:00
-last_modified_at: 2026-08-31T12:12:02+01:00
+last_modified_at: 2026-08-31T14:10:15+01:00
 tags: ["codex-cli", "v0.151.0", "mcp", "extensions", "middleware", "subagents", "token-budget", "sandbox", "permissions"]
 ---
 

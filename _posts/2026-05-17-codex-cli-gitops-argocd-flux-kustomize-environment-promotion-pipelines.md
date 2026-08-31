@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-gitops-argocd-flux-kustomize-environment-promotion-pipelines"
 tags: ["codex-cli", "gitops", "argocd", "flux", "kustomize", "kubernetes", "environment-promotion", "continuous-delivery"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-08-31T12:12:02+01:00
+last_modified_at: 2026-08-31T14:10:15+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for GitOps Workflows: ArgoCD Application Generation, Kustomize Overlay Management, and Environment Promotion Pipelines](/sketchnotes/articles/2026-05-17-codex-cli-gitops-argocd-flux-kustomize-environment-promotion-pipelines.png)
 

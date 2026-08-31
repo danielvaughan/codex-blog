@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## SWE-Touch — User Edits Workspace Blindness Collaborative Coding Agents Codex CLI (2026-08-31 Hourly Article Run)
+
+1. ✅ **SWE-Touch: The 7.7-Point Tax of Workspace Blindness When Users Edit Code Mid-Task** — Written 2026-08-31 → `2026-08-31-swe-touch-user-edits-workspace-blindness-collaborative-coding-agents-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Tan, Meng, Lei, Wang, He, Zhao & Liu (CASIA, arXiv:2608.02499, August 3, 2026) "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code"; framework: validated counter-edits (7.0 lines, 1.04 files avg) injected region-triggered K=3 times per task when agent accesses mined task-critical code; 9 models on SWE-bench Verified (200 tasks); mean −7.7pp (range −1.3 to −16.5pp): Opus 4.8 85.2%→83.3% (−1.8), GPT 5.5 80.5%→79.2% (−1.3), DeepSeek V4 Pro 74.8%→63.8% (−11.0), Qwen3-Coder-480B 57.2%→40.7% (−16.5); Co-Edit control −0.1pp (confirms task-conflict specificity); SWE-Bench Pro −4.9pp, DeepSWE −3.4pp; 526-run failure audit: Retained Conflict 63.3%, Incorrect Replacement 13.9%, Incomplete Reconciliation 11.6%, Off-target 5.5%; retention rate ρ=0.80 with edit-revision behaviour; mapped to Codex CLI: no on_file_modified hook gap, PreToolUse git-diff workspace-drift detector (exit code 2), AGENTS.md re-inspection directive, approval_policy=ask for interactive sessions, codex queue out-of-band message delivery (v0.149.0); 4 citations; ~1,200 words
+   - SEO targets: "SWE-Touch coding agent user edits counter-edit benchmark arXiv 2608.02499", "codex cli workspace awareness collaborative editing user modification detection", "coding agent workspace blindness 7.7 points SWE-bench user edits", "codex cli PreToolUse hook git diff workspace drift detector", "codex cli approval_policy ask collaborative editing AGENTS.md re-inspection"
+
+---
+
 ## BASM Boundary-Aware Skill Memory — Skill Imitation Trap, Codex CLI AGENTS.md (2026-08-31 Hourly Article Run)
 
 1. ✅ **When Not to Imitate: Boundary-Aware Skill Memory and the Skill Imitation Trap — Implications for Codex CLI AGENTS.md** — Written 2026-08-31 → `2026-08-31-basm-boundary-aware-skill-memory-skill-imitation-trap-codex-cli-agents-md.md`

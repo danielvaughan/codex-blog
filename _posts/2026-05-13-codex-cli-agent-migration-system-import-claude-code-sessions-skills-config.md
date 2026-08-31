@@ -6,7 +6,7 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-agent-migration-system-import-claude-code-sessions-skills-config"
 tags: ["migration", "claude-code", "interoperability", "config-toml", "skills", "sessions", "mcp", "hooks"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-08-31T12:12:02+01:00
+last_modified_at: 2026-08-31T14:10:15+01:00
 ---
 ![Sketchnote diagram for: The Codex CLI Agent Migration System: Importing Sessions, Skills, and Configuration from Claude Code and Other Agents](/sketchnotes/articles/2026-05-13-codex-cli-agent-migration-system-import-claude-code-sessions-skills-config.png)
 

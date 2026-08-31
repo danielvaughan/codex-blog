@@ -5,7 +5,7 @@ timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-agent-as-a-router-agentic-model-routing-coding-tasks-codex-cli-acrouter-coderouterbench"
 tags: ["codex-cli", "model-routing", "multi-model", "cost-optimisation", "ACRouter", "CodeRouterBench", "config.toml", "profiles"]
 date: 2026-06-27T09:00:00+00:00
-last_modified_at: 2026-08-31T12:12:02+01:00
+last_modified_at: 2026-08-31T14:10:15+01:00
 ---
 # Agent-as-a-Router: What the First Agentic Model Routing Benchmark Means for Codex CLI Multi-Model Workflows
 
