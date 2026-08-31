@@ -5,7 +5,7 @@ timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-illusion-multi-agent-advantage-codex-cli-subagent-decision-framework-single-agent-cot-sc"
 tags: ["codex-cli", "multi-agent", "subagents", "single-agent", "CoT-SC", "orchestration", "cost-efficiency", "decision-framework"]
 date: 2026-07-03T09:00:00+00:00
-last_modified_at: 2026-08-31T02:16:22+01:00
+last_modified_at: 2026-08-31T03:14:06+01:00
 ---
 # The Illusion of Multi-Agent Advantage: When Codex CLI Subagents Help and When a Single Agent Wins
 

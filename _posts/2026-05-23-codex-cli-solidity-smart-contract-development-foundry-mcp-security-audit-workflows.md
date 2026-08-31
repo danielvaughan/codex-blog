@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-solidity-smart-contract-development-foundry-mcp-security-audit-workflows"
 tags: ["codex-cli", "solidity", "smart-contracts", "foundry", "mcp", "security-audit", "ethereum", "web3"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-08-31T02:16:22+01:00
+last_modified_at: 2026-08-31T03:14:06+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Solidity and Smart Contract Development: Foundry MCP, Security Auditing, and Agent-Driven Contract Workflows](/sketchnotes/articles/2026-05-23-codex-cli-solidity-smart-contract-development-foundry-mcp-security-audit-workflows.png)
 

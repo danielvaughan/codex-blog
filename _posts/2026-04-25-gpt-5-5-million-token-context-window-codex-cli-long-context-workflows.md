@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-gpt-5-5-million-token-context-window-codex-cli-long-context-workflows"
 tags: ["gpt-5.5", "context-window", "compaction", "long-context", "cost-optimisation", "large-codebases", "configuration"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-08-31T02:16:22+01:00
+last_modified_at: 2026-08-31T03:14:06+01:00
 ---
 ![Sketchnote diagram for: GPT-5.5's Million-Token Context Window: Practical Strategies for Codex CLI Long-Context Workflows](/sketchnotes/articles/2026-04-25-gpt-5-5-million-token-context-window-codex-cli-long-context-workflows.png)
 

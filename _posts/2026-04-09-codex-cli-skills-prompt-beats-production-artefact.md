@@ -2,7 +2,7 @@
 title: "Codex CLI Skills: When a 10-Word Prompt Beats a Production Artefact"
 description: "The skill ecosystem for AI coding agents has exploded. OpenAI's skills catalogue ships system-level skills like skill-creator and skill-installer bundled."
 date: 2026-04-09T06:13:00+00:00
-last_modified_at: 2026-08-31T02:16:22+01:00
+last_modified_at: 2026-08-31T03:14:06+01:00
 tags:
   - skills
   - minimalism

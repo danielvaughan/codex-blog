@@ -1,7 +1,7 @@
 ---
 title: "The `update_plan` Tool Goes Opt-In: When to Disable Codex CLI's Built-In Planner"
 date: 2026-08-31T11:00:00+00:00
-last_modified_at: 2026-08-31T02:16:22+01:00
+last_modified_at: 2026-08-31T03:14:06+01:00
 tags: ["codex-cli", "planning", "goal-mode", "mcp", "configuration", "v0.152", "multi-agent"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["codex-cli", "planning", "goal-mode", "mcp", "configuration", "v0.152", "
 
 ---
 
-A pull request merged on 28 August 2026 changed the default state of Codex CLI's built-in `update_plan` tool from always-on to opt-in.[^1] The change is small in surface area but has non-trivial implications for any team running Codex alongside an external planning system — a Linear MCP server, a Jira integration, a custom task-tracking backend, or a host application that manages plans on the agent's behalf. This article explains what the tool does, why it sometimes becomes a liability, and how to configure it correctly for each usage pattern.
+A pull request merged on 31 August 2026 changed the default state of Codex CLI's built-in `update_plan` tool from always-on to opt-in.[^1] The change is small in surface area but has non-trivial implications for any team running Codex alongside an external planning system — a Linear MCP server, a Jira integration, a custom task-tracking backend, or a host application that manages plans on the agent's behalf. This article explains what the tool does, why it sometimes becomes a liability, and how to configure it correctly for each usage pattern.
 
 ## What `update_plan` Actually Does
 
@@ -48,7 +48,7 @@ The same problem appears in headless CI usage. A `codex exec` invocation for aut
 
 ## The Configuration Change
 
-Starting from the pre-release train that began shipping on 28 August 2026, `update_plan` is disabled by default.[^1] The configuration key is `tools.update_plan.enabled` in `~/.codex/config.toml` (user-level) or `.codex/config.toml` (project-level):
+Starting from the pre-release train that began shipping on 31 August 2026, `update_plan` is disabled by default.[^1] The configuration key is `tools.update_plan.enabled` in `~/.codex/config.toml` (user-level) or `.codex/config.toml` (project-level):
 
 ```toml
 # .codex/config.toml
@@ -161,8 +161,8 @@ The `update_plan` tool is now opt-in as of late August 2026.[^1] For teams using
 
 ## Citations
 
-[^1]: PR #41744 "Make the update_plan tool opt-in" — openai/codex, merged 28 August 2026. <https://github.com/openai/codex/pull/41744>
-[^2]: PR #41630 "Update tests for default-enabled update_plan" — openai/codex, merged 28 August 2026. <https://github.com/openai/codex/pull/41630>
+[^1]: PR #41744 "Make the update_plan tool opt-in" — openai/codex, merged 31 August 2026. <https://github.com/openai/codex/pull/41744>
+[^2]: PR #41630 "Update tests for default-enabled update_plan" — openai/codex, merged 30 August 2026. <https://github.com/openai/codex/pull/41630>
 [^3]: GitHub Issue #33890 "Allow disabling the built-in `update_plan` tool independently" — openai/codex. <https://github.com/openai/codex/issues/33890>
 [^4]: Codex CLI v0.151.0 release notes — openai/codex, 29 August 2026. <https://github.com/openai/codex/releases/tag/rust-v0.151.0>
 [^5]: Codex CLI changelog — learn.chatgpt.com. <https://learn.chatgpt.com/docs/changelog>

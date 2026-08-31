@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-ruby-on-rails-agent-assisted-development-mcp-servers-rails-8-workflows"
 tags: ["codex-cli", "ruby", "rails", "mcp", "rails-8", "solid-queue", "kamal", "agent-workflows"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-08-31T02:16:22+01:00
+last_modified_at: 2026-08-31T03:14:06+01:00
 ---
 # Codex CLI for Ruby on Rails: Agent-Assisted Development, MCP Servers, and Rails 8 Workflows
 
