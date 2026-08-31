@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-code-review-agents-noise-problem-codex-cli-review-configuration"
 tags: ["code-review", "research", "MSR-2026", "signal-to-noise", "review-agents", "Codex-CLI", "AGENTS-md", "hooks", "CI-CD", "quality-gates"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 ---
 ![Sketchnote diagram for: Why Code Review Agents Produce 60% Noise — and How to Configure Codex CLI Reviews That Don't](/sketchnotes/articles/2026-04-19-code-review-agents-noise-problem-codex-cli-review-configuration.png)
 

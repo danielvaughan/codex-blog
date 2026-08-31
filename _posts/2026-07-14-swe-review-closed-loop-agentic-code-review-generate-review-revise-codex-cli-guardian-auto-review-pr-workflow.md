@@ -1,7 +1,7 @@
 ---
 title: "SWE-Review and the Closed-Loop Imperative: Why Generate-Review-Revise Outperforms One-Shot PR Generation — and How Codex CLI's Guardian Auto-Review Already Closes the Gap"
 date: 2026-07-14T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 tags: ["codex-cli", "code-review", "SWE-Review", "auto-review", "guardian", "generate-review-revise", "agentic-code-review", "SWE-bench", "closed-loop"]
 ---
 

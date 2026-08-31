@@ -2,7 +2,7 @@
 title: "Inside the Codex Agent Loop: How Your Agent Actually Works"
 description: "*Based on Michael Bolins Unrolling the Codex Agent Loop series (January 2026). Source:"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 summary: "Michael Bolin's deep dive into Codex internals decoded — tokenisation, the quadratic growth problem, how tool calls work, and what it means for how you build agentic workflows."
 substack_ready: false
 tags:

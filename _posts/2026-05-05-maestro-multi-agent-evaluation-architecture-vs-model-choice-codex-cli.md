@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-maestro-multi-agent-evaluation-architecture-vs-model-choice-codex-cli"
 tags: ["codex-cli", "multi-agent", "evaluation", "MAESTRO", "architecture", "observability", "subagents"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 ---
 ![Sketchnote diagram for: MAESTRO Lessons for Codex CLI: What a 12-System Multi-Agent Evaluation Suite Reveals About Architecture vs Model Choice](/sketchnotes/articles/2026-05-05-maestro-multi-agent-evaluation-architecture-vs-model-choice-codex-cli.png)
 

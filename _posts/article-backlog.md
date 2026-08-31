@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## openJiuwen — Rail-Based Harness Composition, Swarm Flow, SWE-bench 82.6% (2026-08-31 Hourly Article Run)
+
+1. ✅ **openJiuwen: Rail-Based Harness Composition, Swarm Flow Operators, and What 82.6% SWE-bench Means for Codex CLI Operators** — Written 2026-08-31 → `2026-08-31-openjiuwen-rail-based-harness-composition-swarm-flow-swe-bench-82-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Yu et al. (openJiuwen Team, Huawei Technologies, arXiv:2608.27969, August 28, 2026) "openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents"; two core problems: Structural Composability + Runtime Adaptivity; Inner/Outer Loop substrate (Inner = bounded ReAct per tool use, Outer = task-level continuation with Goal Mode); Rail mechanism: each Rail ρ = {lifecycle hooks ℋ_ρ, handler f_ρ, priority p_ρ} attaches capability without modifying core loop; Swarm Flow operators: budget(), parallel(), compact(), pipeline(), agent_session(), human(), return; runtime adaptivity: progressive context compression (full→summary→compact handle), Goal Mode continuation (continue/complete/blocked terminal states), LSP-driven passive feedback (ranked deduplicated diagnostics injected post-write), self-reflection (trajectory mining to retrieval index); benchmark results: 82.6% SWE-bench Verified (+3.4pp over 79.2% prior best), 87.19% Terminal-Bench 2.1 (+3.39pp over Claude Code); duration breakdown: <15min 91.75%, 15min–1hr 81.23%, 1–4hr 52.38%; Codex CLI mapping: Rails ↔ hooks system (multiple PostToolUse hooks = capability stack), Swarm Flow ↔ codex agents + codex queue, budget() ↔ goal mode token visibility, human() ↔ approval_policy=ask + Guardian interrupt hook, Goal Mode ↔ --goal flag + auto_compact_token_limit tuning, self-reflection ↔ PostToolUse completion hook → skills file append; 5 citations; ~1,350 words
+   - SEO targets: "openJiuwen Rail-based harness composition Swarm Flow arXiv 2608.27969", "coding agent harness engineering SWE-bench 82.6 Inner Outer Loop long-horizon", "codex CLI hooks Rail capability composition LSP feedback PostToolUse", "openJiuwen Swarm Flow operators parallel pipeline codex multi-agent", "harness structural composability runtime adaptivity coding agent 2026"
+
+---
+
 ## RealSWE — Benchmark-Prompt Gap, Realistic User Requests, Codex CLI Prompting (2026-08-31 Hourly Article Run)
 
 1. ✅ **RealSWE: The 6.4-Point Reality Penalty — What the Benchmark-Prompt Gap Means for Codex CLI Users** — Written 2026-08-31 → `2026-08-31-realswe-reality-penalty-benchmark-prompt-gap-codex-cli-users.md`

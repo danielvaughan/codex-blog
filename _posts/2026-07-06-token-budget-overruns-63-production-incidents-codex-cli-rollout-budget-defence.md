@@ -1,7 +1,7 @@
 ---
 title: "Token Budget Overruns: What 63 Production Incidents Reveal About Runaway Agent Costs — and How Codex CLI's Rollout Budget Stops the Bleed"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 tags: ["codex-cli", "token-budgets", "cost-control", "production-incidents", "rollout-budget", "agent-safety", "affine-types"]
 ---
 

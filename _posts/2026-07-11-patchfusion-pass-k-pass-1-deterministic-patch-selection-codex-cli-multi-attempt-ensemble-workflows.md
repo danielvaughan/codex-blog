@@ -5,7 +5,7 @@ timestamp: 2026-07-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-11-patchfusion-pass-k-pass-1-deterministic-patch-selection-codex-cli-multi-attempt-ensemble-workflows"
 tags: ["codex-cli", "patch-selection", "patchfusion", "pass-at-k", "test-time-scaling", "best-of-n", "multi-model-routing", "ensemble", "swe-bench", "july-2026"]
 date: 2026-07-11T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 ---
 # PatchFusion and the Pass@k-to-Pass@1 Problem: Why Your Codex CLI Needs a Patch Selection Strategy
 

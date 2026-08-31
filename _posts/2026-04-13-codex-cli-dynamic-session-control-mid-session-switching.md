@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-dynamic-session-control-mid-session-switching"
 tags: ["session-control", "/permissions", "/model", "/fast", "/plan", "steer-mode", "adaptive-workflow", "approval-modes", "config-toml", "profiles"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 ---
 ![Sketchnote diagram for: Dynamic Session Control in Codex CLI: Mid-Session Switching of Models, Permissions, and Workflow Modes](/sketchnotes/articles/2026-04-13-codex-cli-dynamic-session-control-mid-session-switching.png)
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-cyber-safety-trusted-access-model-rerouting-defence"
 tags: ["codex-cli", "cyber-safety", "security", "trusted-access", "GPT-5.4-Cyber", "model-rerouting", "preparedness-framework"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Cyber Safety: Understanding Model Rerouting, Trusted Access, and the False Positive Problem](/sketchnotes/articles/2026-04-30-codex-cli-cyber-safety-trusted-access-model-rerouting-defence.png)
 

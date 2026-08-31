@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-end-of-fine-tuning-openai-api-wind-down-codex-cli-customisation-stack-agents-md-skills-hooks"
 tags: ["codex-cli", "fine-tuning", "customisation", "AGENTS.md", "skills", "hooks", "configuration", "GPT-5.5", "prompt-engineering", "migration"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 ---
 # The End of Fine-Tuning: What OpenAI's API Wind-Down Means for Your Codex CLI Customisation Strategy
 

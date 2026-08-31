@@ -1,7 +1,7 @@
 ---
 title: "Instruction Stacking Collapse: Why Your AGENTS.md Rules Fight Each Other — and How Prompt Compilation Helps Weaker Models Survive"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 tags: ["codex-cli", "agents-md", "instruction-following", "prompt-engineering", "instruction-stacking", "prompt-compilation", "model-selection", "GPT-5.6-Luna", "Claude-Sonnet-4.6", "research"]
 ---
 

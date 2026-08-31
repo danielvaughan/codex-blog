@@ -5,7 +5,7 @@ timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-multi-cloud-provider-configuration-aws-bedrock-azure-oracle-post-exclusivity-enterprise"
 tags: ["codex-cli", "multi-cloud", "aws-bedrock", "azure-openai", "oracle-oci", "model-providers", "enterprise", "configuration", "config-toml", "post-exclusivity"]
 date: 2026-06-15T09:00:00+00:00
-last_modified_at: 2026-08-31T16:12:02+01:00
+last_modified_at: 2026-08-31T18:16:04+01:00
 ---
 # Codex CLI in the Multi-Cloud Era: Configuring Model Providers Across AWS Bedrock, Azure OpenAI, Oracle OCI, and Direct OpenAI
 
