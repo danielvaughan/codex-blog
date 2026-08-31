@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-specification-drift-slump-codex-cli-faithfulness-long-horizon-sessions"
 tags: ["codex-cli", "research", "long-horizon", "specification-drift", "SLUMP", "faithfulness", "plan-mode", "PLANS.md", "context-engineering", "best-practices"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-08-31T07:14:35+01:00
+last_modified_at: 2026-08-31T08:16:21+01:00
 ---
 ![Sketchnote diagram for: Specification Drift and SLUMP: Why Codex CLI Loses Faithfulness in Long-Horizon Sessions and How to Fight Back](/sketchnotes/articles/2026-05-02-specification-drift-slump-codex-cli-faithfulness-long-horizon-sessions.png)
 

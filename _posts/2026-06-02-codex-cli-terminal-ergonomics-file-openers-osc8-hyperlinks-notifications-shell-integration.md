@@ -5,7 +5,7 @@ timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-terminal-ergonomics-file-openers-osc8-hyperlinks-notifications-shell-integration"
 tags: ["codex-cli", "terminal", "ergonomics", "file-opener", "osc-8", "hyperlinks", "notifications", "shell-completion", "config-toml", "tui", "developer-experience"]
 date: 2026-06-02T09:00:00+00:00
-last_modified_at: 2026-08-31T07:14:35+01:00
+last_modified_at: 2026-08-31T08:16:21+01:00
 ---
 # Codex CLI Terminal Ergonomics: File Openers, OSC 8 Hyperlinks, Notifications, and Shell Integration for a Friction-Free Environment
 

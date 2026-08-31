@@ -5,7 +5,7 @@ timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-saber-operational-safety-benchmark-coding-agents-codex-cli-workspace-violation-defence"
 tags: ["codex-cli", "security", "operational-safety", "SABER", "benchmark", "sandbox", "permission-profiles", "hooks", "PreToolUse", "PostToolUse", "workspace-safety", "defence-in-depth"]
 date: 2026-06-22T09:00:00+00:00
-last_modified_at: 2026-08-31T07:14:35+01:00
+last_modified_at: 2026-08-31T08:16:21+01:00
 ---
 # SABER: What the Operational Safety Benchmark Means for Codex CLI Workspace Defence
 

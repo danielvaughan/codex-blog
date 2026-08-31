@@ -6,7 +6,7 @@ timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-safer-builders-risky-maintainers-msr-2026-breaking-changes-codex-cli-refactoring-maintenance-configuration"
 tags: ["breaking-changes", "refactoring", "maintenance", "MSR-2026", "AIDev", "codex-cli", "AGENTS.md", "hooks", "approval-policy", "code-quality", "empirical-research"]
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-08-31T07:14:35+01:00
+last_modified_at: 2026-08-31T08:16:21+01:00
 ---
 # Safer Builders, Risky Maintainers: What the MSR 2026 Breaking Changes Study Means for Codex CLI Refactoring and Maintenance Configuration
 

@@ -1,7 +1,7 @@
 ---
 title: "Coding Agents as Test-Suite Auditors: What 906 Accepted-but-Buggy Submissions Reveal About Your Test Coverage — and How to Build Adversarial Test Pipelines with Codex CLI"
 date: 2026-08-05T09:00:00+00:00
-last_modified_at: 2026-08-31T07:14:35+01:00
+last_modified_at: 2026-08-31T08:16:21+01:00
 tags: ["codex-cli", "test-generation", "adversarial-testing", "test-suite-audit", "PostToolUse", "codex-exec", "competitive-programming", "verification", "GPT-5.4"]
 ---
 

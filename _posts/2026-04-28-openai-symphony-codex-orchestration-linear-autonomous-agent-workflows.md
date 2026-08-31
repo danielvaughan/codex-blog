@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-openai-symphony-codex-orchestration-linear-autonomous-agent-workflows"
 tags: ["codex-cli", "symphony", "orchestration", "linear", "autonomous-agents", "app-server", "devops", "ci-cd"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-08-31T07:14:35+01:00
+last_modified_at: 2026-08-31T08:16:21+01:00
 ---
 ![Sketchnote diagram for: OpenAI Symphony: Turning Linear Into a Control Plane for Autonomous Codex Agents](/sketchnotes/articles/2026-04-28-openai-symphony-codex-orchestration-linear-autonomous-agent-workflows.png)
 

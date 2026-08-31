@@ -5,7 +5,7 @@ timestamp: 2026-06-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-mastra-npm-supply-chain-attack-codex-cli-postinstall-defence-npm-v12-agent-hardening"
 tags: ["codex-cli", "supply-chain", "npm", "security", "mastra", "sapphire-sleet", "postinstall", "sandbox", "PreToolUse", "npm-v12", "dependency-hardening"]
 date: 2026-06-20T09:00:00+00:00
-last_modified_at: 2026-08-31T07:14:35+01:00
+last_modified_at: 2026-08-31T08:16:21+01:00
 ---
 # The Mastra Attack: What a North Korean Supply Chain Compromise of an AI Agent Framework Means for Codex CLI Defence
 

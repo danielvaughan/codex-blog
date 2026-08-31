@@ -5,7 +5,7 @@ timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-cli-coding-agent-adoption-microsoft-study-peer-driven-rollout-codex-cli-enterprise-strategy"
 tags: ["codex-cli", "enterprise-adoption", "developer-productivity", "microsoft-study", "peer-influence", "cli-coding-agents", "pull-request-throughput", "rollout-strategy"]
 date: 2026-07-04T09:00:00+00:00
-last_modified_at: 2026-08-31T07:14:35+01:00
+last_modified_at: 2026-08-31T08:16:21+01:00
 ---
 # CLI Coding Agent Adoption at Scale: What Microsoft's 24% PR Lift Reveals About Peer-Driven Rollout — and How to Apply It to Your Codex CLI Deployment
 

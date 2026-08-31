@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## MCP 2026-07-28 Stateless Protocol — Codex CLI Operators Guide (2026-08-31 Hourly Article Run)
+
+1. ✅ **MCP 2026-07-28: The Stateless Protocol Revolution and What It Means for Your Codex CLI Tool Stack** — Written 2026-08-31 → `2026-08-31-mcp-2026-07-28-stateless-protocol-codex-cli-operators-guide.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — MCP specification 2026-07-28 (finalized 28 July 2026); five breaking changes: (1) sessions/Mcp-Session-Id removed, (2) initialize handshake removed (replaced by server/discover), (3) Tasks moved to formal io.modelcontextprotocol/tasks extension (tasks/result blocking method removed, tasks/get polling added), (4) Mcp-Method + Mcp-Name routing headers mandatory on all Streamable HTTP POSTs, (5) resultType field required on tool results; Multi Round-Trip Requests (MRTR / SEP-2322): tools can return InputRequiredResult mid-execution without long-lived streams, client retries with inputResponses + echoed requestState; cacheable list responses: ttlMs + cacheScope on tools/list, resources/list, prompts/list; subscriptions/listen replaces GET stream for server-initiated notifications; x-mcp-header parameter annotation for gateway routing; Codex CLI support: PR #35724 adds opt-in via protocol_version = "2026-07-28" in config.toml, CODEX_MCP_PROTOCOL_VERSION env var for stdio, automatic legacy fallback; SDK changes: TypeScript v2 package split (@modelcontextprotocol/server + /client), ESM-only, Standard Schema, registerTool rename, codemod available; Python v2 FastMCP→MCPServer; deprecations: HTTP+SSE already eligible for removal, Roots/Sampling/Logging deprecated with July 2027 earliest removal; 6 citations; ~1,290 words
+   - SEO targets: "MCP 2026-07-28 stateless protocol codex cli operators", "codex cli mcp protocol_version 2026-07-28 config.toml", "MCP multi round-trip requests MRTR input_required tool mid-execution", "MCP stateless initialize handshake removed load balancer", "MCP 2026-07-28 breaking changes migration guide", "codex cli mcp server discover endpoint fallback"
+
+---
+
 ## Codex CLI v0.152 Alpha Preview (2026-08-31 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.152 Alpha Preview: Rate-Limit Banners, Package-Style MCP Names, Vim Search, and the Model Catalog Instruction Split** — Written 2026-08-31 → `2026-08-31-codex-cli-v0152-alpha-preview-rate-limit-banners-package-mcp-names-vim-search-model-catalog.md`

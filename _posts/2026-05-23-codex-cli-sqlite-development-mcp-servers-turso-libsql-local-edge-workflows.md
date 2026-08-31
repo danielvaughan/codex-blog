@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-sqlite-development-mcp-servers-turso-libsql-local-edge-workflows"
 tags: ["codex-cli", "sqlite", "mcp", "turso", "libsql", "database", "edge-computing", "embedded-replicas"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-08-31T07:14:35+01:00
+last_modified_at: 2026-08-31T08:16:21+01:00
 ---
 # Codex CLI for SQLite Development: MCP Servers, Turso/libSQL, and Local-to-Edge Database Workflows
 
