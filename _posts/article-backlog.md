@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## LoopsBench & LoopArena — Loop Engineering Shift, Codex CLI Goal Mode (2026-08-31 Hourly Article Run)
+
+1. ✅ **LoopsBench & LoopArena: The Shift from Harness Engineering to Loop Engineering — What the Numbers Mean for Codex CLI Operators** — Written 2026-08-31 → `2026-08-31-loopsbench-looparena-loop-engineering-codex-cli-goal-mode.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Li et al. (Microsoft Research, arXiv:2608.00267, July 31 / revised August 10, 2026) "LoopsBench: From Harness Engineering to Loop Engineering in Coding Agent Evaluation" + Wang et al. (DreamX/Alibaba, arXiv:2608.28281, August 28, 2026) "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering"; LoopsBench: 112 tasks as dependency DAGs, 5300+ development units, 8 languages, 9 domains (PR Sequences 29, Course Labs 57, Research Evolutions 26), flow-aware runtime (topologically-gated test release, regression obligations), best result Opus-4.7+Claude Code+outer continuation=25.00%, Codex goal mode 13.39%→18.75%, outer continuation adds 5-8pp across all models, planning fidelity gap (Edge F1 0.27–0.71), regression events 0.13–0.36/run; LoopArena: Controller/Worker separation, Evidence Packets, Loop Contracts (advance/verify/stop), Type I/II/III evaluation tiers, Type II 64.4% cheaper with ρ=0.9747 rank correlation vs Type III, best: GPT-5.5 24.69% full-task, fixed-control baseline=18.52%=no-control baseline (adaptive control essential); Codex CLI mapping: goal mode → inner loop, codex queue → evidence-driven Loop Contracts, AGENTS.md DAG encoding → planning fidelity fix, rollout_budget→40, auto_compact_token_limit→80000, outer-loop bash script with cargo test check; 6 citations; ~1,350 words
+   - SEO targets: "LoopsBench loop engineering harness engineering shift coding agent evaluation arXiv 2608.00267", "LoopArena controller worker separation coding agent loop evaluation arXiv 2608.28281", "codex cli goal mode outer continuation long-horizon task loop engineering", "loop engineering codex cli codex queue evidence packet AGENTS.md dependency DAG", "coding agent outer loop residual continuation 2026 benchmark"
+
+---
+
 ## openJiuwen — Rail-Based Harness Composition, Swarm Flow, SWE-bench 82.6% (2026-08-31 Hourly Article Run)
 
 1. ✅ **openJiuwen: Rail-Based Harness Composition, Swarm Flow Operators, and What 82.6% SWE-bench Means for Codex CLI Operators** — Written 2026-08-31 → `2026-08-31-openjiuwen-rail-based-harness-composition-swarm-flow-swe-bench-82-codex-cli.md`

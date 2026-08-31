@@ -5,7 +5,7 @@ timestamp: 2026-07-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-08-what-resolve-rate-hides-trajectory-structure-diagnostics-coding-agents-codex-cli-traceprobe-anti-patterns"
 tags: ["trajectory-diagnostics", "resolve-rate", "codex-cli", "anti-patterns", "TraceProbe", "SWE-bench", "PostToolUse", "session-logs", "debugging"]
 date: 2026-07-08T09:00:00+00:00
-last_modified_at: 2026-08-31T18:16:04+01:00
+last_modified_at: 2026-08-31T20:11:30+01:00
 ---
 
 # What Resolve Rate Hides: Trajectory Diagnostics Reveal Why Two 78% Agents Are Nothing Alike — and How to Wire the Insight into Codex CLI

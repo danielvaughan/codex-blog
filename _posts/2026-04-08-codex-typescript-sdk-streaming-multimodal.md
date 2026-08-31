@@ -2,7 +2,7 @@
 title: "Codex TypeScript SDK: Streaming, Multimodal Inputs and Per-Thread Configuration"
 description: "The Codex TypeScript SDK (@openai/codex-sdk) transforms Codex CLI from an interactive terminal tool into an embeddable agent runtime ."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-08-31T18:16:04+01:00
+last_modified_at: 2026-08-31T20:11:30+01:00
 tags:
   - ecosystem
   - typescript-sdk

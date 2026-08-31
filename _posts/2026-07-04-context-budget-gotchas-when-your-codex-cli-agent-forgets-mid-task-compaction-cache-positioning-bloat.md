@@ -6,7 +6,7 @@ timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-context-budget-gotchas-when-your-codex-cli-agent-forgets-mid-task-compaction-cache-positioning-bloat"
 tags: ["codex-cli", "context-management", "compaction", "prompt-cache", "token-budget", "working-memory", "anti-patterns", "reliability"]
 date: 2026-07-04T09:00:00+00:00
-last_modified_at: 2026-08-31T18:16:04+01:00
+last_modified_at: 2026-08-31T20:11:30+01:00
 ---
 # Context Budget Gotchas: Eight Ways Your Codex CLI Agent Forgets Mid-Task and How to Prevent Catastrophic Context Loss
 

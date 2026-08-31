@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-slack-mcp-servers-chatops-channel-automation-team-workflows"
 tags: ["codex-cli", "slack", "mcp", "chatops", "automation", "team-workflows", "notifications"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-08-31T18:16:04+01:00
+last_modified_at: 2026-08-31T20:11:30+01:00
 ---
 # Codex CLI with Slack MCP Servers: ChatOps, Channel Automation, and Team Notification Workflows
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-empirical-research-agentic-pull-requests-codex-cli"
 tags: ["research", "agentic-PRs", "MSR-2026", "code-quality", "CI-CD", "AGENTS-md", "best-practices", "empirical-study"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-08-31T18:16:04+01:00
+last_modified_at: 2026-08-31T20:11:30+01:00
 ---
 ![Sketchnote diagram for: What 33,000 Agentic Pull Requests Reveal: Empirical Lessons for Codex CLI Practitioners](/sketchnotes/articles/2026-04-18-empirical-research-agentic-pull-requests-codex-cli.png)
 

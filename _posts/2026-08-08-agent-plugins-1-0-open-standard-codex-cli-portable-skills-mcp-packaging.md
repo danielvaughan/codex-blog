@@ -1,7 +1,7 @@
 ---
 title: "Agent Plugins 1.0: What the New Open Standard Means for Your Codex CLI Plugin Strategy"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-08-31T18:16:04+01:00
+last_modified_at: 2026-08-31T20:11:30+01:00
 tags: ["codex-cli", "agent-plugins", "mcp", "agent-skills", "open-standard", "plugin-architecture", "portability"]
 ---
 

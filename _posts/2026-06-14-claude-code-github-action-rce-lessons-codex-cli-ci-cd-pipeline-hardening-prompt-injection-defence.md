@@ -5,7 +5,7 @@ timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-claude-code-github-action-rce-lessons-codex-cli-ci-cd-pipeline-hardening-prompt-injection-defence"
 tags: ["security", "ci-cd", "github-actions", "prompt-injection", "supply-chain", "codex-action", "hardening"]
 date: 2026-06-14T09:00:00+00:00
-last_modified_at: 2026-08-31T18:16:04+01:00
+last_modified_at: 2026-08-31T20:11:30+01:00
 ---
 # Lessons from the Claude Code GitHub Action RCE: Hardening Codex CLI CI/CD Pipelines Against Agent Prompt Injection
 
