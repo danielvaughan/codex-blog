@@ -1,7 +1,7 @@
 ---
 title: "MCP 2026-07-28: The Stateless Protocol Revolution and What It Means for Your Codex CLI Tool Stack"
 date: 2026-08-31T17:30:00+00:00
-last_modified_at: 2026-08-31T10:09:51+01:00
+last_modified_at: 2026-08-31T10:18:47+01:00
 tags: ["codex-cli", "mcp", "protocol", "v0.147", "streamable-http", "stateless", "migration"]
 ---
 
@@ -12,7 +12,7 @@ The Model Context Protocol specification that shipped on 28 July 2026 is the lar
 
 ## Why Stateless?
 
-The original MCP lifecycle opened every server connection with an `initialize`/`initialized` handshake that established a protocol-level session identified by an `Mcp-Session-Id` header.[^2] This design made sense when a single developer connected to a single local server. It becomes a deployment liability as soon as you want to put your MCP server behind a load balancer: sticky sessions are required, horizontal scaling degrades gracefully, and any node restart forces a reconnect.
+The original MCP lifecycle opened every server connection with an `initialize`/`initialized` handshake that established a protocol-level session identified by an `Mcp-Session-Id` header.[^2] This design made sense when a single developer connected to a single local server. It becomes a deployment liability as soon as you want to put your MCP server behind a load balancer: sticky sessions are required, horizontal scaling does not degrade gracefully, and any node restart forces a reconnect.
 
 The 2026-07-28 revision removes the session layer entirely. Each HTTP POST to the MCP endpoint is now self-describing: client identity, protocol version, and capabilities travel in a `_meta` object on every request, and the `MCP-Protocol-Version` header must match the body's `io.modelcontextprotocol/protocolVersion` field.[^1] There is no handshake, no `Mcp-Session-Id`, and no GET stream endpoint. A plain round-robin load balancer now works out of the box.
 

@@ -1,7 +1,7 @@
 ---
 title: "What 24% More Merged PRs Tells Us About Rolling Out Codex CLI: Lessons from Microsoft's CLI Coding Agent Study"
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-08-31T10:09:51+01:00
+last_modified_at: 2026-08-31T10:18:47+01:00
 tags: ["codex-cli", "enterprise-rollout", "adoption", "productivity", "microsoft", "cli-coding-agents", "peer-visibility", "requirements-toml", "named-profiles"]
 ---
 

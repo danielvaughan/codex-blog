@@ -1,7 +1,7 @@
 ---
 title: "When Not to Imitate: Boundary-Aware Skill Memory and the Skill Imitation Trap — Implications for Codex CLI AGENTS.md"
 date: 2026-08-31T18:30:00+00:00
-last_modified_at: 2026-08-31T10:09:51+01:00
+last_modified_at: 2026-08-31T10:18:47+01:00
 tags: ["codex-cli", "agents-md", "skills", "memory", "tool-use", "agent-plugins", "reliability", "research"]
 ---
 
@@ -101,7 +101,7 @@ Every AGENTS.md block that describes a workflow pattern is effectively a procedu
 
 ### Agent Plugins and SKILL.md
 
-The Agent Plugins 1.0 specification (published August 2026 by OpenAI, Microsoft, AWS, Anysphere, and Vercel) stores executable skill definitions in `SKILL.md` files within plugin packages.[^1] These are currently procedural: goal, steps, examples. Adding boundary slots maps directly to BASM's schema:
+The Agent Plugins 1.0 specification (published August 2026 by OpenAI, Microsoft, AWS, Anysphere, and Vercel) stores executable skill definitions in `SKILL.md` files within plugin packages.[^6] These are currently procedural: goal, steps, examples. Adding boundary slots maps directly to BASM's schema:
 
 ```markdown
 ## Applicability

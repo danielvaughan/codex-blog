@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.152 Alpha Preview: Rate-Limit Banners, Package-Style MCP Names, Vim Search, and the Model Catalog Instruction Split"
 date: 2026-08-31T16:00:00+00:00
-last_modified_at: 2026-08-31T10:09:51+01:00
+last_modified_at: 2026-08-31T10:18:47+01:00
 tags: ["codex-cli", "v0.152", "alpha", "mcp", "vim", "rate-limits", "tui", "model-catalog", "multi-agent", "guardian"]
 ---
 
@@ -77,7 +77,7 @@ For teams that publish internal MCP servers to a private npm registry under an `
 
 ## Vim Search Motions in the Composer (PR #41586)
 
-Codex CLI's Vim mode has been progressively closing the gap with a fully-featured modal editor since `/vim` shipped in v0.129.0 and text objects arrived in v0.135.0.[^4] v0.152 adds the motion most Vim users notice is missing first: in-buffer search.
+Codex CLI's Vim mode has been progressively closing the gap with a fully-featured modal editor since `/vim` shipped in v0.129.0 and text objects arrived in v0.135.0.[^4] v0.152 adds the motion that most Vim users notice is missing first: in-buffer search.
 
 The implementation follows Vim semantics closely:
 

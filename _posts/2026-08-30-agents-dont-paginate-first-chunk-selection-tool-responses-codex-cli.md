@@ -1,7 +1,7 @@
 ---
 title: "Agents Don't Paginate: First-Chunk Inclusion Is What Drives Tool-Response Accuracy"
 date: 2026-08-30T14:00:00+00:00
-last_modified_at: 2026-08-31T10:09:51+01:00
+last_modified_at: 2026-08-31T10:18:47+01:00
 tags: ["codex-cli", "tool-responses", "context-management", "mcp", "token-budget", "tool_output_token_limit", "research", "arXiv"]
 ---
 
@@ -100,7 +100,7 @@ before the budget cap is applied.
 stdin: {"tool_name": str, "result": str, "query_terms": [str]}
 stdout: {"result": str}  or exit non-zero to reject
 """
-import json, sys, re
+import json, sys
 
 payload = json.load(sys.stdin)
 terms = [t.lower() for t in payload.get("query_terms", [])]

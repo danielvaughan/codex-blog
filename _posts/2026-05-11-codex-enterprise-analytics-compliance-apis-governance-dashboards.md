@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-enterprise-analytics-compliance-apis-governance-dashboards"
 tags: ["codex-cli", "enterprise", "analytics", "compliance", "governance", "SIEM", "API", "dashboards"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-08-31T10:09:51+01:00
+last_modified_at: 2026-08-31T10:18:47+01:00
 ---
 ![Sketchnote diagram for: Codex Enterprise Analytics and Compliance APIs: Usage Dashboards, Code Review Metrics, and Audit Integration](/sketchnotes/articles/2026-05-11-codex-enterprise-analytics-compliance-apis-governance-dashboards.png)
 
