@@ -5,7 +5,7 @@ timestamp: 2026-06-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-mcp-tool-census-177000-action-tool-growth-codex-cli-approval-gates-governance"
 tags: ["codex-cli", "mcp", "tool-governance", "security", "action-tools", "approval-gates", "agent-census"]
 date: 2026-06-29T09:00:00+00:00
-last_modified_at: 2026-08-31T22:17:26+01:00
+last_modified_at: 2026-09-01T00:15:00+01:00
 ---
 # 177,000 MCP Tools and the Action-Tool Explosion: What the First Large-Scale Agent Census Means for Codex CLI Governance
 

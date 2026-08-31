@@ -6,7 +6,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-mcp-readonlyhint-concurrent-tool-execution-annotations-parallelism"
 tags: ["codex-cli", "mcp", "readOnlyHint", "tool-annotations", "concurrency", "performance", "v0.134"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-08-31T22:17:26+01:00
+last_modified_at: 2026-09-01T00:15:00+01:00
 ---
 # MCP readOnlyHint in Codex CLI: Tool-Level Concurrent Execution Without the Server Flag
 

@@ -1,7 +1,7 @@
 ---
 title: "Model Routing Patterns for Codex CLI: A Sol, Terra, Luna Decision Framework"
 date: 2026-07-26T09:00:00+00:00
-last_modified_at: 2026-08-31T22:17:26+01:00
+last_modified_at: 2026-09-01T00:15:00+01:00
 tags: ["codex-cli", "GPT-5.6", "model-routing", "Sol", "Terra", "Luna", "named-profiles", "cost-optimisation", "decision-framework"]
 ---
 

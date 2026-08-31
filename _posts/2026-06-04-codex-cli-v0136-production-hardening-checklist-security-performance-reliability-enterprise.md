@@ -5,7 +5,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-v0136-production-hardening-checklist-security-performance-reliability-enterprise"
 tags: ["codex-cli", "v0.136", "production", "security", "hardening", "enterprise", "checklist", "sandbox", "performance", "reliability"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-08-31T22:17:26+01:00
+last_modified_at: 2026-09-01T00:15:00+01:00
 ---
 # Codex CLI v0.136 Production Hardening Checklist: Security, Performance, and Reliability for Enterprise Teams
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-rigorbench-engineering-process-discipline-benchmark-codex-cli-planning-verification-recovery-abstention"
 tags: ["codex-cli", "rigorbench", "benchmark", "engineering-discipline", "process-quality", "planning", "verification", "abstention", "recovery", "hooks", "AGENTS.md"]
 date: 2026-06-26T09:00:00+00:00
-last_modified_at: 2026-08-31T22:17:26+01:00
+last_modified_at: 2026-09-01T00:15:00+01:00
 ---
 # RigorBench and the Process Discipline Gap: What the First Engineering Process Benchmark Reveals About Codex CLI Workflows
 

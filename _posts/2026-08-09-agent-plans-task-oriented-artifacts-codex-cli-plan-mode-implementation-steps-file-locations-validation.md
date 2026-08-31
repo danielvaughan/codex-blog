@@ -1,7 +1,7 @@
 ---
 title: "Agent Plans and the Task Artifact Gap: What 85 Plan Files Reveal About How Developers Actually Guide Coding Agents — and How to Structure Your Codex CLI Plans"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-08-31T22:17:26+01:00
+last_modified_at: 2026-09-01T00:15:00+01:00
 tags: ["codex-cli", "agent-plans", "plan-mode", "task-artifacts", "ESEM-2026", "developer-guidance", "implementation-steps", "file-locations", "testing-validation"]
 ---
 
