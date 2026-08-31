@@ -5,7 +5,7 @@ timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-autonomous-execution-convergence-codex-goal-mode-claude-code-grok-build-goal-architectural-comparison"
 tags: ["codex-cli", "goal-mode", "autonomous-execution", "claude-code", "grok-build", "convergence", "architecture", "competitive-analysis"]
 date: 2026-06-26T09:00:00+00:00
-last_modified_at: 2026-08-31T14:10:15+01:00
+last_modified_at: 2026-08-31T16:12:02+01:00
 ---
 # The Autonomous Execution Convergence: Three Agents, Three Architectures, One /goal Command
 

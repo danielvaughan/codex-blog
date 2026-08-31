@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-codex-cli-task-decomposition-right-sizing-agent-work"
 tags: ["codex-cli", "task-decomposition", "subagents", "worktrees", "parallel-execution", "best-practices", "GPT-5.5", "agent-architecture"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-08-31T14:10:15+01:00
+last_modified_at: 2026-08-31T16:12:02+01:00
 ---
 ![Sketchnote diagram for: Task Decomposition for Codex CLI: Right-Sizing Agent Work for Reliability, Speed, and Cost](/sketchnotes/articles/2026-04-28-codex-cli-task-decomposition-right-sizing-agent-work.png)
 

@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## RealSWE — Benchmark-Prompt Gap, Realistic User Requests, Codex CLI Prompting (2026-08-31 Hourly Article Run)
+
+1. ✅ **RealSWE: The 6.4-Point Reality Penalty — What the Benchmark-Prompt Gap Means for Codex CLI Users** — Written 2026-08-31 → `2026-08-31-realswe-reality-penalty-benchmark-prompt-gap-codex-cli-users.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Kim, Gwon, Kim, Shim & Lee (arXiv:2608.27831, August 28, 2026) "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests"; six-category information taxonomy (P: Problem Statement, D: Desired Behaviour, R: Reproduction Steps, E: Environment Info, A: Additional Info, M: Motivation); 88% of real SWE-chat prompts contain only [P] vs 7% of SWE-bench problems; 87% of real prompts casual vs 94-95% formal benchmarks; D present in only 5.4% of real bug-fix prompts vs 73.5% of benchmarks, M present in 8.9% of real feature-request prompts vs 96.1% of benchmarks; 381 multi-variant task families from SWE-bench Verified and Pro (192 bug fixes, 189 feature requests, 21 repos, 4 languages, 55% Python); mean -6.4pp resolution drop (13.6% relative) across 7 models: DeepSeek V4 Pro -8.0pp (53.9%→45.9%), DeepSeek V4 Flash -8.0pp (49.7%→41.6%), Qwen3.7 Plus -6.6pp (50.1%→43.5%), Claude Haiku 4.5 -5.4pp (42.1%→36.7%), MiMo V2.5 Pro -5.1pp (49.1%→44.0%); ablation: removing D costs 7.1-8.9pp for bug fixes, removing M costs 3.4pp for feature requests, removing R/E: negligible; linguistic style effect: -3.9 to +0.7pp (minor, model-dependent); ranking instability: realistic distribution changes model rankings; task description avg 1,417 chars (RealSWE-bench) ≈ 1,427 (SWE-chat) vs 1,672-2,776 (conventional benchmarks); mapped to Codex CLI: [D]/[M] prompting discipline (not [R]/[E]), AGENTS.md intake gate (one targeted clarifying question), --goal flag for [D] persistence across compaction, startup_prompt_template in config.toml, RealSWE-bench for realistic model selection; 5 citations; ~1,470 words
+   - SEO targets: "RealSWE benchmark prompt gap realistic user requests arXiv 2608.27831", "codex cli prompting desired behaviour motivation SWE-bench gap", "coding agent benchmark reality gap 6.4 percentage points realistic inputs", "AGENTS.md intake gate desired behaviour motivation prompt engineering", "SWE-chat real user prompt information taxonomy coding agent evaluation 2026"
+
+---
+
 ## SWE-Touch — User Edits Workspace Blindness Collaborative Coding Agents Codex CLI (2026-08-31 Hourly Article Run)
 
 1. ✅ **SWE-Touch: The 7.7-Point Tax of Workspace Blindness When Users Edit Code Mid-Task** — Written 2026-08-31 → `2026-08-31-swe-touch-user-edits-workspace-blindness-collaborative-coding-agents-codex-cli.md`

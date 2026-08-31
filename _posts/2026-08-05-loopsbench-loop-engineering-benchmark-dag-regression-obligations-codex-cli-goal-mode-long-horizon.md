@@ -5,7 +5,7 @@ timestamp: 2026-08-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-05-loopsbench-loop-engineering-benchmark-dag-regression-obligations-codex-cli-goal-mode-long-horizon"
 tags: ["codex-cli", "loop-engineering", "loopsbench", "long-horizon", "goal-mode", "regression-testing", "benchmarks", "agent-architecture"]
 date: 2026-08-05T09:00:00+00:00
-last_modified_at: 2026-08-31T14:10:15+01:00
+last_modified_at: 2026-08-31T16:12:02+01:00
 ---
 # LoopsBench and the DAG-Shaped Future of Loop Engineering: What the First Dependency-Aware Long-Horizon Benchmark Reveals About Codex CLI Session Strategy
 

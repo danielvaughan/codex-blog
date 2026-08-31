@@ -5,7 +5,7 @@ timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-codex-cli-v0142-delegation-modes-token-budgets-multi-agent-governance-thread-turn-controls"
 tags: ["codex-cli", "v0.142", "delegation", "multi-agent", "token-budgets", "subagents", "governance", "orchestration"]
 date: 2026-06-23T09:00:00+00:00
-last_modified_at: 2026-08-31T14:10:15+01:00
+last_modified_at: 2026-08-31T16:12:02+01:00
 ---
 # Codex CLI v0.142 Delegation Modes and Token Budgets: Governing Multi-Agent Autonomy at Thread and Turn Level
 

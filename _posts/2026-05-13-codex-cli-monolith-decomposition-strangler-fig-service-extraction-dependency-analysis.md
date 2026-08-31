@@ -6,7 +6,7 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-monolith-decomposition-strangler-fig-service-extraction-dependency-analysis"
 tags: ["codex-cli", "monolith", "microservices", "strangler-fig", "code-modernisation", "migration", "subagents", "exec-plan", "dependency-analysis"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-08-31T14:10:15+01:00
+last_modified_at: 2026-08-31T16:12:02+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Monolith Decomposition: Strangler Fig Migration, Service Boundary Detection, and Agent-Driven Extraction](/sketchnotes/articles/2026-05-13-codex-cli-monolith-decomposition-strangler-fig-service-extraction-dependency-analysis.png)
 
