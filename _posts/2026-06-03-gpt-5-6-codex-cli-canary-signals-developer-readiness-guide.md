@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-gpt-5-6-codex-cli-canary-signals-developer-readiness-guide"
 tags: ["codex-cli", "gpt-5.6", "model-routing", "config.toml", "developer-readiness", "model-migration", "june-2026"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-08-31T03:14:06+01:00
+last_modified_at: 2026-08-31T04:08:53+01:00
 ---
 # GPT-5.6 Canary Signals and Codex CLI Readiness: A Developer Preparation Guide
 

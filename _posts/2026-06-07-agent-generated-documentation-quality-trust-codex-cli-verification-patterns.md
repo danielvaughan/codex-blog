@@ -5,7 +5,7 @@ timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-agent-generated-documentation-quality-trust-codex-cli-verification-patterns"
 tags: ["codex-cli", "documentation", "quality", "trust", "hallucination", "verification", "AGENTS.md", "API-docs", "ADR", "changelog"]
 date: 2026-06-07T09:00:00+00:00
-last_modified_at: 2026-08-31T03:14:06+01:00
+last_modified_at: 2026-08-31T04:08:53+01:00
 ---
 # Agent-Generated Documentation: Quality, Trust, and Verification Patterns for Codex CLI Teams
 

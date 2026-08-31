@@ -5,7 +5,7 @@ timestamp: 2026-07-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-31-mcp-2026-07-28-final-specification-stateless-core-tasks-apps-codex-cli-migration"
 tags: ["codex-cli", "mcp", "mcp-specification", "stateless-protocol", "tasks-extension", "mcp-apps", "migration", "config-toml", "streamable-http", "oauth"]
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-08-31T03:14:06+01:00
+last_modified_at: 2026-08-31T04:08:53+01:00
 ---
 
 # MCP 2026-07-28 Final Specification Ships: Stateless Core, Tasks Extension, MCP Apps, and What Your Codex CLI Configuration Needs Now

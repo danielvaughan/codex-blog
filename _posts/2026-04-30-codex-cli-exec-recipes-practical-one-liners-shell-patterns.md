@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-exec-recipes-practical-one-liners-shell-patterns"
 tags: ["codex-exec", "shell-patterns", "automation", "one-liners", "unix-pipelines", "CI/CD", "developer-productivity", "v0.128"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-08-31T03:14:06+01:00
+last_modified_at: 2026-08-31T04:08:53+01:00
 ---
 ![Sketchnote diagram for: Codex CLI exec Recipes: Practical One-Liners and Shell Patterns for Daily Development](/sketchnotes/articles/2026-04-30-codex-cli-exec-recipes-practical-one-liners-shell-patterns.png)
 

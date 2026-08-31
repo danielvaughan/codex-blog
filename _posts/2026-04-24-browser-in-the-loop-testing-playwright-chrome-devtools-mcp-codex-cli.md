@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli"
 tags: ["codex-cli", "playwright", "chrome-devtools", "mcp", "browser-testing", "e2e", "automation", "debugging"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-08-31T03:14:06+01:00
+last_modified_at: 2026-08-31T04:08:53+01:00
 ---
 ![Sketchnote diagram for: Browser-in-the-loop testing: Playwright + Chrome DevTools MCP + Codex CLI](/sketchnotes/articles/2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli.png)
 

@@ -1,6 +1,16 @@
 # Article Backlog
 
 
+## codex agents Dashboard — v0.149.0 Multi-Agent Session Management (2026-08-31 Hourly Article Run)
+
+1. ✅ **The `codex agents` Dashboard: Managing Parallel Sessions Without the Terminal-Tab Overhead** — Written 2026-08-31 → `2026-08-31-codex-agents-dashboard-v0149-multi-agent-session-management.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.149.0 (20 August 2026) codex agents TUI dashboard (PRs #39094, #39112, #39114, #39142): full-screen interactive view of all root sessions on local app-server daemon, groups by project, supports search/start/open/rename/stop, Alt+A shortcut, configurable keybindings, /agents slash command from within a session; codex queue (PR #39092): out-of-band message delivery to sessions by UUID or exact name, image attachments, rejects ambiguous names, idle-session wake-up fix; /cd /pwd /cwd commands (PR #38894): mid-session working directory control; codex doctor expansions: endpoint protection, network/proxy, desktop app, update connectivity; SDK config overrides + max/ultra reasoning effort; noted /cd permission profile regression patched in v0.151.0 (PR #41192); 6 citations; 1,474 words
+   - SEO targets: "codex agents dashboard v0.149.0 multi-agent session management 2026", "codex queue --thread UUID message out-of-band session 2026", "codex CLI /cd working directory mid-session monorepo", "codex CLI terminal tab parallel sessions attention routing"
+
+---
+
+
+
 ## Codex CLI Permission Hardening — `--full-auto` Removed, `untrusted` Retired, Fail-Closed Sandboxes (2026-08-31 Hourly Article Run)
 
 1. ✅ **Codex CLI Permission Hardening: `--full-auto` Removed, `untrusted` Retired, Fail-Closed Sandboxes** — Written 2026-08-31 → `2026-08-31-codex-cli-sandbox-permission-hardening-full-auto-removed-untrusted-retired-fail-closed.md`

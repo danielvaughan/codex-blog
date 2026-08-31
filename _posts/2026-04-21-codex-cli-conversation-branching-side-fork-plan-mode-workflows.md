@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-conversation-branching-side-fork-plan-mode-workflows"
 tags: ["codex-cli", "conversation-branching", "/side", "/fork", "plan-mode", "context-management", "TUI", "v0.122"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-08-31T03:14:06+01:00
+last_modified_at: 2026-08-31T04:08:53+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Conversation Branching: /side, /fork, and Plan Mode Workflows](/sketchnotes/articles/2026-04-21-codex-cli-conversation-branching-side-fork-plan-mode-workflows.png)
 
