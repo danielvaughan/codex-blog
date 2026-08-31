@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-sentry-mcp-closed-loop-error-triage-fix-pipelines"
 tags: ["codex-cli", "sentry", "mcp", "error-triage", "debugging", "seer", "automation", "codex-exec", "hooks", "production-monitoring"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-08-31T20:11:30+01:00
+last_modified_at: 2026-08-31T22:17:26+01:00
 ---
 ![Sketchnote diagram for: Codex CLI and Sentry MCP: Closed-Loop Error Triage and Automated Fix Pipelines](/sketchnotes/articles/2026-04-25-codex-cli-sentry-mcp-closed-loop-error-triage-fix-pipelines.png)
 

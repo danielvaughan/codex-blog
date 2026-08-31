@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-python-sdk-embedding-agents-programmatic-automation-openai-codex"
 tags: ["codex-cli", "python-sdk", "automation", "ci-cd", "agents-sdk", "programmatic", "embedding"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-08-31T20:11:30+01:00
+last_modified_at: 2026-08-31T22:17:26+01:00
 ---
 # The Codex Python SDK: Embedding Agents in Scripts, Pipelines, and Custom Tooling
 

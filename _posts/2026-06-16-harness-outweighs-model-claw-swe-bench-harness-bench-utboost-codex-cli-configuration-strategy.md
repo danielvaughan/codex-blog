@@ -6,7 +6,7 @@ timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-harness-outweighs-model-claw-swe-bench-harness-bench-utboost-codex-cli-configuration-strategy"
 tags: ["codex-cli", "benchmarks", "harness-engineering", "swe-bench", "model-selection", "configuration", "claw-swe-bench", "harness-bench", "utboost"]
 date: 2026-06-16T09:00:00+00:00
-last_modified_at: 2026-08-31T20:11:30+01:00
+last_modified_at: 2026-08-31T22:17:26+01:00
 ---
 # When the Harness Outweighs the Model: What Claw-SWE-Bench, Harness-Bench, and UTBoost Mean for Codex CLI Configuration Strategy
 

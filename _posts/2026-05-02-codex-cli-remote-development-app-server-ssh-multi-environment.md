@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-codex-cli-remote-development-app-server-ssh-multi-environment"
 tags: ["codex-cli", "remote-development", "app-server", "ssh", "multi-environment", "websocket", "authentication", "devbox", "tailscale"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-08-31T20:11:30+01:00
+last_modified_at: 2026-08-31T22:17:26+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Remote Development: App Server Architecture, SSH Connections, and Multi-Environment Workflows](/sketchnotes/articles/2026-05-02-codex-cli-remote-development-app-server-ssh-multi-environment.png)
 

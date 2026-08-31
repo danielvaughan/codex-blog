@@ -5,7 +5,7 @@ timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-agentassay-regression-testing-non-deterministic-codex-cli-agent-workflows-behavioral-fingerprinting"
 tags: ["codex-cli", "testing", "regression-testing", "agentassay", "non-deterministic", "behavioral-fingerprinting", "ci-cd", "hooks", "agent-quality"]
 date: 2026-06-27T09:00:00+00:00
-last_modified_at: 2026-08-31T20:11:30+01:00
+last_modified_at: 2026-08-31T22:17:26+01:00
 ---
 # AgentAssay and the Regression Testing Gap: Statistical Verification for Non-Deterministic Codex CLI Agent Workflows
 

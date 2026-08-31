@@ -1,7 +1,7 @@
 ---
 title: "Agent Safety as a Runtime Contract: What Preventive–Evidential Enforcement Means for Your Codex CLI Sandbox, Hook, and Guardian Strategy"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-08-31T20:11:30+01:00
+last_modified_at: 2026-08-31T22:17:26+01:00
 tags: ["codex-cli", "agent-safety", "runtime-contract", "sandbox", "hooks", "guardian", "evidence-chain", "preventive-safety", "deployment-safety"]
 ---
 

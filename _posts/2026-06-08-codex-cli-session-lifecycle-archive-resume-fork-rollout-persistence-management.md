@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-session-lifecycle-archive-resume-fork-rollout-persistence-management"
 tags: ["codex-cli", "session-management", "archive", "resume", "fork", "rollout", "persistence", "workflow"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-08-31T20:11:30+01:00
+last_modified_at: 2026-08-31T22:17:26+01:00
 ---
 # Codex CLI Session Lifecycle: Archive, Resume, Fork, and Rollout Persistence
 
