@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-codex-cli-shell-environment-policy-subprocess-secrets-defence"
 tags: ["codex-cli", "security", "configuration", "environment-variables", "shell-environment-policy", "secrets", "subprocess", "enterprise"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-08-31T08:16:21+01:00
+last_modified_at: 2026-08-31T10:09:51+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Shell Environment Policy: Controlling What Your Agent's Subprocesses Can See](/sketchnotes/articles/2026-04-28-codex-cli-shell-environment-policy-subprocess-secrets-defence.png)
 

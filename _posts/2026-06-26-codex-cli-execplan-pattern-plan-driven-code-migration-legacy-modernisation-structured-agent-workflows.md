@@ -5,7 +5,7 @@ timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-codex-cli-execplan-pattern-plan-driven-code-migration-legacy-modernisation-structured-agent-workflows"
 tags: ["codex-cli", "execplan", "code-migration", "legacy-modernisation", "agents-md", "structured-workflows", "plan-driven-development"]
 date: 2026-06-26T09:00:00+00:00
-last_modified_at: 2026-08-31T08:16:21+01:00
+last_modified_at: 2026-08-31T10:09:51+01:00
 ---
 # The ExecPlan Pattern: Plan-Driven Code Migrations with Codex CLI
 

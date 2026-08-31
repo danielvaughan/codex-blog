@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-higher-education-managed-configuration-scaffolded-autonomy-computer-science-pedagogy"
 tags: ["codex-cli", "education", "managed-configuration", "requirements-toml", "scaffolded-autonomy", "computer-science", "pedagogy", "EDU-workspace", "academic-integrity"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-08-31T08:16:21+01:00
+last_modified_at: 2026-08-31T10:09:51+01:00
 ---
 # Codex CLI in Higher Education: Managed Configuration, Scaffolded Autonomy, and the Pedagogical Case for Terminal-First AI
 

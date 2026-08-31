@@ -5,7 +5,7 @@ timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-api-contract-testing-pactflow-openapi-consumer-driven-workflows"
 tags: ["codex-cli", "contract-testing", "pact", "pactflow", "openapi", "mcp", "api-testing", "consumer-driven-contracts", "schemathesis", "specmatic"]
 date: 2026-05-31T09:00:00+00:00
-last_modified_at: 2026-08-31T08:16:21+01:00
+last_modified_at: 2026-08-31T10:09:51+01:00
 ---
 # Codex CLI for API Contract Testing: PactFlow, OpenAPI Validation, and Consumer-Driven Workflows
 

@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## BASM Boundary-Aware Skill Memory — Skill Imitation Trap, Codex CLI AGENTS.md (2026-08-31 Hourly Article Run)
+
+1. ✅ **When Not to Imitate: Boundary-Aware Skill Memory and the Skill Imitation Trap — Implications for Codex CLI AGENTS.md** — Written 2026-08-31 → `2026-08-31-basm-boundary-aware-skill-memory-skill-imitation-trap-codex-cli-agents-md.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Lin, Chen, Wei, Wang, Cao, Chai, Lin, Yin & He (Meituan / UCAS / MAIS-NLPR, arXiv:2608.22339, August 2026) "When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents"; Skill Imitation Trap: procedural-skill memory raises wrong-tool logit margin from 7.31 (baseline) to 10.71 (+47%) when semantically similar but inapplicable skill is retrieved; BASM reduces margin to 2.26 via four boundary fields (applicability conditions 𝒜, risk cues ℛ, avoidance rules 𝒩, recovery notes ℱ) added to standard three-slot schema (goal g, procedure π, tools 𝒯); extraction: LLM receives τ⁺ + optional τ⁻, emits seven-slot JSON with strict validation; retrieval score = λ_sem·cos + λ_tool·Jaccard + λ_step·overlap; boundary fields gated by relevance threshold γ under fixed token budget; attention: boundary/procedure ratio rises from 0.15 (applicable) to 1.23 (inapplicable) to 1.81 (repair); results: AppWorld +23.8pp success rate (Qwen3-32B: 76.19%), BFCL v3 +5.0pp, AgentDojo −4.6pp attack success rate; ablation: recovery notes most valuable slot (−1.88pp if removed), avoidance rules −0.88pp; mapped to Codex CLI: AGENTS.md procedural blocks → add When-Not-to-Use + Avoidance Rules + Recovery subsections, SKILL.md in Agent Plugins 1.0 → seven-slot BASM schema expressible today, PostToolUse hook exit code 2 as recovery enforcer, Memories [AVOIDANCE]/[RECOVERY] tag separation to approximate boundary/procedure split within flat 5K-token store; caveats: benchmarks are text-based tool-use not SWE-bench coding workflows, extraction cost unquantified, threshold γ requires domain tuning; 6 citations; ~1,350 words
+   - SEO targets: "BASM boundary-aware skill memory skill imitation trap LLM agents arXiv 2608.22339", "codex CLI AGENTS.md avoidance rules recovery notes boundary conditions skill", "skill memory procedural wrong-tool confidence margin coding agent", "BASM seven-slot schema applicability risk cues avoidance recovery", "codex CLI PostToolUse hook recovery enforcer exit code 2 BASM"
+
+---
+
 ## MCP 2026-07-28 Stateless Protocol — Codex CLI Operators Guide (2026-08-31 Hourly Article Run)
 
 1. ✅ **MCP 2026-07-28: The Stateless Protocol Revolution and What It Means for Your Codex CLI Tool Stack** — Written 2026-08-31 → `2026-08-31-mcp-2026-07-28-stateless-protocol-codex-cli-operators-guide.md`

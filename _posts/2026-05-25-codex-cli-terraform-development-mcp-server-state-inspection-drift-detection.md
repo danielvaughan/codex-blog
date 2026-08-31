@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-terraform-development-mcp-server-state-inspection-drift-detection"
 tags: ["codex-cli", "terraform", "mcp", "infrastructure-as-code", "drift-detection", "hashicorp", "devops"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-08-31T08:16:21+01:00
+last_modified_at: 2026-08-31T10:09:51+01:00
 ---
 # Codex CLI for Terraform Development: terraform-mcp-server, State Inspection, and Infrastructure Drift Detection
 

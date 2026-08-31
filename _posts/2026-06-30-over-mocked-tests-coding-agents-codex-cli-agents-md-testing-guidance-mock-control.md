@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-over-mocked-tests-coding-agents-codex-cli-agents-md-testing-guidance-mock-control"
 tags: ["testing", "mocking", "test-quality", "AGENTS.md", "codex-cli", "configuration", "test-doubles", "over-mocking", "empirical-study"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-08-31T08:16:21+01:00
+last_modified_at: 2026-08-31T10:09:51+01:00
 ---
 # Over-Mocked Tests and Coding Agents: What 1.2 Million Commits Reveal — and How to Configure Codex CLI's AGENTS.md for Test Quality
 

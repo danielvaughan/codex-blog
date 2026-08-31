@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-openai-developers-plugin-docs-mcp-api-development-from-inside-agent"
 tags: ["codex-cli", "openai-developers-plugin", "docs-mcp", "api-development", "plugin-system", "mcp-servers"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-08-31T08:16:21+01:00
+last_modified_at: 2026-08-31T10:09:51+01:00
 ---
 ![Sketchnote diagram for: The OpenAI Developers Plugin and Docs MCP: Building on the OpenAI Platform from Inside Codex CLI](/sketchnotes/articles/2026-05-10-codex-cli-openai-developers-plugin-docs-mcp-api-development-from-inside-agent.png)
 

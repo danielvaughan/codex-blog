@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-codex-cli-dsl-proprietary-language-strategies-esoteric-language-lessons"
 tags: ["codex-cli", "dsl", "domain-specific-languages", "AGENTS.md", "hooks", "PreToolUse", "MCP", "esoteric-languages", "language-strategy"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-08-31T08:16:21+01:00
+last_modified_at: 2026-08-31T10:09:51+01:00
 ---
 # Codex CLI and Domain-Specific Languages: Practical Strategies for Teams With Proprietary or Sparse-Training Languages
 
