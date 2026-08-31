@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-elixir-phoenix-teams-tidewave-mcp-functional-agent-workflows"
 tags: ["elixir", "phoenix", "liveview", "tidewave", "mcp", "agents-md", "functional-programming", "team-guide"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-08-31T06:14:22+01:00
+last_modified_at: 2026-08-31T07:14:35+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Elixir and Phoenix Teams: Tidewave MCP, AGENTS.md, and Functional Agent Workflows](/sketchnotes/articles/2026-04-26-codex-cli-elixir-phoenix-teams-tidewave-mcp-functional-agent-workflows.png)
 

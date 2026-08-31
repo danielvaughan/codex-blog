@@ -1,7 +1,7 @@
 ---
 title: "The `update_plan` Tool Goes Opt-In: When to Disable Codex CLI's Built-In Planner"
 date: 2026-08-31T11:00:00+00:00
-last_modified_at: 2026-08-31T06:14:22+01:00
+last_modified_at: 2026-08-31T07:14:35+01:00
 tags: ["codex-cli", "planning", "goal-mode", "mcp", "configuration", "v0.152", "multi-agent"]
 ---
 
@@ -164,6 +164,3 @@ The `update_plan` tool is now opt-in as of late August 2026.[^1] For teams using
 [^1]: PR #41744 "Make the update_plan tool opt-in" — openai/codex, merged 31 August 2026. <https://github.com/openai/codex/pull/41744>
 [^2]: PR #41630 "Update tests for default-enabled update_plan" — openai/codex, merged 30 August 2026. <https://github.com/openai/codex/pull/41630>
 [^3]: GitHub Issue #33890 "Allow disabling the built-in `update_plan` tool independently" — openai/codex. <https://github.com/openai/codex/issues/33890>
-[^4]: Codex CLI v0.151.0 release notes — openai/codex, 29 August 2026. <https://github.com/openai/codex/releases/tag/rust-v0.151.0>
-[^5]: Codex CLI changelog — learn.chatgpt.com. <https://learn.chatgpt.com/docs/changelog>
-[^6]: "Allow disabling the built-in update_plan tool independently" — Issue requester's reference implementation and use-case description. <https://github.com/openai/codex/issues/33890>

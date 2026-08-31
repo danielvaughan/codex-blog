@@ -5,7 +5,7 @@ timestamp: 2026-06-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-probe-and-refine-tuning-agents-md-repository-guidance-codex-cli-iterative-optimisation"
 tags: ["codex-cli", "AGENTS.md", "repository-guidance", "probe-and-refine", "context-engineering", "SWE-bench", "coding-agents"]
 date: 2026-06-21T09:00:00+00:00
-last_modified_at: 2026-08-31T06:14:22+01:00
+last_modified_at: 2026-08-31T07:14:35+01:00
 ---
 # Probe-and-Refine Tuning: What Iterative AGENTS.md Optimisation Research Means for Codex CLI
 

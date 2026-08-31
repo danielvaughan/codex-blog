@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-agentic-sdlc-research-codex-cli-delegated-execution-confidence-gap"
 tags: ["codex-cli", "agentic-sdlc", "research", "software-engineering", "delegated-execution", "confidence-gap", "workflow-design", "semi-executable-stack"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-08-31T06:14:22+01:00
+last_modified_at: 2026-08-31T07:14:35+01:00
 ---
 ![Sketchnote diagram for: From Code Generation to Delegated Execution: The Agentic SDLC and What It Means for Your Codex CLI Workflow](/sketchnotes/articles/2026-04-30-agentic-sdlc-research-codex-cli-delegated-execution-confidence-gap.png)
 

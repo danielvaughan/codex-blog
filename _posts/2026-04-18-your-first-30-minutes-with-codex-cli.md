@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-your-first-30-minutes-with-codex-cli"
 tags: ["codex-cli", "getting-started", "tutorial", "beginner", "agent-loop", "installation"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-08-31T06:14:22+01:00
+last_modified_at: 2026-08-31T07:14:35+01:00
 ---
 ![Sketchnote diagram for: Your First 30 Minutes with Codex CLI: From Install to First Fix](/sketchnotes/articles/2026-04-18-your-first-30-minutes-with-codex-cli.png)
 

@@ -5,7 +5,7 @@ timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-productivity-reliability-paradox-specification-governance-codex-cli-review-bottleneck-quality-gates"
 tags: ["codex-cli", "productivity-paradox", "specification-governance", "code-review", "AGENTS.md", "PostToolUse", "Spec-Kit", "TDAD", "enterprise"]
 date: 2026-07-02T09:00:00+00:00
-last_modified_at: 2026-08-31T06:14:22+01:00
+last_modified_at: 2026-08-31T07:14:35+01:00
 ---
 # The Productivity-Reliability Paradox: Why 98 Per Cent More Pull Requests Broke Nothing — Except Your Review Pipeline — and How Specification Governance Fixes It with Codex CLI
 
