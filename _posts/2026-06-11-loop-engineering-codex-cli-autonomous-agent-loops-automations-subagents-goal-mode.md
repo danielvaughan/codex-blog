@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-loop-engineering-codex-cli-autonomous-agent-loops-automations-subagents-goal-mode"
 tags: ["codex-cli", "loop-engineering", "automations", "subagents", "goal-mode", "agent-architecture", "context-engineering"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-08-31T10:18:47+01:00
+last_modified_at: 2026-08-31T10:28:17+01:00
 ---
 # Loop Engineering with Codex CLI: Designing Autonomous Agent Loops That Run While You Sleep
 

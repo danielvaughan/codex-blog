@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-cross-agent-usage-analytics-unified-monitoring-codex-cli-mixed-stack"
 tags: ["codex-cli", "usage-tracking", "cost-management", "observability", "ccusage", "agentsview", "openusage", "multi-agent"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-08-31T10:18:47+01:00
+last_modified_at: 2026-08-31T10:28:17+01:00
 ---
 ![Sketchnote diagram for: Cross-Agent Usage Analytics: Unified Monitoring for Your Mixed Coding Agent Stack](/sketchnotes/articles/2026-04-24-cross-agent-usage-analytics-unified-monitoring-codex-cli-mixed-stack.png)
 

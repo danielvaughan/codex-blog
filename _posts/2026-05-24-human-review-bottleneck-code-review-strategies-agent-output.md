@@ -6,7 +6,7 @@ timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-human-review-bottleneck-code-review-strategies-agent-output"
 tags: ["code-review", "agent-output", "bottleneck", "codex-cli", "review-workflow", "PR-management", "quality-assurance"]
 date: 2026-05-24T09:00:00+00:00
-last_modified_at: 2026-08-31T10:18:47+01:00
+last_modified_at: 2026-08-31T10:28:17+01:00
 ---
 # The Human Review Bottleneck: Practical Code Review Strategies for Agent Output
 
