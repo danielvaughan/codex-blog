@@ -5,7 +5,7 @@ timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-agentic-fatigue-verification-gap-codex-cli-sustainable-ai-assisted-development"
 tags: ["codex-cli", "agentic-fatigue", "developer-burnout", "verification-gap", "code-review", "sustainable-development", "hooks", "automation"]
 date: 2026-06-07T09:00:00+00:00
-last_modified_at: 2026-08-31T10:28:17+01:00
+last_modified_at: 2026-08-31T11:36:07+01:00
 ---
 # Agentic Fatigue and the Verification Gap: Sustainable AI-Assisted Development with Codex CLI
 
