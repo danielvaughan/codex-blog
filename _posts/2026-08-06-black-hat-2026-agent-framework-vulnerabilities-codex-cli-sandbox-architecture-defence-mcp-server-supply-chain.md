@@ -1,7 +1,7 @@
 ---
 title: "Black Hat 2026: Eleven Agent Framework CVEs and Why Codex CLI's Sandbox-First Architecture Dodges the Worst of Them"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-09-01T16:11:14+01:00
+last_modified_at: 2026-09-01T18:18:55+01:00
 tags: ["codex-cli", "security", "black-hat-2026", "agent-framework-vulnerabilities", "sandbox", "landlock", "seatbelt", "mcp-server-security", "supply-chain", "langchain", "crewai", "autogen"]
 ---
 

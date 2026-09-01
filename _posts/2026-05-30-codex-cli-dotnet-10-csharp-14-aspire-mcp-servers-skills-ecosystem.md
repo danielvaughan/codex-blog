@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-dotnet-10-csharp-14-aspire-mcp-servers-skills-ecosystem"
 tags: ["codex-cli", "dotnet", "csharp", "aspire", "mcp", "skills", "dotnet-10", "csharp-14", "agent-workflows"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-09-01T16:11:14+01:00
+last_modified_at: 2026-09-01T18:18:55+01:00
 ---
 # Codex CLI for .NET 10 and C# 14: Aspire Integration, MCP Servers, and the dotnet/skills Ecosystem
 

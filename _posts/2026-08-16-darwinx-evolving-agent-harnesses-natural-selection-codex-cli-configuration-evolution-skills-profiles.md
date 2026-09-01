@@ -5,7 +5,7 @@ timestamp: 2026-08-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-16-darwinx-evolving-agent-harnesses-natural-selection-codex-cli-configuration-evolution-skills-profiles"
 tags: ["codex-cli", "harness-engineering", "DarwinX", "natural-selection", "agent-evolution", "AGENTS.md", "skills", "named-profiles", "config-toml", "hooks"]
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-09-01T16:11:14+01:00
+last_modified_at: 2026-09-01T18:18:55+01:00
 ---
 
 # DarwinX and the Evolved Harness Thesis: What Population-Based Natural Selection Over Agent Configurations Means for Your Codex CLI Skills, Profiles, and Hooks

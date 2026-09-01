@@ -5,7 +5,7 @@ timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-zig-development-build-system-cross-compilation-agent-workflows"
 tags: ["codex-cli", "zig", "systems-programming", "mcp-server", "cross-compilation", "build-system", "agent-workflows"]
 date: 2026-05-29T09:00:00+00:00
-last_modified_at: 2026-09-01T16:11:14+01:00
+last_modified_at: 2026-09-01T18:18:55+01:00
 ---
 # Codex CLI for Zig Development: Build System, Cross-Compilation, and Agent Workflows for Systems Programming
 

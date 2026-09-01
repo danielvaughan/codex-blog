@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Agent Retrieval Bench — Repository Context Retrieval Gap, Codex CLI File Navigation (2026-09-01 Hourly Article Run)
+
+1. ✅ **Agent Retrieval Bench: Why Codex CLI Misses Critical Repository Files in 27–29% of Tasks — and What to Do About It** — Written 2026-09-01 → `2026-09-01-agent-retrieval-bench-repository-context-retrieval-codex-cli-file-navigation-gap.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Qin & Xie (arXiv:2607.24882, July 27, 2026) "Agent Retrieval Bench: Evaluating Repository Context Retrieval for Coding Agents"; 427 samples, 25 repositories, 6 languages, 308 base-commit snapshots, 392K files, 7.9M chunks; four positive-retrieval tasks: code2test (106), comment2context (80), trace2code (101), edit2ripple (58) + 50 natural no-gold + 32 counterfactual controls; Codex CLI directly tested: GPT-5.4 27.2% miss rate, GPT-5.5 29.3% miss rate (never touches gold file); best MRR: Qwen3-4B 0.2379, best Recall@20: Qwen3-8B 0.7029, best BCY@8k: RepoMap 0.3788; no single retrieval family dominates; task-specific leaders vary (Jina-0.5B leads comment2context MRR, RepoMap leads trace2code MRR); RRF fusion (Qwen3-8B + RepoMap): Recall@20 0.7331, MRR 0.2713; seed intervention (45 Codex GPT-5.5 samples): no-seed F1 0.3222 → RRF-seed 0.3967 → oracle 0.6337, any-gold coverage 51.1% → 80.0% → 100%; RRF seed cuts first-hit step to 1.0 vs 3.0 baseline; key concept: agentic relevance = workflow-defined not semantic similarity; Codex CLI mapping: task-type AGENTS.md routing sections, startup_prompt_template seed injection, on_mcp_tool_result RepoMap hook for trace tasks, per-tool output_token_limit for embedding MCP servers, oracle-skill caching for recurring tasks; 6 citations; ~1,450 words
+
+---
+
 ## Codex CLI v0.153.0-alpha — Per-Link Approval Policies & Plugin Marketplace Source Enforcement (2026-09-01 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.153.0-alpha: Per-Link Approval Policies for Connected Apps and Plugin Marketplace Source Enforcement** — Written 2026-09-01 → `2026-09-01-codex-cli-v0153-alpha-per-link-approval-policies-apps-plugin-marketplace-source-enforcement.md`
