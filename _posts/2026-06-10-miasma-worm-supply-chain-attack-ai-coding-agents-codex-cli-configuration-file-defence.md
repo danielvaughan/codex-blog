@@ -5,7 +5,7 @@ timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-miasma-worm-supply-chain-attack-ai-coding-agents-codex-cli-configuration-file-defence"
 tags: ["codex-cli", "security", "miasma", "supply-chain", "hooks", "AGENTS.md", "sandbox", "configuration-injection", "credential-harvesting", "defence"]
 date: 2026-06-10T09:00:00+00:00
-last_modified_at: 2026-09-01T08:21:50+01:00
+last_modified_at: 2026-09-01T10:10:34+01:00
 ---
 # The Miasma Worm Targets Codex CLI: How a Self-Replicating Supply Chain Attack Exploits AI Agent Configuration Files and What You Should Do About It
 

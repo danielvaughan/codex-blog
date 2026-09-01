@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-agent-ethics-professional-responsibility-codex-cli-attribution-disclosure-eu-ai-act"
 tags: ["codex-cli", "ethics", "professional-responsibility", "attribution", "disclosure", "EU-AI-Act", "open-source", "copyright", "compliance", "commit-attribution"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-09-01T08:21:50+01:00
+last_modified_at: 2026-09-01T10:10:34+01:00
 ---
 # Agent Ethics and Professional Responsibility: Attribution, Disclosure, and Accountability When Delegating Engineering Judgement to Codex CLI
 
