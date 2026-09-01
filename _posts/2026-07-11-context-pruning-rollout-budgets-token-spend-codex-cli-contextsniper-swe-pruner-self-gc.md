@@ -1,7 +1,7 @@
 ---
 title: "The 76 Per Cent Problem: Why Your Coding Agent Wastes Three-Quarters of Its Token Budget Reading Files — and How Context Pruning and Rollout Budgets Cut the Bill"
 date: 2026-07-11T09:00:00+00:00
-last_modified_at: 2026-09-01T18:18:55+01:00
+last_modified_at: 2026-09-01T20:11:50+01:00
 tags: ["codex-cli", "context-pruning", "token-budget", "rollout-budget", "cost-optimisation", "ContextSniper", "SWE-Pruner", "Self-GC", "LaMR", "context-engineering"]
 ---
 

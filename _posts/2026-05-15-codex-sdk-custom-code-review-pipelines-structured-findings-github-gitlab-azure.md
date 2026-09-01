@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-sdk-custom-code-review-pipelines-structured-findings-github-gitlab-azure"
 tags: ["codex-cli", "codex-sdk", "code-review", "structured-output", "github-actions", "gitlab-ci", "azure-devops", "ci-cd", "automation", "enterprise"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-01T18:18:55+01:00
+last_modified_at: 2026-09-01T20:11:50+01:00
 ---
 ![Sketchnote diagram for: Building Custom Code Review Pipelines with the Codex SDK: Structured Findings Across GitHub, GitLab, and Azure DevOps](/sketchnotes/articles/2026-05-15-codex-sdk-custom-code-review-pipelines-structured-findings-github-gitlab-azure.png)
 

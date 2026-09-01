@@ -2,7 +2,7 @@
 title: "Codex Management Agents: Orchestrating Work Without a Human in Every Loop"
 description: "As Codex agents grow more capable, the bottleneck shifts from doing the work to managing it. Management agents solve this by coordinating task assignment, progress tracking, and quality gates across fleets of worker agents."
 date: 2026-06-22T12:00:00+00:00
-last_modified_at: 2026-09-01T18:18:55+01:00
+last_modified_at: 2026-09-01T20:11:50+01:00
 tags:
   - management-agents
   - orchestration

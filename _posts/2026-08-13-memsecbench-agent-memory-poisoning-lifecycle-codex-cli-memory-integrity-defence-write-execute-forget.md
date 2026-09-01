@@ -5,7 +5,7 @@ timestamp: 2026-08-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-13-memsecbench-agent-memory-poisoning-lifecycle-codex-cli-memory-integrity-defence-write-execute-forget"
 tags: ["codex-cli", "security", "memory-poisoning", "MemSecBench", "agent-memory", "lifecycle-defence", "PostToolUse-hooks", "selective-repair", "memory-integrity"]
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-09-01T18:18:55+01:00
+last_modified_at: 2026-09-01T20:11:50+01:00
 ---
 # MemSecBench and the Memory Poisoning Lifecycle: Why 84 Per Cent of Malicious Memories Persist — and How Codex CLI's Defence Stack Intervenes at Each Checkpoint
 

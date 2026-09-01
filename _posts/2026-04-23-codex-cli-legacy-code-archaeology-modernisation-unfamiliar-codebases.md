@@ -2,7 +2,7 @@
 title: "Legacy Code Archaeology with Codex CLI: Understanding, Documenting, and Safely Modernising Unfamiliar Codebases"
 description: "Every senior developer has faced it: a critical system written by people who left years ago, sparse documentation, no tests."
 date: 2026-04-23T00:00:00+00:00
-last_modified_at: 2026-09-01T18:18:55+01:00
+last_modified_at: 2026-09-01T20:11:50+01:00
 type: Technical Article
 timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-codex-cli-legacy-code-archaeology-modernisation-unfamiliar-codebases"

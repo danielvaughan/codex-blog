@@ -6,7 +6,7 @@ timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-devcontainers-docker-sandboxes-secure-containerised-agents"
 tags: ["codex-cli", "devcontainers", "docker", "sandboxing", "security", "bubblewrap", "ci-cd", "containers"]
 date: 2026-04-20T09:00:00+00:00
-last_modified_at: 2026-09-01T18:18:55+01:00
+last_modified_at: 2026-09-01T20:11:50+01:00
 ---
 ![Sketchnote diagram for: Running Codex CLI in Devcontainers and Docker Sandboxes: Secure Containerised Agent Workflows](/sketchnotes/articles/2026-04-20-codex-cli-devcontainers-docker-sandboxes-secure-containerised-agents.png)
 
