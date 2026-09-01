@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-automated-code-documentation-generation-docstrings-jsdoc-sphinx-ci-pipelines"
 tags: ["codex-cli", "documentation", "docstrings", "jsdoc", "sphinx", "typedoc", "ci-cd", "automation", "skills", "codex-exec"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-01T12:09:24+01:00
+last_modified_at: 2026-09-01T14:11:16+01:00
 ---
 ![Sketchnote diagram for: Automated Code Documentation Generation with Codex CLI: Docstrings, JSDoc, and CI-Integrated Doc Pipelines](/sketchnotes/articles/2026-05-16-codex-cli-automated-code-documentation-generation-docstrings-jsdoc-sphinx-ci-pipelines.png)
 

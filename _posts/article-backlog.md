@@ -1,5 +1,13 @@
 # Article Backlog
 
+## VulnGym — Repository-Level Vulnerability Detection Benchmark (2026-09-01 Hourly Article Run)
+
+1. ✅ **VulnGym: Why Coding Agents Score Under 23% on Repository-Level Vulnerability Detection — and What It Means for Codex CLI Security Workflows** — Written 2026-09-01 → `2026-09-01-vulngym-repository-level-vulnerability-detection-coding-agents-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Ji, Liu, Hu, Gao, Lian, Liu, Zhang, Dong, Chen & Bin (Tencent, arXiv:2608.02001, August 3, 2026) "VulnGym: Benchmarking Coding Agents for Repository-Level Vulnerability Detection"; 184 GitHub advisories, 408 line-annotated entries, 23 repositories, 38 projects, 393/408 (96.3%) human-audited; 4 tasks: T1 end-to-end + T2 entry-point, T3 critical-operation, T4 trace construction (oracle subtasks); metrics: advisory-level recall (≥1 entry/advisory), entry-level recall (|Δline| ≤ 5, exact path); best: DeepSeek-V4-Flash + OpenHands = 22.58% advisory recall, 15.22% entry recall, 11.63% edit similarity; Qwen3.5 9B and below = 0%; oracle ceilings: EP file recall 30.23%, CO file recall 51.16%, trace edit similarity 36.37%; 71.2% business-logic flaws (broken auth 31, missing auth 23, AI capability boundary bypass 20), 28.8% traditional (code injection 12, path traversal 9, cmd injection 8); failure taxonomy: 29.7% CO file matched / EP missing, 26.8% no file match, 23.1% EP missing / CO only; non-monotonic model scaling (4B > 9B on easy = context management > raw size); Codex CLI mapping: approval_policy=on-request + sandbox=read-only + auto_compact_token_limit=120000 for audit profile, AGENTS.md oracle-subtask protocol (entry_point first, trace second, CO last), on_mcp_tool_result hook gates incomplete findings (exit 2 if missing EP or CO), deploy as triage only on easy-medium; hard tasks (≥31 advisories) need SAST/human review as primary; scaffolds tested: Claude Code, OpenHands, MiniSWE (not Codex CLI directly); 6 citations; ~1,466 words
+   - SEO targets: "VulnGym benchmark coding agents vulnerability detection", "repository-level vulnerability detection LLM agents 2026", "codex CLI security audit workflow", "coding agent advisory recall business logic flaws", "VulnGym Tencent arXiv 2608.02001"
+
+---
+
 ## Agentic Coding in the Wild — GitHub Copilot Production Traces, KV Cache, Codex CLI (2026-09-01 Hourly Article Run)
 
 1. ✅ **87% Agent, 13% Human: What 13.5M GitHub Copilot Sessions Reveal About Running Coding Agents at Scale** — Written 2026-09-01 → `2026-09-01-agentic-coding-wild-github-copilot-production-traces-kv-cache-codex-cli.md`

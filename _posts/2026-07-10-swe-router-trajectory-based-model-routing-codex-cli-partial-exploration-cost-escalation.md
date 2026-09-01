@@ -5,7 +5,7 @@ timestamp: 2026-07-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-10-swe-router-trajectory-based-model-routing-codex-cli-partial-exploration-cost-escalation"
 tags: ["codex-cli", "model-routing", "cost-optimisation", "SWE-Router", "trajectory-routing", "named-profiles", "config.toml", "reasoning-effort"]
 date: 2026-07-10T09:00:00+00:00
-last_modified_at: 2026-09-01T12:09:24+01:00
+last_modified_at: 2026-09-01T14:11:16+01:00
 ---
 # SWE-Router and Trajectory-Based Model Routing: What Partial-Exploration Escalation Means for Codex CLI Cost Strategy
 

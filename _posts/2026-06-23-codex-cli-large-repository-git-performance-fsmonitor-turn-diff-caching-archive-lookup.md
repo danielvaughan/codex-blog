@@ -5,7 +5,7 @@ timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-codex-cli-large-repository-git-performance-fsmonitor-turn-diff-caching-archive-lookup"
 tags: ["codex-cli", "performance", "git", "fsmonitor", "monorepo", "large-repository", "turn-diff", "optimisation"]
 date: 2026-06-23T09:00:00+00:00
-last_modified_at: 2026-09-01T12:09:24+01:00
+last_modified_at: 2026-09-01T14:11:16+01:00
 ---
 # Taming the Monorepo: How Codex CLI v0.140 Fixed Git Performance for Large Repositories
 

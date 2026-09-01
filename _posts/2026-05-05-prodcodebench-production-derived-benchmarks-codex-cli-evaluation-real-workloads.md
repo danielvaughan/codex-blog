@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-prodcodebench-production-derived-benchmarks-codex-cli-evaluation-real-workloads"
 tags: ["codex-cli", "benchmarks", "evaluation", "ProdCodeBench", "production", "SWE-bench", "Terminal-Bench", "codex-exec"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-09-01T12:09:24+01:00
+last_modified_at: 2026-09-01T14:11:16+01:00
 ---
 ![Sketchnote diagram for: ProdCodeBench and Production-Derived Evaluation: Why Synthetic Benchmarks Mislead and How to Evaluate Codex CLI Against Real Workloads](/sketchnotes/articles/2026-05-05-prodcodebench-production-derived-benchmarks-codex-cli-evaluation-real-workloads.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "ContextSniper and the Evidence Packet Pattern: Why 51 per cent Token Savings Don't Cost Resolution Rate — and How to Wire Equivalent Retrieval into Codex CLI"
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-09-01T12:09:24+01:00
+last_modified_at: 2026-09-01T14:11:16+01:00
 tags: ["codex-cli", "context-management", "token-efficiency", "code-repair", "ICML-2026", "ContextSniper", "evidence-retrieval", "SWE-bench"]
 ---
 

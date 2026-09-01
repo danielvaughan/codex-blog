@@ -5,7 +5,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-why-always-run-tests-agents-md-makes-things-worse"
 tags: ["codex-cli", "agents-md", "testing", "tdd", "agentic-development", "regressions", "tdad"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-01T12:09:24+01:00
+last_modified_at: 2026-09-01T14:11:16+01:00
 ---
 # Why 'Always Run Tests' in AGENTS.md Makes Things Worse — and What to Write Instead
 

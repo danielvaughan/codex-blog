@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-mcp-v0136-per-server-env-targeting-oauth-streamable-http-concurrent-tools"
 tags: ["codex-cli", "mcp", "oauth", "configuration", "v0.136", "remote-servers", "streamable-http", "enterprise", "security"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-09-01T12:09:24+01:00
+last_modified_at: 2026-09-01T14:11:16+01:00
 ---
 # Codex CLI MCP in v0.136: Per-Server Environment Targeting, OAuth Streamable HTTP, and Concurrent Read-Only Tools
 

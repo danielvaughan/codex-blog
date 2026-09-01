@@ -5,7 +5,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-naturebench-scientific-discovery-benchmark-codex-cli-research-agent-method-selection-strategy"
 tags: ["codex-cli", "naturebench", "benchmark", "scientific-computing", "research-agent", "method-selection", "AGENTS.md", "subagent-delegation"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-01T12:09:24+01:00
+last_modified_at: 2026-09-01T14:11:16+01:00
 ---
 # NatureBench and the Discovery Gap: Why Your Codex CLI Agent Matches Published SOTA on Only 18 Per Cent of Scientific Tasks
 
