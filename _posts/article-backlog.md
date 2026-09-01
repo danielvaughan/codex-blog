@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Codex CLI v0.152.0 Stable — Per-Tool MCP Output Limits, App-Server Timeouts, Compaction Fix (2026-09-01 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.152.0 Stable: Per-Tool MCP Output Limits, App-Server Timeouts, and What the Alpha Preview Didn't Cover** — Written 2026-09-01 → `2026-09-01-codex-cli-v0152-stable-per-tool-mcp-output-limits-app-server-timeouts-compaction-fixes.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.152.0 stable released 1 September 2026 (GitHub openai/codex); two features absent from alpha coverage: PR #41421 per-tool `output_token_limit` for individual MCP tools (precedence over global `tool_output_token_limit`, consistent across session resumes, configured in `[mcp_servers.<id>.tools.<name>]` block), PR #41384 app-server `thread/shellCommand` timeout configurable beyond 1 hour (per-request deadline, streams partial output); also covered: compaction correctness fix (user instructions and Guardian authorisations persist through auto-compaction), cloud task backend URL rejection (allowlist enforcement preventing credential exfiltration via malicious config.toml), confirmed stable planning tool opt-in (PR #41744 `tools.update_plan.enabled = true`); on_mcp_tool_result hook interaction diagram shows hook fires before per-tool cap; tiered output_token_limit strategy table (code search 60-100k, file read 40-60k, issue lists 8-15k, messaging 3-6k, DB queries 20-40k); 6 citations; ~1,924 words
+   - SEO targets: "codex CLI v0.152.0 per-tool output_token_limit MCP tool configuration", "codex CLI app-server shellCommand timeout 1 hour", "codex CLI compaction user instructions persist Guardian authorisation", "codex CLI MCP tool output limit global per-tool override", "codex CLI cloud task backend URL security rejection untrusted"
+
+---
+
 ## Agent Plugin Co-evolution — Script–Markdown Coupling, SKILL.md Maintenance (2026-09-01 Hourly Article Run)
 
 1. ✅ **The Script–Markdown Coupling Problem: What Empirical Research on Agent Plugin Marketplaces Means for Codex CLI SKILL.md Maintenance** — Written 2026-09-01 → `2026-09-01-agent-plugin-co-evolution-skill-md-maintenance-codex-cli.md`

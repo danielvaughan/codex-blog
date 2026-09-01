@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-docker-sandboxes-codex-cli-microvm-isolation"
 tags: ["docker-sandboxes", "microvm", "sbx", "sandbox", "security", "isolation", "codex-cli", "enterprise"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-09-01T03:20:49+01:00
+last_modified_at: 2026-09-01T04:16:33+01:00
 ---
 ![Sketchnote diagram for: Docker Sandboxes for Codex CLI: MicroVM Isolation, the sbx CLI, and When to Use External Sandboxing](/sketchnotes/articles/2026-04-13-docker-sandboxes-codex-cli-microvm-isolation.png)
 

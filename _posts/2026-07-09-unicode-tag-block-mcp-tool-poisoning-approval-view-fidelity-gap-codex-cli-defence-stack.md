@@ -6,7 +6,7 @@ timestamp: 2026-07-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-09-unicode-tag-block-mcp-tool-poisoning-approval-view-fidelity-gap-codex-cli-defence-stack"
 tags: ["codex-cli", "mcp", "security", "tool-poisoning", "unicode", "approval-policy", "pretooluse-hooks", "defence-in-depth"]
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-09-01T03:20:49+01:00
+last_modified_at: 2026-09-01T04:16:33+01:00
 ---
 
 # The Invisible Payload: How Unicode TAG-Block Encoding Breaks MCP Approval Dialogs — and Where Codex CLI's Defence Stack Stands

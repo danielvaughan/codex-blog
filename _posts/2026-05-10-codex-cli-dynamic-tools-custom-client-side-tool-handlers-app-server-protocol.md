@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-dynamic-tools-custom-client-side-tool-handlers-app-server-protocol"
 tags: ["codex-cli", "app-server", "dynamic-tools", "integration", "sdk", "json-rpc", "advanced"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-01T03:20:49+01:00
+last_modified_at: 2026-09-01T04:16:33+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Dynamic Tools: Building Custom Client-Side Tool Handlers via the App-Server Protocol](/sketchnotes/articles/2026-05-10-codex-cli-dynamic-tools-custom-client-side-tool-handlers-app-server-protocol.png)
 
