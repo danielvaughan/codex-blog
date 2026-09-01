@@ -1,5 +1,13 @@
 # Article Backlog
 
+## DEPBENCH — Dependency Upgrade Hidden Breakage, Coding Agent Capability Ceiling (2026-09-01 Hourly Article Run)
+
+1. ✅ **Update from Hell: What DEPBENCH Reveals About Coding Agents and Hidden Dependency Breakage** — Written 2026-09-01 → `2026-09-01-depbench-dependency-upgrade-hidden-breakage-coding-agents-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Luo, He, Gao, Kang, Lin, Ma, Lin, Rajmohan & Tian (Monash University + Microsoft, arXiv:2608.30300, 31 August 2026) "Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?"; 203 oracle-validated tasks (4-state contract: base passes, upgraded+hidden fails, upgraded+repair+hidden passes, repair-only+hidden fails), mined from Dependabot/Renovate PRs, 5 ecosystems (Maven/Java 65, npm/yarn 68, Go 40, Cargo 20, Python 10); best configuration Codex+GPT-5.5 = 104/203 (51.2%); harness gap holding GPT-5.5 fixed = 33 tasks (16.3pp, Codex vs Claude Code); Codex only tested on GPT-5.5 (dropped chat-completions wire API after v0.94.0); dominant failure: incomplete migration (finds primary site, misses wrappers/types/fixtures/generated artefacts); visible-test pass paradox: 61.8% of non-passes satisfied all visible tests before hidden-test fail; ecosystem ranking Maven>Go=Python>npm>Cargo; consensus-hard: npm 34/68, Cargo 14/20 all-zero under GPT-5.5; discovery behaviours: test-running dominant, local API inspection consistent, docs lookup low; case studies: GitLab int→int64 propagation, Gremlin overflow semantic change; Codex CLI mapping: AGENTS.md propagation protocol (exhaust all usage sites before running tests), goal mode + rollout_budget=60, PostApplyPatch hook per-ecosystem build check, human gate before merge via codex queue; 8 citations; ~1,450 words
+   - SEO targets: "DEPBENCH dependency upgrade coding agent benchmark arXiv 2608.30300", "codex CLI dependency upgrade hidden breakage incomplete migration", "coding agent dependency upgrade 51.2% visible test pass paradox", "AGENTS.md dependency upgrade propagation protocol codex CLI", "dependency upgrade benchmark npm cargo maven coding agent 2026"
+
+---
+
 ## Codex CLI v0.152.0 Stable — Per-Tool MCP Output Limits, App-Server Timeouts, Compaction Fix (2026-09-01 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.152.0 Stable: Per-Tool MCP Output Limits, App-Server Timeouts, and What the Alpha Preview Didn't Cover** — Written 2026-09-01 → `2026-09-01-codex-cli-v0152-stable-per-tool-mcp-output-limits-app-server-timeouts-compaction-fixes.md`

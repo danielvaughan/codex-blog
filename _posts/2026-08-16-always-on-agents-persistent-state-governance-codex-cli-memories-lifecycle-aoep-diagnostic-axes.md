@@ -1,7 +1,7 @@
 ---
 title: "Always-On Agents and the Governance Gap: What a 435-Paper Survey of Persistent State Reveals About Codex CLI's Memory Lifecycle"
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-09-01T04:16:33+01:00
+last_modified_at: 2026-09-01T06:09:04+01:00
 tags: ["codex-cli", "memories", "persistent-state", "governance", "always-on-agents", "AOEP", "memory-lifecycle", "state-management"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-1password-codex-mcp-just-in-time-credential-access-agent-secrets-security"
 tags: ["codex-cli", "1password", "mcp", "secrets-management", "security", "just-in-time-credentials", "agent-security"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-09-01T04:16:33+01:00
+last_modified_at: 2026-09-01T06:09:04+01:00
 ---
 ![Sketchnote diagram for: 1Password Environments MCP Server for Codex: Just-in-Time Credential Access for Coding Agents](/sketchnotes/articles/2026-05-20-1password-codex-mcp-just-in-time-credential-access-agent-secrets-security.png)
 

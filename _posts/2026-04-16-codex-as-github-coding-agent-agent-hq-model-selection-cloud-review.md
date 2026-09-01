@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-as-github-coding-agent-agent-hq-model-selection-cloud-review"
 tags: ["github", "agent-hq", "coding-agents", "code-review", "model-selection", "cloud-agent", "enterprise", "agentic-workflows"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-01T04:16:33+01:00
+last_modified_at: 2026-09-01T06:09:04+01:00
 ---
 ![Sketchnote diagram for: Codex as a GitHub Coding Agent: Agent HQ, Model Selection, and Cloud-Based Code Review](/sketchnotes/articles/2026-04-16-codex-as-github-coding-agent-agent-hq-model-selection-cloud-review.png)
 

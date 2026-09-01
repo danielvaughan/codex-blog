@@ -6,7 +6,7 @@ timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-elixir-phoenix-development-mcp-servers-tidewave-hexdocs-workflows"
 tags: ["codex-cli", "elixir", "phoenix", "mcp", "tidewave", "elixirls", "hexdocs", "beam", "otp", "ecto"]
 date: 2026-05-24T09:00:00+00:00
-last_modified_at: 2026-09-01T04:16:33+01:00
+last_modified_at: 2026-09-01T06:09:04+01:00
 ---
 # Codex CLI for Elixir and Phoenix Development: Tidewave, ElixirLS MCP, HexDocs, and Runtime-Aware Agent Workflows
 
