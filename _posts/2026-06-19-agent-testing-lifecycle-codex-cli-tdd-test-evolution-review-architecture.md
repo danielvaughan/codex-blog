@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-agent-testing-lifecycle-codex-cli-tdd-test-evolution-review-architecture"
 tags: ["codex-cli", "testing", "tdd", "test-evolution", "hooks", "review-architecture", "jit-testing", "agent-testing"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-09-01T11:40:18+01:00
+last_modified_at: 2026-09-01T12:09:24+01:00
 ---
 # The Agent Testing Lifecycle: From Test-Driven Development Through Test Evolution to Review Architecture with Codex CLI
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-cli-proxy-configuration-socks-http-corporate-networks"
 tags: ["codex-cli", "proxy", "socks5", "corporate-network", "enterprise", "tls", "firewall", "configuration"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-01T11:40:18+01:00
+last_modified_at: 2026-09-01T12:09:24+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Proxy Configuration: SOCKS, HTTP, and Corporate Networks](/sketchnotes/articles/2026-04-18-codex-cli-proxy-configuration-socks-http-corporate-networks.png)
 

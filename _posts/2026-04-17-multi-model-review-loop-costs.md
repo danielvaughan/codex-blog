@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-multi-model-review-loop-costs"
 tags: ["cost-analysis", "multi-model", "review-loops", "enterprise", "budget", "slm-judge", "model-routing"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-01T11:40:18+01:00
+last_modified_at: 2026-09-01T12:09:24+01:00
 ---
 ![Sketchnote diagram for: The Real Cost of Multi-Model Review Loops](/sketchnotes/articles/2026-04-17-multi-model-review-loop-costs.png)
 
