@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-environment-variables-runtime-configuration-headless-ci-container-deployment"
 tags: ["codex-cli", "configuration", "environment-variables", "ci-cd", "docker", "reference", "deployment", "security"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-09-01T06:09:04+01:00
+last_modified_at: 2026-09-01T08:21:50+01:00
 ---
 # Codex CLI Environment Variables: The Complete Reference for CODEX_HOME, CODEX_API_KEY, and Headless Deployment
 

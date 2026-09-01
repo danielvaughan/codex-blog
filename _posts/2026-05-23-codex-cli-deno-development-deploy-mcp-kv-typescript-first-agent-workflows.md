@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-deno-development-deploy-mcp-kv-typescript-first-agent-workflows"
 tags: ["codex-cli", "deno", "mcp", "deno-deploy", "deno-kv", "typescript", "agent-workflows"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-01T06:09:04+01:00
+last_modified_at: 2026-09-01T08:21:50+01:00
 ---
 # Codex CLI for Deno Development: Deploy MCP, Deno KV, and TypeScript-First Agent Workflows
 

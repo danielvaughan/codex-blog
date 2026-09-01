@@ -5,7 +5,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-debt-behind-ai-boom-technical-debt-ai-generated-code-codex-cli-posttooluse-hook-defence"
 tags: ["codex-cli", "technical-debt", "AI-generated-code", "PostToolUse", "hooks", "static-analysis", "code-quality", "research"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-01T06:09:04+01:00
+last_modified_at: 2026-09-01T08:21:50+01:00
 ---
 # Debt Behind the AI Boom: What 302,000 AI-Authored Commits Reveal About Technical Debt — and How Codex CLI's Hook Pipeline Stops It Accumulating
 
