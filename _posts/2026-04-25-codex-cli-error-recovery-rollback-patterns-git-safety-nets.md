@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-error-recovery-rollback-patterns-git-safety-nets"
 tags: ["codex-cli", "git", "rollback", "undo", "error-recovery", "safety", "agentic-workflows", "best-practices"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-01T10:20:17+01:00
+last_modified_at: 2026-09-01T10:30:43+01:00
 ---
 ![Sketchnote diagram for: Error Recovery and Rollback Patterns for Codex CLI: Git Safety Nets for Agentic Workflows](/sketchnotes/articles/2026-04-25-codex-cli-error-recovery-rollback-patterns-git-safety-nets.png)
 

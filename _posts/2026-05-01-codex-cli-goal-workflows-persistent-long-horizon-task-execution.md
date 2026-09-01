@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-goal-workflows-persistent-long-horizon-task-execution"
 tags: ["goal-mode", "v0.128", "long-horizon", "autonomous", "token-budget", "persistence", "workflows"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-09-01T10:20:17+01:00
+last_modified_at: 2026-09-01T10:30:43+01:00
 ---
 ![Sketchnote diagram for: Codex CLI /goal Workflows: Persistent Long-Horizon Task Execution in v0.128](/sketchnotes/articles/2026-05-01-codex-cli-goal-workflows-persistent-long-horizon-task-execution.png)
 

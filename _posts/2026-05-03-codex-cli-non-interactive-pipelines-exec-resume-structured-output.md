@@ -6,7 +6,7 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-non-interactive-pipelines-exec-resume-structured-output"
 tags: ["codex-cli", "codex-exec", "non-interactive", "ci-cd", "automation", "structured-output", "pipelines", "resume"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-09-01T10:20:17+01:00
+last_modified_at: 2026-09-01T10:30:43+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Non-Interactive Pipelines: Production Automation with exec, resume, and Structured Output](/sketchnotes/articles/2026-05-03-codex-cli-non-interactive-pipelines-exec-resume-structured-output.png)
 

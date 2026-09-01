@@ -1,7 +1,7 @@
 ---
 title: "The Librarian Pattern: Why Persistent Search History Cuts Multi-Agent Token Waste — and How to Wire It into Codex CLI"
 date: 2026-07-12T09:00:00+00:00
-last_modified_at: 2026-09-01T10:20:17+01:00
+last_modified_at: 2026-09-01T10:30:43+01:00
 tags: ["codex-cli", "multi-agent", "token-optimisation", "subagents", "context-management", "energy-efficiency", "repository-exploration"]
 ---
 

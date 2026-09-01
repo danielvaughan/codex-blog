@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-hooks-after-ga-event-model-trust-verification-production-patterns"
 tags: ["codex-cli", "hooks", "general-availability", "trust-model", "production-patterns", "enterprise", "security", "v0.133"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-09-01T10:20:17+01:00
+last_modified_at: 2026-09-01T10:30:43+01:00
 ---
 # Codex CLI Hooks After GA: The Complete Event Model, Trust Verification, and Production Patterns for v0.133
 

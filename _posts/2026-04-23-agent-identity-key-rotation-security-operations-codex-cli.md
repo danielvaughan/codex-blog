@@ -6,7 +6,7 @@ timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-agent-identity-key-rotation-security-operations-codex-cli"
 tags: ["agent-identity", "key-rotation", "security", "Ed25519", "enterprise", "secrets-management", "CI/CD", "v0.123", "incident-response"]
 date: 2026-04-23T09:00:00+00:00
-last_modified_at: 2026-09-01T10:20:17+01:00
+last_modified_at: 2026-09-01T10:30:43+01:00
 ---
 ![Sketchnote diagram for: Agent Identity Key Rotation and Security Operations for Codex CLI](/sketchnotes/articles/2026-04-23-agent-identity-key-rotation-security-operations-codex-cli.png)
 
