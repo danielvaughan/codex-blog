@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-nix-nixos-development-mcp-servers-flakes-reproducible-agent-workflows"
 tags: ["codex-cli", "nix", "nixos", "mcp", "flakes", "home-manager", "nix-darwin", "sandbox", "reproducible-builds", "devops"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-01T00:15:00+01:00
+last_modified_at: 2026-09-01T02:14:12+01:00
 ---
 # Codex CLI for Nix and NixOS Development: MCP-NixOS, Sandbox Isolation, and Reproducible Agent Workflows
 

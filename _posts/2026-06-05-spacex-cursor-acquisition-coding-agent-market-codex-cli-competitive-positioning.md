@@ -5,7 +5,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-spacex-cursor-acquisition-coding-agent-market-codex-cli-competitive-positioning"
 tags: ["codex-cli", "cursor", "spacex", "xai", "competitive-landscape", "coding-agents", "enterprise", "grok", "market-analysis"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-01T00:15:00+01:00
+last_modified_at: 2026-09-01T02:14:12+01:00
 ---
 # The SpaceX-Cursor Deal: How a \$60 Billion Acquisition Reshapes the Coding Agent Market and What Codex CLI Developers Should Watch
 

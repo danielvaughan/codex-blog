@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Agent Plugin Co-evolution — Script–Markdown Coupling, SKILL.md Maintenance (2026-09-01 Hourly Article Run)
+
+1. ✅ **The Script–Markdown Coupling Problem: What Empirical Research on Agent Plugin Marketplaces Means for Codex CLI SKILL.md Maintenance** — Written 2026-09-01 → `2026-09-01-agent-plugin-co-evolution-skill-md-maintenance-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Hereiz, Lyu, Li, Adams & Hassan (Queen's University SAIL, arXiv:2608.28497, August 28, 2026) "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces"; 1,926 repositories, 8,351 plugins, 77,773 commits, 6-month post-launch window (Oct 2025–Mar 2026); headline: 78% of script+Markdown co-changes in skills/ directories are functionally coupled (252/323 PRs, κ=0.74), representing a new class of maintenance dependency absent from conventional software; five coupling types: interface changes (most common), internal logic updates, variable synchronisation, behavioural refactoring, schema/structure alignment; ecosystem growth: 8.8× commit surge over 6 months (2,923→25,618), skills instances 22× (1,776→39,287); commit type inversion: feature 39.6% vs 17.2% conventional OSS, test 0.5%; four CCS labels semantically shifted (docs→feat/fix, perf→model/prompt, style→instruction wording, refactor→instruction rewording); Claude co-authors 34.9% of all commits (highest rate: perf 40.1%); mapped to Codex CLI Agent Plugins 1.0: skills/SKILL.md = instruction files, hooks/ = hook scripts, plugin.json = marketplace.json, plugin-bundled AGENTS.md = agent Markdown; new coupling axis: v0.151.0 on_mcp_tool_result handler creates three-way coupling (handler + MCP tool + SKILL.md); four mitigations: explicit interface contracts in SKILL.md, PostApplyPatch hook for co-evolution check, version pinning in config.toml, AGENTS.md directive preventing agent-authored coupling breaks; 5 citations; ~1,150 words
+   - SEO targets: "agent plugin co-evolution script markdown coupling SKILL.md maintenance arXiv 2608.28497", "codex CLI SKILL.md instruction co-evolution hook script update", "plugin marketplace empirical study coding agent plugins maintenance 2026", "codex CLI agent plugins 1.0 SKILL.md coupling script PostApplyPatch hook", "agent plugin feature commit rate 39.6% conventional OSS Claude co-author"
+
+---
+
 ## AID-Guard — Stateful Authorization for Delegated Agent Effects (2026-08-31 Hourly Article Run)
 
 1. ✅ **AID-Guard: Closing the Authorization-Effect Gap in Codex CLI Multi-Agent Workflows** — Written 2026-08-31 → `2026-08-31-aid-guard-stateful-authorization-delegated-agent-effects-codex-cli-multi-agent.md`

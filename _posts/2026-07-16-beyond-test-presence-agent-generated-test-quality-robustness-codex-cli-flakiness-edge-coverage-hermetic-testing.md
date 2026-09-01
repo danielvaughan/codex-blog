@@ -1,7 +1,7 @@
 ---
 title: "Beyond Test Presence: What 204,000 Test Files Reveal About Agent-Generated Test Quality — and How to Harden Codex CLI's Testing Output"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-09-01T00:15:00+01:00
+last_modified_at: 2026-09-01T02:14:12+01:00
 tags: ["codex-cli", "testing", "agent-generated-tests", "flaky-tests", "edge-case-coverage", "AGENTS.md", "PostToolUse", "hermetic-testing", "test-quality"]
 ---
 

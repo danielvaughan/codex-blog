@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-multi-agent-vs-single-agent-codex-cli-framework"
 tags: ["codex-cli", "multi-agent", "single-agent", "subagents", "orchestration", "skill-distillation", "cost-optimisation"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-01T00:15:00+01:00
+last_modified_at: 2026-09-01T02:14:12+01:00
 ---
 ![Sketchnote diagram for: When to Use Multi-Agent vs Single-Agent: A Practical Framework for Codex CLI Teams](/sketchnotes/articles/2026-04-18-multi-agent-vs-single-agent-codex-cli-framework.png)
 

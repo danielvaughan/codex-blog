@@ -1,7 +1,7 @@
 ---
 title: "Token Reduction Is Not Cost Reduction: What 2,848 Billed Runs Reveal About Prompt-Cache Economics in Coding Agents"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-09-01T00:15:00+01:00
+last_modified_at: 2026-09-01T02:14:12+01:00
 tags: ["codex-cli", "cost-optimisation", "prompt-caching", "token-economics", "tool-output-token-limit", "compaction", "billing"]
 ---
 

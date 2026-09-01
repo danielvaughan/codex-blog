@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-cli-ml-engineering-training-scripts-experiment-tracking-mlops-pipelines"
 tags: ["codex-cli", "machine-learning", "mlops", "mlflow", "experiment-tracking", "pytorch", "hugging-face", "mcp"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-09-01T00:15:00+01:00
+last_modified_at: 2026-09-01T02:14:12+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for ML Engineering: Training Scripts, Experiment Tracking, and MLOps Pipeline Automation](/sketchnotes/articles/2026-05-11-codex-cli-ml-engineering-training-scripts-experiment-tracking-mlops-pipelines.png)
 
