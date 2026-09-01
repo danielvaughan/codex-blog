@@ -6,7 +6,7 @@ timestamp: 2026-08-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-05-verification-inversion-generation-easy-verification-hard-codex-cli-constraints-research"
 tags: ["verification", "code-review", "research", "codex-cli", "quality-gates", "hooks", "sandbox", "constraints", "formal-verification"]
 date: 2026-08-05T09:00:00+00:00
-last_modified_at: 2026-09-01T20:11:50+01:00
+last_modified_at: 2026-09-01T22:09:28+01:00
 ---
 # The Verification Inversion: Why Generation Became Easy, Verification Became Hard, and What the Research Says You Should Do About It
 

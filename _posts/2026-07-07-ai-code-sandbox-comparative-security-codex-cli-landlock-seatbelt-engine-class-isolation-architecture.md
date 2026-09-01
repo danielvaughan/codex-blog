@@ -5,7 +5,7 @@ timestamp: 2026-07-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-07-ai-code-sandbox-comparative-security-codex-cli-landlock-seatbelt-engine-class-isolation-architecture"
 tags: ["codex-cli", "sandbox", "security", "Landlock", "Seatbelt", "microVM", "gVisor", "OCI-container", "defence-in-depth", "comparative-study"]
 date: 2026-07-07T09:00:00+00:00
-last_modified_at: 2026-09-01T20:11:50+01:00
+last_modified_at: 2026-09-01T22:09:28+01:00
 ---
 # AI Code Sandbox Security Showdown: What a Five-Product Comparative Study Reveals About Engine-Class Isolation — and Where Codex CLI's Landlock-and-Seatbelt Architecture Sits
 

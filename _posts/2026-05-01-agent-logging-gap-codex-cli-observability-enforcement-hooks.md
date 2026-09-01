@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-agent-logging-gap-codex-cli-observability-enforcement-hooks"
 tags: ["codex-cli", "logging", "observability", "code-quality", "hooks", "AGENTS.md", "research"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-09-01T20:11:50+01:00
+last_modified_at: 2026-09-01T22:09:28+01:00
 ---
 ![Sketchnote diagram for: The Agent Logging Gap: Why Codex CLI Agents Under-Log and How to Enforce Observability Standards](/sketchnotes/articles/2026-05-01-agent-logging-gap-codex-cli-observability-enforcement-hooks.png)
 

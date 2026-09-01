@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-openai-daybreak-codex-security-enterprise-cyber-defence-platform"
 tags: ["codex-cli", "codex-security", "daybreak", "cybersecurity", "GPT-5.5-Cyber", "enterprise", "vulnerability-management"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-09-01T20:11:50+01:00
+last_modified_at: 2026-09-01T22:09:28+01:00
 ---
 ![Sketchnote diagram for: OpenAI Daybreak and Codex Security: From Developer Tool to Enterprise Cyber Defence Platform](/sketchnotes/articles/2026-05-12-openai-daybreak-codex-security-enterprise-cyber-defence-platform.png)
 

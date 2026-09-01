@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-managed-agents-gemini-api-vs-codex-cloud-tasks-agent-as-a-service-showdown"
 tags: ["codex-cli", "codex-cloud", "gemini-api", "managed-agents", "google-io-2026", "agent-as-a-service", "codex-exec", "comparison"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-09-01T20:11:50+01:00
+last_modified_at: 2026-09-01T22:09:28+01:00
 ---
 ![Sketchnote diagram for: Managed Agents in the Gemini API vs Codex Cloud Tasks: Agent-as-a-Service Showdown](/sketchnotes/articles/2026-05-20-managed-agents-gemini-api-vs-codex-cloud-tasks-agent-as-a-service-showdown.png)
 
