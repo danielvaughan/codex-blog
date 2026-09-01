@@ -5,7 +5,7 @@ timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-codex-cli-v0138-release-guide-desktop-handoff-access-tokens-performance-plugin-automation"
 tags: ["codex-cli", "v0.138", "release-guide", "desktop-handoff", "access-tokens", "performance", "plugin-automation", "enterprise"]
 date: 2026-06-09T09:00:00+00:00
-last_modified_at: 2026-09-01T10:10:34+01:00
+last_modified_at: 2026-09-01T10:20:17+01:00
 ---
 # Codex CLI v0.138: Desktop Handoff, Enterprise Access Tokens, and the Performance Gains That Actually Matter
 

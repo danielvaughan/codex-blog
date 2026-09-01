@@ -1,7 +1,7 @@
 ---
 title: "From Static to Dynamic: What MCR-Bench Reveals About Multi-Round Code Review — and How to Configure Codex CLI for the Real Thing"
 date: 2026-09-01T07:00:00+00:00
-last_modified_at: 2026-09-01T10:10:34+01:00
+last_modified_at: 2026-09-01T10:20:17+01:00
 tags: ["codex-cli", "code-review", "multi-round", "Guardian", "harness-engineering", "AGENTS.md", "multi-agent", "benchmarks"]
 ---
 
@@ -145,13 +145,18 @@ For pull-request review workflows running multiple rounds, Guardian is necessary
 
 The most practical mitigation within current Codex CLI capabilities is a `PostToolUse` hook that maintains a structured defect state file alongside the review session:
 
-```toml
-# ~/.codex/hooks.json
-[hooks.PostToolUse]
-[[hooks.PostToolUse]]
-name = "review-state-ledger"
-command = "./hooks/update-review-state.sh"
-matcher = "apply_patch"
+```json
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "name": "review-state-ledger",
+        "command": "./hooks/update-review-state.sh",
+        "matcher": "apply_patch"
+      }
+    ]
+  }
+}
 ```
 
 ```bash
@@ -174,7 +179,7 @@ MCR-Bench's primary lesson is that models need *explicit* instructions about sta
 
 A minimal AGENTS.md review protocol section:
 
-```markdown
+````markdown
 ## Code Review Protocol
 
 ### Round Entry Requirements
@@ -199,7 +204,7 @@ End each review turn with a structured state block:
   "defects_reopened": []
 }
 ```
-```
+````
 
 This format directly addresses the two largest failure modes: state-temporal misalignment (explicit closed-state check before raising new findings) and cross-round forgetting (explicit open-state list carried forward each turn).
 

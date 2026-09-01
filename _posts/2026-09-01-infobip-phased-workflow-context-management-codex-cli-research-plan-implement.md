@@ -1,7 +1,7 @@
 ---
 title: "Front-Load the Human: Infobip's Four-Phase Coding Agent Workflow and Its Codex CLI Blueprint"
 date: 2026-09-01T17:00:00+00:00
-last_modified_at: 2026-09-01T10:10:34+01:00
+last_modified_at: 2026-09-01T10:20:17+01:00
 tags: ["codex-cli", "workflow", "context-management", "AGENTS.md", "goal-mode", "harness-engineering", "practitioner"]
 ---
 
@@ -89,6 +89,8 @@ Project conventions are in AGENTS.md. Do not modify files outside the scope of t
 For multi-task parallel execution, launch each task as a separate `codex agents` session and track progress via `codex queue` messages.[^3]
 
 ## Four Context-Management Strategies
+
+The vocabulary below — Select, Compress, Isolate, Write — is grounded in the Infobip paper's framework.[^1] For a broader treatment of context-failure modes and engineering strategies in agent systems, see dbreunig's analysis[^5] and the 2026 practitioners' guide to context engineering.[^6]
 
 | Strategy | When Applied | Failure Mode Addressed |
 |----------|-------------|------------------------|

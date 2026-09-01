@@ -5,7 +5,7 @@ timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-gpt-5-codex-june-14-refresh-model-selection-decision-tree-cli-configuration-pricing-benchmarks"
 tags: ["models", "model-selection", "gpt-5-codex", "codex-cli", "configuration", "pricing", "benchmarks"]
 date: 2026-06-15T09:00:00+00:00
-last_modified_at: 2026-09-01T10:10:34+01:00
+last_modified_at: 2026-09-01T10:20:17+01:00
 ---
 # GPT-5-Codex Refreshed: The June 14 Model Update and the Mid-2026 Model Selection Decision Tree for Codex CLI
 

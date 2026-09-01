@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-v0128-goal-workflows-keymap-self-update"
 tags: ["codex-cli", "v0.128", "release-notes", "goal-workflows", "keymaps", "self-update", "tui", "permission-profiles", "multi-agent"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-09-01T10:10:34+01:00
+last_modified_at: 2026-09-01T10:20:17+01:00
 ---
 ![Sketchnote diagram for: Codex CLI v0.128: Goal Workflows, Configurable Keymaps, and Built-In Self-Update](/sketchnotes/articles/2026-04-30-codex-cli-v0128-goal-workflows-keymap-self-update.png)
 
