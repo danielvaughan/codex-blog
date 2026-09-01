@@ -6,7 +6,7 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-multiagentv2-custom-roles-thread-orchestration-parallel-workflows"
 tags: ["codex-cli", "multi-agent", "subagents", "MultiAgentV2", "parallel-workflows", "orchestration", "custom-roles", "config.toml", "spawn_agent"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-09-01T22:09:28+01:00
+last_modified_at: 2026-09-02T00:09:12+01:00
 ---
 ![Sketchnote diagram for: Codex CLI MultiAgentV2: Custom Roles, Thread Orchestration, and Production Parallel Workflows](/sketchnotes/articles/2026-05-03-codex-cli-multiagentv2-custom-roles-thread-orchestration-parallel-workflows.png)
 

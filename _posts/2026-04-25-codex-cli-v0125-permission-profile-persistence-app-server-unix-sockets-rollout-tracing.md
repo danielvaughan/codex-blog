@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-v0125-permission-profile-persistence-app-server-unix-sockets-rollout-tracing"
 tags: ["codex-cli", "v0.125", "permission-profiles", "app-server", "rollout-tracing", "unix-sockets", "security", "debugging"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-01T22:09:28+01:00
+last_modified_at: 2026-09-02T00:09:12+01:00
 ---
 ![Sketchnote diagram for: Codex CLI v0.125: Permission Profile Persistence, App-Server Unix Sockets, and Rollout Tracing](/sketchnotes/articles/2026-04-25-codex-cli-v0125-permission-profile-persistence-app-server-unix-sockets-rollout-tracing.png)
 

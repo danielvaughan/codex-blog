@@ -1,7 +1,7 @@
 ---
 title: "The Kiro MCP Config Rewrite: How a Hidden Line of CSS Achieved Remote Code Execution — and Why Codex CLI's Architecture Makes the Same Attack Structurally Impossible"
 date: 2026-07-25T09:00:00+00:00
-last_modified_at: 2026-09-01T22:09:28+01:00
+last_modified_at: 2026-09-02T00:09:12+01:00
 tags: ["codex-cli", "security", "prompt-injection", "MCP", "sandbox", "Kiro", "RCE", "config-immutability", "defence-in-depth"]
 ---
 

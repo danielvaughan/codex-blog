@@ -2,7 +2,7 @@
 title: "Codex App Theming and Customisation: codex-theme-v1, Partner Themes, and the CLI /theme Command"
 description: "OpenAI shipped full appearance customisation for the Codex app in late March 2026, adding base theme selection, per-channel colour controls, font overrides."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-01T22:09:28+01:00
+last_modified_at: 2026-09-02T00:09:12+01:00
 tags:
   - configuration
   - desktop-app

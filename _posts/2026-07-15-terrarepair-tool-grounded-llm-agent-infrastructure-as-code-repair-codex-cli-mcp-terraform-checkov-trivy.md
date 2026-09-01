@@ -1,7 +1,7 @@
 ---
 title: "TerraRepair and Tool-Grounded IaC Repair: Why Schema Lookup Matters More Than Scanner Feedback — and How to Wire Terraform Repair Agents into Codex CLI"
 date: 2026-07-15T09:00:00+00:00
-last_modified_at: 2026-09-01T22:09:28+01:00
+last_modified_at: 2026-09-02T00:09:12+01:00
 tags: ["codex-cli", "terraform", "infrastructure-as-code", "iac-security", "checkov", "trivy", "mcp", "tool-grounding", "llm-agent", "cloud-misconfiguration"]
 ---
 

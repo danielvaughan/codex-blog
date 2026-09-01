@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-swe-cycle-fullcycle-issue-resolution-benchmark-codex-cli-subagent-environment-test-generation-pipeline"
 tags: ["SWE-Cycle", "benchmark", "FullCycle", "issue-resolution", "codex-cli", "subagent-delegation", "environment-reconstruction", "test-generation", "PostToolUse-hooks", "AGENTS.md"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-09-01T22:09:28+01:00
+last_modified_at: 2026-09-02T00:09:12+01:00
 ---
 # SWE-Cycle and the FullCycle Gap: Why Coding Agents That Ace Isolated Tasks Collapse at End-to-End Issue Resolution — and How to Configure Codex CLI's Subagent Pipeline
 

@@ -1,5 +1,13 @@
 # Article Backlog
 
+## WebMCP Site Tools — Browser-Native Agent API, Codex Web Integration (2026-09-02 Hourly Article Run)
+
+1. ✅ **WebMCP Site Tools: How Codex Now Calls Your Web App Like an API** — Written 2026-09-02 → `2026-09-02-webmcp-site-tools-codex-agent-web-interface-standard.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — WebMCP (W3C Web Machine Learning Community Group, proposed by Microsoft + Google engineers) launched in ChatGPT desktop app on 25 August 2026; OpenAI's implementation called "site tools"; JavaScript API: `document.modelContext.registerTool()` with name, description, inputSchema (JSON Schema), annotations (readOnlyHint), and async execute handler; AbortController signal for lifecycle management; declarative HTML form fallback via `tool-name`/`tool-description` attributes; discovery: browser auto-detects on page load, arrow icon in address bar, page-scoped (disappear on navigation); requires GPT-5.6 Sol or Terra (Luna disabled, Enterprise/Edu unavailable); Chrome 146 behind experimental flag; 5-second task completion vs 30-60s for DOM scraping; no iframe support (top-level JS only); 10-day challenge Aug 25–Sept 3 ($35,000 prize pool, partners: Chromium, Cloudflare, Shopify, Vercel, Render, Netlify); security: tool definitions untrusted content, high-stakes actions require confirmation, origin-scoped; WebMCP vs backend MCP: WebMCP inherits session auth + is page-scoped vs always-on + full MCP surface; Codex CLI mapping: complement not replace backend MCP servers, migrate browser automation workflows, narrow inputSchema + return verification data + reuse session auth; 5 citations; ~1,150 words
+   - SEO targets: "WebMCP site tools Codex browser agent JavaScript API 2026", "document.modelContext.registerTool ChatGPT Codex web integration", "WebMCP vs MCP server browser agent tool registration", "Codex web app agent-ready site tools GPT-5.6 Sol Terra", "WebMCP 10-day challenge OpenAI developer browser tools"
+
+---
+
 ## Agent Retrieval Bench — Repository Context Retrieval Gap, Codex CLI File Navigation (2026-09-01 Hourly Article Run)
 
 1. ✅ **Agent Retrieval Bench: Why Codex CLI Misses Critical Repository Files in 27–29% of Tasks — and What to Do About It** — Written 2026-09-01 → `2026-09-01-agent-retrieval-bench-repository-context-retrieval-codex-cli-file-navigation-gap.md`

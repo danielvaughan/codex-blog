@@ -6,7 +6,7 @@ timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-developer-agent-misalignment-20574-sessions-codex-cli-constraint-violation-defence-hooks-approval-policy"
 tags: ["codex-cli", "developer-agent-misalignment", "constraint-violation", "hooks", "approval-policy", "AGENTS.md", "coding-agent-safety", "real-world-sessions"]
 date: 2026-07-04T09:00:00+00:00
-last_modified_at: 2026-09-01T22:09:28+01:00
+last_modified_at: 2026-09-02T00:09:12+01:00
 ---
 # How Coding Agents Fail Their Users: What 20,574 Real-World Sessions Reveal About Misalignment — and How Codex CLI Defends Against the Seven Failure Forms
 

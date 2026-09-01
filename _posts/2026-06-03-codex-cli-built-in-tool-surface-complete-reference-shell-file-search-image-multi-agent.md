@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-built-in-tool-surface-complete-reference-shell-file-search-image-multi-agent"
 tags: ["codex-cli", "tools", "reference", "architecture", "shell", "apply-patch", "multi-agent", "image-generation", "web-search", "v0.136"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-09-01T22:09:28+01:00
+last_modified_at: 2026-09-02T00:09:12+01:00
 ---
 # Codex CLI Built-In Tool Surface: The Complete Reference for v0.136
 

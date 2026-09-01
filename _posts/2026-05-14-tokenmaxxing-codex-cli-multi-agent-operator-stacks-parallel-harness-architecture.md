@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-tokenmaxxing-codex-cli-multi-agent-operator-stacks-parallel-harness-architecture"
 tags: ["codex-cli", "multi-agent", "tokenmaxxing", "operator-stack", "parallel-agents", "claude-code", "harness-engineering", "cc-switch", "agent-routing"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-01T22:09:28+01:00
+last_modified_at: 2026-09-02T00:09:12+01:00
 ---
 ![Sketchnote diagram for: Tokenmaxxing with Codex CLI: Multi-Agent Operator Stacks, Parallel Harnesses, and the End of Single-Tool Identity](/sketchnotes/articles/2026-05-14-tokenmaxxing-codex-cli-multi-agent-operator-stacks-parallel-harness-architecture.png)
 
