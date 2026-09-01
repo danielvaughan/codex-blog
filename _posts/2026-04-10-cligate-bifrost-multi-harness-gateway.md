@@ -2,7 +2,7 @@
 title: "CliGate, Bifrost, and the Multi-Harness Gateway Pattern"
 description: "Most senior developers running agentic coding tools in 2026 have at least two — often three — CLI agents installed: Claude Code, Codex CLI, and Gemini CLI."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 type: Technical Article
 timestamp: 2026-04-10T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-cligate-bifrost-multi-harness-gateway"

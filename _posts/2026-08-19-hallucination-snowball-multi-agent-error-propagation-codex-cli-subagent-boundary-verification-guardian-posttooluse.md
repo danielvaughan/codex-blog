@@ -1,7 +1,7 @@
 ---
 title: "The Hallucination Snowball: What Multi-Agent Error Propagation Means for Your Codex CLI Subagent Pipelines"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 tags: ["codex-cli", "multi-agent", "hallucination", "error-propagation", "subagent", "PostToolUse", "Guardian", "verification", "ICML-2026"]
 ---
 

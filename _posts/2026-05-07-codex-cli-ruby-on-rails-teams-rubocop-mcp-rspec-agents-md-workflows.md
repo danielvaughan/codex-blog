@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-ruby-on-rails-teams-rubocop-mcp-rspec-agents-md-workflows"
 tags: ["codex-cli", "ruby-on-rails", "rubocop", "rspec", "mcp", "agents-md", "testing", "configuration", "hooks"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Ruby on Rails Teams: RuboCop MCP, RSpec Workflows, and Convention-Friendly AGENTS.md Patterns](/sketchnotes/articles/2026-05-07-codex-cli-ruby-on-rails-teams-rubocop-mcp-rspec-agents-md-workflows.png)
 

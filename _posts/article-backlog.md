@@ -1,5 +1,11 @@
 # Article Backlog
 
+## Codex CLI v0.153.0-alpha — Per-Link Approval Policies & Plugin Marketplace Source Enforcement (2026-09-01 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.153.0-alpha: Per-Link Approval Policies for Connected Apps and Plugin Marketplace Source Enforcement** — Written 2026-09-01 → `2026-09-01-codex-cli-v0153-alpha-per-link-approval-policies-apps-plugin-marketplace-source-enforcement.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.153.0-alpha.1 and alpha.2 released 1 September 2026 (GitHub openai/codex); three PRs implement per-link approval settings for Apps: #42047 introduces `apps.<app_id>.links.<link_id>.approvals_reviewer` and `default_tools_approval_mode` in config.toml, #42054 enforces explicit link_id in tool-call arguments when `requires_explicit_link_id` is true on app metadata, #42056 routes link-specific settings into MCP tool approval policy evaluation with precedence link > app > global (but below per-tool and managed overrides); #41953 extends OpenAI plugins Git source allowlist to cover curated catalog discovery, installation, cached plugin loading, skill loading, and startup repo sync (previously only user-configured marketplaces); #42065 preserves Guardian history across thread reconstruction (session-scoped, not disk-persisted); #42039 consolidates shared and forked rollout compression into single `local_thread_store_compression` mode (`local_thread_store_shared_compression` kept for compat, now no-op), enables `codex exec resume` to select working directory from compressed rollouts; #41941 adds Vim undo (u) to TUI composer; 10 citations; 1,391 words
+
+
 ## VulnGym — Repository-Level Vulnerability Detection Benchmark (2026-09-01 Hourly Article Run)
 
 1. ✅ **VulnGym: Why Coding Agents Score Under 23% on Repository-Level Vulnerability Detection — and What It Means for Codex CLI Security Workflows** — Written 2026-09-01 → `2026-09-01-vulngym-repository-level-vulnerability-detection-coding-agents-codex-cli.md`

@@ -6,7 +6,7 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-codex-cli-at-one-year-from-research-preview-to-3-million-users"
 tags: ["anniversary", "codex-cli", "timeline", "ecosystem", "growth", "milestones", "retrospective"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 ![Sketchnote diagram for: Codex CLI at One Year: From Research Preview to 3 Million Weekly Active Users](/sketchnotes/articles/2026-04-15-codex-cli-at-one-year-from-research-preview-to-3-million-users.png)
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-prompt-injection-defence-codex-cli-attack-vectors-hardening"
 tags: ["codex-cli", "security", "prompt-injection", "defence-in-depth", "MCP", "AGENTS.md", "sandbox", "OWASP"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 ![Sketchnote diagram for: Prompt Injection Defence for Codex CLI: Attack Vectors, Real CVEs, and Practical Hardening](/sketchnotes/articles/2026-04-21-prompt-injection-defence-codex-cli-attack-vectors-hardening.png)
 

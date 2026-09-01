@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-service-tiers-flex-fast-cost-speed-optimisation"
 tags: ["codex-cli", "service-tiers", "flex", "fast-mode", "cost-optimisation", "performance", "pricing", "config-profiles"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Service Tiers Explained: Flex, Standard, and Fast Mode for Cost and Speed Optimisation](/sketchnotes/articles/2026-04-30-codex-cli-service-tiers-flex-fast-cost-speed-optimisation.png)
 

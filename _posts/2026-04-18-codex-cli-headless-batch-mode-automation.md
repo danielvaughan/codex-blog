@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-cli-headless-batch-mode-automation"
 tags: ["codex-cli", "codex-exec", "batch-processing", "automation", "headless", "structured-output"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Headless and Batch Mode: Non-Interactive Automation Guide](/sketchnotes/articles/2026-04-18-codex-cli-headless-batch-mode-automation.png)
 

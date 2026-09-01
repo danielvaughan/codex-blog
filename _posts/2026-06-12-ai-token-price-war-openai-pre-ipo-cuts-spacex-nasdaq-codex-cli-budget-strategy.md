@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-ai-token-price-war-openai-pre-ipo-cuts-spacex-nasdaq-codex-cli-budget-strategy"
 tags: ["codex-cli", "pricing", "token-economics", "ipo", "openai", "anthropic", "spacex", "grok-build", "enterprise", "budget", "multi-provider", "strategy"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 # The AI Token Price War: OpenAI's Pre-IPO Price Cuts, the SpaceX Nasdaq Debut, and What Codex CLI Developers Should Budget For
 

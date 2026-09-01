@@ -1,7 +1,7 @@
 ---
 title: "Computer History and the Ambient Memory Pipeline: What macOS Interaction Events Mean for Your Codex CLI Memories, Skills, and Privacy Posture"
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 tags: ["codex-cli", "computer-history", "memories", "skysight", "skill-synthesis", "privacy", "macOS", "ambient-memory", "workflow-detection", "chronicle-replacement"]
 ---
 

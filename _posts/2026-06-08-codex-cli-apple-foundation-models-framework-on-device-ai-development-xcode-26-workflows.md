@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-apple-foundation-models-framework-on-device-ai-development-xcode-26-workflows"
 tags: ["codex-cli", "apple", "foundation-models", "swift", "xcode", "on-device-ai", "wwdc-2026", "guided-generation", "tool-calling"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 # Codex CLI and Apple's Foundation Models Framework: Agent-Assisted On-Device AI Development
 

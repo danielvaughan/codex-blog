@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-database-migrations-atlas-mcp-workflows"
 tags: ["database-migrations", "atlas", "mcp", "drizzle", "prisma", "neon", "schema-management", "agent-skills", "postgres"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 ![Sketchnote diagram for: Codex CLI and Database Migrations: Atlas Skills, MCP Servers, and Schema-Driven Workflows](/sketchnotes/articles/2026-04-12-codex-cli-database-migrations-atlas-mcp-workflows.png)
 

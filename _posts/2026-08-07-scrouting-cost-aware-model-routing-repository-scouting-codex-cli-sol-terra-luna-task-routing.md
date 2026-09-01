@@ -1,7 +1,7 @@
 ---
 title: "Scrouting: What Cost-Aware Repository Scouting Means for Your Codex CLI Model Routing Strategy"
 date: 2026-08-07T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 tags: ["codex-cli", "model-routing", "cost-optimisation", "SuperScout", "SWE-bench-Pro", "Sol", "Terra", "Luna", "named-profiles", "research"]
 ---
 

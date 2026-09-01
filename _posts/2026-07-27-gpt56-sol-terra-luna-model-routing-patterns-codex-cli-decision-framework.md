@@ -1,7 +1,7 @@
 ---
 title: "Model Routing Patterns for Coding Agents: A Sol, Terra, Luna Decision Framework"
 date: 2026-07-27T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 tags: ["codex-cli", "gpt-5.6", "sol", "terra", "luna", "model-routing", "named-profiles", "token-economics", "config.toml"]
 ---
 

@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-flutter-dart-cross-platform-agent-workflows-mcp-servers-widget-testing"
 tags: ["codex-cli", "flutter", "dart", "mcp", "cross-platform", "widget-testing", "agentic-development"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 # Codex CLI for Flutter and Dart: Cross-Platform Agent Workflows, MCP Servers, and Widget Testing
 

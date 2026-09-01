@@ -5,7 +5,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-three-layers-agent-testing-dependency-graphs-phase-gates-bounded-repair"
 tags: ["codex-cli", "agent-testing", "tdd", "tdad", "phase-gates", "bounded-repair", "multi-agent", "AGENTS.md"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 ---
 # The Three Layers of Agent Testing: Dependency Graphs, Phase Gates, and Bounded Repair
 

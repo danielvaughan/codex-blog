@@ -1,7 +1,7 @@
 ---
 title: "Cheap Code, Costly Judgment: Governance Conversion for Agentic Software Engineering with Codex CLI"
 date: 2026-08-10T09:00:00+00:00
-last_modified_at: 2026-09-01T14:11:16+01:00
+last_modified_at: 2026-09-01T16:11:14+01:00
 tags: ["codex-cli", "governance", "agentic-software-engineering", "testing", "approval-policy", "AGENTS.md", "CI/CD", "quality-gates"]
 ---
 
