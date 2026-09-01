@@ -1,7 +1,7 @@
 ---
 title: "Unreliable in Practice? What 86,726 LLM Code Errors Reveal About Codex CLI Verification Strategy"
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 tags: ["codex-cli", "llm-code-errors", "verification", "PostToolUse-hooks", "memory-safety", "input-validation", "ISSRE-2026", "code-quality"]
 ---
 

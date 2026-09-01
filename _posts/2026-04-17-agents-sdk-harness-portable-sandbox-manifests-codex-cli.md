@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-agents-sdk-harness-portable-sandbox-manifests-codex-cli"
 tags: ["agents-sdk", "harness", "sandbox", "manifest", "e2b", "modal", "daytona", "codex-cli", "enterprise", "portable-compute"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 ---
 ![Sketchnote diagram for: The Agents SDK Harness and Portable Sandbox Manifests: Running Codex Workflows Across Seven Compute Providers](/sketchnotes/articles/2026-04-17-agents-sdk-harness-portable-sandbox-manifests-codex-cli.png)
 

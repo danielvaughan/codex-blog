@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-amazon-bedrock-native-provider-aws-enterprise-configuration"
 tags: ["codex-cli", "amazon-bedrock", "aws", "enterprise", "model-providers", "configuration", "gpt-oss"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 ---
 ![Sketchnote diagram for: Codex CLI with Amazon Bedrock: Native AWS Provider Configuration and Enterprise Deployment](/sketchnotes/articles/2026-04-29-codex-cli-amazon-bedrock-native-provider-aws-enterprise-configuration.png)
 

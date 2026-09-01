@@ -5,7 +5,7 @@ timestamp: 2026-06-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-codex-remote-ga-qr-relay-digitalocean-plugin-mobile-approval-workflow-phone-as-control-plane"
 tags: ["codex-cli", "codex-remote", "mobile", "QR-relay", "DigitalOcean", "remote-development", "security", "enterprise", "approval-workflow"]
 date: 2026-06-29T09:00:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 ---
 # Codex Remote GA: QR Relay, DigitalOcean Plugin, and the Phone as Your Agent's Control Plane
 

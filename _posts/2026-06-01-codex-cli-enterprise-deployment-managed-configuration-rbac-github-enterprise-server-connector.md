@@ -5,7 +5,7 @@ timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-enterprise-deployment-managed-configuration-rbac-github-enterprise-server-connector"
 tags: ["codex-cli", "enterprise", "managed-configuration", "requirements-toml", "rbac", "github-enterprise-server", "governance", "security"]
 date: 2026-06-01T09:00:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 ---
 # Codex CLI Enterprise Deployment: Managed Configuration, RBAC, and the GitHub Enterprise Server Connector
 

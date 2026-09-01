@@ -1,7 +1,7 @@
 ---
 title: "LoopsBench & LoopArena: The Shift from Harness Engineering to Loop Engineering — What the Numbers Mean for Codex CLI Operators"
 date: 2026-08-31T22:30:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 tags: ["codex-cli", "benchmarks", "loop-engineering", "goal-mode", "harness-engineering", "long-horizon", "evaluation"]
 ---
 
@@ -45,7 +45,7 @@ The evaluation runtime is the methodological centrepiece. Tests are not all rele
 
 Formally, the ready frontier at step *t* is:
 
-```
+```text
 Rt = {v ∈ V \ Ct : ∀(u,v) ∈ E, u ∈ Ct}
 ```
 
@@ -114,11 +114,11 @@ The critical finding: **Type II evaluation (task slice) maintains near-perfect S
 
 | Controller Model | Type I Accuracy | Type II Success Rate | Type III Success Rate | Cost/Run |
 |---|---|---|---|---|
-| GPT-5.5 | 87.78% | 51.85% | **24.69%** | $18.84 |
-| Claude Opus 4.8 | 76.67% | 48.15% | 20.99% | $16.82 |
-| Qwen3.7-Plus | 72.22% | 48.15% | 23.46% | $6.89 |
-| DeepSeek-V4-Flash | 77.78% | 45.68% | 19.75% | $10.24 |
-| GLM 5.2 | 74.44% | 37.04% | 16.05% | $4.86 |
+| GPT-5.5 | 87.78% | 51.85% | **24.69%** | \$18.84 |
+| Claude Opus 4.8 | 76.67% | 48.15% | 20.99% | \$16.82 |
+| Qwen3.7-Plus | 72.22% | 48.15% | 23.46% | \$6.89 |
+| DeepSeek-V4-Flash | 77.78% | 45.68% | 19.75% | \$10.24 |
+| GLM 5.2 | 74.44% | 37.04% | 16.05% | \$4.86 |
 | *No Control (baseline)* | — | — | 18.52% | — |
 | *Fixed Control (baseline)* | — | — | 18.52% | — |
 

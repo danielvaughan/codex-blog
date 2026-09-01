@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-kotlin-android-teams-android-cli-skills-jetpack-compose"
 tags: ["codex-cli", "kotlin", "android", "jetpack-compose", "android-cli", "android-skills", "agents-md", "mobile-development", "gradle", "kmp"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Kotlin and Android Teams: Android CLI, Skills, Jetpack Compose, and Agent-Driven Mobile Workflows](/sketchnotes/articles/2026-04-26-codex-cli-kotlin-android-teams-android-cli-skills-jetpack-compose.png)
 

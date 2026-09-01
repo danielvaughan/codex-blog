@@ -5,7 +5,7 @@ timestamp: 2026-07-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-24-codex-cli-ultra-mode-trade-off-reasoning-budgets-subagent-cost-task-routing"
 tags: ["codex-cli", "ultra-mode", "gpt-5.6", "sol", "reasoning-effort", "token-budget", "cost-control", "sub-agents", "task-routing", "july-2026"]
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 ---
 
 # The Ultra Mode Trade-Off: When Bigger Reasoning Budgets Backfire in Codex CLI

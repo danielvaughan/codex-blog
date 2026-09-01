@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-cost-calculator-token-budget-estimator-mixed-model-workflows"
 tags: ["codex-cli", "cost-optimisation", "token-budget", "mixed-model", "pricing", "automation"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows](/sketchnotes/articles/2026-04-25-codex-cli-cost-calculator-token-budget-estimator-mixed-model-workflows.png)
 

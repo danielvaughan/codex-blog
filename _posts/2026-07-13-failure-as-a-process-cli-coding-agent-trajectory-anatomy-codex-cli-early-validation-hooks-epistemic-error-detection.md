@@ -1,7 +1,7 @@
 ---
 title: "Failure as a Process: What 63,000 Annotated Execution Steps Reveal About CLI Coding Agent Trajectories — and How to Wire Early Validation into Codex CLI"
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-09-01T10:30:43+01:00
+last_modified_at: 2026-09-01T11:40:18+01:00
 tags: ["codex-cli", "failure-analysis", "execution-trajectories", "epistemic-errors", "hooks", "early-validation", "terminal-bench", "agent-reliability"]
 ---
 
