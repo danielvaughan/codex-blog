@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Rollout Token Budgets: Shared Accounting, Weighted Limits, and Graceful Turn Abortion"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-09-01T02:14:12+01:00
+last_modified_at: 2026-09-01T03:20:49+01:00
 tags: ["codex-cli", "token-budget", "cost-control", "rollout", "multi-agent", "v0.147"]
 ---
 

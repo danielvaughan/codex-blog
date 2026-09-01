@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-gleam-development-beam-type-safe-lsp-mcp-dual-target-workflows"
 tags: ["codex-cli", "gleam", "beam", "erlang", "functional-programming", "lsp", "mcp", "type-safety", "hex", "dual-target", "javascript", "agents-md"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-01T02:14:12+01:00
+last_modified_at: 2026-09-01T03:20:49+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Gleam Development: Type-Safe BEAM Agents, LSP-MCP Bridge, and Dual-Target Workflows](/sketchnotes/articles/2026-05-23-codex-cli-gleam-development-beam-type-safe-lsp-mcp-dual-target-workflows.png)
 

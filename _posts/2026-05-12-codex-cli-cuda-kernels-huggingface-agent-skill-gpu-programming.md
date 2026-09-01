@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-cuda-kernels-huggingface-agent-skill-gpu-programming"
 tags: ["codex-cli", "cuda", "gpu", "hugging-face", "kernels", "agent-skills", "pytorch", "performance", "systems-programming"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-09-01T02:14:12+01:00
+last_modified_at: 2026-09-01T03:20:49+01:00
 ---
 ![Sketchnote diagram for: Custom CUDA Kernels with Codex CLI: The Hugging Face Agent Skill for GPU Programming](/sketchnotes/articles/2026-05-12-codex-cli-cuda-kernels-huggingface-agent-skill-gpu-programming.png)
 

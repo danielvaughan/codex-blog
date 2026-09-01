@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.152 Alpha Preview: Rate-Limit Banners, Package-Style MCP Names, Vim Search, and the Model Catalog Instruction Split"
 date: 2026-08-31T16:00:00+00:00
-last_modified_at: 2026-09-01T02:14:12+01:00
+last_modified_at: 2026-09-01T03:20:49+01:00
 tags: ["codex-cli", "v0.152", "alpha", "mcp", "vim", "rate-limits", "tui", "model-catalog", "multi-agent", "guardian"]
 ---
 
@@ -10,13 +10,13 @@ tags: ["codex-cli", "v0.152", "alpha", "mcp", "vim", "rate-limits", "tui", "mode
 
 ---
 
-OpenAI shipped six pre-release builds of Codex CLI v0.152 on 29–31 August 2026 — `alpha.1` through `alpha.6` — in rapid succession.[^1] The pace signals an imminent stable release. While the release notes for individual alpha builds are sparse, the merged pull requests tell a clear story: v0.152 is a UX and configuration-layer release that closes several long-standing friction points without touching the core agent loop. This article covers the five changes most relevant to daily coding workflows.
+OpenAI shipped a series of pre-release builds of Codex CLI v0.152 between 29–31 August 2026 — `alpha.1` through `alpha.7.2` — before the stable **v0.152.0** release shipped on **1 September 2026**.[^1] While the release notes for individual alpha builds are sparse, the merged pull requests tell a clear story: v0.152 is a UX and configuration-layer release that closes several long-standing friction points without touching the core agent loop. This article covers the five changes most relevant to daily coding workflows.
 
-To install the latest alpha:
+To install the stable release:
 
 ```bash
-npm install -g @openai/codex@alpha
-codex --version   # should report 0.152.0-alpha.6 or later
+npm install -g @openai/codex@latest
+codex --version   # should report 0.152.0
 ```
 
 ---
@@ -158,20 +158,19 @@ Combined with the v0.151.0 fix that prevented stale Guardian classifications fro
 
 ---
 
-## Trying the Alpha
+## Installing v0.152.0
 
-The v0.152 alphas are pre-release builds; expect rough edges around the Vim search rendering on non-UTF-8 terminals and occasional stale model-picker state (tracked in the repo). To install and revert cleanly:
+v0.152.0 stable shipped on 1 September 2026. Install via the standard channel:
 
 ```bash
-# Install alpha
-npm install -g @openai/codex@alpha
-
-# Pin to a specific alpha if needed
-npm install -g @openai/codex@0.152.0-alpha.6
-
-# Revert to latest stable
+# Install stable
 npm install -g @openai/codex@latest
+
+# Pin to this specific release if needed
+npm install -g @openai/codex@0.152.0
 ```
+
+Known rough edges from the alpha cycle that may still be present in early stable builds: Vim search rendering on non-UTF-8 terminals, and occasional stale model-picker state (tracked in the repo).
 
 No configuration migration is required — all five changes described here are backwards-compatible with existing `~/.codex/config.toml` files.
 
@@ -179,7 +178,7 @@ No configuration migration is required — all five changes described here are b
 
 ## Citations
 
-[^1]: OpenAI. "Releases · openai/codex." GitHub. Releases v0.152.0-alpha.1 through v0.152.0-alpha.6, 29–31 August 2026. <https://github.com/openai/codex/releases>
+[^1]: OpenAI. "Releases · openai/codex." GitHub. Pre-release builds v0.152.0-alpha.1 through v0.152.0-alpha.7.2 shipped 29–31 August 2026; stable v0.152.0 released 1 September 2026. <https://github.com/openai/codex/releases>
 
 [^2]: `copyberry[bot]`. "Show actionable rate-limit banners in the TUI." Pull Request #41742. openai/codex. Merged 31 August 2026. <https://github.com/openai/codex/pull/41742>
 
