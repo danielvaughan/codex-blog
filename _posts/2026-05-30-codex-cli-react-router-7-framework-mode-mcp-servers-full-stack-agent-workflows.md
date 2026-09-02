@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-react-router-7-framework-mode-mcp-servers-full-stack-agent-workflows"
 tags: ["codex-cli", "react-router", "react-router-7", "framework-mode", "mcp", "full-stack", "ssr", "loaders", "actions", "vite", "typescript"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-09-02T16:12:15+01:00
+last_modified_at: 2026-09-02T18:10:50+01:00
 ---
 # Codex CLI for React Router 7 Development: Framework Mode, MCP Servers, and Full-Stack Agent Workflows
 

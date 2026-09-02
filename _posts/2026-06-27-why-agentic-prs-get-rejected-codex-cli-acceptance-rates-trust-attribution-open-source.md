@@ -5,7 +5,7 @@ timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-why-agentic-prs-get-rejected-codex-cli-acceptance-rates-trust-attribution-open-source"
 tags: ["codex-cli", "agentic-prs", "open-source", "pull-requests", "trust", "attribution", "code-review", "research"]
 date: 2026-06-27T09:00:00+00:00
-last_modified_at: 2026-09-02T16:12:15+01:00
+last_modified_at: 2026-09-02T18:10:50+01:00
 ---
 # Why Agentic PRs Get Rejected: What the First Comparative Study Means for Codex CLI Developers
 

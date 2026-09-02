@@ -5,7 +5,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-codex-cli-v0141-v0142-exec-server-mcp-session-resilience-transient-disconnect-recovery"
 tags: ["codex-cli", "exec-server", "MCP", "resilience", "disconnect-recovery", "stdio", "session-management", "v0.141", "v0.142"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-02T16:12:15+01:00
+last_modified_at: 2026-09-02T18:10:50+01:00
 ---
 # Session Resilience at Last: How Codex CLI v0.141–v0.142 Stopped Exec-Server and MCP Sessions Dying on Transient Disconnects
 

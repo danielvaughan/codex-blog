@@ -1,7 +1,7 @@
 ---
 title: "Hands-Free Agent Orchestration: How GPT-Live Brings Full-Duplex Voice Control to Codex on the Desktop"
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-09-02T16:12:15+01:00
+last_modified_at: 2026-09-02T18:10:50+01:00
 tags: ["codex", "gpt-live", "voice", "desktop", "multi-agent", "full-duplex", "chatgpt-voice", "hands-free", "developer-workflows"]
 ---
 

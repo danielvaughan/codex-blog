@@ -5,7 +5,7 @@ timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-reporescue-compatibility-rescue-legacy-repositories-codex-cli-modernisation-workflow-cross-file-coordination"
 tags: ["codex-cli", "reporescue", "compatibility-rescue", "legacy-modernisation", "cross-file-coordination", "agents-md", "codex-exec", "benchmark"]
 date: 2026-07-04T09:00:00+00:00
-last_modified_at: 2026-09-02T16:12:15+01:00
+last_modified_at: 2026-09-02T18:10:50+01:00
 ---
 # RepoRescue and the Compatibility Rescue Problem: Why Agents Fail at Cross-File Coordination — and How Codex CLI's Modernisation Workflow Closes the Gap
 

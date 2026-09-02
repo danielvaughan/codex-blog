@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-granular-approval-policies-auto-review-subagent-autonomous-secure-workflows"
 tags: ["codex-cli", "approval-policy", "granular-approval", "auto-review", "security", "permissions", "config-toml", "autonomous-workflows", "v0.128"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-02T16:12:15+01:00
+last_modified_at: 2026-09-02T18:10:50+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Granular Approval Policies and the Auto-Review Subagent: Autonomous Yet Secure Workflows](/sketchnotes/articles/2026-05-07-codex-cli-granular-approval-policies-auto-review-subagent-autonomous-secure-workflows.png)
 
