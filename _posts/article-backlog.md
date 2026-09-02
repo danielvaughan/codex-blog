@@ -1,5 +1,10 @@
 # Article Backlog
 
+## RealSWE — Prompt Information Gap, Task Description Quality (2026-09-02 Hourly Article Run)
+
+1. ✅ **The 6.4pp Tax: What RealSWE Reveals About Prompt Quality and How to Fix It in Codex CLI** — Written 2026-09-02 → `2026-09-02-realswe-prompt-information-gap-codex-cli-task-descriptions.md`
+   - Source: No backlog items with 📝 status remained; topic selected from gap analysis — Kim, Gwon, Kim, Shim & Lee arXiv:2608.27831 (August 28–31, 2026) "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests"; 381 task families (192 bug fixes, 189 feature requests) derived from 1,229 SWE-bench Verified and Pro tasks; 21 repositories, 4 languages (55.1% Python); 7 models tested (DeepSeek V4 Pro, DeepSeek V4 Flash, MiMo V2.5 Pro, MiMo V2.5, Claude Haiku 4.5, Qwen3.7 Plus, MiniMax M3); benchmark-reality gap: 88% real prompts are [P] or [P+A]-only vs 7% of benchmark tasks; real users average 1.4 information fields vs 2.9 in benchmarks; resolution rate drop 6.4pp average (4.0pp MiniMax M3 to 8.0pp DeepSeek V4 Pro); bug fixes drop 9.1pp vs features 3.7pp; [D] Desired Behavior removal causes 7.1–8.9pp drop for bugs (p<0.01 all models); [M] Motivation removal causes 3.4pp drop for features; [R] Reproduction Steps + [E] Environment Info combined only 1.8pp impact; linguistic style change negligible (p≥0.35); real [D] inclusion rate 5.4% vs 73.5% benchmarks; real [M] inclusion rate 8.9% vs 96.1% benchmarks; mapped to Codex CLI: AGENTS.md task description templates with required [D]/[M] fields, plan mode as requirements-gathering phase, PreToolUse hook blocking file edits until [D] confirmed, named profiles (bugfix/feature) with startup_prompt_template field reminders, structured codex queue JSON format; 1 citation; ~1,350 words
+
 ## HarnessDev — LLM-Generated Agent Harnesses, Codex CLI Engineering Premium (2026-09-02 Hourly Article Run)
 
 1. ✅ **HarnessDev: What Happens When an LLM Builds Its Own Agent Harness — and Why Codex CLI's Engineering Still Wins** — Written 2026-09-02 → `2026-09-02-harnessdev-llm-generated-agent-harnesses-codex-cli-engineering-benchmark.md`

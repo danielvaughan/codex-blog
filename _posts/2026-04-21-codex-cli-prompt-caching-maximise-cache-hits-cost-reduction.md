@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-prompt-caching-maximise-cache-hits-cost-reduction"
 tags: ["codex-cli", "prompt-caching", "cost-optimisation", "agent-loop", "performance", "token-management"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-02T12:14:07+01:00
+last_modified_at: 2026-09-02T14:09:57+01:00
 ---
 ![Sketchnote diagram for: Prompt Caching in Codex CLI: How the Agent Loop Stays Linear and How to Maximise Cache Hits](/sketchnotes/articles/2026-04-21-codex-cli-prompt-caching-maximise-cache-hits-cost-reduction.png)
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-network-proxy-sandboxed-outbound-traffic-domain-policies-socks5-mitm"
 tags: ["security", "sandbox", "network-proxy", "configuration", "enterprise"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-09-02T12:14:07+01:00
+last_modified_at: 2026-09-02T14:09:57+01:00
 ---
 # Codex CLI Network Proxy: Sandboxed Outbound Traffic, Domain Policies, SOCKS5, and MITM Hooks
 

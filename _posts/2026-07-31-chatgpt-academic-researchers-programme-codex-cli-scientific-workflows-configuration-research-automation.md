@@ -4,7 +4,7 @@ type: Technical Article
 timestamp: 2026-07-31T00:00:00+00:00
 tags: ["codex-cli", "scientific-research", "academic", "MCP", "data-analysis", "reproducibility", "AGENTS.md", "config.toml", "GPT-5.6", "life-sciences"]
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-09-02T12:14:07+01:00
+last_modified_at: 2026-09-02T14:09:57+01:00
 ---
 
 # ChatGPT for Academic Researchers: Configuring Codex CLI for Scientific Workflows, MCP Tool Chains, and Reproducible Research Automation

@@ -5,7 +5,7 @@ timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-doctor-diagnostics-troubleshooting-support-workflows"
 tags: ["codex-cli", "diagnostics", "troubleshooting", "codex-doctor", "support", "debugging", "v0.135", "v0.136"]
 date: 2026-06-02T09:00:00+00:00
-last_modified_at: 2026-09-02T12:14:07+01:00
+last_modified_at: 2026-09-02T14:09:57+01:00
 ---
 # Codex CLI Doctor: Diagnostics, Troubleshooting, and Support-Ready Reports
 

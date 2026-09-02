@@ -5,7 +5,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-bun-development-runtime-test-runner-mcp-server-agent-workflows"
 tags: ["codex-cli", "bun", "javascript", "typescript", "mcp", "testing", "database", "agent-workflows"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-09-02T12:14:07+01:00
+last_modified_at: 2026-09-02T14:09:57+01:00
 ---
 # Codex CLI for Bun Development: Runtime, Test Runner, Database Clients, and MCP-Driven Agent Workflows
 

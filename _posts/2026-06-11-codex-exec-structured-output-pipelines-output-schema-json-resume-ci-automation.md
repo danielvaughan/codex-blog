@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-codex-exec-structured-output-pipelines-output-schema-json-resume-ci-automation"
 tags: ["codex-cli", "codex-exec", "structured-output", "automation", "CI/CD", "pipelines", "JSON-schema", "JSONL"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-09-02T12:14:07+01:00
+last_modified_at: 2026-09-02T14:09:57+01:00
 ---
 # Codex exec Structured Output Pipelines: Building Type-Safe Automation with --output-schema, --json, and Resume
 
