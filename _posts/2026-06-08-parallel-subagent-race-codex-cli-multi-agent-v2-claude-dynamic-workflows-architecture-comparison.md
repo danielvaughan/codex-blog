@@ -6,7 +6,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-parallel-subagent-race-codex-cli-multi-agent-v2-claude-dynamic-workflows-architecture-comparison"
 tags: ["codex-cli", "multi-agent", "subagents", "claude-code", "dynamic-workflows", "opus-4-8", "v0-137", "orchestration", "architecture", "parallel-agents"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-09-02T04:11:17+01:00
+last_modified_at: 2026-09-02T06:12:13+01:00
 ---
 # The Parallel Subagent Race: Codex CLI Multi-Agent v2, Claude Code Dynamic Workflows, and Choosing Your Agent Architecture
 

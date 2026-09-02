@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-caid-optimal-parallelism-async-software-engineering-agents-codex-cli-subagent-delegation"
 tags: ["codex-cli", "subagents", "multi-agent", "parallelism", "CAID", "git-worktree", "delegation", "coordination"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-09-02T04:11:17+01:00
+last_modified_at: 2026-09-02T06:12:13+01:00
 ---
 # CAID: What Optimal Parallelism Research Means for Codex CLI Subagent Delegation
 

@@ -1,7 +1,7 @@
 ---
 title: "Permission Denied: What Policy-Graded Benchmarking Reveals About Your Coding Agent in Hardened Environments — and How to Configure Codex CLI's Sandbox for the Real World"
 date: 2026-08-07T09:00:00+00:00
-last_modified_at: 2026-09-02T04:11:17+01:00
+last_modified_at: 2026-09-02T06:12:13+01:00
 tags: ["codex-cli", "security", "sandbox", "enterprise", "permission-profiles", "hardened-environments", "Terminal-Bench", "benchmark"]
 ---
 

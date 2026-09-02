@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Harness Engineering — Anatomy, Architecture, and Evolution of Coding Agents (2026-09-02 Hourly Article Run)
+
+1. ✅ **Inside the Harness: What a Source-Code Study of Eleven Coding Agents Reveals About Codex CLI's Architecture** — Written 2026-09-02 → `2026-09-02-harness-engineering-anatomy-architecture-evolution-coding-agents-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Barbaste, Darrigol, Vu & Wiltberger (arXiv:2609.00006, September 2026) "Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents — A Source-Code Study of Eleven Systems"; 11 production harnesses (Claude Code, Codex CLI, Gemini CLI, Mistral Vibe, OpenHands, Aider, Mini-SWE-Agent, Hermes, Pi, OpenCode, OpenClaw) + Omnigent meta-harness; ~4M LoC (Python, TypeScript, Rust); 29 recurring design patterns; 13 cross-cutting observations; 18 design recommendations; 90-line minimum-viable-harness scaffold; longitudinal comparison April→July 2026 (8 systems re-pinned); Codex CLI unique traits: Tokio async state machine, V8-executed tool calls (tool invocations bundled as JavaScript), agent-maintained memory pipeline (agent writes own cross-session summaries), per-model prompts as server-delivered data (not baked into binary), three-platform native sandboxing (AppContainer/macOS profile/seccomp), four-layer permission stack (execution policy → lifecycle hooks → Guardian LLM reviewer → OS sandbox), thread-tree multi-agent model (agents as registry entries, fan-out over task trees), marketplace-distributed plugins (first vendor-native); ~1.1M Rust LoC in July 2026 snapshot; SWE-Bench 69.1% (self-reported); key observations: Skills (SKILL.md) leads adoption 9/11 vs MCP 8/11; zero production harnesses use embedding-based retrieval (deterministic ripgrep/tree-sitter); policy migrated from prose to configuration; convergence became imitation within one quarter (Codex adopted Claude Code hook vocabulary verbatim); 2 citations; ~1,300 words
+
+---
+
 ## Codex CLI v0.153.0-alpha.3 & alpha.4 — Async User Input, Remote Marketplaces, Network Headers (2026-09-02 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.153.0-alpha.3 & alpha.4: Structured Async User Input, Remote Plugin Marketplaces, and Network Header Injection** — Written 2026-09-02 → `2026-09-02-codex-cli-v0153-alpha3-alpha4-async-user-input-remote-marketplaces-network-headers.md`

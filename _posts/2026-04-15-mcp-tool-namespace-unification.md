@@ -6,7 +6,7 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-mcp-tool-namespace-unification"
 tags: ["mcp", "namespacing", "tool-registration", "reliability", "deferred-tools", "plugins"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-09-02T04:11:17+01:00
+last_modified_at: 2026-09-02T06:12:13+01:00
 ---
 ![Sketchnote diagram for: MCP Tool Namespace Unification: Fixing the Silent Tool-Not-Found Bug](/sketchnotes/articles/2026-04-15-mcp-tool-namespace-unification.png)
 

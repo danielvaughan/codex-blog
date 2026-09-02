@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-tdd-red-green-refactor-agent-driven-test-first-development"
 tags: ["codex-cli", "tdd", "testing", "red-green-refactor", "agent-skills", "best-practices", "codex-exec"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-02T04:11:17+01:00
+last_modified_at: 2026-09-02T06:12:13+01:00
 ---
 ![Sketchnote diagram for: Test-Driven Development with Codex CLI: Agent-Driven Red-Green-Refactor Workflows](/sketchnotes/articles/2026-04-26-codex-cli-tdd-red-green-refactor-agent-driven-test-first-development.png)
 

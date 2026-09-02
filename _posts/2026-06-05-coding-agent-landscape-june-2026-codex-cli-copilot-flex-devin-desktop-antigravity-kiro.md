@@ -5,7 +5,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-coding-agent-landscape-june-2026-codex-cli-copilot-flex-devin-desktop-antigravity-kiro"
 tags: ["codex-cli", "competitive-analysis", "copilot", "devin-desktop", "antigravity", "kiro", "cursor", "claude-code", "pricing", "june-2026"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-02T04:11:17+01:00
+last_modified_at: 2026-09-02T06:12:13+01:00
 ---
 # Coding Agent Landscape, June 2026: How Codex CLI v0.137 Stacks Up Against Copilot Flex, Devin Desktop, Antigravity 2.0, and Kiro
 
