@@ -1,8 +1,8 @@
 ---
-title: "Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config"
+title: "Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the realtime Config"
 description: "Codex CLI's realtime session layer has matured significantly over the past few weeks. Two PRs — #14556 and #14606, both merged on 13 March 2026 — unified."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-09-02T10:37:10+01:00
+last_modified_at: 2026-09-02T11:42:19+01:00
 tags:
   - ecosystem
   - voice-input
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-31T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-31-codex-cli-realtime-sessions-voice-transcription"
 ---
-![Sketchnote: Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config](/sketchnotes/articles/2026-03-31-codex-cli-realtime-sessions-voice-transcription.png)
+![Sketchnote diagram for: Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the realtime Config](/sketchnotes/articles/2026-03-31-codex-cli-realtime-sessions-voice-transcription.png)
 
-# Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the [realtime] Config
+# Codex CLI Realtime Sessions: Voice Pair Programming, Transcription Mode, and the realtime Config
 
 
 Codex CLI's realtime session layer has matured significantly over the past few weeks. Two PRs — [#14556](https://github.com/openai/codex/pull/14556) and [#14606](https://github.com/openai/codex/pull/14606), both merged on 13 March 2026 — unified the previously fragmented realtime configuration under a single `[realtime]` TOML table and introduced a dedicated transcription mode alongside the existing conversational mode.[^1] This article unpacks what that means architecturally, how to configure each mode, and how to build practical voice pair-programming and live-transcription workflows on top of them.
@@ -41,7 +41,7 @@ flowchart LR
     D -->|audio delta events| E
     E -->|playback| A
     B <-->|tool calls| C
-```
+```text
 
 ## The `[realtime]` Config Table
 
@@ -51,7 +51,7 @@ Add a `[realtime]` block to your `~/.codex/config.toml` (or a profile-scoped fil
 [realtime]
 version = "v2"
 type    = "conversational"   # or "transcription"
-```
+```text
 
 Both keys are optional — omitting them leaves Codex on its compiled defaults, which as of v0.116.0 are v2 conversational.[^5]
 
@@ -74,7 +74,7 @@ The default `"conversational"` mode is an interactive dialogue: speech in, speec
 [realtime]
 version = "v2"
 type    = "conversational"
-```
+```text
 
 ### Context Initialisation
 
@@ -98,7 +98,7 @@ v0.117.0 fixed a first-turn stall where WebSocket prewarm could delay `turn/star
 [realtime]
 version = "v2"
 type    = "transcription"
-```
+```text
 
 Under the hood, PR #14556 changed the session-update payload shape and switched the conversation item type from audio to `input_text` for user turns.[^11] This means the language model processes your speech as text, not as audio tokens, which reduces latency and token cost.
 
@@ -128,7 +128,7 @@ If you are setting up a remote or headless machine where the browser cannot be o
 
 ```bash
 codex login --device-auth
-```
+```text
 
 The TUI prints a URL and a code. Open the URL on any device, enter the code, and the session is authenticated. Existing ChatGPT tokens can be refreshed through the same flow without full re-authentication.
 
@@ -144,14 +144,14 @@ codex app-server --listen ws://0.0.0.0:8765 \
 # On the client
 codex --ws ws://remote-host:8765 \
   --ws-auth signed-bearer-token
-```
+```text
 
 The server exposes health probes on the same listener:
 
-```
+```text
 GET /readyz   → 200 when ready to accept connections
 GET /healthz  → 200 when the process is healthy
-```
+```text
 
 When the request ingress queue is full, the server returns JSON-RPC error `-32001` ("Server overloaded; retry later"). Implement exponential backoff with jitter on the client side.[^16]
 
@@ -169,7 +169,7 @@ model = "gpt-5-codex"
 
 [features]
 prevent_idle_sleep = true   # keep the session alive between turns
-```
+```text
 
 ### AGENTS.md Addition for Voice Sessions
 
@@ -181,7 +181,7 @@ Add a section that helps Codex handle voice-specific patterns:
 - Summarise each completed file edit in one sentence
 - If interrupted mid-sentence, restart the previous thought on next user turn
 - Prefer short confirmations over long explanations when the task is clear
-```
+```text
 
 ### Transcription Pipeline Pattern
 
@@ -197,7 +197,7 @@ sequenceDiagram
     Loop->>FS: shell: cargo test auth --
     FS-->>Loop: test output (6 passed, 1 failed)
     Loop-->>Dev: "Six tests passed, one failed in token_refresh_test"
-```
+```text
 
 ## v2 Handoff in Realtime Sessions
 
@@ -226,13 +226,13 @@ Voice transcription is opt-in and disabled by default:
 # ~/.codex/config.toml
 [features]
 voice_transcription = true
-```
+```text
 
 Or via the CLI subcommand:
 
 ```bash
 codex features enable voice_transcription
-```
+```text
 
 ### Recording and Transcription
 
@@ -258,7 +258,7 @@ sequenceDiagram
     Hound->>Whisper: Multipart upload (whisper-1)
     Whisper-->>Comp: Transcribed text
     Comp->>Codex: Insert text - submit
-```
+```text
 
 ### Platform Support
 
@@ -276,14 +276,14 @@ Spokenly runs a local HTTP MCP server at `localhost:51089`. The agent calls the 
 
 ```bash
 codex mcp add spokenly --url http://localhost:51089
-```
+```text
 
 Add a policy to `~/.codex/AGENTS.md`:
 
 ```markdown
 ## Voice Q&A
 ALWAYS ask questions via the `ask_user_dictation` tool from the spokenly MCP server, never as plain text. This applies to any request for clarification or user input mid-task.
-```
+```text
 
 ### Spokenly vs Built-In: Feature Comparison
 
@@ -309,7 +309,7 @@ Voice input is only half the loop. Text-to-speech can close the loop by wiring t
 # ~/.codex/config.toml
 [hooks]
 PostTaskComplete = "python3 ~/.codex/scripts/tts.py"
-```
+```text
 
 The hook receives the agent's final message as JSON on stdin. A minimal macOS implementation using `say`:
 
@@ -318,7 +318,7 @@ The hook receives the agent's final message as JSON on stdin. A minimal macOS im
 # ~/.codex/scripts/tts.sh
 response=$(cat | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('message',''))")
 say -v Samantha "$response"
-```
+```text
 
 On Windows, PowerShell's `Add-Type -AssemblyName System.Speech` provides the equivalent `SpeechSynthesizer` class. For cross-platform use, the `pyttsx3` Python library works on macOS, Windows, and Linux without an API key.[^26]
 
@@ -347,7 +347,7 @@ voice_transcription = true
 [hooks]
 PostTaskComplete = "~/.codex/scripts/tts.sh"
 SessionStart = "say -v Samantha 'Codex is ready'"
-```
+```text
 
 With Spokenly registered, every interaction is voice-addressable — initial prompt, mid-task questions, and task completion confirmation.
 
@@ -358,7 +358,7 @@ On Linux servers where the built-in feature is unavailable, use Spokenly running
 ```bash
 # On the remote Linux server
 codex mcp add spokenly --url http://YOUR_MAC_IP:51089
-```
+```text
 
 Spokenly proxies the voice call back to macOS. The agent runs on Linux, but the voice interface lives on the machine with a microphone.[^27]
 

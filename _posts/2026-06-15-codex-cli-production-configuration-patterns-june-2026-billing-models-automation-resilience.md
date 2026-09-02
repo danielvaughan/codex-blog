@@ -5,7 +5,7 @@ timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-production-configuration-patterns-june-2026-billing-models-automation-resilience"
 tags: ["codex-cli", "configuration", "config.toml", "named-profiles", "cost-optimisation", "production-patterns", "billing", "automation", "resilience", "enterprise"]
 date: 2026-06-15T09:00:00+00:00
-last_modified_at: 2026-09-02T10:37:10+01:00
+last_modified_at: 2026-09-02T11:42:19+01:00
 ---
 # Five Production Configuration Patterns for Codex CLI in the Post-Subsidy Era
 

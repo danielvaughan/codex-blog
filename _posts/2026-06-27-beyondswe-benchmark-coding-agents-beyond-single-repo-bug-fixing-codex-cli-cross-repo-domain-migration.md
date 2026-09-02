@@ -5,7 +5,7 @@ timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-beyondswe-benchmark-coding-agents-beyond-single-repo-bug-fixing-codex-cli-cross-repo-domain-migration"
 tags: ["codex-cli", "beyondswe", "benchmark", "cross-repo", "domain-specific", "dependency-migration", "agents-md", "coding-agent-evaluation"]
 date: 2026-06-27T09:00:00+00:00
-last_modified_at: 2026-09-02T10:37:10+01:00
+last_modified_at: 2026-09-02T11:42:19+01:00
 ---
 # BeyondSWE: What Happens When Coding Agents Leave the Single-Repo Comfort Zone — and What Codex CLI Developers Should Do About It
 

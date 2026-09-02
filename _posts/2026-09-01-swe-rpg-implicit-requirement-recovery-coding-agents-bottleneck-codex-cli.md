@@ -1,7 +1,7 @@
 ---
 title: "SWE-RPG: Implicit Requirements Are the Main Bottleneck for Coding Agents — and Codex CLI Pays the Highest Price"
 date: 2026-09-01T22:00:00+00:00
-last_modified_at: 2026-09-02T10:37:10+01:00
+last_modified_at: 2026-09-02T11:42:19+01:00
 tags: ["codex-cli", "benchmarks", "requirement-clarification", "AGENTS.md", "evaluation", "SWE-bench", "coding-agents"]
 ---
 
@@ -84,7 +84,7 @@ Codex sits last on overall resolve rate but presents a distinctive failure profi
 
 The interpretation is non-obvious: Codex misses fewer implicit requirements than Claude Code does, yet converts those recovered requirements into working code less reliably. This suggests Codex's planning-to-implementation transition is the specific weak point — it reaches the right files and recovers reasonable intent, then fails to correctly operationalise constraints and boundary conditions in the generated patch.
 
-Average cost per task across all configurations: **$1.59** at an average of **8.5 minutes per task**. Longer execution time did not correlate with better outcomes.
+Average cost per task across all configurations: **\$1.59** at an average of **8.5 minutes per task**. Longer execution time did not correlate with better outcomes.
 
 ## What This Means for Codex CLI Operators
 

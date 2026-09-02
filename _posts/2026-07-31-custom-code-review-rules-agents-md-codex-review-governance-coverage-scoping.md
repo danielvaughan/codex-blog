@@ -1,7 +1,7 @@
 ---
 title: "Custom Code Review Rules in AGENTS.md: How Repository-Specific Invariants Lift Codex Review Coverage from 58% to 98%"
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-09-02T10:37:10+01:00
+last_modified_at: 2026-09-02T11:42:19+01:00
 tags: ["codex-cli", "code-review", "AGENTS.md", "custom-rules", "governance", "pull-requests", "review-automation", "GitHub"]
 ---
 

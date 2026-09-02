@@ -2,12 +2,14 @@
 title: "Gemini CLI Subagents: Multi-Agent Orchestration Arrives"
 description: "Source: Google Developers Blog Author: Google Published: 2026-04-15 Content age: Current — announced April 15, 2026 Tags: gemini-cli, subagents,."
 date: 2026-04-15T00:00:00+00:00
-last_modified_at: 2026-09-02T10:37:10+01:00
+last_modified_at: 2026-09-02T11:42:19+01:00
 type: Technical Article
 timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-gemini-cli-subagents-launch"
 tags: ["gemini-cli", "subagents", "multi-agent", "competitor-update", "google"]
 ---
+![Sketchnote diagram for: Gemini CLI Subagents: Multi-Agent Orchestration Arrives](/sketchnotes/articles/2026-04-15-gemini-cli-subagents-launch.png)
+
 # Gemini CLI Subagents: Multi-Agent Orchestration Arrives
 
 **Source:** [Google Developers Blog](https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/)
@@ -22,9 +24,6 @@ tags: ["gemini-cli", "subagents", "multi-agent", "competitor-update", "google"]
 Google has introduced subagents to Gemini CLI, enabling the primary agent to delegate complex tasks to specialized expert agents that operate in isolated context windows. Each subagent runs with its own system instructions and curated tool set, consolidating potentially dozens of tool calls into a single summary response back to the main agent — preventing context pollution and keeping the orchestrator focused on high-level decision-making. The feature includes three built-in subagents, custom agent definitions via Markdown files with YAML frontmatter, and parallel execution of multiple subagents simultaneously.
 
 ---
-
-![Sketchnote diagram for: Gemini CLI Subagents: Multi-Agent Orchestration Arrives](/sketchnotes/articles/2026-04-15-gemini-cli-subagents-launch.png)
-
 ## Key Points
 
 - **@agent invocation syntax** — subagents are invoked with `@agent-name` inline (e.g. `@frontend-specialist review our app`), not a separate API call
