@@ -6,7 +6,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-tdd-governance-multi-agent-code-generation-prompt-engineering-codex-cli"
 tags: ["tdd", "multi-agent", "prompt-engineering", "governance", "code-generation", "codex-cli", "testing", "agent-architecture"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-02T10:21:19+01:00
+last_modified_at: 2026-09-02T10:37:10+01:00
 ---
 # TDD Governance for Multi-Agent Code Generation — Phase Gating, Bounded Repair, and Prompt-Level Enforcement for Codex CLI
 

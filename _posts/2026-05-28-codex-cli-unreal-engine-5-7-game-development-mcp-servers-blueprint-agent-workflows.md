@@ -5,7 +5,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-unreal-engine-5-7-game-development-mcp-servers-blueprint-agent-workflows"
 tags: ["codex-cli", "unreal-engine", "game-development", "mcp", "blueprint", "c++", "agent-workflows"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-09-02T10:21:19+01:00
+last_modified_at: 2026-09-02T10:37:10+01:00
 ---
 # Codex CLI for Unreal Engine 5.7: MCP Servers, Blueprint Workflows, and Agent-Driven Game Development
 

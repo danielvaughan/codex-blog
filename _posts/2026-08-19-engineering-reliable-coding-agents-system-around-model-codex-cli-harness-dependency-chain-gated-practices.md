@@ -1,7 +1,7 @@
 ---
 title: "Engineering Reliable Coding Agents: What 206 Gated Practices Reveal About the System Around Your Model"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-09-02T10:21:19+01:00
+last_modified_at: 2026-09-02T10:37:10+01:00
 tags: ["codex-cli", "reliability", "harness-engineering", "gated-practices", "dependency-chain", "verification", "observability", "research"]
 ---
 

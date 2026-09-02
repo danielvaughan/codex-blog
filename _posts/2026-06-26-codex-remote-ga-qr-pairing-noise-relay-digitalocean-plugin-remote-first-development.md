@@ -5,7 +5,7 @@ timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-codex-remote-ga-qr-pairing-noise-relay-digitalocean-plugin-remote-first-development"
 tags: ["codex-cli", "codex-remote", "remote-development", "noise-protocol", "digitalocean", "qr-pairing", "cloud-workspace", "mobile-development"]
 date: 2026-06-26T09:00:00+00:00
-last_modified_at: 2026-09-02T10:21:19+01:00
+last_modified_at: 2026-09-02T10:37:10+01:00
 ---
 # Codex Remote Reaches GA: QR Pairing, Noise-Encrypted Relay, and the DigitalOcean Plugin That Provisions Your Cloud Workspace in One Command
 

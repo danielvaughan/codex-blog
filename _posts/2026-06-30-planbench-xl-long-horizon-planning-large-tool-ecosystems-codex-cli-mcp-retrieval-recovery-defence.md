@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-planbench-xl-long-horizon-planning-large-tool-ecosystems-codex-cli-mcp-retrieval-recovery-defence"
 tags: ["codex-cli", "mcp", "planbench-xl", "tool-use", "long-horizon-planning", "agent-benchmark", "tool-retrieval", "failure-recovery"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-09-02T10:21:19+01:00
+last_modified_at: 2026-09-02T10:37:10+01:00
 ---
 # PlanBench-XL and the Massive-Tool Planning Problem: Why Your Agent Retrieves the Right Tool but Picks the Wrong One — and How to Configure Codex CLI's MCP Pipeline
 

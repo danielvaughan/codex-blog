@@ -5,7 +5,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-codex-cli-session-forensics-jsonl-post-mortems-codex-trace-cass-ccusage"
 tags: ["codex-cli", "session-forensics", "jsonl", "post-mortem", "codex-trace", "cass", "ccusage", "opentelemetry", "debugging", "token-analysis", "observability"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-02T10:21:19+01:00
+last_modified_at: 2026-09-02T10:37:10+01:00
 ---
 # Codex CLI Session Forensics: JSONL Post-Mortems, codex-trace, cass, and ccusage
 

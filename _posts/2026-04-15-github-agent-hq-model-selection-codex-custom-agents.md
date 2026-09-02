@@ -6,7 +6,7 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-github-agent-hq-model-selection-codex-custom-agents"
 tags: ["github", "agent-hq", "model-selection", "codex-agent", "custom-agents", "copilot", "gpt-5.4", "gpt-5.3-codex", "premium-requests"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-09-02T10:21:19+01:00
+last_modified_at: 2026-09-02T10:37:10+01:00
 ---
 ![Sketchnote diagram for: GitHub Agent HQ Model Selection: Choosing GPT-5.4 vs GPT-5.3-Codex, Custom Agents, and the Multi-Agent GitHub Workflow](/sketchnotes/articles/2026-04-15-github-agent-hq-model-selection-codex-custom-agents.png)
 

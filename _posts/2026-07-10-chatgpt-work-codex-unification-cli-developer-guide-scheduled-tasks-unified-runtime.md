@@ -5,7 +5,7 @@ timestamp: 2026-07-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-10-chatgpt-work-codex-unification-cli-developer-guide-scheduled-tasks-unified-runtime"
 tags: ["codex-cli", "chatgpt-work", "gpt-5-6", "platform-unification", "scheduled-tasks", "codex-exec", "developer-experience", "enterprise", "july-2026"]
 date: 2026-07-10T09:00:00+00:00
-last_modified_at: 2026-09-02T10:21:19+01:00
+last_modified_at: 2026-09-02T10:37:10+01:00
 ---
 # ChatGPT Work and the Codex Unification: What the July 9 Merger Means for CLI Developers
 

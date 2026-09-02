@@ -6,7 +6,7 @@ timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-r-statistical-computing-mcptools-clauder-reproducible-research-workflows"
 tags: ["codex-cli", "r-language", "statistical-computing", "mcp", "data-science", "reproducible-research", "mcptools", "clauder", "rstudio"]
 date: 2026-05-22T09:00:00+00:00
-last_modified_at: 2026-09-02T10:21:19+01:00
+last_modified_at: 2026-09-02T10:37:10+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for R and Statistical Computing: mcptools, ClaudeR, and Reproducible Research Workflows](/sketchnotes/articles/2026-05-22-codex-cli-r-statistical-computing-mcptools-clauder-reproducible-research-workflows.png)
 
