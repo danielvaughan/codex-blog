@@ -1,7 +1,7 @@
 ---
 title: "IssueTrojanBench and the Malicious Issue Attack Surface: What 4,176 Adversarial Runs Reveal About Your Coding Agent's Guardrails — and How Codex CLI's Sandbox Changes the Calculus"
 date: 2026-07-25T09:00:00+00:00
-last_modified_at: 2026-09-02T03:11:17+01:00
+last_modified_at: 2026-09-02T04:11:17+01:00
 tags: ["codex-cli", "security", "IssueTrojanBench", "supply-chain", "sandbox", "prompt-injection", "malicious-issues", "guardrails", "approval-policy"]
 ---
 

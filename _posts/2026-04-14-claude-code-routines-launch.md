@@ -6,7 +6,7 @@ timestamp: 2026-04-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-14-claude-code-routines-launch"
 tags: ["claude-code", "routines", "competitor-update", "autonomous-agents", "scheduled-tasks", "cloud-execution", "github-triggers", "mcp-connectors"]
 date: 2026-04-14T09:00:00+00:00
-last_modified_at: 2026-09-02T03:11:17+01:00
+last_modified_at: 2026-09-02T04:11:17+01:00
 ---
 ![Sketchnote diagram for: Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud](/sketchnotes/articles/2026-04-14-claude-code-routines-launch.png)
 

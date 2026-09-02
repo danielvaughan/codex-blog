@@ -5,7 +5,7 @@ timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-mcp-2026-07-28-release-candidate-stateless-protocol-extensions-tasks-codex-cli-migration"
 tags: ["codex-cli", "mcp", "mcp-specification", "stateless-protocol", "extensions-framework", "tasks", "migration", "config-toml", "streamable-http"]
 date: 2026-06-09T09:00:00+00:00
-last_modified_at: 2026-09-02T03:11:17+01:00
+last_modified_at: 2026-09-02T04:11:17+01:00
 ---
 # The MCP 2026-07-28 Release Candidate: What the Stateless Protocol, Extensions, and Tasks Mean for Codex CLI Developers
 

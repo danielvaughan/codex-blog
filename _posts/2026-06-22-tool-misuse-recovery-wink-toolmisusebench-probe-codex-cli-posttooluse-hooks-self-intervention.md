@@ -5,7 +5,7 @@ timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-tool-misuse-recovery-wink-toolmisusebench-probe-codex-cli-posttooluse-hooks-self-intervention"
 tags: ["codex-cli", "tool-misuse", "agent-recovery", "PostToolUse", "hooks", "Wink", "ToolMisuseBench", "PROBE", "self-intervention", "production-agents"]
 date: 2026-06-22T09:00:00+00:00
-last_modified_at: 2026-09-02T03:11:17+01:00
+last_modified_at: 2026-09-02T04:11:17+01:00
 ---
 # Tool Misuse and Recovery in Coding Agents: What Wink, ToolMisuseBench, and PROBE Mean for Codex CLI Self-Intervention
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-database-schema-migrations-neon-prisma-mcp-safe-refactoring"
 tags: ["codex-cli", "database", "migrations", "MCP", "Neon", "Prisma", "schema-management", "CI/CD"]
 date: 2026-05-18T09:00:00+00:00
-last_modified_at: 2026-09-02T03:11:17+01:00
+last_modified_at: 2026-09-02T04:11:17+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Database Schema Migrations: Branch-Based Safety with Neon and Prisma MCP Servers](/sketchnotes/articles/2026-05-18-codex-cli-database-schema-migrations-neon-prisma-mcp-safe-refactoring.png)
 

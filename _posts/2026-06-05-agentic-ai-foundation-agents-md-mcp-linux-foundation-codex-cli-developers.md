@@ -5,7 +5,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-agentic-ai-foundation-agents-md-mcp-linux-foundation-codex-cli-developers"
 tags: ["codex-cli", "AGENTS.md", "MCP", "agentic-ai-foundation", "AAIF", "linux-foundation", "open-standards", "governance"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-02T03:11:17+01:00
+last_modified_at: 2026-09-02T04:11:17+01:00
 ---
 # The Agentic AI Foundation: What AGENTS.md, MCP, and Linux Foundation Governance Mean for Codex CLI Developers
 

@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Codex CLI v0.153.0-alpha.3 & alpha.4 — Async User Input, Remote Marketplaces, Network Headers (2026-09-02 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.153.0-alpha.3 & alpha.4: Structured Async User Input, Remote Plugin Marketplaces, and Network Header Injection** — Written 2026-09-02 → `2026-09-02-codex-cli-v0153-alpha3-alpha4-async-user-input-remote-marketplaces-network-headers.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.153.0-alpha.3 and alpha.4 released 1–2 September 2026; PR #42178 replaces `send_user_message_async` with `request_user_input_async` (structured multi-question non-blocking input, suggested answers per question, backward compatible, root-thread only, subagents suppressed, answers injected via codex queue on reply); PR #42150 adds remote marketplace support to `codex plugin` CLI (remote entries in list output, install/remove work across local+remote, scope+collection-scoped caching, graceful degradation on failure); PR #42173 adds `experimental_network.header_injections` array in config.toml (host glob matching, HTTP method filter, path prefix filter, header key-value injection, values redacted from debug output); PR #42151 exposes `model` and `reasoningEffort` as nullable fields on app-server Thread object across all lifecycle operations (live settings for loaded threads, persisted for unloaded, null for legacy); PR #42164 adds `analytics_result_source` per-tool config for `detailed_message_search_v1` result source tracking; 8 citations; ~1,300 words
+
+---
+
 ## Codex CLI v0.150.0 & v0.151.0 — Interrupt Hooks, MCP Result Interception (2026-09-02 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.150.0 & v0.151.0: Interrupt Hooks, MCP Result Interception, and the Completed Lifecycle Architecture** — Written 2026-09-02 → `2026-09-02-codex-cli-v0150-v0151-interrupt-hooks-mcp-tool-result-extension-architecture.md`
