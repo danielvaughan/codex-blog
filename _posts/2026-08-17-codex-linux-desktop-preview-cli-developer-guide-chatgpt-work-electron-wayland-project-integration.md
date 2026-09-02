@@ -1,7 +1,7 @@
 ---
 title: "Codex on Linux at Last: What the Desktop Preview Means for CLI Developers"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-09-02T14:09:57+01:00
+last_modified_at: 2026-09-02T16:12:15+01:00
 tags: ["codex-cli", "linux", "desktop", "chatgpt-work", "wayland", "electron", "developer-workflow"]
 ---
 

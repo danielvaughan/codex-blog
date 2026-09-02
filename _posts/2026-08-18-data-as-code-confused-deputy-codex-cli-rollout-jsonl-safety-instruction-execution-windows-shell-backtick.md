@@ -1,7 +1,7 @@
 ---
 title: "Data as Code: How Codex CLI's Own Safety Instructions Became a Confused Deputy Attack on Windows"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-09-02T14:09:57+01:00
+last_modified_at: 2026-09-02T16:12:15+01:00
 tags: ["codex-cli", "security", "confused-deputy", "rollout-jsonl", "windows", "safety-instructions", "shell-injection", "data-as-code"]
 ---
 

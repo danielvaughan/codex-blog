@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-rate-limiting-backoff-retry-quota"
 tags: ["rate-limiting", "retry", "backoff", "quota", "operations", "troubleshooting"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-02T14:09:57+01:00
+last_modified_at: 2026-09-02T16:12:15+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Rate Limiting Behaviour: Backoff, Retry, and Quota Exhaustion Patterns](/sketchnotes/articles/2026-04-12-codex-cli-rate-limiting-backoff-retry-quota.png)
 

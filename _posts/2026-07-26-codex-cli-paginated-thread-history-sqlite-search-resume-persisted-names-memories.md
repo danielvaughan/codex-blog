@@ -5,7 +5,7 @@ timestamp: 2026-07-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-26-codex-cli-paginated-thread-history-sqlite-search-resume-persisted-names-memories"
 tags: ["codex-cli", "thread-history", "pagination", "sqlite", "session-management", "search", "memories", "v0.145"]
 date: 2026-07-26T09:00:00+00:00
-last_modified_at: 2026-09-02T14:09:57+01:00
+last_modified_at: 2026-09-02T16:12:15+01:00
 ---
 # Paginated Thread History: How Codex CLI v0.145's SQLite-Backed Session Architecture Transforms Resume, Search, and Memory
 
