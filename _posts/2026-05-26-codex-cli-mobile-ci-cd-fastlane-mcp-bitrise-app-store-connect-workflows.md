@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-mobile-ci-cd-fastlane-mcp-bitrise-app-store-connect-workflows"
 tags: ["codex-cli", "mobile", "ci-cd", "fastlane", "bitrise", "ios", "android", "mcp", "app-store-connect"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-09-02T18:10:50+01:00
+last_modified_at: 2026-09-02T20:10:57+01:00
 ---
 # Codex CLI for Mobile CI/CD: Fastlane MCP, Bitrise MCP, and App Store Connect Workflows
 

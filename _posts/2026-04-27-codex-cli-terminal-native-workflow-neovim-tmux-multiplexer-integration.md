@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-terminal-native-workflow-neovim-tmux-multiplexer-integration"
 tags: ["neovim", "tmux", "terminal-workflow", "codex.nvim", "sidekick.nvim", "codex-cli-farm", "ntm", "parallel-agents", "developer-productivity"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-02T18:10:50+01:00
+last_modified_at: 2026-09-02T20:10:57+01:00
 ---
 ![Sketchnote diagram for: Terminal-Native Codex CLI Workflows: Neovim, tmux, and the Multiplexer-Driven Development Stack](/sketchnotes/articles/2026-04-27-codex-cli-terminal-native-workflow-neovim-tmux-multiplexer-integration.png)
 

@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Parsing the Stream — Live Trace Model for Long-Horizon Agents (2026-09-02 Hourly Article Run)
+
+1. ✅ **Parsing the Stream: What a Live Trace Model Reveals About Keeping Long-Horizon Agents on Track — and What It Means for Codex CLI** — Written 2026-09-02 → `2026-09-02-parsing-the-stream-live-trace-model-long-horizon-agents-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Pakhomov & Nijkamp (Salesforce AI Research, arXiv:2609.01466, September 2026) "Parsing the Stream: A Live Trace Model for Long-Horizon Agents and Their Observers"; four-layer architecture: append-only JSONL ledger → typed RunState fold → versioned derived nodes → per-consumer compiled views; four benchmarks: COMPREHEND (observer accuracy), CONTINUE (agent task completion), DETECT, FIDELITY; COMPREHEND: curated view 0.871 accuracy vs 0.479 raw tail, 57K vs 779K tokens (~14x fewer), whole-run aggregation 0.13-0.20 raw vs ~1.0 view; CONTINUE 120-link sequential tasks: curated view 30/30 at $1.59/run, full context 8/30 at $7.13/run, scratchpad 30/30 at $0.97/run (McNemar p≈5×10⁻⁷); 11 engineering requirements extracted from live failures (content carrying, occurrence identity, no silent truncation, source-scoped identity, deterministic aggregates, aggregate-preserving eviction, re-read idempotence, canonical key schemas, refusal-tolerant batching, verbatim validation, coverage transparency); boundary: order-dependent computation scores 3/10 (curated) vs 6/10 (full context) at 60 links; FIDELITY: fold matches oracle 8/8 bookkeeping fields, zero mismatches; cache economics: $2.03→$0.374 cached at 60 links (5.4×); code at github.com/SalesforceAIResearch/tracelab; mapped to Codex CLI: auto_compact_token_limit, startup_prompt_template scratchpad injection, AGENTS.md as typed state schema, per-tool output_token_limit with PostToolUse truncation annotation, codex agents dashboard monitoring; 5 citations; ~1,450 words
+
+---
+
 ## Harness-of-Harness — Multi-Day Autonomous Software Development, Iterative Evidence Loops (2026-09-02 Hourly Article Run)
 
 1. ✅ **Harness-of-Harness: When Iterative Evidence Loops Beat Bigger Models for Multi-Day Autonomous Development** — Written 2026-09-02 → `2026-09-02-harness-of-harness-multi-day-autonomous-software-development-codex-cli.md`

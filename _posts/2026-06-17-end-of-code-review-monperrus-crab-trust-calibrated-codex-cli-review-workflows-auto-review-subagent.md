@@ -5,7 +5,7 @@ timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-end-of-code-review-monperrus-crab-trust-calibrated-codex-cli-review-workflows-auto-review-subagent"
 tags: ["codex-cli", "code-review", "auto-review", "subagent", "trust-calibrated-review", "c-CRAB", "Monperrus", "research", "approval-policies", "review-model"]
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-09-02T18:10:50+01:00
+last_modified_at: 2026-09-02T20:10:57+01:00
 ---
 # The End of Code Review? What Three June 2026 Papers Mean for Codex CLI Review Workflows
 

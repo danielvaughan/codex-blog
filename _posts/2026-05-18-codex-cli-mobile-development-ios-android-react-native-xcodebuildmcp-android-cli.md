@@ -6,7 +6,7 @@ timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-mobile-development-ios-android-react-native-xcodebuildmcp-android-cli"
 tags: ["codex-cli", "mobile-development", "ios", "android", "react-native", "xcodebuildmcp", "android-cli", "swiftui", "kotlin", "cross-platform", "mcp", "skills", "plugins"]
 date: 2026-05-18T09:00:00+00:00
-last_modified_at: 2026-09-02T18:10:50+01:00
+last_modified_at: 2026-09-02T20:10:57+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Mobile Development: iOS with XcodeBuildMCP, Android CLI Skills, and React Native Plugin Workflows](/sketchnotes/articles/2026-05-18-codex-cli-mobile-development-ios-android-react-native-xcodebuildmcp-android-cli.png)
 
