@@ -6,7 +6,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-v0137-alpha-preview-remote-control-client-management-skills-extension-code-mode"
 tags: ["codex-cli", "v0.137", "alpha", "remote-control", "skills-extension", "image-generation", "permission-profiles", "multi-agent", "python-sdk"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-09-02T20:10:57+01:00
+last_modified_at: 2026-09-02T22:10:51+01:00
 ---
 # Codex CLI v0.137 Alpha: Remote Control Client Management, Skills Extension Architecture, and Code-Mode Image Generation
 

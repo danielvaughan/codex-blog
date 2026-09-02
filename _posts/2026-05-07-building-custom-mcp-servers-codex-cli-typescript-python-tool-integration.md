@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-building-custom-mcp-servers-codex-cli-typescript-python-tool-integration"
 tags: ["codex-cli", "mcp", "model-context-protocol", "typescript", "python", "tooling", "integration", "streamable-http", "stdio"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-02T20:10:57+01:00
+last_modified_at: 2026-09-02T22:10:51+01:00
 ---
 ![Sketchnote diagram for: Building Custom MCP Servers for Codex CLI: A Practical Guide in TypeScript and Python](/sketchnotes/articles/2026-05-07-building-custom-mcp-servers-codex-cli-typescript-python-tool-integration.png)
 

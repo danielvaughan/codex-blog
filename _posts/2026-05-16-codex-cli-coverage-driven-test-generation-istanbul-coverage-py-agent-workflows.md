@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-coverage-driven-test-generation-istanbul-coverage-py-agent-workflows"
 tags: ["codex-cli", "testing", "code-coverage", "istanbul", "coverage-py", "test-generation", "codex-exec", "skills", "ci-cd", "automation"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-02T20:10:57+01:00
+last_modified_at: 2026-09-02T22:10:51+01:00
 ---
 ![Sketchnote diagram for: Coverage-Driven Test Generation with Codex CLI: Closing Gaps Using Istanbul, Coverage.py, and Agent Workflows](/sketchnotes/articles/2026-05-16-codex-cli-coverage-driven-test-generation-istanbul-coverage-py-agent-workflows.png)
 

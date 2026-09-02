@@ -1,7 +1,7 @@
 ---
 title: "The `update_plan` Tool Goes Opt-In: When to Disable Codex CLI's Built-In Planner"
 date: 2026-08-31T11:00:00+00:00
-last_modified_at: 2026-09-02T20:10:57+01:00
+last_modified_at: 2026-09-02T22:10:51+01:00
 tags: ["codex-cli", "planning", "goal-mode", "mcp", "configuration", "v0.152", "multi-agent"]
 ---
 

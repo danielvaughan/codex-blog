@@ -1,7 +1,7 @@
 ---
 title: "TestEvo-Bench and the Test Co-Evolution Problem: What 1,255 Real-World Tasks Reveal About Coding Agents and Test Maintenance — and How to Wire Codex CLI for It"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-09-02T20:10:57+01:00
+last_modified_at: 2026-09-02T22:10:51+01:00
 tags: ["codex-cli", "test-co-evolution", "TestEvo-Bench", "test-generation", "test-update", "AGENTS.md", "PostToolUse-hooks", "mutation-testing", "coverage", "benchmark"]
 ---
 

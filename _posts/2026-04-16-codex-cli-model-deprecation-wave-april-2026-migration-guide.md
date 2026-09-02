@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-cli-model-deprecation-wave-april-2026-migration-guide"
 tags: ["model-deprecation", "model-selection", "config-toml", "migration", "gpt-5.4", "gpt-5.3-codex", "gpt-5.4-mini", "profiles"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-02T20:10:57+01:00
+last_modified_at: 2026-09-02T22:10:51+01:00
 ---
 ![Sketchnote diagram for: The April 2026 Model Deprecation Wave: Migrating Your Codex CLI Configuration](/sketchnotes/articles/2026-04-16-codex-cli-model-deprecation-wave-april-2026-migration-guide.png)
 

@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Codex CLI Fleet Observability: CloudWatch Coding Agent Insights, OTel Bearer Tokens, and Enterprise SSO Rollout (2026-09-02 Hourly Article Run)
+
+1. ✅ **Codex CLI Fleet Observability: CloudWatch Coding Agent Insights, OTel Bearer Tokens, and Enterprise SSO Rollout** — Written 2026-09-02 → `2026-09-02-codex-cli-cloudwatch-coding-agent-insights-otel-fleet-observability-enterprise-sso.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — CloudWatch Coding Agent Insights launched 20 July 2026 (AWS What's New); two telemetry paths (bearer token direct OTLP, enterprise SSO with local OTel collector + SigV4); metrics: token consumption, per-turn latency, tool calls, approvals; identity must be OTel resource attributes not metric attributes (silent dashboard break if wrong); config.toml [otel.metrics_exporter] otlp-http syntax; OTEL_RESOURCE_ATTRIBUTES env vars (user.id, department, team.id, cost_center); enterprise path: IdP federation → AWS IAM Identity Center → federated role → local collector stamps identity → CloudWatch; CloudFormation templates at github.com/openai-on-aws/guidance-codex; LiteLLM governance layer for hard quota enforcement (USD budget blocks, TPM/RPM limits, model whitelisting, immutable audit trail); Bedrock credential refresh gotcha (12hr expiry, PR #28992 fix); ~9,400 token system prompt overhead per request; 1Password credential_process non-interactive caveat; 11 citations; ~1,150 words
+
+---
+
 ## Parsing the Stream — Live Trace Model for Long-Horizon Agents (2026-09-02 Hourly Article Run)
 
 1. ✅ **Parsing the Stream: What a Live Trace Model Reveals About Keeping Long-Horizon Agents on Track — and What It Means for Codex CLI** — Written 2026-09-02 → `2026-09-02-parsing-the-stream-live-trace-model-long-horizon-agents-codex-cli.md`
