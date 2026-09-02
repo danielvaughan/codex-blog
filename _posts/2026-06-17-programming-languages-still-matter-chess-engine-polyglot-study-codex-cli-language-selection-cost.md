@@ -6,7 +6,7 @@ timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-programming-languages-still-matter-chess-engine-polyglot-study-codex-cli-language-selection-cost"
 tags: ["language-selection", "polyglot", "chess-engine", "cost-optimisation", "codex-cli", "model-routing", "agents-md", "benchmarks", "research"]
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-09-02T00:09:12+01:00
+last_modified_at: 2026-09-02T02:12:16+01:00
 ---
 # Do Programming Languages Still Matter? What the Chess Engine Polyglot Study Means for Codex CLI Language Selection and Cost Strategy
 

@@ -5,7 +5,7 @@ timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-trace-compiling-user-corrections-runtime-enforcement-coding-agents-codex-cli-hooks-agents-md"
 tags: ["codex-cli", "TRACE", "user-corrections", "runtime-enforcement", "hooks", "AGENTS.md", "PreToolUse", "PostToolUse", "agent-memory", "preference-compliance"]
 date: 2026-07-02T09:00:00+00:00
-last_modified_at: 2026-09-02T00:09:12+01:00
+last_modified_at: 2026-09-02T02:12:16+01:00
 ---
 # TRACE and the Correction-to-Enforcement Pipeline: Why Your Coding Agent Keeps Ignoring What You Told It — and How to Fix That with Codex CLI Hooks
 

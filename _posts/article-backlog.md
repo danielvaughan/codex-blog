@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Codex CLI v0.150.0 & v0.151.0 — Interrupt Hooks, MCP Result Interception (2026-09-02 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.150.0 & v0.151.0: Interrupt Hooks, MCP Result Interception, and the Completed Lifecycle Architecture** — Written 2026-09-02 → `2026-09-02-codex-cli-v0150-v0151-interrupt-hooks-mcp-tool-result-extension-architecture.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.150.0 (August 26, 2026) and v0.151.0 (August 29, 2026) were the only stable releases without dedicated articles; v0.150.0 PR #40511 adds Interrupt hook event (fires before interrupted-abort, top-level turns only, 1s default / 3s max timeout, command + MCP handlers, async commands supported, transcript flushed before invocation); v0.150.0 also adds @ task mentions (cross-task references in terminal), smarter /copy picker, auto-titling + /rename suggestions, clickable Markdown links (OSC 8), Vim dot-repeat; v0.151.0 PR #41202 adds on_mcp_tool_result ToolLifecycleContributor (in-process extension, fires before MCP completion published + before result prepared for model, can inspect or replace successful and error results, receives mutable server result); v0.151.0 PR #41199 adds mcp_optional_startup_grace_ms config key (default 1000ms, 0 = disable shared grace and use per-server startup_timeout_sec, applies on runtime refresh); v0.151.0 also fixes permission profile persistence across TUI turns, /cd sandbox weakening regression, plugin catalog merging, model-switch tool availability; article covers complete post-v0.151.0 agent turn lifecycle diagram (UserPromptSubmit → PreToolUse → on_mcp_tool_result → PostToolUse → Stop/Interrupt); 6 citations; ~1,350 words
+
+---
+
 ## WebMCP Site Tools — Browser-Native Agent API, Codex Web Integration (2026-09-02 Hourly Article Run)
 
 1. ✅ **WebMCP Site Tools: How Codex Now Calls Your Web App Like an API** — Written 2026-09-02 → `2026-09-02-webmcp-site-tools-codex-agent-web-interface-standard.md`

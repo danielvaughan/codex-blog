@@ -1,7 +1,7 @@
 ---
 title: "MasDrift: Authorization Drift in Multi-Agent Hierarchies — and Codex CLI's Subagent Boundary Gaps"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-09-02T00:09:12+01:00
+last_modified_at: 2026-09-02T02:12:16+01:00
 tags: ["multi-agent", "security", "authorization", "subagents", "codex-cli", "hooks", "AGENTS.md"]
 ---
 
