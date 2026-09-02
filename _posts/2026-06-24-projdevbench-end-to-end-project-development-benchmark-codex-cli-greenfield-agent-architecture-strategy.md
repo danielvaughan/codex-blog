@@ -5,7 +5,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-projdevbench-end-to-end-project-development-benchmark-codex-cli-greenfield-agent-architecture-strategy"
 tags: ["codex-cli", "projdevbench", "benchmark", "greenfield", "project-development", "architecture", "agent-evaluation", "gpt-5"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-02T08:17:51+01:00
+last_modified_at: 2026-09-02T10:13:27+01:00
 ---
 # ProjDevBench and the Greenfield Gap: Why Your Codex CLI Agent Tops the Project Development Leaderboard — and Where It Still Falls Short
 

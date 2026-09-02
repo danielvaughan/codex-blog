@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-angular-teams-signals-mcp-server-agent-driven-enterprise-frontend"
 tags: ["codex-cli", "angular", "angular-21", "signals", "mcp-server", "agents-md", "enterprise-frontend", "zoneless", "vitest", "standalone-components"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-02T08:17:51+01:00
+last_modified_at: 2026-09-02T10:13:27+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Angular Teams: MCP Server, Signal-Based Patterns, and Agent-Driven Enterprise Frontend Workflows](/sketchnotes/articles/2026-04-29-codex-cli-angular-teams-signals-mcp-server-agent-driven-enterprise-frontend.png)
 

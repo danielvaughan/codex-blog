@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-android-remote-control-chatgpt-mobile-desktop-agent-sessions"
 tags: ["codex-cli", "android", "mobile", "remote-control", "chatgpt", "agentic-workflows"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-02T08:17:51+01:00
+last_modified_at: 2026-09-02T10:13:27+01:00
 ---
 ![Sketchnote diagram for: Codex Android Remote Control: Managing Desktop Agent Sessions from Your Phone](/sketchnotes/articles/2026-05-10-codex-android-remote-control-chatgpt-mobile-desktop-agent-sessions.png)
 

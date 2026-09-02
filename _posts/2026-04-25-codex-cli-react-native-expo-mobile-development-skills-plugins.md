@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-react-native-expo-mobile-development-skills-plugins"
 tags: ["codex-cli", "react-native", "expo", "mobile-development", "skills", "plugins", "agent-device", "testing", "callstack"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-02T08:17:51+01:00
+last_modified_at: 2026-09-02T10:13:27+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for React Native and Expo: First-Party Skills, Plugins, and Mobile Development Workflows](/sketchnotes/articles/2026-04-25-codex-cli-react-native-expo-mobile-development-skills-plugins.png)
 

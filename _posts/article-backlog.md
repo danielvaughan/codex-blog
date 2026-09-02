@@ -1,5 +1,10 @@
 # Article Backlog
 
+## Context Privilege Escalation — CPE Attacks in AI Agent Harnesses (2026-09-02 Hourly Article Run)
+
+1. ✅ **Context Privilege Escalation: What 282 Vulnerable Sources in 12 Coding Agent Harnesses Reveal — and How to Harden Codex CLI** — Written 2026-09-02 → `2026-09-02-context-privilege-escalation-attacks-ai-agent-harness-codex-cli-m-cpe-x-cpe-security.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Li, Cui, Chen, Liao & Xing (arXiv:2609.01222, September 1, 2026) "What's in Your Agent's Context? Context Privilege Escalation Attacks against AI Agent Harness"; 12 production harnesses analysed including Codex CLI v0.120.0, Claude Code, Gemini CLI; 282 context sources identified as vulnerable to CPE attacks; two attack classes: M-CPE (MessageRole — low-privilege content elevates to high-privilege message role) and X-CPE (Cross-Scope — content persists beyond session scope to project/user-wide storage); 16 attack vectors across 3 root-cause categories: Diverse Context Sources (A-1 to A-7), Context Markup Syntax (B-1, B-2), Context Assembly Logic (C-1 to C-7); Codex-specific attack: C-1 AGENTS.override.md PR-injection replaces maintainer AGENTS.md; end-to-end PoC attacks succeeded against all 12 harnesses; Codex and Gemini CLI shipped patches after responsible disclosure; Cline X-CPE via XML-tagged tool output → persistent .windsurfrules write; Gemini CLI X-CPE via BFS-discovered GEMINI.md in subdirectory; Codex CLI mitigations: v0.150.0 untrusted project isolation + managed deny-read rules + on_mcp_tool_result hook (v0.151.0) for B-1/B-2 interception; config hardening: memory_search_upward=false, PreToolUse hook blocks AGENTS.md writes, approval_policy=ask for PR workflows, strict sandbox deny_reads on ~/.codex; 5 citations; ~1,450 words
+
 ## Harness Engineering — Anatomy, Architecture, and Evolution of Coding Agents (2026-09-02 Hourly Article Run)
 
 1. ✅ **Inside the Harness: What a Source-Code Study of Eleven Coding Agents Reveals About Codex CLI's Architecture** — Written 2026-09-02 → `2026-09-02-harness-engineering-anatomy-architecture-evolution-coding-agents-codex-cli.md`

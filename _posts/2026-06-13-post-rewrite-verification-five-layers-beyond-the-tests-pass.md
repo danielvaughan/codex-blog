@@ -5,7 +5,7 @@ timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-post-rewrite-verification-five-layers-beyond-the-tests-pass"
 tags: ["codex-cli", "verification", "code-migration", "static-analysis", "security", "hooks", "subagents", "best-practices"]
 date: 2026-06-13T09:00:00+00:00
-last_modified_at: 2026-09-02T08:17:51+01:00
+last_modified_at: 2026-09-02T10:13:27+01:00
 ---
 # Post-Rewrite Verification: Five Layers Beyond "The Tests Pass"
 

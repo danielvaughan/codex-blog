@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-nodejs-free-codex-cli-rust-binary-installer-enterprise-deployment"
 tags: ["installer", "rust-binary", "enterprise", "deployment", "node-elimination"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-02T08:17:51+01:00
+last_modified_at: 2026-09-02T10:13:27+01:00
 ---
 ![Sketchnote diagram for: The Node.js-Free Codex CLI: Rust Binary Installer and Enterprise Deployment](/sketchnotes/articles/2026-04-16-nodejs-free-codex-cli-rust-binary-installer-enterprise-deployment.png)
 

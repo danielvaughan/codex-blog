@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-cloud-delegation-workflows-plan-locally-execute-remotely-apply-diffs"
 tags: ["codex-cli", "codex-cloud", "cloud-delegation", "codex-cloud-exec", "best-of-n", "remote-execution", "ci-cd", "workflow-patterns"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-02T08:17:51+01:00
+last_modified_at: 2026-09-02T10:13:27+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Cloud Delegation Workflows: Plan Locally, Execute Remotely, Apply Diffs](/sketchnotes/articles/2026-05-19-codex-cli-cloud-delegation-workflows-plan-locally-execute-remotely-apply-diffs.png)
 
