@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-observability-dashboards-signoz-oodle-opik-production-monitoring"
 tags: ["codex-cli", "observability", "opentelemetry", "signoz", "oodle", "opik", "dashboards", "monitoring", "enterprise", "otel", "production"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-02T11:42:19+01:00
+last_modified_at: 2026-09-02T12:14:07+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Observability Dashboards: Production Monitoring with SigNoz, Oodle, and Opik](/sketchnotes/articles/2026-05-10-codex-cli-observability-dashboards-signoz-oodle-opik-production-monitoring.png)
 

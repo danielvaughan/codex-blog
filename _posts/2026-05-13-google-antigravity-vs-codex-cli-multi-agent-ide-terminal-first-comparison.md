@@ -6,7 +6,7 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-google-antigravity-vs-codex-cli-multi-agent-ide-terminal-first-comparison"
 tags: ["codex-cli", "google-antigravity", "comparison", "multi-agent", "terminal-first", "skills", "mcp", "agents-md", "benchmarks"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-09-02T11:42:19+01:00
+last_modified_at: 2026-09-02T12:14:07+01:00
 ---
 ![Sketchnote diagram for: Google Antigravity vs Codex CLI: Multi-Agent IDE Meets Terminal-First Agent in the 2026 Coding Wars](/sketchnotes/articles/2026-05-13-google-antigravity-vs-codex-cli-multi-agent-ide-terminal-first-comparison.png)
 

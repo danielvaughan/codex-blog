@@ -1,5 +1,10 @@
 # Article Backlog
 
+## HarnessDev — LLM-Generated Agent Harnesses, Codex CLI Engineering Premium (2026-09-02 Hourly Article Run)
+
+1. ✅ **HarnessDev: What Happens When an LLM Builds Its Own Agent Harness — and Why Codex CLI's Engineering Still Wins** — Written 2026-09-02 → `2026-09-02-harnessdev-llm-generated-agent-harnesses-codex-cli-engineering-benchmark.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wu, Zhang, Shi, Lei et al. (arXiv:2609.01437, September 2026) "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?"; benchmark separates creator LLM from executor LLM; 6 creator models (Opus 4.8, GPT-5.5, Gemini 3.1 Pro, DeepSeek V4 Pro, Qwen 3.7 Max, Seed 2.0 Pro); 4 domains, 5 benchmarks (SWE-bench Pro 731 tasks, Terminal-Bench 2.1 89 tasks, MLE-bench 75 tasks, EQ-Bench3 46 tasks, BrowseComp 1,266 tasks), 2,207 total instances; 6 functional modules required: execution control, tool orchestration, context management, persistent state, lifecycle recovery, evaluation logic; creation results: code gap 69.3% vs 80.0% reference (SWE-Pro), search gap 52.4% vs 92.2% reference (BrowseComp), writing/ML matches or exceeds reference; evolution: +8.8pp feedback set → +2.7pp held-out transfer; cross-executor failure: Qwen harnesses +17.6pp BrowseComp under Gemini, Opus harnesses -36.3pp SWE-Pro under Gemini; Codex CLI premium: GPT-5 35.2% Terminus 2 vs 49.6% Codex CLI on Terminal-Bench 2.1 (14.4pp gap); median generated harness 698 LOC per artifact; persistent checkpointing absent in 26,679 trajectories; practical Codex CLI guidance: max_turns ceiling, memory_search_upward=false, Interrupt hook for lifecycle recovery, PostToolUse for verification, per-tool output_token_limit; 5 citations; ~1,200 words
+
 ## Context Privilege Escalation — CPE Attacks in AI Agent Harnesses (2026-09-02 Hourly Article Run)
 
 1. ✅ **Context Privilege Escalation: What 282 Vulnerable Sources in 12 Coding Agent Harnesses Reveal — and How to Harden Codex CLI** — Written 2026-09-02 → `2026-09-02-context-privilege-escalation-attacks-ai-agent-harness-codex-cli-m-cpe-x-cpe-security.md`

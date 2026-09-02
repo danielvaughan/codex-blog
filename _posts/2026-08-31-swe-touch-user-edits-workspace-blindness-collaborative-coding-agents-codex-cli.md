@@ -1,7 +1,7 @@
 ---
 title: "SWE-Touch: The 7.7-Point Tax of Workspace Blindness When Users Edit Code Mid-Task"
 date: 2026-08-31T21:00:00+00:00
-last_modified_at: 2026-09-02T11:42:19+01:00
+last_modified_at: 2026-09-02T12:14:07+01:00
 tags: ["codex-cli", "benchmarks", "swe-bench", "collaborative-coding", "workspace-awareness", "hooks", "harness-engineering"]
 ---
 
