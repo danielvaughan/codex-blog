@@ -5,7 +5,7 @@ timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-non-developers-first-week-codex-process-owner-onboarding-guide"
 tags: ["codex", "onboarding", "non-developer", "business-user", "process-owner", "codex-sites", "plugins"]
 date: 2026-06-13T09:00:00+00:00
-last_modified_at: 2026-09-02T22:10:51+01:00
+last_modified_at: 2026-09-03T00:12:21+01:00
 ---
 # The Non-Developer's First Week with Codex: A Process Owner's Onboarding Guide
 

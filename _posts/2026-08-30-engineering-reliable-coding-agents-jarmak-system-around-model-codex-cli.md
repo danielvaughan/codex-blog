@@ -1,7 +1,7 @@
 ---
 title: "The System Around the Model: Jarmak's Reliability Framework for Coding Agents and What It Means for Codex CLI"
 date: 2026-08-30T08:00:00+00:00
-last_modified_at: 2026-09-02T22:10:51+01:00
+last_modified_at: 2026-09-03T00:12:21+01:00
 tags: ["codex-cli", "reliability", "harness-engineering", "benchmarking", "distributed-systems", "permissions", "observability", "memory", "retrieval"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-gpt-5-5-cyber-codex-cli-trusted-access-defensive-security-workflows"
 tags: ["codex-cli", "gpt-5.5-cyber", "security", "trusted-access", "vulnerability-triage", "patch-validation", "detection-engineering", "cyber-defence"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-09-02T22:10:51+01:00
+last_modified_at: 2026-09-03T00:12:21+01:00
 ---
 ![Sketchnote diagram for: GPT-5.5-Cyber and Codex CLI: Trusted Access, Defensive Workflows, and the Security-Permissive Model Tier](/sketchnotes/articles/2026-05-11-gpt-5-5-cyber-codex-cli-trusted-access-defensive-security-workflows.png)
 

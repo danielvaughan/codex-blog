@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-v0136-security-hardening-exec-server-cswsh-diff-hook-injection-remote-tokens"
 tags: ["security", "codex-cli", "exec-server", "websocket", "git-safety", "remote-execution", "v0.136"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-09-02T22:10:51+01:00
+last_modified_at: 2026-09-03T00:12:21+01:00
 ---
 # Codex CLI v0.136 Security Hardening: Closing Three Agent Attack Surfaces
 

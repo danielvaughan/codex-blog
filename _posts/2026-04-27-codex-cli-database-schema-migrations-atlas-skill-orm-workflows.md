@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-database-schema-migrations-atlas-skill-orm-workflows"
 tags: ["codex-cli", "database", "migrations", "atlas", "skills", "orm", "drizzle", "prisma", "sqlalchemy", "mcp", "postgres"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-02T22:10:51+01:00
+last_modified_at: 2026-09-03T00:12:21+01:00
 ---
 ![Sketchnote diagram for: Database Schema Migrations with Codex CLI: Atlas Skills, ORM Workflows, and Agent-Driven Migration Pipelines](/sketchnotes/articles/2026-04-27-codex-cli-database-schema-migrations-atlas-skill-orm-workflows.png)
 

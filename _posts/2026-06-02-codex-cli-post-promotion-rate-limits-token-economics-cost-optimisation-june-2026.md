@@ -5,7 +5,7 @@ timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-post-promotion-rate-limits-token-economics-cost-optimisation-june-2026"
 tags: ["codex-cli", "pricing", "rate-limits", "cost-optimisation", "token-economics", "pro-boost", "model-routing", "prompt-caching"]
 date: 2026-06-02T09:00:00+00:00
-last_modified_at: 2026-09-02T22:10:51+01:00
+last_modified_at: 2026-09-03T00:12:21+01:00
 ---
 # Codex CLI After the Pro Boost: Rate Limit Reality, Token Economics, and Cost Optimisation for June 2026
 

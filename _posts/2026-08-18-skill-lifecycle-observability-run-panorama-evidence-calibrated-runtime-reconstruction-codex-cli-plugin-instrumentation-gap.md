@@ -1,7 +1,7 @@
 ---
 title: "Skill Lifecycle Observability and the Run Panorama: What Evidence-Calibrated Runtime Reconstruction Reveals About Codex CLI's Plugin Instrumentation Gap"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-09-02T22:10:51+01:00
+last_modified_at: 2026-09-03T00:12:21+01:00
 tags: ["codex-cli", "observability", "agent-plugins", "OTLP", "skill-lifecycle", "Run-Panorama", "evidence-calibration", "instrumentation"]
 ---
 
