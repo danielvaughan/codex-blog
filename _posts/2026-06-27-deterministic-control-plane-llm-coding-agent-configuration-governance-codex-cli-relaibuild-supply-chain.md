@@ -5,7 +5,7 @@ timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-deterministic-control-plane-llm-coding-agent-configuration-governance-codex-cli-relaibuild-supply-chain"
 tags: ["codex-cli", "security", "governance", "AGENTS.md", "configuration", "supply-chain", "deterministic-control-plane", "Rel(AI)Build"]
 date: 2026-06-27T09:00:00+00:00
-last_modified_at: 2026-09-02T10:13:27+01:00
+last_modified_at: 2026-09-02T10:21:19+01:00
 ---
 # The Deterministic Control Plane: Why Your Codex CLI Configuration Needs Supply-Chain Governance
 

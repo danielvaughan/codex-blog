@@ -1,7 +1,7 @@
 ---
 title: "Out-of-Band Prompt Injection Defences: What CaMeL, FIDES, and Progent Reveal About Deterministic Agent Security — and How Codex CLI's Sandbox-Approval-Hook Stack Already Implements the Pattern"
 date: 2026-07-08T09:00:00+00:00
-last_modified_at: 2026-09-02T10:13:27+01:00
+last_modified_at: 2026-09-02T10:21:19+01:00
 tags: ["codex-cli", "prompt-injection", "out-of-band-defence", "CaMeL", "FIDES", "Progent", "RTBAS", "sandbox", "security", "agent-security"]
 ---
 

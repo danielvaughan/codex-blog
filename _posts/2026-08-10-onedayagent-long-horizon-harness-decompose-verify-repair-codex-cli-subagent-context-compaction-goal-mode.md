@@ -1,7 +1,7 @@
 ---
 title: "OneDayAgent and the Long-Horizon Harness: Why Decompose-Verify-Repair Beats Growing a Single Session — and How to Wire It into Codex CLI"
 date: 2026-08-10T09:00:00+00:00
-last_modified_at: 2026-09-02T10:13:27+01:00
+last_modified_at: 2026-09-02T10:21:19+01:00
 tags: ["codex-cli", "long-horizon", "harness", "task-decomposition", "context-compaction", "subagent", "goal-mode", "verification", "OneDayAgent", "AgentIF-OneDay"]
 ---
 

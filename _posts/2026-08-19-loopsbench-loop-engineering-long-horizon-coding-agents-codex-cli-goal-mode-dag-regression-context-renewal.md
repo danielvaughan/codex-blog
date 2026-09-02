@@ -1,7 +1,7 @@
 ---
 title: "LoopsBench and Loop Engineering: What Long-Horizon Benchmarks Reveal About Your Codex CLI Goal Mode Workflows"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-09-02T10:13:27+01:00
+last_modified_at: 2026-09-02T10:21:19+01:00
 tags: ["codex-cli", "loop-engineering", "loopsbench", "long-horizon", "goal-mode", "benchmarks", "regression", "context-renewal", "dag", "harness-engineering"]
 ---
 

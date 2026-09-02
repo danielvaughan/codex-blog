@@ -5,7 +5,7 @@ timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-openai-shift-to-agentic-ai-evidence-from-codex-usage-data-non-developer-adoption-parallel-agents"
 tags: ["codex", "openai", "agentic-ai", "adoption-data", "parallel-agents", "non-developer", "skills", "enterprise", "research-paper"]
 date: 2026-06-26T09:00:00+00:00
-last_modified_at: 2026-09-02T10:13:27+01:00
+last_modified_at: 2026-09-02T10:21:19+01:00
 ---
 # The Shift to Agentic AI: What OpenAI's Internal Usage Data Reveals About Codex Adoption, Parallel Agent Orchestration, and the Non-Developer Surge
 

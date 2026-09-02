@@ -1,7 +1,7 @@
 ---
 title: "Signal or Noise? What WebDev-Skills-Bench Teaches Us About Calibrating Your Codex CLI AGENTS.md"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-09-02T10:13:27+01:00
+last_modified_at: 2026-09-02T10:21:19+01:00
 tags: ["codex-cli", "agents-md", "skills", "benchmarks", "context-management", "performance", "calibration"]
 ---
 

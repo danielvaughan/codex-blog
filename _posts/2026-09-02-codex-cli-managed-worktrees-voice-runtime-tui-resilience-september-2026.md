@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI, 2 September 2026: Managed Worktrees, Cross-Platform Voice Runtime, and TUI Resilience"
 date: 2026-09-02T18:00:00+00:00
-last_modified_at: 2026-09-02T10:13:27+01:00
+last_modified_at: 2026-09-02T10:21:19+01:00
 tags: ["codex-cli", "worktrees", "multi-agent", "voice", "tui", "release", "v0.153"]
 ---
 
@@ -25,7 +25,7 @@ The most significant addition for multi-agent workflows is `WorktreeManager::cre
 
 ### Why This Matters for Parallel Agent Sessions
 
-When you run `codex agents` to fan out multiple tasks, each agent session needs a stable, independent view of the repository. Without worktree isolation, concurrent agents can observe each other's in-progress edits, trigger the wrong pre-commit hooks, or have their index state clobbered by a sibling session. Worktree isolation at the OS level is the standard defence���but wiring it up correctly requires suppressing a non-obvious list of git environment variables (`GIT_DIR`, `GIT_WORK_TREE`, `GIT_INDEX_FILE`, core hooks paths, and protocol filters).
+When you run `codex agents` to fan out multiple tasks, each agent session needs a stable, independent view of the repository. Without worktree isolation, concurrent agents can observe each other's in-progress edits, trigger the wrong pre-commit hooks, or have their index state clobbered by a sibling session. Worktree isolation at the OS level is the standard defence—but wiring it up correctly requires suppressing a non-obvious list of git environment variables (`GIT_DIR`, `GIT_WORK_TREE`, `GIT_INDEX_FILE`, core hooks paths, and protocol filters).
 
 `WorktreeManager::create` encapsulates that list behind a single API call. The managed worktree lifecycle—validate, create, isolate, roll back on error—now mirrors what Codex CLI already does for sandboxed execution environments, giving parallel agents a coherent story at every layer.
 
