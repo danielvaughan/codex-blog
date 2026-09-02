@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-documentation-mcp-servers-context7-live-library-lookups"
 tags: ["codex-cli", "MCP", "context7", "repomix", "documentation", "library-lookups", "developer-productivity", "hallucination-prevention"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-09-02T02:12:16+01:00
+last_modified_at: 2026-09-02T03:11:17+01:00
 ---
 ![Sketchnote diagram for: Documentation MCP Servers for Codex CLI: Context7, Repomix, and Live Library Lookups](/sketchnotes/articles/2026-04-30-codex-cli-documentation-mcp-servers-context7-live-library-lookups.png)
 

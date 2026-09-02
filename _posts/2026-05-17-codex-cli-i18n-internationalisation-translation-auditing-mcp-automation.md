@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-i18n-internationalisation-translation-auditing-mcp-automation"
 tags: ["codex-cli", "i18n", "internationalisation", "translation", "mcp", "automation", "ci-cd", "react-intl", "next-intl", "i18next"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-09-02T02:12:16+01:00
+last_modified_at: 2026-09-02T03:11:17+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Internationalisation: Translation Auditing, MCP-Driven Workflows, and CI Enforcement](/sketchnotes/articles/2026-05-17-codex-cli-i18n-internationalisation-translation-auditing-mcp-automation.png)
 

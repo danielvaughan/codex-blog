@@ -5,7 +5,7 @@ timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-codex-cli-plugin-mcp-host-per-thread-stdio-server-activation-marketplace-discovery"
 tags: ["codex-cli", "plugins", "mcp", "stdio", "per-thread-isolation", "marketplace", "architecture", "v0.141", "v0.142"]
 date: 2026-06-23T09:00:00+00:00
-last_modified_at: 2026-09-02T02:12:16+01:00
+last_modified_at: 2026-09-02T03:11:17+01:00
 ---
 # Plugin as MCP Host: How Codex CLI v0.141 Turns Plugins into Per-Thread Tool Servers
 

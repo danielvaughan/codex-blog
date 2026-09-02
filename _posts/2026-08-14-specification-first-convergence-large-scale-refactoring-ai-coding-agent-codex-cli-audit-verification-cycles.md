@@ -1,7 +1,7 @@
 ---
 title: "Specification-First Convergence: What a 189-File Refactoring with Zero Post-Deployment Bugs Teaches Us About Codex CLI's Audit-Verification Workflow"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-09-02T02:12:16+01:00
+last_modified_at: 2026-09-02T03:11:17+01:00
 tags: ["codex-cli", "specification-driven-development", "refactoring", "AGENTS.md", "verification", "audit-cycles", "large-codebase", "convergence"]
 ---
 

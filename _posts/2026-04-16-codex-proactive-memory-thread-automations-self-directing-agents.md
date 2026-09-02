@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-proactive-memory-thread-automations-self-directing-agents"
 tags: ["proactive-memory", "thread-automations", "self-directing", "super-app", "task-suggestions", "slack-notion", "scheduling"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-02T02:12:16+01:00
+last_modified_at: 2026-09-02T03:11:17+01:00
 ---
 ![Sketchnote diagram for: From Reactive to Proactive: How Codex Memory + Thread Automations Create Self-Directing Agents](/sketchnotes/articles/2026-04-16-codex-proactive-memory-thread-automations-self-directing-agents.png)
 

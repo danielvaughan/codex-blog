@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.153.0-alpha: Per-Link Approval Policies for Connected Apps and Plugin Marketplace Source Enforcement"
 date: 2026-09-01T22:00:00+00:00
-last_modified_at: 2026-09-02T02:12:16+01:00
+last_modified_at: 2026-09-02T03:11:17+01:00
 tags: ["codex-cli", "v0.153", "release", "approval-policy", "apps", "plugin-marketplace", "guardian", "security"]
 ---
 
@@ -114,12 +114,12 @@ A small but frequently requested quality-of-life addition: the TUI composer now 
 
 ## Upgrade and Compatibility Notes
 
-v0.153.0-alpha.1/2 are pre-release and not recommended for production workloads. To opt in:
+v0.153.0-alpha.1 through alpha.4 are pre-release and not recommended for production workloads. To opt in to the latest alpha:
 
 ```bash
-npm install -g openai-codex@0.153.0-alpha.2
+npm install -g @openai/codex@0.153.0-alpha.4
 # or
-npx openai-codex@0.153.0-alpha.2
+npx @openai/codex@0.153.0-alpha.4
 ```
 
 The new `apps.<app_id>.links.<link_id>` config block is additive — existing configs with no `links` sub-section continue to behave identically to v0.152.0.[^1] Plugin catalog validation changes are transparent to users; if `codex doctor` reports a source policy rejection on a catalog you control, add the Git origin to `[plugins.sources.allowed]`.

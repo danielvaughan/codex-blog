@@ -5,7 +5,7 @@ timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-mcp-dev-summit-bengaluru-five-production-patterns-codex-cli-developers"
 tags: ["mcp", "codex-cli", "mcp-dev-summit", "bengaluru", "production-patterns", "skills", "transport", "token-management", "oauth", "stdio"]
 date: 2026-06-09T09:00:00+00:00
-last_modified_at: 2026-09-02T02:12:16+01:00
+last_modified_at: 2026-09-02T03:11:17+01:00
 ---
 # MCP Dev Summit Bengaluru: Five Production Patterns Every Codex CLI Developer Should Know
 

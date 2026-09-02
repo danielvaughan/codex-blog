@@ -5,7 +5,7 @@ timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-token-cost-crisis-microsoft-uber-claude-code-budget-blowouts-codex-cli-cost-defence"
 tags: ["codex-cli", "cost-management", "token-economics", "enterprise", "claude-code", "billing", "budget", "reasoning-effort"]
 date: 2026-06-06T09:00:00+00:00
-last_modified_at: 2026-09-02T02:12:16+01:00
+last_modified_at: 2026-09-02T03:11:17+01:00
 ---
 # The Token Cost Crisis: What Microsoft and Uber's Claude Code Budget Blowouts Teach Every Codex CLI Team About Cost Defence
 
