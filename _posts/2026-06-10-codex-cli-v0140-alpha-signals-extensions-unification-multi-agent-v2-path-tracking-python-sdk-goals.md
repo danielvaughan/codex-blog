@@ -5,7 +5,7 @@ timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-codex-cli-v0140-alpha-signals-extensions-unification-multi-agent-v2-path-tracking-python-sdk-goals"
 tags: ["codex-cli", "v0.140", "alpha", "extensions", "multi-agent-v2", "python-sdk", "goals", "mcp", "streamable-http", "architecture"]
 date: 2026-06-10T09:00:00+00:00
-last_modified_at: 2026-09-02T06:12:13+01:00
+last_modified_at: 2026-09-02T08:17:51+01:00
 ---
 # Codex CLI v0.140 Alpha Signals: Extensions Unification, Multi-Agent v2 Path Tracking, and Python SDK Goal Routing
 

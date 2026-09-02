@@ -6,7 +6,7 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-architecture-diagrams-mermaid-c4-plantuml-source-code-visualisation"
 tags: ["workflow-patterns", "agents-md", "codex-exec", "skills", "mcp", "ci-cd", "architecture"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-09-02T06:12:13+01:00
+last_modified_at: 2026-09-02T08:17:51+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Generating Architecture Diagrams from Source Code: Mermaid, C4, and PlantUML Visualisation Workflows](/sketchnotes/articles/2026-05-13-codex-cli-architecture-diagrams-mermaid-c4-plantuml-source-code-visualisation.png)
 

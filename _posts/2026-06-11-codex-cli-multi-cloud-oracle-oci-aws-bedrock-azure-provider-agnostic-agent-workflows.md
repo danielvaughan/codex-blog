@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-codex-cli-multi-cloud-oracle-oci-aws-bedrock-azure-provider-agnostic-agent-workflows"
 tags: ["codex-cli", "multi-cloud", "oracle-oci", "aws-bedrock", "azure", "model-providers", "enterprise", "configuration"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-09-02T06:12:13+01:00
+last_modified_at: 2026-09-02T08:17:51+01:00
 ---
 # Codex CLI Goes Multi-Cloud: Oracle OCI Joins AWS Bedrock and Azure, and What Provider-Agnostic Agent Workflows Look Like in Practice
 

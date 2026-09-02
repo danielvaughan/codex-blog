@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-duckdb-motherduck-analytical-sql-mcp-agent-data-workflows"
 tags: ["codex-cli", "duckdb", "motherduck", "mcp", "analytical-sql", "data-engineering", "agent-skills", "ducklake"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-02T06:12:13+01:00
+last_modified_at: 2026-09-02T08:17:51+01:00
 ---
 # Codex CLI for DuckDB and MotherDuck: MCP-Driven Analytical SQL, Agent Skills, and Data Pipeline Workflows
 
