@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-microservices-cross-service-development-multi-repo-patterns"
 tags: ["codex-cli", "microservices", "multi-repo", "cross-service", "subagents", "agents-md", "distributed-systems"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Microservices: Cross-Service Development, Multi-Repo Patterns, and Distributed Workflows](/sketchnotes/articles/2026-04-26-codex-cli-microservices-cross-service-development-multi-repo-patterns.png)
 

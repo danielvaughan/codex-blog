@@ -5,7 +5,7 @@ timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-ruby-on-rails-development-mcp-servers-rubydex-railsinsight-agent-workflows"
 tags: ["codex-cli", "ruby", "rails", "mcp", "rubydex", "railsinsight", "agent-workflows", "convention-over-configuration"]
 date: 2026-05-24T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 ---
 # Codex CLI for Ruby on Rails Development: Rubydex, RailsInsight, and Convention-Aware Agent Workflows
 

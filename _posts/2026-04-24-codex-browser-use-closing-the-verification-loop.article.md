@@ -2,7 +2,7 @@
 title: "Codex Can See What It Builds: How Browser Use Closes the Verification Loop"
 description: "From Experiment to Enterprise: The Agentic Engineering Playbook — Supplementary Article This article examines how Codex's in-app browser and visual."
 date: 2026-04-24T17:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 tags:
   - codex-app
   - browser-use

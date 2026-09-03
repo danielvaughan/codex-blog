@@ -5,7 +5,7 @@ timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-june-2026-model-sunset-gpt52-gpt52codex-migration-checklist"
 tags: ["models", "migration", "deprecation", "gpt-5.2", "gpt-5.5", "config", "ci-cd", "enterprise"]
 date: 2026-06-01T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 ---
 # The June–July 2026 Model Sunset: Migrating from GPT-5.2 and GPT-5.2-Codex in Your Codex CLI Workflows
 

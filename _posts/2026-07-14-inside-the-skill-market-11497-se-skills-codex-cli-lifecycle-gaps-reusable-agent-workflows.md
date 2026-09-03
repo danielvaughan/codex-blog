@@ -1,7 +1,7 @@
 ---
 title: "Inside the Skill Market: What 11,497 SE Skills Reveal About the Gaps in Our Agent Workflows — and How to Fill Them with Codex CLI"
 date: 2026-07-14T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 tags: ["codex-cli", "skills", "SKILL.md", "agent-skills", "software-engineering", "lifecycle-coverage", "skill-market", "reusable-workflows"]
 ---
 

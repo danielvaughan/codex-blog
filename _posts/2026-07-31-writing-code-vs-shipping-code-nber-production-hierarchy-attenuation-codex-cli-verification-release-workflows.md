@@ -1,7 +1,7 @@
 ---
 title: "Writing Code vs. Shipping Code: What the NBER Production Hierarchy Study Means for Your Codex CLI Release Workflows"
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 tags: ["codex-cli", "nber", "productivity", "production-hierarchy", "verification", "release-workflows", "auto-review", "approval-policy"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Clarification Seeking Amplifies Prompt Injection: What ASPI Reveals About the Ask-Before-Acting Paradox — and How Codex CLI's Approval Architecture Defends Against It"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 tags: ["security", "prompt-injection", "clarification", "approval-policy", "ASPI", "PreToolUse", "sandbox", "agent-safety"]
 ---
 

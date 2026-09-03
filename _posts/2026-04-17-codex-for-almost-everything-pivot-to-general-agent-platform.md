@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-for-almost-everything-pivot-to-general-agent-platform"
 tags: ["codex-for-everything", "superapp", "computer-use", "atlas-browser", "platform-positioning", "strategic", "general-agent", "langraph", "langchain", "crewai", "agent-frameworks", "harness-engineering", "rpa-replacement"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 ---
 ![Sketchnote diagram for: Codex For Almost Everything: OpenAI's Pivot from Coding Tool to General Agent Platform](/sketchnotes/articles/2026-04-17-codex-for-almost-everything-pivot-to-general-agent-platform.png)
 

@@ -5,7 +5,7 @@ timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-agent-memory-persistence-patterns-long-term-memory-stores-rag-beyond-context-compaction"
 tags: ["agent-memory", "rag", "knowledge-graph", "codex-cli", "mem0", "graphiti", "letta", "langmem", "mcp"]
 date: 2026-05-29T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 ---
 # Agent Memory Persistence Patterns: Long-Term Memory Stores, RAG for Agents, and Beyond Context Compaction
 

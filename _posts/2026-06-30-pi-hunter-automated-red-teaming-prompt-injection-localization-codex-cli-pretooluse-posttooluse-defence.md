@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-pi-hunter-automated-red-teaming-prompt-injection-localization-codex-cli-pretooluse-posttooluse-defence"
 tags: ["codex-cli", "prompt-injection", "red-teaming", "PI-Hunter", "security", "PreToolUse", "PostToolUse", "hooks", "defence-in-depth", "MCP", "agent-security", "automated-auditing"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 ---
 # PI-Hunter and the Latent Injection Problem: Automated Red-Teaming That Finds What Your Defences Miss — and How to Harden Codex CLI
 

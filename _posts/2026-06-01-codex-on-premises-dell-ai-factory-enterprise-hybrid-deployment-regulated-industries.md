@@ -5,7 +5,7 @@ timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-on-premises-dell-ai-factory-enterprise-hybrid-deployment-regulated-industries"
 tags: ["codex", "enterprise", "on-premises", "dell", "hybrid-deployment", "regulated-industries", "requirements-toml", "managed-configuration"]
 date: 2026-06-01T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 ---
 # Codex On-Premises: The Dell AI Factory Partnership and What It Means for Regulated Enterprise Teams
 

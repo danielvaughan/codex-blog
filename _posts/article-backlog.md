@@ -1,5 +1,12 @@
 # Article Backlog
 
+## MCP Failure Actionability Audit — isError Recovery, on_mcp_tool_result Hook (2026-09-03 Hourly Article Run)
+
+1. ✅ **The MCP Failure Gap: Why isError:true Is Rarely Enough — and How Codex CLI's on_mcp_tool_result Hook Bridges It** — Written 2026-09-03 → `2026-09-03-mcp-failure-actionability-audit-isError-recovery-codex-cli-on-mcp-tool-result.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Rishabh Mehan (arXiv:2609.00072, September 2026) "Can MCP Clients Decide What to Do After Failure? A Result-Only Actionability Audit"; 21 deliberately-induced failures across 10 production MCP servers; six-coordinate DPCTER actionability profile (Detection, Policy, Cause, Target, Executable Repair, Replay Constraints); typed-fields-only: D 86%, P 38%, C/T/E/R all 0%; text-assisted: D 100%, P 91%, C 91%, T 86%, E/R still 0%; prose carries diagnostic info but requires semantic interpretation; model stress test 840 decisions: structured JSON action 95/105 (Llama) vs prose 105/105 (Llama) / 30/105 (Qwen); executable repair absent in all 21 cases; fail-closed prototype: error envelope with schema/code/target/policy/retry/sideEffects fields; deterministic recovery of all 21 controlled scenarios; MCP spec (2026-07-28) has no standard error code field; Codex CLI mapping: on_mcp_tool_result hook (v0.151.0) intercepts before model sees result — pattern-match prose to inject DPCTER envelope; per-tool output_token_limit (v0.152.0) caps verbose stack traces; AGENTS.md error policy table; server-side Python example with structured error envelope; 5 citations; ~1,350 words
+
+---
+
 ## Continuous Autonomous Refactoring — ICSME 2026 Roadmap, Codex CLI Implementation (2026-09-03 Hourly Article Run)
 
 1. ✅ **Continuous Autonomous Refactoring: What the ICSME 2026 Roadmap Demands — and How Codex CLI Delivers It Today** — Written 2026-09-03 → `2026-09-03-continuous-autonomous-refactoring-icsme-2026-roadmap-codex-cli.md`

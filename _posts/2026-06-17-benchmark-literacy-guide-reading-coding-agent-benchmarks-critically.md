@@ -5,7 +5,7 @@ timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-benchmark-literacy-guide-reading-coding-agent-benchmarks-critically"
 tags: ["codex-cli", "benchmarks", "swe-bench", "terminal-bench", "kilobench", "codescalebench", "evaluation", "model-selection"]
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-09-03T00:12:21+01:00
+last_modified_at: 2026-09-03T02:12:24+01:00
 ---
 # Benchmark Literacy: A Practitioner's Guide to Reading Coding Agent Benchmarks Critically
 
