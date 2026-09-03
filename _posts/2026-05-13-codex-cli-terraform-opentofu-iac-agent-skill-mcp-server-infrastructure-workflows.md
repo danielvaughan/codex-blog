@@ -6,7 +6,7 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-terraform-opentofu-iac-agent-skill-mcp-server-infrastructure-workflows"
 tags: ["codex-cli", "terraform", "opentofu", "infrastructure-as-code", "mcp", "agent-skills", "iac", "devops"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-09-03T20:11:01+01:00
+last_modified_at: 2026-09-03T22:11:22+01:00
 ---
 ![Sketchnote diagram for: Infrastructure as Code with Codex CLI: The Terraform Skill, HashiCorp MCP Server, and Agent-Driven IaC Workflows](/sketchnotes/articles/2026-05-13-codex-cli-terraform-opentofu-iac-agent-skill-mcp-server-infrastructure-workflows.png)
 

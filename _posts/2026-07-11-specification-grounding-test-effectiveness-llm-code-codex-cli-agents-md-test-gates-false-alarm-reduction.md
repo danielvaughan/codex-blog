@@ -1,7 +1,7 @@
 ---
 title: "Specification Grounding and the +38-Point Test Gap: Why Your Codex CLI Test Gates Need Enumerated Rules, Not More Tests"
 date: 2026-07-11T09:00:00+00:00
-last_modified_at: 2026-09-03T20:11:01+01:00
+last_modified_at: 2026-09-03T22:11:22+01:00
 tags: ["codex-cli", "specification-grounding", "testing", "AGENTS.md", "hooks", "test-driven-development", "false-alarm-reduction", "code-quality"]
 ---
 

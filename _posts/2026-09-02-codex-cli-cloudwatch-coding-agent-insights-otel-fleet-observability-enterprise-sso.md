@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Fleet Observability: CloudWatch Coding Agent Insights, OTel Bearer Tokens, and Enterprise SSO Rollout"
 date: 2026-09-02T17:00:00+00:00
-last_modified_at: 2026-09-03T20:11:01+01:00
+last_modified_at: 2026-09-03T22:11:22+01:00
 tags: ["codex-cli", "observability", "opentelemetry", "cloudwatch", "amazon-bedrock", "enterprise", "sso", "metrics"]
 ---
 

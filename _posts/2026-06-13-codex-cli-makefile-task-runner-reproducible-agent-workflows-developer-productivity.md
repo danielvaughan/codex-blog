@@ -5,7 +5,7 @@ timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-codex-cli-makefile-task-runner-reproducible-agent-workflows-developer-productivity"
 tags: ["codex-cli", "makefile", "task-runner", "automation", "codex-exec", "developer-productivity", "ci-cd", "profiles", "reproducibility"]
 date: 2026-06-13T09:00:00+00:00
-last_modified_at: 2026-09-03T20:11:01+01:00
+last_modified_at: 2026-09-03T22:11:22+01:00
 ---
 # Makefile-Driven Codex CLI: Wrapping Agent Tasks in Reproducible Build Targets
 

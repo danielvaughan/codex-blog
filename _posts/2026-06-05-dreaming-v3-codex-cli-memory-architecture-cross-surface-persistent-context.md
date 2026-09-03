@@ -6,7 +6,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-dreaming-v3-codex-cli-memory-architecture-cross-surface-persistent-context"
 tags: ["codex", "dreaming-v3", "memories", "chronicle", "cross-surface", "memory-architecture", "persistent-context", "developer-workflows"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-03T20:11:01+01:00
+last_modified_at: 2026-09-03T22:11:22+01:00
 ---
 # Dreaming V3 and the Codex CLI Memory Stack: What the New Cross-Surface Memory Architecture Means for Developer Workflows
 

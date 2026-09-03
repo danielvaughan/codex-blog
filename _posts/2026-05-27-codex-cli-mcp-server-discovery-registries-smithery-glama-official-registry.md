@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-mcp-server-discovery-registries-smithery-glama-official-registry"
 tags: ["codex-cli", "mcp", "mcp-registry", "smithery", "glama", "tool-discovery", "config-toml", "mcpfinder", "server-discovery"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-09-03T20:11:01+01:00
+last_modified_at: 2026-09-03T22:11:22+01:00
 ---
 # Codex CLI and MCP Server Discovery: Navigating Registries, Smithery, Glama, and the Official MCP Registry
 

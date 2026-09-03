@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-backstage-mcp-developer-portal-golden-path-templates-catalog-integration"
 tags: ["codex-cli", "backstage", "mcp", "developer-portal", "platform-engineering", "golden-paths", "software-templates", "catalog"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-09-03T20:11:01+01:00
+last_modified_at: 2026-09-03T22:11:22+01:00
 ---
 ![Sketchnote diagram for: Codex CLI with Backstage MCP: Developer Portal Integration, Golden Path Templates, and Catalog-Driven Workflows](/sketchnotes/articles/2026-05-17-codex-cli-backstage-mcp-developer-portal-golden-path-templates-catalog-integration.png)
 

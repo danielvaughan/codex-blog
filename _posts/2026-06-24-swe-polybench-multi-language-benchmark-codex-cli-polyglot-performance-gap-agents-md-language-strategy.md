@@ -6,7 +6,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-swe-polybench-multi-language-benchmark-codex-cli-polyglot-performance-gap-agents-md-language-strategy"
 tags: ["codex-cli", "benchmarks", "SWE-PolyBench", "multi-language", "polyglot", "AGENTS.md", "JavaScript", "TypeScript", "Java", "performance"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-03T20:11:01+01:00
+last_modified_at: 2026-09-03T22:11:22+01:00
 ---
 # SWE-PolyBench and the Polyglot Performance Gap: What Multi-Language Benchmarks Reveal About Codex CLI's Real-World Effectiveness
 
