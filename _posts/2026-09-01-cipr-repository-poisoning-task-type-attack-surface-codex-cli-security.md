@@ -1,7 +1,7 @@
 ---
 title: "The Silent Attack Surface: How CIPR Reveals That Task Type — Not Just Payload — Determines Repository Poisoning Risk in Codex CLI"
 date: 2026-09-01T11:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 tags: ["codex-cli", "security", "repository-poisoning", "sandbox", "approval_policy", "PreToolUse", "AGENTS.md", "prompt-injection"]
 ---
 

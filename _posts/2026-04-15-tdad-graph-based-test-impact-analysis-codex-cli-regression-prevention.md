@@ -6,7 +6,7 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-tdad-graph-based-test-impact-analysis-codex-cli-regression-prevention"
 tags: ["tdad", "test-impact-analysis", "regression-prevention", "agent-skills", "swe-bench", "ast", "graph-rag", "codex-cli", "testing"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 ---
 ![Sketchnote diagram for: TDAD and Graph-Based Test Impact Analysis: Cutting Codex CLI Regressions by 70%](/sketchnotes/articles/2026-04-15-tdad-graph-based-test-impact-analysis-codex-cli-regression-prevention.png)
 

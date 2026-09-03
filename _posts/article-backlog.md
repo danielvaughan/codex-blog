@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Geometric Agent Degradation — Long-Horizon Reliability, Session Design, Codex CLI (2026-09-04 Hourly Article Run)
+
+1. ✅ **How Fast Do Agents Rot? Geometric Degradation in Long-Horizon LLM Agents — and What It Means for Codex CLI Session Design** — Written 2026-09-04 → `2026-09-04-how-fast-do-agents-rot-geometric-degradation-law-codex-cli-session-design.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Mittal (arXiv:2609.01660, September 2026) "How Fast Do Agents Rot? An Empirical Study of Long-Horizon Degradation in LLM Agents for Production Decision-Making"; 9 models (6 open 1.2B–671B, 3 proprietary), 4 task families including agentic tool-use loop, 5 horizons, 3 context regimes, 10,664 trajectories; core finding: task success follows geometric law P(n)=p^n; every model falls near-perfect→near-zero within 16 steps; at p=0.95: P(10)=59.9%, P(20)=35.8%, P(100)<1%; context restriction steepens degradation (logit slope -0.69 vs -0.44, p=3×10⁻⁶); GAIA-length benchmark reliability 0.42 vs 100-step production 0.24; Codex CLI mapping: max_turns ceiling, plan mode decomposition, PostToolUse verification gates, codex exec resume segmentation, rollout_budget bounding; companion work: agent lifespan taxonomy (2605.26302), ReliabilityBench (2601.06112), beyond pass@1 (2603.29231); 6 citations; ~1,100 words
+
+---
+
 ## SilentProbe — Silent Failure in Production APIs, OpenAPI Schema, MCP Tool Design (2026-09-03 Hourly Article Run)
 
 1. ✅ **SilentProbe: The HTTP 200 Problem — When Production APIs Lie to Your Codex CLI Agent** — Written 2026-09-03 → `2026-09-03-silentprobe-silent-failure-production-apis-mcp-codex-cli.md`

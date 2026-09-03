@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-codex-cli-open-source-maintainers-automated-triage-pr-review-release-notes-workflows"
 tags: ["codex-cli", "open-source", "maintainer-workflows", "issue-triage", "pr-review", "release-notes", "automations", "codex-exec", "github-action"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 ---
 # Codex CLI for Open Source Maintainers: Automated Triage, PR Review, and Release Note Workflows
 

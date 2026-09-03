@@ -1,7 +1,7 @@
 ---
 title: "Egress Gates and the Prompt Data Boundary: How Hamza Closes the Gap Codex CLI's Built-In Redaction Cannot"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 tags: ["codex-cli", "security", "secrets", "egress-gate", "hamza", "proxy", "presidio", "enterprise", "data-protection", "audit"]
 ---
 

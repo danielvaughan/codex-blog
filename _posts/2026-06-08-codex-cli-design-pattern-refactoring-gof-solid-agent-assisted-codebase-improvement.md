@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-design-pattern-refactoring-gof-solid-agent-assisted-codebase-improvement"
 tags: ["codex-cli", "design-patterns", "refactoring", "GoF", "SOLID", "clean-architecture", "agents-md", "hooks", "skills", "code-quality", "architecture"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 ---
 # Codex CLI for Design Pattern Refactoring: Agent-Assisted GoF Patterns, SOLID Enforcement, and Architectural Improvement
 

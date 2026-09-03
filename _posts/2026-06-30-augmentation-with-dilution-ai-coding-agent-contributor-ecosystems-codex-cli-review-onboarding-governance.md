@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-augmentation-with-dilution-ai-coding-agent-contributor-ecosystems-codex-cli-review-onboarding-governance"
 tags: ["codex-cli", "contributor-ecosystems", "augmentation-dilution", "code-review", "newcomer-onboarding", "team-governance", "AGENTS.md", "review-workflows", "open-source"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 ---
 # Augmentation with Dilution: What the First Large-Scale Study of AI Coding Agent Impact on Contributor Ecosystems Means for Codex CLI Teams
 

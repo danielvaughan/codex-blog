@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-csv-batch-processing-spawn-agents-on-csv-parallel-audits"
 tags: ["codex-cli", "subagents", "csv-batch", "spawn_agents_on_csv", "parallel-processing", "automation", "map-reduce"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 ---
 ![Sketchnote diagram for: CSV Batch Processing with spawn_agents_on_csv: Map-Reduce Workflows for Codex CLI](/sketchnotes/articles/2026-04-30-codex-cli-csv-batch-processing-spawn-agents-on-csv-parallel-audits.png)
 

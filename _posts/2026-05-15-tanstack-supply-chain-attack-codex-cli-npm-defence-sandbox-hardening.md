@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-tanstack-supply-chain-attack-codex-cli-npm-defence-sandbox-hardening"
 tags: ["codex-cli", "supply-chain-security", "npm", "tanstack", "sandbox", "ci-cd", "Mini-Shai-Hulud", "CVE-2026-45321"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 ---
 ![Sketchnote diagram for: The TanStack Supply Chain Attack: What Codex CLI Users Need to Know and How to Defend Your Pipeline](/sketchnotes/articles/2026-05-15-tanstack-supply-chain-attack-codex-cli-npm-defence-sandbox-hardening.png)
 

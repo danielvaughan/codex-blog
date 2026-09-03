@@ -5,7 +5,7 @@ timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-ai-regulation-codex-cli-great-american-ai-act-eu-ai-act-enterprise-compliance"
 tags: ["codex-cli", "regulation", "compliance", "enterprise", "EU AI Act", "Great American AI Act", "audit-trail", "governance"]
 date: 2026-06-06T09:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 ---
 # AI Regulation and Codex CLI: The Great American AI Act, EU AI Act Enforcement, and What Enterprise Coding Agent Teams Must Prepare For
 

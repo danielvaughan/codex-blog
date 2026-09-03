@@ -6,7 +6,7 @@ timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-python-modernisation-uv-ruff-ty-astral-toolchain-migration"
 tags: ["codex-cli", "python", "uv", "ruff", "ty", "astral", "pyproject.toml", "modernisation", "ci", "migration"]
 date: 2026-05-18T09:00:00+00:00
-last_modified_at: 2026-09-03T22:11:22+01:00
+last_modified_at: 2026-09-04T00:13:32+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Python Project Modernisation: Migrating to uv, Ruff, and ty with Automated Auditing and CI Enforcement](/sketchnotes/articles/2026-05-18-codex-cli-python-modernisation-uv-ruff-ty-astral-toolchain-migration.png)
 
