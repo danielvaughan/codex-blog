@@ -5,7 +5,7 @@ timestamp: 2026-06-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-28-neutral-prompting-attacks-stealthy-hallucination-steering-codex-cli-skills-packmonitor-supply-chain-defence"
 tags: ["codex-cli", "neutral-prompting-attack", "supply-chain-security", "package-hallucination", "slopsquatting", "agent-skills", "pretooluse-hooks", "packmonitor", "dependency-verification"]
 date: 2026-06-28T09:00:00+00:00
-last_modified_at: 2026-09-03T02:12:24+01:00
+last_modified_at: 2026-09-03T04:08:44+01:00
 ---
 # Neutral Prompting Attacks: When Your Codex CLI Skills Become the Supply Chain Weapon — and Three Defences That Close the Gap
 

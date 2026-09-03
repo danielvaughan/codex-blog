@@ -1,7 +1,7 @@
 ---
 title: "SWE-RPG: Implicit Requirements Are the Main Bottleneck for Coding Agents — and Codex CLI Pays the Highest Price"
 date: 2026-09-01T22:00:00+00:00
-last_modified_at: 2026-09-03T02:12:24+01:00
+last_modified_at: 2026-09-03T04:08:44+01:00
 tags: ["codex-cli", "benchmarks", "requirement-clarification", "AGENTS.md", "evaluation", "SWE-bench", "coding-agents"]
 ---
 

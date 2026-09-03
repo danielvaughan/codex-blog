@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-antigravity-2-vs-codex-cli-google-io-2026-competitive-landscape"
 tags: ["codex-cli", "google-antigravity", "antigravity-2", "google-io-2026", "comparison", "subagents", "scheduled-tasks", "sandbox-security", "gemini-3-5-flash"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-03T02:12:24+01:00
+last_modified_at: 2026-09-03T04:08:44+01:00
 ---
 ![Sketchnote diagram for: Antigravity 2.0 vs Codex CLI: What the Google I/O 2026 Upgrade Changes in the Competitive Landscape](/sketchnotes/articles/2026-05-19-antigravity-2-vs-codex-cli-google-io-2026-competitive-landscape.png)
 

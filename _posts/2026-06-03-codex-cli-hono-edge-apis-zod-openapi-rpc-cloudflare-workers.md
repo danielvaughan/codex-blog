@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-hono-edge-apis-zod-openapi-rpc-cloudflare-workers"
 tags: ["codex-cli", "hono", "cloudflare-workers", "edge", "openapi", "zod", "rpc", "typescript", "mcp", "wrangler"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-09-03T02:12:24+01:00
+last_modified_at: 2026-09-03T04:08:44+01:00
 ---
 # Codex CLI for Hono.js: Building Type-Safe Edge APIs with Zod OpenAPI, RPC, and Cloudflare Workers
 

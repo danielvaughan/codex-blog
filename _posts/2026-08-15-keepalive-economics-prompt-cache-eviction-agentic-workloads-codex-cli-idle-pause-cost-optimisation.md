@@ -1,7 +1,7 @@
 ---
 title: "Keepalive Economics: What Prompt Cache Eviction During Idle Pauses Costs Your Codex CLI Sessions — and How to Stop Bleeding Tokens"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-09-03T02:12:24+01:00
+last_modified_at: 2026-09-03T04:08:44+01:00
 tags: ["codex-cli", "prompt-caching", "cache-eviction", "keepalive", "token-economics", "cost-optimisation", "agentic-workloads", "prefix-cache", "TTL"]
 ---
 

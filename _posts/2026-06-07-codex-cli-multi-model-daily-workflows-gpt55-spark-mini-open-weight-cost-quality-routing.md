@@ -5,7 +5,7 @@ timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-codex-cli-multi-model-daily-workflows-gpt55-spark-mini-open-weight-cost-quality-routing"
 tags: ["codex-cli", "model-routing", "gpt-5.5", "gpt-5.4-mini", "codex-spark", "open-weight", "cost-optimisation", "multi-model", "config-toml", "profiles", "subagents"]
 date: 2026-06-07T09:00:00+00:00
-last_modified_at: 2026-09-03T02:12:24+01:00
+last_modified_at: 2026-09-03T04:08:44+01:00
 ---
 # Multi-Model Daily Workflows with Codex CLI: Routing GPT-5.5, Spark, Mini, and Open-Weight Models for Cost, Speed, and Quality
 

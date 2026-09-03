@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Codex CLI v0.153.0 Stable — TUI Resilience, Guardian Full Access, Experimental Context Management (2026-09-03 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.153.0 Stable: TUI Session Resilience, Guardian Full Access Optimisation, and Experimental Context Management** — Written 2026-09-03 → `2026-09-03-codex-cli-v0153-stable-tui-resilience-guardian-full-access-experimental-context-management.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.153.0 stable released 3 September 2026 (GitHub openai/codex); 50+ PRs consolidated from five alpha builds; TUI offline-state resilience on app-server transport drop (PRs #41911, #41916, #41918): draft, queued input, pastes, attachments preserved; Guardian Full Access bypass eliminates synchronous review + sampler prewarming + background scoring for confirmation-only actions (PRs #42147, #42256); experimental context management mode (`features.context_management.experimental_mode`, disabled by default, Plus/Pro/Pro Lite + Codex backend only, PR #42385) activates token-budget context, history notes, new context tool; Plugin CLI remote marketplace stable (PR #42150) with Git source allowlisting; `tui.auto_recap = false` disables automatic recaps while preserving manual `/recap` (PR #42101); Vim undo (`u`) and redo (`Ctrl+R`) with full draft history (PRs #41941, #42140); enhanced TUI history shows complete patches and individual completed commands (PRs #41893, #42107); MCP account-scoped approvals (PR #42133); rollout compression includes shared histories, `codex exec resume` handles compressed rollouts (PRs #42039, #42135); `tui.disable_paste_burst` replaces top-level key (PR #41976); early rate-limit warning at <50% allowance for Plus/Team (PR #42142); 6 citations; ~1,200 words
+
+---
+
 ## MCP Failure Actionability Audit — isError Recovery, on_mcp_tool_result Hook (2026-09-03 Hourly Article Run)
 
 1. ✅ **The MCP Failure Gap: Why isError:true Is Rarely Enough — and How Codex CLI's on_mcp_tool_result Hook Bridges It** — Written 2026-09-03 → `2026-09-03-mcp-failure-actionability-audit-isError-recovery-codex-cli-on-mcp-tool-result.md`

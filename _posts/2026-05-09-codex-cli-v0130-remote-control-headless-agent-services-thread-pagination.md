@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-v0130-remote-control-headless-agent-services-thread-pagination"
 tags: ["codex-cli", "v0.130", "remote-control", "app-server", "headless", "json-rpc", "thread-pagination", "automation", "integration", "enterprise"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-03T02:12:24+01:00
+last_modified_at: 2026-09-03T04:08:44+01:00
 ---
 ![Sketchnote diagram for: Codex CLI v0.130: Building Headless Agent Services with remote-control and the Thread Pagination API](/sketchnotes/articles/2026-05-09-codex-cli-v0130-remote-control-headless-agent-services-thread-pagination.png)
 

@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-agent-retirement-decommissioning-missing-lifecycle-phase"
 tags: ["agent-lifecycle", "decommissioning", "governance", "codex-cli", "enterprise", "security"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-09-03T02:12:24+01:00
+last_modified_at: 2026-09-03T04:08:44+01:00
 ---
 # Agent Retirement and Decommissioning: The Missing Lifecycle Phase
 
