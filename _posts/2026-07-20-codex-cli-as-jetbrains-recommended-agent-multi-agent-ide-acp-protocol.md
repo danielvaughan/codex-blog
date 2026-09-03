@@ -1,7 +1,7 @@
 ---
 title: "From Terminal to IDE: How Codex CLI Became JetBrains' Recommended Agent — and What Multi-Agent IDEs Mean for Your Workflow"
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 tags: ["codex-cli", "jetbrains", "agent-client-protocol", "acp", "multi-agent-ide", "junie", "claude-agent", "ide-integration", "developer-workflow"]
 ---
 

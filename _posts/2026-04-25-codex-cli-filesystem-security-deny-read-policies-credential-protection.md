@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-filesystem-security-deny-read-policies-credential-protection"
 tags: ["codex-cli", "security", "filesystem", "deny-read", "sandbox", "credentials", "enterprise", "config.toml"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Filesystem Security: Deny-Read Policies, Glob Patterns, and Credential Protection](/sketchnotes/articles/2026-04-25-codex-cli-filesystem-security-deny-read-policies-credential-protection.png)
 

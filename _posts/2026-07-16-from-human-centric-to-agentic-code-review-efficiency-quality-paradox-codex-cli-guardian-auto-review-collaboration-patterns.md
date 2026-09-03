@@ -1,7 +1,7 @@
 ---
 title: "From Human-Centric to Agentic Code Review: What 1.02 Million Pull Requests Reveal About the Efficiency–Quality Paradox — and How to Configure Codex CLI's Guardian to Avoid the Traps"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 tags: ["codex-cli", "code-review", "guardian", "auto-review", "collaboration-patterns", "review-smells", "AI-agent", "efficiency-quality"]
 ---
 

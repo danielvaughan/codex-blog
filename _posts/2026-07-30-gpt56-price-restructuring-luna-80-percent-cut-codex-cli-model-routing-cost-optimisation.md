@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 Price Restructuring: Luna Down 80%, Sol Fast Mode, and What It Means for Your Codex CLI Model Routing"
 date: 2026-07-30T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 tags: ["codex-cli", "gpt-5.6", "pricing", "model-routing", "cost-optimisation", "luna", "terra", "sol", "config.toml", "named-profiles"]
 ---
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-codex-exec-recipes-ten-production-one-liners-ci-cd-automation-senior-developer-toolkit"
 tags: ["codex-cli", "codex-exec", "automation", "ci-cd", "one-liners", "non-interactive", "structured-output", "shell-scripting", "developer-productivity"]
 date: 2026-06-10T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 ---
 # Ten `codex exec` One-Liners Every Senior Developer Should Have in Their Shell History
 

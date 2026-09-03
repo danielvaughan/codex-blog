@@ -5,7 +5,7 @@ timestamp: 2026-07-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-13-patchwork-problem-llm-generated-code-structural-incoherence-codex-cli-graph-verification-posttooluse"
 tags: ["codex-cli", "code-quality", "structural-verification", "static-analysis", "PostToolUse hooks", "AGENTS.md", "patchwork-problem", "dependency-hallucination", "CI pipeline", "july-2026"]
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 ---
 # The Patchwork Problem: Why LLM-Generated Code Compiles, Passes Tests, and Still Breaks — and How to Wire Structural Verification into Codex CLI
 

@@ -1,5 +1,12 @@
 # Article Backlog
 
+## SilentProbe — Silent Failure in Production APIs, OpenAPI Schema, MCP Tool Design (2026-09-03 Hourly Article Run)
+
+1. ✅ **SilentProbe: The HTTP 200 Problem — When Production APIs Lie to Your Codex CLI Agent** — Written 2026-09-03 → `2026-09-03-silentprobe-silent-failure-production-apis-mcp-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Li, Ye, Guo & Dang (Texas A&M / Monid, arXiv:2609.00035, September 2026) "SilentProbe: Measuring Silent Failure in Production APIs Used as Agent Tools"; 2,501 OpenAPI documents, 721,320 parameters audited; 219 live perturbations across 27 vendors via Monid aggregation layer; 192 full agent end-to-end loops; 12 models across 8 families; core finding: machine-checkable constraints yield honest errors in 111/111 cases vs prose-only constraints silent in 44/61 cases (p=2×10⁻¹³); example-only vocabulary 88/88 failures → 0/89 after enum promotion (p=5×10⁻¹³); four silent failure modes: drop, empty, semantic downgrade, coercion; agent behaviour under silent failure: 41% assert false negative, 12% fabricate, 12% detect, 0% repair; 10 perturbation families: enum synonym, case, whitespace, separator, inflection, out-of-vocabulary, format, numeric range, type mismatch, parameter name; Codex CLI mapping: on_mcp_tool_result hook (v0.151.0) retry-with-unfiltered pattern, per-tool output_token_limit (v0.152.0) to detect silent-drop supersets, AGENTS.md zero-result policy, MCP server enum-first schema design; campaign cost <$8 USD; code at github.com/Jasper0122/silentprobe; 6 citations; ~1,350 words
+
+---
+
 ## SNC Profile — What Agentic SWE Benchmarks Measure, Task Demands, Model Selection (2026-09-03 Hourly Article Run)
 
 1. ✅ **What Do Agentic SWE Benchmarks Actually Measure? The SNC Profile Framework — and What It Means for Codex CLI Task Design** — Written 2026-09-03 → `2026-09-03-what-agentic-swe-benchmarks-measure-snc-profile-task-demands-codex-cli.md`

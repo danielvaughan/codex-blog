@@ -5,7 +5,7 @@ timestamp: 2026-06-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-self-harness-autonomous-agent-framework-improvement-codex-cli-agents-md-hooks-iterative-optimisation"
 tags: ["codex-cli", "self-harness", "harness-engineering", "AGENTS.md", "hooks", "iterative-optimisation", "Terminal-Bench", "agent-improvement", "named-profiles"]
 date: 2026-06-21T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 ---
 # Self-Harness: What Autonomous Agent Framework Improvement Means for Codex CLI AGENTS.md and Hook Optimisation
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-the-gravel-path-retrospective-which-stacks-produce-the-best-agent-assisted-outcomes"
 tags: ["gravel-path", "harness-engineering", "codex-cli", "agentic-engineering", "retrospective", "stack-comparison", "agent-roi"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 ---
 # The Gravel Path Retrospective: Which Technology Stacks Produce the Best Agent-Assisted Outcomes
 

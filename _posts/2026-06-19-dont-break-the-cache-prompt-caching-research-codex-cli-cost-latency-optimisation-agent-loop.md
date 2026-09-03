@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-dont-break-the-cache-prompt-caching-research-codex-cli-cost-latency-optimisation-agent-loop"
 tags: ["codex-cli", "prompt-caching", "cost-optimisation", "latency", "agent-loop", "token-economics", "configuration"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 ---
 # Don't Break the Cache: What the Prompt Caching Research Means for Codex CLI Cost and Latency Optimisation
 

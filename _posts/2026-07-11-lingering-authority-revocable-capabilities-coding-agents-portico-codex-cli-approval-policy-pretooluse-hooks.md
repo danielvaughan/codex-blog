@@ -1,7 +1,7 @@
 ---
 title: "Lingering Authority: Why Your Coding Agent Keeps Permissions It No Longer Needs — and What PORTICO, Agent libOS, and Codex CLI's Approval Stack Can Do About It"
 date: 2026-07-11T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 tags: ["codex-cli", "security", "capability-revocation", "PORTICO", "Agent-libOS", "approval-policy", "sandbox", "PreToolUse-hooks", "lingering-authority"]
 ---
 

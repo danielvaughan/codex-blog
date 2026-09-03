@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-api-integration-testing-mock-generation-contract-validation-agent-workflows"
 tags: ["codex-cli", "api-testing", "integration-testing", "mock-generation", "contract-testing", "msw", "wiremock", "nock", "codex-exec", "skills", "structured-output"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for API Integration Testing: Agent-Driven Mock Generation, Contract Validation, and Test Harness Automation](/sketchnotes/articles/2026-05-16-codex-cli-api-integration-testing-mock-generation-contract-validation-agent-workflows.png)
 

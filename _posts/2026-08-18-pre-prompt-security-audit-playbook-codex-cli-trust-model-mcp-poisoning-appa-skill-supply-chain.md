@@ -1,7 +1,7 @@
 ---
 title: "The Pre-Prompt Security Audit: A Practitioner's Playbook for Codex CLI Project Trust, MCP Poisoning, and Skill Supply-Chain Defence"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 tags: ["codex-cli", "security", "pre-prompt", "MCP", "tool-poisoning", "APPA", "supply-chain", "hooks", "trust-model", "premium"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Token-Flow Firewall and Semantic Runtime Auditing: Why Pre-Execution Boundary Inspection Matters for Persistent Coding Agents — and How to Build It with Codex CLI Hooks"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 tags: ["codex-cli", "security", "runtime-auditing", "token-flow-firewall", "PreToolUse", "PostToolUse", "hooks", "persistent-agents", "semantic-firewall", "boundary-inspection"]
 ---
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-reasoning-tiers-model-picker-cli-profiles-cross-surface-consistency"
 tags: ["codex-cli", "reasoning-effort", "model-picker", "named-profiles", "cross-surface", "config-toml", "gpt-5.5", "cost-optimisation", "enterprise"]
 date: 2026-06-15T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 ---
 # Codex CLI Reasoning Tiers: Mapping the June 2026 Model Picker to CLI Profiles for Cross-Surface Consistency
 

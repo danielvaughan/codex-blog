@@ -1,7 +1,7 @@
 ---
 title: "Steer, Don't Solve: What Small Critic Models Mean for Your Codex CLI Guardian and Hook Strategy"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 tags: ["codex-cli", "critic-models", "guardian", "PostToolUse-hooks", "intra-trajectory-feedback", "SWE-bench", "code-agent-steering", "cost-optimisation"]
 ---
 

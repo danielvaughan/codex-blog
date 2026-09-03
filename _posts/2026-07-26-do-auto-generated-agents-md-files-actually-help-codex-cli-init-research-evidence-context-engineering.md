@@ -1,7 +1,7 @@
 ---
 title: "Do Auto-Generated AGENTS.md Files Actually Help? What Four Studies Reveal About /init, Context Bloat, and the Real Cost of Repository Guidance"
 date: 2026-07-26T09:00:00+00:00
-last_modified_at: 2026-09-03T18:12:11+01:00
+last_modified_at: 2026-09-03T20:11:01+01:00
 tags: ["codex-cli", "AGENTS.md", "/init", "context-engineering", "token-cost", "agent-configuration", "research", "CLAUDE.md"]
 ---
 
