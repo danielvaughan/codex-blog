@@ -5,7 +5,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-nist-ai-agent-standards-initiative-codex-cli-compliance-readiness-cosais-identity-authorization"
 tags: ["codex-cli", "NIST", "compliance", "security", "enterprise", "AI agent standards", "COSAiS", "SP 800-53", "identity", "authorization", "requirements.toml"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 # The NIST AI Agent Standards Initiative: What It Means for Codex CLI and Your Compliance Roadmap
 

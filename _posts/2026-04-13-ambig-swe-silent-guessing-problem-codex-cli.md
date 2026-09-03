@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-ambig-swe-silent-guessing-problem-codex-cli"
 tags: ["ambig-swe", "clarification", "non-interactive", "plan-mode", "agents-md", "prompting", "research", "ICLR-2026"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 ![Sketchnote diagram for: The Silent Guessing Problem: Why AI Coding Agents Don't Ask Clarifying Questions and What AMBIG-SWE Means for Codex CLI](/sketchnotes/articles/2026-04-13-ambig-swe-silent-guessing-problem-codex-cli.png)
 

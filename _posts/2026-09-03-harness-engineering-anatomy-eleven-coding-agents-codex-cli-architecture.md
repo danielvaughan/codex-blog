@@ -1,14 +1,14 @@
 ---
 title: "Harness Engineering: What a Source-Code Autopsy of Eleven Coding Agents Reveals About Codex CLI's Architecture"
 date: 2026-09-03T22:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 tags: ["codex-cli", "harness-engineering", "architecture", "research", "safety", "orchestration", "mcp", "extensibility"]
 ---
 
 # Harness Engineering: What a Source-Code Autopsy of Eleven Coding Agents Reveals About Codex CLI's Architecture
 
 
-A 83-page source-code study by Barbaste, Darrigol, Vu, and Wiltberger (Wavestone AI Lab, arXiv:2609.00006) pins eleven production coding harnesses at their July 2026 releases and dissects every one along the same seven subsystems.[^1] The result is the most rigorous cross-system anatomy the discipline has produced: four million lines of Python, TypeScript, and Rust, 13 cross-cutting observations, and a catalogue of 29 recurring design patterns. Codex CLI emerges as the largest system in the corpus — approximately 1.1 million lines of Rust — and the one with the most distinctive safety architecture. What follows is a practitioner's reading of the study's findings as they bear on Codex CLI specifically.
+An 83-page source-code study by Barbaste, Darrigol, Vu, and Wiltberger (Wavestone AI Lab, arXiv:2609.00006) pins eleven production coding harnesses at their July 2026 releases and dissects every one along the same seven subsystems.[^1] The result is the most rigorous cross-system anatomy the discipline has produced: four million lines of Python, TypeScript, and Rust, 13 cross-cutting observations, and a catalogue of 29 recurring design patterns. Codex CLI emerges as the largest system in the corpus — approximately 1.1 million lines of Rust — and the one with the most distinctive safety architecture. What follows is a practitioner's reading of the study's findings as they bear on Codex CLI specifically.
 
 ## What the Study Actually Did
 

@@ -6,7 +6,7 @@ timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-five-million-users-knowledge-work-explosion-cli-power-user-implications"
 tags: ["codex-cli", "knowledge-work", "data-analysis", "codex-exec", "rate-limits", "five-million-users", "openai", "automation", "reports", "spreadsheets", "enterprise"]
 date: 2026-06-02T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 # Codex at Five Million: What the Knowledge-Work Explosion Means for CLI Power Users
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-clojure-development-teams-clojuremcp-repl-driven-agent-workflows"
 tags: ["codex-cli", "clojure", "clojurescript", "mcp", "repl", "nrepl", "clojure-mcp", "clj-kondo", "clojure-lsp", "agents-md", "structural-editing"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Clojure Development Teams: ClojureMCP, REPL-Driven Agent Workflows, and Structural Editing](/sketchnotes/articles/2026-05-23-codex-cli-clojure-development-teams-clojuremcp-repl-driven-agent-workflows.png)
 

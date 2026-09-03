@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-pulumi-infrastructure-as-code-mcp-neo-agent-native-workflows"
 tags: ["codex-cli", "pulumi", "infrastructure-as-code", "mcp", "neo", "agent-native", "devops", "cloud"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Pulumi Infrastructure-as-Code: MCP Server, Neo Delegation, and Agent-Native Workflows](/sketchnotes/articles/2026-05-23-codex-cli-pulumi-infrastructure-as-code-mcp-neo-agent-native-workflows.png)
 

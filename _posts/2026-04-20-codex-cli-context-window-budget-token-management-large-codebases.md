@@ -6,7 +6,7 @@ timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-context-window-budget-token-management-large-codebases"
 tags: ["codex-cli", "context-window", "token-management", "compaction", "monorepo", "subagents", "large-codebase"]
 date: 2026-04-20T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 ![Sketchnote diagram for: The Model Context Window Budget: Practical Token Management for Large Codebases](/sketchnotes/articles/2026-04-20-codex-cli-context-window-budget-token-management-large-codebases.png)
 

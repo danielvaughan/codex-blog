@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-api-documentation-openapi-generation-sdk-scaffolding"
 tags: ["codex-cli", "api-documentation", "openapi", "sdk-generation", "automation", "mcp", "speakeasy", "mintlify", "codex-exec"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Automated API Documentation: OpenAPI Generation, SDK Scaffolding, and Doc-Code Sync](/sketchnotes/articles/2026-04-26-codex-cli-api-documentation-openapi-generation-sdk-scaffolding.png)
 

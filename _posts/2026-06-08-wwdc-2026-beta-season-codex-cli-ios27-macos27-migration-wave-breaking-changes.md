@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-wwdc-2026-beta-season-codex-cli-ios27-macos27-migration-wave-breaking-changes"
 tags: ["codex-cli", "wwdc-2026", "ios-27", "macos-27", "migration", "xcode", "swift", "apple-silicon", "mcp", "xcodebuildmcp"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 # WWDC 2026 Beta Season: Using Codex CLI to Navigate the iOS 27 and macOS 27 Migration Wave
 

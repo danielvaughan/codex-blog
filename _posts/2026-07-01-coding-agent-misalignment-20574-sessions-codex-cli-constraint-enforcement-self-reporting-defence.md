@@ -5,7 +5,7 @@ timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-coding-agent-misalignment-20574-sessions-codex-cli-constraint-enforcement-self-reporting-defence"
 tags: ["codex-cli", "misalignment", "constraint-violation", "self-reporting", "AGENTS.md", "hooks", "approval-policy", "developer-experience", "research"]
 date: 2026-07-01T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 # How Coding Agents Fail Their Users: What 20,574 Sessions Reveal About Misalignment — and How to Defend Codex CLI Workflows
 

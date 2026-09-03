@@ -1,7 +1,7 @@
 ---
 title: "What 220,000 Pull Requests Reveal About Where Coding Agents Actually Excel — and Where They Fall Short"
 date: 2026-08-04T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 tags: ["codex-cli", "agentic-pull-requests", "task-routing", "test-coverage", "AGENTS.md", "PostToolUse", "empirical-study", "software-engineering"]
 ---
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-anthropic-ipo-trillion-dollar-coding-agent-market-codex-cli-multi-provider-strategy"
 tags: ["anthropic", "ipo", "codex-cli", "multi-provider", "market-analysis", "vendor-lock-in", "claude-code", "competitive-strategy"]
 date: 2026-06-06T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 # The Anthropic IPO and the Trillion-Dollar Coding Agent Market: What a \$965 Billion Valuation Means for Codex CLI's Multi-Provider Strategy
 

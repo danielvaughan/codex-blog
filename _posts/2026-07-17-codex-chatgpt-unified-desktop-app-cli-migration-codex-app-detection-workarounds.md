@@ -6,7 +6,7 @@ timestamp: 2026-07-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-17-codex-chatgpt-unified-desktop-app-cli-migration-codex-app-detection-workarounds"
 tags: ["codex-cli", "chatgpt", "desktop-app", "unified-app", "migration", "codex-app", "workarounds", "chatgpt-work"]
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-09-03T10:08:39+01:00
+last_modified_at: 2026-09-03T10:13:06+01:00
 ---
 
 # After the Merger: Navigating the Codex-to-ChatGPT Desktop Unification from the CLI
