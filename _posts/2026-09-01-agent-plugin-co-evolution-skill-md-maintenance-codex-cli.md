@@ -1,7 +1,7 @@
 ---
 title: "The Script–Markdown Coupling Problem: What Empirical Research on Agent Plugin Marketplaces Means for Codex CLI SKILL.md Maintenance"
 date: 2026-09-01T12:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 tags: ["codex-cli", "agent-plugins", "SKILL.md", "plugin-marketplace", "harness-engineering", "co-evolution", "maintenance", "empirical-study"]
 ---
 

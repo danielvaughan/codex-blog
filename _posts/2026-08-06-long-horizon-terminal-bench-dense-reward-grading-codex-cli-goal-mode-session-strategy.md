@@ -1,7 +1,7 @@
 ---
 title: "Long-Horizon-Terminal-Bench: What Dense Reward Grading Reveals About Your Codex CLI Session Strategy"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 tags: ["codex-cli", "benchmarks", "long-horizon", "terminal-bench", "goal-mode", "session-management", "dense-rewards", "token-budgets"]
 ---
 

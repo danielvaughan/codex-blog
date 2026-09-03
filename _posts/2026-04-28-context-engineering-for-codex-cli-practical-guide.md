@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-context-engineering-for-codex-cli-practical-guide"
 tags: ["context-engineering", "codex-cli", "AGENTS.md", "skills", "MCP", "config.toml", "prompt-caching", "harness-engineering"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 ---
 ![Sketchnote diagram for: Context Engineering for Codex CLI: A Practical Guide to Curating What Your Agent Sees](/sketchnotes/articles/2026-04-28-context-engineering-for-codex-cli-practical-guide.png)
 

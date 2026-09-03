@@ -5,7 +5,7 @@ timestamp: 2026-07-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-05-evocode-bench-multi-turn-iterative-coding-agents-codex-cli-goal-mode-workspace-persistence-regression-defence"
 tags: ["codex-cli", "EvoCode-Bench", "multi-turn", "goal-mode", "regression-testing", "workspace-persistence", "PostToolUse-hooks", "benchmarks"]
 date: 2026-07-05T09:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 ---
 
 # EvoCode-Bench Exposes the Multi-Turn Gap: Why Coding Agents Degrade Over Iterative Rounds — and How Codex CLI's Goal Mode, Workspace Persistence, and Hook Gates Defend Against It

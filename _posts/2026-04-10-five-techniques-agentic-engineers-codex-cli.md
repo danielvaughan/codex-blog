@@ -2,7 +2,7 @@
 title: "The 5 Techniques of Top Agentic Engineers (Cole Medin's Framework Applied to Codex CLI)"
 description: "Cole Medin — AI educator, consultant, and one of the more prolific voices in agentic engineering — distilled five techniques that separate the top agentic."
 date: 2026-04-10T06:45:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 tags:
   - agentic-engineering
   - techniques

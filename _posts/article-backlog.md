@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Runtime-Independent Persistent Agents — Enoch Architecture, Codex CLI Continuity (2026-09-03 Hourly Article Run)
+
+1. ✅ **Runtime-Independent Persistent Agents: Separating Agent Identity from Execution — and What It Means for Codex CLI** — Written 2026-09-03 → `2026-09-03-runtime-independent-persistent-agents-enoch-architecture-codex-cli-continuity.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zhao & Zhao (arXiv:2609.00546, University of Washington, September 2026) "Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers"; three-layer architecture: persistent substrate 𝒫ₜ=(Iₜ identity, Mₜ memory, Bₜ versioned body) + replaceable execution ℰₜ=(Rₜ reasoner, Hₜ harness, Dₜ host) + interaction surfaces 𝒮ₜ; six continuity invariants: I1 identity+lineage, I2 memory ancestry, I3 body revision, I4 single-authority epoch, I5 capability visibility, I6 self-description immutability; six-phase migration protocol: quiesce+fence → checkpoint → validate → bind → rehydrate → verify+resume; Enoch reference implementation: 833 core tests + 92 provider tests, CPython 3.12.13, frozen 31 August 2026; five provider surfaces: Chat (Telegram/Slack), Runtime (Codex — sole bundled live reasoner), VCS (Git), Review (GitHub), Service (launchd/systemd); body.yaml + self.json separation principle; Codex CLI mapping: ~/.codex/memory/ as Mₜ approximation, config.toml model pinning as Rₜ substitution knob, codex exec resume as rehydrate+resume approximation, startup_prompt_template as identity assertion injection; gaps: no self.json analogue, no authority epoch, no quiesce primitive, no memory ancestry recording; 5 citations; ~1,200 words
+
+---
+
 ## Codex CLI v0.153.0 Stable — TUI Resilience, Guardian Full Access, Experimental Context Management (2026-09-03 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.153.0 Stable: TUI Session Resilience, Guardian Full Access Optimisation, and Experimental Context Management** — Written 2026-09-03 → `2026-09-03-codex-cli-v0153-stable-tui-resilience-guardian-full-access-experimental-context-management.md`

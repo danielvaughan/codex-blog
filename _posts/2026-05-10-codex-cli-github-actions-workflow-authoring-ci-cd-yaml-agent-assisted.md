@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-github-actions-workflow-authoring-ci-cd-yaml-agent-assisted"
 tags: ["codex-cli", "github-actions", "ci-cd", "workflow-yaml", "automation", "devops"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for GitHub Actions Workflow Authoring: Agent-Assisted CI/CD Configuration, Failure Diagnosis, and Pipeline Optimisation](/sketchnotes/articles/2026-05-10-codex-cli-github-actions-workflow-authoring-ci-cd-yaml-agent-assisted.png)
 

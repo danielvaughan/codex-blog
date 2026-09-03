@@ -1,7 +1,7 @@
 ---
 title: "RealSWE: The 6.4-Point Reality Penalty — What the Benchmark-Prompt Gap Means for Codex CLI Users"
 date: 2026-08-31T22:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 tags: ["codex-cli", "benchmarks", "swe-bench", "prompt-engineering", "agents-md", "harness-engineering", "evaluation"]
 ---
 

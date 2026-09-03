@@ -5,7 +5,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-htmx-hypermedia-driven-development-server-rendered-fragments-agent-workflows"
 tags: ["codex-cli", "htmx", "hypermedia", "server-rendered", "mcp", "agent-workflows", "hateoas", "django", "flask", "go", "alpine-js"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 ---
 # Codex CLI for HTMX and Hypermedia-Driven Development: Server-Rendered Fragments, MCP Tooling, and Agent Workflows
 

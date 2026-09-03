@@ -1,7 +1,7 @@
 ---
 title: "SWE-Bench ProMax: What Multilingual Large-Scale Refactoring Tells Us About Codex CLI's Hardest Workflow"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 tags: ["codex-cli", "benchmarking", "refactoring", "multi-file", "swe-bench", "multilingual", "failure-modes", "agents-md", "hooks"]
 ---
 

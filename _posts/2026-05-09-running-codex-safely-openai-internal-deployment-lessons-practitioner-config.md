@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-running-codex-safely-openai-internal-deployment-lessons-practitioner-config"
 tags: ["codex-cli", "security", "governance", "permissions", "sandbox", "enterprise", "configuration", "openai"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 ---
 ![Sketchnote diagram for: Running Codex Safely: What OpenAI's Internal Deployment Reveals and How to Mirror It in Your Own Config](/sketchnotes/articles/2026-05-09-running-codex-safely-openai-internal-deployment-lessons-practitioner-config.png)
 

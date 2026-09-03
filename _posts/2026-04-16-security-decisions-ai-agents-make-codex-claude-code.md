@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-security-decisions-ai-agents-make-codex-claude-code"
 tags: ["security", "benchmarks", "claude-code", "codex-cli", "agents-md", "cross-model-review", "frameworks", "supply-chain"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 ---
 ![Sketchnote diagram for: The Security Decisions AI Agents Make: What Codex and Claude Code Miss When You Don't Ask](/sketchnotes/articles/2026-04-16-security-decisions-ai-agents-make-codex-claude-code.png)
 

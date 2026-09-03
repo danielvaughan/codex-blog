@@ -6,7 +6,7 @@ timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-codeskill-self-evolving-skill-banks-coding-agents-codex-cli-rl-procedural-skill-management"
 tags: ["codex-cli", "skills", "self-evolving", "reinforcement-learning", "CODESKILL", "skill-bank", "plugins", "AGENTS.md", "procedural-knowledge", "trajectory-learning"]
 date: 2026-07-03T09:00:00+00:00
-last_modified_at: 2026-09-03T04:08:44+01:00
+last_modified_at: 2026-09-03T06:10:37+01:00
 ---
 # CODESKILL and Self-Evolving Skill Banks: What RL-Trained Procedural Skill Management Means for Codex CLI Workflows
 
