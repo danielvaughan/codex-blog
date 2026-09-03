@@ -1,7 +1,7 @@
 ---
 title: "Prompt-Layer Complexity: What Hecate's 52 Metrics Reveal About the Maintenance Burden Traditional Tools Miss — and How to Measure Your Codex CLI Configuration Stack"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-09-03T14:10:54+01:00
+last_modified_at: 2026-09-03T18:12:11+01:00
 tags: ["codex-cli", "complexity-metrics", "prompt-engineering", "AGENTS.md", "hooks", "maintenance", "Hecate", "prompt-as-specification", "LLM-integrated-applications"]
 ---
 

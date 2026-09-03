@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-live-configuration-hot-reload-debug-config-runtime-management"
 tags: ["codex-cli", "config.toml", "live-reload", "debug-config", "profiles", "runtime-configuration", "v0.130", "developer-workflow"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-03T14:10:54+01:00
+last_modified_at: 2026-09-03T18:12:11+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Live Configuration: Hot-Reload, /debug-config, and Runtime Configuration Management](/sketchnotes/articles/2026-05-10-codex-cli-live-configuration-hot-reload-debug-config-runtime-management.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "Refused in Chat, Written in Code: Why Workflow-Level Jailbreaks Bypass Every Model — and Where Codex CLI's Artifact-Aware Defences Stand"
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-09-03T14:10:54+01:00
+last_modified_at: 2026-09-03T18:12:11+01:00
 tags: ["codex-cli", "security", "jailbreak", "workflow-safety", "IDE-agents", "artifact-inspection", "PostToolUse", "sandbox", "auto-review", "defence-in-depth"]
 ---
 

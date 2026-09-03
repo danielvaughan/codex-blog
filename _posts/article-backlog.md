@@ -1,5 +1,12 @@
 # Article Backlog
 
+## SNC Profile — What Agentic SWE Benchmarks Measure, Task Demands, Model Selection (2026-09-03 Hourly Article Run)
+
+1. ✅ **What Do Agentic SWE Benchmarks Actually Measure? The SNC Profile Framework — and What It Means for Codex CLI Task Design** — Written 2026-09-03 → `2026-09-03-what-agentic-swe-benchmarks-measure-snc-profile-task-demands-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Shayanfar, Gallaba & Hassan (arXiv:2609.01271, September 2026) "What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal"; SNC profile = Spread (cross-file edit scope) + Novelty (code unfamiliarity) + Centrality (core vs peripheral components), computed from static repo structure and agent trajectory; 14,922 agent trajectories across 5 benchmarks using 2 model families at 3 scales; every benchmark pair statistically separated on ≥2 SNC axes — nominal labels (bug fix, feature) are unreliable across benchmarks; sparse problem statements → agent scope inflation (larger patches); gold-solution scope inflation → suppressed resolution rates; Claude: success = scope matching (0.17 → 0.54 file-ratio with scale); Qwen: success = scope exceeding (consistent across scales); universal failure mode = insufficient editing relative to task Spread; Codex CLI mapping: internal SNC profiling via git history (files-per-PR as Spread proxy, fan-in as Centrality proxy), AGENTS.md [D]/[M]/[S] template + PreToolUse enforcement hook, benchmark variant selection by SNC profile, o3 routing for high-Centrality low-Spread tasks; data at DeepSoftwareAnalytics/PTA-IRT; 3 citations; ~1,500 words
+
+---
+
 ## HEART Framework — Agent-Native Tool Primitives, ToolFace, Codex CLI Tool Design (2026-09-03 Hourly Article Run)
 
 1. ✅ **Agent-Native Tool Primitives: What the HEART Framework's 84% vs 22% Completion Gap Reveals About LLM Tool Design — and How It Applies to Codex CLI** — Written 2026-09-03 → `2026-09-03-heart-framework-agent-native-tool-primitives-toolface-llm-tool-design-codex-cli.md`

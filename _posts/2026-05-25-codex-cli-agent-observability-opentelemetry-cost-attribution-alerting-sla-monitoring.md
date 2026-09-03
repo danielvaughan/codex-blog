@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-agent-observability-opentelemetry-cost-attribution-alerting-sla-monitoring"
 tags: ["codex-cli", "observability", "opentelemetry", "cost-attribution", "alerting", "sla-monitoring", "enterprise", "grafana", "hooks"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-09-03T14:10:54+01:00
+last_modified_at: 2026-09-03T18:12:11+01:00
 ---
 # Agent Observability for Codex CLI Pipelines: OpenTelemetry, Cost Attribution, and SLA Monitoring
 
