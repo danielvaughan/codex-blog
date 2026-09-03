@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-django-fastapi-python-web-teams-agents-md-testing-workflows"
 tags: ["codex-cli", "django", "fastapi", "python", "AGENTS.md", "testing", "sandbox", "web-development"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-03T12:09:54+01:00
+last_modified_at: 2026-09-03T14:10:54+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Django and FastAPI Teams: AGENTS.md Templates, Sandbox Configuration, and Python Web Development Workflows](/sketchnotes/articles/2026-04-25-codex-cli-django-fastapi-python-web-teams-agents-md-testing-workflows.png)
 

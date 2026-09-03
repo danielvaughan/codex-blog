@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-thread-automation-recipes-scheduled-agent-patterns"
 tags: ["thread-automations", "recipes", "cookbook", "scheduling", "patterns", "daily-workflows", "cron", "codex-cli"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-03T12:09:54+01:00
+last_modified_at: 2026-09-03T14:10:54+01:00
 ---
 ![Sketchnote diagram for: Thread Automation Recipes: 15 Scheduled Agent Patterns for Daily Development](/sketchnotes/articles/2026-04-17-thread-automation-recipes-scheduled-agent-patterns.png)
 

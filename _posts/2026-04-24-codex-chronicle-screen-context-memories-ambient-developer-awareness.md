@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-chronicle-screen-context-memories-ambient-developer-awareness"
 tags: ["codex", "chronicle", "memories", "screen-context", "ambient-awareness", "privacy", "mcp", "open-chronicle", "macOS"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-03T12:09:54+01:00
+last_modified_at: 2026-09-03T14:10:54+01:00
 ---
 ![Sketchnote diagram for: Codex Chronicle and Screen-Context Memories: Ambient Developer Awareness for AI Coding Agents](/sketchnotes/articles/2026-04-24-codex-chronicle-screen-context-memories-ambient-developer-awareness.png)
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-interactive-debugging-coding-agents-debug2fix-adi-codex-cli-subagent-hooks-runtime-investigation"
 tags: ["codex-cli", "debugging", "Debug2Fix", "ADI", "subagent", "PostToolUse", "runtime-analysis", "hooks", "coding-agents"]
 date: 2026-06-21T09:00:00+00:00
-last_modified_at: 2026-09-03T12:09:54+01:00
+last_modified_at: 2026-09-03T14:10:54+01:00
 ---
 # Interactive Debugging for Coding Agents: What Debug2Fix and ADI Mean for Codex CLI Runtime Investigation
 

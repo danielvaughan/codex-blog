@@ -1,5 +1,12 @@
 # Article Backlog
 
+## HEART Framework — Agent-Native Tool Primitives, ToolFace, Codex CLI Tool Design (2026-09-03 Hourly Article Run)
+
+1. ✅ **Agent-Native Tool Primitives: What the HEART Framework's 84% vs 22% Completion Gap Reveals About LLM Tool Design — and How It Applies to Codex CLI** — Written 2026-09-03 → `2026-09-03-heart-framework-agent-native-tool-primitives-toolface-llm-tool-design-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Jin, Wang, Yu, Luo & Wang (arXiv:2609.01736, September 2026) "Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives"; Tool Primitives: LLM-wrapped interfaces with NL invocation replacing rigid JSON schema argument assembly; ToolFace: 25,519-function registry with semantic retrieval at inference time; HEART = Planner + Router + Verifier three-agent pipeline; real-world 50-task evaluation: HEART 84% vs GPT-5.4 20% / Claude-4.6-Sonnet 24% / Gemini-3.1-Pro 22%; ToolBench Pass 75.1%, NESTFUL Full 0.44, τ²-Bench Retail 0.73, ACEBench 86.9%, BFCLv4 Web 86%; frontier model failure = acting not recommending; catalogue degradation 7%-85% as context grows 8K→120K tokens; Codex CLI mapping: MCP description-as-invocation-contract, on_mcp_tool_result normalisation hook (v0.151.0), per-tool output_token_limit (v0.152.0), PostToolUse verification hooks, AGENTS.md inter-tool dependency documentation; 6 citations; ~1,400 words
+
+---
+
 ## Repository Planning Graphs — ICLR 2026 ZeroRepo, CoderMind MCP, Codex CLI Implications (2026-09-03 Hourly Article Run)
 
 1. ✅ **Repository Planning Graphs: How Microsoft's ICLR 2026 Architecture Beats Claude Code on Whole-Codebase Generation — and What It Means for Codex CLI** — Written 2026-09-03 → `2026-09-03-rpg-repository-planning-graph-whole-codebase-generation-codex-cli.md`

@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-openai-codex-python-sdk-v01-complete-api-reference-practical-patterns"
 tags: ["python-sdk", "openai-codex", "async", "sandbox", "thread-api", "codex-cli", "embedding"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-09-03T12:09:54+01:00
+last_modified_at: 2026-09-03T14:10:54+01:00
 ---
 # openai-codex Python SDK v0.1.0b2: Complete API Reference and Practical Patterns
 

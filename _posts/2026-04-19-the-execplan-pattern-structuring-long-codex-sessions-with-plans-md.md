@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-the-execplan-pattern-structuring-long-codex-sessions-with-plans-md"
 tags: ["codex-cli", "planning", "ExecPlan", "PLANS.md", "long-horizon", "AGENTS.md", "durable-memory", "workflow"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-03T12:09:54+01:00
+last_modified_at: 2026-09-03T14:10:54+01:00
 ---
 ![Sketchnote diagram for: The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md](/sketchnotes/articles/2026-04-19-the-execplan-pattern-structuring-long-codex-sessions-with-plans-md.png)
 
