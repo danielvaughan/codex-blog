@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-codex-cli-sdk-maturation-v0130-v0132-programmable-agent-platform"
 tags: ["codex-cli", "python-sdk", "typescript-sdk", "app-server", "automation", "codex-exec", "v0.130", "v0.131", "v0.132", "platform-architecture"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-09-03T08:16:20+01:00
+last_modified_at: 2026-09-03T10:08:39+01:00
 ---
 ![Sketchnote diagram for: Codex CLI's SDK Maturation Arc: How v0.130–v0.132 Turned a Terminal Tool into a Programmable Agent Platform](/sketchnotes/articles/2026-05-20-codex-cli-sdk-maturation-v0130-v0132-programmable-agent-platform.png)
 

@@ -5,7 +5,7 @@ timestamp: 2026-08-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-02-openai-astra-multi-agent-model-long-horizon-codex-cli-formal-verification-lean4-developer-implications"
 tags: ["codex-cli", "openai", "astra", "multi-agent", "long-horizon", "formal-verification", "lean4", "GPT-5.6", "model-architecture", "developer-strategy"]
 date: 2026-08-02T09:00:00+00:00
-last_modified_at: 2026-09-03T08:16:20+01:00
+last_modified_at: 2026-09-03T10:08:39+01:00
 ---
 # OpenAI Astra and the Multi-Agent Horizon: What a Model That Works for Days Means for Codex CLI Developers
 

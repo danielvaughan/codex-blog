@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-mysql-development-mcp-servers-schema-exploration-query-workflows"
 tags: ["codex-cli", "mysql", "mcp", "database", "schema", "query", "mysql-9.7", "mariadb", "aurora"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-09-03T08:16:20+01:00
+last_modified_at: 2026-09-03T10:08:39+01:00
 ---
 # Codex CLI for MySQL Development: MCP Servers, Schema Exploration, and Query Workflows on MySQL 9.7
 

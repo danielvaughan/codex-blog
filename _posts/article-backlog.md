@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Codex CLI v0.152.0 — Vim Search, Per-Tool MCP Token Limits, Planning Tool Opt-In (2026-09-03 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.152.0: Vim Search in Drafts, Per-Tool MCP Token Limits, and the Planning Tool Goes Opt-In** — Written 2026-09-03 → `2026-09-03-codex-cli-v0152-vim-search-mcp-per-tool-token-limits-planning-tool-opt-in.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.152.0 released 1 September 2026 (GitHub openai/codex) was the only recent stable release without a dedicated article; six features: Vim search (/ ? n N with match highlighting, PR #41586), rate-limit banners with actionable options (PR #41742), Bedrock credential refresh progress via modelProvider/authRecoveryStarted + authRecoveryCompleted events (PR #41239), MCP server names expanded to support : @ / . for package-style identifiers with TOML quoting (PR #41700), per-tool output_token_limit in [mcp_servers.X.tools.Y] config (PR #41421) with most-restrictive merge and history persistence, configurable app-server shellCommand timeouts beyond one hour (PR #41384); breaking default change: update_plan tool disabled by default (PR #41744, merged 31 August) — re-enable with [tools.update_plan] enabled = true; companion fix Vim Insert mode on fresh draft (PR #41921); v0.152.1 patch same day fixing Guardian Node REPL policy from model metadata; 6 citations; ~1,100 words
+
+---
+
 ## Harness Engineering — Source-Code Anatomy of Eleven Coding Agents, Codex CLI Architecture (2026-09-03 Hourly Article Run)
 
 1. ✅ **Harness Engineering: What a Source-Code Autopsy of Eleven Coding Agents Reveals About Codex CLI's Architecture** — Written 2026-09-03 → `2026-09-03-harness-engineering-anatomy-eleven-coding-agents-codex-cli-architecture.md`
