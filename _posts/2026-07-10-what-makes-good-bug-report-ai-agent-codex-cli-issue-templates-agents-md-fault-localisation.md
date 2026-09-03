@@ -1,7 +1,7 @@
 ---
 title: "What Makes a Good Bug Report for an AI Agent? Evidence from 37,671 Outcomes — and How to Wire Agent-Optimised Issue Templates into Your Codex CLI Workflow"
 date: 2026-07-10T09:00:00+00:00
-last_modified_at: 2026-09-03T06:10:37+01:00
+last_modified_at: 2026-09-03T08:16:20+01:00
 tags: ["codex-cli", "bug-reports", "automated-repair", "AGENTS.md", "fault-localisation", "issue-templates", "SWE-bench", "ablation-study"]
 ---
 

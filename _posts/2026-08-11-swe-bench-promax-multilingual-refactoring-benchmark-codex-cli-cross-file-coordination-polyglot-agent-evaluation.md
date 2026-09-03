@@ -1,7 +1,7 @@
 ---
 title: "SWE-Bench ProMax and the Multilingual Refactoring Challenge: Why Cross-File Coordination Exposes Coding Agent Limits — and What It Means for Codex CLI Polyglot Workflows"
 date: 2026-08-11T09:00:00+00:00
-last_modified_at: 2026-09-03T06:10:37+01:00
+last_modified_at: 2026-09-03T08:16:20+01:00
 tags: ["swe-bench-promax", "benchmark", "multilingual", "refactoring", "codex-cli", "cross-file", "polyglot", "evaluation"]
 ---
 

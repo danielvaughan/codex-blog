@@ -5,7 +5,7 @@ timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-feature-flags-maturity-stages-experimental-capabilities-v0135"
 tags: ["codex-cli", "feature-flags", "configuration", "experimental", "config-toml", "codex-features", "v0.135"]
 date: 2026-06-01T09:00:00+00:00
-last_modified_at: 2026-09-03T06:10:37+01:00
+last_modified_at: 2026-09-03T08:16:20+01:00
 ---
 # Codex CLI Feature Flags in v0.135: Maturity Stages, the `codex features` Subcommand, and Every Flag That Matters
 

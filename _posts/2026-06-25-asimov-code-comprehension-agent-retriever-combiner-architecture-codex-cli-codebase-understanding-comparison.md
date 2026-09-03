@@ -5,7 +5,7 @@ timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-asimov-code-comprehension-agent-retriever-combiner-architecture-codex-cli-codebase-understanding-comparison"
 tags: ["codex-cli", "asimov", "reflection-ai", "code-comprehension", "retriever-combiner", "codebase-understanding", "agent-architecture", "context-engineering"]
 date: 2026-06-25T09:00:00+00:00
-last_modified_at: 2026-09-03T06:10:37+01:00
+last_modified_at: 2026-09-03T08:16:20+01:00
 ---
 # Asimov and the Comprehension-First Agent: What Reflection AI's Retriever-Combiner Architecture Reveals About Code Understanding — and How Codex CLI Approaches the Same Problem Differently
 

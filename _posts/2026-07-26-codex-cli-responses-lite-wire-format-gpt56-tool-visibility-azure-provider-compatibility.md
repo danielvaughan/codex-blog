@@ -1,7 +1,7 @@
 ---
 title: "Responses Lite Explained: How GPT-5.6's Wire Format Reshapes Tool Dispatch in Codex CLI — and Why Azure Users Hit a Wall"
 date: 2026-07-26T09:00:00+00:00
-last_modified_at: 2026-09-03T06:10:37+01:00
+last_modified_at: 2026-09-03T08:16:20+01:00
 tags: ["codex-cli", "responses-lite", "gpt-5.6", "wire-format", "azure", "tool-dispatch", "code-mode", "provider-compatibility", "enterprise"]
 ---
 

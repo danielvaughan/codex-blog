@@ -5,7 +5,7 @@ timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-tokenpilot-cache-efficient-context-management-codex-cli-prompt-cache-compaction-eviction-cost"
 tags: ["codex-cli", "context-management", "prompt-caching", "token-cost", "compaction", "eviction", "cache-efficiency", "research"]
 date: 2026-07-03T09:00:00+00:00
-last_modified_at: 2026-09-03T06:10:37+01:00
+last_modified_at: 2026-09-03T08:16:20+01:00
 ---
 # TokenPilot and the Cache Invalidation Trap: Why Aggressive Context Pruning Can Cost More — and How to Configure Codex CLI's Compaction for Prompt Cache Efficiency
 
