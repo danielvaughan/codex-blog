@@ -6,7 +6,7 @@ timestamp: 2026-05-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-codex-cli-configurable-tui-keymaps-custom-keyboard-shortcuts"
 tags: ["codex-cli", "config-toml", "tui", "keymaps", "productivity"]
 date: 2026-05-06T09:00:00+00:00
-last_modified_at: 2026-09-03T10:13:06+01:00
+last_modified_at: 2026-09-03T12:09:54+01:00
 ---
 ![Sketchnote diagram for: Configurable TUI Keymaps in Codex CLI: Custom Keyboard Shortcuts for Every Context](/sketchnotes/articles/2026-05-06-codex-cli-configurable-tui-keymaps-custom-keyboard-shortcuts.png)
 

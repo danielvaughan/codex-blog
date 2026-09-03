@@ -5,7 +5,7 @@ timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-featurebench-complex-feature-development-benchmark-codex-cli-agent-planning-cross-file-reasoning"
 tags: ["codex-cli", "featurebench", "benchmarks", "feature-development", "agent-planning", "cross-file-reasoning", "ICLR-2026"]
 date: 2026-06-23T09:00:00+00:00
-last_modified_at: 2026-09-03T10:13:06+01:00
+last_modified_at: 2026-09-03T12:09:54+01:00
 ---
 # FeatureBench and the Feature Gap: Why Your Codex CLI Agent Aces Bug Fixes but Struggles with Complex Features
 

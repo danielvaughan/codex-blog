@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-instruction-stack-six-surfaces-agents-md-rules-hooks-skills"
 tags: ["codex-cli", "configuration", "AGENTS.md", "rules", "hooks", "skills", "requirements-toml", "architecture", "enterprise", "best-practices"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-03T10:13:06+01:00
+last_modified_at: 2026-09-03T12:09:54+01:00
 ---
 ![Sketchnote diagram for: The Codex CLI Instruction Stack: How Six Configuration Surfaces Shape Agent Behaviour](/sketchnotes/articles/2026-05-07-codex-cli-instruction-stack-six-surfaces-agents-md-rules-hooks-skills.png)
 

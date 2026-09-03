@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-workspace-agents-codex-cli-slack-team-shared-agentic-workflows"
 tags: ["codex-cli", "workspace-agents", "slack", "team-workflows", "automation", "enterprise", "codex-app", "cloud-tasks", "pricing"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-03T10:13:06+01:00
+last_modified_at: 2026-09-03T12:09:54+01:00
 ---
 ![Sketchnote diagram for: Workspace Agents and Codex Slack Integration: From CLI Automations to Team-Shared Agentic Workflows](/sketchnotes/articles/2026-04-24-workspace-agents-codex-cli-slack-team-shared-agentic-workflows.png)
 

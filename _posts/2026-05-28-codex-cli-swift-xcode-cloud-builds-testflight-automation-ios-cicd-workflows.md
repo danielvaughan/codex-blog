@@ -5,7 +5,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-swift-xcode-cloud-builds-testflight-automation-ios-cicd-workflows"
 tags: ["codex-cli", "swift", "xcode-cloud", "testflight", "ios", "ci-cd", "mcp", "xcodebuildmcp", "xcodebuild"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-09-03T10:13:06+01:00
+last_modified_at: 2026-09-03T12:09:54+01:00
 ---
 # Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows
 

@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Repository Planning Graphs — ICLR 2026 ZeroRepo, CoderMind MCP, Codex CLI Implications (2026-09-03 Hourly Article Run)
+
+1. ✅ **Repository Planning Graphs: How Microsoft's ICLR 2026 Architecture Beats Claude Code on Whole-Codebase Generation — and What It Means for Codex CLI** — Written 2026-09-03 → `2026-09-03-rpg-repository-planning-graph-whole-codebase-generation-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Luo et al. (Microsoft Research, arXiv:2509.16198, ICLR 2026) "RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation"; companion ICML 2026 paper RPG-Encoder (arXiv:2602.02084); RPG is a hierarchical directed graph unifying proposal-level (module nodes via EpiCoder Feature Tree 1.5M capabilities) and implementation-level planning (file structures, data flows, inter/intra-module edges, input-output constraints); ZeroRepo framework three phases: proposal-level, implementation-level, topological code generation with TDD; RepoCraft benchmark: 6 Python repos (scikit-learn, pandas, sympy, statsmodels, requests, django), 1,052 tasks; results: ZeroRepo (o3-mini) 81.5% coverage, 69.7% pass rate, 23,977 LOC vs Claude Code 54.2%/33.9%/10,587 LOC (+27.3pp coverage, +35.8pp pass rate); human gold 81.0%/81.0%/97,820 LOC; 3.9× larger repos than Claude Code; CoderMind open-source CLI: cmind-cli, MCP tools (search_rpg, explore_rpg, get_node_detail, list_rpg_tree), slash commands (/cmind.feature_construct, /cmind.plan, /cmind.code_gen, /cmind.encode, /cmind.update_rpg, /cmind.rpg_edit); Claude Code ✅ native, GitHub Copilot CLI ✅, Codex CLI ⌛ upcoming; RPG-Encoder reduces incremental update overhead 95.7%; practical Codex mapping: manual MCP wiring today, AGENTS.md dependency-order patterns, inter-module contract discipline, PostToolUse TDD hooks; 6 citations; ~1,250 words
+
+---
+
 ## Codex CLI v0.152.0 — Vim Search, Per-Tool MCP Token Limits, Planning Tool Opt-In (2026-09-03 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.152.0: Vim Search in Drafts, Per-Tool MCP Token Limits, and the Planning Tool Goes Opt-In** — Written 2026-09-03 → `2026-09-03-codex-cli-v0152-vim-search-mcp-per-tool-token-limits-planning-tool-opt-in.md`
