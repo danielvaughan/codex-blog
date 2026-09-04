@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Shift to Agentic AI — Codex Usage Patterns, Skills, Multi-Agent, Productivity (2026-09-04 Hourly Article Run)
+
+1. ✅ **The Shift to Agentic AI: What OpenAI's Own Usage Data Reveals About Codex Workflows in 2026** — Written 2026-09-04 → `2026-09-04-shift-to-agentic-ai-evidence-from-codex-usage-patterns-developer-workflow.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Johnston, Holtz, Richmond, Ong, Tambe & Chatterji (OpenAI / Columbia Business School / Wharton / Duke Fuqua, arXiv:2606.26959, June 25, 2026) "The Shift to Agentic AI: Evidence from Codex"; three-cohort study (individual <1% adoption, organisational 17.3%, OpenAI internal ~100%) Jan–June 2026, 0.1%–4% sample, automated privacy-protecting classifiers; growth: active users 5× in H1 2026; output token share: OpenAI workers 99.8%, org 63.3%, individual 16.5%; task complexity: 2.1%→25.6% submitting 8+ hour tasks (Dec 2025–May 2026), 35.4%→70.2% submitting 1+ hour tasks; concurrent agents: 28.6% of OpenAI workers manage 5+ concurrent; only 10.7% single-workflow; median daily runtime 2.5 hrs, 99th percentile 71 hrs/day (+88% Apr–Jun); skills adoption: 5.4%→26.6% in 3 months, 96.2% among OpenAI workers vs 25.7% individual; productivity: legal 13× output tokens, researchers 50× (Nov 2025–Jun 2026); domain expansion beyond engineering (research, legal, planning, comms); Codex CLI mapping: skills-first workflow (SKILL.md), startup_prompt_template for large task fronting, codex queue + agents dashboard for parallelism, output-token tracking as productivity metric; 14 citations (all same source); ~1,590 words
+
+---
+
 ## GPT-6 Astra — Codex CLI Integration, Critical Cyber Threshold, Pricing (2026-09-04 Hourly Article Run)
 
 1. ✅ **GPT-6 Astra in Codex CLI: 1.05M Context, Critical Cyber Threshold, and What the New Model Actually Costs** — Written 2026-09-04 → `2026-09-04-gpt-6-astra-codex-cli-integration-guide-critical-cyber-threshold.md`

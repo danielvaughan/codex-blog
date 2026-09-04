@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.4 Retires from Codex on 31 August: A Migration Checklist for Config, Agents, and Scheduled Tasks"
 date: 2026-08-11T09:00:00+00:00
-last_modified_at: 2026-09-04T03:18:34+01:00
+last_modified_at: 2026-09-04T04:08:55+01:00
 tags: ["codex-cli", "model-deprecation", "gpt-5.4", "gpt-5.6-terra", "gpt-5.6-luna", "migration", "config.toml", "scheduled-tasks", "named-profiles"]
 ---
 

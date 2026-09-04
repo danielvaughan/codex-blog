@@ -6,7 +6,7 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-codex-exec-unix-pipelines-prompt-plus-stdin"
 tags: ["codex-exec", "stdin", "pipelines", "unix-philosophy", "shell-composition", "automation", "output-schema", "structured-output"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-09-04T03:18:34+01:00
+last_modified_at: 2026-09-04T04:08:55+01:00
 ---
 ![Sketchnote diagram for: Codex CLI as a Unix Citizen: Prompt-Plus-Stdin, Shell Pipelines, and Composable Agent Workflows](/sketchnotes/articles/2026-04-15-codex-exec-unix-pipelines-prompt-plus-stdin.png)
 

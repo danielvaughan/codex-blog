@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-agentic-engineering-case-study-four-week-adoption"
 tags: ["codex-cli", "agentic-engineering", "case-study", "workflow", "adoption", "productivity"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-04T03:18:34+01:00
+last_modified_at: 2026-09-04T04:08:55+01:00
 ---
 ![Sketchnote diagram for: I Used This Setup → This Is What Changed: An Agentic Engineering Case Study](/sketchnotes/articles/2026-04-19-agentic-engineering-case-study-four-week-adoption.png)
 

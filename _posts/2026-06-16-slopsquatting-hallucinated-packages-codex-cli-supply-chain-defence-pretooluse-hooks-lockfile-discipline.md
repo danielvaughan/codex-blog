@@ -5,7 +5,7 @@ timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-slopsquatting-hallucinated-packages-codex-cli-supply-chain-defence-pretooluse-hooks-lockfile-discipline"
 tags: ["codex-cli", "slopsquatting", "supply-chain-security", "package-hallucination", "pretooluse-hooks", "lockfile-discipline", "dependency-management", "agent-security"]
 date: 2026-06-16T09:00:00+00:00
-last_modified_at: 2026-09-04T03:18:34+01:00
+last_modified_at: 2026-09-04T04:08:55+01:00
 ---
 # Slopsquatting: How Hallucinated Packages Become Supply Chain Weapons and Five Codex CLI Defences That Stop Them
 

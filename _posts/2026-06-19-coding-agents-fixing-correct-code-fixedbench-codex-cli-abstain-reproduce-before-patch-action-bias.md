@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-coding-agents-fixing-correct-code-fixedbench-codex-cli-abstain-reproduce-before-patch-action-bias"
 tags: ["codex-cli", "fixedbench", "action-bias", "abstain", "reproduce-before-fix", "AGENTS.md", "plan-mode", "PostToolUse", "coding-agents", "SWE-bench"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-09-04T03:18:34+01:00
+last_modified_at: 2026-09-04T04:08:55+01:00
 ---
 # Coding Agents Are "Fixing" Correct Code: What FixedBench Means for Codex CLI Abstain-Before-Patch Discipline
 

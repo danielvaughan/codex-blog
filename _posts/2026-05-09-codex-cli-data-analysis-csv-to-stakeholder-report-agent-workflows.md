@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-data-analysis-csv-to-stakeholder-report-agent-workflows"
 tags: ["codex-cli", "data-analysis", "codex-exec", "structured-output", "AGENTS.md", "skills", "pandas", "workflows"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-04T03:18:34+01:00
+last_modified_at: 2026-09-04T04:08:55+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Data Analysis: From Raw CSV to Stakeholder Report in One Agent Session](/sketchnotes/articles/2026-05-09-codex-cli-data-analysis-csv-to-stakeholder-report-agent-workflows.png)
 

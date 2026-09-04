@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-prdbench-prd-to-code-gap-spec-driven-development-codex-cli"
 tags: ["codex-cli", "benchmarks", "PRDBench", "SWE-bench", "evaluation", "spec-driven-development", "agent-as-judge"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-09-04T03:18:34+01:00
+last_modified_at: 2026-09-04T04:08:55+01:00
 ---
 ![Sketchnote diagram for: PRDBench and the PRD-to-Code Gap: Why Building From Specs Is Harder Than Fixing Bugs](/sketchnotes/articles/2026-05-05-prdbench-prd-to-code-gap-spec-driven-development-codex-cli.png)
 

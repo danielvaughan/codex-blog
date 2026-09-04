@@ -5,7 +5,7 @@ timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-llms-txt-specification-codex-cli-machine-readable-documentation-agent-context"
 tags: ["codex-cli", "llms-txt", "documentation", "mcp", "context7", "agent-context", "developer-experience", "machine-readable"]
 date: 2026-06-06T09:00:00+00:00
-last_modified_at: 2026-09-04T03:18:34+01:00
+last_modified_at: 2026-09-04T04:08:55+01:00
 ---
 # The llms.txt Specification and Codex CLI: Machine-Readable Documentation for Agent-Assisted Development
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-codex-cli-v0142-stable-release-guide-plugin-discovery-token-budgets-delegation-enterprise-proxy"
 tags: ["codex-cli", "release-guide", "v0.142", "plugins", "token-budgets", "delegation", "enterprise-proxy", "MCP", "performance"]
 date: 2026-06-26T09:00:00+00:00
-last_modified_at: 2026-09-04T03:18:34+01:00
+last_modified_at: 2026-09-04T04:08:55+01:00
 ---
 # Codex CLI v0.142 Stable Release Guide: Plugin Discovery, Token Budget Governance, Delegation Modes, and the Enterprise Network Stack
 
