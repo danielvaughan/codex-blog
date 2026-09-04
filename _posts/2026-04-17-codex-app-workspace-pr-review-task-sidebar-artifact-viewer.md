@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-app-workspace-pr-review-task-sidebar-artifact-viewer"
 tags: ["codex-app", "pr-review", "task-sidebar", "artifact-viewer", "workspace", "developer-workflow", "github", "git-integration", "projectless-chats", "26.415"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-04T20:10:59+01:00
+last_modified_at: 2026-09-05T00:11:29+01:00
 ---
 ![Sketchnote diagram for: Inside the Codex App Workspace: PR Review Pane, Task Sidebar, and Artifact Viewer in Platform 26.415](/sketchnotes/articles/2026-04-17-codex-app-workspace-pr-review-task-sidebar-artifact-viewer.png)
 

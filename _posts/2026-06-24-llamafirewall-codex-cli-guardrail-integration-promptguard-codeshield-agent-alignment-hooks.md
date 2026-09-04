@@ -5,7 +5,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-llamafirewall-codex-cli-guardrail-integration-promptguard-codeshield-agent-alignment-hooks"
 tags: ["codex-cli", "llamafirewall", "security", "guardrails", "prompt-injection", "codeshield", "hooks", "agent-security", "meta", "open-source"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-04T20:10:59+01:00
+last_modified_at: 2026-09-05T00:11:29+01:00
 ---
 # LlamaFirewall and Codex CLI: Wiring Meta's Three-Scanner Guardrail into Your Agent's Hook Pipeline
 

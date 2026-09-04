@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-codex-cli-full-auto-deprecation-permission-profiles-trust-flows"
 tags: ["codex-cli", "security", "permissions", "deprecation", "migration", "approval-policy", "sandbox", "trust", "configuration"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-04T20:10:59+01:00
+last_modified_at: 2026-09-05T00:11:29+01:00
 ---
 ![Sketchnote diagram for: The --full-auto Deprecation: Migrating to Codex CLI's Explicit Permission Profiles and Trust Flows](/sketchnotes/articles/2026-05-02-codex-cli-full-auto-deprecation-permission-profiles-trust-flows.png)
 

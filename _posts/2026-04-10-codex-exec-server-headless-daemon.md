@@ -2,7 +2,7 @@
 title: "The codex exec-server Subcommand: Foundation for Headless and Daemon-Mode Codex"
 description: "Since v0.117.0 (March 2026), the Codex CLI codebase has shipped codex-exec-server — a standalone execution server process that cleanly separates the runtime."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-09-04T20:10:59+01:00
+last_modified_at: 2026-09-05T00:11:29+01:00
 type: Technical Article
 timestamp: 2026-04-10T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-codex-exec-server-headless-daemon"

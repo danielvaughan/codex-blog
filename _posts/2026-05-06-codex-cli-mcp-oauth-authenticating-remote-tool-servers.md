@@ -6,7 +6,7 @@ timestamp: 2026-05-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-codex-cli-mcp-oauth-authenticating-remote-tool-servers"
 tags: ["codex-cli", "mcp", "oauth", "authentication", "remote-servers", "security", "streamable-http"]
 date: 2026-05-06T09:00:00+00:00
-last_modified_at: 2026-09-04T20:10:59+01:00
+last_modified_at: 2026-09-05T00:11:29+01:00
 ---
 ![Sketchnote diagram for: Codex CLI MCP OAuth: Authenticating Remote Tool Servers with OAuth 2.1](/sketchnotes/articles/2026-05-06-codex-cli-mcp-oauth-authenticating-remote-tool-servers.png)
 

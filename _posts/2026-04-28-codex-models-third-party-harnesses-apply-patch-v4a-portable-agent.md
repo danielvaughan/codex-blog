@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-codex-models-third-party-harnesses-apply-patch-v4a-portable-agent"
 tags: ["codex-models", "apply-patch", "v4a-diff", "harness-engineering", "warp", "opencode", "responses-api", "third-party-integration"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-09-04T20:10:59+01:00
+last_modified_at: 2026-09-05T00:11:29+01:00
 ---
 ![Sketchnote diagram for: Codex Models in Third-Party Harnesses: apply_patch, V4A Diffs, and Building a Portable Coding Agent](/sketchnotes/articles/2026-04-28-codex-models-third-party-harnesses-apply-patch-v4a-portable-agent.png)
 

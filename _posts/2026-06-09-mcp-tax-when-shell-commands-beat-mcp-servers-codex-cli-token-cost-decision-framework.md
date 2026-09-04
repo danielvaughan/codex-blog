@@ -5,7 +5,7 @@ timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-mcp-tax-when-shell-commands-beat-mcp-servers-codex-cli-token-cost-decision-framework"
 tags: ["codex-cli", "mcp", "token-cost", "shell", "cli", "performance", "architecture", "cost-optimisation"]
 date: 2026-06-09T09:00:00+00:00
-last_modified_at: 2026-09-04T20:10:59+01:00
+last_modified_at: 2026-09-05T00:11:29+01:00
 ---
 # The MCP Tax: When Shell Commands Beat MCP Servers in Codex CLI Workflows
 
