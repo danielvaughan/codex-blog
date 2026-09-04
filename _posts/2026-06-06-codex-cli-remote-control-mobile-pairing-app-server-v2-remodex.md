@@ -5,7 +5,7 @@ timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-codex-cli-remote-control-mobile-pairing-app-server-v2-remodex"
 tags: ["codex-cli", "remote-control", "mobile-pairing", "app-server", "remodex", "security", "e2e-encryption"]
 date: 2026-06-06T09:00:00+00:00
-last_modified_at: 2026-09-04T08:18:49+01:00
+last_modified_at: 2026-09-04T10:09:28+01:00
 ---
 # Codex CLI Remote Control and Mobile Pairing: App-Server v2 RPCs, ChatGPT Mobile, and the Remodex Ecosystem
 

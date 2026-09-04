@@ -1,5 +1,12 @@
 # Article Backlog
 
+## PatchBench — Vulnerability Patching Agents, Memorisation, Codex CLI (2026-09-04 Hourly Article Run)
+
+1. ✅ **PatchBench: Why 1-in-4 Agent Vulnerability Fixes Is a Memorised Patch — and What It Means for Codex CLI** — Written 2026-09-04 → `2026-09-04-patchbench-vulnerability-patching-agents-memorization-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Shen, Li, Mahajan, Tian, Kwon & Chen (arXiv:2609.04075, September 3, 2026) "PatchBench: Evaluating AI Agents for Vulnerability Patching"; 213 tasks, 32 projects, 16 CWEs; 11 agents tested including top AIxCC participants; PoC-only validation inflates solve rates 1.83× on average; top agents 97%+ PoC pass → 56.8–59.2% full solve rate; 25% of repository-level patches are memorised (DiffBLEU > 0.75, 1.1% false omission rate, zero false positives); memorisation doubles vs local-context (11%→25%); Codex + GPT-5.6 Sol tops at 59.2%; Claude Code + Opus 4.8 56.8%; Atlantis AIxCC 48.4%; Buttercup AIxCC 42.7%; RoboDuck AIxCC 29.6%; DiffBLEU = α·BLEU(Δr,Δc) + β·BLEUw(Δr,Δc) + γ·Matchast + δ·Matchdf (α=β=0.3, γ=δ=0.2); three-stage validation: security (directed+undirected fuzzing 33 PoC variants) + sanitiser regression (95.7% avg) + output state (75.5% avg) + unit tests (79.9% avg); 81% Codex patches wrong location (crash stack, not root cause); four failure patterns: incomplete local checks 50.6%, malformed functionality, code deletion, overly broad conditions; budget plateau: $5→$25 yields 2.3pp gain for Codex; 67/213 unsolvable by all 11 agents; Codex CLI mapping: PostToolUse hook three-stage validation, AGENTS.md root-cause comment discipline, model routing strategy, disable_web_search per CVE profile; 2 citations; ~1,350 words
+
+---
+
 ## Invalidation Contracts — Cross-Episode Agent Memory, Cache Eviction, Codex CLI (2026-09-04 Hourly Article Run)
 
 1. ✅ **Invalidation Contracts for Cross-Episode Agent Memory: Why Row-Level Cache Eviction Recovers 32% of Your Token Budget** — Written 2026-09-04 → `2026-09-04-invalidation-contracts-cross-episode-agent-memory-codex-cli.md`

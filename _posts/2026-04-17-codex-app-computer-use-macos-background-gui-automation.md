@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-app-computer-use-macos-background-gui-automation"
 tags: ["computer-use", "macos", "gui-automation", "background-agents", "codex-app", "desktop", "parallel-agents", "accessibility", "testing"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-04T08:18:49+01:00
+last_modified_at: 2026-09-04T10:09:28+01:00
 ---
 ![Sketchnote diagram for: Codex App Computer Use: Background GUI Automation on macOS Without Surrendering Your Desktop](/sketchnotes/articles/2026-04-17-codex-app-computer-use-macos-background-gui-automation.png)
 

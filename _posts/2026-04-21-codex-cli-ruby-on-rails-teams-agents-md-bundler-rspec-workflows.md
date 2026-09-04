@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-ruby-on-rails-teams-agents-md-bundler-rspec-workflows"
 tags: ["language-guide", "agents-md", "ruby", "rails", "codex-cli"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-04T08:18:49+01:00
+last_modified_at: 2026-09-04T10:09:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for Ruby on Rails Teams: AGENTS.md, Bundler Sandboxing, and RSpec Workflows](/sketchnotes/articles/2026-04-21-codex-cli-ruby-on-rails-teams-agents-md-bundler-rspec-workflows.png)
 

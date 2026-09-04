@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-secure-mcp-tunnel-codex-cli-private-server-enterprise-outbound-only-tunnel-client"
 tags: ["codex-cli", "mcp", "enterprise", "security", "tunnel-client", "private-network", "infrastructure"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-09-04T08:18:49+01:00
+last_modified_at: 2026-09-04T10:09:28+01:00
 ---
 ![Sketchnote diagram for: Secure MCP Tunnel: Connecting Codex CLI to Private MCP Servers Without Opening Inbound Ports](/sketchnotes/articles/2026-05-20-secure-mcp-tunnel-codex-cli-private-server-enterprise-outbound-only-tunnel-client.png)
 

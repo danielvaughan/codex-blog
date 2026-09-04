@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-anthropic-eight-agentic-coding-trends-mapped-codex-cli-practitioner-configuration-guide"
 tags: ["codex-cli", "anthropic", "agentic-coding", "trends", "configuration", "orchestration", "delegation", "verification", "context-engineering", "multi-agent"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-09-04T08:18:49+01:00
+last_modified_at: 2026-09-04T10:09:28+01:00
 ---
 # Anthropic's Eight Agentic Coding Trends Mapped to Codex CLI: A Practitioner's Configuration Guide
 
