@@ -1,7 +1,7 @@
 ---
 title: "Inside the Harness: What a Source-Code Study of Eleven Coding Agents Reveals About Codex CLI's Architecture"
 date: 2026-09-02T14:00:00+00:00
-last_modified_at: 2026-09-04T06:09:48+01:00
+last_modified_at: 2026-09-04T08:18:49+01:00
 tags: ["codex-cli", "architecture", "harness-engineering", "design-patterns", "research", "mcp", "skills", "multi-agent", "sandbox"]
 ---
 

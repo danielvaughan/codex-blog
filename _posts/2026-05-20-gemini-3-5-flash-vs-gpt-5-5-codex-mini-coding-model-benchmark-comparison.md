@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-gemini-3-5-flash-vs-gpt-5-5-codex-mini-coding-model-benchmark-comparison"
 tags: ["benchmarks", "models", "gemini", "gpt-5.5", "codex-mini", "google-io-2026", "performance", "pricing"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-09-04T06:09:48+01:00
+last_modified_at: 2026-09-04T08:18:49+01:00
 ---
 ![Sketchnote diagram for: Gemini 3.5 Flash vs GPT-5.5 and codex-mini: Coding Model Benchmark Comparison After Google I/O 2026](/sketchnotes/articles/2026-05-20-gemini-3-5-flash-vs-gpt-5-5-codex-mini-coding-model-benchmark-comparison.png)
 

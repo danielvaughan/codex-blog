@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Invalidation Contracts — Cross-Episode Agent Memory, Cache Eviction, Codex CLI (2026-09-04 Hourly Article Run)
+
+1. ✅ **Invalidation Contracts for Cross-Episode Agent Memory: Why Row-Level Cache Eviction Recovers 32% of Your Token Budget** — Written 2026-09-04 → `2026-09-04-invalidation-contracts-cross-episode-agent-memory-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wu & Canedo (South Dakota State University / Siemens Digital Industries Software, arXiv:2609.00243, August 31, 2026) "Invalidation Contracts for Cross-Episode Agent Memory"; 7 models, 3 serving paths, 2 domains (Payments API, Recipe API), ~9,400 episodes; core contribution: protocol layer with version stamps + cacheability hints decomposing realised savings into validity (protocol-controlled, vendor-independent, deterministic) and compliance (model-dependent); contract schema: cache_hint (cacheable/recompute), table, table_version per suggestion + rules_version fingerprint; 7 protocol levels L0–L6; key finding: table-level invalidation (A2) eviction precision 0.25–0.31, drops post-drift first-try to 0% on 5/7 models; row-level (A2D) eviction precision 1.00 on all 7 models, compliance 100% Haiku 4.5 / 88.9% Sonnet 4.6 / 100% GPT-5-mini / 77.8% Gemini-3.5-flash / 11.1% Sonnet 5 (input-schema conservatism); token savings A2D: +32.5% Haiku 4.5, +32.1% GPT-5-mini, +29.2% Sonnet 4.6, +22.5% Gemini-3.5-flash; payload overhead 15.1% (123 bytes/817-byte response); Codex CLI mapping: on_mcp_tool_result hook (v0.151.0) as enforcement point, ~/.codex/memory/ as episode-boundary substrate, row-key identity by {table}:{row_key}, model routing by compliance preflight, MCP server augmentation pattern with cache_hint/table/table_version fields; input-schema conservatism ceiling: no protocol level crosses it for Claude Sonnet 5 add-a-field; 3 citations; ~1,465 words
+
+---
+
 ## SWE-Gate — Review Constraints, Hidden Failures, Codex CLI (2026-09-04 Hourly Article Run)
 
 1. ✅ **SWE-Gate: Why 34% of Your Agent's 'Fixed' Patches Are Wrong — and How to Catch Them in Codex CLI** — Written 2026-09-04 → `2026-09-04-swe-gate-review-constraints-hidden-failures-codex-cli.md`

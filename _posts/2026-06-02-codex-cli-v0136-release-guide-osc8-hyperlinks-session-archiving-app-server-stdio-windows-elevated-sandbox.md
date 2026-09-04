@@ -5,7 +5,7 @@ timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-v0136-release-guide-osc8-hyperlinks-session-archiving-app-server-stdio-windows-elevated-sandbox"
 tags: ["codex-cli", "v0.136", "release-guide", "osc-8", "hyperlinks", "session-archiving", "app-server", "stdio", "windows-sandbox", "security", "mcp", "bedrock"]
 date: 2026-06-02T09:00:00+00:00
-last_modified_at: 2026-09-04T06:09:48+01:00
+last_modified_at: 2026-09-04T08:18:49+01:00
 ---
 # Codex CLI v0.136 Release Guide: OSC 8 Hyperlinks, Session Archiving, App-Server Stdio, and the Elevated Windows Sandbox
 
