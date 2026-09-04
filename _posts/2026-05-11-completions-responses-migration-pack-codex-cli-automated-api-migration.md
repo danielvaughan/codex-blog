@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-completions-responses-migration-pack-codex-cli-automated-api-migration"
 tags: ["codex-cli", "responses-api", "chat-completions", "migration", "automation", "api", "codex-exec", "ci-cd", "gpt-5", "developer-tools"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-09-04T00:13:32+01:00
+last_modified_at: 2026-09-04T02:11:28+01:00
 ---
 ![Sketchnote diagram for: The Completions-to-Responses Migration Pack: Automating OpenAI API Migration with Codex CLI](/sketchnotes/articles/2026-05-11-completions-responses-migration-pack-codex-cli-automated-api-migration.png)
 

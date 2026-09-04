@@ -1,7 +1,7 @@
 ---
 title: "What Do Agentic SWE Benchmarks Actually Measure? The SNC Profile Framework — and What It Means for Codex CLI Task Design"
 date: 2026-09-03T16:00:00+00:00
-last_modified_at: 2026-09-04T00:13:32+01:00
+last_modified_at: 2026-09-04T02:11:28+01:00
 tags: ["codex-cli", "benchmarks", "evaluation", "research", "task-design", "agents-md", "model-selection"]
 ---
 

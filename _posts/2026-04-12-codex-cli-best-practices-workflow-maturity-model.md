@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-best-practices-workflow-maturity-model"
 tags: ["best-practices", "workflow-maturity", "AGENTS.md", "skills", "automation", "configuration", "prompting", "official-guidance"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-04T00:13:32+01:00
+last_modified_at: 2026-09-04T02:11:28+01:00
 ---
 ![Sketchnote diagram for: The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model](/sketchnotes/articles/2026-04-12-codex-cli-best-practices-workflow-maturity-model.png)
 

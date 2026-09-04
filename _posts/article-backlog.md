@@ -1,5 +1,12 @@
 # Article Backlog
 
+## GPT-6 Astra — Codex CLI Integration, Critical Cyber Threshold, Pricing (2026-09-04 Hourly Article Run)
+
+1. ✅ **GPT-6 Astra in Codex CLI: 1.05M Context, Critical Cyber Threshold, and What the New Model Actually Costs** — Written 2026-09-04 → `2026-09-04-gpt-6-astra-codex-cli-integration-guide-critical-cyber-threshold.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — GPT-6 Astra launched 3 September 2026 (OpenAI); first model to reach Critical cybersecurity threshold under Preparedness Framework; API model ID `gpt-6-astra`; 1,050,000-token context window, 128K max output, knowledge cutoff April 30 2026; pricing: $10/$50 per 1M input/output (standard), cached $1/M, long-context premium at >272K input tokens (2× input, 1.5× output), Fast mode 2× all rates, Batch 50% discount; reasoning effort: low/medium/high/xhigh (Chat Completions) + max (Responses API); unsupported: none effort, temperature, top_p, logprobs; Codex CLI support: v0.153.1 adds API access without model-picker exposure, v0.153.2 fixes Fast-tier description text; benchmarks: ARC-AGI-3 99.9% (vs Sol 7.8%), Terminal-Bench 4.0 57.7% (vs Sol 37.3%), Terminal-Bench Science 64.6%, ExploitBench 100%, OSWorld 72.6%, Mind2Web 1.9× faster; 70% more token efficient in Codex harness (Artificial Analysis); hallucination rate 92%→51% (AA-Omniscience); Enterprise: disabled by default, admin must enable; Daybreak programme for cybersecurity research access; notes-based cross-window context management (distinct from compaction/summary); 6 citations; ~1,350 words
+
+---
+
 ## Geometric Agent Degradation — Long-Horizon Reliability, Session Design, Codex CLI (2026-09-04 Hourly Article Run)
 
 1. ✅ **How Fast Do Agents Rot? Geometric Degradation in Long-Horizon LLM Agents — and What It Means for Codex CLI Session Design** — Written 2026-09-04 → `2026-09-04-how-fast-do-agents-rot-geometric-degradation-law-codex-cli-session-design.md`

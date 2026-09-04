@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-inside-vscode-multi-agent-architecture-agent-sessions-unified-development"
 tags: ["codex-cli", "vscode", "multi-agent", "agent-sessions", "copilot", "claude-code", "ide-integration", "workflow-patterns", "configuration-portability"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-04T00:13:32+01:00
+last_modified_at: 2026-09-04T02:11:28+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Inside VS Code's Multi-Agent Architecture: Agent Sessions, Model Selection, and the Unified Development Experience](/sketchnotes/articles/2026-05-14-codex-cli-inside-vscode-multi-agent-architecture-agent-sessions-unified-development.png)
 

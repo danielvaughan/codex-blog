@@ -5,7 +5,7 @@ timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-self-healing-orchestration-coding-agents-codex-cli-failure-taxonomy-recovery-hooks-verifier-pipeline"
 tags: ["codex-cli", "self-healing", "fault-recovery", "hooks", "PostToolUse", "PreToolUse", "orchestration", "reliability", "agent-resilience"]
 date: 2026-07-02T09:00:00+00:00
-last_modified_at: 2026-09-04T00:13:32+01:00
+last_modified_at: 2026-09-04T02:11:28+01:00
 ---
 # Self-Healing Orchestration for Coding Agents: What Targeted Recovery Teaches Us About Building Resilient Codex CLI Workflows
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-twelve-factor-agent-mapped-codex-cli-production-principles-configuration-patterns"
 tags: ["codex-cli", "twelve-factor-agent", "production", "configuration", "best-practices", "architecture", "methodology"]
 date: 2026-06-16T09:00:00+00:00
-last_modified_at: 2026-09-04T00:13:32+01:00
+last_modified_at: 2026-09-04T02:11:28+01:00
 ---
 # The Twelve-Factor Agent Mapped to Codex CLI: Production Principles and Configuration Patterns for June 2026
 

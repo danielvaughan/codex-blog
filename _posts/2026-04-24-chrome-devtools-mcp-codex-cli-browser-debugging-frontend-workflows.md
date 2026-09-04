@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-chrome-devtools-mcp-codex-cli-browser-debugging-frontend-workflows"
 tags: ["codex-cli", "mcp", "chrome-devtools", "frontend", "debugging", "performance", "browser"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-04T00:13:32+01:00
+last_modified_at: 2026-09-04T02:11:28+01:00
 ---
 ![Sketchnote diagram for: Chrome DevTools MCP and Codex CLI: Closing the Browser Debugging Gap for AI Coding Agents](/sketchnotes/articles/2026-04-24-chrome-devtools-mcp-codex-cli-browser-debugging-frontend-workflows.png)
 
