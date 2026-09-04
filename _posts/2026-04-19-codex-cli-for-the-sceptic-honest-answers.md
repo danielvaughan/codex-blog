@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-codex-cli-for-the-sceptic-honest-answers"
 tags: ["codex-cli", "agentic-engineering", "developer-experience", "honest-assessment", "adoption"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-04T10:09:28+01:00
+last_modified_at: 2026-09-04T10:27:33+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for the Sceptic: Honest Answers to 'Why Should I Bother?](/sketchnotes/articles/2026-04-19-codex-cli-for-the-sceptic-honest-answers.png)
 

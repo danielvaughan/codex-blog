@@ -1,7 +1,7 @@
 ---
 title: "Nine Outages in Seven Days: Building Codex CLI Resilience with Multi-Provider Failover"
 date: 2026-07-27T09:00:00+00:00
-last_modified_at: 2026-09-04T10:09:28+01:00
+last_modified_at: 2026-09-04T10:27:33+01:00
 tags: ["codex-cli", "resilience", "multi-provider", "failover", "gateway", "outage", "Azure", "Bedrock", "Portkey", "Bifrost", "configuration", "enterprise"]
 ---
 

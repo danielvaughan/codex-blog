@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.153.0-alpha: Per-Link Approval Policies for Connected Apps and Plugin Marketplace Source Enforcement"
 date: 2026-09-01T22:00:00+00:00
-last_modified_at: 2026-09-04T10:09:28+01:00
+last_modified_at: 2026-09-04T10:27:33+01:00
 tags: ["codex-cli", "v0.153", "release", "approval-policy", "apps", "plugin-marketplace", "guardian", "security"]
 ---
 

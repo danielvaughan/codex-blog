@@ -1,7 +1,7 @@
 ---
 title: "PERFOPT-Bench and the Performance Optimisation Gap: Why Your Coding Agent's Speedups Might Be Illusory — and How to Build Verified Optimisation Workflows with Codex CLI"
 date: 2026-08-01T09:00:00+00:00
-last_modified_at: 2026-09-04T10:09:28+01:00
+last_modified_at: 2026-09-04T10:27:33+01:00
 tags: ["codex-cli", "performance-optimisation", "PERFOPT-Bench", "benchmarks", "profiling", "verified-speedup", "coding-agents"]
 ---
 

@@ -5,7 +5,7 @@ timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-actplane-ebpf-os-level-policy-enforcement-coding-agent-harnesses-codex-cli-kernel-sandbox-ifc"
 tags: ["codex-cli", "security", "eBPF", "sandbox", "policy-enforcement", "agent-harness", "information-flow-control", "ActPlane", "OS-level", "kernel"]
 date: 2026-07-02T09:00:00+00:00
-last_modified_at: 2026-09-04T10:09:28+01:00
+last_modified_at: 2026-09-04T10:27:33+01:00
 ---
 # ActPlane and the OS-Level Policy Gap: Why Tool-Call Guardrails Miss Half Your Agent's Violations — and How eBPF Kernel Enforcement Closes the Loop for Codex CLI
 
