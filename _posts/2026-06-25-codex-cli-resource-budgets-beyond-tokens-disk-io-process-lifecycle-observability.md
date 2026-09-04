@@ -5,7 +5,7 @@ timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-codex-cli-resource-budgets-beyond-tokens-disk-io-process-lifecycle-observability"
 tags: ["codex-cli", "resource-budgets", "observability", "disk-io", "sqlite-wal", "process-lifecycle", "opentelemetry", "operational-hygiene"]
 date: 2026-06-25T09:00:00+00:00
-last_modified_at: 2026-09-04T18:10:53+01:00
+last_modified_at: 2026-09-04T20:10:59+01:00
 ---
 # Beyond Token Budgets: Why Codex CLI Needs Resource Budgets for Disk, I/O, and Process Lifecycle
 

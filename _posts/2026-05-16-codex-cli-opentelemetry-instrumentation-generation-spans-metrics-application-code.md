@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-opentelemetry-instrumentation-generation-spans-metrics-application-code"
 tags: ["codex-cli", "opentelemetry", "instrumentation", "observability", "tracing", "metrics", "spans", "automation"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-04T18:10:53+01:00
+last_modified_at: 2026-09-04T20:10:59+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for OpenTelemetry Instrumentation: Agent-Driven Span Generation, Metrics Scaffolding, and Observability Pipelines](/sketchnotes/articles/2026-05-16-codex-cli-opentelemetry-instrumentation-generation-spans-metrics-application-code.png)
 

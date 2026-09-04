@@ -5,7 +5,7 @@ timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-inline-moderation-scores-responses-api-codex-cli-enterprise-safety-governance-hooks"
 tags: ["codex-cli", "moderation", "responses-api", "enterprise", "governance", "hooks", "compliance", "safety"]
 date: 2026-06-14T09:00:00+00:00
-last_modified_at: 2026-09-04T18:10:53+01:00
+last_modified_at: 2026-09-04T20:10:59+01:00
 ---
 # Inline Moderation Scores in the Responses API: Building Safety-Aware Codex CLI Workflows for Enterprise Governance
 

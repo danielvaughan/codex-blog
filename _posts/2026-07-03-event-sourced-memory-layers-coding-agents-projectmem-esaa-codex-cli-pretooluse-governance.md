@@ -5,7 +5,7 @@ timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-event-sourced-memory-layers-coding-agents-projectmem-esaa-codex-cli-pretooluse-governance"
 tags: ["codex-cli", "event-sourcing", "agent-memory", "MCP", "PreToolUse", "PROJECTMEM", "ESAA", "memory-as-governance", "persistent-context"]
 date: 2026-07-03T09:00:00+00:00
-last_modified_at: 2026-09-04T18:10:53+01:00
+last_modified_at: 2026-09-04T20:10:59+01:00
 ---
 # Event-Sourced Memory Layers for Coding Agents: What PROJECTMEM and ESAA-Conversational Reveal About Memory-as-Governance — and How to Wire Them into Codex CLI
 

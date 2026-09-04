@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-enterprise-admin-setup-rbac-managed-configuration-compliance-apis"
 tags: ["codex-cli", "enterprise", "admin-setup", "rbac", "managed-configuration", "compliance", "security", "requirements-toml", "mdm", "analytics-api"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-04T18:10:53+01:00
+last_modified_at: 2026-09-04T20:10:59+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Enterprise Admin Setup: RBAC, Managed Configuration, and Compliance APIs](/sketchnotes/articles/2026-05-19-codex-cli-enterprise-admin-setup-rbac-managed-configuration-compliance-apis.png)
 

@@ -1,5 +1,12 @@
 # Article Backlog
 
+## IssueTrojanBench — Malicious Issue Injection, AGENTS.md Attack Surface, Codex CLI Security (2026-09-04 Hourly Article Run)
+
+1. ✅ **IssueTrojanBench: 79% Attack Success Rate — When AGENTS.md Is the Target** — Written 2026-09-04 → `2026-09-04-issuetrojanbench-malicious-issue-injection-attack-codex-cli-security.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Singh, Yang & Chen (Concordia University, arXiv:2607.20759, July 2026) "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests"; 696 adversarial variants × 6 agent-model configs = 4,176 runs; four attack categories: Supply Chain Poisoning 96.6%, Policy Bypass 84.7%, Persistence Hook 59.8%, Resource Exhaustion 24.9%; aggregate 66.5%; agent results: Codex Desktop 79.2%, Cursor 66.5%, Claude Code 41.1%; model results: GPT-5.3 Codex 84.8%, Sonnet 4.6 41.1%; zero-defence finding: agent frameworks contributed 0% of rejections (82.9% model-level refusal, 17.1% source trust); AGENTS.md is itself attack target (Security Policy Bypass category); spotlighting failed; superficial perturbations made no difference; six delivery vectors all ~72.2% except image alt-text 16.7%; Codex CLI mapping: PreToolUse hook blocking governance file writes (exit 2), sandbox writable_roots restriction, approval_policy = "untrusted" for issue sessions, PostToolUse pip audit hook, git worktree isolation for persistence hook defence, named profile for model selection (Sonnet 4.6 as primary control); 4 citations; ~1,300 words
+
+---
+
 ## PlanFence — Fresh Memory, Stale Plans, Distributed Agent Memory, Codex CLI (2026-09-04 Hourly Article Run)
 
 1. ✅ **Fresh Memory, Stale Plans: Why PlanFence Matters for Distributed Codex CLI Agent Teams** — Written 2026-09-04 → `2026-09-04-fresh-memory-stale-plans-planfence-distributed-agent-memory-codex-cli.md`

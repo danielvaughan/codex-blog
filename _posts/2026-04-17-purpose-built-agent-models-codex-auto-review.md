@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-purpose-built-agent-models-codex-auto-review"
 tags: ["codex-auto-review", "guardian", "specialised-models", "enterprise", "cost-management", "model-selection"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-04T18:10:53+01:00
+last_modified_at: 2026-09-04T20:10:59+01:00
 ---
 ![Sketchnote diagram for: Purpose-Built Agent Models: What codex-auto-review Tells Us About the Future of Specialised AI](/sketchnotes/articles/2026-04-17-purpose-built-agent-models-codex-auto-review.png)
 

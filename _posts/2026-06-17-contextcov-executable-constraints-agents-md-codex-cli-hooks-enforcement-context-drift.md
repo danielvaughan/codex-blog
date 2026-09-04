@@ -5,7 +5,7 @@ timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-contextcov-executable-constraints-agents-md-codex-cli-hooks-enforcement-context-drift"
 tags: ["codex-cli", "agents-md", "contextcov", "hooks", "PreToolUse", "PostToolUse", "constraint-enforcement", "context-drift", "tree-sitter", "AST", "compliance", "coding-agents"]
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-09-04T18:10:53+01:00
+last_modified_at: 2026-09-04T20:10:59+01:00
 ---
 # ContextCov: Turning AGENTS.md into Executable Constraints — What It Means for Codex CLI Hook and Enforcement Strategy
 
