@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation"
 tags: ["codex-cli", "machine-learning", "parameter-golf", "agent-driven-research", "hugging-face", "model-training", "experimentation"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-04T04:08:55+01:00
+last_modified_at: 2026-09-04T06:09:48+01:00
 ---
 ![Sketchnote diagram for: Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect](/sketchnotes/articles/2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation.png)
 

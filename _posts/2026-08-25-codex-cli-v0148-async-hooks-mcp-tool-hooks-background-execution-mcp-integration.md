@@ -1,7 +1,7 @@
 ---
 title: "Async Hooks and MCP Tool Hooks in Codex CLI v0.148.0: The Hook System Grows Up"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-09-04T04:08:55+01:00
+last_modified_at: 2026-09-04T06:09:48+01:00
 tags: ["codex-cli", "hooks", "mcp", "async", "pre-tool-use", "post-tool-use", "v0.148.0", "governance", "automation"]
 ---
 

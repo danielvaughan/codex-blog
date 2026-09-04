@@ -6,7 +6,7 @@ timestamp: 2026-07-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-20-agentic-blast-radius-gpt56-sol-file-deletions-codex-cli-sandbox-defence"
 tags: ["codex-cli", "security", "sandbox", "gpt-5.6-sol", "blast-radius", "approval-policy", "guardian", "auto-review"]
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-09-04T04:08:55+01:00
+last_modified_at: 2026-09-04T06:09:48+01:00
 ---
 
 # The Agentic Blast Radius: Why GPT-5.6 Sol's File Deletions Prove the Sandbox Was Never Optional

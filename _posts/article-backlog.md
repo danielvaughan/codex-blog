@@ -1,5 +1,12 @@
 # Article Backlog
 
+## SWE-Gate — Review Constraints, Hidden Failures, Codex CLI (2026-09-04 Hourly Article Run)
+
+1. ✅ **SWE-Gate: Why 34% of Your Agent's 'Fixed' Patches Are Wrong — and How to Catch Them in Codex CLI** — Written 2026-09-04 → `2026-09-04-swe-gate-review-constraints-hidden-failures-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — He, Wang, Liu, Chen, Zhang & Li (Sun Yat-sen University, arXiv:2609.04167, September 2026) "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents"; 303 instances across 75 open-source Python repos; review constraints mined from real PR comments; 4 LLMs tested: GPT-5.5, GPT-5.4-mini, DeepSeek-V4-Flash, GPT-4o-mini; 221 of 644 functional-passing patches failed constraint tests (34.3% hidden failure rate); GPT-5.5: 74.9% functional / 70.5% constraint / 52.8% joint; GPT-5.4-mini: 61.7% / 64.2% / 39.6%; DeepSeek-V4-Flash: 66.7% / 64.4% / 42.9%; GPT-4o-mini: 9.2% / 46.4% / 4.3% (constraint exceeds functional — absorbed style better than fixing bugs); constraint taxonomy: Error Semantics (152, 50.2%), Schema/Metadata/Typing (143, 47.2%), Ordering, Encoding/Escaping, Scope Generalisation, Resource Lifecycle; Codex CLI mapping: AGENTS.md acceptance criteria section with constraint categories, PostToolUse hook on apply_patch running constraint checker (exit 2 blocks iteration), PreToolUse enforcement gate for CI-bound patches, model routing by joint success rate; 5 citations; ~1,250 words
+
+---
+
 ## Shift to Agentic AI — Codex Usage Patterns, Skills, Multi-Agent, Productivity (2026-09-04 Hourly Article Run)
 
 1. ✅ **The Shift to Agentic AI: What OpenAI's Own Usage Data Reveals About Codex Workflows in 2026** — Written 2026-09-04 → `2026-09-04-shift-to-agentic-ai-evidence-from-codex-usage-patterns-developer-workflow.md`

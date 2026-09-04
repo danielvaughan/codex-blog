@@ -5,7 +5,7 @@ timestamp: 2026-06-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-23-rethinking-agent-generated-tests-observational-feedback-codex-cli-scaffold-testing-strategy"
 tags: ["codex-cli", "testing", "agent-generated-tests", "AGENTS.md", "hooks", "SWE-bench", "observational-feedback", "scaffold-testing"]
 date: 2026-06-23T09:00:00+00:00
-last_modified_at: 2026-09-04T04:08:55+01:00
+last_modified_at: 2026-09-04T06:09:48+01:00
 ---
 # Rethinking Agent-Generated Tests: Why Your Codex CLI Agent Writes Print Statements, Not Assertions, and What to Do About It
 
