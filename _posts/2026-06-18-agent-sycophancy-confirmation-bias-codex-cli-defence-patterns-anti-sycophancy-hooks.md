@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-agent-sycophancy-confirmation-bias-codex-cli-defence-patterns-anti-sycophancy-hooks"
 tags: ["codex-cli", "sycophancy", "confirmation-bias", "anti-sycophancy", "hooks", "AGENTS.md", "structured-output", "defence-patterns"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-09-04T02:11:28+01:00
+last_modified_at: 2026-09-04T03:18:34+01:00
 ---
 # Agent Sycophancy and Confirmation Bias: Defence Patterns for Codex CLI
 

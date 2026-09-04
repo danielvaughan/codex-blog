@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-v0133-alpha-subagent-hooks-goal-db-permission-profile-apis-multi-agent-orchestration"
 tags: ["codex-cli", "v0.133", "alpha", "multi-agent", "subagents", "hooks", "permission-profiles", "goal-database", "orchestration", "enterprise"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-04T02:11:28+01:00
+last_modified_at: 2026-09-04T03:18:34+01:00
 ---
 ![Sketchnote diagram for: Codex CLI v0.133.0-alpha: SubagentStart Hooks, Goal DB, and Permission Profile APIs — Signals for Multi-Agent Orchestration](/sketchnotes/articles/2026-05-21-codex-cli-v0133-alpha-subagent-hooks-goal-db-permission-profile-apis-multi-agent-orchestration.png)
 

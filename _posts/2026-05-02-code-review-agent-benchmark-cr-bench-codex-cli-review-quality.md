@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-code-review-agent-benchmark-cr-bench-codex-cli-review-quality"
 tags: ["code-review", "cr-bench", "benchmarks", "agents-md", "review-quality", "hooks", "github-integration", "research"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-04T02:11:28+01:00
+last_modified_at: 2026-09-04T03:18:34+01:00
 ---
 ![Sketchnote diagram for: The Code Review Agent Benchmark: What CR-bench Reveals and How to Configure Codex CLI for Higher-Quality Reviews](/sketchnotes/articles/2026-05-02-code-review-agent-benchmark-cr-bench-codex-cli-review-quality.png)
 

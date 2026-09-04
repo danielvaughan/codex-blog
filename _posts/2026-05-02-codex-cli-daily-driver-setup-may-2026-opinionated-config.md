@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-codex-cli-daily-driver-setup-may-2026-opinionated-config"
 tags: ["codex-cli", "configuration", "config.toml", "profiles", "daily-driver", "setup", "gpt-5.5", "memories", "mcp", "best-practices"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-04T02:11:28+01:00
+last_modified_at: 2026-09-04T03:18:34+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Daily Driver Setup for May 2026: An Opinionated Configuration Guide](/sketchnotes/articles/2026-05-02-codex-cli-daily-driver-setup-may-2026-opinionated-config.png)
 

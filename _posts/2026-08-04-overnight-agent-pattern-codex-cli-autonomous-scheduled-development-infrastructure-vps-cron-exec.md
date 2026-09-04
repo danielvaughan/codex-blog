@@ -1,7 +1,7 @@
 ---
 title: "The Overnight Agent Pattern: Infrastructure for Continuous Autonomous Development with Codex CLI"
 date: 2026-08-04T09:00:00+00:00
-last_modified_at: 2026-09-04T02:11:28+01:00
+last_modified_at: 2026-09-04T03:18:34+01:00
 tags: ["codex-cli", "overnight-agents", "codex-exec", "autonomous-development", "goal-mode", "infrastructure", "scheduling", "cron", "VPS"]
 ---
 

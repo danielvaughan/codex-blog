@@ -1,7 +1,7 @@
 ---
 title: "SWE-Touch: What Happens When You Edit Code While Your Agent Is Running — and How to Configure Codex CLI for Shared Workspaces"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-09-04T02:11:28+01:00
+last_modified_at: 2026-09-04T03:18:34+01:00
 tags: ["codex-cli", "shared-workspace", "collaborative-development", "benchmarks", "swe-bench", "approval-modes", "hooks", "counter-edits", "workspace-awareness"]
 ---
 

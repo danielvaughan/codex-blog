@@ -1,7 +1,7 @@
 ---
 title: "GPT-6 Astra in Codex CLI: 1.05M Context, Critical Cyber Threshold, and What the New Model Actually Costs"
 date: 2026-09-04T12:00:00+00:00
-last_modified_at: 2026-09-04T02:11:28+01:00
+last_modified_at: 2026-09-04T03:18:34+01:00
 tags: ["codex-cli", "gpt-6-astra", "models", "pricing", "configuration", "cybersecurity", "context-window"]
 ---
 
@@ -57,7 +57,7 @@ Fast mode delivers 2× processing speed at 2× the applicable rate. On a standar
 
 The benchmark numbers tell a bifurcated story: Astra makes very large gains on tasks requiring multi-step autonomous operation, while showing more modest improvements on static intelligence indices.
 
-| Benchmark | GPT-6 Astra | GPT-5.6 Sol | Claude 5.1 / Opus 5 |
+| Benchmark | GPT-6 Astra | GPT-5.6 Sol | Claude Fable 5.1 / Opus 5 |
 |---|---|---|---|
 | ARC-AGI-3 | 99.9% | 7.8% | 30% (Opus 5) |
 | Terminal-Bench Science 0.1 | 64.6% | 22.4% | 52.6% |

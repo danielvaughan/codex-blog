@@ -1,7 +1,7 @@
 ---
 title: "APPA and the Taint Confinement Problem: Why Context Branching Beats Permanent Tainting — and What It Means for Codex CLI's Security Model"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-09-04T02:11:28+01:00
+last_modified_at: 2026-09-04T03:18:34+01:00
 tags: ["codex-cli", "security", "taint-confinement", "APPA", "information-flow-control", "prompt-injection", "context-branching", "PreToolUse", "sandbox"]
 ---
 

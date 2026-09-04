@@ -1,7 +1,7 @@
 ---
 title: "Three Terminals Meet the Editor: Codex CLI vs Claude Code vs Gemini CLI vs Cursor"
 date: 2026-04-19T00:00:00+00:00
-last_modified_at: 2026-09-04T02:11:28+01:00
+last_modified_at: 2026-09-04T03:18:34+01:00
 tags:
   - codex-cli
   - claude-code
