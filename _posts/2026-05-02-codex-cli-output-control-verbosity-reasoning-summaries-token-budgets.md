@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-codex-cli-output-control-verbosity-reasoning-summaries-token-budgets"
 tags: ["codex-cli", "configuration", "verbosity", "reasoning", "token-management", "output-control", "performance", "config.toml"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-04T10:27:33+01:00
+last_modified_at: 2026-09-04T14:13:21+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Output Control: Tuning Verbosity, Reasoning Summaries, and Token Budgets for Every Workflow](/sketchnotes/articles/2026-05-02-codex-cli-output-control-verbosity-reasoning-summaries-token-budgets.png)
 

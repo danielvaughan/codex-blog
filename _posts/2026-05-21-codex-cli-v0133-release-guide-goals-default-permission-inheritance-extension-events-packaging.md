@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-v0133-release-guide-goals-default-permission-inheritance-extension-events-packaging"
 tags: ["codex-cli", "v0.133", "release-guide", "goals", "permission-profiles", "extensions", "packaging", "upgrade"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-04T10:27:33+01:00
+last_modified_at: 2026-09-04T14:13:21+01:00
 ---
 ![Sketchnote diagram for: Codex CLI v0.133.0 Release Guide: Goals Enabled by Default, Permission Profile Inheritance, and Extension Lifecycle Events](/sketchnotes/articles/2026-05-21-codex-cli-v0133-release-guide-goals-default-permission-inheritance-extension-events-packaging.png)
 

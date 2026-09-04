@@ -6,7 +6,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-power-user-playbook-non-obvious-features-configuration-tricks-v0137"
 tags: ["codex-cli", "v0.137", "productivity", "power-user", "configuration", "tips", "advanced-workflows"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-09-04T10:27:33+01:00
+last_modified_at: 2026-09-04T14:13:21+01:00
 ---
 # Codex CLI Power-User Playbook: 15 Non-Obvious Features and Configuration Tricks for v0.137
 

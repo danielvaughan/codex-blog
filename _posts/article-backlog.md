@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Spec-Driven Development + WiseSpec — Requirements Quality, Productivity Paradox, Codex CLI (2026-09-04 Hourly Article Run)
+
+1. ✅ **Spec-Driven Development: Escaping the Agentic Productivity Paradox with Codex CLI** — Written 2026-09-04 → `2026-09-04-spec-driven-development-wisespec-requirements-quality-codex-cli-productivity-paradox.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Diaz, Gayoso, Cimminio & Perez (arXiv:2609.00252, September 2026) "Spec-Driven Development for Agentic Software Engineering: Harnessing Human–Agent Teamwork" combined with Zhao Tian (arXiv:2609.00568, ASE 2026 SRC) "WiseSpec: Requirements-Driven Agents for Code Generation"; productivity paradox data: Faros AI 21% individual task completion increase vs 91% PR review time increase + 9% defect increase; DORA 2024 higher AI adoption → reduced delivery performance; METR trial experienced devs 19% slower while believing 20% faster; GitClear refactoring 25%→<10%, duplicated code 8×; WiseSpec three-stage pipeline: structured spec construction + execution-based quality assessment + iterative refinement; result: 13.17% improvement in %Resolved vs baselines; five human-agent interaction patterns: Briefing, Consultation, Review, Norm Encoding, Orchestration; eight methodological harness mechanisms across Knowledge Management + Production Support + Governance; Codex CLI mapping: plan mode as Briefing, PreToolUse hook as spec quality gate, PostToolUse hooks as refinement loop, AGENTS.md as norm encoding substrate, evidence-backed acceptance via /recap output; 5 citations; ~1,350 words
+
+---
+
 ## PatchBench — Vulnerability Patching Agents, Memorisation, Codex CLI (2026-09-04 Hourly Article Run)
 
 1. ✅ **PatchBench: Why 1-in-4 Agent Vulnerability Fixes Is a Memorised Patch — and What It Means for Codex CLI** — Written 2026-09-04 → `2026-09-04-patchbench-vulnerability-patching-agents-memorization-codex-cli.md`

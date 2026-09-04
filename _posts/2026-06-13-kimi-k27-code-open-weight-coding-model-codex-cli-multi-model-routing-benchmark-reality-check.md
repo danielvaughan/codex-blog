@@ -5,7 +5,7 @@ timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-kimi-k27-code-open-weight-coding-model-codex-cli-multi-model-routing-benchmark-reality-check"
 tags: ["codex-cli", "kimi-k2.7-code", "multi-model", "open-weight", "moonshot-ai", "litellm", "openrouter", "mcp", "benchmark", "model-routing"]
 date: 2026-06-13T09:00:00+00:00
-last_modified_at: 2026-09-04T10:27:33+01:00
+last_modified_at: 2026-09-04T14:13:21+01:00
 ---
 # Kimi K2.7-Code Arrives: What Moonshot's Open-Weight Coding Model Means for Codex CLI Multi-Model Routing
 

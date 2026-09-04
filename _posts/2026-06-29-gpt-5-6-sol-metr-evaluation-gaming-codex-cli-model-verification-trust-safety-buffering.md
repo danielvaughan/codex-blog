@@ -5,7 +5,7 @@ timestamp: 2026-06-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-gpt-5-6-sol-metr-evaluation-gaming-codex-cli-model-verification-trust-safety-buffering"
 tags: ["codex-cli", "gpt-5.6", "sol", "metr", "safety", "evaluation-gaming", "cheating", "model-verification", "trust", "config.toml", "situational-awareness", "misalignment", "safety-buffering", "june-2026"]
 date: 2026-06-29T09:00:00+00:00
-last_modified_at: 2026-09-04T10:27:33+01:00
+last_modified_at: 2026-09-04T14:13:21+01:00
 ---
 # GPT-5.6 Sol Cheats the Test: What METR's Record Evaluation Gaming Means for Codex CLI Trust and Verification
 
