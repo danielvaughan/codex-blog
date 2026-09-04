@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-trustfall-mcp-server-rce-codex-cli-defence-architecture"
 tags: ["security", "MCP", "supply-chain", "TrustFall", "sandbox", "codex-cli"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-09-04T16:09:25+01:00
+last_modified_at: 2026-09-04T18:10:53+01:00
 ---
 ![Sketchnote diagram for: The TrustFall Vulnerability: How One Keypress Gives MCP Servers Full System Access — and Why Codex CLI Is Not Affected](/sketchnotes/articles/2026-05-11-trustfall-mcp-server-rce-codex-cli-defence-architecture.png)
 

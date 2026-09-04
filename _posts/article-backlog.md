@@ -1,5 +1,12 @@
 # Article Backlog
 
+## PlanFence — Fresh Memory, Stale Plans, Distributed Agent Memory, Codex CLI (2026-09-04 Hourly Article Run)
+
+1. ✅ **Fresh Memory, Stale Plans: Why PlanFence Matters for Distributed Codex CLI Agent Teams** — Written 2026-09-04 → `2026-09-04-fresh-memory-stale-plans-planfence-distributed-agent-memory-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Chen, Wang & Brinton (Purdue University / University of Exeter, arXiv:2609.03340, September 3, 2026) "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory"; core problem: stale-plan execution where state freshness ≠ plan validity; formal predicate Valid(a) ⟺ F_a(x) = H(x) ∀x ∈ D(a); PlanFence three-step protocol: traverse plan parent links → concurrently query owners → on mismatch replan once or block; experimental results: freshness-only 330/330 invalid actions; PlanFence 0/330 invalid; performance: 230.8 ms/action vs 508.6 ms centralised vs 151.8 ms unsafe freshness; traffic: 8.1 KiB/action vs 81.7 KiB batched at 128 keys; live study: 30 five-agent workflows, five Qwen3.5 agents, reservation/fulfilment/deployment task families; churn analysis: PlanFence 1.5×–7.1× lower stall at ρ≥4; complemented by Margalit et al. arXiv:2606.24535 (governed shared memory, four failure modes) and Weng et al. arXiv:2603.10062 (computer architecture perspective); Codex CLI mapping: PostToolUse hooks exit code 2 as action gate, SHA-annotated dependency declarations in AGENTS.md plan sections, git worktrees as owner boundary per semantic key, AGENTS.md recovery policy for replan cycle; GitHub issue #31572 (Codex subagent git branch drift as real-world manifestation); 5 citations; ~1,350 words
+
+---
+
 ## Spec-Driven Development + WiseSpec — Requirements Quality, Productivity Paradox, Codex CLI (2026-09-04 Hourly Article Run)
 
 1. ✅ **Spec-Driven Development: Escaping the Agentic Productivity Paradox with Codex CLI** — Written 2026-09-04 → `2026-09-04-spec-driven-development-wisespec-requirements-quality-codex-cli-productivity-paradox.md`

@@ -1,7 +1,7 @@
 ---
 title: "Failure as a Process: What 1,794 CLI Agent Trajectories Reveal About Where Codex CLI Must Intervene"
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-09-04T16:09:25+01:00
+last_modified_at: 2026-09-04T18:10:53+01:00
 tags: ["codex-cli", "failure-trajectories", "epistemic-errors", "early-validation", "Terminal-Bench", "agent-reliability", "PreToolUse-hooks", "AGENTS.md", "sandbox"]
 ---
 

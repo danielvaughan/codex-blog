@@ -6,7 +6,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-codex-cli-pair-programming-interactive-workflows-conversation-patterns-productivity"
 tags: ["codex-cli", "pair-programming", "interactive-mode", "TUI", "slash-commands", "productivity", "conversation-patterns", "session-management", "reasoning-levels"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-04T16:09:25+01:00
+last_modified_at: 2026-09-04T18:10:53+01:00
 ---
 # Codex CLI as a Pair Programming Partner: Interactive Workflows, Conversation Patterns, and the Productivity Evidence
 

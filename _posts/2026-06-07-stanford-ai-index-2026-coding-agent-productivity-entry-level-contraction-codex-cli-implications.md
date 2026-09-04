@@ -5,7 +5,7 @@ timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-stanford-ai-index-2026-coding-agent-productivity-entry-level-contraction-codex-cli-implications"
 tags: ["stanford-ai-index", "developer-productivity", "swe-bench", "entry-level-contraction", "codex-cli", "coding-agents", "enterprise-adoption", "metr-study"]
 date: 2026-06-07T09:00:00+00:00
-last_modified_at: 2026-09-04T16:09:25+01:00
+last_modified_at: 2026-09-04T18:10:53+01:00
 ---
 # The Stanford AI Index 2026 and Codex CLI: What SWE-bench at 100%, the Entry-Level Contraction, and the Productivity Paradox Mean for Your Team
 
