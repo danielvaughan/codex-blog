@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-exec-hermetic-runs-isolation-flags-reproducible-ci-pipelines"
 tags: ["codex-cli", "codex-exec", "ci-cd", "automation", "reproducibility", "isolation", "github-actions", "configuration"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 ![Sketchnote diagram for: Hermetic codex exec Runs: Isolation Flags, Deterministic Configuration, and Reproducible CI Pipelines](/sketchnotes/articles/2026-04-25-codex-exec-hermetic-runs-isolation-flags-reproducible-ci-pipelines.png)
 

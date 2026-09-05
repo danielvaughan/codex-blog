@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-cross-agent-skill-portability-codex-cli-skillshare-skillport-skills-sync"
 tags: ["codex-cli", "agent-skills", "SKILL.md", "skillshare", "skillport", "skills-sync", "cross-agent", "portability", "MCP"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 ![Sketchnote diagram for: Cross-Agent Skill Portability: Managing Skills Across Codex CLI, Claude Code, and Copilot](/sketchnotes/articles/2026-04-25-cross-agent-skill-portability-codex-cli-skillshare-skillport-skills-sync.png)
 

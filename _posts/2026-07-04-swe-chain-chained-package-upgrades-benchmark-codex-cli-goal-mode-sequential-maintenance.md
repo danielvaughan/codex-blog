@@ -5,7 +5,7 @@ timestamp: 2026-07-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-04-swe-chain-chained-package-upgrades-benchmark-codex-cli-goal-mode-sequential-maintenance"
 tags: ["codex-cli", "SWE-Chain", "package-upgrades", "goal-mode", "sequential-maintenance", "benchmark", "coding-agent"]
 date: 2026-07-04T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 # SWE-Chain and the Chained Upgrade Problem: Why Your Agent Breaks at Version Three — and How Codex CLI's Goal Mode Keeps the Chain Intact
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-grok-build-vs-codex-cli-xai-parallel-agents-arena-mode-competitive-analysis"
 tags: ["codex-cli", "grok-build", "xai", "competitive-analysis", "parallel-agents", "arena-mode", "cli-agents", "acp", "benchmarks", "pricing"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 ![Sketchnote diagram for: Grok Build Enters the Ring: How xAI's Parallel-Agent CLI Compares to Codex CLI](/sketchnotes/articles/2026-05-16-grok-build-vs-codex-cli-xai-parallel-agents-arena-mode-competitive-analysis.png)
 

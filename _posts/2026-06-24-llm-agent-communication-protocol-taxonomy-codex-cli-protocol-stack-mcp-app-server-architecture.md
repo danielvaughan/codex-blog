@@ -5,7 +5,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-llm-agent-communication-protocol-taxonomy-codex-cli-protocol-stack-mcp-app-server-architecture"
 tags: ["codex-cli", "MCP", "A2A", "agent-protocols", "app-server", "architecture", "multi-agent", "taxonomy"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 # The Protocol Stack Under Your Agent: What a New Taxonomy of LLM Communication Protocols Reveals About Codex CLI's Architecture
 

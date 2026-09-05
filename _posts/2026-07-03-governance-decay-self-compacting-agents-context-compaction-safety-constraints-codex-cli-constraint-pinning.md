@@ -5,7 +5,7 @@ timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-governance-decay-self-compacting-agents-context-compaction-safety-constraints-codex-cli-constraint-pinning"
 tags: ["codex-cli", "context-compaction", "governance-decay", "constraint-pinning", "self-compacting-agents", "long-horizon-sessions", "AGENTS.md", "safety"]
 date: 2026-07-03T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 # Governance Decay and Self-Compacting Agents: What Happens When Context Compaction Silently Erases Your Safety Constraints
 

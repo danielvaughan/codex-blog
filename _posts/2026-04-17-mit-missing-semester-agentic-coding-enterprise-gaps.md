@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-mit-missing-semester-agentic-coding-enterprise-gaps"
 tags: ["mit", "missing-semester", "education", "curriculum", "enterprise-gap", "worktrees", "mcp", "agents-md", "observability", "security"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 ![Sketchnote diagram for: What MIT Gets Right (and Misses) About Agentic Coding: From Missing Semester to Enterprise Patterns](/sketchnotes/articles/2026-04-17-mit-missing-semester-agentic-coding-enterprise-gaps.png)
 

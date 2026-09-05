@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-go-sdk-ecosystem-embedding-agents-in-go-applications"
 tags: ["codex-cli", "go-sdk", "golang", "agent-orchestration", "app-server", "json-rpc", "embedding", "sdk"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 ![Sketchnote diagram for: The Codex Go SDK Ecosystem: Embedding Coding Agents in Go Applications](/sketchnotes/articles/2026-04-25-codex-go-sdk-ecosystem-embedding-agents-in-go-applications.png)
 

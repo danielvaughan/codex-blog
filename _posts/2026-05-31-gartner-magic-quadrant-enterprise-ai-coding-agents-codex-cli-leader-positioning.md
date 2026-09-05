@@ -5,7 +5,7 @@ timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-gartner-magic-quadrant-enterprise-ai-coding-agents-codex-cli-leader-positioning"
 tags: ["codex-cli", "gartner", "magic-quadrant", "enterprise", "governance", "competitive-landscape", "adoption", "coding-agents", "RBAC", "sandbox", "GPT-5.5"]
 date: 2026-05-31T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 # The 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents: What the Evaluation Criteria Mean for Your Team
 

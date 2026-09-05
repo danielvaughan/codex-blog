@@ -5,7 +5,7 @@ timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-swe-explore-repository-exploration-benchmark-codex-cli-codebase-navigation-search-strategy"
 tags: ["codex-cli", "swe-explore", "repository-exploration", "codebase-navigation", "search-strategy", "benchmarks", "context-efficiency", "MCP", "AGENTS.md"]
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-09-05T04:09:39+01:00
+last_modified_at: 2026-09-05T06:10:51+01:00
 ---
 # SWE-Explore: What the Repository Exploration Benchmark Means for Codex CLI Search Strategy
 
