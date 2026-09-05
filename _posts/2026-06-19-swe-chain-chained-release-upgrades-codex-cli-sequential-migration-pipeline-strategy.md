@@ -6,7 +6,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-swe-chain-chained-release-upgrades-codex-cli-sequential-migration-pipeline-strategy"
 tags: ["codex-cli", "swe-chain", "dependency-upgrades", "chained-migrations", "session-management", "structured-output", "sequential-pipelines", "benchmarks"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-09-05T10:08:50+01:00
+last_modified_at: 2026-09-05T10:14:20+01:00
 ---
 # SWE-Chain: What the Chained Release Upgrade Benchmark Means for Codex CLI Migration Pipelines
 

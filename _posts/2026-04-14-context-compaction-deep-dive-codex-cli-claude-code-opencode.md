@@ -6,7 +6,7 @@ timestamp: 2026-04-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-14-context-compaction-deep-dive-codex-cli-claude-code-opencode"
 tags: ["context-compaction", "token-management", "long-sessions", "codex-cli", "claude-code", "opencode", "encrypted-content", "session-memory", "/compact"]
 date: 2026-04-14T09:00:00+00:00
-last_modified_at: 2026-09-05T10:08:50+01:00
+last_modified_at: 2026-09-05T10:14:20+01:00
 ---
 ![Sketchnote diagram for: Context Compaction Deep Dive: How Codex CLI, Claude Code, and OpenCode Manage Long Sessions](/sketchnotes/articles/2026-04-14-context-compaction-deep-dive-codex-cli-claude-code-opencode.png)
 

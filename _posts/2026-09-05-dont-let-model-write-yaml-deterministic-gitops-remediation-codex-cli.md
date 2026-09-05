@@ -176,5 +176,3 @@ Davineni's empirical result is unambiguous: unified diffs applied with fuzzy mat
 [^3]: Codex CLI Hooks Reference — PreToolUse, PostToolUse, exit codes, hook configuration. Agentic Control Plane, 2026. https://agenticcontrolplane.com/blog/codex-cli-hooks-reference
 
 [^4]: Kubernetes documentation: `kubectl patch`. https://kubernetes.io/docs/reference/kubectl/generated/kubectl_patch/
-
-[^5]: "RIVA: Leveraging LLM Agents for Reliable Configuration Drift Detection." arXiv:2603.02345, 2026. https://arxiv.org/abs/2603.02345

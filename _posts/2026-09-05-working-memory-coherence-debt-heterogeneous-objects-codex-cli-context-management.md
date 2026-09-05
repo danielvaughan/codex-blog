@@ -12,7 +12,7 @@ Most developers reach for a bigger context window when their coding agent starts
 
 ## The Coherence Debt Model
 
-Mohammadi, Klein, Chadha, Arora, and Bindschaedler (Max Planck Institute for Software Systems / EPFL / Apple / Aarhus University) introduce the concept of **coherence debt** in their August 2026 paper "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks."[^2]
+Mohammadi, Klein, Chadha, Arora, and Bindschaedler (Max Planck Institute for Software Systems / EPFL / Apple / Aarhus University) introduce the concept of **coherence debt** in their August 2026 paper "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks".[^2]
 
 Their model treats a repository-scale coding task as the reconstruction of a *coupled-fact graph* — a set of symbols, tests, configuration values, and import relationships that must remain mutually consistent. When an agent writes an edit without a required fact in context, it incurs coherence debt: the gap between facts needed and facts available at write time.
 
@@ -23,11 +23,11 @@ Two findings deserve special attention for practitioners:
 1. **Stale conventions hurt more than absence.** When outdated convention files contradicted working code, agents followed the documentation in 39 of 39 trials. Written standards carry authority regardless of accuracy.
 2. **Harness inefficiency hides inside identical outcomes.** Configurations reaching the same test-pass rate consumed **12.8× different token amounts** while maintaining only 1.8× different peak context. The difference lay in rebuild rates — agents re-fetching facts they had previously read.
 
-The takeaway is not "supply more tokens" but "supply the *right* facts, once, and keep them accurate."
+The takeaway is not "supply more tokens" but "supply the *right* facts, once, and keep them accurate".
 
 ## Memory Objects Are Not Uniform
 
-Chen, Wan, Sun, Ma, Yang, Yan, Di, Cappello, and Thakur (Argonne National Laboratory / Columbia University / University of Houston) take a complementary angle in "Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents."[^3] Their central claim: treating the context window as a homogeneous token pool misrepresents the actual structure of agent memory.
+Chen, Wan, Sun, Ma, Yang, Yan, Di, Cappello, and Thakur (Argonne National Laboratory / Columbia University / University of Houston) take a complementary angle in "Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents".[^3] Their central claim: treating the context window as a homogeneous token pool misrepresents the actual structure of agent memory.
 
 Analysing 55 archived full-context trajectories from SWE-bench Lite across eight repositories (using Claude-Opus-4.8 with a 25-step ceiling), they identify four object categories with dramatically different characteristics:
 

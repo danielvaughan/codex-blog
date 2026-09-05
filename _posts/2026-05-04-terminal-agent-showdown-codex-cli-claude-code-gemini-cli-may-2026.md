@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-terminal-agent-showdown-codex-cli-claude-code-gemini-cli-may-2026"
 tags: ["codex-cli", "claude-code", "gemini-cli", "comparison", "terminal-agents", "benchmarks", "pricing", "architecture", "may-2026"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-09-05T10:08:50+01:00
+last_modified_at: 2026-09-05T10:14:20+01:00
 ---
 ![Sketchnote diagram for: Terminal Agent Showdown: Codex CLI vs Claude Code vs Gemini CLI in May 2026](/sketchnotes/articles/2026-05-04-terminal-agent-showdown-codex-cli-claude-code-gemini-cli-may-2026.png)
 

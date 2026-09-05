@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-axios-supply-chain-attack-codex-cli-lessons-ci-hardening"
 tags: ["supply-chain-security", "axios", "npm", "github-actions", "certificate-signing", "ci-cd", "hardening", "north-korea", "UNC1069"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-05T10:08:50+01:00
+last_modified_at: 2026-09-05T10:14:20+01:00
 ---
 ![Sketchnote diagram for: The Axios Supply Chain Attack: How It Hit Codex CLI's Signing Pipeline and What Teams Should Learn](/sketchnotes/articles/2026-04-16-axios-supply-chain-attack-codex-cli-lessons-ci-hardening.png)
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-building-agent-friendly-clis-codex-cli-composable-tool-design"
 tags: ["cli-design", "agent-friendly", "composable-tools", "skills", "cli-creator", "structured-output", "automation"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:08:50+01:00
+last_modified_at: 2026-09-05T10:14:20+01:00
 ---
 ![Sketchnote diagram for: Building Agent-Friendly CLIs with Codex CLI: Composable Tool Design for the Agentic Era](/sketchnotes/articles/2026-04-28-building-agent-friendly-clis-codex-cli-composable-tool-design.png)
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-kiro-cli-2-vs-codex-cli-spec-driven-terminal-first-comparison"
 tags: ["codex-cli", "kiro-cli", "comparison", "aws", "spec-driven-development", "terminal-agents", "headless", "ci-cd", "may-2026"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-09-05T10:08:50+01:00
+last_modified_at: 2026-09-05T10:14:20+01:00
 ---
 ![Sketchnote diagram for: Kiro CLI 2.0 vs Codex CLI: Spec-Driven Development Meets Terminal-First Autonomy](/sketchnotes/articles/2026-05-05-kiro-cli-2-vs-codex-cli-spec-driven-terminal-first-comparison.png)
 
