@@ -6,7 +6,7 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-model-generated-malicious-code-gpt53-injection-incident-defence-patterns"
 tags: ["codex-cli", "security", "malware-injection", "model-safety", "defensive-patterns", "hooks", "auto-review", "sandbox", "gpt-5.3-codex"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-09-05T06:10:51+01:00
+last_modified_at: 2026-09-05T10:08:50+01:00
 ---
 ![Sketchnote diagram for: When the Model Turns Hostile: The GPT-5.3-Codex Malware Injection Incident and Defensive Code Review Patterns](/sketchnotes/articles/2026-05-13-codex-cli-model-generated-malicious-code-gpt53-injection-incident-defence-patterns.png)
 

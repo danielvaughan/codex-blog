@@ -6,7 +6,7 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-databricks-unity-ai-gateway-enterprise-governance"
 tags: ["codex-cli", "databricks", "unity-ai-gateway", "enterprise", "governance", "security", "guardrails", "rate-limits", "custom-provider"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-09-05T06:10:51+01:00
+last_modified_at: 2026-09-05T10:08:50+01:00
 ---
 ![Sketchnote diagram for: Codex CLI Through Databricks Unity AI Gateway: Enterprise Governance, Rate Limits, and Guardrails for Coding Agents](/sketchnotes/articles/2026-05-03-codex-cli-databricks-unity-ai-gateway-enterprise-governance.png)
 

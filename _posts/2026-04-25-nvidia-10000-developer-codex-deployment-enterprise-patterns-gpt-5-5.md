@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-nvidia-10000-developer-codex-deployment-enterprise-patterns-gpt-5-5"
 tags: ["codex-cli", "enterprise", "nvidia", "gpt-5-5", "deployment", "security", "case-study"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-05T06:10:51+01:00
+last_modified_at: 2026-09-05T10:08:50+01:00
 ---
 ![Sketchnote diagram for: NVIDIA's 10,000-Developer Codex Deployment: Enterprise Patterns for Large-Scale AI Agent Rollout](/sketchnotes/articles/2026-04-25-nvidia-10000-developer-codex-deployment-enterprise-patterns-gpt-5-5.png)
 

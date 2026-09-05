@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-subscription-api-programmatic-access-gpt-5-5-chatgpt-plan"
 tags: ["codex-cli", "authentication", "api", "gpt-5.5", "subscription", "third-party-tools"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-05T06:10:51+01:00
+last_modified_at: 2026-09-05T10:08:50+01:00
 ---
 ![Sketchnote diagram for: The Codex Subscription API: Programmatic Access to GPT-5.5 Through Your ChatGPT Plan](/sketchnotes/articles/2026-04-24-codex-subscription-api-programmatic-access-gpt-5-5-chatgpt-plan.png)
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-okf-implementation-guide-building-agent-ready-knowledge-bundles-codex-cli-mcp"
 tags: ["codex-cli", "okf", "open-knowledge-format", "mcp", "knowledge-management", "context-engineering", "google-cloud"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-09-05T06:10:51+01:00
+last_modified_at: 2026-09-05T10:08:50+01:00
 ---
 # OKF Implementation Guide: Building Agent-Ready Knowledge Bundles for Codex CLI via MCP
 

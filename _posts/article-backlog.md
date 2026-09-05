@@ -1,5 +1,14 @@
 # Article Backlog
 
+
+## Working Memory, Coherence Debt, Heterogeneous Memory Objects, Codex CLI (2026-09-05 Hourly Article Run)
+
+1. ✅ **Working Memory Is Not a Token Count: Coherence Debt, Heterogeneous Memory Objects, and Codex CLI's Experimental Context Management Mode** — Written 2026-09-05 → `2026-09-05-working-memory-coherence-debt-heterogeneous-objects-codex-cli-context-management.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Chen et al. (Argonne National Laboratory / Columbia University / University of Houston, arXiv:2608.31057, August 2026) "Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents" + Mohammadi et al. (Max Planck / EPFL / Apple / Aarhus, arXiv:2608.16630, August 2026) "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks" + Gao et al. (CUHK / SJTU / Tsinghua / ByteDance, arXiv:2606.28434, June 2026) "SWE-MeM: Learning Adaptive Memory Management for Long-Horizon Coding Agents"; core themes: coherence debt (gap between facts needed and facts available at edit time), memory object heterogeneity (tool outputs 55.5%/0.673 ratio, artefacts 28.3%/0.150 ratio, agent state 0.970 ratio), four-level evaluation framework (stored state → delivered context → management work → task outcome), calibration non-transfer (OA -1.633 cal → -0.500 held-out p=0.5), SWE-MeM 60.2% resolve at 32K context vs Context Folding 58.0%, 12.8× token variance for identical test success, stale conventions harm in 39/39 trials; Codex CLI mapping: PR #42385 experimental context management mode (features.context_management.experimental_mode, token-budget context + history notes + new_context tool, Plus/Pro/Pro Lite + Codex backend only, v0.153.0), AGENTS.md accuracy contract, PostToolUse object-logging hooks, artefact-priority compression, rollout_budget per task-coupling profile; 4 citations; ~1,590 words prose
+
+---
+
+
 ## IssueTrojanBench — Malicious Issue Injection, AGENTS.md Attack Surface, Codex CLI Security (2026-09-04 Hourly Article Run)
 
 1. ✅ **IssueTrojanBench: 79% Attack Success Rate — When AGENTS.md Is the Target** — Written 2026-09-04 → `2026-09-04-issuetrojanbench-malicious-issue-injection-attack-codex-cli-security.md`
