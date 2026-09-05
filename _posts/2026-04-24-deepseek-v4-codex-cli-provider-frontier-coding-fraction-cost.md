@@ -6,12 +6,11 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-deepseek-v4-codex-cli-provider-frontier-coding-fraction-cost"
 tags: ["codex-cli", "deepseek", "v4", "custom-provider", "cost-optimisation", "benchmarks", "configuration", "model-selection"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost](/sketchnotes/articles/2026-04-24-deepseek-v4-codex-cli-provider-frontier-coding-fraction-cost.png)
-
-
 # DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost
+
+![Sketchnote diagram for: DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost](/sketchnotes/articles/2026-04-24-deepseek-v4-codex-cli-provider-frontier-coding-fraction-cost.png)
 
 
 DeepSeek V4 landed today — 24 April 2026 — and the numbers deserve attention. V4-Pro scores 80.6% on SWE-bench Verified while charging \$3.48 per million output tokens[^1]. For comparison, Claude Opus 4.6 scores 80.8% on the same benchmark at \$25 per million output tokens[^2]. That is a 7× price gap at near-identical coding performance. This article walks through configuring DeepSeek V4 as a Codex CLI provider, examines where the benchmarks genuinely hold up, and identifies the workflows where GPT-5.5 or Claude remain the better choice.

@@ -2,7 +2,7 @@
 title: "Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud"
 description: "Codex is no longer a single-surface tool. With the CLI, Desktop app (macOS and Windows), IDE extension and Cloud runtime all sharing a unified backend."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - cloud
   - codex-cloud
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-04-08T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-cross-surface-session-sync"
 ---
-![Sketchnote diagram for: Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud](/sketchnotes/articles/2026-04-08-cross-surface-session-sync.png)
-
 # Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud
+
+![Sketchnote diagram for: Cross-Surface Session Sync: Resuming Codex Sessions Across CLI, Desktop and Cloud](/sketchnotes/articles/2026-04-08-cross-surface-session-sync.png)
 
 
 ---

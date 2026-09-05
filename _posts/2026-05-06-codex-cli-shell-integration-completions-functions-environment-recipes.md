@@ -6,11 +6,11 @@ timestamp: 2026-05-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-codex-cli-shell-integration-completions-functions-environment-recipes"
 tags: ["codex-cli", "shell", "zsh", "bash", "fish", "completions", "shell-functions", "environment", "productivity", "automation"]
 date: 2026-05-06T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Shell Integration: Completions, Functions, Environment Policies and Productivity Recipes](/sketchnotes/articles/2026-05-06-codex-cli-shell-integration-completions-functions-environment-recipes.png)
-
 # Codex CLI Shell Integration: Completions, Functions, Environment Policies and Productivity Recipes
+
+![Sketchnote diagram for: Codex CLI Shell Integration: Completions, Functions, Environment Policies and Productivity Recipes](/sketchnotes/articles/2026-05-06-codex-cli-shell-integration-completions-functions-environment-recipes.png)
 
 
 ---

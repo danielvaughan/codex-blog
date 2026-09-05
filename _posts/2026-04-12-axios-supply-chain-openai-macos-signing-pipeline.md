@@ -2,7 +2,7 @@
 title: "Axios Supply Chain Attack Reaches OpenAI macOS Signing Pipeline — What Codex CLI Users Need to Know"
 description: "The March 31 Axios npm supply chain attack — already covered in our source map incident article — has a direct impact on Codex CLI users that became public."
 date: 2026-04-12T07:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - security
   - supply-chain
@@ -15,9 +15,9 @@ type: Technical Article
 timestamp: 2026-04-12T08:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-axios-supply-chain-openai-macos-signing-pipeline"
 ---
-![Sketchnote diagram for: Axios Supply Chain Attack Reaches OpenAI macOS Signing Pipeline — What Codex CLI Users Need to Know](/sketchnotes/articles/2026-04-12-axios-supply-chain-openai-macos-signing-pipeline.png)
-
 # Axios Supply Chain Attack Reaches OpenAI macOS Signing Pipeline
+
+![Sketchnote diagram for: Axios Supply Chain Attack Reaches OpenAI macOS Signing Pipeline — What Codex CLI Users Need to Know](/sketchnotes/articles/2026-04-12-axios-supply-chain-openai-macos-signing-pipeline.png)
 
 
 The March 31 Axios npm supply chain attack — already covered in our [source map incident article](2026-04-09-source-map-incident-supply-chain-security-codex-cli.md) — has a direct impact on Codex CLI users that became public on April 10-11, 2026. OpenAI's macOS app-signing pipeline downloaded the malicious `axios@1.14.1` during a GitHub Actions workflow, exposing signing certificates and notarization materials.

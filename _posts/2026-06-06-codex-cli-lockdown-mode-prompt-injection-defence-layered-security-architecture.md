@@ -5,7 +5,7 @@ timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-codex-cli-lockdown-mode-prompt-injection-defence-layered-security-architecture"
 tags: ["lockdown-mode", "prompt-injection", "security", "codex-cli", "sandbox", "data-exfiltration", "elevated-risk", "web-search", "defence-in-depth"]
 date: 2026-06-06T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
 # Lockdown Mode, Elevated Risk Labels, and Why Codex CLI Was Already Locked Down: Prompt Injection Defence Across the OpenAI Surface
 

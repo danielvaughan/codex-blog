@@ -2,7 +2,7 @@
 title: "Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight"
 description: "The default posture for working with agentic tools has always been: write a careful prompt, send it, wait, evaluate the output, and iterate."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - workflow-patterns
   - approval-modes
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-29T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-29-codex-cli-mid-turn-steering"
 ---
-![Sketchnote diagram for: Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight](/sketchnotes/articles/2026-03-29-codex-cli-mid-turn-steering.png)
-
 # Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight
+
+![Sketchnote diagram for: Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight](/sketchnotes/articles/2026-03-29-codex-cli-mid-turn-steering.png)
 
 
 ---

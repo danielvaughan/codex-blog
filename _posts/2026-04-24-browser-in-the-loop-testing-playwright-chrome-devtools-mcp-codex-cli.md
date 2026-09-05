@@ -6,12 +6,11 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli"
 tags: ["codex-cli", "playwright", "chrome-devtools", "mcp", "browser-testing", "e2e", "automation", "debugging"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Browser-in-the-loop testing: Playwright + Chrome DevTools MCP + Codex CLI](/sketchnotes/articles/2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli.png)
-
-
 # Browser-in-the-loop testing: Playwright + Chrome DevTools MCP + Codex CLI
+
+![Sketchnote diagram for: Browser-in-the-loop testing: Playwright + Chrome DevTools MCP + Codex CLI](/sketchnotes/articles/2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli.png)
 
 
 Coding agents write code they cannot see running. They generate a component, commit it, and hope the browser agrees. Browser-in-the-loop testing closes that gap by giving Codex CLI real-time access to browser state through two complementary MCP servers: **Playwright MCP** (v0.0.75) for driving user interactions and **Chrome DevTools MCP** (v0.21) for deep inspection and debugging[^1][^2]. Together they form a generate-drive-inspect loop that keeps the agent inside a single session from code generation through visual verification and performance audit.

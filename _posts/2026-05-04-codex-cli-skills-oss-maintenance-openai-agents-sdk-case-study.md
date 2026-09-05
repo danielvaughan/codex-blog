@@ -6,12 +6,11 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-skills-oss-maintenance-openai-agents-sdk-case-study"
 tags: ["codex-cli", "skills", "SKILL.md", "AGENTS.md", "open-source", "maintenance", "GitHub Actions", "CI", "automation", "best-practices"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Skills for OSS Maintenance: Lessons from OpenAI's Own Agents SDK Repositories](/sketchnotes/articles/2026-05-04-codex-cli-skills-oss-maintenance-openai-agents-sdk-case-study.png)
-
-
 # Codex CLI Skills for OSS Maintenance: Lessons from OpenAI's Own Agents SDK Repositories
+
+![Sketchnote diagram for: Codex CLI Skills for OSS Maintenance: Lessons from OpenAI's Own Agents SDK Repositories](/sketchnotes/articles/2026-05-04-codex-cli-skills-oss-maintenance-openai-agents-sdk-case-study.png)
 
 
 ---

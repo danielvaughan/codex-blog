@@ -2,7 +2,7 @@
 title: "Codex CLI 3 Million Users: Growth Trajectory and What the Usage Limit Reset Strategy Means"
 description: "On 8 April 2026, Sam Altman announced that Codex had crossed three million weekly active users."
 date: 2026-04-09T08:30:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - growth
   - 3-million-users
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-04-09T09:30:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-codex-3-million-users-growth-usage-limits"
 ---
-![Sketchnote diagram for: Codex CLI 3 Million Users: Growth Trajectory and What the Usage Limit Reset Strategy Means](/sketchnotes/articles/2026-04-09-codex-3-million-users-growth-usage-limits.png)
-
 # Codex CLI 3 Million Users: Growth Trajectory and What the Usage Limit Reset Strategy Means
+
+![Sketchnote diagram for: Codex CLI 3 Million Users: Growth Trajectory and What the Usage Limit Reset Strategy Means](/sketchnotes/articles/2026-04-09-codex-3-million-users-growth-usage-limits.png)
 
 
 ---

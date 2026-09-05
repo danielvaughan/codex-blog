@@ -6,12 +6,11 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-amazon-bedrock-provider-multi-cloud-model-access"
 tags: ["codex-cli", "amazon-bedrock", "multi-cloud", "enterprise", "configuration", "providers"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Amazon Bedrock Provider for Codex CLI: Multi-Cloud Model Access](/sketchnotes/articles/2026-04-21-codex-cli-amazon-bedrock-provider-multi-cloud-model-access.png)
-
-
 # Amazon Bedrock Provider for Codex CLI: Multi-Cloud Model Access
+
+![Sketchnote diagram for: Amazon Bedrock Provider for Codex CLI: Multi-Cloud Model Access](/sketchnotes/articles/2026-04-21-codex-cli-amazon-bedrock-provider-multi-cloud-model-access.png)
 
 
 ---

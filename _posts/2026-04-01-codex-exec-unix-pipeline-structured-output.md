@@ -2,7 +2,7 @@
 title: "Codex CLI as a Unix Pipeline Citizen: stdin, JSONL Streams, and Structured Output"
 description: "Most coverage of Codex CLI focuses on the interactive TUI — the conversational loop where you type a prompt and watch the agent work. But codex exec turns."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - ci-cd
   - automation
@@ -11,9 +11,9 @@ type: Technical Article
 timestamp: 2026-04-01T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-01-codex-exec-unix-pipeline-structured-output"
 ---
-![Sketchnote diagram for: Codex CLI as a Unix Pipeline Citizen: stdin, JSONL Streams, and Structured Output](/sketchnotes/articles/2026-04-01-codex-exec-unix-pipeline-structured-output.png)
-
 # Codex CLI as a Unix Pipeline Citizen: stdin, JSONL Streams, and Structured Output
+
+![Sketchnote diagram for: Codex CLI as a Unix Pipeline Citizen: stdin, JSONL Streams, and Structured Output](/sketchnotes/articles/2026-04-01-codex-exec-unix-pipeline-structured-output.png)
 
 
 ---

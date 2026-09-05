@@ -2,7 +2,7 @@
 title: "Codex CLI Security Model: The Two-Axis Approval and Sandbox Framework"
 description: "> Two independent axes: what Codex ASKS vs what the OS ALLOWS."
 date: 2026-04-08T00:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 type: Technical Article
 timestamp: 2026-04-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-cli-security-model-approval-sandbox-two-axis"
@@ -12,9 +12,9 @@ tags:
   - sandbox
   - approval
 ---
-![Sketchnote diagram for: Codex CLI Security Model: The Two-Axis Approval and Sandbox Framework](/sketchnotes/articles/2026-04-08-codex-cli-security-model-approval-sandbox-two-axis.png)
-
 # Codex CLI Security Model: The Two-Axis Approval and Sandbox Framework
+
+![Sketchnote diagram for: Codex CLI Security Model: The Two-Axis Approval and Sandbox Framework](/sketchnotes/articles/2026-04-08-codex-cli-security-model-approval-sandbox-two-axis.png)
 
 > Two independent axes: what Codex ASKS vs what the OS ALLOWS.
 

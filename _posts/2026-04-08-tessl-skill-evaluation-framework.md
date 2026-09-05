@@ -2,7 +2,7 @@
 title: "Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software"
 description: "You have written a skill for your coding agent. It looks right. It seems to work when you try it."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - ecosystem
   - skills
@@ -11,9 +11,9 @@ type: Technical Article
 timestamp: 2026-04-08T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-tessl-skill-evaluation-framework"
 ---
-![Sketchnote diagram for: Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software](/sketchnotes/articles/2026-04-08-tessl-skill-evaluation-framework.png)
-
 # Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software
+
+![Sketchnote diagram for: Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software](/sketchnotes/articles/2026-04-08-tessl-skill-evaluation-framework.png)
 
 
 ---

@@ -6,11 +6,11 @@ timestamp: 2026-04-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-mcp-tool-namespacing-wall-time-tracking"
 tags: ["mcp", "namespacing", "wall-time", "performance", "tool-collision", "codex-cli"]
 date: 2026-04-11T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: MCP Tool Namespacing and Wall Time Tracking in Codex CLI](/sketchnotes/articles/2026-04-11-mcp-tool-namespacing-wall-time-tracking.png)
-
 # MCP Tool Namespacing and Wall Time Tracking in Codex CLI
+
+![Sketchnote diagram for: MCP Tool Namespacing and Wall Time Tracking in Codex CLI](/sketchnotes/articles/2026-04-11-mcp-tool-namespacing-wall-time-tracking.png)
 
 
 **Update (April 15):** PR [#17404](https://github.com/openai/codex/pull/17404) (tool namespacing) has now **merged** (April 15, 13:03 UTC). All MCP tools are registered with consistent namespace format regardless of deferral status. The fix also introduces `ToolName` provenance tracking in code mode, mapping JS function names to correct `ToolName` for invocation. This eliminates the dual-registration bug where direct and deferred MCP tools used different formats.

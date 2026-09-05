@@ -6,12 +6,11 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality"
 tags: ["codex-cli", "context-management", "compaction", "telemetry", "observability", "long-sessions", "session-quality", "context-health"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns](/sketchnotes/articles/2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality.png)
-
-
 # Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns
+
+![Sketchnote diagram for: Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns](/sketchnotes/articles/2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality.png)
 
 
 ---

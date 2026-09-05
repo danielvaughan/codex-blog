@@ -2,7 +2,7 @@
 title: "GPT-5.5 Drops: What Changes for Codex Users"
 description: "Six weeks. That is the gap between GPT-5.4 and GPT-5.5. OpenAI released its newest frontier model on 23 April 2026, rolling it out simultaneously to ChatGPT."
 date: 2026-04-23T19:30:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - gpt-5.5
   - model-upgrade
@@ -18,10 +18,9 @@ type: Technical Article
 timestamp: 2026-04-23T20:30:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-gpt-5-5-drops-what-changes-for-codex-users"
 ---
-![Sketchnote diagram for: GPT-5.5 Drops: What Changes for Codex Users](/sketchnotes/articles/2026-04-23-gpt-5-5-drops-what-changes-for-codex-users.png)
-
-
 # GPT-5.5 Drops: What Changes for Codex Users
+
+![Sketchnote diagram for: GPT-5.5 Drops: What Changes for Codex Users](/sketchnotes/articles/2026-04-23-gpt-5-5-drops-what-changes-for-codex-users.png)
 
 Six weeks. That is the gap between GPT-5.4 and GPT-5.5. OpenAI released its newest frontier model on 23 April 2026, rolling it out simultaneously to ChatGPT and Codex for all paid tiers — Plus, Pro, Business, and Enterprise[^1]. The internal codename is "Spud"[^2], and it arrives at a moment when the competitive pressure from Anthropic's Claude Mythos Preview has been intensifying.
 

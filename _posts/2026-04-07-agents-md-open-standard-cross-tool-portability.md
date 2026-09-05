@@ -2,7 +2,7 @@
 title: "AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance"
 description: "The AGENTS.md file that sits in your repository root has quietly become the most consequential configuration standard in agentic coding."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - opinion
   - agents-md
@@ -11,9 +11,9 @@ type: Technical Article
 timestamp: 2026-04-07T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-07-agents-md-open-standard-cross-tool-portability"
 ---
-![Sketchnote diagram for: AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance](/sketchnotes/articles/2026-04-07-agents-md-open-standard-cross-tool-portability.png)
-
 # AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance
+
+![Sketchnote diagram for: AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance](/sketchnotes/articles/2026-04-07-agents-md-open-standard-cross-tool-portability.png)
 
 
 ---

@@ -6,11 +6,11 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-best-practices-workflow-maturity-model"
 tags: ["best-practices", "workflow-maturity", "AGENTS.md", "skills", "automation", "configuration", "prompting", "official-guidance"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model](/sketchnotes/articles/2026-04-12-codex-cli-best-practices-workflow-maturity-model.png)
-
 # The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model
+
+![Sketchnote diagram for: The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model](/sketchnotes/articles/2026-04-12-codex-cli-best-practices-workflow-maturity-model.png)
 
 
 OpenAI recently published a canonical best practices guide at `developers.openai.com/codex/learn/best-practices` [^1] — their first attempt at codifying the progression from novice Codex CLI user to autonomous workflow architect. The guide is not merely a list of tips; it describes a **six-stage maturity model** for how practitioners should evolve their relationship with the tool. This article decodes each stage, maps it to concrete configuration and code, and highlights where community practice has already outpaced the official guidance.

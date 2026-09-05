@@ -6,11 +6,11 @@ timestamp: 2026-04-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-14-context-compaction-deep-dive-codex-cli-claude-code-opencode"
 tags: ["context-compaction", "token-management", "long-sessions", "codex-cli", "claude-code", "opencode", "encrypted-content", "session-memory", "/compact"]
 date: 2026-04-14T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Context Compaction Deep Dive: How Codex CLI, Claude Code, and OpenCode Manage Long Sessions](/sketchnotes/articles/2026-04-14-context-compaction-deep-dive-codex-cli-claude-code-opencode.png)
-
 # Context Compaction Deep Dive: How Codex CLI, Claude Code, and OpenCode Manage Long Sessions
+
+![Sketchnote diagram for: Context Compaction Deep Dive: How Codex CLI, Claude Code, and OpenCode Manage Long Sessions](/sketchnotes/articles/2026-04-14-context-compaction-deep-dive-codex-cli-claude-code-opencode.png)
 
 
 Long-running agentic coding sessions inevitably hit the context window ceiling. When a session's accumulated messages — prompts, tool calls, file reads, diffs, reasoning traces — exceed the model's context budget, performance degrades, costs spike, and the agent starts "forgetting" earlier work. Context compaction is the mechanism that prevents this collapse by summarising or compressing older conversation history while preserving enough state for the agent to continue coherently.

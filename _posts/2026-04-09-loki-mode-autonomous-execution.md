@@ -2,7 +2,7 @@
 title: "Loki Mode: 41-Agent Autonomous Execution and What Codex CLI Can Learn From It"
 description: "The multi-agent orchestration space around Codex CLI has matured rapidly in early 2026. Alongside Codex-native tools like OMX and cross-model frameworks."
 date: 2026-04-09T12:11:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - loki-mode
   - autonomous-execution
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-04-09T13:11:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-loki-mode-autonomous-execution"
 ---
-![Sketchnote diagram for: Loki Mode: 41-Agent Autonomous Execution and What Codex CLI Can Learn From It](/sketchnotes/articles/2026-04-09-loki-mode-autonomous-execution.png)
-
 # Loki Mode: 41-Agent Autonomous Execution and What Codex CLI Can Learn From It
+
+![Sketchnote diagram for: Loki Mode: 41-Agent Autonomous Execution and What Codex CLI Can Learn From It](/sketchnotes/articles/2026-04-09-loki-mode-autonomous-execution.png)
 
 
 ---

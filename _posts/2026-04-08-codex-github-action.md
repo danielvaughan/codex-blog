@@ -2,7 +2,7 @@
 title: "The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs"
 description: "The openai/codex-action@v1 GitHub Action brings Codex's agentic capabilities into your CI/CD pipelines without requiring manual CLI installation or proxy."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - ci-cd
   - github-actions
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-04-08T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-github-action"
 ---
-![Sketchnote diagram for: The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs](/sketchnotes/articles/2026-04-08-codex-github-action.png)
-
 # The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs
+
+![Sketchnote diagram for: The Official Codex GitHub Action: Inputs, Outputs and Safe Use on Fork PRs](/sketchnotes/articles/2026-04-08-codex-github-action.png)
 
 
 ---

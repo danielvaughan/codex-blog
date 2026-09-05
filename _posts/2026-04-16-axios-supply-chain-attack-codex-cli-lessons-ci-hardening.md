@@ -6,11 +6,11 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-axios-supply-chain-attack-codex-cli-lessons-ci-hardening"
 tags: ["supply-chain-security", "axios", "npm", "github-actions", "certificate-signing", "ci-cd", "hardening", "north-korea", "UNC1069"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: The Axios Supply Chain Attack: How It Hit Codex CLI's Signing Pipeline and What Teams Should Learn](/sketchnotes/articles/2026-04-16-axios-supply-chain-attack-codex-cli-lessons-ci-hardening.png)
-
 # The Axios Supply Chain Attack: How It Hit Codex CLI's Signing Pipeline and What Teams Should Learn
+
+![Sketchnote diagram for: The Axios Supply Chain Attack: How It Hit Codex CLI's Signing Pipeline and What Teams Should Learn](/sketchnotes/articles/2026-04-16-axios-supply-chain-attack-codex-cli-lessons-ci-hardening.png)
 
 
 On 31 March 2026, a North Korean threat actor compromised the Axios npm package — the most popular HTTP client in the JavaScript ecosystem, with over 100 million weekly downloads [^1]. Within hours, the malicious payload had reached OpenAI's macOS code-signing pipeline, touching Codex CLI, the Codex App, ChatGPT Desktop, and Atlas [^2]. No user data was compromised, but OpenAI revoked and rotated its macOS signing certificate as a precaution [^2].

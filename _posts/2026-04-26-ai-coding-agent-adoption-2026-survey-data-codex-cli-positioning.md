@@ -6,12 +6,11 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-ai-coding-agent-adoption-2026-survey-data-codex-cli-positioning"
 tags: ["adoption", "survey-data", "jetbrains", "sonar", "stanford", "market-analysis", "codex-cli", "claude-code", "github-copilot", "developer-productivity", "enterprise"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: AI Coding Agent Adoption in 2026: What the Survey Data Actually Shows and Where Codex CLI Fits](/sketchnotes/articles/2026-04-26-ai-coding-agent-adoption-2026-survey-data-codex-cli-positioning.png)
-
-
 # AI Coding Agent Adoption in 2026: What the Survey Data Actually Shows and Where Codex CLI Fits
+
+![Sketchnote diagram for: AI Coding Agent Adoption in 2026: What the Survey Data Actually Shows and Where Codex CLI Fits](/sketchnotes/articles/2026-04-26-ai-coding-agent-adoption-2026-survey-data-codex-cli-positioning.png)
 
 
 Three independent surveys published in April 2026 — the JetBrains AI Pulse (10,000+ developers), Sonar's State of Code (developer survey + telemetry), and the Stanford AI Index (meta-analysis of the field) — collectively paint the most complete picture we have had of how developers are actually using AI coding tools at work. The headline number is dramatic: 90% of developers now regularly use at least one AI tool for coding[^1]. But the detail beneath that headline matters far more, particularly for teams evaluating or already using Codex CLI.

@@ -6,12 +6,11 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-image-generation-gpt-image-2-visual-development-workflows"
 tags: ["codex-cli", "image-generation", "gpt-image-2", "imagegen", "frontend-design", "visual-workflows", "figma", "playwright", "prototyping"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Image generation in Codex CLI: gpt-image-2, the $imagegen skill, and visual development workflows](/sketchnotes/articles/2026-04-27-codex-cli-image-generation-gpt-image-2-visual-development-workflows.png)
-
-
 # Image generation in Codex CLI: gpt-image-2, the $imagegen skill, and visual development workflows
+
+![Sketchnote diagram for: Image generation in Codex CLI: gpt-image-2, the $imagegen skill, and visual development workflows](/sketchnotes/articles/2026-04-27-codex-cli-image-generation-gpt-image-2-visual-development-workflows.png)
 
 
 On 21 April 2026 OpenAI launched **gpt-image-2**, a purpose-built image generation model that replaced the earlier gpt-image-1.5 as Codex CLI's default[^2][^3]. Five weeks later, DALL-E 2 and DALL-E 3 were retired from the API entirely (12 May 2026)[^10]. Codex CLI's image story is now gpt-image-2 or nothing.

@@ -6,12 +6,11 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-cli-agent-loop-explained"
 tags: ["codex-cli", "agent-loop", "architecture", "internals", "responses-api", "context-management"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: The Codex CLI Agent Loop Explained: What Happens When You Hit Enter](/sketchnotes/articles/2026-04-18-codex-cli-agent-loop-explained.png)
-
-
 # The Codex CLI Agent Loop Explained: What Happens When You Hit Enter
+
+![Sketchnote diagram for: The Codex CLI Agent Loop Explained: What Happens When You Hit Enter](/sketchnotes/articles/2026-04-18-codex-cli-agent-loop-explained.png)
 
 
 Every time you type a prompt into Codex CLI and press Enter, an orchestration engine kicks into gear — assembling context, querying a model, executing tools, and looping until the task is done. OpenAI calls this the **agent loop**, and understanding it is the difference between treating Codex as a black box and being able to debug, optimise, and extend it effectively.

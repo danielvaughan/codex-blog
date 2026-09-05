@@ -2,7 +2,7 @@
 title: "Codex CLI Hooks: Complete Guide to Events, Policy Engines and Production Patterns"
 slug: codex-cli-hooks-complete-guide-events-policy-patterns
 date: "2026-04-15T00:00:00+00:00"
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 updated: "2026-04-18"
 author: "Seb (codex.quest)"
 description: >
@@ -35,10 +35,9 @@ type: Technical Article
 timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-codex-cli-hooks-complete-guide-events-policy-patterns"
 ---
-![Sketchnote diagram for: Codex CLI Hooks: Complete Guide to Events, Policy Engines and Production Patterns](/sketchnotes/articles/2026-04-15-codex-cli-hooks-complete-guide-events-policy-patterns.png)
-
-
 # Codex CLI Hooks: Complete Guide
+
+![Sketchnote diagram for: Codex CLI Hooks: Complete Guide to Events, Policy Engines and Production Patterns](/sketchnotes/articles/2026-04-15-codex-cli-hooks-complete-guide-events-policy-patterns.png)
 
 > This article consolidates and supersedes the earlier individual articles on
 > hooks deep-dive, the hooks engine, PreToolUse/PostToolUse hooks, and

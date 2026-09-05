@@ -2,7 +2,7 @@
 title: "gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow"
 description: "In late March 2026, OpenAI shipped two new models — gpt-5-codex and gpt-5-codex-mini — announced by @thsottiaux."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - models
   - model-selection
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-30T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-gpt-5-codex-new-flagship-model-guide"
 ---
-![Sketchnote diagram for: gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow](/sketchnotes/articles/2026-03-30-gpt-5-codex-new-flagship-model-guide.png)
-
 # gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow
+
+![Sketchnote diagram for: gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow](/sketchnotes/articles/2026-03-30-gpt-5-codex-new-flagship-model-guide.png)
 
 
 In late March 2026, OpenAI shipped two new models — `gpt-5-codex` and `gpt-5-codex-mini` — announced by @thsottiaux. The naming is deliberate: these are not "gpt-5.4 Codex" variants but a distinct model tier with a simplified name, representing a consolidation of the Codex model line.

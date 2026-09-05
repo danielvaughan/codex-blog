@@ -6,12 +6,11 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-knowledge-work-data-analysis-reports-slides-beyond-code"
 tags: ["codex-cli", "knowledge-work", "data-analysis", "report-generation", "slide-decks", "codex-exec", "structured-output", "beyond-code", "automation", "pptx", "pandas", "skills"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI for Knowledge Work: Data Analysis, Report Generation, and Slide Deck Automation Beyond Code](/sketchnotes/articles/2026-05-13-codex-cli-knowledge-work-data-analysis-reports-slides-beyond-code.png)
-
-
 # Codex CLI for Knowledge Work: Data Analysis, Report Generation, and Slide Deck Automation Beyond Code
+
+![Sketchnote diagram for: Codex CLI for Knowledge Work: Data Analysis, Report Generation, and Slide Deck Automation Beyond Code](/sketchnotes/articles/2026-05-13-codex-cli-knowledge-work-data-analysis-reports-slides-beyond-code.png)
 
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "The codex-rs Architecture: How OpenAI Rewrote Codex CLI in Rust"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 description: "When OpenAI open-sourced Codex CLI in April 2025, the codebase was TypeScript on Node.js — a deliberate choice for velocity."
 substack_status: draft
 tags:
@@ -17,9 +17,9 @@ type: Technical Article
 timestamp: 2026-03-28T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-rs-rust-rewrite-architecture"
 ---
-![Sketchnote diagram for: The codex-rs Architecture: How OpenAI Rewrote Codex CLI in Rust](/sketchnotes/articles/2026-03-28-codex-rs-rust-rewrite-architecture.png)
-
 # The codex-rs Architecture: How OpenAI Rewrote Codex CLI in Rust
+
+![Sketchnote diagram for: The codex-rs Architecture: How OpenAI Rewrote Codex CLI in Rust](/sketchnotes/articles/2026-03-28-codex-rs-rust-rewrite-architecture.png)
 
 
 ---

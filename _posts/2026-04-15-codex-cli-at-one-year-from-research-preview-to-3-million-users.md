@@ -6,11 +6,11 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-codex-cli-at-one-year-from-research-preview-to-3-million-users"
 tags: ["anniversary", "codex-cli", "timeline", "ecosystem", "growth", "milestones", "retrospective"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI at One Year: From Research Preview to 3 Million Weekly Active Users](/sketchnotes/articles/2026-04-15-codex-cli-at-one-year-from-research-preview-to-3-million-users.png)
-
 # Codex CLI at One Year: From Research Preview to 3 Million Weekly Active Users
+
+![Sketchnote diagram for: Codex CLI at One Year: From Research Preview to 3 Million Weekly Active Users](/sketchnotes/articles/2026-04-15-codex-cli-at-one-year-from-research-preview-to-3-million-users.png)
 
 
 On 16 April 2025, OpenAI quietly released an open-source terminal coding agent called Codex CLI[^1]. Built by Fouad Matin and Michael Bolin, it was a lightweight Node.js tool that let developers write and edit code using conversational commands from their terminal[^2]. One year later, Codex has grown to over 3 million weekly active users[^3], been rewritten from TypeScript to Rust[^4], spawned a desktop app and cloud execution platform, and triggered an acquisition that reshaped the Python tooling ecosystem. This article traces the twelve months that turned a research preview into one of the most consequential developer tools of 2026.

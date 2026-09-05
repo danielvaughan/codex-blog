@@ -2,16 +2,15 @@
 title: "The Official Codex Prompting Guide: System Prompts, Personality Modes, and Custom Harness Patterns"
 description: "OpenAI's Cookbook contains a document that most Codex CLI users never read: the Codex Prompting Guide."
 date: 2026-04-10T21:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 type: Technical Article
 timestamp: 2026-04-10T22:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-codex-prompting-guide-custom-harness-patterns"
 tags: ["prompting-guide", "custom-harness", "system-prompt", "personality-modes", "metaprompting", "apply-patch", "responses-api", "parallel-tool-calling"]
 ---
-![Sketchnote diagram for: The Official Codex Prompting Guide: System Prompts, Personality Modes, and Custom Harness Patterns](/sketchnotes/articles/2026-04-10-codex-prompting-guide-custom-harness-patterns.png)
-
-
 # The Official Codex Prompting Guide: System Prompts, Personality Modes, and Custom Harness Patterns
+
+![Sketchnote diagram for: The Official Codex Prompting Guide: System Prompts, Personality Modes, and Custom Harness Patterns](/sketchnotes/articles/2026-04-10-codex-prompting-guide-custom-harness-patterns.png)
 
 
 OpenAI's Cookbook contains a document that most Codex CLI users never read: the **Codex Prompting Guide**[^1]. It is the canonical reference for anyone building a custom harness around gpt-5.3-codex or GPT-5.4 — and it reveals exactly how OpenAI structures the system prompt, tool definitions, and behavioural directives that power every Codex surface, from the CLI to the desktop app to the VS Code extension.

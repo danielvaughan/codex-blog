@@ -2,7 +2,7 @@
 title: "Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD"
 description: "Kubernetes YAML is notoriously error-prone. Helm templates add Go template syntax on top. Operator development demands reconciliation loops, CRD schemas."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - language-guide
   - kubernetes
@@ -13,9 +13,9 @@ type: Technical Article
 timestamp: 2026-04-01T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-01-codex-cli-kubernetes-cloud-native-teams"
 ---
-![Sketchnote diagram for: Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD](/sketchnotes/articles/2026-04-01-codex-cli-kubernetes-cloud-native-teams.png)
-
 # Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD
+
+![Sketchnote diagram for: Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD](/sketchnotes/articles/2026-04-01-codex-cli-kubernetes-cloud-native-teams.png)
 
 
 Kubernetes YAML is notoriously error-prone. Helm templates add Go template syntax on top. Operator development demands reconciliation loops, CRD schemas, and RBAC policies — all of which must be kept in sync. Codex CLI is well-suited to this domain precisely because it can generate manifests, run `kubectl apply --dry-run=server`, interpret the output, and iterate — all within a single agentic turn.

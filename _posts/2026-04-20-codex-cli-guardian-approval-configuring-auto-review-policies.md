@@ -2,16 +2,15 @@
 title: "Codex CLI Guardian Approval: Configuring Auto-Review Policies"
 description: "Every developer who has spent a day in on-request mode knows the pattern: approve, approve, approve, glance-approve, approve-without-reading. That reflexive."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 type: Technical Article
 timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-guardian-approval-configuring-auto-review-policies"
 tags: ["codex-cli", "guardian", "approval-policy", "smart-approvals", "auto-review", "configuration", "security"]
 ---
-![Sketchnote diagram for: Codex CLI Guardian Approval: Configuring Auto-Review Policies](/sketchnotes/articles/2026-04-20-codex-cli-guardian-approval-configuring-auto-review-policies.png)
-
-
 # Codex CLI Guardian Approval: Configuring Auto-Review Policies
+
+![Sketchnote diagram for: Codex CLI Guardian Approval: Configuring Auto-Review Policies](/sketchnotes/articles/2026-04-20-codex-cli-guardian-approval-configuring-auto-review-policies.png)
 
 
 ---

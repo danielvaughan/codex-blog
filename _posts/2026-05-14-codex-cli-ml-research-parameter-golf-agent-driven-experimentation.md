@@ -6,12 +6,11 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation"
 tags: ["codex-cli", "machine-learning", "parameter-golf", "agent-driven-research", "hugging-face", "model-training", "experimentation"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect](/sketchnotes/articles/2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation.png)
-
-
 # Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect
+
+![Sketchnote diagram for: Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect](/sketchnotes/articles/2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation.png)
 
 
 OpenAI's Parameter Golf competition — train the best language model that fits in 16 MB and completes training in under ten minutes on 8×H100s — drew over 2,000 submissions from more than 1,000 participants between March and April 2026[^1]. The most striking finding was not the winning quantisation technique or the cleverest depth-recurrence trick. It was how pervasively coding agents reshaped the competition itself. Participants used Codex CLI, Claude Code, and other terminal agents to set up experiments faster, inspect unfamiliar code, and test ideas with less friction[^2]. OpenAI even built an internal Codex-based triage bot to handle the flood of submissions[^2]. This article examines what Parameter Golf revealed about agent-driven ML research and shows how to apply those patterns with Codex CLI today.

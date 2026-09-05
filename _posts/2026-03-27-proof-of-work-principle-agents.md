@@ -2,7 +2,7 @@
 title: "The Proof of Work Principle: Why Agents Need to Show Their Working"
 description: "There is a habit that developers have fallen into when working with autonomous coding agents: they read the diff, nod, and merge. The code arrived from."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 summary: "Opinion: Symphony's 'proof of work' concept reframes autonomous agents from magic boxes into accountable actors. CI green, PR review feedback, and walkthrough artefacts before human review — and why your Codex CLI setup should demand the same."
 tags:
   - opinion
@@ -17,9 +17,9 @@ type: Technical Article
 timestamp: 2026-03-27T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-27-proof-of-work-principle-agents"
 ---
-![Sketchnote diagram for: The Proof of Work Principle: Why Agents Need to Show Their Working](/sketchnotes/articles/2026-03-27-proof-of-work-principle-agents.png)
-
 # The Proof of Work Principle: Why Agents Need to Show Their Working
+
+![Sketchnote diagram for: The Proof of Work Principle: Why Agents Need to Show Their Working](/sketchnotes/articles/2026-03-27-proof-of-work-principle-agents.png)
 
 
 There is a habit that developers have fallen into when working with autonomous coding agents: they read the diff, nod, and merge. The code arrived from somewhere — a Codex run, a background automation, an overnight agent session — and it looks plausible, the tests pass locally, and there is a deadline. So you ship it.

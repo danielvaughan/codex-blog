@@ -6,12 +6,11 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-named-profiles-cookbook-configuration-templates"
 tags: ["codex-cli", "configuration", "profiles", "config.toml", "workflow", "productivity", "cost-optimisation"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates](/sketchnotes/articles/2026-04-30-codex-cli-named-profiles-cookbook-configuration-templates.png)
-
-
 # Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates
+
+![Sketchnote diagram for: Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates](/sketchnotes/articles/2026-04-30-codex-cli-named-profiles-cookbook-configuration-templates.png)
 
 
 Named profiles are one of the most underused features in Codex CLI. Instead of juggling CLI flags or maintaining separate config files, a single `codex -p deep` switches your entire configuration — model, reasoning effort, sandbox policy, service tier — in one argument. This article provides eight battle-tested profiles you can drop into your `~/.codex/config.toml` and start using immediately.

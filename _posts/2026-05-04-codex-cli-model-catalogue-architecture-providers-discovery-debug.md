@@ -6,12 +6,11 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-model-catalogue-architecture-providers-discovery-debug"
 tags: ["codex-cli", "models", "configuration", "architecture", "debugging", "providers"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Model Catalogue Architecture: Providers, Discovery, and Debugging Model Resolution](/sketchnotes/articles/2026-05-04-codex-cli-model-catalogue-architecture-providers-discovery-debug.png)
-
-
 # Codex CLI Model Catalogue Architecture: Providers, Discovery, and Debugging Model Resolution
+
+![Sketchnote diagram for: Codex CLI Model Catalogue Architecture: Providers, Discovery, and Debugging Model Resolution](/sketchnotes/articles/2026-05-04-codex-cli-model-catalogue-architecture-providers-discovery-debug.png)
 
 
 

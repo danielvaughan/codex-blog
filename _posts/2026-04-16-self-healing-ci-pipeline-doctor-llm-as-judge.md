@@ -6,11 +6,11 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-self-healing-ci-pipeline-doctor-llm-as-judge"
 tags: ["self-healing-ci", "llm-as-judge", "pipeline-doctor", "ci-cd", "codex-exec", "enterprise", "full-auto"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Self-Healing CI/CD for Agentic Systems: The Pipeline Doctor Pattern and LLM-as-a-Judge](/sketchnotes/articles/2026-04-16-self-healing-ci-pipeline-doctor-llm-as-judge.png)
-
 # Self-Healing CI/CD for Agentic Systems: The Pipeline Doctor Pattern and LLM-as-a-Judge
+
+![Sketchnote diagram for: Self-Healing CI/CD for Agentic Systems: The Pipeline Doctor Pattern and LLM-as-a-Judge](/sketchnotes/articles/2026-04-16-self-healing-ci-pipeline-doctor-llm-as-judge.png)
 
 
 Traditional CI/CD pipelines were designed for deterministic software. A test either passes or fails; a build either compiles or doesn't. But agentic AI systems produce probabilistic outputs — they don't return Y, they return Y-ish[^1]. This fundamental mismatch has driven a new generation of self-healing CI patterns that replace binary assertions with confidence-scored evaluations, and manual triage with autonomous repair agents.

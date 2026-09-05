@@ -2,7 +2,7 @@
 title: "Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)"
 description: "If you're building agentic pod workflows with Codex CLI subagents, here are the practical bugs and undocumented behaviours you'll hit — and how to work."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - reference
   - subagents
@@ -10,9 +10,9 @@ type: Technical Article
 timestamp: 2026-03-29T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-29-subagent-gotchas-known-issues"
 ---
-![Sketchnote diagram for: Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)](/sketchnotes/articles/2026-03-29-subagent-gotchas-known-issues.png)
-
 # Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)
+
+![Sketchnote diagram for: Codex CLI Subagent Gotchas: Known Issues and Workarounds (March 2026)](/sketchnotes/articles/2026-03-29-subagent-gotchas-known-issues.png)
 
 
 If you're building agentic pod workflows with Codex CLI subagents, here are the practical bugs and undocumented behaviours you'll hit — and how to work around them. Sourced from open GitHub issues as of March 2026.

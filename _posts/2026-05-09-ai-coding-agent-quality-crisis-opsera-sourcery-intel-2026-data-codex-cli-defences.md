@@ -6,12 +6,11 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-ai-coding-agent-quality-crisis-opsera-sourcery-intel-2026-data-codex-cli-defences"
 tags: ["security", "code-quality", "governance", "enterprise", "benchmarks", "hooks", "guardian", "permission-profiles", "config"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: The AI Coding Agent Quality Crisis: What the Opsera and Sourcery Intel 2026 Reports Reveal — and How to Configure Codex CLI to Stay Ahead of the Data](/sketchnotes/articles/2026-05-09-ai-coding-agent-quality-crisis-opsera-sourcery-intel-2026-data-codex-cli-defences.png)
-
-
 # The AI Coding Agent Quality Crisis: What the Opsera and Sourcery Intel 2026 Reports Reveal — and How to Configure Codex CLI to Stay Ahead of the Data
+
+![Sketchnote diagram for: The AI Coding Agent Quality Crisis: What the Opsera and Sourcery Intel 2026 Reports Reveal — and How to Configure Codex CLI to Stay Ahead of the Data](/sketchnotes/articles/2026-05-09-ai-coding-agent-quality-crisis-opsera-sourcery-intel-2026-data-codex-cli-defences.png)
 
 
 Two major industry reports landed in early 2026 and painted a sobering picture: AI coding agents demonstrably accelerate delivery, but they also introduce measurably more vulnerabilities, duplicate more code, and create a review bottleneck that most teams are not equipped to handle. The Opsera *AI Coding Impact 2026 Benchmark Report*[^1] analysed 250,000+ developers across 60+ enterprises. The Sourcery Intel *State of AI Coding Agents — 2026*[^2] synthesised market, benchmark, and security data across the entire agent landscape.

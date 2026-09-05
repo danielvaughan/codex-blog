@@ -6,12 +6,11 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-open-weight-models-codex-cli-local-coding-agents-comparison-guide"
 tags: ["codex-cli", "local-models", "open-weight", "ollama", "lm-studio", "gpt-oss", "qwen3-coder", "gemma-4", "deepseek", "performance", "comparison"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Open-Weight Models for Codex CLI: Choosing the Right Local Coding Agent in 2026](/sketchnotes/articles/2026-04-24-open-weight-models-codex-cli-local-coding-agents-comparison-guide.png)
-
-
 # Open-Weight Models for Codex CLI: Choosing the Right Local Coding Agent in 2026
+
+![Sketchnote diagram for: Open-Weight Models for Codex CLI: Choosing the Right Local Coding Agent in 2026](/sketchnotes/articles/2026-04-24-open-weight-models-codex-cli-local-coding-agents-comparison-guide.png)
 
 
 The open-weight model landscape for agentic coding has shifted dramatically in the past six months. OpenAI's GPT-OSS family, Qwen's Coder-Next, Google's Gemma 4, and DeepSeek V4 all claim to be viable local alternatives for Codex CLI — but their real-world suitability varies enormously depending on your hardware, context needs, and workflow patterns. This article provides a practical selection guide for senior developers who want to run Codex CLI against local models without the hand-waving.

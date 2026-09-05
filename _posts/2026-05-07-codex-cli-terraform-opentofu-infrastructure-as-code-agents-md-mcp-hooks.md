@@ -6,12 +6,11 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-terraform-opentofu-infrastructure-as-code-agents-md-mcp-hooks"
 tags: ["codex-cli", "terraform", "opentofu", "infrastructure-as-code", "mcp", "hooks", "AGENTS.md", "devops"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI for Terraform and OpenTofu Teams: MCP Servers, Safety Hooks, and AGENTS.md Patterns for Infrastructure as Code](/sketchnotes/articles/2026-05-07-codex-cli-terraform-opentofu-infrastructure-as-code-agents-md-mcp-hooks.png)
-
-
 # Codex CLI for Terraform and OpenTofu Teams: MCP Servers, Safety Hooks, and AGENTS.md Patterns for Infrastructure as Code
+
+![Sketchnote diagram for: Codex CLI for Terraform and OpenTofu Teams: MCP Servers, Safety Hooks, and AGENTS.md Patterns for Infrastructure as Code](/sketchnotes/articles/2026-05-07-codex-cli-terraform-opentofu-infrastructure-as-code-agents-md-mcp-hooks.png)
 
 
 

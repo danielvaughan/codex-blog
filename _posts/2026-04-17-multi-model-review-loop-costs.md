@@ -6,11 +6,11 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-multi-model-review-loop-costs"
 tags: ["cost-analysis", "multi-model", "review-loops", "enterprise", "budget", "slm-judge", "model-routing"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: The Real Cost of Multi-Model Review Loops](/sketchnotes/articles/2026-04-17-multi-model-review-loop-costs.png)
-
 # The Real Cost of Multi-Model Review Loops: When Cross-Provider Quality Gates Eat Your Budget
+
+![Sketchnote diagram for: The Real Cost of Multi-Model Review Loops](/sketchnotes/articles/2026-04-17-multi-model-review-loop-costs.png)
 
 
 Cross-model review — writing code with one agent and reviewing it with another — has become the de facto quality pattern in agentic coding workflows. But while teams celebrate the defect-detection improvements, few have done the arithmetic on what three-provider review loops actually cost per merge request. This article breaks down the numbers, identifies the diminishing-returns cliff, and presents the SLM-as-judge alternative that can cut review spend by an order of magnitude.

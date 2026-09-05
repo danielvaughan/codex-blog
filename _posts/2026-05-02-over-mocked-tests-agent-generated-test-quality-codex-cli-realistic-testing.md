@@ -6,11 +6,11 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-over-mocked-tests-agent-generated-test-quality-codex-cli-realistic-testing"
 tags: ["codex-cli", "testing", "mocking", "research", "AGENTS.md", "PostToolUse", "test-quality", "MSR-2026"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: The Over-Mocking Problem: What 1.2 Million Commits Reveal About Agent-Generated Tests and How to Configure Codex CLI for Realistic Test Output](/sketchnotes/articles/2026-05-02-over-mocked-tests-agent-generated-test-quality-codex-cli-realistic-testing.png)
-
 # The Over-Mocking Problem: What 1.2 Million Commits Reveal About Agent-Generated Tests and How to Configure Codex CLI for Realistic Test Output
+
+![Sketchnote diagram for: The Over-Mocking Problem: What 1.2 Million Commits Reveal About Agent-Generated Tests and How to Configure Codex CLI for Realistic Test Output](/sketchnotes/articles/2026-05-02-over-mocked-tests-agent-generated-test-quality-codex-cli-realistic-testing.png)
 
 
 ---

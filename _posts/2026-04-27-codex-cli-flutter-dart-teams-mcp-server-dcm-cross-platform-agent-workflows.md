@@ -6,12 +6,11 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-flutter-dart-teams-mcp-server-dcm-cross-platform-agent-workflows"
 tags: ["language-guide", "mcp", "agents-md", "config-toml", "testing", "hooks"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI for Flutter and Dart Teams: MCP Server, DCM, and Agent-Driven Cross-Platform Development](/sketchnotes/articles/2026-04-27-codex-cli-flutter-dart-teams-mcp-server-dcm-cross-platform-agent-workflows.png)
-
-
 # Codex CLI for Flutter and Dart Teams: MCP Server, DCM, and Agent-Driven Cross-Platform Development
+
+![Sketchnote diagram for: Codex CLI for Flutter and Dart Teams: MCP Server, DCM, and Agent-Driven Cross-Platform Development](/sketchnotes/articles/2026-04-27-codex-cli-flutter-dart-teams-mcp-server-dcm-cross-platform-agent-workflows.png)
 
 
 Flutter's widget-based architecture, Dart's strong type system, and the framework's rapid feedback loop (hot reload, hot restart) make it unusually well-suited for agentic development. The Dart and Flutter MCP server — shipping with Dart 3.9+ — gives Codex CLI direct access to the analyser, formatter, test runner, pub.dev search, and runtime introspection, closing the gap between what the model generates and what actually runs on-device [^1]. This article covers the full setup for Flutter teams adopting Codex CLI, from MCP configuration through testing workflows to CI integration.

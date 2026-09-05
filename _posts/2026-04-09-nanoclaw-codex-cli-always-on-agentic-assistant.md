@@ -2,7 +2,7 @@
 title: "NanoClaw and Codex CLI: Building an Always-On Agentic Assistant"
 description: "Codex CLI excels at interactive coding sessions and scripted automation via codex exec. But what happens when you need an agent that persists across hours."
 date: 2026-04-09T04:16:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - nanoclaw
   - always-on
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-04-09T05:16:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-nanoclaw-codex-cli-always-on-agentic-assistant"
 ---
-![Sketchnote diagram for: NanoClaw and Codex CLI: Building an Always-On Agentic Assistant](/sketchnotes/articles/2026-04-09-nanoclaw-codex-cli-always-on-agentic-assistant.png)
-
 # NanoClaw and Codex CLI: Building an Always-On Agentic Assistant
+
+![Sketchnote diagram for: NanoClaw and Codex CLI: Building an Always-On Agentic Assistant](/sketchnotes/articles/2026-04-09-nanoclaw-codex-cli-always-on-agentic-assistant.png)
 
 
 ---

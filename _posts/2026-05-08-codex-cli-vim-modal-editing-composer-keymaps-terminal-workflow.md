@@ -6,12 +6,11 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-vim-modal-editing-composer-keymaps-terminal-workflow"
 tags: ["codex-cli", "vim", "tui", "keymaps", "composer", "terminal-workflow", "v0.129"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Vim Modal Editing in the Codex CLI Composer: Configuration, Keymaps, and Terminal-Native Workflows](/sketchnotes/articles/2026-05-08-codex-cli-vim-modal-editing-composer-keymaps-terminal-workflow.png)
-
-
 # Vim Modal Editing in the Codex CLI Composer: Configuration, Keymaps, and Terminal-Native Workflows
+
+![Sketchnote diagram for: Vim Modal Editing in the Codex CLI Composer: Configuration, Keymaps, and Terminal-Native Workflows](/sketchnotes/articles/2026-05-08-codex-cli-vim-modal-editing-composer-keymaps-terminal-workflow.png)
 
 
 ---

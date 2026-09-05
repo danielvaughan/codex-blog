@@ -6,12 +6,11 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-liquid-glass-ios26-swiftui-migration-agent-skills-xcodebuildmcp"
 tags: ["codex-cli", "ios-26", "liquid-glass", "swiftui", "agent-skills", "xcodebuildmcp", "xcode-26", "mobile-development"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Migrating SwiftUI Apps to Liquid Glass with Codex CLI: Agent Skills, XcodeBuildMCP, and iOS 26 Workflows](/sketchnotes/articles/2026-05-13-codex-cli-liquid-glass-ios26-swiftui-migration-agent-skills-xcodebuildmcp.png)
-
-
 # Migrating SwiftUI Apps to Liquid Glass with Codex CLI: Agent Skills, XcodeBuildMCP, and iOS 26 Workflows
+
+![Sketchnote diagram for: Migrating SwiftUI Apps to Liquid Glass with Codex CLI: Agent Skills, XcodeBuildMCP, and iOS 26 Workflows](/sketchnotes/articles/2026-05-13-codex-cli-liquid-glass-ios26-swiftui-migration-agent-skills-xcodebuildmcp.png)
 
 
 Apple's Liquid Glass design language, introduced at WWDC 2025 and shipping with iOS 26, represents the most significant visual overhaul since iOS 7's flat redesign[^1]. Every custom navigation bar, tab bar, floating button, and modal sheet is a migration target. For teams with mature SwiftUI codebases, the question is not whether to adopt Liquid Glass but how to do so systematically without breaking backward compatibility.

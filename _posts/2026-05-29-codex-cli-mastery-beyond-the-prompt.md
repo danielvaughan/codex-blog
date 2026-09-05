@@ -2,7 +2,7 @@
 title: "Beyond the Prompt: Codex CLI Mastery"
 description: "Most developers treat Codex CLI as a chat box. The real value sits past the prompt, in AGENTS.md, skills, subagents, profiles, MCP servers and directory layout. This guide covers everything between installation and genuine mastery."
 date: 2026-05-29T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - mastery
   - agents-md
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-05-29T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-mastery-beyond-the-prompt"
 ---
-![Sketchnote diagram for: Beyond the Prompt: Codex CLI Mastery](/sketchnotes/articles/2026-05-29-codex-cli-mastery-beyond-the-prompt.png)
-
 # Beyond the Prompt: Codex CLI Mastery
+
+![Sketchnote diagram for: Beyond the Prompt: Codex CLI Mastery](/sketchnotes/articles/2026-05-29-codex-cli-mastery-beyond-the-prompt.png)
 
 
 Most developers install Codex CLI, type a prompt and wait. When the output disappoints, they type a longer one. This is the wrong lever. The gap between passable suggestions and shipping entire features hands-free is not prompt quality but infrastructure: directory layout, AGENTS.md, skills, subagents, profiles, MCP servers and verification loops. This guide covers everything between installation and genuine mastery. *Current as of v0.135.0, May 2026.*

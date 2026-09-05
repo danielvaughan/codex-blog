@@ -6,12 +6,11 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-issue-to-pr-pipeline-scripting-github-automation"
 tags: ["ci-cd", "codex-cli", "github-actions", "automation", "codex-exec", "structured-output", "workflow-patterns"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Scripting the Issue-to-PR Pipeline: Automating the Complete GitHub Workflow with Codex CLI](/sketchnotes/articles/2026-04-24-codex-cli-issue-to-pr-pipeline-scripting-github-automation.png)
-
-
 # Scripting the Issue-to-PR Pipeline: Automating the Complete GitHub Workflow with Codex CLI
+
+![Sketchnote diagram for: Scripting the Issue-to-PR Pipeline: Automating the Complete GitHub Workflow with Codex CLI](/sketchnotes/articles/2026-04-24-codex-cli-issue-to-pr-pipeline-scripting-github-automation.png)
 
 
 GPT-5.5 landed yesterday with a 60% hallucination reduction and an 82.7% score on Terminal-Bench 2.0 [^1]. That accuracy improvement changes the economics of a question every team asks: *how much of the issue-to-merged-PR lifecycle can you safely hand to an agent?*

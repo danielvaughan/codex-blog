@@ -2,7 +2,7 @@
 title: "Codex CLI Automations and Scheduled Tasks: Background Agent Workflows"
 description: "The first generation of agentic coding tools were interactive by nature: you sat in front of a terminal, issued a prompt, watched the diff land."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 summary: "How to build reliable background agent workflows with Codex: Mac app Automations, codex exec for scripted pipelines, worktree isolation, structured JSON output, and error-handling patterns for unattended runs."
 tags:
   - ci-cd
@@ -17,9 +17,9 @@ type: Technical Article
 timestamp: 2026-03-27T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-27-codex-cli-automations-scheduled-tasks"
 ---
-![Sketchnote diagram for: Codex CLI Automations and Scheduled Tasks: Background Agent Workflows](/sketchnotes/articles/2026-03-27-codex-cli-automations-scheduled-tasks.png)
-
 # Codex CLI Automations and Scheduled Tasks: Background Agent Workflows
+
+![Sketchnote diagram for: Codex CLI Automations and Scheduled Tasks: Background Agent Workflows](/sketchnotes/articles/2026-03-27-codex-cli-automations-scheduled-tasks.png)
 
 
 The first generation of agentic coding tools were interactive by nature: you sat in front of a terminal, issued a prompt, watched the diff land, and approved. The second generation is different. Codex now has two distinct paths for unattended execution — the Mac app's **Automations** feature and the CLI's `codex exec` subcommand — and combining them correctly is what separates occasional AI assistance from a genuine background development pipeline.

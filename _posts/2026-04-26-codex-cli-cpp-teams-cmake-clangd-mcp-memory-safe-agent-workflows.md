@@ -6,12 +6,11 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-cpp-teams-cmake-clangd-mcp-memory-safe-agent-workflows"
 tags: ["codex-cli", "c++", "c", "cmake", "clangd", "mcp", "memory-safety", "sanitisers", "agents-md", "hooks", "c++26"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI for C and C++ Teams: CMake, Clangd MCP, Sanitisers, and Memory-Safe Agent Workflows](/sketchnotes/articles/2026-04-26-codex-cli-cpp-teams-cmake-clangd-mcp-memory-safe-agent-workflows.png)
-
-
 # Codex CLI for C and C++ Teams: CMake, Clangd MCP, Sanitisers, and Memory-Safe Agent Workflows
+
+![Sketchnote diagram for: Codex CLI for C and C++ Teams: CMake, Clangd MCP, Sanitisers, and Memory-Safe Agent Workflows](/sketchnotes/articles/2026-04-26-codex-cli-cpp-teams-cmake-clangd-mcp-memory-safe-agent-workflows.png)
 
 
 C and C++ remain the backbone of systems programming — from kernels and game engines to embedded firmware and high-frequency trading platforms. Yet most AI coding agent guides focus on managed-language ecosystems where compilation is trivial and memory management is invisible. C++ developers face a different reality: header resolution across translation units, build-system complexity, undefined behaviour lurking behind every raw pointer, and compile times measured in minutes rather than seconds.

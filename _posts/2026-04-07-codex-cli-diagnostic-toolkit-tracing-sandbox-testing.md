@@ -2,7 +2,7 @@
 title: "Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands"
 description: "Codex CLI ships with a surprisingly deep set of diagnostic tools that most developers never discover."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - reference
   - observability
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-04-07T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-07-codex-cli-diagnostic-toolkit-tracing-sandbox-testing"
 ---
-![Sketchnote diagram for: Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands](/sketchnotes/articles/2026-04-07-codex-cli-diagnostic-toolkit-tracing-sandbox-testing.png)
-
 # Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands
+
+![Sketchnote diagram for: Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands](/sketchnotes/articles/2026-04-07-codex-cli-diagnostic-toolkit-tracing-sandbox-testing.png)
 
 
 Codex CLI ships with a surprisingly deep set of diagnostic tools that most developers never discover. When an agent session stalls, a sandbox blocks a legitimate command, or a config key silently fails to take effect, knowing how to reach for `RUST_LOG`, `codex sandbox`, or `/debug-config` can save hours of guesswork. This article is a systematic reference to every built-in diagnostic surface in Codex CLI as of v0.118.0.

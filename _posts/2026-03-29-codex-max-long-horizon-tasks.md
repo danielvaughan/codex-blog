@@ -2,7 +2,7 @@
 title: "GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions"
 description: "Most Codex tasks complete in minutes. But some tasks — a full microservice migration, a large-scale refactor across 50+ files, a days-long debugging session."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - models
   - context-management
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-29T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-29-codex-max-long-horizon-tasks"
 ---
-![Sketchnote diagram for: GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions](/sketchnotes/articles/2026-03-29-codex-max-long-horizon-tasks.png)
-
 # GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions
+
+![Sketchnote diagram for: GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions](/sketchnotes/articles/2026-03-29-codex-max-long-horizon-tasks.png)
 
 
 Most Codex tasks complete in minutes. But some tasks — a full microservice migration, a large-scale refactor across 50+ files, a days-long debugging session — run into context limits before they finish. GPT-5.1-Codex-Max was built specifically for these long-horizon scenarios.

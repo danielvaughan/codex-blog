@@ -6,12 +6,11 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-formal-architecture-descriptors-navigation-primitives-codex-cli"
 tags: ["codex-cli", "architecture-descriptors", "intent-lisp", "navigation", "agents-md", "context-engineering", "codebase-navigation", "s-expressions"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Formal Architecture Descriptors: Cutting Codex CLI Navigation Overhead by a Third](/sketchnotes/articles/2026-04-19-formal-architecture-descriptors-navigation-primitives-codex-cli.png)
-
-
 # Formal Architecture Descriptors: Cutting Codex CLI Navigation Overhead by a Third
+
+![Sketchnote diagram for: Formal Architecture Descriptors: Cutting Codex CLI Navigation Overhead by a Third](/sketchnotes/articles/2026-04-19-formal-architecture-descriptors-navigation-primitives-codex-cli.png)
 
 
 Your `AGENTS.md` file tells your coding agent *what* to do. But does it tell the agent *where things are* in a way that actually reduces navigational overhead? A controlled study published in April 2026 found that formal architecture descriptors — structured declarations of module boundaries, symbol signatures, and data flows — reduce Codex CLI navigation steps by 33–44%, with a large effect size (Cohen's d = 0.92)[^1]. A companion field study across 7,012 Claude Code sessions showed a 52% reduction in behavioural variance when formal descriptors were present[^1]. This article explains the research, introduces the `intent.lisp` format, and shows how to integrate architecture descriptors into your Codex CLI workflow.

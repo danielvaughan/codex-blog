@@ -2,7 +2,7 @@
 title: "Codex CLI for dbt and Data Engineering Workflows"
 description: "Data engineering is one of the fastest-growing segments of software development, yet the Codex CLI ecosystem has produced almost no content targeted at data."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - language-guide
   - third-party
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-28T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-cli-dbt-data-engineering"
 ---
-![Sketchnote diagram for: Codex CLI for dbt and Data Engineering Workflows](/sketchnotes/articles/2026-03-28-codex-cli-dbt-data-engineering.png)
-
 # Codex CLI for dbt and Data Engineering Workflows
+
+![Sketchnote diagram for: Codex CLI for dbt and Data Engineering Workflows](/sketchnotes/articles/2026-03-28-codex-cli-dbt-data-engineering.png)
 
 
 ---

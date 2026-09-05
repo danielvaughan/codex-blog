@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 description: "When Codex writes code and you commit it, who gets credited? Until early 2026, the answer was: nobody notable."
 substack_status: draft
 tags:
@@ -17,9 +17,9 @@ type: Technical Article
 timestamp: 2026-03-28T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-cli-commit-attribution"
 ---
-![Sketchnote diagram for: Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution](/sketchnotes/articles/2026-03-28-codex-cli-commit-attribution.png)
-
 # Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution
+
+![Sketchnote diagram for: Codex CLI Commit Attribution: Tagging Agent Work with commit_attribution](/sketchnotes/articles/2026-03-28-codex-cli-commit-attribution.png)
 
 
 When Codex writes code and you commit it, who gets credited? Until early 2026, the answer was: nobody notable. Your commits looked exactly like human-authored work, with no signal in the repository history that an AI agent had any involvement. PR #11617 changed that.[^1]

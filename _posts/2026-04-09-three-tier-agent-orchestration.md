@@ -2,7 +2,7 @@
 title: "The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud"
 description: "Running a single coding agent is yesterday's problem. The 2026 challenge is orchestrating fleets of them — choosing the right coordination model for each."
 date: 2026-04-09T00:13:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - three-tier-orchestration
   - addy-osmani
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-04-09T01:13:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-three-tier-agent-orchestration"
 ---
-![Sketchnote diagram for: The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud](/sketchnotes/articles/2026-04-09-three-tier-agent-orchestration.png)
-
 # The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud
+
+![Sketchnote diagram for: The Three-Tier Agent Orchestration Landscape: In-Process, Local and Cloud](/sketchnotes/articles/2026-04-09-three-tier-agent-orchestration.png)
 
 
 ---

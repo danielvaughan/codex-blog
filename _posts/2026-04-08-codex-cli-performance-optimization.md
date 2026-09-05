@@ -2,7 +2,7 @@
 title: "Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics"
 description: "Every Codex CLI session burns tokens. Most developers have a rough sense of the cost—prompts in, completions out—but the reality is more nuanced. System."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - performance
   - token-overhead
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-04-08T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-cli-performance-optimization"
 ---
-![Sketchnote diagram for: Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics](/sketchnotes/articles/2026-04-08-codex-cli-performance-optimization.png)
-
 # Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics
+
+![Sketchnote diagram for: Codex CLI Performance Optimisation: Token Overhead, Hidden Costs and Tuning Tactics](/sketchnotes/articles/2026-04-08-codex-cli-performance-optimization.png)
 
 
 A GitHub MCP server with 93 tools consumes roughly 55,000 tokens per turn[^4]. That is before you type a single character. System prompts, tool definitions, MCP server schemas, reasoning traces and context compaction all burn tokens invisibly, and most developers underestimate the overhead by an order of magnitude. This article dissects where your tokens go and provides concrete tactics for cutting waste without sacrificing output quality. *Updated May 2026 with the GPT-5.5 model, v0.135.0 changes and current profile syntax.*

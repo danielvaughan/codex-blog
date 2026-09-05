@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 description: "The biggest surprise in Codex deployments isn't the cost of output tokens — it's the accumulated cost of conversation history."
 substack_status: draft
 tags:
@@ -17,9 +17,9 @@ type: Technical Article
 timestamp: 2026-03-28T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-cli-cost-management-token-strategy"
 ---
-![Sketchnote diagram for: Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control](/sketchnotes/articles/2026-03-28-codex-cli-cost-management-token-strategy.png)
-
 # Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control
+
+![Sketchnote diagram for: Codex CLI Cost Management: Token Strategy, Model Routing and Quota Control](/sketchnotes/articles/2026-03-28-codex-cli-cost-management-token-strategy.png)
 
 *Published: 2026-03-28*
 

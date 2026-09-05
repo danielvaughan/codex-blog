@@ -2,7 +2,7 @@
 title: "Automated SAP Testing with Codex CLI: An Agent-Driven Approach"
 description: "How to use Codex CLI to generate, maintain, and execute automated tests across SAP's four testing layers — OData APIs, BAPIs/RFCs, Fiori UI, and SAP GUI — with practical code examples, MCP integration patterns, and guidance on navigating SAP's April 2026 API policy."
 date: 2026-06-13T20:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - codex-cli
   - sap
@@ -97,6 +97,8 @@ type: Technical Article
 timestamp: 2026-06-13T21:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-automated-sap-testing-with-codex-cli"
 ---
+# Automated SAP Testing with Codex CLI: An Agent-Driven Approach
+
 SAP testing is expensive. Manual regression suites for S/4HANA implementations routinely run to thousands of test cases. Every quarterly upgrade, every transport, every customising change triggers another cycle of scripted clicks through the same transactions. The specialist tools — Tricentis Tosca, Worksoft Certify, SAP's own Cloud Test Automation Tool — are capable, but they are also complex, licence-intensive, and require dedicated test engineers who understand both the tooling and the SAP landscape.[^1][^16]
 
 Codex CLI offers something different: an AI agent that can read your SAP project, understand its interfaces, generate tests in standard frameworks (pytest, Playwright, shell scripts), execute them in a sandbox, and iterate on failures — all from a terminal prompt or a CI pipeline. It does not replace your test strategy. It accelerates the parts that are slowest: writing the tests, maintaining them when the system changes, and covering the gaps nobody has time to fill.

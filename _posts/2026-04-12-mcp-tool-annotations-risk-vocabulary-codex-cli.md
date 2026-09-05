@@ -6,12 +6,11 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-mcp-tool-annotations-risk-vocabulary-codex-cli"
 tags: ["mcp", "tool-annotations", "approval-policy", "security", "destructive-hint", "open-world-hint", "lethal-trifecta", "enterprise"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: MCP Tool Annotations as Risk Vocabulary: How Codex CLI Uses Hints to Drive Approval Decisions](/sketchnotes/articles/2026-04-12-mcp-tool-annotations-risk-vocabulary-codex-cli.png)
-
-
 # MCP Tool Annotations as Risk Vocabulary: How Codex CLI Uses Hints to Drive Approval Decisions
+
+![Sketchnote diagram for: MCP Tool Annotations as Risk Vocabulary: How Codex CLI Uses Hints to Drive Approval Decisions](/sketchnotes/articles/2026-04-12-mcp-tool-annotations-risk-vocabulary-codex-cli.png)
 
 
 ---

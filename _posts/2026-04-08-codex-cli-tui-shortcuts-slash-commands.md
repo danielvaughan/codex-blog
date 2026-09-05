@@ -2,7 +2,7 @@
 title: "Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference"
 description: "Codex CLI's full-screen terminal UI (TUI) is where most interactive work happens. Beneath the chat-style composer sits a dense set of keyboard shortcuts."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - reference
   - config-toml
@@ -11,9 +11,9 @@ type: Technical Article
 timestamp: 2026-04-08T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-cli-tui-shortcuts-slash-commands"
 ---
-![Sketchnote diagram for: Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference](/sketchnotes/articles/2026-04-08-codex-cli-tui-shortcuts-slash-commands.png)
-
 # Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference
+
+![Sketchnote diagram for: Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference](/sketchnotes/articles/2026-04-08-codex-cli-tui-shortcuts-slash-commands.png)
 
 
 Codex CLI's full-screen terminal UI (TUI) is where most interactive work happens. Beneath the chat-style composer sits a dense set of keyboard shortcuts, input modifiers and slash commands that let you control models, review diffs, manage sessions and configure the agent without leaving the terminal[^1]. This reference catalogues every shortcut and slash command available as of May 2026 (v0.135.0), organised by function. *Updated with `/plugins`, `codex doctor`, Vim mode and the current model names.*

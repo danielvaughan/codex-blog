@@ -2,7 +2,7 @@
 title: "Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension"
 description: "The /review command is one of Codex CLI's most practical daily-use features, yet it receives surprisingly little attention compared to the agent."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - workflow-patterns
   - code-review
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-30T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-codex-cli-review-command-code-review-workflows"
 ---
-![Sketchnote diagram for: Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension](/sketchnotes/articles/2026-03-30-codex-cli-review-command-code-review-workflows.png)
-
 # Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension
+
+![Sketchnote diagram for: Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension](/sketchnotes/articles/2026-03-30-codex-cli-review-command-code-review-workflows.png)
 
 
 The `/review` command is one of Codex CLI's most practical daily-use features, yet it receives surprisingly little attention compared to the agent orchestration machinery. This article covers the complete review surface: the four preset modes, how to pin a dedicated review model, the `deep-review` profile pattern for high-effort analysis, the known limitation around in-flight task queuing, and the community `codex-mcp-code-review` server that extends reviews into full autonomous fix-and-verify loops.

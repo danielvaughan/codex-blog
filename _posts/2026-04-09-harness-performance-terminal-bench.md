@@ -2,7 +2,7 @@
 title: "Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice"
 description: "Terminal-Bench 2.0 has become the definitive benchmark for evaluating AI coding agents in realistic terminal environments . Published at ICLR 2026, it tests."
 date: 2026-04-09T10:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - terminal-bench
   - harness-engineering
@@ -16,10 +16,9 @@ type: Technical Article
 timestamp: 2026-04-09T11:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-harness-performance-terminal-bench"
 ---
-![Sketchnote diagram for: Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice](/sketchnotes/articles/2026-04-09-harness-performance-terminal-bench.png)
-
-
 # Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice
+
+![Sketchnote diagram for: Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice](/sketchnotes/articles/2026-04-09-harness-performance-terminal-bench.png)
 
 
 ---

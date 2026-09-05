@@ -6,11 +6,11 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-granular-approval-policies-auto-review-subagent-autonomous-secure-workflows"
 tags: ["codex-cli", "approval-policy", "granular-approval", "auto-review", "security", "permissions", "config-toml", "autonomous-workflows", "v0.128"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Granular Approval Policies and the Auto-Review Subagent: Autonomous Yet Secure Workflows](/sketchnotes/articles/2026-05-07-codex-cli-granular-approval-policies-auto-review-subagent-autonomous-secure-workflows.png)
-
 # Codex CLI Granular Approval Policies and the Auto-Review Subagent: Autonomous Yet Secure Workflows
+
+![Sketchnote diagram for: Codex CLI Granular Approval Policies and the Auto-Review Subagent: Autonomous Yet Secure Workflows](/sketchnotes/articles/2026-05-07-codex-cli-granular-approval-policies-auto-review-subagent-autonomous-secure-workflows.png)
 
 
 Every Codex CLI user eventually confronts the same tension: you want the agent to work autonomously, but you also want to sleep at night. The original approval model offered three coarse-grained modes — `untrusted`, `on-request`, and `never` — which forced a binary choice between interrupt-heavy safety and reckless autonomy[^1]. Since v0.122, Codex CLI has shipped two mechanisms that dissolve this trade-off: **granular approval policies** and the **auto-review subagent**. Together, they let you specify precisely which categories of action require human oversight, and delegate the rest to a security-focused reviewer that catches 96.1% of malicious behaviour while reducing human interruptions by roughly 200×[^2].

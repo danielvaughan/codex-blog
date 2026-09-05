@@ -5,7 +5,7 @@ timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-prompt-injection-impossibility-codex-cli-defence-in-depth-owasp-agentic-contextual-integrity"
 tags: ["security", "prompt-injection", "OWASP", "defence-in-depth", "sandbox", "hooks", "impossibility"]
 date: 2026-06-16T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
 # The Prompt Injection Impossibility: What Two Formal Proofs and the OWASP Agentic Report Mean for Codex CLI's Defence Architecture
 

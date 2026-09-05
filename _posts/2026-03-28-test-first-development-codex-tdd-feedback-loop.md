@@ -2,7 +2,7 @@
 title: "Test-First Development with Codex: Using TDD as the Agent Feedback Loop"
 description: "The single biggest problem with autonomous agents is knowing when theyre done. A human developer can feel when code feels right. An agent cannot."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 summary: "How TDD transforms agentic workflows: tests give Codex a verifiable goal and automatic feedback without human intervention. Writing tests before dispatching Codex; integrating pytest/Jest/Vitest verification loops in AGENTS.md; how test coverage doubles as agent progress tracking."
 tags:
   - workflow-patterns
@@ -17,9 +17,9 @@ type: Technical Article
 timestamp: 2026-03-28T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-test-first-development-codex-tdd-feedback-loop"
 ---
-![Sketchnote diagram for: Test-First Development with Codex: Using TDD as the Agent Feedback Loop](/sketchnotes/articles/2026-03-28-test-first-development-codex-tdd-feedback-loop.png)
-
 # Test-First Development with Codex: Using TDD as the Agent Feedback Loop
+
+![Sketchnote diagram for: Test-First Development with Codex: Using TDD as the Agent Feedback Loop](/sketchnotes/articles/2026-03-28-test-first-development-codex-tdd-feedback-loop.png)
 
 The single biggest problem with autonomous agents is knowing when they're done. A human developer can feel when code "feels right." An agent cannot. But a failing test suite can — and that's the key insight behind using TDD as your primary Codex feedback mechanism.
 

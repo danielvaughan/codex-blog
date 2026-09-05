@@ -6,11 +6,11 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-docker-sandboxes-codex-cli-microvm-isolation"
 tags: ["docker-sandboxes", "microvm", "sbx", "sandbox", "security", "isolation", "codex-cli", "enterprise"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Docker Sandboxes for Codex CLI: MicroVM Isolation, the sbx CLI, and When to Use External Sandboxing](/sketchnotes/articles/2026-04-13-docker-sandboxes-codex-cli-microvm-isolation.png)
-
 # Docker Sandboxes for Codex CLI: MicroVM Isolation, the sbx CLI, and When to Use External Sandboxing
+
+![Sketchnote diagram for: Docker Sandboxes for Codex CLI: MicroVM Isolation, the sbx CLI, and When to Use External Sandboxing](/sketchnotes/articles/2026-04-13-docker-sandboxes-codex-cli-microvm-isolation.png)
 
 
 Codex CLI ships with one of the strongest built-in sandboxes in the AI coding agent space — Landlock plus seccomp on Linux, Seatbelt on macOS, restricted tokens on Windows [^1]. It is the only major CLI agent that enables sandboxing by default [^2]. So why would you wrap it in *another* sandbox?

@@ -6,12 +6,11 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-gpt-5-5-migration-cookbook-effort-tuning-cost-comparison"
 tags: ["codex-cli", "gpt-5.5", "migration", "effort-tuning", "cost-optimisation", "model-selection", "reasoning", "configuration"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments](/sketchnotes/articles/2026-04-24-gpt-5-5-migration-cookbook-effort-tuning-cost-comparison.png)
-
-
 # GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments
+
+![Sketchnote diagram for: GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments](/sketchnotes/articles/2026-04-24-gpt-5-5-migration-cookbook-effort-tuning-cost-comparison.png)
 
 
 GPT-5.5 — codenamed "Spud" — landed on 23 April 2026, less than two months after GPT-5.4[^1]. It is already the recommended model for most Codex tasks[^2]. The headline numbers are compelling: 88.7% on SWE-bench Verified (up from 82.1%), 82.7% on Terminal-Bench 2.0, and 40% fewer output tokens per Codex task[^3][^4]. The catch? Standard API pricing doubles to \$5/\$30 per million input/output tokens[^5]. This cookbook walks through migrating your Codex CLI workflows from GPT-5.4 to GPT-5.5 with concrete configuration, effort-tuning strategies, and cost guardrails.

@@ -6,11 +6,11 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-agent-identity-stack-cryptographic-attribution-multi-agent-audit-trails"
 tags: ["agent-identity", "biscuit", "audit-trail", "enterprise", "multi-agent", "attribution", "opentelemetry"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Agent Identity Stack Complete: Cryptographic Attribution for Multi-Agent Audit Trails](/sketchnotes/articles/2026-04-15-agent-identity-stack-cryptographic-attribution-multi-agent-audit-trails.png)
-
 # Agent Identity Stack Complete: Cryptographic Attribution for Multi-Agent Audit Trails
+
+![Sketchnote diagram for: Agent Identity Stack Complete: Cryptographic Attribution for Multi-Agent Audit Trails](/sketchnotes/articles/2026-04-15-agent-identity-stack-cryptographic-attribution-multi-agent-audit-trails.png)
 
 
 ---

@@ -6,12 +6,11 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-nvidia-openshell-codex-cli-secure-agent-sandbox-policy-enforcement"
 tags: ["codex-cli", "nvidia", "openshell", "sandbox", "security", "policy-as-code", "enterprise", "agent-governance"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: NVIDIA OpenShell and Codex CLI: Kernel-Level Sandboxing for Autonomous Coding Agents](/sketchnotes/articles/2026-04-24-nvidia-openshell-codex-cli-secure-agent-sandbox-policy-enforcement.png)
-
-
 # NVIDIA OpenShell and Codex CLI: Kernel-Level Sandboxing for Autonomous Coding Agents
+
+![Sketchnote diagram for: NVIDIA OpenShell and Codex CLI: Kernel-Level Sandboxing for Autonomous Coding Agents](/sketchnotes/articles/2026-04-24-nvidia-openshell-codex-cli-secure-agent-sandbox-policy-enforcement.png)
 
 
 Codex CLI ships with its own sandbox — a two-axis model combining approval policies and execution constraints [^1]. For many individual developers, that is sufficient. But when you run agents autonomously in `--full-auto` mode, orchestrate multi-agent pipelines, or deploy across an enterprise fleet, the question shifts from "does the agent ask permission?" to "what happens if the agent itself is compromised?" NVIDIA's answer is **OpenShell** — an open-source, kernel-enforced runtime that wraps any coding agent, Codex included, in an isolation layer governed entirely by declarative YAML policies [^2].

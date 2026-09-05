@@ -6,12 +6,11 @@ timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-codex-cli-custom-model-providers-configuration-guide"
 tags: ["codex-cli", "model-providers", "configuration", "azure", "litellm", "multi-cloud", "enterprise"]
 date: 2026-04-23T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Custom Model Providers: The Complete Configuration Guide](/sketchnotes/articles/2026-04-23-codex-cli-custom-model-providers-configuration-guide.png)
-
-
 # Codex CLI Custom Model Providers: The Complete Configuration Guide
+
+![Sketchnote diagram for: Codex CLI Custom Model Providers: The Complete Configuration Guide](/sketchnotes/articles/2026-04-23-codex-cli-custom-model-providers-configuration-guide.png)
 
 
 Codex CLI ships with three built-in providers, `openai`, `ollama` and `lmstudio`, but the real power is in its extensible provider framework[^1]. You can point Codex at any model service that speaks the Responses API[^3] by adding a block to `config.toml`. This guide covers every configuration key, authentication pattern and production-ready provider recipe.

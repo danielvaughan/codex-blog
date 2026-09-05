@@ -6,12 +6,11 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-game-prototyping-godot-phaser-browser-games-agent-skills"
 tags: ["codex-cli", "game-development", "godot", "phaser", "agent-skills", "browser-games", "prototyping", "mcp", "playwright"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills](/sketchnotes/articles/2026-05-10-codex-cli-game-prototyping-godot-phaser-browser-games-agent-skills.png)
-
-
 # Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills
+
+![Sketchnote diagram for: Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills](/sketchnotes/articles/2026-05-10-codex-cli-game-prototyping-godot-phaser-browser-games-agent-skills.png)
 
 
 ---

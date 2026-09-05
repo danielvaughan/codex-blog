@@ -2,7 +2,7 @@
 title: "SAFe Was Bad for Agility. For AI Coding Agents, It's Worse."
 description: "Jeff Gothelfs recent article SAFe Was Bad for Agility. For AI, Its Catastrophic makes a sharp argument: the Scaled Agile Framework."
 date: 2026-04-12T10:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 featured: true
 tags:
   - codex-cli
@@ -16,6 +16,8 @@ type: Technical Article
 timestamp: 2026-04-12T11:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-safe-enterprise-processes-ai-coding-agents"
 ---
+# SAFe Was Bad for Agility. For AI Coding Agents, It's Worse.
+
 ![Sketchnote diagram for: SAFe Was Bad for Agility. For AI Coding Agents, It's Worse.](/sketchnotes/articles/2026-04-12-safe-enterprise-processes-ai-coding-agents.png)
 
 Jeff Gothelf's recent article "[SAFe Was Bad for Agility. For AI, It's Catastrophic](https://jeffgothelf.com/blog/safe-was-bad-for-agility-for-ai-its-catastrophic/)" makes a sharp argument: the Scaled Agile Framework, which was already damaging for software agility, becomes actively destructive when applied to AI product development[^1]. His reasoning applies with equal force to enterprise adoption of AI coding agents like Codex CLI — and the data emerging from the first year of serious enterprise AI coding adoption confirms it.

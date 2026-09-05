@@ -6,12 +6,11 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-session-transcripts-jsonl-replay-viewer-tools-audit-analysis"
 tags: ["codex-cli", "session-transcripts", "jsonl", "replay", "audit", "observability", "tooling", "community"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis](/sketchnotes/articles/2026-05-21-codex-cli-session-transcripts-jsonl-replay-viewer-tools-audit-analysis.png)
-
-
 # Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis
+
+![Sketchnote diagram for: Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis](/sketchnotes/articles/2026-05-21-codex-cli-session-transcripts-jsonl-replay-viewer-tools-audit-analysis.png)
 
 
 Every Codex CLI session generates a complete JSONL transcript — every prompt, model response, tool call, approval decision, and token counter, timestamped and persisted to disc. Most developers ignore these files until something goes wrong. That is a mistake. Session transcripts are the richest source of truth for debugging agent failures, auditing what an agent actually did, optimising token spend, and sharing reproducible context with teammates. This article covers the transcript format itself, the growing ecosystem of community replay and viewer tools, and practical patterns for extracting value from your session history.

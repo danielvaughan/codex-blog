@@ -2,7 +2,7 @@
 title: "Codex CLI Offline Mode: Local Models, Air-Gapped Setups, and What Works Without Internet"
 description: "Can I run Codex CLI without internet? is one of the most common search queries that leads nowhere."
 date: 2026-04-18T18:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - how-to
   - enterprise
@@ -13,9 +13,9 @@ type: Technical Article
 timestamp: 2026-04-18T18:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-cli-offline-local-models-air-gapped-guide"
 ---
-![Sketchnote diagram for: Codex CLI Offline Mode: Local Models, Air-Gapped Setups, and What Works Without Internet](/sketchnotes/articles/2026-04-18-codex-cli-offline-local-models-air-gapped-guide.png)
-
 # Codex CLI Offline Mode: Local Models, Air-Gapped Setups, and What Works Without Internet
+
+![Sketchnote diagram for: Codex CLI Offline Mode: Local Models, Air-Gapped Setups, and What Works Without Internet](/sketchnotes/articles/2026-04-18-codex-cli-offline-local-models-air-gapped-guide.png)
 
 
 ---

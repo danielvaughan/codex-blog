@@ -2,7 +2,7 @@
 title: "Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition"
 description: "OpenAI's model release cadence has accelerated dramatically. In the eight months since the original GPT-5-Codex launched in September 2025, we have seen."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - models
   - model-lifecycle
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-04-07T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-07-codex-cli-model-lifecycle-deprecations-migrations"
 ---
-![Sketchnote diagram for: Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition](/sketchnotes/articles/2026-04-07-codex-cli-model-lifecycle-deprecations-migrations.png)
-
 # Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition
+
+![Sketchnote diagram for: Codex CLI Model Lifecycle: Navigating Deprecations, Migrations, and the GPT-5.x Transition](/sketchnotes/articles/2026-04-07-codex-cli-model-lifecycle-deprecations-migrations.png)
 
 
 ---

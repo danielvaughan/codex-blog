@@ -6,12 +6,11 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-tanstack-supply-chain-attack-codex-cli-npm-defence-sandbox-hardening"
 tags: ["codex-cli", "supply-chain-security", "npm", "tanstack", "sandbox", "ci-cd", "Mini-Shai-Hulud", "CVE-2026-45321"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: The TanStack Supply Chain Attack: What Codex CLI Users Need to Know and How to Defend Your Pipeline](/sketchnotes/articles/2026-05-15-tanstack-supply-chain-attack-codex-cli-npm-defence-sandbox-hardening.png)
-
-
 # The TanStack Supply Chain Attack: What Codex CLI Users Need to Know and How to Defend Your Pipeline
+
+![Sketchnote diagram for: The TanStack Supply Chain Attack: What Codex CLI Users Need to Know and How to Defend Your Pipeline](/sketchnotes/articles/2026-05-15-tanstack-supply-chain-attack-codex-cli-npm-defence-sandbox-hardening.png)
 
 
 On 11 May 2026, a coordinated supply chain attack compromised 84 npm package versions across 42 `@tanstack/*` packages, then self-propagated to over 170 additional packages including Mistral AI's SDK and UiPath's automation tooling [^1][^2]. The malware—dubbed **Mini Shai-Hulud** by researchers—exfiltrated credentials from CI runners and developer machines, installed persistence mechanisms, and specifically targeted AI coding tool configurations including Claude Code session history [^3]. Two OpenAI employee devices were affected, forcing the company to re-sign every application—including Codex—across all platforms [^4].

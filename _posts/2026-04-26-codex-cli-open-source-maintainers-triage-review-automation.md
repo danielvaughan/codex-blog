@@ -6,12 +6,11 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-open-source-maintainers-triage-review-automation"
 tags: ["open-source", "maintainer", "issue-triage", "pr-review", "codex-for-oss", "github-integration", "codex-cloud", "automation", "code-review", "contributor-onboarding"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Contributor Automation at Scale](/sketchnotes/articles/2026-04-26-codex-cli-open-source-maintainers-triage-review-automation.png)
-
-
 # Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Contributor Automation at Scale
+
+![Sketchnote diagram for: Codex CLI for Open Source Maintainers: Issue Triage, PR Review, and Contributor Automation at Scale](/sketchnotes/articles/2026-04-26-codex-cli-open-source-maintainers-triage-review-automation.png)
 
 
 Open source maintainers face a compounding problem: issue volumes grow faster than review capacity. A popular project with 50 open issues per week and three active maintainers is perpetually underwater. OpenAI's **Codex for Open Source** programme[^1] — launched in April 2026 with a \$1 million fund — signals that the industry recognises this. But the programme's real value is not the credits; it is the workflow patterns that emerge when Codex CLI and Codex Cloud sit between the issue tracker and the merge button.

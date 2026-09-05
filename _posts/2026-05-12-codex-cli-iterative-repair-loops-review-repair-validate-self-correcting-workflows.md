@@ -6,12 +6,11 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-iterative-repair-loops-review-repair-validate-self-correcting-workflows"
 tags: ["codex-cli", "codex-exec", "iterative-repair", "structured-output", "agent-patterns", "automation", "self-healing", "validation"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Iterative Repair Loops with Codex CLI: The Review-Repair-Validate Pattern for Self-Correcting Agent Workflows](/sketchnotes/articles/2026-05-12-codex-cli-iterative-repair-loops-review-repair-validate-self-correcting-workflows.png)
-
-
 # Iterative Repair Loops with Codex CLI: The Review-Repair-Validate Pattern for Self-Correcting Agent Workflows
+
+![Sketchnote diagram for: Iterative Repair Loops with Codex CLI: The Review-Repair-Validate Pattern for Self-Correcting Agent Workflows](/sketchnotes/articles/2026-05-12-codex-cli-iterative-repair-loops-review-repair-validate-self-correcting-workflows.png)
 
 
 ---

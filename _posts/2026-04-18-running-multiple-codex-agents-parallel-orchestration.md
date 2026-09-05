@@ -6,11 +6,11 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-running-multiple-codex-agents-parallel-orchestration"
 tags: ["codex-cli", "parallel-agents", "orchestration", "git-worktrees", "tmux", "subagents", "multi-agent"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Running Multiple Codex Agent Instances: Parallel Orchestration Patterns](/sketchnotes/articles/2026-04-18-running-multiple-codex-agents-parallel-orchestration.png)
-
 # Running Multiple Codex Agent Instances: Parallel Orchestration Patterns
+
+![Sketchnote diagram for: Running Multiple Codex Agent Instances: Parallel Orchestration Patterns](/sketchnotes/articles/2026-04-18-running-multiple-codex-agents-parallel-orchestration.png)
 
 
 Running a single Codex CLI agent is powerful. Running several in parallel — each tackling an independent slice of your codebase — transforms your throughput entirely. This article covers the three main approaches to parallel Codex execution: native subagents, tmux-based orchestrators, and manual git worktree patterns.

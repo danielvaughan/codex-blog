@@ -2,7 +2,7 @@
 title: "Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP"
 description: "Two mechanisms exist for giving Codex CLI access to external knowledge and tools: Agent Skills and the Model Context Protocol (MCP). On the surface they."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - architecture
   - skills
@@ -11,9 +11,9 @@ type: Technical Article
 timestamp: 2026-03-27T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-27-skills-progressive-disclosure-vs-mcp"
 ---
-![Sketchnote diagram for: Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP](/sketchnotes/articles/2026-03-27-skills-progressive-disclosure-vs-mcp.png)
-
 # Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP
+
+![Sketchnote diagram for: Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP](/sketchnotes/articles/2026-03-27-skills-progressive-disclosure-vs-mcp.png)
 
 
 ## Overview

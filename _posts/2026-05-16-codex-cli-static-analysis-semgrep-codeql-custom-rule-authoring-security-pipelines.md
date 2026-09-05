@@ -6,11 +6,11 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-static-analysis-semgrep-codeql-custom-rule-authoring-security-pipelines"
 tags: ["codex-cli", "semgrep", "codeql", "static-analysis", "security", "mcp", "custom-rules", "sast", "ci-cd"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI for Static Analysis: Agent-Driven Semgrep Rule Authoring, CodeQL Query Generation, and Security Scanning Pipelines](/sketchnotes/articles/2026-05-16-codex-cli-static-analysis-semgrep-codeql-custom-rule-authoring-security-pipelines.png)
-
 # Codex CLI for Static Analysis: Agent-Driven Semgrep Rule Authoring, CodeQL Query Generation, and Security Scanning Pipelines
+
+![Sketchnote diagram for: Codex CLI for Static Analysis: Agent-Driven Semgrep Rule Authoring, CodeQL Query Generation, and Security Scanning Pipelines](/sketchnotes/articles/2026-05-16-codex-cli-static-analysis-semgrep-codeql-custom-rule-authoring-security-pipelines.png)
 
 
 ---

@@ -6,11 +6,11 @@ timestamp: 2026-04-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-14-claude-code-routines-launch"
 tags: ["claude-code", "routines", "competitor-update", "autonomous-agents", "scheduled-tasks", "cloud-execution", "github-triggers", "mcp-connectors"]
 date: 2026-04-14T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud](/sketchnotes/articles/2026-04-14-claude-code-routines-launch.png)
-
 # Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud
+
+![Sketchnote diagram for: Claude Code Routines: Autonomous Scheduled Agent Runs on Anthropic Cloud](/sketchnotes/articles/2026-04-14-claude-code-routines-launch.png)
 
 **Source:** [Anthropic Documentation](https://docs.anthropic.com/en/docs/claude-code/routines) · [SiliconAngle Coverage](https://siliconangle.com/2026/04/14/anthropics-claude-code-gets-automated-routines-desktop-makeover/)
 **Author:** Anthropic

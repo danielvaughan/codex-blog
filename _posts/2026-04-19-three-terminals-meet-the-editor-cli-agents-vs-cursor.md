@@ -1,7 +1,7 @@
 ---
 title: "Three Terminals Meet the Editor: Codex CLI vs Claude Code vs Gemini CLI vs Cursor"
 date: 2026-04-19T00:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - codex-cli
   - claude-code
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-three-terminals-meet-the-editor-cli-agents-vs-cursor"
 ---
-![Sketchnote diagram for: Three Terminals Meet the Editor: Codex CLI vs Claude Code vs Gemini CLI vs Cursor](/sketchnotes/articles/2026-04-19-three-terminals-meet-the-editor-cli-agents-vs-cursor.png)
-
 # Three Terminals Meet the Editor: Codex CLI vs Claude Code vs Gemini CLI vs Cursor
+
+![Sketchnote diagram for: Three Terminals Meet the Editor: Codex CLI vs Claude Code vs Gemini CLI vs Cursor](/sketchnotes/articles/2026-04-19-three-terminals-meet-the-editor-cli-agents-vs-cursor.png)
 
 Cursor 3, released on 2 April 2026, ships parallel cloud agents, a visual design mode, and a tabbed agent window for managing local, cloud, and SSH instances simultaneously. It is not a terminal agent. It is an AI-native IDE built on the premise that most developers already live in VS Code, and the better move is to embed AI there rather than ask them to shift to a terminal.
 

@@ -2,7 +2,7 @@
 title: "Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions"
 description: "Agentic coding sessions accumulate context fast. A non-trivial refactoring task — reading source files, running tests, writing patches, re-reading updated."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - architecture
   - context-management
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-31T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-31-codex-cli-context-compaction-architecture"
 ---
-![Sketchnote diagram for: Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions](/sketchnotes/articles/2026-03-31-codex-cli-context-compaction-architecture.png)
-
 # Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions
+
+![Sketchnote diagram for: Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions](/sketchnotes/articles/2026-03-31-codex-cli-context-compaction-architecture.png)
 
 
 Agentic coding sessions accumulate context fast. A non-trivial refactoring task — reading source files, running tests, writing patches, re-reading updated files — can saturate a 200k-token context window within a single working session.[^1] Codex CLI's context compaction system is the mechanism that keeps long sessions alive rather than crashing them into the context ceiling. Understanding its architecture, configuration knobs, and known failure modes is essential for anyone running Codex on tasks that span more than a few dozen file operations.

@@ -6,12 +6,11 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-security-testing-tools-sandbox-execpolicy-offline-policy-validation"
 tags: ["codex-cli", "security", "sandbox", "execpolicy", "permission-profiles", "starlark-rules", "policy-testing", "enterprise"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Security Testing Tools: codex sandbox, codex execpolicy, and Offline Policy Validation](/sketchnotes/articles/2026-05-21-codex-cli-security-testing-tools-sandbox-execpolicy-offline-policy-validation.png)
-
-
 # Codex CLI Security Testing Tools: `codex sandbox`, `codex execpolicy`, and Offline Policy Validation
+
+![Sketchnote diagram for: Codex CLI Security Testing Tools: codex sandbox, codex execpolicy, and Offline Policy Validation](/sketchnotes/articles/2026-05-21-codex-cli-security-testing-tools-sandbox-execpolicy-offline-policy-validation.png)
 
 
 Codex CLI ships two subcommands that most developers never discover: `codex sandbox` and `codex execpolicy check`. Together, they let you validate your security configuration offline — running real commands under sandbox policies and testing execution rules against sample invocations — without starting an agent session or spending a single API token. For teams rolling out Codex CLI with governance requirements, these tools close the gap between writing a policy and knowing it actually works.

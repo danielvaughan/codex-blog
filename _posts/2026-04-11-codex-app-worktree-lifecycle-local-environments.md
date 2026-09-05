@@ -2,16 +2,15 @@
 title: "Codex App Worktree Lifecycle: Local Environments, Setup Scripts, Handoff, and Automated Cleanup"
 description: "Worktrees are the backbone of parallel agent work in the Codex Desktop App. Every time you open a new thread, start an automation."
 date: 2026-04-11T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags: ["worktrees", "local-environments", "setup-scripts", "handoff", "codex-app", "automation", "configuration"]
 type: Technical Article
 timestamp: 2026-04-11T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-codex-app-worktree-lifecycle-local-environments"
 ---
-![Sketchnote diagram for: Codex App Worktree Lifecycle: Local Environments, Setup Scripts, Handoff, and Automated Cleanup](/sketchnotes/articles/2026-04-11-codex-app-worktree-lifecycle-local-environments.png)
-
-
 # Codex App Worktree Lifecycle: Local Environments, Setup Scripts, Handoff, and Automated Cleanup
+
+![Sketchnote diagram for: Codex App Worktree Lifecycle: Local Environments, Setup Scripts, Handoff, and Automated Cleanup](/sketchnotes/articles/2026-04-11-codex-app-worktree-lifecycle-local-environments.png)
 
 
 Worktrees are the backbone of parallel agent work in the Codex Desktop App. Every time you open a new thread, start an automation, or delegate to a background agent, a Git worktree is created — an independent checkout sharing the same `.git` metadata as your main repository[^1]. Yet most practitioners treat worktrees as invisible infrastructure, never configuring the setup scripts, actions, or cleanup policies that turn them from disposable scratch pads into reliable, reproducible development environments.

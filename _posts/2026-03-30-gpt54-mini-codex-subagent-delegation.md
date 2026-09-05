@@ -2,7 +2,7 @@
 title: "GPT-5.4 mini in Codex CLI: Subagent Delegation, Model Routing and the Tiered Inference Architecture"
 description: "OpenAI released GPT-5.4 mini and GPT-5.4 nano on 17 March 2026, and they represent something more significant than two incremental model updates."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - models
   - model-selection
@@ -13,9 +13,9 @@ type: Technical Article
 timestamp: 2026-03-30T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-gpt54-mini-codex-subagent-delegation"
 ---
-![Sketchnote diagram for: GPT-5.4 mini in Codex CLI: Subagent Delegation, Model Routing and the Tiered Inference Architecture](/sketchnotes/articles/2026-03-30-gpt54-mini-codex-subagent-delegation.png)
-
 # GPT-5.4 mini in Codex CLI: Subagent Delegation, Model Routing and the Tiered Inference Architecture
+
+![Sketchnote diagram for: GPT-5.4 mini in Codex CLI: Subagent Delegation, Model Routing and the Tiered Inference Architecture](/sketchnotes/articles/2026-03-30-gpt54-mini-codex-subagent-delegation.png)
 
 
 OpenAI released GPT-5.4 mini and GPT-5.4 nano on 17 March 2026[^1], and they represent something more significant than two incremental model updates. They are, explicitly, the first models OpenAI has framed as purpose-built subagent models — designed to be orchestrated by a larger, more capable model rather than used as standalone all-purpose inferencing endpoints. For Codex CLI users, this arrival materially changes how you should think about multi-agent topologies, cost management, and the TOML configuration that governs them.

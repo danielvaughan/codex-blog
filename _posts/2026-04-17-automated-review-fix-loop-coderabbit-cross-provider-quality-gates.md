@@ -6,11 +6,11 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-automated-review-fix-loop-coderabbit-cross-provider-quality-gates"
 tags: ["code-review", "coderabbit", "cross-provider", "quality-gates", "review-fix-loop", "plugins", "codex-plugin-cc", "enterprise"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: The Automated Review-Fix Loop: CodeRabbit, Cross-Provider Review, and Closing the Quality Gap in Agent-Generated Code](/sketchnotes/articles/2026-04-17-automated-review-fix-loop-coderabbit-cross-provider-quality-gates.png)
-
 # The Automated Review-Fix Loop: CodeRabbit, Cross-Provider Review, and Closing the Quality Gap in Agent-Generated Code
+
+![Sketchnote diagram for: The Automated Review-Fix Loop: CodeRabbit, Cross-Provider Review, and Closing the Quality Gap in Agent-Generated Code](/sketchnotes/articles/2026-04-17-automated-review-fix-loop-coderabbit-cross-provider-quality-gates.png)
 
 
 Agent-generated code ships fast, but quality remains the bottleneck. The Hacker News consensus on Codex is blunt: the code "can be quite sloppy" and "requires multiple review passes" [^1]. The April 16 plugin wave — over 90 new plugins including CodeRabbit, Atlassian Rovo, CircleCI, and GitLab Issues [^2] — finally gives Codex CLI users the tooling to close this gap automatically, inside the same session where code is being written.

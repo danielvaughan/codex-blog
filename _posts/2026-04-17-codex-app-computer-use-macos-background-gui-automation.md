@@ -6,11 +6,11 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-app-computer-use-macos-background-gui-automation"
 tags: ["computer-use", "macos", "gui-automation", "background-agents", "codex-app", "desktop", "parallel-agents", "accessibility", "testing"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex App Computer Use: Background GUI Automation on macOS Without Surrendering Your Desktop](/sketchnotes/articles/2026-04-17-codex-app-computer-use-macos-background-gui-automation.png)
-
 # Codex App Computer Use: Background GUI Automation on macOS Without Surrendering Your Desktop
+
+![Sketchnote diagram for: Codex App Computer Use: Background GUI Automation on macOS Without Surrendering Your Desktop](/sketchnotes/articles/2026-04-17-codex-app-computer-use-macos-background-gui-automation.png)
 
 
 On 16 April 2026, OpenAI shipped Computer Use in the Codex desktop app (version 26.415), enabling agents to operate macOS applications by seeing the screen, clicking, and typing with their own cursor — all running in the background without commandeering the user's desktop [^1][^2]. This is a fundamentally different proposition from both Anthropic's Claude Computer Use API (research preview since March 2026) and traditional GUI automation frameworks like Selenium or Accessibility Inspector scripts. Where Claude's implementation requires a dedicated virtual display or takes over the user's screen, Codex runs multiple agents in parallel against different applications whilst the developer continues working undisturbed [^3].

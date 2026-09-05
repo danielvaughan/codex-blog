@@ -2,16 +2,15 @@
 title: "Codex CLI HIPAA Compliance in 2026: The Regulated Workspace Exclusion and What It Means"
 description: "If your organisation processes Protected Health Information (PHI) and you are evaluating Codex CLI, there is a critical distinction buried in OpenAI's."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 type: Technical Article
 timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-hipaa-compliance-2026-regulated-workspace-exclusion"
 tags: ["hipaa", "compliance", "enterprise", "security", "codex-cli", "regulated-environments"]
 ---
-![Sketchnote diagram for: Codex CLI HIPAA Compliance in 2026: The Regulated Workspace Exclusion and What It Means](/sketchnotes/articles/2026-04-20-codex-cli-hipaa-compliance-2026-regulated-workspace-exclusion.png)
-
-
 # Codex CLI HIPAA Compliance in 2026: The Regulated Workspace Exclusion and What It Means
+
+![Sketchnote diagram for: Codex CLI HIPAA Compliance in 2026: The Regulated Workspace Exclusion and What It Means](/sketchnotes/articles/2026-04-20-codex-cli-hipaa-compliance-2026-regulated-workspace-exclusion.png)
 
 
 If your organisation processes Protected Health Information (PHI) and you are evaluating Codex CLI, there is a critical distinction buried in OpenAI's documentation that most teams miss: **Codex is listed as "Non-Included Functionality" in the ChatGPT Regulated Workspace specification**.[^1] This does not mean Codex CLI cannot be used in healthcare settings — but it fundamentally changes the compliance architecture you need to build around it.

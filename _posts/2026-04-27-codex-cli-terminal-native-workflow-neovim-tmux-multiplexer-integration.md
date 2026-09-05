@@ -6,12 +6,11 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-terminal-native-workflow-neovim-tmux-multiplexer-integration"
 tags: ["neovim", "tmux", "terminal-workflow", "codex.nvim", "sidekick.nvim", "codex-cli-farm", "ntm", "parallel-agents", "developer-productivity"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Terminal-Native Codex CLI Workflows: Neovim, tmux, and the Multiplexer-Driven Development Stack](/sketchnotes/articles/2026-04-27-codex-cli-terminal-native-workflow-neovim-tmux-multiplexer-integration.png)
-
-
 # Terminal-Native Codex CLI Workflows: Neovim, tmux, and the Multiplexer-Driven Development Stack
+
+![Sketchnote diagram for: Terminal-Native Codex CLI Workflows: Neovim, tmux, and the Multiplexer-Driven Development Stack](/sketchnotes/articles/2026-04-27-codex-cli-terminal-native-workflow-neovim-tmux-multiplexer-integration.png)
 
 
 Codex CLI runs in a terminal. Neovim runs in a terminal. tmux multiplexes terminals. The logical conclusion — a fully keyboard-driven development environment where your editor, your agent, and your orchestration layer share a single session — has quietly become the dominant workflow pattern among terminal-native developers in 2026[^1][^2].

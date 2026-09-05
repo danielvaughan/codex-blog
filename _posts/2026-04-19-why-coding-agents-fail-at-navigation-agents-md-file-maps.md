@@ -6,12 +6,11 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps"
 tags: ["codex-cli", "agents-md", "navigation", "file-maps", "benchmarks", "agent-failures", "codebase-navigation"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)](/sketchnotes/articles/2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps.png)
-
-
 # Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)
+
+![Sketchnote diagram for: Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)](/sketchnotes/articles/2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps.png)
 
 
 Your coding agent can refactor a function, write tests, and call APIs — but ask it to find the right file in a monorepo, and there's a coin-flip chance it wanders off into the wrong directory. Three peer-reviewed studies from April 2026 converge on the same conclusion: **navigation, not tool use, is the dominant failure mode in modern coding agents**[^1][^2][^3]. This article unpacks the research, explains why navigation is hard for LLM-based agents, and shows how a well-crafted `AGENTS.md` file map turns a known weakness into a solved problem.

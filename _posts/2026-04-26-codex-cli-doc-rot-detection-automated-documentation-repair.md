@@ -6,12 +6,11 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-doc-rot-detection-automated-documentation-repair"
 tags: ["codex-cli", "documentation", "automation", "ci-cd", "codex-exec", "hooks", "github-actions", "doc-rot"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Automated Doc-Rot Detection and Repair with Codex CLI](/sketchnotes/articles/2026-04-26-codex-cli-doc-rot-detection-automated-documentation-repair.png)
-
-
 # Automated Doc-Rot Detection and Repair with Codex CLI
+
+![Sketchnote diagram for: Automated Doc-Rot Detection and Repair with Codex CLI](/sketchnotes/articles/2026-04-26-codex-cli-doc-rot-detection-automated-documentation-repair.png)
 
 
 Documentation rots. Every senior developer knows this. The README promises a `--legacy` flag that was removed three sprints ago. The API reference still lists endpoints that were deprecated in v2. The architecture diagram shows a monolith you decomposed into microservices last quarter. Studies show that documentation drift is one of the top three barriers to developer onboarding [^1], and yet most teams treat documentation updates as an afterthought bolted onto the end of a sprint.

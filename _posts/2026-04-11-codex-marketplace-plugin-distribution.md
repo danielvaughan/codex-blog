@@ -2,7 +2,7 @@
 title: "Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command"
 description: "OpenAI's plugin marketplace, launched on 27 March 2026, transforms Codex from a standalone coding agent into an extensible platform. Plugins bundle skills."
 date: 2026-04-11T22:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - marketplace
   - plugins
@@ -14,10 +14,9 @@ type: Technical Article
 timestamp: 2026-04-11T23:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-codex-marketplace-plugin-distribution"
 ---
-![Sketchnote diagram for: Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command](/sketchnotes/articles/2026-04-11-codex-marketplace-plugin-distribution.png)
-
-
 # Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command
+
+![Sketchnote diagram for: Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command](/sketchnotes/articles/2026-04-11-codex-marketplace-plugin-distribution.png)
 
 
 OpenAI's plugin marketplace, launched on 27 March 2026[^1], turns Codex from a standalone coding agent into an extensible platform. Plugins bundle skills, app integrations and MCP server configurations into installable packages that work across the desktop app, CLI and VS Code extension[^2]. With more than 20 launch-day integrations from partners including Slack, Figma, Notion and Sentry[^1], the marketplace introduces a distribution model that borrows from package managers while adding enterprise governance controls absent from competing tools.

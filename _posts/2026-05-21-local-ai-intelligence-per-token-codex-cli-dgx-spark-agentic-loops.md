@@ -2,7 +2,7 @@
 title: "Intelligence per Token: Why Your Local AI Needs Agentic Loops, Not Bigger Prompts — and What Codex CLI Already Solved"
 description: "Manolo Remiddis recent video, Your Local AI is Stupid Because Youre Using it Like ChatGPT, articulates a problem that Codex CLIs architecture."
 date: 2026-05-21T00:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 category: strategy
 tags: [codex-cli, local-ai, dgx-spark, gx10, agentic-loops, token-efficiency, ollama, open-code, gemma, qwen, strategy]
 source:
@@ -12,10 +12,9 @@ type: Technical Article
 timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-local-ai-intelligence-per-token-codex-cli-dgx-spark-agentic-loops"
 ---
-![Sketchnote diagram for: Intelligence per Token: Why Your Local AI Needs Agentic Loops, Not Bigger Prompts — and What Codex CLI Already Solved](/sketchnotes/articles/2026-05-21-local-ai-intelligence-per-token-codex-cli-dgx-spark-agentic-loops.png)
-
-
 # Intelligence per Token: Why Your Local AI Needs Agentic Loops, Not Bigger Prompts — and What Codex CLI Already Solved
+
+![Sketchnote diagram for: Intelligence per Token: Why Your Local AI Needs Agentic Loops, Not Bigger Prompts — and What Codex CLI Already Solved](/sketchnotes/articles/2026-05-21-local-ai-intelligence-per-token-codex-cli-dgx-spark-agentic-loops.png)
 
 Manolo Remiddi's recent video, "Your Local AI is 'Stupid' Because You're Using it Like ChatGPT,"[^1] articulates a problem that Codex CLI's architecture addresses structurally. The argument is simple: smaller local models — Gemma 3 27B, Qwen 3.6 35B, running on hardware like the Nvidia DGX Spark or ASUS GX10 — produce tokens with less intelligence per token than frontier models like GPT-5.5. One-shot prompting therefore fails. The solution is not bigger hardware but better workflow: specification-first development, iterative loops, deterministic verification, and research-before-action. Every one of these patterns is already a first-class concept in Codex CLI.
 

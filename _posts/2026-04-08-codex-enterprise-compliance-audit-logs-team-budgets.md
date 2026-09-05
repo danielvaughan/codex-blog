@@ -2,7 +2,7 @@
 title: "Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard"
 description: "Running Codex CLI across a fifty-person engineering department is a different proposition from a solo developer experimenting in a side project. Regulated."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - enterprise
   - audit-logs
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-04-08T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-enterprise-compliance-audit-logs-team-budgets"
 ---
-![Sketchnote diagram for: Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard](/sketchnotes/articles/2026-04-08-codex-enterprise-compliance-audit-logs-team-budgets.png)
-
 # Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard
+
+![Sketchnote diagram for: Codex Enterprise Compliance: Audit Logs, Team Cost Budgets and the Admin Dashboard](/sketchnotes/articles/2026-04-08-codex-enterprise-compliance-audit-logs-team-budgets.png)
 
 
 Running Codex CLI across a fifty-person engineering department is a different proposition from a solo developer experimenting in a side project. Regulated industries need audit trails, finance teams need cost visibility, and security teams need policy enforcement that developers cannot simply override. This article walks through the enterprise compliance surface that OpenAI has built around Codex — the Compliance API, the Analytics Dashboard, managed configuration via `requirements.toml`, and the cost budget tooling — and shows how they map onto real-world governance requirements.

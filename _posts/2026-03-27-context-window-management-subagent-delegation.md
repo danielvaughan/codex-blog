@@ -2,7 +2,7 @@
 title: "Context Window Management: Avoiding Compaction with Sub-Agent Delegation"
 description: "Long Codex sessions degrade. Not catastrophically — the model does not forget your instructions — but its reliability erodes as the context fills with tool."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - architecture
   - context-management
@@ -11,9 +11,9 @@ type: Technical Article
 timestamp: 2026-03-27T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-27-context-window-management-subagent-delegation"
 ---
-![Sketchnote diagram for: Context Window Management: Avoiding Compaction with Sub-Agent Delegation](/sketchnotes/articles/2026-03-27-context-window-management-subagent-delegation.png)
-
 # Context Window Management: Avoiding Compaction with Sub-Agent Delegation
+
+![Sketchnote diagram for: Context Window Management: Avoiding Compaction with Sub-Agent Delegation](/sketchnotes/articles/2026-03-27-context-window-management-subagent-delegation.png)
 
 
 ---

@@ -6,12 +6,11 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-plugin-marketplace-building-distributing-extending"
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "enterprise", "extensibility"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Plugin Marketplace: Building, Distributing, and Managing Extensions at Scale](/sketchnotes/articles/2026-04-24-codex-cli-plugin-marketplace-building-distributing-extending.png)
-
-
 # Codex CLI Plugin Marketplace: Building, Distributing, and Managing Extensions at Scale
+
+![Sketchnote diagram for: Codex CLI Plugin Marketplace: Building, Distributing, and Managing Extensions at Scale](/sketchnotes/articles/2026-04-24-codex-cli-plugin-marketplace-building-distributing-extending.png)
 
 
 OpenAI launched the Codex plugin marketplace on 26 March 2026, packaging skills, MCP servers, and app integrations into shareable, installable bundles that work across the Codex App, CLI, and IDE extensions [^1]. Within a month the ecosystem has grown to over 12 official plugins and 40+ community contributions [^2], spanning everything from Slack and Figma integrations to multi-agent orchestration frameworks. This article covers the full plugin lifecycle — from scaffold to distribution — with a focus on CLI workflows and enterprise governance.

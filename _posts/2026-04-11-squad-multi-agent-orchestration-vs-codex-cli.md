@@ -2,7 +2,7 @@
 title: "Squad vs Codex CLI: Multi-Agent Orchestration Compared and Replicated"
 description: "Brady Gaster's Squad provides multi-agent orchestration on top of GitHub Copilot — a team of specialised agents that live in your repository as plain-text."
 date: 2026-04-11T05:30:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - squad
   - multi-agent
@@ -18,9 +18,9 @@ type: Technical Article
 timestamp: 2026-04-11T06:30:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-squad-multi-agent-orchestration-vs-codex-cli"
 ---
-![Sketchnote diagram for: Squad vs Codex CLI: Multi-Agent Orchestration Compared and Replicated](/sketchnotes/articles/2026-04-11-squad-multi-agent-orchestration-vs-codex-cli.png)
-
 # Squad vs Codex CLI: Multi-Agent Orchestration Compared and Replicated
+
+![Sketchnote diagram for: Squad vs Codex CLI: Multi-Agent Orchestration Compared and Replicated](/sketchnotes/articles/2026-04-11-squad-multi-agent-orchestration-vs-codex-cli.png)
 
 Brady Gaster's **Squad** provides multi-agent orchestration on top of GitHub Copilot — a team of specialised agents that live in your repository as plain-text files[^1]. Codex CLI, at first glance, is a single-agent tool. But as of April 2026, Codex CLI has native subagent spawning, hook-based review gates, profile-based specialist roles, MCP server mode for external orchestration, and a growing ecosystem of orchestration layers (OMX, Gas Town, NanoClaw) that replicate — and in some cases exceed — Squad's capabilities.
 

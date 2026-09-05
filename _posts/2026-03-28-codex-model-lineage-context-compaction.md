@@ -2,7 +2,7 @@
 title: "Codex Model Lineage: The Context Compaction Breakthrough That Made Long-Horizon Agents Possible"
 description: "If you've been using Codex CLI for agentic work, you've probably hit the wall: a long-running session starts hallucinating earlier decisions."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 summary: "How the GPT-5.x-Codex model family evolved to solve the context problem — and why native compaction changed what agentic coding workflows can actually achieve."
 tags:
   - architecture
@@ -17,9 +17,9 @@ type: Technical Article
 timestamp: 2026-03-28T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-model-lineage-context-compaction"
 ---
-![Sketchnote diagram for: Codex Model Lineage: The Context Compaction Breakthrough That Made Long-Horizon Agents Possible](/sketchnotes/articles/2026-03-28-codex-model-lineage-context-compaction.png)
-
 # Codex Model Lineage: The Context Compaction Breakthrough
+
+![Sketchnote diagram for: Codex Model Lineage: The Context Compaction Breakthrough That Made Long-Horizon Agents Possible](/sketchnotes/articles/2026-03-28-codex-model-lineage-context-compaction.png)
 
 *Published: 2026-03-28 | Sources: [openai.com/index/introducing-gpt-5-2-codex](https://openai.com/index/introducing-gpt-5-2-codex/), [openai.com/index/introducing-gpt-5-3-codex](https://openai.com/index/introducing-gpt-5-3-codex/)*
 

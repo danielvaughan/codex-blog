@@ -2,7 +2,7 @@
 title: "From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern"
 description: "Codex CLI is a formidable single-agent tool, but shipping a production feature typically involves design, frontend, backend, and testing — work that maps."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - orchestration
   - agents-sdk
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-04-01T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-01-codex-cli-multi-agent-cookbook-pattern"
 ---
-![Sketchnote diagram for: From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern](/sketchnotes/articles/2026-04-01-codex-cli-multi-agent-cookbook-pattern.png)
-
 # From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern
+
+![Sketchnote diagram for: From CLI to Pipeline: Building Multi-Agent Workflows with the OpenAI Cookbook Pattern](/sketchnotes/articles/2026-04-01-codex-cli-multi-agent-cookbook-pattern.png)
 
 
 ---

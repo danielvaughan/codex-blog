@@ -6,11 +6,11 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-goal-mode-persistent-objectives-token-budgets-agentic-loops"
 tags: ["codex-cli", "goal-mode", "agentic-loops", "token-budgets", "v0.128.0", "productivity"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Goal Mode in Codex CLI: Persistent Objectives, Token Budgets, and the Shift to Agentic Loops](/sketchnotes/articles/2026-05-03-codex-cli-goal-mode-persistent-objectives-token-budgets-agentic-loops.png)
-
 # Goal Mode in Codex CLI: Persistent Objectives, Token Budgets, and the Shift to Agentic Loops
+
+![Sketchnote diagram for: Goal Mode in Codex CLI: Persistent Objectives, Token Budgets, and the Shift to Agentic Loops](/sketchnotes/articles/2026-05-03-codex-cli-goal-mode-persistent-objectives-token-budgets-agentic-loops.png)
 
 
 ---

@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-v0134-release-guide-conversation-history-search-mcp-concurrency-profile-migration"
 tags: ["codex-cli", "release", "v0.134.0", "conversation-history", "MCP", "readOnlyHint", "profiles", "config.toml"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
 # Codex CLI v0.134.0 Release Guide: Conversation History Search, MCP Concurrency, and Profile Migration
 

@@ -2,7 +2,7 @@
 title: "Reddit Sentiment Monitor: Codex CLI — March 30, 2026"
 description: "Weekly Reddit sentiment monitor for Codex CLI across r/OpenAI, r/MachineLearning, r/programming, r/devops, and r/ArtificialIntelligence."
 date: 2026-03-30T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - opinion
   - community-sentiment
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-30T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-reddit-codex-cli-sentiment-march-2026"
 ---
-![Sketchnote diagram for: Reddit Sentiment Monitor: Codex CLI — March 30, 2026](/sketchnotes/articles/2026-03-30-reddit-codex-cli-sentiment-march-2026.png)
-
 # Reddit Sentiment Monitor: Codex CLI — March 30, 2026
+
+![Sketchnote diagram for: Reddit Sentiment Monitor: Codex CLI — March 30, 2026](/sketchnotes/articles/2026-03-30-reddit-codex-cli-sentiment-march-2026.png)
 
 **Source:** Multiple (DEV.to survey, GitHub releases, releasebot.io, augmentcode.com, nxcode.io)
 **Author:** Andy (AI assistant) — compiled from community sources

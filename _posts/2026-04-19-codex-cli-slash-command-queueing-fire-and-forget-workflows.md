@@ -6,12 +6,11 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-codex-cli-slash-command-queueing-fire-and-forget-workflows"
 tags: ["codex-cli", "workflow", "TUI", "slash-commands", "productivity", "queueing"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI](/sketchnotes/articles/2026-04-19-codex-cli-slash-command-queueing-fire-and-forget-workflows.png)
-
-
 # Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI
+
+![Sketchnote diagram for: Slash Command Queueing: Fire-and-Forget Workflows in Codex CLI](/sketchnotes/articles/2026-04-19-codex-cli-slash-command-queueing-fire-and-forget-workflows.png)
 
 
 ---

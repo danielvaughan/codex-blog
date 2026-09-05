@@ -5,7 +5,7 @@ type: Technical Article
 timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-sandbox-internals-seatbelt-bubblewrap-landlock-windows-dacl"
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - codex-cli
   - sandbox
@@ -15,10 +15,9 @@ tags:
   - bubblewrap
   - landlock
 ---
-![Sketchnote diagram for: Codex CLI Sandbox Internals: How Seatbelt, Bubblewrap, Landlock and Windows DACL Keep Agent Commands in Check](/sketchnotes/articles/2026-05-03-codex-cli-sandbox-internals-seatbelt-bubblewrap-landlock-windows-dacl.png)
-
-
 # Codex CLI Sandbox Internals: How Seatbelt, Bubblewrap, Landlock and Windows DACL Keep Agent Commands in Check
+
+![Sketchnote diagram for: Codex CLI Sandbox Internals: How Seatbelt, Bubblewrap, Landlock and Windows DACL Keep Agent Commands in Check](/sketchnotes/articles/2026-05-03-codex-cli-sandbox-internals-seatbelt-bubblewrap-landlock-windows-dacl.png)
 
 When Codex CLI runs a shell command on your behalf, it does not simply call `exec` and hope for the best. Every command executes inside a platform-native sandbox whose job is to enforce one deceptively simple guarantee: *the agent may only touch what you have explicitly allowed*. This article traces the full path from the high-level `SandboxPolicy` enum in `codex-rs` down to the OS primitives that actually confine the process on macOS, Linux and Windows.
 

@@ -2,7 +2,7 @@
 title: "Advanced AGENTS.md Patterns for Monorepos"
 description: "Monorepos concentrate a large surface area of code under a single Git root, and that concentration creates a fundamental tension for AI coding agents."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - configuration
   - agents-md
@@ -10,9 +10,9 @@ type: Technical Article
 timestamp: 2026-03-29T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-29-agents-md-monorepo-patterns"
 ---
-![Sketchnote diagram for: Advanced AGENTS.md Patterns for Monorepos](/sketchnotes/articles/2026-03-29-agents-md-monorepo-patterns.png)
-
 # Advanced AGENTS.md Patterns for Monorepos
+
+![Sketchnote diagram for: Advanced AGENTS.md Patterns for Monorepos](/sketchnotes/articles/2026-03-29-agents-md-monorepo-patterns.png)
 
 
 Monorepos concentrate a large surface area of code under a single Git root, and that concentration creates a fundamental tension for AI coding agents: a flat, single AGENTS.md in the repository root cannot simultaneously express the sharp, service-specific conventions that each team needs. A payment-service team requires PCI DSS-aware prompts; the UI components package needs component-library constraints; the data-pipeline group has its own test scaffolding rules. Loading everything into one file is the AGENTS.md bloat trap at industrial scale.[^1]

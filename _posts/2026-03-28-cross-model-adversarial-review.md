@@ -2,7 +2,7 @@
 title: "Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots"
 description: "The moment your coding agent reviews its own output, you have a problem. Not because the agent is dishonest."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - workflow-patterns
   - code-review
@@ -15,6 +15,8 @@ type: Technical Article
 timestamp: 2026-03-28T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-cross-model-adversarial-review"
 ---
+# Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots
+
 ![Sketchnote diagram for: Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots](/sketchnotes/articles/2026-03-28-cross-model-adversarial-review.png)
 
 *Published: 2026-03-28*

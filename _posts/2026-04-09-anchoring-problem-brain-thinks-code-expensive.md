@@ -3,7 +3,7 @@ title: "The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive"
 description: "Last year I was at a car boot sale in Saffron Walden. Trestle tables covered in somebody else's past."
 featured: true
 date: 2026-04-09T16:50:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - opinion
   - personal-essay
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-04-09T17:50:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-anchoring-problem-brain-thinks-code-expensive"
 ---
-![Sketchnote diagram for: The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive](/sketchnotes/articles/2026-04-09-anchoring-problem-brain-thinks-code-expensive.png)
-
 # The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive
+
+![Sketchnote diagram for: The Anchoring Problem: Why My Brain Still Thinks Code Is Expensive](/sketchnotes/articles/2026-04-09-anchoring-problem-brain-thinks-code-expensive.png)
 
 Last year I was at a car boot sale in Saffron Walden. Trestle tables covered in somebody else's past. And there, between a chipped Le Creuset pot and a stack of Beano annuals, sat a Psion Series 5. Clamshell open, screen intact, that keyboard I once thought was the pinnacle of miniaturised engineering. I asked how much. "A pound," she said.
 

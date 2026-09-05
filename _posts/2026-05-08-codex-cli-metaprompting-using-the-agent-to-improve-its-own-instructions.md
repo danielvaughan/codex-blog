@@ -6,12 +6,11 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-metaprompting-using-the-agent-to-improve-its-own-instructions"
 tags: ["codex-cli", "metaprompting", "AGENTS.md", "skills", "prompt-engineering", "workflow-optimisation"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Metaprompting: Using the Agent to Improve Its Own Instructions](/sketchnotes/articles/2026-05-08-codex-cli-metaprompting-using-the-agent-to-improve-its-own-instructions.png)
-
-
 # Codex CLI Metaprompting: Using the Agent to Improve Its Own Instructions
+
+![Sketchnote diagram for: Codex CLI Metaprompting: Using the Agent to Improve Its Own Instructions](/sketchnotes/articles/2026-05-08-codex-cli-metaprompting-using-the-agent-to-improve-its-own-instructions.png)
 
 
 Most developers treat their AGENTS.md and skills as write-once configuration. They scaffold an initial file with `/init`, tweak a few lines, and never touch it again. This leaves substantial performance on the table. OpenAI's own Codex Prompting Guide includes a section on *metaprompting* — asking the model to propose instruction changes that address specific performance issues[^1] — yet few teams apply this technique systematically.

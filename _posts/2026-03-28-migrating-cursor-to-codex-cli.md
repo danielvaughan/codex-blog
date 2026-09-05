@@ -2,7 +2,7 @@
 title: "Migrating from Cursor to Codex CLI"
 description: "Cursor's June 2025 pricing overhaul — replacing predictable 500-request plans with variable credit pools — sent a visible slice of its user base searching."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - competitive-landscape
   - cursor
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-28T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-migrating-cursor-to-codex-cli"
 ---
-![Sketchnote diagram for: Migrating from Cursor to Codex CLI](/sketchnotes/articles/2026-03-28-migrating-cursor-to-codex-cli.png)
-
 # Migrating from Cursor to Codex CLI
+
+![Sketchnote diagram for: Migrating from Cursor to Codex CLI](/sketchnotes/articles/2026-03-28-migrating-cursor-to-codex-cli.png)
 
 
 Cursor's June 2025 pricing overhaul — replacing predictable 500-request plans with variable credit pools — sent a visible slice of its user base searching for alternatives.[^1] For developers already comfortable in the terminal, Codex CLI is the natural landing spot. But the migration isn't just a config translation; it's a paradigm shift from an IDE-augmentation model to a terminal-first agentic one. This guide covers both the mechanical steps and the conceptual adjustments.

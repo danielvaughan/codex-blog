@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Session Persistence: Resume, Fork, and Analytics"
 date: 2026-04-13T00:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 updated: 2026-04-13
 slug: codex-cli-session-persistence-resume-fork-analytics
 tags:
@@ -26,10 +26,9 @@ type: Technical Article
 timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-session-persistence-resume-fork-analytics"
 ---
-![Sketchnote diagram for: Codex CLI Session Persistence: Resume, Fork, and Analytics](/sketchnotes/articles/2026-04-13-codex-cli-session-persistence-resume-fork-analytics.png)
-
-
 # Codex CLI Session Persistence: Resume, Fork, and Analytics
+
+![Sketchnote diagram for: Codex CLI Session Persistence: Resume, Fork, and Analytics](/sketchnotes/articles/2026-04-13-codex-cli-session-persistence-resume-fork-analytics.png)
 
 > **Consolidated reference** -- this article unifies coverage previously spread
 > across five separate pieces on thread management, session analytics, thread

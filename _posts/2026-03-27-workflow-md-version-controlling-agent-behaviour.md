@@ -2,7 +2,7 @@
 title: "WORKFLOW.md: Version-Controlling Your Agent's Behaviour"
 description: "When you adopt Symphony (or any harness-based orchestration), you face a configuration challenge: how do you define how your agents should behave, and keep."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 excerpt: "Symphony's dual-purpose config+prompt file pattern: YAML front matter defines runtime orchestration settings, Markdown body becomes the Jinja prompt template. Agent policy as a versioned repo artifact."
 tags:
   - orchestration
@@ -15,6 +15,8 @@ type: Technical Article
 timestamp: 2026-03-27T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-27-workflow-md-version-controlling-agent-behaviour"
 ---
+# WORKFLOW.md: Version-Controlling Your Agent's Behaviour
+
 ![Sketchnote diagram for: WORKFLOW.md: Version-Controlling Your Agent's Behaviour](/sketchnotes/articles/2026-03-27-workflow-md-version-controlling-agent-behaviour.png)
 
 *Published 2026-03-27. Sources: [openai/symphony SPEC.md](https://github.com/openai/symphony/blob/main/SPEC.md), [Harness Engineering (OpenAI Blog)](https://openai.com/index/harness-engineering/), [Ry Walker Research on Symphony](https://rywalker.com/research/symphony)*

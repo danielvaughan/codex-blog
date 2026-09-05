@@ -6,12 +6,11 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-agent-aware-terminals-codex-cli-warp-cmux-ghostty-choosing-terminal-emulator"
 tags: ["codex-cli", "terminal-emulator", "warp", "cmux", "ghostty", "kitty", "developer-tooling", "agent-orchestration", "productivity"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Agent-Aware Terminals for Codex CLI: Choosing the Right Terminal Emulator in the AI Coding Era](/sketchnotes/articles/2026-04-29-agent-aware-terminals-codex-cli-warp-cmux-ghostty-choosing-terminal-emulator.png)
-
-
 # Agent-Aware Terminals for Codex CLI: Choosing the Right Terminal Emulator in the AI Coding Era
+
+![Sketchnote diagram for: Agent-Aware Terminals for Codex CLI: Choosing the Right Terminal Emulator in the AI Coding Era](/sketchnotes/articles/2026-04-29-agent-aware-terminals-codex-cli-warp-cmux-ghostty-choosing-terminal-emulator.png)
 
 
 Codex CLI runs in a terminal. That much is obvious. What is less obvious — and increasingly consequential — is that your choice of terminal emulator now materially affects your agent workflow. In 2026, the terminal landscape has bifurcated: traditional emulators optimise for rendering speed and standards compliance, while a new generation of **agent-aware terminals** adds first-class support for notifications, parallel agent orchestration, and session metadata[^1][^2]. This article maps the landscape, compares the options, and offers a decision framework for Codex CLI practitioners.

@@ -6,12 +6,11 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-gpt-oss-local-models-ollama-lm-studio-mlx-setup-guide"
 tags: ["codex-cli", "gpt-oss", "ollama", "lm-studio", "mlx", "local-models", "open-weight", "self-hosted", "privacy", "config-toml"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Running GPT-OSS with Codex CLI: A Complete Guide to Local Inference via Ollama, LM Studio, and MLX](/sketchnotes/articles/2026-05-03-codex-cli-gpt-oss-local-models-ollama-lm-studio-mlx-setup-guide.png)
-
-
 # Running GPT-OSS with Codex CLI: A Complete Guide to Local Inference via Ollama, LM Studio, and MLX
+
+![Sketchnote diagram for: Running GPT-OSS with Codex CLI: A Complete Guide to Local Inference via Ollama, LM Studio, and MLX](/sketchnotes/articles/2026-05-03-codex-cli-gpt-oss-local-models-ollama-lm-studio-mlx-setup-guide.png)
 
 
 OpenAI's release of GPT-OSS — two open-weight models under the Apache 2.0 licence — changed the economics of agentic coding overnight[^1]. The 120-billion-parameter variant scores 62.4% on SWE-Bench Verified and 2,622 Elo on Codeforces (with tools), approaching o4-mini territory while running on a single 80 GB GPU[^2]. The 20-billion-parameter variant fits in 16 GB of memory and still manages 60.7% on SWE-Bench Verified[^2]. Codex CLI supports both models natively through its `--oss` flag and provider configuration, giving practitioners a zero-API-cost, privacy-preserving agentic coding workflow.

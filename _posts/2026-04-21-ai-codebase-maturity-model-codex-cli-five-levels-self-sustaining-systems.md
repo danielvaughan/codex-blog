@@ -6,12 +6,11 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-ai-codebase-maturity-model-codex-cli-five-levels-self-sustaining-systems"
 tags: ["codex-cli", "maturity-model", "ACMM", "feedback-loops", "testing", "CI-CD", "dark-factory", "harness-engineering", "autonomy"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: The AI Codebase Maturity Model: Mapping Five Levels of Agent Autonomy to Codex CLI](/sketchnotes/articles/2026-04-21-ai-codebase-maturity-model-codex-cli-five-levels-self-sustaining-systems.png)
-
-
 # The AI Codebase Maturity Model: Mapping Five Levels of Agent Autonomy to Codex CLI
+
+![Sketchnote diagram for: The AI Codebase Maturity Model: Mapping Five Levels of Agent Autonomy to Codex CLI](/sketchnotes/articles/2026-04-21-ai-codebase-maturity-model-codex-cli-five-levels-self-sustaining-systems.png)
 
 
 Most teams plateau at prompt-and-review. They install Codex CLI, generate a few fixes, manually inspect the diffs, and call themselves "AI-native." In reality, they are stuck at Level 2 of a five-level progression that ends with lights-out pipelines shipping code without human review.

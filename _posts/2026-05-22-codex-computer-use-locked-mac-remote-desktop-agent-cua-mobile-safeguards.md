@@ -2,7 +2,7 @@
 title: "Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent"
 description: "Published: 2026-05-22 Sources: OpenAI Computer Use docs, OpenAI Use Cases, OpenAI Changelog v26.519, TestingCatalog coverage, Knightli enterprise access."
 date: 2026-05-22T00:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - codex-cli
   - computer-use
@@ -18,10 +18,9 @@ type: Technical Article
 timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-computer-use-locked-mac-remote-desktop-agent-cua-mobile-safeguards"
 ---
-![Sketchnote diagram for: Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent](/sketchnotes/articles/2026-05-22-codex-computer-use-locked-mac-remote-desktop-agent-cua-mobile-safeguards.png)
-
-
 # Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent
+
+![Sketchnote diagram for: Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent](/sketchnotes/articles/2026-05-22-codex-computer-use-locked-mac-remote-desktop-agent-cua-mobile-safeguards.png)
 
 Published: 2026-05-22
 Sources: [OpenAI Computer Use docs](https://developers.openai.com/codex/app/computer-use), [OpenAI Use Cases](https://developers.openai.com/codex/use-cases/use-your-computer-with-codex), [OpenAI Changelog v26.519](https://developers.openai.com/codex/changelog), [TestingCatalog coverage](https://www.testingcatalog.com/openai-will-let-codex-control-other-desktop-devices-via-computer-use/), [Knightli enterprise access tokens](https://www.knightli.com/en/2026/05/17/codex-mobile-remote-access-enterprise-access-tokens/), [MacRumors mobile launch](https://www.macrumors.com/2026/05/15/openai-brings-codex-chatgpt-mobile-app/)

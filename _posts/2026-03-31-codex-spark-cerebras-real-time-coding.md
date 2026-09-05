@@ -2,7 +2,7 @@
 title: "GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second"
 description: "GPT-5.3-Codex-Spark is OpenAI's first model purpose-built for real-time coding iteration, and the first production model served entirely on non-NVIDIA."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - models
   - codex-spark
@@ -13,9 +13,9 @@ type: Technical Article
 timestamp: 2026-03-31T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-31-codex-spark-cerebras-real-time-coding"
 ---
-![Sketchnote diagram for: GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second](/sketchnotes/articles/2026-03-31-codex-spark-cerebras-real-time-coding.png)
-
 # GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second
+
+![Sketchnote diagram for: GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second](/sketchnotes/articles/2026-03-31-codex-spark-cerebras-real-time-coding.png)
 
 
 ---

@@ -2,7 +2,7 @@
 title: "Orchestrator Template Internals: How OpenAI's Bisect PRs Reveal Multi-Agent v2 Debugging"
 description: "On 8 April 2026, OpenAI engineer jif-oai merged fifteen sequential pull requests (#17117–#17131) into the openai/codex repository ."
 date: 2026-04-09T10:30:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - orchestrator-template
   - bisect-debugging
@@ -14,9 +14,9 @@ type: Technical Article
 timestamp: 2026-04-09T11:30:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-orchestrator-template-bisect-debugging"
 ---
-![Sketchnote diagram for: Orchestrator Template Internals: How OpenAI's Bisect PRs Reveal Multi-Agent v2 Debugging](/sketchnotes/articles/2026-04-09-orchestrator-template-bisect-debugging.png)
-
 # Orchestrator Template Internals: How OpenAI's Bisect PRs Reveal Multi-Agent v2 Debugging
+
+![Sketchnote diagram for: Orchestrator Template Internals: How OpenAI's Bisect PRs Reveal Multi-Agent v2 Debugging](/sketchnotes/articles/2026-04-09-orchestrator-template-bisect-debugging.png)
 
 
 ---

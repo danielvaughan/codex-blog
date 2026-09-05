@@ -2,7 +2,7 @@
 title: "Legacy Model Retirement: Migration Guide for the April 14 Deadline"
 description: "On April 7, OpenAI removed six legacy models from the Codex model picker. On April 14, these models will be fully removed for ChatGPT sign-in users."
 date: 2026-04-11T17:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - models
   - migration
@@ -15,9 +15,9 @@ type: Technical Article
 timestamp: 2026-04-11T18:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-legacy-model-retirement-april-14-migration-guide"
 ---
-![Sketchnote diagram for: Legacy Model Retirement: Migration Guide for the April 14 Deadline](/sketchnotes/articles/2026-04-11-legacy-model-retirement-april-14-migration-guide.png)
-
 # Legacy Model Retirement: Migration Guide for the April 14 Deadline
+
+![Sketchnote diagram for: Legacy Model Retirement: Migration Guide for the April 14 Deadline](/sketchnotes/articles/2026-04-11-legacy-model-retirement-april-14-migration-guide.png)
 
 
 ---

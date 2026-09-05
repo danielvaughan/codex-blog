@@ -2,7 +2,7 @@
 title: "Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript"
 description: "When Anthropic open-sourced Claude Code in late March 2026, the developer community finally got a clear look at the engineering behind one of the most."
 date: 2026-04-01T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - competitive-landscape
   - claude-code
@@ -13,9 +13,9 @@ type: Technical Article
 timestamp: 2026-04-01T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-01-claude-code-open-source-architecture"
 ---
-![Sketchnote diagram for: Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript](/sketchnotes/articles/2026-04-01-claude-code-open-source-architecture.png)
-
 # Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript
+
+![Sketchnote diagram for: Claude Code Open-Sourced: Architecture Insights from 512K Lines of TypeScript](/sketchnotes/articles/2026-04-01-claude-code-open-source-architecture.png)
 
 **Source:** [r/ClaudeCode — "Now that it's open source, we can see why Claude Code is so good"](https://www.reddit.com/r/ClaudeCode/comments/1s8ower/now_that_its_open_source_we_can_see_why_claude/)
 **Author:** Community analysis

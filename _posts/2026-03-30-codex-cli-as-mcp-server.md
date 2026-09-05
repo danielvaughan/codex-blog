@@ -2,7 +2,7 @@
 title: "Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack"
 description: "Most Codex CLI coverage focuses on Codex consuming MCP servers — wiring in filesystem tools, database connectors, or third-party APIs. Less attention goes."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - ecosystem
   - mcp
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-30T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-codex-cli-as-mcp-server"
 ---
-![Sketchnote diagram for: Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack](/sketchnotes/articles/2026-03-30-codex-cli-as-mcp-server.png)
-
 # Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack
+
+![Sketchnote diagram for: Codex CLI as an MCP Server: Embedding Agent Intelligence in Your Tool Stack](/sketchnotes/articles/2026-03-30-codex-cli-as-mcp-server.png)
 
 
 Most Codex CLI coverage focuses on Codex *consuming* MCP servers — wiring in filesystem tools, database connectors, or third-party APIs. Less attention goes to the inverse: running Codex itself as an MCP server so that *other* agents and tools can invoke it as a callable tool. This is the `codex mcp-server` mode, available since the early Rust rewrite builds and now polished to production quality in v0.117.0[^1]. It changes the mental model from "Codex as a terminal assistant" to "Codex as a composable intelligence component."

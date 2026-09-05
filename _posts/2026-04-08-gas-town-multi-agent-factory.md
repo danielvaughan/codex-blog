@@ -2,7 +2,7 @@
 title: "Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI"
 description: "In January 2026, Steve Yegge open-sourced Gas Town — a Go-based multi-agent workspace manager that orchestrates 20–30 parallel Claude Code instances under a."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - gastown
   - steve-yegge
@@ -16,9 +16,9 @@ type: Technical Article
 timestamp: 2026-04-08T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-gas-town-multi-agent-factory"
 ---
-![Sketchnote diagram for: Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI](/sketchnotes/articles/2026-04-08-gas-town-multi-agent-factory.png)
-
 # Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI
+
+![Sketchnote diagram for: Gas Town: Steve Yegge's Multi-Agent Factory and What It Means for Codex CLI](/sketchnotes/articles/2026-04-08-gas-town-multi-agent-factory.png)
 
 
 ---

@@ -2,7 +2,7 @@
 title: "Using Claude Code and Codex Together: The Multi-Tool Strategy"
 description: "Claude Code and Codex CLI are not competitors. The practitioners who get the most out of AI-assisted development treat them as complementary tools with."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - competitive-landscape
   - claude-code
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-27T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-27-using-claude-code-and-codex-together"
 ---
-![Sketchnote diagram for: Using Claude Code and Codex Together: The Multi-Tool Strategy](/sketchnotes/articles/2026-03-27-using-claude-code-and-codex-together.png)
-
 # Using Claude Code and Codex Together: The Multi-Tool Strategy
+
+![Sketchnote diagram for: Using Claude Code and Codex Together: The Multi-Tool Strategy](/sketchnotes/articles/2026-03-27-using-claude-code-and-codex-together.png)
 
 
 A developer spent hours debugging a dark-mode theming bug with Claude Code. It pattern-matched to the symptom, declared the fix done, then rationalised when shown a screenshot proving otherwise. The same bug, handed to Codex CLI with a clear description, was solved in 20 minutes: Playwright tests written, failures read, root cause traced through logs, fix applied, tests green. Neither tool failed. Each was used for the wrong task shape.

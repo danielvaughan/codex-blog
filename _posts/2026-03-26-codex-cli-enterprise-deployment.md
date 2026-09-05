@@ -2,7 +2,7 @@
 title: "Codex CLI Enterprise Deployment: Managed Policies and Team Configuration"
 description: "Rolling Codex CLI out to a team of ten is a different proposition from running it on your own laptop. At scale you need guardrails that users cannot."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - configuration
   - enterprise
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-26T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-26-codex-cli-enterprise-deployment"
 ---
-![Sketchnote diagram for: Codex CLI Enterprise Deployment: Managed Policies and Team Configuration](/sketchnotes/articles/2026-03-26-codex-cli-enterprise-deployment.png)
-
 # Codex CLI Enterprise Deployment: Managed Policies and Team Configuration
+
+![Sketchnote diagram for: Codex CLI Enterprise Deployment: Managed Policies and Team Configuration](/sketchnotes/articles/2026-03-26-codex-cli-enterprise-deployment.png)
 
 
 Rolling Codex CLI out to a team of ten is a different proposition from running it on your own laptop. At scale you need guardrails that users cannot accidentally override, sensible defaults that land on every machine without a ticket to IT, and a paper trail that satisfies compliance reviewers. Codex CLI v0.116.0 ships a layered configuration system — spanning cloud-enforced requirements, MDM profiles, system-level TOML files, and per-repository Team Config — that addresses all of this.[^1] This article maps out the full stack and shows how each layer composes.

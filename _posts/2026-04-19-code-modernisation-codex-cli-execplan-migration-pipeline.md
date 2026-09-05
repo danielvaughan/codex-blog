@@ -6,12 +6,11 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-code-modernisation-codex-cli-execplan-migration-pipeline"
 tags: ["codex-cli", "code-modernisation", "legacy-migration", "ExecPlan", "COBOL", "enterprise", "refactoring"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Code Modernisation with Codex CLI: The ExecPlan-Driven Migration Pipeline](/sketchnotes/articles/2026-04-19-code-modernisation-codex-cli-execplan-migration-pipeline.png)
-
-
 # Code Modernisation with Codex CLI: The ExecPlan-Driven Migration Pipeline
+
+![Sketchnote diagram for: Code Modernisation with Codex CLI: The ExecPlan-Driven Migration Pipeline](/sketchnotes/articles/2026-04-19-code-modernisation-codex-cli-execplan-migration-pipeline.png)
 
 
 Legacy modernisation projects have a well-earned reputation for overruns and silent failures. A 2026 industry analysis found that organisations adopting AI-driven modernisation workflows report up to 80% cost savings and 87% accuracy in extracting core business logic from obsolete codebases[^1]. OpenAI's official Codex Cookbook now provides a structured five-phase pipeline that turns "modernise our codebase" into a series of small, testable, auditable steps[^2]. This article walks through that pipeline, adapts it for Codex CLI workflows, and shows how ExecPlans keep multi-week migrations on track.

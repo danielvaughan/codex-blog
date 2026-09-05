@@ -2,16 +2,15 @@
 title: "Migrating Custom Prompts to Skills: The v0.117.0 Breaking Change and Practical Conversion Guide"
 description: "If you upgraded Codex CLI to v0.117.0 and found your /prompts: slash commands had vanished, you are not alone. OpenAI removed the custom prompts subsystem."
 date: 2026-04-10T17:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 type: Technical Article
 timestamp: 2026-04-10T18:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-migrating-custom-prompts-to-skills"
 tags: ["custom-prompts", "skills", "migration", "v0.117.0", "SKILL.md", "breaking-change", "config-toml"]
 ---
-![Sketchnote diagram for: Migrating Custom Prompts to Skills: The v0.117.0 Breaking Change and Practical Conversion Guide](/sketchnotes/articles/2026-04-10-migrating-custom-prompts-to-skills.png)
-
-
 # Migrating Custom Prompts to Skills: The v0.117.0 Breaking Change and Practical Conversion Guide
+
+![Sketchnote diagram for: Migrating Custom Prompts to Skills: The v0.117.0 Breaking Change and Practical Conversion Guide](/sketchnotes/articles/2026-04-10-migrating-custom-prompts-to-skills.png)
 
 
 If you upgraded Codex CLI to v0.117.0 and found your `/prompts:` slash commands had vanished, you are not alone. OpenAI removed the custom prompts subsystem entirely in the March 2026 stable release[^1], completing a deprecation cycle that began several months earlier[^2]. Every reusable Markdown prompt stored under `~/.codex/prompts/` is now dead weight unless you convert it into a skill.

@@ -5,11 +5,11 @@ timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-anthropic-overtakes-openai-business-adoption-codex-cli-vendor-diversification-platform-hedging"
 tags: ["codex-cli", "anthropic", "openai", "platform-strategy", "vendor-diversification", "multi-model", "competitive-landscape", "enterprise", "claude-code", "ramp-ai-index"]
 date: 2026-06-13T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Anthropic Overtakes OpenAI in Business Adoption: What the Ramp AI Index Means for Codex CLI Platform Strategy](/sketchnotes/articles/2026-06-13-anthropic-overtakes-openai-business-adoption-codex-cli-vendor-diversification-platform-hedging.png)
-
 # Anthropic Overtakes OpenAI in Business Adoption: What the Ramp AI Index Means for Codex CLI Platform Strategy
+
+![Sketchnote diagram for: Anthropic Overtakes OpenAI in Business Adoption: What the Ramp AI Index Means for Codex CLI Platform Strategy](/sketchnotes/articles/2026-06-13-anthropic-overtakes-openai-business-adoption-codex-cli-vendor-diversification-platform-hedging.png)
 
 
 ---

@@ -6,12 +6,11 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-automated-harness-synthesis-agentflow-typed-graph-dsl-codex-cli-orchestration"
 tags: ["codex-cli", "agent-harness", "orchestration", "AgentFlow", "DSL", "multi-agent", "subagents", "AGENTS.md"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration](/sketchnotes/articles/2026-04-24-automated-harness-synthesis-agentflow-typed-graph-dsl-codex-cli-orchestration.png)
-
-
 # Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration
+
+![Sketchnote diagram for: Automated Harness Synthesis: What AgentFlow's Typed Graph DSL Means for Codex CLI Orchestration](/sketchnotes/articles/2026-04-24-automated-harness-synthesis-agentflow-typed-graph-dsl-codex-cli-orchestration.png)
 
 
 Two independent research papers dropped within 48 hours of each other in late April 2026, and together they crystallise a thesis that practitioners have felt for months: **the harness matters more than the weights**. When you hold the language model constant and change only the surrounding orchestration — roles, prompts, tools, communication topology, retry logic — success rates swing by several-fold[^1]. This article unpacks the research, maps its five architectural dimensions onto Codex CLI's existing primitives, and explores what a formalised harness DSL could mean for the platform's future.

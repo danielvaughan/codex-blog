@@ -6,11 +6,11 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-visual-regression-testing-percy-chromatic-playwright-mcp"
 tags: ["visual-regression", "percy", "chromatic", "playwright", "mcp", "storybook", "testing", "ci-cd", "screenshots", "automation"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI for Visual Regression Testing: Integrating Percy, Chromatic, and Playwright via MCP](/sketchnotes/articles/2026-05-05-codex-cli-visual-regression-testing-percy-chromatic-playwright-mcp.png)
-
 # Codex CLI for Visual Regression Testing: Integrating Percy, Chromatic, and Playwright via MCP
+
+![Sketchnote diagram for: Codex CLI for Visual Regression Testing: Integrating Percy, Chromatic, and Playwright via MCP](/sketchnotes/articles/2026-05-05-codex-cli-visual-regression-testing-percy-chromatic-playwright-mcp.png)
 
 
 ---

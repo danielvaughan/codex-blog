@@ -6,12 +6,11 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-github-copilot-usage-billing-codex-cli-cost-comparison-migration"
 tags: ["codex-cli", "github-copilot", "pricing", "cost-comparison", "migration", "enterprise", "billing"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: GitHub Copilot's Usage-Based Billing Shift: What It Means for Codex CLI Teams](/sketchnotes/articles/2026-04-29-github-copilot-usage-billing-codex-cli-cost-comparison-migration.png)
-
-
 # GitHub Copilot's Usage-Based Billing Shift: What It Means for Codex CLI Teams
+
+![Sketchnote diagram for: GitHub Copilot's Usage-Based Billing Shift: What It Means for Codex CLI Teams](/sketchnotes/articles/2026-04-29-github-copilot-usage-billing-codex-cli-cost-comparison-migration.png)
 
 
 On 27 April 2026, GitHub announced that every Copilot plan will move from premium request units to usage-based billing with GitHub AI Credits on 1 June 2026 [^1]. Two days earlier, Copilot code review was confirmed to start consuming GitHub Actions minutes on the same date [^2]. For teams already running Codex CLI — or evaluating it — these changes reshape the cost calculus. This article unpacks what changed, compares the two billing models head-to-head, and provides a decision framework for teams weighing their options.

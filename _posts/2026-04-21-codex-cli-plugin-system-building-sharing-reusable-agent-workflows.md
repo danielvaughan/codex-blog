@@ -6,11 +6,11 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-plugin-system-building-sharing-reusable-agent-workflows"
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "workflow-reuse", "team-tooling"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows](/sketchnotes/articles/2026-04-21-codex-cli-plugin-system-building-sharing-reusable-agent-workflows.png)
-
 # Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows
+
+![Sketchnote diagram for: Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows](/sketchnotes/articles/2026-04-21-codex-cli-plugin-system-building-sharing-reusable-agent-workflows.png)
 
 
 Codex CLI v0.122 elevated plugins from an app-only curiosity to a first-class workflow primitive across the entire Codex surface — CLI, desktop app, and IDE extension[^1]. A plugin bundles skills, app connectors, and MCP servers into a single distributable unit, turning what used to be three separate configuration exercises into one install command. With over 90 curated plugins now available and a local marketplace mechanism for teams, the plugin system is rapidly becoming the primary distribution channel for reusable agent workflows[^2].

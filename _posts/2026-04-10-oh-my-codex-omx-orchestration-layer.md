@@ -2,15 +2,15 @@
 title: "Oh-My-Codex (OMX): The Community Orchestration Layer That Turns Codex CLI into a Team Runtime"
 description: "Codex CLI's built-in subagent system caps at six concurrent threads with max_threads . For many workflows, that is plenty. But when you need a dozen."
 date: 2026-04-10T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 type: Technical Article
 timestamp: 2026-04-10T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-oh-my-codex-omx-orchestration-layer"
 tags: ["oh-my-codex", "omx", "orchestration", "multi-agent", "team-runtime", "worktrees", "skills", "hooks", "persistent-state"]
 ---
-![Sketchnote diagram for: Oh-My-Codex (OMX): The Community Orchestration Layer That Turns Codex CLI into a Team Runtime](/sketchnotes/articles/2026-04-10-oh-my-codex-omx-orchestration-layer.png)
-
 # Oh-My-Codex (OMX): The Community Orchestration Layer That Turns Codex CLI into a Team Runtime
+
+![Sketchnote diagram for: Oh-My-Codex (OMX): The Community Orchestration Layer That Turns Codex CLI into a Team Runtime](/sketchnotes/articles/2026-04-10-oh-my-codex-omx-orchestration-layer.png)
 
 
 Codex CLI's built-in subagent system caps at six concurrent threads with `max_threads` [^1]. For many workflows, that is plenty. But when you need a dozen parallel workers with isolated worktrees, persistent cross-session memory, mixed-provider teams, and a structured planning pipeline — you need an orchestration layer. Oh-My-Codex (OMX) is the community's answer: an MIT-licensed wrapper that has grown to 20,500+ GitHub stars and 36 workflow skills since its initial release, without forking or replacing the core Codex execution engine [^2].

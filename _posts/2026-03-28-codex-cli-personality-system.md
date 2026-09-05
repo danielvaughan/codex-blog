@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Personality System: Customising Agent Communication Style"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 description: "Codex CLI's personality system lets you choose how the agent communicates — from terse and execution-focused to conversational and partner-like."
 substack_status: draft
 tags:
@@ -17,9 +17,9 @@ type: Technical Article
 timestamp: 2026-03-28T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-28-codex-cli-personality-system"
 ---
-![Sketchnote diagram for: Codex CLI Personality System: Customising Agent Communication Style](/sketchnotes/articles/2026-03-28-codex-cli-personality-system.png)
-
 # Codex CLI Personality System: Customising Agent Communication Style
+
+![Sketchnote diagram for: Codex CLI Personality System: Customising Agent Communication Style](/sketchnotes/articles/2026-03-28-codex-cli-personality-system.png)
 
 
 Codex CLI's personality system lets you choose how the agent communicates — from terse and execution-focused to conversational and partner-like — without touching its underlying capabilities. It is a stable, opt-in-to-none feature built on the `features.personality` flag and configurable at every level of the config hierarchy, from global defaults to per-profile overrides to runtime `/personality` commands.

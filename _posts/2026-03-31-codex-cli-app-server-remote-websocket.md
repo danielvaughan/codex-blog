@@ -2,7 +2,7 @@
 title: "Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment"
 description: "The Codex CLI is typically presented as a local terminal tool, but underneath its TUI sits a full JSON-RPC 2.0 server — the app-server."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - architecture
   - app-server
@@ -12,9 +12,9 @@ type: Technical Article
 timestamp: 2026-03-31T09:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-31-codex-cli-app-server-remote-websocket"
 ---
-![Sketchnote diagram for: Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment](/sketchnotes/articles/2026-03-31-codex-cli-app-server-remote-websocket.png)
-
 # Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment
+
+![Sketchnote diagram for: Codex CLI App Server: Remote Access, WebSocket Transport, and Headless Deployment](/sketchnotes/articles/2026-03-31-codex-cli-app-server-remote-websocket.png)
 
 
 The Codex CLI is typically presented as a local terminal tool, but underneath its TUI sits a full JSON-RPC 2.0 server — the **app-server** — that powers the VS Code extension, the Codex desktop app, and any third-party client that speaks the protocol [^1]. With the March 2026 releases, the app-server gained WebSocket transport, bearer-token authentication, health endpoints, and remote TUI connectivity [^2], turning Codex into something closer to a headless coding service than a simple CLI.

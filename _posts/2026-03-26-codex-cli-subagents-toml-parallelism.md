@@ -2,7 +2,7 @@
 title: "Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv"
 description: "Codex CLI's multi-agent system lets a single session delegate specialised work to parallel child agents. Once you understand the TOML agent definition."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 tags:
   - subagents
   - toml-schema
@@ -13,9 +13,9 @@ type: Technical Article
 timestamp: 2026-03-26T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-26-codex-cli-subagents-toml-parallelism"
 ---
-![Sketchnote diagram for: Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv](/sketchnotes/articles/2026-03-26-codex-cli-subagents-toml-parallelism.png)
-
 # Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv
+
+![Sketchnote diagram for: Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv](/sketchnotes/articles/2026-03-26-codex-cli-subagents-toml-parallelism.png)
 
 Codex CLI's multi-agent system lets a single session delegate specialised work to parallel child agents. Once you understand the TOML agent definition schema, the global concurrency knobs in `config.toml`, and the `spawn_agents_on_csv` batch tool, you have everything you need to build parallel agentic workflows — and to understand the practical constraints that determine when they're worth the cost.
 

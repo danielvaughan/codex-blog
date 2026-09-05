@@ -2,7 +2,7 @@
 title: "Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding"
 description: "You know the feeling. Four agents are running. One is refactoring the API layer, another is writing tests, a third is updating documentation, and a fourth."
 date: 2026-04-09T14:50:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 featured: true
 classes: wide
 categories: articles
@@ -21,9 +21,9 @@ timestamp: 2026-04-09T15:50:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-toxic-flow-addictive-exhausting-multi-agent-coding"
 ---
 
-![Sketchnote diagram for: Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding](/sketchnotes/articles/2026-04-09-toxic-flow-addictive-exhausting-multi-agent-coding.png)
-
 # Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding
+
+![Sketchnote diagram for: Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding](/sketchnotes/articles/2026-04-09-toxic-flow-addictive-exhausting-multi-agent-coding.png)
 
 You know the feeling. Four agents are running. One is refactoring the API layer, another is writing tests, a third is updating documentation, and a fourth is linting the generated output. Your terminal is alive. Diffs are streaming. Approval prompts are stacking up. You're clicking, scanning, approving, context-switching, and somewhere beneath the adrenaline you notice: your jaw is clenched, your shoulders are at your ears, and you haven't blinked in ninety seconds.
 

@@ -6,12 +6,11 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-spec-driven-development-tooling-codex-cli-spec-kit-cc-sdd-codex-spec"
 tags: ["spec-driven-development", "workflow-frameworks", "spec-kit", "cc-sdd", "codex-spec", "codex-cli", "planning", "skills", "slash-commands"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: SDD Tooling for Codex CLI: spec-kit, cc-sdd, and codex-spec Compared](/sketchnotes/articles/2026-04-27-spec-driven-development-tooling-codex-cli-spec-kit-cc-sdd-codex-spec.png)
-
-
 # SDD Tooling for Codex CLI: spec-kit, cc-sdd, and codex-spec Compared
+
+![Sketchnote diagram for: SDD Tooling for Codex CLI: spec-kit, cc-sdd, and codex-spec Compared](/sketchnotes/articles/2026-04-27-spec-driven-development-tooling-codex-cli-spec-kit-cc-sdd-codex-spec.png)
 
 
 Spec-Driven Development (SDD) has gone from academic curiosity to mainstream practice in under six months. GitHub's spec-kit crossed 80,000 stars by April 2026[^1], cc-sdd added Codex CLI support in its v2 release[^2], and codex-spec remains the most Codex-native option for teams already embedded in the OpenAI ecosystem[^3]. Martin Fowler's October 2025 analysis identified three maturity tiers — spec-first, spec-anchored, and spec-as-source — and warned that the tooling had not yet caught up with the ambition[^4]. Seven months later, it has.

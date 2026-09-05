@@ -6,11 +6,11 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-troubleshooting-field-guide-common-errors-fixes"
 tags: ["troubleshooting", "errors", "sandbox", "authentication", "MCP", "rate-limits", "compaction", "diagnostics"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-09-05T10:23:50+01:00
+last_modified_at: 2026-09-05T11:45:02+01:00
 ---
-![Sketchnote diagram for: Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Common Errors](/sketchnotes/articles/2026-05-01-codex-cli-troubleshooting-field-guide-common-errors-fixes.png)
-
 # Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Common Errors
+
+![Sketchnote diagram for: Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Common Errors](/sketchnotes/articles/2026-05-01-codex-cli-troubleshooting-field-guide-common-errors-fixes.png)
 
 
 Every Codex CLI practitioner eventually hits an error that halts a session. The frustration is compounded when the error message is terse and the fix is not obvious. This field guide catalogues the most common Codex CLI errors as of v0.128, explains the root cause of each, and provides the fastest path to resolution. Bookmark it — you will need it.
