@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-tui-composer-mastery-ctrl-r-history-search-keyboard-shortcuts"
 tags: ["tui", "composer", "ctrl-r", "history-search", "keyboard-shortcuts", "prompt-iteration", "v0.121.0", "productivity"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-05T20:08:57+01:00
+last_modified_at: 2026-09-06T00:08:14+01:00
 ---
 # Mastering the Codex TUI Composer: Ctrl+R History Search, Kill Ring, and Power-User Shortcuts
 

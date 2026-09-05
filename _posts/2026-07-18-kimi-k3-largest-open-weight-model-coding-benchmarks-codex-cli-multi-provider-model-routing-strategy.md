@@ -1,7 +1,7 @@
 ---
 title: "Kimi K3 and the Largest Open-Weight Model Yet: What 2.8 Trillion Parameters Mean for Your Codex CLI Multi-Provider Strategy"
 date: 2026-07-18T09:00:00+00:00
-last_modified_at: 2026-09-05T20:08:57+01:00
+last_modified_at: 2026-09-06T00:08:14+01:00
 tags: ["codex-cli", "kimi-k3", "moonshot-ai", "multi-provider", "model-routing", "open-weights", "coding-benchmarks", "config-toml"]
 ---
 

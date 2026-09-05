@@ -5,7 +5,7 @@ timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-codex-cli-policy-as-code-opa-rego-kyverno-conftest-agent-assisted-compliance-authoring"
 tags: ["codex-cli", "policy-as-code", "OPA", "Rego", "Kyverno", "Conftest", "infrastructure-compliance", "kubernetes", "terraform", "agent-assisted"]
 date: 2026-06-14T09:00:00+00:00
-last_modified_at: 2026-09-05T20:08:57+01:00
+last_modified_at: 2026-09-06T00:08:14+01:00
 ---
 # Codex CLI for Policy-as-Code: Agent-Assisted OPA Rego, Kyverno, and Conftest Authoring for Infrastructure Compliance
 

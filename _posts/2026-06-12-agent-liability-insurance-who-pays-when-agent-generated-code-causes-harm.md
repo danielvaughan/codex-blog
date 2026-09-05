@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-agent-liability-insurance-who-pays-when-agent-generated-code-causes-harm"
 tags: ["codex-cli", "liability", "insurance", "legal", "EU AI Act", "professional indemnity", "AGENTS.md", "risk management"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-09-05T20:08:57+01:00
+last_modified_at: 2026-09-06T00:08:14+01:00
 ---
 # Agent Liability and Insurance: Who Pays When Agent-Generated Code Causes Harm?
 

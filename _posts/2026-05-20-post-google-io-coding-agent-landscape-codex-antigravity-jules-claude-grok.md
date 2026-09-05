@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-post-google-io-coding-agent-landscape-codex-antigravity-jules-claude-grok"
 tags: ["codex-cli", "antigravity", "jules", "claude-code", "grok-build", "comparison", "google-io-2026"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-09-05T20:08:57+01:00
+last_modified_at: 2026-09-06T00:08:14+01:00
 ---
 # The Post-Google I/O Coding Agent Landscape: Codex CLI vs Antigravity 2.0 vs Jules V2 vs Claude Code vs Grok Build
 

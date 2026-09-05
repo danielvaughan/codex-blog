@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## v0.153.0 Context Management, Token-Budget Mode, Guardian History Fencing (2026-09-06 Hourly Article Run)
+
+1. ✅ **Codex CLI v0.153.0: Three-Tier Context Management, Experimental Token-Budget Mode, and Guardian History Fencing** — Written 2026-09-06 → `2026-09-06-codex-cli-v0153-context-management-token-budget-guardian-history-fencing.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.153.0 (3 September 2026) three-tier context management system: Tier 1 automatic recap decoupling (tui.auto_recap = false, PR #42101, preserves /recap command); Tier 2 experimental context management mode (features.context_management.experimental_mode, PR #42385, disabled by default, ChatGPT Plus/Pro/Pro Lite + Codex backend only) with three sub-features: token-budget context, history notes (no public schema), new_context tool (no-summary compaction checkpoint); Tier 3 Guardian history fencing (PRs #41879, #42065) surviving compaction/restarts/user-forks/rollback-boundaries with subagent isolation; session reconnection auto-recovery (PRs #41911, #41916, #41918) pausing uncertain submissions on reconnect; grounded in Scroll research (Lin, Ang, Zhu, Ding, Zhou — Alibaba/Columbia, arXiv:2608.21690, Aug 21 2026): Session Environment = append-only Event Log + Durable Storage + Persistent Python Kernel, LongMemEvalS 94.8% / BEAM_10M 73.1% (+5.1pp) / LOCA_256K 86.7% (+37.4pp); practical config examples; eligibility constraint table; Mermaid decision flow; 5 citations; ~1,150 words
+
+---
+
 ## Non-Atomic Tool Failures, Verified Tool Calls, Idempotency (2026-09-05 Hourly Article Run)
 
 1. ✅ **Non-Atomic Tool Failures: Verified Tool Calls, Idempotency Keys, and the 52pp Duplicate-Reduction Pattern for Codex CLI Agents** — Written 2026-09-05 → `2026-09-05-non-atomic-tool-failures-verified-tool-calls-idempotency-codex-cli.md`

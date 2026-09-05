@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-cli-context-compaction-tuning-long-sessions"
 tags: ["context-compaction", "auto-compact", "config-toml", "long-sessions", "token-management", "handoff-summary", "compact-prompt"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-05T20:08:57+01:00
+last_modified_at: 2026-09-06T00:08:14+01:00
 ---
 # Mastering Context Compaction in Codex CLI: Tuning Auto-Compact for Long-Running Sessions
 

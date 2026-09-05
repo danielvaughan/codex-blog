@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-google-cloud-platform-gcp-development-mcp-servers-bigquery-cloud-run-infrastructure-workflows"
 tags: ["codex-cli", "google-cloud", "gcp", "mcp", "bigquery", "cloud-run", "gcloud", "infrastructure", "agent-workflows"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-09-05T20:08:57+01:00
+last_modified_at: 2026-09-06T00:08:14+01:00
 ---
 # Codex CLI for Google Cloud Platform Development: gcloud MCP, BigQuery, Cloud Run, and Infrastructure Agent Workflows
 

@@ -5,7 +5,7 @@ timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-codex-micro-work-louder-macro-pad-hardware-developer-shortcuts-agentic-coding-workflows"
 tags: ["codex-micro", "hardware", "work-louder", "macro-pad", "developer-workflows", "codex-cli", "agentic-coding", "shortcuts", "TUI", "approval-gates"]
 date: 2026-07-01T09:00:00+00:00
-last_modified_at: 2026-09-05T20:08:57+01:00
+last_modified_at: 2026-09-06T00:08:14+01:00
 ---
 # The Codex Micro: OpenAI's First Hardware and What a Macro Pad Means for Agentic Coding Workflows
 
