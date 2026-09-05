@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-internationalization-i18n-automated-string-extraction-translation-workflows"
 tags: ["codex-cli", "i18n", "l10n", "internationalization", "translation", "mcp", "automation", "react-i18next", "next-intl", "better-i18n"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 ---
 # Codex CLI for Internationalization: Automated String Extraction, Translation MCP Servers, and i18n Workflow Patterns
 

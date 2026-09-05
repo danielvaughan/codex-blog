@@ -1,7 +1,7 @@
 ---
 title: "SWE-Touch and the Shared Workspace Problem: What Happens When You Edit Code While Your Agent Is Working — and How Codex CLI's Isolation Primitives Respond"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 tags: ["codex-cli", "swe-touch", "shared-workspace", "counter-edits", "git-worktree", "writes-mode", "state-awareness", "coding-agents", "benchmarks", "workspace-isolation"]
 ---
 

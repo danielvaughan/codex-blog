@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-event-driven-architecture-asyncapi-kafka-schema-registry-consumer-generation"
 tags: ["event-driven-architecture", "kafka", "asyncapi", "schema-registry", "codex-cli", "avro", "protobuf", "cloudevents"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 ---
 # Codex CLI for Event-Driven Architecture: AsyncAPI Contracts, Schema Registry Workflows, and Consumer Generation
 

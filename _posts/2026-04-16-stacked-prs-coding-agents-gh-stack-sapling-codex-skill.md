@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-stacked-prs-coding-agents-gh-stack-sapling-codex-skill"
 tags: ["stacked-prs", "gh-stack", "sapling", "codex-pr-body", "official-skill", "wave-orchestration", "github"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 ---
 # Stacked PRs Meet Coding Agents: GitHub gh stack, Sapling, and the codex-pr-body Skill Pattern
 

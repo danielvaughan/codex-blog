@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-cloud-development-environments-codex-cli-coder-daytona-infrastructure"
 tags: ["codex-cli", "cloud-development-environments", "coder", "daytona", "devpod", "infrastructure", "sandboxing", "enterprise", "governance"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 ---
 # Cloud Development Environments for AI Coding Agents: Running Codex CLI on Coder, Daytona, and Ephemeral Infrastructure
 

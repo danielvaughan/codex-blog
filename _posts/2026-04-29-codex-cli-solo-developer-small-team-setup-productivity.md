@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-solo-developer-small-team-setup-productivity"
 tags: ["codex-cli", "solo-developer", "productivity", "configuration", "cost-efficiency", "AGENTS.md", "skills", "workflows"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 ---
 # Codex CLI for Solo Developers: Maximum Impact from a One-Person Agentic Setup
 

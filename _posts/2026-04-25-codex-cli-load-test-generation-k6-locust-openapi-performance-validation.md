@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-load-test-generation-k6-locust-openapi-performance-validation"
 tags: ["codex-cli", "load-testing", "k6", "locust", "openapi", "performance", "codex-exec", "ci-cd", "mcp", "test-generation"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 ---
 # Codex CLI for Load Test Generation: k6, Locust, and OpenAPI-Driven Performance Validation
 

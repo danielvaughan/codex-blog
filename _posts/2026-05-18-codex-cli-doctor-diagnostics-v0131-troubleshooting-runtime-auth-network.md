@@ -6,7 +6,7 @@ timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-doctor-diagnostics-v0131-troubleshooting-runtime-auth-network"
 tags: ["codex-cli", "diagnostics", "troubleshooting", "v0.131.0", "developer-experience"]
 date: 2026-05-18T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 ---
 # Codex CLI Doctor: The New First-Class Diagnostics Command in v0.131.0
 

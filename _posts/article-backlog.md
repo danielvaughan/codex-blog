@@ -1,6 +1,14 @@
 # Article Backlog
 
 
+## codex agents Dashboard, codex queue, Multi-Session Orchestration (2026-09-05 Hourly Article Run)
+
+1. ✅ **The `codex agents` Dashboard and `codex queue`: Orchestrating Parallel Sessions Without the Terminal-Tab Overhead** — Written 2026-09-05 → `2026-09-05-codex-agents-dashboard-queue-multi-session-orchestration.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — v0.149.0 (20 August 2026) codex agents dashboard (PRs #39094, #39112, #39114, #39142) + codex queue (PR #39092) + /cd /pwd /cwd working-directory commands (PR #38894); v0.150.0 (26 August 2026) task @ mentions (PRs #40308, #40315) + interrupt hooks (PR #40511) + auto-descriptive session titles (PR #40492); dashboard keyboard shortcuts (Alt+A, Ctrl+F, Ctrl+S, Ctrl+R, Ctrl+X), configurable via tui.keymap; codex queue --session + --text-file + --remote flags; fire-and-forget semantics; idle wake + name-collision + permission-restoration guarantees; fork-and-diverge pattern with codex exec fork; CI injection pattern; metrics drip-feed cron pattern; @ mention cross-session context pull; interrupt hook handover pattern; 6 citations; ~1,100 words prose
+
+---
+
+
 ## Working Memory, Coherence Debt, Heterogeneous Memory Objects, Codex CLI (2026-09-05 Hourly Article Run)
 
 1. ✅ **Working Memory Is Not a Token Count: Coherence Debt, Heterogeneous Memory Objects, and Codex CLI's Experimental Context Management Mode** — Written 2026-09-05 → `2026-09-05-working-memory-coherence-debt-heterogeneous-objects-codex-cli-context-management.md`

@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-data-science-pandas-polars-workflows"
 tags: ["data-science", "pandas", "polars", "notebooks", "eda", "charts", "data-analysis", "codex-cli", "skills"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 ---
 # Codex CLI for Data Science Teams: Pandas, Polars, and Notebook-Adjacent Workflows
 

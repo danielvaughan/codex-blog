@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI's Persistent Mode: What WIRED Found in the Codebase and What It Means for Always-On Development Agents"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 tags: ["codex-cli", "persistent-mode", "proactivity", "always-on-agents", "v0.151", "session-lifecycle", "multi-agent", "agent-architecture"]
 ---
 

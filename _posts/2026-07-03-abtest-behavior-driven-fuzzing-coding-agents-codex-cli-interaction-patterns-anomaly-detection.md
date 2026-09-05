@@ -5,7 +5,7 @@ timestamp: 2026-07-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-03-abtest-behavior-driven-fuzzing-coding-agents-codex-cli-interaction-patterns-anomaly-detection"
 tags: ["codex-cli", "ABTest", "fuzzing", "behaviour-driven-testing", "agent-robustness", "interaction-patterns", "anomaly-detection", "PostToolUse", "hooks", "testing"]
 date: 2026-07-03T09:00:00+00:00
-last_modified_at: 2026-09-05T11:45:02+01:00
+last_modified_at: 2026-09-05T14:07:38+01:00
 ---
 # ABTest and Behaviour-Driven Fuzzing: What 647 Fuzzing Cases Reveal About Coding Agent Robustness — and How to Defend Your Codex CLI Workflows
 
