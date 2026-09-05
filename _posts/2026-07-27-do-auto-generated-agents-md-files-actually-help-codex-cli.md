@@ -1,7 +1,7 @@
 ---
 title: "Do Auto-Generated AGENTS.md Files Actually Help? What Three Studies Say About Instruction File Effectiveness"
 date: 2026-07-27T09:00:00+00:00
-last_modified_at: 2026-09-05T10:14:20+01:00
+last_modified_at: 2026-09-05T10:23:50+01:00
 tags: ["codex-cli", "agents-md", "claude-md", "configuration", "instruction-engineering", "best-practices", "research"]
 ---
 

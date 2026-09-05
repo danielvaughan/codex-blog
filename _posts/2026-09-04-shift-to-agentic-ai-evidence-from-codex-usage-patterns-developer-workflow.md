@@ -1,7 +1,7 @@
 ---
 title: "The Shift to Agentic AI: What OpenAI's Own Usage Data Reveals About Codex Workflows in 2026"
 date: 2026-09-04T16:00:00+00:00
-last_modified_at: 2026-09-05T10:14:20+01:00
+last_modified_at: 2026-09-05T10:23:50+01:00
 tags: ["codex-cli", "agentic-ai", "skills", "multi-agent", "productivity", "workflow"]
 ---
 

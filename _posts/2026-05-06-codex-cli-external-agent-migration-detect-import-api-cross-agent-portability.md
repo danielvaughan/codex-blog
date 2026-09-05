@@ -6,7 +6,7 @@ timestamp: 2026-05-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-codex-cli-external-agent-migration-detect-import-api-cross-agent-portability"
 tags: ["codex-cli", "migration", "external-agent", "API", "cross-agent", "AGENTS.md", "skills", "MCP", "portability"]
 date: 2026-05-06T09:00:00+00:00
-last_modified_at: 2026-09-05T10:14:20+01:00
+last_modified_at: 2026-09-05T10:23:50+01:00
 ---
 ![Sketchnote diagram for: Codex CLI External Agent Migration: The Detect/Import API and Cross-Agent Portability](/sketchnotes/articles/2026-05-06-codex-cli-external-agent-migration-detect-import-api-cross-agent-portability.png)
 

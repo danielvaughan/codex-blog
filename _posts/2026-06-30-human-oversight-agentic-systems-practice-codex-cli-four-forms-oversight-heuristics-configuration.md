@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-human-oversight-agentic-systems-practice-codex-cli-four-forms-oversight-heuristics-configuration"
 tags: ["codex-cli", "human-oversight", "agentic-systems", "approval-policy", "AGENTS.md", "developer-experience", "oversight-heuristics", "agent-collaboration"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-09-05T10:14:20+01:00
+last_modified_at: 2026-09-05T10:23:50+01:00
 ---
 # Human Oversight of Coding Agents in Practice: What 17 Developers Reveal About Oversight Work — and How to Configure Codex CLI for Each Form
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-when-guardian-approval-goes-wrong-failure-modes-escalation-patterns"
 tags: ["codex-cli", "guardian", "approval-policy", "escalation", "failure-modes", "troubleshooting", "enterprise"]
 date: 2026-04-20T09:00:00+00:00
-last_modified_at: 2026-09-05T10:14:20+01:00
+last_modified_at: 2026-09-05T10:23:50+01:00
 ---
 ![Sketchnote diagram for: When Guardian Approval Goes Wrong: Failure Modes and Escalation Patterns](/sketchnotes/articles/2026-04-20-when-guardian-approval-goes-wrong-failure-modes-escalation-patterns.png)
 

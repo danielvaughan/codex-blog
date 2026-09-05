@@ -1,7 +1,7 @@
 ---
 title: "Programmatic Skill Learning and the SpeedRunner Thesis: What Wake-Sleep Trajectory Analysis Means for Your Codex CLI Skill Library and Token Budget"
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-09-05T10:14:20+01:00
+last_modified_at: 2026-09-05T10:23:50+01:00
 tags: ["codex-cli", "skill-learning", "programmatic-skills", "cost-reduction", "trajectory-analysis", "wake-sleep", "SKILL.md", "agent-plugins", "token-budget"]
 ---
 

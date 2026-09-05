@@ -5,7 +5,7 @@ timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-model-sunset-june-july-2026-deprecation-timeline-migration-paths-config-recipes"
 tags: ["codex-cli", "model-deprecation", "gpt-5.3-codex", "gpt-5.5", "migration", "config.toml", "github-copilot"]
 date: 2026-06-02T09:00:00+00:00
-last_modified_at: 2026-09-05T10:14:20+01:00
+last_modified_at: 2026-09-05T10:23:50+01:00
 ---
 # The Codex Model Sunset: June–July 2026 Deprecation Timeline, Migration Paths, and Config Recipes
 
