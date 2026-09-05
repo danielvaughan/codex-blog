@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-cli-opentelemetry-observability-tracing-agent-sessions"
 tags: ["opentelemetry", "observability", "tracing", "metrics", "enterprise", "monitoring", "otel", "config-toml", "dashboards"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Codex CLI Observability with OpenTelemetry: Tracing Agent Sessions, Tool Calls, and API Requests
 

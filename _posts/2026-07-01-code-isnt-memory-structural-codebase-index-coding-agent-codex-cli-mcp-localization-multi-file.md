@@ -5,7 +5,7 @@ timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-code-isnt-memory-structural-codebase-index-coding-agent-codex-cli-mcp-localization-multi-file"
 tags: ["codex-cli", "codebase-indexing", "structural-search", "MCP", "localization", "multi-file", "agent-architecture", "tree-sitter", "call-graph"]
 date: 2026-07-01T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Code Isn't Memory: What Structural Codebase Indexing Means for Codex CLI Agent Workflows
 

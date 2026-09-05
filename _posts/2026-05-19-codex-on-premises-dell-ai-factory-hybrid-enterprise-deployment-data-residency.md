@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-on-premises-dell-ai-factory-hybrid-enterprise-deployment-data-residency"
 tags: ["codex", "enterprise", "on-premises", "Dell", "AI Factory", "hybrid deployment", "data residency", "infrastructure", "compliance", "GB10", "DGX Spark"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Codex On-Premises: The Dell AI Factory Partnership, Hybrid Deployment, and What It Means for Data-Sovereign Enterprises
 

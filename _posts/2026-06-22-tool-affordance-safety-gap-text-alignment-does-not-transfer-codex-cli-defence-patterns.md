@@ -5,7 +5,7 @@ timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-tool-affordance-safety-gap-text-alignment-does-not-transfer-codex-cli-defence-patterns"
 tags: ["codex-cli", "safety", "tool-affordance", "alignment", "hooks", "sandbox", "approval-mode", "PostToolUse", "PreToolUse", "research"]
 date: 2026-06-22T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # The Tool Affordance Safety Gap: Why Text Alignment Does Not Transfer to Tool-Call Safety and What It Means for Codex CLI
 

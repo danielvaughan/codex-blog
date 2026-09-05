@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-php-laravel-teams-boost-mcp-pest-workflows"
 tags: ["codex-cli", "php", "laravel", "boost", "mcp", "pest", "composer", "AGENTS.md", "testing", "phpstan"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Codex CLI for PHP and Laravel Teams: Boost MCP, Pest Workflows, and Composer Sandbox Patterns
 

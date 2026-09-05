@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-exec-unix-pipeline-integration-stdin-structured-output"
 tags: ["codex-exec", "stdin-piping", "structured-output", "unix-pipelines", "shell-composition", "automation", "json-lines"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Codex Exec as a Unix Citizen: Stdin Piping, Structured Output, and Shell Composition
 

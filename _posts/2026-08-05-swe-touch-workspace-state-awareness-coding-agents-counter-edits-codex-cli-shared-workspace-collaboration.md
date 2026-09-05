@@ -1,7 +1,7 @@
 ---
 title: "SWE-Touch and the Workspace State Awareness Gap: Why Your Coding Agent Breaks When You Touch the Code — and How to Harden Codex CLI for Shared-Workspace Collaboration"
 date: 2026-08-05T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 tags: ["codex-cli", "swe-touch", "workspace-awareness", "benchmarks", "counter-edits", "shared-workspace", "collaboration", "file-watcher", "PostToolUse", "AGENTS.md"]
 ---
 

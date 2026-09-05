@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-eval-driven-development-promptfoo-ai-application-testing"
 tags: ["codex-cli", "promptfoo", "evals", "ai-applications", "eval-driven-development", "regression-testing", "prompt-engineering"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Eval-Driven Development with Codex CLI: Building Promptfoo Test Suites for AI Applications
 

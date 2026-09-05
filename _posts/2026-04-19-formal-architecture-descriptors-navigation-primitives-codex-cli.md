@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-formal-architecture-descriptors-navigation-primitives-codex-cli"
 tags: ["codex-cli", "architecture-descriptors", "intent-lisp", "navigation", "agents-md", "context-engineering", "codebase-navigation", "s-expressions"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Formal Architecture Descriptors: Cutting Codex CLI Navigation Overhead by a Third
 

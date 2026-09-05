@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-turborepo-agent-aware-builds"
 tags: ["turborepo", "monorepo", "task-caching", "remote-cache", "vercel", "codex-cli", "agents"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Codex CLI and Turborepo: Agent-Aware Builds, Task Caching, and Remote Cache Integration
 

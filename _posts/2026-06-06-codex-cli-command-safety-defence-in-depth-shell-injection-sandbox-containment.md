@@ -5,7 +5,7 @@ timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-codex-cli-command-safety-defence-in-depth-shell-injection-sandbox-containment"
 tags: ["codex-cli", "security", "command-safety", "sandbox", "shell-injection", "defence-in-depth", "enterprise"]
 date: 2026-06-06T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Codex CLI Command Safety: Defence in Depth from Shell Injection to Sandbox Containment
 

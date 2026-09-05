@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## MOSAIC CLI Command Composition Attack, Codex CLI Security (2026-09-05 Hourly Article Run)
+
+1. ✅ **MOSAIC's 96.59% Attack Rate: How CLI Command Composition Exploits Bypass Every Instruction-Layer Defence in Codex CLI** — Written 2026-09-05 → `2026-09-05-mosaic-cli-command-composition-attack-codex-cli-defence.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wu, Wang, Zhang, Nan & Wang (Sun Yat-sen University / Shandong University / Peking University / HKUST, arXiv:2607.02857v1, July 2026) "MOSAIC: Knowledge-Guided CLI Command Composition Attack in LLM Coding Agents"; core concept: CLI Command Composition Risk (CCR) — three conditions: each command benign in isolation, trace achieves out-of-scope capability, emerges only through producer-consumer OS-state dependency chains; MOSAIC three-phase pipeline: Knowledge Base Construction (454 entries, 13 command-state families from NIST NVD + GitHub Security Advisories + Exploit-DB + CISA KEV + research blogs), Instance Generation (producer-consumer pairing, LLM feasibility checking, concrete attack synthesis), Runtime Validation (isolated workspace, command-trace analysis, external-effect monitoring); overall ASR 96.59% (2,439/2,525); by chain length: n=2 99.05%, n=3 96.91%, n=4 95.20%; per-agent: Gemini CLI 97.43%, Trae Agent 96.83%, Claude Code 96.63%, Copilot CLI 96.24%, Codex CLI 95.84%; per-LLM: DeepSeek-V4 Flash 97.82%, Qwen3.7+ 97.23%, Gemini-2.5 Flash 96.63%, GPT-5.1 95.84%, Haiku-4.5 95.45%; defence evaluation: PromptGuard 2 0.00pp reduction, Progent 0.00pp, CaMeL 0.00pp, Semgrep 9.90pp, AlignmentCheck 14.06pp; canonical example: git config core.hooksPath → git commit hook execution; npm postinstall variant; Codex CLI mapping: .git/ read-only in workspace-write sandbox (bubblewrap/macOS sandbox), writable_roots warning, PreToolUse hook blocking 13 command-state families, read-only mode for untrusted repo triage, AGENTS.md provenance policy, PostToolUse taint-propagation graph pattern; 4 citations; ~1,350 words
+
+---
+
 ## codex agents Dashboard, codex queue, Multi-Session Orchestration (2026-09-05 Hourly Article Run)
 
 1. ✅ **The `codex agents` Dashboard and `codex queue`: Orchestrating Parallel Sessions Without the Terminal-Tab Overhead** — Written 2026-09-05 → `2026-09-05-codex-agents-dashboard-queue-multi-session-orchestration.md`

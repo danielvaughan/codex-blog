@@ -5,7 +5,7 @@ timestamp: 2026-07-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-09-five-surfaces-one-agent-codex-cli-copilot-agent-provider-multi-surface-architecture-july-2026"
 tags: ["codex-cli", "copilot", "jetbrains", "codex-acp", "agent-provider", "multi-surface", "architecture", "copilot-app", "july-2026"]
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Five Surfaces, One Agent: How Codex CLI's July 2026 Copilot Integration Completes the Multi-Surface Architecture
 

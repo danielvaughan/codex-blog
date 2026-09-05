@@ -1,7 +1,7 @@
 ---
 title: "EVOMAL: Self-Poisoning in Self-Evolving Coding Agents — SkillJack, Pre-Commit Gating, and Codex CLI Plugin Defence"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 tags: ["security", "self-evolving-agents", "skills", "plugins", "agent-plugins", "supply-chain", "codex-cli", "hooks", "skill-poisoning"]
 ---
 

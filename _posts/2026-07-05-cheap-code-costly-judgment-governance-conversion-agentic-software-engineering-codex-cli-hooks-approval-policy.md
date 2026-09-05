@@ -1,7 +1,7 @@
 ---
 title: "Cheap Code, Costly Judgment: What a 420 KLOC Case Study Reveals About Governance Conversion — and How Codex CLI's Hook Architecture Operationalises It"
 date: 2026-07-05T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 tags: ["codex-cli", "governance", "agentic-software-engineering", "hooks", "approval-policy", "case-study", "PostToolUse", "AGENTS.md"]
 ---
 

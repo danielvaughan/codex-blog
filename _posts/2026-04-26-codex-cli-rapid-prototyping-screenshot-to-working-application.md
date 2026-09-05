@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-rapid-prototyping-screenshot-to-working-application"
 tags: ["codex-cli", "rapid-prototyping", "screenshot-to-code", "multimodal", "image-input", "frontend", "design-to-code", "playwright", "browser", "ui-iteration"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Rapid Prototyping with Codex CLI: From Screenshot to Working Application
 

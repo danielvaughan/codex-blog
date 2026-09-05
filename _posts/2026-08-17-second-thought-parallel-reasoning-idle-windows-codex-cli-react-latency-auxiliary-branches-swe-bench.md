@@ -1,7 +1,7 @@
 ---
 title: "Second Thought and the Reasoning Idle Window: What Parallel Auxiliary Branches Mean for Codex CLI Latency and Turn Efficiency"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 tags: ["codex-cli", "parallel-reasoning", "second-thought", "ReAct", "idle-window", "latency", "swe-bench-pro", "auxiliary-branches", "subagents", "reasoning-overhead"]
 ---
 

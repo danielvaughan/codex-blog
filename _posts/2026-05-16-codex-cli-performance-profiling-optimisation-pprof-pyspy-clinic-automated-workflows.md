@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-performance-profiling-optimisation-pprof-pyspy-clinic-automated-workflows"
 tags: ["codex-cli", "performance", "profiling", "pprof", "py-spy", "optimisation", "codex-exec", "automation"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Codex CLI for Performance Profiling and Optimisation: Agent-Driven Bottleneck Discovery, pprof Analysis, and Automated Fix Generation
 

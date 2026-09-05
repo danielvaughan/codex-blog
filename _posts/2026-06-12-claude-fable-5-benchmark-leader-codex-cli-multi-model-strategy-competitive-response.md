@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-claude-fable-5-benchmark-leader-codex-cli-multi-model-strategy-competitive-response"
 tags: ["codex-cli", "claude-fable-5", "claude-mythos-5", "anthropic", "multi-model", "benchmark", "swe-bench", "terminal-bench", "competitive-landscape", "model-routing", "cost-optimisation"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Claude Fable 5 Enters the Arena: What Anthropic's Benchmark-Topping Model Means for Codex CLI Multi-Model Strategies
 

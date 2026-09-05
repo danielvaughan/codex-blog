@@ -5,7 +5,7 @@ timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-metaprogramming-reflex-coding-agents-unfamiliar-languages-codex-cli-generator-strategy"
 tags: ["codex-cli", "metaprogramming", "esoteric-languages", "agent-adaptation", "EsoLang-Bench", "coding-agent-strategy"]
 date: 2026-06-27T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # The Metaprogramming Reflex: How Frontier Coding Agents Survive Languages They Have Never Seen — and What It Means for Codex CLI
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-less-context-better-agents-efficient-context-engineering-codex-cli-pruning-summarisation-strategy"
 tags: ["codex-cli", "context-engineering", "context-compaction", "token-management", "long-horizon-sessions", "tool-output-pruning", "research"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Less Context, Better Agents: What the Microsoft Context Engineering Study Means for Codex CLI Session Strategy
 

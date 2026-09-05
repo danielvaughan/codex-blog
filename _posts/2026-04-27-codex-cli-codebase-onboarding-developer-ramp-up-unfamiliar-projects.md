@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-codebase-onboarding-developer-ramp-up-unfamiliar-projects"
 tags: ["codex-cli", "codebase-onboarding", "developer-experience", "AGENTS.md", "skills", "MCP", "knowledge-graph", "GPT-5.5"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-05T14:07:38+01:00
+last_modified_at: 2026-09-05T16:08:12+01:00
 ---
 # Codebase Onboarding with Codex CLI: Using AI Agents to Ramp Up on Unfamiliar Projects
 
