@@ -1,7 +1,7 @@
 ---
 title: "The Shift to Agentic AI: What OpenAI's Own Usage Data Reveals — and What It Means for Your Codex CLI Configuration"
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-09-05T00:11:29+01:00
+last_modified_at: 2026-09-05T03:17:03+01:00
 tags: ["codex-cli", "agentic-ai", "usage-data", "concurrent-agents", "skills", "goal-mode", "configuration", "research"]
 ---
 

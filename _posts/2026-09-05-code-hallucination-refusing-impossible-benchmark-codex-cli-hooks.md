@@ -61,7 +61,7 @@ The benchmark tested 12 open-weight code and reasoning models across 270 unsatis
 | codegemma:7b | 84% | 5% |
 | codellama:7b | 90% | 3% |
 
-The best-performing model still halluccinates on more than 1-in-4 impossible requests. No model approached a refusal rate above two-thirds. Crucially, all 12 models achieved **0% over-refusal** on the 91 matched solvable control prompts — high adversarial hallucination rates reflect genuine failure to recognise impossibility, not excessive caution on edge cases.[^1]
+The best-performing model still hallucinates on more than 1-in-4 impossible requests. No model approached a refusal rate above two-thirds. Crucially, all 12 models achieved **0% over-refusal** on the 91 matched solvable control prompts — high adversarial hallucination rates reflect genuine failure to recognise impossibility, not excessive caution on edge cases.[^1]
 
 ---
 

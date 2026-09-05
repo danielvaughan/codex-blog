@@ -1,7 +1,7 @@
 ---
 title: "The Writes Mode Permission Primitive: Why Reads Without Asking and Writes With Consent Changes Everything for Codex CLI Enterprise Deployments"
 date: 2026-07-18T09:00:00+00:00
-last_modified_at: 2026-09-05T00:11:29+01:00
+last_modified_at: 2026-09-05T03:17:03+01:00
 tags: ["codex-cli", "security", "permission-models", "least-privilege", "enterprise-governance", "approval-policy", "sandbox"]
 ---
 

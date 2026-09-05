@@ -1,7 +1,7 @@
 ---
 title: "AI Writes Faster Than Humans Can Review: What an Enterprise 2× Mandate Reveals About the Review Bottleneck — and How Codex CLI's Guardian Architecture Absorbs the Load"
 date: 2026-07-05T09:00:00+00:00
-last_modified_at: 2026-09-05T00:11:29+01:00
+last_modified_at: 2026-09-05T03:17:03+01:00
 tags: ["codex-cli", "code-review", "auto-review", "guardian", "enterprise", "productivity", "review-bottleneck", "PostToolUse", "diff-control"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "HalluSquatting and the Agentic Botnet: How Adversarial Hallucination Squatting Turns Your Coding Agent into a Compromised Node — and How Codex CLI's Defence Stack Responds"
 date: 2026-07-25T09:00:00+00:00
-last_modified_at: 2026-09-05T00:11:29+01:00
+last_modified_at: 2026-09-05T03:17:03+01:00
 tags: ["codex-cli", "security", "hallusquatting", "agentic-botnets", "supply-chain", "sandbox", "network-proxy", "pretooluse", "defence"]
 ---
 

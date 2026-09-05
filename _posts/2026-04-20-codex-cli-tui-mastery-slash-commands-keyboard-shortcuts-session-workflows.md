@@ -6,7 +6,7 @@ timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-tui-mastery-slash-commands-keyboard-shortcuts-session-workflows"
 tags: ["codex-cli", "TUI", "slash-commands", "keyboard-shortcuts", "session-management", "productivity", "power-user"]
 date: 2026-04-20T09:00:00+00:00
-last_modified_at: 2026-09-05T00:11:29+01:00
+last_modified_at: 2026-09-05T03:17:03+01:00
 ---
 ![Sketchnote diagram for: Codex CLI TUI Mastery: Slash Commands, Keyboard Shortcuts, and Session Workflows for Power Users](/sketchnotes/articles/2026-04-20-codex-cli-tui-mastery-slash-commands-keyboard-shortcuts-session-workflows.png)
 

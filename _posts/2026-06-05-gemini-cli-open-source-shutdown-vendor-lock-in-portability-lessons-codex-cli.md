@@ -5,7 +5,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-gemini-cli-open-source-shutdown-vendor-lock-in-portability-lessons-codex-cli"
 tags: ["codex-cli", "gemini-cli", "antigravity", "open-source", "vendor-lock-in", "portability", "AGENTS.md", "MCP", "SKILL.md", "trust"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-05T00:11:29+01:00
+last_modified_at: 2026-09-05T03:17:03+01:00
 ---
 # The Gemini CLI Shutdown and the Open-Source Trust Crisis: Portability Lessons Every Codex CLI Developer Should Learn Before June 18
 
