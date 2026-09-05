@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-swift-ios-teams-xcode-mcp-swiftui-agent-workflows"
 tags: ["codex-cli", "swift", "ios", "xcode", "swiftui", "mcp", "apple", "mobile", "agent-skills"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # Codex CLI for Swift and iOS Teams: Xcode MCP, SwiftUI Skills, and Agent-Driven Apple Platform Development
 

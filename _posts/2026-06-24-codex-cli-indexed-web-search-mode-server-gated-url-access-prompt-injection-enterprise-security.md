@@ -5,7 +5,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-codex-cli-indexed-web-search-mode-server-gated-url-access-prompt-injection-enterprise-security"
 tags: ["web-search", "indexed", "security", "prompt-injection", "config.toml", "enterprise", "app-server", "codex-cli", "v0.142"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # Indexed Web Search: How Codex CLI v0.142 Bridges the Gap Between Cached Safety and Live Freshness
 

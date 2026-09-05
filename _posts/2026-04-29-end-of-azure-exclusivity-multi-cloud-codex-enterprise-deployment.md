@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-end-of-azure-exclusivity-multi-cloud-codex-enterprise-deployment"
 tags: ["codex-cli", "enterprise", "multi-cloud", "aws", "azure", "bedrock", "strategy", "deployment", "configuration"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # The End of Azure Exclusivity: How OpenAI's Multi-Cloud Pivot Changes the Codex CLI Enterprise Deployment Playbook
 

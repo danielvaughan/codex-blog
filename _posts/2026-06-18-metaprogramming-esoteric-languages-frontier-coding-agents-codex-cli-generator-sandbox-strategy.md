@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-metaprogramming-esoteric-languages-frontier-coding-agents-codex-cli-generator-sandbox-strategy"
 tags: ["codex-cli", "metaprogramming", "esoteric-languages", "EsoLang-Bench", "sandbox", "generator-pipelines", "code-generation", "frontier-agents"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # Metaprogramming as Survival Strategy: What the EsoLang-Bench Study Means for Codex CLI Generator Pipelines and Sandbox Configuration
 

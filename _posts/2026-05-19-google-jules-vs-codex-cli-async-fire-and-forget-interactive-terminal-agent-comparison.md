@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-google-jules-vs-codex-cli-async-fire-and-forget-interactive-terminal-agent-comparison"
 tags: ["codex-cli", "google-jules", "comparison", "async-agents", "terminal-agents", "project-jitro", "coding-agents", "gemini", "gpt-5"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # Google Jules vs Codex CLI: Async Fire-and-Forget vs Interactive Terminal Agent
 

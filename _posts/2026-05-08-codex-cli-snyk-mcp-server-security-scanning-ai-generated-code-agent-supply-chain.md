@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-snyk-mcp-server-security-scanning-ai-generated-code-agent-supply-chain"
 tags: ["codex-cli", "snyk", "mcp", "security", "sast", "sca", "supply-chain", "agent-scan", "aibom"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # Codex CLI + Snyk MCP Server: Security Scanning for AI-Generated Code and the Agent Supply Chain
 

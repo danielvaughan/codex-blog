@@ -1,7 +1,7 @@
 ---
 title: "Backdoor Decontamination Dynamics: What 115 Experiments Reveal About Trusting Open-Weight Models in Your Codex CLI Pipeline"
 date: 2026-08-20T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 tags: ["codex-cli", "backdoor", "decontamination", "open-weight-models", "supply-chain-security", "defensive-poisoning", "PreToolUse", "sandbox", "fine-tuning", "agent-security"]
 ---
 

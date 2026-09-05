@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-openai-skills-catalogue-codex-cli-official-curated-experimental-skill-installer"
 tags: ["codex-cli", "skills", "openai-skills", "skill-installer", "curated-skills", "agent-skills", "SKILL.md"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # The Official OpenAI Skills Catalogue: System, Curated, and Experimental Skills for Codex CLI
 

@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## Non-Atomic Tool Failures, Verified Tool Calls, Idempotency (2026-09-05 Hourly Article Run)
+
+1. ✅ **Non-Atomic Tool Failures: Verified Tool Calls, Idempotency Keys, and the 52pp Duplicate-Reduction Pattern for Codex CLI Agents** — Written 2026-09-05 → `2026-09-05-non-atomic-tool-failures-verified-tool-calls-idempotency-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Mansoor, Phadke & Rana (arXiv:2608.02645, July 2026) "Verified Tool Calls Improve LLM Agent Reliability Under Non-Atomic Failures"; four failure modes: Timeout-After-Dispatch, Delayed Visibility, Partial Success, Stale Conflicts; three-component wrapper: postcondition verifier (three-valued TRUE/FALSE/UNKNOWN), idempotency keys, verify-before-retry algorithm; activate_customer: 64%→100% success (+36pp), 72%→20% duplicate rate (−52pp) at high fault; ablation confirms verification drives improvement over retry alone; companion paper Wang arXiv:2608.23628 "Callability Is Not Operability"; Codex CLI mapping: PostToolUse hook as postcondition verifier, PreToolUse for idempotency key injection, AGENTS.md tool contracts; 5 citations; ~1,510 words
+
+---
+
 ## MOSAIC CLI Command Composition Attack, Codex CLI Security (2026-09-05 Hourly Article Run)
 
 1. ✅ **MOSAIC's 96.59% Attack Rate: How CLI Command Composition Exploits Bypass Every Instruction-Layer Defence in Codex CLI** — Written 2026-09-05 → `2026-09-05-mosaic-cli-command-composition-attack-codex-cli-defence.md`

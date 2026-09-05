@@ -6,7 +6,7 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-goblin-bias-reward-signal-leakage-codex-cli-model-behaviour-lessons"
 tags: ["codex-cli", "GPT-5.5", "RLHF", "reward-signal", "model-behaviour", "system-prompt", "code-quality"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # The Goblin Incident: What Reward Signal Leakage in GPT-5.5 Teaches Codex CLI Practitioners
 

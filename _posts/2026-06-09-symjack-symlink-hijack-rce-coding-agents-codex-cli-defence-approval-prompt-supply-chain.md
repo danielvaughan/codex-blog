@@ -6,7 +6,7 @@ timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-symjack-symlink-hijack-rce-coding-agents-codex-cli-defence-approval-prompt-supply-chain"
 tags: ["codex-cli", "security", "symjack", "symlink", "rce", "supply-chain", "sandbox", "approval-prompt", "mcp", "adversa-ai", "toctou"]
 date: 2026-06-09T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # SymJack: The Symlink Hijack That Turns Approval Prompts into Lies — and How Codex CLI's Defence Stack Responds
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-web-search-configuration-cached-live-domain-allow-lists-prompt-injection-defence"
 tags: ["web-search", "security", "prompt-injection", "configuration", "config.toml", "allowed-domains", "enterprise", "codex-cli"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # Codex CLI Web Search Configuration: Cached vs Live Modes, Domain Allow-Lists, and Prompt Injection Defence
 

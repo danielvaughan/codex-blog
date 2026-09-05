@@ -1,7 +1,7 @@
 ---
 title: "The Context Coupling Problem: Why Your Coding Agent's Editing Interface Is Its Biggest Bottleneck — and How Codex CLI's Subagent Architecture Solves It"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 tags: ["codex-cli", "code-editing", "subagents", "context-coupling", "SWE-Edit", "apply-patch", "V4A", "context-window", "coding-agents"]
 ---
 

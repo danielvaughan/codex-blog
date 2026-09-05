@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-ai-codebase-maturity-model-codex-cli-five-levels-self-sustaining-systems"
 tags: ["codex-cli", "maturity-model", "ACMM", "feedback-loops", "testing", "CI-CD", "dark-factory", "harness-engineering", "autonomy"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # The AI Codebase Maturity Model: Mapping Five Levels of Agent Autonomy to Codex CLI
 

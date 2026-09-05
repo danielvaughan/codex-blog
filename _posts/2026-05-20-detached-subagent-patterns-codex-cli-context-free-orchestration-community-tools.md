@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-detached-subagent-patterns-codex-cli-context-free-orchestration-community-tools"
 tags: ["codex-cli", "subagents", "multi-agent", "orchestration", "context-isolation", "community-tools", "detached-processes"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # Detached Subagent Patterns for Codex CLI: Context-Free Orchestration Beyond Built-in Fork Semantics
 

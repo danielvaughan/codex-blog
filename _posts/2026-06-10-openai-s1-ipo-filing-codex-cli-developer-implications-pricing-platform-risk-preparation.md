@@ -5,7 +5,7 @@ timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-openai-s1-ipo-filing-codex-cli-developer-implications-pricing-platform-risk-preparation"
 tags: ["codex-cli", "openai", "ipo", "s-1", "pricing", "platform-risk", "enterprise", "strategy", "multi-provider", "developer-economics", "june-2026"]
 date: 2026-06-10T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 ---
 # OpenAI's S-1 Filing: What the IPO Path Means for Codex CLI Developers
 

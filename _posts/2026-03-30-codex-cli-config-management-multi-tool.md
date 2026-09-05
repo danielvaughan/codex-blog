@@ -2,7 +2,7 @@
 title: "Managing Codex CLI Configuration Across Multiple AI Tools"
 description: "Most teams don't just use Codex CLI. They use Codex alongside Claude Code, Cursor, Gemini CLI, or GitHub Copilot. This creates a configuration management."
 date: 2026-03-30T09:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 tags:
   - configuration
   - config-toml

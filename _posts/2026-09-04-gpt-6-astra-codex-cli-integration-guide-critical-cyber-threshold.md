@@ -1,7 +1,7 @@
 ---
 title: "GPT-6 Astra in Codex CLI: 1.05M Context, Critical Cyber Threshold, and What the New Model Actually Costs"
 date: 2026-09-04T12:00:00+00:00
-last_modified_at: 2026-09-05T16:08:12+01:00
+last_modified_at: 2026-09-05T20:08:57+01:00
 tags: ["codex-cli", "gpt-6-astra", "models", "pricing", "configuration", "cybersecurity", "context-window"]
 ---
 
