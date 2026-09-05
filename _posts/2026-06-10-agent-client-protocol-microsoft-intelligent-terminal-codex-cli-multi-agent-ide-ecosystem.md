@@ -5,7 +5,7 @@ timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-agent-client-protocol-microsoft-intelligent-terminal-codex-cli-multi-agent-ide-ecosystem"
 tags: ["codex-cli", "acp", "agent-client-protocol", "microsoft-intelligent-terminal", "build-2026", "multi-agent", "zed", "jetbrains", "ide-integration", "protocol-standards"]
 date: 2026-06-10T09:00:00+00:00
-last_modified_at: 2026-09-05T03:17:03+01:00
+last_modified_at: 2026-09-05T04:09:39+01:00
 ---
 # The Agent Client Protocol Arrives in Microsoft Terminal: What ACP Means for Codex CLI and the Multi-Agent IDE Ecosystem
 

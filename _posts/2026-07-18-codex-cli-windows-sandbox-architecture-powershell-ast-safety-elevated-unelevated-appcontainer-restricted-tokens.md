@@ -1,7 +1,7 @@
 ---
 title: "The Windows Sandbox Deep Dive: How Codex CLI Isolates Agent Workloads with Restricted Tokens, Synthetic SIDs, and PowerShell AST Safety"
 date: 2026-07-18T09:00:00+00:00
-last_modified_at: 2026-09-05T03:17:03+01:00
+last_modified_at: 2026-09-05T04:09:39+01:00
 tags: ["codex-cli", "windows", "sandbox", "security", "powershell", "appcontainer", "restricted-tokens", "SIDs", "ACLs", "enterprise"]
 ---
 

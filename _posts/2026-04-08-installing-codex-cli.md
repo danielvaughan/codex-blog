@@ -2,7 +2,7 @@
 title: "Installing Codex CLI: Package Managers, Shell Completions and First-Run Setup"
 description: "Getting Codex CLI running on your machine takes under five minutes — but the installation path you choose and the post-install configuration you apply can."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-05T03:17:03+01:00
+last_modified_at: 2026-09-05T04:09:39+01:00
 tags:
   - getting-started
   - config-toml

@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-browser-use-developer-mode-cdp-dom-snapshots-2x-performance-cli-frontend-workflows"
 tags: ["codex-cli", "browser-use", "cdp", "chrome-devtools", "developer-mode", "performance", "frontend", "computer-use", "dom-snapshots", "mcp"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-09-05T03:17:03+01:00
+last_modified_at: 2026-09-05T04:09:39+01:00
 ---
 # Codex Browser Use Developer Mode: CDP Access, 2x Performance, and What CLI Developers Gain from the June 2026 Browser Overhaul
 

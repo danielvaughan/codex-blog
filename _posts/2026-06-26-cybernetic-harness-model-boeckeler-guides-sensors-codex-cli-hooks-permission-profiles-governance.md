@@ -5,7 +5,7 @@ timestamp: 2026-06-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-26-cybernetic-harness-model-boeckeler-guides-sensors-codex-cli-hooks-permission-profiles-governance"
 tags: ["codex-cli", "harness-engineering", "cybernetics", "hooks", "guides", "sensors", "permission-profiles", "governance", "thoughtworks", "boeckeler", "human-on-the-loop"]
 date: 2026-06-26T09:00:00+00:00
-last_modified_at: 2026-09-05T03:17:03+01:00
+last_modified_at: 2026-09-05T04:09:39+01:00
 ---
 # The Cybernetic Harness: Mapping Böckeler's Guides-and-Sensors Model to Codex CLI's Hook Pipeline and Human-on-the-Loop Governance
 
