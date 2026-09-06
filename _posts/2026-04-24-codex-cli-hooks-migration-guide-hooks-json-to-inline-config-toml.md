@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-hooks-migration-guide-hooks-json-to-inline-config-toml"
 tags: ["codex-cli", "hooks", "config.toml", "migration", "v0.124", "enterprise", "requirements.toml"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # v0.124 Hooks Migration Guide: From hooks.json to Inline config.toml
 

@@ -1,7 +1,7 @@
 ---
 title: "Runtime-Independent Persistent Agents: Separating Agent Identity from Execution — and What It Means for Codex CLI"
 date: 2026-09-03T18:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 tags: ["codex-cli", "agent-architecture", "persistence", "session-management", "memory", "migration", "research"]
 ---
 

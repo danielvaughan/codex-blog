@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-codex-cli-v0132-release-guide-python-sdk-auth-exec-resume-schema-performance"
 tags: ["codex-cli", "release", "v0.132.0", "python-sdk", "authentication", "exec-resume", "performance", "automation"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Codex CLI v0.132.0 Release Guide: Python SDK Authentication, exec resume --output-schema, and Performance Gains
 

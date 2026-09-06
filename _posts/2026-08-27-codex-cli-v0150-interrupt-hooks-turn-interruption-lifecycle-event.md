@@ -1,7 +1,7 @@
 ---
 title: "Interrupt Hooks in Codex CLI v0.150.0: Handling Ctrl-C as a First-Class Lifecycle Event"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 tags: ["codex-cli", "hooks", "v0.150.0", "lifecycle", "interruption", "telemetry", "multi-agent"]
 ---
 

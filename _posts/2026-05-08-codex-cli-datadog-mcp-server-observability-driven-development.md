@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-datadog-mcp-server-observability-driven-development"
 tags: ["codex-cli", "datadog", "mcp", "observability", "devops", "incident-response", "monitoring"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Codex CLI + Datadog MCP Server: Observability-Driven Development from Your Terminal
 

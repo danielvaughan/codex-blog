@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-remote-development-app-server-websocket"
 tags: ["remote-development", "app-server", "websocket", "exec-server", "json-rpc", "ssh", "dev-containers", "enterprise"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Remote Development with Codex CLI: App-Server WebSocket Transport, the --remote Flag, and Persistent Agent Sessions
 

@@ -1,7 +1,7 @@
 ---
 title: "Specialize Roles, Mix Deployments: What AgentCARD Reveals About Heterogeneous Agent Teams — and How Codex CLI's Custom Agent Definitions Deliver It"
 date: 2026-07-05T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 tags: ["codex-cli", "multi-agent", "model-routing", "cost-optimisation", "agent-teams", "AgentCARD", "custom-agents", "subagents"]
 ---
 

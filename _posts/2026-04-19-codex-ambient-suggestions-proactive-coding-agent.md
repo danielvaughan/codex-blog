@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-codex-ambient-suggestions-proactive-coding-agent"
 tags: ["codex-cli", "ambient-suggestions", "proactive-agent", "hooks", "automations", "context-aware", "developer-experience"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Ambient Suggestions: When Your Coding Agent Starts Thinking Ahead
 

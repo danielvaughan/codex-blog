@@ -6,7 +6,7 @@ timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-observability-opentelemetry-traces-metrics-production-monitoring"
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "tracing", "metrics", "grafana", "production"]
 date: 2026-04-20T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Codex CLI Observability: OpenTelemetry Traces, Metrics, and Production Monitoring
 

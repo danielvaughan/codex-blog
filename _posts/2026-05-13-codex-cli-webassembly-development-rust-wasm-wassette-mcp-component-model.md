@@ -6,7 +6,7 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-webassembly-development-rust-wasm-wassette-mcp-component-model"
 tags: ["language-guide", "mcp", "skills", "agents-md", "sandbox"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Codex CLI for WebAssembly Development: Rust-to-Wasm Workflows, Wassette MCP, and the Component Model
 

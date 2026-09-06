@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-plugin-cc-cross-provider-bridge"
 tags: ["codex-plugin-cc", "cross-provider", "claude-code", "review-gate", "adversarial-review", "subagent", "broker", "mcp", "multi-agent"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # codex-plugin-cc: OpenAI's Official Cross-Provider Bridge for Claude Code
 

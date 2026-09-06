@@ -1,7 +1,7 @@
 ---
 title: "Harness-of-Harness: When Iterative Evidence Loops Beat Bigger Models for Multi-Day Autonomous Development"
 date: 2026-09-02T20:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 tags: ["codex-cli", "multi-agent", "harness-engineering", "long-horizon", "benchmarks", "research", "architecture", "goal-mode"]
 ---
 

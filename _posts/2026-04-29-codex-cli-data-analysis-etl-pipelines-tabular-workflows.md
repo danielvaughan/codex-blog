@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-data-analysis-etl-pipelines-tabular-workflows"
 tags: ["codex-cli", "data-analysis", "etl", "pandas", "automation", "data-engineering", "tabular-data"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Codex CLI for Data Analysis: ETL Pipelines, Tabular Workflows, and Reproducible Reports
 

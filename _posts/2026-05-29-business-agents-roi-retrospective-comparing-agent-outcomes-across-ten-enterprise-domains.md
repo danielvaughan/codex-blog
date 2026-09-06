@@ -5,7 +5,7 @@ timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-business-agents-roi-retrospective-comparing-agent-outcomes-across-ten-enterprise-domains"
 tags: ["agentic-engineering", "business-agents", "roi", "enterprise-automation", "openai", "agents-sdk", "codex-cli", "retrospective"]
 date: 2026-05-29T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Business Agents ROI Retrospective: Comparing Agent Outcomes Across Ten Enterprise Domains
 

@@ -1,7 +1,7 @@
 ---
 title: "AgentDebugX and the Closed-Loop Debugging Gap: What Detect-Attribute-Recover-Rerun Means for Your Codex CLI Observability Stack"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 tags: ["codex-cli", "observability", "debugging", "AgentDebugX", "DeepDebug", "failure-attribution", "OTLP", "rollout-files", "PostToolUse-hooks", "root-cause-analysis"]
 ---
 

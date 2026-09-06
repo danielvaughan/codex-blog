@@ -1,7 +1,7 @@
 ---
 title: "Actionable Hallucination Detection and the Latent Critic: What Real-Time Specification-Grounding Means for Your Codex CLI Hook and Guardian Strategy"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 tags: ["codex-cli", "hallucination-detection", "latent-critic", "specification-grounding", "PostToolUse", "hooks", "guardian", "auto-review", "LoRA", "tool-calling"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-beyond-swe-bench-broken-benchmarks-codex-cli-workflows"
 tags: ["benchmarks", "SWE-bench", "FeatureBench", "evaluation", "Codex CLI", "agent capabilities", "GPT-5.4"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Beyond SWE-bench: Why AI Coding Benchmarks Are Broken and What It Means for Codex CLI Workflows
 

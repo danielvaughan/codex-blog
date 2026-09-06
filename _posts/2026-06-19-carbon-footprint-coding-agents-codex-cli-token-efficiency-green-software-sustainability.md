@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-carbon-footprint-coding-agents-codex-cli-token-efficiency-green-software-sustainability"
 tags: ["codex-cli", "carbon-footprint", "sustainability", "token-efficiency", "green-software", "SCI", "model-routing", "named-profiles"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # The Carbon Footprint of Coding Agents: What 250,000 Tonnes of CO₂ Means for Codex CLI Token Strategy
 

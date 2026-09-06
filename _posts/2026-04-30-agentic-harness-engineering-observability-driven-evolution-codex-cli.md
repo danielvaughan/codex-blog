@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-agentic-harness-engineering-observability-driven-evolution-codex-cli"
 tags: ["codex-cli", "harness-engineering", "observability", "research", "benchmarks", "configuration", "AGENTS.md", "hooks", "Terminal-Bench"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Agentic Harness Engineering: What Observability-Driven Evolution Means for Your Codex CLI Configuration
 

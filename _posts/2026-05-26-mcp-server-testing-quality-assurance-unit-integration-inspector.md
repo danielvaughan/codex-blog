@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-mcp-server-testing-quality-assurance-unit-integration-inspector"
 tags: ["codex-cli", "mcp", "testing", "quality-assurance", "inspector", "unit-testing", "integration-testing", "ci-cd"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # MCP Server Testing and Quality Assurance: Unit Tests, Integration Flows, and the Inspector Workflow
 

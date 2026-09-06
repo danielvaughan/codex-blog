@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-measuring-codex-cli-impact-dora-metrics-token-telemetry-ai-productivity-paradox"
 tags: ["codex-cli", "developer-productivity", "DORA-metrics", "telemetry", "analytics", "measurement", "enterprise"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-06T02:10:41+01:00
+last_modified_at: 2026-09-06T04:10:35+01:00
 ---
 # Measuring Codex CLI's Impact on Your Team: DORA Metrics, Token Telemetry, and the AI Productivity Paradox
 
