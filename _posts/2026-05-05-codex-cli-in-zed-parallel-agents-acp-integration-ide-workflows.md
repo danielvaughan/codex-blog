@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-in-zed-parallel-agents-acp-integration-ide-workflows"
 tags: ["codex-cli", "zed", "acp", "agent-client-protocol", "parallel-agents", "ide-integration", "multi-agent", "codex-acp"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 ---
 # Codex CLI in Zed 1.0: Parallel Agents, ACP Integration, and Multi-Agent IDE Workflows
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-windows-sandbox-engineering-restricted-tokens-acls-elevated-architecture"
 tags: ["codex-cli", "windows", "sandbox", "security", "architecture", "internals"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 ---
 # Inside the Codex Windows Sandbox: Restricted Tokens, Synthetic SIDs, and the Four-Layer Execution Architecture
 

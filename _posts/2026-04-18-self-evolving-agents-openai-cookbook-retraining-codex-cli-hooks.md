@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-self-evolving-agents-openai-cookbook-retraining-codex-cli-hooks"
 tags: ["self-evolving", "retraining", "hooks", "metaprompt", "skill-crystallisation", "prompt-versioning", "genericagent", "evolver"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 ---
 # Self-Evolving Agents in Practice: Implementing the OpenAI Cookbook Retraining Loop with Codex CLI Hooks
 

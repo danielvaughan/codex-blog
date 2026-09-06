@@ -5,7 +5,7 @@ timestamp: 2026-07-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-27-skillcorpus-open-skill-ecosystem-quality-curation-codex-cli-skill-management"
 tags: ["codex-cli", "skills", "SKILL.md", "skill-quality", "SkillCorpus", "curation", "skill-smells", "retrieval", "plugin-system"]
 date: 2026-07-27T09:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 ---
 # SkillCorpus and the 821K Skill Audit: What Crawling the Open Skill Ecosystem Reveals About Quality, Curation, and Your Codex CLI Skill Stack
 

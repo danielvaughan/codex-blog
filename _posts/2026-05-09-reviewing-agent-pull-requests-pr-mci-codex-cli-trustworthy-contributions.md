@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-reviewing-agent-pull-requests-pr-mci-codex-cli-trustworthy-contributions"
 tags: ["codex-cli", "code-review", "pull-requests", "PR-MCI", "agent-trust", "AGENTS.md", "hooks", "code-quality"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 ---
 # Reviewing Agent Pull Requests: What 23,000 PRs Reveal About Description Accuracy and How to Configure Codex CLI for Trustworthy Contributions
 

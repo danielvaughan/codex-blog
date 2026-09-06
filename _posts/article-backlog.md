@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## Front-Load Human Review — Phased Coding Agent Workflow, Codex CLI (2026-09-06 Hourly Article Run)
+
+1. ✅ **Front-Load or Fail: The Four-Phase Coding Agent Workflow and Its Codex CLI Implementation** — Written 2026-09-06 → `2026-09-06-front-load-human-review-phased-coding-agent-workflow-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Kapetanovic, Duricic, Mercep & Lacic (Infobip, arXiv:2608.30701, August 31, 2026, CIKM '26) "A Phased Workflow for Operating LLM-Based Coding Agents"; central claim: effectiveness depends less on model than on how practitioners configure the harness; four phases: Research (read-only, validation gate, curated research doc), Planning (iterative discussion, manual curation to artifact, no dedicated plan mode), Task Definition (machine-readable tasks with stable ID/goal/dependencies/paths/criteria/validation, sized for fresh sessions), Implementation (fresh session per task, append-only activity log, task registry, git); four context management strategies from Martin (2025): Write/Select/Compress/Isolate mapped to Codex CLI primitives (recap-to-file, --input-file, tui.auto_recap, fresh sessions per codex queue); four context failure modes from Breunig (2025): Distraction/Confusion/Poisoning/Clash with workflow-level mitigations; AGENTS.md instruction-count degradation finding (fewer, concrete rules outperform exhaustive rulesets); two open problems (no workflow metrics, component-to-pattern gap); Codex CLI mapping: --approval-policy for read-only research, writable_roots = [] sandbox, /recap to artifact, codex queue per task, PostToolUse hook for activity log; 5 citations; ~1,350 words
+
+---
+
 ## v0.153.0 Context Management, Token-Budget Mode, Guardian History Fencing (2026-09-06 Hourly Article Run)
 
 1. ✅ **Codex CLI v0.153.0: Three-Tier Context Management, Experimental Token-Budget Mode, and Guardian History Fencing** — Written 2026-09-06 → `2026-09-06-codex-cli-v0153-context-management-token-budget-guardian-history-fencing.md`

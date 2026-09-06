@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-mobile-chatgpt-app-relay-architecture-remote-agent-control"
 tags: ["codex", "mobile", "chatgpt-app", "remote-control", "relay-architecture", "qr-pairing", "ios", "android", "connected-host"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 ---
 # Codex Mobile: Remote Agent Control from Your Phone via the ChatGPT App
 

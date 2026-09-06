@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-slopcodebench-code-quality-degradation-codex-cli-long-horizon-defence"
 tags: ["codex-cli", "slopcodebench", "code-quality", "long-horizon", "degradation", "agents-md", "hooks", "subagents", "context-compaction", "refactoring"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 ---
 # SlopCodeBench and Code Quality Degradation: Defending Against Architectural Decay in Long-Horizon Codex CLI Sessions
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-dependency-upgrades-framework-migrations-automated-codemod-workflows"
 tags: ["codex-cli", "dependency-upgrades", "framework-migrations", "codemods", "automation", "subagents", "codex-exec"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 ---
 # Codex CLI for Automated Dependency Upgrades and Framework Migrations
 

@@ -1,7 +1,7 @@
 ---
 title: "SilentProbe: The HTTP 200 Problem — When Production APIs Lie to Your Codex CLI Agent"
 date: 2026-09-03T14:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 tags: ["codex-cli", "mcp", "api-design", "openapi", "silent-failure", "hooks", "research"]
 ---
 

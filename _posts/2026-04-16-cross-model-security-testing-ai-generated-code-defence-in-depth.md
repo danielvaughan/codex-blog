@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-cross-model-security-testing-ai-generated-code-defence-in-depth"
 tags: ["security-testing", "cross-model-review", "defence-in-depth", "pipeline", "agents-md", "sast-dast", "codex-cli"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-06T00:08:14+01:00
+last_modified_at: 2026-09-06T02:10:41+01:00
 ---
 # Cross-Model Security Testing for AI-Generated Code: Building a Defence-in-Depth Pipeline
 
