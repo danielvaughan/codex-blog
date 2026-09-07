@@ -1,7 +1,7 @@
 ---
 title: "Giving Codex CLI a Clock: Time-Reminder Architecture, the clock.curr_time Tool, and the Timezone Trap"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-09-07T11:38:01+01:00
+last_modified_at: 2026-09-07T12:10:46+01:00
 tags: ["codex-cli", "time-awareness", "temporal-grounding", "app-server", "config", "system-clock", "agents-md", "alpha", "hooks"]
 ---
 

@@ -1,6 +1,11 @@
 # Article Backlog
 
+## MCP Error Actionability Gap (2026-09-07 Hourly Article Run)
 
+1. ✅ **MCP Error Actionability: Why isError:true Is Not Enough and How Codex CLI Closes the Gap** — Written 2026-09-07 → `2026-09-07-mcp-error-actionability-gap-codex-cli-recovery-hooks.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Mehan (arXiv:2609.00072, August 31, 2026) "Can MCP Clients Decide What to Do After Failure? A Result-Only Actionability Audit"; six-part actionability profile a(o)=(D,P,C,T,E,R)∈{0,1}⁶; 21 failures across 10 live MCP servers from 23,569-record registry snapshot; control view (typed fields only): D=18, P=8, C=0, T=0, E=0, R=0; content-assisted view: C=19, T=18, E=0, R=0 — prose bridges C/T but E/R remain zero in all views; lexical source audit: 16 isError construction paths, 12 semantic paths, 7 prose-only and 5 mixed JSON-in-text — none provides a standard action code; exploratory policy-selection test: Llama 3.2 3.2B 42/105 normalised vs 105/105 prose, Qwen 0.8B 6/105 vs 30/105; fail-closed prototype two-plane architecture: error.code (C), error.target with JSON Pointer (T), error.policy (P), error.retry.sameRequest (R); Codex CLI mapping: on_mcp_tool_result hook v0.148.0 (mcp_tool handler type), v0.151.0 PR #41202 (inspect/replace MCP tool results), PR #41196 (structured MCP tool/resource errors preserved), three hook patterns: typed-field triage, replay-safety gate, server-side structured envelope; AGENTS.md MCP tool error policy table; 5 citations; ~1,595 words
+
+---
 ## Harness Engineering, Seven Subsystems, Codex CLI Architecture (2026-09-07 Hourly Article Run)
 
 1. ✅ **Harness Engineering: Anatomy, Architecture, and the Seven Subsystems Underpinning Codex CLI** — Written 2026-09-07 → `2026-09-07-harness-engineering-anatomy-architecture-codex-cli-eleven-systems.md`
