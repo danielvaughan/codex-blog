@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## Late-Arriving Requirements, Rework Tax, Coding-Agent Sessions (2026-09-07 Hourly Article Run)
+
+1. ✅ **The 2× Rework Tax: Late-Arriving Requirements and Code Invalidation in Coding-Agent Sessions** — Written 2026-09-07 → `2026-09-07-late-requirements-rework-tax-coding-agent-sessions-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Jiang, Cheng, Fu, Koziolek, Li & Zhang (KIT / Waseda / Adelaide, arXiv:2609.03028, September 2026) "Requirements After the First Edit: Mining Late Requirement Emergence and Rework in Real-World Coding-Agent Sessions"; 3,553 SWE-chat sessions, 921 canonical emergence events, 402 reconstructible sessions, 74 repositories; core finding: late requirements trigger 1.96× invalidation ratio (95% CI [1.31, 2.82]), 57.5 lines vs 29.4 lines for controls (+28.2 lines); pipeline-specific: 2.06 (Sol), 2.06 (Sonnet); 74% of invalidated lines survived ≥3 edits (settled code); 18–22% session prevalence; taxonomy: Constrain 48.7%, Add 32.1%, Replace 9.5%, Remove 9.2%, Relax 0.6%; trigger: Preference 82.1%, Implementation feedback 16.0%, External 1.9%; relation: Neutral 89.3%, Contradicts 10.7%; 54% of events arrive after session midpoint; Experiment E1: delayed disclosure → round-2 churn 9.3 lines vs 0.1 upfront (+9.2 lines [+6.4,+12.8]); final correctness 92.9% vs 95.0%; E2 advance warning inconclusive (+0.16 lines); Codex CLI mapping: plan mode (/plan, Shift+Tab) as requirements gate, AGENTS.md [D]/[C]/[M] task template, PreToolUse hook blocking edits until [C] Constraints declared (exit 2), startup_prompt_template for requirement elicitation, codex queue JSON format with mandatory constraint field; 5 citations; ~1,350 words
+
+---
+
 ## Front-Load Human Review — Phased Coding Agent Workflow, Codex CLI (2026-09-06 Hourly Article Run)
 
 1. ✅ **Front-Load or Fail: The Four-Phase Coding Agent Workflow and Its Codex CLI Implementation** — Written 2026-09-06 → `2026-09-06-front-load-human-review-phased-coding-agent-workflow-codex-cli.md`
