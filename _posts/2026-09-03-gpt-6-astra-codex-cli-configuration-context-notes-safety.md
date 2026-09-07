@@ -1,7 +1,7 @@
 ---
 title: "GPT-6 Astra Arrives: Configuring OpenAI's Most Capable Model in Codex CLI"
 date: 2026-09-03T22:30:00+00:00
-last_modified_at: 2026-09-07T08:13:55+01:00
+last_modified_at: 2026-09-07T11:38:01+01:00
 tags: ["codex-cli", "gpt-6-astra", "model-configuration", "context-management", "safety", "release"]
 ---
 
@@ -35,12 +35,12 @@ The specifications below are sourced from the OpenAI API documentation as of 3 S
 | Maximum input tokens | 922,000 tokens |
 | Maximum output tokens | 128,000 tokens |
 | Knowledge cutoff | 30 April 2026 |
-| Pricing — standard input | $10 / M tokens |
-| Pricing — cached input | $1 / M tokens |
-| Pricing — output | $50 / M tokens |
+| Pricing — standard input | \$10 / M tokens |
+| Pricing — cached input | \$1 / M tokens |
+| Pricing — output | \$50 / M tokens |
 | Over-272K input surcharge | 2× input rate, 1.5× output rate |
 
-The 1M-token context window is the largest in the family and meaningfully changes what's feasible in a single Codex session — entire mid-sized repositories fit in-context without a `compact` cycle. Prompt cache hits at $1/M make long, repeated boilerplate in AGENTS.md and startup prompts essentially free at scale.
+The 1M-token context window is the largest in the family and meaningfully changes what's feasible in a single Codex session — entire mid-sized repositories fit in-context without a `compact` cycle. Prompt cache hits at \$1/M make long, repeated boilerplate in AGENTS.md and startup prompts essentially free at scale.
 
 ### Supported Tools
 
@@ -90,7 +90,7 @@ codex -m gpt-6-astra --reasoning-effort xhigh "Refactor the auth module to use t
 
 Or switch mid-session with the `/model` command in the TUI:
 
-```
+```text
 /model gpt-6-astra
 ```
 

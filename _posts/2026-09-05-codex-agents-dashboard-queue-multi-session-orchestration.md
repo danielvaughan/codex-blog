@@ -1,4 +1,6 @@
 ---
+date: 2026-09-05T09:00:00+00:00
+last_modified_at: 2026-09-07T11:38:01+01:00
 title: "The codex agents Dashboard and codex queue: Orchestrating Parallel Sessions Without the Terminal-Tab Overhead"
 parent: "Articles"
 nav_order: 1131
@@ -55,7 +57,7 @@ PRs: #39094 (core dashboard TUI), #39112 (status aggregation), #39114 (search an
 
 Shipped in the same release (PR #38894), these three slash commands remove the need to restart a session when your focus shifts within a repository.[^1]
 
-```
+```text
 # Show the current working directory of this session
 /pwd
 /cwd          # alias — identical behaviour
@@ -150,7 +152,7 @@ The dashboard lets you watch both forks progress simultaneously and stop the los
 
 v0.150.0 (26 August 2026) added task `@` mentions — the ability to reference another running session by name inside a message.[^6] When a session receives a message containing `@variant-a`, it can read that session's recent output, create a new task, or queue a message into it:
 
-```
+```text
 @variant-a What was the final approach you settled on?
 ```
 

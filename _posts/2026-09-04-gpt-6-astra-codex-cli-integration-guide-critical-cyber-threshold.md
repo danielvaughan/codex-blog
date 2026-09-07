@@ -1,7 +1,7 @@
 ---
 title: "GPT-6 Astra in Codex CLI: 1.05M Context, Critical Cyber Threshold, and What the New Model Actually Costs"
 date: 2026-09-04T12:00:00+00:00
-last_modified_at: 2026-09-07T08:13:55+01:00
+last_modified_at: 2026-09-07T11:38:01+01:00
 tags: ["codex-cli", "gpt-6-astra", "models", "pricing", "configuration", "cybersecurity", "context-window"]
 ---
 
@@ -40,18 +40,18 @@ Reasoning effort accepts `low`, `medium`, `high`, `xhigh` on Chat Completions, w
 
 The pricing structure is layered and has three tiers that interact:
 
-```
-Standard ($10 input / $50 output per 1M tokens)
-  └── Cached input: $1/M
-  └── Cache writes: $12.50/M
-  └── Long-context premium (> 272K input tokens): 2× input, 1.5× output, full request
-  └── Fast mode: 2× all applicable rates
-  └── Batch/Flex: 50% discount
+```mermaid
+graph TD
+    A["<b>Standard</b><br/>$10 input / $50 output per 1M tokens"] --> B["Cached input: $1/M"]
+    A --> C["Cache writes: $12.50/M"]
+    A --> D["Long-context premium &gt;272K tokens<br/>2&times; input, 1.5&times; output, full request"]
+    A --> E["Fast mode: 2&times; all applicable rates"]
+    A --> F["Batch/Flex: 50% discount"]
 ```
 
 The long-context threshold at 272K tokens is a meaningful number for Codex CLI sessions. The `auto_compact_token_limit` default is below that ceiling, but sessions with large codebases, multi-file context injections, or extensive tool histories can cross it before auto-compaction triggers. Operators running against large monorepos should set an explicit `auto_compact_token_limit` well below 272K or accept the 2× input surcharge.[^4]
 
-Fast mode delivers 2× processing speed at 2× the applicable rate. On a standard session that stays under the long-context threshold, Fast mode shifts the effective cost to $20 input / $100 output per 1M tokens. For latency-sensitive CI pipelines or interactive review loops where the cost-per-run is secondary to turnaround, Fast mode is compelling; for background batch jobs, it is not.[^4]
+Fast mode delivers 2× processing speed at 2× the applicable rate. On a standard session that stays under the long-context threshold, Fast mode shifts the effective cost to \$20 input / \$100 output per 1M tokens. For latency-sensitive CI pipelines or interactive review loops where the cost-per-run is secondary to turnaround, Fast mode is compelling; for background batch jobs, it is not.[^4]
 
 ## Benchmark Performance
 
@@ -73,7 +73,7 @@ The ARC-AGI-3 gap is stark — from 7.8% to 99.9% — but ARC-AGI-3 is specifica
 
 Artificial Analysis observed approximately 70% better token efficiency than GPT-5.6 Sol within the Codex harness, and a roughly 80 Elo-point gain on long-horizon analytical tasks (AA-Briefcase).[^6] Hallucination rates on their AA-Omniscience benchmark dropped from 92% to 51% while accuracy improved simultaneously — a notable gain for workflows that generate specification text, commit messages, or documentation alongside code.[^6]
 
-The counter-signal: at standard pricing, Astra costs 2.5× more per token than Sol ($4→$10 input, $20→$50 output), and the efficiency gains do not fully offset that for workloads that are not token-bound. For most Codex sessions that complete within a few hundred thousand tokens, operators should benchmark actual cost-per-task rather than relying on headline token-efficiency figures.[^6]
+The counter-signal: at standard pricing, Astra costs 2.5× more per token than Sol (\$4→\$10 input, \$20→\$50 output), and the efficiency gains do not fully offset that for workloads that are not token-bound. For most Codex sessions that complete within a few hundred thousand tokens, operators should benchmark actual cost-per-task rather than relying on headline token-efficiency figures.[^6]
 
 ## Codex CLI Configuration
 

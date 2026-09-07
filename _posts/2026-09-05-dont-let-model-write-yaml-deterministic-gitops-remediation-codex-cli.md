@@ -3,7 +3,7 @@ title: "Don't Let the Model Write the YAML: Deterministic GitOps Remediation and
 parent: "Articles"
 nav_order: 1129
 date: 2026-09-05T09:00:00+00:00
-last_modified_at: 2026-09-07T08:13:55+01:00
+last_modified_at: 2026-09-07T11:38:01+01:00
 tags: ["codex-cli", "YAML", "GitOps", "Kubernetes", "PreToolUse", "hooks", "AGENTS.md", "configuration-safety", "deterministic", "infrastructure"]
 ---
 
@@ -63,7 +63,7 @@ Fail-closed behaviour on adversarial inputs (absent resources, missing fields, d
 | Unified diff | ~200 | ~16,700 tokens |
 | Full-file rewrite | ~9,300 | ~9,500 tokens |
 
-Span-edit is O(1) in file size; full-file rewrite scales linearly with the manifest. The complete benchmark — 83 tasks × 5 seeds × 3 baselines × 2 models — cost $34.69 to run.[^1] The implementation ships as KubeAstra (Apache 2.0): ~150 lines for the safety-critical span-editor core, 520 lines total.[^1][^2]
+Span-edit is O(1) in file size; full-file rewrite scales linearly with the manifest. The complete benchmark — 83 tasks × 5 seeds × 3 baselines × 2 models — cost \$34.69 to run.[^1] The implementation ships as KubeAstra (Apache 2.0): ~150 lines for the safety-critical span-editor core, 520 lines total.[^1][^2]
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "SilentProbe: The HTTP 200 Problem — When Production APIs Lie to Your Codex CLI Agent"
 date: 2026-09-03T14:00:00+00:00
-last_modified_at: 2026-09-07T08:13:55+01:00
+last_modified_at: 2026-09-07T11:38:01+01:00
 tags: ["codex-cli", "mcp", "api-design", "openapi", "silent-failure", "hooks", "research"]
 ---
 
@@ -228,7 +228,7 @@ Before shipping an MCP server that wraps a production API:
 - [ ] Run perturbations from at least enum-synonym, case, separator, and out-of-vocabulary families against the live endpoint before deployment
 - [ ] Instrument retries to distinguish "no matching records" from "filter not applied" in logs
 
-The campaign cost for the full SilentProbe audit across 27 production vendors was under $8 USD.[^1] The cost of shipping an agent that fabricates answers when its API silently misunderstands a filter is considerably higher.
+The campaign cost for the full SilentProbe audit across 27 production vendors was under \$8 USD.[^1] The cost of shipping an agent that fabricates answers when its API silently misunderstands a filter is considerably higher.
 
 ## Citations
 

@@ -1,7 +1,7 @@
 ---
 title: "Parsing the Stream: What a Live Trace Model Reveals About Keeping Long-Horizon Agents on Track — and What It Means for Codex CLI"
 date: 2026-09-02T22:00:00+00:00
-last_modified_at: 2026-09-07T08:13:55+01:00
+last_modified_at: 2026-09-07T11:38:01+01:00
 tags: ["codex-cli", "long-horizon", "trace-management", "compaction", "context-management", "observability", "benchmarks"]
 ---
 
@@ -24,9 +24,9 @@ For agent self-monitoring — asking a running agent to track its own progress �
 
 | Condition | Success rate | Cost per run |
 |---|---|---|
-| Full context (flat) | 8 / 30 | $7.13 |
-| Curated view | 30 / 30 | $1.59 |
-| Scratchpad | 30 / 30 | $0.97 |
+| Full context (flat) | 8 / 30 | \$7.13 |
+| Curated view | 30 / 30 | \$1.59 |
+| Scratchpad | 30 / 30 | \$0.97 |
 
 McNemar test between full context and curated view: **p ≈ 5 × 10⁻⁷**[^1]. The curated view is not a marginal improvement — it converts near-certain failure into guaranteed success at a fifth of the cost.
 
@@ -76,7 +76,7 @@ The eleventh requirement — coverage transparency — is the one most often vio
 
 The paper is explicit about the regime where the curated-view approach breaks down. On alternating-sign dependency chains — tasks where the correct output depends on the *order* of all prior operations, not just their aggregate — the curated view scores **3/10** at 60 links while full context scores **6/10**[^1]. The fold's applicability is bounded by tasks where the preserved statistics match the required computation. If the task requires full-trace replay, the fold cannot reconstruct it.
 
-The deconfounding experiments separate two factors: the aggregate component (carrying task-tracking state) and the boundedness component (limiting context size). The aggregate component carries accuracy; boundedness carries cost[^1]. A view with full history but curated aggregates achieves 10/10 at $7.63/run. A view with bounded context but no aggregates achieves 4/10 at ~$2.14/run. Both factors must be present simultaneously to achieve 10/10 at $1.59/run.
+The deconfounding experiments separate two factors: the aggregate component (carrying task-tracking state) and the boundedness component (limiting context size). The aggregate component carries accuracy; boundedness carries cost[^1]. A view with full history but curated aggregates achieves 10/10 at \$7.63/run. A view with bounded context but no aggregates achieves 4/10 at ~\$2.14/run. Both factors must be present simultaneously to achieve 10/10 at \$1.59/run.
 
 ## Mapping to Codex CLI
 
@@ -98,7 +98,7 @@ max_turns = 200
 
 ### Scratchpad injection via startup\_prompt\_template
 
-The scratchpad condition in CONTINUE achieves 30/30 at $0.97/run — cheaper than the curated view and equally accurate[^1]. A scratchpad is a structured text block the agent maintains itself: at each step, the agent reads its own scratchpad, performs the step, and rewrites the scratchpad with updated state. Codex CLI's `startup_prompt_template` can inject a scratchpad template at session start:
+The scratchpad condition in CONTINUE achieves 30/30 at \$0.97/run — cheaper than the curated view and equally accurate[^1]. A scratchpad is a structured text block the agent maintains itself: at each step, the agent reads its own scratchpad, performs the step, and rewrites the scratchpad with updated state. Codex CLI's `startup_prompt_template` can inject a scratchpad template at session start:
 
 ```toml
 [profiles.long-horizon]

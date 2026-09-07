@@ -1,5 +1,7 @@
 ---
 title: "Non-Atomic Tool Failures: Verified Tool Calls, Idempotency Keys, and the 52pp Duplicate-Reduction Pattern for Codex CLI Agents"
+date: 2026-09-05T09:00:00+00:00
+last_modified_at: 2026-09-07T11:38:01+01:00
 parent: "Articles"
 nav_order: 1133
 tags: ["reliability", "mcp", "tool-calls", "hooks", "idempotency", "codex-cli", "architecture", "production"]
@@ -80,7 +82,7 @@ The key is transmitted with every call — and with any retry. A server that sup
 
 ### 3. Verify-Before-Retry Algorithm
 
-```
+```text
 Input:  action a, verifier V, idempotency key k, max_retries N
 Output: success | failure
 
