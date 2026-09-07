@@ -1,5 +1,13 @@
 # Article Backlog
 
+
+## Runtime-Independent Persistent Agents — Identity, Memory, and Code Continuity Across Model Upgrades (2026-09-07 Hourly Article Run)
+
+1. ✅ **Runtime-Independent Persistent Agents: What the Enoch Architecture Means for Codex CLI Model Upgrades** — Written 2026-09-07 → `2026-09-07-runtime-independent-persistent-agents-identity-memory-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zhao & Zhao (arXiv:2609.00546, 31 August 2026) "Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers"; two-layer architecture: persistent substrate 𝒫ₜ=(Iₜ,Mₜ,Bₜ) identity/memory/body vs replaceable deployment ℰₜ=(Rₜ,Hₜ,Dₜ) reasoner/harness/host + surfaces 𝒮ₜ; deployed agent 𝒜ₜ=𝒫ₜ⊳(ℰₜ,𝒮ₜ); six continuity invariants I1-I6 (identity lineage, memory ancestry, body revision, authority epoch, capability visibility, self-description isolation); six-phase migration protocol (quiesce/fence→checkpoint→validate→bind→rehydrate→verify+resume); Enoch implementation: body.yaml (mission/principles) + self.json (identity record/lineage) as separate inputs; five provider surfaces including Codex as explicit runtime contract (respond/execute/cancel); 833 core + 92 provider tests on frozen commit c8013ed (31 Aug 2026); authority epoch fencing for stale-execution rejection; companion paper Goyal & Ray (arXiv:2609.05339, LinkedIn) memory portability study: 48 synthetic histories, 160 questions, RPAS metric; KG-fixed ±0.0004 accuracy after model swap, NOTES −13.28pp (Qwen→Llama), RAG 81% deficit from retrieval failure, mixed embedding index fails silently at cosine 0.904; Codex CLI mapping: AGENTS.md as Iₜ/Bₜ (incomplete split), ~/.codex/memory/ as Mₜ (no schema registry), model picker as Rₜ substitution (no epoch handoff), codex queue --session as implicit authority separation, structured KV memory format recommendation, full re-index on model upgrade; GPT-6 Astra launch (v0.153.4, 4 Sep 2026) as real-world Rₜ substitution event; 5 citations; ~1,458 words
+
+---
+
 ## OpenAgentFlow — Centralised Action Governance for Heterogeneous Agent Fleets (2026-09-07 Hourly Article Run)
 
 1. ✅ **OpenAgentFlow: Centralised Action Governance for Heterogeneous Agent Fleets — and What It Means for Codex CLI** — Written 2026-09-07 → `2026-09-07-openagentflow-centralised-action-governance-heterogeneous-agent-fleets-codex-cli.md`
