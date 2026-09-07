@@ -1,5 +1,12 @@
 # Article Backlog
 
+## OpenAgentFlow — Centralised Action Governance for Heterogeneous Agent Fleets (2026-09-07 Hourly Article Run)
+
+1. ✅ **OpenAgentFlow: Centralised Action Governance for Heterogeneous Agent Fleets — and What It Means for Codex CLI** — Written 2026-09-07 → `2026-09-07-openagentflow-centralised-action-governance-heterogeneous-agent-fleets-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Chen, Zhao, Yao & Wei (arXiv:2609.00015, September 2026) "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets"; control-plane/action-plane architecture establishing action-commit boundary as shared enforcement interface; AgentEvent normalisation e=⟨s,a,c,τ,o,p,π,m,t⟩ unifying GUI/API/tool/LLM-call channels; T1-T4 enforcement pipeline (T1: structured rules 0.0992ms P99, T2: provenance source-sink detection 0.4725ms P99, T3: semantic local, T4: full semantic model); T1/T2 resolves 93.33% of policy-covered decisions without T3/T4; 300-case controlled: 94.00% accuracy, 95.35% attack-block, 7.81% false-block; TS-Bench AgentDojo-Traj 1,220 cases: 97.62% accuracy, 96.59% unsafe-action recall, 1.96% false-intervention, +5.90pp vs TS-Guard SOTA; 41.15% of cases reach T4 but contain 98.30% of unsafe actions; dynamic FlowRules 90.0% pass (27/30), 6/6 T1 insertions enforced; real Android execution 92.86% trace-adjusted; enforcement-observed provenance vs agent self-report; Codex CLI mapping: PreToolUse hooks as T1 (scope checks, deterministic rules, exit 2), on_mcp_tool_result (v0.151.0) + PostToolUse as T2 provenance tracking, approval_policy tiers as scope enforcement, --approve-for-me Guardian as T4 semantic adjudication, AGENTS.md as FlowRule store, fleet profiles (fleet-reader/fleet-writer) for scope boundaries, provenance.jsonl SHA annotation for cross-agent source-sink tracking; gaps: no native session-level provenance tracking, no cross-agent value annotation across codex queue; 5 citations; ~1,350 words
+
+---
+
 ## HEART Tool Primitives — Agent-Native Tool Interfaces, ToolFace, MCP Tool Design (2026-09-07 Hourly Article Run)
 
 1. ✅ **HEART: Why Natural Language Tool Interfaces Outperform Raw API Schemas — and What It Means for Codex CLI MCP Design** — Written 2026-09-07 → `2026-09-07-heart-tool-primitives-toolface-natural-language-interfaces-codex-cli-mcp-tool-design.md`
