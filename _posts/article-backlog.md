@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## Harness Engineering, Seven Subsystems, Codex CLI Architecture (2026-09-07 Hourly Article Run)
+
+1. ✅ **Harness Engineering: Anatomy, Architecture, and the Seven Subsystems Underpinning Codex CLI** — Written 2026-09-07 → `2026-09-07-harness-engineering-anatomy-architecture-codex-cli-eleven-systems.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Barbaste, Darrigol, Vu & Wiltberger (arXiv:2609.00006, July 15, 2026) "Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents — A Source-Code Study of Eleven Systems"; 83 pages, 7 figures, 18 tables, ~4M lines Python/TypeScript/Rust; 11 harnesses: Claude Code, Codex CLI, Gemini CLI, Mistral Vibe, OpenHands, Aider, Mini-SWE-Agent, Hermes, Pi, OpenCode, OpenClaw + Omnigent meta-harness contrast; seven canonical subsystems: Agent Loop, LLM Integration, Tools & Actions, Memory & Context, Safety & Permissions, Orchestration, Extensibility; twin absences: no framework imports (LangChain/AutoGen/LangGraph), no vector embeddings — hand-rolled async loops + deterministic retrieval (ripgrep, tree-sitter, glob); Codex CLI: Rust ~1.1M lines, Tokio async state machine, 25–30 tools V8-interpreted, four-layer safety (Starlark + lifecycle hooks + Guardian LLM reviewer + native OS sandbox), agent-maintained cross-session memory pipeline, thread tree multi-agent (AgentControl, AgentRegistry, SpawnAgentForkMode); SKILL.md 9/11, MCP 8/11, ACP 6/11 (third role: harness hosting); longitudinal 90-day: Codex adopted Claude Code hook vocabulary verbatim, policy migrated prose→config, harness mimicry pattern; loop sophistication ≠ benchmark performance; Omnigent (Databricks, June 2026) meta-harness; 29 design patterns, 90-line MVP scaffold; 5 citations; ~1,400 words
+
+---
+
 ## Late-Arriving Requirements, Rework Tax, Coding-Agent Sessions (2026-09-07 Hourly Article Run)
 
 1. ✅ **The 2× Rework Tax: Late-Arriving Requirements and Code Invalidation in Coding-Agent Sessions** — Written 2026-09-07 → `2026-09-07-late-requirements-rework-tax-coding-agent-sessions-codex-cli.md`
