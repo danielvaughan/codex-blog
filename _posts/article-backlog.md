@@ -1,6 +1,13 @@
 # Article Backlog
 
 
+## CROCODIL — Cross-Model Code Editing, Edit Tax, Multi-Model Workflows (2026-09-07 Hourly Article Run)
+
+1. ✅ **CROCODIL: The 14% Cross-Model Edit Tax and What It Means for Codex CLI Multi-Model Workflows** — Written 2026-09-07 → `2026-09-07-crocodil-cross-model-code-editing-excessive-edits-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — CROCODIL (arXiv:2609.03894, EMNLP 2026 Findings, September 3, 2026) "Cross-Model Code Editing with LLMs"; core finding: 14 of 16 model pairings show foreign-code editors make more edits (up to 14% more by normalised edit distance), 7 pairs statistically significant (Mann-Whitney U, p<0.05); corpus: 4,514 Rust PRs, 356 repos, 1,881 tasks across Qwen3.5 35B A3B, GPT-OSS 20B, Olmo3 7B, Olmo3.1 32B, Haiku 4.5; build success 28-45% independent of edit volume; prompt engineering fails to close gap; CROCODIL reward R_CROCODIL = R_sim × R_exec (R_sim = 1/(1+α·D_m/D_h), α=0.33; R_exec = 0.2·build + 0.4·pre + 0.4·post); GRPO + LoRA (rank 32, alpha 64) on Olmo3 7B; normalised edit distance 0.54→0.20 on Qwen implementations (62.9% reduction); pass rates 16.92%→19.07% (Qwen), 20%→25.33% (Olmo3.1); companion paper arXiv:2607.21656 cross-model review: Claude reviewing Codex code +18.1pp, Codex reviewing Claude code −8.6pp (harmful); Codex CLI mapping: PostToolUse hook edit-size gate (exit 2), AGENTS.md canonical style examples, codex queue model-aware routing (Sol implements, Astra reviews), mid-session /model switch edit inflation, asymmetric routing principle (stronger model reviews weaker model output); limitation: Rust-only, function-scoped, 5 open-weight models only; 5 citations; ~1,400 words prose
+
+---
+
 ## Runtime-Independent Persistent Agents — Identity, Memory, and Code Continuity Across Model Upgrades (2026-09-07 Hourly Article Run)
 
 1. ✅ **Runtime-Independent Persistent Agents: What the Enoch Architecture Means for Codex CLI Model Upgrades** — Written 2026-09-07 → `2026-09-07-runtime-independent-persistent-agents-identity-memory-codex-cli.md`
