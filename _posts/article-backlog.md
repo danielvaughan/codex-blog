@@ -1,5 +1,12 @@
 # Article Backlog
 
+## HEART Tool Primitives — Agent-Native Tool Interfaces, ToolFace, MCP Tool Design (2026-09-07 Hourly Article Run)
+
+1. ✅ **HEART: Why Natural Language Tool Interfaces Outperform Raw API Schemas — and What It Means for Codex CLI MCP Design** — Written 2026-09-07 → `2026-09-07-heart-tool-primitives-toolface-natural-language-interfaces-codex-cli-mcp-tool-design.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Jin, Wang, Yu, Luo & Wang (arXiv:2609.01736, September 1, 2026) "Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives"; two core failure modes: schema brittleness in nested API sequences (28% baseline) and large-catalogue degradation (7–85% accuracy drop from 8K→120K tokens); Tool Primitives formal definition 𝒫ᵢ(x;c)=ℳ([sᵢ;c;x]) — NL interface wrapping schema, enabling inter-tool communication without schema knowledge in calling context; ToolFace repository of 25,519 schema-function pairs (16,464 live APIs + coding/math/domain tools); HEART Planner/Router/Verifier orchestration; Verifier four criteria: task completion, argument consistency, execution validity, constraint satisfaction; re-plan budget B=3 (47.6%→75.1% ToolBench Pass, saturates at B=5 75.3%); ablation: removing Tool Primitives 75.1%→16.1% (largest single degradation); real-world 50-task eval: HEART 84% vs GPT-5.4 20% / Claude-4.6 24% / Gemini-3.1 22% (3.8× better); τ²-Bench: retail 0.73 (+36% vs Claude), airline 0.63 (+24%), telecom 0.50 (+52%); cost: $0.0157 vs $0.1164 GPT-5.4 (7.4× reduction, 85% savings); prompt injection ASR: HEART 0.0% vs GPT-5.4 82.2% / Claude 74.4% (schemas never in orchestrator prompt); Codex CLI mapping: AGENTS.md NL tool guidance sections, per-tool output_token_limit (v0.152.0 config.toml), PostToolUse hooks as Verifier analogue (exit code 2), plugin marketplace CLI (v0.153.0) as session-granularity ToolFace, plan mode as Planner analogue; 5 citations; ~1,350 words prose
+
+---
+
 ## MCP Error Actionability Gap (2026-09-07 Hourly Article Run)
 
 1. ✅ **MCP Error Actionability: Why isError:true Is Not Enough and How Codex CLI Closes the Gap** — Written 2026-09-07 → `2026-09-07-mcp-error-actionability-gap-codex-cli-recovery-hooks.md`
