@@ -1,5 +1,12 @@
 # Article Backlog
 
+## ACID for AI Agents — Semantic Transactions, Agentic Reliability, Codex CLI (2026-09-08 Hourly Article Run)
+
+1. ✅ **ACID for AI Agents: Applying Transactional Guarantees to Codex CLI Workflows** — Written 2026-09-08 → `2026-09-08-acid-agent-semantic-transactions-agentic-reliability-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Sun, Wang & Li (Tsinghua University, arXiv:2608.13900, August 14, 2026) "Agentic Transaction: Towards ACID-Compliant Agent Systems"; four Semantic ACID properties (Atomicity: dependency-aware exploration-execution-validation cycles with commit-or-retry; Consistency: confidence-divergence validation via lightweight Qwen 0.6B scorer; Isolation: independent/collaborative/competitive sub-agent strategies + versioned workspaces; Durability: append-only acid_trace.jsonl/acid_trace_summary.json/result.json); KramaBench: 104 tasks, 1,700 files, 24 sources, 6 domains; ACID-Agent (Qwen3.5-397B) 74.6% vs Claude Code 64.0% (+10.6pp); lower task-level variance; 22.8 code steps vs 9.4 baseline (2.4× cost); companion Mnemosyne (arXiv:2607.00269, Chang & Geng): Agentic Transaction Processing, 4 formal safety properties (authority separation, serial-equivalent generative admission, evidence-preserving repair, obligation containment), 5.2–6.6% throughput overhead, zero invalid commits in 80-proposal pilot across 4 LLMs; companion MemTxn (arXiv:2607.27834): Ordered PatchTest + Temporal Resolver + Durable Snapshot Journal, 100% precision/recall on 60 originals + 179 hard negatives, +17.06–24.07 F1 on MemoryAgentBench FactConsolidation; Codex CLI mapping: PostToolUse hook exit 2 as commit gate, git worktrees as semantic isolation, git log + ~/.codex/memories/ as durability, AGENTS.md as active contract record; 4 citations; ~1,350 words
+
+---
+
 ## Endogenous Authorization Laundering — Persistent Memory Security, Codex CLI (2026-09-08 Hourly Article Run)
 
 1. ✅ **Endogenous Authorization Laundering: How Codex CLI's Persistent Memory Becomes a Hidden Authority Surface** — Written 2026-09-08 → `2026-09-08-endogenous-authorization-laundering-persistent-memory-codex-cli.md`
