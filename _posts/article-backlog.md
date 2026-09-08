@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Rollout Token Budgets and Multi-Agent Delegation — Cross-Thread Cost Governance, Codex CLI (2026-09-09 Hourly Article Run)
+
+1. ✅ **Rollout Token Budgets and Multi-Agent Delegation: Cross-Thread Cost Governance in Codex CLI** — Written 2026-09-09 → `2026-09-09-rollout-token-budget-multi-agent-delegation-cross-thread-cost-governance-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — PRs #28746 (config structure), #28494 (accounting & reminders), #28707 (turn abort on exhaustion), #29423 (threshold-based reminders, merged June 22 2026), #28685 (per-turn multi-agent mode), #29324 (simplified multi-agent mode controls, merged June 22 2026) and issue #30246 (20-50x token explosion bug); `[features.rollout_budget]` config keys: `enabled`, `limit_tokens`, `reminder_at_remaining_tokens` (array, replaces legacy `reminder_interval_tokens`), `sampling_token_weight` (default 1.0), `prefill_token_weight` (default 0.1); shared ledger soft-boundary abort via `CodexErr::TurnAborted`; three `multiAgentMode` values: `none`/`explicitRequestOnly`(default)/`proactive`; feature gate `features.multi_agent_mode = true`; sub-agents draw from same shared ledger; interaction with `output_token_limit` (v0.152.x); compaction charges and re-stated reminder post-compaction; observability gap (no queryable ledger balance); 8 citations; ~1,380 words
+
+---
+
 ## Agentic Coding in the Wild — Production-Scale KV Cache, Workload Characterisation, Codex CLI (2026-09-08 Hourly Article Run)
 
 1. ✅ **Agentic Coding in the Wild: What 95 Trillion Tokens Reveal About Codex CLI Workloads** — Written 2026-09-08 → `2026-09-08-agentic-coding-in-the-wild-production-scale-kv-cache-workload-codex-cli.md`
