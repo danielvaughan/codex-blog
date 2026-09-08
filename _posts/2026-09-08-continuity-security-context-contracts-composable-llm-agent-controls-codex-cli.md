@@ -1,7 +1,7 @@
 ---
 title: "CONTINUITY: Why Composing Individually Sound Security Controls Still Fails — and What It Means for Codex CLI Harness Design"
 parent: "Articles"
-nav_order: 1143
+nav_order: 1144
 tags: ["security", "hooks", "AGENTS.md", "approval-policy", "composition", "arXiv", "harness-engineering"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "HarnessDev: Can LLMs Build Their Own Scaffolding — and What the Results Say About Codex CLI Design"
 parent: "Articles"
-nav_order: 1144
+nav_order: 1145
 tags: ["harness-engineering", "benchmarks", "agent-evaluation", "codex-cli", "evolution", "tool-use", "executor-dependence"]
 ---
 

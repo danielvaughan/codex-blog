@@ -1,6 +1,6 @@
 ---
 date: 2026-09-07T09:00:00+00:00
-last_modified_at: 2026-09-08T04:14:47+01:00
+last_modified_at: 2026-09-08T07:08:12+01:00
 title: "Harness Engineering: Anatomy, Architecture, and the Seven Subsystems Underpinning Codex CLI"
 parent: "Articles"
 nav_order: 1138

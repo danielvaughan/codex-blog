@@ -1,7 +1,7 @@
 ---
 title: "The Illusion of Independent Quorums: Epistemic Fault Domains and What They Mean for Codex CLI Multi-Agent Safety"
 parent: "Articles"
-nav_order: 1145
+nav_order: 1146
 tags: ["multi-agent", "safety", "Guardian", "quorum", "epistemic-fault-domains", "codex-queue", "approve-for-me", "architecture"]
 ---
 
