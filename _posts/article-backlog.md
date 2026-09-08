@@ -1,5 +1,11 @@
 # Article Backlog
 
+## HarnessDev — LLM Agent Harness Creation and Evolution Benchmark (2026-09-08 Hourly Article Run)
+
+1. ✅ **HarnessDev: Can LLMs Build Their Own Scaffolding — and What the Results Say About Codex CLI Design** — Written 2026-09-08 → `2026-09-08-harnessdev-llm-agent-harness-creation-evolution-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Wu, Zhang, Shi, Lei et al. (19 authors, arXiv:2609.01437, September 8, 2026) "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?"; two-stage benchmark: Creation (3 harnesses × 6 creator LLMs from weak seed) and Evolution (10 iterative refinement rounds); 6 creator LLMs: Opus 4.8, GPT-5.5, Gemini 3.1 Pro, DeepSeek V4 Pro, Qwen 3.7 Max, Seed 2.0 Pro; 4 domains / 5 benchmarks: SWE-Pro (human 80.0%), Terminal-Bench 2.1 (88.8%), EQ-Bench3 (83.7), MLE-bench (24.0 medal rate), BrowseComp (92.2%); 2,207 unique downstream instances; dev environment: Claude Code 2.1.177 (GPT-5.5 used Codex CLI 0.144.3); Creation self-eval: Opus 67.8 / Gemini 55.6 / GPT-5.5 55.1 / DeepSeek 45.2 / Qwen 44.0 / Seed 22.8 vs human 86.2; writing/ML bright spots: Opus EQ-Bench3 84.6 > human 83.7, MLE-bench 32.9 > human 24.0; code/research gap: Opus BrowseComp 52.4% vs human 92.2%; unified eval (fixed Gemini executor): Opus SWE-Pro 69.3%→33.0% (−36.3pp); Qwen BrowseComp 32.3%→49.9% (self-optimisation inversion); 17,111 net lines per code harness, only 1/18 implemented periodic checkpointing; Evolution visible gains: Qwen +13.9, DeepSeek +13.4, GPT-5.5 +5.9, Opus +3.0; held-out Gemini runtime: Qwen −1.11, DeepSeek −2.38, GPT-5.5 −10.32; 64 version switches: 58 hit execution/control flow, 4 state mechanisms, only 2/9 final versions matched held-out best; companion: HarnessX (arXiv:2606.14249) +14.5% avg / +44.0% max via composable primitives; DemoEvolve (arXiv:2605.24539) sparse-feedback stability via demonstrations; Codex CLI mapping: model-aware AGENTS.md profiles (profile isolation per executor), controlled AGENTS.md versioning (regression discipline), tui.auto_recap for checkpointing (v0.153.0), objective AGENTS.md acceptance criteria (prohibit self-assessment); 6 citations; ~1,489 words
+
+---
 
 ## CROCODIL — Cross-Model Code Editing, Edit Tax, Multi-Model Workflows (2026-09-07 Hourly Article Run)
 
