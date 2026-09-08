@@ -195,7 +195,7 @@ Teams running mixed-model pipelines at scale should treat cross-model edit infla
 
 ## Citations
 
-[^1]: Unspecified Authors (2026). *CROCODIL: Cross-Model Code Editing with LLMs*. Accepted at EMNLP 2026 Findings. arXiv:2609.03894. <https://arxiv.org/abs/2609.03894>
+[^1]: Zhong, L., Thimmaiah, A., Srinivasa, J., Gligoric, M., & Li, J. J. (2026). *CROCODIL: Cross-Model Code Editing with LLMs*. Accepted at EMNLP 2026 Findings. arXiv:2609.03894. <https://arxiv.org/abs/2609.03894>
 
 [^2]: Unspecified Authors (2026). *Cross-Model LLM Code Review: Should you use Claude to review Codex or vice versa?* arXiv:2607.21656. <https://arxiv.org/html/2607.21656v1>
 

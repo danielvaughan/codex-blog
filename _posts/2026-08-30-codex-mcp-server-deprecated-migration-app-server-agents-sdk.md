@@ -1,7 +1,7 @@
 ---
 title: "codex mcp-server Is Deprecated: Migrate to the App Server Before It Disappears"
 date: 2026-08-30T09:00:00+00:00
-last_modified_at: 2026-09-08T02:13:21+01:00
+last_modified_at: 2026-09-08T03:12:46+01:00
 tags: ["codex-cli", "mcp-server", "app-server", "agents-sdk", "deprecation", "migration", "json-rpc"]
 ---
 

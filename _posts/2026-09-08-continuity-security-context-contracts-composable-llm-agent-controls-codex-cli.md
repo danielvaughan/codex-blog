@@ -84,7 +84,7 @@ The paper proves four theorems that bound what compositions can and cannot guara
 
 ## Experimental Results
 
-The reference implementation[^2] was evaluated against 2,560 parameterised attack instances spanning 32 fault classes across four domains (workspace email, finance, DevOps, and delegation) at 20 instances per class.[^1]
+The reference implementation[^2] was evaluated against 2,560 parameterised attack instances spanning 128 fault-domain classes (32 fault classes across four application domains — workspace email, finance, DevOps, and delegation — at 20 instances per fault-domain class).[^1]
 
 | Configuration | Attack Success Rate |
 |---|---|
