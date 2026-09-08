@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Agentic Coding in the Wild — Production-Scale KV Cache, Workload Characterisation, Codex CLI (2026-09-08 Hourly Article Run)
+
+1. ✅ **Agentic Coding in the Wild: What 95 Trillion Tokens Reveal About Codex CLI Workloads** — Written 2026-09-08 → `2026-09-08-agentic-coding-in-the-wild-production-scale-kv-cache-workload-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Liu, Qiu, Goiri, Fonseca, Bianchini & Choukse (Microsoft Research, arXiv:2608.00101, July 30, 2026) "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale"; 13.5M sessions, 3.2M users, 760.5M LLM calls, 774.7M tool invocations, 95T prompt tokens, June 2026, 27+ models, 45+ tools; 87% agent-initiated LLM calls, 6.6 autonomous calls per user turn; KV cache three cliff edges: within-turn plateau 90-98%, turn-boundary −26pp (55%), model-switch −67pp (8%), post-compaction −66.1pp; compaction: 7.8% of sessions, 72.8% median token drop, 34.3% erase 90%+ cache, 22-34% turn overhead; tool execution: median 166ms, mean 16.7s, P99 79s, failed terminal commands 48× longer at P95, 93% of batches single-tool; six archetypes: deep-loop read 30.5%, LLM-only 20.2%, multi-cycle edit 19.0%, multi-cycle other 13.2%, deep-loop w/failures 9.1% (4× compute, 36 LLM calls/turn), deep-loop run 8.1%; five user archetypes: deep-loop 9.2% consuming 1.1M tokens/turn (50× chat-only); session duration skew 14.9×; user idle 80.1% of multi-turn wall-clock (median 25.2 min between turns); companion Sutradhara (arXiv:2601.12967): tool-LLM overlap, orchestrator-aware cache management, 15% median FTR reduction; Codex CLI mapping: pin model to avoid cache wipe, experimental_mode + new_context proactive checkpoint, PostToolUse abort hook (exit 2), rollout_budget cap, output_token_limit per tool, session reconnect v0.153.0; 5 citations; ~1,400 words
+
+---
+
 ## Audit-First Rollback Semantics — Deployment Pipeline Safety, Codex CLI (2026-09-08 Hourly Article Run)
 
 1. ✅ **Audit-First Rollback Semantics: What Deployment Pipeline Research Means for Codex CLI** — Written 2026-09-08 → `2026-09-08-audit-first-rollback-semantics-deployment-pipeline-codex-cli.md`

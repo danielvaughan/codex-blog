@@ -6,7 +6,7 @@ timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-data-engineering-dbt-airflow-pipeline-generation"
 tags: ["codex-cli", "data-engineering", "dbt", "airflow", "mcp", "pipeline-generation", "agent-skills"]
 date: 2026-04-20T09:00:00+00:00
-last_modified_at: 2026-09-08T18:09:47+01:00
+last_modified_at: 2026-09-08T22:07:26+01:00
 ---
 # Codex CLI for Data Engineering: dbt, Airflow, and Pipeline Generation
 

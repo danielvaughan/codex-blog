@@ -3,7 +3,7 @@ title: "Fresh Memory, Stale Plans: Why PlanFence Matters for Distributed Codex C
 parent: "Articles"
 nav_order: 1125
 date: 2026-09-04T09:00:00+00:00
-last_modified_at: 2026-09-08T18:09:47+01:00
+last_modified_at: 2026-09-08T22:07:26+01:00
 tags: ["codex-cli", "multi-agent", "distributed-memory", "consistency", "planfence", "subagents", "hooks"]
 ---
 
