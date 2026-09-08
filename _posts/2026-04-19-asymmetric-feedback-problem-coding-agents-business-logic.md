@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-asymmetric-feedback-problem-coding-agents-business-logic"
 tags: ["codex-cli", "enterprise", "business-logic", "verification", "hooks", "agent-failure-modes", "subagents"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-08T07:08:12+01:00
+last_modified_at: 2026-09-08T08:17:07+01:00
 ---
 # The Asymmetric Feedback Problem: Why Coding Agents Silently Fail at Business Logic
 

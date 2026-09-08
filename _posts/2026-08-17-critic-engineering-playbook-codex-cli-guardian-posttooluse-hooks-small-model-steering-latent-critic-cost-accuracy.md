@@ -1,7 +1,7 @@
 ---
 title: "The Critic Engineering Playbook: Building Steering and Detection Layers for Codex CLI"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-09-08T07:08:12+01:00
+last_modified_at: 2026-09-08T08:17:07+01:00
 tags: ["codex-cli", "guardian", "PostToolUse-hooks", "critic-models", "hallucination-detection", "cost-optimisation", "premium"]
 ---
 

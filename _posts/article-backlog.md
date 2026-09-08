@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Endogenous Authorization Laundering — Persistent Memory Security, Codex CLI (2026-09-08 Hourly Article Run)
+
+1. ✅ **Endogenous Authorization Laundering: How Codex CLI's Persistent Memory Becomes a Hidden Authority Surface** — Written 2026-09-08 → `2026-09-08-endogenous-authorization-laundering-persistent-memory-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Cerruti, Okamoto & Kaplan Erol (arXiv:2609.01836, September 1, 2026) "Agent Memory Is a Surface for Endogenous Authorization Laundering"; EAL formal definition F(M_T,a_q)=1{A(S_T,a_q)=0 ∧ A_M(M_T,a_q)=1}; EAL-Bench: 5 writers (Nemotron 3 Ultra, Kimi K2.6, GLM 5.2, Grok 4.3, Qwen-Plus) × 2 executors (GPT-OSS-120B, DeepSeek V4 Pro), 3 domains (procurement/cybersecurity/finance), 128–256 matched pairs per combination; false authority in up to 50.2% of unauthorised requests; executor propagation 98.6%; domain breakdown: Finance 51.0%, Procurement 28.9%, Cybersecurity 10.4%; source-authority gating: 25.3%→7.3% (-18pp); bounded event sourcing: 9.0% unauthorised but authorised use drops 93.3%→64.7%; companion AuthMem-Bench (arXiv:2608.01679, Zhan et al.): 48/49 configs show authority collapse, 50.3% unauthorised actions without metadata, 0.0% with authority labels, 7 consolidators × 7 LLMs; companion PPMF (arXiv:2607.29167, Xu et al.): up to 100% ASR vulnerable, 0 unauthorised high-risk with Provenance-Preserving Memory Firewall; Codex CLI memory architecture: two-phase pipeline (Phase 1 gpt-5.1-codex-mini extraction, Phase 2 Memory Writing Agent consolidation), ~/.codex/memories/ (memory_summary.md/MEMORY.md/raw_memories.md/rollout_summaries/skills), build_memory_tool_developer_instructions injection at session start (5,000 token cap), /m_update bypasses Phase 1; Codex CLI mapping: PostToolUse hook memory write gate (exit 2), AGENTS.md permission ledger (read-only canonical grants), bounded event sourcing via git-tracked permissions.log, write_enabled=false profile for untrusted sessions; 5 citations; ~1,380 words
+
+---
+
 ## Epistemic Fault Domains — Multi-Agent Quorum Safety, Guardian, codex queue (2026-09-08 Hourly Article Run)
 
 1. ✅ **The Illusion of Independent Quorums: Epistemic Fault Domains and What They Mean for Codex CLI Multi-Agent Safety** — Written 2026-09-08 → `2026-09-08-epistemic-fault-domains-quorum-failure-multi-agent-codex-cli.md`
