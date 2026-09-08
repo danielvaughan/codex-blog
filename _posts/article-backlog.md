@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Audit-First Rollback Semantics — Deployment Pipeline Safety, Codex CLI (2026-09-08 Hourly Article Run)
+
+1. ✅ **Audit-First Rollback Semantics: What Deployment Pipeline Research Means for Codex CLI** — Written 2026-09-08 → `2026-09-08-audit-first-rollback-semantics-deployment-pipeline-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Qin, Luan, Yang & Li (Harbin Institute of Technology / Soochow University, arXiv:2609.00406, July 2026) "Audit-First Rollback Semantics for Safety-Critical Deployment Pipelines"; config triple (v, L, A): pipeline state / live-state value / append-only audit chain; Σ = Σ_progress ⊎ Σ_rollback ⊎ Σ_failure; three propositions: Termination, Coherence at terminals, Crash-safety inside guard; rollback closure constructed before live-state mutation; 1,200 fault-injection trials (50 × 2 postures × 12 injection points); three failure classes: A (metric-side), B (rollback-closure raises), C (audit-write fails); audit-first 600/600 coherence (100%) vs fail-open 200/600 (33%); p95 latency 335 ms, 12/12 cells meet 500 ms SLO; companion Burak et al. arXiv:2605.07062 (AIware 2026) data-plane vs control-plane authority; Codex CLI mapping: PreToolUse as rollback-closure constructor (git stash create), PostToolUse as audit-write gate (append-only audit.log, exit 2 on FAILED), git object store as WAL-mode audit chain, AGENTS.md as rollback policy table; 5 citations; ~1,400 words
+
+---
+
 ## Fault Localisation vs Fresh Attempt -- Placebo-Controlled Code Repair, Codex CLI (2026-09-08 Hourly Article Run)
 
 1. ✅ **Fresh Beats Focused: The Placebo-Controlled Study That Should Reshape How Codex CLI Agents Retry Code Repair** -- Written 2026-09-08 -> `2026-09-08-fault-localization-vs-fresh-attempt-placebo-controlled-code-repair-codex-cli.md`

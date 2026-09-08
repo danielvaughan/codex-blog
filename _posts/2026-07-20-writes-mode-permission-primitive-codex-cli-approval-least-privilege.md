@@ -1,7 +1,7 @@
 ---
 title: "The Writes Mode Permission Primitive: How Codex CLI Finally Solved the Read-Write Approval Gap"
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-09-08T14:11:02+01:00
+last_modified_at: 2026-09-08T18:09:47+01:00
 tags: ["codex-cli", "security", "approval-modes", "permissions", "enterprise", "MCP", "least-privilege"]
 ---
 

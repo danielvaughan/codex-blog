@@ -1,7 +1,7 @@
 ---
 title: "Non-Atomic Tool Failures: Verified Tool Calls, Idempotency Keys, and the 52pp Duplicate-Reduction Pattern for Codex CLI Agents"
 date: 2026-09-05T09:00:00+00:00
-last_modified_at: 2026-09-08T14:11:02+01:00
+last_modified_at: 2026-09-08T18:09:47+01:00
 parent: "Articles"
 nav_order: 1133
 tags: ["reliability", "mcp", "tool-calls", "hooks", "idempotency", "codex-cli", "architecture", "production"]
