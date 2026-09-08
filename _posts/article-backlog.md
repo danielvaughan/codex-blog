@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Epistemic Fault Domains — Multi-Agent Quorum Safety, Guardian, codex queue (2026-09-08 Hourly Article Run)
+
+1. ✅ **The Illusion of Independent Quorums: Epistemic Fault Domains and What They Mean for Codex CLI Multi-Agent Safety** — Written 2026-09-08 → `2026-09-08-epistemic-fault-domains-quorum-failure-multi-agent-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — He & Yu (arXiv:2609.02925, August 24, 2026) "The Illusion of Independent Quorums: Epistemic Fault Domains and Correlated Cognitive Failures in Agentic Quorums"; κ_E Structural Epistemic Cut metric: minimum modelled fault roots to compromise a decisive coalition; 120-task benchmark (5 domains: infra deletion, security policy mutation, deployment rollback, IAM, doc compliance); 80 unsafe + 40 safe tasks; Q1-Q4 protocols at 2-of-3 majority; Q1 (same model, shared evidence) 97.3% unsafe commit rate vs Q4 (diverse models, separated evidence) 0.1%; model diversity alone reduces failure by only 0.5pp; evidence-path separation reduces failure 14.5× alone or 670× with model diversity under unanimity; Theorem 2 (cardinality insufficiency): arbitrarily large quorums retain κ_E=1 when exposures overlap; Corollary 1 (fixed-threshold monotonicity): adding voters cannot repair structural deficits; DAQC architecture: prospective selection + commit-time admission gate; companion paper arXiv:2607.16109 EBFT; Codex CLI mapping: Guardian history persistence (v0.153.0, PRs #41879 #42065) increases shared context risk, --approve-for-me (v0.147.0) as κ_E=1 quorum, codex queue shared MCP backends, agent profiles + distinct MCP servers for evidence-path separation, PostToolUse hook as DAQC admit gate (exit 2), worktrees as EFD boundaries; 5 citations; ~1,515 words
+
+---
+
 ## HarnessDev — LLM Agent Harness Creation and Evolution Benchmark (2026-09-08 Hourly Article Run)
 
 1. ✅ **HarnessDev: Can LLMs Build Their Own Scaffolding — and What the Results Say About Codex CLI Design** — Written 2026-09-08 → `2026-09-08-harnessdev-llm-agent-harness-creation-evolution-codex-cli.md`
