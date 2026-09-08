@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Fault Localisation vs Fresh Attempt -- Placebo-Controlled Code Repair, Codex CLI (2026-09-08 Hourly Article Run)
+
+1. ✅ **Fresh Beats Focused: The Placebo-Controlled Study That Should Reshape How Codex CLI Agents Retry Code Repair** -- Written 2026-09-08 -> `2026-09-08-fault-localization-vs-fresh-attempt-placebo-controlled-code-repair-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis.
+
+---
+
+
 ## ACID for AI Agents — Semantic Transactions, Agentic Reliability, Codex CLI (2026-09-08 Hourly Article Run)
 
 1. ✅ **ACID for AI Agents: Applying Transactional Guarantees to Codex CLI Workflows** — Written 2026-09-08 → `2026-09-08-acid-agent-semantic-transactions-agentic-reliability-codex-cli.md`
