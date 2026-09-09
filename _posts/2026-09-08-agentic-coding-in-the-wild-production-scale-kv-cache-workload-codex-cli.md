@@ -8,7 +8,7 @@ tags: ["codex-cli", "production", "kv-cache", "context-compaction", "tool-execut
 # Agentic Coding in the Wild: What 95 Trillion Tokens Reveal About Codex CLI Workloads
 
 
-Production telemetry is rare in AI engineering. Benchmarks proliferate; real-world characterisation does not. That changed in August 2026 when Microsoft Research published a study analysing 13.5 million GitHub Copilot sessions from a single week in June 2026 — 760.5 million LLM calls, 774.7 million tool invocations, and 95 trillion prompt tokens.[^1] The dataset covers 27+ models and 45+ tools. The findings challenge several assumptions baked into default Codex CLI configurations and expose three specific configuration risks that warrant immediate attention: context compaction cache wipeout, reactive model switching, and failure-driven compute amplification.
+Production telemetry is rare in AI engineering. Benchmarks proliferate; real-world characterisation does not. That changed in August 2026 when Microsoft Research published a study analysing 13.5 million GitHub Copilot sessions from a single week in June 2026 — 760.5 million LLM calls, 774.7 million tool invocations, and 95 trillion tokens.[^1] The dataset covers 27+ models and 45+ tools. The findings challenge several assumptions baked into default Codex CLI configurations and expose three specific configuration risks that warrant immediate attention: context compaction cache wipeout, reactive model switching, and failure-driven compute amplification.
 
 ## The Workload Is Not a Chatbot Workload
 

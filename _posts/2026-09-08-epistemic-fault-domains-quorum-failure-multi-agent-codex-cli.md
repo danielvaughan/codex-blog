@@ -50,7 +50,7 @@ The authors ran their 120-task benchmark (covering infrastructure deletion, secu
 | Q1 | same model × 3 | shared E1 | 1 | 97.3% |
 | Q2 | diverse models × 3 | shared E1 | 1 | 96.8% |
 | Q3 | same model × 3 | separated E1/E2/E3 | 2 | 6.7% |
-| Q4 | diverse models × 3 | separated E1/E2/E3 | 2 | 0.1% |
+| Q4 | diverse models × 3 | separated E1/E2/E3 | 2 | 6.7% |
 
 The striking finding: Q1 → Q2 (adding model diversity, keeping shared evidence) reduces unsafe commit rate by only **0.5 percentage points**. Model diversity alone is nearly worthless. Evidence-path separation alone (Q3) reduces failure **14.5×**; both together (Q4) achieves **670×** reduction under unanimity.[^1] Using GPT-6-Astra for one reviewer and Codex Sol for another provides negligible safety unless they also draw on independent evidence sources.
 

@@ -12,7 +12,7 @@ tags: ["harness-engineering", "benchmarks", "agent-evaluation", "codex-cli", "ev
 
 Every coding agent is a product of two things: model weights and the harness — the loop, tools, memory, and control flow that wrap them. Changing the harness while holding weights fixed can shift benchmark performance by 30 points or more.[^1] What has remained unanswered is the inverse: can the model itself author a harness that is good enough to matter?
 
-That is the question posed by **HarnessDev** (arXiv:2609.01437), submitted to arXiv on 8 September 2026 by Wu, Zhang, Shi, Lei and 15 co-authors.[^2] The paper introduces a two-stage benchmark — *Creation* and *Evolution* — and evaluates six frontier models across four domains and 2,207 downstream task instances. Its findings are immediately actionable for anyone designing Codex CLI workflows, because Codex served as one of the two reference harnesses for the study's own development environment.[^3]
+That is the question posed by **HarnessDev** (arXiv:2609.01437), submitted to arXiv on 1 September 2026 by Wu, Zhang, Shi, Lei and 15 co-authors.[^2] The paper introduces a two-stage benchmark — *Creation* and *Evolution* — and evaluates six frontier models across four domains and 2,207 downstream task instances. Its findings are immediately actionable for anyone designing Codex CLI workflows, because Codex served as one of the two reference harnesses for the study's own development environment.[^3]
 
 ## Benchmark Architecture
 
