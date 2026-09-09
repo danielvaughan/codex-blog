@@ -1,7 +1,7 @@
 ---
 title: "Continuous Autonomous Refactoring: What the ICSME 2026 Roadmap Demands — and How Codex CLI Delivers It Today"
 date: 2026-09-03T08:00:00+00:00
-last_modified_at: 2026-09-09T03:17:04+01:00
+last_modified_at: 2026-09-09T04:10:44+01:00
 tags: ["codex-cli", "refactoring", "code-quality", "autonomous-agents", "goal-mode", "hooks", "research", "icsme-2026"]
 ---
 

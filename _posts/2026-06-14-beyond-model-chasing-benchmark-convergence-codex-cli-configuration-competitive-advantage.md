@@ -5,7 +5,7 @@ timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-beyond-model-chasing-benchmark-convergence-codex-cli-configuration-competitive-advantage"
 tags: ["codex-cli", "benchmarks", "configuration", "model-selection", "harness-engineering", "context-infrastructure", "profiles", "Terminal-Bench", "SWE-bench", "competitive-advantage"]
 date: 2026-06-14T09:00:00+00:00
-last_modified_at: 2026-09-09T03:17:04+01:00
+last_modified_at: 2026-09-09T04:10:44+01:00
 ---
 # Beyond Model Chasing: Why the June 2026 Benchmark Convergence Means Your Codex CLI Configuration Is the Real Competitive Advantage
 

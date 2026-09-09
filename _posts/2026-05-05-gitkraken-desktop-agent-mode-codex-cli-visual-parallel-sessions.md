@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-gitkraken-desktop-agent-mode-codex-cli-visual-parallel-sessions"
 tags: ["codex-cli", "gitkraken", "parallel-sessions", "worktrees", "agent-mode", "tooling", "developer-experience"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-09-09T03:17:04+01:00
+last_modified_at: 2026-09-09T04:10:44+01:00
 ---
 # GitKraken Desktop 12.0 Agent Mode: Visual Parallel Session Management for Codex CLI
 

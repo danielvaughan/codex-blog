@@ -7,6 +7,13 @@
 
 ---
 
+## Amortised Topology Design for Codex Multi-Agent Systems, Codex CLI (2026-09-09 Hourly Article Run)
+
+1. ✅ **Amortised Topology Design for Codex Multi-Agent Systems: What Codebook Agent Reveals** — Written 2026-09-09 → `2026-09-09-codebook-agent-amortised-topology-multi-agent-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Yu, Li, Jiang, Zhang, Liu, Zhao, Li, Chang & Wu (arXiv:2609.02264, September 2, 2026) "Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems"; VQ-autoencoder 16-entry codebook + reward-weighted MLP predictor + MLP proxy scorer; three empirical observations: (1) topology design space collapses to ~6 distinct patterns regardless of codebook capacity (8→64); (2) edge count anticorrelated with measured token consumption (Pearson r≈-0.4) — sparse graphs cost MORE tokens; (3) GNN message-passing scorers adjacency-invariant on homogeneous teams; 84.62% avg across 6 benchmarks (GSM8K 94.8%, MATH 56.5%, MultiArith 99.4%, SVAMP 95.4%, MBPP 83.5%, HumanEval 78.1%) vs 83.02% GTD prior best; 21.9–33.2% token reduction; 2.4ms topology generation; ablations: team size 2-10 stable, codebook capacity ≤1.5pp shift, MLP 927 vs GNN 1711 vs random 1249 tokens/query; Qwen-3-8B transfer 74.0 avg vs 72.7 GTD; companion E2-Explainer (arXiv:2608.12921) causal edge attribution; Codex CLI mapping: codex queue + multi_agent_v2 topology configuration, six canonical patterns (star/chain/hierarchical/full-mesh/ring/partial-mesh), PostToolUse hook for token measurement per topology, differentiated profiles per role (planner/implementer/reviewer) to avoid adjacency-invariant scoring, measured-cost objective over structural sparsity; 5 citations; ~1,350 words
+
+---
+
 ## Rollout Token Budgets and Multi-Agent Delegation — Cross-Thread Cost Governance, Codex CLI (2026-09-09 Hourly Article Run)
 
 1. ✅ **Rollout Token Budgets and Multi-Agent Delegation: Cross-Thread Cost Governance in Codex CLI** — Written 2026-09-09 → `2026-09-09-rollout-token-budget-multi-agent-delegation-cross-thread-cost-governance-codex-cli.md`

@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-goal-command-persisted-long-horizon-workflows-pause-resume-budget"
 tags: ["codex-cli", "goal-workflows", "long-horizon", "persistence", "token-budgets", "autonomous-agents"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-09T03:17:04+01:00
+last_modified_at: 2026-09-09T04:10:44+01:00
 ---
 # Codex CLI /goal: Persisted Long-Horizon Workflows with Pause, Resume, and Token Budgets
 

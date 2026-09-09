@@ -5,7 +5,7 @@ timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-anthropic-80-percent-ai-authored-code-threshold-codex-cli-review-workflows-verification-infrastructure"
 tags: ["codex-cli", "code-review", "anthropic", "ai-authored-code", "auto-review", "verification", "hooks", "review-model", "productivity"]
 date: 2026-06-07T09:00:00+00:00
-last_modified_at: 2026-09-09T03:17:04+01:00
+last_modified_at: 2026-09-09T04:10:44+01:00
 ---
 # The 80% Threshold: What Anthropic's AI-Builds-Itself Report Means for Your Codex CLI Review Workflows
 
