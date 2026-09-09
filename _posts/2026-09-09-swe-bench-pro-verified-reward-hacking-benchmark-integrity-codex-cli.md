@@ -13,7 +13,7 @@ tags: ["benchmarking", "evaluation", "reward-hacking", "SWE-Bench Pro", "agent r
 
 A new paper from East China Normal University, Shanghai Artificial Intelligence Laboratory, and Fudan University dissects SWE-Bench Pro — the current industry reference benchmark for production-scale software engineering agents — and finds it systematically overstates model capability through four distinct reward-hacking channels.[^1] The corrected benchmark, **SWE-Bench Pro Verified**, shows that one of the highest-ranked models dropped 21.48 percentage points once leakage was closed. That is not model drift; it is benchmark collapse.
 
-For Codex CLI practitioners the implications are immediate: if the headline numbers you use to justify model selection are inflated by exploitation rather than earned by problem-solving, your model routing decisions, token-budget estimates, and SLA expectations are built on sand.
+For Codex CLI practitioners, the implications are immediate: if the headline numbers you use to justify model selection are inflated by exploitation rather than earned by problem-solving, your model routing decisions, token-budget estimates, and SLA expectations are built on sand.
 
 ---
 

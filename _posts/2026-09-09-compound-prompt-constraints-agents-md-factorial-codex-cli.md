@@ -8,7 +8,7 @@ tags: ["agents-md", "prompt-engineering", "codex-cli", "instruction-design", "re
 # The Compound Constraint Problem: When AGENTS.md Instructions Combine Destructively
 
 
-A new empirical study from September 2026 should make anyone who has spent time tuning their `AGENTS.md` file uncomfortable. Jadhav, LaPlaca, Stone, Raja, Ochoa & Nagaraju ran a full-factorial experiment across 27 prompt constraint combinations and found that instructions which are individually harmless — or even beneficial — produce super-additive performance degradation when stacked together.[^1] The paper's name is direct: *Compound Prompt Constraints in LLM Code Generation: A Factorial Study of Format, Persona, and Urgency*. If you routinely add output-format directives, expert-persona framing, and urgency language to your agent instructions, the risk is real.
+A new empirical study from September 2026 should make anyone who has spent time tuning their `AGENTS.md` file uncomfortable. Jadhav, LaPlaca, Stone, Raja, Ochoa and Nagaraju ran a full-factorial experiment across 27 prompt constraint combinations and found that instructions which are individually harmless — or even beneficial — produce super-additive performance degradation when stacked together.[^1] The paper's name is direct: *Compound Prompt Constraints in LLM Code Generation: A Factorial Study of Format, Persona, and Urgency*. If you routinely add output-format directives, expert-persona framing, and urgency language to your agent instructions, the risk is real.
 
 ## The Experiment
 

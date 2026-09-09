@@ -25,7 +25,7 @@ The research field has attacked this via learned topology designers: conditional
 
 When you filter the topologies that actually solve tasks and cluster them, they collapse to roughly **six distinct patterns**, regardless of how many entries you give the codebook (the paper tests 8, 16, 32, and 64 capacity). The encoder uses at most six codes even at K=64.
 
-This means that prior methods spending compute to model the full N×N adjacency space are doing unnecessary work. For a four-agent team there are 2^12 = 4,096 possible directed graphs; in practice, the reward-filtering step reveals that only a handful are genuinely useful. Fixed hand-crafted topologies remain within 1.4 accuracy points of any generated topology.
+This means that prior methods spending compute to model the full N×N adjacency space are doing unnecessary work. For a four-agent team, there are 2^12 = 4,096 possible directed graphs; in practice, the reward-filtering step reveals that only a handful are genuinely useful. Fixed hand-crafted topologies remain within 1.4 accuracy points of any generated topology.
 
 For Codex CLI users: you almost certainly do not need a topology optimiser. You need a small catalogue of topology *patterns* matched to task type, and the discipline to pick the right one.
 
