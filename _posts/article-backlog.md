@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Compound Prompt Constraints, AGENTS.md Factorial Audit, Codex CLI (2026-09-09 Hourly Article Run)
+
+1. ✅ **The Compound Constraint Problem: When AGENTS.md Instructions Combine Destructively** — Written 2026-09-09 → `2026-09-09-compound-prompt-constraints-agents-md-factorial-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Jadhav, LaPlaca, Stone, Raja, Ochoa & Nagaraju (arXiv:2609.03156, September 2, 2026) "Compound Prompt Constraints in LLM Code Generation: A Factorial Study of Format, Persona, and Urgency"; 3×3×3 full-factorial design: format (none/JSON/XML) × persona (none/generic/expert) × urgency (none/moderate/extreme); 22,140 evaluations across 164 HumanEval+ problems and 5 OpenAI models (GPT-4o-mini, GPT-4o, GPT-4.1-mini, GPT-4.1, o3-mini); GPT-4o-mini worst case: −12.2 pp (JSON + expert + moderate urgency); GPT-4o-mini avg interaction −7.6 pp across all 8 triples; GPT-4.1 family: near-zero or positive interactions (resilient); o3-mini anomaly: +11 pp from any structured format (unconstrained baseline 59.8% → JSON 88.6%); JSON worse than XML (−10.7 pp vs −4.6 pp avg interaction on GPT-4o-mini); individual urgency alone +3.6 pp, XML alone +3.9 pp — combining creates destruction not visible in single-factor tests; Codex CLI mapping: AGENTS.md triple-constraint pattern (format + persona + urgency), model profile routing (o3/o4-mini benefit from format; GPT-4o-equivalent harmed by stacking), three-step factorial audit protocol, constraint separation across AGENTS.md/SKILL.md/user-prompt scopes, config.toml model selection guidance; companion: Bouzenia et al. arXiv:2601.20404 (developer-written AGENTS.md +4% success, −35-55% bugs; LLM-generated −20% success); Kapetanovic et al. arXiv:2608.30701 (instruction-count degradation); 5 citations; ~1,300 words
+
+---
+
 ## Rollout Token Budgets and Multi-Agent Delegation — Cross-Thread Cost Governance, Codex CLI (2026-09-09 Hourly Article Run)
 
 1. ✅ **Rollout Token Budgets and Multi-Agent Delegation: Cross-Thread Cost Governance in Codex CLI** — Written 2026-09-09 → `2026-09-09-rollout-token-budget-multi-agent-delegation-cross-thread-cost-governance-codex-cli.md`
