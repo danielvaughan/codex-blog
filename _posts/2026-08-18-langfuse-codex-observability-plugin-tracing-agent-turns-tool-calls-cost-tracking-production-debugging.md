@@ -1,7 +1,7 @@
 ---
 title: "The Langfuse Codex Observability Plugin: Tracing Agent Turns, Tool Calls, and Token Spend from Your Terminal to a Dashboard"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-09-09T04:10:44+01:00
+last_modified_at: 2026-09-09T06:09:36+01:00
 tags: ["codex-cli", "langfuse", "observability", "tracing", "opentelemetry", "plugin", "cost-tracking", "debugging"]
 ---
 

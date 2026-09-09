@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-day-two-operations-runbooks-drift-detection-platform-engineering"
 tags: ["codex-cli", "platform-engineering", "SRE", "day-2-operations", "runbooks", "drift-detection", "automation", "skills", "codex-exec"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-09T04:10:44+01:00
+last_modified_at: 2026-09-09T06:09:36+01:00
 ---
 # Codex CLI for Day-Two Operations: Runbooks, Drift Detection, and Platform Engineering Automation
 

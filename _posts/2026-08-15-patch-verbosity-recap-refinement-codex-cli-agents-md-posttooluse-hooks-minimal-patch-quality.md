@@ -1,7 +1,7 @@
 ---
 title: "Patch Verbosity and the RECAP Refinement Adapter: Why Your Codex CLI Patches Are Twice the Size of Human Ones — and What to Do About It"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-09-09T04:10:44+01:00
+last_modified_at: 2026-09-09T06:09:36+01:00
 tags: ["codex-cli", "patch-verbosity", "RECAP", "automatic-program-repair", "PostToolUse-hooks", "AGENTS.md", "patch-quality", "SWE-bench", "refinement"]
 ---
 

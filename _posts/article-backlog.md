@@ -1,5 +1,13 @@
 # Article Backlog
 
+## Tool Schema Safety, SafeKeep, Codex CLI (2026-09-09 Hourly Article Run)
+
+1. ✅ **Tool Schema Safety: How JSON Specifications Undermine Agent Refusals and What Codex CLI Can Do About It** — Written 2026-09-09 → `2026-09-09-tool-schema-safety-safekeep-agent-refusal-degradation-codex-cli.md`
+   - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Pan, Yang, Yuan, Jiang & Chen (arXiv:2607.29254, July 31, 2026) "Tool Specifications Matter: Uncovering and Mitigating Safety Risks in AI Agents"; SafeKeep two-phase pipeline: safety judgment with flattened NL tool specs, execution with original JSON schemas; AUROC degradation chatbot→agent: Llama3.1-8B 0.927→0.740, Qwen3-8B 0.901→0.786, Mistral-7B 0.921→0.815; average refusal rate 23.8% under schema tools; SafeKeep: 23.8%→70.6% refusal rate, 25.6%→2.5% attack success rate on InjecAgent; accuracy 60.9%→79.6% on benign tasks; outperforms SafeJudge, SafePrompt, SafeHarbor; no parameter updates required, works on black-box LLMs; Codex CLI mapping: NL tool summaries in AGENTS.md as SafeKeep Phase 1 priming, PreToolUse hook as deterministic policy gate, lean session profiles with writable_roots=[] to minimise schema accumulation, MCP 2026-07-28 protocol multi-server risk noted; limitations: multi-turn compaction not studied, o3/o4-mini not directly tested, activation-steering ceiling at alpha=8 (77.5% invalid outputs); 5 citations; ~1,208 words
+
+---
+
+
 ## Compound Prompt Constraints, AGENTS.md Factorial Audit, Codex CLI (2026-09-09 Hourly Article Run)
 
 1. ✅ **The Compound Constraint Problem: When AGENTS.md Instructions Combine Destructively** — Written 2026-09-09 → `2026-09-09-compound-prompt-constraints-agents-md-factorial-codex-cli.md`

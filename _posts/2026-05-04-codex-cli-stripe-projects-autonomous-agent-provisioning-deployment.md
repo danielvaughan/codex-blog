@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-stripe-projects-autonomous-agent-provisioning-deployment"
 tags: ["codex-cli", "stripe-projects", "cloudflare", "agent-provisioning", "deployment", "mcp", "autonomous-agents", "safety"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-09-09T04:10:44+01:00
+last_modified_at: 2026-09-09T06:09:36+01:00
 ---
 # Codex CLI and Stripe Projects: Autonomous Agent Provisioning from Code to Production
 

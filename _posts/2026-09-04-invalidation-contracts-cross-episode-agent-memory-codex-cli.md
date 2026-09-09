@@ -1,7 +1,7 @@
 ---
 title: "Invalidation Contracts for Cross-Episode Agent Memory: Why Row-Level Cache Eviction Recovers 32% of Your Token Budget"
 date: 2026-09-04T09:00:00+00:00
-last_modified_at: 2026-09-09T04:10:44+01:00
+last_modified_at: 2026-09-09T06:09:36+01:00
 tags: ["codex-cli", "memory", "mcp", "caching", "research", "hooks", "api-design"]
 ---
 
