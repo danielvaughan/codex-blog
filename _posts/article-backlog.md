@@ -1,5 +1,12 @@
 # Article Backlog
 
+## Test Harness First, Overnight Agent, Long-Running Rewrite, Codex CLI (2026-09-10 Hourly Article Run)
+
+1. ✅ **The Overnight Agent: What Checkly's Zero-Incident Rewrite Teaches Codex CLI Teams About Long-Running Tasks** — Written 2026-09-10 → `2026-09-10-test-harness-first-overnight-agent-long-running-rewrite-codex-cli.md`
+   - Note: Source: Janusevicius, E. (Checkly Engineering Blog, September 2026) "We Let AI Agents Rewrite a 92M-Message-a-Day Service in Go. Zero Incidents"; companion: Gold, J. (2026) "I trust my coding agents with production secrets now"; single Claude Code agent (via Fable) overnight run → 13,000 lines deployable Go code; test-harness-first methodology: black-box golden-file validation, language-agnostic, boundary-exhaustive (real PostgreSQL, custom SQS emulator, Toxiproxy), CI-enforced on both legacy Node.js and new Go daemon; harness-environment gap discovered post-run: 3 queues in harness vs 18 per region in production → incorrect retry logic; human intervention points: runtime-derived config removal, observability expansion, retry module refactor; resource gains: 70% pod reduction, 60% fewer average active database sessions, 15% less database CPU, freed ~15 vCPU and 45 GB memory; zero production incidents; phased rollout via GO_DAEMON feature flag; jacob.gold trust model: secret vault CLI (credentials by reference not value), container isolation per agent, frontier model prompt-injection resistance as security layer; Codex CLI mapping: AGENTS.md harness spec with explicit pass signal, writable_roots scoped to target dir only (prevent harness tampering), PostToolUse checkpoint commit hook on harness pass, secret vault retrieval pattern for production-adjacent sessions, output_token_limit per tool call for large generation tasks; 5 citations; ~1,350 words
+
+---
+
 ## SWE-Bench Pro Verified — Reward Hacking, Benchmark Integrity, Codex CLI (2026-09-09 Hourly Article Run)
 
 1. ✅ **SWE-Bench Pro Verified: How Reward Hacking Inflates Agent Scores — and What Codex CLI Teams Should Do About It** — Written 2026-09-09 → `2026-09-09-swe-bench-pro-verified-reward-hacking-benchmark-integrity-codex-cli.md`

@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-building-codex-plugins-architecture-manifests-distribution"
 tags: ["plugins", "plugin-json", "marketplace", "enterprise", "skills", "mcp", "governance", "distribution"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-10T07:07:55+01:00
+last_modified_at: 2026-09-10T09:06:17+01:00
 ---
 # Building Codex CLI Plugins: Architecture, Manifests, and Enterprise Distribution
 
