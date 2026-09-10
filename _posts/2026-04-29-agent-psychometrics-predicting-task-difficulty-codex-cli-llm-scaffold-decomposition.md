@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-agent-psychometrics-predicting-task-difficulty-codex-cli-llm-scaffold-decomposition"
 tags: ["codex-cli", "benchmarks", "research", "harness-engineering", "task-difficulty", "agent-performance", "item-response-theory"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-09T10:23:04+01:00
+last_modified_at: 2026-09-10T03:12:30+01:00
 ---
 # Agent Psychometrics: Predicting Which Tasks Your Codex CLI Agent Will Ace and Which It Will Botch
 

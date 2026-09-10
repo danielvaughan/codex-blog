@@ -59,7 +59,7 @@ SafeKeep outperformed SafeJudge (schema retained in judgment), SafePrompt (appen
 
 Codex CLI surfaces tool definitions to the model in several places: built-in tools injected by the runtime, MCP server schemas loaded on startup, and plugin marketplace tools (v0.153.0)[^3]. All exhibit the same risk.
 
-The v0.152.x upgrade to support the MCP 2026-07-28 protocol — paginated discovery, multi-round requests[^4] — is relevant here. Richer tool ecosystems mean more schema tokens in context per turn, compounding refusal suppression as the tool catalogue grows.
+The v0.147.0 upgrade to support the MCP 2026-07-28 protocol — paginated discovery, multi-round requests[^4] — is relevant here. Richer tool ecosystems mean more schema tokens in context per turn, compounding refusal suppression as the tool catalogue grows.
 
 ## A SafeKeep-Inspired Pattern for Codex CLI
 
@@ -166,6 +166,6 @@ The schema safety gap is not a Codex CLI bug — it is a model-level property th
 
 [^3]: OpenAI. (2026, September 2). *Codex CLI v0.153.0 release notes — Plugin CLI can manage remote marketplaces* (PR #42150). https://releasebot.io/updates/openai/codex
 
-[^4]: OpenAI. (2026). *Codex CLI changelog — opt-in MCP 2026-07-28 protocol support*. https://developers.openai.com/codex/changelog
+[^4]: OpenAI. (2026). *Codex CLI v0.147.0 — MCP 2026-07-28 protocol support: paginated tool discovery, multi-round requests, non-blocking server startup*. Codex Knowledge Base. https://codex.danielvaughan.com/2026/08/07/codex-cli-v0147-release-approve-for-me-mcp-2026-07-28-project-trust-plugin-search-secrets-redaction/
 
 [^5]: Agenticcontrolplane.com. (2026). *Codex CLI Hooks Reference — hooks.json, PreToolUse*. https://agenticcontrolplane.com/blog/codex-cli-hooks-reference
