@@ -1,7 +1,7 @@
 ---
 title: "SKILL.state: O(T) Agent Memory — What Structured Execution State Means for Codex CLI Long-Horizon Tasks"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "agent-architecture", "context-management", "compaction", "long-horizon", "memory", "hooks", "AGENTS.md"]
 ---
 
@@ -21,13 +21,13 @@ This article explains the architecture, examines the benchmark results in detail
 
 The standard agent loop — popularised by ReAct[^3] and implemented in almost every agent harness — works by concatenating the full history of `(thought, action, observation)` triples into the model's context:
 
-```
+```text
 C_t = [system_prompt, turn_0, turn_1, ..., turn_{t-1}, observation_t]
 ```
 
 At step *t*, prompt length is proportional to *t*. Summed over *T* steps, total token consumption is:
 
-```
+```text
 ∑_{t=1}^{T} t ∝ T²
 ```
 

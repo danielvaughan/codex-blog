@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-agents-sdk-mcp-server-multi-agent-orchestration"
 tags: ["codex-cli", "agents-sdk", "mcp", "multi-agent", "orchestration", "mcp-server"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI as an MCP Server: Multi-Agent Orchestration with the OpenAI Agents SDK
 
@@ -196,7 +196,7 @@ designer = Agent(
 
 A successful multi-agent run produces a clean artefact tree [^4]:
 
-```
+```text
 project/
 ├── AGENT_TASKS.md
 ├── REQUIREMENTS.md

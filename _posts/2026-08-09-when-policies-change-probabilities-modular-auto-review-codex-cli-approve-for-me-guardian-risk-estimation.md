@@ -1,7 +1,7 @@
 ---
 title: "When Policies Change Probabilities: What Modular Decision Theory Means for Your Codex CLI Auto-Review Configuration"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "auto-review", "guardian", "approve-for-me", "decision-theory", "modular-review", "risk-estimation", "security"]
 ---
 
@@ -18,7 +18,7 @@ A study published on 2 August 2026 by Kudum et al. demonstrates that when LLM co
 
 Classical Bayesian decision theory separates two concerns cleanly. First, estimate the probability of failure given evidence. Second, apply a cost-weighted threshold to decide whether to accept or reject [^1]. The rejection threshold is:
 
-```
+```text
 τ(C) = C_FR / (C_FA + C_FR)
 ```
 

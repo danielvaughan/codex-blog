@@ -5,7 +5,7 @@ timestamp: 2026-06-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-omnicode-benchmark-beyond-bug-fixing-codex-cli-test-generation-code-review-multilingual-agent-workflows"
 tags: ["codex-cli", "omnicode", "benchmark", "test-generation", "code-review", "multilingual", "agents-md", "subagents", "configuration"]
 date: 2026-06-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # OmniCode and the Beyond-Bug-Fixing Problem: Configuring Codex CLI for Test Generation, Code Review, and Multilingual Workflows
 
@@ -96,7 +96,7 @@ The following sections translate OmniCode's findings into actionable Codex CLI p
 
 OmniCode demonstrates that different task categories require different agent behaviours. Use the AGENTS.md directory hierarchy to scope instructions per task type [^3][^4]:
 
-```
+```text
 repo-root/
 ├── AGENTS.md                    # Global: architecture, build, test commands
 ├── src/
@@ -159,7 +159,7 @@ Prefer modern C++20/23 idioms. Check compilation with both GCC and Clang.
 
 For ad-hoc model switching during a session, use the `/model` command [^7]:
 
-```
+```text
 /model gpt-5.5
 ```
 
@@ -245,7 +245,7 @@ review_model = "gpt-5.5"
 
 The review instructions should specifically target the discriminability problem:
 
-```
+```text
 /review --instructions "For each test: (1) identify what incorrect behaviour it would
 catch, (2) flag any test that would pass regardless of implementation correctness,
 (3) check boundary conditions are covered"

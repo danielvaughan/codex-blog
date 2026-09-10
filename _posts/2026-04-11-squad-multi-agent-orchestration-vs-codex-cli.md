@@ -2,7 +2,7 @@
 title: "Squad vs Codex CLI: Multi-Agent Orchestration Compared and Replicated"
 description: "Brady Gaster's Squad provides multi-agent orchestration on top of GitHub Copilot — a team of specialised agents that live in your repository as plain-text."
 date: 2026-04-11T05:30:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - squad
   - multi-agent
@@ -30,7 +30,7 @@ This article compares each Squad feature side by side with how you achieve the s
 
 Squad scaffolds a `.squad/` directory into your repository containing agent charters, routing rules, shared decision logs, and persistent memory files[^1][^2]. When you describe a task, a coordinator routes it to specialist agents (frontend, backend, tester, scribe) that execute in **parallel** — each with its own context window, charter, and accumulated project history. Everything is committed to Git.
 
-```
+```text
 .squad/
   team.md              # Roster — who's on the team
   routing.md           # Who handles what
@@ -76,7 +76,7 @@ model_instructions_file = "./prompts/tester-instructions.md"
 
 **AGENTS.md layering as directory-scoped charters:**
 
-```
+```text
 repo/
   AGENTS.md                           # Global project conventions
   services/

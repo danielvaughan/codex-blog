@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-clojure-development-teams-clojuremcp-repl-driven-agent-workflows"
 tags: ["codex-cli", "clojure", "clojurescript", "mcp", "repl", "nrepl", "clojure-mcp", "clj-kondo", "clojure-lsp", "agents-md", "structural-editing"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Clojure Development Teams: ClojureMCP, REPL-Driven Agent Workflows, and Structural Editing
 
@@ -185,7 +185,7 @@ npx shadow-cljs watch app
 
 Both REPLs register `.nrepl-port` files. Codex CLI can then evaluate server-side code on one port and client-side ClojureScript on another by specifying the `:port` parameter in `clojure_eval`:
 
-```
+```text
 Evaluate (js/console.log "hello") on the shadow-cljs REPL at port 9000
 ```
 

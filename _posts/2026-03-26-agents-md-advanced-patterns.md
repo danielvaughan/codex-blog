@@ -2,7 +2,7 @@
 title: "AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks"
 description: "The basic three-tier hierarchy (~/.codex/AGENTS.md → repo root → subdirectory) is documented everywhere. This article covers what isn't: override files."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - configuration
   - agents-md
@@ -25,7 +25,7 @@ resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-26-a
 
 Codex builds its instruction chain on **every run** by walking the filesystem.[^1] The full resolution order is:
 
-```
+```text
 1. ~/.codex/AGENTS.override.md    ← highest precedence global override
    OR ~/.codex/AGENTS.md          ← standard global defaults
 
@@ -70,7 +70,7 @@ Delete the file when done. The base `~/.codex/AGENTS.md` is untouched.
 
 In a monorepo, `services/payments/` needs different test commands and stricter constraints than the root:
 
-```
+```text
 my-monorepo/
 ├── AGENTS.md                        ← company-wide defaults
 ├── services/
@@ -144,7 +144,7 @@ Raising the limit increases token usage. Prefer splitting instructions instead.[
 
 Rather than one giant repo-root `AGENTS.md`, distribute rules to the directories that need them:
 
-```
+```text
 project/
 ├── AGENTS.md                ← ~4 KiB: repo layout, global conventions, top-level commands
 ├── src/
@@ -230,12 +230,12 @@ project_doc_max_bytes = 65536                              # raise size limit (b
 project_doc_fallback_filenames = ["CONTRIBUTING.md"]       # additional filenames to check
 ```
 
-```
+```text
 Priority order at each directory level:
   AGENTS.override.md  >  AGENTS.md  >  fallback_filenames
 ```
 
-```
+```text
 Files concatenate root → cwd; cwd content wins conflicts.
 ~/.codex/AGENTS.override.md wins everything globally.
 ```

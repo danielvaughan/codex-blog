@@ -1,7 +1,7 @@
 ---
 title: "The Guardian False-Positive Crisis: When Codex CLI's Safety Classifier Blocks Legitimate Development — and How to Fight Back"
 date: 2026-07-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "guardian", "safety-classifier", "false-positive", "trusted-access", "cyber-safety", "v0.144", "regression", "defensive-security"]
 ---
 
@@ -186,7 +186,7 @@ and permission boundary testing. All operations target locally-owned resources.
 
 Use the `/feedback` command immediately after each false positive. OpenAI has stated that feedback volume directly influences classifier retuning priority:
 
-```
+```text
 /feedback This was a false positive. I was performing [specific task]
 on my own repository. No offensive activity was involved.
 ```

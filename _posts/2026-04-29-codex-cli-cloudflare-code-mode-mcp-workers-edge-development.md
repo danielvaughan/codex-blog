@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-cloudflare-code-mode-mcp-workers-edge-development"
 tags: ["codex-cli", "cloudflare", "mcp", "code-mode", "workers", "edge-computing", "dynamic-workers", "agents-week"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI and Cloudflare: Code Mode MCP, Dynamic Workers, and Edge Development Workflows
 
@@ -68,7 +68,7 @@ codex
 
 Inside the TUI, install the plugin:
 
-```
+```text
 /plugins
 # Search for and install "Cloudflare"
 ```
@@ -142,7 +142,7 @@ For most Codex CLI workflows, the Code Mode server alone suffices — it covers 
 
 ### Pattern 1: Scaffold and Deploy a Worker
 
-```
+```sql
 Create a Cloudflare Worker that receives webhooks from Stripe,
 validates the signature, stores the event in D1, and returns 200.
 Use wrangler.jsonc for config. Deploy to staging.
@@ -157,7 +157,7 @@ The Cloudflare Skills teach Codex when to use Wrangler CLI commands versus direc
 
 ### Pattern 2: Debug Production Issues with Observability MCP
 
-```
+```text
 My Worker "api-gateway" is returning 502s on /v2/users.
 Check the last hour of logs, identify the error pattern,
 and suggest a fix.
@@ -167,7 +167,7 @@ Adding the Observability MCP server lets Codex query logs directly rather than a
 
 ### Pattern 3: DNS and Zero Trust Automation
 
-```
+```text
 Audit all DNS records for staging.example.com.
 Remove any A records pointing to decommissioned IPs in 10.0.0.0/8.
 Add a CNAME for api.staging.example.com pointing to the new Worker.

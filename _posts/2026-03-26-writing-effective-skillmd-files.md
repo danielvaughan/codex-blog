@@ -2,7 +2,7 @@
 title: "Writing Effective SKILL.md Files for Codex CLI"
 description: "A skill is a directory of instructions, scripts, and resources that an agent can discover and load on demand."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - skills
@@ -29,7 +29,7 @@ The SKILL.md format originates from Anthropic but is now an open standard mainta
 
 ## Directory Structure
 
-```
+```text
 my-skill/
 ├── SKILL.md              ← Required: metadata + instructions
 ├── agents/
@@ -82,7 +82,7 @@ Step-by-step instructions for the agent follow here.
 - Must match the parent directory name exactly
 - No leading/trailing hyphens; no consecutive hyphens (`--`)
 
-```
+```text
 ✅ code-review
 ✅ pr-summarizer
 ❌ CodeReview      (uppercase)
@@ -193,7 +193,7 @@ Skills appear immediately after installation. Restart if Codex doesn't detect th
 
 Design your skill in three layers:
 
-```
+```text
 Layer 1: description (100 tokens) ← always in context
    ↓ agent decides to activate
 Layer 2: SKILL.md body (<5000 tokens recommended) ← loaded on activation
@@ -210,7 +210,7 @@ Layer 3: references/, scripts/, assets/ ← loaded on demand
 
 Example skill that uses all three layers:
 
-```
+```text
 pr-review/
 ├── SKILL.md             ← steps: "run scripts/check.py, then read references/rules.md"
 ├── agents/openai.yaml   ← invocation policy
@@ -230,7 +230,7 @@ pr-review/
 
 Commit skills to `.agents/skills/` in your repo so all Codex sessions pick them up automatically, no installation required.
 
-```
+```text
 .agents/skills/
 ├── pr-review/
 │   └── SKILL.md

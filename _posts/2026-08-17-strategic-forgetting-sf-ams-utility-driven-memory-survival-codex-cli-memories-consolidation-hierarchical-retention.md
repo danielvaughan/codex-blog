@@ -1,7 +1,7 @@
 ---
 title: "Strategic Forgetting and Utility-Driven Memory Survival: What SF-AMS Reveals About Codex CLI's Memory Consolidation Gap"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "memories", "strategic-forgetting", "sf-ams", "memory-consolidation", "hierarchical-retention", "utility-driven-survival", "memory-management"]
 ---
 
@@ -47,7 +47,7 @@ Raw conversational inputs are converted into structured signals enriched with sa
 
 The heart of SF-AMS is its **Composite Importance Score (CIS)**:
 
-```
+```text
 I(mᵢ) = Norm(α · S_LLM(mᵢ) + (1 − α) · Σₖ 𝟙ₖ(mᵢ) · wₖ)
 ```
 
@@ -55,7 +55,7 @@ Where `S_LLM` measures task-conditioned semantic salience (how important is this
 
 The survival potential of each memory then evolves via a discrete-time update:
 
-```
+```text
 Φᵢ^(t+1) = max{0, Φᵢ^t + I(mᵢ) · Γ_usage^t · Ψ_div(mᵢ, Mₜ) − λ}
 ```
 

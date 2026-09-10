@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-contract-testing-pactflow-mcp-consumer-driven-verification"
 tags: ["contract-testing", "pactflow", "mcp", "consumer-driven", "pact", "ci-cd", "microservices", "codex-exec"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Contract Testing: PactFlow MCP Integration, Consumer-Driven Test Generation, and CI Verification Pipelines
 
@@ -149,7 +149,7 @@ Define your contract testing conventions in `AGENTS.md` so the agent follows tea
 
 Within a TUI session, the agent can generate consumer tests by combining MCP tool access with its code generation capabilities:
 
-```
+```text
 > Generate a Pact consumer test for the OrderService GET /orders/{id} endpoint.
   The provider is InventoryService. Use TypeScript with jest-pact.
 ```
@@ -264,7 +264,7 @@ Note: `--output-schema` and MCP tools may conflict when active simultaneously in
 
 Provider verification confirms that the provider API fulfils the contracts written by consumers. Codex can generate the verification configuration:
 
-```
+```text
 > Set up provider verification for InventoryService using the Pact Verifier
   with proper consumerVersionSelectors. We deploy to staging and production.
 ```
@@ -383,7 +383,7 @@ jobs:
 
 The `contract-testing_review_pact_test` tool provides AI-powered review of existing tests against Pact best practices[^3]. This feature requires PactFlow Cloud. In the TUI:
 
-```
+```text
 > Review all Pact tests in src/__tests__/contracts/ for best-practice violations
 ```
 

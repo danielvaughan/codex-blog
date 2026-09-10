@@ -1,7 +1,7 @@
 ---
 title: "PRAXIS and Graph-Grounded Tacit Knowledge: Why Your Domain Codebase Defeats General-Purpose Agents — and How to Close the Gap in Codex CLI"
 date: 2026-08-21T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "AGENTS.md", "tacit-knowledge", "domain-code-generation", "dependency-graph", "PRAXIS", "memories", "knowledge-injection", "project-knowledge"]
 ---
 
@@ -68,7 +68,7 @@ Each unit captures *when* it applies (trigger), *what* the constraint is (conten
 
 Knowledge units are anchored to their source code entities on a dependency graph, then **propagated bidirectionally** along call and data dependencies — up to 4 hops [^1]. When multiple units converge on the same entity, their confidences merge:
 
-```
+```text
 confidence(k_merged) = 1 − ∏(1 − confidence(k_i))
 ```
 

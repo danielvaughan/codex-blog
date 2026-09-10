@@ -2,7 +2,7 @@
 title: "Building a Codex CLI Plugin: Skills, Hooks, MCP Servers and Project-Specific Automation"
 description: "Codex CLI plugins bundle skills, hooks, MCP server declarations, and AGENTS.md fragments into a single installable unit. A plugin can reduce onboarding from."
 date: 2026-04-09T18:30:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 classes: wide
 categories: articles
 toc: true
@@ -35,7 +35,7 @@ This article covers the full anatomy of a Codex CLI plugin, how each piece conne
 
 A plugin is a directory with one required file — `.codex-plugin/plugin.json` — and optional directories for skills, MCP configs, hooks, and AGENTS.md fragments. Here is the full layout for a representative platform plugin:
 
-```
+```text
 acme-platform/
 ├── .codex-plugin/
 │   └── plugin.json              ← manifest (required)
@@ -804,7 +804,7 @@ mkdir -p plugins/acme-platform/hooks
 
 Or use the built-in scaffolder:
 
-```
+```python
 @plugin-creator Create a plugin for our Node.js monorepo with four services
 ```
 

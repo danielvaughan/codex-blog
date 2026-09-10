@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-api-version-management-breaking-change-detection-deprecation-lifecycle"
 tags: ["codex-cli", "api-versioning", "breaking-changes", "oasdiff", "openapi", "deprecation", "codex-exec", "skills", "hooks", "ci-cd"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for API Version Management: Breaking Change Detection, Deprecation Lifecycle, and Version Scaffolding
 
@@ -179,7 +179,7 @@ This combines oasdiff's deterministic 450+ rule checks with Codex's ability to r
 
 Package the audit workflow as a reusable skill [^5]:
 
-```
+```text
 ~/.codex/skills/
 └── api-version-auditor/
     ├── SKILL.md

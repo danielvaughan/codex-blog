@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-kubernetes-mcp-servers-helm-charts-cluster-debugging"
 tags: ["codex-cli", "kubernetes", "mcp", "helm", "kubectl", "devops", "cloud-native", "cluster-debugging", "infrastructure"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI and Kubernetes: MCP Servers, Helm Chart Workflows, and Cluster Debugging
 
@@ -120,7 +120,7 @@ An `AGENTS.md` file at the project root ensures Codex follows your cluster conve
 
 With the Kubernetes MCP server connected, Codex can inspect your running services and generate a matching Helm chart:
 
-```
+```text
 > Look at the running deployments in the staging namespace and generate
   a Helm 4 chart that reproduces this setup. Include resource limits
   matching current usage, HPA configs, and a values.yaml with
@@ -133,7 +133,7 @@ Codex will use the MCP server to query deployments, services, configmaps, and HP
 
 For existing charts, combine Codex CLI's `/review` command with the MCP server's Helm toolset:
 
-```
+```text
 > /review -- Focus on Helm 4 SSA compatibility, missing resource
   limits, and security context gaps. Cross-reference values.yaml
   defaults against our staging cluster's actual resource usage.
@@ -172,7 +172,7 @@ sequenceDiagram
 
 **OOMKilled pods:**
 
-```
+```text
 > The order-processor pods keep getting OOMKilled. Check their
   current memory limits, actual memory usage from metrics,
   and recent events. Suggest new limits based on the p95 usage.
@@ -180,7 +180,7 @@ sequenceDiagram
 
 **Failed rolling update:**
 
-```
+```text
 > The last deployment of auth-service is stuck with unavailable
   replicas. Check the rollout status, new pod logs, and events.
   If the new pods are failing, show me what changed and draft
@@ -189,7 +189,7 @@ sequenceDiagram
 
 **Network policy debugging:**
 
-```
+```text
 > Service A in namespace frontend can't reach Service B in
   namespace backend. Check the NetworkPolicies in both namespaces,
   verify the label selectors match, and show me what's blocking.
@@ -218,7 +218,7 @@ Both MCP servers support multi-cluster management through kubeconfig contexts. T
 
 A common pattern for comparing environments:
 
-```
+```text
 > Compare the deployment specs for payment-service across
   the staging and production contexts. Highlight any differences
   in resource limits, replica counts, image tags, and environment

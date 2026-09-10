@@ -2,6 +2,8 @@
 title: "Rollout Token Budgets and Multi-Agent Delegation: Cross-Thread Cost Governance in Codex CLI"
 parent: "Articles"
 nav_order: 1150
+date: 2026-09-09T08:00:00+00:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "multi-agent", "token-budget", "cost-governance", "agentic", "configuration", "rollout-budget", "delegation"]
 ---
 
@@ -36,7 +38,7 @@ prefill_token_weight  = 0.1
 
 The `limit_tokens` field sets the hard ceiling. Every response completion charges against the ledger using the formula:
 
-```
+```text
 weighted_charge = (sampling_tokens × sampling_token_weight)
                 + (prefill_tokens  × prefill_token_weight)
 ```
@@ -56,7 +58,7 @@ The threshold-based approach is strictly preferable for multi-agent work: a fixe
 
 Reminders are injected as developer messages before the next LLM request in each thread. The format is:
 
-```
+```text
 You have weighted {N} tokens left in the shared session token budget.
 ```
 
@@ -185,7 +187,7 @@ Switching back to `explicitRequestOnly` on a later turn requires only omitting o
 
 No formula perfectly predicts multi-agent consumption, but the soft-boundary arithmetic provides a floor:
 
-```
+```text
 safe_limit = expected_total_tokens
            + (max_concurrent_threads × max_response_tokens_per_turn)
 ```

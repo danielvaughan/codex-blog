@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-stripe-projects-autonomous-agent-provisioning-deployment"
 tags: ["codex-cli", "stripe-projects", "cloudflare", "agent-provisioning", "deployment", "mcp", "autonomous-agents", "safety"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI and Stripe Projects: Autonomous Agent Provisioning from Code to Production
 
@@ -100,7 +100,7 @@ This avoids browser pop-ups during agent sessions — a critical prerequisite si
 
 With the prerequisites in place, a Codex CLI session can handle the entire lifecycle:
 
-```
+```yaml
 You: Build a landing page for my new SaaS product, register the domain
      example-saas.dev, and deploy it to Cloudflare Workers.
 

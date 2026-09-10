@@ -2,7 +2,7 @@
 title: "Codex CLI Web Search Integration and Knowledge-Augmented Agents"
 description: "Most agentic coding failures are not reasoning failures. They are knowledge failures."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - mcp
@@ -205,7 +205,7 @@ Leave this disabled by default and enable it at project level when a task genuin
 
 **Research-then-implement**: For tasks that touch external APIs or recently-updated libraries, prompt the agent to do a research pass before writing code:
 
-```
+```text
 Before implementing the authentication flow:
 1. Use Context7 to retrieve the current @supabase/auth-js v2 API reference
 2. Check the web for any breaking changes in the last 90 days

@@ -6,7 +6,7 @@ timestamp: 2026-08-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-05-codex-cli-v0146-session-orchestration-named-threads-pinning-forking-side-conversations"
 tags: ["codex-cli", "session-management", "thread-forking", "named-sessions", "pinned-threads", "side-conversations", "v0.146", "productivity"]
 date: 2026-08-05T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 
 # Codex CLI v0.146 Session Orchestration: Named Threads, Pinning, Forking, and Side Conversations
@@ -51,7 +51,7 @@ Both commands accept a free-text label. The label is persisted in `ThreadMetadat
 
 Named sessions transform the resume workflow. Instead of scanning timestamps and trying to remember which session at 14:37 was the one where you were debugging the OAuth flow, you see:
 
-```
+```text
   auth-migration         (2h ago, 47 turns, 12k tokens)
   release-prep-v4.2      (4h ago, 83 turns, 28k tokens)
   perf-regression-fix    (yesterday, 22 turns, 6k tokens)
@@ -74,13 +74,13 @@ Sessions are stored as JSONL rollout files at `~/.codex/sessions/YYYY/MM/DD/`[^4
 
 Pin a thread to keep it at the top of the session picker regardless of recency:
 
-```
+```text
 /pin
 ```
 
 Unpin with:
 
-```
+```text
 /unpin
 ```
 
@@ -147,7 +147,7 @@ fork_suffix_turns = 50         # number of recent turns to copy into the fork
 
 For exploratory work that you know is throwaway — testing whether a particular refactoring approach compiles, checking an alternative algorithm — temporary forks skip persistence entirely:
 
-```
+```text
 /fork --temporary
 ```
 

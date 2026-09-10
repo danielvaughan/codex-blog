@@ -2,7 +2,7 @@
 title: "Open Knowledge Format and Codex CLI: Giving Your Agent a Knowledge Base It Can Actually Read"
 description: "Google has published an open specification for packaging knowledge as markdown files with YAML frontmatter. It maps directly to patterns Codex CLI already supports — and it formalises what many teams have been doing informally with AGENTS.md, skills, and MCP servers."
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - context-engineering
   - mcp
@@ -68,7 +68,7 @@ The frontmatter is deliberately minimal. Only `type` is required. The recommende
 
 A collection of these files is called a **knowledge bundle**. Bundles are organised as directory trees:
 
-```
+```text
 payments-knowledge/
 ├── index.md
 ├── endpoints/
@@ -113,7 +113,7 @@ The two patterns complement each other. `AGENTS.md` tells the agent how to behav
 
 A practical setup:
 
-```
+```text
 my-project/
 ├── AGENTS.md                    # Behavioural instructions
 ├── .codex/knowledge/            # OKF bundle
@@ -151,7 +151,7 @@ The agent now has both behavioural guardrails (from `AGENTS.md`) and domain know
 
 Codex CLI 0.140.0 introduced unified `@` mentions for files, plugins, and skills. You can reference OKF documents directly in prompts:
 
-```
+```text
 @.codex/knowledge/endpoints/payments.md Refactor the payment handler
 to use the idempotency pattern described in the knowledge base.
 ```

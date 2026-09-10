@@ -2,7 +2,7 @@
 title: "Codex CLI Guardian Approval: Configuring Auto-Review Policies"
 description: "Every developer who has spent a day in on-request mode knows the pattern: approve, approve, approve, glance-approve, approve-without-reading. That reflexive."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 type: Technical Article
 timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-guardian-approval-configuring-auto-review-policies"
@@ -214,7 +214,7 @@ It produces a structured assessment containing risk level, authorisation decisio
 
 With guardian enabled, running `npm run test` when it requires network access:
 
-```
+```text
 Agent wants to run: npm run test
 ⏳ Guardian reviewing...
 ✅ Auto-reviewer approved codex to run npm run test this time.
@@ -224,7 +224,7 @@ The guardian recognises test commands as routine and approves without human inte
 
 ### Example 2: Guardian Escalates a Destructive Operation
 
-```
+```text
 Agent wants to run: rm -rf dist/ && git push --force origin main
 ⏳ Guardian reviewing...
 ⚠️ Auto-reviewer denied (risk: high) — escalating to user

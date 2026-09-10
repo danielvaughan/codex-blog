@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-cli-grpc-protobuf-schema-first-development-buf-service-stubs"
 tags: ["codex-cli", "grpc", "protobuf", "protocol-buffers", "buf", "code-generation", "schema-first", "contract-testing", "api-development"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for gRPC and Protocol Buffer Development: Schema-First Workflows with buf, Code Generation, and Contract Safety
 
@@ -27,7 +27,7 @@ Proto files also double as rich context for the agent. Because every RPC method,
 
 A typical proto-first project follows the Buf recommended layout [^3]:
 
-```
+```text
 .
 ├── .codex/
 │   └── config.toml
@@ -112,7 +112,7 @@ This configuration generates both standard Go protobuf types and ConnectRPC serv
 
 Codex CLI excels at drafting `.proto` files from natural-language requirements. A well-structured prompt gives the agent everything it needs:
 
-```
+```sql
 Create a proto3 service definition in proto/billing/v1/billing.proto for a billing
 service with these RPCs:
 - CreateInvoice (customer_id, line_items, currency) → invoice with id and status
@@ -147,7 +147,7 @@ Codex CLI can execute this entire loop in a single session. After generating stu
 
 A typical prompt for the implementation phase:
 
-```
+```text
 Implement the BillingServiceHandler in internal/handler/billing.go.
 Use the generated types from gen/billing/v1.
 Store invoices in-memory for now — we'll add Postgres later.
@@ -211,7 +211,7 @@ For teams using the Buf ecosystem, `buf curl` offers a streamlined alternative t
 
 Codex CLI can be instructed to write these integration tests as shell scripts or Go test functions, then execute them as verification:
 
-```
+```text
 Write integration tests for all four BillingService RPCs.
 Start a test server, exercise each endpoint with grpcurl,
 and assert on the response structure and status codes.
@@ -236,7 +236,7 @@ Proto schema evolution is where agent-assisted development pays the largest divi
 
 A schema evolution prompt:
 
-```
+```text
 Add a `due_date` field (google.protobuf.Timestamp) to the Invoice message.
 Add a `MarkInvoiceOverdue` RPC that accepts an invoice_id and returns
 the updated invoice. Reserve field number 7 which was previously used

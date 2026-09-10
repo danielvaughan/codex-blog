@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-agent-logging-gap-codex-cli-observability-enforcement-hooks"
 tags: ["codex-cli", "logging", "observability", "code-quality", "hooks", "AGENTS.md", "research"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Agent Logging Gap: Why Codex CLI Agents Under-Log and How to Enforce Observability Standards
 
@@ -86,7 +86,7 @@ All log statements MUST follow structured logging format:
 
 logger.info("operation_completed", extra={"user_id": uid, "duration_ms": elapsed, "status": "success"})
 
-```
+```markdown
 
 ### Prohibited Patterns
 - No bare `print()` or `console.log()` for operational logging

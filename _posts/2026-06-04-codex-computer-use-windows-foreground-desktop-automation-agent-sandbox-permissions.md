@@ -6,7 +6,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-computer-use-windows-foreground-desktop-automation-agent-sandbox-permissions"
 tags: ["codex", "computer-use", "windows", "desktop-automation", "sandbox", "permissions", "foreground", "remote-control", "agent"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex Computer Use on Windows: Foreground Desktop Automation with Agent Sandbox Controls
 
@@ -43,7 +43,7 @@ This differs from the macOS implementation, where Computer Use can run in the ba
 
 The practical implication: remote control is the intended workflow on Windows. You start a Computer Use task, then monitor and steer it from ChatGPT on iOS or Android, or from another machine running the Codex App. The host machine becomes a dedicated execution environment for the duration of the task.
 
-```
+```text
 ┌─────────────────────────────────────────────────────┐
 │                  WINDOWS HOST                        │
 │                                                      │

@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-context-engineering-for-codex-cli-practical-guide"
 tags: ["context-engineering", "codex-cli", "AGENTS.md", "skills", "MCP", "config.toml", "prompt-caching", "harness-engineering"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Context Engineering for Codex CLI: A Practical Guide to Curating What Your Agent Sees
 
@@ -49,7 +49,7 @@ OpenAI's customisation documentation describes these layers as "complementary, n
 
 AGENTS.md files load before the agent starts work and persist for the entire session[^9]. They are the cheapest, most reliable context injection point.
 
-```
+```text
 ~/.codex/AGENTS.md              ← personal defaults (global)
 repo-root/AGENTS.md             ← team conventions (repo-scoped)
 repo-root/src/api/AGENTS.md     ← module-specific rules (directory-scoped)
@@ -83,14 +83,14 @@ Files closer to the working directory take precedence[^10]. A well-structured hi
 
 Skills are the context-engineering workhorse because they use *progressive disclosure*[^11]. Codex loads only metadata (name, description, path) at session start — roughly 2% of the context window or 8,000 characters across all installed skills[^11]. Full SKILL.md instructions load only when the agent decides to use a particular skill.
 
-```
+```text
 ~/.agents/skills/                     ← personal skills
 .agents/skills/                       ← repo-scoped skills
 ```
 
 A typical skill directory:
 
-```
+```text
 .agents/skills/api-endpoint/
 ├── SKILL.md
 ├── template.ts
@@ -273,7 +273,7 @@ timeout_ms = 120000
 
 Here is a complete, minimal context-engineering setup for a TypeScript monorepo:
 
-```
+```text
 my-project/
 ├── AGENTS.md                          # Team conventions, build commands
 ├── .codex/

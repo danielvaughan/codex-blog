@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-internationalization-i18n-automated-string-extraction-translation-workflows"
 tags: ["codex-cli", "i18n", "l10n", "internationalization", "translation", "mcp", "automation", "react-i18next", "next-intl", "better-i18n"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Internationalization: Automated String Extraction, Translation MCP Servers, and i18n Workflow Patterns
 
@@ -74,7 +74,7 @@ Before extracting strings, encode your i18n conventions in `AGENTS.md` so every 
 For a focused extraction session, prompt Codex with a specific module:
 
 {% raw %}
-```
+```text
 Scan src/features/checkout/ for any hard-coded user-facing strings
 (JSX text content, placeholder attributes, aria-labels, error messages,
 toast notifications). For each string found:
@@ -161,7 +161,7 @@ BETTER_I18N_API_KEY = "${BETTER_I18N_API_KEY}"
 
 Once connected, Codex can query project translation status, create new keys, and check coverage — all through natural language:
 
-```
+```text
 Show me the translation status for the checkout feature.
 Which languages are below 90% coverage?
 ```

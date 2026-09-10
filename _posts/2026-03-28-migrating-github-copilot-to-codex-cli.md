@@ -2,7 +2,7 @@
 title: "Migrating from GitHub Copilot to Codex CLI"
 description: "Before we begin: there is a naming trap to navigate. In February 2026, GitHub launched GitHub Copilot CLI."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - competitive-landscape
   - github-copilot
@@ -45,7 +45,7 @@ This is the lowest-friction migration step, and it frequently unlocks immediate 
 
 ### What you have
 
-```
+```text
 project/
 └── .github/
     └── copilot-instructions.md   # your existing Copilot instructions
@@ -53,7 +53,7 @@ project/
 
 ### What to create
 
-```
+```text
 project/
 ├── AGENTS.md                     # primary cross-tool instructions
 └── .github/
@@ -83,7 +83,7 @@ All API handlers must return typed Response objects.
 
 In Codex CLI, move these to a subdirectory `AGENTS.md`:
 
-```
+```text
 project/
 └── src/
     └── api/
@@ -263,7 +263,7 @@ For regulated environments, Codex CLI's `requirements.toml` can enforce organisa
 
 ## Migration Checklist
 
-```
+```text
 ☐ Create AGENTS.md from .github/copilot-instructions.md content
 ☐ Migrate path-scoped instructions to nested AGENTS.md files
 ☐ Install Codex CLI and configure .codex/config.toml

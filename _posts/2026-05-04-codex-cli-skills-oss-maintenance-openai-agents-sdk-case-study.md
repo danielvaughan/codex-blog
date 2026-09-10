@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-skills-oss-maintenance-openai-agents-sdk-case-study"
 tags: ["codex-cli", "skills", "SKILL.md", "AGENTS.md", "open-source", "maintenance", "GitHub Actions", "CI", "automation", "best-practices"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Skills for OSS Maintenance: Lessons from OpenAI's Own Agents SDK Repositories
 
@@ -45,7 +45,7 @@ flowchart TD
 
 Each skill follows the standard directory layout[^2]:
 
-```
+```text
 .agents/skills/
   code-change-verification/
     SKILL.md

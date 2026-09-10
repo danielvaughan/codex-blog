@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-agent-native-infrastructure-karpathy-software-3-codex-cli-requirements-mapping"
 tags: ["codex-cli", "agent-native", "software-3.0", "karpathy", "infrastructure", "configuration", "architecture"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Agent-Native Infrastructure: Karpathy's Software 3.0 Requirements and How Codex CLI Meets Them
 
@@ -36,7 +36,7 @@ These are not aspirational; they are prerequisites. The Opsera AI Coding Impact 
 
 Karpathy's "sensors" concept — agents need to extract world state from the codebase [^1]. Codex CLI implements this through a hierarchical AGENTS.md system that serves as machine-readable project documentation [^3].
 
-```
+```text
 ~/.codex/AGENTS.md              # Global defaults (keep under 3 KB)
 ~/project/AGENTS.md             # Project root
 ~/project/AGENTS.override.md    # Override (replaces, not supplements)

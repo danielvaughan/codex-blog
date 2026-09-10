@@ -1,7 +1,7 @@
 ---
 title: "ACEM and the End of COCOMO for Agentic Work: Why Traditional Cost Estimation Breaks Down — and How to Forecast Codex CLI Token Budgets with the Revision Factor"
 date: 2026-08-11T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "cost-estimation", "ACEM", "token-economics", "COCOMO", "named-profiles", "budget-forecasting"]
 ---
 
@@ -28,7 +28,7 @@ Bai et al. demonstrated this empirically: agentic tasks consume 1,000× more tok
 
 ACEM decomposes total agentic development cost into three additive dimensions [^1]:
 
-```
+```text
 C_total = C_LLM + C_HITL + C_infra
 ```
 
@@ -38,7 +38,7 @@ Each component introduces constructs specific to agentic dynamics.
 
 The LLM cost component models token consumption across all agent actions — planning, tool calls, reasoning, retries, and context replay:
 
-```
+```text
 C_LLM = Σ (tokens_input × rate_input + tokens_output × rate_output) × RF × CF
 ```
 

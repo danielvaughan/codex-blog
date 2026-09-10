@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-enterprise-admin-setup-rbac-managed-configuration-compliance-apis"
 tags: ["codex-cli", "enterprise", "admin-setup", "rbac", "managed-configuration", "compliance", "security", "requirements-toml", "mdm", "analytics-api"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Enterprise Admin Setup: RBAC, Managed Configuration, and Compliance APIs
 
@@ -50,7 +50,7 @@ Codex RBAC sits inside ChatGPT Enterprise's existing custom-role system. Permiss
 
 OpenAI recommends two groups:
 
-```
+```text
 Codex Users    → general access, inherits default policy
 Codex Admin    → settings management, policy deployment, analytics
 ```
@@ -151,7 +151,7 @@ This is the only deployment path that does not require users to accept or instal
 
 Below the enterprise layer sits repository-scoped team configuration [^4]. The `.codex` directory checked into a repository provides:
 
-```
+```text
 .codex/
   config.toml       # defaults: sandbox, approvals, model
   rules/            # command governance rules

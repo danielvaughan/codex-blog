@@ -2,7 +2,7 @@
 title: "Codex CLI Automatic Code Review: PR Integration and Pre-Commit Workflows"
 description: "Code review is where most AI coding tools stop short. Codex CLI closes the loop by providing automated review at every stage of the Git workflow."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - workflow-patterns
   - code-review
@@ -189,7 +189,7 @@ Place package-specific rules deeper in the tree. A `payments/AGENTS.md` with PCI
 
 On any pull request, comment `@codex review` to trigger a review. Codex reacts with 👀, reads the entire PR including dependencies and tests, and posts inline comments.[^2] For one-off focus without changing your permanent configuration:
 
-```
+```python
 @codex review for security regressions
 @codex review for performance bottlenecks in the data layer
 ```

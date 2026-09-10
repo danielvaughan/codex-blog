@@ -1,7 +1,7 @@
 ---
 title: "The 8 Million User Surge: What Codex's Explosive Growth Means for Your CLI Workflows"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "growth", "rate-limits", "context-window", "GPT-5.6", "infrastructure", "cost-optimisation"]
 ---
 
@@ -123,7 +123,7 @@ The `body_after_prefix` scope ensures compaction preserves your cached prefix �
 
 For large codebases, use directory-scoped AGENTS.md files to keep context lean:
 
-```
+```text
 project/
 ├── AGENTS.md              # global: 20 lines max
 ├── backend/

@@ -5,7 +5,7 @@ timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-micro-frontend-development-module-federation-2-nx-independent-deployments"
 tags: ["codex-cli", "micro-frontends", "module-federation", "nx", "rspack", "vite", "subagents", "multi-directory"]
 date: 2026-05-31T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Micro-Frontend Development: Module Federation 2.0, Nx Integration, and Independent Team Deployments
 
@@ -45,7 +45,7 @@ With support spanning Webpack, Rspack, Rollup, Rolldown, Rsbuild, Vite, and Metr
 
 A typical micro-frontend monorepo (or polyrepo) follows this layout:
 
-```
+```text
 apps/
   shell/           # Host application
   team-a-remote/   # Team A's micro-frontend

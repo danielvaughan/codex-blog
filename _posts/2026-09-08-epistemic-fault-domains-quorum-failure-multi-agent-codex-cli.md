@@ -2,6 +2,8 @@
 title: "The Illusion of Independent Quorums: Epistemic Fault Domains and What They Mean for Codex CLI Multi-Agent Safety"
 parent: "Articles"
 nav_order: 1155
+date: 2026-09-08T08:00:00+00:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["multi-agent", "safety", "Guardian", "quorum", "epistemic-fault-domains", "codex-queue", "approve-for-me", "architecture"]
 ---
 
@@ -28,7 +30,7 @@ An **Epistemic Fault Domain** (EFD) is the set of agents structurally reachable 
 
 The key metric is the **Structural Epistemic Cut** (κ_E):
 
-```
+```text
 κ_E^{ℬ,D}(Q,ϕ,t,Γ) = min{|C| : C ⊆ ℬ,
                        ∃ minimal decisive coalition W,
                        W ⊆ ⋃_{c∈C} D_Q(c)}

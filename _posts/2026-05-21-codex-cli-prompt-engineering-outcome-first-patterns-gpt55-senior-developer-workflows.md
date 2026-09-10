@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-prompt-engineering-outcome-first-patterns-gpt55-senior-developer-workflows"
 tags: ["codex-cli", "prompt-engineering", "GPT-5.5", "best-practices", "workflows", "AGENTS.md", "reasoning-effort", "productivity"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Prompt Engineering in the GPT-5.5 Era: Outcome-First Patterns, Anti-Patterns, and the Prompts That Ship Code on the First Turn
 
@@ -33,12 +33,12 @@ This is not a suggestion. It is the structure the model's preamble is tuned to e
 ### A Concrete Example
 
 **Weak prompt:**
-```
+```text
 Add JSON output to the CLI.
 ```
 
 **Strong prompt:**
-```
+```yaml
 Goal: Add a --json flag to the transform command that outputs
 results as JSON instead of plain text.
 
@@ -83,7 +83,7 @@ The model has been trained to plan before acting [^4]. When you pre-specify the 
 
 A recurring anti-pattern is stuffing durable rules into the prompt. Every project-wide convention — build commands, test runners, code style, architectural constraints — belongs in `AGENTS.md`, not in your prompt [^1] [^6].
 
-```
+```markdown
 # AGENTS.md (project root)
 
 ## Build & Test
@@ -103,7 +103,7 @@ A recurring anti-pattern is stuffing durable rules into the prompt. Every projec
 
 The prompt then shrinks to task-specific intent:
 
-```
+```text
 Refactor the PaymentForm component to use the new
 PaymentIntent API. Done when existing tests pass and
 the Stripe test-mode checkout flow works end-to-end.
@@ -138,7 +138,7 @@ Codex CLI exposes four reasoning levels — Low, Medium, High, and Extra High �
 
 OpenAI's prompting page states it plainly: *"Codex produces higher-quality outputs when it can verify its work."* [^3]. Include explicit verification commands in your prompt or `AGENTS.md`:
 
-```
+```text
 Done when:
 1. `pytest tests/ -x` passes
 2. `mypy src/ --strict` reports zero errors
@@ -171,7 +171,7 @@ flowchart TD
 
 For tasks that span more than one session, combine `/plan` with `/goal`:
 
-```
+```text
 /goal Migrate the authentication system from JWT to session
 cookies. Done when: all auth tests pass, the login flow works
 in the staging environment, and no JWT references remain in
@@ -197,7 +197,7 @@ The `@` mention picker (unified in v0.131 [^8]) searches files, directories, plu
 
 ### 1. The Step-by-Step Micromanager
 
-```
+```text
 First open file X. Then find line Y. Then change Z to W.
 Then save. Then run tests.
 ```
@@ -206,7 +206,7 @@ This overrides the model's planner and prevents it from discovering better appro
 
 ### 2. The Kitchen-Sink Prompt
 
-```
+```text
 Implement the feature, write tests, update docs, refactor
 the adjacent module, fix the linting errors, and update
 the changelog.
@@ -216,7 +216,7 @@ Each sub-task deserves its own turn or subagent. Overloaded prompts produce part
 
 ### 3. The Missing Verification
 
-```
+```text
 Add the new endpoint.
 ```
 
@@ -234,7 +234,7 @@ Using the same reasoning effort for every task. Toggle with `Alt+,`/`Alt+.` base
 
 ### Bug Fix
 
-```
+```yaml
 Bug: [describe the symptom and how to reproduce]
 Context: @src/module/file.ts, error output from `pnpm test`
 Constraints: Do not change the public API. Minimal diff.
@@ -244,7 +244,7 @@ and `pnpm test` passes.
 
 ### Feature Implementation
 
-```
+```yaml
 Goal: [describe the feature outcome]
 Context: @src/relevant/files, @docs/spec.md
 Constraints: Follow existing patterns in @src/similar/feature.
@@ -255,7 +255,7 @@ behaviour] works as described.
 
 ### Code Review
 
-```
+```text
 /review
 
 Focus on: security implications, error handling completeness,
@@ -265,7 +265,7 @@ changes that affect the public API.
 
 ### Refactoring
 
-```
+```text
 /plan Refactor [module] to [target architecture].
 Preserve all existing tests. Add new tests for any
 extracted components. Done when: `pnpm test` passes,

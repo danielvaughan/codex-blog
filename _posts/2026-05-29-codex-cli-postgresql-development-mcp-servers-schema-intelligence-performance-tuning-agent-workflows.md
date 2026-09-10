@@ -5,7 +5,7 @@ timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-postgresql-development-mcp-servers-schema-intelligence-performance-tuning-agent-workflows"
 tags: ["codex-cli", "postgresql", "mcp", "database", "schema", "performance", "agent-workflows", "postgres-mcp-pro", "neon", "pgedge"]
 date: 2026-05-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for PostgreSQL Development: MCP Servers, Schema Intelligence, Performance Tuning, and Agent-Driven Database Workflows
 
@@ -140,7 +140,7 @@ Declare your database conventions in `agents.md` so Codex generates idiomatic SQ
 
 Ask Codex to map an unfamiliar database:
 
-```
+```bash
 codex "Using pg-pro, list all schemas, then for each schema list all tables
 with their columns, constraints, and indexes. Write the result as a Mermaid
 ER diagram to docs/schema.md"
@@ -176,7 +176,7 @@ The copy-on-write branch takes milliseconds regardless of database size [^7]. Th
 
 Postgres MCP Pro's `explain_query` tool accepts hypothetical indexes, letting Codex explore optimisation strategies without creating real indexes:
 
-```
+```bash
 codex "Find the top 5 slowest queries using pg-pro's get_top_queries,
 then for each one run explain_query with and without suggested indexes
 from analyze_query_indexes. Summarise the expected speedup for each."
@@ -188,7 +188,7 @@ The agent calls `get_top_queries` to identify bottlenecks via `pg_stat_statement
 
 For scheduled health checks, combine MCP-PostgreSQL-Ops with Codex's exec capabilities:
 
-```
+```bash
 codex "Run a full health check: get_active_connections, get_autovacuum_status,
 get_table_bloat_analysis for the 10 largest tables, get_replication_status,
 and get_wal_status. Flag anything outside normal parameters."
@@ -200,7 +200,7 @@ On PostgreSQL 18, the `get_async_io_status` and `get_per_backend_io_stats` tools
 
 pgEdge's multi-database support lets agents compare schemas across environments:
 
-```
+```bash
 codex "Connect to the staging database, get the schema for the orders table,
 then switch to production and compare. Flag any schema drift."
 ```

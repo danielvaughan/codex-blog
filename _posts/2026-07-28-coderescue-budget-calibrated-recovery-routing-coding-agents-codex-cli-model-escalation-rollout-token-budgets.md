@@ -1,7 +1,7 @@
 ---
 title: "CodeRescue and Budget-Calibrated Recovery Routing: When Your Codex CLI Agent Should Retry Cheap and When It Should Escalate"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "coderescue", "recovery-routing", "model-escalation", "rollout-token-budgets", "sol-terra-luna", "cost-optimisation", "conformal-risk-control", "failure-recovery", "named-profiles"]
 ---
 
@@ -43,7 +43,7 @@ The router produces per-action scores normalised via softmax. Without budget con
 
 The key innovation is a Conformal Risk Control (CRC) layer that converts the router into a budget-aware policy without retraining. A single cost-penalty parameter *lambda* adjusts the action selection:
 
-```
+```text
 pi_lambda(x) = argmax { s_theta(a|x) - lambda * c(a,x) }
 ```
 

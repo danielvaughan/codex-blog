@@ -2,7 +2,7 @@
 title: "Codex CLI for dbt and Data Engineering Workflows"
 description: "Data engineering is one of the fastest-growing segments of software development, yet the Codex CLI ecosystem has produced almost no content targeted at data."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - language-guide
   - third-party
@@ -159,7 +159,7 @@ Skills are particularly valuable for warehouse-specific guidance (e.g. BigQuery 
 
 Once the MCP server is running and AGENTS.md is in place, model generation becomes a high-fidelity operation rather than a guessing game:
 
-```
+```text
 > Codex: create a staging model for the raw_orders table in the shopify source.
   Use the project naming conventions and generate schema.yml with not_null/unique
   tests on order_id and a relationships test linking to stg_shopify__customers.
@@ -176,7 +176,7 @@ The compile step is the key safety mechanism: it catches missing `{{ ref() }}` l
 
 ### Documentation generation
 
-```
+```text
 > Codex: generate column-level documentation for all models in models/marts/sales/
   that are missing descriptions. Use existing documented columns in the same directory
   as style references.
@@ -188,7 +188,7 @@ Combined with `dbt docs generate` via MCP, this turns documentation debt into a 
 
 The consensus from production dbt teams is that agents are fastest at writing tests — often 5× faster than manual authoring.[^8] A focused prompt works well:
 
-```
+```text
 > Codex: review models/marts/sales__orders.yml and add tests following the project
   testing policy. Prioritise freshness, not_null on the grain, and relationships
   tests for every FK column. Do not add tests for pass-through columns from staging.

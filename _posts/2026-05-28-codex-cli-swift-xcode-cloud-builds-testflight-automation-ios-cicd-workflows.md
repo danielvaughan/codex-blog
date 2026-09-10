@@ -5,7 +5,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-swift-xcode-cloud-builds-testflight-automation-ios-cicd-workflows"
 tags: ["codex-cli", "swift", "xcode-cloud", "testflight", "ios", "ci-cd", "mcp", "xcodebuildmcp", "xcodebuild"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Swift/Xcode Cloud Builds: Remote Build Agents, TestFlight Automation, and iOS CI/CD Workflows
 
@@ -185,7 +185,7 @@ The simplest approach uses Xcode Cloud's built-in TestFlight integration. When a
 
 For automated test notes, Xcode Cloud looks for files named `WhatToTest.<LOCALE>.txt` inside a `TestFlight/` directory at the project root[^8]:
 
-```
+```text
 MyApp/
 ├── TestFlight/
 │   ├── WhatToTest.en-US.txt

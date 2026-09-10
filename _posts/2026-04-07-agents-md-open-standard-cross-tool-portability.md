@@ -2,7 +2,7 @@
 title: "AGENTS.md as an Open Standard: Cross-Tool Portability Under Linux Foundation Governance"
 description: "The AGENTS.md file that sits in your repository root has quietly become the most consequential configuration standard in agentic coding."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - opinion
   - agents-md
@@ -112,7 +112,7 @@ Brief description of the codebase and its architecture.
 
 AGENTS.md supports nested placement in monorepos. The agent reads the file closest to the file being edited, with explicit user prompts overriding everything[^1]:
 
-```
+```text
 repo-root/
 ├── AGENTS.md                  # Global rules
 ├── packages/

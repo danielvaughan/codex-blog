@@ -2,7 +2,7 @@
 title: "Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv"
 description: "Codex CLI's multi-agent system lets a single session delegate specialised work to parallel child agents. Once you understand the TOML agent definition."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - subagents
   - toml-schema
@@ -111,7 +111,7 @@ Custom agents override built-ins if their `name` field matches a built-in name.
 
 There is no host-side `spawn_agent()` function you call programmatically.[^4] The parent model decides to spawn based on your prompt. Effective patterns:
 
-```
+```text
 Review this branch for production readiness. Spawn three specialist agents:
   1. security-reviewer — audit for vulnerabilities
   2. test-auditor — identify missing test coverage
@@ -157,7 +157,7 @@ src/api/graphql.ts,api-team,2026-03-01
 
 Prompt Codex:
 
-```
+```text
 Use spawn_agents_on_csv with:
   csv_path: components.csv
   id_column: path

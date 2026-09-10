@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-vue-nuxt-teams-composition-api-pinia-vitest-workflows"
 tags: ["codex-cli", "vue", "nuxt", "pinia", "vitest", "composition-api", "mcp", "agents-md", "frontend"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Vue and Nuxt Teams: Composition API, Pinia, Vitest, and Agent-Driven Component Workflows
 
@@ -156,7 +156,7 @@ flowchart TD
 
 ### Example Prompt
 
-```
+```sql
 Create a UserCard.vue component in components/ that:
 - Accepts props: user (object with name, email, avatarUrl), compact (boolean, default false)
 - Emits click event with user id
@@ -235,7 +235,7 @@ When asking Codex to generate store tests, include the directive: *"Use createTe
 
 One of Codex's strongest patterns for Vue development is extracting composables from complex components. Prompt:
 
-```
+```text
 Extract the data-fetching and pagination logic from pages/users.vue into
 a composables/useUserList.ts composable. The composable should return
 { users, loading, error, page, nextPage, prevPage }. Update the page
@@ -250,7 +250,7 @@ Codex identifies the reactive state, watchers, and lifecycle hooks in the compon
 
 For Nuxt server routes, Codex generates Nitro-compatible handlers:
 
-```
+```sql
 Create a server/api/products/[id].get.ts route that:
 - Validates the id parameter with zod
 - Fetches from the products table using Drizzle ORM

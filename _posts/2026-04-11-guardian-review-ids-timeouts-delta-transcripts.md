@@ -2,7 +2,7 @@
 title: "Guardian Review IDs, Timeouts and Delta Transcripts: Enterprise Audit-Ready Governance"
 description: "Codex CLI v0.119 and v0.120 shipped a trio of guardian improvements that transform the experimental Smart Approvals feature from a developer convenience."
 date: 2026-04-11T22:30:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["guardian", "review-ids", "timeouts", "audit-trail", "enterprise", "compliance", "fail-closed", "delta-transcripts", "opentelemetry"]
 type: Technical Article
 timestamp: 2026-04-11T23:30:00+01:00
@@ -77,7 +77,7 @@ PR #17298, merged on 10 April 2026, introduces `review_id` as a stable, unique i
 
 The review ID surfaces through two app-server lifecycle events[^1]:
 
-```
+```text
 item/autoApprovalReview/started   → { threadId, turnId, review_id, targetItemId? }
 item/autoApprovalReview/completed → { threadId, turnId, review_id, action }
 ```

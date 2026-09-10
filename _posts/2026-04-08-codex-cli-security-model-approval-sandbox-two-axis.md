@@ -2,7 +2,7 @@
 title: "Codex CLI Security Model: The Two-Axis Approval and Sandbox Framework"
 description: "> Two independent axes: what Codex ASKS vs what the OS ALLOWS."
 date: 2026-04-08T00:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 type: Technical Article
 timestamp: 2026-04-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-08-codex-cli-security-model-approval-sandbox-two-axis"
@@ -26,7 +26,7 @@ Codex CLI's security model is built on two orthogonal dimensions -- the **approv
 
 The two axes are fully orthogonal. You can combine any approval policy with any sandbox mode:
 
-```
+```text
                     Sandbox Mode
                     read-only | workspace-write | danger-full-access
                    ──────────┼─────────────────┼────────────────────
@@ -172,7 +172,7 @@ When enabled:
 - Low-risk actions that match established patterns can be auto-approved
 - The Guardian provides an intelligent middle ground between full human approval and full autonomy
 
-```
+```text
 Risk Level    Behavior
 ──────────    ────────
 LOW           Auto-approve (Guardian confident it's safe)

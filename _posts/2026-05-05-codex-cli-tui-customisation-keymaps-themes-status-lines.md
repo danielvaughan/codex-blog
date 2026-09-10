@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-tui-customisation-keymaps-themes-status-lines"
 tags: ["codex-cli", "tui", "keymaps", "themes", "config-toml", "terminal", "customisation", "productivity"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI TUI Customisation: Keymaps, Themes, Status Lines and Terminal Titles
 
@@ -128,7 +128,7 @@ Or switch interactively with the `/theme` slash command, which opens a picker sh
 
 Drop any `.tmTheme` file into `$CODEX_HOME/themes/` (default `~/.codex/themes/`) and it becomes available by name — the filename minus the extension, converted to kebab-case[^5]. For example:
 
-```
+```text
 ~/.codex/themes/my-company-dark.tmTheme
 ```
 

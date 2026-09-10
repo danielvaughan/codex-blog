@@ -2,7 +2,7 @@
 title: "Automated SAP Testing with Codex CLI: An Agent-Driven Approach"
 description: "How to use Codex CLI to generate, maintain, and execute automated tests across SAP's four testing layers — OData APIs, BAPIs/RFCs, Fiori UI, and SAP GUI — with practical code examples, MCP integration patterns, and guidance on navigating SAP's April 2026 API policy."
 date: 2026-06-13T20:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - codex-cli
   - sap
@@ -144,7 +144,7 @@ This is not an either/or decision. The most effective pattern is Codex generatin
 
 ### Project structure
 
-```
+```text
 sap-test-suite/
   tests/
     api/              # OData API contract tests
@@ -251,7 +251,7 @@ curl -u "$SAP_USER:$SAP_PASS" \
 
 Then ask Codex to generate tests:
 
-```
+```text
 codex "Read the OData metadata in config/odata-metadata/API_SALES_ORDER_SRV.xml.
 Generate pytest tests that validate:
 1. Every entity set returns HTTP 200 for a GET request
@@ -409,7 +409,7 @@ BAPIs and RFC function modules are the backbone of SAP cross-system integration.
 
 The `pyrfc` library provides Python bindings for SAP's NetWeaver RFC SDK. Codex can generate tests that call BAPIs directly:
 
-```
+```text
 codex "Generate pytest tests for the BAPI_SALESORDER_GETLIST BAPI.
 The tests should:
 1. Call the BAPI with a valid customer number from fixtures
@@ -554,7 +554,7 @@ When a BAPI's interface changes — new parameters, renamed fields, deprecated f
 
 Fiori applications are SAPUI5 web apps. They run in a browser. Playwright tests them like any other web application — with one important difference: SAPUI5 renders controls dynamically, so stable selectors require understanding the framework's DOM structure.[^3]
 
-```
+```text
 codex "Generate Playwright TypeScript tests for the SAP Fiori
 'Manage Sales Orders' app at https://qas.example.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html.
 Test the following workflow:
@@ -686,7 +686,7 @@ SAPUI5 selectors are brittle by nature — control IDs can change between applic
 
 For classic SAP transactions — VA01 (create sales order), ME21N (create purchase order), SM37 (job monitoring) — SAP GUI scripting with Python's `win32com.client` module is the established automation path.[^2][^3]
 
-```
+```text
 codex "Generate a Python test that automates SAP GUI transaction VA03
 (display sales order). The test should:
 1. Connect to an existing SAP GUI session
@@ -910,7 +910,7 @@ The highest-value use case for Codex-driven SAP testing is upgrade regression. E
 
 **Before the upgrade:**
 
-```
+```bash
 codex "Scan the tests/ directory. For each OData service tested,
 verify the $metadata documents in config/odata-metadata/ match
 the current system. Report any differences."
@@ -920,7 +920,7 @@ Codex compares metadata files against the live system, identifies schema changes
 
 **After the upgrade:**
 
-```
+```text
 codex "The SAP system has been upgraded to S/4HANA 2025 FPS02.
 Run pytest tests/api/ and pytest tests/bapi/. For any failures:
 1. Diagnose whether the failure is a test bug or a system change
@@ -933,7 +933,7 @@ The last instruction — "do not weaken assertions to make tests pass" — is cr
 
 **Generating coverage for new features:**
 
-```
+```text
 codex "The upgrade added a new OData entity set 'A_SalesOrderScheduleLine'
 to API_SALES_ORDER_SRV. The updated $metadata is in
 config/odata-metadata/API_SALES_ORDER_SRV.xml.

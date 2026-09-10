@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-cli-ide-context-injection-ipc-bridge-vscode-cursor"
 tags: ["codex-cli", "ide-integration", "ipc", "vscode", "cursor", "slash-commands", "v0.129", "developer-experience"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI /ide Context Injection: Bridging Your Terminal and Editor Through IPC
 
@@ -33,7 +33,7 @@ The bridge uses a Unix domain socket for inter-process communication between the
 
 The socket is created at a deterministic, user-scoped path:
 
-```
+```text
 $TMPDIR/codex-ipc/ipc-$UID.sock
 ```
 
@@ -109,13 +109,13 @@ codex
 
 3. Inside the TUI, type:
 
-```
+```text
 /ide
 ```
 
 If the connection succeeds, the status line displays:
 
-```
+```text
 IDE context is on. Connected to your IDE
 ```
 
@@ -149,7 +149,7 @@ flowchart LR
 
 Select a function in VS Code, switch to the CLI, and type:
 
-```
+```text
 Refactor the selected code to use early returns instead of nested if/else
 ```
 

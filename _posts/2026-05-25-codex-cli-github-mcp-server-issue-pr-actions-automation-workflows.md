@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-github-mcp-server-issue-pr-actions-automation-workflows"
 tags: ["codex-cli", "github", "mcp", "automation", "pull-requests", "issues", "actions", "code-security"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI with the GitHub MCP Server: Issues, Pull Requests, Actions, and Platform Automation
 
@@ -167,7 +167,7 @@ Expand only when a tool request returns a 403[^2]. For OAuth via `codex mcp logi
 
 ### Pattern 1: Issue Triage with Label Assignment
 
-```
+```text
 > Review open issues in danielvaughan/codex-resources labelled "needs-triage".
   For each, read the body, suggest a priority label (P0–P3), and add a comment
   summarising the issue for the team.
@@ -177,7 +177,7 @@ The agent calls `issue_read` to list and filter, analyses each body, then calls 
 
 ### Pattern 2: PR Review and Feedback Loop
 
-```
+```text
 > Review PR #42 in my-org/backend. Check the diff for security issues,
   suggest improvements, and post a review with line comments.
 ```
@@ -186,7 +186,7 @@ Codex uses `pull_request_read` to fetch the diff, applies its reasoning to ident
 
 ### Pattern 3: Actions Workflow Debugging
 
-```
+```text
 > The deploy workflow in my-org/frontend failed on the last 3 runs.
   Fetch the logs, identify the root cause, and suggest a fix.
 ```

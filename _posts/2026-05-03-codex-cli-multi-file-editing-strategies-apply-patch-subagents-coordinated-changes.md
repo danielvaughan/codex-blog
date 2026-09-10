@@ -6,7 +6,7 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-multi-file-editing-strategies-apply-patch-subagents-coordinated-changes"
 tags: ["codex-cli", "multi-file-editing", "apply-patch", "subagents", "refactoring", "large-codebase", "best-practices"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Multi-File Editing Strategies: Coordinating Changes Across Large Pull Requests with apply_patch and Subagents
 
@@ -27,7 +27,7 @@ Codex CLI does not use standard unified diffs. Instead, it uses a bespoke patch 
 
 Every patch is wrapped in an envelope:
 
-```
+```text
 *** Begin Patch
 [file operations]
 *** End Patch
@@ -47,7 +47,7 @@ Update operations use `@@` hunk markers with context lines (3 above, 3 below by 
 
 A single `apply_patch` call can bundle changes across many files. Here is a realistic example — renaming a service class and updating all its consumers:
 
-```
+```text
 *** Begin Patch
 *** Update File: src/services/user_service.py
 *** Move to: src/services/account_service.py
@@ -192,7 +192,7 @@ For larger migrations, use Plan Mode as a gating mechanism[^7]:
 
 For cross-cutting changes spanning backend, frontend, and infrastructure:
 
-```
+```text
 Migrate from REST to gRPC for the payments service.
 
 Delegate to three subagents:

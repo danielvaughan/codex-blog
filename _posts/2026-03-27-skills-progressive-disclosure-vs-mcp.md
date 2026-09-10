@@ -2,7 +2,7 @@
 title: "Skills as Progressive Disclosure: Architecture Differences Between Skills and MCP"
 description: "Two mechanisms exist for giving Codex CLI access to external knowledge and tools: Agent Skills and the Model Context Protocol (MCP). On the surface they."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - architecture
   - skills
@@ -52,7 +52,7 @@ Skills implement a fundamentally different strategy: **progressive disclosure**.
 
 ### Three-tier loading
 
-```
+```text
 Session start  ──►  Discovery layer (metadata only)
                        name + description  ~80 tokens / skill
 
@@ -69,7 +69,7 @@ This means you can install 50, 100, or more skills without meaningfully increasi
 
 ### Skill directory structure
 
-```
+```text
 .agents/skills/
   deploy-to-aws/
     SKILL.md                  # required — frontmatter + instructions

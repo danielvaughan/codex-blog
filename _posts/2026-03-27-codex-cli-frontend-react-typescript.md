@@ -2,7 +2,7 @@
 title: "Codex CLI for Frontend Development: React, TypeScript and Modern Toolchains"
 description: "Frontend development with Codex CLI requires deliberate configuration. Without it, Codex will make reasonable guesses — often the wrong ones. It might reach."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - language-guide
   - skills
@@ -134,7 +134,7 @@ Always run this after any component or page changes.
 
 Invoke it as part of your prompt:
 
-```
+```text
 Add a search bar to the header, then use @playwright-check to verify it renders correctly on mobile and desktop viewports.
 ```
 
@@ -146,7 +146,7 @@ Add a search bar to the header, then use @playwright-check to verify it renders 
 
 Structure component prompts to include all the context Codex needs:
 
-```
+```sql
 Create a <DataTable> component for /components/DataTable.tsx
 
 Requirements:
@@ -253,7 +253,7 @@ jobs:
 
 With subagents GA (March 16, 2026), frontend work maps well to the explorer/worker pattern:
 
-```
+```text
 Build a new user settings page with avatar upload, display name editing, and email preferences.
 
 Use subagents:
@@ -307,7 +307,7 @@ This avoids the context pollution of a single Codex session that knows about too
 
 ## Summary Checklist
 
-```
+```text
 □ AGENTS.md specifies: stack, package manager, test commands, component conventions
 □ Playwright skill created for browser verification
 □ Approval mode profiles configured (feature: auto-edit, design-system: suggest)

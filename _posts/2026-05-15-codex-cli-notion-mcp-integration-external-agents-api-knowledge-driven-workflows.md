@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-notion-mcp-integration-external-agents-api-knowledge-driven-workflows"
 tags: ["codex-cli", "notion", "mcp", "external-agents-api", "knowledge-management", "developer-platform", "workers", "integrations"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Meets Notion: MCP Integration, the External Agents API, and Knowledge-Driven Development Workflows
 
@@ -64,7 +64,7 @@ Codex opens your browser for the standard Notion OAuth consent screen. Once auth
 
 Launch Codex and run `/mcp`. You should see `notion` listed with its 22 tools. A quick smoke test:
 
-```
+```text
 Search my workspace for "API design guidelines"
 ```
 
@@ -140,7 +140,7 @@ Workers are free during the beta period. From 11 August 2026, they consume Notio
 
 Pull the next unstarted ticket from a Notion sprint board, implement it, and update the status—all from one Codex session:
 
-```
+```text
 Read the top unstarted ticket from the "Sprint 42" board in Notion.
 Implement the feature described in the ticket.
 Run the test suite.
@@ -154,7 +154,7 @@ Codex uses `query-data-source` to filter by status, `retrieve-a-page` for the fu
 
 Architecture Decision Records in Notion capture the *why* behind design choices. Feed them to Codex before a refactor so it respects existing constraints:
 
-```
+```text
 Search Notion for ADRs related to "authentication".
 Read the most recent one.
 Refactor the auth middleware in src/auth/ following the
@@ -165,7 +165,7 @@ constraints documented in that ADR.
 
 After merging a batch of PRs, generate release notes and publish them to Notion:
 
-```
+```text
 List all merged PRs since the last release tag.
 Summarise each change in one sentence.
 Create a new page under "Release Notes" in Notion with

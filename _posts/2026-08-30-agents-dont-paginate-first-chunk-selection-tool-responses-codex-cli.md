@@ -1,7 +1,7 @@
 ---
 title: "Agents Don't Paginate: First-Chunk Inclusion Is What Drives Tool-Response Accuracy"
 date: 2026-08-30T14:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "tool-responses", "context-management", "mcp", "token-budget", "tool_output_token_limit", "research", "arXiv"]
 ---
 
@@ -39,7 +39,7 @@ Having established that Priority-KW meaningfully improves where relevant content
 
 The result: per-model accuracy deltas ranged from −2.8 to +2.2 percentage points. No model showed statistically significant improvement.
 
-```
+```text
 Model               FIFO accuracy   KW accuracy   Delta
 Claude Opus 4.7     94.0%           93.8%         −0.2pp
 Claude Sonnet 4.5   90.8%           93.0%         +2.2pp

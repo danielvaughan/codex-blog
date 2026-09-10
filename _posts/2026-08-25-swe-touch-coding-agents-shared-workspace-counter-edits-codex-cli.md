@@ -1,7 +1,7 @@
 ---
 title: "SWE-Touch: What Happens When You Edit Code While Your Agent Is Running — and How to Configure Codex CLI for Shared Workspaces"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "shared-workspace", "collaborative-development", "benchmarks", "swe-bench", "approval-modes", "hooks", "counter-edits", "workspace-awareness"]
 ---
 
@@ -208,7 +208,7 @@ Setting `async: true` (v0.148.0+)[^6] means this runs in the background without 
 
 When you know you will be making concurrent edits, temporarily switching to `on-request` approval mode via the `/permissions` slash command gives the agent natural pause points at which you can communicate changes:
 
-```
+```text
 /permissions sandbox=workspace-write ask-for-approval=always
 ```
 

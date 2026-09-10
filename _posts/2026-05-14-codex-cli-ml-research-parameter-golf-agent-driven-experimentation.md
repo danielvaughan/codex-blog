@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-ml-research-parameter-golf-agent-driven-experimentation"
 tags: ["codex-cli", "machine-learning", "parameter-golf", "agent-driven-research", "hugging-face", "model-training", "experimentation"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for ML Research: Agent-Driven Experimentation and the Parameter Golf Effect
 
@@ -157,7 +157,7 @@ codex exec --sandbox workspace-write \
 
 For longer exploration sessions, Codex CLI's `/goal` command keeps the agent iterating autonomously through a hypothesis space:
 
-```
+```text
 /goal Improve BPB below 1.15 by exploring MLP expansion ratios
 between 2x and 4x. Run each variant for 3000 steps locally,
 log results to experiments/mlp-sweep/report.md, and recommend

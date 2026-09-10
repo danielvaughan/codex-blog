@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-shadcn-ui-design-system-mcp-skills-component-workflows"
 tags: ["codex-cli", "shadcn-ui", "design-system", "mcp", "skills", "frontend", "tailwind", "react", "component-library", "registry"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI + shadcn/ui: Agent-Driven Design System Workflows with MCP Server, Skills, and CLI v4
 
@@ -145,7 +145,7 @@ A frontend task is complete only when:
 
 For monorepo setups, place a more specific `AGENTS.md` in each application directory. A design system package might have stricter rules (no application-specific logic, mandatory Storybook stories), while the consuming application has looser constraints:
 
-```
+```text
 apps/
   web/AGENTS.md          # Application rules
   admin/AGENTS.md        # Admin panel conventions

@@ -6,7 +6,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-parallel-subagent-race-codex-cli-multi-agent-v2-claude-dynamic-workflows-architecture-comparison"
 tags: ["codex-cli", "multi-agent", "subagents", "claude-code", "dynamic-workflows", "opus-4-8", "v0-137", "orchestration", "architecture", "parallel-agents"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Parallel Subagent Race: Codex CLI Multi-Agent v2, Claude Code Dynamic Workflows, and Choosing Your Agent Architecture
 
@@ -130,7 +130,7 @@ For tasks requiring cross-referencing — such as security audits where findings
 
 **Structured team reviews.** Define permanent roles (security reviewer, performance auditor, documentation checker) as TOML files, spawn them on every PR, and get results the orchestrator can cross-reference in context [^6]:
 
-```
+```text
 Spawn reviewer, security-auditor, and docs-checker on this PR.
 Wait for all three, then synthesise a unified review.
 ```
@@ -216,7 +216,7 @@ Cite specific line numbers.
 
 The experimental `spawn_agents_on_csv` primitive is ideal for applying the same analysis across many files [^6]:
 
-```
+```text
 Call spawn_agents_on_csv with:
 - csv_path: /tmp/endpoints.csv
 - id_column: path

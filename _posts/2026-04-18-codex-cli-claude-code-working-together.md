@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-cli-claude-code-working-together"
 tags: ["codex-cli", "claude-code", "integration", "mcp", "plugin", "cross-tool", "workflow"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # How to Make Codex CLI and Claude Code Work Together
 
@@ -69,7 +69,7 @@ The plugin exposes four primary commands[^5]:
 
 **`/codex:review`** — Standard code review. Runs Codex against your current working tree and returns findings.
 
-```
+```text
 /codex:review --base main
 ```
 
@@ -77,13 +77,13 @@ Supports `--background` to run asynchronously and `--wait` to block until comple
 
 **`/codex:adversarial-review`** — Pressure-tests implementation decisions around authentication, data loss, and race conditions. Read-only — it flags issues but does not modify code[^5].
 
-```
+```text
 /codex:adversarial-review
 ```
 
 **`/codex:rescue`** — Hands a task to Codex entirely, spawning it as a subagent. Useful when Claude Code is stuck or you want a second opinion from a different model[^5].
 
-```
+```text
 /codex:rescue "investigate why the auth middleware is rejecting valid JWTs"
 ```
 

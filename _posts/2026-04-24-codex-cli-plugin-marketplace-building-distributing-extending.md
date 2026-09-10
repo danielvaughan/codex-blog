@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-plugin-marketplace-building-distributing-extending"
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "enterprise", "extensibility"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Plugin Marketplace: Building, Distributing, and Managing Extensions at Scale
 
@@ -42,7 +42,7 @@ The three component types serve distinct roles [^3]:
 
 Every plugin requires a `.codex-plugin/plugin.json` manifest at minimum [^3]:
 
-```
+```text
 my-plugin/
 ├── .codex-plugin/
 │   └── plugin.json          # required manifest
@@ -287,7 +287,7 @@ codex plugin marketplace add acme-org/platform-standards --ref main
 
 For lightweight, repo-specific skills that do not need marketplace distribution, skip the plugin manifest entirely and place `SKILL.md` files directly in `.agents/skills/` [^4]:
 
-```
+```text
 my-repo/
 └── .agents/
     └── skills/

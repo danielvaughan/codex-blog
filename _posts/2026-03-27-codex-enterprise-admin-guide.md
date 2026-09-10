@@ -3,7 +3,7 @@ title: "Codex Enterprise Admin Guide: RBAC, Managed Policies and Compliance API"
 description: "Sources: developers.openai.com/codex/enterprise/admin-setup · developers.openai.com/codex/enterprise/governance · March 2026"
 subtitle: "The platform engineering guide to rolling out Codex CLI at enterprise scale — roles, policy enforcement, and audit logging"
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - reference
   - enterprise
@@ -64,7 +64,7 @@ RBAC controls who can use Codex local, Codex cloud, or both — and with what pe
 
 ### Recommended Group Structure
 
-```
+```text
 Identity Provider
 ├── codex-admins          → Codex Admin role (manage policies, environments, analytics)
 ├── codex-cloud-users     → Codex Cloud access (run background tasks)
@@ -195,7 +195,7 @@ OTel emits structured spans for: conversations, API requests, stream activity, t
 
 The recommended enterprise governance structure:
 
-```
+```text
 Layer 1: Self-serve visibility
 └── Analytics Dashboard → adoption metrics, usage by team, PR review stats
 

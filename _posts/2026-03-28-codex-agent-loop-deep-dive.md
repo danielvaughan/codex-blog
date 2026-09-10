@@ -2,7 +2,7 @@
 title: "Inside the Codex Agent Loop: How Your Agent Actually Works"
 description: "*Based on Michael Bolins Unrolling the Codex Agent Loop series (January 2026). Source:"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 summary: "Michael Bolin's deep dive into Codex internals decoded — tokenisation, the quadratic growth problem, how tool calls work, and what it means for how you build agentic workflows."
 substack_ready: false
 tags:
@@ -31,7 +31,7 @@ Michael Bolin, Codex's lead engineer, published a rare technical deep-dive into 
 
 ## The Loop in One Diagram
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                        AGENT LOOP                           │
 │                                                             │
@@ -77,7 +77,7 @@ This is the insight most advanced users miss.
 
 Every time you send a new message, the **entire conversation history** is bundled into the prompt:
 
-```
+```text
 Turn 1:  [system] + [user msg 1]                            → ~2k tokens
 Turn 5:  [system] + 4 turns + tool calls                    → ~15k tokens
 Turn 20: [system] + 19 turns + dozens of tool calls         → ~80k tokens
@@ -164,7 +164,7 @@ If you're building an agentic pod with Orchestrator/Planner/Implementer/Reviewer
 
 Introduced in v0.115.0, Smart Approvals route review requests through a **guardian subagent** rather than interrupting the human.
 
-```
+```text
 Main agent → potentially risky action
                 ↓
            Guardian subagent

@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-elixir-phoenix-teams-tidewave-mcp-functional-agent-workflows"
 tags: ["elixir", "phoenix", "liveview", "tidewave", "mcp", "agents-md", "functional-programming", "team-guide"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Elixir and Phoenix Teams: Tidewave MCP, AGENTS.md, and Functional Agent Workflows
 
@@ -53,7 +53,7 @@ This produces roughly 480 lines of consolidated, dependency-aware context.[^8] T
 
 Codex CLI auto-loads `AGENTS.md` from the nearest directory in the hierarchy.[^9] For Phoenix projects, this means the generated file in your project root is picked up automatically — no additional configuration needed. If you have a monorepo umbrella app, place additional `AGENTS.md` files in each child application directory:
 
-```
+```text
 my_umbrella/
   AGENTS.md                  # shared conventions
   apps/
@@ -215,7 +215,7 @@ sequenceDiagram
 
 ### Practical Example: Adding a Feature
 
-```
+```yaml
 Goal: Add a "bookmark" feature — users can bookmark posts.
 Context: @lib/my_app/posts.ex @lib/my_app/accounts.ex @priv/repo/migrations/
 Constraints: Use a join table, add context functions, write ExUnit tests first (TDD).

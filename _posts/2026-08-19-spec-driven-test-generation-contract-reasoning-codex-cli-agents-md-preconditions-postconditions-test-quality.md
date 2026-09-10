@@ -1,7 +1,7 @@
 ---
 title: "Spec-Driven Test Generation: What Contract Reasoning Reveals About Your Codex CLI Test Workflow"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "test-generation", "spec-driven", "contracts", "AGENTS.md", "pre-conditions", "post-conditions", "PostToolUse", "hooks", "code-quality"]
 ---
 
@@ -43,7 +43,7 @@ The generated tests showed improvements in readability, adherence to testing bes
 
 Codex CLI v0.148.0 [^2] provides the infrastructure to implement spec-driven test generation as a structured workflow, but most teams do not use it. The typical Codex CLI test generation prompt is something like:
 
-```
+```text
 Write unit tests for src/auth/token_validator.ts
 ```
 

@@ -2,7 +2,7 @@
 title: "The Great Convergence: Why Every AI Coding Agent Now Runs the Same Pipeline"
 description: "I have been tracking over a dozen AI coding agents for months now — OpenAI Codex CLI, Anthropic Claude Code, Google Jules, Cursor, GitHub Copilot Agent."
 date: 2026-04-15T16:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - architecture
   - convergence
@@ -194,7 +194,7 @@ Four different companies. Four different starting points. The same destination: 
 
 Addy Osmani's **Agent Skills** project (10,000+ GitHub stars) represents the next convergence happening *on top of* the shared pipeline. It encodes senior engineering discipline — drawn from Google's engineering culture — into a reusable library of 19 skills and 7 commands that work identically across Claude Code, Cursor, and Gemini CLI:[^15]
 
-```
+```text
 /spec → /plan → /build → /test → /review → /code-simplify → /ship
 ```
 

@@ -2,7 +2,7 @@
 title: "Reasoning Effort Tuning: Minimal to xhigh for Cost and Speed"
 description: "Codex CLI's reasoning engine has a single knob that dramatically affects cost, speed, and quality: model_reasoning_effort."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 summary: "How to tune model_reasoning_effort and plan_mode_reasoning_effort for every workflow. The five levels explained with real cost/speed tradeoffs and subagent economics."
 tags:
   - models
@@ -153,7 +153,7 @@ This pattern can reduce overall token spend by 50–70% vs running everything at
 
 ## Decision Framework
 
-```
+```text
 Is the task well-defined, single-file, or mechanical?
   → minimal or low
 

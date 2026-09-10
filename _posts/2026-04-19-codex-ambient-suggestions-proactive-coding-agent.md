@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-codex-ambient-suggestions-proactive-coding-agent"
 tags: ["codex-cli", "ambient-suggestions", "proactive-agent", "hooks", "automations", "context-aware", "developer-experience"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Ambient Suggestions: When Your Coding Agent Starts Thinking Ahead
 
@@ -190,7 +190,7 @@ Codex will set up a minute-based interval automation that polls GitHub, filters 
 
 For more precise control, standalone automations run independently of any conversation thread and can use cron syntax for scheduling:
 
-```
+```text
 ┌─────── minute
 │ ┌───── hour
 │ │ ┌─── day of month
@@ -216,7 +216,7 @@ Codex Skills add another dimension to ambient behaviour. Skills are reusable cap
 
 For example, if you've defined a `$lint-check` skill, Codex may invoke it automatically when it detects you're working on files that have historically triggered linting issues. Combined with automations, skills enable sophisticated ambient workflows:
 
-```
+```text
 Automation (schedule) → Skill (action) → Hook (validation) → Triage (output)
 ```
 

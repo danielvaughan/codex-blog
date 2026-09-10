@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-cli-memory-over-personalisation-sycophancy-risk-configuration-defence"
 tags: ["memory", "sycophancy", "over-personalisation", "dreaming", "configuration", "agent-quality", "codex-cli"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Memory Over-Personalisation in Codex CLI: When Your Agent Agrees With You Instead of the Codebase
 
@@ -140,7 +140,7 @@ Use the `/memories` slash command within a session to inspect what was injected 
 
 For sensitive sessions where you need the agent to follow the codebase rather than your habits:
 
-```
+```text
 /memories off
 ```
 

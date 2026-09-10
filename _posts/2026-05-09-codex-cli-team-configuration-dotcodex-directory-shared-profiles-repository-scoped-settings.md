@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-team-configuration-dotcodex-directory-shared-profiles-repository-scoped-settings"
 tags: ["codex-cli", "configuration", "team-setup", "dotcodex", "profiles", "agents-md", "hooks", "enterprise", "onboarding"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Team Configuration: The .codex Directory, Shared Profiles, and Repository-Scoped Settings for Consistent Agent Behaviour
 
@@ -45,7 +45,7 @@ For teams, the sweet spot is the repository-level `.codex/config.toml`. It sets 
 
 A well-structured repository-level `.codex/` directory looks like this:
 
-```
+```text
 .codex/
 ├── config.toml          # Team defaults: model, sandbox, approval policy
 ├── hooks.json           # Shared lifecycle hooks (lint gates, test gates)
@@ -58,7 +58,7 @@ A well-structured repository-level `.codex/` directory looks like this:
 
 Alongside `.codex/`, the repository root typically holds:
 
-```
+```text
 AGENTS.md                # Top-level project instructions
 .agents/
 ├── skills/              # Shared skill directories
@@ -120,7 +120,7 @@ Key decisions to make as a team:
 
 AGENTS.md is the team's natural-language contract with the agent. Codex walks the directory tree from the project root to the current working directory, concatenating every `AGENTS.md` file it finds[^5]. This means you can layer instructions:
 
-```
+```text
 repo-root/
 ├── AGENTS.md                    # Broad conventions (style, testing, CI)
 ├── services/
@@ -280,7 +280,7 @@ Subagents inherit the parent session's sandbox policy and approval overrides unl
 
 Skills are reusable instruction packages stored in `.agents/skills/` directories[^8]. Each skill is a folder containing at minimum a `SKILL.md` file:
 
-```
+```text
 .agents/skills/
 ├── run-tests/
 │   ├── SKILL.md

@@ -1,7 +1,7 @@
 ---
 title: "DevIntent and the Implicit Intent Violation Problem: Why Your Coding Agent Passes Every Test but Builds the Wrong Thing — and How to Defend Against It in Codex CLI"
 date: 2026-08-11T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "developer-intent", "intent-violation", "implicit-requirements", "AGENTS.md", "specification", "acceptance-criteria", "PostToolUse", "testing", "LLM-code-generation"]
 ---
 
@@ -138,7 +138,7 @@ The exit code 2 convention steers the agent to fix the violation rather than con
 
 DevIntent's methodology — stripping constraints from prompts and encoding them as hidden tests — suggests the inverse practice: **always include acceptance criteria in your prompts**. Rather than asking Codex to "write a function that returns unique elements," specify the full behavioural contract:
 
-```
+```text
 Write a function that returns unique elements from a list.
 
 Acceptance criteria:
@@ -174,7 +174,7 @@ For code destined for production, the strict profile enforces full intent verifi
 
 Codex CLI's plan mode offers a natural integration point for the AssumptionMiner pattern. Before generating code, ask the agent to enumerate its assumptions:
 
-```
+```text
 Before writing any code, list every assumption you are making about:
 1. Input validation and edge cases
 2. Output ordering and formatting

@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-multi-agent-vs-single-agent-codex-cli-framework"
 tags: ["codex-cli", "multi-agent", "single-agent", "subagents", "orchestration", "skill-distillation", "cost-optimisation"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # When to Use Multi-Agent vs Single-Agent: A Practical Framework for Codex CLI Teams
 
@@ -24,7 +24,7 @@ In April 2026, Xu et al. published "From Multi-Agent to Single-Agent: When Is Sk
 
 The formula is straightforward:
 
-```
+```text
 F = 1 − ρ(D_out, D_score)
 ```
 
@@ -105,7 +105,7 @@ Single-agent systems also exploit **prompt caching** effectively — achieving 3
 
 **Codex CLI approach:**
 
-```
+```text
 Review this branch with parallel subagents.
 Spawn one subagent for security risks,
 one for test coverage gaps,

@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-angular-teams-signals-mcp-server-agent-driven-enterprise-frontend"
 tags: ["codex-cli", "angular", "angular-21", "signals", "mcp-server", "agents-md", "enterprise-frontend", "zoneless", "vitest", "standalone-components"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Angular Teams: MCP Server, Signal-Based Patterns, and Agent-Driven Enterprise Frontend Workflows
 
@@ -179,7 +179,7 @@ sequenceDiagram
 
 Effective Angular prompts give Codex the feature scope and let the MCP server handle Angular-specific knowledge:
 
-```
+```text
 Add a user-profile feature module at src/app/features/user-profile/.
 Include:
 - A UserProfileComponent with signal-based form for editing name, email, bio
@@ -225,7 +225,7 @@ Angular 21 defaults to zoneless for new projects, but existing Angular 18–20 a
 
 Run the migration interactively:
 
-```
+```text
 Use the Angular MCP server's onpush_zoneless_migration tool to analyse this project.
 Then migrate components to OnPush change detection one directory at a time,
 running tests after each batch. Start with shared/ components.

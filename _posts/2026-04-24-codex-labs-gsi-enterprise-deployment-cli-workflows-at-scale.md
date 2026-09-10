@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-labs-gsi-enterprise-deployment-cli-workflows-at-scale"
 tags: ["codex-cli", "enterprise", "codex-labs", "gsi", "deployment", "adoption", "configuration"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex Labs and the GSI Network: What Enterprise-Scale Codex Deployment Means for CLI Power Users
 
@@ -128,7 +128,7 @@ codex exec --profile ci "run the test suite and fix any failures"
 
 In enterprise monorepos, nested `AGENTS.md` files let teams maintain local context without bloating the global instruction set. The agent picks the nearest file in the directory hierarchy [^7]:
 
-```
+```text
 mycompany-monorepo/
   AGENTS.md                    # Organisation-wide conventions
   services/

@@ -1,7 +1,7 @@
 ---
 title: "From Prompt to Droplet: Using the DigitalOcean Plugin to Provision Cloud Workspaces for Codex Remote"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "digitalocean", "codex-remote", "cloud-workspace", "droplet", "plugin", "remote-development", "ssh"]
 ---
 
@@ -78,7 +78,7 @@ CODEX_ENV_GO_VERSION=1.24
 
 The CodexPlugin repository [^2] follows a standard Codex plugin layout:
 
-```
+```text
 .codex-plugin/
   plugin.json          # Manifest: name, version, skill/app paths
 .app.json              # Dependency binding to DigitalOcean OAuth app
@@ -101,7 +101,7 @@ The plugin depends on an installed DigitalOcean app (bound via `.app.json`) that
 `configure_ssh.py` renders the `ssh_config.tmpl` template into `~/.ssh/config`, populating four variables [^2]:
 
 {% raw %}
-```
+```text
 Host {{ALIAS}}
   HostName {{IP}}
   User {{USER}}
@@ -148,7 +148,7 @@ The interactive step — manually registering the SSH host in the Codex App — 
 
 If you already have a running Droplet:
 
-```
+```python
 @DigitalOcean connect <droplet_id>
 ```
 

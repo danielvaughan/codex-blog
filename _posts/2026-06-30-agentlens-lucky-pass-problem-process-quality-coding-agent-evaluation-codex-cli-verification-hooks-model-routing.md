@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-agentlens-lucky-pass-problem-process-quality-coding-agent-evaluation-codex-cli-verification-hooks-model-routing"
 tags: ["codex-cli", "AgentLens", "lucky-pass", "process-quality", "agent-evaluation", "SWE-bench", "PostToolUse", "model-routing", "verification-hooks", "trajectory-analysis"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # AgentLens and the Lucky Pass Problem: Why 10.7% of Your Agent's Passing Tests Are Flukes — and How to Configure Codex CLI for Process Quality
 
@@ -37,7 +37,7 @@ For each task, AgentLens merges k ≥ 2 passing trajectories into a Prefix Tree 
 
 A composite 0–100 score combines four signals [^1]:
 
-```
+```text
 f(τc, G) = 0.20·Φstruct + 0.15·Φcov + 0.30·(100·Φcoh) + 0.35·(100·Φtemp)
 ```
 

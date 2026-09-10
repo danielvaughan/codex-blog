@@ -5,7 +5,7 @@ timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-netlify-development-mcp-server-deploy-previews-edge-functions-agent-workflows"
 tags: ["codex-cli", "netlify", "mcp", "deploy-previews", "edge-functions", "agent-runners", "serverless", "jamstack"]
 date: 2026-05-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Netlify Development: MCP Server, Deploy Previews, Agent Runners, and Edge Function Workflows
 
@@ -148,7 +148,7 @@ flowchart LR
 
 Prompt Codex CLI with the Netlify MCP server active:
 
-```
+```sql
 Create a new edge function at netlify/edge-functions/geo-redirect.ts
 that redirects /pricing to /pricing-eu for visitors from EU countries.
 Deploy to a preview and verify the function appears in the deploy log.
@@ -165,7 +165,7 @@ The agent can:
 
 Managing secrets across contexts (production, deploy-preview, branch-deploy) is error-prone. Let the agent handle it:
 
-```
+```text
 Set up the following environment variables for the site "acme-app":
 - STRIPE_SECRET_KEY: use the test key for deploy-preview context,
   production key for production context
@@ -181,7 +181,7 @@ The MCP server's environment variable tools handle context scoping, and Codex CL
 
 Edge functions run on Deno at the network edge and are ideal for auth checks, geolocation, A/B testing, and response transforms[^6]. The development loop benefits from agent assistance because the Deno import model and Netlify-specific APIs (`Netlify.env`, geo object, context) differ from standard Node.js:
 
-```
+```text
 Write an edge function that adds a Cache-Control header
 of "public, max-age=3600, s-maxage=86400" to all responses
 under /api/*, and a "no-store" header for /api/auth/*.

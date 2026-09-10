@@ -5,7 +5,7 @@ timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-vercel-skills-cli-npx-skills-open-agent-skills-ecosystem"
 tags: ["codex-cli", "skills", "vercel", "skills-cli", "npx-skills", "SKILL.md", "agent-ecosystem", "plugin-management", "open-standard"]
 date: 2026-05-31T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Vercel Skills CLI and the Open Agent Skills Ecosystem: Installing, Managing, and Publishing Skills for Codex CLI
 
@@ -172,7 +172,7 @@ enabled = false
 
 You can also invoke skills explicitly within a session using the `$` prefix or the `/skills` slash command:
 
-```
+```markdown
 # Explicit invocation
 $my-lint-fixer fix all ESLint errors in src/
 
@@ -196,7 +196,7 @@ This creates a directory with a template `SKILL.md` ready for editing [^2].
 
 Alternatively, use Codex CLI's built-in skill creator:
 
-```
+```text
 $skill-creator
 ```
 
@@ -206,7 +206,7 @@ This launches a guided flow that produces a well-structured `SKILL.md` with appr
 
 Publishing follows the GitHub-native model. Host your skill in a public GitHub repository with the standard directory structure:
 
-```
+```text
 my-skills/
 ├── skills/
 │   ├── database-migrator/

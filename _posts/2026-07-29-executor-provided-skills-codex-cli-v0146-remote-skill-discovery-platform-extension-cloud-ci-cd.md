@@ -5,7 +5,7 @@ timestamp: 2026-07-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-29-executor-provided-skills-codex-cli-v0146-remote-skill-discovery-platform-extension-cloud-ci-cd"
 tags: ["codex-cli", "skills", "executor", "platform-extension", "v0.146.0", "cloud", "ci-cd", "SKILL.md", "selectedCapabilityRoots"]
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Executor-Provided Skills in Codex CLI v0.146: How Remote Environments Now Contribute Skills to Your Agent
 
@@ -91,7 +91,7 @@ Not every executor skill should appear in the discoverable catalogue. PR #35198 
 
 A cloud workspace provider (DigitalOcean Codex plugin, AWS Cloud9, or a custom executor) can ship skills alongside its environment:
 
-```
+```text
 /opt/codex/plugins/cloud-deploy/
 ├── SKILL.md              # Deployment skill
 ├── staging-teardown/
@@ -123,7 +123,7 @@ The agent now has deployment, staging, and compliance skills without any local i
 
 A CI runner can contribute pipeline-specific skills:
 
-```
+```text
 /opt/codex-ci/skills/
 ├── test-matrix/
 │   └── SKILL.md          # Test matrix configuration

@@ -5,7 +5,7 @@ timestamp: 2026-06-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-fastcontext-repository-explorer-coding-agents-codex-cli-exploration-subagent-token-reduction"
 tags: ["codex-cli", "fastcontext", "repository-exploration", "context-engineering", "token-efficiency", "subagent", "swe-bench", "microsoft-research"]
 date: 2026-06-20T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # FastContext: What Microsoft's Repository Explorer Means for Codex CLI Exploration Strategy
 
@@ -53,7 +53,7 @@ The training follows a two-stage approach[^1]:
 
 The RL reward function combines three signals:
 
-```
+```text
 Reward = F1(predicted_files, ground_truth_files)
        + F1(predicted_lines, ground_truth_lines)
        + parallel_bonus(3..6 calls)

@@ -5,7 +5,7 @@ timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-agent-ready-repository-architecture-codebase-patterns-codex-cli-productivity"
 tags: ["codex-cli", "architecture", "agent-experience", "context-engineering", "repository-structure", "AGENTS.md", "testing", "productivity"]
 date: 2026-06-06T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Agent-Ready Repository Architecture: Codebase Patterns That Maximise Codex CLI Productivity
 
@@ -57,7 +57,7 @@ When a feature owns its own vertical slice — API handler, business logic, data
 
 Organise code by domain, not by technical role. Each module directory should contain everything an agent needs to understand and modify a feature:
 
-```
+```text
 src/
   billing/
     handler.ts        # API endpoint

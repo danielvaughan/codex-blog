@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-slash-commands-complete-reference-v0131-45-commands"
 tags: ["codex-cli", "slash-commands", "tui", "reference", "v0.131", "keyboard-shortcuts", "workflow"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Slash Commands Complete Reference: All 45 Commands in v0.131
 
@@ -62,7 +62,7 @@ Commands for controlling conversation flow, branching, and resuming prior work.
 
 `/side` creates a *throwaway* branch. Ask a quick question, then return to the main thread with no transcript pollution. Useful for ad-hoc queries mid-refactor:
 
-```
+```text
 /side what's the maximum connection pool size for pg 16?
 ```
 
@@ -104,7 +104,7 @@ The canonical workflow is `/plan` → review the proposal → `Shift+Tab` to swi
 
 `/goal` sets an objective that persists across turns:
 
-```
+```text
 /goal raise test coverage in src/auth to 90% without mocking external calls
 /goal          # view the current goal
 /goal pause    # temporarily suspend
@@ -142,7 +142,7 @@ Commands for injecting additional context into the conversation.
 
 `/memories` controls two dimensions independently:
 
-```
+```text
 /memories generate off    # this thread won't create new memories
 /memories use on          # this thread will consume existing memories
 ```
@@ -224,7 +224,7 @@ Commands for monitoring and controlling background work.
 
 For rapid lookup, here are all 45 commands in alphabetical order:
 
-```
+```text
 /agent       /approve     /apps        /clear       /compact
 /copy        /debug-config /diff       /exit        /experimental
 /fast        /feedback    /fork        /goal        /hooks

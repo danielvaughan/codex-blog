@@ -2,7 +2,7 @@
 title: "Codex CLI Code Review Workflows: /review, review_model, and the MCP Extension"
 description: "The /review command is one of Codex CLI's most practical daily-use features, yet it receives surprisingly little attention compared to the agent."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - workflow-patterns
   - code-review
@@ -153,7 +153,7 @@ Key configuration notes:[^11]
 
 Once configured, you can instruct Codex to review mid-session:
 
-```
+```text
 Implement the OAuth token refresh logic, then call review_uncommitted_changes
 with additional_developer_instructions: "Check for token leakage into logs,
 validate expiry handling, and verify PKCE flow correctness."

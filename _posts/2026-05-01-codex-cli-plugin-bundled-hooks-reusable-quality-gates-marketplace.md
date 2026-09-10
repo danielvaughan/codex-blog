@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-plugin-bundled-hooks-reusable-quality-gates-marketplace"
 tags: ["codex-cli", "plugins", "hooks", "marketplace", "quality-gates", "PreToolUse", "PostToolUse", "config.toml", "v0.128", "governance"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Plugin-Bundled Hooks: Distributing Reusable Quality Gates Through the Marketplace
 
@@ -25,7 +25,7 @@ Version 0.128.0, released on 30 April 2026, changes that equation with **plugin-
 
 A Codex plugin is a directory with a `.codex-plugin/plugin.json` manifest at its root[^3]. Hooks live in a `hooks/` directory alongside skills and other components:
 
-```
+```text
 my-quality-gate/
 ├── .codex-plugin/
 │   └── plugin.json

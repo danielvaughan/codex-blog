@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-extension-first-architecture-guardian-namespaced-plugins-modular-governance"
 tags: ["codex-cli", "architecture", "extensions", "plugins", "guardian", "namespacing", "governance", "enterprise", "v0.131"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI's Extension-First Architecture: Guardian as a Plugin, Namespaced Extensions, and Modular Governance
 
@@ -79,7 +79,7 @@ PR #22556 (May 13) introduced namespacing into the extension framework [^4]. Plu
 
 The disambiguation rule follows the pattern `$EXTENSION_NAME@$SOURCE`:
 
-```
+```text
 guardian@core
 my-policy@acme-marketplace
 lint-reviewer@local
@@ -143,7 +143,7 @@ The `hooks` field accepts a path to a lifecycle JSON file, an array of paths, an
 
 The directory structure follows a strict convention:
 
-```
+```text
 security-reviewer/
 ├── .codex-plugin/
 │   └── plugin.json

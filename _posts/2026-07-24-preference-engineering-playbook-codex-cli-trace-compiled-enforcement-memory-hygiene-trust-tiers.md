@@ -1,7 +1,7 @@
 ---
 title: "The Preference Engineering Playbook: From Captured Corrections to Compiled Enforcement in Codex CLI"
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "preferences", "TRACE", "compiled-enforcement", "memory-hygiene", "AGENTS.md", "hooks", "trust-tiers"]
 ---
 
@@ -153,7 +153,7 @@ All deployed entries carry verify-retry markers. Retries are bounded at three pe
 
 For teams requiring stronger guarantees, PCAS (Policy Compiler for Agentic Systems) represents the next evolution: Datalog-based declarative policies compiled into deterministic reference monitors [^1]. Where Codex hooks match surface patterns, PCAS tracks information flow transitively through a causal dependency graph:
 
-```
+```text
 Depends(dst, src) :- Edge(src, dst).
 Depends(dst, src) :- Depends(dst, mid), Edge(src, mid).
 ```

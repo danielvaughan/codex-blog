@@ -1,7 +1,7 @@
 ---
 title: "Speculative Decoding Meets Agentic LLMs: How AsymSpec and AgentSpec Close the Tool-Use Inference Gap"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["inference-optimisation", "speculative-decoding", "tool-use", "MCP", "agentic-llm", "performance", "EMNLP-2026"]
 ---
 
@@ -38,7 +38,7 @@ graph LR
 
 The drafter generates logits from both the full context (`a_i`) and the compressed context (`b_i`). The difference `δ_i = a_i − b_i` isolates context-induced shifts — the additional signal the drafter gains from reading the full history. On rejection, this delta steers the verifier:
 
-```
+```text
 d'_i = argmax(t_i + β · δ_i)
 ```
 
@@ -46,7 +46,7 @@ where `t_i` are the verifier's own logits and `β` controls injection strength.
 
 A **Context-Divergence Acceptance (CDA) gate** adapts the acceptance threshold proportionally to the Jensen-Shannon divergence between full and compressed contexts:
 
-```
+```text
 γ_eff(i) = γ · exp(−D_i)
 ```
 
@@ -98,7 +98,7 @@ structure = [
 
 The **redundancy-aware budget allocation** then distributes the dynamic token budget according to per-request acceptance likelihood:
 
-```
+```text
 g(c, n) = (c/n) · p(n)    # redundancy score
 Li = max(|CT_i|, Bt · gi / Σgj)   # per-request draft length
 ```

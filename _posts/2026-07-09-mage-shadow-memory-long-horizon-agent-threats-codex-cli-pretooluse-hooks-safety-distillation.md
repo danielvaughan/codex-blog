@@ -1,7 +1,7 @@
 ---
 title: "Shadow Memory for Long-Horizon Agent Safety: What MAGE Reveals About Persistent Threat Detection — and How to Wire Equivalent Guardrails into Codex CLI"
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "agent-security", "shadow-memory", "long-horizon-threats", "pretooluse-hooks", "prompt-injection", "MAGE", "guardrails"]
 ---
 
@@ -54,7 +54,7 @@ At each turn, the memory manager distils the current interaction into a compact 
 
 The update follows a simple recurrence:
 
-```
+```text
 m_t = M(m_{t-1}, s_{t-1})
 ```
 
@@ -64,7 +64,7 @@ Length penalties keep the shadow memory compact — under 2,500 characters by de
 
 Both components (memory manager and judge) share a single small model with role-specific prompting, trained via Group Relative Policy Optimisation with temporally-discounted rewards [^2]:
 
-```
+```text
 R_mem(m_t) = Σ(k=t to T) γ^(k-t) · 𝟙[d_k = d*_k]
 ```
 

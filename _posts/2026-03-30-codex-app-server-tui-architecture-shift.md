@@ -2,7 +2,7 @@
 title: "Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions"
 description: "Codex CLI v0.117.0 (released March 26, 2026) quietly shipped what may be its most significant architectural change to date."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - architecture
   - app-server
@@ -27,7 +27,7 @@ Prior to this change, the CLI TUI was a native client running in the **same proc
 
 With the app-server backing the TUI, the design is now protocol-first:
 
-```
+```text
 ┌───────────────────────────┐
 │  Terminal (TUI client)    │
 │  speaks JSON-RPC / JSONL  │

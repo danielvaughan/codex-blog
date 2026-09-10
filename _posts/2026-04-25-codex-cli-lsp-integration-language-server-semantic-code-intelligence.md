@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-lsp-integration-language-server-semantic-code-intelligence"
 tags: ["codex-cli", "lsp", "language-server-protocol", "code-intelligence", "mcp", "diagnostics", "refactoring"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # LSP Integration for Codex CLI: Bridging the Semantic Code Intelligence Gap
 
@@ -149,14 +149,14 @@ After editing Python files, always run:
 
 pyright --outputjson .
 
-```
+```text
 
 After editing TypeScript files, always run:
 ```
 
 npx tsc --noEmit
 
-```
+```text
 
 Parse the JSON output for errors and fix them before proceeding.
 ```

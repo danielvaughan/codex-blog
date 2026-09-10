@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-design-pattern-refactoring-gof-solid-agent-assisted-codebase-improvement"
 tags: ["codex-cli", "design-patterns", "refactoring", "GoF", "SOLID", "clean-architecture", "agents-md", "hooks", "skills", "code-quality", "architecture"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Design Pattern Refactoring: Agent-Assisted GoF Patterns, SOLID Enforcement, and Architectural Improvement
 
@@ -33,7 +33,7 @@ flowchart TD
 
 Start every design-pattern refactoring session in plan mode. Press `Shift+Tab` or type `/plan` before describing the smell:
 
-```
+```text
 /plan The OrderProcessor class in src/orders/processor.ts handles validation,
 pricing, tax calculation, notification, and persistence. It has 847 lines
 and 14 public methods. Propose three refactoring options using GoF patterns
@@ -175,7 +175,7 @@ When the same pattern application recurs across projects — extracting a God cl
 
 ### Strategy Pattern Extraction Skill
 
-```
+```text
 .codex/skills/extract-strategy/
 ├── SKILL.md
 ├── examples/
@@ -246,7 +246,7 @@ flowchart TD
 
 The parent agent prompt might read:
 
-```
+```text
 Decompose src/orders/order-service.ts (1,247 lines) into clean
 architecture layers. Use subagents for each extraction:
 

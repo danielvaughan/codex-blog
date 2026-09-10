@@ -1,7 +1,7 @@
 ---
 title: "Keepalive Economics: What Prompt Cache Eviction During Idle Pauses Costs Your Codex CLI Sessions — and How to Stop Bleeding Tokens"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "prompt-caching", "cache-eviction", "keepalive", "token-economics", "cost-optimisation", "agentic-workloads", "prefix-cache", "TTL"]
 ---
 
@@ -42,7 +42,7 @@ The fix is conceptually simple: during idle pauses, replay the cached prefix on 
 
 **Keepalive cost per token over idle duration *I* with ping interval *τ*:**
 
-```
+```text
 C_keepalive = (⌊I/τ⌋ + 1) × r
 ```
 
@@ -50,7 +50,7 @@ where *r* is the cached-read price ratio (typically 0.10).
 
 **Break-even horizon** — the maximum idle duration before keepalive costs exceed a single cold re-prefill:
 
-```
+```text
 I_max = τ × (w/r − 1)
 ```
 

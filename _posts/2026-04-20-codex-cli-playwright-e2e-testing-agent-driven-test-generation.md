@@ -2,7 +2,7 @@
 title: "End-to-End Testing with Codex CLI and Playwright: Agent-Driven Test Generation Pipelines"
 description: "End-to-end test suites are the perennial bottleneck in modern development workflows."
 date: 2026-04-20T00:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 type: Technical Article
 timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-playwright-e2e-testing-agent-driven-test-generation"
@@ -201,7 +201,7 @@ The real power emerges when Codex CLI orchestrates the entire pipeline. Here is 
 
 In the Codex CLI TUI, a typical session might look like this:
 
-```
+```text
 > Use the Playwright MCP to navigate to http://localhost:3000/dashboard,
   explore the user settings flow, then generate a Playwright test suite
   covering: profile update, password change, and notification preferences.

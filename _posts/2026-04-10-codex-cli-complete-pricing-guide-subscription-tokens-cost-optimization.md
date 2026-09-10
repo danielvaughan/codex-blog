@@ -2,7 +2,7 @@
 title: "The Complete Codex CLI Pricing Guide: Subscriptions, Tokens, Cost Optimisation, and Competitive Analysis"
 description: "Every AI coding agent runs on tokens, and tokens cost money. Codex CLI is unique among major AI coding agents: it is open-source, runs locally, and supports."
 date: 2026-04-10T14:30:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 featured: true
 tags:
   - pricing
@@ -439,7 +439,7 @@ codex -c model_reasoning_effort="high" "explain this race condition"
 
 **During an interactive session** — use the `/reasoning` slash command to switch effort levels mid-session without restarting[^screenfluent]:
 
-```
+```text
 /reasoning high
 ```
 

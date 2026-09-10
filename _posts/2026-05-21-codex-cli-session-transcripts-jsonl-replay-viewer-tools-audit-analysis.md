@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-session-transcripts-jsonl-replay-viewer-tools-audit-analysis"
 tags: ["codex-cli", "session-transcripts", "jsonl", "replay", "audit", "observability", "tooling", "community"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis
 
@@ -19,7 +19,7 @@ Every Codex CLI session generates a complete JSONL transcript — every prompt, 
 
 Codex CLI writes one JSONL file per session under `$CODEX_HOME/sessions/`, organised by date [^1]:
 
-```
+```text
 ~/.codex/sessions/
   2026/
     05/

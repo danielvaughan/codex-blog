@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-cost-calculator-token-budget-estimator-mixed-model-workflows"
 tags: ["codex-cli", "cost-optimisation", "token-budget", "mixed-model", "pricing", "automation"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Cost Calculator: Building a Token Budget Estimator for Mixed-Model Workflows
 
@@ -213,7 +213,7 @@ python codex_cost.py --codex-home ~/my-codex-data --days 30
 
 Sample output:
 
-```
+```text
 Model              Input     Cached     Output       Cost
 --------------------------------------------------------------
 gpt-5.5           45,200     38,100     12,800     $0.62

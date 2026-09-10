@@ -2,7 +2,7 @@
 title: "The Agentic Engineering Pod: Three Roles, One Shared Context Layer"
 description: "Traditional software team structures were not designed for agentic delivery. They are built around specialisations: product managers own requirements."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - orchestration
   - team-workflow
@@ -46,7 +46,7 @@ In Codex, the Context Architect's primary work is the AGENTS.md hierarchy. Repo-
 
 **Concrete example.** A subscription service is adding a renewal flow. Before the feature enters delivery, the Context Architect assesses whether `src/subscriptions/AGENTS.md` covers the idempotency requirements for the renewal path. It does not. They run a context-architect session:
 
-```
+```sql
 Update src/subscriptions/AGENTS.md to add acceptance criteria for the renewal
 path. The endpoint must be idempotent (double-call safe), emit a
 subscription.renewed event before returning, and leave state unchanged on
@@ -67,7 +67,7 @@ They also run the **agentic loop**: deciding when to let an agent run to complet
 
 **Concrete example.** The Value Engineer receives the renewal feature from the Context Architect with the acceptance criteria already written. They open a Codex session in a dedicated worktree and lead with the high-signal brief:
 
-```
+```text
 Implement POST /subscriptions/renew per the acceptance criteria in
 src/subscriptions/AGENTS.md. Start with /plan — show me the affected files
 and dependency order before writing any code. The idempotency check must use
@@ -86,7 +86,7 @@ They also own **adversarial testing**: proactively red-teaming the pod's agent w
 
 **Concrete example.** After the Value Engineer signals completion on the renewal implementation, the Quality Engineer's post-session hook fires automatically: test suite runs, scope check verifies no restricted files were touched, audit event verification confirms the `subscription.renewed` event is emitted. Then the Quality Engineer runs an adversarial session:
 
-```
+```text
 Red-team POST /subscriptions/renew. Test for concurrent calls from the same
 user_id, Stripe webhook arrival during a pending renewal, and any path where
 a second charge could be created for the same user. Report findings.

@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-codebase-onboarding-developer-ramp-up-unfamiliar-projects"
 tags: ["codex-cli", "codebase-onboarding", "developer-experience", "AGENTS.md", "skills", "MCP", "knowledge-graph", "GPT-5.5"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codebase Onboarding with Codex CLI: Using AI Agents to Ramp Up on Unfamiliar Projects
 
@@ -77,7 +77,7 @@ End with the files I should read next."
 
 Use `/side` for tangential questions that should not pollute your main exploration thread[^5]:
 
-```
+```text
 /side What ORM does this project use and how are migrations managed?
 ```
 
@@ -85,7 +85,7 @@ The `/side` command spawns an ephemeral fork — Codex answers the question with
 
 For deeper architectural dives, use `/fork` to create a persistent branch you can return to:
 
-```
+```text
 /fork Let me explore the authentication subsystem separately
 ```
 
@@ -143,13 +143,13 @@ OpenAI's best practices are clear: "a short, accurate AGENTS.md is more useful t
 
 The community `codebase-onboarding` skill automates the reconnaissance phase[^7]. Install it via the built-in skill installer:
 
-```
+```text
 $skill-installer install codebase-onboarding
 ```
 
 Once installed, invoke it with:
 
-```
+```text
 $codebase-onboarding
 ```
 
@@ -177,7 +177,7 @@ Key tools for onboarding:
 
 With GitNexus active, you can ask Codex questions like:
 
-```
+```text
 What functions depend on UserRepository.findById()
 and what would break if I changed its return type?
 ```

@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-trpc-v11-type-safe-api-development-tanstack-mcp-agent-workflows"
 tags: ["codex-cli", "trpc", "trpc-v11", "tanstack", "type-safe-apis", "mcp", "agent-workflows", "typescript", "full-stack"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for tRPC v11 Development: Type-Safe APIs, TanStack Integration, and MCP-Bridged Agent Workflows
 
@@ -324,7 +324,7 @@ The TypeScript compiler runs after each mutation step, catching type mismatches 
 
 For large applications, structure routers by domain:
 
-```
+```text
 src/server/routers/
 ├── root.ts          # mergeRouters entry point
 ├── user.ts

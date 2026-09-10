@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-harnessx-composable-evolvable-agent-harness-foundry-codex-cli-configuration-evolution-patterns"
 tags: ["codex-cli", "harness-engineering", "HarnessX", "AEGIS", "composable-configuration", "agent-evolution", "SWE-bench", "hooks", "named-profiles", "config-toml"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # HarnessX: What the Composable Agent Harness Foundry Means for Codex CLI Configuration Evolution
 
@@ -87,7 +87,7 @@ The inverse-scaling finding means your cheap-model profile benefits *more* from 
 
 HarnessX's context assembly processors decide what information reaches the model at each turn [^1]. In Codex CLI, this maps to the AGENTS.md inheritance chain:
 
-```
+```text
 ~/.codex/AGENTS.md          # Global context: team conventions
 repo-root/AGENTS.md          # Project context: architecture, test patterns
 packages/api/AGENTS.md       # Package context: API-specific constraints

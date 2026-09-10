@@ -6,7 +6,7 @@ timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-zig-development-teams-zls-mcp-cross-compilation-build-system"
 tags: ["zig", "systems-programming", "mcp", "cross-compilation", "build-system", "zls", "codex-cli"]
 date: 2026-05-22T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Zig Development Teams: ZLS MCP Integration, Cross-Compilation Workflows, and Build System Automation
 
@@ -138,7 +138,7 @@ This pattern works well in CI pipelines using `openai/codex-action@v1`[^6], wher
 
 Zig uses `@import("builtin")` for target detection rather than preprocessor macros. When reviewing platform-specific code, prompt Codex with the target context:
 
-```
+```text
 Review @src/hal/uart.zig for correctness on thumb-freestanding-none.
 Check that all comptime branches in the target switch cover the M4
 interrupt vector layout and that volatile pointer casts are aligned.
@@ -170,7 +170,7 @@ flowchart TD
 
 Zig 0.14+ uses `build.zig.zon` for package management[^7]. Codex can handle the full workflow:
 
-```
+```text
 Add the zap HTTP server (https://github.com/zigzap/zap) as a dependency.
 Update build.zig.zon with the correct hash, add the import to build.zig,
 and create a minimal src/server.zig that listens on port 8080.
@@ -195,7 +195,7 @@ zig build test -- --test-filter "parse_header"
 
 A productive pattern is to ask Codex to write tests first, then implement:
 
-```
+```text
 Write tests for a Zig allocator that pools fixed-size 64-byte blocks from a
 pre-allocated 4 KiB arena. Test allocation, deallocation, double-free
 detection, and pool exhaustion. Place tests in src/pool_allocator.zig
@@ -208,7 +208,7 @@ using std.testing. Run them to confirm they fail, then implement the allocator.
 
 Zig's comptime is powerful but unusual. When asking Codex to generate comptime code, be explicit about what should execute at compile time versus runtime:
 
-```
+```text
 Generate a comptime function that creates a lookup table mapping ASCII
 characters to their hex digit values (0-15 for 0-9, a-f, A-F; 0xff for
 invalid). The table should be a [256]u8 array computed entirely at comptime.
@@ -219,7 +219,7 @@ Include a runtime decode_hex function that uses the table.
 
 Zig's explicit error unions (`!`) and error sets are a strength that models sometimes bypass. Enforce rigour in your AGENTS.md:
 
-```
+```text
 When handling errors in this project:
 - Always use named error sets, never anyerror
 - Prefer errdefer for cleanup over manual error path management
@@ -231,7 +231,7 @@ When handling errors in this project:
 
 Zig's allocator-passing pattern is central to the language. Guide Codex explicitly:
 
-```
+```text
 Refactor the JSON parser to accept an std.mem.Allocator parameter
 instead of using the global page_allocator. Ensure all allocated
 memory is freed in a defer/errdefer block. The caller should be

@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-redis-development-mcp-server-agent-skills-caching-workflows"
 tags: ["codex-cli", "redis", "mcp", "caching", "agent-skills", "valkey", "data-structures"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Redis Development: MCP Server, Agent Skills, and Production Caching Workflows
 
@@ -182,7 +182,7 @@ LLMs trained before Redis 8 will generate outdated patterns. Add these rules to 
 
 Ask Codex to generate a caching middleware with the MCP server providing schema awareness:
 
-```
+```text
 Add a Redis caching layer to the /api/products endpoint. Use JSON documents
 with 5-minute TTL. Include cache stampede protection using probabilistic
 early expiration. The Redis MCP server is connected — inspect the current
@@ -197,7 +197,7 @@ Codex will use the MCP server to check existing keys, then generate code that:
 
 ### Pattern 2: Rate Limiter with Sliding Window
 
-```
+```text
 Implement a sliding-window rate limiter using Redis sorted sets. The limit
 is 100 requests per minute per API key. Include a Lua script for atomic
 check-and-increment. Write the implementation and the integration test.
@@ -224,7 +224,7 @@ sequenceDiagram
 
 For teams moving from database-backed sessions to Redis:
 
-```
+```text
 Migrate our Express session store from PostgreSQL to Redis. Use
 ioredis with JSON documents for session data. Keep the existing
 session interface unchanged. Add health check endpoints that
@@ -261,7 +261,7 @@ done | jq -s '.'
 
 With Redis 8's native vector sets, Codex can create semantic search indexes:
 
-```
+```sql
 Create a vector search index on our product catalogue. Use Redis JSON
 documents with a 768-dimension embedding field. Include a search
 endpoint that accepts natural language queries, embeds them, and

@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-codex-cli-remote-development-app-server-ssh-multi-environment"
 tags: ["codex-cli", "remote-development", "app-server", "ssh", "multi-environment", "websocket", "authentication", "devbox", "tailscale"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Remote Development: App Server Architecture, SSH Connections, and Multi-Environment Workflows
 
@@ -88,7 +88,7 @@ Ensure `codex` is on the remote user's login shell PATH. The App Server bootstra
 
 Add the remote host to your SSH config:
 
-```
+```text
 # ~/.ssh/config
 Host devbox
   HostName devbox.example.com

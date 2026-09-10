@@ -2,7 +2,7 @@
 title: "Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots"
 description: "The moment your coding agent reviews its own output, you have a problem. Not because the agent is dishonest."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - workflow-patterns
   - code-review
@@ -39,7 +39,7 @@ One practitioner described the realisation clearly: *"you need to have your agen
 
 The solution is structural. Two roles, different models, clean context separation.
 
-```
+```text
 ┌─────────────────────────────────────────────────────┐
 │                ADVERSARIAL REVIEW LOOP              │
 │                                                     │
@@ -106,7 +106,7 @@ Never reuse a critic session — anchoring bias is real, even for AI.
 
 For high-stakes changes, a multi-round debate produces better results than a single-pass review:
 
-```
+```text
 Round 1: Claude and Codex independently review the same diff
 Round 2: Each agent critiques the other's findings
 Round 3: Each agent responds to critiques
@@ -121,7 +121,7 @@ The circuit breaker matters: stop if no progress after 3 iterations, or if disag
 
 [Metaswarm](https://github.com/dsifry/metaswarm) implements adversarial review at framework scale. Every work unit runs through a four-phase loop:
 
-```
+```text
 IMPLEMENT → VALIDATE → ADVERSARIAL REVIEW → COMMIT
 ```
 

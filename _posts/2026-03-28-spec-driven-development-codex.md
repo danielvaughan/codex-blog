@@ -2,7 +2,7 @@
 title: "Spec-Driven Development with Codex: Writing Specifications Before Code"
 description: "Test-Driven Development (TDD) tells the agent when it is done. Spec-Driven Development (SDD) tells it what to build in the first place. The two approaches."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - workflow-patterns
   - planning
@@ -154,7 +154,7 @@ The framework enforces human review at each phase boundary — you approve requi
 
 The `codex-spec` CLI (GitHub: shenli/codex-spec) stores all artefacts in a `.codex-specs/` directory with a consistent structure:[^9]
 
-```
+```text
 .codex-specs/
 ├── context/
 │   ├── product.md      # product-level context

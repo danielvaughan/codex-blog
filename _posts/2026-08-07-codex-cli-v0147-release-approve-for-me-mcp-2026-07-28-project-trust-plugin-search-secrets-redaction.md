@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.147.0: --approve-for-me, MCP 2026-07-28 Protocol, Project Trust Gates, and the End of --full-auto"
 date: 2026-08-07T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "v0.147.0", "release", "mcp", "approve-for-me", "project-trust", "plugin-search", "secrets-redaction", "security"]
 ---
 
@@ -67,7 +67,7 @@ sequenceDiagram
 
 v0.147.0 hardens the trust boundary around unfamiliar repositories. When you `cd` into a directory Codex has not seen before, the CLI now presents a one-time trust prompt before loading any project-scoped configuration [^4]:
 
-```
+```text
 ? Do you trust the contents of /home/dev/cloned-repo? (y/N)
 ```
 
@@ -94,7 +94,7 @@ Combined with the managed-authentication restrictions also shipped in v0.147.0 â
 
 The plugin system, first introduced in v0.129 and expanded steadily since, gains cross-catalogue search in v0.147.0 [^1]. The `/plugins search` command now queries four scopes simultaneously:
 
-```
+```text
 /plugins search "database migration"
 ```
 

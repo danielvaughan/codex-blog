@@ -6,7 +6,7 @@ timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-mcp-schema-bloat-system-prompt-tax-tool-definition-performance"
 tags: ["mcp", "performance", "token-budget", "tool-definitions", "prefill-latency", "prompt-engineering", "cost-optimisation"]
 date: 2026-04-23T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # MCP Schema Bloat and System Prompt Tax: Performance Impact of Tool Definitions
 
@@ -206,7 +206,7 @@ This reduces upfront overhead by an estimated 47% for tool-heavy configurations[
 
 Agent Skills implement progressive disclosure — the opposite of MCP's eager loading[^3]. At session start, only skill metadata loads (~80 tokens per skill). The full skill body (~2,000 tokens median) loads only when the model determines it is relevant.
 
-```
+```text
 100 MCP tools at ~250 tokens each     = ~25,000 tokens upfront
 100 Skills at ~80 tokens metadata each = ~8,000 tokens upfront
                                          (full bodies load on demand)
@@ -269,7 +269,7 @@ For local models, every token of overhead translates directly to prefill latency
 
 To audit your current MCP token overhead, use the `/mcp` TUI command during a session to list all registered tools. Count them and estimate:
 
-```
+```text
 Estimated MCP overhead ≈ (number of tools) × 250 tokens
 ```
 

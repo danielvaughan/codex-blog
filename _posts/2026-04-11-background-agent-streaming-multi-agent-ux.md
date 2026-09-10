@@ -2,7 +2,7 @@
 title: "Background Agent Streaming: From Fire-and-Forget to Observable Multi-Agent UX"
 description: "Until v0.120.0, Codex CLI's multi-agent delegation followed a fire-and-forget pattern."
 date: 2026-04-11T13:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 type: Technical Article
 timestamp: 2026-04-11T14:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-background-agent-streaming-multi-agent-ux"
@@ -49,7 +49,7 @@ When multiple background agents run concurrently (e.g., one generating code whil
 
 The background agent streaming model suggests a new delegation pattern for agentic pod design:
 
-```
+```text
 Orchestrator Agent
   ├── spawn background_agent "generate-tests" → streams progress
   ├── spawn background_agent "update-docs" → streams progress

@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-duckdb-motherduck-analytical-sql-mcp-agent-data-workflows"
 tags: ["codex-cli", "duckdb", "motherduck", "mcp", "analytical-sql", "data-engineering", "agent-skills", "ducklake"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for DuckDB and MotherDuck: MCP-Driven Analytical SQL, Agent Skills, and Data Pipeline Workflows
 
@@ -108,7 +108,7 @@ Once installed, skills are loaded on demand. The agent selects the appropriate s
 
 Verify the installation:
 
-```
+```text
 > Use MotherDuck Skills to choose the best connection path for this project.
 ```
 
@@ -151,7 +151,7 @@ Steer the agent towards correct DuckDB SQL rather than PostgreSQL or MySQL idiom
 
 ### Pattern 1: Exploratory Data Analysis Pipeline
 
-```
+```text
 > Load all Parquet files from ./data/raw/ into a staging table,
 > profile the columns with SUMMARIZE, identify nulls and outliers,
 > then create a cleaned fact table with appropriate types.
@@ -173,7 +173,7 @@ flowchart LR
 
 One of the server's distinctive features is runtime database switching [^3]. Use this to join data across sources without manual ETL:
 
-```
+```text
 > Connect to the S3 warehouse at s3://analytics/prod.duckdb,
 > pull the customer dimension table, then switch to the local
 > events.duckdb and join on customer_id. Write the result to
@@ -186,7 +186,7 @@ The agent calls `switch_database_connection` to toggle between databases within 
 
 DuckLake v1.0 (shipped with DuckDB v1.5.2, April 2026) provides snapshots and time-travel queries over a SQL-based catalog [^6]. Combine this with Codex for audit workflows:
 
-```
+```text
 > Attach the DuckLake catalog at postgres://catalog-db/ducklake,
 > compare the orders table between yesterday's snapshot and today,
 > and summarise all schema changes and row-count deltas.
@@ -217,7 +217,7 @@ This chains Codex's SQL generation with DuckDB's CLI for fully automated report 
 
 MotherDuck's Dives feature lets agents build shareable, real-time data visualisations from composable SQL [^8]. With the MotherDuck Agent Skills installed and the MCP server connected to `md:`:
 
-```
+```text
 > Using MotherDuck Skills, create a Dive showing weekly active users
 > over the last 90 days, broken down by acquisition channel.
 > Share the Dive link.

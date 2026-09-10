@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-django-fastapi-python-web-teams-agents-md-testing-workflows"
 tags: ["codex-cli", "django", "fastapi", "python", "AGENTS.md", "testing", "sandbox", "web-development"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Django and FastAPI Teams: AGENTS.md Templates, Sandbox Configuration, and Python Web Development Workflows
 
@@ -59,7 +59,7 @@ myproject/
     conftest.py      # Shared pytest fixtures
     factories/       # Factory Boy model factories
 
-```
+```markdown
 
 ## Conventions
 - Use class-based views for CRUD; function-based views for simple endpoints
@@ -118,7 +118,7 @@ app/
     test_api/        # Route-level tests
     test_services/   # Unit tests for business logic
 
-```
+```markdown
 
 ## Conventions
 - Schemas and models are separate — never use ORM models in API responses

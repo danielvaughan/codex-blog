@@ -2,7 +2,7 @@
 title: "From Codex to GPT-5.4: The Complete History of OpenAI's Code Models"
 description: "In July 2021, OpenAI published a paper describing a GPT-3 model fine-tuned on 159 gigabytes of Python code from 54 million GitHub repositories. They called."
 date: 2026-04-11T06:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - codex
   - history
@@ -103,7 +103,7 @@ HumanEval measures a model's ability to generate correct Python functions from d
 | o1-preview | Sep 2024 | **92.4%** | +2pp |
 | Frontier (2025+) | — | **95%+** | Saturated |
 
-```
+```text
 HumanEval pass@1 Progression (2021-2025)
 ═══════════════════════════════════════════
 
@@ -137,7 +137,7 @@ SWE-bench Verified measures a model's ability to autonomously resolve real softw
 | GPT-5.2 | Dec 2025 | **80.0%** | +3.7pp |
 | GPT-5.4 | Mar 2026 | **~80%** | ≈0pp |
 
-```
+```text
 SWE-bench Verified Progression (2024-2026)
 ═══════════════════════════════════════════
 
@@ -177,7 +177,7 @@ Competitive programming performance, measured by Elo rating on Codeforces proble
 | o1 | Dec 2024 | **1891** | Candidate Master |
 | o3 | Apr 2025 | **2727** | Grandmaster (99th+ percentile) |
 
-```
+```text
 Codeforces Elo Progression
 ══════════════════════════
 

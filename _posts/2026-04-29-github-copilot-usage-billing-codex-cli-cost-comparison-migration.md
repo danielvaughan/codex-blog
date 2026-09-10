@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-github-copilot-usage-billing-codex-cli-cost-comparison-migration"
 tags: ["codex-cli", "github-copilot", "pricing", "cost-comparison", "migration", "enterprise", "billing"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # GitHub Copilot's Usage-Based Billing Shift: What It Means for Codex CLI Teams
 
@@ -82,7 +82,7 @@ For teams running Copilot code review on private repositories, the new Actions m
 
 Consider a five-person team running 20 code reviews per day on a private monorepo:
 
-```
+```text
 Copilot Business (post-June):
   Seats: 5 × $19 = $95/mo
   AI Credits for reviews: variable (token-dependent)

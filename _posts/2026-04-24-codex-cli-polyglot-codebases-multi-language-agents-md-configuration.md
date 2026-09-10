@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-polyglot-codebases-multi-language-agents-md-configuration"
 tags: ["codex-cli", "agents-md", "polyglot", "monorepo", "configuration", "multi-language", "enterprise", "workflow"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Polyglot Codebases: Hierarchical AGENTS.md, Per-Directory Config, and Multi-Language Workflow Patterns
 
@@ -29,7 +29,7 @@ Codex CLI builds an instruction chain by concatenating AGENTS.md files from the 
 
 This hierarchy maps naturally to polyglot repository structures:
 
-```
+```text
 repo-root/
 ├── AGENTS.md                          # Shared conventions
 ├── .codex/config.toml                 # Root project config

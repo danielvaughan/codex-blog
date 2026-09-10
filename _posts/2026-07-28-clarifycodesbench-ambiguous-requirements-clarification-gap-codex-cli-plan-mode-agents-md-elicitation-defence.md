@@ -1,7 +1,7 @@
 ---
 title: "ClarifyCodeBench and the Clarification Gap: Why Your Codex CLI Agent Writes Wrong Code from Ambiguous Prompts"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "ClarifyCodeBench", "ambiguous-requirements", "clarification", "plan-mode", "AGENTS.md", "code-generation", "elicitation", "prompt-engineering"]
 ---
 
@@ -151,7 +151,7 @@ This directly addresses the ambiguity types where models are weakest. The Clarif
 
 Rather than hoping the model will spontaneously ask the right questions (TKQR scores suggest it will not), you can force a structured elicitation round:
 
-```
+```text
 Before writing any code for this task, ask me 5 clarifying questions
 about edge cases, output format, and error handling. Do not proceed
 until I have answered all questions.

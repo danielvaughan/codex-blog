@@ -1,7 +1,7 @@
 ---
 title: "Progressive Crystallisation: How to Turn Codex CLI Exploration into Deterministic, Lower-Cost Workflows"
 date: 2026-07-10T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "progressive-crystallisation", "skills", "codex-exec", "cost-optimisation", "deterministic-workflows", "CI-CD", "session-extraction", "AIOps"]
 ---
 
@@ -80,7 +80,7 @@ Output only the successful path as a SKILL.md skeleton." \
 
 **3. Skill creator workflow.** Use the built-in skill creator to formalise the extracted pattern:
 
-```
+```bash
 codex "Create a skill for <task description>. \
 The skill should trigger when <condition>. \
 Here are the steps that worked: <paste successful path>."

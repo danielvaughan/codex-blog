@@ -2,7 +2,7 @@
 title: "Legacy Code Archaeology with Codex CLI: Understanding, Documenting, and Safely Modernising Unfamiliar Codebases"
 description: "Every senior developer has faced it: a critical system written by people who left years ago, sparse documentation, no tests."
 date: 2026-04-23T00:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 type: Technical Article
 timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-codex-cli-legacy-code-archaeology-modernisation-unfamiliar-codebases"
@@ -48,7 +48,7 @@ codex --model gpt-5.5 --sandbox read-only
 
 Using `read-only` sandbox mode is critical during exploration — it prevents Codex from modifying anything while it investigates. Once inside the session:
 
-```
+```sql
 Explain how the request flows through this codebase. Include:
 which modules own what, where data is validated, and top gotchas
 to watch for before making changes. End with the files I should
@@ -59,7 +59,7 @@ read next.
 
 Once you have the high-level map, use `@` mentions to drill into specific modules without wasting context tokens on irrelevant files[^5]:
 
-```
+```python
 @src/billing/invoice_generator.py @src/billing/tax_calculator.py
 Trace the invoice generation flow end to end. Identify:
 1. Where business rules are encoded (vs configuration)
@@ -71,7 +71,7 @@ Trace the invoice generation flow end to end. Identify:
 
 For particularly tangled codebases, `/plan` mode helps structure the exploration before committing to any approach[^5]:
 
-```
+```text
 /plan
 Map the dependency graph of the payment processing subsystem.
 Identify circular dependencies, God classes, and modules that
@@ -85,7 +85,7 @@ Plan mode presents Codex's exploration strategy before execution, letting you re
 
 Codex can execute existing test suites to understand what the codebase actually does versus what the (possibly outdated) documentation claims:
 
-```
+```text
 Run the existing test suite and summarise:
 - Which modules have test coverage and which do not
 - What the tests actually verify (happy path only? edge cases?)
@@ -108,7 +108,7 @@ codex /init
 
 Then refine it with legacy-specific guidance:
 
-```
+```text
 Read the directory structure and refine AGENTS.md so it covers:
 - The legacy stack and its conventions (naming, file layout, build system)
 - Known tribal knowledge: which modules are fragile, which are stable
@@ -120,7 +120,7 @@ Read the directory structure and refine AGENTS.md so it covers:
 
 OpenAI's code modernisation cookbook[^2] introduces the ExecPlan — a lightweight planning document that structures the entire modernisation effort. Create `.agent/PLANS.md` to define the format, then ask Codex to produce the first plan:
 
-```
+```sql
 Create pilot_execplan.md following .agent/PLANS.md. Scope it to
 the billing module. The plan should cover four outcomes:
 - Inventory and diagrams
@@ -135,7 +135,7 @@ legacy files.
 
 The inventory phase is where AI comprehension delivers its largest return. Thoughtworks' CodeConcise tool demonstrated a 66% reduction in reverse engineering time for COBOL modules — from six weeks to two per module[^7]. Codex CLI achieves similar acceleration for any language it can read:
 
-```
+```sql
 Create billing_overview.md with "Inventory" and "Modernisation
 Technical Report" sections.
 
@@ -186,7 +186,7 @@ The strangler fig pattern — coined by Martin Fowler in 2004 — replaces legac
 
 The cookbook emphasises scaffolding tests *before* implementation[^2]. This is the single most important discipline for safe legacy modernisation:
 
-```
+```text
 Using billing_validation.md, create tests/billing_parity_test.py.
 Include placeholder assertions referencing test scenarios from the
 validation plan. Do not assume the modern implementation exists yet.
@@ -194,7 +194,7 @@ validation plan. Do not assume the modern implementation exists yet.
 
 Once tests are in place, ask Codex to generate the initial implementation:
 
-```
+```text
 Using billing_design.md and legacy programs from billing_overview.md,
 generate implementation code under modern/billing/ that:
 - Defines domain models for invoice records
@@ -219,7 +219,7 @@ graph LR
 
 The prompt for each iteration:
 
-```
+```text
 Here is a failing parity test and the relevant legacy and modern code.
 Explain why outputs differ and propose the smallest change to align
 modern code with legacy behaviour. Show updated code and test adjustments.
@@ -229,7 +229,7 @@ modern code with legacy behaviour. Show updated code and test adjustments.
 
 Before committing any modernised module, run Codex's built-in review[^5]:
 
-```
+```text
 /review Focus on: behavioural parity with legacy, error handling
 completeness, and any assumptions about data formats that may not hold.
 ```
@@ -309,7 +309,7 @@ Practical guardrails:
 
 Once one module is successfully modernised, the ExecPlan becomes a reusable template[^2]:
 
-```
+```text
 Using the billing pilot files, create template_modernisation_execplan.md
 that teams can copy when modernising other modules. Include:
 - Compliance with .agent/PLANS.md

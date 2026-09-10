@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-cli-ml-engineering-training-scripts-experiment-tracking-mlops-pipelines"
 tags: ["codex-cli", "machine-learning", "mlops", "mlflow", "experiment-tracking", "pytorch", "hugging-face", "mcp"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for ML Engineering: Training Scripts, Experiment Tracking, and MLOps Pipeline Automation
 
@@ -110,7 +110,7 @@ The key insight is specificity. Telling Codex "use mixed-precision training" is 
 
 Complex model architectures benefit from Codex CLI's plan mode. Start by asking the agent to plan before writing:
 
-```
+```bash
 codex "Plan a Vision Transformer implementation for image classification.
 Target: CIFAR-100, patch size 16, embedding dim 768, 12 heads, 12 layers.
 Use torch.nn.MultiheadAttention. Plan first, do not write code yet."
@@ -122,7 +122,7 @@ The agent will outline the class hierarchy, parameter counts, and forward pass s
 
 Data loading code is highly formulaic — exactly the kind of work where Codex CLI excels. A well-scoped prompt with explicit constraints produces reliable results:
 
-```
+```text
 codex "Write a PyTorch Dataset class for the Oxford Pets dataset.
 Requirements:
 - Download via torchvision.datasets if available, otherwise use HuggingFace datasets
@@ -138,7 +138,7 @@ The AGENTS.md conventions ensure the agent follows project-specific patterns (se
 
 When a training run produces unexpected loss curves or gradient issues, Codex CLI's ability to read files and run commands in a single session is particularly valuable:
 
-```
+```text
 codex "The training loss plateaus at 2.3 after epoch 5.
 Read src/training/trainer.py and configs/experiment_v3.yaml.
 Check for:
@@ -159,7 +159,7 @@ With the MLflow MCP server active, Codex can interact with your experiment track
 
 ### Querying Past Experiments
 
-```
+```text
 Ask Codex: "Search MLflow for all runs in experiment 'cifar100-vit'
 where val_accuracy > 0.82. Show me the hyperparameters of the top 3."
 ```
@@ -210,7 +210,7 @@ The Hugging Face MCP server turns model discovery and dataset selection into a c
 
 ### Model Selection
 
-```
+```text
 Ask Codex: "Search Hugging Face for image classification models
 fine-tuned on CIFAR-100 with an Apache-2.0 licence.
 Compare the top 3 by parameter count and reported accuracy."
@@ -220,7 +220,7 @@ The agent uses the Hub's model search tool to find candidates, retrieves model c
 
 ### Dataset Exploration
 
-```
+```text
 Ask Codex: "Find Hugging Face datasets for medical image segmentation.
 Filter for datasets with at least 10,000 samples and a train/test split.
 Show licence and citation information."

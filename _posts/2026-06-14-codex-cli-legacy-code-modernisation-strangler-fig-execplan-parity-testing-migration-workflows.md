@@ -5,7 +5,7 @@ timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-codex-cli-legacy-code-modernisation-strangler-fig-execplan-parity-testing-migration-workflows"
 tags: ["codex-cli", "legacy-modernisation", "strangler-fig", "execplan", "parity-testing", "code-migration", "COBOL", "refactoring"]
 date: 2026-06-14T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Legacy Code Modernisation with Codex CLI: The Strangler Fig Pattern, ExecPlans, and Parity-First Migration Workflows
 
@@ -214,7 +214,7 @@ command = "python scripts/run_parity_tests.py"
 
 The OpenAI Cookbook recommends this layout for modernisation projects[^2]:
 
-```
+```text
 .agent/
   AGENTS.md              # Agent behaviour contract
   PLANS.md               # ExecPlan format specification

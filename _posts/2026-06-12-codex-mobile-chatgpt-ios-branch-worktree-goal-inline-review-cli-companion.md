@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-mobile-chatgpt-ios-branch-worktree-goal-inline-review-cli-companion"
 tags: ["codex-cli", "codex-mobile", "chatgpt-ios", "remote-control", "goal-mode", "inline-review", "branch-selection", "worktree", "mobile-workflow", "june-2026"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex Mobile in ChatGPT iOS: Branch Selection, Goal Management, and Inline Code Review from Your Phone
 
@@ -114,7 +114,7 @@ Adding `/goal` to the mobile surface means you can:
 
 A workflow emerging among CLI developers who commute:
 
-```
+```text
 Morning commute (phone):
   1. Open ChatGPT iOS → Codex
   2. Select project, choose feature branch, create worktree
@@ -158,7 +158,7 @@ This mirrors the review pane in the desktop app, which pulls GitHub pull request
 
 When you add an inline comment on a changed file from mobile, the comment is injected into the conversation as a user message with file path and line number metadata[^10]. The agent treats it like any other user instruction but with precise spatial context:
 
-```
+```text
 User comment on src/auth/pkce.ts:42:
 "This nonce generation uses Math.random().
 Use crypto.getRandomValues() instead — this is a security-sensitive path."

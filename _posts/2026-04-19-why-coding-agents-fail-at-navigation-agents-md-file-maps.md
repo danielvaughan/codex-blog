@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps"
 tags: ["codex-cli", "agents-md", "navigation", "file-maps", "benchmarks", "agent-failures", "codebase-navigation"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)
 
@@ -173,7 +173,7 @@ pnpm test             # unit tests (Vitest)
 pnpm test:integration # integration tests (requires Docker)
 pnpm lint             # ESLint + Prettier check
 pnpm build            # TypeScript compilation
-```
+```markdown
 
 ## Project Structure
 
@@ -203,7 +203,7 @@ pnpm build            # TypeScript compilation
 - ⚠️ Ask first: database migrations, dependency upgrades
 - 🚫 Never: modify `.env.*`, `infra/`, or `node_modules/`
 
-```
+```markdown
 
 ## Measuring the Impact
 
@@ -223,7 +223,7 @@ If the agent's first actions in a session are targeted file reads rather than ex
 
 For large codebases, use Codex CLI's hierarchical discovery to split your file map across directories:
 
-```
+```text
 monorepo/
 ├── AGENTS.md                    # global: tech stack, CI commands
 ├── apps/

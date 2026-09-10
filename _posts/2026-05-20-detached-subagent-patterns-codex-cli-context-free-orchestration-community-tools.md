@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-detached-subagent-patterns-codex-cli-context-free-orchestration-community-tools"
 tags: ["codex-cli", "subagents", "multi-agent", "orchestration", "context-isolation", "community-tools", "detached-processes"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Detached Subagent Patterns for Codex CLI: Context-Free Orchestration Beyond Built-in Fork Semantics
 
@@ -96,7 +96,7 @@ Launch all three with `subagents start --manifest review-tasks.json`. Each threa
 
 Leonard Sellem's `codex-subagents-mcp` (now succeeded by `codex-specialized-subagents`) takes a different architectural stance [^3]. Rather than a CLI wrapper, it exposes a single MCP tool — `delegate` — that the parent agent calls like any other tool:
 
-```
+```text
 subagents.delegate(agent="review", task="Summarise and review the last commit")
 ```
 

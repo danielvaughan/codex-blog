@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-ai-coding-productivity-paradox-metr-research-codex-cli-genuine-speed-gains"
 tags: ["codex-cli", "productivity", "METR", "research", "developer-experience", "best-practices", "workflow", "configuration", "perception-gap"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The AI Coding Productivity Paradox: What Three Major Studies Reveal and How to Configure Codex CLI for Genuine Speed Gains
 
@@ -106,7 +106,7 @@ codex --profile deep-work
 
 Inside the session, start every non-trivial task with `/plan`:
 
-```
+```text
 /plan Refactor the authentication module to use JWT rotation.
 Before implementing, identify all files that import from auth/,
 list the current test coverage, and propose a migration sequence.
@@ -158,7 +158,7 @@ For parallelisable work, use subagents to avoid thread-switching entirely:
 max_depth = 1
 ```
 
-```
+```text
 Spawn two subagents:
 1. Agent A: Update all API route handlers to use the new middleware
 2. Agent B: Write integration tests for each updated route
@@ -191,7 +191,7 @@ npx vitest run --changed 2>&1 || exit 1
 
 Use `/review` with custom instructions to enforce quality standards before accepting any output:
 
-```
+```text
 /review --instructions "Check for: silent error swallowing,
 missing input validation, hardcoded credentials, broad try-catch
 blocks, and any deviation from existing patterns in this codebase."
@@ -229,7 +229,7 @@ description." --input "$(git diff main...HEAD)" \
 
 For the review queue specifically, the `/review` command against a base branch automates the first-pass triage that consumes the most reviewer time[^7]:
 
-```
+```text
 /review base=main
 ```
 

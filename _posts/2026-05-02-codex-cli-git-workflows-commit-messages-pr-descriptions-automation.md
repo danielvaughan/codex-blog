@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-codex-cli-git-workflows-commit-messages-pr-descriptions-automation"
 tags: ["codex-cli", "git", "commit-messages", "pull-requests", "automation", "codex-exec", "workflows", "productivity"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Everyday Git Workflows: Commit Messages, PR Descriptions, and Branch Automation
 
@@ -128,7 +128,7 @@ Output only the branch name." --full-auto
 
 In an interactive session, this becomes conversational:
 
-```
+```text
 > I need to fix the race condition in the connection pool timeout handler
 Branch suggestion: fix/connection-pool-timeout-race
 ```

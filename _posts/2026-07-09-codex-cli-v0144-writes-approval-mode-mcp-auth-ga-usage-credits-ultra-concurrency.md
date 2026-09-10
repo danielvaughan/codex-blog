@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.144.0 Release Guide: The writes Approval Mode, MCP Authentication GA, and Usage-Credit Redemption"
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "v0.144.0", "release-guide", "approval-modes", "mcp-authentication", "usage-credits", "configuration"]
 ---
 
@@ -134,7 +134,7 @@ The underlying app-server endpoints are:
 
 From the TUI, type `/usage` and follow the prompts. The display now shows:
 
-```
+```text
 Usage limits
 ├── Current period: 72% consumed
 ├── Reset credits available: 2

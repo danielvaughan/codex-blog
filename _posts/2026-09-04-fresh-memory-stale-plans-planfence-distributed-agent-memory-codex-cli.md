@@ -3,7 +3,7 @@ title: "Fresh Memory, Stale Plans: Why PlanFence Matters for Distributed Codex C
 parent: "Articles"
 nav_order: 1125
 date: 2026-09-04T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "multi-agent", "distributed-memory", "consistency", "planfence", "subagents", "hooks"]
 ---
 
@@ -26,7 +26,7 @@ Nothing in the freshness check caught it. The plan was authorised by a record th
 
 The formal statement is clean. Define the **lineage validity** predicate:
 
-```
+```text
 Valid(a) ⟺ F_a(x) = H(x), ∀x ∈ D(a)
 ```
 

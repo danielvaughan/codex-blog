@@ -2,7 +2,7 @@
 title: "Migrating from Cursor to Codex CLI"
 description: "Cursor's June 2025 pricing overhaul — replacing predictable 500-request plans with variable credit pools — sent a visible slice of its user base searching."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - competitive-landscape
   - cursor
@@ -35,7 +35,7 @@ Cursor's legacy `.cursorrules` file (a single Markdown blob at the project root)
 
 A typical `.cursor/rules/` directory might look like:
 
-```
+```text
 .cursor/rules/
   typescript.mdc       # Always — language conventions
   react-components.mdc # Auto Attached to *.tsx
@@ -90,7 +90,7 @@ The equivalent `AGENTS.md` section:
 
 AGENTS.md does not have Cursor's glob-scoped activation. The file is always read in full. To replicate scope, use subdirectory `AGENTS.md` files:
 
-```
+```text
 src/api/AGENTS.md     # API-specific rules
 src/ui/AGENTS.md      # Component-specific rules
 AGENTS.md             # Project-wide rules

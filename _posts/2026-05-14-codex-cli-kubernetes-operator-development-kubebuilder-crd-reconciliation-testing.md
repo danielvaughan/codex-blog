@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-kubernetes-operator-development-kubebuilder-crd-reconciliation-testing"
 tags: ["codex-cli", "kubernetes", "operators", "kubebuilder", "CRD", "controller-runtime", "envtest", "Go", "reconciliation", "testing"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Kubernetes Operator Development: Scaffolding CRDs, Writing Reconciliation Loops, and Testing with envtest
 
@@ -79,7 +79,7 @@ kubebuilder create api --group data --version v1alpha1 --kind BackupSchedule --r
 
 This produces the canonical layout[^1]:
 
-```
+```text
 ├── api/v1alpha1/
 │   ├── backupschedule_types.go    # CRD spec and status structs
 │   └── zz_generated.deepcopy.go   # auto-generated
@@ -98,7 +98,7 @@ This produces the canonical layout[^1]:
 
 CRD design benefits from Codex's plan mode. The spec and status structs define the operator's API contract — get them wrong and every downstream component breaks.
 
-```
+```text
 /plan Design the BackupSchedule CRD. The spec should let users define:
 a cron schedule, a target PVC name, a retention policy (count and age),
 and an optional S3 destination. The status should track the last
@@ -145,7 +145,7 @@ After the types are written, Codex should run `make generate && make manifests` 
 
 The reconciliation loop is where most operator complexity lives. A well-structured prompt gives Codex enough context to generate idempotent, production-grade logic:
 
-```
+```text
 Implement the Reconcile method for BackupScheduleReconciler.
 The loop should:
 1. Fetch the BackupSchedule CR; return if not found (deleted)
@@ -242,7 +242,7 @@ var _ = BeforeSuite(func() {
 
 Prompt Codex to generate envtest cases for every reconciliation path:
 
-```
+```text
 Write envtest integration tests for BackupScheduleReconciler covering:
 1. Creating a BackupSchedule CR triggers Job creation
 2. Deleting the CR runs the finalizer and cleans up Jobs
@@ -301,7 +301,7 @@ With `workspace-write` and the `KUBEBUILDER_ASSETS` path set, `make test` works 
 
 Once the operator logic and tests pass, Codex can generate the deployment manifests. The standard Kubebuilder approach uses Kustomize overlays in `config/`:
 
-```
+```text
 Generate production Kustomize overlays for the backup-operator:
 - config/production/ with namespace, resource limits, replica count 2
 - config/production/manager_patch.yaml with memory limit 128Mi, CPU limit 100m

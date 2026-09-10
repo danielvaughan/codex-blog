@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-proactive-teammate-thread-automations-scheduled-monitoring-durable-views"
 tags: ["codex-cli", "codex-app", "automations", "thread-automations", "proactive-monitoring", "plugins", "scheduled-tasks", "durable-views", "teammate"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex as a Proactive Teammate: Thread Automations, Scheduled Monitoring, and Durable Views
 
@@ -73,7 +73,7 @@ You can also wire MCP servers for tools without first-party plugins — any MCP 
 
 Start a new thread and use a prompt like the one OpenAI recommends:
 
-```
+```text
 Can you check @slack, @gmail, @google-calendar, and @notion and tell me
 what needs my attention? Look for anything important or surprising that
 I might miss.
@@ -95,7 +95,7 @@ These corrections persist in the thread's compacted context. Over several iterat
 
 Convert the thread into a scheduled automation:
 
-```
+```text
 Keep an eye on these sources and let me know if anything useful pops up.
 Check every weekday morning at 9 AM.
 ```
@@ -224,7 +224,7 @@ This prevents individual developers from granting full access to background auto
 
 Monitor deployment pipelines and alert when a deploy fails or takes unusually long.
 
-```
+```text
 Watch our GitHub Actions workflows in the main repo. Every 30 minutes,
 check for:
 1. Failed workflow runs in the last hour
@@ -237,7 +237,7 @@ Flag failures as high urgency. Include the run URL and failure step.
 
 Surface PRs that have gone unreviewed, using calendar context to route them appropriately.
 
-```
+```text
 Every weekday at 10 AM, check GitHub for:
 - PRs open more than 48 hours without a review
 - PRs where the author has responded to review comments but no re-review
@@ -251,7 +251,7 @@ Suggest specific reviewers based on file ownership.
 
 Catch documentation that has drifted from the code it describes.
 
-```
+```text
 Every Monday at 8 AM, compare the README files and docs/ folder against
 recent code changes in the last 7 days. Flag any documentation that
 references functions, endpoints, or configuration keys that have been
@@ -262,7 +262,7 @@ renamed or removed. Include the specific file paths and line numbers.
 
 The most powerful teammate pattern: synthesise context across multiple tools to surface patterns no single tool reveals.
 
-```
+```text
 Every morning at 8:30 AM, check:
 - @slack for any threads mentioning my name or my team's projects
 - @github for PRs assigned to me or my direct reports

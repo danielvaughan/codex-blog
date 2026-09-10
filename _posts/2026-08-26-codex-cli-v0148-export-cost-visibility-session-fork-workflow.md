@@ -1,7 +1,7 @@
 ---
 title: "What You Can See, You Can Steer: Codex CLI v0.148.0's /export, Cost Visibility, and codex exec fork"
 date: 2026-08-26T10:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "v0.148.0", "session-management", "export", "cost-visibility", "forking", "workflow", "developer-experience"]
 ---
 
@@ -56,7 +56,7 @@ PRs #38281 and #38282 surface estimated thread credits or cost across three surf
 
 The estimate updates after each turn completion. For workspaces connected to the token-based billing model introduced in 2026, the figure is shown in credits; for API key users it reflects approximate token cost.[^2]
 
-```
+```bash
  codex v0.148.0 · session s_2026-08-26T09-12-34_f7a3e1 · ~$0.84 · 12 turns
 ```
 

@@ -2,7 +2,7 @@
 title: "Migrating Custom Prompts to Skills: The v0.117.0 Breaking Change and Practical Conversion Guide"
 description: "If you upgraded Codex CLI to v0.117.0 and found your /prompts: slash commands had vanished, you are not alone. OpenAI removed the custom prompts subsystem."
 date: 2026-04-10T17:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 type: Technical Article
 timestamp: 2026-04-10T18:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-migrating-custom-prompts-to-skills"
@@ -178,7 +178,7 @@ The `default_prompt` pre-fills the composer when a user selects the skill, simul
 
 Skills support directories that custom prompts never could:
 
-```
+```text
 migration/
 ├── SKILL.md
 ├── agents/
@@ -231,7 +231,7 @@ Review the output before committing — the conversion is mechanical but the `de
 
 For writing new skills from scratch rather than converting old prompts, use the built-in `$skill-creator` skill[^10]:
 
-```
+```text
 $skill-creator
 ```
 

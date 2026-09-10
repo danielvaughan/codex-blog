@@ -6,7 +6,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-github-codespaces-devcontainer-prebuilds-secrets-cloud-agent-workflows"
 tags: ["codex-cli", "github-codespaces", "devcontainers", "prebuilds", "secrets", "cloud-development", "sandboxing", "enterprise", "governance"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI in GitHub Codespaces: Devcontainer Configuration, Prebuilds, and Cloud Agent Workflows
 
@@ -293,7 +293,7 @@ For teams, Codespaces offers organisation-level policies that complement Codex C
 
 Restrict which container images can be used for Codespaces:
 
-```
+```text
 Settings → Codespaces → Base image → Only allow specific images
 ```
 

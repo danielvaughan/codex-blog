@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-the-execplan-pattern-structuring-long-codex-sessions-with-plans-md"
 tags: ["codex-cli", "planning", "ExecPlan", "PLANS.md", "long-horizon", "AGENTS.md", "durable-memory", "workflow"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The ExecPlan Pattern: Structuring 7-Hour Codex Sessions with PLANS.md
 
@@ -84,7 +84,7 @@ ExecPlans follow strict formatting rules to avoid confusing the model[^1]:
 
 Once configured, invoke ExecPlans with a prompt like:
 
-```
+```text
 Use the execplans skill. Create an ExecPlan for this migration,
 keep it updated while you work, and implement the plan end to end.
 ```

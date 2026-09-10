@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-end-of-fine-tuning-openai-api-wind-down-codex-cli-customisation-stack-agents-md-skills-hooks"
 tags: ["codex-cli", "fine-tuning", "customisation", "AGENTS.md", "skills", "hooks", "configuration", "GPT-5.5", "prompt-engineering", "migration"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The End of Fine-Tuning: What OpenAI's API Wind-Down Means for Your Codex CLI Customisation Strategy
 
@@ -57,7 +57,7 @@ The combined size limit is 32 KiB by default (configurable via `project_doc_max_
 
 Skills replace the fine-tuning pattern of training a model on task-specific examples. A skill is a directory containing a `SKILL.md` file plus optional `scripts/`, `references/`, and `assets/` directories[^6]. Where a fine-tuned model internalised workflow knowledge, a skill externalises it as executable documentation.
 
-```
+```text
 .agents/skills/api-review/
 ├── SKILL.md
 ├── scripts/

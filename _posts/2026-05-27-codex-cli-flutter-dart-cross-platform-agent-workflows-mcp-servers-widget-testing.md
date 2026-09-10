@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-flutter-dart-cross-platform-agent-workflows-mcp-servers-widget-testing"
 tags: ["codex-cli", "flutter", "dart", "mcp", "cross-platform", "widget-testing", "agentic-development"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Flutter and Dart: Cross-Platform Agent Workflows, MCP Servers, and Widget Testing
 
@@ -124,7 +124,7 @@ env = { FIGMA_ACCESS_TOKEN = "fig_..." }
 
 A single Codex CLI prompt can leverage the Dart MCP server to scaffold a widget, add dependencies, and run analysis:
 
-```
+```bash
 codex "Create a line chart widget that shows heart rate data over time.
 Find a suitable charting package on pub.dev, add it, then run analysis
 and fix any issues."
@@ -142,7 +142,7 @@ The agent's tool trajectory:
 
 With a Flutter app running in debug mode, the `mcp_flutter` toolkit enables visual feedback loops[^3]:
 
-```
+```bash
 codex "The login button on the sign-in screen isn't responding to taps.
 Take a screenshot, inspect the widget tree around the button, check for
 any runtime errors, then fix the issue and hot-reload."
@@ -161,7 +161,7 @@ This closed feedback loop — screenshot, inspect, fix, reload, verify — is wh
 
 DCM's MCP server can enforce quality thresholds before a commit[^4]:
 
-```
+```bash
 codex "Run DCM analysis on lib/. Fix any unused imports, dead code,
 and files exceeding a cyclomatic complexity of 20. Then format everything
 with dart format."
@@ -173,7 +173,7 @@ The agent calls DCM tools for metrics calculation, unused code detection, and au
 
 Flutter's `flutter test` command integrates naturally with agent workflows. The Dart MCP server exposes test execution and result analysis[^2], enabling prompts such as:
 
-```
+```text
 codex "Write widget tests for the HeartRateChart widget. Cover:
 1. Renders without data (empty state)
 2. Renders with sample data points
@@ -203,7 +203,7 @@ flowchart TD
 
 For visual regression testing, you can direct the agent to generate golden files:
 
-```
+```bash
 codex "Generate golden tests for all widgets in lib/widgets/.
 Use matchesGoldenFile with platform-specific tolerances.
 Run them once to create the baseline PNGs, then verify they pass."

@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-app-server-stdio-subprocess-embedding-custom-clients-json-rpc-protocol"
 tags: ["codex-cli", "app-server", "stdio", "json-rpc", "protocol", "embedding", "custom-clients", "python-sdk", "typescript-sdk", "v0.136"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex App-Server `--stdio` Mode: Subprocess Embedding, Custom Clients, and the JSON-RPC 2.0 Protocol
 
@@ -128,7 +128,7 @@ Response includes `id` (a UUID), `status`, `createdAt`. Pass the thread ID to su
 
 After `turn/start`, the server streams notifications with no `id` field until `turn/completed`:[^2]
 
-```
+```json
 {"jsonrpc":"2.0","method":"turn/started","params":{"threadId":"...","turnId":"..."}}
 {"jsonrpc":"2.0","method":"item/started","params":{"type":"agentMessage","id":"..."}}
 {"jsonrpc":"2.0","method":"item/agentMessage/delta","params":{"id":"...","delta":"I'll add "}}

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI, 2 September 2026: Managed Worktrees, Cross-Platform Voice Runtime, and TUI Resilience"
 date: 2026-09-02T18:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "worktrees", "multi-agent", "voice", "tui", "release", "v0.153"]
 ---
 
@@ -108,7 +108,7 @@ The practical effect: if you have customised `tui.history_size`, `tui.notice_fil
 
 PR #42194[^6] adds Replace mode to the TUI composer, activated by `R` in Vim normal mode:
 
-```
+```text
 Normal mode → R → Replace mode
 ```
 

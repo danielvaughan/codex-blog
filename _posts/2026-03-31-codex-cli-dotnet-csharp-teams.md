@@ -2,7 +2,7 @@
 title: "Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI"
 description: "The .NET ecosystem has a richer Codex integration story than most developers realise. Between the official dotnet/skills catalogue published by the .NET."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - language-guide
   - agents-md
@@ -76,7 +76,7 @@ Before any coding task, confirm the toolchain:
 dotnet --version        # must be 9.0.x or later
 dotnet --list-sdks
 dotnet --list-runtimes
-```
+```markdown
 
 ## Build commands
 
@@ -114,14 +114,14 @@ See NuGet section below. If `dotnet restore` fails with access-denied errors, se
 ```bash
 export NUGET_PACKAGES="$HOME/.nuget/packages"
 dotnet restore --locked-mode -m:1
-```
+```markdown
 
 ## Sensitive files — never modify
 
 - `*.pfx`, `*.p12`, `appsettings.Production.json`, `secrets.json`
 - Migration history files (`Migrations/`) — use `dotnet ef migrations add` instead
 
-```
+```markdown
 
 ## NuGet Sandboxing: The Critical Pitfall
 
@@ -306,7 +306,7 @@ max_depth   = 2
 
 Invoke from a prompt:
 
-```
+```text
 Spawn dotnet-test-writer for src/Services/OrderService.cs
 and dotnet-reviewer for src/Controllers/OrderController.cs
 in parallel, then summarise both outputs.
@@ -316,7 +316,7 @@ in parallel, then summarise both outputs.
 
 With `dotnet/skills` installed, Codex surfaces skill guidance automatically when it encounters relevant code. For example, editing an Entity Framework migration triggers the `dotnet-data` skill context; a failing test emits diagnostics guided by `dotnet-test`. You can also invoke skills directly via slash commands in the TUI:
 
-```
+```text
 /dotnet-diag:analyzing-dotnet-performance
 ```
 

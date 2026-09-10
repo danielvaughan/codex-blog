@@ -2,7 +2,7 @@
 title: "Codex CLI for Kubernetes and Cloud-Native Teams: AGENTS.md, Helm Workflows, and the Agent Sandbox CRD"
 description: "Kubernetes YAML is notoriously error-prone. Helm templates add Go template syntax on top. Operator development demands reconciliation loops, CRD schemas."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - language-guide
   - kubernetes
@@ -136,7 +136,7 @@ These rules prevent the agent from running destructive `kubectl` commands whilst
 
 A typical prompt for generating a new Helm chart:
 
-```
+```sql
 Create a Helm chart in charts/user-service for a Go HTTP service.
 Include: Deployment, Service, HPA, PDB, ServiceAccount, NetworkPolicy.
 Use values.yaml for all configurable fields. Add helm-unittest tests.
@@ -149,7 +149,7 @@ Codex will scaffold the chart, populate `templates/`, write `values.yaml` with s
 
 For teams building Kubernetes operators, Codex handles the boilerplate-heavy reconciliation loop:
 
-```
+```text
 Add a new CRD "BackupSchedule" (group: platform.example.com, version: v1alpha1)
 using Kubebuilder. The reconciler should create a CronJob that runs
 a backup script at the schedule specified in .spec.schedule.

@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-tui-composer-mastery-ctrl-r-history-search-keyboard-shortcuts"
 tags: ["tui", "composer", "ctrl-r", "history-search", "keyboard-shortcuts", "prompt-iteration", "v0.121.0", "productivity"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Mastering the Codex TUI Composer: Ctrl+R History Search, Kill Ring, and Power-User Shortcuts
 
@@ -190,7 +190,7 @@ If this causes issues (rare), it can be disabled via the `disable_paste_burst` f
 
 ### Pattern 1: The Refinement Loop
 
-```
+```yaml
 You: "Refactor the auth module to use JWT tokens"
 [Review output]
 Ctrl+R → type "auth" → find original prompt → Enter
@@ -200,7 +200,7 @@ You: "Refactor the auth module to use JWT tokens, keeping backward compat with s
 
 ### Pattern 2: Slash Command Replay
 
-```
+```yaml
 You: /review --base main
 [Review output, make changes]
 [Later in session...]
@@ -210,7 +210,7 @@ Ctrl+R → type "/review" → Enter
 
 ### Pattern 3: Draft Stash for Context Switching
 
-```
+```yaml
 You: [typing complex refactoring prompt with @src/auth.ts @src/middleware.ts...]
 [Realise you need to check current test coverage first]
 Ctrl+C  [draft stashed]
@@ -222,7 +222,7 @@ Enter  [submit the original refactoring prompt]
 
 ### Pattern 4: External Editor for Complex Instructions
 
-```
+```text
 Ctrl+G  [opens $EDITOR]
 [Write a multi-paragraph prompt with code examples, constraints, and edge cases]
 [Save and quit editor]

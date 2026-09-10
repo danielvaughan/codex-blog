@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-goal-command-persisted-long-horizon-workflows-pause-resume-budget"
 tags: ["codex-cli", "goal-workflows", "long-horizon", "persistence", "token-budgets", "autonomous-agents"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI /goal: Persisted Long-Horizon Workflows with Pause, Resume, and Token Budgets
 
@@ -133,7 +133,7 @@ codex
 
 Inside the TUI:
 
-```
+```text
 /goal Migrate the auth module from session-based to JWT. Update all service
 files importing auth.session, replace middleware, update tests, and verify
 the full test suite passes.
@@ -141,13 +141,13 @@ the full test suite passes.
 
 The agent begins working. You can close your laptop, commute, and resume later:
 
-```
+```text
 /goal resume
 ```
 
 The agent continues from its preserved state, aware of which files it has already modified. If you need to review intermediate results:
 
-```
+```text
 /goal pause
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: "Egress Gates and the Prompt Data Boundary: How Hamza Closes the Gap Codex CLI's Built-In Redaction Cannot"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "security", "secrets", "egress-gate", "hamza", "proxy", "presidio", "enterprise", "data-protection", "audit"]
 ---
 
@@ -139,7 +139,7 @@ One underappreciated benefit of an egress gate is the audit trail it produces. C
 
 Hamza's Prometheus metrics expose counters per detector type and action [^4]:
 
-```
+```text
 hamza_findings_total{detector="SECRET_SCANNER",action="MASK"} 47
 hamza_findings_total{detector="PRESIDIO",action="MASK"} 12
 hamza_findings_total{detector="REGISTERED_VALUE",action="BLOCK"} 3

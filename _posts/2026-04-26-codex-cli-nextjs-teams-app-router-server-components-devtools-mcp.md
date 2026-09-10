@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-nextjs-teams-app-router-server-components-devtools-mcp"
 tags: ["codex-cli", "next-js", "react-server-components", "app-router", "devtools-mcp", "vercel", "turbopack", "gpt-5-5", "full-stack"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Next.js Teams: App Router, Server Components, DevTools MCP, and Agent-Driven Full-Stack Workflows
 
@@ -142,7 +142,7 @@ The MCP server automatically discovers Next.js instances on different ports and 
 
 After starting your dev server, confirm the MCP connection within a Codex session:
 
-```
+```text
 /mcp verbose
 ```
 
@@ -232,7 +232,7 @@ sequenceDiagram
 
 When Codex needs to add interactivity (event handlers, hooks, browser APIs), it should extract the interactive portion into a separate Client Component:
 
-```
+```yaml
 Prompt: "Add a search filter to /dashboard that filters the stats table
 client-side"
 ```
@@ -250,7 +250,7 @@ This pattern — server-first with surgical client extraction — is exactly wha
 
 Server Actions replace traditional API routes for form submissions and mutations in the App Router[^2]. Direct Codex to create them in dedicated files:
 
-```
+```yaml
 Prompt: "Add a Server Action to update user preferences. Put it in
 app/dashboard/actions.ts"
 ```
@@ -261,7 +261,7 @@ The AGENTS.md rule about dedicated `actions.ts` files prevents the common anti-p
 
 For cases where Server Actions are insufficient (webhooks, third-party API callbacks, streaming responses), Codex generates Route Handlers:
 
-```
+```yaml
 Prompt: "Create a webhook handler at /api/stripe/webhook that verifies
 the Stripe signature and processes checkout.session.completed events"
 ```

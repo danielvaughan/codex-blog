@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-programbench-zero-percent-benchmark-architectural-reasoning-codex-cli-lessons"
 tags: ["codex-cli", "benchmarks", "programbench", "architectural-reasoning", "plan-mode", "reasoning-effort", "software-engineering", "swe-bench", "long-horizon", "agents-md"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # ProgramBench and the Zero-Percent Problem: What a Cleanroom Benchmark Reveals About Architectural Reasoning in Codex CLI
 
@@ -144,7 +144,7 @@ statusMessage = "Running test suite"
 
 ProgramBench tasks demand sustained, multi-step reasoning across an entire codebase. The `/goal` command in Codex CLI v0.129 provides exactly this — a persistent objective that survives context compaction and guides the agent across extended sessions[^10].
 
-```
+```text
 /goal "Reconstruct the behaviour of the target binary. Phase 1: probe all documented flags and record input-output pairs. Phase 2: design a modular architecture. Phase 3: implement module by module with tests after each."
 ```
 

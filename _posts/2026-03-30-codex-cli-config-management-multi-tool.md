@@ -2,7 +2,7 @@
 title: "Managing Codex CLI Configuration Across Multiple AI Tools"
 description: "Most teams don't just use Codex CLI. They use Codex alongside Claude Code, Cursor, Gemini CLI, or GitHub Copilot. This creates a configuration management."
 date: 2026-03-30T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - configuration
   - config-toml
@@ -41,7 +41,7 @@ This is **configuration drift** — the slow uncoupling of your tool configs fro
 
 **[ruler](https://github.com/intellectronica/ruler)** (2.6K stars) solves drift by making you the authority once:
 
-```
+```text
 your-repo/
   .ruler/
     global.md       ← applies to all tools

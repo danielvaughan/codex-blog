@@ -1,7 +1,7 @@
 ---
 title: "The 2% Ceiling: How Codex CLI's Skill Context Budget Works, Why Your Skills Get Truncated, and What v0.146 Changes"
 date: 2026-07-30T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "skills", "context-budget", "v0.146", "configuration", "enterprise", "plugin-management"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["codex-cli", "skills", "context-budget", "v0.146", "configuration", "ente
 
 Every Codex CLI power user hits the same wall eventually. You install twenty or thirty skills — a mix of first-party utilities, marketplace plugins, and bespoke team workflows — and one morning Codex greets you with a warning you have never seen before:
 
-```
+```yaml
 Warning: Exceeded skills context budget of 2%.
 Loaded skill descriptions were truncated by an average of 109 characters per skill.
 ```

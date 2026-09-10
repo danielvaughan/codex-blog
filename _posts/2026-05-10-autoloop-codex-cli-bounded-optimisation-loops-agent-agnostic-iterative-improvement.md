@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-autoloop-codex-cli-bounded-optimisation-loops-agent-agnostic-iterative-improvement"
 tags: ["codex-cli", "autoloop", "autoresearch", "/goal", "eval-driven", "optimisation", "iterative-improvement", "agent-tooling"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # AutoLoop with Codex CLI: Bounded Optimisation Loops for Measurable Codebase Improvement
 
@@ -87,7 +87,7 @@ The baseline snapshot lands in `.autoloop/baseline.json` and becomes the referen
 
 After setup, your directory structure looks like this:
 
-```
+```text
 .autoloop/
 ├── config.toml         # Eval/guardrail commands, metric parsing
 ├── baseline.json       # Starting metric snapshot
@@ -114,7 +114,7 @@ This generates workspace-local skills that expose AutoLoop's state machine as co
 
 The key to a successful AutoLoop session is a well-bounded prompt. Direct Codex to use the installed wrapper with explicit constraints:
 
-```
+```text
 Use autoloop-run to reduce benchmark latency in this repo.
 Keep behaviour unchanged. Use at most 5 experiments and
 ask me only if you are genuinely blocked.
@@ -134,7 +134,7 @@ goals = true
 
 Then set a goal that references AutoLoop:
 
-```
+```text
 /goal Reduce p99 API latency by 20% using autoloop-run.
 Stop when the target is met or after 10 experiments.
 Keep a checkpoint log after each experiment.

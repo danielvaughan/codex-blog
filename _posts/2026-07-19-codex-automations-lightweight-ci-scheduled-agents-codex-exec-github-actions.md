@@ -1,7 +1,7 @@
 ---
 title: "Codex Automations as Lightweight CI: When Scheduled Agents Replace Your Pipeline"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "automations", "ci-cd", "codex-exec", "github-actions", "scheduled-tasks", "triggers"]
 ---
 
@@ -205,7 +205,7 @@ For tasks exceeding a single turn, the `/goal` command (shipped in Codex CLI 0.1
 
 Combined with App Automations, this enables multi-hour background tasks:
 
-```
+```yaml
 Automation: "Weekly Architecture Review"
 Schedule: Every Monday 02:00 UTC
 Goal: Review all PRs merged this week. Identify architectural

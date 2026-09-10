@@ -6,7 +6,7 @@ timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-doctor-diagnostics-v0131-troubleshooting-runtime-auth-network"
 tags: ["codex-cli", "diagnostics", "troubleshooting", "v0.131.0", "developer-experience"]
 date: 2026-05-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Doctor: The New First-Class Diagnostics Command in v0.131.0
 
@@ -70,7 +70,7 @@ codex doctor
 
 Expected output for the runtime section:
 
-```
+```text
 ✓ Runtime
   CLI version:     0.131.0
   Binary path:     /usr/local/bin/codex
@@ -85,7 +85,7 @@ A common failure here is a sandbox backend showing `unavailable` on older Linux 
 
 The auth check validates credential state without making a full API call. It inspects `~/.codex/auth.json` for OAuth token presence and expiry, checks for an `OPENAI_API_KEY` environment variable, and verifies that the active credential has not been revoked[^6]. For Bedrock users (new in v0.130.0), it also validates AWS SigV4 credentials from configured profiles[^7].
 
-```
+```text
 ✓ Auth
   Method:          OAuth (device code)
   Token status:    valid (expires in 47h)
@@ -95,7 +95,7 @@ The auth check validates credential state without making a full API call. It ins
 
 If the token has expired, the output includes a remediation hint:
 
-```
+```text
 ✗ Auth
   Method:          OAuth (device code)
   Token status:    EXPIRED (expired 3h ago)
@@ -106,7 +106,7 @@ If the token has expired, the output includes a remediation hint:
 
 Terminal diagnostics detect the emulator in use, read `TERM` and `COLORTERM` environment variables, and test for Unicode rendering and true-colour support[^8]. This matters because Codex CLI's TUI relies on terminal capabilities for diff rendering, syntax highlighting, and the new responsive Markdown tables introduced in v0.131.0[^1].
 
-```
+```text
 ✓ Terminal
   Emulator:        iTerm2 (3.5.6)
   TERM:            xterm-256color
@@ -119,7 +119,7 @@ Terminal diagnostics detect the emulator in use, read `TERM` and `COLORTERM` env
 
 The network check probes connectivity to the OpenAI API endpoint, detects HTTP proxies (from `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables), validates TLS certificate chains, and runs a DNS resolution test[^9]. For enterprise environments behind corporate proxies, this is often the fastest way to identify man-in-the-middle certificate issues that cause opaque TLS handshake failures.
 
-```
+```text
 ✓ Network
   API endpoint:    https://api.openai.com (reachable, 43ms)
   Proxy:           none detected
@@ -131,7 +131,7 @@ The network check probes connectivity to the OpenAI API endpoint, detects HTTP p
 
 The config diagnostic parses `~/.codex/config.toml` (and any project-level `.codex/config.toml` files), reports the effective policy layer order, lists configured MCP servers and their connection status, and flags any unrecognised keys or deprecated options[^10]. This replaces the need to start a TUI session and run `/debug-config` — particularly useful when the config itself is preventing the TUI from launching.
 
-```
+```text
 ✓ Config
   Global config:   ~/.codex/config.toml (valid)
   Project config:  .codex/config.toml (valid)
@@ -144,7 +144,7 @@ The config diagnostic parses `~/.codex/config.toml` (and any project-level `.cod
 
 The local state check inspects the session store (ThreadStore), plugin cache, and log directory[^11]. It reports the number of stored sessions, whether the SQLite database backing the ThreadStore is intact, the total size of cached plugins, and whether log rotation is functioning. Corrupted session databases were a known source of resume and fork failures before v0.130.0 improved ThreadStore reliability[^1].
 
-```
+```text
 ✓ Local State
   Sessions:        142 stored (ThreadStore: healthy)
   Plugin cache:    23 plugins (48 MB)

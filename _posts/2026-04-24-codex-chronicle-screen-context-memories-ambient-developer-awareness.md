@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-chronicle-screen-context-memories-ambient-developer-awareness"
 tags: ["codex", "chronicle", "memories", "screen-context", "ambient-awareness", "privacy", "mcp", "open-chronicle", "macOS"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex Chronicle and Screen-Context Memories: Ambient Developer Awareness for AI Coding Agents
 
@@ -91,7 +91,7 @@ The agent resolves "the TypeError" by consulting Chronicle memories that capture
 
 The `/memories` slash command provides per-session control over memory behaviour without changing global settings [^5]. This is useful when you want a clean session that ignores Chronicle context:
 
-```
+```text
 /memories off     # disable memory injection for this thread
 /memories on      # re-enable
 /memories list    # inspect loaded memories

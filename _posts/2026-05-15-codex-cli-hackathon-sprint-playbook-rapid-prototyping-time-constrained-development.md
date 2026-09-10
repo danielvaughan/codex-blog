@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-hackathon-sprint-playbook-rapid-prototyping-time-constrained-development"
 tags: ["hackathon", "sprint", "rapid-prototyping", "workflow", "subagents", "worktrees", "goal-mode", "fast-mode", "skills", "AGENTS.md"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Codex CLI Hackathon Playbook: Rapid Prototyping Under Time Pressure
 
@@ -72,7 +72,7 @@ Setting `approval_policy` to `auto-edit` lets Codex read and write files without
 
 For latency-critical moments — UI polish, copy tweaks, quick fixes — toggle fast mode mid-session:
 
-```
+```text
 /fast
 ```
 
@@ -84,7 +84,7 @@ This enables GPT-5.4's accelerated inference path, delivering up to 1.5× faster
 
 Resist the urge to type "build me the app." Start in plan mode:
 
-```
+```text
 /plan Design the architecture for [your idea].
 Propose a file tree, API routes, data model, and component hierarchy.
 Keep it minimal — this is a hackathon demo, not production.
@@ -94,7 +94,7 @@ Plan mode prevents Codex from writing code prematurely[^8]. It will propose a st
 
 Once the plan looks right, approve it and switch to execution:
 
-```
+```text
 /goal Implement the architecture from the plan. Start with the backend
 API, then the frontend shell, then wire them together.
 ```
@@ -130,7 +130,7 @@ graph LR
 
 Once the scaffold is standing, use subagents to parallelise independent feature work. Subagents spawn child agents that work concurrently and report back[^11]:
 
-```
+```text
 Build three features in parallel using subagents:
 1. User input form with validation
 2. Data processing pipeline endpoint
@@ -171,7 +171,7 @@ Codex discovers skills automatically from the `skills/` directory[^13]. Subseque
 
 Every 30–45 minutes, run a quick self-review:
 
-```
+```text
 /review
 ```
 
@@ -192,7 +192,7 @@ Switch models tactically in the final hour:
 
 Switch mid-session with `/model`:
 
-```
+```text
 /model gpt-5.3-codex-spark
 ```
 
@@ -200,7 +200,7 @@ Switch mid-session with `/model`:
 
 If you are building a web application, Codex can use the browser to verify your frontend. With the Playwright MCP server or the Chrome extension connected, ask:
 
-```
+```text
 Open http://localhost:5173, walk through the user flow in DEMO.md,
 and screenshot each step. Flag any visual issues.
 ```
@@ -211,7 +211,7 @@ This catches broken layouts, missing error states, and failed API calls that you
 
 The most undervalued hackathon artefact is the demo script. Dedicate the last 15 minutes:
 
-```
+```text
 Read AGENTS.md and all source files. Write DEMO.md with:
 1. A one-paragraph elevator pitch
 2. Step-by-step demo flow with expected outputs

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Personality System: Customising Agent Communication Style"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 description: "Codex CLI's personality system lets you choose how the agent communicates — from terse and execution-focused to conversational and partner-like."
 substack_status: draft
 tags:
@@ -111,7 +111,7 @@ The `-c` / `--config` flag accepts any `config.toml` key-value pair, letting you
 
 In an interactive session, the `/personality` command opens an inline picker and lets you switch styles mid-thread.[^10]
 
-```
+```text
 > /personality
   ● pragmatic
   ○ friendly

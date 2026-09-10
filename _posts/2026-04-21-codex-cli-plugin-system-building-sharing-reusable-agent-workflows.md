@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-plugin-system-building-sharing-reusable-agent-workflows"
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "workflow-reuse", "team-tooling"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Plugin System: Building, Sharing, and Managing Reusable Agent Workflows
 
@@ -50,7 +50,7 @@ This architecture matters because it solves a real problem: prior to plugins, sh
 
 The `/plugins` slash command opens the plugin directory within an active TUI session[^3]:
 
-```
+```text
 /plugins
 ```
 
@@ -105,7 +105,7 @@ The complete schema supports additional metadata[^4]:
 
 ### Directory Structure
 
-```
+```text
 my-review-tools/
 ├── .codex-plugin/
 │   └── plugin.json          # Required manifest
@@ -233,7 +233,7 @@ This plugin is architecturally instructive because it shows plugins crossing too
 
 The fastest path uses the built-in `$plugin-creator` skill[^4]:
 
-```
+```python
 @plugin-creator Create a plugin called "db-review" that reviews
 database migration files for backwards compatibility issues.
 ```

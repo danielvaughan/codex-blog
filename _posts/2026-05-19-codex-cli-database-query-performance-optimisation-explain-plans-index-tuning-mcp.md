@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-database-query-performance-optimisation-explain-plans-index-tuning-mcp"
 tags: ["codex-cli", "database", "postgresql", "query-optimisation", "explain-plan", "indexing", "mcp", "performance", "pg_stat_statements"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Database Query Performance Optimisation: EXPLAIN Plan Analysis, Index Tuning, and MCP-Driven Workflows
 
@@ -95,7 +95,7 @@ The most common workflow starts with identifying slow queries, then iterating on
 
 ### Step 1: Identify Slow Queries
 
-```
+```text
 > @postgres-perf get the top 10 slowest queries by total execution time
 ```
 
@@ -103,7 +103,7 @@ Codex calls the MCP server's `get_slow_queries` tool and returns a ranked list w
 
 ### Step 2: Analyse the Execution Plan
 
-```
+```text
 > Run EXPLAIN ANALYZE on the slowest query and identify the most expensive nodes
 ```
 
@@ -111,7 +111,7 @@ Codex retrieves the JSON execution plan and annotates it, highlighting sequentia
 
 ### Step 3: Generate Index Recommendations
 
-```
+```text
 > Suggest indexes that would improve this query. Test them with HypoPG before creating migration files.
 ```
 

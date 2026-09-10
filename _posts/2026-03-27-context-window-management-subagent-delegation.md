@@ -2,7 +2,7 @@
 title: "Context Window Management: Avoiding Compaction with Sub-Agent Delegation"
 description: "Long Codex sessions degrade. Not catastrophically — the model does not forget your instructions — but its reliability erodes as the context fills with tool."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - architecture
   - context-management
@@ -96,7 +96,7 @@ Custom agents live in `~/.codex/agents/` (personal) or `.codex/agents/` (project
 
 Codex does not spawn subagents automatically.[^7] You must explicitly trigger delegation:
 
-```
+```text
 Spawn two agents in parallel:
 - one explorer to map all database query callsites in src/
 - one worker to stub the new UserRepository interface
@@ -174,7 +174,7 @@ Codex's compaction approach differs meaningfully from Claude Code's. Codex uses 
 
 The single highest-leverage intervention is **task decomposition at prompt time**. Define the delegation boundaries in your initial message rather than waiting for the context to fill:
 
-```
+```text
 I need to migrate the auth module from JWT to session cookies.
 
 Before writing any code:
@@ -215,7 +215,7 @@ reasoning_effort = "high"
 
 Instruct your subagents explicitly to return condensed results. Raw tool output from an explorer subagent can itself be thousands of tokens — enough to push the orchestrator toward compaction.
 
-```
+```text
 Summarise your findings in:
 - A bullet list of affected files (path only, no content)
 - A one-sentence description of each module's dependency on the JWT
@@ -228,7 +228,7 @@ The main thread receives 20 lines, not 2,000.
 
 Keep your project-level `AGENTS.md` focused. Over-detailed AGENTS.md files contribute to context inflation on every agent turn — the file is injected at session start and counts against your budget. Delegate deep context to role-specific config files rather than front-loading it all into the root AGENTS.md:
 
-```
+```markdown
 # AGENTS.md (root — keep concise)
 See .codex/agents/ for role-specific instructions.
 Default model: gpt-5.4.

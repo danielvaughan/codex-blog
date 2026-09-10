@@ -2,7 +2,7 @@
 title: "Codex CLI for Infrastructure as Code: Terraform, Pulumi and Ansible Automation"
 description: "Infrastructure as Code occupies a peculiar place in the agentic coding landscape. The feedback loops are slower than application code."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - language-guide
   - agents-md
@@ -162,7 +162,7 @@ Given an environment path and tfvars file:
 
 Orchestrator prompt:
 
-```
+```text
 Spawn one tf_planner sub-agent for each directory in terraform/environments/.
 Pass each agent its environment path. Wait for all plans to complete,
 then summarise any HIGH or CRITICAL findings per environment.

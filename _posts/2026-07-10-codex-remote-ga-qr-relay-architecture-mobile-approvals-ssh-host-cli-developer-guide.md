@@ -1,7 +1,7 @@
 ---
 title: "Codex Remote GA: QR Relay Architecture, Mobile Approvals, and the CLI Developer's Setup Guide"
 date: 2026-07-10T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "codex-remote", "remote-control", "mobile-approvals", "QR-relay", "SSH", "architecture"]
 ---
 
@@ -151,7 +151,7 @@ The remote host must have:
 
 Add concrete host aliases to `~/.ssh/config` on the machine running the Codex desktop app or the machine from which you initiate the connection[^5]:
 
-```
+```text
 Host devbox
     HostName devbox.example.com
     User developer

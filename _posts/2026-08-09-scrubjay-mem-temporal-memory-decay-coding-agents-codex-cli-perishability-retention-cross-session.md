@@ -1,7 +1,7 @@
 ---
 title: "ScrubJay-MEM and the Temporal Decay Problem: Why Your Coding Agent Treats Every Memory as Equally Fresh — and How Type-Conditioned Perishability Maps to Codex CLI's Retention Pipeline"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "memory", "temporal-decay", "perishability", "cross-session", "ScrubJay-MEM", "agent-memory", "retention"]
 ---
 
@@ -29,7 +29,7 @@ ScrubJay-MEM formalises this into four principles for agent memory:
 
 Each memory is stored as a 4-tuple[^1]:
 
-```
+```text
 m_i = (w_what, w_where, (t_i, τ_i), π_i)
 ```
 
@@ -48,7 +48,7 @@ The system classifies memories into four types with distinct decay profiles[^1]:
 
 Utility decays exponentially, conditioned on type:
 
-```
+```text
 U(m_i, t_q) = V_i · exp(-π_i · (t_q - t_i) / τ_i)
 ```
 
@@ -58,7 +58,7 @@ A stable-knowledge memory with `π = 0.05` retains 95% of its value after 50 ses
 
 Rather than ranking memories by embedding similarity alone, ScrubJay-MEM fuses four signals with query-adaptive weights[^1]:
 
-```
+```text
 S(m_i, q, t_q) = α·sim(w_what, e_q)     # What: semantic relevance
                + β·sim(w_where, c_q)     # Where: task context match
                + γ·U(m_i, t_q)           # When: temporal utility

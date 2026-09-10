@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-opentelemetry-observability-monitoring-agent-sessions"
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "tracing", "OTLP", "Grafana", "production", "token-tracking"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI OpenTelemetry Observability: Monitoring Agent Sessions, Token Spend, and Tool Decisions in Production
 
@@ -137,7 +137,7 @@ gantt
 
 The five token counters on `codex.sse_event` — `input_token_count`, `output_token_count`, `cached_token_count`, `reasoning_token_count`, and `tool_token_count` — give you everything needed for cost attribution [^4]. A minimal Grafana panel query using Loki:
 
-```
+```text
 sum by (model) (
   rate({service_name="codex_cli_rs"} | json | event_name="codex.sse_event"
     | unwrap output_token_count [5m])
@@ -175,7 +175,7 @@ The `codex.tool_decision` event records whether each tool invocation was approve
 
 A simple query to surface all user-approved shell commands in the last 24 hours:
 
-```
+```text
 {service_name="codex_cli_rs"} | json
   | event_name="codex.tool_decision"
   | decision="approved"

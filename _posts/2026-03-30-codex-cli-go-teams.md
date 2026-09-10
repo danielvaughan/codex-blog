@@ -2,7 +2,7 @@
 title: "Codex CLI for Go Teams: Skills, AGENTS.md and Go 1.26 Workflows"
 description: "Go's explicit error handling, strict formatting conventions, and idiomatic concurrency model make it both an ideal and a demanding language for agentic."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - language-guide
   - agents-md
@@ -83,7 +83,7 @@ Production code under `internal/`. Public packages under `pkg/`.
 ```bash
 go build ./...
 go fix ./...        # Apply Go 1.26 modernizers before any PR
-```
+```text
 
 ## Test Commands
 
@@ -99,7 +99,7 @@ go test -short ./...
 
 # Integration tests (require //go:build integration tag)
 go test -race -tags=integration ./...
-```
+```text
 
 ## Lint Commands
 
@@ -108,7 +108,7 @@ go vet ./...
 golangci-lint run ./...
 gosec ./...
 govulncheck ./...
-```
+```markdown
 
 ## Verification Sequence
 
@@ -160,7 +160,7 @@ Before any commit, run in order:
 - Run `go fix ./...` as part of the pre-PR workflow
 - `go tool doc` is removed — use `go doc` directly
 
-```
+```text
 
 For a high-trust subdirectory (e.g., a payments service), layer a subdirectory `AGENTS.md` override:
 
@@ -281,7 +281,7 @@ codex exec --profile ci "Fix all golangci-lint errors in ./internal/payments/...
 
 When `multi_agent = true` is enabled in `config.toml`,[^8] the `golang-security` and `golang-error-handling` skills can deploy parallel sub-agents covering distinct concerns. Triggering a security audit:
 
-```
+```text
 # In an interactive Codex session
 $golang-security audit ./...
 ```

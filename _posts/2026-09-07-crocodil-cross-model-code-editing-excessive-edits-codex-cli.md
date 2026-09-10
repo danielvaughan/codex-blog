@@ -2,6 +2,8 @@
 title: "CROCODIL: The 14% Cross-Model Edit Tax and What It Means for Codex CLI Multi-Model Workflows"
 parent: "Articles"
 nav_order: 1143
+date: 2026-09-07T08:00:00+00:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "multi-agent", "code-editing", "model-routing", "rl-training", "style-drift", "AGENTS.md"]
 ---
 
@@ -34,13 +36,13 @@ This is the uncomfortable corollary. You cannot instruct your way out of the pro
 
 CROCODIL is a post-training framework. The authors fine-tune Olmo3 7B using GRPO optimisation with LoRA (rank 32, alpha 64).[^1] The reward function is:
 
-```
+```text
 R_CROCODIL = R_sim × R_exec
 ```
 
 Where:
 
-```
+```text
 R_sim  = 1 / (1 + α · D_m / D_h)    α = 0.33
 R_exec = 0.2·build + 0.4·pre_tests + 0.4·post_tests
 ```
@@ -135,8 +137,8 @@ pub fn process(input: &str) -> Result<Output, Error> {
     let parsed = parse(input)?;
     Ok(transform(parsed))
 }
-```
-```
+```text
+```text
 
 **2. PostToolUse hook to gate excessive diffs**
 

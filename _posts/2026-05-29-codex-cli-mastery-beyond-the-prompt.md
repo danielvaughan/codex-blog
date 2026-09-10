@@ -2,7 +2,7 @@
 title: "Beyond the Prompt: Codex CLI Mastery"
 description: "Most developers treat Codex CLI as a chat box. The real value sits past the prompt, in AGENTS.md, skills, subagents, profiles, MCP servers and directory layout. This guide covers everything between installation and genuine mastery."
 date: 2026-05-29T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - mastery
   - agents-md
@@ -37,7 +37,7 @@ That is not a prompt trick. It is a structural decision that turns Codex from a 
 
 Without a verification command, a typical session produces code that looks correct but fails at runtime:
 
-```
+```yaml
 You: "Add input validation to the signup endpoint"
 Codex: [writes validation code with a typo in the schema field name]
 > You discover the bug manually 20 minutes later
@@ -45,7 +45,7 @@ Codex: [writes validation code with a typo in the schema field name]
 
 With a verification command in AGENTS.md:
 
-```
+```yaml
 You: "Add input validation to the signup endpoint"
 Codex: [writes validation code]
 Codex: [runs npm test, sees one failure]
@@ -63,7 +63,7 @@ AGENTS.md is the most important file in a Codex CLI project. It loads at session
 
 Codex walks the filesystem on every run, concatenating instruction files from root downward[^1]:
 
-```
+```text
 1. ~/.codex/AGENTS.override.md    <- highest-precedence global override
    OR ~/.codex/AGENTS.md          <- standard global defaults
 
@@ -161,7 +161,7 @@ Every line exists because something went wrong without it. If removing a line wo
 
 Not every rule belongs at the repo root. A payments service has different security requirements to a marketing site. Subdirectory AGENTS.md files scope rules precisely:
 
-```
+```text
 myproject/
 ├── AGENTS.md                    # Shared: pnpm, TypeScript strict, test commands
 ├── services/
@@ -182,7 +182,7 @@ The Gravel Path series[^16] uses this pattern extensively: a root AGENTS.md for 
 
 The `.codex` directory at project root organises everything beyond AGENTS.md[^3]:
 
-```
+```text
 .codex/
 ├── config.toml          # Project-level configuration
 ├── skills/              # Reusable prompt-based capabilities
@@ -204,7 +204,7 @@ A skill is a directory containing a `SKILL.md` file[^4]. The Agent Skills standa
 
 ### Anatomy of a skill
 
-```
+```text
 .codex/skills/tdd/
 ├── SKILL.md           # Instructions and metadata
 └── templates/

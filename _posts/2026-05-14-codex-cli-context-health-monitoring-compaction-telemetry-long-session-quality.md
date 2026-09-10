@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-context-health-monitoring-compaction-telemetry-long-session-quality"
 tags: ["codex-cli", "context-management", "compaction", "telemetry", "observability", "long-sessions", "session-quality", "context-health"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Context Health Monitoring in Codex CLI: Compaction Telemetry, Degradation Detection, and Long-Session Quality Patterns
 
@@ -114,7 +114,7 @@ tool_output_token_limit = 8000
 
 Since v0.117.0, `/compact` supports queued follow-up instructions [^9]. This is the single most effective technique for maintaining session quality:
 
-```
+```text
 /compact Focus on the authentication refactor and the three failing tests.
 Preserve the database schema decisions from earlier.
 ```
@@ -180,7 +180,7 @@ Note: Codex CLI's PreToolUse routing currently supports deny rules only. Full in
 
 For critical long-running sessions, create explicit checkpoints by combining `/compact` with a structured prompt and a git commit:
 
-```
+```text
 /compact CHECKPOINT: Authentication middleware complete.
 Files: src/auth/middleware.ts, src/auth/jwt.ts, tests/auth/*.test.ts
 All 14 tests passing. Next: rate limiting layer.

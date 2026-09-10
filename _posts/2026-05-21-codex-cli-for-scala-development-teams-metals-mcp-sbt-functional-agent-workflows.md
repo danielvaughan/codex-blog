@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-for-scala-development-teams-metals-mcp-sbt-functional-agent-workflows"
 tags: ["codex-cli", "scala", "scala-3", "metals", "mcp", "sbt", "functional-programming", "agents-md", "development-workflow"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Scala Development Teams: Metals MCP, sbt, and Idiomatic Functional Workflows
 
@@ -143,7 +143,7 @@ writable_roots = ["~/.cache/coursier", "~/.sbt", "~/.ivy2"]
 
 For multi-module projects, create directory-level AGENTS.md overrides:
 
-```
+```text
 project-root/
 ├── AGENTS.md              # Global conventions
 ├── core/
@@ -216,7 +216,7 @@ src/main/scala/com/example/
 ├── http/         # HTTP routes (http4s)
 ├── persistence/  # Database access (doobie/skunk)
 └── config/       # Application configuration (ciris/pureconfig)
-```
+```markdown
 
 ## Build
 - Build tool: sbt 2.x
@@ -254,8 +254,8 @@ case object Red extends Color
 // CORRECT: Scala 3 enum
 enum Color:
   case Red, Green, Blue
-```
-```
+```text
+```toml
 
 ## Codex CLI Configuration Profile
 
@@ -301,7 +301,7 @@ codex --profile scala
 
 Then prompt:
 
-```
+```text
 Add a GET /api/v1/users/:id endpoint to the UserRoutes.
 It should return 200 with the user JSON or 404 with an error body.
 Use the existing UserService.findById method.

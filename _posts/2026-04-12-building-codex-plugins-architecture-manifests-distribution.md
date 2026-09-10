@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-building-codex-plugins-architecture-manifests-distribution"
 tags: ["plugins", "plugin-json", "marketplace", "enterprise", "skills", "mcp", "governance", "distribution"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Building Codex CLI Plugins: Architecture, Manifests, and Enterprise Distribution
 
@@ -45,7 +45,7 @@ Each component is optional and independent. A plugin can ship a single skill wit
 
 Every plugin requires a `.codex-plugin/plugin.json` manifest at its root. All other components sit alongside it at the plugin root level[^4]:
 
-```
+```text
 my-plugin/
 ├── .codex-plugin/
 │   └── plugin.json          # Required manifest
@@ -97,7 +97,7 @@ All component paths must be relative to the plugin root and start with `./`[^4].
 
 The fastest route to a working plugin is the built-in `$plugin-creator` skill. Invoke it by describing the functionality you want:
 
-```
+```text
 @$plugin-creator Create a plugin that reviews PRs against our architecture decision records
 ```
 

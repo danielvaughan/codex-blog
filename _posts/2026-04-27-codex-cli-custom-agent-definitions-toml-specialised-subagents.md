@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-custom-agent-definitions-toml-specialised-subagents"
 tags: ["codex-cli", "custom-agents", "subagents", "toml", "multi-agent", "configuration", "orchestration"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Custom Agent Definitions: Building Specialised Subagents with TOML Configuration
 
@@ -37,7 +37,7 @@ Codex discovers custom agent definitions from two locations [^1]:
 
 Each `.toml` file defines exactly one agent. The `name` field is the source of truth for identity — Codex matches on it when spawning — though matching the filename to the name is the recommended convention [^1].
 
-```
+```text
 .codex/
 ├── config.toml
 └── agents/
@@ -281,7 +281,7 @@ Use AGENTS.md for _what the project is_ and custom agents for _how each role ope
 
 A mature project structure might look like this:
 
-```
+```text
 my-project/
 ├── AGENTS.md                          # Project context, conventions, architecture
 ├── .codex/

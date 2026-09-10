@@ -2,7 +2,7 @@
 title: "The Official Codex Subagents Documentation — Architecture, Patterns, and CSV Batch Processing"
 description: "OpenAI's official subagents documentation page has matured into a comprehensive reference for multi-agent Codex workflows."
 date: 2026-05-06T00:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 category: reference
 tags:
   - subagents
@@ -79,7 +79,7 @@ Subagents inherit the parent session's sandbox policy. During interactive sessio
 
 The `spawn_agents_on_csv` tool automates repetitive work across data rows:
 
-```
+```text
 spawn_agents_on_csv(
   csv_path="tasks.csv",
   instruction="Review {file_path} for security issues and report findings",

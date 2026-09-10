@@ -2,7 +2,7 @@
 title: "Advanced AGENTS.md Patterns for Monorepos"
 description: "Monorepos concentrate a large surface area of code under a single Git root, and that concentration creates a fundamental tension for AI coding agents."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - configuration
   - agents-md
@@ -94,7 +94,7 @@ This does not provide live bidirectional sync — the list is simply the search 
 
 A mid-size monorepo with 20–50 services benefits from a three-tier hierarchy:
 
-```
+```text
 ~/.codex/AGENTS.md                      # Personal: preferred language, code style
 myrepo/
   AGENTS.md                             # Tier 1 — repo root: team standards,

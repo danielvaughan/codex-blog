@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-performance-profiling-optimisation-mcp-flamegraph-bottleneck-workflows"
 tags: ["codex-cli", "performance", "profiling", "flamegraph", "MCP", "optimisation", "pprof", "CodSpeed", "bottleneck"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Performance Profiling and Optimisation: MCP-Driven Flamegraphs, Bottleneck Analysis, and Automated Fix Loops
 
@@ -141,7 +141,7 @@ flowchart TD
 
 In practice, start the session with a prompt like:
 
-```
+```text
 Profile the API server using the Go benchmark suite. Collect a CPU profile,
 analyse it with the pprof-analyzer MCP server, identify the top 3 hotspots
 by cumulative time, and propose fixes for each. After each fix, re-run the
@@ -173,7 +173,7 @@ The `analyze_heap_time_series` tool returns growth rates per allocation site, le
 
 CodSpeed's `codspeed-optimize` skill implements a complete optimisation loop [^3]:
 
-```
+```text
 measure → analyse flamegraph → implement targeted change → re-measure → compare
 ```
 
@@ -185,7 +185,7 @@ npx skills add CodSpeedHQ/codspeed
 
 Then prompt Codex CLI:
 
-```
+```text
 Using the CodSpeed optimize skill, improve the performance of the
 parse_document function. Target a 20% reduction in wall-clock time.
 ```

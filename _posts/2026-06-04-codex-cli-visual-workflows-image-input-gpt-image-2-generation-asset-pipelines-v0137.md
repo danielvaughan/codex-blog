@@ -5,7 +5,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-visual-workflows-image-input-gpt-image-2-generation-asset-pipelines-v0137"
 tags: ["codex-cli", "image-generation", "gpt-image-2", "visual-workflows", "imagegen-skill", "v0.137"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Visual Workflows: Image Input, gpt-image-2 Generation, and Asset Pipelines for v0.137
 
@@ -42,7 +42,7 @@ Inside the interactive TUI, paste with `Ctrl+V` (Linux/Windows) or `Cmd+V` (macO
 
 Within an active session, reference image files using `@` path syntax:
 
-```
+```python
 @designs/hero-banner.png Implement this banner as a React component
 ```
 
@@ -246,7 +246,7 @@ flowchart LR
 
 The `$imagegen` skill enforces a structured prompt schema [^6]:
 
-```
+```text
 Use case: [taxonomy slug, e.g. ui-mockup, product-mockup]
 Asset type: [where used, e.g. hero banner, app icon]
 Primary request: [user's main prompt]

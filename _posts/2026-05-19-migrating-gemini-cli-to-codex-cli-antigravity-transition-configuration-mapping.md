@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-migrating-gemini-cli-to-codex-cli-antigravity-transition-configuration-mapping"
 tags: ["codex-cli", "gemini-cli", "antigravity", "migration", "configuration", "hooks", "skills", "google-io-2026"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Migrating from Gemini CLI to Codex CLI: A Practical Guide After the Antigravity Transition
 
@@ -176,7 +176,7 @@ Gemini CLI skills are directories containing a manifest and prompt files within 
 
 Gemini CLI skill structure:
 
-```
+```text
 .gemini/skills/
   deploy/
     manifest.json
@@ -185,7 +185,7 @@ Gemini CLI skill structure:
 
 Codex CLI skill structure:
 
-```
+```text
 .codex/skills/
   deploy/
     SKILL.md          # Contains frontmatter + prompt

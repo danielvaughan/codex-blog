@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-spec-driven-development-tooling-codex-cli-spec-kit-cc-sdd-codex-spec"
 tags: ["spec-driven-development", "workflow-frameworks", "spec-kit", "cc-sdd", "codex-spec", "codex-cli", "planning", "skills", "slash-commands"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # SDD Tooling for Codex CLI: spec-kit, cc-sdd, and codex-spec Compared
 
@@ -210,7 +210,7 @@ codex-spec context-setup --force
 
 This creates a `.codex-specs/` directory with three context layers[^3]:
 
-```
+```text
 .codex-specs/
 ├── context/
 │   ├── product.md      # Product vision, user personas, business rules

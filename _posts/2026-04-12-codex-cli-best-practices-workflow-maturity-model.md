@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-best-practices-workflow-maturity-model"
 tags: ["best-practices", "workflow-maturity", "AGENTS.md", "skills", "automation", "configuration", "prompting", "official-guidance"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Official Codex CLI Best Practices Decoded: OpenAI's Six-Stage Workflow Maturity Model
 
@@ -86,7 +86,7 @@ For multi-step tasks, the guide recommends three planning approaches [^1]:
 
 The interview pattern is particularly effective for architectural decisions:
 
-```
+```text
 Before implementing anything, interview me about this feature.
 Challenge my assumptions. Ask about edge cases I haven't considered.
 Only proceed to implementation after we agree on the approach.

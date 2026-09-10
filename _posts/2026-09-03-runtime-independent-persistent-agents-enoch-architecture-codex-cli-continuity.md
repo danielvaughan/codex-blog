@@ -1,7 +1,7 @@
 ---
 title: "Runtime-Independent Persistent Agents: Separating Agent Identity from Execution — and What It Means for Codex CLI"
 date: 2026-09-03T18:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "agent-architecture", "persistence", "session-management", "memory", "migration", "research"]
 ---
 
@@ -18,7 +18,7 @@ Zhao and Zhao (arXiv:2609.00546, University of Washington, September 2026)[^1] f
 
 The paper models a running agent as the binding of three independent layers:
 
-```
+```text
 𝒜ₜ = 𝒫ₜ ⊳ (ℰₜ, 𝒮ₜ)
 ```
 

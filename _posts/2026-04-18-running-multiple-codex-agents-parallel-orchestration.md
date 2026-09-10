@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-running-multiple-codex-agents-parallel-orchestration"
 tags: ["codex-cli", "parallel-agents", "orchestration", "git-worktrees", "tmux", "subagents", "multi-agent"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Running Multiple Codex Agent Instances: Parallel Orchestration Patterns
 
@@ -29,7 +29,7 @@ Codex CLI has built-in support for spawning subagents — child agents that exec
 
 Subagents spawn only when explicitly requested. Structure your prompt to decompose work:
 
-```
+```text
 Spawn one agent per module: fix the auth bug in src/auth/,
 add validation to src/api/orders.ts, and update the tests
 in tests/integration/. Wait for all, then summarise results.
@@ -79,7 +79,7 @@ Project-scoped agents live in `.codex/agents/` and inherit the parent session's 
 
 For repetitive tasks across many targets, the experimental `spawn_agents_on_csv` tool processes rows in parallel[^3]:
 
-```
+```text
 Process this CSV of API endpoints. For each row, generate
 integration tests using the {method} and {path} columns.
 ```

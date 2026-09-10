@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-sqlite-development-mcp-servers-turso-libsql-local-edge-workflows"
 tags: ["codex-cli", "sqlite", "mcp", "turso", "libsql", "database", "edge-computing", "embedded-replicas"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for SQLite Development: MCP Servers, Turso/libSQL, and Local-to-Edge Database Workflows
 
@@ -151,7 +151,7 @@ An effective `AGENTS.md` file steers the agent toward SQLite-idiomatic patterns 
 
 When inheriting an undocumented SQLite database, use the read-only explorer to build understanding before touching anything:
 
-```
+```text
 > Connect to data/legacy.db via sqlite-explorer.
   List all tables, then describe each one.
   Identify foreign key relationships and generate
@@ -165,7 +165,7 @@ The agent uses `list_tables` → `describe_table` (per table) → synthesises an
 
 Use the CRUD server to prototype migrations interactively:
 
-```
+```text
 > I need to add a `tags` JSON column to the `articles` table
   with a generated column extracting the first tag.
   Write the migration SQL, apply it to dev.db,
@@ -179,7 +179,7 @@ The agent calls `query` to run the ALTER TABLE, `create_record` to insert test d
 
 For production Turso databases, use the read-only cloud server to audit schema drift:
 
-```
+```text
 > Compare the schema in turso-prod against the migration
   files in ./migrations/. Report any columns, indexes,
   or tables present in production but missing from the

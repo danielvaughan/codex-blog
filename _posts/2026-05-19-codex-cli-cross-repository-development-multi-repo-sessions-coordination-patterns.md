@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-cross-repository-development-multi-repo-sessions-coordination-patterns"
 tags: ["codex-cli", "cross-repository", "multi-repo", "microservices", "AGENTS.md", "MCP", "worktrees", "coordination", "subagents"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Cross-Repository Development: Multi-Repo Sessions, Coordination Patterns, and MCP-Bridged Workflows
 
@@ -107,7 +107,7 @@ enabled = true
 
 With this configuration, any Codex CLI session can use MCP tools to read the API spec files, even though the session itself is rooted in a different repository [^6]. You can then instruct the agent:
 
-```
+```text
 Read the OpenAPI spec for billing from the api-specs MCP server,
 then update the TypeScript client in this repo to match.
 ```
@@ -190,7 +190,7 @@ prompt = "You update the dashboard-app React code. Working directory: /home/dev/
 
 The orchestrating session can then delegate:
 
-```
+```text
 Spawn subagents: backend-updater to add the invoice_status field
 to the billing service, and frontend-updater to consume it
 in the dashboard. Both must use snake_case field naming.

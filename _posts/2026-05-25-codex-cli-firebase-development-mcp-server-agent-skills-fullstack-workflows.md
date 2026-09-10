@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-firebase-development-mcp-server-agent-skills-fullstack-workflows"
 tags: ["codex-cli", "firebase", "mcp", "agent-skills", "firestore", "authentication", "crashlytics", "cloud-functions", "full-stack"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Firebase Development: MCP Server, Agent Skills, and Full-Stack Workflows
 
@@ -163,7 +163,7 @@ flowchart LR
 
 Prompt:
 
-```
+```text
 The crash rate spiked overnight. Use the Crashlytics MCP tools to pull the
 top issues, examine the stack traces, identify the root cause, write a fix,
 and annotate the Crashlytics issue with what you found.
@@ -191,7 +191,7 @@ The agent retrieves the current rules, understands the data model via `firestore
 
 Combining MCP tools with agent skills enables end-to-end feature development:
 
-```
+```text
 Add a user profile page. Use Firestore for storage, Firebase Auth for the
 session, and Cloud Storage for the avatar. Generate security rules that
 allow users to read/write only their own profile and upload images under 5MB.

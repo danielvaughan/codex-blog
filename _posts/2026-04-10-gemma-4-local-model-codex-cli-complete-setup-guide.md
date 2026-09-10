@@ -2,7 +2,7 @@
 title: "Gemma 4 Local Model + Codex CLI: Complete Setup Guide"
 description: "> Run AI coding agents on YOUR hardware -- zero cloud cost, full privacy."
 date: 2026-04-10T00:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 type: Technical Article
 timestamp: 2026-04-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-10-gemma-4-local-model-codex-cli-complete-setup-guide"
@@ -100,7 +100,7 @@ Several inference backends can serve Gemma 4 locally:
 
 The general pipeline is:
 
-```
+```text
 Model weights --> Inference Engine --> OpenAI-compatible API --> Codex CLI
 ```
 
@@ -228,7 +228,7 @@ MLX's attention implementation avoids the flash attention kernel entirely, sides
 
 When Codex CLI sends a prompt to Gemma 4, the model responds using its native tool-call tokens:
 
-```
+```html
 <fc_call>
 <fc_call_thought>I need to read the file to understand the current implementation</fc_call_thought>
 <fc_call_reason>Reading source file to analyze the bug</fc_call_reason>
@@ -239,7 +239,7 @@ When Codex CLI sends a prompt to Gemma 4, the model responds using its native to
 
 Codex CLI's Responses API handler parses these tokens, executes the tool, and returns the result:
 
-```
+```html
 <fc_response>
 # Contents of main.py
 def hello():

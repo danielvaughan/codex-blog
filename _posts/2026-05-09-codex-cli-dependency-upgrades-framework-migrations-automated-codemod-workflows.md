@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-dependency-upgrades-framework-migrations-automated-codemod-workflows"
 tags: ["codex-cli", "dependency-upgrades", "framework-migrations", "codemods", "automation", "subagents", "codex-exec"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Automated Dependency Upgrades and Framework Migrations
 
@@ -140,7 +140,7 @@ sandbox_mode = "workspace-write"
 
 Using a cheaper model like GPT-5.4 mini for worker subagents [^8] keeps costs manageable when spawning multiple parallel agents. The parent agent coordinates:
 
-```
+```text
 Upgrade all usages of the deprecated `createRoot` API across these four directories.
 Spawn one subagent per directory: src/components/, src/pages/, src/hooks/, src/utils/.
 Each subagent should apply the transformation and run `npm test -- --testPathPattern=<dir>`.

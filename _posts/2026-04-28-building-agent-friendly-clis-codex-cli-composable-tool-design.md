@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-building-agent-friendly-clis-codex-cli-composable-tool-design"
 tags: ["cli-design", "agent-friendly", "composable-tools", "skills", "cli-creator", "structured-output", "automation"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Building Agent-Friendly CLIs with Codex CLI: Composable Tool Design for the Agentic Era
 
@@ -142,7 +142,7 @@ Start with what work needs doing, not the technology. Good candidates include[^3
 
 Feed Codex the concrete inputs: API documentation, OpenAPI specifications, redacted curl commands, export files, or existing scripts[^3]. For authenticated commands, specify the environment variable name without sharing the actual secret.
 
-```
+```text
 Use $cli-creator to build a CLI called "ci-logs" that:
 - Accepts a CI build URL
 - Downloads failed job logs to ./logs/<build-id>/
@@ -217,7 +217,7 @@ $ tickets get T-9281 --json
 
 The companion skill then lets any future Codex session invoke this directly:
 
-```
+```text
 Use $tickets to find all tickets about "OAuth redirect loop" from the last week.
 Summarise the common thread and draft a response template.
 ```

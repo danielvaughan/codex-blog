@@ -1,7 +1,7 @@
 ---
 title: "Does Pi Outperform Codex CLI for Local Models? A Harness Comparison on the NVIDIA GB10"
 date: 2026-04-19T00:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - codex-cli
   - pi
@@ -63,7 +63,7 @@ Each run started from a clean `git init` directory. Tests were validated with `p
 
 ## Results
 
-```
+```text
 LOCAL MODEL BENCHMARK — 2026-04-19
 Hardware:  NVIDIA GB10 (128 GB unified, Blackwell)
 Codex CLI: v0.121.0  |  Pi: v0.67.68  |  Ollama: v0.20.5
@@ -142,7 +142,7 @@ The most unexpected finding. Prior measurements (Alex Fazio, Codex v0.114.0) est
 
 The cause: tessl MCP tool schemas were injected globally into all Codex CLI profiles. These schemas added approximately 7,000–10,000 tokens of tool definitions that appear in every conversation, regardless of whether tessl is used.
 
-```
+```text
                     Codex (default)    Codex (minimal)    Pi
 Measured overhead:  ~25,450 tok        ~18,415 tok        ~600 tok (est.)
 Expected (no MCP): ~8,500 tok         ~1,500 tok         ~600 tok

@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-gitops-argocd-flux-kustomize-environment-promotion-pipelines"
 tags: ["codex-cli", "gitops", "argocd", "flux", "kustomize", "kubernetes", "environment-promotion", "continuous-delivery"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for GitOps Workflows: ArgoCD Application Generation, Kustomize Overlay Management, and Environment Promotion Pipelines
 
@@ -80,7 +80,7 @@ This ensures Codex respects your deployment topology regardless of session type[
 
 For a new microservice requiring ArgoCD onboarding:
 
-```
+```text
 > Generate an ArgoCD Application manifest for the payment-service.
   It lives in github.com/acme/platform-manifests under services/payment-service.
   Target cluster: in-cluster. Namespace: payments.

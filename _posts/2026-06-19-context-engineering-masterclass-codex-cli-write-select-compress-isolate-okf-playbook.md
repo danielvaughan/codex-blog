@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-context-engineering-masterclass-codex-cli-write-select-compress-isolate-okf-playbook"
 tags: ["context-engineering", "codex-cli", "AGENTS.md", "OKF", "compaction", "subagents", "token-efficiency", "advanced"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Context Engineering Masterclass: The Write-Select-Compress-Isolate Playbook for Codex CLI
 
@@ -115,7 +115,7 @@ SWE-Explore demonstrated that repository exploration is the bottleneck for codin
 
 Place AGENTS.md files in subdirectories to provide context *only* when the agent operates in that area:
 
-```
+```text
 repo/
 ├── AGENTS.md                    # Project-wide conventions
 ├── src/

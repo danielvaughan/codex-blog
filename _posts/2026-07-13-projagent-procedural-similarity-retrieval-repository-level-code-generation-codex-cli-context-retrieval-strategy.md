@@ -1,7 +1,7 @@
 ---
 title: "Beyond Lexical Matching: How Procedural Similarity Retrieval Outperforms Traditional Context Selection — and What It Means for Codex CLI's Repository Strategy"
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "repository-level-code-generation", "procedural-similarity", "context-retrieval", "ProjAgent", "RAG", "REPOCOD"]
 ---
 
@@ -38,7 +38,7 @@ Consider two functions: `BlackBody.evaluate` in `astropy/modeling`, which valida
 
 Procedural similarity captures this shared computational logic. ProjAgent operationalises it through *reasoning-subspace projections* derived from LLM hidden states. Using singular value decomposition on the unembedding layer, the system decomposes hidden-state space into semantic and reasoning-related subspaces [^1]. The reasoning projection is computed as:
 
-```
+```text
 proj_R(h_l) = V_R^T · h_l
 ```
 

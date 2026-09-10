@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-remote-connections-ssh-websocket-secure-tunnels"
 tags: ["codex-cli", "remote", "ssh", "app-server", "websocket", "devbox", "security", "infrastructure"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Remote Connections: Running Agents on Remote Hosts with SSH, WebSocket, and Secure Tunnels
 
@@ -67,7 +67,7 @@ The simplest path — suitable when you already have SSH access to a devbox and 
 
 1. A working SSH config entry:
 
-```
+```text
 Host devbox
   HostName devbox.example.com
   User you

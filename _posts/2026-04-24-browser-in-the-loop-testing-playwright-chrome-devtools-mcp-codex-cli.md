@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-browser-in-the-loop-testing-playwright-chrome-devtools-mcp-codex-cli"
 tags: ["codex-cli", "playwright", "chrome-devtools", "mcp", "browser-testing", "e2e", "automation", "debugging"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Browser-in-the-loop testing: Playwright + Chrome DevTools MCP + Codex CLI
 
@@ -96,7 +96,7 @@ flowchart LR
 
 Codex writes a React component (or any front-end artefact), spins up a dev server, and uses Playwright MCP to navigate to the page. Playwright reads the browser's **accessibility tree** rather than taking screenshots, giving the agent a structured, token-efficient view of the rendered page[^6]. A typical prompt:
 
-```
+```text
 Write a login form component. Start the dev server, navigate to /login with
 Playwright, and verify the form renders with email and password fields.
 ```
@@ -119,7 +119,7 @@ The agent feeds this diagnostic information back into its reasoning loop and gen
 
 Once functional tests pass, Chrome DevTools MCP runs a Lighthouse audit:
 
-```
+```text
 Run a Lighthouse performance audit on http://localhost:3000/login.
 Flag any metrics where LCP > 2.5s, INP > 200ms, or CLS > 0.1.
 ```
@@ -130,7 +130,7 @@ The `lighthouse_audit` tool returns structured scores for accessibility, SEO, an
 
 For single-page applications and long-running dashboards, memory leaks are a common production issue. Chrome DevTools MCP's heap snapshot tools enable the agent to detect them:
 
-```
+```text
 Take a heap snapshot, navigate through 10 dashboard tabs, take another
 snapshot, and identify any objects that grew unexpectedly.
 ```
@@ -141,7 +141,7 @@ The five memory tools (`take_heapsnapshot`, `get_heapsnapshot_summary`, `get_hea
 
 Here is a concrete session showing the loop in action. The developer's prompt:
 
-```
+```text
 Add a bar chart widget to the analytics dashboard that loads data from
 /api/metrics. Write a Playwright test that verifies the chart renders with
 the correct number of bars. Then run a Lighthouse audit and fix any

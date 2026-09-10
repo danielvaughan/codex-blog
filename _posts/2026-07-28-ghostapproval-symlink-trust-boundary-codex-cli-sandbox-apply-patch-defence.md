@@ -1,7 +1,7 @@
 ---
 title: "GhostApproval and the Symlink Trust Boundary: Why Codex CLI's Sandbox Stops What Other Agents Cannot"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "security", "GhostApproval", "symlink", "sandbox", "trust-boundary", "apply-patch", "CWE-451"]
 ---
 
@@ -73,7 +73,7 @@ The test `apply_patch_cli_does_not_write_through_symlink_escape_outside_workspac
 
 In the default `workspace-write` sandbox mode, Codex CLI enforces a strict write-target allowlist [^4]:
 
-```
+```text
 --cd ∩ (--add-dir ∪ workdir ∪ /tmp ∪ $TMPDIR)
 ```
 

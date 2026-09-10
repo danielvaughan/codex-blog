@@ -2,7 +2,7 @@
 title: "Codex CLI Context Compaction: Architecture, Configuration, and Managing Long Sessions"
 description: "Agentic coding sessions accumulate context fast. A non-trivial refactoring task — reading source files, running tests, writing patches, re-reading updated."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - architecture
   - context-management
@@ -85,7 +85,7 @@ Critically, Codex handles multiple compactions correctly. When collecting user m
 
 The 90% hard ceiling is enforced in code as:[^5]
 
-```
+```text
 effective_auto_compact_limit = min(user_config_limit, context_window * 90%)
 ```
 
@@ -132,7 +132,7 @@ experimental_compact_prompt_file = "~/.codex/prompts/compaction.md"
 
 Trigger compaction explicitly mid-session with the `/compact` command in the TUI. As of v0.117.0, you can queue follow-up instructions during a manual compact without losing them:[^6]
 
-```
+```text
 /compact Focus particularly on the authentication refactor and the three failing tests.
 ```
 

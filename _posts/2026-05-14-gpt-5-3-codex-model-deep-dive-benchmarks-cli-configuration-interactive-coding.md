@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-gpt-5-3-codex-model-deep-dive-benchmarks-cli-configuration-interactive-coding"
 tags: ["gpt-5.3-codex", "model-selection", "benchmarks", "cli-configuration", "interactive-coding", "codex-spark"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # GPT-5.3-Codex Deep Dive: Benchmarks, CLI Configuration, and Interactive Coding Workflows
 
@@ -66,7 +66,7 @@ codex --model gpt-5.3-codex "Refactor the auth middleware"
 
 Mid-session switching is available via the TUI:
 
-```
+```text
 /model gpt-5.3-codex
 ```
 

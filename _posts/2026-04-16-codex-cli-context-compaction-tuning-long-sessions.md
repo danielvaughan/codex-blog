@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-cli-context-compaction-tuning-long-sessions"
 tags: ["context-compaction", "auto-compact", "config-toml", "long-sessions", "token-management", "handoff-summary", "compact-prompt"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Mastering Context Compaction in Codex CLI: Tuning Auto-Compact for Long-Running Sessions
 
@@ -57,7 +57,7 @@ The summary replaces all assistant replies and tool outputs whilst preserving us
 
 Since v0.100.0, Codex enforces a hard clamp: the effective auto-compact limit cannot exceed 90% of the context window[^5]. The formula is:
 
-```
+```text
 effective_limit = min(user_config_limit, context_window × 0.90)
 ```
 
@@ -178,7 +178,7 @@ general discussion but keep all SQL verbatim.
 
 Beyond auto-compaction, you can trigger compaction manually at any point during a session[^9]:
 
-```
+```text
 /compact
 ```
 

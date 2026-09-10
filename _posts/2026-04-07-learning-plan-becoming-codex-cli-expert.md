@@ -2,7 +2,7 @@
 title: "Learning Plan for Becoming a Codex CLI Expert"
 description: "Codex CLI is not a chatbot that writes code. It is an agentic coding harness — a system that reads your files, runs commands, makes changes, and works."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - getting-started
   - agents-md
@@ -260,7 +260,7 @@ A skill packages instructions, resources, and optional scripts so Codex can foll
 
 The minimum structure:
 
-```
+```text
 .agents/skills/lint-fix/
 ├── SKILL.md
 └── agents/
@@ -424,7 +424,7 @@ Global controls manage concurrency: `agents.max_threads` (default 6) and `agents
 
 **The coordinator pattern:** Use `gpt-5.4` as a planning coordinator that delegates narrower subtasks to `gpt-5.4-mini` sub-agents:
 
-```
+```text
 Use an explorer sub-agent to understand how our payment processing works.
 Then use three worker sub-agents in parallel to:
 1. Add input validation to the checkout flow

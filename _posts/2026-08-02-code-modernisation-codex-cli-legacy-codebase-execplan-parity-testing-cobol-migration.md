@@ -1,7 +1,7 @@
 ---
 title: "Code Modernisation with Codex CLI: The ExecPlan Pattern for Legacy Codebase Migration"
 date: 2026-08-02T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "code-modernisation", "legacy-migration", "ExecPlan", "COBOL", "parity-testing", "AGENTS.md", "enterprise"]
 ---
 
@@ -58,7 +58,7 @@ A practical AGENTS.md excerpt for a COBOL modernisation project:
 
 Choose a bounded, representative flow. The cookbook recommends a reporting flow — it touches data access, transformation logic, and output formatting without requiring real-time transaction handling [^2]. Ask Codex to propose candidates:
 
-```
+```text
 Read the repository structure and propose three candidate pilot flows
 for modernisation. For each, estimate the number of programs involved,
 the data sources touched, and the risk level.

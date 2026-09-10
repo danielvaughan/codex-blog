@@ -5,7 +5,7 @@ timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-codex-cli-circleci-mcp-server-plugin-ci-cd-pipeline-debugging-flaky-tests-chunk-agent"
 tags: ["codex-cli", "circleci", "mcp-server", "ci-cd", "plugin", "flaky-tests", "chunk", "pipeline-debugging", "configuration", "automation"]
 date: 2026-06-15T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI and CircleCI: Wiring the MCP Server and Plugin into Your CI/CD Feedback Loop
 
@@ -145,7 +145,7 @@ The `MAX_MCP_OUTPUT_LENGTH` environment variable (default: 50,000 characters) co
 
 The most common workflow is diagnosing a red pipeline without opening a browser:
 
-```
+```yaml
 You: The CI pipeline failed on my feature branch. What went wrong?
 ```
 
@@ -157,7 +157,7 @@ For test failures specifically, `get_job_test_results` returns structured metada
 
 Flaky tests are the silent productivity drain that most teams tolerate rather than fix. The `find_flaky_tests` tool analyses execution history across recent pipeline runs and returns tests that have alternated between pass and fail on the same commit[^2].
 
-```
+```yaml
 You: Find the flaky tests in this project and explain why they're unstable.
 ```
 
@@ -167,7 +167,7 @@ Codex calls `find_flaky_tests`, receives the list of unstable tests with their p
 
 Rather than pushing a `.circleci/config.yml` change and waiting for the remote validation to fail:
 
-```
+```yaml
 You: Validate the CircleCI config for this repo before I push.
 ```
 
@@ -177,7 +177,7 @@ The `config_helper` tool performs schema validation locally and returns warnings
 
 The `find_underused_resource_classes` tool analyses job execution metrics to identify pipelines running on `xlarge` when `medium` would suffice. Combined with `download_usage_api_data`, Codex can calculate your actual spend and recommend concrete resource class downgrades:
 
-```
+```yaml
 You: Are any of our CI jobs using oversized resource classes? Show me the potential savings.
 ```
 
@@ -214,7 +214,7 @@ sequenceDiagram
 
 ### Example Delegation
 
-```
+```yaml
 You: @circleci ask Chunk to fix any flaky tests in this project
 ```
 

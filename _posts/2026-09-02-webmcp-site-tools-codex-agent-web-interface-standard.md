@@ -1,7 +1,7 @@
 ---
 title: "WebMCP Site Tools: How Codex Now Calls Your Web App Like an API"
 date: 2026-09-02T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "webmcp", "site-tools", "mcp", "browser", "web-standard", "agent-integration"]
 ---
 
@@ -18,7 +18,7 @@ Traditional browser automation forces an agent to reconstruct intent from presen
 
 WebMCP inverts this. Instead of the agent inferring what a page can do, the page explicitly advertises it:
 
-```
+```text
 "I expose a tool called `add_to_cart`.
 It takes { product_id: string, quantity: number }.
 Here is the function that handles it."

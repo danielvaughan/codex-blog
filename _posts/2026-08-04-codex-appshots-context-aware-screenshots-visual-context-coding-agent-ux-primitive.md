@@ -1,7 +1,7 @@
 ---
 title: "Appshots: Context-Aware Screenshots and the Visual Context Primitive That Changes How Codex Sees Your Work"
 date: 2026-08-04T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "appshots", "visual-context", "computer-use", "accessibility-api", "screencapturekit", "macos", "developer-ux", "context-engineering"]
 ---
 
@@ -139,7 +139,7 @@ Cursor's Agent takes a different approach: it can control a browser to take scre
 
 ### Pattern 1: Visual Bug Report to Fix
 
-```
+```text
 1. ⌘⌘ on the broken UI
 2. "The sidebar is overlapping the main content area on viewport widths below 1024px.
     Fix the CSS and verify."
@@ -149,7 +149,7 @@ Cursor's Agent takes a different approach: it can control a browser to take scre
 
 ### Pattern 2: API Documentation Context Injection
 
-```
+```text
 1. Open the API reference in Safari
 2. ⌘⌘ to capture (including off-screen endpoints)
 3. "Implement the batch upload endpoint using the pagination pattern shown here"
@@ -158,7 +158,7 @@ Cursor's Agent takes a different approach: it can control a browser to take scre
 
 ### Pattern 3: Cross-Surface Debugging
 
-```
+```text
 1. ⌘⌘ in the Codex App to capture the error state
 2. Switch to terminal: codex --resume <thread-id>
 3. Debug and fix in the CLI environment

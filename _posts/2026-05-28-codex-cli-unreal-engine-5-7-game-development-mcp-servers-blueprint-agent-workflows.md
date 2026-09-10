@@ -5,7 +5,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-unreal-engine-5-7-game-development-mcp-servers-blueprint-agent-workflows"
 tags: ["codex-cli", "unreal-engine", "game-development", "mcp", "blueprint", "c++", "agent-workflows"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Unreal Engine 5.7: MCP Servers, Blueprint Workflows, and Agent-Driven Game Development
 
@@ -138,7 +138,7 @@ path = "/path/to/MyProject/**"
 
 The recommended workflow for new gameplay features is to have Codex generate C++ classes with Blueprint-callable functions, then use MCP tools to wire them into the scene:
 
-```
+```text
 > Create a new AProjectile actor class with:
   - UProjectileMovementComponent for physics
   - USphereComponent for collision
@@ -153,7 +153,7 @@ Codex generates the `.h` and `.cpp` files following Unreal conventions, then use
 
 Material editing in Unreal is notoriously visual. MCP tools bridge this gap by exposing material graph operations programmatically:
 
-```
+```text
 > Create a new material M_Ice with:
   - Base colour from a Fresnel node blended with light blue
   - Roughness 0.1, Metallic 0.0
@@ -167,7 +167,7 @@ The agent uses MCP tools to create the material asset, add expression nodes, con
 
 Unreal 5.7's production-ready Procedural Content Generation framework[^1] pairs naturally with agent-driven workflows. The agent can create PCG graphs, add nodes, configure rules, and execute generation:
 
-```
+```text
 > Create a PCG graph that scatters pine trees across the landscape:
   - Sample points on landscape with density 0.3/m²
   - Filter by slope (max 30°) and altitude (above 200m)
@@ -180,7 +180,7 @@ Unreal 5.7's production-ready Procedural Content Generation framework[^1] pairs 
 
 UnrealCodex provides dedicated animation Blueprint tools for state machine editing[^3]. A typical workflow:
 
-```
+```text
 > Create an Animation Blueprint for ABP_Character:
   - Locomotion state machine with Idle, Walk, Run, Sprint states
   - Blend by speed variable (0-600 range)

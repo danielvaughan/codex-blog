@@ -5,7 +5,7 @@ timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-doctor-diagnostics-troubleshooting-support-workflows"
 tags: ["codex-cli", "diagnostics", "troubleshooting", "codex-doctor", "support", "debugging", "v0.135", "v0.136"]
 date: 2026-06-02T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Doctor: Diagnostics, Troubleshooting, and Support-Ready Reports
 
@@ -61,7 +61,7 @@ The flags are composable. For a CI health check, `codex doctor --json --no-color
 
 The default output groups checks by category with status indicators and summary counts:
 
-```
+```text
 Environment
   ✓ runtime         Codex 0.136.0 (rust, installed via npm)
   ✓ terminal        xterm-256color, 120×40, tmux 3.4

@@ -6,7 +6,7 @@ timestamp: 2026-04-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-14-context-compaction-deep-dive-codex-cli-claude-code-opencode"
 tags: ["context-compaction", "token-management", "long-sessions", "codex-cli", "claude-code", "opencode", "encrypted-content", "session-memory", "/compact"]
 date: 2026-04-14T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Context Compaction Deep Dive: How Codex CLI, Claude Code, and OpenCode Manage Long Sessions
 
@@ -61,7 +61,7 @@ The `encrypted_content` approach is architecturally unique among coding agents. 
 
 The threshold is calculated as[^3]:
 
-```
+```text
 effective_window = model_context_window - min(max_output_tokens, 20000)
 threshold = effective_window - 13000
 ```

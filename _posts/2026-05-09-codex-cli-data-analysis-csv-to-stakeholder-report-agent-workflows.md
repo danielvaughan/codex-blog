@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-data-analysis-csv-to-stakeholder-report-agent-workflows"
 tags: ["codex-cli", "data-analysis", "codex-exec", "structured-output", "AGENTS.md", "skills", "pandas", "workflows"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Data Analysis: From Raw CSV to Stakeholder Report in One Agent Session
 
@@ -75,7 +75,7 @@ codex
 
 Your first prompt should ask Codex to inventory the raw data:
 
-```
+```text
 Read all files in data/raw/. For each CSV, report: row count, column names
 and types, null rates per column, and any duplicate-key candidates.
 Write the profile to output/data-profile.md.
@@ -85,7 +85,7 @@ Codex will generate a Python script that uses `pandas.DataFrame.info()`, `descri
 
 ### Stage 2: Cleaning and Joining
 
-```
+```text
 Clean the revenue data: drop rows where amount <= 0, parse date columns
 as datetime, normalise region codes to ISO 3166-2. Then join with the
 customer dimension table on customer_id. Profile the join key first —
@@ -99,7 +99,7 @@ The key instruction here is *profile the join key first*. OpenAI's data-analysis
 
 For exploratory hypotheses, use separate Git worktrees to keep diffs reviewable:
 
-```
+```sql
 Create a worktree for the regional-variance hypothesis. In that worktree,
 group revenue by region and month, compute coefficient of variation,
 and generate a heatmap. Keep the diff focused on exploration only.
@@ -193,7 +193,7 @@ Codex ships with several built-in skills that handle the final communication sta
 
 Invoke a skill directly in your prompt:
 
-```
+```text
 Using the $pdf skill, create a stakeholder report from the analysis in
 output/revenue-summary.json. Include an executive summary, regional
 breakdown table, month-over-month trend chart, and a caveats section

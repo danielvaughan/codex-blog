@@ -1,7 +1,7 @@
 ---
 title: "Programmatic Skill Learning and the SpeedRunner Thesis: What Wake-Sleep Trajectory Analysis Means for Your Codex CLI Skill Library and Token Budget"
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "skill-learning", "programmatic-skills", "cost-reduction", "trajectory-analysis", "wake-sleep", "SKILL.md", "agent-plugins", "token-budget"]
 ---
 
@@ -152,9 +152,9 @@ description: "Check database migrations for safety issues"
 Run the migration safety script instead of reasoning about each check:
 ```bash
 ./scripts/check-migration-safety.sh $MIGRATION_FILE
-```
+```text
 EOF
-```
+```markdown
 
 ### Structured AGENTS.md for Skill Routing
 

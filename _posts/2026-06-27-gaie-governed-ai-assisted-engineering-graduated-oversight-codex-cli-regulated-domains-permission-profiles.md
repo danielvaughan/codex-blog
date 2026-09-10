@@ -5,7 +5,7 @@ timestamp: 2026-06-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-27-gaie-governed-ai-assisted-engineering-graduated-oversight-codex-cli-regulated-domains-permission-profiles"
 tags: ["codex-cli", "governance", "regulated-domains", "permission-profiles", "compliance", "GAIE", "oversight-classification", "hooks", "AGENTS.md"]
 date: 2026-06-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Governed AI-Assisted Engineering: Mapping GAIE's Graduated Oversight Model to Codex CLI Permission Profiles for Regulated Codebases
 
@@ -62,7 +62,7 @@ GAIE illustrates its tiers through a banking scenario [^1]:
 
 The velocity impact is modest. Across three scenarios (conservative to optimistic), GAIE estimates 84–97% velocity retention with a central estimate of approximately 91% [^1]. The weighted formula is straightforward:
 
-```
+```text
 Velocity = (Tier3_volume × Tier3_velocity) + (Tier2_volume × Tier2_velocity) + (Tier1_volume × Tier1_velocity)
 ```
 

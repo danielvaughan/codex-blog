@@ -1,7 +1,7 @@
 ---
 title: "Task References in Codex CLI v0.150.0: Cross-Task Context Without Copy-Paste"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "v0.150.0", "agents", "multi-agent", "task-references", "cross-task", "tui", "codex_tui", "coordination"]
 ---
 
@@ -30,7 +30,7 @@ When you select a task from the popup, it is submitted as a **bounded live threa
 
 The bounding is important: the reference carries size limits on both the request sent to the task and the response loaded from it. This prevents a single cross-task reference from flooding the active context window with an unbounded conversation history.
 
-```
+```text
 # Example: type in the TUI composer
 @auth-refactor-task review the changes I've made here and confirm they're consistent
 ```
@@ -84,7 +84,7 @@ The bounded fetch is the key safety mechanism. The app-server enforces size limi
 
 Run a specialist implementation task to completion, then open a fresh review session and reference it:
 
-```
+```markdown
 # In a new reviewer session
 @implement-payment-gateway-task
 Review the changes in that task against our API contract spec.
@@ -97,7 +97,7 @@ The reviewer agent loads the implementation task's thread, including all tool ca
 
 After three parallel specialist tasks complete, use an aggregator task to synthesise:
 
-```
+```python
 @backend-task @frontend-task @db-schema-task
 Summarise the design decisions made in each task.
 Identify any inconsistencies across the three implementations.
@@ -109,7 +109,7 @@ All three tasks are resolved as bounded references and injected into context bef
 
 With `codex_tui` tools available to the agent, you can ask it to coordinate other tasks autonomously:
 
-```
+```text
 Audit our three open feature branches.
 Create a separate Codex task for each branch,
 wait for them to complete their static analysis,
@@ -122,7 +122,7 @@ The agent calls `create_task` three times, then `wait_for_task` for each, then `
 
 When resuming a paused session that depends on a separate planning task:
 
-```
+```python
 @architecture-planning-task
 Continue the implementation described in that planning session.
 We're starting on the authentication module.

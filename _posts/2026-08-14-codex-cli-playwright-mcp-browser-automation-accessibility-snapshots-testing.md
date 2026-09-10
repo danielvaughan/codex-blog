@@ -6,7 +6,7 @@ timestamp: 2026-08-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-14-codex-cli-playwright-mcp-browser-automation-accessibility-snapshots-testing"
 tags: ["codex-cli", "playwright", "mcp", "browser-automation", "testing", "accessibility", "snapshots", "verification", "ci-cd"]
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI with Playwright MCP: Browser Automation Through Accessibility Snapshots
 
@@ -22,7 +22,7 @@ The key design decision: Playwright MCP returns structured accessibility snapsho
 
 When Playwright MCP captures a page, it reads the browser's accessibility tree, the same semantic structure that screen readers use. The result looks like this:
 
-```
+```text
 - heading "Dashboard" [level=1]
 - navigation "Main"
   - link "Home" [ref=e1]
@@ -91,7 +91,7 @@ In the TUI, run `/mcp` to confirm the Playwright server is connected. You should
 
 The simplest use case: after the agent modifies a component, it opens the browser and checks the result.
 
-```
+```text
 > Fix the broken date picker in src/components/DatePicker.tsx,
   then verify it works at http://localhost:3000/booking
 ```
@@ -102,7 +102,7 @@ The agent edits the code, navigates to the page, interacts with the date picker 
 
 Playwright MCP handles form interactions through element references:
 
-```
+```text
 > Navigate to http://localhost:3000/signup, fill in the registration form
   with test data, submit it, and verify the success message appears
 ```
@@ -113,7 +113,7 @@ The agent reads the accessibility snapshot, identifies form fields by their labe
 
 A more advanced pattern: the agent explores the application, then writes test code based on what it found.
 
-```
+```text
 > Navigate through the checkout flow at http://localhost:3000/cart.
   Document every step, then generate a Playwright test file
   at tests/e2e/checkout.spec.ts that replays the flow.

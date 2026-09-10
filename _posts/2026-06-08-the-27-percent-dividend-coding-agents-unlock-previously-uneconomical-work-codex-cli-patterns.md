@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-the-27-percent-dividend-coding-agents-unlock-previously-uneconomical-work-codex-cli-patterns"
 tags: ["codex-cli", "productivity", "new-work", "anthropic-research", "automation", "codex-exec", "skills", "automations", "technical-debt", "papercuts", "pragmatic-engineer"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The 27% Dividend: How Coding Agents Unlock Previously Uneconomical Work, and Codex CLI Patterns for Capturing It
 
@@ -176,7 +176,7 @@ Each agent works in its own thread with isolated context. You review the three i
 
 Schedule a weekly automation in the Codex app:
 
-```
+```yaml
 Prompt: "Scan all markdown files in docs/. For each file, check whether
 the code examples still compile and the API references match the current
 source. Fix any that are stale. Commit with message 'docs: automated

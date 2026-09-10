@@ -1,7 +1,7 @@
 ---
 title: "Control Under Compression: What CompressAgent Reveals About AGENTS.md Structure and Codex CLI Compaction Reliability"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "compaction", "AGENTS.md", "context-management", "reliability", "compression", "hooks", "named-profiles", "token-budget", "agent-control-context"]
 ---
 
@@ -156,7 +156,7 @@ Codex CLI's `model_auto_compact_token_limit` can be lowered (but not raised) fro
 
 CompressAgent's data suggests a practical guideline: if your AGENTS.md + system prompt + tool schemas consume >25% of the post-compaction context budget, you are operating in the transition region on any compaction pass that touches the control context. The budget math:
 
-```
+```text
 Post-compaction target window = model_window × (1 - compact_threshold_ratio)
 Control context share = (AGENTS.md + tool schemas) / post-compaction target window
 ```

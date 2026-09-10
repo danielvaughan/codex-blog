@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-mysql-development-mcp-servers-schema-exploration-query-workflows"
 tags: ["codex-cli", "mysql", "mcp", "database", "schema", "query", "mysql-9.7", "mariadb", "aurora"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for MySQL Development: MCP Servers, Schema Exploration, and Query Workflows on MySQL 9.7
 
@@ -148,7 +148,7 @@ Drop this into your repository root so Codex CLI adopts project-wide conventions
 
 ### 1. Schema exploration and documentation
 
-```
+```text
 codex "Connect to the MySQL database via the mysql MCP server.
 List all tables, describe each one, and produce a markdown
 data dictionary with column types, indexes, and foreign key
@@ -159,7 +159,7 @@ The agent calls `list_tables` → `describe_table` for each table → writes a s
 
 ### 2. Query generation with safety gating
 
-```
+```text
 codex --approval-mode suggest "Write a query that returns the
 top 10 customers by lifetime order value, joining orders,
 order_items, and products. Use CTEs for clarity. Run it via
@@ -170,7 +170,7 @@ In `suggest` mode, Codex CLI shows the generated SQL and waits for approval befo
 
 ### 3. Migration script generation
 
-```
+```text
 codex "Examine the current schema via the mysql MCP server.
 Generate an Alembic migration that adds a 'status' enum column
 to the orders table with values ('pending', 'processing',

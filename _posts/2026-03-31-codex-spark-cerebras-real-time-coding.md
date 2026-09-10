@@ -2,7 +2,7 @@
 title: "GPT-5.3-Codex-Spark and the Cerebras Inference Stack: Real-Time Coding at 1,000 Tokens per Second"
 description: "GPT-5.3-Codex-Spark is OpenAI's first model purpose-built for real-time coding iteration, and the first production model served entirely on non-NVIDIA."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - models
   - codex-spark
@@ -98,7 +98,7 @@ codex -m gpt-5.3-codex-spark
 
 Or switch mid-session using the `/model` command:
 
-```
+```text
 /model gpt-5.3-codex-spark
 ```
 
@@ -257,7 +257,7 @@ codex --profile spark "Refactor this function to use early returns instead of ne
 
 Breaking tasks explicitly before dispatching enables mixing models within a single workflow:
 
-```
+```text
 1. [SPARK] Add the new UserPreferences interface to types/user.ts
 2. [SPARK] Update the three component files that consume UserPreferences
 3. [CODEX] Write migration script to backfill the new preference column

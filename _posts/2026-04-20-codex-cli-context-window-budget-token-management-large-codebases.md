@@ -6,7 +6,7 @@ timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-context-window-budget-token-management-large-codebases"
 tags: ["codex-cli", "context-window", "token-management", "compaction", "monorepo", "subagents", "large-codebase"]
 date: 2026-04-20T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Model Context Window Budget: Practical Token Management for Large Codebases
 
@@ -100,14 +100,14 @@ Every `@file` reference includes the file's full content in the token count[^3].
 
 **Do this:**
 
-```
+```text
 Fix the race condition in @src/services/auth/session-manager.ts
 using the lock pattern from @src/lib/distributed-lock.ts
 ```
 
 **Not this:**
 
-```
+```text
 Fix the race condition somewhere in @src/services/
 ```
 
@@ -155,7 +155,7 @@ This hierarchy means the agent gets the global picture cheaply, then loads servi
 
 Do not wait for auto-compaction to interrupt your flow. If you have finished a distinct phase of work (e.g., debugging is done, now moving to testing), run `/compact` manually[^8][^9]:
 
-```
+```text
 /compact
 ```
 
@@ -195,7 +195,7 @@ Since v0.107.0, Codex CLI supports subagent delegation[^11]. Each subagent runs 
 
 **Delegation pattern:**
 
-```
+```text
 Search @src/services/ for all usages of the deprecated PaymentV1 interface.
 Delegate this to a subagent — I need a list of files and line numbers,
 grouped by service.

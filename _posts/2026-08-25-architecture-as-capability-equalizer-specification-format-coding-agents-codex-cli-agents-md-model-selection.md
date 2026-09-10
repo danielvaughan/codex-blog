@@ -1,7 +1,7 @@
 ---
 title: "Architecture as Capability Equalizer: How Specification Format Transforms Coding Agent Performance — and What It Means for Codex CLI"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "specification-format", "AGENTS.md", "model-selection", "OpenAPI", "TypeScript-contracts", "capability-equalizer", "config-toml", "named-profiles"]
 ---
 
@@ -51,7 +51,7 @@ The paper organises the five formats along an axis from human-oriented to code-p
 
 Haiku 4.5 score breakdown illustrates the gradient:
 
-```
+```yaml
 Prose:               5.58
 Mermaid + ADRs:      6.42
 C4/Structurizr:      6.42

@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-plugin-ecosystem-building-distributing-marketplace-plugins"
 tags: ["codex-cli", "plugins", "marketplace", "mcp", "skills", "hooks", "developer-experience"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Plugin Ecosystem: Building, Distributing, and Managing Marketplace Plugins
 
@@ -21,7 +21,7 @@ Since v0.117.0 landed on 26 March 2026, Codex CLI has treated plugins as a first
 
 A plugin is a directory whose only hard requirement is a `.codex-plugin/plugin.json` manifest. Everything else — skills, MCP servers, app connectors, hooks — is optional and lives at the plugin root [^4]:
 
-```
+```text
 my-plugin/
 ├── .codex-plugin/
 │   └── plugin.json          # required — identity and component pointers
@@ -257,7 +257,7 @@ npx codex-plugin-scanner validate ./my-plugin
 
 Codex ships a built-in `$plugin-creator` skill that generates the directory structure, manifest, and a local marketplace entry for testing [^4]. Start a session and ask it to create a plugin:
 
-```
+```text
 > Use $plugin-creator to scaffold a plugin called "db-migrator" that
   bundles a PostgreSQL MCP server and a migration skill.
 ```

@@ -2,7 +2,7 @@
 title: "Codex CLI Triggers: Event-Driven GitHub Automation Beyond CI/CD"
 description: "With the March 2026 release wave, OpenAI shipped five headline features simultaneously: Plugins, Triggers, the Security Agent, Windows support, and GPT-5.4."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ci-cd
   - github-actions
@@ -218,7 +218,7 @@ Beyond the GitHub Action, Codex Cloud provides a complementary trigger mechanism
 
 Codex Cloud reviews focus on P0 and P1 severity issues by default, and repository maintainers can customise review behaviour through an `AGENTS.md` file containing a "Review guidelines" section[^8]. For one-off focus areas:
 
-```
+```python
 @codex review for security regressions
 ```
 

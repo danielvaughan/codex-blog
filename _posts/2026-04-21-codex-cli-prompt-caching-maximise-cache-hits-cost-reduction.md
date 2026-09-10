@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-prompt-caching-maximise-cache-hits-cost-reduction"
 tags: ["codex-cli", "prompt-caching", "cost-optimisation", "agent-loop", "performance", "token-management"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Prompt Caching in Codex CLI: How the Agent Loop Stays Linear and How to Maximise Cache Hits
 
@@ -161,7 +161,7 @@ Setting this too low means frequent compactions and frequent cache invalidations
 
 Codex CLI tracks per-turn token usage with explicit fields for cached versus non-cached input[^5]:
 
-```
+```text
 Turn 7: input=45,230 (cached=41,102) output=1,847 reasoning=3,200
          cache_hit_rate=90.9%  effective_cost=$0.0034
 ```
@@ -172,7 +172,7 @@ Use `/status` in the TUI to see aggregate session statistics including cumulativ
 
 If you have OTEL export configured, cache metrics appear as span attributes:
 
-```
+```text
 codex.tokens.input_cached: 41102
 codex.tokens.input_uncached: 4128
 codex.cache.hit_rate: 0.909

@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-linux-kernel-development-modules-drivers-lkml-submission"
 tags: ["codex-cli", "linux-kernel", "systems-programming", "kernel-modules", "drivers", "LKML", "AGENTS.md", "checkpatch", "C", "sandbox"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Linux Kernel Development with Codex CLI: From Module Scaffolding to LKML Submission
 
@@ -26,7 +26,7 @@ Linux 7.0, released on 12 April 2026, merged `Documentation/process/coding-assis
 1. **Only humans sign off.** AI agents MUST NOT add `Signed-off-by` tags. The human submitter certifies the Developer Certificate of Origin and bears full legal responsibility [^2].
 2. **Attribution is mandatory.** Every patch that received AI assistance must include an `Assisted-by` tag in the commit trailer [^2]:
 
-```
+```yaml
 Assisted-by: Codex:GPT-5.5 [checkpatch] [sparse]
 ```
 

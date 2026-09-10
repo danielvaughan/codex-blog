@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-prompting-gpt-5-5-in-codex-cli-outcome-first-agents-md-reasoning-effort"
 tags: ["codex-cli", "gpt-5.5", "prompting", "AGENTS.md", "reasoning-effort", "configuration", "best-practices"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Prompting GPT-5.5 in Codex CLI: Outcome-First Instructions, AGENTS.md Patterns, and Reasoning Effort Tuning
 
@@ -52,7 +52,7 @@ Codex CLI's official best practices define a four-element structure that aligns 
 
 In an interactive Codex CLI session, this translates to prompts like:
 
-```
+```text
 Add retry logic to the payment gateway client in src/gateway/client.ts.
 Use exponential backoff with jitter, max 3 retries, 1s initial delay.
 Preserve existing GatewayError types. Done when all tests pass

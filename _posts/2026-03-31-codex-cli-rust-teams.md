@@ -2,7 +2,7 @@
 title: "Codex CLI for Rust Teams: AGENTS.md, Cargo Workflows, and Workspace Patterns"
 description: "Codex CLI is written in Rust. That is not a coincidence — it means the OpenAI team has already worked out the patterns for using Codex to maintain a large."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - language-guide
   - agents-md
@@ -50,7 +50,7 @@ Always run targeted tests first. If you changed code in `crate-foo`, run:
 
 ```bash
 cargo test -p crate-foo
-```
+```text
 
 If changes touch shared crates (`core`, `common`, `protocol`, or any crate that other
 crates depend on), run the full test suite — but ask the user before doing so:
@@ -59,7 +59,7 @@ crates depend on), run the full test suite — but ask the user before doing so:
 cargo test
 # or, if cargo-nextest is installed:
 just test
-```
+```text
 
 Do **not** use `--all-features` for routine local test runs. It expands the build
 matrix significantly and can exhaust `target/` disk space. Use it only when a PR
@@ -75,7 +75,7 @@ Before finalising a large change, run:
 
 ```bash
 just fix -p <crate-you-touched>
-```
+```text
 
 Prefer `-p` scoping to avoid workspace-wide Clippy builds. Only run `just fix` without
 `-p` if you changed a shared crate.
@@ -89,7 +89,7 @@ When you modify `Cargo.toml` or `Cargo.lock`, refresh the Bazel lockfile:
 ```bash
 just bazel-lock-update   # run from repo root
 just bazel-lock-check    # catch drift before CI
-```
+```text
 
 Include the lockfile update in the same commit as the dependency change.
 
@@ -114,7 +114,7 @@ Bazel will silently fail if the reference is missing from BUILD.
 modify any code related to `CODEX_SANDBOX_NETWORK_DISABLED_ENV_VAR` or
 `CODEX_SANDBOX_ENV_VAR`.[^3]
 
-```
+```yaml
 
 ---
 

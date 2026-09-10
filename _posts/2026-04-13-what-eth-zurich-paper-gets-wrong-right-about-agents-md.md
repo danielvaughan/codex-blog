@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-what-eth-zurich-paper-gets-wrong-right-about-agents-md"
 tags: ["agents-md", "research", "eth-zurich", "best-practices", "enterprise", "context-files", "cost-optimisation"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # What the ETH Zurich Paper Gets Wrong (and Right) About AGENTS.md
 
@@ -114,7 +114,7 @@ The paper is right that restating inferable information wastes tokens. Focus on:
 
 Codex CLI walks from `~/.codex/AGENTS.md` → repo root → current directory [^5]. Use this:
 
-```
+```text
 ~/.codex/AGENTS.md          # Personal defaults (editor prefs, global linting)
 repo/AGENTS.md               # Repo-wide conventions (test framework, CI rules)
 repo/services/payments/AGENTS.override.md  # Team-specific overrides
@@ -160,9 +160,9 @@ function process(input: string | null): Result {
     return Result.empty()
   }
 }
-```
+```text
 
-```
+```markdown
 
 ### 5. Set Boundaries, Not Aspirations
 

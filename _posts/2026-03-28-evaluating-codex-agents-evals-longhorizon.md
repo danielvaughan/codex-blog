@@ -1,7 +1,7 @@
 ---
 title: "Evaluating Codex Agents: Evals, Long-Horizon Benchmarks, and the 4-File Pattern"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 description: "How to evaluate whether your Codex agent actually did the right thing — from quick skill evals to 25-hour autonomous runs."
 tags:
   - workflow-patterns
@@ -128,7 +128,7 @@ When given a multi-day task:
 
 ## Putting It Together: The Evaluation Stack
 
-```
+```text
 Short tasks (< 30 min)
   → Skill evals: 10-20 prompts, JSONL trace checks, --output-schema rubric
   → CI gate: 80% pass rate, cost < $0.25, latency < 30s

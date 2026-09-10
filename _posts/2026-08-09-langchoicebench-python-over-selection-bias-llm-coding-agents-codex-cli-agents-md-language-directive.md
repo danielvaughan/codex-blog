@@ -1,7 +1,7 @@
 ---
 title: "LangChoiceBench and the Python Over-Selection Problem: Why Your Coding Agent Defaults to Python When It Shouldn't — and How to Fix It in Codex CLI"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "python-bias", "language-selection", "AGENTS.md", "named-profiles", "LangChoiceBench", "phantom-evidence", "code-generation"]
 ---
 
@@ -85,7 +85,7 @@ explicitly and wait for approval before proceeding.
 
 The `AGENTS.md` specification supports conditional blocks via language matchers [^6]. For monorepos with multiple languages, use directory-level `AGENTS.md` files:
 
-```
+```text
 repo-root/
   AGENTS.md              # Project-wide: "This is a polyglot repo"
   services/gateway/
@@ -170,7 +170,7 @@ fi
 
 When you need the agent to make a genuine language-selection decision — for instance, when starting a new project — structure your prompt to force explicit trade-off analysis rather than allowing a default:
 
-```
+```text
 I need to build a low-latency WebSocket relay that handles 50,000
 concurrent connections on a 2-vCPU VM. Before writing any code:
 

@@ -2,7 +2,7 @@
 title: "Codex Computer Use and Locked Mac Remote Desktop: How CUA Turns Codex into a GUI Agent"
 description: "Published: 2026-05-22 Sources: OpenAI Computer Use docs, OpenAI Use Cases, OpenAI Changelog v26.519, TestingCatalog coverage, Knightli enterprise access."
 date: 2026-05-22T00:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - codex-cli
   - computer-use
@@ -106,7 +106,7 @@ Enterprise workspaces can use **access tokens** to gate mobile remote access, en
 
 ### 1. Bug Reproduction with Screenshots
 
-```
+```python
 @Computer Open the Expenses app, navigate to the Reports tab,
 and show me what happens when I click Export with no date range selected.
 Screenshot the error state.
@@ -114,14 +114,14 @@ Screenshot the error state.
 
 ### 2. Cross-App Data Collection
 
-```
+```python
 @Slack Copy the last 5 messages from #deploys.
 @Notion Paste them into the Deploy Log page under today's date.
 ```
 
 ### 3. iOS Simulator Testing (Locked Mac)
 
-```
+```text
 /goal Test the latest build in the iOS 19 simulator.
 Launch the app, navigate through the onboarding flow,
 and screenshot any layout issues. Run overnight.
@@ -129,7 +129,7 @@ and screenshot any layout issues. Run overnight.
 
 ### 4. Design-to-Code with Figma
 
-```
+```python
 @Figma Open the Dashboard Redesign file.
 Screenshot the "Metrics Panel" component.
 Then implement it as a React component matching the layout and spacing.

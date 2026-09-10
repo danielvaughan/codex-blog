@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-nix-nixos-development-mcp-servers-flakes-reproducible-agent-workflows"
 tags: ["codex-cli", "nix", "nixos", "mcp", "flakes", "home-manager", "nix-darwin", "sandbox", "reproducible-builds", "devops"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Nix and NixOS Development: MCP-NixOS, Sandbox Isolation, and Reproducible Agent Workflows
 
@@ -160,7 +160,7 @@ Nix's unique syntax and conventions require explicit guidance. The following tem
 
 ### Pattern 1: NixOS Module Development with Verified Options
 
-```
+```yaml
 Prompt: "Create a NixOS module for Caddy reverse proxy with automatic
 HTTPS, using the mcp-nixos tool to verify all option paths exist."
 ```
@@ -180,7 +180,7 @@ The agent uses `nix_versions()` to confirm that packages referenced in overlays 
 
 ### Pattern 3: Cross-Platform Configuration with nix-darwin
 
-```
+```yaml
 Prompt: "I need a shared home-manager config that works on both
 NixOS and macOS via nix-darwin. Use mcp-nixos to verify which
 options are available on each platform before using them."
@@ -192,7 +192,7 @@ The agent queries Home Manager options and nix-darwin options separately, identi
 
 When debugging complex Nix expressions, the agent can use nix-sandbox-mcp to evaluate expressions safely:
 
-```
+```yaml
 Prompt: "This derivation fails to build. Use the nix sandbox to
 evaluate the expression step by step, checking each attribute
 set merge. Don't modify my flake.lock."

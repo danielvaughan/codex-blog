@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-automated-code-documentation-generation-docstrings-jsdoc-sphinx-ci-pipelines"
 tags: ["codex-cli", "documentation", "docstrings", "jsdoc", "sphinx", "typedoc", "ci-cd", "automation", "skills", "codex-exec"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Automated Code Documentation Generation with Codex CLI: Docstrings, JSDoc, and CI-Integrated Doc Pipelines
 
@@ -283,7 +283,7 @@ The key insight is that Codex generates the *source material* — the docstrings
 
 For ongoing documentation maintenance, use Codex App automations to run the doc-gen skill on a schedule [^12]:
 
-```
+```text
 Name: Weekly documentation audit
 Project: my-project
 Prompt: $doc-gen target=src/ dry-run=true
@@ -292,7 +292,7 @@ Schedule: Weekly (Monday 09:00)
 
 This produces a weekly gap report without modifying code. Pair it with a second automation that generates documentation for new code merged in the previous week:
 
-```
+```text
 Name: Weekly doc generation
 Project: my-project
 Prompt: $doc-gen target=src/

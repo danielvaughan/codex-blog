@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-data-science-pandas-polars-workflows"
 tags: ["data-science", "pandas", "polars", "notebooks", "eda", "charts", "data-analysis", "codex-cli", "skills"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Data Science Teams: Pandas, Polars, and Notebook-Adjacent Workflows
 
@@ -32,7 +32,7 @@ Codex CLI runs locally, reads and writes your filesystem, and executes code in y
 
 The official Codex documentation recommends a canonical directory structure for data projects [^4]:
 
-```
+```text
 project/
 ├── AGENTS.md
 ├── data/
@@ -141,7 +141,7 @@ Codex skills — reusable workflow packages stored in `.agents/skills/` — are 
 
 Here is an example `csv-profiler` skill:
 
-```
+```text
 .agents/skills/csv-profiler/
 ├── SKILL.md
 └── scripts/

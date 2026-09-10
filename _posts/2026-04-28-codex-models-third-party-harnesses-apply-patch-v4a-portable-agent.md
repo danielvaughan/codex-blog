@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-codex-models-third-party-harnesses-apply-patch-v4a-portable-agent"
 tags: ["codex-models", "apply-patch", "v4a-diff", "harness-engineering", "warp", "opencode", "responses-api", "third-party-integration"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex Models in Third-Party Harnesses: apply_patch, V4A Diffs, and Building a Portable Coding Agent
 
@@ -162,7 +162,7 @@ Keep the system prompt stable across requests to maximise prompt caching. Cache 
 
 The V4A format begins with `*** Begin Patch` and ends with `*** End Patch`. Each file operation is prefixed with a path and operation type [^1][^7]:
 
-```
+```text
 *** Begin Patch
 --- a/src/logger.ts
 +++ b/src/logger.ts

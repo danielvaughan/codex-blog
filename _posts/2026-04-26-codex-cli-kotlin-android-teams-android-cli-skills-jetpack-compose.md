@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-kotlin-android-teams-android-cli-skills-jetpack-compose"
 tags: ["codex-cli", "kotlin", "android", "jetpack-compose", "android-cli", "android-skills", "agents-md", "mobile-development", "gradle", "kmp"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Kotlin and Android Teams: Android CLI, Skills, Jetpack Compose, and Agent-Driven Mobile Workflows
 
@@ -143,7 +143,7 @@ android skills add --skill navigation-3
 
 The installed skill structure:
 
-```
+```text
 .skills/
 └── navigation-3/
     ├── SKILL.md
@@ -165,7 +165,7 @@ Compose is where Codex CLI truly excels on Android. The declarative, function-ba
 
 A typical prompt and the resulting workflow:
 
-```
+```sql
 Create a ProfileCard composable that displays a user avatar, name, and bio.
 Use Material 3 components, follow state hoisting, and include a Compose Preview.
 Write a UI test using createComposeRule.
@@ -194,7 +194,7 @@ Codex CLI will:
 
 With the Android `xml-to-compose` skill installed, you can prompt:
 
-```
+```text
 Migrate the activity_settings.xml layout to a SettingsScreen composable.
 Preserve all click handlers and data binding references.
 ```

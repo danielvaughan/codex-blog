@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-aws-agentcore-managed-harness-codex-cli-enterprise-agent-deployment"
 tags: ["codex-cli", "aws", "amazon-bedrock", "agentcore", "enterprise", "managed-harness", "agent-deployment", "infrastructure"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # AWS AgentCore's Managed Harness and Coding Skills: What They Mean for Codex CLI Teams
 
@@ -75,7 +75,7 @@ agentcore invoke
 
 The project structure follows a convention-over-configuration pattern:
 
-```
+```text
 my-project/
 ├── agentcore/
 │   ├── .env.local          # API keys

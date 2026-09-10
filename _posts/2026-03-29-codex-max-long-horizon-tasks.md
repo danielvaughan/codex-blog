@@ -2,7 +2,7 @@
 title: "GPT-5.1-Codex-Max: Long-Horizon Tasks, Native Compaction and 24-Hour Sessions"
 description: "Most Codex tasks complete in minutes. But some tasks — a full microservice migration, a large-scale refactor across 50+ files, a days-long debugging session."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - models
   - context-management
@@ -146,7 +146,7 @@ Monitor via the Codex app sidebar — the thread will show compaction events as 
 
 GPT-5.1-Codex-Max's place in the lineage:
 
-```
+```text
 gpt-5-codex (current recommended)
     ↑ gpt-5.3-codex (better tool reliability, Tau2-bench)
         ↑ gpt-5.2-codex (native compaction, context rollup)

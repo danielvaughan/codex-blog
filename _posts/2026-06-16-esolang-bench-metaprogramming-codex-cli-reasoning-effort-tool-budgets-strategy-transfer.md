@@ -5,7 +5,7 @@ timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-esolang-bench-metaprogramming-codex-cli-reasoning-effort-tool-budgets-strategy-transfer"
 tags: ["codex-cli", "research", "esolang-bench", "metaprogramming", "reasoning-effort", "model-selection", "AGENTS.md", "skills", "benchmarks", "strategy-transfer"]
 date: 2026-06-16T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Frontier Agents and Metaprogramming: What EsoLang-Bench Reveals About Codex CLI Reasoning Effort, Tool Budgets, and Strategy Transfer
 
@@ -158,7 +158,7 @@ Text instructions alone (+Text) had negligible effect. But providing reusable co
 
 This result maps precisely to Codex CLI's **Skills** system [^4] and **AGENTS.md** [^5]:
 
-```
+```text
 .codex/
   skills/
     brainfuck-generators/

@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-julia-scientific-computing-mcp-jetls-persistent-sessions"
 tags: ["codex-cli", "julia", "scientific-computing", "mcp", "jetls", "persistent-sessions", "language-server"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Julia and Scientific Computing: julia-mcp, JETLS, and Persistent Session Workflows
 
@@ -179,7 +179,7 @@ This mirrors the type-driven development pattern used successfully with Haskell 
 
 For data science workflows using DataFrames.jl, Makie.jl, or Flux.jl:
 
-```
+```yaml
 Prompt: "Load the CSV from data/measurements.csv, clean missing values,
          fit a linear regression, and plot residuals"
 ```

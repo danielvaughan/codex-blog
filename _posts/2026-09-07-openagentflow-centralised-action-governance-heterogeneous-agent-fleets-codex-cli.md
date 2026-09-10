@@ -2,6 +2,8 @@
 title: "OpenAgentFlow: Centralised Action Governance for Heterogeneous Agent Fleets — and What It Means for Codex CLI"
 parent: "Articles"
 nav_order: 1141
+date: 2026-09-07T08:00:00+00:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "multi-agent", "safety", "policy-enforcement", "agent-governance", "hooks", "sandbox"]
 ---
 
@@ -55,7 +57,7 @@ flowchart LR
 
 Every pending action — whether it is a tap on an Android screen, a REST call, a shell invocation, or an LLM-planned operation — is normalised into a common `AgentEvent` before the PEP sees it[^1]:
 
-```
+```text
 e = ⟨s, a, c, τ, o, p, π, m, t⟩
 ```
 

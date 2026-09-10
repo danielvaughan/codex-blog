@@ -2,7 +2,7 @@
 title: "The Codex CLI Skills Ecosystem: agentskills.io and Community Skills"
 description: "Agent Skills started as an Anthropic internal format and, within months of being released as an open standard in December 2025, became the dominant."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - skills
@@ -28,7 +28,7 @@ This article covers the Agent Skills specification, Codex CLI's specific integra
 
 The Agent Skills specification, governed at [agentskills.io](https://agentskills.io)[^3], defines a portable, file-based format for packaging agent capabilities. A skill is a directory containing at minimum a `SKILL.md` file. The agent loads the skill's metadata at startup, then loads the full instructions on demand when it decides the skill is relevant.
 
-```
+```text
 pdf-processing/
 ├── SKILL.md          # Required: frontmatter + instructions
 ├── scripts/          # Optional: executable helpers
@@ -63,13 +63,13 @@ Use `scripts/extract.py` to extract plain text from a PDF:
 
 ```bash
 python3 scripts/extract.py input.pdf > output.txt
-```
+```text
 
 ## Merging files
 
 ...
 
-```
+```text
 
 ### Frontmatter fields
 
@@ -92,7 +92,7 @@ The `name` field must match the parent directory name exactly and follow strict 
 
 Codex scans the following directories in priority order[^4]:
 
-```
+```text
 
 $CWD/.agents/skills          # Project-level (highest priority)
 $CWD/../.agents/skills       # Parent directory
@@ -101,7 +101,7 @@ $HOME/.agents/skills         # User-level
 /etc/codex/skills            # System/admin
 Built-in system skills       # Lowest priority
 
-```
+```text
 
 This layered lookup is intentional: a project-level skill overrides a user-level skill of the same name, which overrides a system-level skill. Teams can standardise workflows by committing skills into `.agents/skills/` in their repository.
 
@@ -219,7 +219,7 @@ flowchart LR
 
 The 100-token startup budget per skill means your frontmatter description must be dense and precise. The skill body should stay under 500 lines; push detailed reference material into `references/`:
 
-```
+```text
 my-skill/
 ├── SKILL.md             # ≤ 500 lines: core workflow
 ├── references/

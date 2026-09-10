@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-dynamic-session-control-mid-session-switching"
 tags: ["session-control", "/permissions", "/model", "/fast", "/plan", "steer-mode", "adaptive-workflow", "approval-modes", "config-toml", "profiles"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Dynamic Session Control in Codex CLI: Mid-Session Switching of Models, Permissions, and Workflow Modes
 
@@ -35,7 +35,7 @@ Each lever operates independently: switching the model does not reset your appro
 
 The `/permissions` command exposes three approval presets that can be swapped at any point in a session [^3]:
 
-```
+```text
 /permissions
 ```
 
@@ -72,7 +72,7 @@ This lets you, for example, auto-approve sandbox escalations but block MCP elici
 
 Type `/model` and select from the available models. Codex clears the visible transcript and starts a fresh chat in the same CLI session, preserving your working directory and configuration [^1]:
 
-```
+```text
 /model
 → Select: gpt-5.4
 → Codex confirms the new model in the transcript

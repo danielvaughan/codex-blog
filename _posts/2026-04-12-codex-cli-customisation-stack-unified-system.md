@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-customisation-stack-unified-system"
 tags: ["customisation", "agents-md", "skills", "mcp", "subagents", "plugins", "architecture", "config-toml", "project-setup"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Codex CLI Customisation Stack: How AGENTS.md, Skills, MCP, Subagents, and Plugins Compose Into One System
 
@@ -102,7 +102,7 @@ When you find yourself writing the same prompt pattern repeatedly, extract it in
 
 Skills are discovered from multiple scopes, checked in order of specificity[^5]:
 
-```
+```text
 ./.agents/skills/              # Current directory
 ../.agents/skills/             # Parent directory
 $REPO_ROOT/.agents/skills/     # Repository root
@@ -230,7 +230,7 @@ The `codex marketplace add` command (v0.120.0) installs plugins from git reposit
 
 Here is how all five layers materialise on disk for a well-configured project:
 
-```
+```text
 my-project/
 ├── AGENTS.md                          # Layer 1: Project constitution
 ├── .codex/
@@ -260,7 +260,7 @@ my-project/
 
 And at the user level:
 
-```
+```text
 ~/.codex/
 ├── config.toml                        # User-level config (model, approval, MCP)
 ├── AGENTS.md                          # Global personal conventions

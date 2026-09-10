@@ -1,7 +1,7 @@
 ---
 title: "The AGENTS.md Maturity Curve: How Project Configuration Files Evolve from Wish Lists to Battle-Tested Context"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "agents-md", "configuration", "maturity-model", "prompt-engineering", "developer-workflow"]
 ---
 
@@ -94,7 +94,7 @@ A Stage 3 team applies three operations:
 
 3. **Split by directory.** Codex CLI concatenates AGENTS.md files from the repository root to the current working directory [^7]. A monorepo benefits from a lean root file (organisational constants) with service-specific overrides in subdirectories:
 
-```
+```text
 repo/
 ├── AGENTS.md              # 30 lines: org-wide conventions
 ├── services/

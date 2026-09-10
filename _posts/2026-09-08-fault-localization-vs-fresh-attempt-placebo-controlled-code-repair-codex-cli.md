@@ -2,6 +2,8 @@
 title: "Fresh Beats Focused: The Placebo-Controlled Study That Should Reshape How Codex CLI Agents Retry Code Repair"
 parent: "Articles"
 nav_order: 1156
+date: 2026-09-08T08:00:00+00:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["code-repair", "fault-localization", "debugging", "retry-strategy", "testing", "codex-cli"]
 ---
 

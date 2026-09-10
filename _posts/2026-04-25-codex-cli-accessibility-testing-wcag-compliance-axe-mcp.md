@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-accessibility-testing-wcag-compliance-axe-mcp"
 tags: ["codex-cli", "accessibility", "WCAG", "axe-core", "MCP", "a11y", "skills", "AGENTS.md", "CI/CD"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Automated Accessibility Testing with Codex CLI: WCAG Compliance from Code Generation to CI Gate
 
@@ -124,7 +124,7 @@ args = ["a11y-mcp"]
 
 Once configured, the agent can invoke it during any UI task:
 
-```
+```yaml
 Agent: I'll audit the checkout form for accessibility violations.
 → Tool call: mcp__a11y__audit_webpage({ url: "http://localhost:3000/checkout", tags: ["wcag2aa"] })
 → Result: 3 violations found — missing form labels, insufficient contrast on .btn-secondary, missing landmark regions

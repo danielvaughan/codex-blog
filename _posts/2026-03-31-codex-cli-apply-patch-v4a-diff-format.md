@@ -2,7 +2,7 @@
 title: "The V4A Diff Format: How Codex CLI's apply_patch Actually Edits Your Code"
 description: "Every time Codex CLI modifies a file, it does so through a single mechanism: the apply_patch tool emitting diffs in a format called V4A. Unlike traditional."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - architecture
   - agent-loop
@@ -35,7 +35,7 @@ OpenAI's solution was to design a context-anchored diff format — one that loca
 
 The format is defined by a context-free grammar[^5]:
 
-```
+```text
 Patch     := Begin { FileOp } End
 Begin     := "*** Begin Patch" NEWLINE
 End       := "*** End Patch" NEWLINE
@@ -58,7 +58,7 @@ Three line prefixes carry all the semantics:
 
 ### A Concrete Example
 
-```
+```text
 *** Begin Patch
 *** Update File: src/auth/middleware.ts
 @@ export function validateToken(

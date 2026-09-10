@@ -2,7 +2,7 @@
 title: "Agentic Primitives Compared: Codex CLI vs Claude Code vs Gemini CLI"
 description: "All three tools — OpenAI Codex CLI, Anthropic Claude Code, and Google Gemini CLI — converge on the same set of agentic primitives. They read instructions."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - competitive-landscape
   - claude-code
@@ -563,7 +563,7 @@ Skills in Codex follow the open [Agent Skills](https://agentskills.io) standard 
 
 **Directory structure:**
 
-```
+```text
 my-skill/
 ├── SKILL.md             # Required: instructions + metadata
 ├── scripts/             # Optional: executable code
@@ -1289,7 +1289,7 @@ TOML is more restrictive than Markdown + YAML: no free-form markdown body; every
 
 Codex's multi-agent coordination uses explicit tool calls rather than Claude Code's description-matching delegation. If your agentic pods require precise control:
 
-```
+```markdown
 # Claude Code: delegation is implicit
 "Use the code-reviewer subagent to check this file"
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.152 Alpha Preview: Rate-Limit Banners, Package-Style MCP Names, Vim Search, and the Model Catalog Instruction Split"
 date: 2026-08-31T16:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "v0.152", "alpha", "mcp", "vim", "rate-limits", "tui", "model-catalog", "multi-agent", "guardian"]
 ---
 
@@ -29,7 +29,7 @@ Previous behaviour was binary: requests either succeeded or returned an HTTP 429
 
 The v0.152 banner distinguishes between limit types and surfaces actionable options directly in the UI:
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │ ⚠ Rate limit reached · Resets in 47 s                          │
 │ Options: [V]iew usage  [C]redits  [P]lan  [N]otify owner        │

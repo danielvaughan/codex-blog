@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-official-workflow-recipes-nine-patterns-plan-review-developer-loop"
 tags: ["codex-cli", "workflows", "best-practices", "plan-mode", "review", "developer-experience", "configuration"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Official Workflow Recipes: Nine Patterns That Structure the Developer Loop
 
@@ -43,7 +43,7 @@ codex --sandbox-mode read-only
 
 Inside the session, use `@` file fuzzy search to attach specific files, then ask targeted questions:
 
-```
+```python
 @src/api/middleware.ts @src/models/user.ts
 Explain the authentication flow from request entry to database lookup.
 Trace which middleware runs before the User model is instantiated.
@@ -57,7 +57,7 @@ Trace which middleware runs before the User model is instantiated.
 
 The key is giving Codex a tight reproduction loop. Paste the error output directly, reference the failing test file, and define the completion criterion explicitly:
 
-```
+```python
 @tests/api/test_auth.py
 This test fails with "AssertionError: expected 200, got 403".
 The regression was introduced after commit abc123.
@@ -78,7 +78,7 @@ approval_policy = "on-request"
 
 Effective test generation requires Codex to see both the implementation and any existing test conventions. Reference both:
 
-```
+```python
 @src/billing/invoice.py @tests/billing/test_charges.py
 Write unit tests for the `calculate_pro_rata` function.
 Follow the same fixtures and assertion patterns as test_charges.py.
@@ -111,7 +111,7 @@ GPT-5.5 achieves 82.7% on Terminal-Bench 2.0 and is OpenAI's recommended choice 
 
 Start your development server in a background terminal, then iterate within the same Codex session. Codex can observe the running process via the `/ps` command [^6]:
 
-```
+```text
 Start the Next.js dev server on port 3000.
 Then adjust the header component: reduce padding to 12px,
 change the background to #1a1a2e, and make the navigation
@@ -126,7 +126,7 @@ Each edit triggers a hot reload. If you have browser-use capability enabled (ava
 
 This is a two-phase workflow. First, plan locally:
 
-```
+```text
 /plan
 Refactor the payment module from callbacks to async/await.
 Scope: src/payments/*.ts (12 files).
@@ -162,19 +162,19 @@ sequenceDiagram
 
 The `/review` slash command is purpose-built for this [^6]:
 
-```
+```text
 /review
 ```
 
 By default, it reviews uncommitted working-tree changes. You can also target a specific base branch:
 
-```
+```text
 /review --base main
 ```
 
 Or review only staged changes:
 
-```
+```text
 /review --staged
 ```
 
@@ -214,7 +214,7 @@ For CI integration, `codex exec --json` now reports reasoning-token usage alongs
 
 This workflow requires both code context and documentation context:
 
-```
+```python
 @src/api/routes/*.ts @docs/api-reference.md
 The API reference is out of date. Compare the route handlers
 with the documented endpoints. Update docs/api-reference.md

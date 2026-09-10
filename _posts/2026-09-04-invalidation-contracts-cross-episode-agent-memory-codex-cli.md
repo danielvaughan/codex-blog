@@ -1,7 +1,7 @@
 ---
 title: "Invalidation Contracts for Cross-Episode Agent Memory: Why Row-Level Cache Eviction Recovers 32% of Your Token Budget"
 date: 2026-09-04T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "memory", "mcp", "caching", "research", "hooks", "api-design"]
 ---
 
@@ -22,7 +22,7 @@ The paper introduces a clean separation between two failure modes in cross-episo
 
 The savings equation is therefore:
 
-```
+```text
 Realised savings = validity × compliance(model, protocol, action_type)
 ```
 

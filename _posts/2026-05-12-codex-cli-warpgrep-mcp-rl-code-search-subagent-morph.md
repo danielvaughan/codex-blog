@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-warpgrep-mcp-rl-code-search-subagent-morph"
 tags: ["codex-cli", "warpgrep", "mcp", "code-search", "subagent", "morph", "reinforcement-learning", "performance"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # WarpGrep and Codex CLI: Adding an RL-Trained Code Search Subagent via MCP
 
@@ -179,7 +179,7 @@ For Codex CLI users, WarpGrep is the practical choice because SWE-grep has no MC
 
 Ask Codex CLI to explain a codebase with WarpGrep available:
 
-```
+```sql
 Explain the authentication flow in this repository, from login endpoint to token validation.
 ```
 
@@ -199,7 +199,7 @@ The WarpGrep MCP server is available in `codex exec` as long as the profile incl
 
 WarpGrep's `github_codebase_search` tool searches public repositories remotely:
 
-```
+```text
 Search the openai/codex repository for how apply_patch handles multi-file operations.
 ```
 

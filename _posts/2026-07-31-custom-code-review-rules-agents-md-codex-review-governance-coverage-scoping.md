@@ -1,7 +1,7 @@
 ---
 title: "Custom Code Review Rules in AGENTS.md: How Repository-Specific Invariants Lift Codex Review Coverage from 58% to 98%"
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "code-review", "AGENTS.md", "custom-rules", "governance", "pull-requests", "review-automation", "GitHub"]
 ---
 
@@ -133,7 +133,7 @@ codex exec "Review the diff between main and HEAD for code review rule violation
 
 For monorepos or large codebases, distribute rules across the directory tree. OpenAI's own Codex repository uses 88 `AGENTS.md` files across its directory structure [^4]. The general pattern:
 
-```
+```text
 repo/
   AGENTS.md                          # Repository-wide rules
   services/

@@ -6,7 +6,7 @@ timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-github-actions-best-practices-limitations-gotchas"
 tags: ["codex-cli", "github-actions", "ci-cd", "automation", "sandbox", "security", "best-practices"]
 date: 2026-05-22T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI in GitHub Actions: Best Practices, Limitations, and Gotchas
 
@@ -284,7 +284,7 @@ Use `output-schema` to get machine-parseable results from Codex that subsequent 
 
 Never inline complex prompts in YAML. Store them in `.github/prompts/` and reference via `prompt-file` [^6]:
 
-```
+```text
 .github/
   prompts/
     review.md

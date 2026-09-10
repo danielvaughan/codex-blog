@@ -6,7 +6,7 @@ timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-nix-development-mcp-nixos-reproducible-environments-flake-workflows"
 tags: ["codex-cli", "nix", "nixos", "flakes", "mcp-nixos", "reproducible-builds", "devshell", "home-manager", "nix-darwin", "agents-md", "declarative-configuration"]
 date: 2026-05-22T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Nix Development: MCP-NixOS, Reproducible Environments, and Flake-Native Agent Workflows
 
@@ -111,7 +111,7 @@ Subdirectory-level AGENTS.md files work well for NixOS configurations with per-h
 
 When evaluating whether a package exists in nixpkgs and how to add it to a devShell:
 
-```
+```text
 Search nixpkgs for a package providing the `wrangler` CLI tool,
 show me available versions, and add it to my flake.nix devShell
 with the correct attribute path.
@@ -123,7 +123,7 @@ With MCP-NixOS connected, Codex queries the package index, checks binary cache a
 
 NixOS modules follow a rigid structure (`options`, `config`, `imports`) that is easy to get wrong:
 
-```
+```sql
 Create a NixOS module in modules/services/backup.nix that:
 - Defines options for backup schedule, paths, and retention
 - Uses lib.mkOption with proper types (str, listOf path, int)
@@ -154,7 +154,7 @@ The structured output feeds into CI dashboards or Slack notifications, giving te
 
 Nix flakes support multiple systems, but getting the `devShells` attribute set right across `x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, and `aarch64-darwin` is fiddly:
 
-```
+```text
 Add a devShell to flake.nix that includes rustc, cargo, rust-analyzer,
 pkg-config, and openssl for all four standard platforms.
 Use flake-utils.lib.eachDefaultSystem. Ensure the darwin shell
@@ -167,7 +167,7 @@ Codex handles the platform-conditional logic (`lib.optionals stdenv.isDarwin [ d
 
 Home Manager configurations are verbose and option-discovery is the primary bottleneck. With MCP-NixOS providing access to 5,000+ Home Manager options:
 
-```
+```text
 Add git configuration to my Home Manager config:
 - Set user name and email from the values in secrets/git.age
 - Enable delta as the pager with side-by-side mode

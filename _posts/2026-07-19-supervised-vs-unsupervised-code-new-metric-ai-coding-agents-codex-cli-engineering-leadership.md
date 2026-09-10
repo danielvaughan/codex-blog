@@ -1,7 +1,7 @@
 ---
 title: "Supervised vs Unsupervised Code: The Metric That Replaces 'Percentage Written by AI'"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "engineering-metrics", "code-quality", "supervision", "autonomous-agents", "productivity-measurement", "engineering-leadership"]
 ---
 
@@ -80,7 +80,7 @@ Faros AI's analysis of 10,000 developers found that PR volume rose 98% per devel
 
 The steering ratio measures the distribution of human engineering time between judgment-heavy work and mechanical execution [^3]. In an AI-native workflow, this becomes:
 
-```
+```text
 Steering Ratio = Time spent on judgment decisions / Total engineering time
 ```
 

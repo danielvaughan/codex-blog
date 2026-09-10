@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-hono-edge-apis-zod-openapi-rpc-cloudflare-workers"
 tags: ["codex-cli", "hono", "cloudflare-workers", "edge", "openapi", "zod", "rpc", "typescript", "mcp", "wrangler"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Hono.js: Building Type-Safe Edge APIs with Zod OpenAPI, RPC, and Cloudflare Workers
 
@@ -90,7 +90,7 @@ This level of specificity ensures Codex does not drift into Node-first patterns 
 
 Cloudflare publishes an official Codex agent setup guide[^5] and maintains an `AGENTS.md` in the `workers-sdk` monorepo[^6] covering Wrangler, Miniflare, and Create Cloudflare. After launching Codex from your project root, install the Cloudflare plugin:
 
-```
+```text
 /plugins → search "Cloudflare" → install
 ```
 
@@ -272,7 +272,7 @@ The Codex `AGENTS.md` instruction `Tests use Hono's testClient()` means generate
 
 Many teams use Hono across multiple targets in a single monorepo: a Cloudflare Worker for the public API, a Bun process for internal tooling, and a Node.js adapter for a legacy integration. Directory-scoped `AGENTS.md` files handle this cleanly:
 
-```
+```text
 /
 ├── AGENTS.md                     # monorepo-level: shared TypeScript rules, Zod schemas
 ├── packages/
@@ -341,7 +341,7 @@ wrangler secret put OPENAI_API_KEY
 
 For CI, Codex can generate a GitHub Actions workflow via:
 
-```
+```text
 Write a GitHub Actions workflow that runs bun test on every PR and runs wrangler deploy to production on push to main. Use CLOUDFLARE_API_TOKEN from secrets.
 ```
 

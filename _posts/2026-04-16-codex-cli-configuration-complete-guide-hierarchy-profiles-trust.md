@@ -3,7 +3,7 @@ title: "Codex CLI Configuration Complete Guide: Hierarchy, Profiles, and Trust"
 description: "Codex CLI uses a layered configuration system where settings from multiple sources merge together with clear precedence rules."
 subtitle: "6-layer resolution chain, named profiles, project-scoped trust boundaries, and shell environment policy"
 date: 2026-04-16T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - codex-cli
   - configuration
@@ -35,7 +35,7 @@ Codex CLI uses a layered configuration system where settings from multiple sourc
 
 Codex CLI resolves configuration by merging up to six layers. Higher-precedence layers override lower ones. When two layers set the same key, the higher-precedence value wins.
 
-```
+```text
 +----------------------------------+
 |  1. CLI Flags (--model, -c)      |  <-- Highest priority
 +----------------------------------+
@@ -75,7 +75,7 @@ CLI flags (`-c`) always win. This means `codex --model o3` overrides everything 
 
 In a monorepo, multiple `.codex/config.toml` files can exist at different directory levels. The file closest to the current working directory takes precedence:
 
-```
+```text
 my-monorepo/
   .codex/config.toml              # model = "gpt-4.1"
   services/
@@ -235,7 +235,7 @@ multi_agent_v2 = true
 
 When a profile is active, its settings merge between the project config layer and CLI flags:
 
-```
+```text
 CLI flags  >  Profile  >  Project config  >  User config  >  System config  >  Defaults
 ```
 
@@ -405,7 +405,7 @@ Codex CLI supports hooks defined in `hooks.json` files. Hooks from all configura
 
 ### Hook Locations
 
-```
+```text
 ~/.codex/hooks.json               # User-level hooks
 .codex/hooks.json                  # Project-level hooks (committed to repo)
 ```

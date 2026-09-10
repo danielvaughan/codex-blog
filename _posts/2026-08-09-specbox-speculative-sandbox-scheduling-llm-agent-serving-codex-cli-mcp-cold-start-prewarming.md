@@ -1,7 +1,7 @@
 ---
 title: "SpecBox and the Sandbox Cold-Start Tax: Why Your MCP Tool Calls Stall — and What Speculative Prewarming Means for Codex CLI Agent Serving"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "sandbox", "MCP", "cold-start", "speculative-execution", "SpecBox", "agent-serving", "performance", "latency", "prewarming"]
 ---
 
@@ -74,7 +74,7 @@ Intent detection handles the *current* turn. Prefetching handles the *next* turn
 
 The transition probability with Laplace smoothing:
 
-```
+```text
 P(j|i) = (C(i,j) + α) / Σ_k(C(i,k) + α)    where α = 1
 ```
 

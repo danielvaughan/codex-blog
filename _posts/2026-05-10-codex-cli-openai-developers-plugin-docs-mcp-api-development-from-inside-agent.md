@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-openai-developers-plugin-docs-mcp-api-development-from-inside-agent"
 tags: ["codex-cli", "openai-developers-plugin", "docs-mcp", "api-development", "plugin-system", "mcp-servers"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The OpenAI Developers Plugin and Docs MCP: Building on the OpenAI Platform from Inside Codex CLI
 
@@ -122,7 +122,7 @@ For CI pipelines that need documentation access but should never create API keys
 
 Rather than tabbing between the Agents SDK quickstart guide and your editor, ask Codex directly:
 
-```
+```text
 Set up a new Python project using the OpenAI Agents SDK with a
 single agent that has web search and code interpreter tools.
 Use the latest API patterns from the official docs.
@@ -134,7 +134,7 @@ With the Docs MCP active, Codex will pull the current Agents SDK guide, verify t
 
 When your application needs an API key and you have the full plugin installed:
 
-```
+```sql
 Create a new project API key for my local development environment
 and save it to .env as OPENAI_API_KEY
 ```
@@ -147,7 +147,7 @@ The plugin creates the key under your Default Organisation and Default Project, 
 
 When you hit an API error during development, paste the error directly:
 
-```
+```text
 I'm getting this error from the Responses API:
 
 Error code: 400 - {'error': {'message': "Invalid parameter:
@@ -188,7 +188,7 @@ codex --profile openai-dev "Migrate src/api/client.py from Chat Completions to t
 
 When building your own MCP server, the Docs MCP becomes invaluable for getting the protocol right:
 
-```
+```text
 Build a custom MCP server in Python using FastMCP that exposes
 our internal knowledge base. Follow the official OpenAI MCP server
 building guide for the correct schema, especially the search and

@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-vim-modal-editing-composer-keymaps-terminal-workflow"
 tags: ["codex-cli", "vim", "tui", "keymaps", "composer", "terminal-workflow", "v0.129"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Vim Modal Editing in the Codex CLI Composer: Configuration, Keymaps, and Terminal-Native Workflows
 
@@ -84,7 +84,7 @@ The implementation covers the core Vim motions and operators that matter for pro
 
 Typing `d` or `y` enters operator-pending mode, where the next motion determines the scope of the operation [^2]:
 
-```
+```text
 dw   → delete to next word boundary
 d$   → delete to end of line
 db   → delete backward one word

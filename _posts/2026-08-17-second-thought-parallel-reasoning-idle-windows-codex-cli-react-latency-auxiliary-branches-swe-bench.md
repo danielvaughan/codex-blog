@@ -1,7 +1,7 @@
 ---
 title: "Second Thought and the Reasoning Idle Window: What Parallel Auxiliary Branches Mean for Codex CLI Latency and Turn Efficiency"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "parallel-reasoning", "second-thought", "ReAct", "idle-window", "latency", "swe-bench-pro", "auxiliary-branches", "subagents", "reasoning-overhead"]
 ---
 
@@ -163,7 +163,7 @@ This surfaces recent test outcomes immediately after each shell execution, provi
 
 For long-running tasks, you can approximate Second Thought by spawning a subagent that reasons about the problem while the primary agent executes:
 
-```
+```text
 Spawn a subagent: "While the main agent runs the test suite,
 review the last 5 changes and list any assumptions that
 haven't been verified by tests."

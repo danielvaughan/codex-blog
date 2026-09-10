@@ -2,7 +2,7 @@
 title: "Codex CLI for Java and Spring Boot Teams: AGENTS.md, Maven Sandboxing, and Gradle Workflows"
 description: "Java is one of the most-used languages in enterprise software, yet Codex CLI guidance skews heavily toward Python, TypeScript, and Go. This article fills."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - language-guide
   - agents-md
@@ -27,7 +27,7 @@ Before writing a single line of AGENTS.md, every Java team hits the same wall. C
 
 The result is a deeply unhelpful error on the first `./mvnw test`:
 
-```
+```text
 [ERROR] Non-resolvable import POM: The following artifacts could not be
 resolved: org.springframework.boot:spring-boot-dependencies:pom:3.4.1
 (absent): Could not transfer artifact ... Network is unreachable
@@ -95,13 +95,13 @@ Always run Maven with `-o` (offline) after the initial setup:
 
 # Run integration tests only
 ./mvnw -o verify -Dit.test=UserRepositoryIT -DskipUnitTests=true
-```
+```text
 
 The `-o` flag prevents Maven from attempting remote artifact resolution.
 Network is unavailable during agentic tool calls; builds that require
 downloads will fail.
 
-```
+```yaml
 
 ---
 
@@ -170,14 +170,14 @@ public class UserConfig {
         return new UserServiceImpl(repo);
     }
 }
-```
+```text
 
 Wrong (do not do this):
 
 ```java
 @Service   // ← forbidden
 public class UserServiceImpl implements UserService { ... }
-```
+```text
 
 ## Dependency Versions
 
@@ -188,7 +188,7 @@ Always pin versions as properties in `pom.xml`:
     <mapstruct.version>1.6.3</mapstruct.version>
     <resilience4j.version>2.3.0</resilience4j.version>
 </properties>
-```
+```text
 
 Spring Boot parent-managed dependencies (e.g. `spring-boot-starter-web`) do not
 need explicit version properties.
@@ -221,7 +221,7 @@ Return appropriate HTTP status codes:
 
 Wrap external calls with Resilience4j circuit breakers for production services.
 
-```
+```yaml
 
 ---
 
@@ -262,9 +262,9 @@ public abstract class BaseIT {
         r.add("spring.datasource.password", postgres::getPassword);
     }
 }
-```
+```text
 
-```
+```text
 
 ---
 
@@ -338,9 +338,9 @@ WHERE id > :lastSeenId ORDER BY id ASC LIMIT :pageSize
 
 -- Avoid for large tables
 LIMIT :pageSize OFFSET :offset
-```
+```text
 
-```
+```yaml
 
 ---
 

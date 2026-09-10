@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-rate-limiting-backoff-retry-quota"
 tags: ["rate-limiting", "retry", "backoff", "quota", "operations", "troubleshooting"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Rate Limiting Behaviour: Backoff, Retry, and Quota Exhaustion Patterns
 
@@ -51,7 +51,7 @@ flowchart TD
 
 The retry pipeline first attempts to extract a delay from the error response. OpenAI's standard format is:
 
-```
+```text
 Rate limit reached for o4-mini … Please try again in 2.515s.
 ```
 
@@ -135,7 +135,7 @@ A known issue (#6512) documented the worst case: the CLI hanging indefinitely wh
 
 A typical 429 response includes actionable detail:
 
-```
+```text
 Rate limit reached for gpt-5.3-codex in organization org-xxxxx
 on tokens per min (TPM): Limit 200000, Used 136502, Requested 71884.
 Please try again in 2.515s.

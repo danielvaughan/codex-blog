@@ -1,7 +1,7 @@
 ---
 title: "Long-Horizon-Terminal-Bench: What Dense Reward Grading Reveals About Your Codex CLI Session Strategy"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "benchmarks", "long-horizon", "terminal-bench", "goal-mode", "session-management", "dense-rewards", "token-budgets"]
 ---
 
@@ -18,7 +18,7 @@ The headline numbers are sobering, but the real value lies in what the benchmark
 
 Traditional benchmarks like SWE-Bench and Terminal-Bench 2.0 grade on final outcome: pass or fail [^2]. LHTB decomposes each task into semantically meaningful subtasks with individual checks and assigns a normalised reward:
 
-```
+```text
 R = (Σ wₖ · rₖ) / (Σ wₖ)
 ```
 

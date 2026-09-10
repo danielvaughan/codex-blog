@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-frontend-performance-lighthouse-core-web-vitals-agent-driven-optimisation"
 tags: ["codex-cli", "performance", "lighthouse", "core-web-vitals", "mcp", "skills", "ci-cd", "frontend"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Frontend Performance Optimisation: Lighthouse MCP, Core Web Vitals Skills, and Agent-Driven Performance Budgets
 
@@ -119,7 +119,7 @@ codex --model gpt-5.5
 
 Then prompt:
 
-```
+```text
 Run a Lighthouse performance audit on http://localhost:3000 using the
 lighthouse MCP. Show me the Core Web Vitals scores and the top 5
 performance opportunities by estimated savings.
@@ -142,7 +142,7 @@ Codex reads the relevant source files, applies the changes, and runs your test s
 
 ### Step 4: Re-audit and Verify
 
-```
+```text
 Run the Lighthouse audit again on http://localhost:3000 and compare the
 scores with the baseline. Show a before/after table.
 ```

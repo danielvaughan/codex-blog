@@ -6,7 +6,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-swe-polybench-multi-language-benchmark-codex-cli-polyglot-performance-gap-agents-md-language-strategy"
 tags: ["codex-cli", "benchmarks", "SWE-PolyBench", "multi-language", "polyglot", "AGENTS.md", "JavaScript", "TypeScript", "Java", "performance"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # SWE-PolyBench and the Polyglot Performance Gap: What Multi-Language Benchmarks Reveal About Codex CLI's Real-World Effectiveness
 
@@ -90,7 +90,7 @@ The practical implication: if your team ships production code in JavaScript, Typ
 
 Codex CLI discovers `AGENTS.md` files hierarchically, walking from the Git root to the current working directory[^8]. In a polyglot monorepo, exploit this to inject language-specific instructions at the service boundary:
 
-```
+```text
 repo-root/
 ├── AGENTS.md                    # Shared conventions
 ├── services/

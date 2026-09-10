@@ -1,7 +1,7 @@
 ---
 title: "A Few Neurons Reveal Tool-Use Failures: What PRISMS Means for Your Codex CLI Defence Stack"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "tool-use", "PRISMS", "sparse-detection", "activation-steering", "PostToolUse", "validity", "over-calling", "missing-tools", "reliability"]
 ---
 
@@ -38,7 +38,7 @@ The framework operates in two stages: detect, then steer.
 
 PRISMS ranks MLP neurons across all transformer layers using a WANDA-style contribution score:
 
-```
+```text
 c(ℓ, i) = |activation(ℓ, i)| × ||down_projection_column(ℓ, i)||₂
 ```
 
@@ -58,7 +58,7 @@ Missing failures are the easiest to catch — sometimes a single neuron suffices
 
 When the detector flags a likely failure, PRISMS computes layerwise correction vectors by comparing mean residual-stream writes between correct and failed examples:
 
-```
+```text
 d̂(ℓ) = (mean_correct(ℓ) − mean_failed(ℓ)) / ||mean_correct(ℓ) − mean_failed(ℓ)||₂
 ```
 

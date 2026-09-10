@@ -1,7 +1,7 @@
 ---
 title: "Self-GC and the Object Lifecycle Model: Why Chronological Pruning Destroys Future Dependencies — and How to Configure Codex CLI's Compaction for Structured Context Governance"
 date: 2026-07-05T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "context-management", "compaction", "self-gc", "long-horizon-agents", "token-efficiency", "prompt-cache", "object-lifecycle"]
 ---
 
@@ -79,7 +79,7 @@ Across three planner backbones (Qwen3.6-Plus, Qwen3.7-Max, GLM-5.1), Self-GC ach
 
 Self-GC uses a cost model before committing any plan [^1]:
 
-```
+```text
 CommitBenefit ≈ N_future × (C − C') − L_cache_break − L_GC
 ```
 

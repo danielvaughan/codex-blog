@@ -5,7 +5,7 @@ timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-codex-cli-thread-handoff-remote-local-noise-relay-encrypted-session-continuity"
 tags: ["codex-cli", "thread-handoff", "remote-execution", "noise-protocol", "session-continuity", "encrypted-relay", "worktree", "v0.141"]
 date: 2026-06-22T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Thread Handoff: Seamless Session Continuity Between Local and Remote Hosts
 
@@ -114,7 +114,7 @@ Close your laptop. The agent continues on the remote box. When you return, hand 
 
 For automation scenarios, you can ask Codex in one thread to hand off a different named thread to a connected host [^3]. This opens the door to orchestration patterns:
 
-```
+```text
 # In a controller thread:
 "Hand off the thread 'migrate-database-schema' to build-server-03."
 ```

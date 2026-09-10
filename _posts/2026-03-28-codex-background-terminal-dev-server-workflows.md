@@ -2,7 +2,7 @@
 title: "Background Terminal: Running Dev Servers Alongside Codex"
 description: "The Background Terminal is one of those features that sounds minor but fundamentally changes how you work with Codex."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - workflow-patterns
   - automation
@@ -47,7 +47,7 @@ Greg Brockman (@gdb) also flagged it:
 
 Type `/experimental` in the Codex CLI to open the experimental feature toggle panel. Enable Background Terminal (look for the toggle related to background processes or `unified_exec`), then restart Codex if prompted.
 
-```
+```text
 /experimental
 ```
 
@@ -57,7 +57,7 @@ Type `/experimental` in the Codex CLI to open the experimental feature toggle pa
 
 Once enabled, use `/ps` to inspect running background terminals:
 
-```
+```text
 /ps
 ```
 
@@ -71,7 +71,7 @@ This shows each background terminal's **command plus up to three recent, non-emp
 
 The primary use case: spin up a dev server and keep coding.
 
-```
+```markdown
 # Codex starts the server in a background terminal
 npm run dev   # (backgrounded via unified_exec)
 
@@ -109,7 +109,7 @@ This is qualitatively different from running a command and capturing output — 
 
 Run a long compilation or test suite in the background while Codex works on something unrelated:
 
-```
+```text
 # Background: cargo build (10 minutes)
 # Foreground: Codex drafting the PR description, updating docs, etc.
 ```
@@ -137,19 +137,19 @@ This closes a key loop: Codex can *observe the effects* of its changes by readin
 For Daniel's agentic pod setup, Background Terminal opens several useful patterns:
 
 **Pattern 1: Server-aware TDD**
-```
+```text
 Start the test server in background → Edit code → Auto-run tests against live server → Iterate
 ```
 
 **Pattern 2: Parallel feature development**
-```
+```text
 Background terminal A: Existing API server (for integration testing)
 Background terminal B: New feature branch dev server
 Foreground: Codex editing + verifying both
 ```
 
 **Pattern 3: Long CI + parallel work**
-```
+```yaml
 Background: ./run-full-test-suite.sh (10 min)
 Foreground: Codex working on next task
 When test suite finishes: /ps to check pass/fail, then continue

@@ -2,6 +2,8 @@
 title: "HEART: Why Natural Language Tool Interfaces Outperform Raw API Schemas — and What It Means for Codex CLI MCP Design"
 parent: "Articles"
 nav_order: 1140
+date: 2026-09-07T08:00:00+00:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "mcp", "tool-design", "tool-primitives", "harness-engineering", "agent-native", "context-management"]
 ---
 
@@ -26,7 +28,7 @@ Before examining the solution, the failure modes are worth naming precisely.
 
 HEART's primary contribution is *Tool Primitives*, formalised as:
 
-```
+```text
 𝒫ᵢ(x; c) = ℳ([sᵢ; c; x])
 ```
 
@@ -94,7 +96,7 @@ The re-planning budget `B` caps retries. Performance saturates at B=3: 47.6% wit
 | τ²-Bench Telecom | Pass₄ | 0.50 | 0.33 (Claude-4.6) | +52% |
 | ACEBench | Overall | 86.9% | 86.0% (GPT-5.4) | +0.9pp |
 
-HEART consumes ~22,367 tokens per task (versus ~7,762 for GPT-5.4) but costs $0.0157 per task versus $0.1164 — a 7.4× reduction — because Qwen3-8B's $0.18/$0.70 per-million-token pricing dominates.[^1] The 85% cost reduction figure cited in the abstract refers to this ratio.
+HEART consumes ~22,367 tokens per task (versus ~7,762 for GPT-5.4) but costs \$0.0157 per task versus \$0.1164 — a 7.4× reduction — because Qwen3-8B's \$0.18/\$0.70 per-million-token pricing dominates.[^1] The 85% cost reduction figure cited in the abstract refers to this ratio.
 
 ---
 

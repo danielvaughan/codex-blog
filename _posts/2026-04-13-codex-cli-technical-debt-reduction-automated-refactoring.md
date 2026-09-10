@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-technical-debt-reduction-automated-refactoring"
 tags: ["technical-debt", "refactoring", "dead-code", "dependency-upgrades", "agents-md", "subagents", "codex-exec", "ci-cd", "automation"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Technical Debt Reduction: Automated Refactoring, Dead Code Detection, and Dependency Upgrades
 
@@ -66,7 +66,7 @@ Run tests after each file change. If tests fail, revert and report the failure.
 
 Then orchestrate from the interactive session:
 
-```
+```text
 Refactor all uses of the deprecated `createConnection()` API to use `createPool()` instead.
 Spawn one subagent per top-level service directory under src/services/.
 Each agent handles its own directory independently. Run tests after each change.
@@ -78,7 +78,7 @@ This pattern leverages Codex's multi-agent v2 architecture with path-based addre
 
 Never let the agent refactor blind. Structure your prompt to force verification before mutation:
 
-```
+```text
 1. First, search the entire codebase for all uses of `OldClassName`
 2. List every file and line number
 3. Show me the count before making any changes
@@ -132,7 +132,7 @@ Dependency upgrades are tedious, risky, and often deferred until a security advi
 
 ### Interactive Upgrade Session
 
-```
+```text
 Upgrade all npm dependencies to their latest major versions, one at a time.
 For each upgrade:
 1. Run `npm outdated` to see the current vs latest version

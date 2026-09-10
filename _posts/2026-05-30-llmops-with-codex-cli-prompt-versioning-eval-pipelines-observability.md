@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-llmops-with-codex-cli-prompt-versioning-eval-pipelines-observability"
 tags: ["codex-cli", "llmops", "prompt-versioning", "evaluation", "observability", "langfuse", "braintrust", "promptfoo", "mcp", "ci-cd"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # LLMOps with Codex CLI: Prompt Versioning, Eval Pipelines, and Production Observability
 
@@ -40,7 +40,7 @@ Codex CLI's instruction hierarchy is already a prompt versioning system. It conc
 
 ### The Instruction Stack
 
-```
+```text
 ~/.codex/AGENTS.md          → Global defaults (model preferences, house style)
 repo-root/AGENTS.md          → Project-wide conventions
 repo-root/src/AGENTS.md      → Module-specific guidance

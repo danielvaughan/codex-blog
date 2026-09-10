@@ -1,7 +1,7 @@
 ---
 title: "Prime Agent's RLM Harness: Persistent REPL, Recursive Subagents, and What Codex CLI Is Missing"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "agent-harness", "prime-agent", "rlm", "persistent-repl", "self-improvement", "arc-agi-3", "multi-agent", "long-horizon"]
 ---
 
@@ -14,7 +14,7 @@ PrimeIntellect AI published *Prime Agent: A Self-Improving RLM Harness* on 24 Au
 
 Prime Agent organises an agent's information into four levels:[^1]
 
-```
+```text
 L0  Model weights          (frozen; changed only by retraining)
 L1  Active token context   (in-flight; lost on compaction)
 L2  Persistent REPL +      (survives across turns; live session scope)

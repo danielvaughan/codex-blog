@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-your-first-30-minutes-with-codex-cli"
 tags: ["codex-cli", "getting-started", "tutorial", "beginner", "agent-loop", "installation"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Your First 30 Minutes with Codex CLI: From Install to First Fix
 
@@ -87,7 +87,7 @@ codex
 
 The full-screen terminal UI (TUI) launches. Start with an orientation prompt:
 
-```
+```text
 Tell me about this project
 ```
 
@@ -97,7 +97,7 @@ The agent reads your directory structure, inspects key files (`package.json`, `R
 
 Now for the interesting part. Give Codex a concrete task with a clear success criterion. The more specific your prompt, the better the result[^7]:
 
-```
+```text
 The endpoint GET /api/users/:id returns a 500 when the user ID
 doesn't exist in the database. It should return a 404 with a
 JSON error body. Fix this and make sure the existing tests pass.

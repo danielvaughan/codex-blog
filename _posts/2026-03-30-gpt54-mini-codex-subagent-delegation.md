@@ -2,7 +2,7 @@
 title: "GPT-5.4 mini in Codex CLI: Subagent Delegation, Model Routing and the Tiered Inference Architecture"
 description: "OpenAI released GPT-5.4 mini and GPT-5.4 nano on 17 March 2026, and they represent something more significant than two incremental model updates."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - models
   - model-selection
@@ -228,7 +228,7 @@ For pure Codex CLI users, nano is not a configuration option today. It is worth 
 
 For a Codex Pro subscription team, the credit ratio is what drives practical decisions. OpenAI states mini consumes 30% of GPT-5.4's quota[^3]. A rough model for a typical feature-development session:
 
-```
+```text
 Orchestrator (gpt-5.4): 1 planning turn × 1.0 credit unit
 Implementer (gpt-5.4-mini): 3 code-writing turns × 0.30 credit units = 0.90
 Tester (gpt-5.4-mini): 2 test-writing turns × 0.30 credit units = 0.60

@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-specification-drift-slump-codex-cli-faithfulness-long-horizon-sessions"
 tags: ["codex-cli", "research", "long-horizon", "specification-drift", "SLUMP", "faithfulness", "plan-mode", "PLANS.md", "context-engineering", "best-practices"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Specification Drift and SLUMP: Why Codex CLI Loses Faithfulness in Long-Horizon Sessions and How to Fight Back
 
@@ -26,7 +26,7 @@ Lu Yan, Xuan Chen, and Xiangyu Zhang from Purdue University constructed a benchm
 
 SLUMP — **faithfulneSs Loss Under eMergent sPecification** — is the gap between the two:
 
-```
+```text
 SLUMP(p, a) = F(R_single_shot) − F(R_emergent)
 ```
 
@@ -119,7 +119,7 @@ plan_mode_nudge = true  # TUI reminds you to plan on complex prompts
 
 When the session has been running for more than 30 turns, re-anchor by pasting the original specification back into the conversation:
 
-```
+```text
 Here is the original specification from PLANS.md. Verify the current
 implementation matches all module dependencies listed. Flag any drift.
 ```
@@ -128,7 +128,7 @@ implementation matches all module dependencies listed. Flag any drift.
 
 The `/goal` command introduced in Codex CLI v0.128 [^7] provides persistent long-horizon objectives that survive across turns. Unlike a regular prompt, a goal acts as a durable anchor:
 
-```
+```text
 /goal Implement the payment retry system exactly as specified in PLANS.md.
       All module dependencies must match. No new modules without updating the plan.
 ```

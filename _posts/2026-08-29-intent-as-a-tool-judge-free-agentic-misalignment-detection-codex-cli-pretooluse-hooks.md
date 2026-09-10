@@ -1,7 +1,7 @@
 ---
 title: "INTENT-AS-A-TOOL: Judge-Free Intent Signals for Intercepting Agentic Misalignment"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["agent-safety", "misalignment", "hooks", "pretooluse", "chain-of-thought", "intervention", "codex-cli"]
 ---
 
@@ -24,7 +24,7 @@ For a target harmful behaviour *b* (for example, "leak confidential data" or "co
 
 The intent score at reasoning step *t* is then:
 
-```
+```text
 s_t^b = p_θ(D_b | C_t)
 ```
 

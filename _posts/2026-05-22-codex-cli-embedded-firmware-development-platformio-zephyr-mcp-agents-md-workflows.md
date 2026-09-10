@@ -6,7 +6,7 @@ timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-embedded-firmware-development-platformio-zephyr-mcp-agents-md-workflows"
 tags: ["codex-cli", "embedded-systems", "firmware", "platformio", "zephyr", "freertos", "mcp", "agents-md", "esp32", "stm32", "arm-cortex-m"]
 date: 2026-05-22T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Embedded and Firmware Development: PlatformIO MCP, Zephyr Workflows, and AGENTS.md for Hardware Teams
 
@@ -66,7 +66,7 @@ args = ["-y", "platformio-mcp"]
 
 ### A Typical Firmware Session
 
-```
+```text
 > @platformio list_boards --filter esp32
 
 > Create a new ESP32-S3 project using the Arduino framework with
@@ -182,7 +182,7 @@ For the PlatformIO MCP server to flash devices, it runs outside the sandbox as a
 
 ### Pattern 1: Board Bring-Up Checklist
 
-```
+```text
 > I'm bringing up a new custom board based on ESP32-C3.
   The schematic shows: GPIO2=LED, GPIO4/5=I2C (BME280),
   GPIO6/7=UART1 (GPS NEO-6M), GPIO10=ADC (battery voltage divider).
@@ -195,7 +195,7 @@ Codex generates `platformio.ini` with the `esp32-c3-devkitm-1` board and ESP-IDF
 
 ### Pattern 2: FreeRTOS Task Audit
 
-```
+```text
 > Audit all FreeRTOS tasks in this project. For each task, report:
   name, priority, stack size, stack high-water mark estimate,
   and whether it uses any blocking calls inside critical sections.
@@ -206,7 +206,7 @@ This leverages Codex's ability to trace call graphs across files — something t
 
 ### Pattern 3: Peripheral Register Documentation
 
-```
+```text
 > Read the SPI driver in drivers/spi_flash.c and generate a markdown
   table documenting every register access: register name, address offset,
   read/write, bit fields used, and the purpose of each access.

@@ -2,7 +2,7 @@
 title: "Codex CLI + Figma MCP: Design-to-Code Workflows"
 description: "The handoff from designer to developer has always been an expensive boundary. Figma's Model Context Protocol server."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - mcp
@@ -91,7 +91,7 @@ The fundamental workflow is link-driven.[^2]
 2. Copy the **Share link** from the browser address bar — this encodes the file key and node ID.
 3. Paste the URL into Codex with an instruction:
 
-```
+```text
 Implement the header navigation from this Figma frame:
 https://figma.com/design/kL9xQn2VwM8pYrTb4ZcHjF/DesignSystem?node-id=42-15
 
@@ -129,7 +129,7 @@ Without Code Connect, Codex generates structurally correct but codebase-alien ou
 
 The integration is genuinely bidirectional.[^2] When you have a running interface — local dev server, staging, or production — you can ask Codex to push it back into Figma:
 
-```
+```text
 The local dev server is at http://localhost:3000/dashboard.
 Generate a Figma design from the current dashboard view
 and place it in the "Reviewed Components" page of our main design file.

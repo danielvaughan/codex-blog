@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-chrome-extension-parallel-browser-workflows-devtools-tab-groups"
 tags: ["codex-cli", "chrome-extension", "browser-automation", "devtools", "developer-workflows"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Codex Chrome Extension: Parallel Browser Workflows, DevTools Integration, and Domain Access Control
 
@@ -84,7 +84,7 @@ The extension can access Chrome DevTools for inspection, debugging, and testing[
 
 ### DOM Inspection and Validation
 
-```
+```python
 @Chrome open staging.example.com/dashboard and verify the user
 table renders all 50 rows. Check the Network tab for failed API calls.
 ```
@@ -142,7 +142,7 @@ Both are disabled by default and should remain so in enterprise environments unl
 
 ### Pattern 1: Authenticated API Testing
 
-```
+```python
 @Chrome navigate to api-explorer.internal.com, authenticate with SSO,
 then test the /users endpoint with the payload from my clipboard.
 Report the response status and body.
@@ -152,7 +152,7 @@ The extension inherits your SSO session, eliminating the need to configure servi
 
 ### Pattern 2: Cross-Service Context Gathering
 
-```
+```text
 Gather context from three sources:
 1. @Chrome open the Jira board and summarise the current sprint's blocked tickets
 2. @Chrome open Datadog and check error rates for the payments service (last 4h)
@@ -163,7 +163,7 @@ Then suggest which blocked ticket my local changes might unblock.
 
 ### Pattern 3: Visual Regression Verification
 
-```
+```python
 @Chrome open staging.example.com/checkout on desktop and mobile viewports.
 Compare against the screenshots in ./test/baselines/ and flag any
 visual differences above 2% pixel deviation.
@@ -171,7 +171,7 @@ visual differences above 2% pixel deviation.
 
 ### Pattern 4: Internal Documentation Lookup
 
-```
+```python
 @Chrome search our Confluence space for "rate limiting configuration"
 and extract the current production limits table.
 ```

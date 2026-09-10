@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-context-compaction-gpt55-failures-resilient-long-sessions"
 tags: ["codex-cli", "context-compaction", "gpt-5.5", "long-sessions", "troubleshooting", "config.toml", "hooks"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Context Compaction Under GPT-5.5: Diagnosing Failures, Configuring Fallbacks, and Keeping Long Sessions Alive
 
@@ -58,7 +58,7 @@ Once a compaction attempt fails, the session enters a broken compaction state. S
 
 When compaction fails, the TUI displays:
 
-```
+```text
 Error running remote compact task: stream disconnected before completion
 ```
 
@@ -74,7 +74,7 @@ grep -i "compact" ~/.codex/sessions/<session-id>/log.jsonl | tail -20
 
 The `/debug-config` slash command reveals the effective context window and auto-compact threshold:
 
-```
+```text
 /debug-config
 ```
 
@@ -135,7 +135,7 @@ model_reasoning_summary = "concise"
 
 When compaction fails, switch to a model with reliable compaction support before the context fills completely[^4]:
 
-```
+```text
 /model gpt-5.4
 /compact
 /model gpt-5.5
@@ -173,7 +173,7 @@ This is the manual equivalent of compaction hooks. When hooks land as stable fea
 
 If you anticipate a long session, fork proactively before compaction territory:
 
-```
+```text
 /fork
 ```
 

@@ -2,7 +2,7 @@
 title: "Migrating to Codex CLI from ChatGPT: From Chat to Agentic Workflows"
 description: "If you have spent the last two years refining ChatGPT prompts — crafting custom instructions, building up conversation histories, and learning to coax code."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - migration
   - chatgpt
@@ -188,7 +188,7 @@ The differences are subtle but important:
 
 For complex tasks, the `@` symbol triggers fuzzy file search in the composer, letting you reference specific files as context[^3]:
 
-```
+```text
 Refactor @src/api/auth.ts to use the error handling pattern from @src/api/users.ts
 ```
 

@@ -2,7 +2,7 @@
 title: "Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors"
 description: "Codex CLI v0.117.0 (released March 26, 2026) elevated plugins to a first-class workflow primitive."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - plugins
@@ -57,7 +57,7 @@ Before covering plugin packaging, it helps to understand the skill format that p
 
 A skill is a directory with a required `SKILL.md` and optional supporting files:[^7]
 
-```
+```text
 my-skill/
 ├── SKILL.md           # Required — instructions + YAML front matter
 ├── scripts/           # Optional — executable helpers
@@ -110,7 +110,7 @@ This means a repository with fifty skills does not consume fifty skills' worth o
 
 Codex scans these paths in priority order:[^7]
 
-```
+```text
 $CWD/.agents/skills          # Current directory
 $CWD/../.agents/skills       # Parent directory
 $REPO_ROOT/.agents/skills    # Repository root
@@ -153,7 +153,7 @@ The `dependencies.tools` block tells Codex which MCP servers the skill needs —
 
 Every plugin has a mandatory entry point at `.codex-plugin/plugin.json`. All other artefacts live at the plugin root, not inside `.codex-plugin/`.
 
-```
+```text
 my-plugin/
 ├── .codex-plugin/
 │   └── plugin.json          ← required
@@ -425,7 +425,7 @@ Paths in `source.path` must be relative to the marketplace root and prefixed wit
 
 From any Codex CLI session:
 
-```
+```text
 /plugins
 ```
 
@@ -479,7 +479,7 @@ To uninstall completely, use the plugin browser: **Uninstall plugin** removes th
 
 The built-in `$plugin-creator` skill is the fastest path from idea to testable plugin:[^8]
 
-```
+```python
 @plugin-creator scaffold a plugin for our internal Jira instance that wraps the mcp-jira server
 ```
 
@@ -518,7 +518,7 @@ Once installed and a new thread is started, plugins surface in two ways:
 1. **Contextual loading** — Codex loads relevant skills automatically based on the task.
 2. **Explicit `@` invocation** — Type `@` in the composer to browse installed plugins and skills by name.[^9]
 
-```
+```python
 @my-plugin summarise the last 10 commits on this branch
 ```
 
@@ -554,7 +554,7 @@ OpenAI's official plugin directory hosts the 20+ first-party integrations; self-
 
 Combining all three layers into a practical plugin:[^14]
 
-```
+```text
 sentry-triage/
 ├── .codex-plugin/
 │   └── plugin.json

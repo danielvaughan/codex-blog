@@ -1,7 +1,7 @@
 ---
 title: "Verified Tool Calls and the Non-Atomic Failure Gap: Why Your Coding Agent Retries Blindly — and How to Wire Postcondition Verification into Codex CLI"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "verified-tool-calls", "non-atomic-failures", "PostToolUse", "idempotency", "agent-reliability", "verify-before-retry"]
 ---
 
@@ -52,7 +52,7 @@ Each tool action defines a postcondition — a predicate over the world state th
 
 Every execution attempt carries a deterministic key:
 
-```
+```text
 k = hash(agent_id, action_type, payload, timestamp_bucket)
 ```
 

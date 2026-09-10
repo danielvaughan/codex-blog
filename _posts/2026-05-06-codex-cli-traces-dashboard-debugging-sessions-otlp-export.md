@@ -6,7 +6,7 @@ timestamp: 2026-05-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-codex-cli-traces-dashboard-debugging-sessions-otlp-export"
 tags: ["codex-cli", "traces", "debugging", "observability", "opentelemetry", "otlp", "dashboard", "sessions", "tool-calls"]
 date: 2026-05-06T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Debugging Codex CLI Sessions with the OpenAI Traces Dashboard and OTLP Export
 
@@ -87,7 +87,7 @@ codex trace reduce ~/.codex/sessions/2026/05/06/rollout-2026-05-06T09-14-22-a1b2
 
 The reducer outputs a structured summary showing:
 
-```
+```yaml
 Session: a1b2c3d4-...
 Duration: 4m 22s | Turns: 7 | Tools: 12 calls
 Model: gpt-5.4 | Reasoning: medium

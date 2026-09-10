@@ -6,7 +6,7 @@ timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-agent-observability-dashboard-patterns-codex-cli-opentelemetry"
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "dashboards", "tracing", "metrics", "grafana", "cost-management"]
 date: 2026-05-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Agent Observability Dashboard Patterns: OpenTelemetry, Traces, and Cost Monitoring for Codex CLI
 
@@ -163,7 +163,7 @@ These conventions mean a dashboard built for Codex CLI traces will also work for
 
 ### 1. Token Burn Rate
 
-```
+```text
 sum(rate(gen_ai_client_token_usage_total[5m])) by (model, environment)
 ```
 
@@ -171,7 +171,7 @@ Track input and output token consumption per model over time. Alert when burn ra
 
 ### 2. Session Duration Distribution
 
-```
+```text
 histogram_quantile(0.95, sum(rate(session_loop_duration_seconds_bucket[5m])) by (le, model))
 ```
 
@@ -179,7 +179,7 @@ The P95 session duration tells you whether agents are getting stuck. Sessions ex
 
 ### 3. Tool Call Success Rate
 
-```
+```text
 sum(rate(tool_call_total{status="success"}[5m])) /
 sum(rate(tool_call_total[5m])) * 100
 ```
@@ -188,7 +188,7 @@ Tool failures are the most common cause of wasted tokens. A drop below 90% warra
 
 ### 4. API Error Rate by Model
 
-```
+```text
 sum(rate(api_call_total{status!="200"}[5m])) by (model, status)
 ```
 
@@ -196,7 +196,7 @@ Rate limits (429), context length exceeded (400), and server errors (500) each r
 
 ### 5. Cost Estimation
 
-```
+```text
 (sum(rate(gen_ai_client_token_usage_total{direction="input"}[1h])) * $input_cost_per_token)
 +
 (sum(rate(gen_ai_client_token_usage_total{direction="output"}[1h])) * $output_cost_per_token)

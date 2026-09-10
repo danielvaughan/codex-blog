@@ -1,7 +1,7 @@
 ---
 title: "ToolMinimize: Why 81–88% of LLM Agent Tool Calls Over-Share Private Data — and What Codex CLI's PreToolUse Hook Can Do About It"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["security", "privacy", "MCP", "tool-calls", "PreToolUse", "hooks", "GDPR", "data-minimisation", "multi-agent"]
 ---
 
@@ -49,7 +49,7 @@ There is also a detection gap: classical PII tooling misses *implicit* PSD. The 
 
 ToolMinimize formalises the problem with a **Privacy Cost (PC)** metric computed per tool call argument:
 
-```
+```text
 PC(t, args) = Σ S(pⱼ) · E(f) · N(pⱼ, f)
 ```
 

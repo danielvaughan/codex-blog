@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.150.0: Interrupt Hooks, @Task Mentions, the /copy Picker, and Smarter Permission Keybindings"
 date: 2026-08-30T09:30:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "hooks", "v0.150.0", "interrupt", "task-management", "permissions", "tui", "security"]
 ---
 
@@ -76,7 +76,7 @@ flowchart LR
 
 v0.150.0 introduces `@`-mention addressing for Codex tasks.[^1] From any terminal session you can reference another running task by name or ID:
 
-```
+```text
 @ backend-refactor read current status
 @ api-agent create subtask: "add rate-limiting middleware"
 @ test-runner message: "cancel current run, switch to fast mode"
@@ -107,7 +107,7 @@ One practical caution: `@`-mention instructions flow into the target agent's con
 
 The original `/copy` command copied the full last response. v0.150.0 replaces it with an interactive picker:[^1]
 
-```
+```text
 /copy
   → Full response
   → Code block 1: main.rs (lines 12–47)
@@ -125,7 +125,7 @@ Unnamed sessions (those started with `codex` or `/new` without an explicit title
 
 `/rename` now suggests an editable title rather than presenting a blank field:
 
-```
+```text
 /rename
   Suggested: "Refactor auth module — JWT validation"
   > █

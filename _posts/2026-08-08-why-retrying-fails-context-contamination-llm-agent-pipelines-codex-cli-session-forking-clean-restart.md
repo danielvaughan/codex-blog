@@ -1,7 +1,7 @@
 ---
 title: "Why Retrying Fails: What Context Contamination Means for Your Codex CLI Retry Strategy"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "context-contamination", "retry-strategy", "CCRM", "session-management", "context-compaction", "session-forking", "token-budget"]
 ---
 
@@ -27,7 +27,7 @@ Yang introduces the **Context-Contaminated Restart Model (CCRM)** to formalise t
 
 The closed-form success probability across K attempts is:
 
-```
+```text
 P(succeed in ≤K attempts) = p₀ + (1 − p₀)[1 − (1 − p₁)^(K−1)]
 ```
 
@@ -105,7 +105,7 @@ Focus on: what we are building, what works so far, what remains.
 
 CCRM's Theorem 4.1 provides a closed-form formula for optimal budget allocation [^1]:
 
-```
+```text
 T* = √(B · log(1/(1−ε₁)) / log(1/(1−ε₀)))
 K* = √(B · log(1/(1−ε₀)) / log(1/(1−ε₁)))
 ```

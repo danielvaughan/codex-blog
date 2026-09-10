@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-multi-directory-workflows-add-dir-writable-roots-cross-repo-coordination"
 tags: ["codex-cli", "multi-directory", "polyrepo", "writable-roots", "sandbox", "permissions", "cross-repo", "monorepo", "AGENTS.md"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Multi-Directory Workflows: Coordinating Cross-Repo Changes with --add-dir, Writable Roots, and Permission Profiles
 
@@ -23,7 +23,7 @@ This article covers every mechanism Codex CLI provides for safe multi-directory 
 
 Consider a typical polyrepo layout:
 
-```
+```text
 ~/code/
   acme-frontend/    # Next.js app
   acme-api/         # FastAPI service
@@ -166,7 +166,7 @@ When Codex operates across multiple directories, each directory can carry its ow
 
 Place a root-level `AGENTS.md` in each repository describing its conventions:
 
-```
+```text
 ~/code/acme-api/AGENTS.md        → Python/FastAPI conventions
 ~/code/acme-frontend/AGENTS.md   → TypeScript/Next.js conventions
 ~/code/acme-shared/AGENTS.md     → Shared type generation rules
@@ -178,7 +178,7 @@ When Codex works across all three via `--add-dir`, it discovers and loads each r
 
 `AGENTS.override.md` at any level temporarily replaces the base `AGENTS.md` at that level without deleting it [^10]. This is particularly useful in polyrepo setups where you want to inject cross-cutting instructions:
 
-```
+```text
 ~/code/acme-api/AGENTS.override.md
 ```
 
@@ -204,7 +204,7 @@ codex --cd ~/code/acme-api \
 
 Inside the session:
 
-```
+```yaml
 You: Add a "user preferences" feature:
      1. Shared type UserPreferences in acme-shared/types/
      2. GET/PUT /users/:id/preferences endpoints in acme-api/

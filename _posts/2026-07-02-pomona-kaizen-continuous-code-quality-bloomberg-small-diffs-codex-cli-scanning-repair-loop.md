@@ -5,7 +5,7 @@ timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-pomona-kaizen-continuous-code-quality-bloomberg-small-diffs-codex-cli-scanning-repair-loop"
 tags: ["codex-cli", "code-quality", "technical-debt", "kaizen", "pomona", "bloomberg", "agents-md", "scanning", "repair", "linting", "automation"]
 date: 2026-07-02T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Pomona and the Kaizen Loop: What Bloomberg's Tiny-Diff Code Quality Agent Teaches Us About Building Scanning-Repair Workflows with Codex CLI
 
@@ -120,14 +120,14 @@ Write a JSON file `quality-backlog.json` with an array of tasks:
     "estimated_lines": 3
   }
 ]
-```
+```markdown
 
 ## Rules
 - Do NOT modify any source files
 - Do NOT create PRs
 - Focus on P1 and P2 items only
 - Maximum 20 tasks per scan
-```
+```markdown
 
 ### Step 2: Run the Scan
 

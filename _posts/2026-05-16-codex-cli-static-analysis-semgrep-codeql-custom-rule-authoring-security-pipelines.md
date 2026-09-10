@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-static-analysis-semgrep-codeql-custom-rule-authoring-security-pipelines"
 tags: ["codex-cli", "semgrep", "codeql", "static-analysis", "security", "mcp", "custom-rules", "sast", "ci-cd"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Static Analysis: Agent-Driven Semgrep Rule Authoring, CodeQL Query Generation, and Security Scanning Pipelines
 
@@ -79,7 +79,7 @@ This gives the agent concrete constraints rather than vague instructions. The Se
 
 In an interactive session with the Semgrep MCP server active, prompt Codex to author rules contextually:
 
-```
+```text
 Scan src/ for SQL injection patterns, then write a custom Semgrep rule
 that catches any use of f-strings or string concatenation inside
 SQLAlchemy execute() calls. Include an auto-fix using text() with
@@ -161,7 +161,7 @@ CodeQL's QL language is substantially more complex than Semgrep's YAML patterns 
 
 ### Prompting for CodeQL Queries
 
-```
+```text
 Write a CodeQL query for JavaScript that finds cases where user input
 from Express req.query or req.body reaches a child_process.exec() call
 without sanitisation. Use DataFlow::PathGraph for taint tracking.

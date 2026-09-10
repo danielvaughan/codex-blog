@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-codex-cli-dsl-proprietary-language-strategies-esoteric-language-lessons"
 tags: ["codex-cli", "dsl", "domain-specific-languages", "AGENTS.md", "hooks", "PreToolUse", "MCP", "esoteric-languages", "language-strategy"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI and Domain-Specific Languages: Practical Strategies for Teams With Proprietary or Sparse-Training Languages
 
@@ -62,7 +62,7 @@ Research shows 3–5 well-commented examples optimise agent performance — fewe
 
 Codex CLI walks from project root to current working directory, reading AGENTS.md at each level [^5]. For monorepos with multiple DSLs, place language-specific rules in subdirectory AGENTS.md files:
 
-```
+```text
 repo-root/
   AGENTS.md              # General project rules
   services/

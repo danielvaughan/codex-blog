@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-cross-agent-skill-portability-codex-cli-skillshare-skillport-skills-sync"
 tags: ["codex-cli", "agent-skills", "SKILL.md", "skillshare", "skillport", "skills-sync", "cross-agent", "portability", "MCP"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Cross-Agent Skill Portability: Managing Skills Across Codex CLI, Claude Code, and Copilot
 
@@ -41,7 +41,7 @@ A team running Codex CLI as their primary agent but using Claude Code for review
 
 Before examining tools, it is worth understanding the standard they all build on. The agentskills.io specification defines a skill as a directory containing a `SKILL.md` file with YAML frontmatter[^1]:
 
-```
+```text
 my-skill/
   SKILL.md          # Required: metadata + instructions
   scripts/           # Optional: executable helpers

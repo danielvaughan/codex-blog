@@ -2,7 +2,7 @@
 title: "Codex CLI in Java Spring Teams: Plugging Into SonarQube, Jira, and Your Existing CI/CD Pipeline"
 description: "Most Codex CLI content assumes you are starting fresh with a JavaScript or Python project. Enterprise Java Spring teams do not start fresh."
 date: 2026-04-13T07:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - codex-cli
   - java
@@ -216,7 +216,7 @@ args = ["mcp-atlassian",
 With Jira connected, the agent session becomes ticket-aware:
 
 **Reading context:**
-```
+```yaml
 Developer: "Work on PROJ-1234"
 Agent: [reads Jira ticket via MCP] "PROJ-1234: Add pagination to
        the /api/users endpoint. Acceptance criteria: page size
@@ -227,13 +227,13 @@ Agent: [implements pagination following existing patterns]
 ```
 
 **Updating status:**
-```
+```yaml
 Agent: [after generating PR] Updates PROJ-1234 status to "In Review"
 Agent: [adds comment with PR link and implementation summary]
 ```
 
 **Creating sub-tasks:**
-```
+```yaml
 Developer: "Implement the REST API redesign from PROJ-5000"
 Agent: [reads epic, breaks into sub-tasks via MCP]
 Agent: [creates PROJ-5001: "Add pagination to /api/users"]

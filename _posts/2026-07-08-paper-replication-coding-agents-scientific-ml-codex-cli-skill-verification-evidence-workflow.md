@@ -5,7 +5,7 @@ timestamp: 2026-07-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-08-paper-replication-coding-agents-scientific-ml-codex-cli-skill-verification-evidence-workflow"
 tags: ["codex-cli", "scientific-computing", "paper-replication", "verification", "skills", "goal-mode", "evidence-based", "SKILL.md", "reproducibility"]
 date: 2026-07-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Paper Replication with Coding Agents: What 158 Matched Targets Reveal About Evidence-Based Scientific Verification — and How to Wire the Workflow in Codex CLI
 
@@ -32,7 +32,7 @@ This structure forces the agent to maintain an auditable chain from paper claim 
 
 The implementation uses Codex CLI's SKILL.md standard as its instruction layer [^4] [^5]. The skill folder contains:
 
-```
+```text
 paper-replication/
 ├── SKILL.md                    # Agent instructions (Codex CLI / Claude Code)
 ├── scripts/

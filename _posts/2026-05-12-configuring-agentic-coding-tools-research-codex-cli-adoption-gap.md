@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-configuring-agentic-coding-tools-research-codex-cli-adoption-gap"
 tags: ["codex-cli", "research", "configuration", "AGENTS.md", "skills", "subagents", "adoption", "best-practices"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # How Developers Actually Configure Agentic Coding Tools: What 2,926 Repositories Reveal About the Codex CLI Adoption Gap
 
@@ -127,7 +127,7 @@ The finding that 83.3% of skills contain no executable resources [^1] reveals a 
 
 A well-structured skill for, say, database migration safety:
 
-```
+```text
 .agents/skills/
 └── safe-migration/
     ├── SKILL.md
@@ -213,7 +213,7 @@ For multi-tool teams, this suggests a clear strategy:
 2. Use tool-specific files (CLAUDE.md, copilot-instructions.md) only for tool-specific overrides
 3. Structure AGENTS.md hierarchically — root for organisation standards, subdirectories for module-specific guidance [^2]
 
-```
+```text
 repo/
 ├── AGENTS.md                    # Organisation conventions
 ├── src/

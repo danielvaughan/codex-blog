@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-model-routing-may-2026-gpt55-gpt54-spark-decision-framework"
 tags: ["codex-cli", "model-selection", "gpt-5.5", "gpt-5.4", "gpt-5.4-mini", "gpt-5.3-codex", "codex-spark", "configuration", "cost-optimisation"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Model Routing in May 2026: GPT-5.5, GPT-5.4, Codex-Spark, and When to Use Each
 
@@ -123,7 +123,7 @@ This pattern routes the primary session through GPT-5.5 for planning and coordin
 
 Use the `/model` slash command to switch models without restarting:
 
-```
+```text
 /model gpt-5.3-codex-spark
 ```
 

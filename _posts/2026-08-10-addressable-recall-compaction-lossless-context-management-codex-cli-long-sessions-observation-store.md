@@ -1,7 +1,7 @@
 ---
 title: "Addressable Recall Compaction: Why Lossless Context Management Changes the Game for Codex CLI Long Sessions"
 date: 2026-08-10T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "context-compaction", "arc", "lossless-memory", "long-sessions", "observation-store", "addressable-recall", "context-window", "agent-memory"]
 ---
 
@@ -57,7 +57,7 @@ When compaction triggers, observations longer than a retention threshold *ρ* ar
 
 A citation stub might look like:
 
-```
+```text
 §a3f7c2e1 — grep results for 'fn parse_manifest' (3,847 chars)
   Head: src/loader.rs:142: pub fn parse_manifest(path: &Path) -> Result<Manifest> {
   Tail: src/tests/loader_test.rs:89:     assert!(parse_manifest(&bad_path).is_err());

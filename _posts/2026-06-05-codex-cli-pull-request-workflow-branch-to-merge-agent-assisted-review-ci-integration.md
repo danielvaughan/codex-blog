@@ -5,7 +5,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-codex-cli-pull-request-workflow-branch-to-merge-agent-assisted-review-ci-integration"
 tags: ["codex-cli", "pull-requests", "code-review", "github", "ci-cd", "codex-action", "worktrees", "workflow", "git"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Pull Request Workflows: Branch to Merge with Agent-Assisted Review and CI Integration
 
@@ -80,7 +80,7 @@ Codex discovers these guidelines automatically during both `/review` and `@codex
 
 For multi-file changes that will touch more than three files, start with plan mode[^4]:
 
-```
+```text
 > /plan Refactor the auth middleware to extract token validation into a standalone module
 ```
 
@@ -98,7 +98,7 @@ The `/review` command launches a dedicated reviewer that analyses your diff and 
 | Review uncommitted changes | Staged + unstaged files | Before committing |
 | Review a commit | Specific SHA | After committing, before pushing |
 
-```
+```text
 > /review
 # Select: "Review against base branch"
 # Select: main
@@ -133,7 +133,7 @@ Using GPT-5.5 with high reasoning effort for reviews catches subtle issues — r
 
 After local review passes, commit with a descriptive message. Codex can generate commit messages that summarise the diff:
 
-```
+```text
 > Write a conventional commit message for the current staged changes
 ```
 
@@ -235,7 +235,7 @@ Once the PR is open, Codex can review it directly on GitHub as a cloud-based cod
 
 Comment on the PR:
 
-```
+```python
 @codex review
 ```
 
@@ -249,7 +249,7 @@ Enable automatic reviews in Codex settings to have every new PR reviewed without
 
 Add context to the trigger:
 
-```
+```python
 @codex review for security regressions in the auth module
 ```
 
@@ -259,7 +259,7 @@ Codex scopes its analysis accordingly[^3].
 
 After Codex posts findings, you can ask it to fix the issues in the same PR[^3]:
 
-```
+```python
 @codex fix the P1 issue in auth/validate.ts
 ```
 
@@ -273,7 +273,7 @@ Here is the minimum configuration set for the full pipeline:
 
 ### Repository Structure
 
-```
+```text
 project/
   AGENTS.md                    # Review guidelines + build commands
   .codex/

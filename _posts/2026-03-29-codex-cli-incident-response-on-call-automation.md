@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Incident Response: Automating On-Call with Agents"
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 description: "Wire PagerDuty/Datadog alerts into Codex CLI agentic workflows for AI-driven incident investigation and patch generation."
 tags:
   - ecosystem
@@ -34,7 +34,7 @@ This article covers the patterns that make this work in practice: how to connect
 
 The full incident response loop:
 
-```
+```text
 1. Alert fires (PagerDuty / Opsgenie / Datadog monitor)
 2. Webhook triggers codex exec with incident context
 3. Codex calls MCP tools to gather context:
@@ -210,7 +210,7 @@ All of the above require a `[HUMAN APPROVAL REQUIRED]` marker in your output.
 
 ## Recommended Fix
 [diff or config change, marked as DRAFT — human must approve]
-```
+```text
 ```
 
 ---
@@ -267,7 +267,7 @@ Switch to `incident-responder` (with Smart Approvals) only once you've confirmed
 
 Here's what a real investigation session looks like. You can run this interactively or via `codex exec`:
 
-```
+```text
 $ codex --profile incident-responder
 > Service X is showing 40% error rate since 14:23 UTC.
   Investigate using Datadog. What changed?

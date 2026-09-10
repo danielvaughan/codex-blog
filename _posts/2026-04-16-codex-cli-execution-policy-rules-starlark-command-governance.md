@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-cli-execution-policy-rules-starlark-command-governance"
 tags: ["security", "execpolicy", "rules", "starlark", "approvals", "enterprise", "sandbox", "command-governance", "config-toml"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Execution Policy Rules in Codex CLI: Starlark-Based Command Governance for Teams
 
@@ -39,7 +39,7 @@ Rules files use Starlark, a deterministic, side-effect-free subset of Python ori
 
 Codex scans `rules/` directories under every Team Config location at startup[^1]:
 
-```
+```text
 ~/.codex/rules/default.rules      # User-level (auto-updated by TUI)
 ~/.codex/rules/custom.rules       # User-level (manual)
 .codex/rules/project.rules        # Project-level
@@ -99,7 +99,7 @@ prefix_rule(
 
 When multiple rules match, Codex applies strict severity ordering[^1][^6]:
 
-```
+```text
 forbidden  >  prompt  >  allow
 ```
 
@@ -307,7 +307,7 @@ rules = "prompt"          # Show prompts for "prompt" decisions (default)
 
 Administrators can enforce rules system-wide via `requirements.toml`, deployed through cloud-managed policies (ChatGPT Business/Enterprise), macOS MDM (`com.openai.codex:requirements_toml_base64`), or the system path (`/etc/codex/requirements.toml`)[^8]. This hierarchy ensures enterprise security teams can mandate `forbidden` rules that individual developers cannot override:
 
-```
+```text
 Cloud-managed requirements (highest priority)
   └── macOS MDM preferences
         └── System requirements.toml (/etc/codex/)

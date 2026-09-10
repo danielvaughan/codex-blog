@@ -2,6 +2,8 @@
 title: "Endogenous Authorization Laundering: How Codex CLI's Persistent Memory Becomes a Hidden Authority Surface"
 parent: "Articles"
 nav_order: 1146
+date: 2026-09-08T08:00:00+00:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["security", "memory", "authorization", "codex-cli", "hooks", "AGENTS.md"]
 ---
 
@@ -16,7 +18,7 @@ The phrase *endogenous* distinguishes the failure from prompt injection: no exte
 
 Cerruti et al. formalise the condition as:
 
-```
+```text
 F(M_T, a_q) = 1  iff  A(S_T, a_q) = 0  ∧  A_M(M_T, a_q) = 1
 ```
 

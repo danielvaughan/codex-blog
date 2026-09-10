@@ -2,7 +2,7 @@
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
 description: "Graph databases and AI agents are a natural fit. An agent's core capability is traversal."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - third-party
@@ -65,7 +65,7 @@ One of the most immediately useful applications of Codex CLI in a Neo4j project 
 
 ### A Worked Prompt
 
-```
+```text
 > Generate a Cypher query to find all articles tagged with 'hooks' that cite
   articles tagged with 'mcp'. Return the citing article title, the cited article
   title, and the relationship type. My schema:
@@ -125,7 +125,7 @@ try {
 
 When a query fails, paste the error back into Codex:
 
-```
+```text
 > This Cypher throws: "Variable `cited` not defined (line 2)"
   MATCH (citing:Article)-[:TAGGED_WITH]->(:Tag {name: 'hooks'})
   RETURN cited.title
@@ -630,7 +630,7 @@ This query pattern — vector ANN search → graph filter → return — is the 
 
 ### Codex CLI Orchestrating the Full Embed → Store → Retrieve → Reason Loop
 
-```
+```text
 > Codex: I want to find articles in our knowledge graph that are conceptually
   related to "Codex CLI hooks engine" but haven't been explicitly tagged with
   'hooks'. Use vector search to find candidates, then check their tag relationships,
@@ -725,7 +725,7 @@ RETURN candidate.title AS title,
 
 Feed this into a Codex prompt to generate a personalised reading list:
 
-```
+```text
 > Codex: Here are 10 articles from our knowledge graph that are frequently cited
   by articles the user has already read. Generate a reading plan: group them by
   topic cluster, explain why each matters given what the user already knows, and
@@ -750,7 +750,7 @@ ORDER BY referencedBy DESC
 LIMIT 20
 ```
 
-```
+```text
 > Codex: Our knowledge graph analysis shows the following topics are referenced
   by 3+ articles but have no dedicated article covering them: [<results>].
   For each topic, draft a one-paragraph article brief: the core concept,

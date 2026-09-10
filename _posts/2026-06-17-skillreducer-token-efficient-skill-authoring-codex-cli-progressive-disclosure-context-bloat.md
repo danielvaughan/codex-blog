@@ -5,7 +5,7 @@ timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-skillreducer-token-efficient-skill-authoring-codex-cli-progressive-disclosure-context-bloat"
 tags: ["codex-cli", "skills", "token-efficiency", "SkillReducer", "SKILL.md", "progressive-disclosure", "context-window", "cost-optimisation"]
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # SkillReducer: What the First Large-Scale Skill Bloat Study Means for Codex CLI Token Efficiency
 
@@ -117,13 +117,13 @@ API testing ensures contract compliance between services...
 Here is a complete example for a GET /users endpoint:
 ```python
 # [80 lines of example code]
-```
+```text
 
 ### Templates
 ```python
 # [60 lines of template boilerplate]
-```
-```
+```text
+```text
 
 **After (progressive disclosure, ~800 tokens core):**
 

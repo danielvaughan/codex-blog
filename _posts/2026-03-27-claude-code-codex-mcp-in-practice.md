@@ -2,7 +2,7 @@
 title: "Claude Code ↔ Codex CLI in Practice: Session Handoffs, Community Bridges and Known Gotchas"
 description: "The theory of bidirectional MCP integration between Claude Code and Codex CLI is compelling."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - mcp
@@ -67,7 +67,7 @@ If you are running a recent version of Codex CLI (post-v0.50.0), check whether `
 
 When calling `codex()` from a Claude Code session, you need to capture the structured content. In practice, Claude Code receives the full tool result including `structuredContent`. Instruct Claude Code explicitly:
 
-```
+```text
 After calling codex(), extract the threadId from the structuredContent field of the
 tool result. Use it in all subsequent codex-reply() calls for this task.
 ```
@@ -252,7 +252,7 @@ Claude Code writes its analysis or plan to a file. The `codex()` call includes t
 
 **Prompt template for the Codex call:**
 
-```
+```text
 Read PLAN.md in the current directory.
 It contains the refactoring strategy for the auth module.
 Implement the changes exactly as specified.
@@ -263,7 +263,7 @@ Write a brief RESULT.md summarising what was changed and any deviations.
 
 When you need Codex to maintain conversational context across multiple sub-tasks within a single Claude Code session, use the `threadId`/`conversationId` returned in the first `codex()` call to chain subsequent `codex-reply()` calls.[^4]
 
-```
+```text
 Claude Code session:
   1. calls codex("Set up the migration scaffold") → captures threadId=abc123
   2. calls codex-reply(abc123, "Now write migration 001_add_users_table")

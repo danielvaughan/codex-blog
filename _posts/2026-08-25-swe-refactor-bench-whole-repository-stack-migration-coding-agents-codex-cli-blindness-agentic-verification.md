@@ -1,7 +1,7 @@
 ---
 title: "SWE Refactor Bench: Why Whole-Repository Stack Migrations Break Coding Agents — and What It Means for Your Codex CLI Migration Workflow"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "benchmarks", "refactoring", "migrations", "evaluation", "agentic-verification", "posttooluse-hooks", "long-horizon-tasks"]
 ---
 
@@ -48,7 +48,7 @@ flowchart LR
 
 The scoring formula weights verifier survival:
 
-```
+```text
 S(τ) = 1[Stage I passes] · 1[all Stage II checks pass] · (0.4 + 0.6·s/6)
 ```
 
@@ -88,7 +88,7 @@ The funnel across 520 runs:[^1]
 
 Among 340 runs that pass Stage I:
 
-```
+```text
 91% reach 50%+ of fixed checks
 58% reach 99%+ of fixed checks
 36% reach 99.9% of fixed checks

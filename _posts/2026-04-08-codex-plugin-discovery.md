@@ -2,7 +2,7 @@
 title: "Codex Plugin Discovery: @Mentions, the In-TUI Browser and Marketplace Navigation"
 description: "On 26 March 2026, Codex v0.117.0 shipped plugins as a first-class workflow. Skills, MCP server configurations and third-party app integrations — previously."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - plugins
@@ -24,7 +24,7 @@ On 26 March 2026, Codex v0.117.0 shipped plugins as a first-class workflow[^1]. 
 
 A plugin is a directory with a required `.codex-plugin/plugin.json` manifest[^3]. Everything else is optional:
 
-```
+```text
 my-plugin/
 ├── .codex-plugin/
 │   └── plugin.json        # required manifest
@@ -71,7 +71,7 @@ Once a plugin is installed, Codex exposes it through three interaction patterns[
 
 Type `@plugin-name` (or `@plugin-name/skill-name`) directly in your prompt. This is the precision tool: mentioning a plugin causes its full context — capabilities, tools, configuration — to be injected into the model's context window automatically[^4]. No need to describe what the plugin does; the agent already knows.
 
-```
+```python
 @gmail Summarise unread threads from the last 24 hours
 @sentry List unresolved errors in the payments service tagged critical
 @figma Export the onboarding-flow frame as SVG
@@ -83,7 +83,7 @@ Version 0.117.0 fixed cases where explicit mentions lost context during multi-tu
 
 Simply describe what you want. If an installed plugin matches, Codex selects the appropriate tools without an explicit mention:
 
-```
+```text
 Summarise my unread emails from today
 ```
 

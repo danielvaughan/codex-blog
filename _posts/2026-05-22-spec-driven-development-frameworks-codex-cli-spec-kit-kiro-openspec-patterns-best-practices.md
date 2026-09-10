@@ -6,7 +6,7 @@ timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-spec-driven-development-frameworks-codex-cli-spec-kit-kiro-openspec-patterns-best-practices"
 tags: ["codex-cli", "spec-driven-development", "spec-kit", "kiro", "openspec", "bmad", "tessl", "agents-md", "patterns", "best-practices"]
 date: 2026-05-22T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Spec-Driven Development Frameworks for Codex CLI: Patterns, Best Practices, and the 2026 Landscape
 
@@ -92,7 +92,7 @@ $speckit-implement       # Execute with verification
 
 Spec Kit stores artefacts in a structured directory:
 
-```
+```text
 specs/
   001-auth-system/
     spec.md          # Requirements with EARS criteria
@@ -347,7 +347,7 @@ Use `/speckit.clarify` or Codex CLI's interactive mode to surface ambiguities be
 
 Link implementation back to specifications:
 
-```
+```text
 feat(auth): implement magic link login, refs specs/004-magic-link/spec.md
 ```
 
@@ -396,7 +396,7 @@ SDD adds overhead. For throwaway prototypes and exploratory coding, ad-hoc promp
 
 The convergence point is clear. Spec Kit provides the specification layer, AGENTS.md provides the agent configuration layer, and goal mode provides the execution layer. Together they form a complete SDD stack for Codex CLI:
 
-```
+```text
 Spec Kit (specify → plan → tasks)
     ↓ specs/ directory
 AGENTS.md (constitution + current spec context)

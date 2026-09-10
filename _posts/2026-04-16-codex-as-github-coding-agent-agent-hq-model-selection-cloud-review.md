@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-as-github-coding-agent-agent-hq-model-selection-cloud-review"
 tags: ["github", "agent-hq", "coding-agents", "code-review", "model-selection", "cloud-agent", "enterprise", "agentic-workflows"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex as a GitHub Coding Agent: Agent HQ, Model Selection, and Cloud-Based Code Review
 
@@ -97,13 +97,13 @@ The most immediately useful integration is **cloud-based code review**. Codex ca
 
 Comment `@codex review` on any pull request. Codex acknowledges with a 👀 reaction and posts a standard GitHub code review[^9].
 
-```
+```python
 @codex review
 ```
 
 For focused reviews, add instructions inline:
 
-```
+```python
 @codex review for security regressions
 ```
 
@@ -115,7 +115,7 @@ Enable "Automatic reviews" in Codex settings (chatgpt.com/codex/settings/code-re
 
 Mention `@codex` with any instruction beyond "review" to trigger a cloud task using the PR as context[^9]:
 
-```
+```python
 @codex fix the CI failures
 ```
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-csv-batch-processing-spawn-agents-on-csv-parallel-audits"
 tags: ["codex-cli", "subagents", "csv-batch", "spawn_agents_on_csv", "parallel-processing", "automation", "map-reduce"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # CSV Batch Processing with spawn_agents_on_csv: Map-Reduce Workflows for Codex CLI
 
@@ -119,7 +119,7 @@ user-service,/repos/user-service,platform-team
 
 Prompt Codex to batch-audit the lot:
 
-```
+```text
 Call spawn_agents_on_csv with:
 - csv_path: /tmp/services.csv
 - instruction: "Review the service at {path} owned by {owner}. Check for hardcoded secrets, missing input validation, and insecure dependencies. Return JSON with keys: service, risk_level, findings, and recommendations via report_agent_job_result."
@@ -142,7 +142,7 @@ admin-panel,src/admin,react-17
 analytics,src/analytics,react-17
 ```
 
-```
+```text
 Call spawn_agents_on_csv with:
 - csv_path: /tmp/modules.csv
 - instruction: "Analyse the module at {path} currently on {framework_version}. Identify breaking changes for React 19 migration. List deprecated API usage, class component count, and estimated migration effort in hours. Return JSON with keys: module, deprecated_apis, class_components, effort_hours, blocking_issues via report_agent_job_result."
@@ -165,7 +165,7 @@ pr_number,repo,title
 1237,frontend,Refactor auth flow
 ```
 
-```
+```text
 Call spawn_agents_on_csv with:
 - csv_path: /tmp/pr-backlog.csv
 - instruction: "Review PR #{pr_number} in the {repo} repository titled '{title}'. Check for correctness, test coverage, and security issues. Return JSON with keys: pr_number, verdict (approve/request_changes/comment), risk, summary, and suggestions via report_agent_job_result."

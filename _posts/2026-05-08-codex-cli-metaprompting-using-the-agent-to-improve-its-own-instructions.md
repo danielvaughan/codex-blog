@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-metaprompting-using-the-agent-to-improve-its-own-instructions"
 tags: ["codex-cli", "metaprompting", "AGENTS.md", "skills", "prompt-engineering", "workflow-optimisation"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Metaprompting: Using the Agent to Improve Its Own Instructions
 
@@ -50,7 +50,7 @@ Codex builds its instruction chain once per run by walking from `~/.codex/AGENTS
 
 The simplest metaprompting pattern runs at the end of a session that went sideways. Rather than closing the terminal and manually editing AGENTS.md, ask Codex directly:
 
-```
+```text
 You just completed a task but made two mistakes:
 1. You ran `npm test` instead of `pnpm test`
 2. You created a CommonJS module in an ESM-only project
@@ -86,7 +86,7 @@ Skills use progressive disclosure — Codex initially sees only the name and des
 
 Metaprompting can tighten both:
 
-```
+```text
 I have a skill at ~/.agents/skills/api-scaffold/SKILL.md.
 It should activate when I ask to create a new REST endpoint
 but NOT when I'm debugging an existing endpoint.
@@ -103,7 +103,7 @@ The match/non-match examples mirror the `match` and `not_match` validation array
 
 Metaprompting is not limited to natural-language instructions. You can ask Codex to recommend configuration changes:
 
-```
+```text
 I'm running a polyglot monorepo with Go services and React frontends.
 My current config.toml uses model_reasoning_effort = "medium" globally.
 

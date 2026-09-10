@@ -2,7 +2,7 @@
 title: "Mid-Turn Steering in Codex CLI: Redirecting Agents in Flight"
 description: "The default posture for working with agentic tools has always been: write a careful prompt, send it, wait, evaluate the output, and iterate."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - workflow-patterns
   - approval-modes
@@ -82,7 +82,7 @@ A worked example:
 
 When a multi-step task is running and you want to change the order of operations:
 
-```
+```text
 # Codex is writing unit tests for every function in order...
 
 [Enter] "Skip to the payment module tests first — that's the blocker for QA"
@@ -94,7 +94,7 @@ The agent deprioritises the earlier work and jumps to what you've indicated is m
 
 Agents have a well-documented tendency to expand scope when left unsupervised. Steering lets you trim this in real time rather than reviewing a larger-than-expected diff at the end:
 
-```
+```text
 [Enter] "Only fix the specific bug I described — don't refactor the surrounding code even if it looks messy"
 ```
 
@@ -140,7 +140,7 @@ A prompt structured to reduce steering typically includes:
 
 **Explicit constraints upfront:**
 
-```
+```text
 Refactor the authentication module. Constraints:
 - The UserRepository interface is frozen
 - Use bcrypt (already a dependency, not argon2)
@@ -150,7 +150,7 @@ Refactor the authentication module. Constraints:
 
 **Priority ordering for multi-step tasks:**
 
-```
+```text
 Priority order (complete in sequence):
 1. Fix the null pointer in PaymentService
 2. Update the migration script for the new schema
@@ -159,7 +159,7 @@ Priority order (complete in sequence):
 
 **Explicit scope limits:**
 
-```
+```text
 Only fix the described bug. Do not refactor surrounding code even if
 you notice issues. Add a TODO comment for anything else you spot.
 ```

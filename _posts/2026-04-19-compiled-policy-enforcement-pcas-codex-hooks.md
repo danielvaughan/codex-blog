@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-compiled-policy-enforcement-pcas-codex-hooks"
 tags: ["codex-cli", "security", "hooks", "policy-enforcement", "PCAS", "governance", "enterprise"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Compiled Policy Enforcement: Why Prompt-Based Safety Fails at 48% and What PCAS Means for Codex Hooks
 
@@ -43,7 +43,7 @@ The dependency graph enables **backward slicing** — given a proposed action, P
 
 Policies are expressed as declarative rules in a Datalog-derived language with recursive predicates for transitive dependency tracking [^1]:
 
-```
+```text
 Depends(dst, src) :- Edge(src, dst).
 Depends(dst, src) :- Depends(dst, mid), Edge(src, mid).
 ```
@@ -155,7 +155,7 @@ This catches direct references but misses indirect flows. If a previous tool cal
 
 In PCAS's Datalog, the same policy would be:
 
-```
+```text
 ProdCred(id) :- ToolResult(id, "read_secret", args),
                 Contains(args, "production").
 Denied(a)    :- Actions(a), Depends(a, src), ProdCred(src).

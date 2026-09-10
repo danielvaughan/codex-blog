@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-graphql-development-apollo-mcp-schema-first-workflows"
 tags: ["graphql", "mcp", "apollo", "schema-first", "type-safety", "codegen", "testing", "api-development"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for GraphQL Development: Apollo MCP Server, Schema-First Workflows, and Type-Safe Agent Patterns
 
@@ -186,7 +186,7 @@ The schema-first workflow maps naturally to agentic development. The agent modif
 
 Prompt Codex to extend the schema:
 
-```
+```text
 Add a `reviews` field to the Product type. Each review has an id, author (String!),
 rating (Int!, 1-5), body (String), and createdAt (DateTime!). Add a createReview
 mutation that requires productId, author, rating, and optional body.

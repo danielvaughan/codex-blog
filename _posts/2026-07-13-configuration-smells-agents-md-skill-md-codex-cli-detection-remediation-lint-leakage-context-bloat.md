@@ -1,7 +1,7 @@
 ---
 title: "Configuration Smells Across AGENTS.md and SKILL.md: What 338 Files Reveal About How We Misconfigure Coding Agents"
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "AGENTS.md", "SKILL.md", "configuration-smells", "code-quality", "lint-leakage", "context-bloat", "skills", "best-practices"]
 ---
 
@@ -59,7 +59,7 @@ AGENTS.md files exceeding ~200 lines push critical instructions out of the model
 
 **Codex CLI remediation:** Use layered AGENTS.md files. Codex concatenates them from root downward, with subdirectory files overriding earlier guidance [^4]:
 
-```
+```text
 repo/
 ├── AGENTS.md              # ≤150 lines: architecture, build, test commands
 ├── src/
@@ -74,7 +74,7 @@ Task-specific procedures — "how to add a new OS", "steps to create a migration
 
 **Codex CLI remediation:** Extract to SKILL.md files under `.codex/skills/`:
 
-```
+```text
 .codex/skills/
 ├── add-migration/
 │   └── SKILL.md           # Migration creation steps

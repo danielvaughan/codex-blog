@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-computer-use-windows-desktop-automation-qa-testing-workflows"
 tags: ["codex-cli", "computer-use", "windows", "qa-testing", "desktop-automation", "mcp", "gui-testing"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex Computer Use on Windows: Desktop Automation, QA Testing, and GUI-Driven Agent Workflows
 
@@ -78,7 +78,7 @@ Trigger Computer Use by mentioning `@Computer` in your prompt, referencing a spe
 
 The official QA use-case guide recommends being explicit about environment state, naming the issue types you care about, and specifying whether blocking bugs should halt the test run [^4]:
 
-```
+```python
 @Computer Test my app running at http://localhost:3000.
 
 Test these flows:
@@ -153,7 +153,7 @@ After the QA pass completes, the thread remains active [^4]. You can:
 
 A powerful pattern combines GUI-level Computer Use with Codex's existing CLI capabilities. Run unit and integration tests through the terminal, then use Computer Use to verify the visual output:
 
-```
+```text
 Run `npm test` to check unit tests pass, then @Computer open
 http://localhost:3000 in Chrome and verify the dashboard renders
 correctly with the test fixtures. Compare what you see against
@@ -201,7 +201,7 @@ Screenshots captured during Computer Use are subject to your ChatGPT data contro
 
 Here is a complete workflow for testing a Windows Forms or WPF application:
 
-```
+```python
 @Computer Launch MyApp.exe from C:\Projects\MyApp\bin\Release.
 
 Test plan:

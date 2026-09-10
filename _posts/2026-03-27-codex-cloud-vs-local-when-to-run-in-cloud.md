@@ -2,7 +2,7 @@
 title: "Codex Cloud vs Codex Local: When to Run in the Cloud"
 description: "Codex ships as two distinct execution surfaces: a local CLI that runs code on your machine."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 summary: "A practical decision guide covering codex cloud exec, environment provisioning, background task patterns, Slack/@Linear triggers, cloud+local hybrid strategies, and the 5x credit cost model."
 tags:
   - cloud
@@ -158,7 +158,7 @@ Codex Cloud integrates with two collaboration tools, enabling asynchronous task 
 
 Tag `@Codex` in any Slack channel or thread.[^17] Codex reads the thread context, selects the appropriate environment, starts work in its cloud sandbox, and posts a link to the resulting pull request back in the original thread.
 
-```
+```python
 @Codex the payment service is throwing 503s under load.
 Here's the stack trace: [paste]. Fix it and open a PR.
 ```

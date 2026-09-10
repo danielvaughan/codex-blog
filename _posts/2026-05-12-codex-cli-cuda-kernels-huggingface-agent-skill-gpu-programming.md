@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-cuda-kernels-huggingface-agent-skill-gpu-programming"
 tags: ["codex-cli", "cuda", "gpu", "hugging-face", "kernels", "agent-skills", "pytorch", "performance", "systems-programming"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Custom CUDA Kernels with Codex CLI: The Hugging Face Agent Skill for GPU Programming
 
@@ -36,7 +36,7 @@ The `--codex` flag targets the `$HOME/.agents/skills/` directory where Codex CLI
 
 The skill directory contains more than a prompt file:
 
-```
+```text
 .agents/skills/cuda-kernels/
 ├── SKILL.md                              # ~550 tokens of core guidance
 ├── scripts/
@@ -87,7 +87,7 @@ The agent reads the skill, selects H100-specific parameters (compute capability 
 
 The output follows the kernel-builder layout that the Hugging Face Hub expects [^5]:
 
-```
+```text
 examples/qwen3_8b/
 ├── kernel_src/
 │   └── rmsnorm.cu              # Vectorised CUDA kernel

@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-codex-cli-architecture-decision-records-adr-automated-governance"
 tags: ["codex-cli", "architecture", "adr", "governance", "agents-md", "skills", "codex-exec", "gpt-5.5"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Architecture Decision Records with Codex CLI: Automated ADR Generation, Governance, and the Agent-Architecture Gap
 
@@ -105,7 +105,7 @@ codex exec -m gpt-5.5 \
 
 Package the ADR workflow as a reusable Codex skill for consistent generation across your organisation:
 
-```
+```text
 docs/skills/adr-writer/
 └── SKILL.md
 ```

@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-over-mocked-tests-agent-generated-test-quality-codex-cli-realistic-testing"
 tags: ["codex-cli", "testing", "mocking", "research", "AGENTS.md", "PostToolUse", "test-quality", "MSR-2026"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Over-Mocking Problem: What 1.2 Million Commits Reveal About Agent-Generated Tests and How to Configure Codex CLI for Realistic Test Output
 
@@ -178,7 +178,7 @@ When the hook fires, the agent receives the audit message as developer context a
 
 Codex CLI's `/review` command accepts custom instructions. After the agent finishes generating tests, run a focused review pass [^6]:
 
-```
+```text
 /review Focus on test quality: flag any test file where mock count exceeds
 function-under-test count. Identify mocks that could be replaced with
 in-memory fakes. Check that at least one integration test exists per

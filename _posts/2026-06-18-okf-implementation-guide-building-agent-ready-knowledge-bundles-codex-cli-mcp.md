@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-okf-implementation-guide-building-agent-ready-knowledge-bundles-codex-cli-mcp"
 tags: ["codex-cli", "okf", "open-knowledge-format", "mcp", "knowledge-management", "context-engineering", "google-cloud"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # OKF Implementation Guide: Building Agent-Ready Knowledge Bundles for Codex CLI via MCP
 
@@ -47,7 +47,7 @@ Producers may add arbitrary extension fields; consumers must preserve unknown ke
 
 ### Directory Layout
 
-```
+```text
 bundle/
 ├── index.md          # Optional — progressive disclosure listing
 ├── log.md            # Optional — chronological change history
@@ -130,12 +130,12 @@ Handles all OAuth 2.1 token issuance, refresh, and validation for the platform.
 ```bash
 curl -X POST https://auth.acme.io/token \
   -d "grant_type=client_credentials&client_id=svc-codex&scope=read:repos"
-```
+```text
 
 ## Citations
 
 [1] [OAuth 2.1 Specification](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-12)
-```
+```text
 
 The `team` and `sla_tier` fields are extension fields — OKF explicitly permits them, and consumers must preserve them [^4].
 

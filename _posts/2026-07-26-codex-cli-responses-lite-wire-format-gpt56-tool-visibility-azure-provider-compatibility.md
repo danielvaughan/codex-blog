@@ -1,7 +1,7 @@
 ---
 title: "Responses Lite Explained: How GPT-5.6's Wire Format Reshapes Tool Dispatch in Codex CLI — and Why Azure Users Hit a Wall"
 date: 2026-07-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "responses-lite", "gpt-5.6", "wire-format", "azure", "tool-dispatch", "code-mode", "provider-compatibility", "enterprise"]
 ---
 
@@ -87,7 +87,7 @@ Users running GPT-5.6 Sol through Azure AI Foundry encountered a cascade of erro
 
 Azure returns a 400:
 
-```
+```text
 X-OpenAI-Internal-Codex-Responses-Lite only supports function tools,
 custom tools, and client-executed tool search.
 ```
@@ -98,7 +98,7 @@ The header is an internal signal that Azure's Responses API endpoint does not re
 
 Even after bypassing the header, Codex sends `collaboration` namespace tools for multi-agent V2. Azure rejects these:
 
-```
+```text
 Namespace 'collaboration' is reserved for encrypted tool use by this model.
 ```
 

@@ -2,7 +2,7 @@
 title: "Worktree-Based Parallel Development with Codex CLI"
 description: "The core limitation of sequential AI agent workflows: one agent, one thread, one context. Every task blocks the next."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - workflow-patterns
   - git-integration
@@ -95,7 +95,7 @@ This means subagent-driven parallel execution is now stable for automated/CI use
 
 A typical multi-agent pattern for Daniel's agentic pod:
 
-```
+```text
 Orchestrator (main thread, main checkout)
 ├── Agent 1 — worktree: feat/api-endpoints    (new feature)
 ├── Agent 2 — worktree: fix/perf-regression   (bug fix)

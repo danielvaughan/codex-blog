@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-load-test-generation-k6-locust-openapi-performance-validation"
 tags: ["codex-cli", "load-testing", "k6", "locust", "openapi", "performance", "codex-exec", "ci-cd", "mcp", "test-generation"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Load Test Generation: k6, Locust, and OpenAPI-Driven Performance Validation
 
@@ -118,7 +118,7 @@ codex mcp add k6 -- npx -y @grafana/k6-mcp-server
 
 With the MCP server active, you can run an iterative load testing session:
 
-```
+```yaml
 You: Generate a k6 script for the /api/v2 endpoints, run it with 10 VUs
      for 30 seconds, and adjust thresholds based on the baseline results.
 ```

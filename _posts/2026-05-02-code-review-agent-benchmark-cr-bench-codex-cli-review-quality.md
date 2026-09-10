@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-code-review-agent-benchmark-cr-bench-codex-cli-review-quality"
 tags: ["code-review", "cr-bench", "benchmarks", "agents-md", "review-quality", "hooks", "github-integration", "research"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Code Review Agent Benchmark: What CR-bench Reveals and How to Configure Codex CLI for Higher-Quality Reviews
 
@@ -137,13 +137,13 @@ This keeps `AGENTS.md` manageable while giving the review context room to be com
 
 The `/review` slash command in Codex CLI accepts custom focus instructions [^5]:
 
-```
+```text
 /review Focus on API design consistency and documentation completeness
 ```
 
 For GitHub PR reviews, append context to the trigger:
 
-```
+```python
 @codex review for maintainability regressions and naming consistency
 ```
 

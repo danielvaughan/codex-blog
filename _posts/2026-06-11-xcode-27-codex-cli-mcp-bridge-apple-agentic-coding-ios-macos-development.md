@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-xcode-27-codex-cli-mcp-bridge-apple-agentic-coding-ios-macos-development"
 tags: ["codex-cli", "xcode-27", "mcp", "apple", "ios", "macos", "agentic-coding", "wwdc-2026", "mcpbridge", "swift", "swiftui"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Xcode 27 and Codex CLI: Connecting Apple's MCP Bridge for Agentic iOS and macOS Development
 
@@ -92,7 +92,7 @@ Apple recommends adding Xcode-specific context to your `AGENTS.md` [^7]. A minim
 
 With the MCP bridge connected, Codex CLI can execute a structured build-test-fix cycle without shelling out to `xcodebuild`:
 
-```
+```text
 > Fix the crash in PaymentViewController. Build the project, run the
   PaymentTests suite, and iterate until all tests pass.
 ```
@@ -103,7 +103,7 @@ Codex calls `BuildProject` → reads structured errors → edits Swift files →
 
 The `RenderPreview` tool renders SwiftUI views headlessly and returns image data:
 
-```
+```text
 > Update the ProfileCard to use the new liquid glass material from iOS 27.
   Render a preview after each change so I can verify the visual output.
 ```
@@ -114,7 +114,7 @@ This closes the visual feedback loop without requiring the developer to switch t
 
 `ExecuteSnippet` runs Swift code in an isolated REPL session, ideal for verifying API behaviour before committing to an implementation:
 
-```
+```text
 > Before implementing the new HealthKit query, use ExecuteSnippet to verify
   the HKQuantityType initialiser syntax for bodyMass in the iOS 27 SDK.
 ```
@@ -125,7 +125,7 @@ This is particularly valuable for catching API changes between SDK versions — 
 
 Xcode 27's agents can pull crash reports directly from Organiser [^1]. Combined with Codex CLI's codebase awareness:
 
-```
+```text
 > Pull the top crash from Organiser, symbolicate it, identify the root
   cause in our codebase, write a fix, and run the relevant test suite.
 ```

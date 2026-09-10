@@ -1,7 +1,7 @@
 ---
 title: "WikiSkill: Compiling Agent Experience into Persistent Knowledge — What It Means for Your Codex CLI Skill Library"
 date: 2026-08-29T06:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["skill-evolution", "memories", "SKILL.md", "agent-plugins", "self-evolving-agents", "knowledge-base", "codeskill"]
 ---
 
@@ -198,7 +198,7 @@ The WikiSkill paper's most actionable implications are structural gaps:
 Given the structural gaps, a pragmatic WikiSkill-inspired setup for Codex CLI:
 
 **Three-directory structure in `.codex/`:**
-```
+```text
 .codex/
   skills/          ← SKILL.md files (skills layer)
   wiki/

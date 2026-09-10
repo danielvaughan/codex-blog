@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-instruction-stack-six-surfaces-agents-md-rules-hooks-skills"
 tags: ["codex-cli", "configuration", "AGENTS.md", "rules", "hooks", "skills", "requirements-toml", "architecture", "enterprise", "best-practices"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # The Codex CLI Instruction Stack: How Six Configuration Surfaces Shape Agent Behaviour
 
@@ -83,7 +83,7 @@ When a user's `config.toml` conflicts with an enforced requirement, Codex silent
 
 Files concatenate from root downward, separated by blank lines. At most one file loads per directory level. The combined output is capped at `project_doc_max_bytes` (default: 32 KiB) [^5].
 
-```
+```text
 repo/
 ├── AGENTS.md                    # Global: coding standards, architecture
 ├── services/
@@ -261,7 +261,7 @@ The six surfaces are not a simple priority stack. They operate at different time
 
 **For an individual developer:**
 
-```
+```text
 ~/.codex/AGENTS.md           → Personal coding standards
 ~/.codex/config.toml          → developer_instructions for style
 ~/.codex/rules/default.rules  → Safety rules (no rm -rf, no force push)
@@ -270,7 +270,7 @@ $HOME/.agents/skills/         → Personal productivity skills
 
 **For a team repository:**
 
-```
+```text
 AGENTS.md                     → Architecture, conventions, boundaries
 .codex/rules/safety.rules     → Command policies for this codebase
 .codex/hooks.json              → PostToolUse test verification
@@ -279,7 +279,7 @@ AGENTS.md                     → Architecture, conventions, boundaries
 
 **For an enterprise:**
 
-```
+```text
 /etc/codex/requirements.toml   → Enforced sandbox and approval floors
 /etc/codex/skills/              → Organisation-wide compliance skills
 Cloud-managed requirements      → Remote policy updates without MDM

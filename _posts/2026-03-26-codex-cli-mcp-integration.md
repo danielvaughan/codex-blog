@@ -2,7 +2,7 @@
 title: "Codex CLI MCP Integration: Connecting Agents to External Tools"
 description: "There is a pattern I have noticed across thirty years of software infrastructure decisions. A powerful tool ships with a clean interface. Then someone asks."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - mcp
@@ -37,7 +37,7 @@ For Codex CLI, this means one thing practically: you can give your agent access 
 
 All MCP configuration lives in `config.toml`. The file exists at three levels, following the standard Codex precedence chain:
 
-```
+```text
 /etc/codex/config.toml        # system-wide (enterprise policy)
 ~/.codex/config.toml          # user-global
 .codex/config.toml            # project-level
@@ -154,7 +154,7 @@ Context7 deserves particular attention: it resolves documentation against your a
 
 One pattern that scales well in teams: commit project-specific MCP config to the repository alongside `AGENTS.md`. When a new engineer clones the repo and runs Codex, the right servers are already configured:
 
-```
+```text
 my-project/
 ├── AGENTS.md
 └── .codex/

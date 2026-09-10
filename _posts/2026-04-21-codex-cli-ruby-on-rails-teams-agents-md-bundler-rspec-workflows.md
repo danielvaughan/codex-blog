@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-ruby-on-rails-teams-agents-md-bundler-rspec-workflows"
 tags: ["language-guide", "agents-md", "ruby", "rails", "codex-cli"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Ruby on Rails Teams: AGENTS.md, Bundler Sandboxing, and RSpec Workflows
 
@@ -28,7 +28,7 @@ Codex CLI's default `suggest` approval mode runs commands inside a sandboxed env
 
 The symptom is always the same:
 
-```
+```text
 Could not fetch specs from https://rubygems.org/
 ```
 
@@ -130,7 +130,7 @@ Adjust framework choices (RSpec vs Minitest, PostgreSQL vs SQLite) to match your
 
 For Rails engines or monorepo structures, add per-engine AGENTS.md files:
 
-```
+```text
 engines/
   payments/
     AGENTS.md    # "This engine uses Minitest, not RSpec.

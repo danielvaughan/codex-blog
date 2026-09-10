@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-adapting-agile-ceremonies-ai-coding-agents"
 tags: ["agile", "ceremonies", "sprint-planning", "standups", "retros", "team-process", "codex-cli", "ai-agents"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Adapting Agile Ceremonies for AI Coding Agents: Sprint Planning, Standups, and Retros
 
@@ -72,7 +72,7 @@ In Codex CLI terms, this maps directly to the four-element prompt structure from
 
 The critical constraint is not agent throughput — it is **human review bandwidth** [^2]. An agent can produce 50 pull requests in a day; a four-person team can review perhaps 15 thoroughly. Plan sprint capacity so that agent output never outpaces human review:
 
-```
+```text
 Agent capacity = min(compute_budget, human_review_bandwidth × review_ratio)
 ```
 

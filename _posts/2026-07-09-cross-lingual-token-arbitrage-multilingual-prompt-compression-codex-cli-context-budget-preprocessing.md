@@ -1,7 +1,7 @@
 ---
 title: "Cross-Lingual Token Arbitrage: Why Non-English Prompts Cost 3× More — and How to Wire a Preprocessing Middleware into Codex CLI"
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "tokenisation", "multilingual", "context-engineering", "prompt-compression", "middleware", "cost-optimisation"]
 ---
 
@@ -47,7 +47,7 @@ The local SLM translates non-English segments into English, exploiting the token
 
 Raw conversational prompts are rewritten into a compact block format. For benchmarking, Çolak uses a Bi-Block schema:
 
-```
+```text
 [CONTEXT]
 Single generic sentence describing the problem domain.
 

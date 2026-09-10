@@ -2,7 +2,7 @@
 title: "Codex CLI in Docker: Containerised Environments, Sandboxing and codex-universal"
 description: "Docker and Codex CLI have a natural affinity: Docker solves the it works on my machine problem for human developers."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - configuration
   - docker
@@ -194,7 +194,7 @@ pip install --upgrade -r requirements.txt
 
 A critical distinction: environment variables are available throughout the full task (setup + agent phases), whereas secrets are encrypted at rest and removed before the agent phase starts.[^2] This means database passwords, signing keys, and third-party API tokens that should not be accessible to the agent go in **secrets**; runtime config the agent can read goes in **environment variables**.
 
-```
+```text
 Environment variables  ─── available to setup script + agent loop
 Secrets               ─── available to setup script only (removed before agent)
 ```

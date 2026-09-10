@@ -2,7 +2,7 @@
 title: "Effective Prompting Strategies for Codex CLI"
 description: "Based on official OpenAI documentation, community discussion, and developer best practices. Published 2026-03-26."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - workflow-patterns
   - prompting
@@ -32,7 +32,7 @@ Codex is not a one-shot assistant. The most effective users treat it as a **conf
 
 Every Codex prompt works best with these four components:
 
-```
+```text
 Goal       — what "done" looks like in one concrete sentence
 Context    — environment, framework, language version, existing patterns
 Constraints — what to avoid (no new deps, don't touch tests, match existing naming)
@@ -41,7 +41,7 @@ Completion — how to know it's finished ("run the tests, they should pass")
 
 **Example:**
 
-```
+```text
 Goal: Add pagination to the /api/posts endpoint
 Context: Express.js, PostgreSQL, follows existing /api/users pattern
 Constraints: Don't modify the database schema, don't add new npm packages
@@ -81,7 +81,7 @@ npm run test:unit -- --coverage
 
 AGENTS.md hierarchy (later overrides earlier):
 
-```
+```text
 ~/.codex/AGENTS.md          # personal global defaults
 .codex/AGENTS.md            # repo root
 src/payments/AGENTS.md      # subdirectory-specific rules
@@ -113,7 +113,7 @@ Usage: `codex --profile swift "fix the memory leak in ImageCache"`
 
 For anything ambiguous or multi-step, use `/plan` (or `Shift+Tab`) before diving in:
 
-```
+```text
 /plan Propose a migration strategy for moving our auth from sessions to JWT
 ```
 
@@ -138,7 +138,7 @@ Plan mode lets Codex gather context and ask clarifying questions first. The outp
 
 Tell Codex to validate its own work. Don't leave the success criteria implicit:
 
-```
+```text
 Refactor the order processing module to remove the circular dependency.
 Run the tests after each change. Only proceed if tests stay green.
 When complete, run `npm run typecheck` and confirm 0 errors.
@@ -152,7 +152,7 @@ This pattern ("do X, verify Y, only continue if Z") dramatically reduces the cha
 
 For long-running tasks, add intermediate checkpoints:
 
-```
+```text
 Migrate the legacy authentication module to the new auth service.
 
 After each step, pause and confirm:
@@ -190,7 +190,7 @@ Match effort to task complexity:
 
 Tell Codex explicitly when work is parallelisable. The model can use parallel tool calls but needs permission to assume tasks are independent:
 
-```
+```text
 Write unit tests for the following three modules in parallel:
 - src/auth/validate.ts
 - src/payments/process.ts

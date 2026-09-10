@@ -2,7 +2,7 @@
 title: "Codex in Slack and Linear: Triggering Cloud Tasks from Collaboration Tools"
 description: "When OpenAI shipped Codex to General Availability in early 2026, the headline was a shift in where developers hand off work."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - third-party
@@ -84,13 +84,13 @@ Codex caches container state for up to **12 hours**[^3], invalidating automatica
 
 Mention `@Codex` in any channel or thread:
 
-```
+```python
 @Codex fix the null pointer in the payment processor — see the stack trace above
 ```
 
 Codex reads thread history for context, so you rarely need to repeat what's already there. To pin a specific repo:
 
-```
+```python
 @Codex implement the feature described here in myorg/backend-api
 ```
 
@@ -122,7 +122,7 @@ Enterprise workspaces require admin approval before the connector is available[^
 
 **Comment mention:**
 
-```
+```python
 @Codex implement the changes described in this issue in myorg/backend-api
 ```
 

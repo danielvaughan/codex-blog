@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 on Amazon Bedrock: Configuring Codex CLI for Multi-Cloud Model Access with Sol, Terra, and Luna"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "gpt-5.6", "amazon-bedrock", "multi-cloud", "sol", "terra", "luna", "enterprise", "model-providers", "reasoning-effort", "config.toml", "prompt-caching"]
 ---
 
@@ -116,7 +116,7 @@ Bedrock's prompt caching uses explicit cache breakpoints, similar to OpenAI's na
 
 For Codex CLI sessions, where system prompts (AGENTS.md content, project documentation) remain stable across turns, this discount compounds quickly. A typical session with a 50K-token system prompt that runs 20 turns saves roughly:
 
-```
+```text
 Without caching: 20 × 50K × $5.00/1M = $5.00
 With caching:    1 × 50K × $6.25/1M + 19 × 50K × $0.50/1M = $0.79
 Saving: ~84%

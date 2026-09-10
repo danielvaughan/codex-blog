@@ -1,7 +1,7 @@
 ---
 title: "Databricks Unity AI Gateway and Codex CLI: Governed Enterprise Data Access via Agent Bricks, Managed MCP Servers, and the ucode CLI"
 date: 2026-08-01T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "databricks", "unity-ai-gateway", "agent-bricks", "mcp", "enterprise", "governance", "ucode", "unity-catalog", "genie-one"]
 ---
 
@@ -125,7 +125,7 @@ Databricks hosts and manages five production-ready MCP servers, each backed by U
 
 Genie One brings agentic analytics into Codex CLI sessions. Ask natural-language questions against enterprise datasets and receive structured answers grounded in Genie Ontology, with inline visualisations.[^3]
 
-```
+```yaml
 URL: https://<workspace>/api/2.0/mcp/genie-one/sse
 OAuth scope: genie
 ```
@@ -138,7 +138,7 @@ Query individual Genie Agents in read-only mode. A critical limitation: Genie Ag
 
 Query AI Search indexes backed by Databricks-managed embeddings. Useful for retrieval-augmented generation workflows where Codex CLI needs to search documentation, internal wikis, or knowledge bases stored in Unity Catalog.[^3]
 
-```
+```yaml
 URL: https://<workspace>/api/2.0/mcp/ai-search/sse
 OAuth scope: ai-search
 ```
@@ -147,7 +147,7 @@ OAuth scope: ai-search
 
 Read and write access to SQL warehouses. SQL queries run asynchronously — the MCP tool starts the query, then Codex CLI polls until the response completes. This is a deliberate design choice for long-running analytical queries that may take minutes.[^3]
 
-```
+```yaml
 URL: https://<workspace>/api/2.0/mcp/sql/sse
 OAuth scope: sql
 ```
@@ -156,7 +156,7 @@ OAuth scope: sql
 
 Execute predefined SQL functions registered in Unity Catalog. The server dynamically infers available tools at startup based on the functions within the specified schema, replicating their names, arguments, and return types as MCP tool definitions.[^3]
 
-```
+```yaml
 URL: https://<workspace>/api/2.0/mcp/unity-catalog/sse
 OAuth scope: unity-catalog
 ```

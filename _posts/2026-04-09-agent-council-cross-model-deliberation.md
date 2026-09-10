@@ -2,7 +2,7 @@
 title: "Agent Council: Cross-Model Deliberation for Architecture Decisions"
 description: "Cross-model review loops — where one agent writes code and another reviews it — are now a well-established pattern in agentic workflows."
 date: 2026-04-09T09:14:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - agent-council
   - cross-model
@@ -106,7 +106,7 @@ These numbers measure the percentage of a predefined checklist of expected consi
 
 Every deliberation is persisted to `~/.council/{project}/` as structured JSON[^1]:
 
-```
+```text
 ~/.council/my-api/
 ├── meta.json              # Session metadata
 ├── stage1/

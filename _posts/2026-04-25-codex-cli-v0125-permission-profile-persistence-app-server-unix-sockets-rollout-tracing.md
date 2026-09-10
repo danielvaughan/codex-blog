@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-v0125-permission-profile-persistence-app-server-unix-sockets-rollout-tracing"
 tags: ["codex-cli", "v0.125", "permission-profiles", "app-server", "rollout-tracing", "unix-sockets", "security", "debugging"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI v0.125: Permission Profile Persistence, App-Server Unix Sockets, and Rollout Tracing
 
@@ -87,7 +87,7 @@ The app-server has supported WebSocket transport since v0.119[^4], but WebSocket
 
 v0.125 adds **Unix domain socket transport** via a well-known path:
 
-```
+```text
 $CODEX_HOME/app-server-control/app-server-control.sock
 ```
 

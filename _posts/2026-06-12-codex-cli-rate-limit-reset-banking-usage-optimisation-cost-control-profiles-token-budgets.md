@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-cli-rate-limit-reset-banking-usage-optimisation-cost-control-profiles-token-budgets"
 tags: ["codex-cli", "rate-limits", "reset-banking", "cost-optimisation", "profiles", "token-budgets", "pricing", "usage-management"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Rate-Limit Reset Banking and Usage Optimisation: Managing Agent Costs from the Terminal
 
@@ -61,7 +61,7 @@ Reset banking currently operates through the Codex app's usage menu rather than 
 
 Since April 2026, Codex pricing has been token-based rather than per-message[^4]. Every interaction consumes credits calculated as:
 
-```
+```text
 credits = (input_tokens * input_rate) + (cached_input * cached_rate) + (output_tokens * output_rate)
 ```
 

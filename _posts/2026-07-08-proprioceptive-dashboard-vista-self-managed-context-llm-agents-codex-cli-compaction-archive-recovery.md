@@ -1,7 +1,7 @@
 ---
 title: "Proprioceptive Dashboards: What VISTA Reveals About Self-Managed Context in LLM Agents — and How to Wire Equivalent Visibility into Codex CLI"
 date: 2026-07-08T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["context-management", "VISTA", "proprioceptive-dashboard", "LOCA-Bench", "compaction", "archive-recovery", "codex-cli", "long-horizon-agents"]
 ---
 
@@ -45,7 +45,7 @@ Each interaction unit — user message, assistant response, tool call, tool resu
 
 Before every turn, VISTA injects a compact ledger:
 
-```
+```text
 ┌──────────────────────────────────────────────────────┐
 │  Budget: 128K  │  Used: 87,200  │  Remaining: 40,800 │
 ├────┬────────┬─────┬──────────┬────────┬──────────────┤

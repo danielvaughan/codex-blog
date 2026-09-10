@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-chrome-devtools-mcp-codex-cli-browser-debugging-frontend-workflows"
 tags: ["codex-cli", "mcp", "chrome-devtools", "frontend", "debugging", "performance", "browser"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Chrome DevTools MCP and Codex CLI: Closing the Browser Debugging Gap for AI Coding Agents
 
@@ -170,7 +170,7 @@ Alternatively, `--slim` mode achieves a similar effect at the server level[^3].
 
 The highest-value pattern: ask Codex to fix a frontend bug and verify the fix in the same turn.
 
-```
+```text
 Fix the layout shift on /pricing — the hero section jumps after web fonts load.
 Navigate to http://localhost:3000/pricing, take a screenshot, identify the CLS source,
 apply the fix, then take another screenshot to confirm.
@@ -202,7 +202,7 @@ The agent calls `lighthouse_audit`, extracts Core Web Vitals, and returns struct
 
 When an API call silently fails in the browser:
 
-```
+```text
 Navigate to http://localhost:3000/dashboard, log in with test credentials,
 list all network requests that returned 4xx or 5xx status codes,
 and show me the request/response headers for each failure.
@@ -212,7 +212,7 @@ The agent uses `fill_form` for login, `list_network_requests` for the waterfall,
 
 ### 4. Visual Regression with Device Emulation
 
-```
+```text
 Emulate an iPhone 14 Pro, navigate to /checkout,
 take a screenshot, then emulate a Pixel 7 and take another.
 Compare the two screenshots and report any layout differences.

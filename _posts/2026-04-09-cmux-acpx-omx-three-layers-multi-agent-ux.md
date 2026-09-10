@@ -2,7 +2,7 @@
 title: "cmux, ACPX, and OMX: The Three Layers of Multi-Agent UX"
 description: "Running a single AI coding agent is straightforward. Running five in parallel — each on a different module, each needing different approvals."
 date: 2026-04-09T11:11:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - cmux
   - acpx
@@ -153,7 +153,7 @@ Beyond these, OMX ships 33 specialised agent prompts organised into build/analys
 
 Since v0.12.1, every team worker runs in an isolated git worktree by default[^6]:
 
-```
+```text
 .omx/
   team/
     auth-migration/

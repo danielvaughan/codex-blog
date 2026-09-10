@@ -5,7 +5,7 @@ timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-embedded-systems-arduino-esp32-raspberry-pi-pico-constrained-environment-agent-workflows"
 tags: ["codex-cli", "embedded-systems", "esp32", "arduino", "raspberry-pi-pico", "platformio", "mcp", "hardware-in-the-loop", "firmware"]
 date: 2026-05-29T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Embedded Systems: Arduino, ESP32, Raspberry Pi Pico, and Constrained-Environment Agent Workflows
 
@@ -88,7 +88,7 @@ PlatformIO MCP v2 ships a web dashboard styled after PIO Home, providing real-ti
 
 Espressif released their official Documentation MCP Server in April 2026[^4], providing AI agents with semantic search across ESP-IDF documentation, technical reference manuals, datasheets, and design guidelines. The server exposes a single tool:
 
-```
+```text
 search_espressif_sources(query, language)
 ```
 

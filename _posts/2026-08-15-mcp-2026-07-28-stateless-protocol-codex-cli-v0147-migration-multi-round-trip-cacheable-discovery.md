@@ -1,7 +1,7 @@
 ---
 title: "MCP Goes Stateless: What the 2026-07-28 Specification Means for Your Codex CLI MCP Server Stack"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "mcp", "mcp-2026-07-28", "stateless", "multi-round-trip", "rmcp", "sdk-3.0", "migration"]
 ---
 
@@ -64,7 +64,7 @@ The `tools/list`, `prompts/list`, `resources/list`, and `resources/read` respons
 
 Every Streamable HTTP request must now include `Mcp-Method` and `Mcp-Name` headers [^1]:
 
-```
+```text
 POST /mcp HTTP/1.1
 Mcp-Method: tools/call
 Mcp-Name: delete_project

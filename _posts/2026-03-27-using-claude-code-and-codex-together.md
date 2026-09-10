@@ -2,7 +2,7 @@
 title: "Using Claude Code and Codex Together: The Multi-Tool Strategy"
 description: "Claude Code and Codex CLI are not competitors. The practitioners who get the most out of AI-assisted development treat them as complementary tools with."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - competitive-landscape
   - claude-code
@@ -150,7 +150,7 @@ Developers whose style is exploratory, thinking in systems and trusting agents t
 
 The most common pattern. Claude Code reasons better about 'what should be done', so use it to produce a detailed task breakdown. Paste that breakdown into a Codex prompt and let Codex execute.
 
-```
+```text
 [Claude Code session]
 "I need to refactor the payment module to support multiple currencies.
  Analyse the current implementation and give me a step-by-step plan
@@ -268,7 +268,7 @@ Codex handles numbered steps, file lists and verification commands reliably. Pro
 
 A decision rule that works well in practice:
 
-```
+```text
 Is the task fully specified?
   YES → Does it need to run in parallel or in CI?
     YES → Codex CLI

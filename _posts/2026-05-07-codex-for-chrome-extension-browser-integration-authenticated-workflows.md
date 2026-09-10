@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-for-chrome-extension-browser-integration-authenticated-workflows"
 tags: ["codex-cli", "chrome-extension", "browser-integration", "computer-use", "security", "workflow"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex for Chrome: Browser Integration for Authenticated Workflows
 
@@ -126,7 +126,7 @@ If Codex Memories are enabled, relevant information from browser sessions may be
 
 ### Pattern 1: Triage Authenticated Dashboards
 
-```
+```python
 @Chrome open PagerDuty and summarise the top 3 unacknowledged
 incidents. For each, check the linked Datadog dashboard and note
 whether the metric has recovered.
@@ -136,7 +136,7 @@ Codex opens PagerDuty in a tab group, reads incident details using your signed-i
 
 ### Pattern 2: Update Project Management Tools
 
-```
+```python
 @Chrome open the Linear team board and move all issues tagged
 "v2.4-ready" from "In Review" to "Done". Add a comment on each:
 "Shipped in v2.4.0 — verified by automated regression suite."
@@ -146,7 +146,7 @@ This leverages Chrome's authenticated session with Linear. The tab group keeps a
 
 ### Pattern 3: Cross-Reference Internal Wikis
 
-```
+```text
 Read the error in server.log, then @Chrome search our Confluence
 for the error code and summarise any existing runbooks.
 ```

@@ -2,7 +2,7 @@
 title: "Claude Code ↔ Codex CLI: Bidirectional MCP Integration"
 description: "The Model Context Protocol (MCP) was designed as a universal interface between AI agents and external tools."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["mcp", "claude-code", "codex", "integration", "orchestration"]
 type: Technical Article
 timestamp: 2026-03-26T09:00:00+00:00
@@ -142,7 +142,7 @@ claude mcp add codex --scope user -- npx -y codex mcp-server
 
 Verify the connection is live from inside a Claude Code session:
 
-```
+```text
 /mcp
 ```
 
@@ -250,7 +250,7 @@ Claude Code decomposes a large refactoring task into discrete, well-specified su
 
 Example flow inside a Claude Code session:
 
-```
+```yaml
 User: "Migrate all Express route handlers in /src/routes to use the new error middleware pattern."
 
 Claude Code:
@@ -286,7 +286,7 @@ Example use case: Codex is running a test suite in a CI-like loop. When a test f
 
 This pattern mirrors the architecture documented in the OpenAI Agents SDK cookbook. A Project Manager agent (running in Claude Code) decomposes work and gates handoffs between specialised agents:
 
-```
+```text
 Project Manager (Claude Code)
   ├── calls codex("Design the data model for X") → Designer artifact
   ├── [gate: verify artifact exists]

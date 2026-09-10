@@ -6,7 +6,7 @@ timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-contract-driven-api-development-codex-cli-specmatic-mcp"
 tags: ["mcp", "api-development", "contract-testing", "openapi", "specmatic", "codex-cli", "workflow-patterns", "testing"]
 date: 2026-04-23T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Contract-Driven API Development with Codex CLI: Using Specmatic MCP for Spec-First Full-Stack Builds
 
@@ -138,7 +138,7 @@ The agent implements API endpoints while continuously running contract and resil
 
 A well-structured prompt:
 
-```
+```text
 Implement the backend API in backend/ according to products_api.yaml.
 After each endpoint, call the Specmatic MCP run_contract_test tool.
 When all contract tests pass, run run_resiliency_test.
@@ -149,7 +149,7 @@ Do NOT mark the backend as complete until both test suites pass with zero failur
 
 The agent starts a Specmatic mock server from the same OpenAPI spec, then builds the frontend against it. The mock server returns schema-compliant responses using the examples defined in the specification, giving the agent deterministic data to develop and test against.[^1]
 
-```
+```text
 Start the Specmatic mock server for products_api.yaml using manage_mock_server.
 Build the React frontend in frontend/ consuming the mock at http://localhost:9001.
 Use Playwright to verify each UI component renders correctly against mock data.
@@ -281,7 +281,7 @@ For teams where the OpenAPI specification evolves alongside features rather than
 
 This maps naturally to a Codex CLI workflow where each feature branch starts with:
 
-```
+```text
 Analyse the existing OpenAPI spec for endpoints that could serve
 this feature's requirements. Only add new endpoints or fields
 if no existing contract covers the need. Run backward_compatibility_check

@@ -6,7 +6,7 @@ timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-elixir-phoenix-development-mcp-servers-tidewave-hexdocs-workflows"
 tags: ["codex-cli", "elixir", "phoenix", "mcp", "tidewave", "elixirls", "hexdocs", "beam", "otp", "ecto"]
 date: 2026-05-24T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Elixir and Phoenix Development: Tidewave, ElixirLS MCP, HexDocs, and Runtime-Aware Agent Workflows
 
@@ -180,7 +180,7 @@ graph TD
 
 Prompt Codex CLI:
 
-```
+```text
 Using the Tidewave MCP, inspect the existing Ecto schemas in this project.
 Then create a new Accounts context with User and Organisation schemas,
 including proper associations to the existing schemas you found.
@@ -193,7 +193,7 @@ The agent uses `get_ecto_schemas` to discover existing associations, generates c
 
 LiveView's server-rendered model means client-side debugging tools are insufficient. Tidewave's `get_logs` tool gives the agent direct access to server logs during development:
 
-```
+```text
 Build a LiveView component for real-time order tracking.
 Use get_logs to check for any errors after each change.
 Use get_docs to verify Phoenix.LiveView callback signatures
@@ -206,7 +206,7 @@ The agent iterates: write component → trigger a test event → read logs → f
 
 ElixirLS MCP's `find_implementations` tool excels when working with protocols and behaviours:
 
-```
+```text
 Using ElixirLS MCP, find all implementations of the Reportable protocol
 in this project. Then add a new implementation for the Invoice schema,
 following the patterns used by the existing implementations.

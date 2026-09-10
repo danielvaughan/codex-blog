@@ -3,6 +3,11 @@ title: "Article Taxonomy"
 description: "Status: APPLIED — all article files have been updated with these tags."
 type: Technical Article
 resource: "https://danielvaughan.github.io/codex-resources/articles/taxonomy"
+date: 2026-04-08T08:00:00+00:00
+last_modified_at: 2026-09-10T11:46:37+01:00
+tags:
+  - taxonomy
+  - index
 ---
 # Article Tag Taxonomy — Proposal (2026-04-08)
 

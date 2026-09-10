@@ -1,7 +1,7 @@
 ---
 title: "One Developer Is All You Need: What a Brownfield Case Study Reveals About AI-Augmented Solo Delivery — and How to Wire the One-Person Squad in Codex CLI"
 date: 2026-07-07T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "one-person-squad", "spec-driven-development", "subagent-delegation", "custom-agents", "brownfield", "productivity", "AGENTS.md"]
 ---
 
@@ -192,7 +192,7 @@ The `suggest` approval mode allows the agent to propose file changes that you re
 
 Once the specification is approved, delegate implementation to specialised agents:
 
-```
+```text
 Spawn @infra-builder to implement the API integration layer from spec/sig-validation.md, and spawn @core-dev to implement the validation business logic from the same spec. Wait for both and summarise the results.
 ```
 

@@ -3,7 +3,7 @@ title: "Codex CLI Multi-Agent Orchestration v2: Complete Guide"
 description: "Codex CLI's multi-agent system lets an orchestrator agent spawn, coordinate, and collect results from multiple subagents. Multi-agent v2 replaces opaque."
 subtitle: "Path-based addressing, structured messaging, and production orchestration patterns"
 date: 2026-04-11T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - codex-cli
   - multi-agent
@@ -90,7 +90,7 @@ When a subagent is spawned, it receives developer instructions explaining its ro
 
 Every agent in a session has a canonical path rooted at `/root`:
 
-```
+```text
 /root                          # The primary orchestrator
 /root/researcher               # A child agent named "researcher"
 /root/researcher/summarizer    # A grandchild agent
@@ -241,7 +241,7 @@ graph LR
 
 **Implementation:**
 
-```
+```text
 1. spawn_agent(task_name="analyzer", message="Analyze the requirements...")
 2. wait_agent(target="analyzer")
 3. spawn_agent(task_name="implementer", message="Based on analysis: {result}...")
@@ -271,7 +271,7 @@ graph TD
 
 **Implementation:**
 
-```
+```text
 1. spawn_agent(task_name="frontend", message="Build the React components...")
 2. spawn_agent(task_name="backend", message="Build the API endpoints...")
 3. spawn_agent(task_name="database", message="Write the migration scripts...")
@@ -312,7 +312,7 @@ graph TD
 
 **Implementation:**
 
-```
+```markdown
 # Wave 1: Discovery (parallel)
 spawn_agent(task_name="discover_apis", ...)
 spawn_agent(task_name="discover_schemas", ...)
@@ -362,7 +362,7 @@ Agents communicate directly with siblings via `send_message` using absolute path
 
 Agent roles provide per-type configuration through files in `.codex/agents/`:
 
-```
+```text
 .codex/
   agents/
     analyzer.md          # Instructions for "analyzer" role

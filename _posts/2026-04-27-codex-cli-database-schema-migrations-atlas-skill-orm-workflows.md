@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-database-schema-migrations-atlas-skill-orm-workflows"
 tags: ["codex-cli", "database", "migrations", "atlas", "skills", "orm", "drizzle", "prisma", "sqlalchemy", "mcp", "postgres"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Database Schema Migrations with Codex CLI: Atlas Skills, ORM Workflows, and Agent-Driven Migration Pipelines
 
@@ -167,7 +167,7 @@ env "development" {
 
 Agent prompt pattern:
 
-```
+```text
 Add a `last_login_at` timestamp column to the users table.
 Use the Drizzle schema as source of truth and generate an Atlas migration.
 Lint it and show me the dry-run output before applying.

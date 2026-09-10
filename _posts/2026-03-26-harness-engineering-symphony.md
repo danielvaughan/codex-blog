@@ -2,7 +2,7 @@
 title: "From Harness Engineering to Symphony: The Autonomous Development Stack"
 description: "On March 5, 2026, OpenAI quietly released a GitHub repository called Symphony. Within three weeks it had 13K stars. ⚠️ [unverified] The concept it embodies."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - orchestration
   - team-workflow
@@ -100,7 +100,7 @@ Codebases where side effects are minimised and boundaries are clear. An agent ma
 
 ## The Symphony Workflow in Detail
 
-```
+```text
 Linear board: "Ready for Agent" state
           ↓
 Symphony polls (Elixir/BEAM — can run hundreds of agents concurrently)

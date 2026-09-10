@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-game-prototyping-godot-phaser-browser-games-agent-skills"
 tags: ["codex-cli", "game-development", "godot", "phaser", "agent-skills", "browser-games", "prototyping", "mcp", "playwright"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI for Game Prototyping: From Design Document to Playable Build with Godot, Phaser, and Agent Skills
 
@@ -203,7 +203,7 @@ The `godogen` project [^10] takes this further with **frame-grounded self-repair
 
 For prototypes beyond a single scene, Codex CLI's subagent system [^11] maps naturally onto game architecture:
 
-```
+```text
 Spawn one subagent per game system:
 - Agent 1: Player controller and input handling (src/player/)
 - Agent 2: Level generation and tilemap loading (src/levels/)

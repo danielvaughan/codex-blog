@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.150.0 TUI Ergonomics: Smart Copy Picker, Session Auto-Titling, and OSC 8 Clickable Links"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "tui", "v0.150.0", "clipboard", "session-management", "osc8", "terminal", "ux", "ergonomics"]
 ---
 
@@ -104,7 +104,7 @@ The implementation validates that the destination uses `http://` or `https://` (
 
 In a terminal that supports OSC 8, the result is:
 
-```
+```markdown
 # Before v0.150.0 (plain text):
 See the OpenAI docs at https://developers.openai.com/codex/cli for the full reference.
 

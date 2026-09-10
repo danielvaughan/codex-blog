@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-indirect-agents-md-injection-codex-cli-supply-chain-defence"
 tags: ["codex-cli", "security", "AGENTS.md", "supply-chain", "prompt-injection", "hooks", "sandbox", "defence-in-depth"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Indirect AGENTS.md Injection: How Malicious Dependencies Hijack Your Codex CLI Agent and How to Stop Them
 
@@ -184,7 +184,7 @@ fi
 
 Add AGENTS.md to your repository's CODEOWNERS file so that changes require review from security-aware maintainers:
 
-```
+```text
 # .github/CODEOWNERS
 AGENTS.md               @security-team @tech-lead
 **/AGENTS.md             @security-team @tech-lead

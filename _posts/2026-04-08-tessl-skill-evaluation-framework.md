@@ -2,7 +2,7 @@
 title: "Tessl Skill Evaluation Framework: Treating Agent Skills as Production Software"
 description: "You have written a skill for your coding agent. It looks right. It seems to work when you try it."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - ecosystem
   - skills
@@ -87,7 +87,7 @@ The gap between baseline and with-skill scores tells you what you need to know[^
 
 Scenarios live in an `evals/` directory alongside your skill[^6]:
 
-```
+```text
 my-skill/
   SKILL.md
   tile.json

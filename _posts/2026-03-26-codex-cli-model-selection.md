@@ -2,7 +2,7 @@
 title: "Model Selection in Codex CLI: Current Models and When to Use Each"
 description: "Codex CLI exposes model selection as a first-class concern. You can specify a model on the command line for a single invocation."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags:
   - model-selection
   - gpt-5-codex
@@ -73,7 +73,7 @@ This is equivalent to temporarily editing `model_reasoning_effort` in your confi
 
 During an interactive Codex session, switch models without restarting:
 
-```
+```text
 /model gpt-5.4-mini
 ```
 
@@ -194,7 +194,7 @@ The `model_reasoning_effort` configuration key (and `reasoning.effort` in the AP
 
 According to the [configuration reference](https://developers.openai.com/codex/config-reference) and [reasoning guide](https://developers.openai.com/api/docs/guides/reasoning):
 
-```
+```text
 minimal | low | medium | high | xhigh
 ```
 

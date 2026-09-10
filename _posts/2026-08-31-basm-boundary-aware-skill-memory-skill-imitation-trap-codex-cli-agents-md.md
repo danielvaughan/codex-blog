@@ -1,7 +1,7 @@
 ---
 title: "When Not to Imitate: Boundary-Aware Skill Memory and the Skill Imitation Trap — Implications for Codex CLI AGENTS.md"
 date: 2026-08-31T18:30:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 tags: ["codex-cli", "agents-md", "skills", "memory", "tool-use", "agent-plugins", "reliability", "research"]
 ---
 
@@ -54,7 +54,7 @@ flowchart TD
 
 Retrieval combines three signals weighted by hyperparameters `λ`:
 
-```
+```text
 score = λ_sem · cos(embed(query), embed(skill))
       + λ_tool · Jaccard(tools_query, tools_skill)
       + λ_step · overlap(query, goal_skill, procedure_skill)

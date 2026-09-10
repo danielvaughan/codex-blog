@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Session Persistence: Resume, Fork, and Analytics"
 date: 2026-04-13T00:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 updated: 2026-04-13
 slug: codex-cli-session-persistence-resume-fork-analytics
 tags:
@@ -61,7 +61,7 @@ unit of persistence.
 Sessions are stored under the Codex data directory (`$CODEX_DATA_HOME`,
 defaulting to `~/.codex/`):
 
-```
+```text
 ~/.codex/
   sessions/
     <session-id>/
@@ -325,7 +325,7 @@ codex session stats s_2026-04-13T09-31-22_a1b2c3
 
 Example output:
 
-```
+```yaml
 Session: s_2026-04-13T09-31-22_a1b2c3
 Status:  completed
 Duration: 12m 34s
@@ -494,7 +494,7 @@ codex session list --status completed --tag refactoring --since 14d
 codex session list --since 7d
 ```
 
-```
+```text
 ID                                    Created              Status     Duration  Title
 s_2026-04-13T09-31-22_a1b2c3         2026-04-13 09:31     completed  12m 34s   Refactor auth module
 s_2026-04-12T14-02-11_d4e5f6         2026-04-12 14:02     completed   8m 12s   Add user settings API
@@ -542,7 +542,7 @@ Forks create a tree structure. You can visualize it:
 codex session tree s_root_session
 ```
 
-```
+```text
 s_2026-04-11T09-00-00_root
   Refactor auth module
   ├── s_2026-04-11T10-30-00_fork1
@@ -592,7 +592,7 @@ Compare what two sessions did differently:
 codex session diff s_fork1 s_fork2
 ```
 
-```
+```text
 Divergence point: seq 4 in parent s_root
 
 Session s_fork1 (approach A):

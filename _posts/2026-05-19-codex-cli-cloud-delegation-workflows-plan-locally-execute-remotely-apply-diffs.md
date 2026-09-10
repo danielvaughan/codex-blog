@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-cloud-delegation-workflows-plan-locally-execute-remotely-apply-diffs"
 tags: ["codex-cli", "codex-cloud", "cloud-delegation", "codex-cloud-exec", "best-of-n", "remote-execution", "ci-cd", "workflow-patterns"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-09-10T10:10:31+01:00
+last_modified_at: 2026-09-10T11:46:37+01:00
 ---
 # Codex CLI Cloud Delegation Workflows: Plan Locally, Execute Remotely, Apply Diffs
 
@@ -108,7 +108,7 @@ codex
 
 Ask the agent to analyse the target code and produce a structured plan. The official workflow documentation recommends using the `$plan` skill if available[^2]:
 
-```
+```text
 $plan
 
 Refactor the notification subsystem to:
@@ -124,7 +124,7 @@ Constraints:
 
 The agent scans your local files, identifies module boundaries, and produces a step-by-step plan. Negotiate revisions until you are satisfied:
 
-```
+```text
 Revise the plan to specify exact file moves per milestone
 and add integration test checkpoints between milestones.
 ```
