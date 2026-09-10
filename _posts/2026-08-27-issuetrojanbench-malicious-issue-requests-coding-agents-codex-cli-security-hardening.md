@@ -1,7 +1,7 @@
 ---
 title: "IssueTrojanBench: When Your Issue Tracker Becomes an Attack Vector — Hardening Codex CLI Against Malicious Issue Requests"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-09-10T09:06:17+01:00
+last_modified_at: 2026-09-10T10:10:31+01:00
 tags: ["codex-cli", "security", "prompt-injection", "sandbox", "hooks", "agents-md", "supply-chain"]
 ---
 

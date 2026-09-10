@@ -20,7 +20,7 @@ The conventional response to this problem is multi-session orchestration: break 
 
 ## Test Harness as Context Anchor
 
-The key decision Checkly made before writing a single line of Go was to build a complete test harness in isolation from the target language.[^1] The harness operated as a black box: it sent inputs through the same queue topology the production service would use, captured outputs, and compared them against golden files that encoded the expected behaviour of the legacy Node.js implementation down to byte level.
+The key decision Checkly made before writing a single line of Go was to build a complete test harness in isolation from the target language.[^1] The harness operated as a black box: it sent inputs through the same queue topology the production service would use, captured outputs, and compared them against golden files that encoded the expected behaviour of the legacy Node.js implementation down to the byte level.
 
 This design had a consequence that mattered enormously for agent operation. Because the harness was language-agnostic and deterministic, it could give the agent a binary pass/fail signal on every iteration without any human in the loop. The agent did not need to infer whether its Go implementation was correct by reasoning about the codebase — it could run the harness, read the result, and continue. That deterministic loop replaced human code review as the primary feedback mechanism.
 

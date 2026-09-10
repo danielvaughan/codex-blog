@@ -72,7 +72,7 @@ A critical design choice is that exhaustion uses a **soft boundary**:
 
 > "In-flight threads can finish their current response before observing the exhausted ledger, but every thread aborts at its next usage-accounting boundary."[^5]
 
-This means the actual token spend can exceed `limit_tokens` by one response worth of tokens per active thread. For a 10-thread parallel workflow with average response sizes of 2,000 tokens, the true ceiling is roughly `limit_tokens + 20,000`. Size your budget accordingly.
+This means the actual token spend can exceed `limit_tokens` by one response's worth of tokens per active thread. For a 10-thread parallel workflow with average response sizes of 2,000 tokens, the true ceiling is roughly `limit_tokens + 20,000`. Size your budget accordingly.
 
 Sub-agent threads draw from the same shared ledger as the orchestrator. There is no separate sub-agent allocation — a proactive delegation that fans out to eight sub-agents will exhaust the budget eight times faster than running the same model single-threaded.
 
