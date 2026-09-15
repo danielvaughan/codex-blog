@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI, 2 September 2026: Managed Worktrees, Cross-Platform Voice Runtime, and TUI Resilience"
 date: 2026-09-02T18:00:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 tags: ["codex-cli", "worktrees", "multi-agent", "voice", "tui", "release", "v0.153"]
 ---
 

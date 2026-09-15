@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-tui-customisation-keymaps-themes-status-lines"
 tags: ["codex-cli", "tui", "keymaps", "themes", "config-toml", "terminal", "customisation", "productivity"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 ---
 # Codex CLI TUI Customisation: Keymaps, Themes, Status Lines and Terminal Titles
 

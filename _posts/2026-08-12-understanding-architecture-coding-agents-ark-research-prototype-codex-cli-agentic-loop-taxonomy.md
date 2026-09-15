@@ -1,7 +1,7 @@
 ---
 title: "Understanding the Architecture of Coding Agents: What a Minimal Research Prototype Reveals About Codex CLI's Design"
 date: 2026-08-12T09:00:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 tags: ["codex-cli", "architecture", "agentic-loop", "ReAct", "coding-agents", "Ark", "taxonomy", "tool-execution", "context-management"]
 ---
 

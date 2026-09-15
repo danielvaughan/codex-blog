@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-monorepo-ci-optimisation-test-impact-analysis-selective-pipeline-execution"
 tags: ["codex-cli", "ci-cd", "monorepo", "test-impact-analysis", "codex-exec", "structured-output", "nx", "turborepo", "github-actions", "workflow-patterns"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 ---
 # Codex CLI for Monorepo CI Optimisation: Agent-Driven Test Impact Analysis and Selective Pipeline Execution
 

@@ -2,7 +2,7 @@
 title: "Building a Codex Agent Swarm: From 6 Threads to 30 with External Orchestration"
 description: "Codex CLI's built-in subagent system is impressive — up to six concurrent threads with TOML-defined roles, path addressing, and CSV batch processing ."
 date: 2026-04-09T03:16:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 tags:
   - agent-swarm
   - scaling

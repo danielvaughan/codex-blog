@@ -1,7 +1,7 @@
 ---
 title: "Agent Lightning v1.0: What Harnessed Agentic RL Means for Codex CLI as a Training Harness"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 tags: ["codex-cli", "reinforcement-learning", "harness", "training", "swe-bench", "multi-agent", "post-training"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Control Under Compression: What CompressAgent Reveals About AGENTS.md Structure and Codex CLI Compaction Reliability"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 tags: ["codex-cli", "compaction", "AGENTS.md", "context-management", "reliability", "compression", "hooks", "named-profiles", "token-budget", "agent-control-context"]
 ---
 

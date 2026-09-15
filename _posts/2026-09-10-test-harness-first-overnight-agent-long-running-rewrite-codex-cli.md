@@ -3,7 +3,7 @@ title: "The Overnight Agent: What Checkly's Zero-Incident Rewrite Teaches Codex 
 parent: "Articles"
 nav_order: 1158
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 tags: ["codex-cli", "long-running-agents", "test-harness", "agentic-rewrite", "production", "code-generation"]
 ---
 
@@ -93,7 +93,7 @@ For Codex CLI teams, the implication is that investment in acceptance infrastruc
 
 ## Summary
 
-Checkly's zero-incident Node.js to Go rewrite (September 2026) demonstrates that long-running agentic tasks are solvable without complex multi-session orchestration, given a sufficiently deterministic feedback loop.[^1] The test-harness-first approach — language-agnostic, boundary-exhaustive, CI-enforced on both the legacy and new implementations — replaced human review as the primary acceptance gate and allowed a single Claude Code agent to produce 13,000 lines of deployable code overnight. For Codex CLI teams, the methodology maps directly to AGENTS.md harness specification, scoped `writable_roots`, PostToolUse checkpoint commits, and secret-vault credential patterns for production-adjacent agent sessions.[^2] The resource gains (70% pod reduction, 60% fewer database sessions, 15% lower database CPU) followed from correctness confidence, not from the agent's sophistication.
+Checkly's zero-incident Node.js to Go rewrite (September 2026) demonstrates that long-running agentic tasks are solvable without complex multi-session orchestration, given a sufficiently deterministic feedback loop.[^1] The test-harness-first approach — language-agnostic, boundary-exhaustive, CI-enforced on both the legacy and new implementations — replaced human review as the primary acceptance gate and allowed a single Claude Code agent to produce 13,000 lines of deployable code overnight. For Codex CLI teams, the methodology maps directly to AGENTS.md harness specification, scoped `writable_roots`, PostToolUse checkpoint commits, and secret-vault credential patterns for production-adjacent agent sessions.[^2] The resource gains (70 per cent pod reduction, 60 per cent fewer database sessions, 15 per cent lower database CPU) followed from correctness confidence, not from the agent's sophistication.
 
 ---
 

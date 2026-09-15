@@ -3,7 +3,7 @@ title: "Working Memory Is Not a Token Count: Coherence Debt, Heterogeneous Memor
 parent: "Articles"
 nav_order: 1130
 date: 2026-09-05T09:00:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 tags: ["codex-cli", "context-management", "working-memory", "coherence-debt", "memory-management", "agent-architecture", "research"]
 ---
 

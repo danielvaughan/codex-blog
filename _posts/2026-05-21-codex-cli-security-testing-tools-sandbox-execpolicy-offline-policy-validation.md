@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-security-testing-tools-sandbox-execpolicy-offline-policy-validation"
 tags: ["codex-cli", "security", "sandbox", "execpolicy", "permission-profiles", "starlark-rules", "policy-testing", "enterprise"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-15T07:10:21+01:00
+last_modified_at: 2026-09-15T10:07:36+01:00
 ---
 # Codex CLI Security Testing Tools: `codex sandbox`, `codex execpolicy`, and Offline Policy Validation
 
