@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-official-workflow-recipes-nine-patterns-plan-review-developer-loop"
 tags: ["codex-cli", "workflows", "best-practices", "plan-mode", "review", "developer-experience", "configuration"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-14T15:09:28+01:00
+last_modified_at: 2026-09-15T03:11:47+01:00
 ---
 # Codex CLI Official Workflow Recipes: Nine Patterns That Structure the Developer Loop
 

@@ -3,7 +3,7 @@ title: "Resumable Agent Loops: What Genkit Go 1.13 Teaches Codex CLI Teams About
 parent: "Articles"
 nav_order: 1157
 date: 2026-09-14T08:00:00+00:00
-last_modified_at: 2026-09-14T15:09:28+01:00
+last_modified_at: 2026-09-15T03:11:47+01:00
 tags: ["codex-cli", "multi-agent", "resumability", "long-running-agents", "genkit", "external-message", "hitl", "orchestration", "agentic"]
 ---
 
@@ -80,7 +80,7 @@ Genkit Go 1.13's resumable `generate` and agent loop primitives articulate, in e
 
 ## Citations
 
-[^1]: Seroter, R. (2026, September 11). *Daily Reading List #865.* <https://seroter.com/2026/09/11/daily-reading-list-865/> — covers Genkit Go 1.13 resumable generate and agent loop primitives.
+[^1]: Seroter, R. (2026, September 11). *Daily Reading List #865.* <https://seroter.com/2026/09/11/daily-reading-list-september-11-2026-865/> — covers Genkit Go 1.13 resumable generate and agent loop primitives.
 
 [^2]: OpenAI. (2026, September). *Codex CLI v0.154.0 Release Notes.* <https://github.com/openai/codex/releases/tag/v0.154.0> — `ExternalMessage` type for `run()` and `turn()` calls; `max` and `ultra` reasoning-effort values.
 
@@ -88,4 +88,4 @@ Genkit Go 1.13's resumable `generate` and agent loop primitives articulate, in e
 
 [^4]: Janusevicius, E. (2026, September). *We Let AI Agents Rewrite a 92M-Message-a-Day Service in Go. Zero Incidents.* Checkly Engineering Blog. <https://www.checklyhq.com/blog/agentic-rewrite-nodejs-to-go/>
 
-[^5]: Seroter, R. (2026, September 9). *Daily Reading List #863.* <https://seroter.com/2026/09/09/daily-reading-list-863/> — agent teams for long-running tasks spanning multiple context windows.
+[^5]: Seroter, R. (2026, September 9). *Daily Reading List #863.* <https://seroter.com/2026/09/09/daily-reading-list-september-9-2026-863/> — agent teams for long-running tasks spanning multiple context windows.
