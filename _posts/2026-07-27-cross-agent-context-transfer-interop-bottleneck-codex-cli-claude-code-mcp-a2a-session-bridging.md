@@ -1,7 +1,7 @@
 ---
 title: "Cross-Agent Context Transfer: Why Interop Is the Next Bottleneck for Coding Agents"
 date: 2026-07-27T09:00:00+00:00
-last_modified_at: 2026-09-15T10:28:26+01:00
+last_modified_at: 2026-09-15T15:08:06+01:00
 tags: ["codex-cli", "claude-code", "context-transfer", "MCP", "A2A", "agent-interoperability", "session-bridging", "multi-agent"]
 ---
 
