@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-session-transcripts-jsonl-replay-viewer-tools-audit-analysis"
 tags: ["codex-cli", "session-transcripts", "jsonl", "replay", "audit", "observability", "tooling", "community"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-09-16T11:06:45+01:00
+last_modified_at: 2026-09-16T18:08:48+01:00
 ---
 # Codex CLI Session Transcripts: JSONL Format, Replay Tools, and Audit Analysis
 

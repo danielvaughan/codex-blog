@@ -1,7 +1,7 @@
 ---
 title: "Agent Plugins 1.0: The Multi-Vendor Open Standard That Brings Portable AI Skills to Codex CLI"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-09-16T11:06:45+01:00
+last_modified_at: 2026-09-16T18:08:48+01:00
 tags: ["codex-cli", "agent-plugins", "mcp", "open-standards", "v0.147", "plugin-security", "skills"]
 ---
 

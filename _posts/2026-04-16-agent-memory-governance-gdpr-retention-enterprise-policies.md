@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-agent-memory-governance-gdpr-retention-enterprise-policies"
 tags: ["memory", "gdpr", "data-governance", "enterprise", "retention", "compliance", "codex-cli"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-09-16T11:06:45+01:00
+last_modified_at: 2026-09-16T18:08:48+01:00
 ---
 # Agent Memory Governance: GDPR, Data Retention, and Enterprise Memory Policies
 

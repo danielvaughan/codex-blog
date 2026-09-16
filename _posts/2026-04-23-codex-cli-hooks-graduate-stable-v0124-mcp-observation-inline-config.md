@@ -6,7 +6,7 @@ timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-codex-cli-hooks-graduate-stable-v0124-mcp-observation-inline-config"
 tags: ["codex-cli", "hooks", "v0.124", "MCP", "auto-review", "config.toml", "stable", "PreToolUse", "PostToolUse", "apply_patch"]
 date: 2026-04-23T09:00:00+00:00
-last_modified_at: 2026-09-16T11:06:45+01:00
+last_modified_at: 2026-09-16T18:08:48+01:00
 ---
 # Codex CLI Hooks Graduate to Stable: MCP Observation, Inline Config, and Auto-Review in v0.124
 

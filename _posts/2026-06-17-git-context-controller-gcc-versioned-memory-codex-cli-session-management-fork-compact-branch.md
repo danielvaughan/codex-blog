@@ -5,7 +5,7 @@ timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-git-context-controller-gcc-versioned-memory-codex-cli-session-management-fork-compact-branch"
 tags: ["codex-cli", "context-management", "session-lifecycle", "GCC", "SWE-Bench", "compaction", "fork", "branch", "memory", "long-horizon"]
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-09-16T11:06:45+01:00
+last_modified_at: 2026-09-16T18:08:48+01:00
 ---
 # Git Context Controller: What Versioned Agent Memory Means for Codex CLI Session Management
 

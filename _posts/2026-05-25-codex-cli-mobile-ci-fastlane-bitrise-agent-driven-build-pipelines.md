@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-mobile-ci-fastlane-bitrise-agent-driven-build-pipelines"
 tags: ["codex-cli", "mobile-ci", "fastlane", "bitrise", "ios", "android", "mcp", "build-pipelines", "automation"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-09-16T11:06:45+01:00
+last_modified_at: 2026-09-16T18:08:48+01:00
 ---
 # Codex CLI for Mobile CI: Fastlane, Bitrise, and Agent-Driven Build Pipelines
 
