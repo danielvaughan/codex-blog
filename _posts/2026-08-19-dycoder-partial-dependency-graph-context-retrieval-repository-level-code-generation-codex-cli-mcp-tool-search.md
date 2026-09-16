@@ -1,7 +1,7 @@
 ---
 title: "DyCoder and Partial Dependency Graphs: What On-Demand Dependency Traversal Means for Your Codex CLI Context Strategy"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-09-16T03:19:23+01:00
+last_modified_at: 2026-09-16T10:10:10+01:00
 tags: ["codex-cli", "context-retrieval", "dependency-graph", "repository-level-code-generation", "MCP", "DyCoder", "DyRetriever", "RAG"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Looping Is Not Reliability: What Typed Revision Contracts Reveal About Repair-Loop Decay — and How to Harden Your Codex CLI Repair Cycles"
 date: 2026-07-30T09:00:00+00:00
-last_modified_at: 2026-09-16T03:19:23+01:00
+last_modified_at: 2026-09-16T10:10:10+01:00
 tags: ["codex-cli", "repair-loop", "revision-contracts", "state-bound-evidence", "PostToolUse", "hooks", "checkpoint", "agentic-code-repair", "verification"]
 ---
 

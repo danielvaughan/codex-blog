@@ -3,7 +3,7 @@ title: "GitOps for AI Agents on Google Cloud: ArgoCD, Config Sync and GKE"
 parent: "Articles"
 nav_order: 1159
 date: 2026-09-15T08:00:00+00:00
-last_modified_at: 2026-09-16T03:19:23+01:00
+last_modified_at: 2026-09-16T10:10:10+01:00
 tags: ["codex-cli", "gitops", "gke", "argocd", "config-sync", "enterprise", "ci-cd", "agentic", "infrastructure", "google-cloud"]
 ---
 
@@ -126,7 +126,7 @@ For enterprises deploying Codex CLI in regulated environments — financial serv
 A well-maintained config repo provides:
 
 - **Change history**: Every modification to an agent's approval mode, network policy, or resource limits is timestamped, attributed to an author, and associated with a pull request. The PR includes the reviewer's approval, the CI checks that passed, and the deployment outcome.
-- **Drift detection**: Both ArgoCD and Config Sync detect when the live cluster state has diverged from the git state — for example, if an operator manually `kubectl apply`-ed a change outside of the GitOps workflow. Drift events can be surfaced as alerts and included in audit reports.
+- **Drift detection**: Both ArgoCD and Config Sync detect when the live cluster state has diverged from the git state — for example, if an operator applied a change directly via `kubectl` outside the GitOps workflow. Drift events can be surfaced as alerts and included in audit reports.
 - **Rollback evidence**: When a harness version is rolled back following an incident, the rollback is itself a git commit, reviewable and auditable.
 
 For enterprises pursuing ISO/IEC 42001 AI management system certification — an emerging requirement for enterprise AI deployments as of 2026 — the config repo's change history directly addresses several Annex A control requirements around AI system change management and operational monitoring.[^9]
