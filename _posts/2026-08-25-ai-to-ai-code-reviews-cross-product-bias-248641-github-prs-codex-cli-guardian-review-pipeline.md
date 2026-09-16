@@ -1,7 +1,7 @@
 ---
 title: "AI Reviews AI: What 248,641 GitHub PRs Reveal About Cross-Product Review Bias — and How to Configure Codex CLI for Independent Coverage"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-09-15T15:08:06+01:00
+last_modified_at: 2026-09-16T03:19:23+01:00
 tags: ["code-review", "multi-agent", "guardian", "hooks", "arXiv", "cross-product-review", "ai-to-ai"]
 ---
 

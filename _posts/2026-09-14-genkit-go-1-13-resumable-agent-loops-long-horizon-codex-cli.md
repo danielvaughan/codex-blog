@@ -3,7 +3,7 @@ title: "Resumable Agent Loops: What Genkit Go 1.13 Teaches Codex CLI Teams About
 parent: "Articles"
 nav_order: 1157
 date: 2026-09-14T08:00:00+00:00
-last_modified_at: 2026-09-15T15:08:06+01:00
+last_modified_at: 2026-09-16T03:19:23+01:00
 tags: ["codex-cli", "multi-agent", "resumability", "long-running-agents", "genkit", "external-message", "hitl", "orchestration", "agentic"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["codex-cli", "multi-agent", "resumability", "long-running-agents", "genki
 
 ---
 
-Two independent releases in the same week from different parts of the AI tooling ecosystem arrived at the same conclusion. On 11 September 2026, Genkit Go 1.13 shipped resumable `generate` and agent loop primitives — the ability to pause mid-generation, persist state, and resume from exactly where execution stopped.[^1] On roughly the same timeline, Codex CLI v0.154.0 introduced `ExternalMessage`, a structured HITL primitive that allows an orchestrator to inject human input or external data into a running agent turn without restarting the session.[^2] Neither team was building the same product. Both teams reached the same conclusion: resumability is not a convenience feature — it is a required primitive for any system that runs agents on tasks that exceed a single context window or a single human-attention span.
+Two convergent releases from different parts of the AI tooling ecosystem arrived at the same conclusion in September 2026. Genkit Go 1.13 shipped on 3 September 2026 with resumable `generate` and agent loop primitives — the ability to pause mid-generation, persist state, and resume from exactly where execution stopped.[^1] On 10 September 2026, Codex CLI v0.154.0 introduced `ExternalMessage`, a structured HITL primitive that allows an orchestrator to inject human input or external data into a running agent turn without restarting the session.[^2] Neither team was building the same product. Both teams reached the same conclusion: resumability is not a convenience feature — it is a required primitive for any system that runs agents on tasks that exceed a single context window or a single human-attention span.
 
 For Codex CLI teams building long-horizon workflows, the Genkit Go 1.13 design is worth studying not because you will use Genkit directly, but because it makes explicit the design decisions that `ExternalMessage` leaves implicit.
 
@@ -50,7 +50,7 @@ Codex CLI does not yet ship a native checkpoint persistence layer equivalent to 
 
 ## Ecosystem Convergence on Resumability as a Primitive
 
-The same week that shipped Genkit Go 1.13 and Codex CLI v0.154.0 also produced a practitioner post describing an agent team pattern for tasks that span multiple context windows.[^5] The pattern uses explicit handoff state — structured data passed between agent turns — to preserve task context across session boundaries. The handoff state is not a summary; it is the minimum representation required for the receiving agent to continue where the previous agent stopped.
+The same September 2026 period that saw Genkit Go 1.13 and Codex CLI v0.154.0 ship also produced a practitioner post describing an agent team pattern for tasks that span multiple context windows.[^5] The pattern uses explicit handoff state — structured data passed between agent turns — to preserve task context across session boundaries. The handoff state is not a summary; it is the minimum representation required for the receiving agent to continue where the previous agent stopped.
 
 These three signals — Genkit's resumable loops, Codex CLI's `ExternalMessage`, and the agent team handoff pattern — are converging on the same design insight: reliable long-horizon agentic work requires explicit state management at well-defined boundaries, not passive reliance on context windows and model memory.
 
@@ -80,7 +80,7 @@ Genkit Go 1.13's resumable `generate` and agent loop primitives articulate, in e
 
 ## Citations
 
-[^1]: Seroter, R. (2026, September 11). *Daily Reading List #865.* <https://seroter.com/2026/09/11/daily-reading-list-september-11-2026-865/> — covers Genkit Go 1.13 resumable generate and agent loop primitives.
+[^1]: Gill, C. (2026, September 3). *Genkit Go 1.13: Resumable generate and agent loops, async subagents, and A2UI.* <https://genkit.dev/blog/genkit-go-1-13/>. Highlighted by Seroter, R. (2026, September 11). *Daily Reading List #865.* <https://seroter.com/2026/09/11/daily-reading-list-september-11-2026-865/>
 
 [^2]: OpenAI. (2026, September). *Codex CLI v0.154.0 Release Notes.* <https://github.com/openai/codex/releases/tag/v0.154.0> — `ExternalMessage` type for `run()` and `turn()` calls; `max` and `ultra` reasoning-effort values.
 

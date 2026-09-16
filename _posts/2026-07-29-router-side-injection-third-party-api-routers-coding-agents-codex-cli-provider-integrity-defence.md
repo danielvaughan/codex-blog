@@ -1,7 +1,7 @@
 ---
 title: "Router-Side Injection: Why Third-Party API Routers Are the Blind Spot in Your Coding Agent's Security Model"
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-09-15T15:08:06+01:00
+last_modified_at: 2026-09-16T03:19:23+01:00
 tags: ["codex-cli", "security", "api-router", "supply-chain", "LiteLLM", "OpenRouter", "provider-integrity", "sandbox", "config-toml"]
 ---
 
