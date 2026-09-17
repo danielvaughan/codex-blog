@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-jetbrains-mcp-server-ide-intelligence-terminal-agent"
 tags: ["codex-cli", "jetbrains", "mcp", "ide-integration", "developer-experience", "inspections", "enterprise"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-09-16T18:08:48+01:00
+last_modified_at: 2026-09-17T03:10:44+01:00
 ---
 # Codex CLI + JetBrains MCP Server: Giving Your Terminal Agent IDE-Grade Intelligence
 

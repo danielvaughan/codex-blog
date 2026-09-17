@@ -1,7 +1,7 @@
 ---
 title: "AdaptEval and the Code Adaptation Gap: Why Your Coding Agent Botches Snippet Integration — and How to Configure Codex CLI for Policy-Aligned Adaptation"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-09-16T18:08:48+01:00
+last_modified_at: 2026-09-17T03:10:44+01:00
 tags: ["codex-cli", "code-adaptation", "AdaptEval", "AdaptAgent", "AGENTS.md", "plan-mode", "multi-agent", "snippet-integration", "logic-customisation", "code-reuse"]
 ---
 

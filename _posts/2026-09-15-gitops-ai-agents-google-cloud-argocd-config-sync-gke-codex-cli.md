@@ -3,7 +3,7 @@ title: "GitOps for AI Agents on Google Cloud: ArgoCD, Config Sync and GKE"
 parent: "Articles"
 nav_order: 1159
 date: 2026-09-15T08:00:00+00:00
-last_modified_at: 2026-09-16T18:08:48+01:00
+last_modified_at: 2026-09-17T03:10:44+01:00
 tags: ["codex-cli", "gitops", "gke", "argocd", "config-sync", "enterprise", "ci-cd", "agentic", "infrastructure", "google-cloud"]
 ---
 
@@ -20,7 +20,7 @@ GitOps is not a new pattern. The core idea — that a git repository is the sing
 
 Google Cloud offers two production-grade GitOps controllers for GKE, and choosing between them is the first architectural decision.[^2]
 
-**Config Sync** is Google's managed GitOps controller, available as part of GKE Enterprise and as a standalone component. It synchronises cluster resources directly from a git repository — typically a Cloud Source Repository or GitHub — without requiring a separate operator deployment. Config Sync is tightly integrated with Google's policy enforcement stack: Policy Controller (OPA Gatekeeper) can block non-compliant manifests at sync time, before they ever reach the API server. For regulated enterprises running Codex CLI harnesses that must satisfy audit requirements, Config Sync's integration with Cloud Audit Logs and its native ACM fleet support are strong arguments in its favour.[^3]
+**Config Sync** is Google's managed GitOps controller, available in standard GKE at no additional charge (Google dissolved the separate GKE Enterprise tier in September 2025; former Anthos capabilities including Config Sync are now included in base GKE). It synchronises cluster resources directly from a git repository — typically a Cloud Source Repository or GitHub — without requiring a separate operator deployment. Config Sync is tightly integrated with Google's policy enforcement stack: Policy Controller (OPA Gatekeeper) can block non-compliant manifests at sync time, before they ever reach the API server. For regulated enterprises running Codex CLI harnesses that must satisfy audit requirements, Config Sync's integration with Cloud Audit Logs and its native fleet management support are strong arguments in its favour.[^3]
 
 **ArgoCD** is the CNCF-graduated open-source option, widely deployed across cloud providers and on-premises. On GKE it runs as a standard Kubernetes workload. ArgoCD's advantage over Config Sync is its application model: it groups related manifests into `Application` or `ApplicationSet` resources with explicit health checks, sync windows, and rollback capabilities. For Codex CLI teams managing multiple harness variants — a nightly bulk-processing harness, an interactive development harness, and a CI harness that runs on pull request events — ArgoCD's application-per-environment model provides clearer operational boundaries than Config Sync's flat namespace hierarchy.
 
@@ -141,7 +141,7 @@ GitOps is not a silver bullet for the operational challenges of Codex CLI on GKE
 
 [^1]: Seroter, R. (2026, September 14). *Daily Reading List #866*. richard.seroter.com. Retrieved 2026-09-15.
 [^2]: Google Cloud. (2026). *GitOps on GKE: Config Sync and ArgoCD overview*. cloud.google.com/kubernetes-engine/docs/concepts/gitops. Retrieved 2026-09-15.
-[^3]: Google Cloud. (2026). *Config Sync overview — GKE Enterprise*. cloud.google.com/anthos-config-management/docs/config-sync-overview. Retrieved 2026-09-15.
+[^3]: Google Cloud. (2026). *Config Sync overview*. cloud.google.com/kubernetes-engine/config-sync/docs/overview. Retrieved 2026-09-15.
 [^4]: Weaver, W. (2025). *GitOps: Versioned Infrastructure and Continuous Deployment*. O'Reilly Media.
 [^5]: CNCF. (2026). *Kubernetes NetworkPolicy documentation*. kubernetes.io/docs/concepts/services-networking/network-policies. Retrieved 2026-09-15.
 [^6]: GitHub. (2026). *ArgoCD sync windows*. argo-cd.readthedocs.io/en/stable/user-guide/sync_windows. Retrieved 2026-09-15.
