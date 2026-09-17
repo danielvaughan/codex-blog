@@ -3,7 +3,7 @@ title: "The Best IDE for Agentic AI Is Not an IDE: Multi-Agent Context Managemen
 parent: "Articles"
 nav_order: 1160
 date: 2026-09-16T08:00:00+00:00
-last_modified_at: 2026-09-17T03:10:44+01:00
+last_modified_at: 2026-09-17T10:07:17+01:00
 tags: ["codex-cli", "multi-agent", "orchestration", "context-management", "workflow", "productivity", "tooling", "agentic"]
 ---
 
@@ -98,7 +98,7 @@ Small, opinionated tooling built around `codex queue` covers most of what the cu
 
 ## What the Tooling Ecosystem Needs to Build
 
-The tools that Herdr, Conductor, and the other entries in Yegge's thread are attempting to solve have a common shape: they want to bring the human back into the loop at the right moment with the right context.[^1] Not all completions, not all notifications — the specific decision whose delay compounds cost.
+The problem that Herdr, Conductor, and the other entries in Yegge's thread are attempting to solve has a common shape: they want to bring the human back into the loop at the right moment with the right context.[^1] Not all completions, not all notifications — the specific decision whose delay compounds cost.
 
 For Codex CLI, this means a few things the current release does not provide:
 
@@ -116,7 +116,7 @@ Configure `codex queue`, `auto_recap`, and Guardian history today if you have no
 
 When you hit the ceiling of what the current tooling supports, the right investment is a short shell layer around `codex queue` that filters by tag, surfaces blocked tasks first, and pipes summaries to a persistent display in your terminal multiplexer. That covers eighty per cent of what the custom workspace switchers in Yegge's thread were doing, without requiring you to maintain a separate application.
 
-The IDE for agentic AI is not an IDE. It is a disciplined queuing discipline, a habit of explicit dependency annotation, and a thin shell layer that surfaces the right decision at the right moment. Build the habit first; the tooling will follow.
+The IDE for agentic AI is not an IDE. It is a sound queuing discipline, a habit of explicit dependency annotation, and a thin shell layer that surfaces the right decision at the right moment. Build the habit first; the tooling will follow.
 
 ---
 

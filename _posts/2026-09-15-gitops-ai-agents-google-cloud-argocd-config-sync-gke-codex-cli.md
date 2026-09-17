@@ -3,7 +3,7 @@ title: "GitOps for AI Agents on Google Cloud: ArgoCD, Config Sync and GKE"
 parent: "Articles"
 nav_order: 1159
 date: 2026-09-15T08:00:00+00:00
-last_modified_at: 2026-09-17T03:10:44+01:00
+last_modified_at: 2026-09-17T10:07:17+01:00
 tags: ["codex-cli", "gitops", "gke", "argocd", "config-sync", "enterprise", "ci-cd", "agentic", "infrastructure", "google-cloud"]
 ---
 
@@ -24,7 +24,7 @@ Google Cloud offers two production-grade GitOps controllers for GKE, and choosin
 
 **ArgoCD** is the CNCF-graduated open-source option, widely deployed across cloud providers and on-premises. On GKE it runs as a standard Kubernetes workload. ArgoCD's advantage over Config Sync is its application model: it groups related manifests into `Application` or `ApplicationSet` resources with explicit health checks, sync windows, and rollback capabilities. For Codex CLI teams managing multiple harness variants — a nightly bulk-processing harness, an interactive development harness, and a CI harness that runs on pull request events — ArgoCD's application-per-environment model provides clearer operational boundaries than Config Sync's flat namespace hierarchy.
 
-Neither tool is universally superior. The practical choice for most Codex CLI teams on Google Cloud is: Config Sync if you are inside a GKE Enterprise fleet and want managed GitOps with minimal operational overhead; ArgoCD if you need fine-grained application lifecycle control or are deploying across multiple cloud providers.
+Neither tool is universally superior. The practical choice for most Codex CLI teams on Google Cloud is: Config Sync if you are on GKE and want managed GitOps with minimal operational overhead; ArgoCD if you need fine-grained application lifecycle control or are deploying across multiple cloud providers.
 
 ## What Goes in the GitOps Repository
 
