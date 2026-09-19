@@ -14,7 +14,7 @@ layout: default
   <div class="container">
     <h2>Codex: an agentic software engineering knowledge base</h2>
     <p>A continuously updated knowledge base for Codex, covering agentic software engineering workflows, configuration and real-world integration. New articles publish as the tool evolves.</p>
-{%- assign framework_url = site.book.leanpub_url | append: "?utm_source=codex-kb&utm_medium=home-framework&utm_campaign=book-widget" -%}
+{%- assign framework_url = site.book.amazon_url -%}
     <figure class="framework-feature">
       <a class="framework-feature__image" href="{{ framework_url }}" rel="noopener" target="_blank">
         <img src="{{ '/assets/images/codex-cli-framework.png' | relative_url }}" alt="The {{ site.book.title | escape }} framework: six parts — Grounding, Guardrails, Scaling up, Production, Practice and Bigger picture — mapping the agentic engineering workflow.">

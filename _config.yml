@@ -90,11 +90,11 @@ social:
 
 # Book (promoted via _includes/book-widget.html)
 book:
-  title: "Codex CLI"
-  subtitle: "Agentic Engineering from First Principles"
-  price_text: "Pick your price — from $14.99 with reader discount (suggested $29.99)"
-  cover_url: "https://d2sofvawe08yqg.cloudfront.net/codex-cli/s_hero"
-  leanpub_url: "https://leanpub.com/codex-cli/c/CODEXSITE20"
+  title: "Agentic Coding with OpenAI Codex CLI"
+  subtitle: "Build intelligent agent workflows using Agentic Engineering, MCP, hooks, and delivery automation"
+  price_text: "Paperback available on Amazon"
+  cover_url: "https://m.media-amazon.com/images/I/81JdWINK+KL._SL1500_.jpg"
+  amazon_url: "https://www.amazon.com/dp/1808348893"
 
 # Defaults
 defaults:

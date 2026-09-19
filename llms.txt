@@ -18,7 +18,7 @@ Tags index: {{ site.url }}/tags/
 
 {{ site.title }} is a technical knowledge base maintained by {{ site.author.name }} covering agentic software engineering with Codex. Articles cover CLI internals, prompting and workflow patterns, integrations, enterprise deployment, security, and adjacent tools.
 
-The author is also writing a companion book: [{{ site.book.title }}: {{ site.book.subtitle }}]({{ site.book.leanpub_url }}).
+The author has also written a companion book: [{{ site.book.title }}: {{ site.book.subtitle }}]({{ site.book.amazon_url }}).
 
 ## Canonical resources
 

@@ -5,27 +5,26 @@
     {% include book-widget.html placement="rail" %}
     {% include book-widget.html placement="inline" %}
 
-  The `placement` parameter both selects the root CSS class (.book-rail or
-  .book-inline) and sets the utm_medium tracking parameter so rail vs inline
-  conversions can be distinguished in Leanpub's analytics.
+  The `placement` parameter selects the root CSS class (.book-rail or
+  .book-inline).
 
   Book metadata is read from _config.yml under the `book:` key.
 {%- endcomment -%}
 {%- assign placement = include.placement -%}
-{%- assign utm_url = site.book.leanpub_url | append: "?utm_source=codex-kb&utm_medium=" | append: placement | append: "&utm_campaign=book-widget" -%}
+{%- assign book_url = site.book.amazon_url -%}
 <aside class="book-{{ placement }}" aria-label="The book: {{ site.book.title | escape }}">
-  <a class="book-{{ placement }}__cover" href="{{ utm_url }}" tabindex="-1" rel="noopener" target="_blank">
+  <a class="book-{{ placement }}__cover" href="{{ book_url }}" tabindex="-1" rel="noopener" target="_blank">
     <img src="{{ site.book.cover_url }}" alt="Cover of the book {{ site.book.title | escape }} by {{ site.author.name | escape }}">
   </a>
   <div class="book-{{ placement }}__body">
     <p class="book-{{ placement }}__title">{{ site.book.title | escape }}</p>
     <p class="book-{{ placement }}__subtitle">{{ site.book.subtitle | escape }}</p>
-    <p class="book-{{ placement }}__hook">From zero to production-grade agentic workflows. Updated as Codex evolves.</p>
+    <p class="book-{{ placement }}__hook">A practical guide to building intelligent agent workflows with OpenAI Codex CLI.</p>
 {%- if site.book.price_text and site.book.price_text != "" -%}
     <p class="book-{{ placement }}__price">{{ site.book.price_text | escape }}</p>
 {%- endif -%}
-    <a class="book-{{ placement }}__cta" href="{{ utm_url }}" rel="noopener" target="_blank">
-      Get the book <span aria-hidden="true">→</span>
+    <a class="book-{{ placement }}__cta" href="{{ book_url }}" rel="noopener" target="_blank">
+      Buy on Amazon <span aria-hidden="true">→</span>
     </a>
   </div>
 </aside>
