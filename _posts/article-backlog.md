@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-21T13:05:46+01:00
+last_modified_at: 2026-09-21T18:08:26+01:00
 tags:
   - backlog
   - planning
@@ -13994,3 +13994,41 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 1. ✅ **CONTINUITY: Why Composing Individually Sound Security Controls Still Fails — and What It Means for Codex CLI Harness Design** — Written 2026-09-08 → `2026-09-08-continuity-security-context-contracts-composable-llm-agent-controls-codex-cli.md`
    - Note: No backlog items with 📝 status remained; topic selected from gap analysis — Zheng & Yang (ZAST.AI, arXiv:2609.05269, September 4, 2026) "CONTINUITY: Security-Context Contracts for Composable LLM Agent Controls"; core problem: security-context discontinuity — individually correct mechanisms fail when composed; four failure modes: Truncation (downstream drops security field), Amplification (authority increases without new grant), Rebinding (approval reused for different principal/field/value), Staleness/Replay (valid credentials used after expiry/revocation); assume-guarantee contract model C_i = (A_i, G_i, P_i, M_i) tracking principal identity, task root, provenance manifest digest, delegation scope, policy epoch, action representation, finality state; six control elements: signed root grants (Γ), provenance commitments, role-bound transition receipts (ρ_i), bounded typed releases (L), transformation witnesses (w), effect-bound execution permits (π); evaluation: 2,560 parameterised attack instances across 32 fault classes × 4 domains × 20 instances; CONTINUITY 0.0% ASR vs best incomplete baseline (Gateway+Finality) 65.6%; 700 benign tasks 100% complete, 200 ambiguous 100% escalated; ablation: field provenance removal exposes 24/32 fault classes, contract conformance 24/32, incomplete mediation 24/32; performance: 4.21ms median proof verification, 7.17ms end-to-end, 8.1KB–49.4KB bundle; four Codex CLI discontinuity gaps identified: MCP provenance truncation in on_mcp_tool_result, hook chain rebinding (first-deny-wins vs field-level approval), AGENTS.md policy epoch staleness, Guardian amplification under --approve-for-me; four mitigations: provenance-binding PostToolUse hooks, field-level PreToolUse approval, policy epoch pinning in AGENTS.md, scope-bounded approval profiles; companion SoK paper arXiv:2609.00595; 5 citations; ~1,500 words prose
+
+---
+
+## AGENTS.md Multi-Agent Manifest Pattern Library — Multi-Agent Coordination (2026-09-21 Article Rater)
+
+1. 📝 **AGENTS.md Multi-Agent Manifest Pattern Library: Ten Coordination Patterns for Parallel Agent Teams** — Identified 2026-09-21 by article-rater skill
+   - Source: AGENTS.md as Multi-Agent Orchestration Manifest (4.3, Sep 21) + The AGENTS.md Playbook (#05, 5.0) + The Overnight Agent (4.3) + Compound Constraint Problem (5.0)
+   - Gap: The Sep 21 article introduces the four-section manifest structure (dependency annotations, milestone tags, exclusion zones, rollback conditions) but stops at the architecture layer. A practical pattern library with ten copy-paste AGENTS.md coordination manifests for real-world multi-agent scenarios is the natural follow-up.
+   - Key patterns to cover: (1) DB migration + API update sequencing, (2) front-end + back-end + test agent triad, (3) parallel feature branches with shared config, (4) overnight rewrite agents with test-harness-first gate, (5) documentation + code agent pair, (6) security scan agent as pre-flight gate, (7) multi-cloud deployment agents, (8) sprint batch (4+ agents) with decision-impact triage, (9) long-running data pipeline agent with rollback conditions, (10) review agent as finaliser
+   - Each pattern: full AGENTS.md block, failure mode prevented, rollback condition handled, four-agent threshold notes
+   - Priority: High — directly extends the most popular premium article (#05, 5.0) into multi-agent territory
+   - SEO targets: "AGENTS.md multi-agent coordination patterns codex cli", "codex cli parallel agent dependency annotations exclusion zones", "AGENTS.md orchestration manifest dependency rollback 2026", "codex cli four agent threshold coordination failure modes", "multi-agent codex cli exclusion zones lock files AGENTS.md"
+
+---
+
+## Plugin Supply Chain Security Playbook — Marketplace Plugins, Skills, MCP, Prompt Injection (2026-09-21 Article Rater)
+
+1. 📝 **The Plugin Supply Chain Security Playbook: Defending Codex CLI Against Marketplace, Skill, MCP, and Injection Attack Surfaces** — Identified 2026-09-21 by article-rater skill
+   - Source: Plugin4Shell (4.2, Sep 21) + Agent Skill Supply Chain Crisis (5.0) + Lockdown Mode / Prompt Injection Defence (4.6) + Command Safety: Defence in Depth (4.4)
+   - Gap: Four articles address four supply-chain attack surfaces separately. No single article unifies them into a coherent threat model and defence architecture.
+   - Threat model: (1) Marketplace plugins — hash-shaped branch bypass (Plugin4Shell, v0.146.0 patch); (2) Skills — malicious skill injection (ClawHavoc 341–824, Snyk ToxicSkills 13.4% critical); (3) MCP servers — ambient authority abuse, tool poisoning (MCP Ambient Authority 4.8, OWASP MCP Top 10); (4) Prompt injection — fetched document injection, indirect prompt injection via retrieval
+   - Unified defence: per-surface risk model, signed artefact vs pinned hash trade-off, AGENTS.md version-locking patterns, PreToolUse integrity checks, CI auto-update disable, origin allowlisting, skill_approval config, MCP namespace isolation
+   - Enterprise policy template: one-page Codex CLI supply-chain security checklist
+   - Priority: High — Plugin4Shell disclosure (Sep 17) is a fresh primary source and creates immediate demand
+   - SEO targets: "codex cli plugin supply chain security Plugin4Shell 2026", "codex cli marketplace plugin auto-update exploit CVE 2026", "codex cli skill supply chain attack ClawHavoc ToxicSkills", "codex cli MCP server supply chain security policy", "codex cli AGENTS.md plugin version locking integrity check"
+
+---
+
+## The Multi-Agent Field Manual — Coordination, Delegation, Cost Governance (2026-09-21 Article Rater)
+
+1. 📝 **The Multi-Agent Field Manual: Workspace, Manifest, Delegation, Overnight Operation, and Cost Governance for Parallel Codex CLI Teams** — Identified 2026-09-21 by article-rater skill
+   - Source: AGENTS.md as Multi-Agent Orchestration Manifest (4.3, Sep 21) + The Best IDE for Agentic AI (4.0, Sep 16) + Rollout Token Budgets / Multi-Agent Delegation (4.0) + The Overnight Agent (4.3) + Delegation Spectrum (5.0)
+   - Gap: Multi-agent guidance is distributed across five articles. No single premium article synthesises the full operational picture from workspace setup through cost governance.
+   - Five-section structure: (1) Workspace setup — terminal multiplexer vs codex queue vs purpose-built TUI (Herdr, Conductor); (2) Dependency manifest — AGENTS.md coordination block (Sep 21 four-section format); (3) Delegation profiling — Delegation Spectrum five-level config profiles, choosing level per task type; (4) Overnight operation — test-harness-first discipline, rollback conditions, morning review checklist; (5) Cost governance — rollout_budget per task, token budget alerts, Verification Tax calculation (Bhati framework)
+   - Decision-impact scoring as the capstone concept: which completion unblocks the most downstream agents?
+   - Consulting-grade delivery checklist for enterprise teams deploying 4–12 parallel agents
+   - Priority: Medium — foundational reference piece; best written after the AGENTS.md pattern library article provides the manifest patterns to reference
+   - SEO targets: "codex cli multi-agent field manual parallel agents 2026", "codex cli AGENTS.md orchestration delegation spectrum overnight", "codex cli four agent threshold workspace coordination guide", "codex cli rollout budget token governance multi-agent", "codex cli verification tax multi-agent cost governance"
