@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-21T11:36:20+01:00
+last_modified_at: 2026-09-21T13:05:46+01:00
 tags:
   - backlog
   - planning
@@ -21,7 +21,8 @@ tags:
 
 1. 📝 **Decision-Impact Scoring for Codex Queue (Regular — Medium Priority)** — The Sep 16 article names "decision-impact scoring" as the missing primitive in `codex queue` but stops short of a solution. A practical follow-up: how to encode task interdependency metadata in AGENTS.md before launching a batch; a shell wrapper that parses queue status and flags blocked high-impact tasks first; structured task description format that makes downstream consequences explicit. Source articles: The Best IDE for Agentic AI (4.0), The Overnight Agent (4.3), Rollout Token Budgets (4.0).
 
-2. 📝 **AGENTS.md as Multi-Agent Orchestration Manifest (Regular — High Priority)** — AGENTS.md is treated in the library as a per-session instruction set. This article extends it: dependency annotations, milestone tags, exclusion zones (tasks that must not run concurrently), and rollback conditions. A pattern library for teams coordinating four or more parallel agents. Natural extension of the library's flagship article (#05, 5.0) into the multi-agent orchestration gap. Source articles: The AGENTS.md Playbook (#05, 5.0), The Best IDE for Agentic AI (4.0), Compound Constraint Problem (5.0).
+2. ✅ **AGENTS.md as Multi-Agent Orchestration Manifest (Regular — High Priority)** — Written 2026-09-21 → `2026-09-21-agents-md-multi-agent-orchestration-manifest-dependency-annotations-exclusion-zones-codex-cli.md`
+   - Note: Extends AGENTS.md from per-session instruction set to coordination substrate for teams running 4+ parallel agents; four additions: dependency annotations (task graph with owned_by + status fields), milestone tags (binary shared checkpoints agents read to confirm upstream state), exclusion zones (file-based lock protocol in tmp/locks/ for serialised shared resources), rollback conditions (state-restoration table mapping failure conditions to recovery procedures); four-agent threshold: pairwise interaction count exceeds human oversight capacity at 4 agents (6 channels), grows quadratically to 15 at 6 agents; compound constraint interaction hazard addressed by separating Coordination section above Instructions in file order; no new tooling required — all patterns work with Codex CLI default AGENTS.md-on-startup behaviour; citations draw on Yegge (2026) 600-engineer survey, OpenAI AGENTS.md spec, Jadhav et al. arXiv:2609.03156 compound constraints, Herdr Engineering Blog 4-agent threshold case study, Kapetanovic et al. arXiv:2608.30701; 5 citations; ~1,380 words
 
 3. 📝 **Agentic Workspace Taxonomy: From Terminal Tabs to Purpose-Built Orchestration (Regular — Medium Priority)** — Structured taxonomy of the approaches surfaced by Yegge's thread: tmux layers, queue wrappers, IDE extensions, standalone TUI tools (Herdr, Conductor). What each approach optimises for, which Codex CLI features it requires, and where each breaks down at scale. Source articles: The Best IDE for Agentic AI (4.0), Context Engineering (5.0), Working Memory / Coherence Debt (4.6).
 
