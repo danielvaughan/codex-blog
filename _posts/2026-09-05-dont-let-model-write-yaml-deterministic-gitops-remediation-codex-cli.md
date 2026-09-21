@@ -3,7 +3,7 @@ title: "Don't Let the Model Write the YAML: Deterministic GitOps Remediation and
 parent: "Articles"
 nav_order: 1129
 date: 2026-09-05T09:00:00+00:00
-last_modified_at: 2026-09-18T07:09:54+01:00
+last_modified_at: 2026-09-21T10:24:34+01:00
 tags: ["codex-cli", "YAML", "GitOps", "Kubernetes", "PreToolUse", "hooks", "AGENTS.md", "configuration-safety", "deterministic", "infrastructure"]
 ---
 
