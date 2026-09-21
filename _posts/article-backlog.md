@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-21T18:08:26+01:00
+last_modified_at: 2026-09-21T21:05:14+01:00
 tags:
   - backlog
   - planning
@@ -19,7 +19,8 @@ tags:
 
 *Gaps surfaced from rating "The Best IDE for Agentic AI Is Not an IDE" (Sep 16, 4.0).*
 
-1. 📝 **Decision-Impact Scoring for Codex Queue (Regular — Medium Priority)** — The Sep 16 article names "decision-impact scoring" as the missing primitive in `codex queue` but stops short of a solution. A practical follow-up: how to encode task interdependency metadata in AGENTS.md before launching a batch; a shell wrapper that parses queue status and flags blocked high-impact tasks first; structured task description format that makes downstream consequences explicit. Source articles: The Best IDE for Agentic AI (4.0), The Overnight Agent (4.3), Rollout Token Budgets (4.0).
+1. ✅ **Decision-Impact Scoring for Codex Queue (Regular — Medium Priority)** — Written 2026-09-21 → `2026-09-21-decision-impact-scoring-codex-queue-task-interdependency-metadata-codex-cli.md`
+   - Note: The Sep 16 article identifies "decision-impact scoring" as the missing primitive in `codex queue`; this article provides the practical solution: structured `[IMPACT:HIGH][BLOCKS:...]` task description preamble, AGENTS.md impact register (table of task slugs, impact level, status, blocks, depends-on), shell wrapper `cq-impact` that sorts queue output by impact level then status, token budget allocation by impact tier via `session_profiles` in config.toml, pre-batch discipline of 5–10 min dependency analysis; key insight: HIGH-impact tasks surface decisions whose delay cascades — LOW-impact tasks can proceed to completion unattended; Overnight Agent harness-gap parallel (3-queue vs 18-queue discrepancy discoverable at design time); rollout token budget interaction: differential `output_token_limit` and model selection per impact tier prevents undifferentiated concurrency; 5 citations (Yegge survey, AGENTS.md Manifest article, Janusevicius/Checkly, OpenAI rollout-budget PRs, Asay InfoWorld); ~1,360 words
 
 2. ✅ **AGENTS.md as Multi-Agent Orchestration Manifest (Regular — High Priority)** — Written 2026-09-21 → `2026-09-21-agents-md-multi-agent-orchestration-manifest-dependency-annotations-exclusion-zones-codex-cli.md`
    - Note: Extends AGENTS.md from per-session instruction set to coordination substrate for teams running 4+ parallel agents; four additions: dependency annotations (task graph with owned_by + status fields), milestone tags (binary shared checkpoints agents read to confirm upstream state), exclusion zones (file-based lock protocol in tmp/locks/ for serialised shared resources), rollback conditions (state-restoration table mapping failure conditions to recovery procedures); four-agent threshold: pairwise interaction count exceeds human oversight capacity at 4 agents (6 channels), grows quadratically to 15 at 6 agents; compound constraint interaction hazard addressed by separating Coordination section above Instructions in file order; no new tooling required — all patterns work with Codex CLI default AGENTS.md-on-startup behaviour; citations draw on Yegge (2026) 600-engineer survey, OpenAI AGENTS.md spec, Jadhav et al. arXiv:2609.03156 compound constraints, Herdr Engineering Blog 4-agent threshold case study, Kapetanovic et al. arXiv:2608.30701; 5 citations; ~1,380 words
