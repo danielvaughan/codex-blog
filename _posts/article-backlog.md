@@ -1,12 +1,19 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-21T10:24:34+01:00
+last_modified_at: 2026-09-21T11:06:15+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Plugin4Shell — Zero-Click Supply Chain Exploit, Codex CLI (2026-09-21 Hourly Article Run)
+
+1. ✅ **Plugin4Shell Explained: How a Zero-Click Exploit Targets Your Codex CLI Setup** — Written 2026-09-21 → `2026-09-21-plugin4shell-zero-click-supply-chain-exploit-codex-cli.md`
+   - Note: Source: Air (security researcher, September 17, 2026) coordinated disclosure; coverage: Ajit Singh, Dev Weekly Sep 14-20 2026 (singhajit.com); vulnerability class: hash-shaped branch name bypass in marketplace plugin auto-update system; attack vector: attacker creates SHA-format branch in plugin repo → auto-updater substitutes malicious branch for pinned commit; zero-click (no user interaction required); affected: all Codex CLI < v0.146.0 with auto-update enabled; fix: v0.146.0 strict hash validation (confirms resolved object is a commit, not a branch); higher-risk origins: Bitbucket, self-hosted GitLab CE, Gitea; GitHub.com default branch-naming restrictions reduce (but do not eliminate) risk; mitigations: `codex plugins set-auto-update off`, origin allowlisting, AGENTS.md plugin version locking, CI `auto_update = false` config, PreToolUse integrity hook; broader context: supply-chain attacks on agentic developer tooling, developer-environment compromise as path to repository/credential/service poisoning; not a novel vulnerability class (documented git semantic ambiguity); community debate: signed-artefact distribution vs. open marketplace; Codex CLI mapping: `writable_roots`, network isolation, plugin origin audits, pre-session manifest integrity check; 5 citations; ~1,350 words
+
+---
 
 ## Ideas Identified by Article Rater — 16 September 2026
 
