@@ -1,7 +1,7 @@
 ---
 title: "Cheap Code, Costly Judgment: Governance Conversion in Agentic Software Engineering — and How Codex CLI's Hook Architecture Makes It Mechanical"
 date: 2026-07-14T09:00:00+00:00
-last_modified_at: 2026-09-21T11:06:15+01:00
+last_modified_at: 2026-09-21T11:36:20+01:00
 tags: ["codex-cli", "governance", "agentic-engineering", "hooks", "AGENTS.md", "failure-classes", "PreToolUse", "PostToolUse", "approval-mode"]
 ---
 

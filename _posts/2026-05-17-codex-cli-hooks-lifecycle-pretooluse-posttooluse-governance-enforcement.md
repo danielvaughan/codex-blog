@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-hooks-lifecycle-pretooluse-posttooluse-governance-enforcement"
 tags: ["codex-cli", "hooks", "governance", "PreToolUse", "PostToolUse", "security", "enterprise", "lifecycle"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-09-21T11:06:15+01:00
+last_modified_at: 2026-09-21T11:36:20+01:00
 ---
 # Codex CLI Hooks: Lifecycle Governance with PreToolUse, PostToolUse, and Enterprise Enforcement
 
