@@ -3,7 +3,7 @@ title: "Decision-Impact Scoring for Codex Queue: Encoding Task Interdependency B
 parent: "Articles"
 nav_order: 1163
 date: 2026-09-21T15:00:00+00:00
-last_modified_at: 2026-09-22T09:05:34+01:00
+last_modified_at: 2026-09-22T10:09:14+01:00
 tags: ["codex-cli", "multi-agent", "codex-queue", "task-management", "agents-md", "decision-impact", "orchestration", "workflow"]
 ---
 
@@ -166,5 +166,3 @@ Decision-impact scoring is not a replacement for purpose-built orchestration too
 [^3]: Janusevicius, E. (2026). "We Let AI Agents Rewrite a 92M-Message-a-Day Service in Go. Zero Incidents." Checkly Engineering Blog, September 2026. Referenced in: "The Overnight Agent" (codex-resources, September 10, 2026).
 
 [^4]: OpenAI. (2026). Codex CLI rollout token budget — pull requests #28746, #28494, #28707, #29423, #29324. GitHub, June 2026. Referenced in: "Rollout Token Budgets and Multi-Agent Delegation" (codex-resources, September 9, 2026).
-
-[^5]: Asay, M. (2026). "Managing multiple AI coding agents is harder than it looks." InfoWorld, September 2026. Referenced in: "The Best IDE for Agentic AI Is Not an IDE" (codex-resources, September 16, 2026).

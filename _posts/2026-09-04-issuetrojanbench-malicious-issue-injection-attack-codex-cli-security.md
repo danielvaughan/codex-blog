@@ -3,7 +3,7 @@ title: "IssueTrojanBench: 79% Attack Success Rate — When AGENTS.md Is the Targ
 parent: "Articles"
 nav_order: 1126
 date: 2026-09-04T09:00:00+00:00
-last_modified_at: 2026-09-22T09:05:34+01:00
+last_modified_at: 2026-09-22T10:09:14+01:00
 tags: ["security", "prompt-injection", "codex-cli", "AGENTS.md", "coding-agents", "attack-surface", "sandboxing", "supply-chain"]
 ---
 

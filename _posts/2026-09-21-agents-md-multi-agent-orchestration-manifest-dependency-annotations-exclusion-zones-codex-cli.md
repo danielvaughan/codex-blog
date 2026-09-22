@@ -3,7 +3,7 @@ title: "AGENTS.md as Multi-Agent Orchestration Manifest: Dependency Annotations,
 parent: "Articles"
 nav_order: 1162
 date: 2026-09-21T13:00:00+00:00
-last_modified_at: 2026-09-22T09:05:34+01:00
+last_modified_at: 2026-09-22T10:09:14+01:00
 tags: ["agents-md", "multi-agent", "orchestration", "codex-cli", "coordination", "workflow", "parallel-agents"]
 ---
 
@@ -169,5 +169,3 @@ AGENTS.md extends naturally from per-session instruction set to multi-agent orch
 [^3]: Jadhav, A., LaPlaca, M., Stone, R., Raja, S., Ochoa, L., & Nagaraju, P. (2026). *Compound Prompt Constraints in LLM Code Generation: A Factorial Study of Format, Persona, and Urgency.* arXiv:2609.03156.
 
 [^4]: Herdr Engineering Blog. (2026, August). *Scaling Codex CLI: What breaks at four agents and how we fixed it.* Internal case study summarised in Yegge (2026) thread discussion.
-
-[^5]: Kapetanovic, A., Duricic, T., Mercep, A., & Lacic, E. (2026). *A phased workflow for operating LLM-based coding agents.* arXiv:2608.30701. https://arxiv.org/abs/2608.30701
