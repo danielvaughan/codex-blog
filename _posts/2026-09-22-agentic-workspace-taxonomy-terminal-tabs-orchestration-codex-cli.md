@@ -1,9 +1,9 @@
 ---
 title: "Agentic Workspace Taxonomy: From Terminal Tabs to Purpose-Built Orchestration, Codex CLI"
 parent: "Articles"
-nav_order: 1163
+nav_order: 1164
 date: 2026-09-22T08:00:00+00:00
-last_modified_at: 2026-09-22T03:10:53+01:00
+last_modified_at: 2026-09-22T07:07:50+01:00
 tags: ["codex-cli", "multi-agent", "orchestration", "workflow", "productivity", "tooling", "agentic", "context-management"]
 ---
 
