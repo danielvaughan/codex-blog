@@ -2,7 +2,7 @@
 title: "Writing Effective SKILL.md Files for Codex CLI"
 description: "A skill is a directory of instructions, scripts, and resources that an agent can discover and load on demand."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-09-22T10:25:51+01:00
+last_modified_at: 2026-09-22T11:39:29+01:00
 tags:
   - ecosystem
   - skills
@@ -193,12 +193,14 @@ Skills appear immediately after installation. Restart if Codex doesn't detect th
 
 Design your skill in three layers:
 
-```text
-Layer 1: description (100 tokens) ← always in context
-   ↓ agent decides to activate
-Layer 2: SKILL.md body (<5000 tokens recommended) ← loaded on activation
-   ↓ agent decides it needs more detail
-Layer 3: references/, scripts/, assets/ ← loaded on demand
+```mermaid
+flowchart TD
+    A["Layer 1: description (100 tokens)\nalways in context"]
+    B["Layer 2: SKILL.md body (under 5000 tokens recommended)\nloaded on activation"]
+    C["Layer 3: references/, scripts/, assets/\nloaded on demand"]
+
+    A -->|"agent decides to activate"| B
+    B -->|"agent decides it needs more detail"| C
 ```
 
 **Practical rules:**

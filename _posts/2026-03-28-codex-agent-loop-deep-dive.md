@@ -2,7 +2,7 @@
 title: "Inside the Codex Agent Loop: How Your Agent Actually Works"
 description: "*Based on Michael Bolins Unrolling the Codex Agent Loop series (January 2026). Source:"
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-09-22T10:25:51+01:00
+last_modified_at: 2026-09-22T11:39:29+01:00
 summary: "Michael Bolin's deep dive into Codex internals decoded — tokenisation, the quadratic growth problem, how tool calls work, and what it means for how you build agentic workflows."
 substack_ready: false
 tags:
@@ -31,25 +31,20 @@ Michael Bolin, Codex's lead engineer, published a rare technical deep-dive into 
 
 ## The Loop in One Diagram
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│                        AGENT LOOP                           │
-│                                                             │
-│  User input                                                 │
-│       ↓                                                     │
-│  Build prompt                                               │
-│  (system prompt + history + tool schemas + user message)    │
-│       ↓                                                     │
-│  Inference (tokenise → sample → stream output tokens)       │
-│       ↓                                                     │
-│  Parse response                                             │
-│  ┌─────────────────┐         ┌──────────────────────────┐  │
-│  │ Tool call found? │──yes──→│ Execute tool, add result  │  │
-│  └─────────────────┘         │ to history, loop again    │  │
-│          │ no                └──────────────────────────┘  │
-│          ↓                                                  │
-│  Assistant message → return control to user                 │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    A[User input]
+    B["Build prompt\n(system prompt + history + tool schemas + user message)"]
+    C["Inference (tokenise → sample → stream output tokens)"]
+    D[Parse response]
+    E{Tool call found?}
+    F["Execute tool, add result to history, loop again"]
+    G[Assistant message — return control to user]
+
+    A --> B --> C --> D --> E
+    E -->|yes| F
+    F --> C
+    E -->|no| G
 ```
 
 A "turn" runs this loop as many times as necessary. A single user message might trigger 50 tool calls before the final assistant message appears.
