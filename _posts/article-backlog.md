@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-22T07:07:50+01:00
+last_modified_at: 2026-09-22T09:05:34+01:00
 tags:
   - backlog
   - planning
@@ -14001,13 +14001,8 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 ## AGENTS.md Multi-Agent Manifest Pattern Library — Multi-Agent Coordination (2026-09-21 Article Rater)
 
-1. 📝 **AGENTS.md Multi-Agent Manifest Pattern Library: Ten Coordination Patterns for Parallel Agent Teams** — Identified 2026-09-21 by article-rater skill
-   - Source: AGENTS.md as Multi-Agent Orchestration Manifest (4.3, Sep 21) + The AGENTS.md Playbook (#05, 5.0) + The Overnight Agent (4.3) + Compound Constraint Problem (5.0)
-   - Gap: The Sep 21 article introduces the four-section manifest structure (dependency annotations, milestone tags, exclusion zones, rollback conditions) but stops at the architecture layer. A practical pattern library with ten copy-paste AGENTS.md coordination manifests for real-world multi-agent scenarios is the natural follow-up.
-   - Key patterns to cover: (1) DB migration + API update sequencing, (2) front-end + back-end + test agent triad, (3) parallel feature branches with shared config, (4) overnight rewrite agents with test-harness-first gate, (5) documentation + code agent pair, (6) security scan agent as pre-flight gate, (7) multi-cloud deployment agents, (8) sprint batch (4+ agents) with decision-impact triage, (9) long-running data pipeline agent with rollback conditions, (10) review agent as finaliser
-   - Each pattern: full AGENTS.md block, failure mode prevented, rollback condition handled, four-agent threshold notes
-   - Priority: High — directly extends the most popular premium article (#05, 5.0) into multi-agent territory
-   - SEO targets: "AGENTS.md multi-agent coordination patterns codex cli", "codex cli parallel agent dependency annotations exclusion zones", "AGENTS.md orchestration manifest dependency rollback 2026", "codex cli four agent threshold coordination failure modes", "multi-agent codex cli exclusion zones lock files AGENTS.md"
+1. ✅ **AGENTS.md Multi-Agent Manifest Pattern Library: Ten Coordination Patterns for Parallel Agent Teams** — Written 2026-09-22 → `2026-09-22-agents-md-multi-agent-manifest-pattern-library-ten-coordination-patterns-codex-cli.md`
+   - Note: Ten copy-paste coordination manifests covering: DB migration + API sequencing, front-end/back-end/test triad, parallel feature branches with shared config, overnight rewrite with harness-first gate, documentation + code pair, security scan pre-flight gate, multi-cloud deployment, sprint batch with decision-impact triage, long-running data pipeline with ACID-style checkpoints, review agent as finaliser; each pattern includes full AGENTS.md block, failure mode prevented, rollback condition, and four-agent threshold notes; unifying template uses four-section coordination block (dependency annotations, milestone tags, exclusion zones, rollback conditions); key insight: manifest size should match risk surface — oversized manifests reduce the +4% success gain from developer-written instructions; 5 citations (Vaughan Sep 21 manifest article, Herdr 4-agent threshold, Bouzenia et al. arXiv:2601.20404, Janusevicius Checkly, Mohammadi et al. arXiv:2608.13900); ~1,400 words
 
 ---
 
