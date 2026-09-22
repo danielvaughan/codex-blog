@@ -3,7 +3,7 @@ title: "AGENTS.md as Multi-Agent Orchestration Manifest: Dependency Annotations,
 parent: "Articles"
 nav_order: 1162
 date: 2026-09-21T13:00:00+00:00
-last_modified_at: 2026-09-22T01:06:15+01:00
+last_modified_at: 2026-09-22T03:10:53+01:00
 tags: ["agents-md", "multi-agent", "orchestration", "codex-cli", "coordination", "workflow", "parallel-agents"]
 ---
 
@@ -170,4 +170,4 @@ AGENTS.md extends naturally from per-session instruction set to multi-agent orch
 
 [^4]: Herdr Engineering Blog. (2026, August). *Scaling Codex CLI: What breaks at four agents and how we fixed it.* Internal case study summarised in Yegge (2026) thread discussion.
 
-[^5]: Kapetanovic, D., et al. (2026). *Instruction-count degradation in coding agent sessions.* arXiv:2608.30701.
+[^5]: Kapetanovic, A., Duricic, T., Mercep, A., & Lacic, E. (2026). *A phased workflow for operating LLM-based coding agents.* arXiv:2608.30701. https://arxiv.org/abs/2608.30701

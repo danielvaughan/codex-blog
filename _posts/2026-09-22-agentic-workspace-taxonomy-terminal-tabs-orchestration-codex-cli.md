@@ -3,7 +3,7 @@ title: "Agentic Workspace Taxonomy: From Terminal Tabs to Purpose-Built Orchestr
 parent: "Articles"
 nav_order: 1163
 date: 2026-09-22T08:00:00+00:00
-last_modified_at: 2026-09-22T01:06:15+01:00
+last_modified_at: 2026-09-22T03:10:53+01:00
 tags: ["codex-cli", "multi-agent", "orchestration", "workflow", "productivity", "tooling", "agentic", "context-management"]
 ---
 
@@ -154,7 +154,7 @@ A final note on Codex CLI configuration that applies at every tier: `tui.auto_re
 ## Footnotes
 
 [^1]: Asay, M. (2026, September 15). *The best IDE for agentic AI may not be an IDE at all*. InfoWorld. https://www.infoworld.com/article/4221481/the-best-ide-for-agentic-ai-may-not-be-an-ide-at-all.html
-[^2]: Fowler, M., & Hashimoto, M. (2026). *Harness engineering: The missing layer in agentic software development*. martinfowler.com. https://martinfowler.com/articles/harness-engineering.html
-[^3]: Mohammadi, N., Klein, J., Chadha, M., Arora, S., & Bindschaedler, V. (2026). *The working set of a coding agent: Coherence debt in repository-scale tasks*. arXiv:2608.13900. https://arxiv.org/abs/2608.13900
+[^2]: Böckeler, B. (2026). *Harness engineering*. martinfowler.com. https://martinfowler.com/articles/harness-engineering.html
+[^3]: Mohammadi, B., Klein, L., Chadha, A., Arora, A., & Bindschaedler, L. (2026). *The working set of a coding agent: Coherence debt in repository-scale tasks*. arXiv:2608.16630. https://arxiv.org/abs/2608.16630
 [^4]: Vaughan, D. (2026, September 21). *Decision-impact scoring for Codex queue: Task interdependency metadata, Codex CLI*. codex-resources. https://danielvaughan.github.io/codex-resources/articles/2026-09-21-decision-impact-scoring-codex-queue-task-interdependency-metadata-codex-cli
 [^5]: OpenAI. (2026). *Codex CLI v0.153.0 release notes — Guardian history persistence (PRs #41879, #42065)*. github.com/openai/codex/releases/tag/v0.153.0. Retrieved 2026-09-22.
