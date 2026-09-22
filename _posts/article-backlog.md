@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-22T11:39:29+01:00
+last_modified_at: 2026-09-22T18:07:45+01:00
 tags:
   - backlog
   - planning
@@ -14029,3 +14029,16 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Consulting-grade delivery checklist for enterprise teams deploying 4–12 parallel agents
    - Priority: Medium — foundational reference piece; best written after the AGENTS.md pattern library article provides the manifest patterns to reference
    - SEO targets: "codex cli multi-agent field manual parallel agents 2026", "codex cli AGENTS.md orchestration delegation spectrum overnight", "codex cli four agent threshold workspace coordination guide", "codex cli rollout budget token governance multi-agent", "codex cli verification tax multi-agent cost governance"
+
+---
+
+## IDE Extension Tier 3 Gotchas — Agentic Workflow Limitations (2026-09-22 Article Rater)
+
+1. 📝 **Why IDE Extensions Are a Transitional Tier for Agentic Workflows: JSON Schema Versioning, Guardian Hook Latency, and When to Upgrade** — Identified 2026-09-22 by article-rater skill (catch-up batch, Agentic Workspace Taxonomy structural observations)
+   - Source: Agentic Workspace Taxonomy (4.0, Sep 22) — Tier 3 section; AGENTS.md Pattern Library (4.5, Sep 22); Codex CLI v0.153.0 Guardian history feature (PRs #41879, #42065)
+   - Gap: The Taxonomy article correctly classifies IDE extensions as Tier 3 but characterises their failure mode (surface mismatch) only briefly. No library article covers the concrete operational problems that cause teams to stall at Tier 3 rather than upgrade to Tier 4 orchestration tooling.
+   - Key failure modes to document: (1) JSON schema versioning — `codex.json` dependency manifests grow brittle as the project evolves; schema-version drift causes silent parse failures; (2) Guardian hook latency — v0.153.0 Guardian history is polled, not event-driven in IDE context, introducing 2–5 s lag between agent completion and IDE status update; (3) Single-developer scope — IDE extensions surface per-developer queue state; in team environments with 4+ agents across 3+ developers, there is no shared ambient view; (4) Context propagation limits — IDE extension context panels typically show 2–3 k tokens of session context; mid-batch context loss is not surfaced until the developer explicitly inspects
+   - Upgrade signals: reconstruction cost > 10 min per context switch; team size > 2 concurrent developers; overnight batch frequency > twice per week
+   - Companion to Agentic Workspace Taxonomy (4.0, Sep 22) — this is the "Tier 3 deep-dive" that the Taxonomy article flags but does not deliver
+   - Priority: Low — library hygiene; useful for teams already stalled at Tier 3
+   - SEO targets: "codex cli IDE extension limitations multi-agent 2026", "codex cli Tier 3 agentic workspace upgrade", "codex cli Guardian hook IDE extension latency", "codex cli JSON schema versioning extension drift"
