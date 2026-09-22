@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-21T21:05:14+01:00
+last_modified_at: 2026-09-22T01:06:15+01:00
 tags:
   - backlog
   - planning
@@ -25,7 +25,8 @@ tags:
 2. ✅ **AGENTS.md as Multi-Agent Orchestration Manifest (Regular — High Priority)** — Written 2026-09-21 → `2026-09-21-agents-md-multi-agent-orchestration-manifest-dependency-annotations-exclusion-zones-codex-cli.md`
    - Note: Extends AGENTS.md from per-session instruction set to coordination substrate for teams running 4+ parallel agents; four additions: dependency annotations (task graph with owned_by + status fields), milestone tags (binary shared checkpoints agents read to confirm upstream state), exclusion zones (file-based lock protocol in tmp/locks/ for serialised shared resources), rollback conditions (state-restoration table mapping failure conditions to recovery procedures); four-agent threshold: pairwise interaction count exceeds human oversight capacity at 4 agents (6 channels), grows quadratically to 15 at 6 agents; compound constraint interaction hazard addressed by separating Coordination section above Instructions in file order; no new tooling required — all patterns work with Codex CLI default AGENTS.md-on-startup behaviour; citations draw on Yegge (2026) 600-engineer survey, OpenAI AGENTS.md spec, Jadhav et al. arXiv:2609.03156 compound constraints, Herdr Engineering Blog 4-agent threshold case study, Kapetanovic et al. arXiv:2608.30701; 5 citations; ~1,380 words
 
-3. 📝 **Agentic Workspace Taxonomy: From Terminal Tabs to Purpose-Built Orchestration (Regular — Medium Priority)** — Structured taxonomy of the approaches surfaced by Yegge's thread: tmux layers, queue wrappers, IDE extensions, standalone TUI tools (Herdr, Conductor). What each approach optimises for, which Codex CLI features it requires, and where each breaks down at scale. Source articles: The Best IDE for Agentic AI (4.0), Context Engineering (5.0), Working Memory / Coherence Debt (4.6).
+3. ✅ **Agentic Workspace Taxonomy: From Terminal Tabs to Purpose-Built Orchestration (Regular — Medium Priority)** — Written 2026-09-22 → `2026-09-22-agentic-workspace-taxonomy-terminal-tabs-orchestration-codex-cli.md`
+   - Note: Five-tier taxonomy (Tier 0: raw tabs; Tier 1: tmux/Zellij multiplexer; Tier 2: queue wrappers; Tier 3: IDE extensions; Tier 4: standalone TUI orchestrators — Herdr, Conductor); for each tier: optimisation target, required Codex CLI features, specific scaling failure mode; decision table mapping agent count × task structure to recommended tier; unifying theme: workspace failures are coherence failures not compute failures — reconstruction cost is the signal that you have outgrown the current tier; Codex CLI features referenced: tui.auto_recap, named --session handles, Guardian history (v0.153.0+), codex queue list --format json, AGENTS.md dependency annotations; sources: Asay/InfoWorld No-IDE article, Fowler/Hashimoto harness engineering, Mohammadi et al. arXiv:2608.13900 coherence debt, companion Decision-Impact Scoring article, Codex CLI v0.153.0 release notes; 5 citations; ~1,350 words
 
 ---
 
