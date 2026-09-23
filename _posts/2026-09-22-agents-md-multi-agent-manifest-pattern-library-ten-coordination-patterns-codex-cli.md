@@ -3,7 +3,7 @@ title: "AGENTS.md Multi-Agent Manifest Pattern Library: Ten Coordination Pattern
 parent: "Articles"
 nav_order: 1165
 date: 2026-09-22T09:00:00+00:00
-last_modified_at: 2026-09-23T03:08:48+01:00
+last_modified_at: 2026-09-23T10:08:42+01:00
 tags: ["codex-cli", "multi-agent", "agents-md", "orchestration", "coordination", "patterns", "agentic", "workflow"]
 ---
 
@@ -323,7 +323,7 @@ Not every scenario needs all four coordination block sections. The following gui
 | Partial-write inconsistency | Rollback Conditions only |
 | Four or more concurrent agents | Full coordination block |
 
-A manifest that is larger than the risk it addresses adds overhead without safety. Lulla et al. found that AGENTS.md files reduce agent runtime by 28.64% and output token consumption by 16.58% while maintaining comparable task completion — but only when the instructions are precise and well-targeted.[^3] Oversized manifests reduce that gain.
+A manifest that is larger than the risk it addresses adds overhead without safety. Lulla et al. found that AGENTS.md files reduce agent runtime by 28.64 per cent and output token consumption by 16.58 per cent while maintaining comparable task completion — but only when the instructions are precise and well-targeted.[^3] Oversized manifests reduce that gain.
 
 Start with the smallest pattern that addresses the specific failure mode. Add sections when a new failure mode appears, not before.
 

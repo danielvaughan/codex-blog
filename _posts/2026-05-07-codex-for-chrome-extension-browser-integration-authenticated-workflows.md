@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-for-chrome-extension-browser-integration-authenticated-workflows"
 tags: ["codex-cli", "chrome-extension", "browser-integration", "computer-use", "security", "workflow"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-23T03:08:48+01:00
+last_modified_at: 2026-09-23T10:08:42+01:00
 ---
 # Codex for Chrome: Browser Integration for Authenticated Workflows
 
