@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-23T10:24:37+01:00
+last_modified_at: 2026-09-23T18:09:02+01:00
 tags:
   - backlog
   - planning
@@ -14042,3 +14042,62 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Companion to Agentic Workspace Taxonomy (4.0, Sep 22) — this is the "Tier 3 deep-dive" that the Taxonomy article flags but does not deliver
    - Priority: Low — library hygiene; useful for teams already stalled at Tier 3
    - SEO targets: "codex cli IDE extension limitations multi-agent 2026", "codex cli Tier 3 agentic workspace upgrade", "codex cli Guardian hook IDE extension latency", "codex cli JSON schema versioning extension drift"
+
+---
+
+## Astra Searchable Task History — Experimental Context Management, Long Sessions, Codex CLI (2026-09-23 Article Rater)
+
+1. 📝 **Astra's Searchable Task History: The End of "Remind Me Where We Were"** — Identified 2026-09-23 by article-rater skill (YT curator sweep, AICodeKing Sep 21 roundup)
+   - Source: AICodeKing — "Codex's NEW A2A Communication & Crazy NEW UPDATES" (YouTube, 2026-09-21); v0.153.4 release notes; Codex CLI changelog-watch.md (GPT-6 Astra experimental context management)
+   - Gap: No KB article covers Astra's experimental within-task context search. Standard context compaction irreversibly discards older tokens; the new feature keeps notes and indexes earlier messages/tool results for retrieval within the same task. Zero YouTube tutorial coverage.
+   - Scope: Opt-in mechanics (`config.yaml`, requires new task after enabling); what the feature does vs. standard compaction; cost trade-off (Astra fast mode = 2.5× standard credit rate); exclusions (Business/Enterprise/API-key users at launch); practical test: state a constraint early, diverge, introduce a conflicting requirement, verify catch; suggested routing heuristic — Astra for hard/long-running problems, Luna/Sol for routine edits; connection to existing Context Compaction and Memory premium article (#08, 4.8) and Invalidation Contracts article (4.8)
+   - Priority: High — novel behaviour with zero existing KB coverage; strong newsletter angle ("your agent now has memory-like recall within a task"); high search intent from users hitting context degradation in long sessions
+   - SEO targets: "codex cli astra searchable task history 2026", "codex cli experimental context management config yaml", "gpt-6 astra within-task search notes long session", "codex cli astra fast mode cost context notes", "codex cli context compaction vs astra notes feature"
+
+---
+
+## Cross-Task @Mentions + Native Worktrees — Parallel Coding Coordination Pattern (2026-09-23 Article Rater)
+
+1. 📝 **Cross-Task Coordination: Combining @Mentions and Native CLI Worktrees for Parallel Coding** — Identified 2026-09-23 by article-rater skill (YT curator sweep, AICodeKing Sep 21 roundup)
+   - Source: AICodeKing roundup transcript, 2026-09-21; v0.154.0 native `--worktree` flag; @task-name mentions (August 2026, v0.149.0+); Agentic Workspace Taxonomy (4.0, Sep 22); AGENTS.md Pattern Library (4.5, Sep 22)
+   - Gap: The `@task-name` inter-session messaging primitive and the `--worktree` native flag have zero combined coverage. Both features shipped within six weeks of each other and compose into a new multi-agent workflow pattern.
+   - Key patterns: (1) Investigation/implementation split — Task A diagnoses a bug, Task B implements the fix, B queries A via `@mention` before proceeding, eliminating premature file merging; (2) A/B architectural comparison — two worktrees try different implementations, a third task `@mentions` both to compare and summarise outputs before the human selects; (3) Front-end/back-end parallel sprint — two worktrees develop in parallel, `@mentions` sync contract definitions mid-session
+   - Critical note: two agent completions do not guarantee clean integration — the explicit human merge step must be designed into the workflow
+   - Contrast with the older manual `git worktree add` approach (lustoykov, March 2026) — before/after ergonomics table useful
+   - Companion: Agentic Workspace Taxonomy (4.0), AGENTS.md Pattern Library (4.5), Decision-Impact Scoring (4.3)
+   - Priority: High — two features that together unlock a new workflow pattern; extends existing worktrees KB coverage; timely (features are weeks old)
+   - SEO targets: "codex cli @mentions worktrees parallel coding 2026", "codex cli cross-task coordination native worktree flag", "codex cli multi-agent @task mentions investigation implementation split", "codex cli worktree A/B comparison parallel branches", "codex cli v0.154 worktree v0.149 @mentions combined pattern"
+
+---
+
+## GPT-6 Sol and Luna Model Picker — v0.156.1 STABLE, Model Routing, Cost Strategy (2026-09-23 Article Rater)
+
+1. 📝 **GPT-6 Sol and Luna in the Model Picker: What Changes When the Full Model Tier Is Available** — Identified 2026-09-23 by article-rater skill (v0.156.1 changelog analysis)
+   - Source: Codex CLI v0.156.1 STABLE (23 September 2026) release notes; changelog-watch.md; existing Model Selection article (2026-03-26-codex-cli-model-selection.md, rated 3.6)
+   - Gap: v0.156.1 adds GPT-6 Sol and Luna as selectable options in the CLI model picker for the first time. The rate-limit fallback now defaults to Luna rather than stepping down to an older model. The existing model selection article predates this change and is now substantially outdated.
+   - Scope: Three-tier routing strategy (Astra for complex/expensive, Sol for standard agentic tasks, Luna for lightweight/budget/subagent); updated `model` config and `agents.default_subagent_model` patterns; rate-limit handling with new Luna default (implications for cost and session continuity); cost-per-task comparison across three tiers; when to pin a session vs. let the picker route dynamically; book Chapter 11 update implications (full rewrite required)
+   - Priority: High (Critical) — book Ch11 requires full rewrite; existing model-selection article is stale; no current KB coverage of the new three-tier model picker
+   - SEO targets: "codex cli gpt-6 sol luna model picker v0.156.1 2026", "codex cli model selection three tier astra sol luna", "codex cli rate limit luna default fallback 2026", "codex cli agents.default_subagent_model sol luna", "codex cli model routing cost strategy gpt-6 tier"
+
+---
+
+## Codex CLI v0.156.0 — Voice Default, Fullscreen TUI, /usage Dashboard, Mermaid Rendering (2026-09-23 Article Rater)
+
+1. 📝 **Voice on by Default: How v0.156.0 Changes the Codex CLI's Identity** — Identified 2026-09-23 by article-rater skill (v0.156.0 changelog analysis)
+   - Source: Codex CLI v0.156.0 STABLE (22 September 2026) release notes; changelog-watch.md
+   - Gap: v0.156.0 makes voice conversations default (F8 toggle, `/voice settings`, bundled Linux/Windows audio runtimes), ships `/tui` fullscreen mode, `/usage` analytics dashboard, worktree on by default, task filtering by status, Mermaid diagram rendering in responses, and six new terminal themes. No KB article covers any of these features.
+   - Framing: Identity-shift piece — the CLI is no longer a code-focussed TUI with optional voice; it is a multimodal agentic interface that happens to have a terminal. Voice ergonomics section (F8 hotkey, transcript review before execution, continuous listening state); `/tui` fullscreen layout for long-session work; `/usage` dashboard as the spend-transparency primitive teams have been building workarounds for; Mermaid rendering as the first natively visual output format in the CLI; worktree-on-by-default as the confirmation that parallel-agent workflows are now the expected default mode.
+   - Sub-article candidate: the `/usage` dashboard deserves its own article (see idea below); the voice ergonomics angle connects to the "Voice Mode as Multi-Agent Orchestrator" idea from the Sep 18 YT sweep
+   - Priority: High — strong newsletter anchor; all features are new and have zero KB coverage; covers book Ch05, Ch09, Ch13, Ch14 update needs in one article
+   - SEO targets: "codex cli v0.156.0 voice default F8 toggle 2026", "codex cli tui fullscreen mode v0.156", "codex cli usage dashboard analytics 2026", "codex cli mermaid diagram rendering terminal", "codex cli worktree default v0.156 multi-agent"
+
+---
+
+## /usage Analytics Dashboard — Token Spend Visibility, Cost Governance, v0.156.0 (2026-09-23 Article Rater)
+
+1. 📝 **The /usage Dashboard: Getting Real-Time Visibility Into Your Codex Spend** — Identified 2026-09-23 by article-rater skill (v0.156.0 changelog analysis)
+   - Source: Codex CLI v0.156.0 STABLE (22 September 2026) release notes; changelog-watch.md; Token Economics and ROI of Coding Agents (#11, 4.6); Rollout Token Budgets / Multi-Agent Delegation (4.0)
+   - Gap: No KB article covers the `/usage` command. Prior to v0.156.0, Codex CLI users had no in-session spend visibility; auditing required the OpenAI web dashboard or third-party logging. The `/usage` dashboard closes this gap at the TUI layer.
+   - Scope: What `/usage` shows (token totals, plugin/skill activity, usage trends) and what it doesn't (session-level breakdown vs. account-level aggregates); how to use it alongside rollout token budgets and `codex queue` cost differentiation; the "spend transparency gap" it closes; how to build a daily review habit — check `/usage` before and after each sprint; connection to billing-transparency argument in Billing Transparency / Token Drain Trust Gap article (4.6); team governance implication — link to Token Economics and ROI (#11)
+   - Priority: Medium — practical and narrow; best written as a companion to the v0.156.0 overview article; standalone SEO value limited to "/usage codex cli" queries
+   - SEO targets: "codex cli /usage dashboard token spend visibility v0.156", "codex cli usage analytics command 2026", "codex cli token cost monitoring real-time", "codex cli spend transparency plugin activity usage", "codex cli daily token budget review /usage command"
