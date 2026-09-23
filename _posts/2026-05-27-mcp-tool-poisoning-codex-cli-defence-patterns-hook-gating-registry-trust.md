@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-mcp-tool-poisoning-codex-cli-defence-patterns-hook-gating-registry-trust"
 tags: ["codex-cli", "mcp", "security", "tool-poisoning", "rug-pull", "supply-chain", "hooks", "PreToolUse", "defence"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-09-22T18:07:45+01:00
+last_modified_at: 2026-09-23T03:08:48+01:00
 ---
 # MCP Tool Poisoning and Codex CLI: Attack Taxonomy, Defence Patterns, and Production Hardening
 

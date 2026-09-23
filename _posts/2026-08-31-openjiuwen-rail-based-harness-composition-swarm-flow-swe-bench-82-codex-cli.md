@@ -1,7 +1,7 @@
 ---
 title: "openJiuwen: Rail-Based Harness Composition, Swarm Flow Operators, and What 82.6% SWE-bench Means for Codex CLI Operators"
 date: 2026-08-31T23:00:00+00:00
-last_modified_at: 2026-09-22T18:07:45+01:00
+last_modified_at: 2026-09-23T03:08:48+01:00
 tags: ["codex-cli", "harness-engineering", "multi-agent", "swe-bench", "hooks", "architecture", "benchmarks", "long-horizon"]
 ---
 

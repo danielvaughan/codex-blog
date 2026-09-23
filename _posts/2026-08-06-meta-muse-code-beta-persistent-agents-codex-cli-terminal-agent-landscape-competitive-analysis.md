@@ -1,7 +1,7 @@
 ---
 title: "Meta Muse Code Enters the Terminal Agent Wars: Persistent Background Agents, Replay-Safe Event Logs, and What It Means for Your Codex CLI Workflow"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-09-22T18:07:45+01:00
+last_modified_at: 2026-09-23T03:08:48+01:00
 tags: ["codex-cli", "meta", "muse-code", "muse-spark", "terminal-agent", "competitive-analysis", "persistent-agents", "worktree-isolation", "benchmarks"]
 ---
 

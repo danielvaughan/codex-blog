@@ -3,7 +3,7 @@ title: "AGENTS.md Multi-Agent Manifest Pattern Library: Ten Coordination Pattern
 parent: "Articles"
 nav_order: 1165
 date: 2026-09-22T09:00:00+00:00
-last_modified_at: 2026-09-22T18:07:45+01:00
+last_modified_at: 2026-09-23T03:08:48+01:00
 tags: ["codex-cli", "multi-agent", "agents-md", "orchestration", "coordination", "patterns", "agentic", "workflow"]
 ---
 
@@ -323,7 +323,7 @@ Not every scenario needs all four coordination block sections. The following gui
 | Partial-write inconsistency | Rollback Conditions only |
 | Four or more concurrent agents | Full coordination block |
 
-A manifest that is larger than the risk it addresses adds overhead without safety. Bouzenia et al. found that developer-written AGENTS.md instructions improve task success by four percentage points and reduce bugs by thirty-five to fifty-five percent — but only when the instructions are precise and non-redundant.[^3] Oversized manifests reduce that gain.
+A manifest that is larger than the risk it addresses adds overhead without safety. Lulla et al. found that AGENTS.md files reduce agent runtime by 28.64% and output token consumption by 16.58% while maintaining comparable task completion — but only when the instructions are precise and well-targeted.[^3] Oversized manifests reduce that gain.
 
 Start with the smallest pattern that addresses the specific failure mode. Add sections when a new failure mode appears, not before.
 
@@ -333,6 +333,6 @@ Start with the smallest pattern that addresses the specific failure mode. Add se
 
 [^1]: Vaughan, D. (2026, September 21). *AGENTS.md as multi-agent orchestration manifest: Dependency annotations, exclusion zones, codex CLI*. codex-resources. https://danielvaughan.github.io/codex-resources/articles/2026-09-21-agents-md-multi-agent-orchestration-manifest-dependency-annotations-exclusion-zones-codex-cli
 [^2]: Herdr Engineering Blog. (2026, August). *The four-agent threshold: Why pairwise interaction count is the practical limit for unstructured multi-agent coordination*. herdr.io/engineering. Retrieved 2026-09-22.
-[^3]: Bouzenia, I., Devanbu, P., & Pradel, M. (2026). *Repo-level agent instruction files: Empirical study of developer-written vs. LLM-generated AGENTS.md*. arXiv:2601.20404. https://arxiv.org/abs/2601.20404
-[^4]: Janusevicius, E. (2026, September). *We let AI agents rewrite a 92M-message-a-day service in Go. Zero incidents*. Checkly Engineering Blog. https://www.checklyhq.com/blog/ai-agents-rewrite-go-service
-[^5]: Mohammadi, B., Fathi, R., Klein, L., & Arora, A. (2026). *Agentic transaction: Towards ACID-compliant agent systems*. arXiv:2608.13900. https://arxiv.org/abs/2608.13900
+[^3]: Lulla, J. L., Mohsenimofidi, S., Galster, M., Zhang, J. M., Baltes, S., & Treude, C. (2026). *On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents*. arXiv:2601.20404. https://arxiv.org/abs/2601.20404
+[^4]: Janusevicius, E. (2026, September). *We let AI agents rewrite a 92M-message-a-day service in Go. Zero incidents*. Checkly Engineering Blog. https://www.checklyhq.com/blog/agentic-rewrite-nodejs-to-go/
+[^5]: Sun, Z., Wang, X., & Li, G. (2026). *Agentic transaction: Towards ACID-compliant agent systems*. arXiv:2608.13900. https://arxiv.org/abs/2608.13900
