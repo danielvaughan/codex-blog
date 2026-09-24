@@ -2,7 +2,7 @@
 title: "Context Privilege Escalation: What 282 Vulnerable Sources in 12 Coding Agent Harnesses Reveal — and How to Harden Codex CLI"
 parent: "Articles"
 date: 2026-09-02T09:00:00+00:00
-last_modified_at: 2026-09-24T07:07:17+01:00
+last_modified_at: 2026-09-24T10:11:38+01:00
 tags: ["codex-cli", "security", "privilege-escalation", "context-assembly", "AGENTS.md", "prompt-injection", "M-CPE", "X-CPE", "harness-security"]
 ---
 
