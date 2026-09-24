@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-agent-sandbox-comparison-codex-seatbelt-openshell-docker-sbx"
 tags: ["codex-cli", "sandbox", "security", "seatbelt", "openshell", "docker-sbx", "isolation", "comparison"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-09-23T18:09:02+01:00
+last_modified_at: 2026-09-24T03:09:54+01:00
 ---
 # Agent Sandbox Comparison Matrix: Codex Seatbelt vs NVIDIA OpenShell vs Docker sbx
 

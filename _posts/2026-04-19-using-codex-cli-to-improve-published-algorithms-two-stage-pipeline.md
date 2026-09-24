@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-using-codex-cli-to-improve-published-algorithms-two-stage-pipeline"
 tags: ["codex-cli", "claude-code", "algorithm-improvement", "research", "agentic-engineering", "iterative-refinement"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-09-23T18:09:02+01:00
+last_modified_at: 2026-09-24T03:09:54+01:00
 ---
 # Using Codex CLI to Improve Published Algorithms: A Two-Stage Pipeline
 
