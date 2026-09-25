@@ -3,7 +3,7 @@ title: "GPT-6 Sol and Luna in the Model Picker: Three-Tier Routing for Codex CLI
 parent: "Articles"
 nav_order: 1166
 date: 2026-09-25T08:00:00+00:00
-last_modified_at: 2026-09-25T09:05:33+01:00
+last_modified_at: 2026-09-25T10:06:21+01:00
 tags: ["codex-cli", "model-selection", "gpt-6", "astra", "sol", "luna", "model-routing", "cost-governance", "enterprise"]
 ---
 
@@ -62,7 +62,7 @@ The most operationally significant change in v0.156.1 is the new fallback defaul
 
 The v0.156.1 behaviour is different: when the session model hits a rate limit, the picker now recommends GPT-6 Luna, not a step-down to an older generation. Luna's cost structure means that staying in the GPT-6 family at the Luna tier is cheaper per token than GPT-5.6 Sol was, so the rate-limit prompt has both a cost and a capability argument.
 
-For teams that were relying on the old step-down behaviour as an implicit cost-control mechanism — letting sessions drift toward cheaper legacy models as they approached limits — this change breaks the assumption. The new fallback is Luna, which is a reasonable default, but any team that wants to control fallback behaviour explicitly should configure it:
+For teams that were relying on the old step-down behaviour as an implicit cost-control mechanism — letting sessions drift towards cheaper legacy models as they approached limits — this change breaks that assumption. The new fallback is Luna, which is a reasonable default, but any team that wants to control fallback behaviour explicitly should configure it:
 
 ```toml
 [model_fallback]
@@ -111,7 +111,7 @@ The decision between Astra, Sol, and Luna should be driven by task characteristi
 
 ### Tier Assignment in AGENTS.md
 
-For teams running multi-agent workflows, encoding tier assignments in AGENTS.md removes the per-session cognitive overhead:
+For teams running multi-agent workflows, encoding tier assignments in AGENTS.md removes the per-session cognitive overhead:[^5]
 
 ```markdown
 ## Model Routing Policy
@@ -142,5 +142,4 @@ The arrival of GPT-6 Sol and Luna in the production picker, combined with Bedroc
 [^1]: Codex CLI v0.156.1 release notes (23 September 2026). GPT-6 Sol and Luna added to the CLI model picker; rate-limit switch prompt now recommends Luna as default.
 [^2]: Codex CLI v0.157.0 release notes (25 September 2026). Amazon Bedrock routing for GPT-6 Sol and Luna; migration prompts for teams upgrading from older models.
 [^3]: Codex CLI changelog-watch.md (September 2026). GPT-6 Astra Enterprise opt-in policy; six-tier model structure (Terra Light, Sol Light, Sol Medium, Astra Light, Astra Medium, Astra Extra High); Astra cross-context memory feature.
-[^4]: Codex CLI v0.156.0 release notes (22 September 2026). Worktree support enabled by default; `/usage` analytics dashboard; voice conversations now default; six new terminal themes.
 [^5]: Codex CLI AGENTS.md (2026). Multi-agent coordination patterns; AGENTS.md as orchestration manifest; subagent model routing via `agents.default_subagent_model`.
