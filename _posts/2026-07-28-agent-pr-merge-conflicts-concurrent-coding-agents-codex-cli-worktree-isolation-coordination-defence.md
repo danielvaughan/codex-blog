@@ -1,7 +1,7 @@
 ---
 title: "When Agents Collide: What 33,596 Pull Requests Reveal About Merge Conflicts in Multi-Agent Development"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-09-24T10:25:22+01:00
+last_modified_at: 2026-09-25T03:10:23+01:00
 tags: ["codex-cli", "merge-conflicts", "multi-agent", "parallel-development", "worktree-isolation", "git", "coordination"]
 ---
 

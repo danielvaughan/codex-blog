@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-mcp-sandbox-state-metadata-context-aware-tool-servers"
 tags: ["codex-cli", "mcp", "sandbox", "security", "tool-servers", "metadata", "permissions"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-09-24T10:25:22+01:00
+last_modified_at: 2026-09-25T03:10:23+01:00
 ---
 # Codex CLI MCP Sandbox-State Metadata: Building Context-Aware Tool Servers
 
