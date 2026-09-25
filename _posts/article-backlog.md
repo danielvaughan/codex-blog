@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-25T03:10:23+01:00
+last_modified_at: 2026-09-25T09:05:33+01:00
 tags:
   - backlog
   - planning
@@ -14072,12 +14072,8 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 ## GPT-6 Sol and Luna Model Picker — v0.156.1 STABLE, Model Routing, Cost Strategy (2026-09-23 Article Rater)
 
-1. 📝 **GPT-6 Sol and Luna in the Model Picker: What Changes When the Full Model Tier Is Available** — Identified 2026-09-23 by article-rater skill (v0.156.1 changelog analysis)
-   - Source: Codex CLI v0.156.1 STABLE (23 September 2026) release notes; changelog-watch.md; existing Model Selection article (2026-03-26-codex-cli-model-selection.md, rated 3.6)
-   - Gap: v0.156.1 adds GPT-6 Sol and Luna as selectable options in the CLI model picker for the first time. The rate-limit fallback now defaults to Luna rather than stepping down to an older model. The existing model selection article predates this change and is now substantially outdated.
-   - Scope: Three-tier routing strategy (Astra for complex/expensive, Sol for standard agentic tasks, Luna for lightweight/budget/subagent); updated `model` config and `agents.default_subagent_model` patterns; rate-limit handling with new Luna default (implications for cost and session continuity); cost-per-task comparison across three tiers; when to pin a session vs. let the picker route dynamically; book Chapter 11 update implications (full rewrite required)
-   - Priority: High (Critical) — book Ch11 requires full rewrite; existing model-selection article is stale; no current KB coverage of the new three-tier model picker
-   - SEO targets: "codex cli gpt-6 sol luna model picker v0.156.1 2026", "codex cli model selection three tier astra sol luna", "codex cli rate limit luna default fallback 2026", "codex cli agents.default_subagent_model sol luna", "codex cli model routing cost strategy gpt-6 tier"
+1. ✅ **GPT-6 Sol and Luna in the Model Picker: Three-Tier Routing for Codex CLI** — Written 2026-09-25 → `2026-09-25-gpt-6-sol-luna-model-picker-three-tier-routing-codex-cli.md`
+   - Note: Three-tier routing strategy (Astra for complex/long sessions with cross-context memory, Sol for standard agentic coding, Luna for subagents/lightweight edits/rate-limit fallback); v0.156.1 model picker change (Sol and Luna now selectable, Luna default rate-limit fallback replacing old step-down behaviour); `model` config and `agents.default_subagent_model` split; v0.157.0 Amazon Bedrock routing for Sol and Luna as enterprise deployment option; AGENTS.md model routing policy template; fallback policy and rollout_budget interaction; book Ch11 full rewrite implications; 5 citations; ~1,350 words
 
 ---
 
@@ -14101,3 +14097,22 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Scope: What `/usage` shows (token totals, plugin/skill activity, usage trends) and what it doesn't (session-level breakdown vs. account-level aggregates); how to use it alongside rollout token budgets and `codex queue` cost differentiation; the "spend transparency gap" it closes; how to build a daily review habit — check `/usage` before and after each sprint; connection to billing-transparency argument in Billing Transparency / Token Drain Trust Gap article (4.6); team governance implication — link to Token Economics and ROI (#11)
    - Priority: Medium — practical and narrow; best written as a companion to the v0.156.0 overview article; standalone SEO value limited to "/usage codex cli" queries
    - SEO targets: "codex cli /usage dashboard token spend visibility v0.156", "codex cli usage analytics command 2026", "codex cli token cost monitoring real-time", "codex cli spend transparency plugin activity usage", "codex cli daily token budget review /usage command"
+
+---
+
+## Codex CLI v0.157.0 — Amazon Bedrock GPT-6, Daemon Default, Fork Shortcut (2026-09-25 Hourly Review)
+
+1. 📝 **Always-On by Default: What v0.157.0's Daemon Auto-Start Means for Codex CLI Teams** — Identified 2026-09-25 by hourly review
+   - Source: Codex CLI v0.157.0 STABLE (25 September 2026) release notes; changelog-watch.md
+   - Gap: v0.157.0 makes daemon auto-start the default behaviour (previously opt-in since v0.155), makes fullscreen transcripts the default view, adds the `f` fork shortcut for conversations locked by another app, expands `/import` to remote and background-server sessions, and improves network policy enforcement and terminal rendering (Unicode bullets, aligned equations). No KB article covers any of these as stable behaviours.
+   - Framing: "Always-on Codex" identity shift — the CLI is no longer a process you start; it is a persistent server you interact with. Daemon auto-start architecture section (what the background server does, why it matters for session continuity and reconnection); fullscreen-as-default user experience changes; fork shortcut as the multi-session coordination primitive that AGENTS.md coordination blocks rely on; `/import` expansion for remote teams; terminal rendering improvements as signal that Codex is maturing as a document-class output environment (Unicode, equations, Mermaid from v0.156)
+   - Companion: Fork shortcut complements @task-name cross-session coordination (v0.149.0) and native --worktree (v0.154.0); daemon auto-start connects to Ch13 execution model
+   - Priority: High — multiple chapter-critical changes in one stable; strong "Codex is always-on now" newsletter angle
+   - SEO targets: "codex cli v0.157 daemon auto-start default 2026", "codex cli always-on background server session continuity", "codex cli fork conversation shortcut f 2026", "codex cli fullscreen default v0.157 transcript", "codex cli v0.157.0 stable features daemon"
+
+2. 📝 **Amazon Bedrock for GPT-6: Enterprise Teams Can Now Route Codex CLI Through AWS** — Identified 2026-09-25 by hourly review
+   - Source: Codex CLI v0.157.0 STABLE (25 September 2026) release notes; changelog-watch.md; existing Amazon Bedrock KB note (notes/amazon-bedrock-experimental-codex-cli.md if present)
+   - Gap: v0.157.0 is the first stable Codex CLI release with Bedrock integration for GPT-6 Sol and Luna. Enterprise organisations that could not adopt GPT-6 due to AWS data-residency requirements now have a supported migration path. Migration prompts ship in-CLI to guide teams upgrading from older models.
+   - Scope: What Bedrock routing does and doesn't change (model capability stays identical; traffic routes via AWS); which models are supported at launch (Sol and Luna; Astra unconfirmed); configuration block (`model_routing.provider = "bedrock"`, `region`); migration prompt UX; use cases: financial services, healthcare, government that mandate AWS; interaction with existing `rollout_budget` and `agents.default_subagent_model` config; connection to the three-tier routing article (2026-09-25)
+   - Priority: High — first stable Bedrock release is a significant enterprise milestone; connects to the model-routing article written today
+   - SEO targets: "codex cli amazon bedrock gpt-6 sol luna v0.157 2026", "codex cli bedrock routing enterprise aws data residency", "codex cli gpt-6 bedrock configuration region 2026", "codex cli bedrock migration prompt enterprise upgrade", "codex cli aws bedrock enterprise deployment stable"

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.150.0: Interrupt Hooks, @Task Mentions, the /copy Picker, and Smarter Permission Keybindings"
 date: 2026-08-30T09:30:00+00:00
-last_modified_at: 2026-09-25T03:10:23+01:00
+last_modified_at: 2026-09-25T09:05:33+01:00
 tags: ["codex-cli", "hooks", "v0.150.0", "interrupt", "task-management", "permissions", "tui", "security"]
 ---
 
