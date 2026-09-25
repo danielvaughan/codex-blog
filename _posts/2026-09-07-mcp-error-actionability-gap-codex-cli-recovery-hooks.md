@@ -3,7 +3,7 @@ title: "MCP Error Actionability: Why isError:true Is Not Enough and How Codex CL
 parent: "Articles"
 nav_order: 1139
 date: 2026-09-07T08:00:00+00:00
-last_modified_at: 2026-09-25T11:40:05+01:00
+last_modified_at: 2026-09-25T13:04:58+01:00
 tags: ["mcp", "error-handling", "hooks", "on_mcp_tool_result", "recovery", "codex-cli", "v0.151.0"]
 ---
 
