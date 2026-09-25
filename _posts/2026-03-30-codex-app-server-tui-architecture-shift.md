@@ -2,7 +2,7 @@
 title: "Codex App-Server TUI: The Architecture Shift That Enables Remote Sessions"
 description: "Codex CLI v0.117.0 (released March 26, 2026) quietly shipped what may be its most significant architectural change to date."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-09-25T10:23:36+01:00
+last_modified_at: 2026-09-25T11:40:05+01:00
 tags:
   - architecture
   - app-server
@@ -27,25 +27,13 @@ Prior to this change, the CLI TUI was a native client running in the **same proc
 
 With the app-server backing the TUI, the design is now protocol-first:
 
-```text
-┌───────────────────────────┐
-│  Terminal (TUI client)    │
-│  speaks JSON-RPC / JSONL  │
-└─────────────┬─────────────┘
-              │ stdio (default) or WebSocket (experimental)
-              ▼
-┌───────────────────────────┐
-│  Codex App Server         │
-│  (Rust, manages agent     │
-│  loop & session state)    │
-└─────────────┬─────────────┘
-              │ spawns
-              ▼
-┌───────────────────────────┐
-│  Agent Loop               │
-│  (model calls, tools,     │
-│  sandbox execution)       │
-└───────────────────────────┘
+```mermaid
+flowchart TD
+    A["Terminal (TUI client)\nspeaks JSON-RPC / JSONL"]
+    B["Codex App Server\n(Rust, manages agent loop & session state)"]
+    C["Agent Loop\n(model calls, tools, sandbox execution)"]
+    A -->|"stdio (default) or WebSocket (experimental)"| B
+    B -->|spawns| C
 ```
 
 The TUI is now just another client. It launches an App Server child process, speaks JSON-RPC over stdio (JSONL), and renders the same streaming events and approvals that any other client would receive.[^2]
