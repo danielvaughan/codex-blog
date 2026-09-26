@@ -3,7 +3,7 @@ title: "Daemon Auto-Start Is Now the Stable Default in Codex CLI v0.157.0"
 parent: "Articles"
 nav_order: 1167
 date: 2026-09-25T13:00:00+00:00
-last_modified_at: 2026-09-25T13:04:58+01:00
+last_modified_at: 2026-09-26T03:09:02+01:00
 tags: ["codex-cli", "daemon", "exec-server", "v0.157.0", "architecture", "always-on", "session-management", "background-server"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["codex-cli", "daemon", "exec-server", "v0.157.0", "architecture", "always
 
 ---
 
-Codex CLI v0.157.0, released 25 September 2026, confirmed daemon auto-start as a stable default behaviour.[^1] The feature was introduced as opt-in in v0.155.0 and promoted to default during the v0.157 alpha cycle. With the stable release, every new interactive Codex session automatically starts a background server process unless one is already running. Codex is now, in practical terms, an always-on tool.
+Codex CLI v0.157.0, released 25 September 2026, confirmed daemon auto-start as a stable default behaviour.[^1] The feature was introduced as opt-in in v0.156.0 and promoted to default during the v0.157 alpha cycle. With the stable release, every new interactive Codex session automatically starts a background server process unless one is already running. Codex is now, in practical terms, an always-on tool.
 
 This is a quiet but consequential architectural shift. It changes the startup contract, the recovery UX, and the mental model for teams running Codex in multi-terminal workflows.
 
