@@ -3,7 +3,7 @@ title: "Rollout Token Budgets and Multi-Agent Delegation: Cross-Thread Cost Gove
 parent: "Articles"
 nav_order: 1150
 date: 2026-09-09T08:00:00+00:00
-last_modified_at: 2026-09-26T10:24:07+01:00
+last_modified_at: 2026-09-26T11:40:43+01:00
 tags: ["codex-cli", "multi-agent", "token-budget", "cost-governance", "agentic", "configuration", "rollout-budget", "delegation"]
 ---
 

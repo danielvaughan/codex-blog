@@ -1,7 +1,7 @@
 ---
 title: "From Static to Dynamic: What MCR-Bench Reveals About Multi-Round Code Review — and How to Configure Codex CLI for the Real Thing"
 date: 2026-09-01T07:00:00+00:00
-last_modified_at: 2026-09-26T10:24:07+01:00
+last_modified_at: 2026-09-26T11:40:43+01:00
 tags: ["codex-cli", "code-review", "multi-round", "Guardian", "harness-engineering", "AGENTS.md", "multi-agent", "benchmarks"]
 ---
 
