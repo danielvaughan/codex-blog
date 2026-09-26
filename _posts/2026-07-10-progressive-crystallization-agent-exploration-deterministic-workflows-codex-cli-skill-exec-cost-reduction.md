@@ -1,7 +1,7 @@
 ---
 title: "Progressive Crystallisation: How to Turn Codex CLI Exploration into Deterministic, Lower-Cost Workflows"
 date: 2026-07-10T09:00:00+00:00
-last_modified_at: 2026-09-26T10:06:04+01:00
+last_modified_at: 2026-09-26T10:24:07+01:00
 tags: ["codex-cli", "progressive-crystallisation", "skills", "codex-exec", "cost-optimisation", "deterministic-workflows", "CI-CD", "session-extraction", "AIOps"]
 ---
 
