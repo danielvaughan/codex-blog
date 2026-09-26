@@ -1,7 +1,7 @@
 ---
 title: "Databricks' Internal Coding Benchmark: What a Multi-Million-Line Codebase Reveals About Model and Harness Selection for Codex CLI"
 date: 2026-07-30T09:00:00+00:00
-last_modified_at: 2026-09-26T03:09:02+01:00
+last_modified_at: 2026-09-26T10:06:04+01:00
 tags: ["codex-cli", "benchmarks", "model-selection", "harness", "cost-optimisation", "GLM-5.2", "enterprise"]
 ---
 

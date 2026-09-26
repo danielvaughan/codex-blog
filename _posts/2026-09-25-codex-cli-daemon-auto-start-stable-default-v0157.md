@@ -3,7 +3,7 @@ title: "Daemon Auto-Start Is Now the Stable Default in Codex CLI v0.157.0"
 parent: "Articles"
 nav_order: 1167
 date: 2026-09-25T13:00:00+00:00
-last_modified_at: 2026-09-26T03:09:02+01:00
+last_modified_at: 2026-09-26T10:06:04+01:00
 tags: ["codex-cli", "daemon", "exec-server", "v0.157.0", "architecture", "always-on", "session-management", "background-server"]
 ---
 
@@ -32,7 +32,7 @@ The practical result: the server process outlives individual CLI sessions. It pe
 
 ### Faster cold starts
 
-The daemon approach eliminates the per-session initialisation overhead. Sandbox provisioning, model connection negotiation, and workspace indexing happen once at server start rather than once per invocation. On projects with large working trees, this can shave several seconds from every session open.
+The daemon approach eliminates the per-session initialisation overhead. Sandbox provisioning, model connection negotiation, and workspace indexing happen once at server start rather than once per invocation. On projects with large working trees, this can shave several seconds from every session launch.
 
 ### Persistent execution context
 

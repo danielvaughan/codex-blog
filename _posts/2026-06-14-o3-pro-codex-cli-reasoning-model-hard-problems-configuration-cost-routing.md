@@ -5,7 +5,7 @@ timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-o3-pro-codex-cli-reasoning-model-hard-problems-configuration-cost-routing"
 tags: ["codex-cli", "o3-pro", "reasoning-models", "model-routing", "config.toml", "cost-management", "profiles"]
 date: 2026-06-14T09:00:00+00:00
-last_modified_at: 2026-09-26T03:09:02+01:00
+last_modified_at: 2026-09-26T10:06:04+01:00
 ---
 # o3-pro Lands in the API: Configuring Codex CLI for Maximum-Compute Reasoning on the Hardest Problems
 

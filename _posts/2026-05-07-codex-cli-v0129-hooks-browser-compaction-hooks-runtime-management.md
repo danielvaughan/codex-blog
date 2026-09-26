@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-v0129-hooks-browser-compaction-hooks-runtime-management"
 tags: ["codex-cli", "hooks", "compaction", "v0.129", "context-management", "long-sessions", "developer-experience"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-09-26T03:09:02+01:00
+last_modified_at: 2026-09-26T10:06:04+01:00
 ---
 # Codex CLI v0.129: The /hooks Browser, Compaction Hooks, and Runtime Hook Management
 
