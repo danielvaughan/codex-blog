@@ -3,7 +3,7 @@ title: "GPT-6 Sol and Luna in the Model Picker: Three-Tier Routing for Codex CLI
 parent: "Articles"
 nav_order: 1166
 date: 2026-09-25T08:00:00+00:00
-last_modified_at: 2026-09-26T11:40:43+01:00
+last_modified_at: 2026-09-28T07:17:06+01:00
 tags: ["codex-cli", "model-selection", "gpt-6", "astra", "sol", "luna", "model-routing", "cost-governance", "enterprise"]
 ---
 
@@ -111,7 +111,7 @@ The decision between Astra, Sol, and Luna should be driven by task characteristi
 
 ### Tier Assignment in AGENTS.md
 
-For teams running multi-agent workflows, encoding tier assignments in AGENTS.md removes the per-session cognitive overhead:[^5]
+For teams running multi-agent workflows, encoding tier assignments in AGENTS.md removes the per-session cognitive overhead:[^4]
 
 ```markdown
 ## Model Routing Policy
@@ -142,4 +142,4 @@ The arrival of GPT-6 Sol and Luna in the production picker, combined with Bedroc
 [^1]: Codex CLI v0.156.1 release notes (23 September 2026). GPT-6 Sol and Luna added to the CLI model picker; rate-limit switch prompt now recommends Luna as default.
 [^2]: Codex CLI v0.157.0 release notes (25 September 2026). Amazon Bedrock routing for GPT-6 Sol and Luna; migration prompts for teams upgrading from older models.
 [^3]: Codex CLI changelog-watch.md (September 2026). GPT-6 Astra Enterprise opt-in policy; six-tier model structure (Terra Light, Sol Light, Sol Medium, Astra Light, Astra Medium, Astra Extra High); Astra cross-context memory feature.
-[^5]: Codex CLI AGENTS.md (2026). Multi-agent coordination patterns; AGENTS.md as orchestration manifest; subagent model routing via `agents.default_subagent_model`.
+[^4]: Codex CLI AGENTS.md (2026). Multi-agent coordination patterns; AGENTS.md as orchestration manifest; subagent model routing via `agents.default_subagent_model`.
