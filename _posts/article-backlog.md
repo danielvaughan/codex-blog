@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-28T10:25:58+01:00
+last_modified_at: 2026-09-28T15:04:48+01:00
 tags:
   - backlog
   - planning
@@ -14102,13 +14102,8 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 ## Codex CLI v0.157.0 — Amazon Bedrock GPT-6, Daemon Default, Fork Shortcut (2026-09-25 Hourly Review)
 
-1. 📝 **Always-On by Default: What v0.157.0's Daemon Auto-Start Means for Codex CLI Teams** — Identified 2026-09-25 by hourly review
-   - Source: Codex CLI v0.157.0 STABLE (25 September 2026) release notes; changelog-watch.md
-   - Gap: v0.157.0 makes daemon auto-start the default behaviour (previously opt-in since v0.155), makes fullscreen transcripts the default view, adds the `f` fork shortcut for conversations locked by another app, expands `/import` to remote and background-server sessions, and improves network policy enforcement and terminal rendering (Unicode bullets, aligned equations). No KB article covers any of these as stable behaviours.
-   - Framing: "Always-on Codex" identity shift — the CLI is no longer a process you start; it is a persistent server you interact with. Daemon auto-start architecture section (what the background server does, why it matters for session continuity and reconnection); fullscreen-as-default user experience changes; fork shortcut as the multi-session coordination primitive that AGENTS.md coordination blocks rely on; `/import` expansion for remote teams; terminal rendering improvements as signal that Codex is maturing as a document-class output environment (Unicode, equations, Mermaid from v0.156)
-   - Companion: Fork shortcut complements @task-name cross-session coordination (v0.149.0) and native --worktree (v0.154.0); daemon auto-start connects to Ch13 execution model
-   - Priority: High — multiple chapter-critical changes in one stable; strong "Codex is always-on now" newsletter angle
-   - SEO targets: "codex cli v0.157 daemon auto-start default 2026", "codex cli always-on background server session continuity", "codex cli fork conversation shortcut f 2026", "codex cli fullscreen default v0.157 transcript", "codex cli v0.157.0 stable features daemon"
+1. ✅ **Always-On by Default: What v0.157.0's Daemon Auto-Start Means for Codex CLI Teams** — Written 2026-09-25 → `2026-09-25-codex-cli-daemon-auto-start-stable-default-v0157.md`
+   - Note: Published as "Daemon Auto-Start Is Now the Stable Default in Codex CLI v0.157.0". Covers the exec-server daemon shift, session continuity and reconnection, fullscreen-as-default transcript view, the `f` fork shortcut, `/import` expansion for remote sessions, network policy enforcement, and terminal rendering improvements. Architecture section explains the background server and why the persistent-service model matters for multi-terminal and remote/SSH workflows. Articles-index composite: 3.6. Companion: Sol/Luna model picker article (2026-09-25). Received copy-edit fixes 2026-09-26 (daemon auto-start opt-in version correction, phrasing).
 
 2. 📝 **Amazon Bedrock for GPT-6: Enterprise Teams Can Now Route Codex CLI Through AWS** — Identified 2026-09-25 by hourly review
    - Source: Codex CLI v0.157.0 STABLE (25 September 2026) release notes; changelog-watch.md; existing Amazon Bedrock KB note (notes/amazon-bedrock-experimental-codex-cli.md if present)
