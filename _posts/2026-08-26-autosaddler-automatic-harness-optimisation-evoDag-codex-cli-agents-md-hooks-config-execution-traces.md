@@ -1,7 +1,7 @@
 ---
 title: "AutoSaddler: What Automatic Harness Optimisation Teaches Us About Improving Codex CLI Configuration"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-09-28T10:07:27+01:00
+last_modified_at: 2026-09-28T10:25:58+01:00
 tags: ["codex-cli", "harness-engineering", "AGENTS.md", "hooks", "config.toml", "execution-traces", "harness-optimisation", "failure-diagnosis", "EvoDAG", "benchmarks"]
 ---
 
