@@ -2,7 +2,7 @@
 title: "Planning for Token Meltdown: How to Route Local to Paid Automatically"
 description: "When model providers stop subsidising token costs, your bill explodes overnight. A routing layer that tries local models first and promotes to cloud only when necessary is how you survive the transition. LiteLLM running as a local proxy gives you automatic fallback based on failures, latency, or context window limits."
 date: 2026-05-29T11:00:00+00:00
-last_modified_at: 2026-09-28T07:17:06+01:00
+last_modified_at: 2026-09-28T10:07:27+01:00
 tags:
   - codex-cli
   - local-models
@@ -50,7 +50,7 @@ graph TD
     D --> F["OpenAI / Anthropic<br/>gpt-5.4-mini<br/>claude-sonnet"]
 ```
 
-Every tool that speaks the OpenAI-compatible API, Codex CLI, Cline, Foundry Toolkit, points to a single URL: `http://127.0.0.1:4000/v1`. The router handles everything else.
+Every tool that speaks the OpenAI-compatible API — Codex CLI, Cline, Foundry Toolkit — points to a single URL: `http://127.0.0.1:4000/v1`. The router handles everything else.
 
 ## Setting up LiteLLM as the routing layer
 

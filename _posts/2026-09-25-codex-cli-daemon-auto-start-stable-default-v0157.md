@@ -3,7 +3,7 @@ title: "Daemon Auto-Start Is Now the Stable Default in Codex CLI v0.157.0"
 parent: "Articles"
 nav_order: 1167
 date: 2026-09-25T13:00:00+00:00
-last_modified_at: 2026-09-28T07:17:06+01:00
+last_modified_at: 2026-09-28T10:07:27+01:00
 tags: ["codex-cli", "daemon", "exec-server", "v0.157.0", "architecture", "always-on", "session-management", "background-server"]
 ---
 
@@ -40,7 +40,7 @@ The background server holds execution state between sessions. A long-running bac
 
 ### Multi-terminal workflows
 
-Teams that keep Codex open in multiple terminal tabs simultaneously benefit from a shared server. All tabs connect to the same background process, sharing a consistent view of running agents and queued tasks. The v0.157.0 release includes the `f` shortcut to fork a conversation open in another app while preserving drafts and queued prompts — a feature that requires the shared server model to work.
+Teams that keep Codex open in multiple terminal tabs simultaneously benefit from a shared server. All tabs connect to the same background process, sharing a consistent view of running agents and queued tasks. The v0.157.0 release includes the `f` shortcut to fork a conversation that is open in another app while preserving drafts and queued prompts — a feature that requires the shared server model to work.
 
 ### Recovery UX for conflicting settings
 

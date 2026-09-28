@@ -3,7 +3,7 @@ title: "GPT-6 Sol and Luna in the Model Picker: Three-Tier Routing for Codex CLI
 parent: "Articles"
 nav_order: 1166
 date: 2026-09-25T08:00:00+00:00
-last_modified_at: 2026-09-28T07:17:06+01:00
+last_modified_at: 2026-09-28T10:07:27+01:00
 tags: ["codex-cli", "model-selection", "gpt-6", "astra", "sol", "luna", "model-routing", "cost-governance", "enterprise"]
 ---
 
@@ -47,7 +47,7 @@ model = "gpt-6-luna"
 model = "gpt-6-astra-medium"
 ```
 
-For multi-agent sessions, the subagent model defaults independently from the session model. If you are running a large agent team and want subagents on Luna while keeping the orchestrator on Sol, the split is explicit:
+For multi-agent sessions, the subagent model defaults independently of the session model. If you are running a large agent team and want subagents on Luna while keeping the orchestrator on Sol, the split is explicit:
 
 ```toml
 [agents]
