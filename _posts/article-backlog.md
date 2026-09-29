@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-29T07:06:50+01:00
+last_modified_at: 2026-09-29T09:05:53+01:00
 tags:
   - backlog
   - planning
@@ -14058,15 +14058,8 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 ## Cross-Task @Mentions + Native Worktrees — Parallel Coding Coordination Pattern (2026-09-23 Article Rater)
 
-1. 📝 **Cross-Task Coordination: Combining @Mentions and Native CLI Worktrees for Parallel Coding** — Identified 2026-09-23 by article-rater skill (YT curator sweep, AICodeKing Sep 21 roundup)
-   - Source: AICodeKing roundup transcript, 2026-09-21; v0.154.0 native `--worktree` flag; @task-name mentions (August 2026, v0.149.0+); Agentic Workspace Taxonomy (4.0, Sep 22); AGENTS.md Pattern Library (4.5, Sep 22)
-   - Gap: The `@task-name` inter-session messaging primitive and the `--worktree` native flag have zero combined coverage. Both features shipped within six weeks of each other and compose into a new multi-agent workflow pattern.
-   - Key patterns: (1) Investigation/implementation split — Task A diagnoses a bug, Task B implements the fix, B queries A via `@mention` before proceeding, eliminating premature file merging; (2) A/B architectural comparison — two worktrees try different implementations, a third task `@mentions` both to compare and summarise outputs before the human selects; (3) Front-end/back-end parallel sprint — two worktrees develop in parallel, `@mentions` sync contract definitions mid-session
-   - Critical note: two agent completions do not guarantee clean integration — the explicit human merge step must be designed into the workflow
-   - Contrast with the older manual `git worktree add` approach (lustoykov, March 2026) — before/after ergonomics table useful
-   - Companion: Agentic Workspace Taxonomy (4.0), AGENTS.md Pattern Library (4.5), Decision-Impact Scoring (4.3)
-   - Priority: High — two features that together unlock a new workflow pattern; extends existing worktrees KB coverage; timely (features are weeks old)
-   - SEO targets: "codex cli @mentions worktrees parallel coding 2026", "codex cli cross-task coordination native worktree flag", "codex cli multi-agent @task mentions investigation implementation split", "codex cli worktree A/B comparison parallel branches", "codex cli v0.154 worktree v0.149 @mentions combined pattern"
+1. ✅ **Cross-Task Coordination: Combining @Mentions and Native CLI Worktrees for Parallel Coding** — Written 2026-09-29 → `2026-09-29-cross-task-coordination-mentions-worktrees-parallel-coding-codex-cli.md`
+   - Note: Three workflow patterns: (1) investigation/implementation split — @investigate produces root-cause summary, @implement queries it before any file write; (2) A/B architectural comparison — two worktrees, third @compare session queries both and surfaces tradeoffs for human decision; (3) front-end/back-end parallel sprint — @mentions sync contract definitions mid-session without file-merge risk. Before/after ergonomics table contrasts manual git worktree add scripting (pre-v0.153.0) with WorktreeManager::create (v0.153.0) and default worktree support (v0.156.0). Critical invariant: agent completions do not produce an integrated result — explicit human merge step is structural. AGENTS.md parallel session template with coordination section and merge discipline. @mention feature v0.150.0 STABLE (Aug 26); WorktreeManager v0.153.0 (Sep 2026); worktree default v0.156.0 (Sep 22). 5 citations; ~1,350 words
 
 ---
 

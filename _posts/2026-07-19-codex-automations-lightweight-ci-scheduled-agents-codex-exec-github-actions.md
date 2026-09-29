@@ -1,7 +1,7 @@
 ---
 title: "Codex Automations as Lightweight CI: When Scheduled Agents Replace Your Pipeline"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-09-29T07:06:50+01:00
+last_modified_at: 2026-09-29T09:05:53+01:00
 tags: ["codex-cli", "automations", "ci-cd", "codex-exec", "github-actions", "scheduled-tasks", "triggers"]
 ---
 
