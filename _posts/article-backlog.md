@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-09-29T03:09:49+01:00
+last_modified_at: 2026-09-29T07:06:50+01:00
 tags:
   - backlog
   - planning
@@ -14105,9 +14105,5 @@ The following gaps were identified during the 17 June 2026 article rating review
 1. ✅ **Always-On by Default: What v0.157.0's Daemon Auto-Start Means for Codex CLI Teams** — Written 2026-09-25 → `2026-09-25-codex-cli-daemon-auto-start-stable-default-v0157.md`
    - Note: Published as "Daemon Auto-Start Is Now the Stable Default in Codex CLI v0.157.0". Covers the exec-server daemon shift, session continuity and reconnection, fullscreen-as-default transcript view, the `f` fork shortcut, `/import` expansion for remote sessions, network policy enforcement, and terminal rendering improvements. Architecture section explains the background server and why the persistent-service model matters for multi-terminal and remote/SSH workflows. Articles-index composite: 3.6. Companion: Sol/Luna model picker article (2026-09-25). Received copy-edit fixes 2026-09-26 (daemon auto-start opt-in version correction, phrasing).
 
-2. 📝 **Amazon Bedrock for GPT-6: Enterprise Teams Can Now Route Codex CLI Through AWS** — Identified 2026-09-25 by hourly review
-   - Source: Codex CLI v0.157.0 STABLE (25 September 2026) release notes; changelog-watch.md; existing Amazon Bedrock KB note (notes/amazon-bedrock-experimental-codex-cli.md if present)
-   - Gap: v0.157.0 is the first stable Codex CLI release with Bedrock integration for GPT-6 Sol and Luna. Enterprise organisations that could not adopt GPT-6 due to AWS data-residency requirements now have a supported migration path. Migration prompts ship in-CLI to guide teams upgrading from older models.
-   - Scope: What Bedrock routing does and doesn't change (model capability stays identical; traffic routes via AWS); which models are supported at launch (Sol and Luna; Astra unconfirmed); configuration block (`model_routing.provider = "bedrock"`, `region`); migration prompt UX; use cases: financial services, healthcare, government that mandate AWS; interaction with existing `rollout_budget` and `agents.default_subagent_model` config; connection to the three-tier routing article (2026-09-25)
-   - Priority: High — first stable Bedrock release is a significant enterprise milestone; connects to the model-routing article written today
-   - SEO targets: "codex cli amazon bedrock gpt-6 sol luna v0.157 2026", "codex cli bedrock routing enterprise aws data residency", "codex cli gpt-6 bedrock configuration region 2026", "codex cli bedrock migration prompt enterprise upgrade", "codex cli aws bedrock enterprise deployment stable"
+2. ✅ **Amazon Bedrock for GPT-6: Enterprise Teams Can Now Route Codex CLI Through AWS** — Written 2026-09-26 → `2026-09-26-amazon-bedrock-gpt-6-sol-luna-enterprise-codex-cli.md`
+   - Note: v0.157.0 first stable GPT-6 on Bedrock milestone; covers Sol and Luna confirmed stable, Astra experimental (regional availability caveats); configuration block (`model_routing.provider`, `region`); AWS credential chain + TUI refresh progress; in-CLI migration prompts for GPT-5.x → GPT-6 upgrades; enterprise use cases (financial services FCA/DORA/OCC, healthcare HIPAA BAA, government FedRAMP GovCloud); three-tier routing strategy applies unchanged on Bedrock; rollout_budget accounting is provider-agnostic; practical note: don't switch region to chase Astra if data-residency is the reason you're on Bedrock; 5 citations (v0.157.0 release notes, AWS Bedrock GA blog, rollout-budget article, three-tier routing article, v0.148.0 Bedrock GA release notes); ~1,350 words; companion: Sol/Luna three-tier routing article (2026-09-25)
