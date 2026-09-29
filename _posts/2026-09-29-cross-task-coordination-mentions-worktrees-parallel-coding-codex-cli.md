@@ -1,7 +1,7 @@
 ---
 title: "Cross-Task Coordination: Combining @Mentions and Native Worktrees for Parallel Coding"
 date: 2026-09-29T08:00:00+00:00
-last_modified_at: 2026-09-29T09:05:53+01:00
+last_modified_at: 2026-09-29T10:05:46+01:00
 tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding", "v0.150.0", "v0.153.0", "v0.156.0", "cross-task", "orchestration"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding"
 
 ---
 
-Two features shipped within six weeks of each other in mid-2026 and, together, change how parallel Codex CLI sessions coordinate. The `@task-name` inter-session messaging primitive arrived in v0.150.0 STABLE (26 August 2026).[^1] The `WorktreeManager` API for native git worktree isolation landed in v0.153.0 (September 2026), with worktree support promoted to on-by-default in v0.156.0 (22 September 2026).[^2] Neither feature alone is remarkable — cross-session messaging existed in nascent form before v0.150.0, and manual `git worktree add` scripting predates Codex CLI entirely. The combination, however, creates something new: parallel sessions that work in genuine isolation and can still communicate structured results to each other without file-merging risk.
+Two features shipped within six weeks of each other in mid-2026 and, together, change how parallel Codex CLI sessions coordinate. The `@task-name` inter-session messaging primitive arrived in v0.150.0 STABLE (26 August 2026).[^1] The `WorktreeManager` API for native git worktree isolation landed in v0.153.0 (September 2026),[^5] with worktree support promoted to on-by-default in v0.156.0 (22 September 2026).[^2] Neither feature alone is remarkable — cross-session messaging existed in nascent form before v0.150.0, and manual `git worktree add` scripting predates Codex CLI entirely. The combination, however, creates something new: parallel sessions that work in genuine isolation and can still communicate structured results to each other without file-merging risk.
 
 This article covers the mechanics of both features and three workflow patterns that compose them.
 
