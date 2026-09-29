@@ -1,7 +1,7 @@
 ---
 title: "Cross-Task Coordination: Combining @Mentions and Native Worktrees for Parallel Coding"
 date: 2026-09-29T08:00:00+00:00
-last_modified_at: 2026-09-29T10:05:46+01:00
+last_modified_at: 2026-09-29T11:40:07+01:00
 tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding", "v0.150.0", "v0.153.0", "v0.156.0", "cross-task", "orchestration"]
 ---
 
@@ -49,7 +49,7 @@ The practical effect: a two-worktree parallel session that previously required a
 
 The most common cross-task pattern separates diagnosis from repair. Task A (`@investigate`) runs in read-only mode, analyses the failing test surface, and produces a structured diagnosis. Task B (`@implement`) waits for a signal from Task A before writing any code, then queries `@investigate` to confirm which files are in scope and what the root cause is before proceeding.
 
-```
+```text
 # In Task B (implement), after investigation is complete:
 # "Before modifying anything, query @investigate for the root cause summary."
 # The agent issues: @investigate — what files are affected and what is the root cause?
@@ -63,7 +63,7 @@ This pattern is useful when the diagnosis phase involves many read operations th
 
 Two worktrees implement the same feature using different architectural approaches. A third session (`@compare`) queries both via `@mentions` when they complete, summarises the tradeoffs, and surfaces the comparison for a human decision before either branch is merged.
 
-```
+```text
 # Session structure:
 # @approach-a  — implements Option A in worktree-a
 # @approach-b  — implements Option B in worktree-b
@@ -82,7 +82,7 @@ This pattern works well for architecture decisions where running both options in
 
 Two sessions develop front-end and back-end components in parallel. Midway through, a contract definition — an API interface or type schema — must be agreed before either session can complete its work. The `@mention` channel synchronises this without stopping either session.
 
-```
+```text
 # @frontend and @backend run in parallel.
 # At the agreed contract checkpoint:
 # @frontend queries: "@backend — confirm the /api/events response schema."
