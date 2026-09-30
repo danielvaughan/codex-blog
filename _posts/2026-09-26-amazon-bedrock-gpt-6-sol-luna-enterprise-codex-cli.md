@@ -1,7 +1,7 @@
 ---
 title: "Amazon Bedrock for GPT-6: Routing Codex CLI Through AWS in Enterprise Environments"
 date: 2026-09-26T08:00:00+00:00
-last_modified_at: 2026-09-30T03:15:01+01:00
+last_modified_at: 2026-09-30T10:06:29+01:00
 tags: ["codex-cli", "amazon-bedrock", "gpt-6", "sol", "luna", "enterprise", "aws", "data-residency", "model-routing", "v0.157.0"]
 ---
 
@@ -16,7 +16,7 @@ This article explains what Bedrock routing does, how to configure it, which mode
 
 ## Background: Bedrock Integration in Codex CLI
 
-Amazon Bedrock support in Codex CLI has a longer history than the v0.157.0 headline suggests. The foundation was laid in v0.148.0 (August 2026), when OpenAI and AWS announced general availability of GPT-5.6 and Codex on Amazon Bedrock.[^2] That release introduced the Bedrock runtime provider, AWS credential refresh via configured commands, and Responses API compaction for Bedrock sessions — the same compaction behaviour used on the OpenAI-hosted tier.
+Amazon Bedrock support in Codex CLI has a longer history than the v0.157.0 headline suggests. The foundation was laid in v0.148.0 (August 2026), when OpenAI and AWS announced general availability of GPT-5.6 and Codex on Amazon Bedrock.[^2][^5] That release introduced the Bedrock runtime provider, AWS credential refresh via configured commands, and Responses API compaction for Bedrock sessions — the same compaction behaviour used on the OpenAI-hosted tier.
 
 v0.149.0 extended multi-agent support to Bedrock models, using the multi-agent V1 protocol for cross-provider orchestration. v0.153.3 added GPT-6 Astra to the Bedrock model picker as an experimental feature, making it accessible to enterprise teams without switching from AWS.
 

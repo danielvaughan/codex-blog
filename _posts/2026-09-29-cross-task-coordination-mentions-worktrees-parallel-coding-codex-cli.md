@@ -1,7 +1,7 @@
 ---
 title: "Cross-Task Coordination: Combining @Mentions and Native Worktrees for Parallel Coding"
 date: 2026-09-29T08:00:00+00:00
-last_modified_at: 2026-09-30T03:15:01+01:00
+last_modified_at: 2026-09-30T10:06:29+01:00
 tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding", "v0.150.0", "v0.153.0", "v0.156.0", "cross-task", "orchestration"]
 ---
 
