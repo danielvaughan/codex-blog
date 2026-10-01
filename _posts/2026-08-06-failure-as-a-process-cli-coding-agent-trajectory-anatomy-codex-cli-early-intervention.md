@@ -1,7 +1,7 @@
 ---
 title: "Failure as a Process: What 63,000 Annotated Execution Steps Reveal About CLI Coding Agent Trajectories — and How to Intervene Earlier in Codex CLI"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-10-01T10:24:38+01:00
+last_modified_at: 2026-10-01T12:28:47+01:00
 tags: ["codex-cli", "research", "failure-analysis", "agent-reliability", "hooks", "trajectory-analysis", "early-intervention"]
 ---
 
