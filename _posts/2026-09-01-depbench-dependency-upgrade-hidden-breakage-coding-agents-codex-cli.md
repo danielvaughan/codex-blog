@@ -1,19 +1,21 @@
 ---
 title: "Update from Hell: What DEPBENCH Reveals About Coding Agents and Hidden Dependency Breakage"
 date: 2026-09-01T15:00:00+00:00
-last_modified_at: 2026-10-01T12:28:47+01:00
+last_modified_at: 2026-10-01T12:29:27+01:00
 tags: ["codex-cli", "benchmarks", "dependency-management", "agents-md", "harness-engineering", "testing", "research"]
 ---
 
 # Update from Hell: What DEPBENCH Reveals About Coding Agents and Hidden Dependency Breakage
 
+![Sketchnote diagram for: Update from Hell: What DEPBENCH Reveals About Coding Agents and Hidden Dependency Breakage](/sketchnotes/articles/2026-09-01-depbench-dependency-upgrade-hidden-breakage-coding-agents-codex-cli.png)
 
 
----
 
-Dependency upgrades are deceptively treacherous. A version bump that passes CI can silently change type widths, flip exception semantics, or invalidate fixture assumptions that no existing test encodes. Human engineers navigate this with changelog archaeology and institutional memory. Coding agents navigate it with a context window and test-run feedback — which, it turns out, is often not enough.
 
-DEPBENCH, published by Luo, He, Gao, Kang, Lin, Ma, Lin, Rajmohan, and Tian (Monash University and Microsoft, arXiv:2608.30300, 31 August 2026), is the first benchmark to evaluate this failure mode systematically.[^1] Its headline: the best agent configuration — Codex running GPT-5.5 — solved 104 of 203 tasks (51.2%). For a class of work that developers frequently delegate to AI, that is a meaningful capability ceiling.
+
+Dependency upgrades are deceptively treacherous. A version bump that passes CI can silently change type widths, flip exception semantics, or invalidate fixture assumptions that no existing test encodes. Human engineers navigate this with changelog archaeology and institutional memory. Coding agents navigate it with a context window and test-run feedback, which, it turns out, is often not enough.
+
+DEPBENCH, published by Luo, He, Gao, Kang, Lin, Ma, Lin, Rajmohan, and Tian (Monash University and Microsoft, arXiv:2608.30300, 31 August 2026), is the first benchmark to evaluate this failure mode systematically.[^1] Its headline: the best agent configuration, Codex running GPT-5.5, solved 104 of 203 tasks (51.2 per cent). For a class of work that developers frequently delegate to AI, that is a meaningful capability ceiling.
 
 ## The Oracle Problem
 
@@ -29,7 +31,7 @@ flowchart LR
     D["Repair only\n(no upgrade)"] -->|"hidden tests\nfail"| V4["❌ fail"]
 ```
 
-The hidden test patch encodes the *correct post-upgrade contract*. Condition D prevents agents gaming the oracle by applying the repair without the version bump. Condition B ensures the upgrade genuinely breaks something — weak tasks with no real failure were excluded.
+The hidden test patch encodes the *correct post-upgrade contract*. Condition D prevents agents gaming the oracle by applying the repair without the version bump. Condition B ensures the upgrade genuinely breaks something, weak tasks with no real failure were excluded.
 
 Task construction mined 4,660 candidate pull requests from Dependabot and Renovate bots across public repositories, then applied human/LLM audit to remove tasks with fixture-only hidden patches, deletion-heavy repairs, or unstable transient behaviour. The final 203 tasks are oracle-clean.[^2]
 
@@ -39,16 +41,16 @@ The benchmark spans five package ecosystems:
 
 | Ecosystem | Tasks | GPT-5.5 + Codex | Consensus-Hard (all GPT-5.5 zero) |
 |-----------|------:|----------------:|-----------------------------------:|
-| Maven / Java | 65 | 46 (70.8%) | 11 |
-| npm / yarn | 68 | 27 (39.7%) | 34 |
-| Go | 40 | 20 (50.0%) | — |
-| Cargo / Rust | 20 | 6 (30.0%) | 14 |
-| Python | 10 | 5 (50.0%) | — |
-| **Total** | **203** | **104 (51.2%)** | — |
+| Maven / Java | 65 | 46 (70.8 per cent) | 11 |
+| npm / yarn | 68 | 27 (39.7 per cent) | 34 |
+| Go | 40 | 20 (50.0 per cent) | — |
+| Cargo / Rust | 20 | 6 (30.0 per cent) | 14 |
+| Python | 10 | 5 (50.0 per cent) | — |
+| **Total** | **203** | **104 (51.2 per cent)** | — |
 
 [^3]
 
-The ecosystem pattern is revealing. Maven/Java, with its strong static type system and conventional test runners, gave agents the clearest signals — both for detecting breakage and for verifying repairs. npm/yarn and Cargo proved hardest: npm tasks frequently involved runtime semantic changes (changed overflow behaviour, altered promise resolution ordering) where types give no warning, and Cargo's Rust type system made partial propagation errors uncompilable but not always test-catchable.[^3]
+The ecosystem pattern is revealing. Maven/Java, with its strong static type system and conventional test runners, gave agents the clearest signals, both for detecting breakage and for verifying repairs. npm/yarn and Cargo proved hardest: npm tasks frequently involved runtime semantic changes (changed overflow behaviour, altered promise resolution ordering) where types give no warning, and Cargo's Rust type system made partial propagation errors uncompilable but not always test-catchable.[^3]
 
 ## The Harness Gap: 16.3 Percentage Points
 
@@ -82,15 +84,15 @@ pie title Primary Non-Pass Root Causes (Codex + GPT-5.5)
 
 ⚠️ Counts are illustrative of the relative ordering as reported in Table V; exact values vary by configuration.
 
-The incomplete migration pattern is subtle. The agent finds the primary site where the dependency API changed, fixes it, runs visible tests — they pass — and stops. What it misses are downstream propagation points: wrapper functions that re-export the changed type, fixtures that assume the old numeric range, generated artefacts that embed the old signature. The paper describes this as failing to "propagate the upgraded dependency contract through wrappers, types, fixtures, generated artifacts, or behavioral outputs."[^5]
+The incomplete migration pattern is subtle. The agent finds the primary site where the dependency API changed, fixes it, runs visible tests, they pass, and stops. What it misses are downstream propagation points: wrapper functions that re-export the changed type, fixtures that assume the old numeric range, generated artefacts that embed the old signature. The paper describes this as failing to "propagate the upgraded dependency contract through wrappers, types, fixtures, generated artifacts, or behavioral outputs."[^5]
 
 A concrete example from the paper: upgrading a GitLab client from v0.161.1 to v1.2.0 required migrating pipeline IDs from `int` to `int64` across interfaces, helper functions, and return types. Codex completed this. Copilot CLI identified the issue but only repaired the primary site, leaving merge-request list returns typed as `int`.[^5]
 
 ## The Visible-Test Pass Paradox
 
-Perhaps the most operationally important finding: in 61.8% of analysed non-pass trajectories, the agent satisfied all visible repository tests before hidden-test verification revealed the repair was incomplete.[^6]
+Perhaps the most operationally important finding: in 61.8 per cent of analysed non-pass trajectories, the agent satisfied all visible repository tests before hidden-test verification revealed the repair was incomplete.[^6]
 
-This is not random failure. It is a systematic overconfidence signal — the agent's own test-run feedback loop is insufficient for dependency repairs. The visible test suite, by definition, was written against the pre-upgrade contract. It cannot encode what changed.
+This is not random failure. It is a systematic overconfidence signal, the agent's own test-run feedback loop is insufficient for dependency repairs. The visible test suite, by definition, was written against the pre-upgrade contract. It cannot encode what changed.
 
 The implication for Codex CLI workflows is direct: you cannot rely on a green test run as the completion signal for dependency upgrade tasks. You need either held-out integration tests or a human review gate before merge.
 
@@ -107,7 +109,7 @@ Table VII of the paper categorises agent discovery strategies across trajectorie
 
 [^7]
 
-Two observations stand out. First, test-running is the dominant discovery mechanism across all harnesses — agents rely heavily on the visible test signal, which explains why the visible-test paradox bites so hard. Second, breaking-change hypothesis formation is frequent but does not imply that the hypothesis was discovered from migration evidence rather than from the error message itself. Forming a correct hypothesis about the breaking change is necessary but not sufficient for complete repair.
+Two observations stand out. First, test-running is the dominant discovery mechanism across all harnesses, agents rely heavily on the visible test signal, which explains why the visible-test paradox bites so hard. Second, breaking-change hypothesis formation is frequent but does not imply that the hypothesis was discovered from migration evidence rather than from the error message itself. Forming a correct hypothesis about the breaking change is necessary but not sufficient for complete repair.
 
 ## Mapping DEPBENCH Findings to Codex CLI
 
@@ -166,7 +168,7 @@ Exit code 2 from a hook causes Codex to abort and retry, providing early feedbac
 
 ### 4. Human gate before merge
 
-Given the 61.8% visible-test paradox, the correct workflow for dependency upgrades is:
+Given the 61.8 per cent visible-test paradox, the correct workflow for dependency upgrades is:
 
 ```mermaid
 flowchart TD
@@ -184,29 +186,29 @@ flowchart TD
 
 ## What DEPBENCH Changes About How You Use Codex for Maintenance
 
-DEPBENCH's headline — 51.2% for the best configuration — is not an argument against using Codex for dependency upgrades. It is an argument for understanding *where* the 48.8% fails and designing your workflow around it.
+DEPBENCH's headline — 51.2 per cent for the best configuration, is not an argument against using Codex for dependency upgrades. It is an argument for understanding *where* the 48.8 per cent fails and designing your workflow around it.
 
 The three actionable changes are:
 1. **Propagation-first AGENTS.md rules** — force the agent to exhaust all usage sites before running tests.
 2. **Extended rollout budgets** — hard upgrades require 60+ tool calls across multiple files.
 3. **Human review as the completion signal** — not green visible tests.
 
-The ecosystem difficulty ranking also provides triage guidance. Routine Maven/Java upgrades at 70%+ success rate are good candidates for agent-first workflows with light review. npm/yarn and Cargo upgrades below 40% success rate warrant human-first investigation with agent assistance rather than full delegation.
+The ecosystem difficulty ranking also provides triage guidance. Routine Maven/Java upgrades at 70 per cent+ success rate are good candidates for agent-first workflows with light review. npm/yarn and Cargo upgrades below 40 per cent success rate warrant human-first investigation with agent assistance rather than full delegation.
 
 ## Citations
 
 [^1]: Luo, Z., He, R., Gao, P., Kang, Y., Lin, Z., Ma, M., Lin, Q., Rajmohan, S., Tian, Y. (2026). "Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?" arXiv:2608.30300 [cs.SE]. https://arxiv.org/abs/2608.30300
 
-[^2]: Luo et al. (2026), Section II — DepBench Construction: four-state oracle contract, PR mining pipeline, human/LLM audit process. https://arxiv.org/html/2608.30300
+[^2]: Luo et al. (2026), Section II, DepBench Construction: four-state oracle contract, PR mining pipeline, human/LLM audit process. https://arxiv.org/html/2608.30300
 
-[^3]: Luo et al. (2026), Table II — Per-ecosystem pass rates and consensus-hard task counts by agent configuration. https://arxiv.org/html/2608.30300
+[^3]: Luo et al. (2026), Table II, Per-ecosystem pass rates and consensus-hard task counts by agent configuration. https://arxiv.org/html/2608.30300
 
-[^4]: Luo et al. (2026), Section III — Harness attribution: "Holding GPT-5.5 fixed, the spread between Codex and Claude Code is 33 tasks (16.3 percentage points)." https://arxiv.org/html/2608.30300
+[^4]: Luo et al. (2026), Section III, Harness attribution: "Holding GPT-5.5 fixed, the spread between Codex and Claude Code is 33 tasks (16.3 percentage points)." https://arxiv.org/html/2608.30300
 
-[^5]: Luo et al. (2026), Table V — Primary non-pass root causes; Section IV case studies: GitLab int→int64 migration, Gremlin semantic overflow. https://arxiv.org/html/2608.30300
+[^5]: Luo et al. (2026), Table V, Primary non-pass root causes; Section IV case studies: GitLab int→int64 migration, Gremlin semantic overflow. https://arxiv.org/html/2608.30300
 
-[^6]: Luo et al. (2026), Table VIII — Visible-test pass paradox: 61.8% of non-pass trajectories satisfied visible tests. https://arxiv.org/html/2608.30300
+[^6]: Luo et al. (2026), Table VIII, Visible-test pass paradox: 61.8 per cent of non-pass trajectories satisfied visible tests. https://arxiv.org/html/2608.30300
 
-[^7]: Luo et al. (2026), Table VII — Discovery behaviour categorisation by harness and model. https://arxiv.org/html/2608.30300
+[^7]: Luo et al. (2026), Table VII, Discovery behaviour categorisation by harness and model. https://arxiv.org/html/2608.30300
 
 [^8]: OpenAI. (2026). Codex CLI Changelog: v0.149.0 (20 August 2026) — codex queue, hooks system. https://github.com/openai/codex/releases

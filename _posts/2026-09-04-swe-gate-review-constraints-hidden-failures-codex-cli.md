@@ -1,11 +1,14 @@
 ---
 title: "SWE-Gate: Why 34% of Your Agent's 'Fixed' Patches Are Wrong — and How to Catch Them in Codex CLI"
 date: 2026-09-04T20:00:00+00:00
-last_modified_at: 2026-10-01T12:28:47+01:00
+last_modified_at: 2026-10-01T12:29:27+01:00
 tags: ["codex-cli", "benchmarks", "code-review", "testing", "hooks", "agents"]
 ---
 
-# SWE-Gate: Why 34% of Your Agent's 'Fixed' Patches Are Wrong — and How to Catch Them in Codex CLI
+# SWE-Gate: Why 34 per cent of Your Agent's 'Fixed' Patches Are Wrong, and How to Catch Them in Codex CLI
+
+![Sketchnote diagram for: SWE-Gate: Why 34% of Your Agent's 'Fixed' Patches Are Wrong — and How to Catch Them in Codex CLI](/sketchnotes/articles/2026-09-04-swe-gate-review-constraints-hidden-failures-codex-cli.png)
+
 
 
 SWE-bench tells you whether a patch passes the tests. SWE-Gate asks whether it passes code review. The difference, according to a new benchmark from Sun Yat-sen University, is 34 percentage points worth of patches you thought were fixed but weren't.[^1]
@@ -32,21 +35,21 @@ Running four LLM backends against SWE-Gate produces a table that should make any
 
 | Model | Functional pass rate | Constraint pass rate | Joint pass rate |
 |-------|---------------------|---------------------|----------------|
-| GPT-5.5 | 74.9% | 70.5% | 52.8% |
-| DeepSeek-V4-Flash | 66.7% | 64.4% | 42.9% |
-| GPT-5.4-mini | 61.7% | 64.2% | 39.6% |
-| GPT-4o-mini | 9.2% | 46.4% | 4.3% |
+| GPT-5.5 | 74.9 per cent | 70.5 per cent | 52.8 per cent |
+| DeepSeek-V4-Flash | 66.7 per cent | 64.4 per cent | 42.9 per cent |
+| GPT-5.4-mini | 61.7 per cent | 64.2 per cent | 39.6 per cent |
+| GPT-4o-mini | 9.2 per cent | 46.4 per cent | 4.3 per cent |
 
-Across all four models, **221 of 644 patches that passed functional tests failed their constraint tests** — a 34.3% hidden failure rate.[^1] Joint success rates are uniformly lower than functional rates because the two signal types are only weakly correlated.
+Across all four models, **221 of 644 patches that passed functional tests failed their constraint tests** — a 34.3 per cent hidden failure rate.[^1] Joint success rates are uniformly lower than functional rates because the two signal types are only weakly correlated.
 
-The GPT-4o-mini row is particularly striking: 46.4% constraint compliance against 9.2% functional success. That model is, on balance, better at following conventions than it is at actually resolving bugs — the inverse of the standard leaderboard story.
+The GPT-4o-mini row is particularly striking: 46.4 per cent constraint compliance against 9.2 per cent functional success. That model is, on balance, better at following conventions than it is at actually resolving bugs, the inverse of the standard leaderboard story.
 
 ## Constraint Taxonomy
 
 SWE-Gate's constraint taxonomy groups requirements into six categories:[^1]
 
-- **Error Semantics** (152 instances, 50.2%) — error message wording, exception types, error codes
-- **Schema / Metadata / Typing** (143 instances, 47.2%) — return-type contracts, data shapes, annotation requirements
+- **Error Semantics** (152 instances, 50.2 per cent) — error message wording, exception types, error codes
+- **Schema / Metadata / Typing** (143 instances, 47.2 per cent) — return-type contracts, data shapes, annotation requirements
 - **Ordering Preservation** — deterministic or documented ordering of sequences
 - **Encoding / Escaping** — character encoding, HTML/URL escaping, binary safety
 - **Scope Generalisation** — fix must handle more than the minimal case
@@ -56,9 +59,9 @@ Error Semantics and Schema dominate because these are precisely what reviewers c
 
 ## Why This Matters for Codex CLI Workflows
 
-Codex CLI's default feedback loop is identical to SWE-Gate's functional-only baseline: Codex generates a patch, runs the test suite, iterates until green, stops. If the repository does not encode its review constraints as executable tests — and most do not — Codex has no signal to act on.[^2]
+Codex CLI's default feedback loop is identical to SWE-Gate's functional-only baseline: Codex generates a patch, runs the test suite, iterates until green, stops. If the repository does not encode its review constraints as executable tests, and most do not, Codex has no signal to act on.[^2]
 
-The implication is structural. Benchmark scores computed against functional-only evaluation systematically overstate the production readiness of agent-generated patches. A 74.9% functional rate for GPT-5.5 translates to a 52.8% joint rate once review constraints are applied — a 22-point gap that does not appear in any leaderboard.
+The implication is structural. Benchmark scores computed against functional-only evaluation systematically overstate the production readiness of agent-generated patches. A 74.9 per cent functional rate for GPT-5.5 translates to a 52.8 per cent joint rate once review constraints are applied, a 22-point gap that does not appear in any leaderboard.
 
 ```mermaid
 flowchart TD
@@ -153,7 +156,7 @@ This is distinct from PostToolUse: PreToolUse can block the turn with `permissio
 
 ## Model Selection Implications
 
-SWE-Gate's data suggests a non-obvious routing strategy. GPT-4o-mini's inversion — high constraint compliance, low functional success — implies it has absorbed stylistic conventions but lacks the reasoning depth for complex bug resolution. GPT-5.5 leads on both axes but still drops 22 percentage points from functional to joint.[^1]
+SWE-Gate's data suggests a non-obvious routing strategy. GPT-4o-mini's inversion, high constraint compliance, low functional success, implies it has absorbed stylistic conventions but lacks the reasoning depth for complex bug resolution. GPT-5.5 leads on both axes but still drops 22 percentage points from functional to joint.[^1]
 
 For Codex CLI with model routing configured via `config.toml`, this suggests:
 
@@ -166,17 +169,17 @@ default = "gpt-5.5"  # Highest joint success rate
 # gpt-5.4-mini has comparable constraint rate at lower cost
 ```
 
-For tasks where constraint compliance is paramount and functional complexity is modest — annotation-only passes, error message corrections, encoding fixes — the cheaper models may be appropriate. The joint success rate is the metric to optimise, not the functional rate alone.
+For tasks where constraint compliance is paramount and functional complexity is modest, annotation-only passes, error message corrections, encoding fixes, the cheaper models may be appropriate. The joint success rate is the metric to optimise, not the functional rate alone.
 
 ## Verifying Currency
 
-The SWE-Gate benchmark was submitted in September 2026 and tests models that are current at time of writing.[^1] The constraint categories it identifies — Error Semantics, Schema/Typing, Ordering, Encoding, Scope, Resource Lifecycle — are stable software engineering concerns that will not be superseded by model updates. The specific pass rates will evolve as frontier models improve, but the structural gap between functional and joint success is a property of how test suites are constructed, not of model capability.
+The SWE-Gate benchmark was submitted in September 2026 and tests models that are current at time of writing.[^1] The constraint categories it identifies, Error Semantics, Schema/Typing, Ordering, Encoding, Scope, Resource Lifecycle, are stable software engineering concerns that will not be superseded by model updates. The specific pass rates will evolve as frontier models improve, but the structural gap between functional and joint success is a property of how test suites are constructed, not of model capability.
 
 SWE-bench itself has acknowledged this limitation: the benchmark's curators have noted that test suites are a proxy for correctness, not a complete specification.[^5] SWE-Gate makes that gap quantitative and actionable.
 
 ## Summary
 
-SWE-Gate demonstrates that **one in three patches an agent considers fixed will fail code review**. The failure modes are not random: they cluster in error message semantics and type/schema contracts — exactly the categories that linters miss and reviewers reliably catch. Adding executable constraint checks to Codex CLI's feedback loop via AGENTS.md acceptance criteria and PostToolUse hooks converts a silent failure mode into an iterable signal. The joint success rate is the metric that matters.
+SWE-Gate demonstrates that **one in three patches an agent considers fixed will fail code review**. The failure modes are not random: they cluster in error message semantics and type/schema contracts, exactly the categories that linters miss and reviewers reliably catch. Adding executable constraint checks to Codex CLI's feedback loop via AGENTS.md acceptance criteria and PostToolUse hooks converts a silent failure mode into an iterable signal. The joint success rate is the metric that matters.
 
 ## Citations
 

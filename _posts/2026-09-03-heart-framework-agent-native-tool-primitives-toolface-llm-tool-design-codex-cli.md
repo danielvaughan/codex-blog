@@ -1,32 +1,32 @@
 ---
 title: "Agent-Native Tool Primitives: What the HEART Framework's 84% vs 22% Completion Gap Reveals About LLM Tool Design — and How It Applies to Codex CLI"
 date: 2026-09-03T14:00:00+00:00
-last_modified_at: 2026-10-01T12:28:47+01:00
+last_modified_at: 2026-10-01T12:29:27+01:00
 tags: ["codex-cli", "mcp", "tool-design", "agent-architecture", "research", "tool-calling", "harness-engineering"]
 ---
 
-# Agent-Native Tool Primitives: What the HEART Framework's 84% vs 22% Completion Gap Reveals About LLM Tool Design — and How It Applies to Codex CLI
+# Agent-Native Tool Primitives: What the HEART Framework's 84 per cent vs 22 per cent Completion Gap Reveals About LLM Tool Design, and How It Applies to Codex CLI
+
+![Sketchnote diagram for: Agent-Native Tool Primitives: What the HEART Framework's 84% vs 22% Completion Gap Reveals About LLM Tool Design — and How It Applies to Codex CLI](/sketchnotes/articles/2026-09-03-heart-framework-agent-native-tool-primitives-toolface-llm-tool-design-codex-cli.png)
 
 
----
 
-A new preprint from September 2026 puts a number on something practitioners have suspected for a while: the way you surface tools to an LLM matters far more than which LLM you use. In "Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives," Jin, Wang, Yu, Luo, and Wang introduce the HEART framework and demonstrate an 84% end-to-end task completion rate across 50 real-world workflows — compared to 20–24% for GPT-5.4, Claude-4.6-Sonnet, and Gemini-3.1-Pro using conventional tool-calling[^1]. That 3.8× gap, achieved on the same models as underlying workers, makes the tool interface design the dominant variable.
+
+A new preprint from September 2026 puts a number on something practitioners have suspected for a while: the way you surface tools to an LLM matters far more than which LLM you use. In "Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives," Jin, Wang, Yu, Luo, and Wang introduce the HEART framework and demonstrate an 84 per cent end-to-end task completion rate across 50 real-world workflows, compared to 20–24 per cent for GPT-5.4, Claude-4.6-Sonnet, and Gemini-3.1-Pro using conventional tool-calling[^1]. That 3.8× gap, achieved on the same models as underlying workers, makes the tool interface design the dominant variable.
 
 Understanding why HEART works, and why frontier models fail where it succeeds, has direct implications for anyone designing MCP servers or AGENTS.md tool policies for Codex CLI.
 
----
 
 ## The Root Cause: Schema Fragility at Scale
 
 Conventional tool calling exposes raw API schemas directly in the model's context. As catalogues grow, two compounding failure modes emerge.
 
-The first is **catalogue poisoning**. Research cited in the paper shows accuracy drops of 7–85% as tool catalogue size scales from 8 K to 120 K tokens[^2]. Models lose precision in tool selection, confuse overlapping argument names, and begin hallucinating parameters that exist in nearby schemas but not the target one. Codex CLI users have run into the practical manifestation of this: stale schema caches causing Codex to call tools with argument layouts that changed after a server restart[^3], or schema-conversion failures that silently drop tools entirely[^4].
+The first is **catalogue poisoning**. Research cited in the paper shows accuracy drops of 7–85 per cent as tool catalogue size scales from 8 K to 120 K tokens[^2]. Models lose precision in tool selection, confuse overlapping argument names, and begin hallucinating parameters that exist in nearby schemas but not the target one. Codex CLI users have run into the practical manifestation of this: stale schema caches causing Codex to call tools with argument layouts that changed after a server restart[^3], or schema-conversion failures that silently drop tools entirely[^4].
 
 The second is **output format heterogeneity**. Tool A returns a JSON object; Tool B returns a plain string; Tool C returns a structured error envelope that looks like a success to a naive reader. When the model must both call tools and interpret their outputs in one attention pass, these mismatches compound across chains: a bad parse in step 3 corrupts the argument assembly in step 5.
 
-HEART addresses both by placing a small specialised LLM — Qwen3-8B in the experiments — between the orchestrating model and every tool it calls.
+HEART addresses both by placing a small specialised LLM, Qwen3-8B in the experiments, between the orchestrating model and every tool it calls.
 
----
 
 ## HEART Architecture
 
@@ -51,7 +51,7 @@ flowchart TD
 𝒫ᵢ(x, c) = ℳ([sᵢ; c; x])
 ```
 
-where `x` is the natural language request from the Router, `c` is optional chained context from prior primitive results, `sᵢ` is the underlying tool schema, and `ℳ` is the primitive LLM. Schema resolution — mapping `x` to concrete typed arguments — happens inside the primitive, not in the orchestrating model's context. Results are returned with natural-language summaries that downstream primitives can consume without parsing raw API responses.
+where `x` is the natural language request from the Router, `c` is optional chained context from prior primitive results, `sᵢ` is the underlying tool schema, and `ℳ` is the primitive LLM. Schema resolution, mapping `x` to concrete typed arguments, happens inside the primitive, not in the orchestrating model's context. Results are returned with natural-language summaries that downstream primitives can consume without parsing raw API responses.
 
 **ToolFace** is a centralised registry of 25,519 schema-function pairs across ToolBench, NESTFUL, ACEBench, τ²-Bench, and BFCLv4 corpora. The key insight is deferred loading: rather than enumerating schemas in context, the Planner retrieves only the tools relevant to a given step via semantic search over schema descriptors. This sidesteps catalogue degradation almost entirely.
 
@@ -65,7 +65,6 @@ where `x` is the natural language request from the Router, `c` is optional chain
 
 The re-planning budget defaults to B=3, providing a saturation point with marginal gains beyond B=5.
 
----
 
 ## Benchmark Results
 
@@ -73,29 +72,28 @@ On structured benchmarks, HEART's improvements over frontier models are measured
 
 | Benchmark | HEART | GPT-5.4 | Claude-4.6-Sonnet |
 |---|---|---|---|
-| ToolBench Pass Rate | 75.1% | — | 73.4% |
+| ToolBench Pass Rate | 75.1 per cent | — | 73.4 per cent |
 | NESTFUL Full Accuracy (one-shot) | 0.44 | 0.40 | — |
 | τ²-Bench Retail Pass@4 | 0.73 | — | 0.60 |
-| ACEBench Overall | 86.9% | 86.0% | — |
+| ACEBench Overall | 86.9 per cent | 86.0 per cent | — |
 
-The real signal is in the real-world tasks. Fifty end-to-end tasks spanning travel planning, healthcare, e-commerce, finance, and local services — each requiring multi-step invocation across heterogeneous APIs, with results evaluated by human raters confirming actual completion (not just response plausibility):
+The real signal is in the real-world tasks. Fifty end-to-end tasks spanning travel planning, healthcare, e-commerce, finance, and local services, each requiring multi-step invocation across heterogeneous APIs, with results evaluated by human raters confirming actual completion (not just response plausibility):
 
 | Domain | HEART | GPT-5.4 | Claude-4.6-Sonnet | Gemini-3.1-Pro |
 |---|---|---|---|---|
-| Finance | 100% | ~20% | ~24% | ~22% |
-| Local Services | 90% | | | |
-| Travel | 80% | | | |
-| E-commerce | 80% | | | |
-| Healthcare | 70% | | | |
-| **Overall** | **84%** | **20%** | **24%** | **22%** |
+| Finance | 100 per cent | ~20 per cent | ~24 per cent | ~22 per cent |
+| Local Services | 90 per cent | | | |
+| Travel | 80 per cent | | | |
+| E-commerce | 80 per cent | | | |
+| Healthcare | 70 per cent | | | |
+| **Overall** | **84 per cent** | **20 per cent** | **24 per cent** | **22 per cent** |
 
-The failure pattern for frontier models was consistent: they retrieved information correctly (recommendation tasks) but failed when tasks required *acting* on behalf of the user — booking a flight, completing a purchase, submitting a form. These actions chain multiple tools with dependent state, precisely the scenario where schema fragility and output heterogeneity compound[^1].
+The failure pattern for frontier models was consistent: they retrieved information correctly (recommendation tasks) but failed when tasks required *acting* on behalf of the user, booking a flight, completing a purchase, submitting a form. These actions chain multiple tools with dependent state, precisely the scenario where schema fragility and output heterogeneity compound[^1].
 
----
 
 ## What This Means for Codex CLI Tool Design
 
-Codex CLI interacts with tools through MCP servers. Each server exposes a JSON Schema definition for every tool; Codex resolves calls and interprets results in the main model context. The HEART paper identifies exactly where this architecture strains — and the insights translate directly.
+Codex CLI interacts with tools through MCP servers. Each server exposes a JSON Schema definition for every tool; Codex resolves calls and interprets results in the main model context. The HEART paper identifies exactly where this architecture strains, and the insights translate directly.
 
 ### 1. Write MCP Tool Descriptions as Invocation Contracts
 
@@ -119,11 +117,11 @@ on_mcp_tool_result = [
 ]
 ```
 
-The hook receives the raw MCP result and can rewrite it into a consistent envelope — structured error with actionable fields on failure, normalised JSON with a plain-English summary on success — before Codex ever sees it. This is the lightweight HEART Primitive pattern applied at the Codex layer.
+The hook receives the raw MCP result and can rewrite it into a consistent envelope, structured error with actionable fields on failure, normalised JSON with a plain-English summary on success, before Codex ever sees it. This is the lightweight HEART Primitive pattern applied at the Codex layer.
 
 ### 3. Constrain Tool Surface per Task Type via AGENTS.md
 
-ToolFace's dynamic retrieval — loading only tools relevant to the current step — maps to the `AGENTS.md` `allowed_tools` field and per-session MCP server configuration. For long-running batch workflows, consider splitting MCP servers by domain and enabling only the relevant set:
+ToolFace's dynamic retrieval, loading only tools relevant to the current step, maps to the `AGENTS.md` `allowed_tools` field and per-session MCP server configuration. For long-running batch workflows, consider splitting MCP servers by domain and enabling only the relevant set:
 
 ```toml
 # config.toml — finance workflow profile
@@ -151,7 +149,7 @@ post_tool_use = [
 ]
 ```
 
-A PostToolUse hook that exits with code 2 triggers Codex to re-attempt the step — the equivalent of HEART's re-planning loop.
+A PostToolUse hook that exits with code 2 triggers Codex to re-attempt the step, the equivalent of HEART's re-planning loop.
 
 ### 5. Document Inter-Tool Dependencies in AGENTS.md
 
@@ -166,21 +164,19 @@ HEART's Planner excels at ordered invocation planning. The equivalent in Codex i
 
 This is the prose equivalent of the invocation plan Π that HEART's Planner constructs algorithmically.
 
----
 
 ## Limitations and Caveats
 
-The HEART paper does not evaluate against Codex CLI directly, and the ToolFace retrieval infrastructure is not publicly available as an MCP server at the time of writing. ⚠️ The 84% real-world completion figure relies on human raters and a specific task selection; generalisation to arbitrary enterprise workflows is unconfirmed.
+The HEART paper does not evaluate against Codex CLI directly, and the ToolFace retrieval infrastructure is not publicly available as an MCP server at the time of writing. ⚠️ The 84 per cent real-world completion figure relies on human raters and a specific task selection; generalisation to arbitrary enterprise workflows is unconfirmed.
 
-The Qwen3-8B primitive LLM adds latency and cost per tool invocation. For Codex CLI workflows where tools are called dozens of times per session, wrapping every call in a separate LLM inference round-trip would be prohibitive. The practical takeaway is the *design pattern* — richer descriptions, normalised outputs, hook-based verification — rather than deploying HEART wholesale.
+The Qwen3-8B primitive LLM adds latency and cost per tool invocation. For Codex CLI workflows where tools are called dozens of times per session, wrapping every call in a separate LLM inference round-trip would be prohibitive. The practical takeaway is the *design pattern* — richer descriptions, normalised outputs, hook-based verification, rather than deploying HEART wholesale.
 
----
 
 ## Citations
 
 [^1]: Jin, H., Wang, Z., Yu, T., Luo, Y., & Wang, W. (2026). *Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives*. arXiv:2609.01736. https://arxiv.org/abs/2609.01736
 
-[^2]: Accuracy drop range 7%–85% as tool catalogue scales from 8K to 120K tokens, as cited in arXiv:2609.01736. See also LongFuncEval (arXiv:2505.10570) for supporting evidence on context-length vs function-calling accuracy. https://arxiv.org/abs/2505.10570
+[^2]: Accuracy drop range 7 per cent–85 per cent as tool catalogue scales from 8K to 120K tokens, as cited in arXiv:2609.01736. See also LongFuncEval (arXiv:2505.10570) for supporting evidence on context-length vs function-calling accuracy. https://arxiv.org/abs/2505.10570
 
 [^3]: Codex CLI GitHub Issue #19155: *Stale MCP Tool Schema After Server Restart*. https://github.com/openai/codex/issues/19155
 
@@ -188,4 +184,4 @@ The Qwen3-8B primitive LLM adds latency and cost per tool invocation. For Codex 
 
 [^5]: Codex CLI v0.151.0 release notes — `on_mcp_tool_result` ToolLifecycleContributor; fires before MCP completion published and before result prepared for model. https://github.com/openai/codex/releases/tag/rust-v0.151.0
 
-[^6]: Codex CLI v0.152.0 release notes — per-tool `output_token_limit` in `[mcp_servers.X.tools.Y]` config with most-restrictive merge semantics. https://github.com/openai/codex/releases/tag/rust-v0.152.0
+[^6]: Codex CLI v0.152.0 release notes, per-tool `output_token_limit` in `[mcp_servers.X.tools.Y]` config with most-restrictive merge semantics. https://github.com/openai/codex/releases/tag/rust-v0.152.0

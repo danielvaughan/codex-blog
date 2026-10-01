@@ -3,26 +3,27 @@ title: "Don't Let the Model Write the YAML: Deterministic GitOps Remediation and
 parent: "Articles"
 nav_order: 1129
 date: 2026-09-05T09:00:00+00:00
-last_modified_at: 2026-10-01T12:28:47+01:00
+last_modified_at: 2026-10-01T12:29:27+01:00
 tags: ["codex-cli", "YAML", "GitOps", "Kubernetes", "PreToolUse", "hooks", "AGENTS.md", "configuration-safety", "deterministic", "infrastructure"]
 ---
 
 # Don't Let the Model Write the YAML: Deterministic GitOps Remediation and the Codex CLI Configuration Safety Problem
 
+![Sketchnote diagram for: Don't Let the Model Write the YAML: Deterministic GitOps Remediation and the Codex CLI Configuration Safety Problem](/sketchnotes/articles/2026-09-05-dont-let-model-write-yaml-deterministic-gitops-remediation-codex-cli.png)
 
----
 
-A new paper makes an uncomfortable claim about every coding agent that edits infrastructure configuration files: none of the text-generation strategies in common use are safe for unattended automation. Pruthvi Davineni (arXiv:2609.00227, August 2026) ran 83 real-world Kubernetes field-change tasks through three approaches — full-file rewrite, unified diff, and a new deterministic span-edit — and found correctness rates that should give any practitioner pause.[^1]
 
-The span-edit pipeline achieved **100% correctness** on every run. The unified diff approach used by Codex CLI's `apply_patch` tool achieved **1.2–3.6%** depending on frontier model. Full-file rewrite oscillated between **2.4% and 97.6%** — wide enough to be useless for any workflow requiring reliability rather than luck.[^1]
 
----
+A new paper makes an uncomfortable claim about every coding agent that edits infrastructure configuration files: none of the text-generation strategies in common use are safe for unattended automation. Pruthvi Davineni (arXiv:2609.00227, August 2026) ran 83 real-world Kubernetes field-change tasks through three approaches, full-file rewrite, unified diff, and a new deterministic span-edit, and found correctness rates that should give any practitioner pause.[^1]
+
+The span-edit pipeline achieved **100 per cent correctness** on every run. The unified diff approach used by Codex CLI's `apply_patch` tool achieved **1.2–3.6 per cent** depending on frontier model. Full-file rewrite oscillated between **2.4 per cent and 97.6 per cent** — wide enough to be useless for any workflow requiring reliability rather than luck.[^1]
+
 
 ## Why Text Generation Fails on YAML
 
 YAML is uniquely hostile to language model editing: whitespace is semantically load-bearing. A single misplaced space collapses a mapping to a string; a shifted indentation level silently promotes a nested key to the root. Davineni's benchmark tested this concretely.
 
-When Claude Sonnet 5 rewrote a 9,300-token Kubernetes manifest from scratch to change a single `replicas` field, it succeeded 97.6% of the time — but introduced collateral changes in 2.4% of cases and was non-deterministic (correct on some seeds, corrupt on others) for 6 of 83 tasks.[^1] Gemini Flash on the same corpus achieved only 2.4% correctness.[^1]
+When Claude Sonnet 5 rewrote a 9,300-token Kubernetes manifest from scratch to change a single `replicas` field, it succeeded 97.6 per cent of the time, but introduced collateral changes in 2.4 per cent of cases and was non-deterministic (correct on some seeds, corrupt on others) for 6 of 83 tasks.[^1] Gemini Flash on the same corpus achieved only 2.4 per cent correctness.[^1]
 
 ### The Fuzzy Patch Problem
 
@@ -30,14 +31,13 @@ The unified diff approach is worse than it looks. Davineni re-applied 415 Sonnet
 
 | Tool | Applied | Silently misapplied |
 |---|---|---|
-| Strict context-exact | 2.7% | 0% |
-| YAML-safe offset-tolerant | 67.5% | 0% |
-| `patch --fuzz=3` | **96.4%** | **14.0%** |
-| `patch --fuzz=3 -l` (whitespace-ignored) | 96.4% | **20.2%** |
+| Strict context-exact | 2.7 per cent | 0 per cent |
+| YAML-safe offset-tolerant | 67.5 per cent | 0 per cent |
+| `patch --fuzz=3` | **96.4 per cent** | **14.0 per cent** |
+| `patch --fuzz=3 -l` (whitespace-ignored) | 96.4 per cent | **20.2 per cent** |
 
 The fuzzy patching practitioners use to get diffs to apply at all silently misapplies one in seven.[^1] When whitespace is also ignored, one in five. Since YAML indentation is structural, the "applied" result can move a field to the wrong nesting level with no diff rejection, no exception, and no operator alert.
 
----
 
 ## The Span-Edit Approach
 
@@ -51,7 +51,7 @@ Davineni's alternative reframes what the model produces. Instead of a diff or a 
 }
 ```
 
-A deterministic pipeline then parses the manifest, locates the target scalar's exact character span via YAML parser node-position marks, and replaces only that span in the raw bytes — no re-serialisation, no reformatting. Comments, block scalars, and quoting styles are preserved at 100%. Correctness follows from the algorithm, not the model.[^1]
+A deterministic pipeline then parses the manifest, locates the target scalar's exact character span via YAML parser node-position marks, and replaces only that span in the raw bytes, no re-serialisation, no reformatting. Comments, block scalars, and quoting styles are preserved at 100 per cent. Correctness follows from the algorithm, not the model.[^1]
 
 Fail-closed behaviour on adversarial inputs (absent resources, missing fields, duplicate identifiers) achieved refusal precision 1.00, control coverage 1.00, recall 0.889.[^1]
 
@@ -63,13 +63,12 @@ Fail-closed behaviour on adversarial inputs (absent resources, missing fields, d
 | Unified diff | ~200 | ~16,700 tokens |
 | Full-file rewrite | ~9,300 | ~9,500 tokens |
 
-Span-edit is O(1) in file size; full-file rewrite scales linearly with the manifest. The complete benchmark — 83 tasks × 5 seeds × 3 baselines × 2 models — cost \$34.69 to run.[^1] The implementation ships as KubeAstra (Apache 2.0): ~150 lines for the safety-critical span-editor core, 520 lines total.[^1][^2]
+Span-edit is O(1) in file size; full-file rewrite scales linearly with the manifest. The complete benchmark — 83 tasks × 5 seeds × 3 baselines × 2 models, cost \$34.69 to run.[^1] The implementation ships as KubeAstra (Apache 2.0): ~150 lines for the safety-critical span-editor core, 520 lines total.[^1][^2]
 
----
 
 ## Codex CLI Mapping
 
-Codex CLI agents encounter YAML editing frequently: Kubernetes manifests, Helm values files, GitHub Actions workflows, Docker Compose files, and the `config.toml` that configures Codex itself. The `apply_patch` tool is the primary mechanism — and it uses unified diff format, which carries every failure mode above.
+Codex CLI agents encounter YAML editing frequently: Kubernetes manifests, Helm values files, GitHub Actions workflows, Docker Compose files, and the `config.toml` that configures Codex itself. The `apply_patch` tool is the primary mechanism, and it uses unified diff format, which carries every failure mode above.
 
 ### PreToolUse Hook: Block YAML Diffs
 
@@ -151,7 +150,6 @@ flowchart LR
     G[Model: unified diff\nfor .yaml file] -->|PreToolUse exit 2| H[Blocked\nmodel retries as intent]
 ```
 
----
 
 ## Practical Priorities
 
@@ -159,22 +157,20 @@ flowchart LR
 
 **Use `apply_patch` only for greenfield generation**, not for editing existing manifests. Generating a new manifest is safer than diffing one, because there is no pre-existing structure to corrupt. ⚠️ Correctness still depends on model quality.
 
-**For MCP-based infrastructure tools**, design tool schemas to accept field-level intents rather than raw diffs. This is the software-interface equivalent of KubeAstra's architecture — and aligns with the intent/execution separation principle the paper demonstrates.[^2]
+**For MCP-based infrastructure tools**, design tool schemas to accept field-level intents rather than raw diffs. This is the software-interface equivalent of KubeAstra's architecture, and aligns with the intent/execution separation principle the paper demonstrates.[^2]
 
----
 
 ## Summary
 
-Davineni's empirical result is unambiguous: unified diffs applied with fuzzy matching silently misapply at 14–20%, full-file rewrites are non-deterministic and model-dependent, and deterministic span-editing achieves 100% correctness at a fraction of the token cost. A PreToolUse hook blocking YAML diffs, paired with an AGENTS.md policy requiring structured field-change intent, implements the right division of labour for Codex CLI: the model reasons about _what_ to change, the algorithm decides _how_.
+Davineni's empirical result is unambiguous: unified diffs applied with fuzzy matching silently misapply at 14–20 per cent, full-file rewrites are non-deterministic and model-dependent, and deterministic span-editing achieves 100 per cent correctness at a fraction of the token cost. A PreToolUse hook blocking YAML diffs, paired with an AGENTS.md policy requiring structured field-change intent, implements the right division of labour for Codex CLI: the model reasons about _what_ to change, the algorithm decides _how_.
 
----
 
 ## Citations
 
 [^1]: Davineni, P. "Don't Let the Model Write the YAML: Deterministic, Minimal-Diff GitOps Remediation from LLM-Proposed Field Changes." arXiv:2609.00227 [cs.SE], August 31, 2026. https://arxiv.org/abs/2609.00227
 
-[^2]: KubeAstra — AI-powered Kubernetes troubleshooting and deterministic YAML remediation. Apache 2.0. https://github.com/astraverse-io/KubeAstra
+[^2]: KubeAstra, AI-powered Kubernetes troubleshooting and deterministic YAML remediation. Apache 2.0. https://github.com/astraverse-io/KubeAstra
 
-[^3]: Codex CLI Hooks Reference — PreToolUse, PostToolUse, exit codes, hook configuration. Agentic Control Plane, 2026. https://agenticcontrolplane.com/blog/codex-cli-hooks-reference
+[^3]: Codex CLI Hooks Reference, PreToolUse, PostToolUse, exit codes, hook configuration. Agentic Control Plane, 2026. https://agenticcontrolplane.com/blog/codex-cli-hooks-reference
 
 [^4]: Kubernetes documentation: `kubectl patch`. https://kubernetes.io/docs/reference/kubectl/generated/kubectl_patch/
