@@ -1,8 +1,8 @@
 ---
 title: "Cross-Task Coordination: Combining @Mentions and Native Worktrees for Parallel Coding"
 date: 2026-09-29T08:00:00+00:00
-last_modified_at: 2026-09-30T10:24:44+01:00
-tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding", "v0.150.0", "v0.153.0", "v0.156.0", "cross-task", "orchestration"]
+last_modified_at: 2026-10-01T03:11:37+01:00
+tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding", "v0.150.0", "v0.154.0", "v0.156.0", "cross-task", "orchestration"]
 ---
 
 # Cross-Task Coordination: Combining @Mentions and Native Worktrees for Parallel Coding
@@ -10,7 +10,7 @@ tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding"
 
 ---
 
-Two features shipped within six weeks of each other in mid-2026 and, together, change how parallel Codex CLI sessions coordinate. The `@task-name` inter-session messaging primitive arrived in v0.150.0 STABLE (26 August 2026).[^1] The `WorktreeManager` API for native git worktree isolation landed in v0.153.0 (September 2026),[^5] with worktree support promoted to on-by-default in v0.156.0 (22 September 2026).[^2] Neither feature alone is remarkable — cross-session messaging existed in nascent form before v0.150.0, and manual `git worktree add` scripting predates Codex CLI entirely. The combination, however, creates something new: parallel sessions that work in genuine isolation and can still communicate structured results to each other without file-merging risk.
+Two features shipped within six weeks of each other in mid-2026 and, together, change how parallel Codex CLI sessions coordinate. The `@task-name` inter-session messaging primitive arrived in v0.150.0 STABLE (26 August 2026).[^1] The `WorktreeManager` API for native git worktree isolation landed in v0.154.0 (September 2026),[^5] with worktree support promoted to on-by-default in v0.156.0 (22 September 2026).[^2] Neither feature alone is remarkable — cross-session messaging existed in nascent form before v0.150.0, and manual `git worktree add` scripting predates Codex CLI entirely. The combination, however, creates something new: parallel sessions that work in genuine isolation and can still communicate structured results to each other without file-merging risk.
 
 This article covers the mechanics of both features and three workflow patterns that compose them.
 
@@ -24,7 +24,7 @@ Before v0.150.0, cross-session coordination required shared files, manual pollin
 
 ### Native worktree isolation
 
-Before `WorktreeManager::create` landed in v0.153.0, running two Codex sessions in parallel on the same repository required manually scripting `git worktree add`, suppressing inherited environment variables (`GIT_DIR`, `GIT_WORK_TREE`, `GIT_INDEX_FILE`), disabling content filters, and handling rollback on failure. This was well-documented in the community but error-prone and not beginner-accessible.[^3]
+Before `WorktreeManager::create` landed in v0.154.0, running two Codex sessions in parallel on the same repository required manually scripting `git worktree add`, suppressing inherited environment variables (`GIT_DIR`, `GIT_WORK_TREE`, `GIT_INDEX_FILE`), disabling content filters, and handling rollback on failure. This was well-documented in the community but error-prone and not beginner-accessible.[^3]
 
 `WorktreeManager` encapsulates the full isolation contract behind a single managed call. Each parallel session gets a detached, Desktop-compatible worktree from HEAD or an explicit base ref. Hook inheritance, filesystem monitors, and environment variables are suppressed automatically. If setup fails, the manager rolls back. With v0.156.0 enabling worktrees by default, the agents command centre can create a worktree session directly from the task list — no manual scripting required.
 
@@ -32,7 +32,7 @@ Before `WorktreeManager::create` landed in v0.153.0, running two Codex sessions 
 
 The table below contrasts the manual approach with the current managed approach:
 
-| Concern | Manual (pre-v0.153.0) | Managed (v0.153.0+, default v0.156.0) |
+| Concern | Manual (pre-v0.154.0) | Managed (v0.154.0+, default v0.156.0) |
 |---|---|---|
 | Create parallel session | `git worktree add .worktrees/task-b HEAD` | Agents command centre or `codex agents` TUI |
 | Suppress env vars | Export 4+ git env vars explicitly | Handled automatically by `WorktreeManager` |
@@ -40,6 +40,7 @@ The table below contrasts the manual approach with the current managed approach:
 | Rollback on failure | Manual `git worktree remove` | Automatic |
 | Cross-session query | Shared temp file or `codex queue` bus | `@task-name` mention |
 | Merge responsibility | Implicit — easy to forget | Explicit human merge step by design |
+
 
 The practical effect: a two-worktree parallel session that previously required a ten-line shell setup script now takes four keystrokes in the agents TUI. The `@mention` communication channel replaces ad-hoc file passing with named, queryable session references.
 
@@ -155,4 +156,4 @@ The invariant across all three patterns is the same: agent completions do not pr
 
 [^4]: Vaughan, D., "AGENTS.md as Multi-Agent Orchestration Manifest," danielvaughan.com/codex-resources, 21 September 2026. https://danielvaughan.com/codex-resources/articles/2026-09-21-agents-md-multi-agent-orchestration-manifest-dependency-annotations-exclusion-zones-codex-cli/
 
-[^5]: OpenAI, "Codex CLI v0.153.0 Release Notes," GitHub, September 2026. https://github.com/openai/codex/releases/tag/v0.153.0
+[^5]: OpenAI, "Codex CLI v0.154.0 Release Notes," GitHub, September 2026. https://github.com/openai/codex/releases/tag/v0.154.0
