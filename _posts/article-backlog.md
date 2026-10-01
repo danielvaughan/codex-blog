@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-01T12:29:27+01:00
+last_modified_at: 2026-10-01T13:04:46+01:00
 tags:
   - backlog
   - planning
@@ -14072,7 +14072,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 ## Codex CLI v0.156.0 — Voice Default, Fullscreen TUI, /usage Dashboard, Mermaid Rendering (2026-09-23 Article Rater)
 
-1. 📝 **Voice on by Default: How v0.156.0 Changes the Codex CLI's Identity** — Identified 2026-09-23 by article-rater skill (v0.156.0 changelog analysis)
+1. ✅ **Voice on by Default: How v0.156.0 Changes the Codex CLI's Identity** — Identified 2026-09-23 by article-rater skill (v0.156.0 changelog analysis) → Written 2026-10-01 → `2026-09-22-voice-on-by-default-v0156-codex-cli-identity-shift.md`
    - Source: Codex CLI v0.156.0 STABLE (22 September 2026) release notes; changelog-watch.md
    - Gap: v0.156.0 makes voice conversations default (F8 toggle, `/voice settings`, bundled Linux/Windows audio runtimes), ships `/tui` fullscreen mode, `/usage` analytics dashboard, worktree on by default, task filtering by status, Mermaid diagram rendering in responses, and six new terminal themes. No KB article covers any of these features.
    - Framing: Identity-shift piece — the CLI is no longer a code-focussed TUI with optional voice; it is a multimodal agentic interface that happens to have a terminal. Voice ergonomics section (F8 hotkey, transcript review before execution, continuous listening state); `/tui` fullscreen layout for long-session work; `/usage` dashboard as the spend-transparency primitive teams have been building workarounds for; Mermaid rendering as the first natively visual output format in the CLI; worktree-on-by-default as the confirmation that parallel-agent workflows are now the expected default mode.
