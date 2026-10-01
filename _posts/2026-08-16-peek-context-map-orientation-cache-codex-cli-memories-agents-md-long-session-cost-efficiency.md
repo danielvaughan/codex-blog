@@ -1,7 +1,7 @@
 ---
 title: "PEEK and the Orientation Cache: What a Context Map Architecture Reveals About Codex CLI's Memory Gaps — and How to Close Them"
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-10-01T13:04:46+01:00
+last_modified_at: 2026-10-01T18:09:23+01:00
 tags: ["codex-cli", "context-management", "PEEK", "orientation-cache", "memories", "AGENTS.md", "long-session", "cost-efficiency", "context-map"]
 ---
 

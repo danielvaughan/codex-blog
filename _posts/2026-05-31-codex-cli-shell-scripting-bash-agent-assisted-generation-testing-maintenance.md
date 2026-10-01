@@ -5,7 +5,7 @@ timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-shell-scripting-bash-agent-assisted-generation-testing-maintenance"
 tags: ["codex-cli", "shell-scripting", "bash", "automation", "shellcheck", "bats", "posix", "devops", "agent-workflows"]
 date: 2026-05-31T09:00:00+00:00
-last_modified_at: 2026-10-01T13:04:46+01:00
+last_modified_at: 2026-10-01T18:09:23+01:00
 ---
 # Codex CLI for Shell Scripting: Agent-Assisted Bash Generation, Testing, and Maintenance
 

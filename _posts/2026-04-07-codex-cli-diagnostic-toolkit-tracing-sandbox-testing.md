@@ -2,7 +2,7 @@
 title: "Codex CLI Diagnostic Toolkit: Tracing, Sandbox Testing, and the Built-In Debugging Commands"
 description: "Codex CLI ships with a surprisingly deep set of diagnostic tools that most developers never discover."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-10-01T13:04:46+01:00
+last_modified_at: 2026-10-01T18:09:23+01:00
 tags:
   - reference
   - observability

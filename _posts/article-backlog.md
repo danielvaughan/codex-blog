@@ -1,12 +1,43 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-01T13:04:46+01:00
+last_modified_at: 2026-10-01T18:09:23+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## OpenAI DevDay 2026 — Post-Announcement Coverage (Article Rater — 1 October 2026)
+
+*Gaps surfaced from article-rater session on 1 October 2026. DevDay 2026 announced five new Codex features on 29 September. The 24–48 hour news window has passed; reference and tutorial coverage remains critical.*
+
+1. 📝 **OpenAI DevDay 2026: What Was Announced and What It Means for Codex CLI** — 🔴 Critical
+   - Source: DevDay 2026 (29 September, San Francisco). Codex Cloud (remote task execution, laptop-closed), /agents view (parallel agent management from one CLI session), GPT-6.1 Sol as new default model (v0.159.1, $2/$10 per M tokens, 95% cheaper cached input), Code Review (GitHub/GitLab PR review), and Codex Security Cloud (scheduled automated repo scanning) all announced. The earlier June 2026 preparation article (`2026-06-10-openai-devday-2026-codex-cli-developer-guide-september-announcements-preparation.md`) covered predictions — this is the retrospective. Zero KB coverage of any of the five announced features. Best current discovery opportunity. Target: 2,000 words, free tier.
+
+2. 📝 **GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price — a Practical Decision Framework** — 🔴 Critical
+   - Source: DevDay 2026 keynote (29 September 2026) + Codex CLI v0.159.1 release. GPT-6.1 Sol is the new default model. Bijan Bowen (engineering blog, September 2026) finding: full test suite at GPT-6.1 Sol consumed only 3% of weekly token limit — changes cost assumptions for teams currently using Astra. Three-way decision tree (Astra / Sol / Luna) with task classification matrix. Updates and supersedes the GPT-6 Sol/Luna model picker article (`2026-09-25-gpt-6-sol-luna-model-picker-three-tier-routing-codex-cli.md`, 4.0). Target: 1,600 words, premium.
+
+3. 📝 **Full Access Mode Is Deleting Home Directories — What Every Codex CLI User Must Know** — 🔴 Critical (WINDOW CLOSES ~5 OCTOBER)
+   - Source: GitHub Issue #36937 + Issue #37419 (confused deputy via rollout JSONL, Git Bash, Windows/Linux). Misconfigured full-access mode causes silent home directory deletions. Existing article `2026-09-04-data-as-code-confused-deputy-rollout-jsonl-codex-cli.md` covers the technical root cause. This article is the practitioner safety guide: who is affected, immediate mitigation steps, `config.yaml` audit checklist, safe rollback procedure. HIGH URGENCY — practitioner safety window. Target: 1,200 words, free tier.
+
+4. 📝 **Codex in the Cloud: AGENTS.md Patterns That Travel** — 🟠 High
+   - Source: DevDay 2026 (29 September). Codex Cloud confirmed: tasks run remotely, laptop can be closed, cross-device handoff real. Three differences from local sessions: filesystem access (repo-only, no local paths), secret management (cloud env vars vs .env), session continuity (named sessions replace worktrees). Cloud-compatible AGENTS.md template. Target: 1,400 words, free tier.
+
+5. 📝 **The /agents View: Managing Parallel Codex Agents from One CLI Session** — 🟠 High
+   - Source: DevDay 2026 (29 September) + v0.157 /fork shortcut + v0.159 instant_interrupt flag. New /agents view consolidates five parallel worktrees into one pane: status indicators, progress display, interrupt controls, session creation. Walkthrough: five-agent frontend/backend split with live monitoring. No KB coverage exists. Target: 1,200 words, free tier.
+
+6. 📝 **MCP 2.0 (Claude Code 2.1.284): Stateless Core, MCP Apps, and Enterprise Managed Auth** — 🟠 High
+   - Source: Claude Code 2.1.284 release notes (29 September 2026). MCP 2.0 introduces: stateless core protocol (removes session state from protocol layer), MCP Apps (interactive UI components as first-class protocol primitives), Enterprise Managed Auth (zero-touch OAuth delegation). Existing MCP articles (`2026-08-15-mcp-2026-07-28-stateless-protocol...` and `2026-08-31-mcp-2026-07-28-stateless-protocol...`) predate MCP 2.0's architectural shift. OWASP MCP Top 10 mapping articles also need accuracy review. Zero library coverage of MCP 2.0. Target: 1,600 words, premium.
+
+7. 📝 **Codex Security Cloud: Automated Repo Scanning as a CI Strategy** — 🟡 Medium
+   - Source: DevDay 2026 (29 September 2026). Scheduled full-repo vulnerability scans with cloud-prepared fixes, laptop closed. Positions Codex as security infrastructure rather than coding assistant. Covers scan configuration, fix-preparation workflow (PR vs patch output), and comparison with GitHub Advanced Security/Dependabot. Requires hands-on testing to confirm fix-output format. Target: 1,400 words, premium.
+
+8. 📝 **The /usage Dashboard: A Complete Guide** — 🟡 Medium
+   - Source: Codex CLI v0.156.0 release notes (22 September 2026). The Voice on by Default article (1 October 2026, 4.0) explicitly states: "The `/usage` dashboard deserves more detailed treatment than a paragraph — it has its own article in the backlog." Account-level token totals, plugin and skill activity, usage trend lines. Sprint-delta methodology. Interaction with `codex queue` session-level cost attribution. Target: 1,200 words, free tier.
+
+---
+
 
 ## Plugin4Shell — Zero-Click Supply Chain Exploit, Codex CLI (2026-09-21 Hourly Article Run)
 
