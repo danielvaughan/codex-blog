@@ -1,6 +1,6 @@
 ---
 date: 2026-09-06T09:00:00+00:00
-last_modified_at: 2026-10-01T18:09:23+01:00
+last_modified_at: 2026-10-02T01:09:05+01:00
 title: "Codex CLI v0.153.0: Three-Tier Context Management, Experimental Token-Budget Mode, and Guardian History Fencing"
 parent: "Articles"
 nav_order: 1134

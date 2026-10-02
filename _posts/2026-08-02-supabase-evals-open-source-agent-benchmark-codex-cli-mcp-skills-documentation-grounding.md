@@ -1,7 +1,7 @@
 ---
 title: "Supabase Evals and the Documentation Grounding Problem: What a Product-Specific Agent Benchmark Reveals About Codex CLI Skill Design"
 date: 2026-08-02T09:00:00+00:00
-last_modified_at: 2026-10-01T18:09:23+01:00
+last_modified_at: 2026-10-02T01:09:05+01:00
 tags: ["supabase", "evals", "benchmark", "mcp", "skills", "documentation-grounding", "codex-cli", "agent-skills", "leaderboard"]
 ---
 
