@@ -1,12 +1,20 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-02T11:37:21+01:00
+last_modified_at: 2026-10-02T18:08:31+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Rater Triage — 2 October 2026 (afternoon)
+
+*No new articles were published today after the morning rating session. The Toxic Flow article was updated with two new studies (Hu et al. arXiv:2609.30725, Stack Overflow retrospective — footnotes [^263] and [^264]). Footnote count now 264. Rating confirmed at 5.0.*
+
+**⚠️ Full Access Mode safety window closes 5 October — 3 days remaining.** The practitioner safety guide (item #3 below) is the highest-urgency unwritten article in the library.
+
+---
 
 ## OpenAI DevDay 2026 — Post-Announcement Coverage (Article Rater — 1 October 2026)
 

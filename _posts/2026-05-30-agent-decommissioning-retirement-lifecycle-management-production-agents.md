@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-agent-decommissioning-retirement-lifecycle-management-production-agents"
 tags: ["agent lifecycle", "decommissioning", "security", "governance", "codex cli", "production agents", "enterprise"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-10-02T11:37:21+01:00
+last_modified_at: 2026-10-02T18:08:31+01:00
 ---
 # Agent Decommissioning and Retirement: Lifecycle Management for Production Agents
 
