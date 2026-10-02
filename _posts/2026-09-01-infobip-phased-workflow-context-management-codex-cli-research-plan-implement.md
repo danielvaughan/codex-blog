@@ -1,7 +1,7 @@
 ---
 title: "Front-Load the Human: Infobip's Four-Phase Coding Agent Workflow and Its Codex CLI Blueprint"
 date: 2026-09-01T17:00:00+00:00
-last_modified_at: 2026-10-02T10:28:04+01:00
+last_modified_at: 2026-10-02T11:37:21+01:00
 tags: ["codex-cli", "workflow", "context-management", "AGENTS.md", "goal-mode", "harness-engineering", "practitioner"]
 ---
 

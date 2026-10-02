@@ -1,7 +1,7 @@
 ---
 title: "Encrypted Subagent Delegation: What Codex CLI's MultiAgentV2 Opacity Means for Your Audit Trail"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-10-02T10:28:04+01:00
+last_modified_at: 2026-10-02T11:37:21+01:00
 tags: ["codex-cli", "multiagentv2", "encryption", "subagent", "delegation", "audit-trail", "transparency", "security", "enterprise", "governance"]
 ---
 
