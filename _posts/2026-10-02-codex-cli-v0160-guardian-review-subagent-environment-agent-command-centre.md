@@ -3,7 +3,7 @@ title: "Codex CLI v0.160.0: Guardian Review Gets Conversation History, Subagents
 parent: "Articles"
 nav_order: 1168
 date: 2026-10-02T07:00:00+00:00
-last_modified_at: 2026-10-02T01:09:05+01:00
+last_modified_at: 2026-10-02T03:13:50+01:00
 tags: ["codex-cli", "v0.160.0", "guardian", "multi-agent", "subagents", "security", "agent-command-centre", "sqlite", "linux", "windows"]
 ---
 
@@ -94,7 +94,7 @@ Codex CLI maintains a local SQLite database for session logs and task history. T
 
 Three Windows-specific improvements ship in v0.160.0:
 
-**PowerShell fallback**: extended fallback discovery to Microsoft Exchange Connector sandbox environments.[^2] Previously, Codex could fail to locate PowerShell when running inside Exchange Connector sandboxes, breaking Windows-based agent tasks that relied on PowerShell execution.
+**PowerShell fallback**: extended fallback discovery to Microsoft eXecution Containers (MXC) sandbox environments.[^2] Previously, Codex could fail to locate PowerShell when running inside MXC sandboxes, breaking Windows-based agent tasks that relied on PowerShell execution.
 
 **Long-path ACL repairs**: enhanced support for extended-length paths using handle-based security updates.[^2] Windows paths exceeding 260 characters — common in deeply nested project structures — could fail ACL permission repairs. The fix uses handle-based security operations rather than path-based ones, which are not subject to the length limit.
 

@@ -3,7 +3,7 @@ title: "GPT-6 Sol and Luna in the Model Picker: Three-Tier Routing for Codex CLI
 parent: "Articles"
 nav_order: 1166
 date: 2026-09-25T08:00:00+00:00
-last_modified_at: 2026-10-02T01:09:05+01:00
+last_modified_at: 2026-10-02T03:13:50+01:00
 tags: ["codex-cli", "model-selection", "gpt-6", "astra", "sol", "luna", "model-routing", "cost-governance", "enterprise"]
 ---
 

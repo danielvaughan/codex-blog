@@ -1,7 +1,7 @@
 ---
 title: "Are Performance-Optimisation Benchmarks Reliably Measuring Coding Agents? What Practitioners Should Know — and How to Configure Codex CLI Accordingly"
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-10-02T01:09:05+01:00
+last_modified_at: 2026-10-02T03:13:50+01:00
 tags: ["codex-cli", "benchmarks", "performance-optimisation", "GSO", "SWE-Perf", "SWE-fficiency", "evaluation", "reliability"]
 ---
 
