@@ -1,9 +1,9 @@
 ---
 title: "Codex CLI v0.160.0: Guardian Review Gets Conversation History, Subagents Inherit Environments"
 parent: "Articles"
-nav_order: 1168
+nav_order: 1169
 date: 2026-10-02T07:00:00+00:00
-last_modified_at: 2026-10-02T03:13:50+01:00
+last_modified_at: 2026-10-02T10:08:02+01:00
 tags: ["codex-cli", "v0.160.0", "guardian", "multi-agent", "subagents", "security", "agent-command-centre", "sqlite", "linux", "windows"]
 ---
 
