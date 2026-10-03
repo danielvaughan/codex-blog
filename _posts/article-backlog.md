@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-03T10:27:05+01:00
+last_modified_at: 2026-10-03T11:36:00+01:00
 tags:
   - backlog
   - planning
@@ -21,7 +21,7 @@ tags:
 *Gaps surfaced from article-rater session on 1 October 2026. DevDay 2026 announced five new Codex features on 29 September. The 24–48 hour news window has passed; reference and tutorial coverage remains critical.*
 
 1. 📝 **OpenAI DevDay 2026: What Was Announced and What It Means for Codex CLI** — 🔴 Critical
-   - Source: DevDay 2026 (29 September, San Francisco). Codex Cloud (remote task execution, laptop-closed), /agents view (parallel agent management from one CLI session), GPT-6.1 Sol as new default model (v0.159.1, $2/$10 per M tokens, 95% cheaper cached input), Code Review (GitHub/GitLab PR review), and Codex Security Cloud (scheduled automated repo scanning) all announced. The earlier June 2026 preparation article (`2026-06-10-openai-devday-2026-codex-cli-developer-guide-september-announcements-preparation.md`) covered predictions — this is the retrospective. Zero KB coverage of any of the five announced features. Best current discovery opportunity. Target: 2,000 words, free tier.
+   - Source: DevDay 2026 (29 September, San Francisco). Codex Cloud (remote task execution, laptop-closed), /agents view (parallel agent management from one CLI session), GPT-6.1 Sol as new default model (v0.159.1, \$2/\$10 per M tokens, 95% cheaper cached input), Code Review (GitHub/GitLab PR review), and Codex Security Cloud (scheduled automated repo scanning) all announced. The earlier June 2026 preparation article (`2026-06-10-openai-devday-2026-codex-cli-developer-guide-september-announcements-preparation.md`) covered predictions — this is the retrospective. Zero KB coverage of any of the five announced features. Best current discovery opportunity. Target: 2,000 words, free tier.
 
 2. 📝 **GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price — a Practical Decision Framework** — 🔴 Critical
    - Source: DevDay 2026 keynote (29 September 2026) + Codex CLI v0.159.1 release. GPT-6.1 Sol is the new default model. Bijan Bowen (engineering blog, September 2026) finding: full test suite at GPT-6.1 Sol consumed only 3% of weekly token limit — changes cost assumptions for teams currently using Astra. Three-way decision tree (Astra / Sol / Luna) with task classification matrix. Updates and supersedes the GPT-6 Sol/Luna model picker article (`2026-09-25-gpt-6-sol-luna-model-picker-three-tier-routing-codex-cli.md`, 4.0). Target: 1,600 words, premium.
