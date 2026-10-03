@@ -1,18 +1,38 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-03T15:04:45+01:00
+last_modified_at: 2026-10-03T18:11:47+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
 
+## Article Rater Triage — 3 October 2026
+
+*No new articles were published today. Directory remains at 2,037 articles. Toxic Flow updated with Xu et al. arXiv:2510.10165 (invisible validator burden, footnote [^265]). Footnote count now 265 — highest in the library. Rating confirmed at 5.0. v0.162.0-alpha.2 sprint ongoing; no stable release yet.*
+
+**⚠️ Full Access Mode safety window closes 5 October — 2 days remaining.** The practitioner safety guide (item #3 below) is the highest-urgency unwritten article in the library.
+
+**🆕 New backlog item added:** The Invisible Validator Burden — standalone article from Xu et al. diff-in-diff study (2,755 repos, -19% core dev own-code output, +6.5% review load). Premium-grade, likely 4.8+.
+
+---
+
 ## Article Rater Triage — 2 October 2026 (afternoon)
 
 *No new articles were published today after the morning rating session. The Toxic Flow article was updated with two new studies (Hu et al. arXiv:2609.30725, Stack Overflow retrospective — footnotes [^263] and [^264]). Footnote count now 264. Rating confirmed at 5.0.*
 
 **⚠️ Full Access Mode safety window closes 5 October — 3 days remaining.** The practitioner safety guide (item #3 below) is the highest-urgency unwritten article in the library.
+
+---
+
+## New Research Article Ideas — 3 October 2026
+
+*Identified from Toxic Flow footnote [^265] addition (Xu et al. arXiv:2510.10165).*
+
+1. 📝 **The Invisible Validator Burden: Who Pays When AI Writes Code?** — 🔴 Critical
+   - Source: Xu et al. arXiv:2510.10165 — "Invisible Validator Burden: AI-Assisted Development and Core Developer Productivity" (October 2025, revised April 2026). Diff-in-diff natural experiment across 2,755 GitHub repos. Core devs: -19% own-code productivity, +6.5% review load, 10 extra PRs reviewed, 164 fewer commits per year. Peripheral devs: +43.5% commits. First causal study (not survey) formally quantifying the redistribution of effort from core to periphery after AI adoption.
+   - Article angle: The productivity gain narrative hides a structural redistribution. Core contributors who own the codebase carry a rising review load while peripheral contributors capture the speed benefit. Four-article causal arc: Xu et al. (redistribution), Safer Builders Risky Maintainers (maintenance risk), Jevons Paradox (efficiency paradox), CAID Parallelism (coordination ceiling). AGENTS.md review-load governance patterns — `max_prs_per_session`, PR complexity scoring hooks, maintainer-gated approvals. PostToolUse reviewer fatigue signal. Premium-grade (likely 4.8+). Target: 1,600 words.
 
 ---
 

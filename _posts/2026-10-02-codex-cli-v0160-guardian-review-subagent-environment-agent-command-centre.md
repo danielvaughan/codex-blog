@@ -3,7 +3,7 @@ title: "Codex CLI v0.160.0: Guardian Review Gets Conversation History, Subagents
 parent: "Articles"
 nav_order: 1169
 date: 2026-10-02T07:00:00+00:00
-last_modified_at: 2026-10-03T15:04:45+01:00
+last_modified_at: 2026-10-03T18:11:47+01:00
 tags: ["codex-cli", "v0.160.0", "guardian", "multi-agent", "subagents", "security", "agent-command-centre", "sqlite", "linux", "windows"]
 ---
 
