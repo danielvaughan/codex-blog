@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-error-handling-strategy-audit-generation-enforcement-consistent-patterns"
 tags: ["codex-cli", "error-handling", "code-quality", "automation", "hooks", "skills", "structured-output"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-10-02T18:08:31+01:00
+last_modified_at: 2026-10-03T03:11:26+01:00
 ---
 # Codex CLI for Automated Error Handling Strategy: Auditing, Generating, and Enforcing Consistent Error Patterns
 

@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding in the Wild: What 13.5 Million Production Sessions Reveal About Your Codex CLI Session Strategy"
 date: 2026-08-07T09:00:00+00:00
-last_modified_at: 2026-10-02T18:08:31+01:00
+last_modified_at: 2026-10-03T03:11:26+01:00
 tags: ["codex-cli", "session-management", "token-optimisation", "KV-cache", "production-data", "research", "GitHub-Copilot", "context-compaction"]
 ---
 

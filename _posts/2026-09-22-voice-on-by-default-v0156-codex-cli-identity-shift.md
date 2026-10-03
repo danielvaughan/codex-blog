@@ -3,7 +3,7 @@ title: "Voice on by Default: How v0.156.0 Changes the Codex CLI's Identity"
 parent: "Articles"
 nav_order: 1168
 date: 2026-09-22T08:00:00+00:00
-last_modified_at: 2026-10-02T18:08:31+01:00
+last_modified_at: 2026-10-03T03:11:26+01:00
 tags: ["codex-cli", "voice", "v0.156.0", "tui", "fullscreen", "usage-dashboard", "worktrees", "mermaid", "multimodal", "identity-shift"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["codex-cli", "voice", "v0.156.0", "tui", "fullscreen", "usage-dashboard",
 
 ---
 
-Codex CLI v0.156.0, released 22 September 2026, is not a typical feature release.[^1] Several of its changes are individually straightforward — a new keyboard shortcut here, a dashboard command there. Together they reframe what Codex CLI is. Before v0.156.0, Codex was a text-based coding assistant with optional voice, experimental fullscreen, and worktrees you had to configure manually. After v0.156.0, it is a multimodal agentic interface with voice on, parallel isolation on, and native visual output — all by default. The terminal is still there; it is no longer the defining characteristic.
+Codex CLI v0.156.0, released 22 September 2026, is not a typical feature release.[^1] Several of its changes are individually straightforward — a new keyboard shortcut here, a dashboard command there. Together they reframe what Codex CLI is. Before v0.156.0, Codex was a text-based coding assistant with optional voice and worktrees you had to configure manually. After v0.156.0, it is a multimodal agentic interface with voice on, parallel isolation on, and native visual output — all by default. The terminal is still there; it is no longer the defining characteristic.
 
 This article covers each of the major v0.156.0 changes, explains the ergonomic gap each one closes, and gives the practical configuration decisions that matter to teams already running Codex in production.
 
@@ -28,7 +28,7 @@ The ergonomic shift is clearest in long-horizon tasks. When you are reading code
 
 ## Fullscreen TUI: `/tui`
 
-The `/tui` command opens the fullscreen transcript viewer that has been available in alpha since v0.155.[^3] In v0.156.0 it is stable and documented. The interface adds transcript search (scroll through a long session and find an earlier decision), mouse selection, and right-click copying — features the standard terminal layout cannot offer because the terminal itself owns those interactions.
+The `/tui` command opens the fullscreen transcript viewer, introduced as a stable feature in v0.156.0.[^1] The interface adds transcript search (scroll through a long session and find an earlier decision), mouse selection, and right-click copying — features the standard terminal layout cannot offer because the terminal itself owns those interactions.
 
 The practical use case is long sessions. In a standard terminal, output from fifty tool calls ago is gone — you can scroll back but you cannot search. The fullscreen TUI treats the session as a searchable log. This matters most for overnight runs reviewed in the morning, and for debugging sessions where you need to find the exact point at which an assumption was introduced.
 
@@ -79,6 +79,5 @@ v0.156.0 promotes voice, fullscreen TUI, and worktree isolation from opt-in to d
 
 [^1]: OpenAI, "Codex CLI v0.156.0 release notes," 22 September 2026. Voice on by default (F8 toggle, `/voice settings`, bundled audio runtimes); optional fullscreen UI (`/tui`); `/usage` analytics dashboard; worktree support enabled by default; task filtering; six new terminal themes; Mermaid diagrams and display equations. https://developers.openai.com/codex/changelog
 [^2]: OpenAI, "Codex CLI v0.156.1 release notes," 23 September 2026. GPT-6 Sol and Luna added to model picker; rate-limit default updated to Luna. https://developers.openai.com/codex/changelog
-[^3]: OpenAI, "Codex CLI v0.155.0 release notes," September 2026. Experimental voice and fullscreen transcript viewer introduced. https://developers.openai.com/codex/changelog
 [^4]: OpenAI, "Codex CLI v0.154.0 release notes," September 2026. `WorktreeManager` API introduced; native git worktree creation and teardown managed by Codex. https://developers.openai.com/codex/changelog
 [^5]: OpenAI, "Codex CLI v0.150.0 release notes," 26 August 2026. `@task-name` inter-session messaging primitive introduced for cross-task coordination. https://developers.openai.com/codex/changelog

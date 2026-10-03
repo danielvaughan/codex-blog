@@ -1,7 +1,7 @@
 ---
 title: "Sub-Agent Model Routing in Multi-Agent V2: Why Your Sol Orchestrator Spawns Seven Copies of Itself — and How to Fix It"
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-10-02T18:08:31+01:00
+last_modified_at: 2026-10-03T03:11:26+01:00
 tags: ["codex-cli", "multi-agent", "model-routing", "sub-agents", "config.toml", "cost-optimisation", "gpt-5.6"]
 ---
 

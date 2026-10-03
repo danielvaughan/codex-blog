@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-tls-inspecting-proxies-custom-ca-certificates-enterprise"
 tags: ["codex-cli", "tls", "enterprise", "proxy", "certificate", "security", "corporate-network", "authentication"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-10-02T18:08:31+01:00
+last_modified_at: 2026-10-03T03:11:26+01:00
 ---
 # Codex CLI Behind TLS-Inspecting Proxies: Custom CA Certificates for Enterprise Networks
 

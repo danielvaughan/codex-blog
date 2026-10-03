@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-codex-cli-secrets-defence-env-leakage-agent-vault-runtime-injection"
 tags: ["codex-cli", "security", "secrets-management", "environment-variables", "agent-vault", "shell-environment-policy"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-10-02T18:08:31+01:00
+last_modified_at: 2026-10-03T03:11:26+01:00
 ---
 # Codex CLI Secrets Defence: Preventing .env Leakage with shell_environment_policy, agent-env, and Infisical Agent Vault
 
