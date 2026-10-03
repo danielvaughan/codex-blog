@@ -1,7 +1,7 @@
 ---
 title: "The AGENTS.md Maturity Curve: How Project Configuration Files Evolve from Wish Lists to Battle-Tested Context"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-10-03T03:11:26+01:00
+last_modified_at: 2026-10-03T07:06:10+01:00
 tags: ["codex-cli", "agents-md", "configuration", "maturity-model", "prompt-engineering", "developer-workflow"]
 ---
 
