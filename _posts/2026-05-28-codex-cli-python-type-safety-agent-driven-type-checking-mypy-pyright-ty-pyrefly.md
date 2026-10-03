@@ -6,7 +6,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-python-type-safety-agent-driven-type-checking-mypy-pyright-ty-pyrefly"
 tags: ["codex-cli", "python", "type-checking", "mypy", "pyright", "ty", "pyrefly", "type-safety", "agents-md", "ci", "gradual-typing"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-10-03T11:36:00+01:00
+last_modified_at: 2026-10-03T15:04:45+01:00
 ---
 # Codex CLI for Python Type Safety: Agent-Driven Type Checking with Mypy, Pyright, ty, and Pyrefly
 

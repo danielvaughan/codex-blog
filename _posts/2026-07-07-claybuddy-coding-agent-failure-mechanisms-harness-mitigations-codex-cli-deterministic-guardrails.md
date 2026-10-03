@@ -1,7 +1,7 @@
 ---
 title: "ClayBuddy and the Three Failure Mechanisms: What 20 Coding Environments Reveal About Why Agents Break — and How Codex CLI's Harness Already Covers the Fixes"
 date: 2026-07-07T09:00:00+00:00
-last_modified_at: 2026-10-03T11:36:00+01:00
+last_modified_at: 2026-10-03T15:04:45+01:00
 tags: ["codex-cli", "agent-safety", "harness-engineering", "deterministic-guardrails", "failure-mechanisms", "ClayBuddy"]
 ---
 

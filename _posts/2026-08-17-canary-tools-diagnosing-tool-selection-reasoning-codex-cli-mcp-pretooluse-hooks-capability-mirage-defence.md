@@ -1,7 +1,7 @@
 ---
 title: "Canary Tools and the Tool-Selection Reasoning Gap: What Diagnostic Probes Reveal About Your Codex CLI MCP Stack"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-10-03T11:36:00+01:00
+last_modified_at: 2026-10-03T15:04:45+01:00
 tags: ["codex-cli", "mcp", "tool-selection", "canary-tools", "pretooluse-hooks", "capability-mirage", "agent-safety", "diagnostic-probes"]
 ---
 
