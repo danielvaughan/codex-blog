@@ -3,7 +3,7 @@ title: "Cross-Task Coordination: Combining @Mentions and Native Worktrees for Pa
 parent: "Articles"
 nav_order: 1171
 date: 2026-09-29T08:00:00+00:00
-last_modified_at: 2026-10-03T07:06:10+01:00
+last_modified_at: 2026-10-03T10:06:44+01:00
 tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding", "v0.150.0", "v0.154.0", "v0.156.0", "cross-task", "orchestration"]
 ---
 
@@ -64,7 +64,7 @@ This pattern is useful when the diagnosis phase involves many read operations th
 
 ### Pattern 2: A/B Architectural Comparison
 
-Two worktrees implement the same feature using different architectural approaches. A third session (`@compare`) queries both via `@mentions` when they complete, summarises the tradeoffs, and surfaces the comparison for a human decision before either branch is merged.
+Two worktrees implement the same feature using different architectural approaches. A third session (`@compare`) queries both via `@mentions` when they complete, summarises the trade-offs, and surfaces the comparison for a human decision before either branch is merged.
 
 ```text
 # Session structure:
@@ -108,7 +108,7 @@ This is by design. Codex CLI's worktree model treats git merge as a deliberate h
 
 - No session merges its own worktree to main.
 - Human reviews both branches before merging.
-- @compare session summarises tradeoffs; human selects the branch.
+- @compare session summarises trade-offs; human selects the branch.
 - Unused worktrees are cleaned up via the agents command centre after merge.
 ```
 

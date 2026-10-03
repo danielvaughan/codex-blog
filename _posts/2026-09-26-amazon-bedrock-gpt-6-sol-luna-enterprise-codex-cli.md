@@ -3,7 +3,7 @@ title: "Amazon Bedrock for GPT-6: Routing Codex CLI Through AWS in Enterprise En
 parent: "Articles"
 nav_order: 1170
 date: 2026-09-26T08:00:00+00:00
-last_modified_at: 2026-10-03T07:06:10+01:00
+last_modified_at: 2026-10-03T10:06:44+01:00
 tags: ["codex-cli", "amazon-bedrock", "gpt-6", "sol", "luna", "enterprise", "aws", "data-residency", "model-routing", "v0.157.0"]
 ---
 
@@ -76,7 +76,7 @@ default_subagent_model = "gpt-6-luna"
 
 Credentials are resolved through the standard AWS credential chain: environment variables (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`), `~/.aws/credentials`, or IAM role assignment. Codex CLI v0.148.0+ handles credential refresh for expiring session tokens — the TUI surfaces a progress indicator during reauthentication rather than silently hanging.
 
-If you are upgrading from older GPT-5.x models on Bedrock, Codex CLI v0.157.0 ships in-CLI migration prompts that detect your current model configuration and propose updated model identifiers. Accept the suggestion or edit the config block manually — either path produces a valid `config.toml`.
+If you are upgrading from older GPT-5.x models on Bedrock, Codex CLI v0.157.0 ships with in-CLI migration prompts that detect your current model configuration and propose updated model identifiers. Accept the suggestion or edit the config block manually — either path produces a valid `config.toml`.
 
 ### Combining Bedrock Routing with Rollout Budgets
 
