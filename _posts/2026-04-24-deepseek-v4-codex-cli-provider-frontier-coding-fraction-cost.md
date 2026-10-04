@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-deepseek-v4-codex-cli-provider-frontier-coding-fraction-cost"
 tags: ["codex-cli", "deepseek", "v4", "custom-provider", "cost-optimisation", "benchmarks", "configuration", "model-selection"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-10-04T07:07:18+01:00
+last_modified_at: 2026-10-04T10:28:01+01:00
 ---
 # DeepSeek V4 as a Codex CLI Provider: Frontier-Class Coding at a Fraction of the Cost
 

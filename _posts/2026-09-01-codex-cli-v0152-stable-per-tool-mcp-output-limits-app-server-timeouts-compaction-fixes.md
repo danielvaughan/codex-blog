@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1087
 title: "Codex CLI v0.152.0 Stable: Per-Tool MCP Output Limits, App-Server Timeouts, and What the Alpha Preview Didn't Cover"
 date: 2026-09-01T12:00:00+00:00
-last_modified_at: 2026-10-04T07:07:18+01:00
+last_modified_at: 2026-10-04T10:28:01+01:00
 tags: ["codex-cli", "v0.152", "mcp", "release", "app-server", "configuration", "compaction", "security"]
 ---
 
