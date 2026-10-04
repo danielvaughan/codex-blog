@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-mcp-subcommand-managing-mcp-servers-from-the-terminal"
 tags: ["codex-cli", "mcp", "configuration", "oauth", "tooling", "cli-subcommands"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-10-04T10:28:01+01:00
+last_modified_at: 2026-10-04T17:05:10+01:00
 ---
 # codex mcp: Managing MCP Servers Entirely from the Terminal
 

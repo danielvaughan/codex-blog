@@ -1,7 +1,7 @@
 ---
 title: "Behind the Corporate Firewall: How Codex CLI Conquered PAC, WPAD, and Multi-Provider Model Routing"
 date: 2026-07-21T09:00:00+00:00
-last_modified_at: 2026-10-04T10:28:01+01:00
+last_modified_at: 2026-10-04T17:05:10+01:00
 tags: ["codex-cli", "enterprise", "proxy", "PAC", "WPAD", "model-provider", "Bedrock", "Azure", "corporate-network", "config.toml"]
 ---
 

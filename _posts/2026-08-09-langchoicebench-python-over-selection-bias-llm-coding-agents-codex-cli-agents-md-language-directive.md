@@ -1,7 +1,7 @@
 ---
 title: "LangChoiceBench and the Python Over-Selection Problem: Why Your Coding Agent Defaults to Python When It Shouldn't — and How to Fix It in Codex CLI"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-10-04T10:28:01+01:00
+last_modified_at: 2026-10-04T17:05:10+01:00
 tags: ["codex-cli", "python-bias", "language-selection", "AGENTS.md", "named-profiles", "LangChoiceBench", "phantom-evidence", "code-generation"]
 ---
 

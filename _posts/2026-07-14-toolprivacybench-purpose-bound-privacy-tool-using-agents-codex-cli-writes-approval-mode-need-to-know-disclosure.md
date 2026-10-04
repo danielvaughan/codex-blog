@@ -1,7 +1,7 @@
 ---
 title: "ToolPrivacyBench and the Need-to-Know Principle: Why Successful Tool Calls Still Leak Private Data — and How Codex CLI's Permission Stack Closes the Disclosure Gap"
 date: 2026-07-14T09:00:00+00:00
-last_modified_at: 2026-10-04T10:28:01+01:00
+last_modified_at: 2026-10-04T17:05:10+01:00
 tags: ["codex-cli", "privacy", "ToolPrivacyBench", "approval-policy", "writes-mode", "MCP", "need-to-know", "tool-permissions", "sandbox", "purpose-bound-disclosure"]
 ---
 

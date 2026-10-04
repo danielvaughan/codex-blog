@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-running-multiple-codex-agents-parallel-orchestration"
 tags: ["codex-cli", "parallel-agents", "orchestration", "git-worktrees", "tmux", "subagents", "multi-agent"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-10-04T10:28:01+01:00
+last_modified_at: 2026-10-04T17:05:10+01:00
 ---
 # Running Multiple Codex Agent Instances: Parallel Orchestration Patterns
 

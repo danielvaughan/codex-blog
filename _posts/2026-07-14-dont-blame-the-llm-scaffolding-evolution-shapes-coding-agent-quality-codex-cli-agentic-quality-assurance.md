@@ -1,7 +1,7 @@
 ---
 title: "Don't Blame the LLM: How Scaffolding Evolution Shapes Coding Agent Quality — and What It Means for Your Codex CLI Upgrades"
 date: 2026-07-14T09:00:00+00:00
-last_modified_at: 2026-10-04T10:28:01+01:00
+last_modified_at: 2026-10-04T17:05:10+01:00
 tags: ["codex-cli", "scaffolding", "agent-quality", "SWE-bench", "regression-testing", "agentic-quality-assurance", "release-velocity"]
 ---
 

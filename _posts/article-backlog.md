@@ -1,18 +1,24 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-04T10:28:01+01:00
+last_modified_at: 2026-10-04T17:05:10+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
 
+## Article Triage — 4 October 2026
+
+*Full Access Mode practitioner safety guide published (item #3). Window closes 5 October — published 1 day before deadline. Directory now at 2,036 articles.*
+
+---
+
 ## Article Rater Triage — 3 October 2026
 
 *No new articles were published today. Directory remains at 2,037 articles. Toxic Flow updated with Xu et al. arXiv:2510.10165 (invisible validator burden, footnote [^265]). Footnote count now 265 — highest in the library. Rating confirmed at 5.0. v0.162.0-alpha.2 sprint ongoing; no stable release yet.*
 
-**⚠️ Full Access Mode safety window closes 5 October — 2 days remaining.** The practitioner safety guide (item #3 below) is the highest-urgency unwritten article in the library.
+**✅ Full Access Mode safety guide published 4 October 2026** — `2026-10-04-full-access-mode-home-directory-deletion-practitioner-safety-guide-codex-cli.md`
 
 **🆕 New backlog item added:** The Invisible Validator Burden — standalone article from Xu et al. diff-in-diff study (2,755 repos, -19% core dev own-code output, +6.5% review load). Premium-grade, likely 4.8+.
 
