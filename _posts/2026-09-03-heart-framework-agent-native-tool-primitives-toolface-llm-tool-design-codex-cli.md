@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1111
 title: "Agent-Native Tool Primitives: What the HEART Framework's 84% vs 22% Completion Gap Reveals About LLM Tool Design — and How It Applies to Codex CLI"
 date: 2026-09-03T14:00:00+00:00
-last_modified_at: 2026-10-03T18:11:47+01:00
+last_modified_at: 2026-10-04T03:11:55+01:00
 tags: ["codex-cli", "mcp", "tool-design", "agent-architecture", "research", "tool-calling", "harness-engineering"]
 ---
 

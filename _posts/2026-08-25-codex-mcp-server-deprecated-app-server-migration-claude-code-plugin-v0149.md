@@ -1,7 +1,7 @@
 ---
 title: "From codex mcp-server to App Server and Codex Plugin: Navigating the v0.149.1 Deprecation"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-10-03T18:11:47+01:00
+last_modified_at: 2026-10-04T03:11:55+01:00
 tags: ["codex-cli", "app-server", "mcp", "claude-code", "integration", "v0.149", "deprecation", "migration"]
 ---
 

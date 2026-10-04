@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-automated-git-bisect-regression-hunting-root-cause-analysis"
 tags: ["codex-cli", "git-bisect", "regression", "debugging", "automation", "codex-exec", "CI/CD"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-10-03T18:11:47+01:00
+last_modified_at: 2026-10-04T03:11:55+01:00
 ---
 # Automated Regression Hunting with Codex CLI: AI-Powered Git Bisect and Root Cause Analysis
 

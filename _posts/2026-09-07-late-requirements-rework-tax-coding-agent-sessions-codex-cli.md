@@ -1,6 +1,6 @@
 ---
 date: 2026-09-07T09:00:00+00:00
-last_modified_at: 2026-10-03T18:11:47+01:00
+last_modified_at: 2026-10-04T03:11:55+01:00
 title: "The 2× Rework Tax: Late-Arriving Requirements and Code Invalidation in Coding-Agent Sessions"
 parent: "Articles"
 nav_order: 1137

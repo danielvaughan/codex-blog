@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1118
 title: "How Fast Do Agents Rot? Geometric Degradation in Long-Horizon LLM Agents — and What It Means for Codex CLI Session Design"
 date: 2026-09-04T08:00:00+00:00
-last_modified_at: 2026-10-03T18:11:47+01:00
+last_modified_at: 2026-10-04T03:11:55+01:00
 tags: ["codex-cli", "reliability", "long-horizon", "session-design", "benchmarks", "production"]
 ---
 
