@@ -1,12 +1,24 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-05T10:27:44+01:00
+last_modified_at: 2026-10-05T18:09:25+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Rater Triage — 5 October 2026
+
+*No new articles published today. Directory remains at 2,038 files. One previously unindexed article discovered and rated: `codex-outlook-calendar-integration.md` (dated 2026-04-28, composite 3.6). Running rated count now 2,039+. v0.162.0-alpha sprint ongoing; current stable v0.160.0.*
+
+**New backlog items added (5 October 2026):**
+- Microsoft 365 Calendar Integration Update — existing article six months old, Work IQ preview status needs verification, Medium priority.
+- The Codex CLI Versioning Gap — no library article addresses release monitoring and staged rollout governance, Medium priority.
+
+**Carried forward (Critical):** The Invisible Validator Burden (Xu et al.) and OpenAI DevDay 2026 recap remain the two highest-priority unwritten articles.
+
+---
 
 ## Article Triage — 4 October 2026
 
