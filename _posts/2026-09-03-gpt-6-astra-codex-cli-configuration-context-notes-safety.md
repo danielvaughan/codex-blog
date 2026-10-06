@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1109
 title: "GPT-6 Astra Arrives: Configuring OpenAI's Most Capable Model in Codex CLI"
 date: 2026-09-03T22:30:00+00:00
-last_modified_at: 2026-10-05T18:09:25+01:00
+last_modified_at: 2026-10-06T03:09:27+01:00
 tags: ["codex-cli", "gpt-6-astra", "model-configuration", "context-management", "safety", "release"]
 ---
 
