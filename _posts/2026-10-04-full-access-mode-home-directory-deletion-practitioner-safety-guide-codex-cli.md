@@ -3,7 +3,7 @@ title: "Full Access Mode Is Deleting Home Directories — What Every Codex CLI U
 parent: "Articles"
 nav_order: 1173
 date: 2026-10-04T07:00:00+00:00
-last_modified_at: 2026-10-06T03:09:27+01:00
+last_modified_at: 2026-10-06T10:06:55+01:00
 tags: ["codex-cli", "security", "full-access-mode", "windows", "data-loss", "safety", "config", "practitioner-guide"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["codex-cli", "security", "full-access-mode", "windows", "data-loss", "saf
 
 Two confirmed incidents — GitHub Issues #36937 and #37419 — show that Codex CLI can silently delete a user's entire HOME directory, or hundreds of session transcripts, under specific but not rare conditions.[^1][^2] Both incidents occurred on Windows. Both involved Full Access Mode or elevated sandbox settings. In both cases, the application produced no error, no warning, and no recovery prompt.
 
-This article is not a technical deep-dive. A separate article covers [the confused deputy root cause in full](https://codex.danielvaughan.com/2026/08/18/data-as-code-confused-deputy-codex-cli-rollout-jsonl-safety-instruction-execution-windows-shell-backtick/). This article answers a single question: **what do you need to do right now?**
+This article is not a technical deep dive. A separate article covers [the confused deputy root cause in full](https://codex.danielvaughan.com/2026/08/18/data-as-code-confused-deputy-codex-cli-rollout-jsonl-safety-instruction-execution-windows-shell-backtick/). This article answers a single question: **what do you need to do right now?**
 
 ---
 
