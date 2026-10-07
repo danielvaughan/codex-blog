@@ -1,7 +1,7 @@
 ---
 title: "The Codex Agents Dashboard: Interactive Task Management Arrives in v0.149.0"
 date: 2026-08-21T09:00:00+00:00
-last_modified_at: 2026-10-06T10:25:17+01:00
+last_modified_at: 2026-10-07T03:13:34+01:00
 tags: ["codex-cli", "agents-dashboard", "v0.149.0", "subagent-monitoring", "task-management", "TUI", "multi-agent"]
 ---
 

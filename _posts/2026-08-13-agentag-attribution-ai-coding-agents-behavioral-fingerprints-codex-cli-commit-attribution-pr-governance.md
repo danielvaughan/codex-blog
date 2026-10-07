@@ -1,7 +1,7 @@
 ---
 title: "AgenTag and Open-World Agent Attribution: Why PR Descriptions Reveal More Than Code Diffs — and What It Means for Codex CLI Commit Governance"
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-10-06T10:25:17+01:00
+last_modified_at: 2026-10-07T03:13:34+01:00
 tags: ["codex-cli", "agent-attribution", "behavioural-fingerprints", "commit-messages", "pull-requests", "governance", "AgenTag", "contrastive-learning", "open-world-recognition", "Co-Authored-By"]
 ---
 
