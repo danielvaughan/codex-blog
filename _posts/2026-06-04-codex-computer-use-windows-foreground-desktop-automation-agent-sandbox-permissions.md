@@ -6,7 +6,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-computer-use-windows-foreground-desktop-automation-agent-sandbox-permissions"
 tags: ["codex", "computer-use", "windows", "desktop-automation", "sandbox", "permissions", "foreground", "remote-control", "agent"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-10-07T10:25:30+01:00
+last_modified_at: 2026-10-07T11:40:59+01:00
 ---
 # Codex Computer Use on Windows: Foreground Desktop Automation with Agent Sandbox Controls
 
@@ -43,34 +43,16 @@ This differs from the macOS implementation, where Computer Use can run in the ba
 
 The practical implication: remote control is the intended workflow on Windows. You start a Computer Use task, then monitor and steer it from ChatGPT on iOS or Android, or from another machine running the Codex App. The host machine becomes a dedicated execution environment for the duration of the task.
 
-```text
-┌─────────────────────────────────────────────────────┐
-│                  WINDOWS HOST                        │
-│                                                      │
-│  ┌─────────────┐    ┌──────────────────────────┐    │
-│  │  Codex App  │───>│  Desktop Application      │    │
-│  │  (agent)    │    │  (foreground, visible)     │    │
-│  │             │<───│                            │    │
-│  │  see/click/ │    │  Screenshots → reasoning   │    │
-│  │  type loop  │    │  → actions → verification  │    │
-│  └──────┬──────┘    └──────────────────────────┘    │
-│         │                                            │
-│         │  Secure relay                              │
-│         │                                            │
-│  ┌──────▼──────────────────────────────────────┐    │
-│  │  Remote control session                      │    │
-│  │  (approvals, diffs, screenshots, terminal)   │    │
-│  └──────┬──────────────────────────────────────┘    │
-│         │                                            │
-└─────────┼────────────────────────────────────────────┘
-          │
-          ▼
-┌─────────────────────┐
-│  ChatGPT mobile     │
-│  (iOS / Android)    │
-│  or another Mac     │
-│  running Codex      │
-└─────────────────────┘
+```mermaid
+flowchart TB
+    subgraph host["Windows Host"]
+        codex["Codex App (agent)<br/>see / click / type loop"]
+        desktop["Desktop Application<br/>(foreground, visible)<br/>Screenshots → reasoning → actions → verification"]
+        relay["Remote control session<br/>(approvals, diffs, screenshots, terminal)"]
+        codex <-->|"actions / screenshots"| desktop
+        codex -->|"Secure relay"| relay
+    end
+    relay --> mobile["ChatGPT mobile (iOS / Android)<br/>or another Mac running Codex"]
 ```
 
 *Figure 1. The foreground execution model. The agent operates the Windows desktop while the user monitors remotely via the secure relay.*

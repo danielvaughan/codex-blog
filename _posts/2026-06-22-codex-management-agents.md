@@ -2,7 +2,7 @@
 title: "Codex Management Agents: Orchestrating Work Without a Human in Every Loop"
 description: "As Codex agents grow more capable, the bottleneck shifts from doing the work to managing it. Management agents solve this by coordinating task assignment, progress tracking, and quality gates across fleets of worker agents."
 date: 2026-06-22T12:00:00+00:00
-last_modified_at: 2026-10-07T10:25:30+01:00
+last_modified_at: 2026-10-07T11:40:59+01:00
 tags:
   - management-agents
   - orchestration
@@ -151,18 +151,15 @@ A minimal management agent system has three components:
 
 The management agent runs continuously or on a schedule. When it detects new tasks, it creates worker agents, assigns tasks, and monitors progress. When workers complete tasks, it handles the output — opening PRs, updating status, or triggering the next stage.
 
-```text
-┌─────────────────────────────────────────┐
-│           Management Agent              │
-│  (harness layer, no sandbox)            │
-│  Tools: assign, monitor, approve, route │
-└─────────┬──────────┬──────────┬─────────┘
-          │          │          │
-    ┌─────▼───┐ ┌────▼────┐ ┌──▼──────┐
-    │ Worker  │ │ Worker  │ │ Worker  │
-    │ Agent A │ │ Agent B │ │ Agent C │
-    │ (Modal) │ │ (E2B)   │ │ (Docker)│
-    └─────────┘ └─────────┘ └─────────┘
+```mermaid
+flowchart TB
+    mgmt["Management Agent<br/>(harness layer, no sandbox)<br/>Tools: assign, monitor, approve, route"]
+    workerA["Worker Agent A<br/>(Modal)"]
+    workerB["Worker Agent B<br/>(E2B)"]
+    workerC["Worker Agent C<br/>(Docker)"]
+    mgmt --> workerA
+    mgmt --> workerB
+    mgmt --> workerC
 ```
 
 The management agent can run on different infrastructure from the workers. It might run in a Temporal job or a long-lived server process, while workers spin up and down on Modal or E2B as demand requires.

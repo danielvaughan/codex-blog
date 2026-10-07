@@ -2,7 +2,7 @@
 title: "Codex CLI Hooks: Complete Guide to Events, Policy Engines and Production Patterns"
 slug: codex-cli-hooks-complete-guide-events-policy-patterns
 date: "2026-04-15T00:00:00+00:00"
-last_modified_at: 2026-10-07T10:25:30+01:00
+last_modified_at: 2026-10-07T11:40:59+01:00
 updated: "2026-04-18"
 author: "Seb (codex.quest)"
 description: >
@@ -73,25 +73,15 @@ Codex CLI hooks let you intercept and react to events in the agent loop
 invokes synchronously, passing a JSON payload on stdin and reading a JSON
 response from stdout.
 
-```text
-┌────────────────────┐
-│   Codex CLI Core   │
-│  (codex-rs/core)   │
-└────────┬───────────┘
-         │ EventMsg::HookStarted / HookCompleted
-         ▼
-┌────────────────────┐         ┌──────────────────────────────┐
-│   Hook Runtime     │────────▶│  ClaudeHooksEngine           │
-│ (hook_runtime.rs)  │         │  (codex-rs/hooks/src/engine) │
-└────────────────────┘         └──────────┬───────────────────┘
-                                          │
-                               ┌──────────▼───────────────────┐
-                               │  Discovery → Dispatcher      │
-                               │  reads hooks.json             │
-                               │  selects matching handlers    │
-                               │  runs commands in parallel    │
-                               │  parses JSON output           │
-                               └──────────────────────────────┘
+```mermaid
+flowchart TD
+    core["Codex CLI Core<br/>(codex-rs/core)"]
+    hr["Hook Runtime<br/>(hook_runtime.rs)"]
+    che["ClaudeHooksEngine<br/>(codex-rs/hooks/src/engine)"]
+    dd["Discovery → Dispatcher<br/>reads hooks.json<br/>selects matching handlers<br/>runs commands in parallel<br/>parses JSON output"]
+    core -->|"EventMsg::HookStarted / HookCompleted"| hr
+    hr --> che
+    che --> dd
 ```
 
 ### Key Design Principles
