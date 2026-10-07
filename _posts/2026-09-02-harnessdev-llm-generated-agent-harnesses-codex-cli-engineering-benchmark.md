@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1102
 title: "HarnessDev: What Happens When an LLM Builds Its Own Agent Harness — and Why Codex CLI's Engineering Still Wins"
 date: 2026-09-02T18:00:00+00:00
-last_modified_at: 2026-10-07T10:07:46+01:00
+last_modified_at: 2026-10-07T10:25:30+01:00
 tags: ["codex-cli", "harness-engineering", "benchmarks", "research", "architecture", "evaluation", "terminal-bench", "swe-bench"]
 ---
 
