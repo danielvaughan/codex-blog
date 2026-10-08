@@ -3,7 +3,7 @@ title: "OpenAI DevDay 2026: Codex Cloud, the /agents View, GPT-6.1 Sol, Code Rev
 parent: "Articles"
 nav_order: 1173
 date: 2026-10-08T07:00:00+00:00
-last_modified_at: 2026-10-08T03:14:20+01:00
+last_modified_at: 2026-10-08T10:08:07+01:00
 tags: ["codex-cli", "devday", "openai", "codex-cloud", "agents-view", "gpt-6", "sol", "code-review", "security-cloud", "multi-agent"]
 ---
 
@@ -18,7 +18,7 @@ This article covers each announcement in turn, explains what changed in the CLI,
 
 ## Codex Cloud: Running Tasks While Your Laptop Is Closed
 
-The most architecturally significant announcement at DevDay 2026 was Codex Cloud: the ability to run Codex sessions remotely, on OpenAI's infrastructure, with the laptop powered down.[^2] Previous to this announcement, all Codex CLI sessions ran in a local sandbox on the developer's machine. Closing the laptop killed the session.
+The most architecturally significant announcement at DevDay 2026 was Codex Cloud: the ability to run Codex sessions remotely, on OpenAI's infrastructure, with the laptop powered down.[^2] Prior to this announcement, all Codex CLI sessions ran in a local sandbox on the developer's machine. Closing the laptop killed the session.
 
 Codex Cloud changes this by moving the execution environment to a managed remote container. You start a task from the CLI — or from ChatGPT — and it runs to completion in the cloud regardless of local machine state. Cross-device handoff is real: a task started on a desktop can be monitored or continued from a phone. Named sessions replace the worktree-per-task model for managing continuity.
 
@@ -49,7 +49,7 @@ The /agents view requires no configuration changes. It is available in all Codex
 
 ## GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price
 
-DevDay 2026 made GPT-6.1 Sol the new default model for Codex CLI, shipping in v0.159.1.[^7] The pricing signal is significant: GPT-6.1 Sol is priced at \$2 per million input tokens and \$10 per million output tokens — representing a 90 per cent reduction in cached input costs relative to Astra's standard tier ($0.10/M vs $1.00/M cached input). Bijan Bowen, writing in the OpenAI engineering blog in September 2026, noted that running a full test suite at GPT-6.1 Sol consumed only 3 per cent of a weekly token limit.[^8] That finding changes cost assumptions for any team currently defaulting to Astra for standard agentic work.
+DevDay 2026 made GPT-6.1 Sol the new default model for Codex CLI, shipping in v0.159.1.[^7] The pricing signal is significant: GPT-6.1 Sol is priced at $2 per million input tokens and $10 per million output tokens — representing a 90 per cent reduction in cached input costs relative to Astra's standard tier ($0.10/M vs $1.00/M cached input). Bijan Bowen, writing in the OpenAI engineering blog in September 2026, noted that running a full test suite with GPT-6.1 Sol consumed only 3 per cent of a weekly token limit.[^8] That finding changes cost assumptions for any team currently defaulting to Astra for standard agentic work.
 
 The routing logic is straightforward. GPT-6.1 Sol handles the majority of standard coding tasks — feature implementation, refactoring, test generation, documentation updates — at high quality and very low cost. GPT-6 Astra (Light, Medium, or Extra High) remains the tier for work that requires cross-context memory, multi-step reasoning over long sessions, or tasks where the quality ceiling of Sol is insufficient. GPT-6 Luna is the appropriate choice for lightweight subagent roles, simple edits, and rate-limit fallback.
 
