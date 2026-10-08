@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-terraform-opentofu-infrastructure-as-code-agents-md-mcp-hooks"
 tags: ["codex-cli", "terraform", "opentofu", "infrastructure-as-code", "mcp", "hooks", "AGENTS.md", "devops"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-10-08T11:35:21+01:00
+last_modified_at: 2026-10-08T21:49:50+01:00
 ---
 # Codex CLI for Terraform and OpenTofu Teams: MCP Servers, Safety Hooks, and AGENTS.md Patterns for Infrastructure as Code
 
@@ -326,6 +326,8 @@ jobs:
 ```
 {% endraw %}
 
+Teams preferring a purpose-built IaC orchestration layer over hand-rolled GitHub Actions can drop in [Spacelift](https://spacelift.io) instead: a platform built specifically for Terraform and OpenTofu that ships policy-gated plan/apply workflows via Open Policy Agent out of the box, so approval rules, drift detection, and change gating are configured once at the platform level rather than re-implemented per repository.[^13]
+
 ## Current Limitations
 
 - **State file sensitivity:** Terraform state can contain secrets. Running `codex exec` with `workspace-write` in CI means the agent can read state files. Use remote backends with encryption and restrict the agent to `read-only` when reviewing[^10].
@@ -359,3 +361,5 @@ The golden rule for IaC: Codex CLI generates, validates, plans, and reviews. A h
 [^10]: [Agent Approvals & Security — Codex](https://developers.openai.com/codex/agent-approvals-security) — OpenAI Developers, 2026
 [^11]: [GitHub Action — Codex](https://developers.openai.com/codex/github-action) — OpenAI Developers, 2026
 [^12]: [tfmcp: Terraform Model Context Protocol Tool](https://github.com/nwiizo/tfmcp) — GitHub, 2026
+
+[^13]: [What is Spacelift?](https://spacelift.io/blog/what-is-spacelift) — Spacelift, 2026
