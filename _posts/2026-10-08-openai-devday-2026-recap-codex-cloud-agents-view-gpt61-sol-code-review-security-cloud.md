@@ -3,7 +3,7 @@ title: "OpenAI DevDay 2026: Codex Cloud, the /agents View, GPT-6.1 Sol, Code Rev
 parent: "Articles"
 nav_order: 1173
 date: 2026-10-08T07:00:00+00:00
-last_modified_at: 2026-10-08T21:49:50+01:00
+last_modified_at: 2026-10-09T03:12:50+01:00
 tags: ["codex-cli", "devday", "openai", "codex-cloud", "agents-view", "gpt-6", "sol", "code-review", "security-cloud", "multi-agent"]
 ---
 
@@ -104,7 +104,7 @@ The workflow is:
 
 This model differs meaningfully from GitHub Advanced Security and Dependabot. Advanced Security surfaces alerts and expects humans to write the fix. Dependabot prepares fixes for dependency upgrades but does not address code-level vulnerabilities. Codex Security Cloud prepares fixes for code-level issues — the class of vulnerability that neither of the existing tools addresses automatically.[^10]
 
-At launch, Codex Security Cloud requires an Enterprise plan. Configuration is managed through the Codex dashboard under Security > Scheduled Scans. Repository connection reuses the same OAuth integration used by Code Review.
+At launch, Codex Security Cloud is available on Pro, Business, Enterprise, and Edu plans. Configuration is managed through the Codex dashboard under Security > Scheduled Scans. Repository connection reuses the same OAuth integration used by Code Review.
 
 ## What the Five Announcements Add Up To
 
