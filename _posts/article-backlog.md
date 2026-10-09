@@ -1,21 +1,22 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-09T10:26:21+01:00
+last_modified_at: 2026-10-09T19:06:14+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
 
-## Article Triage — 8 October 2026
+## Article Triage — 9 October 2026
 
-*OpenAI DevDay 2026 recap published. Directory now at 2,037 articles. v0.162.0-alpha sprint ongoing; current stable v0.160.0.*
+*Invisible Validator Burden published. Directory now at 2,038 articles. v0.162.0-alpha sprint ongoing; current stable v0.160.0.*
 
-**Published (8 October 2026):**
+**Published (9 October 2026):**
+- `2026-10-09-invisible-validator-burden-ai-assisted-programming-core-developer-productivity-review-load-codex-cli.md` — Xu et al. arXiv:2510.10165 diff-in-diff study: peripheral devs +43.5% commits, core devs −19% output, +6.5% review load, 10 extra PRs, 164 fewer commits/year. AGENTS.md governance patterns: max_prs_per_session, PR complexity scoring, maintainer-gated approvals, PostToolUse fatigue signal. Premium-grade, ~2,000 words.
+
+**Previously published (8 October 2026):**
 - `2026-10-08-openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud.md` — covers all five DevDay 2026 announcements: Codex Cloud, /agents view, GPT-6.1 Sol, Code Review, Security Cloud. Free tier, ~2,040 words.
-
-**Carried forward (Critical):** The Invisible Validator Burden (Xu et al.) — standalone article from arXiv:2510.10165 diff-in-diff study.
 
 **Carried forward (Medium):** Microsoft 365 Calendar Integration Update; The Codex CLI Versioning Gap.
 
