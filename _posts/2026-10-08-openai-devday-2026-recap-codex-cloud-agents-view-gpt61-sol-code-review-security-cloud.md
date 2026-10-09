@@ -3,7 +3,7 @@ title: "OpenAI DevDay 2026: Codex Cloud, the /agents View, GPT-6.1 Sol, Code Rev
 parent: "Articles"
 nav_order: 1173
 date: 2026-10-08T07:00:00+00:00
-last_modified_at: 2026-10-09T03:12:50+01:00
+last_modified_at: 2026-10-09T10:07:59+01:00
 tags: ["codex-cli", "devday", "openai", "codex-cloud", "agents-view", "gpt-6", "sol", "code-review", "security-cloud", "multi-agent"]
 ---
 
@@ -56,7 +56,7 @@ The routing logic is straightforward. GPT-6.1 Sol handles the majority of standa
 | Tier | Model | Relative cost | When to use |
 |------|-------|---------------|-------------|
 | Astra | GPT-6 Astra | Highest | Long sessions, cross-context memory, complex reasoning |
-| Sol | GPT-6.1 Sol | Mid (90% cheaper cached input vs Astra standard) | Standard coding tasks, daily driver |
+| Sol | GPT-6.1 Sol | Mid (90 per cent cheaper cached input vs Astra standard) | Standard coding tasks, daily driver |
 | Luna | GPT-6 Luna | Lowest | Subagent roles, lightweight edits, rate-limit fallback |
 
 To pin Sol explicitly in `config.toml`:
