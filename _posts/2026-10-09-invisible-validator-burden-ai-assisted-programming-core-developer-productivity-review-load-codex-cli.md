@@ -3,7 +3,7 @@ title: "The Invisible Validator Burden: Who Pays When AI Writes Code?"
 parent: "Articles"
 nav_order: 1174
 date: 2026-10-09T07:00:00+00:00
-last_modified_at: 2026-10-10T03:12:12+01:00
+last_modified_at: 2026-10-10T10:05:45+01:00
 tags: ["codex-cli", "research", "productivity", "code-review", "developer-experience", "AGENTS.md", "hooks", "PostToolUse", "governance", "premium"]
 ---
 
@@ -57,7 +57,7 @@ This is the invisible validator burden restated as a finding. The productivity d
 
 The problem is not measurement laziness. It is structural. Commit counts and PR throughput are designed to count events. They do not track the per-contributor cognitive cost of those events.
 
-A peripheral developer's PR appears in the aggregate at the same weight as a core developer's review of that PR. The peripheral developer's time cost is recorded. The core developer's review time is not. When AI tools multiply peripheral output by 43 per cent, they multiply the review demand on core developers — and that multiplication appears nowhere in the velocity dashboard.
+A peripheral developer's PR appears in the aggregate at the same weight as a core developer's review of that PR. The peripheral developer's time cost is recorded. The core developer's review time is not. When AI tools multiply peripheral output by 43.5 per cent, they multiply the review demand on core developers — and that multiplication appears nowhere in the velocity dashboard.
 
 The study authors call this an aggregation artefact. The productivity gain is not fabricated. It is real for the population that contributes it. The problem is that the population absorbing the cost is different from the population generating the gain, and current measurement systems were not designed to see the difference.
 
@@ -71,7 +71,7 @@ The 2.4 per cent rise in PR rework rates indicates that core developers are not 
 
 This creates a coordination ceiling. Peripheral developers can generate output faster than core developers can validate it. The theoretical productivity gain of AI coding tools is bounded by the validation capacity of the seniority band that absorbs the review load. At some ratio of peripheral output to core review capacity, the pipeline stalls.
 
-The Xu et al. study captures the early phase of this dynamic. The Copilot treatment window runs from June 2021 to July 2022. Peripheral output growth of 43 per cent against a 6.5 per cent rise in core review workload and a 19 per cent fall in core output is the beginning of a trajectory, not a stable equilibrium.
+The Xu et al. study captures the early phase of this dynamic. The Copilot treatment window runs from June 2021 to July 2022. Peripheral output growth of 43.5 per cent against a 6.5 per cent rise in core review workload and a 19 per cent fall in core output is the beginning of a trajectory, not a stable equilibrium.
 
 ---
 
