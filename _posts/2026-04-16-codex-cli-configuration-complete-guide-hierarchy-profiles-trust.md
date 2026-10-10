@@ -3,7 +3,7 @@ title: "Codex CLI Configuration Complete Guide: Hierarchy, Profiles, and Trust"
 description: "Codex CLI uses a layered configuration system where settings from multiple sources merge together with clear precedence rules."
 subtitle: "6-layer resolution chain, named profiles, project-scoped trust boundaries, and shell environment policy"
 date: 2026-04-16T08:00:00+00:00
-last_modified_at: 2026-10-10T11:04:39+01:00
+last_modified_at: 2026-10-10T11:38:36+01:00
 tags:
   - codex-cli
   - configuration
@@ -35,23 +35,13 @@ Codex CLI uses a layered configuration system where settings from multiple sourc
 
 Codex CLI resolves configuration by merging up to six layers. Higher-precedence layers override lower ones. When two layers set the same key, the higher-precedence value wins.
 
-```text
-+----------------------------------+
-|  1. CLI Flags (--model, -c)      |  <-- Highest priority
-+----------------------------------+
-|  2. Profiles (--profile NAME)    |
-+----------------------------------+
-|  3. Project Config (.codex/)     |
-|     (closest to cwd wins)        |
-+----------------------------------+
-|  4. User Config                  |
-|     (~/.codex/config.toml)       |
-+----------------------------------+
-|  5. System Config                |
-|     (managed_config.toml / MDM)  |
-+----------------------------------+
-|  6. Built-in Defaults            |  <-- Lowest priority
-+----------------------------------+
+```mermaid
+flowchart TD
+    A["1. CLI Flags ★ highest priority<br/>(--model, -c)"] -->|overrides| B["2. Profiles<br/>(--profile NAME)"]
+    B -->|overrides| C["3. Project Config<br/>(.codex/ — closest to cwd wins)"]
+    C -->|overrides| D["4. User Config<br/>(~/.codex/config.toml)"]
+    D -->|overrides| E["5. System Config<br/>(managed_config.toml / MDM)"]
+    E -->|overrides| F["6. Built-in Defaults ★ lowest priority"]
 ```
 
 ### Layer Details

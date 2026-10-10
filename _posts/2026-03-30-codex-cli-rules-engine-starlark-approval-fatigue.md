@@ -2,7 +2,7 @@
 title: "Codex CLI Rules Engine: Starlark Policies, Approval Fatigue, and the Coming `general_rule` Fix"
 description: "> Navigating the challenges of policy enforcement in agentic workflows."
 date: 2026-03-30T00:00:00+00:00
-last_modified_at: 2026-10-10T11:04:39+01:00
+last_modified_at: 2026-10-10T11:38:36+01:00
 type: Technical Article
 timestamp: 2026-03-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-codex-cli-rules-engine-starlark-approval-fatigue"
@@ -27,13 +27,13 @@ Codex CLI's rules engine lets teams define executable policies that govern what 
 
 The rules engine sits between the Codex CLI agent loop and the actions it wants to execute:
 
-```text
-codex run
-  --> CLI
-    --> Guardian Subagent ("I enforce the rules!")
-      --> Starlark Policies
-        --> Smart Approvals
-          --> Security + Automation
+```mermaid
+flowchart LR
+    A[codex run] --> B[CLI]
+    B --> C["Guardian Subagent<br/>(I enforce the rules!)"]
+    C --> D[Starlark Policies]
+    D --> E[Smart Approvals]
+    E --> F[Security + Automation]
 ```
 
 The **Guardian subagent** is the enforcement point. It loads `.rules` files written in Starlark, evaluates each proposed action against the defined policies, and either approves, denies, or escalates to the human.
@@ -67,10 +67,11 @@ rule = prefix_rule(
 
 The current primary rule type is `prefix_rule()`, which matches commands by their prefix:
 
-```text
-Input Data --> prefix_rule match?
-  --> YES: Approve (auto-run)
-  --> NO: Deny/Flag (require human approval or block)
+```mermaid
+flowchart LR
+    A[Input Data] --> B{prefix_rule match?}
+    B -->|YES| C["Approve<br/>auto-run"]
+    B -->|NO| D["Deny/Flag<br/>require human approval or block"]
 ```
 
 ### Example Rules
