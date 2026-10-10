@@ -3,7 +3,7 @@ title: "OpenAI DevDay 2026: Codex Cloud, the /agents View, GPT-6.1 Sol, Code Rev
 parent: "Articles"
 nav_order: 1173
 date: 2026-10-08T07:00:00+00:00
-last_modified_at: 2026-10-09T19:06:14+01:00
+last_modified_at: 2026-10-10T03:12:12+01:00
 tags: ["codex-cli", "devday", "openai", "codex-cloud", "agents-view", "gpt-6", "sol", "code-review", "security-cloud", "multi-agent"]
 ---
 
@@ -49,7 +49,7 @@ The /agents view requires no configuration changes. It is available in all Codex
 
 ## GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price
 
-DevDay 2026 made GPT-6.1 Sol the new default model for Codex CLI, shipping in v0.159.1.[^7] The pricing signal is significant: GPT-6.1 Sol is priced at \$2 per million input tokens and \$10 per million output tokens — representing a 90 per cent reduction in cached input costs relative to Astra's standard tier (\$0.10/M vs \$1.00/M cached input). Bijan Bowen, writing in the OpenAI engineering blog in September 2026, noted that running a full test suite with GPT-6.1 Sol consumed only 3 per cent of a weekly token limit.[^8] That finding changes cost assumptions for any team currently defaulting to Astra for standard agentic work.
+DevDay 2026 made GPT-6.1 Sol the new default model for Codex CLI, shipping in v0.159.1.[^7] The pricing signal is significant: GPT-6.1 Sol is priced at \$2 per million input tokens and \$10 per million output tokens — representing a 90 per cent reduction in cached input costs relative to Astra's standard tier (\$0.10/M vs \$1.00/M cached input). That cost reduction changes assumptions for any team currently defaulting to Astra for standard agentic work.
 
 The routing logic is straightforward. GPT-6.1 Sol handles the majority of standard coding tasks — feature implementation, refactoring, test generation, documentation updates — at high quality and very low cost. GPT-6 Astra (Light, Medium, or Extra High) remains the tier for work that requires cross-context memory, multi-step reasoning over long sessions, or tasks where the quality ceiling of Sol is insufficient. GPT-6 Luna is the appropriate choice for lightweight subagent roles, simple edits, and rate-limit fallback.
 
@@ -125,6 +125,5 @@ The practical upgrade path: update to v0.159.1 or later to get GPT-6.1 Sol as th
 [^5]: Codex CLI v0.157.0 release notes — `/fork` shortcut for parallel session creation. September 2026.
 [^6]: Codex CLI v0.159.0 release notes — `instant_interrupt` flag for immediate agent pause. September 2026.
 [^7]: Codex CLI v0.159.1 release notes — GPT-6.1 Sol set as default model. September 2026.
-[^8]: Bowen, B., "GPT-6.1 Sol in Production: Token Budget Data from a Real Test Suite," OpenAI Engineering Blog, September 2026.
 [^9]: Code Review announcement, DevDay 2026 keynote, 29 September 2026.
 [^10]: Codex Security Cloud announcement, DevDay 2026 keynote, 29 September 2026.
