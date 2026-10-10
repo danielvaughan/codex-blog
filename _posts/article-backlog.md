@@ -1,12 +1,26 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-10T11:38:36+01:00
+last_modified_at: 2026-10-10T21:05:28+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 10 October 2026
+
+*VS Code Extension Reliability Collapse published. Directory now at 2,039 articles. v0.162.1 patch shipped; v0.163.0-alpha sprint ongoing; current stable v0.162.1.*
+
+**Published (10 October 2026):**
+- `2026-10-10-vs-code-extension-reliability-collapse-october-2026-stuck-prompt-bug-codex-cli.md` — VS Code extension stuck-prompt regression (3–8 Oct): `"undefined"` JSON serialisation in the send queue silently blocked all outbound messages on Windows. Root cause, three failure-mode taxonomy (queue corruption / auth expiry / extension host crash), diagnostic steps (Output panel, `--debug`, worktree isolation test), v0.162.0 fix, v0.162.1 hot-fixes. Argues CLI terminal path is higher-reliability than extension host regardless of incident. ~1,590 words.
+
+**Previously published (9 October 2026):**
+- `2026-10-09-invisible-validator-burden-ai-assisted-programming-core-developer-productivity-review-load-codex-cli.md` — Xu et al. arXiv:2510.10165 diff-in-diff study: peripheral devs +43.5% commits, core devs −19% output, +6.5% review load, 10 extra PRs, 164 fewer commits/year. AGENTS.md governance patterns: max_prs_per_session, PR complexity scoring, maintainer-gated approvals, PostToolUse fatigue signal. Premium-grade, ~2,000 words.
+
+**Carried forward (Medium):** Microsoft 365 Calendar Integration Update; The Codex CLI Versioning Gap.
+
+---
 
 ## Article Triage — 9 October 2026
 

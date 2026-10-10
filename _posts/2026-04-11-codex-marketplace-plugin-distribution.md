@@ -2,7 +2,7 @@
 title: "Codex Marketplace: Plugin Distribution and the Plugin Marketplace Add Command"
 description: "OpenAI's plugin marketplace, launched on 27 March 2026, transforms Codex from a standalone coding agent into an extensible platform. Plugins bundle skills."
 date: 2026-04-11T22:00:00+00:00
-last_modified_at: 2026-10-10T11:38:36+01:00
+last_modified_at: 2026-10-10T21:05:28+01:00
 tags:
   - marketplace
   - plugins

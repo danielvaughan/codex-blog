@@ -6,7 +6,7 @@ timestamp: 2026-06-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-15-agents-md-beyond-init-writing-project-instructions-that-reduce-token-spend-hooks-mcp-skills"
 tags: ["agents-md", "configuration", "/init", "hooks", "mcp", "skills", "token-optimisation", "best-practices"]
 date: 2026-06-15T09:00:00+00:00
-last_modified_at: 2026-10-10T11:38:36+01:00
+last_modified_at: 2026-10-10T21:05:28+01:00
 ---
 # AGENTS.md Beyond /init: Writing Project Instructions That Actually Reduce Token Spend
 

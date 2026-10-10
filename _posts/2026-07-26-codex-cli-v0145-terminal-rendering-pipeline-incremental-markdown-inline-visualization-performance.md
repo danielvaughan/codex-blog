@@ -1,7 +1,7 @@
 ---
 title: "Inside v0.145's Terminal Rendering Pipeline: How Incremental Markdown, Inline Visualisation Links, and Bounded Output Fixed Codex CLI's Long-Session Performance"
 date: 2026-07-26T09:00:00+00:00
-last_modified_at: 2026-10-10T11:38:36+01:00
+last_modified_at: 2026-10-10T21:05:28+01:00
 tags: ["codex-cli", "terminal-rendering", "performance", "incremental-markdown", "inline-visualisation", "OSC-8", "v0.145", "TUI"]
 ---
 

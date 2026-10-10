@@ -1,7 +1,7 @@
 ---
 title: "MCP as Observation Layer: How Record and Replay Turns the Model Context Protocol from Tool Caller into Event-Stream Backbone"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-10-10T11:38:36+01:00
+last_modified_at: 2026-10-10T21:05:28+01:00
 tags: ["codex", "mcp", "record-and-replay", "event-stream", "SKILL.md", "observation", "accessibility-api", "skill-synthesis", "architecture"]
 ---
 

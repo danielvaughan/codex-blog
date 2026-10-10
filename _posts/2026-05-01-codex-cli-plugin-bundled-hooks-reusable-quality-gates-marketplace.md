@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-plugin-bundled-hooks-reusable-quality-gates-marketplace"
 tags: ["codex-cli", "plugins", "hooks", "marketplace", "quality-gates", "PreToolUse", "PostToolUse", "config.toml", "v0.128", "governance"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-10-10T11:38:36+01:00
+last_modified_at: 2026-10-10T21:05:28+01:00
 ---
 # Codex CLI Plugin-Bundled Hooks: Distributing Reusable Quality Gates Through the Marketplace
 

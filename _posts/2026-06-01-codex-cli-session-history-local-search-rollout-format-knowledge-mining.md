@@ -5,7 +5,7 @@ timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-session-history-local-search-rollout-format-knowledge-mining"
 tags: ["codex-cli", "session-management", "search", "rollout", "knowledge-mining", "productivity"]
 date: 2026-06-01T09:00:00+00:00
-last_modified_at: 2026-10-10T11:38:36+01:00
+last_modified_at: 2026-10-10T21:05:28+01:00
 ---
 # Codex CLI Session History: Local Search, Rollout Format, and Knowledge Mining
 
