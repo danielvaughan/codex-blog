@@ -1,7 +1,7 @@
 ---
 title: "Voice-Driven Development: From Push-to-Talk to Full-Duplex GPT-Live in Codex"
 date: 2026-08-04T09:00:00+00:00
-last_modified_at: 2026-10-11T10:06:15+01:00
+last_modified_at: 2026-10-11T10:14:51+01:00
 tags: ["voice", "codex-cli", "gpt-live", "realtime", "webrtc", "push-to-talk", "developer-experience", "full-duplex"]
 ---
 
