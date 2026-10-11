@@ -3,7 +3,7 @@ title: "Parallel Specialist Subagents: Anthropic's Multi-Agent Architecture in P
 parent: "Articles"
 nav_order: 1176
 date: 2026-10-11T08:00:00+00:00
-last_modified_at: 2026-10-11T11:26:38+01:00
+last_modified_at: 2026-10-11T11:35:49+01:00
 tags: ["multi-agent", "codex-cli", "anthropic", "orchestration", "subagents", "parallel-execution", "agent-architecture", "AGENTS.md"]
 copy_edited: true
 ---
@@ -30,17 +30,17 @@ The Anthropic multi-agent model has three components:
 
 **The shared filesystem** is the coordination mechanism. Subagents do not communicate through the lead agent's context window. They read inputs from and write outputs to shared file paths that the lead agent specifies in the task delegation. This prevents context explosion — the lead agent never has to hold the full working content of every subagent simultaneously — and makes the work auditable: every file written by every subagent is a persistent artifact.
 
-```
-Lead Agent
-  ├─ Plan: decompose task into N sub-tasks
-  ├─ Delegate: spawn Subagent-1 (model: haiku-5.5, tools: read-only)
-  │    └─ reads: /shared/input.py
-  │    └─ writes: /shared/analysis-1.json
-  ├─ Delegate: spawn Subagent-2 (model: claude-sonnet-5, tools: read+write)
-  │    └─ reads: /shared/input.py
-  │    └─ writes: /shared/analysis-2.json
-  ├─ [subagents run in parallel]
-  └─ Assemble: reads all /shared/analysis-*.json → final output
+```mermaid
+flowchart TD
+    A["Lead Agent"] --> B["Plan: decompose task into N sub-tasks"]
+    A --> C["Delegate: spawn Subagent-1\nmodel: haiku-5.5 · tools: read-only"]
+    C --> C1["reads: /shared/input.py"]
+    C --> C2["writes: /shared/analysis-1.json"]
+    A --> D["Delegate: spawn Subagent-2\nmodel: claude-sonnet-5 · tools: read+write"]
+    D --> D1["reads: /shared/input.py"]
+    D --> D2["writes: /shared/analysis-2.json"]
+    A --> E["subagents run in parallel"]
+    A --> F["Assemble: reads all /shared/analysis-*.json → final output"]
 ```
 
 
@@ -127,7 +127,7 @@ The domain-specific AGENTS.md is the mechanism that produces specialist behaviou
 
 The Anthropic architecture allows each subagent to use a different model. This enables cost routing: fast and cheap models handle high-volume, lower-stakes tasks; expensive reasoning models handle the tasks that require deep inference.
 
-For a codebase of 50,000 lines, a unified code review using `o3` across the entire codebase might consume $12–18 in tokens. A routed architecture — `haiku-5.5` for style and minor issues, `o4-mini` for type correctness, `o3` only for security and logic — might achieve comparable or better coverage at $3–5.
+For a codebase of 50,000 lines, a unified code review using `o3` across the entire codebase might consume \$12–18 in tokens. A routed architecture — `haiku-5.5` for style and minor issues, `o4-mini` for type correctness, `o3` only for security and logic — might achieve comparable or better coverage at \$3–5.
 
 ```toml
 # .codex/profiles/style/config.toml
