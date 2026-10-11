@@ -1,12 +1,25 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-11T11:37:10+01:00
+last_modified_at: 2026-10-11T17:03:45+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 11 October 2026
+
+*Three articles published. Directory now at 2,042 articles. v0.163.0-alpha sprint ongoing (alpha.1–alpha.5 shipped); current stable v0.162.1.*
+
+**Published (11 October 2026):**
+- `2026-10-11-codex-v0163-managed-worktrees-osc-7501-grpc-stdio-agent-ux-maturity.md` — Reading the v0.163.0 alpha sprint (alpha.1–alpha.5, 8–11 Oct): managed worktree lifecycle, OSC 7501 terminal CWD signals, gRPC stdio transport, and UX maturity arc from interactive assistant to autonomous infrastructure component. Argues the sprint is a coherent integration-surface build rather than a feature bundle. ~1,810 words.
+- `2026-10-11-mcp-ten-thousand-servers-agent-interface-standard-enterprise-adoption-codex-cli.md` — MCP crosses 10,000 registered servers and 97 million monthly SDK downloads in October 2026. Analyses the adoption arc, enterprise gateway patterns (Cloudflare, AWS), A2A vs MCP boundary, and what the milestone means for Codex CLI practitioners building on MCP as a foundational interface layer. ~1,600 words.
+- `2026-10-11-parallel-specialist-subagents-anthropic-multi-agent-orchestration-codex-cli.md` — Anthropic's multi-agent orchestration from Code with Claude SF 2026: lead agent + parallel specialist subagents on a shared filesystem, 66/70 bugs found vs 27 for a single agent. Covers architecture precision, AGENTS.md specialisation patterns, worktree isolation, and why specialisation and parallelism together drive the performance gain. ~1,720 words.
+
+**Carried forward (Medium):** Microsoft 365 Calendar Integration Update; The Codex CLI Versioning Gap.
+
+---
 
 ## Article Triage — 10 October 2026
 

@@ -2,7 +2,7 @@
 title: "Codex CLI for Infrastructure as Code: Terraform, Pulumi and Ansible Automation"
 description: "Infrastructure as Code occupies a peculiar place in the agentic coding landscape. The feedback loops are slower than application code."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-10-11T11:37:10+01:00
+last_modified_at: 2026-10-11T17:03:45+01:00
 tags:
   - language-guide
   - agents-md
