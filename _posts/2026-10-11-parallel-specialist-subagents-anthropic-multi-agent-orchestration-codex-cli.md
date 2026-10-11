@@ -3,12 +3,14 @@ title: "Parallel Specialist Subagents: Anthropic's Multi-Agent Architecture in P
 parent: "Articles"
 nav_order: 1176
 date: 2026-10-11T08:00:00+00:00
-last_modified_at: 2026-10-11T10:29:04+01:00
+last_modified_at: 2026-10-11T11:06:30+01:00
 tags: ["multi-agent", "codex-cli", "anthropic", "orchestration", "subagents", "parallel-execution", "agent-architecture", "AGENTS.md"]
 copy_edited: true
 ---
 
 # Parallel Specialist Subagents: Anthropic's Multi-Agent Architecture in Practice
+
+![Sketchnote diagram for: Parallel Specialist Subagents: Anthropic's Multi-Agent Architecture in Practice](/sketchnotes/articles/2026-10-11-parallel-specialist-subagents-anthropic-multi-agent-orchestration-codex-cli.png)
 
 
 ---

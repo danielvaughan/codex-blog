@@ -3,11 +3,13 @@ title: "OpenAI DevDay 2026: Codex Cloud, the /agents View, GPT-6.1 Sol, Code Rev
 parent: "Articles"
 nav_order: 1173
 date: 2026-10-08T07:00:00+00:00
-last_modified_at: 2026-10-11T10:29:04+01:00
+last_modified_at: 2026-10-11T11:06:30+01:00
 tags: ["codex-cli", "devday", "openai", "codex-cloud", "agents-view", "gpt-6", "sol", "code-review", "security-cloud", "multi-agent"]
 ---
 
 # OpenAI DevDay 2026: Codex Cloud, the /agents View, GPT-6.1 Sol, Code Review, and Security Cloud
+
+![Sketchnote diagram for: OpenAI DevDay 2026: Codex Cloud, the /agents View, GPT-6.1 Sol, Code Review, and Security Cloud](/sketchnotes/articles/2026-10-08-openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud.png)
 
 
 ---

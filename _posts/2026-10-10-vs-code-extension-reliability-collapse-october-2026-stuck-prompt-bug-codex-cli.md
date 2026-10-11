@@ -3,11 +3,13 @@ title: "VS Code Extension Reliability Collapse: What the October 2026 Stuck-Prom
 parent: "Articles"
 nav_order: 1175
 date: 2026-10-10T07:00:00+00:00
-last_modified_at: 2026-10-11T10:29:04+01:00
+last_modified_at: 2026-10-11T11:06:30+01:00
 tags: ["codex-cli", "vs-code", "ide-integration", "reliability", "debugging", "architecture", "windows", "v0.162.0", "developer-experience"]
 ---
 
 # VS Code Extension Reliability Collapse: What the October 2026 Stuck-Prompt Bug Tells Us About IDE Integration Architecture
+
+![Sketchnote diagram for: VS Code Extension Reliability Collapse: What the October 2026 Stuck-Prompt Bug Tells Us About IDE Integration Architecture](/sketchnotes/articles/2026-10-10-vs-code-extension-reliability-collapse-october-2026-stuck-prompt-bug-codex-cli.png)
 
 
 ---
