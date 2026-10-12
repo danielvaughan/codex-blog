@@ -3,7 +3,7 @@ title: "MCP at 10,000: How the Agent Interface Standard Won"
 parent: "Articles"
 nav_order: 1175
 date: 2026-10-11T07:00:00+00:00
-last_modified_at: 2026-10-11T17:03:45+01:00
+last_modified_at: 2026-10-12T03:11:32+01:00
 tags: ["mcp", "model-context-protocol", "codex-cli", "enterprise", "a2a", "agent-architecture", "integration", "standards"]
 copy_edited: true
 ---
@@ -15,9 +15,9 @@ copy_edited: true
 
 ---
 
-> *In November 2024, Anthropic released a JSON-RPC specification for connecting AI assistants to external tools. Eighteen months later, it has 10,000 registered servers, 97 million monthly SDK downloads, and support from every major AI platform vendor. This is not a protocol success story — it is a case study in how standards win.*
+> *In November 2024, Anthropic released a JSON-RPC specification for connecting AI assistants to external tools. Nearly two years later, it has 10,000 registered servers, 97 million monthly SDK downloads, and support from every major AI platform vendor. This is not a protocol success story — it is a case study in how standards win.*
 
-The Model Context Protocol crossed two thresholds in October 2026 that together mark a phase transition: 10,000 active public servers in the ecosystem, and 97 million monthly SDK downloads.[^1] The first figure measures supply; the second measures demand. Both are accelerating. Together they confirm what practitioners have suspected for several months: MCP is no longer a bet on a promising specification — it is the foundational interface layer for agentic software.
+The Model Context Protocol has passed two thresholds that together mark a phase transition: 10,000 active public servers in the ecosystem (first confirmed in Anthropic's December 2025 ecosystem update alongside the Linux Foundation donation) and 97 million monthly SDK downloads (reached by March 2026).[^1] The first figure measures supply; the second measures demand. Both milestones were passed well before October 2026 — by which point the ecosystem has grown substantially further. Together they confirm what practitioners have known for some time: MCP is no longer a bet on a promising specification — it is the foundational interface layer for agentic software.
 
 Understanding why matters both for practitioners deciding where to invest integration effort and for architects designing systems that will need to survive the next round of platform consolidation.
 
@@ -31,7 +31,7 @@ MCP's adoption timeline is unusually compressed. The OpenAPI specification took 
 - **December 2025** — Linux Foundation donation; 10,000+ public MCP servers reported
 - **Q1 2026** — Independent registry census counts 17,468 MCP servers across registries[^1]
 - **April 2026** — 78% of enterprise AI teams report MCP in production[^2]
-- **October 2026** — 97 million monthly SDK downloads confirmed
+- **March 2026** — 97 million monthly SDK downloads confirmed (per AIToolBriefing, 25 March 2026); April 2026 keynote reports 110 million
 
 The Linux Foundation donation in December 2025 was the inflection point for enterprise confidence. Open governance removed vendor lock-in as an objection. Forrester subsequently predicted that 30% of enterprise application vendors would ship their own MCP servers during 2026.[^2] The October server count suggests that prediction is tracking to land.
 
@@ -121,7 +121,7 @@ Neither challenge diminishes the milestone. MCP at 10,000 servers is not a desti
 
 ## Summary
 
-MCP crossed 10,000 servers and 97 million monthly SDK downloads in October 2026 — the clearest signal yet that it is the agent-to-tool integration standard for the current cycle. It succeeded through transport agnosticism, schema-first discovery, early vendor neutrality, and fortuitous timing. A2A complements rather than competes: the two protocols address different integration layers in a multi-agent system. For Codex CLI practitioners, the practical priority is governance — not server availability, which is now abundant, but configuration management, credential scoping, and AGENTS.md policies that prevent agents from connecting to unvalidated servers.
+MCP crossed 10,000 servers in December 2025 and 97 million monthly SDK downloads by March 2026 — the clearest signal that it is the agent-to-tool integration standard for the current cycle. Both figures have grown substantially in the months since. It succeeded through transport agnosticism, schema-first discovery, early vendor neutrality, and fortuitous timing. A2A complements rather than competes: the two protocols address different integration layers in a multi-agent system. For Codex CLI practitioners, the practical priority is governance — not server availability, which is now abundant, but configuration management, credential scoping, and AGENTS.md policies that prevent agents from connecting to unvalidated servers.
 
 
 ## Citations

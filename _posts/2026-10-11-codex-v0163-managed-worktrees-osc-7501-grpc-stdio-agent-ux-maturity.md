@@ -3,7 +3,7 @@ title: "Reading the v0.163.0 Alpha Sprint: Worktrees, Terminal Signals, and the 
 parent: "Articles"
 nav_order: 1177
 date: 2026-10-11T09:00:00+00:00
-last_modified_at: 2026-10-11T17:03:45+01:00
+last_modified_at: 2026-10-12T03:11:32+01:00
 tags: ["codex-cli", "v0.163.0", "git-worktrees", "terminal-integration", "grpc", "observability", "agent-ux", "release-analysis"]
 copy_edited: true
 ---
@@ -17,14 +17,14 @@ copy_edited: true
 
 > *Alpha sprints are the most honest signal about where a product is heading. Feature announcements are marketing; release notes are engineering intent. Reading the v0.163.0 alpha sprint carefully reveals a product moving decisively from interactive assistant to autonomous infrastructure component.*
 
-Five alphas in the v0.163.0 sprint have shipped as of 11 October 2026 (alpha.1 through alpha.5, starting 8 October). The features visible in the community digests are not individually dramatic — no headline capability like voice or cloud environments. But read together, they describe a coherent direction: Codex is building the integration surface required to operate as unattended infrastructure rather than an interactive tool.
+Six alphas in the v0.163.0 sprint have shipped as of 11 October 2026 (alpha.1 through alpha.6, starting 8 October). The features visible in the community digests are not individually dramatic — no headline capability like voice or cloud environments. But read together, they describe a coherent direction: Codex is building the integration surface required to operate as unattended infrastructure rather than an interactive tool.
 
 This piece reads the v0.163.0 PR set as a signal, not a feature list.
 
 
 ## What Is Landing in v0.163.0
 
-Five features stand out from the alpha.1–alpha.5 pull request set:
+Five features stand out from the alpha.1–alpha.6 pull request set:
 
 **Managed Git worktrees** (alpha.2) — tools for creating and listing managed git worktrees from trusted local projects when the worktrees feature is enabled.[^1] The agent can now create isolated workspace branches programmatically, not just use existing ones.
 
@@ -131,7 +131,7 @@ Every item is an integration primitive. None are interaction improvements. This 
 
 The practical implication for teams planning Codex CLI deployments: the v0.163.0 feature set is specifically designed to support the use case of Codex as an autonomous, observable, auditable component in a pipeline. Teams building toward that deployment model should plan to leverage these features when v0.163.0 stable ships.
 
-The v0.163.0 alpha sprint is at five iterations as of 11 October. Based on recent cadence (v0.161.0: 13 alphas; v0.162.0: 20 alphas), the stable cut is likely 2–4 weeks out. The Windows sandbox issues (#51969, #51972, #52179) are the most likely blockers.
+The v0.163.0 alpha sprint is at six iterations as of 11 October. Based on recent cadence (v0.161.0: 13 alphas; v0.162.0: 20 alphas), the stable cut is likely 2–4 weeks out. The Windows sandbox issues (#51969, #51972, #52179) are the most likely blockers.
 
 
 ## What to Watch For in Remaining Alphas
