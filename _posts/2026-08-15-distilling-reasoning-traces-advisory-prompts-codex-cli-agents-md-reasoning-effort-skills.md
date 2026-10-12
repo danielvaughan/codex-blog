@@ -1,7 +1,7 @@
 ---
 title: "Distilling Reasoning Traces into Advisory Prompts: What the Faisal–Devanbu–Ahmed Pipeline Means for Your AGENTS.md and Reasoning Effort Configuration"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-10-12T07:18:45+01:00
+last_modified_at: 2026-10-12T09:07:05+01:00
 tags: ["codex-cli", "reasoning-effort", "AGENTS.md", "advisory-prompts", "distillation", "thinking-mode", "SKILL.md", "config.toml", "named-profiles"]
 ---
 
