@@ -1,12 +1,28 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-12T15:06:26+01:00
+last_modified_at: 2026-10-12T18:10:42+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 12 October 2026 (Automated Run)
+
+*No new articles published in this automated session. Directory at 2,039 dated article files (index count of 2,043 includes non-article .md files). v0.163.0-alpha sprint ongoing (alpha.1–alpha.6 shipped); current stable v0.162.1.*
+
+**No new articles to rate.** Automated scan confirms the index is fully current through the morning's `instant_interrupt` rating session. All 2,039 dated article files are covered.
+
+**⚠️ GPT-5.5 retirement: 14 October 2026 — 2 DAYS REMAINING.** Book P1 chapters Ch09, Ch11, Ch12, Ch13, Ch21 still unstarted. Requires Daniel's direct action immediately.
+
+**New gap identified:** No standalone `/agents` view article exists. The `instant_interrupt` article (4.3) explicitly references it as an expected pairing. The DevDay 2026 recap (3.9) covers `/agents` in passing only. A ~1,600-word dedicated article on the parallel task management UI, session management, and `instant_interrupt`/`--fork` integration is the most actionable new gap found this session.
+
+**Windows closing (20 October — 8 days):** Guardian Subagent v0.160.0 and Cross-Device Cloud Environments remain unwritten.
+
+**Carried forward (Medium):** Microsoft 365 Calendar Integration Update; The Codex CLI Versioning Gap.
+
+---
 
 ## Article Triage — 12 October 2026
 
