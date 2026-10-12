@@ -3,7 +3,7 @@ title: "instant_interrupt: How Codex's New Steering Mode Changes the Execution M
 parent: "Articles"
 nav_order: 1179
 date: 2026-10-12T08:00:00+00:00
-last_modified_at: 2026-10-12T11:05:12+01:00
+last_modified_at: 2026-10-12T11:34:33+01:00
 tags: ["codex-cli", "instant-interrupt", "execution-model", "steering", "agentic-sessions", "TUI", "v0.159.0", "multi-agent", "configuration"]
 copy_edited: true
 ---
@@ -54,7 +54,7 @@ The flag is opt-in and defaults to `false` in all releases through v0.162.1. The
 
 With `instant_interrupt` disabled (default), the interaction model looks like this:
 
-```
+```text
 User: [sends redirect prompt]
 Codex: [finishes current tool call — may take 2–30 seconds]
 Codex: [reads redirect prompt]
@@ -63,7 +63,7 @@ Codex: [begins executing new direction]
 
 With `instant_interrupt` enabled:
 
-```
+```text
 User: [sends redirect prompt]
 Codex: [stops current tool call immediately]
 Codex: [reads redirect prompt]
@@ -128,7 +128,7 @@ With `instant_interrupt` enabled, the interrupt control in the `/agents` panel b
 
 The combination of `/agents` + `instant_interrupt` is the intended multi-agent steering interface: monitor five parallel agents from a single pane, interrupt any of them immediately when their direction diverges, and resume with a redirect. This is the workflow described in the DevDay 2026 demo.[^3]
 
-```
+```text
 /agents panel (v0.159.0+)
 ┌─────────────────────────────────────────────────────────┐
 │ [running] agent-1  writing: src/auth/token.ts           │
