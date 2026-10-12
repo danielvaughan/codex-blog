@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-ocaml-development-mcp-merlin-dune-type-driven-agent-workflows"
 tags: ["codex-cli", "ocaml", "mcp", "merlin", "dune", "functional-programming", "type-driven-development", "ocaml-lsp"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-10-12T03:11:32+01:00
+last_modified_at: 2026-10-12T07:18:45+01:00
 ---
 # Codex CLI for OCaml Development: ocaml-mcp-server, Merlin via LSP-MCP, and Type-Driven Agent Workflows
 
