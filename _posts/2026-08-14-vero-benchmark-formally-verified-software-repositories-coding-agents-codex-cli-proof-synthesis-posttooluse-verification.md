@@ -1,7 +1,7 @@
 ---
 title: "Vero and the Verified Software Gap: What a 43-Instance Benchmark Reveals About Coding Agents and Formal Proof — and How Codex CLI's Verification Hooks Close the Distance"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-10-12T10:24:48+01:00
+last_modified_at: 2026-10-12T11:05:12+01:00
 tags: ["codex-cli", "formal-verification", "vero", "proof-synthesis", "PostToolUse-hooks", "Dafny", "Verus", "Coq", "sandbox", "AGENTS.md", "vericoding", "coding-agents"]
 ---
 

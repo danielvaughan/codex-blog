@@ -1,12 +1,25 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-12T10:24:48+01:00
+last_modified_at: 2026-10-12T11:05:12+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 12 October 2026
+
+*One article published. Directory now at 2,043 articles. v0.163.0-alpha sprint ongoing (alpha.1–alpha.6 shipped); current stable v0.162.1.*
+
+**Published (12 October 2026):**
+- `2026-10-12-instant-interrupt-codex-steering-execution-model-change.md` — Clears the Critical backlog item from Oct 11 triage (window deadline: 20 October). Explains `instant_interrupt` as an execution-model change, not a UX affordance: Codex CLI shifts from synchronous request/response to a steerable interactive process. Covers enablement (one-line config), partial-execution risk taxonomy, sandbox integration, `instant_interrupt` vs `fork` comparison table, `/agents` view pairing, and when NOT to enable the flag (CI, write-intensive sessions without sandbox, external side-effect tasks). UX signal section (removal of follow-up prompt suggestions in same release) frames the broader v0.159.0 product direction. ~1,900 words. Copy-edited: true.
+
+**Critical backlog item cleared:** `instant_interrupt` article (was #2 on Oct 11 backlog with 🔴 Critical, window-closes-20-Oct label).
+
+**Carried forward (Medium):** Microsoft 365 Calendar Integration Update; The Codex CLI Versioning Gap.
+
+---
 
 ## Article Triage — 11 October 2026
 

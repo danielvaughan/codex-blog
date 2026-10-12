@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1115
 title: "SilentProbe: The HTTP 200 Problem — When Production APIs Lie to Your Codex CLI Agent"
 date: 2026-09-03T14:00:00+00:00
-last_modified_at: 2026-10-12T10:24:48+01:00
+last_modified_at: 2026-10-12T11:05:12+01:00
 tags: ["codex-cli", "mcp", "api-design", "openapi", "silent-failure", "hooks", "research"]
 ---
 

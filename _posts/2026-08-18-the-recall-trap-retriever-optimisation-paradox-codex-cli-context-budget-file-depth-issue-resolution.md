@@ -1,7 +1,7 @@
 ---
 title: "The Recall Trap: Why Maximising Retrieval Recall Hurts Your Codex CLI Issue Resolution Rate"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-10-12T10:24:48+01:00
+last_modified_at: 2026-10-12T11:05:12+01:00
 tags: ["codex-cli", "retrieval", "context-engineering", "SWE-bench", "recall-precision", "model-routing", "context-budget", "file-localisation"]
 ---
 
