@@ -3,7 +3,7 @@ title: "instant_interrupt: How Codex's New Steering Mode Changes the Execution M
 parent: "Articles"
 nav_order: 1179
 date: 2026-10-12T08:00:00+00:00
-last_modified_at: 2026-10-12T09:07:05+01:00
+last_modified_at: 2026-10-12T10:06:19+01:00
 tags: ["codex-cli", "instant-interrupt", "execution-model", "steering", "agentic-sessions", "TUI", "v0.159.0", "multi-agent", "configuration"]
 copy_edited: true
 ---
@@ -90,7 +90,7 @@ flowchart LR
 
 ## The Partial-Execution Risk
 
-Stopping a tool call mid-execution creates state that is neither complete nor cleanly absent. A file write interrupted half-way through leaves a partial file. A shell command interrupted during a multi-step pipeline leaves the system in an intermediate state. A network request interrupted after sending but before receiving leaves the remote system in an unknown state.
+Stopping a tool call mid-execution creates state that is neither complete nor cleanly absent. A file write interrupted halfway through leaves a partial file. A shell command interrupted during a multi-step pipeline leaves the system in an intermediate state. A network request interrupted after sending but before receiving leaves the remote system in an unknown state.
 
 This is not a hypothetical risk. The v0.159.0 release notes include an explicit caveat.[^1] The safe use patterns are:
 
@@ -146,7 +146,7 @@ The combination of `/agents` + `instant_interrupt` is the intended multi-agent s
 
 There are contexts where `instant_interrupt` should be left at its default of `false`:
 
-**CI pipelines and automation.** Any context where there is no human at the keyboard to issue intentional interrupts. An accidental keypress in a CI log viewer or a runaway tool should not mid-execution halt a release pipeline. `instant_interrupt` is a human-in-the-loop feature; in fully automated contexts, it creates risk without value.
+**CI pipelines and automation.** Any context where there is no human at the keyboard to issue intentional interrupts. An accidental keypress in a CI log viewer or a runaway tool should not halt a release pipeline mid-execution. `instant_interrupt` is a human-in-the-loop feature; in fully automated contexts, it creates risk without value.
 
 **Write-intensive tasks without sandbox.** Generating large volumes of files — a full test suite, a documentation site, a migration script — where partial execution leaves files in an inconsistent state. If you cannot run in sandbox mode, and the task is write-intensive, the default synchronous model is safer.
 
