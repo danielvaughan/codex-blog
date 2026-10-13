@@ -1,9 +1,9 @@
 ---
 title: "Reading the v0.163.0 Alpha Sprint: Worktrees, Terminal Signals, and the Codex UX Maturity Arc"
 parent: "Articles"
-nav_order: 1178
+nav_order: 1179
 date: 2026-10-11T09:00:00+00:00
-last_modified_at: 2026-10-13T03:11:48+01:00
+last_modified_at: 2026-10-13T07:06:27+01:00
 tags: ["codex-cli", "v0.163.0", "git-worktrees", "terminal-integration", "grpc", "observability", "agent-ux", "release-analysis"]
 copy_edited: true
 ---
