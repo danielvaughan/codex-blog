@@ -2,7 +2,7 @@
 title: "Three Terminals, Three Fates"
 description: "In January 2010, Android outsold iPhone for the first time. It had more carriers, more handsets, and a lower price point."
 date: 2026-04-12T07:00:00+00:00
-last_modified_at: 2026-10-13T10:23:42+01:00
+last_modified_at: 2026-10-13T11:36:46+01:00
 featured: true
 tags:
   - claude-code
@@ -17,6 +17,8 @@ type: Technical Article
 timestamp: 2026-04-12T08:00:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-cli-wars-of-2026-iphone-android-windows-phone"
 ---
+# Three Terminals, Three Fates
+
 ![Sketchnote diagram for: Three Terminals, Three Fates](/sketchnotes/articles/2026-04-12-cli-wars-of-2026-iphone-android-windows-phone.png)
 
 In January 2010, Android outsold iPhone for the first time. It had more carriers, more handsets, and a lower price point. None of that mattered to the average consumer walking into a phone shop. They wanted the phone that worked. Apple had 28% market share and 66% of the industry's profits[^1]. Sixteen years later, the same pattern is playing out in AI coding terminals — and if you are picking a tool to build your career around, understanding which position each player occupies matters more than any benchmark score.

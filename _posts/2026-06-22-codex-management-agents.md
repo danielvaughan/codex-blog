@@ -2,7 +2,7 @@
 title: "Codex Management Agents: Orchestrating Work Without a Human in Every Loop"
 description: "As Codex agents grow more capable, the bottleneck shifts from doing the work to managing it. Management agents solve this by coordinating task assignment, progress tracking, and quality gates across fleets of worker agents."
 date: 2026-06-22T12:00:00+00:00
-last_modified_at: 2026-10-13T10:23:42+01:00
+last_modified_at: 2026-10-13T11:36:46+01:00
 tags:
   - management-agents
   - orchestration
@@ -15,6 +15,8 @@ type: Technical Article
 timestamp: 2026-06-22T12:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-codex-management-agents"
 ---
+# Codex Management Agents: Orchestrating Work Without a Human in Every Loop
+
 ![Sketchnote diagram for: Codex Management Agents: Orchestrating Work Without a Human in Every Loop](/sketchnotes/articles/2026-06-22-codex-management-agents.png)
 
 *Published 2026-06-22. Sources: OpenAI Agents SDK documentation, OpenAI Build Hour (May 2026), Symphony repository, Codex CLI changelog.*

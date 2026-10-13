@@ -2,7 +2,7 @@
 title: "Managing Codex CLI Configuration Across Multiple AI Tools"
 description: "Most teams don't just use Codex CLI. They use Codex alongside Claude Code, Cursor, Gemini CLI, or GitHub Copilot. This creates a configuration management."
 date: 2026-03-30T09:00:00+00:00
-last_modified_at: 2026-10-13T10:23:42+01:00
+last_modified_at: 2026-10-13T11:36:46+01:00
 tags:
   - configuration
   - config-toml
@@ -16,6 +16,8 @@ type: Technical Article
 timestamp: 2026-03-30T09:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-03-30-codex-cli-config-management-multi-tool"
 ---
+# Managing Codex CLI Configuration Across Multiple AI Tools
+
 ![Sketchnote diagram for: Managing Codex CLI Configuration Across Multiple AI Tools](/sketchnotes/articles/2026-03-30-codex-cli-config-management-multi-tool.png)
 
 *Most teams don't just use Codex CLI. They use Codex alongside Claude Code, Cursor, Gemini CLI, or GitHub Copilot. This creates a configuration management problem: AGENTS.md, config.toml, MCP servers, and skills all need to stay in sync — or deliberately diverge — across tools. This article covers the patterns and tools that solve it.*
