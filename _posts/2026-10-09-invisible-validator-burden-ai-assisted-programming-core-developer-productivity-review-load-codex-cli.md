@@ -3,8 +3,9 @@ title: "The Invisible Validator Burden: Who Pays When AI Writes Code?"
 parent: "Articles"
 nav_order: 1175
 date: 2026-10-09T07:00:00+00:00
-last_modified_at: 2026-10-13T07:06:27+01:00
+last_modified_at: 2026-10-13T10:09:42+01:00
 tags: ["codex-cli", "research", "productivity", "code-review", "developer-experience", "AGENTS.md", "hooks", "PostToolUse", "governance", "premium"]
+copy_edited: true
 ---
 
 # The Invisible Validator Burden: Who Pays When AI Writes Code?
@@ -51,7 +52,7 @@ PR rework rate — the number of follow-up commits required to bring an AI-assis
 
 The study's conclusion states this directly: *"productivity gains of AI may mask the growing burden of maintenance on a shrinking pool of experts."*[^1]
 
-This is the invisible validator burden restated as a finding. The productivity dashboard captures peripheral output. It does not capture core reviewer cost. Because aggregate metrics blend both populations, the gain dominates the headline. The cost falls silently on the seniority band whose judgment is the most finite and the hardest to replace.
+This is the invisible validator burden restated as a finding. The productivity dashboard captures peripheral output. It does not capture core reviewer cost. Because aggregate metrics blend both populations, the gain dominates the headline. The cost falls silently on the seniority band whose judgement is the most finite and the hardest to replace.
 
 ---
 
