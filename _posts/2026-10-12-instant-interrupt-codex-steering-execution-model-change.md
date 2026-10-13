@@ -3,7 +3,7 @@ title: "instant_interrupt: How Codex's New Steering Mode Changes the Execution M
 parent: "Articles"
 nav_order: 1179
 date: 2026-10-12T08:00:00+00:00
-last_modified_at: 2026-10-12T18:10:42+01:00
+last_modified_at: 2026-10-13T03:11:48+01:00
 tags: ["codex-cli", "instant-interrupt", "execution-model", "steering", "agentic-sessions", "TUI", "v0.159.0", "multi-agent", "configuration"]
 copy_edited: true
 ---
@@ -17,7 +17,7 @@ copy_edited: true
 
 > *`instant_interrupt` is a one-line config change with a fundamental architectural consequence: it turns Codex CLI from a request/response tool into a steerable process. The difference matters most during long agentic sessions, when an early wrong turn propagates for minutes before you can intervene.*
 
-Codex CLI v0.159.0 shipped on 29 September 2026 with a flag that received minimal community attention compared to the same release's `/agents` view and GPT-6.1 Sol announcement.[^1] That flag — `instant_interrupt` — is, architecturally, more significant than either. It changes the fundamental interaction contract between a developer and a running Codex session.
+Codex CLI v0.159.0 shipped on 29 September 2026 with a flag that received minimal community attention compared to the same DevDay release cluster's `/agents` view (introduced in v0.156.0) and GPT-6.1 Sol (shipped as the default model in the same-day v0.159.1 patch).[^1] That flag — `instant_interrupt` — is, architecturally, more significant than either. It changes the fundamental interaction contract between a developer and a running Codex session.
 
 This article explains what `instant_interrupt` does, why it matters, how to enable and configure it, and when you should deliberately leave it off.
 
@@ -165,7 +165,7 @@ v0.159.0 also removed the "follow-up prompt suggestions" feature — the TUI hin
 
 This pairing is a deliberate signal. Follow-up suggestions are a hand-holding affordance: they anticipate what a less-experienced user might want to do next. `instant_interrupt` is an expert control: it assumes the user knows what they want and can issue precise mid-session redirects. Shipping both changes in the same release, in opposite directions, communicates a product direction: Codex CLI is optimising for experienced practitioners who steer precisely, not for users who need guidance on what to do next.
 
-This is consistent with the broader v0.159 theme. The `/agents` view is a power-user monitoring interface. GPT-6.1 Sol as default shifts cost assumptions for teams running many parallel agents. `instant_interrupt` gives those agents a steering control they did not have. Taken together, v0.159 is a release aimed at teams running Codex at scale, not individuals running it occasionally.
+This is consistent with the broader DevDay 2026 release cluster theme. The `/agents` view is a power-user monitoring interface. GPT-6.1 Sol as default (v0.159.1) shifts cost assumptions for teams running many parallel agents. `instant_interrupt` gives those agents a steering control they did not have. Taken together, the v0.159.x release cluster is aimed at teams running Codex at scale, not individuals running it occasionally.
 
 
 ## Architecture Implications
