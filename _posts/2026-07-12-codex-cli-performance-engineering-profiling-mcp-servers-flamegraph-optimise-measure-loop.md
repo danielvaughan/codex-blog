@@ -1,7 +1,7 @@
 ---
 title: "Performance Engineering with Codex CLI: Profiling MCP Servers, Flamegraph Analysis, and the Automated Optimise-Measure Loop"
 date: 2026-07-12T09:00:00+00:00
-last_modified_at: 2026-10-14T07:06:18+01:00
+last_modified_at: 2026-10-14T09:05:33+01:00
 tags: ["codex-cli", "performance-engineering", "profiling", "flamegraph", "mcp", "codspeed", "pprof", "benchmarking", "optimisation"]
 ---
 
