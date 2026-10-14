@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.5 Is Gone: What It Actually Meant for Codex CLI Workflows"
 date: 2026-10-14T08:00:00+00:00
-last_modified_at: 2026-10-14T03:06:12+01:00
+last_modified_at: 2026-10-14T03:13:29+01:00
 tags:
   - codex-cli
   - openai
@@ -84,7 +84,7 @@ I do not know whether that question will resolve in Codex's favour. The DevDay a
 
 GPT-6.1 Sol Ultrafast, announced as part of the 28 Days of Shipping series, offers response latencies up to eight times faster than Sol standard at a pricing tier designed for high-frequency automation.[^9] If the cost profile proves competitive, it changes the economic argument for high-volume CI integration. That is worth watching in the next few weeks as independent benchmarks appear.
 
-The /agents view and instant steering features in v0.162.x change the ergonomics of multi-agent workflows in ways that are meaningfully better than what GPT-5.5 workflows were built around.[^10] There are real reasons to migrate forward, beyond compliance with OpenAI's retirement timeline.
+The /agents view (v0.156.0) and `instant_interrupt` steering (v0.159.0) change the ergonomics of multi-agent workflows in ways that are meaningfully better than what GPT-5.5 workflows were built around.[^10] There are real reasons to migrate forward, beyond compliance with OpenAI's retirement timeline.
 
 The question worth sitting with is not whether GPT-6.1 Sol is a better model. It almost certainly is, on most dimensions. The question is whether a developer ecosystem built on automation and infrastructure can tolerate a model lifecycle that treats predictable, long-running workflows as a second-order concern.
 
@@ -101,4 +101,4 @@ The emoji in OpenAI's farewell post landed differently than intended.
 [^7]: Stack Overflow 2026 Developer Survey, AI coding tool adoption: Claude Code 65.5%, Codex CLI 29.5%.
 [^8]: OpenAI DevDay 2026, San Francisco, September 29, 2026. See companion article: *OpenAI DevDay 2026: Codex Cloud, the /agents View, GPT-6.1 Sol, Code Review, and Security Cloud*.
 [^9]: OpenAI 28 Days of Shipping, Day 4: Instant steering + GPT-6.1 Sol Ultrafast (up to 8× faster than Sol standard). October 2026.
-[^10]: Codex CLI v0.162.0 release notes, October 2026. instant_interrupt, managed worktrees, OSC 7501 protocol. See companion article: *Codex v0.163.0: Managed Worktrees, OSC 7501, gRPC-stdio, and Agent UX Maturity*.
+[^10]: Codex CLI release notes, September–October 2026. `/agents` view shipped in v0.156.0 (DevDay 2026 cluster); `instant_interrupt` shipped in v0.159.0 (September 29, 2026); managed worktrees introduced in v0.162.0 (October 8, 2026); OSC 7501 terminal status extended to all terminals in the v0.163.0-alpha sprint (October 2026). See companion article: *Codex v0.163.0: Managed Worktrees, OSC 7501, gRPC-stdio, and Agent UX Maturity*.
