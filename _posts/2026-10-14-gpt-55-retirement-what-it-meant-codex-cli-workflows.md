@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.5 Is Gone: What It Actually Meant for Codex CLI Workflows"
 date: 2026-10-14T08:00:00+00:00
-last_modified_at: 2026-10-14T09:05:33+01:00
+last_modified_at: 2026-10-14T11:33:16+01:00
 parent: "Articles"
 nav_order: 1181
 tags:
@@ -97,7 +97,7 @@ The emoji in OpenAI's farewell post landed differently than intended.
 [^1]: OpenAI, official statement and CLI guidance, October 14, 2026. Confirmed retirement scope: ChatGPT (all tiers), ChatGPT Work, Codex (UI + CLI plan-authenticated sessions).
 [^2]: OpenAI X post, October 13, 2026: *"On October 14, it's time to say farewell to GPT-5.5 in ChatGPT, ChatGPT Work, and Codex across all plans. If you use GPT-5.5 in Codex, switch to GPT-6.1 Sol or GPT-6 Astra. Thanks for everything, 5.5 🫡"*
 [^3]: Community reports, GitHub Discussions and r/ChatGPTCoding, October 12–14, 2026. API-key-authenticated session retention unconfirmed by OpenAI as of publication.
-[^4]: OpenAI model documentation, October 2026. GPT-6.1 Sol: $2/$10 per million tokens (input/output). Terra documented as "competitive with GPT-5.5 at lower cost." See `https://developers.openai.com/codex/models` for current pricing.
+[^4]: OpenAI model documentation, October 2026. GPT-6.1 Sol: \$2/\$10 per million tokens (input/output). Terra documented as "competitive with GPT-5.5 at lower cost." See `https://developers.openai.com/codex/models` for current pricing.
 [^5]: Community legacy-option request, filed September 15, 2026. Formally rejected by OpenAI. Thread activity surged in the 72 hours before retirement.
 [^6]: Vincent Schmalbach, "OpenAI Is Retiring the Last Model That Behaves Like an Assistant," circulated via developer communities, October 2026.
 [^7]: Stack Overflow 2026 Developer Survey, AI coding tool adoption: Claude Code 65.5%, Codex CLI 29.5%.
