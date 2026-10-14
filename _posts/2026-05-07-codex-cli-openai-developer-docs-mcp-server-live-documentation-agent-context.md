@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-codex-cli-openai-developer-docs-mcp-server-live-documentation-agent-context"
 tags: ["codex-cli", "MCP", "openai-docs", "documentation", "skills", "configuration", "AGENTS.md", "developer-experience"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-10-14T03:13:29+01:00
+last_modified_at: 2026-10-14T07:06:18+01:00
 ---
 # The OpenAI Developer Docs MCP Server: Giving Codex CLI Live Access to Its Own Documentation
 

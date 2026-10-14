@@ -1,7 +1,7 @@
 ---
 title: "The Software Factory Pattern: Building Agent Pipelines for Autonomous Development with Codex CLI"
 date: 2026-08-03T09:00:00+00:00
-last_modified_at: 2026-10-14T03:13:29+01:00
+last_modified_at: 2026-10-14T07:06:18+01:00
 tags: ["software-factory", "agent-pipeline", "autonomous-development", "codex-cli", "governance", "worktrees", "codex-exec", "dark-factory", "ci-cd"]
 ---
 

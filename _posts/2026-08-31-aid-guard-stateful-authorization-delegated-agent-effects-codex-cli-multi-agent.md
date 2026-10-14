@@ -1,7 +1,7 @@
 ---
 title: "AID-Guard: Closing the Authorization-Effect Gap in Codex CLI Multi-Agent Workflows"
 date: 2026-08-31T23:00:00+00:00
-last_modified_at: 2026-10-14T03:13:29+01:00
+last_modified_at: 2026-10-14T07:06:18+01:00
 tags: ["codex-cli", "multi-agent", "security", "authorization", "approval-policy", "hooks", "mcp", "multi-agent-v2"]
 ---
 
