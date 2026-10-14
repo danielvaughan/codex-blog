@@ -3,7 +3,7 @@ title: "Amazon Bedrock for GPT-6: Routing Codex CLI Through AWS in Enterprise En
 parent: "Articles"
 nav_order: 1170
 date: 2026-09-26T08:00:00+00:00
-last_modified_at: 2026-10-13T11:36:46+01:00
+last_modified_at: 2026-10-14T03:06:12+01:00
 tags: ["codex-cli", "amazon-bedrock", "gpt-6", "sol", "luna", "enterprise", "aws", "data-residency", "model-routing", "v0.157.0"]
 ---
 
