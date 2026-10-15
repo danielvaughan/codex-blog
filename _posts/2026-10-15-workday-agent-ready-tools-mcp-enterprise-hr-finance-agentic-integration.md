@@ -2,7 +2,7 @@
 layout: post
 title: "Workday's Agent-Ready Tools Turn Enterprise HR and Finance Data into MCP Resources"
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-15T06:36:16+01:00
+last_modified_at: 2026-10-15T10:06:09+01:00
 categories: [enterprise, mcp, agents, codex-cli]
 tags: [workday, mcp, enterprise, agents, hr, finance, codex-cli]
 nav_order: 1183
@@ -37,7 +37,7 @@ Workday manages HR and finance data for over 10,000 organisations, including mos
 
 **Accelerates MCP adoption at the enterprise procurement layer.** Enterprise software procurement is not driven by developer enthusiasm — it is driven by what the incumbent system supports. If Workday supports MCP natively, and Salesforce, ServiceNow, and SAP follow (as their public roadmaps suggest), then MCP becomes a checklist item in enterprise AI procurement rather than a greenfield integration project.
 
-**Shifts integration from engineering to configuration.** Workday claims their MCP integration reduces connection time from weeks of custom API work to hours of configuration. That claim deserves scrutiny, but the directional shift is real: when a protocol is standardised at both ends, the integration overhead collapses. The long tail of enterprise data — the systems that never get integrated because the engineering cost is too high — becomes accessible.
+**Shifts integration from engineering to configuration.** Workday claims its MCP integration reduces connection time from weeks of custom API work to hours of configuration. That claim deserves scrutiny, but the directional shift is real: when a protocol is standardised at both ends, the integration overhead collapses. The long tail of enterprise data — the systems that never get integrated because the engineering cost is too high — becomes accessible.
 
 ## The Codex CLI Implication
 

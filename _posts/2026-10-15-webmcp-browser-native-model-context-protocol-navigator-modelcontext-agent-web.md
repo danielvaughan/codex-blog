@@ -2,7 +2,7 @@
 layout: post
 title: "WebMCP Brings Model Context Protocol Into the Browser Itself"
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-15T06:36:16+01:00
+last_modified_at: 2026-10-15T10:06:09+01:00
 categories: [mcp, browser, standards, agents, codex-cli]
 tags: [webmcp, browser, mcp, navigator, chrome, standards, agents, codex-cli]
 nav_order: 1184
@@ -24,7 +24,7 @@ WebMCP is a proposed web standard that closes this gap. It introduces a browser-
 
 ## The Architecture
 
-The specification, published as a Draft Community Group Report in February 2026 and formally accepted by the W3C Web Machine Learning Community Group in September 2025, defines three components:
+The specification, formally accepted by the W3C Web Machine Learning Community Group in September 2025 and published as a Draft Community Group Report in February 2026, defines three components:
 
 **`navigator.modelContext`** — the browser-side API that agents query to discover available tools. A web application registers its MCP tools with the browser at page load; the agent reads them via `navigator.modelContext.tools()`.
 

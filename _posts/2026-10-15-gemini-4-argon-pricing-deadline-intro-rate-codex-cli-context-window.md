@@ -2,7 +2,7 @@
 layout: post
 title: "Gemini 4 Argon's Pricing Deadline Is a Strategic Signal, Not Just a Discount"
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-15T06:36:16+01:00
+last_modified_at: 2026-10-15T10:06:09+01:00
 categories: [ai-models, pricing, google, codex-cli]
 tags: [gemini, google, pricing, context-window, multimodal, codex-cli]
 nav_order: 1182
@@ -39,7 +39,7 @@ The doubling of prices on 30 November is not unusual for Google model launches, 
 
 The headline for agent-heavy workflows is the context window, not the token price. At 1 million tokens, a single Argon session can hold:
 
-- Approximately 750,000 words of text — roughly the full Lord of the Rings trilogy
+- Approximately 750,000 words of text — roughly the full *The Lord of the Rings* trilogy
 - Thousands of lines of source code across an entire medium-sized repository
 - Hours of meeting transcripts with full context intact
 - Multi-turn tool-call histories from long-running agent sessions without summarisation
