@@ -3,7 +3,7 @@ title: "Endogenous Authorization Laundering: How Codex CLI's Persistent Memory B
 parent: "Articles"
 nav_order: 1146
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-10-16T10:25:36+01:00
+last_modified_at: 2026-10-16T21:06:23+01:00
 tags: ["security", "memory", "authorization", "codex-cli", "hooks", "AGENTS.md"]
 ---
 

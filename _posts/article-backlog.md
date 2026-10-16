@@ -1,16 +1,19 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-16T10:25:36+01:00
+last_modified_at: 2026-10-16T21:06:23+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
 
-## Article Triage — 16 October 2026 (Automated Hourly Sync)
+## Article Triage — 16 October 2026 (Automated Hourly Sync — Updated)
 
-*Four articles published since last triage (12 October). Directory now at 2,043 dated article files. v0.163.0-alpha sprint ongoing; current stable v0.162.1.*
+*Five articles published since last triage (12 October). Directory now at 2,044 dated article files. v0.163.0 stable shipped 15 October; post-release commits (V8, streaming FS, mutex fix) active on main.*
+
+**Published (14–16 October 2026):**
+- `2026-10-16-codex-v0163-stable-release-config-follow-up-parallel-tools-daybreak.md` — Codex CLI v0.163.0 Stable: /config Command, Follow-Up While Processing, and Parallel Read-Only Tools. Covers all stable-release features and post-release commits. ~1,200 words.
 
 **Published (14–15 October 2026):**
 - `2026-10-14-gpt-55-retirement-what-it-meant-codex-cli-workflows.md` — GPT-5.5 Is Gone: What It Actually Meant for Codex CLI Workflows. Retrospective on the GPT-5.5 sunset and workflow impact. ~1,740 words.
