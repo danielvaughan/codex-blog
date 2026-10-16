@@ -1,12 +1,32 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-15T11:34:10+01:00
+last_modified_at: 2026-10-16T03:06:03+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 16 October 2026 (Automated Hourly Sync)
+
+*Four articles published since last triage (12 October). Directory now at 2,043 dated article files. v0.163.0-alpha sprint ongoing; current stable v0.162.1.*
+
+**Published (14–15 October 2026):**
+- `2026-10-14-gpt-55-retirement-what-it-meant-codex-cli-workflows.md` — GPT-5.5 Is Gone: What It Actually Meant for Codex CLI Workflows. Retrospective on the GPT-5.5 sunset and workflow impact. ~1,740 words.
+- `2026-10-15-gemini-4-argon-pricing-deadline-intro-rate-codex-cli-context-window.md` — Gemini 4 Argon's Pricing Deadline Is a Strategic Signal, Not Just a Discount. Competitor pricing strategy and context window implications. ~1,020 words.
+- `2026-10-15-webmcp-browser-native-model-context-protocol-navigator-modelcontext-agent-web.md` — WebMCP Brings Model Context Protocol Into the Browser Itself. Browser-native MCP integration. ~1,180 words.
+- `2026-10-15-workday-agent-ready-tools-mcp-enterprise-hr-finance-agentic-integration.md` — Workday's Agent-Ready Tools Turn Enterprise HR and Finance Data into MCP Resources. Enterprise MCP integration. ~1,080 words.
+
+**GPT-5.5 retirement:** Completed 14 October 2026. Article published. Book P1 chapters Ch09, Ch11, Ch12, Ch13, Ch21 — model reference updates still require Daniel's action.
+
+**Windows closing (20 October — 4 days):** Guardian Subagent v0.160.0 and Cross-Device Cloud Environments remain unwritten.
+
+**Gap still open:** No standalone `/agents` view article exists (identified 12 October). The `instant_interrupt` article explicitly references it as an expected pairing.
+
+**Carried forward (Medium):** Microsoft 365 Calendar Integration Update; The Codex CLI Versioning Gap.
+
+---
 
 ## Article Triage — 12 October 2026 (Automated Run)
 

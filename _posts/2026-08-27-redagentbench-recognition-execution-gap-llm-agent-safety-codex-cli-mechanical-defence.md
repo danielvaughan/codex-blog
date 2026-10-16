@@ -1,7 +1,7 @@
 ---
 title: "REDAgentBench: The Recognition-Execution Gap and Codex CLI's Mechanical Defence"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-10-15T11:34:10+01:00
+last_modified_at: 2026-10-16T03:06:03+01:00
 tags: ["codex-cli", "security", "red-teaming", "agent-safety", "recognition-execution-gap", "PreToolUse", "AGENTS.md", "harness-engineering", "sandbox", "policy-enforcement"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-do-agent-written-tests-actually-help-codex-cli-testing-strategy"
 tags: ["testing", "research", "agent-generated-tests", "SWE-bench", "codex-cli", "TDD", "cost-optimisation", "reasoning-effort", "AGENTS.md"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-10-15T11:34:10+01:00
+last_modified_at: 2026-10-16T03:06:03+01:00
 ---
 # Do Agent-Written Tests Actually Help? What Six LLMs on SWE-bench Reveal and How to Rethink Your Codex CLI Testing Strategy
 

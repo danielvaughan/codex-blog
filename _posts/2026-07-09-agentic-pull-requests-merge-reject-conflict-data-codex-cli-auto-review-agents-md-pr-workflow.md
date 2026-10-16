@@ -1,7 +1,7 @@
 ---
 title: "What 153K Agentic Pull Requests Reveal About Merge, Rejection, and Conflict — and How to Configure Codex CLI's PR Stack Accordingly"
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-10-15T11:34:10+01:00
+last_modified_at: 2026-10-16T03:06:03+01:00
 tags: ["codex-cli", "agentic-pull-requests", "merge-conflicts", "auto-review", "AGENTS.md", "code-review", "PR-workflow", "AgenticFlict", "guardian-approval"]
 ---
 
