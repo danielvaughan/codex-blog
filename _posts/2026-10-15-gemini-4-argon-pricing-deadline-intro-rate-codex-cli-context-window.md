@@ -2,7 +2,7 @@
 layout: post
 title: "Gemini 4 Argon's Pricing Deadline Is a Strategic Signal, Not Just a Discount"
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-16T03:12:00+01:00
+last_modified_at: 2026-10-16T10:06:53+01:00
 categories: [ai-models, pricing, google, codex-cli]
 tags: [gemini, google, pricing, context-window, multimodal, codex-cli]
 nav_order: 1182
@@ -61,7 +61,7 @@ The honest position in October 2026:
 
 At intro pricing, Argon is the cheapest option at the frontier tier. At post-November pricing, it is mid-range but still holds the context-window advantage over most competitors.
 
-The comparison is complicated by capability differences that benchmarks capture imperfectly. Argon performs particularly well on code generation and long-document synthesis tasks. On multi-step reasoning chains it is competitive with but not clearly superior to Claude Sonnet 4.5 in internal evaluations published by Google.
+The comparison is complicated by capability differences that benchmarks capture imperfectly. Argon performs particularly well on code generation and long-document synthesis tasks. On multi-step reasoning chains, it is competitive with but not clearly superior to Claude Sonnet 4.5 in internal evaluations published by Google.
 
 ## What Engineers Should Do Before 30 November
 
