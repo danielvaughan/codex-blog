@@ -2,7 +2,7 @@
 layout: post
 title: "WebMCP Brings Model Context Protocol Into the Browser Itself"
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-16T03:06:03+01:00
+last_modified_at: 2026-10-16T03:12:00+01:00
 categories: [mcp, browser, standards, agents, codex-cli]
 tags: [webmcp, browser, mcp, navigator, chrome, standards, agents, codex-cli]
 nav_order: 1184
@@ -20,13 +20,13 @@ When Codex CLI or any agent runtime needs to interact with a web application tod
 
 Both approaches share a structural problem: the web application knows exactly what it can do and how, but there is no standard channel through which it can communicate that knowledge to an agent at runtime. The agent has to infer it from markup or documentation.
 
-WebMCP is a proposed web standard that closes this gap. It introduces a browser-native API, `navigator.modelContext`, that allows websites to declare their agent-callable capabilities as structured MCP tools. The agent runtime queries `navigator.modelContext` and receives a manifest of what the site can do — not inferred from the DOM, but declared by the application itself.
+WebMCP is a proposed web standard that closes this gap. It introduces a browser-native API, `document.modelContext`, that allows websites to declare their agent-callable capabilities as structured MCP tools. The agent runtime queries `document.modelContext` and receives a manifest of what the site can do — not inferred from the DOM, but declared by the application itself.
 
 ## The Architecture
 
 The specification, formally accepted by the W3C Web Machine Learning Community Group in September 2025 and published as a Draft Community Group Report in February 2026, defines three components:
 
-**`navigator.modelContext`** — the browser-side API that agents query to discover available tools. A web application registers its MCP tools with the browser at page load; the agent reads them via `navigator.modelContext.tools()`.
+**`document.modelContext`** — the browser-side API that agents query to discover available tools. A web application registers its MCP tools with the browser at page load; the agent reads them via `document.modelContext.tools()`. Note: the API shipped in early Chrome builds as `navigator.modelContext`; the spec relocated it to `document` in the July 2026 draft, and Chrome 150 deprecated the `navigator` alias.
 
 **Structured tool definitions** — each tool exposed via WebMCP has a name, description, input schema (JSON Schema), and output schema. This mirrors the MCP tool definition format exactly, which means existing MCP-compatible agent runtimes can consume WebMCP tools without modification to the tool-calling layer.
 
@@ -62,7 +62,7 @@ More specifically, WebMCP enables a class of Codex CLI workflows that are curren
 
 **Permission-scoped automation.** Because WebMCP tool access is mediated by the browser's authentication context, agents can only do what the logged-in user can do. This is a natural permission boundary that is much harder to enforce in direct API integrations.
 
-**Application-declared capability discovery.** Rather than hardcoding what actions are available on a given website, Codex agents could query `navigator.modelContext.tools()` at runtime and adapt their behaviour to whatever the site currently exposes.
+**Application-declared capability discovery.** Rather than hardcoding what actions are available on a given website, Codex agents could query `document.modelContext.tools()` at runtime and adapt their behaviour to whatever the site currently exposes.
 
 ## The Timeline Problem
 
@@ -76,7 +76,7 @@ The specification is worth watching closely. The pattern it establishes — webs
 
 ---
 
-*The WebMCP specification is maintained by the W3C Web Machine Learning Community Group. Chrome 146 Canary includes an early preview behind a flag. Broad stable browser support is targeted for 2027.*
+*The WebMCP specification is maintained by the W3C Web Machine Learning Community Group. Chrome 146 Canary includes an early preview behind a flag; the canonical API is `document.modelContext` as of Chrome 150, which deprecated the earlier `navigator.modelContext` alias. Broad stable browser support is targeted for 2027.*
 
 - [WebMCP: Browser-Native AI Agent Integration Standard](https://zylos.ai/research/2026-02-22-webmcp-browser-native-ai-agent-integration/)
 - [navigator.modelContext: Chrome's WebMCP API and What It Means for Agent-Ready Websites](https://www.openhermit.com/blog/navigator-modelcontext-2026)

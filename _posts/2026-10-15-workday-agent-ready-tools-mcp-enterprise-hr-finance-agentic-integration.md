@@ -2,7 +2,7 @@
 layout: post
 title: "Workday's Agent-Ready Tools Turn Enterprise HR and Finance Data into MCP Resources"
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-16T03:06:03+01:00
+last_modified_at: 2026-10-16T03:12:00+01:00
 categories: [enterprise, mcp, agents, codex-cli]
 tags: [workday, mcp, enterprise, agents, hr, finance, codex-cli]
 nav_order: 1183
@@ -12,7 +12,7 @@ nav_order: 1183
 
 ![Sketchnote diagram for: Workday's Agent-Ready Tools Turn Enterprise HR and Finance Data into MCP Resources](/sketchnotes/articles/2026-10-15-workday-agent-ready-tools-mcp-enterprise-hr-finance-agentic-integration.png)
 
-Workday's Agent-Ready Tools, launched at Workday Rising in June 2026 and now broadly adopted across enterprise deployments, represent something more architecturally significant than another enterprise AI integration. They are a direct implementation of Model Context Protocol inside one of the world's most data-dense enterprise systems — and that changes the gravity of MCP's enterprise story considerably.
+Workday's Agent-Ready Tools, announced at Workday DevCon in June 2026 and made generally available at Workday Rising on 13 October 2026, represent something more architecturally significant than another enterprise AI integration. They are a direct implementation of Model Context Protocol inside one of the world's most data-dense enterprise systems — and that changes the gravity of MCP's enterprise story considerably.
 
 ## What Agent-Ready Tools Actually Are
 
@@ -67,7 +67,7 @@ These mechanisms are a reasonable first pass. They do not address all the edge c
 
 ## What to Watch
 
-The Workday Agent-Ready Tools implementation is early. The current release focuses on read operations against HCM data. The next phase, which Workday has signalled for H1 2027, extends to write operations in HR — initiating a hire, updating compensation, submitting a performance review on behalf of a manager.
+The Workday Agent-Ready Tools GA release ships with both read and write capabilities: 275 read tools and 54 write/delete tools across Workday's HCM and finance data layer. The catalog already covers operations such as initiating a hire, updating compensation, and submitting a performance review on behalf of a manager — it is not a read-only preview.
 
 Write access in HR systems via autonomous agents is where the governance architecture will be tested seriously. The scoped access and review gate mechanisms that look sufficient for read operations will face significantly harder challenges when agents are modifying records that affect people's employment and pay.
 
@@ -78,5 +78,6 @@ The MCP layer provides the protocol. The governance layer is still being written
 *Workday Agent-Ready Tools are available in Workday's platform for enterprise customers. Developer documentation is at workday.com/en-us/ai-platform/agent-tools-mcp.html.*
 
 - [Workday Launches New Tools for Developers to Build, Connect, and Verify AI Agents](https://newsroom.workday.com/2026-06-02-Workday-Launches-New-Tools-for-Developers-to-Build,-Connect,-and-Verify-AI-Agents-For-HR,-Finance,-and-IT)
+- [Workday's Trusted Agent Platform Now Delivers Headless Access to HR and Finance](https://newsroom.workday.com/2026-10-13-Workdays-Trusted-Agent-Platform-Now-Delivers-Headless-Access-to-HR-and-Finance,-Letting-Customers-Build-and-Run-Lawful-AI-Agents)
 - [Agent-Ready Tools & MCP — Workday](https://www.workday.com/en-us/ai-platform/agent-tools-mcp.html)
 - [2026 Guide: Workday MCP Server Setup](https://www.cdata.com/blog/workday-mcp-server-guide)
