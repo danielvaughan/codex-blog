@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.163.0 Stable: /config Command, Follow-Up While Processing, and Parallel Read-Only Tools"
 date: 2026-10-16T08:00:00+00:00
-last_modified_at: 2026-10-17T05:14:17+01:00
+last_modified_at: 2026-10-17T10:06:31+01:00
 tags:
   - codex-cli
   - v0.163.0
@@ -11,7 +11,10 @@ tags:
   - daybreak
   - daemon
   - ux
+copy_edited: true
 ---
+
+# Codex CLI v0.163.0 Stable: /config Command, Follow-Up While Processing, and Parallel Read-Only Tools
 
 ![Sketchnote diagram for: Codex CLI v0.163.0 Stable: /config Command, Follow-Up While Processing, and Parallel Read-Only Tools](/sketchnotes/articles/2026-10-16-codex-v0163-stable-release-config-follow-up-parallel-tools-daybreak.png)
 

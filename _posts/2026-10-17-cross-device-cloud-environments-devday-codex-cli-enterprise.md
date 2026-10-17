@@ -1,7 +1,7 @@
 ---
 title: "Cross-Device Cloud Environments: What DevDay's Biggest Codex Announcement Actually Means"
 date: 2026-10-17T09:00:00+00:00
-last_modified_at: 2026-10-17T05:14:17+01:00
+last_modified_at: 2026-10-17T10:06:31+01:00
 nav_order: 1186
 tags: ["codex-cli", "codex-cloud", "cloud-environments", "devday-2026", "enterprise", "cross-device", "mobile", "configuration"]
 copy_edited: true
@@ -14,7 +14,7 @@ copy_edited: true
 
 ---
 
-> *The headline at DevDay 2026 was "close your laptop and pick it up from your phone." The mechanism that makes that possible — persistent cloud environments — is more architecturally significant than the demo suggested. This article explains what a Codex Cloud Environment actually is, how it differs from local worktrees, and what enterprise teams need to understand before adopting it.*
+> *The headline at DevDay 2026 was "close your laptop and pick it up from your phone". The mechanism that makes that possible — persistent cloud environments — is more architecturally significant than the demo suggested. This article explains what a Codex Cloud Environment actually is, how it differs from local worktrees, and what enterprise teams need to understand before adopting it.*
 
 OpenAI's DevDay 2026 keynote on 29 September included a live demo: a developer handed off a running Codex task from a laptop to a mobile phone mid-execution. The session continued seamlessly — the agent's context, environment, and in-progress work all persisted across devices.[^1]
 

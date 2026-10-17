@@ -1,7 +1,7 @@
 ---
 title: "Dockerless Patch Verification: Why Environment-Free Judgement Outperforms Open-Source Verifiers by 14 AUC Points — and What It Means for Codex CLI's Sandbox Strategy"
 date: 2026-07-14T09:00:00+00:00
-last_modified_at: 2026-10-17T05:14:17+01:00
+last_modified_at: 2026-10-17T10:06:31+01:00
 tags: ["codex-cli", "patch-verification", "dockerless", "sandbox", "PostToolUse", "agentic-verification", "SWE-bench", "environment-free", "coding-agents"]
 ---
 
