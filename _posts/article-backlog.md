@@ -1,12 +1,27 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-17T03:11:14+01:00
+last_modified_at: 2026-10-17T05:14:17+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 17 October 2026 (Automated Hourly Run)
+
+*Three window-closing articles published today (17 October). Directory now at 2,052 dated article files. Current stable: v0.163.0 (Oct 15).*
+
+**Published (17 October 2026):**
+- `2026-10-17-guardian-subagent-v0160-risk-based-approval-framework-codex-cli.md` — The Guardian Subagent: How Codex v0.160.0's Risk-Based Approval Framework Works. Covers what Guardian evaluates (operation type, file path scope, network destination, MCP provenance), enabling `approvals_reviewer = "guardian_subagent"` in config, v0.160.0's session instruction context and `guardian_root_handoff_context` opt-ins, combining Guardian with `sandboxPolicy`, when automated approval makes sense, and audit log structure. ~1,550 words. Copy-edited: true.
+- `2026-10-17-cross-device-cloud-environments-devday-codex-cli-enterprise.md` — Cross-Device Cloud Environments: What DevDay's Biggest Codex Announcement Actually Means. Covers what a Cloud Environment contains (project env, config/policy, secrets vault, named sessions), the snapshot model, cross-device continuity mechanism, Cloud Environments vs local worktrees decision table, enterprise security considerations (centralised attack surface, AGENTS.md as team policy, token accounting), and getting-started steps. ~1,720 words. Copy-edited: true.
+- `2026-10-17-agents-view-parallel-task-management-codex-cli-tui.md` — The /agents View: Managing Parallel Codex Tasks from One CLI Session. Covers the /agents interface (status indicators, task summary, token usage, interrupt controls), connection to /fork shortcut, instant_interrupt in the /agents view, practical five-agent frontend/backend split walkthrough, approval events in /agents, and the /agents + instant_interrupt coordination pair. ~1,630 words. Copy-edited: true.
+
+**Windows closing (20 October — 3 days):** All three Oct 20 deadline articles now published. Window cleared.
+
+**Carried forward (Medium):** Microsoft 365 Calendar Integration Update; The Codex CLI Versioning Gap.
+
+---
 
 ## Article Triage — 16 October 2026 (Automated Hourly Sync — Updated)
 
