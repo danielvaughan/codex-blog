@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.163.0 Stable: /config Command, Follow-Up While Processing, and Parallel Read-Only Tools"
 date: 2026-10-16T08:00:00+00:00
-last_modified_at: 2026-10-16T21:06:23+01:00
+last_modified_at: 2026-10-17T03:11:14+01:00
 tags:
   - codex-cli
   - v0.163.0
@@ -21,7 +21,7 @@ tags:
 
 ---
 
-Codex CLI v0.163.0 reached stable on 15 October 2026 after a twelve-iteration alpha sprint (alpha.1 through alpha.10.1, running 8–14 October). The stable release closes out the sprint and ships several user-facing features focused on session control, configuration ergonomics, and parallel tool execution.
+Codex CLI v0.163.0 reached stable on 15 October 2026 after a thirteen-iteration alpha sprint (alpha.1 through alpha.10.2, running 8–15 October). The stable release closes out the sprint and ships several user-facing features focused on session control, configuration ergonomics, and parallel tool execution.
 
 This article covers the new capabilities that shipped in the stable build. For the lower-level infrastructure changes (managed worktrees, OSC 7501 terminal status, gRPC over stdio) that defined the alpha sprint's engineering direction, see [Reading the v0.163.0 Alpha Sprint](../2026-10-11-codex-v0163-managed-worktrees-osc-7501-grpc-stdio-agent-ux-maturity/).
 
@@ -157,7 +157,7 @@ Three commits have landed on main since the v0.163.0 tag, indicating active post
 
 | Commit | Description |
 |--------|-------------|
-| `6ae8b8a` | V8 upgrade to 152.2.0 — Array.sort stability backport |
+| `6ae8b8a` | V8 upgrade to 152.2.0 — Array.sort safety guards backport |
 | `a45b8cc` | Streaming file replacement in filesystem abstractions — large-file handling groundwork |
 | `e790ce2` | Synchronous mutex for remote metadata request tracking — race condition fix in parallel remote-metadata fetches |
 
