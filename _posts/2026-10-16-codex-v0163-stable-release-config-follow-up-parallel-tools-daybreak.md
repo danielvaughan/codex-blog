@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.163.0 Stable: /config Command, Follow-Up While Processing, and Parallel Read-Only Tools"
 date: 2026-10-16T08:00:00+00:00
-last_modified_at: 2026-10-17T10:29:29+01:00
+last_modified_at: 2026-10-17T11:35:16+01:00
 tags:
   - codex-cli
   - v0.163.0
@@ -36,7 +36,7 @@ This article covers the new capabilities that shipped in the stable build. For t
 
 The `/config` slash command is the headline addition in v0.163.0. It provides a searchable, in-session interface for reading and modifying Codex preferences across all configuration categories.
 
-```
+```text
 /config
 ```
 
@@ -71,7 +71,7 @@ For teams with standard terminal configurations, the default `Ctrl+X` leader avo
 
 The `/daemon` slash command restarts managed background servers — the persistent processes Codex manages for language servers, tool daemons, and other long-running services — with automatic reconnection.
 
-```
+```text
 /daemon restart
 ```
 

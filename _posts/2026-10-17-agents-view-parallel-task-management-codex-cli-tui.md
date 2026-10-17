@@ -1,7 +1,7 @@
 ---
 title: "The /agents View: Managing Parallel Codex Tasks from One CLI Session"
 date: 2026-10-17T10:00:00+00:00
-last_modified_at: 2026-10-17T10:29:29+01:00
+last_modified_at: 2026-10-17T11:35:16+01:00
 nav_order: 1187
 tags: ["codex-cli", "agents-view", "parallel-agents", "multi-agent", "devday-2026", "fork", "instant-interrupt", "TUI", "worktrees"]
 copy_edited: true
@@ -40,7 +40,7 @@ The `/agents` view solves all three. It is not a new execution model — the und
 
 Open the `/agents` view from any active Codex session:
 
-```
+```text
 /agents
 ```
 
@@ -59,9 +59,10 @@ Navigation is keyboard-driven: arrow keys to move between agents, `Enter` to exp
 
 The `/fork` shortcut (introduced in v0.157) is the mechanism for spinning up a new parallel agent. In any session, pressing `f` (or typing `/fork`) creates a new worktree-backed session that inherits the current session's context and continues from the same point.
 
-```
-Current session → /fork → Agent A (continues on branch A)
-                       → Agent B (new parallel track from this point)
+```mermaid
+flowchart LR
+    A[Current session] -->|/fork| B["Agent A (continues on branch A)"]
+    A -->|/fork| C["Agent B (new parallel track from this point)"]
 ```
 
 Both agents appear in the `/agents` view immediately after the fork. If you fork from within the `/agents` view, the new agent appears in the list without requiring any additional navigation.
@@ -133,7 +134,7 @@ codex --instant-interrupt
 
 **Fork into parallel agents**
 
-```
+```text
 > /fork --name frontend-refactor --prompt "Refactor all React components in src/components/ to use the new design system tokens"
 > /fork --name backend-service --prompt "Update all service handlers in src/api/ to return the new response schema"
 > /fork --name test-generation --prompt "Generate unit tests for all functions in src/services/ that do not yet have coverage"

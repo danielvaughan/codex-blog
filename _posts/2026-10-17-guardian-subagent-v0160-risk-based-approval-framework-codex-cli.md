@@ -1,7 +1,7 @@
 ---
 title: "The Guardian Subagent: How Codex v0.160.0's Risk-Based Approval Framework Works"
 date: 2026-10-17T08:00:00+00:00
-last_modified_at: 2026-10-17T10:29:29+01:00
+last_modified_at: 2026-10-17T11:35:16+01:00
 nav_order: 1185
 tags: ["codex-cli", "guardian", "approval-policy", "v0.160.0", "security", "enterprise", "multi-agent", "configuration"]
 copy_edited: true
@@ -29,11 +29,11 @@ Guardian is a reviewer subagent built into Codex CLI's safety stack. It runs as 
 
 The relationship is:
 
-```
-Primary agent → wants to execute tool call
-    → approval_policy triggers review
-        → Guardian evaluates action
-            → returns: approve / deny / escalate to user
+```mermaid
+flowchart TD
+    A["Primary agent — wants to execute tool call"] --> B[approval_policy triggers review]
+    B --> C[Guardian evaluates action]
+    C --> D[approve / deny / escalate to user]
 ```
 
 Guardian has been available since v0.119 (April 2026), when Smart Approvals routing was introduced.[^1] What v0.160.0 adds is **context persistence**: Guardian can now access earlier user instructions from the session and, in multi-agent setups, root-context from parent agents — preventing context collapse when reviewing actions deep in an agent chain.
