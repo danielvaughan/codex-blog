@@ -3,7 +3,7 @@ title: "instant_interrupt: How Codex's New Steering Mode Changes the Execution M
 parent: "Articles"
 nav_order: 1180
 date: 2026-10-12T08:00:00+00:00
-last_modified_at: 2026-10-18T10:24:03+01:00
+last_modified_at: 2026-10-18T11:35:13+01:00
 tags: ["codex-cli", "instant-interrupt", "execution-model", "steering", "agentic-sessions", "TUI", "v0.159.0", "multi-agent", "configuration"]
 copy_edited: true
 ---
