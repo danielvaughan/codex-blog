@@ -3,7 +3,7 @@ title: "Workday's Agent-Ready Tools Turn Enterprise HR and Finance Data into MCP
 parent: "Articles"
 nav_order: 1183
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-18T07:08:17+01:00
+last_modified_at: 2026-10-18T10:09:27+01:00
 tags:
   - workday
   - mcp
@@ -12,6 +12,7 @@ tags:
   - hr
   - finance
   - codex-cli
+copy_edited: true
 ---
 
 # Workday's Agent-Ready Tools Turn Enterprise HR and Finance Data into MCP Resources
@@ -73,7 +74,7 @@ These mechanisms are a reasonable first pass. They do not address all the edge c
 
 ## What to Watch
 
-The Workday Agent-Ready Tools GA release ships with both read and write capabilities: 275 read tools and 54 write/delete tools across Workday's HCM and finance data layer. The catalog already covers operations such as initiating a hire, updating compensation, and submitting a performance review on behalf of a manager — it is not a read-only preview.
+The Workday Agent-Ready Tools GA release ships with both read and write capabilities: 275 read tools and 54 write/delete tools across Workday's HCM and finance data layer. The catalogue already covers operations such as initiating a hire, updating compensation, and submitting a performance review on behalf of a manager — it is not a read-only preview.
 
 Write access in HR systems via autonomous agents is where the governance architecture will be tested seriously. The scoped access and review gate mechanisms that look sufficient for read operations will face significantly harder challenges when agents are modifying records that affect people's employment and pay.
 
