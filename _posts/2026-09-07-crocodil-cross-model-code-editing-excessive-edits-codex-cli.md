@@ -3,7 +3,7 @@ title: "CROCODIL: The 14% Cross-Model Edit Tax and What It Means for Codex CLI M
 parent: "Articles"
 nav_order: 1143
 date: 2026-09-07T08:00:00+00:00
-last_modified_at: 2026-10-17T11:35:16+01:00
+last_modified_at: 2026-10-18T01:07:15+01:00
 tags: ["codex-cli", "multi-agent", "code-editing", "model-routing", "rl-training", "style-drift", "AGENTS.md"]
 ---
 

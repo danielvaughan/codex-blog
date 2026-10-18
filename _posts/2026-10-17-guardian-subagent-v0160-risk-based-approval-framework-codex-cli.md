@@ -1,7 +1,7 @@
 ---
 title: "The Guardian Subagent: How Codex v0.160.0's Risk-Based Approval Framework Works"
 date: 2026-10-17T08:00:00+00:00
-last_modified_at: 2026-10-17T11:35:16+01:00
+last_modified_at: 2026-10-18T01:07:15+01:00
 nav_order: 1185
 tags: ["codex-cli", "guardian", "approval-policy", "v0.160.0", "security", "enterprise", "multi-agent", "configuration"]
 copy_edited: true
