@@ -1,11 +1,18 @@
 ---
-layout: post
 title: "WebMCP Brings Model Context Protocol Into the Browser Itself"
-date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-18T01:07:15+01:00
-categories: [mcp, browser, standards, agents, codex-cli]
-tags: [webmcp, browser, mcp, navigator, chrome, standards, agents, codex-cli]
+parent: "Articles"
 nav_order: 1184
+date: 2026-10-15T00:00:00+00:00
+last_modified_at: 2026-10-18T07:08:17+01:00
+tags:
+  - webmcp
+  - browser
+  - mcp
+  - navigator
+  - chrome
+  - standards
+  - agents
+  - codex-cli
 ---
 
 # WebMCP Brings Model Context Protocol Into the Browser Itself

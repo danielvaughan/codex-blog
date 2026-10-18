@@ -1,8 +1,9 @@
 ---
 title: "The /agents View: Managing Parallel Codex Tasks from One CLI Session"
+parent: "Articles"
 date: 2026-10-17T10:00:00+00:00
-last_modified_at: 2026-10-18T01:07:15+01:00
-nav_order: 1187
+last_modified_at: 2026-10-18T07:08:17+01:00
+nav_order: 1188
 tags: ["codex-cli", "agents-view", "parallel-agents", "multi-agent", "devday-2026", "fork", "instant-interrupt", "TUI", "worktrees"]
 copy_edited: true
 ---

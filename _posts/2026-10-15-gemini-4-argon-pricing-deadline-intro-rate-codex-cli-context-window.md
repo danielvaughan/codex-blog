@@ -1,11 +1,16 @@
 ---
-layout: post
 title: "Gemini 4 Argon's Pricing Deadline Is a Strategic Signal, Not Just a Discount"
-date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-18T01:07:15+01:00
-categories: [ai-models, pricing, google, codex-cli]
-tags: [gemini, google, pricing, context-window, multimodal, codex-cli]
+parent: "Articles"
 nav_order: 1182
+date: 2026-10-15T00:00:00+00:00
+last_modified_at: 2026-10-18T07:08:17+01:00
+tags:
+  - gemini
+  - google
+  - pricing
+  - context-window
+  - multimodal
+  - codex-cli
 ---
 
 # Gemini 4 Argon's Pricing Deadline Is a Strategic Signal, Not Just a Discount

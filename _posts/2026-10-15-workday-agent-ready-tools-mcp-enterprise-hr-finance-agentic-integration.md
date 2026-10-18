@@ -1,11 +1,17 @@
 ---
-layout: post
 title: "Workday's Agent-Ready Tools Turn Enterprise HR and Finance Data into MCP Resources"
-date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-18T01:07:15+01:00
-categories: [enterprise, mcp, agents, codex-cli]
-tags: [workday, mcp, enterprise, agents, hr, finance, codex-cli]
+parent: "Articles"
 nav_order: 1183
+date: 2026-10-15T00:00:00+00:00
+last_modified_at: 2026-10-18T07:08:17+01:00
+tags:
+  - workday
+  - mcp
+  - enterprise
+  - agents
+  - hr
+  - finance
+  - codex-cli
 ---
 
 # Workday's Agent-Ready Tools Turn Enterprise HR and Finance Data into MCP Resources
