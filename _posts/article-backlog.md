@@ -1,12 +1,28 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-19T10:28:06+01:00
+last_modified_at: 2026-10-19T19:09:19+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 19 October 2026 (Evening, Automated Hourly Run)
+
+*One article published 19 October. Directory now at 2,052 dated article files. Current stable: v0.163.0 (Oct 15). v0.164.0 alpha sprint complete through alpha.5.*
+
+**Published (19 October 2026):**
+- `2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.md` — Codex CLI v0.164.0 Alpha Preview: Agent Wake, Multi-Environment File Copy, and Observation Hooks. Covers all five alphas (Oct 16–19 2026): multi-env file copy opt-in, live MCP tool-list updates, typed prompt fragments, slash command prefix markers, agent wake feature flag, zstd WebSocket compression, catalog cache across credential rotation, observation-only lifecycle hooks, release pruning. ~1,850 words. Copy-edited: true.
+
+**Windows closed:** v0.164.0 alpha preview item cleared.
+
+**Next windows:**
+- v0.163.0 stable article (window closes ~Oct 25 — 6 days) — 🔴 Critical
+- v0.162.0 release notes (11 days overdue) — 🔴 Critical
+- v0.164.0 stable article (expected Oct 23–27) — watch
+
+---
 
 ## Article Triage — 17 October 2026 (Automated Hourly Run)
 
