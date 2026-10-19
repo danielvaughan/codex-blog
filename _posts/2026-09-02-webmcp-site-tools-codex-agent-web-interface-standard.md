@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1105
 title: "WebMCP Site Tools: How Codex Now Calls Your Web App Like an API"
 date: 2026-09-02T08:00:00+00:00
-last_modified_at: 2026-10-18T11:35:13+01:00
+last_modified_at: 2026-10-19T10:06:02+01:00
 tags: ["codex-cli", "webmcp", "site-tools", "mcp", "browser", "web-standard", "agent-integration"]
 ---
 
