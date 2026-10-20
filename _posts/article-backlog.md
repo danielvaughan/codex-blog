@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-20T15:05:34+01:00
+last_modified_at: 2026-10-20T18:07:58+01:00
 tags:
   - backlog
   - planning
@@ -14357,3 +14357,29 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 2. ✅ **Amazon Bedrock for GPT-6: Enterprise Teams Can Now Route Codex CLI Through AWS** — Written 2026-09-26 → `2026-09-26-amazon-bedrock-gpt-6-sol-luna-enterprise-codex-cli.md`
    - Note: v0.157.0 first stable GPT-6 on Bedrock milestone; covers Sol and Luna confirmed stable, Astra experimental (regional availability caveats); configuration block (`model_routing.provider`, `region`); AWS credential chain + TUI refresh progress; in-CLI migration prompts for GPT-5.x → GPT-6 upgrades; enterprise use cases (financial services FCA/DORA/OCC, healthcare HIPAA BAA, government FedRAMP GovCloud); three-tier routing strategy applies unchanged on Bedrock; rollout_budget accounting is provider-agnostic; practical note: don't switch region to chase Astra if data-residency is the reason you're on Bedrock; 5 citations (v0.157.0 release notes, AWS Bedrock GA blog, rollout-budget article, three-tier routing article, v0.148.0 Bedrock GA release notes); ~1,350 words; companion: Sol/Luna three-tier routing article (2026-09-25)
+
+---
+
+## Governance Artefact Gap — Where Accountability Lives, AI Coding Tools (2026-10-20 Article Rater)
+
+1. 📝 **Where Accountability Lives: The Governance Artefact Gap in AI Coding Tools** — Identified 2026-10-20 by article-rater skill (Toxic Flow re-rating, commit `0f225a4c`)
+   - Source: Lloyd et al. "Where Accountability Lives: Mapping Human Responsibility to Workflow Artifacts in Agentic Software Development" (arXiv:2608.15678, 2026) — qualitative analysis of 121 governance artefacts across four AI coding tools (Cursor, GitHub Copilot, Devin, Claude Code) and 18 policy documents from seven providers; inter-rater reliability Cohen's κ 0.81 and 0.75. Also: Toxic Flow (5.0, `2026-04-09`) — Verification Trap section now includes Lloyd [^284]; Complete Guide to Codex Security (#07, 4.6).
+   - Gap: No library article covers the governance-artefact layer of AI coding accountability. The Lloyd et al. finding reveals a structural gap that exists independently of any individual developer's behaviour: platform controls define what agents may do; provider terms assign who is responsible for outputs; the two layers do not reference each other; nothing records that the verification required by the terms has taken place. This is not a "best practices" gap — it is a documented structural absence in the governance infrastructure of the four most widely deployed AI coding tools.
+   - Key arguments: (1) The two-layer accountability gap (platform controls vs. provider terms); (2) The Cursor case study — terms assign verification to users, product records evaluation as approval, governance artefacts confirm nothing; (3) Merge-stage inconsistency across tools: two tools mandate human approval, one documents agent approval below risk thresholds, one provides advisory guidance only; (4) Implications for enterprise risk and compliance teams using AI coding tools under EU AI Act, SOX, or DORA obligations; (5) What a governance artefact that "records the duty discharged" would look like — proposed additions to AGENTS.md and PostToolUse logging
+   - Structural connection to existing library: extends Verification Trap (Toxic Flow 5.0), PostToolUse Audit Logging (3.9), The Audit Trail You Don't Have (4.3), and Complete Guide to Codex Security (4.6). Natural premium companion to the Audit Trail article.
+   - Target audience: engineering leads, compliance teams, CISOs at enterprises deploying AI coding tools
+   - Priority: High — peer-reviewed primary source published 2026; Lloyd et al. is currently the only study examining governance artefacts across multiple major tools; compliance teams are actively looking for this material in the lead-up to EU AI Act enforcement.
+   - SEO targets: "AI coding tools governance accountability gap 2026", "where accountability lives agentic software development", "cursor github copilot devin claude code governance artefacts", "AI coding compliance EU AI Act DORA SOX accountability", "AGENTS.md governance audit trail duty discharged"
+
+---
+
+## Three-Layer Supervision Playbook — Review Bottleneck, Torres et al. ESEM 2026 (2026-10-20 Article Rater)
+
+1. 📝 **Why Review Alone Can't Scale: The Three-Layer Supervision Playbook** — Identified 2026-10-20 by article-rater skill (Toxic Flow re-rating, commit `0f225a4c`)
+   - Source: Torres et al. "When Review Alone No Longer Scales: Layered Supervision in AI-Assisted Software Engineering" (arXiv:2608.26316, ESEM 2026) — practitioner interviews and survey; converges independently with Kang's GAIE Oversight Classification Model (arXiv:2606.22484); Toxic Flow (5.0) — Mitigation section now includes Torres [^285]; Review Bottleneck Playbook (existing backlog item, Medium priority).
+   - Gap: The backlog already contains "The Review Bottleneck Playbook" (Medium priority, identified from Chen/Stratton/Kochhar/BairesDev evidence base). Torres et al. (ESEM 2026) provides the central empirical framework that was missing from that backlog item — a practitioner-sourced, peer-reviewed three-layer structure. The gap is now an article, not a data gap.
+   - Key arguments: (1) Why single-layer human review fails under AI-generated volume — not a skills problem, a structural throughput problem; (2) The three-layer supervision model: preventive guardrails (machine-readable architectural standards agents follow) → executable guardrails (testing, linting, CI/CD repurposed as scalable supervision) → human oversight focused on architectural reasoning and long-term maintainability; (3) Independent convergence with Kang's GAIE framework — two research programmes reaching the same three-layer structure signals a stable finding; (4) Practical implementation: which layer absorbs which categories of defect; how to configure Codex CLI's Guardian subagent, AGENTS.md exclusion zones, and CI/CD hooks to implement layers 1–2; (5) Where human attention belongs in a three-layer system: the architectural judgments that only humans can make
+   - Structural connection: directly upgrades the "Review Bottleneck Playbook" backlog item; complements Toxic Flow Mitigation section (5.0), The Invisible Validator Burden (4.6), TDAD and the Testing Revolution (#04, 5.0), and The AGENTS.md Playbook (#05, 5.0)
+   - Note: If the Review Bottleneck Playbook backlog item is taken up, this article should supersede it rather than run in parallel.
+   - Priority: High — ESEM 2026 paper provides the empirical backbone that the prior backlog item lacked; Torres + GAIE convergence is a strong structural hook; immediately actionable for teams currently experiencing review bottlenecks
+   - SEO targets: "review bottleneck AI coding 2026 solution", "three layer supervision AI assisted software engineering", "when review alone no longer scales Torres ESEM 2026", "preventive executable human oversight AI coding guardrails", "codex cli guardian subagent review layer configuration"
