@@ -2,7 +2,7 @@
 title: "Codex CLI v0.164.0 Alpha Preview: Agent Wake, Multi-Environment File Copy, and Observation Hooks"
 parent: "Articles"
 date: 2026-10-19T17:00:00+00:00
-last_modified_at: 2026-10-20T11:04:00+01:00
+last_modified_at: 2026-10-20T15:05:34+01:00
 nav_order: 1189
 tags: ["codex-cli", "v0.164.0", "alpha", "agent-wake", "multi-environment", "observation-hooks", "mcp", "websockets", "release-notes"]
 copy_edited: true

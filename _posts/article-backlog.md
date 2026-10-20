@@ -1,12 +1,34 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-20T11:04:00+01:00
+last_modified_at: 2026-10-20T15:05:34+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 20 October 2026 (Third Automated Hourly Run)
+
+*No new articles since previous run. Directory at 2,053 dated article files. README counts verified correct (articles: 2,053, premium: 123, notes: 1,211, sketchnotes: 1,206, substack-drafts: 253). Repo clean.*
+
+**Status:** No new publishable work. All counts accurate.
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing
+
+Neither article has a sketchnote image reference embedded yet. Both will need visual brief generation + image generation before Substack promotion.
+
+**Structural issues (carried forward):**
+- Duplicate premium article #16 numbering — awaiting Daniel's decision on renaming convention
+
+**Next windows:**
+- v0.163.0 stable article (Critical — window ~Oct 25–Nov 1) — not yet written
+- v0.164.0 stable (expected Oct 23–27) — monitor
+- v0.165.0 alpha sprint — monitor
+
+---
 
 
 ## Article Triage — 20 October 2026 (Second Automated Hourly Run)
