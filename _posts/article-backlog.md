@@ -1,12 +1,28 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-20T03:12:40+01:00
+last_modified_at: 2026-10-20T07:05:16+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 20 October 2026 (Automated Hourly Run)
+
+*One article published 20 October (v0.162.0 retroactive release notes). Directory now at 2,053 dated article files. Current stable: v0.163.0 (Oct 15). v0.164.0 alpha sprint active.*
+
+**Published (20 October 2026):**
+- `2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.md` — Codex CLI v0.162.0 Stable: VS Code Stuck-Prompt Fix, Windows Hardening, and TUI Task Details. Covers the VS Code extension `"undefined"` JSON serialisation root cause and 3–8 Oct impact window, Windows ACL recovery, junction fallback, daemon file-lock retries, Windows Terminal Shift+Enter fix, TUI task details repositioning, archive mid-turn, server reasoning defaults, remote-control daemon reuse, Codex Cloud environment persistence fix, and v0.162.1 patch. ~1,450 words. Copy-edited: true.
+
+**Windows cleared:** v0.162.0 release notes item resolved (was 12 days overdue).
+
+**Next windows:**
+- v0.163.0 stable article — already published as `2026-10-16-codex-v0163-stable-release-config-follow-up-parallel-tools-daybreak.md` — window cleared
+- v0.164.0 stable article (expected Oct 23–27) — watch
+- v0.164.0 alpha sprint: alphas 4–6 published 20 October per KB entry
+
+---
 
 ## Article Triage — 19 October 2026 (Evening, Automated Hourly Run)
 
