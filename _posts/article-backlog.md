@@ -1,13 +1,31 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-20T10:25:50+01:00
+last_modified_at: 2026-10-20T11:04:00+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
 
+
+## Article Triage — 20 October 2026 (Second Automated Hourly Run)
+
+*No new articles since previous run. Directory at 2,053 dated article files. Repo clean. Current stable: v0.163.0 (Oct 15). v0.164.0 alpha sprint active through alpha.6.*
+
+**Status:** No publishable work pending. All article windows cleared.
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing
+- `2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing
+
+Both Substack drafts have embedded sketchnote placeholder comments ready for image insertion once generated.
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23-27) — watch
+- v0.165.0 alpha sprint — monitor
+
+---
 ## Article Triage — 20 October 2026 (Automated Hourly Run)
 
 *One article published 20 October (v0.162.0 retroactive release notes). Directory now at 2,053 dated article files. Current stable: v0.163.0 (Oct 15). v0.164.0 alpha sprint active.*
