@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.162.0 Stable: VS Code Stuck-Prompt Fix, Windows Hardening, and TUI Task Details"
 date: 2026-10-20T08:00:00+00:00
-last_modified_at: 2026-10-21T07:04:12+01:00
+last_modified_at: 2026-10-21T08:21:29+01:00
 parent: "Articles"
 nav_order: 1190
 tags:
@@ -17,6 +17,8 @@ copy_edited: true
 ---
 
 # Codex CLI v0.162.0 Stable: VS Code Stuck-Prompt Fix, Windows Hardening, and TUI Task Details
+
+![Sketchnote diagram for: Codex CLI v0.162.0 Stable: VS Code Stuck-Prompt Fix, Windows Hardening, and TUI Task Details](/sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png)
 
 **Release date:** 8 October 2026
 **Version:** v0.162.0 stable (followed by v0.162.1 patch, 9 October 2026)
