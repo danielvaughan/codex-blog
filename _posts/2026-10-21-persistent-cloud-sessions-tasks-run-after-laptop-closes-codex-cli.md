@@ -1,7 +1,7 @@
 ---
 title: "Persistent Cloud Sessions: What 'Tasks Run After the Laptop Closes' Actually Means"
 date: 2026-10-21T08:00:00+00:00
-last_modified_at: 2026-10-21T11:07:15+01:00
+last_modified_at: 2026-10-21T11:33:58+01:00
 parent: "Articles"
 nav_order: 1194
 tags:
@@ -95,13 +95,13 @@ The AGENTS.md file is the primary tool for making unattended sessions safe. Four
 
 **Define a completion criterion, not just a goal.** Instead of:
 
-```
+```text
 Goal: Refactor the authentication module.
 ```
 
 Write:
 
-```
+```text
 Goal: Refactor the authentication module.
 Completion criterion: All tests in auth/__tests__/ pass with `npm test -- --testPathPattern=auth`.
   No new TypeScript errors in `tsc --noEmit`. PR opened as draft against `main`.
@@ -142,7 +142,7 @@ When you reconnect after 8 hours, `cat TASK-LOG.jsonl` gives you a structured ac
 
 **Set a conservative token budget per step.** Recursive or exploratory tasks can burn tokens on intermediate work that contributes little to the goal. Setting a per-step budget in AGENTS.md forces the agent to be economical:
 
-```
+```yaml
 max_tokens_per_step: 4000
 on_budget_exceeded: stop_and_summarise
 ```
