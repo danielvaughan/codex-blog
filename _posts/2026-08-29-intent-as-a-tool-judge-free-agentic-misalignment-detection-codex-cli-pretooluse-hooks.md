@@ -1,7 +1,7 @@
 ---
 title: "INTENT-AS-A-TOOL: Judge-Free Intent Signals for Intercepting Agentic Misalignment"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-10-20T18:07:58+01:00
+last_modified_at: 2026-10-21T01:05:17+01:00
 tags: ["agent-safety", "misalignment", "hooks", "pretooluse", "chain-of-thought", "intervention", "codex-cli"]
 ---
 
