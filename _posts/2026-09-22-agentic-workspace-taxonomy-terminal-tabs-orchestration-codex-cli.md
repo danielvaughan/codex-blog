@@ -3,7 +3,7 @@ title: "Agentic Workspace Taxonomy: From Terminal Tabs to Purpose-Built Orchestr
 parent: "Articles"
 nav_order: 1164
 date: 2026-09-22T08:00:00+00:00
-last_modified_at: 2026-10-21T08:21:29+01:00
+last_modified_at: 2026-10-21T09:05:28+01:00
 tags: ["codex-cli", "multi-agent", "orchestration", "workflow", "productivity", "tooling", "agentic", "context-management"]
 ---
 

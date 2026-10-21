@@ -1,7 +1,7 @@
 ---
 title: "MCP 2026-07-28: The Stateless Protocol Revolution and What It Means for Your Codex CLI Tool Stack"
 date: 2026-08-31T17:30:00+00:00
-last_modified_at: 2026-10-21T08:21:29+01:00
+last_modified_at: 2026-10-21T09:05:28+01:00
 tags: ["codex-cli", "mcp", "protocol", "v0.147", "streamable-http", "stateless", "migration"]
 ---
 

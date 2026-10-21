@@ -1,12 +1,37 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-21T08:21:29+01:00
+last_modified_at: 2026-10-21T09:05:28+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 21 October 2026 (Fifth Automated Hourly Run)
+
+*No new Codex CLI releases or changelog entries since fourth pass. Repo clean at `d4043807` (08:21 UTC+1). High-priority article written: "Persistent Cloud Sessions: What 'Tasks Run After the Laptop Closes' Actually Means" — sourced from Cooking with Codex Ep. 1 video + 12-hour prompt caching (Day 16) + v0.164.0 observation hooks.*
+
+**Status:** Articles: 2,054. Notes: 1,130. Premium: 123. Substack drafts: 253. Sketchnote PNGs: 916.
+
+**Done this pass:**
+- `articles/2026-10-21-persistent-cloud-sessions-tasks-run-after-laptop-closes-codex-cli.md` — written; covers session persistence model, cost model, supervision gap, failure modes, AGENTS.md patterns, observation hooks
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-21-persistent-cloud-sessions-tasks-run-after-laptop-closes-codex-cli.png` — missing (new)
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing (carried forward; previously added as placeholder in d4043807)
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing (carried forward; previously added as placeholder in d4043807)
+
+**Next high-priority articles (from article-ideas.md):**
+- "The Software Factory Mental Model: When One-Shot Prompts Become a Liability" — Guo & Chua, AIEWF 2026
+- "Hooks as Checkpoints: Preventing Silent Failures in Multi-Step Codex Pipelines" — Guo & Chua, AIEWF 2026
+- "Subagents with Verifiable Goals: Moving from Vague Instructions to Auditable Completion" — Guo & Chua, AIEWF 2026
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.8 is latest
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+
+---
 
 ## Article Triage — 21 October 2026 (Fourth Automated Hourly Run)
 
