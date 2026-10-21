@@ -1,7 +1,7 @@
 ---
 title: "AgentExecutor and the Missing Context Problem: What Multi-Agent Partial Code Execution Means for Your Codex CLI Sandbox Strategy"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-10-21T05:15:28+01:00
+last_modified_at: 2026-10-21T07:04:12+01:00
 tags: ["codex-cli", "sandbox", "code-execution", "AgentExecutor", "ASE-2026", "partial-code", "environment-management", "multi-agent", "context-generation"]
 ---
 

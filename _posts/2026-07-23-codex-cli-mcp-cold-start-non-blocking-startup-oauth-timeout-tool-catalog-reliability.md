@@ -1,7 +1,7 @@
 ---
 title: "The MCP Cold-Start Problem: How Codex CLI v0.145 Stopped Optional Servers from Holding Your Session Hostage"
 date: 2026-07-23T09:00:00+00:00
-last_modified_at: 2026-10-21T05:15:28+01:00
+last_modified_at: 2026-10-21T07:04:12+01:00
 tags: ["codex-cli", "mcp", "cold-start", "performance", "oauth", "timeout", "reliability", "v0.145"]
 ---
 

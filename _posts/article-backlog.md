@@ -1,12 +1,30 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-21T05:15:28+01:00
+last_modified_at: 2026-10-21T07:04:12+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 21 October 2026 (Fourth Automated Hourly Run)
+
+*KB commit `e6082aad` (06:32 UTC+1) captured alpha.7/alpha.8 MCP OAuth overhaul — MCP OAuth refresh now default, six-PR enterprise auth batch, cross-session tool definition caching (PR #55724). No new releases, articles, or changelog entries since third pass. Repo clean.*
+
+**Status:** Articles: 2,053. Notes: 1,130. Premium: 123. Substack drafts: 253. Sketchnote PNGs: 916. No new publishable work.
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.8 is latest
+- "Where Accountability Lives: Governance Artefact Gap" — High priority (Lloyd et al. arXiv:2608.15678)
+- "Why Review Alone Can't Scale: Three-Layer Supervision Playbook" — High priority (Torres et al. ESEM 2026)
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+
+---
 
 ## Article Triage — 21 October 2026 (Third Automated Hourly Run)
 

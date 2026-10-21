@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.147.0: --approve-for-me, MCP 2026-07-28 Protocol, Project Trust Gates, and the End of --full-auto"
 date: 2026-08-07T09:00:00+00:00
-last_modified_at: 2026-10-21T05:15:28+01:00
+last_modified_at: 2026-10-21T07:04:12+01:00
 tags: ["codex-cli", "v0.147.0", "release", "mcp", "approve-for-me", "project-trust", "plugin-search", "secrets-redaction", "security"]
 ---
 

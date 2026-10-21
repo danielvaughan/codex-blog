@@ -1,7 +1,7 @@
 ---
 title: "Why Retrying Fails: What Context Contamination Means for Your Codex CLI Retry Strategy"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-10-21T05:15:28+01:00
+last_modified_at: 2026-10-21T07:04:12+01:00
 tags: ["codex-cli", "context-contamination", "retry-strategy", "CCRM", "session-management", "context-compaction", "session-forking", "token-budget"]
 ---
 
