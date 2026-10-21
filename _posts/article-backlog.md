@@ -1,12 +1,38 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-21T03:15:43+01:00
+last_modified_at: 2026-10-21T05:15:28+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 21 October 2026 (Third Automated Hourly Run)
+
+*Two productive passes since second triage. Fact-check pass (03:15 UTC+1) corrected three errors across two Oct articles (v0.162.0 DevDay date, v0.164.0 alpha trajectory phrasing + added alpha.7/alpha.8 sprint rows). YT-curator sweep (05:10 UTC+1) confirmed "Cooking with Codex: Ep. 1" (OpenAI, published 2026-10-19): voice input, agent management, worktree forking, cloud persistence, 8-bit game sprint. Day 17 (21 Oct) pending at time of sweep. v0.164.0 alpha now at alpha.8 (Oct 20, 22:15 UTC).*
+
+**Status:** Repo clean. Articles: 2,053. Notes: 1,130 (+1 from Oct 20). No new publishable articles pending.
+
+**Done since second pass:**
+- `3c45d511` — fact-check: 3 errors fixed across v0.162.0 and v0.164.0 alpha preview articles
+- `0684c56f` — yt-curator: Cooking with Codex Ep. 1 confirmed; sketchnote + visual brief + transcript stub added; 4 article ideas logged
+
+**New article ideas (from Cooking with Codex Ep. 1 — see notes/article-ideas.md):**
+- "Persistent Cloud Sessions: What 'Tasks Run After the Laptop Closes' Actually Means" — **High priority**
+- "Worktree Forking as a Conversation Branch: When to Split Sessions Rather Than Continue" — High priority
+- "The 'Cooking with Codex' Series as Product Signal" — Medium priority
+- "8-bit Game in One Session: What the Sprint Reveals About Agentic Scope Management" — Medium priority
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.8 is latest
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+
+---
 
 ## Article Triage — 21 October 2026 (Second Automated Hourly Run)
 

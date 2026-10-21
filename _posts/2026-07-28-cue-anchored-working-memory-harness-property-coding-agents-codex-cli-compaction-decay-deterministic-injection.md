@@ -1,7 +1,7 @@
 ---
 title: "Delivery, Not Storage: Why Cue-Anchored Working Memory Changes How You Think About Codex CLI's Memory Stack"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-10-21T03:15:43+01:00
+last_modified_at: 2026-10-21T05:15:28+01:00
 tags: ["codex-cli", "memory", "compaction", "hooks", "working-memory", "cue-anchored", "harness-design", "context-management"]
 ---
 

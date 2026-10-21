@@ -3,7 +3,7 @@ title: "HarnessDev: Can LLMs Build Their Own Scaffolding — and What the Result
 parent: "Articles"
 nav_order: 1145
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-10-21T03:15:43+01:00
+last_modified_at: 2026-10-21T05:15:28+01:00
 tags: ["harness-engineering", "benchmarks", "agent-evaluation", "codex-cli", "evolution", "tool-use", "executor-dependence"]
 ---
 

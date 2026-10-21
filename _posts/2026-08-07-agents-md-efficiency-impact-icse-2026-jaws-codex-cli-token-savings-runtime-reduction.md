@@ -1,7 +1,7 @@
 ---
 title: "AGENTS.md Pays for Itself: What the ICSE 2026 JAWs Efficiency Study Means for Your Codex CLI Token Budget"
 date: 2026-08-07T09:00:00+00:00
-last_modified_at: 2026-10-21T03:15:43+01:00
+last_modified_at: 2026-10-21T05:15:28+01:00
 tags: ["AGENTS.md", "efficiency", "token-savings", "runtime", "ICSE-2026", "codex-cli", "research", "configuration"]
 ---
 
