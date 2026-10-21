@@ -1,12 +1,44 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-21T13:05:30+01:00
+last_modified_at: 2026-10-21T18:09:22+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 21 October 2026 (Eighth Automated Hourly Run)
+
+*Two high-priority articles written this pass: "Hooks as Checkpoints: Preventing Silent Failures in Multi-Step Codex Pipelines" and "Subagents with Verifiable Goals: Moving from Vague Instructions to Auditable Completion" — completing the three-part Guo & Chua AIEWF 2026 series. All three Guo/Chua articles now written.*
+
+**Status:** Articles: 2,062. Notes: 1,130. Premium: 123. Substack drafts: 253. Sketchnote PNGs: 916 (+ 2 placeholders added this pass).
+
+**Done this pass:**
+- `articles/2026-10-21-hooks-as-checkpoints-preventing-silent-failures-multi-step-codex-pipelines-aiewf-2026.md` — written; covers PostToolUse/PreToolUse/Observation hook types, checkpoint pattern, worked HTML-conversion example, observation vs validation hook selection, hook design for long-running pipelines (speed, specificity, logging), AGENTS.md wiring
+- `articles/2026-10-21-subagents-with-verifiable-goals-vague-instructions-auditable-completion-codex-cli-aiewf-2026.md` — written; covers what makes a goal verifiable, Command Centre visible progress, three completion-criterion patterns (exit code, file assertion, AGENTS.md assertion block), audit trail via observation hooks, failure modes (over-specification, criterion drift, verifying the wrong thing), coordinator integration
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-21-hooks-as-checkpoints-preventing-silent-failures-multi-step-codex-pipelines-aiewf-2026.png` — placeholder created (new)
+- `sketchnotes/articles/2026-10-21-subagents-with-verifiable-goals-vague-instructions-auditable-completion-codex-cli-aiewf-2026.png` — placeholder created (new)
+- `sketchnotes/articles/2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-persistent-cloud-sessions-tasks-run-after-laptop-closes-codex-cli.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing (carried forward)
+
+**Guo/Chua AIEWF 2026 series: COMPLETE.** All three articles written:
+1. `2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.md`
+2. `2026-10-21-hooks-as-checkpoints-preventing-silent-failures-multi-step-codex-pipelines-aiewf-2026.md`
+3. `2026-10-21-subagents-with-verifiable-goals-vague-instructions-auditable-completion-codex-cli-aiewf-2026.md`
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.8 is latest
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+- Medium-priority article ideas from Oct 21 sweep still available: "Cooking with Codex Series as Product Signal", "Worktree Forking as a Conversation Branch", "The Ultrafast Sprint Pattern", "Remote Threads: The Heartbeat Automation Pattern"
+
+---
 
 ## Article Triage — 21 October 2026 (Seventh Automated Hourly Run)
 
@@ -14522,7 +14554,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 ## Governance Artefact Gap — Where Accountability Lives, AI Coding Tools (2026-10-20 Article Rater)
 
-1. 📝 **Where Accountability Lives: The Governance Artefact Gap in AI Coding Tools** — Identified 2026-10-20 by article-rater skill (Toxic Flow re-rating, commit `0f225a4c`)
+1. ✅ **Where Accountability Lives: The Governance Artefact Gap in AI Coding Tools** — Written 2026-10-21 → `2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.md` (rated 4.6)
    - Source: Lloyd et al. "Where Accountability Lives: Mapping Human Responsibility to Workflow Artifacts in Agentic Software Development" (arXiv:2608.15678, 2026) — qualitative analysis of 121 governance artefacts across four AI coding tools (Cursor, GitHub Copilot, Devin, Claude Code) and 18 policy documents from seven providers; inter-rater reliability Cohen's κ 0.81 and 0.75. Also: Toxic Flow (5.0, `2026-04-09`) — Verification Trap section now includes Lloyd [^284]; Complete Guide to Codex Security (#07, 4.6).
    - Gap: No library article covers the governance-artefact layer of AI coding accountability. The Lloyd et al. finding reveals a structural gap that exists independently of any individual developer's behaviour: platform controls define what agents may do; provider terms assign who is responsible for outputs; the two layers do not reference each other; nothing records that the verification required by the terms has taken place. This is not a "best practices" gap — it is a documented structural absence in the governance infrastructure of the four most widely deployed AI coding tools.
    - Key arguments: (1) The two-layer accountability gap (platform controls vs. provider terms); (2) The Cursor case study — terms assign verification to users, product records evaluation as approval, governance artefacts confirm nothing; (3) Merge-stage inconsistency across tools: two tools mandate human approval, one documents agent approval below risk thresholds, one provides advisory guidance only; (4) Implications for enterprise risk and compliance teams using AI coding tools under EU AI Act, SOX, or DORA obligations; (5) What a governance artefact that "records the duty discharged" would look like — proposed additions to AGENTS.md and PostToolUse logging
@@ -14535,7 +14567,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 
 ## Three-Layer Supervision Playbook — Review Bottleneck, Torres et al. ESEM 2026 (2026-10-20 Article Rater)
 
-1. 📝 **Why Review Alone Can't Scale: The Three-Layer Supervision Playbook** — Identified 2026-10-20 by article-rater skill (Toxic Flow re-rating, commit `0f225a4c`)
+1. ✅ **Why Review Alone Can't Scale: The Three-Layer Supervision Playbook** — Written 2026-10-21 → `2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.md` (rated 4.8, premium-grade)
    - Source: Torres et al. "When Review Alone No Longer Scales: Layered Supervision in AI-Assisted Software Engineering" (arXiv:2608.26316, ESEM 2026) — practitioner interviews and survey; converges independently with Kang's GAIE Oversight Classification Model (arXiv:2606.22484); Toxic Flow (5.0) — Mitigation section now includes Torres [^285]; Review Bottleneck Playbook (existing backlog item, Medium priority).
    - Gap: The backlog already contains "The Review Bottleneck Playbook" (Medium priority, identified from Chen/Stratton/Kochhar/BairesDev evidence base). Torres et al. (ESEM 2026) provides the central empirical framework that was missing from that backlog item — a practitioner-sourced, peer-reviewed three-layer structure. The gap is now an article, not a data gap.
    - Key arguments: (1) Why single-layer human review fails under AI-generated volume — not a skills problem, a structural throughput problem; (2) The three-layer supervision model: preventive guardrails (machine-readable architectural standards agents follow) → executable guardrails (testing, linting, CI/CD repurposed as scalable supervision) → human oversight focused on architectural reasoning and long-term maintainability; (3) Independent convergence with Kang's GAIE framework — two research programmes reaching the same three-layer structure signals a stable finding; (4) Practical implementation: which layer absorbs which categories of defect; how to configure Codex CLI's Guardian subagent, AGENTS.md exclusion zones, and CI/CD hooks to implement layers 1–2; (5) Where human attention belongs in a three-layer system: the architectural judgments that only humans can make
@@ -14543,3 +14575,35 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Note: If the Review Bottleneck Playbook backlog item is taken up, this article should supersede it rather than run in parallel.
    - Priority: High — ESEM 2026 paper provides the empirical backbone that the prior backlog item lacked; Torres + GAIE convergence is a strong structural hook; immediately actionable for teams currently experiencing review bottlenecks
    - SEO targets: "review bottleneck AI coding 2026 solution", "three layer supervision AI assisted software engineering", "when review alone no longer scales Torres ESEM 2026", "preventive executable human oversight AI coding guardrails", "codex cli guardian subagent review layer configuration"
+
+---
+
+## Agent Wake: The Orchestration Primitive — v0.164.0 Stable (2026-10-21 Article Rater)
+
+1. 📝 **Agent Wake: The Orchestration Primitive That Changes Multi-Session Workflows** — Identified 2026-10-21 by article-rater skill (v0.164.0 alpha preview re-read)
+   - Source: Commit 8c07694 (alishobeiri-oai), "Allow agent messages to wake idle root sessions (behind feature flag)"; v0.164.0 Alpha Preview article (4.0); Persistent Cloud Sessions (4.2); Software Factory Mental Model (4.2); Loop Engineering (4.8).
+   - Gap: Agent wake is the architectural primitive that makes long-running multi-agent orchestration practical without keeping a root session alive indefinitely. The alpha preview article covers it in one section. A standalone article at stable will serve the practitioners who need to understand the session lifecycle, the agent wake trigger contract, and the failure modes (idle timeout, wake race conditions, credential expiry during idle period). The config.toml key (`features.agent_wake`) is not yet public — will be documented in v0.164.0 stable release notes.
+   - Key arguments: (1) The architectural shift: from user-initiated to agent-initiated session resumption; (2) How agent wake connects to the persistent cloud session model and the software factory pipeline; (3) Practical workflow patterns: overnight orchestration with morning resume, sequential multi-agent handoff (research → synthesis → implementation), monitoring agent triggering an intervention session; (4) Safety considerations: what constraints apply to an agent that wakes a root session? Does the woken session inherit the waking agent's approval policy? (5) Configuration and failure modes.
+   - Priority: 🔴 Critical — publish within 48 hours of v0.164.0 stable tag (expected Oct 23–27). Time-sensitive: agent wake is the most architecturally significant feature in the release and will generate immediate search demand.
+   - SEO targets: "codex cli agent wake feature v0.164 2026", "agent initiated session resumption codex cli", "multi-session orchestration codex cli agent wake", "codex cli overnight multi-agent workflow agent wake", "features.agent_wake config.toml codex cli"
+
+---
+
+## Multi-Session Handoff Practitioner Guide — ctx-kit, estafeta, Sequential Agent Pipelines (2026-10-21 Article Rater)
+
+1. 📝 **Multi-Session Handoff: A Practitioner's Guide to ctx-kit, estafeta, and Sequential Agent Pipelines** — Identified 2026-10-21 by article-rater skill (Community Agent Handoff article)
+   - Source: Community Agent Handoff article (3.8); ctx-kit npm package; estafeta npm package; Software Factory Mental Model (4.2); Subagents with Verifiable Goals (4.3); Codex CLI v0.164.0 Agent Wake (backlog item above).
+   - Gap: The community article surveys the landscape. A practitioner guide goes deeper: full worked examples for a three-stage research → synthesis → implementation pipeline using estafeta, with ctx-kit bundle format documented in detail, failure pattern library integration at each stage boundary, and hooks-as-checkpoints (4.3) as the validation mechanism at relay points. The sequential multi-agent gap (Codex native multi-agent is parallel-only) is the structural finding this article should open with.
+   - Key arguments: (1) Why parallel multi-agent is not enough — the sequential dependency problem; (2) estafeta pipeline definition with full YAML and JSON Schema contracts for each stage; (3) ctx-kit bundle format — what to include, what to exclude, how to make handoffs deterministic; (4) Failure pattern library as the knowledge layer at each relay point; (5) How agent wake (v0.164.0) makes this practical for overnight sequential workflows.
+   - Priority: 🟠 High — complements the community article (3.8) with depth. Naturally timed after v0.164.0 stable (agent wake is the completion primitive for sequential pipelines). Premium candidate.
+   - SEO targets: "multi-session agent handoff codex cli ctx-kit estafeta 2026", "sequential multi-agent pipeline codex cli", "estafeta relay pattern codex cli pipeline", "ctx-kit context bundle multi-agent codex", "codex cli agent pipeline handoff sequential workflow"
+
+---
+
+## AIEWF 2026 Synthesis — Guo and Chua Cooking with Codex Five Lessons (2026-10-21 Article Rater)
+
+1. 📝 **AIEWF 2026 Synthesis: Five Lessons from Guo and Chua's Cooking with Codex Workshop** — Identified 2026-10-21 by article-rater skill
+   - Source: Software Factory Mental Model (4.2); Hooks as Checkpoints (4.3); Subagents with Verifiable Goals (4.3). All three drawn from Charlie Guo & Gabriel Chua, "Cooking with Codex," AIEWF 2026 (youtube.com/watch?v=FwiS44-xyYw, 2026-10-06).
+   - Gap: Three individual articles now exist from the workshop. A synthesis piece distils the five core principles — (1) the pipeline over the prompt, (2) the verifiable completion criterion, (3) the checkpoint at each stage boundary, (4) observation before validation, (5) the supervision interval — and explains how they form a coherent system. Functions as an entry point for readers who find any of the three individual articles and want the full picture. Also appropriate as a Substack newsletter piece linking all three.
+   - Priority: 🟡 Medium — lower urgency than agent wake; synthesis articles have long shelf life. Suitable for a quieter writing window.
+   - SEO targets: "AIEWF 2026 cooking with codex guo chua workshop", "codex cli pipeline best practices 2026", "verifiable completion criterion codex cli subagent", "software factory model codex cli agentic workflow"
