@@ -1,7 +1,7 @@
 ---
 title: "TraceML: Why Coding Agents Collapse Into Narrow Loops in ML Development — and How to Configure Codex CLI for Strategic Versatility"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-10-21T10:08:23+01:00
+last_modified_at: 2026-10-21T11:07:15+01:00
 tags: ["codex-cli", "machine-learning", "planning", "agents", "strategy", "benchmark", "ml-engineering", "configuration"]
 ---
 

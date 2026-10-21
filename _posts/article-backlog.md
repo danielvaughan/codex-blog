@@ -1,12 +1,40 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-21T10:08:23+01:00
+last_modified_at: 2026-10-21T11:07:15+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 21 October 2026 (Sixth Automated Hourly Run)
+
+*Two high-priority research articles written this pass: Torres et al. ESEM 2026 (three-layer supervision) and Lloyd et al. arXiv:2608.15678 (governance artefact gap). Both identified in fourth/fifth triage passes from the article-rater run on 20 October.*
+
+**Status:** Articles: 2,059. Notes: 1,130. Premium: 123. Substack drafts: 253. Sketchnote PNGs: 916 (+ 2 placeholders added this pass).
+
+**Done this pass:**
+- `articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.md` — written; Torres et al. arXiv:2608.26316 + Kang GAIE arXiv:2606.22484; three-layer model (preventive guardrails → executable guardrails → human judgment); Codex CLI implementation patterns for each layer; PostToolUse hooks, AGENTS.md completion criteria, Guardian subagent
+- `articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.md` — written; Lloyd et al. arXiv:2608.15678; two-layer accountability gap (platform controls vs provider terms); Cursor case study; merge-stage inconsistency across Cursor/Copilot/Devin/Claude Code; EU AI Act/SOX/DORA implications; five-element governance artefact proposal; Codex CLI implementation via PostToolUse logging, TASK-REVIEW.md, branch protection
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png` — placeholder created (new)
+- `sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png` — placeholder created (new)
+- `sketchnotes/articles/2026-10-21-persistent-cloud-sessions-tasks-run-after-laptop-closes-codex-cli.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing (carried forward)
+
+**Next high-priority articles (from article-ideas.md):**
+- "The Software Factory Mental Model: When One-Shot Prompts Become a Liability" — Guo & Chua, AIEWF 2026
+- "Hooks as Checkpoints: Preventing Silent Failures in Multi-Step Codex Pipelines" — Guo & Chua, AIEWF 2026
+- "Subagents with Verifiable Goals: Moving from Vague Instructions to Auditable Completion" — Guo & Chua, AIEWF 2026
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.8 is latest
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+
+---
 
 ## Article Triage — 21 October 2026 (Fifth Automated Hourly Run)
 
