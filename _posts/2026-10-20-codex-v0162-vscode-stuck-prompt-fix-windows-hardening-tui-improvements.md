@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.162.0 Stable: VS Code Stuck-Prompt Fix, Windows Hardening, and TUI Task Details"
 date: 2026-10-20T08:00:00+00:00
-last_modified_at: 2026-10-21T03:04:26+01:00
+last_modified_at: 2026-10-21T03:15:43+01:00
 parent: "Articles"
 nav_order: 1190
 tags:
@@ -115,14 +115,14 @@ The day after v0.162.0 stable, a targeted patch release addressed two regression
 Several items that were in active development during the v0.162.0 alpha sprint did not reach stable in this cycle:
 
 - **`/agents` parallel task view** — present in alpha builds but not confirmed stable in v0.162.0
-- **Cross-device Cloud Environments** — announced at DevDay (8 October) but not part of the v0.162.0 release
+- **Cross-device Cloud Environments** — announced at DevDay (29 September) but not part of the v0.162.0 release
 - **OSC 7501 terminal completion states** — landed in v0.163.0
 
 ---
 
 ## Context: DevDay 2026 Timing
 
-v0.162.0 shipped on the same day as OpenAI DevDay 2026 (8 October). The two events are independent — v0.162.0 was driven entirely by the VS Code regression fix sprint, not by DevDay announcements. The DevDay features (Codex Cloud cross-device environments, the `/agents` view, Code Review, and Security Cloud) are tracked in the [DevDay 2026 recap](../2026-10-08-openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud/) and shipped across subsequent releases.
+v0.162.0 shipped on 8 October, nine days after OpenAI DevDay 2026 (29 September, San Francisco). The two events are independent — v0.162.0 was driven entirely by the VS Code regression fix sprint, not by DevDay announcements. The DevDay features (Codex Cloud cross-device environments, the `/agents` view, Code Review, and Security Cloud) are tracked in the [DevDay 2026 recap](../2026-10-08-openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud/) and shipped across subsequent releases.
 
 ---
 

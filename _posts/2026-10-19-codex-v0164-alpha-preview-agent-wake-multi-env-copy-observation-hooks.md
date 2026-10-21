@@ -2,7 +2,7 @@
 title: "Codex CLI v0.164.0 Alpha Preview: Agent Wake, Multi-Environment File Copy, and Observation Hooks"
 parent: "Articles"
 date: 2026-10-19T17:00:00+00:00
-last_modified_at: 2026-10-21T03:04:26+01:00
+last_modified_at: 2026-10-21T03:15:43+01:00
 nav_order: 1189
 tags: ["codex-cli", "v0.164.0", "alpha", "agent-wake", "multi-environment", "observation-hooks", "mcp", "websockets", "release-notes"]
 copy_edited: true
@@ -13,9 +13,9 @@ copy_edited: true
 
 ---
 
-> *Six alphas shipped in four days. v0.164.0 is shaping into a multi-environment orchestration release, adding agent-initiated session wake, cross-environment file transfer, live MCP tool discovery, and passive observation hooks for telemetry — all before a stable tag.*
+> *Eight alphas shipped in five days (as of 20 Oct). v0.164.0 is shaping into a multi-environment orchestration release, adding agent-initiated session wake, cross-environment file transfer, live MCP tool discovery, and passive observation hooks for telemetry — all before a stable tag.*
 
-v0.163.0 stable tagged on 15 October. Within 24 hours, the v0.164.0 alpha sprint had opened. By the end of 19 October, six alphas had shipped — three in the first 36 hours, two more during the day, and a sixth at 22:48 UTC — with the weekend commits between alpha.3 and alpha.4 containing some of the most architecturally significant changes in the sprint.
+v0.163.0 stable tagged on 15 October. Within 24 hours, the v0.164.0 alpha sprint had opened. By the end of 19 October, six alphas had shipped — three in the first 36 hours, two more during the day, and a sixth at 22:48 UTC — with the weekend commits between alpha.3 and alpha.4 containing some of the most architecturally significant changes in the sprint. Two further alphas (alpha.7 and alpha.8) shipped on 20 October after this article's original publication.
 
 This article covers the alpha.1–alpha.6 run: what shipped, why the agent wake and observation hooks commits matter beyond their immediate feature scope, and what configuration changes to track before stable lands.
 
@@ -30,6 +30,8 @@ This article covers the alpha.1–alpha.6 run: what shipped, why the agent wake 
 | v0.164.0-alpha.4 | Oct 19, 10:42 UTC | Agent wake (feature flag); zstd WebSocket compression; catalog cache across credential rotation; observation hooks |
 | v0.164.0-alpha.5 | Oct 19, 14:23 UTC | Release pruning; additional stability fixes |
 | v0.164.0-alpha.6 | Oct 19, 22:48 UTC | Stabilisation fixes; shipped after this article's original publication[^9] |
+| v0.164.0-alpha.7 | Oct 20, 13:47 UTC | Stabilisation fixes; post-publication[^10] |
+| v0.164.0-alpha.8 | Oct 20, 22:15 UTC | Stabilisation fixes; post-publication[^10] |
 
 The gap between alpha.3 (Oct 17) and alpha.4 (Oct 19) reflects weekend development — five commits landed Saturday and Sunday that did not immediately produce an alpha tag but form the core of alpha.4's substance.[^1]
 
@@ -152,7 +154,7 @@ For most users this is invisible. For teams maintaining Codex CLI at scale acros
 
 ## What to Watch Before Stable
 
-v0.164.0 stable has not yet been tagged. Based on the alpha.1–5 trajectory, three things are worth tracking:
+v0.164.0 stable has not yet been tagged. Based on the alpha.1–6 trajectory, three things are worth tracking:
 
 **MCP namespace_tools fix**: This fix was targeted for v0.163.0 stable and missed the cut. It remains in the v0.164.0 alpha line. If your team relies on namespaced MCP tools, v0.164.0 stable is the release to wait for.
 
@@ -160,7 +162,7 @@ v0.164.0 stable has not yet been tagged. Based on the alpha.1–5 trajectory, th
 
 **Observation hook interface finalisation**: The PR landed in alpha.4, but key names may change before stable. Do not build production tooling against the alpha interface.
 
-The sprint cadence — six alphas in four days — is consistent with previous major releases. v0.163.0 ran twelve alphas over six days before tagging stable. v0.164.0 is on a similar trajectory, with stable plausibly landing in the Oct 23–27 window if the weekend commit batch represents the substantive feature work and the remaining alphas are stabilisation.
+The sprint cadence — eight alphas in five days — is consistent with previous major releases. v0.163.0 ran twelve alphas over six days before tagging stable. v0.164.0 is on a similar trajectory, with stable plausibly landing in the Oct 23–27 window if the weekend commit batch represents the substantive feature work and the remaining alphas are stabilisation.
 
 ---
 
@@ -173,3 +175,4 @@ The sprint cadence — six alphas in four days — is consistent with previous m
 [^7]: PR #55144 (vivi), "Add observation-only model request lifecycle hooks", openai/codex — https://github.com/openai/codex/pull/55144
 [^8]: openai/codex v0.164.0-alpha.5 release, 19 October 2026 — https://github.com/openai/codex/releases/tag/0.164.0-alpha.5
 [^9]: openai/codex v0.164.0-alpha.6 release, 19 October 2026, published 22:48 UTC — approximately five hours after this article was first published. See: https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6
+[^10]: openai/codex v0.164.0-alpha.7 (20 October 2026, 13:47 UTC) and v0.164.0-alpha.8 (20 October 2026, 22:15 UTC) — both stabilisation releases that shipped the day after this article's original publication.
