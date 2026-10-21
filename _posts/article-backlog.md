@@ -1,12 +1,28 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-21T01:05:17+01:00
+last_modified_at: 2026-10-21T03:04:26+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 21 October 2026 (Second Automated Hourly Run)
+
+*No new articles or changelog entries since first pass. Directory confirmed at 2,053 .md total. README article count corrected: 2,055 → 2,053 (previous update over-counted by 2). Repo clean. v0.164.0 alpha sprint active — no new alpha today (last: alpha.6 on Oct 19).*
+
+**Status:** README count corrected. No new publishable work. No Codex CLI news since Oct 20 capacity outage / regression report.
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+
+---
 
 ## Article Triage — 21 October 2026 (Automated Hourly Run)
 
