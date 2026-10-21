@@ -1,12 +1,39 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-21T11:33:58+01:00
+last_modified_at: 2026-10-21T13:05:30+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 21 October 2026 (Seventh Automated Hourly Run)
+
+*One high-priority article written this pass: "The Software Factory Mental Model: When One-Shot Prompts Become a Liability" — sourced from Charlie Guo & Gabriel Chua's AIEWF 2026 workshop (youtube.com/watch?v=FwiS44-xyYw). First of three Guo/Chua articles flagged in backlog.*
+
+**Status:** Articles: 2,060. Notes: 1,130. Premium: 123. Substack drafts: 253. Sketchnote PNGs: 916 (+ 1 placeholder added this pass).
+
+**Done this pass:**
+- `articles/2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.md` — written; covers the one-shot prompt trap (fragility, no completion criterion, unscalable), software factory alternative (pipeline with verifiable steps), one-shot vs factory-ready diagnostic, five-element migration checklist (input format, decomposition, completion criterion, verification scope, supervision interval), payoff (subagent-ready, schedulable, auditable)
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.png` — placeholder created (new)
+- `sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png` — placeholder created (carried forward)
+- `sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png` — placeholder created (carried forward)
+- `sketchnotes/articles/2026-10-21-persistent-cloud-sessions-tasks-run-after-laptop-closes-codex-cli.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing (carried forward)
+
+**Next high-priority articles (Guo/Chua, AIEWF 2026 — two remaining):**
+- "Hooks as Checkpoints: Preventing Silent Failures in Multi-Step Codex Pipelines" — Guo & Chua, AIEWF 2026
+- "Subagents with Verifiable Goals: Moving from Vague Instructions to Auditable Completion" — Guo & Chua, AIEWF 2026
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.8 is latest
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+
+---
 
 ## Article Triage — 21 October 2026 (Sixth Automated Hourly Run)
 
