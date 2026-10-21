@@ -2,7 +2,7 @@
 title: "Codex CLI v0.164.0 Alpha Preview: Agent Wake, Multi-Environment File Copy, and Observation Hooks"
 parent: "Articles"
 date: 2026-10-19T17:00:00+00:00
-last_modified_at: 2026-10-21T09:05:28+01:00
+last_modified_at: 2026-10-21T10:08:23+01:00
 nav_order: 1189
 tags: ["codex-cli", "v0.164.0", "alpha", "agent-wake", "multi-environment", "observation-hooks", "mcp", "websockets", "release-notes"]
 copy_edited: true
@@ -29,7 +29,7 @@ This article covers the alpha.1–alpha.6 run: what shipped, why the agent wake 
 | v0.164.0-alpha.1 | Oct 16, 14:49 UTC | Multi-env file copy opt-in; live MCP tool-list updates; memory efficiency |
 | v0.164.0-alpha.2 | Oct 16, 17:37 UTC | Slash command prefix markers; typed prompt fragments; MCP approval reason tracking |
 | v0.164.0-alpha.3 | Oct 17, 04:03 UTC | macOS daemon priority fix; strict TUI config policy; zip 9.0.0 |
-| v0.164.0-alpha.4 | Oct 19, 10:42 UTC | Agent wake (feature flag); zstd WebSocket compression; catalog cache across credential rotation; observation hooks |
+| v0.164.0-alpha.4 | Oct 19, 10:42 UTC | Agent wake (feature flag); zstd WebSocket compression; catalogue cache across credential rotation; observation hooks |
 | v0.164.0-alpha.5 | Oct 19, 14:23 UTC | Release pruning; additional stability fixes |
 | v0.164.0-alpha.6 | Oct 19, 22:48 UTC | Stabilisation fixes; shipped after this article's original publication[^9] |
 | v0.164.0-alpha.7 | Oct 20, 13:47 UTC | Stabilisation fixes; post-publication[^10] |
@@ -112,13 +112,13 @@ Compression is negotiated during WebSocket handshake, meaning both client and se
 A companion commit gates the WebSocket compression behind a feature flag, suggesting the rollout will be progressive and the feature can be disabled if interoperability issues arise.
 
 
-## Catalog Cache Across Credential Rotation
+## Catalogue Cache Across Credential Rotation
 
-A smaller but practically useful alpha.4 change: the model catalog cache is now preserved when credentials rotate.
+A smaller but practically useful alpha.4 change: the model catalogue cache is now preserved when credentials rotate.
 
-Previously, any credential rotation event — API key refresh, account switch, organisation context change — invalidated the cached model catalog and triggered a reload. In short-lived sessions this was invisible. In long-running agentic sessions, particularly those using `codex queue` to batch work overnight, it caused visible delays and, in some configurations, transient model-unavailable errors as the catalog reloaded under load.
+Previously, any credential rotation event — API key refresh, account switch, organisation context change — invalidated the cached model catalogue and triggered a reload. In short-lived sessions this was invisible. In long-running agentic sessions, particularly those using `codex queue` to batch work overnight, it caused visible delays and, in some configurations, transient model-unavailable errors as the catalogue reloaded under load.
 
-The fix caches the catalog independently of credential identity, so rotation events no longer flush it. This is a reliability improvement, not a feature, but it matters for production deployments.
+The fix caches the catalogue independently of credential identity, so rotation events no longer flush it. This is a reliability improvement, not a feature, but it matters for production deployments.
 
 
 ## Observation-Only Lifecycle Hooks
