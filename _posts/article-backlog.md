@@ -1,12 +1,42 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-21T18:09:22+01:00
+last_modified_at: 2026-10-21T23:07:01+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 21 October 2026 (Ninth Automated Hourly Run)
+
+*One high-priority migration article written this pass: "Worktrees Without the Flag: Migrating to v0.163.0's Default-On Managed Worktrees" — fills the practical migration gap for existing users of the experimental managed worktrees flag, which graduated to always-on default in v0.163.0 (PR #54175, Oct 15). No new Codex CLI releases since eighth pass (latest: v0.164.0-alpha.8). Repo clean.*
+
+**Status:** Articles: 2,063. Notes: 1,130. Premium: 123. Substack drafts: 254. Sketchnote PNGs: 917 (0-byte placeholder added this pass).
+
+**Done this pass:**
+- `articles/2026-10-21-worktrees-without-flag-v0163-default-on-migration-codex-cli.md` — written; covers the config.toml flag retirement (PR #54175), three lines to delete, trust model unchanged, operator-provisioned vs agent-provisioned workflow shift, AGENTS.md worktree policy pattern, the one pitfall (flag is not a safety switch), and v0.163.0 quick-reference table
+- `substack-drafts/2026-10-21-worktrees-without-flag-v0163-default-on-migration-codex-cli.md` — Substack draft written
+- `sketchnotes/articles/2026-10-21-worktrees-without-flag-v0163-default-on-migration-codex-cli.png` — placeholder created (0-byte)
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-21-worktrees-without-flag-v0163-default-on-migration-codex-cli.png` — placeholder (new)
+- `sketchnotes/articles/2026-10-21-hooks-as-checkpoints-preventing-silent-failures-multi-step-codex-pipelines-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-subagents-with-verifiable-goals-vague-instructions-auditable-completion-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-persistent-cloud-sessions-tasks-run-after-laptop-closes-codex-cli.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing (carried forward)
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.8 is latest
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+- Medium-priority article ideas available: "AGENTS.md as a Contract", "The Codex Skill Flywheel", "Context as a Finite Resource", "Remote Threads: The Heartbeat Automation Pattern"
+
+---
+
 
 ## Article Triage — 21 October 2026 (Eighth Automated Hourly Run)
 
