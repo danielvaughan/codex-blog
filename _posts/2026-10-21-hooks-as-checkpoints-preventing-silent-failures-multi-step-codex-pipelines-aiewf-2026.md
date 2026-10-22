@@ -1,7 +1,7 @@
 ---
 title: "Hooks as Checkpoints: Preventing Silent Failures in Multi-Step Codex Pipelines"
 date: 2026-10-21T14:00:00+00:00
-last_modified_at: 2026-10-22T03:15:51+01:00
+last_modified_at: 2026-10-22T07:11:20+01:00
 parent: "Articles"
 nav_order: 1198
 tags:
@@ -53,7 +53,7 @@ Guo and Chua demonstrate the checkpoint pattern with a five-step data processing
 
 The structure looks like this:
 
-```
+```text
 Step 1: Parse input → PostToolUse hook: verify output file exists + valid JSON
 Step 2: Transform data → PostToolUse hook: run schema validation against output
 Step 3: Write to staging → PostToolUse hook: run smoke test against staging endpoint
