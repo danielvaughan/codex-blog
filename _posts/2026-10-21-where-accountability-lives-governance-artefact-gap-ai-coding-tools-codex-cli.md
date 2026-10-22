@@ -1,7 +1,7 @@
 ---
 title: "Where Accountability Lives: The Governance Artefact Gap in AI Coding Tools"
 date: 2026-10-21T11:00:00+00:00
-last_modified_at: 2026-10-22T01:05:12+01:00
+last_modified_at: 2026-10-22T03:15:51+01:00
 parent: "Articles"
 nav_order: 1196
 tags:
@@ -22,12 +22,12 @@ copy_edited: true
 
 ![Sketchnote diagram for: Where Accountability Lives: The Governance Artefact Gap in AI Coding Tools](/sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png)
 
-**Research basis:** Lloyd et al. "Where Accountability Lives: Mapping Human Responsibility to Workflow Artifacts in Agentic Software Development" (arXiv:2608.15678, 2026)
+**Research basis:** Farrag and Saber "Where Accountability Lives: Mapping Human Responsibility to Workflow Artifacts in Agentic Software Development" (arXiv:2608.15678, 2026)
 **Impact:** Engineering leads, compliance teams, and CISOs deploying AI coding tools at enterprise scale; teams with EU AI Act, SOX, or DORA obligations
 
 ---
 
-When something goes wrong with AI-generated code — a production incident, a security vulnerability, a data breach — the immediate question is: who is responsible? The answer, according to a new qualitative study by Lloyd et al., is that the governance infrastructure of every major AI coding tool is structurally unable to answer that question.[^1]
+When something goes wrong with AI-generated code — a production incident, a security vulnerability, a data breach — the immediate question is: who is responsible? The answer, according to a new qualitative study by Farrag and Saber, is that the governance infrastructure of every major AI coding tool is structurally unable to answer that question.[^1]
 
 This is not a problem with individual developers' behaviour or a gap in team processes. It is a documented architectural absence in the tools themselves — one that exists independently of how carefully any individual or organisation uses them.
 
@@ -35,7 +35,7 @@ This is not a problem with individual developers' behaviour or a gap in team pro
 
 ## The study
 
-Lloyd et al. conducted a qualitative analysis of 121 governance artefacts across four AI coding tools: Cursor, GitHub Copilot, Devin, and Claude Code. They also examined 18 policy documents from seven providers. Two coders achieved inter-rater reliability of Cohen's κ 0.81 and κ 0.75 — strong agreement by qualitative standards.[^1]
+Farrag and Saber conducted a qualitative analysis of 121 governance artefacts across four AI coding tools: Cursor, GitHub Copilot, Devin, and Claude Code. They also examined 18 policy documents from seven providers. Two coders achieved inter-rater reliability of Cohen's κ 0.81 and κ 0.75 — strong agreement by qualitative standards.[^1]
 
 The research question was whether the governance artefacts of these tools — the files, logs, approvals, and records that a workflow produces — create a traceable link between an AI-generated output and the human accountable for it. The answer is consistent across all four tools: they do not.
 
@@ -45,7 +45,7 @@ The gap is structural, not incidental.
 
 ## Two layers that do not talk to each other
 
-Lloyd et al. identify two governance layers in AI coding tool deployments, each with a distinct function, and observe that they operate in isolation from each other.
+Farrag and Saber identify two governance layers in AI coding tool deployments, each with a distinct function, and observe that they operate in isolation from each other.
 
 **Layer 1 — Platform controls.** These are the technical mechanisms that define what an agent may do: AGENTS.md directives, approval policies, tool permission configurations, sandbox restrictions, and hook definitions. Platform controls constrain agent behaviour. They are machine-readable, enforceable, and — in well-configured deployments — comprehensive.
 
@@ -57,7 +57,7 @@ The structural problem: Layer 1 defines what the agent may do. Layer 2 specifies
 
 ## The Cursor case study
 
-Lloyd et al.'s most detailed case study examines Cursor, though they note the pattern holds across all four tools examined.
+Farrag and Saber's most detailed case study examines Cursor, though they note the pattern holds across all four tools examined.
 
 Cursor's terms of service place explicit responsibility on users to verify AI-generated outputs before use. The language is standard for the industry: the user is responsible for reviewing content, ensuring it is appropriate, and bearing responsibility for any outputs that are deployed or acted upon.
 
@@ -71,7 +71,7 @@ Under EU AI Act Article 9 obligations for high-risk AI systems, or SOX requireme
 
 ## Merge-stage inconsistency across tools
 
-Beyond the Cursor case, Lloyd et al. document significant inconsistency across the four tools in how accountability is assigned at the merge stage — the point where AI-generated code enters a shared repository.
+Beyond the Cursor case, Farrag and Saber document significant inconsistency across the four tools in how accountability is assigned at the merge stage — the point where AI-generated code enters a shared repository.
 
 Two of the four tools mandate human approval before merge for any AI-generated content above a defined risk threshold. The approval is recorded in the platform's audit log and is traceable to a named individual.
 
@@ -97,7 +97,7 @@ Three converging pressures are making this gap urgent:
 
 ## What a complete governance artefact would contain
 
-Lloyd et al. propose that a governance artefact capable of answering "who is accountable for this AI-generated output" should record five elements:
+Farrag and Saber propose that a governance artefact capable of answering "who is accountable for this AI-generated output" should record five elements:
 
 1. **The AI-generated output itself** — the code, suggestion, or artefact produced
 2. **The platform controls in effect at generation time** — what the agent was and was not permitted to do
@@ -162,17 +162,17 @@ The PR description then carries elements 3 and 4 — the review event and the ve
 
 ### Enforcement via branch protection
 
-For organisations with formal compliance requirements, GitHub branch protection rules that require a specific PR template and a named approver close the enforcement gap that Lloyd et al. identify. The platform control (branch protection) enforces that a human approval event occurs and records the identity of the approver. Combined with the TASK-REVIEW.md artefact, this provides the evidence trail that current AI coding tools do not produce natively.
+For organisations with formal compliance requirements, GitHub branch protection rules that require a specific PR template and a named approver close the enforcement gap that Farrag and Saber identify. The platform control (branch protection) enforces that a human approval event occurs and records the identity of the approver. Combined with the TASK-REVIEW.md artefact, this provides the evidence trail that current AI coding tools do not produce natively.
 
 ---
 
 ## The broader implications
 
-Lloyd et al. close their paper with an observation that is worth quoting: "The governance infrastructure of current AI coding tools was designed for a world in which AI suggestions are reviewed by a human who has full context of the codebase and the task. As deployment scales and agents operate autonomously across longer horizons, that assumption is increasingly violated. The tools have not updated their governance models to reflect the change in how they are used."[^1]
+Farrag and Saber close their paper with an observation that is worth quoting: "The governance infrastructure of current AI coding tools was designed for a world in which AI suggestions are reviewed by a human who has full context of the codebase and the task. As deployment scales and agents operate autonomously across longer horizons, that assumption is increasingly violated. The tools have not updated their governance models to reflect the change in how they are used."[^1]
 
 The governance artefact gap is not a temporary oversight. It reflects a design era in which the primary concern was productivity and the secondary concern was correctness — and in which accountability was assumed to be a human constant rather than something that needed to be engineered into the workflow.
 
-As AI coding tools move from suggestion-level assistance to autonomous task completion, the accountability model needs to shift accordingly. The five-element governance artefact that Lloyd et al. propose is not a regulatory burden — it is the minimum viable audit trail for organisations that need to demonstrate that human judgment was exercised before AI-generated code entered production.
+As AI coding tools move from suggestion-level assistance to autonomous task completion, the accountability model needs to shift accordingly. The five-element governance artefact that Farrag and Saber propose is not a regulatory burden — it is the minimum viable audit trail for organisations that need to demonstrate that human judgment was exercised before AI-generated code entered production.
 
 The tools do not currently provide it. Engineers and compliance teams need to build it themselves, using the infrastructure that tools like Codex CLI make available: AGENTS.md controls, PostToolUse logging, structured PR templates, and branch protection enforcement. The pieces exist. The governance model that assembles them does not yet come in the box.
 
@@ -180,4 +180,4 @@ The tools do not currently provide it. Engineers and compliance teams need to bu
 
 ## References
 
-[^1]: Lloyd, A., Hernandez, C., Park, S., and Nakamura, T. "Where Accountability Lives: Mapping Human Responsibility to Workflow Artifacts in Agentic Software Development." arXiv:2608.15678, August 2026. <https://arxiv.org/abs/2608.15678>
+[^1]: Farrag, S.E. and Saber, Y. "Where Accountability Lives: Mapping Human Responsibility to Workflow Artifacts in Agentic Software Development." arXiv:2608.15678, August 2026. <https://arxiv.org/abs/2608.15678>

@@ -1,7 +1,7 @@
 ---
 title: "Why Review Alone Can't Scale: The Three-Layer Supervision Playbook"
 date: 2026-10-21T10:00:00+00:00
-last_modified_at: 2026-10-22T01:05:12+01:00
+last_modified_at: 2026-10-22T03:15:51+01:00
 parent: "Articles"
 nav_order: 1195
 tags:
@@ -22,12 +22,12 @@ copy_edited: true
 
 ![Sketchnote diagram for: Why Review Alone Can't Scale: The Three-Layer Supervision Playbook](/sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png)
 
-**Research basis:** Torres et al. "When Review Alone No Longer Scales" (arXiv:2608.26316, ESEM 2026); Kang "GAIE Oversight Classification Model" (arXiv:2606.22484)
+**Research basis:** Stolze and Strässle "When Review Alone No Longer Scales" (arXiv:2608.26316, ESEM 2026); Kang "GAIE Oversight Classification Model" (arXiv:2606.22484)
 **Impact:** All teams using Codex CLI or AI-assisted development at scale; engineering leads designing review processes
 
 ---
 
-There is a throughput problem at the centre of AI-assisted software engineering, and most teams are trying to solve it the wrong way. When AI tools write more code faster, the instinctive response is to add more reviewers, or ask reviewers to work faster, or lower the review bar for "routine" changes. None of these responses work at scale, and Torres et al.'s ESEM 2026 study explains precisely why.[^1]
+There is a throughput problem at the centre of AI-assisted software engineering, and most teams are trying to solve it the wrong way. When AI tools write more code faster, the instinctive response is to add more reviewers, or ask reviewers to work faster, or lower the review bar for "routine" changes. None of these responses work at scale, and Stolze and Strässle's ESEM 2026 study explains precisely why.[^1]
 
 The finding is not that human review is insufficient — it is that human review is being asked to absorb a structural load it was never designed to carry. The solution is not to strengthen the single layer of human review but to reduce what reaches it.
 
@@ -35,7 +35,7 @@ The finding is not that human review is insufficient — it is that human review
 
 ## The volume problem is structural, not a skills gap
 
-Torres et al. conducted practitioner interviews and a follow-up survey across engineering organisations that had adopted AI coding assistants. The central finding is consistent across organisation size: when AI-generated output volume increases by an order of magnitude, review throughput does not increase proportionally. It cannot. Human reviewers have bounded attention, bounded context windows, and bounded time. The bottleneck is architectural, not individual.
+Stolze and Strässle conducted practitioner interviews and a follow-up survey across engineering organisations that had adopted AI coding assistants. The central finding is consistent across organisation size: when AI-generated output volume increases by an order of magnitude, review throughput does not increase proportionally. It cannot. Human reviewers have bounded attention, bounded context windows, and bounded time. The bottleneck is architectural, not individual.
 
 Three specific failure patterns emerge from the study data:
 
@@ -51,7 +51,7 @@ The conclusion is not that humans should review less carefully. It is that conce
 
 ## The three-layer model
 
-Torres et al. propose a three-layer supervision structure. Kang's GAIE Oversight Classification Model (arXiv:2606.22484) independently reaches the same three-layer structure from a different research programme — a convergence that signals a stable finding rather than a single team's preference.[^2]
+Stolze and Strässle propose a three-layer supervision structure. Kang's GAIE Oversight Classification Model (arXiv:2606.22484) independently reaches the same three-layer structure from a different research programme — a convergence that signals a stable finding rather than a single team's preference.[^2]
 
 The layers are:
 
@@ -61,7 +61,7 @@ Preventive guardrails reduce the volume of problematic output before any code is
 
 **Layer 2 — Executable guardrails.** Automated checks that run against generated output before it reaches a human reviewer. This layer repurposes existing infrastructure — testing pipelines, linters, type checkers, security scanners, CI/CD gates — as a scalable supervision layer. The key reframe is that these tools are not optional quality improvements; they are the primary machine-layer supervisor for AI-generated code.
 
-Torres et al. find that teams treating Layer 2 as mandatory and blocking — not advisory — reduce the defect rate at the human review stage significantly. The reviewers who participate in their study consistently report that reviewing AI-generated code that has passed a comprehensive automated gate is qualitatively different from reviewing code that has not: "I can focus on what the tool can't check. Whether this approach makes architectural sense. Whether we'll regret the abstraction in six months."
+Stolze and Strässle find that teams treating Layer 2 as mandatory and blocking — not advisory — reduce the defect rate at the human review stage significantly. The reviewers who participate in their study consistently report that reviewing AI-generated code that has passed a comprehensive automated gate is qualitatively different from reviewing code that has not: "I can focus on what the tool can't check. Whether this approach makes architectural sense. Whether we'll regret the abstraction in six months."
 
 **Layer 3 — Human oversight focused on judgment, not correctness.** With Layers 1 and 2 absorbing routine correctness verification, human review can be reoriented toward what only humans can assess: architectural coherence, long-term maintainability, alignment with product direction, and the second-order effects of repeated patterns. This is not a downgrade of human review — it is a precision upgrade. The reviewer's attention is deployed where it has comparative advantage.
 
@@ -158,7 +158,7 @@ With Layers 1 and 2 operational, the PR description becomes the human reviewer's
 
 This shifts the reviewer from "verify correctness" (Layer 2's job) to "assess judgment" — whether the agent's architectural reasoning holds, whether the deferred work creates risk, whether the approach is the right one.
 
-Torres et al. observe that this reorientation has a secondary benefit: it makes review more satisfying. Reviewers reported feeling more engaged when their role was to evaluate reasoning rather than check for bugs that a linter should have caught.
+Stolze and Strässle observe that this reorientation has a secondary benefit: it makes review more satisfying. Reviewers reported feeling more engaged when their role was to evaluate reasoning rather than check for bugs that a linter should have caught.
 
 ---
 
@@ -170,13 +170,13 @@ The three-layer model depends on the quality of Layer 1 and Layer 2 implementati
 
 **Advisory CI rather than blocking CI.** If Layer 2 gates are warnings rather than blockers, they are absorbed into the attention-dilution problem they are meant to solve. A failed lint warning in a sea of green CI checks is invisible at review time. Every Layer 2 gate that should block must block.
 
-**Layer 3 reviewers reverting to Layer 2 habits.** If reviewers have been trained by years of catch-everything review to check for correctness themselves, shifting to judgment-focused review requires deliberate process change. The payoff is real — Torres et al. document a measurable increase in architectural defect detection when reviewers operate at Layer 3 — but the transition is not automatic.
+**Layer 3 reviewers reverting to Layer 2 habits.** If reviewers have been trained by years of catch-everything review to check for correctness themselves, shifting to judgment-focused review requires deliberate process change. The payoff is real — Stolze and Strässle document a measurable increase in architectural defect detection when reviewers operate at Layer 3 — but the transition is not automatic.
 
 ---
 
 ## The independent convergence with GAIE
 
-The fact that Kang's GAIE Oversight Classification Model arrives at the same three-layer structure from a purely theoretical direction — classifying oversight mechanisms by their position in the generation-evaluation pipeline — strengthens the practical case for the Torres model.[^2]
+The fact that Kang's GAIE Oversight Classification Model arrives at the same three-layer structure from a purely theoretical direction — classifying oversight mechanisms by their position in the generation-evaluation pipeline — strengthens the practical case for the Stolze–Strässle model.[^2]
 
 GAIE's terminology differs (upstream constraints, inline validation, downstream verification) but the structure is identical. Two independent research programmes, one empirical and one theoretical, pointing to the same architecture is as close to a stable finding as software engineering research produces. Teams designing supervision infrastructure for AI-assisted development have empirical and theoretical grounds to treat the three-layer model as a reasonable default rather than a speculative one.
 
@@ -196,11 +196,11 @@ For teams currently running single-layer review, the transition to three layers 
 
 5. **Measure the shift.** Track the defect categories that reviews catch before and after. If Layer 2 is absorbing correctness defects, Layer 3 should be surfacing more architectural ones. If the mix does not shift, the layers are not working as intended.
 
-The goal is not to remove humans from review — it is to ensure that human attention is spent where it has the highest value. Torres et al. put it plainly: the question is not whether to trust AI-generated code, but where in the pipeline human judgment is most irreplaceable.[^1]
+The goal is not to remove humans from review — it is to ensure that human attention is spent where it has the highest value. Stolze and Strässle put it plainly: the question is not whether to trust AI-generated code, but where in the pipeline human judgment is most irreplaceable.[^1]
 
 ---
 
 ## References
 
-[^1]: Torres, R., Aldridge, P., and Svensson, M. "When Review Alone No Longer Scales: Layered Supervision in AI-Assisted Software Engineering." arXiv:2608.26316, August 2026. Accepted at ESEM 2026. <https://arxiv.org/abs/2608.26316>
+[^1]: Stolze, M. and Strässle, M. "When Review Alone No Longer Scales: Layered Supervision in AI-Assisted Software Engineering." arXiv:2608.26316, August 2026. Accepted at ESEM 2026. <https://arxiv.org/abs/2608.26316>
 [^2]: Kang, J. "GAIE Oversight Classification Model: A Framework for Positioning Supervision Mechanisms in AI-Assisted Engineering Pipelines." arXiv:2606.22484, June 2026. <https://arxiv.org/abs/2606.22484>

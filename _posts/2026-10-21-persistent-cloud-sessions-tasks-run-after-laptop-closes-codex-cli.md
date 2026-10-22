@@ -1,7 +1,7 @@
 ---
 title: "Persistent Cloud Sessions: What 'Tasks Run After the Laptop Closes' Actually Means"
 date: 2026-10-21T08:00:00+00:00
-last_modified_at: 2026-10-22T01:05:12+01:00
+last_modified_at: 2026-10-22T03:15:51+01:00
 parent: "Articles"
 nav_order: 1194
 tags:
@@ -191,4 +191,4 @@ The "laptop closed" framing in "Cooking with Codex: Ep. 1" is accurate. The miss
 
 [^1]: OpenAI. "Cooking with Codex: Ep. 1." YouTube, 19 October 2026. <https://www.youtube.com/watch?v=DQHtmW9ZlIs>
 [^2]: OpenAI. "12-Hour Prompt Caching in the API." OpenAI Developer Community, 20 October 2026. 28 Days of Shipping Day 16.
-[^3]: Codex CLI v0.164.0-alpha.5, PR #55698 — "feat(hooks): add read-only observation hook type." GitHub, 19 October 2026.
+[^3]: Codex CLI v0.164.0-alpha.5, PR #55144 — "Add observation-only model request lifecycle hooks." GitHub, 18 October 2026.
