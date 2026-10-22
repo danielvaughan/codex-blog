@@ -1,7 +1,7 @@
 ---
 title: "Red-Teaming the Agentic Red-Team: What a 97.8% Agent-Phishing Success Rate Means for Your Codex CLI Security Posture"
 date: 2026-07-11T09:00:00+00:00
-last_modified_at: 2026-10-22T18:15:42+01:00
+last_modified_at: 2026-10-22T19:06:14+01:00
 tags: ["codex-cli", "security", "red-teaming", "agent-phishing", "sandbox", "hooks", "kill-chain", "offensive-security"]
 ---
 

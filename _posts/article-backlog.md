@@ -1,11 +1,42 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-22T18:15:42+01:00
+last_modified_at: 2026-10-22T19:06:14+01:00
 tags:
   - backlog
   - planning
 ---
+
+## Article Triage — 22 October 2026 (Twelfth Automated Hourly Run)
+
+*One medium-priority release-track article written this pass: "TUI Startup Hardening, Multi-Session Prep, and Auth Polish: Codex CLI v0.164.0-alpha.12" — covers credential caching (PR #56081), three TUI startup fixes (server defaults #56090, invalid config handling #56091, multi-session infrastructure #56097), Guardian reviewer event propagation (#56124), non-blocking EMA auth (#56127), MCP cancellation (#56132), and empty final answer turn ordering (#56133). Latest release: v0.164.0-alpha.12 (Oct 22, 11:11 UTC).*
+
+**Status:** Articles: 2,069. Notes: 1,212. Premium: 123. Substack drafts: 260. Sketchnote PNGs: 934 (0-byte placeholder added this pass).
+
+**Done this pass:**
+- `articles/2026-10-22-tui-startup-hardening-multi-session-prep-auth-polish-codex-cli-v0164-alpha12.md` — written; covers credential caching, TUI startup hardening (server defaults, invalid config, multi-session prep), Guardian event propagation, non-blocking EMA auth, MCP cancellation, and empty final answer handling
+- `substack-drafts/2026-10-22-tui-startup-hardening-multi-session-prep-auth-polish-codex-cli-v0164-alpha12.md` — Substack draft written
+- `sketchnotes/articles/2026-10-22-tui-startup-hardening-multi-session-prep-auth-polish-codex-cli-v0164-alpha12.png` — placeholder created (0-byte)
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-22-tui-startup-hardening-multi-session-prep-auth-polish-codex-cli-v0164-alpha12.png` — placeholder (new)
+- `sketchnotes/articles/2026-10-22-codex-skill-flywheel-compounding-capability-agent-knowledge-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-worktrees-without-flag-v0163-default-on-migration-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-hooks-as-checkpoints-preventing-silent-failures-multi-step-codex-pipelines-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-subagents-with-verifiable-goals-vague-instructions-auditable-completion-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png` — placeholder (carried forward)
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.12 is latest; multi-session infrastructure now in place
+- v0.163.1 stable patch article — watch; v0.163.0-alpha.11.2 backport track targets macOS -32603 bootstrap blocker
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+- Remaining medium-priority article ideas: "AGENTS.md as a Contract", "Context as a Finite Resource", "Remote Threads: The Heartbeat Automation Pattern"
+
+---
+
 # Article Backlog
 
 ## Article Triage — 22 October 2026 (Eleventh Automated Hourly Run)
