@@ -1,7 +1,7 @@
 ---
 title: "When Tool Outputs Become Commands: The SARA Framework for Authorising Agent Actions — and Its Lessons for Codex CLI"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-10-22T13:06:21+01:00
+last_modified_at: 2026-10-22T18:15:42+01:00
 tags: ["security", "indirect-prompt-injection", "hooks", "approval-policy", "tool-use", "codex-cli", "MCP", "agent-security"]
 ---
 

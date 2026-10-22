@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-22T13:06:21+01:00
+last_modified_at: 2026-10-22T18:15:42+01:00
 tags:
   - backlog
   - planning
@@ -14698,3 +14698,112 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Gap: Three individual articles now exist from the workshop. A synthesis piece distils the five core principles — (1) the pipeline over the prompt, (2) the verifiable completion criterion, (3) the checkpoint at each stage boundary, (4) observation before validation, (5) the supervision interval — and explains how they form a coherent system. Functions as an entry point for readers who find any of the three individual articles and want the full picture. Also appropriate as a Substack newsletter piece linking all three.
    - Priority: 🟡 Medium — lower urgency than agent wake; synthesis articles have long shelf life. Suitable for a quieter writing window.
    - SEO targets: "AIEWF 2026 cooking with codex guo chua workshop", "codex cli pipeline best practices 2026", "verifiable completion criterion codex cli subagent", "software factory model codex cli agentic workflow"
+
+---
+
+## Gap Analysis Batch — Article Rater 2026-10-22 (224 New Articles Rated)
+
+### 178 · The Specification Engineering Playbook (Premium)
+
+1. 📝 **The Specification Engineering Playbook** — Identified 2026-10-22 by article-rater
+   - Sources: SpecFirst (4.8, Aug 20) + AGENTS.md Playbook (#05, 5.0) + Where SPEC.md Fits (#25, 4.0) + WiseSpec (Sept, 4.6)
+   - Gap: Four independent articles converge on specification quality as the primary upstream determinant of agent output quality. No premium synthesis exists. A playbook could provide: discovery-phase runbook, specification elicitation protocol (SpecFirst adapted for Codex CLI), SPEC.md structure and quality gates, WiseSpec requirements quality checklist, and ProgramBench-style internal evaluation framework.
+   - Priority: 🟠 High — premium candidate, extends the AGENTS.md Playbook (#05) into upstream specification engineering.
+
+### 179 · The Human-Centred Harness (Premium)
+
+1. 📝 **The Human-Centred Harness: Configuring Codex CLI to Preserve Developer Understanding** — Identified 2026-10-22 by article-rater
+   - Sources: (Im)Paired Programming (4.8, Aug 20) + Humans Missing from Coding Agent Research (4.6, Aug 20) + Cognitive Load Paradox (#16b, 4.5)
+   - Gap: Three articles document the human cost of AI-assisted coding (productivity–understanding gap, cognitive offloading, deskilling risk) but no synthesis provides a configuration playbook for preserving developer cognition. Key arguments: (1) The understanding gap is a technical debt that compounds; (2) AGENTS.md directives that slow down fast paths to preserve cognitive engagement; (3) Verification patterns that rebuild rather than bypass understanding; (4) Hook configurations that require developer comprehension at decision points.
+   - Priority: 🟡 Medium — premium candidate, highly shareable, counter-narrative positioning.
+
+### 180 · The Developer Economics Divide (Follow-Up Series)
+
+1. 📝 **The Developer Economics Divide: Governance Frameworks for AI Tooling ROI** — Identified 2026-10-22 by article-rater
+   - Sources: The Four-Thousand-Dollar Question (5.0, Aug 21) + AI Is the New India (#21, 4.5) + AI Is the New China (#56, 4.5) + Shift to Agentic AI (4.8, Sept 4)
+   - Gap: The Four-Thousand-Dollar Question established the economic thesis. A follow-up needs to provide the governance frameworks: token-discipline policies, organisational AI tooling ROI models, tiered access strategies, and the capability-access divide mitigation patterns. The Shift to Agentic AI (4.8) provides usage evidence; the economics piece provides the business case for selective access governance.
+   - Priority: 🟠 High — direct follow-up to the library's most-cited article (40 citations).
+
+### 181 · The Compaction-Safe AGENTS.md (Premium)
+
+1. 📝 **Writing Compaction-Safe AGENTS.md: Rules That Survive Context Reduction Events** — Identified 2026-10-22 by article-rater
+   - Sources: The Compaction Cliff (5.0, Aug 31) + Control Under Compression (4.8, Aug 28) + Context Compaction (#08, 4.8) + PEEK (4.8, Aug 16)
+   - Gap: Four articles document compaction as a safety-rule survival problem, but no practical playbook exists for writing AGENTS.md entries that survive it. Key techniques: survival probability estimation, safety-critical rule triage, regeneration hooks, memory_summary.md seeding, and compaction-aware token budget configuration.
+   - Priority: 🔴 Critical — operational gap with immediate safety implications. Premium candidate.
+
+### 182 · The Privilege Escalation Playbook (Premium)
+
+1. 📝 **The Privilege Escalation Playbook: Defending Codex CLI Against Instruction Authority Attacks** — Identified 2026-10-22 by article-rater
+   - Sources: Context Privilege Escalation (5.0, Aug 30) + Endogenous Authorization Laundering (5.0, Sept 8) + Mind Viruses (5.0, Aug 27) + Setup Complete (5.0, Aug 18)
+   - Gap: Four 5.0-rated articles establish four distinct privilege escalation mechanisms (context root, persistent memory, self-propagating instructions, installation vectors) with no unified mitigation playbook. A premium article could provide a unified threat taxonomy, defence configuration by threat class, PreToolUse and PostToolUse hook configurations for each class, and AGENTS.md privilege-minimisation directives.
+   - Priority: 🔴 Critical — enterprise security gap. Four 5.0 sources make this a tier-1 premium candidate.
+
+### 183 · The Agent Coordination Patterns Guide
+
+1. 📝 **Agent Coordination Patterns: From Structured Disagreement to CRDT Workspaces** — Identified 2026-10-22 by article-rater
+   - Sources: AgentRoom CRDT (4.8, Aug 30) + Adversarial Review (4.8, Aug 20) + When Agents Coordinate (4.8, Aug 18) + AGENTS.md Pattern Library (4.2, Sept 22)
+   - Gap: The AGENTS.md Pattern Library (4.2) provides a catalogue. A deeper article provides the theory and implementation details: CRDT coordination for concurrent editing, adversarial review protocol configuration, topology cost analysis, and abandonment suppression techniques.
+   - Priority: 🟡 Medium.
+
+### 184 · The Harness Performance Cookbook (Premium)
+
+1. 📝 **The Harness Performance Cookbook: Optimising Codex CLI Configuration for Maximum Agent Output Quality** — Identified 2026-10-22 by article-rater
+   - Sources: Same Model Different Harness (5.0, Aug 30) + AutoSaddler (4.8, Aug 26) + SMITH (4.8, Aug 30) + Agent Lightning (4.8, Aug 27) + Beyond Model Chasing (draft, 4.8)
+   - Gap: Five independent quantitative proofs that harness configuration determines outcomes more than model selection, but no cookbook synthesises them into actionable recipes: tool output compression settings, evolutionary configuration search, joint tool design, harness-native RL training preparation, and the six configuration levers mapped to Codex CLI primitives.
+   - Priority: 🔴 Critical — directly extends premium #26 Harness Engineering (5.0) into optimisation. Top priority.
+
+### 185 · The Benchmark Integrity Playbook
+
+1. 📝 **The Benchmark Integrity Playbook: How to Use SWE-Bench Results Without Being Misled** — Identified 2026-10-22 by article-rater
+   - Sources: SWE-bench Pro Reward Hacking (5.0, Sept 9) + RealSWE Reality Penalty (5.0, Aug 31) + What SWE Benchmarks Measure (4.0, Sept 3) + Jagged Frontier (4.8, Aug 20)
+   - Gap: Four articles document benchmark invalidity from different angles. A practical guide could help teams decide which benchmarks to trust, interpret the 6.4-point reality penalty, run internal equivalents, and calibrate Codex CLI configuration targets to production-realistic expectations rather than benchmark optima.
+   - Priority: 🟠 High.
+
+### 186 · The Session Lifecycle Engineering Guide (Premium)
+
+1. 📝 **The Session Lifecycle Engineering Guide: Designing Codex CLI Sessions That Don't Degrade** — Identified 2026-10-22 by article-rater
+   - Sources: How Fast Do Agents Rot (5.0, Sept 4) + Compaction Cliff (5.0, Aug 31) + Agentic Coding in the Wild 95T Tokens (5.0, Sept 8) + Context Compaction (#08, 4.8)
+   - Gap: Three 5.0 articles and one 4.8 premium article establish the complete session degradation model. A premium synthesis could provide: geometric degradation law curves, KV cache cliff management, compaction event detection and response, session restart decision framework, and long-horizon task design patterns that avoid the degradation traps.
+   - Priority: 🔴 Critical — premium candidate bridging the memory, compaction, and session design themes.
+
+### 187 · The Memory-as-Permissions Threat Model (Premium)
+
+1. 📝 **The Memory-as-Permissions Threat Model: How Persistent Memory Becomes an Attack Surface** — Identified 2026-10-22 by article-rater
+   - Sources: Endogenous Authorization Laundering (5.0, Sept 8) + PEEK (4.8, Aug 16) + Strategic Forgetting (4.8, Aug 17) + Invalidation Contracts (4.8, Sept 4)
+   - Gap: Novel threat class fully documented across four articles but not yet synthesised with mitigations. A premium piece could provide: memory authority surface taxonomy, poisoning vectors for each memory layer (Memories, AGENTS.md, memory_summary.md, Computer History), TTL and invalidation contract patterns, and Codex CLI configuration to minimise memory authority surfaces.
+   - Priority: 🟠 High — premium candidate, security library gap.
+
+### 188 · The Agentic Observability Stack
+
+1. 📝 **The Agentic Observability Stack: What to Measure, How to Instrument Codex CLI Sessions** — Identified 2026-10-22 by article-rater
+   - Sources: Agentic Coding in the Wild 95T Tokens (5.0, Sept 8) + CatchBench (4.8, Aug 30) + Parsing the Stream (4.8, Sept 2) + CloudWatch/OTEL (4.6, Sept 2)
+   - Gap: Four articles establish observability primitives but no architecture guide exists for a complete observability stack. Key sections: what to measure (KV cache, compaction events, tool-selection failures, cross-agent boundaries), OTEL spans and Codex CLI session tracing, CloudWatch dashboard templates, and CatchBench-style PRE/LIVE/POST audit gates.
+   - Priority: 🟠 High — enterprise and SRE audience, practical value.
+
+### 189 · The Supervision Architecture Guide (Premium)
+
+1. 📝 **The Supervision Architecture Guide: Building Review Systems That Scale with AI-Generated Code** — Identified 2026-10-22 by article-rater
+   - Sources: Where Accountability Lives (5.0, Oct 21) + Why Review Can't Scale (5.0, Oct 21) + Hooks as Checkpoints (4.2, Oct 21) + Hope Is Not a Guardrail (#59, 5.0)
+   - Gap: The library now has four 5.0-level sources on the supervision failure problem but no premium synthesis. A playbook could provide: three-layer supervision model implementation, governance artefact checklist (platform controls + accountability evidence), hook-as-checkpoint configuration by risk tier, EU AI Act/SOX/DORA artefact requirements, and reviewer-fatigue mitigation via pre-filtering.
+   - Priority: 🔴 Critical — compliance-critical, enterprise audience, four 5.0 sources.
+
+### 190 · The Codex Cloud Operations Guide (Premium)
+
+1. 📝 **The Codex Cloud Operations Guide: Running Codex Remotely at Enterprise Scale** — Identified 2026-10-22 by article-rater
+   - Sources: DevDay 2026 Recap (4.8, Oct 8) + Persistent Cloud Sessions (4.0, Oct 21) + Harness of Harness (5.0, Sept 2) + Cross-Device Cloud (4.0, Oct 17)
+   - Gap: Codex Cloud was announced at DevDay 2026. No comprehensive operations guide exists for enterprise teams migrating from local to cloud execution. Key sections: cloud-specific AGENTS.md design (repository-relative paths), secret management via /cloud env, named session continuity, cost governance for remote execution, and failure modes specific to cloud vs local sessions.
+   - Priority: 🔴 Critical — time-sensitive, Codex Cloud is the library's most significant product gap. Premium candidate.
+
+### 191 · The Software Factory Playbook (Premium)
+
+1. 📝 **The Software Factory Playbook: Building Codex Pipelines That Replace Prompts as the Unit of Work** — Identified 2026-10-22 by article-rater
+   - Sources: Software Factory Mental Model (4.5, Oct 21) + Hooks as Checkpoints (4.2, Oct 21) + Subagents with Verifiable Goals (4.2, Oct 21) + Loop Engineering (draft, 4.8) + LoopsBench (5.0, Aug 18)
+   - Gap: AIEWF 2026 batch establishes the factory-model framing across three articles, but a premium synthesis could deliver the complete implementation guide: pipeline design principles, verifiable completion criteria for each stage, checkpoint configuration, subagent goal contracts, and DAG evaluation for loop quality.
+   - Priority: 🟠 High — premium candidate, AIEWF 2026 timeliness.
+
+### 192 · Zero-Citation Sourcing Sprint
+
+1. 📝 **Zero-Citation Article Sourcing Sprint** — Identified 2026-10-22 by article-rater
+   - Articles requiring citation addition (currently accuracy-scored at 3): Gemini 4 Argon Pricing (Oct 15), WebMCP Browser Native (Oct 15), Workday Agent-Ready Tools (Oct 15), Bedrock Default-On (Oct 22), Codex Skill Flywheel (Oct 22), VS Code Reliability Collapse (Oct 10).
+   - Action: Each article should have 3–6 primary citations added. VS Code article needs incident ticket or community thread links. Gemini article needs Google pricing documentation. Once citations are added, accuracy scores can be raised from 3 to 4.
+   - Priority: 🟡 Medium — quality debt, not a new article.
