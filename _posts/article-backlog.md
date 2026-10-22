@@ -1,12 +1,42 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-22T11:07:41+01:00
+last_modified_at: 2026-10-22T13:06:21+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 22 October 2026 (Eleventh Automated Hourly Run)
+
+*One medium-priority conceptual article written this pass: "The Codex Skill Flywheel: How Defined Skills Compound Agent Capability Over Time" — covers the skill authorship gradient (Level 1–4), the flywheel compounding mechanism, the skill sprawl failure mode and its curation remedy, and the AGENTS.md governance connection. No new Codex CLI releases since tenth pass (latest: v0.164.0-alpha.11, v0.163.0-alpha.11.2).*
+
+**Status:** Articles: 2,068. Notes: 1,212. Premium: 123. Substack drafts: 259. Sketchnote PNGs: 933 (0-byte placeholder added this pass).
+
+**Done this pass:**
+- `articles/2026-10-22-codex-skill-flywheel-compounding-capability-agent-knowledge-codex-cli.md` — written; covers skill flywheel mechanism (months 1–4 compounding pattern), Level 1–4 skill authorship gradient, context leverage maths, skill sprawl failure mode, `review-skills` curation remedy, AGENTS.md integration, and starter guidance
+- `substack-drafts/2026-10-22-codex-skill-flywheel-compounding-capability-agent-knowledge-codex-cli.md` — Substack draft written
+- `sketchnotes/articles/2026-10-22-codex-skill-flywheel-compounding-capability-agent-knowledge-codex-cli.png` — placeholder created (0-byte)
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-22-codex-skill-flywheel-compounding-capability-agent-knowledge-codex-cli.png` — placeholder (new)
+- `sketchnotes/articles/2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-worktrees-without-flag-v0163-default-on-migration-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-hooks-as-checkpoints-preventing-silent-failures-multi-step-codex-pipelines-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-subagents-with-verifiable-goals-vague-instructions-auditable-completion-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-persistent-cloud-sessions-tasks-run-after-laptop-closes-codex-cli.png` — missing (carried forward)
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.11 is latest; enterprise auth architecture now complete
+- v0.163.1 stable patch article — watch; v0.163.0-alpha.11.2 backport track targets macOS -32603 bootstrap blocker
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+- Remaining medium-priority article ideas: "AGENTS.md as a Contract", "Context as a Finite Resource", "Remote Threads: The Heartbeat Automation Pattern"
+
+---
 
 ## Article Triage — 22 October 2026 (Tenth Automated Hourly Run)
 
