@@ -1,12 +1,43 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-22T10:07:13+01:00
+last_modified_at: 2026-10-22T11:07:41+01:00
 tags:
   - backlog
   - planning
 ---
 # Article Backlog
+
+## Article Triage — 22 October 2026 (Tenth Automated Hourly Run)
+
+*One high-priority release-track article written this pass: "Bedrock Default-On: How v0.164.0's Alpha.9–11 Sprint Completed the Enterprise Auth Architecture" — covers the AWS Bedrock setup wizard enabled by default (PR #56033), credential caching (PR #56081), request-scoped OAuth lifecycle (PR #56036), managed config enforcement (PR #56055), remote execution credential providers (PR #56049), MITM substitution hardening (PR #56003), and four enterprise MCP auth fixes from alpha.9. Latest releases: v0.164.0-alpha.11 (Oct 22, 04:22 UTC) and v0.163.0-alpha.11.2 (Oct 22, 06:41 UTC — TUI bootstrap backport).*
+
+**Status:** Articles: 2,067. Notes: 1,212. Premium: 123. Substack drafts: 258. Sketchnote PNGs: 932 (0-byte placeholder added this pass).
+
+**Done this pass:**
+- `articles/2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164.md` — written; covers Bedrock wizard default-on (PR #56033), credential grouping (#56023), credential caching (#56081), request-scoped OAuth (#56036), managed config enforcement (#56055), remote execution providers (#56049), MITM hardening (#56003), four enterprise MCP auth fixes (alpha.9), and v0.164.0 stable candidacy assessment
+- `substack-drafts/2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164.md` — Substack draft written
+- `sketchnotes/articles/2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164.png` — placeholder created (0-byte)
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164.png` — placeholder (new)
+- `sketchnotes/articles/2026-10-21-worktrees-without-flag-v0163-default-on-migration-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-hooks-as-checkpoints-preventing-silent-failures-multi-step-codex-pipelines-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-subagents-with-verifiable-goals-vague-instructions-auditable-completion-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-persistent-cloud-sessions-tasks-run-after-laptop-closes-codex-cli.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks.png` — missing (carried forward)
+- `sketchnotes/articles/2026-10-20-codex-v0162-vscode-stuck-prompt-fix-windows-hardening-tui-improvements.png` — missing (carried forward)
+
+**Next windows:**
+- v0.164.0 stable article (expected Oct 23–27) — watch; alpha.11 is latest; enterprise auth architecture now complete
+- v0.163.1 stable patch article — watch; v0.163.0-alpha.11.2 backport track targets macOS -32603 bootstrap blocker
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+- Medium-priority article ideas available: "AGENTS.md as a Contract", "The Codex Skill Flywheel", "Context as a Finite Resource", "Remote Threads: The Heartbeat Automation Pattern"
+
+---
 
 ## Article Triage — 21 October 2026 (Ninth Automated Hourly Run)
 
