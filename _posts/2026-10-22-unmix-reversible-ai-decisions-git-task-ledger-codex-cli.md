@@ -1,7 +1,7 @@
 ---
 title: "Unmix: Reversible AI Decisions and the Git Task Ledger Pattern"
 date: 2026-10-22T08:00:00+00:00
-last_modified_at: 2026-10-22T08:20:41+01:00
+last_modified_at: 2026-10-22T10:07:13+01:00
 parent: "Articles"
 nav_order: 1195
 tags:
@@ -101,7 +101,7 @@ Each entry captures the instruction, the files modified, the agent's decision ra
 
 The power of the dependency graph becomes apparent when you want to undo a decision. If you want to reverse `task-0041` (the OAuth2 token refresh), Unmix does not just `git revert` the associated commits. It shows you the dependency chain:
 
-```
+```text
 $ unmix reverse task-0041
 
 Task task-0041: "Add OAuth2 token refresh to the auth service"
@@ -137,7 +137,7 @@ This enables two new patterns:
 
 Before making a significant change, an agent can query the ledger:
 
-```
+```text
 [Codex, via MCP]
 tool: unmix_query_ledger
 query: "Are there any existing decisions about the auth service token handling?"
@@ -157,7 +157,7 @@ The agent is informed of prior decisions before it makes a new one. This is the 
 
 An agent can request a reversal:
 
-```
+```text
 [Codex, via MCP]
 tool: unmix_reverse
 task_id: task-0041
