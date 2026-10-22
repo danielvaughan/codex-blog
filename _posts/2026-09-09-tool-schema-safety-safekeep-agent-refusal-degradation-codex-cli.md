@@ -3,7 +3,7 @@ title: "Tool Schema Safety: How JSON Specifications Undermine Agent Refusals and
 parent: "Articles"
 nav_order: 1153
 date: 2026-09-09T08:00:00+00:00
-last_modified_at: 2026-10-21T23:07:01+01:00
+last_modified_at: 2026-10-22T01:05:12+01:00
 tags: ["safety", "tool-use", "MCP", "hooks", "AGENTS.md", "schema", "guardrails"]
 ---
 

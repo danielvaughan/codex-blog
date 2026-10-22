@@ -1,7 +1,7 @@
 ---
 title: "Paritok-4B: Intent-Conditioned Context Compression as a Drop-In for Codex CLI's Token Overhead"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-10-21T23:07:01+01:00
+last_modified_at: 2026-10-22T01:05:12+01:00
 tags: ["codex-cli", "context-compression", "token-cost", "paritok", "compaction", "multi-agent", "open-source"]
 ---
 
