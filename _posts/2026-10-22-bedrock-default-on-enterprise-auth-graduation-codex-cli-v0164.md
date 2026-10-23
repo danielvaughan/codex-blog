@@ -1,7 +1,7 @@
 ---
 title: "Bedrock Default-On: How v0.164.0's Alpha.9–11 Sprint Completed the Enterprise Auth Architecture"
 date: 2026-10-22T13:00:00+00:00
-last_modified_at: 2026-10-22T19:06:14+01:00
+last_modified_at: 2026-10-23T03:10:42+01:00
 parent: "Articles"
 nav_order: 1197
 tags:
@@ -26,7 +26,7 @@ copy_edited: true
 
 ---
 
-Three alphas shipped in eighteen hours — alpha.9 at 14:12 UTC on 21 October, alpha.10 at 00:04 UTC on 22 October, alpha.11 at 04:22 UTC on 22 October. Taken together, they complete a theme that has been building across the entire v0.164.0 alpha sprint: graduating the enterprise authentication architecture from experimental to production-ready.
+Three alphas shipped in fourteen hours — alpha.9 at 14:12 UTC on 21 October, alpha.10 at 00:04 UTC on 22 October, alpha.11 at 04:22 UTC on 22 October. Taken together, they complete a theme that has been building across the entire v0.164.0 alpha sprint: graduating the enterprise authentication architecture from experimental to production-ready.
 
 The headline change is the simplest to describe: the AWS Bedrock setup wizard is now enabled by default. But the headline understates what actually landed.
 
