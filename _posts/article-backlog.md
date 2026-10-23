@@ -1,11 +1,33 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-23T13:05:54+01:00
+last_modified_at: 2026-10-23T18:11:01+01:00
 tags:
   - backlog
   - planning
 ---
+
+## Article Triage — 23 October 2026 (Article-Rater Automated Pass)
+
+*article-rater skill pass — rated 9 new articles (Oct 21–23). No articles written this pass; ratings and backlog additions only. Library: 2,071 articles, 123 premium.*
+
+**New article ideas identified:**
+- 🔴 **Agent Wake: The Orchestration Primitive** — write immediately, v0.164.0 stable shipped today
+- 🟠 **/presets as a Team Coordination Layer** — standalone depth piece on team preset distribution
+- 🟠 **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate for GCP enterprises
+- 🟡 **v0.164.0 Regression Retrospective** — write week of Oct 27 once stable has run in production
+- 🟡 **28 Days of Shipping End-of-Sprint Scorecard** — write 1–3 November
+
+**Copy-edit flag:**
+- ⚠️ `2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock.md` has `copy_edited: false` — needs copy-edit before Substack promotion
+
+**Premium candidates from this batch:**
+- Streaming Interrupt Paradox (4.5) — top-tier analysis
+- Unmix: Reversible AI Decisions (4.5) — category-defining pattern piece
+- Codex Skill Flywheel (4.2) — durable framework, Premium if paired with case study
+
+---
+
 
 ## Article Triage — 23 October 2026 (Second Automated Hourly Run)
 

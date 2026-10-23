@@ -1,7 +1,7 @@
 ---
 title: "PerfAgent and the Profiler Feedback Loop: Why Your Coding Agent Stops at Shallow Speedups — and How to Build an Iterative Optimisation Workflow in Codex CLI"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-10-23T13:05:54+01:00
+last_modified_at: 2026-10-23T18:11:01+01:00
 tags: ["codex-cli", "performance-optimisation", "perfagent", "profiler-guided", "PostToolUse", "iterative-refinement", "py-spy", "benchmarks"]
 ---
 
