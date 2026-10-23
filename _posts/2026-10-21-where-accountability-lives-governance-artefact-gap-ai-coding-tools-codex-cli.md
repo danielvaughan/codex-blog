@@ -1,7 +1,7 @@
 ---
 title: "Where Accountability Lives: The Governance Artefact Gap in AI Coding Tools"
 date: 2026-10-21T11:00:00+00:00
-last_modified_at: 2026-10-23T10:30:19+01:00
+last_modified_at: 2026-10-23T11:06:20+01:00
 parent: "Articles"
 nav_order: 1196
 tags:

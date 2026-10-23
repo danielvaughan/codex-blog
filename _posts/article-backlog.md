@@ -1,10 +1,41 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-23T10:30:19+01:00
+last_modified_at: 2026-10-23T11:06:20+01:00
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 23 October 2026 (First Automated Hourly Run)
+
+*One high-priority stable release article written this pass: "Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On" — covers /presets prompt slots (PRs #54380, #54381), /model and /permissions inline (#54378, #54383), image previews in fullscreen transcript (#54216), enterprise MCP auth GA (#55334, #55859, #56001), credential masking (#54309, #54432, #56049), and Bedrock wizard default-on (#56033, #56023). Latest release: v0.164.0 stable (Oct 23, 04:48 UTC).*
+
+**Status:** Articles: 2,070. Notes: 1,212. Premium: 123. Substack drafts: 261. Sketchnote PNGs: 935 (0-byte placeholder added this pass).
+
+**Done this pass:**
+- `articles/2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock.md` — written; covers /presets, /model and /permissions inline, image previews (Kitty/Sixel), enterprise MCP auth GA (three auth paths), credential masking (remote Bash/Zsh/custom providers), Bedrock wizard default-on, and selected bug fixes (compaction safety, session resume, Windows proxy auth, macOS sandbox hardening)
+- `substack-drafts/2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock.md` — Substack draft written
+- `sketchnotes/articles/2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock.png` — placeholder created (0-byte)
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock.png` — placeholder (new)
+- `sketchnotes/articles/2026-10-22-tui-startup-hardening-multi-session-prep-auth-polish-codex-cli-v0164-alpha12.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-22-codex-skill-flywheel-compounding-capability-agent-knowledge-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-worktrees-without-flag-v0163-default-on-migration-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-hooks-as-checkpoints-preventing-silent-failures-multi-step-codex-pipelines-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-subagents-with-verifiable-goals-vague-instructions-auditable-completion-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png` — placeholder (carried forward)
+
+**Next windows:**
+- v0.165.0 alpha sprint — not yet started at time of writing; watch for first alpha
+- v0.163.1 stable patch — no cut yet; users on v0.163.0 should upgrade to v0.164.0
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+- Remaining medium-priority article ideas: "AGENTS.md as a Contract", "Context as a Finite Resource", "Remote Threads: The Heartbeat Automation Pattern"
+
 ---
 
 ## Article Triage — 22 October 2026 (Twelfth Automated Hourly Run)
