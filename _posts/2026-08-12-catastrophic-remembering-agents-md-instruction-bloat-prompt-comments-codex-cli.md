@@ -1,7 +1,7 @@
 ---
 title: "Catastrophic Remembering: Why Your AGENTS.md Keeps Growing and How Prompt Comments Fix It"
 date: 2026-08-12T09:00:00+00:00
-last_modified_at: 2026-10-23T11:06:20+01:00
+last_modified_at: 2026-10-23T13:05:54+01:00
 tags: ["codex-cli", "agents-md", "context-engineering", "prompt-maintenance", "catastrophic-remembering", "instruction-bloat"]
 ---
 

@@ -1,10 +1,42 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-23T11:06:20+01:00
+last_modified_at: 2026-10-23T13:05:54+01:00
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 23 October 2026 (Second Automated Hourly Run)
+
+*One medium-priority release-track article written this pass: "Built-In Google Cloud Vertex AI: Codex CLI Adds a Native GCP Provider" — covers PR #56265 (alpha.11.1 hotfix branch), `model_provider = "gcp"`, Vertex AI endpoint derivation from `GOOGLE_CLOUD_PROJECT`/`GOOGLE_CLOUD_LOCATION`, Application Default Credentials via gcloud, static Vertex model catalogue, supported/unsupported feature matrix, and expected v0.165.0 stable inclusion. Latest release: v0.164.0 stable (Oct 23, 04:48 UTC — unchanged).*
+
+**Status:** Articles: 2,071. Notes: 1,212. Premium: 123. Substack drafts: 262. Sketchnote PNGs: 936 (0-byte placeholder added this pass).
+
+**Done this pass:**
+- `articles/2026-10-23-gcp-vertex-ai-provider-codex-cli-alpha11-1.md` — written; covers built-in GCP Vertex AI provider (PR #56265), config key, env-var endpoint derivation, ADC auth, model catalogue filtering, supported/unsupported feature matrix, v0.165.0 expected landing
+- `substack-drafts/2026-10-23-gcp-vertex-ai-provider-codex-cli-alpha11-1.md` — Substack draft written
+- `sketchnotes/articles/2026-10-23-gcp-vertex-ai-provider-codex-cli-alpha11-1.png` — placeholder created (0-byte)
+
+**Outstanding sketchnotes (require image generation pipeline — not auto-resolvable):**
+- `sketchnotes/articles/2026-10-23-gcp-vertex-ai-provider-codex-cli-alpha11-1.png` — placeholder (new)
+- `sketchnotes/articles/2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-22-tui-startup-hardening-multi-session-prep-auth-polish-codex-cli-v0164-alpha12.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-22-codex-skill-flywheel-compounding-capability-agent-knowledge-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-worktrees-without-flag-v0163-default-on-migration-codex-cli.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-hooks-as-checkpoints-preventing-silent-failures-multi-step-codex-pipelines-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-subagents-with-verifiable-goals-vague-instructions-auditable-completion-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-software-factory-mental-model-one-shot-prompts-liability-codex-cli-aiewf-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-why-review-alone-cant-scale-three-layer-supervision-playbook-codex-cli-esem-2026.png` — placeholder (carried forward)
+- `sketchnotes/articles/2026-10-21-where-accountability-lives-governance-artefact-gap-ai-coding-tools-codex-cli.png` — placeholder (carried forward)
+
+**Next windows:**
+- v0.165.0 alpha sprint — watch; GCP Vertex AI provider (PR #56265) expected to land here
+- v0.163.1 stable patch — no cut yet; users on v0.163.0 should upgrade to v0.164.0
+- 28 Days of Shipping retrospective (Day 28 = Nov 1) — medium priority
+- Remaining medium-priority article ideas: "AGENTS.md as a Contract", "Context as a Finite Resource", "Remote Threads: The Heartbeat Automation Pattern"
+
 ---
 
 ## Article Triage — 23 October 2026 (First Automated Hourly Run)
