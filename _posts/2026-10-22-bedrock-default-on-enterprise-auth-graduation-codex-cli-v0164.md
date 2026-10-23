@@ -1,7 +1,7 @@
 ---
 title: "Bedrock Default-On: How v0.164.0's Alpha.9–11 Sprint Completed the Enterprise Auth Architecture"
 date: 2026-10-22T13:00:00+00:00
-last_modified_at: 2026-10-23T07:06:10+01:00
+last_modified_at: 2026-10-23T10:06:16+01:00
 parent: "Articles"
 nav_order: 1197
 tags:
@@ -94,7 +94,7 @@ Alpha.9 also brought four enterprise MCP auth changes from jif-oai, all targetin
 
 The alpha.9–11 batch completes the enterprise auth architecture that has been the dominant theme of the v0.164.0 alpha sprint:
 
-- **alpha.6** (Oct 19): Observation hooks, zstd compression, catalog cache
+- **alpha.6** (Oct 19): Observation hooks, zstd compression, catalogue cache
 - **alpha.7–8** (Oct 20–21): MCP OAuth default-on, enterprise MCP account grant reuse, zero-trust agent runtime
 - **alpha.9–11** (Oct 21–22): Bedrock default-on, credential caching, remote execution providers, managed config enforcement, MCP auth fixes
 
