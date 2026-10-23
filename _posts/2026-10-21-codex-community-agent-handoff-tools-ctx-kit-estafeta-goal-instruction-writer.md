@@ -1,7 +1,7 @@
 ---
 title: "The Codex Community Is Building What OpenAI Hasn't Shipped Yet"
 date: 2026-10-21T08:00:00+00:00
-last_modified_at: 2026-10-23T18:11:01+01:00
+last_modified_at: 2026-10-23T23:04:40+01:00
 parent: "Articles"
 nav_order: 1192
 tags:
