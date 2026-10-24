@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On"
 date: 2026-10-23T08:00:00+00:00
-last_modified_at: 2026-10-23T23:04:40+01:00
+last_modified_at: 2026-10-24T03:11:31+01:00
 parent: "Articles"
 nav_order: 1200
 tags:
@@ -26,7 +26,7 @@ copy_edited: true
 
 ---
 
-Codex CLI v0.164.0 reached stable on 23 October 2026 after a twelve-iteration alpha sprint (alpha.1 through alpha.12, running 17–22 October). The release brings prompt management via `/presets`, inline image previews, the graduation of enterprise MCP authentication to general availability, Bedrock setup defaulting on, and a credential masking layer for remote execution environments.
+Codex CLI v0.164.0 reached stable on 23 October 2026 after a twelve-iteration alpha sprint (alpha.1 through alpha.12, running 16–22 October). The release brings prompt management via `/presets`, inline image previews, the graduation of enterprise MCP authentication to general availability, Bedrock setup defaulting on, and a credential masking layer for remote execution environments.
 
 This article covers the user-facing features in v0.164.0 stable. For the enterprise auth architecture that formed the backbone of the alpha sprint, see [Bedrock Default-On: How v0.164.0's Alpha.9–11 Sprint Completed the Enterprise Auth Architecture](../2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164/) and [MCP OAuth Default-On and the Enterprise Auth Overhaul](../2026-10-21-mcp-oauth-default-on-enterprise-auth-overhaul-codex-cli-v0164/).
 
