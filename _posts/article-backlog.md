@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-24T03:11:31+01:00
+last_modified_at: 2026-10-24T07:06:46+01:00
 tags:
   - backlog
   - planning
@@ -12,7 +12,7 @@ tags:
 *article-rater skill pass — rated 9 new articles (Oct 21–23). No articles written this pass; ratings and backlog additions only. Library: 2,071 articles, 123 premium.*
 
 **New article ideas identified:**
-- 🔴 **Agent Wake: The Orchestration Primitive** — write immediately, v0.164.0 stable shipped today
+- ✅ **Agent Wake: The Orchestration Primitive** — written 2026-10-24 → `articles/2026-10-24-agent-wake-orchestration-primitive-codex-cli-v0164.md`
 - 🟠 **/presets as a Team Coordination Layer** — standalone depth piece on team preset distribution
 - 🟠 **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate for GCP enterprises
 - 🟡 **v0.164.0 Regression Retrospective** — write week of Oct 27 once stable has run in production
