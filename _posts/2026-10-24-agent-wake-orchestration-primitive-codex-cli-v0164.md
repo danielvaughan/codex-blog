@@ -2,7 +2,7 @@
 title: "Agent Wake: The Orchestration Primitive That Changes Multi-Session Workflows"
 parent: "Articles"
 date: 2026-10-24T08:00:00+00:00
-last_modified_at: 2026-10-24T10:28:25+01:00
+last_modified_at: 2026-10-24T11:34:40+01:00
 nav_order: 1202
 tags: ["codex-cli", "v0.164.0", "agent-wake", "multi-agent", "orchestration", "multi-environment", "feature-flags", "architecture"]
 copy_edited: true
@@ -123,7 +123,7 @@ The instruction is natural language, but the intent is explicit: the agent knows
 
 For pipelines where stage B should only run if stage A succeeded:
 
-```
+```text
 AGENTS.md:
   When posting a wake signal, include: status (success | failure),
   artefact path (if success), and error summary (if failure).

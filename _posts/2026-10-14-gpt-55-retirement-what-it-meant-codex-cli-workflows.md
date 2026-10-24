@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.5 Is Gone: What It Actually Meant for Codex CLI Workflows"
 date: 2026-10-14T08:00:00+00:00
-last_modified_at: 2026-10-24T10:28:25+01:00
+last_modified_at: 2026-10-24T11:34:40+01:00
 parent: "Articles"
 nav_order: 1181
 tags:
