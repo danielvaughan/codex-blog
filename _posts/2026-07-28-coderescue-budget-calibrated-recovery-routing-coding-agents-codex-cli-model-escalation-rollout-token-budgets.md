@@ -1,7 +1,7 @@
 ---
 title: "CodeRescue and Budget-Calibrated Recovery Routing: When Your Codex CLI Agent Should Retry Cheap and When It Should Escalate"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags: ["codex-cli", "coderescue", "recovery-routing", "model-escalation", "rollout-token-budgets", "sol-terra-luna", "cost-optimisation", "conformal-risk-control", "failure-recovery", "named-profiles"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-plugin-ecosystem-building-distributing-marketplace-plugins"
 tags: ["codex-cli", "plugins", "marketplace", "mcp", "skills", "hooks", "developer-experience"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 ---
 # Codex CLI Plugin Ecosystem: Building, Distributing, and Managing Marketplace Plugins
 

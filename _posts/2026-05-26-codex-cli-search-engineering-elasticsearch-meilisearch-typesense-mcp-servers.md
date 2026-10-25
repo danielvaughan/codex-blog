@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-search-engineering-elasticsearch-meilisearch-typesense-mcp-servers"
 tags: ["codex-cli", "search-engineering", "elasticsearch", "meilisearch", "typesense", "mcp", "agent-workflows"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 ---
 # Codex CLI for Search Engineering: Elasticsearch, Meilisearch, and Typesense MCP Servers
 

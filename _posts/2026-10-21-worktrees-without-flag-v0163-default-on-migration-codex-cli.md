@@ -3,7 +3,7 @@ title: "Worktrees Without the Flag: Migrating to v0.163.0's Default-On Managed W
 parent: "Articles"
 nav_order: 1200
 date: 2026-10-21T13:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags:
   - codex-cli
   - v0.163.0

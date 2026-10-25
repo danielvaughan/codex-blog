@@ -1,7 +1,7 @@
 ---
 title: "The Proactive Quality Agent: Building a Unified Scanning Architecture in Codex CLI"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags: ["codex-cli", "proactive-quality", "security-scanning", "PostToolUse-hooks", "AGENTS.md", "MCP", "CI-pipeline", "VulnGym", "Active-SWE", "Codex-Security-CLI"]
 ---
 

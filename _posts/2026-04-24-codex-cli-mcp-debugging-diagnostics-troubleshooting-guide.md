@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-mcp-debugging-diagnostics-troubleshooting-guide"
 tags: ["mcp", "debugging", "diagnostics", "troubleshooting", "configuration", "hooks", "observability", "codex-cli"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 ---
 # MCP Debugging and Diagnostics in Codex CLI: The Complete Troubleshooting Guide
 

@@ -1,7 +1,7 @@
 ---
 title: "The Bitter Lesson of Tool Calling: Why Programmatic Tool Use Outperforms JSON — and What It Means for Codex CLI"
 date: 2026-08-12T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags: ["codex-cli", "tool-calling", "MCP", "function-calling", "programmatic-tool-use", "agent-architecture", "BFCL"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "The Guardian False-Positive Crisis: When Codex CLI's Safety Classifier Blocks Legitimate Development — and How to Fight Back"
 date: 2026-07-18T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags: ["codex-cli", "guardian", "safety-classifier", "false-positive", "trusted-access", "cyber-safety", "v0.144", "regression", "defensive-security"]
 ---
 

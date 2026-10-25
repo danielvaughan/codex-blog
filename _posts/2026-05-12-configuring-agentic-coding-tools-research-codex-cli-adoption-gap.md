@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-configuring-agentic-coding-tools-research-codex-cli-adoption-gap"
 tags: ["codex-cli", "research", "configuration", "AGENTS.md", "skills", "subagents", "adoption", "best-practices"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 ---
 # How Developers Actually Configure Agentic Coding Tools: What 2,926 Repositories Reveal About the Codex CLI Adoption Gap
 

@@ -2,7 +2,7 @@
 title: "Cross-Model Adversarial Review: Using Multiple AI Models to Catch Agent Blind Spots"
 description: "The moment your coding agent reviews its own output, you have a problem. Not because the agent is dishonest."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags:
   - workflow-patterns
   - code-review

@@ -1,7 +1,7 @@
 ---
 title: "Atlas Sunsets on 9 August: Migrating Browser-Agent Workflows to Codex CLI, Playwright MCP, and the ChatGPT Desktop App"
 date: 2026-08-01T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags: ["atlas-sunset", "browser-agent", "chatgpt-desktop", "playwright-mcp", "codex-cli", "migration", "computer-use", "chatgpt-work", "browser-automation", "developer-workflows"]
 ---
 

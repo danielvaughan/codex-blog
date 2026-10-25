@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1083
 title: "Agent Retrieval Bench: Why Codex CLI Misses Critical Repository Files in 27–29% of Tasks — and What to Do About It"
 date: 2026-09-01T10:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags: ["codex-cli", "context-retrieval", "benchmarks", "repository-navigation", "AGENTS.md", "context-management", "evaluation"]
 ---
 

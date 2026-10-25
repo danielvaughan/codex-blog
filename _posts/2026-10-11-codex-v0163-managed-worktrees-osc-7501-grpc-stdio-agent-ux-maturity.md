@@ -3,7 +3,7 @@ title: "Reading the v0.163.0 Alpha Sprint: Worktrees, Terminal Signals, and the 
 parent: "Articles"
 nav_order: 1179
 date: 2026-10-11T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags: ["codex-cli", "v0.163.0", "git-worktrees", "terminal-integration", "grpc", "observability", "agent-ux", "release-analysis"]
 copy_edited: true
 ---

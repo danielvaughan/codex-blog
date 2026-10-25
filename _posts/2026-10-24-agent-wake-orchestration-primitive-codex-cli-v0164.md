@@ -2,7 +2,7 @@
 title: "Agent Wake: The Orchestration Primitive That Changes Multi-Session Workflows"
 parent: "Articles"
 date: 2026-10-24T08:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 nav_order: 1202
 tags: ["codex-cli", "v0.164.0", "agent-wake", "multi-agent", "orchestration", "multi-environment", "feature-flags", "architecture"]
 copy_edited: true
@@ -72,7 +72,7 @@ Agent wake ships in v0.164.0 behind a feature flag. Enable it in `config.toml`:
 
 ```toml
 [features]
-agent_wake = true
+wake_on_agent_messages = true
 ```
 
 The flag follows the same opt-in pattern established by `multi_env_copy_file` in alpha.1. Both flags are in the `[features]` block and are disabled by default. This is intentional: agent wake changes the session lifecycle in ways that have security and cost implications (see below), so the conservative default is off.
@@ -89,7 +89,7 @@ Agent wake's most powerful use case emerges in combination with `multi_env_copy_
 
 ```toml
 [features]
-agent_wake = true
+wake_on_agent_messages = true
 multi_env_copy_file = true
 ```
 
@@ -114,7 +114,7 @@ This pattern is the "estafeta" — the relay pipeline — that was previously on
 # Dispatch the first stage with agent wake enabled
 codex "Run the full integration test suite against the release branch.
 When complete, post results to the session and wake me — I am about to go idle." \
-  --features agent_wake
+  --features wake_on_agent_messages
 ```
 
 The instruction is natural language, but the intent is explicit: the agent knows to post a wake signal when done. Root session goes idle. You close the laptop. When the tests complete (or fail), the session re-activates with the result, ready for the next prompt.
@@ -140,7 +140,7 @@ The root session re-activates, reads the structured status field, and either con
 4. Agent B wakes root session in production environment only if tests pass.
 5. Root session in production dispatches Agent C: deploy.
 
-Each environment is isolated (different Cloud environments, different worktrees, different credential scopes). The pipeline traverses environment boundaries via `multi_env_copy_file` and `agent_wake` without a human courier at any stage.
+Each environment is isolated (different Cloud environments, different worktrees, different credential scopes). The pipeline traverses environment boundaries via `multi_env_copy_file` and `wake_on_agent_messages` without a human courier at any stage.
 
 ---
 
@@ -194,10 +194,10 @@ What v0.164.0 does not yet provide is a fully durable pipeline substrate — the
 [features]
 # Allow background agents to wake idle root sessions.
 # Disabled by default. Enable for long-running pipeline workflows.
-agent_wake = true
+wake_on_agent_messages = true
 
 # Allow agents to copy files between Codex Cloud environments.
-# Pairs naturally with agent_wake for cross-environment pipelines.
+# Pairs naturally with wake_on_agent_messages for cross-environment pipelines.
 multi_env_copy_file = true
 
 [session]

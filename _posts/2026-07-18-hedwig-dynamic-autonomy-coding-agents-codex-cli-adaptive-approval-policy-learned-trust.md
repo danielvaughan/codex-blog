@@ -1,7 +1,7 @@
 ---
 title: "Hedwig and the Case for Dynamic Autonomy: What Learned Trust Means for Codex CLI Approval Policies"
 date: 2026-07-18T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags: ["codex-cli", "dynamic-autonomy", "hedwig", "approval-policy", "adaptive-trust", "permission-modes", "human-oversight", "coding-agents"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-dependency-auditing-licence-compliance-sbom-generation-supply-chain-policy"
 tags: ["codex-cli", "sbom", "licence-compliance", "supply-chain", "cyclonedx", "spdx", "syft", "dependency-audit", "AGENTS.md", "codex-exec"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 ---
 # Codex CLI for Automated Dependency Auditing: Licence Compliance, SBOM Generation, and Supply Chain Policy Enforcement
 

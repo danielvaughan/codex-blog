@@ -1,7 +1,7 @@
 ---
 title: "SecTDD and Security Tests as Executable Specifications: Why Showing Tests Upfront Boosts Secure Code Generation by 19 Percentage Points — and How to Wire It into Codex CLI"
 date: 2026-08-12T09:00:00+00:00
-last_modified_at: 2026-10-24T11:34:40+01:00
+last_modified_at: 2026-10-25T03:10:50Z
 tags: ["codex-cli", "SecTDD", "security-testing", "TDD", "CWE", "executable-specifications", "PostToolUse", "secure-code-generation", "test-driven-security"]
 ---
 
