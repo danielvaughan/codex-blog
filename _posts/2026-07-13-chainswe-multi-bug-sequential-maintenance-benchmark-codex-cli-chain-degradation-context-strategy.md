@@ -1,7 +1,7 @@
 ---
 title: "ChainSWE and the 70% Drop: Why Sequential Bug-Fixing Breaks Every Coding Agent — and How to Wire Chain-Resilient Maintenance into Codex CLI"
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-10-26T07:16:39Z
+last_modified_at: 2026-10-26T08:20:08Z
 tags: ["codex-cli", "chainswe", "benchmark", "multi-bug", "sequential-maintenance", "context-degradation", "session-management", "AGENTS.md", "compaction", "chain-error"]
 ---
 

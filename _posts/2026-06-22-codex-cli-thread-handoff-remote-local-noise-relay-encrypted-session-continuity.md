@@ -5,7 +5,7 @@ timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-codex-cli-thread-handoff-remote-local-noise-relay-encrypted-session-continuity"
 tags: ["codex-cli", "thread-handoff", "remote-execution", "noise-protocol", "session-continuity", "encrypted-relay", "worktree", "v0.141"]
 date: 2026-06-22T09:00:00+00:00
-last_modified_at: 2026-10-26T07:16:39Z
+last_modified_at: 2026-10-26T08:20:08Z
 ---
 # Codex CLI Thread Handoff: Seamless Session Continuity Between Local and Remote Hosts
 

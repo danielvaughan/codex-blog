@@ -1,7 +1,7 @@
 ---
 title: "Terminal Agents: A Taxonomy of AI Agents in Command-Line Environments and Where Codex CLI Sits"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-10-26T07:16:39Z
+last_modified_at: 2026-10-26T08:20:08Z
 tags: ["terminal-agents", "codex-cli", "survey", "harness", "benchmark", "evaluation", "competence-profile", "taxonomy"]
 ---
 

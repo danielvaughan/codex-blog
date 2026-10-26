@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-chaos-engineering-resilience-testing-fault-injection-experiment-generation"
 tags: ["codex-cli", "chaos-engineering", "resilience-testing", "fault-injection", "chaos-mesh", "chaos-toolkit", "kubernetes", "steady-state-hypothesis", "reliability"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-10-26T07:16:39Z
+last_modified_at: 2026-10-26T08:20:08Z
 ---
 # Codex CLI for Chaos Engineering: Agent-Driven Experiment Generation, Fault Injection Manifests, and Resilience Validation Pipelines
 

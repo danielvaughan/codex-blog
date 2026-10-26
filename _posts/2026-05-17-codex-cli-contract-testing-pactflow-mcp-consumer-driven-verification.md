@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-contract-testing-pactflow-mcp-consumer-driven-verification"
 tags: ["contract-testing", "pactflow", "mcp", "consumer-driven", "pact", "ci-cd", "microservices", "codex-exec"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-10-26T07:16:39Z
+last_modified_at: 2026-10-26T08:20:08Z
 ---
 # Codex CLI for Contract Testing: PactFlow MCP Integration, Consumer-Driven Test Generation, and CI Verification Pipelines
 

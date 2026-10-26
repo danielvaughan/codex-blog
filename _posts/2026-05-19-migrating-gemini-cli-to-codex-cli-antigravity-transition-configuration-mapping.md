@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-migrating-gemini-cli-to-codex-cli-antigravity-transition-configuration-mapping"
 tags: ["codex-cli", "gemini-cli", "antigravity", "migration", "configuration", "hooks", "skills", "google-io-2026"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-10-26T07:16:39Z
+last_modified_at: 2026-10-26T08:20:08Z
 ---
 # Migrating from Gemini CLI to Codex CLI: A Practical Guide After the Antigravity Transition
 

@@ -3,7 +3,7 @@ title: "HEART: Why Natural Language Tool Interfaces Outperform Raw API Schemas â
 parent: "Articles"
 nav_order: 1140
 date: 2026-09-07T08:00:00+00:00
-last_modified_at: 2026-10-26T07:16:39Z
+last_modified_at: 2026-10-26T08:20:08Z
 tags: ["codex-cli", "mcp", "tool-design", "tool-primitives", "harness-engineering", "agent-native", "context-management"]
 ---
 

@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-azure-devops-mcp-server-work-items-pipelines-repos-agent-workflows"
 tags: ["codex-cli", "azure-devops", "mcp", "work-items", "pipelines", "ci-cd", "enterprise", "agent-workflows"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-10-26T07:16:39Z
+last_modified_at: 2026-10-26T08:20:08Z
 ---
 # Codex CLI for Azure DevOps: MCP Server, Work Item Triage, Pipeline Debugging, and Agent Workflows
 

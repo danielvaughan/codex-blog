@@ -1,7 +1,7 @@
 ---
 title: "DeltaBox and the Millisecond Checkpoint Problem: What Change-Based Sandbox State Management Means for Codex CLI's Exploration Budget"
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-10-26T07:16:39Z
+last_modified_at: 2026-10-26T08:20:08Z
 tags: ["codex-cli", "sandbox", "checkpoint", "rollback", "DeltaBox", "SWE-bench", "MCTS", "state-exploration", "Landlock", "Seatbelt", "Bubblewrap", "DeltaFS", "DeltaCR"]
 ---
 
