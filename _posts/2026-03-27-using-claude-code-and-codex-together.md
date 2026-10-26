@@ -2,7 +2,7 @@
 title: "Using Claude Code and Codex Together: The Multi-Tool Strategy"
 description: "Claude Code and Codex CLI are not competitors. The practitioners who get the most out of AI-assisted development treat them as complementary tools with."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags:
   - competitive-landscape
   - claude-code

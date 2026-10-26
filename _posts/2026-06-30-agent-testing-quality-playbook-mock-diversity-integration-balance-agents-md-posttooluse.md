@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-agent-testing-quality-playbook-mock-diversity-integration-balance-agents-md-posttooluse"
 tags: ["testing", "mocking", "test-quality", "AGENTS.md", "codex-cli", "test-doubles", "integration-testing", "PostToolUse", "hooks", "premium"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # The Agent Testing Quality Playbook: Mock Diversity, Integration Balance, and AGENTS.md Templates for Codex CLI
 

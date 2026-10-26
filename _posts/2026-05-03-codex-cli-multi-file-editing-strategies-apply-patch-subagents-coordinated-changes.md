@@ -6,7 +6,7 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-multi-file-editing-strategies-apply-patch-subagents-coordinated-changes"
 tags: ["codex-cli", "multi-file-editing", "apply-patch", "subagents", "refactoring", "large-codebase", "best-practices"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Codex CLI Multi-File Editing Strategies: Coordinating Changes Across Large Pull Requests with apply_patch and Subagents
 

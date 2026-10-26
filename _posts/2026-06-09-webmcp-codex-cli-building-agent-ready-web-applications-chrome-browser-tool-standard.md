@@ -6,7 +6,7 @@ timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-webmcp-codex-cli-building-agent-ready-web-applications-chrome-browser-tool-standard"
 tags: ["codex-cli", "webmcp", "mcp", "chrome", "browser", "agents", "web-standards", "google", "testing", "frontend"]
 date: 2026-06-09T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # WebMCP and Codex CLI: Building Agent-Ready Web Applications with Chrome's Browser-Tool Standard
 

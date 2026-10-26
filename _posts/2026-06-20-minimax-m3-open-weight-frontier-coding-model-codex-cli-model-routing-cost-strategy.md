@@ -5,7 +5,7 @@ timestamp: 2026-06-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-minimax-m3-open-weight-frontier-coding-model-codex-cli-model-routing-cost-strategy"
 tags: ["codex-cli", "minimax-m3", "open-weight-models", "model-routing", "swe-bench", "cost-optimisation", "named-profiles"]
 date: 2026-06-20T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # MiniMax M3: What the First Open-Weight Model to Beat GPT-5.5 on SWE-Bench Pro Means for Codex CLI Model Routing
 

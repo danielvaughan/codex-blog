@@ -6,7 +6,7 @@ timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-github-actions-best-practices-limitations-gotchas"
 tags: ["codex-cli", "github-actions", "ci-cd", "automation", "sandbox", "security", "best-practices"]
 date: 2026-05-22T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Codex CLI in GitHub Actions: Best Practices, Limitations, and Gotchas
 

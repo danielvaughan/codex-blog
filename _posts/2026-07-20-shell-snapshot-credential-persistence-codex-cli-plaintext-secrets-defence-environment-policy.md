@@ -1,7 +1,7 @@
 ---
 title: "The Shell Snapshot Blind Spot: Why Codex CLI Persists Your API Keys in Plaintext — and How to Defend Against It Today"
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "security", "shell-snapshots", "credential-leakage", "shell-environment-policy", "secrets-management", "defence-in-depth"]
 ---
 

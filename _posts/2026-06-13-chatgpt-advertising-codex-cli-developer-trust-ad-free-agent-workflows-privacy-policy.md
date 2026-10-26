@@ -6,7 +6,7 @@ timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-chatgpt-advertising-codex-cli-developer-trust-ad-free-agent-workflows-privacy-policy"
 tags: ["codex-cli", "advertising", "privacy", "trust", "authentication", "api-key", "chatgpt-login", "enterprise", "data-governance", "sponsored-recommendations"]
 date: 2026-06-13T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # ChatGPT Advertising Arrives: What Sponsored Recommendations Mean for Codex CLI Developer Trust and Ad-Free Agent Workflows
 

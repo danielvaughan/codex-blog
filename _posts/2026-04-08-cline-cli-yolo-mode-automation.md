@@ -2,7 +2,7 @@
 title: "Cline CLI 2.0: The YOLO-Mode Automation Engine for CI/CD Pipelines"
 description: "Cline CLI 2.0, released on 14 February 2026, reframes the popular VS Code coding agent as a first-class terminal citizen."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags:
   - competitive-landscape
   - competitor-tools

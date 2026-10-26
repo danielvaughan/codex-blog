@@ -5,7 +5,7 @@ timestamp: 2026-06-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-10-codex-cli-terraform-infrastructure-as-code-mcp-server-terrashark-pulumi-agent-skills"
 tags: ["codex-cli", "terraform", "infrastructure-as-code", "mcp", "terrashark", "pulumi", "iac", "devops", "agent-skills"]
 date: 2026-06-10T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Codex CLI for Terraform and Infrastructure as Code: The MCP Server, TerraShark, and Agent-Driven IaC Workflows
 

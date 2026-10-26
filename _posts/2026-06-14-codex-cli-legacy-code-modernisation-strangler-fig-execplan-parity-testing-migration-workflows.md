@@ -5,7 +5,7 @@ timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-codex-cli-legacy-code-modernisation-strangler-fig-execplan-parity-testing-migration-workflows"
 tags: ["codex-cli", "legacy-modernisation", "strangler-fig", "execplan", "parity-testing", "code-migration", "COBOL", "refactoring"]
 date: 2026-06-14T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Legacy Code Modernisation with Codex CLI: The Strangler Fig Pattern, ExecPlans, and Parity-First Migration Workflows
 

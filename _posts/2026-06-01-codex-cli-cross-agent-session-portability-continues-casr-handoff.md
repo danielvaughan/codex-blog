@@ -5,7 +5,7 @@ timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-cross-agent-session-portability-continues-casr-handoff"
 tags: ["codex-cli", "session-portability", "cross-agent", "continues", "casr", "workflow", "multi-agent"]
 date: 2026-06-01T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Cross-Agent Session Portability: Moving Codex CLI Sessions Between Coding Agents
 

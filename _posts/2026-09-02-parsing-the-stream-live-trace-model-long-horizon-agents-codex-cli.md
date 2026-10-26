@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1103
 title: "Parsing the Stream: What a Live Trace Model Reveals About Keeping Long-Horizon Agents on Track — and What It Means for Codex CLI"
 date: 2026-09-02T22:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "long-horizon", "trace-management", "compaction", "context-management", "observability", "benchmarks"]
 ---
 

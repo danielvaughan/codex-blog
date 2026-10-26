@@ -1,7 +1,7 @@
 ---
 title: "ATLAS and Automata Learning for Agent Strategy Discovery: What Finite-State Models Mean for Your Codex CLI Rollout Traces"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "rollout-traces", "automata-learning", "agent-explainability", "ATLAS", "finite-state-models", "OTLP", "strategy-discovery", "Alergia", "trace-abstraction"]
 ---
 

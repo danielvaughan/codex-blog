@@ -1,7 +1,7 @@
 ---
 title: "BrowserStack Test Companion and Codex CLI: Closing the Verification Gap with Agentic Testing Pipelines"
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "browserstack", "test-companion", "mcp", "testing", "posttooluse", "hooks", "agentic-testing", "verification", "ci-cd"]
 ---
 

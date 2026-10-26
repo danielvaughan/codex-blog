@@ -2,7 +2,7 @@
 title: "Karpathy's LLM Knowledge Bases: The Same Flywheel We've Been Running for Six Weeks"
 description: "On April 11, 2026, Andrej Karpathy posted a detailed description of his workflow for building personal knowledge bases with LLMs. He described raw data."
 date: 2026-04-11T17:30:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags:
   - karpathy
   - knowledge-base

@@ -2,7 +2,7 @@
 title: "Evaluating Codex CLI Agents with Promptfoo: Trajectory Assertions, Cost Guards, and Structured Grading"
 description: "Standard LLM evals check whether a model returns the right text. Agent evals are a different beast entirely: two agents can produce identical final outputs."
 date: 2026-04-11T21:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["evaluation", "promptfoo", "testing", "codex-cli", "trajectory-assertions", "cost-management"]
 type: Technical Article
 timestamp: 2026-04-11T22:00:00+01:00

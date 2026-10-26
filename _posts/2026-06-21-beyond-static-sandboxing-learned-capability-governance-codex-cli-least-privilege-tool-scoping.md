@@ -5,7 +5,7 @@ timestamp: 2026-06-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-21-beyond-static-sandboxing-learned-capability-governance-codex-cli-least-privilege-tool-scoping"
 tags: ["codex-cli", "security", "permission-profiles", "least-privilege", "capability-governance", "Aethelgard", "NemoClaw", "tool-scoping", "sandbox"]
 date: 2026-06-21T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Beyond Static Sandboxing: What Learned Capability Governance Means for Codex CLI Least-Privilege Tool Scoping
 

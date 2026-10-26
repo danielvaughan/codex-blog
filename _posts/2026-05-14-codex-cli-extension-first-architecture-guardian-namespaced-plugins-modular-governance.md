@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-extension-first-architecture-guardian-namespaced-plugins-modular-governance"
 tags: ["codex-cli", "architecture", "extensions", "plugins", "guardian", "namespacing", "governance", "enterprise", "v0.131"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Codex CLI's Extension-First Architecture: Guardian as a Plugin, Namespaced Extensions, and Modular Governance
 

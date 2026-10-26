@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-gitlab-ci-code-quality-reports-security-remediation-pipelines"
 tags: ["codex-cli", "codex-exec", "gitlab-ci", "code-quality", "codeclimate", "sast", "security-remediation", "ci-cd", "pipeline-automation"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Codex CLI on GitLab CI: Generating CodeClimate Quality Reports and Automated SAST Remediation Pipelines
 

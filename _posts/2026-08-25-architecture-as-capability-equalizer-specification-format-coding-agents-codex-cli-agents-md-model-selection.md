@@ -1,7 +1,7 @@
 ---
 title: "Architecture as Capability Equalizer: How Specification Format Transforms Coding Agent Performance — and What It Means for Codex CLI"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "specification-format", "AGENTS.md", "model-selection", "OpenAPI", "TypeScript-contracts", "capability-equalizer", "config-toml", "named-profiles"]
 ---
 

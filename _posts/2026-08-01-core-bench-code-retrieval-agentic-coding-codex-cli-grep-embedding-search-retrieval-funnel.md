@@ -1,7 +1,7 @@
 ---
 title: "CORE-Bench and the Code Retrieval Gap: Why Your Agent's grep Habit Isn't Enough — and How to Build a Retrieval Funnel in Codex CLI"
 date: 2026-08-01T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "code-retrieval", "CORE-Bench", "grep", "embedding-search", "MCP", "agentic-coding", "benchmark"]
 ---
 

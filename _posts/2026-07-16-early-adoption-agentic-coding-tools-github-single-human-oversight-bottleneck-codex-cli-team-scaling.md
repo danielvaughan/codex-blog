@@ -1,7 +1,7 @@
 ---
 title: "The Single-Human Oversight Bottleneck: What 25,000 Agentic Pull Requests Reveal About Adoption — and How Codex CLI Teams Can Break Through It"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "coding-agents", "adoption", "github", "team-configuration", "Guardian", "approval-policy", "AGENTS.md", "research"]
 ---
 # The Single-Human Oversight Bottleneck: What 25,000 Agentic Pull Requests Reveal About Adoption — and How Codex CLI Teams Can Break Through It

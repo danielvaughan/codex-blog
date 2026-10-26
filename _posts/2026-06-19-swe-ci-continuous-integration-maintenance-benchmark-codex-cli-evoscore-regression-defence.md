@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-swe-ci-continuous-integration-maintenance-benchmark-codex-cli-evoscore-regression-defence"
 tags: ["codex-cli", "swe-ci", "benchmark", "continuous-integration", "maintainability", "regression", "hooks", "PostToolUse", "EvoScore", "code-quality"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # SWE-CI: What the Continuous Integration Maintenance Benchmark Means for Codex CLI Regression Defence
 

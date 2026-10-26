@@ -2,7 +2,7 @@
 title: "Codex CLI + GitHub Actions: The Complete Integration Guide"
 description: "The openai/codex-action GitHub Action lets you run the Codex CLI inside any GitHub Actions workflow — gating PRs on AI-driven code review, auto-fixing."
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags:
   - ci-cd
   - github-actions

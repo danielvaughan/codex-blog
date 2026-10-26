@@ -2,7 +2,7 @@
 title: "A2A Meets MCP: The Multi-Agent Protocol Stack and What It Means for Codex"
 description: "Every multi-agent system needs two things: a way for agents to reach tools and data, and a way for agents to reach each other. Until recently, the agentic."
 date: 2026-04-09T02:13:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags:
   - a2a
   - mcp

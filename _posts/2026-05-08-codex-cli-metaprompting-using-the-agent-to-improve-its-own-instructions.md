@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-metaprompting-using-the-agent-to-improve-its-own-instructions"
 tags: ["codex-cli", "metaprompting", "AGENTS.md", "skills", "prompt-engineering", "workflow-optimisation"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Codex CLI Metaprompting: Using the Agent to Improve Its Own Instructions
 

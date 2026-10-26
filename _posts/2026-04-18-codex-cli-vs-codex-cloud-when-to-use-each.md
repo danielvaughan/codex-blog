@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-cli-vs-codex-cloud-when-to-use-each"
 tags: ["codex-cli", "codex-cloud", "architecture", "decision-framework", "workflow"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # Codex CLI vs Codex Cloud: When to Use Each
 

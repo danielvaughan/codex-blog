@@ -6,7 +6,7 @@ timestamp: 2026-05-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-20-codex-doctor-diagnostics-command-troubleshooting-support-ready-reports"
 tags: ["codex-cli", "diagnostics", "troubleshooting", "codex-doctor", "v0.131.0", "devtools", "support"]
 date: 2026-05-20T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # codex doctor: The Diagnostics Command That Replaces Manual Log Archaeology
 

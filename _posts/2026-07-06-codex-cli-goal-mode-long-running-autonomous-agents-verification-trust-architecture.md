@@ -1,7 +1,7 @@
 ---
 title: "The /goal Command and the Verification Problem: Long-Running Autonomous Agents in Codex CLI"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "goal-mode", "autonomous-agents", "verification", "trust-architecture", "token-budgets", "long-running-tasks"]
 ---
 

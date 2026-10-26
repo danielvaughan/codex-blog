@@ -1,7 +1,7 @@
 ---
 title: "Self-Improving Coding Agents Through Accumulated Behavioural Rules: What a Closed-Loop Framework Means for Your AGENTS.md"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "agents-md", "behavioural-rules", "self-improving-agents", "code-review", "closed-loop-learning", "agent-memory"]
 ---
 

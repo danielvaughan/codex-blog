@@ -1,7 +1,7 @@
 ---
 title: "The Encrypted Delegation Problem: Why Codex CLI's Multi-Agent V2 Hides What Your Sub-Agents Were Told — and What It Means for Enterprise Audit Trails"
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "multi-agent", "encryption", "auditability", "enterprise", "compliance", "EU-AI-Act", "sub-agents", "delegation", "transparency"]
 ---
 

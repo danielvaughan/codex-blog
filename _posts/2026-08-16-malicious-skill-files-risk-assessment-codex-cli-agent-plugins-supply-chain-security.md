@@ -1,7 +1,7 @@
 ---
 title: "Malicious Skill Files and the Agent Plugins Supply Chain: What 2,826 Adversarial Skills Reveal About Your Codex CLI Plugin Security Posture"
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "agent-plugins", "security", "skill-files", "supply-chain", "MITRE-ATT&CK", "sandbox"]
 ---
 

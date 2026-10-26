@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags:
   - backlog
   - planning
@@ -19,7 +19,7 @@ tags:
 - 🟡 **28 Days of Shipping End-of-Sprint Scorecard** — write 1–3 November
 
 **Copy-edit flag:**
-- ⚠️ `2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock.md` has `copy_edited: false` — needs copy-edit before Substack promotion
+- ✅ `2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock.md` — copy-edit complete (`copy_edited: true` confirmed 2026-10-26). Ready for Substack promotion.
 
 **Premium candidates from this batch:**
 - Streaming Interrupt Paradox (4.5) — top-tier analysis

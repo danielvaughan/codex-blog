@@ -1,7 +1,7 @@
 ---
 title: "When Coding Agents Attack: What the Hermes–DeepSeek Autonomous Cyberattack Campaign Teaches Codex CLI Developers About Safety Controls"
 date: 2026-08-02T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "security", "hermes-agent", "deepseek", "autonomous-attack", "safety-controls", "approval-policy", "sandbox", "AGENTS.md", "defensive-hardening"]
 ---
 

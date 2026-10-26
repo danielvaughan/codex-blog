@@ -1,7 +1,7 @@
 ---
 title: "Coding Agents Are Guessing: What UnderSpecBench Reveals About Action-Boundary Violations — and How Codex CLI's Approval Architecture Defends Against Them"
 date: 2026-07-05T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags: ["codex-cli", "underspecification", "action-boundary", "approval-policy", "sandbox", "hooks", "safety", "DevOps", "UnderSpecBench"]
 ---
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-09-mcp-ambient-authority-nsa-guidance-agent-identity-protocol-codex-cli-authorisation-defence"
 tags: ["mcp-security", "ambient-authority", "nsa-guidance", "agent-identity-protocol", "oauth-2.1", "codex-cli", "authorisation", "tool-chaining", "access-control", "mcp-dev-summit"]
 date: 2026-06-09T09:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 ---
 # MCP Ambient Authority and the NSA's Wake-Up Call: Agent Identity, Intent-Aware Access Control, and Codex CLI's Authorisation Defence Stack
 

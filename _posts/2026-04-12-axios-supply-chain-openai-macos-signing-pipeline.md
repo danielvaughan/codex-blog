@@ -2,7 +2,7 @@
 title: "Axios Supply Chain Attack Reaches OpenAI macOS Signing Pipeline — What Codex CLI Users Need to Know"
 description: "The March 31 Axios npm supply chain attack — already covered in our source map incident article — has a direct impact on Codex CLI users that became public."
 date: 2026-04-12T07:00:00+00:00
-last_modified_at: 2026-10-25T03:10:50Z
+last_modified_at: 2026-10-26T07:16:39Z
 tags:
   - security
   - supply-chain
