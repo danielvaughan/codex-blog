@@ -2,7 +2,7 @@
 title: "Codex App-Server Remote Deployment: WebSocket Transport, Bearer Auth and Health Checks"
 description: "The Codex app-server is the JSON-RPC layer that powers every Codex surface — the desktop app, the VS Code extension, Xcode 26.3."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-10-27T10:05:16Z
+last_modified_at: 2026-10-27T10:25:33Z
 tags:
   - architecture
   - app-server

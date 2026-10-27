@@ -1,7 +1,7 @@
 ---
 title: "CloudWatch Coding Agent Insights: Wiring Codex CLI into Enterprise Observability with OpenTelemetry"
 date: 2026-07-30T09:00:00+00:00
-last_modified_at: 2026-10-27T10:05:16Z
+last_modified_at: 2026-10-27T10:25:33Z
 tags: ["codex-cli", "opentelemetry", "cloudwatch", "observability", "enterprise", "metrics", "azure-monitor", "grafana", "otel", "coding-agent-insights"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-mcp-server-multi-agent-workflows-agents-sdk"
 tags: ["codex-cli", "mcp", "agents-sdk", "multi-agent", "orchestration", "subagents"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-10-27T10:05:16Z
+last_modified_at: 2026-10-27T10:25:33Z
 ---
 # Codex CLI as an MCP Server: Building Multi-Agent Workflows with the Agents SDK
 

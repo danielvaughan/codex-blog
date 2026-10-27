@@ -1,7 +1,7 @@
 ---
 title: "CARE and Pre-Execution Command Verification: What a Static-First Shell Verifier Means for Codex CLI's PreToolUse Hooks"
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-10-27T10:05:16Z
+last_modified_at: 2026-10-27T10:25:33Z
 tags: ["codex-cli", "security", "PreToolUse", "shell-verification", "CARE", "command-safety", "sandbox", "hooks", "static-analysis"]
 ---
 

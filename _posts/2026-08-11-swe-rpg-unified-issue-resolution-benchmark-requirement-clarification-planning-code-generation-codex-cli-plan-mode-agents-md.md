@@ -1,7 +1,7 @@
 ---
 title: "SWE-RPG and the Requirement Clarification Bottleneck: Why Coding Agents Fail Before They Write a Single Line — and How Codex CLI's Plan Mode Closes the Gap"
 date: 2026-08-11T09:00:00+00:00
-last_modified_at: 2026-10-27T10:05:16Z
+last_modified_at: 2026-10-27T10:25:33Z
 tags: ["codex-cli", "swe-rpg", "benchmark", "requirement-clarification", "plan-mode", "agents-md", "implicit-requirements", "coding-agents"]
 ---
 

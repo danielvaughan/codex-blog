@@ -1,7 +1,7 @@
 ---
 title: "Persona-Execution Separation: An Architecture Pattern for LLM Agents in Governed Environments — and What It Means for Codex CLI"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-10-27T10:05:16Z
+last_modified_at: 2026-10-27T10:25:33Z
 tags: ["codex-cli", "architecture", "agents-md", "governance", "audit", "hooks", "sandbox", "security", "trust"]
 ---
 
