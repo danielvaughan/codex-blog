@@ -1,7 +1,7 @@
 ---
 title: "Span-Level Hallucination Detection for Code and Tool Output: Wiring LettuceDetect into Your Codex CLI Verification Stack"
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 tags: ["codex-cli", "hallucination-detection", "code-verification", "PostToolUse-hooks", "auto-review", "LettuceDetect", "span-level", "tool-output", "quality-gates"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Self-Evolving Coding Agents: Taxonomy, Signals, and What Codex CLI Can Do Today"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 tags: ["codex-cli", "self-evolving-agents", "memory", "skills", "AGENTS.md", "hooks", "arXiv", "agent-evolution", "SWE-bench"]
 ---
 

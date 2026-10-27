@@ -2,7 +2,7 @@
 title: "McAgile: The McDonaldization of Software Development Meets AI Coding Agents"
 description: "In 1993, the sociologist George Ritzer published The McDonaldization of Society, arguing that the principles making McDonald's successful — efficiency."
 date: 2026-04-12T11:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 featured: true
 tags:
   - codex-cli

@@ -1,7 +1,7 @@
 ---
 title: "GhostApproval and the Symlink Trust Boundary: Why Codex CLI's Sandbox Stops What Other Agents Cannot"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 tags: ["codex-cli", "security", "GhostApproval", "symlink", "sandbox", "trust-boundary", "apply-patch", "CWE-451"]
 ---
 

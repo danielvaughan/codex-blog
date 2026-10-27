@@ -1,7 +1,7 @@
 ---
 title: "ClarifyCodeBench and the Clarification Gap: Why Your Codex CLI Agent Writes Wrong Code from Ambiguous Prompts"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 tags: ["codex-cli", "ClarifyCodeBench", "ambiguous-requirements", "clarification", "plan-mode", "AGENTS.md", "code-generation", "elicitation", "prompt-engineering"]
 ---
 

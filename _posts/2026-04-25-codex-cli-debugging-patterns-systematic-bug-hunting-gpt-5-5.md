@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-debugging-patterns-systematic-bug-hunting-gpt-5-5"
 tags: ["codex-cli", "debugging", "gpt-5.5", "bug-hunting", "testing", "workflows", "shell", "image-input", "codex-exec", "best-practices"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 ---
 # Debugging with Codex CLI: Systematic Bug-Hunting Patterns for GPT-5.5
 

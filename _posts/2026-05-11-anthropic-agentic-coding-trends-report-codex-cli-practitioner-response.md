@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-anthropic-agentic-coding-trends-report-codex-cli-practitioner-response"
 tags: ["codex-cli", "agentic-coding", "multi-agent", "industry-trends", "context-engineering", "orchestration", "enterprise"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 ---
 # Anthropic's 2026 Agentic Coding Trends Report: What It Means for Codex CLI Practitioners
 

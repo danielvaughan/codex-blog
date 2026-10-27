@@ -1,7 +1,7 @@
 ---
 title: "From Prompt to Droplet: Using the DigitalOcean Plugin to Provision Cloud Workspaces for Codex Remote"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 tags: ["codex-cli", "digitalocean", "codex-remote", "cloud-workspace", "droplet", "plugin", "remote-development", "ssh"]
 ---
 

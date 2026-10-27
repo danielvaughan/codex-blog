@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-before-and-after-developer-workflows-transformed-by-codex-cli"
 tags: ["codex-cli", "workflows", "automation", "productivity", "codex-exec", "ci-cd", "code-review", "refactoring"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 ---
 # Before and After: 5 Developer Workflows Transformed by Codex CLI
 

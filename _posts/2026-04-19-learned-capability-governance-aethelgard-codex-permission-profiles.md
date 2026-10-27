@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-learned-capability-governance-aethelgard-codex-permission-profiles"
 tags: ["security", "permission-profiles", "capability-governance", "aethelgard", "hooks", "least-privilege", "enterprise", "codex-cli"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 ---
 # Learned Capability Governance: What Aethelgard Means for Codex Permission Profiles
 

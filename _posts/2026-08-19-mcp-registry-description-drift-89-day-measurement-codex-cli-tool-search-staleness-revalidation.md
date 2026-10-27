@@ -1,7 +1,7 @@
 ---
 title: "MCP Registry Description Drift: What an 89-Day Measurement Study Means for Your Codex CLI Tool Search Trust Model"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-10-27T10:25:33Z
+last_modified_at: 2026-10-27T15:05:40Z
 tags: ["codex-cli", "mcp", "tool-search", "registry-drift", "description-staleness", "security-audit", "revalidation", "born-stale", "trust-model"]
 ---
 
