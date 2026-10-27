@@ -1,7 +1,7 @@
 ---
 title: "TRACE and the Context Compression Instability Problem: Why Summarisation Breaks Long-Horizon Agents — and How Boundary-Local Verification Fixes It for Codex CLI"
 date: 2026-08-10T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["codex-cli", "context-compression", "TRACE", "long-horizon-agents", "compaction", "reliability", "boundary-local-verification", "execution-instability"]
 ---
 

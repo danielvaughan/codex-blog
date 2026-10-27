@@ -1,7 +1,7 @@
 ---
 title: "Inference Economics of Enterprise Coding Agents: Cloud vs On-Premise LLMs and What the Numbers Mean for Codex CLI Deployments"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["codex-cli", "inference-economics", "enterprise", "cloud-vs-on-premise", "cost-optimisation", "prompt-caching", "model-providers", "GLM-5", "token-budget"]
 ---
 

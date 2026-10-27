@@ -5,7 +5,7 @@ timestamp: 2026-07-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-12-responses-api-multi-agent-beta-codex-cli-server-side-subagent-spawning-parallel-coordination"
 tags: ["codex-cli", "gpt-5.6", "responses-api", "multi-agent", "subagents", "parallel-execution", "configuration", "architecture"]
 date: 2026-07-12T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 ---
 # The Responses API Multi-Agent Beta: How Server-Side Subagent Spawning Changes Codex CLI's Parallelism Model
 

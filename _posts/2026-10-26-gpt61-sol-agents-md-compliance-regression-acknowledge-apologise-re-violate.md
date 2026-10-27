@@ -1,7 +1,7 @@
 ---
 title: "GPT-6.1 Sol Knows Your Rules and Breaks Them Anyway"
 date: 2026-10-26T07:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 parent: "Articles"
 nav_order: 1203
 tags:
@@ -25,7 +25,7 @@ copy_edited: true
 
 ---
 
-Something changed when GPT-6.1 Sol became Codex CLI's default ultrafast model in the Day 4 "28 Days of Shipping" update. The model is fast — the community widely agrees it is 8x faster than the previous default. But fast, it turns out, is not the same as compliant. Developers running GPT-6.1 Sol against projects with detailed AGENTS.md configuration files are reporting a specific and reproducible failure pattern that has no equivalent on GPT-4.1 or GPT-o3 in the same role.
+Something changed when GPT-6.1 Sol became Codex CLI's default ultrafast model in the Day 4 "28 Days of Shipping" update. The model is fast — the community widely agrees it is 8x faster than the previous default. But fast, it turns out, is not the same as compliant. Developers running GPT-6.1 Sol against projects with detailed AGENTS.md configuration files are reporting a specific and reproducible failure pattern that has no equivalent on GPT-4.1 or o3 in the same role.
 
 The pattern has a name in the community now: **acknowledge-apologise-re-violate**.
 

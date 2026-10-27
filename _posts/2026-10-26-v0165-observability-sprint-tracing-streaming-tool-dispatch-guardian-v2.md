@@ -1,7 +1,7 @@
 ---
 title: "Inside the Black Box: Codex CLI v0.165.0's Observability Sprint"
 date: 2026-10-26T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 parent: "Articles"
 nav_order: 1205
 tags:
@@ -136,7 +136,7 @@ Based on the alpha.1 foundations, the likely next steps are:
 
 3. **Sub-agent privilege scoping:** The ephemeral registration parent chain from v0.164.0 enables privilege scoping (restricting a sub-agent's capabilities to a subset of the parent session). This was flagged as missing in the v0.164.0 article. The full-conversation Guardian mode is likely a prerequisite, which is now in place.
 
-4. **Message-board primitives for inter-agent coordination:** Multiple community tools (ctx-kit, estafeta) have built handoff mechanisms on top of files and prompts because Codex CLI has no native inter-agent communication channel. There are hints in the v0.165.0 commit metadata of work toward a structured message-passing primitive — though this is speculative until commits land.
+4. **Message-board primitives for inter-agent coordination:** Multiple community tools (ctx-kit, estafeta) have built handoff mechanisms on top of files and prompts because Codex CLI has no native inter-agent communication channel. There are hints in the v0.165.0 commit metadata of work towards a structured message-passing primitive — though this is speculative until commits land.
 
 ---
 

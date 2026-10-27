@@ -6,7 +6,7 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-memory-lifecycle-management-codex-cli"
 tags: ["memory", "lifecycle", "consolidation", "data-governance", "enterprise", "configuration"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 ---
 # Memory Lifecycle Management: Create, Consolidate, Clean, Delete in Codex CLI
 

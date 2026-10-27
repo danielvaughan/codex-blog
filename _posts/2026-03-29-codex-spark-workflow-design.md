@@ -1,7 +1,7 @@
 ---
 title: "Designing Workflows for Codex-Spark: When Inference Becomes Near-Instant"
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 description: "At 65–70 tokens per second, a 400-token code response takes roughly 6 seconds — a noticeable pause."
 substack_status: draft
 tags:

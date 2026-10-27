@@ -1,7 +1,7 @@
 ---
 title: "SMITH: When a 4B Tool-Writer Beats a Frozen 30B — Implications for Codex CLI MCP Schema Design"
 date: 2026-08-30T17:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["tool-creation", "reinforcement-learning", "mcp", "tool-schema", "codex-cli", "agent-training", "tool-use"]
 ---
 

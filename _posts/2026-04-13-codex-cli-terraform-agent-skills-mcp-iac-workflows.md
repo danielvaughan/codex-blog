@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-terraform-agent-skills-mcp-iac-workflows"
 tags: ["terraform", "mcp", "agent-skills", "infrastructure-as-code", "hashicorp", "terrashark", "config-toml", "enterprise"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 ---
 # Codex CLI and Terraform: Agent Skills, MCP Servers, and Infrastructure-as-Code Workflows
 

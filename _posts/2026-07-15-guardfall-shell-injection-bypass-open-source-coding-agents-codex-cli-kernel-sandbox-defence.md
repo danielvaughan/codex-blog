@@ -1,7 +1,7 @@
 ---
 title: "GuardFall and the Shell Injection Illusion: Why Text-Based Command Filters Fail Every Coding Agent — and How Codex CLI's Kernel-Level Sandbox Renders the Entire Attack Class Irrelevant"
 date: 2026-07-15T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["codex-cli", "security", "GuardFall", "shell-injection", "sandbox", "Landlock", "Seatbelt", "coding-agent", "open-source", "defence-in-depth"]
 ---
 

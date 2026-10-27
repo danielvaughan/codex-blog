@@ -1,7 +1,7 @@
 ---
 title: "From Implementation to Verification: What OpenAI's Scientific Computing Field Report Reveals About Codex CLI's Role in Legacy Code Modernisation"
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["codex-cli", "scientific-computing", "genomics", "rust-rewrite", "verification", "delegation", "legacy-code", "field-report", "agentic-ai"]
 ---
 

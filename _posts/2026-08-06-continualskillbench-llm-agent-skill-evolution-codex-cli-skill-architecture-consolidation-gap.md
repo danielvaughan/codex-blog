@@ -1,7 +1,7 @@
 ---
 title: "ContinualSkillBench: Can Your Coding Agent Actually Learn From Experience — and What Codex CLI's Skill Architecture Gets Right"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["codex-cli", "skills", "continual-learning", "ContinualSkillBench", "SKILL.md", "agent-skills", "skill-consolidation", "benchmark"]
 ---
 

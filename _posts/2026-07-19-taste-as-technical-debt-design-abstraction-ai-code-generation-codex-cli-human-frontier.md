@@ -1,7 +1,7 @@
 ---
 title: "Taste as the New Technical Debt: Why Design Abstraction Is the Last Human Frontier in AI-Generated Codebases"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["codex-cli", "design-systems", "technical-debt", "taste", "AI-code-generation", "abstraction", "human-agent-interaction"]
 ---
 

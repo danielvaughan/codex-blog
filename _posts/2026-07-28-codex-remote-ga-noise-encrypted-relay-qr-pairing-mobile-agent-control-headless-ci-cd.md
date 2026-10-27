@@ -1,7 +1,7 @@
 ---
 title: "Codex Remote from Beta to GA: Noise-Encrypted Relay, QR Pairing, and Headless Agent Services"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["codex-cli", "codex-remote", "remote-control", "noise-protocol", "qr-pairing", "headless-agents", "mobile-development", "ci-cd", "digitalocean", "relay-architecture"]
 ---
 

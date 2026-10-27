@@ -2,7 +2,7 @@
 title: "Codex Through the Glass: Email as a Codex Interface"
 description: "Email is the most universal interface — and the most underestimated one for AI agents. How to build an email-driven Codex harness for async business workflows."
 date: 2026-06-12T20:06:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 series: "Codex Through the Glass"
 series_order: 7
 tags:

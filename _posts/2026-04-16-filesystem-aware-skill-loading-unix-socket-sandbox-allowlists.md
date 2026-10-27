@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-filesystem-aware-skill-loading-unix-socket-sandbox-allowlists"
 tags: ["skills", "sandbox", "unix-sockets", "macos", "filesystem", "skill-loading", "mcp"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 ---
 # Filesystem-Aware Skill Loading and Unix Socket Sandbox Allowlists
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI's Cyber-Safety Model: Safer Auto-Review Defaults, Trusted Access Tiers, and Eliminating False Positives"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["codex-cli", "cyber-safety", "trusted-access", "approval-policy", "daybreak", "security", "false-positives", "v0.146.1"]
 ---
 

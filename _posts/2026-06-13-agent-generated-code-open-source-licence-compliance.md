@@ -5,7 +5,7 @@ timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-agent-generated-code-open-source-licence-compliance"
 tags: ["codex-cli", "open-source", "licence-compliance", "legal", "AGENTS.md", "MCP", "ScanCode", "FOSSA", "Snyk"]
 date: 2026-06-13T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 ---
 # Agent-Generated Code and Open Source Licence Compliance
 

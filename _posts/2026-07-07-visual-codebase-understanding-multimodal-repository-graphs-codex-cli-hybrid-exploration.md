@@ -1,7 +1,7 @@
 ---
 title: "Visual Codebase Understanding: What Multimodal Repository Graphs Reveal About Token-Efficient Exploration — and How to Wire Hybrid Visual Context into Codex CLI"
 date: 2026-07-07T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 tags: ["codex-cli", "multimodal", "codebase-navigation", "visual-context", "token-efficiency", "repository-exploration", "fault-localisation"]
 ---
 

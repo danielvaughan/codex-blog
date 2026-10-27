@@ -1,7 +1,7 @@
 ---
 title: "MCP OAuth Default-On: What v0.164.0's Enterprise Auth Overhaul Means"
 date: 2026-10-21T07:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 parent: "Articles"
 nav_order: 1191
 tags:

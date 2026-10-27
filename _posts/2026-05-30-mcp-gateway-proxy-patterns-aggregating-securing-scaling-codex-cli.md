@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-mcp-gateway-proxy-patterns-aggregating-securing-scaling-codex-cli"
 tags: ["mcp", "gateway", "proxy", "aggregator", "codex-cli", "infrastructure", "security", "scaling"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 ---
 # MCP Gateway and Proxy Patterns: Aggregating, Securing, and Scaling MCP Servers with Codex CLI
 

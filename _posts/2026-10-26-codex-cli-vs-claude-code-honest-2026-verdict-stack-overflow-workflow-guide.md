@@ -1,7 +1,7 @@
 ---
 title: "The Honest 2026 Verdict: When to Choose Codex CLI and When to Choose Claude Code"
 date: 2026-10-26T08:00:00+00:00
-last_modified_at: 2026-10-26T08:20:08Z
+last_modified_at: 2026-10-27T10:05:16Z
 parent: "Articles"
 nav_order: 1204
 tags:
@@ -38,7 +38,7 @@ The differences are in emphasis, architecture, and the specific bets each produc
 
 **Codex CLI** is OpenAI's agent runtime for the terminal. Its primary value proposition is deep OpenAI platform integration: model switching between GPT-6.1 Sol (ultrafast), GPT-4.1 (balanced), and the reasoning models; native MCP tool integration with enterprise auth; Codex Cloud for parallel multi-agent tasks; and the Guardian subagent for risk-scoped approvals. It is the product through which OpenAI is rolling out its most ambitious agentic features.
 
-**Claude Code** is Anthropic's agent CLI. Its primary value proposition is instruction-following reliability and a development workflow that feels more like a junior colleague than an automated tool. It is tightly optimised for the sequential, interactive coding workflow: read, plan, execute, verify. Its remote WSL support — the most-upvoted open request in Codex's own ideas forum — is a feature Codex still does not have.
+**Claude Code** is Anthropic's agent CLI. Its primary value proposition is instruction-following reliability and a development workflow that feels more like a junior colleague than an automated tool. It is tightly optimised for the sequential, interactive coding workflow: read, plan, execute, verify. Its remote WSL support — the most-upvoted open request in Codex's own Ideas forum — is a feature Codex still does not have.
 
 ---
 
