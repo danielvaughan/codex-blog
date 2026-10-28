@@ -1,7 +1,7 @@
 ---
 title: "Bedrock Default-On: How v0.164.0's Alpha.9–11 Sprint Completed the Enterprise Auth Architecture"
 date: 2026-10-22T13:00:00+00:00
-last_modified_at: 2026-10-28T05:10:18Z
+last_modified_at: 2026-10-28T07:08:24Z
 parent: "Articles"
 nav_order: 1197
 tags:

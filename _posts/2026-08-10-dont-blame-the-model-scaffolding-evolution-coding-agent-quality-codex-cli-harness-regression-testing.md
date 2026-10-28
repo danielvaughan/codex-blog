@@ -1,7 +1,7 @@
 ---
 title: "Don't Blame the Model: How Scaffolding Evolution Shapes Coding Agent Quality — and What It Means for Codex CLI Users"
 date: 2026-08-10T09:00:00+00:00
-last_modified_at: 2026-10-28T05:10:18Z
+last_modified_at: 2026-10-28T07:08:24Z
 tags: ["codex-cli", "agent-harness", "scaffolding", "quality-regression", "release-velocity", "SWE-bench", "harness-engineering", "regression-testing"]
 ---
 

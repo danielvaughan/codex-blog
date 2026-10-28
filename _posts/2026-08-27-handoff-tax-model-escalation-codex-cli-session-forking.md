@@ -1,7 +1,7 @@
 ---
 title: "The Handoff Tax: Why Mid-Session Model Escalation Costs More Than Starting Fresh in Codex CLI"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-10-28T05:10:18Z
+last_modified_at: 2026-10-28T07:08:24Z
 tags: ["codex-cli", "model-routing", "escalation", "named-profiles", "cost-optimisation", "session-management", "arXiv"]
 ---
 

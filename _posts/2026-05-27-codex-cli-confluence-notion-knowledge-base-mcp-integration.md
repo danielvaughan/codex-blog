@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-confluence-notion-knowledge-base-mcp-integration"
 tags: ["codex-cli", "mcp", "confluence", "notion", "knowledge-base", "atlassian", "productivity"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-10-28T05:10:18Z
+last_modified_at: 2026-10-28T07:08:24Z
 ---
 # Codex CLI with Confluence and Notion: Knowledge-Base MCP Integration
 
