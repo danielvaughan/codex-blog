@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.166.0-alpha.1: GPT-6.1-Terra, Safety Recourse, and Multi-Process Session Reliability"
 date: 2026-10-27T11:00:00+00:00
-last_modified_at: 2026-10-27T15:05:40Z
+last_modified_at: 2026-10-28T03:09:23Z
 parent: "Articles"
 nav_order: 1206
 tags:
@@ -36,7 +36,7 @@ Three themes define the new sprint from its opening commit: a new model tier (GP
 
 ## The Sprint Context
 
-The 28 Days of Shipping sprint is on day 19 of 28. The sprint ends 1 November 2026.
+The 28 Days of Shipping sprint is on day 23 of 28. The sprint ends 1 November 2026.
 
 The v0.165.x observability sprint gave developers tools to see what Codex was doing: turn-level tracing, streaming tracing, tool-dispatch tracing, and Guardian v2 in full conversation mode. That work remains in alpha. v0.165.0 stable has not shipped yet.
 
@@ -188,7 +188,7 @@ Safety recourse prompts appear automatically when a policy block fires in an int
 
 v0.166.0-alpha.1 opens a new sprint thread while v0.165.x observability work continues in parallel. The three core changes — GPT-6.1-Terra model support, safety policy recourse in the TUI, and multi-process session reliability — address different layers of the user experience. Terra expands the model options for teams affected by the Sol compliance regression. Safety recourse makes blocked sessions recoverable rather than terminal. Session index serialisation makes multi-window workflows reliable rather than accident-prone.
 
-Sprint day 19 of 28. The 0.166.x arc is just beginning.
+Sprint day 23 of 28. The 0.166.x arc is just beginning.
 
 ---
 

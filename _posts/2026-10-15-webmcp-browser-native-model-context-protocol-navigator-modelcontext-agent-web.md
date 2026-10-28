@@ -3,7 +3,7 @@ title: "WebMCP Brings Model Context Protocol Into the Browser Itself"
 parent: "Articles"
 nav_order: 1184
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-10-27T15:05:40Z
+last_modified_at: 2026-10-28T03:09:23Z
 tags:
   - webmcp
   - browser

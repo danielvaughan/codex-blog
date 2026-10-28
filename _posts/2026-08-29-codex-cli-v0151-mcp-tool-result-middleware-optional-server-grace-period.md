@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.151.0: MCP Tool Result Middleware and the Optional-Server Grace Period"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-10-27T15:05:40Z
+last_modified_at: 2026-10-28T03:09:23Z
 tags: ["codex-cli", "mcp", "extensions", "v0.151.0", "tool-lifecycle", "grace-period", "middleware", "reliability"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "When Not to Imitate: Boundary-Aware Skill Memory and the Skill Imitation Trap — Implications for Codex CLI AGENTS.md"
 date: 2026-08-31T18:30:00+00:00
-last_modified_at: 2026-10-27T15:05:40Z
+last_modified_at: 2026-10-28T03:09:23Z
 tags: ["codex-cli", "agents-md", "skills", "memory", "tool-use", "agent-plugins", "reliability", "research"]
 ---
 

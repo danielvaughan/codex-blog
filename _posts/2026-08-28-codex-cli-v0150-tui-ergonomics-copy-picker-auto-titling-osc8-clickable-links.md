@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.150.0 TUI Ergonomics: Smart Copy Picker, Session Auto-Titling, and OSC 8 Clickable Links"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-10-27T15:05:40Z
+last_modified_at: 2026-10-28T03:09:23Z
 tags: ["codex-cli", "tui", "v0.150.0", "clipboard", "session-management", "osc8", "terminal", "ux", "ergonomics"]
 ---
 

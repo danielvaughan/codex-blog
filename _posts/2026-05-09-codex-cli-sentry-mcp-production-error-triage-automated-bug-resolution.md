@@ -6,7 +6,7 @@ timestamp: 2026-05-09T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-09-codex-cli-sentry-mcp-production-error-triage-automated-bug-resolution"
 tags: ["codex-cli", "sentry", "mcp", "error-tracking", "debugging", "production", "automation", "devops"]
 date: 2026-05-09T09:00:00+00:00
-last_modified_at: 2026-10-27T15:05:40Z
+last_modified_at: 2026-10-28T03:09:23Z
 ---
 # Codex CLI + Sentry MCP: From Production Error to Pull Request in One Agent Loop
 

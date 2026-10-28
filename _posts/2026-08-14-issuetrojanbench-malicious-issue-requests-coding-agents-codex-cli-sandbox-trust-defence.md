@@ -1,7 +1,7 @@
 ---
 title: "IssueTrojanBench and Malicious Issue Requests: Why 66.5% of Adversarial Payloads Penetrate Your Coding Agent — and How Codex CLI's Trust Boundaries Fight Back"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-10-27T15:05:40Z
+last_modified_at: 2026-10-28T03:09:23Z
 tags: ["codex-cli", "security", "issuetrojanbench", "malicious-issues", "sandbox", "trust-boundaries", "PreToolUse-hooks", "supply-chain"]
 ---
 

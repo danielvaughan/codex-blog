@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-thread-automations-vs-claude-code-routines"
 tags: ["thread-automations", "routines", "scheduling", "cron", "webhook", "competitive-analysis", "claude-code", "agentic-pod"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-10-27T15:05:40Z
+last_modified_at: 2026-10-28T03:09:23Z
 ---
 # Thread Automations vs Claude Code Routines: How Scheduled Agent Execution Changes Everything
 

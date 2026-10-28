@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-speed-stack-fast-mode-reasoning-effort-spark-performance-tuning"
 tags: ["performance", "fast-mode", "reasoning-effort", "codex-spark", "prompt-caching", "cost-optimisation", "speed"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-10-27T15:05:40Z
+last_modified_at: 2026-10-28T03:09:23Z
 ---
 # The Codex CLI Speed Stack: Fast Mode, Reasoning Effort, Spark, and Performance Tuning
 
