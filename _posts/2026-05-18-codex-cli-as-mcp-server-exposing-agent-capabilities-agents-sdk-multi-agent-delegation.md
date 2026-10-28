@@ -6,7 +6,7 @@ timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-as-mcp-server-exposing-agent-capabilities-agents-sdk-multi-agent-delegation"
 tags: ["codex-cli", "mcp", "mcp-server", "agents-sdk", "multi-agent", "delegation", "orchestration", "automation"]
 date: 2026-05-18T09:00:00+00:00
-last_modified_at: 2026-10-28T10:06:54Z
+last_modified_at: 2026-10-28T10:24:08Z
 ---
 # Codex CLI as an MCP Server: Exposing Agent Capabilities to the Agents SDK and Other MCP Clients
 

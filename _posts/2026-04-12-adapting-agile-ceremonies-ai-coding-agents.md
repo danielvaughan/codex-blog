@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-adapting-agile-ceremonies-ai-coding-agents"
 tags: ["agile", "ceremonies", "sprint-planning", "standups", "retros", "team-process", "codex-cli", "ai-agents"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-10-28T10:06:54Z
+last_modified_at: 2026-10-28T10:24:08Z
 ---
 # Adapting Agile Ceremonies for AI Coding Agents: Sprint Planning, Standups, and Retros
 

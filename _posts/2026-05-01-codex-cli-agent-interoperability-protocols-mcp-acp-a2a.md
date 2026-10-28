@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-agent-interoperability-protocols-mcp-acp-a2a"
 tags: ["codex-cli", "mcp", "acp", "a2a", "agent-interoperability", "protocols", "ide-integration", "multi-agent"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-10-28T10:06:54Z
+last_modified_at: 2026-10-28T10:24:08Z
 ---
 # Agent Interoperability Protocols and Codex CLI: MCP, ACP, and A2A in Practice
 

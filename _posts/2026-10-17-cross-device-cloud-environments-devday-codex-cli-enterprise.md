@@ -2,7 +2,7 @@
 title: "Cross-Device Cloud Environments: What DevDay's Biggest Codex Announcement Actually Means"
 parent: "Articles"
 date: 2026-10-17T09:00:00+00:00
-last_modified_at: 2026-10-28T10:06:54Z
+last_modified_at: 2026-10-28T10:24:08Z
 nav_order: 1187
 tags: ["codex-cli", "codex-cloud", "cloud-environments", "devday-2026", "enterprise", "cross-device", "mobile", "configuration"]
 copy_edited: true

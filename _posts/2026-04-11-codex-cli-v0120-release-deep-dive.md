@@ -6,7 +6,7 @@ timestamp: 2026-04-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-codex-cli-v0120-release-deep-dive"
 tags: ["v0.120", "release-notes", "background-agent", "hooks", "mcp-outputschema", "guardian", "tui", "realtime-v2"]
 date: 2026-04-11T09:00:00+00:00
-last_modified_at: 2026-10-28T10:06:54Z
+last_modified_at: 2026-10-28T10:24:08Z
 ---
 # Codex CLI v0.120 Release Deep Dive
 
