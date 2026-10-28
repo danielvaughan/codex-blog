@@ -1,7 +1,7 @@
 ---
 title: "The Honest 2026 Verdict: When to Choose Codex CLI and When to Choose Claude Code"
 date: 2026-10-26T08:00:00+00:00
-last_modified_at: 2026-10-28T03:09:23Z
+last_modified_at: 2026-10-28T05:10:18Z
 parent: "Articles"
 nav_order: 1204
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "CT-Repair and Multi-Perspective Evidence: Why Throwing More Patches at Bugs Does Not Work — and How to Wire Evidence-Guided Repair into Codex CLI"
 date: 2026-07-15T09:00:00+00:00
-last_modified_at: 2026-10-28T03:09:23Z
+last_modified_at: 2026-10-28T05:10:18Z
 tags: ["codex-cli", "automated-program-repair", "CT-Repair", "code-property-graph", "temporal-execution-graph", "PostToolUse-hooks", "evidence-guided-repair", "multi-perspective-analysis"]
 ---
 

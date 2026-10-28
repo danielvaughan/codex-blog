@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-building-chatgpt-apps-with-codex-cli-apps-sdk-mcp-server-widget-scaffolding"
 tags: ["codex-cli", "chatgpt-apps", "apps-sdk", "mcp-server", "widget", "oauth", "structured-content", "scaffolding"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-10-28T03:09:23Z
+last_modified_at: 2026-10-28T05:10:18Z
 ---
 # Building ChatGPT Apps with Codex CLI: Scaffolding MCP Servers, Widgets, and the Apps SDK Workflow
 
