@@ -2,7 +2,7 @@
 title: "Spec-Driven Development with Codex: Writing Specifications Before Code"
 description: "Test-Driven Development (TDD) tells the agent when it is done. Spec-Driven Development (SDD) tells it what to build in the first place. The two approaches."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 tags:
   - workflow-patterns
   - planning

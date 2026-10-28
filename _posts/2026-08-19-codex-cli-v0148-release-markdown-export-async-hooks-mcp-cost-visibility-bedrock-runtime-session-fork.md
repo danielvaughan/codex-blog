@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.148.0: Markdown Export, Async Hooks, Cost Visibility, and Bedrock Runtime"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 tags: ["codex-cli", "v0.148.0", "release", "markdown-export", "async-hooks", "mcp", "cost-visibility", "bedrock", "session-management"]
 ---
 

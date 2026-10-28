@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-well-architected-security-coding-agents-codex-cli-unified-threat-landscape-defence-architecture"
 tags: ["security", "codex-cli", "threat-model", "defence-in-depth", "prompt-injection", "supply-chain", "sandbox", "hooks", "OWASP"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 ---
 # Well-Architected Security for Coding Agents: A Unified Threat Landscape and Defence Architecture for Codex CLI
 

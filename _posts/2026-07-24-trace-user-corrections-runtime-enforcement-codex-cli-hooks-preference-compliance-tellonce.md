@@ -1,7 +1,7 @@
 ---
 title: "Tell Me Once: How TRACE Compiles User Corrections into Runtime Enforcement — and What It Means for Codex CLI's Hook Stack"
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 tags: ["codex-cli", "TRACE", "preference-compliance", "runtime-enforcement", "hooks", "PreToolUse", "PostToolUse", "AGENTS.md", "tellonce", "coding-agents", "user-corrections", "memory"]
 ---
 

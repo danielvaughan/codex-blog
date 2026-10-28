@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-git-backed-team-memory-egregore-codex-hooks"
 tags: ["team-memory", "egregore", "shared-cognition", "git-memory", "hooks", "handoff", "multi-agent", "collaboration"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 ---
 # Git-Backed Team Memory for Coding Agents: From Egregore to Codex Hooks
 

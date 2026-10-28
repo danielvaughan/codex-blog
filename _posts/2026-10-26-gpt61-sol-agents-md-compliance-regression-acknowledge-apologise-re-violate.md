@@ -1,7 +1,7 @@
 ---
 title: "GPT-6.1 Sol Knows Your Rules and Breaks Them Anyway"
 date: 2026-10-26T07:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 parent: "Articles"
 nav_order: 1203
 tags:

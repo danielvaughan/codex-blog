@@ -1,7 +1,7 @@
 ---
 title: "The Super App Gambit: What Codex's Absorption into ChatGPT Means for the Agent IDE War"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 tags: ["codex-cli", "chatgpt", "super-app", "distribution", "claude-code", "cursor", "copilot", "strategy", "agent-ide"]
 ---
 

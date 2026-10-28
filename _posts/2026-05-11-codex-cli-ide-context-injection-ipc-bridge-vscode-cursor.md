@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-cli-ide-context-injection-ipc-bridge-vscode-cursor"
 tags: ["codex-cli", "ide-integration", "ipc", "vscode", "cursor", "slash-commands", "v0.129", "developer-experience"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 ---
 # Codex CLI /ide Context Injection: Bridging Your Terminal and Editor Through IPC
 

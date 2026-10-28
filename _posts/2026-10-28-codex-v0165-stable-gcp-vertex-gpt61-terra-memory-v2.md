@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.165.0 Stable: GCP Vertex AI Built-In, GPT-6.1 Terra, Memory v2 Default"
 date: 2026-10-28T07:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 parent: "Articles"
 nav_order: 1208
 tags:
@@ -72,7 +72,7 @@ Terra sits above Sol in the GPT-6.1 family. The primary differentiation is instr
 Pricing and access:
 
 - Available to Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex
-- API: `gpt-6.1-terra` at $1 per million input tokens, $5 per million output tokens
+- API: `gpt-6.1-terra` at \$1 per million input tokens, \$5 per million output tokens
 - Half the price of GPT-6.1 Sol for API usage
 
 Select Terra in Codex with:

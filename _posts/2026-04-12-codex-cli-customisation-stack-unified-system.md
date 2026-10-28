@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-customisation-stack-unified-system"
 tags: ["customisation", "agents-md", "skills", "mcp", "subagents", "plugins", "architecture", "config-toml", "project-setup"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 ---
 # The Codex CLI Customisation Stack: How AGENTS.md, Skills, MCP, Subagents, and Plugins Compose Into One System
 

@@ -1,7 +1,7 @@
 ---
 title: "SkillForge and Self-Distilling Project Knowledge: Why Your Codex CLI Agent Needs Repository Familiarity Before It Starts Working"
 date: 2026-08-20T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 tags: ["codex-cli", "skillforge", "project-specific-knowledge", "self-distillation", "entity-grounded-skills", "agents-md", "memories", "swe-bench", "issue-resolution"]
 ---
 

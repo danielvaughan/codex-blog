@@ -1,7 +1,7 @@
 ---
 title: "Codex Remote GA: QR Relay Architecture, Mobile Approvals, and the CLI Developer's Setup Guide"
 date: 2026-07-10T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 tags: ["codex-cli", "codex-remote", "remote-control", "mobile-approvals", "QR-relay", "SSH", "architecture"]
 ---
 

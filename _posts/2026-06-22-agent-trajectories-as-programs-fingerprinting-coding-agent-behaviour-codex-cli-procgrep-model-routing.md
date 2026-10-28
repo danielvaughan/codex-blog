@@ -5,7 +5,7 @@ timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-agent-trajectories-as-programs-fingerprinting-coding-agent-behaviour-codex-cli-procgrep-model-routing"
 tags: ["codex-cli", "agent-fingerprinting", "model-routing", "observability", "ProcGrep", "SWE-Bench", "PostToolUse", "named-profiles", "telemetry"]
 date: 2026-06-22T09:00:00+00:00
-last_modified_at: 2026-10-28T10:24:08Z
+last_modified_at: 2026-10-28T11:36:16Z
 ---
 # Agent Trajectories as Programs: What Behavioural Fingerprinting Means for Codex CLI Model Routing and Observability
 
