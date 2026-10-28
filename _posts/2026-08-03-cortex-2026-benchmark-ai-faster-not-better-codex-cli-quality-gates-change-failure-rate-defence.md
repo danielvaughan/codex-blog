@@ -1,7 +1,7 @@
 ---
 title: "AI Made Engineering Faster but Not Better: What the Cortex 2026 Benchmark Means for Your Codex CLI Quality Gates"
 date: 2026-08-03T09:00:00+00:00
-last_modified_at: 2026-10-28T09:05:08Z
+last_modified_at: 2026-10-28T10:06:54Z
 tags: ["codex-cli", "quality-gates", "change-failure-rate", "cortex-benchmark", "ai-generated-code", "approval-policy", "PostToolUse-hooks", "auto-review", "engineering-governance"]
 ---
 

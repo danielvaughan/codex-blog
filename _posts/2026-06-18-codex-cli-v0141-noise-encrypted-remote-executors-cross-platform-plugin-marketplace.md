@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-codex-cli-v0141-noise-encrypted-remote-executors-cross-platform-plugin-marketplace"
 tags: ["codex-cli", "remote-execution", "noise-protocol", "security", "plugins", "v0.141.0", "cross-platform"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-10-28T09:05:08Z
+last_modified_at: 2026-10-28T10:06:54Z
 ---
 # Codex CLI v0.141.0: Noise-Encrypted Remote Executors, Cross-Platform Execution, and the Plugin Marketplace
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.165.0 Stable: GCP Vertex AI Built-In, GPT-6.1 Terra, Memory v2 Default"
 date: 2026-10-28T07:00:00+00:00
-last_modified_at: 2026-10-28T09:05:08Z
+last_modified_at: 2026-10-28T10:06:54Z
 parent: "Articles"
 nav_order: 1208
 tags:
@@ -27,7 +27,7 @@ copy_edited: true
 
 ---
 
-Codex CLI v0.165.0 reached stable on 27 October 2026, four days after v0.164.0 shipped. The release completes the observability sprint that opened on 23 October: turn-level tracing, streaming instrumentation, tool-dispatch logging, and Guardian v2 conversation mode are now generally available. Alongside the observability graduation, v0.165.0 delivers three significant changes that affect every user — GCP Vertex AI as a built-in provider, GPT-6.1 Terra in the model catalog, and Memory v2 on by default for new installs.
+Codex CLI v0.165.0 reached stable on 27 October 2026, four days after v0.164.0 shipped. The release completes the observability sprint that opened on 23 October: turn-level tracing, streaming instrumentation, tool-dispatch logging, and Guardian v2 conversation mode are now generally available. Alongside the observability graduation, v0.165.0 delivers three significant changes that affect every user — GCP Vertex AI as a built-in provider, GPT-6.1 Terra in the model catalogue, and Memory v2 on by default for new installs.
 
 For a detailed look at what the observability sprint built, see [Inside the Black Box: Codex CLI v0.165.0's Observability Sprint](../2026-10-26-v0165-observability-sprint-tracing-streaming-tool-dispatch-guardian-v2/) and [GCP Vertex AI Provider: How v0.165.0-alpha.1 Expands Codex Beyond OpenAI's Infrastructure](../2026-10-23-gcp-vertex-ai-provider-codex-cli-alpha11-1/).
 
@@ -63,9 +63,9 @@ The `gcp` provider joins `openai` and `bedrock` as the three built-in provider o
 
 ---
 
-### GPT-6.1 Terra in the Model Catalog
+### GPT-6.1 Terra in the Model Catalogue
 
-v0.165.0 adds GPT-6.1 Terra to the Codex model catalog alongside the existing GPT-6.1 Sol tier.
+v0.165.0 adds GPT-6.1 Terra to the Codex model catalogue alongside the existing GPT-6.1 Sol tier.
 
 Terra sits above Sol in the GPT-6.1 family. The primary differentiation is instruction-following — Terra processes structured directives in AGENTS.md, system prompts, and tool descriptions more reliably than Sol. This is directly relevant to the AGENTS.md compliance regression reported in late October (GPT-6.1 Sol's pattern of acknowledging then re-violating explicit instructions). Terra addresses that regression at the model level.
 
@@ -89,7 +89,7 @@ Or set as default in config:
 }
 ```
 
-The `features.simplified_selection_hints` flag introduced alongside Terra in the v0.166.0 alpha sprint provides simplified model-selection hints in the TUI for users who want guided model choice rather than the full catalog list.
+The `features.simplified_selection_hints` flag introduced alongside Terra in the v0.166.0 alpha sprint provides simplified model-selection hints in the TUI for users who want guided model choice rather than the full catalogue list.
 
 ---
 
@@ -171,9 +171,9 @@ The `--network-only` flag restricts the check to network-facing components: API 
 
 ---
 
-### Catalog Headings in Saved Command-Prefix Notices
+### Catalogue Headings in Saved Command-Prefix Notices
 
-A UX detail worth noting: v0.165.0 includes catalog headings in the notices shown when a saved command prefix is active. When a preset or saved command prefix is running, the TUI now displays the catalog heading associated with that prefix, making it immediately clear which saved workflow is active without requiring the user to remember the prefix content.
+A UX detail worth noting: v0.165.0 includes catalogue headings in the notices shown when a saved command prefix is active. When a preset or saved command prefix is running, the TUI now displays the catalogue heading associated with that prefix, making it immediately clear which saved workflow is active without requiring the user to remember the prefix content.
 
 ---
 

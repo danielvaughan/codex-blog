@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-github-copilot-desktop-app-vs-codex-cli-agent-native-gui-terminal-first-comparison-june-2026"
 tags: ["codex-cli", "github-copilot", "copilot-desktop", "agent-native", "comparison", "competitive-landscape", "architecture"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-10-28T09:05:08Z
+last_modified_at: 2026-10-28T10:06:54Z
 ---
 # GitHub Copilot Desktop App vs Codex CLI: Agent-Native GUI Meets Terminal-First Agent in the June 2026 Showdown
 

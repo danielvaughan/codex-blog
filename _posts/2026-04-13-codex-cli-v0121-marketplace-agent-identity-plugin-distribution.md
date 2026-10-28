@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-codex-cli-v0121-marketplace-agent-identity-plugin-distribution"
 tags: ["v0121", "marketplace", "plugin", "agent-identity", "mcp", "guardian", "release-notes"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-10-28T09:05:08Z
+last_modified_at: 2026-10-28T10:06:54Z
 ---
 # Codex CLI v0.121: Marketplace CLI, Agent Identity, and the Road to Plugin Distribution
 
