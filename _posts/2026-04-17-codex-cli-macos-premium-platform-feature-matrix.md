@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-cli-macos-premium-platform-feature-matrix"
 tags: ["macos", "platform-matrix", "linux", "windows", "sandbox", "seatbelt", "voice", "computer-use"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # The macOS Premium: Which Codex Features Only Work on Apple Hardware
 

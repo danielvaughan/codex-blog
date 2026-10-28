@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1098
 title: "Codex CLI v0.153.0-alpha.5 & alpha.6: Guardian Reliability, Plugin Cache Invalidation, and macOS MCP Native Spawning"
 date: 2026-09-02T20:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 tags: ["codex-cli", "v0.153", "guardian", "plugin-system", "mcp", "release"]
 ---
 

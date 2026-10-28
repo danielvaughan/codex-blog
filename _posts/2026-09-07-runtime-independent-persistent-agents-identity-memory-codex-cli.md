@@ -3,7 +3,7 @@ title: "Runtime-Independent Persistent Agents: What the Enoch Architecture Means
 parent: "Articles"
 nav_order: 1142
 date: 2026-09-07T08:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 tags: ["codex-cli", "agent-architecture", "persistence", "model-upgrade", "memory", "identity", "continuity"]
 ---
 

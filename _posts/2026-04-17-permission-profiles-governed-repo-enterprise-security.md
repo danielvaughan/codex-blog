@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-permission-profiles-governed-repo-enterprise-security"
 tags: ["permission-profiles", "governed-repo-mode", "enterprise", "security", "mcp-sandbox", "config-toml", "guardian-subagent"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # Permission Profiles End-to-End: Governed Repo Mode and Enterprise Security Posture
 

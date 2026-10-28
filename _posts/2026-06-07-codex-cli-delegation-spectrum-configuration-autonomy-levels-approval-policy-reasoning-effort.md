@@ -5,7 +5,7 @@ timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-codex-cli-delegation-spectrum-configuration-autonomy-levels-approval-policy-reasoning-effort"
 tags: ["codex-cli", "delegation", "autonomy", "configuration", "approval-policy", "reasoning-effort", "profiles", "productivity", "enterprise"]
 date: 2026-06-07T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # The Codex CLI Delegation Spectrum: Five Levels of Agent Autonomy and How to Configure Each One
 

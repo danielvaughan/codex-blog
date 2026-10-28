@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-vercel-development-mcp-server-plugin-nextjs-deployment-workflows"
 tags: ["codex-cli", "vercel", "mcp-server", "vercel-plugin", "next-js", "deployment", "preview-environments", "ai-gateway", "streamable-http"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # Codex CLI for Vercel Development: MCP Server, Plugin Ecosystem, and Next.js Deployment Workflows
 

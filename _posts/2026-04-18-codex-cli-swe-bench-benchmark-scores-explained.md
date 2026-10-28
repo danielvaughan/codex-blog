@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-cli-swe-bench-benchmark-scores-explained"
 tags: ["codex-cli", "swe-bench", "benchmarks", "evaluation", "gpt-5", "performance"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # Codex CLI SWE-Bench Scores and Benchmark Results Explained
 

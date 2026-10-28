@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-self-healing-ci-pipeline-doctor-llm-as-judge"
 tags: ["self-healing-ci", "llm-as-judge", "pipeline-doctor", "ci-cd", "codex-exec", "enterprise", "full-auto"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # Self-Healing CI/CD for Agentic Systems: The Pipeline Doctor Pattern and LLM-as-a-Judge
 

@@ -5,7 +5,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-codex-cli-biome-unified-linting-formatting-migration-hooks-mcp-server"
 tags: ["codex-cli", "biome", "linting", "formatting", "eslint", "prettier", "mcp-server", "hooks", "code-quality", "javascript", "typescript"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # Codex CLI with Biome: Unified Linting and Formatting, Migration from ESLint + Prettier, and Agent-Driven Code Quality
 

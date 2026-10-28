@@ -5,7 +5,7 @@ timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-junie-ga-ide-integrated-vs-terminal-native-coding-agents-codex-cli-comparison"
 tags: ["codex-cli", "junie", "jetbrains", "coding-agents", "benchmarks", "comparison", "ide-integration", "terminal-native", "acp", "mcp", "agentic-debugging"]
 date: 2026-06-25T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # Junie Goes GA: What JetBrains' IDE-Integrated Agent Reveals About the Terminal-Native vs IDE-Native Divide — and Where Codex CLI Stands
 

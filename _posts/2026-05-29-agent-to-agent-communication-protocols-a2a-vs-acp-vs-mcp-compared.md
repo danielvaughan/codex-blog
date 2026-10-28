@@ -5,7 +5,7 @@ timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-agent-to-agent-communication-protocols-a2a-vs-acp-vs-mcp-compared"
 tags: ["a2a", "acp", "mcp", "agent protocols", "codex cli", "inter-agent communication", "agent-to-agent"]
 date: 2026-05-29T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # Agent-to-Agent Communication Protocols: A2A vs ACP vs MCP Compared
 

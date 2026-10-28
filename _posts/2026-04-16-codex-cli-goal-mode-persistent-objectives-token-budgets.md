@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-cli-goal-mode-persistent-objectives-token-budgets"
 tags: ["goal-mode", "autonomous", "objectives", "token-budget", "v0.122", "enterprise"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # Goal Mode: Persistent Objectives with Token Budgets and Autonomous Continuation
 

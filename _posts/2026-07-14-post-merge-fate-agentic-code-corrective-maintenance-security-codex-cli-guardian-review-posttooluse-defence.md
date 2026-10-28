@@ -1,7 +1,7 @@
 ---
 title: "The Post-Merge Fate of Agentic Code: Why Merged AI Contributions Need 49% More Corrective Maintenance — and How Codex CLI's Review and Verification Stack Shifts the Burden Left"
 date: 2026-07-14T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 tags: ["codex-cli", "agentic-code", "post-merge", "corrective-maintenance", "security", "guardian", "auto-review", "PostToolUse", "static-analysis", "code-quality"]
 ---
 

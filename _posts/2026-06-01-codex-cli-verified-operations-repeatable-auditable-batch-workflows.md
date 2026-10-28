@@ -5,7 +5,7 @@ timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-verified-operations-repeatable-auditable-batch-workflows"
 tags: ["codex-cli", "verified-operations", "batch-automation", "structured-output", "hooks", "audit-trail", "codex-exec", "operations"]
 date: 2026-06-01T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 ---
 # Codex CLI for Verified Operations: Building Repeatable, Auditable Batch Workflows
 

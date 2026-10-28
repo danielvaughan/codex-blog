@@ -1,7 +1,7 @@
 ---
 title: "The 8 Million User Surge: What Codex's Explosive Growth Means for Your CLI Workflows"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 tags: ["codex-cli", "growth", "rate-limits", "context-window", "GPT-5.6", "infrastructure", "cost-optimisation"]
 ---
 

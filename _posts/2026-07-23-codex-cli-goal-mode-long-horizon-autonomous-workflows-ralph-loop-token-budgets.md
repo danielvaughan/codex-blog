@@ -1,7 +1,7 @@
 ---
 title: "Goal Mode: How Codex CLI Turns a Single Objective into Hours of Autonomous Work"
 date: 2026-07-23T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 tags: ["codex-cli", "goal-mode", "autonomous-coding", "ralph-loop", "token-budgets", "long-horizon-tasks", "persistence"]
 ---
 

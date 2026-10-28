@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.147.0: Portable Agent Plugins, Multi-Catalog Federation, and the --approve-for-me Flag"
 date: 2026-08-10T09:00:00+00:00
-last_modified_at: 2026-10-28T11:36:16Z
+last_modified_at: 2026-10-28T13:04:38Z
 tags: ["codex-cli", "agent-plugins", "plugin-catalog", "approve-for-me", "v0.147.0", "plugin-isolation", "conversation-sections"]
 ---
 
