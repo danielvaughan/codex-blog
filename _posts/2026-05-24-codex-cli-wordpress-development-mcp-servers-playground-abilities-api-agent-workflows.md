@@ -5,7 +5,7 @@ timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-wordpress-development-mcp-servers-playground-abilities-api-agent-workflows"
 tags: ["codex-cli", "wordpress", "mcp", "wordpress-7", "abilities-api", "playground", "plugin-development", "wp-cli", "gutenberg", "blocks", "AGENTS.md"]
 date: 2026-05-24T09:00:00+00:00
-last_modified_at: 2026-11-01T10:23:16Z
+last_modified_at: 2026-11-01T11:06:11Z
 ---
 # Codex CLI for WordPress Development: MCP Adapter, Playground, and Agent-Driven Plugin Workflows on WordPress 7.0
 

@@ -2,7 +2,7 @@
 title: "The Codex CLI Skills Ecosystem: agentskills.io and Community Skills"
 description: "Agent Skills started as an Anthropic internal format and, within months of being released as an open standard in December 2025, became the dominant."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-11-01T10:23:16Z
+last_modified_at: 2026-11-01T11:06:11Z
 tags:
   - ecosystem
   - skills

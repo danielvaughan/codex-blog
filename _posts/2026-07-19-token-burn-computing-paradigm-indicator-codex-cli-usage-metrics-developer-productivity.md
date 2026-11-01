@@ -1,7 +1,7 @@
 ---
 title: "Token Burn as Computing Paradigm Indicator: What Your Consumption Metrics Actually Reveal"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-11-01T10:23:16Z
+last_modified_at: 2026-11-01T11:06:11Z
 tags: ["codex-cli", "token-usage", "developer-productivity", "inference-economics", "metrics", "paradigm-shift"]
 ---
 
