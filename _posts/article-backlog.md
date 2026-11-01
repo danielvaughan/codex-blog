@@ -1,10 +1,32 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-01T03:11:00Z
+last_modified_at: 2026-11-01T07:07:28Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 1 November 2026 (Hourly Automated Pass)
+
+*Hourly KB review — 1 article written this pass. Library: 2,084 articles, 123 premium. Substack drafts: 282.*
+
+**Done this pass:**
+- `articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.md` — Windows regression pattern piece documenting the three consecutive stable-release regressions across v0.164.0, v0.165.0, and v0.166.0; covers data-integrity P0 (file deletion), Desktop self-termination, VS Code 1.143.1 launch failures, taskkill.exe/conhost.exe runaway, UKUI Wayland paste regression, and Bazel/V8 migration analysis
+- `substack-drafts/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.md` — Substack draft written
+- `sketchnotes/articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.png` — placeholder created (0-byte)
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.png` — placeholder (new)
+- `sketchnotes/articles/2026-11-01-28-days-of-shipping-end-of-sprint-scorecard-openai-codex.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — placeholder (carry forward)
+
+**Remaining backlog items:**
+- **Substack post #90 promotion check** — `2026-03-30-codex-app-server-tui-architecture-shift.md` does not yet have `copy_edited: true`; manual review required before promoting
+- **`/presets` as a Team Coordination Layer** — standalone depth piece; carry forward
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+
 ---
 
 ## Article Triage — 31 October 2026 (Hourly Automated Pass)
