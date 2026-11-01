@@ -1,10 +1,32 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-01T18:08:10Z
+last_modified_at: 2026-11-01T19:04:49Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 1 November 2026 (Second Hourly Automated Pass)
+
+*Hourly KB review — 0 new articles written this pass. Library: 2,085 articles, 123 premium. Substack drafts: 286.*
+
+**Done this pass:**
+- No new articles needed; `2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.md` already rated in articles-index during prior pass
+- Substack drafts 283–286 added since last backlog entry: `2026-11-01-28-days-of-shipping-end-of-sprint-scorecard-openai-codex.md`, `2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.md`, `2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.md`, `2026-11-05-codex-cli-mobile-teams-ios-android-xcode-remote-supervision.md`
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-11-01-28-days-of-shipping-end-of-sprint-scorecard-openai-codex.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — placeholder (carry forward)
+
+**Remaining backlog items:**
+- **Substack post #90 promotion check** — `2026-03-30-codex-app-server-tui-architecture-shift.md` does not yet have `copy_edited: true`; manual review required before promoting
+- **`/presets` as a Team Coordination Layer** — standalone depth piece; carry forward
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+
 ---
 
 ## Article Triage — 1 November 2026 (Hourly Automated Pass)

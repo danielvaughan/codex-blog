@@ -1,7 +1,7 @@
 ---
 title: "Session Management in Codex CLI v0.146: Named Sessions, Thread Pinning, and the End of Context Amnesia"
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-11-01T18:08:10Z
+last_modified_at: 2026-11-01T19:04:49Z
 tags: ["codex-cli", "session-management", "v0.146", "named-sessions", "thread-pinning", "side-conversations", "thread-forking", "developer-workflow"]
 ---
 
