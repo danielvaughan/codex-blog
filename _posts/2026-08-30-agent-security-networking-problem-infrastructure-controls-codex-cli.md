@@ -1,7 +1,7 @@
 ---
 title: "Agent Security as a Networking Problem: Infrastructure-Level Controls for Codex CLI"
 date: 2026-08-30T09:00:00+00:00
-last_modified_at: 2026-11-01T10:06:18Z
+last_modified_at: 2026-11-01T10:23:16Z
 tags: ["security", "sandbox", "architecture", "hooks", "networking", "infrastructure"]
 ---
 

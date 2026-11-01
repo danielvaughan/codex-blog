@@ -1,7 +1,7 @@
 ---
 title: "Feedback Dynamics in Self-Evolving Agent Skills: Why Failures Matter More Than Successes for Your Codex CLI Memories Pipeline"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-11-01T10:06:18Z
+last_modified_at: 2026-11-01T10:23:16Z
 tags: ["codex-cli", "self-evolving-skills", "feedback-dynamics", "memories", "PostToolUse-hooks", "validation", "agent-evolution", "sparse-search"]
 ---
 

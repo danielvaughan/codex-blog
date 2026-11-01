@@ -1,7 +1,7 @@
 ---
 title: "Where Instruction Hierarchy Breaks: What Reasoning Model Failures Mean for Codex CLI's Defence Stack"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-11-01T10:06:18Z
+last_modified_at: 2026-11-01T10:23:16Z
 tags: ["codex-cli", "instruction-hierarchy", "prompt-injection", "security", "reasoning-models", "self-monitoring", "AGENTS.md", "PreToolUse"]
 ---
 
