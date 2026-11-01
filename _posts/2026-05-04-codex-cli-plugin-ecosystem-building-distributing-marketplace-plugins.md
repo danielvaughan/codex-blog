@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-plugin-ecosystem-building-distributing-marketplace-plugins"
 tags: ["codex-cli", "plugins", "marketplace", "mcp", "skills", "hooks", "developer-experience"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI Plugin Ecosystem: Building, Distributing, and Managing Marketplace Plugins
 
@@ -21,7 +21,7 @@ Since v0.117.0 landed on 26 March 2026, Codex CLI has treated plugins as a first
 
 A plugin is a directory whose only hard requirement is a `.codex-plugin/plugin.json` manifest. Everything else — skills, MCP servers, app connectors, hooks — is optional and lives at the plugin root [^4]:
 
-```text
+```bash
 my-plugin/
 ├── .codex-plugin/
 │   └── plugin.json          # required — identity and component pointers

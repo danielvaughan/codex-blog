@@ -2,7 +2,7 @@
 title: "Open Knowledge Format and Codex CLI: Giving Your Agent a Knowledge Base It Can Actually Read"
 description: "Google has published an open specification for packaging knowledge as markdown files with YAML frontmatter. It maps directly to patterns Codex CLI already supports — and it formalises what many teams have been doing informally with AGENTS.md, skills, and MCP servers."
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - context-engineering
   - mcp
@@ -68,7 +68,7 @@ The frontmatter is deliberately minimal. Only `type` is required. The recommende
 
 A collection of these files is called a **knowledge bundle**. Bundles are organised as directory trees:
 
-```text
+```bash
 payments-knowledge/
 ├── index.md
 ├── endpoints/
@@ -113,7 +113,7 @@ The two patterns complement each other. `AGENTS.md` tells the agent how to behav
 
 A practical setup:
 
-```text
+```bash
 my-project/
 ├── AGENTS.md                    # Behavioural instructions
 ├── .codex/knowledge/            # OKF bundle

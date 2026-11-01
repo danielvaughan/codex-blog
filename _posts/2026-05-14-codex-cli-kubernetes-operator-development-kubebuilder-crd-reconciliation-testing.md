@@ -6,7 +6,7 @@ timestamp: 2026-05-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-14-codex-cli-kubernetes-operator-development-kubebuilder-crd-reconciliation-testing"
 tags: ["codex-cli", "kubernetes", "operators", "kubebuilder", "CRD", "controller-runtime", "envtest", "Go", "reconciliation", "testing"]
 date: 2026-05-14T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI for Kubernetes Operator Development: Scaffolding CRDs, Writing Reconciliation Loops, and Testing with envtest
 
@@ -79,7 +79,7 @@ kubebuilder create api --group data --version v1alpha1 --kind BackupSchedule --r
 
 This produces the canonical layout[^1]:
 
-```text
+```bash
 ├── api/v1alpha1/
 │   ├── backupschedule_types.go    # CRD spec and status structs
 │   └── zz_generated.deepcopy.go   # auto-generated

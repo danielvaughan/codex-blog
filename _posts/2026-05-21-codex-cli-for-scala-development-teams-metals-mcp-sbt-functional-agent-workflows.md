@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-for-scala-development-teams-metals-mcp-sbt-functional-agent-workflows"
 tags: ["codex-cli", "scala", "scala-3", "metals", "mcp", "sbt", "functional-programming", "agents-md", "development-workflow"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI for Scala Development Teams: Metals MCP, sbt, and Idiomatic Functional Workflows
 
@@ -143,7 +143,7 @@ writable_roots = ["~/.cache/coursier", "~/.sbt", "~/.ivy2"]
 
 For multi-module projects, create directory-level AGENTS.md overrides:
 
-```text
+```bash
 project-root/
 ├── AGENTS.md              # Global conventions
 ├── core/

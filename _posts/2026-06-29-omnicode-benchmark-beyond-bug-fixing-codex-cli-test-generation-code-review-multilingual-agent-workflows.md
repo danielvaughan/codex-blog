@@ -5,7 +5,7 @@ timestamp: 2026-06-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-29-omnicode-benchmark-beyond-bug-fixing-codex-cli-test-generation-code-review-multilingual-agent-workflows"
 tags: ["codex-cli", "omnicode", "benchmark", "test-generation", "code-review", "multilingual", "agents-md", "subagents", "configuration"]
 date: 2026-06-29T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # OmniCode and the Beyond-Bug-Fixing Problem: Configuring Codex CLI for Test Generation, Code Review, and Multilingual Workflows
 
@@ -96,7 +96,7 @@ The following sections translate OmniCode's findings into actionable Codex CLI p
 
 OmniCode demonstrates that different task categories require different agent behaviours. Use the AGENTS.md directory hierarchy to scope instructions per task type [^3][^4]:
 
-```text
+```bash
 repo-root/
 ├── AGENTS.md                    # Global: architecture, build, test commands
 ├── src/

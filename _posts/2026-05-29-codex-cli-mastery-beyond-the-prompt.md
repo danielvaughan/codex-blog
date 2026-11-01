@@ -2,7 +2,7 @@
 title: "Beyond the Prompt: Codex CLI Mastery"
 description: "Most developers treat Codex CLI as a chat box. The real value sits past the prompt, in AGENTS.md, skills, subagents, profiles, MCP servers and directory layout. This guide covers everything between installation and genuine mastery."
 date: 2026-05-29T08:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - mastery
   - agents-md
@@ -161,7 +161,7 @@ Every line exists because something went wrong without it. If removing a line wo
 
 Not every rule belongs at the repo root. A payments service has different security requirements to a marketing site. Subdirectory AGENTS.md files scope rules precisely:
 
-```text
+```bash
 myproject/
 ├── AGENTS.md                    # Shared: pnpm, TypeScript strict, test commands
 ├── services/
@@ -182,7 +182,7 @@ The Gravel Path series[^16] uses this pattern extensively: a root AGENTS.md for 
 
 The `.codex` directory at project root organises everything beyond AGENTS.md[^3]:
 
-```text
+```bash
 .codex/
 ├── config.toml          # Project-level configuration
 ├── skills/              # Reusable prompt-based capabilities
@@ -204,7 +204,7 @@ A skill is a directory containing a `SKILL.md` file[^4]. The Agent Skills standa
 
 ### Anatomy of a skill
 
-```text
+```bash
 .codex/skills/tdd/
 ├── SKILL.md           # Instructions and metadata
 └── templates/

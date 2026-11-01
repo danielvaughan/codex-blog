@@ -2,7 +2,7 @@
 title: "The Codex CLI Skills Ecosystem: agentskills.io and Community Skills"
 description: "Agent Skills started as an Anthropic internal format and, within months of being released as an open standard in December 2025, became the dominant."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - ecosystem
   - skills
@@ -28,7 +28,7 @@ This article covers the Agent Skills specification, Codex CLI's specific integra
 
 The Agent Skills specification, governed at [agentskills.io](https://agentskills.io)[^3], defines a portable, file-based format for packaging agent capabilities. A skill is a directory containing at minimum a `SKILL.md` file. The agent loads the skill's metadata at startup, then loads the full instructions on demand when it decides the skill is relevant.
 
-```text
+```bash
 pdf-processing/
 ├── SKILL.md          # Required: frontmatter + instructions
 ├── scripts/          # Optional: executable helpers
@@ -219,7 +219,7 @@ flowchart LR
 
 The 100-token startup budget per skill means your frontmatter description must be dense and precise. The skill body should stay under 500 lines; push detailed reference material into `references/`:
 
-```text
+```bash
 my-skill/
 ├── SKILL.md             # ≤ 500 lines: core workflow
 ├── references/

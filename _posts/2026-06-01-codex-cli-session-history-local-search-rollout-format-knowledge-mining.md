@@ -5,7 +5,7 @@ timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-codex-cli-session-history-local-search-rollout-format-knowledge-mining"
 tags: ["codex-cli", "session-management", "search", "rollout", "knowledge-mining", "productivity"]
 date: 2026-06-01T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI Session History: Local Search, Rollout Format, and Knowledge Mining
 
@@ -22,7 +22,7 @@ Codex CLI persists sessions in two complementary layers: append-only JSONL rollo
 
 Rollout files live under a date-partitioned hierarchy:
 
-```text
+```bash
 ~/.codex/sessions/
 └── 2026/
     └── 06/

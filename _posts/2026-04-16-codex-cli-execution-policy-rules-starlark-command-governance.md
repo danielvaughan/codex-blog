@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-codex-cli-execution-policy-rules-starlark-command-governance"
 tags: ["security", "execpolicy", "rules", "starlark", "approvals", "enterprise", "sandbox", "command-governance", "config-toml"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Execution Policy Rules in Codex CLI: Starlark-Based Command Governance for Teams
 
@@ -307,7 +307,7 @@ rules = "prompt"          # Show prompts for "prompt" decisions (default)
 
 Administrators can enforce rules system-wide via `requirements.toml`, deployed through cloud-managed policies (ChatGPT Business/Enterprise), macOS MDM (`com.openai.codex:requirements_toml_base64`), or the system path (`/etc/codex/requirements.toml`)[^8]. This hierarchy ensures enterprise security teams can mandate `forbidden` rules that individual developers cannot override:
 
-```text
+```bash
 Cloud-managed requirements (highest priority)
   └── macOS MDM preferences
         └── System requirements.toml (/etc/codex/)

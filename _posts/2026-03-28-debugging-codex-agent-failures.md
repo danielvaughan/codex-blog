@@ -2,7 +2,7 @@
 title: "Debugging Codex Agent Failures: A Systematic Troubleshooting Guide"
 description: "Codex CLI agent failures cluster into a small number of recognisable patterns. Most failures are not random — they have consistent causes and systematic."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - reference
   - context-management
@@ -230,7 +230,7 @@ codex mcp test <server-name>
 
 ## Quick Reference: Decision Tree
 
-```text
+```bash
 Agent stopped unexpectedly
 ├── API error (429/503/500) → check rate limits, resume session, reduce parallelism
 ├── Command hung → check PTY/unified_exec, avoid interactive commands

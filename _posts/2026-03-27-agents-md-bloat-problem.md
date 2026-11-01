@@ -2,7 +2,7 @@
 title: "The AGENTS.md Bloat Problem: When More Context Makes Agents Worse"
 description: "A rigorous 2026 study from ETH Zurich found that LLM-generated context files actively reduce agent task success rates."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - workflow-patterns
   - agents-md
@@ -148,7 +148,7 @@ A useful pruning heuristic, attributed to Jan-Niklas Wortmann[^8]: keep a line o
 
 Rather than one monolithic root-level file, distribute context to where it is relevant. Codex CLI loads context files from root to leaf, with deeper files overriding shallower ones[^9].
 
-```text
+```bash
 project/
 ├── AGENTS.md              # Global: tooling, shared commands
 ├── src/

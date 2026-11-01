@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-day-two-operations-runbooks-drift-detection-platform-engineering"
 tags: ["codex-cli", "platform-engineering", "SRE", "day-2-operations", "runbooks", "drift-detection", "automation", "skills", "codex-exec"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI for Day-Two Operations: Runbooks, Drift Detection, and Platform Engineering Automation
 
@@ -50,7 +50,7 @@ An operational skill follows the same SKILL.md conventions as any other [^3], bu
 
 ### Example: Infrastructure Drift Detection
 
-```text
+```bash
 .agents/skills/drift-check/
 ├── SKILL.md
 ├── scripts/

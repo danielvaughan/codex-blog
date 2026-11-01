@@ -2,7 +2,7 @@
 title: "Migrating from GitHub Copilot to Codex CLI"
 description: "Before we begin: there is a naming trap to navigate. In February 2026, GitHub launched GitHub Copilot CLI."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - competitive-landscape
   - github-copilot
@@ -45,7 +45,7 @@ This is the lowest-friction migration step, and it frequently unlocks immediate 
 
 ### What you have
 
-```text
+```bash
 project/
 └── .github/
     └── copilot-instructions.md   # your existing Copilot instructions
@@ -53,7 +53,7 @@ project/
 
 ### What to create
 
-```text
+```bash
 project/
 ├── AGENTS.md                     # primary cross-tool instructions
 └── .github/
@@ -83,7 +83,7 @@ All API handlers must return typed Response objects.
 
 In Codex CLI, move these to a subdirectory `AGENTS.md`:
 
-```text
+```bash
 project/
 └── src/
     └── api/

@@ -5,7 +5,7 @@ timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-session-archiving-lifecycle-management-v0136"
 tags: ["codex-cli", "session-management", "archiving", "v0.136", "session-lifecycle", "housekeeping", "rollout-jsonl"]
 date: 2026-06-02T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI Session Archiving: Lifecycle Management, Storage Architecture, and Housekeeping Workflows in v0.136
 
@@ -64,7 +64,7 @@ Understanding where archived sessions live is essential for backup strategies, c
 
 Active sessions are stored under the familiar date-partitioned path:
 
-```text
+```bash
 ~/.codex/sessions/
 └── YYYY/MM/DD/
     └── rollout-<session-id>.jsonl
@@ -72,7 +72,7 @@ Active sessions are stored under the familiar date-partitioned path:
 
 Archived sessions move to a parallel directory structure:
 
-```text
+```bash
 ~/.codex/archived_sessions/
 └── YYYY/MM/DD/
     └── rollout-<session-id>.jsonl

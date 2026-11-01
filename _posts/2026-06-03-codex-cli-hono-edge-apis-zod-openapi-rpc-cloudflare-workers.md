@@ -5,7 +5,7 @@ timestamp: 2026-06-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-03-codex-cli-hono-edge-apis-zod-openapi-rpc-cloudflare-workers"
 tags: ["codex-cli", "hono", "cloudflare-workers", "edge", "openapi", "zod", "rpc", "typescript", "mcp", "wrangler"]
 date: 2026-06-03T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI for Hono.js: Building Type-Safe Edge APIs with Zod OpenAPI, RPC, and Cloudflare Workers
 
@@ -272,7 +272,7 @@ The Codex `AGENTS.md` instruction `Tests use Hono's testClient()` means generate
 
 Many teams use Hono across multiple targets in a single monorepo: a Cloudflare Worker for the public API, a Bun process for internal tooling, and a Node.js adapter for a legacy integration. Directory-scoped `AGENTS.md` files handle this cleanly:
 
-```text
+```bash
 /
 ├── AGENTS.md                     # monorepo-level: shared TypeScript rules, Zod schemas
 ├── packages/

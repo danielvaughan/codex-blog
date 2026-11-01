@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-memories-persistent-context-session-memory-ecosystem"
 tags: ["codex-cli", "memories", "persistent-context", "MCP", "session-management", "config.toml", "developer-productivity"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI Memories: Native Session Persistence, Third-Party Memory MCP Servers, and Cross-Session Context Strategies
 
@@ -57,7 +57,7 @@ The consolidation prompt also reads from `memories_extensions/` for source-speci
 
 ### File Structure
 
-```text
+```bash
 ~/.codex/memories/
 ├── memory_summary.md          # Injected into system prompt
 ├── MEMORY.md                  # Searchable insight registry

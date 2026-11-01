@@ -2,7 +2,7 @@
 title: "Codex CLI Plugin System: Bundling Skills, MCP Servers, and App Connectors"
 description: "Codex CLI v0.117.0 (released March 26, 2026) elevated plugins to a first-class workflow primitive."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - ecosystem
   - plugins
@@ -57,7 +57,7 @@ Before covering plugin packaging, it helps to understand the skill format that p
 
 A skill is a directory with a required `SKILL.md` and optional supporting files:[^7]
 
-```text
+```bash
 my-skill/
 ├── SKILL.md           # Required — instructions + YAML front matter
 ├── scripts/           # Optional — executable helpers
@@ -153,7 +153,7 @@ The `dependencies.tools` block tells Codex which MCP servers the skill needs —
 
 Every plugin has a mandatory entry point at `.codex-plugin/plugin.json`. All other artefacts live at the plugin root, not inside `.codex-plugin/`.
 
-```text
+```bash
 my-plugin/
 ├── .codex-plugin/
 │   └── plugin.json          ← required
@@ -554,7 +554,7 @@ OpenAI's official plugin directory hosts the 20+ first-party integrations; self-
 
 Combining all three layers into a practical plugin:[^14]
 
-```text
+```bash
 sentry-triage/
 ├── .codex-plugin/
 │   └── plugin.json

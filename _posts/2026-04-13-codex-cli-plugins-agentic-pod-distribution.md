@@ -2,7 +2,7 @@
 title: "From Manual Config to One-Click Pod: How Plugins Transform the Agentic Engineering Pod"
 description: "The Agentic Engineering Pod — three humans (Context Architect, Value Engineer, Quality Engineer) amplified by agent capabilities — is a powerful delivery."
 date: 2026-04-13T00:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 category: enterprise
 tags:
   - codex-cli
@@ -41,7 +41,7 @@ A Codex plugin bundles three component types into a single installable unit: ski
 
 ### The Pod Plugin: Anatomy
 
-```text
+```bash
 agentic-pod/
 ├── .codex-plugin/
 │   └── plugin.json
@@ -111,7 +111,7 @@ Not every team needs the full pod plugin. A more flexible approach: three role-s
 
 ### The Context Architect Plugin
 
-```text
+```bash
 pod-context-architect/
 ├── .codex-plugin/
 │   └── plugin.json
@@ -132,7 +132,7 @@ The Context Architect's plugin focuses on specification quality. The `office-hou
 
 ### The Value Engineer Plugin
 
-```text
+```bash
 pod-value-engineer/
 ├── .codex-plugin/
 │   └── plugin.json
@@ -153,7 +153,7 @@ The MCP configuration bundles connections to project management tools. When the 
 
 ### The Quality Engineer Plugin
 
-```text
+```bash
 pod-quality-engineer/
 ├── .codex-plugin/
 │   └── plugin.json

@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-building-codex-plugins-architecture-manifests-distribution"
 tags: ["plugins", "plugin-json", "marketplace", "enterprise", "skills", "mcp", "governance", "distribution"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Building Codex CLI Plugins: Architecture, Manifests, and Enterprise Distribution
 
@@ -45,7 +45,7 @@ Each component is optional and independent. A plugin can ship a single skill wit
 
 Every plugin requires a `.codex-plugin/plugin.json` manifest at its root. All other components sit alongside it at the plugin root level[^4]:
 
-```text
+```bash
 my-plugin/
 ├── .codex-plugin/
 │   └── plugin.json          # Required manifest

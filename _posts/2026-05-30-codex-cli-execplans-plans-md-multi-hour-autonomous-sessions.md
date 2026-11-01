@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-execplans-plans-md-multi-hour-autonomous-sessions"
 tags: ["execplan", "PLANS.md", "autonomous", "codex-exec", "long-running", "planning", "AGENTS.md", "productivity"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # ExecPlans and PLANS.md: Driving Multi-Hour Autonomous Codex CLI Sessions
 
@@ -206,7 +206,7 @@ The ExecPlan is a first-class artefact. Committing it alongside code changes cre
 
 Kaushik Gopal recommends `.ai/plans/` with temporary working plans in `.ai/plans/tmp/` (gitignored)[^7]. This keeps the repository tidy while allowing Codex to use scratch space:
 
-```text
+```bash
 .ai/
 ├── plans/
 │   ├── PLANS.md              # Meta-template

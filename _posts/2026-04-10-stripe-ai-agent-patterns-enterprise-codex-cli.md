@@ -2,7 +2,7 @@
 title: "Stripe's AI Agent Patterns: What Enterprise-Scale Agent Deployment Teaches Codex CLI Users"
 description: "Stripe's engineering team merges over 1,300 AI-authored pull requests every week — none containing human-written code. Their internal system, called."
 date: 2026-04-10T07:30:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - stripe
   - enterprise-agents
@@ -120,7 +120,7 @@ scope = "global"
 
 **Hierarchical AGENTS.md** files provide the same scoped context as Stripe's rule files. A root `AGENTS.md` defines global conventions, whilst subdirectory files add context relevant to specific packages — precisely the pattern Stripe uses to guide agents through a codebase of hundreds of millions of lines[^9].
 
-```text
+```bash
 repo-root/
 ├── AGENTS.md              # Global: Ruby style, Sorbet types, PR conventions
 ├── payments/

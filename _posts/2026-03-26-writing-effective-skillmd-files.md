@@ -2,7 +2,7 @@
 title: "Writing Effective SKILL.md Files for Codex CLI"
 description: "A skill is a directory of instructions, scripts, and resources that an agent can discover and load on demand."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - ecosystem
   - skills
@@ -29,7 +29,7 @@ The SKILL.md format originates from Anthropic but is now an open standard mainta
 
 ## Directory Structure
 
-```text
+```bash
 my-skill/
 ├── SKILL.md              ← Required: metadata + instructions
 ├── agents/
@@ -212,7 +212,7 @@ flowchart TD
 
 Example skill that uses all three layers:
 
-```text
+```bash
 pr-review/
 ├── SKILL.md             ← steps: "run scripts/check.py, then read references/rules.md"
 ├── agents/openai.yaml   ← invocation policy
@@ -232,7 +232,7 @@ pr-review/
 
 Commit skills to `.agents/skills/` in your repo so all Codex sessions pick them up automatically, no installation required.
 
-```text
+```bash
 .agents/skills/
 ├── pr-review/
 │   └── SKILL.md

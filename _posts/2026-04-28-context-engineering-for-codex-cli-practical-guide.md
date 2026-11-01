@@ -6,7 +6,7 @@ timestamp: 2026-04-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-28-context-engineering-for-codex-cli-practical-guide"
 tags: ["context-engineering", "codex-cli", "AGENTS.md", "skills", "MCP", "config.toml", "prompt-caching", "harness-engineering"]
 date: 2026-04-28T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Context Engineering for Codex CLI: A Practical Guide to Curating What Your Agent Sees
 
@@ -90,7 +90,7 @@ Skills are the context-engineering workhorse because they use *progressive discl
 
 A typical skill directory:
 
-```text
+```bash
 .agents/skills/api-endpoint/
 ├── SKILL.md
 ├── template.ts
@@ -273,7 +273,7 @@ timeout_ms = 120000
 
 Here is a complete, minimal context-engineering setup for a TypeScript monorepo:
 
-```text
+```bash
 my-project/
 ├── AGENTS.md                          # Team conventions, build commands
 ├── .codex/

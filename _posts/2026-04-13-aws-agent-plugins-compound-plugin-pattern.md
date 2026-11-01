@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-aws-agent-plugins-compound-plugin-pattern"
 tags: ["aws", "plugins", "compound-plugin", "cloud-infrastructure", "enterprise", "marketplace", "mcp", "iac", "cost-estimation"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # AWS Agent Plugins and the Compound Plugin Pattern: How Cloud Providers Are Shipping Production-Grade Agent Skills
 
@@ -143,7 +143,7 @@ The three-tier installation policy (`INSTALLED_BY_DEFAULT`, `AVAILABLE`, `NOT_AV
 
 Understanding the on-disk layout clarifies how the compound pattern works:
 
-```text
+```bash
 plugins/deploy-on-aws/
 ├── .codex-plugin/
 │   └── plugin.json          # Manifest: metadata, component pointers

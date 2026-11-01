@@ -5,7 +5,7 @@ timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-oversight-architecture-guide-delegation-spectrum-codex-cli-approval-profiles-hooks"
 tags: ["codex-cli", "oversight", "delegation-spectrum", "approval-policy", "named-profiles", "hooks", "governance", "trust-calibration", "autonomy-levels"]
 date: 2026-07-01T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # The Oversight Architecture Guide: Mapping the Delegation Spectrum to Codex CLI Approval Profiles, Hooks, and Named Configurations
 
@@ -170,7 +170,7 @@ The `auto_review` reviewer routes eligible approval requests through an automati
 
 Across all delegation levels, AGENTS.md files serve as the primary vehicle for a priori control [^9]. Codex CLI supports a hierarchical structure where project-root instructions cascade to subdirectories, with per-directory overrides:
 
-```text
+```bash
 project-root/
 ├── AGENTS.md              # Global constraints
 ├── src/

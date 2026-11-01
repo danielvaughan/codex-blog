@@ -6,7 +6,7 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-memory-lifecycle-management-codex-cli"
 tags: ["memory", "lifecycle", "consolidation", "data-governance", "enterprise", "configuration"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Memory Lifecycle Management: Create, Consolidate, Clean, Delete in Codex CLI
 
@@ -73,7 +73,7 @@ The consolidation agent receives these labels and adjusts the on-disk artefacts 
 
 Phase 2 maintains five artefact types under `codex_home`:
 
-```text
+```bash
 ~/.codex/memory/
 ├── memory_summary.md          # Navigational summary injected into prompts
 ├── MEMORY.md                  # Searchable registry of aggregated insights

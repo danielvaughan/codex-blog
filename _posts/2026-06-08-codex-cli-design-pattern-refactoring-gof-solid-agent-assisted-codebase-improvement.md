@@ -5,7 +5,7 @@ timestamp: 2026-06-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-08-codex-cli-design-pattern-refactoring-gof-solid-agent-assisted-codebase-improvement"
 tags: ["codex-cli", "design-patterns", "refactoring", "GoF", "SOLID", "clean-architecture", "agents-md", "hooks", "skills", "code-quality", "architecture"]
 date: 2026-06-08T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI for Design Pattern Refactoring: Agent-Assisted GoF Patterns, SOLID Enforcement, and Architectural Improvement
 
@@ -175,7 +175,7 @@ When the same pattern application recurs across projects — extracting a God cl
 
 ### Strategy Pattern Extraction Skill
 
-```text
+```bash
 .codex/skills/extract-strategy/
 ├── SKILL.md
 ├── examples/

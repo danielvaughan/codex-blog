@@ -2,7 +2,7 @@
 title: "Bootstrapping AGENTS.md: Scaffold Generation, Override Files and Chain Verification"
 description: "Every Codex CLI session begins by assembling an instruction chain from AGENTS.md files scattered across your directory tree. Getting this chain right — from."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - getting-started
   - agents-md
@@ -188,7 +188,7 @@ Then ask Codex about the canary. If the response matches, that file is in the ch
 
 OpenAI reportedly uses 88 `AGENTS.md` files across their internal monorepo[^6], giving per-package instructions where needed. The pattern:
 
-```text
+```bash
 repo/
 ├── AGENTS.md                    # Global: CI commands, commit conventions, PR template
 ├── packages/
@@ -207,7 +207,7 @@ The root `AGENTS.md` establishes universal rules. Each package adds specifics. T
 
 For polyglot microservices, each service carries its own `AGENTS.md` with language-specific tooling:
 
-```text
+```bash
 services/
 ├── AGENTS.md                    # Cross-service rules: gRPC conventions, proto lint
 ├── user-service/
@@ -222,7 +222,7 @@ services/
 
 Data projects benefit from pipeline-specific instructions:
 
-```text
+```bash
 data-platform/
 ├── AGENTS.md                    # Airflow conventions, data quality standards
 ├── pipelines/

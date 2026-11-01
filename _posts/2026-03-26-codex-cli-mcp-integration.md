@@ -2,7 +2,7 @@
 title: "Codex CLI MCP Integration: Connecting Agents to External Tools"
 description: "There is a pattern I have noticed across thirty years of software infrastructure decisions. A powerful tool ships with a clean interface. Then someone asks."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - ecosystem
   - mcp
@@ -154,7 +154,7 @@ Context7 deserves particular attention: it resolves documentation against your a
 
 One pattern that scales well in teams: commit project-specific MCP config to the repository alongside `AGENTS.md`. When a new engineer clones the repo and runs Codex, the right servers are already configured:
 
-```text
+```bash
 my-project/
 ├── AGENTS.md
 └── .codex/

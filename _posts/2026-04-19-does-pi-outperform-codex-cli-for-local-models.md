@@ -1,7 +1,7 @@
 ---
 title: "Does Pi Outperform Codex CLI for Local Models? A Harness Comparison on the NVIDIA GB10"
 date: 2026-04-19T00:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - codex-cli
   - pi
@@ -63,7 +63,7 @@ Each run started from a clean `git init` directory. Tests were validated with `p
 
 ## Results
 
-```text
+```bash
 LOCAL MODEL BENCHMARK — 2026-04-19
 Hardware:  NVIDIA GB10 (128 GB unified, Blackwell)
 Codex CLI: v0.121.0  |  Pi: v0.67.68  |  Ollama: v0.20.5

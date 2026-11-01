@@ -2,7 +2,7 @@
 title: "Learning Plan for Becoming a Codex CLI Expert"
 description: "Codex CLI is not a chatbot that writes code. It is an agentic coding harness — a system that reads your files, runs commands, makes changes, and works."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - getting-started
   - agents-md
@@ -260,7 +260,7 @@ A skill packages instructions, resources, and optional scripts so Codex can foll
 
 The minimum structure:
 
-```text
+```bash
 .agents/skills/lint-fix/
 ├── SKILL.md
 └── agents/

@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-codex-cli-rollout-files-session-recording-replay-audit-trails"
 tags: ["codex-cli", "rollout-files", "sessions", "audit", "observability", "debugging", "compliance", "JSONL"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI Rollout Files: Session Recording, Replay, and Building Audit Trails
 
@@ -19,7 +19,7 @@ Every `codex` invocation silently writes a JSONL rollout file — a complete, ap
 
 Codex persists sessions under `~/.codex/sessions/` using a date-partitioned directory structure [^1]:
 
-```text
+```bash
 ~/.codex/sessions/
 └── 2026/
     └── 04/

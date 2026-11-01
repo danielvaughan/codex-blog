@@ -5,7 +5,7 @@ timestamp: 2026-06-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-13-anthropic-overtakes-openai-business-adoption-codex-cli-vendor-diversification-platform-hedging"
 tags: ["codex-cli", "anthropic", "openai", "platform-strategy", "vendor-diversification", "multi-model", "competitive-landscape", "enterprise", "claude-code", "ramp-ai-index"]
 date: 2026-06-13T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Anthropic Overtakes OpenAI in Business Adoption: What the Ramp AI Index Means for Codex CLI Platform Strategy
 
@@ -157,7 +157,7 @@ Avoid vendor-specific MCP servers that exist only in one ecosystem's plugin mark
 
 Your `.codex/` directory, AGENTS.md hierarchy, skills, and hook scripts should all live in version control. This is your portability insurance:
 
-```text
+```bash
 .codex/
 ├── config.toml          # Profiles, MCP servers, hook config
 ├── skills/

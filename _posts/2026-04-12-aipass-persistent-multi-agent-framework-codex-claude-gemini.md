@@ -2,7 +2,7 @@
 title: "AIPass: Persistent Multi-Agent Collaboration Across Codex CLI, Claude Code, and Gemini CLI"
 description: "Every AI coding CLI session starts from scratch. You open Claude Code, explain the codebase, establish conventions, work through a problem."
 date: 2026-04-12T11:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - codex-cli
   - claude-code
@@ -33,7 +33,7 @@ The framework runs each CLI as a subprocess. It does not proxy API calls, extrac
 
 The core mechanism is a `.trinity/` directory that lives inside each agent's workspace. It stores identity, learned context, and accumulated knowledge as JSON files. When an agent starts a new session, it reads `.trinity/` to pick up where it left off. Before the session ends, it writes back what it learned.
 
-```text
+```bash
 src/aipass/<agent>/
 ├── .trinity/           # Persistent identity + memory (JSON files)
 ├── .ai_mail.local/     # Local mailbox for task dispatch

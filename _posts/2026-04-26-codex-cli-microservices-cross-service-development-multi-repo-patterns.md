@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-microservices-cross-service-development-multi-repo-patterns"
 tags: ["codex-cli", "microservices", "multi-repo", "cross-service", "subagents", "agents-md", "distributed-systems"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Codex CLI for Microservices: Cross-Service Development, Multi-Repo Patterns, and Distributed Workflows
 
@@ -66,7 +66,7 @@ Do NOT read or index:
 
 Codex discovers AGENTS.md files hierarchically, concatenating from the repository root downward [^5]. In a microservices context, this hierarchy becomes your service contract with the agent:
 
-```text
+```bash
 ~/work/platform/
 ├── AGENTS.md                          # Cross-cutting standards
 ├── api-gateway/

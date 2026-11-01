@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-filesystem-aware-skill-loading-unix-socket-sandbox-allowlists"
 tags: ["skills", "sandbox", "unix-sockets", "macos", "filesystem", "skill-loading", "mcp"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Filesystem-Aware Skill Loading and Unix Socket Sandbox Allowlists
 
@@ -63,7 +63,7 @@ A companion change in PR #17407 replaced bare `PathBuf` with `AbsolutePathBuf` t
 
 Consider a monorepo with distinct skill sets per service:
 
-```text
+```bash
 my-monorepo/
 ├── .agents/skills/
 │   └── shared-lint/

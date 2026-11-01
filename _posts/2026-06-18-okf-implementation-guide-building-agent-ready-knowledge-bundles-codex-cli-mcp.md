@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-okf-implementation-guide-building-agent-ready-knowledge-bundles-codex-cli-mcp"
 tags: ["codex-cli", "okf", "open-knowledge-format", "mcp", "knowledge-management", "context-engineering", "google-cloud"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # OKF Implementation Guide: Building Agent-Ready Knowledge Bundles for Codex CLI via MCP
 
@@ -47,7 +47,7 @@ Producers may add arbitrary extension fields; consumers must preserve unknown ke
 
 ### Directory Layout
 
-```text
+```bash
 bundle/
 ├── index.md          # Optional — progressive disclosure listing
 ├── log.md            # Optional — chronological change history

@@ -3,7 +3,7 @@ title: "instant_interrupt: How Codex's New Steering Mode Changes the Execution M
 parent: "Articles"
 nav_order: 1180
 date: 2026-10-12T08:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags: ["codex-cli", "instant-interrupt", "execution-model", "steering", "agentic-sessions", "TUI", "v0.159.0", "multi-agent", "configuration"]
 copy_edited: true
 ---
@@ -130,7 +130,7 @@ With `instant_interrupt` enabled, the interrupt control in the `/agents` panel b
 
 The combination of `/agents` + `instant_interrupt` is the intended multi-agent steering interface: monitor five parallel agents from a single pane, interrupt any of them immediately when their direction diverges, and resume with a redirect. This is the workflow described in the DevDay 2026 demo.[^3]
 
-```text
+```bash
 /agents panel (v0.159.0+)
 ┌─────────────────────────────────────────────────────────┐
 │ [running] agent-1  writing: src/auth/token.ts           │

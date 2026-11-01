@@ -2,7 +2,7 @@
 title: "AGENTS.md Advanced Patterns: Nested Hierarchies, Override Files and Fallbacks"
 description: "The basic three-tier hierarchy (~/.codex/AGENTS.md → repo root → subdirectory) is documented everywhere. This article covers what isn't: override files."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags:
   - configuration
   - agents-md
@@ -70,7 +70,7 @@ Delete the file when done. The base `~/.codex/AGENTS.md` is untouched.
 
 In a monorepo, `services/payments/` needs different test commands and stricter constraints than the root:
 
-```text
+```bash
 my-monorepo/
 ├── AGENTS.md                        ← company-wide defaults
 ├── services/
@@ -144,7 +144,7 @@ Raising the limit increases token usage. Prefer splitting instructions instead.[
 
 Rather than one giant repo-root `AGENTS.md`, distribute rules to the directories that need them:
 
-```text
+```bash
 project/
 ├── AGENTS.md                ← ~4 KiB: repo layout, global conventions, top-level commands
 ├── src/

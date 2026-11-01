@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-why-coding-agents-fail-at-navigation-agents-md-file-maps"
 tags: ["codex-cli", "agents-md", "navigation", "file-maps", "benchmarks", "agent-failures", "codebase-navigation"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 ---
 # Why Coding Agents Fail at Navigation (and How AGENTS.md File Maps Fix It)
 
@@ -223,7 +223,7 @@ If the agent's first actions in a session are targeted file reads rather than ex
 
 For large codebases, use Codex CLI's hierarchical discovery to split your file map across directories:
 
-```text
+```bash
 monorepo/
 ├── AGENTS.md                    # global: tech stack, CI commands
 ├── apps/

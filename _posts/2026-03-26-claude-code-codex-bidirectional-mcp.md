@@ -2,7 +2,7 @@
 title: "Claude Code ↔ Codex CLI: Bidirectional MCP Integration"
 description: "The Model Context Protocol (MCP) was designed as a universal interface between AI agents and external tools."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-11-01T11:06:11Z
+last_modified_at: 2026-11-01T11:42:51Z
 tags: ["mcp", "claude-code", "codex", "integration", "orchestration"]
 type: Technical Article
 timestamp: 2026-03-26T09:00:00+00:00
@@ -286,7 +286,7 @@ Example use case: Codex is running a test suite in a CI-like loop. When a test f
 
 This pattern mirrors the architecture documented in the OpenAI Agents SDK cookbook. A Project Manager agent (running in Claude Code) decomposes work and gates handoffs between specialised agents:
 
-```text
+```bash
 Project Manager (Claude Code)
   ├── calls codex("Design the data model for X") → Designer artifact
   ├── [gate: verify artifact exists]
