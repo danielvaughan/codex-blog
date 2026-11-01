@@ -3,7 +3,7 @@ title: "The Invisible Validator Burden: Who Pays When AI Writes Code?"
 parent: "Articles"
 nav_order: 1175
 date: 2026-10-09T07:00:00+00:00
-last_modified_at: 2026-11-01T07:07:28Z
+last_modified_at: 2026-11-01T10:06:18Z
 tags: ["codex-cli", "research", "productivity", "code-review", "developer-experience", "AGENTS.md", "hooks", "PostToolUse", "governance", "premium"]
 copy_edited: true
 ---

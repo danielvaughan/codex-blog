@@ -1,7 +1,7 @@
 ---
 title: "The QA Loop Pattern: Computer Use + Success Criteria as an Automated Testing Framework"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-11-01T07:07:28Z
+last_modified_at: 2026-11-01T10:06:18Z
 tags: ["codex-cli", "computer-use", "qa-testing", "testing-patterns", "automation", "codex-loop", "testing-pyramid"]
 ---
 

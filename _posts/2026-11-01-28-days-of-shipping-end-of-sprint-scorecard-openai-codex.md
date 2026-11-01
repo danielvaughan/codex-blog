@@ -1,7 +1,7 @@
 ---
 title: "28 Days of Shipping: The Final Scorecard"
 date: 2026-11-01T08:00:00+00:00
-last_modified_at: 2026-11-01T07:07:28Z
+last_modified_at: 2026-11-01T10:06:18Z
 parent: "Articles"
 nav_order: 1211
 tags:
@@ -37,7 +37,7 @@ The short version: OpenAI shipped more Codex CLI substance in the sprint's secon
 
 The mid-sprint scorecard covered these in detail. The headline figures: four of the first seventeen days were usage resets rather than feature deliveries; the best-received features were infrastructure improvements (12-hour prompt caching at 91%, context window expansion at 85%); and the worst-received feature was "edit previous messages" in the desktop app (8%) — a UX nicety delivered into a community asking for quota, reliability, and cost improvements.
 
-The first half established a pattern: infrastructure features resonate, surface-level UX features do not, and resets are tolerated but consuming sprint days that the community would rather see spent on features.
+The first half established a pattern: infrastructure features resonate, surface-level UX features do not, and resets are tolerated but consume sprint days that the community would rather see spent on features.
 
 ### Days 18–28: The Second Half
 

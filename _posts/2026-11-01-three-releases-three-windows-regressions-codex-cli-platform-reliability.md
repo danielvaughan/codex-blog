@@ -1,7 +1,7 @@
 ---
 title: "Three Releases, Three Windows Regressions: Codex CLI's Persistent Platform Reliability Problem"
 date: 2026-11-01T10:00:00+00:00
-last_modified_at: 2026-11-01T07:07:28Z
+last_modified_at: 2026-11-01T10:06:18Z
 parent: "Articles"
 nav_order: 1212
 tags:
@@ -15,7 +15,7 @@ tags:
   - v0.166.0
   - community
   - analysis
-copy_edited: false
+copy_edited: true
 ---
 
 # Three Releases, Three Windows Regressions: Codex CLI's Persistent Platform Reliability Problem
@@ -50,7 +50,7 @@ Separate from the file deletion issue, Windows users running the Codex Desktop a
 
 Both issues emerged alongside cross-platform instability in the same post-release window: a macOS TUI bootstrap `-32603` failure and a Linux 47–49 GB RAM OOM spike during search and task resume. The simultaneous breadth of the outage — all three major platforms affected within 24 hours — pointed to release testing gaps rather than platform-specific causes.
 
-A v0.165.0 alpha backport (`v0.165.0-alpha.1.1`) subsequently shipped Windows MXC sandbox fixes, suggesting the file deletion issue was traced to the sandbox layer.
+A v0.165.0 alpha backport (`v0.165.0-alpha.1.1`) subsequently shipped Windows MCP sandbox fixes, suggesting the file deletion issue was traced to the sandbox layer.
 
 ---
 
@@ -61,7 +61,7 @@ v0.165.0 stable shipped at 20:09 UTC on 27 October. By the following day, a new 
 **Windows VS Code 1.143.1 UI startup failures**
 Codex CLI failed to start from within VS Code 1.143.1 on Windows. The failure mode was a launch error in the VS Code extension panel — Codex simply would not initialise when invoked from the IDE. Workaround: launch Codex from Windows Terminal or PowerShell directly.
 
-The VS Code 1.143.1 failure has a dual cause: the VS Code 1.143.1 release changed the extension host API surface, and Codex CLI's Windows extension integration was not tested against it before v0.165.0 stable. This is a category of regression that a basic pre-release Windows integration test matrix would catch. The fact that it shipped undetected suggests the Windows test suite either does not include VS Code integration scenarios or was not run at the required VS Code version.
+The failure has a dual cause: the VS Code 1.143.1 release changed the extension host API surface, and Codex CLI's Windows extension integration was not tested against it before v0.165.0 stable. This is a category of regression that a basic pre-release Windows integration test matrix would catch. The fact that it shipped undetected suggests the Windows test suite either does not include VS Code integration scenarios or was not run at the required VS Code version.
 
 ---
 
@@ -97,7 +97,7 @@ The v0.164.0 file deletion and crash regressions, the v0.165.0 VS Code integrati
 
 ### 2. Sprint Velocity Compresses the Pre-Release Window
 
-The 28 Days of Shipping sprint ran at 1–2 major stable releases per week for a sustained four-week period. v0.165.0 graduated from alpha to stable in roughly 4 days; v0.166.0 in roughly 2 days. At that cadence, the window for platform-specific integration testing is compressed. A test suite that might catch a Windows regression on a two-week cycle may not flag it before a three-day stable graduation.
+The 28 Days of Shipping sprint ran at 1–2 major stable releases per week for a sustained four-week period. v0.165.0 graduated from alpha to stable in roughly four days; v0.166.0 in roughly two days. At that cadence, the window for platform-specific integration testing is compressed. A test suite that might catch a Windows regression on a two-week cycle may not flag it before a three-day stable graduation.
 
 This is a trade-off, not a mistake. The sprint delivered substantial competitive progress. But sprint velocity and platform reliability are in tension — and Windows bore a disproportionate share of the reliability cost.
 
@@ -150,9 +150,9 @@ The Bazel/V8 change is the right foundational move. It will reduce the frequency
 
 ## The Bigger Question
 
-Three consecutive stable releases with significant Windows regressions discovered within 48 hours of graduation is a process signal. It suggests the stable graduation gate does not include a Windows integration smoke test — or if it does, that smoke test is not covering the surfaces that break.
+Three consecutive stable releases with significant Windows regressions discovered within 48 hours of graduation are a process signal. It suggests the stable graduation gate does not include a Windows integration smoke test — or if it does, that smoke test is not covering the surfaces that break.
 
-The community patience metric is visible: the `taskkill.exe` runaway report reached 44 comments and 27 upvotes in under 48 hours on a topic most VS Code users had already filtered out. Windows-specific reliability has become a trust category of its own, separate from feature quality.
+The community's patience metric is visible: the `taskkill.exe` runaway report reached 44 comments and 27 upvotes in under 48 hours on a topic most VS Code users had already filtered out. Windows-specific reliability has become a trust category of its own, separate from feature quality.
 
 The Bazel/V8 migration gives OpenAI the foundation to address this systematically. Whether that foundation gets built on — with Windows integration testing, VS Code version matrices, and explicit Windows reliability KPIs — will determine whether "three releases, three regressions" describes a sprint-specific anomaly or a structural commitment gap.
 

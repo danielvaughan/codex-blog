@@ -1,7 +1,7 @@
 ---
 title: "SWE-MeM and the Case for Learned Compaction: What Adaptive Memory Management Means for Codex CLI Sessions"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-11-01T07:07:28Z
+last_modified_at: 2026-11-01T10:06:18Z
 tags: ["codex-cli", "context-management", "compaction", "SWE-MeM", "memory-management", "token-efficiency", "GRPO", "long-horizon-agents"]
 ---
 
