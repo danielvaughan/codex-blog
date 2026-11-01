@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.162.0 Stable: VS Code Stuck-Prompt Fix, Windows Hardening, and TUI Task Details"
 date: 2026-10-20T08:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 parent: "Articles"
 nav_order: 1190
 tags:
@@ -42,7 +42,7 @@ The headline fix in v0.162.0 resolved a VS Code extension regression that silent
 
 **Fix:** The serialisation path was patched to handle `undefined` values correctly, and the queue processing logic was hardened to surface serialisation errors rather than halt silently.
 
-For a deeper look at the architectural implications of the failure — why extension-layer queues are a fragility point and how IDE integration differs from direct CLI use — see [VS Code Extension Reliability Collapse](../2026-10-10-vs-code-extension-reliability-collapse-october-2026-stuck-prompt-bug-codex-cli/).
+For a deeper look at the architectural implications of the failure — why extension-layer queues are a fragility point and how IDE integration differs from direct CLI use — see [VS Code Extension Reliability Collapse](/2026/10/10/vs-code-extension-reliability-collapse-october-2026-stuck-prompt-bug-codex-cli/).
 
 ---
 
@@ -124,7 +124,7 @@ Several items that were in active development during the v0.162.0 alpha sprint d
 
 ## Context: DevDay 2026 Timing
 
-v0.162.0 shipped on 8 October, nine days after OpenAI DevDay 2026 (29 September, San Francisco). The two events are independent — v0.162.0 was driven entirely by the VS Code regression fix sprint, not by DevDay announcements. The DevDay features (Codex Cloud cross-device environments, the `/agents` view, Code Review, and Security Cloud) are tracked in the [DevDay 2026 recap](../2026-10-08-openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud/) and shipped across subsequent releases.
+v0.162.0 shipped on 8 October, nine days after OpenAI DevDay 2026 (29 September, San Francisco). The two events are independent — v0.162.0 was driven entirely by the VS Code regression fix sprint, not by DevDay announcements. The DevDay features (Codex Cloud cross-device environments, the `/agents` view, Code Review, and Security Cloud) are tracked in the [DevDay 2026 recap](/2026/10/08/openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud/) and shipped across subsequent releases.
 
 ---
 

@@ -1,7 +1,9 @@
 ---
 title: "Codex CLI v0.166.0 Alpha Sprint: Enterprise OpenTelemetry, PEM Client Identities, and `codex doctor --network-only`"
+parent: "Articles"
 date: 2026-10-28T08:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
+nav_order: 1209
 tags:
   - codex-cli
   - observability
@@ -9,9 +11,12 @@ tags:
   - enterprise
   - diagnostics
   - v0.166.0
-copy_edited: false
-premium: false
+copy_edited: true
 ---
+
+# Codex CLI v0.166.0 Alpha Sprint: Enterprise OpenTelemetry, PEM Client Identities, and `codex doctor --network-only`
+
+![Sketchnote diagram for: Codex CLI v0.166.0 Alpha Sprint: Enterprise OpenTelemetry, PEM Client Identities, and `codex doctor --network-only`](/sketchnotes/articles/2026-10-28-codex-v0166-enterprise-otel-sprint-managed-config-pem-identities-network-diagnostics.png)
 
 Five OpenTelemetry pull requests merged into the v0.166.0 alpha branch before 07:00 UTC on 28 October 2026, making the sprint theme unmistakable: enterprise-grade telemetry delivery. The v0.165.x sprint added the *generation* side — turn, streaming, and tool-dispatch tracing wired into Codex CLI's runtime. v0.166.x adds the *delivery* side: managed OTEL collector configuration, PEM-authenticated client identities, credential-safe header redaction, and trace-exporter continuity across account switches.
 
@@ -35,9 +40,9 @@ The requirement types modelled in the protocol correspond to the fields the CLI 
 
 ### Header Redaction in Config Responses (PR #57654)
 
-When the app-server returns OTEL configuration — including authorization headers for the managed collector — those headers are now redacted in any config response that Codex CLI logs, serialises, or returns to diagnostic tools. The raw credential never appears in `codex doctor` output, session logs, or telemetry payloads themselves.
+When the app-server returns OTEL configuration — including authorisation headers for the managed collector — those headers are now redacted in any config response that Codex CLI logs, serialises, or returns to diagnostic tools. The raw credential never appears in `codex doctor` output, session logs, or telemetry payloads themselves.
 
-This is the same pattern used for credential masking introduced in v0.164.0 (PRs #54309, #54432, #56049) for remote Bash/Zsh/custom providers. The security model is consistent: credentials injected through the app-server protocol are used but never echoed.
+This matches the credential-masking pattern introduced in v0.164.0 (PRs #54309, #54432, #56049) for remote Bash/Zsh/custom providers. The security model is consistent: credentials injected through the app-server protocol are used but never echoed.
 
 ### Managed OpenTelemetry Metadata and PEM Client Identities (PR #57658)
 
@@ -82,7 +87,7 @@ Several smaller PRs landed alongside the OTEL sprint:
 
 **Preserve rollout tracing across sub-agent reloads (PR #57615)** — when a sub-agent session is reloaded (e.g. after a compaction or reconnect), the rollout tracing context is now preserved. This prevents orphaned spans in multi-agent sessions that involve session recovery.
 
-**Share runtime auth with model providers and catalogs (PR #57607)** — the runtime authentication token is shared with model provider and model catalog lookup requests, removing a class of auth failure where a session with valid credentials could not refresh its model catalog because the catalog fetch used a separate auth path.
+**Share runtime auth with model providers and catalogues (PR #57607)** — the runtime authentication token is shared with model provider and model catalogue lookup requests, removing a class of auth failure where a session with valid credentials could not refresh its model catalogue because the catalogue fetch used a separate auth path.
 
 **Show Bedrock setup for explicitly configured OpenAI providers (PR #57626)** — when a user has explicitly configured an OpenAI provider in `config.json` but Bedrock is available, the TUI now surfaces Bedrock setup guidance rather than silently ignoring it. Relevant for enterprise users on AWS who have an OpenAI API key but could reduce egress costs by routing through Bedrock.
 
@@ -106,8 +111,8 @@ Teams running Codex CLI in corporate environments with managed OTEL collectors, 
 | Version | Released (UTC) | Notable PRs |
 |---------|----------------|-------------|
 | v0.166.0-alpha.1 | Oct 27 01:33 | GPT-6.1 Terra, safety recourse TUI, session reliability |
-| v0.166.0-alpha.2 | Oct 28 (early) | OTEL managed config, requirement types |
-| v0.166.0-alpha.3 | Oct 28 (early) | Header redaction, PEM identities, account-switch fix |
+| v0.166.0-alpha.2 | Oct 27 11:54 UTC | OTEL managed config, requirement types |
+| v0.166.0-alpha.3 | Oct 27 19:23 UTC | Header redaction, PEM identities, account-switch fix |
 | v0.166.0-alpha.4 | Oct 28 01:22 UTC | codex doctor --network-only, exec-server removal |
 | v0.166.0-alpha.5 | Oct 28 04:43 UTC | Supporting changes (auth sharing, Bedrock setup, VTE fix) |
 
@@ -115,7 +120,7 @@ v0.165.0 stable shipped 27 October at 20:09 UTC. v0.166.0 stable is expected wit
 
 ## Related Articles
 
-- [Codex CLI v0.165.0 Observability Sprint: Turn Tracing, Streaming Spans, and Guardian v2](../2026-10-26-v0165-observability-sprint-tracing-streaming-tool-dispatch-guardian-v2/)
-- [Codex CLI v0.166.0-alpha.1: GPT-6.1 Terra, Safety Recourse TUI, and Session Reliability](../2026-10-27-codex-v0166-alpha1-gpt61-terra-safety-recourse-session-reliability/)
-- [Codex CLI v0.165.0 Stable: GCP Vertex AI, GPT-6.1 Terra, and Memory v2](../2026-10-28-codex-v0165-stable-gcp-vertex-gpt61-terra-memory-v2/)
-- [Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On](../2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock/)
+- [Codex CLI v0.165.0 Observability Sprint: Turn Tracing, Streaming Spans, and Guardian v2](/2026/10/26/v0165-observability-sprint-tracing-streaming-tool-dispatch-guardian-v2/)
+- [Codex CLI v0.166.0-alpha.1: GPT-6.1 Terra, Safety Recourse TUI, and Session Reliability](/2026/10/27/codex-v0166-alpha1-gpt61-terra-safety-recourse-session-reliability/)
+- [Codex CLI v0.165.0 Stable: GCP Vertex AI, GPT-6.1 Terra, and Memory v2](/2026/10/28/codex-v0165-stable-gcp-vertex-gpt61-terra-memory-v2/)
+- [Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On](/2026/10/23/codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock/)

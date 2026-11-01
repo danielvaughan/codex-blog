@@ -1,7 +1,7 @@
 ---
 title: "When Context Gets Root: Instruction Privilege Escalation in LLM Harnesses and Codex CLI's Multi-Agent Attack Surface"
 date: 2026-08-30T09:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 tags: ["security", "multi-agent", "privilege-escalation", "codex-cli", "harness-engineering", "sandbox", "hooks"]
 ---
 

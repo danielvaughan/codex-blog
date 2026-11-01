@@ -1,7 +1,7 @@
 ---
 title: "DreamGuard and the Trajectory Blind Spot: Why Your Per-Action Guardrails Miss Long-Horizon Risks — and What a Risk-Aware World Model Means for Codex CLI Safety"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 tags: ["codex-cli", "safety", "guardrails", "DreamGuard", "world-model", "PreToolUse", "long-horizon-risk", "runtime-safety", "trajectory-risk"]
 ---
 

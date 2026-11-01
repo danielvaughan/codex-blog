@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.163.0 Stable: /config Command, Follow-Up While Processing, and Parallel Read-Only Tools"
 date: 2026-10-16T08:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 parent: "Articles"
 nav_order: 1185
 tags:
@@ -28,7 +28,7 @@ copy_edited: true
 
 Codex CLI v0.163.0 reached stable on 15 October 2026 after a thirteen-iteration alpha sprint (alpha.1 through alpha.10.2, running 8–15 October). The stable release closes out the sprint and ships several user-facing features focused on session control, configuration ergonomics, and parallel tool execution.
 
-This article covers the new capabilities that shipped in the stable build. For the lower-level infrastructure changes (managed worktrees, OSC 7501 terminal status, gRPC over stdio) that defined the alpha sprint's engineering direction, see [Reading the v0.163.0 Alpha Sprint](../2026-10-11-codex-v0163-managed-worktrees-osc-7501-grpc-stdio-agent-ux-maturity/).
+This article covers the new capabilities that shipped in the stable build. For the lower-level infrastructure changes (managed worktrees, OSC 7501 terminal status, gRPC over stdio) that defined the alpha sprint's engineering direction, see [Reading the v0.163.0 Alpha Sprint](/2026/10/11/codex-v0163-managed-worktrees-osc-7501-grpc-stdio-agent-ux-maturity/).
 
 ---
 
@@ -91,7 +91,7 @@ The parallelisation is applied conservatively: only truly independent, read-only
 
 ### Daybreak Default-On
 
-[Daybreak](../2026-05-12-openai-daybreak-codex-security-enterprise-cyber-defence-platform/), the OpenAI notification and announcement layer that surfaces service notices inside the Codex TUI session, is now enabled by default for eligible accounts.
+[Daybreak](/2026/05/12/openai-daybreak-codex-security-enterprise-cyber-defence-platform/), the OpenAI notification and announcement layer that surfaces service notices inside the Codex TUI session, is now enabled by default for eligible accounts.
 
 In previous releases, Daybreak was opt-in via configuration. The v0.163.0 stable flips the default for eligible accounts (typically those on Codex plans with Daybreak access). Users who prefer not to see in-session notices can disable the feature via `/config`.
 
@@ -150,7 +150,7 @@ If you were enabling these features explicitly in configuration, you can remove 
 
 The changelog mentions several areas where work is ongoing but did not reach stable in this cycle:
 
-- The `/agents` parallel task management view (covered in passing in the [DevDay 2026 recap](../2026-10-08-openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud/)) does not have a dedicated stable release yet
+- The `/agents` parallel task management view (covered in passing in the [DevDay 2026 recap](/2026/10/08/openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud/)) does not have a dedicated stable release yet
 - Cross-device cloud environments (a pending article topic flagged in the backlog)
 - Guardian Subagent from v0.160.0 — still undocumented in a standalone article
 

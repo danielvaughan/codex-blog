@@ -1,7 +1,7 @@
 ---
-title: "Codex CLI v0.166.0-alpha.1: GPT-6.1-Terra, Safety Recourse, and Multi-Process Session Reliability"
+title: "Codex CLI v0.166.0-alpha.1: GPT-6.1 Terra, Safety Recourse, and Multi-Process Session Reliability"
 date: 2026-10-27T11:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 parent: "Articles"
 nav_order: 1206
 tags:
@@ -16,9 +16,9 @@ tags:
 copy_edited: true
 ---
 
-# Codex CLI v0.166.0-alpha.1: GPT-6.1-Terra, Safety Recourse, and Multi-Process Session Reliability
+# Codex CLI v0.166.0-alpha.1: GPT-6.1 Terra, Safety Recourse, and Multi-Process Session Reliability
 
-![Sketchnote diagram for: Codex CLI v0.166.0-alpha.1: GPT-6.1-Terra, Safety Recourse, and Multi-Process Session Reliability](/sketchnotes/articles/2026-10-27-codex-v0166-alpha1-gpt61-terra-safety-recourse-session-reliability.png)
+![Sketchnote diagram for: Codex CLI v0.166.0-alpha.1: GPT-6.1 Terra, Safety Recourse, and Multi-Process Session Reliability](/sketchnotes/articles/2026-10-27-codex-v0166-alpha1-gpt61-terra-safety-recourse-session-reliability.png)
 
 **Release track:** v0.166.0-alpha.1 (27 October 2026, 01:33 UTC)
 **Previous alpha track:** v0.165.0-alpha.3 (26 October 2026, 21:54 UTC)
@@ -30,7 +30,7 @@ copy_edited: true
 
 Four releases landed in a 28-hour window between 26 and 27 October. Then, at 01:33 UTC on 27 October, a new branch opened: v0.166.0-alpha.1. The 0.165.x sprint — observability, tracing, Guardian v2 — is not yet finished, but the 0.166.x branch signals where OpenAI is heading next.
 
-Three themes define the new sprint from its opening commit: a new model tier (GPT-6.1-Terra), a shift in how safety policy blocks are presented to users, and a set of low-level fixes to how concurrent Codex processes coordinate around shared session state.
+Three themes define the new sprint from its opening commit: a new model tier (GPT-6.1 Terra), a shift in how safety policy blocks are presented to users, and a set of low-level fixes to how concurrent Codex processes coordinate around shared session state.
 
 ---
 
@@ -44,13 +44,13 @@ Opening v0.166.0-alpha.1 while v0.165.x is still running is not unusual for Code
 
 ---
 
-## GPT-6.1-Terra: A New Model Tier
+## GPT-6.1 Terra: A New Model Tier
 
-The most significant single change in v0.166.0-alpha.1 is the addition of GPT-6.1-Terra to the Codex model catalogue.
+The most significant single change in v0.166.0-alpha.1 is the addition of GPT-6.1 Terra to the Codex model catalogue.
 
 Terra is the next step above Sol in the GPT-6.1 family. The PR (`#57337`, backported into the 0.166 branch) adds Terra support to the model selection system and introduces a `features.simplified_selection_hints` flag that adjusts how model capabilities are surfaced in the TUI.
 
-The naming pattern in the GPT-6.1 family follows a progression from lighter to heavier models. Sol (released in the v0.165.x window) brought improved instruction-following over the previous generation. Terra extends that further — based on the PR description, expect stronger reasoning with a corresponding increase in token cost.
+The naming pattern in the GPT-6.1 family follows a progression from lighter to heavier models. Sol (released in the v0.165.x window) brought improved instruction-following over the previous generation. Terra extends that further — based on the PR description, expect stronger reasoning. Confirmed pricing with the v0.165.0 stable release: `gpt-6.1-terra` is \$1 per million input tokens and \$5 per million output tokens, half the price of GPT-6.1 Sol for API usage.
 
 The timing matters. The GPT-6.1 Sol AGENTS.md compliance regression has been open for 19 days without an official fix from OpenAI. Terra's arrival in alpha does not close that regression — the regression is a behavioural issue with Sol's instruction-following, not a missing model. But it does give teams a migration path: if Sol's compliance behaviour remains unreliable for AGENTS.md write-constraints, Terra offers an alternative before any model-level patch ships.
 
@@ -186,7 +186,7 @@ Safety recourse prompts appear automatically when a policy block fires in an int
 
 ## Summary
 
-v0.166.0-alpha.1 opens a new sprint thread while v0.165.x observability work continues in parallel. The three core changes — GPT-6.1-Terra model support, safety policy recourse in the TUI, and multi-process session reliability — address different layers of the user experience. Terra expands the model options for teams affected by the Sol compliance regression. Safety recourse makes blocked sessions recoverable rather than terminal. Session index serialisation makes multi-window workflows reliable rather than accident-prone.
+v0.166.0-alpha.1 opens a new sprint thread while v0.165.x observability work continues in parallel. The three core changes — GPT-6.1 Terra model support, safety policy recourse in the TUI, and multi-process session reliability — address different layers of the user experience. Terra expands the model options for teams affected by the Sol compliance regression. Safety recourse makes blocked sessions recoverable rather than terminal. Session index serialisation makes multi-window workflows reliable rather than accident-prone.
 
 Sprint day 23 of 28. The 0.166.x arc is just beginning.
 

@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.165.0 Stable: GCP Vertex AI Built-In, GPT-6.1 Terra, Memory v2 Default"
 date: 2026-10-28T07:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 parent: "Articles"
 nav_order: 1208
 tags:
@@ -23,13 +23,13 @@ copy_edited: true
 **Release date:** 27 October 2026, 20:09 UTC
 **Version:** v0.165.0 stable
 **Previous stable:** v0.164.0 (23 October 2026, 04:48 UTC)
-**Sprint duration:** 4 days, 13 hours (alpha.1 to stable)
+**Sprint duration:** 4 days, 6 hours (alpha.1 to stable)
 
 ---
 
 Codex CLI v0.165.0 reached stable on 27 October 2026, four days after v0.164.0 shipped. The release completes the observability sprint that opened on 23 October: turn-level tracing, streaming instrumentation, tool-dispatch logging, and Guardian v2 conversation mode are now generally available. Alongside the observability graduation, v0.165.0 delivers three significant changes that affect every user — GCP Vertex AI as a built-in provider, GPT-6.1 Terra in the model catalogue, and Memory v2 on by default for new installs.
 
-For a detailed look at what the observability sprint built, see [Inside the Black Box: Codex CLI v0.165.0's Observability Sprint](../2026-10-26-v0165-observability-sprint-tracing-streaming-tool-dispatch-guardian-v2/) and [GCP Vertex AI Provider: How v0.165.0-alpha.1 Expands Codex Beyond OpenAI's Infrastructure](../2026-10-23-gcp-vertex-ai-provider-codex-cli-alpha11-1/).
+For a detailed look at what the observability sprint built, see [Inside the Black Box: Codex CLI v0.165.0's Observability Sprint](/2026/10/26/v0165-observability-sprint-tracing-streaming-tool-dispatch-guardian-v2/) and [GCP Vertex AI Provider: How v0.165.0-alpha.1 Expands Codex Beyond OpenAI's Infrastructure](/2026/10/23/gcp-vertex-ai-provider-codex-cli-alpha11-1/).
 
 ---
 
@@ -157,20 +157,6 @@ The memory configuration is shown in the status output. To explicitly set Memory
 
 ---
 
-### `codex doctor --network-only`
-
-v0.165.0 adds a `--network-only` flag to the `codex doctor` diagnostic command.
-
-The full `codex doctor` check covers filesystem permissions, sandbox configuration, credential validation, model connectivity, and MCP server reachability. In environments where filesystem and sandbox are known-good (e.g. a CI runner that was working yesterday), running the full diagnostic to chase a connectivity issue adds unnecessary noise.
-
-```bash
-codex doctor --network-only
-```
-
-The `--network-only` flag restricts the check to network-facing components: API reachability, credential token validity, proxy configuration, and MCP server connectivity. It runs faster and produces a focused output useful for network-layer debugging.
-
----
-
 ### Catalogue Headings in Saved Command-Prefix Notices
 
 A UX detail worth noting: v0.165.0 includes catalogue headings in the notices shown when a saved command prefix is active. When a preset or saved command prefix is running, the TUI now displays the catalogue heading associated with that prefix, making it immediately clear which saved workflow is active without requiring the user to remember the prefix content.
@@ -183,7 +169,7 @@ v0.165.0 was a four-day sprint with a clear internal theme: graduating the obser
 
 The additions — GCP Vertex AI, Terra, Memory v2 default, mid-session reasoning effort — are not incidental. They are the commercial and operational layer that the observability infrastructure now supports: enterprises need multi-cloud support with audit trails (GCP Vertex AI), compliance-critical deployments need reliable instruction-following (Terra), long-running agentic workflows need persistent memory (Memory v2), and dynamic workloads need real-time cost control (reasoning effort mid-session).
 
-v0.166.0-alpha.1 opened within three hours of v0.165.0 going stable. The new sprint introduces GPT-6.1 Terra safety recourse in the TUI, multi-process session index reliability, and VS Code scoping improvements. v0.165.0 alpha.4 and alpha.5 landed on 28 October with internal refactoring. Stable for v0.166.0 is expected within the week.
+v0.166.0-alpha.1 opened within three hours of v0.165.0 going stable. The new sprint introduces GPT-6.1 Terra safety recourse in the TUI, multi-process session index reliability, and VS Code scoping improvements. v0.166.0-alpha.4 and alpha.5 landed on 28 October with internal refactoring. Stable for v0.166.0 is expected within the week.
 
 ---
 
@@ -206,10 +192,10 @@ codex --version
 
 ## Related Articles
 
-- [Inside the Black Box: Codex CLI v0.165.0's Observability Sprint](../2026-10-26-v0165-observability-sprint-tracing-streaming-tool-dispatch-guardian-v2/)
-- [GCP Vertex AI Provider: How v0.165.0-alpha.1 Expands Codex Beyond OpenAI's Infrastructure](../2026-10-23-gcp-vertex-ai-provider-codex-cli-alpha11-1/)
-- [Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On](../2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock/)
-- [Codex CLI v0.166.0-alpha.1: GPT-6.1 Terra, Safety Recourse TUI, and Session Reliability](../2026-10-27-codex-v0166-alpha1-gpt61-terra-safety-recourse-session-reliability/)
+- [Inside the Black Box: Codex CLI v0.165.0's Observability Sprint](/2026/10/26/v0165-observability-sprint-tracing-streaming-tool-dispatch-guardian-v2/)
+- [GCP Vertex AI Provider: How v0.165.0-alpha.1 Expands Codex Beyond OpenAI's Infrastructure](/2026/10/23/gcp-vertex-ai-provider-codex-cli-alpha11-1/)
+- [Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On](/2026/10/23/codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock/)
+- [Codex CLI v0.166.0-alpha.1: GPT-6.1 Terra, Safety Recourse TUI, and Session Reliability](/2026/10/27/codex-v0166-alpha1-gpt61-terra-safety-recourse-session-reliability/)
 
 ---
 

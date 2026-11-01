@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-git-backed-team-memory-egregore-codex-hooks"
 tags: ["team-memory", "egregore", "shared-cognition", "git-memory", "hooks", "handoff", "multi-agent", "collaboration"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 ---
 # Git-Backed Team Memory for Coding Agents: From Egregore to Codex Hooks
 
@@ -282,7 +282,7 @@ The entire system requires no custom infrastructure beyond what's already in you
 
 [^1]: [Egregore — Shared Cognition for Teams and Agents](https://egregore.xyz/) and [Show HN discussion](https://news.ycombinator.com/item?id=47806427), April 18, 2026
 [^2]: [Egregore Shared Memory Documentation](https://egregore.xyz/docs/concepts/memory), Egregore Docs, 2026
-[^3]: Daniel Vaughan, internal notes: [egregore-shared-cognition-patterns.md](#), 2026-04-18
+[^3]: Daniel Vaughan, internal notes: egregore-shared-cognition-patterns.md, 2026-04-18
 [^4]: [feat: @include directive for composable AGENTS.md files · Issue #17401](https://github.com/openai/codex/issues/17401), openai/codex, April 11, 2026
 [^5]: [Hooks – Codex | OpenAI Developers](https://developers.openai.com/codex/hooks), OpenAI, 2026
 [^6]: [Features – Codex CLI | OpenAI Developers](https://developers.openai.com/codex/cli/features), OpenAI, 2026

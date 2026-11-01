@@ -1,7 +1,7 @@
 ---
 title: "Zero-Trust Agent Runtime: Ephemeral Registration and Signed Assertions in Codex CLI v0.164.0"
 date: 2026-10-21T09:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 parent: "Articles"
 nav_order: 1193
 tags:
@@ -179,7 +179,7 @@ Guardian hardening defaults are enabled automatically. If you find the increased
 
 ## v0.163.0 Caveats
 
-As with the MCP OAuth changes, the zero-trust security work is in the v0.164.0 alpha track only. v0.163.0 stable is unaffected by these changes and retains the previous Guardian model. v0.163.0 has three known platform regressions (Windows 11 26H2 daemon failure, Ubuntu 24.04 hang, macOS compaction) — see the [v0.163.0 stable release article](../2026-10-16-codex-v0163-stable-release-config-follow-up-parallel-tools-daybreak/) for details and the v0.162.1 downgrade workaround.
+As with the MCP OAuth changes, the zero-trust security work is in the v0.164.0 alpha track only. v0.163.0 stable is unaffected by these changes and retains the previous Guardian model. v0.163.0 has three known platform regressions (Windows 11 26H2 daemon failure, Ubuntu 24.04 hang, macOS compaction) — see the [v0.163.0 stable release article](/2026/10/16/codex-v0163-stable-release-config-follow-up-parallel-tools-daybreak/) for details and the v0.162.1 downgrade workaround.
 
 ---
 

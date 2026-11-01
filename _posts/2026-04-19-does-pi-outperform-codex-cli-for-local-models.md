@@ -1,7 +1,7 @@
 ---
 title: "Does Pi Outperform Codex CLI for Local Models? A Harness Comparison on the NVIDIA GB10"
 date: 2026-04-19T00:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 tags:
   - codex-cli
   - pi
@@ -228,7 +228,7 @@ Our benchmark adds one data point to this picture: the harness matters less than
 
 ---
 
-*Benchmark run: 19 April 2026, Starbucks Cambridge → Clayton Hotel lobby. Hardware: NVIDIA GB10 (128 GB unified). All raw logs and configuration files available in [`projects/gemma4-qwen36/`](../projects/gemma4-qwen36/).*
+*Benchmark run: 19 April 2026, Starbucks Cambridge → Clayton Hotel lobby. Hardware: NVIDIA GB10 (128 GB unified). All raw logs and configuration files available in `projects/gemma4-qwen36/`.*
 
 ### Sources
 

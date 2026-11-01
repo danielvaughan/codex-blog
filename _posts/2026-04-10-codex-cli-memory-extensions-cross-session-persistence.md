@@ -2,7 +2,7 @@
 title: "Codex CLI Memory Extensions: Cross-Session Persistence Lands in Main"
 description: "PR #16276 merged April 9, 2026 — the most strategically significant feature in weeks."
 date: 2026-04-10T05:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 status: published
 research_date: 2026-04-10T06:00:00+01:00
 tags:
@@ -86,4 +86,4 @@ Memory extensions combined with the profile system (`--profile-v2`, PR #17141) c
 
 ---
 
-*Source: [PR #16276](https://github.com/openai/codex/pull/16276), [changelog-watch](#). Added 2026-04-10.*
+*Source: [PR #16276](https://github.com/openai/codex/pull/16276), changelog-watch. Added 2026-04-10.*

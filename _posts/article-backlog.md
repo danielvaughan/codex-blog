@@ -1,10 +1,33 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 31 October 2026 (Hourly Automated Pass)
+
+*Hourly KB review — 2 articles written this pass. Library: 2,081 articles, 123 premium. Substack drafts: 281.*
+
+**Done this pass:**
+- `articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.md` — v0.166.0 stable release article (released Oct 29, previously uncovered); covers codex queue --resume, keyboard transcript selection, GPT-6.1 Terra, safety-block explanations, codex doctor --network-only, async Markdown rendering, Bazel/V8 Windows build, per-chat MCP leases, GCP Vertex AI onboarding
+- `substack-drafts/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.md` — Substack draft written
+- `articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.md` — CRITICAL Pro allowance cut opinion piece; covers 20x→10x cut (Oct 30), community migration signals (Claude Code, Grok+Cursor, ChatGPT Go), credit grant optics, three-regression pattern, strategic thesis spreading in community
+- `substack-drafts/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.md` — Substack draft written
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — placeholder created (0-byte)
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — placeholder created (0-byte)
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — placeholder (new)
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — placeholder (new)
+
+**Next windows:**
+- 28 Days of Shipping End-of-Sprint Scorecard — write 1–3 November (Day 28 = Nov 1)
+- v0.165.0 regression retrospective — carry forward
+- Windows regression pattern piece — "Three Releases, Three Windows Regressions"
+
 ---
 
 ## Article Triage — 23 October 2026 (Article-Rater Automated Pass)
@@ -627,7 +650,7 @@ Both Substack drafts have embedded sketchnote placeholder comments ready for ima
 
 *Identified from Toxic Flow footnote [^265] addition (Xu et al. arXiv:2510.10165).*
 
-1. 📝 **The Invisible Validator Burden: Who Pays When AI Writes Code?** — 🔴 Critical
+1. ✅ **The Invisible Validator Burden: Who Pays When AI Writes Code?** — Written 2026-10-09 → `2026-10-09-invisible-validator-burden-ai-assisted-programming-core-developer-productivity-review-load-codex-cli.md`
    - Source: Xu et al. arXiv:2510.10165 — "Invisible Validator Burden: AI-Assisted Development and Core Developer Productivity" (October 2025, revised April 2026). Diff-in-diff natural experiment across 2,755 GitHub repos. Core devs: -19% own-code productivity, +6.5% review load, 10 extra PRs reviewed, 164 fewer commits per year. Peripheral devs: +43.5% commits. First causal study (not survey) formally quantifying the redistribution of effort from core to periphery after AI adoption.
    - Article angle: The productivity gain narrative hides a structural redistribution. Core contributors who own the codebase carry a rising review load while peripheral contributors capture the speed benefit. Four-article causal arc: Xu et al. (redistribution), Safer Builders Risky Maintainers (maintenance risk), Jevons Paradox (efficiency paradox), CAID Parallelism (coordination ceiling). AGENTS.md review-load governance patterns — `max_prs_per_session`, PR complexity scoring hooks, maintainer-gated approvals. PostToolUse reviewer fatigue signal. Premium-grade (likely 4.8+). Target: 1,600 words.
 
@@ -637,19 +660,19 @@ Both Substack drafts have embedded sketchnote placeholder comments ready for ima
 
 *Gaps surfaced from article-rater session on 1 October 2026. DevDay 2026 announced five new Codex features on 29 September. The 24–48 hour news window has passed; reference and tutorial coverage remains critical.*
 
-1. 📝 **OpenAI DevDay 2026: What Was Announced and What It Means for Codex CLI** — 🔴 Critical
+1. ✅ **OpenAI DevDay 2026: What Was Announced and What It Means for Codex CLI** — Written 2026-10-08 → `2026-10-08-openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud.md`
    - Source: DevDay 2026 (29 September, San Francisco). Codex Cloud (remote task execution, laptop-closed), /agents view (parallel agent management from one CLI session), GPT-6.1 Sol as new default model (v0.159.1, \$2/\$10 per M tokens, 95% cheaper cached input), Code Review (GitHub/GitLab PR review), and Codex Security Cloud (scheduled automated repo scanning) all announced. The earlier June 2026 preparation article (`2026-06-10-openai-devday-2026-codex-cli-developer-guide-september-announcements-preparation.md`) covered predictions — this is the retrospective. Zero KB coverage of any of the five announced features. Best current discovery opportunity. Target: 2,000 words, free tier.
 
 2. 📝 **GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price — a Practical Decision Framework** — 🔴 Critical
    - Source: DevDay 2026 keynote (29 September 2026) + Codex CLI v0.159.1 release. GPT-6.1 Sol is the new default model. Bijan Bowen (engineering blog, September 2026) finding: full test suite at GPT-6.1 Sol consumed only 3% of weekly token limit — changes cost assumptions for teams currently using Astra. Three-way decision tree (Astra / Sol / Luna) with task classification matrix. Updates and supersedes the GPT-6 Sol/Luna model picker article (`2026-09-25-gpt-6-sol-luna-model-picker-three-tier-routing-codex-cli.md`, 4.0). Target: 1,600 words, premium.
 
-3. 📝 **Full Access Mode Is Deleting Home Directories — What Every Codex CLI User Must Know** — 🔴 Critical (WINDOW CLOSES ~5 OCTOBER)
+3. ✅ **Full Access Mode Is Deleting Home Directories — What Every Codex CLI User Must Know** — Written 2026-10-04 → `2026-10-04-full-access-mode-home-directory-deletion-practitioner-safety-guide-codex-cli.md`
    - Source: GitHub Issue #36937 + Issue #37419 (confused deputy via rollout JSONL, Git Bash, Windows/Linux). Misconfigured full-access mode causes silent home directory deletions. Existing article `2026-09-04-data-as-code-confused-deputy-rollout-jsonl-codex-cli.md` covers the technical root cause. This article is the practitioner safety guide: who is affected, immediate mitigation steps, `config.yaml` audit checklist, safe rollback procedure. HIGH URGENCY — practitioner safety window. Target: 1,200 words, free tier.
 
 4. 📝 **Codex in the Cloud: AGENTS.md Patterns That Travel** — 🟠 High
    - Source: DevDay 2026 (29 September). Codex Cloud confirmed: tasks run remotely, laptop can be closed, cross-device handoff real. Three differences from local sessions: filesystem access (repo-only, no local paths), secret management (cloud env vars vs .env), session continuity (named sessions replace worktrees). Cloud-compatible AGENTS.md template. Target: 1,400 words, free tier.
 
-5. 📝 **The /agents View: Managing Parallel Codex Agents from One CLI Session** — 🟠 High
+5. ✅ **The /agents View: Managing Parallel Codex Agents from One CLI Session** — Written 2026-10-17 → `2026-10-17-agents-view-parallel-task-management-codex-cli-tui.md`
    - Source: DevDay 2026 (29 September) + v0.157 /fork shortcut + v0.159 instant_interrupt flag. New /agents view consolidates five parallel worktrees into one pane: status indicators, progress display, interrupt controls, session creation. Walkthrough: five-agent frontend/backend split with live monitoring. No KB coverage exists. Target: 1,200 words, free tier.
 
 6. 📝 **MCP 2.0 (Claude Code 2.1.284): Stateless Core, MCP Apps, and Enterprise Managed Auth** — 🟠 High

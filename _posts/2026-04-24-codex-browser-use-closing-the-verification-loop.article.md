@@ -2,7 +2,7 @@
 title: "Codex Can See What It Builds: How Browser Use Closes the Verification Loop"
 description: "From Experiment to Enterprise: The Agentic Engineering Playbook — Supplementary Article This article examines how Codex's in-app browser and visual."
 date: 2026-04-24T17:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 tags:
   - codex-app
   - browser-use
@@ -51,7 +51,7 @@ The limitations are important and worth stating explicitly. The in-app browser d
 
 The verification problem in agentic coding has always been asymmetric. Agents are excellent at structural checks — does the code compile, do the tests pass, does the linter approve? They are poor at experiential checks — does this look right, does this feel right, does this behave the way a user would expect?
 
-That asymmetry creates a specific failure mode. In the [Testability](../codex-maturity/06-TST-proving-codex-right.article.md) dimension of the maturity model, I described how approximately half of AI-generated pull requests that pass automated test harnesses would not be merged by active maintainers.[^6] The cause is not that the code is wrong in ways tests can catch. The cause is that the code is wrong in ways that require human judgement — visual layout, interaction flow, accessibility, and the hundred small decisions that separate functional code from good code.
+That asymmetry creates a specific failure mode. In the Testability dimension of the maturity model, I described how approximately half of AI-generated pull requests that pass automated test harnesses would not be merged by active maintainers.[^6] The cause is not that the code is wrong in ways tests can catch. The cause is that the code is wrong in ways that require human judgement — visual layout, interaction flow, accessibility, and the hundred small decisions that separate functional code from good code.
 
 Browser use attacks this problem directly. It does not replace human judgement. It gives the agent access to the same sensory channel — rendered visual output — that humans use to form that judgement. The agent can now see the gap between the navigation menu and the hero image. It can see that the button text is truncated. It can see that the modal animation stutters.
 
@@ -157,7 +157,7 @@ For QA teams, this represents a structural shift. While 75 per cent of organisat
 
 ## Where browser use sits in the maturity model
 
-Browser use does not change the maturity model. It fills a gap that the model already identified. The [Testability](../codex-maturity/06-TST-proving-codex-right.article.md) dimension describes the verification surface — the system of tests, evals, and quality gates that converts agent output into trusted output. For backend work, that surface was already reasonably complete: unit tests, integration tests, type checks, linting, and CI pipelines. For frontend work, the surface had a hole where visual verification should be.
+Browser use does not change the maturity model. It fills a gap that the model already identified. The Testability dimension describes the verification surface — the system of tests, evals, and quality gates that converts agent output into trusted output. For backend work, that surface was already reasonably complete: unit tests, integration tests, type checks, linting, and CI pipelines. For frontend work, the surface had a hole where visual verification should be.
 
 Browser use patches that hole. But it does so in a way that interacts with several other maturity dimensions:
 
@@ -173,7 +173,7 @@ flowchart TD
 
 **Testability:** The visual channel adds a verification dimension that was previously human-only. Teams can now include visual checks in their definition of "done" for agent-completed frontend tasks.
 
-**Review:** The human reviewer's cognitive load drops when the agent has already verified visual output. Review shifts from low-level inspection ("is the padding correct?") to high-level alignment ("does this match the design intent?"). This is the same shift described in the [Review](../codex-maturity/07-REV-keeping-review-real.article.md) dimension — keeping review meaningful by reducing the trivial surface the human must inspect.
+**Review:** The human reviewer's cognitive load drops when the agent has already verified visual output. Review shifts from low-level inspection ("is the padding correct?") to high-level alignment ("does this match the design intent?"). This is the same shift described in the Review dimension — keeping review meaningful by reducing the trivial surface the human must inspect.
 
 **Instructions:** Browser comments introduce a new instruction modality. Instead of describing visual changes in text ("move the button 20 pixels up and increase the heading to 24pt bold"), the user points at the element and describes the change in context. This is a lower-friction, higher-precision instruction channel that reduces specification ambiguity — one of the three most common testability failures.
 

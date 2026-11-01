@@ -2,7 +2,7 @@
 title: "gpt-5-codex: The New Codex Flagship and What It Means for Your Workflow"
 description: "In late March 2026, OpenAI shipped two new models — gpt-5-codex and gpt-5-codex-mini — announced by @thsottiaux."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 tags:
   - models
   - model-selection
@@ -162,7 +162,7 @@ If you're moving from earlier models:
 
 ## Related Notes
 
-- [Model lineup overview](#) — full benchmark data and version history
+- Model lineup overview — full benchmark data and version history
 - [GPT-5.4 mini subagent delegation](/2026/03/30/gpt54-mini-codex-subagent-delegation/) — tiered inference architecture (still relevant; mini variant now replaced by gpt-5-codex-mini)
 - [Model selection guide](/2026/03/26/codex-cli-model-selection/) — decision framework (update model names as above)
 

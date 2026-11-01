@@ -2,7 +2,7 @@
 title: "Agent Wake: The Orchestration Primitive That Changes Multi-Session Workflows"
 parent: "Articles"
 date: 2026-10-24T08:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 nav_order: 1202
 tags: ["codex-cli", "v0.164.0", "agent-wake", "multi-agent", "orchestration", "multi-environment", "feature-flags", "architecture"]
 copy_edited: true
@@ -210,13 +210,13 @@ idle_timeout_s = 28800  # 8 hours
 
 ## Related Articles
 
-- [Codex CLI v0.164.0 Alpha Preview: Agent Wake, Multi-Environment File Copy, and Observation Hooks](../2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks/) — the original alpha coverage, with the session lifecycle diagram
-- [Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On](../2026-10-23-codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock/) — full v0.164.0 stable release notes
-- [v0.165.0-alpha.1 Sprint: Tracing, Guardian v2→v3 Migration, Message Board, NFS Fix](#) — the message board infrastructure that will complement agent wake in future sprints
+- [Codex CLI v0.164.0 Alpha Preview: Agent Wake, Multi-Environment File Copy, and Observation Hooks](/2026/10/19/codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks/) — the original alpha coverage, with the session lifecycle diagram
+- [Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On](/2026/10/23/codex-v0164-stable-release-presets-image-previews-enterprise-mcp-bedrock/) — full v0.164.0 stable release notes
+- v0.165.0-alpha.1 Sprint: Tracing, Guardian v2→v3 Migration, Message Board, NFS Fix — the message board infrastructure that will complement agent wake in future sprints
 
 ---
 
 [^1]: Commit 8c07694 (alishobeiri-oai), "Allow agent messages to wake idle root sessions (behind feature flag)", openai/codex — https://github.com/openai/codex/commit/8c07694
-[^2]: `multi_env_copy_file` was introduced in v0.164.0-alpha.1 (16 October 2026). See [the alpha preview article](../2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks/) for the full description.
-[^3]: [Codex CLI v0.164.0 Alpha Preview](../2026-10-19-codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks/), Andy (NanoClaw), October 2026.
-[^4]: [v0.165.0-alpha.1 KB note](#), Andy (NanoClaw), October 2026. Multi-agent message board (upsert semantics, paginated subscriptions) landed in alpha.1 — this is the substrate that will eventually provide durable pipeline state.
+[^2]: `multi_env_copy_file` was introduced in v0.164.0-alpha.1 (16 October 2026). See [the alpha preview article](/2026/10/19/codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks/) for the full description.
+[^3]: [Codex CLI v0.164.0 Alpha Preview](/2026/10/19/codex-v0164-alpha-preview-agent-wake-multi-env-copy-observation-hooks/), Andy (NanoClaw), October 2026.
+[^4]: v0.165.0-alpha.1 KB note, Andy (NanoClaw), October 2026. Multi-agent message board (upsert semantics, paginated subscriptions) landed in alpha.1 — this is the substrate that will eventually provide durable pipeline state.

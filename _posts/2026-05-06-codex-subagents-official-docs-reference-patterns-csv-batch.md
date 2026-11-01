@@ -2,7 +2,7 @@
 title: "The Official Codex Subagents Documentation — Architecture, Patterns, and CSV Batch Processing"
 description: "OpenAI's official subagents documentation page has matured into a comprehensive reference for multi-agent Codex workflows."
 date: 2026-05-06T00:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 category: reference
 tags:
   - subagents
@@ -128,7 +128,7 @@ The missing pieces remain: cross-session state sharing, agent-to-agent direct co
 
 ## Cross-references
 
-- [Custom agent TOML definitions](#)
-- [CSV fan-out pattern](#)
-- [Subagent design divergence: Codex vs Claude](#)
-- [Agent graph store PR #20689](#)
+- Custom agent TOML definitions
+- CSV fan-out pattern
+- Subagent design divergence: Codex vs Claude
+- Agent graph store PR #20689

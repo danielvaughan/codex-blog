@@ -5,7 +5,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-sandbox-subcommand-standalone-command-isolation-platform-native-security"
 tags: ["codex-cli", "sandbox", "security", "isolation", "macOS", "Linux", "Windows", "permission-profiles", "v0.137"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 ---
 # Codex CLI `codex sandbox` Subcommand: Running Arbitrary Commands Under Agent-Grade Isolation
 

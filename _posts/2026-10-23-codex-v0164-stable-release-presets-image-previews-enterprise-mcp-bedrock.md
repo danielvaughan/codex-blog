@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On"
 date: 2026-10-23T08:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 parent: "Articles"
 nav_order: 1200
 tags:
@@ -28,7 +28,7 @@ copy_edited: true
 
 Codex CLI v0.164.0 reached stable on 23 October 2026 after a twelve-iteration alpha sprint (alpha.1 through alpha.12, running 16–22 October). The release brings prompt management via `/presets`, inline image previews, the graduation of enterprise MCP authentication to general availability, Bedrock setup defaulting on, and a credential masking layer for remote execution environments.
 
-This article covers the user-facing features in v0.164.0 stable. For the enterprise auth architecture that formed the backbone of the alpha sprint, see [Bedrock Default-On: How v0.164.0's Alpha.9–11 Sprint Completed the Enterprise Auth Architecture](../2026-10-22-bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164/) and [MCP OAuth Default-On and the Enterprise Auth Overhaul](../2026-10-21-mcp-oauth-default-on-enterprise-auth-overhaul-codex-cli-v0164/).
+This article covers the user-facing features in v0.164.0 stable. For the enterprise auth architecture that formed the backbone of the alpha sprint, see [Bedrock Default-On: How v0.164.0's Alpha.9–11 Sprint Completed the Enterprise Auth Architecture](/2026/10/22/bedrock-default-on-enterprise-auth-graduation-codex-cli-v0164/) and [MCP OAuth Default-On and the Enterprise Auth Overhaul](/2026/10/21/mcp-oauth-default-on-enterprise-auth-overhaul-codex-cli-v0164/).
 
 ---
 
@@ -77,7 +77,7 @@ Enterprise MCP authentication graduates from experimental to general availabilit
 
 The enterprise MCP auth path was introduced in alpha form during the v0.163.0 cycle and progressively hardened through the v0.164.0 alpha sprint (PRs #55334, #55859, #56001 and related fixes). GA status means the feature is now covered by stability guarantees and is suitable for production enterprise deployments.
 
-For a detailed account of the auth architecture changes that underpinned this graduation, see [Zero-Trust Agent Runtime: Ephemeral Registration and Signed Assertions](../2026-10-21-zero-trust-agent-runtime-ephemeral-registration-signed-assertions-codex-cli-v0164/).
+For a detailed account of the auth architecture changes that underpinned this graduation, see [Zero-Trust Agent Runtime: Ephemeral Registration and Signed Assertions](/2026/10/21/zero-trust-agent-runtime-ephemeral-registration-signed-assertions-codex-cli-v0164/).
 
 ### Credential Masking for Remote Execution
 
@@ -162,4 +162,4 @@ The v0.163.0 backport track (addressing the macOS bootstrap failure, Ubuntu 24.0
 
 The v0.165.0 alpha sprint has not yet begun at the time of writing. Based on the v0.164.0 sprint pattern, the next cycle is expected to start within a few days of stable shipping.
 
-For the community reliability picture as of stable release — including the Daybreak Blue restrictions thread, Windows file deletion incident, and Linux OOM regression — see the [changelog watch entry for 23 October 2026](#).
+For the community reliability picture as of stable release — including the Daybreak Blue restrictions thread, Windows file deletion incident, and Linux OOM regression — see the changelog watch entry for 23 October 2026.

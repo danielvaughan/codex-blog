@@ -1,7 +1,7 @@
 ---
 title: "Unmix: Reversible AI Decisions and the Git Task Ledger Pattern"
 date: 2026-10-22T08:00:00+00:00
-last_modified_at: 2026-10-28T13:04:38Z
+last_modified_at: 2026-11-01T03:11:00Z
 parent: "Articles"
 nav_order: 1195
 tags:
@@ -151,7 +151,7 @@ response:
          mechanism documented in task-0041."
 ```
 
-The agent is informed of prior decisions before it makes a new one. This is the pattern of explicit context that [Goal Instruction Writer](../2026-10-21-codex-community-agent-handoff-tools-ctx-kit-estafeta-goal-instruction-writer/) attempts to solve via AGENTS.md — but Unmix solves it dynamically, via a queryable live record, rather than statically via a configuration file.
+The agent is informed of prior decisions before it makes a new one. This is the pattern of explicit context that [Goal Instruction Writer](/2026/10/21/codex-community-agent-handoff-tools-ctx-kit-estafeta-goal-instruction-writer/) attempts to solve via AGENTS.md — but Unmix solves it dynamically, via a queryable live record, rather than statically via a configuration file.
 
 ### 2. Agent-initiated reversal
 
