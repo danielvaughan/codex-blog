@@ -1,7 +1,7 @@
 ---
 title: "GitSkills and the 3.7 Million Skill Files: What the Largest Agent Skill Dataset Reveals About Codex CLI's Plugin Ecosystem"
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-11-01T17:05:10Z
+last_modified_at: 2026-11-01T18:08:10Z
 tags: ["codex-cli", "skills", "SKILL.md", "agent-plugins", "plugin-catalog", "GitSkills", "dataset", "reuse", "ecosystem"]
 ---
 

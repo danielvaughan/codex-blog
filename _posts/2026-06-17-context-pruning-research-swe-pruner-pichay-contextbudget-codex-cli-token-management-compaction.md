@@ -5,7 +5,7 @@ timestamp: 2026-06-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-17-context-pruning-research-swe-pruner-pichay-contextbudget-codex-cli-token-management-compaction"
 tags: ["codex-cli", "context-pruning", "token-management", "SWE-Pruner", "Pichay", "ContextBudget", "compaction", "cost-optimisation", "context-window", "research"]
 date: 2026-06-17T09:00:00+00:00
-last_modified_at: 2026-11-01T17:05:10Z
+last_modified_at: 2026-11-01T18:08:10Z
 ---
 # Context Pruning for Coding Agents: What SWE-Pruner, Pichay, and ContextBudget Mean for Codex CLI Token Management
 

@@ -1,7 +1,7 @@
 ---
 title: "Deep Agentic Search vs Semantic Search: Why Delegating Code Exploration to Subagents Costs More and Finds Less — and What It Means for Your Codex CLI Search Strategy"
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-11-01T17:05:10Z
+last_modified_at: 2026-11-01T18:08:10Z
 tags: ["codex-cli", "code-search", "subagent-delegation", "context-rot", "semantic-search", "MCP", "repository-navigation", "SWE-QA"]
 ---
 

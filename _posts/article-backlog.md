@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-01T17:05:10Z
+last_modified_at: 2026-11-01T18:08:10Z
 tags:
   - backlog
   - planning
@@ -14968,3 +14968,31 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Articles requiring citation addition (currently accuracy-scored at 3): Gemini 4 Argon Pricing (Oct 15), WebMCP Browser Native (Oct 15), Workday Agent-Ready Tools (Oct 15), Bedrock Default-On (Oct 22), Codex Skill Flywheel (Oct 22), VS Code Reliability Collapse (Oct 10).
    - Action: Each article should have 3–6 primary citations added. VS Code article needs incident ticket or community thread links. Gemini article needs Google pricing documentation. Once citations are added, accuracy scores can be raised from 3 to 4.
    - Priority: 🟡 Medium — quality debt, not a new article.
+
+### 193 · `codex queue --resume`: Async Session Management
+
+1. 📝 **`codex queue --resume`: Async Session Management for Long-Running Work** — Identified 2026-11-01 by article-rater
+   - Sources: Codex CLI v0.166.0 stable article (4.6, Oct 31). The queue --resume primitive is covered as one of nine features; a dedicated how-to does not exist.
+   - Gap: First truly async session management primitive in Codex CLI. A dedicated article could cover: thread lifecycle model (created → running → suspended → resumed), overnight batch task design patterns, AGENTS.md patterns for resumable tasks (idempotent instructions, checkpoint conventions), queue status monitoring, and failure recovery. Complements the v0.166.0 stable article without overlap.
+   - Priority: 🟠 High — practical how-to for teams running long-horizon tasks.
+
+### 194 · v0.167.0 Sprint Preview: What OpenAI Needs to Ship Next
+
+1. 📝 **v0.167.0 Sprint Preview: What OpenAI Needs to Ship Next** — Identified 2026-11-01 by article-rater
+   - Sources: 28 Days of Shipping scorecard (4.5, Nov 1). Zero-for-four on Tier 1 wishlist. Pro allowance crisis. Stack Overflow 65.5% Claude Code vs 29.5% Codex CLI.
+   - Gap: The 28 Days sprint improved enterprise and multi-provider stories. v0.167.x sprint opens 3 November. No sprint preview or community wishlist analysis written. Key angles: what the four undelivered Tier 1 items (remote WSL, undo, cost visibility, quota transparency) would each require architecturally; which is most achievable in a 28-day window; what the community trust deficit means for sprint communication strategy.
+   - Priority: 🟠 High — first-mover window is now; sprint theme emerges within days.
+
+### 195 · A2A v1.0 vs MCP: Two Protocols, One Decision
+
+1. 📝 **A2A v1.0 vs MCP: Two Protocols, One Decision** — Identified 2026-10-31 by article-rater
+   - Sources: MCP 2026-07-28 RC article (4.3), AAIF governance article (3.8), the 2026 landscape article (4.2). 150 organisations running A2A in production (reported in landscape article).
+   - Gap: OpenAI's Agent-to-Agent protocol (A2A) has 150 production deployments but the library has no dedicated comparison to MCP (now AAIF-governed). Key sections: protocol mechanics (A2A vs MCP request-response model), when A2A's peer-to-peer pattern beats MCP's client-server model, how they compose in multi-agent Codex CLI pipelines, migration path from MCP to A2A for tool-heavy agents, and the governance dimension (AAIF vs OpenAI stewardship).
+   - Priority: 🟡 Medium — no first-mover pressure but gap widens as A2A adoption grows.
+
+### 196 · NIST Agent Identity Tenets: Zero-Trust for Coding Agents
+
+1. 📝 **NIST Agent Identity Tenets: Zero-Trust for Coding Agents** — Identified 2026-10-29 by article-rater (Seroter reading list #899)
+   - Sources: Command Safety Defence in Depth (4.4), Lockdown Mode and Prompt Injection Defence (4.6), Hope Is Not a Guardrail (#59, 5.0). NIST paper flagged but unprocessed.
+   - Gap: NIST published agent identity tenets connecting to zero-trust runtime architectures. No article maps these tenets to Codex CLI implementation. Key sections: NIST identity tenets explained (ephemeral identity, bounded authority, attestation), how PEM client identities in Codex CLI implement or partially implement each tenet, Guardian v2 as an attestation layer, EU AI Act deployer obligations mapped to NIST framework, gaps and open items.
+   - Priority: 🟡 Medium — governance and compliance audience, connects to existing security library.
