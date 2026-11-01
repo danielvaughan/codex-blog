@@ -3,7 +3,7 @@ title: "Cross-Task Coordination: Combining @Mentions and Native Worktrees for Pa
 parent: "Articles"
 nav_order: 1171
 date: 2026-09-29T08:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding", "v0.150.0", "v0.154.0", "v0.156.0", "cross-task", "orchestration"]
 ---
 

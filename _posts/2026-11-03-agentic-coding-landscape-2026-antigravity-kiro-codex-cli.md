@@ -1,7 +1,7 @@
 ---
 title: "The 2026 Agentic Coding Landscape: Antigravity Is Live, Kiro Survives a Security Crisis, and Codex Finishes a Sprint"
 date: 2026-11-03T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 parent: "Articles"
 nav_order: 1213
 tags:
@@ -13,14 +13,14 @@ tags:
   - community
   - landscape
   - november-2026
-copy_edited: false
+copy_edited: true
 ---
 
 # The 2026 Agentic Coding Landscape: Antigravity Is Live, Kiro Survives a Security Crisis, and Codex Finishes a Sprint
 
 ![Sketchnote diagram for: The 2026 Agentic Coding Landscape: Antigravity Is Live, Kiro Survives a Security Crisis, and Codex Finishes a Sprint](/sketchnotes/articles/2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.png)
 
-**Context:** As of 1 November 2026, Google's consumer Gemini CLI is retired and the Jules brand is fully discontinued. Antigravity is now Google's sole coding agent offering. This article maps the landscape as it stands heading into Q4.
+**Context:** As of 1 November 2026, Google's consumer Gemini CLI is retired and the Jules brand is fully discontinued. Antigravity is now Google's sole coding agent.
 
 ---
 

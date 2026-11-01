@@ -1,7 +1,7 @@
 ---
 title: "Brittle Test Suites: What 22,000 Program Variants Reveal About LLM-Generated Tests Under Software Evolution — and How Codex CLI's Hook and Verification Stack Keeps Them Honest"
 date: 2026-07-07T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 tags: ["codex-cli", "test-generation", "software-evolution", "regression-testing", "hooks", "verification", "LLM", "research"]
 ---
 

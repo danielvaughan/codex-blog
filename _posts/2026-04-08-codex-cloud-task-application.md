@@ -2,7 +2,7 @@
 title: "Codex Cloud Task Application: From Slack Dispatch to Reviewed Diff Merge"
 description: "Codex cloud transforms OpenAI's coding agent from a local terminal companion into an asynchronous task engine. You dispatch work — from the CLI, a Slack."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 tags:
   - cloud
   - codex-cloud

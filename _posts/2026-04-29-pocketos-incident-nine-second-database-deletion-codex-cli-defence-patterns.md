@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-pocketos-incident-nine-second-database-deletion-codex-cli-defence-patterns"
 tags: ["security", "agent-safety", "production-guardrails", "approval-modes", "sandbox", "incident-analysis", "AGENTS.md"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 ---
 # The Nine-Second Database Deletion: What the PocketOS Incident Teaches Codex CLI Practitioners About Agent Safety
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-openai-deployment-company-codex-cli-enterprise-forward-deployed-engineers"
 tags: ["codex-cli", "enterprise", "deployment-company", "forward-deployed-engineers", "tomoro", "governance", "openai"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 ---
 # The OpenAI Deployment Company: What \$4 Billion and 150 Forward Deployed Engineers Mean for Codex CLI in the Enterprise
 

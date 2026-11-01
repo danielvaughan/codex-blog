@@ -1,7 +1,7 @@
 ---
 title: "Bad Memory: Why Pre-Planted Payloads in Agent Memory Files Succeed Where External Injection Fails — and How Codex CLI's Trust Tiers and Memory Pipeline Defend Against It"
 date: 2026-07-21T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 tags: ["codex-cli", "security", "memory-poisoning", "prompt-injection", "AGENTS.md", "persistent-state", "trust-tiers", "memory-pipeline", "defence"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-neon-branching-safe-database-schema-refactoring-mcp"
 tags: ["codex-cli", "neon", "database", "mcp", "schema-migration", "branching", "drizzle", "postgres"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 ---
 # Safe Database Schema Refactoring with Codex CLI and Neon Branching
 

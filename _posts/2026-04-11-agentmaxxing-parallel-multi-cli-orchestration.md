@@ -6,7 +6,7 @@ timestamp: 2026-04-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-agentmaxxing-parallel-multi-cli-orchestration"
 tags: ["agentmaxxing", "parallel-agents", "orchestration", "worktrees", "parallel-code", "mozzie", "worktrunk", "multi-cli", "codex-cli"]
 date: 2026-04-11T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 ---
 # Agentmaxxing: Parallel Multi-CLI Orchestration with Codex CLI, Claude Code and Gemini CLI
 

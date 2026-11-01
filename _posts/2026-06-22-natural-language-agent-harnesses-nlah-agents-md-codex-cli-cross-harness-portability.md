@@ -5,7 +5,7 @@ timestamp: 2026-06-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-22-natural-language-agent-harnesses-nlah-agents-md-codex-cli-cross-harness-portability"
 tags: ["codex-cli", "AGENTS.md", "harness-engineering", "NLAH", "cross-harness", "ECC", "portability", "natural-language", "agent-configuration", "IHR"]
 date: 2026-06-22T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 ---
 # Natural-Language Agent Harnesses: What NLAH Research, OpenAI's Harness Engineering, and Cross-Agent Portability Mean for Codex CLI AGENTS.md
 

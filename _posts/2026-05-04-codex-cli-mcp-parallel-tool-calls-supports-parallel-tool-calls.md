@@ -6,7 +6,7 @@ timestamp: 2026-05-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-04-codex-cli-mcp-parallel-tool-calls-supports-parallel-tool-calls"
 tags: ["codex-cli", "mcp", "parallel-tool-calls", "performance", "configuration", "concurrency"]
 date: 2026-05-04T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 ---
 # MCP Parallel Tool Calls in Codex CLI: Unlocking Concurrent Execution with supports_parallel_tool_calls
 

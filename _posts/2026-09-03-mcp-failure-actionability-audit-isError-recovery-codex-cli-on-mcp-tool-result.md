@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1112
 title: "The MCP Failure Gap: Why isError:true Is Rarely Enough — and How Codex CLI's on_mcp_tool_result Hook Bridges It"
 date: 2026-09-03T10:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 tags: ["codex-cli", "mcp", "error-handling", "on_mcp_tool_result", "hooks", "research", "tool-integration", "reliability"]
 ---
 

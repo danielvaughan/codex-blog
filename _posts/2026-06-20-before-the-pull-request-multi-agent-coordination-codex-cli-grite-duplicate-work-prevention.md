@@ -6,7 +6,7 @@ timestamp: 2026-06-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-20-before-the-pull-request-multi-agent-coordination-codex-cli-grite-duplicate-work-prevention"
 tags: ["multi-agent", "coordination", "grite", "duplicate-work", "worktrees", "subagents", "parallel-execution", "codex-cli", "hooks", "AGENTS.md"]
 date: 2026-06-20T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 ---
 # Before the Pull Request: What the Multi-Agent Coordination Research Means for Codex CLI Parallel Workflows
 

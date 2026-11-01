@@ -3,7 +3,7 @@ title: "SWE-Bench Pro Verified: How Reward Hacking Inflates Agent Scores — and
 parent: "Articles"
 nav_order: 1154
 date: 2026-09-09T08:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 tags: ["benchmarking", "evaluation", "reward-hacking", "SWE-Bench Pro", "agent reliability", "Codex CLI", "GLM-5.2", "benchmark integrity"]
 ---
 

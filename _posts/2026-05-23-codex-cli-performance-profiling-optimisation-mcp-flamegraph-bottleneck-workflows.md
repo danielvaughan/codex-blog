@@ -6,7 +6,7 @@ timestamp: 2026-05-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-23-codex-cli-performance-profiling-optimisation-mcp-flamegraph-bottleneck-workflows"
 tags: ["codex-cli", "performance", "profiling", "flamegraph", "MCP", "optimisation", "pprof", "CodSpeed", "bottleneck"]
 date: 2026-05-23T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 ---
 # Codex CLI for Performance Profiling and Optimisation: MCP-Driven Flamegraphs, Bottleneck Analysis, and Automated Fix Loops
 

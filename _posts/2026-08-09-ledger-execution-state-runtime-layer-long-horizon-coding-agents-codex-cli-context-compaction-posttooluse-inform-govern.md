@@ -1,7 +1,7 @@
 ---
 title: "Ledger and the Execution State Blindspot: Why Your Long-Horizon Coding Agent Forgets What It Already Knows — and How to Build an Inform-Govern Layer in Codex CLI"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-11-01T11:42:51Z
+last_modified_at: 2026-11-01T17:05:10Z
 tags: ["codex-cli", "execution-state", "long-horizon", "ledger", "context-compaction", "PostToolUse", "inform-govern", "runtime-layer", "SWE-bench", "token-efficiency"]
 ---
 
